@@ -587,3 +587,92 @@ every primitive event of both signs before readout and assign positive trace
 and negative return to the same stopped face.  The remaining physical producer
 under the repeated-core branch is event ownership for the primitive signed
 channel, not clipping and not a new packet-counting problem.
+
+## 12. Trace-before-return split
+
+There is one circular reading to forbid.  If the event map in `(SCSS.27)' uses
+the full face/polarity lift from `(SCSS.28)', and that full lift includes the
+same-face negative-return budget, then the proof has fed the desired return
+ownership back into the construction of the address process:
+
+\[
+\begin{array}{c}
+\text{event map}\\
+\Longrightarrow
+\text{stopped face-address process}\\
+\Longrightarrow
+\text{same-face negative-return budget}\\
+\Longrightarrow
+\text{full face/polarity lift}\\
+\Longrightarrow
+\text{event map}.
+\end{array}
+\tag{SCSS.30}
+\]
+
+The physical order is stricter.  Before return can be paid, the same primitive
+event only needs a face trace owner, not a proved same-face return budget.  The
+pre-return coordinate lift is therefore:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberChartProjectorLiftOrPaidExit.A}\\
+&+\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberPreReturnCoordinateLift.A}.
+\tag{SCSS.31}
+\]
+
+With that weaker coordinate lift, the event map should be built as a trace
+address map:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelStoppedCarrierCoverageOrPaidEscape.A}\\
+&+\texttt{PrimitiveStoppedCarrierCommonSelectorOwnershipOrPaidReselection.A}\\
+&+\texttt{PrimitiveStoppedChamberPreReturnCoordinateLift.A}\\
+&+\texttt{PrimitiveStoppedCommonSelectorCellOverlapFirstDifferenceCharge.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveChannelPreReturnEventAddressMap.A}.
+\tag{SCSS.32}
+\]
+
+This object owns positive and negative primitive events by carrier, selector,
+chart/projector, detector/channel, and pre-readout face trace.  It does not yet
+claim that lost positive sign has been paid.  It only prevents the same event
+from being unowned or multiply owned before the return account is opened.
+
+After `(SCSS.32)' supplies the trace-address skeleton, the same-face return
+budget is a downstream payment:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveChannelPreReturnEventAddressMap.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberSameFaceNegativeReturnBudget.A}.
+\tag{SCSS.33}
+\]
+
+Then the full Gold-facing face/polarity lift is recovered by the already
+installed conditional proof:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberFaceTraceFiberOrPaidDetachment.A}\\
+&+\texttt{PrimitiveStoppedChamberSameFaceSignedReturnBudgetOrPaidPolarity.A}
+\end{aligned}
+\Longrightarrow
+\texttt{PrimitiveStoppedChamberFacePolarityLiftOrPaidReturn.A}.
+\tag{SCSS.34}
+\]
+
+This is not a new closure claim.  It is a type correction and a stricter
+noncircular target.  The pre-map address theorem may use face trace ownership;
+it may not use same-face return as an input.  Same-face return becomes a
+consequence after the primitive signed-channel events of both signs are already
+owned by the same stopped face trace.
