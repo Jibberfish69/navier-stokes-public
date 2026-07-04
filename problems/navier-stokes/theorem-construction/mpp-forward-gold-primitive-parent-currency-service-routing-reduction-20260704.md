@@ -22,13 +22,20 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-nonselector-coordinate-lift-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-pre-readout-material-channelization-partition-20260704.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-channel-address-change-variation-charge-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-material-channel-atlas-multiplicity-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-raw-active-state-parent-capacity-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-parent-currency-face-atlas-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-address-change-charge-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-stopped-chamber-face-trace-fiber-atlas-reduction-20260704.md
 completion_truth: >-
   This note does not prove PrimitiveParentCurrencyServiceRoutingOrExit.A. It
   proves only a strict reduction and records the obstruction. Chart/projector
-  lift and detector/channel lift remain open chamber-level inputs, and the
-  off-face service exhaustion still depends on a pre-readout material
-  channelization / address-change exhaustion for the same primitive event.
+  lift and detector/channel lift remain open chamber-level inputs. The off-face
+  row cannot be produced from the downstream pre-return address-change charge,
+  because that charge uses face-trace machinery built after parent-currency face
+  admission. The noncircular off-face source is earlier: pre-readout material
+  channelization, parent active-state boundary, original-history root/endpoint
+  payment, and the parent-currency face boundary law.
 ---
 
 # Primitive parent-currency service routing reduction
@@ -68,7 +75,8 @@ There are three mechanisms at this level:
 2. the pressure detector and selector-announced signed channel failed to align,
    or a detector-silent / near-silent component became same-packet service;
 3. the event left the parent-currency face through boundary, collar, cutoff,
-   face/selector/address motion, legal loss, stopping, or class exit.
+   parent-currency transition, material service, legal loss, stopping, or class
+   exit.
 
 These are physical alternatives for one evolving velocity field. Transport
 moves the packet through the material chart, pressure and incompressibility
@@ -127,28 +135,50 @@ The remaining lower face is:
 This is the same-event exhaustion statement for the leftover material routes.
 It says that any primitive chamber event not captured by parent-currency face
 ownership, chart/projector routing, or detector/channel routing is already
-charged as same-packet boundary/collar/cutoff service, selector or address
-motion, local face-trace boundary service, legal loss, stop, or Pack/Part/Field
-exit before selected readout.
+charged as same-packet boundary/collar/cutoff service, parent-currency boundary
+or transition, material service, legal loss, stop, or Pack/Part/Field exit
+before selected readout.
 
-The current source evidence for `(PCSR.7)' is the material-channelization
-partition and address-change charge split:
+The noncircular lower form is:
 
 \[
 \begin{aligned}
 &\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}\\
-&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+&+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveParentCurrencyOffFaceServiceExhaustionOrExit.A}.
 \tag{PCSR.8}
 \]
 
-This is still open. The first input partitions the primitive signed-channel
-measure into same-material events and paid off-carrier residue before readout.
-The second input pays the selector, chart/projector, detector/channel, and
-face-trace motions once the primitive address process exists. Together they
-would make the off-face service exhaustive for the same event.
+This is still open. The material-channelization input says the primitive event
+is a same-packet material channel event or is already off-carrier paid before
+readout. The parent active-state input pays raw scale/collar/projector/material
+state boundaries. The original-history root/endpoint input supplies the
+selected-critical root and endpoint currency rows. The parent-currency boundary
+law pays overlaps and transitions between root/log, endpoint seed, and active
+full-exchange faces. Together they are the earliest physical sources that can
+make the off-face service exhaustive for the same event.
+
+The tempting address-change input is downstream and cannot be used as a
+producer here:
+
+\[
+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+\not\Longrightarrow
+\texttt{PrimitiveParentCurrencyOffFaceServiceExhaustionOrExit.A}
+\quad\text{as a proof input for face admission}.
+\tag{PCSR.8a}
+\]
+
+Its face row uses a pre-return face trace, and the face trace is built from the
+parent-currency face atlas. That atlas already consumes
+`PrimitiveStoppedChamberParentCurrencyFaceAdmissionOrPaidService.A'. Using the
+pre-return address-change charge here would therefore make the service-routing
+input help prove the admission theorem that the address-change charge already
+uses.
 
 ## 3. Strict reduction
 
@@ -164,9 +194,9 @@ the selector-announced channel, or that the relevant stress is detector-silent,
 `(PCSR.5)' routes it to paid detector/channel service or exit.
 
 If neither coordinate failure accounts for the event, then \(z\) is a leftover
-same-material off-face event: boundary, collar, cutoff, selector/address motion,
-face-trace motion, legal loss, stop, or exit. By `(PCSR.7)' it is already paid
-or removed before selected readout.
+same-material off-face event: boundary, collar, cutoff, parent-currency
+transition, material service, legal loss, stop, or exit. By `(PCSR.7)' it is
+already paid or removed before selected readout.
 
 Therefore
 
@@ -191,7 +221,9 @@ form:
 &+\texttt{PrimitiveStoppedChamberPressureActiveAngleLockOrPaidRotation.A}\\
 &+\texttt{PrimitiveStoppedChamberDetectorSilentReserveOrPaidService.A}\\
 &+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}\\
-&+\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}
+&+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}
 \end{aligned}
 \Longrightarrow
 \texttt{PrimitiveParentCurrencyServiceRoutingOrExit.A}.
@@ -212,9 +244,26 @@ Lyapunov law. It cannot be obtained by cycling through record-edge channel
 admission.
 
 The same warning applies to `(PCSR.7)'. Naming boundary, collar, cutoff, and
-address motion is not a proof of finite service. The proof still needs the
-pre-readout material partition and address-change exhaustion to attach those
+parent-currency motion is not a proof of finite service. The proof still needs
+the pre-readout material partition, active-state boundary payment,
+root/endpoint payment, and parent-currency boundary law to attach those
 payments to the original primitive event.
+
+There is also a circular route veto. The pre-return address-change charge is a
+consumer once the pre-return trace-address process exists. Its face-trace
+branch depends on
+
+\[
+\text{face trace fiber}
+\Leftarrow
+\text{pre-readout face atlas}
+\Leftarrow
+\text{parent-currency face admission}.
+\tag{PCSR.10a}
+\]
+
+So it cannot be a noncircular source for parent-currency service routing inside
+that same admission theorem.
 
 ## 5. Current proof truth
 
@@ -240,7 +289,9 @@ Still open:
 \texttt{PrimitiveStoppedChamberPressureActiveAngleLockOrPaidRotation.A},\\
 \texttt{PrimitiveStoppedChamberDetectorSilentReserveOrPaidService.A},\\
 \texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A},\\
-\texttt{PrimitiveChannelPreReturnAddressChangeCharge.A}.
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A},\\
+\texttt{OriginalHistoryRecordResetRootPayment.A},\\
+\texttt{PrimitiveStoppedChamberParentCurrencyFaceBoundaryLaw.A}.
 \end{gathered}
 \tag{PCSR.12}
 \]
