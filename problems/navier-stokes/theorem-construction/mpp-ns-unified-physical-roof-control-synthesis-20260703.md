@@ -881,6 +881,20 @@ Thus `PrimitiveSignedChannelMaterialCarrierSupport.A` plus
 future-positive edge admission and PLS decomposition inside retained chambers
 remain support because they do not cover negative return, detector-silent, or
 unretained primitive events.
+The primitive signed-channel material carrier support reduction is now installed
+in
+`mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md`.
+It lowers the first coverage input again. Same-packet Hodge, material-service,
+and PLS-channel identities prove attachment, but not all-event primitive carrier
+support. The primitive signed event must be represented directly from the
+original Navier-Stokes participation packet before stopped readout, with the
+same-history high packet, lower material coefficient, scale, collar/projector
+state, and pressure/strain/viscous channel. Any mass outside that representation
+must be paid as pressure-silent service, chart/projector/collar transfer,
+channel rotation, material service, legal, stop, or exit. Thus
+`PrimitiveSignedChannelDirectMaterialRepresentation.A` plus
+`PrimitiveSignedChannelOffCarrierServiceCharge.A` implies
+`PrimitiveSignedChannelMaterialCarrierSupport.A`.
 The primitive stopped-carrier common-selector ownership reduction is now
 installed in
 `mpp-forward-gold-primitive-stopped-carrier-common-selector-ownership-reduction-20260704.md`.
