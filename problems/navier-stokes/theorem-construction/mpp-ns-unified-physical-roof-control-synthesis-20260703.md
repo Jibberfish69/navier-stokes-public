@@ -471,6 +471,14 @@ selector-announced primitive channel. The smaller physical input is
 projector active functional and selector channel have a uniform pre-readout
 angle lock on the surviving residue, or the rotation away from that cone is
 paid as same-packet service, legal, stop, chart/collar transfer, or exit.
+The adaptive angle-lock obstruction in
+`mpp-forward-gold-adaptive-angle-lock-no-free-selector-rotation-20260704.md`
+blocks the post-readout shortcut: choosing the selector channel from the winning
+projector residue is a moving measuring frame, not same-edge evidence. The
+lawful lower input is `ParentAnnouncedAngleLockWithFiniteRotation.A`: the
+parent-announced selector channel must be fixed before readout, or its rotation
+toward the projector active functional must be paid by finite original-history
+same-packet cost.
 The paid-rotation branch is now split by
 `mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md`:
 near-silent mismatch is the detector-silent pre-readout reserve, while genuine
