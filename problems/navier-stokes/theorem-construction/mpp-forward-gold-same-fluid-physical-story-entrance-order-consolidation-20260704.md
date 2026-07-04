@@ -35,6 +35,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-same-carrier-identity-primitive-channel-boundary-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-coefficient-overrun-critical-factor-ui-bridge-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-same-carrier-overrun-ordering-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
 completion_truth: >-
   This note proves no Navier-Stokes smoothness theorem and no new estimate. It
   records a strict physical consolidation and priority test: the current route
@@ -354,6 +357,34 @@ installed endpoint and full-packet consumer reductions, it returns to the
 terminal selected-atom / active-full-exchange producer.  On the identity branch,
 the surviving forward Gold product is same-carrier selected-overrun tail payment
 on \(C_P\).
+
+That product phrase is now reduced, not solved.  The selected-coefficient
+overrun notes make the critical \(L^{5/2}\)-\(L^{10/3}\) Holder step a consumer:
+finite critical visibility can still retain a terminal product atom on the same
+overrun layer.  The lower physical tail is the first-ratio half-tail: raw
+residence controls only \(\sum_\ell \nu_\ell\), while Gold needs
+\(\sum_\ell 2^\ell\nu_\ell<\infty\).  After finite/legal/mismatch payments are
+removed, the two survivor geometries are repeated-core record/return and
+shrinking-core reset, and the selected-root synthesis absorbs both into one
+same-packet producer:
+
+\[
+\begin{aligned}
+\texttt{OriginalHistoryRecordResetRootPayment.A}
+:=&\ 
+\texttt{StoppedPredictableRootGeometryCompensator.A}\\
+&+\texttt{SignedStoppedPLSEvolutionIdentity.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}\\
+&+\texttt{CriticalWeightedParentChildResetCarleson.A}.
+\end{aligned}
+\tag{SFP.12e}
+\]
+
+Thus same-carrier overrun tail payment means construction of these four
+pre-readout clauses on \(C_P\) for the same signed-height record event.  Bounded
+record height, raw shrinking capacity, raw Bessel/martingale square packing,
+reverse Holder, BMO, and critical-strain visibility are support or checked
+obstructions until they produce this original-history record/reset root payment.
 
 `RecordMenuRootProjectionFaithfulness.A` is the entrance gate into that object.
 Its currently exposed lower proof pressure is
