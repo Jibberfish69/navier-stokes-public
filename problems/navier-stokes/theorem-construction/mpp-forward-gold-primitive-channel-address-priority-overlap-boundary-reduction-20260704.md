@@ -103,8 +103,8 @@ boundaries:
 \[
 \begin{array}{ll}
 \mathfrak R_a\ne\mathfrak R_b &: \text{selector tie, drift, first exit, or legal/stop/exit},\\
-\mathfrak X_a\ne\mathfrak X_b &: \text{chart/projector transfer or material service},\\
-\mathfrak D_a\ne\mathfrak D_b &: \text{detector/channel rotation or silent-service payment},\\
+\mathfrak X_a\ne\mathfrak X_b &: \text{chart/projector transfer or frame-change payment},\\
+\mathfrak D_a\ne\mathfrak D_b &: \text{detector/channel rotation, silence, or readout-change payment},\\
 \mathfrak F_a\ne\mathfrak F_b &: \text{face detachment, local thickness loss, polarity return, or exit}.
 \end{array}
 \tag{POB.5}
