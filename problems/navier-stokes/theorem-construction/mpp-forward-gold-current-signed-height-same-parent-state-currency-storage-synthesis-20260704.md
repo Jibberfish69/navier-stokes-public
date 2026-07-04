@@ -415,6 +415,14 @@ primitive full-action / strict half-barrier reserve:
 \tag{SCSS.17}
 \]
 
+In the root-projection producer classification, that silent-side reserve is the
+pre-entrance selected-critical service payment
+\(\texttt{CriticalFreshSourceTentCarleson.A}/
+\texttt{FreshSourceCriticalScaleMemoryBound.A}\) read from original history. It
+pays detector-silent or near-silent service before the edge is admitted to root
+projection. Downstream record-admitted storage starts after entrance and cannot
+serve as this input.
+
 The record-admitted Gold use is stricter than either support branch alone:
 
 \[
