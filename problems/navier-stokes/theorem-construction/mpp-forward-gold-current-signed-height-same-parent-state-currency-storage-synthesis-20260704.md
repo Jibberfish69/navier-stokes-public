@@ -1600,14 +1600,15 @@ endpoint reduction, not the live analytic producer.  Terminal visibility is
 installed, but payment of the retained selected atom is not.  The checked
 full-packet audit makes `TerminalFullPacketNoResiduePayment.A` the terminal /
 no-residue face of the same continuous parent active-measure producer, not a
-sibling frontier.  The current common producer is the before-clipping
-full-exchange active-transit ledger: endpoint/no-residue, tower signed-partner,
-and low-high first-ratio pullback are projections of that ledger, and strict
-storage reduces to the heat-lag quotient gap with retained-action stopping plus
-parabolic Poincare.  Transported-selector, four-body no-waste, fresh-potential,
-positive second-order, terminal Rellich, no-free Zeno, and profile routes are
-support unless they prove that same ledger/strict-gap package from the original
-coupled packet.
+sibling frontier.  Current July 4 authority lowers that producer to
+`ParentActivePotentialCapacityDomination.A`: after raw pressure-Hodge atoms and
+retained opposite-lobe reserve are installed, the selected critical meter prices
+the paired lobes unequally.  Equivalently, the remaining obstruction is a
+terminal super-capacitary active-potential survivor.  The noncircular source
+split is `BeforeClippingActiveDensityComparison.A` plus
+`FullExchangeNoSelfFeedingStorage.A` as one same-parent storage construction
+with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
+first-admission coordinate of this same obstruction, not a separate bottom.
 
 ## 25. WLF.60 and source payment are one early-row reading
 
