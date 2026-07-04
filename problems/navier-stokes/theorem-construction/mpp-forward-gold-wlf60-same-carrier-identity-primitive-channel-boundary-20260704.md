@@ -94,7 +94,7 @@ or
 with the residual paid by original-history legal/stop service or by selected
 overrun payment on the actual positive native carrier.
 
-	In the older source-square language this is the ordered pair:
+In the older source-square language this is the ordered pair:
 
 \[
 	\text{full-packet order-locked carrier admission}
@@ -105,9 +105,9 @@ overrun payment on the actual positive native carrier.
 	\tag{WSC.5}
 	\]
 
-	Carrier admission comes first.  Without full-packet order lock and partner
-	overlap payment, the overrun layer is not yet known to be the same selected
-	carrier as the lower fresh source.
+Carrier admission comes first.  Without full-packet order lock and partner
+overlap payment, the overrun layer is not yet known to be the same selected
+carrier as the lower fresh source.
 
 ## 3. What the primitive-channel work supplies
 
@@ -304,7 +304,7 @@ The physical target under WLF.60 is now:
 &\text{pre-readout primitive ownership}\\
 &+\text{fresh lower/upper order-locked full-packet carrier admission}\\
 &+\text{same-packet order-lock overlap payment}\\
-&+\text{selected overrun tail UI on that carrier}\\
+&+\text{selected-overrun tail payment on that carrier}\\
 &\Longrightarrow
 \text{finite parent-weighted first-admission bill}.
 \end{aligned}
