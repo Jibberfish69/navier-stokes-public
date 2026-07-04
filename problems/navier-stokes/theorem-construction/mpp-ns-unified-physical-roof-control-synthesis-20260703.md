@@ -469,6 +469,13 @@ subheat consumers are removed, the open producer is
 from the original coupled packet before selected child readout, prove first
 scale-native births lower into it, prove strict depletion/good-lambda margin,
 and prove terminal no-Zeno/no-atom or Hardy thickness in the same carrier.
+The signed-height custody correction is now installed in
+`mpp-forward-gold-signed-height-record-admitted-scale-native-depletion-bridge-20260704.md`:
+that scale-native depletion package has Gold force only after the record-net
+signed work is admitted into the same parent critical carrier before readout.
+Freestanding selected-birth depletion remains support; record-admitted
+depletion supplies the finite charge branch in the signed-height
+record-upcrossing criterion.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
