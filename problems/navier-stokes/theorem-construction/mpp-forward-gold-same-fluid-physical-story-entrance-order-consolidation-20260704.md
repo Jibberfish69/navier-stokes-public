@@ -343,7 +343,7 @@ carrier, common selector, chart/projector and detector/channel lift, face trace,
 and first-boundary charge before return is counted.  The active/root half is the
 order-locked full-packet carrier \(C_P\) on which WLF.60 / `(ODP.91)' can pay
 the lower fresh source, upper selected positive queue, and selected overrun.
-Those halves prove Gold only when they are the same physical event:
+Those halves prove Gold only when they are the same physical event.
 
 The local half has a strict trace-before-return order.  Its event map may use
 only the pre-readout face trace/fiber, not the completed face/polarity return.
@@ -380,6 +380,8 @@ face/polarity lifting are support until the pre-return trace-address process
 owns the primitive signed-channel events.  Building the event map through full
 face/polarity return is circular: it spends the same-face return budget to
 create the face owner that makes the return budget lawful.
+
+The local and active/root halves must then satisfy the same-event identity
 
 \[
 C_P(z)=\pi_{\rm act/root}\Xi(z)
