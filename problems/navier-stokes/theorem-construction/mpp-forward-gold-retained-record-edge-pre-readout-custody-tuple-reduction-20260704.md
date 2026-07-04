@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-common-selector-refinement-parent-announced-capture-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-primitive-channel-compatibility-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
 completion_truth: >-
@@ -212,6 +213,13 @@ Prove that every future-positive retained record-menu edge carries the same
 parent selector, same exact-projector chart, same detector/service split, and
 same root/full-exchange face address before readout; or prove that failure of
 that tuple is already legal, stopped, material-service paid, or a CM exit face.
+
+The primitive-channel coordinate inside that tuple is now sharpened: the
+selector-announced primitive channel must be the same signed channel that the
+exact-projector residue enters. Same-packet pressure/strain identity and
+parent-announced selector capture remain support until
+`RetainedRecordEdgeSelectorProjectorChannelAlignment.A` proves that same-channel
+alignment or routes the mismatch before readout.
 
 This keeps the physical story under one roof: the same high packet that raises
 the signed record must be the packet that is selected, charted, detected, and

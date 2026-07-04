@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-selector-cone-aperture-consumed-support-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-pls-signed-channel-decomposition-repair-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-common-selector-refinement-parent-announced-capture-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-primitive-channel-compatibility-reduction-20260704.md
 completion_truth: >-
   This note does not prove RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A.
   It reduces that coupled channel admission to three lower physical faces:
@@ -171,6 +172,11 @@ compatibility theorem. On that stopped selector, the higher exact-projector
 residue must be the primitive signed-channel increment of the same packet, up
 to base projector, collar/frame, high-high, legal, stopped, and material-service
 pieces already routed by the projector-escape audit.
+The selector/channel compatibility note sharpens this face: the selector-announced
+primitive channel must be the exact channel that receives the surviving
+exact-projector residue. Same-packet pressure/strain identity is not enough by
+itself, because the selector cone could sign one primitive coordinate while the
+record-positive residue lives in another.
 
 ## 4. Proof of the strict reduction
 
@@ -224,3 +230,8 @@ The open producer is the retained record-edge version of those facts. The proof
 still owes same-edge common-selector refinement before readout and
 same-edge primitive-channel compatibility for the exact-projector residue. Until
 those are proved, the stopped primitive channel admission remains open.
+The primitive-channel face is now pinned to
+`RetainedRecordEdgeSelectorProjectorChannelAlignment.A`: align the
+selector-announced primitive channel with the projector-residue channel before
+readout, or route the mismatch as paid service, legal, stop, chart-transfer, or
+exit.

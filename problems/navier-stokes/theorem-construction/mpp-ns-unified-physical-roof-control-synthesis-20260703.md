@@ -445,6 +445,13 @@ That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
 `RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
 `RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
 aperture is consumed support after common-selector refinement.
+The primitive-channel compatibility face is now sharpened in
+`mpp-forward-gold-retained-record-edge-selector-primitive-channel-compatibility-reduction-20260704.md`:
+same-packet pressure/strain identity and parent-announced selector capture do
+not yet prove that the exact-projector residue enters the selector-announced
+primitive signed channel. The lower open theorem is
+`RetainedRecordEdgeSelectorProjectorChannelAlignment.A`, or else a paid
+pre-readout mismatch route.
 The pressure-active/silent face now reduces to
 `RecordMenuPressureActiveQuotientAngleGap.A` plus
 `RecordMenuDetectorSilentServicePreReadoutReserve.A`: raw detector faithfulness
