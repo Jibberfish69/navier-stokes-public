@@ -460,9 +460,9 @@ service-storage audits. Local shell energy, raw Bessel freshness,
 selected-forest complete-frame capacity, scalar current Bellman storage, probe
 admission/update, and interior active graph coercivity are support or no-go
 tests. The strict producer is original-history root-native reserve before
-readout in its sharpened form: parent-known fresh generator/root-reserve packing
-or parent-weighted first-admission pulse measure `(WLF.60)' / `(WLF.36)' from
-the original coupled packet before child clipping. Selected-density entropy,
+readout, read in two coordinates: parent-known fresh generator/root-reserve
+packing and parent-weighted first-admission pulse measure `(WLF.60)' /
+`(WLF.36)' from the original coupled packet before child clipping. Selected-density entropy,
 Hilbert/BMO, reverse Holder, and active-capacity Bellman language are
 deterministic consumers once that parent active density/root carrier is
 constructed; they do not construct it. The tower-feedback source-line audit
@@ -472,9 +472,10 @@ full-exchange storage. The checked TFE2748A/TFE2748B update demotes the
 Duhamel-Hodge, detector, endpoint-admission, and retained-heat clauses to
 support: they make the selected child readout a lawful parent-pulled test of
 one coupled packet before clipping. The remaining nonconsumer theorem is the
-strict same-parent active-critical/full-exchange/active-transit storage law, or
-an independently proved storage face, from the original
-pressure-viscosity-incompressibility packet. After the signed-height restart,
+strict same-parent active-critical/full-exchange/active-transit storage law from
+the original pressure-viscosity-incompressibility packet. In the independent-face
+reading, the current face is WLF.60 / WLF.36 / ODP.91 early-row payment on the
+order-locked carrier, not a generic sibling reservoir. After the signed-height restart,
 that storage must be record-admitted to the same signed-height upcrossing before
 it has Gold force. On the terminal
 fixed-core branch the same producer is read as root-fixed terminal-uniform
