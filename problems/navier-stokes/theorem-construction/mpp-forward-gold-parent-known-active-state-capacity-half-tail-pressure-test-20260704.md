@@ -23,6 +23,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-extremal-two-branch-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
 completion_truth: >-
   This note does not prove the parent capacity theorem. It blocks a direct
   raw/support proof route and reduces the live Gold use to a pre-readout
@@ -110,6 +113,21 @@ selected critical cost the Gold route must control. Thus a candidate capacity
 which only integrates raw energy, raw heat residence, collar area, raw elliptic
 capacity, or unweighted geometric overlap can be finite on `(PHT.3)' while the
 selected record events remain infinite.
+
+The affine shrinking-core calculation gives the same test in PDE units. On a
+heat-scale packet with stress size \(|\Sigma|\simeq r^{-2}\) and volume
+\(|Q_r|\simeq r^5\),
+
+```math
+R_{\rm raw}(Q_r)\sim \int_{Q_r}|\Sigma|^2\simeq r,
+\qquad
+A_{\rm sel}(Q_r)\sim \int_{Q_r}|\Sigma|^{5/2}\simeq 1.
+\tag{PHT.3a}
+```
+
+So the obstruction is not a bookkeeping preference. It is the scaling mismatch
+between the raw physical bill and the selected critical bill for the same
+shrinking packet.
 
 This is not a Navier-Stokes counterexample. It is the proof-theoretic acceptance
 test: a Gold source theorem must explain why the same fluid packet cannot keep
