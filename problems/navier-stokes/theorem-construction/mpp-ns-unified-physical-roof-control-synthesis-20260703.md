@@ -42,6 +42,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-edge-selector-modulus-same-packet-gate-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-signed-height-same-parent-state-currency-storage-synthesis-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -107,6 +110,70 @@ The theorem-grade burden is:
 
 A valid Gold theorem attempt must act on this signed object or supply an explicit
 bridge into it.
+
+## 2.1 Signed-record packet filter
+
+The live Gold record is not a detached scalar label and not a clipping event. It
+is one same Navier-Stokes packet, carried by transport, re-coordinated by
+pressure-Hodge, smoothed by viscosity, constrained by incompressibility, and
+selected by stress alignment over time. On a record interval \([a,b]\),
+
+\[
+\int_a^bP(t)\,dt
+=H(b)-H(a)+\nu\int_a^bD(t)\,dt
+\ge\lambda .
+\]
+
+The proof question is where this signed record work already lived in the
+original parent packet before the record was read.
+
+The current parent packet test has three physical rows:
+
+\[
+\begin{array}{lll}
+\text{state} &:& \text{the parent-known active place where the selected event lives},\\
+\text{currency} &:& \text{the selected-critical root payment carried by that event},\\
+\text{storage} &:& \text{the record-admitted carrier that absorbs the signed work}.
+\end{array}
+\]
+
+In theorem labels, those rows are
+
+\[
+\begin{array}{c}
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A},\\
+\texttt{OriginalHistoryRecordResetRootPayment.A},\\
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}.
+\end{array}
+\]
+
+They are projections of one parent object. A proof may not choose the selected
+record payer and then build a parent state around it. A proof may not use a
+downstream storage row to prove the entrance of the record work into that row. A
+proof may not pay a root transition unless that transition is the signed-height
+record face being counted.
+
+This is the first physical judgment gate. Raw energy, heat residence, local
+chart formulas, pressure service, reset overlap, endpoint admission, reversible
+entropy flux, atom pairing, and storage matrices are support until they attach to
+the same pre-readout signed-record packet. The half-tail obstruction explains
+why: a shrinking heat-scale packet can have raw residence \(R_{\rm raw}(Q_r)\sim
+r\) while selected critical action \(A_{\rm sel}(Q_r)\sim1\). Any proof that
+only sees the raw bill can be finite while the selected record charge remains
+infinite.
+
+Therefore a candidate Gold move is judged physically before it is judged
+formally:
+
+\[
+\text{Does it construct the same parent state/currency/storage package before
+record readout?}
+\]
+
+If yes, it is proof or a strict reduction, depending on whether the construction
+is complete. If it only describes a selected child, an already chosen chart, a
+raw residence bill, a reversible readout, or a carrier after admission, it is
+support or a checked obstruction against the live Gold wall.
 
 ## 3. Program topology under the roof
 
