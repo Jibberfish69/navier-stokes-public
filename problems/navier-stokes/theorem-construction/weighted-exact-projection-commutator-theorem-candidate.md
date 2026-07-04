@@ -420,6 +420,10 @@ The admission bridge is now lower: exact Hodge/material-service calculations
 give same-packet pressure/strain identity, while the open lower object is
 `RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A`, a coupled stopped
 selector-cone admission that supplies both polar sign and pre-readout timing.
+That coupled object now splits into `RecordMenuPressureActiveOrSilentService.A`,
+`RetainedRecordEdgeCommonSelectorRefinementNoLoss.A`, and
+`RetainedRecordEdgePrimitiveChannelCompatibility.A`; stopped selector cone
+aperture is consumed support after common-selector refinement.
 
 The symbolic reason is the first commutator term in the pseudodifferential
 composition formula. For an order-zero symbol `p\in S^0_{1,0}` and a low
