@@ -246,3 +246,14 @@ form: the selected meter controlled by TFE2748B.1343 / TFE2748B.1393 /
 TFE2748B.1555 must be the parent-announced meter of the same signed-height
 record upcrossing before readout. That boundary is recorded in
 `mpp-forward-gold-active-capacity-signed-height-record-admission-boundary-20260704.md`.
+
+The WLF.60 boundary note
+`mpp-forward-gold-wlf60-same-carrier-identity-primitive-channel-boundary-20260704.md`
+adds the same physical caution at the early-branch payer. Primitive
+pre-readout material support, stopped carrier coverage, and common-selector
+ownership make signed events lawful same-packet events before readout. They do
+not yet prove that the lower fresh source and the upper selected positive queue
+are the same selected native carrier. The active-capacity/full-exchange roof
+therefore still needs either stopped potential-average control, positive
+second-order scale exactness, or fresh same-carrier identity plus selected
+overrun payment on that carrier.
