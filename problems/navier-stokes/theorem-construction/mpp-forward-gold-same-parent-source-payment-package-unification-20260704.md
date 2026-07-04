@@ -76,7 +76,10 @@ absorbed before arbitrary-data selected peaks can escape as thin high records.
 the ancestry/no-free-upcascade faces. Every retained selected high-ratio birth
 must be lower-band carry, visible same-history birth, or paid/legal/stop/exit;
 there is no fourth branch where a high selected birth appears invisibly and
-reuses the same reserve indefinitely.
+reuses the same reserve indefinitely. `ForwardNativeReserveBirthPaysFullPLS.A`
+is not renewed here as a standalone bottom producer. It is lawful only as the
+forward-native coordinate that reduces to the same native-birth/source-payment
+package and stays attached to the admitted signed-height carrier.
 
 These faces are different readings of one physical demand:
 
@@ -117,7 +120,8 @@ The lawful order is physical first.
 
 First, the original same-parent packet must produce native birth / selected
 generator / positive critical transfer currency with a spent-reserve term that
-prevents reuse down shrinking retained chains.
+prevents reuse down shrinking retained chains. Any older forward-native reserve
+chain is read through this line, not beside it.
 
 Second, that currency supplies full-exchange action and parent-subtracted fresh
 innovation packing in the parent metric.

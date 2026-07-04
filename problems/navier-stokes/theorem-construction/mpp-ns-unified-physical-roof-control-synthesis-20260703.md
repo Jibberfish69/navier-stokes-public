@@ -536,7 +536,9 @@ It folds `OriginalHistoryParentPredictableFreshInnovationCarleson.A`,
 `NativeBirthChargePacking.A`, `ForwardNativeReserveBirthPaysFullPLS.A`, and
 `StoppedFullExchangeActionCarleson.A` into one physical source package with a
 fixed role order: native birth / selected generator / positive transfer is the
-producer face; full-exchange and parent-subtracted fresh innovation are supplied
+producer face; `ForwardNativeReserveBirthPaysFullPLS.A` is not a separate
+renewed bottom route but a coordinate that reduces to that same native-birth
+payment; full-exchange and parent-subtracted fresh innovation are supplied
 channels; predictability, Bessel, representation, sparse packing, reset, and
 record/root rows are consumers unless they are attached to the admitted
 signed-height edge. This is a strict reduction and authority correction, not
