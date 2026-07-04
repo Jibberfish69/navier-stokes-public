@@ -237,12 +237,15 @@ needed here: a finite original-history measure for all selected first-admission
 sub-heat-lag pulses, with strict viscosity feedback, before future selected
 tail readout is used.
 
-The WLF.60 pressure test sharpens the status of that line. Same-parent
-detection, no-recount, raw Bessel admission, and local first-admission native
-atoms are installed support, but they do not imply the weighted root upper
-bound. The remaining smaller theorem is stopped potential-average control or
-positive second-order scale exactness, equivalently fresh same-carrier identity
-plus selected overrun payment on the parent-weighted pulse measure.
+	The WLF.60 pressure test sharpens the status of that line. Same-parent
+	detection, no-recount, raw Bessel admission, and local first-admission native
+	atoms are installed support, but they do not imply the weighted root upper
+	bound. The remaining smaller theorem is stopped potential-average control or
+	positive second-order scale exactness on the order-locked full-packet selected
+	carrier: the lower fresh source and upper selected positive queue must be read
+	from the recombined full packet before positive-part extraction, the same-packet
+	order-lock overlap must be paid, and the selected overrun must have tail UI /
+	nested-core tightness on that carrier.
 
 ## 5. The smaller noncircular theorem
 
@@ -260,9 +263,11 @@ d\Xi_P^{early}
 \tag{CME.14}
 \]
 
-where \(M_P^{early,0}\) is built from original history before critical-source
-finite excess is used. In heat-lag first-admission coordinates this is the
-selected-critical weighted root upper bound `(CME.13)' / WLF.60.
+	where \(M_P^{early,0}\) is built from original history before critical-source
+	finite excess is used. In heat-lag first-admission coordinates this is the
+	selected-critical weighted root upper bound `(CME.13)' / WLF.60, now read with
+	full-packet order lock, paid same-packet partner overlap, and same-carrier
+	overrun tail UI as part of the early-branch storage theorem.
 
 Second, prove the full matrix `(CME.2)' directly, with the early branch included
 as one row and with spectral radius below one, without first substituting

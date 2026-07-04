@@ -201,12 +201,15 @@ admission are support; the missing source is a finite original-history
 parent-weighted pulse measure with strict viscosity feedback for all selected
 sub-heat-lag first admissions.
 
-The WLF.60 pressure test records the next physical reduction. The standard
-critical estimate only closes the small \(\dot H^{1/2}\) packet case; arbitrary
-data still need the selected-critical weighted root upper bound. In scale
-coordinates, that reduces to stopped potential-average control or positive
-second-order scale exactness / fresh same-carrier identity plus selected
-overrun payment.
+	The WLF.60 pressure test records the next physical reduction. The standard
+	critical estimate only closes the small \(\dot H^{1/2}\) packet case; arbitrary
+	data still need the selected-critical weighted root upper bound. In scale
+	coordinates, that reduces to stopped potential-average control or positive
+	second-order scale exactness on the order-locked full-packet selected carrier:
+	the lower fresh source and upper selected positive queue must be read from the
+	recombined full packet before positive-part extraction, any same-packet
+	order-lock overlap must be paid, and the selected overrun must have same-carrier
+	tail UI / nested-core tightness.
 
 ## 5. What is closed and what is not
 
@@ -254,6 +257,7 @@ pre-readout material support, stopped carrier coverage, and common-selector
 ownership make signed events lawful same-packet events before readout. They do
 not yet prove that the lower fresh source and the upper selected positive queue
 are the same selected native carrier. The active-capacity/full-exchange roof
-therefore still needs either stopped potential-average control, positive
-second-order scale exactness, or fresh same-carrier identity plus selected
-overrun payment on that carrier.
+	therefore still needs either stopped potential-average control or positive
+	second-order scale exactness on the order-locked full-packet selected carrier,
+	with the same-packet order-lock overlap and the selected overrun tail paid on
+	that carrier.
