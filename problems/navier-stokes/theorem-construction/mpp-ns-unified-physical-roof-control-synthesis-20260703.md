@@ -41,6 +41,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-polarity-same-face-no-cancellation-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-edge-selector-modulus-same-packet-gate-reduction-20260704.md
 completion_truth: >-
   This artifact installs a single control synthesis for the Navier-Stokes repo. It
   gives theorem attempts one physical roof before target selection, proof writing,
@@ -658,6 +659,15 @@ positive work appears. The open producer is
 `FiniteParentKnownRecordEdgeSelectorMenu.A` and then, with
 `StoppedSelectorFiniteScoreOrPaidDrift.A`, feeds
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A`.
+The record-edge selector modulus same-packet gate reduction is now installed in
+`mpp-forward-gold-record-edge-selector-modulus-same-packet-gate-reduction-20260704.md`.
+It decomposes the open producer into same-retained-edge physical gates. The pass
+case is material/order-locked selector generation by the local velocity-pressure
+finite jet plus transported heat-scale return, selector tie/drift charge, finite
+endpoint jet temporal modulus, and same-edge order-lock partner payment. The
+checked obstructions are a moving future argmax over labels and a channel-first
+positive pulse whose full-packet partner cancels it. Both remain unpaid
+same-packet defects until paid, stopped, made legal, or routed to exit.
 The lower retained-edge faces are now consolidated in
 `mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md`.
 Selector capture, retained exact-projector chart license, and the
