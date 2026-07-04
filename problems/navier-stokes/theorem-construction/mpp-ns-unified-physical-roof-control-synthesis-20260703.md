@@ -780,6 +780,16 @@ source tent / scale-memory payment after parent capture; face/polarity consumes
 local same-face compactness and return ownership; chart/projector consumes
 exact-projector chart/escape service. This is a strict reduction, not a proof of
 `PrimitiveChannelAddressChangeVariationCharge.A`.
+The primitive event-address atlas priority reduction is now installed in
+`mpp-forward-gold-primitive-channel-event-address-atlas-priority-reduction-20260704.md`.
+It sharpens the first lower producer, `PrimitiveChannelEventAddressMap.A`. The
+formal measurable tie-break is discharged once the parent has stopped, locally
+finite address cells for almost every primitive signed-channel event and a
+pre-readout active priority/boundary law for overlaps. The open PDE burden is
+now `PrimitiveChannelAddressCellCoverage.A` plus
+`PrimitiveChannelAddressPriorityBoundaryLaw.A`: finite selector menus and
+retained-edge custody are coordinate support until they cover primitive events
+of both signs with one selector/chart/detector/face owner before readout.
 The reset-charge consolidation is now installed in
 `mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
 It applies the same rule to the shrinking-core reset branch. A freestanding
