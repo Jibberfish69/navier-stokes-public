@@ -526,6 +526,18 @@ signed work is admitted into the same parent critical carrier before readout.
 Freestanding selected-birth depletion remains support; record-admitted
 depletion supplies the finite charge branch in the signed-height
 record-upcrossing criterion.
+The reset-charge consolidation is now installed in
+`mpp-forward-gold-record-admitted-critical-reset-charge-consolidation-20260704.md`.
+It applies the same rule to the shrinking-core reset branch. A freestanding
+`CriticalWeightedParentChildResetCarleson.A` theorem is support under the
+signed-height roof unless the fresh reset edge is the parent-announced carrier of
+record-net work before readout. The derivative-Cauchy reset estimate pays only
+derivative-exact increments after record-menu/root/full-exchange visibility is
+proved. The record-admitted reset form reduces to
+`RecordMenuRootProjectionFaithfulness.A` plus
+`RecordAdmittedActiveFullExchangeCoupledStorage.A`: pressure-active reset/menu
+work needs a detector angle, while detector-silent work must be pre-readout
+service-paid or routed back to record/return.
 The common-selector face now reduces to
 `RetainedRecordEdgeParentAnnouncedSelectorCapture.A` plus stopped-selector
 variation/payment support: the arbitrary future-positive record edge must be
