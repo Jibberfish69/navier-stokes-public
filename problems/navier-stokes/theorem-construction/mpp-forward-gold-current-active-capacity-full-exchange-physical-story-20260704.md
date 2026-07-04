@@ -159,10 +159,10 @@ The back-substituted coordinate target is
 This is TFE2748B.1393 / TFE2748B.1555. It is a coordinate description of the
 same physical object, not an independent proof of it.
 
-Equivalently, the noncircular lower route is
+Equivalently, the current nonduplicate lower route is
 
 \[
-\texttt{BeforeClippingActiveDensityComparison.A}
+\texttt{LocalActiveTransitStorage.A}
 \quad+\quad
 \texttt{FullExchangeNoSelfFeedingStorage.A}
 \Longrightarrow
@@ -174,9 +174,11 @@ Equivalently, the noncircular lower route is
 \tag{CAP.5}
 \]
 
-The open producer is the first two-input line as one same-parent storage
-construction before clipping. A downstream terminal-killing estimate is a
-consumer until that clock and storage are supplied.
+The open producer is the first two-input line as one active full-exchange
+ledger before clipping, with projection inclusions and strict combined
+feedback. `BeforeClippingActiveDensityComparison.A` is the opened split consumed
+by that ledger. A downstream terminal-killing estimate is a consumer until that
+clock and storage are supplied.
 
 The direct full-exchange pressure test does not close that producer. It verifies
 that raw same-parent pressure-Hodge atom attachment and retained opposite-lobe

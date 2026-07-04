@@ -147,7 +147,7 @@ and that package is produced only after active-transit and full-exchange storage
 faces are already supplied. Reading reverse Holder as the source theorem would
 therefore hide the same storage wall under a density estimate.
 
-The noncircular source split recorded by the current TFE sections is:
+The opened source split recorded by the current TFE sections is:
 
 \[
 \begin{aligned}
@@ -159,11 +159,13 @@ The noncircular source split recorded by the current TFE sections is:
 \tag{PAS.9}
 \]
 
-The first input says the active-potential excess of the same parent packet is
-dominated before clipping by the parent active/full-exchange clock, not by a
-later selected child or record readout. The second input says that this
-full-exchange clock is bounded by a same-parent storage drop plus a strict
-subunit generator feedback term:
+After the active-density clause is opened and deduplicated, the current
+nonduplicate source is the active full-exchange ledger:
+`LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A`. The
+active-transit row says the active-potential excess of the same parent packet is
+carried by that ledger before clipping. The full-exchange row says that this
+ledger is bounded by a same-parent storage drop plus a strict subunit generator
+feedback term:
 
 \[
 d\Xi_P^{FE,*}
@@ -193,21 +195,17 @@ The coupled-storage audit remains active here. Current sources identify:
 \tag{PAS.11}
 \]
 
-as a coordinate reduction, not a proof chain. A sequential route that proves
-full-exchange storage from preallocated critical-source storage and then proves
-that critical-source storage from full-exchange storage is circular.
+as the current nonduplicate coordinate reduction, not a proof chain. A
+sequential route that proves full-exchange storage from preallocated
+critical-source storage and then proves that critical-source storage from
+full-exchange storage is circular.
 
-The noncircular alternatives are exactly:
-
-1. prove `BeforeClippingActiveDensityComparison.A' independently from the
-   original coupled packet and prove strict full-exchange no-self-feeding
-   storage independently;
-2. prove `FullExchangeNoSelfFeedingStorage.A' independently strongly enough to
-   absorb the active-density comparison;
-3. prove one simultaneous active-transit/full-exchange/critical-source storage
-   inequality with feedback matrix spectral radius below one.
-
-Without one of those, `(PAS.9)' is a target, not a closure proof.
+The current alternatives are: construct that active full-exchange ledger with
+projection inclusions and strict combined feedback, prove the full-exchange row
+strongly enough to absorb the active-transit row, or prove one simultaneous
+active-transit/full-exchange/critical-source storage inequality with feedback
+matrix spectral radius below one. Without one of those, `(PAS.9)' is a target,
+not a closure proof.
 
 ## 5. Current proof truth
 

@@ -1469,7 +1469,7 @@ existing active-potential wall:
 
 \[
 \begin{aligned}
-&\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\texttt{LocalActiveTransitStorage.A}\\
 &+\texttt{FullExchangeNoSelfFeedingStorage.A}
 \end{aligned}
 \Longrightarrow
@@ -1605,10 +1605,12 @@ active producer to `ParentActivePotentialCapacityDomination.A`: after raw
 pressure-Hodge atoms and retained opposite-lobe reserve are installed, the
 selected critical meter prices the paired lobes unequally.  Equivalently, the
 remaining obstruction is a terminal super-capacitary active-potential survivor.
-The noncircular source split is `BeforeClippingActiveDensityComparison.A` plus
-`FullExchangeNoSelfFeedingStorage.A` as one same-parent storage construction
-with strict subunit feedback.  WLF.60 is the early-branch / heat-lag
-first-admission coordinate of this same obstruction.
+The current nonduplicate source is the active full-exchange ledger:
+`LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A`, with
+projection inclusions and strict combined feedback from the original parent
+packet. `BeforeClippingActiveDensityComparison.A` is the opened/consumed split
+fed by that ledger. WLF.60 is the early-branch / heat-lag first-admission
+coordinate of this same obstruction.
 
 The selected full-packet branch now sits inside the same
 state/currency/storage package.  Its proved content is support:
