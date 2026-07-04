@@ -423,8 +423,8 @@ selected critical meter clips child readouts:
 \tag{SFP.12b3}
 \]
 
-After the WLF/ODP merge, this means the address/root split is not two selected
-critical source walls.  The local address part gives the primitive event an
+After the WLF/ODP merge, the address/root split has one selected-critical
+active/root source wall.  The local address part gives the primitive event an
 owner, address, chart, detector, face trace, and first-boundary account; the
 off-face selected-critical part and the root-payment part consume the same
 active/root payment on \(C_P\):
