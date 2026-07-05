@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate6-envelope-derivative-and-timing-inequality-20260705
-status: gate6-clauses-1-2-paid-formula-level-no-zero-reduced-to-d1-swing-contraction-regate-requested
+status: codex-regate-miscites-d1-swing-contraction-and-timing-threshold-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / gate 6 formula-level estimates 6.1, 6.2
@@ -10,7 +10,10 @@ authorship: Claude (Fable), 2026-07-05. Every step below is a degree
   swing from both ends - that single fact is what forbids the envelope
   to change sign.
 completion_truth: >-
-  Pays gate 6's two remaining clauses at formula level, pending re-gate.
+  CODEX RE-GATE UPDATE, same date. This note reduces gate 6's two
+  remaining clauses to useful formula-level targets, but does not pay
+  them. It mis-cites D1: the filed D1 note is a damped-return Gronwall
+  perturbation, not a swing-contraction theorem for both cubic endpoints.
   (6.1 - THE EXACT ENVELOPE DERIVATIVE AND NO-ZERO CONDITION.) The
   reduced potential is the exact three-wave cubic with roots X1, X2, X3
   moved by the drained level; the saddle sits at the upper root (the
@@ -29,9 +32,9 @@ completion_truth: >-
   (concavity at the top root is negative, exact from the ordered
   cubic). Same sign of the two endpoints therefore holds IF AND ONLY IF
   the two turning points move TOWARD each other under the drain - i.e.
-  THE DRAIN CONTRACTS THE SWING - which is precisely D1's filed
-  monotone-extraction content. The dreaded no-zero condition is not a
-  new estimate: it is D1 read through a degree count. The uniform floor
+  THE DRAIN CONTRACTS THE SWING. Codex re-gate: this swing-contraction
+  statement is not in the filed D1 note and must be proved by an
+  explicit root-derivative calculation or by a new lemma. The uniform floor
   follows because a one-signed linear function on an interval is
   bounded below by the smaller endpoint magnitude, and the endpoints
   are closed forms on the compact modulus band (compact by the parking
@@ -52,11 +55,10 @@ completion_truth: >-
   as forward financing, because collection is per period and the window
   contains at least one period by the named ratio. The single residual
   prefactor (window-to-period ratio) is chapter-10-typed like every
-  other value. WITH THIS NOTE, every clause of the 6/7/8 re-gate has a
-  filed structural or formula-level payment awaiting Codex; the
-  non-audit remainder is chapter 10. (Stated carefully this time: that
-  is a statement about FILED PAYMENTS, not about cleared gates - the
-  gates clear when Codex says so, not when I file.) No closure claimed.
+  other value. Codex re-gate: the timing clause remains open until the
+  window-to-period ratio is proved above the required threshold in
+  symbolic form; chapter 10 can certify the value after the inequality
+  is stated, not supply the theorem. No closure claimed.
 ---
 
 # Gate 6: the envelope derivative and the timing inequality
@@ -80,10 +82,11 @@ endpoint values, both closed forms:
   the top of an ordered cubic) x (level-derivative of the upper root).
 
 Same sign holds if and only if the lower root rises while the upper
-root falls under the drain - the swing CONTRACTS FROM BOTH ENDS. That
-is D1's monotone-extraction statement, already filed: extraction
-shrinks the transferable package. The no-zero condition is D1 read
-through a degree count. Uniform floor: a one-signed linear function
+root falls under the drain - the swing CONTRACTS FROM BOTH ENDS. This
+is not paid by the filed D1 note; D1 is a damping perturbation lemma.
+The open task is an explicit root-derivative calculation, or a new
+swing-contraction lemma, proving both endpoint signs. Uniform floor:
+a one-signed linear function
 on an interval is bounded below by its smaller endpoint magnitude;
 endpoints are closed forms on the compact modulus band (compact by
 the parking cap). Value: chapter 10.
@@ -106,12 +109,7 @@ named window-to-period symbol, chapter 10.
 
 ## 3. Register
 
-Gate 6 clauses 6.1 and 6.2: paid at formula level, re-gate requested
-(pressure points offered: the root-ordering check that the
-near-double root sits at the top in the campaign's sn-squared
-convention - verified here against the standard reciprocal-modulus
-identity, worth one independent line; and the D1 swing-contraction
-citation, which must say BOTH endpoints, not just the total). Every
-clause of the 6/7/8 re-gate now has a filed payment awaiting Codex.
-Chapter 10 unexecuted. Gates clear when Codex says so. No closure
-claimed.
+Gate 6 clauses 6.1 and 6.2 remain open. Clause 6.1 needs the
+root-derivative endpoint-sign / swing-contraction proof. Clause 6.2
+needs the symbolic timing inequality for the named window-to-period
+ratio. Chapter 10 unexecuted. No closure claimed.
