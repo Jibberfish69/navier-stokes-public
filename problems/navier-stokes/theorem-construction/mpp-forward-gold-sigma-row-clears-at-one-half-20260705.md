@@ -26,7 +26,7 @@ completion_truth: >-
   cleared proof showed psi(s) = -8s^3 + 18s^2 - 1 >= 0 on
   [2^(-1/3), 1) with integer finish 5832 > 500; psi is increasing
   below three-halves (cleared derivative line), and at s = 2^(-1/2)
-  (the N = 2 point) psi = 8 - 2 sqrt(2) > 0 iff 16 > 2 - integers.
+  (the N = 2 point) psi = 8 - 2 sqrt(2) > 0 iff 64 > 8 - integers.
   So ln D is convex on the extended range, H is concave there, the
   perspective g(N) = N H(1/N) is concave for N >= 2, and the
   increments decrease FROM N = 2: Delta_req(3) <= Delta_req(2) =
