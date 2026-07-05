@@ -352,6 +352,13 @@ per-step tolls add as logarithms of retention factors. The symbolic
 middle-window comparisons are now blocked on the exact G-ratio shape
 floor and the TV downstream re-gate.
 
+Latest home-center G-ratio re-gate: the center identity clears only for
+the T7 common helical \(G\)-scalar. At the home center \(\mu=p\), the
+helicity/sign slots match, \(S_{\rm pred}=S_{\rm relay}\), and
+\(R_{\rm pred}=R_{\rm relay}\), so \(|G_{\rm pred}|/|G_{\rm relay}|=1\).
+The slice-width brackets, TV downstream displays, symbolic comparisons,
+and chapter 10 remain open.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
