@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-cmid-floor-poor-charge-dichotomy-20260705
-status: cmid-floor-displayed-poor-charge-as-octave-dichotomy-regate-requested
+status: codex-regated-shape-accepted-final-cmid-and-poor-price-comparisons-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / the two remaining TV items
@@ -53,6 +53,27 @@ completion_truth: >-
 ---
 
 # The last two displays
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-cmid-poor-charge-regate-20260705.md`.
+The middle-range endpoints and root-spread route are accepted as the
+right shape, but the displayed \(C_{\rm mid}\) floor still carries the
+swing amplitude \(X_3-X_2\). To clear the tau floor, the note must
+display either a positive lower bound for \(X_3-X_2\) on the financed
+family or the normalized elliptic cancellation showing that the
+amplitude factor drops out of \(\tau\). The poor-charge dichotomy and
+count lower bound are also accepted as the right shape, but the final
+same-currency comparison is still missing:
+\[
+P_{\min}\frac{F_{\rm oct}}{8A_{\max}}
+\ge
+\mathcal T_{\rm oct}.
+\]
+Until that line is written, poor windows have a residence count lower
+bound, not a proved octave tax. Filed is not cleared beyond the
+accepted shapes and prior narrow clearances.
 
 ## 1. Middle-range endpoints and the C_mid floor
 
