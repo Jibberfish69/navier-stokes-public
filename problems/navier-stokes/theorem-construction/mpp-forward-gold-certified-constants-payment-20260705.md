@@ -17,7 +17,7 @@ completion_truth: >-
   sidecar evidence only. What stands as proof currency is the exact
   structural content: the invariant drain identity; the un-parking
   derivative identity and parking-cap logarithm; the closed-form return
-  floor r0 >= f^2/(pi rho) at the chosen extraction fraction; c1 >= pi;
+  floor r0 >= f^2/(2 pi rho) at the chosen extraction fraction; c1 >= pi;
   locality exponents; finiteness of the per-handoff Gronwall data; and the
   closed-form two-payer floor. The corner and chop-strategy space are now
   governed by the theory-currency reshape note: exact 1/3 < 1/2 at the
@@ -126,7 +126,7 @@ controlled by exact Manley-Rowe structure; mixed-step closure now routes
 through the structural replacements and quantitative stratum named in the
 reshape note.
 
-## 3. Return-race constant: r0 >= f^2 / (pi rho) = 1/(8 pi) at f = 1/2
+## 3. Return-race constant: closed-form sidecar calculation
 
 Four-step chain with constants: (1) parked turning-point phase phi_t;
 (2) un-parking: d(phi_t)/d(ln a) = 2 tan(phi_t/2) >= 1 for phi_t >= pi/2
@@ -134,8 +134,9 @@ Four-step chain with constants: (1) parked turning-point phase phi_t;
 Delta phi >= f; if parking is shallow (phi_t < pi/2) the return was never
 suppressed and the bound only improves; (3) small-angle return rate
 >= (2/pi) g1 a f; (4) ramped over the extraction window f/(g2 a):
-returned fraction >= (1/pi)(g1/g2) f^2 = f^2/(2 pi) at coupling ratio
-rho = g2/g1 = 2 (geometric ladder). r0 >= 1/(8 pi) ~ 0.0398.
+returned fraction >= (1/pi)(g1/g2) f^2 in the old normalization. After
+the lane-law reshape, cite the closed-form floor as
+r0 >= f^2/(2 pi rho); fixed numerical evaluations are sidecar only.
 
 Parking cap, sharpened: un-parking leaves separatrix distance >= f
 regardless of depth, and K(m) <= (1/2) ln(16/(1-m)) gives
