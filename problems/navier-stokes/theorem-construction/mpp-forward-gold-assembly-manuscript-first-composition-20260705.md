@@ -284,6 +284,15 @@ estimate; target-5 root-variable perturbation estimate; and margin-split
 discriminant, phase-floor, and positive split-floor formulas. Chapter
 10 remains unexecuted.
 
+Latest max/financed-family re-gate: the max-of-two-prices framing and
+the financed-family restriction are the right repairs, but they are not
+cleared. The queue is now: write shallow/deep price functions on one
+depth domain and prove a positive max floor; tie the discriminant line
+back to the actual Gate-6 cubic normalization with bounded nonzero
+Jacobian; prove financed-family noncircularity or route the complement
+through sub-financing; prove weighted throughput-to-swing, bottom-dwell
+to bottom-root, and level-gap bounds. Chapter 10 remains unexecuted.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
