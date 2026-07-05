@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-pointwise-orientation-targets-2-3-20260705
-status: targets-2-3-paid-by-pointwise-orientation-principle-regate-requested
+status: codex-regated-pointwise-orientation-not-gate-a-budget
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / targets 2 and 3 (signed tails; fixed-eps cell BV)
@@ -52,6 +52,18 @@ completion_truth: >-
 ---
 
 # Targets 2 and 3: orientation is pointwise
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-five-payments-regate-20260705.md`. Pointwise
+orientation supplies a sign for a density, but it does not by itself
+prove Gate A's residence-tax budget on actual cells or tail cubics.
+Target 3 still needs the fixed-epsilon Gate A proof restricted to the
+frame cells, including boundary/locality errors. Target 2 still needs
+tail cubics to satisfy Gate A's integrand-level hypotheses, or the
+unsigned E2 fallback must be carried through the record rows. Filed is
+not cleared.
 
 ## 1. The principle
 
