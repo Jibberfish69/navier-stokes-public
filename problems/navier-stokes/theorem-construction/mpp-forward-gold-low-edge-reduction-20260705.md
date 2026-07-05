@@ -9,48 +9,18 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie:
   every later chop only slows its relay further against a tax that
   only grows.
 completion_truth: >-
-  First resolution unit on sheet 1, pending re-gate; the sheet is NOT
-  resolved here - it is REDUCED to one inequality at the window's low
-  edge, with the carry above it displayed. (THE MONOTONE CARRY) The
-  required side is BOUNDED: T_req(N) = ln 2 + N ln c*(2^(-1/N)) rises
-  from zero at two steps toward its limit of half a log-two - bounded
-  above by half a log-two for every N (the filed composition limit).
-  The delivered side is SUPERLINEAR IN THE SATURATING REGIME: T_del(N)
-  = N b(Lambda(N)) with b nondecreasing in Lambda (filed monotonicity)
-  and Lambda increasing in N (the square-root law); hence for all
-  N >= 3,  T_del(N) >= (N/3) T_del(3) >= T_del(3).  Therefore: IF
-  T_del(3) >= (ln 2)/2, THEN T_del(N) >= T_req(N) for every N in the
-  window simultaneously - the bounded requirement is beaten everywhere
-  by the value at the low edge alone. THE WHOLE MIDDLE WINDOW REDUCES
-  TO ONE DISPLAYED INEQUALITY AT N = 3:
-  3 sigma_min [1 - exp(-(Lambda(3) - ln(1/theta))_+)] >= (ln 2)/2,
-  with Lambda(3) = gamma_home c_diff sqrt(3/ln 2). (THE CRUX, honestly
-  located) Since sigma_min exceeds one-half (the cleared drain-share
-  floor), the prefactor 3 sigma_min exceeds three-halves, which
-  exceeds half a log-two by more than a factor of four - so the
-  inequality holds IF AND ONLY IF the saturation factor at the low
-  edge is not tiny: explicitly, it suffices that
-  (Lambda(3) - ln(1/theta))_+ >= ln(4/3)-scale - i.e. the low-edge
-  exponent clears the seed logarithm by an exact margin. The entire
-  middle window now hangs on ONE seed-versus-exponent inequality at
-  its low edge - the rectification note's structural threshold asked
-  at one specific place, in fully filed symbols: gamma_home (one minus
-  the bracket deficit at the half-min width, around the cleared
-  identity), c_diff (the exact difference-factor constant), theta (the
-  displayed amplitude-split choice). RESOLUTION PATH, stated: expand
-  the three symbols from their filed closed forms and attempt the sign
-  by exact means; the three honest exits stand - and if this ONE
-  inequality resists symbolically, the interval pass's entire job is
-  ONE COMPARISON AT ONE POINT, the narrowest chapter 10 the campaign
-  has ever stated. (SHEET 2 STATUS) The poor-horn line's five-symbol
-  expansion is queued as the parallel unit with the same procedure;
-  its structure (a product of cleared floors against an octave form)
-  has no analogue of the seed threshold and is expected to be the
-  easier sheet - expectation labeled, not leaned on. PRESS POINTS:
-  the monotone-carry display (N/3 factor - one line from b's
-  monotonicity and Lambda's increase); the three-halves versus half-
-  log-two line (exact fraction comparison, lane currency). Filed is
-  not cleared. No closure claimed.
+  Codex re-gated this note. The monotone carry is accepted as a
+  sufficient reduction: if T_del(3) >= (log 2)/2, then
+  T_del(N) >= T_req(N) throughout the named N-window. This is not an
+  equivalence, and failure at N=3 does not prove the whole middle
+  window fails or reduce an interval pass to one point without an
+  additional worst-ratio lemma. The exact sufficient seed-margin
+  threshold is D_3 >= -log(1 - (log 2)/(6 sigma_min)), with
+  D_3 = (Lambda(3)-log(1/theta))_+. Current open items: prove that
+  exact low-edge sufficient inequality, or prove a worst-ratio lemma
+  if one-point interval fallback is claimed after low-edge failure;
+  expand Sheet 2; chapter 10. Filed is not cleared beyond the
+  sufficient reduction. No closure claimed.
 ---
 
 # The low-edge reduction
