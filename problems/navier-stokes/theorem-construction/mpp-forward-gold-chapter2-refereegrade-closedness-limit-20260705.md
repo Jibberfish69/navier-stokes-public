@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-chapter2-refereegrade-closedness-limit-20260705
-status: goal-item-4-piece-one-referee-shape-filed-varying-cone-handled-dh-hazard-routed-honestly
+status: codex-audit-open-varying-cone-boundary-rewrite-n3-finite-readout-only
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 4 / chapter 2 referee-grade draft
@@ -10,7 +10,13 @@ authorship: Claude (Fable), 2026-07-05. Builds strictly on the filed step3
   tower readout, and the no-recount law is his first-admission discipline
   at PDE level.
 completion_truth: >-
-  Goal item 4, piece one: the L1 closedness limit written to referee
+  CODEX AUDIT UPDATE, same date. This is a useful proof-shaped draft, not
+  a cleared gate. N1's varying-cone structure is right, but the proof must
+  be written through T4's all-but-countably-many-levels boundary lemma;
+  arbitrary superlevel boundaries are not automatically null. N3 is
+  acceptable only as a finite-readout cone theorem plus silver routing on
+  the infinite-readout complement, not as a cone theorem on all defect
+  support. Original state being audited: Goal item 4, piece one: the L1 closedness limit written to referee
   shape. What is NEW here beyond the step4 note: (N1) the VARYING-CONE
   subtlety is handled - membership in K(kappa(x)) with x-dependent
   opening does not pass to limits naively; it passes via the monotone
@@ -115,10 +121,11 @@ Assume GA-m (respectively GA-w). Then, pointwise as measures on the set
   (respectively: the same membership with the Reynolds weight M carried
   on the total-variation side).
 
-PROOF (referee shape). Fix Lambda finite and work on the open superlevel
-complement U_Lambda := interior of { kappa-bar < Lambda }; these sets
-exhaust { kappa-bar < infinity } up to the usc envelope's boundary, a
-null set for the limiting measures by outer regularity. On U_Lambda,
+PROOF (audit-corrected shape). Fix Lambda finite from the T4 good-level
+set: for all but at most countably many Lambda, the boundary of
+{ kappa-bar < Lambda } is null for the limiting measures. Work on compact
+subsets of U_Lambda := interior of { kappa-bar < Lambda }, then exhaust
+through such good Lambda levels. On U_Lambda,
 upper semicontinuity gives eps_0 such that for eps < eps_0 the readout
 satisfies kappa_eps < Lambda on U_Lambda (locally uniformly). By GA at
 fixed eps, (Pi_E^eps, Pi_H^eps) lies in K(kappa_eps) + E-line, hence by
@@ -132,10 +139,10 @@ tested against nonnegative test functions supported in U_Lambda. Each
 inequality is a linear functional of the pair and passes to weak-star
 limits of measures (sections 3-4 supply the compactness). Hence the
 limit pair satisfies the same inequalities on U_Lambda: membership in
-K(Lambda) + E-line. Let Lambda decrease to kappa-bar through the
-superlevel exhaustion: by monotone intersection of the closed sets
-K(Lambda), the limit pair lies in K(kappa-bar) + E-line on
-{ kappa-bar < infinity }. Under GA-w the identical argument runs with
+K(Lambda) + E-line. Let the good Lambda levels decrease through the
+superlevel exhaustion and use T4 to discard only null boundaries; by
+monotone intersection of the closed sets K(Lambda), the limit pair lies
+in K(kappa-bar) + E-line on { kappa-bar < infinity }. Under GA-w the identical argument runs with
 the weighted total-variation control carried as a side inequality of
 the same linear type. QED, at referee shape.
 
