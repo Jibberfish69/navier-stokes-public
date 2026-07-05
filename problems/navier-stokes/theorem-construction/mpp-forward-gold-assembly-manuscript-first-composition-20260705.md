@@ -516,6 +516,24 @@ on the financed sector. The corner-membership line also has to be
 rewritten for the coupled half-min cap defining \(w_{\rm eff}\), rather
 than as an independent rectangular-box corner.
 
+Latest sequential-minimization re-gate: width-first substitution is
+accepted as the correct coupled-cap repair, so membership is by
+construction after setting \(w=w_{\rm eff}\). The angle row remains
+open. After substitution,
+\[
+\frac{d}{d\phi}\log\gamma_{\rm home}(\phi,w_{\rm eff}(\phi))
+=
+\partial_\phi\log\gamma_{\rm home}
++\partial_w\log\gamma_{\rm home}\,w'_{\rm eff}(\phi),
+\]
+and the full fixed-width derivative is
+\[
+\partial_\phi\log\gamma_{\rm home}=P_-+P_0+S-N_+.
+\]
+Thus flat cap branches still need \(P_-+P_0+S\ge N_+\), while the
+sector cap branch must include the width-coupling term. The margin
+single-crossing claim is also open.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
