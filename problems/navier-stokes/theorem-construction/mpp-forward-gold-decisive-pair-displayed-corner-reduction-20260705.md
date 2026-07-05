@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-decisive-pair-displayed-corner-reduction-20260705
-status: decisive-pair-fully-composed-family-infimum-reduced-to-corners-regate-requested
+status: codex-regated-pair-displayed-corner-reduction-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the decisive pair, displayed
@@ -59,6 +59,15 @@ completion_truth: >-
 ---
 
 # The decisive pair, displayed; the infimum at a corner
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-front-loading-decisive-pair-regate-20260705.md`.
+The two decisive inequalities are accepted as the right Sheet-1 display.
+The family-infimum/corner reduction is not cleared here: the note names
+the adverse-end table and corner-membership check, but those displays
+are still owed before the corner can be treated as the worst point.
 
 ## 1. The pair
 
