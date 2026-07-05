@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate6-explicit-displays-i-iv-20260705
-status: gate6-items-i-iv-displayed-band-definition-dependence-stated-regate-requested
+status: codex-regated-gate6-displays-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / gate 6 explicit items (i)-(iv)
@@ -58,6 +58,19 @@ completion_truth: >-
 ---
 
 # Gate 6, items (i)-(iv), displayed
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-e-displays-gate6-regate-20260705.md`.
+The displays identify the right algebraic targets but do not clear
+Gate 6. Horn-(b) one-signedness cannot be inherited from classification
+alone; the five-mode equations must derive the sign or the extraction
+window must be decomposed into signed subwindows. The root-velocity
+formula must be tied to a precise averaged-root system. The endpoint
+inequalities need actual cap/dwell margins, and the active-phase lemma
+must apply to the actual extraction window or pass to an active
+subwindow with the lost inactive time charged. Filed is not cleared.
 
 ## (i) Extraction equations
 
