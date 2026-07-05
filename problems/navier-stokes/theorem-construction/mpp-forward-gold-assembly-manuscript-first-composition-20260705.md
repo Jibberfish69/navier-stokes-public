@@ -390,6 +390,22 @@ Still open before symbolic comparisons: the shallow-price
 the boundary minus-two absorption must display its financing or
 period-cap threshold inequality.
 
+Latest tau/swing re-gate: the rich-side boundary absorption is cleared
+on the threshold \(Q=\operatorname{throughput}/(X_3-X_2)\ge4\), since
+\(N_c\ge Q-2\ge Q/2\). The tau floor is reduced to an active
+middle-range display:
+\[
+X_2+\delta_{\rm mid}
+\le X_{\rm lo}<X_{\rm hi}
+\le X_3-\delta_{\rm mid},
+\qquad
+C_{\rm mid}:=\min_{[X_{\rm lo},X_{\rm hi}]}C(X)>0.
+\]
+The poor-side split remains open because
+\(\operatorname{throughput}<4(X_3-X_2)\) is only a ceiling; it still
+needs a same-currency charge into the octave floor or theta-charge
+budget.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
