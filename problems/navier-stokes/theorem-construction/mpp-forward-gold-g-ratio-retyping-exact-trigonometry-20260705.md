@@ -60,6 +60,17 @@ completion_truth: >-
 
 # Retyping the last constant: the geometry was a formula all along
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-g-ratio-t7-regate-20260705.md`. The retyping
+is accepted as the right shape: the R2b \(G\)-ratio is exact
+trigonometry, not intrinsically a measured compactness constant. The
+gate is not cleared. T7 must fix the helical convention,
+conjugation pattern, triad orientation, and universal normalization,
+and the financed family must exclude the helicity-weighted-sum zero
+set as well as collinearity. Filed is not cleared.
+
 ## 1. The observation
 
 The G-ratio was floored by compactness because compactness was
