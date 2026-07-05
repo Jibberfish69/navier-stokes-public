@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target1-exact-channel-flux-identity-20260705
-status: target1-paid-energy-partition-exact-zero-remainder-helicity-remainders-listed-regate-requested
+status: codex-regated-energy-partition-accepted-helicity-e2-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex target 1 (channel-flux identity + E2 currency)
@@ -64,6 +64,19 @@ completion_truth: >-
 ---
 
 # Target 1: the exact channel-flux identity
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-target1-regate-20260705.md`. The energy-side
+linear-slot partition is accepted as the right exact identity once the
+actual DR test-form formula and L3_loc convergence are written. Target 1
+is not cleared: the pressure statement must be narrowed to the DR
+anomalous flux cubic, the helicity decomposition must be derived from
+the mollified helicity balance rather than defined by channel weight,
+the remainder list must be checked for time-mollifier/cutoff/commutator
+and off-diagonal terms, and E2 must be rerun on this exact object in
+defect-measure currency. Filed is not cleared.
 
 ## 1. Energy side: exact by construction
 
