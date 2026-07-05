@@ -114,13 +114,19 @@ coupling is sqrt((q-p)(k+p)) = q sqrt(2 delta) at step progress delta,
 while the reverse predator's coefficient is (k+q), full strength. The
 clock ratio predator/relay = 1/sqrt(2 delta) DIVERGES as the chop
 refines: chopping weakens the relay but never the predator - this is the
-sqrt(delta)-cancellation restated as an exact scaling identity. The
-predator is itself a spring; what rectifies it into a net tax is the
-waste RAMP: the pair grows during the step, the fast pendulum's adiabatic
-swing grows with it, and the end-of-step holding is the exact invariant
-share of the final pair - drain per step proportional to the step's own
-progress delta. Fine chopping therefore cannot dilute the tax rate: tax
-and progress scale TOGETHER, at every N. Meanwhile evading the viscous
+sqrt(delta)-cancellation restated as an exact scaling identity.
+[CORRECTED same date by the ramp-rectification proof note: the original
+clause here attributed the net tax to ADIABATIC growth of the
+predator's swing under the ramp. That mechanism is withdrawn - the
+adiabatic (elliptic) sector is protected and pays nothing either way.
+The true payer is the HYPERBOLIC sector: on the exact sub-cone of
+upscale same-helicity partners the reverse triad is decay-unstable with
+the child as source (positive coefficient product), the child pays the
+exact share (1 + mu/q)/2 per transferred unit, and the relay's waste is
+itself the unstable pair's seeded leg - instability, not adiabatics, is
+the rectifier, and the conclusion STRENGTHENS: below a structural chop
+threshold (square root beats logarithm) the swing completes and the tax
+saturates at an order-one share per step.] Meanwhile evading the viscous
 payer under the slowed clock forces local Reynolds to grow with a
 strictly larger exact exponent than the relay's slowdown, which forces
 pair persistence - the dichotomy is a comparison of exact exponents, no
