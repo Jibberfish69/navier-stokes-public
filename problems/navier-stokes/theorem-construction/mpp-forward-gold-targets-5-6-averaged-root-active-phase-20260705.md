@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-targets-5-6-averaged-root-active-phase-20260705
-status: targets-5-6-paid-averaged-root-displayed-fragmentation-floor-closes-loophole-regate-requested
+status: codex-regated-averaging-and-fragmentation-lemmas-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / targets 5 and 6 (final analytic targets)
@@ -62,6 +62,18 @@ completion_truth: >-
 ---
 
 # Targets 5 and 6: the average, and the floor under flicker
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-five-payments-regate-20260705.md`. The averaged
+root system and fragmentation floor are not cleared. The one-period
+frozen-coefficient average needs its perturbation estimate written with
+the actual constants and hypotheses. The zero-spacing claim needs more
+than a derivative bound: it must handle amplitude-zero intervals or give
+a nonzero amplitude floor, then prove phase-controlled sign spacing in
+fast-clock units and charge end losses in the same weighted currency.
+Filed is not cleared.
 
 ## Target 5: the averaged-root system
 
