@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-sequential-minimization-coupled-corner-20260705
-status: sequential-minimization-replaces-box-corner-coupling-reinforces-adverse-ends-regate-requested
+status: codex-regated-width-substitution-accepted-angle-margin-claims-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the coupled corner, done right
@@ -59,6 +59,21 @@ completion_truth: >-
 ---
 
 # Sequential minimization: the coupled corner, done right
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-sequential-minimization-regate-20260705.md`.
+The width-first substitution is accepted as the right repair for the
+coupled cap and membership issue. The angle row is not cleared: after
+substitution the derivative is
+\[
+\partial_\phi\log\gamma_{\rm home}
++\partial_w\log\gamma_{\rm home}\,w'_{\rm eff},
+\]
+and the filed note accounts only for the sine-ratio part of
+\(\partial_\phi\log\gamma_{\rm home}\), not the full fixed-width
+derivative. The margin single-crossing claim is also still open.
 
 ## 1. Width first, by substitution
 
