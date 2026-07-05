@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-flux-cone-step4-limit-interchange-proof-20260705
-status: step4-proved-in-decomposed-form-cone-plus-exchange-line-opening-is-limsup-tower
+status: CORRECTED-closedness-mechanism-stands-content-gated-on-oriented-admission-gate-A
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / lifting campaign / L1 flux cone / step (iv)
