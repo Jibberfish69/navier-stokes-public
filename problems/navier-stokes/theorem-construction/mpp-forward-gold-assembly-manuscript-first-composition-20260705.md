@@ -241,6 +241,15 @@ same orientation and routed through no-recount; fragmented forward
 subwindows must still support the averaged-root and active-phase
 lemmas.
 
+Latest target-1 re-gate: the energy-side linear-slot partition of the
+Duchon-Robert cubic is accepted in principle, once the test-form formula
+and L3_loc convergence are written. Target 1 is still open on the
+helicity/E2 side: the pressure statement must be narrowed to the DR
+anomalous flux cubic, the helicity decomposition must be derived from
+the mollified helicity balance, the remainder list must include
+time-mollifier/cutoff/commutator/off-diagonal terms, and E2 must be
+rerun on the exact channel object in defect-measure currency.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
