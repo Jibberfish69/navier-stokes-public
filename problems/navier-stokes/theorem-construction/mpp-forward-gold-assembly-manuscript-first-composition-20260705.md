@@ -534,6 +534,30 @@ Thus flat cap branches still need \(P_-+P_0+S\ge N_+\), while the
 sector cap branch must include the width-coupling term. The margin
 single-crossing claim is also open.
 
+Latest factorwise-floor re-gate: the product-floor strategy is accepted
+only as a lower-bound reduction. The endpoint-only monotone-factor table
+is not cleared. The ratio factor
+\[
+F_2(\phi,w)=\frac{c(\phi)}{c(\phi+w)}
+\]
+has
+\[
+\partial_\phi\log F_2
+=kq\left(
+\frac{\sin\phi}{c(\phi)^2}
+-
+\frac{\sin(\phi+w)}{c(\phi+w)^2}
+\right),
+\]
+and \(h(\beta)=\sin\beta/c(\beta)^2\) satisfies
+\[
+h'(\beta)=
+\frac{(k^2+q^2)\cos\beta-2kq}{c(\beta)^4}.
+\]
+The sign changes inside admissible sectors, so the factorwise route
+requires separate exact minimization of the factors rather than an
+endpoint-only table.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
