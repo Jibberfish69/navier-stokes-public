@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-certified-constants-payment-20260705
-status: list-d-paid-derivation-level-corner-via-dichotomy-monotonicity-reshaped-race-constant-corrected
+status: lane-law-split-exact-content-stands-decimal-content-sidecar-quantitative-stratum-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / certified constants (residual list item d)
@@ -10,36 +10,25 @@ authorship: Claude (Fable), 2026-07-05. Conventions: Waleffe helical normal
   rescues the corner IS his penny-tax/spring structure appearing inside the
   constants themselves.
 completion_truth: >-
-  Every constant on list (d) is now certified at DERIVATION level -
-  pen-and-paper inequalities with explicit numbers in the stated helical
-  normal form, every bound signed and conservative. This is Stage-1-grade
-  certification in the sense of the retention-certification spec (exact
-  triad computation, true invariants); the Stage-3 interval-arithmetic
-  pass over the compact family remains the program's endgame artifact and
-  is NOT claimed. One correction event is filed alongside: the mixed-race
-  note's conservative-case delivery constant (2 ln2 per octave) was crude
-  overclaim - explicit constants give ~25x less in that branch - and the
-  verdict survives by a TWO-PAYER DICHOTOMY instead (short waste lifetime
-  forces marginal Re, where the viscous payer collects O(1); long lifetime
-  keeps the pair alive, where the reverse-spring payer collects O(1)).
-  Codex's corner-supremum monotonicity is NOT certified as stated
-  (per-step bite monotonicity in step size fails at conservative
-  constants); it is DISCHARGED in a stronger form: the certified per-octave
-  retention of every chop strategy N >= 2 is <= e^(-0.43 N) <= 0.42, below
-  the corner's 0.4375, so the corner IS the strategy supremum, and the
-  supremum itself is certified below the self-financing threshold 4/7.
-  Results: corner bite >= 1/2 > 3/7 (margin 1/14 absolute at the bite,
-  24 percent log-margin at the retention); r0 >= f^2/(2 pi) = 1/(8 pi)
-  at f = 1/2; c1 >= pi; locality constants C_UV <= 4 (dyadic sum <= 8),
-  C_IR <= 1 (dyadic sum <= 4/3); FiniteChainReduction Gronwall exponent
-  Lambda <= 91 and band count B0 <= 150 (absurdly unoptimized, finite,
-  explicit); floor c0 >= 1/(8 pi) ~ 0.0398, per-octave multiplier
-  <= 0.9602 < 1. All margins stated; the thinnest is the corner-supremum
-  ordering (0.42 vs 0.4375, four percent) - flagged for the Codex audit.
-  No closure claimed.
+  CORRECTED by the same-date theory-currency lane law. This note is no
+  longer proof authority for decimal margins, sampled triangle factors,
+  evaluated elliptic integrals, exponential comparisons, or the
+  corner-supremum ordering by decimal comparison. Those calculations remain
+  sidecar evidence only. What stands as proof currency is the exact
+  structural content: the invariant drain identity; the un-parking
+  derivative identity and parking-cap logarithm; the closed-form return
+  floor r0 >= f^2/(pi rho) at the chosen extraction fraction; c1 >= pi;
+  locality exponents; finiteness of the per-handoff Gronwall data; and the
+  closed-form two-payer floor. The corner and chop-strategy space are now
+  governed by the theory-currency reshape note: exact 1/3 < 1/2 at the
+  corner with R2 carrying the normal-form lift, exact two-step marginality
+  plus compact-family positivity, and the predator-clock theorem for the
+  fine-chop limit. Remaining numerical content belongs to the quarantined
+  quantitative stratum: intermediate-chop order-one prefactor, R2, and
+  Stage-2/3 certification. No closure claimed.
 ---
 
-# Certified constants: list (d) paid at derivation level
+# Certified constants: exact-content split and sidecar calculations
 
 ## 0. CORRECTION HEADER (2026-07-05, later same day - lane law applied)
 
