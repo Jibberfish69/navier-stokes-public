@@ -558,6 +558,26 @@ The sign changes inside admissible sectors, so the factorwise route
 requires separate exact minimization of the factors rather than an
 endpoint-only table.
 
+Latest factor-minima critical-point re-gate: the auxiliary collapse
+\[
+h'(\beta_*)=0\Longrightarrow h(\beta_*)=\frac1{q^2-k^2}
+\]
+is correct for \(h(\beta)=\sin\beta/c(\beta)^2\), but it does not give
+the critical point of \(F_2(\phi,w)=c(\phi)/c(\phi+w)\). The actual
+fixed-\(w\) critical equation is
+\[
+h(\phi)=h(\phi+w),
+\]
+equivalently
+\[
+\cos\left(\phi+\frac w2\right)
+=
+\frac{2kq}{k^2+q^2}\cos\left(\frac w2\right).
+\]
+The factor minima are still open: \(F_2\) needs this candidate list,
+and \(F_1\) still needs its own critical equation or a certified lower
+bound.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
