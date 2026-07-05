@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate8-same-packet-row-theorem-20260705
-status: gate8-paid-structural-record-work-localized-onto-classified-window-family-regate-requested
+status: codex-regate-reduced-channel-window-disintegration-and-row-composition-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex gate 8 (same-packet row theorem)
@@ -10,8 +10,9 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie: the
   taxes. The bathtub gate, the campaign's first link, is what closes its
   last bridge but one.
 completion_truth: >-
-  Pays Codex gate 8: the chapter-9 bridge identification upgraded from a
-  map to a SAME-PACKET THEOREM. The demand was that record work, Gate A
+  CODEX RE-GATE UPDATE, same date. This note gives the right structural
+  target for Codex gate 8, but it does not yet clear the same-packet row
+  theorem. The demand was that record work, Gate A
   admission, payer windows, and no-recount debt act on one edge/window
   object. THE THEOREM: they all act on the same indexed family - the
   (helical channel, defect-carrying window) pairs of gate 7's classified
@@ -24,7 +25,7 @@ completion_truth: >-
   fluxes, no cross terms. (F2) LOCALIZATION: the flux-gate identity (the
   bathtub gate, the campaign's first filed link) writes each channel
   flux as the increment stress against the strain, whose support is the
-  packet window family up to the PAID locality tails; so the record work
+  packet window family up to the locality tails; so the record work
   integral over an upcrossing equals the sum, over the SAME window
   family gate 7 classifies, of admitted window fluxes at channel weight,
   up to priced tails - an identity, not an estimate, given T1's
@@ -39,13 +40,14 @@ completion_truth: >-
   diagonalization is exact (Fourier multiplier per channel); boundary
   terms of the upcrossing are the height difference and dissipation,
   already in the installed upcrossing inequality's bookkeeping; window
-  overlap tails are the priced eta-budget. Codex re-gate requested on F2
-  (the localization identity's tail accounting) and on whether row 2's
-  per-window tax and row 1's per-channel admission compose on the pair
-  index without a Fubini-type gap (they are both per-(channel, window)
-  statements by construction, but the composition deserves its own
-  line). REMAINING BRIDGE: gate 6 core only (drifting-separatrix
-  crossing lemma). Chapter 10 unchanged. No closure claimed.
+  overlap tails are assigned to the eta-budget. Codex re-gate result:
+  F2 tail accounting and the row-composition/Fubini line are
+  load-bearing theorem clauses. The proof must construct the
+  channel-window disintegration at defect-measure level and show that
+  per-channel admission, per-window pricing, and oriented debt routing
+  compose on the same pair index without moving mass or double-counting.
+  Gate 8 is reduced to that theorem. Chapter 10 unchanged. No closure
+  claimed.
 ---
 
 # Gate 8: the same-packet row theorem
@@ -92,7 +94,7 @@ everything else was defined on it.
 
 ## 5. Register
 
-Gate 8 paid at structural level; re-gate on F2's tail accounting and
-the row-composition line. Remaining bridge: gate 6 core, the
-drifting-separatrix crossing lemma. Chapter 10 unchanged. No closure
+Gate 8 reduced, not paid. Remaining: prove F2 tail accounting for the
+localized flux-gate identity and the row-composition/Fubini line on
+the same (channel, window) index. Chapter 10 unchanged. No closure
 claimed.
