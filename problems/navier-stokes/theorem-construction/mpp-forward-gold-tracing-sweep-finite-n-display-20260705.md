@@ -59,6 +59,17 @@ completion_truth: >-
 
 # The tracing sweep and the finite-N display
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-zero-set-tracing-regate-20260705.md`. The
+one-symbol tracing sweep is accepted as the right candidate shape, not
+as a clearance. It still needs a source map showing that the six
+non-\(G\) factors are exact or already quarantined, and the finite-\(N\)
+comparison must be written in logarithmic/multiplicative currency so
+per-step taxes add without double-counting a shrinking retained
+package. Filed is not cleared.
+
 ## 1. Seven factors, one symbol
 
 The delivered drain at chop N, factor by factor with its filed
