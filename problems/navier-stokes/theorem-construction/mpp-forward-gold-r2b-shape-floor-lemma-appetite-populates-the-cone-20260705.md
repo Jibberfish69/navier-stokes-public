@@ -66,27 +66,27 @@ same inequality that already priced the branch - read in the other
 direction. One formula, two teeth: it caps what the enemy keeps, and
 it floors the geometry the enemy must expose to keep it.
 
-## 3. The shape floor
+## 3. The claimed shape floor, re-gated
 
-With k = a q and a >= a*, take partners mu in the middle band strictly
-below the child, inside the hyperbolic sub-cone (matching helicity,
-mu < q, admissible by the triangle inequality with margins
-proportional to a q). Every such reverse triangle has side ratios and
-triangle-inequality margins bounded by exact multiples of a*: a
-compact family of non-collinear shapes, fixed once a* is fixed. The
-coupling modulus is continuous and vanishes only on collinear shapes,
-so it has a strictly positive floor on the family - compactness
-positivity, value unnamed here, living in chapter 10 where it always
-belonged.
+With k = a q and a >= a*, the catalyst is no longer allowed to vanish
+in magnitude. This does not by itself prove that the actual
+waste-child triangle is bounded away from the collinear boundary. The
+original compactness claim needs one more input: either a packet-level
+angular/non-collinearity theorem for the actual partner geometry, or a
+chapter-10 certification target that carries the full G-ratio lower
+floor. Until that input is paid, this section is a proposed route to a
+shape floor, not a proved shape floor.
 
 ## 4. Resolvability and population
 
 The partner band is separated from the child's band by the scale
 a* q: band-scale separation, hence a genuine independent degree of
 freedom of the seven-mode window's ambient space (not a sub-band
-artifact). Vacuum population (cleared) fills it from the waste seed
-through the child background. The predator's hunting ground is
-populated by the very geometry the enemy must expose in order to eat.
+artifact). Vacuum population (cleared) fills whatever partner geometry
+is available from the waste seed through the child background. The
+remaining question is whether that available geometry has a uniform
+angular floor, or whether its full lower bound must be certified as a
+G-ratio constant.
 
 ## 5. R2 ledger after this note
 
