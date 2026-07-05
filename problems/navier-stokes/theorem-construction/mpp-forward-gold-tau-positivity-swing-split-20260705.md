@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tau-positivity-swing-split-20260705
-status: tau-compact-min-displayed-swing-rich-poor-split-displayed-regate-requested
+status: codex-regated-rich-side-cleared-tau-midrange-and-poor-charge-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / the last two TV items
@@ -53,6 +53,24 @@ completion_truth: >-
 ---
 
 # The last two TV items
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-tau-swing-split-regate-20260705.md`.
+The rich-side boundary absorption is cleared: when
+\(\operatorname{throughput}/(X_3-X_2)\ge4\), the inequality
+\[
+N_c\ge \operatorname{throughput}/(X_3-X_2)-2
+\]
+gives the half-factor bound. The tau compact-minimum argument has the
+right shape, but it still needs the active middle-range endpoints and a
+uniform \(C_{\rm mid}>0\) floor displayed in the same variables. The
+poor-side split is not cleared: \(\operatorname{throughput}<4(X_3-X_2)\)
+is a ceiling, not yet a same-currency charge against the octave floor.
+That charge must be displayed before the TV downstream chain clears.
+Filed is not cleared beyond the rich-side absorption and previous
+width/speed clearances.
 
 ## 1. Tau positivity, by compact minimum
 
