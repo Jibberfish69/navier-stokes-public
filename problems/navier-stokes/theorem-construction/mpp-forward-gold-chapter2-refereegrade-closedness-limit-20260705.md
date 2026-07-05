@@ -10,10 +10,12 @@ authorship: Claude (Fable), 2026-07-05. Builds strictly on the filed step3
   tower readout, and the no-recount law is his first-admission discipline
   at PDE level.
 completion_truth: >-
-  CODEX AUDIT UPDATE, same date. This is a useful proof-shaped draft, not
-  a cleared gate. N1's varying-cone structure is right, but the proof must
-  be written through T4's all-but-countably-many-levels boundary lemma;
-  arbitrary superlevel boundaries are not automatically null. N3 is
+  CODEX AUDIT UPDATE, same date, with later T4 correction applied. This
+  is a useful proof-shaped draft, not a cleared gate. N1's varying-cone
+  structure is right, but the proof must be written through T4's
+  good-level shell-exhaustion lemma, not through topological sublevel
+  boundary nullity; arbitrary superlevel/sublevel boundaries are not
+  automatically null. N3 is
   acceptable only as a finite-readout cone theorem plus silver routing on
   the infinite-readout complement, not as a cone theorem on all defect
   support. Original state being audited: Goal item 4, piece one: the L1 closedness limit written to referee
@@ -121,15 +123,19 @@ Assume GA-m (respectively GA-w). Then, pointwise as measures on the set
   (respectively: the same membership with the Reynolds weight M carried
   on the total-variation side).
 
-PROOF (audit-corrected shape). Fix Lambda finite from the T4 good-level
-set: for all but at most countably many Lambda, the boundary of
-{ kappa-bar < Lambda } is null for the limiting measures. Work on compact
-subsets of U_Lambda := interior of { kappa-bar < Lambda }, then exhaust
-through such good Lambda levels. On U_Lambda,
+PROOF (audit-corrected shape, T4 shell version). Fix Lambda finite from
+the T4 good-level set: for all but at most countably many Lambda, the
+level set { kappa-bar = Lambda } is null for the limiting measures, and
+the transition shells { Lambda - eta < kappa-bar < Lambda + eta } have
+measure tending to zero as eta downarrow 0. Work first on compact
+subsets of the inner finite-readout set { kappa-bar < Lambda - eta },
+then enlarge to { kappa-bar < Lambda + eta } and let eta downarrow 0.
+On the inner set,
 upper semicontinuity gives eps_0 such that for eps < eps_0 the readout
-satisfies kappa_eps < Lambda on U_Lambda (locally uniformly). By GA at
-fixed eps, (Pi_E^eps, Pi_H^eps) lies in K(kappa_eps) + E-line, hence by
-MONOTONICITY of the cone family in K(Lambda) + E-line, on U_Lambda.
+satisfies kappa_eps < Lambda on the compact support (locally
+uniformly). By GA at fixed eps, (Pi_E^eps, Pi_H^eps) lies in
+K(kappa_eps) + E-line, hence by MONOTONICITY of the cone family in
+K(Lambda) + E-line on that support.
 Represent the fixed closed convex cone K(Lambda) by its half-spaces:
 membership is the family of linear inequalities
 
@@ -138,9 +144,11 @@ membership is the family of linear inequalities
 tested against nonnegative test functions supported in U_Lambda. Each
 inequality is a linear functional of the pair and passes to weak-star
 limits of measures (sections 3-4 supply the compactness). Hence the
-limit pair satisfies the same inequalities on U_Lambda: membership in
-K(Lambda) + E-line. Let the good Lambda levels decrease through the
-superlevel exhaustion and use T4 to discard only null boundaries; by
+limit pair satisfies the same inequalities on the inner support. The
+outer-shell error tends to zero by T4, so membership holds on the good
+finite-readout level in measure sense. Let the good Lambda levels
+increase to infinity through the finite-readout exhaustion and use T4's
+zero level-set/shell property, not topological boundary nullity; by
 monotone intersection of the closed sets K(Lambda), the limit pair lies
 in K(kappa-bar) + E-line on { kappa-bar < infinity }. Under GA-w the identical argument runs with
 the weighted total-variation control carried as a side inequality of
@@ -169,7 +177,9 @@ threshold calculus, transcribed to the channel decomposition).
 (T2) CET commutator lemma with the local L3 interpolation, written out.
 (T3) R1: measurable selection of defect-carrying channels and the usc
 envelope construction.
-(T4) Outer-regularity null-boundary detail in the superlevel
-exhaustion.
+(T4) Good-level shell exhaustion in the superlevel/sublevel readout
+argument; topological boundary nullity is false for general usc
+readouts and is replaced by zero level sets plus vanishing transition
+shells.
 Codex gate requested on: the varying-cone argument (section 5) and the
 helicity-domain routing (section 4).
