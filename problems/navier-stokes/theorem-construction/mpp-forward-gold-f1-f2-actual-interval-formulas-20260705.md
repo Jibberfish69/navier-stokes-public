@@ -56,6 +56,25 @@ completion_truth: >-
 
 # f1-f2 as formulas
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-f1-f2-actual-formulas-regate-20260705.md`.
+The missing-formula objection is cleared: the law-of-cosines, area,
+circumradius, and \(G\)-ratio brackets are now displayed and algebraic
+on an admissible interval. The full slice floor is not cleared with
+the full packet half-width \(w\): the hyperbolic-sector condition
+\(c(w)<q\) is displayed, but not proved for the entire packet slice.
+The remaining exact burden is to use a sector-admissible half-width
+\[
+0<w_{\rm eff}\le w,\qquad
+w_{\rm eff}<\phi_{\min},\qquad
+w_{\rm eff}<\arccos(k/(2q))-\phi_0,
+\]
+and substitute \(w_{\rm eff}\) into the displayed bracket and slice
+integral. Filed is cleared only for the formula display and the
+admissible-interval algebra.
+
 ## Setup and monotone condition
 
 Legs k, q; relay angle phi0 in [phi_min, pi - phi_min]; alpha in
