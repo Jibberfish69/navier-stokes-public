@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f2-critical-corrected-sine-ratio-identity-20260705
-status: f2-critical-point-corrected-sine-ratio-identity-f1-f3-monotone-displayed-regate-requested
+status: codex-regated-f2-cleared-f3-cleared-f1-monotonicity-false
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the ratio factor's true lowest point
@@ -51,6 +51,16 @@ completion_truth: >-
 ---
 
 # The ratio factor's true lowest point
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-f2-critical-corrected-regate-20260705.md`.
+The corrected \(F_2\) critical equation and sine-ratio identity clear,
+and \(F_3\)'s monotonicity clears. The \(F_1\) monotonicity claim does
+not clear: its logarithmic derivative changes sign on admissible
+sectors. The corrected factor lists are therefore still incomplete
+unless \(F_1\) gets its own critical equation or a valid lower bound.
 
 ## 1. The catch, owned
 
