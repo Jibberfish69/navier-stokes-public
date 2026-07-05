@@ -55,6 +55,18 @@ completion_truth: >-
 
 # The three TV-downstream displays
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-tv-downstream-regate-20260705.md`. This note is
+not cleared: it names the right three objects, but the body still gives
+the price functions, boundary-routed swing count, and capped-band speed
+bound in prose rather than as displayed inequalities. To clear, it must
+write explicit \(P_{\rm sh}\), \(P_{\rm dp}\) on one closed domain, a
+TV traversal inequality with the boundary integer, and the capped-band
+speed quotient. Filed is not cleared beyond identifying the three
+needed displays.
+
 ## 1. Price functions on one domain
 
 Domain: the closed capped band. Shallow price: race integral times
