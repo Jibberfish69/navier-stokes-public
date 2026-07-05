@@ -1,6 +1,6 @@
 ---
 theorem_id: consolidated-conditional-proof-spine-physical-story-to-clay-20260704
-status: full-route-consolidation-conditional-on-two-named-burdens-not-closure
+status: DEMOTED-assistant-sidecar-overlay-not-lane-consolidation-see-correction
 created: 2026-07-04
 problem: navier-stokes
 route: consolidated spine / Gold and Silver on one object
