@@ -373,11 +373,22 @@ which is positive on the home branch \(p<q\) and keeps the slice inside
 \(w_{\rm eff}\) factor. TV downstream displays, symbolic comparisons,
 and chapter 10 remain open.
 
-Latest TV downstream re-gate: not cleared. The note names the correct
-three objects, but it still needs actual displayed inequalities:
-shallow/deep price functions on one capped-band domain with an
-\(\inf\max\) floor; a TV traversal inequality with the boundary
-integer; and a capped-band speed bound with the period/time quotient.
+Latest TV downstream re-gate: partial. The actual-displays note now
+has the three inequality skeletons: shallow/deep price functions on
+one capped-band domain, a complete-swing TV traversal inequality with
+the boundary integer, and a capped-band speed quotient. Codex inserted
+the missing cubic speed maximum
+\[
+X_{\pm}
+=
+\frac{I_1+I_2\pm\sqrt{I_1^2-I_1I_2+I_2^2}}{3},
+\qquad
+C_{\max}=\max\{C(X_\pm):X_\pm\in[X_2,X_3]\}.
+\]
+Still open before symbolic comparisons: the shallow-price
+\(\tau\)-floor must display capped-band positivity/monotonicity, and
+the boundary minus-two absorption must display its financing or
+period-cap threshold inequality.
 
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
