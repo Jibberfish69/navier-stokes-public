@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-comparison-sheets-stage-opening-20260705
-status: comparisons-stage-opened-both-lines-expanded-exact-resolution-attempts-queued-regate-requested
+status: codex-regated-stage-open-sheets-not-fully-expanded
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / stage opening (the comparison sheets)
@@ -54,6 +54,22 @@ completion_truth: >-
 ---
 
 # The comparison sheets
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-comparison-sheets-regate-20260705.md`.
+The symbolic-comparisons stage is accepted as the correct queue, with
+two lines: the middle-window line and the poor-horn line. The sheets
+are not yet fully expanded exact comparisons. Sheet 1 must name the
+finite \(N\)-window, disambiguate \(\gamma_{\rm home}\), and display
+or line-cite the source chain for \(b(\Lambda)\). In particular,
+\(\gamma_{\rm home}=1-B(w_{\rm eff})\) is correct only if \(B\) is
+explicitly the deficit; if \(B\) is the lower bracket itself, the
+multiplier is \(B(w_{\rm eff})\). Sheet 2 must either expand
+\(F_{\rm oct}\), \(T_{\rm oct}\), and \(A_{\max}\) into their closed
+forms or state that it is a comparison in filed symbols, not a fully
+expanded sheet. Filed is not cleared.
 
 ## Sheet 1: the middle window, per chop number N
 
