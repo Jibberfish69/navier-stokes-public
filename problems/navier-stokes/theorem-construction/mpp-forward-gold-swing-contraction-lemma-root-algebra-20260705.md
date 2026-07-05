@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-swing-contraction-lemma-root-algebra-20260705
-status: gate6-clause1-paid-by-explicit-root-algebra-clause2-corrected-and-paid-regate-requested
+status: codex-regate-root-algebra-target-useful-explicit-inequalities-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / gate 6 final clauses (swing contraction; timing)
@@ -10,8 +10,9 @@ authorship: Claude (Fable), 2026-07-05. Codex's miscitation catch
   story Thomas Birnie: what the next rung takes, it takes from both
   ends of the swing - the spring narrows as it is robbed.
 completion_truth: >-
-  Pays Codex's two remaining gate-6 clauses, pending re-gate, with one
-  honest correction of my own framing folded in. (CLAUSE 1 - THE
+  CODEX RE-GATE UPDATE, same date. This note fixes the D1 miscitation
+  and gives the right algebraic target for Gate 6, but it does not pay
+  the clauses. (CLAUSE 1 - THE
   SWING-CONTRACTION LEMMA, COMPUTED.) Setup: the exact reduced cubic is
   C(X) = X (I1 - X)(I2 - X) - G0^2, with I1, I2 the two Manley-Rowe
   levels and G0 the triad phase invariant; extraction by the next triad
@@ -111,7 +112,9 @@ chapter 10 from this clause.
 
 ## 4. Register
 
-Gate 6 clauses 1 and 2: paid by computation and correction, re-gate
-requested (three named one-line checks offered). D1's scope restored
-to its filed content. Chapter 10 unexecuted. Filed is not cleared.
-No closure claimed.
+Gate 6 clauses 1 and 2 remain open. Required: the extraction equations
+for I1, I2, and G0^2; the root-velocity denominator and sign
+convention; explicit endpoint inequalities with dwell correction; and
+the active-phase timing lemma for the actual extraction window. D1's
+scope restored to its filed content. Chapter 10 unexecuted. No closure
+claimed.
