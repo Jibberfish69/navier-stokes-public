@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-chapter5-refereegrade-unparking-adiabatic-failure-20260705
-status: goal-item-4-piece-two-filed-adiabatic-defense-preempted-throughput-dichotomy-stated
+status: codex-audit-open-separatrix-crossing-and-horn-a-financing-bridge
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 4 / chapter 5 referee-grade draft (payer 2)
@@ -10,7 +10,13 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie: the
   every extraction is fast, and fast perturbations break adiabatic
   shelter. The spring is guarded by the enemy's own slowness.
 completion_truth: >-
-  Goal item 4, piece two: the un-parking theorem written to referee
+  CODEX AUDIT UPDATE, same date. The adiabatic comparison identifies the
+  right pressure point, but this gate is not cleared. The separatrix
+  crossing step still needs a real lemma for a drifting Hamiltonian near a
+  separatrix; T5's current "no restoring term" proof is too crude to carry
+  the theorem. Horn (a), self-throttled extraction, also needs an explicit
+  bridge into the per-octave financing inequality. Original state being
+  audited: Goal item 4, piece two: the un-parking theorem written to referee
   shape, and - the new content - the ADIABATIC DEFENSE PREEMPTED. No
   filed note had addressed the strongest objection a referee (or the
   enemy) can raise against payer 2: that action invariance protects a
