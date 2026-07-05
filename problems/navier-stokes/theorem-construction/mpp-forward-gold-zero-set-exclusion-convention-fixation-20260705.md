@@ -83,6 +83,21 @@ needs the sector citations: negative side on catalyst/waste, bounded by
 the child, with the remaining positive side floored on the financed
 family.
 
+## Codex sector-citation update, same date
+
+Codex sector-citation check filed at
+`mpp-forward-gold-codex-sector-citations-g-ratio-reduction-20260705.md`.
+The sector citations are paid: relay has \(k<p<q\), so the catalyst is
+bounded by the child; predator has waste \(k(-)\) adjacent to retained
+child \(q(+)\) in the hyperbolic branch, so the waste is bounded by the
+child. Hence \(S_{\rm relay}=p+q-k\ge p\) and
+\(S_{\rm pred}=q+\mu-k\ge\mu\). The remaining lower-bound problem is
+the exact circumradius-ratio inequality
+\[
+\inf_{\mathcal F_{\rm financed}} \frac{\mu}{p}\,
+\frac{R_{\rm relay}}{R_{\rm pred}}>0.
+\]
+
 ## 1. The zero-set exclusion: the minus lives on the catalyst
 
 The weighted sum vanishes only when the negative helicity rides the
