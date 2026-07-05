@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-chapter9-draft-record-bridge-20260705
-status: chapter9-drafted-against-reread-sources-bridge-identification-filed-s3-flag-remains
+status: codex-audit-open-same-packet-bridge-and-demand-supply-recurrence
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal items 4-5 / chapter 9 draft
@@ -9,7 +9,14 @@ authorship: Claude (Fable), 2026-07-05. Assembled against the re-read
   boundary ASH). Physical story Thomas Birnie; the bridge identification
   below is the two days of work recognizing each other.
 completion_truth: >-
-  Chapter 9 drafted against re-read sources, per the assembly spec. THE
+  CODEX AUDIT UPDATE, same date. Chapter 9 is a valuable bridge map, not
+  a cleared endgame. The row identification must be upgraded to a
+  same-packet theorem: record work, Gate A admission, payer windows, and
+  no-recount debt have to be shown to act on the same edge/window object.
+  The demand-supply crossing also needs an actual recurrence/ledger
+  inequality matching each record demand to the same taxed supply without
+  double counting. F2-prime is resolved in the body, so the older F2 flag
+  is stale. Original state being audited: Chapter 9 drafted against re-read sources, per the assembly spec. THE
   BRIDGE IDENTIFICATION (the mathematical content of this note): the
   July-4 spine left open exactly one proof-sized object (SRP.12/ASH.9) -
   derive the three record-admission rows from the original NS packet -
@@ -148,8 +155,10 @@ schedulability of the annulus debt (row structure of section 2 applied
 at the terminal cross-section). The Clay statement is sealed in
 pass-or-exit form.
 
-## 7. Conditional register (complete)
+## 7. Conditional register (Codex audit applied)
 
-This chapter inherits, and adds nothing to: the pending Codex gates;
-the chapter-10 stratum; flag F2 (T*-plus surfaces unread this window).
-Gate requested on the bridge identification and the crossing argument.
+This chapter inherits the pending Codex gates and chapter-10 stratum.
+F2-prime is resolved by the fixed-terminal-gauge read in section 5. The
+live chapter-9 gates are: (1) same-packet bridge theorem for the three
+rows, and (2) demand-supply recurrence/ledger inequality for the record
+crossing.
