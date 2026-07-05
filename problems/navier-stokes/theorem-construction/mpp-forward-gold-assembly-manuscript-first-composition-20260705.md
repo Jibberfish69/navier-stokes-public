@@ -420,6 +420,22 @@ P_{\min}\frac{F_{\rm oct}}{8A_{\max}}
 \mathcal T_{\rm oct}.
 \]
 
+Latest tau-amplitude / poor-comparison re-gate: the normalized elliptic
+cancellation clears the tau floor,
+\[
+\tau(m)=
+\frac{\operatorname{arcsn}(\sqrt3/2;m)-\operatorname{arcsn}(1/2;m)}
+{2K(m)},
+\qquad
+\tau_{\min}>0
+\]
+on the capped band. The poor-horn comparison is displayed in the right
+same-currency form and is routed to symbolic comparisons:
+\[
+r_0(f)\tau_{\min}\frac{F_{\rm oct}}{8A_{\max}}\ge T_{\rm oct}.
+\]
+It is not proved in the TV display chain.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
