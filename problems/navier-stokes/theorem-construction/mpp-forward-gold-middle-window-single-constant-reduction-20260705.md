@@ -63,6 +63,18 @@ completion_truth: >-
 
 # The middle window: obstruction typed, chapter 10 one constant wide
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-tv-middle-window-regate-20260705.md`. The
+obstruction is accepted: exact required algebra cannot be beaten by an
+unnamed compactness-positive constant without certification. The
+one-constant chapter-10 shape is accepted as a candidate reduction, not
+as a clearance. It still needs the tracing sweep showing that every
+nonexact delivered-side factor routes through the single R2b
+cross-triad \(G\)-ratio symbol, plus the finite-\(N\) display. Chapter
+10 remains unexecuted.
+
 ## 1. The obstruction (why structure cannot cross)
 
 With R2a audited, the required side is exact algebra: the composed
