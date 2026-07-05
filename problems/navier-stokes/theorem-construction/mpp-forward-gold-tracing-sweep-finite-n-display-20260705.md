@@ -70,6 +70,17 @@ comparison must be written in logarithmic/multiplicative currency so
 per-step taxes add without double-counting a shrinking retained
 package. Filed is not cleared.
 
+## Codex tracing clearance, same date
+
+Codex clearance filed at
+`mpp-forward-gold-codex-tracing-logcurrency-clearance-20260705.md`.
+The amended source map and logarithmic-currency display clear the two
+specific tracing objections: no second unnamed compactness constant
+survives outside the \(G\)-ratio, and per-step taxes add as logs of
+retention factors without double-counting a shrinking package. This
+does not clear the \(G\)-ratio shape inequality, TV downstream displays,
+or the symbolic middle-window comparisons.
+
 ## 1. Seven factors, one symbol
 
 The delivered drain at chop N, factor by factor with its filed
