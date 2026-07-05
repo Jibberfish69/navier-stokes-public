@@ -210,6 +210,14 @@ index. Reduced gate 7 still needs countable locally finite packet/window
 construction, channel-first defect decomposition for the weak-limit
 defect measure, and integer overlap/multiplicity bookkeeping.
 
+Latest Codex re-gate: the dyadic frame is accepted as the countable
+pair-index reduction, replacing packet enumeration with deterministic
+(channel, cell) cells. It still leaves channel defect measures,
+finite-readout reconstruction with tails, flux-gate tail currency, and
+bounded-variation row composition open. The Gate 6 formula note also
+remains open because its endpoint-sign proof cites D1, while the filed
+D1 is only a damped-return Gronwall perturbation.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
