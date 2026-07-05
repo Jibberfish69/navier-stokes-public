@@ -117,7 +117,7 @@ front-payments convexity argument applies verbatim). Codex's monotonicity
 conjecture (per-step bite monotone in step size) is NOT certified and is
 not needed; flagged honestly for the audit.
 
-## 3. Return-race constant: r0 >= f^2 / (2 pi rho) = 1/(8 pi) at f = 1/2
+## 3. Return-race constant: r0 >= f^2 / (pi rho) = 1/(8 pi) at f = 1/2
 
 Four-step chain with constants: (1) parked turning-point phase phi_t;
 (2) un-parking: d(phi_t)/d(ln a) = 2 tan(phi_t/2) >= 1 for phi_t >= pi/2
