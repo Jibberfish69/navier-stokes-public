@@ -313,6 +313,14 @@ helicity-weighted-sum zero set, not only collinearity, on the financed
 relay/predator family. Until then the symbolic middle-window comparison
 is queued, not available.
 
+Latest zero-set / tracing re-gate: the zero-set argument is accepted as
+the right exact shape only after the T7 sign pattern is checked and the
+sector inequalities plus positive side-length floors are cited in one
+place. The tracing sweep is a candidate, not a clearance: it needs a
+source map proving the six non-G factors are exact or quarantined, and
+the finite-N comparison must be in logarithmic/multiplicative currency.
+Later TV downstream displays are filed, not Codex-cleared.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
