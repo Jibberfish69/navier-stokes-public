@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-discriminant-line-financed-family-20260705
-status: discriminant-line-displayed-phase-invariant-floor-derived-on-financed-family-regate-requested
+status: codex-regated-discriminant-and-financed-family-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / final two named items (discriminant; invariant floor)
@@ -54,6 +54,18 @@ completion_truth: >-
 ---
 
 # The discriminant line, and the financed family
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-max-financed-family-regate-20260705.md`. The
+discriminant line and financed-family repair are the right objects, but
+they are not cleared. The discriminant calculation must be tied back to
+the actual Gate-6 cubic normalization with bounded nonzero Jacobian.
+The financed-family floor needs noncircularity or sub-financing routing,
+the weighted throughput-to-swing-fraction estimate, the bottom-dwell to
+bottom-root estimate, and level-gap bounds for the root identity. Filed
+is not cleared.
 
 ## 1. The discriminant line
 
