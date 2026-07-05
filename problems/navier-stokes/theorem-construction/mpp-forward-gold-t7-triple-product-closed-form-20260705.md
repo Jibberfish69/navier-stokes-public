@@ -59,6 +59,17 @@ completion_truth: >-
 
 # T7: the triple product, derived
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-g-ratio-t7-regate-20260705.md`. The derivation
+has the right spine: common normal gauge, signed-sine combination, law
+of sines, circumradius denominator. It is not cleared until the file
+states the exact helical normalization, conjugation pattern,
+orientation signs, and universal factor used by the campaign. The
+lower-bound use also needs an exact exclusion of the helicity-weighted
+sum's zero set on the financed family. Filed is not cleared.
+
 ## 1. Frame
 
 The triad closes a planar triangle. Choose the plane's normal as the
