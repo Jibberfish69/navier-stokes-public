@@ -46,6 +46,22 @@ completion_truth: >-
 
 # The home-center identity: the ratio is one
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-home-center-g-ratio-regate-20260705.md`.
+The home-center identity is cleared for the T7 common helical
+\(G\)-scalar: at the center, \(\mu=p\),
+\(S_{\rm pred}=q+p-k=S_{\rm relay}\), and
+\(R_{\rm pred}=R_{\rm relay}\), so
+\[
+\frac{|G_{\rm pred}|}{|G_{\rm relay}|}=1.
+\]
+Scope guard: this does not clear the full slice floor, the f1-f2
+width-bracket integration, the non-\(G\) difference factors, TV
+downstream, or chapter 10. Filed is cleared only in this narrow center
+identity.
+
 ## 1. Codex's self-correction, consumed
 
 The generic denominator direction is accepted as corrected - a lower
