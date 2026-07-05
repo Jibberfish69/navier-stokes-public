@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-assembly-manuscript-skeleton-20260705
-status: goal-item-5-opened-skeleton-filed-chapters-mapped-to-notes-conditionals-named
+status: goal-item-5-opened-skeleton-filed-chapters-mapped-to-notes-r2b-audit-condition-added
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 5 / assembly manuscript skeleton
@@ -14,10 +14,11 @@ completion_truth: >-
   chain and its conditionals at once, and (c) no conditional can hide in
   prose. Every chapter cites its filed note(s); every conditional is
   named in its chapter, not deferred to a footnote. The manuscript is
-  DONE when: chapters 1-9 are referee-grade, the quantitative stratum
-  (chapter 10) carries certified values from the Stage-2/3 program, and
-  every chapter has cleared its Codex gate. None of that is true yet. No
-  closure claimed.
+  DONE when: chapters 1-9 are referee-grade, the R2b cone-population gate
+  is paid or explicitly folded into chapter 10's certified G-ratio floors,
+  the quantitative stratum (chapter 10) carries certified values from the
+  Stage-2/3 program, and every chapter has cleared its Codex gate. None of
+  that is true yet. No closure claimed.
 ---
 
 # Assembly manuscript skeleton (goal item 5, opened)
@@ -41,9 +42,11 @@ standard. Conditional: R1 measurable selection (exposition).
 ## Chapter 3 - The exact triad calculus and the lift
 Helical basis; exactness of incompressibility in-basis; common-factor
 identity; the RATIO THEOREM (R2a/R2b/R2c). Sources: r2-ratio-theorem
-note (CODEX GATE PENDING); octave-toll (corrected); annular-scattering.
-Conditional: the Codex gate on R2; compact-family floor values ->
-chapter 10.
+note (CODEX AUDIT: R2a cleared after phase gauge; R2b exact scaling
+cleared; R2b no-common-zero/predator-cone population still open);
+octave-toll (corrected); annular-scattering. Conditional: R2b
+cone-population or certified G-ratio floor; compact-family floor values
+-> chapter 10.
 
 ## Chapter 4 - Ceilings and tolls (dynamics-free layer)
 Manley-Rowe ceilings at all amplitudes; centered exact one-half;
@@ -100,23 +103,28 @@ and the schedule, written cleanly. Conditional: none new.
 Certified values per the certification spec: compact family, mandatory
 gates (rotation countermodel; dyadic blowup model), interval pass.
 Contents: intermediate-chop prefactor; compact-family G-ratio floors
-(R2b); the spec's Stage-1 one-signed check (projector depletion helps).
+(R2b), including any unresolved cone-population lower floor; the spec's
+Stage-1 one-signed check (projector depletion helps).
 Sources: retention-constant-certification-spec (the authority);
 certified-constants note (exact parts only; decimals sidecar).
 Conditional: THIS CHAPTER IS THE OPEN QUANTITATIVE WORK (goal items
-2-3); the manuscript is conditional exactly here and nowhere else.
+2-3), with the R2b predator-cone population gate either paid before this
+chapter or certified here as a G-ratio floor.
 
 ## Gate ledger (goal item 6)
 Every chapter clears a Codex gate before the manuscript claims it.
-Currently pending: R2 ratio theorem (chapter 3); ramp-rectification
-proof (chapter 6, submitted); structural-reshape package (chapters 4-6,
-submitted). Cleared: lift-(i) strike; earlier package audit (pre-lane-
-law frame, recorded).
+Currently pending: R2b no-common-zero/predator-cone population (chapter
+3 / chapter 10 interface); ramp-rectification proof (chapter 6,
+submitted); structural-reshape package (chapters 4-6, submitted).
+Cleared: R2a after phase-gauge correction; R2b exact scaling spine;
+lift-(i) strike; earlier package audit (pre-lane-law frame, recorded).
 
 ## Honest distance measure
-Structural chapters (1-9): drafting labor from filed notes - no open
-mechanisms. Chapter 10: open quantitative program (person-scale per the
-spec). The manuscript claims the MPP only when chapter 10 is full and
-all gates are green. Until then the correct public sentence is: "a
-structurally complete conditional proof program, conditional exactly on
-its named quantitative stratum."
+Structural chapters (1-9): drafting labor from filed notes, with the
+R2b predator-cone population gate still visible at the chapter 3/chapter
+10 interface. Chapter 10: open quantitative program (person-scale per
+the spec). The manuscript claims the MPP only when the R2b gate is paid
+or certified, chapter 10 is full, and all gates are green. Until then the
+correct public sentence is: "a structurally advanced conditional proof
+program, conditional on the R2b cone-population/G-ratio gate and its
+named quantitative stratum."
