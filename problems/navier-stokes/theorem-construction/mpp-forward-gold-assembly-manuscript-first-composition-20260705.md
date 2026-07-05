@@ -60,10 +60,11 @@ within-triad fraction, share, sign, and phase identity lifts verbatim
 (R2a, audited clear). Cross-triad comparisons carry exact
 difference-factor scalings times coupling-ratio floors on compact
 nondegenerate shape families (R2b scaling, audited clear); the shape
-floor is supplied by the MONOTONE APPETITE argument - financing forces
-the catalyst ratio above an exact algebraic root, which fattens every
-mid-band reverse triangle (shape-floor lemma, re-gate pending); vacuum
-population is audited clear.
+floor is not yet supplied. The MONOTONE APPETITE argument supplies the
+magnitude half only: financing forces the catalyst ratio above an exact
+algebraic root. The remaining R2b burden is angular/non-collinearity of
+the actual packet geometry, or a full G-ratio lower-floor target carried
+into chapter 10. Vacuum population is audited clear.
 
 ## 4. The dynamics-free layer [chapters-1-4-8 note; no conditional]
 
