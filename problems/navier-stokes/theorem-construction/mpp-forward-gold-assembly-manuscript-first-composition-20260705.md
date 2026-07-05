@@ -406,6 +406,20 @@ The poor-side split remains open because
 needs a same-currency charge into the octave floor or theta-charge
 budget.
 
+Latest C_mid / poor-charge re-gate: the middle-range endpoints and
+root-spread route are accepted as the right shape, but the displayed
+\(C_{\rm mid}\) floor still contains the swing amplitude \(X_3-X_2\).
+The tau floor needs either a financed-family lower bound for that
+amplitude or a normalized elliptic cancellation showing \(\tau\) is
+dimensionless and amplitude-free. The poor-window count lower bound is
+accepted, but the octave tax still needs the final same-currency
+comparison
+\[
+P_{\min}\frac{F_{\rm oct}}{8A_{\max}}
+\ge
+\mathcal T_{\rm oct}.
+\]
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
