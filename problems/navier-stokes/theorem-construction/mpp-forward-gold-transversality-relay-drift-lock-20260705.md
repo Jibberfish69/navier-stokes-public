@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-transversality-relay-drift-lock-20260705
-status: relay-drift-lock-proved-in-normal-form-lie-floor-quantitative-open
+status: relay-drift-lock-normal-form-mechanism-mixed-race-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / composition / transversality theorem
@@ -21,15 +21,28 @@ completion_truth: >-
   tangent strata carry no downscale relay, and relaying orbits generate
   their own normal escape - the escape floor is powered by the relay
   itself, kappa >= c (flux x twist)^2. You cannot relay without ringing
-  the eviction bell; dwell and descent are mutually exclusive by the
-  structure of the quadratic term. This is the rigorous form of "pressure
-  rotates accessibility and evicts organization." Open: the quantitative
-  Lie floor on the full compact unit-Re family beyond normal form
-  (geometric prefactors restored), R-uniformity of the stratification
-  along a per-octave ladder, and the certified constants (Stage-2/3 scope).
+  the eviction bell in the normal-form single-relay setting; dwell and descent
+  are mutually exclusive there by the structure of the quadratic term. This is
+  the rigorous form of "pressure rotates accessibility and evicts organization."
+  Correction after the mixed-helicity fine-chop break: this mechanism is not a
+  completed composition theorem by itself. It must be applied to the concrete
+  mixed-helicity race where each fine chopped catalyst-flipped step creates
+  same-scale opposite-helicity reverse-instability debt. Open: the quantitative
+  reverse-leakage/alignment-suppression race, the full-family Lie floor
+  (geometric prefactors restored), R-uniformity of the stratification along a
+  per-octave ladder, and the certified constants (Stage-2/3 scope).
 ---
 
 # The relay-drift lock
+
+## Correction header
+
+This note's normal-form relay-drift mechanism remains the active transversality
+mechanism, but its former composition consequence was too strong. Catalyst-
+flipped mixed-helicity fine chopping survives scalar retention, tending to
+2^(-1/2) per octave. The relay-drift lock must now be used on the concrete
+waste-pair reverse-instability race created by that fine chopping; it is not
+yet a closed full composition theorem.
 
 Triad phase equation, normal form: with relative phase phi and coupling g,
 
@@ -43,14 +56,15 @@ g; differentiating the tangency identity along the flow gives
 
   L_X^2 (alignment) ~ g' a-dot ~ (relay flux) x (twist) != 0.
 
-Hence: invariant (tangent) strata are relay-free; relaying orbits escape
-normally at a rate their own flux powers. Composition consequence: the
-aligned focusing needed for multi-parent conspiracy cannot persist for a
-turnover while relaying - completing the composition ledger's third
-channel at normal-form level. The dwell-time bound follows in form:
-dwell x relay is bounded by the certificate constant.
+Hence: invariant (tangent) strata are relay-free in the single-relay normal
+form; relaying orbits escape normally at a rate their own flux powers. For the
+composition ledger, this supplies the mechanism that must price the mixed
+fine-chop channel's growing phase-suppression debt. The dwell-time bound follows
+in form for each certified relay constraint:
 
-Open: full-family Lie floor (prefactors restored, all strata enumerated),
-per-octave R-uniformity, certified kappa. These are compact-domain,
-finite computations - the program's Stage-2/3 scope, now with the
-mechanism proved rather than conjectured.
+  dwell x relay is bounded by the certificate constant.
+
+Open: reverse-leakage growth versus the 2^(-1/2) mixed retention margin,
+N-fold suppression measure versus the dwell bound, full-family Lie floor
+(prefactors restored, all strata enumerated), per-octave R-uniformity, and
+certified kappa.
