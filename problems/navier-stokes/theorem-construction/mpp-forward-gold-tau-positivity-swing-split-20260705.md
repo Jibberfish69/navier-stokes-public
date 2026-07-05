@@ -9,47 +9,19 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie:
   a window too poor in swings to count is too poor in payment to
   matter - the same split as the amplitude split, at the other ledger.
 completion_truth: >-
-  Displays the two items left open by the TV re-gate, pending re-gate;
-  also consumes the w_eff half-min correction (accepted verbatim - the
-  strict half keeps every endpoint interior, and with it Codex cleared
-  the sector-admissible slice). (ITEM 1, TAU POSITIVITY BY COMPACT
-  MINIMUM - monotonicity not needed) The active fraction is the
-  displayed quotient  tau(m) = [u_hi(m) - u_lo(m)] / (2 K(m)),  the
-  inverse-sn difference across the middle range over the period. On
-  the closed capped band the numerator is a positive exact elliptic
-  integral (the middle range is traversed with speed bounded below
-  because the cubic is strictly positive between simple roots - the
-  cleared speed display's own C_max line read from below: C(X) >=
-  C_mid > 0 on the middle range, C_mid the displayed minimum of the
-  cubic there, positive since the roots are simple at m < 1) and the
-  denominator is bounded by 2 K(m(K_cap)), finite below the
-  separatrix. Therefore  tau_min := min over the closed band of the
-  displayed quotient  exists, is attained, and is positive - the
-  compact minimum of an explicit positive continuous function, no
-  monotonicity claim needed; the price floor display becomes
-  P_sh(K) >= r0(f) tau_min, one symbol, displayed. (ITEM 2, THE
-  SWING-RICH/POOR SPLIT - the displayed absorption threshold) Call a
-  window SWING-RICH if throughput/amplitude >= 4 and SWING-POOR
-  otherwise. RICH display: N_c >= throughput/amplitude - 2 >=
-  (1/2) throughput/amplitude - the minus-two absorbed at an explicit
-  factor half, valid exactly on the rich class by the threshold
-  inequality. POOR display: throughput < 4 x amplitude - a displayed
-  per-window throughput ceiling; the ledger charges the poor windows'
-  bounded throughput against the octave floor as a displayed
-  subtraction, EXACTLY as the theta-charge treated low-amplitude
-  intervals - same split logic, same currency, the second appearance
-  of pay-or-be-too-poor-to-matter: a window too poor in swings to
-  count is too poor in payment to matter. Both displays are
-  inequalities in filed symbols; no prose remains. WITH THESE: the TV
-  chain's open items are closed at display level, the w_eff slice is
-  cleared (Codex), the speed quotient is cleared (Codex), and the
-  remaining queue is the re-gate of this note, then THE SYMBOLIC
-  COMPARISONS - every single ingredient now displayed, cleared, or
-  positively floored in filed symbols - then CHAPTER 10. PRESS
-  POINTS: the C_mid positivity line (simple roots at capped modulus -
-  one line); the poor-class charge's octave bookkeeping (mirrors the
-  theta-charge display - cite and check). Filed is not cleared. No
-  closure claimed.
+  Codex re-gated this note. The w_eff half-min slice and speed quotient
+  were already cleared by the previous Codex re-gate. This note clears
+  the rich-side boundary absorption: on windows with
+  throughput/(X3-X2) >= 4, the boundary minus-two leaves a half-factor
+  lower bound. The tau compact-minimum strategy has the right shape,
+  but still needs the active middle-range endpoints and a uniform
+  C_mid>0 floor displayed in the same variables. The poor-side split
+  is not cleared: throughput < 4(X3-X2) is a ceiling, not yet a
+  same-currency charge against the octave floor or theta-charge
+  budget. Current open items: active middle-range C_mid floor,
+  poor-class octave bookkeeping, symbolic comparisons, chapter 10.
+  Filed is not cleared beyond the rich-side absorption and previous
+  width/speed clearances. No closure claimed.
 ---
 
 # The last two TV items
