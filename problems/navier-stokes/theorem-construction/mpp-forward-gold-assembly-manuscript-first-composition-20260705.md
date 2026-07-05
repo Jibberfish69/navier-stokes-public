@@ -464,6 +464,20 @@ D_3\ge-\log\left(1-\frac{\log2}{6\sigma_{\min}}\right),
 D_3=(\Lambda(3)-\log(1/\theta))_+.
 \]
 
+Latest worst-difference re-gate: the equivalence route is the right
+repair, and the delivered-increment side is cleared:
+\[
+T_{\rm del}(N+1)-T_{\rm del}(N)\ge b(\Lambda(3)).
+\]
+The required side is still open. The next exact display must identify
+or bound
+\[
+\max_{N\in\mathcal W}\Delta_{\rm req}(N),
+\qquad
+\Delta_{\rm req}(N)=T_{\rm req}(N+1)-T_{\rm req}(N),
+\]
+from \(T_{\rm req}(N)=\log2+N\log c_*(2^{-1/N})\).
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
