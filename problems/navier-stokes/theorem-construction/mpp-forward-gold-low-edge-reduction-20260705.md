@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-low-edge-reduction-20260705
-status: sheet1-reduced-to-single-low-edge-inequality-monotone-carry-displayed-regate-requested
+status: codex-regated-low-edge-sufficient-not-equivalent
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / sheet 1 resolution, part one
@@ -54,6 +54,30 @@ completion_truth: >-
 ---
 
 # The low-edge reduction
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-low-edge-regate-20260705.md`. The monotone
+carry is accepted as a sufficient condition:
+\[
+T_{\rm del}(3)\ge\frac{\log2}{2}
+\quad\Longrightarrow\quad
+T_{\rm del}(N)\ge T_{\rm req}(N)
+\]
+for every \(N\ge3\) in the named window. It is not an equivalence.
+Failure of the low-edge sufficient condition does not by itself prove
+that the middle window fails, and it does not reduce an interval pass
+to one point without an additional worst-ratio lemma. The exact
+low-edge seed margin is
+\[
+D_3\ge
+-\log\left(1-\frac{\log2}{6\sigma_{\min}}\right),
+\qquad
+D_3=(\Lambda(3)-\log(1/\theta))_+.
+\]
+The loose "ln(4/3)-scale" language is superseded by this threshold.
+Filed is not cleared beyond the sufficient reduction.
 
 ## 1. The monotone carry
 
