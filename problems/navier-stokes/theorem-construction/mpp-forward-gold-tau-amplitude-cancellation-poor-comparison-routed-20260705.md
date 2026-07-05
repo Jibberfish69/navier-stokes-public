@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tau-amplitude-cancellation-poor-comparison-routed-20260705
-status: tau-amplitude-free-displayed-poor-comparison-routed-to-symbolic-stage-regate-requested
+status: codex-cleared-tau-floor-poor-horn-routed-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / the two final lines of the TV chain
@@ -55,6 +55,25 @@ completion_truth: >-
 ---
 
 # The two final lines
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-tau-amplitude-poor-comparison-regate-20260705.md`.
+The tau-amplitude issue is cleared: defining the active range by fixed
+fractions of the swing makes
+\[
+\tau(m)=
+\frac{\operatorname{arcsn}(\sqrt3/2;m)-\operatorname{arcsn}(1/2;m)}
+{2K(m)}
+\]
+depend only on the modulus, so \(\tau_{\min}>0\) on the capped band.
+The poor-horn inequality
+\[
+r_0(f)\tau_{\min}F_{\rm oct}/(8A_{\max})\ge T_{\rm oct}
+\]
+is now correctly displayed and routed to symbolic comparisons. It is
+not cleared here. Filed is not cleared beyond the tau-floor display.
 
 ## 1. The amplitude cancellation
 
