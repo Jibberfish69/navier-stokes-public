@@ -126,12 +126,18 @@ cross-section because PDM.2 holds there); Zeno refill is an infinite
 record ladder on a finite supply - excluded by section 3's crossing.
 Past T*, the ledger extends: the annulus stores the debt in neighbors'
 higher rungs, payable on the infinite horizon - dead waters,
-simultaneous rest, no demanded instantaneous default. RESIDUAL FLAG
-F2-prime (narrower than F2): the June-22 crossscale-material-atlas
-terminal-gauge note should be verified for the exact atlas form of the
-annulus schedule before the manuscript composition pass; the schedule
-as drafted uses only the mechanism-reentry surface and the owner's
-verified theory section of the anchor.
+simultaneous rest, no demanded instantaneous default. F2-PRIME RESOLVED (same date, atlas note re-read): the exact atlas
+form is the FIXED TERMINAL GAUGE of the June-22 note - fix the
+terminal point, rescale every packet by it (FTG.2); the center/time
+modulation terms of the moving-atlas label law vanish identically
+(FTG.3-4), so the terminal instant is a well-defined fixed
+cross-section carrying the same-packet material law; bounded packet
+translations are absorbed into the material translation modulus, and
+unbounded translations are LOSS OF THE SAME-PACKET ATLAS - which is
+detachment-typed and routes to the exit horn, where section 6 excludes
+it. The schedule's statement "the rows travel to the terminal
+cross-section" is therefore well-posed in the fixed-gauge frame, and
+S3 carries no remaining source flag.
 
 ## 6. S4 - silver pass-or-exit
 
