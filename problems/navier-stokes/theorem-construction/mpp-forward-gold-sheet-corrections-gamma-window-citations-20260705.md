@@ -58,8 +58,9 @@ The deficit phrasing is withdrawn.
 
 Window = integers from three to N-star; N-star = the smallest N with
 N b(Lambda(N)) at least half a log-two (the carry's crossing). The
-low-edge reduction stands consistently: one inequality at the bottom
-decides the whole set.
+low-edge reduction supplies a sufficient bottom test for the whole
+set; it is not an equivalence unless a worst-ratio lemma is also
+proved.
 
 ## 3. The b-chain, cited
 
