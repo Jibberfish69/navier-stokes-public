@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-assembly-manuscript-first-composition-20260705
-status: first-composition-codex-audited-two-gates-clear-seven-open-chapter10-unexecuted
+status: first-composition-codex-regated-e-displays-gate6-open-chapter10-unexecuted
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 5 / assembly manuscript, first composition
@@ -217,6 +217,19 @@ finite-readout reconstruction with tails, flux-gate tail currency, and
 bounded-variation row composition open. The Gate 6 formula note also
 remains open because its endpoint-sign proof cites D1, while the filed
 D1 is only a damped-return Gronwall perturbation.
+
+Latest display-stage Codex re-gate: the E1-E4 display note and the
+Gate-6 explicit-display note reduce the front but do not clear it. E1
+is only a fixed-channel compactness estimate until the exact channel
+flux identity is fixed. E2 still needs nonlinear telescoping and all
+UV/IR commutator/cutoff tails in defect-measure currency. E3 still
+needs Gate-A signed-TV treatment of tail cubics, or the unsigned E2
+fallback must be threaded through the record rows. E4 is conditionally
+sound as lower semicontinuity after fixed-epsilon oriented BV is
+available on the actual cells. Gate 6 still needs the five-mode
+extraction/sign system, a precise averaged-root system, endpoint
+inequalities with cap/dwell margins, and an active-phase lemma for the
+actual extraction window.
 
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
