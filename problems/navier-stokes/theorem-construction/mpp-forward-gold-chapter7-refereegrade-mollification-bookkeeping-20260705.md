@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-chapter7-refereegrade-mollification-bookkeeping-20260705
-status: goal-item-4-piece-three-filed-locality-frame-scoped-window-legitimacy-stated-transcriptions-named
+status: codex-audit-open-strata-exhaustion-and-eta-autonomy-sweep
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 4 / chapter 7 referee-grade draft
@@ -9,7 +9,13 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie: the
   hypothesis is asked to supply - participation sets the frame, and the
   frame pays the locality bill.
 completion_truth: >-
-  Goal item 4, piece three: the from-triads-to-PDE bookkeeping at referee
+  CODEX AUDIT UPDATE, same date. The locality exponents and mollified-ODE
+  interface are useful, but the gate is not cleared. The marginal /
+  sub-marginal / super-marginal split still needs a measurable exhaustion
+  theorem with no unpriced overlap, and the eta-autonomy citation sweep is
+  still open because FiniteChainReduction uses per-handoff Gronwall
+  generally rather than only on fast windows. Original state being
+  audited: Goal item 4, piece three: the from-triads-to-PDE bookkeeping at referee
   shape. The honest content, three points. (P1) FRAME SCOPE, stated
   plainly where the filed front-payments note left it implicit: the
   locality exponents (UV first power, IR second power) are a property of
