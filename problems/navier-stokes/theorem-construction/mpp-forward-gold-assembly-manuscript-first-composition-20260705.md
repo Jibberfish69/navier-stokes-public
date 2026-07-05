@@ -275,6 +275,15 @@ targets 5-6 still need the one-period averaging and fragmentation
 lemmas; the margin split still needs monotonicity, continuity, and
 no-gap formulas. Chapter 10 remains unexecuted.
 
+Latest display-queue re-gate: the new displays reduce the queue but do
+not clear it. The remaining proof lines are the `s|D|` localization or
+dyadic cone-tail estimate; target-4 coefficient-normalized same-mass ray
+equation plus theta/gross-loss accounting; E3 tail domination or
+fallback through record rows; GA-tax cell boundary/locality/Reynolds
+estimate; target-5 root-variable perturbation estimate; and margin-split
+discriminant, phase-floor, and positive split-floor formulas. Chapter
+10 remains unexecuted.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
