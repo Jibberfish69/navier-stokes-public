@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-regate-consumption-pair-index-and-gate6-clauses-20260705
-status: gate7-clause2-paid-by-pair-rebasing-gate6-clauses-1-2-paid-structural-overclaim-corrected-regate-requested
+status: codex-regate-pair-rebasing-useful-gate6-clauses-still-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / consumption of the 6-7-8 re-gate
@@ -8,7 +8,8 @@ authorship: Claude (Fable), 2026-07-05. Codex's clauses taken at full
   strength; three paid here, the rest adopted as the standing front.
   Physical story Thomas Birnie.
 completion_truth: >-
-  Consumes the Codex re-gate of gates 6/7/8. OVERCLAIM CORRECTED FIRST:
+  CODEX RE-GATE UPDATE, same date. This note partially consumes the
+  Codex re-gate of gates 6/7/8. OVERCLAIM CORRECTED FIRST:
   my "non-audit remainder is chapter 10 alone" was too strong; the
   standing front is Codex's statement verbatim - gate 6's two analytic
   estimates, gate 8's disintegration/composition theorem, reduced gate
@@ -20,8 +21,10 @@ completion_truth: >-
   window's scale); no dominance, no tie, no selection beyond what T3
   already supplies; and the strata now live on the same index set as
   the taxes and the record-work summands, which gates 7 and 8 into one
-  bookkeeping. Clause 2 is paid by making the object simpler, which is
-  the lane's preferred move. (GATE 6, CLAUSE 1 - one-signedness of the
+  bookkeeping. Codex re-gate accepts this as the right deletion of the
+  dominant-channel tie-break, with the burden transferred to the
+  all-channel pair-index disintegration and countable packet
+  construction. (GATE 6, CLAUSE 1 - one-signedness of the
   far-swing envelope integral): the far swing lies ENTIRELY ON ONE SIDE
   of the saddle in the transfer variable (between the saddle and the
   far turning point - the loop's geometry, exact); the envelope
@@ -32,7 +35,11 @@ completion_truth: >-
   one-signed. The uniform lower bound on the compact family follows by
   compactness of the modulus band, which is compact BECAUSE OF THE
   PARKING CAP - the cap, already filed, is what makes its own
-  refinement certifiable. Value: chapter 10, as always. (GATE 6,
+  refinement certifiable. Codex re-gate: the one-sided/monotone
+  assertion is still a theorem clause until the exact envelope
+  derivative is written and a no-zero interior condition is proved on
+  the compact family. Value alone belongs to chapter 10 only after that
+  qualitative floor is proved. (GATE 6,
   CLAUSE 2 - the detuning horn finances nothing): a growing gap
   collapses the dwell exponentially (the dwell is logarithmic in the
   gap - the filed closed form read backwards), so within the SAME
@@ -41,15 +48,17 @@ completion_truth: >-
   return runs at order-one phase BEFORE the extraction window closes,
   and the filed race integral collects verbatim. Forward financing
   from a detuned packet is therefore taxed by the same closed form as
-  the crossing horn - the two horns pay into one ledger line. REMAIN
-  (standing front, next window): gate 8's two clauses (tail accounting
-  that moves no mass off the family; the disintegration/Fubini row
+  the crossing horn - the two horns pay into one ledger line. Codex
+  re-gate: this remains a timing inequality, not a proof yet; it must
+  compare dwell-collapse time, extraction-window length, and race-tax
+  collection before the detuned package is used as forward financing.
+  REMAIN (standing front): gate 8's two clauses (tail accounting that
+  moves no mass off the family; the disintegration/Fubini row
   composition); gate 7's clauses 1, 3, 4 (countable locally finite
   packet decomposition with merger as measurable decomposition;
   channel-first defect decomposition at weak-limit level; integer
-  multiplicity bookkeeping) - these need the W1/R1 machinery written
-  at measure level with fresh context, not asserted. Chapter 10
-  unexecuted. No closure claimed.
+  multiplicity bookkeeping); gate 6's two formula-level estimates
+  above. Chapter 10 unexecuted. No closure claimed.
 ---
 
 # Consuming the 6/7/8 re-gate
@@ -96,8 +105,11 @@ ledger line.
 
 ## 5. Register
 
-Paid pending re-gate: gate 7 clause 2 (by deletion), gate 6 clauses 1
-and 2 (structural). Standing front: gate 8 clauses 1-2; gate 7 clauses
-1, 3, 4; chapter 10. Next window opens on gate 7 clause 1 (the
-countable locally finite packet decomposition at measure level), which
-also feeds gate 8's disintegration. No closure claimed.
+Pair rebasing is accepted as the right way to remove the
+dominant-channel tie-break. It does not clear the packet-family or
+disintegration burden; it moves the work onto the all-channel
+(channel, window) pair index. Gate 6 clauses 1 and 2 are not paid:
+they remain formula-level estimates, respectively the signed envelope
+floor/no-zero proof and the detuning-to-return timing inequality.
+Standing front: gate 8 clauses 1-2; gate 7 clauses 1, 3, 4; gate 6
+clauses 1-2; chapter 10. No closure claimed.
