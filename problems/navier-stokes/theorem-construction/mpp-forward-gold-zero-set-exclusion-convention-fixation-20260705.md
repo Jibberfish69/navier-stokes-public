@@ -60,6 +60,16 @@ completion_truth: >-
 
 # The zero set fenced, the conventions declared
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-zero-set-tracing-regate-20260705.md`. The
+zero-set argument is accepted as the right exact shape, conditional on
+the T7 convention-fixed sign pattern. It is not cleared until one line
+cites the sign pattern, the sector inequalities placing the negative
+helicity on a catalyst/waste bounded by the child, and the positive
+side-length floors on the financed family. Filed is not cleared.
+
 ## 1. The zero-set exclusion: the minus lives on the catalyst
 
 The weighted sum vanishes only when the negative helicity rides the
@@ -70,6 +80,26 @@ parent + child - catalyst >= parent. Each floored by a side length,
 positive on the family by its exact defining inequalities. The zero
 set is excluded by the same sign structure that defines the sectors
 - the helper never outweighs the payer.
+
+## 1b. The demanded citation line (added per the zero-set re-gate)
+
+The sign pattern is T7's convention-fixed assignment (t7-triple-
+product-closed-form note, section 1: helicities as declared in the
+convention-fixation section below). The sector inequalities placing
+the negative helicity on a member bounded by the child: PREDATOR
+sector - waste adjacent to the child with waste wavenumber at most
+the child's (rectification note section 2, sector definition
+s_mu = +1, mu < q with pair (k(-), q(+)), k <= q by adjacency;
+population and shape notes carry the same inequality); RELAY sector -
+catalyst-flipped branch with catalyst ratio a = k/q <= 1 and floored
+by the appetite root a* (octave-toll corrected note, branch
+classification; shape-floor note, magnitude appetite). The positive
+side-length floors on the financed family: partner floored by the
+mid-band margins in exact multiples of a* (shape-floor note section
+3); parent floored by the financing structure (the parent IS the
+package's source; its wavenumber is the band bottom, positive by the
+lattice definition - dyadic-frame note). One line, three citations,
+each to a filed object.
 
 ## 2. The conventions, declared once
 
