@@ -449,6 +449,21 @@ Sheet 2 must either expand \(F_{\rm oct}\), \(T_{\rm oct}\), and
 \(A_{\max}\), or mark itself as a comparison in filed symbols rather
 than a fully expanded exact sheet.
 
+Latest low-edge re-gate: the monotone carry gives a sufficient
+condition, not an equivalence. If
+\[
+T_{\rm del}(3)\ge\frac{\log2}{2},
+\]
+then the middle-window inequality holds throughout the named \(N\)
+window. If this sufficient test fails, the remaining window still
+needs either a worst-ratio lemma or an interval pass over more than
+one point. The exact sufficient seed margin is
+\[
+D_3\ge-\log\left(1-\frac{\log2}{6\sigma_{\min}}\right),
+\qquad
+D_3=(\Lambda(3)-\log(1/\theta))_+.
+\]
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
