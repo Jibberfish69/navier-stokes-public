@@ -38,6 +38,24 @@ completion_truth: >-
 
 # FiniteChainReduction: per-handoff form (the only form needed)
 
+## 0. SCOPE HEADER (2026-07-05, per Codex nine-gate audit, gate 2)
+
+The per-handoff Gronwall below is a FAST-WINDOW statement, and always
+was: its hypothesis - Lipschitz-constant-times-duration order one at
+the local clock (section 4) - IS the fast-window condition of the
+tempo dichotomy (population-lemma note). The audit is right that this
+scope was not written on the label. It now is: this note's eta-autonomy
+and tracking conclusions apply to windows whose handoff completes on
+the natural clock (relay exponent order one). SLOW windows (fine chop,
+near-degenerate relay, stalling - exponent large) are OUTSIDE this
+note's scope and are taxed instead by the predator or viscous payers
+(rectification note; persistence dichotomy); no statement of this note
+is invoked on them. The single-dial floor consumes the two classes as
+a max over horns: fast windows pay the return race through THIS note's
+lift; slow windows pay order-one through the predator/viscous route -
+each window, one classification, one tax, and the composed floor is
+the minimum of the two horns' taxes, both positive.
+
 ## 1. The catch: global tracking is impossible
 
 A B-band chain spans clock ratios 2^B. Gronwall over a window residence
