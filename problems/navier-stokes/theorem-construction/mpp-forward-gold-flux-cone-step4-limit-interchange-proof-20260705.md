@@ -42,6 +42,27 @@ completion_truth: >-
 
 # Step (iv): the limit interchange, proved by closedness
 
+## Correction header (same date, after the step (iii) orientation catch)
+
+The orientation correction to step (iii) (Codex) partially invalidates
+finding (2) below: with backscatter contributions living on REVERSED rays
+(dE < 0), energy-free helicity residuals are not confined to same-scale
+opposite-helicity exchange - they can also arise from forward transfer at
+one wavenumber cancelling backscatter at another. Without an oriented
+admission decomposition, the two-orientation conic hull is the full plane
+and the theorem is vacuous. What stands from this note: the closedness
+mechanism (finding 3) - membership in a closed convex set survives
+distributional limits - which will deliver L1' the moment Gate A supplies
+a positive decomposition on oriented rays. Gate A, identified: it is the
+LIFTED NO-RECOUNT LAW - every backscattered unit was previously admitted
+forward and may not be recounted; formally, a bounded-variation-in-scale
+statement (channel-signed total variation of the mollified flux controlled
+by admitted throughput), which is the repo's first-admission/no-recount
+discipline (WPT.4) appearing at PDE level, and equivalently the signed-
+height no-clipping principle: backscatter is debt, never deletion. Gate A
+is open. The exchange-line localization of finding (2) is demoted to the
+special case it covers.
+
 ## 1. The vacuity repair
 
 Rays (1, +/-kappa) over all kappa conically span the half-plane. The cone
