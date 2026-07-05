@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-assembly-manuscript-first-composition-20260705
-status: first-composition-of-goal-item-5-conditional-manuscript-chain-gates-and-chapter10-carried-explicitly
+status: first-composition-codex-audited-two-gates-clear-seven-open-chapter10-unexecuted
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 5 / assembly manuscript, first composition
@@ -13,17 +13,18 @@ completion_truth: >-
   source note, its audit status, and its conditionals IN PLACE. This is
   goal item 5 in draft: the manuscript EXISTS from this note on, in
   conditional form. It is NOT the referee-grade final manuscript: the
-  final form requires (i) the nine pending Codex gates to clear (their
-  identities listed in section 12), (ii) chapter 10 to be filled by the
-  Stage-2/3 certification program (goal items 2-3, person-scale, the
-  only place numbers are permitted), and (iii) the post-gate composition
-  pass that inlines the chapter notes at full length and threads the
-  certified constants through the named symbols. The theorem this
-  composition proves TODAY is the conditional stated in section 11: the
-  Clay statement holds conditional on the certification stratum and the
-  audit gates, with every mechanism structural, every constant a named
-  symbol, no decimal anywhere, and the Reynolds-weighted guard carried
-  end to end without a single silent upgrade. MPP closure is NOT claimed.
+  final form requires (i) the Codex gate audit residues listed in section
+  12 to be paid (two gates cleared in scope; seven remain open or strictly
+  reduced by the Codex audit note of the same date), (ii) chapter 10 to be
+  filled by the Stage-2/3 certification program (goal items 2-3,
+  person-scale, the only place numbers are permitted), and (iii) the
+  post-gate composition pass that inlines the chapter notes at full length
+  and threads the certified constants through the named symbols. The
+  theorem this composition proves TODAY is only the conditional stated in
+  section 11: the Clay statement holds conditional on the certification
+  stratum and the remaining audit gates, with named symbols carried and
+  no decimal proof currency. MPP closure is NOT claimed; nor is the
+  remaining distance merely clerical.
 ---
 
 # The participation proof of Navier-Stokes regularity
@@ -163,23 +164,42 @@ numbers are permitted and is UNSTARTED: goal items 2-3, person-scale.
 
 CONDITIONAL THEOREM (this composition). Assume the section-10
 certification program returns its named floors positive and its
-prefactor above the required gap, and assume the nine audit gates of
-section 12 clear. Then every suitable weak solution from smooth data
+prefactor above the required gap, and assume the open audit residues of
+section 12 are paid. Then every suitable weak solution from smooth data
 satisfies the uniform per-octave floor; its critical mass decays
 geometrically; its signed critical height is bounded; it is smooth by
 the critical embedding; the T-star-plus schedule extends its ledger
 past any putative terminal time; and the silver pass-or-exit seals
-the Clay statement. Unconditionally today: every mechanism above is
-structural, exact, and filed; no step rests on a decimal; the guard
-is carried end to end; the story proved is the owner's story.
+the Clay statement. Unconditionally today: the manuscript is a filed
+conditional proof program with exact structural mechanisms and named
+constants. The Codex audit does not permit the stronger claim that only
+clerical labor and interval arithmetic remain.
 
-## 12. Gate register (complete) and honest distance
+## 12. Gate register (Codex audit applied) and honest distance
 
-Pending at Codex: shape-floor re-gate; eta-autonomy citation sweep;
-ramp-rectification; reshape package; chapter-2 N1/N3; chapter-5
-adiabatic modulus; chapter-7 strata exhaustion; chapter-9 bridge
-identification; chapter-9 crossing argument. Open program: section 10.
-Final pass: inline chapter notes at full length; thread certified
-constants; re-gate the composed whole. The distance to the Clay claim
-is exactly these three lists - no unnamed mechanism, no hidden number,
-no borrowed story.
+Cleared in limited scope by Codex: reshape package as lane-law/status
+discipline; ramp-rectification as the qualitative sector mechanism
+(elliptic protected, hyperbolic unstable), with quantitative branch
+closure still routed through R2 geometry and chapter 10.
+
+Open or strictly reduced by Codex:
+- R2b shape floor: appetite gives catalyst magnitude, not angular
+  non-collinearity. Need packet-level angular floor or chapter-10
+  G-ratio certification.
+- Eta-autonomy sweep: FiniteChainReduction still uses per-handoff
+  Gronwall generally. Need fast-window citation sweep or slow-window
+  reroute.
+- Chapter 2 N1/N3: varying-cone proof must use the T4 all-but-countably
+  many levels argument; N3 is finite-readout-only plus silver routing.
+- Chapter 5 adiabatic modulus: separatrix-crossing lemma and horn-(a)
+  financing bridge remain open.
+- Chapter 7 strata exhaustion: need measurable marginal/sub/super
+  decomposition with no unpriced overlap.
+- Chapter 9 bridge identification: need same-packet row theorem.
+- Chapter 9 demand-supply crossing: need recurrence/ledger inequality.
+
+Open program: section 10. Final pass: inline chapter notes at full
+length; thread certified constants; re-gate the composed whole. The
+distance to the Clay claim is exactly these open gates plus chapter 10,
+and several of those gates are mathematical bridge theorems, not merely
+exposition.
