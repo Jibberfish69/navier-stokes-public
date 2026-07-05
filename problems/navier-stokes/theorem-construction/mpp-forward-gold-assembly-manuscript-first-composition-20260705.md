@@ -360,15 +360,18 @@ Latest f1-f2 actual-formulas re-gate: the missing formula display is
 cleared. The law-of-cosines, area, circumradius, and \(G\)-ratio
 brackets are now algebraic on an admissible interval and collapse to
 the cleared home-center identity at width zero. The full slice floor is
-not cleared with the full packet half-width; the remaining exact burden
-is to insert a sector-admissible width
+not taken with the full packet half-width. Codex has inserted the
+sector-admissible width
 \[
-0<w_{\rm eff}\le w_{\rm packet},\qquad
-w_{\rm eff}<\phi_{\min},\qquad
-w_{\rm eff}<\arccos(k/(2q))-\phi_0.
+w_{\rm eff}
+=
+\frac12\min\{w_{\rm packet},\phi_{\min},
+\arccos(k/(2q))-\phi_0\},
 \]
-TV downstream displays, symbolic comparisons, and chapter 10 remain
-open.
+which is positive on the home branch \(p<q\) and keeps the slice inside
+\(c(\alpha)<q\). The next comparison must carry the explicit
+\(w_{\rm eff}\) factor. TV downstream displays, symbolic comparisons,
+and chapter 10 remain open.
 
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
