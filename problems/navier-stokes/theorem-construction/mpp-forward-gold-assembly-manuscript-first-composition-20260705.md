@@ -610,6 +610,22 @@ monotone on the admissible sector. Its derivative
 changes sign, so exact factor lists remain open unless \(F_1\) gets
 its own critical equation or a certified lower bound.
 
+Latest crude-floor decisive-pair reduction: with
+\[
+M_{\rm req}:=
+\max\left\{\Delta_{\rm req}(3),\frac{T_{\rm req}(3)}3\right\},
+\qquad
+D_{\rm req}:=
+-\log\left(1-\frac{M_{\rm req}}{\sigma_{\min}}\right),
+\]
+the crude floor proves the Sheet-1 pair exactly when
+\[
+\gamma_{\rm crude}c_{\rm diff}\sqrt{\frac3{\log2}}
+\ge
+\log(1/\theta)+D_{\rm req}.
+\]
+This comparison is still open in the financed constants.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
