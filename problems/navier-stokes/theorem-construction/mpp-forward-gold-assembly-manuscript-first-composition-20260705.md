@@ -250,6 +250,13 @@ the mollified helicity balance, the remainder list must include
 time-mollifier/cutoff/commutator/off-diagonal terms, and E2 must be
 rerun on the exact channel object in defect-measure currency.
 
+Latest target-4 sub-demand re-gate: the displayed weighted-transfer
+variables do not yet clear target 4. The root-sensitivity weight must
+be sign-fixed and bounded below against the same package measure before
+horn-(b)'s net floor transfers to weighted gross. The reversed
+extraction ray still needs the channel-level D2/no-recount identity, and
+short fragmented subwindows need a two-time summability estimate.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
