@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-sD-multiplier-repair-amplitude-split-20260705
-status: two-catches-consumed-sD-exact-band-inequality-installed-amplitude-split-lemma-regate-requested
+status: codex-regated-sD-repair-useful-helicity-localization-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / consumption of the five-payments re-gate (two real catches)
@@ -67,6 +67,17 @@ completion_truth: >-
 ---
 
 # Two catches consumed
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-display-queue-regate-20260705.md`. The scalar
+dyadic helicity identity is correctly withdrawn, and the exact
+multiplier repair is the right direction. It is not cleared: carrying
+`s|D|` introduces nonlocal cell/window tails, while replacing it by a
+scalar rung readout is a cone-opening/tail estimate rather than an
+identity. The oriented cone half-space version must be written. Filed
+is not cleared.
 
 ## 1. The s|D| repair: withdrawn, then rebuilt smaller and true
 
