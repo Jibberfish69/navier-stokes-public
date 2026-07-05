@@ -293,6 +293,18 @@ Jacobian; prove financed-family noncircularity or route the complement
 through sub-financing; prove weighted throughput-to-swing, bottom-dwell
 to bottom-root, and level-gap bounds. Chapter 10 remains unexecuted.
 
+Latest TV-identity / middle-window re-gate: the TV identity is accepted
+only in its typed gross-variation form after the package variable and
+channel orientation are fixed. It clears the narrow identity and
+noncircular direction of the financed-family chain, but swing counting
+still needs boundary-term routing, period caps still need the
+capped-band speed display, and max positivity still needs explicit
+shallow/deep price functions on one depth domain. The middle-window
+obstruction is accepted: exact required algebra versus unnamed
+compactness positivity is certification by type. The one-constant
+chapter-10 shape remains a candidate reduction pending the tracing
+sweep to a single R2b G-ratio symbol and the finite-N crossing display.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
