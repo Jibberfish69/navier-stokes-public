@@ -436,6 +436,19 @@ r_0(f)\tau_{\min}\frac{F_{\rm oct}}{8A_{\max}}\ge T_{\rm oct}.
 \]
 It is not proved in the TV display chain.
 
+Latest comparison-sheets re-gate: the symbolic-comparisons stage is
+now the right queue, with two live lines: the middle-window/window-set
+line and the poor-horn line. The sheets are not yet fully expanded.
+Sheet 1 must name the finite \(N\)-window, disambiguate
+\(\gamma_{\rm home}\), and line-cite the source chain for
+\[
+b(\Lambda)=
+\sigma_{\min}\left[1-\exp\{-(\Lambda-\log(1/\theta))_+\}\right].
+\]
+Sheet 2 must either expand \(F_{\rm oct}\), \(T_{\rm oct}\), and
+\(A_{\max}\), or mark itself as a comparison in filed symbols rather
+than a fully expanded exact sheet.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
