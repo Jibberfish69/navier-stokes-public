@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-adverse-end-table-corner-membership-20260705
-status: adverse-end-table-displayed-corner-membership-by-closed-box-regate-requested
+status: codex-regated-width-cleared-angle-and-coupled-corner-membership-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the corner reduction's two owed displays
@@ -52,6 +52,17 @@ completion_truth: >-
 ---
 
 # The adverse-end table, and the corner is real
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-adverse-end-table-regate-20260705.md`.
+The width row is cleared. The angle row is not cleared by the sine-ratio
+derivative alone; the full \(\gamma_{\rm home}\) logarithmic derivative
+still has to be proved nonnegative. The corner-membership line is also
+not cleared as a rectangular-box argument because \(w_{\rm eff}\) is a
+coupled half-min cap depending on the angle/order coordinates. The
+adverse-corner reduction remains open.
 
 ## 1. The table
 
