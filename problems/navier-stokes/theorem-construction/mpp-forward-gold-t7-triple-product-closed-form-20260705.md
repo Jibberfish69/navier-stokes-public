@@ -70,6 +70,33 @@ orientation signs, and universal factor used by the campaign. The
 lower-bound use also needs an exact exclusion of the helicity-weighted
 sum's zero set on the financed family. Filed is not cleared.
 
+## Codex line-check update, same date
+
+Codex line check filed at
+`mpp-forward-gold-codex-t7-line-check-zero-set-sharpening-20260705.md`.
+Under the declared common-normal convention
+\(h_s(\xi)=(b_\xi+i s n)/\sqrt2\), the coefficient is
+
+\[
+G_{kpq}^{s_k s_p s_q}
+=
+\frac{i\Delta}{2\sqrt2 |k||p||q|}
+\bigl(-s_k|k|+s_p|p|+s_q|q|\bigr),
+\]
+
+so
+
+\[
+|G|=C_{\rm conv}
+\frac{|-s_k|k|+s_p|p|+s_q|q||}{R_{kpq}}.
+\]
+
+The universal constant differs by convention and cancels in campaign
+ratios. The weighted-sum zero set has no nondegenerate interior:
+vanishing forces one side length to equal the sum of the other two.
+The remaining lower-bound work is the financed-family geometry and
+sector citations, not the convention line.
+
 ## 1. Frame
 
 The triad closes a planar triangle. Choose the plane's normal as the
