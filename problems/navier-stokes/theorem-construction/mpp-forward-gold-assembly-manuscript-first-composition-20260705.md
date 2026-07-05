@@ -498,6 +498,24 @@ D_3=(\gamma_{\rm home}c_{\rm diff}\sqrt{3/\log2}-\log(1/\theta))_+.
 The family-infimum/corner reduction is not cleared: it still needs the
 actual adverse-end table and the corner-membership consistency check.
 
+Latest adverse-end table re-gate: the width row is cleared, but the
+corner reduction remains open. The sine-ratio derivative proves only
+one factor of the angle monotonicity. The full bracket is
+\[
+\gamma_{\rm home}
+=
+\frac{q+c(\phi-w)-k}{q+c(\phi)-k}
+\frac{c(\phi)}{c(\phi+w)}
+\frac{\sin(\phi-w)}{\sin\phi},
+\]
+and the missing display is
+\[
+\partial_\phi\log\gamma_{\rm home}\ge0
+\]
+on the financed sector. The corner-membership line also has to be
+rewritten for the coupled half-min cap defining \(w_{\rm eff}\), rather
+than as an independent rectangular-box corner.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
