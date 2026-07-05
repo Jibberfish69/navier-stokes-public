@@ -9,11 +9,18 @@ authorship: >-
   Consolidation: Claude (Fable), 2026-07-04, from the lane's installed
   surfaces plus the six notes of this date. Physical story: Thomas Birnie.
 completion_truth: >-
-  This is the consolidation the current repo actually supports: one continuous
-  conditional proof spine from the physical story to the Clay statement, with
-  every installed link cited and exactly two open burdens isolated. It is not
-  a closure claim. If the two burdens are proved, the chain below is intended
-  to close; each link's own conditionality is stated at its step.
+  CORRECTION (2026-07-04, same date): this note is DEMOTED. It is not the
+  lane's consolidation. It is an assistant-proposed sidecar built from
+  standard literature objects (Germano flux identity, Katz-Pavlovic
+  countermodels, Constantin-Fefferman depletion, ESS/Carleman rigidity),
+  anchored to two user passages from 2024-2025, and it does NOT represent or
+  build on the installed 2026 Gold architecture (signed-height record
+  admission, owner-and-charge construction, same-parent full-exchange
+  storage, order-locked carrier, WLF.60). Its "exactly two open burdens"
+  framing violates the lane's anti-flattening rule: B1 and B2 are the debt of
+  this sidecar only, are each plausibly problem-hard, and do not supersede
+  the lane's own open producers. Retained only as quarantined sidecar
+  material; promotion requires the lane's own bridge-license discipline.
 ---
 
 # Consolidated conditional proof spine: physical story to Clay
