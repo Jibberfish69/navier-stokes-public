@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-front-loading-concavity-proved-20260705
-status: front-loading-proved-symbolically-perspective-plus-polynomial-integer-comparison-regate-requested
+status: codex-regated-front-loading-cleared-two-one-point-comparisons-remain
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the front-loading display, proved
@@ -54,6 +54,14 @@ completion_truth: >-
 ---
 
 # Front-loading, proved
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-front-loading-decisive-pair-regate-20260705.md`.
+The front-loading proof is cleared. The remaining Sheet-1 burden is
+the two one-point comparisons, together with the still-open proof that
+the decisive corner is the family infimum.
 
 ## 1. Perspective
 
