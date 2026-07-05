@@ -66,6 +66,17 @@ interval inequalities. To clear, it must write the perturbation variable
 bound with its drain-share margin. Filed is not cleared beyond the
 home-center identity supplied by the companion Codex note.
 
+## Supersession update, same date
+
+The missing formulas have since been filed in
+`mpp-forward-gold-f1-f2-actual-interval-formulas-20260705.md` and
+re-gated by Codex in
+`mpp-forward-gold-codex-f1-f2-actual-formulas-regate-20260705.md`.
+Current state: formula display cleared on admissible intervals; full
+slice floor reduced to choosing a sector-admissible width
+\(w_{\rm eff}\). This older prose note should not be cited as the
+current f1-f2 display surface.
+
 ## F1. Two-sided perturbation brackets
 
 Shared legs, common included angle, third side by the law of cosines
