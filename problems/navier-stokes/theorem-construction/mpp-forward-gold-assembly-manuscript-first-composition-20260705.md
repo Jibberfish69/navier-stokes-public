@@ -266,6 +266,15 @@ the root weight inside the integral. A newer target-1 helicity note has
 landed claiming the curl-diagonal channel weight removes the helicity
 remainder; that claim is still pending Codex re-gate.
 
+Latest five-payment re-gate: all analytic items are filed, but the
+five queued payments are not cleared. Target 1 must use the exact
+helical curl multiplier `s|D|` or pay the dyadic scalar replacement as a
+tail; target 4 still needs endpoint/ray/long-window displays; targets
+2-3 still need integrand/cell Gate A, not just pointwise orientation;
+targets 5-6 still need the one-period averaging and fragmentation
+lemmas; the margin split still needs monotonicity, continuity, and
+no-gap formulas. Chapter 10 remains unexecuted.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
