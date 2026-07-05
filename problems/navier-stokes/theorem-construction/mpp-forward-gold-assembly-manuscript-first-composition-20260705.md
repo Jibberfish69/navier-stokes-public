@@ -478,6 +478,26 @@ or bound
 \]
 from \(T_{\rm req}(N)=\log2+N\log c_*(2^{-1/N})\).
 
+Latest front-loading and decisive-pair re-gate: the required-increment
+side is cleared. The perspective reduction and polynomial positivity
+proof give
+\[
+\max_{N\in\mathcal W}\Delta_{\rm req}(N)=\Delta_{\rm req}(3).
+\]
+The middle-window comparison is now displayed as two one-point
+inequalities,
+\[
+\sigma_{\min}(1-e^{-D_3})\ge\Delta_{\rm req}(3),
+\qquad
+3\sigma_{\min}(1-e^{-D_3})\ge T_{\rm req}(3),
+\]
+where
+\[
+D_3=(\gamma_{\rm home}c_{\rm diff}\sqrt{3/\log2}-\log(1/\theta))_+.
+\]
+The family-infimum/corner reduction is not cleared: it still needs the
+actual adverse-end table and the corner-membership consistency check.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
