@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-mixed-race-pen-and-paper-computation-20260705
-status: race-computed-crude-constants-medium-wins-every-chop-number-not-certified
+status: corrected-race-verdict-survives-by-two-payer-dichotomy-old-2ln2-constant-retracted
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / composition / mixed-helicity fine-chop race
@@ -9,19 +9,19 @@ authorship: >-
   Claude (Fable), pen and paper. Physical mechanism: Thomas Birnie's
   waste/payback story; relay-drift lock underwrites the no-suppression step.
 completion_truth: >-
-  Pen-and-paper race computation, crude order-one constants, 1D ladder
-  skeleton, helical normal form. Result: the reverse-leakage tax on the
-  mixed fine-chopped ladder is at least ~2 ln2 in log-energy per octave in
-  the conservative case (waste lifetime one turnover at marginal Re), and
-  grows linearly in the chop number N if waste persists. The required
-  additional toll to break self-financing is (ln2)/2. Delivered/required
-  margin ~ 4 at every N; the enemy's optimal chop reverts to N ~ 1 where
-  scalar retention is 1/3 < 1/2 and the channel is closed by the one-step
-  bound. Verdict: the mixed channel is closed at every chop number, modulo
-  order-one constants and 3D angular factors - which are exactly the
-  Stage-2/3 certification items. Not certified; margin factor ~4 is robust
-  to moderate constant errors but not to sign errors, and the 3D angular
-  geometry of the reverse cone must be checked.
+  CORRECTED later the same day. This note's original conservative-case
+  delivery constant (~2 ln2 per octave, margin factor ~4) was a crude
+  overclaim and must not be quoted as the current result. Explicit
+  constants in the certified-constants payment note deliver about 25x
+  less in the short-waste branch. The verdict survives by a different
+  mechanism: the two-payer dichotomy. Short waste lifetime forces
+  marginal local Reynolds, so the viscous payer collects O(1) over the
+  slowed relay; long lifetime keeps the waste pair alive, so the
+  reverse-spring payer collects the certified >=0.43 per step. With that
+  corrected accounting, every chop number is sub-financing and the coarse
+  flipped corner N=1 is the certified strategy supremum. This note is
+  retained as the race skeleton plus correction record; current constants
+  and margins live in mpp-forward-gold-certified-constants-payment-20260705.md.
 ---
 
 # The mixed race, computed
