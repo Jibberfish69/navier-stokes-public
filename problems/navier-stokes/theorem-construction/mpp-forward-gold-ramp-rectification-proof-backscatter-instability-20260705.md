@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-ramp-rectification-proof-backscatter-instability-20260705
-status: proved-structural-with-mechanism-correction-elliptic-sector-protected-hyperbolic-sector-pays
+status: codex-audit-cleared-qualitative-sector-mechanism-quantitative-closure-conditional
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / audit target G / ramp rectification
@@ -10,7 +10,12 @@ authorship: Claude (Fable), 2026-07-05. Lane law in force: every step below
   payback direction is upscale, and the theorem says the enemy's own
   waste arms the payback.
 completion_truth: >-
-  Audit target (G) is PROVED, and the proof CORRECTS the mechanism as
+  CODEX AUDIT UPDATE, same date. The qualitative sector mechanism clears:
+  the elliptic sector is protected, the hyperbolic sector is unstable, and
+  seeding is the correct rectification mechanism. The quantitative branch
+  closure does not clear here: completed-swing/order-one tax still depends
+  on the R2 geometry floor, seed-size control, and the intermediate-
+  prefactor target in chapter 10. Original state being audited: Audit target (G) is PROVED, and the proof CORRECTS the mechanism as
   stated in the theory-currency reshape note. The reshape note said the
   waste ramp rectifies the predator's spring by adiabatic growth of its
   swing. That picture is WRONG as mechanism: in the exact reduced
