@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-worst-difference-lemma-20260705
-status: worst-difference-route-displayed-two-weaker-low-edge-conditions-regate-requested
+status: codex-regated-delivered-increment-cleared-required-front-loading-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / sheet 1 resolution, part two
@@ -52,6 +52,26 @@ completion_truth: >-
 ---
 
 # The worst-difference lemma
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-worst-difference-regate-20260705.md`. The
+worst-difference lemma is accepted as the right equivalence repair.
+The delivered-increment lower bound is cleared:
+\[
+T_{\rm del}(N+1)-T_{\rm del}(N)\ge b(\Lambda(3)).
+\]
+Still open: the required-increment front-loading display. The note
+must identify or sharply bound
+\[
+\max_{N\in\mathcal W}
+\Delta_{\rm req}(N),
+\qquad
+\Delta_{\rm req}(N)=T_{\rm req}(N+1)-T_{\rm req}(N),
+\]
+from the exact composition formula before the one-point equivalence is
+cleared. Filed is not cleared beyond the delivered side.
 
 ## 1. The lemma
 
