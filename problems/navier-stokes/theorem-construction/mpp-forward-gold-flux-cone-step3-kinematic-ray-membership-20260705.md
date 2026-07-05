@@ -1,47 +1,49 @@
 ---
 theorem_id: forward-gold-flux-cone-step3-kinematic-ray-membership-20260705
-status: step3-resolved-kinematically-burden-moves-to-step4-limit-interchange
+status: step3-line-membership-resolved-ray-orientation-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / lifting campaign / L1 flux cone / step (iii)
 authorship: Claude (Fable), 2026-07-05 morning session. Campaign per the
   opening note of 2026-07-05; physical story Thomas Birnie.
 completion_truth: >-
-  Step (iii) of the L1 proof path (per-triad ray membership) is resolved,
-  and by a mechanism stronger than anticipated: ray membership is KINEMATIC,
-  not dynamic. For a helical mode at wavenumber kappa with sign s, helicity
-  is identically s kappa times energy - H_i = s_i kappa_i E_i is a pointwise
-  identity of the helical decomposition, not a property of the dynamics.
-  Therefore EVERY instantaneous redistribution of energy among helical
-  modes - resonant or non-resonant, transfer or backscatter, any branch -
-  contributes a (dE, dH) pair lying exactly on the ray (1, s_i kappa_i).
-  The anticipated falsification risk (non-resonant background escaping the
-  ray structure) is void: non-resonant contributions oscillate in magnitude
-  but cannot leave their rays, because the ray is what a helical mode IS.
-  Consequence: the entire analytic burden of L1 moves to step (iv), the
-  mollification-limit interchange - showing the mode-wise ray decomposition
-  of the increment cubic survives the epsilon-to-zero limit that defines
-  the Duchon-Robert defect pair (D_E, D_H) for suitable weak solutions.
-  That is Onsager-territory with established tools (Constantin-E-Titi
-  mollification calculus; the helicity-conservation regularity literature,
-  Chae-type thresholds). Honest hazard, named: below Onsager-type
-  regularity the defects are genuinely nonzero distributional limits, and
-  the limit could a priori mix rays through unbounded local wavenumber -
-  the cone stays closed only if kappa_active is controlled, which ties L1
-  quantitatively to the tower (local active wavenumber = tower ratio). Not
-  proved here; step (iv) is now the single open gate of Theorem 1.
+  Correction installed: the kinematic helical identity resolves LINE
+  membership, not yet oriented RAY/CONE membership. For a helical mode at
+  wavenumber kappa with sign s, helicity is identically s kappa times energy -
+  H_i = s_i kappa_i E_i. Hence every instantaneous helical-mode contribution
+  satisfies (dH_i) = s_i kappa_i (dE_i), whether the interaction is resonant,
+  non-resonant, transfer, or backscatter. This voids the proposed
+  non-resonant-slope failure: background oscillations cannot leave the
+  helical line. However convex cone aggregation needs nonnegative weights on
+  oriented rays. When dE_i is negative, the contribution lies on the opposite
+  orientation of the same line. Thus the remaining Step (iii) burden is the
+  ORIENTATION gate: write the Duchon-Robert/helicity increment cubic as a
+  positive admission/defect decomposition into oriented Manley-Rowe rays, with
+  backscatter routed as opposite-oriented debt rather than silently included in
+  the forward cone. Only after that orientation gate is proved does the analytic
+  burden move to Step (iv), the mollification-limit interchange. Not proved
+  here.
 ---
 
-# L1 step (iii): ray membership is kinematic
+# L1 step (iii): line membership is kinematic
 
-Claim resolved. In the helical basis, a mode at wavenumber kappa with
-helicity sign s satisfies H = s kappa E identically - helicity per unit
+Kinematic part resolved. In the helical basis, a mode at wavenumber kappa
+with helicity sign s satisfies H = s kappa E identically - helicity per unit
 energy IS the signed wavenumber. Hence any instantaneous energy
 redistribution among helical modes, from any interaction (resonant,
 non-resonant, backscatter, any helicity branch), produces mode-wise
-(dE, dH) contributions exactly on the rays (1, s kappa). The Manley-Rowe
-relations verified earlier at triad level are the three-mode shadow of
-this kinematic fact; nothing dynamical needs to be checked at step (iii).
+(dE, dH) contributions on the lines spanned by (1, s kappa). The Manley-Rowe
+relations verified earlier at triad level are the three-mode shadow of this
+kinematic fact; non-resonant background cannot change the slope.
+
+Correction: line membership is weaker than oriented cone membership. If
+dE < 0, the contribution lies on the opposite orientation of the same helical
+line. The L1 flux cone needs nonnegative weights on oriented rays, so Step
+(iii) still has one sign/admission burden:
+
+  decompose the Duchon-Robert/helicity increment cubic into positive
+  admission/defect pieces on oriented Manley-Rowe rays, routing backscatter
+  as opposite-oriented debt rather than as forward-cone mass.
 
 Cone content, made explicit: the aggregated defect pair must satisfy the
 local constraint family
@@ -54,16 +56,21 @@ defects to the tower quantitatively: the lift does not merely borrow the
 tower vocabulary, it needs the tower's local wavenumber as the cone's
 opening angle.
 
-# The single remaining gate: step (iv)
+# Remaining gates
 
-Burden: the mode-wise ray decomposition of the mollified increment cubic
-must survive the epsilon-limit defining (D_E, D_H) for suitable weak
-solutions. Tools: Constantin-E-Titi calculus; helicity-conservation
-thresholds (Chae-type). Hazard, stated not hidden: below Onsager
-regularity, unbounded local wavenumber could open the cone in the limit;
-control of kappa_active on the defect's support is the quantitative
-crux - expected to be exactly where the impedance estimate (campaign
-theorem 2) takes over. If the cone opens uncontrollably at step (iv),
-L1 fails there and the failure locus is itself a Silver-facing object
-(a defect supported where the tower is unbounded is a terminal-record
+Gate A: oriented-ray admission. The kinematic identity gives the helical line;
+the proof still must show that the local defect/admission object is a positive
+measure on the forward oriented rays, with backscatter represented as debt or
+opposite flux.
+
+Gate B: mollification-limit interchange. After Gate A, the mode-wise oriented
+ray decomposition of the mollified increment cubic must survive the
+epsilon-limit defining (D_E, D_H) for suitable weak solutions. Tools:
+Constantin-E-Titi calculus; helicity-conservation thresholds (Chae-type).
+Hazard, stated not hidden: below Onsager regularity, unbounded local wavenumber
+could open the cone in the limit; control of kappa_active on the defect's
+support is the quantitative crux - expected to be exactly where the impedance
+estimate (campaign theorem 2) takes over. If the cone opens uncontrollably at
+Step (iv), L1 fails there and the failure locus is itself a Silver-facing
+object (a defect supported where the tower is unbounded is a terminal-record
 candidate, consumed by the CM test).
