@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-strata-exhaustion-theorem-20260705
-status: gate7-paid-structural-window-level-trichotomy-guard-attached-measurably-regate-requested
+status: codex-regate-structural-reduction-readout-and-overlap-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex gate 7 (strata exhaustion)
@@ -9,44 +9,25 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie: one
   in the marginal current, or strong enough to be weighed - and the law
   prices all three.
 completion_truth: >-
-  Pays Codex gate 7: the marginal / sub-marginal / super-marginal split
-  upgraded from a frame-scope remark to a measurable exhaustion theorem
-  with no unpriced overlap and no dropped mass. THE MOVE THAT MAKES IT A
-  THEOREM: classify at WINDOW level, not point level - every pricing
-  statement in the campaign (viscous tax, chain floor, weighted guard)
-  is a per-window statement, so the decomposition is built where the
-  pricing lives. (1) MEASURABLE CLASSIFIER: each defect-carrying window
-  carries one local Reynolds readout M, constructed by the same
-  R1/T3 machinery as the wavenumber readout (countable suprema of
-  measurable channel functionals; Castaing selection of the window
-  family) - a single measurable extended-real function on the window
-  family. (2) TRICHOTOMY: partition the M-axis into three half-open
-  bands with named symbolic edges (values chapter-10-typed); preimages
-  under a measurable function are measurable, DISJOINT by construction,
-  and EXHAUSTIVE because every window has exactly one readout - the
-  finite-readout hypothesis is chapter 2's, and its complement is
-  already silver-routed. (3) NO DROPPED MASS: the defect measure
-  restricts additively over a measurable partition (countable
-  additivity); window overlaps are the locality tails, priced by the
-  paid exponents, hence no UNPRICED overlap. (4) PRICING ATTACHED
-  MEASURABLY: sub-marginal windows - saturated viscous domination
-  (payer 1 at saturation, W1 diffuse routing); marginal windows - the
-  chain floor via the fast/slow tempo split (FCR scope header + predator
-  route); super-marginal windows - the Reynolds-weighted Gate A total-
-  variation bound WITH THE WEIGHT EQUAL TO THE CLASSIFYING READOUT
-  ITSELF: the guard is attached to the stratum by construction, not by
-  prose - the I5 guard is now a measurable weight function integrated
-  against the dissipation budget in chapter 8. (5) EDGE INDIFFERENCE:
-  band-edge assignment is irrelevant because both adjacent taxes are
-  monotone and continuous in M (viscous decreasing, weighted guard
-  increasing), so either assignment prices the edge - stated so no
-  referee hunts the boundary. Codex re-gate requested on (1)'s readout
-  construction and (3)'s overlap accounting. With this, the remaining
-  bridges are gate 6 core (drifting separatrix) and gate 8 (same-packet
-  row theorem). No closure claimed.
+  CODEX RE-GATE UPDATE, same date. This note gives the right structural
+  reduction of gate 7: classify at WINDOW level, where every pricing
+  statement in the campaign is collected, and attach the three taxes to
+  a marginal/sub-marginal/super-marginal Reynolds trichotomy. It does
+  NOT yet pay the gate at theorem level. The two named re-gate items in
+  the original note are load-bearing, not clerical: (1) construct the
+  measurable local Reynolds readout on the defect-carrying window family
+  from the R1/T3 machinery with enough precision for the stratum
+  partition; (2) prove the overlap accounting, namely that window
+  overlaps and locality tails are priced without double-counting or
+  leaving unpriced defect mass. Edge indifference also remains a
+  proof obligation unless monotonicity/continuity of adjacent taxes is
+  written at the same level. Result: gate 7 is reduced to a finite
+  measurable-readout/overlap theorem, not cleared. The remaining bridges
+  still include gate 7 in this reduced form, gate 6 core (drifting
+  separatrix), and gate 8 (same-packet row theorem). No closure claimed.
 ---
 
-# Gate 7: the strata exhaustion theorem
+# Gate 7: strata exhaustion, structural reduction
 
 ## 1. Classify where the pricing lives
 
@@ -97,7 +78,10 @@ ambiguity. No boundary hunt is available to a referee.
 
 ## 6. Register
 
-Gate 7 paid at structural level; re-gate on the readout construction
-and the overlap accounting. Remaining bridges: gate 6 core (drifting-
-separatrix lemma), gate 8 (same-packet row theorem). Chapter 10
-unchanged. No closure claimed.
+Gate 7 is reduced, not paid. The reduced theorem is finite and named:
+construct the measurable Reynolds readout on the defect-carrying
+window family, then prove overlap/locality-tail accounting with no
+unpriced mass and no double-counted tax. Remaining bridges: this
+reduced gate 7 theorem, gate 6 core (drifting-separatrix lemma), and
+gate 8 (same-packet row theorem). Chapter 10 unchanged. No closure
+claimed.
