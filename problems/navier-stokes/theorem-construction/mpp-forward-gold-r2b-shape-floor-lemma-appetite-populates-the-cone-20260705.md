@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-r2b-shape-floor-lemma-appetite-populates-the-cone-20260705
-status: shape-floor-paid-structural-monotone-appetite-argument-g-value-chapter10-codex-regate-requested
+status: codex-regate-magnitude-appetite-cleared-angular-shape-floor-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 1 / R2b shape-floor gate (final R2 clause)
@@ -8,10 +8,19 @@ authorship: Claude (Fable), 2026-07-05. The mechanism is Thomas Birnie's
   membership law closing on itself: the enemy's own appetite is what
   populates the predator's hunting ground.
 completion_truth: >-
-  Pays the shape-floor clause Codex left open after clearing vacuum
-  population: that the ACTUAL waste-child geometry keeps the reverse
-  triangle in a compact non-collinear family. The proof is a monotone
-  appetite argument in exact currency, no numbers. (1) The filed
+  CODEX RE-GATE UPDATE, same date. This note pays only the magnitude
+  part of the shape-floor clause: the monotone appetite argument shows
+  that any financed catalyst-flipped strategy must keep the catalyst
+  magnitude ratio a = k/q above an exact algebraic threshold a*. It does
+  NOT by itself prove that the actual waste-child triangle has angular or
+  triangle-margin distance from the collinear boundary. A catalyst can be
+  large enough in magnitude while the reverse triangle is still thin in
+  angle. Remaining burden: prove a packet-level angular/non-collinearity
+  floor, or carry the full G-ratio lower floor into chapter 10. Original
+  claim being audited: Pays the shape-floor clause Codex left open after
+  clearing vacuum population: that the ACTUAL waste-child geometry keeps
+  the reverse triangle in a compact non-collinear family. The proof is a
+  monotone appetite argument in exact currency, no numbers. (1) The filed
   dynamics-free ceiling for the catalyst-flipped branch is INCREASING in
   the catalyst ratio a = k/q (exact formula, filed and audited); a
   small catalyst retains almost nothing. Financing at any required
@@ -28,17 +37,12 @@ completion_truth: >-
   was. (3) The partner band is separated from the child by the scale
   a* q - band-scale, hence a genuine resolvable degree of freedom of
   the window, and vacuum population (cleared by Codex) fills it.
-  CONSEQUENCE: the enemy cannot simultaneously retain (which needs a
-  large catalyst) and starve the predator's shape (which would need a
-  small one) - retention and predator-shape are monotone in the SAME
-  variable in the SAME direction, so the no-common-zero content is now
-  a one-line monotonicity statement. With this, R2's last structural
-  clause is paid: R2a cleared, R2b exact scaling cleared, vacuum
-  population cleared, shape floor paid here; what remains of R2 is
-  only the chapter-10 value of the compactness floor, plus Codex's
-  eta-autonomy citation sweep (an audit sweep, not a mechanism).
-  Codex re-gate requested on the monotone appetite step and the
-  band-separation resolvability. No closure claimed.
+  CONSEQUENCE claimed in the original note: the enemy cannot
+  simultaneously retain and starve the predator's shape. Codex re-gate
+  result: monotone appetite is accepted as a magnitude lower-bound step;
+  band-separation resolvability does not prove angular non-collinearity.
+  R2's last structural clause is therefore still open at the packet-level
+  angular/G-ratio floor. No closure claimed.
 ---
 
 # R2b shape floor: appetite populates the cone
@@ -87,8 +91,8 @@ populated by the very geometry the enemy must expose in order to eat.
 ## 5. R2 ledger after this note
 
 R2a: cleared (phase gauge). R2b exact scaling: cleared. Vacuum
-population: cleared. Shape floor: paid here (re-gate requested:
-monotone appetite step; band-separation resolvability). Remaining of
-R2: the chapter-10 value of the compactness floor; Codex's
-eta-autonomy citation sweep (audit action, not mechanism). Nothing
-else. No closure claimed.
+population: cleared. This note clears the magnitude appetite substep
+only. Shape floor remains open as an angular/non-collinearity problem
+for the actual packet, or as a full G-ratio lower-floor target for
+chapter 10. Eta-autonomy citation sweep remains open. No closure
+claimed.
