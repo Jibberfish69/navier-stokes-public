@@ -36,33 +36,36 @@ completion_truth: >-
   polarization vectors). Therefore every within-triad object the campaign
   uses - Manley-Rowe invariants and ceilings, the corner fraction
   one-third, the drain share (1 + mu/q)/2, the sector-sign instability
-  classification (products of two same-triad couplings carry G squared,
-  positive), the threshold-eigenvector fractions, the sn-squared closed
+  classification (products of two same-triad couplings carry |G|^2 after
+  triad gauge), the threshold-eigenvector fractions, the sn-squared closed
   forms, the turning-phase and un-parking identities, the parking-cap
   logarithm - lifts VERBATIM: each is a ratio or sign of same-triad
-  couplings, and G cancels. A per-triad time rescaling by G changes no
+  couplings, and G cancels after gauge. A per-triad time rescaling by |G| changes no
   fraction, no share, no sign, no phase-at-turning. (R2b, exact scaling
   plus compactness) Cross-triad statements - the predator clock theorem
   and the coupling ratio rho in the return floor - lift with their exact
   wavenumber-difference scalings (the sqrt of step progress is carried by
   the difference factors, which are exact) times cross-triad ratios of G,
   which are continuous and strictly positive on compact nondegenerate
-  triangle families; G vanishes ONLY on degenerate (collinear) triangles,
+  triangle families; G vanishes on degenerate (collinear) triangles,
   where the coupling - hence the enemy's own channel - vanishes with it.
-  The NO-COMMON-ZERO LEMMA closes the fringe: the predator subcone always
-  contains triangles of bounded shape whenever the relay pair exists, so
-  the enemy cannot make all predator factors degenerate while keeping its
-  relay alive; and a near-degenerate RELAY is a slow relay, which is
-  exactly what the predator clock theorem punishes - the degenerate
-  fringe is self-taxing. (R2c, boundary) What R2 does NOT cover and never
+  The remaining R2b gate is the NO-COMMON-ZERO / PREDATOR-CONE POPULATION
+  LEMMA: prove that the actual packet/window decomposition supplies
+  bounded-shape predator triangles whenever the relay pair exists, or else
+  keep the corresponding G-ratio lower floor in the certification stratum.
+  A near-degenerate RELAY is still a slow relay, exactly what the
+  predator clock theorem punishes; the unproved part is case (b), where
+  the predator side must be populated by the actual PDE packet, not merely
+  by an abstract available subcone. (R2c, boundary) What R2 does NOT cover
+  and never
   did: the continuum-to-chain architecture (already paid: locality,
   FiniteChainReduction, W1 packet decomposition) and the VALUES of the
   compact-family floors (typed to Stage-2/3 by the lane law; the spec's
   Stage-1 expectation that projector depletion only helps becomes a
-  one-signed check there). With R2 paid at this level, goal item 1 is
-  discharged at theory level; the Codex audit gate on this note is the
-  remaining condition before anything downstream leans on it. No closure
-  claimed.
+  one-signed check there). With the audit applied, goal item 1 is reduced
+  to the R2b cone-population/floor gate; downstream chapters may use R2a
+  and the exact-scaling part of R2b, but may not cite no-common-zero as
+  paid. No closure claimed.
 ---
 
 # R2: the normal-form lift as a ratio theorem
