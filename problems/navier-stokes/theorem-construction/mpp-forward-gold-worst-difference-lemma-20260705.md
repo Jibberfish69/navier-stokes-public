@@ -9,46 +9,15 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie:
   won or lost at the first stride, and the first stride is shorter
   than the whole track.
 completion_truth: >-
-  Answers the re-gate's not-an-equivalence point with the
-  WORST-DIFFERENCE LEMMA, pending re-gate; Codex's exact threshold
-  display for the sufficient route is adopted verbatim alongside.
-  (THE LEMMA) If the difference T_del(N) - T_req(N) is nondecreasing
-  in N on the window, then its minimum over the window is at N = 3,
-  and the window passes IF AND ONLY IF it passes at N = 3 - the
-  equivalence the sufficient route lacked. (DIFFERENCE MONOTONICITY,
-  displayed) Delivered increments: T_del(N+1) - T_del(N) =
-  (N+1) b(Lambda(N+1)) - N b(Lambda(N)) >= b(Lambda(N)) >=
-  b(Lambda(3)) - one line from b's monotonicity and Lambda's increase.
-  Required increments: Delta_req(N) = T_req(N+1) - T_req(N), exact
-  algebra of the composition fraction, POSITIVE and SUMMING to less
-  than half a log-two over the whole window (the bounded limit), with
-  the largest increment identifiable by the same exact algebra (the
-  required side's rise is front-loaded; the identification is one
-  display on the exact fractions, queued as this note's single debt).
-  MONOTONICITY CONDITION: b(Lambda(3)) >= max over the window of
-  Delta_req(N) - a LOW-EDGE saturation condition against ONE INCREMENT
-  of the required side, strictly weaker than the sufficient route's
-  threshold (one increment versus the entire half-log-two). (THE
-  SHARPENED STRUCTURE, three tiers now on file) TIER 1 (sufficient,
-  Codex's exact display adopted): D_3 >= -log(1 - (log 2)/(6
-  sigma_min)) closes the window outright. TIER 2 (equivalence, this
-  note): b(Lambda(3)) >= max-increment AND T_del(3) >= T_req(3) - two
-  weaker low-edge conditions; if both hold the window passes, and if
-  the second fails UNDER the first, the window genuinely fails at its
-  worst point - the equivalence makes failure informative, not just
-  success. TIER 3 (the pass): if neither tier resolves symbolically,
-  the interval pass's job is the TIER-2 PAIR at one point - still
-  one-dimensional, now with the weakest sufficient thresholds on
-  record. HONESTY: T_req(3) and the max increment are exact
-  computable forms (fractions and logarithms of the filed composition
-  fraction - lane currency, symbolic); their comparison against the
-  saturation factor is the same seed-margin question at weaker
-  thresholds; nothing is resolved here - the reduction is sharpened
-  and the failure mode made meaningful. PRESS POINTS: the delivered-
-  increment line (one inequality); the front-loading display of the
-  required increments (this note's single named debt - the exact-
-  fraction identification of the maximal increment). Chapter 10
-  unchanged. Filed is not cleared. No closure claimed.
+  Codex re-gated this note. Accepted: the worst-difference lemma is the
+  right equivalence repair, and the delivered-increment lower bound is
+  cleared. Still open: the required-increment front-loading display.
+  The note must identify or bound max_N Delta_req(N) from the exact
+  T_req formula before the one-point equivalence is cleared. Current
+  open items: required-increment front-loading; tier-2 low-edge
+  comparison after that display; Sheet 2 expansion; chapter 10. Filed
+  is not cleared beyond the delivered-increment side. No closure
+  claimed.
 ---
 
 # The worst-difference lemma
