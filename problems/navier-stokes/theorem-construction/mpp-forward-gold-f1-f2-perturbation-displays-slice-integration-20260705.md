@@ -52,6 +52,20 @@ completion_truth: >-
 
 # Flags f1 and f2, displayed
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-f1-f2-regate-20260705.md`. The home-center
+\(G\)-scalar identity is cleared separately, but this f1-f2 note is not
+cleared: it states the intended law-of-cosines, area, circumradius, and
+slice-integration brackets in prose rather than displaying the actual
+interval inequalities. To clear, it must write the perturbation variable
+\(\alpha\in[-w,w]\), the formulas for \(c(\alpha)\), \(A(\alpha)\),
+\(R(\alpha)\), the monotone-quarter condition, the lower bracket for
+\(R_{\rm relay}/R_{\rm pred}(\alpha)\), and the slice integral lower
+bound with its drain-share margin. Filed is not cleared beyond the
+home-center identity supplied by the companion Codex note.
+
 ## F1. Two-sided perturbation brackets
 
 Shared legs, common included angle, third side by the law of cosines
