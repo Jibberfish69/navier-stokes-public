@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-r2-normal-form-lift-ratio-theorem-20260705
-status: r2-paid-structural-level-ratio-theorem-within-triad-verbatim-cross-triad-compactness-codex-gate-pending
+status: codex-audited-r2a-cleared-after-phase-gauge-r2b-exact-scaling-cleared-no-common-zero-open-r2c-clear
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 1 / R2 normal-form lift
@@ -11,11 +11,23 @@ authorship: Claude (Fable), 2026-07-05. The exact helical-coefficient
   Thomas Birnie: the membership law does not care about the clock's
   absolute speed, only about who pays whom in what proportion.
 completion_truth: >-
-  R2 is PAID at structural level, pending the Codex gate (goal item 6
-  applies to this step; nothing load-bearing unaudited). The burden was:
-  prove the full NS projection coefficients preserve the exact eigenvector
-  fractions and sector signs of the helical normal form. The proof is a
-  RATIO THEOREM in three parts. (R2a, exact, verbatim lift) In the helical
+  CODEX AUDIT UPDATE, same date. R2a is CLEARED after one phase-gauge
+  correction: the common helical triple product is common within a triad
+  only after a fixed cyclic orientation/triad gauge, and sign/growth
+  statements use the positive modulus factor |G|^2 rather than a raw
+  "G squared" phrase. With that correction, every within-triad fraction,
+  share, sign, and phase identity still lifts verbatim. R2b is CLEARED
+  for its exact scaling spine (the wavenumber-difference factors carry the
+  sqrt-progress law), but the no-common-zero/predator-cone population
+  clause is NOT yet paid: it must prove that the actual packet/window
+  decomposition supplies bounded-shape predator triangles, or else carry
+  the corresponding G-ratio floor into the quantitative stratum. R2c is
+  clear as a scope boundary. Thus item 1 is a strict reduction, not a
+  completed discharge, until the R2b cone-population gate is paid or
+  certified. Original claim being audited: prove the full NS projection
+  coefficients preserve the exact eigenvector fractions and sector signs
+  of the helical normal form. The proof is a RATIO THEOREM in three
+  parts. (R2a, exact, verbatim lift) In the helical
   basis the incompressibility projection is not an approximation to be
   lifted - it is EXACT (helical modes are divergence-free by
   construction), and the exact NS triad coefficients are the normal form's
