@@ -162,3 +162,12 @@ F2-prime is resolved by the fixed-terminal-gauge read in section 5. The
 live chapter-9 gates are: (1) same-packet bridge theorem for the three
 rows, and (2) demand-supply recurrence/ledger inequality for the record
 crossing.
+
+Same-date Codex refinement:
+`mpp-forward-gold-codex-boundary-reserve-pushforward-reduction-20260705.md`
+pays the formal boundary-carry clause used by the demand-supply
+recurrence. If the row chain is one same-packet half-open history, the
+unused admitted supply leaving one row is the entrance reserve of the
+next. Chapter 9 still owes the PDE bridge identifying the row chain as
+that same-packet history after tails, and it still owes non-overdraft or
+explicit routing of the \(U_n\) residue.
