@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target1-items-helicity-derived-curl-diagonal-20260705
-status: target1-four-items-paid-helicity-derived-not-defined-remainder-relocated-regate-requested
+status: codex-regated-helicity-multiplier-open-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / target-1 sharpened items
@@ -59,6 +59,18 @@ completion_truth: >-
 ---
 
 # Target 1, four items: the helicity weight as a theorem
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-five-payments-regate-20260705.md`. The pressure
+narrowing and energy-side linear-slot partition are accepted in shape.
+The helicity claim is not cleared: curl is diagonal on helical Fourier
+modes with multiplier `s|xi|`, not a scalar dyadic rung weight unless
+the channel is refined to exact frequency fibers. The note must either
+carry the exact `s|D|` multiplier or write the dyadic scalar replacement
+as a band-width/tail estimate in defect-measure currency. Filed is not
+cleared.
 
 ## 1. Pressure, narrowed
 
