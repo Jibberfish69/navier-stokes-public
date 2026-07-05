@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target4-sub-demands-4a-4d-20260705
-status: sub-demands-4a-4d-displayed-weighted-transfer-by-compactness-orientation-definitional-regate-requested
+status: codex-regated-subdemands-displayed-target4-still-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / target 4 sub-demands (a)-(d)
@@ -52,6 +52,19 @@ completion_truth: >-
 ---
 
 # Target 4, sub-demands (a)-(d)
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-target4-subdemands-regate-20260705.md`.
+The variables are now displayed, but target 4 is not cleared.
+Positive-part-dominates-net transfers to weighted gross only after the
+root-sensitivity weight is sign-fixed and bounded below against the same
+package measure on the positive-rho horn. The reversed-orientation
+pieces still need a channel-level identity with D2's swap-back ray and
+no-recount applied to the same mass. The short-subwindow claim needs a
+two-time summability estimate in the same weighted currency. Filed is
+not cleared.
 
 ## 4a. The rate and the measure the drift actually uses
 
