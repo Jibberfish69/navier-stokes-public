@@ -40,7 +40,7 @@ completion_truth: >-
   EXACT SEXTIC REDUCTION: with t^3 = 1/2 and u = 2^(1/3) (t = u^2/2,
   t^2 = u/2), (2-t)^3 = 15/2 - 12t + 6t^2 and (2-t)^6 =
   234 t^2 - 162 t - 63/4 = 117u - 81u^2 - 63/4 - every step
-  displayed, quatrics eliminated through the defining cube. RATIONAL
+  displayed, quartics eliminated through the defining cube. RATIONAL
   BRACKETING: 5/4 < u < 63/50 by the integer cubes 128 > 125 and
   250047 > 250000 (63^3 = 250047 vs 2 x 50^3). Then (2-t)^6 > 3/2
   iff 468u - 324u^2 > 69, and u(468 - 324u) > (5/4)(1494/25) =
@@ -59,7 +59,7 @@ completion_truth: >-
   cleared; the integer-finish style is the campaign's own cleared
   precedent (5832 > 500); nothing here is a decimal - every
   comparison ends in integers or exact fractions. PRESS POINTS: the
-  complete-the-square line (D1); psi at the N = 2 point (16 > 2);
+  complete-the-square line (D1); psi at the N = 2 point (64 > 8);
   the sextic reduction's displayed algebra; the bracketing cubes;
   the 65/16 finish. QUEUE: this note's re-gate; the c_diff and
   theta rows (the last two); the threshold run; B1-B3; chapter 10.
@@ -146,7 +146,7 @@ GAMMA_ANGLE now has exactly two unfilled rows: c_diff and theta.
 
 Sigma row cleared by exact displays and integer finishes in the
 campaign's cleared style; D2-D3 are new displays awaiting audit.
-Press points: the complete-the-square line; 16 > 2 at the N = 2
+Press points: the complete-the-square line; 64 > 8 at the N = 2
 point; the sextic reduction; the bracketing cubes; the 65/16
 finish. Queue: re-gate; c_diff and theta rows; the threshold run;
 B1-B3; chapter 10. Filed is not cleared. No closure claimed.
