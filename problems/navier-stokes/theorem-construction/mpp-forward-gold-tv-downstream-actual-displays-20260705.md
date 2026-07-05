@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-tv-downstream-actual-displays-20260705
-status: tv-downstream-actual-inequalities-displayed-regate-requested
+status: codex-regated-tv-skeleton-speed-display-cleared-tau-and-boundary-thresholds-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / TV downstream as displayed inequalities
@@ -53,6 +53,19 @@ completion_truth: >-
 
 # TV downstream, as inequalities
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-w-eff-tv-actual-displays-regate-20260705.md`.
+This note now has the three requested inequality skeletons. The speed
+quotient is cleared after inserting the exact critical-point display
+below. Two TV dependencies remain open before symbolic comparisons:
+the shallow-price floor still needs the explicit \(\tau\) positivity or
+monotonicity line on the capped band, and the boundary integer
+absorption still needs a displayed financing/period-cap threshold.
+Filed is not cleared beyond the skeleton inequalities and the speed
+maximum formula.
+
 ## 1. The price functions
 
 Domain K in [K_min, K_cap]; m(K) = 1 - 16 exp(-2K).
@@ -84,9 +97,37 @@ period cap bites first (filed).
   time per complete swing >= (X3 - X2)/(g sqrt(C_max));
   period ceiling from the throughput floor = the displayed quotient.
 
+Codex critical-point display. For
+\[
+C(X)=X(I_1-X)(I_2-X)-G_0^2,
+\]
+the critical points are the two roots of
+\[
+C'(X)=3X^2-2(I_1+I_2)X+I_1I_2=0,
+\]
+namely
+\[
+X_{\pm}
+=
+\frac{I_1+I_2\pm\sqrt{I_1^2-I_1I_2+I_2^2}}{3}.
+\]
+The capped-band speed constant is therefore
+\[
+C_{\max}
+=
+\max\{C(X_\pm):X_\pm\in[X_2,X_3]\}.
+\]
+Thus
+\[
+|\dot X|\le 2g\sqrt{C_{\max}},
+\qquad
+T_{\rm swing}\ge
+\frac{X_3-X_2}{g\sqrt{C_{\max}}}.
+\]
+
 ## Register
 
-Three displays as inequalities, filed symbols throughout. Press
-points: tau's monotonicity line; the critical-point display.
-Outstanding: re-gates (this note; w_eff); the symbolic comparisons;
-chapter 10. Filed is not cleared. No closure claimed.
+Three display skeletons are present, and the speed maximum is now
+displayed. Press points: tau's monotonicity/positivity line and the
+boundary integer absorption threshold. Outstanding: the symbolic
+comparisons; chapter 10. Filed is not cleared. No closure claimed.
