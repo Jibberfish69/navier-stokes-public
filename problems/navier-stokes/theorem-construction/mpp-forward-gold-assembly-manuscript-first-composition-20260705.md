@@ -257,6 +257,15 @@ horn-(b)'s net floor transfers to weighted gross. The reversed
 extraction ray still needs the channel-level D2/no-recount identity, and
 short fragmented subwindows need a two-time summability estimate.
 
+Latest anchor tail supersedes the target-4 paragraph at finer grain:
+the 4a-4d re-gate reduces target 4 to three line-level requirements:
+write the root-sensitivity sign table and lower bound, write the ray
+equality identifying the reversed piece with D2's swap-back mass before
+no-recount routing, and write the short-subwindow two-time bound with
+the root weight inside the integral. A newer target-1 helicity note has
+landed claiming the curl-diagonal channel weight removes the helicity
+remainder; that claim is still pending Codex re-gate.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
