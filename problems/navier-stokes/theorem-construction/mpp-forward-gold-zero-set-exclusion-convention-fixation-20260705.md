@@ -92,11 +92,22 @@ bounded by the child; predator has waste \(k(-)\) adjacent to retained
 child \(q(+)\) in the hyperbolic branch, so the waste is bounded by the
 child. Hence \(S_{\rm relay}=p+q-k\ge p\) and
 \(S_{\rm pred}=q+\mu-k\ge\mu\). The remaining lower-bound problem is
-the exact circumradius-ratio inequality
+corrected by the same-date Codex denominator-direction note. The exact
+generic ratio is
 \[
-\inf_{\mathcal F_{\rm financed}} \frac{\mu}{p}\,
+\frac{|G_{\rm pred}|}{|G_{\rm relay}|}
+=
+\frac{q+\mu-k}{p+q-k}
+\frac{R_{\rm relay}}{R_{\rm pred}},
+\]
+so the direct sector-floor lower-bound problem is
+\[
+\inf_{\mathcal F_{\rm financed}} \frac{\mu}{p+q-k}\,
 \frac{R_{\rm relay}}{R_{\rm pred}}>0.
 \]
+On the home-partner branch later filed by Fable, \(\mu=p\) gives
+\(S_{\rm pred}=S_{\rm relay}\); that stronger equality is pending
+re-gate with the payback/f1-f2 notes.
 
 ## 1. The zero-set exclusion: the minus lives on the catalyst
 
