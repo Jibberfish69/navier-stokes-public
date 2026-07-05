@@ -70,6 +70,19 @@ cites the sign pattern, the sector inequalities placing the negative
 helicity on a catalyst/waste bounded by the child, and the positive
 side-length floors on the financed family. Filed is not cleared.
 
+## Codex zero-set sharpening, same date
+
+Codex line check filed at
+`mpp-forward-gold-codex-t7-line-check-zero-set-sharpening-20260705.md`.
+The helicity-weighted factor is a signed sum of the three triangle side
+lengths. On a nondegenerate triangle, any zero of such a signed sum
+forces one side to equal the sum of the other two, hence lies on the
+collinear boundary. The extra weighted-sum zero set is therefore not an
+independent interior hazard. The campaign-specific lower bound still
+needs the sector citations: negative side on catalyst/waste, bounded by
+the child, with the remaining positive side floored on the financed
+family.
+
 ## 1. The zero-set exclusion: the minus lives on the catalyst
 
 The weighted sum vanishes only when the negative helicity rides the
