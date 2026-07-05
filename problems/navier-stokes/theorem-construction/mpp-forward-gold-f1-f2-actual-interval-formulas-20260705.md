@@ -75,6 +75,22 @@ and substitute \(w_{\rm eff}\) into the displayed bracket and slice
 integral. Filed is cleared only for the formula display and the
 admissible-interval algebra.
 
+## Codex admissible-width update, same date
+
+Codex filed
+`mpp-forward-gold-codex-sector-admissible-slice-width-20260705.md`.
+The sector-admissible width is now chosen explicitly:
+\[
+w_{\rm eff}
+=
+\frac12\min\{w_{\rm packet},\phi_{\min},
+\arccos(k/(2q))-\phi_0\}.
+\]
+On the home branch \(p<q\), the last term is positive, so the interval
+\(|\alpha|\le w_{\rm eff}\) stays inside \(c(\alpha)<q\) and inside
+the monotone angle arc. Current state: the f1-f2 formulas apply with
+\(w_{\rm eff}\); symbolic comparisons inherit that exact factor.
+
 ## Setup and monotone condition
 
 Legs k, q; relay angle phi0 in [phi_min, pi - phi_min]; alpha in
