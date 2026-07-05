@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-e1-e4-displayed-estimates-20260705
-status: e1-e2-e4-displayed-e3-displayed-shape-with-named-kernel-constants-regate-requested
+status: codex-regated-useful-displays-not-cleared-e2-e3-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / estimate targets E1-E4 as displays
@@ -69,6 +69,19 @@ completion_truth: >-
 ---
 
 # E1-E4 as displays
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-e-displays-gate6-regate-20260705.md`.
+This note is not cleared as proof grade. E1 is accepted only as a
+fixed-channel compactness estimate once the exact channel flux identity
+is fixed. E2 still needs the nonlinear Littlewood-Paley telescoping and
+all UV/IR commutator/cutoff tails written in exact defect-measure
+currency. E3 remains open at the signed-tail Gate-A pressure point or
+must use the unsigned E2 fallback as an explicit record-row error. E4 is
+conditional on fixed-epsilon oriented BV on the actual cells; lower
+semicontinuity alone does not supply that input. Filed is not cleared.
 
 ## E1. Per-channel uniform variation
 
