@@ -82,6 +82,38 @@ remainder (exact elliptic period); band bracket (exact two-sided);
 theta-charge (exact choice). No eighth ingredient. One tollgate on
 every road.
 
+## 1b. The source map (added per the re-gate)
+
+The six non-G factors, each cited to its filed object: (1) invariant
+drain share - the two-invariant identity, ramp-rectification note
+section 4 and R2a ratio theorem (audited); (2) seed logarithm -
+sD-multiplier-repair note, amplitude-split display (theta an exact
+choice); (3) exponent-versus-chop - predator clock theorem,
+theory-currency reshape clause (iii) as corrected, difference factors
+exact under R2b scaling (audited); (5) window-duration remainder -
+elliptic write-up section 2 (period closed form) and target-5
+one-period display; (6) band bracket - sD-multiplier-repair note,
+two-sided band inequality; (7) theta-charge - sD-multiplier-repair
+and target-4 three-displays notes (choice inequality displayed). Each
+is exact or already quarantined as a named choice; none carries an
+unnamed constant.
+
+## 2b. The comparison in logarithmic currency (added per the re-gate)
+
+Per-step taxes are stated as log-energy tolls: retention factors
+MULTIPLY along the octave, so their logarithms ADD - the additive
+ledger is the logarithmic one by construction, and the shrinking
+retained package is counted once because each step's toll is the log
+of ITS OWN retention factor applied to whatever arrives. Delivered
+per octave in log currency: at least the chop number times the log
+of one over (one minus the per-step bite at the chop-three
+exponent) - at least linear in the chop number by monotonicity of
+the log. Required in log currency: the log of twice the composed
+scalar retention - bounded by half a log-two. Linear beats bounded
+in the SAME currency; no multiplicative-versus-additive mismatch
+survives, and no package is double-counted because logs of factors
+along one lineage add exactly once.
+
 ## 2. Linear beats bounded, exact in gamma
 
 Required: monotone in chop number, bounded by half a log-two -
