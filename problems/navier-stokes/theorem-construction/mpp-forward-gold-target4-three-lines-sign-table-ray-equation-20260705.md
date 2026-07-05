@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target4-three-lines-sign-table-ray-equation-20260705
-status: three-lines-paid-sign-table-ray-equation-one-sided-drop-regate-requested
+status: codex-regated-three-lines-right-targets-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / target 4 final three lines
@@ -57,6 +57,18 @@ completion_truth: >-
 ---
 
 # Target 4, the last three lines
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-five-payments-regate-20260705.md`. The sign
+table and ray equation are the right targets, but target 4 is not
+cleared. The endpoint sign lemma and root-sensitivity lower bound must
+be displayed as actual inequalities; the D2 swap-back claim needs the
+five-mode same-monomial identity; and short forward subwindows can only
+be dropped after the remaining long windows still carry the required
+weighted gross floor or the short windows are paid elsewhere. Filed is
+not cleared.
 
 ## Line (i): the sign table
 
