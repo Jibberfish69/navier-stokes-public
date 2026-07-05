@@ -63,6 +63,18 @@ completion_truth: >-
 
 # The TV identity: payment is motion
 
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-tv-middle-window-regate-20260705.md`. The TV
+identity is cleared only in its typed gross-variation form:
+throughput is half the total variation of the same package variable
+after the package channel and orientation have been fixed. The
+downstream claims remain open at display level: swing counting needs
+boundary-term routing, period caps need the capped-band speed bound,
+and the max floor needs explicit shallow/deep price functions on the
+same depth domain. Filed is not cleared.
+
 ## 1. The identity
 
 The extraction enters the package's energy as its time derivative, so
