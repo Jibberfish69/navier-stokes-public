@@ -321,6 +321,15 @@ source map proving the six non-G factors are exact or quarantined, and
 the finite-N comparison must be in logarithmic/multiplicative currency.
 Later TV downstream displays are filed, not Codex-cleared.
 
+Latest T7 line check: the helical convention calculation is paid under
+the common-normal convention, with the triple product equal to a
+universal convention factor times a helicity-signed side-length sum
+over circumradius. The weighted-sum zero set has no nondegenerate
+interior; any zero is on the collinear boundary. The remaining G-ratio
+work is the financed-family lower-bound inequality and the sector
+citations that put the negative side on catalyst/waste and floor the
+remaining positive side.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
