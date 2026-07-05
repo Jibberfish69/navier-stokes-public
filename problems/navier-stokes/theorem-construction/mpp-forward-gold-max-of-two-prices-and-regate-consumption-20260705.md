@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-max-of-two-prices-and-regate-consumption-20260705
-status: display-queue-regate-consumed-split-restated-as-max-of-monotone-prices-regate-requested
+status: codex-regated-max-framing-right-shape-positive-floor-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / consumption of the display-queue re-gate
@@ -56,6 +56,16 @@ completion_truth: >-
 ---
 
 # The max of two prices, and the rest of the re-gate
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-max-financed-family-regate-20260705.md`. The
+max framing is the right repair to the boundary-price mistake, but it
+is not cleared. The proof still needs the actual shallow and deep price
+functions on one depth domain, validity of each lower bound wherever
+the max uses it, and a displayed positive floor for
+`max(P_s(K), P_d(K))` with no common-zero point. Filed is not cleared.
 
 ## 1. The split, restated as the crossover it always was
 
