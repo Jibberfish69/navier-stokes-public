@@ -94,8 +94,10 @@ turnovers): holds for M >= 5. For M < 5 the viscous payer collects
 c1/M >= pi/5 = 0.63 in log-energy per residence: retention
 <= (7/8) e^(-0.63) = 0.466 < 4/7. Either payer alone breaks the corner.
 
-Corner retention <= (7/8)(1 - 1/2) = 0.4375 < 4/7 = 0.571. Certified;
-log-margin 24 percent.
+Sidecar decimal calculation under the pre-lane-law route:
+corner retention <= (7/8)(1 - 1/2) = 0.4375 < 4/7 = 0.571. This is not
+proof currency after the correction header; the structural corner claim is
+the exact fraction in the reshape note.
 
 ## 2. Corner supremum: Codex's requirement discharged in stronger form
 
@@ -117,14 +119,12 @@ Fine chop, N steps per octave, step delta = ln2/N. Waste lifetime is
 Either branch: per-octave log-tax >= 0.43 N for all N <= 363. Hence
 retention(N) <= e^(-0.43 N) <= 0.42 for N >= 2, BELOW the corner's 0.4375.
 
-Conclusion: the corner N = 1 is the supremum of the chop-strategy space
-(certified ordering, margin four percent - the thinnest number in this
-note), and the supremum is < 4/7 with fat margin. Same-helicity steps are
-capped at 1/2 per octave by the dynamics-free centered split; mixtures are
-log-additive convex combinations of certified-dead branches (the
-front-payments convexity argument applies verbatim). Codex's monotonicity
-conjecture (per-step bite monotone in step size) is NOT certified and is
-not needed; flagged honestly for the audit.
+Pre-lane-law decimal conclusion, now demoted: the corner N = 1 was
+claimed as the supremum of the chop-strategy space by decimal ordering.
+That ordering is withdrawn as proof currency. Same-helicity steps remain
+controlled by exact Manley-Rowe structure; mixed-step closure now routes
+through the structural replacements and quantitative stratum named in the
+reshape note.
 
 ## 3. Return-race constant: r0 >= f^2 / (pi rho) = 1/(8 pi) at f = 1/2
 
@@ -171,12 +171,11 @@ per-handoff tax floor r0/2 - C 2^(-B) >= r0/4 > 0 stands.
 
 ## 7. The floor, assembled
 
-c0 >= min( r0 , c1 / M1-window ) = min( 1/(8 pi) , order 1 ) = 1/(8 pi)
-~ 0.0398. Per-octave forward retention <= (1 - c0)/2 <= 0.4801; per-octave
-multiplier <= 0.9602 < 1: the critical mass decays geometrically at
->= four percent per octave. Combined with the corner (0.4375) and the
-strategy supremum (0.42), every descent channel is certified
-sub-financing.
+c0 >= min( r0 , c1 / M1-window ) is the retained exact-currency floor
+statement. The decimal evaluation and per-octave percentage comparison
+from the earlier version are sidecar only. Geometric decay follows only
+after the structural branch closures and quarantined quantitative stratum
+are discharged.
 
 ## 8. Boundary and audit flags
 
