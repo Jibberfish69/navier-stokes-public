@@ -340,6 +340,13 @@ exact financed-family shape inequality
 \]
 The possible loss is angular thickness through the circumradius ratio.
 
+Latest tracing check: the source map and log-currency finite-N display
+are cleared in their narrow roles. The delivered-side comparison has no
+second unnamed compactness floor outside the R2b G-ratio, and the
+per-step tolls add as logarithms of retention factors. The symbolic
+middle-window comparisons are now blocked on the exact G-ratio shape
+floor and the TV downstream re-gate.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
