@@ -596,6 +596,20 @@ With a financed ordering floor \(\rho_{\min}\), this gives a crude
 sufficient pass-test floor \(\gamma_{\rm crude}\). It is not a verdict
 if it fails.
 
+Latest corrected-\(F_2\) re-gate: the \(F_2\) interior point and
+sine-ratio identity clear, and \(F_3\) is monotone. \(F_1\) is not
+monotone on the admissible sector. Its derivative
+\[
+\partial_\phi\log F_1
+=
+\frac{kq\sin(\phi-w)}
+{c(\phi-w)(q-k+c(\phi-w))}
+-
+\frac{kq\sin\phi}{c(\phi)(q-k+c(\phi))}
+\]
+changes sign, so exact factor lists remain open unless \(F_1\) gets
+its own critical equation or a certified lower bound.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
