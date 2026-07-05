@@ -231,6 +231,16 @@ extraction/sign system, a precise averaged-root system, endpoint
 inequalities with cap/dwell margins, and an active-phase lemma for the
 actual extraction window.
 
+Latest signed-subwindow re-gate: decomposing the extraction window by
+the sign of rho is accepted as the right repair shape, but target 4 is
+not cleared. The five-mode equations must define rho and the weighted
+gross extraction measure used by root drift; horn-(b)'s net floor must
+imply enough positive-rho gross extraction in that same measure;
+negative-rho pieces must be matched to D2's swap-back channel in the
+same orientation and routed through no-recount; fragmented forward
+subwindows must still support the averaged-root and active-phase
+lemmas.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
