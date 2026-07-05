@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-one-period-estimate-gate-a-split-20260705
-status: target5-one-period-displayed-targets-2-3-gate-a-split-into-dec-and-tax-regate-requested
+status: codex-regated-gate-a-split-and-one-period-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / final display items (target 5; targets 2-3)
@@ -58,6 +58,18 @@ completion_truth: >-
 ---
 
 # The last two displays
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-display-queue-regate-20260705.md`. The Gate-A
+split is the right distinction, and the one-period estimate is the
+right target. Neither is cleared. GA-dec on tails still needs the E3
+kernel domination estimate or the unsigned fallback through record rows;
+GA-tax on cells still needs the boundary/locality/Reynolds-weighted
+cell estimate. Target 5 still needs the actual root-variable
+one-period perturbation estimate with the root sensitivity controlled
+on the split band. Filed is not cleared.
 
 ## Target 5: one period, matched constants
 
