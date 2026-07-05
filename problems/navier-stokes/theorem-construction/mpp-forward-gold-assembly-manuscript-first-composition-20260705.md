@@ -305,6 +305,14 @@ compactness positivity is certification by type. The one-constant
 chapter-10 shape remains a candidate reduction pending the tracing
 sweep to a single R2b G-ratio symbol and the finite-N crossing display.
 
+Latest G-ratio / T7 re-gate: the R2b coupling floor is accepted as
+exact trigonometry in principle, not as a cleared lower bound. T7 must
+fix the exact helical convention, conjugation pattern, orientation
+signs, and universal factor. The lower-bound gate must also exclude the
+helicity-weighted-sum zero set, not only collinearity, on the financed
+relay/predator family. Until then the symbolic middle-window comparison
+is queued, not available.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
