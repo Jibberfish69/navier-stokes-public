@@ -336,9 +336,14 @@ floor the helicity-weighted sums: \(S_{\rm relay}=p+q-k\ge p\) and
 exact financed-family shape inequality
 \[
 \inf_{\mathcal F_{\rm financed}}
-\frac{\mu}{p}\frac{R_{\rm relay}}{R_{\rm pred}}>0.
+\frac{\mu}{p+q-k}\frac{R_{\rm relay}}{R_{\rm pred}}>0.
 \]
-The possible loss is angular thickness through the circumradius ratio.
+This corrects Codex's denominator-direction mistake in the earlier
+sector note. The later payback-aims-home branch would instead give
+the exact side-sum equality \(S_{\rm pred}=S_{\rm relay}\) on the
+home slice; that branch is pending re-gate with the f1-f2 displays.
+Away from that branch, the possible loss is angular thickness through
+the circumradius ratio.
 
 Latest tracing check: the source map and log-currency finite-N display
 are cleared in their narrow roles. The delivered-side comparison has no
