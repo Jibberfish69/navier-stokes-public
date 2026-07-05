@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-factor-minima-critical-point-exact-20260705
-status: factor-minima-completed-critical-value-exact-candidate-lists-explicit-regate-requested
+status: codex-regated-h-critical-correct-factor-minima-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the factor minima, completed
@@ -51,6 +51,27 @@ completion_truth: >-
 ---
 
 # The factor minima, completed
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-factor-minima-critical-regate-20260705.md`.
+The collapse
+\[
+h(\beta_*)=\frac1{q^2-k^2}
+\]
+for \(h'(\beta_*)=0\) is correct. It does not locate the interior
+critical point of
+\[
+F_2(\phi,w)=\frac{c(\phi)}{c(\phi+w)}.
+\]
+That point must satisfy \(h(\phi)=h(\phi+w)\), which reduces to
+\[
+\cos\left(\phi+\frac w2\right)
+=
+\frac{2kq}{k^2+q^2}\cos\left(\frac w2\right).
+\]
+The factor minima are therefore not completed here.
 
 ## 1. The catch and the collapse
 
