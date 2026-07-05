@@ -180,11 +180,12 @@ sub-financing.
 
 ## 8. Boundary and audit flags
 
-Stage-1-grade (exact triad, pen and paper, stated normal form). NOT
-claimed: Stage-3 interval pass; normal-form lift to full NS projection
-coefficients (Stage-2 family scope). Audit flags for Codex, thinnest
-first: (i) corner-supremum ordering margin four percent; (ii) the
-single-slice sin^2 bounds (Heron, worst endpoint - re-derivable in five
-lines each); (iii) the saturating-comparison step 1(c); (iv) the
-short-life branch's per-step viscous floor. All four are five-line
-checks; none is load-bearing beyond its stated margin.
+After the same-date lane law, this note is a sidecar calculation file
+except for the exact structural content named in the correction header.
+NOT claimed: Stage-2 normal-form lift to full NS projection coefficients;
+Stage-3 interval pass; proof by decimal margin. Former audit flags based
+on decimal ordering or saturating comparison are superseded by the
+theory-currency reshape note. Remaining audit pressure for this file is
+only the exact structural content: invariant drain identity, un-parking
+identity, closed-form two-payer floor, locality exponents, and finite
+per-handoff Gronwall data.
