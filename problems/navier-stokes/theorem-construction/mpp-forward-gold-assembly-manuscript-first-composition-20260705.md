@@ -373,6 +373,12 @@ which is positive on the home branch \(p<q\) and keeps the slice inside
 \(w_{\rm eff}\) factor. TV downstream displays, symbolic comparisons,
 and chapter 10 remain open.
 
+Latest TV downstream re-gate: not cleared. The note names the correct
+three objects, but it still needs actual displayed inequalities:
+shallow/deep price functions on one capped-band domain with an
+\(\inf\max\) floor; a TV traversal inequality with the boundary
+integer; and a capped-band speed bound with the period/time quotient.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
