@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-factorwise-floor-supersedes-corner-20260705
-status: factorwise-floors-replace-corner-hunt-margin-claim-withdrawn-regate-requested
+status: codex-regated-factorwise-shape-accepted-factor-monotonicity-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / THE SYMBOLIC COMPARISONS / the floor without the corner
@@ -56,6 +56,32 @@ completion_truth: >-
 ---
 
 # The floor without the corner
+
+## Codex re-gate header
+
+Codex re-gate installed in
+`mpp-forward-gold-codex-factorwise-floor-regate-20260705.md`. The
+factorwise lower-bound strategy is accepted: a product of positive
+factors is bounded below by the product of their separate minima. The
+endpoint-only monotonicity table is not cleared. In particular
+\[
+F_2(\phi,w)=\frac{c(\phi)}{c(\phi+w)}
+\]
+has
+\[
+\partial_\phi\log F_2
+=kq\left[
+\frac{\sin\phi}{c(\phi)^2}
+-
+\frac{\sin(\phi+w)}{c(\phi+w)^2}
+\right],
+\]
+and the derivative of \(h(\beta)=\sin\beta/c(\beta)^2\) changes sign at
+\[
+\cos\beta=\frac{2kq}{k^2+q^2}.
+\]
+Thus separate factor minimization is still owed; the route is a valid
+strict reduction, not a clearance.
 
 ## 1. The move
 
