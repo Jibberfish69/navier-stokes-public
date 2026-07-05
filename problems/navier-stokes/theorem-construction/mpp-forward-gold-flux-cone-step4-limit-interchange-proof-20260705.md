@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-flux-cone-step4-limit-interchange-proof-20260705
-status: CORRECTED-closedness-mechanism-stands-content-gated-on-oriented-admission-gate-A
+status: updated-closedness-stands-gate-a-marginal-paid-general-weighted
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / lifting campaign / L1 flux cone / step (iv)
@@ -22,9 +22,13 @@ completion_truth: >-
   with no further analytic price. Gate A is the lifted no-recount law: every
   backscattered unit was previously admitted forward and may not be counted
   twice; formally, a bounded-variation-in-scale / channel-signed total-variation
-  statement controlled by admitted throughput. Open: prove Gate A, then apply
-  this note's closedness mechanism, then bound kappa-bar by the campaign theorem
-  2 impedance estimate. No L1/L1' closure is claimed here.
+  statement controlled by admitted throughput. Later update from
+  mpp-forward-gold-gate-a-three-residues-payment-20260705.md: Gate A is
+  proved-shaped on marginal bands, and in general is Reynolds-weighted by
+  M(l). Thus the closedness mechanism fires on marginal bands modulo the
+  ladder-locality exponent check; the general cone theorem carries both
+  kappa-bar and M into campaign theorem 2. No unweighted global L1/L1' closure
+  is claimed here.
 ---
 
 # Step (iv): the limit interchange, proved by closedness
@@ -47,8 +51,23 @@ statement (channel-signed total variation of the mollified flux controlled
 by admitted throughput), which is the repo's first-admission/no-recount
 discipline (WPT.4) appearing at PDE level, and equivalently the signed-
 height no-clipping principle: backscatter is debt, never deletion. Gate A
-is open. The exchange-line localization of finding (2) is demoted to the
-special case it covers.
+was open at this point. The exchange-line localization of finding (2) is
+demoted to the special case it covers.
+
+## Later update: Gate A three-residue payment
+
+The later note `mpp-forward-gold-gate-a-three-residues-payment-20260705.md`
+updates this status. Gate A is no longer wholly open in the same form:
+channel locality is paid modulo a ladder-scaling exponent check, the
+crossing-rate floor is paid on marginal bands, and the free marginal-scope
+claim is retracted. The corrected state is:
+
+  marginal bands: Gate A is proved-shaped, modulo the locality exponent check;
+  general bands: Gate A is Reynolds-weighted,
+  TV(Pi_l) <= C M(l) x local dissipation budget.
+
+So this closedness mechanism fires in the marginal case, and in the general
+case the cone theorem carries two tower readouts forward: kappa-bar and M.
 
 ## 1. The vacuity repair
 
@@ -92,13 +111,14 @@ free once the correct closed set membership is actually available.
 
 ## 4. Writing debts and the handoff
 
-Open Gate A (mechanism-grade): prove the lifted no-recount law, i.e. a
-bounded-variation-in-scale / channel-signed total-variation statement
-controlling backscatter by previously admitted forward throughput.
+Gate A status after the three-residue payment: proved-shaped on marginal bands,
+weighted in general. The remaining Gate A residue is the ladder-scaling
+locality exponent check; the unweighted global version is retracted.
 
 After Gate A, remaining debts for the closedness mechanism are exposition-
 grade: exact helicity-defect increment representation transcribed; CET
 commutator estimates for epsilon-uniformity; kappa-bar measurability. Then the
-next mechanism-grade handoff is bounding kappa-bar on the defect support - the
-tower enters the lifted theorem as the cone's opening, and bounding it is
-campaign theorem 2, the impedance estimate in storage currency.
+next mechanism-grade handoff is bounding kappa-bar and the Reynolds excess
+weight M on the defect support. The tower enters the lifted theorem as both the
+cone opening and the Gate A weight; controlling them is campaign theorem 2, the
+impedance estimate in storage currency.
