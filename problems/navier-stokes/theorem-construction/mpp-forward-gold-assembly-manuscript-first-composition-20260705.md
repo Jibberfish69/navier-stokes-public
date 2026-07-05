@@ -330,6 +330,16 @@ work is the financed-family lower-bound inequality and the sector
 citations that put the negative side on catalyst/waste and floor the
 remaining positive side.
 
+Latest sector-citation check: the sector signs and side orderings now
+floor the helicity-weighted sums: \(S_{\rm relay}=p+q-k\ge p\) and
+\(S_{\rm pred}=q+\mu-k\ge\mu\). The G-ratio gate is reduced to the
+exact financed-family shape inequality
+\[
+\inf_{\mathcal F_{\rm financed}}
+\frac{\mu}{p}\frac{R_{\rm relay}}{R_{\rm pred}}>0.
+\]
+The possible loss is angular thickness through the circumradius ratio.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
