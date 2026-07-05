@@ -578,6 +578,24 @@ The factor minima are still open: \(F_2\) needs this candidate list,
 and \(F_1\) still needs its own critical equation or a certified lower
 bound.
 
+Latest crude factorwise pass floor: without solving the \(F_1/F_2\)
+minimization, triangle inequality and the sector cap give
+\[
+F_1\ge\frac{\rho}{1+\rho},\qquad
+F_2\ge\rho,\qquad
+F_3\ge\sin(\phi_{\min}/2),
+\qquad
+\rho=\frac{q-k}{q}.
+\]
+Thus
+\[
+\gamma_{\rm home}\ge
+\frac{\rho^2}{1+\rho}\sin(\phi_{\min}/2).
+\]
+With a financed ordering floor \(\rho_{\min}\), this gives a crude
+sufficient pass-test floor \(\gamma_{\rm crude}\). It is not a verdict
+if it fails.
+
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
 distance to the Clay claim is exactly these open gates plus chapter 10,
