@@ -141,16 +141,23 @@ membership is the family of linear inequalities
 
   e >= 0,   Lambda e - h >= 0,   Lambda e + h >= 0,
 
-tested against nonnegative test functions supported in U_Lambda. Each
+tested against nonnegative test functions supported in the inner
+finite-readout set. Each
 inequality is a linear functional of the pair and passes to weak-star
 limits of measures (sections 3-4 supply the compactness). Hence the
 limit pair satisfies the same inequalities on the inner support. The
 outer-shell error tends to zero by T4, so membership holds on the good
 finite-readout level in measure sense. Let the good Lambda levels
-increase to infinity through the finite-readout exhaustion and use T4's
-zero level-set/shell property, not topological boundary nullity; by
-monotone intersection of the closed sets K(Lambda), the limit pair lies
-in K(kappa-bar) + E-line on { kappa-bar < infinity }. Under GA-w the identical argument runs with
+increase to infinity through the finite-readout exhaustion to cover
+{ kappa-bar < infinity }. To recover the exact varying opening rather
+than only a finite cutoff, partition each finite-readout range by good
+levels and use the upper endpoint on each strip
+{ lambda_{i-1} <= kappa-bar < lambda_i }; T4's zero level-set/shell
+property lets the strip cutoffs pass to the limit, and the endpoint
+step functions decrease to kappa-bar as the mesh tends to zero. Thus
+the limiting half-space inequalities are
+h <= kappa-bar e and -h <= kappa-bar e in measure sense, i.e. the limit
+pair lies in K(kappa-bar) + E-line on { kappa-bar < infinity }. Under GA-w the identical argument runs with
 the weighted total-variation control carried as a side inequality of
 the same linear type. QED, at referee shape.
 
