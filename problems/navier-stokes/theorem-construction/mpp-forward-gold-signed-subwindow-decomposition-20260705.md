@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-signed-subwindow-decomposition-20260705
-status: codex-target-4-paid-signed-decomposition-both-signs-favor-ledger-regate-requested
+status: codex-regated-signed-decomposition-correct-shape-target4-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex target 4 (extraction signs)
@@ -51,6 +51,19 @@ completion_truth: >-
 ---
 
 # Target 4: the signed subwindow decomposition
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-signed-subwindow-regate-20260705.md`.
+The sign decomposition is the correct repair shape, but target 4 is not
+cleared. The exact five-mode equations must define rho and the weighted
+gross extraction measure used by the root drift. Horn (b)'s net floor
+must imply enough positive-rho gross extraction in that same weighted
+measure. Negative-rho pieces must be matched to D2's swap-back channel
+with the same orientation and routed through no-recount, not merely
+named return. Fragmented forward subwindows must be compatible with the
+averaged-root and active-phase lemmas. Filed is not cleared.
 
 ## 1. The derivation and the decomposition
 
