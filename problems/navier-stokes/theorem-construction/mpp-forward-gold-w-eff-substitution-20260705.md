@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-w-eff-substitution-20260705
-status: w-eff-substituted-positivity-from-branch-ordering-regate-requested
+status: codex-regated-original-min-definition-not-cleared-half-min-correction-installed
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / the effective half-width substitution
@@ -46,9 +46,29 @@ completion_truth: >-
 
 # The effective half-width, substituted
 
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-w-eff-tv-actual-displays-regate-20260705.md`.
+The original definition in this note used the raw minimum without the
+strict-margin half factor. That does not clear the admissible-slice
+condition: equality at the hyperbolic endpoint gives \(c=q\), and
+equality at the angle floor can touch the boundary of the monotone arc.
+The corrected admissible width is
+\[
+w_{\rm eff}
+=
+\frac12\min\{w_{\rm packet},\phi_{\min},
+\arccos(k/(2q))-\phi_0\}.
+\]
+With this correction the sector-admissible slice is cleared exactly as
+in `mpp-forward-gold-codex-sector-admissible-slice-width-20260705.md`.
+The symbolic comparisons still inherit the explicit \(w_{\rm eff}\)
+factor. Filed is not cleared beyond this corrected width choice.
+
 ## 1. Definition (Codex's conditions, verbatim)
 
-  w_eff = min( w, phi_min, arccos(k/(2q)) - phi0 ).
+  w_eff = (1/2) min( w_packet, phi_min, arccos(k/(2q)) - phi0 ).
 
 The third condition is the slice admissibility inequality solved for
 the width: substituting w_eff makes the slice sector-admissible by
