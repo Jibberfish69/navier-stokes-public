@@ -147,8 +147,9 @@ compared - payment throttled, return exact, concentration unfundable;
 terminal Zeno refill = infinite record ladder on finite supply,
 excluded. Silver: the infinite-readout set passes the CM test or
 exits; exit = detachment = loss of the same-packet atlas, excluded by
-the schedulability of the annulus debt. The Clay statement is sealed
-in pass-or-exit form.
+the schedulability of the annulus debt, once the same-packet bridge and
+ledger recurrence gates are paid. This section is still conditional on
+the gate register below.
 
 ## 10. The quantitative stratum [OPEN - the certification program]
 
@@ -198,6 +199,16 @@ Open or strictly reduced by Codex:
   decomposition with no unpriced overlap.
 - Chapter 9 bridge identification: need same-packet row theorem.
 - Chapter 9 demand-supply crossing: need recurrence/ledger inequality.
+
+Later 6/7/8 re-gate state, applied after the first nine-gate audit:
+pair-index rebasing removes the dominant-channel tie-break by carrying
+strata, taxes, admission, and record work on (channel, window) pairs.
+Gate 6 still needs the formula-level signed envelope floor/no-zero
+proof and the detuning-to-return timing inequality. Gate 8 still needs
+flux-gate tail accounting and row-composition/Fubini on the same pair
+index. Reduced gate 7 still needs countable locally finite packet/window
+construction, channel-first defect decomposition for the weak-limit
+defect measure, and integer overlap/multiplicity bookkeeping.
 
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
