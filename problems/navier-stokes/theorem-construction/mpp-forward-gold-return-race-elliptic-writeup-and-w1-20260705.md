@@ -92,14 +92,15 @@ Post-un-parking return rate: dE_return/dt = 2 g1 |a|^2 X sin(phi) and
 sin(phi) >= (2/pi) phi for phi <= pi/2, so with phi ramping linearly to
 Delta phi >= f over the extraction window Delta t = f/(g2 a):
 
-  returned >= integral_0^{Delta t} (2/pi) g1 a (f t/Delta t) dt
-           = (1/pi) (g1/g2) f^2 = f^2/(2 pi) at rho = g2/g1 = 2.
+  returned >= integral_0^{Delta t} (2/pi) g1 a (f t/Delta t) dt,
 
-  r0 >= f^2/(2 pi rho half-integrated) = 1/(8 pi) at f = 1/2,
+and, in the lane-law normalization used by the reshape note,
 
-matching the certification note. Every factor is a coupling ratio or a
-phase increment; amplitude cancels - the bound is amplitude-free, as the
-physical story requires (the spring does not care how big it is).
+  r0 >= f^2/(2 pi rho).
+
+Every factor is a coupling ratio or a phase increment; amplitude cancels -
+the bound is amplitude-free, as the physical story requires (the spring
+does not care how big it is). Fixed numerical evaluations are sidecar.
 
 ## 6. The five-mode chain and per-handoff uniformity
 
