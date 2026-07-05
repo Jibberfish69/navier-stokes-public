@@ -26,6 +26,22 @@ completion_truth: >-
 
 # The mixed race, computed
 
+## 0. CORRECTION HEADER (2026-07-05, later same day, self-filed)
+
+The conservative-case delivery constant below ("~2 ln2 per octave,
+independent of N") was crude overclaim: certifying the constants
+(profile c_2 >= 1/2, moved fraction alpha^2 >= 1/2, angular sin^2 slice)
+shows the short-waste-lifetime branch delivers ~25x less than claimed in
+this note's Section 4. The VERDICT of Section 5 survives, but by a
+different mechanism: the two-payer dichotomy. Short waste lifetime forces
+marginal local Reynolds, where the VISCOUS payer collects O(1) per step
+over the slowed relay; long lifetime keeps the pair alive, where the
+reverse-spring tax collects >= 0.43 per step certified. Either way every
+chop number is sub-financing, with the corner N = 1 as the certified
+strategy supremum. See the certified-constants payment note (same date)
+for the corrected accounting. The margin-factor-4 claim below should not
+be quoted; the certified margins are stated there instead.
+
 ## 1. Ledger of the race
 
 Fine chop: N catalyst-flipped steps per octave, progress delta = ln2/N per
