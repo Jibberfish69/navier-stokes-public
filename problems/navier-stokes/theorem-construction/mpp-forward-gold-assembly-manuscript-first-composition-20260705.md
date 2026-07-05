@@ -356,8 +356,12 @@ Latest home-center G-ratio re-gate: the center identity clears only for
 the T7 common helical \(G\)-scalar. At the home center \(\mu=p\), the
 helicity/sign slots match, \(S_{\rm pred}=S_{\rm relay}\), and
 \(R_{\rm pred}=R_{\rm relay}\), so \(|G_{\rm pred}|/|G_{\rm relay}|=1\).
-The slice-width brackets, TV downstream displays, symbolic comparisons,
-and chapter 10 remain open.
+Latest f1-f2 re-gate: the slice-width brackets are not cleared. The
+file gives the intended law-of-cosines/area/circumradius/slice-integral
+argument in prose, but still needs the actual interval displays in one
+perturbation variable before the home-center identity becomes a slice
+floor. TV downstream displays, symbolic comparisons, and chapter 10
+remain open.
 
 Open program: section 10. Final pass: inline chapter notes at full
 length; thread certified constants; re-gate the composed whole. The
