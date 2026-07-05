@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-margin-split-formulas-20260705
-status: margin-split-four-formulas-displayed-regate-requested
+status: codex-regated-margin-split-formulas-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / margin-split formulas (four displays)
@@ -50,6 +50,16 @@ completion_truth: >-
 ---
 
 # The four margin-split formulas
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-display-queue-regate-20260705.md`. The band
+split remains a useful shape, but the formulas are not cleared. The
+note still owes the discriminant/root monotonicity calculation, the
+phase-invariant floor supporting the left-side lower bound, and a
+positive no-gap floor at the split; continuity alone is not a positive
+price. Filed is not cleared.
 
 ## F-1. Gap: exponentially decreasing
 
