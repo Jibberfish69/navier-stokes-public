@@ -81,5 +81,5 @@ debt at the elliptic-write-up level. Constants of steps 3-4: join list
 (d). Weak-solution interface: ODE arguments run on mollified (smooth)
 fields; passage to the defect uses the established closedness mechanism.
 With this note, list item (a) is proved-shaped; the campaign's remaining
-content is (c) write-ups, (d) constants, W1, and the strike audit at
-Codex.
+content is (c) write-ups, (d) constants, and W1. The Codex strike audit is
+already filed and no longer a live residue.
