@@ -99,13 +99,39 @@ classical regularity import (ESS) yields gold-route smoothness. The
 import is a cited classical theorem consumed at one point, wearing no
 campaign vocabulary; everything before it is the owner's machinery.
 
-## 5. S3 - T*-plus schedule (story + spec; flag F2 stands)
+## 5. S3 - T*-plus schedule (drafted against the mechanism-reentry
+surface; residual flag F2-prime)
 
-Dead waters: simultaneous rest; the ledger extends past T*; debt
-stored in neighbors' higher rungs is payable across the infinite
-horizon. DRAFTING FLAG: the repo's T*-plus surfaces must be re-read
-before this section is prose; F2 remains open and is the next window's
-first read.
+Assembled against the participation-debt mechanism-reentry note
+(2026-06-10), now re-read. The schedule's legal frame: the
+participation law holds at every tower depth (PDM.2: the material
+derivative of the depth-k field is paid by the depth-(k+1) pressure
+gradient plus viscosity) - the packet has no private economy at any
+rung, up to and INCLUDING the terminal cross-section. Every alleged
+singular packet must satisfy THREE CLOCKS AT ONCE: concentration
+(become singular fast enough), payment (receive lawful transfer from
+the field fast enough), and dissipation/return (avoid the same law
+returning or dissipating the motion on the same scale). The campaign
+supplies the clock comparison the 06-10 note demanded: the payment
+clock is throttled by the per-octave floor (chapter 8), and the return
+clock is the spring made exact (chapter 5) - so the concentration
+clock cannot be financed to completion; the demanded work diverges
+(section 3) while the schedulable supply is finite. The sharp
+remaining branch named there - the terminal Zeno source-refill
+(nonnegative source marginals on shrinking terminal windows with mass
+bounded below) - is consumed by the record bridge: each refill window
+that raises the record is an upcrossing demanding work at least lambda
+through the SAME taxed cascade (rows 1-3 travel to the terminal
+cross-section because PDM.2 holds there); Zeno refill is an infinite
+record ladder on a finite supply - excluded by section 3's crossing.
+Past T*, the ledger extends: the annulus stores the debt in neighbors'
+higher rungs, payable on the infinite horizon - dead waters,
+simultaneous rest, no demanded instantaneous default. RESIDUAL FLAG
+F2-prime (narrower than F2): the June-22 crossscale-material-atlas
+terminal-gauge note should be verified for the exact atlas form of the
+annulus schedule before the manuscript composition pass; the schedule
+as drafted uses only the mechanism-reentry surface and the owner's
+verified theory section of the anchor.
 
 ## 6. S4 - silver pass-or-exit
 
