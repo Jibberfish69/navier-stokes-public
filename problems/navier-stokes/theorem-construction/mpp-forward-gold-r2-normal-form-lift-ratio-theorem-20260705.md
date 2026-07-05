@@ -96,10 +96,14 @@ helicities (s_k, s_p, s_q), the exact Galerkin equations are
   da_k*/dt = G (s_p p - s_q q) a_p a_q, and cyclic,
 
 where G is the scalar triple product of the three polarization vectors -
-CYCLIC-INVARIANT, hence common to all three equations of the triad, and
-depending only on the triangle shape and helicity assignment. This is
-the classical helical-triad identity: the exact NS coefficients ARE the
-normal form's difference factors times one shared scalar.
+common to all three equations of the triad after a fixed cyclic
+orientation and triad gauge, and depending only on the triangle shape and
+helicity assignment. The raw triple product is phase-convention dependent
+and may be complex; the triad gauge removes that phase for the local
+normal form, and growth/sign products carry the positive modulus factor
+|G|^2. This is the classical helical-triad identity in the form the
+campaign needs: the exact NS coefficients are the normal form's
+difference factors times one shared scalar.
 
 CONSEQUENCE (the ratio theorem). Everything the campaign extracts from a
 single triad is a ratio or a sign of that triad's couplings:
@@ -108,11 +112,12 @@ single triad is a ratio or a sign of that triad's couplings:
   The ceilings, the centered exact one-half, the drain shares, the
   invariant identity Delta E_q = -((1 + mu/q)/2) Delta E_mu: verbatim.
 - Sector signs: the instability classification is the sign of a product
-  of two SAME-TRIAD couplings; G enters squared, positive: verbatim.
+  of two SAME-TRIAD couplings after the triad gauge; the geometric factor
+  enters as |G|^2, positive: verbatim.
 - Threshold-eigenvector fractions (the corner's one-third, the waste
   ratio): ratios of same-triad couplings: verbatim.
 - Closed-form dynamics (sn-squared solution, turning phase, un-parking
-  derivative, parking-cap logarithm): G rescales the triad's TIME only.
+  derivative, parking-cap logarithm): |G| rescales the triad's TIME only.
   A time rescaling changes no fraction, no share, no phase at turning,
   no logarithm. Verbatim.
 
@@ -133,21 +138,22 @@ degenerate (collinear) boundary. On any compact family of nondegenerate
 shapes, G_pred/G_relay is bounded above and below by strictly positive
 constants - compactness positivity, values unnamed, lane-law currency.
 
-(iii) NO-COMMON-ZERO LEMMA. The enemy cannot push the comparison to the
-degenerate fringe: (a) if the RELAY triangle degenerates, G_relay -> 0,
-the relay slows unboundedly, and the predator clock theorem's exponent
-diverges - degeneracy of the enemy's own channel is self-taxing, the
-same punishment as chopping; (b) if the enemy instead tries to degrade
-the PREDATOR's triangles, it fails structurally: whenever the pair
-(waste, child) exists, the hyperbolic subcone contains partners of
-bounded triangle shape (the upscale partners around half the child's
-wavenumber), whose G is bounded below on that compact shape family.
-There is no configuration in which the relay factor is alive and every
-predator factor is dead. The fringe is closed.
+(iii) NO-COMMON-ZERO / PREDATOR-CONE POPULATION GATE. The relay side is
+structural: if the RELAY triangle degenerates, G_relay -> 0, the relay
+slows unboundedly, and the predator clock theorem's exponent diverges -
+degeneracy of the enemy's own channel is self-taxing, the same punishment
+as chopping. The predator side is still a gate: the proof must show that
+the actual packet/window decomposition populates bounded-shape hyperbolic
+predator triangles whenever the waste-child pair exists. It is not enough
+that such partners exist in an abstract subcone. If the packet can keep
+the relevant reverse pairs near a collinear boundary, the corresponding
+G-ratio lower floor belongs to the quantitative stratum. There is no
+downstream license to cite this fringe as closed until that population
+lemma or floor is supplied.
 
 Likewise rho: a ratio of two adjacent-rung G's times an exact
-wavenumber factor - bounded on the ladder's compact shape family; the
-return floor's closed form survives with rho so bounded.
+wavenumber factor. The return floor's closed form survives symbolically;
+the boundedness of rho is part of the same R2b cone-population/floor gate.
 
 ## 4. R2c: the boundary of R2 (scope, stated to prevent creep)
 
@@ -161,12 +167,13 @@ rather than an assumption.
 
 ## 5. Verdict and gate
 
-R2 is paid at structural level: every fraction, share, sign, and
-identity the campaign uses is either G-free (within-triad, verbatim) or
-G-ratio-typed with compactness positivity and a closed degenerate
-fringe (cross-triad). Goal item 1 is discharged at theory level. GATE:
-per goal item 6, this note goes to Codex before anything downstream
-leans on it; requested pressure points: the cyclic-invariance of G
-under the campaign's phase conventions, the no-common-zero lemma's
-case (b), and whether any campaign object secretly compares couplings
-across NON-adjacent triads (which would need its own G-ratio argument).
+Codex audit verdict: R2a stands after the phase-gauge correction. R2b's
+exact scaling spine stands, and the relay-degeneracy horn is self-taxing.
+The predator-side no-common-zero/corner-population horn remains open until
+proved on the actual packet/window object or placed explicitly in chapter
+10 as a certified G-ratio floor. R2c stands as scope control. Goal item 1
+is therefore narrowed to one named R2b gate; it is not fully discharged.
+Remaining pressure point: check that no campaign object secretly compares
+couplings across non-adjacent triads. The inspected assembly skeleton uses
+adjacent/local handoffs only, but downstream manuscript drafting must keep
+that guard visible.
