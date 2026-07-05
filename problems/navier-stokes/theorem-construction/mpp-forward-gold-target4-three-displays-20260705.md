@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target4-three-displays-20260705
-status: target4-displays-written-same-monomial-identity-endpoint-table-long-window-floor-regate-requested
+status: codex-regated-target4-displays-right-shape-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / target-4 display obligations
@@ -57,6 +57,18 @@ completion_truth: >-
 ---
 
 # Target 4: the three displays
+
+## Codex re-gate correction, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-display-queue-regate-20260705.md`. The
+same-monomial identity, endpoint table, and amplitude-split floor are
+the right objects, but target 4 is not cleared. The ray equation must
+show the same mass after coefficient normalization and invariant
+weights, the endpoint table still depends on the positive
+root-sensitivity lower bound, and the theta/long-window accounting must
+prove that the low-amplitude charge leaves the required weighted gross.
+Filed is not cleared.
 
 ## D-I. The same-monomial identity
 
