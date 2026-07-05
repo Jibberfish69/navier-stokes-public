@@ -41,6 +41,26 @@ completion_truth: >-
 
 # Certified constants: list (d) paid at derivation level
 
+## 0. CORRECTION HEADER (2026-07-05, later same day - lane law applied)
+
+Owner directive (same date): theory only; no number calculations, no
+loose approximations, no running numbers. This note is SPLIT by that law.
+STANDS (exact currency): the invariant drain identity 1(a); the
+un-parking identity and parking-cap logarithm (section 3); r0 >=
+f^2/(2 pi rho) with exact inequalities; c1 >= pi (section 4); the
+locality exponents (section 5); finiteness of the Gronwall data
+(section 6); the closed-form floor c0 (section 7). DEMOTED to sidecar
+evidence, not proof currency: the sampled triangle factors and evaluated
+elliptic integrals in 1(b), the exponential-margin decimals in 1(c), the
+per-step decimal taxes and the corner-supremum ordering by decimal
+comparison in section 2, and every percent margin in this note. The
+corner and the chop-strategy space are closed STRUCTURALLY in the
+theory-currency reshape note (same date): exact 1/3 < 1/2 at the corner
+(burden on R2), exactly-1/2-plus-positivity at two steps, the predator
+clock theorem in the fine-chop limit, with the remaining order-one
+prefactor comparison named as the quantitative stratum of the
+certification family. Do not quote this note's decimals anywhere.
+
 Conventions. Waleffe helical triad normal form; couplings carry the factor
 (s_j kappa_j - s_i kappa_i) times the triangle geometric factor whose
 modulus is sin(theta) of the triangle angle; Manley-Rowe bookkeeping is the
