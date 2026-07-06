@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-k5-mean-detuning-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
 completion_truth: >-
   Exact obstruction inside the autonomous pure-edge normal form. The K4
   seed-independent cap worked because the growing-band amplitude obeyed a linear
@@ -27,8 +28,10 @@ completion_truth: >-
   the pure edge channel is worse: it does not self-exit. Thus pure-mode K5 cannot
   close the pair kill integral by nonlinear self-saturation alone. Any rescue
   must come from an external lifetime/seed floor, viscous or core damping,
-  custody/re-assembly payment, or sideband/crowd coupling. No retention constant
-  or MPP closure is claimed.
+  custody/re-assembly payment, or sideband/crowd coupling. Same-day follow-up:
+  viscosity supplies such an external clock with a cap proportional to local
+  Reynolds, closing the log on the unit/marginal family but not uniformly on the
+  super-marginal branch. No retention constant or MPP closure is claimed.
 ---
 
 # K5 log-seed obstruction for the pure neutral normal form
@@ -189,7 +192,8 @@ unless another mechanism supplies one of:
 5. sideband/crowd coupling that destroys the pure-mode assumption.
 
 This decides the pure-mode K5 self-saturation route: it cannot close the pair
-kill integral by itself.
+kill integral by itself. The viscous Reynolds split note then decides item 3:
+viscosity closes the log only with a Reynolds-weighted cap.
 
 ## 6. Four-sentence result
 
@@ -198,4 +202,5 @@ The neutral edge has only nonlinear self-exit, so its clock is slower than its
 production at small seed. Even with favorable sign, the neutral-phase stretch
 contains \(\log(A_{\rm exit}/A_0)\), so the cap is not seed-independent. K5 now
 needs an external seed floor, lifetime, custody payment, or sideband/crowd
-mechanism; pure-mode self-saturation is not enough.
+mechanism; pure-mode self-saturation is not enough. Viscosity supplies the
+external clock on the marginal family and leaves the high-Re branch weighted.
