@@ -1,6 +1,13 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706
 status: exact-output-maximal-sideband-shield-necessary-condition
+later_followup: >-
+  Shielded output-maximal duplicates are nonempty: the minimal coplanar
+  two-pair witness in
+  mpp-forward-gold-wkb-beltrami-shielded-two-pair-same-side-leak-20260706.md
+  passes the off-diagonal shield test but leaks unique dangerous same-side
+  sidebands. Thus the shield criterion is a necessary condition, not a proof
+  that shielded graphs are impossible.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -12,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-vector-moment-minimal-gadget-sideband-leak-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shielded-two-pair-same-side-leak-20260706.md
 completion_truth: >-
   Exact finite-graph necessary condition only. In a finite same-helicity
   Beltrami Fourier cloud, choose an active dangerous cross-shell pair p,q with
@@ -154,6 +162,13 @@ be made of output-maximal resonant parallelograms whose larger off-diagonal
 sidebands are all same-shell or collinear, and then the same condition must
 hold recursively at the next exposed dangerous outputs.
 
+The follow-up shielded two-pair check shows this open branch is nonempty. A
+coplanar two-pair duplicate can make the larger off-diagonal sideband
+same-shell harmless. That minimal shielded duplicate still fails neutrality
+because the same-side outputs are unique dangerous sidebands. Hence this note
+should be used only as a necessary shield criterion; the finite branch now
+requires full sideband-graph closure, not merely off-diagonal shielding.
+
 ## 6. Four-sentence result
 
 Choose a dangerous pair \(p,q\) with maximal output norm \(|p+q|\) in a finite
@@ -167,6 +182,10 @@ parallelogram by degenerating its norm-increasing sidebands.
 ## 7. State
 
 This kills the unshielded output-maximal finite resonant graph branch.
+
+The shielded branch is real. The minimal shielded two-pair duplicate is killed
+by same-side sidebands, but no general shielded finite graph exclusion is
+proved here.
 
 It proves no exclusion of shielded output-maximal graphs, no infinite/dense WKB
 bath theorem, no finite-energy localization theorem, no same-fluid custody
