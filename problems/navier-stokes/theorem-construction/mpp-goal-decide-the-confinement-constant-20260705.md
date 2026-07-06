@@ -43,18 +43,19 @@ skew sector production-dead, eviction pumps into it. Sheet cell
 dominated (KH clock). Self-cell reduced to pair (LIA length
     conservation). Regular-symmetry classes imprisoned. Kill integral:
     Crow interior cap reduced; direct K5 pure-mode growing-band feed
-    coefficient is zero by wavenumber selection; the remaining edge
-    channel is mean detuning or sideband/crowd coupling. Open: mean
-    detuning, crowd cell, custody, composition.
+    coefficient is zero by wavenumber selection; the remaining pure edge
+    channel is the resonant normal-form sign Re Lambda_edge. Open:
+    Lambda_edge sign, sideband/crowd coupling, custody, composition.
 
 ## Work order (each unit: output + kill condition)
 
-1. KILL INTEGRAL / K5 MEAN DETUNING. Integrated stretch per pair
+1. KILL INTEGRAL / K5 EDGE NORMAL FORM. Integrated stretch per pair
    encounter under the exact kernel + Crow linear theory. The direct
-   pure-mode second-order feed is obstructed; compute the mean-detuning
-   coefficient at the band edge. Kill condition: a neutral producing
-   mode whose mean detuning does not move it into the unstable side =>
-   per-encounter tax dead on the edge channel.
+   pure-mode second-order feed is obstructed; compute the resonant
+   edge normal-form coefficient Lambda_edge. Kill condition:
+   Re Lambda_edge <= 0 or symmetry-zero on the edge family => a neutral
+   producing mode survives this K5 channel and the per-encounter tax is
+   dead on the pure edge channel.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
