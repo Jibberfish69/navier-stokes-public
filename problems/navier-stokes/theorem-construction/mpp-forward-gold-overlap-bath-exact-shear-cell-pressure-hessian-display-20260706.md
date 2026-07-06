@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -41,8 +42,8 @@ completion_truth: >-
   the first nonconstant producer term creates cross Hessian
   s(D/R)sqrt(|K|), which stays inside the q=4/5 row when
   D/R<=beta^(2/5), leaving the viscous subcell-room condition. What remains is
-  subcell/high-Re admissibility, record-ladder allocation, faster-than-producer
-  forced tracking, or construction/exclusion.
+  subcell/high-Re admissibility, record-ladder allocation, supercritical
+  fast-motion forcing, or construction/exclusion.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -289,8 +290,8 @@ The remaining burdens are:
   collar estimates already priced, including the subcell/high-Re condition for
   producer curvature;
 - same-packet allocation of the pressure service into record-ladder currency;
-- faster-than-producer forced tracking, if the exact matrix demands
-  \(|\dot K|\gg s|K|\).
+- supercritical fast-motion forcing, if the exact matrix demands
+  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\).
 
 ## 7. Four-sentence result
 
@@ -307,7 +308,7 @@ The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell check, the exact-matrix branch is now narrowed to
-subcell/high-Re admissibility, allocation, faster-than-producer forcing, or
+subcell/high-Re admissibility, allocation, supercritical fast motion, or
 construction, not the mean-zero pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, or generic producer curvature.
