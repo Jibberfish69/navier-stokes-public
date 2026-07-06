@@ -71,6 +71,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     indefinitely, or exhibit the funding mechanism, through duration,
     curve-profile persistence, high-Re edge/crowd/custody economy, and
     octave composition.
+    Same-day K3 toll funding reduction filed: if a fixed fraction of
+    \(\mathrm{TV}_{\rm evict}\) is transcribed as a no-recount
+    same-packet Gate-8 tax submeasure with finite budget \(B\), then
+    factor-two events are bounded by \(3B/(\lambda\log2)\). This is
+    not starvation; it isolates the alternatives as same-packet
+    allocation, custody/bath funding, unallocated TV, or crowd
+    interference.
     CROWD STATE (same date, evening): dilute cell DECIDED for the floor
     (monopole vanishing => quartic far-strain decay, adversarial-proof,
     N-independent). Dense same-extent scaffolds strictly supercritical
@@ -123,6 +130,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    starvation by bounding/consuming that TV toll through lifetime
    dynamics, profile persistence, and high-Re/crowd/custody budgets, or
    exhibit a funding mechanism.
+   Same-day toll funding reduction: once a fixed fraction of eviction
+   TV is accepted as no-recount same-packet Gate-8 tax with finite
+   budget, fixed tolls give the counting bound
+   \(N\le3B/(\lambda\log2)\). The open burden is exactly the
+   TV-to-throughput transcription or a funding/crowd evasion.
    Kill condition: no high-Re return-race/custody/sideband-crowd payment
    and no curve-leakage payment => the pure neutral/curvature channel is
    not uniformly capped.
