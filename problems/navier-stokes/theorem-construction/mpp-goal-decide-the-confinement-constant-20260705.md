@@ -181,7 +181,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     of size \(G\) on scale \(d\) at energy \(O(G^2d^5)\); with
     \(G=s\beta^{4/5}\), this is exactly the cheap
     \(E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}\) ratio. The overlap branch
-    is therefore dynamic: exact matrix, tracking, allocation, or a
+    is therefore dynamic: exact matrix, tracking, Gate-8 allocation, or a
     summability-valid construction.
     Follow-up local-affine dynamic obstruction filed: the local equations also
     cannot kill the overlap branch. For every smooth symmetric trace-free
@@ -189,7 +189,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Navier-Stokes packet after choosing the pressure Hessian
     \(-(\dot A+A^2)\). Thus a local material-jet tracking tax is not available;
     the dynamic branch means global same-fluid matching, pressure/Hodge/collar
-    coupling, same-packet allocation, or a summability-valid construction.
+    coupling, Gate-8 allocation/compensator, or a summability-valid
+    construction.
     Follow-up time-dependent collar scaling obstruction filed: generic
     cutoff/Hodge retuning also stays cheap. For a localized affine packet at
     support scale \(D\) and strain size \(G\), energy is \(G^2D^5\), retuning
@@ -197,7 +198,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     collar work is \(\nu G^2D^3\). With \(G=s\beta^{4/5}\) and producer-clock
     retuning, the per-e-fold collar cost remains \(\beta^{8/5}E_{\rm prod}\).
     The overlap branch now requires exact unforced evolution, nonlocal
-    pressure/Hodge sign structure, same-packet allocation, or construction.
+    pressure/Hodge sign structure, Gate-8 allocation/compensator, or
+    construction.
     Follow-up pressure-source scaling obstruction filed: the pressure Hessian
     retuning source is more expensive than the collar but still not order one.
     A traceless Hessian of size \(H\) can be supplied by mean-zero
@@ -235,7 +237,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(\sum_m|\dot c_m|\lesssim|\dot K|\), one producer clock costs
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
     existing pressure row, not an order-one floor. The live pressure branch is
-    now producer curvature, same-packet allocation,
+    now producer curvature, Gate-8 allocation/compensator,
     supercritical fast-motion forcing, or construction/exclusion.
     Follow-up producer-curvature subscale obstruction filed: if the producer
     gradient varies on radius \(R\), a pressure cell of scale \(D\) creates
