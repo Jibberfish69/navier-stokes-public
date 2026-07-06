@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
 completion_truth: >-
   Exact characterization of the pressure-law null branch. For a smooth compactly
   supported symmetric Reynolds stress R on R^3, the condition
@@ -31,11 +32,13 @@ completion_truth: >-
   trace-free pressure shape alone cannot close the pressure row. The
   covariance-ballast follow-up adds the actual Reynolds-defect constraint:
   nonzero trace-free null stresses are not positive covariance defects unless
-  they are padded by positive trace. This proves no theorem forcing actual
-  Navier-Stokes WKB Reynolds defects into the null class, no legal carriage
-  theorem for nonzero null stresses through the whole profile, no profile
-  admission theorem, no WKB construction/exclusion theorem, no confinement
-  constant, and no MPP closure.
+  they are padded by positive trace. The ballast-energy follow-up identifies
+  that trace as unresolved kinetic energy, \(\mu_R=(1/2)\operatorname{tr}R\),
+  not pressure deletion. This proves no theorem forcing actual Navier-Stokes
+  WKB Reynolds defects into the null class, no legal carriage theorem for
+  nonzero null stresses through the whole profile, no profile admission
+  theorem, no WKB construction/exclusion theorem, no confinement constant, and
+  no MPP closure.
 ---
 
 # WKB Reynolds null stresses: exact pressure-law characterization
@@ -216,6 +219,12 @@ covariance positivity gives
   \qquad
   \tau\ge\sqrt{3\over2}|A|_F .
 \]
+Taking traces in the weak quadratic limit also gives
+\[
+  \mu_R={1\over2}\operatorname{tr}R .
+\]
+The pressure gauge can absorb the force, but it cannot erase this nonnegative
+unresolved kinetic energy.
 
 ## 6. Reduced burden
 
@@ -231,7 +240,7 @@ with the following exact split:
 R = 0
 or R is a PSD covariance measure in the null class R = qI + S with div S = 0,
    with pressure service adjusted by q and positive trace ballast paid for
-   nonzero trace-free anisotropy
+   nonzero trace-free anisotropy as mu_R=(1/2)tr R
 or a signed/non-PSD stress is carried by an explicit legal certificate outside
    the rung-zero Reynolds covariance claim
 or actual-pressure-law / covariance-ancestry / tower certificate failure.
@@ -251,7 +260,7 @@ Leray-null stress class:
 
 What remains unproved is that actual Navier-Stokes WKB terminal packets either
 produce only this PSD null class, legally carry a nonzero PSD null stress and
-its trace ballast through the other rows, or fall into the typed
+its trace-energy ballast through the other rows, or fall into the typed
 Pack/Part/Field row failures.
 
 ## 7. Four-sentence result
@@ -267,7 +276,8 @@ to the velocity equation but remains a tensor defect for the profile ledger.
 This null class contains nonzero compactly supported trace-free anisotropic
 examples \(R_\phi=\nabla^2\phi-(\Delta\phi)I/3\), so anisotropy alone cannot
 close the pressure row. Actual Reynolds origin adds positive covariance
-ballast for any nonzero trace-free anisotropic null component.
+ballast, hence positive unresolved kinetic energy, for any nonzero trace-free
+anisotropic null component.
 
 ## 8. State
 
@@ -277,6 +287,6 @@ smooth Reynolds stresses and the trace-free Hessian null-stress example.
 The covariance-ballast follow-up proves the separate positivity price for
 actual Reynolds defects. This note itself proves no theorem forcing actual
 Navier-Stokes WKB Reynolds defects into the PSD null class, no legal carriage
-theorem for nonzero PSD null stresses and their ballast through the whole
-profile, no WKB profile admission theorem, no WKB construction/exclusion
-theorem, no confinement constant, and no MPP closure.
+theorem for nonzero PSD null stresses and their trace-energy ballast through
+the whole profile, no WKB profile admission theorem, no WKB
+construction/exclusion theorem, no confinement constant, and no MPP closure.
