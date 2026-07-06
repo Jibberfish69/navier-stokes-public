@@ -138,6 +138,22 @@ F1 -> (F2 || F3) -> F4 -> F5.
   UniformCenteredPacketTightness plus the financed-source-floor scope
   guard; the phase-sweep v1 theorem remains the secondary route. F1
   actual-NS population is reduced, not cleared.
+  w1 ANSWERED TWO WAYS (Fable, pending gate,
+  f1-tightness-by-dichotomy-fallback-constant-row): (R1) TIGHTNESS
+  BY DICHOTOMY - the W1 packet decomposition already owns a haze
+  account: DEFINE the centered packet = mass within kappa_frame
+  correlation volumes, re-classify the far tail as DIFFUSE
+  REMAINDER (priced: payer 1, bathtub principle); then s(kappa) = 0
+  beyond kappa_frame and UniformCenteredPacketTightness holds BY
+  CONSTRUCTION. Price at installed Section-7 homes, displays owed:
+  x1 payer-1 pricing of the tail; x2 the tail's trilinear forcing
+  on the centered monomial via the locality constants (C_loc <= 9)
+  - the spatial analogue of the bad-cone capacity, same margin
+  bookkeeping. (R2) FALLBACK CONSTANT ROW if the definition is
+  refused: spill pins at 1/8 and the row hardens to the fixed
+  comparison G_e/|d_pkg| > 2 C_tri caps sqrt(1/4 + small) -
+  F4-quarantined. Graceful degradation: dichotomy -> constant row
+  -> typed bad-cone branch. Every ending named.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
@@ -844,20 +860,5 @@ notes.
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
   debt routing, or an active-clock reformulation where negative
-  orientation is already removed.  w1 ANSWERED TWO WAYS (Fable, pending gate,
-  f1-tightness-by-dichotomy-fallback-constant-row): (R1) TIGHTNESS
-  BY DICHOTOMY - the W1 packet decomposition already owns a haze
-  account: DEFINE the centered packet = mass within kappa_frame
-  correlation volumes, re-classify the far tail as DIFFUSE
-  REMAINDER (priced: payer 1, bathtub principle); then s(kappa) = 0
-  beyond kappa_frame and UniformCenteredPacketTightness holds BY
-  CONSTRUCTION. Price at installed Section-7 homes, displays owed:
-  x1 payer-1 pricing of the tail; x2 the tail's trilinear forcing
-  on the centered monomial via the locality constants (C_loc <= 9)
-  - the spatial analogue of the bad-cone capacity, same margin
-  bookkeeping. (R2) FALLBACK CONSTANT ROW if the definition is
-  refused: spill pins at 1/8 and the row hardens to the fixed
-  comparison G_e/|d_pkg| > 2 C_tri caps sqrt(1/4 + small) -
-  F4-quarantined. Graceful degradation: dichotomy -> constant row
-  -> typed bad-cone branch. Every ending named.
+  orientation is already removed.
 
