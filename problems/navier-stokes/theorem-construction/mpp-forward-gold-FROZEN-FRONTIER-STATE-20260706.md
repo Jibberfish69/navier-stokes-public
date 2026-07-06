@@ -149,8 +149,12 @@ F1 -> (F2 || F3) -> F4 -> F5.
   diffuse remainder by the W1 merger rule. Therefore x1 and local-tail
   routing reduce to the Gate-7 measurable window-decomposition and
   overlap theorem; the separated tail and fallback constant row are
-  Chapter-10 margin/comparison items. F1 actual-NS population remains
-  reduced, not cleared.
+  Chapter-10 margin/comparison items. Codex Gate-7 follow-up reduces
+  the enumeration/readout part to the deterministic half-open
+  channel-cell frame already built in the BV note; the remaining Gate-7
+  load is finite-readout reconstruction, locality/mollifier tail
+  charging, and no-dropped-mass/no-double-tax overlap accounting. F1
+  actual-NS population remains reduced, not cleared.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
