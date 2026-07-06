@@ -356,6 +356,59 @@ codex-bottom-root-horn-cm-route-audit,
   codex-top-bracket-sharp-form-bottom-floor-gap-reduction,
   codex-product-row-monotone-envelope-after-ge.
 
+**THE CONSOLIDATED MAP (2026-07-06, Opus consolidation + Fable
+acceptance/verification — pending Codex gates).**
+- **Part I footing:** Vieta top-endpoint floor VERIFIED proof-grade;
+  g3 DISCHARGED (gap_0 = the period-capped separatrix gap; the
+  top-coalescence horn m -> 1 excluded by the same cap); Door 2
+  VOID (both sides r_-independent); the extraction laws
+  (dI_1 = dI_2 = -rho_ext X, dG_0^2 = -rho_ext G_0^2) are FORCED by
+  Manley-Rowe within the relay model (shared action in both
+  invariants, spent once) — W-I folds into the faithfulness
+  meta-gap W-0. NAME COLLISION FLAGGED: rho_ext (Gate-6 extraction
+  drain rate) is NOT the seed row's coupling ratio
+  rho = |g_2|/(2|g_1|).
+- **Part II (pincer) CORRECTED (Fable error, same-day, verified
+  exactly):** q^K <= 1/4 is WRONG (a ceiling entrant coasts through
+  recruiting nothing once E_max > 4 e_marg); corrected block
+  K = ceil(log(2E_max/e_marg)/log(1/q)) forces S >= e_marg/2 per
+  surviving block; conclusion survives with
+  K = O(log(E_max/e_marg)); blowup-threatening histories need
+  N > 111K. E_max named, quarantined to Chapter 10.
+- **h1 DISCHARGED:** the G6a home's <X>_fr is the one-period frozen
+  average = the classical sn^2 average r_- + A sigma(m),
+  sigma = (1 - E/K)/m >= 1/2; C2 applies at the home verbatim.
+- **TOP-BRACKET SHARP FORM consumed + ANSWERED (Fable, pending
+  gate, dwell-run-split-monotone-casimir-swing-beats-six-drifts):**
+  the high-bottom/small-gap family is a PREFIX, not a band
+  condition — the Casimir only decays on financed windows
+  (exponentially at sheet rate G_e/X_max), so the split
+  DWELL = {G_0^2 > G_thr}, RUN = {G_0^2 <= G_thr},
+  G_thr = (g_0/2)A_0(A_0+g_0), is monotone: DWELL is a bounded
+  prefix (T_dwell <= (X_max/G_e) log(X_max^3/G_thr), an
+  endpoint/block charge in the length row), RUN is
+  forward-invariant with s <= g/2, and on RUN the EXACT sharp
+  bracket is positive whenever A_0 > 6 d_R4^+ — THE SWING BEATS SIX
+  DRIFTS, using only sigma >= 1/2. Consumer amendment requested
+  (c_W^top spent on RUN only; T_dwell to the length row; rent
+  non-double-charge to confirm).
+- **W-II DECOMPOSED (Fable, pending gate,
+  partii-correction-acceptance-wii-decomposition-pricing-
+  completeness):** bounded readout => the pincer's recursion with
+  F = 0 => geometric decay (proof-grade given c_0 > 0); + THE
+  PRICING-COMPLETENESS INEQUALITY D_j <= C_pc E_j (scale-j shell
+  dissipation dominated by financed readout — homed at the F3
+  interface, which closed on ACTUAL suitable solutions); + CKN
+  epsilon-regularity imported as classical background. If the
+  inequality lands, the two remaining walls collapse to ONE (W-0,
+  faithfulness, appearing twice).
+- **Remaining named set:** W-0 (NS -> relayed-triad reduction +
+  single-mode handoff; carries the extraction laws AND pricing
+  completeness); A_0 > 6 d_R4^+ on RUN (+ Phi_0 > 0) certifying
+  Delta_G6a^top > 0; the dwell-run consumer amendment; G3
+  clock-conversion display; g2 root-labeling re-gate; BoundaryTail
+  split; the Chapter-10 rows.
+
 ## 5. Failure taxonomy (carried verbatim)
 
 A row failure is a finite-row failure — NOT a failure of R2, F1
@@ -399,3 +452,14 @@ notes.
 - The bottom-horn RATE GAP route: closed by the incompatibility
   theorem (gate-accepted): it cannot hold with a nonempty financed
   family.
+- The SYNTHESIS Part-II block constant q^K <= 1/4: WRONG (exact
+  counterexample once E_max > 4 e_marg); use
+  K = ceil(log(2E_max/e_marg)/log(1/q)) (consolidation note +
+  Fable acceptance, both 2026-07-06).
+- "The product side reduces to Door 1 (a wall)": superseded — Door
+  1 is BYPASSED by the one-sided top-endpoint architecture; Door 2
+  is VOID.
+- "A/2 > d_R4 certifies the top bracket globally": FALSE (sharp
+  form: a high-bottom/small-gap family kills the bracket). Active
+  surface: the dwell-run split + A_0 > 6 d_R4^+ on RUN (pending
+  gate), or direct interval evaluation of the exact sharp bracket.
