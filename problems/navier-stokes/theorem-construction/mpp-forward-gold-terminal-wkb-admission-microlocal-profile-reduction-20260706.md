@@ -20,6 +20,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
@@ -48,7 +50,9 @@ completion_truth: >-
   Certificate compactness names the actual closedness input, and the
   pressure-law certificate now contains the Reynolds-defect fork: the quadratic
   defect must vanish modulo pressure gauge with compatible pressure service, or
-  be legally carried as a profile certificate.
+  be legally carried as a profile certificate. The ancestry coordinate has the
+  transport-defect fork, and the cover coordinate has the finite-cover
+  compactness fork.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -216,6 +220,12 @@ then the limit solves Navier-Stokes-Reynolds with force
 \(R\) is carried as part of the legal profile certificate. Otherwise this is
 actual-pressure-law / tower loss, not retained WKB supply.
 
+The cover coordinate is Pack-side. A WKB profile must lift to a uniformly
+bounded finite readout-compatible cover with compact chart parameters and
+closed overlap/readout constraints. Radius collapse, unbounded chart count, or
+overlap/readout incompatibility is carrier-cover loss before the profile can be
+used as a terminal witness.
+
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
 participation failure.
@@ -255,7 +265,8 @@ The next proof-bearing object is one of:
 ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
-transport-defect material-ancestry closure fork
+transport-defect material-ancestry closure fork, and the finite-cover
+compactness fork
 WKBConstructionOrExclusion.A
 ```
 
