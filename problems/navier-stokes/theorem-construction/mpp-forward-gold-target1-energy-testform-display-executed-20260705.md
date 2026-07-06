@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-target1-energy-testform-display-executed-20260705
-status: filed-pending-codex-gate
+status: codex-gated-energy-display-accepted-with-majorant-correction
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P1 open item 3 - target-1's pending energy test-form display, executed
@@ -20,6 +20,12 @@ depends_on:
   - mpp-forward-gold-codex-f3-p1-routing-correction-gate-20260705.md
   - mpp-forward-gold-codex-energy-reconstruction-tail-proof-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-target1-energy-testform-display-gate-20260705.
+  Accepted with one correction: the time majorant should be justified
+  by the energy-class interpolation
+  \|u(t)\|_3^3 <= \|u(t)\|_2^{3/2}\|u(t)\|_6^{3/2}, not by global
+  L^{10/3}_{t,x} alone implying global L^3 on R^3.
   Executes the two items the target-1 regate left pending on the
   accepted energy side: the actual Duchon-Robert test-form formula and
   the Littlewood-Paley convergence statement in the linear slot. Scope:
@@ -52,10 +58,9 @@ completion_truth: >-
   and the right side -> 0 as L -> infinity because (i) LP partial
   sums converge strongly in L^3(R^3) (1 < 3 < infinity), pointwise
   a.e. t, and (ii) the whole expression carries the fixed-eps
-  majorant C_phi eps^{-1} ||u(t)||^3_{L^3} which is integrable in t
-  on compact intervals (u in L^{10/3}_{t,x} gives int_I ||u||^3_{L^3}
-  <= |I|^{1/10} ||u||^3_{L^{10/3}} - exact exponent bookkeeping), so
-  dominated convergence applies in (xi, t). The cubic tested against
+  majorant C_phi eps^{-1} ||u(t)||^3_{L^3}, integrable in time by
+  energy-class interpolation and Holder in time, so dominated
+  convergence applies in (xi, t). The cubic tested against
   psi is continuous in the linear slot under L^3 convergence: that is
   the requested one line, now displayed with its majorant. (WHAT THIS
   CLOSES) P1's open item 3 - the pending energy test-form display -
@@ -77,6 +82,25 @@ completion_truth: >-
 ---
 
 # Target-1 energy display, executed: the fare table for the linear slot
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-target1-energy-testform-display-gate-20260705`.
+
+The fixed-\(\varepsilon\) Duchon-Robert formula, linear-slot channel
+partition, and tested countable-channel convergence are accepted. The
+majorant citation is corrected: use
+\[
+  \|u(t)\|_{L^3}^3
+  \le
+  \|u(t)\|_{L^2}^{3/2}\|u(t)\|_{L^6}^{3/2}
+\]
+and \(u\in L^\infty_tL^2_x\cap L^2_tL^6_x\), not global
+\(L^{10/3}_{t,x}\) alone, to obtain time integrability of
+\(\|u(t)\|_{L^3}^3\) on compact intervals. With that correction, P1's
+target-1 energy test-form display is gated as paid. The helicity lane,
+gross-production core, E-f1, P2, F2/F4, and F5 remain open.
 
 ## 1. D1: the defect formula at fixed scale
 
@@ -152,9 +176,10 @@ The right side vanishes as \(L\to\infty\):
    (\(1<3<\infty\)), at a.e. \(t\);
 2. the integrand carries the fixed-\(\varepsilon\) majorant
    \(C_\varphi\,\varepsilon^{-1}\,\|u(t)\|^3_{L^3}\), integrable in
-   \(t\) on compact intervals: \(u\in L^{10/3}_{t,x}\) gives
-   \(\int_I\|u\|^3_{L^3}\le|I|^{1/10}\|u\|^3_{L^{10/3}}\) - exact
-   exponent bookkeeping;
+   \(t\) on compact intervals by
+   \(\|u(t)\|_{L^3}^3
+   \le
+   \|u(t)\|_{L^2}^{3/2}\|u(t)\|_{L^6}^{3/2}\) and Holder in time;
 
 so dominated convergence applies in \((\xi,t)\). The cubic tested
 against \(\psi\) is CONTINUOUS IN THE LINEAR SLOT under \(L^3\)

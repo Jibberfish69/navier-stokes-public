@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-custody-row-lift-gate8-allocation-reduction-20260705
-status: custody-row-lift-reduced-to-gate8-allocation-and-escrow-localization
+status: codex-gated-custody-row-lift-reduction-accepted-gate8-and-escrow-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / item 3 custody row lift
@@ -16,6 +16,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-orientation-allocation-jordan-split-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-row-domination-allocated-tax-correction-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-custody-row-lift-gate-20260705. Accepted as
+  a strict reduction, not a clearance.
   Strict reduction, not Gate-8 clearance. The custody row lift has no
   fourth local escape channel. On the delivery branch, fast-transit
   payment is scale-d increment-cubic total variation, the same
@@ -34,6 +37,19 @@ completion_truth: >-
 ---
 
 # Custody row lift reduces to Gate-8 allocation
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-custody-row-lift-gate-20260705`.
+
+The reduction is accepted: delivery-branch custody payment is already
+scale-\(d\) increment-cubic channel-cell throughput, so custody adds no
+fourth local composition row once Gate 8 supplies same-index allocation
+of admission, no-recount debt, and tax. The escrow branch remains live:
+stored energy must localize as prior paid residue, entrance reserve,
+routed tail, or Silver mass. No custody theorem or confinement constant
+decision is claimed.
 
 ## 1. Row-lift question
 
