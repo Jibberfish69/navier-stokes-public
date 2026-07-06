@@ -88,6 +88,19 @@ F1 -> (F2 || F3) -> F4 -> F5.
   monomial-participation routing. t2 carried correlation constant
   and t4 C_B arithmetic remain verification/certification items
   unless the gate marks them cleared.
+  t3 ATTACKED (Fable, pending gate,
+  f1-t3-participation-split-amplitude-phase-nogo): STATIC NO-GO -
+  "mass at good angles => monomial participation" is FALSE
+  statically (trilinear phase cancellation with full moduli); the
+  split: participation = amplitude population (Bernstein, paid
+  pending gate) x phase population (INSTALLED: dynamical phase +
+  un-parking law + the finite-chain paid pushforward). Remaining
+  t3 content = ONE DOMAIN-MATCH CHECK: does the pushforward's
+  phase-population row cover the bounded-shape class the Bernstein
+  lemma populates? Match => the F1 population clause has no
+  remaining content; mismatch => one named finite gap at the
+  pushforward home. Do-not-cite: the static trilinear
+  lower-bound route.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
