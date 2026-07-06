@@ -21,9 +21,12 @@ completion_truth: >-
   explicitly carries the infinite-readout complement elsewhere and is not a
   tower-record passage theorem for dR_N^+. The c_0 extraction source says the
   needed implication is R(W_j)=1 -> R(W_*)>=1 and that weak-star compactness of
-  adjacent defect measures does not supply it without lower semicontinuity of
-  the record functional in the selected topology and preservation of the same
-  selected source address. Therefore Gate 3 is open. The exact escape mechanism
+  adjacent defect measures does not supply it without no-loss/tight passage of
+  the selected positive record and preservation of the same selected source
+  address. Ordinary lower semicontinuity of total variation is the wrong
+  direction for this use: it can bound the limit record by the approximating
+  variation, not force the approximating unit record to survive in the limit.
+  Therefore Gate 3 is open. The exact escape mechanism
   is selected-positive record loss under weak convergence: the signed/defect
   measures may pass while the positive record selector, sign, or source
   coordinate oscillates, concentrates, or changes, leaving no positive retained
@@ -74,8 +77,19 @@ R(W_*)\ge1,
 ```
 
 and says weak-star compactness of adjacent defect measures does not supply
-`(G3S.3)' unless the record functional is lower semicontinuous in the selected
-topology and the selected source address remains the same.
+`(G3S.3)' unless the selected positive record has no-loss/tight passage in the
+selected topology and the selected source address remains the same. Ordinary
+lower semicontinuity of total variation is not enough here: weak-star limits
+can satisfy
+
+```math
+R(W_*)\le \liminf_{j\to\infty}R(W_j),
+\tag{G3S.3a}
+```
+
+which still allows \(R(W_*)=0\) when the approximating positive records cancel,
+oscillate, concentrate, or lose their selector. The c_0 extraction needs the
+opposite no-loss conclusion for the normalized selected records.
 
 ## 3. Why weak-star closedness is weaker than record passage
 
