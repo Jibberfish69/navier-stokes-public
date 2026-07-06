@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate1-pressure-source-law-verdict-20260706
-status: failed-pressure-source-law-does-not-absorb-retained-collar-flux
+status: historical-detached-pressure-source-verdict-demoted-by-pressure-increment-absorption
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 1 pressure source law
@@ -18,20 +18,39 @@ proved_inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-collar-tightness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-flux-tightness-countermodel-20260706.md
 completion_truth: >-
-  Gate 1 pressure-source verdict. This note tests the surviving pressure collar
-  obstruction against the allowed incompressible pressure law. It proves a
-  negative result for the proof attempt: the checked source only supplies
-  pressure as global redistribution plus flux, and the scale-critical pressure
-  representation does not turn the collar flux into Field, four-body, or viscous
-  bill currency. The collar atom is compatible with the source-level pressure
-  role unless an additional same-carrier pressure-flux theorem is supplied.
-  Therefore the first exact failed gate remains RetainedPressureFluxTightnessOrRouteOut.A,
-  now sharpened to the pressure-source form: retained pressure redistribution
-  through the cutoff collar is tight, absorbed by B, or proves legal/collar/Pack-Part
-  route-out.
+  Historical pressure-source verdict for a detached collar-flux model.
+  Superseded/demoted by the pressure-increment absorption pass on the same date.
+  The checked pressure law does more than provide an arbitrary redistributive
+  collar current: TC.20 pairs the pressure increment with the tower difference,
+  and the pressure equation represents that increment locally as a
+  Calderon-Zygmund image of one ordinary rung times one tower difference. The
+  detached collar atom remains a bookkeeping warning only. The current first
+  Gate 1 theorem is RetainedPressureIncrementCZTailAdmission.A.
 ---
 
 # Gate 1 pressure-source law verdict
+
+## 0. Supersession
+
+This note is historical. It tested whether the pressure equation by itself
+absorbs a detached pressure-collar route measure. The current TC.20 pressure
+flux has the incremented form
+
+```math
+\delta_h U_k * \delta_h\nabla^k p,
+\tag{PSV.0}
+```
+
+with \(\delta_h\nabla^k p\) locally controlled by Calderon-Zygmund pressure
+increment structure. The live Gate 1 theorem is therefore
+
+```math
+\texttt{RetainedPressureIncrementCZTailAdmission.A}.
+\tag{PSV.0a}
+```
+
+The collar-source verdict below is retained only as a warning about detached
+pressure bookkeeping.
 
 ## 1. Physical question
 
@@ -195,7 +214,9 @@ failure of the current proof route:
 \tag{PSV.10}
 ```
 
-The first exact failed gate remains Gate 1. The smallest remaining theorem at
-that gate is `(PSV.8)`: pressure collar flux must be owned by the same carrier,
-tight, absorbed, or route-out before the epsilon-extraction compactness theorem
-can be proved.
+Historically this note named `(PSV.8)' as the pressure-source form of the
+missing gate. The current sharper theorem is `(PSV.0a)': local pressure
+increments must be admitted through the tower-difference Calderon-Zygmund
+structure, and any nonlocal pressure-increment tail must be absorbed, legal,
+stopped, or route-out before the epsilon-extraction compactness theorem can be
+proved.
