@@ -1015,6 +1015,11 @@ the confinement constant.
    helps only if it brings a bounded effective cell count, a positive
    identity-fiber uniform-mode charge, legal anti-equidistribution, or
    construction/exclusion.
+   The finite-cover row now fails as the source of that bounded count: one
+   legal chart and one common identity fiber can carry \(M\) equal effective WKB
+   service cells with total moment one and square charge \(1/M\). Thus bounded
+   effective count remains a separate microlocal quantization/extraction
+   theorem, not a consequence of cover compactness.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
