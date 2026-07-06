@@ -97,33 +97,36 @@ For a fixed plane \(P\) through the origin and angular half-width
 \(\theta\), let
 \(S_\theta = \{\xi \in \text{annulus} : \angle(\xi, P) < \theta\}\).
 
-Bernstein: \(|\hat f(\xi)| \le \|f\|_{L^1} \le |B_R|^{1/2}\|f\|_2\).
-Plancherel: \(\int|\hat f|^2 = (2\pi)^3\|f\|_2^2\). The slab volume:
-\(|S_\theta| \le 2\theta \cdot \frac{4\pi}{3}\bigl((2\mu)^3 -
-(\mu/2)^3\bigr) = \frac{4\pi}{3}\cdot\frac{63}{8}\,\mu^3
-\cdot 2\theta\). Hence
+Bernstein: \(|\hat f(\xi)| \le \|f\|_{L^1} \le |B_R|^{1/2}\|f\|_2\),
+with \(|B_R| = \frac{4\pi}{3}\frac{a^3}{\mu^3}\).
+Plancherel: \(\int|\hat f|^2 = (2\pi)^3\|f\|_2^2\).
+The slab: the set at angular distance \(<\theta\) from a plane
+occupies the sphere-fraction \(\sin\theta \le \theta\), so
+\(|S_\theta| \le \theta\cdot\frac{4\pi}{3}\bigl((2\mu)^3 -
+(\mu/2)^3\bigr) = \frac{4\pi}{3}\cdot\frac{63}{8}\,\mu^3\theta\).
+Hence
 
 \[
   \frac{\int_{S_\theta}|\hat f|^2}{(2\pi)^3\|f\|_2^2}
   \;\le\;
   \frac{|S_\theta|\,|B_R|}{(2\pi)^3}
   \;=\;
-  \underbrace{\frac{2\cdot\frac{4\pi}{3}\cdot\frac{63}{8}
-  \cdot\frac{4\pi}{3}}{(2\pi)^3}}_{=:C_B
-  \;=\;\frac{7}{\pi}}
-  \;a^3\,\theta .
+  \frac{\frac{4\pi}{3}\cdot\frac{63}{8}
+  \cdot\frac{4\pi}{3}}{(2\pi)^3}\;a^3\theta
+  \;=\;
+  \frac{\frac{16\pi^2}{9}\cdot\frac{63}{8}}{8\pi^3}\;a^3\theta
+  \;=\;
+  \boxed{\frac{7}{4\pi}\,a^3\,\theta}
+  \;=:\;C_B\,a^3\,\theta .
 \]
 
-(The arithmetic: \(2\cdot\frac{63}{8}\cdot\frac{16\pi^2}{9}
-= 28\pi^2\), divided by \((2\pi)^3 = 8\pi^3\), gives
-\(\frac{28\pi^2}{8\pi^3} = \frac{7}{2\pi}\); times the factor 2
-already included — displayed for the gate to re-derive; the exact
-closed form, not its size, is the deliverable.)
+(Exact: \(\frac{16}{9}\cdot\frac{63}{8} = 14\);
+\(14\pi^2/(8\pi^3) = \frac{7}{4\pi}\).)
 
 Choose
 
 \[
-  \boxed{\;\theta_* := \frac{1}{2\,C_B\,a^3}\;}
+  \boxed{\;\theta_* := \frac{1}{2\,C_B\,a^3} = \frac{2\pi}{7\,a^3}\;}
 \]
 
 Then AT LEAST HALF the packet's \(L^2\) mass lies at angular
