@@ -75,9 +75,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     remote-tail obstruction says ordinary distant straight
     endpoints/collars decay like \((d/L)^2\sim(kL)^{-2}\) relative to the
     local edge strain, so "genuine nonlocal endpoint return" cannot mean
-    remote Biot-Savart leakage. Open: record/effective-length cap, genuinely
-    recirculating/global endpoint return,
-    curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
+    remote Biot-Savart leakage. Follow-up close-return alias says a
+    recirculating endpoint either stays far and is tail-small, or returns
+    within \(O(d)\) and becomes close-return/curve/core/crowd contamination or
+    route-out. Open: record/effective-length cap,
+    close-return/curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
     genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
     composition. K3
@@ -570,9 +572,12 @@ certified positive constant.
    remote-tail obstruction: ordinary distant straight endpoints/collars give
    only \(O((d/L)^2)=O((kL)^{-2})\) relative strain at the flat edge, so that
    nonlocal branch must be recirculating/global, contaminating, exclusionary,
-   or new. Live pure-edge branch: record/effective-length cap, genuinely
-   recirculating/global endpoint
-   return, curve/core/crowd contamination, route-out/exclusion, or a genuinely
+   or new. Follow-up close-return alias: if the recirculating material returns
+   within \(O(d)\), the object is no longer the isolated pure edge but
+   close-return/curve/core/crowd contamination or route-out; if it stays far,
+   the remote-tail estimate kills it. Live pure-edge branch:
+   record/effective-length cap, close-return/curve/core/crowd contamination,
+   route-out/exclusion, or a genuinely
    new unweighted high-Re mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
@@ -591,8 +596,8 @@ certified positive constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no record/effective-length cap, no genuinely nonlocal
-   endpoint return, no curve/core/crowd contamination trigger, no
+   Kill condition: no record/effective-length cap, no close-return/curve/core/crowd
+   contamination trigger, no
    route-out/exclusion of the isolated pure edge, no new unweighted high-Re
    mechanism, and no
    curve-leakage payment => the pure
