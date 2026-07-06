@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
 completion_truth: >-
   Exact single-shape obstruction. Let Q be a constant symmetric matrix on
   R^3. If Q is not a scalar multiple of the identity and chi is a nonzero
@@ -25,10 +26,12 @@ completion_truth: >-
   a localized Beltrami pressure shape Q_n=I/3-n tensor n, cannot be absorbed as
   pressure gauge by a single-shape cutoff. It must be canceled by additional
   stresses, legally carried as a Reynolds certificate, or routed to
-  actual-pressure-law / tower certificate failure. This proves no multi-cell
-  cancellation theorem, no row-level defect-vanishing theorem for actual
-  Navier-Stokes WKB packets, no profile construction/exclusion theorem, no
-  confinement constant, and no MPP closure.
+  actual-pressure-law / tower certificate failure. The later Reynolds-null
+  characterization identifies the additional-stress cancellation branch exactly
+  as pressure gauge plus divergence-free null stress. This proves no theorem
+  forcing actual Navier-Stokes WKB packets into that null class, no row-level
+  defect-vanishing theorem, no legal-carriage theorem, no profile
+  construction/exclusion theorem, no confinement constant, and no MPP closure.
 ---
 
 # Localized anisotropic WKB defects are not pressure gauge
@@ -162,8 +165,14 @@ This does not decide the many-cell crowd. A sum
   R=\sum_a \chi_a Q_a
   \tag{LAD.14}
 \]
-may still have cancellations in \(\mathbb P\operatorname{div}R\). That is the
-remaining crowd pressure-law question, not a single-cell gauge escape.
+may still have cancellations in \(\mathbb P\operatorname{div}R\). The later
+null-stress characterization says exactly what that means:
+\[
+  R=qI+S,\qquad \operatorname{div}S=0.
+  \tag{LAD.15}
+\]
+So the remaining crowd pressure-law question is whether the aggregate stress
+lands in that null class, is legally carried, or fails the actual-law row.
 
 ## 5. Reduced burden
 
@@ -191,7 +200,7 @@ or typed actual-law/tower failure.
 
 This note proves the exact single-shape localized anisotropic Leray obstruction.
 
-It proves no multi-cell cancellation theorem, no Reynolds-defect vanishing or
-legal-carriage theorem for actual Navier-Stokes WKB packets, no WKB profile
-admission theorem, no WKB construction/exclusion theorem, no confinement
-constant, and no MPP closure.
+It proves no theorem forcing actual multi-cell stresses into the Leray-null
+class, no Reynolds-defect vanishing or legal-carriage theorem for actual
+Navier-Stokes WKB packets, no WKB profile admission theorem, no WKB
+construction/exclusion theorem, no confinement constant, and no MPP closure.
