@@ -36,6 +36,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
 completion_truth: >-
   This is a strict retyping and reduction of the remaining heat-scale branch,
   not c_0 closure. After the positive-radius/thick branch is paid, the live
@@ -50,9 +51,12 @@ completion_truth: >-
   self-similar difference-operator spectral gap/coercivity named by
   ZeroLossTowerRelayRigidity.A. The first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
-  Hardy-Carleson and persistent affine quotient admission. Current support
-  axioms still admit the one-child laminar half-tail model. No FullTower
-  retention, material-time Liouville, strict c_0, or MPP closure is claimed.
+  Hardy-Carleson and persistent affine quotient admission; the latter is now
+  sharpened to persistent root affine quotient payment, fresh
+  potential-average transfer, and strict reset/overrun original-history
+  Carleson. Current support axioms still admit the one-child laminar half-tail
+  model. No FullTower retention, material-time Liouville, strict c_0, or MPP
+  closure is claimed.
 ---
 
 # Heat-scale route-b is surplus-zero rigidity, not local Liouville
