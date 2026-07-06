@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-saturation-pacing-identity-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
 external_inputs_to_verify:
   - nonlinear frequency shift of Kelvin/displacement waves on a strained
     vortex (Klein-Majda-tier core dynamics; sign and scaling of the
@@ -37,8 +38,10 @@ completion_truth: >-
   seed-independent pair kill integral. If the sign is nonpositive, the
   pure edge channel fails outright; if the sign is positive, K5 still
   needs an external seed floor, lifetime, viscous/core damping, custody
-  payment, or sideband/crowd mechanism. Sideband/packet coupling is typed
-  to the crowd cell (item 4), not consumed here. No closure claimed.
+  payment, or sideband/crowd mechanism. Follow-up: viscous damping supplies
+  that clock with a cap proportional to local Reynolds, closing the marginal
+  branch and leaving the high-Re branch weighted. Sideband/packet coupling is
+  typed to the crowd cell (item 4), not consumed here. No closure claimed.
 ---
 
 ## Codex gate, same date
@@ -128,6 +131,8 @@ bounded payment per amplitude octave. The total neutral-phase stretch
 still contains log(seed), so the pair-cell kill integral is NOT complete
 without an external seed floor, lifetime, damping, custody payment, or
 sideband/crowd mechanism.
+The viscous Reynolds split supplies that damping only in Reynolds-weighted form:
+unit/marginal Re is capped, high Re remains open to the two-payer mechanisms.
 
 STABILIZING (uniformly over admissible cores): a neutral producing
 mode survives second order. Item 1 kill condition TRIGGERS on the edge
