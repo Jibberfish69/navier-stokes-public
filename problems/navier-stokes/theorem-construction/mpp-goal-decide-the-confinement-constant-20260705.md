@@ -984,6 +984,29 @@ surface, not F4 clearance.
    trace-free covariance anisotropy. Positive limsup trace ballast instead
    passes to a nonvanishing terminal subtail and the installed Field consumer
    after same-solution witness admission.
+   The same-helicity Beltrami-cone sharpening then prices the surviving
+   Beltrami/WKB covariance branch more tightly. If
+   \[
+     C={\tau\over3}I+A,\qquad \operatorname{tr}A=0,
+     \qquad C\ge0,\qquad
+     \lambda_{\max}(C)\le {1\over2}\operatorname{tr}C,
+   \]
+   and \(a_1\ge a_2\ge a_3\) are the eigenvalues of \(A\), then
+   \[
+     \tau_{\min}^{\rm Bel}(A)
+     =
+     \max\{6a_1,-3a_3\}
+     =
+     6\lambda_{\max}(A)
+     \ge
+     \sqrt6\,|A|_F .
+   \]
+   Equality occurs at the eigenvalue ratio \((1,1,-2)\). Thus a nonzero
+   trace-free active covariance in the same-helicity Beltrami cone carries
+   twice the generic PSD trace-ballast floor, and admitted terminal ballast is
+   still Field-visible through \(\mu_R=(1/2)\tau\). This is exact pointwise
+   algebra; it does not prove legal carriage, profile admission, construction,
+   exclusion, or the confinement constant.
    The signed-stress certificate follow-up then prices the non-PSD alternative:
    if a signed tensor \(S\) is carried as \(S=P-N\) with \(P,N\ge0\), then
    \[
