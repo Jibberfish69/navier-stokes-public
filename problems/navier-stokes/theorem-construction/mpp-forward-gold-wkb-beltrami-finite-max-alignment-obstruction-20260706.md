@@ -11,8 +11,9 @@ created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
 target_object:
-  - BroadbandBeltramiBath.FiniteSupportNeutrality.EXCLUDED
-  - ClosedResonantFrequencyGraph.FINITE-MULTIPLY-REPRESENTED-DOOR.CLOSED
+  - BroadbandBeltramiBath.SameTwoShellNeutrality.EXCLUDED
+  - ClosedResonantFrequencyGraph.SAME-TWO-SHELL-DOOR.CLOSED
+  - MultiRadiusResonantGraph.REMAINING-CANCELLATION-DOOR
   - DenseInfiniteWKBBath.REMAINING-DOOR
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-bandwidth-mismatch-turnover-20260706.md
@@ -204,20 +205,22 @@ and \(|p'|=|p|\). Equation (FMA.17) becomes
 \]
 With \(\alpha,\beta\in\{\pm L/K\}\), this again forces \(L=K\).
 
-Thus both off-diagonal pairs cannot be collinear when the shell radii differ.
+Within this same-two-shell setting, both off-diagonal pairs cannot be collinear
+when the shell radii differ.
 At least one of \((p,q')\), \((p',q)\) is a noncollinear active cross-shell
 pair with larger normalized alignment than the selected pair.
 
 This contradicts the maximality of \(c(p,q)\).
 
 Therefore the selected output \(p+q\) has no second active cross-shell
-representation.
+representation on the same two shell radii.
 
 ## 5. The maximal-alignment output rings
 
 The selected pair is noncollinear and lies on different curl eigenvalue shells.
-By Section 4, its output \(m=p+q\) is unique among active cross-shell
-representations.
+If all duplicate representations of its output are confined to the same two
+shell radii, then by Section 4 its output \(m=p+q\) is unique among active
+cross-shell representations inside that fixed two-shell slice.
 
 Hence the Fourier coefficient of the projected mismatch at \(m\) is exactly
 one term:
@@ -234,12 +237,13 @@ The nonresonant two-mode calculation gives
 for a noncollinear same-helicity pair. Since \(\mu-\lambda\ne0\) and
 \(a_pa_q\ne0\), the coefficient is nonzero.
 
-Thus the finite cloud is not projected-neutral.
+Thus a same-two-shell cancellation graph containing this maximal pair is not
+projected-neutral.
 
 ## 6. Consequence
 
-Every finite same-helicity helical Beltrami Fourier cloud has the following
-dichotomy:
+Every fixed two-shell same-helicity helical Beltrami Fourier slice has the
+following dichotomy:
 \[
 \begin{array}{ll}
 \text{all active cross-shell pairs are collinear} &
@@ -251,10 +255,11 @@ dichotomy:
 \]
 
 Therefore a finite genuinely broadband, directionally spread same-helicity
-Beltrami cloud cannot be an exact projected-neutral bath. The finite closed
-resonant graph door is closed.
+Beltrami cloud whose dangerous duplicate outputs remain inside one fixed pair
+of shell radii cannot be an exact projected-neutral bath. The same-two-shell
+closed resonant graph door is closed.
 
-The surviving Beltrami-bath door must leave this finite algebraic setting:
+The surviving Beltrami-bath door is multiradius resonant graph closure,
 infinite or dense WKB support, finite-energy localization/envelope passage,
 same-fluid transport/custody, profile admission, or construction/exclusion of
 the actual bath.
@@ -262,18 +267,20 @@ the actual bath.
 ## 7. Four-sentence result
 
 Choose the active noncollinear cross-shell Beltrami pair with maximal normalized
-alignment. If its output had another active cross-shell representation, the
-off-diagonal pairs would have strictly larger alignment; because the two shell
-radii differ, at least one off-diagonal pair is still noncollinear. That
-contradicts maximality, so the selected output is unique. The nonresonant
-two-mode theorem then makes its projected mismatch coefficient nonzero, so no
-finite genuinely broadband directionally spread same-helicity Beltrami Fourier
-cloud is an exact projected-neutral bath.
+alignment inside a fixed two-shell slice. If its output had another active
+representation on the same two shell radii, the off-diagonal pairs would have
+strictly larger alignment; because the two shell radii differ, at least one
+off-diagonal pair is still noncollinear. That contradicts maximality, so the
+selected output is unique inside that slice. The nonresonant two-mode theorem
+then makes its projected mismatch coefficient nonzero; cross-radius duplicate
+representations remain outside this proof.
 
 ## 8. State
 
-This closes the finite-support same-helicity Beltrami cancellation branch.
+This closes the same-two-shell finite-support same-helicity Beltrami
+cancellation branch.
 
-It proves no quantitative lower bound for infinite/dense WKB baths, no
-finite-energy localization theorem, no same-fluid custody theorem, no
-confinement constant, and no MPP closure.
+It does not close multiradius finite resonant graphs. It proves no
+quantitative lower bound for infinite/dense WKB baths, no finite-energy
+localization theorem, no same-fluid custody theorem, no confinement constant,
+and no MPP closure.
