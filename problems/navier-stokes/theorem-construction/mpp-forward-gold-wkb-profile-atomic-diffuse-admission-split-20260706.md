@@ -326,7 +326,8 @@ same-cell packet-moment square coercivity are false. The beta-small many-cell
 WKB survivor lies in that unbounded-count case. The latter is a measure-valued
 terminal witness theorem or limit-of-class failure theorem, after the scalar
 moment-passage clause has been paid by `WKBServiceModulus.A` or else routed to
-moving-selector escape.
+moving-selector escape, and after the legal-support clause has been reduced to
+closedness of the same-solution legal-label set.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,
