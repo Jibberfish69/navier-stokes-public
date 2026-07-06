@@ -304,7 +304,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Hessian tracking cost \(|K|D^5\), hence \(\beta^{4/5}E_{\rm prod}\) for the
     overlap row; self-evolution is smaller by \(\beta^{2/5}\), and viscosity is
     the Reynolds edge. Thus affine same-fluid custody is not the missing payer;
-    the live pressure branch is non-affine/broadband same-fluid transport,
+    at that stage the live pressure branch was non-affine/broadband same-fluid transport,
     Reynolds-edge failure, fixed-density compensator/residue, or
     construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
