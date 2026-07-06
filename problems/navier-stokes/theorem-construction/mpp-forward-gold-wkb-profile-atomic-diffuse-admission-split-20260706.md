@@ -309,6 +309,13 @@ profile support. Nonclosed legal labels produce a legal prelimit cloud whose
 limit is outside the witness class, which is a limit-of-class /
 original-participation / carrier-or-tower failure.
 
+The certificate-compactness follow-up identifies the exact source of that
+closedness. The WKB label has to carry compact legality certificates for the
+actual law, ancestry/original participation, finite/readout-compatible cover,
+and same-law tower. If a certificate coordinate is noncompact or projected
+away, the first lost certificate is the Pack/Part/Field landing rather than
+retained supply.
+
 ## 8. State
 
 The compact-continuum WKB branch is now split into two smaller objects:
@@ -327,7 +334,7 @@ WKB survivor lies in that unbounded-count case. The latter is a measure-valued
 terminal witness theorem or limit-of-class failure theorem, after the scalar
 moment-passage clause has been paid by `WKBServiceModulus.A` or else routed to
 moving-selector escape, and after the legal-support clause has been reduced to
-closedness of the same-solution legal-label set.
+certificate compactness of the same-solution legal-label graph.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,

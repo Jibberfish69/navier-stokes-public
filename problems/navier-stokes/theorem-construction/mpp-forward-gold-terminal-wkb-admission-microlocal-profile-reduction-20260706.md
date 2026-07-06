@@ -235,7 +235,8 @@ The next proof-bearing object is one of:
 
 ```text
 ActualWKBCarrierExtraction.A
-MicrolocalDefectProfileAdmission.A, now including closedness of the legal-label set
+MicrolocalDefectProfileAdmission.A, now including certificate compactness for
+the legal-label graph
 WKBConstructionOrExclusion.A
 ```
 

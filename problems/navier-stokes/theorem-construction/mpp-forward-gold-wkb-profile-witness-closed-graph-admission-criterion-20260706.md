@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. Let X be the compact WKB phase-label
   space and let L be the subset of labels satisfying the five same-solution
@@ -250,6 +251,16 @@ loss, original-participation loss, actual-pressure-law loss, or tower loss.
 
 This note proves the closed-graph profile-admission criterion and the
 nonclosed-legality countermodel.
+
+Follow-up:
+`mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md`
+identifies the exact closedness input. The legal-label set is closed once the
+WKB label space is enlarged to include compact same-solution legality
+certificates for the actual law, ancestry/original participation,
+finite/readout-compatible cover, and same-law tower, with closed certificate
+relations. Projecting away a noncompact certificate coordinate can produce the
+nonclosed countermodel in Section 4; the first lost certificate routes to Pack,
+Part, or Field rather than retained supply.
 
 It proves no closedness theorem for the actual Navier-Stokes WKB legality
 predicates, no `ActualWKBCarrierExtraction.A`, no WKB construction/exclusion, no

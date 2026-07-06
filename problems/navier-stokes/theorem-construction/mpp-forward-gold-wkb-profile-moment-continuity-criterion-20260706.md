@@ -235,6 +235,12 @@ is not closed, legal prelimit labels can converge to an illegal limiting label,
 which is a limit-of-class / original-participation / carrier-or-tower failure,
 not admitted retained profile supply.
 
+The certificate-compactness follow-up names the closedness input: the label
+topology must retain compact certificates for the actual law, material
+ancestry/original participation, finite/readout-compatible cover, and same-law
+tower. Losing one of those certificate coordinates is the typed face failure,
+not retained WKB supply.
+
 ## 6. Four-sentence result
 
 Weak-* profile compactness preserves the retained WKB pressure-service moment
@@ -243,9 +249,9 @@ phase-label space. It also preserves the moment for moving functionals that
 converge uniformly. Without that stabilization the statement is false: a moving
 spike selector can keep unit service on every prelimit while the limiting
 profile sees zero service. Thus profile admission now separates into a paid
-moment-passage clause and a closed-graph same-solution witness-legality clause:
-closed legal labels admit the profile, while nonclosed legality produces a
-typed limit-of-class defect.
+moment-passage clause and a certificate-compactness same-solution legality
+clause: certified closed legal labels admit the profile, while nonclosed
+legality produces a typed limit-of-class defect.
 
 ## 7. State
 

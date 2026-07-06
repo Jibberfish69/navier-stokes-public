@@ -727,6 +727,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    the limiting profile, while nonclosed legality gives a limit-of-class /
    original-participation / carrier-or-tower failure. The actual closedness of
    the Navier-Stokes WKB legality predicates remains unproved.
+   The certificate-compactness reduction then names the closedness input:
+   compact certificates for actual law, ancestry/original participation,
+   finite/readout-compatible cover, and same-law tower. Losing any one
+   certificate is a Pack/Part/Field typed limit-of-class failure, not retained
+   WKB supply.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
