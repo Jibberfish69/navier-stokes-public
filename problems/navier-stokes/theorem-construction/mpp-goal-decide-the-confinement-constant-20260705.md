@@ -238,14 +238,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
     existing pressure row, not an order-one floor. The live pressure branch is
     now producer curvature, Gate-8 no-recount allocation/compensator,
-    supercritical fast-motion forcing, or construction/exclusion.
+    global supercritical fast-motion forcing/admissibility, or
+    construction/exclusion.
     Follow-up producer-curvature subscale obstruction filed: if the producer
     gradient varies on radius \(R\), a pressure cell of scale \(D\) creates
     cross Hessian \(|K_{\rm curv}|\lesssim s(D/R)\sqrt H\). For
     \(H\sim s^2\beta^{4/5}\), this stays inside the existing pressure row when
     \(D/R\lesssim\beta^{2/5}\). Thus generic producer curvature is not an
     order-one floor; the remaining pressure branch is the Reynolds-edge bridge,
-    Gate-8 no-recount allocation/compensator, supercritical fast-motion forcing, or
+    Gate-8 no-recount allocation/compensator,
+    global supercritical fast-motion forcing/admissibility, or
     construction/exclusion.
     Follow-up fast-motion threshold obstruction filed: with
     \(\omega=|\dot K|/|K|\), one producer clock costs
@@ -253,7 +255,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \((\omega/s)\beta^{4/5}E_{\rm prod}\). Therefore an order-one payer
     requires \(\omega/s\gtrsim\beta^{-4/5}\). The remaining pressure branch is
     the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
-    supercritical fast-motion forcing, or construction/exclusion.
+    global supercritical fast-motion forcing/admissibility, or
+    construction/exclusion.
     Follow-up subcell Reynolds threshold obstruction filed: a pressure subcell
     fits below the producer curvature radius and above the viscous clock exactly
     when
@@ -275,6 +278,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \((\theta_0-C\beta^{4/5})_+\mu_{\rm prod}\) once \(\beta\) is small. Thus
     fixed pressure-service tax belongs to the compensator/residue branch, not
     the retained no-recount row.
+    Follow-up local supercritical-motion obstruction filed: a same-shape
+    affine pressure history
+    \(A(t)=s\beta^{4/5}(1+st)S\) has the required q=4/5 Hessian size
+    \(|K_{\rm tf}|\sim s^2\beta^{4/5}\), but the normalized Hessian motion is
+    only \(\omega/s=O(\beta^{4/5})\), far below the order-one payer threshold
+    \(\beta^{-4/5}\). Thus local affine pressure algebra cannot force the
+    supercritical branch; surviving fast-motion pressure payment is global
+    pressure/Hodge matching, boundary/locality forcing, Reynolds-edge failure,
+    or construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -389,7 +401,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    the Reynolds-edge bridge, fixed-density compensator/residue,
-   supercritical fast-motion forcing, or a real summability-valid bath construction,
+   global supercritical fast-motion forcing/admissibility, or a real
+   summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
    tax. The reuse

@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and threshold computation, not a dense-crowd theorem and not
   a confinement-constant decision. The previous notes left "faster-than-
@@ -36,7 +37,11 @@ completion_truth: >-
   construction exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
   charging remains beta^(4/5) of local producer currency, so the allocation
   branch is Gate-8 no-recount allocation or compensator, not raw energy
-  co-presence.
+  co-presence. Follow-up local supercritical-motion obstruction kills the local
+  exact-matrix forcing theorem: a same-shape affine history has
+  |K_tf|~s^2 beta^(4/5) but omega/s=O(beta^(4/5)), far below beta^(-4/5).
+  The remaining fast-motion branch is global pressure/Hodge matching,
+  boundary/locality forcing, Reynolds-edge failure, or construction/exclusion.
 ---
 
 # Overlap bath: fast-motion threshold obstruction
@@ -173,18 +178,25 @@ is needed for an order-one payer.
 ## 5. What this kills
 
 This kills "faster than producer" as a sufficient description of a remaining
-floor. The remaining branch is not ordinary fast tracking. It is the
-supercritical fast-motion theorem:
+floor. The remaining branch is not ordinary fast tracking. It is the global
+supercritical fast-motion demand:
 \[
   \omega\gtrsim s\beta^{-4/5}
   \tag{FMT.15}
 \]
-forced by the exact matrix.
+forced by the real pressure/Hodge/locality geometry.
 
 The installed local-affine note says such motion is locally allowed after the
 pressure Hessian is chosen. The installed pressure-source notes say the cost is
 linear in the demanded Hessian speed. None of those installed notes forces
 (FMT.15).
+
+The local-supercritical follow-up goes further: the local exact matrix can
+realize the pressure row while demanding only
+\[
+  \omega/s=O(\beta^{4/5}),
+\]
+so local affine pressure algebra cannot force (FMT.15).
 
 ## 6. What remains
 
@@ -192,8 +204,8 @@ This is not a dynamic bath construction and not a dense-crowd theorem.
 
 The remaining pressure-row burdens are:
 
-- prove the exact matrix forces the supercritical rate
-  \(\omega/s\gtrsim\beta^{-4/5}\);
+- prove global pressure/Hodge matching or boundary/locality forcing imposes the
+  supercritical rate \(\omega/s\gtrsim\beta^{-4/5}\);
 - or prove that any such supercritical demand violates the Reynolds threshold
   \(\operatorname{Re}_R\gg\beta^{-4/5}\) in a way that pays the record ladder or
   suppresses the producer;
@@ -215,5 +227,5 @@ With \(|K|\sim s^2\beta^{4/5}\), this is
   (\omega/s)\beta^{4/5}E_{\rm prod}.
 \]
 Thus an order-one floor requires \(\omega/s\gtrsim\beta^{-4/5}\); the remaining
-question is supercritical fast motion, the Reynolds-edge bridge, Gate-8
-allocation/compensator, or construction/exclusion.
+question is global supercritical fast motion, the Reynolds-edge bridge,
+Gate-8 allocation/compensator, or construction/exclusion.

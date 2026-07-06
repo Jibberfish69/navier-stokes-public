@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -59,7 +60,10 @@ completion_truth: >-
   beta^(4/5) of local producer currency, so allocation must mean Gate-8
   no-recount allocation or a compensator. Follow-up Gate-8 tax-density
   obstruction checks that the no-recount row still has only beta^(4/5) density;
-  a fixed density belongs to the compensator branch. The criterion itself is
+  a fixed density belongs to the compensator branch. Follow-up local
+  supercritical-motion obstruction checks that the local exact pressure matrix
+  does not force omega/s>=beta^(-4/5); a same-shape affine history stays at
+  omega/s=O(beta^(4/5)) while carrying the q=4/5 row. The criterion itself is
   unchanged. No no-eviction crowd, confinement constant, composition theorem, or
   MPP closure is claimed.
 ---

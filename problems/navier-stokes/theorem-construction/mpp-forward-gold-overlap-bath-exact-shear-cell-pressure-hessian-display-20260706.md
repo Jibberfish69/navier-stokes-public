@@ -19,6 +19,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -46,13 +48,15 @@ completion_truth: >-
   D/R<=beta^(2/5), leaving the viscous subcell-room condition. Follow-up
   subcell Reynolds threshold obstruction types that room as
   Re_R=sR^2/nu>>beta^(-4/5), and says threshold failure is not automatically a
-  constant. What remains is the Reynolds-edge bridge, Gate-8 no-recount
-  allocation/compensator, supercritical fast-motion forcing, or
-  construction/exclusion.
-Follow-up same-packet raw allocation obstruction says raw same-field charging
-of the pressure-service energy remains beta^(4/5) of local producer currency;
+  constant. Follow-up same-packet raw allocation obstruction says raw same-field
+  charging of the pressure-service energy remains beta^(4/5) of local producer currency;
   record-ladder charging must mean Gate-8 no-recount allocation or a
-  compensator/residue.
+  compensator/residue. Follow-up Gate-8 tax-density obstruction says no-recount
+  allocation cannot amplify the q=4/5 density into a fixed tax. Follow-up local
+  supercritical-motion obstruction says the local exact pressure matrix cannot
+  force omega/s>=beta^(-4/5). What remains is global pressure/Hodge matching,
+  boundary/locality forcing, Reynolds-edge failure, a fixed-density
+  compensator/residue, or construction/exclusion.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -301,7 +305,8 @@ The remaining burdens are:
   bridge from threshold failure to record-ladder payment;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
-- supercritical fast-motion forcing, if the exact matrix demands
+- global supercritical fast-motion forcing/admissibility, if nonlocal
+  pressure/Hodge matching or boundary/locality demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\).
 
 ## 7. Four-sentence result
@@ -320,6 +325,6 @@ zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell check, the exact-matrix branch is now narrowed to
 the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
-supercritical fast motion, or construction, not the mean-zero pressure-source constraint, instantaneous
+global supercritical fast motion, or construction, not the mean-zero pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, or generic producer curvature.
