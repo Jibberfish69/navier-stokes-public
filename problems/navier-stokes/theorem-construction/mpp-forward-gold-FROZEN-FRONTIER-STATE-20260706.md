@@ -408,6 +408,15 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   the high-threshold formula if \(T_+\ge1/6\). Packet signs and the upper bound
   \(T_+\) remain to be certified.
 
+  CODEX ROUTE-3 \(T_B\)-UPPER ENVELOPE REDUCTION (2026-07-06,
+  codex-route3-tb-upper-envelope-reduction): endpoint packet enclosures
+  \(\rho\le\rho_+\), \(D_{\rm req}\le D_+\), and
+  \(\gamma_G\ge\Gamma_-\) give
+  \(T_B\le T_+=8\pi\rho_+\exp(D_+-C\Gamma_-)\). If \(T_+<\tau^-\), the
+  shallow seed row wins; otherwise Door B spends the monotone corner at
+  \(T_+\). The corrected finite seed row uses \(f_B^2H_B>T_+\) and
+  \(L_{\rm seed}^{B,+}=4Q_W/(L_W(1-T_+/(f_B^2H_B)))\).
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
