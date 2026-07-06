@@ -1,12 +1,12 @@
 ---
 theorem_id: forward-gold-k5-record-length-cap-energy-density-obstruction-20260706
-status: strict-obstruction-record-length-cap-not-from-total-energy-plus-total-production
+status: strict-obstruction-record-length-cap-not-from-total-energy-plus-total-production-proxy
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / K5 high-Re edge route-out
 target_object:
-  - K5RecordLengthCap.TotalEnergyTotalProduction.NO
-  - K5LongPacket.FixedTotalProductionUnboundedLength
+  - K5RecordLengthCap.TotalEnergyTotalProductionProxy.NO
+  - K5LongPacket.FixedProductionProxyUnboundedLength
   - K5LengthCap.RequiresLocalRecordDensityOrDynamicAdmissibility
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
@@ -16,11 +16,13 @@ source_refs:
 completion_truth: >-
   Strict obstruction to the weakest record-length-cap source. The existing
   long-packet witness already has fixed finite packet energy and fixed
-  integrated carrier production when \(|a_L|^2L=A^2\). Taking
+  instantaneous packet carrier-production proxy when \(|a_L|^2L=A^2\). Taking
   \(kL/\operatorname{Re}\to\infty\) leaves those total quantities fixed while
-  envelope, endpoint, and remote-return defects vanish relative to production.
-  Therefore a cap \(kL\lesssim\operatorname{Re}\) cannot be derived from total
-  finite energy plus total carrier production alone. Any genuine
+  envelope, endpoint, and remote-return defects vanish relative to production;
+  the high-Re residence multiplies production and the local envelope defects
+  by the same damping clock. Therefore a cap
+  \(kL\lesssim\operatorname{Re}\) cannot be derived from total finite energy
+  plus total carrier-production proxy alone. Any genuine
   record/effective-length cap must use a stronger record-normalization premise:
   fixed local production density, a selected-throughput lower bound on a
   bounded effective subpacket, dynamic recurrence/nonlocal return, forced
@@ -29,7 +31,7 @@ completion_truth: >-
   route-out theorem, no confinement constant, and no MPP closure.
 ---
 
-# K5 record-length cap is not forced by total energy plus total production
+# K5 record-length cap is not forced by total energy plus production proxy
 
 ## 1. Object
 
@@ -44,12 +46,12 @@ cap as a live route-out:
 This note checks the weakest possible source of that cap:
 
 \[
-  \text{finite total packet energy plus nonzero total carrier production.}
+  \text{finite total packet energy plus nonzero packet carrier-production proxy.}
   \tag{RLC.2}
 \]
 
-The kill condition is a long-packet family with fixed energy, fixed integrated
-carrier production, and \(kL/\operatorname{Re}\to\infty\).
+The kill condition is a long-packet family with fixed energy, fixed packet
+carrier-production proxy, and \(kL/\operatorname{Re}\to\infty\).
 
 ## 2. Reuse the long packet
 
@@ -74,15 +76,18 @@ Then the packet energy is fixed:
   \tag{RLC.5}
 \]
 
-The carrier-production proxy is also fixed:
+The instantaneous packet carrier-production proxy is also fixed:
 
 \[
   P_L\sim s\Pi |a_L|^2L=s\Pi A^2.
   \tag{RLC.6}
 \]
 
-Thus increasing \(L\) does not remove the total producing package. It spreads
-the package over a longer packet and lowers its local density.
+Thus increasing \(L\) does not remove the instantaneous total producing
+package. It spreads the package over a longer packet and lowers its local
+density. Over the high-Re residence, production gains the common residence
+factor already recorded in the endpoint-room note; the local envelope defect
+gains the same factor and keeps the \(1/(kL)\) ratio.
 
 ## 3. Length can still outrun the Reynolds residence
 
@@ -118,15 +123,16 @@ choice. The closed-long-packet note gives remote return tail
   \tag{RLC.10}
 \]
 
-when \(kd\sim1\). Therefore total energy and total production stay fixed while
-the local endpoint/envelope/return mechanisms still vanish.
+when \(kd\sim1\). Therefore total energy and the packet production proxy stay
+fixed while the local endpoint/envelope/return mechanisms still vanish
+relative to production.
 
 ## 4. What this does and does not kill
 
 This kills only the total-energy / total-production route to (RLC.1):
 
 \[
-  \text{finite energy}+\text{nonzero total carrier production}
+  \text{finite energy}+\text{nonzero packet production proxy}
   \nRightarrow
   kL\lesssim \operatorname{Re}.
   \tag{RLC.11}
@@ -161,10 +167,11 @@ Equivalently, the remaining length-cap branch must use one of:
 
 ## 6. Four-sentence result
 
-Total finite energy and total carrier production do not force the K5
-record-length cap. The long packet with \(|a_L|^2L=A^2\) keeps both quantities
-fixed while \(kL/\operatorname{Re}\to\infty\). Envelope, endpoint-contact, and
-remote-return errors still vanish in that regime. A real record/effective
-length cap must therefore come from local record density, selected throughput,
-dynamic recurrence, forced crowd/core geometry, or route-out of the long packet
-as an admissible retained producer.
+Total finite energy and the packet carrier-production proxy do not force the
+K5 record-length cap. The long packet with \(|a_L|^2L=A^2\) keeps both
+quantities fixed while \(kL/\operatorname{Re}\to\infty\). Envelope,
+endpoint-contact, and remote-return errors still vanish relative to production
+in that regime. A real record/effective length cap must therefore come from
+local record density, selected throughput, dynamic recurrence, forced
+crowd/core geometry, or route-out of the long packet as an admissible retained
+producer.
