@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
 completion_truth: >-
   Exact local countermodel to one possible proof route, not a full WKB
   construction, not a dense-crowd theorem, and not a confinement-constant
@@ -30,7 +31,9 @@ completion_truth: >-
   geometry, a positive uniform-mode charge, or actual construction/exclusion.
   The positive uniform-mode alternative is not a local-cell theorem either; the
   uniform-mode follow-up prices it as a rank-one payer / fixed-density branch
-  in the pressure-service overlap bath.
+  in the pressure-service overlap bath. The raw-CZ normalization follow-up
+  adds that apparent pressure-kernel B_M~M in cell-mass coordinates is only
+  density normalization; density-near-uniform legal clouds still defeat it.
   This proves no actual same-solution near-uniform WKB bath and no MPP closure.
 ---
 
@@ -130,6 +133,17 @@ Bounded local or diagonal corrections add at most
 Thus the replicated local cloud retains the selected moment but defeats every
 mean-zero translation-invariant cross charge with bounded local corrections.
 
+The raw-CZ normalization follow-up extends this from exact equal weights to
+density-near-uniform clouds. If \(a_b=(1/M)f_b\), then the raw pressure/CZ
+operator is bounded in \(L^2_\omega\), and apparent mass-coordinate growth
+\(B_M\sim M\) only demands
+\[
+  \|f-1\|_{L^2_\omega}^2\gtrsim1.
+  \tag{NUL.10}
+\]
+So any legal replicated cloud with \(\|f-1\|_{L^2_\omega}\to0\) still defeats
+the raw-kernel residual route.
+
 ## 5. What this kills
 
 This kills the implication
@@ -139,7 +153,7 @@ This kills the implication
   \text{local moment matching}
   \Longrightarrow
   \text{anti-equidistribution of legal clouds}.
-  \tag{NUL.10}
+  \tag{NUL.11}
 \]
 
 Local legality is inherited by translation. Uniform replication is therefore
@@ -178,4 +192,5 @@ translation-invariant cross kernel has that uniform cloud in its zero mode, and
 bounded local corrections also vanish like \(1/M\). Therefore local WKB
 legality plus moment matching cannot prove the Gram gap; the gap must come
 from genuinely global same-packet legality, a separately priced rank-one
-uniform-mode payer, or construction/exclusion.
+uniform-mode payer, density-level anti-equidistribution for raw CZ residuals,
+or construction/exclusion.
