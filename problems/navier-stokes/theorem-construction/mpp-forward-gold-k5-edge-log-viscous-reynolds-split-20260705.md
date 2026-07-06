@@ -25,9 +25,9 @@ completion_truth: >-
   Reynolds family the K5 edge log is closed with an O(1) cap and no seed
   logarithm. Uniformly over high Reynolds it is not closed: the cap grows like
   Re. Therefore K5 yields a Reynolds-weighted edge tax, matching the existing
-  two-payer split: marginal/low-Re pays viscosity, high-Re must pay through
-  return-race/custody/sideband-crowd mechanisms. No full confinement constant or
-  MPP closure is claimed.
+  two-payer split: marginal/low-Re pays viscosity, high-Re must pay through a
+  forced sideband/leakage/crowd trigger, route-out/exclusion, or a genuinely new
+  unweighted mechanism. No full confinement constant or MPP closure is claimed.
 ---
 
 # K5 edge log: viscous Reynolds split
@@ -150,7 +150,7 @@ This is exactly the two-payer split already present in the campaign:
 \[
 \text{low/marginal Re pays viscosity;}
 \qquad
-\text{high Re must pay return-race, custody, or sideband/crowd tax.}
+\text{high Re must pay forced contamination, route-out, or a new unweighted tax.}
 \tag{K5V.9}
 \]
 
