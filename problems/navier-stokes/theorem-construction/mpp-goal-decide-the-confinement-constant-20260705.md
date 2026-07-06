@@ -1282,10 +1282,9 @@ certified positive constant.
    envelope, endpoint-contact, and remote-return errors still vanish relative
    to production in that regime, so a cap \(kL\lesssim\operatorname{Re}\)
    cannot come from total energy plus total production proxy alone. Any real
-   cap must use fixed local record density, fixed selected throughput on a
-   bounded effective subpacket, dynamic recurrence/nonlocal return, forced
-   curve/core/crowd geometry, or route-out of the long packet as an admissible
-   retained producer.
+   cap must use fixed local record density or its bounded selected-throughput
+   alias, dynamic recurrence/nonlocal return, forced curve/core/crowd geometry,
+   or route-out of the long packet as an admissible retained producer.
    Follow-up density-dilution dichotomy filed: for the same long packet,
    \(E_L\sim |a_L|^2L\) and \(p_{\rm loc}\sim s\Pi |a_L|^2\). Endpoint delay
    requires \(kL\gtrsim\operatorname{Re}\). If the retained record branch
