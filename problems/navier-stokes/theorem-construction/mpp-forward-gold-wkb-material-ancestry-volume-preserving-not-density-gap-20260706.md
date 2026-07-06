@@ -31,9 +31,9 @@ completion_truth: >-
   service-coordinate row: carrier-scale drift / phase shear, a fixed service
   moment mismatch, a transport defect with current variation, custody or bank
   variation, or actual construction/exclusion of the near-uniform bath. This
-  proves no such service-coordinate mismatch, no transport-defect vanishing or
-  carriage theorem, no WKB construction/exclusion theorem, no confinement
-  constant, and no MPP closure.
+  proves no positive service row-distance floor for the actual WKB bath, no
+  transport-defect vanishing or carriage theorem, no WKB
+  construction/exclusion theorem, no confinement constant, and no MPP closure.
 ---
 
 # Material ancestry alone is not density anti-equidistribution
@@ -216,6 +216,8 @@ legal cloud from the uniform zero mode. If ancestry helps the Gram gap, it must
 add a non-volume service-coordinate mismatch, a transport-current defect with
 variation, custody/bank variation, or construction/exclusion. Thus "same
 material history" is an admission coordinate, not a density
-anti-equidistribution payer.
+anti-equidistribution payer. A service-coordinate mismatch is priced by the
+follow-up row-distance formula, so it is an explicit payer only after a
+scale-uniform nonzero mismatch is proved.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
