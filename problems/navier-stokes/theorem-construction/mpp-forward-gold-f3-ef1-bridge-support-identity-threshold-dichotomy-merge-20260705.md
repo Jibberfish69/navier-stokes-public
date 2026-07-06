@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-ef1-bridge-support-identity-threshold-dichotomy-merge-20260705
-status: filed-pending-codex-gate
+status: codex-gated-ef1-interface-merged-into-p2-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / the E-f1 interface - support identity, threshold dichotomy, merge into P2
@@ -22,6 +22,12 @@ depends_on:
   - mpp-forward-gold-codex-f3-ga-tax-backing-to-weighted-gate-a-hall-reduction-20260705.md
   - mpp-forward-gold-codex-f3-p1-srp-throughput-front-reduction-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-f3-ef1-bridge-gate-20260705. Accepted as an
+  interface merge, not as clearance. The support identity and
+  fixed-share threshold dichotomy stand in the declared row; the
+  diffuse high tail remains a weighted Gate-A tax-demand family whose
+  backing and summability are P2 and F2/F4.
   Attacks the E-f1 interface (the last P1 open besides the
   gross-production core) by two exact facts and one merge; nothing is
   estimated. (B1 - SUPPORT IDENTITY, EXACT) Under the gated row
@@ -84,6 +90,20 @@ completion_truth: >-
 ---
 
 # F3/E-f1 bridge: one tower, one tax - the interface merges into P2
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-ef1-bridge-gate-20260705`.
+
+Accepted as a merge: the positive scalar row identity gives identical
+null sets/support readouts for SRP and flux-gate row measures, and the
+T3 fixed-share readout gives the high-channel threshold dichotomy.
+Regated as nonclearance: below-threshold high channels are not zero, and
+the per-channel bound does not sum the weighted tower. The diffuse E-f1
+tail is now explicitly a P2 weighted Gate-A tax-demand row, with F2/F4
+owning the summability. P1 still has the \(\kappa_c^{1/2}\)
+gross-production core open.
 
 ## 1. B1: support identity (exact)
 
