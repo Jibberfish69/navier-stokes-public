@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-measure-persistence-production-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md
 completion_truth: >-
   Strict reduction with one proved case. ActualWKBCarrierExtraction.A is proved
   for a fixed finite menu of actual same-solution WKB phase-packet carrier
@@ -27,13 +28,17 @@ completion_truth: >-
   theorem is not proved. If the WKB label moves through a compact continuum, the
   nonzero retained moment gives a nonzero phase-space/microlocal defect profile,
   not necessarily one fixed material packet; that routes to
-  MicrolocalDefectProfileAdmission.A. If the phase-packet measures are not
-  tight in domain, label, or rung coordinates, the escaped positive moment is a
-  selected-carrier tightness defect / Body-III escape, not an invisible
-  admission. Therefore the open general burden is WKB phase-label tightness plus
-  atomic packet capture, or microlocal-profile admission, or construction /
-  exclusion. This note proves no continuum selector theorem, no microlocal
-  admission theorem, no WKB construction/exclusion, and no MPP closure.
+  MicrolocalDefectProfileAdmission.A. The angular-continuum follow-up shows
+  that diffuse direction labels alone are not an independent pressure-service
+  escape: at each bank/station, the Beltrami pressure moment has an exact
+  three-axis quadrature. If the phase-packet measures are not tight in domain,
+  label, or rung coordinates, the escaped positive moment is a selected-carrier
+  tightness defect / Body-III escape, not an invisible admission. Therefore the
+  open general burden is WKB phase-label tightness plus atomic packet capture in
+  the material/center/scale/bank variables, or microlocal-profile admission, or
+  construction / exclusion. This note proves no continuum selector theorem, no
+  microlocal admission theorem, no WKB construction/exclusion, and no MPP
+  closure.
 ---
 
 # Actual WKB carrier extraction: finite menu and the remaining escape
@@ -150,6 +155,30 @@ The existing microlocal-defect test already blocks the cheap upgrade:
 defect visibility does not by itself supply selected positive-carrier payment
 or same-witness admission.
 
+Angular-direction diffuseness is now also separated from the material
+admission problem by
+`mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md`.
+For a positive Beltrami angular profile with total weight \(W\) and
+\[
+  M=\int n\otimes n\,d\mu(n),
+\]
+the pressure moment is
+\[
+  K={W\over3}I-M.
+\]
+Diagonalizing
+\[
+  M=\sum_{a=1}^3m_a e_a\otimes e_a
+\]
+gives the exact identity
+\[
+  K=\sum_{a=1}^3m_aQ_{e_a}.
+\]
+Thus diffuse direction labels do not add a new active pressure-service
+mechanism beyond finite angular moment algebra. The remaining continuum escape
+is material packet admission, microlocal/profile admission, or motion in
+center, scale, bank, envelope, weight, and time.
+
 ## 5. Nontight labels are not invisible
 
 If the WKB phase-packet measures are not tight, the selected-carrier tightness
@@ -195,7 +224,7 @@ ActualWKBCarrierExtraction.A
 is proved for fixed finite phase-packet menus, and remains open exactly at:
 
 ```text
-WKBPhaseLabelTightnessPlusAtomCapture.A
+WKBMaterialScaleBankLabelTightnessPlusAtomCapture.A
 MicrolocalDefectProfileAdmission.A
 WKBConstructionOrExclusion.A
 ```
@@ -206,7 +235,9 @@ This note proves one case and rejects one overclaim. The WKB carrier is actual
 when the retained moment stays in a fixed finite menu of actual same-solution
 phase-packet families. A diffuse or moving phase-space object is not promoted
 to an actual material packet by wording; it is a microlocal/profile admission
-problem or a typed escape.
+problem, typed tightness escape, or material/scale/bank motion. Diffuse
+directions alone have been reduced to exact three-axis pressure-moment
+quadrature and are not a separate WKB service reservoir.
 
 No general WKB carrier extraction theorem, no continuum selector theorem, no
 microlocal-profile admission theorem, no WKB construction/exclusion theorem, and
