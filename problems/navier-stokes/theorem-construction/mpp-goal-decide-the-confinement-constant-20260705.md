@@ -295,8 +295,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     weights span every trace-free Hessian, and scaling gives
     \(E_{\rm ph}\lesssim |K|D^5\), hence the q=4/5 row for overlap pressure.
     Thus static finite-energy pressure/Hodge localization is not the missing
-    payer; the live pressure branch is dynamic same-fluid transport/persistence,
-    Reynolds-edge failure, fixed-density compensator/residue, or
+    payer; at that stage the live pressure branch was dynamic same-fluid
+    transport/persistence, Reynolds-edge failure, fixed-density compensator/residue, or
     construction/exclusion.
     Follow-up affine-transport pressure-bank obstruction filed: on one producer
     clock, an affine producer frame \(B\), \(|B|\sim s\), carries the pressure

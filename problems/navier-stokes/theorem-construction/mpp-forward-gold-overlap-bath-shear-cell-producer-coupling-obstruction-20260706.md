@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact local/periodic-cell obstruction, not a dense-crowd
   theorem and not a confinement-constant decision. The pressure cell is now
@@ -33,10 +34,11 @@ completion_truth: >-
   pressure row. Follow-up producer-curvature subscale obstruction kills generic
   producer curvature as an order-one floor when a high-Re subcell fits below
   the curvature radius. Follow-up subcell Reynolds threshold obstruction types
-  that fit condition as Re_R=sR^2/nu>>beta^(-4/5). Remaining: the
-  Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
-  supercritical fast-motion forcing, and a real dynamic bath construction or
-  exclusion.
+  that fit condition as Re_R=sR^2/nu>>beta^(-4/5). Follow-up
+  affine-transport pressure-bank obstruction prices affine same-fluid custody at
+  beta^(4/5). Remaining: non-affine/broadband same-fluid transport, the
+  Reynolds-edge bridge, Gate-8 no-recount allocation/compensator, and a real
+  dynamic bath construction or exclusion.
 ---
 
 # Overlap bath: shear-cell producer-coupling obstruction
@@ -207,8 +209,9 @@ The remaining pressure-row burdens are:
   failure to record-ladder payment;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
-- supercritical fast-motion forcing, if the exact matrix demands
-  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
+- non-affine/broadband same-fluid transport, including any supercritical
+  fast-motion forcing demanded by the exact matrix after affine custody is
+  priced;
 - or a full summability-valid bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -219,5 +222,5 @@ producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
 additive at instantaneous periodic-cell level; the live pressure branch is now
-the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
-supercritical fast motion, or construction.
+non-affine/broadband same-fluid transport, the Reynolds-edge bridge, Gate-8
+no-recount allocation/compensator, or construction.

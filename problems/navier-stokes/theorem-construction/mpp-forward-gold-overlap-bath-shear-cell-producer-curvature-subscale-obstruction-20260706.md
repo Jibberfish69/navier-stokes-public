@@ -279,8 +279,9 @@ The remaining pressure-row burdens are:
   threshold to a Reynolds-edge bridge;
 - Gate-8 no-recount allocation of pressure-service work into record-ladder
   currency, or a compensator/residue;
-- supercritical fast-motion forcing, if the exact matrix demands
-  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
+- non-affine/broadband same-fluid transport, including any supercritical
+  fast-motion forcing demanded by the exact matrix after affine custody is
+  priced;
 - or a full summability-valid dynamic bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -293,6 +294,6 @@ For the overlap row \(H\sim s^2\beta^{4/5}\), this stays at or below \(H\)
 when the pressure cell sits at scale \(D\lesssim R\beta^{2/5}\). The only extra
 condition is that this subcell remain above the viscous clock,
 \(\nu/(sD^2)\ll1\). Thus curvature does not restore an order-one floor; it
-reduces the pressure branch to the Reynolds threshold bridge, Gate-8
-allocation/compensator, supercritical fast motion, or
+reduces the pressure branch to non-affine/broadband same-fluid transport, the
+Reynolds threshold bridge, Gate-8 allocation/compensator, or
 construction/exclusion.

@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and threshold computation, not a dense-crowd theorem and not
   a confinement-constant decision. The previous notes left "faster-than-
@@ -41,8 +42,10 @@ completion_truth: >-
   co-presence. Follow-up local supercritical-motion obstruction kills the local
   exact-matrix forcing theorem: a same-shape affine history has
   |K_tf|~s^2 beta^(4/5) but omega/s=O(beta^(4/5)), far below beta^(-4/5).
-  The remaining fast-motion branch is global pressure/Hodge matching,
-  boundary/locality forcing, Reynolds-edge failure, or construction/exclusion.
+  Follow-up affine-transport pressure-bank obstruction prices affine same-fluid
+  custody at the same beta^(4/5) row. The current pressure branch is therefore
+  non-affine/broadband same-fluid transport, Reynolds-edge failure,
+  fixed-density compensator/residue, or construction/exclusion.
 ---
 
 # Overlap bath: fast-motion threshold obstruction
@@ -205,8 +208,9 @@ This is not a dynamic bath construction and not a dense-crowd theorem.
 
 The remaining pressure-row burdens are:
 
-- prove global pressure/Hodge matching or boundary/locality forcing imposes the
-  supercritical rate \(\omega/s\gtrsim\beta^{-4/5}\);
+- prove non-affine/broadband same-fluid pressure-bank transport imposes the
+  supercritical rate \(\omega/s\gtrsim\beta^{-4/5}\), or another order-one
+  payer;
 - or prove that any such supercritical demand violates the Reynolds threshold
   \(\operatorname{Re}_R\gg\beta^{-4/5}\) in a way that pays the record ladder or
   suppresses the producer;
@@ -227,6 +231,8 @@ With \(|K|\sim s^2\beta^{4/5}\), this is
 \[
   (\omega/s)\beta^{4/5}E_{\rm prod}.
 \]
-Thus an order-one floor requires \(\omega/s\gtrsim\beta^{-4/5}\); the remaining
-question is global supercritical fast motion, the Reynolds-edge bridge,
-Gate-8 allocation/compensator, or construction/exclusion.
+Thus an order-one floor requires \(\omega/s\gtrsim\beta^{-4/5}\). After the
+local-supercritical, Schwartz-locality, and affine-transport follow-ups, the
+remaining pressure branch is non-affine/broadband same-fluid transport, the
+Reynolds-edge bridge, Gate-8 allocation/compensator, or
+construction/exclusion.
