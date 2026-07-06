@@ -799,6 +799,30 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   Door A / Door C alternatives, or typed route-out. No product pass, Route-3
   pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
 
+  CODEX ROUTE-3 CORNER GUARD ABSORPTION (2026-07-06,
+  codex-route3-corner-guard-absorption): the corner support guard is now
+  branch-local rather than an independent row after a branch certificate is
+  proved. In an interior case, an admissible graph bracket with
+  \(\underline q,\overline q\in J_{b_+}\) already places \(\lambda_+\) on the
+  supported interior graph; the live row is
+  \[
+    L_{b_+}(\overline q)\le\lambda_+\le L_{b_+}(\underline q),
+    \qquad
+    s_+<V_{b_+}(\underline q).
+  \]
+  In a lower-edge case, the value inequality
+  \[
+    s_+<
+    {b_+\over4}
+    \left[b_+(2-e^{b_+})-\lambda_+(2+e^{b_+})\right]
+  \]
+  with \(s_+\ge0\) already forces
+  \(\lambda_+<\Lambda_+^E(b_+)\), so positive edge support is automatic. The
+  mixed lower-edge branch still needs
+  \(\lambda_+\ge\Lambda_-^E(b_+)\); in the all-lower-edge branch that lower
+  selector condition is automatic. No product pass, Route-3 pass, F4,
+  Chapter-10 pass, F5, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
