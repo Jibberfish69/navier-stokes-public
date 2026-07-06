@@ -1061,6 +1061,9 @@ the confinement constant.
    same-packet law is now typed exactly: it must prove a positive
    \(L^2\)-density forbidden ball around the uniform bath, or the near-uniform
    legal bath sequence remains and the task is construction/exclusion.
+   Finite-range nonlinear legality has now been split as well: either it proves
+   an explicit positive local block-distance from the uniform block, or
+   periodic near-uniform legal blocks tile into the surviving bath.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
