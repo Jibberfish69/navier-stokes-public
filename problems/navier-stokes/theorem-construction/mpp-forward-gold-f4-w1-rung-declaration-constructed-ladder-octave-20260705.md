@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-rung-declaration-constructed-ladder-octave-20260705
-status: filed-pending-codex-gate
+status: codex-gated-scoped-rung-declaration-accepted-w1-rho-paid-scope-guarded
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 rho - the rung is declared, the chopper is the other lane's enemy
