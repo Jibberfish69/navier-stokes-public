@@ -745,8 +745,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
      \mathbb P\operatorname{div}(\chi Q)\ne0.
    \]
    Thus a localized Beltrami/WKB defect is not ordinary pressure gauge by
-   itself; remaining pressure-law escapes are multi-stress cancellation, legal
-   defect carriage, or actual-law/tower failure.
+   itself. The Reynolds-null characterization then makes the remaining
+   cancellation branch exact:
+   \[
+     R=qI+S,\qquad \operatorname{div}S=0.
+   \]
+   The \(qI\) part is pressure gauge; the divergence-free \(S\) part is a
+   null-stress certificate invisible to the velocity law but still tested by
+   the other rows. Otherwise the pressure-law branch is legal defect carriage
+   or actual-law/tower failure.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
