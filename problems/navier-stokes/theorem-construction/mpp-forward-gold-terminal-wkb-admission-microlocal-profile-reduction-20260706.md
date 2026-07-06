@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -61,8 +62,12 @@ completion_truth: >-
   close the pressure row. Actual Reynolds origin adds the covariance-ballast
   screen, whose positive trace is unresolved kinetic energy; once that trace is
   admitted at terminal WKB frequency with nonvanishing mass, it is consumed by
-  the same Sobolev/Field readout. The ancestry coordinate has the transport-defect
-  fork, and the cover coordinate has the finite-cover compactness fork.
+  the same Sobolev/Field readout. The positive trace also has explicit cover,
+  ancestry, and tower landings: uncovered trace is Pack-side cover failure,
+  untransported trace energy is Part-side material-history failure, and a trace
+  tower not tied to the same differentiated law is Part-side tower failure. The
+  ancestry coordinate has the transport-defect fork, and the cover coordinate
+  has the finite-cover compactness fork.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -298,6 +303,21 @@ The positive ballast measure \(\mu_R\) has the same cover burden. If it survives
 without a legal finite-cover lift, the branch is Pack-side cover failure rather
 than retained pressure-law supply.
 
+It also has the same non-cover certificate burdens. At the material-history
+level, the ballast-energy current must satisfy
+\[
+  A_R:=J_R-u\rho_R=0
+\]
+in the required graph/current sense, or carry \(A_R\) as a legal
+original-participation defect. At the differentiated-tower level, the ballast
+readout must remain tied to the same velocity tower: the graph defects
+\[
+  G_\alpha=U_\alpha-\partial^\alpha U_0
+\]
+and differentiated flux defects \(R_\alpha\) must vanish or be legally carried.
+Failure of either clause is Part-side material-history or same-law tower loss,
+not retained pressure-null supply.
+
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
 participation failure.
@@ -342,7 +362,7 @@ the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
 ballast-energy ledger, and the transport-defect
 material-ancestry closure fork, and the finite-cover / ballast-cover
-compactness fork, the same-law tower defect fork, the product-assembly theorem,
+compactness fork, the ballast ancestry/tower landing, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
 reducing that residue to common-packet identity compactness, and the
