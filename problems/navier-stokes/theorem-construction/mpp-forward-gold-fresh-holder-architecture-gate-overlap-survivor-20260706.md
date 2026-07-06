@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-jet-static-energy-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
 completion_truth: >-
   Codex gate correction, not a crowd theorem and not a confinement-constant
   decision. The fresh-holder architecture enumeration is valid as a
@@ -41,10 +42,13 @@ completion_truth: >-
   beta^(8/5) cheap ratio. Second affine follow-up says the local dynamic jet
   route also cannot supply the floor: every smooth symmetric trace-free A(t)
   is an exact local Navier-Stokes packet after the pressure Hessian is chosen.
-  Thus the overlap bath may be killed only by a global/material dynamic
-  matrix, tracking/allocation theorem, or it may become an exit-II construction
-  if it satisfies the summability criterion while preserving production. No
-  dense-cell clearance, no composition theorem, and no MPP closure are claimed.
+  Third follow-up says generic time-dependent cutoff/Hodge collar retuning
+  also preserves the cheap beta^(8/5) ratio. Thus the overlap bath may be
+  killed only by exact unforced global dynamics, a nonlocal pressure/Hodge
+  structure, tracking/allocation theorem, or it may become an exit-II
+  construction if it satisfies the summability criterion while preserving
+  production. No dense-cell clearance, no composition theorem, and no MPP
+  closure are claimed.
 ---
 
 # Fresh-holder architecture gate: the overlap bath survives
@@ -123,10 +127,13 @@ import shows that a prescribed trace-free overlap strain jet of size \(G\) on
 scale \(d\) has compact divergence-free realizations with energy
 \(O(G^2d^5)\). The local dynamic affine import also says the symmetric strain
 history \(A(t)\) itself is locally Navier-Stokes-admissible after the pressure
-Hessian is chosen. A uniform floor must therefore be global and material:
-time-dependent matching, pressure/Hodge/collar coupling, tracking/allocation,
-or same-packet allocation. The spatial enumeration, static energy, and local
-affine tracking equations do not consume it.
+Hessian is chosen. The time-dependent collar scaling import says generic
+cutoff/Hodge retuning costs only \(G|\dot A|D^5\), hence remains cheap under
+the filed overlap demand. A uniform floor must therefore use exact unforced
+global dynamics, pressure/Hodge structure beyond norm scaling,
+tracking/allocation, or same-packet allocation. The spatial enumeration, static
+energy, local affine tracking equations, and generic collar scaling do not
+consume it.
 
 ## 5. Four-sentence result
 
@@ -136,5 +143,6 @@ holder vorticity need not vanish on a standoff ball and no fresh localized
 bottom tier is forced. The affine-jet imports kill the local static and dynamic
 floors: the overlap jet can be compactly realized at cost \(O(G^2d^5)\), and
 the symmetric strain history is locally admissible after the pressure Hessian
-is chosen. That survivor is the global/material exact-matrix branch, with the
-summability criterion as its construction test.
+is chosen. The time-dependent collar scaling check also keeps generic retuning
+at the cheap ratio. That survivor is the exact unforced global-material matrix
+branch, with the summability criterion as its construction test.
