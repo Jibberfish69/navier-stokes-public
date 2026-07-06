@@ -59,9 +59,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     raw-Reynolds-budget shortcut is also blocked: total edge dissipation is
     \(O(A_0)\), while total edge production is
     \(O(\operatorname{Re}_\Gamma A_0)\), so the Reynolds factor is a Gate-A
-    weighted readout, not a finite payer. Open: high-Re edge payment through
-    return-race/custody/sideband-crowd or a real Gate-A/Theorem-2 allocation,
-    Lambda_edge/Duffing sign as secondary diagnostic, custody, composition. K3
+    weighted readout, not a finite payer. Same-day trigger/alias follow-ups
+    block the automatic return-race, custody, and installed Gate-A/Theorem-2
+    shortcuts for the pure edge. Open: sideband/crowd payment, route-out or
+    exclusion of the isolated pure edge, or a genuinely new unweighted high-Re
+    mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
+    composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
     not an invariant reduction, because the exact kernel immediately
     bends any producing straight pair. The lifetime object is now
