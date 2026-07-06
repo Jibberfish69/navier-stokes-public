@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-reuse-tracking-floor-kelvin-supply-ledger-20260706
-status: kelvin-closes-supply-ledger-reuse-priced-per-channel-approach-budget-capped-log-edge-typed-against-ourselves-codex-gate-requested
+status: kelvin-closes-supply-ledger-reuse-priced-per-channel-approach-budget-capped-log-edge-typed-against-ourselves-CONSEQUENCE-CORRECTED-SAME-DAY-overlap-bath-remains-live-codex-gate-requested
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / reuse tracking floor (the named display)
