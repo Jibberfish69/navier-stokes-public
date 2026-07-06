@@ -512,6 +512,18 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   Owed: \(T_{\rm slow}\) floor display (p1); band carriage of
   \(B_1B_2\) (p2); convention-consistency check vs the installed
   signed-subwindow/boundary routing (p3).
+  CODEX RE-GATED (codex-adiabatic-return-channel-o1o4-gate):
+  o1 accepted as the package-slot monomial display in finite-chain
+  helical gauge; o2 accepted as a sufficient \(L_\rho\) compact-band
+  display with \(B_1,B_2\) carried as next-rung band caps; o4 accepted
+  as interval bookkeeping once a routing input supplies the lift
+  intervals. o3 is not a convention. It is a new
+  AdiabaticSignRouting theorem requiring a sign representation for
+  \(\rho_{\rm frozen}\), a zero-crossing bound, a carried
+  \(T_*/T_{\rm slow}\) comparison in the correct clock direction, and
+  a charge for mixed periods or a signed-subwindow fallback. The cited
+  finite-chain sources give local-clock handoff control; they do not
+  prove the next return phase is slower than the averaged spring.
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
@@ -524,12 +536,13 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now reduced past pure
-  ParkingCount to the threshold-floor gate: o1 package-slot monomial
-  display + o2 \(L_\rho\) display + o3 one-signed forward-reference
-  routing/signed subwindow split + o4 lift/decay/run cycle bookkeeping
-  + \(C_{\rm TV}T_*\operatorname{drift}_{\rm per}<\delta\) +
-  \((\delta/(q_{\rm per}^--\delta)+2)T_*\rho^-_{\max}/\delta
-  \le f_{\rm dw}<1/2\) (pure bookkeeping routes closed by the F2 no-go;
+  ParkingCount to the threshold-floor gate: o1/o2 paid, o4 bookkeeping
+  accepted after routing; live rows are AdiabaticSignRouting or signed
+  subwindow fallback, plus
+  \(C_{\rm TV}T_*\operatorname{drift}_{\rm per}<\delta\), plus
+  \((\delta/(q_{\rm per}^--\delta)+2)(T_*/\delta)
+  \rho^-_{\max}(1+2T_*/T_{\rm slow}) \le f_{\rm dw}<1/2\)
+  (pure bookkeeping routes closed by the F2 no-go;
   a net extraction law would instead revive the prefix route); pricing completeness
   \(D_j\le C_{\rm pc}E_j\); the parametric RUN row
   \(A_0>C_\delta d_{\rm R4}^+\) with
