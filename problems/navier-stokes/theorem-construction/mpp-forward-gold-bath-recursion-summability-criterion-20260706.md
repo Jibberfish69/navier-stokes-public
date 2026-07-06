@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -39,9 +40,11 @@ completion_truth: >-
   mean-zero constraint does not change q=4/5. Follow-up shear-cell
   time-persistence obstruction checks that constant-direction persistence does
   not change q=4/5 either. Follow-up producer-coupling obstruction checks that
-  a constant affine producer cross term does not change q=4/5. The criterion
-  itself is unchanged. No no-eviction crowd, confinement constant, composition
-  theorem, or MPP closure is claimed.
+  a constant affine producer cross term does not change q=4/5. Follow-up
+  fast-direction tracking obstruction checks that producer-clock retuning of
+  the pressure-Hessian direction also stays inside q=4/5. The criterion itself
+  is unchanged. No no-eviction crowd, confinement constant, composition theorem,
+  or MPP closure is claimed.
 ---
 
 # Bath recursion: energy summability criterion
