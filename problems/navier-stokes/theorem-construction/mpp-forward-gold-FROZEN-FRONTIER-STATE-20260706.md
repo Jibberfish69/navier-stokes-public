@@ -184,6 +184,16 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    \operatorname{drift}_{\rm per}\). Thus the \(\Delta\) source is
    no longer an opaque lower-bound symbol: it is a positive root
    factor times "frozen endpoint margin beats R4 drift."
+   ROOT-FACTOR OBSTRUCTION (Codex, 2026-07-06): the paid
+   swing/root-gap reductions do not themselves imply \(U^->0\). Exact
+   witness: fix \(0<A<B\), take roots
+   \(r_-=\varepsilon,\ r_+=A+\varepsilon,\ r_*=B+\varepsilon\), and
+   choose \(I_1,I_2\) from the Vieta coefficients of the Gate-6 cubic.
+   Then \(r_+-r_-=A\), \(m=A/B\), and \(r_*-r_+=B-A\) are fixed, while
+   \(U_-=r_-(I_1+I_2-2r_-)=\varepsilon(A+B+\varepsilon)\to0\). Thus
+   the root factor needs a genuine bottom-root / phase-invariant floor,
+   or a direct \(\Delta_{\rm G6a}\) interval certification that bypasses
+   this factorization.
    The exact row remains available for direct interval certification.
    REMAINING, exactly: [root-factor lower enclosure] +
    [endpoint frozen margin beating matched R4 drift] +
@@ -196,7 +206,8 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-phi0-package-drain-alias-circularity-check,
    codex-ge-source-floor-substitution,
    codex-product-row-monotone-envelope-after-ge,
-   codex-delta-g6a-factorized-source-row.
+   codex-delta-g6a-factorized-source-row,
+   codex-delta-g6a-root-factor-bottom-root-obstruction.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
