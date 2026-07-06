@@ -1154,7 +1154,10 @@ certified positive constant.
    \(\inf_{Th=K}\|h\|_2=\sqrt{15/2}|K|_F\). In the overlap row
    \(|K|=O(\beta^{4/5})\), so angular mismatch gives only the installed
    \(q=4/5\) pressure-service distance and square charge
-   \(O(\beta^{8/5})\), not a fixed confinement tax.
+   \(O(\beta^{8/5})\), not a fixed confinement tax. The associated minimizing
+   density \(f_K(n)=1-(15/2)n\cdot Kn\) is nonnegative whenever
+   \(\lambda_{\max}(K)\le2/15\), so the beta-small angular bath is not merely
+   a signed-row artifact.
    Transport-current variation has now been split too: \(A=w\rho\) gives the
 	   exact current cost \(|A|=|w|\rho\), but uniform WKB density can carry
 	   nonzero divergence-free relative current. Thus current variation is a
