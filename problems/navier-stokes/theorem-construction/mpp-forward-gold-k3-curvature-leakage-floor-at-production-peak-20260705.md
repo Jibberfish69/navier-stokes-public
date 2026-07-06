@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
 completion_truth: >-
   CODEX GATE SAME DATE:
   mpp-forward-gold-codex-k3-curve-leakage-gate-20260705. Accepted as
@@ -30,8 +31,12 @@ completion_truth: >-
   cannot be treated as a harmless residual. Remaining open: transport of
   this local leakage along the evolving filament curves, possible
   cancellation/reabsorption, core corrections, high-Re edge timing,
-  crowd/bath interaction, and octave composition. No per-encounter cap,
-  constant decision, or MPP closure is claimed.
+  crowd/bath interaction, and octave composition. SAME-DAY FOLLOW-UP:
+  curve leakage alone has a blind point, but the full instantaneous
+  eviction vector \(\mathcal E^2=|\tau_y|^2+|\tau_n|^2+B_d^2\) has the
+  certified pointwise floor \(\mathcal E\ge\sigma/3\) on the producing
+  two-tube profile. No per-encounter cap, constant decision, or MPP
+  closure is claimed.
 ---
 
 # K3 curvature leakage floor at the production peak
@@ -174,3 +179,13 @@ there is exactly \(2\sigma_{\max}\). That proves the residual outside
 the four-variable model is not higher-order weak. It does not prove the
 kill integral; it reduces the next K3 burden to transporting this local
 curve-leakage floor through the evolving filament lifetime.
+
+Same-day follow-up
+`mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md`
+shows why the peak-only statement is not the final instantaneous object:
+curve leakage alone has a blind point, but the combined vector
+\[
+\mathcal E^2=|\tau_y|^2+|\tau_n|^2+B_d^2
+\]
+satisfies \(\mathcal E\ge\sigma/3\) everywhere on the producing
+two-tube profile.
