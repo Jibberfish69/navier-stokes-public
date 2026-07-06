@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -59,7 +60,12 @@ completion_truth: >-
   B_M d_M^2 >= c, while row-drift use requires B_M d_M >= c up to constants.
   The raw-CZ normalization follow-up shows that apparent B_M~M growth from the
   pressure kernel is only density-coordinate normalization; it still demands
-  density-level anti-equidistribution.
+  density-level anti-equidistribution. The finite-certificate follow-up then
+  blocks another shortcut: finitely many bounded compatibility / closed-graph
+  rows do not force that density separation when the uniform density satisfies
+  them. If such rows impose a fixed moment mismatch, the payer is the explicit
+  row mismatch \(\delta^T\mathcal G^\dagger\delta\), not certificate
+  compatibility itself.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
