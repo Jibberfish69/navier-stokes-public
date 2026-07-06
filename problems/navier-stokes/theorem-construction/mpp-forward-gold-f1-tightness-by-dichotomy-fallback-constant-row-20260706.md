@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-tightness-by-dichotomy-fallback-constant-row-20260706
-status: codex-regated-dichotomy-legal-as-split-x1-x2-load-bearing
+status: codex-regated-tail-capacity-reduced-to-spatial-kernel-tail-plus-gate7-routing
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F1 / w1 answered two ways — tightness by the packet/diffuse dichotomy, and the fallback constant row
@@ -19,6 +19,7 @@ authorship: >-
   does not die - it hardens into one fixed comparison for the
   certification chapter.
 depends_on:
+  - mpp-forward-gold-codex-f1-tail-capacity-window-routing-reduction-20260706.md
   - mpp-forward-gold-codex-f1-tightness-dichotomy-regate-20260706.md
   - mpp-forward-gold-codex-f1-two-dial-closure-regate-20260706.md
   - mpp-forward-gold-f1-two-dial-closure-tightness-beats-bad-cone-20260706.md
@@ -62,6 +63,21 @@ bad-cone fork margin. The fallback row is accepted as a genuine
 Chapter-10 comparison that can fail.
 
 F1 actual-NS population is reduced, not cleared.
+
+## Codex tail-capacity reduction, 2026-07-06
+
+Codex follow-up filed at
+`mpp-forward-gold-codex-f1-tail-capacity-window-routing-reduction-20260706.md`.
+The removed tail splits into a separated spatial-kernel tail plus local
+tail interactions. The separated part has a displayed Schur/Schwartz
+kernel bound with decay in the packet-separation parameter. The local
+part is either a sibling coherent window or diffuse remainder by the W1
+merger rule, and therefore reduces to the Gate-7 measurable
+window-decomposition and overlap theorem.
+
+So x2 is displayed for the separated part; x1 and the local-tail part
+are not cleared here. They are reduced to Gate-7 routing plus the
+Chapter-10 margin/fallback rows.
 
 ## R1. Tightness by dichotomy (routing definition + two owed displays)
 
