@@ -301,9 +301,18 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-one-sided-contraction-parti-gate,
    codex-one-sided-product-consumer-rewrite,
    codex-top-bracket-sharp-form-bottom-floor-gap-reduction.
-2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
-   B_end^{ti} (rate into the row, endpoint into the length) or route
-   to Silver/exit. Routing exists; the numerical bound does not.
+2. BoundaryTail fork: sharpened by
+   codex-boundarytail-time-marginal-rate-criterion. Internal retained
+   half-open boundaries contribute zero; the energy high-channel
+   reconstruction tail vanishes in local variation; the helicity
+   high-readout complement is finite-readout/Silver routed. The live
+   pass-side demand is now the time-marginal criterion
+   \(m_{\rm tail}=f_{\rm tail}dt+m_{\rm tail}^{s}\),
+   \(\|f_{\rm tail}\|_{L^\infty_t}\le D_{\rm tail}^{\rm ti}\),
+   with only finite endpoint/flooring singular mass entering
+   \(B_{\rm end}^{\rm ti}\). Failure of the \(L^\infty_t\) rate or
+   non-endpoint singular mass routes to boundary/locality/Gate-A
+   tax/Silver/exit, not Gold rent.
 3. Constants: K_off = Q_W X_max S_max / (r_0(f) tau_min); tau_min >=
    sqrt(1 - m_cap)/6 (exact); Omega_R4 (drift six); D_P2^{ti}
    (displayed, sheet symbols); kappa_min, r positivity (W7).
