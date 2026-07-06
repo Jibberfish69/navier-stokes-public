@@ -236,7 +236,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
     existing pressure row, not an order-one floor. The live pressure branch is
     now producer curvature, same-packet allocation,
-    faster-than-producer forced tracking, or construction/exclusion.
+    supercritical fast-motion forcing, or construction/exclusion.
     Follow-up producer-curvature subscale obstruction filed: if the producer
     gradient varies on radius \(R\), a pressure cell of scale \(D\) creates
     cross Hessian \(|K_{\rm curv}|\lesssim s(D/R)\sqrt H\). For
