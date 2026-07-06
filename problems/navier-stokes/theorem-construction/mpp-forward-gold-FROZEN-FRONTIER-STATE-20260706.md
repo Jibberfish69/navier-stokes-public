@@ -297,26 +297,29 @@ Codex-checked): the financed swing/period floors do NOT imply the
 root-factor floor; the horn is NOT sub-financing under the current
 definition (financed in drain currency); it is NOT a CM/Part face
 failure by itself; the Part-bridge attempt reduces to the same
-missing floor. RATE-GAP COLLAPSE (Codex, 2026-07-06): the lower-root
-floor and the poor-horn comparison are the same finite inequality on
-the exact horn,
+missing floor. RATE-GAP COLLAPSE (Codex, 2026-07-06) plus Fable's
+incompatibility note close the poor-horn comparison route in the
+current source state: pricing the horn below the source floor also
+empties the financed family. CODEX ONE-SIDED GATE (2026-07-06):
+Fable's top-endpoint route is structurally valid but not cleared. The
+surviving product rewrite is
 \[
-  \sup_{\mathcal H_0}
-  {\alpha A\sqrt B\over C_{\rm per}K(A/B)}
-  <
-  r_0(f)\tau_{\min}.
+  \Delta_{\rm G6a}^{\rm top}>0,\qquad
+  c_W^{\rm top}=
+  {\Delta_{\rm G6a}^{\rm top}\over X_{\max}S_{\max}},
 \]
-If it passes, compactness gives the root-factor floor; if it fails,
-the exact horn is a financed root-blind counterfamily to the current
-product row. A root-service participation law is the same missing
-floor in Part language, not a third route. The monotone-envelope row
-stands as the sufficient interval form once the floor exists. Key
-notes:
+with bottom retreat charged to
+\[
+  B_{\rm bot}^{\rm end}=\sum r_-(t_0)
+\]
+inside the length/endpoint row. The monotone-envelope row below is the
+old two-ended envelope until that rewrite is made. Key notes:
 codex-delta-g6a-factorized-source-row,
 codex-delta-g6a-root-factor-bottom-root-obstruction,
 codex-bottom-root-horn-financed-obstruction,
 codex-bottom-root-horn-cm-route-audit,
 codex-bottom-root-rate-gap-collapse,
+codex-one-sided-contraction-parti-gate,
 codex-product-row-monotone-envelope-after-ge.
 
 ## 5. Failure taxonomy (carried verbatim)
