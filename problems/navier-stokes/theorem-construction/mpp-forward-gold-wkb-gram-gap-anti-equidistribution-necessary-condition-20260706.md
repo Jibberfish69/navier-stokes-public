@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -51,7 +52,10 @@ completion_truth: >-
   version is the fixed-density compensator/residue branch. The residual
   follow-up then types the remaining phrase: bounded zero-mode residual
   positivity is precisely the anti-equidistribution burden, and an unbounded
-  residual is a new payer/certificate or construction branch.
+  residual is a new payer/certificate or construction branch. The
+  unbounded-residual follow-up gives the exact product law: with residual
+  operator scale B_M and legal separation d_M, zero-mode residual use requires
+  B_M d_M^2 >= c, while row-drift use requires B_M d_M >= c up to constants.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -237,6 +241,28 @@ same legal anti-equidistribution theorem, measured in the residual metric. A
 residual strong enough to charge near-uniform clouds is unbounded and must be
 treated as a new payer/certificate branch or as construction/exclusion.
 
+The unbounded-residual follow-up gives the exact product criterion. Let
+\[
+  B_M:=\|H_M\|,
+  \qquad
+  d_M:=\inf_{\substack{a\in\mathcal C_M\\ \sum a_b=1}}
+       \|a-u_M\|_2.
+  \tag{AE.18}
+\]
+For a zero-mode residual, a count-free floor requires
+\[
+  B_Md_M^2\gtrsim1.
+  \tag{AE.19}
+\]
+For a row-drift residual, it requires
+\[
+  B_Md_M\gtrsim1
+  \tag{AE.20}
+\]
+up to fixed constants. Thus unbounded residual strength does not remove
+anti-equidistribution; it only changes the scale of separation that must be
+proved, and \(B_M\) itself must be backed by a same-fluid mechanism.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -267,7 +293,7 @@ The cross-cell WKB branch is now:
 \text{near-uniform legal clouds}
   &\Rightarrow \text{Gram gap false; route to profile admission or construction/exclusion}.
 \end{array}
-\tag{AE.18}
+\tag{AE.21}
 \]
 
 This is a smaller burden than the previous Gram-gap label. It says exactly what
@@ -287,7 +313,8 @@ without bounded count, positive identity-fiber charge, or a legal separation
 law, and finite cover is not bounded count. The uniform-mode charge is a
 rank-one payer, priced in the pressure-service overlap bath as the fixed-
 density compensator branch; bounded residual positivity is the same
-anti-equidistribution burden, and unbounded residual positivity is a new
-payer/certificate or construction branch.
+anti-equidistribution burden, and unbounded residual positivity obeys the
+product law \(B_Md_M^2\gtrsim1\) in the zero-mode case or
+\(B_Md_M\gtrsim1\) in the row-drift case.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
