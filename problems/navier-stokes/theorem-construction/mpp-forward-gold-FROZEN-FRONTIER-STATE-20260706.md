@@ -138,22 +138,19 @@ F1 -> (F2 || F3) -> F4 -> F5.
   UniformCenteredPacketTightness plus the financed-source-floor scope
   guard; the phase-sweep v1 theorem remains the secondary route. F1
   actual-NS population is reduced, not cleared.
-  w1 ANSWERED TWO WAYS (Fable, pending gate,
-  f1-tightness-by-dichotomy-fallback-constant-row): (R1) TIGHTNESS
-  BY DICHOTOMY - the W1 packet decomposition already owns a haze
-  account: DEFINE the centered packet = mass within kappa_frame
-  correlation volumes, re-classify the far tail as DIFFUSE
-  REMAINDER (priced: payer 1, bathtub principle); then s(kappa) = 0
-  beyond kappa_frame and UniformCenteredPacketTightness holds BY
-  CONSTRUCTION. Price at installed Section-7 homes, displays owed:
-  x1 payer-1 pricing of the tail; x2 the tail's trilinear forcing
-  on the centered monomial via the locality constants (C_loc <= 9)
-  - the spatial analogue of the bad-cone capacity, same margin
-  bookkeeping. (R2) FALLBACK CONSTANT ROW if the definition is
-  refused: spill pins at 1/8 and the row hardens to the fixed
-  comparison G_e/|d_pkg| > 2 C_tri caps sqrt(1/4 + small) -
-  F4-quarantined. Graceful degradation: dichotomy -> constant row
-  -> typed bad-cone branch. Every ending named.
+  w1 ANSWERED AND CODEX-REGATED (Fable dichotomy note + Codex
+  regate): the packet/diffuse dichotomy is accepted as a legal split,
+  not as a proof of uniform tightness for the original packet leg.
+  Defining the centered packet inside kappa_frame correlation volumes
+  changes the active monomial leg, so the same-fluid ledger must split
+  \(M=M_{\rm ctr}+M_{\rm tail}\). The centered leg has zero spill by
+  definition; the removed tail becomes a new capacity term
+  \({\rm Cap}_{\rm tail}=2\int|M_{\rm tail}|\). Thus x1 and x2 are
+  load-bearing: x1 must price the removed tail in the diffuse
+  residence/tax ledger on the same window, and x2 must bound the tail's
+  trilinear forcing in the same bad-cone fork margin. The fallback
+  constant row is accepted as an honest Chapter-10 comparison that can
+  fail. F1 actual-NS population remains reduced, not cleared.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
@@ -861,4 +858,3 @@ notes.
   dwell-run prefix needs a net-positive extraction law after signed
   debt routing, or an active-clock reformulation where negative
   orientation is already removed.
-
