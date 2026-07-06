@@ -288,6 +288,6 @@ For the overlap row \(H\sim s^2\beta^{4/5}\), this stays at or below \(H\)
 when the pressure cell sits at scale \(D\lesssim R\beta^{2/5}\). The only extra
 condition is that this subcell remain above the viscous clock,
 \(\nu/(sD^2)\ll1\). Thus curvature does not restore an order-one floor; it
-reduces the pressure branch to subcell-room/high-Re admissibility, allocation,
-the Reynolds threshold bridge, allocation, supercritical fast motion, or
+reduces the pressure branch to the Reynolds threshold bridge, allocation,
+supercritical fast motion, or
 construction/exclusion.
