@@ -1614,6 +1614,16 @@ surface, not F4 clearance.
    while multiradius resonant graph closure, nonattainment/accumulation,
    unbounded fragmentation, profile admission/certificate failure, or actual
    construction/exclusion remains open.
+   Follow-up shared-output radius-sum grading filed: for same-helicity Beltrami
+   pairs \(p+q=m\), the projected eigenvalue-gap coefficient lies on the line
+   spanned by \(-i(|p|+|q|)e_\perp+|m|e_n\). Thus two multiradius pairs at the
+   same output cannot cancel across unequal radius-sum grades. The exact local
+   cancellation certificate is now
+   \(\sum_s A_s=0\) and \(\sum_s sA_s=0\), where \(s=|p|+|q|\). One or two
+   radius-sum grades cannot cancel across grades; each grade must cancel
+   internally. The finite live branch is therefore equal-radius-sum internal
+   cancellation, or a three-or-more-grade moment-balanced resonant graph with
+   sideband closure, followed by the same WKB/profile/construction questions.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
