@@ -71,8 +71,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     by taking \(kL\gg\operatorname{Re}\). Follow-up endpoint-return typing
     filed: local endpoint return is not an independent payer; it aliases to a
     record/effective-length cap unless a genuinely nonlocal recirculating
-    influence beats the \(1/(kL)\) and bounded group-speed scaling. Open:
-    follow-up remote-tail obstruction says ordinary distant straight
+    influence beats the \(1/(kL)\) and bounded group-speed scaling. Follow-up
+    remote-tail obstruction says ordinary distant straight
     endpoints/collars decay like \((d/L)^2\sim(kL)^{-2}\) relative to the
     local edge strain, so "genuine nonlocal endpoint return" cannot mean
     remote Biot-Savart leakage. Open: record/effective-length cap, genuinely
