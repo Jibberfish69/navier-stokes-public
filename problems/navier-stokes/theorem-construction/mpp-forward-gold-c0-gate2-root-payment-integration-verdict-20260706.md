@@ -14,6 +14,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-positive-record-retention-source-strict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-gate2-source-strict-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
@@ -33,7 +34,9 @@ completion_truth: >-
   strain/coefficient/commutator clock, equivalently the signed smooth
   same-packet commutator/coercivity line needed to put the material record
   log-growth clock on the prelimit left side. Gate 2 remains the first failed
-  gate.
+  gate. The theta-clock bridge identifies that same unowned clock as the
+  route-b certified surplus-zero material-time profile when retained
+  compactness persists rather than routing out.
 ---
 
 # Gate 2 root-payment integration verdict
