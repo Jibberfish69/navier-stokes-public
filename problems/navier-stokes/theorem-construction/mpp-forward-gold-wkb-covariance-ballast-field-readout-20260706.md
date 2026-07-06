@@ -12,6 +12,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-no-vanishing-horn-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-field-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
@@ -26,7 +27,9 @@ completion_truth: >-
   mu_R lambda_j^(2m). Hence, after same-solution witness admission and the
   differentiated same-law tower through the chosen depth, the installed
   Sobolev/H^s CM theorem routes the branch to Pack/Part/Field failure, with
-  Field as the surviving same-carrier landing. This proves no theorem that the
+  Field as the surviving same-carrier landing. The no-vanishing-horn follow-up
+  records the complementary branch: if normalized mu_R vanishes, then the
+  anisotropic covariance mass vanishes with it. This proves no theorem that the
   positive trace ballast is legally carried through ancestry/cover/tower, no
   WKB profile admission theorem, no WKB construction/exclusion theorem, no
   confinement constant, and no MPP closure.
@@ -163,9 +166,10 @@ certificate/admission failure before it becomes retained WKB supply.
 The PSD Leray-null covariance branch is now:
 
 ```text
-trace ballast vanishes or is nonterminal/intermittent
-or positive trace ballast is admitted at terminal WKB frequency
-   and the Sobolev/Field consumer applies
+trace ballast has positive terminal subtail
+   and the Sobolev/Field consumer applies after admission
+or trace ballast vanishes on the retained terminal witness
+   and the anisotropic covariance defect vanishes with it
 or positive trace ballast is not legally carried through
    ancestry / cover / same-law tower, giving certificate failure
 or the stress is not an actual Reynolds covariance and needs
