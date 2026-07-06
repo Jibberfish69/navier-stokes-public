@@ -155,6 +155,21 @@ F1 -> (F2 || F3) -> F4 -> F5.
   load is finite-readout reconstruction, locality/mollifier tail
   charging, and no-dropped-mass/no-double-tax overlap accounting. F1
   actual-NS population remains reduced, not cleared.
+  GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
+  gate7-greedy-besicovitch-window-construction — filed in parallel
+  with the Codex follow-up; the gate adjudicates overlap): greedy
+  selection of supra-marginal correlation-volume balls on the
+  ACTUAL defect measure (finite on compacts by the local energy
+  inequality); Besicovitch gives countability + overlap <=
+  N_Bes(R^3), a UNIVERSAL INTEGER; Vitali + merger rule give
+  disjointness; EXHAUSTION BY CONSTRUCTION (un-selected remainder
+  sub-marginal on every volume = diffuse, payer-1;
+  infinite-readout silver-routed; nothing dropped); taxes once per
+  (channel, window), N_Bes on the supply side only. Flags: y1 the
+  weak-limit inequality direction (load-bearing, F3 first-contact
+  home); y2 readout stability under bounded merger; y3 the W1
+  coherence clause vs mass-greedy selection; y4 cite the installed
+  m_mu display.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
