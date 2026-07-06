@@ -34,7 +34,10 @@ completion_truth: >-
   transfer matrix must prove that such jets cannot be sustained along the same
   flow while preserving production, or else exhibit a summability-valid dynamic
   bath schedule. No dense-cell clearance, no composition theorem, and no MPP
-  closure are claimed.
+  closure are claimed. Follow-up local-affine dynamic obstruction further says
+  this dynamic branch is not a pointwise affine tracking tax: every smooth
+  symmetric trace-free A(t) is locally Navier-Stokes-admissible after choosing
+  the pressure Hessian, so the remaining dynamic decision is global/material.
 ---
 
 # Overlap bath: affine-jet static energy obstruction
@@ -144,6 +147,12 @@ compatibility argument can kill the overlap-bath branch.
 The overlap-bath branch is dynamic. The exact matrix has to decide whether the
 field can keep supplying these jets while the producer keeps producing.
 
+The local-affine dynamic follow-up narrows what "dynamic" means here. It is not
+a pointwise material-jet obstruction: arbitrary smooth symmetric trace-free
+histories \(A(t)\) are locally admissible after the pressure Hessian absorbs
+\(\dot A+A^2\). The dynamic decision must therefore come from global same-fluid
+matching, pressure/Hodge/collar coupling, allocation, or construction.
+
 There are two possible mathematical outcomes:
 
 1. the joint transfer matrix forces non-shallowing accumulated cost, tracking,
@@ -164,6 +173,7 @@ filed overlap demand \(G=s\beta^{4/5}\) has the cheap ratio
   E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}.
 \]
 Thus static finite energy and local divergence-free matching cannot kill the
-overlap bath. The remaining question is exactly dynamic: whether the joint
-matrix lets such jets persist along the producing flow or forces paid tracking
-and allocation.
+overlap bath. The local dynamic affine equations cannot kill it either. The
+remaining question is global and dynamic: whether the joint matrix lets such
+jets persist along the producing flow or forces paid matching, tracking, and
+allocation.
