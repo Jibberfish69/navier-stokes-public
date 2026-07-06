@@ -74,8 +74,12 @@ completion_truth: >-
   the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
-  peak production to the Crow eigenmode. The doubling comparison (cap
-  vs ln 2, maximized over the interior band) is a chapter-10 item.
+  peak production to the Crow eigenmode. Follow-up:
+  `mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
+  certifies the beta-only sidecar maximum 3*sqrt(3)/(16e) below log 2,
+  excluding single-encounter doubling inside that normalized sidecar.
+  The full doubling comparison (cap vs ln 2, maximized over the
+  interior band with the named intervals) remains a chapter-10 item.
   No closure claimed.
 ---
 
@@ -154,7 +158,10 @@ is handed to the two-payer/custody/crowd mechanisms.
 
 Maximize K over the interior band; compare against ln 2 (the doubling
 comparison). Inputs: Crow dispersion with its core-log constant; Delta;
-the profile factor. No number resolved here by the lane law.
+the profile factor. The beta-only normalized sidecar is resolved in
+`mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`:
+its maximum is \(3\sqrt3/(16e)<\log2\). The full interval \(K(\kappa)\)
+comparison is not resolved here by the lane law.
 
 Same-day K3 correction: the exact two-line kernel does not close on a
 four-variable straight-skeleton ODE. The Crow calculation above is a
