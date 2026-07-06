@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-exponent-recursion-energy-nondecay-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transfer-matrix-same-extent-divergence-bath-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
 completion_truth: >-
   Exact consequence inside the filed scaling model, not a dense-crowd theorem.
   The one-holder amplitude note named the decisive local ratio as minimal
@@ -144,3 +145,10 @@ The remaining question is the up-scale recursion: the filed
 \(\beta_{n+1}=\beta_n^{4/5}\), \(e_n=\beta_n^{8/5}\) model does not self-finance,
 but a different exact matrix/node-sitting schedule or finite-depth composition
 escape remains open.
+
+Follow-up:
+`mpp-forward-gold-bath-recursion-summability-criterion-20260706.md`
+states the exact recurrence condition for that remaining object. The escape
+requires cumulative smallness \(\sum_{j<N}x_j\), with \(\beta_j=e^{-x_j}\),
+large enough that \(\sum_N e^{-q\sum_{j<N}x_j}\) is finite; a shallowing
+power-law cascade cannot do it.
