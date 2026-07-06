@@ -52,7 +52,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     been checked not to supply a uniform high-Re edge cap: for fixed
     admissible edge amplitude, the K5-only cap grows like Re. Open:
     high-Re edge payment through return-race/custody/sideband-crowd,
-    Lambda_edge sign as secondary diagnostic, custody, composition.
+    Lambda_edge sign as secondary diagnostic, custody, composition. K3
+    exact-kernel correction filed: a four-variable straight-pair ODE is
+    not an invariant reduction, because the exact kernel immediately
+    bends any producing straight pair. The lifetime object is now
+    filament-curve evolution or a projected model with curvature-leakage
+    control.
     CROWD STATE (same date, evening): dilute cell DECIDED for the floor
     (monopole vanishing => quartic far-strain decay, adversarial-proof,
     N-independent). Dense same-extent scaffolds strictly supercritical
@@ -93,8 +98,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    self-exit leaves log(seed); viscosity closes the log only with a cap
    proportional to local Reynolds. K5-alone high-Re uniform cap is now
    killed; the remaining edge burden is strictly the high-Re payer.
+   Same-day K3 correction: the exact four-variable straight-skeleton
+   ODE is obstructed; any kill-integral certification must include
+   filament-curve evolution or pay the curvature-leakage residual.
    Kill condition: no high-Re return-race/custody/sideband-crowd payment
-   => the pure neutral edge channel is not uniformly capped.
+   and no curve-leakage payment => the pure neutral/curvature channel is
+   not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
