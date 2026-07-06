@@ -582,6 +582,23 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   Pack/Part/Field/Silver residue. The CKN import fires only after that
   split is matched to the nested parabolic CKN shell quantity and the
   total tail is driven below epsilon.
+  STRIKE ACCEPTED + CORRECTED ATTACK FILED (Fable, pending gate,
+  wiib-strike-accepted-carrier-split-starved-background): (K2) the
+  admitted carrier is fed by GROSS flux, so the same-carrier row is
+  \(D_j^{\rm adm} \le C_{\rm pc}(E_j + X_j)\) with \(X_j\) the
+  CHARGE COLUMN (tax/return/record/debt — priced currencies); owed
+  s1: per-scale charge displays + geometric decay under bounded
+  readout. (K3) THE STARVED-BACKGROUND THEOREM (named, shaped, NOT
+  claimed — the honest hard core of W-II-b): naive entry-energy
+  vanishing FAILS (L2 concentrates at Morrey rate ~ r, CKN
+  borderline), but concentration IS INFLOW and every inflow channel
+  is ledger-priced (nonlinear gross = admitted + charged; pressure
+  flux = F3 near/far); nested-cylinder flux accounting: sustained
+  background CKN mass needs sustained priced inflow; bounded
+  readout + decay of (E_j + X_j) starve the tail; CKN finishes.
+  Owed: s2 pressure-flux nested transcription; s3 carrier-split
+  routing definition; s4 the K3 lemma itself (CKN-style iteration
+  with all sources priced — real PDE work, located not claimed).
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -661,6 +678,11 @@ notes.
   surface: the dwell-run split + A_0 > 6 d_R4^+ on RUN, conditional
   on the net-extraction/Casimir-prefix row, or direct interval
   evaluation of the exact sharp bracket.
+- The UNCONDITIONAL pricing-completeness row D_j^total <= C_pc E_j:
+  STRUCK (amplitude obstruction: quadratic dissipation vs cubic
+  admitted row; no uniform constant on the actual solution class).
+  Use the carrier-split typing D_j^adm <= C_pc(E_j + X_j) plus the
+  starved-background lemma.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
