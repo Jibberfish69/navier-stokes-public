@@ -183,6 +183,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}\) ratio. The overlap branch
     is therefore dynamic: exact matrix, tracking, allocation, or a
     summability-valid construction.
+    Follow-up local-affine dynamic obstruction filed: the local equations also
+    cannot kill the overlap branch. For every smooth symmetric trace-free
+    \(A(t)\), \(u(t,x)=A(t)(x-x_0)\) is an exact local incompressible
+    Navier-Stokes packet after choosing the pressure Hessian
+    \(-(\dot A+A^2)\). Thus a local material-jet tracking tax is not available;
+    the dynamic branch means global same-fluid matching, pressure/Hodge/collar
+    coupling, same-packet allocation, or a summability-valid construction.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -277,8 +284,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    attack on that overlap branch: trace-free overlap strain jets have compact
    divergence-free realizations at cost \(O(G^2d^5)\), hence the filed
    \(\beta^{8/5}\) cheap ratio is exact at static level. The overlap branch is
-   now purely dynamic: exact matrix, tracking/allocation, or a real
-   summability-valid bath construction. The reuse tracking ledger now prices
+   now globally dynamic: the local affine equations allow arbitrary symmetric
+   trace-free strain histories \(A(t)\), with pressure absorbing
+   \(\dot A+A^2\). Therefore the exact matrix must use global same-fluid
+   matching, tracking/allocation, or a real summability-valid bath construction,
+   not a pointwise affine tracking tax. The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
