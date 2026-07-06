@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
 completion_truth: >-
   Strict reduction only. Once an actually backed rank-one uniform-mode payer has
   been separated, any bounded zero-mode residual Gram form is unable to give a
@@ -27,7 +28,10 @@ completion_truth: >-
   A residual strong enough to charge near-uniform clouds despite
   ||a-u||_2 -> 0 must have unbounded operator/row strength; that is a new
   high-frequency or certificate payer requiring same-fluid backing, not a free
-  pressure-kernel Gram gap. This proves no anti-equidistribution theorem, no
+  pressure-kernel Gram gap. The unbounded-residual follow-up makes this exact:
+  with residual operator scale B_M and legal separation d_M, a zero-mode
+  residual floor requires B_M d_M^2 >= c, while a row-drift floor requires
+  B_M d_M >= c up to constants. This proves no anti-equidistribution theorem, no
   unbounded residual payer, no WKB construction/exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -229,6 +233,28 @@ That is not bounded residual positivity. It is a new payer:
 Each item requires same-fluid backing. None follows from the raw mean-zero
 pressure kernel, finite cover, common packet identity, or the rank-one payer
 decomposition.
+
+The follow-up product criterion sharpens the first two items. Let
+\[
+  B_M:=\|H_M\|_{\ell^2\to\ell^2},
+  \qquad
+  d_M:=\inf_{\substack{a\in\mathcal C_M\\ \sum a_b=1}}
+       \|a-u_M\|_2.
+  \tag{RG.21}
+\]
+For a zero-mode residual, a count-free floor requires
+\[
+  B_Md_M^2\gtrsim1.
+  \tag{RG.22}
+\]
+For a row-drift residual, the corresponding necessary condition is
+\[
+  B_Md_M\gtrsim1.
+  \tag{RG.23}
+\]
+Thus unbounded residual strength only weakens the separation scale. It does not
+remove the need to certify the operator growth and the legal separation that
+match it.
 
 ## 6. Crowd-branch ledger
 
