@@ -709,6 +709,24 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   the single lower value \(V_b(\underline q)\). No interval value, product
   pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
 
+  CODEX ROUTE-3 EDGE SIGN REGIME SPLIT (2026-07-06,
+  codex-route3-edge-sign-regime-split): the remaining
+  \(\max\{0,\Lambda_{\rm edge}^-(b)\}\) selector nuisance is removed by the
+  unique root \(\beta\in(0,\log2)\) of
+  \[
+    e^\beta(3+\beta)=6.
+  \]
+  Since \(q_0<2\beta\), the ordered roots are
+  \[
+    {q_0\over2}<\beta<\log2.
+  \]
+  Thus Chapter 10 may split the friendly selector into three regimes:
+  \(2b\le q_0\) gives all supported selectors interior; \(q_0<2b<2\beta\)
+  gives interior for \(0\le\lambda<\Lambda_{\rm edge}^-(b)\) and lower-edge
+  for \(\Lambda_{\rm edge}^-(b)\le\lambda<\Lambda_{\rm edge}^+(b)\); and
+  \(2\beta\le2b<2\log2\) gives all supported selectors lower-edge. No product
+  pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
