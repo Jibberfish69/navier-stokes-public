@@ -10,6 +10,7 @@ authorship: >-
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-production-extremizer-pressure-hessian-frame-rotation-test-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
 completion_truth: >-
   Three cell results toward the confinement constant, each typed. (K1,
   exact) The two-tube deviation space splits into an in-plane tilt sector
@@ -19,11 +20,12 @@ completion_truth: >-
   the two axes in opposite out-of-plane senses: it pumps the
   configuration toward the production-dead skew sector at FIRST order in
   the deviation while production runs at higher order - eviction steers
-  the pair off its own producing set. (K3, named, not proved) The full
-  kill integral - integrated stretch over the configuration lifetime -
-  requires the coupled four-variable geometry ODE (separation, in-plane
-  tilt, skew, closest-point drift) under the exact kernel; NAMED as the
-  next display. Sidecar, certification-typed: importing the classical
+  the pair off its own producing set. (K3, corrected by same-day
+  follow-up) The proposed four-variable exact-kernel ODE is not an
+  invariant reduction: the exact induced velocity profile bends an
+  initially straight producing pair immediately, so K3 must be either
+  filament-curve evolution or a projected model with curvature-leakage
+  control. Sidecar, certification-typed: importing the classical
   Crow e-folding as lifetime gives per-encounter integrated stretch at
   most (3*sqrt(3)/8) * beta^2 * ln(1/beta), maximized in closed form at
   beta = exp(-1/2) with value 3*sqrt(3)/(16e); whether this certifies
@@ -81,10 +83,17 @@ production-dead skew sector at first order in the deviation, while
 production is higher order. The producing set is dynamically repelling
 under the pair's own mutual induction.
 
-## 3. K3: the kill integral (named, not proved)
+## 3. K3: the kill integral (finite ODE obstructed)
 
-The lifetime object is the coupled ODE for (d, in-plane tilt, skew,
-closest-point drift) under the exact kernel. Next display. Sidecar
+Same-day follow-up
+`mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md`
+checks the exact kernel and corrects this target. The four variables
+\((d,\text{in-plane tilt},\text{skew},\text{closest-point drift})\)
+are not an invariant exact reduction: the arclength derivative of the
+induced velocity is not constant, and the second arclength derivative is
+generically nonzero for producing \(\beta\ne0\). K3 is therefore a
+filament-curve evolution problem, or a projected four-variable model
+with an explicit curvature-leakage estimate. Sidecar
 (certification-typed): with the classical Crow e-folding rate as the
 lifetime clock, integrated stretch per encounter is at most
 
@@ -123,8 +132,9 @@ floor at leading order.
 Measured/proved at leading order: pair floor 8*sqrt(3)/9 (max form);
 pointwise ratio cot(2*alpha); skew sector dead; eviction pumps toward
 it; sheets pay more than tubes; self-cell subsumed. Named and open:
-kill integral (K3 display); crowd cell; continuum custody
-(no-free-reassembly); octave composition. Quarantined comparisons:
+kill integral (K3 curve evolution / projected model with residual);
+crowd cell; continuum custody (no-free-reassembly); octave composition.
+Quarantined comparisons:
 Crow-lifetime stretch cap vs ln 2. Kill condition standing: a
 producing class evading both the pointwise ratio and the max floor;
 the crowd cell is the remaining hunting ground.
