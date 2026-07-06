@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scale dichotomy, not a dense-crowd theorem and not a
   confinement-constant decision. The constant-affine coupling note showed that
@@ -30,7 +31,9 @@ completion_truth: >-
   subcell-room condition nu/(sD^2)<<1 together with D/R<=c beta^(2/5), plus
   same-packet allocation or an actual dynamic bath construction/exclusion. If
   no such D exists, the payer is the viscous/high-Re subcell edge, not a new
-  curvature cross-Hessian constant.
+  curvature cross-Hessian constant. Follow-up fast-motion threshold obstruction
+  sharpens the tracking branch: an order-one tracking floor requires
+  omega/s >= beta^(-4/5), not merely faster-than-producer motion.
 ---
 
 # Overlap bath: shear-cell producer-curvature subscale obstruction
@@ -263,8 +266,8 @@ The remaining pressure-row burdens are:
 - proving the subcell room condition (PCS.18) along the actual high-Re record
   ladder, or charging its failure to the viscous/high-Re edge;
 - same-packet allocation of pressure-service work into record-ladder currency;
-- faster-than-producer forced tracking, if the exact matrix demands
-  \(|\dot K|\gg s|K|\);
+- supercritical fast-motion forcing, if the exact matrix demands
+  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - or a full summability-valid dynamic bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -278,4 +281,4 @@ when the pressure cell sits at scale \(D\lesssim R\beta^{2/5}\). The only extra
 condition is that this subcell remain above the viscous clock,
 \(\nu/(sD^2)\ll1\). Thus curvature does not restore an order-one floor; it
 reduces the pressure branch to subcell-room/high-Re admissibility, allocation,
-faster-than-producer forcing, or construction/exclusion.
+supercritical fast motion, or construction/exclusion.
