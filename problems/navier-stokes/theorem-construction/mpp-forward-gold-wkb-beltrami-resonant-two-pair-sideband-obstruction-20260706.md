@@ -184,3 +184,10 @@ It proves no lower bound for closed resonant frequency crowds, no exclusion of
 a cancellation-engineered WKB bath, no actual same-fluid construction, no
 material custody theorem, no dense-crowd theorem, no confinement constant, and
 no MPP closure.
+
+## 7. Later finite-door supersession
+
+The closed finite resonant graph left open here is closed by
+[mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
+The remaining Beltrami-bath question is infinite/dense WKB support plus
+localization, envelope, same-fluid custody, and construction/exclusion.
