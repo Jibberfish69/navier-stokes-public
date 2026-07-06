@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-opening-augmented-worksheet-row-inventory-20260705
-status: codex-gated-inventory-accepted-w4-rent-loaded-product-row
+status: codex-gated-inventory-accepted-w4-rent-loaded-product-row-w5-table-blocker
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F4 / opening - the augmented worksheet frozen as a row inventory
@@ -113,6 +113,16 @@ local retained episode length \(|I_i|\). The F4 row is linear only
 after summing local cell lengths with bounded overlap/time-density.
 The reading "whole worksheet window times \(N_{\rm cells}\)" is
 rejected because it would make W4 quadratic and re-open the sheet.
+
+Constant-table audit filed:
+`mpp-forward-gold-codex-f4-constant-table-completion-audit-20260705.md`.
+W1-W4 are formula-homed but not interval-certified. W5 is named as the
+\(\kappa^{-1/2}\) tax-sufficiency verdict, but the installed P1 source
+explicitly leaves downstream sufficiency of that tax open to F2/F4.
+Therefore W5 is not yet interval-ready. The F4 pass cannot execute as a
+completed sheet until W5 is installed as an exact comparison row,
+merged into W2/W4 by a named re-gate, or struck by a named architecture
+audit. No positivity or interval arithmetic is claimed.
 
 # F4 opening: the sheet, written the night before
 
