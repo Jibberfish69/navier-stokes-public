@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k5-neutral-channel-saturation-pacing-identity-20260705
-status: structure-derived-impulse-lemma-exact-pacing-identity-exact-modulation-coefficient-display-open-codex-gate-requested
+status: CORRECTED-SAME-DAY-2kappa-band-entry-mechanism-dead-by-wavenumber-conservation-impulse-lemma-stands-pacing-identity-conditional-see-mean-detuning-note
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / work item 1 (K5)
