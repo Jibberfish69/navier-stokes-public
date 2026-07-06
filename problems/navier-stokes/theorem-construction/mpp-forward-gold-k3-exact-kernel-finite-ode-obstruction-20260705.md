@@ -165,7 +165,7 @@ The exact replacement object is the curve equation, schematically
 \sum_{j\ne i}
 \frac{\Gamma_j}{2\pi}
 \frac{T_j(s_j,t)\times \rho_{ij}}{|\rho_{ij}|^2}
-\quad
+\quad+\quad
 \text{core/LIA terms},
 \]
 
