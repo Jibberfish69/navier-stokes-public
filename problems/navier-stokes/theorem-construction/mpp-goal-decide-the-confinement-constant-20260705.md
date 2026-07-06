@@ -402,9 +402,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \[
       {1\over2}\log\operatorname{Re}_D-{6\over5}\log {1\over\beta}
     \]
-    in the fixed-density branch. This kills the eternal fixed-carrier bath, but
-    leaves high-Re log reservoir, variable weights, refresh/reassembly, bank
-    retuning, orthogonal-only service, or construction/exclusion.
+    in the fixed-density branch. This kills the eternal fixed-carrier bath, and
+    the follow-up variable-weight ledger prices weight motion by total
+    variation. The remaining WKB doors are high-Re log reservoir,
+    refresh/reassembly custody, bank retuning, orthogonal-only service, or
+    construction/exclusion.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
