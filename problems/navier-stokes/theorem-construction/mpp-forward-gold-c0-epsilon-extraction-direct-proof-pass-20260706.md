@@ -9,6 +9,7 @@ target_object:
   - NormalizedRelayBillCompactnessRecordPassage.A
   - RelayRecordZeroBillKernel
   - FullTowerSignedTotalExchangeRetention.A
+  - ThetaRelayDetectorFaithfulnessOrAffineQuotientPayment.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
@@ -23,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-signed-cycle-kernel-no-go-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-terminal-part-not-three-measure-ownership-no-go-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
@@ -40,7 +42,10 @@ completion_truth: >-
   but leaves that producer open, and the full-tower positive-channel projection
   audit sharpens the uncovered channel to the scale-normalized full material
   strain/coefficient/commutator clock / signed smooth same-packet
-  commutator-coercivity line,
+  commutator-coercivity line, while the zero-payment relay audit shows that the
+  qualitative all-zero relay kernel does not see positive Theta_N service unless
+  detector faithfulness/root-full-exchange visibility or affine-quotient payment
+  is proved,
   and the signed-cycle kernel no-go refutes the direct implication from signed
   four-body cancellation to positive-record retention;
   chapter-2 closedness is finite-readout/conditional rather than tight no-loss
