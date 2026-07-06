@@ -181,16 +181,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     of size \(G\) on scale \(d\) at energy \(O(G^2d^5)\); with
     \(G=s\beta^{4/5}\), this is exactly the cheap
     \(E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}\) ratio. The overlap branch
-    is therefore dynamic: exact matrix, tracking, Gate-8 allocation, or a
-    summability-valid construction.
+    is therefore dynamic: exact matrix, tracking, Gate-8 no-recount
+    allocation/compensator, or a summability-valid construction.
     Follow-up local-affine dynamic obstruction filed: the local equations also
     cannot kill the overlap branch. For every smooth symmetric trace-free
     \(A(t)\), \(u(t,x)=A(t)(x-x_0)\) is an exact local incompressible
     Navier-Stokes packet after choosing the pressure Hessian
     \(-(\dot A+A^2)\). Thus a local material-jet tracking tax is not available;
     the dynamic branch means global same-fluid matching, pressure/Hodge/collar
-    coupling, Gate-8 allocation/compensator, or a summability-valid
-    construction.
+    coupling, Gate-8 no-recount allocation/compensator, or a
+    summability-valid construction.
     Follow-up time-dependent collar scaling obstruction filed: generic
     cutoff/Hodge retuning also stays cheap. For a localized affine packet at
     support scale \(D\) and strain size \(G\), energy is \(G^2D^5\), retuning
@@ -198,7 +198,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     collar work is \(\nu G^2D^3\). With \(G=s\beta^{4/5}\) and producer-clock
     retuning, the per-e-fold collar cost remains \(\beta^{8/5}E_{\rm prod}\).
     The overlap branch now requires exact unforced evolution, nonlocal
-    pressure/Hodge sign structure, Gate-8 allocation/compensator, or
+    pressure/Hodge sign structure, Gate-8 no-recount allocation/compensator, or
     construction.
     Follow-up pressure-source scaling obstruction filed: the pressure Hessian
     retuning source is more expensive than the collar but still not order one.
@@ -237,7 +237,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(\sum_m|\dot c_m|\lesssim|\dot K|\), one producer clock costs
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
     existing pressure row, not an order-one floor. The live pressure branch is
-    now producer curvature, Gate-8 allocation/compensator,
+    now producer curvature, Gate-8 no-recount allocation/compensator,
     supercritical fast-motion forcing, or construction/exclusion.
     Follow-up producer-curvature subscale obstruction filed: if the producer
     gradient varies on radius \(R\), a pressure cell of scale \(D\) creates
@@ -314,11 +314,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
    re-form producing geometry without transit payment. Local split filed
-   and regated; delivery row lift reduced to Gate-8 allocation.
+   and regated; delivery row lift reduced to Gate-8 no-recount allocation.
    Remaining burdens are escrow localization / no-side routing plus the
    existing Gate-8 PDE allocation theorem. Kill condition: a re-assembly
    channel evading thin confiscation, the thick-debris escrow dichotomy,
-   assisted-thick transit payment, and Gate-8 allocation/localization.
+   assisted-thick transit payment, and Gate-8 no-recount allocation/localization.
 4. CROWD CELL - THE SUMMIT, NAMED AS SUCH. (a) dilute limit: floor
    survives superposition with N-independent constant, or the
    interference that beats it; (b) dense limit: direct counterexample
@@ -354,11 +354,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    exponent laws cannot. The finite-depth side is now split: bounded depth is
    killed by geometric demand, while the summable energy-only example requires
    linearly growing depth and is an upscale-cascade threat. That surviving
-   threat needs beta-depth admissibility, same-packet allocation,
+   threat needs beta-depth admissibility, Gate-8 no-recount allocation/compensator,
    reuse/tracking, or PDE impossibility. The fresh-holder architecture gate
    closes only localized spatial fresh support; overlapping smooth/broadband
    bath remains live as the exact matrix / bath-recursion branch, beside reuse
-   tracking and Gate-8 allocation. The affine-jet import kills a static-energy
+   tracking and Gate-8 no-recount allocation/compensator. The affine-jet import kills a static-energy
    attack on that overlap branch: trace-free overlap strain jets have compact
    divergence-free realizations at cost \(O(G^2d^5)\), hence the filed
    \(\beta^{8/5}\) cheap ratio is exact at static level. The overlap branch is
@@ -397,7 +397,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
-   The custody escrow/localization burden and the Gate-8 allocation rows
+   The custody escrow/localization burden and the Gate-8 no-recount allocation rows
    consumed at last or shown unconsumable.
 6. EXTERNAL AUDIT. When pair cell + kill integral are referee-grade
    (one short paper), put them before a professional PDE analyst for

@@ -219,5 +219,5 @@ producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
 additive at instantaneous periodic-cell level; the live pressure branch is now
-the Reynolds-edge bridge, Gate-8 allocation/compensator, supercritical fast motion, or
-construction.
+the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
+supercritical fast motion, or construction.

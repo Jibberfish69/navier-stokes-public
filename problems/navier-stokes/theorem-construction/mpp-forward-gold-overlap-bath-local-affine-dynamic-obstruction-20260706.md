@@ -182,5 +182,5 @@ is an exact local incompressible Navier-Stokes packet once the pressure Hessian
 is chosen. Therefore local strain tracking, magnitude change, and eigenframe
 motion are not automatically taxed at the material-jet level. Any remaining
 floor must come from exact unforced global evolution, nonlocal pressure/Hodge
-structure, Gate-8 allocation/compensator, or else fail by an actual dynamic
-bath construction.
+structure, Gate-8 no-recount allocation/compensator, or else fail by an actual
+dynamic bath construction.

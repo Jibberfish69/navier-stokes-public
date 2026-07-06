@@ -269,4 +269,4 @@ relative retune costs \(O(G^2D^5)\). For the overlap demand
 that cost is \(\beta^{8/5}\) of the producer energy, with quadratic and viscous
 collar terms no larger in the high-Re overlap regime. The remaining decision
 is exact and material: unforced evolution, nonlocal pressure/Hodge structure,
-Gate-8 allocation/compensator, or a real dynamic bath construction.
+Gate-8 no-recount allocation/compensator, or a real dynamic bath construction.

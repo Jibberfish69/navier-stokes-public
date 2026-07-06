@@ -243,5 +243,5 @@ and changing one coefficient costs \(|dc|D^5\). Hence
 \]
 over one producer clock. Producer-clock direction tracking is the existing
 pressure row, not an order-one floor; the remaining pressure branch is the
-Reynolds-edge bridge, Gate-8 allocation/compensator, supercritical fast motion, or
-construction/exclusion.
+Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
+supercritical fast motion, or construction/exclusion.

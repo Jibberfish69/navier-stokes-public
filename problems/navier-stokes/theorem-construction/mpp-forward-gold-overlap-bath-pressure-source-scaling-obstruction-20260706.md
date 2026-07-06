@@ -325,5 +325,5 @@ on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
-through Reynolds-edge allocation, Gate-8 no-recount allocation, supercritical fast
+through a Reynolds-edge bridge, Gate-8 no-recount allocation/compensator, supercritical fast
 motion, or construction.
