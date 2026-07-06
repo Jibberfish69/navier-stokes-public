@@ -28,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -50,11 +51,12 @@ completion_truth: >-
   ballast-energy identities add that trace-free anisotropy forces positive
   unresolved kinetic energy \(\mu_R=(1/2)\operatorname{tr}R\), which must be
   carried by the profile certificates rather than erased as pressure gauge. The
-  product-lift and diagonal-compatibility reductions sharpen the simultaneous
-  lift residue to compactness of one common packet identity coordinate shared
-  by the four rows, and the identity-factorization reduction absorbs that
-  coordinate into the row identity subcoordinates. This note does not prove
-  certificate compactness for
+  ballast-cover landing adds that \(\mu_R\) must lift to the finite-cover
+  certificate or route to Pack-side cover failure. The product-lift and
+  diagonal-compatibility reductions sharpen the simultaneous lift residue to
+  compactness of one common packet identity coordinate shared by the four rows,
+  and the identity-factorization reduction absorbs that coordinate into the row
+  identity subcoordinates. This note does not prove certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
   not prove uniform finite-cover compactness, does not prove tower-defect
@@ -225,6 +227,15 @@ relations, then the cover survives weak-* profile passage. If the cover
 coordinate is projected away, radius collapse, unbounded chart count, escaping
 chart parameters, or overlap/readout incompatibility can occur. This is
 Pack-side carrier-cover failure.
+
+Positive Reynolds ballast energy has the same cover burden. Once the pressure
+row produces
+\[
+  \mu_R={1\over2}\operatorname{tr}R,
+\]
+that positive measure must lift to the finite-cover certificate. If \(\mu_R\)
+survives only as an uncovered observable measure, the first lost certificate is
+\(C_{\rm cov}\), hence Pack-side cover failure.
 
 Material ancestry, original participation, actual pressure law, or same-law
 tower failure:
