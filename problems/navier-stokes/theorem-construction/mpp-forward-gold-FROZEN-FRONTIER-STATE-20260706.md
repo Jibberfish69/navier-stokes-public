@@ -161,8 +161,12 @@ F1 -> (F2 || F3) -> F4 -> F5.
   finite readout: \(\lambda_a=\mathrm{w^*}\!-\lim|\nu_a^\varepsilon|\)
   and \(|\nu_a|\le\lambda_a\). Exhaustion of the total active
   monomial/defect ledger still needs finite-readout reconstruction,
-  eta/locality tail charging, coherence handling, and
-  bounded-merger/readout stability. F1 actual-NS population remains
+  eta/locality tail charging, and coherence handling. Codex accepts z4
+  in coloring form: exact balls plus \(N_{\rm col}\) supply-side
+  multiplicity remove the bounded-merger/readout-stability burden.
+  Codex does not clear z3: W1 Section 7 prices spatial spread but not
+  same-volume incoherence across lineages, so the residual is
+  lineage-disintegration / incoherent-lump routing. F1 actual-NS population remains
   reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
