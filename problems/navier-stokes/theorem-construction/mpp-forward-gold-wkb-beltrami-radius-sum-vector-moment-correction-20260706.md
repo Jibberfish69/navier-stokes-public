@@ -1,6 +1,10 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706
 status: exact-full-3d-fixed-output-vector-moment-certificate
+later_followup: >-
+  The minimal local vector-moment cancellation gadget is tested and shown to
+  leak unique dangerous sidebands in
+  mpp-forward-gold-wkb-beltrami-vector-moment-minimal-gadget-sideband-leak-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -10,6 +14,7 @@ target_object:
   - TwoGradeMultiAzimuthCancellation.POSSIBLE
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-vector-moment-minimal-gadget-sideband-leak-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
 completion_truth: >-
@@ -178,7 +183,9 @@ transverse directions and its amplitudes are chosen accordingly.
 
 This is only a local Fourier-coefficient cancellation. It does not build a
 neutral Beltrami bath, because the added pairs create their own sidebands and
-must satisfy the same graph-closure problem.
+must satisfy the same graph-closure problem. The follow-up minimal-gadget check
+realizes (VM.8) by integer modes and shows that the resulting six-mode cloud has
+unique dangerous sidebands.
 
 ## 6. Updated finite algebra door
 
