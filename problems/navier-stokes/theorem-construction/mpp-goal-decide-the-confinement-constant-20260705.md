@@ -206,6 +206,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(\beta^{4/5}E_{\rm prod}\), while the quadratic part remains
     \(\beta^{8/5}E_{\rm prod}\). The live exact matrix now carries a
     \(q=4/5\) pressure-service row.
+    Follow-up exact shear-cell display filed: the exact mean-zero law for
+    pressure sources corrects the loose signed-packet picture but does not
+    restore the floor. The periodic divergence-free cell
+    \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
+    \(\nabla^2p(0)=(U^2/D^2)(e_1\otimes e_2+e_2\otimes e_1)\), with energy
+    \(U^2D^3=HD^5\). The live pressure branch is now multi-direction
+    superposition, localization, producer coupling, time persistence, and
+    allocation.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -307,7 +315,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    The pressure-source scaling check adds the sharper pressure row:
    producer-clock retuning of the pressure Hessian costs
    \(\beta^{4/5}E_{\rm prod}\), still vanishing but no longer as cheap as the
-   collar.
+   collar. The exact shear-cell check adds that the zero-mean Hodge constraint
+   is not the missing payer: an exact divergence-free mean-zero shear source
+   supplies a nonzero traceless Hessian at the same \(HD^5\) scale.
    Therefore the exact matrix must use exact unforced evolution, nonlocal
    pressure/Hodge structure, same-packet allocation, or a real summability-valid
    bath construction, not a pointwise affine or generic collar tax. The reuse
