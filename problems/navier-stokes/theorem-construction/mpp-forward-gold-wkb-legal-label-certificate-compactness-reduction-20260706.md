@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-assembly-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -45,15 +46,15 @@ completion_truth: >-
   pressure service, or when that defect is itself carried as a legal
   certificate. The product-lift and diagonal-compatibility reductions sharpen
   the simultaneous-lift residue to compactness of one common packet identity
-  coordinate shared by the four rows. This note does not prove certificate
-  compactness for
+  coordinate shared by the four rows, and the identity-factorization reduction
+  absorbs that coordinate into the row identity subcoordinates. This note does
+  not prove certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
   not prove uniform finite-cover compactness, does not prove tower-defect
-  vanishing or legal carriage, does not prove common-packet identity
-  compactness for actual same-fluid WKB packets, does not prove profile
-  admission, does not prove WKB construction/exclusion, does not decide the
-  confinement constant, and does not close the MPP.
+  vanishing or legal carriage, does not prove profile admission, does not prove
+  WKB construction/exclusion, does not decide the confinement constant, and does
+  not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
@@ -355,9 +356,11 @@ phrase: rowwise lifts over the same observable marginal glue automatically when
 no cross-row relation is imposed. The residual same-packet burden is
 cross-certificate compatibility among the law, ancestry, cover, and tower
 coordinates. The diagonal-compatibility note reduces that to compactness of one
-common packet identity coordinate with closed row maps. If that identity
-coordinate fails or a row cannot be tied to it, the first incompatible
-coordinate routes to the same Pack/Part/Field typed failure listed above.
+common packet identity coordinate with closed row maps. The
+identity-factorization note then absorbs that common coordinate into the row
+identity subcoordinates. If an identity subcoordinate fails or a row cannot be
+tied to it, the first incompatible coordinate routes to the same Pack/Part/Field
+typed failure listed above.
 
 ## 7. State
 
@@ -369,7 +372,6 @@ packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
 `WKBTransportDefectVanishesOrCertified.A`, no
 `WKBFiniteCoverCertificateCompactness.A`, no
 `WKBTowerDefectVanishesOrCertified.A`, no
-`WKBCommonPacketIdentityCompactness.A`, no
 `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP
