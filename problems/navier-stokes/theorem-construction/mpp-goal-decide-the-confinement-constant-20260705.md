@@ -1333,6 +1333,17 @@ certified positive constant.
    carries only \(O(L^{-1})\) \(L^p\)-mass. So finite-\(p\) selected
    admission is not record locality; K5 still needs an atomic/local-density
    admission theorem or actual-NS dynamic/geometric route-out.
+   Follow-up finite-selector-menu locality dichotomy filed: finite menu count
+   is not record locality. A one-element menu containing the global spread
+   test \(a_L=L^{-1/p'}\mathbf 1_{[0,L]}e\) reads the same long diluted
+   witness with fixed selected action while bounded cells vanish. Bounded
+   support is the decisive extra hypothesis: if each selected test is
+   supported on \(|J|\le\ell_*\), has \(L^{p'}\)-norm at most \(B\), and one
+   test crosses a fixed threshold \(A_0\), then Hölder gives
+   \(\int_J |G|^p\ge(A_0/B)^p\); for sum scores the floor loses \(M\), so
+   \(M\) must be uniform. Thus K5 needs atomic/bounded-diameter selected
+   record admission, or a paid/exit/admission-failure classification for
+   global length-growing tests.
    Current overlap-bath update, source-audited against the 2026-07-06
    branch-collapse notes: the four global sources named after the local
    mechanisms fell are no longer four independent evasion candidates.
