@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
 completion_truth: >-
   Exact obstruction to one possible identity-side Gram-gap source. A uniform
   finite/readout-compatible cover bounds chart multiplicity, not the number of
@@ -30,8 +31,10 @@ completion_truth: >-
   identity-fiber uniform-mode charge, legal anti-equidistribution, or
   construction/exclusion. The positive uniform-mode option is separately
   priced as a rank-one all-to-all payer and, in the pressure-service overlap
-  bath, as the fixed-density compensator branch. This proves no such extra
-  theorem, no WKB
+  bath, as the fixed-density compensator branch. The finite-certificate
+  follow-up shows that bounded finite compatibility rows do not supply legal
+  anti-equidistribution unless they impose an explicit fixed moment mismatch
+  row. This proves no such extra theorem, no WKB
   construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -194,5 +197,7 @@ moment one. The finite-cover certificate survives with chart count one, while
 diagonal/local square charge is \(1/N\) and the mean-zero uniform-mode cross
 charge is still zero. Therefore bounded effective count per identity fiber is
 an extra microlocal quantization theorem, not a consequence of finite cover.
+Finite bounded certificate compatibility also does not create legal
+anti-equidistribution without an explicit fixed mismatch row.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
