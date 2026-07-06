@@ -206,7 +206,16 @@ For an actual Reynolds defect, there is one more constraint not visible in the
 arbitrary symmetric null class: covariance positivity. A weak quadratic defect
 from velocity products is positive-semidefinite. Therefore a nonzero
 trace-free null stress is not itself an actual Reynolds covariance defect; it
-requires positive scalar trace ballast.
+requires positive scalar trace ballast. In the notation
+\[
+  R={\tau\over3}I+A,\qquad \operatorname{tr}A=0,
+\]
+covariance positivity gives
+\[
+  {\tau\over3}\ge-\lambda_{\min}(A),
+  \qquad
+  \tau\ge\sqrt{3\over2}|A|_F .
+\]
 
 ## 6. Reduced burden
 
@@ -220,9 +229,12 @@ with the following exact split:
 
 ```text
 R = 0
-or R = qI + S with div S = 0 and pressure service adjusted by q
-or R is carried as a legal Reynolds/null-stress certificate
-or actual-pressure-law / tower certificate failure.
+or R is a PSD covariance measure in the null class R = qI + S with div S = 0,
+   with pressure service adjusted by q and positive trace ballast paid for
+   nonzero trace-free anisotropy
+or a signed/non-PSD stress is carried by an explicit legal certificate outside
+   the rung-zero Reynolds covariance claim
+or actual-pressure-law / covariance-ancestry / tower certificate failure.
 ```
 
 The previous "multi-cell cancellation" phrase is replaced by the explicit
@@ -238,8 +250,9 @@ Leray-null stress class:
 \]
 
 What remains unproved is that actual Navier-Stokes WKB terminal packets either
-produce only this null class, legally carry a nonzero null/non-null stress, or
-fall into the typed Pack/Part/Field row failures.
+produce only this PSD null class, legally carry a nonzero PSD null stress and
+its trace ballast through the other rows, or fall into the typed
+Pack/Part/Field row failures.
 
 ## 7. Four-sentence result
 
@@ -253,7 +266,8 @@ The \(qI\) part is pressure gauge; the divergence-free \(S\) part is invisible
 to the velocity equation but remains a tensor defect for the profile ledger.
 This null class contains nonzero compactly supported trace-free anisotropic
 examples \(R_\phi=\nabla^2\phi-(\Delta\phi)I/3\), so anisotropy alone cannot
-close the pressure row.
+close the pressure row. Actual Reynolds origin adds positive covariance
+ballast for any nonzero trace-free anisotropic null component.
 
 ## 8. State
 
@@ -262,7 +276,7 @@ smooth Reynolds stresses and the trace-free Hessian null-stress example.
 
 The covariance-ballast follow-up proves the separate positivity price for
 actual Reynolds defects. This note itself proves no theorem forcing actual
-Navier-Stokes WKB Reynolds defects into the null class, no legal carriage
-theorem for nonzero null stresses through the whole profile, no WKB profile
-admission theorem, no WKB construction/exclusion theorem, no confinement
-constant, and no MPP closure.
+Navier-Stokes WKB Reynolds defects into the PSD null class, no legal carriage
+theorem for nonzero PSD null stresses and their ballast through the whole
+profile, no WKB profile admission theorem, no WKB construction/exclusion
+theorem, no confinement constant, and no MPP closure.
