@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-ledger-first-contact-chronological-queue-suitable-solutions-20260705
-status: filed-pending-codex-gate
+status: filed-codex-regated-chronological-energy-queue-accepted-with-two-demotions
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / ledger formation on actual solutions - first contact
@@ -72,6 +72,32 @@ completion_truth: >-
 ---
 
 # F3 first contact: the local energy inequality IS the chronological queue
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-first-contact-chronological-queue-regate-20260705.md`.
+
+Accepted: the local energy inequality gives an actual chronological
+energy queue on half-open cells, and
+\(\beta=\nu|\nabla u|^2\chi\,dxdt\) is a positive residence budget
+measure on the same solution. Under subordinate retained cutoffs, this
+budget does not recount. In the finite-energy Leray-Hopf/suitable MPP
+scope, the total residence budget is capped by \(E_0\).
+
+Demoted: the global \(E_0\) cap is not a theorem for arbitrary local CKN
+suitable solutions without replacing it by local endowment plus
+boundary/carry terms. Also, the local-energy transport gate
+\(\frac12|u|^2u\cdot\nabla\chi\) is not literally the SRP critical
+production slot
+\(-\mathbb P(u\cdot\nabla u)\cdot\Lambda P_cu\). It is the physical
+cell-gate income that the still-open flux-gate/window transcription
+must connect to SRP channel-cell currency.
+
+F3 remains open on the two producer theorems named by Codex: retained
+throughput/SRP record localization and weighted tail routing; and
+GA-tax backing of actual throughput through the explicit Hall relation,
+or routing of \(dK^{\rm tax}\).
 
 ## 0. Setting and conventions
 
