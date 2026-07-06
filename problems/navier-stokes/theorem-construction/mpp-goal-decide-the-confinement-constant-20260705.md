@@ -53,6 +53,23 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     admissible edge amplitude, the K5-only cap grows like Re. Open:
     high-Re edge payment through return-race/custody/sideband-crowd,
     Lambda_edge sign as secondary diagnostic, custody, composition.
+    CROWD STATE (same date, evening): dilute cell DECIDED for the floor
+    (monopole vanishing => quartic far-strain decay, adversarial-proof,
+    N-independent). Dense same-extent scaffolds strictly supercritical
+    (coherent-channel transfer ratio exactly one at equal spacing +
+    contact floor); surviving escape = extent leverage = THE BATH;
+    bath advanced by the steady-or-tracking dichotomy (relative
+    equilibrium => Burgers balance => zero amplification; tracking
+    power scales with protected production); cheap-inside-bath threat
+    recorded at beta^(8/5); FINAL FORM = the up-scale holding recursion
+    e_oct: fixed floor => (A) via composition starvation; vanishing =>
+    (B) construction. Custody: re-assembly Reynolds threshold filed
+    (quadratic in concentration ratio), thick-debris and
+    payment-identity displays gated. Doubling-comparison certification
+    scope-restricted to the marginal branch per the high-Re
+    obstruction. External-audit paper drafted
+    (external-paper/eviction-production-filament-pair-notes-draft),
+    awaiting owner send decision.
 
 ## Work order (each unit: output + kill condition)
 
