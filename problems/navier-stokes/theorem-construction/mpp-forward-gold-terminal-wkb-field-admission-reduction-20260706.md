@@ -29,11 +29,11 @@ completion_truth: >-
   a retained moment with \(\phi |K|\not\to0\) and \(\lambda\to\infty\) forces
   high \(H^m\) readout for every \(m>1\). By the installed Sobolev/H^s CM face
   theorem, that readout becomes a Field-face failure only after the WKB packet is
-  admitted as a same-solution terminal witness ledger. Therefore the exact
-  same consumer applies to admitted positive covariance trace ballast: retained
+  admitted as a same-solution terminal witness ledger. The same consumer
+  applies to admitted positive covariance trace ballast: retained
   terminal trace energy \(\mu_R\) at carrier frequency \(\lambda_j\to\infty\)
-  gives Sobolev readout of size \(\mu_R\lambda_j^{2m}\). Therefore the exact
-  missing clause is TerminalWKBMomentWitnessAdmission.A: the WKB moment must be
+  gives Sobolev readout of size \(\mu_R\lambda_j^{2m}\). The exact missing
+  clause remains TerminalWKBMomentWitnessAdmission.A: the WKB moment must be
   extracted from the actual same maximal Navier-Stokes branch, with same datum,
   fixed viscosity, actual velocity-pressure evolution, material ancestry or a
   licensed outside-CM original-participation record, finite/readout-compatible
@@ -135,9 +135,11 @@ Thus the implication for the WKB horn is:
 \begin{aligned}
 &\hbox{same-solution terminal WKB witness,}\quad
 \lambda\to\infty,\quad
-\phi D^3|K|\not\to0
-\quad\hbox{or}\quad
-\phi D^3\mu_R\not\to0 \\
+\left(
+  \phi D^3|K|\not\to0
+  \quad\hbox{or}\quad
+  \phi D^3\mu_R\not\to0
+\right) \\
 &\qquad\Longrightarrow
 SobWall_{H^s}(\mathcal W)
 \Longrightarrow
