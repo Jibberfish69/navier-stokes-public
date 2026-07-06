@@ -579,6 +579,19 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    in the fixed-density branch. The remaining WKB branch is therefore
    refreshed/reassembled, bank-retuned, high-Re-log, orthogonal-only, or
    construction/exclusion.
+   The variable-weight refresh ledger now prices the first refresh door. In a
+   WKB log-window of width \(\Delta\), fixed total mixture weight \(W\), and
+   \(V_w=\int\sum_i|D_tw_i|\,dt\),
+   \[
+     \left|\int S:K\,dt\right|
+     \le
+     W\Delta+{\Delta\over2}V_w.
+   \]
+   Thus weight motion cannot supply active service in place. It is endpoint
+   carrier room, \(L^1\) weight variation of the WKB population, or explicit
+   bank-log displacement. This still leaves the high-Re logarithmic reservoir,
+   Gate-8/custody pricing for refresh/reassembly, orthogonal-only service, and
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
