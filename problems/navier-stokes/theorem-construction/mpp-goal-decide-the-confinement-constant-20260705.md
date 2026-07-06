@@ -69,8 +69,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     prohibition - either it already carries the scale-\(d\) energy as
     prior paid residue, or external delivery is required and
     fast-transit increment-cubic total variation pays at pair-energy
-    scale. Remaining custody/composition interfaces: uniform
-    shape-class impulse-energy lower bound, escrow localization, and
+    scale. Codex follow-up pays the uniform shape-class
+    impulse-energy lower bound for vorticity supported at scale \(L\).
+    Remaining custody/composition interfaces: escrow localization and
     row lift onto the same channel-window summands.
     Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
