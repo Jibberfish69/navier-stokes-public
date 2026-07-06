@@ -243,15 +243,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(H\sim s^2\beta^{4/5}\), this stays inside the existing pressure row when
     \(D/R\lesssim\beta^{2/5}\). Thus generic producer curvature is not an
     order-one floor; the remaining pressure branch is the Reynolds-edge bridge,
-    same-packet allocation, supercritical fast-motion forcing, or
+    Gate-8 no-recount allocation/compensator, supercritical fast-motion forcing, or
     construction/exclusion.
     Follow-up fast-motion threshold obstruction filed: with
     \(\omega=|\dot K|/|K|\), one producer clock costs
     \((\omega/s)|K|D^5\), hence
     \((\omega/s)\beta^{4/5}E_{\rm prod}\). Therefore an order-one payer
     requires \(\omega/s\gtrsim\beta^{-4/5}\). The remaining pressure branch is
-    the Reynolds-edge bridge, same-packet allocation, supercritical fast-motion
-    forcing, or construction/exclusion.
+    the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
+    supercritical fast-motion forcing, or construction/exclusion.
     Follow-up subcell Reynolds threshold obstruction filed: a pressure subcell
     fits below the producer curvature radius and above the viscous clock exactly
     when
@@ -260,6 +260,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     fails, but that failure is only a Reynolds-edge obstruction until it is
     allocated to record-ladder payment, producer suppression, or
     construction/exclusion.
+    Follow-up same-packet raw allocation obstruction filed: charging the
+    pressure-service cell to the same Navier-Stokes field still gives only
+    \(E_{\rm ph}(D)/E_{\rm prod}(D)\sim\beta^{4/5}\), and less by \((D/R)^5\)
+    against a larger producer packet. Thus the allocation branch must be
+    Gate-8 no-recount allocation or a positive compensator/residue, not raw
+    same-field energy accounting.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -373,7 +379,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    adds that nonconstant producer gradient creates cross Hessian
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
-   the Reynolds-edge bridge, same-packet allocation,
+   the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
    supercritical fast-motion forcing, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
