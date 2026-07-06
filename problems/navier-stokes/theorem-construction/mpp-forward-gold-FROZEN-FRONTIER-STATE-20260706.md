@@ -99,7 +99,14 @@ F1 -> (F2 || F3) -> F4 -> F5.
   own scope, but the Bernstein amplitude route to the actual-NS
   predator-cone population gate now owes a dynamic packet-amplitude-
   to-monomial participation theorem, or routing of cancellation
-  histories to already priced parking/return/debt/tax channels.
+  histories to already priced parking/return/debt/tax channels. The
+  first reduction of that bridge is now installed as the BAD-CONE
+  CAPACITY FORK: decompose active monomial mass into Bernstein
+  good-angle and bad-cone parts; if financed active monomial exceeds
+  the bad-cone trilinear capacity, good-angle monomial participation
+  is forced; otherwise the remaining branch is bad-cone financing,
+  routed to a finite-band capacity/Chapter-10 row or active-subwindow
+  parking/return/debt/tax transcription.
   Do-not-cite: the static trilinear lower-bound route.
   ROUTING ROUTE TAKEN (Fable, pending gate,
   f1-cancellation-routing-climb-sweeps-phase): cancellation
