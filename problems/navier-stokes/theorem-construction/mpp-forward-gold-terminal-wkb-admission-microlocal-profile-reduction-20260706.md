@@ -18,6 +18,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
@@ -43,6 +45,10 @@ completion_truth: >-
   The closed-graph witness criterion pays the next compactness row: closed
   same-solution legal labels admit the profile support, while nonclosed legality
   gives a limit-of-class / original-participation / carrier-or-tower failure.
+  Certificate compactness names the actual closedness input, and the
+  pressure-law certificate now contains the Reynolds-defect fork: the quadratic
+  defect must vanish modulo pressure gauge with compatible pressure service, or
+  be legally carried as a profile certificate.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -197,6 +203,18 @@ measure level, and same-law tower. Closedness of \(\mathcal L\) admits the
 limiting profile support. Nonclosed \(\mathcal L\) gives legal prelimit labels
 converging to an illegal limiting label, hence limit-of-class /
 original-participation / carrier-or-tower failure.
+
+The certificate-compactness follow-up identifies what closedness means inside
+that label. The actual velocity-pressure law coordinate is not closed by weak
+WKB compactness alone: if
+\[
+  u_j\otimes u_j\rightharpoonup u\otimes u+R,
+\]
+then the limit solves Navier-Stokes-Reynolds with force
+\(-\operatorname{div}R\). Ordinary Navier-Stokes law survives only when
+\(\mathbb P\operatorname{div}R=0\) with compatible pressure service, or when
+\(R\) is carried as part of the legal profile certificate. Otherwise this is
+actual-pressure-law / tower loss, not retained WKB supply.
 
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
