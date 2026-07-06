@@ -150,6 +150,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(C(q,h)=0\) and obeys \(D_hC\,\dot h=-D_qC\,\dot q\), so it is the
     existing node-sitting/tracking-floor problem in exit-vector coordinates,
     with the amplitude tangent and supply-channel caveats still alive.
+    Follow-up amplitude-floor obstruction filed: in the cheap inside-bath
+    scaling, the one-holder energy ratio is \(\beta^{8/5}\to0\), so no
+    fixed local amplitude-supply floor exists at one tier; the live object is
+    the up-scale recursion / exact matrix schedule.
 
 ## Work order (each unit: output + kill condition)
 
@@ -215,7 +219,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    real PDE cancellation schedule that defeats pairwise/current allocation,
    or a non-pairwise crowd geometry. The persistent-cancellation schedule
    itself has now been merged into node-sitting: \(C(q,h)=0\) and
-   \(D_hC\,\dot h=-D_qC\,\dot q\). Finding a genuine
+   \(D_hC\,\dot h=-D_qC\,\dot q\). The one-holder amplitude-supply
+   floor is also locally obstructed in the filed bath scaling:
+   \(E_{\rm bath}/E_{\rm prod}\sim\beta^{8/5}\to0\), so the dense
+   decision sits in the up-scale recursion or a different exact matrix
+   schedule. Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
