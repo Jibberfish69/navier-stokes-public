@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-crowd-bracing-test-spec-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-impedance-law-derivation-attempt-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md
 completion_truth: >-
   Item 4b executed at structure level, reduced to ONE displayed lemma.
   Findings, typed: (B1, structural) Bracing works mechanically - a
@@ -24,7 +25,11 @@ completion_truth: >-
   skew-driven at the order of the brace it supplies. A non-producing
   straight pair used as a brace accumulates skew and dies into the
   production-dead sector unless braced in turn: THE REGRESS. Each
-  scaffold layer holds the previous one and needs holding. (B3, the
+  scaffold layer holds the previous one and needs holding. SAME-DAY
+  FOLLOW-UP: in unallocated ordered-pair TV currency, bracing is paid
+  exactly by the K3 two-tube TV floor; this note's live danger is net
+  vector cancellation before pairwise TV is accepted by the ledger, or
+  a non-pairwise/off-profile crowd geometry. (B3, the
   ledger consequence) A truncated N-layer scaffold fails from the
   outside in; bought lifetime scales like N times the single-layer
   clock, and bought integrated stretch like N times beta - UNBOUNDED
@@ -62,6 +67,12 @@ differential torque across its separation: an external second
 velocity gradient ~ Gamma beta/(pi d^3). A neighboring structure at
 order-one spacing supplies it. The dense crowd can hold a producer in
 its producing pose. The tax is not enforced pairwise.
+
+Same-day clarification:
+`mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md`
+shows that the tax is enforced in unallocated ordered-pair TV currency.
+The sentence above concerns net geometric motion after bracing
+cancellations, not pairwise TV before cancellations are netted.
 
 ## 2. B2: the reaction makes it a regress
 
