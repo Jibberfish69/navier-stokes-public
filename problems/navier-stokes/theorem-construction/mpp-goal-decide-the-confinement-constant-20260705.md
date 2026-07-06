@@ -732,6 +732,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    finite/readout-compatible cover, and same-law tower. Losing any one
    certificate is a Pack/Part/Field typed limit-of-class failure, not retained
    WKB supply.
+   The pressure-law certificate is now split by the Reynolds-defect closure
+   fork: weak WKB compactness preserves the actual NS law only when
+   \(\mathbb P\operatorname{div}R=0\) with compatible pressure service, or when
+   the defect \(R\) is itself legally carried. Otherwise the profile is
+   Navier-Stokes-Reynolds at the law coordinate, which is actual-pressure-law /
+   tower loss, not retained supply.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
