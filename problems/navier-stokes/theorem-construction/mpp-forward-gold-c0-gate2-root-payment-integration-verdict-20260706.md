@@ -13,6 +13,7 @@ target_object:
   - FullTowerPositiveChannelRootProjection.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-positive-record-retention-source-strict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-gate2-source-strict-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
@@ -25,9 +26,14 @@ completion_truth: >-
   record/reset root-payment note gives the right physical time order for the
   missing Gate 2 pawl: the paying record must be parent-known and built from the
   original Navier-Stokes history before selected readout. But its own checked
-  state leaves OriginalHistoryRecordResetRootPayment.A open, and it does not
-  prove that every positive generated full-tower channel in FTR.10 is a
-  projection of that root payment. Gate 2 remains the first failed gate.
+  state leaves OriginalHistoryRecordResetRootPayment.A open. The full-tower
+  positive-channel projection audit also shows that root payment alone does not
+  cover every positive generated full-tower channel in FTR.10: the unowned
+  channel is the scale-normalized full material
+  strain/coefficient/commutator clock, equivalently the signed smooth
+  same-packet commutator/coercivity line needed to put the material record
+  log-growth clock on the prelimit left side. Gate 2 remains the first failed
+  gate.
 ---
 
 # Gate 2 root-payment integration verdict
@@ -156,6 +162,25 @@ Thus the noncircular implication now has two explicit clauses:
 \end{aligned}
 \tag{G2R.8}
 ```
+
+The channel-projection audit sharpens the second clause:
+
+```math
+\begin{aligned}
+&\texttt{SignedSmoothSamePacketCommutatorCoercivity.A}\\
+&+\texttt{SamePacketInterfaceDefectSummabilityOrStrictLoss.A}\\
+&+\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}\\
+&\Longrightarrow
+\texttt{FullTowerPositiveChannelRootProjection.A}.
+\end{aligned}
+\tag{G2R.8a}
+```
+
+The first two lines own the full-tower smooth packet clock and retained
+interface defects. The last two lines own the selected-critical root/payment
+face and ensure the paid selected edge is the record-carrying full-packet edge
+before readout.
 
 Here `FullTowerPositiveChannelRootProjection.A` means: every positive generated
 tower-record channel \(d\mathcal A_N^\kappa\) from `(G2R.3)` is, before
