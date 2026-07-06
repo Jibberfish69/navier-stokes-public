@@ -133,8 +133,8 @@ affine tracking equations do not consume it.
 The fresh-holder enumeration closes localized spatial holders, not every fresh
 holder. A smooth or broadband bath can overlap the producer region, so the
 holder vorticity need not vanish on a standoff ball and no fresh localized
-bottom tier is forced. The affine-jet import also kills any static energy floor:
-the overlap jet can be compactly realized at cost \(O(G^2d^5)\). The local
-dynamic affine import kills a pointwise tracking floor for the symmetric strain
-jet. That survivor is the global/material exact-matrix branch, with the
+bottom tier is forced. The affine-jet imports kill the local static and dynamic
+floors: the overlap jet can be compactly realized at cost \(O(G^2d^5)\), and
+the symmetric strain history is locally admissible after the pressure Hessian
+is chosen. That survivor is the global/material exact-matrix branch, with the
 summability criterion as its construction test.
