@@ -11,6 +11,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-edge-uniform-cap-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-return-race-handoff-premise-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-impulse-ledger-reassembly-threshold-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md
@@ -26,8 +27,10 @@ completion_truth: >-
   displacement over distance d, and no stored-energy escrow/delivery event.
   Thus the installed custody payment has no trigger on the pure edge branch.
   Custody can pay only after a separate theorem produces reassembly, refresh,
-  destruction, or delivery in the same-packet episode. No confinement constant,
-  crowd theorem, custody theorem, or MPP closure is claimed.
+  destruction, or delivery in the same-packet episode. Same-day Gate-A follow-up
+  says installed Gate-A/Theorem-2 allocation is not an independent pure-edge
+  payer. No confinement constant, crowd theorem, custody theorem, or MPP closure
+  is claimed.
 ---
 
 # K5 high-Re edge: custody needs a trigger
@@ -124,9 +127,9 @@ not
   \text{custody payment}.
 \]
 
-Custody remains useful for any sideband, curve-leakage, refresh,
-destruction, or crowd mechanism that actually creates the reassembly
-episode. It does not pay the pure high-Re edge by name.
+Custody remains useful for any sideband, curve-leakage, refresh, destruction,
+or crowd mechanism that actually creates the reassembly episode. It does not
+pay the pure high-Re edge by name.
 
 ## 5. Four-sentence result
 
@@ -135,6 +138,6 @@ K5 pure high-Re edge is an intact near-neutral mode with production and
 slow damping, so it supplies no debris transit, no fast relative
 reassembly, and no stored-energy escrow event. Therefore the installed
 custody packet has no positive charge on the pure edge branch. The K5
-high-Re branch still needs sideband/crowd, Gate-A/Theorem-2 allocation,
-or a separate theorem that first creates a financed handoff or custody
-trigger.
+high-Re branch still needs sideband/crowd, route-out/exclusion, a separate
+theorem that first creates a financed handoff or custody trigger, or a new
+unweighted high-Re mechanism.
