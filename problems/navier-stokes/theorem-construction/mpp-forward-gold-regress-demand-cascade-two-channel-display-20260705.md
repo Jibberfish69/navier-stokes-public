@@ -51,6 +51,30 @@ completion_truth: >-
   (differential, coherent, in-plane). No closure claimed.
 ---
 
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md`.
+
+Accepted: the single-channel regress non-decay lemma is false at wide
+spacing. At \(\rho_s>\beta^{-1/5}\), the differential back-demand ratio
+is \(<1\). Also accepted as scaling pressure: at the threshold
+\(\rho_s=\beta^{-1/5}\), coherent rotation scales like
+\[
+  s\beta^{4/5},
+\]
+which is faster than the skew demand \(s\beta\) and the production
+clock \(s\beta^2\) for \(0<\beta<1\).
+
+Regated: this is not yet a dense-cell decision. The exact joint
+transfer matrix on differential, coherent, and any distinct in-plane
+demand channels has not been displayed; channel completeness has not
+been proved; and the exponent cascade is not yet a spectral-radius
+theorem. The live burden is now the finite transfer matrix with exact
+dipole-kernel coefficients, strength/spacing bookkeeping, and the
+admissible schedule domain. No confinement constant or MPP closure is
+claimed.
+
 # Regress demand cascade: two channels, one transfer matrix
 
 ## 1. The correction (against my own B4)
