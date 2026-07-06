@@ -184,7 +184,7 @@ future-positive selections from those coordinates are stored by the same parent
 before readout.
 
 Thus the four-gate proof of
-`NormalizedRelayBillCompactnessRecordPassage.A` is not installed. Gate 1 remains
-the first failed gate. Gate 4 adds the source-address escape: a unit record may
+`NormalizedRelayBillCompactnessRecordPassage.A` is not installed. Gate 1 is now
+supplied, and Gate 2 is the first failed gate. Gate 4 adds the source-address escape: a unit record may
 survive as scalar work while failing to survive as the same retained relay
 record owned by the parent packet.
