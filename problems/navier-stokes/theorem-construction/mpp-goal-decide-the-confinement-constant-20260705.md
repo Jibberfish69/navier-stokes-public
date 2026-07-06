@@ -1111,6 +1111,14 @@ certified positive constant.
    dense-crowd evasion surface is persistent high-Re WKB / broadband
    construction, fixed-density compensator routing, or construction/exclusion
    of the near-uniform same-fluid WKB bath.
+   Follow-up fixed-density compensator branch collapse filed: the compensator
+   is not itself an evading producing class. It is a producer-sized missing-tax
+   residue. Without local same-packet row formation it is Pack/routed residue;
+   with row formation it is Part-side failure unless routed; on a retained pass
+   branch it vanishes unless it has left the retained row. Therefore the
+   undecided dense-crowd evasion surface is now the actual same-fluid bath:
+   persistent high-Re WKB / broadband construction, or construction/exclusion
+   of the near-uniform same-fluid WKB bath.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
