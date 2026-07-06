@@ -1342,3 +1342,23 @@ notes.
   dwell-run prefix needs a net-positive extraction law after signed
   debt routing, or an active-clock reformulation where negative
   orientation is already removed.
+
+## 8. Codex W-0 scope audit (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0-faithfulness-bridge-scope-audit-20260706.md`.
+This is a strict reduction, not a clearance.
+
+W-0 is now scoped as two bridge obligations:
+
+1. **W0-A, selected handoff production:** actual selected NS packet
+   \(\to\) financed same-packet single-package handoff with \(f>0\),
+   while nonselected local residue is either carried by Chapter-10
+   finite rows, charged to locality/tail/Gate-A accounts, or routed out.
+2. **W0-B, same-packet lineage:** the selected handoffs compose as one
+   same-fluid no-recount lineage, or failure routes to the global
+   transport / material-time Liouville / Silver exit surfaces.
+
+The finite-chain Manley-Rowe, Casimir, H-row, and return-race rows remain
+conditional consumers of W0-A/W0-B. W-0 is not paid by Chapter 10 and is
+not itself a numeric interval row.
