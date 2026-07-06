@@ -813,6 +813,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    legally carried. Otherwise the profile has lost original participation /
    same-fluid history, which is Part-side certificate loss rather than retained
    WKB supply.
+   The legal-carriage branch now has an exact current-variation floor: if the
+   same packet mass carries the hidden current, then \(A=w\rho\) and
+   \(|A|=|w|\rho\); a singular current relative to \(\rho\) needs added legal
+   ancestry mass/current or is material-history failure.
    The finite-cover certificate is now split by the cover-compactness fork:
    profile measures must lift to a uniformly bounded finite readout-compatible
    cover with compact chart parameters and closed overlap/readout constraints.
