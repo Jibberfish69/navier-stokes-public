@@ -1100,6 +1100,17 @@ certified positive constant.
    supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
    bridge; the fixed-density compensator/residue branch; or construction /
    exclusion of the near-uniform same-fluid WKB bath.
+   Follow-up Reynolds-edge branch collapse filed: the Reynolds edge is not an
+   independent evasion source. Its refresh row has density
+   \(r_{\rm ref}\sim\phi\beta^{-8/5}/\operatorname{Re}_D\) on the producer row.
+   Against a fixed tax \(\theta_0\), either \(r_{\rm ref}\ge\theta_0\) and the
+   edge pays, or \(r_{\rm ref}<\theta_0\) and the exact deficit
+   \((\theta_0-r_{\rm ref})_+\mu_{\rm prod}\) is the fixed-density
+   compensator, or \(\operatorname{Re}_D\theta^2\gg1\) and the branch is the
+   persistent high-Re WKB construction/exclusion problem. Thus the undecided
+   dense-crowd evasion surface is persistent high-Re WKB / broadband
+   construction, fixed-density compensator routing, or construction/exclusion
+   of the near-uniform same-fluid WKB bath.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
