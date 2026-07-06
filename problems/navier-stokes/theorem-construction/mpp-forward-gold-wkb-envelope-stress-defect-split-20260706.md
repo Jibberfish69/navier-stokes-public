@@ -9,6 +9,7 @@ target_object:
   - WKBModulationCertificateBurden.ACTUAL-NS
   - WKBReynoldsDefectVanishesOrCertified.A
   - WKBEnvelopeStress.NULL-OR-CERTIFIED
+  - IsotropicPressureGauge.NO-ACTIVE-SERVICE
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-constant-beltrami-bath-model-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
@@ -83,6 +84,12 @@ while
 For a same-helicity shell or a positive angular mixture, \(C_b\) is a positive
 semidefinite covariance matrix. Its scalar part can be absorbed into pressure,
 but its anisotropic part is the pressure-service shape.
+
+The follow-up isotropic/null split sharpens this sentence: the scalar part is
+only pressure gauge. It contracts to zero against incompressible strain and
+therefore carries no active trace-free service. Any active WKB service is in
+the trace-free anisotropic part, which must pass the Leray-null / certificate /
+failure split rather than hide as scalar pressure.
 
 Thus the leading high-frequency passage is not
 \[
@@ -206,6 +213,12 @@ failure.}
 
 This is smaller than "construct or exclude the WKB bath." It is the
 modulation/pressure-law subgate of that construction/exclusion problem.
+
+Follow-up:
+`mpp-forward-gold-wkb-isotropic-null-vs-active-service-split-20260706.md`
+separates the pressure-gauge horn from the active-service horn. Pure scalar
+covariance is Leray-null and service-zero; trace-free covariance is the only
+service-bearing branch and re-enters the exact null/certificate/failure fork.
 
 ## 7. Four-sentence result
 
