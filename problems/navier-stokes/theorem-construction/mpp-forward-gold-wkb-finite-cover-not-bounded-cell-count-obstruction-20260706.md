@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
 completion_truth: >-
   Exact obstruction to one possible identity-side Gram-gap source. A uniform
   finite/readout-compatible cover bounds chart multiplicity, not the number of
@@ -27,7 +28,10 @@ completion_truth: >-
   obstruction is not supplied by the finite-cover certificate itself. It would
   have to be an extra microlocal quantization/extraction theorem, a positive
   identity-fiber uniform-mode charge, legal anti-equidistribution, or
-  construction/exclusion. This proves no such extra theorem, no WKB
+  construction/exclusion. The positive uniform-mode option is separately
+  priced as a rank-one all-to-all payer and, in the pressure-service overlap
+  bath, as the fixed-density compensator branch. This proves no such extra
+  theorem, no WKB
   construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -167,7 +171,7 @@ Thus the identity-side Gram branch is now:
 \[
 \begin{array}{ll}
 \text{positive identity-fiber uniform-mode charge}
-  &\Rightarrow \text{new all-to-all payer},\\[1mm]
+  &\Rightarrow \text{rank-one payer / priced compensator branch},\\[1mm]
 \text{legal anti-equidistribution}
   &\Rightarrow \text{possible admissible-cone Gram gap},\\[1mm]
 \text{microlocal bounded effective count}
