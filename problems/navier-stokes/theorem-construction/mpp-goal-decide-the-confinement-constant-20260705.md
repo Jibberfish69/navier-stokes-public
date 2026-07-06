@@ -859,6 +859,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    common packet identity coordinate. The identity-factorization reduction then
    absorbs that coordinate into the row identity subcoordinates, or else the
    first incompatible coordinate routes to Pack/Part/Field.
+   The WKB profile no-supplier trichotomy now records the profile-level
+   endpoint: a tight WKB profile with stabilized scalar moment and legal
+   certificate surface is either admitted and consumed by the Field readout, or
+   the first failed certificate routes to Pack/Part, or the tight stabilized
+   profile never formed. This removes retained WKB supply as an independent
+   profile-level branch; it does not prove the row certificates, the Gram gap,
+   or construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
