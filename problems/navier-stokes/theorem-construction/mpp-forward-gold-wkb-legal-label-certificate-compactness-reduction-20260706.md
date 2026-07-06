@@ -26,6 +26,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -44,11 +46,15 @@ completion_truth: >-
   fork: weak WKB passage preserves the actual velocity-pressure law only when
   the quadratic defect has zero Leray-projected divergence with compatible
   pressure service, or when that defect is itself carried as a legal
-  certificate. The product-lift and diagonal-compatibility reductions sharpen
-  the simultaneous-lift residue to compactness of one common packet identity
-  coordinate shared by the four rows, and the identity-factorization reduction
-  absorbs that coordinate into the row identity subcoordinates. This note does
-  not prove certificate compactness for
+  certificate. In the nonzero PSD null branch, the covariance-ballast and
+  ballast-energy identities add that trace-free anisotropy forces positive
+  unresolved kinetic energy \(\mu_R=(1/2)\operatorname{tr}R\), which must be
+  carried by the profile certificates rather than erased as pressure gauge. The
+  product-lift and diagonal-compatibility reductions sharpen the simultaneous
+  lift residue to compactness of one common packet identity coordinate shared
+  by the four rows, and the identity-factorization reduction absorbs that
+  coordinate into the row identity subcoordinates. This note does not prove
+  certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
   not prove uniform finite-cover compactness, does not prove tower-defect
@@ -241,6 +247,17 @@ with pressure-service coordinates adjusted consistently. Otherwise the limit is
 Navier-Stokes-Reynolds, not an admitted same-solution NS profile. Thus
 \(C_{\rm law}\) is compact/closed only after the Reynolds defect vanishes
 modulo pressure gauge or is itself carried as a legal certificate.
+
+For an actual covariance defect, legal carriage also has an energy coordinate.
+If \(R\ge0\), then
+\[
+  \mu_R={1\over2}\operatorname{tr}R
+\]
+is the unresolved kinetic-energy defect. When \(R\) is Leray-null, the force
+may be absorbed into pressure, but \(\mu_R\) remains in the profile ledger. So
+a nonzero PSD null branch closes \(C_{\rm law}\) only after both the pressure
+gauge coordinate and the trace-energy coordinate are retained by the certificate
+topology.
 
 The material-ancestry certificate has the parallel exact subtest. At path
 level, material trajectories close under limits only when the flow maps
