@@ -829,6 +829,14 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(D_j\), and \(C_j^{1/3}D_j^{2/3}\) through admitted/charge/F3
   pressure/BoundaryTail/ExcessTail/CM-Silver homes. The CKN import
   fires only after those sources are priced or routed.
+  CODEX K3 SOURCE-PRICING PAYMENT (codex-k3-sourcepricing-pressure-
+  collapse): the pressure source is not independent. The Leray pressure
+  near field obeys \(D_j^{\rm near}\le C_\sigma C_{j-1}\); the far
+  field is the already gated cube-decay annular tail. Since
+  \(C_j^{1/3}D_j^{2/3}\le C_j/3+2D_j/3\), the whole K3 source list
+  reduces to adjacent local cubic sources \(C_j,C_{j-1}\) plus routed
+  far-pressure tail. Remaining K3.SourcePricing burden:
+  K3.CubicSourcePricing.A.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -983,8 +991,9 @@ notes.
   STRUCK (amplitude obstruction: quadratic dissipation vs cubic
   admitted row; no uniform constant on the actual solution class).
   Use the carrier-split typing D_j^adm <= C_pc(E_j + X_j) plus the
-  K3 Caccioppoli source row, with \(C_j\), \(D_j\), and
-  \(C_j^{1/3}D_j^{2/3}\) priced or routed.
+  K3 Caccioppoli source row. Pressure has collapsed to adjacent cubic
+  source plus far-tail routing; the remaining K3 source wall is
+  K3.CubicSourcePricing.A.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
