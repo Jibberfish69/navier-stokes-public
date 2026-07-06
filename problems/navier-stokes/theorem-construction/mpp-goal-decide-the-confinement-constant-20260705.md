@@ -530,6 +530,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \]
    Outside this window, the branch pays through cutoff/Hodge drift or residual
    energy.
+   The support-density split adds the occupancy law
+   \(\phi=N\theta^3\lesssim1\). If the WKB bath must back a fixed retained
+   density, then \(N\sim\theta^{-3}\), so the \(q=4/5\) row forces
+   \(\theta\lesssim\beta^{6/5}\). The rest of the WKB window is sparse
+   support and routes to compensator / nonlocal allocation / construction-or-exclusion,
+   not to a backed fixed-density retained tax row.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
