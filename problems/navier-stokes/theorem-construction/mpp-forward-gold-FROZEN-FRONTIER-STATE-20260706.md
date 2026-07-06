@@ -880,6 +880,21 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   existing CM face grammar. Remaining K3 burdens: CarrierSplit.Def.A,
   ChargeColumnDecay.A, PassiveL3TimeReadout.A, and reserve/boundary
   routing.
+  CODEX K3 CARRIER SPLIT DEFINITION PAYMENT (codex-k3-carriersplit-
+  definition-first-contact-partition): CarrierSplit.Def.A is paid as a
+  definition/no-recount theorem only. On the countable retained active
+  carrier family, the half-open first-contact order defines measurable
+  pieces of the same residence-dissipation measure
+  \(d\beta=\nu|\nabla u|^2dxdt\): \(A_a=S_a\setminus\cup_{b\prec a}S_b\),
+  \(d\beta_a^{adm}=1_{A_a}\chi_a\,d\beta\) (or the equivalent
+  subordinate-cutoff weighted split). The admitted carrier measures are
+  disjoint/subordinate, so \(\sum_a\beta_a^{adm}\le\beta\), and the
+  complement is background/passive/reserve-tail. This supplies the
+  measurable \(D^{adm}/D^{bg}\) split required by the active two-coin
+  reduction. It does not prove \(\beta^{adm}\lesssim X_j\), geometric
+  charge decay, PassiveL3TimeReadout.A, or reserve/boundary routing.
+  Remaining K3 burdens: ChargeColumnDecay.A, PassiveL3TimeReadout.A,
+  and reserve/boundary routing.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
