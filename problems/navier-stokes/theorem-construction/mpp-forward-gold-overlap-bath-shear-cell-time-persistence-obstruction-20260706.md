@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The exact shear-cell display supplies any
@@ -33,8 +34,8 @@ completion_truth: >-
   modes, whose Hessian at the station vanishes. Follow-up fast-direction
   tracking obstruction kills the producer-clock tracking floor: retuning the
   supplied Hessian direction costs |K|D^5 over one producer clock. What remains
-  is subcell/high-Re admissibility, same-packet allocation, faster-than-producer
-  forced tracking, or a full dynamic bath construction.
+  is subcell/high-Re admissibility, same-packet allocation, supercritical
+  fast-motion forcing, or a full dynamic bath construction.
 ---
 
 # Overlap bath: shear-cell time-persistence obstruction
@@ -183,8 +184,8 @@ pressure-row burdens are now:
 - subcell/high-Re admissibility for localizing the shear cell into a producing
   field with nonconstant gradient;
 - same-packet allocation of the pressure service into record-ladder currency;
-- faster-than-producer forced tracking, if the exact matrix demands
-  \(|\dot K|\gg s|K|\);
+- supercritical fast-motion forcing, if the exact matrix demands
+  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - or a full summability-valid dynamic bath construction.
 
 ## 7. Four-sentence result
@@ -202,4 +203,4 @@ so over one producer clock the relative drift is
 \(\beta^{2/5}+\nu/(sD^2)\). Constant-direction pressure service therefore
 does not restore an order-one floor; after the follow-up tracking check, the
 live pressure branch is subcell/high-Re admissibility, allocation,
-faster-than-producer forcing, or construction.
+supercritical fast motion, or construction.
