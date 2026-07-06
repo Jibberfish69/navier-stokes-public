@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -53,9 +54,12 @@ completion_truth: >-
   The terminal ballast-readout follow-up consumes the admitted nonzero-trace
   branch: positive terminal trace energy at carrier frequency
   lambda_j -> infinity gives high Sobolev readout of size
-  mu_R lambda_j^(2m). This proves no legal carriage theorem for the positive
-  energy ballast through ancestry/cover/tower, no profile admission theorem, no WKB
-  construction/exclusion, no confinement constant, and no MPP closure.
+  mu_R lambda_j^(2m). The ballast-cover landing adds the Pack-side clause:
+  positive mu_R must lift to the finite/readout-compatible cover certificate or
+  route to carrier-cover failure. This proves no legal carriage theorem for the
+  positive energy ballast through ancestry/cover/tower, no profile admission
+  theorem, no WKB construction/exclusion, no confinement constant, and no MPP
+  closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -366,10 +370,12 @@ with \(q\) absorbed into pressure and positive trace ballast paid for any
 nonzero trace-free anisotropy as the energy ledger
 \(\mu_R=(1/2)\operatorname{tr}R\). If that ledger has nonvanishing terminal
 carrier-frequency mass, the Sobolev/Field consumer applies after same-solution
-witness admission. Or the stress is otherwise carried by an explicit
-legal signed-stress certificate outside the rung-zero Reynolds covariance
-claim. If none of these holds, the profile fails the actual velocity-pressure
-law / covariance-energy / ancestry certificate.
+witness admission. The same positive measure must also lift to the finite
+cover certificate; otherwise the branch is Pack-side cover failure. Or the
+stress is otherwise carried by an explicit legal signed-stress certificate
+outside the rung-zero Reynolds covariance claim. If none of these holds, the
+profile fails the actual velocity-pressure law / covariance-energy / cover /
+ancestry certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
 certificate compactness.
