@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
 completion_truth: >-
   Direct reconstruction of an actual WKB carrier from a limiting phase-space
   atom is not proved by measure compactness alone. A sequence of shrinking
@@ -30,8 +31,10 @@ completion_truth: >-
   gives no actual packet without an additional no-free-fragmentation,
   uncertainty-cell, square-coercivity, or cloud-admission theorem. If neither
   payment holds, the fragmentation is an atomic-profile admission defect, not an
-  actual packet. No actual WKB carrier extraction theorem, no atomic profile
-  admission theorem, and no MPP closure is claimed.
+  actual packet. The many-cell WKB obstruction then shows that the beta-small
+  cheap WKB bath cannot use the bounded-count branch: cutoff-neutrality forces
+  unbounded effective cell count. No actual WKB carrier extraction theorem, no
+  atomic profile admission theorem, and no MPP closure is claimed.
 ---
 
 # Atomic WKB profile reconstruction direct test
@@ -151,6 +154,15 @@ extraction applies. If the effective count \(M_j\to\infty\), the uniform split
   A_j(P_{j,b})={a_\ast\over2M_j}
 \]
 keeps the atomic tube mass but makes every individual packet vanish.
+
+The many-cell WKB quantization obstruction applies this criterion to the
+overlap-bath survivor. In the beta-small cheap WKB branch, cutoff/Hodge
+neutrality requires
+\[
+  N_{\rm eff}\gtrsim\beta^{-12/5}.
+\]
+Thus bounded count cannot be the hidden many-cell WKB bath. Bounded count
+either pays atomization, pays localization, or leaves the cheap WKB window.
 
 Second possible payment:
 
