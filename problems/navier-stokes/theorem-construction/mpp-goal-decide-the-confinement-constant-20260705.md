@@ -1036,7 +1036,13 @@ the confinement constant.
    Thus residual positivity is no longer an independent placeholder. Bounded
    residual positivity is anti-equidistribution in residual-metric coordinates;
    unbounded residual positivity is a new payer/certificate or
-   construction/exclusion branch.
+   construction/exclusion branch. The unbounded branch now has an exact
+   product criterion: with residual operator scale \(B_M=\|H_M\|\) and legal
+   separation \(d_M=\inf\|a-u_M\|_2\), a zero-mode residual floor requires
+   \(B_Md_M^2\gtrsim1\), and a row-drift residual floor requires
+   \(B_Md_M\gtrsim1\). Thus unbounded residual strength only weakens the
+   separation scale; it does not erase the need for same-fluid backing and
+   legal separation, or construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
