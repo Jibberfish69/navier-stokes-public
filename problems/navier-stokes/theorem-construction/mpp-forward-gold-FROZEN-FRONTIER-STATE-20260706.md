@@ -192,12 +192,14 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    Then \(r_+-r_-=A\), \(m=A/B\), and \(r_*-r_+=B-A\) are fixed, while
    the period remains finite and
    \(U_-=r_-(I_1+I_2-2r_-)=\varepsilon(A+B+\varepsilon)\to0\). Thus
-   the root factor needs a genuine bottom-root / phase-invariant floor,
-   a direct \(\Delta_{\rm G6a}\) interval certification that bypasses
-   this factorization, or routing of the \(r_-=0\) horn.
+   the root factor needs a genuine bottom-root / phase-invariant floor.
+   The primitive bottom endpoint contribution also tends to zero on
+   this horn, so direct \(\Delta_{\rm G6a}\) interval certification can
+   only occur after the horn is excluded or routed.
    The exact row remains available for direct interval certification.
    REMAINING, exactly: [lower-root/root-factor enclosure OR direct
-   primitive Delta certification OR r_-=0 horn routing] +
+   primitive Delta certification on the excluded-horn domain OR r_-=0
+   horn routing] +
    [endpoint frozen margin beating matched R4 drift] +
    [finite product-row evaluation] +
    [BoundaryTail/F4 carry rows]. It does not prove
