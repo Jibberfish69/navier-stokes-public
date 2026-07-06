@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
 completion_truth: >-
   Strict reduction only. The common-packet identity coordinate needed by the
   diagonal compatibility theorem factors through identity subcoordinates that
@@ -32,8 +33,10 @@ completion_truth: >-
   factor is exactly the corresponding row failure: Pack-side cover loss or
   Part-side law/ancestry/tower loss. This note proves no row-level defect
   vanishing or legal carriage theorem for actual Navier-Stokes WKB packets, no
-  profile construction or exclusion theorem, no confinement constant, and no
-  MPP closure.
+  profile construction or exclusion theorem, no CrossCellWKBGramGap.A, no
+  confinement constant, and no MPP closure. Follow-up common-identity
+  obstruction records the boundary: common identity is admission compatibility,
+  not a count-free square charge.
 ---
 
 # WKB common packet identity factors through the four rows
@@ -226,6 +229,11 @@ closed matching relation over the observable WKB label. Prelimit packets lie on
 that relation because all four certificates are extracted from the same smooth
 Navier-Stokes packet/cloud. If an identity factor does not compactify, the
 failure is the corresponding Pack or Part row, not a new WKB supply branch.
+
+This factorization is for profile legality. It does not imply the cross-cell
+Gram gap: a large legal identity fiber can still carry uniform fragmented
+positive weights unless a separate bounded-count, positive uniform-mode, or
+anti-equidistribution theorem is proved.
 
 ## 8. State
 
