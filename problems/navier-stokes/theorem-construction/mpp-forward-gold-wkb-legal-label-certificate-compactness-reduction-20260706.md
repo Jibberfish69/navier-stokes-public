@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -39,9 +40,9 @@ completion_truth: >-
   pressure service, or when that defect is itself carried as a legal
   certificate. This note does not prove certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
-  carriage, does not prove profile admission, does not prove WKB
-  construction/exclusion, does not decide the confinement constant, and does
-  not close the MPP.
+  carriage, does not prove transport-defect vanishing or legal carriage, does
+  not prove profile admission, does not prove WKB construction/exclusion, does
+  not decide the confinement constant, and does not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
