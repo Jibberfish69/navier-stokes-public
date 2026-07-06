@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-return-race-handoff-premise-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-custody-trigger-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-goal-decide-the-confinement-constant-20260705.md
 completion_truth: >-
   Strict obstruction to the last installed high-Re pure-edge shortcut. The
@@ -27,11 +28,14 @@ completion_truth: >-
   k+delta. Thus sideband/crowd can pay only after a separate theorem supplies
   nonzero sideband mass, envelope bandwidth, finite-packet leakage, crowd
   interaction, or route-out/exclusion of the isolated pure edge. No such lower
-  bound is installed here. Combined with the same-day return-race, custody,
-  and Gate-A obstructions, the exact isolated high-Re pure edge has no
-  installed unweighted payer. This is not a counterexample and not a
-  confinement-constant decision; it leaves route-out/exclusion or a genuinely
-  new unweighted high-Re mechanism as the pure-edge burden.
+  bound is installed here. Same-day finite-energy follow-up supplies the long
+  localized-packet witness: static finite energy/localization alone does not
+  force that lower bound, because envelope defects can be made \(o(1)\) relative
+  to carrier production. Combined with the same-day return-race, custody, and
+  Gate-A obstructions, the exact isolated high-Re pure edge has no installed
+  unweighted payer. This is not a counterexample and not a confinement-constant
+  decision; it leaves dynamic/geometric route-out or a genuinely new unweighted
+  high-Re mechanism as the pure-edge burden.
 ---
 
 # K5 high-Re edge: sideband needs a trigger
@@ -136,14 +140,20 @@ A real finite-energy tube packet is not literally an infinite periodic pure
 mode. It has an envelope, cutoff, curvature, core variation, or surrounding
 field. Those features can create sideband mass or crowd interaction.
 
-But finite energy alone does not give the fixed lower bound needed here. A
-long envelope can make the bandwidth scale like \(L^{-1}\). Without a theorem
-that forbids arbitrarily long retained edge packets, or proves that envelope
-leakage/crowd contamination pays a fixed fraction of production, the sideband
-coordinate can be sent to zero in the model limit:
+But finite energy alone does not give the fixed lower bound needed here. The
+long-packet route-out obstruction filed the explicit witness
+\[
+  \eta_L(z)=a_L\chi(z/L)e^{ikz}+\overline{a_L}\chi(z/L)e^{-ikz},
+  \qquad |a_L|^2L=\hbox{constant}.
+\tag{SBT.10a}
+\]
+
+For that family, carrier production stays fixed while envelope bandwidth and
+cutoff/Hodge defects scale like \(L^{-1}\) or \(L^{-2}\). Thus the forced
+sideband/leakage coordinate can be sent to zero in the model limit:
 
 \[
-  B_{\rm sb}\to0
+  \mathcal C_{\rm sb/leak}\to0
   \qquad (L\to\infty).
 \tag{SBT.10}
 \]
@@ -151,8 +161,8 @@ coordinate can be sent to zero in the model limit:
 So the required theorem is not "there may be sidebands." The required theorem
 is one of:
 
-1. a finite-packet bandwidth floor;
-2. a curve/core/envelope leakage floor;
+1. a dynamic finite-packet bandwidth floor, not static finite energy;
+2. a curve/core/envelope leakage floor during the edge residence;
 3. a crowd-contamination floor;
 4. route-out/exclusion of the isolated high-Re pure edge as an admissible
    retained producing configuration.
@@ -179,7 +189,7 @@ payer. The confinement program has not lost or won from this note; the branch
 is now typed more sharply:
 
 \[
-\text{prove forced sideband/leakage/crowd contamination, prove route-out,}
+\text{prove dynamic/geometric sideband/leakage/crowd contamination, prove route-out,}
 \quad
 \text{or find a new unweighted high-Re mechanism.}
 \tag{SBT.12}
@@ -191,7 +201,7 @@ Sideband/crowd payment is not automatic on the exact isolated K5 edge. The pure
 single carrier has zero sideband coordinate, and translation-invariant
 self-coupling generates only the mean mode, harmonics, and the already-filed
 Duffing feedback. A real finite-energy packet may create sidebands through
-envelope, curvature, core variation, or crowd contamination, but that needs a
-fixed lower-bound theorem not present in the K5 files. Thus the isolated
-high-Re pure edge has no installed unweighted payer; the remaining burden is
-forced contamination, route-out/exclusion, or a new high-Re mechanism.
+envelope, curvature, core variation, or crowd contamination, but static finite
+energy alone does not force a fixed fraction. Thus the isolated high-Re pure
+edge has no installed unweighted payer; the remaining burden is dynamic or
+geometric forced contamination, route-out/exclusion, or a new high-Re mechanism.
