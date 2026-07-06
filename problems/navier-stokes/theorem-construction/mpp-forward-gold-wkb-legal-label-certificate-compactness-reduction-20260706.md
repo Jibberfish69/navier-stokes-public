@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -32,10 +33,15 @@ completion_truth: >-
   illegal label. The first lost certificate is not retained supply: finite-cover
   loss is Pack-side, material ancestry / pressure-law / tower loss is Part-side,
   and a retained legal tower with high Sobolev readout routes to the Field
-  consumer. This note does not prove certificate compactness for Navier-Stokes
-  WKB packets, does not prove profile admission, does not prove WKB
-  construction/exclusion, does not decide the confinement constant, and does not
-  close the MPP.
+  consumer. The pressure-law certificate is now sharpened by the Reynolds-defect
+  fork: weak WKB passage preserves the actual velocity-pressure law only when
+  the quadratic defect has zero Leray-projected divergence with compatible
+  pressure service, or when that defect is itself carried as a legal
+  certificate. This note does not prove certificate compactness for
+  Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
+  carriage, does not prove profile admission, does not prove WKB
+  construction/exclusion, does not decide the confinement constant, and does
+  not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
@@ -201,6 +207,20 @@ tower failure:
   \hbox{Part-side participation or tower failure}.
 \]
 
+The actual pressure-law certificate has its own exact subtest. Weak WKB passage
+turns the nonlinear term into
+\[
+  u_j\otimes u_j\rightharpoonup u\otimes u+R .
+\]
+The limiting velocity-pressure law is ordinary Navier-Stokes only if
+\[
+  \mathbb P\,\operatorname{div}R=0
+\]
+with pressure-service coordinates adjusted consistently. Otherwise the limit is
+Navier-Stokes-Reynolds, not an admitted same-solution NS profile. Thus
+\(C_{\rm law}\) is compact/closed only after the Reynolds defect vanishes
+modulo pressure gauge or is itself carried as a legal certificate.
+
 If the legal certificates persist and the profile carries the nonvanishing WKB
 Sobolev readout, then the already installed WKB/Sobolev consumer supplies the
 Field-side route:
@@ -229,6 +249,16 @@ velocity-pressure law, material ancestry/original participation,
 finite/readout-compatible cover, and differentiated same-law tower are closed
 relations, and the prelimit WKB measures lift to that certified graph.
 
+The actual-law relation includes:
+
+```text
+WKBReynoldsDefectVanishesOrCertified.A
+```
+
+Weak WKB limits close the Navier-Stokes law only after the quadratic defect is
+killed modulo pressure gauge with compatible pressure service, or after that
+defect is legally carried in the profile certificate.
+
 If this holds, the profile is admitted after scalar moment passage. If it
 fails, the failure is a Pack/Part/Field typed limit-of-class artifact or a WKB
 construction/exclusion problem.
@@ -239,7 +269,8 @@ This note proves the certificate-compactness criterion and the projection
 countermodel.
 
 It proves no `WKBCertificateCompactness.A` for actual Navier-Stokes WKB
-packets, no `MicrolocalDefectProfileAdmission.A`, no
+packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
+`MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP
 closure.
