@@ -198,9 +198,14 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    only occur after the horn is excluded. The same horn has positive
    unweighted package-coordinate throughput per period, so it is not
    automatically sub-financing without a new poor-horn comparison.
+   CM-ROUTE AUDIT (Codex, 2026-07-06): \(G_0^2\downarrow0\) is not
+   itself a Pack/Part/Field landing. The root-degenerate branch becomes
+   proof-bearing only through a Gate-6 row-formation / participation
+   bridge landing financed package motion with zero root service as
+   \(\neg Part_{N,Q}\).
    The exact row remains available for direct interval certification.
    REMAINING, exactly: [lower-root/root-factor enclosure OR new
-   poor-horn comparison OR G0^2->0 carrier-degeneracy route] +
+   poor-horn comparison OR Gate-6 row-formation/Part bridge] +
    [endpoint frozen margin beating matched R4 drift] +
    [finite product-row evaluation] +
    [BoundaryTail/F4 carry rows]. It does not prove
@@ -213,7 +218,8 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-product-row-monotone-envelope-after-ge,
    codex-delta-g6a-factorized-source-row,
    codex-delta-g6a-root-factor-bottom-root-obstruction,
-   codex-bottom-root-horn-financed-obstruction.
+   codex-bottom-root-horn-financed-obstruction,
+   codex-bottom-root-horn-cm-route-audit.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.

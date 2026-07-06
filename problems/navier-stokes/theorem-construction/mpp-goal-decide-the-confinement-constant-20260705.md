@@ -531,9 +531,10 @@ the confinement constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no high-Re return-race/custody/sideband-crowd payment
-   and no curve-leakage payment => the pure neutral/curvature channel is
-   not uniformly capped.
+   Kill condition: no sideband/crowd payment, no route-out/exclusion of
+   the isolated pure edge, no new unweighted high-Re mechanism, and no
+   curve-leakage payment => the pure neutral/curvature channel is not
+   uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Normalized sidecar now passes:
    \(3\sqrt3/(16e)<\log2\), so the imported beta-only Crow lifetime
