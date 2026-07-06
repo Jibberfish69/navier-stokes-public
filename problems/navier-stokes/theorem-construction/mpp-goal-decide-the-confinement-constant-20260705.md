@@ -1157,7 +1157,19 @@ certified positive constant.
    \(O(\beta^{8/5})\), not a fixed confinement tax. The associated minimizing
    density \(f_K(n)=1-(15/2)n\cdot Kn\) is nonnegative whenever
    \(\lambda_{\max}(K)\le2/15\), so the beta-small angular bath is not merely
-   a signed-row artifact.
+   a signed-row artifact. Follow-up finite-cloud witness: for
+   \(K=\sum k_i e_i\otimes e_i\), choose
+   \(\varepsilon\ge3\lambda_{\max}^+(K)\) and set
+   \(m_i=\varepsilon/3-k_i\). The paired weights \(m_i/2\) at \(\pm e_i\)
+   supply exact moment \(K\); adding \(N\) neutral isotropic sextets gives
+   total square mass
+   \[
+     {(1-\varepsilon)^2\over6N}+{\varepsilon^2\over6}+{|K|_F^2\over2}
+     =O(N^{-1}+\beta^{8/5})
+   \]
+   in the overlap row. Thus finite positive angular cells do not create a
+   fixed atom-square tax; the remaining burden is spatial placement,
+   same-fluid certificates, and construction/exclusion.
    Transport-current variation has now been split too: \(A=w\rho\) gives the
 	   exact current cost \(|A|=|w|\rho\), but uniform WKB density can carry
 	   nonzero divergence-free relative current. Thus current variation is a
