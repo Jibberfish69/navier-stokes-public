@@ -220,8 +220,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     constant-direction pressure service is not destroyed on the producer clock.
     The source cell gradient scale is \(a\sim |K|^{1/2}\sim s\beta^{2/5}\),
     so its relative Hessian drift over one producer clock is
-    \(\beta^{2/5}+\nu/(sD^2)\). The live pressure branch is now fast direction
-    tracking if forced, localization, producer coupling, and allocation.
+    \(\beta^{2/5}+\nu/(sD^2)\). At that stage the live pressure branch was fast
+    direction tracking if forced, localization, producer coupling, and
+    allocation.
     Follow-up producer-coupling obstruction filed: adding a constant producing
     affine jet \(Bx\) to the shear cell leaves the producer first jet unchanged
     at the station, and the cross pressure source is a sum of single sine modes
