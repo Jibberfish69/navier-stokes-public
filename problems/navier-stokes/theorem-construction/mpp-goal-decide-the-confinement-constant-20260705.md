@@ -1165,12 +1165,21 @@ certified positive constant.
    total square mass
    \[
      {(1-\varepsilon)^2\over6N}+{\varepsilon^2\over6}+{|K|_F^2\over2}
-     =O(N^{-1}+\beta^{8/5})
-   \]
-   in the overlap row. Thus finite positive angular cells do not create a
-   fixed atom-square tax; the remaining burden is spatial placement,
-   same-fluid certificates, and construction/exclusion.
-   Transport-current variation has now been split too: \(A=w\rho\) gives the
+	     =O(N^{-1}+\beta^{8/5})
+	   \]
+	   in the overlap row. Thus finite positive angular cells do not create a
+	   fixed atom-square tax. Follow-up spatial Gram splice: for the full
+	   \(M=6N+6\) cloud vector \(a\), any bounded residual cross-cell form
+	   with uniform mode removed satisfies
+	   \[
+	     |a^THa|\le C\|a-u_M\|_2^2=O(N^{-1}+\beta^{8/5}),
+	   \]
+	   with bounded diagonal/local corrections at the same scale. Thus finite
+	   positivity plus bounded mean-zero spatial cross-kernels does not create
+	   a fixed tax either; the remaining burden is uniform-mode backing,
+	   unbounded residual/product, legal anti-equidistribution, spatial
+	   placement/same-fluid certificates, and construction/exclusion.
+	   Transport-current variation has now been split too: \(A=w\rho\) gives the
 	   exact current cost \(|A|=|w|\rho\), but uniform WKB density can carry
 	   nonzero divergence-free relative current. Thus current variation is a
 	   current/action payer, an added-carrier certificate branch, or Part-side
