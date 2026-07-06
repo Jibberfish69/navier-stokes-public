@@ -464,6 +464,31 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(R_0/(g_0X_{\max}^2)\ge U(U-b)^2/[2(4+U-b)]\), the friendly midpoint
   branch is impossible by rent alone. No packet ratios are evaluated here.
 
+  CODEX ROUTE-3 MIDPOINT SOURCE-RESERVE FUNCTION REDUCTION (2026-07-06,
+  codex-route3-midpoint-source-reserve-function-reduction): the optimized
+  midpoint product row is one curve inequality. Define
+  \[
+    C_b(s)=
+    \sup_{2b<q<U}
+    \left[
+      {q(2-e^{q/2})\over2(2+e^{q/2})}
+      -
+      {4s\over(q-b)(2+e^{q/2})}
+    \right].
+  \]
+  Then the optimized friendly midpoint branch is exactly
+  \[
+    {d\over X_{\max}}
+    <
+    C_b\!\left({R_0\over g_0X_{\max}^2}\right),
+    \qquad
+    {R_0\over g_0X_{\max}^2}<s_b^0,
+  \]
+  where \(s_b^0=\sup\{s:C_b(s)>0\}\). The reserve curve is strictly
+  decreasing and starts at the source-only ceiling \(C_b(0)=S_{\max}(a)\);
+  its selector is the lower edge or the single rent-shifted root. No packet
+  ratios are evaluated here.
+
   CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
   codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
   decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
