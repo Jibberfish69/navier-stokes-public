@@ -311,8 +311,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     divergence-free finite-energy template
     \(v=(\partial_2,-\partial_1,0)(x_1x_2x_3e^{-|x|^2/2})\) vanishes to first
     order at the producer and generates pressure Hessian
-    \((106/1155)\operatorname{diag}(-1,-1,2)\). Rotations and nonnegative
-    weights span every trace-free Hessian, and scaling gives
+    \((106/1155)\operatorname{diag}(-1,-1,2)\). Same-day correction: the
+    first additive rotated-bank witness was false because the pressure source
+    is quadratic; the exact cross term for a unit cyclic pair is
+    \(-(212/1155)(e_i\otimes e_j+e_j\otimes e_i)\). The corrected bank map
+    \[
+      \Phi(c)={106\over1155}
+      \left[5\operatorname{diag}(c^2)-|c|^2I-2c\otimes c\right]
+    \]
+    still reaches every trace-free Hessian, and scaling gives
     \(E_{\rm ph}\lesssim |K|D^5\), hence the q=4/5 row for overlap pressure.
     Thus static finite-energy pressure/Hodge localization is not the missing
     payer; at that stage the live pressure branch was dynamic same-fluid
