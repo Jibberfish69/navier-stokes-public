@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bathtub-momentum-flux-gate-producer-attempt-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gate8-same-packet-row-theorem-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-channel-measures-diagonal-and-tail-currency-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
 completion_truth: >-
   Pays G-C-2 at scaling-display level, not as a full defect-measure row theorem.
   A thick re-assembly route that moves relative impulse a distance comparable
@@ -22,8 +23,8 @@ completion_truth: >-
   pair-energy scale U^2 d^3. Thus the local custody escape cannot be
   simultaneously thick, fast, and free at scaling level. Same-day follow-up:
   G-C-1 is now regated as the thick-debris energy-escrow dichotomy. What remains
-  open: escrow localization, the signed/oriented row lift of this
-  total-variation payment, and the up-scale bath recursion for holder fields. No
+  open: escrow localization / no-side routing, the existing Gate-8 PDE
+  allocation theorem, and the up-scale bath recursion for holder fields. No
   full custody theorem, crowd theorem, composition theorem, or MPP closure is
   claimed.
 ---
@@ -130,10 +131,10 @@ slow, and then it does not restore producing geometry inside the record race. It
 can be held by a larger bath, and then the payment has moved up-scale into the
 BD3 recursion.
 
-The display is not yet the full row theorem. To use it inside composition, the
-scale-\(d\) cubic total variation must be oriented and placed on the same
-channel-window summands as record admission, payer tax, and no-recount debt.
-That is exactly the Gate-8 row-composition / defect-measure lift already named.
+The display is not yet the full row theorem. The same-day row-lift reduction
+places the delivery payment in Gate-8 channel-cell throughput currency. To use
+it inside composition, Gate 8 must still allocate admission, debt, and tax on
+the same channel-window summands and localize the escrow branch.
 
 ## 5. Four-sentence result
 

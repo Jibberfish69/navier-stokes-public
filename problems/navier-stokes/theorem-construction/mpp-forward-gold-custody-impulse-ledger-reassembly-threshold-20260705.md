@@ -32,12 +32,15 @@ completion_truth: >-
   mpp-forward-gold-codex-custody-energy-escrow-regate-20260705:
   concentration is uphill in energy on fixed-shape families, so thick
   debris either already contains small-scale escrow (prior paid residue)
-  or needs external delivery. NAMED OPEN: uniform escrow shape/localization
-  and the row lift - orient the escrow or fast-transit payment on the same
-  channel-window summands as record admission and no-recount debt. Kill
-  condition standing: a re-assembly channel that evades thin confiscation,
-  the thick-debris escrow dichotomy, assisted-thick transit payment, and
-  the row lift. No closure claimed.
+  or needs external delivery. ROW-LIFT FOLLOW-UP:
+  mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705:
+  the delivery branch lives in the same increment-cubic channel-cell
+  throughput currency as Gate 8, so there is no fourth custody-local
+  composition row. NAMED OPEN: escrow localization / no-side routing and
+  the existing Gate-8 PDE allocation theorem. Kill condition standing:
+  a re-assembly channel that evades thin confiscation, the thick-debris
+  escrow dichotomy, assisted-thick transit payment, and Gate-8
+  allocation/localization. No closure claimed.
 ---
 
 # Custody: the impulse ledger and the re-assembly threshold
@@ -70,11 +73,16 @@ the penny-tax collects precisely on the enemy's logistics.
 
 (G-C-1) Thick-debris route: same-day display filed and regated. On
 fixed-shape families, concentration raises the energy required for fixed
-impulse. Thick debris therefore splits into stored escrow (already paid
-residue) or external delivery (G-C-2). Remaining: uniform shape bound and
-escrow localization on the same channel-window rows.
+impulse. The uniform shape-class lower bound is paid in the Codex
+follow-up. Thick debris therefore splits into stored escrow (already paid
+residue) or external delivery (G-C-2). Remaining: escrow localization /
+no-side routing on the same channel-window rows.
 
 (G-C-2) Payment identity: same-day display filed. Fast thick transit
 through the medium is an increment-cubic event in the flux-gate
-total-variation currency. Remaining: orient that payment on the same
-channel-window summands as the record rows (composition, item 5).
+total-variation currency.
+
+(G-C-3) Row lift: same-day reduction filed. Delivery payment is already
+Gate-8 channel-cell throughput; row composition needs the existing
+same-index allocation theorem, not a new custody-local currency. Escrow
+still needs localization / no-side routing.

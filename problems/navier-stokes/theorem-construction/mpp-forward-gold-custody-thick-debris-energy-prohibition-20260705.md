@@ -12,38 +12,28 @@ authorship: >-
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-impulse-ledger-reassembly-threshold-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-impulse-energy-lower-bound-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
 completion_truth: >-
-  G-C-1 closed in lemma-shaped form by two exact facts. FACT 1 (exact
-  scaling identity): at fixed hydrodynamic impulse P, the kinetic
-  energy of a compact vorticity configuration of scale L scales like
-  P^2/L^3 - velocity ~ P/L^3 over volume L^3. Concentrating fixed
-  impulse from scale L to scale d < L multiplies the energy by
-  (L/d)^3. Concentration is uphill in energy. FACT 2 (exact law): an
-  unforced viscous flow only dissipates - energy is nonincreasing.
-  CONSEQUENCE (the prohibition): an ISOLATED thick-debris blob can
-  never re-concentrate its impulse to a finer scale; the required
-  energy increase is forbidden by the energy law. The spring
-  principle, proved in its custody form: no structure winds itself
-  tighter, because tighter costs energy cubed-in-scale and nothing
-  isolated pays uphill. Therefore ALL re-assembly energy must arrive
-  from outside the debris - i.e., through the participating medium -
-  which is exactly the transit event priced by the same-day payment
-  identity (fast thick transit pays order-one pair energy in
-  increment-cubic total-variation currency). CUSTODY NOW STANDS ON
-  THREE LEGS: thin debris - viscous confiscation below the quadratic
-  Reynolds threshold; isolated thick debris - energetic prohibition
-  (this note); assisted thick debris - the priced transit (payment
-  identity). The kill condition (a free re-assembly channel:
-  simultaneously thick, fast, and unpriced) now requires evading all
-  three legs at once: thickness evades leg one, isolation is
-  forbidden by leg two, and assistance is priced by leg three.
-  REMAINING OPEN on item 3: the row lift only - orienting the transit
-  payment on the record-admission channel-window summands
-  (composition tier, item 5). Codex gate requested on: the P^2/L^3
-  scaling's uniformity over admissible debris shapes; the isolation
-  definition (what counts as external delivery); and confirmation
-  that the three legs partition the channel space. No closure claimed
-  beyond the stated legs.
+  REGATED SAME DATE by
+  mpp-forward-gold-codex-custody-energy-escrow-regate-20260705. The
+  scaling spine stands: fixed-shape compact impulse at scale L carries
+  energy comparable to P^2/L^3, and re-concentration to d<L asks for
+  energy comparable to P^2/d^3. The uniform shape-class lower bound is
+  paid by mpp-forward-gold-codex-custody-impulse-energy-lower-bound-20260705.
+  The earlier absolute "isolated thick debris can never re-concentrate"
+  sentence was too strong because thick debris may already store the
+  small-scale energy. Correct theorem form: energy escrow dichotomy.
+  Either the thick debris already contains the scale-d energy, and that
+  stored energy is prior paid residue rather than free reserve; or the
+  energy must be delivered through the participating medium, and fast
+  delivery is priced by the increment-cubic transit identity. The row
+  lift is reduced by
+  mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705:
+  delivery lives in Gate-8 channel-cell throughput currency; escrow
+  still needs localization / no-side routing. No custody theorem, crowd
+  theorem, composition theorem, or MPP closure is claimed.
 ---
 
 ## Codex gate, same date
@@ -99,5 +89,6 @@ the participating medium, where the increment-cubic transit bill applies.
 Thin: confiscated (Reynolds threshold, quadratic in concentration).
 Thick with escrow: already paid residue, not free reserve. Thick without
 escrow: delivery required and priced by the payment identity. Remaining
-burdens: uniform shape-class lower bound, escrow localization, and the
-row lift into composition's summands.
+burdens: escrow localization / no-side routing and the existing Gate-8
+allocation theorem. The delivery row lift has been reduced to Gate-8
+channel-cell allocation; no fourth custody-local row is left.

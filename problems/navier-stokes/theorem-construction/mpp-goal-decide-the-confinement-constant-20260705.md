@@ -71,8 +71,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     fast-transit increment-cubic total variation pays at pair-energy
     scale. Codex follow-up pays the uniform shape-class
     impulse-energy lower bound for vorticity supported at scale \(L\).
-    Remaining custody/composition interfaces: escrow localization and
-    row lift onto the same channel-window summands.
+    Custody row lift reduced to Gate-8 allocation/localization:
+    delivery-branch fast-transit payment is in increment-cubic
+    channel-cell throughput currency; once same-index allocation is
+    supplied, row composition has no custody-specific fourth channel.
+    Remaining custody/composition interfaces: escrow localization /
+    no-side routing and existing Gate-8 PDE allocation (same-packet
+    identification, allocated tax density, no-recount or entrance
+    reserve, E3 tail routing, allocation closedness).
     Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
     obstruction. External-audit paper drafted
@@ -93,10 +99,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
    re-form producing geometry without transit payment. Local split filed
-   and regated; remaining burdens are escrow localization plus the
-   same-packet row lift into composition. Kill condition: a re-assembly
+   and regated; delivery row lift reduced to Gate-8 allocation.
+   Remaining burdens are escrow localization / no-side routing plus the
+   existing Gate-8 PDE allocation theorem. Kill condition: a re-assembly
    channel evading thin confiscation, the thick-debris escrow dichotomy,
-   assisted-thick transit payment, and the row lift.
+   assisted-thick transit payment, and Gate-8 allocation/localization.
 4. CROWD CELL - THE SUMMIT, NAMED AS SUCH. (a) dilute limit: floor
    survives superposition with N-independent constant, or the
    interference that beats it; (b) dense limit: direct counterexample
