@@ -1534,8 +1534,18 @@ surface, not F4 clearance.
    continuous signed angular branch now has square coercivity:
    \(\int(f-1)^2\,d\sigma\ge e^{3A}-1\) for signed service \(A\) from uniform,
    so square-near-uniform AC angular baths cannot provide order-one signed
-   service. The surviving angular exits are singular/profile admission, AC
-   carriage failure, or cyclic entropy-variation custody. Bounded-custody
+   service. The cyclic AC follow-up now prices rectified service by the same
+   angular square gap and the material strain action:
+   \[
+     \int_I |S:K(f_t)|\,dt
+     \le
+     \sqrt{2\over15}\int_I |S(t)|_F
+       \left(\int(f_t-1)^2\,d\sigma\right)^{1/2}dt .
+   \]
+   Hence a square-near-uniform AC angular bath with bounded strain action
+   cannot supply order-one cyclic rectified service; it must spend square/profile
+   room, strain-action/custody, singular/profile formation, AC-carriage failure,
+   or actual construction/exclusion. Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
    \(V_w\), and bank log-variation \(V_D\), active service obeys
