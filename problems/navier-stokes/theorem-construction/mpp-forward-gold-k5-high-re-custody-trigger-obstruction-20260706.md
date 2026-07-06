@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
 completion_truth: >-
   Strict obstruction to one K5 high-Re payer shortcut. The installed custody
   packet prices reassembly after producing geometry has been destroyed: thin
@@ -29,8 +30,9 @@ completion_truth: >-
   Custody can pay only after a separate theorem produces reassembly, refresh,
   destruction, or delivery in the same-packet episode. Same-day Gate-A follow-up
   says installed Gate-A/Theorem-2 allocation is not an independent pure-edge
-  payer. No confinement constant, crowd theorem, custody theorem, or MPP closure
-  is claimed.
+  payer; same-day sideband-trigger follow-up says sideband/crowd has zero
+  trigger on the exact isolated pure edge. No confinement constant, crowd
+  theorem, custody theorem, forced sideband theorem, or MPP closure is claimed.
 ---
 
 # K5 high-Re edge: custody needs a trigger
@@ -128,8 +130,9 @@ not
 \]
 
 Custody remains useful for any sideband, curve-leakage, refresh, destruction,
-or crowd mechanism that actually creates the reassembly episode. It does not
-pay the pure high-Re edge by name.
+or crowd mechanism that actually creates the reassembly episode. The exact
+isolated pure edge does not create that episode or the sideband/crowd trigger
+by name.
 
 ## 5. Four-sentence result
 
@@ -138,6 +141,6 @@ K5 pure high-Re edge is an intact near-neutral mode with production and
 slow damping, so it supplies no debris transit, no fast relative
 reassembly, and no stored-energy escrow event. Therefore the installed
 custody packet has no positive charge on the pure edge branch. The K5
-high-Re branch still needs sideband/crowd, route-out/exclusion, a separate
-theorem that first creates a financed handoff or custody trigger, or a new
-unweighted high-Re mechanism.
+high-Re branch still needs forced sideband/leakage/crowd contamination,
+route-out/exclusion, a separate theorem that first creates a financed handoff
+or custody trigger, or a new unweighted high-Re mechanism.
