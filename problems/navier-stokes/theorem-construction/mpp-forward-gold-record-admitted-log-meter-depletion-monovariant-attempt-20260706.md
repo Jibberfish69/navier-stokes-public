@@ -270,3 +270,136 @@ already present in the original parent history, with strict Fisher margin and
 paid selector/frame/collar/Hodge/stop motion. Without that new input, the
 monovariant collapses back into the existing aligned-current / positive-selection
 storage gap.
+
+## 6. Direct proof shot: Fisher pays only the gradient part
+
+Write
+
+\[
+h_P^{rec}:=(D_t+B_P)\log W^{rec}_P.
+\tag{RLM.20}
+\]
+
+Split the log-meter motion into the parts already separated in the live source
+surfaces:
+
+\[
+h_P^{rec}
+=
+h_P^{ell}
++h_P^{mat}
++h_P^{sel}
++h_P^{stop}.
+\tag{RLM.21}
+\]
+
+The selector, collar, heat-cutoff, route, and stop pieces are paid terms in the
+existing ledger. The first nontrivial test is the elliptic/gradient part. When
+
+\[
+h_P^{ell}=\operatorname{div}_{\mathfrak m_P}
+\bigl(A_P\nabla_{\mathfrak m}\log W^{rec}_P\bigr)
++\text{lower paid terms},
+\tag{RLM.22}
+\]
+
+integration by parts gives
+
+\[
+\int \Phi'(F)F\,h_P^{ell}\,d\mathfrak m_P
+=
+-\int
+\bigl(\Phi'(F)+F\Phi''(F)\bigr)
+\left\langle
+\nabla_{\mathfrak m}F,
+A_P\nabla_{\mathfrak m}\log W^{rec}_P
+\right\rangle
+d\mathfrak m_P
++Paid.
+\tag{RLM.23}
+\]
+
+Young's inequality then yields, for every \(\eta>0\),
+
+\[
+\left[
+\int \Phi'(F)F\,h_P^{ell}\,d\mathfrak m_P
+\right]_+
+\le
+\eta
+\int \Phi''(F)
+\langle A_P\nabla_{\mathfrak m}F,\nabla_{\mathfrak m}F\rangle
+d\mathfrak m_P
++C_\eta\,d{\mathcal G}^{log}_P
++Paid,
+\tag{RLM.24}
+\]
+
+where the leftover log-meter gradient action is
+
+\[
+d{\mathcal G}^{log}_P
+:=
+\int
+{(\Phi'(F)+F\Phi''(F))^2\over \Phi''(F)}
+\left\langle
+A_P\nabla_{\mathfrak m}\log W^{rec}_P,
+\nabla_{\mathfrak m}\log W^{rec}_P
+\right\rangle
+d\mathfrak m_P .
+\tag{RLM.25}
+\]
+
+So Fisher does pay the gradient part of the selected-meter motion, provided the
+new log-meter gradient action is itself stored by the same packet.
+
+The material part is different. A spatially constant selected stretch can have
+\(\nabla_{\mathfrak m}F=0\), hence \(dI_P=0\), while
+
+\[
+\int \Phi'(F)F\,[h_P^{mat}]_+\,d\mathfrak m_P>0.
+\tag{RLM.26}
+\]
+
+This is the direct obstruction: Fisher sees spatial variation of the selected
+density, not pure material growth of the selected weight. A proof must therefore
+pay the unpaired material stretch by a same-packet reserve:
+
+\[
+dQ_P^{stretch,+}
+:=
+\Phi'(F)F\,[h_P^{mat,unpaired}]_+\,d\mathfrak m_P
+\le
+-d{\mathcal A}^{stretch}_P
++dPaid_P+dStop_P .
+\tag{RLM.27}
+\]
+
+The strongest partial estimate produced by the direct shot is therefore
+
+\[
+dQ_P^{meter,rec}
+\le
+\eta\,dI_P
++C_\eta\,d{\mathcal G}^{log}_P
++dQ_P^{stretch,+}
++dPaid_P+dStop_P .
+\tag{RLM.28}
+\]
+
+Thus `(RLM.10)' is reduced to one same-packet action/depletion statement:
+
+\[
+C_\eta\,d{\mathcal G}^{log}_P
++dQ_P^{stretch,+}
++[d{\mathcal C}^{crit,rec}_P]_+
+\le
+-d{\mathcal A}^{rec}_P
++d\Theta_P^0+dPaid_P+dStop_P,
+\tag{RLM.29}
+\]
+
+with all terms built before record readout. This is the sharper mathematical
+content of the physical sentence "the selected meter cannot reweight itself
+onto the winning packet for free." The elliptic part is absorbable by Fisher;
+the surviving Gold burden is the material-stretch/full-exchange depletion law.
