@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705
-status: exact-kernel-straight-skeleton-not-invariant-kill-integral-retyped-to-curve-equation
+status: codex-gated-exact-kernel-straight-skeleton-not-invariant-local-leakage-floor-accepted
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / goal item 1 (K3 kill integral)
@@ -13,6 +13,12 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-k3-curve-leakage-gate-20260705. Accepted:
+  the straight-skeleton four-variable ODE is not an invariant exact
+  reduction, and the same-day local leakage floor is exact at the
+  production station. Open: lifetime transport/cancellation/core/high-Re
+  composition.
   Strict obstruction/retyping, not kill-integral closure. The named K3
   four-variable ODE (separation, in-plane tilt, skew, closest-point
   drift) is not an exact invariant reduction of the leading filament
@@ -34,6 +40,19 @@ completion_truth: >-
 ---
 
 # K3 obstruction: the exact kernel does not close on four variables
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-k3-curve-leakage-gate-20260705`.
+
+The obstruction is accepted: the exact kernel immediately creates
+curvature for producing \(\beta\ne0\), so the four-variable straight
+skeleton is a projected model. The same-day local floor is also
+accepted: at the production station the normal curve leakage satisfies
+\(B_d=2\sigma_{\max}\). The remaining K3 theorem is lifetime transport
+of that local leakage through the evolving filament curve, including
+cancellation, reabsorption, core corrections, and high-Re timing.
 
 ## 1. Setup
 
