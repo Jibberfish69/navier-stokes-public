@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-bracing-first-verdict-regress-nondecay-reduction-20260705
-status: bracing-mechanically-possible-never-free-dense-cell-reduced-to-regress-nondecay-lemma-codex-gate-requested
+status: CORRECTED-SAME-DAY-single-channel-B4-false-at-wide-spacing-see-demand-cascade-note-joint-transfer-matrix-is-the-object
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / item 4b executed at structure level
