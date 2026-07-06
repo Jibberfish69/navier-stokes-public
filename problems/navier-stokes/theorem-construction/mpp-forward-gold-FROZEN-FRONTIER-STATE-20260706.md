@@ -570,11 +570,18 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   corrected block length
   \(K=\lceil \log(2E_{\max}/e_{\rm marg})/\log(1/q)\rceil\) is
   accepted; bounded readout plus no fresh admissions gives geometric
-  decay by recurrence algebra once \(c_0>0\) is certified. THE
-  PRICING-COMPLETENESS INEQUALITY \(D_j \le C_{\rm pc}E_j\) remains
-  the live actual-solution theorem, homed at the F3 interface. The CKN
-  import fires only after \(D_j\) is matched to the nested parabolic
-  CKN shell quantity and the tail is driven below epsilon.
+  decay by recurrence algebra once \(c_0>0\) is certified. CODEX
+  OBSTRUCTION (codex-pricing-completeness-amplitude-obstruction):
+  the literal total-shell pricing row
+  \(D_j^{\rm total}\le C_{\rm pc}E_j\) is false on actual solutions by
+  amplitude scaling: CKN dissipation is quadratic while the admitted
+  F3 production/readout row is cubic. The live replacement is the
+  carrier split \(D_j=D_j^{\rm adm}+D_j^{\rm bg}\), with
+  \(D_j^{\rm adm}\le C_{\rm pc}E_j\) plus a separate theorem that
+  \(D_j^{\rm bg}\) is CKN-harmless in the nested tail or routed as
+  Pack/Part/Field/Silver residue. The CKN import fires only after that
+  split is matched to the nested parabolic CKN shell quantity and the
+  total tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -589,8 +596,9 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(q_{\rm per}^-/2<\log2\) branch; AdiabaticSignRouting/T_slow/R4-TV/c3
   are unnecessary-or-superseded for this row
   (pure bookkeeping routes closed by the F2 no-go; a net extraction
-  law would instead revive the prefix route); pricing completeness
-  \(D_j\le C_{\rm pc}E_j\); the parametric RUN row
+  law would instead revive the prefix route); pricing-completeness
+  replacement \(D_j^{\rm adm}\le C_{\rm pc}E_j\) plus
+  \(D_j^{\rm bg}\) CKN-harmless-or-routed; the parametric RUN row
   \(A_0>C_\delta d_{\rm R4}^+\) with
   \(0<\delta<\min(q_{\rm per}^-, \log 2)\),
   \(q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
