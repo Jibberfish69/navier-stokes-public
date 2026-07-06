@@ -243,8 +243,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(H\sim s^2\beta^{4/5}\), this stays inside the existing pressure row when
     \(D/R\lesssim\beta^{2/5}\). Thus generic producer curvature is not an
     order-one floor; the remaining pressure branch is subcell/high-Re
-    admissibility, same-packet allocation, faster-than-producer forcing, or
+    admissibility, same-packet allocation, supercritical fast-motion forcing, or
     construction/exclusion.
+    Follow-up fast-motion threshold obstruction filed: with
+    \(\omega=|\dot K|/|K|\), one producer clock costs
+    \((\omega/s)|K|D^5\), hence
+    \((\omega/s)\beta^{4/5}E_{\rm prod}\). Therefore an order-one payer
+    requires \(\omega/s\gtrsim\beta^{-4/5}\). The remaining pressure branch is
+    subcell/high-Re admissibility, same-packet allocation, supercritical
+    fast-motion forcing, or construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -359,7 +366,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    subcell/high-Re admissibility, same-packet allocation,
-   faster-than-producer forcing, or a real summability-valid bath construction,
+   supercritical fast-motion forcing, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
    tax. The reuse
