@@ -102,8 +102,8 @@ Let
   \tag{SPT.7}
 \]
 on \(\mathbb R^3\), with the decaying Newtonian potential. Since \(f_v\) is
-Schwartz and has the divergence-form mean-zero property, this is a finite-energy
-pressure source.
+Schwartz and has the divergence-form mean-zero property, this is a legal
+finite-energy velocity source for pressure.
 
 ## 3. Exact pressure Hessian
 
@@ -159,8 +159,14 @@ Write
   \tag{SPT.12}
 \]
 
-The template supplies a positive multiple of \(Q(e_3)\). Rotating the template
-supplies \(Q(n)\) for any unit vector \(n\).
+The template supplies
+\[
+  cQ(e_3),
+  \qquad
+  c={106\over1155}.
+  \tag{SPT.12a}
+\]
+Rotating the template supplies \(cQ(n)\) for any unit vector \(n\).
 
 Let \(K\in\operatorname{Sym}_0(3)\), and diagonalize it:
 \[
@@ -185,9 +191,10 @@ Then
 \]
 
 So three rotated copies of the same template, with nonnegative amplitude
-weights, supply any prescribed trace-free Hessian. The total weight obeys
+weights \(\alpha_i/c\), supply any prescribed trace-free Hessian. The total
+weight obeys
 \[
-  \sum_i\alpha_i=A\lesssim |K|.
+  \sum_i{\alpha_i\over c}\lesssim |K|.
   \tag{SPT.16}
 \]
 
