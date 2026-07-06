@@ -1,12 +1,13 @@
 ---
 theorem_id: forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706
-status: pairwise-tv-bracing-subcell-paid-net-vector-cancellation-remains-open
+status: pairwise-tv-paid-net-vector-ledger-obstructed-persistent-cancellation-merged
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / bracing
 target_object:
   - DenseBracing.PairwiseTVSubcell.PAID
-  - DenseBracing.NetVectorCancellation.OPEN
+  - DenseBracing.NetVectorLedger.OBSTRUCTED
+  - DenseBracing.PersistentCancellation.MERGED
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-goal-decide-the-confinement-constant-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-crowd-bracing-test-spec-20260705.md
@@ -24,12 +25,13 @@ completion_truth: >-
   bounded by pairwise positive production, and the two-tube floor gives
   pairwise positive production <= 3 * pairwise eviction TV. Therefore bracing
   cannot be free in unallocated pairwise-TV currency. This does not decide the
-  four-tube bracing test or the dense crowd: an escape can still hide in
-  cancellation of eviction vectors before the accepted ledger sees them, in
-  off-profile/core geometry, in sideband/crowd allocation, or in a node-sitting
-  schedule. The note retypes the first bracing danger: the bracer can cancel a
-  producer's net geometric motion, but only by creating pairwise TV that must be
-  either accepted as same-packet tax or proved cancellable in the real ledger.
+  four-tube bracing test or the dense crowd. Same-day follow-ups now type the
+  two immediate cancellation branches: the net-vector-only ledger is
+  obstructed, and persistent net-vector cancellation is the node-sitting moving
+  constraint in exit-vector coordinates. The note retypes the first bracing
+  danger: the bracer can cancel a producer's net geometric motion only by
+  creating pairwise TV that must be accepted as same-packet tax, routed through
+  the tracking/supply floor, or replaced by a non-pairwise/off-profile escape.
   No full crowd theorem, confinement constant, composition theorem, or MPP
   closure is claimed.
 ---
