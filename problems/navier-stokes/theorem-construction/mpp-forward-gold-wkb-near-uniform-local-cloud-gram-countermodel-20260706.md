@@ -177,5 +177,5 @@ one, while the diagonal square charge is \(1/M\). A mean-zero
 translation-invariant cross kernel has that uniform cloud in its zero mode, and
 bounded local corrections also vanish like \(1/M\). Therefore local WKB
 legality plus moment matching cannot prove the Gram gap; the gap must come
-from genuinely global same-packet legality, positive uniform-mode geometry, or
-construction/exclusion.
+from genuinely global same-packet legality, a separately priced rank-one
+uniform-mode payer, or construction/exclusion.
