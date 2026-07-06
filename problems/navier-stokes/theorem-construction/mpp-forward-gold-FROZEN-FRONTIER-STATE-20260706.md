@@ -166,7 +166,12 @@ F1 -> (F2 || F3) -> F4 -> F5.
   multiplicity remove the bounded-merger/readout-stability burden.
   Codex does not clear z3: W1 Section 7 prices spatial spread but not
   same-volume incoherence across lineages, so the residual is
-  lineage-disintegration / incoherent-lump routing. F1 actual-NS population remains
+  lineage-disintegration / incoherent-lump routing. Fable's one-volume
+  mode-budget answer is Codex-regated as a strict reduction, not
+  clearance: it gives the right finite-dimensional route, but z3 still
+  needs a finite mode-triple disintegration of the cubic throughput
+  variation \(\lambda_a\), or a stated restriction to the one-tail-leg
+  F1 case. F1 actual-NS population remains
   reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
