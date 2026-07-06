@@ -631,9 +631,14 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(A_0>C_\delta d_{\rm R4}^+\) with
   \(0<\delta<\min(q_{\rm per}^-, \log 2)\),
   \(q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
-  dwell-run consumer amendment v3 (c_W^top on the run fraction
-  \(\ge 1-f_{\rm dw}\)); G3 clock-conversion display; g2
-  root-labeling re-gate; BoundaryTail split; the Chapter-10 rows.
+  run-fraction product worksheet filed in
+  `mpp-forward-gold-codex-one-sided-run-fraction-product-worksheet-reduction-20260706.md`:
+  \(c_W^{\rm top}\) is spent only on the RUN fraction
+  \(\ge 1-f_{\rm dw}\), so the product source is
+  \(((1-f_{\rm dw})/2)\Delta_{\rm run}^-(\delta)\), while the
+  dwell excess enters as a block-length floor; G3 clock-conversion
+  display; g2 root-labeling re-gate; BoundaryTail split; the
+  remaining Chapter-10 interval rows.
 
 ## 5. Failure taxonomy (carried verbatim)
 
@@ -687,9 +692,12 @@ notes.
   is VOID.
 - "A/2 > d_R4 certifies the top bracket globally": FALSE (sharp
   form: a high-bottom/small-gap family kills the bracket). Active
-  surface: the dwell-run split + A_0 > 6 d_R4^+ on RUN, conditional
-  on the net-extraction/Casimir-prefix row, or direct interval
-  evaluation of the exact sharp bracket.
+  surface: the self-financed dwell-run worksheet, with
+  \(A_0>C_\delta d_{\rm R4}^+\),
+  \(0<\delta<\min(q_{\rm per}^-,\log2)\), the H-row bounding dwell
+  fraction by \(f_{\rm dw}\), and source coefficient
+  \(((1-f_{\rm dw})/2)\Delta_{\rm run}^-(\delta)\), or direct
+  interval evaluation of the exact sharp bracket.
 - The UNCONDITIONAL pricing-completeness row D_j^total <= C_pc E_j:
   STRUCK (amplitude obstruction: quadratic dissipation vs cubic
   admitted row; no uniform constant on the actual solution class).
