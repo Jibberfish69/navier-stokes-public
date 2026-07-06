@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction to one possible Gram-gap source, not a WKB construction, not
   an exclusion theorem, not a crowd-cell theorem, and not a confinement-constant
@@ -26,11 +27,14 @@ completion_truth: >-
   selected moment one and diagonal/local charge O(1/M). If the identity map has
   many distinct fibers, uniform filling across them is near-uniform; if one
   fiber contains many cells, uniform filling inside that same packet identity
-  is still near-uniform. Thus common identity supplies a Gram gap only together
-  with an extra quantitative theorem: bounded effective cell count per identity
-  fiber, positive all-to-all identity charge, anti-equidistribution of legal
-  clouds, or construction/exclusion. This proves no such extra theorem and no
-  MPP closure.
+  is still near-uniform. The finite-cover follow-up shows that bounded
+  effective cell count is not supplied by the finite-cover certificate itself:
+  one legal chart and one common identity fiber can contain N equal positive
+  cells with total moment one and square charge 1/N. Thus common identity
+  supplies a Gram gap only together with an extra quantitative theorem: true
+  microlocal bounded effective cell count per identity fiber, positive
+  all-to-all identity charge, anti-equidistribution of legal clouds, or
+  construction/exclusion. This proves no such extra theorem and no MPP closure.
 ---
 
 # WKB common identity is not a Gram gap
