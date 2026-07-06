@@ -1273,12 +1273,22 @@ certified positive constant.
    \(\theta_{\rm reuse}\sim1/\Lambda\) of the local record currency. Bounded
    core-log gives a fixed localized-reuse toll; unbounded core-log is the same
    high-Re weighted-payer row as K5/Gate-A, not an independent reuse branch.
-   It is decided only by record/effective-length cap, genuinely nonlocal
-   endpoint return, curve/core/crowd contamination, financed handoff,
-   route-out/exclusion, or a genuinely unweighted high-Re mechanism.
-   Finding a genuine
-   no-eviction crowd kills the program and is the most valuable single
-   output.
+	   It is decided only by record/effective-length cap, genuinely nonlocal
+	   endpoint return, curve/core/crowd contamination, financed handoff,
+	   route-out/exclusion, or a genuinely unweighted high-Re mechanism.
+	   Follow-up record-length-cap energy-density obstruction filed: the long
+	   K5 packet with \(|a_L|^2L=A^2\) keeps total packet energy and total
+	   carrier production fixed while \(kL/\operatorname{Re}\to\infty\). The
+	   envelope, endpoint-contact, and remote-return errors still vanish in that
+	   regime, so a cap \(kL\lesssim\operatorname{Re}\) cannot come from total
+	   energy plus total production alone. Any real cap must use fixed local
+	   record density, fixed selected throughput on a bounded effective
+	   subpacket, dynamic recurrence/nonlocal return, forced curve/core/crowd
+	   geometry, or route-out of the long packet as an admissible retained
+	   producer.
+	   Finding a genuine
+	   no-eviction crowd kills the program and is the most valuable single
+	   output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
    The custody escrow/localization burden and the Gate-8 no-recount allocation rows
