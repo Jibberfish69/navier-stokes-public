@@ -15,6 +15,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and checked obstruction, not a crowd theorem and not a
   confinement-constant decision. The overlap-bath survivor cannot be killed by
@@ -37,7 +39,9 @@ completion_truth: >-
   closure are claimed. Follow-up local-affine dynamic obstruction further says
   this dynamic branch is not a pointwise affine tracking tax: every smooth
   symmetric trace-free A(t) is locally Navier-Stokes-admissible after choosing
-  the pressure Hessian, so the remaining dynamic decision is global/material.
+  the pressure Hessian. Second follow-up says generic time-dependent
+  cutoff/Hodge retuning is also cheap by scaling. Thus the remaining dynamic
+  decision is exact unforced/global/material.
 ---
 
 # Overlap bath: affine-jet static energy obstruction
@@ -150,8 +154,12 @@ field can keep supplying these jets while the producer keeps producing.
 The local-affine dynamic follow-up narrows what "dynamic" means here. It is not
 a pointwise material-jet obstruction: arbitrary smooth symmetric trace-free
 histories \(A(t)\) are locally admissible after the pressure Hessian absorbs
-\(\dot A+A^2\). The dynamic decision must therefore come from global same-fluid
-matching, pressure/Hodge/collar coupling, allocation, or construction.
+\(\dot A+A^2\). The time-dependent collar follow-up also rules out generic
+cutoff/Hodge retuning as the floor: the retuning work scales like
+\(G|\dot A|D^5\), hence one producer-clock retune at \(G=s\beta^{4/5}\) costs
+only \(\beta^{8/5}E_{\rm prod}\). The dynamic decision must therefore come
+from exact unforced evolution, nonlocal pressure/Hodge structure, allocation,
+or construction.
 
 There are two possible mathematical outcomes:
 
@@ -172,8 +180,8 @@ filed overlap demand \(G=s\beta^{4/5}\) has the cheap ratio
 \[
   E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}.
 \]
-Thus static finite energy, local divergence-free matching, and local dynamic
-affine equations cannot kill the overlap bath. The
-remaining question is global and dynamic: whether the joint matrix lets such
-jets persist along the producing flow or forces paid matching, tracking, and
-allocation.
+Thus static finite energy, local divergence-free matching, local dynamic
+affine equations, and generic time-dependent collar scaling cannot kill the
+overlap bath. The remaining question is exact and global: whether the joint
+matrix lets such jets persist along the producing flow or forces paid matching,
+tracking, and allocation.
