@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fixed-density-compensator-routing-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-sparse-nonlocal-allocation-amplification-reduction-20260706.md
 completion_truth: >-
   Strict reduction only. The many-cell WKB no-payer window, together with
   the occupancy identity phi=N theta^3 <= 1, splits the survivor. If the WKB
@@ -25,7 +26,12 @@ completion_truth: >-
   itself be a fixed-density retained pressure-tax backing measure. It routes
   to the already named
   compensator/SRP/producer-suppression alternatives unless a nonlocal
-  moment-allocation theorem is proved. The dense alternative is sharper:
+  moment-allocation theorem is proved. The sparse-allocation follow-up prices
+  that nonlocal theorem: any allocation with total-mass amplification B must
+  satisfy B beta^(4/5) phi >= c to back a fixed density. Thus bounded
+  allocation cannot rescue sparse support; unbounded allocation is a new
+  payer/certificate or the fixed-density compensator remains. The dense
+  alternative is sharper:
   theta <= C beta^(6/5), N comparable to theta^(-3), and Re_D >> theta^(-2).
   This note proves no WKB construction, no exclusion, no compensator routing
   theorem, and no MPP closure.
@@ -151,6 +157,22 @@ It therefore routes to the already named compensator branch:
 - SRP moment-readout gate for infinite weighted residue;
 - or a new nonlocal moment-allocation theorem proving that vanishing local
   support still backs the retained row in the needed currency.
+
+The sparse-allocation follow-up gives the exact lower bound for that last
+door. If an allocation operator with amplification \(B\) sends the sparse
+pressure backing into a full-bank fixed tax row, then
+\[
+  B\,\beta^{4/5}\phi\gtrsim1.
+  \tag{SD.16}
+\]
+Using \(\phi\lesssim\beta^{12/5}\theta^{-2}\), this requires
+\[
+  B\gtrsim\theta^2\beta^{-16/5}.
+  \tag{SD.17}
+\]
+So bounded nonlocal allocation does not turn sparse support into a retained
+fixed-density payer. It is an unbounded allocation/custody row, or the
+compensator remains.
 
 ## 4. Split result
 
