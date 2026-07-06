@@ -263,7 +263,9 @@ quantitatively anti-equidistributed. Local translation-invariant WKB legality
 does not prove that separation, because periodic replication gives a
 near-uniform local countermodel; common packet identity also does not prove it
 without bounded count, positive identity-fiber charge, or a legal separation
-law. The remaining theorem must use a genuine global certificate mechanism or
-construction/exclusion.
+law, and finite cover is not bounded count. The uniform-mode charge is a
+rank-one payer, priced in the pressure-service overlap bath as the fixed-
+density compensator branch; the remaining theorem must use a genuine global
+certificate mechanism or construction/exclusion.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
