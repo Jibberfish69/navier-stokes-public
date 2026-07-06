@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-diff-floor-alias-dyadic-ratio-20260705
-status: filed-pending-codex-gate
+status: codex-gated-alias-conditional-leg-separation-floor-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 - DIFF^- is an alias; rho^+ closes in sheet symbols
@@ -54,6 +54,32 @@ completion_truth: >-
   the guard naming its fallback and failure protocol. No numbers
   beyond exact structure. Filed is not cleared. No closure claimed.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f4-w1-diff-floor-gate-20260705.md`.
+
+Accepted conditionally: if the two same-helicity denominator legs in
+\(|g_1|\) satisfy \(\kappa_3\ge2\kappa_2\), then
+\[
+  {\rm DIFF}^-=\kappa_{\min}^-,
+  \qquad
+  \rho^+=\frac{\Sigma_{\max}^+}{2\kappa_{\min}^-}.
+\]
+
+Not cleared as a current enclosure: the cited F1 phrase "band ratios
+are exact powers of two" does not by itself identify the two legs in
+the return-race denominator as octave-separated dyadic rungs. The
+current gate reduces the row to a leg-separation floor
+\[
+  \kappa_3-\kappa_2\ge \eta_\kappa^-\kappa_{\min},
+\]
+or to a proof that the financed return-race denominator uses only the
+opposite-helicity branch. Until then, \(\rho^+\) remains reduced but
+open.
+
+No W1, F4, Chapter-10, F5, or MPP closure is claimed.
 
 # F4/W1: the rungs are an octave apart - DIFF^- was always kappa_min
 
