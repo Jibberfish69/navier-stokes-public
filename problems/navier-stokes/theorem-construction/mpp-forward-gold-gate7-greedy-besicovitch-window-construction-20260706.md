@@ -34,8 +34,11 @@ completion_truth: >-
   choice/domination and the weak-limit domination direction at fixed
   finite readout: lambda_a = w*-lim |nu_a^epsilon| dominates |nu_a|. The
   remaining clauses are finite-readout total reconstruction and tail
-  charging, coherence versus mass-greedy selection, and
-  bounded-merger/readout stability. F1 remains reduced, not cleared.
+  charging plus coherence versus mass-greedy selection. Codex accepts z4
+  in coloring form: exact balls and finite color multiplicity replace
+  bounded-merger/readout stability. z3 remains open as
+  lineage-disintegration / incoherent-lump routing on lambda-rich balls.
+  F1 remains reduced, not cleared.
   Constructs the Gate-7 countable locally finite measurable
   window decomposition by greedy Besicovitch selection on the
   actual defect measure, with exhaustion and the bounded overlap
@@ -127,6 +130,13 @@ of the same signed throughput measure.
 This does not reconstruct the total active monomial/defect measure from
 the finite-readout channel-cell sum. Tails, coherence, and
 bounded-merger/readout stability remain open.
+
+Codex second follow-up filed at
+`mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md`.
+The bounded-merger/readout-stability clause is accepted in coloring
+form. The remaining coherence clause is sharpened to
+lineage-disintegration / incoherent-lump routing on \(\lambda_a\)-rich
+balls.
 
 ## T1. Finiteness
 
