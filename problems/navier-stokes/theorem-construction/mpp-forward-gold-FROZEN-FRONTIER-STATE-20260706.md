@@ -1447,3 +1447,29 @@ The live B2 theorem, on the deep route, is
 `FreshSourceCriticalScaleMemoryBound.A` (or the July-4 repeated-core /
 shrinking-core branch pair). B3 remains the material-time Liouville / certified
 marginal bath construction-or-exit front.
+
+## 13. Codex W0-B B3 supplier map (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0b-b3-material-time-liouville-supplier-map-20260706.md`.
+This is a strict reduction, not a proof of W0-B.
+
+B3 is now the material-time marginal-bath trichotomy:
+
+1. a positive density gap supplies the nonlinear anti-uniform payer before a
+   Liouville theorem is needed;
+2. no density gap plus compact law/ancestry/cover/tower/selector certificates
+   produces the certified material-time marginal bath profile, which
+   `MaterialTimeLiouvilleExclusion.A` must exclude or else becomes a
+   construction surface;
+3. failure of the compactness/certificate factors routes to the first typed
+   Pack/Part/selector/custody face.
+
+Thus the current W0-B front is not a loose lineage theorem. After B1 and B2
+supersession, it is:
+
+1. the Door-A/deep-route selected-critical fresh-source wall, only if W1 uses
+   macro-window accumulation;
+2. the B3 marginal-bath trichotomy;
+3. F5 assembly after the Chapter-10 packet and surviving W0-B suppliers are
+   actually paid or routed.
