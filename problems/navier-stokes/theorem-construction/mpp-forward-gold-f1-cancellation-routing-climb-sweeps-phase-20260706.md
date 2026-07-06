@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-cancellation-routing-climb-sweeps-phase-20260706
-status: filed-pending-codex-gate
+status: codex-regated-p1-accepted-v1-real-theorem-not-display
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F1 / the participation bridge by cancellation routing — no-climb is attenuation; climb sweeps the phase
@@ -19,6 +19,7 @@ authorship: >-
   holds a pose while dancing. The un-parking law was always this
   fact - now it is asked to say so at the predator slot.
 depends_on:
+  - mpp-forward-gold-codex-f1-cancellation-routing-regate-20260706.md
   - mpp-forward-gold-codex-f1-t3-domain-match-audit-20260706.md
   - mpp-forward-gold-f1-t3-participation-split-amplitude-phase-nogo-20260706.md
   - mpp-forward-gold-f1-predator-cone-population-bernstein-packet-lemma-20260706.md
@@ -80,6 +81,26 @@ completion_truth: >-
 ---
 
 # The participation bridge by routing: no-climb is attenuation; climb sweeps the phase
+
+## Codex regate, 2026-07-06
+
+Codex audit filed at
+`mpp-forward-gold-codex-f1-cancellation-routing-regate-20260706.md`.
+P1 is accepted: forward cancellation in the relay slot is unfinanced
+no-climb and routes to attenuation/inactive charge.
+
+P2/P3 do not clear as stated. The return-race Section-4 un-parking
+identity is installed for a specific turning phase; it does not by
+itself prove that the predator-slot phase \(\Theta_{\rm pred}\) sweeps
+by the W-II climb amount, crosses the positive Jordan sector, and spends
+enough time there to produce a time-integrated lower bound for
+\((\operatorname{Re}M_{\rm pred})_+\). The v1 item is therefore a real
+theorem, not a display-only transcription. It must supply phase-change,
+clock/time-weight, oriented Jordan routing, and uniformity over the
+Bernstein populated bounded-shape family.
+
+Until v1-v3 are proved, cancellation histories are not exhausted. The
+bad-cone capacity fork remains a parallel reduction.
 
 ## P1. Forward cancellation is attenuation (definitional)
 
