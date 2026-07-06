@@ -673,6 +673,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    defect profile itself as a terminal witness ledger. If neither is available,
    the branch is construction/exclusion or limit-of-class /
    original-participation failure, not retained WKB supply.
+   The actual WKB carrier extraction follow-up pays the finite phase-packet
+   menu case by pigeonhole: one actual same-solution WKB packet family survives
+   on an infinite terminal subtail. The general case remains moving/continuum
+   phase-label work: tight diffuse labels become microlocal/profile admission,
+   and nontight labels become selected-carrier tightness escape / Body-III
+   defect.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
