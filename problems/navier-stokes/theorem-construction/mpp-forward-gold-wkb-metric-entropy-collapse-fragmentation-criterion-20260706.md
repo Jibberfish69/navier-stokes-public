@@ -201,7 +201,7 @@ level:
 
 The cross-cluster option is not a generic square argument. It must prove
 \[
-  \inf_{\substack{s\in\mathcal C_j\\ \sum_as_a=1}}
+  \inf_{\substack{s\in\mathcal C_j\\ \sum_a s_a=1}}
   s^TG_js
   \ge c>0
   \tag{MEC.17}
