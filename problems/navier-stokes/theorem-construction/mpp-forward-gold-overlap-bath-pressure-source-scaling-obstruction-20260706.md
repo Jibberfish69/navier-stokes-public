@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-production-extremizer-pressure-hessian-frame-rotation-test-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -38,8 +39,11 @@ completion_truth: >-
   zero-gradient station with the same HD^5 cost; the same display supplies any
   trace-free Hessian after choosing a zero-diagonal frame. The live exact-matrix
   burden is now sharpened to q=4/5 for retuning pressure service, plus
-  localization, producer coupling, exact time persistence, same-packet
-  allocation, or a true dynamic bath construction.
+  localization, producer coupling, fast direction tracking if forced,
+  same-packet allocation, or a true dynamic bath construction. Follow-up
+  time-persistence obstruction kills the constant-direction persistence floor:
+  relative unforced drift over one producer clock is only
+  beta^(2/5)+nu/(sD^2).
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -272,7 +276,8 @@ The remaining exact-matrix burden is now sharper:
 
 - localization of the pressure-source cell into the producing field;
 - coupling the pressure-source cell to a nonzero producing packet;
-- exact time persistence of the pressure-source cells and the producing bath;
+- fast direction tracking, if the exact matrix forces pressure-Hessian direction
+  changes on the producer clock;
 - nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
 - same-packet allocation of pressure service into record-ladder currency;
 - beta-depth admissibility for finite-depth or growing-depth schedules;
@@ -295,5 +300,5 @@ on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
-through exact unforced dynamics, nonlocal pressure/Hodge structure, allocation,
-or admissibility.
+through fast direction tracking if forced, localization, producer coupling,
+allocation, or admissibility.
