@@ -1007,6 +1007,14 @@ the confinement constant.
    same-packet identity, law/ancestry/cover/tower certificates,
    non-translation-invariant positive uniform-mode geometry, or
    construction/exclusion.
+   The common-identity obstruction now blocks the next shortcut: same-packet
+   identity is compatibility/closedness data, not a square lower bound.
+   Uniform filling across many identity values, or inside one large identity
+   fiber, keeps total selected moment while diagonal/local charge is \(1/M\)
+   and mean-zero cross charge stays in the uniform zero mode. Thus identity
+   helps only if it brings a bounded effective cell count, a positive
+   identity-fiber uniform-mode charge, legal anti-equidistribution, or
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
