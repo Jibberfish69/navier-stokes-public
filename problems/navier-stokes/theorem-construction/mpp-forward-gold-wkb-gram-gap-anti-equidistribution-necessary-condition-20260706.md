@@ -289,6 +289,17 @@ mass coordinates, so \(B_Md_M^2\gtrsim1\) is just
 \]
 That is density-level anti-equidistribution, not a new raw-kernel payer.
 
+Finitely many bounded certificate rows also do not supply this density
+separation merely by being common, legal, and closed. If the uniform density
+satisfies the rows, the uniform cloud is still legal, and small positive
+finite-kernel perturbations stay arbitrarily close to it. If the rows force
+separation, they do so through a fixed moment mismatch
+\[
+  \delta^T\mathcal G^\dagger\delta,
+  \tag{AE.23}
+\]
+which is a named row/payer.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -319,8 +330,12 @@ The cross-cell WKB branch is now:
 \text{near-uniform legal clouds}
   &\Rightarrow \text{Gram gap false; route to profile admission or construction/exclusion}.
 \end{array}
-\tag{AE.23}
+\tag{AE.24}
 \]
+
+Finitely many bounded certificate rows split the anti-equidistribution branch:
+uniform-compatible rows do not separate the cloud, while fixed nonuniform
+moment rows are explicit payers rather than hidden compatibility consequences.
 
 This is a smaller burden than the previous Gram-gap label. It says exactly what
 the admissible-cone theorem must prevent.
@@ -343,6 +358,9 @@ anti-equidistribution burden, and unbounded residual positivity obeys the
 product law \(B_Md_M^2\gtrsim1\) in the zero-mode case or
 \(B_Md_M\gtrsim1\) in the row-drift case. For the raw pressure/CZ kernel,
 apparent \(B_M\sim M\) is only the mass-coordinate form of the bounded density
-operator, so it still asks for density-level anti-equidistribution.
+operator, so it still asks for density-level anti-equidistribution. Finitely
+many bounded certificate rows do not provide that density separation by
+compatibility alone; only a fixed moment mismatch gives an explicit row
+payment.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
