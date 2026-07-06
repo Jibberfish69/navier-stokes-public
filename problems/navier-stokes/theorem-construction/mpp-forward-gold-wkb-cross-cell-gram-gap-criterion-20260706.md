@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -44,7 +45,12 @@ completion_truth: >-
   near-uniform legal positive clouds has zero Gram infimum. A surviving gap
   must supply either a genuine positive uniform-mode charge or a quantitative
   theorem that legal same-packet WKB clouds cannot approach the uniform zero
-  mode. This
+  mode. The near-uniform local-cloud follow-up shows that local
+  translation-invariant WKB legality and local moment matching cannot supply
+  that anti-equidistribution theorem: periodic replication preserves selected
+  moment while diagonal and mean-zero/local Gram charges vanish like 1/M. Thus
+  any surviving gap must be genuinely global same-packet/certificate geometry,
+  a positive uniform-mode charge, or construction/exclusion. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -268,17 +274,28 @@ Thus if the legal cone contains near-uniform clouds, the Gram gap is false.
 Any surviving proof must install either a positive uniform-mode charge or an
 anti-equidistribution theorem for the legal WKB cone.
 
+The near-uniform local-cloud follow-up blocks one possible source of that
+anti-equidistribution. If one locally legal WKB service cell can be translated
+over an \(M\)-point periodic/quadrature cloud and all copies keep the same local
+legality status, then the equal-weight cloud \(a_b=1/M\) preserves total
+selected moment, has diagonal square charge \(1/M\), and lies in the uniform
+zero mode of every mean-zero translation-invariant cross kernel. Therefore
+anti-equidistribution must come from global same-packet identity, law/ancestry/
+cover/tower certificates, non-translation-invariant geometry, or
+construction/exclusion; it is not a local-cell theorem.
+
 ## 6. Four-sentence result
 
 The same-cell square reserve is already false for an unbounded WKB cloud, so
 any square rescue must come from cross-cell interaction. Such a rescue is
 exactly a uniform positive lower bound for the actual interaction Gram matrix
 on the normalized admissible positive cloud cone. Orthogonality, finite-range
-interaction, the raw mean-zero pressure kernel, and PSD trace ballast alone
-all admit uniform or isotropic positive clouds with vanishing selected
-quadratic charge. Therefore the remaining cross-cell branch is a real
-Navier-Stokes admissibility / same-packet / certificate Gram-gap theorem, or it
-falls back to profile admission, typed escape, or construction/exclusion.
+interaction, the raw mean-zero pressure kernel, PSD trace ballast, and local
+translation-invariant WKB legality all admit uniform or isotropic positive
+clouds with vanishing selected quadratic charge. Therefore the remaining
+cross-cell branch is a real global Navier-Stokes admissibility / same-packet /
+certificate Gram-gap theorem, or it falls back to profile admission, typed
+escape, or construction/exclusion.
 
 ## 7. State
 
