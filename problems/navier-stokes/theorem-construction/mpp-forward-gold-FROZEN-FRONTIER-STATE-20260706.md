@@ -156,9 +156,12 @@ F1 -> (F2 || F3) -> F4 -> F5.
   charging, and no-dropped-mass/no-double-tax overlap accounting.
   Fable's greedy Besicovitch construction is accepted by Codex only as
   the positive-measure covering lemma: bounded overlap/countability are
-  paid for a chosen positive channel-cell measure, but exhaustion of the
-  active monomial/defect ledger still needs the correct domination or
-  weak-limit reconstruction direction, coherence handling, and
+  paid for a chosen positive channel-cell measure. Codex follow-up pays
+  the control-measure choice and weak-limit domination direction at fixed
+  finite readout: \(\lambda_a=\mathrm{w^*}\!-\lim|\nu_a^\varepsilon|\)
+  and \(|\nu_a|\le\lambda_a\). Exhaustion of the total active
+  monomial/defect ledger still needs finite-readout reconstruction,
+  eta/locality tail charging, coherence handling, and
   bounded-merger/readout stability. F1 actual-NS population remains
   reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
