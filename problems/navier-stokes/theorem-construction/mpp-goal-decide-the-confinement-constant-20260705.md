@@ -485,18 +485,11 @@ Current product filters: \(A_0>6d\), \(P_{\rm cap}>4aq\), and
 \]
 before the exact RH.20 supremum is worth evaluating. Passing these
 filters is not product positivity.
-The row is typed, but the interval pass is not pure certification yet:
-\(\Delta_{\rm G6a}\) is still an unpaid source packet, the compact-band
-infimum of the R4-adjusted endpoint margins. Its positivity still
-depends on the financed-family swing-amplitude/root-spread floor, the
-noncircular financed-family lower bounds behind those margins, and the
-matched R4 drift budget on the same band. Same-day correction: the
-actual Gate-6 cubic normalization is paid; the map to normalized roots
-\(0,1,1/m\) is exact and its physical Jacobian is \(r_+-r_-\). Thus the
-opaque \(\Delta_{\rm G6a}\) source packet splits into the root-factor
-lower enclosure and the endpoint frozen-margin comparison against matched
-R4 drift. Same-day root-factor obstruction: swing amplitude and separatrix
-gap do not imply the root factor. For roots
+The predecessor two-ended row is typed, but it is not the active
+interval pass. Its old source packet \(\Delta_{\rm G6a}\) split into a
+root-factor enclosure and an endpoint frozen-margin comparison against
+matched R4 drift. Same-day root-factor obstruction: swing amplitude and
+separatrix gap do not imply the lower endpoint root factor. For roots
 \[
   r_-=\varepsilon,\qquad r_+=A+\varepsilon,\qquad r_*=B+\varepsilon
   \quad(0<A<B),
@@ -506,12 +499,9 @@ the Gate-6 cubic can be realized by Vieta's formulas with fixed swing
 \[
   r_-(I_1+I_2-2r_-)=\varepsilon(A+B+\varepsilon)\to0.
 \]
-So the product-side residue is: bottom-root / phase-invariant floor or
-direct \(\Delta_{\rm G6a}\) interval certification, endpoint margin beating
-R4 drift, finite constants \(K_{\rm off},\tau_{\min},\Omega_{\rm R4},
-D_{P2}^{\rm ti},D_{\rm tail}^{\rm ti}\), positivity of the displayed row,
-BoundaryTail_F4 endpoint/rate split, and the length row. This does not decide
-the confinement constant.
+So the old two-ended product-side residue is superseded by the
+one-sided RUN-H rewrite below, with the lower endpoint carried as an
+endpoint/block charge instead of a bulk rate.
 One-sided correction carried forward: the bottom-root horn route spends the top
 source only on RUN time. After the self-financing dwell gate, the active
 product source is
