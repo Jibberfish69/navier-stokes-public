@@ -62,9 +62,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     curve leakage alone has a blind point, but the combined instantaneous
     eviction vector \(\mathcal E^2=|\tau_y|^2+|\tau_n|^2+B_d^2\) has
     the certified two-tube pointwise floor \(\mathcal E\ge\sigma/3\).
-    Remaining: transport that vector floor through the evolving filament
-    lifetime, rule out time-cancellation/reabsorption, and compose it
-    with the high-Re edge/crowd/custody economy.
+    Same-packet two-tube TV reduction filed:
+    \(\mathrm{Prod}_+\le3\,\mathrm{TV}_{\rm evict}\), so signed
+    time-cancellation is killed inside total-variation currency.
+    Remaining: bound or consume the total eviction variation through
+    duration, curve-profile persistence, high-Re edge/crowd/custody
+    economy, and octave composition.
     CROWD STATE (same date, evening): dilute cell DECIDED for the floor
     (monopole vanishing => quartic far-strain decay, adversarial-proof,
     N-independent). Dense same-extent scaffolds strictly supercritical
@@ -111,8 +114,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Local residual floor paid: \(B_d=2\sigma_{\max}\) at the production
    station. Combined instantaneous floor paid on the producing
    two-tube profile: \(\mathcal E\ge\sigma/3\). Remaining K3 burden:
-   transport that vector floor through lifetime dynamics and rule out
-   time-cancellation/reabsorption.
+   same-packet TV reduction gives \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\);
+   now bound or consume \(\mathrm{TV}_{\rm evict}\) through lifetime
+   dynamics, profile persistence, and high-Re/crowd/custody budgets.
    Kill condition: no high-Re return-race/custody/sideband-crowd payment
    and no curve-leakage payment => the pure neutral/curvature channel is
    not uniformly capped.
