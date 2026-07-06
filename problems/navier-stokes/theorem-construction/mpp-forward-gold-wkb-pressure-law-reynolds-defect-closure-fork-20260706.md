@@ -18,7 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-field-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-covariance-cone-screen-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -39,16 +39,16 @@ completion_truth: >-
   remaining cancellation branch exact: P div R=0 iff R=qI+S with div S=0,
   with q absorbed into pressure and S carried, if at all, as a null-stress
   certificate. The null class is nontrivial even in trace-free anisotropic
-  stresses: R_phi=Hess phi-(Delta phi)I/3 has P div R_phi=0. The covariance
-  cone screen then separates velocity-law nullity from actual Reynolds origin:
-  any rung-zero Reynolds defect produced by weak L2 convergence is a positive
-  semidefinite matrix-valued measure. Pure trace-free Hessian null stresses are
-  pressure-law null examples, but they are not actual Reynolds covariance
-  defects unless they vanish or are offset by isotropic covariance mass. This
-  proves no theorem forcing actual Navier-Stokes WKB packets into the PSD null
-  class, no legal carriage theorem for nonzero PSD null stresses, no profile
-  admission theorem, no WKB construction/exclusion, no confinement constant,
-  and no MPP closure.
+  stresses: R_phi=Hess phi-(Delta phi)I/3 has P div R_phi=0. The
+  covariance-ballast follow-up then separates velocity-law nullity from actual
+  Reynolds origin: any rung-zero Reynolds defect produced by weak L2
+  convergence is a positive semidefinite matrix-valued measure, so trace-free
+  anisotropy needs positive trace ballast. Pointwise, if
+  R=(tau/3)I+A>=0 and tr A=0, then tau/3>=-lambda_min(A), hence
+  tau>=sqrt(3/2)|A|_F. This proves no theorem forcing actual Navier-Stokes WKB
+  packets into the PSD null class, no legal carriage theorem for the positive
+  ballast through ancestry/cover/tower, no profile admission theorem, no WKB
+  construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -276,16 +276,29 @@ nonnegative \(\psi\in C_c^\infty\) and every \(\xi\in\mathbb R^3\),
 \]
 by weak lower semicontinuity of \(L^2\) after multiplying by \(\sqrt\psi\).
 Thus a pure trace-free null stress is not an actual Reynolds covariance defect
-unless it is zero. The pressure-law survivor for actual WKB Reynolds defects is
-therefore
+unless it is zero. If
+\[
+  R={\tau\over3}I+A,\qquad \operatorname{tr}A=0,
+  \tag{RDC.20}
+\]
+then covariance positivity forces the exact pointwise ballast inequality
+\[
+  {\tau\over3}\ge-\lambda_{\min}(A),
+  \qquad
+  \tau\ge\sqrt{3\over2}|A|_F .
+  \tag{RDC.21}
+\]
+The pressure-law survivor for actual WKB Reynolds defects is therefore
 \[
   R\in
   \{ \mathbb P\operatorname{div}R=0\}
   \cap
   \mathcal M_+({\rm Sym}^+(3)),
-  \tag{RDC.20}
+  \tag{RDC.22}
 \]
-unless a separate signed-stress certificate is explicitly supplied.
+with positive trace ballast whenever the null stress has a nonzero trace-free
+anisotropic part, unless a separate signed-stress certificate is explicitly
+supplied.
 
 ## 6. Reduced burden
 
@@ -304,11 +317,11 @@ in the Leray-null class
 \[
   R=qI+S,\qquad \operatorname{div}S=0,
 \]
-with \(q\) absorbed into pressure and \(S\) legally carried as a null-stress
-certificate, or is otherwise carried by an explicit legal signed-stress
-certificate outside the rung-zero Reynolds covariance claim. If none of these
-holds, the profile fails the actual velocity-pressure law / covariance-ancestry
-certificate.
+with \(q\) absorbed into pressure and positive trace ballast paid for any
+nonzero trace-free anisotropy, or is otherwise carried by an explicit legal
+signed-stress certificate outside the rung-zero Reynolds covariance claim. If
+none of these holds, the profile fails the actual velocity-pressure law /
+covariance-ancestry certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
 certificate compactness.
@@ -329,10 +342,11 @@ limit-of-class failure rather than a new pressure-service branch.
 This note proves the Reynolds-defect closure fork for the actual law
 certificate, the single-shape localized anisotropic Leray obstruction, and the
 exact Leray-null stress characterization, including the trace-free Hessian
-null-stress example. It also proves the covariance-cone screen for actual
+null-stress example. It also imports the covariance-ballast screen for actual
 rung-zero Reynolds defects. It does not prove actual Navier-Stokes WKB
 Reynolds defects lie in the PSD null class, does not prove the defect vanishes
-for Navier-Stokes WKB packets, does not prove that a nonzero PSD null defect can
-be legally carried, does not prove `WKBCertificateCompactness.A`, does not
-prove profile admission, does not prove WKB construction/exclusion, does not
-decide the confinement constant, and does not close the MPP.
+for Navier-Stokes WKB packets, does not prove that a nonzero PSD null defect and
+its positive trace ballast can be legally carried, does not prove
+`WKBCertificateCompactness.A`, does not prove profile admission, does not prove
+WKB construction/exclusion, does not decide the confinement constant, and does
+not close the MPP.
