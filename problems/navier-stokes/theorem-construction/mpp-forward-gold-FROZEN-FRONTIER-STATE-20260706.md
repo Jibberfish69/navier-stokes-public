@@ -127,11 +127,23 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: item 1 (normalization/Jacobian) PAID
    (root-coordinate algebra: Jacobian A/m^2, slopes AB and
-   A^2(1/m - 1), discriminant A^2 B^2 (B-A)^2); REMAINING: the
-   financed-family SWING floor (A >= A_0 > 0) and ROOT-GAP floors
-   (m_0 <= m <= m_* < 1) on the capped cell, minus the scoped R4
-   drift. In story terms: the financed spring genuinely swings and
-   never parks exactly on the separatrix.
+   A^2(1/m - 1), discriminant A^2 B^2 (B-A)^2). The financed
+   swing/root-gap item is now reduced by
+   `codex-financed-swing-rootgap-floor-reduction`: on the paid
+   Gate-6 normalization,
+   \(|\dot X|=\alpha A\sqrt B\sqrt{y(1-y)(1-my)}\), so a
+   boundary-routed interior throughput floor
+   \(\Phi_W\ge\Phi_0>0\) forces
+   \(A\ge 2\Phi_0/(\alpha_+\sqrt{B_+}|W|)\) and hence
+   \(m\ge A_0/B_+\); the remaining separatrix failure \(m\uparrow1\)
+   is exactly the period-cap line \(T_{\rm per}\le T_*\), since
+   \(T_{\rm per}=C_{\rm per}K(m)/(\alpha\sqrt B)\) and
+   \(K(m)\to\infty\). REMAINING: boundary-routed interior financing
+   \(\Phi_0>0\), the period cap, and the scoped R4-adjusted margin.
+   In story terms: the financed spring genuinely swings because
+   interior throughput is motion of the same root variable, and exact
+   separatrix parking is excluded only when the window currency caps
+   the period.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
