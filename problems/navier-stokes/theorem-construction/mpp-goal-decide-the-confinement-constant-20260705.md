@@ -134,6 +134,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     intervals. External-audit paper drafted
     (external-paper/eviction-production-filament-pair-notes-draft),
     awaiting owner send decision.
+    Same-day dense-bracing pairwise-TV subcell filed:
+    unallocated ordered-pair TV cannot be free, since net positive
+    production is bounded by the sum of pairwise positive productions
+    and each leading two-tube pairwise production pays the K3 TV floor.
+    The remaining bracing danger is net-vector cancellation before the
+    same-packet ledger accepts the pairwise TV, plus off-profile/core,
+    sideband/crowd, and node-sitting schedules.
 
 ## Work order (each unit: output + kill condition)
 
@@ -190,7 +197,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    constraint \(D_hC\,\dot h=-D_qC\,\dot q\); the live constant is the
    normalized transversality floor. Same-day amplitude homogeneity
    check says common amplitude growth is tangent to homogeneous nodes;
-   node tracking must come from shape motion. Finding a genuine
+   node tracking must come from shape motion. Same-day pairwise-TV
+   bracing subcell says unallocated ordered-pair TV is paid:
+   \(\mathrm{Prod}_{+,net}\le3\sum_{i,j}\mathrm{TV}(e_{ij})\).
+   Remaining bracing escape is cancellation of the net eviction vector
+   before this pairwise TV is accepted as same-packet tax, or a
+   non-pairwise crowd geometry. Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
