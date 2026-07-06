@@ -140,7 +140,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     and each leading two-tube pairwise production pays the K3 TV floor.
     The remaining bracing danger is net-vector cancellation before the
     same-packet ledger accepts the pairwise TV, plus off-profile/core,
-    sideband/crowd, and node-sitting schedules.
+    sideband/crowd, and node-sitting schedules. Follow-up net-vector
+    ledger obstruction filed: a readout that sums eviction vectors before
+    charging path length cannot inherit the pairwise floor, because
+    opposite pairwise exits can cancel exactly. The bracing proof target is
+    now pairwise/current-resolved same-packet allocation, or an actual PDE
+    schedule that sustains cancellation while production continues.
 
 ## Work order (each unit: output + kill condition)
 
@@ -200,9 +205,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    node tracking must come from shape motion. Follow-up pairwise-TV
    bracing subcell says unallocated ordered-pair TV is paid:
    \(\mathrm{Prod}_{+,net}\le3\sum_{i,j}\mathrm{TV}(e_{ij})\).
-   Remaining bracing escape is cancellation of the net eviction vector
-   before this pairwise TV is accepted as same-packet tax, or a
-   non-pairwise crowd geometry. Finding a genuine
+   Follow-up net-vector ledger obstruction says the cancelled net vector
+   is not a valid tax target by itself; opposite pairwise exits can hide
+   positive TV after summation. Remaining bracing escape is therefore a
+   real PDE cancellation schedule that defeats pairwise/current allocation,
+   or a non-pairwise crowd geometry. Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
