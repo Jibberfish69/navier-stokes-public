@@ -265,12 +265,13 @@ Codex-checked): the financed swing/period floors do NOT imply the
 root-factor floor; the horn is NOT sub-financing under the current
 definition (financed in drain currency); it is NOT a CM/Part face
 failure by itself; the Part-bridge attempt reduces to the same
-missing floor. LIVE ALTERNATIVES: (a) a noncircular lower-root /
-phase-invariant floor r_- >= r_0 > 0 on the financed family; (b) a
-NEW poor-horn comparison proving the root-degenerate branch
-sub-financing; (c) a new root-service participation law (= the same
-floor in Part language). The monotone-envelope row stands as the
-sufficient interval form once the floor exists. Key notes:
+missing floor. LIVE INDEPENDENT ALTERNATIVES: (a) a noncircular
+lower-root / phase-invariant floor r_- >= r_0 > 0 on the financed
+family; or (b) a NEW poor-horn comparison proving the root-degenerate
+branch sub-financing. A root-service participation law is the same
+missing floor in Part language, not a third route. The
+monotone-envelope row stands as the sufficient interval form once the
+floor exists. Key notes:
 codex-delta-g6a-factorized-source-row,
 codex-delta-g6a-root-factor-bottom-root-obstruction,
 codex-bottom-root-horn-financed-obstruction,
