@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-row-lift-gate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter9-draft-record-bridge-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter9-reserve-queue-consumer-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and allocation obstruction, not a Gate-8 theorem, not a
   dense-crowd theorem, and not a confinement-constant decision. The pressure
@@ -28,7 +29,10 @@ completion_truth: >-
   the stronger Gate-8/chapter-9 no-recount object: an actual allocated tax or
   record-charge row on the same ordered channel-cell history, or a positive
   compensator/residue routed to tail, boundary, Silver, producer suppression,
-  or construction exclusion.
+  or construction exclusion. Follow-up Gate-8 tax-density obstruction checks
+  that no-recount allocation itself preserves the beta^(4/5) density; demanding
+  a fixed pressure-service tax density creates a positive tax deficit instead
+  of an order-one retained row.
 ---
 
 # Overlap bath: same-packet raw allocation obstruction
@@ -175,7 +179,10 @@ Gate-8/chapter-9 no-recount allocation theorem or its compensator.
 The pressure row now has these typed open branches:
 
 - no-recount allocation: build \(T_n^w\) or \(C_n^w\) for the pressure-service
-  work on the same ordered channel-cell history;
+  work on the same ordered channel-cell history, with the retained density still
+  bounded by the pressure-service backing density;
+- fixed-density tax deficit: demanding a uniform \(\theta_0\) creates a positive
+  tax compensator once \(\beta\) is small;
 - compensator routing: prove that failure of allocation creates a positive
   \(dK_n^{\rm ch9}\)-type residue and route it lawfully;
 - Reynolds-edge bridge: convert
@@ -199,6 +206,6 @@ so even full same-packet charging gives only
 \[
   E_{\rm ph}(D)/E_{\rm prod}(D)\sim\beta^{4/5}.
 \]
-The remaining allocation branch must be Gate-8 no-recount allocation or a
-positive compensator/residue, not raw energy co-presence in the same velocity
-field.
+Follow-up Gate-8 tax-density obstruction adds that no-recount allocation cannot
+amplify this into a fixed tax density; a fixed \(\theta_0\) produces a positive
+compensator/residue instead.

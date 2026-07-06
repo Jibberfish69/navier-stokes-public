@@ -268,6 +268,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     against a larger producer packet. Thus the allocation branch must be
     Gate-8 no-recount allocation or a positive compensator/residue, not raw
     same-field energy accounting.
+    Follow-up Gate-8 tax-density obstruction filed: no-recount allocation does
+    not amplify the pressure-service row. The pressure-service backing measure
+    has density at most \(\beta^{4/5}\) against local producer throughput, so a
+    fixed retained tax density \(\theta_0\) has positive deficit
+    \((\theta_0-C\beta^{4/5})_+\mu_{\rm prod}\) once \(\beta\) is small. Thus
+    fixed pressure-service tax belongs to the compensator/residue branch, not
+    the retained no-recount row.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -381,7 +388,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    adds that nonconstant producer gradient creates cross Hessian
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
-   the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
+   the Reynolds-edge bridge, fixed-density compensator/residue,
    supercritical fast-motion forcing, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature

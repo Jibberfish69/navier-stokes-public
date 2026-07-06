@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -56,9 +57,11 @@ completion_truth: >-
   an order-one energy floor. Follow-up same-packet raw allocation obstruction
   checks that raw same-field allocation of pressure-service energy remains
   beta^(4/5) of local producer currency, so allocation must mean Gate-8
-  no-recount allocation or a compensator. The criterion itself is unchanged. No
-  no-eviction crowd, confinement constant, composition theorem, or MPP closure
-  is claimed.
+  no-recount allocation or a compensator. Follow-up Gate-8 tax-density
+  obstruction checks that the no-recount row still has only beta^(4/5) density;
+  a fixed density belongs to the compensator branch. The criterion itself is
+  unchanged. No no-eviction crowd, confinement constant, composition theorem, or
+  MPP closure is claimed.
 ---
 
 # Bath recursion: energy summability criterion
