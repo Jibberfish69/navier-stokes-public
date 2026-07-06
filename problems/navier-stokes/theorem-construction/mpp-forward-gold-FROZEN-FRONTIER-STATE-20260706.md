@@ -351,13 +351,15 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
 
   CODEX WORKSHEET ADDENDUM (2026-07-06,
   codex-chapter10-route3-coupled-worksheet-addendum): Route 3 now has an
-  explicit row list. Door B uses
-  \(R_{\rm seed}^B=1/2-e^{-A_G}/r_{\rm net}^{B,{\rm use}}>0\), with
-  \(r_{\rm net}^{B,{\rm use}}=\chi_W f_B^2H_B/(2\pi\rho)\), not the stale
-  independent \(R_{\rm seed}>0\) row. The product half is the RUN-H scalar
-  supremum against \(R_{\rm rent}(D)\), plus the one-block
-  \(B_{\rm tail}^{bad}(D)\) length charge and no-reuse guard. No interval
-  arithmetic is executed.
+  explicit row list. Door B uses the endpoint-charged finite seed row
+  \[
+    \left({1\over2}-{2Q_W\over L_W|I|}\right)f_B^2H_B>{T_B\over2},
+  \]
+  equivalently \(f_B^2H_B>T_B\) plus its explicit length threshold, not
+  the stale independent \(R_{\rm seed}>0\) row and not a second seed
+  endpoint charge. The product half is the RUN-H scalar supremum against
+  \(R_{\rm rent}(D)\), plus the one-block \(B_{\rm tail}^{bad}(D)\)
+  length charge and no-reuse guard. No interval arithmetic is executed.
 
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
