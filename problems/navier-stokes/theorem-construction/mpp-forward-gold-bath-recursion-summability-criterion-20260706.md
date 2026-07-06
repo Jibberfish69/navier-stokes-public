@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-steady-or-tracking-dichotomy-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -27,7 +28,8 @@ completion_truth: >-
   p=4/5 law, cannot be the infinite finite-energy bath escape. A surviving exact
   matrix/node-sitting construction must instead produce non-shallowing
   accumulated smallness, a different non-power law with divergent cumulative
-  x_j, or a finite-depth composition escape. No no-eviction crowd, confinement
+  x_j, or a growing-depth fresh-holder cascade. Uniform finite depth is killed
+  separately by the beta-depth correction. No no-eviction crowd, confinement
   constant, composition theorem, or MPP closure is claimed.
 ---
 
@@ -179,7 +181,9 @@ Thus the live matrix question is sharpened:
 1. \(x_n\) summable: infinite bath escape killed by energy nondecay;
 2. \(S_N\) divergent fast enough for (BSC.6): finite-energy bath construction
    becomes live;
-3. finite-depth outer scale: composition problem, not an infinite-chain escape.
+3. bounded finite-depth outer scale: killed by geometric demand in the
+   beta-depth correction;
+4. growing-depth outer scale: re-enters the up-scale cascade problem.
 
 ## 6. Four-sentence result
 
@@ -198,4 +202,5 @@ so the infinite bath chain is finite-energy exactly when
 Any shallowing power law \(x_{n+1}=p x_n\) with \(0<p<1\), including the filed
 \(p=4/5\), leaves \(E_N\) bounded below and cannot be the infinite bath escape.
 The exact matrix escape must therefore produce non-shallowing accumulated
-smallness, or else the remaining bath threat is finite-depth composition.
+smallness, or else the remaining fresh-holder threat is growing-depth up-scale
+composition.

@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
 completion_truth: >-
   Exact consequence inside the filed scaling model, not a dense-crowd theorem.
   The one-holder amplitude note named the decisive local ratio as minimal
@@ -27,8 +28,9 @@ completion_truth: >-
   holder-energy floor. The remaining object is the up-scale recursion:
   beta_{n+1}=beta_n^(4/5), e_n=beta_n^(8/5) gives nondecay in the recorded
   scaling model, while an exact matrix/node-sitting schedule satisfying the
-  bath-recursion summability criterion or a finite-depth composition escape
-  remains open. No
+  bath-recursion summability criterion remains open. The bounded finite-depth
+  branch is killed by the beta-depth correction; shrinking beta is growing-depth
+  up-scale recursion, not bounded finite-depth composition. No
   transversality floor, no no-eviction crowd, no confinement constant, and no
   MPP closure is claimed.
 ---
@@ -130,7 +132,10 @@ The live object is the octave recursion:
    composition starvation, exit (A) after the later gates;
 2. an exact matrix/node-sitting schedule whose induced \(x_n\) sequence
    satisfies the bath-recursion summability criterion: exit (B) construction;
-3. finite-depth bath leverage: composition problem, not a local floor.
+3. bounded finite-depth bath leverage: killed by geometric demand after the
+   beta-depth correction;
+4. shrinking-\(\beta_n\) fresh holders: growing-depth up-scale cascade, not a
+   local floor.
 
 Thus the one-holder amplitude channel has been consumed into the same
 up-scale holding recursion already named by the bath notes.
@@ -146,7 +151,7 @@ So the local ratio named in the one-holder note cannot decide the dense cell.
 The remaining question is the up-scale recursion: the filed
 \(\beta_{n+1}=\beta_n^{4/5}\), \(e_n=\beta_n^{8/5}\) model does not self-finance,
 but an exact matrix/node-sitting schedule satisfying the summability criterion
-or a finite-depth composition escape remains open.
+or a growing-depth bath cascade remains open.
 
 Follow-up:
 `mpp-forward-gold-bath-recursion-summability-criterion-20260706.md`
@@ -157,9 +162,16 @@ power-law cascade cannot do it.
 
 Second follow-up:
 `mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md`
-blocks the energy-only composition shortcut on the finite-depth side. For
+blocks the energy-only composition shortcut if \(\beta_n\) is allowed to vary.
+For
 record demand \(W_n\sim2^n\), fresh holder costs \(H_n\sim W_n\beta_n^q\) can
 still be summable if the admissible \(\beta_n\) sequence shrinks fast enough.
-Thus finite-depth bath leverage needs \(\beta_n\) control, same-packet
-allocation, reuse/tracking, or PDE impossibility; finite energy alone does not
-close it.
+
+Third follow-up:
+`mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md`
+types that shrinking. Uniform finite depth gives
+\(K_n=\log_2(1/\beta_n)\le K_*\), hence \(\sum_nH_n=\infty\) for geometric
+record demand. The summable fresh-holder sequence has \(K_n\) growing linearly,
+so the surviving threat is a growing-depth/up-scale cascade needing
+beta-depth admissibility, same-packet allocation, reuse/tracking, or PDE
+impossibility.

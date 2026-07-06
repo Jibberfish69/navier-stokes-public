@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
 completion_truth: >-
   Exact calculation inside the already-filed scaling recursion; not a
   full bath theorem. Under the cheap-bath law recorded in BD2/BD3 and
@@ -32,7 +33,7 @@ completion_truth: >-
   sum_N exp(-q sum_{j<N} x_j) finite after writing beta_n=e^{-x_n}. Thus
   constants inside any shallowing power law 0<p<1 cannot decide the escape.
   Remaining open: a non-shallowing or non-power schedule satisfying that
-  criterion, finite-depth outer-scale escape, allocation of the resulting
+  criterion, growing-depth outer-scale escape, allocation of the resulting
   tracking floor into Gate 8, and the full crowd/composition theorem. No
   confinement-constant decision or MPP closure is claimed.
 ---
@@ -135,10 +136,10 @@ summability criterion
 \[
   \sum_N \exp\!\left(-q\sum_{j<N}x_j\right)<\infty.
 \]
-Finite outer-scale depth may also move the question into composition rather
-than an infinite-chain energy sum; and the positive tracking cost must still
-be transcribed into the same-packet Gate-8 row economy before it starves
-records.
+Uniform finite outer-scale depth is killed by the beta-depth correction; growing
+outer-scale depth moves the question back into the up-scale cascade rather than
+an ordinary finite-depth composition sum. The positive tracking cost must still
+be transcribed into the same-packet Gate-8 row economy before it starves records.
 
 ## 5. Four-sentence result
 
@@ -150,8 +151,8 @@ approach a positive fraction of the starting energy, and the infinite
 up-scale chain has infinite total energy in this scaling model. The
 remaining infinite-chain bath escape must produce an exact
 matrix/node-sitting schedule whose induced \(x_n\) sequence satisfies
-the summability criterion; otherwise the remaining threat is finite-depth
-composition.
+the summability criterion; otherwise the remaining threat is growing-depth
+up-scale composition.
 
 Follow-up:
 `mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md`
@@ -173,9 +174,9 @@ fail this criterion.
 
 Third follow-up:
 `mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md`
-separates the finite-depth fork from this infinite-chain computation. Finite
-total energy alone does not kill fresh finite-depth bath funding: if
-\(W_n\sim2^n\) and \(H_n\sim W_n\beta_n^q\), then sufficiently fast decay of
-\(\beta_n\) makes \(\sum_nH_n\) finite. The finite-depth branch therefore needs
-admissible \(\beta_n\) control, allocation/depletion, reuse tracking, or a PDE
-impossibility theorem.
+separates the fresh-holder event series from this infinite-chain computation.
+Finite total energy alone does not kill fresh holders if \(\beta_n\) is allowed
+to shrink. Fourth follow-up:
+`mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md` says that
+shrinking \(\beta_n\) is growing depth. Uniform finite depth gives divergence;
+the surviving threat is a growing-depth up-scale cascade.
