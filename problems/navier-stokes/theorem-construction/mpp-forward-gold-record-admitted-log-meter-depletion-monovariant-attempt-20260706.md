@@ -403,3 +403,57 @@ with all terms built before record readout. This is the sharper mathematical
 content of the physical sentence "the selected meter cannot reweight itself
 onto the winning packet for free." The elliptic part is absorbable by Fisher;
 the surviving Gold burden is the material-stretch/full-exchange depletion law.
+
+## 7. Placement inside the one-constant consolidation
+
+The canonical one-object consolidation reads this same obstruction as the
+primitive strain-service reserve floor
+
+\[
+c_0>0
+\quad\Longleftrightarrow\quad
+N_{L+1}\le \theta N_L+B_L,\qquad \theta<\frac12 .
+\tag{RLM.30}
+\]
+
+In that language, `(RLM.29)' is not a new sibling theorem. It is the
+record-admitted log-meter coordinate of the same floor. The terms
+
+\[
+C_\eta\,d{\mathcal G}^{log}_P
++dQ_P^{stretch,+}
++[d{\mathcal C}^{crit,rec}_P]_+
+\tag{RLM.31}
+\]
+
+are the local bill created when the selected meter follows the record-producing
+packet. The reserve \({\mathcal A}^{rec}_P\) is the same bounded-below
+same-history account that appears elsewhere as primitive PLS Lyapunov,
+full-exchange storage, strict half-barrier, or owner-and-charge menu reserve.
+
+The affine-packet pressure test explains why this cannot be proved by a local
+jet or pointwise angle. A pressure-compatible affine strain can carry material
+stretch with no fine-scale heat cost, so Fisher pays only the gradient leakage
+seen in `(RLM.24)'. The remaining material-stretch term must be paid by a
+non-local same-history reserve:
+
+\[
+dQ_P^{stretch,+}
+\preceq
+-d{\mathcal A}^{rec}_P
++dPaid_P+dStop_P .
+\tag{RLM.32}
+\]
+
+Thus the monovariant branch has exactly two honest proof entrances:
+
+1. construct \({\mathcal A}^{rec}_P\) from the original coupled VPI history
+   before record readout, proving the strict half-barrier directly;
+2. assume `(RLM.32)' fails and extract a material-time borderline history with
+   \(N_L\sim 2^{-L}/L\), then prove a Liouville/rigidity contradiction for that
+   zero-reserve separatrix.
+
+This note therefore lands on the canonical consolidation as a strict reduction:
+the elliptic part is paid, the scalar/local routes are exhausted, and the
+remaining object is the non-local strain-service reserve floor for material
+stretch.
