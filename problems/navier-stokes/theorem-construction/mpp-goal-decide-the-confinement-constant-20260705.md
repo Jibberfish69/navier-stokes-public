@@ -1324,6 +1324,15 @@ certified positive constant.
    rows do not force bounded selected support; K5 still needs a genuine
    record-locality/admission theorem, actual-NS route-out, or
    dynamic/geometric route-out.
+   Follow-up finite-\(L^p\) admission obstruction filed: the same distributed
+   K5 read survives every finite \(L^p/L^{p'}\) packet normalization. For
+   \(1\le p<\infty\), the witness
+   \(G_L=A L^{-1/p}\mathbf 1_{[0,L]}e\),
+   \(a_L=L^{-1/p'}\mathbf 1_{[0,L]}e\) has fixed packet norm, fixed dual
+   selected-test norm, and fixed selected action, while every bounded cell
+   carries only \(O(L^{-1})\) \(L^p\)-mass. So finite-\(p\) selected
+   admission is not record locality; K5 still needs an atomic/local-density
+   admission theorem or actual-NS dynamic/geometric route-out.
    Current overlap-bath update, source-audited against the 2026-07-06
    branch-collapse notes: the four global sources named after the local
    mechanisms fell are no longer four independent evasion candidates.
