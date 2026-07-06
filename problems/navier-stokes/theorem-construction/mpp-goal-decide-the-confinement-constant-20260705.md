@@ -770,6 +770,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \]
    Otherwise the pressure-law branch is PSD null covariance with ballast,
    explicit signed-stress certificate carriage, or actual-law/tower failure.
+   The ballast is unresolved kinetic energy
+   \(\mu_R=(1/2)\operatorname{tr}R\), not pressure deletion.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
