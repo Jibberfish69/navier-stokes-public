@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
 completion_truth: >-
   Exact split and countermodel only. The surviving beta-small WKB bath is
   unbounded-count. Encode its positive retained pressure-service moment as
@@ -38,7 +39,11 @@ completion_truth: >-
   reduces that stabilization to a uniform modulus of continuity on the compact
   WKB label space, with failure typed as moving service-selector escape. This
   proves no profile admission theorem, no WKB construction/exclusion, no
-  confinement constant, and no MPP closure.
+  confinement constant, and no MPP closure. The cross-cell Gram-gap follow-up
+  sharpens the remaining PDE square-coercivity option: it must be a uniform
+  positive lower bound for the actual interaction Gram form on the normalized
+  admissible positive cloud cone; otherwise near-null clouds retain moment with
+  vanishing square charge.
 ---
 
 # Unbounded-count WKB cloud compactness split
@@ -222,11 +227,20 @@ remaining theorem must be one of:
 \begin{gathered}
 \text{MicrolocalDefectProfileAdmission.A},\\
 \text{AtomicWKBNeighborhoodCarrierAdmission.A},\\
-\text{a PDE uncertainty/cross-cell square-coercivity law},\\
+\text{a PDE uncertainty / cross-cell Gram-gap law},\\
 \text{or WKB construction/exclusion.}
 \end{gathered}
 \tag{UC.15}
 \]
+
+The cross-cell line has now been typed by the Gram-gap criterion. It is not a
+generic square principle: it requires
+\[
+  \inf_{\sum_ba_b=1,\ a\in\mathcal C_j}a^TG_ja\ge c>0
+\]
+for the actual interaction Gram form on the admissible positive cloud cone.
+When that infimum tends to zero, near-null clouds preserve the total selected
+moment and defeat the square rescue.
 
 ## 7. Four-sentence result
 
