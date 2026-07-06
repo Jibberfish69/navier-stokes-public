@@ -675,6 +675,18 @@ not decide the confinement constant.
    \(A\) requires \(\operatorname{Re}_D\theta_+^2\ge\exp(2A/W)\), and repeated
    use telescopes to terminal material carrier-frequency travel unless reset by
    refresh/reassembly or bank motion.
+   The bounded-custody WKB no-neutral-persistence corollary combines these
+   ledgers into the exact service bound
+   \[
+     A
+     \le
+     W\Delta+{\Delta\over2}V_w+WV_D.
+   \]
+   Hence a same-bank WKB bath with bounded relative log-room, bounded
+   population variation, and bounded bank log-variation cannot provide
+   unbounded sign-coherent active service. Unbounded service must be
+   refresh/reassembly, bank custody, exponential terminal persistence,
+   orthogonal frame work, or construction/exclusion.
    The terminal-frequency fork then splits that horn: nonvanishing retained
    WKB moment gives high-Sobolev Field/readout material; vanishing or
    intermittent moment aliases to the high-factor source / no-free-upcascade
