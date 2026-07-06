@@ -26,16 +26,16 @@ completion_truth: >-
   the payment identity is now displayed at scaling level in
   mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705:
   a fast thick transit pays an order-one pair-energy bill in the same
-  increment-cubic total-variation currency as the flux gate. NAMED OPEN:
-  (i) the coherent route - debris that stays thick (a_t ~ d) evades the
-  threshold but carries the pair's full impulse diffusely and must
-  re-concentrate against its own self-induced dispersal; display the
-  dispersal-vs-concentration clock comparison. (ii) the row lift - orient
-  the fast-transit cubic payment on the same channel-window summands as
-  record admission and no-recount debt. Kill condition standing: a
-  re-assembly channel that is simultaneously thick, fast, and able to
-  evade the increment-cubic row payment after the row lift. No closure
-  claimed.
+  increment-cubic total-variation currency as the flux gate. SAME-DAY
+  FOLLOW-UP: the thick-debris route is now filed in
+  mpp-forward-gold-custody-thick-debris-energy-prohibition-20260705:
+  isolated thick debris cannot re-concentrate fixed impulse because
+  concentration is uphill in energy and unforced viscous flow dissipates.
+  NAMED OPEN: the row lift - orient the fast-transit cubic payment on the
+  same channel-window summands as record admission and no-recount debt.
+  Kill condition standing: a re-assembly channel that evades thin
+  confiscation, isolated-thick energy prohibition, assisted-thick transit
+  payment, and the row lift. No closure claimed.
 ---
 
 # Custody: the impulse ledger and the re-assembly threshold
@@ -66,11 +66,10 @@ the penny-tax collects precisely on the enemy's logistics.
 
 ## 4. Named open routes (the gate)
 
-(G-C-1) Thick-debris route: a_t ~ d evades confiscation; display the
-self-dispersal clock of a diffuse impulse blob against its
-re-concentration clock (concentration against self-induced spreading
-is the same anti-tightening principle as the spring - no structure
-winds itself tighter).
+(G-C-1) Thick-debris route: same-day display filed. Isolated thick
+debris cannot re-concentrate fixed impulse because concentration raises
+energy while unforced viscous flow dissipates. Assisted thick debris
+falls under G-C-2.
 
 (G-C-2) Payment identity: same-day display filed. Fast thick transit
 through the medium is an increment-cubic event in the flux-gate
