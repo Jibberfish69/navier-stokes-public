@@ -871,6 +871,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    uniform positive cloud in its zero mode, so any surviving
    `CrossCellWKBGramGap.A` must use admissible-cone, same-packet, legal
    certificate, non-translation-invariant, or construction/exclusion structure.
+   The PSD-ballast Gram obstruction now blocks the ballast-only version as
+   well: a uniform isotropic PSD Reynolds cloud can carry normalized positive
+   trace energy while its trace-free pressure/Hessian charge is zero, and a
+   diagonal trace-square reserve still fragments like \(1/M\). Thus covariance
+   ballast remains a routed energy/certificate and Field-consumer branch, not a
+   supplier for `CrossCellWKBGramGap.A`.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
