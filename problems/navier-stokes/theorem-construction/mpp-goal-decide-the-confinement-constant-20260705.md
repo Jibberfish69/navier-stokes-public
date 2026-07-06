@@ -866,6 +866,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    profile never formed. This removes retained WKB supply as an independent
    profile-level branch; it does not prove the row certificates, the Gram gap,
    or construction/exclusion.
+   The pressure-kernel zero-mode Gram obstruction now blocks the kernel-only
+   version of that Gram gap: the raw mean-zero pressure/CZ kernel has the
+   uniform positive cloud in its zero mode, so any surviving
+   `CrossCellWKBGramGap.A` must use admissible-cone, same-packet, legal
+   certificate, non-translation-invariant, or construction/exclusion structure.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
