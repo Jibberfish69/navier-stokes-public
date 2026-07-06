@@ -1,6 +1,12 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706
-status: exact-fixed-output-radius-sum-grading-two-grade-cancellation-obstruction
+status: scope-corrected-coplanar-radius-sum-grading-full-3d-vector-moment-followup
+scope_correction: >-
+  Same-day correction: the scalar radius-sum moment equations in this note are
+  the common-plane / common-transverse-axis reduction. In full 3D the transverse
+  azimuth around m is a vector coordinate, and two radius-sum grades can cancel
+  if one grade carries enough transverse directions. See
+  mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -14,23 +20,37 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706.md
 completion_truth: >-
-  Exact fixed-output coefficient grading only. For same-helicity Beltrami modes
-  p,q with p+q=m, |p|=K, |q|=L, K != L, and p not parallel to q, the
-  projected eigenvalue-gap coefficient at m lies on the complex line spanned by
-  -i(K+L)e_perp + |m|e_n in the plane m^\perp. Thus the coefficient direction
-  depends on the shared output m and the pair-radius sum K+L, not on the
-  individual split. A two-pair multiradius resonant output with unequal
-  radius-sums cannot cancel by amplitude choice. More generally, at one output
-  the cancellation condition is exactly two scalar moment equations over
-  radius-sum grades: sum A_s = 0 and sum s A_s = 0. Hence one or two distinct
-  radius-sum grades cannot cancel across grades; each grade must cancel
-  internally. Three or more grades, equal-radius-sum internal cancellation,
-  sideband closure, full finite graph closure, WKB localization, same-fluid
-  custody, and construction/exclusion remain open. This proves no finite graph
-  theorem, no WKB bath exclusion, no confinement constant, and no MPP closure.
+  Scope-corrected fixed-output coefficient grading. For same-helicity Beltrami
+  modes p,q with p+q=m, |p|=K, |q|=L, K != L, and p not parallel to q, the
+  projected eigenvalue-gap coefficient is obtained by applying the operator
+  T_s=|m|J_m-i sI, s=K+L, to the transverse direction of p, up to scalar
+  amplitude and orientation. In one fixed transverse plane this reduces to the
+  scalar line spanned by -is e_perp+|m|e_n, and a two-pair unequal-radius-sum
+  duplicate cannot cancel. The broader scalar claim that one or two
+  radius-sum grades cannot cancel across grades is false in full 3D once
+  transverse azimuth is allowed; the correct certificate is a vector-moment
+  equation over the complexified plane m^\perp. Equal-radius-sum internal
+  cancellation, multi-azimuth two-grade cancellation, three-or-more-grade
+  moment-balanced graphs, sideband closure, full finite graph closure, WKB
+  localization, same-fluid custody, and construction/exclusion remain open.
+  This proves no finite graph theorem, no WKB bath exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # Beltrami shared outputs are graded by radius sum
+
+## 0. Same-day 3D scope correction
+
+The scalar equations below are valid only after a common transverse plane has
+been chosen for the contributing pairs at the fixed output \(m\). In the full
+three-dimensional geometry, the transverse azimuth around \(m\) is part of the
+coefficient data. The corrected fixed-output law is the vector-moment
+certificate in
+[mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md).
+
+The two-pair unequal-grade obstruction survives when there is only one
+transverse direction in each grade. The stronger claim that two radius-sum
+grades cannot cancel across grades is false in full 3D.
 
 ## 1. Question
 
@@ -110,9 +130,9 @@ Thus two nondegenerate same-output pairs with radius sums \(s_1\ne s_2\) have
 coefficient vectors on different complex lines in \(m^\perp\). They cannot
 cancel each other by choosing amplitudes.
 
-## 3. Local cancellation equations
+## 3. Coplanar local cancellation equations
 
-At the same output \(m\), group all active pairs by radius sum
+In the same fixed transverse plane, group all active pairs by radius sum
 \[
   s=|p|+|q|.
 \]
@@ -133,7 +153,7 @@ equivalent to
   \tag{RSG.7}
 \]
 
-These are the radius-sum moment equations.
+These are the coplanar radius-sum moment equations.
 
 If only one radius-sum grade is present, then \(A_s=0\) is required inside that
 grade. If exactly two distinct grades \(s_1\ne s_2\) are present, then
@@ -147,12 +167,13 @@ forces
   A_{s_1}=A_{s_2}=0.
   \tag{RSG.8}
 \]
-So two different radius-sum grades cannot cancel across grades. Each grade must
-already cancel internally.
+So in the coplanar scalar reduction, two different radius-sum grades cannot
+cancel across grades. Each grade must already cancel internally.
 
-With three or more radius-sum grades, the local equations alone do not rule out
-cancellation. The remaining certificate is a moment-balanced radius-sum crowd
-plus its sidebands and graph closure.
+In full 3D this conclusion must be replaced by the vector-moment correction.
+Transverse directions in one grade can span \(m^\perp\), and then two grades can
+cancel through vector moments. The remaining certificate is a vector-balanced
+radius-sum crowd plus its sidebands and graph closure.
 
 ## 4. Effect on the correction witness
 
@@ -168,26 +189,26 @@ The two pair-radius sums are
   2+\sqrt5.
   \tag{RSG.10}
 \]
-They are unequal. Therefore those two pairs cannot cancel the shared output
-coefficient. The witness remains exactly what it was meant to be: a failure of
-the radius-free max-alignment proof, not a resonant neutralizer.
+They are unequal, and the two pairs lie in the same transverse plane. Therefore
+those two pairs cannot cancel the shared output coefficient. The witness
+remains exactly what it was meant to be: a failure of the radius-free
+max-alignment proof, not a resonant neutralizer.
 
 ## 5. Four-sentence result
 
-For a fixed output \(m=p+q\), the same-helicity Beltrami coefficient line is
-controlled by \(|p|+|q|\). Two shared-output pairs with different radius-sums
-are not complex-collinear in \(m^\perp\), so a two-pair multiradius duplicate
-cannot cancel unless the two radius-sums agree. At one output, the exact local
-certificate is the pair of equations \(\sum_s A_s=0\) and
-\(\sum_s sA_s=0\) over radius-sum grades. The remaining finite algebraic door
-is equal-radius-sum internal cancellation, or a three-or-more-grade
-moment-balanced resonant graph with sideband closure.
+For a fixed output \(m=p+q\), a same-helicity Beltrami coefficient in one
+transverse plane is graded by \(|p|+|q|\). Two coplanar shared-output pairs with
+different radius-sums are not complex-collinear in \(m^\perp\), so that
+two-pair duplicate cannot cancel unless the two radius-sums agree. The scalar
+certificate \(\sum_s A_s=0\), \(\sum_s sA_s=0\) is only the coplanar reduction.
+In full 3D the local certificate is vector-valued, and multi-azimuth
+two-grade cancellation remains possible.
 
 ## 6. State
 
-This kills the simplest multiradius reading of the reopened finite door:
-different shell radii are not enough; the shared output must also pass the
-radius-sum moment certificate.
+This kills only the simplest coplanar multiradius reading of the reopened
+finite door: different shell radii are not enough in one transverse plane. The
+shared output must pass the full vector-moment certificate in 3D.
 
 It proves no full finite resonant-graph exclusion, no WKB localization theorem,
 no same-fluid custody theorem, no dense-crowd theorem, no confinement constant,
