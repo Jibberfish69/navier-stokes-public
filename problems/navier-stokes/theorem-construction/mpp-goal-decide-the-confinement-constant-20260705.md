@@ -169,6 +169,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(H_n\gtrsim2^n2^{-qK_*}\) and the holder energy diverges. The summable
     sequence has \(K_n=(1+\epsilon)n/q\), so it is a growing-depth/upscale
     cascade threat.
+    Follow-up fresh-holder architecture gate filed: localized spatial fresh
+    holders are closed under the AR1-AR4 enumeration, but the enumeration does
+    not close overlapping smooth/broadband bath holding. Such a holder need not
+    leave a vorticity-free standoff ball and need not contain a localized fresh
+    octave-adjacent bottom tier. It remains the exact joint
+    matrix/bath-recursion branch.
 
 ## Work order (each unit: output + kill condition)
 
@@ -248,7 +254,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    killed by geometric demand, while the summable energy-only example requires
    linearly growing depth and is an upscale-cascade threat. That surviving
    threat needs beta-depth admissibility, same-packet allocation,
-   reuse/tracking, or PDE impossibility.
+   reuse/tracking, or PDE impossibility. The fresh-holder architecture gate
+   closes only localized spatial fresh support; overlapping smooth/broadband
+   bath remains live as the exact matrix / bath-recursion branch, beside reuse
+   tracking and Gate-8 allocation.
    Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
