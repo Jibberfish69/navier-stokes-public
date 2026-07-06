@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-impulse-energy-lower-bound-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-holder-architecture-gate-overlap-survivor-20260706.md
 completion_truth: >-
   The named reuse tracking-floor display, executed as a SUPPLY LEDGER
   closed by Kelvin's theorem; identity tier except where typed; one
@@ -105,13 +106,12 @@ the summability criterion - typed there, not priced here.
 
 ## 1. Kill condition
 
-The fresh-holder enumeration left reuse as the survivor. The reuse
-question: does holding with ALREADY-PRESENT structure evade the
-production-clock price? Kill conditions, stated first: a supply
-growth channel outside the five below; or the thin-core log edge
-proving uncancellable in ladder currency. The first kills the
-ledger; the second is a live exit-(ii) lead at high core-thinness.
-Both are typed in section 5.
+The corrected fresh-holder gate leaves overlapping smooth/broadband bath and
+reuse. This note attacks the reuse branch: does holding with ALREADY-PRESENT
+structure evade the production-clock price? Kill conditions, stated first: a
+supply growth channel outside the five below; or the thin-core log edge proving
+uncancellable in ladder currency. The first kills the ledger; the second is a
+live exit-(ii) lead at high core-thinness. Both are typed in section 5.
 
 ## 2. The demand (consumed pieces)
 
@@ -214,8 +214,9 @@ its own amplification, or viscosity - five channels, no sixth.
 Approach is a finite per-encounter budget (two log-lengths), and the
 other four are each priced by an already-filed row, with
 geometry-work costing power proportional to circulation squared on
-the production clock. Therefore reuse holding is metered, and the
-crowd cell's remaining questions are composition-side: same-packet
-allocation and whether the thin-core log cancels in ladder currency.
-That log edge is the note's recorded risk: if it does not cancel,
-the evasion hunt has its next concrete target.
+the production clock. Therefore localized reuse holding is metered, and the
+reuse branch's remaining questions are composition-side: same-packet allocation
+and whether the thin-core log cancels in ladder currency. The overlapping
+smooth/broadband bath remains live as the exact-matrix/bath-recursion branch.
+That log edge is the note's recorded risk: if it does not cancel, the evasion
+hunt has its next concrete target.
