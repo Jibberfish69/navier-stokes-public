@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -48,9 +49,11 @@ completion_truth: >-
   producer-curvature subscale obstruction checks that curvature coupling stays
   inside q=4/5 whenever a high-Re subcell with D/R<=beta^(2/5) exists.
   Follow-up fast-motion threshold obstruction checks that tracking becomes an
-  order-one payer only when omega/s>=beta^(-4/5). The criterion itself is
-  unchanged. No no-eviction crowd, confinement constant, composition theorem,
-  or MPP closure is claimed.
+  order-one payer only when omega/s>=beta^(-4/5). Follow-up subcell Reynolds
+  threshold obstruction types the high-Re subcell condition as
+  Re_R=sR^2/nu>>beta^(-4/5), and says failure of that threshold is not itself
+  an order-one energy floor. The criterion itself is unchanged. No no-eviction
+  crowd, confinement constant, composition theorem, or MPP closure is claimed.
 ---
 
 # Bath recursion: energy summability criterion
