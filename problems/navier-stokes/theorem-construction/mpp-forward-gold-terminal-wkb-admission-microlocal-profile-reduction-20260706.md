@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-no-supplier-trichotomy-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
@@ -78,7 +79,13 @@ completion_truth: >-
   ancestry coordinate has the transport-defect fork, with same-packet legal
   carriage priced by \(A=w\rho\) and \(|A|=|w|\rho\); singular current relative
   to \(\rho\) needs added legal ancestry or is material-history failure. The
-  cover coordinate has the finite-cover compactness fork.
+  cover coordinate has the finite-cover compactness fork. The profile
+  no-supplier trichotomy records the profile-level consequence: after scalar
+  moment passage and legal certificate rows are part of the WKB profile object,
+  the retained profile has no independent supplier outcome. It is either
+  admitted and consumed by the Sobolev/Field readout, or the first failed
+  certificate routes to Pack/Part, or the tight/stabilized profile object was
+  never lawfully formed.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
