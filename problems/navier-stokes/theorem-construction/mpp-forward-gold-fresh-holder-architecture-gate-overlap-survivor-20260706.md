@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-regress-demand-cascade-two-channel-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-jet-static-energy-obstruction-20260706.md
 completion_truth: >-
   Codex gate correction, not a crowd theorem and not a confinement-constant
   decision. The fresh-holder architecture enumeration is valid as a
@@ -32,10 +33,15 @@ completion_truth: >-
   the previous claim that the FRESH half is decided is too strong. What is
   decided is the localized spatial fresh half. What survives is overlapping
   smooth/broadband bath holding, typed as the exact joint transfer matrix /
-  bath-recursion branch; it may be killed by a uniform tracking/supply floor or
-  Gate-8 allocation, or it may become an exit-II construction if it satisfies
-  the summability criterion while preserving production. No dense-cell
-  clearance, no composition theorem, and no MPP closure are claimed.
+  bath-recursion branch. Follow-up affine-jet obstruction says this survivor
+  cannot be killed by static finite energy or local divergence-free matching:
+  a trace-free overlap strain jet of size G on scale d has compact
+  divergence-free realizations with energy O(G^2 d^5), giving the filed
+  beta^(8/5) cheap ratio. Thus the overlap bath may be killed only by a
+  dynamic matrix/tracking/allocation theorem, or it may become an exit-II
+  construction if it satisfies the summability criterion while preserving
+  production. No dense-cell clearance, no composition theorem, and no MPP
+  closure are claimed.
 ---
 
 # Fresh-holder architecture gate: the overlap bath survives
@@ -109,17 +115,19 @@ After the gate, the crowd cell has three live objects:
 3. same-packet Gate-8 allocation for turning geometric or tracking costs into
    record-ladder currency.
 
-The first object can still die. A uniform matrix floor, a proof that every
-overlapping bath admits a localized bottom-tier decomposition, or a same-packet
-allocation theorem would consume it. But it is not dead from the spatial
-fresh-holder enumeration alone.
+The first object can still die, but not by static finite energy. The affine-jet
+import shows that a prescribed trace-free overlap strain jet of size \(G\) on
+scale \(d\) has compact divergence-free realizations with energy
+\(O(G^2d^5)\). A uniform dynamic matrix floor, a proof that every overlap bath
+must pay tracking/allocation while it persists, or a same-packet allocation
+theorem would consume it. The spatial enumeration and static energy do not.
 
 ## 5. Four-sentence result
 
 The fresh-holder enumeration closes localized spatial holders, not every fresh
 holder. A smooth or broadband bath can overlap the producer region, so the
 holder vorticity need not vanish on a standoff ball and no fresh localized
-bottom tier is forced. That survivor is the existing exact-matrix/bath-recursion
-branch, with the summability criterion as its construction test. The previous
-"fresh half decided" statement must be weakened to: localized fresh support is
-closed; overlapping smooth bath remains live.
+bottom tier is forced. The affine-jet import also kills any static energy floor:
+the overlap jet can be compactly realized at cost \(O(G^2d^5)\). That survivor
+is the dynamic exact-matrix/bath-recursion branch, with the summability
+criterion as its construction test.
