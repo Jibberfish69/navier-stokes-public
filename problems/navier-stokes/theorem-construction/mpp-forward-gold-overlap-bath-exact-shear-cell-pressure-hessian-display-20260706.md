@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -41,9 +42,11 @@ completion_truth: >-
   pressure row. Follow-up producer-curvature subscale obstruction checks that
   the first nonconstant producer term creates cross Hessian
   s(D/R)sqrt(|K|), which stays inside the q=4/5 row when
-  D/R<=beta^(2/5), leaving the viscous subcell-room condition. What remains is
-  subcell/high-Re admissibility, record-ladder allocation, supercritical
-  fast-motion forcing, or construction/exclusion.
+  D/R<=beta^(2/5), leaving the viscous subcell-room condition. Follow-up
+  subcell Reynolds threshold obstruction types that room as
+  Re_R=sR^2/nu>>beta^(-4/5), and says threshold failure is not automatically a
+  constant. What remains is the Reynolds-edge bridge, record-ladder allocation,
+  supercritical fast-motion forcing, or construction/exclusion.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -287,8 +290,9 @@ This display does not decide the exact overlap-bath matrix.
 The remaining burdens are:
 
 - localization of the periodic shear cell into the producing field with the
-  collar estimates already priced, including the subcell/high-Re condition for
-  producer curvature;
+  collar estimates already priced, including the Reynolds threshold
+  \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) for producer curvature or a
+  bridge from threshold failure to record-ladder payment;
 - same-packet allocation of the pressure service into record-ladder currency;
 - supercritical fast-motion forcing, if the exact matrix demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\).
@@ -308,7 +312,7 @@ The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell check, the exact-matrix branch is now narrowed to
-subcell/high-Re admissibility, allocation, supercritical fast motion, or
+the Reynolds-edge bridge, allocation, supercritical fast motion, or
 construction, not the mean-zero pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, or generic producer curvature.
