@@ -48,9 +48,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     nonlinear self-exit cannot give a seed-independent cap: favorable
     sign still leaves a log(seed) neutral-phase integral. Viscosity
     removes the log on the unit/marginal Reynolds family and leaves a
-    Reynolds-weighted cap on the super-marginal branch. Open: high-Re
-    edge payment through return-race/custody/sideband-crowd, Lambda_edge
-    sign as secondary diagnostic, custody, composition.
+    Reynolds-weighted cap on the super-marginal branch. K5 alone has now
+    been checked not to supply a uniform high-Re edge cap: for fixed
+    admissible edge amplitude, the K5-only cap grows like Re. Open:
+    high-Re edge payment through return-race/custody/sideband-crowd,
+    Lambda_edge sign as secondary diagnostic, custody, composition.
 
 ## Work order (each unit: output + kill condition)
 
@@ -58,9 +60,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    encounter under the exact kernel + Crow linear theory. Direct
    pure-mode second-order feed is obstructed; autonomous nonlinear
    self-exit leaves log(seed); viscosity closes the log only with a cap
-   proportional to local Reynolds. Kill condition: no high-Re
-   return-race/custody/sideband-crowd payment => the pure neutral edge
-   channel is not uniformly capped.
+   proportional to local Reynolds. K5-alone high-Re uniform cap is now
+   killed; the remaining edge burden is strictly the high-Re payer.
+   Kill condition: no high-Re return-race/custody/sideband-crowd payment
+   => the pure neutral edge channel is not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
