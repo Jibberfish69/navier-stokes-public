@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-atomic-diffuse-admission-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
 completion_truth: >-
   Exact criterion and obstruction. The limiting atomic WKB profile gives a
   shrinking phase-tube cloud with total retained moment at least a_*/2 on a
@@ -27,7 +28,10 @@ completion_truth: >-
   no-free-fragmentation, orthogonality, uncertainty-cell lower bound, or
   cloud-profile admission theorem is supplied. This proves no such separate
   theorem, no general actual WKB carrier extraction, no profile admission, and
-  no MPP closure.
+  no MPP closure. The many-cell WKB quantization follow-up shows that bounded
+  count is not a surviving beta-small WKB no-payer: the cheap WKB bath requires
+  N_eff >= c beta^(-12/5), so bounded count either pays atomization, pays
+  cutoff/Hodge localization, or leaves the cheap window.
 ---
 
 # Atomic WKB prelimit quantization criterion
@@ -158,6 +162,16 @@ atomic fragmentation defect:
   \max_b A_j(P_{j,b})\to0.
   \tag{PQ.12}
 \]
+
+The follow-up many-cell WKB obstruction locates this branch inside the overlap
+bath. A cutoff-neutral cheap WKB bath requires
+\[
+  N_{\rm eff}\gtrsim\beta^{-12/5}.
+  \tag{PQ.13}
+\]
+Therefore bounded effective count is not a hidden beta-small WKB survivor; it
+is atomization, cutoff/Hodge payment, or exit from the cheap WKB window. The
+surviving WKB atomic branch is the unbounded-count cloud.
 
 ## 5. Four-sentence result
 
