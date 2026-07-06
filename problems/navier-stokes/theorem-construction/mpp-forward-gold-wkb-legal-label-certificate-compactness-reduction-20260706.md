@@ -222,6 +222,28 @@ Navier-Stokes-Reynolds, not an admitted same-solution NS profile. Thus
 \(C_{\rm law}\) is compact/closed only after the Reynolds defect vanishes
 modulo pressure gauge or is itself carried as a legal certificate.
 
+The material-ancestry certificate has the parallel exact subtest. At path
+level, material trajectories close under limits only when the flow maps
+compactify strongly enough to pass
+\[
+  \dot\gamma_j=u_j(t,\gamma_j)
+  \quad\Longrightarrow\quad
+  \dot\gamma=u(t,\gamma).
+\]
+At measure level, if ancestry currents satisfy
+\[
+  \rho_j\rightharpoonup\rho,
+  \qquad
+  J_j=u_j\rho_j\rightharpoonup J,
+\]
+then the limiting transport defect is
+\[
+  A:=J-u\rho .
+\]
+The ancestry certificate closes only when that defect vanishes in the required
+graph/current sense or is itself carried as a legal original-participation
+certificate. Otherwise the observable WKB profile has lost same-fluid history.
+
 If the legal certificates persist and the profile carries the nonvanishing WKB
 Sobolev readout, then the already installed WKB/Sobolev consumer supplies the
 Field-side route:
@@ -260,6 +282,17 @@ Weak WKB limits close the Navier-Stokes law only after the quadratic defect is
 killed modulo pressure gauge with compatible pressure service, or after that
 defect is legally carried in the profile certificate.
 
+The material-ancestry/original-participation relation includes:
+
+```text
+WKBTransportDefectVanishesOrCertified.A
+```
+
+Weak WKB limits close same-fluid history only after the selected paths, flow
+maps, or ancestry currents compactify strongly enough to pass the transport
+relation, or after the hidden transport defect is legally carried in the
+profile certificate.
+
 If this holds, the profile is admitted after scalar moment passage. If it
 fails, the failure is a Pack/Part/Field typed limit-of-class artifact or a WKB
 construction/exclusion problem.
@@ -271,6 +304,7 @@ countermodel.
 
 It proves no `WKBCertificateCompactness.A` for actual Navier-Stokes WKB
 packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
+`WKBTransportDefectVanishesOrCertified.A`, no
 `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP
