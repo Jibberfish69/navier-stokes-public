@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-return-race-handoff-premise-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-custody-trigger-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction to one shortcut. The lambda-edge re-gate left the high-Re
   edge branch as return-race, custody, sideband/crowd, or an apparent same-packet
@@ -31,27 +32,32 @@ completion_truth: >-
   the weighted residence/readout already identified by Gate A. Therefore the
   high-Re edge cannot be paid by raw Reynolds-budget accounting. Same-day
   follow-ups refine the remaining payer list: return-race requires a financed
-  handoff fraction, and custody requires a reassembly/refresh/destruction or
-  delivery trigger, while installed Gate-A/Theorem-2 allocation is not an
-  independent unweighted pure-edge payer. Thus the live branch is sideband/crowd,
-  route-out/exclusion, or a genuinely new unweighted high-Re mechanism. No such
-  theorem is proved here; no confinement constant or MPP closure is claimed.
+  handoff fraction, custody requires a reassembly/refresh/destruction or
+  delivery trigger, installed Gate-A/Theorem-2 allocation is not an independent
+  unweighted pure-edge payer, and sideband/crowd has zero trigger on the exact
+  isolated pure edge. Thus the live branch is forced sideband/leakage/crowd
+  contamination, route-out/exclusion, or a genuinely new unweighted high-Re
+  mechanism. No such theorem is proved here; no confinement constant or MPP
+  closure is claimed.
 ---
 
 # K5 high-Re edge: Reynolds-budget shortcut obstruction
 
 ## Correction header, 2026-07-06
 
-Two same-day follow-ups refine the payer list below. Return-race is not an
+Four same-day follow-ups refine the payer list below. Return-race is not an
 automatic edge-residence payer; it requires a financed handoff fraction
 \(f>0\). Custody is not an automatic edge-residence payer either; it requires a
 reassembly, refresh, destruction, or delivery trigger. A third same-day
 follow-up shows installed Gate-A/Theorem-2 allocation is not an independent
 unweighted pure-edge payer; it is marginal Gate-A plus the return-race high-Re
-branch, and otherwise remains Reynolds-weighted. Therefore the live high-Re edge
-branch is:
+branch, and otherwise remains Reynolds-weighted. A fourth follow-up shows the
+exact isolated pure edge has zero sideband/crowd trigger. Therefore the live
+high-Re edge branch is:
 \[
-  \text{sideband/crowd, route-out/exclusion, or a new unweighted high-Re mechanism.}
+  \text{forced sideband/leakage/crowd trigger, route-out/exclusion,}
+  \quad
+  \text{or a new unweighted high-Re mechanism.}
 \]
 
 ## 1. Object
@@ -139,13 +145,16 @@ budget:
 \[
   \text{high-Re edge}
   \Rightarrow
-  \text{sideband/crowd, route-out/exclusion, or a new unweighted high-Re mechanism}.
+  \text{forced sideband/leakage/crowd trigger, route-out/exclusion,}
+  \quad
+  \text{or a new unweighted high-Re mechanism}.
   \tag{K5R.9}
 \]
 
 Here a new unweighted high-Re mechanism means a genuine theorem that turns the
 weighted readout into a uniform payer. Installed Gate-A/Theorem-2 is not that
-theorem: return-race and custody need triggers, and the raw identity
+theorem: return-race and custody need triggers, sideband/crowd needs a nonzero
+trigger, and the raw identity
 \(\int\mathcal P\sim\operatorname{Re}A_0\) supplies none.
 
 ## 5. Four-sentence result
@@ -154,5 +163,5 @@ On the high-Re edge, total viscous dissipation is only \(O(A_0)\), while total
 edge production is \(O(\operatorname{Re}_\Gamma A_0)\). The Reynolds factor is
 therefore not a packet budget; it is the residence/readout weight already
 identified in Gate A. So a raw same-packet Reynolds budget cannot pay the
-high-Re edge. The remaining branch is sideband/crowd, route-out/exclusion, or a
-new unweighted high-Re mechanism.
+high-Re edge. The remaining branch is forced sideband/leakage/crowd
+contamination, route-out/exclusion, or a new unweighted high-Re mechanism.
