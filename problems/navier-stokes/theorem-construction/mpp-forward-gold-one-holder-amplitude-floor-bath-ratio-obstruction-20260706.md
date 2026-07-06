@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transfer-matrix-same-extent-divergence-bath-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md
 completion_truth: >-
   Exact consequence inside the filed scaling model, not a dense-crowd theorem.
   The one-holder amplitude note named the decisive local ratio as minimal
@@ -25,8 +26,9 @@ completion_truth: >-
   Therefore the amplitude supply channel cannot be closed by a one-tier
   holder-energy floor. The remaining object is the up-scale recursion:
   beta_{n+1}=beta_n^(4/5), e_n=beta_n^(8/5) gives nondecay in the recorded
-  scaling model, while an exact matrix/node-sitting schedule with a different
-  exponent law or a finite-depth composition escape remains open. No
+  scaling model, while an exact matrix/node-sitting schedule satisfying the
+  bath-recursion summability criterion or a finite-depth composition escape
+  remains open. No
   transversality floor, no no-eviction crowd, no confinement constant, and no
   MPP closure is claimed.
 ---
@@ -152,3 +154,12 @@ states the exact recurrence condition for that remaining object. The escape
 requires cumulative smallness \(\sum_{j<N}x_j\), with \(\beta_j=e^{-x_j}\),
 large enough that \(\sum_N e^{-q\sum_{j<N}x_j}\) is finite; a shallowing
 power-law cascade cannot do it.
+
+Second follow-up:
+`mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md`
+blocks the energy-only composition shortcut on the finite-depth side. For
+record demand \(W_n\sim2^n\), fresh holder costs \(H_n\sim W_n\beta_n^q\) can
+still be summable if the admissible \(\beta_n\) sequence shrinks fast enough.
+Thus finite-depth bath leverage needs \(\beta_n\) control, same-packet
+allocation, reuse/tracking, or PDE impossibility; finite energy alone does not
+close it.
