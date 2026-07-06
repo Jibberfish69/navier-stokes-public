@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-GOAL-item2-gate2-pawl-verdict-merges-item4-20260706
-status: filed-pending-codex-gate-ITEM2-VERDICT-mechanism-proved-coercive-form-reduced-merges-item4
+status: regraded-reversible-temporal-pawl-withdrawn-see-irreversibility-rebuild
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 GOAL / item 2 (Gate 2 pawl FTR.13) — the ratchet's pawl is the velocity/pair-field correlation; merges with item 4
@@ -10,7 +10,14 @@ authorship: >-
   null-Lagrangian service current tr A^3 = 3 det(grad u) = div Phi,
   Phi_j = u_i cof(grad u)_{ij} (machine-verified this session).
 completion_truth: >-
-  ITEM 2 VERDICT: the pawl's MECHANISM is proved and its coercive form is
+  REGRADE 2026-07-06: the claimed temporal reversible-pawl mechanism is
+  withdrawn by
+  mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md.
+  The null-Lagrangian identity is spatial; it does not justify a reversible
+  Navier-Stokes M-out-M-back time process. The remaining valid residue is the
+  need for cumulative irreversible thickness-or-charge in bill currency and
+  same-parent positive-selection storage/detector faithfulness. OLD CLAIM
+  BELOW IS SUPERSEDED: ITEM 2 VERDICT: the pawl's MECHANISM is proved and its coercive form is
   REDUCED to the reversible-cancellation coercivity, which is CONFIRMED to be
   the same object as GOAL item 4 (delamination) and Silver not-Part. Mechanism:
   the net one-way record over a retained window W x I is the time-integrated
