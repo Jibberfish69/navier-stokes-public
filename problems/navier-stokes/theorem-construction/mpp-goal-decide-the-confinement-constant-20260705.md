@@ -441,6 +441,33 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     suppression / beta-edge failure, finite weighted residue routing, or the
     SRP moment-readout gate for infinite weighted residue.
 
+Composition-side product-front audit, same date: the time-integrated
+rent payment removes the lineage/counting detour from the RENT row, and
+the BoundaryTail split forces any pass-side tail density into the row
+rather than the length numerator. The live product row is therefore
+\[
+  R_{\rm prod}^{F4,{\rm ti,tail}}
+  =
+  {1\over2}\Delta_{\rm G6a}
+  -
+  K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
+  -
+  D_{P2}^{\rm ti}
+  -
+  D_{\rm tail}^{\rm ti}.
+\]
+The row is typed, but the interval pass is not pure certification yet:
+\(\Delta_{\rm G6a}\) is still an unpaid source packet, the compact-band
+infimum of the R4-adjusted endpoint margins. Its positivity still
+depends on the actual Gate-6 cubic normalization/Jacobian interface,
+the noncircular financed-family lower bounds behind those margins, and
+the matched R4 drift budget on the same band. Thus the product-side
+residue is: \(\Delta_{\rm G6a}\) source packet, finite constants
+\(K_{\rm off},\tau_{\min},\Omega_{\rm R4},D_{P2}^{\rm ti},
+D_{\rm tail}^{\rm ti}\), positivity of the displayed row,
+BoundaryTail_F4 endpoint/rate split, and the length row. This does not
+decide the confinement constant.
+
 ## Work order (each unit: output + kill condition)
 
 1. KILL INTEGRAL / K5 EDGE REYNOLDS SPLIT. Integrated stretch per pair
