@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-finite-depth-bath-energy-only-obstruction-20260706
-status: exact-energy-only-obstruction-for-finite-depth-bath-composition
+status: corrected-variable-depth-fresh-holder-energy-obstruction
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / finite-depth bath
@@ -17,19 +17,19 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
 completion_truth: >-
-  Exact obstruction to an energy-only proof against finite-depth bath leverage,
+  Exact obstruction to an energy-only proof against variable-depth fresh-holder leverage,
   not a dense-crowd construction and not a confinement-constant decision. If a
-  record event with production/work scale W_n can be held by a fresh finite-depth
+  record event with production/work scale W_n can be held by a fresh
   bath at one-tier ratio beta_n^q, then the committed holder energy is modeled
   by H_n = W_n beta_n^q. Even when W_n grows geometrically, beta_n can shrink
   fast enough that sum_n H_n is finite; for W_n = W_0 2^n, choosing
   beta_n = 2^{-(1+epsilon)n/q} gives H_n = W_0 2^{-epsilon n}. Therefore finite
-  total energy by itself does not rule out finite-depth bath funding. The
+  total energy by itself does not rule out variable-depth fresh-holder funding. The
   branch can be killed only by an additional mechanism: a lower bound or
   summability obstruction on the admissible beta_n sequence, same-packet
   allocation/depletion of the holder cost into Gate 8, a reuse/tracking cost for
   the same bath, or an explicit PDE impossibility of the fresh-holder schedule.
-  Conversely, an actual fresh finite-depth schedule satisfying the geometric and
+  Conversely, an actual fresh variable-depth schedule satisfying the geometric and
   PDE admissibility constraints would be a real exit-II candidate. No such
   schedule is constructed here. Follow-up correction: the summable sequence
   requires beta_n to shrink with n, hence requires growing scale depth. Under a
@@ -38,14 +38,14 @@ completion_truth: >-
   growing-depth/upscale-cascade obstruction, not a bounded finite-depth escape.
 ---
 
-# Finite-depth bath: energy-only obstruction
+# Fresh holder series: energy-only obstruction
 
 ## 1. Physical object
 
 The infinite bath chain is one way the crowd can try to hold a producer. A
-second way is finite-depth leverage: each record event is held by a bath of
-bounded outer depth, and the top holder is supplied by already present
-large-scale strain or by a fresh outer structure.
+second way is a fresh holder series: each record event is held by an outer
+structure that may change with the event. The beta-depth correction below
+separates the uniformly finite-depth subcase from the variable-depth subcase.
 
 The local one-holder note already records the dangerous fact:
 \[
@@ -57,7 +57,8 @@ in the filed scaling model. This ratio tends to zero as the holder becomes
 large compared to the producer.
 
 The question here is narrower: can finite total energy alone rule out
-infinitely many finite-depth bath-funded record events?
+infinitely many fresh holder-funded record events if \(\beta_n\) is allowed to
+vary?
 
 ## 2. Event-index energy series
 
@@ -87,7 +88,7 @@ Finite total fresh-holder energy is the series condition
   \tag{FDB.5}
 \]
 
-This is the finite-depth analogue of the bath-recursion summability criterion,
+This is the event-index analogue of the bath-recursion summability criterion,
 but indexed by record events rather than by one infinite holder chain.
 
 ## 3. Counterexample to energy-only starvation
@@ -116,7 +117,7 @@ and therefore
 \]
 
 Thus a proof that uses only finite initial energy and the local one-holder
-ratio cannot exclude finite-depth bath funding. The holder scale can separate
+ratio cannot exclude variable-depth fresh-holder funding. The holder scale can separate
 fast enough from the producer scale to make the fresh-holder costs summable
 even while the record demand grows geometrically.
 
@@ -129,19 +130,21 @@ This kills one possible composition shortcut:
   \quad+\quad
   \text{finite total energy}
   \quad\not\Rightarrow\quad
-  \text{finite-depth bath starvation}.
+  \text{fresh-holder starvation}.
   \tag{FDB.9}
 \]
 
-The finite-depth bath branch is not automatically consumed by energy
-bookkeeping. It must be decided by one of the following stronger mechanisms.
+The variable-depth fresh-holder branch is not automatically consumed by energy
+bookkeeping. The uniformly finite-depth subcase is consumed separately by the
+beta-depth correction. The remaining variable-depth branch must be decided by
+one of the following stronger mechanisms.
 
 First, a geometric admissibility theorem could force
 \[
   \sum_n 2^n\beta_n^q=\infty
   \tag{FDB.10}
 \]
-on every record-producing finite-depth schedule.
+on every record-producing variable-depth schedule.
 
 Second, the holder costs could be allocated as no-recount same-packet Gate-8
 tax, in which case the K3 toll-funding and row-composition reductions apply.
@@ -150,7 +153,7 @@ Third, reuse of the same bath could force tracking/depletion cost rather than a
 fresh disjoint holder series. Then the branch returns to node-sitting,
 custody, or the up-scale bath recursion.
 
-Fourth, one could exhibit an actual PDE schedule with fresh finite-depth
+Fourth, one could exhibit an actual PDE schedule with fresh variable-depth
 holders satisfying the summable series and maintaining production. That would
 be a real evasion candidate.
 
