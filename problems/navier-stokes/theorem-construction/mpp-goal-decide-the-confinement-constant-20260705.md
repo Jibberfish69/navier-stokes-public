@@ -94,8 +94,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     starting energy instead of zero, so the naive infinite cheap-bath
     chain has infinite total energy. The live bath escape must change
     the exponent law through exact matrix/node-sitting, or become a
-    finite-depth composition problem. Custody local split filed and
-    Codex-regated:
+    finite-depth composition problem. Same-day node-sitting
+    moving-constraint note filed: static node cancellation is
+    \(C(q,h)=0\), while sustained node-sitting must satisfy
+    \(D_hC\,\dot h=-D_qC\,\dot q\); at regular nodes the least
+    tracking speed is \(|(D_hC)^\dagger D_qC\,\dot q|\). The remaining
+    exact-matrix branch is now a transversality-floor theorem or an
+    explicit escape through tangent producer motion, singular node
+    geometry, or a different co-optimized schedule. Custody local split
+    filed and Codex-regated:
     thin debris is confiscated below the quadratic Reynolds threshold;
     thick debris is governed by energy escrow, not absolute
     prohibition - either it already carries the scale-\(d\) energy as
@@ -162,8 +169,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    cheap-bath chain under the filed beta^(4/5), beta^(8/5) scaling:
    holder energies do not decay. Remaining dense escape: exact
    matrix/node-sitting changes the exponent law, or finite-depth bath
-   funding enters composition. Finding a genuine no-eviction crowd
-   kills the program and is the most valuable single output.
+   funding enters composition. Same-day node-sitting moving-constraint
+   identity replaces static cancellation by the differentiated
+   constraint \(D_hC\,\dot h=-D_qC\,\dot q\); the live constant is the
+   normalized transversality floor. Finding a genuine no-eviction
+   crowd kills the program and is the most valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
    The custody escrow/localization burden and the Gate-8 allocation rows
