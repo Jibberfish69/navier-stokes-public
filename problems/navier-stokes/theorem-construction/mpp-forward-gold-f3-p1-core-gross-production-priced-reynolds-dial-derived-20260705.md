@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-p1-core-gross-production-priced-reynolds-dial-derived-20260705
-status: filed-pending-codex-gate
+status: codex-gated-p1-core-gross-pricing-accepted-p2-dial-sufficiency-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P1 core - the gross production row priced; the Reynolds dial derived
@@ -22,6 +22,11 @@ depends_on:
   - mpp-forward-gold-codex-f3-ga-tax-backing-to-weighted-gate-a-hall-reduction-20260705.md
   - mpp-forward-gold-codex-f3-two-coin-cell-pricing-regate-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-f3-p1-core-gross-pricing-gate-20260705.
+  Accepted at estimate level: the gross-production core is priced.
+  Regated: rent aggregation, M_c versus M_i, Hall carry, dK^tax, and
+  downstream sufficiency remain P2/F2/F4 burdens.
   Attacks P1's last open core - the gross-production pricing the
   declaration regate named - by the displayed chain, unconditional in
   the MPP finite-energy lane; and the price DELIVERS the dial P2's
@@ -84,6 +89,25 @@ completion_truth: >-
 ---
 
 # F3/P1 core: the gross row priced - and the dial reads itself off
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-p1-core-gross-pricing-gate-20260705`.
+
+The \(L^3,L^2,L^6\) Holder chain, Bernstein band gain, Cauchy-Schwarz
+in time, and energy-class quartic \(L^3\) bound are accepted. The gross
+row estimate
+\[
+  \mu_{c,Q}
+  \le
+  R_g\kappa_c^{1/2}\beta_B^{1/2}
+\]
+pays P1's core in its named estimate sense. The derived dial
+\(M_c=R_g\kappa_c^{1/2}\) and the two-coin diagonal row are accepted as
+P2 inputs. The \(\varepsilon^2\) rent, \(M_c\) versus \(M_i\), carry
+edges, \(dK^{\rm tax}\), and downstream sufficiency stay open in
+P2/F2/F4.
 
 ## 1. G1: the pricing chain, displayed
 
