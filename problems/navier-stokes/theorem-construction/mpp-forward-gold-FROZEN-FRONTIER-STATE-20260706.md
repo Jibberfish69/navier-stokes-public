@@ -138,19 +138,19 @@ F1 -> (F2 || F3) -> F4 -> F5.
   UniformCenteredPacketTightness plus the financed-source-floor scope
   guard; the phase-sweep v1 theorem remains the secondary route. F1
   actual-NS population is reduced, not cleared.
-  w1 ANSWERED AND CODEX-REGATED (Fable dichotomy note + Codex
-  regate): the packet/diffuse dichotomy is accepted as a legal split,
+  w1 ANSWERED AND CODEX-REGATED twice (Fable dichotomy note + Codex
+  regates): the packet/diffuse dichotomy is accepted as a legal split,
   not as a proof of uniform tightness for the original packet leg.
-  Defining the centered packet inside kappa_frame correlation volumes
-  changes the active monomial leg, so the same-fluid ledger must split
-  \(M=M_{\rm ctr}+M_{\rm tail}\). The centered leg has zero spill by
-  definition; the removed tail becomes a new capacity term
-  \({\rm Cap}_{\rm tail}=2\int|M_{\rm tail}|\). Thus x1 and x2 are
-  load-bearing: x1 must price the removed tail in the diffuse
-  residence/tax ledger on the same window, and x2 must bound the tail's
-  trilinear forcing in the same bad-cone fork margin. The fallback
-  constant row is accepted as an honest Chapter-10 comparison that can
-  fail. F1 actual-NS population remains reduced, not cleared.
+  Defining the centered packet changes the active monomial leg, so the
+  ledger must split \(M=M_{\rm ctr}+M_{\rm tail}\). Codex follow-up
+  reduces \({\rm Cap}_{\rm tail}\): the separated spatial-kernel part
+  has a Schur/Schwartz decay display in the packet-separation parameter;
+  the local-tail part is either a sibling coherent packet/window or
+  diffuse remainder by the W1 merger rule. Therefore x1 and local-tail
+  routing reduce to the Gate-7 measurable window-decomposition and
+  overlap theorem; the separated tail and fallback constant row are
+  Chapter-10 margin/comparison items. F1 actual-NS population remains
+  reduced, not cleared.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
