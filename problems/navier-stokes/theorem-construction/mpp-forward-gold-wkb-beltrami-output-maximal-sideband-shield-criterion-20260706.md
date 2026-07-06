@@ -7,7 +7,10 @@ later_followup: >-
   mpp-forward-gold-wkb-beltrami-shielded-two-pair-same-side-leak-20260706.md
   passes the off-diagonal shield test but leaks unique dangerous same-side
   sidebands. Thus the shield criterion is a necessary condition, not a proof
-  that shielded graphs are impossible.
+  that shielded graphs are impossible. The full finite duplicate branch is
+  closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md:
+  every dangerous duplicate creates a larger dangerous sideband.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -20,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shielded-two-pair-same-side-leak-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md
 completion_truth: >-
   Exact finite-graph necessary condition only. In a finite same-helicity
   Beltrami Fourier cloud, choose an active dangerous cross-shell pair p,q with
@@ -169,6 +173,11 @@ because the same-side outputs are unique dangerous sidebands. Hence this note
 should be used only as a necessary shield criterion; the finite branch now
 requires full sideband-graph closure, not merely off-diagonal shielding.
 
+The later finite duplicate-growth closure supplies the missing global finite
+step: every dangerous duplicate, shielded or not, creates some larger dangerous
+sideband among the four cross-pairings. Thus an output-maximal dangerous pair
+cannot be canceled in a finite support.
+
 ## 6. Four-sentence result
 
 Choose a dangerous pair \(p,q\) with maximal output norm \(|p+q|\) in a finite
@@ -186,6 +195,9 @@ This kills the unshielded output-maximal finite resonant graph branch.
 The shielded branch is real. The minimal shielded two-pair duplicate is killed
 by same-side sidebands, but no general shielded finite graph exclusion is
 proved here.
+
+The general finite exclusion is proved only in the later duplicate-growth
+closure note.
 
 It proves no exclusion of shielded output-maximal graphs, no infinite/dense WKB
 bath theorem, no finite-energy localization theorem, no same-fluid custody

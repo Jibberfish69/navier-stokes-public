@@ -1,6 +1,11 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-shielded-two-pair-same-side-leak-20260706
 status: exact-shielded-two-pair-duplicate-leaks-same-side-sidebands
+later_followup: >-
+  The local same-side leak mechanism is globalized by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md:
+  every finite dangerous duplicate creates a larger dangerous sideband, so an
+  output-maximal dangerous pair cannot be canceled in finite support.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -12,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md
 completion_truth: >-
   Exact four-mode finite-graph check only. A shielded output-maximal duplicate
   exists: p=(-3,-3,0), q=(-2,3,0), a=(-2,-3,0), b=(-3,3,0) have
@@ -164,6 +170,12 @@ This note does not decide whether such a finite graph exists. It only blocks
 the attempted shortcut that shielded graphs are impossible, and it kills the
 minimal shielded two-pair gadget.
 
+The later finite duplicate-growth closure decides the finite graph question:
+the same-side leak seen here is not an accident of this four-mode witness.
+Every dangerous duplicate produces a larger dangerous sideband somewhere in
+its parallelogram, so finite full sideband closure cannot cancel an
+output-maximal dangerous pair.
+
 ## 6. Four-sentence result
 
 The shield condition is nonempty: the four modes
@@ -182,6 +194,9 @@ is full sideband-graph closure.
 
 This proves the shielded branch is nonempty and kills the minimal shielded
 two-pair gadget.
+
+The later duplicate-growth closure proves the corresponding general finite
+obstruction.
 
 It proves no general finite neutralizer exclusion, no infinite/dense WKB bath
 exclusion, no same-fluid custody theorem, no confinement constant, and no MPP

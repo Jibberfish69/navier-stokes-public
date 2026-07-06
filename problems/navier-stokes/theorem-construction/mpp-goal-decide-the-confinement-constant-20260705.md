@@ -1669,6 +1669,17 @@ surface, not F4 clearance.
    \(q+b=(-5,6,0)\) are unique dangerous same-side sidebands. The finite
    survivor is now narrowed to a shielded vector-moment resonant graph with
    full sideband closure, not merely top off-diagonal shielding.
+   Follow-up finite duplicate-growth closure filed: the finite multiradius
+   resonant-graph branch is now closed. If two dangerous pairs duplicate an
+   output \(p+q=a+b\), orient each pair by its larger-radius endpoint. The
+   large-large side has strictly larger output norm. If that side is harmless,
+   the exact same-shell and collinearity cases force one adjacent side to be
+   strictly larger and dangerous. Therefore an output-maximal dangerous pair
+   in finite support cannot have a dangerous cancellation partner; it is unique
+   and rings by the nonresonant two-mode theorem. This removes finite
+   same-helicity Beltrami neutralizers as dense-crowd exits. The surviving
+   bath door is nonattainment/infinite dense support, localization/envelope
+   passage, profile admission, same-fluid custody, or construction/exclusion.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation

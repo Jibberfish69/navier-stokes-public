@@ -7,7 +7,9 @@ later_followup: >-
   fixed-output cancellation is graded by |p|+|q| in the coplanar reduction.
   The full 3D correction is
   mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706:
-  fixed-output cancellation is a vector-moment equation on m^\perp.
+  fixed-output cancellation is a vector-moment equation on m^\perp. The
+  finite multiradius branch is later closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -23,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-atomic-diffuse-admission-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md
 completion_truth: >-
   Exact correction only. The maximal-alignment obstruction is valid for
   same-two-shell duplicate representations: if p+q=p'+q' with |p|=|p'| and
@@ -139,6 +142,12 @@ vector-moment certificate. In the WKB profile language, that means one of:
 Thus atomicity alone does not restore the finite-support conclusion. It only
 restores it after the active cancellation graph is confined to one fixed pair
 of shell radii, or after a new multiradius graph theorem is supplied.
+
+The later finite duplicate-growth closure supplies that multiradius graph
+theorem for finite support: a dangerous duplicate always creates a larger
+dangerous sideband. The remaining WKB door is therefore nonattainment,
+infinite/dense support, localization/envelope passage, profile admission, or
+actual construction/exclusion.
 
 ## 4. Four-sentence result
 
