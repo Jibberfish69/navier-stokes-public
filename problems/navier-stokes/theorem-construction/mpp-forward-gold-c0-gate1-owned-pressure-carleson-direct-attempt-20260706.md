@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate1-owned-pressure-carleson-direct-attempt-20260706
-status: direct-attempt-fails-local-compactness-does-not-give-annular-carleson-growth
+status: historical-detached-carleson-branch-demoted-by-pressure-increment-absorption
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 1 owned pressure Carleson
@@ -22,21 +22,33 @@ proved_inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-owned-pressure-collar-direct-attempt-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-nonsublinear-pressure-routeout-verdict-20260706.md
 completion_truth: >-
-  Direct attempt on OwnedPressureCollarCarlesonSublinear.A. The theorem is not
-  proved from the allowed sources. Local finite-readout compactness, local L1
-  flux compactness, and fixed-window weak-star passage do not imply the annular
-  Carleson/sublinear growth estimate needed for the large pressure collar:
-  an owned locally finite pressure route measure may put mass comparable to R
-  in the R-collar while keeping every fixed compact readout finite. Critical
-  pressure redistribution and critical rescaling give no decay gain, and the
-  current bill B has no pressure-collar tail currency. Therefore Gate 1 remains
-  the first exact failed gate. The smallest current theorem is a uniform
-  pressure-tail tightness/growth statement: every owned retained pressure collar
-  route measure must have sublinear annular mass, be absorbed by B, or be
-  converted to a concrete legal/collar/Pack-Part route-out.
+  Historical direct attempt on a detached owned pressure-collar Carleson branch.
+  Superseded/demoted by the pressure-increment absorption pass on the same date.
+  Local compactness still does not imply annular Carleson growth for an
+  arbitrary detached route measure, but the actual TC.20 pressure flux is not an
+  arbitrary route measure: it is delta_h U_k paired with delta_h nabla^k p, and
+  the pressure increment is locally a Calderon-Zygmund image of one ordinary
+  rung times one tower difference. The current first Gate 1 theorem is
+  RetainedPressureIncrementCZTailAdmission.A, whose tail clause replaces the
+  detached pressure-tail tightness branch.
 ---
 
 # Gate 1 owned pressure Carleson direct attempt
+
+## 0. Supersession
+
+This note is historical. It remains a warning that fixed-window compactness
+does not control an arbitrary detached annular route measure. The current TC.20
+pressure flux must first be passed through the incremented-pressure structure,
+so the live Gate 1 theorem is
+
+```math
+\texttt{RetainedPressureIncrementCZTailAdmission.A}.
+\tag{OPCS.0}
+```
+
+Only the nonlocal tail left after that local Calderon-Zygmund admission carries
+the route-out/tightness burden tested below.
 
 ## 1. Target
 
