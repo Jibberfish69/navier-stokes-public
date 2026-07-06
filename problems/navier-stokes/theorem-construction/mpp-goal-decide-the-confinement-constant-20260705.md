@@ -158,11 +158,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(e_n=\beta_n^q\), an infinite bath chain is finite-energy exactly when
     \(\sum_N\exp(-q\sum_{j<N}x_j)<\infty\). Every shallowing power law
     \(x_{n+1}=p x_n\), \(0<p<1\), including \(p=4/5\), fails.
-    Follow-up finite-depth obstruction filed: finite total energy alone does
-    not kill fresh finite-depth bath funding. If record demand \(W_n\sim2^n\)
+    Follow-up fresh-holder obstruction filed: finite total energy alone does
+    not kill fresh variable-depth holder funding. If record demand \(W_n\sim2^n\)
     and one-holder cost is \(H_n\sim W_n\beta_n^q\), then choosing
     \(\beta_n=2^{-(1+\epsilon)n/q}\) makes \(\sum_nH_n<\infty\). Thus the
-    finite-depth branch needs admissible \(\beta_n\) control, same-packet
+    fresh variable-depth branch needs admissible \(\beta_n\) control, same-packet
     allocation/depletion, reuse tracking, or PDE impossibility/construction.
     Follow-up beta-depth correction filed: the summable \(\beta_n\) example is
     not uniformly finite-depth. If \(K_n=\log_2(1/\beta_n)\le K_*\), then
