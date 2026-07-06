@@ -954,6 +954,23 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   source/charge theorems are paid, but positive K3 pass still carries
   \(D_{\rm tail}^{ti}\), \(B_{\rm end}^{ti}\), excess-routing, and
   Chapter-10 affordability. No K3 clearance is claimed.
+  CODEX K3 TAIL-RATE LONG-WINDOW REWRITE (codex-k3-tail-rate-long-
+  window-rewrite): the reusable \(L^\infty_t\) BoundaryTail rate is
+  stronger than the selected one-block F4 product worksheet needs. On a
+  compact worksheet with finite \(m_{\rm tail}\), for any chosen \(D\),
+  \(dm_{\le D}=\min(f,D)dt\) and
+  \(dm_{>D}=(f-D)_+dt+dm^s\) give
+  \(m_{\rm tail}(I)\le D|I|+B_{\rm tail}^{bad}(D)\), where
+  \(B_{\rm tail}^{bad}(D)=m_{>D}(\mathbb R_t)\) is charged once in the
+  length numerator. The one-block product row replaces
+  \(D_{\rm tail}^{ti}\) by the chosen \(D\) and adds
+  \(B_{\rm tail}^{bad}(D)\) to the length floor. This is not a reusable
+  subinterval rate and cannot be spent on repeated blocks without a
+  no-reuse allocation theorem. Effect: the selected one-block K3/F4 tail
+  pass burden reduces to Chapter-10 choice/affordability of
+  \(D,B_{\rm tail}^{bad}(D),B_{\rm end}^{ti}\); route-out remains for
+  nonfinite tail, repeated reuse, or re-presented excess. No positivity
+  or K3 clearance is claimed.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
