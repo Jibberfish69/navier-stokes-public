@@ -24,17 +24,16 @@ completion_truth: >-
   zero must converge, modulo the legal symmetries/rescalings, to a retained
   same-fluid zero-bill profile with record still positive. If that theorem is
   installed, the kernel proves a positive epsilon and c_0=2 epsilon. Current
-  checked sources do not install it: localized tower closure still needs the
-  legal flux/cutoff estimate, now sharpened on the pressure side to exact
-  pressure-increment CZ/tail admission, then to remote tower-difference
-  pressure-tail summability or route-out, and now to retained Field-envelope
-  exhaustion of the pressure-increment source; full-tower signed-total exchange
-  retention is explicitly open; chapter-2 closedness is finite-readout/conditional
-  rather than tight no-loss passage of the selected positive record; and
-  signed-height record-net work admission still lacks native same-parent edge
-  admission/storage. So this pass does not close c_0 or the repo; it reduces
-  closure to one exact compactness-and-record theorem and names the current
-  escape routes for a vanishing-bill sequence.
+  checked sources still do not install it: the localized tower closure / Gate 1
+  flux-collaring branch has now been discharged on retained same-fluid relay
+  windows by the pressure-increment Field-envelope chain, but full-tower
+  signed-total exchange retention is explicitly open; chapter-2 closedness is
+  finite-readout/conditional rather than tight no-loss passage of the selected
+  positive record; and signed-height record-net work admission still lacks
+  native same-parent edge admission/storage. So this pass does not close c_0 or
+  the repo; it reduces closure to one exact compactness-and-record theorem and
+  names the current escape routes for a vanishing-bill sequence. The first
+  failed gate is now Gate 2.
 ---
 
 # c_0 epsilon extraction direct proof pass
@@ -180,20 +179,30 @@ The remaining tail clause is now:
 \tag{CEE.7b}
 ```
 
-The latest direct attempt proves the absorption branch for remote
-tower-difference sources inside an enlarged retained Field envelope. The
-unproved custody theorem is:
+The remote-tail dichotomy proves the absorption branch for sources inside an
+enlarged retained Field envelope. The remaining custody theorem
 
 ```math
 \texttt{RetainedFieldEnvelopeExhaustsPressureIncrementSource.A}.
 \tag{CEE.7c}
 ```
 
-So "the bills are the compactness" is conditional on the flux/cutoff theorem:
-transport flux is removable, pressure-increment flux is absorbable only after
-the exact CZ/tail admission, and the only surviving pressure tail must be
-remote tower decoherence that is either inside the retained Field envelope or
-route-out. This is not installed from the paired identity alone.
+is now proved by terminal Part / Field custody: an outside-envelope
+pressure-increment source needed by the selected readout is either Field-visible
+after neighboring inclusion, or the pressure-viscosity carrier is not retained
+with the terminal readout control needed by the witness.
+
+Thus Gate 1 is installed on retained same-fluid relay windows:
+
+```math
+\texttt{RetainedRelayFluxCutoffClosure.A}.
+\tag{CEE.7d}
+```
+
+Transport flux is removed by the material cutoff, viscous collars are absorbed
+or killed by large retained windows, local pressure increments are absorbed by
+Field/viscous currency, and nonlocal pressure-increment sources are either
+enveloped or route-out.
 
 ### Gate 2: full-tower positive-record retention
 
