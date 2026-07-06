@@ -1592,6 +1592,17 @@ surface, not F4 clearance.
    every dangerous mixed-shell output must be fed by at least two active
    cross-shell pairs, or the interaction must collapse to same-shell,
    collinear, or zero-amplitude degeneracy.
+   Follow-up maximal-alignment obstruction closes that finite door. Choose
+   the active noncollinear cross-shell pair \(p,q\) with maximal normalized
+   alignment \(p\cdot q/(|p||q|)\). A second representation
+   \(p+q=p'+q'\) forces the off-diagonal active pairs \(p,q'\) and \(p',q\)
+   to have strictly larger alignment; because the shell radii differ, at
+   least one off-diagonal pair remains noncollinear. Hence the maximal pair
+   is unique and rings. Finite same-helicity Beltrami exact neutrality now
+   collapses to one shell, collinear/one-dimensional degeneracy, or
+   zero-amplitude interactions. The surviving Beltrami bath must be
+   infinite/dense WKB, localized/enveloped, same-fluid transported, or an
+   actual construction/exclusion branch.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
