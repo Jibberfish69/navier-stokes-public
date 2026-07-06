@@ -223,7 +223,30 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    is proved. That law is the missing G6a/root-factor floor in Part
    language.
    The exact row remains available for direct interval certification.
-   REMAINING, exactly: [lower-root/root-factor enclosure OR new
+   ATTACK FILINGS (Fable, 2026-07-06, PENDING GATES - the owner's
+   attack directive): (1) SYNTHESIS note
+   (SYNTHESIS-one-sided-contraction-recruit-or-attenuate-pincer):
+   Part I - exact Vieta identity U_+ = r_+(r_- + r_* - r_+) >=
+   r_+(r_* - r_+) = swing x gap (both already reduced to Phi_0 +
+   period cap); d(I_2 - I_1)/dt = 0 EXACTLY under extraction (the
+   Manley-Rowe gap is invariant), so on the horn U_+ -> I_1(I_2-I_1)
+   > 0 with gap_0 > 0 at entry; PROPOSAL Delta_G6a^top =
+   top-endpoint-only margin, bottom served by X >= 0 + the prepaid
+   decaying transient r_- = G_0^2/(r_+ r_*). Part II - the
+   RECRUIT-OR-ATTENUATE PINCER: with c_0 > 0, E_{j+1} <= q E_j +
+   F_j forces >= e_marg/2 fresh first-admitted mass per K rungs on
+   any surviving climb; blowup needs unbounded climb; THE ENEMY
+   BUILDS THE >= 111-RUNG CHAIN OR ATTENUATES - the seed charged to
+   the enemy's history (door B with content). Seven gaps named. (2)
+   INCOMPATIBILITY note (rate-gap-incompatibility-one-sided-
+   priority): R_horn is r_--INDEPENDENT (Codex's own display), so
+   the horn is constructible at every financed cell's parameters;
+   hence RATE GAP AND NONEMPTY FINANCED FAMILY ARE INCOMPATIBLE -
+   the poor-horn comparison route is structurally closed (caveat:
+   unless the financed definition is amended to constrain
+   r_-/G_0^2). Surviving product routes, ordered: the one-sided
+   margin (priority), or a new root-service participation law.
+   REMAINING (superseded pending the gates above), previously: [lower-root/root-factor enclosure OR new
    poor-horn comparison] +
    [endpoint frozen margin beating matched R4 drift] +
    [finite product-row evaluation] +
