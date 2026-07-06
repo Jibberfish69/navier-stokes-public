@@ -63,14 +63,21 @@ impulse-energy lower bound over the admissible debris shapes, a precise
 subsystem definition of isolation, and a proof that the debris does not
 already carry enough stored energy to pay the small-scale bill.
 
+Same-day follow-up:
+`mpp-forward-gold-codex-custody-impulse-energy-lower-bound-20260705.md`
+pays the uniform shape-class lower bound
+\[
+  E\ge c|P|^2/L^3
+\]
+for vorticity supported in a ball of radius \(L\).
+
 Corrected theorem form: energy escrow dichotomy. Either the thick debris
 already contains the energy needed for scale-\(d\) reassembly, and that
 stored energy is prior paid residue rather than free reserve; or the
 energy must be delivered through the participating medium, and fast
 delivery is priced by the increment-cubic transit identity. Remaining:
-shape-class lower bound, escrow localization on channel-window rows,
-and row lift into composition. No custody clearance or MPP closure is
-claimed.
+escrow localization on channel-window rows and row lift into
+composition. No custody clearance or MPP closure is claimed.
 
 # Custody G-C-1: thick debris becomes energy escrow
 
