@@ -11,6 +11,7 @@ target_object:
   - FullTowerSignedTotalExchangeRetention.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/spine.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
@@ -34,7 +35,10 @@ completion_truth: >-
   windows by the pressure-increment Field-envelope chain, but full-tower
   signed-total exchange retention is explicitly open; the record/reset
   root-payment frontier gives the right pre-readout producer shape for Gate 2
-  but leaves that producer and the full-tower positive-channel projection open,
+  but leaves that producer open, and the full-tower positive-channel projection
+  audit sharpens the uncovered channel to the scale-normalized full material
+  strain/coefficient/commutator clock / signed smooth same-packet
+  commutator-coercivity line,
   and the signed-cycle kernel no-go refutes the direct implication from signed
   four-body cancellation to positive-record retention;
   chapter-2 closedness is finite-readout/conditional rather than tight no-loss
