@@ -26,18 +26,19 @@ depends_on:
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
   - mpp-forward-gold-codex-f1-t3-bad-cone-capacity-fork-20260706.md
 completion_truth: >-
-  Codex-regated state: the packet/diffuse dichotomy is accepted only as
-  a legal split, not as a proof of UniformCenteredPacketTightness for
-  the original packet leg. Defining the centered packet to have zero
-  spill beyond kappa_frame changes the monomial leg, so the removed
-  tail must be routed in the same active monomial ledger
-  M = M_ctr + M_tail. Fable's x1 and x2 are load-bearing: x1 must price
-  the removed tail as diffuse in the residence/tax currency on the same
-  window, and x2 must bound Cap_tail = 2 int |M_tail| in the bad-cone
-  fork's capacity inequality. The fallback constant row is accepted as
-  an honest Chapter-10 comparison that can fail. No F1 actual-NS
-  population, F2/F4/F5, Chapter-10, manuscript, or MPP closure is
-  claimed. Filed is not cleared.
+  Codex-regated state after tail-capacity follow-up: the packet/diffuse
+  dichotomy is accepted only as a legal split, not as a proof of
+  UniformCenteredPacketTightness for the original packet leg. Defining
+  the centered packet changes the monomial leg, so the removed tail is
+  routed through M = M_ctr + M_tail. Codex displays x2 for the separated
+  spatial-kernel part by Schur/Schwartz decay in the packet-separation
+  parameter. The local-tail part is either a sibling coherent
+  packet/window or diffuse remainder by the W1 merger rule; x1 and that
+  local part reduce to the Gate-7 measurable window-decomposition and
+  overlap theorem. The fallback constant row is accepted as an honest
+  Chapter-10 comparison that can fail. No F1 actual-NS population,
+  F2/F4/F5, Chapter-10, manuscript, or MPP closure is claimed. Filed is
+  not cleared.
 ---
 
 # w1 two ways: tightness by dichotomy, and the fallback constant row
