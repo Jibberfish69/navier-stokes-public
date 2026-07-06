@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-signed-cycle-kernel-no-go-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-terminal-part-not-three-measure-ownership-no-go-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
@@ -277,6 +278,49 @@ clause is the unproved covering map from every full-tower positive channel in
 `(FTR.10)` to that pre-readout root-payment dialect, strict payment, or legal
 residual. Therefore the Opus/root-payment input sharpens Gate 2; it does not
 discharge it.
+
+The theta-clock bridge sharpens the second clause further. The unowned
+full-tower positive channel is the scale-normalized material
+strain/coefficient/pressure-service/commutator clock \(\Theta_N\), together
+with the same-packet interface defects needed to carry that clock through the
+four-body packet. The checked direct smooth calculation gives a BKM-type
+growth law, not a payment law:
+
+```math
+d[\log(1+E_N)]_+
+\le
+C\,\Theta_N\,d\sigma+dR_N^0 .
+\tag{CEE.9a1}
+```
+
+So Gate 2 now has an exact fork:
+
+```math
+\int\Theta_N<\infty
+\quad\Longrightarrow\quad
+\text{the full material clock is paid and the positive channel can be retained,}
+\tag{CEE.9a2}
+```
+
+or else the retained ratio-one heat-scale branch must produce a certified
+surplus-zero \(\Theta_N\) profile with positive normalized clock service and
+vanishing same-packet surplus payers. Current sources do not prove the
+certificate-flow invariance or zero-loss tower rigidity needed to exclude that
+profile. Thus the lower Gate 2 producer is:
+
+```math
+\texttt{SignedSmoothSamePacketCommutatorCoercivity.A}
++
+\texttt{SamePacketInterfaceDefectSummabilityOrStrictLoss.A}
+\tag{CEE.9a3}
+```
+
+or equivalently the route-b profile theorem:
+
+```math
+\texttt{CertifiedSurplusZeroThetaProfileRigidity.A}.
+\tag{CEE.9a4}
+```
 
 The stronger local reduction is now named as
 
