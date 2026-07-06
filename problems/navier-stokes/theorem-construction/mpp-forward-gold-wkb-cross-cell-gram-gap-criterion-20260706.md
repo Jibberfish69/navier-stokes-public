@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -32,7 +33,11 @@ completion_truth: >-
   uniform positive cloud in its zero mode: the kernel-only quadratic charge is
   zero, with bounded diagonal corrections vanishing like 1/M. Only an actual
   Navier-Stokes interaction/uncertainty Gram gap tied to admissible-cone
-  restrictions, same-packet identity, and legal certificates can remain. This
+  restrictions, same-packet identity, and legal certificates can remain. The
+  PSD-ballast follow-up also blocks the ballast-only shortcut: isotropic PSD
+  Reynolds trace ballast can carry normalized positive unresolved kinetic
+  energy while its trace-free pressure/Hessian charge is zero, and a diagonal
+  trace-square reserve still fragments like 1/M. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -186,6 +191,23 @@ and bounded diagonal self-cell corrections vanish like \(1/M_j\). Thus the raw
 mean-zero Calderon-Zygmund kernel is not the all-to-all positive charge needed
 for (CG.6).
 
+Positive Reynolds covariance ballast is not the missing all-to-all charge
+either. The isotropic PSD cloud
+\[
+  R_b={2a_b\over3}I,\qquad a_b={1\over M},
+  \tag{CG.12c}
+\]
+has normalized unresolved kinetic energy
+\[
+  \sum_b {1\over2}\operatorname{tr}R_b=1,
+  \tag{CG.12d}
+\]
+but its trace-free anisotropic component is zero in every cell. Hence every
+selected trace-free pressure/Hessian Gram charge fed only by that component is
+zero, while a diagonal trace-square reserve is again \(1/M\). Thus PSD
+positivity and positive trace ballast are consumer/certificate currency, not a
+standalone proof of (CG.6).
+
 A cross-cell rescue needs a genuinely coherent positive interaction: the Gram
 form must act like a positive all-to-all charge on the selected positive cone,
 or the admissible cone must be restricted by a PDE uncertainty law that forbids
@@ -214,9 +236,11 @@ the actual Gram gap. The missing input is now:
 \[
   \text{CrossCellWKBGramGap.A beyond the raw pressure kernel}
   \quad\text{or}\quad
-  \text{profile admission / construction-exclusion}.
+  \text{profile admission / construction-exclusion},
   \tag{CG.14}
 \]
+with PSD trace ballast kept as a routed energy/certificate branch rather than
+as a Gram-gap supplier.
 
 ## 6. Four-sentence result
 
@@ -224,11 +248,11 @@ The same-cell square reserve is already false for an unbounded WKB cloud, so
 any square rescue must come from cross-cell interaction. Such a rescue is
 exactly a uniform positive lower bound for the actual interaction Gram matrix
 on the normalized admissible positive cloud cone. Orthogonality, finite-range
-interaction, and the raw mean-zero pressure kernel all admit uniform or
-near-uniform positive clouds with vanishing quadratic charge. Therefore the
-remaining cross-cell branch is a real Navier-Stokes admissibility /
-same-packet / certificate Gram-gap theorem, or it falls back to profile
-admission, typed escape, or construction/exclusion.
+interaction, the raw mean-zero pressure kernel, and PSD trace ballast alone
+all admit uniform or isotropic positive clouds with vanishing selected
+quadratic charge. Therefore the remaining cross-cell branch is a real
+Navier-Stokes admissibility / same-packet / certificate Gram-gap theorem, or it
+falls back to profile admission, typed escape, or construction/exclusion.
 
 ## 7. State
 
