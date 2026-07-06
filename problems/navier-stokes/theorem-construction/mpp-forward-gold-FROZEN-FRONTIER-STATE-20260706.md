@@ -587,6 +587,18 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(R_0/(g_0X_{\max}^2)<\mathcal R_b(\lambda)\), now as one elementary
   exponential supremum. No selector monotonicity or interval value is claimed.
 
+  CODEX ROUTE-3 RENT OBJECTIVE LOG-CONCAVITY SELECTOR (2026-07-06,
+  codex-route3-rent-objective-log-concavity-selector): the positive part of
+  the elementary rent objective is now structured. With
+  \(F_\lambda(q)=q(2-e^{q/2})-2\lambda(2+e^{q/2})\) and
+  \(\Psi_b(q;\lambda)=(q-b)F_\lambda(q)/8\), the positive support
+  \(I_+=\{2b<q<U:F_\lambda(q)>0\}\) is an interval and \(\Psi_b\) is
+  strictly log-concave on it. Therefore \(\mathcal R_b(\lambda)\) is
+  zero, a lower-edge supremum, or the value at the unique root of
+  \(D_{b,\lambda}(q)=F_\lambda(q)+(q-b)F_\lambda'(q)=0\). Chapter 10 now
+  needs only the typed selector case and the corresponding root/value
+  enclosure. No interval value or product pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
