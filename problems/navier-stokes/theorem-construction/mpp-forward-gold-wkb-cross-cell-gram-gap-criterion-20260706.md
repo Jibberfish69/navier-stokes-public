@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -50,7 +51,12 @@ completion_truth: >-
   that anti-equidistribution theorem: periodic replication preserves selected
   moment while diagonal and mean-zero/local Gram charges vanish like 1/M. Thus
   any surviving gap must be genuinely global same-packet/certificate geometry,
-  a positive uniform-mode charge, or construction/exclusion. This
+  a positive uniform-mode charge, or construction/exclusion. The common-identity
+  follow-up blocks the next shortcut: common packet identity is compatibility
+  and closedness data, not a square lower bound. Uniform filling across many
+  identity values, or inside one large identity fiber, still fragments unless a
+  bounded-count theorem, positive identity-fiber uniform-mode charge, legal
+  anti-equidistribution theorem, or construction/exclusion is supplied. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -284,6 +290,14 @@ anti-equidistribution must come from global same-packet identity, law/ancestry/
 cover/tower certificates, non-translation-invariant geometry, or
 construction/exclusion; it is not a local-cell theorem.
 
+The common-identity follow-up blocks another possible source. Same-packet
+identity says the law, ancestry, cover, and tower certificates describe the
+same WKB packet/cloud. It does not control the distribution of selected moment
+over effective cells inside that identity. A uniform cloud over many identities,
+or over one large identity fiber, still has diagonal/local square charge
+\(1/M\) and still lies in the mean-zero uniform mode unless an extra
+quantitative theorem is added.
+
 ## 6. Four-sentence result
 
 The same-cell square reserve is already false for an unbounded WKB cloud, so
@@ -292,10 +306,11 @@ exactly a uniform positive lower bound for the actual interaction Gram matrix
 on the normalized admissible positive cloud cone. Orthogonality, finite-range
 interaction, the raw mean-zero pressure kernel, PSD trace ballast, and local
 translation-invariant WKB legality all admit uniform or isotropic positive
-clouds with vanishing selected quadratic charge. Therefore the remaining
-cross-cell branch is a real global Navier-Stokes admissibility / same-packet /
-certificate Gram-gap theorem, or it falls back to profile admission, typed
-escape, or construction/exclusion.
+clouds with vanishing selected quadratic charge; common packet identity alone
+does the same unless it carries a bounded-count, positive uniform-mode, or
+anti-equidistribution theorem. Therefore the remaining cross-cell branch is a
+real global Navier-Stokes admissibility / certificate Gram-gap theorem, or it
+falls back to profile admission, typed escape, or construction/exclusion.
 
 ## 7. State
 
