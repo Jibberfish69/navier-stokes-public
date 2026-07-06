@@ -145,6 +145,11 @@ on every legal retained identity fiber. Then one cell carries mass
 \(\gtrsim1/M_0\), and the bounded-count / finite-menu extraction branch
 returns.
 
+The finite-cover certificate does not supply this bound by itself. A single
+legal chart can contain arbitrarily many effective WKB service cells inside one
+common identity fiber; the cover count is one while the effective cell count is
+unbounded.
+
 Second, a positive identity-fiber uniform-mode charge:
 \[
   u_F^TG_Fu_F\ge c>0
@@ -187,6 +192,7 @@ positive moment is distributed among many effective cells inside that identity.
 Uniform filling across many identity values, or inside one large identity
 fiber, still has total selected moment one and diagonal/local square charge
 \(1/M\), while mean-zero cross kernels still see the uniform zero mode. Thus
-identity can help the Gram gap only with an extra quantitative theorem: bounded
-cell count, positive uniform-mode charge, legal anti-equidistribution, or
-construction/exclusion.
+identity can help the Gram gap only with an extra quantitative theorem: a true
+microlocal bounded cell count, positive uniform-mode charge, legal
+anti-equidistribution, or construction/exclusion; finite cover alone is not the
+bounded-count theorem.
