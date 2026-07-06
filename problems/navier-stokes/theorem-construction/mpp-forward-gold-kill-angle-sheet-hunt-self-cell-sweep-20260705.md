@@ -120,8 +120,7 @@ lifetime clock, integrated stretch per encounter is at most
 \left(\text{max at }\beta=e^{-1/2}\right),
 \]
 
-and the doubling comparison (against ln 2) is a chapter-10 item.
-Follow-up
+and the normalized sidecar comparison is now decided. Follow-up
 `mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
 certifies this normalized sidecar below \(\log2\). The full interval
 Crow-band comparison remains a chapter-10 item.
