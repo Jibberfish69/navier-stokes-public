@@ -722,6 +722,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    of the modulus is moving service-selector escape in material, center,
    envelope, time, scale, bank, weight, or rung coordinates, not admitted
    retained profile service.
+   The WKB profile witness closed-graph admission criterion then prices
+   same-solution profile legality exactly: closed legal-label support admits
+   the limiting profile, while nonclosed legality gives a limit-of-class /
+   original-participation / carrier-or-tower failure. The actual closedness of
+   the Navier-Stokes WKB legality predicates remains unproved.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
