@@ -853,6 +853,29 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   No interval value, product pass, Route-3 pass, F4, Chapter-10 pass, F5, or
   MPP closure is claimed.
 
+  CODEX ROUTE-3 EDGE WITNESS NORMALIZED MARGIN (2026-07-06,
+  codex-route3-edge-witness-normalized-margin): the selector-free edge witness
+  is now in the same normalized grammar as the older midpoint row. On the
+  worksheet domain \(b_+,\lambda_+,s_+\ge0\), the edge-witness inequality is
+  equivalent to
+  \[
+    \lambda_+
+    +
+    {4s_+\over b_+(2+e^{b_+})}
+    <
+    \Lambda_+^E(b_+),
+    \qquad
+    \Lambda_+^E(b_+)
+    =
+    {b_+(2-e^{b_+})\over2+e^{b_+}}.
+  \]
+  Thus the source room is \(\Lambda_+^E(b_+)\), the drift charge is
+  \(\lambda_+\), and the rent charge is
+  \(4s_+/(b_+(2+e^{b_+}))\). The inequality itself forces
+  \(b_+<\log2\) and edge support. This is only a normalized sufficient row:
+  no interval value, product pass, Route-3 pass, F4, Chapter-10 pass, F5,
+  manuscript, gate, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
