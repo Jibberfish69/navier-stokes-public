@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -70,7 +71,9 @@ completion_truth: >-
   residual follow-up then removes the last wording shortcut: after the backed
   rank-one payer is subtracted, any bounded zero-mode residual positivity is
   exactly the anti-equidistribution burden, while an unbounded residual is a new
-  payer/certificate or construction branch. This proves no such PDE gap, no WKB
+  payer/certificate or construction branch. The unbounded-residual follow-up
+  prices that branch by the product law B_M d_M^2 >= c for zero-mode residuals
+  and B_M d_M >= c for row-drift residuals. This proves no such PDE gap, no WKB
   construction or exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -334,6 +337,26 @@ Thus a residual count-free floor is exactly a legal anti-equidistribution
 theorem. An unbounded residual is a new high-frequency or certificate payer,
 not a free consequence of the pressure kernel.
 
+The unbounded-residual follow-up makes the remaining branch exact. If
+\[
+  B_M:=\|H_M\|,
+  \qquad
+  d_M:=\inf_{\substack{a\in\mathcal C_M\\ \sum a_b=1}}\|a-u_M\|_2,
+  \tag{CG.18}
+\]
+then zero-mode residual use requires
+\[
+  B_Md_M^2\gtrsim1,
+  \tag{CG.19}
+\]
+while row-drift residual use requires
+\[
+  B_Md_M\gtrsim1
+  \tag{CG.20}
+\]
+up to constants. So the unbounded residual branch is operator-growth backing
+plus legal separation at the matching scale, or construction/exclusion.
+
 ## 6. Four-sentence result
 
 The same-cell square reserve is already false for an unbounded WKB cloud, so
@@ -345,8 +368,8 @@ translation-invariant WKB legality all admit uniform or isotropic positive
 clouds with vanishing selected quadratic charge; common packet identity alone
 does the same unless it carries bounded count, a priced rank-one uniform mode,
 or legal anti-equidistribution. Bounded residual positivity is that same
-anti-equidistribution burden, while an unbounded residual is a new payer or
-construction branch.
+anti-equidistribution burden, while an unbounded residual must satisfy the
+operator-growth versus separation product law or route to construction/exclusion.
 
 ## 7. State
 
