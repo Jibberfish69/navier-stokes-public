@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -73,7 +74,10 @@ completion_truth: >-
   exactly the anti-equidistribution burden, while an unbounded residual is a new
   payer/certificate or construction branch. The unbounded-residual follow-up
   prices that branch by the product law B_M d_M^2 >= c for zero-mode residuals
-  and B_M d_M >= c for row-drift residuals. This proves no such PDE gap, no WKB
+  and B_M d_M >= c for row-drift residuals. The raw-CZ normalization follow-up
+  shows that apparent B_M~M growth from the pressure kernel is only
+  density-coordinate normalization, not a new raw payer. This proves no such
+  PDE gap, no WKB
   construction or exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -357,6 +361,18 @@ while row-drift residual use requires
 up to constants. So the unbounded residual branch is operator-growth backing
 plus legal separation at the matching scale, or construction/exclusion.
 
+For the raw pressure/CZ kernel, the apparent operator growth is already
+accounted for. Writing \(a_b=(1/M)f_b\) gives
+\[
+  \|a-u_M\|_2^2
+  =
+  {1\over M}\|f-1\|_{L^2_\omega}^2,
+  \tag{CG.21}
+\]
+and the raw CZ \(L^2_\omega\) bound gives \(B_M\lesssim C_{\rm CZ}M\) in mass
+coordinates. Hence the product law is exactly density-level
+anti-equidistribution, not a new kernel source.
+
 ## 6. Four-sentence result
 
 The same-cell square reserve is already false for an unbounded WKB cloud, so
@@ -369,7 +385,8 @@ clouds with vanishing selected quadratic charge; common packet identity alone
 does the same unless it carries bounded count, a priced rank-one uniform mode,
 or legal anti-equidistribution. Bounded residual positivity is that same
 anti-equidistribution burden, while an unbounded residual must satisfy the
-operator-growth versus separation product law or route to construction/exclusion.
+operator-growth versus separation product law or route to construction/exclusion;
+raw pressure/CZ growth reduces to density-level anti-equidistribution.
 
 ## 7. State
 
