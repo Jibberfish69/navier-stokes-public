@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-tightness-by-dichotomy-fallback-constant-row-20260706
-status: filed-pending-codex-gate
+status: codex-regated-dichotomy-legal-as-split-x1-x2-load-bearing
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F1 / w1 answered two ways — tightness by the packet/diffuse dichotomy, and the fallback constant row
@@ -19,6 +19,7 @@ authorship: >-
   does not die - it hardens into one fixed comparison for the
   certification chapter.
 depends_on:
+  - mpp-forward-gold-codex-f1-tightness-dichotomy-regate-20260706.md
   - mpp-forward-gold-codex-f1-two-dial-closure-regate-20260706.md
   - mpp-forward-gold-f1-two-dial-closure-tightness-beats-bad-cone-20260706.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
@@ -71,6 +72,28 @@ completion_truth: >-
 ---
 
 # w1 two ways: tightness by dichotomy, and the fallback constant row
+
+## Codex regate, 2026-07-06
+
+Codex audit filed at
+`mpp-forward-gold-codex-f1-tightness-dichotomy-regate-20260706.md`.
+The packet/diffuse dichotomy is accepted as a legal reduction, not as a
+proof of uniform tightness for the original packet leg. Defining the
+centered packet to have zero spill beyond \(\kappa_{\rm frame}\) changes
+the monomial leg, so the removed tail must be split in the same active
+monomial ledger:
+\[
+  M=M_{\rm ctr}+M_{\rm tail}.
+\]
+
+Thus x1 and x2 are load-bearing. x1 must price the removed tail in the
+diffuse residence/tax ledger on the same window; x2 must bound the
+tail's trilinear forcing as a capacity term
+\({\rm Cap}_{\rm tail}=2\int |M_{\rm tail}|\) compatible with the
+bad-cone fork margin. The fallback row is accepted as a genuine
+Chapter-10 comparison that can fail.
+
+F1 actual-NS population is reduced, not cleared.
 
 ## R1. Tightness by dichotomy (routing definition + two owed displays)
 
