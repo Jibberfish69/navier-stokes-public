@@ -1566,6 +1566,14 @@ surface, not F4 clearance.
    cannot cancel cross-shell turnover frequency by frequency; any exact
    cancellation must be a resonant frequency-crowd certificate, a same-shell
    branch, or a collinear degeneracy.
+   The minimal resonant two-pair gadget has now been measured. Mirrored pairs
+   \(p=e_1,q=-e_1+e_3\) and \(p'=-e_1,q'=e_1+e_3\) cancel their shared
+   \(e_3\) mismatch coefficient exactly, so resonant cancellation is a real
+   algebraic door. But the same four modes create isolated off-diagonal
+   sidebands at \(2e_1+e_3\) and \(-2e_1+e_3\), each nonzero by the
+   nonresonant two-mode theorem. Thus the remaining exact-cancellation
+   problem is a closed resonant frequency graph, not a minimal two-pair
+   neutralizer.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
