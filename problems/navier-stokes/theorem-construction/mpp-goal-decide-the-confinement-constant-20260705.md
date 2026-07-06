@@ -757,6 +757,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(R_\alpha\) must vanish or be legally carried; otherwise the branch is
    Part-side same-law tower failure, while a retained tower with high Sobolev
    readout routes to the installed Field consumer.
+   The certificate-product assembly theorem then removes
+   `WKBCertificateCompactness.A` as an independent topological burden: compact
+   closed graphs for the law, ancestry, cover, and tower certificates, plus a
+   simultaneous lift of the same prelimit WKB measures to their product, imply
+   closed legal-label support. The remaining WKB profile-admission burden is
+   exactly those four row-level certificate theorems and the simultaneous product
+   lift, or else the first failed row routes to Pack/Part/Field.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
