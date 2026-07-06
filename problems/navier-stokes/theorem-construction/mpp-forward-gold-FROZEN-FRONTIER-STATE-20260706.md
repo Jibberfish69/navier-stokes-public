@@ -451,6 +451,28 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   per re-entry). Current return-budget row:
   R4-TV\((\delta)\) + ParkingCount\((\delta)\), or a net-extraction
   theorem reviving the prefix route.
+  BOTH BRIDGES FILED (Fable, pending gate,
+  threshold-floor-pays-twice-r4tv-parkingtime): the threshold floor
+  \(X \ge X_{\rm flr} = G_{\rm thr}/X_{\max}^2\) pays twice more.
+  (G1) SWAP-BACK RATE CAP: the monomial carries \(\sqrt X\) once
+  (\(M = a_{\rm pkg}b_1b_2\)), so above the threshold
+  \((\rho_{\rm ext})_- \le \rho^-_{\max} =
+  2d_{\rm pkg}B_1B_2X_{\max}/\sqrt{G_{\rm thr}}\) — band symbols.
+  (G2) PARKINGTIME(\(\delta\)) exact given G1: each \(\delta\)-lift
+  costs \(\tau_{\rm re} = \delta/\rho^-_{\max}\) of routed time —
+  the count-to-budget bridge is the clock itself; the enemy cannot
+  flash-refill. (G3) THE DWELL-FRACTION ROW (consumer form):
+  \((\delta/(q_{\rm per}^--\delta)+2)T_*\rho^-_{\max}/\delta \le
+  f_{\rm dw} < 1/2\) makes dwell a bounded FRACTION; c_W^top spends
+  on the run fraction (amendment v3). (G4) R4-TV(\(\delta\)) in the
+  demanded form: above the threshold \(\rho_{\rm ext}\) is a
+  Lipschitz composition (denominator floored), so the R4 pointwise
+  closeness gives \(v^{\rm TV}_{\rm R4} \le C_{\rm TV}T_*
+  {\rm drift}_{\rm per} < \delta\) with \(C_{\rm TV} = L_\rho C_z\).
+  Owed: monomial factorization display (o1); \(L_\rho\) display
+  (o2); one-signed-reference routing convention (o3); G3 cycle
+  bookkeeping (o4). Both final comparisons REAL, can fail — honest
+  F4 endings (drift beats deadband; refill rate beats drain rate).
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
