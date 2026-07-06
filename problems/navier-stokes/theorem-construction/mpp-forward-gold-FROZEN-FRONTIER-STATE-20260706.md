@@ -88,19 +88,19 @@ F1 -> (F2 || F3) -> F4 -> F5.
   monomial-participation routing. t2 carried correlation constant
   and t4 C_B arithmetic remain verification/certification items
   unless the gate marks them cleared.
-  t3 ATTACKED (Fable, pending gate,
-  f1-t3-participation-split-amplitude-phase-nogo): STATIC NO-GO -
-  "mass at good angles => monomial participation" is FALSE
-  statically (trilinear phase cancellation with full moduli); the
-  split: participation = amplitude population (Bernstein, paid
-  pending gate) x phase population (INSTALLED: dynamical phase +
-  un-parking law + the finite-chain paid pushforward). Remaining
-  t3 content = ONE DOMAIN-MATCH CHECK: does the pushforward's
-  phase-population row cover the bounded-shape class the Bernstein
-  lemma populates? Match => the F1 population clause has no
-  remaining content; mismatch => one named finite gap at the
-  pushforward home. Do-not-cite: the static trilinear
-  lower-bound route.
+  t3 ATTACKED and CODEX-GATED (Fable note plus Codex domain-match
+  audit): STATIC NO-GO ACCEPTED - "mass at good angles => monomial
+  participation" is FALSE statically (trilinear phase cancellation
+  with full moduli). DOMAIN MATCH FAILS AS STATED: the paid
+  pushforward's domain is active coefficient-normalized monomial
+  mass on a financed finite-chain event, while the Bernstein lemma
+  populates packet-leg amplitude mass in Fourier space. The older
+  finite-chain monomial-pushforward F1 payment still stands in its
+  own scope, but the Bernstein amplitude route to the actual-NS
+  predator-cone population gate now owes a dynamic packet-amplitude-
+  to-monomial participation theorem, or routing of cancellation
+  histories to already priced parking/return/debt/tax channels.
+  Do-not-cite: the static trilinear lower-bound route.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
