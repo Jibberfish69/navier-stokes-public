@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -47,7 +48,10 @@ completion_truth: >-
   one common identity fiber with square charge 1/N. The uniform-mode follow-up
   prices the remaining alternative: a positive uniform mode is a rank-one
   all-to-all payer, and in the overlap-bath pressure channel an order-one
-  version is the fixed-density compensator/residue branch.
+  version is the fixed-density compensator/residue branch. The residual
+  follow-up then types the remaining phrase: bounded zero-mode residual
+  positivity is precisely the anti-equidistribution burden, and an unbounded
+  residual is a new payer/certificate or construction branch.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
