@@ -363,7 +363,7 @@ packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
 `WKBTransportDefectVanishesOrCertified.A`, no
 `WKBFiniteCoverCertificateCompactness.A`, no
 `WKBTowerDefectVanishesOrCertified.A`, no
-`CertifiedPrelimitWKBProductLift.A`, no
+`WKBCrossCertificateCompatibility.A`, no
 `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP
