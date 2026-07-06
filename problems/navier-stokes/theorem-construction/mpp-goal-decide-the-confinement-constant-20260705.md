@@ -277,7 +277,18 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     fixed retained tax density \(\theta_0\) has positive deficit
     \((\theta_0-C\beta^{4/5})_+\mu_{\rm prod}\) once \(\beta\) is small. Thus
     fixed pressure-service tax belongs to the compensator/residue branch, not
-    the retained no-recount row.
+    the retained no-recount row. Follow-up fixed-density compensator routing
+    reduction sharpens that branch: when \(C\beta^{4/5}\le\theta_0/2\),
+    \[
+      {\theta_0\over2}\mu_{\rm prod}
+      \le
+      \rho_{\theta_0}
+      \le
+      \theta_0\mu_{\rm prod}.
+    \]
+    The compensator is producer-throughput-sized. It must become producer
+    suppression / beta-edge failure, finite weighted residue routing, or the
+    SRP moment-readout gate for infinite weighted residue.
     Follow-up local supercritical-motion obstruction filed: a same-shape
     affine pressure history
     \(A(t)=s\beta^{4/5}(1+st)S\) has the required q=4/5 Hessian size
@@ -333,6 +344,19 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     in the \(q=4/5\) pressure row requires
     \(\phi\theta^2\lesssim\beta^{12/5}\); in the coherent case this is
     \(\ell/D\lesssim\beta^{6/5}\), with a strengthened high-Re cascade edge.
+    Follow-up fixed-density compensator routing reduction filed: in the
+    beta-small overlap regime, the fixed-density deficit is comparable to the
+    producer-throughput measure,
+    \[
+      {\theta_0\over2}\mu_{\rm prod}
+      \le
+      \rho_{\theta_0}
+      \le
+      \theta_0\mu_{\rm prod}.
+    \]
+    Thus the compensator branch is not a small side residue; it is producer
+    suppression / beta-edge failure, finite weighted residue routing, or the
+    SRP moment-readout gate for infinite weighted residue.
 
 ## Work order (each unit: output + kill condition)
 
@@ -438,7 +462,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    adds that nonconstant producer gradient creates cross Hessian
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
-   the Reynolds-edge bridge, fixed-density compensator/residue,
+   the Reynolds-edge bridge, fixed-density compensator routing
+   (producer suppression / beta-edge failure, finite weighted residue routing,
+   or SRP moment-readout gate for infinite weighted residue),
    supercritical fine/sparse same-fluid pressure-bank transport/persistence,
    or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
