@@ -19,6 +19,7 @@ allowed_source_refs:
   - problems/navier-stokes/spine.md
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
 completion_truth: >-
   Direct test of the metric half of the retained exact-projector chart license.
   The test does not prove RetainedRecordEdgeC11MetricTowerOrExit.A and does not
