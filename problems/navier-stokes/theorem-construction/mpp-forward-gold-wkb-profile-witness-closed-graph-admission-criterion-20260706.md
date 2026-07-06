@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. Let X be the compact WKB phase-label
   space and let L be the subset of labels satisfying the five same-solution
@@ -261,6 +262,13 @@ finite/readout-compatible cover, and same-law tower, with closed certificate
 relations. Projecting away a noncompact certificate coordinate can produce the
 nonclosed countermodel in Section 4; the first lost certificate routes to Pack,
 Part, or Field rather than retained supply.
+
+The actual-law certificate has a further exact fork. Weak WKB limits preserve
+the Navier-Stokes law only after the Reynolds defect \(R\) satisfies
+\(\mathbb P\operatorname{div}R=0\) with compatible pressure service, or after
+\(R\) is itself carried as a legal certificate. Otherwise the limiting profile
+is Navier-Stokes-Reynolds at the law coordinate, hence actual-pressure-law /
+tower loss rather than admitted NS supply.
 
 It proves no closedness theorem for the actual Navier-Stokes WKB legality
 predicates, no `ActualWKBCarrierExtraction.A`, no WKB construction/exclusion, no
