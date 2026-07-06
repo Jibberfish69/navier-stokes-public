@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-high-rank-linear-certificates-collapse-to-mismatch-payer-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -65,7 +66,9 @@ completion_truth: >-
   rows do not force that density separation when the uniform density satisfies
   them. If such rows impose a fixed moment mismatch, the payer is the explicit
   row mismatch \(\delta^T\mathcal G^\dagger\delta\), not certificate
-  compatibility itself.
+  compatibility itself. The high-rank linear follow-up extends this to growing
+  or infinite linear row families: uniform-compatible families still admit the
+  uniform density, and nonuniform families pay by row-distance.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -336,6 +339,8 @@ The cross-cell WKB branch is now:
 Finitely many bounded certificate rows split the anti-equidistribution branch:
 uniform-compatible rows do not separate the cloud, while fixed nonuniform
 moment rows are explicit payers rather than hidden compatibility consequences.
+The same statement holds for high-rank or infinite linear row families after
+replacing the finite Gram inverse by the Hilbert row-distance.
 
 This is a smaller burden than the previous Gram-gap label. It says exactly what
 the admissible-cone theorem must prevent.
@@ -361,6 +366,8 @@ apparent \(B_M\sim M\) is only the mass-coordinate form of the bounded density
 operator, so it still asks for density-level anti-equidistribution. Finitely
 many bounded certificate rows do not provide that density separation by
 compatibility alone; only a fixed moment mismatch gives an explicit row
+payment. High-rank linear certificate families obey the same dichotomy:
+uniform-compatible means no gap, and nonuniform means explicit row-distance
 payment.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
