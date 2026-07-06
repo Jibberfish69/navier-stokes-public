@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-angle-sheet-hunt-self-cell-sweep-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
 completion_truth: >-
   CODEX GATE SAME DATE:
   mpp-forward-gold-codex-k3-curve-leakage-gate-20260705. Accepted:
@@ -36,7 +37,10 @@ completion_truth: >-
   cap; it reduces the next burden to transporting that local floor
   through the evolving filament lifetime. No per-encounter cap, doubling
   comparison, crowd theorem, composition theorem, or MPP closure is
-  claimed.
+  claimed. SAME-DAY FOLLOW-UP: curve leakage alone has a blind point,
+  but the combined instantaneous eviction vector has the certified
+  pointwise floor \(\mathcal E\ge\sigma/3\) on the producing two-tube
+  profile.
 ---
 
 # K3 obstruction: the exact kernel does not close on four variables
@@ -216,6 +220,16 @@ B_d=2\sigma_{\max}.
 The remaining K3 problem is not whether curve leakage exists, but
 whether that local leakage floor transports through the evolving
 filament lifetime without cancellation or reabsorption.
+
+The combined instantaneous follow-up
+`mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md`
+also records the right vector object: curve leakage alone has a blind
+point, while
+\[
+\mathcal E^2=|\tau_y|^2+|\tau_n|^2+B_d^2
+\]
+satisfies the pointwise floor \(\mathcal E\ge\sigma/3\). The remaining
+burden is lifetime transport of this vector floor.
 
 ## 5. Four-sentence result
 
