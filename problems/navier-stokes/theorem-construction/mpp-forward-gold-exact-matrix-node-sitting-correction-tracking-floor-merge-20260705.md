@@ -26,8 +26,10 @@ completion_truth: >-
   schedule strictly supercritical" is OVERCLAIMED as a static
   statement. Corrected same-day. WHAT SURVIVES, and what everything
   now merges into: nodes are configuration-dependent - the producer's
-  state evolves on the production clock (it amplifies; it is being
-  held; its moment grows), so nodes MOVE, and node-sitters must TRACK.
+  shape state evolves on the production clock (angle, eigenframe,
+  relative components, or holder-coupled geometry change), so nodes
+  MOVE, and node-sitters must TRACK. Pure common moment growth is
+  separately corrected below as tangent to homogeneous nodes.
   This is exactly the bath note's steady-or-tracking dichotomy applied
   to same-extent holders, and exactly the campaign's parking/un-parking
   law in crowd form: the node is a parking spot, and extraction moves
@@ -58,6 +60,13 @@ completion_truth: >-
   tracking speed is |(D_h C)^\dagger D_q C qdot|. This does not prove
   a positive floor; it replaces the static matrix-ratio question by
   the transversality constant of the moving zero-set.
+  Second same-day follow-up:
+  mpp-forward-gold-node-sitting-amplitude-homogeneity-tangent-obstruction-20260705.md
+  corrects the source of node motion: in the leading dipole/filament
+  matrix, C(a,xi,h)=a C0(xi,h), so at C0=0 pure amplitude or common
+  moment growth gives Cdot=0. The tracking floor must be sourced by
+  shape/angle/eigenframe or relative-component motion, not by common
+  amplitude growth alone.
 ---
 
 # Exact matrix attempt: node-sitting correction; the tracking floor
@@ -74,11 +83,14 @@ decided only through dynamics.
 ## 2. What survives: nothing static, everything tracking
 
 The producer is not static - that is the whole point of the program.
-It amplifies on the production clock; being held changes it; its far
-field's nodes move with its state. Node-sitters must re-aim
-continuously. The bath must re-tune continuously (BD1). Wide towers
-must re-tune continuously (cascade note). Every holding strategy
-pays the SAME kind of bill: tracking power on the production clock.
+Being held changes its shape state: angle, eigenframe, relative
+components, or holder-coupled geometry. Those shape changes move its
+far-field nodes, and node-sitters must re-aim continuously. Pure
+common amplitude growth is tangent to homogeneous nodes and does not
+move them; see the amplitude-homogeneity follow-up. The bath must
+re-tune continuously (BD1). Wide towers must re-tune continuously
+(cascade note). Every nontrivial holding strategy pays the same kind
+of bill: tracking power on the production clock.
 
 ## 3. The single decision object of item 4b
 
@@ -102,3 +114,11 @@ Moore-Penrose quantity \(|(D_hC)^\dagger D_qC\,v_{\rm prod}|\).
 The remaining theorem is a positive transversality floor or an exact
 escape through tangent producer motion, singular node geometry, or a
 different co-optimized schedule.
+
+Second same-day correction:
+`mpp-forward-gold-node-sitting-amplitude-homogeneity-tangent-obstruction-20260705.md`
+shows that common amplitude growth is one exact tangent producer
+motion. If \(C(a,\xi,h)=aC_0(\xi,h)\), then at a node \(C_0=0\) and
+pure \(\dot a\) gives \(\dot C=0\). The remaining tracking floor is
+therefore a shape-source theorem: it must use \(\dot\xi\), not common
+amplification alone.
