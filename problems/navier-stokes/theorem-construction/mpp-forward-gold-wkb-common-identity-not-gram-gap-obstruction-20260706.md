@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
 completion_truth: >-
   Exact obstruction to one possible Gram-gap source, not a WKB construction, not
   an exclusion theorem, not a crowd-cell theorem, and not a confinement-constant
@@ -38,7 +39,10 @@ completion_truth: >-
   construction/exclusion. The positive all-to-all charge is now priced by the
   uniform-mode follow-up as a rank-one payer, and in the pressure-service
   overlap bath as the fixed-density compensator branch. This proves no such
-  extra theorem and no MPP closure.
+  extra theorem and no MPP closure. The finite-certificate follow-up shows that
+  finitely many bounded compatibility rows do not supply the legal
+  anti-equidistribution option when the uniform density satisfies them; fixed
+  moment mismatch is an explicit row/payer, not common identity itself.
 ---
 
 # WKB common identity is not a Gram gap
@@ -204,4 +208,6 @@ fiber, still has total selected moment one and diagonal/local square charge
 identity can help the Gram gap only with an extra quantitative theorem: a true
 microlocal bounded cell count, positive uniform-mode charge, legal
 anti-equidistribution, or construction/exclusion; finite cover alone is not the
-bounded-count theorem.
+bounded-count theorem. Finitely many bounded identity-compatible rows also do
+not supply legal anti-equidistribution unless they impose an explicit fixed
+moment mismatch.
