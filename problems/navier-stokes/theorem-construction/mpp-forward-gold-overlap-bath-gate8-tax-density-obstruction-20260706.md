@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-hall-incidence-queue-collapse-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter9-reserve-queue-consumer-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-nonaffine-transport-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and allocation obstruction, not a Gate-8 theorem, not a
   dense-crowd theorem, and not a confinement-constant decision. Gate-8
@@ -32,7 +33,10 @@ completion_truth: >-
   a Reynolds-edge/producer-suppression bridge, non-affine/broadband same-fluid
   transport/persistence, or a real construction/exclusion. Follow-up
   affine-transport pressure-bank obstruction checks that affine same-fluid
-  custody remains beta^(4/5), so it is not the compensator.
+  custody remains beta^(4/5), so it is not the compensator. Follow-up
+  non-affine transport threshold obstruction checks that residual spatial
+  transport has density (delta_D/s) beta^(4/5), so an order-one payer requires
+  delta_D/s>=c beta^(-4/5).
 ---
 
 # Overlap bath: Gate-8 tax-density obstruction
@@ -198,8 +202,8 @@ The pressure row now has these typed open branches:
   record-ladder payment, producer suppression, or construction exclusion;
 - non-affine/broadband same-fluid transport/persistence:
   keep the pressure-service bank attached through the real flow beyond the
-  affine-custody regime, or prove that this demands
-  \(\omega/s\gtrsim\beta^{-4/5}\);
+  affine-custody regime, now requiring a supercritical residual
+  \(\delta_D/s\gtrsim\beta^{-4/5}\) for an order-one payer;
 - construction/exclusion:
   build or rule out a summability-valid dynamic pressure bath whose retained
   pressure-service density stays at \(q=4/5\).
@@ -216,6 +220,6 @@ producer packet. The GA-tax backing lemma says a fixed tax density
 \(\theta_0\) needs \(\beta_{\rm ph}\ge\theta_0\mu_{\rm prod}\) as a measure,
 so for small \(\beta\) the fixed-density deficit is positive. The pressure
 branch must therefore use a real compensator/residue, Reynolds-edge bridge,
-non-affine/broadband same-fluid transport/persistence, or
+supercritical non-affine/broadband same-fluid transport/persistence, or
 construction/exclusion; no-recount
 allocation alone preserves the \(q=4/5\) row.

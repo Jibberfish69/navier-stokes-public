@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-nonaffine-transport-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and affine transport obstruction, not a dynamic bath
   construction, not a dense-crowd theorem, and not a confinement-constant
@@ -33,8 +34,11 @@ completion_truth: >-
   |K|~s^2 beta^(4/5), affine same-fluid transport remains beta^(4/5)E_prod,
   with smaller self term and the already named Reynolds edge. Thus affine
   dynamic custody of the pressure bank does not restore an order-one payer.
-  What remains is non-affine/broadband crowd transport, Reynolds-edge failure,
-  fixed-density compensator/residue, or construction/exclusion.
+  Follow-up non-affine transport threshold obstruction subtracts this affine
+  frame and prices the residual by eta_D=delta_D/s; an order-one payer requires
+  eta_D>=c beta^(-4/5). What remains is supercritical broadband residual,
+  Reynolds-edge failure, fixed-density compensator/residue, or
+  construction/exclusion.
 ---
 
 # Overlap bath: affine-transport pressure-bank obstruction
@@ -248,7 +252,8 @@ prices one producer-clock affine custody window.
 
 The remaining pressure-row burdens are:
 
-- non-affine or broadband crowd transport of the pressure-service bank;
+- supercritical non-affine or broadband crowd transport of the pressure-service
+  bank, with residual gradient ratio \(\delta_D/s\gtrsim\beta^{-4/5}\);
 - bank-bank and bank-producer interactions beyond the affine-curvature
   subcell regime;
 - Reynolds-edge failure, where the pressure-bank scale falls below the viscous
@@ -267,5 +272,5 @@ clock costs only \(|K|D^5\). For the overlap row
 \]
 this is \(\beta^{4/5}E_{\rm prod}\); the bank's own nonlinear drift is smaller
 by \(\beta^{2/5}\), and viscosity is the named Reynolds edge. The surviving
-pressure branch is non-affine/broadband crowd transport, Reynolds-edge failure,
+pressure branch is supercritical broadband residual, Reynolds-edge failure,
 fixed-density compensator/residue, or construction/exclusion.

@@ -315,6 +315,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     regress, or viscous edge rows. The result is scoped to localized filament
     holders and leaves a thin-core \(1/\log(d/a)\) edge for the
     Gate-8/high-Re payer comparison.
+    Follow-up non-affine transport threshold obstruction filed: after
+    subtracting the affine producer frame, residual spatial variation
+    \(\delta_D\) across the pressure bank costs only
+    \((\delta_D/s)|K|D^5\) over one producer clock. In the overlap row this is
+    \((\delta_D/s)\beta^{4/5}E_{\rm prod}\), so an order-one payer requires
+    \(\delta_D/s\gtrsim\beta^{-4/5}\). Ordinary non-affine custody remains
+    cheap; the live broadband branch is supercritical spatial residual,
+    Reynolds-edge failure, fixed-density compensator/residue, or
+    construction/exclusion.
 
 ## Work order (each unit: output + kill condition)
 
@@ -421,11 +430,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    the Reynolds-edge bridge, fixed-density compensator/residue,
-   non-affine/broadband same-fluid pressure-bank transport/persistence, or a real
-   summability-valid bath construction,
+   supercritical non-affine/broadband same-fluid pressure-bank
+   transport/persistence, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
-   tax. The reuse
+   tax. The non-affine transport threshold now says the affine-subtracted
+   residual only pays \((\delta_D/s)\beta^{4/5}\); an order-one transport payer
+   needs \(\delta_D/s\gtrsim\beta^{-4/5}\). The reuse
    tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;

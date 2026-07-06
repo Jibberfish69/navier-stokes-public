@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-pressure-template-locality-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-nonaffine-transport-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -61,9 +62,12 @@ completion_truth: >-
   order at the producer, that supplies every trace-free Hessian at the same
   |K|D^5 cost. Follow-up affine-transport pressure-bank obstruction prices the
   first dynamic custody layer: affine producer transport, projection, and
-  Hessian tracking cost only |K|D^5 over one producer clock. What remains is
-  non-affine/broadband same-fluid transport, Reynolds-edge failure, a
-  fixed-density compensator/residue, or construction/exclusion.
+  Hessian tracking cost only |K|D^5 over one producer clock. Follow-up
+  non-affine transport threshold obstruction prices the affine-subtracted
+  residual at density (delta_D/s) beta^(4/5); an order-one payer needs
+  delta_D/s>=c beta^(-4/5). What remains is supercritical broadband residual,
+  Reynolds-edge failure, a fixed-density compensator/residue, or
+  construction/exclusion.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -306,10 +310,10 @@ This display does not decide the exact overlap-bath matrix.
 
 The remaining burdens are:
 
-- non-affine/broadband same-fluid transport and persistence of a finite-energy
-  pressure-service bank, after affine custody is priced, including the Reynolds threshold
-  \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) for producer curvature or a
-  bridge from threshold failure to record-ladder payment;
+- supercritical non-affine/broadband same-fluid transport and persistence of a
+  finite-energy pressure-service bank, after affine custody is priced, with
+  residual gradient ratio \(\delta_D/s\gtrsim\beta^{-4/5}\), or a bridge from
+  Reynolds-threshold failure to record-ladder payment;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
 - global supercritical fast-motion forcing/admissibility, if non-affine or
@@ -330,9 +334,9 @@ cell \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
 The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
-curvature-subcell check, the exact-matrix branch is now narrowed to
-the non-affine/broadband same-fluid transport branch, Reynolds-edge bridge,
-Gate-8 no-recount allocation/compensator, or construction, not the mean-zero
+curvature-subcell and non-affine-threshold checks, the exact-matrix branch is
+now narrowed to supercritical broadband residual, Reynolds-edge bridge, Gate-8
+no-recount allocation/compensator, or construction, not the mean-zero
 pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, generic producer curvature, or static
