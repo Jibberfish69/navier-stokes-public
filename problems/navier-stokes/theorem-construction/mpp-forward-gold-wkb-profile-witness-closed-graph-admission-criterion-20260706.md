@@ -19,6 +19,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. Let X be the compact WKB phase-label
   space and let L be the subset of labels satisfying the five same-solution
@@ -269,6 +271,12 @@ the Navier-Stokes law only after the Reynolds defect \(R\) satisfies
 \(R\) is itself carried as a legal certificate. Otherwise the limiting profile
 is Navier-Stokes-Reynolds at the law coordinate, hence actual-pressure-law /
 tower loss rather than admitted NS supply.
+
+The cover certificate has the Pack-side exact fork. Weak WKB limits preserve
+finite/readout-compatible cover data only after the profile lifts to a compact
+closed finite-cover certificate with a uniform chart bound. Radius collapse,
+unbounded chart count, escaping chart parameters, or overlap/readout
+incompatibility is carrier-cover loss, not retained supply.
 
 It proves no closedness theorem for the actual Navier-Stokes WKB legality
 predicates, no `ActualWKBCarrierExtraction.A`, no WKB construction/exclusion, no

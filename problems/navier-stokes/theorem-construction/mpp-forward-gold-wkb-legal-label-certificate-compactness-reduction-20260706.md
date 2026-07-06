@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -42,9 +43,10 @@ completion_truth: >-
   certificate. This note does not prove certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
-  not prove uniform finite-cover compactness, does not prove profile admission,
-  does not prove WKB construction/exclusion, does not decide the confinement
-  constant, and does not close the MPP.
+  not prove uniform finite-cover compactness, does not prove tower-defect
+  vanishing or legal carriage, does not prove profile admission, does not prove
+  WKB construction/exclusion, does not decide the confinement constant, and
+  does not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
@@ -314,6 +316,21 @@ uniform finite readout-compatible cover with compact chart parameters and
 closed overlap/readout constraints. Radius collapse, unbounded chart count, or
 overlap/readout failure is Pack-side carrier-cover loss.
 
+The differentiated same-law tower relation includes:
+
+```text
+WKBTowerDefectVanishesOrCertified.A
+```
+
+Weak WKB limits preserve the same-law tower only after the limiting tower
+variables remain the derivatives or finite differences of the same limiting
+velocity and the differentiated nonlinear law closes. Derivative graph defects
+\[
+  G_\alpha=U_\alpha-\partial^\alpha U_0
+\]
+and differentiated flux defects \(R_\alpha\) must vanish modulo pressure gauge
+or be legally carried as tower certificates.
+
 If this holds, the profile is admitted after scalar moment passage. If it
 fails, the failure is a Pack/Part/Field typed limit-of-class artifact or a WKB
 construction/exclusion problem.
@@ -327,6 +344,7 @@ It proves no `WKBCertificateCompactness.A` for actual Navier-Stokes WKB
 packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
 `WKBTransportDefectVanishesOrCertified.A`, no
 `WKBFiniteCoverCertificateCompactness.A`, no
+`WKBTowerDefectVanishesOrCertified.A`, no
 `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP

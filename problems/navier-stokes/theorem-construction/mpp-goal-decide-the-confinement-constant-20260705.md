@@ -744,6 +744,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    legally carried. Otherwise the profile has lost original participation /
    same-fluid history, which is Part-side certificate loss rather than retained
    WKB supply.
+   The finite-cover certificate is now split by the cover-compactness fork:
+   profile measures must lift to a uniformly bounded finite readout-compatible
+   cover with compact chart parameters and closed overlap/readout constraints.
+   Radius collapse, unbounded chart count, escaping chart parameters, or
+   overlap/readout failure is Pack-side carrier-cover loss, not retained WKB
+   supply.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
