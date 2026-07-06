@@ -2,9 +2,12 @@
 theorem_id: forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706
 status: exact-two-pair-resonant-cancellation-leaks-sidebands
 later_supersession: >-
-  The finite closed resonant graph left open here is closed by
+  The same-two-shell finite resonant graph left open here is closed by
   mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.
-  Infinite/dense WKB support remains outside this finite algebraic exclusion.
+  The radius-free finite claim was scope-corrected by
+  mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.
+  Multiradius resonant graphs and infinite/dense WKB support remain outside
+  this same-two-shell algebraic exclusion.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -191,7 +194,10 @@ no MPP closure.
 
 ## 7. Later finite-door supersession
 
-The closed finite resonant graph left open here is closed by
+The same-two-shell finite resonant graph left open here is closed by
 [mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
-The remaining Beltrami-bath question is infinite/dense WKB support plus
-localization, envelope, same-fluid custody, and construction/exclusion.
+The radius-free finite claim is scope-corrected by
+[mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md).
+The remaining Beltrami-bath question includes multiradius resonant graphs,
+infinite/dense WKB support, localization, envelope, same-fluid custody, and
+construction/exclusion.
