@@ -125,34 +125,28 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   prerequisites (StrongGRatioSeedFloor named as the subroute).
 
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
-1. Delta_G6a source packet: item 1 (normalization/Jacobian) PAID
-   (root-coordinate algebra: Jacobian A/m^2, slopes AB and
-   A^2(1/m - 1), discriminant A^2 B^2 (B-A)^2). The financed
-   swing/root-gap item is now reduced by
-   `codex-financed-swing-rootgap-floor-reduction`: on the paid
-   Gate-6 normalization,
-   \(|\dot X|=\alpha A\sqrt B\sqrt{y(1-y)(1-my)}\), so a
-   boundary-routed interior throughput floor
-   \(\Phi_W\ge\Phi_0>0\) forces
-   \(A\ge 2\Phi_0/(\alpha_+\sqrt{B_+}|W|)\) and hence
-   \(m\ge A_0/B_+\). The period cap is now reduced by
-   `codex-period-cap-traversal-reduction`: completed traversals of
-   \(X\) contribute \(A\) variation and take \(T_{\rm per}/2\), so
-   after endpoint fragments are routed,
-   \[
-     \Phi_W={1\over2}{\rm TV}^{\rm int}_W(X)
-     \le {A|W|\over T_{\rm per}},
-   \]
-   hence \(\Phi_W\ge\Phi_0\) and \(A\le A_+\) give
-   \(T_{\rm per}\le A_+|W|/\Phi_0\). Since
-   \(T_{\rm per}=C_{\rm per}K(m)/(\alpha\sqrt B)\) and
-   \(K(m)\to\infty\), this gives \(m\le m_*<1\). REMAINING:
-   boundary-routed interior financing \(\Phi_0>0\) in weighted gross
-   currency and the scoped R4-adjusted margin.
-   In story terms: the financed spring genuinely swings because
-   interior throughput is motion of the same root variable, and exact
-   separatrix parking is excluded only when the window currency caps
-   the period.
+1. Delta_G6a source packet: COLLAPSED TO ONE LIVE PRODUCER.
+   Items paid: (i) normalization/Jacobian = root-coordinate algebra
+   (Jacobian A/m^2, slopes AB and A^2(1/m-1), discriminant
+   A^2 B^2 (B-A)^2); (ii) the swing floor follows from financing
+   (speed bound: 2 Phi_W <= alpha_+ A sqrt(B_+)|W|, so Phi_0 > 0
+   gives A_0, m_0); (iii) the PERIOD CAP also follows from financing
+   (traversal counting: Phi_W <= A|W|/T_per, so Phi_0 > 0 with
+   A <= A_+ gives T_per <= T_* := A_+|W|/Phi_0), and the cap
+   excludes the separatrix (K(m) diverges: m <= m_* < 1).
+   RAW-GROSS WARNING (load-bearing): endpoint fragments MUST be
+   routed - two partial traversals can carry gross variation without
+   completing a swing; boundary-routed form is the exact line
+   between financing an interior clock and recounting endpoint
+   motion. REMAINING, exactly: [Phi_W >= Phi_0 > 0 - the
+   boundary-routed interior financed throughput theorem, weighted
+   gross currency] + [R4-adjusted margin beating the scoped drift]
+   + [the finite row evaluation]. In story terms: ONE fact finances
+   everything - the financed window genuinely moves its package
+   coordinate inside the window; swing, gap, and clock all follow.
+   Key notes: codex-gate6-normalization-jacobian-reduction,
+   codex-financed-swing-rootgap-floor-reduction,
+   codex-period-cap-traversal-reduction.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
