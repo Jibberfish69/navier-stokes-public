@@ -800,23 +800,25 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   residue. The CKN import fires only after that split is matched to the
   nested parabolic CKN shell quantity and the total tail is driven below
   epsilon.
-  STRIKE ACCEPTED + CORRECTED ATTACK FILED (Fable, pending gate,
-  wiib-strike-accepted-carrier-split-starved-background): (K2) the
-  admitted carrier is fed by GROSS flux, so the same-carrier row is
-  \(D_j^{\rm adm} \le C_{\rm pc}(E_j + X_j)\) with \(X_j\) the
-  CHARGE COLUMN (tax/return/record/debt — priced currencies); owed
-  s1: per-scale charge displays + geometric decay under bounded
-  readout. (K3) THE STARVED-BACKGROUND THEOREM (named, shaped, NOT
-  claimed — the honest hard core of W-II-b): naive entry-energy
-  vanishing FAILS (L2 concentrates at Morrey rate ~ r, CKN
-  borderline), but concentration IS INFLOW and every inflow channel
-  is ledger-priced (nonlinear gross = admitted + charged; pressure
-  flux = F3 near/far); nested-cylinder flux accounting: sustained
-  background CKN mass needs sustained priced inflow; bounded
-  readout + decay of (E_j + X_j) starve the tail; CKN finishes.
-  Owed: s2 pressure-flux nested transcription; s3 carrier-split
-  routing definition; s4 the K3 lemma itself (CKN-style iteration
-  with all sources priced — real PDE work, located not claimed).
+  CODEX GATED (codex-wiib-carrier-split-starved-background-gate):
+  the strike and denomination are accepted. The admitted-carrier row
+  may only be
+  \(D_j^{\rm adm} \le C_{\rm pc}(E_j + X_j)\), where \(X_j\) is the
+  priced charge column (tax/return/record/debt); retained mass alone
+  cannot pay carrier dissipation. K3 is NOT cleared. The
+  starved-background claim is reduced to a nested-cylinder sourced CKN
+  contraction for
+  \[
+    Y_j=r_j^{-1}\sup_{I_j}\int_{B_{r_j}}|u|^2
+    +r_j^{-1}\iint_{Q_j}|\nabla u|^2:
+    \quad
+    Y_{j+1}\le \theta Y_j+C(S_j^{\rm adm}+S_j^{\rm charge}
+    +S_j^{\rm press}+S_j^{\rm bdry}+S_j^{\rm excess}),
+    \quad 0<\theta<1.
+  \]
+  Remaining exact burdens: CarrierSplit.Def.A, ChargeColumnDecay.A,
+  K3.Iteration.A, and K3.SourcePricing.A. The CKN import fires only
+  after those source terms are priced or routed.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -971,7 +973,8 @@ notes.
   STRUCK (amplitude obstruction: quadratic dissipation vs cubic
   admitted row; no uniform constant on the actual solution class).
   Use the carrier-split typing D_j^adm <= C_pc(E_j + X_j) plus the
-  starved-background lemma.
+  K3 sourced CKN contraction with all pressure/boundary/excess terms
+  priced or routed.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
