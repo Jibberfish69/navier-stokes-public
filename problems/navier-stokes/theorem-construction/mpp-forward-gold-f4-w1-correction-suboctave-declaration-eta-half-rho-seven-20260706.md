@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-correction-suboctave-declaration-eta-half-rho-seven-20260706
-status: filed-same-day-correction-pending-codex-gate
+status: codex-gated-suboctave-row-accepted-rho-seven-conservative-w1-three-symbols
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 - correction of the octave declaration; the sub-octave law installed; rho collapses to seven
@@ -71,6 +71,17 @@ completion_truth: >-
 ---
 
 # F4/W1 correction: the child stands a half-rung up; the triangle fits in seven spans
+
+## Codex gate, 2026-07-06
+
+Codex filed
+`mpp-forward-gold-codex-f4-w1-suboctave-eta-half-gate-20260706.md`.
+The sub-octave row is accepted in the constructed W1 seed-row scope.
+The bound \(\rho^+=7\) is accepted as conservative, not sharp: using
+the triangle inequality one more time gives \(\Sigma<6\kappa_{\min}\)
+and \(\rho\le6\). Spending \(7\) is still lawful, and the W1 input
+list is reduced to \(J_{\min}^-\), \(C_{\rm amp}^+\), and \(m_{\rm cap}\)
+inside this scoped row.
 
 ## 1. The error, acknowledged
 
