@@ -12,8 +12,10 @@ target_object:
 allowed_source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-material-cutoff-flux-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/spine.md
+proved_inputs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-material-cutoff-flux-reduction-20260706.md
 completion_truth: >-
   Gate 1 proof reduction. This does not install NormalizedRelayBillCompactnessRecordPassage.A
   or TC.31a. After the material-cutoff reduction removes pure transport flux,
