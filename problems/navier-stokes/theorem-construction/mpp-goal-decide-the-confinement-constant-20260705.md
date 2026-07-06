@@ -1314,6 +1314,16 @@ certified positive constant.
    work. So the long diluted K5 survivor is compatible with the
    bounded-Riesz source rule; killing it now requires record locality,
    stronger actual-NS admission failure, or dynamic/geometric route-out.
+   Follow-up record-charge locality obstruction filed: record-charge
+   submeasure placement is domination and total-mass bookkeeping, not
+   bounded-support control. The uniform witness
+   \(dA_L=dC_L=(\Lambda/L)\mathbf 1_{[0,L]}\,dz\) satisfies
+   \(0\le C_L\le A_L\), \(C_L([0,L])=\Lambda\), and
+   \(\Lambda\le A_L([0,L])\), while every bounded effective cell sees
+   \(O(L^{-1})\) mass. Thus the installed record-demand and record-charge
+   rows do not force bounded selected support; K5 still needs a genuine
+   record-locality/admission theorem, actual-NS route-out, or
+   dynamic/geometric route-out.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
