@@ -21,6 +21,7 @@ depends_on:
   - mpp-forward-gold-f1-predator-cone-population-bernstein-packet-lemma-20260706.md
   - mpp-forward-gold-f1-essential-support-variant-paley-wiener-consistency-20260706.md
   - mpp-forward-gold-codex-f1-t3-domain-match-audit-20260706.md
+  - mpp-forward-gold-codex-f1-t3-bad-cone-capacity-fork-20260706.md
   - mpp-forward-gold-codex-r2-normal-form-lift-audit-20260705.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
 completion_truth: >-
@@ -88,6 +89,14 @@ actual-NS predator-cone population gate now owes a dynamic
 packet-amplitude-to-monomial participation theorem, or else a routing
 of cancellation histories to already priced parking, return, debt, or
 tax channels. Filed is not cleared. F1 actual-NS lift remains open.
+
+Follow-up filed:
+`mpp-forward-gold-codex-f1-t3-bad-cone-capacity-fork-20260706.md`.
+The owed bridge is reduced further: either financed active monomial
+throughput exceeds the bad-cone trilinear capacity, forcing good-angle
+active monomial participation, or the remaining branch is bad-cone
+financing and must be paid by capacity/Chapter-10 or routed through
+active-subwindow parking, return, debt, or tax channels.
 
 ## N1. The static no-go (exact)
 
