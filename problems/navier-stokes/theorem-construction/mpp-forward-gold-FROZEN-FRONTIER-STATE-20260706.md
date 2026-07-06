@@ -690,6 +690,25 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   decreasing interior inverse \(L_b(q_*)=\lambda\) with value \(V_b(q_*)\).
   No selector value, product pass, or Route-3 pass is claimed.
 
+  CODEX ROUTE-3 INTERIOR VALUE/ENVELOPE MONOTONICITY (2026-07-06,
+  codex-route3-interior-value-envelope-monotonicity): the interior value is
+  now monotone on the admissible branch. With \(a=q-b\), \(E=e^{q/2}\),
+  \(H=E^2+2qE-4\), and \(B=4+E(a+2)\),
+  \[
+    V_b(q)={a^2H\over4B},\qquad
+    H'B-HB'
+    =
+    E\left({a\over2}E^2+2(4-b)E+4q+2a+16\right)>0.
+  \]
+  Since \(2b<U\), \(b<4\), and \(q\in J_b\) gives \(a,H,B>0\), this proves
+  \(V_b'(q)>0\) on \(J_b\). Together with \(L_b'(q)<0\), the interior rent
+  envelope \(V_b(L_b^{-1}(\lambda))\) is strictly decreasing in \(\lambda\).
+  Consequence for Chapter 10: an interior bracket
+  \(L_b(\overline q)\le\lambda\le L_b(\underline q)\) gives
+  \(q_*\in[\underline q,\overline q]\), and the product row is certified by
+  the single lower value \(V_b(\underline q)\). No interval value, product
+  pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
