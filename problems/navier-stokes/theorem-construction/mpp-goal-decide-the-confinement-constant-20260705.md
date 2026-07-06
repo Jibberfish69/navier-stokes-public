@@ -67,7 +67,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     (quadratic in concentration ratio), thick-debris and
     payment-identity displays gated. Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
-    obstruction. External-audit paper drafted
+    obstruction. Custody payment identity filed at scaling level: fast
+    thick re-assembly pays pair-energy scale in increment-cubic
+    total-variation currency; thick-debris self-dispersal and row lift
+    remain open. External-audit paper drafted
     (external-paper/eviction-production-filament-pair-notes-draft),
     awaiting owner send decision.
 
