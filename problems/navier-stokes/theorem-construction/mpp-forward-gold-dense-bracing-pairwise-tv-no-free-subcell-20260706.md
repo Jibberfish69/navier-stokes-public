@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md
 completion_truth: >-
   Exact reduction for a restricted but important dense-bracing subcell. In any
   leading straight-filament episode where producing interactions are decomposed
@@ -118,6 +119,13 @@ So the four-tube bracing test is now split:
 1. pairwise-TV bracing: paid by (DBTV.5);
 2. net-vector bracing: open and genuinely dangerous;
 3. off-profile/core/sideband/node-sitting schedules: open.
+
+Follow-up:
+`mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md`
+kills the net-vector-only ledger as a proof target. Vector cancellation after
+summation can erase the readout while the pairwise TV bill remains positive.
+Thus the live bracing burden is pairwise/current-resolved same-packet
+allocation, or a real PDE crowd schedule that defeats that allocation.
 
 ## 5. Four-sentence result
 
