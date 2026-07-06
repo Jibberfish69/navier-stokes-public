@@ -738,6 +738,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    the defect \(R\) is itself legally carried. Otherwise the profile is
    Navier-Stokes-Reynolds at the law coordinate, which is actual-pressure-law /
    tower loss, not retained supply.
+   The localized anisotropic Leray obstruction then kills the single-shape
+   cutoff-gauge escape: for \(R=\chi Q\), \(Q\notin\mathbb RI\), and nonzero
+   compactly supported \(\chi\),
+   \[
+     \mathbb P\operatorname{div}(\chi Q)\ne0.
+   \]
+   Thus a localized Beltrami/WKB defect is not ordinary pressure gauge by
+   itself; remaining pressure-law escapes are multi-stress cancellation, legal
+   defect carriage, or actual-law/tower failure.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
@@ -761,18 +770,20 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    `WKBCertificateCompactness.A` as an independent topological burden: compact
    closed graphs for the law, ancestry, cover, and tower certificates, plus a
    simultaneous lift of the same prelimit WKB measures to their product, imply
-   closed legal-label support. The remaining WKB profile-admission burden is
-   exactly those four row-level certificate theorems plus same-packet
-   cross-certificate compatibility, or else the first failed row routes to
+   closed legal-label support. Product-lift gluing, diagonal compatibility, and
+   identity factorization then remove product lift, cross-compatibility, and
+   common identity as independent rows. The remaining WKB profile-admission
+   burden is exactly the four row-level certificate theorems, each carrying its
+   identity subcoordinate, or else the first failed row routes to
    Pack/Part/Field.
    The product-lift gluing theorem then proves that simultaneous lift is
    automatic from rowwise lifts over the same observable marginal when no
    cross-row relation is imposed. Thus the residual product-line object is
    same-packet identity custody. The cross-certificate diagonal reduction
    proves that compatibility is closed once the certificates share one compact
-   common packet identity coordinate. The remaining product-line burden is
-   `WKBCommonPacketIdentityCompactness.A`, or else the first incompatible
-   coordinate routes to Pack/Part/Field.
+   common packet identity coordinate. The identity-factorization reduction then
+   absorbs that coordinate into the row identity subcoordinates, or else the
+   first incompatible coordinate routes to Pack/Part/Field.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
