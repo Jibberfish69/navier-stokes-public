@@ -1344,6 +1344,17 @@ certified positive constant.
    \(M\) must be uniform. Thus K5 needs atomic/bounded-diameter selected
    record admission, or a paid/exit/admission-failure classification for
    global length-growing tests.
+   Follow-up bounded-overlap fragmentation obstruction filed: even a local
+   bounded-overlap atlas does not force K5 locality when the active count
+   grows. Partition \([0,L]\) into \(N=L/\ell\) disjoint bounded cells, take
+   \(G_L=A L^{-1/p}\mathbf 1_{[0,L]}e\), and local norm-one tests
+   \(b_i=\ell^{-1/p'}\mathbf 1_{J_i}e\). Each local read is
+   \(A N^{-1/p}\) and each local \(L^p\)-mass is \(A^p/N\), but the normalized
+   aggregate \(a_L=N^{-1/p'}\sum_i b_i\) still has norm one and reads \(A\).
+   Thus bounded overlap controls double counting, not fragmentation; K5 needs
+   a max/threshold crossing, uniform active-count bound, count-free square/Gram
+   payer, or actual-NS paid/exit/admission-failure rule for growing normalized
+   aggregate reads.
    Current overlap-bath update, source-audited against the 2026-07-06
    branch-collapse notes: the four global sources named after the local
    mechanisms fell are no longer four independent evasion candidates.
