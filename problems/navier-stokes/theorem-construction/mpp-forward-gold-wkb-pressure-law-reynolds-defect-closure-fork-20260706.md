@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -46,8 +47,10 @@ completion_truth: >-
   anisotropy needs positive trace ballast. Pointwise, if
   R=(tau/3)I+A>=0 and tr A=0, then tau/3>=-lambda_min(A), hence
   tau>=sqrt(3/2)|A|_F. This proves no theorem forcing actual Navier-Stokes WKB
-  packets into the PSD null class, no legal carriage theorem for the positive
-  ballast through ancestry/cover/tower, no profile admission theorem, no WKB
+  packets into the PSD null class. The ballast-energy identity adds that
+  (1/2)tr R is unresolved kinetic energy, independent of the pressure gauge.
+  This proves no legal carriage theorem for the positive energy ballast through
+  ancestry/cover/tower, no profile admission theorem, no WKB
   construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -300,6 +303,25 @@ with positive trace ballast whenever the null stress has a nonzero trace-free
 anisotropic part, unless a separate signed-stress certificate is explicitly
 supplied.
 
+The trace ballast has its own ledger identity. Taking traces in
+\[
+  u_j\otimes u_j\rightharpoonup u\otimes u+R
+\]
+gives
+\[
+  {1\over2}|u_j|^2
+  \rightharpoonup
+  {1\over2}|u|^2+{1\over2}\operatorname{tr}R .
+  \tag{RDC.23}
+\]
+Thus the positive trace ballast is unresolved kinetic energy. Absorbing
+\(\operatorname{div}R=\nabla q\) into pressure changes the force balance but
+does not erase the energy/profile coordinate
+\[
+  \mu_R={1\over2}\operatorname{tr}R .
+  \tag{RDC.24}
+\]
+
 ## 6. Reduced burden
 
 The actual-law coordinate in `WKBCertificateCompactness.A` is now:
@@ -318,10 +340,11 @@ in the Leray-null class
   R=qI+S,\qquad \operatorname{div}S=0,
 \]
 with \(q\) absorbed into pressure and positive trace ballast paid for any
-nonzero trace-free anisotropy, or is otherwise carried by an explicit legal
-signed-stress certificate outside the rung-zero Reynolds covariance claim. If
-none of these holds, the profile fails the actual velocity-pressure law /
-covariance-ancestry certificate.
+nonzero trace-free anisotropy as the energy ledger
+\(\mu_R=(1/2)\operatorname{tr}R\), or is otherwise carried by an explicit
+legal signed-stress certificate outside the rung-zero Reynolds covariance
+claim. If none of these holds, the profile fails the actual velocity-pressure
+law / covariance-energy / ancestry certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
 certificate compactness.
@@ -343,10 +366,10 @@ This note proves the Reynolds-defect closure fork for the actual law
 certificate, the single-shape localized anisotropic Leray obstruction, and the
 exact Leray-null stress characterization, including the trace-free Hessian
 null-stress example. It also imports the covariance-ballast screen for actual
-rung-zero Reynolds defects. It does not prove actual Navier-Stokes WKB
-Reynolds defects lie in the PSD null class, does not prove the defect vanishes
-for Navier-Stokes WKB packets, does not prove that a nonzero PSD null defect and
-its positive trace ballast can be legally carried, does not prove
-`WKBCertificateCompactness.A`, does not prove profile admission, does not prove
-WKB construction/exclusion, does not decide the confinement constant, and does
-not close the MPP.
+rung-zero Reynolds defects and the ballast-energy ledger identity. It does not
+prove actual Navier-Stokes WKB Reynolds defects lie in the PSD null class, does
+not prove the defect vanishes for Navier-Stokes WKB packets, does not prove
+that a nonzero PSD null defect and its positive trace energy can be legally
+carried, does not prove `WKBCertificateCompactness.A`, does not prove profile
+admission, does not prove WKB construction/exclusion, does not decide the
+confinement constant, and does not close the MPP.
