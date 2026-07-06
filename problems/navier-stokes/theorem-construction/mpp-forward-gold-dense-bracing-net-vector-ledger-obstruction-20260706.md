@@ -23,9 +23,9 @@ completion_truth: >-
   the pairwise-TV subcell does not pass through any net-vector-only record
   readout. A confinement proof through this bracing lane must construct a
   pairwise/current-resolved same-packet allocation before vector cancellation,
-  or prove dynamically that the cancelling schedule cannot be sustained by the
-  true field. No no-eviction crowd, confinement constant, composition theorem,
-  or MPP closure is claimed.
+  while any persistent cancellation schedule must be treated as the
+  node-sitting moving constraint in exit-vector coordinates. No no-eviction
+  crowd, confinement constant, composition theorem, or MPP closure is claimed.
 ---
 
 # Dense bracing: net-vector ledger obstruction
