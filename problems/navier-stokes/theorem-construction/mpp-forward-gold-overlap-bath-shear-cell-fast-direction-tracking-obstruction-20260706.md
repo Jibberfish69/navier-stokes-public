@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and coefficient-variation estimate, not a dense-crowd
   theorem and not a confinement-constant decision. The exact shear-cell display
@@ -28,7 +29,7 @@ completion_truth: >-
   producer clock the total tracking work is at most C|K|D^5. With
   |K|~s^2 beta^(4/5), this is beta^(4/5)E_prod, the existing pressure-source
   row rather than a new order-one floor. Remaining pressure-row burdens:
-  subcell/high-Re admissibility for producer curvature, same-packet allocation,
+  the Reynolds threshold bridge for producer curvature, same-packet allocation,
   supercritical fast-motion forcing at omega/s >= beta^(-4/5), or an actual
   summability-valid dynamic bath construction/exclusion.
 ---
@@ -215,8 +216,9 @@ This is not a dynamic bath construction and not a dense-crowd theorem.
 
 The remaining pressure-row burdens are:
 
-- subcell/high-Re admissibility when the periodic shear bank is embedded in a
-  producer with nonconstant gradient;
+- the Reynolds threshold \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\), or
+  a bridge from threshold failure to record-ladder payment or producer
+  suppression;
 - same-packet allocation of the pressure service into record-ladder currency;
 - supercritical fast-motion forcing, if the exact matrix demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
@@ -237,6 +239,6 @@ and changing one coefficient costs \(|dc|D^5\). Hence
   \sim \beta^{4/5}E_{\rm prod}
 \]
 over one producer clock. Producer-clock direction tracking is the existing
-pressure row, not an order-one floor; the remaining pressure branch is
-subcell/high-Re admissibility, allocation, supercritical fast motion, or
+pressure row, not an order-one floor; the remaining pressure branch is the
+Reynolds-edge bridge, allocation, supercritical fast motion, or
 construction/exclusion.
