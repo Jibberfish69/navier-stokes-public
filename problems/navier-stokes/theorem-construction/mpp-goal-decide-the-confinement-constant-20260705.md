@@ -1019,6 +1019,24 @@ surface, not F4 clearance.
    still Field-visible through \(\mu_R=(1/2)\tau\). This is exact pointwise
    algebra; it does not prove legal carriage, profile admission, construction,
    exclusion, or the confinement constant.
+   The Beltrami-cone service/ballast support-function follow-up then prices
+   what that trace can buy against a fixed trace-free producer strain \(S\).
+   If \(C\) is in the same-helicity cone, \(\operatorname{tr}C=\tau\), and
+   \(s_1\ge s_2\ge s_3\) are the eigenvalues of \(S\), then
+   \[
+     \sup_C S:C
+     =
+     -{\tau\over2}s_3
+     =
+     {\tau\over2}\bigl(-\lambda_{\min}(S)\bigr).
+   \]
+   The sharp extremizer is \(C=(\tau/2)(I-n_3\otimes n_3)\), with \(n_3\)
+   a most-compressive strain eigenvector. Equivalently,
+   \(S:C\le\mu_R(-\lambda_{\min}S)\) for \(\mu_R=\tau/2\). Thus same-helicity
+   Beltrami service is compression-plane service, not arbitrary PSD
+   concentration on the top stretching eigendirection; this sharpens the static
+   cone algebra but still leaves legal carriage, profile admission, and
+   construction/exclusion open.
    The signed-stress certificate follow-up then prices the non-PSD alternative:
    if a signed tensor \(S\) is carried as \(S=P-N\) with \(P,N\ge0\), then
    \[
