@@ -1382,3 +1382,23 @@ existing F1/Gate-7 plus Chapter-10 packet:
 Thus W0-A is not a separate mechanism beyond those rows. It remains open
 because those rows are not certified here. W0-B same-packet lineage remains a
 separate bridge.
+
+## 10. Codex W0-B supplier map (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0b-lineage-bridge-supplier-map-20260706.md`.
+This is a strict reduction, not a proof of W0-B.
+
+Inside one retained same-packet lineage, the half-open/no-recount bookkeeping
+is already installed. The remaining W0-B bridge is now split into three
+supplier fronts:
+
+1. finite retained-lineage multiplicity for the charged F4 family;
+2. `InternalFirstAdmissionNoExit(N*)`, or the selected-critical fresh-source
+   wall, if W1 uses deep accumulation before one terminal seed charge;
+3. material-time Liouville / certified marginal bath construction-or-exclusion
+   for the diffuse global same-packet law, with Pack/Part/selector/custody
+   route-out when identity factors fail.
+
+Thus W0-B is not a loose lineage slogan. It is finite lineage count, internal
+no-exit/source-wall depth, or material-time global law. It remains open.
