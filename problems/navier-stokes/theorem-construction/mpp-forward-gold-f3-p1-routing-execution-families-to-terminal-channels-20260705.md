@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-p1-routing-execution-families-to-terminal-channels-20260705
-status: filed-pending-codex-gate
+status: codex-regated-partial-placement-two-open-interfaces
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P1 routing execution - every family to its terminal channel
@@ -81,6 +81,30 @@ completion_truth: >-
   fade rates as exact fractions - execution, not reformulation.
   Filed is not cleared. No closure claimed.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-p1-routing-execution-regate-20260705.md`.
+
+Accepted in limited placement sense: E-b inherits the guarded pressure
+near/far allocation; E-c has all-moment commutator decay and the
+displayed moments \(1/15,16/225\); E-f2 is logically routed by
+no-side-economy; E-f3 replacement tails are void under the modified-row
+declaration.
+
+Regated: E-d/E-e cite the stale Target-1 R-a/R-b description. Target 1
+was later corrected under the exact \(s|D|\) multiplier, with the old
+two-family helicity residue reshaped into the current energy/helicity
+split. Those families must be restated in current P1/SRP production
+currency or routed through the corrected energy/helicity surfaces.
+
+Also regated: E-f1 high-readout SRP production is not paid by a bare
+finite-readout/Silver citation. The fixed-level zero-support shortcut
+was re-gated; the remaining interface is SRP-readout comparison or
+diffuse high-channel SRP total-variation domination. Thus P1 routing is
+partially placed, not fully executed. No P1 clearance or MPP closure is
+claimed.
 
 # F3/P1 routing execution: paid coins into paid drawers
 
