@@ -109,9 +109,9 @@ positive Field scale.
 Thus the implication for the WKB horn is:
 \[
 \begin{aligned}
-&\hbox{same-solution terminal WKB witness}
-+\lambda\to\infty
-+\phi D^3|K|\not\to0 \\
+&\hbox{same-solution terminal WKB witness,}\quad
+\lambda\to\infty,\quad
+\phi D^3|K|\not\to0 \\
 &\qquad\Longrightarrow
 SobWall_{H^s}(\mathcal W)
 \Longrightarrow
