@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -52,7 +53,11 @@ completion_truth: >-
   unresolved kinetic energy \(\mu_R=(1/2)\operatorname{tr}R\), which must be
   carried by the profile certificates rather than erased as pressure gauge. The
   ballast-cover landing adds that \(\mu_R\) must lift to the finite-cover
-  certificate or route to Pack-side cover failure. The product-lift and
+  certificate or route to Pack-side cover failure. The ballast ancestry/tower
+  landing adds that the same positive energy must lift to a material energy
+  current and differentiated same-law tower, with transport, derivative-graph,
+  and nonlinear flux defects vanishing or legally carried; otherwise the first
+  failed row is Part-side ancestry or tower loss. The product-lift and
   diagonal-compatibility reductions sharpen the simultaneous lift residue to
   compactness of one common packet identity coordinate shared by the four rows,
   and the identity-factorization reduction absorbs that coordinate into the row
@@ -236,6 +241,20 @@ row produces
 that positive measure must lift to the finite-cover certificate. If \(\mu_R\)
 survives only as an uncovered observable measure, the first lost certificate is
 \(C_{\rm cov}\), hence Pack-side cover failure.
+
+The same positive ballast energy also has material-ancestry and same-law tower
+burdens. At the ancestry level the limiting current must satisfy
+\[
+  A_R:=J_R-u\rho_R=0
+\]
+in the required graph/current sense, or \(A_R\) must be carried as a legal
+original-participation defect. At the tower level, the derivative graph defects
+\[
+  G_\alpha=U_\alpha-\partial^\alpha U_0
+\]
+and differentiated flux defects \(R_\alpha\) must vanish or be legally carried.
+If these clauses fail, positive \(\mu_R\) has lost Part-side material history
+or same-law tower custody. It is not a pressure-null supply branch.
 
 Material ancestry, original participation, actual pressure law, or same-law
 tower failure:
