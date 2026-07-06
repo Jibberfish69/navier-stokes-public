@@ -393,6 +393,14 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   is a witness choice, not a fourth data theorem. Fixed-block mode still
   requires \(L_{\rm avail}>L_{\rm Route3}\).
 
+  CODEX RUN-H MIDPOINT WITNESS REDUCTION (2026-07-06,
+  codex-run-h-midpoint-witness-reduction): the exact RUN-H scalar supremum
+  remains the full test, but there is a sufficient one-point branch at
+  \(\delta=q/2\). If \(q<2\log2\), \(q>16a\), and
+  \(A_0>2d(2+e^{q/2})/(2-e^{q/2})\), then the product row is certified by the
+  single \(S_H(q/2)>K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})+D_{P2}^{ti}\)
+  check. Failure of the midpoint branch is not failure of Route 3.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
