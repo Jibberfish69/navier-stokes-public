@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-matrix-node-sitting-correction-tracking-floor-merge-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md
 completion_truth: >-
   Exact calculation inside the already-filed scaling recursion; not a
   full bath theorem. Under the cheap-bath law recorded in BD2/BD3 and
@@ -169,3 +170,12 @@ exactly when
 \]
 All shallowing power laws \(x_{n+1}=p x_n\), \(0<p<1\), including \(p=4/5\),
 fail this criterion.
+
+Third follow-up:
+`mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md`
+separates the finite-depth fork from this infinite-chain computation. Finite
+total energy alone does not kill fresh finite-depth bath funding: if
+\(W_n\sim2^n\) and \(H_n\sim W_n\beta_n^q\), then sufficiently fast decay of
+\(\beta_n\) makes \(\sum_nH_n\) finite. The finite-depth branch therefore needs
+admissible \(\beta_n\) control, allocation/depletion, reuse tracking, or a PDE
+impossibility theorem.
