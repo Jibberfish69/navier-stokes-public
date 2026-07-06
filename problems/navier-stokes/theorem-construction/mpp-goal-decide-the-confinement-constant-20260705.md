@@ -101,8 +101,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     tracking speed is \(|(D_hC)^\dagger D_qC\,\dot q|\). The remaining
     exact-matrix branch is now a transversality-floor theorem or an
     explicit escape through tangent producer motion, singular node
-    geometry, or a different co-optimized schedule. Custody local split
-    filed and Codex-regated:
+    geometry, or a different co-optimized schedule. Same-day amplitude
+    homogeneity correction filed: in the leading matrix
+    \(C(a,\xi,h)=aC_0(\xi,h)\), so common producer amplification is
+    tangent to every node and does not source tracking. The tracking
+    floor must be shape/angle/eigenframe/relative-component motion
+    plus transversality, or the node branch remains an evasion
+    candidate. Custody local split filed and Codex-regated:
     thin debris is confiscated below the quadratic Reynolds threshold;
     thick debris is governed by energy escrow, not absolute
     prohibition - either it already carries the scale-\(d\) energy as
@@ -172,8 +177,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    funding enters composition. Same-day node-sitting moving-constraint
    identity replaces static cancellation by the differentiated
    constraint \(D_hC\,\dot h=-D_qC\,\dot q\); the live constant is the
-   normalized transversality floor. Finding a genuine no-eviction
-   crowd kills the program and is the most valuable single output.
+   normalized transversality floor. Same-day amplitude homogeneity
+   check says common amplitude growth is tangent to homogeneous nodes;
+   node tracking must come from shape motion. Finding a genuine
+   no-eviction crowd kills the program and is the most valuable single
+   output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
    The custody escrow/localization burden and the Gate-8 allocation rows
