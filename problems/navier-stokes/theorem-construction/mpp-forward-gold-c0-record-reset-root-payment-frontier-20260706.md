@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-packet-return-bv-producer-test-20260628.md
 completion_truth: >-
   This is a strict source-checked narrowing of the remaining c_0 branch, not a
   proof. The earlier persistent-affine-quotient frontier split into fresh
@@ -49,9 +50,10 @@ completion_truth: >-
   OriginalHistoryRecordResetRootPayment.A package. The proof-grade pieces are
   only consumers after the record/root geometry exists: endpoint-corrected
   Poincare for the potential average, scalar variation telescoping for a stopped
-  signed record, derivative-exact first-exit Cauchy payment, and Bessel after a
+  signed record, derivative-exact first-exit Cauchy payment, fixed-score
+  harmonic-square return from root-geometry reserve, and Bessel after a
   predictable Hilbert geometry. The open producer remains construction of the
-  pre-readout same-packet root payment from the original
+  pre-readout same-packet root payment and selected admission from the original
   pressure-viscosity-incompressibility-velocity history. No FullTower
   retention, strict c_0, or MPP closure is claimed.
 ---
@@ -213,7 +215,64 @@ These are proof-grade consumers. They do not construct the root geometry,
 active weight, signed record, negative-return payment, or critical reset
 current from the PDE.
 
-## 5. Checked obstructions
+## 5. Return-side clause audit
+
+The fixed repeated-core return clause also reduces to the same root reserve. For
+a fixed stopped score
+
+\[
+P_R=\Gamma_R Z^S,
+\tag{RR.12}
+\]
+
+the original packet gives
+
+\[
+\partial_\sigma P_R
+=
+\Gamma_R(\partial_\sigma Z^S)
++(\partial_\sigma\Gamma_R)Z^S .
+\tag{RR.13}
+\]
+
+Thus harmonic-square negative return is paid by the parent-known routed
+derivative, turnstile, exchange, covector, connection, and legal motion:
+
+\[
+H_I\left({\Delta_I^-P_R\over |I|}\right)^2
+\le
+C\int_Iw\left(
+|\partial_\sigma Z^S|^2
++|\operatorname{turnstile}_\sigma|^2
++|\operatorname{exchange}_\sigma|^2
++|\operatorname{covector}_\sigma|^2
++|\operatorname{conn}_\sigma|^2
+\right)d\sigma
++R_I^{legal}.
+\tag{RR.14}
+\]
+
+What is still not paid is the linear selected return BV. To pass from `(RR.14)`
+to
+
+\[
+\sum_I\Delta_I^-P_R<\infty ,
+\tag{RR.15}
+\]
+
+the retained returns must be admitted into the same harmonic square currency,
+for example by a selected lower bound
+
+\[
+\Delta_I^-P_R\ge \eta |I|
+\tag{RR.16}
+\]
+
+or by bounded inverse-weight length. So the negative-return clause in `(RR.7)`
+does not create a separate bottom theorem. It returns to the same selected
+root-geometry reserve / admission producer.
+
+## 6. Checked obstructions
 
 The half-tail survives each weaker object:
 
@@ -221,7 +280,7 @@ The half-tail survives each weaker object:
 \sum_\ell\nu_\ell<\infty,
 \qquad
 \sum_\ell2^\ell\nu_\ell=\infty.
-\tag{RR.12}
+\tag{RR.17}
 \]
 
 Raw capacity, raw reset distance, raw Bessel mass, and local compactness see
@@ -238,7 +297,7 @@ of the same-packet pre-readout root payment:
 \boxed{
 \texttt{OriginalHistoryRecordResetRootPayment.A}
 }
-\tag{RR.13}
+\tag{RR.18}
 \]
 
 equivalently, in the potential/testing dialect,
@@ -251,10 +310,10 @@ equivalently, in the potential/testing dialect,
 /
 \texttt{OriginalHistoryParentPredictableFreshInnovationCarleson.A}.
 }
-\tag{RR.14}
+\tag{RR.19}
 \]
 
-## 6. Effect on the c_0 objective
+## 7. Effect on the c_0 objective
 
 The active \(c_0\) route now has this strict conditional form:
 
@@ -274,10 +333,10 @@ The active \(c_0\) route now has this strict conditional form:
 \Longrightarrow
 \text{no infinite ratio-one material-record climb on one same packet.}
 \end{gathered}
-\tag{RR.15}
+\tag{RR.20}
 \]
 
-This note does not prove `(RR.13)`. It removes a stale split in the active
+This note does not prove `(RR.18)`. It removes a stale split in the active
 frontier: the remaining proof work is one pre-readout same-packet
 record/reset/root-payment theorem from original Navier-Stokes data, not two
 separate potential-average and reset/overrun scalar estimates.
