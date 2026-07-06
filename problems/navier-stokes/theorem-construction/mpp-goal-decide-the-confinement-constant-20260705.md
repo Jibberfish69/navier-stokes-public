@@ -738,6 +738,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    the defect \(R\) is itself legally carried. Otherwise the profile is
    Navier-Stokes-Reynolds at the law coordinate, which is actual-pressure-law /
    tower loss, not retained supply.
+   The material-ancestry certificate is now split by the transport-defect
+   fork: selected paths, flow maps, or ancestry currents must pass the limiting
+   transport relation, or the hidden current defect \(A=J-u\rho\) must be
+   legally carried. Otherwise the profile has lost original participation /
+   same-fluid history, which is Part-side certificate loss rather than retained
+   WKB supply.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
