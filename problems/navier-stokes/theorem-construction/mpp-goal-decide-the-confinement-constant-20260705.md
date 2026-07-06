@@ -1298,6 +1298,14 @@ certified positive constant.
    like \(O(\operatorname{Re}^{-1})\) or smaller; the remaining question is
    whether such a diluted/distributed object can still carry selected record
    throughput and be admitted as a retained K5 producer.
+   Follow-up selected-throughput alias filed: a selected-throughput lower
+   bound on a bounded effective subpacket is exactly a local
+   density/concentration premise by averaging. Coupled to the endpoint-delay
+   carrier it becomes the fixed-local-density branch; decoupled from that
+   geometry it cannot cap the whole long packet. The surviving branch is
+   therefore the distributed low-density record-admission question: the
+   selector must force bounded-cell concentration, or accept a selected
+   effective length that grows with the packet.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
