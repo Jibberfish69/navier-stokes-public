@@ -111,7 +111,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Finding it kills the program and is the most valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
-   The three custody rows consumed at last or shown unconsumable.
+   The custody escrow/localization burden and the Gate-8 allocation rows
+   consumed at last or shown unconsumable.
 6. EXTERNAL AUDIT. When pair cell + kill integral are referee-grade
    (one short paper), put them before a professional PDE analyst for
    the two one-day questions: known? wrong? Survival = first externally
