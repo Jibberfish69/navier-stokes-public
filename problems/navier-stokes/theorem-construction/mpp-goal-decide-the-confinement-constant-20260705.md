@@ -65,9 +65,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Same-packet two-tube TV reduction filed:
     \(\mathrm{Prod}_+\le3\,\mathrm{TV}_{\rm evict}\), so signed
     time-cancellation is killed inside total-variation currency.
-    Remaining: bound or consume the total eviction variation through
-    duration, curve-profile persistence, high-Re edge/crowd/custody
-    economy, and octave composition.
+    Record-doubling toll corollary filed: any two-tube factor-two
+    record event pays \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\).
+    Remaining: show the record ladder cannot fund these TV tolls
+    indefinitely, or exhibit the funding mechanism, through duration,
+    curve-profile persistence, high-Re edge/crowd/custody economy, and
+    octave composition.
     CROWD STATE (same date, evening): dilute cell DECIDED for the floor
     (monopole vanishing => quartic far-strain decay, adversarial-proof,
     N-independent). Dense same-extent scaffolds strictly supercritical
@@ -115,8 +118,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    station. Combined instantaneous floor paid on the producing
    two-tube profile: \(\mathcal E\ge\sigma/3\). Remaining K3 burden:
    same-packet TV reduction gives \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\);
-   now bound or consume \(\mathrm{TV}_{\rm evict}\) through lifetime
-   dynamics, profile persistence, and high-Re/crowd/custody budgets.
+   record doubling now costs
+   \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\). Remaining: prove record
+   starvation by bounding/consuming that TV toll through lifetime
+   dynamics, profile persistence, and high-Re/crowd/custody budgets, or
+   exhibit a funding mechanism.
    Kill condition: no high-Re return-race/custody/sideband-crowd payment
    and no curve-leakage payment => the pure neutral/curvature channel is
    not uniformly capped.
