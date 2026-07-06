@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and threshold computation, not a dense-crowd theorem and not
   a confinement-constant decision. The previous notes left "faster-than-
@@ -32,7 +33,10 @@ completion_truth: >-
   subcell Reynolds threshold obstruction types admissibility failure as
   Re_R=sR^2/nu not exceeding beta^(-4/5); that failure still needs a
   record-ladder allocation, producer-suppression bridge, or construction
-  exclusion, with same-packet allocation still outstanding.
+  exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
+  charging remains beta^(4/5) of local producer currency, so the allocation
+  branch is Gate-8 no-recount allocation or compensator, not raw energy
+  co-presence.
 ---
 
 # Overlap bath: fast-motion threshold obstruction
@@ -196,7 +200,8 @@ The remaining pressure-row burdens are:
 - or exhibit a summability-valid dynamic bath schedule with
   \(\omega/s=o(\beta^{-4/5})\);
 - and in every case, decide same-packet allocation of pressure-service work
-  into record-ladder currency.
+  into record-ladder currency through Gate-8 no-recount allocation or a
+  compensator/residue.
 
 ## 7. Four-sentence result
 
@@ -211,5 +216,5 @@ With \(|K|\sim s^2\beta^{4/5}\), this is
   (\omega/s)\beta^{4/5}E_{\rm prod}.
 \]
 Thus an order-one floor requires \(\omega/s\gtrsim\beta^{-4/5}\); the remaining
-question is supercritical fast motion, the Reynolds-edge bridge, same-packet
-allocation, or construction/exclusion.
+question is supercritical fast motion, the Reynolds-edge bridge, Gate-8
+allocation/compensator, or construction/exclusion.
