@@ -28,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -56,7 +57,10 @@ completion_truth: >-
   the Gate 2 channel audit. Equivalently, prove a bounded-below original-history
   first-ratio storage, a global laminar ancestry-variation reserve, or the
   self-similar difference-operator spectral gap/coercivity named by
-  ZeroLossTowerRelayRigidity.A. The first-ratio storage route is further
+  ZeroLossTowerRelayRigidity.A after the compact certified material-time shift
+  hull and closed zero-surplus certificate graph are built. The shift-hull
+  follow-up proves the abstract invariance lemma, not those Navier-Stokes
+  compactness or rigidity inputs. The first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
   sharpened to persistent root affine quotient payment and then to the single
@@ -302,7 +306,8 @@ missing theorem must add exactly one of:
 \[
 \begin{array}{ll}
 \text{route a:} & \texttt{FullTowerSignedTotalExchangeRetention.A},\\[1mm]
-\text{route b1:} & \texttt{MaterialTimeCertificateFlowInvariance.A}
+\text{route b1:} & \texttt{CertifiedMaterialTimeShiftHullCompactness.A}
+  +\texttt{ZeroSurplusCertificateClosedGraph.A}
   +\texttt{ZeroLossTowerRelayRigidity.A},\\[1mm]
 \text{route b2:} & \texttt{GlobalWeightedLaminarAncestryVariationReserve.A},\\[1mm]
 \text{storage form:} & \text{bounded-below }\mathscr S_N
