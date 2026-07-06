@@ -1115,10 +1115,10 @@ certified positive constant.
    is not itself an evading producing class. It is a producer-sized missing-tax
    residue. Without local same-packet row formation it is Pack/routed residue;
    with row formation it is Part-side failure unless routed; on a retained pass
-   branch it vanishes unless it has left the retained row. Therefore the
-   undecided dense-crowd evasion surface is now the actual same-fluid bath:
-   persistent high-Re WKB / broadband construction, or construction/exclusion
-   of the near-uniform same-fluid WKB bath.
+   branch it vanishes unless it has left the retained row. At that stage the
+   undecided dense-crowd evasion surface had been reduced to the actual
+   same-fluid bath: persistent high-Re WKB / broadband construction, or
+   construction/exclusion of the near-uniform same-fluid WKB bath.
    Follow-up persistent-WKB branch merge filed: persistent high-Re WKB /
    broadband construction is not an independent retained-supplier branch beside
    construction/exclusion. It is the construction surface for the near-uniform
