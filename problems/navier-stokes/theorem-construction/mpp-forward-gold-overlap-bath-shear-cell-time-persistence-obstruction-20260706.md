@@ -7,12 +7,13 @@ route: forward-gold / confinement constant / crowd cell / overlap bath exact mat
 target_object:
   - PressureSource.ConstantDirectionPersistence.NO-ORDER-ONE-FLOOR
   - ShearCell.SelfEvolutionClock = sqrt(H)
-  - ExactMatrix.FastDirectionTracking.REMAINS
+  - ExactMatrix.ProducerClockDirectionTracking.KILLED-BY-FOLLOWUP
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The exact shear-cell display supplies any
@@ -28,9 +29,11 @@ completion_truth: >-
   order-one floor in the high-Re beta<<1 regime. Thus constant-direction
   pressure service can persist cheaply. Follow-up producer-coupling obstruction
   shows that a constant affine producer creates only single-sine cross pressure
-  modes, whose Hessian at the station vanishes. What remains is fast direction
-  tracking if the exact matrix forces it, localization/producer curvature,
-  same-packet allocation, or a full dynamic bath construction.
+  modes, whose Hessian at the station vanishes. Follow-up fast-direction
+  tracking obstruction kills the producer-clock tracking floor: retuning the
+  supplied Hessian direction costs |K|D^5 over one producer clock. What remains
+  is localization/producer curvature, same-packet allocation, faster-than-
+  producer forced tracking, or a full dynamic bath construction.
 ---
 
 # Overlap bath: shear-cell time-persistence obstruction
@@ -173,13 +176,14 @@ So constant-direction pressure service remains a cheap row of the overlap bath.
 
 This does not construct the exact overlap bath.
 
-The remaining pressure-row burdens are now:
+After the producer-coupling and fast-direction follow-ups, the remaining
+pressure-row burdens are now:
 
-- fast direction tracking, if the exact matrix forces the pressure Hessian
-  direction to change on the producer clock;
 - localization of the shear cell into the producing field, including producer
   curvature across the cell;
 - same-packet allocation of the pressure service into record-ladder currency;
+- faster-than-producer forced tracking, if the exact matrix demands
+  \(|\dot K|\gg s|K|\);
 - or a full summability-valid dynamic bath construction.
 
 ## 7. Four-sentence result
@@ -195,5 +199,6 @@ Navier-Stokes self-evolution changes the supplied Hessian at relative rate
 \]
 so over one producer clock the relative drift is
 \(\beta^{2/5}+\nu/(sD^2)\). Constant-direction pressure service therefore
-does not restore an order-one floor; the live pressure branch is fast direction
-tracking, localization/producer curvature, allocation, or construction.
+does not restore an order-one floor; after the follow-up tracking check, the
+live pressure branch is localization/producer curvature, allocation,
+faster-than-producer forcing, or construction.
