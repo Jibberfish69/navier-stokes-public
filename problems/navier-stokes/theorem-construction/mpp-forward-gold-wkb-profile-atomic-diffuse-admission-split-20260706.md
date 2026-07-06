@@ -172,7 +172,7 @@ so that each individual cell carries less than \(\varepsilon\) of the diffuse
 mass, even though the total diffuse mass is nonzero.
 
 This branch is a genuine phase-complexity object. It cannot be renamed as an
-actual WKB carrier. The admission theorem required here is:
+actual WKB carrier.
 
 The angular-continuum quadrature note removes one subcase. If the diffusion is
 only in Beltrami direction at a fixed bank/station, the pressure moment depends
