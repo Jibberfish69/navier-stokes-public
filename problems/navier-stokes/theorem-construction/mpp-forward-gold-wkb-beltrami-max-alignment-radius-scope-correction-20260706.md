@@ -1,6 +1,11 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706
 status: exact-proof-scope-correction-multiradius-resonant-branch-open
+later_followup: >-
+  The multiradius branch left open here is locally sharpened by
+  mpp-forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706:
+  fixed-output cancellation is graded by |p|+|q| and must satisfy two
+  radius-sum moment equations.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -10,6 +15,7 @@ target_object:
   - AtomicBeltramiWKBProfile.MAX-ATTAINMENT-FORK
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-atomic-diffuse-admission-split-20260706.md
@@ -110,10 +116,17 @@ duplicate representations of its output stay inside that same two-shell slice,
 then the same-two-shell obstruction applies and that output rings.
 
 If the cancellation uses cross-radius duplicate representations, the
-max-alignment proof does not decide it. The branch is a multiradius resonant
-frequency graph. In the WKB profile language, that means one of:
+max-alignment proof does not decide it. The radius-sum grading follow-up shows
+that fixed-output cancellation must then satisfy
+\[
+  \sum_s A_s=0,\qquad \sum_s sA_s=0,
+  \qquad s=|p|+|q|.
+\]
+The branch is a multiradius resonant frequency graph with that local
+radius-sum certificate. In the WKB profile language, that means one of:
 
-1. a separate finite multiradius graph obstruction;
+1. a separate finite multiradius graph obstruction using the radius-sum
+   certificate;
 2. nonattainment by shell/direction accumulation;
 3. unbounded prelimit fragmentation;
 4. profile-level admission or certificate failure;
@@ -131,9 +144,9 @@ because cross-radius duplicates can avoid the larger-alignment off-diagonal
 conclusion; the explicit vector witness is
 \((-2,-1)+(-1,-1)=(-2,0)+(-1,-2)\). Therefore the finite Beltrami cancellation
 door is not certified closed by that note alone. The surviving algebraic
-branch is multiradius resonant graph closure, or, in the WKB setting,
-accumulation, fragmentation, profile admission, certificate failure, or actual
-construction/exclusion.
+branch is multiradius radius-sum-certified resonant graph closure, or, in the
+WKB setting, accumulation, fragmentation, profile admission, certificate
+failure, or actual construction/exclusion.
 
 ## 5. State
 
