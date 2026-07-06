@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -55,8 +56,8 @@ completion_truth: >-
   producer curvature as an order-one floor in the high-Re subcell regime:
   curvature cross Hessian has size s(D/R)sqrt(|K|), so choosing
   D/R<=beta^(2/5) keeps it inside q=4/5. The current pressure branch is
-  subcell/high-Re admissibility, same-packet allocation, faster-than-producer
-  forcing, or construction/exclusion.
+  subcell/high-Re admissibility, same-packet allocation, supercritical
+  fast-motion forcing, or construction/exclusion.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -291,8 +292,8 @@ The remaining exact-matrix burden is now sharper:
   the subcell/high-Re condition for nonconstant producer curvature;
 - nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
 - same-packet allocation of pressure service into record-ladder currency;
-- faster-than-producer forced tracking, if the exact matrix demands
-  \(|\dot K|\gg s|K|\);
+- supercritical fast-motion forcing, if the exact matrix demands
+  \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - beta-depth admissibility for finite-depth or growing-depth schedules;
 - or an actual dynamic bath construction satisfying the summability criterion
   with the pressure row included.
@@ -313,5 +314,5 @@ on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
-through subcell/high-Re admissibility, allocation, faster-than-producer forcing,
+through subcell/high-Re admissibility, allocation, supercritical fast motion,
 or construction.
