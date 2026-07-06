@@ -772,6 +772,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    explicit signed-stress certificate carriage, or actual-law/tower failure.
    The ballast is unresolved kinetic energy
    \(\mu_R=(1/2)\operatorname{tr}R\), not pressure deletion.
+   If that positive trace energy is admitted at terminal WKB frequency with
+   \(\phi_jD_j^3\mu_{R,j}\ge c_0>0\) and \(\lambda_j\to\infty\), then
+   \[
+     \|\nabla^m u_j^{\rm WKB}\|_2^2
+     \gtrsim
+     \phi_jD_j^3\mu_{R,j}\lambda_j^{2m},
+   \]
+   so the existing Sobolev/Field consumer applies after same-solution witness
+   admission. This is a consumer for admitted terminal trace, not a proof that
+   the trace ballast is legally carried through the profile rows.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
