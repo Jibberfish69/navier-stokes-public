@@ -147,9 +147,10 @@ small parameter to \(\beta^{4/5}\), so the cheap ratios multiply to
 \(\beta_0^8\), not to zero. The absolute holder energies therefore
 approach a positive fraction of the starting energy, and the infinite
 up-scale chain has infinite total energy in this scaling model. The
-remaining bath escape must change the exponent law through the exact
-matrix/node-sitting schedule or become a finite-depth composition
-problem.
+remaining infinite-chain bath escape must produce an exact
+matrix/node-sitting schedule whose induced \(x_n\) sequence satisfies
+the summability criterion; otherwise the remaining threat is finite-depth
+composition.
 
 Follow-up:
 `mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md`
