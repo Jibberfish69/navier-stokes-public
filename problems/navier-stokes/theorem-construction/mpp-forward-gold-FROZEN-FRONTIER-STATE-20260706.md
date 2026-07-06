@@ -79,7 +79,16 @@ F1 -> (F2 || F3) -> F4 -> F5.
   essential support; t2 the carried correlation constant; t3
   usable-mass = monomial-participation routing (the regate point);
   t4 C_B arithmetic re-derivation. If t1-t3 clear, F1 has ZERO
-  open gates.
+  open gates. t1 CLOSED (Fable, pending gate,
+  f1-essential-support-variant-paley-wiener-consistency), WITH a
+  self-correction: the parent's hypothesis pair (exact band
+  limitation AND exact compact support) is VACUOUS by Paley-Wiener;
+  the lemma's consistent form is exact band limitation + ESSENTIAL
+  spatial support. Essential variant exact: slab fraction <=
+  2 C_B a^3 theta + 2 eps; with spill eps <= 1/8 and theta_*^ess =
+  pi/(14 a^3), at least half the mass populates. Frame owes one
+  input: spill <= 1/8 at one correlation volume (read a as the
+  spill-1/8 radius). Open core: t3.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
