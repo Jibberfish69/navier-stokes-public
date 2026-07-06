@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-steady-or-tracking-dichotomy-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-exponent-recursion-energy-nondecay-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md
 completion_truth: >-
   Exact finite-dimensional kinematic identity for the node-sitting
   branch; not a tracking-floor theorem. A static node-sitter is a
@@ -178,3 +179,12 @@ At a regular node the minimum tracking speed is exactly
 \(|(D_hC)^\dagger D_qC\,\dot q|\). Thus the dense-crowd node branch is
 now a transversality-floor problem for this moving constraint, not a
 static transfer-ratio problem.
+
+Dense-bracing follow-up:
+`mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md`
+applies the same identity to the net geometric-exit cancellation vector
+\[
+  C(q,h)=\sum_{j\ne i}e_{ij}(q,h).
+\]
+Thus persistent net-vector cancellation is node-sitting in exit-vector
+coordinates, not a separate dense-crowd branch.

@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-crowd-bracing-test-spec-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-row-lift-gate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md
 completion_truth: >-
   Exact algebraic obstruction to one proof route, not a dense-crowd theorem.
   A ledger that charges only the net geometric-exit vector after different
@@ -119,6 +120,15 @@ The remaining theorem is not "show the net exit vector is large." That target is
 false as a ledger principle. The remaining theorem is to identify the paid
 pairwise/current history as same-packet Gate-8 tax, or exhibit a real dense
 crowd whose cancellations persist while production continues.
+
+Follow-up:
+`mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md`
+settles the persistent-cancellation bookkeeping: a real schedule that keeps the
+net exit vector cancelled is exactly a moving zero-set problem
+\(C(q,h)=0\), hence the already filed node-sitting equation
+\(D_hC\,\dot h=-D_qC\,\dot q\). Persistent net-vector cancellation is therefore
+not a separate fourth branch; it inherits the node-sitting tracking-floor
+escapes and the amplitude-homogeneity caveat.
 
 ## 5. Four-sentence result
 

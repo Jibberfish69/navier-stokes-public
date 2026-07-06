@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-impedance-law-derivation-attempt-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md
 completion_truth: >-
   Spec only, no computation. The dense crowd's first named danger is
   BRACING: crowd members paying each other's eviction - a second pair
@@ -35,7 +36,9 @@ completion_truth: >-
   the net-vector-only ledger is obstructed algebraically: cancellation
   after summation can hide paid pairwise TV. Thus the proof target is
   pairwise/current-resolved same-packet allocation, or an actual PDE
-  cancelling schedule. KILL CONDITION
+  cancelling schedule. THIRD FOLLOW-UP: persistent cancellation is a
+  moving-node constraint \(C(q,h)=0\), so it merges into the already
+  filed node-sitting/tracking-floor branch. KILL CONDITION
   (item 4b, first trigger point): a four-tube
   configuration with total eviction strictly below c times total
   production for c below the pair floor, sustained over an encounter
@@ -104,3 +107,10 @@ settles the opposite restricted version: a ledger that sees only the net exit
 vector after cancellation cannot inherit the pairwise floor. The accepted tax
 has to be pairwise/current-resolved before cancellation, or the dense crowd must
 be studied as an actual sustaining PDE schedule.
+
+Follow-up schedule merge
+`mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md`
+settles the first bookkeeping question about that sustaining schedule:
+persistent net-vector cancellation is \(C(q,h)=0\) and therefore obeys
+\(D_hC\,\dot h=-D_qC\,\dot q\). It is the node-sitting/tracking-floor branch in
+exit-vector coordinates.

@@ -145,7 +145,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     charging path length cannot inherit the pairwise floor, because
     opposite pairwise exits can cancel exactly. The bracing proof target is
     now pairwise/current-resolved same-packet allocation, or an actual PDE
-    schedule that sustains cancellation while production continues.
+    schedule that sustains cancellation while production continues. Follow-up
+    cancellation-node merge filed: any sustained net-vector cancellation is
+    \(C(q,h)=0\) and obeys \(D_hC\,\dot h=-D_qC\,\dot q\), so it is the
+    existing node-sitting/tracking-floor problem in exit-vector coordinates,
+    with the amplitude tangent and supply-channel caveats still alive.
 
 ## Work order (each unit: output + kill condition)
 
@@ -209,7 +213,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    is not a valid tax target by itself; opposite pairwise exits can hide
    positive TV after summation. Remaining bracing escape is therefore a
    real PDE cancellation schedule that defeats pairwise/current allocation,
-   or a non-pairwise crowd geometry. Finding a genuine
+   or a non-pairwise crowd geometry. The persistent-cancellation schedule
+   itself has now been merged into node-sitting: \(C(q,h)=0\) and
+   \(D_hC\,\dot h=-D_qC\,\dot q\). Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
