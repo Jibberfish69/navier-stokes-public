@@ -26,7 +26,8 @@ completion_truth: >-
   installed, the kernel proves a positive epsilon and c_0=2 epsilon. Current
   checked sources do not install it: localized tower closure still needs the
   legal flux/cutoff estimate, now sharpened on the pressure side to exact
-  pressure-increment CZ/tail admission; full-tower signed-total exchange
+  pressure-increment CZ/tail admission and then to remote tower-difference
+  pressure-tail summability or route-out; full-tower signed-total exchange
   retention is explicitly open; chapter-2 closedness is finite-readout/conditional
   rather than tight no-loss passage of the selected positive record; and
   signed-height record-net work admission still lacks native same-parent edge
@@ -171,10 +172,18 @@ is demoted. Gate 1 now reduces on the pressure side to
 \tag{CEE.7a}
 ```
 
+The remaining tail clause is now:
+
+```math
+\texttt{RemoteTowerDifferencePressureTailSummabilityOrRouteOut.A}.
+\tag{CEE.7b}
+```
+
 So "the bills are the compactness" is conditional on the flux/cutoff theorem:
 transport flux is removable, pressure-increment flux is absorbable only after
-the exact CZ/tail admission, and this is not installed from the paired identity
-alone.
+the exact CZ/tail admission, and the only surviving pressure tail must be remote
+tower decoherence that is summable, absorbed, or routed out. This is not
+installed from the paired identity alone.
 
 ### Gate 2: full-tower positive-record retention
 
