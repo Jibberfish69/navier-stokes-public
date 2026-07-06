@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-field-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -33,10 +34,13 @@ completion_truth: >-
   localized anisotropic obstruction sharpens the zero-defect horn: for
   R=chi Q with Q constant non-scalar and chi nonzero compactly supported,
   P div R is nonzero. Thus a single localized Beltrami/WKB anisotropic defect
-  cannot be pressure gauge. This proves no multi-cell cancellation theorem, no
-  defect-vanishing theorem for actual Navier-Stokes WKB packets, no profile
-  admission theorem, no WKB construction/exclusion, no confinement constant,
-  and no MPP closure.
+  cannot be pressure gauge. The Reynolds-null characterization then makes the
+  remaining cancellation branch exact: P div R=0 iff R=qI+S with div S=0,
+  with q absorbed into pressure and S carried, if at all, as a null-stress
+  certificate. This proves no theorem forcing actual Navier-Stokes WKB packets
+  into the null class, no legal carriage theorem for nonzero null stresses, no
+  profile admission theorem, no WKB construction/exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -207,6 +211,20 @@ Beltrami shape \(Q_n=I/3-n\otimes n\) is non-scalar, so a single localized
 Beltrami defect is not an absorbable pressure gauge. It needs multi-stress
 cancellation, legal defect carriage, or actual-law/tower failure.
 
+The multi-stress branch is now exact. For compactly supported smooth symmetric
+\(R\),
+\[
+  \mathbb P\,\operatorname{div}R=0
+  \quad\Longleftrightarrow\quad
+  R=qI+S,\qquad \operatorname{div}S=0 .
+  \tag{RDC.14}
+\]
+The scalar \(qI\) is absorbed into pressure. The divergence-free symmetric
+stress \(S\) is invisible to the velocity law but remains a tensor defect that
+must be legally carried by the profile certificate and tested by the other
+rows. Thus multi-cell cancellation means membership in this Leray-null stress
+class, not unrestricted cancellation.
+
 ## 6. Reduced burden
 
 The actual-law coordinate in `WKBCertificateCompactness.A` is now:
@@ -219,8 +237,13 @@ Statement shape:
 
 For the actual same-solution WKB terminal branch, the quadratic microlocal
 defect \(R\) associated with the profile either vanishes modulo pressure gauge
-with compatible pressure-service coordinates, or is itself carried as a legal
-same-solution certificate. If neither holds, the profile fails the actual
+with compatible pressure-service coordinates, lies in the Leray-null class
+\[
+  R=qI+S,\qquad \operatorname{div}S=0,
+\]
+with \(q\) absorbed into pressure and \(S\) legally carried as a null-stress
+certificate, or is otherwise carried as a legal same-solution Reynolds
+certificate. If none of these holds, the profile fails the actual
 velocity-pressure law certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
@@ -240,9 +263,10 @@ limit-of-class failure rather than a new pressure-service branch.
 ## 8. State
 
 This note proves the Reynolds-defect closure fork for the actual law
-certificate and the single-shape localized anisotropic Leray obstruction. It
-does not prove multi-cell cancellation is impossible, does not prove the defect
-vanishes for Navier-Stokes WKB packets, does not prove that a nonzero defect can
-be legally carried, does not prove `WKBCertificateCompactness.A`, does not
-prove profile admission, does not prove WKB construction/exclusion, does not
-decide the confinement constant, and does not close the MPP.
+certificate, the single-shape localized anisotropic Leray obstruction, and the
+exact Leray-null stress characterization. It does not prove actual
+Navier-Stokes WKB Reynolds defects lie in the null class, does not prove the
+defect vanishes for Navier-Stokes WKB packets, does not prove that a nonzero
+defect can be legally carried, does not prove `WKBCertificateCompactness.A`,
+does not prove profile admission, does not prove WKB construction/exclusion,
+does not decide the confinement constant, and does not close the MPP.
