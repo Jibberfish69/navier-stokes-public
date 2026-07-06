@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
@@ -57,8 +58,11 @@ completion_truth: >-
   vanishing same-packet surplus payers. The zero-payment relay audit shows that
   qualitative all-zero relay rigidity does not close this profile until positive
   Theta_N clock service is detected before readout or paid as persistent
-  affine/root quotient. Current sources do not prove that detector/quotient
-  bridge, the needed certificate-flow invariance, or zero-loss rigidity. No
+  affine/root quotient. The exact-projector collapse further shows that one
+  branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
+  PositiveCriticalTransferBound.A, not a local projector theorem. Current
+  sources do not prove that detector/quotient bridge, the needed
+  certificate-flow invariance, or zero-loss rigidity. No
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
 ---
