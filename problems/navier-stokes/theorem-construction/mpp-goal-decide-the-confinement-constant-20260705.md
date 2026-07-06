@@ -63,13 +63,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     power scales with protected production); cheap-inside-bath threat
     recorded at beta^(8/5); FINAL FORM = the up-scale holding recursion
     e_oct: fixed floor => (A) via composition starvation; vanishing =>
-    (B) construction. Custody local three-leg split filed: thin debris
-    confiscated below the quadratic Reynolds threshold; isolated thick
-    debris cannot re-concentrate at fixed impulse because concentration
-    is uphill in energy; assisted thick debris pays fast-transit
-    increment-cubic total variation at pair-energy scale. Remaining
-    custody/composition interface: row lift onto the same
-    channel-window summands. Doubling-comparison certification
+    (B) construction. Custody local split filed and Codex-regated:
+    thin debris is confiscated below the quadratic Reynolds threshold;
+    thick debris is governed by energy escrow, not absolute
+    prohibition - either it already carries the scale-\(d\) energy as
+    prior paid residue, or external delivery is required and
+    fast-transit increment-cubic total variation pays at pair-energy
+    scale. Remaining custody/composition interfaces: uniform
+    shape-class impulse-energy lower bound, escrow localization, and
+    row lift onto the same channel-window summands.
+    Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
     obstruction. External-audit paper drafted
     (external-paper/eviction-production-filament-pair-notes-draft),
