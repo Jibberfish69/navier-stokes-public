@@ -75,9 +75,11 @@ saturated rate.
 mass within \(\kappa_{\rm frame}\) correlation volumes of its core;
 the far tail is re-classified as diffuse remainder.
 
-Then \(s(\kappa) = 0\) for \(\kappa > \kappa_{\rm frame}\):
-UniformCenteredPacketTightness holds by construction, and the
-two-dial closure runs with only the \(\theta\) dial.
+Then \(s(\kappa) = 0\) for the centered leg when
+\(\kappa > \kappa_{\rm frame}\). This is a legal split, not free
+tightness for the original leg: the two-dial closure runs on the
+centered monomial only after the removed tail is entered as a separate
+capacity term in the same fork ledger.
 
 **The definition's price** (both at installed homes; displays owed):
 
