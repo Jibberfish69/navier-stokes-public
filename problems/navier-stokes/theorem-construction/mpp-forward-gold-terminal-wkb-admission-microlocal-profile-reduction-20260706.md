@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-no-vanishing-horn-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-signed-stress-certificate-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-defect-current-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
@@ -74,8 +75,10 @@ completion_truth: >-
   the non-PSD alternative: S=P-N with P,N PSD implies
   tr P+tr N >= ||S||_*. Thus nonzero signed stress has nonzero positive trace
   variation or else it is not a retained same-packet signed certificate. The
-  ancestry coordinate has the transport-defect fork, and the cover coordinate
-  has the finite-cover compactness fork.
+  ancestry coordinate has the transport-defect fork, with same-packet legal
+  carriage priced by \(A=w\rho\) and \(|A|=|w|\rho\); singular current relative
+  to \(\rho\) needs added legal ancestry or is material-history failure. The
+  cover coordinate has the finite-cover compactness fork.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -336,7 +339,12 @@ level, the ballast-energy current must satisfy
   A_R:=J_R-u\rho_R=0
 \]
 in the required graph/current sense, or carry \(A_R\) as a legal
-original-participation defect. At the differentiated-tower level, the ballast
+original-participation defect. Legal same-ballast carriage means
+\[
+  A_R=w_R\rho_R,\qquad |A_R|=|w_R|\rho_R .
+\]
+A singular current relative to \(\rho_R\) must supply an added legal ancestry
+carrier, or it is material-history failure. At the differentiated-tower level, the ballast
 readout must remain tied to the same velocity tower: the graph defects
 \[
   G_\alpha=U_\alpha-\partial^\alpha U_0
@@ -390,8 +398,8 @@ MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
 ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, the
-signed-stress variation-floor inequality, and
-the transport-defect material-ancestry closure fork, and the finite-cover / ballast-cover
+signed-stress variation-floor inequality, the transport-defect
+material-ancestry closure fork, the transport-current variation floor, and the finite-cover / ballast-cover
 compactness fork, the ballast ancestry/tower landing, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
