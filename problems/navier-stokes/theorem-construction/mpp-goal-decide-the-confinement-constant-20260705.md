@@ -695,6 +695,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    a limiting phase atom can come from a shrinking diffuse prelimit cloud, so
    the atomic branch needs prelimit atomization / finite packet quantization,
    shrinking phase-tube cloud admission, or an atomic fragmentation defect.
+   The prelimit quantization criterion pays the bounded-count side exactly:
+   if the shrinking atomic tube contains only \(M=O(1)\) effective packet cells,
+   one cell carries fixed positive moment and finite-menu extraction applies.
+   If the effective count is unbounded, uniform fragmentation keeps the limiting
+   atom while every actual prelimit packet vanishes; the branch is then cloud
+   admission, no-free-fragmentation / uncertainty-cell input, or atomic
+   fragmentation defect.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
