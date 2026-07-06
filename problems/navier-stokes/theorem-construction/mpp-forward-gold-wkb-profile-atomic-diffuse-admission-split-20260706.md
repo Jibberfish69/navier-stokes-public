@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-profile-reconstruction-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -22,16 +23,19 @@ completion_truth: >-
   gives a nonzero microlocal / phase-space profile. The profile has an exact
   atomic-diffuse split. A nonzero atomic part reduces the problem to
   AtomicWKBProfileReconstruction.A: reconstruct a same-solution terminal
-  witness from one fixed limiting phase label. A nonzero diffuse part reduces
-  the problem to DiffuseWKBProfileAdmission.A: admit the diffuse phase-space
-  measure itself as a lawful terminal witness ledger, or classify failure of
-  such admission as a limit-of-class / original-participation defect. The
-  already filed angular-continuum quadrature note removes pure direction
-  diffusion as an independent pressure-service escape; the remaining diffuse
-  burden is material, time, center, envelope, scale, bank, weight, or profile
-  admission. This note proves the measure split and blocks the overclaim that
-  tightness or microlocal visibility alone proves ActualWKBCarrierExtraction.A
-  or MicrolocalDefectProfileAdmission.A. No profile admission theorem, no WKB
+  witness from one fixed limiting phase label. The follow-up direct test shows
+  that a limiting atom alone is not enough; it still requires prelimit
+  atomization / finite packet quantization or shrinking phase-tube cloud
+  admission. A nonzero diffuse part reduces the problem to
+  DiffuseWKBProfileAdmission.A: admit the diffuse phase-space measure itself as
+  a lawful terminal witness ledger, or classify failure of such admission as a
+  limit-of-class / original-participation defect. The already filed
+  angular-continuum quadrature note removes pure direction diffusion as an
+  independent pressure-service escape; the remaining diffuse burden is
+  material, time, center, envelope, scale, bank, weight, or profile admission.
+  This note proves the measure split and blocks the overclaim that tightness or
+  microlocal visibility alone proves ActualWKBCarrierExtraction.A or
+  MicrolocalDefectProfileAdmission.A. No profile admission theorem, no WKB
   construction/exclusion theorem, and no MPP closure is claimed.
 ---
 
@@ -156,8 +160,14 @@ reconstruct a terminal witness ledger with:
 5. differentiated same-law tower through the required depth;
 6. nonvanishing normalized retained moment.
 
-If this reconstruction theorem is paid, the atomic compact-continuum branch
-feeds the already installed WKB Sobolev Field consumer.
+The follow-up direct test shows that the atom itself is not enough. A shrinking
+diffuse prelimit cloud can converge to \(a_\ast\delta_{\ell_\ast}\) while every
+individual prelimit packet has vanishing mass. Thus the atomic branch still
+needs either prelimit atomization / finite packet quantization or admission of
+the shrinking phase-tube cloud as a profile-level witness.
+
+If one of those reconstruction/admission theorems is paid, the atomic
+compact-continuum branch feeds the already installed WKB Sobolev Field consumer.
 
 The finite-menu theorem is the special case where this reconstruction is built
 into the hypotheses: the atom is one of finitely many actual packet rules, so
@@ -232,7 +242,7 @@ the nonvanishing terminal WKB horn now has the exact split:
   \text{actual WKB carrier extraction paid},\\[2mm]
 \text{tight continuum profile with atom}
   &\Rightarrow
-  \text{AtomicWKBProfileReconstruction.A},\\[2mm]
+  \text{prelimit atomization or shrinking-cloud admission},\\[2mm]
 \text{tight continuum profile, diffuse non-angular mass}
   &\Rightarrow
   \text{DiffuseWKBProfileAdmission.A},\\[2mm]
