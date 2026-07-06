@@ -431,6 +431,23 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \]
   Chapter 10 may read this as a dimensionless drift-plus-rent margin.
 
+  CODEX ROUTE-3 MIDPOINT SOURCE-PEAK WITNESS REDUCTION (2026-07-06,
+  codex-route3-midpoint-source-peak-witness-reduction): the source window
+  \(S(q)=q(2-e^{q/2})/[2(2+e^{q/2})]\) has a unique universal peak
+  \(q_0=2\log E_0\), where \(E_0^2+4E_0\log E_0=4\). If \(16a<q_0\),
+  the product row has the source-peak sufficient witness
+  \[
+    {d\over X_{\max}}
+    +
+    {4R_0\over
+      g_0X_{\max}^2(q_0-8a)(2+E_0)}
+    <
+    {q_0(2-E_0)\over2(2+E_0)}.
+  \]
+  If \(d/X_{\max}\) already exceeds
+  \(\sup_{16a<q<2\log2}S(q)\), the friendly midpoint branch is impossible
+  before rent; the full scalar supremum remains the fallback.
+
   CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
   codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
   decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
