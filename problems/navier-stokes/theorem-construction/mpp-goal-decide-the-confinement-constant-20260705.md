@@ -1274,6 +1274,25 @@ surface, not F4 clearance.
    neutral angular supplier; it routes to angular profile/entropy room,
    entropy variation, refresh/frame custody, or same-solution
    admission/exclusion.
+   The angular entropy-square coercivity follow-up then converts signed
+   entropy service into an actual square anti-uniformity row for absolutely
+   continuous angular baths. Jensen gives
+   \[
+     \int f\log f\,d\sigma\le\log\int f^2\,d\sigma,
+   \]
+   hence
+   \[
+     \int(f-1)^2\,d\sigma\ge e^{H(f)}-1.
+   \]
+   Starting from uniform angular density, signed coherent service \(A\)
+   therefore forces endpoint square gap
+   \[
+     \int(f_1-1)^2\,d\sigma\ge e^{3A}-1.
+   \]
+   Thus the absolutely continuous square-near-uniform angular branch cannot
+   carry order-one signed service. The remaining angular exits are singular /
+   profile admission, failure of AC angular carriage, or cyclic entropy
+   variation / custody.
    Follow-up finite-cloud witness: for
    \(K=\sum k_i e_i\otimes e_i\), choose
    \(\varepsilon\ge3\lambda_{\max}^+(K)\) and set
@@ -1511,7 +1530,12 @@ surface, not F4 clearance.
    neutral near-uniform service. The variable-strain version is exact as well:
    \(dH/dt=3S(t):K(f_t)\), so rotating producer frames only change the entropy
    balance; signed angular service is endpoint entropy/profile room, and
-   cyclic rectified service is entropy variation/custody. Bounded-custody
+   cyclic rectified service is entropy variation/custody. The absolutely
+   continuous signed angular branch now has square coercivity:
+   \(\int(f-1)^2\,d\sigma\ge e^{3A}-1\) for signed service \(A\) from uniform,
+   so square-near-uniform AC angular baths cannot provide order-one signed
+   service. The surviving angular exits are singular/profile admission, AC
+   carriage failure, or cyclic entropy-variation custody. Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
    \(V_w\), and bank log-variation \(V_D\), active service obeys
