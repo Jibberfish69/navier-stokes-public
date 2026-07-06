@@ -74,8 +74,8 @@ domination direction. The cover is over \(\lambda_a\), the variation
 envelope of the same prelimit throughput, not over the signed measure
 and not over the local-energy residence budget.
 
-The reduced theorem remains open at total reconstruction, tails,
-coherence, and bounded-overlap/merger accounting.
+At this stage the reduced theorem remained open at total reconstruction,
+tails, coherence, and bounded-overlap/merger accounting.
 
 Second follow-up:
 `mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md`
