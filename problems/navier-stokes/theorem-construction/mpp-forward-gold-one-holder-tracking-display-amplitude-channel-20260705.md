@@ -12,6 +12,7 @@ authorship: >-
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-matrix-node-sitting-correction-tracking-floor-merge-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
 completion_truth: >-
   Two findings, opposite signs, both identity-tier; the decisive ratio
   deliberately NOT computed tonight. (F1, ENEMY WIN, exact) The
@@ -48,6 +49,12 @@ completion_truth: >-
   stored energy is prior-paid residue (no-recount custody form) or
   imports are priced by the transit identity. The row lift inherits
   the no-recount burden. No closure claimed.
+  Follow-up:
+  mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706
+  consumes the F3 local-ratio target inside the filed bath scaling. The
+  one-tier holder-energy ratio can be beta^(8/5), hence tends to zero, so no
+  fixed local one-holder amplitude floor exists in that model. The remaining
+  target is the octave recursion / exact matrix schedule, not the local ratio.
 ---
 
 # One-holder tracking display: the amplitude channel
@@ -76,3 +83,10 @@ floor per protected production = min holder energy / record-currency
 energy. To be computed with full angular tensors at exact tier,
 gated before use. Tonight's tier discipline: five scaling errors,
 zero identity errors - the ratio waits for the right tier.
+
+Follow-up:
+`mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md`
+decides the local version in the filed bath scaling: an inside-bath holder has
+energy ratio \(\beta^{8/5}\), so the one-holder fixed floor is false there. The
+exact-tier object is now the recursion or a different matrix schedule, not a
+standalone local holder-energy floor.
