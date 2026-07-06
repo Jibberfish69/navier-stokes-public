@@ -634,6 +634,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    WKB moment gives high-Sobolev Field/readout material; vanishing or
    intermittent moment aliases to the high-factor source / no-free-upcascade
    branch.
+   The terminal-frequency viscous-refresh cancellation then blocks the
+   automatic-viscous-payer shortcut: for fixed pressure moment \(H\), carrier
+   energy is \(\phi H\theta^2D^5\) and producer-clock persistence is
+   \(\operatorname{Re}_D\theta^2\), so refresh costs
+   \(\phi(H/s^2)/\operatorname{Re}_D\) in producer units. Thus terminal
+   frequency is persistence or refresh/custody, not automatic viscous eviction.
    This still leaves exponential high-Re persistence with Field/high-factor
    fork, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
    angle/eigenpath service, and construction/exclusion.
