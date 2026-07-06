@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -52,8 +53,12 @@ completion_truth: >-
   leaves log(seed). Viscosity supplies an external clock with cap
   proportional to local Reynolds: marginal/unit-Re edge is capped, high-Re
   edge remains Reynolds-weighted and passes to return-race/custody/sideband
-  mechanisms.
-  Certification-typed inputs, named: the core-log
+  mechanisms. SAME-DAY K3 CORRECTION: the exact-kernel four-variable
+  lifetime ODE is not an invariant reduction because the straight-pair
+  skeleton bends immediately for producing beta != 0. Therefore Crow
+  reduction is a prescribed linear-eigenmode/certification model until
+  the curve-leakage residual is controlled. Certification-typed inputs,
+  named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
   peak production to the Crow eigenmode. The doubling comparison (cap
@@ -137,3 +142,9 @@ is handed to the two-payer/custody/crowd mechanisms.
 Maximize K over the interior band; compare against ln 2 (the doubling
 comparison). Inputs: Crow dispersion with its core-log constant; Delta;
 the profile factor. No number resolved here by the lane law.
+
+Same-day K3 correction: the exact two-line kernel does not close on a
+four-variable straight-skeleton ODE. The Crow calculation above is a
+linear-eigenmode lifetime model. To turn it into the exact kill
+integral, the omitted curvature modes must either be included in
+filament-curve evolution or controlled as a curvature-leakage tax.
