@@ -884,6 +884,19 @@ L = min(q, log 2), theta = e^delta/2, d = d_R4^+:
   source ceiling loses to rent + tail; the exact supremum loses to
   rent + tail. Each is an honest physical ending.
 
+READINESS AUDIT (Codex, 2026-07-06,
+codex-f4-interval-pass-readiness-audit): the Schwartz-template
+cross-term correction is already folded into the original locality
+note and the goal ledger. The F4 interval handoff is NOT currently an
+executable completed two-row positivity pass. Seed side: the current
+R_seed transcription is closed negative by the gamma-ceiling comparison
+and requires structural repair (fresh-source wall import, RNet package
+improvement, stronger angle delivery / longer lawful accumulation, or
+row architecture change). Product side: the stale full-block
+R_prod^F4 row has been superseded by the RUN-H scalar test above.
+Delta_G6a positivity remains a source ingredient, not the sole current
+compiled-sheet blocker.
+
 ## 5. Failure taxonomy (carried verbatim)
 
 A row failure is a finite-row failure — NOT a failure of R2, F1
