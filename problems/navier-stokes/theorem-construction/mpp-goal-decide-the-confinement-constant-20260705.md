@@ -467,6 +467,18 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Thus the compensator branch is not a small side residue; it is producer
     suppression / beta-edge failure, finite weighted residue routing, or the
     SRP moment-readout gate for infinite weighted residue.
+    Follow-up material-time Liouville bath reduction filed: after finite
+    certificate rows, high-rank linear rows, bounded residual Gram forms, and
+    finite-range nonlinear laws have been priced, "genuinely nonlocal
+    same-packet law" is not a third finite supplier. On the near-uniform WKB
+    bath branch, failure of the positive density gap plus service-modulus,
+    phase-label, and certificate compactness gives a certified material-time
+    marginal bath profile: positive normalized strain-service with vanishing
+    native heat/square charge. Excluding that profile is the canonical
+    material-time Liouville route; constructing it is the honest bath
+    construction/exclusion branch. If a compactness or certificate row fails
+    first, the failure is already typed by the filed Pack/Part/selector/custody
+    faces. No confinement constant is decided by this reduction.
 
 Composition-side product-front audit, same date: the time-integrated
 rent payment removes the lineage/counting detour from the RENT row, and
