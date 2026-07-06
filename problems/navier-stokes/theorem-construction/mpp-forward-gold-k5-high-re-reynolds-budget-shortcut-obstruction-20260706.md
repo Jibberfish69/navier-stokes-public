@@ -7,7 +7,7 @@ route: forward-gold / confinement constant / K5 high-Re edge payer
 authorship: Codex, 2026-07-06.
 target_object:
   - K5HighReRawReynoldsBudgetShortcut.NO
-  - K5HighReEdgePayer.ReturnRaceCustodySideband
+  - K5HighReInstalledNonSidebandPayers.NO
   - GateAReynoldsWeightedReadout
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-lambda-edge-duffing-viscous-regate-20260706.md
