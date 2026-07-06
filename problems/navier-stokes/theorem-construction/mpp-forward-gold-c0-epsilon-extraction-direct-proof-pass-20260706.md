@@ -173,7 +173,7 @@ or remain in the compact packet. A vanishing-bill sequence can still escape
 through the unretained positive-total-variation channel unless `(FTR.13)` is
 proved.
 
-### Gate 3: class closedness at the tower-record level
+### Gate 3: no-loss passage at the tower-record level
 
 The chapter-2 closedness note gives a useful finite-readout cone theorem and
 routes the infinite-readout complement to Silver. It is not a general
@@ -187,9 +187,11 @@ R(W_*)\ge1 .
 \tag{CEE.10}
 ```
 
-Weak-star compactness of adjacent defect measures does not supply `(CEE.10)`
-unless the record functional is lower semicontinuous in the selected topology
-and the selected source address remains the same.
+Weak-star compactness of adjacent defect measures does not supply `(CEE.10)`.
+The direction needed here is tight no-loss passage of the selected positive
+record: the unit record in the approximating windows must not cancel, oscillate,
+pinch into a post-readout time atom, or lose its selector/source address before
+the limit is read.
 
 ### Gate 4: native same-parent record admission
 
@@ -201,6 +203,18 @@ parent-announced charge coordinate carried the work before readout.
 
 Therefore a unit record can pass as a scalar event while failing to pass as the
 same retained relay record needed in `(CEE.10)`.
+
+The lowered c_0-facing test is detector visibility before record readout:
+every future-positive native work edge must either be visible to the parent
+root/full-exchange detectors or its detector-silent component must already be
+paid or routed out. In the notation of the Gate 4 direct attempt, this is
+
+```math
+\texttt{RecordMenuPressureActiveOrSilentService.A}
++
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}.
+\tag{CEE.10a}
+```
 
 ## 5. The current theorem boundary
 
@@ -224,7 +238,7 @@ The second input expands into the four concrete rows:
 \begin{array}{ll}
 \text{localized Field flux/cutoff closure} & \text{for compactness},\\
 \text{full-tower signed-total exchange retention} & \text{for positive record retention},\\
-\text{tower-record closedness} & \text{for limit passage},\\
+\text{tight selected tower-record no-loss passage} & \text{for limit passage},\\
 \text{native same-parent record admission/storage} & \text{for source address}.
 \end{array}
 \tag{CEE.12}
@@ -233,7 +247,8 @@ The second input expands into the four concrete rows:
 These rows are not decorative. They are exactly the ways a unit-record,
 vanishing-bill sequence can avoid producing the zero-bill positive-record limit:
 it can leak through flux/cutoff, lose the signed-total positive carrier, lose
-finite tower readout, or lose the same-parent source address.
+the selected record through cancellation/pinch/delamination, or lose the
+same-parent source address.
 
 ## 6. Physical reading
 
