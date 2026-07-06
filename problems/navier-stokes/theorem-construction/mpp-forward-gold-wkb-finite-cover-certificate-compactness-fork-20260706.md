@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
 completion_truth: >-
   Exact criterion and countermodels for the finite/readout-compatible cover
   certificate. If the WKB profile measures lift to a uniformly bounded finite
@@ -29,9 +30,13 @@ completion_truth: >-
   legality can fail by radius collapse, unbounded chart count, escaping chart
   parameters, or overlap/readout-compatibility loss. Such failure is Pack-side
   carrier/cover loss, not retained WKB supply and not a new pressure-service
-  branch. This proves no uniform finite-cover theorem for actual Navier-Stokes
-  WKB packets, no profile admission theorem, no WKB construction/exclusion, no
-  confinement constant, and no MPP closure.
+  branch. The finite-cover-not-cell-count follow-up records the boundary of
+  this row: even a valid one-chart cover can contain arbitrarily many equal
+  effective WKB service cells inside one common identity fiber, so finite cover
+  is not the bounded effective cell count needed by a cross-cell Gram gap. This
+  proves no uniform finite-cover theorem for actual Navier-Stokes WKB packets,
+  no profile admission theorem, no WKB construction/exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB finite-cover certificate compactness fork
@@ -224,6 +229,10 @@ certificate fails. Failure is Pack-side carrier/cover loss.
 
 This is smaller than profile admission. It is the Pack-coordinate test inside
 certificate compactness.
+
+It is not a bound on effective WKB cell count. The finite-cover certificate
+counts carrier charts; a single legal chart may carry a diffuse profile or an
+arbitrarily large equal-weight cloud inside one common identity fiber.
 
 ## 7. Four-sentence result
 
