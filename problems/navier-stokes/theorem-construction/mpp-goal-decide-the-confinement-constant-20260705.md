@@ -1260,6 +1260,20 @@ surface, not F4 clearance.
    profile formation. The remaining Liouville problem is variable-strain,
    same-solution, same-certificate construction or exclusion, not the constant
    affine subcase.
+   The variable-strain angular entropy balance then removes the frozen-frame
+   restriction. For every time-dependent trace-free strain \(S(t)\), the
+   transported angular density satisfies
+   \[
+     {d\over dt}\int_{S^2}f\log f\,d\sigma
+     =
+     3S(t):K(f_t).
+   \]
+   Hence signed coherent angular service on any interval is exactly one third
+   of the endpoint entropy increase. Rectified cyclic service is one third of
+   entropy variation. Thus time-dependent strain rotation does not create a
+   neutral angular supplier; it routes to angular profile/entropy room,
+   entropy variation, refresh/frame custody, or same-solution
+   admission/exclusion.
    Follow-up finite-cloud witness: for
    \(K=\sum k_i e_i\otimes e_i\), choose
    \(\varepsilon\ge3\lambda_{\max}^+(K)\) and set
@@ -1494,7 +1508,10 @@ surface, not F4 clearance.
    constant-strain subcase is now exact too: cumulative angular service equals
    one third of the angular relative entropy created from uniformity, so fixed
    affine persistence routes to carrier log-room/profile formation rather than
-   neutral near-uniform service. Bounded-custody
+   neutral near-uniform service. The variable-strain version is exact as well:
+   \(dH/dt=3S(t):K(f_t)\), so rotating producer frames only change the entropy
+   balance; signed angular service is endpoint entropy/profile room, and
+   cyclic rectified service is entropy variation/custody. Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
    \(V_w\), and bank log-variation \(V_D\), active service obeys
