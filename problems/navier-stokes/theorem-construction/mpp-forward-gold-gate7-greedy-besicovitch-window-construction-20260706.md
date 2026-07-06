@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-greedy-besicovitch-window-construction-20260706
-status: filed-pending-codex-gate
+status: codex-regated-covering-accepted-reconstruction-and-coherence-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / Gate 7 / the greedy Besicovitch window construction — countability, exhaustion, and the named integer
@@ -17,11 +17,24 @@ authorship: >-
   danger but a universal number - the geometry of space itself
   bounds how many balls can share a point.
 depends_on:
+  - mpp-forward-gold-codex-gate7-greedy-besicovitch-regate-20260706.md
   - mpp-forward-gold-gate7-reduced-theorem-payment-20260705.md
   - mpp-forward-gold-codex-f1-tail-capacity-window-routing-reduction-20260706.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
   - mpp-forward-gold-f3-ledger-first-contact-20260705.md
 completion_truth: >-
+  Codex-regated state: the Besicovitch/Vitali argument is accepted as a
+  covering lemma for a positive finite channel-cell measure, but it does
+  not clear Gate 7. Bounded overlap is not the same as a universally
+  disjoint post-merger family; use bounded-overlap/coloring or carry a
+  bounded-merger stability clause. Exhaustion is valid only for the
+  maximal-superlevel set of the same positive measure/readout being
+  covered, not automatically for signed active monomial mass or the
+  weak-limit defect. The remaining clauses are the positive
+  control-measure choice/domination, weak-limit reconstruction direction,
+  coherence versus mass-greedy selection, bounded-merger/readout
+  stability, and eta/locality tail charging. F1 remains reduced, not
+  cleared.
   Constructs the Gate-7 countable locally finite measurable
   window decomposition by greedy Besicovitch selection on the
   actual defect measure, with exhaustion and the bounded overlap
@@ -79,6 +92,22 @@ completion_truth: >-
 ---
 
 # Gate 7: the greedy Besicovitch window construction
+
+## Codex regate, 2026-07-06
+
+Codex audit filed at
+`mpp-forward-gold-codex-gate7-greedy-besicovitch-regate-20260706.md`.
+The covering lemma is accepted: for a positive finite channel-cell
+measure, Besicovitch gives a countable bounded-overlap cover of the
+maximal-superlevel set.
+
+The Gate-7 theorem is not cleared. Bounded overlap is not a disjoint
+post-merger packet family unless a separate bounded-merger/readout
+stability clause is proved. Exhaustion holds only for the same positive
+measure used to define the maximal readout; the active monomial/defect
+ledger still needs channel-first reconstruction or domination in the
+right semicontinuity direction. Coherence versus mass-greedy selection
+also remains open.
 
 ## T1. Finiteness
 
