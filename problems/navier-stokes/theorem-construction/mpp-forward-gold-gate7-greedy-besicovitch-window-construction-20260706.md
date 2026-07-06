@@ -128,13 +128,13 @@ Thus the Besicovitch cover is taken over the positive variation envelope
 of the same signed throughput measure.
 
 This does not reconstruct the total active monomial/defect measure from
-the finite-readout channel-cell sum. Tails, coherence, and
-bounded-merger/readout stability remain open.
+the finite-readout channel-cell sum. At this stage, tails, coherence,
+and bounded-merger/readout stability remained open.
 
 Codex second follow-up filed at
 `mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md`.
-The bounded-merger/readout-stability clause is accepted in coloring
-form. The remaining coherence clause is sharpened to
+That later gate accepts the bounded-merger/readout-stability clause in
+coloring form. The remaining coherence clause is sharpened to
 lineage-disintegration / incoherent-lump routing on \(\lambda_a\)-rich
 balls.
 
