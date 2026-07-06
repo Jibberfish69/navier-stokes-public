@@ -200,8 +200,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     pressure/Hodge sign structure, same-packet allocation, or construction.
     Follow-up pressure-source scaling obstruction filed: the pressure Hessian
     retuning source is more expensive than the collar but still not order one.
-    A traceless Hessian of size \(H\) can be supplied by signed Poisson-source
-    packets on scale \(D\) at velocity-energy cost \(HD^5\). With
+    A traceless Hessian of size \(H\) can be supplied by mean-zero
+    Poisson-source patterns on scale \(D\) at velocity-energy cost \(HD^5\).
+    With
     \(H\sim|\dot A|\sim s^2\beta^{4/5}\), this gives the pressure row
     \(\beta^{4/5}E_{\rm prod}\), while the quadratic part remains
     \(\beta^{8/5}E_{\rm prod}\). The live exact matrix now carries a
