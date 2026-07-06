@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-angle-sheet-hunt-self-cell-sweep-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -39,11 +40,12 @@ completion_truth: >-
   linear order. SAME-DAY K5 CORRECTION: the direct pure-mode
   growing-band feed coefficient is zero by axial wavenumber selection.
   A single near-edge Fourier mode self-couples only into the mean mode
-  and the second harmonic, so K5 is retyped to the mean-detuning
-  coefficient and sideband/crowd channels. If mean detuning also fails
-  to move the edge mode into the unstable side, the per-encounter tax is
-  dead on the edge channel and custody must carry everything (goal kill
-  condition, standing). Certification-typed inputs, named: the core-log
+  and the second harmonic. The Codex gate retypes K5 to the resonant
+  edge normal-form coefficient Lambda_edge, with the local-kappa trough
+  criterion rejected as certification. If Re Lambda_edge <= 0 or vanishes
+  by symmetry, the per-encounter tax is dead on the pure edge channel and
+  custody must carry everything (goal kill condition, standing).
+  Certification-typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
   peak production to the Crow eigenmode. The doubling comparison (cap
@@ -109,11 +111,11 @@ only 0 and +/-2k at second order. Near the upper band edge, 2k is outside
 the growing band and 0 is a mean geometry/detuning mode.
 
 Thus the direct pure-mode growing-band feed coefficient is identically
-zero. The remaining K5 object is the mean-detuning coefficient: whether
-the induced mean geometry changes separation/effective kappa/core-log
-data so as to move the neutral mode into the unstable side at rate
-~ s * beta^2. Sideband packets are a separate sideband/crowd channel,
-not the pure-mode coefficient.
+zero. The remaining K5 object is the resonant edge normal-form
+coefficient Lambda_edge: whether the induced mean and second-harmonic
+geometry couples back to the edge mode with positive real part at
+relative rate ~ s * beta^2. Sideband packets are a separate
+sideband/crowd channel, not the pure-mode coefficient.
 
 ## 5. What would certify (chapter-10 items, quarantined)
 
