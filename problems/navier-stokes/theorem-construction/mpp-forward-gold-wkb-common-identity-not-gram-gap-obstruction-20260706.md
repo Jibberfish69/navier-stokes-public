@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
 completion_truth: >-
   Exact obstruction to one possible Gram-gap source, not a WKB construction, not
   an exclusion theorem, not a crowd-cell theorem, and not a confinement-constant
@@ -34,7 +35,10 @@ completion_truth: >-
   supplies a Gram gap only together with an extra quantitative theorem: true
   microlocal bounded effective cell count per identity fiber, positive
   all-to-all identity charge, anti-equidistribution of legal clouds, or
-  construction/exclusion. This proves no such extra theorem and no MPP closure.
+  construction/exclusion. The positive all-to-all charge is now priced by the
+  uniform-mode follow-up as a rank-one payer, and in the pressure-service
+  overlap bath as the fixed-density compensator branch. This proves no such
+  extra theorem and no MPP closure.
 ---
 
 # WKB common identity is not a Gram gap
@@ -157,6 +161,11 @@ Second, a positive identity-fiber uniform-mode charge:
 \]
 for every legal fiber \(F\), where \(u_F\) is the uniform cloud on that fiber.
 This is an actual Gram theorem, not identity bookkeeping.
+
+The uniform-mode follow-up prices this alternative. Such a charge is a
+rank-one all-to-all payer on the normalized positive cloud; in the pressure-
+service overlap bath, an order-one version is the fixed-density compensator
+branch unless a new backing source is proved.
 
 Third, legal anti-equidistribution:
 \[
