@@ -153,8 +153,14 @@ F1 -> (F2 || F3) -> F4 -> F5.
   the enumeration/readout part to the deterministic half-open
   channel-cell frame already built in the BV note; the remaining Gate-7
   load is finite-readout reconstruction, locality/mollifier tail
-  charging, and no-dropped-mass/no-double-tax overlap accounting. F1
-  actual-NS population remains reduced, not cleared.
+  charging, and no-dropped-mass/no-double-tax overlap accounting.
+  Fable's greedy Besicovitch construction is accepted by Codex only as
+  the positive-measure covering lemma: bounded overlap/countability are
+  paid for a chosen positive channel-cell measure, but exhaustion of the
+  active monomial/defect ledger still needs the correct domination or
+  weak-limit reconstruction direction, coherence handling, and
+  bounded-merger/readout stability. F1 actual-NS population remains
+  reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
