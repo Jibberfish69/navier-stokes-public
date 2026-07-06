@@ -940,6 +940,20 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   retained home decays like \((2q)^j=(1-c_0)^j\) once \(c_0>0\).
   Remaining K3 burden: reserve/boundary/excess/positive-compensator/
   terminal-residue routing legalities. No K3 clearance is claimed.
+  CODEX K3 ROUTING LEGALITIES AUDIT (codex-k3-routing-legalities-
+  boundarytail-audit): the post-charge-home statement "no K3 theorems
+  left" is safe only in the narrow source-column sense. BoundaryTail and
+  PassTail time projection are rate-plus-excess forks, not paid positive
+  pass estimates. The pass branch needs
+  \(m_{\rm tail}(I)\le D_{\rm tail}^{ti}|I|+B_{\rm end}^{ti}\), with
+  true endpoint/flooring excess only; current suitable-solution inputs
+  give \(L^1_t\) currencies, not the \(L^\infty_t\) clock rate, as shown
+  by the scalar spike obstruction. Persistent excess must route to
+  boundary/locality/Gate-A tax/Silver/exit, and positive \(dK^{ch9}\)
+  leaves the retained column. Thus K3 is now a pass-or-route interface:
+  source/charge theorems are paid, but positive K3 pass still carries
+  \(D_{\rm tail}^{ti}\), \(B_{\rm end}^{ti}\), excess-routing, and
+  Chapter-10 affordability. No K3 clearance is claimed.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
