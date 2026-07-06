@@ -417,6 +417,20 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   This is still one-way sufficient; the full scalar supremum remains the
   fallback.
 
+  CODEX ROUTE-3 MIDPOINT NORMALIZED MARGIN REDUCTION (2026-07-06,
+  codex-route3-midpoint-normalized-margin-reduction): dividing the same row
+  by \(g_0X_{\max}^2\), the product branch is equivalently
+  \[
+    16a<q_*<2\log2,
+    \qquad
+    {d\over X_{\max}}
+    +
+    {4R_0\over g_0X_{\max}^2(q_*-8a)(2+e^{q_*/2})}
+    <
+    {q_*(2-e^{q_*/2})\over2(2+e^{q_*/2})}.
+  \]
+  Chapter 10 may read this as a dimensionless drift-plus-rent margin.
+
   CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
   codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
   decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
