@@ -1093,14 +1093,24 @@ certified positive constant.
    Material ancestry alone has now been split too: incompressible same-fluid
    ancestry is volume-preserving, so it preserves the uniform WKB density and
    cannot by itself provide the density anti-equidistribution gap. Any
-   ancestry-based gap must add a service-coordinate mismatch, transport-current
-   variation, custody/bank variation, or construction/exclusion.
+   ancestry-based gap through service coordinates is now an explicit
+   row-distance payer:
+   \[
+     \|f-1\|_{L^2_\omega}
+     \ge
+     {|a-\int m\,d\omega|\over\|m-\int m\,d\omega\|_{L^2_\omega}},
+   \]
+   or the finite/high-rank Gram version. Uniform-compatible service rows leave
+   the near-uniform bath alive, so the remaining ancestry-side branches are
+   transport-current variation, custody/bank variation, or
+   construction/exclusion.
    Current overlap-bath closeout at local-mechanism level: the tested local
    rows do not decide the confinement constant. Mean-zero Hodge algebra,
    affine pressure motion, finite-energy localization, affine same-fluid
    custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
    certificate rows, high-rank linear rows, finite-range local nonlinear
-   legality, and bare material ancestry have all been typed. The remaining
+   legality, bare material ancestry, and service-coordinate mismatch have all
+   been typed. The remaining
    dense-crowd decision surface is
    exactly four global sources: non-affine/broadband transport, now only in its
    supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
