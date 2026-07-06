@@ -7,6 +7,8 @@ scope_correction: >-
   shells. It does not by itself exclude cross-radius duplicate representations.
   See
   mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md.
+  The finite multiradius branch is later closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -280,7 +282,8 @@ representations remain outside this proof.
 This closes the same-two-shell finite-support same-helicity Beltrami
 cancellation branch.
 
-It does not close multiradius finite resonant graphs. It proves no
+The multiradius finite resonant graphs are closed only by the later
+duplicate-growth note. This note proves no
 quantitative lower bound for infinite/dense WKB baths, no finite-energy
 localization theorem, no same-fluid custody theorem, no confinement constant,
 and no MPP closure.

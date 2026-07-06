@@ -6,8 +6,10 @@ later_supersession: >-
   mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.
   The radius-free finite claim was scope-corrected by
   mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.
-  Multiradius resonant graphs and infinite/dense WKB support remain outside
-  this same-two-shell algebraic exclusion.
+  The finite multiradius resonant-graph branch is later closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.
+  Infinite/dense WKB support remains outside these finite algebraic
+  exclusions.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -198,6 +200,7 @@ The same-two-shell finite resonant graph left open here is closed by
 [mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
 The radius-free finite claim is scope-corrected by
 [mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md).
-The remaining Beltrami-bath question includes multiradius resonant graphs,
-infinite/dense WKB support, localization, envelope, same-fluid custody, and
-construction/exclusion.
+The finite multiradius resonant-graph branch is later closed by
+[mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md).
+The remaining Beltrami-bath question includes infinite/dense WKB support,
+localization, envelope, same-fluid custody, and construction/exclusion.

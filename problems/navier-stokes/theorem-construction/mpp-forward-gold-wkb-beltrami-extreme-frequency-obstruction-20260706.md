@@ -6,8 +6,10 @@ later_supersession: >-
   mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.
   The radius-free finite claim was scope-corrected by
   mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.
-  Multiradius resonant graphs and infinite/dense WKB support remain outside
-  this same-two-shell algebraic exclusion.
+  The finite multiradius resonant-graph branch is later closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.
+  Infinite/dense WKB support remains outside these finite algebraic
+  exclusions.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -183,4 +185,6 @@ The same-two-shell convex-hull-hidden finite crowd left open here is closed by
 The radius-free finite claim is scope-corrected by
 [mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md).
 Exposedness is not the final same-two-shell obstruction; maximal noncollinear
-cross-shell alignment is. Multiradius resonant graphs remain open.
+cross-shell alignment is. The finite multiradius resonant-graph branch is
+later closed by
+[mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md).
