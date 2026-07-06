@@ -32,6 +32,31 @@ completion_truth: >-
 
 # The return race in closed form, and the W1 payment
 
+## Correction header, 2026-07-06
+
+The Gate-6 cubic normalization audit
+`mpp-forward-gold-codex-gate6-cubic-normalization-jacobian-interface-20260706.md`
+fixes the root convention used by the elliptic display below. For the
+Gate-6 algebraic cubic
+\[
+P(X)=X(I_1-X)(I_2-X)-G_0^2,
+\]
+the positive swing interval lies between the first two roots
+\[
+r_-<X<r_+,
+\]
+and the third root \(r_*\) sits above the interval. Thus the closed form
+in Section 2 should be read as
+\[
+X(t)=r_-+(r_+-r_-)\operatorname{sn}^2(\lambda t;m),
+\quad
+m={r_+-r_-\over r_*-r_-},
+\quad
+\lambda^2=g^2(r_*-r_-).
+\]
+The normalized roots are \(0,1,1/m\). The earlier shorthand
+\(X_1\le X_2\le X\le X_3\) is not the Gate-6 \(P\)-root order.
+
 ## 1. The exact triad and its invariants
 
 Waleffe helical normal form for one triad (kappa_1 < kappa_2 < kappa_3,
@@ -50,12 +75,13 @@ the ceilings - one bookkeeping, used twice.
 
 Set X = |a_3|^2 (the transferred package). Then
 
-  (dX/dt)^2 = 4 g^2 (X_3 - X)(X - X_2)(X - X_1),
+  (dX/dt)^2 = 4 g^2 (X-r_-)(r_+-X)(r_*-X),
 
-a cubic with roots X_1 <= X_2 <= X <= X_3 fixed by the invariants, so
+a cubic with positive swing interval \(r_-\le X\le r_+\) and third root
+\(r_*>r_+\), so
 
-  X(t) = X_2 + (X_3 - X_2) sn^2(lambda t ; m),
-  m = (X_3 - X_2)/(X_3 - X_1),   lambda^2 = g^2 (X_3 - X_1).
+  X(t) = r_- + (r_+ - r_-) sn^2(lambda t ; m),
+  m = (r_+ - r_-)/(r_* - r_-),   lambda^2 = g^2 (r_* - r_-).
 
 Period 2K(m)/lambda: PERIODIC AT EVERY AMPLITUDE - the vortex peaks and
 pays back; nothing tightens itself. Transfer completes only as m -> 1
