@@ -925,6 +925,19 @@ not decide the confinement constant.
    diagonal trace-square reserve still fragments like \(1/M\). Thus covariance
    ballast remains a routed energy/certificate and Field-consumer branch, not a
    supplier for `CrossCellWKBGramGap.A`.
+   The anti-equidistribution necessary-condition follow-up then makes the
+   remaining admissible-cone burden exact. For a mean-zero cross-cell form with
+   uniform cloud \(u_M\) in its zero mode and bounded local corrections,
+   near-uniform legal clouds give
+   \[
+     a^TGa
+     \lesssim
+     {1\over M}+\|a-u_M\|_2^2.
+   \]
+   Thus a surviving Gram gap must either add a genuine positive uniform-mode
+   charge or prove that legal same-packet WKB clouds are quantitatively
+   anti-equidistributed away from the uniform zero mode. If near-uniform legal
+   clouds exist, the cross-cell square rescue is false.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
