@@ -7,7 +7,7 @@ route: forward-gold / confinement constant / crowd cell / overlap bath exact mat
 target_object:
   - FineSparseHighReResidual.SelfDriftShortcut.FALSE
   - BeltramiPocket.ProjectedNonlinearity.ZERO
-  - LocalizationAndMomentMatching.REMAINS
+  - LocalizedSameFluidMomentMatching.REMAINS
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
@@ -30,10 +30,11 @@ completion_truth: >-
   high-Re fine residual can carry large gradient for a producer clock without
   nonlinear self-eviction. The branch is not thereby constructed for the real
   overlap bath: compact finite-energy localization, same-fluid coupling to the
-  producer, and pressure-Hessian moment matching remain open. The result only
-  kills the fast-turnover self-drift shortcut and forces the fine/sparse
-  branch to be decided by localization, moment matching, coupling, Reynolds
-  edge, compensator routing, or construction/exclusion. No dense-crowd theorem,
+  producer, and actual localized pressure-Hessian moment matching through the
+  kernel remain open. The result only kills the fast-turnover self-drift
+  shortcut and forces the fine/sparse branch to be decided by localization,
+  moment matching, coupling, Reynolds edge, compensator routing, or
+  construction/exclusion. No dense-crowd theorem,
   confinement constant, W1 repair, F4/F5 pass, manuscript completion, or MPP
   closure is claimed.
 ---
@@ -213,7 +214,8 @@ branch is killed, the proof has to use one of the actual remaining defects:
 
 - finite-energy localization of the Beltrami pocket;
 - cutoff/Hodge errors from localization;
-- pressure-Hessian moment matching to the producer's required matrix;
+- pressure-Hessian moment matching to the producer's required matrix through the
+  actual localized kernel;
 - coupling of the pocket to the producer rather than a free periodic cell;
 - the Reynolds edge \(\operatorname{Re}_D\theta^2\not\gg1\);
 - compensator or Gate-8 same-packet allocation;
