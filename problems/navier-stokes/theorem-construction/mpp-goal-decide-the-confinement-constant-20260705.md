@@ -1355,6 +1355,19 @@ certified positive constant.
    a max/threshold crossing, uniform active-count bound, count-free square/Gram
    payer, or actual-NS paid/exit/admission-failure rule for growing normalized
    aggregate reads.
+   Follow-up normalized-aggregate Gram-gap criterion filed: the count-free
+   square/Gram payer is exactly a uniform lower bound
+   \(a^TG_Na\ge c(\sum_i a_i)^2\) on the admissible K5 positive cell cone.
+   Without that Gram gap, near-null fragmented clouds keep the full aggregate
+   selected record while their quadratic charge vanishes. Diagonal square
+   sums give \(1/N\) on the uniform cloud; finite-range or bounded-row kernels
+   also give \(O(1/N)\); mean-zero pressure/CZ kernels have the uniform cloud
+   in their zero mode, up to bounded diagonal corrections \(O(1/N)\). The only
+   algebraic payer that survives uniform fragmentation is a rank-one positive
+   uniform mode, which is a genuine all-to-all compensator/payer branch, not
+   free locality. Thus K5 now needs an actual Gram gap, positive uniform-mode
+   charge with its cost routed, anti-equidistribution/admission failure, or
+   construction/exclusion of the near-null aggregate.
    Current overlap-bath update, source-audited against the 2026-07-06
    branch-collapse notes: the four global sources named after the local
    mechanisms fell are no longer four independent evasion candidates.
