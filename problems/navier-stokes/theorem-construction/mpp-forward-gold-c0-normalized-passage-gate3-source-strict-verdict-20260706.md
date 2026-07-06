@@ -167,7 +167,7 @@ cone closedness, not relay-record no-loss passage. The relay-record kernel
 then has no zero-bill positive-record profile to contradict unless `(G3S.6)' is
 proved.
 
-Gate 1 remains the first failed gate for the normalized passage theorem. Gate 2
-is the next checked failure. Gate 3 adds the third precise escape: the record
+Gate 1 is now supplied by the retained pressure-source envelope chain. Gate 2
+is the first checked failure. Gate 3 adds the third precise escape: the record
 can be lost as a selected positive functional even when the underlying signed
 defect measures have weak-star limits.
