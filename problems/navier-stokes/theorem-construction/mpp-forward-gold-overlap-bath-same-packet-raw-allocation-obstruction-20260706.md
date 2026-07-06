@@ -34,8 +34,10 @@ completion_truth: >-
   that no-recount allocation itself preserves the beta^(4/5) density; demanding
   a fixed pressure-service tax density creates a positive tax deficit instead
   of an order-one retained row. Follow-up affine-transport pressure-bank
-  obstruction checks that affine same-fluid custody also stays at beta^(4/5);
-  the remaining transport branch is non-affine/broadband.
+  obstruction checks that affine same-fluid custody also stays at beta^(4/5).
+  Follow-up non-affine transport threshold obstruction checks that residual
+  spatial variation stays cheap until delta_D/s>=beta^(-4/5); the remaining
+  transport branch is supercritical non-affine/broadband.
 ---
 
 # Overlap bath: same-packet raw allocation obstruction
@@ -191,9 +193,10 @@ The pressure row now has these typed open branches:
 - Reynolds-edge bridge: convert
   \(\operatorname{Re}_R\lesssim\beta^{-4/5}\) into record-ladder payment,
   producer suppression, or construction exclusion;
-- non-affine/broadband same-fluid transport/persistence:
+- supercritical non-affine/broadband same-fluid transport/persistence:
   keep the pressure-service bank attached through the real flow beyond the
   affine-custody regime, or prove that this demands
+  \(\delta_D/s\gtrsim\beta^{-4/5}\) or
   \(\omega/s\gtrsim\beta^{-4/5}\);
 - construction/exclusion for a summability-valid dynamic pressure bath.
 

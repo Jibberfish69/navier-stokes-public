@@ -46,8 +46,10 @@ completion_truth: >-
   charging remains beta^(4/5) of local producer currency, so the allocation
   branch is Gate-8 no-recount allocation or compensator. Follow-up
   affine-transport pressure-bank obstruction prices affine same-fluid custody at
-  beta^(4/5), so the current dynamic branch is non-affine/broadband same-fluid
-  transport, Reynolds-edge failure, fixed-density compensator/residue, or
+  beta^(4/5). Follow-up non-affine transport threshold obstruction prices
+  residual spatial variation at density (delta_D/s)beta^(4/5), so the current
+  dynamic branch is supercritical non-affine/broadband same-fluid transport,
+  Reynolds-edge failure, fixed-density compensator/residue, or
   construction/exclusion.
 ---
 
@@ -284,9 +286,9 @@ The remaining pressure-row burdens are:
   threshold to a Reynolds-edge bridge;
 - Gate-8 no-recount allocation of pressure-service work into record-ladder
   currency, or a compensator/residue;
-- non-affine/broadband same-fluid transport, including any supercritical
-  fast-motion forcing demanded by the exact matrix after affine custody is
-  priced;
+- supercritical non-affine/broadband same-fluid transport, including any
+  fast-motion or spatial residual forcing demanded by the exact matrix after
+  affine custody is priced;
 - or a full summability-valid dynamic bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -299,6 +301,6 @@ For the overlap row \(H\sim s^2\beta^{4/5}\), this stays at or below \(H\)
 when the pressure cell sits at scale \(D\lesssim R\beta^{2/5}\). The only extra
 condition is that this subcell remain above the viscous clock,
 \(\nu/(sD^2)\ll1\). Thus curvature does not restore an order-one floor; it
-reduces the pressure branch to non-affine/broadband same-fluid transport, the
-Reynolds threshold bridge, Gate-8 allocation/compensator, or
+reduces the pressure branch to supercritical non-affine/broadband same-fluid
+transport, the Reynolds threshold bridge, Gate-8 allocation/compensator, or
 construction/exclusion.

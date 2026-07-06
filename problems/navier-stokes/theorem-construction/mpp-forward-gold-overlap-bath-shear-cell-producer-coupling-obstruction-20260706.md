@@ -36,9 +36,11 @@ completion_truth: >-
   the curvature radius. Follow-up subcell Reynolds threshold obstruction types
   that fit condition as Re_R=sR^2/nu>>beta^(-4/5). Follow-up
   affine-transport pressure-bank obstruction prices affine same-fluid custody at
-  beta^(4/5). Remaining: non-affine/broadband same-fluid transport, the
-  Reynolds-edge bridge, Gate-8 no-recount allocation/compensator, and a real
-  dynamic bath construction or exclusion.
+  beta^(4/5). Follow-up non-affine transport threshold obstruction prices
+  residual spatial variation at density (delta_D/s)beta^(4/5). Remaining:
+  supercritical non-affine/broadband same-fluid transport, the Reynolds-edge
+  bridge, Gate-8 no-recount allocation/compensator, and a real dynamic bath
+  construction or exclusion.
 ---
 
 # Overlap bath: shear-cell producer-coupling obstruction
@@ -209,9 +211,9 @@ The remaining pressure-row burdens are:
   failure to record-ladder payment;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
-- non-affine/broadband same-fluid transport, including any supercritical
-  fast-motion forcing demanded by the exact matrix after affine custody is
-  priced;
+- supercritical non-affine/broadband same-fluid transport, including any
+  fast-motion or spatial residual forcing demanded by the exact matrix after
+  affine custody is priced;
 - or a full summability-valid bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -222,5 +224,5 @@ producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
 additive at instantaneous periodic-cell level; the live pressure branch is now
-non-affine/broadband same-fluid transport, the Reynolds-edge bridge, Gate-8
-no-recount allocation/compensator, or construction.
+supercritical non-affine/broadband same-fluid transport, the Reynolds-edge
+bridge, Gate-8 no-recount allocation/compensator, or construction.

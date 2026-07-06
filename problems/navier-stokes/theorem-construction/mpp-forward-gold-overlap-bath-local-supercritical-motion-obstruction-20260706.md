@@ -37,7 +37,9 @@ completion_truth: >-
   pressure-template locality obstruction kills static finite-energy
   pressure/Hodge localization as the missing payer. Follow-up affine-transport
   pressure-bank obstruction kills affine same-fluid custody as the missing
-  payer; the surviving dynamic branch is non-affine/broadband.
+  payer. Follow-up non-affine transport threshold obstruction prices residual
+  spatial variation at density (delta_D/s)beta^(4/5); the surviving dynamic
+  branch is supercritical non-affine/broadband.
 ---
 
 # Overlap bath: local supercritical-motion obstruction
@@ -213,7 +215,7 @@ record ladder.
 
 The remaining fast-motion branch is now global:
 
-- non-affine/broadband same-fluid transport or persistence of the
+- supercritical non-affine/broadband same-fluid transport or persistence of the
   pressure-service bank may force faster motion than the local jet;
 - Reynolds-edge failure may suppress the producer or create a record-ladder
   payment;
