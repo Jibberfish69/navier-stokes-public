@@ -675,6 +675,21 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   single decreasing graph inversion, not a free graph search. No value or
   product pass is claimed.
 
+  CODEX ROUTE-3 PRODUCT SELECTOR NORMAL FORM (2026-07-06,
+  codex-route3-product-selector-normal-form): the friendly midpoint product
+  row is now a disjoint finite selector form. The edge thresholds satisfy
+  \[
+    \Lambda_{\rm edge}^-(b)-\Lambda_{\rm edge}^+(b)
+    =
+    {b(4-e^{2b}-4be^b)\over(4+e^b(2+b))(2+e^b)},
+  \]
+  so their ordering switches exactly at \(2b=q_0\). Thus the lower-edge row is
+  genuinely nonempty only on \(q_0<2b<2\log2\); otherwise the supported branch
+  is interior. Chapter 10 now has a finite selector checklist: support ceiling
+  \(S_{\max}(b)\), explicit lower-edge row when it applies, or the unique
+  decreasing interior inverse \(L_b(q_*)=\lambda\) with value \(V_b(q_*)\).
+  No selector value, product pass, or Route-3 pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
