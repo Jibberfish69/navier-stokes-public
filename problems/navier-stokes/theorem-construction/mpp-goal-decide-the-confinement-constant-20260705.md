@@ -115,7 +115,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     fast-transit increment-cubic total variation pays at pair-energy
     scale. Codex follow-up pays the uniform shape-class
     impulse-energy lower bound for vorticity supported at scale \(L\).
-    Custody row lift reduced to Gate-8 allocation/localization:
+    Custody row lift reduced to Gate-8 no-recount allocation/localization:
     delivery-branch fast-transit payment is in increment-cubic
     channel-cell throughput currency; once same-index allocation is
     supplied, row composition has no custody-specific fourth channel.
