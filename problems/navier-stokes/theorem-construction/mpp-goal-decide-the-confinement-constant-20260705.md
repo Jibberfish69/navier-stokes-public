@@ -1139,23 +1139,23 @@ certified positive constant.
    cannot by itself provide the density anti-equidistribution gap. Any
    ancestry-based gap through service coordinates is now an explicit
    row-distance payer:
-	   \[
-	     \|f-1\|_{L^2_\omega}
-	     \ge
-	     {|a-\int m\,d\omega|\over\|m-\int m\,d\omega\|_{L^2_\omega}},
-	   \]
-	   or the finite/high-rank Gram version. Uniform-compatible service rows leave
-	   the near-uniform bath alive, so the remaining ancestry-side branches are
-	   current/action transport payment, custody/bank variation payment, or
-	   construction/exclusion. Follow-up angular pressure-moment row-distance
-	   calculation gives the exact Beltrami constant:
-	   \(T h=\int_{S^2}(I/3-n\otimes n)h\,d\sigma\) has
-	   \(TT^*=(2/15)I\) on trace-free tensors, hence
-	   \(\inf_{Th=K}\|h\|_2=\sqrt{15/2}|K|_F\). In the overlap row
-	   \(|K|=O(\beta^{4/5})\), so angular mismatch gives only the installed
-	   \(q=4/5\) pressure-service distance and square charge
-	   \(O(\beta^{8/5})\), not a fixed confinement tax.
-	   Transport-current variation has now been split too: \(A=w\rho\) gives the
+   \[
+     \|f-1\|_{L^2_\omega}
+     \ge
+     {|a-\int m\,d\omega|\over\|m-\int m\,d\omega\|_{L^2_\omega}},
+   \]
+   or the finite/high-rank Gram version. Uniform-compatible service rows leave
+   the near-uniform bath alive, so the remaining ancestry-side branches are
+   current/action transport payment, custody/bank variation payment, or
+   construction/exclusion. Follow-up angular pressure-moment row-distance
+   calculation gives the exact Beltrami constant:
+   \(T h=\int_{S^2}(I/3-n\otimes n)h\,d\sigma\) has
+   \(TT^*=(2/15)I\) on trace-free tensors, hence
+   \(\inf_{Th=K}\|h\|_2=\sqrt{15/2}|K|_F\). In the overlap row
+   \(|K|=O(\beta^{4/5})\), so angular mismatch gives only the installed
+   \(q=4/5\) pressure-service distance and square charge
+   \(O(\beta^{8/5})\), not a fixed confinement tax.
+   Transport-current variation has now been split too: \(A=w\rho\) gives the
 	   exact current cost \(|A|=|w|\rho\), but uniform WKB density can carry
 	   nonzero divergence-free relative current. Thus current variation is a
 	   current/action payer, an added-carrier certificate branch, or Part-side
@@ -1167,13 +1167,13 @@ certified positive constant.
    variation/custody payers or certificate branches, not density
    anti-equidistribution by themselves.
    Current overlap-bath closeout at local-mechanism level: the tested local
-	   rows do not decide the confinement constant. Mean-zero Hodge algebra,
-	   affine pressure motion, finite-energy localization, affine same-fluid
-	   custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
-	   certificate rows, high-rank linear rows, finite-range local nonlinear
-	   legality, bare material ancestry, service-coordinate mismatch, and
-	   angular pressure-moment mismatch, transport-current variation, and
-	   custody/bank variation have all been typed.
+   rows do not decide the confinement constant. Mean-zero Hodge algebra,
+   affine pressure motion, finite-energy localization, affine same-fluid
+   custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
+   certificate rows, high-rank linear rows, finite-range local nonlinear
+   legality, bare material ancestry, service-coordinate mismatch, angular
+   pressure-moment mismatch, transport-current variation, and custody/bank
+   variation have all been typed.
    The remaining dense-crowd decision surface was, at that stage, compressed to
    a temporary four-name list: non-affine/broadband transport, already only in
    its supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
