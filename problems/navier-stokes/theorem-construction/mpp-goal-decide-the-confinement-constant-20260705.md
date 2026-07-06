@@ -214,8 +214,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Same-day bath exponent recursion check kills the naive infinite
    cheap-bath chain under the filed beta^(4/5), beta^(8/5) scaling:
    holder energies do not decay. Remaining dense escape: exact
-   matrix/node-sitting changes the exponent law, or finite-depth bath
-   funding enters composition. Same-day node-sitting moving-constraint
+   matrix/node-sitting must satisfy the summability criterion, while
+   finite-depth bath funding must satisfy beta-control, allocation,
+   reuse/tracking, or PDE-impossibility/construction. Same-day node-sitting moving-constraint
    identity replaces static cancellation by the differentiated
    constraint \(D_hC\,\dot h=-D_qC\,\dot q\); the live constant is the
    normalized transversality floor. Same-day amplitude homogeneity
