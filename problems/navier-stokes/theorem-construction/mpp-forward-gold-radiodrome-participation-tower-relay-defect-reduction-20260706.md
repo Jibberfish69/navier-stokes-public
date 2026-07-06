@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-carrying-full-tower-fourbody-balance-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
 completion_truth: >-
   Bounded proof attempt and strict reduction only. The corrected radiodrome
   object is the one VPI fluid-field read up its participation tower. Pressure
@@ -28,6 +29,10 @@ completion_truth: >-
   loss, Q-activity, or legal residual. Proving this defect has no marginal
   tail is exactly FullTowerSignedTotalExchangeRetention.A, or, after
   certificate compactness, the B3 material-time Liouville/invariance theorem.
+  The shift-hull follow-up proves the abstract invariance mechanism once a
+  compact certified material-time path hull and closed zero-surplus certificate
+  graph are built, so the route-b flow row is now reduced to that compact
+  certified path/closed graph construction plus zero-loss rigidity.
   Thus radiodrome gives a sharp coordinate and a useful bad-sequence detector
   for c_0, not an independent source of c_0. No closure is claimed.
 ---
@@ -199,10 +204,16 @@ captures.
 ## 4. LaSalle form of the remaining theorem
 
 The only way this becomes a proof is a material-time invariance theorem for the
-same-solution certificates, plus zero-loss rigidity on the invariant set:
+same-solution certificates, plus zero-loss rigidity on the invariant set. The
+invariance part is now sharpened by the shift-hull lemma: a compact certified
+material-time path hull with closed zero-surplus certificate graph is invariant
+because every shifted limit path is the limit of shifted actual certificate
+paths. The proof-grade route-b package is therefore
 
 ```math
-\texttt{MaterialTimeCertificateFlowInvariance.A}
+\texttt{CertifiedMaterialTimeShiftHullCompactness.A}
++
+\texttt{ZeroSurplusCertificateClosedGraph.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
@@ -216,7 +227,7 @@ payments are the Lyapunov dissipation. The set where those payments vanish must
 be invariant under the same Navier-Stokes material-time evolution, and its only
 same-solution tower-relay profile with positive service must be the zero
 profile. The checked B3 file says the certificate-flow invariance theorem is
-not installed.
+not installed in this compact-path/closed-graph Navier-Stokes form.
 
 So the strongest honest output of the attempt is the strict fork
 
@@ -266,7 +277,9 @@ floor test. The next theorem is exactly one of:
 or
 
 ```math
-\texttt{MaterialTimeCertificateFlowInvariance.A}
+\texttt{CertifiedMaterialTimeShiftHullCompactness.A}
++
+\texttt{ZeroSurplusCertificateClosedGraph.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}.
 \tag{RTR.16}
