@@ -142,20 +142,19 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    unweighted package-drain / package-coordinate throughput
    \(\mathfrak e^+_{\rm int}(W)\), not the weighted root-drift gross
    \(\mu_W^+\). Weighted gross is downstream of G6a because
-   \(d\mu_W^+=(|W_r|/X)d\mathfrak e^+\). REMAINING, exactly:
-   [boundary-routed \(G_{\mathfrak e}^{\rm int}>0\), i.e.
-   \(\Phi_W\ge G_{\mathfrak e}^{\rm int}|W|>0\)] +
-   [R4-adjusted margin beating the scoped drift] + [the finite row
-   evaluation]. In story terms: ONE fact finances everything - the
-   financed window genuinely moves its package coordinate inside the
-   window; swing, gap, and clock all follow.
+   \(d\mu_W^+=(|W_r|/X)d\mathfrak e^+\). In story terms: ONE fact
+   finances everything - the financed window genuinely moves its
+   package coordinate inside the window; swing, gap, and clock all
+   follow.
    SOURCE-FLOOR SUBSTITUTION (Codex, 2026-07-06): in the finite-chain
    worksheet, \(G_{\mathfrak e}^{\rm int}=G_{\mathfrak e}
    =r_0(f)\tau_{\min}\) before G6a/root-weight, density, endpoint,
    and inactive-time charges are spent. Thus \(G_{\mathfrak e}\) is no
    longer a separate interval input; \(K_{\rm off}=
    Q_WX_{\max}S_{\max}/(r_0(f)\tau_{\min})\). This is a row
-   substitution only; it does not prove \(R_{\rm prod}>0\).
+   substitution only. REMAINING, exactly: [R4-adjusted margin beating
+   the scoped drift] + [the finite product-row evaluation] +
+   [BoundaryTail/F4 carry rows]. It does not prove \(R_{\rm prod}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
    codex-period-cap-traversal-reduction,
