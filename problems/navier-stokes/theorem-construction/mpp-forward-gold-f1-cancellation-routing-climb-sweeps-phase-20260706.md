@@ -71,7 +71,8 @@ completion_truth: >-
   two priced channels. HONEST GAPS: (v1) the predator-slot sweep
   display - the ingredients (twist locality; the Section-4
   differentiation) are installed; the display at the predator slot
-  is owed and is THE remaining F1 population content; (v2)
+  is owed and is one remaining F1 population theorem after the
+  bad-cone capacity fork; (v2)
   uniformity of the sweep floor over the populated bounded-shape
   class; (v3) "climb" here must be the same climb as the pincer's
   rung readout (consistency check, W-II interface); (v4) all
@@ -164,10 +165,10 @@ Cancellation histories are exhausted by the two priced channels.
 
 (v1) the predator-slot sweep display — ingredients installed
 (twist locality; Section-4 differentiation); the display is owed
-and is THE remaining F1 population content; (v2) uniformity of the
-sweep floor over the populated bounded-shape class; (v3) "climb"
-must be the pincer's rung-readout climb — consistency check at the
-W-II interface; (v4) finite-chain relay scope throughout — W-0
-unchanged.
+and is one remaining F1 population theorem after the bad-cone capacity
+fork; (v2) uniformity of the sweep floor over the populated
+bounded-shape class; (v3) "climb" must be the pincer's rung-readout
+climb — consistency check at the W-II interface; (v4) finite-chain relay
+scope throughout — W-0 unchanged.
 
 Filed is not cleared. No closure claimed.
