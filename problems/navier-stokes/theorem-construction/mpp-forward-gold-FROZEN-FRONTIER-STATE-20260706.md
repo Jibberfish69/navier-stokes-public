@@ -399,6 +399,23 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   signed debt routing. Positive gross finance alone is not enough,
   because the installed Gate-6 rho object is signed. Without that
   net row, D1-D3 are a signed-extraction subgate, not a theorem.
+  ANSWERED (Fable, pending gate,
+  refill-telescoped-dwell-return-budget-row): the prefix claim is
+  WITHDRAWN; dwell is priced by a refill-telescoped BUDGET instead —
+  no monotonicity needed. Budget identity (exact): down-variation of
+  log G_0^2 spent above the threshold <= initial excess +
+  V_log^+ := int (rho_ext)_- dt (the RETURN BUDGET). Period-granular
+  classification with hysteresis (RUN iff sup_period G_0^2 <=
+  (6/5)G_thr, deadband delta_re = log(6/5)); on RUN, s <= (3/5)g and
+  the sharp bracket is positive whenever A_0 > 8 d_R4^+ (THE SWING
+  BEATS EIGHT DRIFTS; six survives if a net law is later supplied).
+  #DWELL periods <= [initial excess + V_log^+]/(q_per - delta_re)_+
+  + V_log^+/delta_re + 1, each period <= T_*; dwell charge =
+  (#DWELL) T_* in the length row. NEW ROW: V_log^+ <= V_cap^+ per
+  routed history (the return budget is finite — homed at the
+  return-race/later-debt machinery; a refill is a repaid theft).
+  OWED: the per-period drain quantum e_per^+ display from the
+  period-cap traversal reduction; rent non-double-charge.
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
@@ -410,10 +427,12 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   import fires only after \(D_j\) is matched to the nested parabolic
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff); signed/net extraction for monotone Casimir
-  decay if not supplied by W-0; pricing completeness
-  \(D_j\le C_{\rm pc}E_j\); \(A_0 > 6d_{\rm R4}^+\) on RUN
-  (+ \(\Phi_0>0\)); the dwell-run consumer amendment; G3
+  single-mode handoff); THE RETURN BUDGET ROW V_log^+ <= V_cap^+
+  (or a net extraction law making the Casimir prefix monotone — the
+  six-drift variant then revives); the per-period drain quantum
+  e_per^+ display; pricing completeness \(D_j\le C_{\rm pc}E_j\);
+  \(A_0 > 8d_{\rm R4}^+\) on RUN (hysteresis route; 6 on the prefix
+  route) (+ \(\Phi_0>0\)); the dwell-run consumer amendment v2; G3
   clock-conversion display; g2 root-labeling re-gate; BoundaryTail
   split; the Chapter-10 rows.
 
