@@ -368,6 +368,17 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     moment matching is possible by rotated Beltrami cells; the surviving branch
     is therefore a many-cell WKB Beltrami bath with same-fluid coupling and
     routing still unproved, or a new cancellation of the cutoff defect.
+    Follow-up many-cell WKB parameter-window reduction filed: with
+    \(N=(L/\ell)^3\) and \(\theta=\ell/D\), cutoff neutrality gives
+    \(N\gtrsim\beta^{-12/5}\), while \(q=4/5\) hiding gives
+    \(N\theta^5\lesssim\beta^{12/5}\). Thus the no-payer WKB window is
+    \[
+      \beta^{-12/5}\lesssim N\lesssim\beta^{12/5}\theta^{-5},
+    \]
+    nonempty only when \(\theta\lesssim\beta^{24/25}\). On that row the
+    refresh high-Re condition is weaker than carrier persistence, so the
+    Reynolds demand collapses to
+    \(\operatorname{Re}_D\gg\theta^{-2}\).
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -511,6 +522,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(L/\ell\gtrsim\beta^{-4/5}\), hence at least \(\beta^{-12/5}\) carrier cells;
    local moment matching is algebraically possible, so the surviving object is a
    many-cell WKB same-fluid bath or a new cutoff-defect cancellation.
+   The many-cell WKB parameter-window reduction sharpens that survivor to
+   \[
+     \theta={\ell\over D}\lesssim\beta^{24/25},\qquad
+     \beta^{-12/5}\lesssim N\lesssim\beta^{12/5}\theta^{-5},\qquad
+     \operatorname{Re}_D\gg\theta^{-2}.
+   \]
+   Outside this window, the branch pays through cutoff/Hodge drift or residual
+   energy.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
