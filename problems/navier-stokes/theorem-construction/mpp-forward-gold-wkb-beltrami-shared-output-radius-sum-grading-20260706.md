@@ -7,6 +7,8 @@ scope_correction: >-
   azimuth around m is a vector coordinate, and two radius-sum grades can cancel
   if one grade carries enough transverse directions. See
   mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md.
+  The finite resonant-graph branch is later closed by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -19,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md
 completion_truth: >-
   Scope-corrected fixed-output coefficient grading. For same-helicity Beltrami
   modes p,q with p+q=m, |p|=K, |q|=L, K != L, and p not parallel to q, the
@@ -204,6 +207,10 @@ two-pair duplicate cannot cancel unless the two radius-sums agree. The scalar
 certificate \(\sum_s A_s=0\), \(\sum_s sA_s=0\) is only the coplanar reduction.
 In full 3D the local certificate is vector-valued, and multi-azimuth
 two-grade cancellation remains possible.
+
+Later finite-graph closure: vector-moment local cancellation remains possible
+at one output, but no finite dangerous duplicate graph can close all sidebands;
+the duplicate-growth obstruction forces a larger dangerous output.
 
 ## 6. State
 
