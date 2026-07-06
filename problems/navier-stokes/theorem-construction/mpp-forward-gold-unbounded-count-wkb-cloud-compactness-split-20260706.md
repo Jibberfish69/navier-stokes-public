@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
 completion_truth: >-
   Exact split and countermodel only. The surviving beta-small WKB bath is
   unbounded-count. Encode its positive retained pressure-service moment as
@@ -32,10 +33,12 @@ completion_truth: >-
   a nonzero diffuse profile; therefore count-only no-free-fragmentation and
   same-cell square coercivity are false without additional PDE, uncertainty,
   cross-cell, or admission structure. The profile moment-continuity follow-up
-  pays the scalar pressure-service moment-passage subclause when the service
-  readout is continuous or uniformly stabilized, and gives a moving-spike
-  countermodel when it is not. This proves no profile admission theorem, no WKB
-  construction/exclusion, no confinement constant, and no MPP closure.
+  pays the scalar pressure-service moment-passage subclause after the service
+  readout is continuous or uniformly stabilized; the service-modulus follow-up
+  reduces that stabilization to a uniform modulus of continuity on the compact
+  WKB label space, with failure typed as moving service-selector escape. This
+  proves no profile admission theorem, no WKB construction/exclusion, no
+  confinement constant, and no MPP closure.
 ---
 
 # Unbounded-count WKB cloud compactness split
@@ -104,10 +107,11 @@ passing to a compact exhaustion and a terminal subtail, weak-* compactness gives
 \]
 
 Thus tight unbounded fragmentation is not invisible. It produces a nonzero WKB
-or microlocal profile measure. The follow-up moment-continuity criterion says
-when this profile also carries the retained scalar pressure-service moment:
-continuous or uniformly stabilized service readouts pass to the limit, while
-moving spike readouts are label/weight/rung escape.
+or microlocal profile measure. The follow-up moment-continuity and
+service-modulus criteria say when this profile also carries the retained scalar
+pressure-service moment: a uniform modulus of continuity for the active service
+readouts gives the stabilized subtail, while modulus failure is moving
+service-selector escape in the WKB label coordinates.
 
 Decompose
 \[
@@ -210,9 +214,10 @@ The unbounded-count WKB branch is now:
 \]
 
 The remaining theorem is not count-only no-free-fragmentation. That theorem is
-false by (UC.10). It is also not scalar moment passage once the pressure-service
-readout is continuous or uniformly stabilized; that subclause is paid by the
-moment-continuity criterion. The remaining theorem must be one of:
+false by (UC.10). It is also not scalar moment passage once
+`WKBServiceModulus.A` supplies the stabilized service readout; that subclause is
+paid by the moment-continuity criterion plus the service-modulus reduction. The
+remaining theorem must be one of:
 \[
 \begin{gathered}
 \text{MicrolocalDefectProfileAdmission.A},\\
@@ -228,11 +233,12 @@ moment-continuity criterion. The remaining theorem must be one of:
 Unbounded packet count does not make the WKB bath invisible. If the positive
 phase-label measures are tight, they have a nonzero WKB/microlocal profile
 limit; the atomic part routes to the atomic cloud branch and the diffuse part
-routes to profile admission, with scalar moment passage paid when the service
-readout is continuous or uniformly stabilized. If they are not tight, the missing mass is
-selected-carrier domain/label/rung escape, not retained supply. The uniform
-fragmentation model shows that count-only no-free-fragmentation and same-cell
-packet-moment square coercivity are false without additional PDE structure.
+routes to profile admission, with scalar moment passage paid by
+`WKBServiceModulus.A` plus moment continuity. If they are not tight, the
+missing mass is selected-carrier domain/label/rung escape, not retained supply.
+The uniform fragmentation model shows that count-only no-free-fragmentation and
+same-cell packet-moment square coercivity are false without additional PDE
+structure.
 
 ## 8. State
 
