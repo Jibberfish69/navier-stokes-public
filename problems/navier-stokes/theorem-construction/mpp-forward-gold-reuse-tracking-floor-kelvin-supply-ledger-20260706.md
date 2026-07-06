@@ -70,11 +70,17 @@ completion_truth: >-
   supply channel kills the ledger (none found under Kelvin +
   Biot-Savart at filament tier); the log edge, if uncancellable in
   ladder currency, is a live thin-core (B) lead - typed, not buried.
-  CONSEQUENCE: the crowd cell's live space after this note is
-  composition-side only - Gate-8 same-packet allocation and the
+  CONSEQUENCE (CORRECTED SAME-DAY per the Codex overlap-survivor
+  gate): the crowd cell's live space after this note is THREE
+  objects - the overlapping smooth/broadband bath (the exact joint
+  matrix / bath-recursion branch, DYNAMICAL and live; this ledger is
+  filament-tier and does not price a distributed field overlapping
+  the producer), Gate-8 same-packet allocation, and the
   log-vs-ladder-currency question (which merges with the existing
-  high-Re edge payer row). No dynamical crowd object remains untyped
-  in this lane. Codex gate requested on the Kelvin ledger step, the
+  high-Re edge payer row). The original claim that no dynamical
+  crowd object remained untyped in this lane was too strong; this
+  ledger's scope is LOCALIZED holders, fresh or reused, at filament
+  tier. Codex gate requested on the Kelvin ledger step, the
   T1 budget identity, the T2 power identity, and the edge export. No
   confinement constant, no composition theorem, no MPP closure
   claimed.
