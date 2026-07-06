@@ -170,9 +170,24 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    +(D_{\rm tail}^{\rm ti})^+
    \right].
    \]
+   DELTA FACTORIZATION (Codex, 2026-07-06):
+   \[
+   \Delta_{\rm G6a}^-
+   =
+   U^-(\delta_{\rm end}^- - d_{\rm R4}^+),
+   \]
+   with
+   \(U^-=\inf_{\sigma,\mathcal K}r_\sigma(I_1+I_2-2r_\sigma)\),
+   \(\delta_{\rm end}^-=\inf_{\sigma,\mathcal K}
+   (\langle X\rangle_{\rm fr}-h(r_\sigma))\), and
+   \(d_{\rm R4}^+=\sup_{\mathcal K}C_{\rm per}
+   \operatorname{drift}_{\rm per}\). Thus the \(\Delta\) source is
+   no longer an opaque lower-bound symbol: it is a positive root
+   factor times "frozen endpoint margin beats R4 drift."
    The exact row remains available for direct interval certification.
-   REMAINING, exactly: [R4-adjusted \(\Delta_{\rm G6a}\) source packet
-   / lower enclosure] + [finite product-row evaluation] +
+   REMAINING, exactly: [root-factor lower enclosure] +
+   [endpoint frozen margin beating matched R4 drift] +
+   [finite product-row evaluation] +
    [BoundaryTail/F4 carry rows]. It does not prove
    \(R_{\rm prod}^{F4,{\rm ti,tail}}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
@@ -180,7 +195,8 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-period-cap-traversal-reduction,
    codex-phi0-package-drain-alias-circularity-check,
    codex-ge-source-floor-substitution,
-   codex-product-row-monotone-envelope-after-ge.
+   codex-product-row-monotone-envelope-after-ge,
+   codex-delta-g6a-factorized-source-row.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
