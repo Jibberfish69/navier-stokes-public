@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-irreversible-thick-branch-liouville-reduction-202607
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 / irreversible material-time marginal profile
-status: proved-positive-radius-thick-branch-reduces-heat-scale-branch-to-zero-payer-rigidity
+status: proved-positive-radius-thick-branch-reduces-heat-scale-branch-to-surplus-zero-rigidity
 target_object:
   - FullTowerSignedTotalExchangeRetention.A
   - MaterialTimeLiouvilleExclusion.A
@@ -33,6 +33,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
 completion_truth: >-
   This proves only the positive-radius / fixed-cylinder / thick-material-time
   branch of the irreversible c_0 obstruction. On that branch, a retained
@@ -42,11 +44,13 @@ completion_truth: >-
   mass or divergent viscous cost. The result does not prove c_0, because the
   shrinking heat-scale branch remains. In that branch physical energy and
   viscous dissipation are radius/log-time discounted, while the record requires
-  unweighted material-time action. The remaining exact theorem is zero-payer
+  unweighted material-time action. The remaining exact theorem is surplus-zero
   material-time rigidity / SameParentRecordPositiveSelectionStorage.A: a
   certified same-solution heat-scale marginal profile with positive record
-  service and vanishing native bill must be impossible, or else typed out
-  through Pack/Part/selector/legal failure. No MPP closure is claimed.
+  service and vanishing normalized surplus bill must be impossible, or else
+  typed out through Pack/Part/selector/legal failure. The local absolute-zero
+  Liouville reading is superseded by the heat-scale route-b surplus-zero
+  reduction. No MPP closure is claimed.
 ---
 
 # Irreversible thick branch and material-time marginal reduction
@@ -224,8 +228,9 @@ This is the heat-scale form of
 `SameParentRecordPositiveSelectionStorage.A` and
 `TemporalRecordThicknessChargeBillCurrency.A`.
 
-Equivalently, the material-time Liouville form is the zero-payer rigidity
-statement:
+Equivalently, the material-time Liouville form is a surplus-zero rigidity
+statement, not a local absolute-zero dissipation statement. The naive
+absolute-zero version would be:
 
 \[
 \boxed{
@@ -240,10 +245,13 @@ dR_N^+=0 .
 \tag{ITL.14}
 \]
 
-This is the honest same-fluid replacement for the old reversible-cancellation
-picture. The invariant zero-payer set of an incompressible viscous
-Navier-Stokes material-time flow must contain no positive record-service
-profile.
+But the surviving heat-scale branch is sharper than `(ITL.14)'. Its bills
+vanish only as normalized surplus; production and dissipation can match at
+ratio one on the self-similar scale. The corrected route-b theorem is recorded
+in
+`mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md`:
+prove a global same-history first-ratio storage or self-similar
+difference-operator coercivity for the certified surplus-zero profile.
 
 ## 5. Relation to the full-tower retention attempt
 
@@ -280,7 +288,7 @@ The active \(c_0\) objective now has this stricter fork:
 \text{positive-radius / thick branch}
   &\Rightarrow \text{closed by finite participation and viscous throttle},\\[1mm]
 \text{shrinking heat-scale retained branch}
-  &\Rightarrow \text{prove }(ITL.13)\text{ or }(ITL.14),\\[1mm]
+  &\Rightarrow \text{prove }(ITL.13)\text{ or surplus-zero route-b rigidity},\\[1mm]
 \text{certificate or custody failure}
   &\Rightarrow \text{typed Pack/Part/selector/legal route-out}.
 \end{array}
@@ -289,8 +297,8 @@ The active \(c_0\) objective now has this stricter fork:
 \]
 
 Thus the remaining proof is not a search for temporal reversibility or an
-adiabatic equality cycle. It is a material-time zero-payer rigidity theorem for
-one incompressible viscous pressure-constrained same-fluid field.
+adiabatic equality cycle. It is a material-time surplus-zero rigidity theorem
+for one incompressible viscous pressure-constrained same-fluid field.
 
 ## 7. State
 
