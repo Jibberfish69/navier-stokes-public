@@ -58,6 +58,27 @@ F1 -> (F2 || F3) -> F4 -> F5.
   population by the paid pushforward. Key notes:
   f1-angle-from-coupling-identity-population-closure +
   codex-f1-angle-population-regate.
+  FROZEN-GOAL F1 (the R2 normal-form lift to ACTUAL NS
+  coefficients) — R2 audit state: R2a CLEARED (common scalar
+  cancels within a triad after phase-gauge fix; fractions, sector
+  signs, Manley-Rowe, sn^2 dynamics usable verbatim); R2b exact
+  scaling CLEARED; R2c scope stands; the SINGLE open gate was the
+  PREDATOR-CONE POPULATION clause. ATTACKED (Fable, 2026-07-06,
+  pending gate, f1-predator-cone-population-bernstein-packet-
+  lemma): a ladder-frame packet (band mu, spatial support one
+  correlation volume, radius a/mu — its INSTALLED definition)
+  cannot concentrate Fourier mass on a collinear knife-edge:
+  Bernstein + Plancherel give mass fraction within angle theta of
+  any fixed plane <= (7/(4 pi)) a^3 theta (exact closed form), so
+  at theta_* = 2 pi/(7 a^3) AT LEAST HALF the packet's mass
+  populates bounded-shape predator triangles — spatial
+  concentration FORCES angular spread. G-ratio floor on the
+  populated class named + quarantined (the audit's certified-floor
+  alternative, now population-backed). Gaps: t1 compact-vs-
+  essential support; t2 the carried correlation constant; t3
+  usable-mass = monomial-participation routing (the regate point);
+  t4 C_B arithmetic re-derivation. If t1-t3 clear, F1 has ZERO
+  open gates.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
@@ -630,7 +651,8 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(16|d_{\rm pkg}|B_1B_2T_*X_{\max}^2 \le
   f_{\rm dw}A_0\sqrt{G_{\rm thr}}\) is only the
   \(q_{\rm per}^-/2<\log2\) branch; AdiabaticSignRouting/T_slow/R4-TV/c3
-  are unnecessary-or-superseded for this row
+  are unnecessary-or-superseded for this row.
+
   H-ROW DEADBAND ELIMINATION (Codex, 2026-07-06):
   `mpp-forward-gold-codex-h-row-deadband-elimination-20260706.md`
   removes the free existential at worksheet level. With
