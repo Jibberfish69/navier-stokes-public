@@ -72,7 +72,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     filed: local endpoint return is not an independent payer; it aliases to a
     record/effective-length cap unless a genuinely nonlocal recirculating
     influence beats the \(1/(kL)\) and bounded group-speed scaling. Open:
-    record/effective-length cap, genuine nonlocal endpoint return,
+    follow-up remote-tail obstruction says ordinary distant straight
+    endpoints/collars decay like \((d/L)^2\sim(kL)^{-2}\) relative to the
+    local edge strain, so "genuine nonlocal endpoint return" cannot mean
+    remote Biot-Savart leakage. Open: record/effective-length cap, genuinely
+    recirculating/global endpoint return,
     curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
     genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
@@ -562,8 +566,12 @@ certified positive constant.
    \(kL\gg\operatorname{Re}\). Follow-up endpoint-return typing: local
    endpoint return is only the length-cap theorem in different words; a
    separate endpoint branch must be genuinely nonlocal or recirculating and
-   must beat the \(1/(kL)\) envelope and bounded group-speed scaling. Live
-   pure-edge branch: record/effective-length cap, genuine nonlocal endpoint
+   must beat the \(1/(kL)\) envelope and bounded group-speed scaling. Follow-up
+   remote-tail obstruction: ordinary distant straight endpoints/collars give
+   only \(O((d/L)^2)=O((kL)^{-2})\) relative strain at the flat edge, so that
+   nonlocal branch must be recirculating/global, contaminating, exclusionary,
+   or new. Live pure-edge branch: record/effective-length cap, genuinely
+   recirculating/global endpoint
    return, curve/core/crowd contamination, route-out/exclusion, or a genuinely
    new unweighted high-Re mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
