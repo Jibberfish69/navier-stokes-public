@@ -401,6 +401,22 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   single \(S_H(q/2)>K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})+D_{P2}^{ti}\)
   check. Failure of the midpoint branch is not failure of Route 3.
 
+  CODEX ROUTE-3 MIDPOINT \(q\)-RATIO ROW REDUCTION (2026-07-06,
+  codex-route3-midpoint-qratio-row-reduction): the paid package-coordinate
+  drain quantum \(q_{\rm per}^-=A_0/X_{\max}\) removes independent
+  \(q,A_0\) bookkeeping from the friendly midpoint branch. With
+  \(q_*:=A_0/X_{\max}\), \(a=T_*\rho_{\max}^-\), \(d=d_{\rm R4}^+\), and
+  \(R_0=K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})+D_{P2}^{ti}\), the
+  midpoint product branch is the ratio-window row
+  \(16a<q_*<2\log2\) and
+  \[
+    {g_0X_{\max}\over8}(q_*-8a)
+    \left[q_*X_{\max}(2-e^{q_*/2})
+    -2d(2+e^{q_*/2})\right]>R_0.
+  \]
+  This is still one-way sufficient; the full scalar supremum remains the
+  fallback.
+
   CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
   codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
   decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
