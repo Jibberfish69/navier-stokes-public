@@ -14,6 +14,8 @@ target_object:
   - RecordMenuPressureActiveOrSilentService.A
   - RecordMenuDetectorSilentServicePreReadoutReserve.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
+  - SelectedGeneratorStorageCoercivity.A
+  - PositiveCriticalTransferBound.A
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -38,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-angle-gap-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-silent-service-reserve-half-tail-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate4-same-parent-admission-direct-attempt-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-quotient-angle-collar-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
 completion_truth: >-
@@ -63,8 +66,10 @@ completion_truth: >-
   RecordMenuDetectorSilentServicePreReadoutReserve.A and
   RetainedRecordEdgeExactProjectorChartLicense.A. The silent-service row reduces
   to an original-history strict half-barrier / bounded-below primitive Lyapunov
-  theorem, and the exact-projector row remains a same-edge material chart
-  license. Neither is installed. No FullTower retention, material-time
+  theorem, and the exact-projector collapse shows the chart-license row rejoins
+  SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A after
+  same-edge custody, angle-lock/paid-rotation, and selected-critical fresh-source
+  reduction. Neither is installed. No FullTower retention, material-time
   Liouville theorem, c_0, or MPP closure is claimed.
 ---
 
@@ -261,6 +266,22 @@ must follow the retained high packet through one lawful chart, or every failure
 must be legal, stopped, material-service paid, or a Pack/Part/Field route-out
 before the record uses the edge.
 
+The exact-projector collapse file sharpens this row. Local parametrix support,
+metric ellipticity, and frozen selector angles are downstream. Once same-edge
+custody is enforced, the projector/chart branch reaches the same selected-
+critical storage wall:
+
+\[
+\texttt{SelectedGeneratorStorageCoercivity.A}
+/
+\texttt{PositiveCriticalTransferBound.A}.
+\tag{ZRT.9a}
+\]
+
+In dyadic language this is the weighted no-free-upcascade/native-birth packing
+bound, and the half-tail remains the obstruction to raw dissipation or local
+chart control proving it.
+
 So the detector/affine-quotient bridge is now lower than a vague "faithfulness"
 claim:
 
@@ -268,7 +289,7 @@ claim:
 \boxed{
 \texttt{OriginalHistoryDetectorSilentStrictHalfBarrier.A}
 +
-\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
+\texttt{SelectedGeneratorStorageCoercivity.A/PositiveCriticalTransferBound.A}
 +
 \text{admitted parent-face B-storage}
 }
