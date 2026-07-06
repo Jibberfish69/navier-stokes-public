@@ -166,8 +166,8 @@ The intermediate region
   \tag{SRS.15}
 \]
 does not give a fixed constant, but it is no longer the \(q=4/5\) pressure row.
-It is a stronger vanishing row that must be entered into the bath-recursion
-criterion with its own exponent.
+It is a larger payer than the \(q=4/5\) pressure row, with its own effective
+exponent for the bath-recursion criterion.
 
 ## 5. Reynolds thresholds for hiding
 
@@ -252,7 +252,7 @@ and then it faces the stronger Reynolds thresholds above.
 This is not a construction and not an exclusion. It leaves a finite fork:
 
 - coherent moderate-scale supercritical residual: order-one payer;
-- intermediate scale/support: stronger-than-\(q=4/5\) vanishing row for the
+- intermediate scale/support: larger-than-\(q=4/5\) payer row for the
   bath-recursion ledger;
 - fine or sparse \(q=4/5\) hiding: high-Re cascade branch with
   \(\operatorname{Re}_{\rm res}\gg1\), and with producer-clock persistence
