@@ -702,6 +702,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    atom while every actual prelimit packet vanishes; the branch is then cloud
    admission, no-free-fragmentation / uncertainty-cell input, or atomic
    fragmentation defect.
+   The many-cell WKB quantization obstruction places the cheap beta-small bath
+   on that unbounded side: cutoff-neutrality requires
+   \(N_{\rm eff}\gtrsim\beta^{-12/5}\). Thus bounded count is not a hidden
+   survivor; it pays atomization, pays localization, or leaves the cheap WKB
+   window.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
