@@ -254,7 +254,8 @@ The next proof-bearing object is one of:
 ```text
 ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
-the legal-label graph and the Reynolds-defect pressure-law closure fork
+the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
+transport-defect material-ancestry closure fork
 WKBConstructionOrExclusion.A
 ```
 
