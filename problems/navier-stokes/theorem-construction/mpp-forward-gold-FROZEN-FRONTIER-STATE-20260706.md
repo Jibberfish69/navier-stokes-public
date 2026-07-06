@@ -823,6 +823,36 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   selector condition is automatic. No product pass, Route-3 pass, F4,
   Chapter-10 pass, F5, or MPP closure is claimed.
 
+  CODEX ROUTE-3 UNIVERSAL EDGE WITNESS REDUCTION (2026-07-06,
+  codex-route3-universal-edge-witness-reduction): the lower-edge value is now
+  installed as a universal near-edge witness, not only as a selector value.
+  Since
+  \[
+    \mathcal R_b(\lambda)
+    =
+    \sup_{2b<q<U}[\Psi_b(q;\lambda)]_+
+  \]
+  and \(\Psi_b\) is continuous at \(2b\),
+  \[
+    \mathcal R_b(\lambda)\ge
+    \Psi_b(2b;\lambda)
+    =
+    {b\over4}\left[b(2-e^b)-\lambda(2+e^b)\right]
+  \]
+  whenever the edge limit is positive. Therefore the corner product row is
+  certified immediately by
+  \[
+    s_+<
+    {b_+\over4}
+    \left[b_+(2-e^{b_+})-\lambda_+(2+e^{b_+})\right],
+  \]
+  regardless of whether the actual selector is edge or interior. With
+  \(s_+,\lambda_+,b_+\ge0\), this inequality itself forces
+  \(b_+<\log2\) and \(\lambda_+<\Lambda_+^E(b_+)\). If it fails, the
+  beta-split selector certificate and interior graph fallback remain available.
+  No interval value, product pass, Route-3 pass, F4, Chapter-10 pass, F5, or
+  MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
