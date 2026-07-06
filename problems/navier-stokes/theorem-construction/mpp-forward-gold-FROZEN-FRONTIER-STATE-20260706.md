@@ -925,6 +925,21 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   bounded/unbounded or non-transferring consumers remain the existing
   standard-scope and CM face grammar. Remaining K3 burdens:
   ChargeHomeExponent.A and reserve/boundary routing.
+  CODEX K3 CHARGE-HOME EXPONENT PAYMENT (codex-k3-charge-home-
+  exponent-displays): ChargeHomeExponent.A is paid as a finite display
+  theorem under the existing same-row formation surfaces. The retained
+  charge column uses the already declared predictable critical channel
+  weight \(w_c\simeq\kappa_c\simeq2^j\), not the reserve-time rent
+  exponent. The nonzero retained homes obey
+  \(X_j^{tax}\le C_T2^jZ_j\),
+  \(X_j^{ret/debt}\le C_R2^jZ_j\), and
+  \(X_j^{rec}\le C_A2^jZ_j\), hence
+  \(w_{tax}=w_{ret/debt}=w_{rec}=1\). The retained compensator home is
+  zero, \(X_j^{comp}=0\), because positive \(dK^{ch9}\) is routed out
+  of the retained pass column. Since \(q=(1-c_0)/2\), every nonzero
+  retained home decays like \((2q)^j=(1-c_0)^j\) once \(c_0>0\).
+  Remaining K3 burden: reserve/boundary/excess/positive-compensator/
+  terminal-residue routing legalities. No K3 clearance is claimed.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
