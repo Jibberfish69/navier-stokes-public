@@ -34,6 +34,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-laminar-ancestry-variation-reserve-direct-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-ratio-tail-surviving-global-storage-frontier-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md
 completion_truth: >-
   This is a strict retyping and reduction of the remaining heat-scale branch,
   not c_0 closure. After the positive-radius/thick branch is paid, the live
@@ -46,9 +48,11 @@ completion_truth: >-
   service persists. Equivalently, prove a bounded-below original-history
   first-ratio storage, a global laminar ancestry-variation reserve, or the
   self-similar difference-operator spectral gap/coercivity named by
-  ZeroLossTowerRelayRigidity.A. Current support axioms still admit the
-  one-child laminar half-tail model. No FullTowerSignedTotalExchangeRetention,
-  material-time Liouville, strict c_0, or MPP closure is claimed.
+  ZeroLossTowerRelayRigidity.A. The first-ratio storage route is further
+  reduced to retained Schur telescoping plus fresh push-variation
+  Hardy-Carleson and persistent affine quotient admission. Current support
+  axioms still admit the one-child laminar half-tail model. No FullTower
+  retention, material-time Liouville, strict c_0, or MPP closure is claimed.
 ---
 
 # Heat-scale route-b is surplus-zero rigidity, not local Liouville
@@ -324,3 +328,10 @@ This is the material-time route-b version of \(c_0\). It is not closed here.
 The next proof burden is to construct `(HSR.13)' from the original
 Navier-Stokes material history, or prove the spectral gap `(HSR.11)' on the
 certified invariant heat-scale profile class.
+
+The current-Carleson reduction in
+`mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md`
+sharpens `(HSR.13)': retained reuse telescopes as same-parent Schur current,
+fresh first-entry heat-lag service needs a parent push-variation
+Hardy-Carleson measure, and the open bridge is persistent affine quotient
+admission into the stopped pressure-memory/native heat-lag carrier.
