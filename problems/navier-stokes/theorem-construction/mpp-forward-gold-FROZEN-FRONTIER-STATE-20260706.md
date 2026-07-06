@@ -138,15 +138,21 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    routed - two partial traversals can carry gross variation without
    completing a swing; boundary-routed form is the exact line
    between financing an interior clock and recounting endpoint
-   motion. REMAINING, exactly: [Phi_W >= Phi_0 > 0 - the
-   boundary-routed interior financed throughput theorem, weighted
-   gross currency] + [R4-adjusted margin beating the scoped drift]
-   + [the finite row evaluation]. In story terms: ONE fact finances
-   everything - the financed window genuinely moves its package
-   coordinate inside the window; swing, gap, and clock all follow.
+   motion. Currency correction: Phi_W is the boundary-routed
+   unweighted package-drain / package-coordinate throughput
+   \(\mathfrak e^+_{\rm int}(W)\), not the weighted root-drift gross
+   \(\mu_W^+\). Weighted gross is downstream of G6a because
+   \(d\mu_W^+=(|W_r|/X)d\mathfrak e^+\). REMAINING, exactly:
+   [boundary-routed \(G_{\mathfrak e}^{\rm int}>0\), i.e.
+   \(\Phi_W\ge G_{\mathfrak e}^{\rm int}|W|>0\)] +
+   [R4-adjusted margin beating the scoped drift] + [the finite row
+   evaluation]. In story terms: ONE fact finances everything - the
+   financed window genuinely moves its package coordinate inside the
+   window; swing, gap, and clock all follow.
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
-   codex-period-cap-traversal-reduction.
+   codex-period-cap-traversal-reduction,
+   codex-phi0-package-drain-alias-circularity-check.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
