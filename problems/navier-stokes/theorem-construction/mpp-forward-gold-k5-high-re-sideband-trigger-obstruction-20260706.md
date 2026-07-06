@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-custody-trigger-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-endpoint-room-reynolds-length-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-goal-decide-the-confinement-constant-20260705.md
 completion_truth: >-
   Strict obstruction to the last installed high-Re pure-edge shortcut. The
@@ -31,11 +32,14 @@ completion_truth: >-
   bound is installed here. Same-day finite-energy follow-up supplies the long
   localized-packet witness: static finite energy/localization alone does not
   force that lower bound, because envelope defects can be made \(o(1)\) relative
-  to carrier production. Combined with the same-day return-race, custody, and
-  Gate-A obstructions, the exact isolated high-Re pure edge has no installed
-  unweighted payer. This is not a counterexample and not a confinement-constant
-  decision; it leaves dynamic/geometric route-out or a genuinely new unweighted
-  high-Re mechanism as the pure-edge burden.
+  to carrier production. Same-day endpoint-room follow-up shows the high-Re
+  residence still does not force a fixed endpoint/envelope tax unless one proves
+  a length cap or endpoint recirculation/nonlocal influence. Combined with the
+  same-day return-race, custody, and Gate-A obstructions, the exact isolated
+  high-Re pure edge has no installed unweighted payer. This is not a
+  counterexample and not a confinement-constant decision; it leaves
+  dynamic/geometric route-out or a genuinely new unweighted high-Re mechanism
+  as the pure-edge burden.
 ---
 
 # K5 high-Re edge: sideband needs a trigger
@@ -161,10 +165,11 @@ sideband/leakage coordinate can be sent to zero in the model limit:
 So the required theorem is not "there may be sidebands." The required theorem
 is one of:
 
-1. a dynamic finite-packet bandwidth floor, not static finite energy;
-2. a curve/core/envelope leakage floor during the edge residence;
-3. a crowd-contamination floor;
-4. route-out/exclusion of the isolated high-Re pure edge as an admissible
+1. a record-length cap \(kL\lesssim\operatorname{Re}\), not static finite energy;
+2. endpoint recirculation or nonlocal end influence beating \(1/(kL)\);
+3. a curve/core/envelope leakage floor during the edge residence;
+4. a crowd-contamination floor;
+5. route-out/exclusion of the isolated high-Re pure edge as an admissible
    retained producing configuration.
 
 None is installed by the checked K5 notes.
@@ -203,5 +208,6 @@ self-coupling generates only the mean mode, harmonics, and the already-filed
 Duffing feedback. A real finite-energy packet may create sidebands through
 envelope, curvature, core variation, or crowd contamination, but static finite
 energy alone does not force a fixed fraction. Thus the isolated high-Re pure
-edge has no installed unweighted payer; the remaining burden is dynamic or
-geometric forced contamination, route-out/exclusion, or a new high-Re mechanism.
+edge has no installed unweighted payer; the remaining burden is a length cap,
+endpoint recirculation/nonlocal end influence, curve/core/crowd contamination,
+route-out/exclusion, or a new high-Re mechanism.
