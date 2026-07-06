@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
 completion_truth: >-
   Strict reduction only. The common-packet identity coordinate needed by the
   diagonal compatibility theorem factors through identity subcoordinates that
@@ -36,7 +37,9 @@ completion_truth: >-
   profile construction or exclusion theorem, no CrossCellWKBGramGap.A, no
   confinement constant, and no MPP closure. Follow-up common-identity
   obstruction records the boundary: common identity is admission compatibility,
-  not a count-free square charge.
+  not a count-free square charge. The finite-cover follow-up records the cover
+  boundary: compact carrier-cover identity does not bound the number of
+  effective WKB service cells inside that identity.
 ---
 
 # WKB common packet identity factors through the four rows
@@ -233,7 +236,8 @@ failure is the corresponding Pack or Part row, not a new WKB supply branch.
 This factorization is for profile legality. It does not imply the cross-cell
 Gram gap: a large legal identity fiber can still carry uniform fragmented
 positive weights unless a separate bounded-count, positive uniform-mode, or
-anti-equidistribution theorem is proved.
+anti-equidistribution theorem is proved. Finite cover alone is not that
+bounded-count theorem.
 
 ## 8. State
 
