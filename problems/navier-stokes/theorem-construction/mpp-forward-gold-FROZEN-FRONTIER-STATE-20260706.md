@@ -379,6 +379,14 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(m_{\rm tail}(\mathbb R_t)\) appears only in the length threshold. In
   fixed-block mode \(D\) remains a real tradeoff against \(L_{\rm avail}\).
 
+  CODEX TAIL-MASS FINITENESS REDUCTION (2026-07-06,
+  codex-route3-tail-mass-finiteness-reduction): in construction-parameter
+  mode, the needed finiteness of \(m_{\rm tail}\) is paid by the current
+  pass-side measure typing on the compact worksheet domain. Non-finite residue
+  routes out instead of entering Gold rent. This removes the construction tail
+  item; fixed-block mode still carries the \(D\)-tradeoff against
+  \(L_{\rm avail}\).
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
