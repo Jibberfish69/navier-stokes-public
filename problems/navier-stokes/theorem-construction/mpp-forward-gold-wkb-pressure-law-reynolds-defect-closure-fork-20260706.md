@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -56,10 +57,14 @@ completion_truth: >-
   lambda_j -> infinity gives high Sobolev readout of size
   mu_R lambda_j^(2m). The ballast-cover landing adds the Pack-side clause:
   positive mu_R must lift to the finite/readout-compatible cover certificate or
-  route to carrier-cover failure. This proves no legal carriage theorem for the
-  positive energy ballast through ancestry/cover/tower, no profile admission
-  theorem, no WKB construction/exclusion, no confinement constant, and no MPP
-  closure.
+  route to carrier-cover failure. The ballast ancestry/tower landing adds the
+  two Part-side clauses: the same positive energy must lift to a material
+  energy current with transport defect A_R=J_R-u rho_R vanishing or legally
+  carried, and to the differentiated same-law tower with derivative graph and
+  nonlinear flux defects vanishing or legally carried. This proves no legal
+  carriage theorem for the positive energy ballast through ancestry/cover/tower,
+  no profile admission theorem, no WKB construction/exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -371,11 +376,15 @@ nonzero trace-free anisotropy as the energy ledger
 \(\mu_R=(1/2)\operatorname{tr}R\). If that ledger has nonvanishing terminal
 carrier-frequency mass, the Sobolev/Field consumer applies after same-solution
 witness admission. The same positive measure must also lift to the finite
-cover certificate; otherwise the branch is Pack-side cover failure. Or the
-stress is otherwise carried by an explicit legal signed-stress certificate
-outside the rung-zero Reynolds covariance claim. If none of these holds, the
-profile fails the actual velocity-pressure law / covariance-energy / cover /
-ancestry certificate.
+cover certificate; otherwise the branch is Pack-side cover failure. It must
+also lift to the material ancestry and same-law tower certificates: the
+ballast transport defect \(A_R=J_R-u\rho_R\), the derivative graph defects
+\(G_\alpha\), and the differentiated flux defects \(R_\alpha\) must vanish or
+be legally carried. Otherwise the branch is Part-side material-history or
+same-law tower failure. Or the stress is otherwise carried by an explicit
+legal signed-stress certificate outside the rung-zero Reynolds covariance
+claim. If none of these holds, the profile fails the actual velocity-pressure
+law / covariance-energy / cover / ancestry / tower certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
 certificate compactness.
@@ -399,6 +408,8 @@ exact Leray-null stress characterization, including the trace-free Hessian
 null-stress example. It also imports the covariance-ballast screen for actual
 rung-zero Reynolds defects, the ballast-energy ledger identity, and the
 terminal-frequency Field-readout consumer for admitted positive trace ballast.
+The positive-trace landing is now explicit across all three profile rows:
+finite cover, material ancestry, and same-law tower.
 It does not
 prove actual Navier-Stokes WKB Reynolds defects lie in the PSD null class, does
 not prove the defect vanishes for Navier-Stokes WKB packets, does not prove
