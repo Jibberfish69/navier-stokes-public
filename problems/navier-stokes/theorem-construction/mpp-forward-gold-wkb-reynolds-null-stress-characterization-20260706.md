@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
 completion_truth: >-
   Exact characterization of the pressure-law null branch. For a smooth compactly
   supported symmetric Reynolds stress R on R^3, the condition
@@ -34,11 +35,16 @@ completion_truth: >-
   nonzero trace-free null stresses are not positive covariance defects unless
   they are padded by positive trace. The ballast-energy follow-up identifies
   that trace as unresolved kinetic energy, \(\mu_R=(1/2)\operatorname{tr}R\),
-  not pressure deletion. This proves no theorem forcing actual Navier-Stokes
-  WKB Reynolds defects into the null class, no legal carriage theorem for
-  nonzero null stresses through the whole profile, no profile admission
-  theorem, no WKB construction/exclusion theorem, no confinement constant, and
-  no MPP closure.
+  not pressure deletion. The Beltrami-cone follow-up adds that the same-helicity
+  Beltrami covariance cone is narrower than arbitrary PSD covariance, but does
+  not close this null branch: a compact Hessian null stress plus small scalar
+  trace ballast gives a nonzero compact PSD Leray-null stress satisfying
+  \(\lambda_{\max}(R)\le \operatorname{tr}R/2\), hence pointwise inside the
+  Beltrami covariance cone. This proves no theorem forcing actual
+  Navier-Stokes WKB Reynolds defects into the null class, no legal carriage
+  theorem for nonzero null stresses through the whole profile, no profile
+  admission theorem, no WKB construction/exclusion theorem, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB Reynolds null stresses: exact pressure-law characterization
@@ -226,6 +232,53 @@ Taking traces in the weak quadratic limit also gives
 The pressure gauge can absorb the force, but it cannot erase this nonnegative
 unresolved kinetic energy.
 
+The same-helicity Beltrami covariance cone is narrower than arbitrary PSD
+covariance, but it still does not close the null branch. The localization note
+records the pointwise cone:
+\[
+  C\ge0,\qquad \lambda_{\max}(C)\le {1\over2}\operatorname{tr}C .
+  \tag{NUL.18}
+\]
+This excludes rank-one PSD covariance from the same-helicity Beltrami class, but
+compact active null examples remain after scalar ballast.
+
+Choose \(\phi\in C_c^\infty\) with \(A_\phi:=\nabla^2\phi-(\Delta\phi)I/3\not
+\equiv0\). Choose \(\eta\in C_c^\infty\), \(\eta\ge0\), with
+\(\eta\equiv1\) on \(\operatorname{supp}A_\phi\), and set
+\[
+  R_{\rho,\varepsilon}:=\rho\eta I+\varepsilon A_\phi .
+  \tag{NUL.19}
+\]
+Then
+\[
+  \operatorname{div}R_{\rho,\varepsilon}
+  =
+  \nabla(\rho\eta)+{2\varepsilon\over3}\nabla\Delta\phi
+  =
+  \nabla\left(\rho\eta+{2\varepsilon\over3}\Delta\phi\right),
+  \tag{NUL.20}
+\]
+so \(\mathbb P\operatorname{div}R_{\rho,\varepsilon}=0\).
+
+For fixed \(\rho>0\), choosing \(\varepsilon>0\) sufficiently small makes
+\(R_{\rho,\varepsilon}\ge0\) and
+\[
+  \lambda_{\max}(R_{\rho,\varepsilon})
+  \le {1\over2}\operatorname{tr}R_{\rho,\varepsilon}
+  \tag{NUL.21}
+\]
+pointwise. Indeed on \(\operatorname{supp}A_\phi\) the trace is \(3\rho\), and
+\(\rho+\varepsilon\lambda_{\max}(A_\phi)\le3\rho/2\) plus
+\(\rho+\varepsilon\lambda_{\min}(A_\phi)\ge0\) hold for small \(\varepsilon\);
+outside \(\operatorname{supp}A_\phi\) the stress is scalar. Thus
+\(R_{\rho,\varepsilon}\) is a compact nonzero Leray-null PSD stress lying inside
+the pointwise Beltrami covariance cone.
+
+This is only a local tensor countermodel. It does not construct a same-fluid WKB
+bath. It says the exact cone blocks over-wide PSD shortcuts such as rank-one
+covariance, while leaving a genuine cone-compatible null-stress certificate
+branch for the profile rows to test.
+
 ## 6. Reduced burden
 
 The pressure-law row is now:
@@ -256,7 +309,7 @@ Leray-null stress class:
     \mathbb P\operatorname{div}R=0\}
   =
   \{qI+S:\operatorname{div}S=0\}.
-  \tag{NUL.18}
+  \tag{NUL.22}
 \]
 
 What remains unproved is that actual Navier-Stokes WKB terminal packets either
@@ -278,12 +331,15 @@ This null class contains nonzero compactly supported trace-free anisotropic
 examples \(R_\phi=\nabla^2\phi-(\Delta\phi)I/3\), so anisotropy alone cannot
 close the pressure row. Actual Reynolds origin adds positive covariance
 ballast, hence positive unresolved kinetic energy, for any nonzero trace-free
-anisotropic null component.
+anisotropic null component. The same-helicity Beltrami covariance cone excludes
+rank-one PSD shortcuts but still admits scalar-ballasted Hessian null stresses
+pointwise, so cone membership alone does not exclude the null branch.
 
 ## 8. State
 
 This note proves the exact Leray-null characterization for compactly supported
-smooth Reynolds stresses and the trace-free Hessian null-stress example.
+smooth Reynolds stresses, the trace-free Hessian null-stress example, and the
+scalar-ballasted Beltrami-cone-compatible null-stress countermodel.
 
 The covariance-ballast follow-up proves the separate positivity price for
 actual Reynolds defects. This note itself proves no theorem forcing actual
