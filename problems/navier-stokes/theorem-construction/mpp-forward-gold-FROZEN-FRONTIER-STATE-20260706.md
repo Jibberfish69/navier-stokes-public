@@ -75,12 +75,8 @@ F1 -> (F2 || F3) -> F4 -> F5.
   populates bounded-shape predator triangles — spatial
   concentration FORCES angular spread. G-ratio floor on the
   populated class named + quarantined (the audit's certified-floor
-  alternative, now population-backed). Gaps: t1 compact-vs-
-  essential support; t2 the carried correlation constant; t3
-  usable-mass = monomial-participation routing (the regate point);
-  t4 C_B arithmetic re-derivation. If t1-t3 clear, F1 has ZERO
-  open gates. t1 CLOSED (Fable, pending gate,
-  f1-essential-support-variant-paley-wiener-consistency), WITH a
+  alternative, now population-backed). Fable update 441 files t1 as
+  closed pending gate by the essential-support variant, with a
   self-correction: the parent's hypothesis pair (exact band
   limitation AND exact compact support) is VACUOUS by Paley-Wiener;
   the lemma's consistent form is exact band limitation + ESSENTIAL
@@ -88,7 +84,10 @@ F1 -> (F2 || F3) -> F4 -> F5.
   2 C_B a^3 theta + 2 eps; with spill eps <= 1/8 and theta_*^ess =
   pi/(14 a^3), at least half the mass populates. Frame owes one
   input: spill <= 1/8 at one correlation volume (read a as the
-  spill-1/8 radius). Open core: t3.
+  spill-1/8 radius). Current open core: t3 usable-mass =
+  monomial-participation routing. t2 carried correlation constant
+  and t4 C_B arithmetic remain verification/certification items
+  unless the gate marks them cleared.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
