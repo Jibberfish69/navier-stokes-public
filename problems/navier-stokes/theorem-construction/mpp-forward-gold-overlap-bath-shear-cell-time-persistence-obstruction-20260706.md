@@ -57,19 +57,14 @@ The checked result is negative for constant-direction pressure service.
 
 ## 2. Scale of the exact shear cell
 
-Use the shear-cell notation from the exact display. Its velocity amplitude and
-gradient scale are
-\[
-  |u|\sim UD,
-  \qquad
-  |\nabla u|\sim U,
-  \tag{SCT.3}
-\]
-if \(U\) denotes the gradient amplitude. Equivalently, with the previous
-normalization,
+Let
 \[
   a:=|\nabla u|\sim |K|^{1/2},
-  \qquad
+  \tag{SCT.3}
+\]
+
+In the displayed shear cell from the previous note, \(a=U/D\). Thus
+\[
   |u|\sim aD.
   \tag{SCT.4}
 \]
