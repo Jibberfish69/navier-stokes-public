@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -49,10 +50,12 @@ completion_truth: >-
   gives a limit-of-class / original-participation / carrier-or-tower failure.
   Certificate compactness names the actual closedness input, and the
   pressure-law certificate now contains the Reynolds-defect fork: the quadratic
-  defect must vanish modulo pressure gauge with compatible pressure service, or
-  be legally carried as a profile certificate. The ancestry coordinate has the
-  transport-defect fork, and the cover coordinate has the finite-cover
-  compactness fork.
+  defect must vanish modulo pressure gauge with compatible pressure service,
+  lie in the exact Leray-null class R=qI+S with div S=0, or be legally carried
+  as a profile certificate. The null class contains trace-free anisotropic
+  Hessian gauges R_phi=Hess phi-(Delta phi)I/3, so anisotropy alone does not
+  close the pressure row. The ancestry coordinate has the transport-defect
+  fork, and the cover coordinate has the finite-cover compactness fork.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -219,6 +222,23 @@ then the limit solves Navier-Stokes-Reynolds with force
 \(\mathbb P\operatorname{div}R=0\) with compatible pressure service, or when
 \(R\) is carried as part of the legal profile certificate. Otherwise this is
 actual-pressure-law / tower loss, not retained WKB supply.
+
+The null branch in the pressure-law row is exact. For compactly supported
+smooth symmetric stresses,
+\[
+  \mathbb P\operatorname{div}R=0
+  \quad\Longleftrightarrow\quad
+  R=qI+S,\qquad \operatorname{div}S=0 .
+\]
+It is nontrivial even inside trace-free anisotropic stresses:
+\[
+  R_\phi=\nabla^2\phi-{1\over3}(\Delta\phi)I
+  \quad\Longrightarrow\quad
+  \mathbb P\operatorname{div}R_\phi=0 .
+\]
+So the pressure-law row cannot reject every anisotropic crowd defect by
+anisotropy alone. Such a defect must be handled as pressure gauge plus
+null-stress certificate, or by one of the other certificate rows.
 
 The cover coordinate is Pack-side. A WKB profile must lift to a uniformly
 bounded finite readout-compatible cover with compact chart parameters and
