@@ -33,6 +33,7 @@ derived_reductions:
   - mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
   - mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
+  - mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
 completion_truth: >-
   This is a correction and strict re-foundation, not a proof of c_0. The
   previous reversible-cancellation language is withdrawn as a temporal
