@@ -524,6 +524,24 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   a charge for mixed periods or a signed-subwindow fallback. The cited
   finite-chain sources give local-clock handoff control; they do not
   prove the next return phase is slower than the averaged spring.
+  o3 DISSOLVED — SIGN ROUTING UNNECESSARY (Fable, pending gate,
+  self-financing-dwell-bound-o3-dissolved-one-comparison): the rate
+  cap holds on ALL above-threshold time regardless of sign
+  classification, so the refill bound is direct: (H1) V^+ <=
+  rho_max^- T_lift, T_lift <= T_block, lift intervals = measurable
+  disjoint time (the only routing input o4 needs). (H2) two-kind
+  dwell dichotomy with all inputs paid: D_1 <= (B_phi + rho_max^-
+  T_lift)/(q_per^- - delta), D_2 <= rho_max^- T_lift/delta. (H3)
+  THE SELF-FINANCING FRACTION ROW: dwell fraction <= T_* rho_max^-
+  [1/(q_per^- - delta) + 1/delta] + endpoint/T_block; at delta =
+  q_per^-/2 the SINGLE comparison is 4 T_* rho_max^-/q_per^- <=
+  f_dw/2, in raw band symbols 16|d_pkg| B_1 B_2 T_* X_max^2 <=
+  f_dw A_0 sqrt(G_thr); block-length floor routes B_phi to the
+  length row. (H4) consequences: AdiabaticSignRouting UNNECESSARY;
+  T_slow DROPS OUT; R4-TV unnecessary FOR THIS ROW (display remains
+  valid, unspent); the c3 mixing-term comparison SUPERSEDED. The
+  refill war is rate-versus-rate on one shared clock: the drain's
+  rate is financed, the refill's rate is capped by the floor.
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
