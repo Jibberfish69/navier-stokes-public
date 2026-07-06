@@ -28,6 +28,7 @@ target_objects:
   - OriginalHistoryParentPredictableFreshInnovationCarleson.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
@@ -55,8 +56,12 @@ completion_truth: >-
   harmonic-square return from root-geometry reserve, and Bessel after a
   predictable Hilbert geometry. The open producer remains construction of the
   pre-readout same-packet root payment and selected admission from the original
-  pressure-viscosity-incompressibility-velocity history. No FullTower
-  retention, strict c_0, or MPP closure is claimed.
+  pressure-viscosity-incompressibility-velocity history. The full-tower
+  positive-channel projection audit further shows that this root-payment object
+  is not by itself all of FullTower retention: the full material
+  strain/coefficient/commutator clock still requires signed smooth same-packet
+  commutator/coercivity or route-out. No FullTower retention, strict c_0, or
+  MPP closure is claimed.
 ---
 
 # Record/reset root payment frontier for the irreversible c_0 route
