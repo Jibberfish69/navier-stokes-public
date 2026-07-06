@@ -782,6 +782,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    so the existing Sobolev/Field consumer applies after same-solution witness
    admission. This is a consumer for admitted terminal trace, not a proof that
    the trace ballast is legally carried through the profile rows.
+   The same positive trace energy must also lift to the finite-cover
+   certificate; if it survives only after cover collapse, chart-count escape,
+   or overlap/readout incompatibility, the branch is Pack-side cover failure.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
