@@ -25,55 +25,21 @@ depends_on:
   - mpp-forward-gold-codex-channel-cell-bv-tightness-proof-20260705.md
   - mpp-forward-gold-codex-ge-source-floor-substitution-20260706.md
 completion_truth: >-
-  Closes the bad-cone capacity fork structurally, modulo two named
-  homed inputs; proves no constant. (Q1 - THE TWO DIALS) The
-  bad-cone mass fraction obeys the essential-Bernstein bound at
-  ANY localization radius kappa a/mu and ANY cone angle theta:
-  eta(theta, kappa) <= 2 C_B (kappa a)^3 theta + 2 s(kappa), where
-  s(kappa) is the packet family's spill outside radius kappa a/mu.
-  BOTH terms are ours to dial: theta directly; s(kappa) by
-  widening the ball. (Q2 - TIGHTNESS BEATS THE BAD CONE) For any
-  target eta_0 > 0: uniform tightness of the packet family
-  (s(kappa) -> 0 as kappa -> infinity, uniformly on the carried
-  family) supplies kappa_0 with s(kappa_0) <= eta_0/4; then
-  theta_row := eta_0/(8 C_B (kappa_0 a)^3) gives
-  eta(theta_row, kappa_0) <= eta_0. NO DECAY RATE IS NEEDED for
-  the structural closure - any uniform decay to zero suffices; the
-  rate only sizes theta_row, hence the downstream G_floor, hence
-  F4 constants (quarantined). (Q3 - THE ROW CLOSES) The fork's
-  scalar row per financed window, in per-time form: m^+ rate >=
-  G_e/|d_pkg| (the financed drain floor in monomial currency -
-  currency check: de = -d_pkg 2ReM dt, so m^+ = e^+/|d_pkg|),
-  versus Cap_B rate <= 2 C_tri eta^{1/2} (band caps). Choose
-  eta_0 := [G_e/(2|d_pkg| . 2 C_tri . caps)]^2; then Cap_B rate
-  <= (1/2) m^+ rate, so AT LEAST HALF the financed active monomial
-  mass lies in the good-angle class G_{theta_row}, and the paid
-  home pushforward applies to that active mass. F1 actual-NS
-  population follows BY COMPOSITION. (Q4 - THE TWO HOMED INPUTS,
-  flag-then-verify, NOT claimed) (w1) UNIFORM PACKET TIGHTNESS:
-  s(kappa) -> 0 uniformly on the carried financed family - homed
-  at the channel-cell BV tightness proof / the frame definition;
-  for a single L2 object spill -> 0 is trivial, the content is
-  uniformity over the family, which band compactness + BV
-  tightness should supply; Codex to verify at that home. (w2) THE
-  C_tri DISPLAY: the finite-band trilinear capacity constant -
-  Codex named its proof standard (Cauchy-Schwarz / finite-band
-  convolution with the small L2 factor on the bad leg); the
-  display is owed. CONSEQUENCE IF w1-w2 CLEAR: the fork's good
-  branch holds with margin 1/2 on every financed window; combined
-  with R2a + R2b-scaling + the Bernstein lemma + this closure, THE
-  F1 ACTUAL-NS POPULATION CLAUSE IS PAID, and F1 reduces to gate
-  verification alone. The failure branches remain typed and
-  honest: if w1 fails, the frame's packets are not uniformly
-  localized (a frame-definition defect, not a phase mystery); if
-  w2's constant is too large... it cannot be - eta_0 absorbs any
-  finite C_tri; only w1 carries real risk. HONEST GAPS: (w1), (w2)
-  above; (w3) theta_row-sized G_floor propagates to the consumers
-  - quarantined to Chapter 10; (w4) the per-window floor
-  m^+ >= G_e|I|/|d_pkg| uses the source-floor substitution before
-  downstream charges - same scope as the fork. No F2/F4/F5,
-  Chapter-10, manuscript, or MPP closure is claimed. Filed is not
-  cleared.
+  Codex-regated state: the two-dial bad-cone algebra is accepted as a
+  strict reduction, not a cleared gate. The finite-band C_tri display
+  is paid by Cauchy-Schwarz/Young convolution on the compact sub-octave
+  band family. The remaining load-bearing input is w1,
+  UniformCenteredPacketTightness: s(kappa)->0 uniformly on the carried
+  financed packet family after packet-centering and scale normalization.
+  This is not supplied by the essential-support note, which gives only
+  a fixed spill threshold at one radius, and not supplied by the
+  channel-cell BV tightness note, which concerns finite variation of
+  defect measures on finite-readout compacts. The route also carries
+  the financed-source-floor scope guard and sends theta_row/G_floor
+  constants to Chapter 10. F1 actual-NS population is reduced, not
+  cleared; the predator-slot phase-sweep theorem remains the secondary
+  route. No F2/F4/F5, Chapter-10, manuscript, or MPP closure is claimed.
+  Filed is not cleared.
 ---
 
 # Two dials close the bad-cone fork: tightness beats the knife-edge
