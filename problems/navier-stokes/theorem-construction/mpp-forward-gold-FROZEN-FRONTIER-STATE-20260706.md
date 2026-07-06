@@ -208,6 +208,18 @@ F1 -> (F2 || F3) -> F4 -> F5.
   row formation / Gate-A tax backing, Chapter-10 positivity of \(c_0\),
   and weighted routing or SRP moment-readout bridge for non-retained
   residues. The time-marginal projection remains separate.
+  Codex follow-up isolates that SRP bridge:
+  `mpp-forward-gold-codex-srp-moment-readout-bridge-reduction-20260706.md`.
+  A finite active-readout first-moment failure is not the old
+  \(\{\bar\kappa=\infty\}\) Silver branch. After the retained crossing
+  is removed, any remaining weighted first-moment mass is non-retained
+  residue and must be assigned to one of four typed routes: weighted
+  Gate-A/boundary/locality traffic; compensator or row-formation failure
+  with Pack/Part landing; an explicitly defined SRP moment terminal
+  readout with Chapter-9/Silver consumer; or, after P1/P2/\(c_0\), the
+  retained row already consumed by the geometric crossing. This pays the
+  classification bridge only; the weighted route bounds and any CM/Silver
+  consumer remain open.
   Codex follow-up reduces the time projection as well: for any finite
   time marginal \(m_{\rm tail}=fdt+m^s\) and any chosen rate \(D\),
   the split \(m_{\le D}=\min(f,D)dt\),
