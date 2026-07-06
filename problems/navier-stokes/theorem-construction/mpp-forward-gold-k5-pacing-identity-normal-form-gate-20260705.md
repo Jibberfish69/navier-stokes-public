@@ -13,6 +13,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-saturation-pacing-identity-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
 completion_truth: >-
   Codex gate on the K5 pacing-identity note. The direct quadratic feed into the
   growing band remains zero by wavenumber selection. The surviving pure-mode
@@ -29,8 +31,9 @@ completion_truth: >-
   neutral phase is logarithmic in the seed amplitude, not seed-independent.
   If Re Lambda_edge <= 0 or vanishes by symmetry, the pure neutral mode survives
   this K5 channel outright. If Re Lambda_edge > 0, K5 supplies only an
-  amplitude-octave pacing law and still needs a seed floor, custody payment, or
-  sideband/crowd mechanism to restore a seed-independent per-encounter cap.
+  amplitude-octave pacing law. The viscous Reynolds split later supplies the
+  external clock on the unit/marginal branch and leaves the super-marginal branch
+  Reynolds-weighted.
 ---
 
 # K5 pacing identity normal-form gate
@@ -236,7 +239,7 @@ neutral-phase integral carries
 \tag{K5G.17}
 \]
 
-So the next exact K5 question is doubled: compute the sign of
-\(\Lambda_{\rm edge}\), and identify whether a seed floor/custody payment removes
-the logarithmic seed dependence. The crowd cell, custody, and octave composition
-remain untouched.
+The follow-up viscous Reynolds split decides the external-clock option:
+unit/marginal Reynolds removes the logarithm with an order-one cap, while
+super-marginal Reynolds leaves a weighted high-Re branch. The crowd cell,
+custody, and octave composition remain untouched.
