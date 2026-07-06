@@ -1422,3 +1422,28 @@ W0-B is reduced to:
 1. B2: `InternalFirstAdmissionNoExit(N*)` or the selected-critical fresh-source
    wall;
 2. B3: material-time Liouville / certified marginal bath construction-or-exit.
+
+## 12. Codex W0-B B2 supersession audit (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0b-b2-internal-noexit-supersession-audit-20260706.md`.
+This is a strict supersession audit, not a proof of W0-B.
+
+The current W1/FCR window is a per-handoff seven-mode packet window. It does
+not support `InternalFirstAdmissionNoExit(N*)` for \(N_*>1\): subevents that
+stay inside one current W1 packet are rereadings blocked by no-recount, while
+genuinely distinct handoffs leave the current W1 window and trigger the
+chapter-9/W6 cost-composition machinery.
+
+Thus `InternalFirstAdmissionNoExit(N*)` is not an independent current W0-B
+burden. B2 now reads:
+
+1. inactive if W1 is repaired by a non-depth route;
+2. the selected-critical fresh-source wall in finite macro-window form if W1
+   uses deep macro-window accumulation.
+
+The live B2 theorem, on the deep route, is
+`CriticalFreshSourceTentCarleson.A` /
+`FreshSourceCriticalScaleMemoryBound.A` (or the July-4 repeated-core /
+shrinking-core branch pair). B3 remains the material-time Liouville / certified
+marginal bath construction-or-exit front.
