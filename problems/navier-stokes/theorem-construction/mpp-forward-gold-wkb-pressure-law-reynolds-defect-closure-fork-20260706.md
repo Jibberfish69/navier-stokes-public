@@ -37,10 +37,12 @@ completion_truth: >-
   cannot be pressure gauge. The Reynolds-null characterization then makes the
   remaining cancellation branch exact: P div R=0 iff R=qI+S with div S=0,
   with q absorbed into pressure and S carried, if at all, as a null-stress
-  certificate. This proves no theorem forcing actual Navier-Stokes WKB packets
-  into the null class, no legal carriage theorem for nonzero null stresses, no
-  profile admission theorem, no WKB construction/exclusion, no confinement
-  constant, and no MPP closure.
+  certificate. The null class is nontrivial even in trace-free anisotropic
+  stresses: R_phi=Hess phi-(Delta phi)I/3 has P div R_phi=0. This proves no
+  theorem forcing actual Navier-Stokes WKB packets into the null class, no
+  legal carriage theorem for nonzero null stresses, no profile admission
+  theorem, no WKB construction/exclusion, no confinement constant, and no MPP
+  closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -225,6 +227,30 @@ must be legally carried by the profile certificate and tested by the other
 rows. Thus multi-cell cancellation means membership in this Leray-null stress
 class, not unrestricted cancellation.
 
+This null class is not only scalar. For
+\[
+  R_\phi:=\nabla^2\phi-{1\over3}(\Delta\phi)I,
+  \qquad \phi\in C_c^\infty(\mathbb R^3),
+  \tag{RDC.15}
+\]
+one has
+\[
+  \operatorname{div}R_\phi={2\over3}\nabla\Delta\phi,
+  \qquad
+  \mathbb P\,\operatorname{div}R_\phi=0 .
+  \tag{RDC.16}
+\]
+For generic \(\phi\), \(R_\phi\) is nonzero, trace-free, and anisotropic:
+\[
+  R_\phi\not\equiv0,\qquad \operatorname{tr}R_\phi=0 .
+  \tag{RDC.17}
+\]
+So the localized fixed-shape obstruction is sharp. A single cutoff
+\(\chi Q\) cannot hide as pressure gauge when \(Q\) is constant non-scalar, but
+a variable-eigenframe trace-free Hessian stress can pass the velocity-law row
+and must be tested by pressure-service compatibility, legal carriage, and the
+other certificate rows.
+
 ## 6. Reduced burden
 
 The actual-law coordinate in `WKBCertificateCompactness.A` is now:
@@ -264,9 +290,10 @@ limit-of-class failure rather than a new pressure-service branch.
 
 This note proves the Reynolds-defect closure fork for the actual law
 certificate, the single-shape localized anisotropic Leray obstruction, and the
-exact Leray-null stress characterization. It does not prove actual
-Navier-Stokes WKB Reynolds defects lie in the null class, does not prove the
-defect vanishes for Navier-Stokes WKB packets, does not prove that a nonzero
-defect can be legally carried, does not prove `WKBCertificateCompactness.A`,
-does not prove profile admission, does not prove WKB construction/exclusion,
-does not decide the confinement constant, and does not close the MPP.
+exact Leray-null stress characterization, including the trace-free Hessian
+null-stress example. It does not prove actual Navier-Stokes WKB Reynolds
+defects lie in the null class, does not prove the defect vanishes for
+Navier-Stokes WKB packets, does not prove that a nonzero defect can be legally
+carried, does not prove `WKBCertificateCompactness.A`, does not prove profile
+admission, does not prove WKB construction/exclusion, does not decide the
+confinement constant, and does not close the MPP.
