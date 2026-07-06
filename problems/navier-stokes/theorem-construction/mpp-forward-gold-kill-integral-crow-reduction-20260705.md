@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-kill-integral-crow-reduction-20260705
-status: seed-independent-cap-derived-direct-k5-feed-obstructed-mean-detuning-open
+status: seed-independent-cap-derived-direct-k5-feed-obstructed-log-seed-obstruction-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / goal item 1 (kill integral)
@@ -42,9 +42,12 @@ completion_truth: >-
   A single near-edge Fourier mode self-couples only into the mean mode
   and the second harmonic. The Codex gate retypes K5 to the resonant
   edge normal-form coefficient Lambda_edge, with the local-kappa trough
-  criterion rejected as certification. If Re Lambda_edge <= 0 or vanishes
-  by symmetry, the per-encounter tax is dead on the pure edge channel and
-  custody must carry everything (goal kill condition, standing).
+  criterion rejected as certification. Even if Re Lambda_edge > 0, the
+  cubic normal form gives a neutral-phase integral logarithmic in the
+  seed amplitude, not a seed-independent cap. If Re Lambda_edge <= 0 or
+  vanishes by symmetry, the per-encounter tax is dead on the pure edge
+  channel outright; if Re Lambda_edge > 0, the edge still needs a seed
+  floor, custody payment, or sideband/crowd mechanism. 
   Certification-typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
@@ -114,8 +117,10 @@ Thus the direct pure-mode growing-band feed coefficient is identically
 zero. The remaining K5 object is the resonant edge normal-form
 coefficient Lambda_edge: whether the induced mean and second-harmonic
 geometry couples back to the edge mode with positive real part at
-relative rate ~ s * beta^2. Sideband packets are a separate
-sideband/crowd channel, not the pure-mode coefficient.
+relative rate ~ s * beta^2. Favorable sign gives one bounded payment per
+amplitude octave, hence a log(seed) neutral-phase integral. Sideband
+packets are a separate sideband/crowd channel, not the pure-mode
+coefficient.
 
 ## 5. What would certify (chapter-10 items, quarantined)
 
