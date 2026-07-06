@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
 completion_truth: >-
   Exact leading-filament instantaneous floor for the two-tube pair,
   not a lifetime cap and not a full-family constant. Curve leakage alone
@@ -23,11 +24,14 @@ completion_truth: >-
   gamma=0, then a one-variable inequality in y=x^2 gives the rational
   floor. This proves that cancellation between axis rotation and curve
   leakage cannot erase instantaneous eviction on the two-tube profile.
-  Remaining open: transport of this instantaneous floor through the
-  evolving filament lifetime, signed time accumulation, core corrections,
-  high-Re neutral edge timing, crowd/bath interaction, and octave
-  composition. No per-encounter cap, constant decision, or MPP closure is
-  claimed.
+  SAME-DAY FOLLOW-UP: on any leading-order two-tube episode measured in
+  the same arclength packet, this pointwise floor integrates as
+  Prod_+ <= 3 TV_evict. Thus signed time cancellation is killed inside
+  total-variation currency. Remaining open: bounding or consuming that
+  total variation through duration, curve-profile persistence, core
+  corrections, high-Re neutral edge timing, crowd/bath interaction, and
+  octave composition. No per-encounter cap, constant decision, or MPP
+  closure is claimed.
 ---
 
 # K3 combined instantaneous eviction floor
@@ -176,3 +180,13 @@ point on the leading-order two-tube profile,
 \(\mathcal E\ge\sigma/3\). The remaining problem is lifetime transport:
 show that this instantaneous vector floor survives evolution,
 integration, core corrections, high-Re timing, and crowds.
+
+Same-day follow-up
+`mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md`
+integrates this pointwise floor in the correct currency:
+\[
+\mathrm{Prod}_+(T)\le 3\,\mathrm{TV}_{\rm evict}(T).
+\]
+So time-cancellation is not the open issue for a two-tube episode when
+the tax is total variation. The open issue is bounding or consuming the
+total eviction variation.
