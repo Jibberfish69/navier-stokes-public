@@ -261,6 +261,6 @@ the count-only countermodel.
 
 It proves no `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no `AtomicWKBNeighborhoodCarrierAdmission.A`,
-no PDE uncertainty-cell theorem, no cross-cell square-coercivity theorem, no
+no PDE uncertainty-cell theorem, no cross-cell Gram-gap theorem, no
 same-solution witness-legality theorem, no WKB construction/exclusion, no
 confinement constant, and no MPP closure.
