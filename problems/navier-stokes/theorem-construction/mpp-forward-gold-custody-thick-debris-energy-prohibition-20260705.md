@@ -72,7 +72,7 @@ shape-class lower bound, escrow localization on channel-window rows,
 and row lift into composition. No custody clearance or MPP closure is
 claimed.
 
-# Custody G-C-1: thick-debris re-concentration is energetically forbidden
+# Custody G-C-1: thick debris becomes energy escrow
 
 ## 1. The two exact facts
 
@@ -80,17 +80,17 @@ Fixed impulse P at scale L: velocity ~ P/L^3, energy ~ P^2/L^3.
 Re-concentration from L to d multiplies energy by (L/d)^3. Unforced
 viscous flow: dE/dt <= 0. Uphill is forbidden for the isolated blob.
 
-## 2. The consequence
+## 2. The corrected consequence
 
-Isolated thick debris disperses or holds scale; it never re-forms the
-producing geometry on its own. Every path back to production imports
-energy through the medium, and the medium charges the increment-cubic
-transit bill displayed same-day on the other lane.
+Thick debris is not a free reset. Re-forming the producing geometry
+requires the small-scale energy \(P^2/d^3\). That energy is either
+already present as prior paid escrow, or it must be delivered through
+the participating medium, where the increment-cubic transit bill applies.
 
-## 3. Custody's three legs
+## 3. Custody's regated legs
 
 Thin: confiscated (Reynolds threshold, quadratic in concentration).
-Thick isolated: forbidden (this note). Thick assisted: priced
-(payment identity). The free re-assembly channel must now evade all
-three simultaneously. Remaining burden: the row lift into
-composition's summands.
+Thick with escrow: already paid residue, not free reserve. Thick without
+escrow: delivery required and priced by the payment identity. Remaining
+burdens: uniform shape-class lower bound, escrow localization, and the
+row lift into composition's summands.
