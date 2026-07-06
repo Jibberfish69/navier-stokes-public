@@ -31,6 +31,7 @@ regrades:
   - mpp-forward-gold-c0-normalized-passage-gate4-source-strict-verdict-20260706.md
 derived_reductions:
   - mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
+  - mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
 completion_truth: >-
   This is a correction and strict re-foundation, not a proof of c_0. The
   previous reversible-cancellation language is withdrawn as a temporal
@@ -46,8 +47,8 @@ completion_truth: >-
   by finite participation and fixed-cylinder viscous throttle, while the
   shrinking heat-scale branch still requires temporal thickness-or-charge in
   bill currency and same-parent positive-selection storage/detector
-  faithfulness, or route the event out as legal/stop/parentless. No MPP closure
-  is claimed.
+  faithfulness, equivalently global same-history surplus-zero route-b rigidity,
+  or route the event out as legal/stop/parentless. No MPP closure is claimed.
 ---
 
 # Irreversibility rebuild after the reversible-frame error
@@ -288,4 +289,7 @@ The positive-radius / thick-material-time branch is now separated in
 `mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md`:
 that branch is paid by finite participation and the fixed-cylinder viscous
 throttle. The remaining active branch is the shrinking heat-scale material-time
-zero-payer rigidity problem.
+surplus-zero rigidity problem, retyped in
+`mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md`
+as first-ratio storage / global laminar ancestry variation / self-similar
+difference-operator coercivity.
