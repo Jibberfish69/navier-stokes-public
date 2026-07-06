@@ -16,19 +16,18 @@ allowed_source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/spine.md
 depends_on_first_failed_gate:
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-owned-pressure-carleson-direct-attempt-20260706.md
-  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-nonsublinear-pressure-routeout-verdict-20260706.md
+  - supplied-by: problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-retained-field-envelope-source-closure-proof-20260706.md
 completion_truth: >-
   Gate 2 source-strict verdict for the c_0 normalized passage objective. This
   note does not install or refute NormalizedRelayBillCompactnessRecordPassage.A;
-  Gate 1 remains the first exact failed gate. It proves that, even after a
-  hypothetical Gate 1 flux/cutoff closure, the allowed four-body source only
-  supplies signed adjacent exchange identities and retained compactness for a
-  positive/negative/current three-measure packet after that packet has already
-  been produced. It does not prove that every generated positive tower-record
-  channel is retained as that same-packet packet, strict loss, Q-activity, or
-  residual. A zero-net exchange cycle can carry nonzero total positive record.
-  Therefore dA_4B -> 0 does not by itself retain dR_N^+. Gate 2 reduces to
+  Gate 1 is now supplied by the retained pressure-source envelope chain. It
+  proves that the allowed four-body source only supplies signed adjacent
+  exchange identities and retained compactness for a positive/negative/current
+  three-measure packet after that packet has already been produced. It does not
+  prove that every generated positive tower-record channel is retained as that
+  same-packet packet, strict loss, Q-activity, or residual. A zero-net exchange
+  cycle can carry nonzero total positive record. Therefore dA_4B -> 0 does not
+  by itself retain dR_N^+. Gate 2 is now the first failed gate and reduces to
   StrictSamePacketCycleExchangeCoercivity.A, equivalently the relevant face of
   SimultaneousMaterialFourBodyPacketCoercivity.A: every complete same-packet
   exchange cycle with nonzero positive tower-record variation posts strict
@@ -192,9 +191,8 @@ positive material-record growth, and strict nonnegative loss at once.
 
 ## 6. Consequence for the active c_0 objective
 
-Gate 1 remains the first exact failed gate of
-`NormalizedRelayBillCompactnessRecordPassage.A`. This note records the next
-independent failure after a hypothetical Gate 1 repair:
+Gate 1 has been supplied. This note records the first current failure of
+`NormalizedRelayBillCompactnessRecordPassage.A`:
 
 ```math
 dA_{4B,N}(W_j)\to0
