@@ -1324,6 +1324,21 @@ certified positive constant.
    rows do not force bounded selected support; K5 still needs a genuine
    record-locality/admission theorem, actual-NS route-out, or
    dynamic/geometric route-out.
+   Current overlap-bath update, source-audited against the 2026-07-06
+   branch-collapse notes: the four global sources named after the local
+   mechanisms fell are no longer four independent evasion candidates.
+   Non-affine/broadband transport routes to the installed \(q=4/5\) row,
+   residual-energy payment, Reynolds-edge refresh, fixed-density
+   compensator, or persistent WKB construction/exclusion. The Reynolds
+   edge is a payer/router, not a free survivor. The fixed-density
+   compensator is a producer-sized residue that lands in Pack/routed
+   residue or Part-side certificate failure unless explicitly routed
+   outside the retained row. Persistent high-Re WKB is the remaining
+   construction surface. Thus the dense-crowd branch has narrowed to one
+   actual problem: construct or exclude a near-uniform same-fluid WKB bath
+   that evades finite/atomic carrier admission, microlocal-profile
+   admission, high-factor routing, Pack/Part certificate failure, and the
+   WKB profile no-supplier trichotomy.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
