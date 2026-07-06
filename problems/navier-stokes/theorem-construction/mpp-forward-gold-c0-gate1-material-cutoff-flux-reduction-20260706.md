@@ -108,24 +108,23 @@ The viscous part gives, after integration by parts,
 -\frac{\nu}{2}\int\phi^2\Delta|\delta_hU_k|^2
 +\nu\int\phi^2|\nabla\delta_hU_k|^2
 =
-\nu\int\phi^2|\nabla\delta_hU_k|^2
--\nu\int |\delta_hU_k|^2|\nabla\phi|^2
+\nu\int|\nabla(\phi\,\delta_hU_k)|^2
+-\nu\int|\nabla\phi|^2|\delta_hU_k|^2
 \tag{MCF.6}
 ```
 
-up to the standard equivalent form obtained by expanding
-\(\nabla(\phi\,\delta_hU_k)\). Consequently, for every \(\eta>0\),
+Equivalently, by the elementary \(2ab\) inequality, for every \(\eta>0\),
 
 ```math
-\text{viscous cutoff contribution}
-\le
-\eta\nu\int\phi^2|\nabla\delta_hU_k|^2
-+C_\eta\nu\int|\nabla\phi|^2|\delta_hU_k|^2 .
+\nu\int|\nabla(\phi\,\delta_hU_k)|^2
+\ge
+(1-\eta)\nu\int\phi^2|\nabla\delta_hU_k|^2
+-C_\eta\nu\int|\nabla\phi|^2|\delta_hU_k|^2 .
 \tag{MCF.7}
 ```
 
-The first term is absorbed into the signed viscous defect bill. The second term
-is a collar read:
+Thus the localized viscous dissipation absorbs the interior gradient term, and
+the only viscous price of the cutoff is the collar read
 
 ```math
 \mathrm{CollarVisc}_{N,h,\phi}
