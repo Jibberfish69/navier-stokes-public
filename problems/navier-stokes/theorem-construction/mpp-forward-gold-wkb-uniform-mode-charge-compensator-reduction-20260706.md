@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fixed-density-compensator-routing-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
 completion_truth: >-
   Strict reduction only. A positive uniform-mode charge on an identity fiber is
   the average row-sum / monopole component of the cross-cell Gram form. In
@@ -29,7 +30,10 @@ completion_truth: >-
   fixed-density compensator branch already priced as producer-equivalent
   residue. After subtracting any actually backed rank-one payer, the remaining
   zero-mode component is again subject to the anti-equidistribution / near-
-  uniform countermodel. This proves no positive uniform-mode theorem, no
+  uniform countermodel; the residual follow-up makes this exact by reducing
+  bounded residual positivity to legal anti-equidistribution, with unbounded
+  residuals routed as new payers or construction/exclusion. This proves no
+  positive uniform-mode theorem, no
   anti-equidistribution law, no WKB construction/exclusion, no confinement
   constant, and no MPP closure.
 ---

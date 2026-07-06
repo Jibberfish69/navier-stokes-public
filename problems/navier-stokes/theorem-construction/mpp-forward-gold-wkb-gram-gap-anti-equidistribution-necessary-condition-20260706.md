@@ -224,6 +224,19 @@ bath, an order-one such payer is not supplied by the mean-zero kernel or by
 certificate compatibility; it is the fixed-density compensator/residue branch
 unless a new backing source is proved.
 
+The bounded-residual alternative is now typed as well. After subtracting any
+actually backed rank-one payer, a bounded zero-mode residual \(H\) obeys
+\[
+  |a^THa|
+  \le
+  \|H\|\,\|a-u_M\|_2^2.
+  \tag{AE.17}
+\]
+Thus a residual lower bound is not a third source of the Gram gap. It is the
+same legal anti-equidistribution theorem, measured in the residual metric. A
+residual strong enough to charge near-uniform clouds is unbounded and must be
+treated as a new payer/certificate branch or as construction/exclusion.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -245,12 +258,16 @@ The cross-cell WKB branch is now:
 \begin{array}{ll}
 \text{positive uniform-mode charge}
   &\Rightarrow \text{rank-one payer / fixed-density compensator branch},\\[1mm]
+\text{bounded residual positivity}
+  &\Rightarrow \text{anti-equidistribution in the residual metric},\\[1mm]
+\text{unbounded residual positivity}
+  &\Rightarrow \text{new payer / certificate / construction-exclusion},\\[1mm]
 \text{anti-equidistribution of legal clouds}
   &\Rightarrow \text{possible admissible-cone Gram gap},\\[1mm]
 \text{near-uniform legal clouds}
   &\Rightarrow \text{Gram gap false; route to profile admission or construction/exclusion}.
 \end{array}
-\tag{AE.17}
+\tag{AE.18}
 \]
 
 This is a smaller burden than the previous Gram-gap label. It says exactly what
@@ -269,7 +286,8 @@ near-uniform local countermodel; common packet identity also does not prove it
 without bounded count, positive identity-fiber charge, or a legal separation
 law, and finite cover is not bounded count. The uniform-mode charge is a
 rank-one payer, priced in the pressure-service overlap bath as the fixed-
-density compensator branch; the remaining theorem must use a genuine global
-certificate mechanism or construction/exclusion.
+density compensator branch; bounded residual positivity is the same
+anti-equidistribution burden, and unbounded residual positivity is a new
+payer/certificate or construction branch.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
