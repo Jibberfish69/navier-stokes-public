@@ -1,12 +1,12 @@
 ---
 theorem_id: forward-gold-c0-normalized-passage-gate3-source-strict-verdict-20260706
-status: failed-gate3-relay-record-lower-semicontinuity-open
+status: failed-gate3-relay-record-no-loss-passage-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / NormalizedRelayBillCompactnessRecordPassage.A
 target_object:
   - NormalizedRelayBillCompactnessRecordPassage.A
-  - Gate3.RelayRecordLowerSemicontinuity
+  - Gate3.RelayRecordNoLossPassage
   - TowerRecordPassage.A
   - Chapter2ClosednessFiniteReadout
 allowed_source_refs:
