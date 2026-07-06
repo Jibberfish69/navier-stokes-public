@@ -342,11 +342,9 @@ has \(v(0)=0\), \(\nabla v(0)=0\), and generates pressure Hessian
 \[
   {106\over1155}\operatorname{diag}(-1,-1,2)
 \]
-at the origin. Rotations and nonnegative amplitude weights supply every
-trace-free Hessian in the first filed version, but that additive witness is
-false; the corrected quadratic bank map \(\Phi(c)\) with its exact cross terms
-supplies every trace-free Hessian instead. Scaling still gives cost
-\(\lesssim |K|D^5\), hence \(\beta^{4/5}E_{\rm prod}\) for the overlap row.
-The remaining pressure branch is dynamic admissibility, Reynolds-edge failure,
-fixed-density compensator, or construction/exclusion, not static finite-energy
-localization.
+at the origin. The corrected quadratic bank map \(\Phi(c)\), including the
+exact cross terms between rotated copies, supplies every trace-free Hessian.
+Scaling still gives cost \(\lesssim |K|D^5\), hence
+\(\beta^{4/5}E_{\rm prod}\) for the overlap row. The remaining pressure branch
+is dynamic admissibility, Reynolds-edge failure, fixed-density compensator, or
+construction/exclusion, not static finite-energy localization.
