@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -41,8 +42,9 @@ completion_truth: >-
   certificate. This note does not prove certificate compactness for
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
-  not prove profile admission, does not prove WKB construction/exclusion, does
-  not decide the confinement constant, and does not close the MPP.
+  not prove uniform finite-cover compactness, does not prove profile admission,
+  does not prove WKB construction/exclusion, does not decide the confinement
+  constant, and does not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
@@ -200,6 +202,14 @@ Finite/readout-compatible cover failure:
   \hbox{Pack-side profile failure}.
 \]
 
+The cover certificate has its own exact subtest. If the WKB profile measures
+lift to a uniformly bounded finite chart assignment over compact chart
+parameters, with closed membership, readout-compatibility, and finite-overlap
+relations, then the cover survives weak-* profile passage. If the cover
+coordinate is projected away, radius collapse, unbounded chart count, escaping
+chart parameters, or overlap/readout incompatibility can occur. This is
+Pack-side carrier-cover failure.
+
 Material ancestry, original participation, actual pressure law, or same-law
 tower failure:
 \[
@@ -293,6 +303,17 @@ maps, or ancestry currents compactify strongly enough to pass the transport
 relation, or after the hidden transport defect is legally carried in the
 profile certificate.
 
+The finite-cover relation includes:
+
+```text
+WKBFiniteCoverCertificateCompactness.A
+```
+
+Weak WKB limits preserve Pack-side cover data only after the profile lifts to a
+uniform finite readout-compatible cover with compact chart parameters and
+closed overlap/readout constraints. Radius collapse, unbounded chart count, or
+overlap/readout failure is Pack-side carrier-cover loss.
+
 If this holds, the profile is admitted after scalar moment passage. If it
 fails, the failure is a Pack/Part/Field typed limit-of-class artifact or a WKB
 construction/exclusion problem.
@@ -305,6 +326,7 @@ countermodel.
 It proves no `WKBCertificateCompactness.A` for actual Navier-Stokes WKB
 packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
 `WKBTransportDefectVanishesOrCertified.A`, no
+`WKBFiniteCoverCertificateCompactness.A`, no
 `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no general `ActualWKBCarrierExtraction.A`, no
 WKB construction/exclusion theorem, no confinement constant, and no MPP
