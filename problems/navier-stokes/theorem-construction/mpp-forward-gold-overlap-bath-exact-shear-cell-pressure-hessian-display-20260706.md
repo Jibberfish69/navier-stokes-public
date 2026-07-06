@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-hessian-to-strain-eigenvalue-clock-placement-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -26,8 +27,12 @@ completion_truth: >-
   orthonormal frame for K and set reciprocal shear amplitudes so
   U_ij U_ji/D^2=K_ij. Thus exact mean-zero pressure sourcing can supply
   arbitrary trace-free retuning curvature at the same |K|D^5 scale on a
-  periodic cell. What remains is localization/collar matching, coupling to the
-  producing packet, time persistence, and record-ladder allocation.
+  periodic cell. Follow-up time-persistence obstruction shows
+  constant-direction pressure service drifts only at relative rate
+  sqrt(|K|)+nu/D^2, so over one producer clock the drift is
+  beta^(2/5)+nu/(sD^2). What remains is fast direction tracking if forced by
+  the exact matrix, localization/collar matching, coupling to the producing
+  packet, and record-ladder allocation.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -274,8 +279,8 @@ The remaining burdens are:
   collar estimates already priced;
 - coupling the pressure cell to a nonzero producing packet without losing the
   desired retuning row;
-- time persistence of the retuning service under unforced Navier-Stokes
-  evolution;
+- fast direction tracking, if the exact matrix forces the pressure Hessian
+  direction to change on the producer clock;
 - same-packet allocation of the pressure service into record-ladder currency.
 
 ## 7. Four-sentence result
@@ -292,6 +297,6 @@ cell \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
 The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). The exact-matrix
-branch is now narrowed to localization, producer coupling, time persistence,
-and allocation, not the mean-zero pressure-source constraint or instantaneous
-multi-direction pressure algebra.
+branch is now narrowed to fast direction tracking if forced, localization,
+producer coupling, and allocation, not the mean-zero pressure-source constraint
+or instantaneous multi-direction pressure algebra.
