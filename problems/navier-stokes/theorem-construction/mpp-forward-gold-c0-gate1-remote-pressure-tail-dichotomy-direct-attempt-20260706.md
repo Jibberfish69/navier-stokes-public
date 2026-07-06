@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate1-remote-pressure-tail-dichotomy-direct-attempt-20260706
-status: direct-attempt-fails-reduces-to-retained-field-envelope-exhaustion-or-routeout
+status: superseded-closed-by-retained-field-envelope-source-closure-proof
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 1 remote pressure tail
@@ -19,15 +19,14 @@ completion_truth: >-
   proves the absorption branch for remote tower differences that lie inside an
   enlarged retained Field envelope: after exhaustion, they are the same
   nonnegative Field/viscous currency and the dyadic pressure tail is absorbed.
-  The attempt does not prove the outside-envelope branch from the allowed
-  sources. The source says a localized or spatially varying participation
-  defect is Field-visible once neighboring blocks are included, but it does not
-  say every pressure-increment source outside the selected retained comparison
-  component is automatically legal/Pack/Part/Field route-out. The remaining
-  Gate 1 theorem is RetainedFieldEnvelopeExhaustsPressureIncrementSource.A:
-  every tower-difference source contributing to the selected pressure increment
-  is either included in the retained Field envelope under legal exhaustion, or
-  it creates a concrete legal/collar/Pack/terminal-Part/Field face.
+  The outside-envelope branch was left open in this direct attempt, then closed
+  by the retained field-envelope source closure proof on the same date using
+  the terminal Part reading: a remote pressure source needed by the selected
+  pressure increment is either Field-visible once neighboring blocks are
+  included, or the pressure-viscosity carrier is not retained with the terminal
+  readout control needed by the witness. This note is therefore superseded as an
+  open verdict; it remains the absorption-branch proof consumed by
+  RetainedFieldEnvelopeExhaustsPressureIncrementSource.A.
 ---
 
 # Gate 1 remote pressure-tail dichotomy direct attempt
@@ -155,8 +154,9 @@ The direct proof splits it into:
 \tag{RPT.8}
 ```
 
-The first line is proved by `(RPT.3)'. The second line is not installed by the
-allowed sources.
+The first line is proved by `(RPT.3)'. The second line is closed in
+`mpp-forward-gold-c0-gate1-retained-field-envelope-source-closure-proof-20260706.md`
+using terminal Part and Field custody.
 
 The exact remaining theorem is therefore:
 
@@ -181,14 +181,14 @@ the elliptic pressure kernel to the selected pressure increment is either:
 \tag{RPT.10}
 ```
 
-With `(RPT.9)', the remote pressure-tail theorem `(RPT.7)' follows, then
+With `(RPT.9)' now proved, the remote pressure-tail theorem `(RPT.7)' follows, then
 `RetainedPressureIncrementCZTailAdmission.A' follows, then Gate 1
 `RetainedRelayFluxCutoffClosure.A' follows.
 
 ## 5. Consequence for c_0
 
-This is still not a proof of \(c_0>0\). It is a strict reduction of the first
-failed gate.
+This is still not a proof of \(c_0>0\). It is the strict reduction consumed by
+the Gate 1 closure proof.
 
 Physically, the pressure tail has now been forced into a same-field custody
 question. A retained local relay may not borrow pressure force from remote
