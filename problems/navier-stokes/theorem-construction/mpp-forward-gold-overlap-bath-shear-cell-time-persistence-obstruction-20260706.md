@@ -37,8 +37,9 @@ completion_truth: >-
   modes, whose Hessian at the station vanishes. Follow-up fast-direction
   tracking obstruction kills the producer-clock tracking floor: retuning the
   supplied Hessian direction costs |K|D^5 over one producer clock. What remains
-  is the Reynolds threshold bridge, Gate-8 no-recount allocation/compensator,
-  supercritical fast-motion forcing, or a full dynamic bath construction.
+  at that stage was the Reynolds threshold bridge, Gate-8 no-recount
+  allocation/compensator, fast-tracking threshold branch, or a full dynamic bath
+  construction.
   Follow-up affine-transport pressure-bank obstruction prices affine same-fluid
   custody at beta^(4/5), so the current dynamic branch is
   non-affine/broadband same-fluid transport, Reynolds-edge failure,
