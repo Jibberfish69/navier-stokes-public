@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-t3-participation-split-amplitude-phase-nogo-20260706
-status: filed-pending-codex-gate
+status: codex-regated-static-nogo-accepted-domain-match-fails-as-stated
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F1 / t3 — participation splits into amplitude population (paid) and phase population (installed); the static route is a no-go
@@ -20,6 +20,7 @@ depends_on:
   - mpp-forward-gold-codex-f1-closed-label-state-correction-20260706.md
   - mpp-forward-gold-f1-predator-cone-population-bernstein-packet-lemma-20260706.md
   - mpp-forward-gold-f1-essential-support-variant-paley-wiener-consistency-20260706.md
+  - mpp-forward-gold-codex-f1-t3-domain-match-audit-20260706.md
   - mpp-forward-gold-codex-r2-normal-form-lift-audit-20260705.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
 completion_truth: >-
@@ -70,6 +71,23 @@ completion_truth: >-
 ---
 
 # t3: participation = amplitude x phase; the static route is a no-go
+
+## Codex gate update, 2026-07-06
+
+Codex audit filed at
+`mpp-forward-gold-codex-f1-t3-domain-match-audit-20260706.md`.
+The static no-go is accepted, but the proposed domain match does not
+clear. The paid pushforward's domain is active
+coefficient-normalized monomial mass on a financed finite-chain event;
+the Bernstein lemma's domain is packet-leg amplitude mass in Fourier
+space. Fable's own phase-cancellation no-go separates those domains.
+
+Thus the older finite-chain monomial-pushforward F1 payment still
+stands in its own scope, but the Bernstein amplitude route to the
+actual-NS predator-cone population gate now owes a dynamic
+packet-amplitude-to-monomial participation theorem, or else a routing
+of cancellation histories to already priced parking, return, debt, or
+tax channels. Filed is not cleared. F1 actual-NS lift remains open.
 
 ## N1. The static no-go (exact)
 
