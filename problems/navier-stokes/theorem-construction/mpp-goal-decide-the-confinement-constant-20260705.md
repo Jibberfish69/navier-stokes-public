@@ -1141,6 +1141,17 @@ certified positive constant.
    terminal admission routes to the existing cutoff/Reynolds-certificate and
    Field/Pack/Part rows. The actual near-uniform same-fluid WKB bath remains
    open.
+   Follow-up cyclic-carrier-shuttle branch kill filed: a same-bank WKB bath
+   cannot close carrier scales into cycles and keep sign-coherent active
+   service for free. On a closed carrier/weight/bank cycle, fixed weights give
+   zero net active service. Any active service \(A\) on such a cycle obeys
+   \[
+     A\le{\Delta\over2}V_w+WV_D,
+   \]
+   so cyclic shuttling is refresh/reassembly population variation or bank
+   log-variation, not a neutral no-eviction mechanism. The actual bath still
+   lives if same-fluid dynamics can make \(V_w\) or \(V_D\) cheap, or if the
+   construction/exclusion branch survives.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
