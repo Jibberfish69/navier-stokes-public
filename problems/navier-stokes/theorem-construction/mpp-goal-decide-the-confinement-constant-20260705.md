@@ -464,11 +464,25 @@ noncircular financed-family lower bounds behind those margins, and the
 matched R4 drift budget on the same band. Same-day correction: the
 actual Gate-6 cubic normalization is paid; the map to normalized roots
 \(0,1,1/m\) is exact and its physical Jacobian is \(r_+-r_-\). Thus the
-product-side residue is: remaining \(\Delta_{\rm G6a}\) source packet,
-finite constants \(K_{\rm off},\tau_{\min},\Omega_{\rm R4},
-D_{P2}^{\rm ti},D_{\rm tail}^{\rm ti}\), positivity of the displayed
-row, BoundaryTail_F4 endpoint/rate split, and the length row. This does
-not decide the confinement constant.
+opaque \(\Delta_{\rm G6a}\) source packet splits into the root-factor
+lower enclosure and the endpoint frozen-margin comparison against matched
+R4 drift. Same-day root-factor obstruction: swing amplitude and separatrix
+gap do not imply the root factor. For roots
+\[
+  r_-=\varepsilon,\qquad r_+=A+\varepsilon,\qquad r_*=B+\varepsilon
+  \quad(0<A<B),
+\]
+the Gate-6 cubic can be realized by Vieta's formulas with fixed swing
+\(A\), fixed modulus \(A/B\), and fixed gap \(B-A\), while
+\[
+  r_-(I_1+I_2-2r_-)=\varepsilon(A+B+\varepsilon)\to0.
+\]
+So the product-side residue is: bottom-root / phase-invariant floor or
+direct \(\Delta_{\rm G6a}\) interval certification, endpoint margin beating
+R4 drift, finite constants \(K_{\rm off},\tau_{\min},\Omega_{\rm R4},
+D_{P2}^{\rm ti},D_{\rm tail}^{\rm ti}\), positivity of the displayed row,
+BoundaryTail_F4 endpoint/rate split, and the length row. This does not decide
+the confinement constant.
 
 ## Work order (each unit: output + kill condition)
 
