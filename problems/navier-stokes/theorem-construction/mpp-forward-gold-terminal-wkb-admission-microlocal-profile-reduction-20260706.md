@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
@@ -39,6 +40,9 @@ completion_truth: >-
   artifact/original-participation failure. The profile moment-continuity
   criterion pays the scalar pressure-moment passage when the service readout is
   continuous or uniformly stabilized, and blocks moving-spike selector overclaim.
+  The closed-graph witness criterion pays the next compactness row: closed
+  same-solution legal labels admit the profile support, while nonclosed legality
+  gives a limit-of-class / original-participation / carrier-or-tower failure.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
@@ -185,6 +189,15 @@ to the profile. If that modulus fails, the apparent retained moment is carried
 by a moving service selector; this is material, center, envelope, time, scale,
 bank, weight, or rung escape, not admitted retained profile service.
 
+The closed-graph witness criterion then isolates the legal-support portion of
+the burden. Let \(\mathcal L\) be the legal labels satisfying same
+datum/viscosity, actual Navier-Stokes pressure law, material ancestry or
+licensed original participation, finite/readout-compatible carrier cover at
+measure level, and same-law tower. Closedness of \(\mathcal L\) admits the
+limiting profile support. Nonclosed \(\mathcal L\) gives legal prelimit labels
+converging to an illegal limiting label, hence limit-of-class /
+original-participation / carrier-or-tower failure.
+
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
 participation failure.
@@ -222,7 +235,7 @@ The next proof-bearing object is one of:
 
 ```text
 ActualWKBCarrierExtraction.A
-MicrolocalDefectProfileAdmission.A
+MicrolocalDefectProfileAdmission.A, now including closedness of the legal-label set
 WKBConstructionOrExclusion.A
 ```
 
