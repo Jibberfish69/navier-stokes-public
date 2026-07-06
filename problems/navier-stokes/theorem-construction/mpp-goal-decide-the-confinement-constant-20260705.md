@@ -1286,6 +1286,18 @@ certified positive constant.
    bounded effective subpacket, dynamic recurrence/nonlocal return, forced
    curve/core/crowd geometry, or route-out of the long packet as an admissible
    retained producer.
+   Follow-up density-dilution dichotomy filed: for the same long packet,
+   \(E_L\sim |a_L|^2L\) and \(p_{\rm loc}\sim s\Pi |a_L|^2\). Endpoint delay
+   requires \(kL\gtrsim\operatorname{Re}\). If the retained record branch
+   demands \(p_{\rm loc}\ge p_0\) on that endpoint-delay length and energy is
+   bounded by \(E_*\), then
+   \[
+     \operatorname{Re}\lesssim kE_*s\Pi/p_0.
+   \]
+   Thus the high-Re long-packet escape must dilute local production density
+   like \(O(\operatorname{Re}^{-1})\) or smaller; the remaining question is
+   whether such a diluted/distributed object can still carry selected record
+   throughput and be admitted as a retained K5 producer.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
