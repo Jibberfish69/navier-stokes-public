@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -40,6 +41,9 @@ completion_truth: >-
   WKB/microlocal profiles and nontight clouds to selected-carrier
   domain/label/rung escape; it also shows that count-only no-free-fragmentation
   and same-cell packet-moment square coercivity are false. A nonzero
+  profile carries the retained scalar pressure-service moment whenever the
+  active service readout is continuous or uniformly stabilized; without that
+  stabilization a moving-spike selector is label/weight/rung escape. A nonzero
   diffuse part reduces the problem to DiffuseWKBProfileAdmission.A: admit the
   diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
@@ -285,8 +289,12 @@ the nonvanishing terminal WKB horn now has the exact split:
 \end{array}
 \]
 
-This is a strict narrowing of `MicrolocalDefectProfileAdmission.A`. It does not
-prove that either profile branch is admitted.
+The profile moment-continuity criterion pays the scalar moment-passage part of
+this fork when the active pressure-service readout is continuous or uniformly
+stabilized. If the service readout moves as a spike, the apparent retained
+moment is label/weight/rung escape, not an admitted profile moment. This is a
+strict narrowing of `MicrolocalDefectProfileAdmission.A`. It does not prove
+that either profile branch is admitted as a same-solution terminal witness.
 
 ## 8. State
 
@@ -303,7 +311,9 @@ the unbounded-count case, which the compactness split routes to a tight profile
 object or nontight selected-carrier escape; count-only no-free-fragmentation and
 same-cell packet-moment square coercivity are false. The beta-small many-cell
 WKB survivor lies in that unbounded-count case. The latter is a measure-valued
-terminal witness theorem or limit-of-class failure theorem.
+terminal witness theorem or limit-of-class failure theorem, after the scalar
+moment-passage clause has been paid by continuous/stabilized service readout or
+else routed to moving-selector escape.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,

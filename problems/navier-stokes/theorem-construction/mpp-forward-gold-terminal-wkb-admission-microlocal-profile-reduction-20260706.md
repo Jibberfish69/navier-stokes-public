@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-terminal-frequency-escape-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
@@ -34,7 +35,10 @@ completion_truth: >-
   Field face. Or one proves MicrolocalDefectProfileAdmission.A, showing that a
   nonzero semiclassical/H-measure/WKB defect profile from the actual branch is
   itself a lawful terminal witness ledger, or else a limit-of-class terminal
-  artifact/original-participation failure. Existing microlocal-defect notes show
+  artifact/original-participation failure. The profile moment-continuity
+  criterion pays the scalar pressure-moment passage when the service readout is
+  continuous or uniformly stabilized, and blocks moving-spike selector overclaim.
+  Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
   payment or same-witness admission. Therefore a WKB profile without actual
   carrier admission is not retained supply. This note proves no actual-carrier
@@ -170,6 +174,14 @@ defect compactness can see a positive divergence-free high-frequency
 oscillation. It does not by itself make the selected positive carrier
 endpoint-uniformly integrable, square-summable, polar-saturated, or admitted to
 the CM witness tree. Visibility is not admission.
+
+The profile moment-continuity criterion isolates the scalar readout portion of
+this burden. If the active pressure-service readout is a bounded continuous
+functional on the compact phase-label space, or a moving functional converging
+uniformly to one, then the nonzero pressure-service moment passes to the
+profile. If the moment is carried by a moving spike selector, compactness does
+not preserve it; that is material/time/weight/rung escape, not retained profile
+service.
 
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /

@@ -712,6 +712,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    are selected-carrier domain/label/rung escape, and uniform fragmentation
    kills count-only no-free-fragmentation plus same-cell packet-moment square
    coercivity.
+   The WKB profile moment-continuity criterion now pays the scalar moment
+   passage subclause: continuous or uniformly stabilized pressure-service
+   readouts pass to the profile, while moving-spike service is label/weight/rung
+   escape. The open profile burden is same-solution witness legality.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
