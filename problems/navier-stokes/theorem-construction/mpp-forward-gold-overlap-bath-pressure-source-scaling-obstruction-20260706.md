@@ -40,8 +40,8 @@ completion_truth: >-
   packet wording: true periodic divergence-free pressure sources have zero
   mean, but a mean-zero shear cell still gives a nonzero traceless Hessian at a
   zero-gradient station with the same HD^5 cost; the same display supplies any
-  trace-free Hessian after choosing a zero-diagonal frame. The live exact-matrix
-  burden is now sharpened to q=4/5 for retuning pressure service, plus
+  trace-free Hessian after choosing a zero-diagonal frame. At that stage the
+  exact-matrix burden was sharpened to q=4/5 for retuning pressure service, plus
   localization/producer curvature, same-packet allocation, faster-than-
   producer forced tracking, or a true dynamic bath construction. Follow-up
   time-persistence obstruction kills the constant-direction persistence floor:
@@ -54,7 +54,9 @@ completion_truth: >-
   pressure row. Follow-up producer-curvature subscale obstruction kills generic
   producer curvature as an order-one floor in the high-Re subcell regime:
   curvature cross Hessian has size s(D/R)sqrt(|K|), so choosing
-  D/R<=beta^(2/5) keeps it inside q=4/5.
+  D/R<=beta^(2/5) keeps it inside q=4/5. The current pressure branch is
+  subcell/high-Re admissibility, same-packet allocation, faster-than-producer
+  forcing, or construction/exclusion.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
