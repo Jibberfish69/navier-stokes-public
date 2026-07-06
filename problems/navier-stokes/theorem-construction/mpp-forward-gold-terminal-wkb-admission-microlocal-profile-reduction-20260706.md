@@ -269,7 +269,9 @@ transport-defect material-ancestry closure fork, and the finite-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
-reducing that residue to common-packet identity compactness
+reducing that residue to common-packet identity compactness, and the
+identity-factorization reduction absorbing common identity into the four row
+identity subcoordinates
 WKBConstructionOrExclusion.A
 ```
 
