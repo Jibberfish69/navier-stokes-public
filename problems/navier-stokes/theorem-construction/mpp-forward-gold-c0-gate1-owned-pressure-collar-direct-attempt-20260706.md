@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate1-owned-pressure-collar-direct-attempt-20260706
-status: direct-attempt-fails-reduces-to-sublinear-carleson-or-legal-route-out
+status: historical-detached-collar-split-demoted-by-pressure-increment-absorption
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 1 owned pressure collar
@@ -20,20 +20,35 @@ proved_inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-source-law-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-ownership-size-separation-20260706.md
 completion_truth: >-
-  Direct attempt on OwnedPressureCollarSublinearRouteMeasure.A. The theorem is
-  not proved from the allowed sources. The four natural mechanisms all fail at
-  a named missing clause: signed cancellation does not control the absolute
-  localized flux; critical pressure redistribution gives no extra collar decay;
-  B lacks a pressure-collar currency and so gives no absorption; and non-sublinear
-  owned collar flux is not automatically legal/collar/Pack-Part route-out under
-  the current source statements. The first exact failed gate remains Gate 1.
-  The smallest current split is: prove a quantitative owned pressure-collar
-  Carleson/sublinear route-measure bound, or prove that every non-sublinear owned
-  pressure collar flux is legal/collar/Pack-Part route-out rather than retained
-  relay record.
+  Historical direct attempt on a detached owned pressure-collar route measure.
+  Superseded/demoted by the pressure-increment absorption pass on the same date.
+  The actual TC.20 pressure flux is not an arbitrary collar measure; it contains
+  a tower-difference factor and is controlled locally by Calderon-Zygmund
+  pressure-increment structure. The failed split into sublinear Carleson size or
+  legal route-out remains a warning only for detached pressure bookkeeping. The
+  current first Gate 1 theorem is RetainedPressureIncrementCZTailAdmission.A:
+  local pressure increments must be admitted as ordinary retained rung times
+  retained tower difference, and nonlocal pressure-increment tails must be
+  absorbed, legal/stopped, or Pack/Part/Field route-out.
 ---
 
 # Gate 1 owned pressure collar direct attempt
+
+## 0. Supersession
+
+This note is historical. The pressure-increment flux absorption note demotes
+the detached pressure-collar route-measure split below. The current live Gate 1
+object is
+
+```math
+\texttt{RetainedPressureIncrementCZTailAdmission.A}.
+\tag{OPC.0}
+```
+
+The split in sections 1--7 applies only to a bookkeeping model where pressure
+collar flux is treated as an independent owned route measure. It is not the
+current TC.20 pressure flux unless the nonlocal pressure-increment tail survives
+after the local Calderon-Zygmund admission.
 
 ## 1. Target
 
