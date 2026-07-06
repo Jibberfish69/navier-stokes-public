@@ -23,8 +23,8 @@ completion_truth: >-
   Reynolds refresh rows are priced. This note checks the tempting kill
   mechanism that such a persistent fine high-gradient residual must destroy
   its own pose by fast internal turnover. That mechanism is false at exact
-  local/periodic level. A Beltrami
-  field curl b=lambda b obeys (b dot grad)b=grad(|b|^2/2), hence its projected
+  local/periodic level. A Beltrami field curl b=lambda b obeys
+  (b dot grad)b=grad(|b|^2/2), hence its projected
   nonlinearity is zero. If it is also a Laplacian eigenfield, Navier-Stokes
   evolves it only by viscous decay b(t)=exp(-nu lambda^2 t)b(0). Thus a
   high-Re fine residual can carry large gradient for a producer clock without
