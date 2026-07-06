@@ -42,7 +42,7 @@ completion_truth: >-
   construction.
   Follow-up affine-transport pressure-bank obstruction prices affine same-fluid
   custody at beta^(4/5), so the current dynamic branch is
-  non-affine/broadband same-fluid transport, Reynolds-edge failure,
+  supercritical non-affine/broadband same-fluid transport, Reynolds-edge failure,
   fixed-density compensator/residue, or construction/exclusion.
 ---
 
@@ -194,9 +194,9 @@ pressure-row burdens are now:
   suppression;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
-- non-affine/broadband same-fluid transport, including any supercritical
-  fast-motion forcing demanded by the exact matrix after affine custody is
-  priced;
+- supercritical non-affine/broadband same-fluid transport, including any
+  fast-motion or spatial residual forcing demanded by the exact matrix after
+  affine custody is priced;
 - or a full summability-valid dynamic bath construction.
 
 ## 7. Four-sentence result
@@ -213,5 +213,5 @@ Navier-Stokes self-evolution changes the supplied Hessian at relative rate
 so over one producer clock the relative drift is
 \(\beta^{2/5}+\nu/(sD^2)\). Constant-direction pressure service therefore
 does not restore an order-one floor; after the follow-up tracking check, the
-live pressure branch is non-affine/broadband same-fluid transport, the
+live pressure branch is supercritical non-affine/broadband same-fluid transport, the
 Reynolds-edge bridge, Gate-8 allocation/compensator, or construction.
