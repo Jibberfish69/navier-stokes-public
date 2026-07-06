@@ -439,8 +439,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    the Reynolds-edge bridge, fixed-density compensator/residue,
-   supercritical non-affine/broadband same-fluid pressure-bank
-   transport/persistence, or a real summability-valid bath construction,
+   supercritical fine/sparse same-fluid pressure-bank transport/persistence,
+   or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
    tax. The non-affine transport threshold now says the affine-subtracted
