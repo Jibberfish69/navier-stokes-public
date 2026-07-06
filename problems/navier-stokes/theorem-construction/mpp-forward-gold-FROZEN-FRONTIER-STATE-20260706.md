@@ -199,6 +199,15 @@ F1 -> (F2 || F3) -> F4 -> F5.
   \(\int_{\kappa>L}\kappa\,d\sigma_{\varepsilon,F_M}\to0\), or a
   typed route-out. One parent object, two projections; z5 remains open
   until both are proved or routed.
+  Codex follow-up reduces the weighted projection: on a retained
+  same-packet row with compensators zero/routed and \(c_0>0\),
+  first-moment tightness follows from the geometric crossing because
+  \(w_j=2^jw_0\) while \(G_{j+1}\le(1-c_0)G_j/2\). The open weighted
+  content is upstream/residual: P1 finite SRP-to-flux-gate
+  transcription and retained record-demand localization, P2 weighted
+  row formation / Gate-A tax backing, Chapter-10 positivity of \(c_0\),
+  and weighted routing or SRP moment-readout bridge for non-retained
+  residues. The time-marginal projection remains separate.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
