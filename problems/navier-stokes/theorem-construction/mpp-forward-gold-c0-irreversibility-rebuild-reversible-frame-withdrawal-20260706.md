@@ -4,6 +4,17 @@ created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 / irreversible cumulative record cost
 status: correction-reversible-cancellation-frame-withdrawn-thickness-or-charge-frontier
+ontology_lock:
+  fluid_field_object: Navier-Stokes same-fluid velocity-pressure field
+  reversible: false
+  adiabatic: false
+  compressible: false
+  corrected_terms:
+    - incompressible
+    - viscous
+    - dissipative
+    - pressure-constrained
+    - irreversible
 target_objects:
   - NormalizedRelayBillCompactnessRecordPassage.A
   - TemporalRecordThicknessChargeBillCurrency.A
@@ -24,17 +35,42 @@ completion_truth: >-
   mechanism: tr(A^3)=3 det(grad u)=div Phi is a spatial null-Lagrangian /
   boundary-current identity, not a Navier-Stokes time-reversibility law. Euler
   production is reversible; Navier-Stokes viscosity is the irreversible
-  correction. Therefore c_0 should be sought as the cumulative irreversible
-  cost of sustaining an Euler-like marginal climb through infinitely many
-  record doublings. The remaining wall is the thin-record evasion of the finite
-  dissipation/charge budget: prove temporal thickness-or-charge in bill
-  currency and same-parent positive-selection storage/detector faithfulness, or
-  route the event out as legal/stop/parentless. No MPP closure is claimed.
+  correction. The Navier-Stokes fluid-field-object is therefore not reversible,
+  not adiabatic, and not compressible; it is the incompressible viscous
+  dissipative pressure-constrained same-fluid field. Therefore c_0 should be
+  sought as the cumulative irreversible cost of sustaining an Euler-like
+  marginal climb through infinitely many record doublings. The remaining wall
+  is the thin-record evasion of the finite dissipation/charge budget: prove
+  temporal thickness-or-charge in bill currency and same-parent
+  positive-selection storage/detector faithfulness, or route the event out as
+  legal/stop/parentless. No MPP closure is claimed.
 ---
 
 # Irreversibility rebuild after the reversible-frame error
 
-## 1. Correction
+## 1. Ontology lock
+
+The Navier-Stokes fluid-field-object in this proof lane is the same evolving
+velocity-pressure field for one incompressible viscous fluid. It is not
+reversible, not adiabatic, and not compressible.
+
+The working ontology is:
+
+```text
+Navier-Stokes fluid-field-object:
+    incompressible
+    viscous
+    dissipative
+    pressure-constrained
+    irreversible
+```
+
+Euler is only the nearby inviscid comparison object. The Euler stretching /
+null-Lagrangian service can look reversible at the comparison level, but the
+Navier-Stokes object carrying the actual record has viscosity and therefore an
+arrow of time.
+
+## 2. Correction
 
 The null-Lagrangian identity
 
@@ -65,7 +101,7 @@ ratio can make viscosity look small at one scale, but an infinite blowup climb
 requires unboundedly many record doublings. Those doublings must pass through
 the finite irreversible budget of the same fluid history.
 
-## 2. What stays valid
+## 3. What stays valid
 
 The spatial null-Lagrangian content remains useful, but only in its own role.
 It supports weak closedness / compensated compactness for the spatial record
@@ -82,7 +118,7 @@ It does not prove temporal record passage. A record can concentrate in material
 time while its spatial Jacobian structure remains well behaved. The temporal
 Dirac is exactly the thin-record escape.
 
-## 3. What is withdrawn
+## 4. What is withdrawn
 
 The following interpretations are withdrawn as proof ontology:
 
@@ -97,7 +133,7 @@ The WKB/cyclic-shuttle calculations may still test model branches. They do not
 license the leading Navier-Stokes story. The leading story is one irreversible
 same-fluid material history.
 
-## 4. Corrected proof target
+## 5. Corrected proof target
 
 Let \(I_j=[a_j,b_j]\) be disjoint retained material record intervals carrying
 unit normalized record doublings. The corrected target is a cumulative
@@ -160,7 +196,7 @@ C\int_{\cup_j I_j}
 
 This is the corrected location of `c_0`.
 
-## 5. Exact remaining theorem names
+## 6. Exact remaining theorem names
 
 The temporal-pinch note already has the right reduction:
 
@@ -194,7 +230,7 @@ uniformly on the retained pressure-active quotient. Any joint-detector-silent
 positive work must already be paid as silent same-material service before the
 record can count it.
 
-## 6. Consequence for the active c_0 objective
+## 7. Consequence for the active c_0 objective
 
 The corrected bad sequence is not:
 
@@ -232,7 +268,7 @@ If `(IR.1)' fails, the failure is not reversible cancellation. It is one of:
 The first two are not retained unit records. The last two are the current
 same-parent storage/detector-faithfulness wall.
 
-## 7. Status
+## 8. Status
 
 No closure is claimed. The proof target is smaller and more honest:
 
