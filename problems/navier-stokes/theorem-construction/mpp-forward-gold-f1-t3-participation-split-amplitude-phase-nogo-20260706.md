@@ -49,24 +49,18 @@ completion_truth: >-
   (1/2)ln(16/f)]) forbids dwelling at cancellation poses on
   financed windows, and the finite-chain F1 population was closed
   by exactly this route (the paid pushforward at the
-  angle-from-coupling row). (N3 - THE LIFT REQUEST, the single
-  remaining t3 item) What t3 still owes is not a new theorem but a
-  SCOPE CHECK: that the paid pushforward's phase-population row,
-  closed at the finite-chain packet/window level, applies verbatim
-  to the packet-leg monomials of the predator triangles populated
-  in N2 - i.e., that the pushforward's domain includes the
-  bounded-shape class the Bernstein lemma populates. If the
-  domains match, t3 is paid by composition (amplitude: Bernstein;
-  phase: pushforward); if they do not, the mismatch is a named
-  finite gap at the pushforward home, and its closure is the
-  remaining F1 work. HONEST GAPS: (u1) the domain-match check is
-  Codex's to gate at the pushforward home
-  (f1-angle-from-coupling-identity-population-closure +
-  codex-f1-angle-population-regate); (u2) the un-parking law is
-  finite-chain relay machinery - its use here stays inside the
-  same scope as the rest of R2, adding no new W-0 burden but not
-  reducing it either; (u3) N1's no-go should be recorded in the
-  do-not-cite list to prevent future static-route attempts. No
+  angle-from-coupling row). CODEX REGATE: the proposed domain
+  match fails as stated, because the pushforward is active
+  monomial currency and Bernstein is amplitude currency. Follow-up
+  reductions leave two finite routes: bad-cone capacity beats
+  financed active monomial, or predator-slot phase-sweep supplies
+  an oriented time-integrated participation floor. HONEST GAPS:
+  (u1) bad-cone capacity / Chapter-10 row or route-out; (u2) the
+  predator-slot phase-sweep theorem; (u3) the un-parking law is
+  finite-chain relay machinery - its use stays inside the same
+  scope as the rest of R2, adding no new W-0 burden but not
+  reducing it either; (u4) N1's no-go should be recorded in the
+  do-not-cite list against future static-route attempts. No
   F2/F4/F5, Chapter-10, manuscript, or MPP closure is claimed.
   Filed is not cleared.
 ---
@@ -131,27 +125,26 @@ cancellation poses on financed windows. The finite-chain F1
 population was closed by exactly this route: the paid pushforward
 at the angle-from-coupling row.
 
-## N3. The lift request (the single remaining t3 item)
+## N3. Regated lift request
 
-t3 owes a SCOPE CHECK, not a new theorem: that the paid
-pushforward's phase-population row, closed at the finite-chain
-packet/window level, applies verbatim to the packet-leg monomials
-of the predator triangles populated in N2 — that the pushforward's
-domain includes the bounded-shape class the Bernstein lemma
-populates.
+The original "domain match" formulation is superseded by the Codex
+domain-match audit. The paid pushforward acts on active monomial mass;
+the Bernstein lemma acts on packet-leg amplitude mass. Fable's static
+no-go is exactly the separator.
 
-- If the domains match: t3 is paid by composition — amplitude by
-  Bernstein, phase by the pushforward — and the F1 population
-  clause has no remaining content.
-- If they do not: the mismatch is a named finite gap at the
-  pushforward home, and its closure is the remaining F1 work.
+The remaining t3 bridge now has two finite routes:
+
+1. bad-cone capacity is smaller than financed active monomial, forcing
+   good-angle active monomial participation;
+2. predator-slot phase sweep gives an oriented time-integrated lower
+   bound for \((\operatorname{Re}M_{\rm pred})_+\) on climbing windows.
 
 ## Gaps (honest)
 
-(u1) the domain-match check is Codex's to gate at the pushforward
-home; (u2) the un-parking law is finite-chain relay machinery —
-this use adds no new W-0 burden and reduces none; (u3) the N1
-no-go belongs in the do-not-cite list against future static-route
-attempts.
+(u1) bad-cone capacity / Chapter-10 row or route-out; (u2)
+predator-slot phase-sweep theorem; (u3) the un-parking law is
+finite-chain relay machinery — this use adds no new W-0 burden and
+reduces none; (u4) the N1 no-go belongs in the do-not-cite list
+against future static-route attempts.
 
 Filed is not cleared. No closure claimed.
