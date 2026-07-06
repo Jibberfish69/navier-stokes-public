@@ -324,6 +324,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     cheap; the live broadband branch is supercritical spatial residual,
     Reynolds-edge failure, fixed-density compensator/residue, or
     construction/exclusion.
+    Follow-up supercritical residual scale split filed: a residual at active
+    length \(\ell=\theta D\), support fraction \(\phi\), and normalized size
+    \(\eta=\delta_D/s\) carries
+    \(E_{\rm res}/E_{\rm prod}(D)\sim\phi\eta^2\theta^2\). At
+    \(\eta\sim\beta^{-4/5}\), coherent moderate residuals with
+    \(\phi\theta^2\gtrsim\beta^{8/5}\) already pay order-one energy. To remain
+    in the \(q=4/5\) pressure row requires
+    \(\phi\theta^2\lesssim\beta^{12/5}\); in the coherent case this is
+    \(\ell/D\lesssim\beta^{6/5}\), with a strengthened high-Re cascade edge.
 
 ## Work order (each unit: output + kill condition)
 
@@ -436,7 +445,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    constant-producer-coupling, producer-clock tracking, or generic curvature
    tax. The non-affine transport threshold now says the affine-subtracted
    residual only pays \((\delta_D/s)\beta^{4/5}\); an order-one transport payer
-   needs \(\delta_D/s\gtrsim\beta^{-4/5}\). The reuse
+   needs \(\delta_D/s\gtrsim\beta^{-4/5}\). The supercritical-residual scale
+   split says coherent moderate residuals already pay order-one energy, while
+   q-row hiding forces \(\phi(\ell/D)^2\lesssim\beta^{12/5}\), hence a
+   fine/sparse high-Re cascade or Reynolds edge. The reuse
    tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
