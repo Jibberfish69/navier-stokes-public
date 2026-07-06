@@ -538,6 +538,21 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   seed side is the one gamma-floor
   \(C\Gamma_->D_+ + \log(8\pi\rho_+/T_{\rm seed})\).
 
+  CODEX ROUTE-3 CONSTRUCTION TWO-ROW CRITERION (2026-07-06,
+  codex-route3-construction-two-row-criterion): in construction-parameter
+  mode the friendly Door-B/RUN-H branch is now exactly two data rows plus a
+  length binder. Seed row:
+  \(T_+<T_{\rm seed}\). Product midpoint-source-reserve row:
+  \(2b<U\), \(0\le s<s_b^0\), and \(\lambda<C_b(s)\), where
+  \(b=8T_*\rho_{\max}^-\), \(U=2\log2\),
+  \(\lambda=d_{\rm R4}^+/X_{\max}\),
+  \(s=R_0/(g_0X_{\max}^2)\), and \(C_b\) is the installed
+  source-reserve curve. With these rows positive and the one-block tail mass
+  finite, \(|I|>\max\{L_{\rm seed}^{B,+},L_{\rm prod}^{D=0},L_{\rm dw}\}\)
+  is a witness choice, not a third compact-family theorem. Failure of the
+  friendly branch returns to the full RUN-H scalar supremum, Door A, Door C,
+  fixed-block availability, or typed route-out; it is not an F4 refutation.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
