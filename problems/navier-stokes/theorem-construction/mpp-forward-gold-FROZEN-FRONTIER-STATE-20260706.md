@@ -149,14 +149,22 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    evaluation]. In story terms: ONE fact finances everything - the
    financed window genuinely moves its package coordinate inside the
    window; swing, gap, and clock all follow.
+   SOURCE-FLOOR SUBSTITUTION (Codex, 2026-07-06): in the finite-chain
+   worksheet, \(G_{\mathfrak e}^{\rm int}=G_{\mathfrak e}
+   =r_0(f)\tau_{\min}\) before G6a/root-weight, density, endpoint,
+   and inactive-time charges are spent. Thus \(G_{\mathfrak e}\) is no
+   longer a separate interval input; \(K_{\rm off}=
+   Q_WX_{\max}S_{\max}/(r_0(f)\tau_{\min})\). This is a row
+   substitution only; it does not prove \(R_{\rm prod}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
    codex-period-cap-traversal-reduction,
-   codex-phi0-package-drain-alias-circularity-check.
+   codex-phi0-package-drain-alias-circularity-check,
+   codex-ge-source-floor-substitution.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
-3. Constants: K_off = Q_W X_max S_max / G_e; tau_min >=
+3. Constants: K_off = Q_W X_max S_max / (r_0(f) tau_min); tau_min >=
    sqrt(1 - m_cap)/6 (exact); Omega_R4 (drift six); D_P2^{ti}
    (displayed, sheet symbols); kappa_min, r positivity (W7).
 4. Then the row evaluates; then the length row.
