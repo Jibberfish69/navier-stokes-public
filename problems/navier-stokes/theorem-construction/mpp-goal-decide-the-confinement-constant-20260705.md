@@ -236,8 +236,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     fixed finite shear-cell bank. With \(K=\sum_m c_mK_m\) and
     \(\sum_m|\dot c_m|\lesssim|\dot K|\), one producer clock costs
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
-    existing pressure row, not an order-one floor. The live pressure branch is
-    now producer curvature, Gate-8 no-recount allocation/compensator,
+    existing pressure row, not an order-one floor. At that stage the live
+    pressure branch was producer curvature, Gate-8 no-recount allocation/compensator,
     global supercritical fast-motion forcing/admissibility, or
     construction/exclusion.
     Follow-up producer-curvature subscale obstruction filed: if the producer
