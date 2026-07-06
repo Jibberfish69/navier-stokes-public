@@ -276,6 +276,12 @@ F1 -> (F2 || F3) -> F4 -> F5.
   \(m_\mu\) maximal-threshold citation plus \(m_\mu\)-versus-\(N_{\rm dof}\)
   safety row, not a fresh theorem. General Gate 7 still carries the full
   triple-measure disintegration/certification rows if consumed downstream.
+  Codex follow-up attaches the resulting finite F1 rows to Chapter 10:
+  `mpp-forward-gold-codex-chapter10-f1-finite-row-sidecar-20260706.md`.
+  The sidecar rows are Landau truncation/plunge, the one-leg safety check
+  \(N_{\rm dof}m_\mu^{1/2}C_{\rm tri}^{F1}\le m_{\rm eff}^{F1}\), finite
+  retained-mode lineage assignment, and typed route-out. They are finite
+  certification rows, not a new Gate-7 mechanism and not a positivity proof.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
