@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-reynolds-edge-refresh-dichotomy-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-overlap-bath-survivor-front-classification-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-template-bank-cross-term-correction-20260706.md
 completion_truth: >-
   Strict reduction only. The Beltrami self-drift obstruction kills the shortcut
   that fast fine-scale turnover automatically evicts the persistent high-Re
@@ -28,9 +29,11 @@ completion_truth: >-
   phi~psi^3, this is phi >= c theta^3 beta^(-12/5). Few-cell or too-sparse
   pockets do not inherit the exact Beltrami cancellation; they must pay a
   cutoff-defect drift or prove a new cancellation. The local pressure-Hessian
-  moment-matching algebra is not the obstruction: rotated copies of one
-  Beltrami pressure Hessian generate the cone of trace-free Hessians with
-  nonnegative weights. Thus the surviving no-payer branch is narrowed to a
+  moment-matching algebra is not the obstruction: separated or WKB-averaged
+  Beltrami cells generate the cone of trace-free Hessians with nonnegative
+  cell weights. This is a cell-level mixture statement, not the false
+  co-centered additive rotated-bank identity corrected in the Schwartz
+  template cross-term note. Thus the surviving no-payer branch is narrowed to a
   many-cell WKB Beltrami bath with same-fluid coupling and localization/Hodge
   errors controlled, or to a new cutoff-defect cancellation theorem. This note
   proves no construction, no exclusion of the many-cell branch, no Gate-8
@@ -272,8 +275,16 @@ Then
   \tag{BLCS.29}
 \]
 
-Thus rotated Beltrami pressure-Hessian cells, with nonnegative amplitude
-weights, span every trace-free pressure Hessian at the local algebra level.
+Thus separated or WKB-averaged Beltrami pressure-Hessian cells, with
+nonnegative cell weights, span every trace-free pressure Hessian at the local
+algebra level.
+
+This is not the additive co-centered superposition claim that failed for the
+Schwartz template bank. Here the weights are cell/mixture weights after the
+local Beltrami pressure-Hessian shape has already been formed. If several
+templates are placed at the same station before taking the quadratic pressure
+source, the cross terms must be included; the corrected co-centered bank map is
+the one in the Schwartz cross-term note.
 
 ## 7. What this kills
 
