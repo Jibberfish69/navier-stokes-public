@@ -11,15 +11,19 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-reynolds-edge-refresh-dichotomy-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-overlap-bath-survivor-front-classification-20260706.md
 completion_truth: >-
   Strict obstruction only. The supercritical residual scale split leaves a
   fine/sparse high-Re branch: to stay in the q=4/5 row at
   eta=delta_D/s~beta^(-4/5), coherent support must retreat to
   theta<=C beta^(6/5), and producer-clock persistence requires the high-Re
-  condition Re_D theta^2>>1. This note checks the tempting kill mechanism that
-  such a fine high-gradient residual must destroy its own pose by fast internal
-  turnover. That mechanism is false at exact local/periodic level. A Beltrami
+  condition Re_D theta^2>>1; the refresh dichotomy sharpens that to the
+  persistent high-Re branch Re_D>>phi beta^(-12/5) after low and middle
+  Reynolds refresh rows are priced. This note checks the tempting kill
+  mechanism that such a persistent fine high-gradient residual must destroy
+  its own pose by fast internal turnover. That mechanism is false at exact
+  local/periodic level. A Beltrami
   field curl b=lambda b obeys (b dot grad)b=grad(|b|^2/2), hence its projected
   nonlinearity is zero. If it is also a Laplacian eigenfield, Navier-Stokes
   evolves it only by viscous decay b(t)=exp(-nu lambda^2 t)b(0). Thus a
