@@ -24,10 +24,10 @@ completion_truth: >-
   \(kL\lesssim\operatorname{Re}\) cannot be derived from total finite energy
   plus total carrier-production proxy alone. Any genuine
   record/effective-length cap must use a stronger record-normalization premise:
-  fixed local production density, a selected-throughput lower bound on a
-  bounded effective subpacket, dynamic recurrence/nonlocal return, forced
-  crowd/core geometry, or route-out of the long packet as an admissible retained
-  producer. This proves no cap, no retained Navier-Stokes K5 construction, no
+  fixed local production density or its selected-throughput-on-bounded-
+  subpacket alias, dynamic recurrence/nonlocal return, forced crowd/core
+  geometry, or route-out of the long packet as an admissible retained producer.
+  This proves no cap, no retained Navier-Stokes K5 construction, no
   route-out theorem, no confinement constant, and no MPP closure.
 ---
 
@@ -146,9 +146,11 @@ It does not kill a stronger record cap. The witness has local amplitude
 \]
 
 so any theorem demanding fixed local production density, fixed selected
-throughput per effective subpacket, or a nonvanishing record density on a
-bounded packet is not contradicted by this construction. Such a theorem would
-be a genuinely stronger record-normalization or admissibility statement.
+throughput per bounded effective subpacket, or a nonvanishing record density on
+a bounded packet is not contradicted by this construction. The selected-
+throughput premise has since been typed as the local-density/concentration
+alias; such a theorem would be a genuinely stronger record-normalization or
+admissibility statement.
 
 ## 5. Consequence for K5
 
@@ -159,11 +161,10 @@ low-density carrier while keeping the same total producing package.
 
 Equivalently, the remaining length-cap branch must use one of:
 
-1. fixed local record density;
-2. fixed selected throughput on a bounded effective subpacket;
-3. dynamic recurrence or nonlocal endpoint return;
-4. forced curve/core/crowd contamination;
-5. route-out of the long packet as an admissible retained producer.
+1. fixed local record density, including the bounded selected-throughput alias;
+2. dynamic recurrence or nonlocal endpoint return;
+3. forced curve/core/crowd contamination;
+4. route-out of the long packet as an admissible retained producer.
 
 ## 6. Four-sentence result
 
@@ -172,6 +173,6 @@ K5 record-length cap. The long packet with \(|a_L|^2L=A^2\) keeps both
 quantities fixed while \(kL/\operatorname{Re}\to\infty\). Envelope,
 endpoint-contact, and remote-return errors still vanish relative to production
 in that regime. A real record/effective length cap must therefore come from
-local record density, selected throughput, dynamic recurrence, forced
-crowd/core geometry, or route-out of the long packet as an admissible retained
-producer.
+local record density, its bounded selected-throughput alias, dynamic
+recurrence, forced crowd/core geometry, or route-out of the long packet as an
+admissible retained producer.
