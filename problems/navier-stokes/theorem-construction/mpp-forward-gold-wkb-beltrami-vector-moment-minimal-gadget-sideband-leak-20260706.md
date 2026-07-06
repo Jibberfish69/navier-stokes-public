@@ -5,7 +5,9 @@ later_followup: >-
   The general finite-graph reason for this sideband leak is isolated in
   mpp-forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706.md:
   output-maximal resonant cancellations must degenerate their norm-increasing
-  off-diagonal sidebands.
+  off-diagonal sidebands. The full finite graph closure is later supplied by
+  mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md:
+  every dangerous duplicate creates a larger dangerous sideband.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -18,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-duplicate-sideband-growth-closure-20260706.md
 completion_truth: >-
   Exact finite-gadget obstruction only. The full 3D vector-moment correction
   showed that two radius-sum grades can cancel one fixed output when one grade
@@ -179,6 +182,10 @@ creates two off-diagonal sidebands, at least one with larger output norm. Any
 larger sideband must be same-shell or collinear, or else maximality is
 contradicted.
 
+The later duplicate-growth closure removes the remaining finite graph door:
+even shielded duplicates create a larger dangerous sideband somewhere among
+the four cross-pairings.
+
 ## 5. Four-sentence result
 
 The smallest local 3D vector-moment cancellation can be realized by one
@@ -196,3 +203,6 @@ This kills the minimal local vector-moment gadget as an exit candidate.
 It does not close the general finite vector-moment resonant graph. It proves no
 WKB localization theorem, no same-fluid custody theorem, no dense-crowd theorem,
 no confinement constant, and no MPP closure.
+
+The general finite vector-moment resonant graph is closed only by the later
+duplicate-growth note.
