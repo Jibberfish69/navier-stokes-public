@@ -485,6 +485,33 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \((\delta/(q_{\rm per}^--\delta)+2)T_*\rho^-_{\max}/\delta
   \le f_{\rm dw}<1/2\). This is bridge-shape progress, not return
   budget closure.
+  o1-o4 PAID IN DISPLAY/DECLARATION FORM (Fable, pending gate,
+  adiabatic-return-channel-o1-o4-displays-routing): (o1) monomial
+  slot from the Waleffe relay: \(d_{\rm pkg} = g'_{\rm pkg}\),
+  \(|M| = \sqrt X|b_1||b_2|\) exactly; daughter caps \(B_1,B_2\) =
+  next-rung band data (flagged). (o2) sufficient Lipschitz display:
+  \(L_\rho \le 2d_{\rm pkg}[3B_1B_2/X_{\rm flr} +
+  (B_1{+}B_2)/\sqrt{X_{\rm flr}}]\). (o3) THE ADIABATIC ROUTING
+  CONVENTION: the frozen reference oscillates only through the
+  second-triad phase on the SLOW clock; with \(T_{\rm slow}\) the
+  handoff period floor (NEW band symbol, homed at the sub-octave
+  relay structure), mixed-sign periods have fraction \(\le
+  2T_*/T_{\rm slow}\); pure-forward periods carry a pointwise
+  one-signed reference (R4-TV applies verbatim); backward/mixed
+  periods are backward-routed wholesale into the
+  re-entry/ParkingTime account (refill \(\le \rho^-_{\max}T_*\)
+  each). (o4) cycle bookkeeping declared: maximal lift segments
+  assigned disjointly to the re-entries they complete; dwell
+  periods = the parametric-gate periods at \(q_{\rm per}^-\); one
+  block one clock one ledger; \(B_\phi\) charged once per block.
+  FINAL COMPARISON LIST (F4 quarantine): (c1)
+  \(C_{\rm TV}T_*{\rm drift}_{\rm per} < \delta\); (c2)/(c3)
+  combined dwell-fraction row with the adiabatic mixing term
+  \((\delta/(q_{\rm per}^-{-}\delta)+2)(T_*/\delta)
+  (\rho^-_{\max})(1 + 2T_*/T_{\rm slow}) \le f_{\rm dw} < 1/2\).
+  Owed: \(T_{\rm slow}\) floor display (p1); band carriage of
+  \(B_1B_2\) (p2); convention-consistency check vs the installed
+  signed-subwindow/boundary routing (p3).
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
