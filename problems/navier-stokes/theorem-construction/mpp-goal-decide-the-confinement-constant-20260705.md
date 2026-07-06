@@ -190,6 +190,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(-(\dot A+A^2)\). Thus a local material-jet tracking tax is not available;
     the dynamic branch means global same-fluid matching, pressure/Hodge/collar
     coupling, same-packet allocation, or a summability-valid construction.
+    Follow-up time-dependent collar scaling obstruction filed: generic
+    cutoff/Hodge retuning also stays cheap. For a localized affine packet at
+    support scale \(D\) and strain size \(G\), energy is \(G^2D^5\), retuning
+    power is \(G|\dot A|D^5\), affine quadratic work is \(G^3D^5\), and viscous
+    collar work is \(\nu G^2D^3\). With \(G=s\beta^{4/5}\) and producer-clock
+    retuning, the per-e-fold collar cost remains \(\beta^{8/5}E_{\rm prod}\).
+    The overlap branch now requires exact unforced evolution, nonlocal
+    pressure/Hodge sign structure, same-packet allocation, or construction.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -286,9 +294,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(\beta^{8/5}\) cheap ratio is exact at static level. The overlap branch is
    now globally dynamic: the local affine equations allow arbitrary symmetric
    trace-free strain histories \(A(t)\), with pressure absorbing
-   \(\dot A+A^2\). Therefore the exact matrix must use global same-fluid
-   matching, tracking/allocation, or a real summability-valid bath construction,
-   not a pointwise affine tracking tax. The reuse tracking ledger now prices
+   \(\dot A+A^2\). The time-dependent collar scaling check adds that generic
+   cutoff/Hodge retuning remains at the same cheap \(\beta^{8/5}\) ratio.
+   Therefore the exact matrix must use exact unforced evolution, nonlocal
+   pressure/Hodge structure, same-packet allocation, or a real summability-valid
+   bath construction, not a pointwise affine or generic collar tax. The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
