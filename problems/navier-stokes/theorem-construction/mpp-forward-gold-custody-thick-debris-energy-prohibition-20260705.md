@@ -3,12 +3,12 @@ theorem_id: forward-gold-custody-thick-debris-energy-prohibition-20260705
 status: codex-regated-to-energy-escrow-dichotomy
 created: 2026-07-05
 problem: navier-stokes
-route: forward-gold / confinement constant goal / item 3 (G-C-1 closure)
+route: forward-gold / confinement constant goal / item 3 (G-C-1 escrow regate)
 authorship: >-
   Derivation: Claude (Fable), 2026-07-05, consuming the other lane's
   same-day payment-identity display. Physical story Thomas Birnie (no
-  structure winds itself tighter - here proved as an energy-impulse
-  scaling prohibition).
+  structure winds itself tighter - here regated as an energy-impulse
+  escrow dichotomy).
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-impulse-ledger-reassembly-threshold-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705.md
@@ -66,8 +66,9 @@ already contains the energy needed for scale-\(d\) reassembly, and that
 stored energy is prior paid residue rather than free reserve; or the
 energy must be delivered through the participating medium, and fast
 delivery is priced by the increment-cubic transit identity. Remaining:
-escrow localization on channel-window rows and row lift into
-composition. No custody clearance or MPP closure is claimed.
+escrow localization / no-side routing and the existing Gate-8
+allocation theorem. The delivery row lift has been reduced to Gate-8
+channel-cell allocation. No custody clearance or MPP closure is claimed.
 
 # Custody G-C-1: thick debris becomes energy escrow
 
