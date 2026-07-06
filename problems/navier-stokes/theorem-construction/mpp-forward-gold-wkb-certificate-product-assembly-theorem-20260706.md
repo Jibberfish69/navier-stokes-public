@@ -267,6 +267,12 @@ This note proves the conditional assembly of `WKBCertificateCompactness.A` from
 the four certificate rows, certified product lifts, same-packet diagonal
 compatibility, and row identity factorization.
 
+The WKB profile no-supplier trichotomy uses this assembly to remove a possible
+profile-level supplier branch: after scalar moment passage, the product either
+admits a legal same-solution profile that is consumed by the Field readout, or
+the first failed row routes to Pack/Part, or the profile object was never
+tight/stabilized in the first place.
+
 It proves no row-level defect vanishing or legal carriage theorem for actual
 Navier-Stokes WKB packets, no profile construction/exclusion theorem, no
 confinement constant, and no MPP closure.
