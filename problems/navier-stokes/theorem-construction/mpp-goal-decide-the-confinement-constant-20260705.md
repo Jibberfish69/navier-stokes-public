@@ -48,11 +48,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     nonlinear self-exit cannot give a seed-independent cap: favorable
     sign still leaves a log(seed) neutral-phase integral. Viscosity
     removes the log on the unit/marginal Reynolds family and leaves a
-    Reynolds-weighted cap on the super-marginal branch. K5 alone has now
+    Reynolds-weighted cap on the super-marginal branch. The Codex
+    lambda-edge/Duffing re-gate accepts that the inviscid pure edge is
+    Hamiltonian/Duffing rather than a sign-definite first-order real-part law,
+    certifies the marginal damping arithmetic
+    \((\nu k^2)/s=\kappa^2/\operatorname{Re}_\Gamma\), and rejects pure K5
+    as a uniform high-Re cap. K5 alone has now
     been checked not to supply a uniform high-Re edge cap: for fixed
     admissible edge amplitude, the K5-only cap grows like Re. Open:
     high-Re edge payment through return-race/custody/sideband-crowd,
-    Lambda_edge sign as secondary diagnostic, custody, composition. K3
+    Lambda_edge/Duffing sign as secondary diagnostic, custody, composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
     not an invariant reduction, because the exact kernel immediately
     bends any producing straight pair. The lifetime object is now

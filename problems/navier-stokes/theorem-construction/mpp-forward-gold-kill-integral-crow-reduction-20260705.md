@@ -149,10 +149,16 @@ amplitude octave, hence a log(seed) neutral-phase integral. Sideband
 packets are a separate sideband/crowd channel, not the pure-mode
 coefficient.
 
-The real-field viscous clock removes the seed logarithm with a cap
-proportional to local Reynolds. Hence the unit/marginal Reynolds edge is
-capped; the super-marginal edge is not uniformly capped by K5 alone and
-is handed to the two-payer/custody/crowd mechanisms.
+The Codex lambda-edge/Duffing re-gate accepts the Hamiltonian correction:
+the inviscid pure edge is a Duffing-type Hamiltonian collision, not a
+standalone sign-definite first-order real-part law. The real-field viscous
+clock removes the seed logarithm with a cap proportional to local Reynolds:
+\[
+  {\nu k^2\over s}={\kappa^2\over\operatorname{Re}_\Gamma}.
+\]
+Hence the unit/marginal Reynolds edge is capped; the super-marginal edge is
+not uniformly capped by K5 alone and is handed to the two-payer/custody/crowd
+mechanisms.
 
 ## 5. What would certify (chapter-10 items, quarantined)
 

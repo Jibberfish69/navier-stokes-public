@@ -64,10 +64,16 @@ is made.
 3. P1 routing (composition lane, other session, in progress).
 4. Exact joint transfer matrix (Codex regate demands channel
    completeness and exact dipole coefficients).
-5. Codex gate clusters queued: lambda-edge/Duffing reconciliation;
-   custody displays G-C-1/2; dilute counting G-D-1/2/3; bracing
+5. Codex gate clusters queued: custody displays G-C-1/2;
+   dilute counting G-D-1/2/3; bracing
    arithmetic; cascade channels; bath lemma/arithmetic/recursion
    variable; transfer-matrix bookkeeping.
+
+   Lambda-edge/Duffing reconciliation is now filed:
+   `mpp-forward-gold-codex-lambda-edge-duffing-viscous-regate-20260706.md`.
+   It accepts the inviscid Hamiltonian/Duffing retype, certifies the
+   marginal viscous cap, and keeps the high-Re edge as the two-payer
+   custody/sideband/crowd branch.
 
 ## External actions waiting on the owner
 
