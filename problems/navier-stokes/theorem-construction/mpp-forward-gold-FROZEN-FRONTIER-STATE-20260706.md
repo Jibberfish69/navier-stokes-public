@@ -631,6 +631,29 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   f_{\rm dw}A_0\sqrt{G_{\rm thr}}\) is only the
   \(q_{\rm per}^-/2<\log2\) branch; AdiabaticSignRouting/T_slow/R4-TV/c3
   are unnecessary-or-superseded for this row
+  H-ROW DEADBAND ELIMINATION (Codex, 2026-07-06):
+  `mpp-forward-gold-codex-h-row-deadband-elimination-20260706.md`
+  removes the free existential at worksheet level. With
+  \(q=q_{\rm per}^-\), \(a=T_*\rho^-_{\max}\), and
+  \(L=\min(q,\log2)\), fixed \(f_{\rm dw}\) permits exactly
+  \[
+    [\delta_-(f_{\rm dw}),\delta_+(f_{\rm dw})]\cap(0,L),
+    \qquad
+    \delta_\pm={q\pm\sqrt{q^2-8aq/f_{\rm dw}}\over2},
+  \]
+  with feasibility \(q\ge8a/f_{\rm dw}\) and
+  \(\delta_-(f_{\rm dw})<L\). Equivalently
+  \(f_H(\delta)=2a[(q-\delta)^{-1}+\delta^{-1}]\) is the minimal
+  dwell allowance at a chosen deadband, and Chapter 10 can test the
+  one-variable product envelope
+  \[
+    R_{\rm H\text{-}env}(\delta)=
+    {1-f_H(\delta)\over2}\Delta_{\rm run}^-(\delta)
+    -K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
+    -D_{P2}^{\rm ti}-D_{\rm tail}^{\rm ti}
+  \]
+  on \(0<\delta<L\), \(f_H(\delta)<1/2\). This proves no positivity;
+  it removes a worksheet search variable.
   (pure bookkeeping routes closed by the F2 no-go; a net extraction
   law would instead revive the prefix route); pricing-completeness
   replacement \(D_j^{\rm adm}\le C_{\rm pc}(E_j+X_j)\) plus
