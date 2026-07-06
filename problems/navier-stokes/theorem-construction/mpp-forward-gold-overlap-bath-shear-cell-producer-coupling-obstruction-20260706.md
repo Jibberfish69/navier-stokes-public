@@ -7,11 +7,12 @@ route: forward-gold / confinement constant / crowd cell / overlap bath exact mat
 target_object:
   - PressureSource.ProducerCouplingCrossHessian.NO-AT-STATION
   - ShearCell.ProducerJet.UNCHANGED-TO-FIRST-ORDER
-  - ExactMatrix.LocalizationAllocation.REMAINS
+  - ExactMatrix.LocalizationAllocationConstruction.REMAINS
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact local/periodic-cell obstruction, not a dense-crowd
   theorem and not a confinement-constant decision. The pressure cell is now
@@ -22,10 +23,12 @@ completion_truth: >-
   gradient is a sum of single-coordinate sine modes. Those modes solve to sine
   pressures whose Hessian at the station is zero. Thus the pressure Hessian
   supplied by the shear cell is additive at the station to leading periodic-cell
-  order, with no instantaneous order-one cross-Hessian coupling tax. Remaining:
-  localization/collar effects, nonconstant producer curvature, fast direction
-  tracking if forced, same-packet allocation, and a real dynamic bath
-  construction or exclusion.
+  order, with no instantaneous order-one cross-Hessian coupling tax. Follow-up
+  fast-direction tracking obstruction kills the producer-clock tracking floor:
+  retuning the supplied Hessian direction costs |K|D^5, the existing q=4/5
+  pressure row. Remaining: localization/collar effects, nonconstant producer
+  curvature, same-packet allocation, faster-than-producer forced tracking, and
+  a real dynamic bath construction or exclusion.
 ---
 
 # Overlap bath: shear-cell producer-coupling obstruction
@@ -193,9 +196,9 @@ The remaining pressure-row burdens are:
 - localization and collar effects when the periodic cell is embedded in the
   actual producing field;
 - nonconstant producer curvature across the cell;
-- fast direction tracking if the exact matrix forces the pressure Hessian
-  direction to change on the producer clock;
 - same-packet allocation of the pressure service into record-ladder currency;
+- faster-than-producer forced tracking, if the exact matrix demands
+  \(|\dot K|\gg s|K|\);
 - or a full summability-valid bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -206,5 +209,5 @@ producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
 additive at instantaneous periodic-cell level; the live pressure branch is now
-localization, producer curvature, fast direction tracking if forced,
-allocation, or construction.
+localization, producer curvature, allocation, faster-than-producer forcing, or
+construction.
