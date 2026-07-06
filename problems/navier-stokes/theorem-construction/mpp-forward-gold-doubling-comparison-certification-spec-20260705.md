@@ -23,7 +23,10 @@ completion_truth: >-
   k5-high-re-edge-uniform-cap-obstruction note): this certification is
   RESTRICTED to the marginal/unit-Re branch until the high-Re edge
   payer (return-race/custody/sideband floor) is proved; do not promote
-  it to full pair-cell certification before that. PASS CONDITION: sup K < ln 2 with
+  it to full pair-cell certification before that. FOLLOW-UP:
+  `mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
+  certifies the beta-only normalized Crow sidecar below ln 2, but does
+  not execute this full interval certification. PASS CONDITION: sup K < ln 2 with
   interval arithmetic over I1-I4 => no single encounter completes a
   record on the marginal family; every record needs multiple
   encounters, each separated by custody-priced re-assembly. FAIL
@@ -41,3 +44,17 @@ completion_truth: >-
 One comparison, four interval inputs, two named countermodel gates,
 pass/fail consequences typed in the frontmatter. Numbers enter only
 through this door, once, with intervals.
+
+Follow-up note
+`mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
+certifies the beta-only normalized sidecar
+\[
+  \sup_{0<\beta\le1}
+  \frac{3\sqrt3}{8}\beta^2\log\frac1\beta
+  =
+  \frac{3\sqrt3}{16e}
+  <
+  \log2.
+\]
+That excludes single-encounter doubling only in the normalized sidecar.
+The interval certification specified here remains open.
