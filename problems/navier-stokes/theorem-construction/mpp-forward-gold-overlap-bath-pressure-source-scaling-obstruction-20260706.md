@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -60,8 +61,11 @@ completion_truth: >-
   obstruction identifies the exact room condition Re_R=sR^2/nu>>beta^(-4/5)
   and blocks treating threshold failure as an automatic constant. The current
   pressure branch is Reynolds-edge allocation/producer suppression,
-  same-packet allocation, supercritical fast-motion forcing, or
-  construction/exclusion.
+  Gate-8 no-recount allocation/compensator, supercritical fast-motion forcing, or
+  construction/exclusion. Follow-up same-packet raw allocation obstruction
+  checks that merely charging the same pressure-service energy to the same
+  field still gives only beta^(4/5) of local producer currency; the live
+  allocation branch must be the stronger Gate-8 no-recount row or compensator.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -297,7 +301,8 @@ The remaining exact-matrix burden is now sharper:
   \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) for nonconstant producer
   curvature, or a bridge from threshold failure to record-ladder payment;
 - nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
-- same-packet allocation of pressure service into record-ladder currency;
+- Gate-8 no-recount allocation of pressure service into record-ladder
+  currency, or a positive compensator/residue;
 - supercritical fast-motion forcing, if the exact matrix demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - beta-depth admissibility for finite-depth or growing-depth schedules;
@@ -320,5 +325,5 @@ on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
-through Reynolds-edge allocation, same-packet allocation, supercritical fast
+through Reynolds-edge allocation, Gate-8 no-recount allocation, supercritical fast
 motion, or construction.
