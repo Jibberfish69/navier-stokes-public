@@ -865,6 +865,21 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   reserve/boundary routing. Remaining K3 burdens: CarrierSplit.Def.A,
   ChargeColumnDecay.A, CubicPassiveConsumer.A, and the already named
   reserve/boundary routing.
+  CODEX K3 PASSIVE CUBIC CONSUMER REDUCTION (codex-k3-passive-cubic-
+  consumer-time-readout-reduction): persistent passive \(C_j\) is not
+  automatically a Pack/Part/Field exit. \(C_j\) is parabolic \(L^3_{x,t}\)
+  source currency, not the ESS/Tao time-slice \(L^\infty_tL^3_x\) readout
+  and not by itself a CM face failure. The lawful consumer is a time-readout
+  split: passive \(C_j\) either decays and starves the K3 source, or it
+  produces a terminal critical time-slice readout. Bounded time-slice
+  readout routes to the standard ESS/Tao regular/readout branch after the
+  scope bridge; unbounded or non-transferring readout is a Field-side
+  witness under retained Pack/Part, or a Part/admissibility failure when
+  the same-solution participation record is absent. Thus
+  CubicPassiveConsumer.A reduces to PassiveL3TimeReadout.A plus the
+  existing CM face grammar. Remaining K3 burdens: CarrierSplit.Def.A,
+  ChargeColumnDecay.A, PassiveL3TimeReadout.A, and reserve/boundary
+  routing.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -1026,7 +1041,9 @@ notes.
   CubicPassiveConsumer.A, alongside CarrierSplit.Def.A,
   ChargeColumnDecay.A, and reserve/boundary routing. The active
   two-coin analytic row is reduced to those incidence/routing burdens
-  after unit-cell normalization.
+  after unit-cell normalization. The passive cubic source row is reduced
+  to PassiveL3TimeReadout.A; parabolic \(L^3_{x,t}\) persistence alone is
+  not a CM face.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
