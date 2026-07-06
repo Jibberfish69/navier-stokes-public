@@ -8,7 +8,7 @@ authorship: Codex, 2026-07-06.
 target_object:
   - K5HighReGateAAllocationAutomatic.NO
   - InstalledGateATheorem2IndependentPayer.NO
-  - K5HighReSidebandCrowdOrNewUniformMechanism.Required
+  - K5HighReForcedContaminationOrNewUniformMechanism.Required
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-edge-uniform-cap-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-reynolds-budget-shortcut-obstruction-20260706.md
@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gate-a-three-residues-payment-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-theorem2-two-payer-impedance-attack-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-f3-ga-tax-backing-to-weighted-gate-a-hall-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
 completion_truth: >-
   Strict obstruction to the last installed non-sideband K5 high-Re payer
   shortcut. Gate A is proved-shaped with a fixed tax density only on marginal
@@ -29,10 +30,12 @@ completion_truth: >-
   an independent third payer: its high-Re uniform floor is the return-race
   branch, which the same-day handoff-premise note shows requires a financed
   handoff. Therefore installed Gate-A/Theorem-2 allocation does not pay the pure
-  K5 high-Re edge without an added high-Re mechanism. Remaining live K5 high-Re
-  branch: sideband/crowd interaction, route-out/exclusion of the pure edge, or a
-  new theorem producing an unweighted payer/trigger. No confinement constant,
-  sideband theorem, crowd theorem, or MPP closure is claimed.
+  K5 high-Re edge without an added high-Re mechanism. Same-day follow-up says
+  sideband/crowd has zero trigger on the exact isolated pure edge. Remaining
+  live K5 high-Re branch: forced sideband/leakage/crowd contamination,
+  route-out/exclusion of the pure edge, or a new theorem producing an
+  unweighted payer/trigger. No confinement constant, sideband lower-bound
+  theorem, crowd theorem, or MPP closure is claimed.
 ---
 
 # K5 high-Re edge: Gate-A allocation is not an independent payer
@@ -137,15 +140,15 @@ pure edge. Its high-Re branch is the same missing trigger:
   \text{return-race floor}.
 \]
 
-With \(f=0\), no custody trigger, and no sideband/crowd interaction, the
-installed Gate-A/Theorem-2 package leaves the pure edge at the weighted
-\(1/M\) floor.
+With \(f=0\), no custody trigger, and no sideband/crowd trigger on the exact
+isolated pure edge, the installed Gate-A/Theorem-2 package leaves the pure edge
+at the weighted \(1/M\) floor.
 
 ## 5. Consequence
 
 The live K5 high-Re branch is now:
 \[
-  \text{sideband/crowd interaction}
+  \text{forced sideband/leakage/crowd contamination}
   \quad\text{or}\quad
   \text{route-out/exclusion of the pure isolated edge}
   \quad\text{or}\quad
