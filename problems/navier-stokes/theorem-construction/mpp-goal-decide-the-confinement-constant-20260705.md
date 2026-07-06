@@ -750,6 +750,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Radius collapse, unbounded chart count, escaping chart parameters, or
    overlap/readout failure is Pack-side carrier-cover loss, not retained WKB
    supply.
+   The same-law tower certificate is now split by the tower-defect fork:
+   limiting tower variables must remain derivatives or finite differences of the
+   same limiting velocity, and the differentiated nonlinear law must close
+   modulo pressure gauge. Derivative graph defects \(G_\alpha\) and flux defects
+   \(R_\alpha\) must vanish or be legally carried; otherwise the branch is
+   Part-side same-law tower failure, while a retained tower with high Sobolev
+   readout routes to the installed Field consumer.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
