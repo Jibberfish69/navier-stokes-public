@@ -21,6 +21,7 @@ allowed_source_refs:
   - problems/navier-stokes/spine.md
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-c11-metric-tower-or-exit-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
 completion_truth: >-
   Source-strict operator-half verdict. This note tests whether the retained
   exact weighted root/Hodge projector chart license follows from the allowed
