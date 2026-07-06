@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
 completion_truth: >-
   Strict reduction only. This note proves that the cross-certificate
   compatibility residue left by the product-lift gluing theorem is a closed
@@ -27,14 +28,12 @@ completion_truth: >-
   automatically; weak-* limits stay there if the common identity coordinate and
   row maps compactify with closed graphs. Thus WKBCrossCertificateCompatibility.A
   is not an independent analytic estimate after common-packet identity is
-  carried. The remaining burden is WKBCommonPacketIdentityCompactness.A:
-  construct a compact identity certificate for the same prelimit packet/cloud,
-  or route the first identity loss to Pack-side cover failure, Part-side
-  law/ancestry/tower failure, or the installed Field consumer when all
-  certificates persist with high Sobolev readout. This note proves no
-  row-level defect vanishing theorem, no common-packet identity compactness
-  theorem for actual Navier-Stokes WKB packets, no profile construction or
-  exclusion theorem, no confinement constant, and no MPP closure.
+  carried. The later identity-factorization reduction shows that the common
+  packet identity coordinate is row content: compact identity subcoordinates in
+  the law, ancestry, cover, and tower rows plus closed matching relations. This
+  note proves no row-level defect vanishing or legal carriage theorem for
+  actual Navier-Stokes WKB packets, no profile construction or exclusion
+  theorem, no confinement constant, and no MPP closure.
 ---
 
 # WKB cross-certificate compatibility is diagonal closedness
@@ -224,7 +223,7 @@ applies:
 
 ## 5. Reduced burden
 
-The cross-compatibility residue is now:
+The cross-compatibility residue first becomes:
 
 ```text
 WKBCommonPacketIdentityCompactness.A
@@ -243,7 +242,9 @@ identity coordinate routes by (DIA.12)--(DIA.15).
 
 This is smaller than profile admission and smaller than the product-lift
 problem. It is the exact same-packet custody row needed after rowwise
-certificate compactness.
+certificate compactness. The identity-factorization reduction then absorbs
+this row into the four row-level certificate definitions: each row must carry
+its identity subcoordinate.
 
 ## 6. Four-sentence result
 
@@ -253,8 +254,8 @@ space is closed, so a weak-* limit of certified prelimit packets remains
 same-packet compatible when the identity coordinate and row maps are compact
 and closed. Thus `WKBCrossCertificateCompatibility.A` is not an independent
 analytic estimate after common-packet identity is retained. The remaining
-burden is `WKBCommonPacketIdentityCompactness.A`, or else the first escaped
-identity coordinate is a typed Pack or Part failure.
+burden is the four row-level certificates with identity subcoordinates, or else
+the first escaped identity coordinate is a typed Pack or Part failure.
 
 ## 7. State
 
@@ -262,6 +263,6 @@ This note proves the diagonal closedness reduction for cross-certificate
 compatibility.
 
 It proves no row-level defect vanishing theorem, no common-packet identity
-compactness theorem for actual Navier-Stokes WKB packets, no profile admission
+compactness theorem beyond row identity factorization, no profile admission
 theorem, no WKB construction/exclusion theorem, no confinement constant, and no
 MPP closure.
