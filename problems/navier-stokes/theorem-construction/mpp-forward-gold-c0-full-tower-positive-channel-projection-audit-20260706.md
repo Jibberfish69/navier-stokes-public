@@ -19,6 +19,7 @@ target_objects:
   - OriginalSmoothDataToPrelimitMasterBalanceFamily.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-record-log-growth-channel-identity-20260622.md
@@ -46,7 +47,9 @@ completion_truth: >-
   Theta_N, equivalently the signed smooth same-packet commutator/coercivity
   line needed to put the material record log-growth clock on the prelimit
   left side. Constant-strain normal form shows this cannot be paid by a
-  bounded algebraic cross-storage alone. The exact remaining producer is a
+  bounded algebraic cross-storage alone. The theta-clock bridge identifies this
+  same unowned channel as the route-b certified surplus-zero material-time
+  profile if retained compactness persists. The exact remaining producer is a
   genuine Navier-Stokes same-packet coercivity/admission theorem:
   SignedSmoothSamePacketCommutatorCoercivity.A inside
   OriginalSmoothDataToPrelimitMasterBalanceFamily.A, or a route-out as
