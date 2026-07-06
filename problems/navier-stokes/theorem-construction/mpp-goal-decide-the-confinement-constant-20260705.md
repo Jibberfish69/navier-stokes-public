@@ -63,14 +63,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     power scales with protected production); cheap-inside-bath threat
     recorded at beta^(8/5); FINAL FORM = the up-scale holding recursion
     e_oct: fixed floor => (A) via composition starvation; vanishing =>
-    (B) construction. Custody: re-assembly Reynolds threshold filed
-    (quadratic in concentration ratio), thick-debris self-dispersal
-    display gated. Doubling-comparison certification
+    (B) construction. Custody local three-leg split filed: thin debris
+    confiscated below the quadratic Reynolds threshold; isolated thick
+    debris cannot re-concentrate at fixed impulse because concentration
+    is uphill in energy; assisted thick debris pays fast-transit
+    increment-cubic total variation at pair-energy scale. Remaining
+    custody/composition interface: row lift onto the same
+    channel-window summands. Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
-    obstruction. Custody payment identity filed at scaling level: fast
-    thick re-assembly pays pair-energy scale in increment-cubic
-    total-variation currency; thick-debris self-dispersal and row lift
-    remain open. External-audit paper drafted
+    obstruction. External-audit paper drafted
     (external-paper/eviction-production-filament-pair-notes-draft),
     awaiting owner send decision.
 
@@ -87,8 +88,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
-   re-form producing geometry without transit payment. Kill condition:
-   a free re-assembly channel.
+   re-form producing geometry without transit payment. Local three-leg
+   split filed; remaining burden is the same-packet row lift into
+   composition. Kill condition: a re-assembly channel evading thin
+   confiscation, isolated-thick energy prohibition, assisted-thick
+   transit payment, and the row lift.
 4. CROWD CELL - THE SUMMIT, NAMED AS SUCH. (a) dilute limit: floor
    survives superposition with N-independent constant, or the
    interference that beats it; (b) dense limit: direct counterexample
