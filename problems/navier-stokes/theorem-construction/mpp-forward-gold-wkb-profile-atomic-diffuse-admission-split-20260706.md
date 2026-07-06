@@ -22,6 +22,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -53,7 +55,10 @@ completion_truth: >-
   legality is a limit-of-class / original-participation / carrier-or-tower
   failure. Certificate compactness then names the closedness input, and its
   actual-law coordinate now requires the Reynolds defect to vanish modulo
-  pressure gauge with compatible service, or to be legally carried. A nonzero
+  pressure gauge with compatible service, or to be legally carried. The
+  ancestry coordinate requires transport-defect vanishing or legal carriage,
+  and the cover coordinate requires a compact finite readout-compatible cover
+  certificate. A nonzero
   diffuse part reduces the problem to
   DiffuseWKBProfileAdmission.A: admit the diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
@@ -328,6 +333,11 @@ pressure service, or unless \(R\) is itself carried as a legal certificate.
 Thus the actual-law part of diffuse profile admission is not scalar service
 passage; it is Reynolds-defect closure or certified Reynolds-defect carriage.
 
+The cover part is likewise separate from scalar service passage. The profile
+must lift to a finite readout-compatible cover certificate. If chart radii
+collapse, chart count escapes, chart parameters escape, or overlap/readout
+compatibility fails, the branch is Pack-side carrier-cover loss.
+
 ## 8. State
 
 The compact-continuum WKB branch is now split into two smaller objects:
@@ -347,7 +357,9 @@ terminal witness theorem or limit-of-class failure theorem, after the scalar
 moment-passage clause has been paid by `WKBServiceModulus.A` or else routed to
 moving-selector escape, and after the legal-support clause has been reduced to
 certificate compactness of the same-solution legal-label graph, including the
-Reynolds-defect closure fork for the actual-law coordinate.
+Reynolds-defect closure fork for the actual-law coordinate, the transport-defect
+fork for material ancestry, and the finite-cover compactness fork for the
+Pack-side cover coordinate.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,
