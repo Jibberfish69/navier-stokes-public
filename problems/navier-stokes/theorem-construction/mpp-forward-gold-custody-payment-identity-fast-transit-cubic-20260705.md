@@ -20,11 +20,11 @@ completion_truth: >-
   Duchon-Robert increment-cubic density |delta_d u|^3/d on a thick d^3 cell give
   cubic total variation bounded below by a constant times C^{-2} times the
   pair-energy scale U^2 d^3. Thus the local custody escape cannot be
-  simultaneously thick, fast, and free at scaling level. What remains open:
-  the thick-debris self-dispersal display (G-C-1), the signed/oriented row lift
-  of this total-variation payment, and the up-scale bath recursion for holder
-  fields. No full custody theorem, crowd theorem, composition theorem, or MPP
-  closure is claimed.
+  simultaneously thick, fast, and free at scaling level. Same-day follow-up:
+  G-C-1 is now filed as the isolated thick-debris energy prohibition. What
+  remains open: the signed/oriented row lift of this total-variation payment and
+  the up-scale bath recursion for holder fields. No full custody theorem, crowd
+  theorem, composition theorem, or MPP closure is claimed.
 ---
 
 # Custody payment identity: fast transit is cubic
