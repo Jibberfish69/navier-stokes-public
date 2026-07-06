@@ -983,8 +983,8 @@ notes.
   STRUCK (amplitude obstruction: quadratic dissipation vs cubic
   admitted row; no uniform constant on the actual solution class).
   Use the carrier-split typing D_j^adm <= C_pc(E_j + X_j) plus the
-  K3 sourced CKN contraction with all pressure/boundary/excess terms
-  priced or routed.
+  K3 Caccioppoli source row, with \(C_j\), \(D_j\), and
+  \(C_j^{1/3}D_j^{2/3}\) priced or routed.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
