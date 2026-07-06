@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-theorem2-two-payer-impedance-attack-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-f3-ga-tax-backing-to-weighted-gate-a-hall-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
 completion_truth: >-
   Strict obstruction to the last installed non-sideband K5 high-Re payer
   shortcut. Gate A is proved-shaped with a fixed tax density only on marginal
@@ -32,8 +33,8 @@ completion_truth: >-
   handoff. Therefore installed Gate-A/Theorem-2 allocation does not pay the pure
   K5 high-Re edge without an added high-Re mechanism. Same-day follow-up says
   sideband/crowd has zero trigger on the exact isolated pure edge. Remaining
-  live K5 high-Re branch: forced sideband/leakage/crowd contamination,
-  route-out/exclusion of the pure edge, or a new theorem producing an
+  live K5 high-Re branch: dynamic/geometric forced sideband/leakage/crowd
+  contamination, route-out/exclusion of the pure edge, or a new theorem producing an
   unweighted payer/trigger. No confinement constant, sideband lower-bound
   theorem, crowd theorem, or MPP closure is claimed.
 ---
@@ -148,7 +149,7 @@ at the weighted \(1/M\) floor.
 
 The live K5 high-Re branch is now:
 \[
-  \text{forced sideband/leakage/crowd contamination}
+  \text{dynamic/geometric forced sideband/leakage/crowd contamination}
   \quad\text{or}\quad
   \text{route-out/exclusion of the pure isolated edge}
   \quad\text{or}\quad

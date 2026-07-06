@@ -93,5 +93,5 @@ criterion. Even favorable sign gives a log(seed) neutral-phase integral.
 Kill condition (standing, from the goal): Re Lambda_edge <= 0 or
 symmetry-zero on the edge family kills inviscid self-saturation; the
 viscous Reynolds split caps the unit/marginal branch and leaves the
-high-Re branch to forced sideband/leakage/crowd contamination,
+high-Re branch to dynamic/geometric forced sideband/leakage/crowd contamination,
 route-out/exclusion, or a new unweighted high-Re mechanism.

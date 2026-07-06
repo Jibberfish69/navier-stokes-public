@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
 completion_truth: >-
   Strict obstruction to one K5 high-Re payer shortcut. The installed custody
   packet prices reassembly after producing geometry has been destroyed: thin
@@ -141,6 +142,6 @@ K5 pure high-Re edge is an intact near-neutral mode with production and
 slow damping, so it supplies no debris transit, no fast relative
 reassembly, and no stored-energy escrow event. Therefore the installed
 custody packet has no positive charge on the pure edge branch. The K5
-high-Re branch still needs forced sideband/leakage/crowd contamination,
-route-out/exclusion, a separate theorem that first creates a financed handoff
-or custody trigger, or a new unweighted high-Re mechanism.
+high-Re branch still needs dynamic/geometric forced sideband/leakage/crowd
+contamination, route-out/exclusion, a separate theorem that first creates a
+financed handoff or custody trigger, or a new unweighted high-Re mechanism.
