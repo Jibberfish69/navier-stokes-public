@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
 completion_truth: >-
   Strict reduction only. Once an actually backed rank-one uniform-mode payer has
   been separated, any bounded zero-mode residual Gram form is unable to give a
@@ -31,7 +32,9 @@ completion_truth: >-
   pressure-kernel Gram gap. The unbounded-residual follow-up makes this exact:
   with residual operator scale B_M and legal separation d_M, a zero-mode
   residual floor requires B_M d_M^2 >= c, while a row-drift floor requires
-  B_M d_M >= c up to constants. This proves no anti-equidistribution theorem, no
+  B_M d_M >= c up to constants. The raw-CZ normalization follow-up says the
+  pressure-kernel appearance B_M~M is only density-coordinate normalization,
+  not a new payer. This proves no anti-equidistribution theorem, no
   unbounded residual payer, no WKB construction/exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -255,6 +258,16 @@ For a row-drift residual, the corresponding necessary condition is
 Thus unbounded residual strength only weakens the separation scale. It does not
 remove the need to certify the operator growth and the legal separation that
 match it.
+
+For the raw pressure/CZ kernel, the apparent \(B_M\sim M\) growth is already
+typed as mass-coordinate normalization. Writing \(a_b=(1/M)f_b\), the product
+law becomes
+\[
+  \|f-1\|_{L^2_\omega}^2\gtrsim1.
+  \tag{RG.24}
+\]
+Thus raw CZ does not supply the non-raw unbounded branch. It only demands
+density-level anti-equidistribution.
 
 ## 6. Crowd-branch ledger
 
