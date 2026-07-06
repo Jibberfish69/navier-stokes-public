@@ -20,9 +20,9 @@ depends_on:
   - mpp-forward-gold-codex-hall-incidence-queue-collapse-20260705.md
   - mpp-forward-gold-codex-tax-backing-causal-coupling-hall-reduction-20260705.md
   - mpp-forward-gold-codex-tax-backing-measure-deficit-lemma-20260705.md
-  - mpp-forward-gold-codex-prefix-balance-entrance-reserve-20260705.md
-  - mpp-forward-gold-codex-no-recount-prefix-matching-20260705.md
-  - mpp-forward-gold-codex-srp-production-projection-localization-20260705.md
+  - mpp-forward-gold-codex-prefix-balance-entrance-reserve-reduction-20260705.md
+  - mpp-forward-gold-codex-no-recount-prefix-matching-reduction-20260705.md
+  - mpp-forward-gold-codex-srp-production-projection-localization-reduction-20260705.md
 completion_truth: >-
   FIRST CONTACT between the chapter-9/Gate-A ledger machinery and the
   actual PDE objects. Everything proved here is unconditional for every
