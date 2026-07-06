@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -44,9 +45,12 @@ completion_truth: >-
   and same-cell packet-moment square coercivity are false. A nonzero
   profile carries the retained scalar pressure-service moment whenever the
   active service readout is continuous or uniformly stabilized; without that
-  stabilization a moving-spike selector is label/weight/rung escape. A nonzero
-  diffuse part reduces the problem to DiffuseWKBProfileAdmission.A: admit the
-  diffuse phase-space measure itself as
+  stabilization a moving-spike selector is label/weight/rung escape. The
+  closed-graph witness follow-up pays the exact legal-support compactness
+  criterion: closed legal labels admit profile support, while nonclosed
+  legality is a limit-of-class / original-participation / carrier-or-tower
+  failure. A nonzero diffuse part reduces the problem to
+  DiffuseWKBProfileAdmission.A: admit the diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
   limit-of-class / original-participation defect. The already filed
   angular-continuum quadrature note removes pure direction diffusion as an
@@ -298,6 +302,12 @@ modulus is moving service-selector escape in material, center, envelope, time,
 scale, bank, weight, or rung coordinates. This is a strict narrowing of
 `MicrolocalDefectProfileAdmission.A`. It does not prove that either profile
 branch is admitted as a same-solution terminal witness.
+
+The closed-graph witness criterion pays the exact compactness test for that
+remaining same-solution legality. Closed legal labels carry the limiting
+profile support. Nonclosed legal labels produce a legal prelimit cloud whose
+limit is outside the witness class, which is a limit-of-class /
+original-participation / carrier-or-tower failure.
 
 ## 8. State
 
