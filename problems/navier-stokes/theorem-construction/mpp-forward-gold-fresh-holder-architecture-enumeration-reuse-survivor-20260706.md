@@ -1,13 +1,13 @@
 ---
 theorem_id: forward-gold-fresh-holder-architecture-enumeration-reuse-survivor-20260706
-status: fresh-funding-closed-under-enumeration-reuse-is-the-survivor-conditional-on-fh-lemma-gate-codex-gate-requested
+status: gated-spatial-fresh-enumeration-closed-overlap-bath-survives
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / fresh-holder consolidation
 target_object:
-  - FreshHolderFunding.CLOSED-UNDER-ENUMERATION
-  - GrowingDepthCascade.FreshHalf.DECIDED
-  - CrowdCell.LiveSpace = {ReuseTrackingFloor, Gate8Allocation}
+  - FreshHolderFunding.SPATIAL-LOCALIZED-CLOSED
+  - OverlappingSmoothBath.SURVIVES-AS-EXACT-MATRIX
+  - CrowdCell.LiveSpace = {OverlapExactMatrix, ReuseTrackingFloor, Gate8Allocation}
 authorship: >-
   Consolidation: Claude (Fable), 2026-07-06. Physical story Thomas
   Birnie (participation: nothing is built for one use; the fluid has
@@ -22,15 +22,16 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-tv-toll-funding-allocation-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-steady-or-tracking-dichotomy-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-node-sitting-moving-constraint-tracking-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-holder-architecture-gate-overlap-survivor-20260706.md
 completion_truth: >-
-  Consolidation with one new check, deciding the FRESH half of the
-  growing-depth door named open by the beta-depth correction. CLAIM:
-  under the enumeration below, no schedule of FRESH holders finances a
-  geometric record ladder with finite energy; the surviving crowd
-  funding branch is REUSE of already-present structure, which pays
-  tracking on the production clock (BD1) and lands in the
-  node-sitting/tracking floor plus Gate-8 allocation. ENUMERATION of
-  fresh architectures, each priced by a filed exact object: (AR1)
+  Gate-corrected consolidation with one new check. The enumeration below closes
+  the localized spatial fresh-holder architectures, not the whole FRESH half of
+  the growing-depth door. A later Codex gate shows the missing architecture:
+  smooth or broadband bath holding can overlap the producer region, so holder
+  vorticity need not vanish on a standoff ball and no localized fresh
+  octave-adjacent bottom tier is forced. That overlap bath survives as the
+  exact-matrix/bath-recursion branch. ENUMERATION of localized fresh
+  architectures, each priced by a filed exact object: (AR1)
   single holder at standoff R_n with R_n/d_n -> infinity - priced by
   the far-holder harmonic lemma (fifth/seventh standoff powers); per-
   event cost DIVERGES, cheap direction closed. (AR2) octave-adjacent
@@ -50,13 +51,12 @@ completion_truth: >-
   monopole vanishing) or the contact cell (K3 TV-taxed); no new
   channel. GRAFT DICHOTOMY: any mixed architecture either has a fresh
   bottom tier (then AR2's fixed fraction applies per event) or a
-  reused bottom tier (then it is the reuse branch by definition).
-  CONSEQUENCE: the crowd cell's live space is exactly two objects -
-  the reuse/tracking floor (transversality/supply display) and
-  same-packet Gate-8 allocation (composition lane). KILL CONDITION: a
-  fresh architecture outside AR1-AR4, or failure of the
-  jump-monotonicity check, or a validity-band failure of the one-tier
-  ratio at the bottom tier. CAVEATS: conditional on the far-holder
+  reused bottom tier (then it is the reuse branch by definition). CORRECTED
+  CONSEQUENCE: the crowd cell's live space is three objects - overlapping
+  smooth/broadband bath exact matrix, reuse/tracking floor, and same-packet
+  Gate-8 allocation. KILL CONDITION: a localized fresh architecture outside
+  AR1-AR4, or failure of the jump-monotonicity check, or a validity-band failure
+  of the one-tier ratio at the bottom tier. CAVEATS: conditional on the far-holder
   lemma's pending Codex gate; the one-tier ratio's tilt-vs-scale
   reading is flagged (the bottom-tier fraction uses demanded holding
   work, not a scale-ratio power, precisely to be robust to that
@@ -71,12 +71,13 @@ completion_truth: >-
 ## 1. Kill condition
 
 The beta-depth correction leaves one door open on the finite-depth
-fork: the growing-depth/up-scale cascade. This note decides its FRESH
-half. Kill condition: exhibit a fresh holding architecture outside
-the enumeration AR1-AR4, or break the jump-monotonicity check in
-section 4, or show the bottom-tier fraction fails inside the filed
-one-tier model's validity band. Any of these reopens fresh funding
-and is a live exit-(ii) lead.
+fork: the growing-depth/up-scale cascade. This note decides only the
+localized spatial fresh-holder half. Kill condition: exhibit a localized
+fresh holding architecture outside the enumeration AR1-AR4, break the
+jump-monotonicity check in section 4, or show the bottom-tier fraction
+fails inside the filed one-tier model's validity band. The separate
+overlapping smooth/broadband bath is not killed here; it remains the
+exact-matrix/bath-recursion branch.
 
 ## 2. The enumeration
 
@@ -129,33 +130,36 @@ descending the ladder in bounded steps. So the optimal fresh
 architecture is bounded-jump - which is AR2, already closed by its
 bottom tier. Sparse ladders cannot undercut it.
 
-## 5. What survives, exactly
+## 5. What survives
 
-Reuse. The structure that holds record event n was not built for it:
-it is the ambient field - and then BD1 applies. A reused holder
-protecting production at rate sigma must track on the production
-clock; its supply must grow at sigma; tracking power scales with
-sigma times the holder's energy scale, and pure node-sitting is
-blocked on the supply-amplitude channel (strengths must match
-strengths). The reuse branch is therefore the already-filed
-tracking-floor object - transversality/supply display owed - plus
-the composition-lane question of whether reuse costs allocate
-same-packet into Gate 8 (no-recount custody).
+First, the overlapping smooth/broadband bath survives. It can overlap the
+producer region, so the far-holder standoff lemma is not licensed and a
+localized fresh bottom tier is not forced. This is the already-filed exact
+joint transfer matrix / bath-recursion object.
 
-The crowd cell's live space after this note: two objects.
+Second, reuse survives. The structure that holds record event n was not built
+for it: it is the ambient field - and then BD1 applies. A reused holder
+protecting production at rate sigma must track on the production clock; its
+supply must grow at sigma; tracking power scales with sigma times the holder's
+energy scale, and pure node-sitting is blocked on the supply-amplitude channel
+(strengths must match strengths). The reuse branch is therefore the
+already-filed tracking-floor object - transversality/supply display owed - plus
+the composition-lane question of whether reuse costs allocate same-packet into
+Gate 8 (no-recount custody).
 
-1. Tracking floor with reuse (transversality/supply display).
-2. Gate-8 same-packet allocation (composition lane).
+The crowd cell's live space after the gate correction: three objects.
+
+1. Overlapping smooth/broadband bath exact matrix.
+2. Tracking floor with reuse (transversality/supply display).
+3. Gate-8 same-packet allocation (composition lane).
 
 ## 6. Four-sentence result
 
-A fresh holder for each record event must sit far away, chain down
-octave-adjacent tiers, jump sparsely, or push from below, and each
-of those four is priced by an already-filed exact object - the
-far-holder standoff powers, the bottom-tier fixed fraction plus
-depth kills, jump-monotonicity, and the dilute/contact cells. Under
-that enumeration no fresh funding schedule finances geometric record
-demand with finite energy. What survives is reuse of structure that
-was already there, and reuse pays tracking on the production clock
-by BD1. The crowd cell is now two objects: the reuse tracking floor
-and Gate-8 allocation.
+Localized fresh holders must sit far away, chain down octave-adjacent tiers,
+jump sparsely, or push from below, and those four cases are priced by the
+far-holder standoff powers, the bottom-tier fixed fraction plus depth kills,
+jump-monotonicity, and the dilute/contact cells. That closes the localized
+spatial fresh-holder branch. It does not close an overlapping smooth or
+broadband bath, which remains the exact-matrix/bath-recursion object. The crowd
+cell is therefore three objects: overlap matrix, reuse tracking floor, and
+Gate-8 allocation.
