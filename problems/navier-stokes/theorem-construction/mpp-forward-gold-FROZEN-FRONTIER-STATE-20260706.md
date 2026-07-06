@@ -426,8 +426,8 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   OPEN: \(V_{\log}^+ \le V_{\rm cap}^+\) per routed history, or else
   a net-extraction law revives the prefix route. Rent
   non-double-charge remains a consumer-amendment item.
-  RETURN BUDGET REDUCED (Fable, pending gate,
-  return-budget-mass-conversion-nogo-reentry-parking-reduction):
+  RETURN BUDGET REDUCED (Fable, Codex-gated in
+  codex-return-budget-nogo-reentry-gate):
   (F1, exact) above the threshold \(X \ge G_{\rm thr}/X_{\max}^2\),
   so \(V_{\log}^+|_{\rm above} \le (X_{\max}^2/G_{\rm thr})
   \mathfrak E^-_{\rm dwell}\) — the row converts to package-MASS
@@ -437,16 +437,20 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(G_0^2 \le X_{\max}^3\)) with zero net mass — the return budget
   is a DYNAMICAL row (when the swap-back ray fires), not a
   conservation row; closes that whole proof class. (F3) lawful
-  split by signed-subwindow routing at period granularity:
-  [\(v_{\rm R4} < \delta\) on forward periods — R4-currency
-  per-period up-variation display, owed at the R4 one-period home]
-  + [THE RE-ENTRY COUNT ROW \(N_{\rm re} \le N_{\rm cap}\) for
-  backward-routed episodes]. (F4, flagged not proved) the PARKING
-  CAP is the named candidate for \(N_{\rm re}\): each re-entry
-  re-parks at full price (separatrix distance \(\ge f\) after
-  extraction; surviving band \(K \in [\pi/2, \tfrac12\ln(16/f)]\)
-  nearly useless) — verification homed at the return-race
-  parking/un-parking sections.
+  split by signed-subwindow routing at period granularity, but Codex
+  re-gates the forward piece as an R4-TV/upvariation row, not the
+  already filed R4 average estimate: average true-vs-frozen control
+  does not bound the positive part of an oscillatory residue. Needed:
+  \(v_{\rm R4}^{\rm TV}<\delta\) in the same \(\rho_{\rm ext}\)
+  normalization, using the pointwise Gronwall ingredients of the R4
+  note plus a one-signed frozen reference or a further signed
+  subwindow split. (F4) the parking cap is accepted as mechanism and
+  rejected as a count proof by itself: it caps useful depth per
+  re-entry, but \(N_{\rm re}\le N_{\rm cap}\) still needs a
+  count-to-budget bridge (fixed admission/time/return-race/length cost
+  per re-entry). Current return-budget row:
+  R4-TV\((\delta)\) + ParkingCount\((\delta)\), or a net-extraction
+  theorem reviving the prefix route.
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
@@ -458,9 +462,9 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   import fires only after \(D_j\) is matched to the nested parabolic
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff); THE RETURN BUDGET ROW, now reduced (pending
-  gate) to [\(v_{\rm R4} < \delta\) on forward periods] +
-  [\(N_{\rm re} \le N_{\rm cap}\), parking-cap candidate] (pure
+  single-mode handoff); THE RETURN BUDGET ROW, now reduced to
+  R4-TV\((\delta)\) on forward-routed periods +
+  ParkingCount\((\delta)\) for backward-routed re-entries (pure
   bookkeeping routes closed by the F2 no-go; a net extraction law
   would instead revive the prefix route); pricing completeness
   \(D_j\le C_{\rm pc}E_j\); the parametric RUN row
