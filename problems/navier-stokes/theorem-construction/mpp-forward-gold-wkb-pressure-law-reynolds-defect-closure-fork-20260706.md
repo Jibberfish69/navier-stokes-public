@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-no-vanishing-horn-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
 completion_truth: >-
@@ -55,7 +56,9 @@ completion_truth: >-
   The terminal ballast-readout follow-up consumes the admitted nonzero-trace
   branch: positive terminal trace energy at carrier frequency
   lambda_j -> infinity gives high Sobolev readout of size
-  mu_R lambda_j^(2m). The ballast-cover landing adds the Pack-side clause:
+  mu_R lambda_j^(2m). The no-vanishing-horn follow-up kills the complementary
+  PSD covariance escape: if normalized mu_R vanishes, then the trace-free
+  anisotropic covariance mass vanishes with it. The ballast-cover landing adds the Pack-side clause:
   positive mu_R must lift to the finite/readout-compatible cover certificate or
   route to carrier-cover failure. The ballast ancestry/tower landing adds the
   two Part-side clauses: the same positive energy must lift to a material
@@ -353,6 +356,14 @@ then the trace energy is high-Sobolev visible:
 For the installed CM consumer, use the required Sobolev depth \(m>1\). Thus
 positive trace ballast is a pressure-law gauge only in the velocity-force
 coordinate; after terminal WKB admission it is a Field-visible energy readout.
+The complementary vanishing case does not leave a hidden PSD anisotropic
+covariance branch, because
+\[
+  |A|_F\le 2\sqrt{2\over3}\,\mu_R .
+  \tag{RDC.27}
+\]
+Thus vanishing normalized \(\mu_R\) forces vanishing normalized trace-free
+anisotropic covariance mass.
 
 ## 6. Reduced burden
 
@@ -375,7 +386,9 @@ with \(q\) absorbed into pressure and positive trace ballast paid for any
 nonzero trace-free anisotropy as the energy ledger
 \(\mu_R=(1/2)\operatorname{tr}R\). If that ledger has nonvanishing terminal
 carrier-frequency mass, the Sobolev/Field consumer applies after same-solution
-witness admission. The same positive measure must also lift to the finite
+witness admission. If the ledger vanishes on the retained terminal witness,
+the trace-free anisotropic covariance defect vanishes with it. The same
+positive measure must also lift to the finite
 cover certificate; otherwise the branch is Pack-side cover failure. It must
 also lift to the material ancestry and same-law tower certificates: the
 ballast transport defect \(A_R=J_R-u\rho_R\), the derivative graph defects
