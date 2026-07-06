@@ -1,0 +1,218 @@
+---
+theorem_id: forward-gold-wkb-reynolds-null-stress-characterization-20260706
+status: exact-characterization-leray-null-reynolds-defects-as-pressure-gauge-plus-divergence-free-stress
+created: 2026-07-06
+problem: navier-stokes
+route: forward-gold / confinement constant / WKB profile admission / pressure-law certificate
+target_object:
+  - WKBReynoldsDefectVanishesOrCertified.A
+  - WKBActualPressureLawClosedness.A
+  - WKBCertificateCompactness.A
+  - LimitOfClassTerminalArtifact.A
+source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+completion_truth: >-
+  Exact characterization of the pressure-law null branch. For a smooth compactly
+  supported symmetric Reynolds stress R on R^3, the condition
+  P div R=0 is equivalent to div R being a gradient. Equivalently, after
+  choosing the compactly supported pressure gauge q with grad q=div R, one can
+  write R=qI+S with div S=0. Thus the multi-stress cancellation branch in
+  WKBReynoldsDefectVanishesOrCertified.A is not an open-ended cancellation
+  phrase: it is exactly the pressure-gauge component plus a divergence-free
+  symmetric null stress invisible to the velocity law. A nonzero null stress may
+  still carry WKB tensor readout; it is legal for the actual pressure-law row
+  only as a null-stress certificate and remains available to the other rows
+  rather than becoming retained pressure-service supply. This proves no theorem
+  forcing actual Navier-Stokes WKB Reynolds defects into the null class, no
+  legal carriage theorem for nonzero null stresses through the whole profile,
+  no profile admission theorem, no WKB construction/exclusion theorem, no
+  confinement constant, and no MPP closure.
+---
+
+# WKB Reynolds null stresses: exact pressure-law characterization
+
+## 1. Object
+
+The pressure-law row says a weak WKB limit of smooth same-viscosity
+Navier-Stokes branches closes the ordinary velocity-pressure law only when the
+Reynolds defect \(R\) satisfies
+\[
+  \mathbb P\,\operatorname{div}R=0
+  \tag{NUL.1}
+\]
+with compatible pressure service, or when \(R\) is legally carried as a
+certificate.
+
+The localized anisotropic note proved that a single compactly supported
+non-scalar shape
+\[
+  R=\chi Q,\qquad Q\notin\mathbb RI
+  \tag{NUL.2}
+\]
+does not satisfy (NUL.1). It left multi-stress cancellation.
+
+This note identifies that branch exactly.
+
+## 2. Leray-null stress condition
+
+Work on \(\mathbb R^3\). Let
+\[
+  R\in C_c^\infty(\mathbb R^3;{\rm Sym}(3)).
+  \tag{NUL.3}
+\]
+Set
+\[
+  f:=\operatorname{div}R .
+  \tag{NUL.4}
+\]
+The Leray projector kills exactly gradient vector fields, so
+\[
+  \mathbb P f=0
+  \quad\Longleftrightarrow\quad
+  f=\nabla q
+  \tag{NUL.5}
+\]
+for some scalar distribution \(q\). Since \(f\) is smooth and compactly
+supported, \(q\) may be chosen smooth with \(\nabla q=0\) outside a large ball;
+after subtracting the exterior constant, \(q\in C_c^\infty\).
+
+Thus
+\[
+  \mathbb P\,\operatorname{div}R=0
+  \quad\Longleftrightarrow\quad
+  \operatorname{div}R=\nabla q
+  \quad\hbox{for some }q\in C_c^\infty .
+  \tag{NUL.6}
+\]
+
+Equivalently, define
+\[
+  S:=R-qI .
+  \tag{NUL.7}
+\]
+Then
+\[
+  \operatorname{div}S=0,
+  \qquad
+  R=qI+S .
+  \tag{NUL.8}
+\]
+
+Conversely, if \(R=qI+S\) with \(\operatorname{div}S=0\), then
+\[
+  \operatorname{div}R=\nabla q,
+  \qquad
+  \mathbb P\,\operatorname{div}R=0 .
+  \tag{NUL.9}
+\]
+
+Therefore:
+\[
+\boxed{
+  \mathbb P\,\operatorname{div}R=0
+  \quad\Longleftrightarrow\quad
+  R=qI+S,\quad \operatorname{div}S=0 .
+}
+\tag{NUL.10}
+\]
+
+The scalar part \(qI\) is pressure gauge. The symmetric divergence-free part
+\(S\) is a null stress for the velocity law.
+
+## 3. Curl form
+
+The same test can be stated without solving for \(q\):
+\[
+  \nabla\times\operatorname{div}R=0 .
+  \tag{NUL.11}
+\]
+For a compactly supported vector field, being curl-free is equivalent to being
+a gradient. Thus (NUL.11) is equivalent to (NUL.1).
+
+This is the exact form of the "multi-stress cancellation" branch. Multiple
+localized WKB stresses can cancel in the pressure-law row only by making
+\[
+  \operatorname{div}\sum_a R_a
+  \tag{NUL.12}
+\]
+curl-free, equivalently by leaving only pressure gauge plus a divergence-free
+null stress.
+
+## 4. WKB meaning
+
+The pressure-law row sees only
+\[
+  \mathbb P\,\operatorname{div}R .
+  \tag{NUL.13}
+\]
+So a nonzero \(S\) with \(\operatorname{div}S=0\) is invisible to the velocity
+equation. It is not automatically admitted retained WKB supply. It is a tensor
+defect certificate that the pressure-law row cannot reject, and the other rows
+must still test:
+
+1. whether it comes from the same material packet/cloud;
+2. whether it is compatible with the finite cover;
+3. whether it is compatible with the differentiated same-law tower;
+4. whether its high Sobolev readout triggers the installed Field consumer.
+
+Thus a Leray-null stress is not pressure-service closure of the whole profile.
+It is only the exact null branch of the actual velocity-pressure law
+certificate.
+
+## 5. Reduced burden
+
+The pressure-law row is now:
+
+```text
+WKBReynoldsDefectVanishesOrCertified.A
+```
+
+with the following exact split:
+
+```text
+R = 0
+or R = qI + S with div S = 0 and pressure service adjusted by q
+or R is carried as a legal Reynolds/null-stress certificate
+or actual-pressure-law / tower certificate failure.
+```
+
+The previous "multi-cell cancellation" phrase is replaced by the explicit
+Leray-null stress class:
+\[
+  \mathcal N_{\rm Rey}
+  :=
+  \{R\in C_c^\infty({\rm Sym}(3)):
+    \mathbb P\operatorname{div}R=0\}
+  =
+  \{qI+S:\operatorname{div}S=0\}.
+  \tag{NUL.14}
+\]
+
+What remains unproved is that actual Navier-Stokes WKB terminal packets either
+produce only this null class, legally carry a nonzero null/non-null stress, or
+fall into the typed Pack/Part/Field row failures.
+
+## 6. Four-sentence result
+
+The pressure-law branch has an exact null class. For compactly supported
+symmetric \(R\), \(\mathbb P\operatorname{div}R=0\) exactly when
+\(\operatorname{div}R\) is a gradient, equivalently when
+\[
+  R=qI+S,\qquad \operatorname{div}S=0 .
+\]
+The \(qI\) part is pressure gauge; the divergence-free \(S\) part is invisible
+to the velocity equation but remains a tensor defect for the profile ledger.
+So multi-stress cancellation is now a precise null-stress certificate class,
+not a vague escape from the Reynolds-defect row.
+
+## 7. State
+
+This note proves the exact Leray-null characterization for compactly supported
+smooth Reynolds stresses.
+
+It proves no theorem forcing actual Navier-Stokes WKB Reynolds defects into
+the null class, no legal carriage theorem for nonzero null stresses through the
+whole profile, no WKB profile admission theorem, no WKB construction/exclusion
+theorem, no confinement constant, and no MPP closure.
