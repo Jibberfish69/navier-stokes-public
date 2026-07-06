@@ -44,6 +44,38 @@ completion_truth: >-
   (item 4), not consumed here. No closure claimed.
 ---
 
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-k5-mean-detuning-regate-20260705.md`.
+
+Accepted: direct pure-mode growing-band feed is dead by wavenumber
+selection; the surviving pure-mode question is an edge-amplitude
+detuning/normal-form sign; uniform mean separation is removed by the
+impulse gauge; sideband packet routes are separate from pure-mode K5.
+
+Regated: the scalar self-rotation sign chain is not yet the full gate.
+The live coefficient is
+\[
+\Lambda_{\rm edge}
+=
+\left\langle q^\ast,\,
+P_k\Bigl(
+2B(q,h_0)
++2B(\overline q,h_2)
++3C(q,q,\overline q)
+\Bigr)
+\right\rangle ,
+\]
+with \(h_0\) impulse-gauged and \(h_2\) the second-harmonic response.
+The self-rotation shift clears K5 only after this full expression is
+proved to collapse to that scalar in one declared convention. Until
+then the finite sign computation
+\[
+  \operatorname{Re}\Lambda_{\rm edge}>0
+\]
+is open. No pair-cell kill-integral closure is claimed.
+
 # K5 retyped: the mean-detuning coefficient
 
 ## 1. What Codex's obstruction leaves
