@@ -643,7 +643,7 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   now explicit. The source profile
   \(S(q)=q(2-e^{q/2})/[2(2+e^{q/2})]\) has
   \[
-    S'(q)={4-e^q-2q e^{q/2}\over(2+e^{q/2})^2},
+    S'(q)={4-e^q-2q e^{q/2}\over2(2+e^{q/2})^2},
   \]
   so it is unimodal with unique \(q_0\in(0,2\log2)\) satisfying
   \(e^{q_0}+2q_0e^{q_0/2}=4\). Hence
