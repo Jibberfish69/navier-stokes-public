@@ -25,7 +25,7 @@ completion_truth: >-
   skew-driven at the order of the brace it supplies. A non-producing
   straight pair used as a brace accumulates skew and dies into the
   production-dead sector unless braced in turn: THE REGRESS. Each
-  scaffold layer holds the previous one and needs holding. SAME-DAY
+  scaffold layer holds the previous one and needs holding. FOLLOW-UP
   FOLLOW-UP: in unallocated ordered-pair TV currency, bracing is paid
   exactly by the K3 two-tube TV floor; this note's live danger is net
   vector cancellation before pairwise TV is accepted by the ledger, or
@@ -68,7 +68,7 @@ velocity gradient ~ Gamma beta/(pi d^3). A neighboring structure at
 order-one spacing supplies it. The dense crowd can hold a producer in
 its producing pose. The tax is not enforced pairwise.
 
-Same-day clarification:
+Follow-up clarification:
 `mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md`
 shows that the tax is enforced in unallocated ordered-pair TV currency.
 The sentence above concerns net geometric motion after bracing
