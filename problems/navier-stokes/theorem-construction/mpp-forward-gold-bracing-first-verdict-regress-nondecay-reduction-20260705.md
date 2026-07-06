@@ -25,8 +25,8 @@ completion_truth: >-
   skew-driven at the order of the brace it supplies. A non-producing
   straight pair used as a brace accumulates skew and dies into the
   production-dead sector unless braced in turn: THE REGRESS. Each
-  scaffold layer holds the previous one and needs holding. FOLLOW-UP
-  FOLLOW-UP: in unallocated ordered-pair TV currency, bracing is paid
+  scaffold layer holds the previous one and needs holding. FOLLOW-UP:
+  in unallocated ordered-pair TV currency, bracing is paid
   exactly by the K3 two-tube TV floor; this note's live danger is net
   vector cancellation before pairwise TV is accepted by the ledger, or
   a non-pairwise/off-profile crowd geometry. (B3, the
