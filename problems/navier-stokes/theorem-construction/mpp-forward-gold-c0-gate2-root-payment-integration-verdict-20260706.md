@@ -12,6 +12,7 @@ target_object:
   - OriginalHistoryRecordResetRootPayment.A
   - FullTowerPositiveChannelRootProjection.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-positive-record-retention-source-strict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-gate2-source-strict-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md

@@ -10,6 +10,7 @@ target_object:
   - RelayRecordZeroBillKernel
   - FullTowerSignedTotalExchangeRetention.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/spine.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
