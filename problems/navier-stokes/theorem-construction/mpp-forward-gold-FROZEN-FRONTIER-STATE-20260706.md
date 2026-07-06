@@ -265,17 +265,26 @@ Codex-checked): the financed swing/period floors do NOT imply the
 root-factor floor; the horn is NOT sub-financing under the current
 definition (financed in drain currency); it is NOT a CM/Part face
 failure by itself; the Part-bridge attempt reduces to the same
-missing floor. LIVE INDEPENDENT ALTERNATIVES: (a) a noncircular
-lower-root / phase-invariant floor r_- >= r_0 > 0 on the financed
-family; or (b) a NEW poor-horn comparison proving the root-degenerate
-branch sub-financing. A root-service participation law is the same
-missing floor in Part language, not a third route. The
-monotone-envelope row stands as the sufficient interval form once the
-floor exists. Key notes:
+missing floor. RATE-GAP COLLAPSE (Codex, 2026-07-06): the lower-root
+floor and the poor-horn comparison are the same finite inequality on
+the exact horn,
+\[
+  \sup_{\mathcal H_0}
+  {\alpha A\sqrt B\over C_{\rm per}K(A/B)}
+  <
+  r_0(f)\tau_{\min}.
+\]
+If it passes, compactness gives the root-factor floor; if it fails,
+the exact horn is a financed root-blind counterfamily to the current
+product row. A root-service participation law is the same missing
+floor in Part language, not a third route. The monotone-envelope row
+stands as the sufficient interval form once the floor exists. Key
+notes:
 codex-delta-g6a-factorized-source-row,
 codex-delta-g6a-root-factor-bottom-root-obstruction,
 codex-bottom-root-horn-financed-obstruction,
 codex-bottom-root-horn-cm-route-audit,
+codex-bottom-root-rate-gap-collapse,
 codex-product-row-monotone-envelope-after-ge.
 
 ## 5. Failure taxonomy (carried verbatim)
