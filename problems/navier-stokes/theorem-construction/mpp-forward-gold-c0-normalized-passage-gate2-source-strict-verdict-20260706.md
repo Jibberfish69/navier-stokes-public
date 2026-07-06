@@ -188,7 +188,7 @@ theorem, because the source does not construct an actual Navier-Stokes
 minimizing sequence with this escape. It proves that the direct proof cannot
 continue from \(dA_{4B,N}\to0\) without `(G2S.11)'.
 
-Thus the second smallest remaining theorem in the work plan is
-`StrictSamePacketCycleExchangeCoercivity.A`. Gate 1 remains the first failed
-gate for `NormalizedRelayBillCompactnessRecordPassage.A`; Gate 2 is the next
-checked failure if Gate 1 is supplied.
+Thus the first remaining failed gate in the current work plan is now
+`StrictSamePacketCycleExchangeCoercivity.A`. Gate 1 has been supplied by the
+retained pressure-source envelope chain; Gate 2 is the first checked failure for
+`NormalizedRelayBillCompactnessRecordPassage.A`.
