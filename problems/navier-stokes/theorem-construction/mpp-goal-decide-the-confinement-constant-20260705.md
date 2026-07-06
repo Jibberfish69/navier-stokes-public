@@ -175,6 +175,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     leave a vorticity-free standoff ball and need not contain a localized fresh
     octave-adjacent bottom tier. It remains the exact joint
     matrix/bath-recursion branch.
+    Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
+    localized reuse supply growth by five channels - approach, geometry-work,
+    transport-in, own amplification, and viscosity. Approach has finite
+    per-encounter log budget; geometry-work pays on the production clock in
+    circulation-squared currency; the remaining channels route to custody,
+    regress, or viscous edge rows. The result is scoped to localized filament
+    holders and leaves a thin-core \(1/\log(d/a)\) edge for the
+    Gate-8/high-Re payer comparison.
 
 ## Work order (each unit: output + kill condition)
 
@@ -257,7 +265,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    reuse/tracking, or PDE impossibility. The fresh-holder architecture gate
    closes only localized spatial fresh support; overlapping smooth/broadband
    bath remains live as the exact matrix / bath-recursion branch, beside reuse
-   tracking and Gate-8 allocation.
+   tracking and Gate-8 allocation. The reuse tracking ledger now prices
+   localized reuse supply growth by Kelvin: approach is a finite
+   per-encounter budget; sustained geometry-work pays on the production clock;
+   imported circulation, own amplification, and viscosity route to existing
+   rows. The reuse branch still exports a thin-core log-vs-ladder-currency
+   question to Gate-8/high-Re composition.
    Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
