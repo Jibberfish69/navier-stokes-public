@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-record-doubling-tv-toll-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -67,8 +68,10 @@ completion_truth: >-
   the producing two-tube profile: E >= sigma/3. The same-packet
   two-tube TV reduction integrates this to Prod_+ <= 3 TV_evict, so
   signed time-cancellation is not an escape in TV currency. The open
-  issue is bounding or consuming total eviction variation. Certification-
-  typed inputs, named: the core-log
+  issue is bounding or consuming total eviction variation. Same-day
+  record-toll corollary: any factor-two record event in the two-tube
+  class pays TV_evict >= (log 2)/3. Certification-typed inputs, named:
+  the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
   peak production to the Crow eigenmode. The doubling comparison (cap
@@ -170,3 +173,6 @@ Same-day TV follow-up: on a leading-order two-tube episode,
 \]
 Thus time-cancellation is killed in total-variation currency; the open
 Crow/K3 issue is the total-variation budget and duration clock.
+Same-day record-toll corollary: any factor-two two-tube record event
+pays \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\). The open issue becomes
+whether the record ladder can keep funding those tolls.
