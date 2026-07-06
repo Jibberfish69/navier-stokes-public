@@ -208,6 +208,16 @@ F1 -> (F2 || F3) -> F4 -> F5.
   row formation / Gate-A tax backing, Chapter-10 positivity of \(c_0\),
   and weighted routing or SRP moment-readout bridge for non-retained
   residues. The time-marginal projection remains separate.
+  Codex follow-up reduces the time projection as well: for any finite
+  time marginal \(m_{\rm tail}=fdt+m^s\) and any chosen rate \(D\),
+  the split \(m_{\le D}=\min(f,D)dt\),
+  \(m_{>D}=(f-D)_+dt+m^s\) gives
+  \(m_{\rm tail}(I)\le D|I|+m_{>D}(\mathbb R_t)\). Thus the live
+  product burden is not abstract \(L^\infty_t\) existence; it is
+  \(\textbf{ExcessTail}_D.A\): prove the excess is legal
+  endpoint/flooring residue or route persistent excess to
+  boundary/locality/Gate-A tax/Silver, then test the resulting
+  \(D_{\rm tail}^{\rm ti}\) and \(B_{\rm end}^{\rm ti}\) in Chapter 10.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
