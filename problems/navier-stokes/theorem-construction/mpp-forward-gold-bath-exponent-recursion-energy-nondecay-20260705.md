@@ -26,11 +26,14 @@ completion_truth: >-
   energy in this scaling model, and e_n tends to one rather than to
   zero. This kills the naive claim that the single-tier
   beta^(8/5)-cheap bath self-finances indefinitely under the same
-  exponent recursion. Remaining open: an exact matrix/node-sitting
-  schedule with a different exponent law, finite-depth outer-scale
-  escape, allocation of the resulting tracking floor into Gate 8, and
-  the full crowd/composition theorem. No confinement-constant decision
-  or MPP closure is claimed.
+  exponent recursion. Follow-up summability criterion types the remaining
+  infinite-chain escape: an exact matrix/node-sitting schedule must make
+  sum_N exp(-q sum_{j<N} x_j) finite after writing beta_n=e^{-x_n}. Thus
+  constants inside any shallowing power law 0<p<1 cannot decide the escape.
+  Remaining open: a non-shallowing or non-power schedule satisfying that
+  criterion, finite-depth outer-scale escape, allocation of the resulting
+  tracking floor into Gate 8, and the full crowd/composition theorem. No
+  confinement-constant decision or MPP closure is claimed.
 ---
 
 # Bath exponent recursion: cheap single tier does not compose
@@ -125,12 +128,16 @@ Killed in the filed scaling model: the naive construction where each
 larger bath is cheaper by the same mechanism and the up-scale chain
 has summable energy.
 
-Still open: the exact joint transfer matrix may admit a different
-node-sitting or co-optimized schedule with a different exponent law;
-finite outer-scale depth may move the question into composition rather
-than an infinite-chain energy sum; and the positive tracking cost must
-still be transcribed into the same-packet Gate-8 row economy before it
-starves records.
+Still open: the exact joint transfer matrix may admit a node-sitting or
+co-optimized schedule whose induced \(x_n\) sequence satisfies the
+summability criterion
+\[
+  \sum_N \exp\!\left(-q\sum_{j<N}x_j\right)<\infty.
+\]
+Finite outer-scale depth may also move the question into composition rather
+than an infinite-chain energy sum; and the positive tracking cost must still
+be transcribed into the same-packet Gate-8 row economy before it starves
+records.
 
 ## 5. Four-sentence result
 
