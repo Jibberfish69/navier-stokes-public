@@ -750,6 +750,30 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   monotonicity, product pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP
   closure is claimed.
 
+  CODEX ROUTE-3 TWO-PARAMETER ENVELOPE MONOTONICITY (2026-07-06,
+  codex-route3-two-parameter-envelope-monotonicity): the friendly rent room is
+  nonincreasing in \(b\) as well as in \(\lambda\). If
+  \(0\le b_1\le b_2<\log2\), then \((2b_2,U)\subseteq(2b_1,U)\), and for
+  \(q\in(2b_2,U)\) the sign of
+  \(F_\lambda(q)=q(2-e^{q/2})-2\lambda(2+e^{q/2})\) is independent of \(b\);
+  when \(F_\lambda(q)>0\), the factor \(q-b\) is smaller at \(b_2\), and when
+  \(F_\lambda(q)\le0\), both positive parts vanish. Hence
+  \[
+    \mathcal R_{b_2}(\lambda)\le\mathcal R_{b_1}(\lambda).
+  \]
+  Combining this with fixed-\(b\) drift monotonicity gives the interval corner
+  row
+  \[
+    b\le b_+,\ \lambda\le\lambda_+
+    \quad\Longrightarrow\quad
+    \mathcal R_b(\lambda)\ge\mathcal R_{b_+}(\lambda_+).
+  \]
+  Thus Chapter 10 can certify the friendly product row by one corner value
+  \(\mathcal R_{b_+}(\lambda_+)\), provided
+  \(\lambda_+<S_{\max}(b_+)\); failure returns to sharper interval evaluation,
+  the full RUN-H scalar supremum, or typed route-out. No product pass, Route-3
+  pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
