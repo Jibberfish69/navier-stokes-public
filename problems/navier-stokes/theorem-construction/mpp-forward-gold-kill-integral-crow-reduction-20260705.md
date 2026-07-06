@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-kill-integral-crow-reduction-20260705
-status: seed-independent-cap-derived-on-growing-band-edge-channel-named-open
+status: seed-independent-cap-derived-direct-k5-feed-obstructed-mean-detuning-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / goal item 1 (kill integral)
@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-goal-decide-the-confinement-constant-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-angle-sheet-hunt-self-cell-sweep-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -35,12 +36,13 @@ completion_truth: >-
   the short-wave band edge gamma_c -> 0 at finite kappa and the cap
   formally diverges; the evasion channel is a near-neutral mode:
   non-growing tilt that produces at constant amplitude indefinitely at
-  linear order. Named saturation route (K5): a neutral mode
-  self-couples at second order and feeds the growing band at rate
-  proportional to amplitude squared, giving lifetime ~ 1/(s*beta^2)
-  and integrated stretch of order ONE, seed-independent again - to be
-  proved, not assumed. If K5 fails, the per-encounter tax is dead on
-  the edge channel and custody must carry everything (goal kill
+  linear order. SAME-DAY K5 CORRECTION: the direct pure-mode
+  growing-band feed coefficient is zero by axial wavenumber selection.
+  A single near-edge Fourier mode self-couples only into the mean mode
+  and the second harmonic, so K5 is retyped to the mean-detuning
+  coefficient and sideband/crowd channels. If mean detuning also fails
+  to move the edge mode into the unstable side, the per-encounter tax is
+  dead on the edge channel and custody must carry everything (goal kill
   condition, standing). Certification-typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
@@ -97,14 +99,21 @@ Short-wave band edge: gamma_c -> 0 at finite kappa_edge, K formally
 diverges. The evasion channel is the near-neutral mode: constant
 amplitude, indefinite production at linear order. LIVE PRESSURE POINT.
 
-## 4. K5 (named, open): second-order saturation of the neutral channel
+## 4. K5 correction: direct feed obstructed, mean detuning open
 
-A neutral mode of amplitude beta self-couples at second order and
-projects onto the growing band at rate ~ s * beta^2; lifetime ~
-1/(s beta^2); integrated stretch ~ (s beta^2) * 1/(s beta^2) = order
-one, seed-independent. To be proved with the exact mode-coupling
-coefficient (same kernel currency as the two-tube note). If it fails,
-goal item 1's kill condition triggers on the edge channel.
+The first K5 mechanism as stated was direct second-order projection from
+a pure near-edge Crow Fourier mode into the growing band. That mechanism
+is obstructed. Axial translation symmetry forces the quadratic
+Biot-Savart term to conserve wavenumber: a pure mode at +/-k produces
+only 0 and +/-2k at second order. Near the upper band edge, 2k is outside
+the growing band and 0 is a mean geometry/detuning mode.
+
+Thus the direct pure-mode growing-band feed coefficient is identically
+zero. The remaining K5 object is the mean-detuning coefficient: whether
+the induced mean geometry changes separation/effective kappa/core-log
+data so as to move the neutral mode into the unstable side at rate
+~ s * beta^2. Sideband packets are a separate sideband/crowd channel,
+not the pure-mode coefficient.
 
 ## 5. What would certify (chapter-10 items, quarantined)
 
