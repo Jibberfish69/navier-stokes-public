@@ -172,8 +172,8 @@ filed overlap demand \(G=s\beta^{4/5}\) has the cheap ratio
 \[
   E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}.
 \]
-Thus static finite energy and local divergence-free matching cannot kill the
-overlap bath. The local dynamic affine equations cannot kill it either. The
+Thus static finite energy, local divergence-free matching, and local dynamic
+affine equations cannot kill the overlap bath. The
 remaining question is global and dynamic: whether the joint matrix lets such
 jets persist along the producing flow or forces paid matching, tracking, and
 allocation.
