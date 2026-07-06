@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-regress-demand-cascade-two-channel-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-jet-static-energy-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
 completion_truth: >-
   Codex gate correction, not a crowd theorem and not a confinement-constant
   decision. The fresh-holder architecture enumeration is valid as a
@@ -37,11 +38,13 @@ completion_truth: >-
   cannot be killed by static finite energy or local divergence-free matching:
   a trace-free overlap strain jet of size G on scale d has compact
   divergence-free realizations with energy O(G^2 d^5), giving the filed
-  beta^(8/5) cheap ratio. Thus the overlap bath may be killed only by a
-  dynamic matrix/tracking/allocation theorem, or it may become an exit-II
-  construction if it satisfies the summability criterion while preserving
-  production. No dense-cell clearance, no composition theorem, and no MPP
-  closure are claimed.
+  beta^(8/5) cheap ratio. Second affine follow-up says the local dynamic jet
+  route also cannot supply the floor: every smooth symmetric trace-free A(t)
+  is an exact local Navier-Stokes packet after the pressure Hessian is chosen.
+  Thus the overlap bath may be killed only by a global/material dynamic
+  matrix, tracking/allocation theorem, or it may become an exit-II construction
+  if it satisfies the summability criterion while preserving production. No
+  dense-cell clearance, no composition theorem, and no MPP closure are claimed.
 ---
 
 # Fresh-holder architecture gate: the overlap bath survives
@@ -118,9 +121,12 @@ After the gate, the crowd cell has three live objects:
 The first object can still die, but not by static finite energy. The affine-jet
 import shows that a prescribed trace-free overlap strain jet of size \(G\) on
 scale \(d\) has compact divergence-free realizations with energy
-\(O(G^2d^5)\). A uniform dynamic matrix floor, a proof that every overlap bath
-must pay tracking/allocation while it persists, or a same-packet allocation
-theorem would consume it. The spatial enumeration and static energy do not.
+\(O(G^2d^5)\). The local dynamic affine import also says the symmetric strain
+history \(A(t)\) itself is locally Navier-Stokes-admissible after the pressure
+Hessian is chosen. A uniform floor must therefore be global and material:
+time-dependent matching, pressure/Hodge/collar coupling, tracking/allocation,
+or same-packet allocation. The spatial enumeration, static energy, and local
+affine tracking equations do not consume it.
 
 ## 5. Four-sentence result
 
@@ -128,6 +134,7 @@ The fresh-holder enumeration closes localized spatial holders, not every fresh
 holder. A smooth or broadband bath can overlap the producer region, so the
 holder vorticity need not vanish on a standoff ball and no fresh localized
 bottom tier is forced. The affine-jet import also kills any static energy floor:
-the overlap jet can be compactly realized at cost \(O(G^2d^5)\). That survivor
-is the dynamic exact-matrix/bath-recursion branch, with the summability
-criterion as its construction test.
+the overlap jet can be compactly realized at cost \(O(G^2d^5)\). The local
+dynamic affine import kills a pointwise tracking floor for the symmetric strain
+jet. That survivor is the global/material exact-matrix branch, with the
+summability criterion as its construction test.
