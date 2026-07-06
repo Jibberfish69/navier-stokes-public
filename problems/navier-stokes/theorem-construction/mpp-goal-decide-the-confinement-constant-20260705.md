@@ -684,6 +684,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(K=\sum_{a=1}^3m_aQ_{e_a}\). The remaining continuum issue is material,
    center, scale, bank, envelope, weight, and time admission, or
    microlocal/profile admission.
+   The WKB profile split follow-up then divides the tight compact-continuum
+   branch into atomic profile mass and diffuse non-angular profile mass.
+   Atomic mass requires reconstruction of a same-solution terminal witness from
+   one fixed limiting phase label. Diffuse non-angular mass requires admission
+   of the measure-valued terminal profile itself, or a limit-of-class /
+   original-participation defect. Compactness gives the profile, not the
+   admission theorem.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
