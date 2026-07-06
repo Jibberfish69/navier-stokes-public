@@ -286,7 +286,9 @@ the legal WKB cone to stay a count-free distance from the uniform cloud, which
 is exactly the anti-equidistribution theorem already named. Bounded row-drift
 residuals also vanish on near-uniform clouds, only with a linear distance
 bound. A residual that charges near-uniform clouds must be unbounded in cell
-count or carry a new same-fluid certificate, so it is a new payer/construction
-branch rather than a free residual Gram gap.
+count or carry a new same-fluid certificate, and the follow-up product law says
+that zero-mode use requires \(B_Md_M^2\gtrsim1\) while row-drift use requires
+\(B_Md_M\gtrsim1\). It is therefore a backed operator-growth plus legal
+separation branch, not a free residual Gram gap.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
