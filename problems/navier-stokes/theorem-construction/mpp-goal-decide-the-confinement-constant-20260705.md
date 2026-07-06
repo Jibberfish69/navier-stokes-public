@@ -1422,7 +1422,12 @@ surface, not F4 clearance.
    actual problem: construct or exclude a near-uniform same-fluid WKB bath
    that evades finite/atomic carrier admission, microlocal-profile
    admission, high-factor routing, Pack/Part certificate failure, and the
-   WKB profile no-supplier trichotomy.
+   WKB profile no-supplier trichotomy. The same-helicity Beltrami cone now has
+   the sharp trace-ballast floor
+   \(\tau\ge\sqrt6|A|_F\) for \(C=(\tau/3)I+A\), so cone-compatible
+   trace-free covariance is not a zero-trace survivor; the open point is still
+   legal carriage, profile admission, or construction/exclusion of the actual
+   same-fluid bath.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
