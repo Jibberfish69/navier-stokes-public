@@ -1047,6 +1047,14 @@ the confinement constant.
    while the mass-coordinate appearance \(B_M\lesssim C M\) only converts
    \(B_Md_M^2\gtrsim1\) into density-level separation
    \(\|f-1\|_{L^2_\omega}^2\gtrsim1\). Thus raw CZ growth is not a new payer.
+   The finite-certificate row check now blocks the next shortcut: finitely many
+   bounded law / ancestry / cover / tower compatibility rows do not force
+   density separation when the uniform density satisfies them. A finite row can
+   force separation only by a fixed moment mismatch, quantified by
+   \(\delta^T\mathcal G^\dagger\delta\), which is an explicit row/payer rather
+   than hidden certificate compatibility. Thus density separation must come
+   from a fixed nonuniform row, a high-rank/infinite certificate family, a
+   nonlinear/global same-packet law, or construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
