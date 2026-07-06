@@ -188,8 +188,9 @@ The pressure row now has these typed open branches:
 - Reynolds-edge bridge: convert
   \(\operatorname{Re}_R\lesssim\beta^{-4/5}\) into record-ladder payment,
   producer suppression, or construction exclusion;
-- supercritical fast motion:
-  \(\omega/s\gtrsim\beta^{-4/5}\);
+- dynamic same-fluid transport/persistence:
+  keep the pressure-service bank attached through the real flow, or prove that
+  this demands \(\omega/s\gtrsim\beta^{-4/5}\);
 - construction/exclusion for a summability-valid dynamic pressure bath.
 
 ## 7. Four-sentence result

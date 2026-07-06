@@ -284,9 +284,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(|K_{\rm tf}|\sim s^2\beta^{4/5}\), but the normalized Hessian motion is
     only \(\omega/s=O(\beta^{4/5})\), far below the order-one payer threshold
     \(\beta^{-4/5}\). Thus local affine pressure algebra cannot force the
-    supercritical branch; surviving fast-motion pressure payment is global
-    pressure/Hodge matching, boundary/locality forcing, Reynolds-edge failure,
-    or construction/exclusion.
+    supercritical branch; at that stage the surviving fast-motion pressure
+    payment was global pressure/Hodge matching, boundary/locality forcing,
+    Reynolds-edge failure, or construction/exclusion.
     Follow-up Schwartz pressure-template locality obstruction filed: the
     divergence-free finite-energy template
     \(v=(\partial_2,-\partial_1,0)(x_1x_2x_3e^{-|x|^2/2})\) vanishes to first

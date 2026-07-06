@@ -28,8 +28,8 @@ completion_truth: >-
   where the pressure-service estimate is sharp. No-recount allocation cannot
   turn the q=4/5 pressure row into an order-one confinement payer. The
   remaining branch is now a positive fixed-density compensator/residue,
-  a Reynolds-edge/producer-suppression bridge, a supercritical fast-motion
-  theorem, or a real construction/exclusion.
+  a Reynolds-edge/producer-suppression bridge, dynamic same-fluid
+  transport/persistence, or a real construction/exclusion.
 ---
 
 # Overlap bath: Gate-8 tax-density obstruction
@@ -193,8 +193,9 @@ The pressure row now has these typed open branches:
 - Reynolds-edge bridge:
   convert \(\operatorname{Re}_R\lesssim\beta^{-4/5}\) into
   record-ladder payment, producer suppression, or construction exclusion;
-- supercritical fast motion:
-  prove the exact matrix forces \(\omega/s\gtrsim\beta^{-4/5}\);
+- dynamic same-fluid transport/persistence:
+  keep the pressure-service bank attached through the real flow, or prove that
+  this demands \(\omega/s\gtrsim\beta^{-4/5}\);
 - construction/exclusion:
   build or rule out a summability-valid dynamic pressure bath whose retained
   pressure-service density stays at \(q=4/5\).
@@ -211,5 +212,5 @@ producer packet. The GA-tax backing lemma says a fixed tax density
 \(\theta_0\) needs \(\beta_{\rm ph}\ge\theta_0\mu_{\rm prod}\) as a measure,
 so for small \(\beta\) the fixed-density deficit is positive. The pressure
 branch must therefore use a real compensator/residue, Reynolds-edge bridge,
-supercritical fast-motion theorem, or construction/exclusion; no-recount
+dynamic same-fluid transport/persistence, or construction/exclusion; no-recount
 allocation alone preserves the \(q=4/5\) row.

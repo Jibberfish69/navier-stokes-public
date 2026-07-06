@@ -74,9 +74,9 @@ completion_truth: >-
   pressure-service tax density creates a positive tax-deficit compensator.
   Follow-up local supercritical-motion obstruction kills the local exact-matrix
   forcing branch: the same-shape affine history has the q=4/5 Hessian size but
-  only beta^(4/5) normalized Hessian motion. The remaining fast-motion branch is
-  global pressure/Hodge matching, boundary/locality forcing, Reynolds-edge
-  failure, or construction/exclusion. Follow-up Schwartz pressure-template
+  only beta^(4/5) normalized Hessian motion. At that stage the remaining
+  fast-motion branch was global pressure/Hodge matching, boundary/locality
+  forcing, Reynolds-edge failure, or construction/exclusion. Follow-up Schwartz pressure-template
   locality obstruction kills static finite-energy localization as that global
   branch: a divergence-free finite-energy bank supplies any trace-free Hessian
   at |K|D^5 while vanishing to first order at the producer. The remaining

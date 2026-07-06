@@ -329,8 +329,8 @@ zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell check, the exact-matrix branch is now narrowed to
 the dynamic same-fluid transport/persistence branch, Reynolds-edge bridge,
-Gate-8 no-recount allocation/compensator, global supercritical fast motion, or
-construction, not the mean-zero pressure-source constraint, instantaneous
+Gate-8 no-recount allocation/compensator, or construction, not the mean-zero
+pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, generic producer curvature, or static
 finite-energy localization.
