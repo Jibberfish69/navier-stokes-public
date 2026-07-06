@@ -78,7 +78,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     remote Biot-Savart leakage. Follow-up close-return alias says a
     recirculating endpoint either stays far and is tail-small, or returns
     within \(O(d)\) and becomes close-return/curve/core/crowd contamination or
-    route-out. Open: record/effective-length cap,
+    route-out. Follow-up single-close-return subcell: if that close return is
+    one leading-order two-tube episode on the same packet, K3 gives
+    \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\), so the visible pair is
+    TV-paid, not free. Open: record/effective-length cap,
     close-return/curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
     genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
@@ -575,7 +578,11 @@ certified positive constant.
    or new. Follow-up close-return alias: if the recirculating material returns
    within \(O(d)\), the object is no longer the isolated pure edge but
    close-return/curve/core/crowd contamination or route-out; if it stays far,
-   the remote-tail estimate kills it. Live pure-edge branch:
+   the remote-tail estimate kills it. Follow-up single-close-return subcell:
+   a visible leading-order two-tube close return satisfies
+   \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\) on the same packet, so
+   evasion must use forced occurrence, TV allocation/budget escape,
+   core/off-profile correction, or multiple-return/crowd cancellation. Live pure-edge branch:
    record/effective-length cap, close-return/curve/core/crowd contamination,
    route-out/exclusion, or a genuinely
    new unweighted high-Re mechanism.
@@ -596,8 +603,9 @@ certified positive constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no record/effective-length cap, no close-return/curve/core/crowd
-   contamination trigger, no
+   Kill condition: no record/effective-length cap, no forced close-return or
+   close-return/curve/core/crowd contamination trigger beyond the paid
+   single-pair TV subcell, no
    route-out/exclusion of the isolated pure edge, no new unweighted high-Re
    mechanism, and no
    curve-leakage payment => the pure
