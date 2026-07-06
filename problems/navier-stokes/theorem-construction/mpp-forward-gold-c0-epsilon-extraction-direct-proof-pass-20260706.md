@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-signed-cycle-kernel-no-go-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -31,7 +32,9 @@ completion_truth: >-
   windows by the pressure-increment Field-envelope chain, but full-tower
   signed-total exchange retention is explicitly open; the record/reset
   root-payment frontier gives the right pre-readout producer shape for Gate 2
-  but leaves that producer and the full-tower positive-channel projection open;
+  but leaves that producer and the full-tower positive-channel projection open,
+  and the signed-cycle kernel no-go refutes the direct implication from signed
+  four-body cancellation to positive-record retention;
   chapter-2 closedness is finite-readout/conditional rather than tight no-loss
   passage of the selected positive record; and signed-height record-net work
   admission still lacks native same-parent edge admission/storage. So this pass
@@ -219,6 +222,22 @@ Thus `dA_{4B,N}\to0` does not yet force all positive record variation to vanish
 or remain in the compact packet. A vanishing-bill sequence can still escape
 through the unretained positive-total-variation channel unless `(FTR.13)` is
 proved.
+
+The direct implication from signed cancellation to positive retention is now
+checked false at the finite algebraic level. A signed two-leg exchange
+\(j=(M,-M)\) has zero signed sum but positive total record
+\([M]_+ + [-(-M)]_+ = 2M\). Therefore Gate 2 must prove strict positivity on
+the signed-cycle kernel:
+
+```math
+j\in\ker(\text{signed exchange}),\quad R^+(j)>0
+\Longrightarrow
+dA_{Q,N}(j)+dD_S(j)+dD_C(j)+dD_G(j)+dR_{4B,N}(j)>0 .
+\tag{CEE.9aa}
+```
+
+After-the-fact retained compactness is a consumer only after the
+positive/negative/current packet has already been produced.
 
 The record/reset root-payment input gives the right possible producer for this
 missing pawl, but it is not yet the proof. The checked relation is:
