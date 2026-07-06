@@ -1556,6 +1556,16 @@ surface, not F4 clearance.
    Hence exact Beltrami projected-neutrality is automatic only on one curl
    eigenvalue shell; finite-energy radial broadening creates eigenvalue-gap
    turnover unless a new cross-shell cancellation certificate is supplied.
+   The nonresonant part of that certificate is now blocked. For two
+   noncollinear same-helicity modes on different curl eigenvalue shells,
+   with \(k=K e_1\) and
+   \(l=L(\cos\theta e_1+\sin\theta e_2)\), the helical product has
+   normal component \(\sin\theta/2\) at the signed output frequency while the
+   output wavevector lies in the \(e_1,e_2\)-plane, so the Leray projection
+   is nonzero. Therefore a signed-pair-dissociated broadband Beltrami cloud
+   cannot cancel cross-shell turnover frequency by frequency; any exact
+   cancellation must be a resonant frequency-crowd certificate, a same-shell
+   branch, or a collinear degeneracy.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
