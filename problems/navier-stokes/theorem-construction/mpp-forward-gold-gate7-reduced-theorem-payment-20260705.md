@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-reduced-theorem-payment-20260705
-status: codex-regate-reduced-countable-packet-construction-and-overlap-bookkeeping-open
+status: codex-regated-enumeration-reduced-to-deterministic-channel-cells-reconstruction-overlap-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex gate 7 reduced theorem
@@ -8,6 +8,14 @@ authorship: Claude (Fable), 2026-07-05. Physical story Thomas Birnie: the
   fluid's windows are countable because packets are individuals - the
   membership law taxes members, and members can be enumerated.
 completion_truth: >-
+  2026-07-06 Codex update: the countability/measurability part is
+  reduced to the deterministic half-open channel-cell frame from
+  mpp-forward-gold-codex-channel-cell-bv-tightness-proof-20260705.md.
+  No new Castaing-selected adaptive packet family is needed for finite
+  readout. What remains load-bearing is finite-readout reconstruction of
+  the relevant defect/active monomial mass from the channel-cell
+  measures, UV/IR and mollifier tail charging, and overlap accounting
+  with no dropped mass or double tax.
   CODEX RE-GATE UPDATE, same date. This note gives the right finite
   target for reduced gate 7, but it does not pay the theorem.
   Countability is the right strategy only after the packet/window family
@@ -24,6 +32,23 @@ completion_truth: >-
 ---
 
 # Reduced gate 7: countability does the work
+
+## Codex update, 2026-07-06
+
+Codex follow-up filed at
+`mpp-forward-gold-codex-gate7-deterministic-channel-cell-reduction-20260706.md`.
+The enumeration/readout part of this theorem is reduced to the
+deterministic half-open channel-cell frame from
+`mpp-forward-gold-codex-channel-cell-bv-tightness-proof-20260705.md`.
+For finite readout on compact cylinders, the pairs \((c,Q)\) are
+countable and locally finite, and readouts are measurable on fixed
+pairs.
+
+The remaining load is not Castaing selection. It is reconstruction and
+overlap: prove that the channel-cell measures reconstruct the relevant
+defect/active monomial mass, that locality and mollifier tails are
+charged in the eta budget, and that sibling/diffuse routing drops no
+mass and double-taxes no unit.
 
 ## (a) The readout at partition grade
 
