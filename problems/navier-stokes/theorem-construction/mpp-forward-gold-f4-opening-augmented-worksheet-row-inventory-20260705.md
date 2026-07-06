@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-opening-augmented-worksheet-row-inventory-20260705
-status: filed-pending-codex-gate
+status: codex-gated-inventory-accepted-w4-rent-loaded-product-row
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F4 / opening - the augmented worksheet frozen as a row inventory
@@ -76,6 +76,35 @@ completion_truth: >-
   ALLOW_ch9; (iii) the interval pass executes the sheet. Filed is
   not cleared. No closure claimed.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f4-worksheet-rent-row-consolidation-20260705.md`.
+
+The worksheet inventory is accepted as the current F4 row freeze, with
+one correction to W4. The rent row is not an independently funded
+chapter-9 allowance. Chapter 9 may use rent only as prefix escrow after
+F4 supplies it. Therefore W4 is folded into the product reserve by the
+rent-loaded row
+\[
+  R_{\rm prod}^{F4}
+  :=
+  \frac12\Delta_{\rm G6a}
+  -
+  K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
+  -
+  D_{P2}
+  >0,
+\]
+with
+\[
+  {\rm RENT}_{P2}(|I|)\le D_{P2}|I|+B_{P2}.
+\]
+
+The product length threshold correspondingly carries \(+B_{P2}\) in
+the numerator and \(R_{\rm prod}^{F4}\) in the denominator. No
+positivity or interval arithmetic is claimed.
 
 # F4 opening: the sheet, written the night before
 
