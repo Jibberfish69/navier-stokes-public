@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter2-refereegrade-closedness-limit-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -27,13 +29,15 @@ completion_truth: >-
   checked sources still do not install it: the localized tower closure / Gate 1
   flux-collaring branch has now been discharged on retained same-fluid relay
   windows by the pressure-increment Field-envelope chain, but full-tower
-  signed-total exchange retention is explicitly open; chapter-2 closedness is
-  finite-readout/conditional rather than tight no-loss passage of the selected
-  positive record; and signed-height record-net work admission still lacks
-  native same-parent edge admission/storage. So this pass does not close c_0 or
-  the repo; it reduces closure to one exact compactness-and-record theorem and
-  names the current escape routes for a vanishing-bill sequence. The first
-  failed gate is now Gate 2.
+  signed-total exchange retention is explicitly open; the record/reset
+  root-payment frontier gives the right pre-readout producer shape for Gate 2
+  but leaves that producer and the full-tower positive-channel projection open;
+  chapter-2 closedness is finite-readout/conditional rather than tight no-loss
+  passage of the selected positive record; and signed-height record-net work
+  admission still lacks native same-parent edge admission/storage. So this pass
+  does not close c_0 or the repo; it reduces closure to one exact
+  compactness-and-record theorem and names the current escape routes for a
+  vanishing-bill sequence. The first failed gate is now Gate 2.
 ---
 
 # c_0 epsilon extraction direct proof pass
@@ -215,6 +219,27 @@ Thus `dA_{4B,N}\to0` does not yet force all positive record variation to vanish
 or remain in the compact packet. A vanishing-bill sequence can still escape
 through the unretained positive-total-variation channel unless `(FTR.13)` is
 proved.
+
+The record/reset root-payment input gives the right possible producer for this
+missing pawl, but it is not yet the proof. The checked relation is:
+
+```math
+\begin{aligned}
+&\texttt{OriginalHistoryRecordResetRootPayment.A}\\
+&+\texttt{FullTowerPositiveChannelRootProjection.A}\\
+&\Longrightarrow
+\texttt{StrictSamePacketCycleExchangeCoercivity.A}\\
+&\Longrightarrow
+\texttt{Gate2.FullTowerPositiveRecordRetention}.
+\end{aligned}
+\tag{CEE.9a}
+```
+
+The first clause is still open in the record/reset frontier, and the second
+clause is the unproved covering map from every full-tower positive channel in
+`(FTR.10)` to that pre-readout root-payment dialect, strict payment, or legal
+residual. Therefore the Opus/root-payment input sharpens Gate 2; it does not
+discharge it.
 
 ### Gate 3: no-loss passage at the tower-record level
 
