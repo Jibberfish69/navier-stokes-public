@@ -387,22 +387,24 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(S:K=\sum_iw_iD_t\log\lambda_i\). Carrier-neutral cells cannot supply the
     active same-shape pressure-service row; that row forces carrier-scale drift,
     refresh/reassembly/custody, orthogonal-only service, or construction/exclusion.
-    Follow-up Beltrami carrier-drift window lifetime filed: in the fixed-bank,
-    fixed-weight gauge, active service gives
+    Follow-up carrier scale-room ledger filed: with fixed material carriers and
+    fixed weights, active service is the boundary term
     \[
-      \left|D_t\sum_i\pi_i\log\theta_i\right|\ge c_{\rm svc}s.
+      \int_{t_0}^{t_1}S:K\,dt
+      =
+      \sum_iw_i[\log\lambda_i(t_1)-\log\lambda_i(t_0)].
     \]
-    The WKB window is bounded above by \(\theta\lesssim\beta^{24/25}\), or
-    \(\theta\lesssim\beta^{6/5}\) in the fixed-density branch, and below by
-    \(\theta\gtrsim\operatorname{Re}_D^{-1/2}\). Thus the fixed active carrier
-    population has finite logarithmic lifetime
+    The WKB window supplies finite log-scale room,
     \[
-      T_{\rm win}\lesssim {1\over c_{\rm svc}s}
-      \left({1\over2}\log\operatorname{Re}_D-a|\log\beta|\right)_+,
+      {1\over2}\log\operatorname{Re}_D-{24\over25}\log {1\over\beta}
     \]
-    with \(a=24/25\) or \(6/5\). This kills the eternal fixed-carrier bath, but
-    leaves high-Re log reservoir, refresh/reassembly, bank retuning,
-    orthogonal-only service, or construction/exclusion.
+    generally, and
+    \[
+      {1\over2}\log\operatorname{Re}_D-{6\over5}\log {1\over\beta}
+    \]
+    in the fixed-density branch. This kills the eternal fixed-carrier bath, but
+    leaves high-Re log reservoir, variable weights, refresh/reassembly, bank
+    retuning, orthogonal-only service, or construction/exclusion.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -565,15 +567,18 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(S:K=\sum_iw_iD_t\log\lambda_i\). Active service forces carrier-scale drift
    on the producer clock, or else refresh/reassembly/custody, orthogonal-only
    service, or construction/exclusion.
-   The carrier-drift window lifetime note kills the fixed-weight fixed-bank
-   version: an active carrier population exits the WKB window after at most
+   The carrier scale-room ledger kills the fixed-weight fixed-bank version:
+   cumulative active service is finite carrier log-room,
    \[
-     T_{\rm win}\lesssim {1\over c_{\rm svc}s}
-     \left({1\over2}\log\operatorname{Re}_D-a|\log\beta|\right)_+,
+     {1\over2}\log\operatorname{Re}_D-{24\over25}\log {1\over\beta}
    \]
-   with \(a=24/25\) generally and \(a=6/5\) in the fixed-density branch.
-   The remaining WKB branch is therefore refreshed/reassembled, bank-retuned,
-   high-Re-log, orthogonal-only, or construction/exclusion.
+   generally, and
+   \[
+     {1\over2}\log\operatorname{Re}_D-{6\over5}\log {1\over\beta}
+   \]
+   in the fixed-density branch. The remaining WKB branch is therefore
+   refreshed/reassembled, bank-retuned, high-Re-log, orthogonal-only, or
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
