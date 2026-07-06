@@ -496,8 +496,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    last branch: exact Beltrami pockets have zero projected self-advection and
    decay only on the viscous clock, while still admitting nonzero pressure
    Hessian through \(|b|^2\). The remaining branch is localization, moment
-   matching, same-fluid coupling, compensator routing, or construction/exclusion. The reuse
-   tracking ledger now prices
+   matching, same-fluid coupling, compensator routing, or construction/exclusion.
+   The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
