@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -65,9 +66,12 @@ completion_truth: >-
   prices the other alternative: a positive uniform-mode charge is the rank-one
   all-to-all payer gamma_F(sum a_b)^2. In the overlap-bath pressure channel,
   demanding order-one gamma_F is the fixed-density compensator branch already
-  priced as producer-equivalent residue by the Gate-8 density notes. This
-  proves no such PDE gap, no WKB construction or exclusion, no confinement
-  constant, and no MPP closure.
+  priced as producer-equivalent residue by the Gate-8 density notes. The
+  residual follow-up then removes the last wording shortcut: after the backed
+  rank-one payer is subtracted, any bounded zero-mode residual positivity is
+  exactly the anti-equidistribution burden, while an unbounded residual is a new
+  payer/certificate or construction branch. This proves no such PDE gap, no WKB
+  construction or exclusion, no confinement constant, and no MPP closure.
 ---
 
 # WKB cross-cell square coercivity: Gram-gap criterion
@@ -318,6 +322,18 @@ cloud. In the pressure-service overlap bath, an order-one version of that
 payer is exactly the fixed-density compensator/residue branch unless a new
 non-pressure backing measure is proved.
 
+The residual follow-up prices the leftover phrase. After the backed rank-one
+uniform-mode payer is removed, a bounded zero-mode residual \(H\) satisfies
+\[
+  a^THa=(a-u)^TH(a-u)
+  \le
+  \|H\|\,\|a-u\|_2^2.
+  \tag{CG.17}
+\]
+Thus a residual count-free floor is exactly a legal anti-equidistribution
+theorem. An unbounded residual is a new high-frequency or certificate payer,
+not a free consequence of the pressure kernel.
+
 ## 6. Four-sentence result
 
 The same-cell square reserve is already false for an unbounded WKB cloud, so
@@ -327,10 +343,10 @@ on the normalized admissible positive cloud cone. Orthogonality, finite-range
 interaction, the raw mean-zero pressure kernel, PSD trace ballast, and local
 translation-invariant WKB legality all admit uniform or isotropic positive
 clouds with vanishing selected quadratic charge; common packet identity alone
-does the same unless it carries a bounded-count, positive uniform-mode, or
-anti-equidistribution theorem. Therefore the remaining cross-cell branch is a
-real global Navier-Stokes admissibility / certificate Gram-gap theorem, or it
-falls back to profile admission, typed escape, or construction/exclusion.
+does the same unless it carries bounded count, a priced rank-one uniform mode,
+or legal anti-equidistribution. Bounded residual positivity is that same
+anti-equidistribution burden, while an unbounded residual is a new payer or
+construction branch.
 
 ## 7. State
 
