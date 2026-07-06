@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-record-doubling-tv-toll-20260705.md
 completion_truth: >-
   Three cell results toward the confinement constant, each typed. (K1,
   exact) The two-tube deviation space splits into an in-plane tilt sector
@@ -34,8 +35,10 @@ completion_truth: >-
   vector then pays the pointwise producing-profile floor
   \(\mathcal E\ge\sigma/3\). The same-packet two-tube TV reduction gives
   \(\mathrm{Prod}_+\le3\,\mathrm{TV}_{\rm evict}\), so time-cancellation
-  is not an escape in TV currency. Sidecar, certification-typed:
-  importing the classical
+  is not an escape in TV currency. The record corollary gives the fixed
+  two-tube doubling toll
+  \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\). Sidecar,
+  certification-typed: importing the classical
   Crow e-folding as lifetime gives per-encounter integrated stretch at
   most (3*sqrt(3)/8) * beta^2 * ln(1/beta), maximized in closed form at
   beta = exp(-1/2) with value 3*sqrt(3)/(16e); whether this certifies
@@ -145,6 +148,14 @@ integrates this on the same packet:
 The remaining two-tube lifetime issue is the budget/duration of
 \(\mathrm{TV}_{\rm evict}\), not signed cancellation.
 
+The record-toll follow-up
+`mpp-forward-gold-k3-two-tube-record-doubling-tv-toll-20260705.md`
+states the same result in record currency: factor-two two-tube records
+pay
+\[
+\mathrm{TV}_{\rm evict}\ge(\log2)/3.
+\]
+
 ## 4. S1: the sheet hunt (negative for the counterexample)
 
 Free flat sheet, vorticity jump delta-u: Kelvin-Helmholtz rate is
@@ -173,6 +184,8 @@ it; sheets pay more than tubes; self-cell subsumed. Named and open:
 kill integral (K3 curve evolution / projected model with residual);
 combined instantaneous K3 vector floor \(\mathcal E\ge\sigma/3\);
 two-tube TV reduction \(\mathrm{Prod}_+\le3\,\mathrm{TV}_{\rm evict}\);
+two-tube record toll \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\) per
+factor-two event;
 crowd cell; continuum custody (no-free-reassembly); octave composition.
 Quarantined comparisons:
 Crow-lifetime stretch cap vs ln 2. Kill condition standing: a
