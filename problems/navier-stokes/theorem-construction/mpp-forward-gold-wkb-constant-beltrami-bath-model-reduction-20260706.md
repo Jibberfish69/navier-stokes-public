@@ -11,6 +11,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-overlap-bath-survivor-front-classification-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-persistent-wkb-is-construction-surface-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-envelope-stress-defect-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-range-nonlinear-laws-local-gap-or-periodic-bath-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-material-phase-service-identity-20260706.md
@@ -183,6 +184,12 @@ The near-uniform WKB bath question should now be read as:
 The constant shell cell answers only the first algebraic part. It makes the
 remaining problem sharper: the exclusion, if true, must use modulation,
 same-fluid custody, fixed-viscosity persistence, or certificate compactness.
+
+Follow-up: `mpp-forward-gold-wkb-envelope-stress-defect-split-20260706.md`
+opens the first of those layers. The high-frequency modulation leaves the weak
+quadratic envelope stress \(A^2\langle b\otimes b\rangle\), so the actual-NS
+bath must pass a Leray-null / legal-certificate / face-failure split before it
+can be treated as ordinary Navier-Stokes pressure service.
 
 ## 6. Four-sentence result
 
