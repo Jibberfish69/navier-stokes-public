@@ -805,20 +805,30 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   may only be
   \(D_j^{\rm adm} \le C_{\rm pc}(E_j + X_j)\), where \(X_j\) is the
   priced charge column (tax/return/record/debt); retained mass alone
-  cannot pay carrier dissipation. K3 is NOT cleared. The
-  starved-background claim is reduced to a nested-cylinder sourced CKN
-  contraction for
+  cannot pay carrier dissipation.
+  CODEX K3 ITERATION PAYMENT (codex-k3-iteration-caccioppoli-source-
+  reduction): the earlier \(\theta Y_j+\) ledger-source display is
+  superseded as the wrong PDE denomination. The local energy inequality
+  gives the source-only nested Caccioppoli row
   \[
     Y_j=r_j^{-1}\sup_{I_j}\int_{B_{r_j}}|u|^2
-    +r_j^{-1}\iint_{Q_j}|\nabla u|^2:
-    \quad
-    Y_{j+1}\le \theta Y_j+C(S_j^{\rm adm}+S_j^{\rm charge}
-    +S_j^{\rm press}+S_j^{\rm bdry}+S_j^{\rm excess}),
-    \quad 0<\theta<1.
+    +r_j^{-1}\iint_{Q_j}|\nabla u|^2,\quad
+    C_j=r_j^{-2}\iint_{Q_j}|u|^3,\quad
+    D_j=r_j^{-2}\iint_{Q_j}|p-p_{B_j}(t)|^{3/2},
   \]
+  and
+  \[
+    \quad
+    Y_{j+1}\le
+    C_\sigma\left(C_j^{2/3}+C_j+C_j^{1/3}D_j^{2/3}\right),
+  \]
+  with \(C_\sigma\) depth-independent for fixed shrink ratio. Thus
+  K3.Iteration.A is paid in corrected Caccioppoli-source form.
   Remaining exact burdens: CarrierSplit.Def.A, ChargeColumnDecay.A,
-  K3.Iteration.A, and K3.SourcePricing.A. The CKN import fires only
-  after those source terms are priced or routed.
+  and K3.SourcePricing.A, now sharpened to pricing/routing \(C_j\),
+  \(D_j\), and \(C_j^{1/3}D_j^{2/3}\) through admitted/charge/F3
+  pressure/BoundaryTail/ExcessTail/CM-Silver homes. The CKN import
+  fires only after those sources are priced or routed.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
