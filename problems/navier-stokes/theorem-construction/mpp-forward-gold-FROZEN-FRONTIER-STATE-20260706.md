@@ -638,6 +638,26 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \]
   No edge value, interval comparison, or product pass is claimed.
 
+  CODEX ROUTE-3 SUPPORT THRESHOLD SOURCE PEAK (2026-07-06,
+  codex-route3-support-threshold-source-peak-reduction): empty source support is
+  now explicit. The source profile
+  \(S(q)=q(2-e^{q/2})/[2(2+e^{q/2})]\) has
+  \[
+    S'(q)={4-e^q-2q e^{q/2}\over(2+e^{q/2})^2},
+  \]
+  so it is unimodal with unique \(q_0\in(0,2\log2)\) satisfying
+  \(e^{q_0}+2q_0e^{q_0/2}=4\). Hence
+  \[
+    S_{\max}(b)=
+    \begin{cases}
+      S(q_0),& 2b\le q_0,\\
+      b(2-e^b)/(2+e^b),& q_0<2b<2\log2.
+    \end{cases}
+  \]
+  The friendly midpoint support exists exactly when
+  \(\lambda<S_{\max}(b)\). If not, the friendly branch fails before rent is
+  tested. No source value or product pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
