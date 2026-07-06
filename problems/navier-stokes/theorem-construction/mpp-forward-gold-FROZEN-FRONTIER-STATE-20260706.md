@@ -716,7 +716,8 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   remaining Chapter-10 interval rows.
 
 **THE COMPILED PRODUCT TEST (Codex, 2026-07-06,
-codex-run-h-envelope-feasibility-window — the product side's final
+codex-run-h-envelope-feasibility-window +
+codex-run-h-source-ceiling-kill-filter — the product side's current
 worksheet form).** With q = q_per^-, a = T_* rho_max^-,
 L = min(q, log 2), theta = e^delta/2, d = d_R4^+:
 - H-positivity (f_dw < 1/2) iff delta(q - delta) > 4aq (empty if
@@ -725,13 +726,19 @@ L = min(q, log 2), theta = e^delta/2, d = d_R4^+:
   possible iff A_0 > 6d (the six-drift comparison is the sharp
   necessary boundary);
 - NONEMPTY-WINDOW TEST (RH.16): A_0 > 6d AND P_cap > 4aq;
+- RENT-CEILING KILL FILTER: with
+  R_rent = K_off(1 - tau_min + Omega_R4) + D_P2^ti + D_tail^ti,
+  the product row is impossible unless
+  R_rent <
+  A_0 g_0 (1/2 - aq/P_cap)(A_0 - 6d)/4;
 - if nonempty: product positivity = ONE scalar supremum (RH.20)
   of S_H(delta) over the window against
   K_off(1 - tau_min + Omega_R4) + D_P2^ti + D_tail^ti, with exact
   interior stationarity (RH.21). No free parameters remain for F4.
 - Typed failure modes: A_0 <= 6d (swing loses to six drifts);
   q <= 16a (drain quantum loses to sixteen refill-rate units); the
-  supremum loses to rent + tail. Each is an honest physical ending.
+  source ceiling loses to rent + tail; the exact supremum loses to
+  rent + tail. Each is an honest physical ending.
 
 ## 5. Failure taxonomy (carried verbatim)
 
