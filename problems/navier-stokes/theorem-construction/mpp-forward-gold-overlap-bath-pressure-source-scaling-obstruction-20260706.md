@@ -259,8 +259,8 @@ where \(\dot A\) is the demanded service.
 
 This kills the generic pressure-source floor as a route to the confinement
 constant. The pressure Poisson source does not force an order-one payer for the
-overlap bath; a mean-zero quadrupole/shear source at scale \(D\) can supply the needed
-traceless Hessian at energy \(HD^5\).
+overlap bath; a mean-zero quadrupole/shear source at scale \(D\) can supply the
+needed traceless Hessian at energy \(HD^5\).
 
 It also kills the too-cheap reading of the dynamic bath. The pressure-Hessian
 retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
