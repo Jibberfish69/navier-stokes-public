@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
 completion_truth: >-
   Direct reconstruction of an actual WKB carrier from a limiting phase-space
   atom is not proved by measure compactness alone. A sequence of shrinking
@@ -23,10 +24,14 @@ completion_truth: >-
   splits into two smaller possible payments: either prove prelimit atomization
   / finite packet quantization inside the shrinking atom neighborhoods, or
   admit the shrinking same-solution packet cloud itself as an atomic
-  neighborhood-profile terminal witness. If neither holds, the fragmentation
-  is an atomic-profile admission defect, not an actual packet. No actual WKB
-  carrier extraction theorem, no atomic profile admission theorem, and no MPP
-  closure is claimed.
+  neighborhood-profile terminal witness. The quantization follow-up makes the
+  first branch exact: bounded effective packet count pays atomization by
+  pigeonhole, while unbounded effective count admits uniform fragmentation and
+  gives no actual packet without an additional no-free-fragmentation,
+  uncertainty-cell, square-coercivity, or cloud-admission theorem. If neither
+  payment holds, the fragmentation is an atomic-profile admission defect, not an
+  actual packet. No actual WKB carrier extraction theorem, no atomic profile
+  admission theorem, and no MPP closure is claimed.
 ---
 
 # Atomic WKB profile reconstruction direct test
@@ -135,6 +140,17 @@ pigeonhole applies and actual WKB carrier extraction is paid.
 Possible sources of such a theorem would be packet quantization, bounded
 overlap with a minimum occupancy scale, orthogonality with bounded
 multiplicity, or a no-free-fragmentation law. None is proved here.
+
+The follow-up
+`mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md`
+turns this phrase into the exact count criterion. If the shrinking atomic tube
+has at most \(M\) effective prelimit packet cells while carrying mass
+\(a_\ast/2\), one cell carries at least \(a_\ast/(2M)\), and finite-menu
+extraction applies. If the effective count \(M_j\to\infty\), the uniform split
+\[
+  A_j(P_{j,b})={a_\ast\over2M_j}
+\]
+keeps the atomic tube mass but makes every individual packet vanish.
 
 Second possible payment:
 
