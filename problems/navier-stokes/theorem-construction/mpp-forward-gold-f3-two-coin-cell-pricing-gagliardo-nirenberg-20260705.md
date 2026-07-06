@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-two-coin-cell-pricing-gagliardo-nirenberg-20260705
-status: filed-pending-codex-gate
+status: filed-codex-regated-l3-gate-skeleton-accepted-not-p2-clearance
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P2 weighted Gate-A cell skeleton - throughput priced in tax and in time
@@ -77,6 +77,24 @@ completion_truth: >-
 ---
 
 # F3/P2: two-coin cell pricing - throughput pays in tax or in time
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-two-coin-cell-pricing-regate-20260705.md`.
+
+Accepted: the localized Gagliardo-Nirenberg/Young calculation gives an
+actual two-coin estimate for local \(L^3\) gate mass: doubled-cell
+residence dissipation plus reserve-time rent, with bounded-overlap cut
+form.
+
+Guards: this prices \(L^3\) gate currency, not yet the actual
+flux-gate/SRP retained throughput row; P1 transcription is still needed.
+The reserve-time residual is not positive \(\beta\)-supply and must be
+routed through worksheet/time-reserve rows with no recount. The free
+Young dial still has to be normalized to the campaign's predictable
+Reynolds/tower readout \(M_i\). Prefix/suffix Hall carry edges and
+\(dK^{\rm tax}\) remain open.
 
 ## 0. Scope and currencies
 
