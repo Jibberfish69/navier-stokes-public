@@ -11,6 +11,9 @@ target_object:
   - PersistentRootAffineQuotientReturnPayment.A
   - OriginalHistoryRecordResetRootPayment.A
   - ThetaRelayDetectorFaithfulnessOrAffineQuotientPayment.A
+  - RecordMenuPressureActiveOrSilentService.A
+  - RecordMenuDetectorSilentServicePreReadoutReserve.A
+  - RetainedRecordEdgeExactProjectorChartLicense.A
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -31,6 +34,12 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-angle-gap-proof-pass-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-silent-service-reserve-half-tail-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate4-same-parent-admission-direct-attempt-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-quotient-angle-collar-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
 completion_truth: >-
   Failed proof attempt and strict narrowing only. The all-zero relay note
   excludes a packet with positive normalized central upward relay read while
@@ -48,9 +57,15 @@ completion_truth: >-
   parent-owned upward relay/root-full-exchange record in B-currency, or is paid
   as the persistent affine/root quotient by OriginalHistoryRecordResetRootPayment.A
   / PersistentRootAffineQuotientReturnPayment.A, or routes out through the
-  certified same-object faces. That detector/quotient bridge is not installed.
-  No FullTower retention, material-time Liouville theorem, c_0, or MPP closure
-  is claimed.
+  certified same-object faces. Source checking lowers that detector/quotient
+  bridge further: pressure-active angle is finite-dimensional bookkeeping after
+  a robust near-silent collar, while the real PDE rows are
+  RecordMenuDetectorSilentServicePreReadoutReserve.A and
+  RetainedRecordEdgeExactProjectorChartLicense.A. The silent-service row reduces
+  to an original-history strict half-barrier / bounded-below primitive Lyapunov
+  theorem, and the exact-projector row remains a same-edge material chart
+  license. Neither is installed. No FullTower retention, material-time
+  Liouville theorem, c_0, or MPP closure is claimed.
 ---
 
 # Zero-payment relay rigidity does not yet close the Theta profile
@@ -184,3 +199,82 @@ It is blocked at the same irreversible heat-scale frontier already isolated:
 prove the parent-owned detector/affine-quotient payment theorem, or prove the
 material-time certificate-flow plus zero-loss rigidity theorem that excludes the
 certified surplus-zero \(\Theta_N\) profile directly.
+
+## 6. Lower source state of the detector bridge
+
+The parent-owned bill-currency file expands the detector side as:
+
+\[
+\texttt{RecordMenuPressureActiveOrSilentService.A}
++
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
++
+\text{B-currency storage of admitted parent faces}.
+\tag{ZRT.5}
+\]
+
+The record-menu detector-angle pass proves the frozen linear algebra:
+
+\[
+[w_{rec}z]_+\le C|Dz|
+\quad\Longleftrightarrow\quad
+\ker D\subseteq\ker w_{rec},
+\tag{ZRT.6}
+\]
+
+after legal gauges, stopped exits, and already-paid lower-order pieces are
+quotiented. The pressure-active angle is therefore not, by itself, a PDE
+producer. It is finite-dimensional bookkeeping once a robust near-silent collar
+has been charged.
+
+The pressure-active quotient-angle reduction confirms the same point: exact
+detector-silent and near-silent components must be paid before readout by a
+same-material service reserve. The detector-silent c0 audit then shows why the
+local service address is still not enough. The half-tail
+
+\[
+\sigma_L\sim {2^{-L}\over L}
+\tag{ZRT.7}
+\]
+
+has finite raw local service but divergent record-weighted service. Thus the
+silent branch reduces to
+
+\[
+\texttt{OriginalHistoryDetectorSilentStrictHalfBarrier.A},
+\tag{ZRT.8}
+\]
+
+or equivalently a bounded-below primitive Lyapunov law for the primitive PLS
+record units, proved from the original same-material history and not from the
+record-edge admission theorem it is meant to support.
+
+The exact-projector audit leaves the other row open:
+
+\[
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}.
+\tag{ZRT.9}
+\]
+
+This is the same-edge material chart license: the exact pressure/root projector
+must follow the retained high packet through one lawful chart, or every failure
+must be legal, stopped, material-service paid, or a Pack/Part/Field route-out
+before the record uses the edge.
+
+So the detector/affine-quotient bridge is now lower than a vague "faithfulness"
+claim:
+
+\[
+\boxed{
+\texttt{OriginalHistoryDetectorSilentStrictHalfBarrier.A}
++
+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
++
+\text{admitted parent-face B-storage}
+}
+\tag{ZRT.10}
+\]
+
+plus the already finite-dimensional pressure-active row-span bookkeeping. This
+is still unproved, but it is the checked place where the all-zero relay lemma
+would enter the real \(c_0\) proof.
