@@ -220,6 +220,18 @@ F1 -> (F2 || F3) -> F4 -> F5.
   retained row already consumed by the geometric crossing. This pays the
   classification bridge only; the weighted route bounds and any CM/Silver
   consumer remain open.
+  Codex follow-up reduces the new SRP moment terminal consumer:
+  `mpp-forward-gold-codex-srp-moment-terminal-consumer-reduction-20260706.md`.
+  The finite-active-readout infinite-critical-price branch is not a new
+  CM face. If no local carrier/readout/window is admitted it is
+  Pack-side; if it is a same-packet service/compensator failure it is
+  Part-side; under retained Pack and Part, standard Littlewood-Paley
+  decay from any sufficiently high finite Field tower forces the SRP
+  weighted first moment to be tight, so
+  \(\mathcal M_\infty^{\rm SRP}>0\) lands as
+  \(\forall r>0:\neg Field_{N_{\rm SRP},r,Q}\). This pays the
+  structural consumer for branch 4; manuscript insertion and the
+  pass-branch weighted route estimates remain open.
   Codex follow-up reduces the time projection as well: for any finite
   time marginal \(m_{\rm tail}=fdt+m^s\) and any chosen rate \(D\),
   the split \(m_{\le D}=\min(f,D)dt\),
