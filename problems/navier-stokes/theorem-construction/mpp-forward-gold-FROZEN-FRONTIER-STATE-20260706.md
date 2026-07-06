@@ -774,6 +774,31 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   the full RUN-H scalar supremum, or typed route-out. No product pass, Route-3
   pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
 
+  CODEX ROUTE-3 CORNER SELECTOR CERTIFICATE (2026-07-06,
+  codex-route3-corner-selector-certificate): the corner envelope is now
+  compiled into an explicit Chapter-10 certificate. Given
+  \(b\le b_+\), \(\lambda\le\lambda_+\), and
+  \(s\le s_+\), the friendly product row follows from
+  \[
+    s_+<\mathcal R_{b_+}(\lambda_+).
+  \]
+  The corner certificate checks \(b_+<\log2\),
+  \(\lambda_+<S_{\max}(b_+)\), then uses the \(\beta\)-split: all-interior
+  for \(2b_+\le q_0\), mixed interior/lower-edge for \(q_0<2b_+<2\beta\), and
+  all-lower-edge for \(2\beta\le2b_+<2\log2\). The lower-edge case is the
+  explicit value
+  \[
+    s_+<
+    {b_+\over4}
+    \left[b_+(2-e^{b_+})-\lambda_+(2+e^{b_+})\right],
+  \]
+  while the interior case requires one decreasing graph enclosure
+  \(L_{b_+}(\overline q)\le\lambda_+\le L_{b_+}(\underline q)\) and the
+  value check \(s_+<V_{b_+}(\underline q)\). This is sufficient only; failure
+  returns to sharper interval evaluation, the full RUN-H scalar supremum,
+  Door A / Door C alternatives, or typed route-out. No product pass, Route-3
+  pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
