@@ -19,8 +19,12 @@ completion_truth: >-
   lambda_a = w*-lim |nu_a^epsilon| and proving |nu_a| <= lambda_a. What
   remains load-bearing is finite-readout reconstruction of the relevant
   defect/active monomial mass from the channel-cell measures, UV/IR and
-  mollifier tail charging, coherence versus mass-greedy selection, and
-  overlap accounting with no dropped mass or double tax.
+  mollifier tail charging, and coherence versus mass-greedy selection,
+  now sharpened by the coloring gate to lineage-disintegration /
+  incoherent-lump routing. The merged-component readout burden is
+  dissolved by finite Besicovitch coloring; no-dropped-mass/no-double-tax
+  still depends on reconstruction and explicit supply-side multiplicity
+  bookkeeping.
   CODEX RE-GATE UPDATE, same date. This note gives the right finite
   target for reduced gate 7, but it does not pay the theorem.
   Countability is the right strategy only after the packet/window family
@@ -72,6 +76,13 @@ and not over the local-energy residence budget.
 
 The reduced theorem remains open at total reconstruction, tails,
 coherence, and bounded-overlap/merger accounting.
+
+Second follow-up:
+`mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md`
+accepts the coloring form for z4. Bounded-merger/readout stability is no
+longer a separate burden. The remaining coherence issue is
+lineage-disintegration / incoherent-lump routing on \(\lambda_a\)-rich
+balls.
 
 ## (a) The readout at partition grade
 
