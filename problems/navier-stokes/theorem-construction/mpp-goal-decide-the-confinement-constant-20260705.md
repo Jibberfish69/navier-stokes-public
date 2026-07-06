@@ -235,8 +235,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(\sum_m|\dot c_m|\lesssim|\dot K|\), one producer clock costs
     \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
     existing pressure row, not an order-one floor. The live pressure branch is
-    now localization/producer curvature, same-packet allocation,
+    now producer curvature, same-packet allocation,
     faster-than-producer forced tracking, or construction/exclusion.
+    Follow-up producer-curvature subscale obstruction filed: if the producer
+    gradient varies on radius \(R\), a pressure cell of scale \(D\) creates
+    cross Hessian \(|K_{\rm curv}|\lesssim s(D/R)\sqrt H\). For
+    \(H\sim s^2\beta^{4/5}\), this stays inside the existing pressure row when
+    \(D/R\lesssim\beta^{2/5}\). Thus generic producer curvature is not an
+    order-one floor; the remaining pressure branch is subcell/high-Re
+    admissibility, same-packet allocation, faster-than-producer forcing, or
+    construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -346,11 +354,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    The producer-coupling check adds that a constant affine producer creates no
    cross pressure Hessian at the station. The fast-direction tracking check
    adds that producer-clock pressure-direction retuning costs only
-   \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Therefore the exact matrix must use
-   localization/producer curvature, same-packet allocation,
+   \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). The producer-curvature subscale check
+   adds that nonconstant producer gradient creates cross Hessian
+   \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
+   \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
+   subcell/high-Re admissibility, same-packet allocation,
    faster-than-producer forcing, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
-   constant-producer-coupling, or producer-clock tracking tax. The reuse
+   constant-producer-coupling, producer-clock tracking, or generic curvature
+   tax. The reuse
    tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
