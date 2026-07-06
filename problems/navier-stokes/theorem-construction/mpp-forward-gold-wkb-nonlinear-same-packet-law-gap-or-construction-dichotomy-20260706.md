@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-range-nonlinear-laws-local-gap-or-periodic-bath-20260706.md
 completion_truth: >-
   Exact dichotomy only. After finite rows and high-rank linear rows have been
   priced, a nonlinear/global same-packet law can help the WKB crowd branch only
@@ -31,9 +32,12 @@ completion_truth: >-
   supply the radius; they are admission or passage properties. Therefore the
   remaining nonlinear/global branch is not a vague compatibility phrase: it is
   a positive forbidden ball around the uniform bath, or an actual
-  construction/exclusion theorem for the near-uniform same-fluid WKB bath. This
-  proves no positive gap, no construction/exclusion, no confinement constant,
-  and no MPP closure.
+  construction/exclusion theorem for the near-uniform same-fluid WKB bath. The
+  finite-range nonlinear follow-up sharpens one subbranch: finite-range local
+  laws either reduce to an explicit positive local block-distance payer, or
+  periodic near-uniform legal blocks keep the bath alive. This proves no
+  positive gap, no construction/exclusion, no confinement constant, and no MPP
+  closure.
 ---
 
 # Nonlinear same-packet law: gap or construction
@@ -136,6 +140,20 @@ The law must give one of two concrete outcomes:
 
 There is no middle compatibility currency.
 
+The finite-range nonlinear follow-up adds the corresponding local-law split:
+\[
+\begin{array}{ll}
+d_R^{\rm per}\ge c_R
+  &\Rightarrow \text{explicit local block-distance payer},\\[1mm]
+d_R^{\rm per}=0
+  &\Rightarrow \text{periodic near-uniform legal bath sequence}.
+\end{array}
+\tag{NSL.9}
+\]
+Thus a bounded-neighborhood nonlinear law is useful only after it proves a
+positive local anti-uniform block distance. If periodic legal blocks can
+approach the uniform block, tiling them leaves (NSL.4) false.
+
 ## 5. Relation to rows and selector escape
 
 For linear rows, \(d_M\) is the row-distance already priced:
@@ -145,7 +163,7 @@ For linear rows, \(d_M\) is the row-distance already priced:
   \left\langle
     \delta_M,(L_ML_M^*)^\dagger\delta_M
   \right\rangle.
-  \tag{NSL.9}
+  \tag{NSL.10}
 \]
 
 For moving scalar service, failure of compactness is selector escape, already
