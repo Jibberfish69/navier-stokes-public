@@ -10,6 +10,7 @@ target_object:
   - WKBTransportDefectVanishesOrCertified.A
   - WKBFiniteCoverCertificateCompactness.A
   - WKBTowerDefectVanishesOrCertified.A
+  - WKBCrossCertificateCompatibility.A
   - MicrolocalDefectProfileAdmission.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
@@ -172,8 +173,9 @@ This is the assembled conditional form of `WKBCertificateCompactness.A`.
 
 ## 4. First failed row is the face routing
 
-If the product lift fails, choose the first certificate coordinate that does
-not supply a compact closed graph with certified prelimit lifts.
+If a row or required cross-compatibility relation fails, choose the first
+certificate coordinate that does not supply a compact closed graph, a certified
+prelimit lift, or same-packet compatibility.
 
 Cover failure gives the Pack-side landing:
 \[
@@ -232,18 +234,12 @@ WKBReynoldsDefectVanishesOrCertified.A
 WKBTransportDefectVanishesOrCertified.A
 WKBFiniteCoverCertificateCompactness.A
 WKBTowerDefectVanishesOrCertified.A
-CertifiedPrelimitWKBProductLift.A
-```
-
-The last line has now been sharpened by the product-lift gluing theorem.
-Rowwise lifts over the same observable marginal glue automatically by
-disintegration and conditional product when no cross-row relation is imposed.
-Thus the actual residual is:
-
-```text
 WKBCrossCertificateCompatibility.A
 ```
 
+The last line is the sharpened form of the previous product-lift residual.
+Rowwise lifts over the same observable marginal glue automatically by
+disintegration and conditional product when no cross-row relation is imposed.
 It says that the law, ancestry, cover, and tower certificates describe the
 same prelimit WKB packet/cloud. If cross-compatibility fails, the first
 incompatible coordinate routes by (ASS.12)-(ASS.15).
@@ -263,7 +259,8 @@ cross-certificate compatibility for actual Navier-Stokes WKB packets.
 ## 7. State
 
 This note proves the conditional assembly of `WKBCertificateCompactness.A` from
-the four certificate rows and certified product lifts.
+the four certificate rows, certified product lifts, and same-packet
+cross-compatibility.
 
 It proves no row-level defect vanishing or legal carriage theorem for actual
 Navier-Stokes WKB packets, no cross-certificate compatibility theorem, no
