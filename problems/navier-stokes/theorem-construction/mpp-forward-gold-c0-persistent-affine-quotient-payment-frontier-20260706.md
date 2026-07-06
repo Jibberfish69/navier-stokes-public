@@ -37,6 +37,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-persistent-root-affine-quotient-payment-branch-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
 completion_truth: >-
   This is a strict reduction and ontology save, not a proof of c_0. The
   corrected Navier-Stokes object is one incompressible viscous dissipative
@@ -45,11 +47,12 @@ completion_truth: >-
   quotient after inherited parent transport, selector drift, derivative-exact
   motion, legal loss, and stop loss are removed. Existing sources do not install
   the comparison from that quotient to pressure-memory entropy. They reduce the
-  route-b producer to PersistentRootAffineQuotientReturnPayment.A, with fixed
-  stopped-score return closed only relative to root-geometry currency and fresh
-  potential-average plus strict reset/overrun Carleson still open
-  original-history producers. No FullTower retention, first-ratio storage,
-  strict c_0, or MPP closure is claimed.
+  route-b producer to PersistentRootAffineQuotientReturnPayment.A. Current
+  source checking further reduces the fresh potential-average and strict
+  reset/overrun branches to one pre-readout
+  OriginalHistoryRecordResetRootPayment.A / selected potential-amplification BV
+  producer. No FullTower retention, first-ratio storage, strict c_0, or MPP
+  closure is claimed.
 ---
 
 # Persistent affine quotient payment frontier for the irreversible c_0 route
