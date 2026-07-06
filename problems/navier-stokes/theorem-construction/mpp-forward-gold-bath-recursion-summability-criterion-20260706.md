@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-steady-or-tracking-dichotomy-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -29,8 +30,10 @@ completion_truth: >-
   matrix/node-sitting construction must instead produce non-shallowing
   accumulated smallness, a different non-power law with divergent cumulative
   x_j, or a growing-depth fresh-holder cascade. Uniform finite depth is killed
-  separately by the beta-depth correction. No no-eviction crowd, confinement
-  constant, composition theorem, or MPP closure is claimed.
+  separately by the beta-depth correction. Follow-up pressure-source scaling
+  sets q=4/5 for producer-clock pressure-Hessian retuning, while static/collar
+  rows use q=8/5. The criterion itself is unchanged. No no-eviction crowd,
+  confinement constant, composition theorem, or MPP closure is claimed.
 ---
 
 # Bath recursion: energy summability criterion
@@ -42,8 +45,9 @@ The local cheap-bath ratio is real:
   e_n=\frac{E_{n+1}}{E_n}=\beta_n^q
   \tag{BSC.1}
 \]
-with \(q=8/5\) in the filed scaling model. The open question is whether those
-cheap ratios compose into a finite-energy infinite holder chain.
+with \(q=8/5\) in the static/collar scaling model and \(q=4/5\) in the
+pressure-source retuning row. The open question is whether those cheap ratios
+compose into a finite-energy infinite holder chain.
 
 The kill condition for this subcell is a recursion for \(\beta_n\) under which
 \[
