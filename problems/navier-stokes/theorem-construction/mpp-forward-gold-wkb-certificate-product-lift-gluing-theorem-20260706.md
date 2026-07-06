@@ -221,9 +221,10 @@ with closed matching relations.
 
 This note proves the product-lift gluing theorem and the cross-compatibility
 countermodel; the later diagonal reduction identifies the remaining
-compatibility burden as common-packet identity compactness.
+compatibility burden as common-packet identity compactness, and the later
+identity-factorization reduction absorbs that burden into the four row identity
+subcoordinates.
 
 It proves no row-level defect vanishing theorem for actual Navier-Stokes WKB
-packets, no common-packet identity compactness theorem for actual same-fluid
-WKB packets, no profile construction/exclusion theorem, no confinement
-constant, and no MPP closure.
+packets, no profile construction/exclusion theorem, no confinement constant,
+and no MPP closure.
