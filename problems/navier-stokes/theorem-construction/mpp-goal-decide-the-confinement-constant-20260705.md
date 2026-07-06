@@ -91,11 +91,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
-   re-form producing geometry without transit payment. Local three-leg
-   split filed; remaining burden is the same-packet row lift into
-   composition. Kill condition: a re-assembly channel evading thin
-   confiscation, isolated-thick energy prohibition, assisted-thick
-   transit payment, and the row lift.
+   re-form producing geometry without transit payment. Local split filed
+   and regated; remaining burdens are escrow localization plus the
+   same-packet row lift into composition. Kill condition: a re-assembly
+   channel evading thin confiscation, the thick-debris escrow dichotomy,
+   assisted-thick transit payment, and the row lift.
 4. CROWD CELL - THE SUMMIT, NAMED AS SUCH. (a) dilute limit: floor
    survives superposition with N-independent constant, or the
    interference that beats it; (b) dense limit: direct counterexample
