@@ -851,6 +851,20 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   typed Pack/Part/Field/Silver residue). Remaining K3 burdens:
   CarrierSplit.Def.A, ChargeColumnDecay.A,
   CubicActiveTwoCoinMatch.A, CubicPassiveConsumer.A.
+  CODEX K3 ACTIVE TWO-COIN MATCH REDUCTION (codex-k3-active-two-coin-
+  match-reduction): the active branch uses the accepted two-coin L3
+  estimate only after each K3 parabolic cell is rescaled to unit radius;
+  no P2 high-band tax dial is imported. With a fixed unit-cell Young
+  dial, the active cubic source is bounded by a depth-independent
+  residence-dissipation coin plus a reserve-time coin. The dissipation
+  coin becomes \(X_j\) only through CarrierSplit.Def.A and
+  ChargeColumnDecay.A. The reserve-time coin routes through the
+  time-integrated rent / BoundaryTail / ExcessTail / terminal-residue
+  homes. Thus CubicActiveTwoCoinMatch.A has no independent analytic
+  source wall left; its remaining content is carrier incidence plus
+  reserve/boundary routing. Remaining K3 burdens: CarrierSplit.Def.A,
+  ChargeColumnDecay.A, CubicPassiveConsumer.A, and the already named
+  reserve/boundary routing.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -1009,8 +1023,10 @@ notes.
   source plus far-tail routing. The direct cubic source row
   C_j <= C(E_j + X_j) is also struck; local L3 amplitude must pass
   through the two-coin split. Remaining K3 source burdens:
-  CubicActiveTwoCoinMatch.A and CubicPassiveConsumer.A, alongside
-  CarrierSplit.Def.A and ChargeColumnDecay.A.
+  CubicPassiveConsumer.A, alongside CarrierSplit.Def.A,
+  ChargeColumnDecay.A, and reserve/boundary routing. The active
+  two-coin analytic row is reduced to those incidence/routing burdens
+  after unit-cell normalization.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
