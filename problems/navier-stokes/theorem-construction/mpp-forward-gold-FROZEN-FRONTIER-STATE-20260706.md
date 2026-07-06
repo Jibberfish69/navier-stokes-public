@@ -895,6 +895,23 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   charge decay, PassiveL3TimeReadout.A, or reserve/boundary routing.
   Remaining K3 burdens: ChargeColumnDecay.A, PassiveL3TimeReadout.A,
   and reserve/boundary routing.
+  CODEX K3 CHARGE COLUMN DECAY REDUCTION (codex-k3-charge-column-
+  decay-scale-margin-reduction): ChargeColumnDecay.A is reduced, not
+  paid. After the active two-coin split, \(X_j\) does NOT include the
+  reserve-time rent coin; rent routes separately through
+  time-reserve/BoundaryTail/ExcessTail/terminal residue. Thus \(X_j\)
+  is only the same-carrier priced charge column
+  (tax + return/debt + record + any unrouted compensator). The exact
+  decay test for each home \(h\) is:
+  if \(X_{j,h}\le C_h2^{w_hj}Z_j\) and \(Z_j\le Cq^j\),
+  \(q=(1-c_0)/2\), then \(X_{j,h}\) decays iff
+  \(2^{w_h}q<1\), equivalently \(c_0>1-2^{1-w_h}\). Homes with
+  \(w_h\le1\) are beaten by any certified \(c_0>0\); homes with
+  \(w_h>1\) go to Chapter 10 or route as boundary/excess/terminal
+  residue. Remaining successor: ChargeHomeExponent.A, the per-home
+  effective-exponent and no-hidden-compensator display. Remaining K3
+  burdens: ChargeHomeExponent.A, PassiveL3TimeReadout.A, and
+  reserve/boundary routing.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
