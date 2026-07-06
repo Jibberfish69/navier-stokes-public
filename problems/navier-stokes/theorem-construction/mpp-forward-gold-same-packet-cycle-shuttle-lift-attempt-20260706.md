@@ -3,7 +3,7 @@ theorem_id: forward-gold-same-packet-cycle-shuttle-lift-attempt-20260706
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 / participation tower / ratio-one marginal cycle
-status: strict-reduction-conditional-closed-cycle-branch-kill
+status: retyped-model-branch-only-not-leading-c0-proof-after-irreversibility-rebuild
 target_objects:
   - StrictSamePacketCycleExchangeCoercivity.A
   - FullTowerSignedTotalExchangeRetention.A
@@ -18,7 +18,12 @@ source_refs:
   - mpp-forward-gold-overlap-bath-cyclic-carrier-shuttle-not-free-20260706.md
   - mpp-forward-gold-c0-surplus-zero-self-similar-spectral-gap-obstruction-20260706.md
 completion_truth: >-
-  This is a bounded proof move and strict reduction. It kills the closed
+  REGRADE 2026-07-06: this is only a model-branch test after
+  mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md.
+  A closed cyclic shuttle may still be checked as a WKB/carrier-room evasion,
+  but the leading Navier-Stokes c_0 object is cumulative irreversible
+  thickness-or-charge, not strict non-cancellation of a reversible cycle. OLD
+  CLAIM BELOW IS LIMITED TO THAT MODEL BRANCH: This is a bounded proof move and strict reduction. It kills the closed
   fixed-state shuttle branch if the overlap-bath carrier-room identity can be
   lifted to the actual same-fluid participation tower. It does not prove
   FullTowerSignedTotalExchangeRetention.A, MaterialTimeLiouvilleExclusion.A, or
