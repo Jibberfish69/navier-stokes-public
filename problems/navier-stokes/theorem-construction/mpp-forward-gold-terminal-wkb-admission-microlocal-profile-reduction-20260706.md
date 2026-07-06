@@ -304,6 +304,8 @@ The nonvanishing terminal WKB horn is now:
   \lambda_j\to\infty,
   \qquad
   \phi_jD_j^3|K_j|\ge c_0>0
+  \quad\hbox{or}\quad
+  \phi_jD_j^3\mu_{R,j}\ge c_0>0
   \Longrightarrow
   \begin{cases}
     \text{actual WKB carrier extraction}
