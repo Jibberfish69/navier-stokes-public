@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
 completion_truth: >-
   Exact measure-theoretic gluing theorem and exact compatibility countermodel.
   If the four WKB certificate rows lift the same observable profile measure and
@@ -33,11 +34,11 @@ completion_truth: >-
   The remaining actual Navier-Stokes WKB burden is the cross-compatibility
   theorem for the same prelimit packets/clouds. The later diagonal
   compatibility reduction proves that this is closed once a compact common
-  packet identity coordinate is retained; the remaining burden is common-packet
-  identity compactness, or else a typed Pack/Part row failure. This note proves
-  no row-level defect vanishing theorem, no common-packet identity compactness
-  theorem for actual Navier-Stokes WKB packets, no profile
-  construction/exclusion, no confinement constant, and no MPP closure.
+  packet identity coordinate is retained. The later identity-factorization
+  reduction absorbs that coordinate into row identity subcoordinates. This note
+  proves no row-level defect vanishing theorem for actual Navier-Stokes WKB
+  packets, no profile construction/exclusion, no confinement constant, and no
+  MPP closure.
 ---
 
 # WKB certificate product lift: gluing theorem and compatibility defect
@@ -171,23 +172,26 @@ compatibility for the same physical packet.
 The diagonal-compatibility note sharpens this point. Once the certificates
 carry one compact common packet identity coordinate, cross-row compatibility is
 the closed diagonal in that identity space. The residue is then the compactness
-of that common identity coordinate, not a new product-measure theorem.
+of that common identity coordinate, not a new product-measure theorem. The
+identity-factorization note sharpens it again: the common identity coordinate
+is the finite product of the identity subcoordinates already required by the
+law, ancestry, cover, and tower rows.
 
 ## 5. WKB certificate routing
 
 For the WKB admission chain, the residual statement becomes:
 
 ```text
-WKBCommonPacketIdentityCompactness.A
+the four row-level certificate burdens, each with its identity subcoordinate
 ```
 
 Statement shape:
 
 For the actual same-solution WKB terminal branch, the row certificates for the
 actual law, material ancestry, finite/readout-compatible cover, and
-differentiated same-law tower either compactify over one common packet identity
-coordinate, hence admit a joint lift supported on the closed same-packet
-diagonal, or the first incompatible coordinate routes to its typed face.
+differentiated same-law tower either compactify with their identity
+subcoordinates, hence admit a joint lift supported on the closed same-packet
+diagonal, or the first failed identity subcoordinate routes to its typed face.
 
 The routing is:
 \[
@@ -209,9 +213,9 @@ the same observable WKB marginal and no cross-row constraint is imposed. The
 proof is disintegration over the common marginal followed by conditional
 product. What remains is same-packet identity custody: the law, ancestry,
 cover, and tower data must describe the same packet/cloud, not four unrelated
-certifiers. Rowwise legality alone does not force that custody, while the
-diagonal reduction proves it once a compact common identity coordinate is
-carried.
+certifiers. The diagonal and identity-factorization reductions prove that this
+custody is supplied once the four rows carry compact identity subcoordinates
+with closed matching relations.
 
 ## 7. State
 
