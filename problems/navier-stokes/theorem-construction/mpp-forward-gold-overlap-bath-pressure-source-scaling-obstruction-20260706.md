@@ -63,8 +63,8 @@ completion_truth: >-
   obstruction identifies the exact room condition Re_R=sR^2/nu>>beta^(-4/5)
   and blocks treating threshold failure as an automatic constant. The current
   pressure branch is Reynolds-edge allocation/producer suppression,
-  Gate-8 no-recount allocation/compensator, supercritical fast-motion forcing, or
-  construction/exclusion. Follow-up same-packet raw allocation obstruction
+  Gate-8 no-recount allocation/compensator, global supercritical fast-motion
+  forcing/admissibility, or construction/exclusion. Follow-up same-packet raw allocation obstruction
   checks that merely charging the same pressure-service energy to the same
   field still gives only beta^(4/5) of local producer currency; the live
   allocation branch must be the stronger Gate-8 no-recount row or compensator.
