@@ -426,6 +426,12 @@ typed failure listed above.
 This note proves the certificate-compactness criterion and the projection
 countermodel.
 
+It is now consumed by the WKB profile no-supplier trichotomy: after scalar
+moment passage, a profile whose legal certificate graph stays compact and
+closed is an admitted terminal witness consumed by the Sobolev/Field readout;
+if compactness or closedness fails, the first failed certificate is Pack-side
+cover loss or Part-side law, ancestry, or tower loss.
+
 It proves no `WKBCertificateCompactness.A` for actual Navier-Stokes WKB
 packets, no `WKBReynoldsDefectVanishesOrCertified.A`, no
 `WKBTransportDefectVanishesOrCertified.A`, no
