@@ -207,13 +207,15 @@ uniform bath to a non-volume service coordinate, a transport-current defect, a
 bank/custody variation ledger, a nonlocal pressure/Hodge row with explicit
 row-distance, or actual construction/exclusion.
 
-With the service-coordinate and transport-current follow-ups, the first two
+With the service-coordinate, transport-current, and custody/bank variation
+follow-ups, the first three
 items in that list are no longer untyped refuges: service mismatch is a
 row-distance payer or no density gap, and transport-current variation is a
-current/action payer or certificate branch. The genuinely global residue is the
-nonlinear forbidden-ball theorem or construction/exclusion of the near-uniform
-same-fluid WKB bath, after explicit service and current rows have been pulled
-out.
+current/action payer or certificate branch, while custody/bank variation is a
+variation/custody payer or certificate branch. The genuinely global residue is
+the nonlinear forbidden-ball theorem or construction/exclusion of the
+near-uniform same-fluid WKB bath, after explicit service, current, and
+variation rows have been pulled out.
 
 Closed same-packet identity and material ancestry are still required for
 admission. They are not the anti-uniform payer.
@@ -224,10 +226,11 @@ Incompressible material ancestry preserves volume, so the uniform WKB density
 is carried to the uniform WKB density. Measure-preserving relabeling is
 unitary in density \(L^2\), hence same-fluid ancestry alone cannot separate a
 legal cloud from the uniform zero mode. Service coordinates help only through
-explicit row distance, and transport currents help only as current/action
-payers or certificate branches. Thus "same material history" is an admission
-coordinate, not a density anti-equidistribution payer; after explicit rows are
-pulled out, the live residue is custody/bank variation or
-construction/exclusion.
+explicit row distance; transport currents help only as current/action payers
+or certificate branches; custody and bank motion help only as variation/custody
+payers unless an added fixed service row turns them into row distance. Thus
+"same material history" is an admission coordinate, not a density
+anti-equidistribution payer; after explicit rows are pulled out, the live
+residue is construction/exclusion.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
