@@ -837,6 +837,20 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   reduces to adjacent local cubic sources \(C_j,C_{j-1}\) plus routed
   far-pressure tail. Remaining K3.SourcePricing burden:
   K3.CubicSourcePricing.A.
+  CODEX K3 CUBIC-SOURCE ATTACK (codex-k3-cubic-source-pricing-
+  dichotomy): the direct row \(C_j\le C(E_j+X_j)\) is struck. \(C_j\)
+  is local \(L^3\) amplitude; \(E_j+X_j\) is selected same-carrier
+  work plus charge. Low-gradient transport/coherent reserve can carry
+  local \(L^3\) mass without selected admission work, so cubic degree
+  matching alone does not pay K3. The accepted two-coin cell row applies
+  to \(C_j\) as \(L^3\) currency and prices it by residence dissipation
+  plus reserve-time rent. Thus K3.CubicSourcePricing.A reduces to
+  CubicActiveTwoCoinMatch.A (match the dissipation coin to the carrier/
+  charge column and route the reserve coin) plus CubicPassiveConsumer.A
+  (unmatched persistent critical \(L^3\) source is CKN-harmless or a
+  typed Pack/Part/Field/Silver residue). Remaining K3 burdens:
+  CarrierSplit.Def.A, ChargeColumnDecay.A,
+  CubicActiveTwoCoinMatch.A, CubicPassiveConsumer.A.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
@@ -992,8 +1006,11 @@ notes.
   admitted row; no uniform constant on the actual solution class).
   Use the carrier-split typing D_j^adm <= C_pc(E_j + X_j) plus the
   K3 Caccioppoli source row. Pressure has collapsed to adjacent cubic
-  source plus far-tail routing; the remaining K3 source wall is
-  K3.CubicSourcePricing.A.
+  source plus far-tail routing. The direct cubic source row
+  C_j <= C(E_j + X_j) is also struck; local L3 amplitude must pass
+  through the two-coin split. Remaining K3 source burdens:
+  CubicActiveTwoCoinMatch.A and CubicPassiveConsumer.A, alongside
+  CarrierSplit.Def.A and ChargeColumnDecay.A.
 - "Positive gross finance makes the Casimir dwell prefix monotone":
   FALSE as stated. The Gate-6 extraction object is signed; the
   dwell-run prefix needs a net-positive extraction law after signed
