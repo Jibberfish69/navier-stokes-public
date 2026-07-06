@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-jet-static-energy-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
 completion_truth: >-
   Codex gate correction, not a crowd theorem and not a confinement-constant
   decision. The fresh-holder architecture enumeration is valid as a
@@ -43,12 +44,13 @@ completion_truth: >-
   route also cannot supply the floor: every smooth symmetric trace-free A(t)
   is an exact local Navier-Stokes packet after the pressure Hessian is chosen.
   Third follow-up says generic time-dependent cutoff/Hodge collar retuning
-  also preserves the cheap beta^(8/5) ratio. Thus the overlap bath may be
-  killed only by exact unforced global dynamics, a nonlocal pressure/Hodge
-  structure, tracking/allocation theorem, or it may become an exit-II
-  construction if it satisfies the summability criterion while preserving
-  production. No dense-cell clearance, no composition theorem, and no MPP
-  closure are claimed.
+  also preserves the cheap beta^(8/5) ratio. Fourth follow-up prices
+  pressure-Hessian source retuning at beta^(4/5)E_prod, still below an
+  order-one floor. Thus the overlap bath may be killed only by exact unforced
+  global dynamics, a sharper nonlocal pressure/Hodge structure,
+  tracking/allocation theorem, or it may become an exit-II construction if it
+  satisfies the summability criterion while preserving production. No
+  dense-cell clearance, no composition theorem, and no MPP closure are claimed.
 ---
 
 # Fresh-holder architecture gate: the overlap bath survives
