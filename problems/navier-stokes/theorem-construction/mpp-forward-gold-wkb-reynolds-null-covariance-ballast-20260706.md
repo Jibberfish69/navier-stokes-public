@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
 completion_truth: >-
   Exact positivity constraint on the Reynolds-null branch. A weak quadratic
   Reynolds defect from actual velocity fields is a positive-semidefinite
@@ -23,10 +24,12 @@ completion_truth: >-
   tau=tr R and tr A=0. Then R>=0 forces
   tau/3 >= -lambda_min(A), hence tau >= sqrt(3/2)|A|_F. Thus the
   velocity-law null branch can carry anisotropic trace-free pressure shape only
-  with positive trace/energy ballast. This proves no theorem forcing actual
-  Navier-Stokes WKB defects into the null class, no legal carriage theorem for
-  the positive ballast through ancestry/cover/tower, no profile admission
-  theorem, no confinement constant, and no MPP closure.
+  with positive trace/energy ballast. The ballast-energy follow-up identifies
+  that trace with unresolved kinetic energy mu_R=(1/2)tr R; pressure gauge
+  absorption does not erase that energy ledger. This proves no theorem forcing
+  actual Navier-Stokes WKB defects into the null class, no legal carriage
+  theorem for the positive ballast through ancestry/cover/tower, no profile
+  admission theorem, no confinement constant, and no MPP closure.
 ---
 
 # Reynolds-null covariance defects require positive ballast
@@ -186,6 +189,17 @@ defect. The remaining dense-crowd question is whether that ballast can be
 carried through material ancestry, finite cover, and same-law tower without
 paying the eviction/custody cost.
 
+The ballast is also not pressure erasure. If
+\[
+  u_j\otimes u_j\rightharpoonup u\otimes u+R,
+\]
+then the unresolved kinetic energy is
+\[
+  \mu_R={1\over2}\operatorname{tr}R .
+\]
+The pressure gauge \(q\) satisfying \(\operatorname{div}R=\nabla q\) removes
+the velocity force, while \(\mu_R\) remains a nonnegative profile ledger item.
+
 ## 7. Four-sentence result
 
 The pressure-law null class is larger than scalar pressure, but actual Reynolds
@@ -194,13 +208,13 @@ therefore not an actual covariance defect unless it is padded by positive
 scalar trace. Pointwise, if \(R=(\tau/3)I+A\ge0\) and \(\operatorname{tr}A=0\),
 then \(\tau/3\ge-\lambda_{\min}(A)\), hence
 \(\tau\ge\sqrt{3/2}|A|_F\). So the dense-crowd pressure escape is no longer
-free anisotropy; it is anisotropy plus positive trace ballast that the other
-certificate rows must carry.
+free anisotropy; it is anisotropy plus positive trace ballast, equivalently
+positive unresolved kinetic energy, that the other certificate rows must carry.
 
 ## 8. State
 
 This note proves the exact covariance-ballast constraint for Leray-null
-Reynolds defects.
+Reynolds defects and records its energy-ledger interpretation.
 
 It proves no theorem forcing actual Navier-Stokes WKB defects into the null
 class, no legal carriage theorem for the positive ballast through
