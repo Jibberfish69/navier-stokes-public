@@ -1090,6 +1090,16 @@ certified positive constant.
    Finite-range nonlinear legality has now been split as well: either it proves
    an explicit positive local block-distance from the uniform block, or
    periodic near-uniform legal blocks tile into the surviving bath.
+   Current overlap-bath closeout at local-mechanism level: the tested local
+   rows do not decide the confinement constant. Mean-zero Hodge algebra,
+   affine pressure motion, finite-energy localization, affine same-fluid
+   custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
+   certificate rows, high-rank linear rows, and finite-range local nonlinear
+   legality have all been typed. The remaining dense-crowd decision surface is
+   exactly four global sources: non-affine/broadband transport, now only in its
+   supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
+   bridge; the fixed-density compensator/residue branch; or construction /
+   exclusion of the near-uniform same-fluid WKB bath.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
