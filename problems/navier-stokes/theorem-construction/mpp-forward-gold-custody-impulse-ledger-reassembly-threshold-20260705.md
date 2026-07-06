@@ -27,15 +27,17 @@ completion_truth: >-
   mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705:
   a fast thick transit pays an order-one pair-energy bill in the same
   increment-cubic total-variation currency as the flux gate. SAME-DAY
-  FOLLOW-UP: the thick-debris route is now filed in
-  mpp-forward-gold-custody-thick-debris-energy-prohibition-20260705:
-  isolated thick debris cannot re-concentrate fixed impulse because
-  concentration is uphill in energy and unforced viscous flow dissipates.
-  NAMED OPEN: the row lift - orient the fast-transit cubic payment on the
-  same channel-window summands as record admission and no-recount debt.
-  Kill condition standing: a re-assembly channel that evades thin
-  confiscation, isolated-thick energy prohibition, assisted-thick transit
-  payment, and the row lift. No closure claimed.
+  FOLLOW-UP: the thick-debris route is filed and regated through
+  mpp-forward-gold-custody-thick-debris-energy-prohibition-20260705 and
+  mpp-forward-gold-codex-custody-energy-escrow-regate-20260705:
+  concentration is uphill in energy on fixed-shape families, so thick
+  debris either already contains small-scale escrow (prior paid residue)
+  or needs external delivery. NAMED OPEN: uniform escrow shape/localization
+  and the row lift - orient the escrow or fast-transit payment on the same
+  channel-window summands as record admission and no-recount debt. Kill
+  condition standing: a re-assembly channel that evades thin confiscation,
+  the thick-debris escrow dichotomy, assisted-thick transit payment, and
+  the row lift. No closure claimed.
 ---
 
 # Custody: the impulse ledger and the re-assembly threshold
@@ -66,10 +68,11 @@ the penny-tax collects precisely on the enemy's logistics.
 
 ## 4. Named open routes (the gate)
 
-(G-C-1) Thick-debris route: same-day display filed. Isolated thick
-debris cannot re-concentrate fixed impulse because concentration raises
-energy while unforced viscous flow dissipates. Assisted thick debris
-falls under G-C-2.
+(G-C-1) Thick-debris route: same-day display filed and regated. On
+fixed-shape families, concentration raises the energy required for fixed
+impulse. Thick debris therefore splits into stored escrow (already paid
+residue) or external delivery (G-C-2). Remaining: uniform shape bound and
+escrow localization on the same channel-window rows.
 
 (G-C-2) Payment identity: same-day display filed. Fast thick transit
 through the medium is an increment-cubic event in the flux-gate
