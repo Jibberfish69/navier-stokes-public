@@ -38,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-w0b-b3-material-time-liouville-supplier-map-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -61,8 +62,12 @@ completion_truth: >-
   affine/root quotient. The exact-projector collapse further shows that one
   branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
   PositiveCriticalTransferBound.A, not a local projector theorem. Current
-  sources do not prove that detector/quotient bridge, the needed
-  certificate-flow invariance, or zero-loss rigidity. No
+  sources do not prove that detector/quotient bridge. The shift-hull reduction
+  proves the abstract material-time invariance lemma, but it lowers the needed
+  certificate-flow row to compact certified material-time shift-hull
+  construction plus a closed zero-surplus certificate graph. Current sources do
+  not prove those Navier-Stokes compactness/closedness inputs or zero-loss
+  rigidity. No
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
 ---
@@ -188,6 +193,13 @@ carried by material-time Navier-Stokes evolution, and weak WKB convergence can
 lose material ancestry, pressure law, cover data, or tower defects unless those
 defects are legally carried.
 
+The shift-hull reduction sharpens this. Once the retained branch is represented
+as a compact material-time path hull whose certificate graph is closed and whose
+zero-surplus payer clauses are closed, invariance is automatic: shifting a
+limit path is the limit of shifted actual certificate paths. Thus the remaining
+flow row is not an abstract semigroup mystery; it is the construction of that
+compact certified path hull from the same Navier-Stokes history.
+
 ## 5. Exact strict fork
 
 The shared c_0 fork is:
@@ -221,7 +233,9 @@ bill, legal residual, and stop/exit channel is zero in the surplus sense.
 A sufficient route is:
 
 \[
-\texttt{MaterialTimeCertificateFlowInvariance.A}
+\texttt{CertifiedMaterialTimeShiftHullCompactness.A}
++
+\texttt{ZeroSurplusCertificateClosedGraph.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
@@ -229,9 +243,11 @@ A sufficient route is:
 \tag{TCL.3}
 \]
 
-The first theorem keeps the marginal profile inside the actual same-fluid
-Navier-Stokes evolution. The second empties the invariant zero-surplus set
-except for zero service. Neither theorem is currently installed.
+The first two rows keep the marginal profile inside the actual same-fluid
+Navier-Stokes evolution by shift-hull invariance. The final row empties the
+invariant zero-surplus set except for zero service. The abstract shift-hull
+lemma is proved in the follow-up file; the compact certified path, closed
+zero-surplus graph, and zero-loss rigidity are not currently installed.
 
 ## 6. Consequence
 
