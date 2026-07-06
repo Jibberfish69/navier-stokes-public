@@ -35,10 +35,11 @@ completion_truth: >-
   order-one floor. Follow-up exact shear-cell display corrects the loose signed
   packet wording: true periodic divergence-free pressure sources have zero
   mean, but a mean-zero shear cell still gives a nonzero traceless Hessian at a
-  zero-gradient station with the same HD^5 cost. The live exact-matrix burden
-  is now sharpened to q=4/5 for retuning pressure service, plus multi-direction
-  superposition, exact unforced evolution, same-packet allocation, or a true
-  dynamic bath construction.
+  zero-gradient station with the same HD^5 cost; the same display supplies any
+  trace-free Hessian after choosing a zero-diagonal frame. The live exact-matrix
+  burden is now sharpened to q=4/5 for retuning pressure service, plus
+  localization, producer coupling, exact time persistence, same-packet
+  allocation, or a true dynamic bath construction.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -120,7 +121,7 @@ zero mean:
 
 So the source-service picture is not a collection of independent signed
 monopoles. The exact shear-cell display supplies the corrected object: a
-mean-zero shear/quadrupole pattern can create a nonzero traceless pressure
+mean-zero shear/quadrupole pattern can create an arbitrary traceless pressure
 Hessian at a zero-gradient station with the same \(HD^5\) energy scale.
 
 At the local sign level, the two signs still appear.
@@ -269,9 +270,9 @@ retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
 
 The remaining exact-matrix burden is now sharper:
 
-- multi-direction superposition and cross-term control for pressure-source
-  cells;
-- exact unforced evolution of the pressure-source cells and the producing bath;
+- localization of the pressure-source cell into the producing field;
+- coupling the pressure-source cell to a nonzero producing packet;
+- exact time persistence of the pressure-source cells and the producing bath;
 - nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
 - same-packet allocation of pressure service into record-ladder currency;
 - beta-depth admissibility for finite-depth or growing-depth schedules;
