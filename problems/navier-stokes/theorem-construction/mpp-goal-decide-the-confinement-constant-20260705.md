@@ -242,16 +242,24 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     cross Hessian \(|K_{\rm curv}|\lesssim s(D/R)\sqrt H\). For
     \(H\sim s^2\beta^{4/5}\), this stays inside the existing pressure row when
     \(D/R\lesssim\beta^{2/5}\). Thus generic producer curvature is not an
-    order-one floor; the remaining pressure branch is subcell/high-Re
-    admissibility, same-packet allocation, supercritical fast-motion forcing, or
+    order-one floor; the remaining pressure branch is the Reynolds-edge bridge,
+    same-packet allocation, supercritical fast-motion forcing, or
     construction/exclusion.
     Follow-up fast-motion threshold obstruction filed: with
     \(\omega=|\dot K|/|K|\), one producer clock costs
     \((\omega/s)|K|D^5\), hence
     \((\omega/s)\beta^{4/5}E_{\rm prod}\). Therefore an order-one payer
     requires \(\omega/s\gtrsim\beta^{-4/5}\). The remaining pressure branch is
-    subcell/high-Re admissibility, same-packet allocation, supercritical
-    fast-motion forcing, or construction/exclusion.
+    the Reynolds-edge bridge, same-packet allocation, supercritical fast-motion
+    forcing, or construction/exclusion.
+    Follow-up subcell Reynolds threshold obstruction filed: a pressure subcell
+    fits below the producer curvature radius and above the viscous clock exactly
+    when
+    \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\). Above that threshold the
+    local bath remains inside \(q=4/5\); below it the subcell construction
+    fails, but that failure is only a Reynolds-edge obstruction until it is
+    allocated to record-ladder payment, producer suppression, or
+    construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -365,7 +373,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    adds that nonconstant producer gradient creates cross Hessian
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
-   subcell/high-Re admissibility, same-packet allocation,
+   the Reynolds-edge bridge, same-packet allocation,
    supercritical fast-motion forcing, or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
