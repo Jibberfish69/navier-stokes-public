@@ -658,6 +658,23 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(\lambda<S_{\max}(b)\). If not, the friendly branch fails before rent is
   tested. No source value or product pass is claimed.
 
+  CODEX ROUTE-3 ADMISSIBLE INTERIOR GRAPH MONOTONICITY (2026-07-06,
+  codex-route3-admissible-interior-graph-monotonicity): the interior graph is
+  now restricted to its admissible branch
+  \(J_b=(\max\{2b,q_0\},2\log2)\), because
+  \[
+    V_b(q)>0 \Longleftrightarrow e^q+2q e^{q/2}-4>0
+    \Longleftrightarrow q>q_0.
+  \]
+  On that branch \(L_b\) is strictly decreasing: differentiating
+  \(D_{b,L_b(q)}(q)=0\) gives
+  \(L_b'(q)=\partial_q^2((q-b)F_\lambda(q))/B_b(q)<0\), using the
+  previous log-concavity selector and \(B_b>0\). The branch starts at
+  \(S(q_0)\) if \(2b\le q_0\), and at \(\Lambda_{\rm edge}^-(b)\) if
+  \(q_0<2b<U\); it ends below zero at \(U\). Thus the interior case is a
+  single decreasing graph inversion, not a free graph search. No value or
+  product pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
