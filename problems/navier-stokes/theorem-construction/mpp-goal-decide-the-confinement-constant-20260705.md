@@ -1545,7 +1545,18 @@ surface, not F4 clearance.
    Hence a square-near-uniform AC angular bath with bounded strain action
    cannot supply order-one cyclic rectified service; it must spend square/profile
    room, strain-action/custody, singular/profile formation, AC-carriage failure,
-   or actual construction/exclusion. Bounded-custody
+   or actual construction/exclusion. The Beltrami construction surface has one
+   more exact fork: if \(u=\sum_a u_a\) with
+   \(\nabla\times u_a=\lambda_a u_a\), then
+   \[
+     \mathbb P((u\cdot\nabla)u)
+     =
+     -\mathbb P\sum_{a<b}(\lambda_b-\lambda_a)u_a\times u_b .
+   \]
+   Hence exact Beltrami projected-neutrality is automatic only on one curl
+   eigenvalue shell; finite-energy radial broadening creates eigenvalue-gap
+   turnover unless a new cross-shell cancellation certificate is supplied.
+   Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
    \(V_w\), and bank log-variation \(V_D\), active service obeys
