@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
 completion_truth: >-
   Conditional assembly theorem only. This note proves that
   WKBCertificateCompactness.A has no remaining independent topological content
@@ -32,10 +33,15 @@ completion_truth: >-
   limiting WKB profile after scalar moment passage. If any row fails, the first
   failed certificate is not retained WKB supply: cover failure is Pack-side,
   actual-law / ancestry / tower failure is Part-side, and a retained legal tower
-  with high Sobolev readout routes to the Field consumer. This note does not
-  prove any of the four certificate rows for actual Navier-Stokes WKB packets,
-  does not prove profile construction or exclusion, does not decide the
-  confinement constant, and does not close the MPP.
+  with high Sobolev readout routes to the Field consumer. The later product-lift
+  gluing theorem sharpens the residual line: rowwise lifts over the same
+  observable marginal glue automatically by disintegration and conditional
+  product when no cross-row relation is imposed. The remaining same-packet
+  burden is cross-certificate compatibility among law, ancestry, cover, and
+  tower coordinates. This note does not prove any of the four certificate rows
+  for actual Navier-Stokes WKB packets, does not prove cross-compatibility, does
+  not prove profile construction or exclusion, does not decide the confinement
+  constant, and does not close the MPP.
 ---
 
 # WKB certificate compactness assembles from four rows
@@ -229,9 +235,18 @@ WKBTowerDefectVanishesOrCertified.A
 CertifiedPrelimitWKBProductLift.A
 ```
 
-The last line is not a new mechanism. It says that the same prelimit WKB
-packets/clouds carry the four certificates simultaneously. If simultaneous
-carriage fails, the first failed coordinate routes by (ASS.12)-(ASS.15).
+The last line has now been sharpened by the product-lift gluing theorem.
+Rowwise lifts over the same observable marginal glue automatically by
+disintegration and conditional product when no cross-row relation is imposed.
+Thus the actual residual is:
+
+```text
+WKBCrossCertificateCompatibility.A
+```
+
+It says that the law, ancestry, cover, and tower certificates describe the
+same prelimit WKB packet/cloud. If cross-compatibility fails, the first
+incompatible coordinate routes by (ASS.12)-(ASS.15).
 
 ## 6. Four-sentence result
 
@@ -242,8 +257,8 @@ then the limiting profile is legally certified by closedness of a finite
 intersection in a compact product space. If a coordinate cannot be carried, the
 first loss is a typed Pack or Part failure; if all coordinates persist with the
 high-Sobolev readout, the installed Field consumer applies. The remaining work
-is to prove or refute the four row-level certificates and simultaneous
-prelimit product lift for actual Navier-Stokes WKB packets.
+is to prove or refute the four row-level certificates and same-packet
+cross-certificate compatibility for actual Navier-Stokes WKB packets.
 
 ## 7. State
 
@@ -251,5 +266,6 @@ This note proves the conditional assembly of `WKBCertificateCompactness.A` from
 the four certificate rows and certified product lifts.
 
 It proves no row-level defect vanishing or legal carriage theorem for actual
-Navier-Stokes WKB packets, no simultaneous product-lift theorem, no profile
-construction/exclusion theorem, no confinement constant, and no MPP closure.
+Navier-Stokes WKB packets, no cross-certificate compatibility theorem, no
+profile construction/exclusion theorem, no confinement constant, and no MPP
+closure.
