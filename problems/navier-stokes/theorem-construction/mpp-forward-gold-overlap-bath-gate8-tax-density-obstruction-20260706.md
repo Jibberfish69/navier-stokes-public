@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-tax-backing-measure-deficit-lemma-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-hall-incidence-queue-collapse-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter9-reserve-queue-consumer-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and allocation obstruction, not a Gate-8 theorem, not a
   dense-crowd theorem, and not a confinement-constant decision. Gate-8
@@ -28,8 +29,10 @@ completion_truth: >-
   where the pressure-service estimate is sharp. No-recount allocation cannot
   turn the q=4/5 pressure row into an order-one confinement payer. The
   remaining branch is now a positive fixed-density compensator/residue,
-  a Reynolds-edge/producer-suppression bridge, dynamic same-fluid
-  transport/persistence, or a real construction/exclusion.
+  a Reynolds-edge/producer-suppression bridge, non-affine/broadband same-fluid
+  transport/persistence, or a real construction/exclusion. Follow-up
+  affine-transport pressure-bank obstruction checks that affine same-fluid
+  custody remains beta^(4/5), so it is not the compensator.
 ---
 
 # Overlap bath: Gate-8 tax-density obstruction
@@ -193,9 +196,10 @@ The pressure row now has these typed open branches:
 - Reynolds-edge bridge:
   convert \(\operatorname{Re}_R\lesssim\beta^{-4/5}\) into
   record-ladder payment, producer suppression, or construction exclusion;
-- dynamic same-fluid transport/persistence:
-  keep the pressure-service bank attached through the real flow, or prove that
-  this demands \(\omega/s\gtrsim\beta^{-4/5}\);
+- non-affine/broadband same-fluid transport/persistence:
+  keep the pressure-service bank attached through the real flow beyond the
+  affine-custody regime, or prove that this demands
+  \(\omega/s\gtrsim\beta^{-4/5}\);
 - construction/exclusion:
   build or rule out a summability-valid dynamic pressure bath whose retained
   pressure-service density stays at \(q=4/5\).
@@ -212,5 +216,6 @@ producer packet. The GA-tax backing lemma says a fixed tax density
 \(\theta_0\) needs \(\beta_{\rm ph}\ge\theta_0\mu_{\rm prod}\) as a measure,
 so for small \(\beta\) the fixed-density deficit is positive. The pressure
 branch must therefore use a real compensator/residue, Reynolds-edge bridge,
-dynamic same-fluid transport/persistence, or construction/exclusion; no-recount
+non-affine/broadband same-fluid transport/persistence, or
+construction/exclusion; no-recount
 allocation alone preserves the \(q=4/5\) row.

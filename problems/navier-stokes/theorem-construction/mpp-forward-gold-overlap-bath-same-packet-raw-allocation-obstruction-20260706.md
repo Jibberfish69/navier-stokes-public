@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter9-draft-record-bridge-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter9-reserve-queue-consumer-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and allocation obstruction, not a Gate-8 theorem, not a
   dense-crowd theorem, and not a confinement-constant decision. The pressure
@@ -32,7 +33,9 @@ completion_truth: >-
   or construction exclusion. Follow-up Gate-8 tax-density obstruction checks
   that no-recount allocation itself preserves the beta^(4/5) density; demanding
   a fixed pressure-service tax density creates a positive tax deficit instead
-  of an order-one retained row.
+  of an order-one retained row. Follow-up affine-transport pressure-bank
+  obstruction checks that affine same-fluid custody also stays at beta^(4/5);
+  the remaining transport branch is non-affine/broadband.
 ---
 
 # Overlap bath: same-packet raw allocation obstruction
@@ -188,9 +191,10 @@ The pressure row now has these typed open branches:
 - Reynolds-edge bridge: convert
   \(\operatorname{Re}_R\lesssim\beta^{-4/5}\) into record-ladder payment,
   producer suppression, or construction exclusion;
-- dynamic same-fluid transport/persistence:
-  keep the pressure-service bank attached through the real flow, or prove that
-  this demands \(\omega/s\gtrsim\beta^{-4/5}\);
+- non-affine/broadband same-fluid transport/persistence:
+  keep the pressure-service bank attached through the real flow beyond the
+  affine-custody regime, or prove that this demands
+  \(\omega/s\gtrsim\beta^{-4/5}\);
 - construction/exclusion for a summability-valid dynamic pressure bath.
 
 ## 7. Four-sentence result

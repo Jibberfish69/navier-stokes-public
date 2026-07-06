@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-pressure-template-locality-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and local obstruction, not a global bath construction, not a
   dense-crowd theorem, and not a confinement-constant decision. The
@@ -34,7 +35,9 @@ completion_truth: >-
   genuinely dynamic same-fluid effect: transport or persistence of the service
   bank, Reynolds-edge failure, or construction exclusion. Follow-up Schwartz
   pressure-template locality obstruction kills static finite-energy
-  pressure/Hodge localization as the missing payer.
+  pressure/Hodge localization as the missing payer. Follow-up affine-transport
+  pressure-bank obstruction kills affine same-fluid custody as the missing
+  payer; the surviving dynamic branch is non-affine/broadband.
 ---
 
 # Overlap bath: local supercritical-motion obstruction
@@ -210,8 +213,8 @@ record ladder.
 
 The remaining fast-motion branch is now global:
 
-- dynamic same-fluid transport or persistence of the pressure-service bank may
-  force faster motion than the local jet;
+- non-affine/broadband same-fluid transport or persistence of the
+  pressure-service bank may force faster motion than the local jet;
 - Reynolds-edge failure may suppress the producer or create a record-ladder
   payment;
 - otherwise a summability-valid dynamic pressure bath below the threshold
@@ -232,5 +235,5 @@ but its normalized motion is only
   \omega/s\lesssim\beta^{4/5}.
 \]
 The exact shear-cell bank supplies that Hessian at the same \(q=4/5\) cost, so
-the supercritical-motion payer must be dynamic or absent: service-bank
-transport/persistence, Reynolds-edge failure, or construction/exclusion.
+the supercritical-motion payer must be non-affine/broadband dynamic custody or
+absent: Reynolds-edge failure or construction/exclusion.
