@@ -716,6 +716,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    passage subclause: continuous or uniformly stabilized pressure-service
    readouts pass to the profile, while moving-spike service is label/weight/rung
    escape. The open profile burden is same-solution witness legality.
+   The service-modulus reduction then names the exact hidden input:
+   a uniform modulus of continuity for the active service readouts on the compact
+   WKB label space gives the needed stabilized subtail by Arzela-Ascoli; failure
+   of the modulus is moving service-selector escape in material, center,
+   envelope, time, scale, bank, weight, or rung coordinates, not admitted
+   retained profile service.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;

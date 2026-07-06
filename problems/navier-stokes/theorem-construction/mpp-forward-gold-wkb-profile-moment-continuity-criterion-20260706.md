@@ -184,6 +184,15 @@ atoms.
 
 ## 5. Consequence for profile admission
 
+Follow-up, 2026-07-06:
+`mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md`
+identifies the exact compactness input behind "uniformly stabilized": a uniform
+modulus of continuity for the active service readouts on the compact WKB
+phase-label space. With that modulus, Arzela-Ascoli supplies the uniformly
+convergent subtail used in Section 3. Failure of that modulus is the moving
+service-selector branch in material, center, envelope, time, scale, bank,
+weight, or rung coordinates.
+
 The profile admission burden splits:
 \[
 \begin{array}{ll}

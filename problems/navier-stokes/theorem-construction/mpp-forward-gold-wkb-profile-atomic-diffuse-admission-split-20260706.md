@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -291,10 +292,12 @@ the nonvanishing terminal WKB horn now has the exact split:
 
 The profile moment-continuity criterion pays the scalar moment-passage part of
 this fork when the active pressure-service readout is continuous or uniformly
-stabilized. If the service readout moves as a spike, the apparent retained
-moment is label/weight/rung escape, not an admitted profile moment. This is a
-strict narrowing of `MicrolocalDefectProfileAdmission.A`. It does not prove
-that either profile branch is admitted as a same-solution terminal witness.
+stabilized. The service-modulus follow-up reduces that stabilization to one
+uniform modulus of continuity on the compact WKB label space; failure of the
+modulus is moving service-selector escape in material, center, envelope, time,
+scale, bank, weight, or rung coordinates. This is a strict narrowing of
+`MicrolocalDefectProfileAdmission.A`. It does not prove that either profile
+branch is admitted as a same-solution terminal witness.
 
 ## 8. State
 
@@ -312,8 +315,8 @@ object or nontight selected-carrier escape; count-only no-free-fragmentation and
 same-cell packet-moment square coercivity are false. The beta-small many-cell
 WKB survivor lies in that unbounded-count case. The latter is a measure-valued
 terminal witness theorem or limit-of-class failure theorem, after the scalar
-moment-passage clause has been paid by continuous/stabilized service readout or
-else routed to moving-selector escape.
+moment-passage clause has been paid by `WKBServiceModulus.A` or else routed to
+moving-selector escape.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,

@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
@@ -176,12 +177,13 @@ endpoint-uniformly integrable, square-summable, polar-saturated, or admitted to
 the CM witness tree. Visibility is not admission.
 
 The profile moment-continuity criterion isolates the scalar readout portion of
-this burden. If the active pressure-service readout is a bounded continuous
-functional on the compact phase-label space, or a moving functional converging
-uniformly to one, then the nonzero pressure-service moment passes to the
-profile. If the moment is carried by a moving spike selector, compactness does
-not preserve it; that is material/time/weight/rung escape, not retained profile
-service.
+this burden. The service-modulus follow-up makes its exact input explicit: if
+the active pressure-service readouts are uniformly bounded and share one
+modulus of continuity on the compact phase-label space, then Arzela-Ascoli gives
+a uniformly convergent subtail, and the nonzero pressure-service moment passes
+to the profile. If that modulus fails, the apparent retained moment is carried
+by a moving service selector; this is material, center, envelope, time, scale,
+bank, weight, or rung escape, not admitted retained profile service.
 
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
