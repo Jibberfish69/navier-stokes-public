@@ -1,6 +1,12 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706
-status: exact-finite-broadband-beltrami-neutralizer-exclusion
+status: scope-corrected-same-two-shell-max-alignment-obstruction-multiradius-gap-open
+scope_correction: >-
+  Same-day correction: the displayed duplicate-output step proves the
+  obstruction for second representations on the same two curl-eigenvalue
+  shells. It does not by itself exclude cross-radius duplicate representations.
+  See
+  mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -14,24 +20,36 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706.md
 completion_truth: >-
-  Exact finite-support algebraic exclusion only. In a finite same-helicity
-  helical Beltrami Fourier cloud, choose a noncollinear active cross-shell
-  pair p,q with maximal normalized alignment p.q/(|p||q|). If p+q had a
-  second active cross-shell representation p'+q', then the off-diagonal
-  active pairs p,q' and p',q would have strictly larger alignment than p,q;
-  because the two shell radii differ, at least one of those off-diagonal pairs
-  is noncollinear. This contradicts maximality. Hence p+q is a unique
-  noncollinear cross-shell output, and the nonresonant two-mode calculation
-  makes its projected eigenvalue-mismatch coefficient nonzero. Therefore no
-  finite genuinely broadband directionally spread same-helicity Beltrami
-  Fourier cloud is an exact projected-neutral bath. Finite exact neutrality
-  collapses to the one-shell branch, collinear/one-dimensional degeneracy, or
-  zero-amplitude interactions. This proves no lower bound for infinite/dense
-  WKB baths, no finite-energy localization theorem, no same-fluid custody
-  theorem, no confinement constant, and no MPP closure.
+  Scope-corrected algebraic obstruction only. The maximal-alignment proof below
+  is valid for duplicate representations on the same two curl-eigenvalue
+  shells: if p+q=p'+q' with |p|=|p'| and |q|=|q'|, the off-diagonal active
+  pairs have strictly larger normalized alignment and at least one remains
+  noncollinear, contradicting maximality. This closes the same-two-shell finite
+  resonant graph subcase. It does not close cross-radius duplicate
+  representations, where the denominator changes and the larger-alignment
+  conclusion is false. The finite/dense Beltrami algebra therefore retains a
+  multiradius resonant-graph branch unless a separate graph argument closes it.
+  This proves no lower bound for infinite/dense WKB baths, no finite-energy
+  localization theorem, no same-fluid custody theorem, no confinement constant,
+  and no MPP closure.
 ---
 
 # Finite broadband Beltrami clouds always leak at maximal alignment
+
+## 0. Same-day scope correction
+
+The argument below is certified only for duplicate representations on the same
+two shell radii:
+\[
+  |p|=|p'|=K,\qquad |q|=|q'|=L,\qquad K\ne L.
+\]
+
+It does not by itself exclude cross-radius duplicates. In that case the
+denominators in the normalized alignments change, and the strict
+larger-alignment step can fail. The correction note
+[mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md)
+records the exact witness and retypes the live branch as multiradius resonant
+graph closure, profile admission, or construction/exclusion.
 
 ## 1. Question
 
