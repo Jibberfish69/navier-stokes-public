@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-production-extremizer-pressure-hessian-frame-rotation-test-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
 completion_truth: >-
   Three cell results toward the confinement constant, each typed. (K1,
   exact) The two-tube deviation space splits into an in-plane tilt sector
@@ -25,7 +26,10 @@ completion_truth: >-
   invariant reduction: the exact induced velocity profile bends an
   initially straight producing pair immediately, so K3 must be either
   filament-curve evolution or a projected model with curvature-leakage
-  control. Sidecar, certification-typed: importing the classical
+  control. Same-day follow-up pays the local instantaneous leakage
+  floor: at the production station the scale-normalized normal leakage
+  rate is exactly 2*sigma_max. Sidecar, certification-typed: importing
+  the classical
   Crow e-folding as lifetime gives per-encounter integrated stretch at
   most (3*sqrt(3)/8) * beta^2 * ln(1/beta), maximized in closed form at
   beta = exp(-1/2) with value 3*sqrt(3)/(16e); whether this certifies
@@ -106,6 +110,16 @@ lifetime clock, integrated stretch per encounter is at most
 \]
 
 and the doubling comparison (against ln 2) is a chapter-10 item.
+
+Same-day follow-up
+`mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md`
+shows that the residual is not weak: at the station where production is
+maximal,
+\[
+B_d=2\sigma_{\max}.
+\]
+The open issue is transporting this local curve-leakage floor through
+the evolving filament lifetime.
 
 ## 4. S1: the sheet hunt (negative for the counterexample)
 

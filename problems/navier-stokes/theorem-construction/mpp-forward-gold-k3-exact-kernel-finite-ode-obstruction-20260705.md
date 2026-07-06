@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-angle-sheet-hunt-self-cell-sweep-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
 completion_truth: >-
   Strict obstruction/retyping, not kill-integral closure. The named K3
   four-variable ODE (separation, in-plane tilt, skew, closest-point
@@ -23,8 +24,13 @@ completion_truth: >-
   certification model, but only with an explicit curve-leakage residual.
   The exact K3 object is the filament-curve evolution, or a projection
   theorem proving that the omitted curvature modes pay eviction/tax.
-  No per-encounter cap, doubling comparison, crowd theorem, composition
-  theorem, or MPP closure is claimed.
+  SAME-DAY FOLLOW-UP: the local instantaneous curve-leakage floor is
+  paid at the production station: the scale-normalized normal leakage
+  rate equals exactly 2*sigma_max. This does not prove a per-encounter
+  cap; it reduces the next burden to transporting that local floor
+  through the evolving filament lifetime. No per-encounter cap, doubling
+  comparison, crowd theorem, composition theorem, or MPP closure is
+  claimed.
 ---
 
 # K3 obstruction: the exact kernel does not close on four variables
@@ -180,6 +186,17 @@ with the kill integral measured on the evolving curves:
 
 Any finite K3 model is now typed as a projected model until it proves
 control of \(R_{\rm curve}\).
+
+Same-day follow-up
+`mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md`
+proves that this residual is not higher-order weak: at the station of
+maximum production, the scale-normalized normal leakage satisfies
+\[
+B_d=2\sigma_{\max}.
+\]
+The remaining K3 problem is not whether curve leakage exists, but
+whether that local leakage floor transports through the evolving
+filament lifetime without cancellation or reabsorption.
 
 ## 5. Four-sentence result
 

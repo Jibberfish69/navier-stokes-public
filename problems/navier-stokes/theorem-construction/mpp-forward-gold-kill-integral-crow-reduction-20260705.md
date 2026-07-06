@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -57,8 +58,10 @@ completion_truth: >-
   lifetime ODE is not an invariant reduction because the straight-pair
   skeleton bends immediately for producing beta != 0. Therefore Crow
   reduction is a prescribed linear-eigenmode/certification model until
-  the curve-leakage residual is controlled. Certification-typed inputs,
-  named: the core-log
+  the curve-leakage residual is controlled. SAME-DAY K3 FOLLOW-UP:
+  the local instantaneous residual is not weak; at the production
+  station the scale-normalized normal leakage rate is exactly
+  2*sigma_max. Certification-typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
   peak production to the Crow eigenmode. The doubling comparison (cap
@@ -148,3 +151,6 @@ four-variable straight-skeleton ODE. The Crow calculation above is a
 linear-eigenmode lifetime model. To turn it into the exact kill
 integral, the omitted curvature modes must either be included in
 filament-curve evolution or controlled as a curvature-leakage tax.
+The local tax now has an exact display: at the production station,
+\(B_d=2\sigma_{\max}\). The still-open step is carrying that local
+floor through the lifetime dynamics.

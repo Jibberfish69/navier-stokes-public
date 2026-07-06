@@ -57,7 +57,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     not an invariant reduction, because the exact kernel immediately
     bends any producing straight pair. The lifetime object is now
     filament-curve evolution or a projected model with curvature-leakage
-    control.
+    control. Same-day K3 follow-up pays the local instantaneous leakage
+    floor at the production station: \(B_d=2\sigma_{\max}\). Remaining:
+    transport that local floor through the evolving filament lifetime,
+    rule out cancellation/reabsorption, and compose it with the high-Re
+    edge/crowd/custody economy.
     CROWD STATE (same date, evening): dilute cell DECIDED for the floor
     (monopole vanishing => quartic far-strain decay, adversarial-proof,
     N-independent). Dense same-extent scaffolds strictly supercritical
@@ -101,6 +105,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
+   Local residual floor paid: \(B_d=2\sigma_{\max}\) at the production
+   station. Remaining K3 burden: transport that floor through lifetime
+   dynamics and rule out cancellation/reabsorption.
    Kill condition: no high-Re return-race/custody/sideband-crowd payment
    and no curve-leakage payment => the pure neutral/curvature channel is
    not uniformly capped.
