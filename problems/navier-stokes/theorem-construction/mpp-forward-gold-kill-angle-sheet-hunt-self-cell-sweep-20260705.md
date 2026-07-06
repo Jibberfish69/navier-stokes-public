@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-production-extremizer-pressure-hessian-frame-rotation-test-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
 completion_truth: >-
   Three cell results toward the confinement constant, each typed. (K1,
   exact) The two-tube deviation space splits into an in-plane tilt sector
@@ -28,7 +29,9 @@ completion_truth: >-
   filament-curve evolution or a projected model with curvature-leakage
   control. Same-day follow-up pays the local instantaneous leakage
   floor: at the production station the scale-normalized normal leakage
-  rate is exactly 2*sigma_max. Sidecar, certification-typed: importing
+  rate is exactly 2*sigma_max. The combined instantaneous eviction
+  vector then pays the pointwise producing-profile floor
+  \(\mathcal E\ge\sigma/3\). Sidecar, certification-typed: importing
   the classical
   Crow e-folding as lifetime gives per-encounter integrated stretch at
   most (3*sqrt(3)/8) * beta^2 * ln(1/beta), maximized in closed form at
@@ -121,6 +124,15 @@ B_d=2\sigma_{\max}.
 The open issue is transporting this local curve-leakage floor through
 the evolving filament lifetime.
 
+The combined-vector follow-up
+`mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md`
+also removes the pointwise blind spot: curve leakage alone can vanish,
+but \(\mathcal E^2=|\tau_y|^2+|\tau_n|^2+B_d^2\) satisfies
+\[
+\mathcal E\ge \sigma/3
+\]
+on the producing two-tube profile.
+
 ## 4. S1: the sheet hunt (negative for the counterexample)
 
 Free flat sheet, vorticity jump delta-u: Kelvin-Helmholtz rate is
@@ -147,6 +159,7 @@ Measured/proved at leading order: pair floor 8*sqrt(3)/9 (max form);
 pointwise ratio cot(2*alpha); skew sector dead; eviction pumps toward
 it; sheets pay more than tubes; self-cell subsumed. Named and open:
 kill integral (K3 curve evolution / projected model with residual);
+combined instantaneous K3 vector floor \(\mathcal E\ge\sigma/3\);
 crowd cell; continuum custody (no-free-reassembly); octave composition.
 Quarantined comparisons:
 Crow-lifetime stretch cap vs ln 2. Kill condition standing: a
