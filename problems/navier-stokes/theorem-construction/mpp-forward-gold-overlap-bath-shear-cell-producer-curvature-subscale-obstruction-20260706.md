@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scale dichotomy, not a dense-crowd theorem and not a
   confinement-constant decision. The constant-affine coupling note showed that
@@ -30,7 +31,8 @@ completion_truth: >-
   order-one floor: a pressure subcell below the curvature radius keeps the row
   at the existing q=4/5 pressure cost. The exact remaining branch is the
   subcell-room condition nu/(sD^2)<<1 together with D/R<=c beta^(2/5), plus
-  same-packet allocation or an actual dynamic bath construction/exclusion. If
+  Gate-8 no-recount allocation/compensator or an actual dynamic bath
+  construction/exclusion. If
   no such D exists, the obstruction is the viscous/high-Re subcell edge, not a
   new curvature cross-Hessian constant. Follow-up fast-motion threshold
   obstruction sharpens the tracking branch: an order-one tracking floor
@@ -39,7 +41,9 @@ completion_truth: >-
   with Re_R=sR^2/nu, cheap subcell room exists iff Re_R>>beta^(-4/5); failure
   of that inequality is not itself an order-one energy floor without a
   record-ladder allocation, producer-suppression bridge, or construction
-  exclusion.
+  exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
+  charging remains beta^(4/5) of local producer currency, so the allocation
+  branch is Gate-8 no-recount allocation or compensator.
 ---
 
 # Overlap bath: shear-cell producer-curvature subscale obstruction
@@ -273,7 +277,8 @@ The remaining pressure-row burdens are:
   ladder, equivalently proving
   \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\), or charging failure of that
   threshold to a Reynolds-edge bridge;
-- same-packet allocation of pressure-service work into record-ladder currency;
+- Gate-8 no-recount allocation of pressure-service work into record-ladder
+  currency, or a compensator/residue;
 - supercritical fast-motion forcing, if the exact matrix demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - or a full summability-valid dynamic bath construction or exclusion.
@@ -288,6 +293,6 @@ For the overlap row \(H\sim s^2\beta^{4/5}\), this stays at or below \(H\)
 when the pressure cell sits at scale \(D\lesssim R\beta^{2/5}\). The only extra
 condition is that this subcell remain above the viscous clock,
 \(\nu/(sD^2)\ll1\). Thus curvature does not restore an order-one floor; it
-reduces the pressure branch to the Reynolds threshold bridge, allocation,
-supercritical fast motion, or
+reduces the pressure branch to the Reynolds threshold bridge, Gate-8
+allocation/compensator, supercritical fast motion, or
 construction/exclusion.
