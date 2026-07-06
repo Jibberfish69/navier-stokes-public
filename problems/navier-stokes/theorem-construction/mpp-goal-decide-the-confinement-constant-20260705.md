@@ -625,9 +625,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(|K|/\sigma\). Thus the cheap row \(|K|\sim s^2\beta^{4/5}\) moves the
    producer frame only at \(s\beta^{4/5}\), while producer-clock holding
    needs \(|K|\sim s^2\) and pays order-one producer energy.
-   This still leaves the high-Re logarithmic reservoir, Gate-8/custody pricing
-   for refresh/reassembly and bank travel, slow angle/eigenpath service, and
-   construction/exclusion.
+   The high-Re log-reservoir reduction then types that door: endpoint room is
+   \((1/2)\log(\operatorname{Re}_D\theta_+^2)\), so fixed-population service
+   \(A\) requires \(\operatorname{Re}_D\theta_+^2\ge\exp(2A/W)\), and repeated
+   use telescopes to terminal material carrier-frequency travel unless reset by
+   refresh/reassembly or bank motion.
+   This still leaves exponential high-Re persistence / terminal frequency
+   escape, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
+   angle/eigenpath service, and construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
