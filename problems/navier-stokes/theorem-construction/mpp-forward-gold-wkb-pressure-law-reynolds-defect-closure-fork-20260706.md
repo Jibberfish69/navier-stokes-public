@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-field-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-covariance-cone-screen-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -38,11 +39,16 @@ completion_truth: >-
   remaining cancellation branch exact: P div R=0 iff R=qI+S with div S=0,
   with q absorbed into pressure and S carried, if at all, as a null-stress
   certificate. The null class is nontrivial even in trace-free anisotropic
-  stresses: R_phi=Hess phi-(Delta phi)I/3 has P div R_phi=0. This proves no
-  theorem forcing actual Navier-Stokes WKB packets into the null class, no
-  legal carriage theorem for nonzero null stresses, no profile admission
-  theorem, no WKB construction/exclusion, no confinement constant, and no MPP
-  closure.
+  stresses: R_phi=Hess phi-(Delta phi)I/3 has P div R_phi=0. The covariance
+  cone screen then separates velocity-law nullity from actual Reynolds origin:
+  any rung-zero Reynolds defect produced by weak L2 convergence is a positive
+  semidefinite matrix-valued measure. Pure trace-free Hessian null stresses are
+  pressure-law null examples, but they are not actual Reynolds covariance
+  defects unless they vanish or are offset by isotropic covariance mass. This
+  proves no theorem forcing actual Navier-Stokes WKB packets into the PSD null
+  class, no legal carriage theorem for nonzero PSD null stresses, no profile
+  admission theorem, no WKB construction/exclusion, no confinement constant,
+  and no MPP closure.
 ---
 
 # WKB pressure-law certificate: Reynolds-defect closure fork
@@ -251,6 +257,36 @@ a variable-eigenframe trace-free Hessian stress can pass the velocity-law row
 and must be tested by pressure-service compatibility, legal carriage, and the
 other certificate rows.
 
+There is one more actual-Reynolds screen. If \(R\) is produced as
+\[
+  R=\hbox{w-}\lim_j u_j\otimes u_j-u\otimes u
+  \tag{RDC.18}
+\]
+from a weakly convergent \(L^2_{\rm loc}\) velocity sequence, then \(R\) is a
+positive semidefinite symmetric matrix-valued measure. Indeed, for every
+nonnegative \(\psi\in C_c^\infty\) and every \(\xi\in\mathbb R^3\),
+\[
+  \int\psi\,\xi^TR\xi
+  =
+  \lim_j\int\psi|\xi\cdot u_j|^2
+  -
+  \int\psi|\xi\cdot u|^2
+  \ge0
+  \tag{RDC.19}
+\]
+by weak lower semicontinuity of \(L^2\) after multiplying by \(\sqrt\psi\).
+Thus a pure trace-free null stress is not an actual Reynolds covariance defect
+unless it is zero. The pressure-law survivor for actual WKB Reynolds defects is
+therefore
+\[
+  R\in
+  \{ \mathbb P\operatorname{div}R=0\}
+  \cap
+  \mathcal M_+({\rm Sym}^+(3)),
+  \tag{RDC.20}
+\]
+unless a separate signed-stress certificate is explicitly supplied.
+
 ## 6. Reduced burden
 
 The actual-law coordinate in `WKBCertificateCompactness.A` is now:
@@ -263,14 +299,16 @@ Statement shape:
 
 For the actual same-solution WKB terminal branch, the quadratic microlocal
 defect \(R\) associated with the profile either vanishes modulo pressure gauge
-with compatible pressure-service coordinates, lies in the Leray-null class
+with compatible pressure-service coordinates, lies as a PSD covariance measure
+in the Leray-null class
 \[
   R=qI+S,\qquad \operatorname{div}S=0,
 \]
 with \(q\) absorbed into pressure and \(S\) legally carried as a null-stress
-certificate, or is otherwise carried as a legal same-solution Reynolds
-certificate. If none of these holds, the profile fails the actual
-velocity-pressure law certificate.
+certificate, or is otherwise carried by an explicit legal signed-stress
+certificate outside the rung-zero Reynolds covariance claim. If none of these
+holds, the profile fails the actual velocity-pressure law / covariance-ancestry
+certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside
 certificate compactness.
@@ -291,9 +329,10 @@ limit-of-class failure rather than a new pressure-service branch.
 This note proves the Reynolds-defect closure fork for the actual law
 certificate, the single-shape localized anisotropic Leray obstruction, and the
 exact Leray-null stress characterization, including the trace-free Hessian
-null-stress example. It does not prove actual Navier-Stokes WKB Reynolds
-defects lie in the null class, does not prove the defect vanishes for
-Navier-Stokes WKB packets, does not prove that a nonzero defect can be legally
-carried, does not prove `WKBCertificateCompactness.A`, does not prove profile
-admission, does not prove WKB construction/exclusion, does not decide the
-confinement constant, and does not close the MPP.
+null-stress example. It also proves the covariance-cone screen for actual
+rung-zero Reynolds defects. It does not prove actual Navier-Stokes WKB
+Reynolds defects lie in the PSD null class, does not prove the defect vanishes
+for Navier-Stokes WKB packets, does not prove that a nonzero PSD null defect can
+be legally carried, does not prove `WKBCertificateCompactness.A`, does not
+prove profile admission, does not prove WKB construction/exclusion, does not
+decide the confinement constant, and does not close the MPP.
