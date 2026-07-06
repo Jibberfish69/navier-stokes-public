@@ -1305,6 +1305,15 @@ certified positive constant.
    therefore the distributed low-density record-admission question: the
    selector must force bounded-cell concentration, or accept a selected
    effective length that grows with the packet.
+   Follow-up distributed Riesz-admission obstruction filed: bounded
+   original-packet selected-unit admission does not itself force that
+   concentration. The spread test
+   \(G_L=A L^{-1/2}\chi_{[0,L]}e\),
+   \(A_L=L^{-1/2}\chi_{[0,L]}e\) has \(\|A_L\|_2=1\) and order-one
+   selected action while every bounded subpacket carries \(O(L^{-1})\)
+   work. So the long diluted K5 survivor is compatible with the
+   bounded-Riesz source rule; killing it now requires record locality,
+   stronger actual-NS admission failure, or dynamic/geometric route-out.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave

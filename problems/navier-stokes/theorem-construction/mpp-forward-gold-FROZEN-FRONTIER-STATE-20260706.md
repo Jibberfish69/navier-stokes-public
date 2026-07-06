@@ -358,8 +358,19 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   equivalently \(f_B^2H_B>T_B\) plus its explicit length threshold, not
   the stale independent \(R_{\rm seed}>0\) row and not a second seed
   endpoint charge. The product half is the RUN-H scalar supremum against
-  \(R_{\rm rent}(D)\), plus the one-block \(B_{\rm tail}^{bad}(D)\)
-  length charge and no-reuse guard. No interval arithmetic is executed.
+	  \(R_{\rm rent}(D)\), plus the one-block \(B_{\rm tail}^{bad}(D)\)
+	  length charge and no-reuse guard. No interval arithmetic is executed.
+
+  CODEX LENGTH SYNC (2026-07-06,
+  codex-route3-length-synchronization-reduction): the Route-3 length side
+  is now one row,
+  \[
+    |I|>\max\{L_{\rm seed}^B,L_{\rm prod}(\delta,D),L_{\rm dw}(\delta)\}.
+  \]
+  In construction-parameter mode this is only a threshold after the
+  denominators are positive and finite; in fixed-block mode it becomes the
+  real availability comparison \(L_{\rm avail}>L_{\rm Route3}\). No
+  availability theorem is silently assumed.
 
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
