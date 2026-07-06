@@ -1200,6 +1200,14 @@ certified positive constant.
    imported circulation, own amplification, and viscosity route to existing
    rows. The reuse branch still exports a thin-core log-vs-ladder-currency
    question to Gate-8/high-Re composition.
+   Follow-up reuse thin-core log alias filed: with
+   \(\Lambda=\log(d/a)\), the Kelvin reuse floor backs only
+   \(\theta_{\rm reuse}\sim1/\Lambda\) of the local record currency. Bounded
+   core-log gives a fixed localized-reuse toll; unbounded core-log is the same
+   high-Re weighted-payer row as K5/Gate-A, not an independent reuse branch.
+   It is decided only by record-length cap, endpoint return, curve/core/crowd
+   contamination, financed handoff, route-out/exclusion, or a genuinely
+   unweighted high-Re mechanism.
    Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
