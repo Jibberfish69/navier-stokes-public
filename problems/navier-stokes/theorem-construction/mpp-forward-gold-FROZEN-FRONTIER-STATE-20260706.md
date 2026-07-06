@@ -535,19 +535,21 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   import fires only after \(D_j\) is matched to the nested parabolic
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff); THE RETURN BUDGET ROW, now reduced past pure
-  ParkingCount to the threshold-floor gate: o1/o2 paid, o4 bookkeeping
-  accepted after routing; live rows are AdiabaticSignRouting or signed
-  subwindow fallback, plus
-  \(C_{\rm TV}T_*\operatorname{drift}_{\rm per}<\delta\), plus
-  \((\delta/(q_{\rm per}^--\delta)+2)(T_*/\delta)
-  \rho^-_{\max}(1+2T_*/T_{\rm slow}) \le f_{\rm dw}<1/2\)
-  (pure bookkeeping routes closed by the F2 no-go;
-  a net extraction law would instead revive the prefix route); pricing completeness
+  single-mode handoff); THE RETURN BUDGET ROW, now (pending the H
+  gate) ONE band-symbol comparison + one length floor:
+  \(16|d_{\rm pkg}|B_1B_2T_*X_{\max}^2 \le
+  f_{\rm dw}A_0\sqrt{G_{\rm thr}}\) (the self-financing dwell
+  fraction row; delta dial free) + \(T_{\rm block}\) floor for
+  \(B_\phi\); AdiabaticSignRouting/T_slow/R4-TV/c3 all
+  unnecessary-or-superseded for this row if the H gate passes
+  (pure bookkeeping routes closed by the F2 no-go; a net extraction
+  law would instead revive the prefix route); pricing completeness
   \(D_j\le C_{\rm pc}E_j\); the parametric RUN row
   \(A_0>C_\delta d_{\rm R4}^+\) with
-  \(0<\delta<q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
-  dwell-run consumer amendment v2; G3 clock-conversion display; g2
+  \(0<\delta<\min(q_{\rm per}^-, \log 2)\),
+  \(q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
+  dwell-run consumer amendment v3 (c_W^top on the run fraction
+  \(\ge 1-f_{\rm dw}\)); G3 clock-conversion display; g2
   root-labeling re-gate; BoundaryTail split; the Chapter-10 rows.
 
 ## 5. Failure taxonomy (carried verbatim)
