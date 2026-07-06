@@ -1119,6 +1119,18 @@ certified positive constant.
    undecided dense-crowd evasion surface is now the actual same-fluid bath:
    persistent high-Re WKB / broadband construction, or construction/exclusion
    of the near-uniform same-fluid WKB bath.
+   Follow-up persistent-WKB branch merge filed: persistent high-Re WKB /
+   broadband construction is not an independent retained-supplier branch beside
+   construction/exclusion. It is the construction surface for the near-uniform
+   same-fluid bath. If it yields an admitted finite/atomic carrier or certified
+   profile with nonvanishing terminal moment, the Sobolev/Field readout
+   consumes it; if the moment vanishes or is intermittent, it routes to
+   high-factor source / no-free-upcascade; if legality or tightness fails, the
+   first failed row routes to Pack/Part or the branch remains actual
+   construction/exclusion. Thus the dense-crowd evasion surface is one actual
+   bath problem: construct or exclude a near-uniform same-fluid WKB bath that
+   also evades finite/atomic carrier admission, microlocal-profile admission,
+   high-factor routing, and Pack/Part certificate failure.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
