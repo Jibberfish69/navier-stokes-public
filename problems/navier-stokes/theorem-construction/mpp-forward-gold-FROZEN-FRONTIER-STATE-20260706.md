@@ -171,7 +171,13 @@ F1 -> (F2 || F3) -> F4 -> F5.
   clearance: it gives the right finite-dimensional route, but z3 still
   needs a finite mode-triple disintegration of the cubic throughput
   variation \(\lambda_a\), or a stated restriction to the one-tail-leg
-  F1 case. F1 actual-NS population remains
+  F1 case. Fable's triple-disintegration/F1-scope answer is
+  Codex-regated as a strict reduction: the F1 one-free-leg scope is
+  accepted for the live local-tail consumer, and the \(N_{\rm dof}^3\)
+  triple expansion is the right finite skeleton for general Gate 7, but
+  the measure-level triple submeasures, legwise lineage/routing map,
+  mixed-band trilinear constants, plunge/tail routing, and threshold
+  safety ratio remain open/certification rows. F1 actual-NS population remains
   reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
