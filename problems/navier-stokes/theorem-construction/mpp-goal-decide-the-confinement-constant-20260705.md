@@ -61,8 +61,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(O(\operatorname{Re}_\Gamma A_0)\), so the Reynolds factor is a Gate-A
     weighted readout, not a finite payer. Same-day trigger/alias follow-ups
     block the automatic return-race, custody, and installed Gate-A/Theorem-2
-    shortcuts for the pure edge. Open: sideband/crowd payment, route-out or
-    exclusion of the isolated pure edge, or a genuinely new unweighted high-Re
+    shortcuts for the pure edge. Same-day sideband-trigger obstruction:
+    the exact isolated pure edge has zero sideband/crowd coordinate. Open:
+    forced sideband/leakage/crowd contamination, route-out or exclusion of
+    the isolated pure edge, or a genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
     composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
@@ -512,8 +514,13 @@ the confinement constant.
    cells, while Theorem 2's high-Re payer is the return-race branch. So
    the installed allocation package is not an independent pure-edge payer;
    it either pays marginal viscosity or asks for the already-missing
-   financed handoff trigger. Live pure-edge branch: sideband/crowd,
-   route-out/exclusion, or a genuinely new unweighted high-Re mechanism.
+   financed handoff trigger. Same-day sideband-trigger obstruction:
+   the exact isolated pure edge has \(B_{\rm sb}=0\). Sideband/crowd
+   can pay only after a theorem supplies nonzero sideband mass,
+   envelope/curve/core leakage, crowd contamination, or route-out/exclusion
+   of the isolated edge. Live pure-edge branch: forced
+   sideband/leakage/crowd contamination, route-out/exclusion, or a genuinely
+   new unweighted high-Re mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
@@ -531,10 +538,10 @@ the confinement constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no sideband/crowd payment, no route-out/exclusion of
-   the isolated pure edge, no new unweighted high-Re mechanism, and no
-   curve-leakage payment => the pure neutral/curvature channel is not
-   uniformly capped.
+   Kill condition: no forced sideband/leakage/crowd trigger, no
+   route-out/exclusion of the isolated pure edge, no new unweighted
+   high-Re mechanism, and no curve-leakage payment => the pure
+   neutral/curvature channel is not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Normalized sidecar now passes:
    \(3\sqrt3/(16e)<\log2\), so the imported beta-only Crow lifetime
