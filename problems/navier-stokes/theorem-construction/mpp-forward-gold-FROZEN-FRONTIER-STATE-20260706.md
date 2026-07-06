@@ -203,9 +203,15 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    proof-bearing only through a Gate-6 row-formation / participation
    bridge landing financed package motion with zero root service as
    \(\neg Part_{N,Q}\).
+   BRIDGE ATTEMPT (Codex, 2026-07-06): current row formation plus
+   \(U^-=0\) does not prove that Part bridge. The installed Part
+   landing is historical overdraft \(dK>0\); root-weight blindness is a
+   failed contraction meter unless a new root-service participation law
+   is proved. That law is the missing G6a/root-factor floor in Part
+   language.
    The exact row remains available for direct interval certification.
    REMAINING, exactly: [lower-root/root-factor enclosure OR new
-   poor-horn comparison OR Gate-6 row-formation/Part bridge] +
+   poor-horn comparison] +
    [endpoint frozen margin beating matched R4 drift] +
    [finite product-row evaluation] +
    [BoundaryTail/F4 carry rows]. It does not prove
@@ -219,7 +225,8 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-delta-g6a-factorized-source-row,
    codex-delta-g6a-root-factor-bottom-root-obstruction,
    codex-bottom-root-horn-financed-obstruction,
-   codex-bottom-root-horn-cm-route-audit.
+   codex-bottom-root-horn-cm-route-audit,
+   codex-gate6-row-formation-part-bridge-attempt.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
