@@ -77,8 +77,10 @@ strictly maximizes \(\ell(a+b)\) over all active cross-shell sums at
   \tag{EFO.5}
 \]
 
-Equivalently, \(m\) is an exposed vertex of the cross-shell sum support and has
-the unique active cross-shell representation \(m=p+q\).
+This is stronger than asking only that \(m\) be an exposed vertex of the
+cross-shell sum support: it also includes uniqueness of the active
+cross-shell representation \(m=p+q\). The uniqueness is the algebraic point
+used below.
 
 ## 3. Exposed output cannot cancel
 
