@@ -123,20 +123,21 @@ that active mass. F1 actual-NS population follows by composition.
    spill \(\to 0\) is trivial; the content is uniformity over the
    family, which band compactness plus BV tightness should supply.
    Codex to verify at that home.
-2. **(w2) The \(C_{\rm tri}\) display** — Codex already named its
-   proof standard; the display is owed. Note \(\eta_0\) absorbs any
-   finite \(C_{\rm tri}\); only w1 carries real risk.
+2. **(w2) The \(C_{\rm tri}\) display** — paid by Codex in
+   `mpp-forward-gold-codex-f1-two-dial-closure-regate-20260706.md`
+   using the standard Cauchy-Schwarz/Young finite-band convolution
+   estimate. Note \(\eta_0\) absorbs any finite \(C_{\rm tri}\);
+   only w1 carries real risk.
 
-If w1–w2 clear: the fork's good branch holds with margin 1/2 on
-every financed window, and with R2a, R2b-scaling, and the Bernstein
-lemma, THE F1 ACTUAL-NS POPULATION CLAUSE IS PAID — F1 reduces to
-gate verification alone. If w1 fails, the defect is typed: the
-frame's packets are not uniformly localized — a frame-definition
-defect, not a phase mystery.
+If w1 clears, and the financed-source-floor scope guard is kept, the
+fork's good branch holds with margin 1/2 on every financed window.
+Until then, F1 actual-NS population is reduced, not paid. If w1 fails,
+the defect is typed: the frame's packets are not uniformly localized
+after centering and scaling.
 
 ## Gaps (honest)
 
-(w1), (w2) above; (w3) the \(\theta_{\rm row}\)-sized
+(w1) above; (w3) the \(\theta_{\rm row}\)-sized
 \(G_{\rm floor}\) propagates to consumers — quarantined to
 Chapter 10; (w4) the per-window floor uses the source-floor
 substitution before downstream charges — same scope as the fork.
