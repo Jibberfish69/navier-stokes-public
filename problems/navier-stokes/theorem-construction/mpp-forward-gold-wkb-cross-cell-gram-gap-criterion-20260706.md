@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -37,7 +38,13 @@ completion_truth: >-
   PSD-ballast follow-up also blocks the ballast-only shortcut: isotropic PSD
   Reynolds trace ballast can carry normalized positive unresolved kinetic
   energy while its trace-free pressure/Hessian charge is zero, and a diagonal
-  trace-square reserve still fragments like 1/M. This
+  trace-square reserve still fragments like 1/M. The anti-equidistribution
+  follow-up proves the hidden necessary condition: for a mean-zero cross-cell
+  form with bounded local corrections, any admissible cone containing
+  near-uniform legal positive clouds has zero Gram infimum. A surviving gap
+  must supply either a genuine positive uniform-mode charge or a quantitative
+  theorem that legal same-packet WKB clouds cannot approach the uniform zero
+  mode. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -241,6 +248,25 @@ the actual Gram gap. The missing input is now:
 \]
 with PSD trace ballast kept as a routed energy/certificate branch rather than
 as a Gram-gap supplier.
+
+The anti-equidistribution follow-up sharpens the admissible-cone option. For a
+mean-zero cross-cell form with \(G_ju_j=0\), \(u_j=(1/M_j,\ldots,1/M_j)\), and
+\(\|G_j\|_{\ell^2\to\ell^2}\le C\),
+\[
+  a^TG_ja
+  =
+  (a-u_j)^TG_j(a-u_j)
+  \le C\|a-u_j\|_2^2.
+  \tag{CG.15}
+\]
+Bounded diagonal corrections add only
+\[
+  O\!\left(M_j^{-1}+\|a-u_j\|_2^2\right).
+  \tag{CG.16}
+\]
+Thus if the legal cone contains near-uniform clouds, the Gram gap is false.
+Any surviving proof must install either a positive uniform-mode charge or an
+anti-equidistribution theorem for the legal WKB cone.
 
 ## 6. Four-sentence result
 
