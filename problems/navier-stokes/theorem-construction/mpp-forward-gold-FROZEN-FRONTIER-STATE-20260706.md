@@ -599,6 +599,25 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   needs only the typed selector case and the corresponding root/value
   enclosure. No interval value or product pass is claimed.
 
+  CODEX ROUTE-3 INTERIOR SELECTOR GRAPH/VALUE REDUCTION (2026-07-06,
+  codex-route3-interior-selector-graph-value-reduction): the interior
+  derivative-root case has been rewritten as an explicit drift graph. With
+  \[
+    A_b(q)=4q-2b-e^{q/2}\left(2q-b+{q(q-b)\over2}\right),
+    \qquad
+    B_b(q)=4+e^{q/2}(q-b+2),
+  \]
+  the interior root condition is \(\lambda=L_b(q):=A_b(q)/B_b(q)\). At such a
+  root the rent value is
+  \[
+    V_b(q)=
+    {(q-b)^2(e^q+2q e^{q/2}-4)
+    \over 4(4+e^{q/2}(q-b+2))}.
+  \]
+  Thus the interior product check is one graph-intersection enclosure and
+  \(R_0/(g_0X_{\max}^2)<V_b(q_*)\). No graph monotonicity, interval value, or
+  product pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
