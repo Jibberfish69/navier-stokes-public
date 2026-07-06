@@ -220,9 +220,9 @@ count-free charge.
 Therefore the only way the cross-cell route can pay is for the actual
 Navier-Stokes legality surface to forbid such equidistributed service. That
 would have to come from same-packet identity, material ancestry, pressure-law
-legality, tower legality, finite-cover compatibility, or dynamic construction
-facts. It is not a consequence of positivity, cell count, or the pressure
-kernel alone.
+legality, tower legality, finite-cover compatibility plus an added nonlocal
+restriction, or dynamic construction facts. It is not a consequence of
+positivity, cell count, chart count, or the pressure kernel alone.
 
 ## 6. Consequence for the crowd branch
 
