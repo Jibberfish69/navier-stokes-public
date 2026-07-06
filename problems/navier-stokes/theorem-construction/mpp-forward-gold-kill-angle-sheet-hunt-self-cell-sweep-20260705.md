@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-kill-angle-sheet-hunt-self-cell-sweep-20260705
-status: skew-sector-production-death-exact-sheet-hunt-negative-self-cell-reduced-kill-integral-named
+status: skew-sector-production-death-exact-sheet-hunt-negative-self-cell-k3-finite-ode-obstructed
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / transversality / confinement constant / cells sweep
