@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-lambda-edge-duffing-viscous-regate-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-endpoint-room-reynolds-length-obstruction-20260706.md
 completion_truth: >-
   Checked obstruction to one route-out shortcut. The exact isolated K5 edge is
   not finite energy, but finite energy/localization alone does not force an
@@ -23,11 +24,15 @@ completion_truth: >-
   bandwidth is O(1/L), its first cutoff defect per unit carrier production is
   O(1/(kL)), and its quadratic derivative defect is O(1/(kL)^2). Thus the
   forced-contamination trigger tends to zero as L tends to infinity. This kills
-  route-out by static finite-energy localization alone. It does not construct a
-  retained Navier-Stokes edge packet and does not decide the confinement
-  constant; it leaves dynamic curve/core instability, material transport of the
-  envelope, endpoint interaction, crowd contamination, or a new unweighted
-  high-Re mechanism as the remaining K5 route-out burden.
+  route-out by static finite-energy localization alone. Same-day endpoint-room
+  follow-up shows the high-Re residence does not automatically repair this:
+  integrated endpoint/envelope defect remains O(1/(kL)) relative to production,
+  and endpoint contact is avoided through the residence if kL exceeds Re. It
+  does not construct a retained Navier-Stokes edge packet and does not decide
+  the confinement constant; it leaves a record-length cap, endpoint
+  recirculation/nonlocal end influence, curve/core instability, crowd
+  contamination, or a new unweighted high-Re mechanism as the remaining K5
+  route-out burden.
 ---
 
 # K5 finite-energy route-out: long packets defeat static localization
@@ -210,10 +215,10 @@ So the route-out theorem cannot be:
 
 It must use something stronger:
 
-1. dynamic evolution of the envelope under the same material flow;
-2. curve/core instability during the edge residence;
-3. endpoint interaction that cannot be sent to infinity inside a retained
-   record event;
+1. a record-length cap \(kL\lesssim\operatorname{Re}\), or stronger;
+2. endpoint recirculation or nonlocal end influence beating the \(1/(kL)\)
+   scaling;
+3. curve/core instability during the edge residence;
 4. crowd contamination forced by the record geometry;
 5. a new unweighted high-Re mechanism.
 
@@ -223,6 +228,6 @@ Finite energy alone does not exclude the isolated high-Re K5 edge. A long
 localized carrier can keep fixed packet energy and fixed carrier-production
 proxy while its bandwidth and cutoff defects scale like \(1/L\) or \(1/L^2\).
 Thus localization creates sidebands, but not a fixed sideband tax. Any route-out
-of the isolated edge has to be dynamic or geometric: envelope transport,
-curve/core instability, endpoint interaction, forced crowd contamination, or a
-new unweighted high-Re mechanism.
+of the isolated edge has to be dynamic or geometric: a record-length cap,
+endpoint recirculation/nonlocal end influence, curve/core instability, forced
+crowd contamination, or a new unweighted high-Re mechanism.
