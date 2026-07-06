@@ -780,6 +780,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    trace-free covariance anisotropy. Positive limsup trace ballast instead
    passes to a nonvanishing terminal subtail and the installed Field consumer
    after same-solution witness admission.
+   The signed-stress certificate follow-up then prices the non-PSD alternative:
+   if a signed tensor \(S\) is carried as \(S=P-N\) with \(P,N\ge0\), then
+   \[
+     \operatorname{tr}P+\operatorname{tr}N\ge\|S\|_* .
+   \]
+   Thus a nonzero signed certificate cannot be carried by zero positive trace
+   variation; vanishing trace norm kills the signed tensor, while nonvanishing
+   trace variation routes to the same admission/certificate rows.
    If that positive trace energy is admitted at terminal WKB frequency with
    \(\phi_jD_j^3\mu_{R,j}\ge c_0>0\) and \(\lambda_j\to\infty\), then
    \[
