@@ -159,9 +159,15 @@ F1 -> (F2 || F3) -> F4 -> F5.
   paid for a chosen positive channel-cell measure. Codex follow-up pays
   the control-measure choice and weak-limit domination direction at fixed
   finite readout: \(\lambda_a=\mathrm{w^*}\!-\lim|\nu_a^\varepsilon|\)
-  and \(|\nu_a|\le\lambda_a\). Exhaustion of the total active
-  monomial/defect ledger still needs finite-readout reconstruction,
-  eta/locality tail charging, and coherence handling. Codex accepts z4
+  and \(|\nu_a|\le\lambda_a\). Codex follow-up pays energy-side
+  finite-readout reconstruction of the Duchon-Robert / active-monomial
+  object by the Target-1 linear-slot identity plus the
+  energy-reconstruction tail proof; helicity high readout is not a
+  Gold tail and is routed by the finite-readout/Silver split. The
+  remaining z5 load is the pass-side
+  boundary/locality/mollifier/weighted-diffuse tail theorem: prove the
+  time-marginal \(L^\infty_t\) or first-moment tightness condition, or
+  route failure to Gate-A tax/Silver. Codex accepts z4
   in coloring form: exact balls plus \(N_{\rm col}\) supply-side
   multiplicity remove the bounded-merger/readout-stability burden.
   Codex does not clear z3: W1 Section 7 prices spatial spread but not
@@ -177,8 +183,10 @@ F1 -> (F2 || F3) -> F4 -> F5.
   triple expansion is the right finite skeleton for general Gate 7, but
   the measure-level triple submeasures, legwise lineage/routing map,
   mixed-band trilinear constants, plunge/tail routing, and threshold
-  safety ratio remain open/certification rows. F1 actual-NS population remains
-  reduced, not cleared.
+  safety ratio remain open/certification rows. F1 actual-NS population
+  remains reduced, not cleared: after Gate-7 z1/z2-domination/z2-energy/
+  z3-for-F1/z4, the live proof-theorem residue is z5 pass-side tail
+  charging plus carried finite rows and Chapter 10.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
