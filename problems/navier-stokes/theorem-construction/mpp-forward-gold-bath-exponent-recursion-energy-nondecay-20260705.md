@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-matrix-node-sitting-correction-tracking-floor-merge-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
 completion_truth: >-
   Exact calculation inside the already-filed scaling recursion; not a
   full bath theorem. Under the cheap-bath law recorded in BD2/BD3 and
@@ -149,3 +150,14 @@ uses this same recursion to kill the separate one-holder amplitude-floor target.
 The ratio \(\beta^{8/5}\) is cheap enough to make the local floor vanish; this
 note's nondecay computation is exactly why that one-tier cheapness still does
 not by itself produce an infinite finite-energy holding chain.
+
+Second follow-up:
+`mpp-forward-gold-bath-recursion-summability-criterion-20260706.md`
+gives the general criterion behind this computation. For
+\(\beta_n=e^{-x_n}\) and \(e_n=\beta_n^q\), the total bath energy is finite
+exactly when
+\[
+  \sum_N\exp\!\left(-q\sum_{j<N}x_j\right)<\infty.
+\]
+All shallowing power laws \(x_{n+1}=p x_n\), \(0<p<1\), including \(p=4/5\),
+fail this criterion.
