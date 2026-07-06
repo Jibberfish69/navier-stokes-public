@@ -271,5 +271,6 @@ Proving `(G4D.13)' supplies `RecordMenuRootProjectionFaithfulness.A', then
 source-address component of `NormalizedRelayBillCompactnessRecordPassage.A'.
 
 Until `(G4D.13)' is proved, `NormalizedRelayBillCompactnessRecordPassage.A' is
-not installed. Gate 1 remains the first failed gate in the full c_0 extraction,
-and Gate 4 remains an independent native same-parent no-delamination failure.
+not installed. Gate 1 is now supplied by the retained pressure-source envelope
+chain, Gate 2 is the first failed gate, and Gate 4 remains an independent native
+same-parent no-delamination failure.
