@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -34,7 +35,11 @@ completion_truth: >-
   cell keeps total selected moment one while every diagonal or mean-zero/local
   Gram charge vanishes like 1/M. Therefore the hidden theorem must be genuinely
   global same-packet legality, positive uniform-mode geometry, or
-  construction/exclusion.
+  construction/exclusion. Follow-up common-identity obstruction shows that
+  common packet identity alone is still not that hidden theorem: uniform filling
+  across many identity values, or inside one large identity fiber, keeps the
+  same fragmentation unless identity supplies bounded count, positive
+  uniform-mode charge, legal anti-equidistribution, or construction/exclusion.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -191,6 +196,14 @@ vanishing diagonal and mean-zero/local cross charge. Thus the required
 anti-equidistribution cannot follow from local cell legality or local moment
 matching alone.
 
+The common-identity follow-up blocks a second weak reading. The fact that all
+certificate rows name one packet identity is a compatibility condition, not an
+\(\ell^2\) separation. If the legal cloud has many identity values, uniform
+filling across them is near-uniform; if it has one large identity fiber,
+uniform filling inside that fiber is still near-uniform. Identity helps only
+after an added quantitative law bounds the effective count, gives the identity
+fiber a positive uniform-mode charge, or forbids near-uniform legal weights.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -232,7 +245,9 @@ true `CrossCellWKBGramGap.A` must either introduce a genuine positive
 uniform-mode charge or prove that legal same-packet WKB clouds are
 quantitatively anti-equidistributed. Local translation-invariant WKB legality
 does not prove that separation, because periodic replication gives a
-near-uniform local countermodel; the remaining theorem must use global
-same-packet/certificate structure or construction/exclusion.
+near-uniform local countermodel; common packet identity also does not prove it
+without bounded count, positive identity-fiber charge, or a legal separation
+law. The remaining theorem must use a genuine global certificate mechanism or
+construction/exclusion.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
