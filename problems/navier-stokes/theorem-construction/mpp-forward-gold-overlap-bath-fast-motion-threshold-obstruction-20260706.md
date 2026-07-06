@@ -28,9 +28,10 @@ completion_truth: >-
   not enough. An order-one floor requires omega/s >= c beta^(-4/5), equivalently
   a supercritical fast-motion demand. The installed local-affine and pressure
   notes do not force that rate; they only allow it. The remaining pressure-row
-  branch is now sharper: prove the exact matrix forces supercritical motion,
-  prove such motion is impossible/admissibility-failing in the real field, or
-  exhibit a summability-valid construction below the threshold. Follow-up
+  branch is now sharper: prove the global pressure/Hodge/locality matrix forces
+  supercritical motion, prove such motion is impossible/admissibility-failing in
+  the real field, or exhibit a summability-valid construction below the
+  threshold. Follow-up
   subcell Reynolds threshold obstruction types admissibility failure as
   Re_R=sR^2/nu not exceeding beta^(-4/5); that failure still needs a
   Gate-8 no-recount allocation/compensator, producer-suppression bridge, or
