@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-signed-cycle-kernel-no-go-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-terminal-part-not-three-measure-ownership-no-go-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
@@ -248,6 +249,13 @@ dA_{Q,N}(j)+dD_S(j)+dD_C(j)+dD_G(j)+dR_{4B,N}(j)>0 .
 
 After-the-fact retained compactness is a consumer only after the
 positive/negative/current packet has already been produced.
+
+The retained-window hypothesis does not remove this gap. Terminal `Part` means
+that the pressure-viscosity carrier law is retained with the terminal
+tower/readout control needed by the witness. Gate 2 needs a stricter
+pre-readout object: the positive carrier, negative partner, and signed current
+for the same selected positive record channel. The terminal-Part no-go note
+checks that these are not the same condition.
 
 The record/reset root-payment input gives the right possible producer for this
 missing pawl, but it is not yet the proof. The checked relation is:
