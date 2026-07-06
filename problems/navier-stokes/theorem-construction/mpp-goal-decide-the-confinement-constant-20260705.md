@@ -678,7 +678,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    on an infinite terminal subtail. The general case remains moving/continuum
    phase-label work: tight diffuse labels become microlocal/profile admission,
    and nontight labels become selected-carrier tightness escape / Body-III
-   defect.
+   defect. The angular-continuum quadrature reduction then removes diffuse
+   direction labels as an independent active-service escape: a positive
+   Beltrami angular profile has exact three-axis pressure-moment quadrature
+   \(K=\sum_{a=1}^3m_aQ_{e_a}\). The remaining continuum issue is material,
+   center, scale, bank, envelope, weight, and time admission, or
+   microlocal/profile admission.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
