@@ -36,8 +36,7 @@ completion_truth: >-
   retained Part. These are one object in many coordinates; the repo has
   also generated model-shadows of that object through Waleffe/Vieta/helicity
   language, but those shadows are not NS coordinates until re-derived on the
-  one-field participation tower. The repo has
-  generated it under dozens of names. The leading-edge fact that simplifies the
+  one-field participation tower. The leading-edge fact that simplifies the
   rest: this floor is provably NON-LOCAL — the exact incompressible affine
   packet u=B(t)x (tr B=0) realizes order-one strain-service action with
   vanishing critical heat-mass, so no local jet / pointwise angle / clipping /
