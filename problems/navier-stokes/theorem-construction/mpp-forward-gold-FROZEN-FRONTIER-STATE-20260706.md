@@ -715,6 +715,24 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   display; g2 root-labeling re-gate; BoundaryTail split; the
   remaining Chapter-10 interval rows.
 
+**THE COMPILED PRODUCT TEST (Codex, 2026-07-06,
+codex-run-h-envelope-feasibility-window — the product side's final
+worksheet form).** With q = q_per^-, a = T_* rho_max^-,
+L = min(q, log 2), theta = e^delta/2, d = d_R4^+:
+- H-positivity (f_dw < 1/2) iff delta(q - delta) > 4aq (empty if
+  q <= 16a);
+- RUN-source positivity iff e^delta < 2(A_0 - 2d)/(A_0 + 2d),
+  possible iff A_0 > 6d (the six-drift comparison is the sharp
+  necessary boundary);
+- NONEMPTY-WINDOW TEST (RH.16): A_0 > 6d AND P_cap > 4aq;
+- if nonempty: product positivity = ONE scalar supremum (RH.20)
+  of S_H(delta) over the window against
+  K_off(1 - tau_min + Omega_R4) + D_P2^ti + D_tail^ti, with exact
+  interior stationarity (RH.21). No free parameters remain for F4.
+- Typed failure modes: A_0 <= 6d (swing loses to six drifts);
+  q <= 16a (drain quantum loses to sixteen refill-rate units); the
+  supremum loses to rent + tail. Each is an honest physical ending.
+
 ## 5. Failure taxonomy (carried verbatim)
 
 A row failure is a finite-row failure — NOT a failure of R2, F1
