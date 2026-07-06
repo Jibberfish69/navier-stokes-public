@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-atomic-diffuse-admission-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
 completion_truth: >-
   Exact criterion and countermodels for the finite/readout-compatible cover
@@ -188,6 +190,22 @@ The routing is:
 So cover loss is not retained pressure-service supply. It is a Pack face
 failure of the terminal WKB witness.
 
+The same clause applies to Reynolds ballast energy. The ballast-energy note
+identifies
+\[
+  \mu_R={1\over2}\operatorname{tr}R
+\]
+as a positive scalar profile measure. If \(\mu_R\) is retained, it must lift to
+the same finite/readout-compatible cover certificate:
+\[
+  \pi_\#\widetilde\mu_R=\mu_R,
+  \qquad
+  \operatorname{supp}\widetilde\mu_R\subset\mathcal C .
+\]
+If positive \(\mu_R\) survives only after the cover coordinate collapses,
+escapes, or becomes incompatible, the branch is Pack-side cover failure, not an
+uncovered pressure-null residue.
+
 ## 6. Reduced burden
 
 The cover coordinate in `WKBCertificateCompactness.A` is now:
@@ -199,8 +217,9 @@ WKBFiniteCoverCertificateCompactness.A
 Statement shape:
 
 For the actual same-solution WKB terminal branch, the selected WKB profile
-measures either lift to uniformly bounded finite readout-compatible covers with
-compact chart parameters and closed overlap/readout constraints, or the cover
+measures, including any positive Reynolds ballast-energy measure \(\mu_R\),
+either lift to uniformly bounded finite readout-compatible covers with compact
+chart parameters and closed overlap/readout constraints, or the cover
 certificate fails. Failure is Pack-side carrier/cover loss.
 
 This is smaller than profile admission. It is the Pack-coordinate test inside
@@ -218,8 +237,8 @@ carrier-cover failure, not admitted retained WKB supply.
 
 ## 8. State
 
-This note proves the finite-cover certificate compactness criterion and the
-radius-collapse / unbounded-count countermodels. It proves no uniform
-finite-cover theorem for actual Navier-Stokes WKB packets, no profile admission
-theorem, no WKB construction/exclusion theorem, no confinement constant, and no
-MPP closure.
+This note proves the finite-cover certificate compactness criterion, the
+radius-collapse / unbounded-count countermodels, and the cover landing for
+positive Reynolds ballast energy. It proves no uniform finite-cover theorem for
+actual Navier-Stokes WKB packets, no profile admission theorem, no WKB
+construction/exclusion theorem, no confinement constant, and no MPP closure.
