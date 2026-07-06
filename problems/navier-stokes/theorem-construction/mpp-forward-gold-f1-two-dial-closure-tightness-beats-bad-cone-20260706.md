@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-two-dial-closure-tightness-beats-bad-cone-20260706
-status: filed-pending-codex-gate
+status: codex-regated-two-dial-algebra-accepted-w2-paid-w1-unproved
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / F1 / closing the bad-cone capacity fork — two dials, and tightness beats the bad cone
@@ -18,6 +18,7 @@ authorship: >-
   the hiding place's capacity can be dialed below any fixed
   positive number. The knife-edge cannot carry the economy.
 depends_on:
+  - mpp-forward-gold-codex-f1-two-dial-closure-regate-20260706.md
   - mpp-forward-gold-codex-f1-t3-bad-cone-capacity-fork-20260706.md
   - mpp-forward-gold-f1-essential-support-variant-paley-wiener-consistency-20260706.md
   - mpp-forward-gold-f1-predator-cone-population-bernstein-packet-lemma-20260706.md
@@ -76,6 +77,26 @@ completion_truth: >-
 ---
 
 # Two dials close the bad-cone fork: tightness beats the knife-edge
+
+## Codex regate, 2026-07-06
+
+Codex audit filed at
+`mpp-forward-gold-codex-f1-two-dial-closure-regate-20260706.md`.
+The two-dial bad-cone algebra is accepted as a strict reduction, and
+the finite-band \(C_{\rm tri}\) display is paid by the standard
+Cauchy-Schwarz/Young finite-band convolution estimate.
+
+The route is not cleared. The cited homes do not prove the needed
+uniform centered packet tightness \(s(\kappa)\to0\) on the carried
+financed packet family. The essential-support note supplies a fixed
+spill threshold at one radius; the channel-cell BV note supplies finite
+variation of defect measures on finite-readout compacts. Neither proves
+arbitrary uniform packet spill decay after packet-centering and scaling.
+
+Thus the primary F1 route is reduced to
+UniformCenteredPacketTightness plus the financed-source-floor scope
+guard. The secondary predator-slot phase-sweep theorem remains open.
+F1 actual-NS population is reduced, not cleared.
 
 ## Q1. The two dials
 
