@@ -431,11 +431,11 @@ packet. The reserve \({\mathcal A}^{rec}_P\) is the same bounded-below
 same-history account that appears elsewhere as primitive PLS Lyapunov,
 full-exchange storage, strict half-barrier, or owner-and-charge menu reserve.
 
-The affine-packet pressure test explains why this cannot be proved by a local
-jet or pointwise angle. A pressure-compatible affine strain can carry material
-stretch with no fine-scale heat cost, so Fisher pays only the gradient leakage
-seen in `(RLM.24)'. The remaining material-stretch term must be paid by a
-non-local same-history reserve:
+The affine-packet participation test explains why this cannot be proved by a
+local jet or pointwise angle. An incompressibility-compatible affine strain can
+carry material stretch with no fine-scale heat cost, so Fisher pays only the
+gradient leakage seen in `(RLM.24)'. The remaining material-stretch term must be
+paid by a non-local same-history reserve:
 
 \[
 dQ_P^{stretch,+}
@@ -447,8 +447,9 @@ dQ_P^{stretch,+}
 
 Thus the monovariant branch has exactly two honest proof entrances:
 
-1. construct \({\mathcal A}^{rec}_P\) from the original coupled VPI history
-   before record readout, proving the strict half-barrier directly;
+1. construct \({\mathcal A}^{rec}_P\) from the original coupled VPI
+   participation tower before record readout, proving the strict half-barrier
+   directly;
 2. assume `(RLM.32)' fails and extract a material-time borderline history with
    \(N_L\sim 2^{-L}/L\), then prove a Liouville/rigidity contradiction for that
    zero-reserve separatrix.
