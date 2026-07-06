@@ -46,8 +46,9 @@ completion_truth: >-
   D/R<=beta^(2/5), leaving the viscous subcell-room condition. Follow-up
   subcell Reynolds threshold obstruction types that room as
   Re_R=sR^2/nu>>beta^(-4/5), and says threshold failure is not automatically a
-  constant. What remains is the Reynolds-edge bridge, record-ladder allocation,
-  supercritical fast-motion forcing, or construction/exclusion.
+  constant. What remains is the Reynolds-edge bridge, Gate-8 no-recount
+  allocation/compensator, supercritical fast-motion forcing, or
+  construction/exclusion.
   Follow-up same-packet raw allocation obstruction says raw same-field charging
   of the pressure-service energy remains beta^(4/5) of local producer currency;
   record-ladder allocation must be Gate-8 no-recount allocation or a
@@ -318,7 +319,7 @@ The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell check, the exact-matrix branch is now narrowed to
-the Reynolds-edge bridge, Gate-8 allocation, supercritical fast motion, or
-construction, not the mean-zero pressure-source constraint, instantaneous
+the Reynolds-edge bridge, Gate-8 no-recount allocation/compensator,
+supercritical fast motion, or construction, not the mean-zero pressure-source constraint, instantaneous
 multi-direction pressure algebra, constant-affine producer coupling,
 producer-clock direction tracking, or generic producer curvature.

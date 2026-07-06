@@ -185,8 +185,8 @@ needed from
   \operatorname{Re}_R\lesssim\beta^{-4/5}
   \tag{SRT.21}
 \]
-to record-ladder allocation, viscous suppression of the producing packet, or
-impossibility of a global pressure construction.
+to Gate-8 no-recount allocation/compensator, viscous suppression of the
+producing packet, or impossibility of a global pressure construction.
 
 ## 6. What remains
 
@@ -194,8 +194,8 @@ The pressure row now has three typed exits:
 
 - high-Re subcell room:
   \(\operatorname{Re}_R\gg\beta^{-4/5}\), where the local pressure bath remains
-  cheap and the exact matrix must be decided by allocation, supercritical
-  motion, or construction;
+  cheap and the exact matrix must be decided by Gate-8 no-recount
+  allocation/compensator, supercritical motion, or construction;
 - Reynolds-edge bridge:
   \(\operatorname{Re}_R\lesssim\beta^{-4/5}\), where the local subcell fails but
   a proof must still convert that failure into record-ladder payment or

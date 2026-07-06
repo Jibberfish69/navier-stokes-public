@@ -40,8 +40,8 @@ completion_truth: >-
   Follow-up subcell Reynolds threshold obstruction types the edge exactly:
   with Re_R=sR^2/nu, cheap subcell room exists iff Re_R>>beta^(-4/5); failure
   of that inequality is not itself an order-one energy floor without a
-  record-ladder allocation, producer-suppression bridge, or construction
-  exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
+  Gate-8 no-recount allocation/compensator, producer-suppression bridge, or
+  construction exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
   charging remains beta^(4/5) of local producer currency, so the allocation
   branch is Gate-8 no-recount allocation or compensator.
 ---

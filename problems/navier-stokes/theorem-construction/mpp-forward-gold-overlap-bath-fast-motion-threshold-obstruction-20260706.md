@@ -32,8 +32,8 @@ completion_truth: >-
   exhibit a summability-valid construction below the threshold. Follow-up
   subcell Reynolds threshold obstruction types admissibility failure as
   Re_R=sR^2/nu not exceeding beta^(-4/5); that failure still needs a
-  record-ladder allocation, producer-suppression bridge, or construction
-  exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
+  Gate-8 no-recount allocation/compensator, producer-suppression bridge, or
+  construction exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
   charging remains beta^(4/5) of local producer currency, so the allocation
   branch is Gate-8 no-recount allocation or compensator, not raw energy
   co-presence.
@@ -199,9 +199,8 @@ The remaining pressure-row burdens are:
   suppresses the producer;
 - or exhibit a summability-valid dynamic bath schedule with
   \(\omega/s=o(\beta^{-4/5})\);
-- and in every case, decide same-packet allocation of pressure-service work
-  into record-ladder currency through Gate-8 no-recount allocation or a
-  compensator/residue.
+- and in every case, decide pressure-service charging in record-ladder currency
+  through Gate-8 no-recount allocation or a compensator/residue.
 
 ## 7. Four-sentence result
 

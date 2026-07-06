@@ -45,8 +45,8 @@ completion_truth: >-
   zero-gradient station with the same HD^5 cost; the same display supplies any
   trace-free Hessian after choosing a zero-diagonal frame. At that stage the
   exact-matrix burden was sharpened to q=4/5 for retuning pressure service, plus
-  localization/producer curvature, same-packet allocation, faster-than-
-  producer forced tracking, or a true dynamic bath construction. Follow-up
+  localization/producer curvature, Gate-8 no-recount allocation/compensator,
+  faster-than-producer forced tracking, or a true dynamic bath construction. Follow-up
   time-persistence obstruction kills the constant-direction persistence floor:
   relative unforced drift over one producer clock is only
   beta^(2/5)+nu/(sD^2). Follow-up producer-coupling obstruction kills the
