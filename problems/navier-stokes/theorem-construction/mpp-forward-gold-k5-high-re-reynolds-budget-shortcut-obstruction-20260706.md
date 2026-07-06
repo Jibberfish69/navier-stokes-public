@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-gate-a-three-residues-payment-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-theorem2-two-payer-impedance-attack-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-return-race-handoff-premise-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-custody-trigger-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction to one shortcut. The lambda-edge re-gate left the high-Re
   edge branch as return-race, custody, sideband/crowd, or an apparent same-packet
@@ -26,13 +28,28 @@ completion_truth: >-
   residence is \(O(A_0)\), while total production is
   \(O(\operatorname{Re}A_0)\). The Reynolds factor is not a finite budget; it is
   the weighted residence/readout already identified by Gate A. Therefore the
-  high-Re edge cannot be paid by raw Reynolds-budget accounting. It still needs
-  return-race, custody, sideband/crowd, or a genuine Gate-A/Theorem-2 allocation
-  theorem that supplies a uniform payer beyond the raw weight. No such theorem is
-  proved here; no confinement constant or MPP closure is claimed.
+  high-Re edge cannot be paid by raw Reynolds-budget accounting. Same-day
+  follow-ups refine the remaining payer list: return-race requires a financed
+  handoff fraction, and custody requires a reassembly/refresh/destruction or
+  delivery trigger. Thus the live branch is sideband/crowd, a genuine
+  Gate-A/Theorem-2 allocation theorem, or a theorem that first produces the
+  return-race/custody trigger. No such theorem is proved here; no confinement
+  constant or MPP closure is claimed.
 ---
 
 # K5 high-Re edge: Reynolds-budget shortcut obstruction
+
+## Correction header, 2026-07-06
+
+Two same-day follow-ups refine the payer list below. Return-race is not an
+automatic edge-residence payer; it requires a financed handoff fraction
+\(f>0\). Custody is not an automatic edge-residence payer either; it requires a
+reassembly, refresh, destruction, or delivery trigger. Therefore the live
+high-Re edge branch is:
+\[
+  \text{sideband/crowd, Gate-A/Theorem-2 allocation,}
+  \quad\text{or a theorem producing the return-race/custody trigger.}
+\]
 
 ## 1. Object
 
