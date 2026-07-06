@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -293,6 +294,10 @@ closed overlap/readout constraints. Radius collapse, unbounded chart count, or
 overlap/readout incompatibility is carrier-cover loss before the profile can be
 used as a terminal witness.
 
+The positive ballast measure \(\mu_R\) has the same cover burden. If it survives
+without a legal finite-cover lift, the branch is Pack-side cover failure rather
+than retained pressure-law supply.
+
 So a nonzero WKB defect measure is useful only after this additional theorem
 turns it into either an admitted terminal witness or a typed limit-of-class /
 participation failure.
@@ -336,7 +341,7 @@ MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
 ballast-energy ledger, and the transport-defect
-material-ancestry closure fork, and the finite-cover
+material-ancestry closure fork, and the finite-cover / ballast-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
