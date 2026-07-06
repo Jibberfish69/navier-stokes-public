@@ -50,6 +50,14 @@ completion_truth: >-
   SCALING except where stated; the fourth same-day correction is noted
   in the authorship line per the honesty discipline. No closure
   claimed.
+  Same-day follow-up:
+  mpp-forward-gold-node-sitting-moving-constraint-tracking-reduction-20260705.md
+  makes the tracking-floor object exact at kinematic level:
+  node-sitting is a constraint C(q,h)=0, and sustained node-sitting
+  must satisfy D_h C hdot = -D_q C qdot. At a regular node, the least
+  tracking speed is |(D_h C)^\dagger D_q C qdot|. This does not prove
+  a positive floor; it replaces the static matrix-ratio question by
+  the transversality constant of the moving zero-set.
 ---
 
 # Exact matrix attempt: node-sitting correction; the tracking floor
@@ -81,3 +89,16 @@ own production rate. Fixed positive floor => (A) via composition.
 Vanishing => (B). The e_oct recursion is this floor summed over
 octaves. The parking/un-parking law is this floor for one parked
 holder. One object now carries the summit.
+
+Same-day moving-constraint follow-up:
+`mpp-forward-gold-node-sitting-moving-constraint-tracking-reduction-20260705.md`
+types this object as an exact differentiated constraint. A static node
+is \(C(q,h)=0\); sustained node-sitting obeys
+\[
+  D_hC\,\dot h=-D_qC\,\dot q.
+\]
+At regular nodes, the tracking constant is the normalized
+Moore-Penrose quantity \(|(D_hC)^\dagger D_qC\,v_{\rm prod}|\).
+The remaining theorem is a positive transversality floor or an exact
+escape through tangent producer motion, singular node geometry, or a
+different co-optimized schedule.
