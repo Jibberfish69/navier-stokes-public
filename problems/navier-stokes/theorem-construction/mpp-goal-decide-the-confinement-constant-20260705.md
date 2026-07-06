@@ -88,7 +88,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     power scales with protected production); cheap-inside-bath threat
     recorded at beta^(8/5); FINAL FORM = the up-scale holding recursion
     e_oct: fixed floor => (A) via composition starvation; vanishing =>
-    (B) construction. Custody local split filed and Codex-regated:
+    (B) construction. Same-day bath exponent recursion check filed:
+    under the recorded scaling law beta_{n+1}=beta_n^(4/5) and
+    e_n=beta_n^(8/5), holder energies tend to beta_0^8 of the
+    starting energy instead of zero, so the naive infinite cheap-bath
+    chain has infinite total energy. The live bath escape must change
+    the exponent law through exact matrix/node-sitting, or become a
+    finite-depth composition problem. Custody local split filed and
+    Codex-regated:
     thin debris is confiscated below the quadratic Reynolds threshold;
     thick debris is governed by energy escrow, not absolute
     prohibition - either it already carries the scale-\(d\) energy as
@@ -151,7 +158,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    survives superposition with N-independent constant, or the
    interference that beats it; (b) dense limit: direct counterexample
    hunt - a broadband producing configuration carrying no eviction.
-   Finding it kills the program and is the most valuable single output.
+   Same-day bath exponent recursion check kills the naive infinite
+   cheap-bath chain under the filed beta^(4/5), beta^(8/5) scaling:
+   holder energies do not decay. Remaining dense escape: exact
+   matrix/node-sitting changes the exponent law, or finite-depth bath
+   funding enters composition. Finding a genuine no-eviction crowd
+   kills the program and is the most valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
    toll -> record starvation -> bounded critical height -> smoothness.
    The custody escrow/localization burden and the Gate-8 allocation rows
