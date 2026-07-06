@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fixed-density-compensator-routing-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
 completion_truth: >-
   Strict reduction only. A positive uniform-mode charge on an identity fiber is
   the average row-sum / monopole component of the cross-cell Gram form. In
@@ -32,7 +33,8 @@ completion_truth: >-
   zero-mode component is again subject to the anti-equidistribution / near-
   uniform countermodel; the residual follow-up makes this exact by reducing
   bounded residual positivity to legal anti-equidistribution, with unbounded
-  residuals routed as new payers or construction/exclusion. This proves no
+  residuals routed by the product criterion B_M d_M^2 >= c for zero-mode use
+  or B_M d_M >= c for row-drift use. This proves no
   positive uniform-mode theorem, no
   anti-equidistribution law, no WKB construction/exclusion, no confinement
   constant, and no MPP closure.
@@ -207,8 +209,9 @@ It must be one of:
 \]
 
 After any backed rank-one payer is removed, the residual Gram form still owes
-legal anti-equidistribution, unbounded residual payer backing, or
-construction/exclusion. The bounded-residual phrase has now been reduced: if
+legal anti-equidistribution, unbounded residual payer backing at the matching
+separation scale, or construction/exclusion. The bounded-residual phrase has
+now been reduced: if
 the residual \(H\) has the uniform mode removed and \(\|H\|\le C\), then
 \[
   |a^THa|
@@ -218,6 +221,18 @@ the residual \(H\) has the uniform mode removed and \(\|H\|\le C\), then
 \]
 So a count-free residual lower bound is exactly the legal
 anti-equidistribution theorem in residual-metric coordinates.
+
+The unbounded-residual follow-up gives the remaining exact condition. With
+\[
+  B_M=\|H_M\|,
+  \qquad
+  d_M=\inf\|a-u_M\|_2,
+  \tag{UMC.17}
+\]
+zero-mode residual use requires \(B_Md_M^2\gtrsim1\), while row-drift residual
+use requires \(B_Md_M\gtrsim1\). The unbounded branch is therefore not merely
+"large residual"; it is backed operator growth plus legal separation at the
+matching scale.
 
 ## 6. Four-sentence result
 
@@ -232,6 +247,6 @@ identity do not create that payer; in the overlap bath pressure channel,
 demanding it is exactly the fixed-density compensator branch already priced as
 producer-equivalent residue. After the backed rank-one part is subtracted,
 bounded residual positivity is exactly anti-equidistribution, while unbounded
-residual positivity is a new payer or construction branch.
+residual positivity obeys the operator-growth versus separation product law.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
