@@ -1473,8 +1473,21 @@ surface, not F4 clearance.
    strain \(S\), \(D_tf=3S:Q_n\) and \(D_tK=(2/5)S\). This is exactly the
    least-distance angular row, \(\|D_tf\|_2=\sqrt{15/2}\|D_tK\|_F\), so
    angular production and angular anti-uniformity co-activate, but only in the
-   beta-small service-coordinate currency already priced. The same-helicity
-   Beltrami cone now has
+   beta-small service-coordinate currency already priced. Bounded-custody
+   same-bank persistence is also removed by the installed ledger: for total
+   weight \(W\), relative carrier-window width \(\Delta\), weight variation
+   \(V_w\), and bank log-variation \(V_D\), active service obeys
+   \[
+     A\le W\Delta+{\Delta\over2}V_w+WV_D.
+   \]
+   Thus a fixed neutral bath cannot supply unbounded sign-coherent service;
+   unbounded service must appear as endpoint log-room, refresh/reassembly
+   variation, bank log-variation, high-factor/terminal routing, orthogonal
+   frame work, or construction/exclusion. The orthogonal door is typed too:
+   \(S:K=0\) supplies no scalar WKB row, and cheap
+   \(K\sim s^2\beta^{4/5}\) turns the producer frame only at
+   \(s\beta^{4/5}\); producer-clock frame holding pays order-one currency.
+   The same-helicity Beltrami cone now has
    the sharp trace-ballast floor
    \(\tau\ge\sqrt6|A|_F\) for \(C=(\tau/3)I+A\), so cone-compatible
    trace-free covariance is not a zero-trace survivor. At fixed trace, its
