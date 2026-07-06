@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-coloring-form-scope-separation-z3-z4-20260706
-status: filed-pending-codex-gate
+status: codex-regated-z4-coloring-accepted-z3-lineage-disintegration-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / Gate 7 / z4 by the coloring form of Besicovitch; z3 by scope separation (the cover locates, the lineage classifies)
@@ -22,10 +22,13 @@ depends_on:
   - mpp-forward-gold-codex-gate7-greedy-besicovitch-regate-20260706.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
   - mpp-forward-gold-gate7-reduced-theorem-payment-20260705.md
+  - mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md
 completion_truth: >-
-  Answers z4 by switching the covering object to the coloring form
-  of Besicovitch and z3 by a scope separation, both on the paid
-  control measure lambda_a; proves no estimate beyond the classical
+  Codex-regated state: answers z4 by switching the covering object to
+  the coloring form of Besicovitch, but does not clear z3. The z3 scope
+  separation is a strict reduction to lineage-disintegration /
+  incoherent-lump routing on lambda-rich balls, both on the paid control
+  measure lambda_a. This note proves no estimate beyond the classical
   coloring lemma. (U1 - z4 BY COLORING, classical) The Besicovitch
   covering theorem in R^3 has the coloring form: any Besicovitch
   family splits into at most N_col(R^3) subfamilies, EACH PAIRWISE
@@ -58,7 +61,9 @@ completion_truth: >-
   this last reading, dilution-across-lineages, must be confirmed
   at the W1 home; if 7(iii) is strictly spatial-spread, the
   incoherent-lump case needs its own routing line and u1 becomes
-  the residual z3 content). HONEST FLAGS: (u1) above - the single
+  the residual z3 content). Codex regates u1 as live: W1 Section
+  7(iii) is spatial-volume dilution, not automatically same-volume
+  dilution across lineages or phases. HONEST FLAGS: (u1) above - the single
   substantive residue of z3; (u2) N_col(R^3) is classical and
   universal but should be cited/quarantined alongside N_Bes; (u3)
   the per-color ledger convention (once per (channel, ball) per
@@ -71,6 +76,26 @@ completion_truth: >-
 ---
 
 # Gate 7: z4 by coloring, z3 by scope separation
+
+## Codex regate, 2026-07-06
+
+Codex audit filed:
+`mpp-forward-gold-codex-gate7-coloring-scope-separation-regate-20260706.md`.
+
+Accepted: z4 in the coloring form. Exact balls replace merged geometric
+components, and \(N_{\rm col}\) is quarantined as a supply-side
+multiplicity or handled by an explicit subordinate assignment
+convention.
+
+Regated: z3 is not paid by scope separation alone. W1 Section 7(i)
+defines a coherent lineage packet after lineage selection; it does not
+prove that every \(\lambda_a\)-rich ball contains such a packet. W1
+Section 7(iii) prices spatial spread over many correlation volumes; it
+does not automatically price same-volume incoherence across many
+lineages or phases.
+
+The remaining z3 burden is a lineage-disintegration / incoherent-lump
+routing theorem on \(\lambda_a\)-rich balls.
 
 ## U1. z4 — the coloring form (classical)
 
