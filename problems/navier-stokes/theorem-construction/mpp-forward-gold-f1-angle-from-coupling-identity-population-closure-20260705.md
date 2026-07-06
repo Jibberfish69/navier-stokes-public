@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f1-angle-from-coupling-identity-population-closure-20260705
-status: filed-pending-codex-regate
+status: codex-regate-cleared-in-finite-chain-packet-window-scope-with-normalization-correction
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F1 / the R2b population gate - closed by an exact identity
@@ -78,6 +78,27 @@ completion_truth: >-
 ---
 
 # F1: the angle is the coupling - the population gate closes
+
+## Codex re-gate update, same date
+
+Codex re-gate filed at
+`mpp-forward-gold-codex-f1-angle-population-regate-20260705.md`.
+The population closure is accepted in the finite-chain packet/window
+scope after one normalization correction: T7's checked coefficient is
+\(|G|=c_T |S|/R\), so the literal identity is
+\[
+  \sin A_\kappa
+  =
+  \frac{1}{2c_T}\,
+  \frac{\kappa |G|}{|S|}.
+\]
+The raw factor \(2\) below is therefore a convention shorthand, not the
+declared-convention constant. The correction does not weaken the
+argument: the proof only spends the positive universal factor, the
+financed \(|G_{\rm relay}|\) floor, and the dyadic side-sum ceiling.
+With those repairs, F1 is discharged in the R2c finite-chain
+packet/window scope; F2, F3, F4, F5, Sheet2-Poor, and broader
+PDE/interface gates remain open.
 
 ## 1. The identity
 
