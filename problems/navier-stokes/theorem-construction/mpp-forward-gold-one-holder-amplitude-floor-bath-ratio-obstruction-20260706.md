@@ -126,8 +126,8 @@ The live object is the octave recursion:
 
 1. fixed positive total recursion floor after all tracking/supply costs:
    composition starvation, exit (A) after the later gates;
-2. a different exact matrix/node-sitting exponent law with summable holder
-   energies: exit (B) construction;
+2. an exact matrix/node-sitting schedule whose induced \(x_n\) sequence
+   satisfies the bath-recursion summability criterion: exit (B) construction;
 3. finite-depth bath leverage: composition problem, not a local floor.
 
 Thus the one-holder amplitude channel has been consumed into the same
@@ -143,8 +143,8 @@ the filed bath scaling. A smooth inside-bath holder has
 So the local ratio named in the one-holder note cannot decide the dense cell.
 The remaining question is the up-scale recursion: the filed
 \(\beta_{n+1}=\beta_n^{4/5}\), \(e_n=\beta_n^{8/5}\) model does not self-finance,
-but a different exact matrix/node-sitting schedule or finite-depth composition
-escape remains open.
+but an exact matrix/node-sitting schedule satisfying the summability criterion
+or a finite-depth composition escape remains open.
 
 Follow-up:
 `mpp-forward-gold-bath-recursion-summability-criterion-20260706.md`
