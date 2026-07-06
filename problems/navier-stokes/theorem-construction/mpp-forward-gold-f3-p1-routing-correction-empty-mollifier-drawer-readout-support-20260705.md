@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-p1-routing-correction-empty-mollifier-drawer-readout-support-20260705
-status: filed-same-day-correction-pending-codex-gate
+status: codex-gated-empty-mollifier-accepted-e-f1-interface-regated
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P1 routing - same-day correction of E-d/E-e and E-f1
@@ -82,6 +82,29 @@ completion_truth: >-
   onto the current readout-support architecture. Filed is not
   cleared. No closure claimed.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-p1-routing-correction-gate-20260705.md`.
+
+Accepted: C-1 is correct. In the declared modified row, P1 compares two
+rows evaluated on the same prelimit velocity, and the accepted identity
+is \(d\nu^{\rm SRP}_{c,Q}=\kappa_c\,d\nu^{\rm fg}_{c,Q}\). No
+mollifier or off-diagonal Target-1 residue exists inside the P1
+transcription. E-d/E-e are empty for P1.
+
+Accepted as placement only: C-2 correctly puts E-f1 on the
+high-readout/readout-support architecture. Regated wording: the support
+lemma is not merely prelimit diagonal plus null shells. The automatic
+active-readout zero-support shortcut was already rejected. The open
+interface is either SRP production readout comparison
+\(\bar\kappa_{\rm SRP}\le\bar\kappa\) off priced tails, or diffuse
+high-channel SRP total-variation domination routed to Gate-A tax,
+boundary/locality, or Silver. After that, T4 shell exhaustion and the
+chapter-9/Silver consumer can run.
+
+No P1 clearance or MPP closure is claimed.
 
 # F3/P1 routing correction: the empty mollifier drawer; the high tail's true address
 
