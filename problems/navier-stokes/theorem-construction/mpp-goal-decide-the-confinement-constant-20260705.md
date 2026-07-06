@@ -1455,9 +1455,13 @@ surface, not F4 clearance.
    WKB profile no-supplier trichotomy. The same-helicity Beltrami cone now has
    the sharp trace-ballast floor
    \(\tau\ge\sqrt6|A|_F\) for \(C=(\tau/3)I+A\), so cone-compatible
-   trace-free covariance is not a zero-trace survivor; the open point is still
-   legal carriage, profile admission, or construction/exclusion of the actual
-   same-fluid bath.
+   trace-free covariance is not a zero-trace survivor. At fixed trace, its
+   active-service support function is also exact:
+   \(\sup_{\operatorname{tr}C=\tau} S:C=(\tau/2)(-\lambda_{\min}S)\),
+   attained by the covariance plane orthogonal to the most-compressive strain
+   direction. Thus the static cone prices both the ballast and what the
+   ballast can buy; the open point is still legal carriage, profile admission,
+   or construction/exclusion of the actual same-fluid bath.
    Finding a genuine no-eviction crowd kills the program and is the most
    valuable single output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
