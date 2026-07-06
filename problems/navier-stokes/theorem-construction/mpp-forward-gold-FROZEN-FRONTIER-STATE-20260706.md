@@ -246,11 +246,19 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    unless the financed definition is amended to constrain
    r_-/G_0^2). Surviving product routes, ordered: the one-sided
    margin (priority), or a new root-service participation law.
-   REMAINING (superseded pending the gates above), previously: [lower-root/root-factor enclosure OR new
-   poor-horn comparison] +
-   [endpoint frozen margin beating matched R4 drift] +
-   [finite product-row evaluation] +
-   [BoundaryTail/F4 carry rows]. It does not prove
+   CODEX GATE (2026-07-06): Part I is structurally valid but not a
+   clearance. The top endpoint supplies a lawful one-sided root-weight
+   floor
+   \[
+     c_W^{\rm top}
+     =
+     \Delta_{\rm G6a}^{\rm top}/(X_{\max}S_{\max}),
+   \]
+   and the lower endpoint can be charged as a net episode endpoint
+   term \(B_{\rm bot}^{\rm end}=\sum r_-(t_0)\). Remaining product
+   rewrite: certify \(\Delta_{\rm G6a}^{\rm top}>0\), rewrite G6b /
+   Chapter 10 with \(c_W^{\rm top}\), and add \(B_{\rm bot}^{\rm end}\)
+   to the length/endpoint row. It does not prove
    \(R_{\rm prod}^{F4,{\rm ti,tail}}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
@@ -263,6 +271,7 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-bottom-root-horn-financed-obstruction,
    codex-bottom-root-horn-cm-route-audit,
    codex-gate6-row-formation-part-bridge-attempt.
+   codex-one-sided-contraction-parti-gate.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.

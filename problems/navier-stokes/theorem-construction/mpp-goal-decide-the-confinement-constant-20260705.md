@@ -996,6 +996,17 @@ the confinement constant.
    charge or prove that legal same-packet WKB clouds are quantitatively
    anti-equidistributed away from the uniform zero mode. If near-uniform legal
    clouds exist, the cross-cell square rescue is false.
+   The near-uniform local-cloud countermodel now blocks the local-cell version
+   of that anti-equidistribution theorem. Replicating one locally legal WKB
+   pressure-service cell on an \(M\)-point periodic/quadrature cloud with
+   weights \(1/M\) preserves total selected moment, gives diagonal square
+   charge \(1/M\), and puts every mean-zero translation-invariant cross kernel
+   in its uniform zero mode, up to bounded \(O(1/M)\) local corrections.
+   Therefore local WKB legality and local moment matching cannot supply
+   `CrossCellWKBGramGap.A`; any surviving gap must use genuinely global
+   same-packet identity, law/ancestry/cover/tower certificates,
+   non-translation-invariant positive uniform-mode geometry, or
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
