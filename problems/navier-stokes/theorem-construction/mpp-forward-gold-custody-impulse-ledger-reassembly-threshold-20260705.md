@@ -22,16 +22,19 @@ completion_truth: >-
   RE-ASSEMBLY FROM THIN DEBRIS IS AFFORDABLE ONLY ABOVE A CIRCULATION
   REYNOLDS THRESHOLD QUADRATIC IN THE CONCENTRATION RATIO d/a_t. Below
   it, viscosity confiscates the debris before the geometry re-forms:
-  the custody tax in exact form at scaling level. NAMED OPEN: (i) the
-  coherent route - debris that stays thick (a_t ~ d) evades the
+  the custody tax in exact form at scaling level. SAME-DAY FOLLOW-UP:
+  the payment identity is now displayed at scaling level in
+  mpp-forward-gold-custody-payment-identity-fast-transit-cubic-20260705:
+  a fast thick transit pays an order-one pair-energy bill in the same
+  increment-cubic total-variation currency as the flux gate. NAMED OPEN:
+  (i) the coherent route - debris that stays thick (a_t ~ d) evades the
   threshold but carries the pair's full impulse diffusely and must
   re-concentrate against its own self-induced dispersal; display the
-  dispersal-vs-concentration clock comparison. (ii) the payment
-  identity - show the transit itself is priced (participation transit
-  = the same increment-cubic currency as the flux gate), connecting to
-  the record-admission rows. Kill condition standing: a re-assembly
-  channel that is simultaneously thick (no viscous confiscation), fast
-  (inside one strain time), and free (no transit payment). No closure
+  dispersal-vs-concentration clock comparison. (ii) the row lift - orient
+  the fast-transit cubic payment on the same channel-window summands as
+  record admission and no-recount debt. Kill condition standing: a
+  re-assembly channel that is simultaneously thick, fast, and able to
+  evade the increment-cubic row payment after the row lift. No closure
   claimed.
 ---
 
@@ -69,7 +72,7 @@ re-concentration clock (concentration against self-induced spreading
 is the same anti-tightening principle as the spring - no structure
 winds itself tighter).
 
-(G-C-2) Payment identity: transit through the medium is an
-increment-cubic event in the flux-gate currency; display the mapping
-so custody lands in the same ledger as the record rows (composition,
-item 5).
+(G-C-2) Payment identity: same-day display filed. Fast thick transit
+through the medium is an increment-cubic event in the flux-gate
+total-variation currency. Remaining: orient that payment on the same
+channel-window summands as the record rows (composition, item 5).
