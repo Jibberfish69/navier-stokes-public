@@ -536,6 +536,23 @@ with \(0<\delta<\min(q_{\rm per}^-,\log2)\), the H-row bounding dwell
 fraction by \(f_{\rm dw}\), and a separate dwell-excess length floor.
 This is the active composition-side interval surface; it is still not a
 certified positive constant.
+Follow-up interval-readiness audit filed: the Schwartz-template cross-term
+correction is already folded into the original locality note and goal ledger.
+The composition handoff is not currently executable as a completed two-row
+positivity pass. The seed side's current \(R_{\rm seed}>0\) transcription is
+closed negative by the gamma-ceiling comparison unless a structural repair
+door is used. The product side is the one-sided RUN-H scalar test above:
+first \(A_0>6d\), \(P_{\rm cap}>4aq\), and the rent-ceiling filter; then the
+exact RH.20 scalar supremum. The friendly midpoint source-reserve curve
+\[
+  {d\over X_{\max}}
+  <
+  C_b\!\left({R_0\over g_0X_{\max}^2}\right)
+\]
+is a sufficient construction branch only, with the full scalar supremum still
+available if it fails. Thus no interval arithmetic row is certified positive
+yet, and the compiled proof side remains a formula-homed finite worksheet
+surface, not F4 clearance.
 
 ## Work order (each unit: output + kill condition)
 
