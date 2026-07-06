@@ -1,6 +1,11 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-vector-moment-minimal-gadget-sideband-leak-20260706
 status: exact-local-vector-cancellation-gadget-leaks-unique-sidebands
+later_followup: >-
+  The general finite-graph reason for this sideband leak is isolated in
+  mpp-forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706.md:
+  output-maximal resonant cancellations must degenerate their norm-increasing
+  off-diagonal sidebands.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -10,6 +15,7 @@ target_object:
   - BeltramiFiniteGraphConstructionExclusion.REMAINING-DOOR
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-radius-sum-vector-moment-correction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-output-maximal-sideband-shield-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-shared-output-radius-sum-grading-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
 completion_truth: >-
@@ -166,6 +172,12 @@ multiradius Beltrami neutralizer must add further modes to cancel the sidebands
 without creating an exposed dangerous sideband elsewhere.
 
 That is a strict graph problem, not a one-output coefficient problem.
+
+The output-maximal sideband shield follow-up abstracts the obstruction. In a
+finite graph, a cancellation partner for an output-maximal dangerous pair
+creates two off-diagonal sidebands, at least one with larger output norm. Any
+larger sideband must be same-shell or collinear, or else maximality is
+contradicted.
 
 ## 5. Four-sentence result
 
