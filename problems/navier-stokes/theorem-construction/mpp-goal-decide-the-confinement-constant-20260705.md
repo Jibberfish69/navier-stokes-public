@@ -125,7 +125,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     reserve, E3 tail routing, allocation closedness).
     Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
-    obstruction. External-audit paper drafted
+    obstruction. Normalized Crow sidecar comparison filed next:
+    \(\sup_{\beta}(3\sqrt3/8)\beta^2\log(1/\beta)
+    =3\sqrt3/(16e)<\log2\), so that sidecar excludes
+    single-encounter doubling; the full interval comparison over
+    \(K(\kappa)\) remains open because it still needs the Crow
+    dispersion, kill-displacement, profile-factor, and damping
+    intervals. External-audit paper drafted
     (external-paper/eviction-production-filament-pair-notes-draft),
     awaiting owner send decision.
 
@@ -158,7 +164,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    and no curve-leakage payment => the pure neutral/curvature channel is
    not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
-   Chapter-10 discipline. Either outcome is progress.
+   Chapter-10 discipline. Normalized sidecar now passes:
+   \(3\sqrt3/(16e)<\log2\), so the imported beta-only Crow lifetime
+   model excludes one coherent event completing a factor-two record.
+   Full certification remains the marginal-unit-Re interval problem
+   over \(K(\kappa)\) with the named physical inputs; either outcome is
+   progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
    re-form producing geometry without transit payment. Local split filed
    and regated; delivery row lift reduced to Gate-8 allocation.
