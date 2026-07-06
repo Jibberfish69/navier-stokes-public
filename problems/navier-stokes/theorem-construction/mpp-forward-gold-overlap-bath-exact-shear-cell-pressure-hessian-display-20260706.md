@@ -154,6 +154,12 @@ is an orthonormal frame \(a_1,a_2,a_3\) such that
   \tag{ESC.12}
 \]
 
+For completeness: the quadratic form \(v\mapsto\langle Kv,v\rangle\) has a
+zero on the unit sphere because \(K\) is trace-free. Pick that zero direction
+as \(a_3\). The restriction of \(K\) to \(a_3^\perp\) also has trace zero, so
+in its two-dimensional eigenbasis a \(45^\circ\) rotation gives two orthogonal
+directions \(a_1,a_2\) with zero diagonal entries.
+
 Write \(y_i=a_i\cdot x\). Define
 \[
   u(x)
