@@ -30,6 +30,13 @@ completion_truth: >-
   geometry, or a different exact schedule; a fixed positive floor folds
   node-sitting into the bath/composition line. No dense-crowd theorem,
   no confinement-constant decision, and no MPP closure are claimed.
+  Same-day correction:
+  mpp-forward-gold-node-sitting-amplitude-homogeneity-tangent-obstruction-20260705.md
+  identifies one exact tangent direction: common producer amplitude.
+  In the homogeneous leading matrix C(a,xi,h)=a C0(xi,h), pure
+  amplitude growth leaves C=0 fixed. Thus this note's qdot must be
+  read as shape/angle/eigenframe/relative-component motion after
+  quotienting common amplitude.
 ---
 
 # Node-sitting as a moving constraint
@@ -42,14 +49,17 @@ at its own location while its field still supplies cancellation at the
 producer.
 
 That is legal at a frozen instant. The producer is not frozen during a
-record event. Its producing state changes on the production clock, so
-the node that protected the holder moves.
+record event. Its producing shape can change on the production clock,
+so the node that protected the holder may move. Common amplitude
+growth alone is an exact tangent direction for homogeneous nodes and
+does not move them.
 
 ## 2. Static zero constraint
 
-Let \(q\) denote the finite list of producer variables that the exact
-dense-crowd matrix uses: producing angle, orientation, strength, and
-the channel components that determine the demanded tensor. Let \(h\)
+Let \(q\) denote the finite list of producer shape variables that the
+exact dense-crowd matrix uses after quotienting common amplitude:
+producing angle, orientation, relative strengths, and the channel
+components that determine the demanded tensor. Let \(h\)
 denote the holder variables: station angle, distance or extent
 parameter, strength normalization, and holder orientation.
 
@@ -134,7 +144,9 @@ after the chosen normalization of holder variables.
 
 The identity leaves only three mathematical escapes.
 
-First, tangent producer evolution:
+First, tangent producer evolution. Common amplitude growth is one
+exact example in the homogeneous leading matrix; other tangent
+directions may exist:
 
 \[
   Bv_{\rm prod}=0.
@@ -142,7 +154,8 @@ First, tangent producer evolution:
 \]
 
 Then the producer moves in a direction that does not move the demanded
-node to first order.
+node to first order. A positive tracking floor must rule this out for
+the shape variables that actually accompany protected production.
 
 Second, high-leverage or singular node geometry: the normalized
 \(A^\dagger Bv_{\rm prod}\) tends to zero along the admissible family.
