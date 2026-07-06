@@ -24,11 +24,14 @@ completion_truth: >-
   symmetric null stress invisible to the velocity law. A nonzero null stress may
   still carry WKB tensor readout; it is legal for the actual pressure-law row
   only as a null-stress certificate and remains available to the other rows
-  rather than becoming retained pressure-service supply. This proves no theorem
-  forcing actual Navier-Stokes WKB Reynolds defects into the null class, no
-  legal carriage theorem for nonzero null stresses through the whole profile,
-  no profile admission theorem, no WKB construction/exclusion theorem, no
-  confinement constant, and no MPP closure.
+  rather than becoming retained pressure-service supply. The null class is
+  nontrivial even among compactly supported trace-free anisotropic stresses:
+  R_phi=Hess phi-(Delta phi)I/3 satisfies P div R_phi=0. Thus anisotropy or
+  trace-free pressure shape alone cannot close the pressure row. This proves no
+  theorem forcing actual Navier-Stokes WKB Reynolds defects into the null class,
+  no legal carriage theorem for nonzero null stresses through the whole
+  profile, no profile admission theorem, no WKB construction/exclusion theorem,
+  no confinement constant, and no MPP closure.
 ---
 
 # WKB Reynolds null stresses: exact pressure-law characterization
@@ -140,12 +143,46 @@ localized WKB stresses can cancel in the pressure-law row only by making
 curl-free, equivalently by leaving only pressure gauge plus a divergence-free
 null stress.
 
-## 4. WKB meaning
+## 4. Trace-free Hessian null stresses
+
+The null branch is not only scalar pressure. It contains compactly supported
+anisotropic trace-free stresses. Let
+\[
+  \phi\in C_c^\infty(\mathbb R^3)
+  \tag{NUL.13}
+\]
+and set
+\[
+  R_\phi:=\nabla^2\phi-{1\over3}(\Delta\phi)I .
+  \tag{NUL.14}
+\]
+Then \(R_\phi\) is symmetric, compactly supported, and trace-free. Moreover,
+\[
+  \operatorname{div}R_\phi
+  =
+  \nabla\Delta\phi-{1\over3}\nabla\Delta\phi
+  =
+  {2\over3}\nabla\Delta\phi .
+  \tag{NUL.15}
+\]
+Therefore
+\[
+  \mathbb P\,\operatorname{div}R_\phi=0 .
+  \tag{NUL.16}
+\]
+
+For a generic \(\phi\), \(R_\phi\) is not identically zero and is not a scalar
+matrix field. Thus trace-free anisotropy is not enough to force a nonzero
+velocity-law defect. The single-shape obstruction is sharp: a fixed non-scalar
+shape \(R=\chi Q\) is not gauge, but a variable-eigenframe Hessian-gauge stress
+can be.
+
+## 5. WKB meaning
 
 The pressure-law row sees only
 \[
   \mathbb P\,\operatorname{div}R .
-  \tag{NUL.13}
+  \tag{NUL.17}
 \]
 So a nonzero \(S\) with \(\operatorname{div}S=0\) is invisible to the velocity
 equation. It is not automatically admitted retained WKB supply. It is a tensor
@@ -161,7 +198,7 @@ Thus a Leray-null stress is not pressure-service closure of the whole profile.
 It is only the exact null branch of the actual velocity-pressure law
 certificate.
 
-## 5. Reduced burden
+## 6. Reduced burden
 
 The pressure-law row is now:
 
@@ -187,14 +224,14 @@ Leray-null stress class:
     \mathbb P\operatorname{div}R=0\}
   =
   \{qI+S:\operatorname{div}S=0\}.
-  \tag{NUL.14}
+  \tag{NUL.18}
 \]
 
 What remains unproved is that actual Navier-Stokes WKB terminal packets either
 produce only this null class, legally carry a nonzero null/non-null stress, or
 fall into the typed Pack/Part/Field row failures.
 
-## 6. Four-sentence result
+## 7. Four-sentence result
 
 The pressure-law branch has an exact null class. For compactly supported
 symmetric \(R\), \(\mathbb P\operatorname{div}R=0\) exactly when
@@ -204,13 +241,14 @@ symmetric \(R\), \(\mathbb P\operatorname{div}R=0\) exactly when
 \]
 The \(qI\) part is pressure gauge; the divergence-free \(S\) part is invisible
 to the velocity equation but remains a tensor defect for the profile ledger.
-So multi-stress cancellation is now a precise null-stress certificate class,
-not a vague escape from the Reynolds-defect row.
+This null class contains nonzero compactly supported trace-free anisotropic
+examples \(R_\phi=\nabla^2\phi-(\Delta\phi)I/3\), so anisotropy alone cannot
+close the pressure row.
 
-## 7. State
+## 8. State
 
 This note proves the exact Leray-null characterization for compactly supported
-smooth Reynolds stresses.
+smooth Reynolds stresses and the trace-free Hessian null-stress example.
 
 It proves no theorem forcing actual Navier-Stokes WKB Reynolds defects into
 the null class, no legal carriage theorem for nonzero null stresses through the
