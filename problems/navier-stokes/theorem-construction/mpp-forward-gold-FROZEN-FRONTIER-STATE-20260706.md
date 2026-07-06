@@ -125,7 +125,7 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   prerequisites (StrongGRatioSeedFloor named as the subroute).
 
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
-1. Delta_G6a source packet: COLLAPSED TO ONE LIVE PRODUCER.
+1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
    (Jacobian A/m^2, slopes AB and A^2(1/m-1), discriminant
    A^2 B^2 (B-A)^2); (ii) the swing floor follows from financing
