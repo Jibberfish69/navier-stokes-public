@@ -712,6 +712,17 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    are selected-carrier domain/label/rung escape, and uniform fragmentation
    kills count-only no-free-fragmentation plus same-cell packet-moment square
    coercivity.
+   The cross-cell square rescue is now typed by the Gram-gap criterion. A
+   cross-cell quadratic form \(Q_j(a)=a^TG_ja\) pays only if the actual
+   interaction form has a uniform positive lower bound on the normalized
+   admissible positive cloud cone:
+   \[
+     \inf_{\sum_ba_b=1,\ a\in\mathcal C_j}a^TG_ja>0.
+   \]
+   Without that gap, near-null clouds keep the selected WKB moment while their
+   square charge vanishes. Thus the remaining square branch is a real PDE
+   uncertainty / interaction Gram-gap theorem, or profile admission /
+   construction-exclusion.
    The WKB profile moment-continuity criterion now pays the scalar moment
    passage subclause: continuous or uniformly stabilized pressure-service
    readouts pass to the profile, while moving-spike service is label/weight/rung
