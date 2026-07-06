@@ -67,7 +67,8 @@ coefficient question has an exact answer:
   \tag{RSG.1}
 \]
 
-The answer is the pair-radius sum.
+In this coplanar coordinate, the answer is the pair-radius sum. In full 3D,
+the answer is the vector operator recorded in the correction note.
 
 ## 2. Fixed-output calculation
 
@@ -119,8 +120,8 @@ convention,
   \tag{RSG.4}
 \]
 
-The scalar prefactor carries the split and orientation. The complex line is
-determined by
+The scalar prefactor carries the split and orientation. Inside this fixed
+transverse plane, the complex line is determined by
 \[
   s:=K+L.
   \tag{RSG.5}
