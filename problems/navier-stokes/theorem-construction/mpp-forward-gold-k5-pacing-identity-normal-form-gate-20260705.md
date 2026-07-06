@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k5-pacing-identity-normal-form-gate-20260705
-status: normal-form-coefficient-displayed-local-kappa-criterion-rejected-sign-open
+status: normal-form-coefficient-displayed-local-kappa-rejected-log-seed-obstruction
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / K5 neutral-channel gate
@@ -23,10 +23,14 @@ completion_truth: >-
   band-entry test "local kappa below kappa_edge at troughs" is rejected as a
   certification criterion: the 2k modulation is same-scale, not WKB-slow, so the
   Crow dispersion for a constant-separation pair cannot be applied pointwise.
-  The correct gate is Re Lambda_edge > 0 in the resonant Floquet/normal-form
-  coefficient. If Re Lambda_edge <= 0 or vanishes by symmetry, the pure neutral
-  mode survives this K5 channel and the per-encounter tax dies on the edge
-  unless sideband/crowd or custody supplies a separate payment.
+  The correct gate is the resonant Floquet/normal-form coefficient
+  Lambda_edge. A second obstruction appears even if Re Lambda_edge > 0:
+  the amplitude equation is cubic, so integrated production through the
+  neutral phase is logarithmic in the seed amplitude, not seed-independent.
+  If Re Lambda_edge <= 0 or vanishes by symmetry, the pure neutral mode survives
+  this K5 channel outright. If Re Lambda_edge > 0, K5 supplies only an
+  amplitude-octave pacing law and still needs a seed floor, custody payment, or
+  sideband/crowd mechanism to restore a seed-independent per-encounter cap.
 ---
 
 # K5 pacing identity normal-form gate
@@ -54,8 +58,9 @@ for the complex amplitude \(a\) of the edge Crow mode. The K5 sign gate is
 \]
 
 If this holds, the neutral edge mode leaves neutrality on the same
-amplitude-squared clock as its production. If it fails, the pure-mode pacing
-route does not close K5.
+amplitude-squared clock as its production. That is still weaker than the K4
+interior-band cap: the resulting integrated stretch is logarithmic in the seed.
+If it fails, the pure-mode pacing route does not close K5 at all.
 
 ## 2. Normal-form setup
 
@@ -159,20 +164,22 @@ s\,\Pi_{\rm edge}|a|^2+O(s|a|^4),
 \tag{K5G.11}
 \]
 
-after the profile factor is fixed. Thus a positive \(\operatorname{Re}\Lambda_{\rm edge}\)
-gives an amplitude-free non-growing-phase stretch cap:
+after the profile factor is fixed. Thus a positive
+\(\operatorname{Re}\Lambda_{\rm edge}\) gives an amplitude-octave pacing law:
 
 \[
 \int_{\rm neutral\ phase}\mathcal P_{\rm edge}\,dt
-\lesssim
+=
 \frac{\Pi_{\rm edge}}{2\operatorname{Re}\Lambda_{\rm edge}}
 \log\frac{|a_{\rm exit}|^2}{|a_{\rm seed}|^2},
++O(1),
 \tag{K5G.12}
 \]
 
-with the logarithm replaced by the exact band-entry/exit threshold once the
-normal-form validity window is specified. The sign and threshold are not proved
-in this note.
+up to the exact normal-form validity thresholds. This is not seed-independent.
+It is one bounded payment per amplitude octave. Therefore pure-mode K5 pacing,
+even with the favorable sign, does not by itself complete the pair kill
+integral.
 
 ## 4. Local-kappa criterion rejected
 
@@ -211,7 +218,7 @@ Displayed:
 \tag{K5G.15}
 \]
 
-Open:
+Open and obstructed:
 
 \[
 \operatorname{Re}\Lambda_{\rm edge}>0
@@ -221,5 +228,15 @@ Open:
 \tag{K5G.16}
 \]
 
-This is the next exact K5 coefficient. The crowd cell, custody, and octave
-composition remain untouched.
+Even in the favorable case \(\operatorname{Re}\Lambda_{\rm edge}>0\), the
+neutral-phase integral carries
+
+\[
+\log\frac{|a_{\rm exit}|}{|a_{\rm seed}|}.
+\tag{K5G.17}
+\]
+
+So the next exact K5 question is doubled: compute the sign of
+\(\Lambda_{\rm edge}\), and identify whether a seed floor/custody payment removes
+the logarithmic seed dependence. The crowd cell, custody, and octave composition
+remain untouched.
