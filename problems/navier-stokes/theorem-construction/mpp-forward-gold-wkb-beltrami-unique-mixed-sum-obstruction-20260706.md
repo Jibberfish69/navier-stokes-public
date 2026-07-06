@@ -2,9 +2,13 @@
 theorem_id: forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706
 status: exact-unique-cross-shell-frequency-obstruction
 later_supersession: >-
-  The finite multiply represented crowd left open here is closed by
+  The same-two-shell finite multiply represented crowd left open here is closed
+  by
   mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.
-  Infinite/dense WKB support remains outside this finite algebraic exclusion.
+  The radius-free finite claim was scope-corrected by
+  mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.
+  Multiradius resonant graphs and infinite/dense WKB support remain outside
+  this same-two-shell algebraic exclusion.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
@@ -212,8 +216,10 @@ constant, and no MPP closure.
 
 ## 8. Later finite-door supersession
 
-The finite multiply represented door left open here is closed by
+The same-two-shell finite multiply represented door left open here is closed by
 [mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
-The surviving bath door is no longer finite same-helicity Fourier cancellation;
-it is infinite/dense WKB support, localization/envelope passage, same-fluid
-transport/custody, or construction/exclusion.
+The radius-free finite claim is scope-corrected by
+[mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-max-alignment-radius-scope-correction-20260706.md).
+The surviving bath door includes multiradius resonant graphs, infinite/dense
+WKB support, localization/envelope passage, same-fluid transport/custody, or
+construction/exclusion.
