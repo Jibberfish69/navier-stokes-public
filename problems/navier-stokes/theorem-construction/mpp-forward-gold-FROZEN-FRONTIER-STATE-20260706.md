@@ -122,6 +122,26 @@ F1 -> (F2 || F3) -> F4 -> F5.
   clock/time-weight, oriented Jordan routing, and uniformity over the
   Bernstein populated bounded-shape family. The bad-cone capacity fork
   remains the parallel finite route. F1 actual-NS lift remains open.
+  BAD-CONE FORK ANSWERED (Fable, pending gate,
+  f1-two-dial-closure-tightness-beats-bad-cone — now the PRIMARY F1
+  route; the phase-sweep v1 theorem is secondary): the fork's eta
+  has TWO DIALS — eta(theta, kappa) <= 2 C_B (kappa a)^3 theta +
+  2 s(kappa) (cone angle AND localization radius); for ANY target
+  eta_0, uniform tightness gives s(kappa_0) <= eta_0/4, then
+  theta_row = eta_0/(8 C_B (kappa_0 a)^3) lands eta <= eta_0 — no
+  decay rate needed structurally (the rate only sizes
+  theta_row/G_floor — F4 quarantine). With eta_0 =
+  [G_e/(4|d_pkg| C_tri caps)]^2: Cap_B <= (1/2) m^+ on every
+  financed window (currency m^+ = e^+/|d_pkg|), so at least half
+  the financed ACTIVE monomial mass is good-angle and the paid
+  pushforward applies — F1 ACTUAL-NS POPULATION BY COMPOSITION.
+  Two homed inputs, flag-then-verify: (w1) uniform packet
+  tightness on the carried family (home: channel-cell BV tightness
+  + frame definition — the only input with real risk); (w2) the
+  C_tri display (owed; eta_0 absorbs any finite value). If w1-w2
+  verify, the F1 population clause is PAID and F1 reduces to gate
+  verification. Failure of w1 is a typed frame-definition defect,
+  not a phase mystery.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
