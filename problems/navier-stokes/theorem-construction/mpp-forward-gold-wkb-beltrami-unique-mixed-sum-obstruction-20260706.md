@@ -205,3 +205,11 @@ It proves no lower bound for multiply represented closed resonant crowds, no
 exclusion of an infinite or dense WKB bath, no actual same-fluid construction
 theorem, no material custody theorem, no dense-crowd theorem, no confinement
 constant, and no MPP closure.
+
+## 8. Later finite-door supersession
+
+The finite multiply represented door left open here is closed by
+[mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
+The surviving bath door is no longer finite same-helicity Fourier cancellation;
+it is infinite/dense WKB support, localization/envelope passage, same-fluid
+transport/custody, or construction/exclusion.
