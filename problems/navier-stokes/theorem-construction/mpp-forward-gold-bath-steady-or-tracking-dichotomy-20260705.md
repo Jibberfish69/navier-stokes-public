@@ -12,6 +12,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-transfer-matrix-same-extent-divergence-bath-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
 completion_truth: >-
   Three pieces, typed. (BD1, lemma-shaped, near-exact) STEADY
   SCAFFOLDED PRODUCTION IS IMPOSSIBLE: if the holding ensemble is a
@@ -48,6 +49,11 @@ completion_truth: >-
   (energy fraction per octave) and its relation to the F3/P1
   composition rows now in progress on the other lane. No closure
   claimed.
+  Follow-up:
+  mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706
+  uses BD2 to kill the local one-holder amplitude-supply floor. The cheap
+  one-tier ratio beta^(8/5) is not a closure; BD3's up-scale recursion remains
+  the decision object.
 ---
 
 # The bath: steady-or-tracking dichotomy, and the final recursion
