@@ -43,9 +43,11 @@ completion_truth: >-
   exact-matrix forcing theorem: a same-shape affine history has
   |K_tf|~s^2 beta^(4/5) but omega/s=O(beta^(4/5)), far below beta^(-4/5).
   Follow-up affine-transport pressure-bank obstruction prices affine same-fluid
-  custody at the same beta^(4/5) row. The current pressure branch is therefore
-  non-affine/broadband same-fluid transport, Reynolds-edge failure,
-  fixed-density compensator/residue, or construction/exclusion.
+  custody at the same beta^(4/5) row. Follow-up non-affine transport threshold
+  obstruction prices residual spatial variation at density
+  (delta_D/s)beta^(4/5). The current pressure branch is therefore
+  supercritical non-affine/broadband same-fluid transport, Reynolds-edge
+  failure, fixed-density compensator/residue, or construction/exclusion.
 ---
 
 # Overlap bath: fast-motion threshold obstruction
@@ -208,7 +210,7 @@ This is not a dynamic bath construction and not a dense-crowd theorem.
 
 The remaining pressure-row burdens are:
 
-- prove non-affine/broadband same-fluid pressure-bank transport imposes the
+- prove supercritical non-affine/broadband same-fluid pressure-bank transport imposes the
   supercritical rate \(\omega/s\gtrsim\beta^{-4/5}\), or another order-one
   payer;
 - or prove that any such supercritical demand violates the Reynolds threshold
@@ -232,7 +234,8 @@ With \(|K|\sim s^2\beta^{4/5}\), this is
   (\omega/s)\beta^{4/5}E_{\rm prod}.
 \]
 Thus an order-one floor requires \(\omega/s\gtrsim\beta^{-4/5}\). After the
-local-supercritical, Schwartz-locality, and affine-transport follow-ups, the
-remaining pressure branch is non-affine/broadband same-fluid transport, the
-Reynolds-edge bridge, Gate-8 allocation/compensator, or
+local-supercritical, Schwartz-locality, affine-transport, and
+non-affine-threshold follow-ups, the remaining pressure branch is supercritical
+non-affine/broadband same-fluid transport, the Reynolds-edge bridge, Gate-8
+allocation/compensator, or
 construction/exclusion.
