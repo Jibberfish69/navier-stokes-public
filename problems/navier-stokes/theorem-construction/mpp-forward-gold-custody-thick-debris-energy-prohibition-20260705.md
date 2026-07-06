@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-custody-thick-debris-energy-prohibition-20260705
-status: isolated-thick-debris-reconcentration-energetically-forbidden-lemma-shaped-custody-three-legs-standing-codex-gate-requested
+status: codex-regated-to-energy-escrow-dichotomy
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / item 3 (G-C-1 closure)
@@ -45,6 +45,32 @@ completion_truth: >-
   that the three legs partition the channel space. No closure claimed
   beyond the stated legs.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-custody-energy-escrow-regate-20260705.md`.
+
+Accepted: the scaling spine is the right custody object. For a
+fixed-shape compact impulse packet, scale \(L\) carries energy
+\(P^2/L^3\), while re-concentration to \(d<L\) asks for energy
+\(P^2/d^3\). Together with the fast-transit cubic note, this proves
+that thick/fast reassembly is not free at scaling level.
+
+Regated: the absolute claim that isolated thick debris can never
+re-concentrate is too strong as written. It needs a uniform
+impulse-energy lower bound over the admissible debris shapes, a precise
+subsystem definition of isolation, and a proof that the debris does not
+already carry enough stored energy to pay the small-scale bill.
+
+Corrected theorem form: energy escrow dichotomy. Either the thick debris
+already contains the energy needed for scale-\(d\) reassembly, and that
+stored energy is prior paid residue rather than free reserve; or the
+energy must be delivered through the participating medium, and fast
+delivery is priced by the increment-cubic transit identity. Remaining:
+shape-class lower bound, escrow localization on channel-window rows,
+and row lift into composition. No custody clearance or MPP closure is
+claimed.
 
 # Custody G-C-1: thick-debris re-concentration is energetically forbidden
 
