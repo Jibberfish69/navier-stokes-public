@@ -772,6 +772,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    explicit signed-stress certificate carriage, or actual-law/tower failure.
    The ballast is unresolved kinetic energy
    \(\mu_R=(1/2)\operatorname{tr}R\), not pressure deletion.
+   The PSD covariance no-vanishing-horn follow-up sharpens this branch:
+   \[
+     |A|_F\le 2\sqrt{2\over3}\,\mu_R .
+   \]
+   Thus vanishing normalized trace ballast forces vanishing normalized
+   trace-free covariance anisotropy. Positive limsup trace ballast instead
+   passes to a nonvanishing terminal subtail and the installed Field consumer
+   after same-solution witness admission.
    If that positive trace energy is admitted at terminal WKB frequency with
    \(\phi_jD_j^3\mu_{R,j}\ge c_0>0\) and \(\lambda_j\to\infty\), then
    \[
