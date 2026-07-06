@@ -168,3 +168,10 @@ It proves no lower bound for convex-hull-hidden resonant crowds, no exclusion
 of an infinite or dense WKB bath, no actual same-fluid construction theorem, no
 material custody theorem, no dense-crowd theorem, no confinement constant, and
 no MPP closure.
+
+## 7. Later finite-door supersession
+
+The convex-hull-hidden finite crowd left open here is closed by
+[mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.md).
+Exposedness is not the final finite obstruction; maximal noncollinear
+cross-shell alignment is.
