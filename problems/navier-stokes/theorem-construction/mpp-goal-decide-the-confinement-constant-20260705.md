@@ -298,7 +298,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    cutoff/Hodge retuning remains at the same cheap \(\beta^{8/5}\) ratio.
    Therefore the exact matrix must use exact unforced evolution, nonlocal
    pressure/Hodge structure, same-packet allocation, or a real summability-valid
-   bath construction, not a pointwise affine or generic collar tax. The reuse tracking ledger now prices
+   bath construction, not a pointwise affine or generic collar tax. The reuse
+   tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
