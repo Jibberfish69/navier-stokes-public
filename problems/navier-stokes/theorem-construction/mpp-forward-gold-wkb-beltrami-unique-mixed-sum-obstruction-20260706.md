@@ -1,6 +1,10 @@
 ---
 theorem_id: forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706
 status: exact-unique-cross-shell-frequency-obstruction
+later_supersession: >-
+  The finite multiply represented crowd left open here is closed by
+  mpp-forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706.
+  Infinite/dense WKB support remains outside this finite algebraic exclusion.
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
