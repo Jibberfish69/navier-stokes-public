@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-source-square-domination-to-same-carrier-spacetime-ui-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-square-no-spreading-l2-transfer-criterion-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-tower-to-source-square-upgrade-direct-test-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
 completion_truth: >-
   Failed direct proof and strict reduction only. The unbounded-count WKB atomic
   cloud carries a positive total selected moment, but that is an L1 fact. If
@@ -29,7 +30,11 @@ completion_truth: >-
   no-free-fragmentation theorem, a same-carrier source-square domination
   theorem, a uniform L2 transfer theorem, or admission of the whole shrinking
   cloud as a profile-level terminal witness. It proves no WKB construction or
-  exclusion and no MPP closure.
+  exclusion and no MPP closure. The cross-cell Gram-gap follow-up types the
+  remaining square rescue exactly: it is a uniform positive lower bound for the
+  actual interaction Gram form on the normalized admissible positive cloud
+  cone. Without that gap, near-null clouds retain total selected moment while
+  their cross-cell square charge vanishes.
 ---
 
 # Unbounded WKB cloud square-coercivity direct test
@@ -156,13 +161,21 @@ The unbounded-count atomic WKB branch is now narrower:
 \text{no-free-fragmentation}
   &\text{prove the actual NS cloud cannot realize uniform fragmentation},\\[1mm]
 \text{strong square theorem}
-  &\text{produce a same-carrier }L^2\text{ or source-square density not equal}\\
-  &\text{to the naive per-cell moment square},\\[1mm]
+  &\text{prove the actual cross-cell Gram gap or another same-carrier}\\
+  &\text{\(L^2\) / source-square density not equal to the naive square},\\[1mm]
 \text{fragmentation defect}
   &\text{accept positive limiting atom with no prelimit packet or square reserve}.
 \end{array}
 \tag{UC.11}
 \]
+
+The cross-cell follow-up makes the strong square line exact. A quadratic
+cross-cell form \(Q_j(a)=a^TG_ja\) gives count-free coercivity only when
+\[
+  \inf_{\sum_b a_b=1,\ a\in\mathcal C_j}a^TG_ja>0
+\]
+uniformly on the admissible positive cloud cone. If this Gram gap fails,
+near-null fragmented clouds keep the total selected moment while \(Q_j(a)\to0\).
 
 The terminal Sobolev Field readout is not contradicted by this failure. That
 consumer uses the linear total WKB moment \(\phi D^3|K|\) after same-solution
@@ -176,8 +189,8 @@ unbounded-cloud moment alone, square coercivity does not follow. The uniform
 fragmentation model preserves the WKB atomic moment while making every packet
 moment and the naive per-cell square reserve vanish.
 
-It proves no no-free-fragmentation theorem, no same-carrier source-square
-domination theorem, no uniform \(L^2\) transfer theorem, no cloud-profile
-admission theorem, no general `ActualWKBCarrierExtraction.A`, no WKB
-construction/exclusion theorem, no F4/F5 pass, no manuscript completion, and no
-MPP closure.
+It proves no no-free-fragmentation theorem, no cross-cell Gram-gap theorem, no
+same-carrier source-square domination theorem, no uniform \(L^2\) transfer
+theorem, no cloud-profile admission theorem, no general
+`ActualWKBCarrierExtraction.A`, no WKB construction/exclusion theorem, no F4/F5
+pass, no manuscript completion, and no MPP closure.
