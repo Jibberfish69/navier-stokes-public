@@ -19,7 +19,11 @@ completion_truth: >-
   (I3) the profile factor relating the static-X peak production
   coefficient 3*sqrt(3)/16 to the sinusoidal Crow eigenmode (one
   quadrature, exact integrand from the two-tube kernel); (I4) c_v, the
-  edge-mode damping coefficient. PASS CONDITION: sup K < ln 2 with
+  edge-mode damping coefficient. SCOPE RESTRICTION (same-day, per the
+  k5-high-re-edge-uniform-cap-obstruction note): this certification is
+  RESTRICTED to the marginal/unit-Re branch until the high-Re edge
+  payer (return-race/custody/sideband floor) is proved; do not promote
+  it to full pair-cell certification before that. PASS CONDITION: sup K < ln 2 with
   interval arithmetic over I1-I4 => no single encounter completes a
   record on the marginal family; every record needs multiple
   encounters, each separated by custody-priced re-assembly. FAIL
