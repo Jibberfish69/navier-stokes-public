@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
 completion_truth: >-
   Exact kernel-only countermodel. If the proposed cross-cell Gram form is only
   the translation-invariant mean-zero pressure / Calderon-Zygmund interaction
@@ -32,7 +33,10 @@ completion_truth: >-
   actual admissible-cone near-null WKB construction, no failure of every
   possible PDE uncertainty Gram gap, no profile admission theorem, no WKB
   construction/exclusion theorem, no crowd-cell theorem, no confinement
-  constant, and no MPP closure.
+  constant, and no MPP closure. The raw-CZ norm follow-up adds that apparent
+  B_M~M growth in cell-mass coordinates is only density normalization: the
+  product law becomes density-level anti-equidistribution, not a new raw-kernel
+  payer.
 ---
 
 # Pressure-kernel zero mode blocks a kernel-only Gram gap
@@ -162,6 +166,19 @@ If a bounded diagonal/self-cell correction \(D_b\) is retained, then
 \]
 This is the same fragmentation mechanism as the same-cell square failure, now
 with the mean-zero cross-kernel added.
+
+The later raw-CZ normalization check types the operator-scale issue. In density
+coordinates \(a_b=(1/M)f_b\), the Calderon-Zygmund operator is bounded in
+\(L^2_\omega\). In mass coordinates this can read as \(B_M\lesssim C M\), but
+then
+\[
+  \|a-u_M\|_2^2
+  =
+  {1\over M}\|f-1\|_{L^2_\omega}^2.
+  \tag{ZMG.16}
+\]
+Thus the product law \(B_Md_M^2\gtrsim1\) is exactly density-level
+anti-equidistribution. It is not a new pressure-kernel payer.
 
 ## 4. Consequence for `CrossCellWKBGramGap.A`
 
