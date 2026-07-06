@@ -49,9 +49,10 @@ unconditional statement about actual NS objects or closes a
 frontier item; reformulations are commentary. Order:
 F1 -> (F2 || F3) -> F4 -> F5.
 
-## 2. What is CLOSED (each link gated)
+## 2. What is CLOSED, and what is only closed in a subrow
 
-- **F1 — CLOSED** (finite-chain packet/window scope). The
+- **F1 finite-chain packet/window subrow — CLOSED; full FROZEN-GOAL
+  F1 actual-NS lift — PENDING the predator-cone population gate.** The
   angle-from-coupling identity: sin(angle) = (1/(2 c_T)) kappa|G|/|S|
   with c_T = 1/(4 sqrt 2); financed floor sin(phi_min) =
   (2 sqrt 2 / 7) J_min / C_amp after the Sigma/kappa collapse;
