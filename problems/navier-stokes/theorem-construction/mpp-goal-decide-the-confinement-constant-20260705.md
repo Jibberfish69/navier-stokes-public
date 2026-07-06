@@ -298,6 +298,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     payer; the live pressure branch is dynamic same-fluid transport/persistence,
     Reynolds-edge failure, fixed-density compensator/residue, or
     construction/exclusion.
+    Follow-up affine-transport pressure-bank obstruction filed: on one producer
+    clock, an affine producer frame \(B\), \(|B|\sim s\), carries the pressure
+    bank with bounded volume-preserving distortion. Transport, projection, and
+    Hessian tracking cost \(|K|D^5\), hence \(\beta^{4/5}E_{\rm prod}\) for the
+    overlap row; self-evolution is smaller by \(\beta^{2/5}\), and viscosity is
+    the Reynolds edge. Thus affine same-fluid custody is not the missing payer;
+    the live pressure branch is non-affine/broadband same-fluid transport,
+    Reynolds-edge failure, fixed-density compensator/residue, or
+    construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -412,7 +421,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    the Reynolds-edge bridge, fixed-density compensator/residue,
-   dynamic same-fluid pressure-bank transport/persistence, or a real
+   non-affine/broadband same-fluid pressure-bank transport/persistence, or a real
    summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
