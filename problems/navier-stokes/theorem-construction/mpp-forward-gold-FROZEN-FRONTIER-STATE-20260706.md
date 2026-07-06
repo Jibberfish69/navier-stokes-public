@@ -378,8 +378,8 @@ acceptance/verification — pending Codex gates).**
 - **h1 DISCHARGED:** the G6a home's <X>_fr is the one-period frozen
   average = the classical sn^2 average r_- + A sigma(m),
   sigma = (1 - E/K)/m >= 1/2; C2 applies at the home verbatim.
-- **TOP-BRACKET SHARP FORM consumed + ANSWERED (Fable, pending
-  gate, dwell-run-split-monotone-casimir-swing-beats-six-drifts):**
+- **TOP-BRACKET SHARP FORM consumed + ANSWERED (Fable) and CODEX
+  GATED (codex-fable-update429-430-pincer-pricing-dwellrun-gate):**
   the high-bottom/small-gap family is a PREFIX, not a band
   condition — the Casimir only decays on financed windows
   (exponentially at sheet rate G_e/X_max), so the split
@@ -391,21 +391,27 @@ acceptance/verification — pending Codex gates).**
   bracket is positive whenever A_0 > 6 d_R4^+ — THE SWING BEATS SIX
   DRIFTS, using only sigma >= 1/2. Consumer amendment requested
   (c_W^top spent on RUN only; T_dwell to the length row; rent
-  non-double-charge to confirm).
-- **W-II DECOMPOSED (Fable, pending gate,
-  partii-correction-acceptance-wii-decomposition-pricing-
-  completeness):** bounded readout => the pincer's recursion with
-  F = 0 => geometric decay (proof-grade given c_0 > 0); + THE
-  PRICING-COMPLETENESS INEQUALITY D_j <= C_pc E_j (scale-j shell
-  dissipation dominated by financed readout — homed at the F3
-  interface, which closed on ACTUAL suitable solutions); + CKN
-  epsilon-regularity imported as classical background. If the
-  inequality lands, the two remaining walls collapse to ONE (W-0,
-  faithfulness, appearing twice).
+  non-double-charge to confirm). CODEX GATE: the RUN algebra is
+  accepted. The prefix claim is conditional on a NET extraction law
+  \(\int_I\rho_{\rm ext}dt \ge G_{\mathfrak e}|I|/X_{\max}\) after
+  signed debt routing. Positive gross finance alone is not enough,
+  because the installed Gate-6 rho object is signed. Without that
+  net row, D1-D3 are a signed-extraction subgate, not a theorem.
+- **W-II DECOMPOSED (Fable) and CODEX GATED
+  (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
+  corrected block length
+  \(K=\lceil \log(2E_{\max}/e_{\rm marg})/\log(1/q)\rceil\) is
+  accepted; bounded readout plus no fresh admissions gives geometric
+  decay by recurrence algebra once \(c_0>0\) is certified. THE
+  PRICING-COMPLETENESS INEQUALITY \(D_j \le C_{\rm pc}E_j\) remains
+  the live actual-solution theorem, homed at the F3 interface. The CKN
+  import fires only after \(D_j\) is matched to the nested parabolic
+  CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff; carries the extraction laws AND pricing
-  completeness); A_0 > 6 d_R4^+ on RUN (+ Phi_0 > 0) certifying
-  Delta_G6a^top > 0; the dwell-run consumer amendment; G3
+  single-mode handoff); signed/net extraction for monotone Casimir
+  decay if not supplied by W-0; pricing completeness
+  \(D_j\le C_{\rm pc}E_j\); \(A_0 > 6d_{\rm R4}^+\) on RUN
+  (+ \(\Phi_0>0\)); the dwell-run consumer amendment; G3
   clock-conversion display; g2 root-labeling re-gate; BoundaryTail
   split; the Chapter-10 rows.
 
@@ -461,5 +467,11 @@ notes.
   is VOID.
 - "A/2 > d_R4 certifies the top bracket globally": FALSE (sharp
   form: a high-bottom/small-gap family kills the bracket). Active
-  surface: the dwell-run split + A_0 > 6 d_R4^+ on RUN (pending
-  gate), or direct interval evaluation of the exact sharp bracket.
+  surface: the dwell-run split + A_0 > 6 d_R4^+ on RUN, conditional
+  on the net-extraction/Casimir-prefix row, or direct interval
+  evaluation of the exact sharp bracket.
+- "Positive gross finance makes the Casimir dwell prefix monotone":
+  FALSE as stated. The Gate-6 extraction object is signed; the
+  dwell-run prefix needs a net-positive extraction law after signed
+  debt routing, or an active-clock reformulation where negative
+  orientation is already removed.
