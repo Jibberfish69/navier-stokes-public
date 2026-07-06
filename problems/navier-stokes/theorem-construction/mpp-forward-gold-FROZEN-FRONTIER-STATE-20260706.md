@@ -448,6 +448,22 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(\sup_{16a<q<2\log2}S(q)\), the friendly midpoint branch is impossible
   before rent; the full scalar supremum remains the fallback.
 
+  CODEX ROUTE-3 MIDPOINT RENT-SHIFTED PEAK REDUCTION (2026-07-06,
+  codex-route3-midpoint-rent-shifted-peak-reduction): the optimized
+  friendly midpoint fallback is no longer a free one-dimensional sweep. With
+  \(b=8a\), \(U=2\log2\), and \(E=e^{q/2}\), define
+  \[
+    J_b(q)=
+    {(E^2+2qE-4)(q-b)^2\over4(4+E(q-b+2))}.
+  \]
+  The full drift-plus-rent margin is strictly increasing before the source
+  peak, and \(J_b\) is strictly increasing after it. Thus the fallback is a
+  lower-edge test in the high-\(a\), low-rent regime, or one rent-shifted root
+  \(J_b(q_s)=R_0/(g_0X_{\max}^2)\) with pass condition
+  \(M_{\rm prod}(q_s)>0\). If
+  \(R_0/(g_0X_{\max}^2)\ge U(U-b)^2/[2(4+U-b)]\), the friendly midpoint
+  branch is impossible by rent alone. No packet ratios are evaluated here.
+
   CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
   codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
   decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
