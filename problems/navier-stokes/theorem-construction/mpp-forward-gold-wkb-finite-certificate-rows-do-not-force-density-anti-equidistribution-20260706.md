@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-assembly-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-high-rank-linear-certificates-collapse-to-mismatch-payer-20260706.md
 completion_truth: >-
   Exact obstruction to one source of legal density anti-equidistribution. A
   finite number of uniformly bounded linear certificate rows, when used only as
@@ -29,10 +30,12 @@ completion_truth: >-
   matrix of the row functions. That is a named row/payer, not a consequence of
   finite certificate compatibility, chart count, common identity, or closedness.
   Therefore density-level anti-equidistribution for the WKB crowd must come
-  from a fixed nonuniform moment row, high-rank/infinite certificate family,
-  nonlinear/global same-packet law, or construction/exclusion of the bath. This
-  proves no such row, no high-rank/global law, no WKB construction/exclusion,
-  no confinement constant, and no MPP closure.
+  from an explicit fixed/nonzero row-distance payer, a nonlinear/global
+  same-packet law, or construction/exclusion of the bath. The high-rank linear
+  follow-up shows that rank does not change this split: uniform-compatible
+  linear families still admit the uniform density, and nonuniform families pay
+  by row-distance. This proves no such row, no nonlinear/global law, no WKB
+  construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
 # Finite certificate rows do not force density anti-equidistribution
@@ -204,8 +207,8 @@ It must come from one of:
 \begin{array}{ll}
 \text{fixed nonuniform moment row}
   &\text{a real row with order-one mismatch},\\[1mm]
-\text{high-rank or infinite certificate family}
-  &\text{many rows closing around uniformity},\\[1mm]
+\text{high-rank or infinite linear family}
+  &\text{explicit row-distance payer or no gap},\\[1mm]
 \text{nonlinear/global same-packet law}
   &\text{a true dynamic admissibility restriction},\\[1mm]
 \text{construction/exclusion}
@@ -223,9 +226,10 @@ material ancestry, carrier cover, and same-law tower identity.
 If those readouts only say that every cell belongs to the same closed legal
 packet surface, they do not prevent the bath from distributing its positive
 service nearly uniformly over many cells. To prevent that distribution, the
-fluid must supply a real nonuniformity: a fixed row that the uniform bath fails,
-a high-rank certificate that sees the many cells, a nonlinear same-packet law,
-or a construction/exclusion theorem.
+fluid must supply a real nonuniformity: a row-distance mismatch that the
+uniform bath fails, a nonlinear same-packet law, or a construction/exclusion
+theorem. A high-rank linear family is only another row-distance mismatch unless
+it leaves the uniform bath legal, in which case it pays nothing.
 
 ## 7. Four-sentence result
 
@@ -238,7 +242,8 @@ they do so by an explicit fixed moment mismatch
   \delta^T\mathcal G^\dagger\delta,
 \]
 which is a named row/payer. Thus the WKB crowd branch still needs a fixed
-nonuniform row, a high-rank/infinite or nonlinear same-packet law, or
-construction/exclusion of the bath.
+nonzero row-distance payer, a nonlinear/global same-packet law, or
+construction/exclusion of the bath; high-rank linear rows do not create a
+separate mechanism.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
