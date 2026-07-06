@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -63,8 +64,11 @@ completion_truth: >-
   the local instantaneous residual is not weak; at the production
   station the scale-normalized normal leakage rate is exactly
   2*sigma_max. The combined instantaneous vector floor is also paid on
-  the producing two-tube profile: E >= sigma/3. Certification-typed
-  inputs, named: the core-log
+  the producing two-tube profile: E >= sigma/3. The same-packet
+  two-tube TV reduction integrates this to Prod_+ <= 3 TV_evict, so
+  signed time-cancellation is not an escape in TV currency. The open
+  issue is bounding or consuming total eviction variation. Certification-
+  typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
   peak production to the Crow eigenmode. The doubling comparison (cap
@@ -160,3 +164,9 @@ floor through the lifetime dynamics.
 Same-day combined-vector follow-up: \(\mathcal E\ge\sigma/3\) on the
 producing two-tube profile. The open Crow/K3 issue is still lifetime
 transport of this instantaneous floor, not the pointwise floor itself.
+Same-day TV follow-up: on a leading-order two-tube episode,
+\[
+\mathrm{Prod}_+\le 3\,\mathrm{TV}_{\rm evict}.
+\]
+Thus time-cancellation is killed in total-variation currency; the open
+Crow/K3 issue is the total-variation budget and duration clock.
