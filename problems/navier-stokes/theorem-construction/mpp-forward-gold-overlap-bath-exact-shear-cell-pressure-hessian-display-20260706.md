@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -36,9 +37,12 @@ completion_truth: >-
   constant producing affine jet creates no cross pressure Hessian at the
   station. Follow-up fast-direction tracking obstruction checks that
   producer-clock retuning of K's direction costs |K|D^5, the existing q=4/5
-  pressure row. What remains is localization/collar matching and producer
-  curvature, record-ladder allocation, faster-than-producer forced tracking, or
-  construction/exclusion.
+  pressure row. Follow-up producer-curvature subscale obstruction checks that
+  the first nonconstant producer term creates cross Hessian
+  s(D/R)sqrt(|K|), which stays inside the q=4/5 row when
+  D/R<=beta^(2/5), leaving the viscous subcell-room condition. What remains is
+  subcell/high-Re admissibility, record-ladder allocation, faster-than-producer
+  forced tracking, or construction/exclusion.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -282,9 +286,9 @@ This display does not decide the exact overlap-bath matrix.
 The remaining burdens are:
 
 - localization of the periodic shear cell into the producing field with the
-  collar estimates already priced, including producer curvature across the
-  cell;
-- same-packet allocation of the pressure service into record-ladder currency.
+  collar estimates already priced, including the subcell/high-Re condition for
+  producer curvature;
+- same-packet allocation of the pressure service into record-ladder currency;
 - faster-than-producer forced tracking, if the exact matrix demands
   \(|\dot K|\gg s|K|\).
 
@@ -301,8 +305,9 @@ cell \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
 \]
 The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
-overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). The exact-matrix
-branch is now narrowed to localization, producer curvature, allocation,
-faster-than-producer forcing, or construction, not the mean-zero
-pressure-source constraint, instantaneous multi-direction pressure algebra,
-constant-affine producer coupling, or producer-clock direction tracking.
+overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
+curvature-subcell check, the exact-matrix branch is now narrowed to
+subcell/high-Re admissibility, allocation, faster-than-producer forcing, or
+construction, not the mean-zero pressure-source constraint, instantaneous
+multi-direction pressure algebra, constant-affine producer coupling,
+producer-clock direction tracking, or generic producer curvature.
