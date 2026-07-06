@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -60,7 +61,11 @@ completion_truth: >-
   anti-equidistribution theorem, or construction/exclusion is supplied. This
   bounded-count theorem is not supplied by the finite-cover certificate itself:
   one legal chart can contain arbitrarily many effective cells in one identity
-  fiber while the square charge remains 1/M. This
+  fiber while the square charge remains 1/M. The uniform-mode follow-up then
+  prices the other alternative: a positive uniform-mode charge is the rank-one
+  all-to-all payer gamma_F(sum a_b)^2. In the overlap-bath pressure channel,
+  demanding order-one gamma_F is the fixed-density compensator branch already
+  priced as producer-equivalent residue by the Gate-8 density notes. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -306,6 +311,12 @@ The finite-cover follow-up blocks the cover-count version of that extra
 theorem. One legal chart and one common identity fiber can contain \(M\) equal
 effective WKB cells, so finite cover does not imply bounded effective cell
 count and does not by itself produce the Gram gap.
+
+The uniform-mode follow-up prices the positive-uniform-mode alternative. A
+nonzero uniform mode is an all-to-all rank-one payer on the selected positive
+cloud. In the pressure-service overlap bath, an order-one version of that
+payer is exactly the fixed-density compensator/residue branch unless a new
+non-pressure backing measure is proved.
 
 ## 6. Four-sentence result
 
