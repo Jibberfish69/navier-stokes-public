@@ -691,6 +691,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    of the measure-valued terminal profile itself, or a limit-of-class /
    original-participation defect. Compactness gives the profile, not the
    admission theorem.
+   The atomic reconstruction direct test then blocks the cheap atom upgrade:
+   a limiting phase atom can come from a shrinking diffuse prelimit cloud, so
+   the atomic branch needs prelimit atomization / finite packet quantization,
+   shrinking phase-tube cloud admission, or an atomic fragmentation defect.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
