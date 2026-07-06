@@ -109,8 +109,21 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   here: substitution veto -> ContiguousFirstAdmissionChain ->
   internal/external split -> window-type obstruction ->
   MacroWindowNetReserveInequality -> source-freshness -> the wall.
-  Depth pricing: N* >= 128 ln2/pi^2 (>= 9 rungs, perfect angle),
-  N* >= 1152 ln2/pi^2 (>= 81, current ceiling), under five
+  Depth pricing (SHARP, Opus 4.8 note): N > (2 ln2/pi^2) R^2/gamma^2
+  with R = log(63000 pi/53) > 8.225 - N* >= 10 (perfect angle),
+  N* >= 111 (current ceiling; the rounder 81 used R = 8). The sqrt(N)
+  DEPTH LAW: a sqrt(N) clock supply chasing an O(1) log demand needs
+  quadratic depth - the shape of the estimate, not an accident. Sharp
+  verdict margins: fails by > 6.07x at the ceiling, > 1.779x at
+  perfection - demand-constant sharpening eliminated as a solo
+  rescue. STANDARD-THEORY BRIDGE (Opus, pending gate): door (A) =
+  a critical-scale Carleson/tent bound on the genuinely fresh
+  enstrophy production of one material history; relatives CKN
+  epsilon-regularity, ESS L3, Tao quantitative regularity;
+  NON-CIRCULAR (a forward a priori bound, legitimate target) but
+  CRITICAL-REGULARITY-HARD - the Section-6 sentence is accurate in
+  standard terms. Key note:
+  w1-depth-law-and-fresh-source-standard-bridge. Under five
   requirements (first-admission, one terminal charge, cost routing,
   W3/W6 compatibility, freeze reopening). THE PHYSICAL QUESTION THE
   STORY OWES: does the fluid-object's ladder recruit genuinely fresh
@@ -240,6 +253,29 @@ sqrt(1 - m_cap)/6; rho identification rho = |g_2|/(2|g_1|) with
 rho^+ = 7 conservative (6 sharp) on the sub-octave row (eta_p = 1/2
 declared; q - p >= p/2; Sigma <= 7 kappa_min i.e. <= 6 sharp);
 theta_marg = 1/(2 N_ov R_g kappa_min^{1/2}) (W5', epsilon = 1).
+
+**PRODUCT-SIDE OBSTRUCTION (2026-07-06, while paused): THE
+BOTTOM-ROOT HORN.** Delta_G6a factorizes as inf over endpoints of
+U_sigma (delta_sigma^fr - d_R4) with root factor U_sigma =
+r_sigma(I_1 + I_2 - 2 r_sigma). An EXACT Gate-6 family exists with
+fixed swing, fixed modulus, fixed separatrix gap, finite period,
+POSITIVE unweighted drain throughput (A/T_per independent of r_-),
+while the bottom root r_- -> 0 kills U^- -> 0. Consequences (all
+Codex-checked): the financed swing/period floors do NOT imply the
+root-factor floor; the horn is NOT sub-financing under the current
+definition (financed in drain currency); it is NOT a CM/Part face
+failure by itself; the Part-bridge attempt reduces to the same
+missing floor. LIVE ALTERNATIVES: (a) a noncircular lower-root /
+phase-invariant floor r_- >= r_0 > 0 on the financed family; (b) a
+NEW poor-horn comparison proving the root-degenerate branch
+sub-financing; (c) a new root-service participation law (= the same
+floor in Part language). The monotone-envelope row stands as the
+sufficient interval form once the floor exists. Key notes:
+codex-delta-g6a-factorized-source-row,
+codex-delta-g6a-root-factor-bottom-root-obstruction,
+codex-bottom-root-horn-financed-obstruction,
+codex-bottom-root-horn-cm-route-audit,
+codex-product-row-monotone-envelope-after-ge.
 
 ## 5. Failure taxonomy (carried verbatim)
 
