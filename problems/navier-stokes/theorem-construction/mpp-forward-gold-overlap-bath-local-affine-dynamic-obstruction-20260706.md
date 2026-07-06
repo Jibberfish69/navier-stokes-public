@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and checked obstruction, not a crowd theorem and not a
   confinement-constant decision. The installed local affine material-jet note
@@ -31,7 +32,9 @@ completion_truth: >-
   the overlap-bath decision to global same-fluid matching over time: exact
   unforced evolution, nonlocal Hodge/pressure coupling, same-packet allocation,
   or a summability-valid dynamic construction. Follow-up collar scaling audit
-  kills generic cutoff/Hodge retuning as the missing floor.
+  kills generic cutoff/Hodge retuning as the missing floor. A further
+  pressure-source follow-up sets the producer-clock pressure row at
+  beta^(4/5)E_prod, still below a fixed floor.
 ---
 
 # Overlap bath: local affine dynamic obstruction
