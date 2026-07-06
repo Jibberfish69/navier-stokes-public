@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
 completion_truth: >-
   Strict reduction and spatial-threshold obstruction, not a dynamic bath
   construction, not a dense-crowd theorem, and not a confinement-constant
@@ -32,7 +33,12 @@ completion_truth: >-
   equivalently a supercritical spatial residual. That surviving branch is not a
   generic custody tax: it is a Reynolds-edge/producer-suppression branch, a
   smaller-scale crowd/cascade construction branch, or the existing
-  fixed-density compensator/residue problem.
+  fixed-density compensator/residue problem. Follow-up supercritical residual
+  scale split prices an active length ell=theta D on volume fraction phi:
+  E_res/E_prod ~ phi eta^2 theta^2. At eta~beta^(-4/5), coherent moderate
+  residuals with phi theta^2 >= c beta^(8/5) are order-one payers; q=4/5
+  hiding requires phi theta^2 <= C beta^(12/5), hence a fine/sparse cascade
+  and a strengthened Reynolds edge.
 ---
 
 # Overlap bath: non-affine transport threshold obstruction
@@ -224,12 +230,13 @@ broadband crowd.
 
 The remaining non-affine/broadband branch is now typed:
 
-- supercritical spatial residual:
-  \(\delta_D/s\gtrsim\beta^{-4/5}\);
+- supercritical spatial residual, now split by active scale and support:
+  coherent moderate residual pays order-one energy, while q=4/5 hiding needs
+  \(\phi(\ell/D)^2\lesssim\beta^{12/5}\);
 - Reynolds-edge or producer-suppression bridge for such residuals at scale
   \(D\);
-- smaller-scale crowd/cascade construction, if the residual is a real
-  high-Reynolds broadband field rather than a tax;
+- fine/sparse smaller-scale crowd/cascade construction, if the residual is a
+  real high-Reynolds broadband field rather than a tax;
 - fixed-density compensator/residue, if an order-one retained tax is demanded;
 - or construction/exclusion of a summability-valid dynamic pressure bath.
 
