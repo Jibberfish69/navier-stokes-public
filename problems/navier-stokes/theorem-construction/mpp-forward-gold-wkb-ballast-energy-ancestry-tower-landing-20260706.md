@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-defect-current-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
 completion_truth: >-
@@ -22,7 +23,10 @@ completion_truth: >-
   weak velocity branch, so after the cover landing it still has the two
   non-cover certificate burdens of an admitted WKB profile. It must lift to a
   material energy current whose transport defect relative to the limiting
-  velocity vanishes or is legally carried, and it must lift to the differentiated
+  velocity vanishes or is legally carried. Legal carriage of \(A_R\) by the same
+  ballast mass means \(A_R=w_R\rho_R\) and \(|A_R|=|w_R|\rho_R\); singular
+  current relative to \(\rho_R\) needs added legal ancestry mass/current or is
+  material-history failure. The ballast must also lift to the differentiated
   same-law tower whose derivative-graph and nonlinear flux defects vanish or are
   legally carried. If either lift is absent, the positive ballast is not
   retained pressure-null supply: it is Part-side material-ancestry or same-law
@@ -97,6 +101,20 @@ in the required graph/current sense, or when \(A_R\) is legally carried as part
 of the original-participation certificate. If not, the profile retains a
 positive scalar energy measure but has lost the same-fluid history of that
 energy.
+
+The legal-carriage alternative has an exact current-variation floor. If the same
+ballast mass carries the current defect, then
+\[
+  A_R=w_R\rho_R,\qquad |A_R|=|w_R|\rho_R .
+  \tag{BAT.7a}
+\]
+If instead
+\[
+  A_R=w_R\rho_R+A_R^\perp,\qquad A_R^\perp\perp\rho_R,
+  \tag{BAT.7b}
+\]
+then \(A_R^\perp\) is not carried by the named ballast mass. It requires an added
+legal ancestry mass/current, or the branch has material-history failure.
 
 That failure is Part-side material-ancestry failure. It is not retained
 pressure-null supply.
