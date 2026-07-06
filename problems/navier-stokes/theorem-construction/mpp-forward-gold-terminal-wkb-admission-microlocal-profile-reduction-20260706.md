@@ -266,7 +266,7 @@ ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 transport-defect material-ancestry closure fork, and the finite-cover
-compactness fork
+compactness fork, and the same-law tower defect fork
 WKBConstructionOrExclusion.A
 ```
 
