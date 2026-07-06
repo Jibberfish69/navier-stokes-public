@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-reduced-theorem-payment-20260705
-status: codex-regated-enumeration-reduced-to-deterministic-channel-cells-reconstruction-overlap-open
+status: codex-regated-positive-control-paid-reconstruction-overlap-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / goal item 6 / Codex gate 7 reduced theorem
@@ -12,10 +12,15 @@ completion_truth: >-
   reduced to the deterministic half-open channel-cell frame from
   mpp-forward-gold-codex-channel-cell-bv-tightness-proof-20260705.md.
   No new Castaing-selected adaptive packet family is needed for finite
-  readout. What remains load-bearing is finite-readout reconstruction of
-  the relevant defect/active monomial mass from the channel-cell
-  measures, UV/IR and mollifier tail charging, and overlap accounting
-  with no dropped mass or double tax.
+  readout. Same-date follow-up
+  mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md
+  pays the positive control-measure choice and weak-limit domination
+  direction on fixed channel cells by taking
+  lambda_a = w*-lim |nu_a^epsilon| and proving |nu_a| <= lambda_a. What
+  remains load-bearing is finite-readout reconstruction of the relevant
+  defect/active monomial mass from the channel-cell measures, UV/IR and
+  mollifier tail charging, coherence versus mass-greedy selection, and
+  overlap accounting with no dropped mass or double tax.
   CODEX RE-GATE UPDATE, same date. This note gives the right finite
   target for reduced gate 7, but it does not pay the theorem.
   Countability is the right strategy only after the packet/window family
@@ -49,6 +54,24 @@ overlap: prove that the channel-cell measures reconstruct the relevant
 defect/active monomial mass, that locality and mollifier tails are
 charged in the eta budget, and that sibling/diffuse routing drops no
 mass and double-taxes no unit.
+
+## Codex update, 2026-07-06: positive control measure
+
+Codex follow-up filed at
+`mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md`.
+For each finite-readout channel-cell pair \(a\),
+\[
+  \lambda_a=\mathrm{w^*}\!-\lim|\nu_a^\varepsilon|,
+  \qquad
+  |\nu_a|\le\lambda_a .
+\]
+This pays the positive control-measure choice and the weak-limit
+domination direction. The cover is over \(\lambda_a\), the variation
+envelope of the same prelimit throughput, not over the signed measure
+and not over the local-energy residence budget.
+
+The reduced theorem remains open at total reconstruction, tails,
+coherence, and bounded-overlap/merger accounting.
 
 ## (a) The readout at partition grade
 
