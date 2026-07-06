@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and checked obstruction, not a crowd theorem and not a
   confinement-constant decision. The overlap-bath survivor cannot be killed by
@@ -40,8 +41,10 @@ completion_truth: >-
   this dynamic branch is not a pointwise affine tracking tax: every smooth
   symmetric trace-free A(t) is locally Navier-Stokes-admissible after choosing
   the pressure Hessian. Second follow-up says generic time-dependent
-  cutoff/Hodge retuning is also cheap by scaling. Thus the remaining dynamic
-  decision is exact unforced/global/material.
+  cutoff/Hodge retuning is also cheap by scaling. Third follow-up says
+  pressure-Hessian source retuning costs beta^(4/5)E_prod, more than the collar
+  row but still below an order-one floor. Thus the remaining dynamic decision
+  is exact unforced/global/material.
 ---
 
 # Overlap bath: affine-jet static energy obstruction
