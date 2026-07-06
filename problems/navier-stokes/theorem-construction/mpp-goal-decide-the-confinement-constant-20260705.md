@@ -1028,8 +1028,15 @@ the confinement constant.
    In the overlap-bath pressure channel, order-one \(\gamma_F\) is the same
    fixed-density tax demand already reduced to producer-equivalent compensator
    residue. After subtracting any actually backed rank-one payer, the remaining
-   Gram problem is legal anti-equidistribution, residual positivity, or
-   construction/exclusion.
+   bounded residual Gram problem is legal anti-equidistribution: if \(H\) has
+   the uniform mode removed and \(\|H\|\le C\), then
+   \[
+     |a^THa|\le C\|a-u\|_2^2.
+   \]
+   Thus residual positivity is no longer an independent placeholder. Bounded
+   residual positivity is anti-equidistribution in residual-metric coordinates;
+   unbounded residual positivity is a new payer/certificate or
+   construction/exclusion branch.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
