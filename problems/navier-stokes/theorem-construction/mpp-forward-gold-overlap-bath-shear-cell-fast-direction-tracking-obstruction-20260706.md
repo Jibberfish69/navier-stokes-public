@@ -34,9 +34,10 @@ completion_truth: >-
   the Reynolds threshold bridge for producer curvature, Gate-8 no-recount
   allocation/compensator, or an actual summability-valid dynamic bath
   construction/exclusion. Follow-up affine-transport pressure-bank obstruction
-  prices affine same-fluid custody at beta^(4/5); the current transport branch
-  is non-affine/broadband, with any supercritical fast-motion forcing housed
-  there.
+  prices affine same-fluid custody at beta^(4/5). Follow-up non-affine
+  transport threshold obstruction says residual spatial variation stays cheap
+  until delta_D/s>=beta^(-4/5); the current transport branch is supercritical
+  non-affine/broadband.
 ---
 
 # Overlap bath: shear-cell fast-direction tracking obstruction
@@ -226,9 +227,9 @@ The remaining pressure-row burdens are:
   suppression;
 - Gate-8 no-recount allocation of the pressure service into record-ladder
   currency, or a compensator/residue;
-- non-affine/broadband same-fluid transport, including any supercritical
-  fast-motion forcing demanded by the exact matrix after affine custody is
-  priced;
+- supercritical non-affine/broadband same-fluid transport, including any
+  fast-motion or spatial residual forcing demanded by the exact matrix after
+  affine custody is priced;
 - or a full summability-valid dynamic bath construction or exclusion.
 
 ## 8. Four-sentence result
@@ -247,5 +248,5 @@ and changing one coefficient costs \(|dc|D^5\). Hence
 \]
 over one producer clock. Producer-clock direction tracking is the existing
 pressure row, not an order-one floor; the remaining pressure branch is
-non-affine/broadband same-fluid transport, the Reynolds-edge bridge, Gate-8
-no-recount allocation/compensator, or construction/exclusion.
+supercritical non-affine/broadband same-fluid transport, the Reynolds-edge
+bridge, Gate-8 no-recount allocation/compensator, or construction/exclusion.
