@@ -20,6 +20,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -49,7 +51,10 @@ completion_truth: >-
   closed-graph witness follow-up pays the exact legal-support compactness
   criterion: closed legal labels admit profile support, while nonclosed
   legality is a limit-of-class / original-participation / carrier-or-tower
-  failure. A nonzero diffuse part reduces the problem to
+  failure. Certificate compactness then names the closedness input, and its
+  actual-law coordinate now requires the Reynolds defect to vanish modulo
+  pressure gauge with compatible service, or to be legally carried. A nonzero
+  diffuse part reduces the problem to
   DiffuseWKBProfileAdmission.A: admit the diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
   limit-of-class / original-participation defect. The already filed
@@ -316,6 +321,13 @@ and same-law tower. If a certificate coordinate is noncompact or projected
 away, the first lost certificate is the Pack/Part/Field landing rather than
 retained supply.
 
+The pressure-law certificate has now been split once more. Weak WKB compactness
+passes the Navier-Stokes equations to a Navier-Stokes-Reynolds limit unless the
+quadratic defect \(R\) has \(\mathbb P\operatorname{div}R=0\) with compatible
+pressure service, or unless \(R\) is itself carried as a legal certificate.
+Thus the actual-law part of diffuse profile admission is not scalar service
+passage; it is Reynolds-defect closure or certified Reynolds-defect carriage.
+
 ## 8. State
 
 The compact-continuum WKB branch is now split into two smaller objects:
@@ -334,7 +346,8 @@ WKB survivor lies in that unbounded-count case. The latter is a measure-valued
 terminal witness theorem or limit-of-class failure theorem, after the scalar
 moment-passage clause has been paid by `WKBServiceModulus.A` or else routed to
 moving-selector escape, and after the legal-support clause has been reduced to
-certificate compactness of the same-solution legal-label graph.
+certificate compactness of the same-solution legal-label graph, including the
+Reynolds-defect closure fork for the actual-law coordinate.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,
