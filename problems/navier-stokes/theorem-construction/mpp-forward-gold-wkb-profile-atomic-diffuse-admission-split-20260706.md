@@ -12,6 +12,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -24,10 +25,13 @@ completion_truth: >-
   witness from one fixed limiting phase label. A nonzero diffuse part reduces
   the problem to DiffuseWKBProfileAdmission.A: admit the diffuse phase-space
   measure itself as a lawful terminal witness ledger, or classify failure of
-  such admission as a limit-of-class / original-participation defect. This note
-  proves the measure split and blocks the overclaim that tightness or
-  microlocal visibility alone proves ActualWKBCarrierExtraction.A or
-  MicrolocalDefectProfileAdmission.A. No profile admission theorem, no WKB
+  such admission as a limit-of-class / original-participation defect. The
+  already filed angular-continuum quadrature note removes pure direction
+  diffusion as an independent pressure-service escape; the remaining diffuse
+  burden is material, time, center, envelope, scale, bank, weight, or profile
+  admission. This note proves the measure split and blocks the overclaim that
+  tightness or microlocal visibility alone proves ActualWKBCarrierExtraction.A
+  or MicrolocalDefectProfileAdmission.A. No profile admission theorem, no WKB
   construction/exclusion theorem, and no MPP closure is claimed.
 ---
 
@@ -170,6 +174,16 @@ mass, even though the total diffuse mass is nonzero.
 This branch is a genuine phase-complexity object. It cannot be renamed as an
 actual WKB carrier. The admission theorem required here is:
 
+The angular-continuum quadrature note removes one subcase. If the diffusion is
+only in Beltrami direction at a fixed bank/station, the pressure moment depends
+only on the second angular moment and has an exact three-axis quadrature. That
+diffuse angular profile is not an independent active-service supplier. The
+diffuse burden here is diffusion in the remaining carrier coordinates:
+material path, time, center, envelope, relative scale, bank, weight, refresh
+label, or the measure-valued profile itself.
+
+The admission theorem required here is:
+
 ```text
 DiffuseWKBProfileAdmission.A
 ```
@@ -219,7 +233,7 @@ the nonvanishing terminal WKB horn now has the exact split:
 \text{tight continuum profile with atom}
   &\Rightarrow
   \text{AtomicWKBProfileReconstruction.A},\\[2mm]
-\text{tight continuum profile, diffuse mass}
+\text{tight continuum profile, diffuse non-angular mass}
   &\Rightarrow
   \text{DiffuseWKBProfileAdmission.A},\\[2mm]
 \text{nontight WKB carrier measures}
