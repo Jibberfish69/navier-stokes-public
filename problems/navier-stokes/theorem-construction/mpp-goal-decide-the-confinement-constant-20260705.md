@@ -640,6 +640,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(\operatorname{Re}_D\theta^2\), so refresh costs
    \(\phi(H/s^2)/\operatorname{Re}_D\) in producer units. Thus terminal
    frequency is persistence or refresh/custody, not automatic viscous eviction.
+   The terminal WKB Field-admission reduction then separates the already-paid
+   readout from the missing admission clause: if
+   \(\phi D^3|K|\not\to0\) while \(\lambda\to\infty\), then every \(m>1\)
+   Sobolev readout diverges, and the installed Sobolev/H^s CM theorem gives the
+   Field-face failure once the WKB packet is a same-solution terminal witness
+   ledger. The exact open theorem is
+   `TerminalWKBMomentWitnessAdmission.A`, not a Chapter-10 number.
    This still leaves exponential high-Re persistence with Field/high-factor
    fork, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
    angle/eigenpath service, and construction/exclusion.
