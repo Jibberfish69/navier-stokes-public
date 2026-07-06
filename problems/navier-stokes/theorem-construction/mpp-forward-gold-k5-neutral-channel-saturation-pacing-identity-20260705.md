@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
 external_inputs_to_verify:
   - Crow 1970 dispersion (already carried by the kill-integral note)
   - nonlinear Crow evolution: trough pinch-in preceding reconnection
@@ -33,8 +34,10 @@ completion_truth: >-
   rather than WKB-slow. Even if Re Lambda_edge > 0, the neutral-phase
   integrated production is logarithmic in seed amplitude, not
   seed-independent. If Re Lambda_edge <= 0 the pure neutral channel
-  survives outright; if Re Lambda_edge > 0, K5 still needs a seed floor,
-  custody payment, or sideband/crowd mechanism. No closure claimed.
+  survives outright; if Re Lambda_edge > 0, K5 still needs an external
+  clock. The viscous Reynolds split supplies that clock on the
+  unit/marginal branch and leaves the super-marginal branch weighted.
+  No closure claimed.
 ---
 
 # K5: neutral-channel saturation by the pacing identity
@@ -88,5 +91,6 @@ coefficient is the resonant edge normal-form coefficient Lambda_edge.
 The local-kappa trough criterion is rejected as a certification
 criterion. Even favorable sign gives a log(seed) neutral-phase integral.
 Kill condition (standing, from the goal): Re Lambda_edge <= 0 or
-symmetry-zero on the edge family, or no seed floor/custody mechanism for
-the log, leaves the pure neutral channel uncapped.
+symmetry-zero on the edge family kills inviscid self-saturation; the
+viscous Reynolds split caps the unit/marginal branch and leaves the
+high-Re branch to return-race/custody/sideband mechanisms.
