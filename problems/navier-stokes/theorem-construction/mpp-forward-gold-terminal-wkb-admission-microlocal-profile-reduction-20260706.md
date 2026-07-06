@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -56,7 +57,10 @@ completion_truth: >-
   lie in the exact Leray-null class R=qI+S with div S=0, or be legally carried
   as a profile certificate. The null class contains trace-free anisotropic
   Hessian gauges R_phi=Hess phi-(Delta phi)I/3, so anisotropy alone does not
-  close the pressure row. The ancestry coordinate has the transport-defect
+  close the pressure row. Actual Reynolds origin adds the covariance-ballast
+  screen, whose positive trace is unresolved kinetic energy; once that trace is
+  admitted at terminal WKB frequency with nonvanishing mass, it is consumed by
+  the same Sobolev/Field readout. The ancestry coordinate has the transport-defect
   fork, and the cover coordinate has the finite-cover compactness fork.
   Existing microlocal-defect notes show
   that defect visibility alone does not supply selected positive-carrier
@@ -89,6 +93,27 @@ Thus
   \|\nabla^m u_{\rm WKB}\|_2\to\infty
   \quad(m>1).
 \]
+
+The covariance-ballast trace version is parallel. If the admitted terminal WKB
+profile carries positive unresolved covariance energy
+\[
+  \mu_R={1\over2}\operatorname{tr}R
+\]
+with
+\[
+  \lambda\to\infty,
+  \qquad
+  \phi D^3\mu_R\ge c_0>0,
+\]
+then
+\[
+  \|\nabla^m u_{\rm WKB}\|_2^2
+  \sim
+  \phi D^3\mu_R\lambda^{2m}
+  \longrightarrow\infty
+  \quad(m>0),
+\]
+and the installed \(m>1\) Sobolev consumer applies.
 
 Once this object is a synchronized same-fluid terminal witness ledger, the
 installed Sobolev/H^s CM theorem applies:
