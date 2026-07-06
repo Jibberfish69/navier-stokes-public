@@ -65,7 +65,8 @@ completion_truth: >-
   admitted at terminal WKB frequency with nonvanishing mass, it is consumed by
   the same Sobolev/Field readout. The no-vanishing-horn follow-up proves that
   vanishing normalized trace energy forces vanishing trace-free PSD covariance
-  anisotropy, since \(|A|_F\le2\sqrt{2/3}\mu_R\). The positive trace also has explicit cover,
+  anisotropy, since \(|A|_F\le2\sqrt{2/3}\mu_R\). The positive trace also has
+  explicit cover,
   ancestry, and tower landings: uncovered trace is Pack-side cover failure,
   untransported trace energy is Part-side material-history failure, and a trace
   tower not tied to the same differentiated law is Part-side tower failure. The
@@ -375,8 +376,8 @@ ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
-ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, and the transport-defect
-material-ancestry closure fork, and the finite-cover / ballast-cover
+ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, and
+the transport-defect material-ancestry closure fork, and the finite-cover / ballast-cover
 compactness fork, the ballast ancestry/tower landing, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
