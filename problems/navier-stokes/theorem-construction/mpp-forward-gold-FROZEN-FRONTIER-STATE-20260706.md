@@ -336,6 +336,19 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   sqrt(3/(2 ln 2))), bracket (3/5, 1), + sharp rho/delta_m as
   prerequisites (StrongGRatioSeedFloor named as the subroute).
 
+  CODEX STRICT REDUCTION (2026-07-06,
+  codex-f4-seed-product-coupled-frontier-reduction): the current
+  \(R_{\rm seed}\) row remains closed negative as written. Door A is the
+  fresh-source wall, Door C is an uninstalled uniform W1-scope
+  \(G\)-ratio floor, and Door B is finite-check shaped but NOT
+  independent of the product front. Door B's \(L_0,c_{\rm gap},c_{\rm dw}\)
+  price packet is supplied by the same Gate-6 / product-front source
+  packet spent by the RUN-H product row. Thus a Door-B pass is a coupled
+  seed/product worksheet: seed/tau range + one-point Door-B inequality +
+  RUN-H feasibility/supremum + one-block tail charges. It cannot be a
+  seed-side bypass around \(R_{\rm prod}\), \(R_{\rm prod}^{F4}\), or the
+  active RUN-H row.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
