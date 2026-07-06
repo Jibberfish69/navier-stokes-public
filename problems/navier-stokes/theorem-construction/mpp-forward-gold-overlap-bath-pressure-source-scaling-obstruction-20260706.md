@@ -18,6 +18,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -43,7 +44,9 @@ completion_truth: >-
   same-packet allocation, or a true dynamic bath construction. Follow-up
   time-persistence obstruction kills the constant-direction persistence floor:
   relative unforced drift over one producer clock is only
-  beta^(2/5)+nu/(sD^2).
+  beta^(2/5)+nu/(sD^2). Follow-up producer-coupling obstruction kills the
+  constant-affine coupling floor: the producer/shear cross source has zero
+  pressure Hessian at the station.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -274,8 +277,8 @@ retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
 
 The remaining exact-matrix burden is now sharper:
 
-- localization of the pressure-source cell into the producing field;
-- coupling the pressure-source cell to a nonzero producing packet;
+- localization of the pressure-source cell into the producing field, including
+  nonconstant producer curvature across the cell;
 - fast direction tracking, if the exact matrix forces pressure-Hessian direction
   changes on the producer clock;
 - nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
@@ -300,5 +303,5 @@ on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
-through fast direction tracking if forced, localization, producer coupling,
+through fast direction tracking if forced, localization/producer curvature,
 allocation, or admissibility.

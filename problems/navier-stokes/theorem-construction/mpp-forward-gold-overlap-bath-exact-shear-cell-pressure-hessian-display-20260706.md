@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-hessian-to-strain-eigenvalue-clock-placement-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-coupling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact display, not a dense-crowd theorem and not a
   confinement-constant decision. The previous pressure-source scaling note
@@ -31,8 +32,10 @@ completion_truth: >-
   constant-direction pressure service drifts only at relative rate
   sqrt(|K|)+nu/D^2, so over one producer clock the drift is
   beta^(2/5)+nu/(sD^2). What remains is fast direction tracking if forced by
-  the exact matrix, localization/collar matching, coupling to the producing
-  packet, and record-ladder allocation.
+  the exact matrix, localization/collar matching and producer curvature, and
+  record-ladder allocation. Follow-up producer-coupling obstruction checks that
+  a constant producing affine jet creates no cross pressure Hessian at the
+  station.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -276,9 +279,8 @@ This display does not decide the exact overlap-bath matrix.
 The remaining burdens are:
 
 - localization of the periodic shear cell into the producing field with the
-  collar estimates already priced;
-- coupling the pressure cell to a nonzero producing packet without losing the
-  desired retuning row;
+  collar estimates already priced, including producer curvature across the
+  cell;
 - fast direction tracking, if the exact matrix forces the pressure Hessian
   direction to change on the producer clock;
 - same-packet allocation of the pressure service into record-ladder currency.
@@ -298,5 +300,6 @@ The same construction supplies any trace-free Hessian after choosing a
 zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
 overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). The exact-matrix
 branch is now narrowed to fast direction tracking if forced, localization,
-producer coupling, and allocation, not the mean-zero pressure-source constraint
-or instantaneous multi-direction pressure algebra.
+producer curvature, and allocation, not the mean-zero pressure-source
+constraint, instantaneous multi-direction pressure algebra, or constant-affine
+producer coupling.

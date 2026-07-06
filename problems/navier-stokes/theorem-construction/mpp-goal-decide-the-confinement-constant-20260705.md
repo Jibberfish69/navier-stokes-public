@@ -222,6 +222,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     so its relative Hessian drift over one producer clock is
     \(\beta^{2/5}+\nu/(sD^2)\). The live pressure branch is now fast direction
     tracking if forced, localization, producer coupling, and allocation.
+    Follow-up producer-coupling obstruction filed: adding a constant producing
+    affine jet \(Bx\) to the shear cell leaves the producer first jet unchanged
+    at the station, and the cross pressure source is a sum of single sine modes
+    whose pressure Hessian vanishes at the station. The live pressure branch is
+    now fast direction tracking if forced, localization/producer curvature, and
+    allocation.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -328,10 +334,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    supplies a nonzero traceless Hessian at the same \(HD^5\) scale.
    The shear-cell time-persistence check adds that constant-direction pressure
    service drifts only by \(\beta^{2/5}+\nu/(sD^2)\) over one producer clock.
-   Therefore the exact matrix must use fast pressure-direction tracking if
-   forced, localization, producer coupling, same-packet allocation, or a real
-   summability-valid bath construction, not a pointwise affine, generic collar,
-   source-mean, or constant-persistence tax. The reuse tracking ledger now prices
+   The producer-coupling check adds that a constant affine producer creates no
+   cross pressure Hessian at the station. Therefore the exact matrix must use
+   fast pressure-direction tracking if forced, localization/producer curvature,
+   same-packet allocation, or a real summability-valid bath construction, not a
+   pointwise affine, generic collar, source-mean, constant-persistence, or
+   constant-producer-coupling tax. The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
