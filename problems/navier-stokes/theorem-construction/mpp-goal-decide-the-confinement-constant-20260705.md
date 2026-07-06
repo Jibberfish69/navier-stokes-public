@@ -661,7 +661,8 @@ certified positive constant.
    the Reynolds-edge bridge, fixed-density compensator routing
    (producer suppression / beta-edge failure, finite weighted residue routing,
    or SRP moment-readout gate for infinite weighted residue),
-   supercritical fine/sparse same-fluid pressure-bank transport/persistence,
+   supercritical fine/sparse same-fluid pressure-bank transport/persistence
+   routed through the same Reynolds/compensator/WKB construction split,
    or a real summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature
@@ -1129,10 +1130,9 @@ certified positive constant.
    certificate rows, high-rank linear rows, finite-range local nonlinear
    legality, bare material ancestry, service-coordinate mismatch, and
    transport-current variation, and custody/bank variation have all been typed.
-   The remaining
-   dense-crowd decision surface is
-   exactly four global sources: non-affine/broadband transport, now only in its
-   supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
+   The remaining dense-crowd decision surface was, at that stage, compressed to
+   a temporary four-name list: non-affine/broadband transport, already only in
+   its supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
    bridge; the fixed-density compensator/residue branch; or construction /
    exclusion of the near-uniform same-fluid WKB bath.
    Follow-up Reynolds-edge branch collapse filed: the Reynolds edge is not an
@@ -1142,10 +1142,10 @@ certified positive constant.
    edge pays, or \(r_{\rm ref}<\theta_0\) and the exact deficit
    \((\theta_0-r_{\rm ref})_+\mu_{\rm prod}\) is the fixed-density
    compensator, or \(\operatorname{Re}_D\theta^2\gg1\) and the branch is the
-   persistent high-Re WKB construction/exclusion problem. Thus the undecided
-   dense-crowd evasion surface is persistent high-Re WKB / broadband
-   construction, fixed-density compensator routing, or construction/exclusion
-   of the near-uniform same-fluid WKB bath.
+   persistent high-Re WKB construction/exclusion problem. At that stage this
+   still left persistent high-Re WKB / broadband construction, fixed-density
+   compensator routing, or construction/exclusion of the near-uniform same-fluid
+   WKB bath.
    Follow-up fixed-density compensator branch collapse filed: the compensator
    is not itself an evading producing class. It is a producer-sized missing-tax
    residue. Without local same-packet row formation it is Pack/routed residue;
@@ -1166,6 +1166,13 @@ certified positive constant.
    bath problem: construct or exclude a near-uniform same-fluid WKB bath that
    also evades finite/atomic carrier admission, microlocal-profile admission,
    high-factor routing, and Pack/Part certificate failure.
+   Follow-up non-affine/broadband branch collapse filed: non-affine/broadband
+   transport is not a fourth independent evasion source. Ordinary residual
+   motion remains in the \(q=4/5\) pressure row, coherent supercritical residual
+   motion pays by residual energy, and fine/sparse high-Re motion routes through
+   the Reynolds-edge refresh row, fixed-density compensator residue, or the
+   same near-uniform WKB construction/exclusion surface. The dense-crowd
+   survivor remains the single actual bath problem above.
    Follow-up free-periodic-Beltrami branch kill filed: the exact periodic
    Beltrami neutralizer is not itself exit (ii). It blocks the fast self-drift
    shortcut and can carry nonzero pressure Hessian, but as a free periodic cell
