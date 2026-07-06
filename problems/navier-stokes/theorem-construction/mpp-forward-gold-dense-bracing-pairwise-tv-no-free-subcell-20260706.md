@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-lifetime-tv-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md
 completion_truth: >-
   Exact reduction for a restricted but important dense-bracing subcell. In any
   leading straight-filament episode where producing interactions are decomposed
@@ -117,8 +118,9 @@ motions before any record-relevant cost is charged.
 So the four-tube bracing test is now split:
 
 1. pairwise-TV bracing: paid by (DBTV.5);
-2. net-vector bracing: open and genuinely dangerous;
-3. off-profile/core/sideband/node-sitting schedules: open.
+2. net-vector-only ledger: obstructed;
+3. persistent cancellation schedule: merged into node-sitting/tracking;
+4. off-profile/core/sideband/non-pairwise schedules: open.
 
 Follow-up:
 `mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md`
@@ -126,6 +128,13 @@ kills the net-vector-only ledger as a proof target. Vector cancellation after
 summation can erase the readout while the pairwise TV bill remains positive.
 Thus the live bracing burden is pairwise/current-resolved same-packet
 allocation, or a real PDE crowd schedule that defeats that allocation.
+
+Second follow-up:
+`mpp-forward-gold-dense-bracing-cancellation-node-sitting-merge-20260706.md`
+types any real persistent net-vector cancellation as
+\(C(q,h)=0\), hence \(D_hC\,\dot h=-D_qC\,\dot q\). So it is the
+node-sitting/tracking branch in exit-vector coordinates, not an independent
+bracing branch.
 
 ## 5. Four-sentence result
 
@@ -135,5 +144,5 @@ the sum of pairwise positive productions, and every pairwise two-tube production
 pays the K3 TV floor. The only way bracing can still evade this subcell is to
 cancel the eviction vectors before the accepted same-packet ledger charges
 their path length. Thus the remaining four-tube danger is no longer "pairwise
-bracing for free"; it is ledger-level vector cancellation or a non-pairwise
-crowd geometry.
+bracing for free"; it is pairwise/current allocation, the node-sitting tracking
+floor for persistent cancellation, or a non-pairwise crowd geometry.
