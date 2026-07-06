@@ -387,6 +387,12 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   item; fixed-block mode still carries the \(D\)-tradeoff against
   \(L_{\rm avail}\).
 
+  CODEX CONSTRUCTION-BLOCK BINDER REDUCTION (2026-07-06,
+  codex-route3-construction-block-binder-reduction): in construction-parameter
+  mode, once the seed/product/dwell floors are finite, \(|I|>L_{\rm Route3}\)
+  is a witness choice, not a fourth data theorem. Fixed-block mode still
+  requires \(L_{\rm avail}>L_{\rm Route3}\).
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
