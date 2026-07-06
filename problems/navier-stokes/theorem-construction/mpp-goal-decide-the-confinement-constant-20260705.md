@@ -1649,6 +1649,16 @@ surface, not F4 clearance.
    \(q_3+q_{4,e_3}=(0,-32,-45)\). Thus the minimal local vector-moment gadget
    is not a finite neutral bath; any survivor must close the full sideband
    graph by adding modes without exposing another dangerous output.
+   Follow-up output-maximal sideband shield criterion filed: in any finite
+   projected-neutral same-helicity Beltrami cloud, choose a dangerous pair
+   \(p,q\) with maximal output norm \(|p+q|\). Any cancellation partner
+   \(a,b\) with \(a+b=p+q\) creates off-diagonal sidebands
+   \(a+q=(p+q)+(a-p)\) and \(p+b=(p+q)-(a-p)\), at least one of which has
+   larger output norm. Therefore every norm-increasing off-diagonal sideband
+   must be harmless: same-shell, collinear, or inactive. This kills all
+   unshielded output-maximal resonant graphs; the finite survivor must be a
+   shielded resonant graph whose top sidebands degenerate before the WKB /
+   profile / construction questions re-enter.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
