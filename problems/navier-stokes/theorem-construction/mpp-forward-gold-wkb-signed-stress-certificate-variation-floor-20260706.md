@@ -67,9 +67,10 @@ Then
 \]
 where \(\|S\|_*\) is the trace norm, the sum of absolute eigenvalues.
 
-Proof. By trace-norm duality,
+Proof. Since \(S\) is symmetric, trace-norm duality may be restricted to
+symmetric test matrices:
 \[
-  \|S\|_*=\sup_{\|B\|_{\rm op}\le1}\operatorname{tr}(BS).
+  \|S\|_*=\sup_{\substack{\|B\|_{\rm op}\le1\\ B=B^T}}\operatorname{tr}(BS).
   \tag{SSF.3}
 \]
 For any such \(B\),
