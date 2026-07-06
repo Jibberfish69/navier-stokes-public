@@ -1362,3 +1362,23 @@ W-0 is now scoped as two bridge obligations:
 The finite-chain Manley-Rowe, Casimir, H-row, and return-race rows remain
 conditional consumers of W0-A/W0-B. W-0 is not paid by Chapter 10 and is
 not itself a numeric interval row.
+
+## 9. Codex W0-A supplier map (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0a-handoff-production-supplier-map-20260706.md`.
+This is a strict reduction, not a proof of W0-A.
+
+W0-A is supplied, if supplied at all in the current architecture, by the
+existing F1/Gate-7 plus Chapter-10 packet:
+
+1. retained actual channel-cell mass from the Duchon-Robert active-monomial
+   linear-slot flux and energy-side reconstruction;
+2. F1-scoped one-free-leg finite trilinear safety and lineage, carried by the
+   F1 sidecar;
+3. pass-tail affordability or typed route-out;
+4. positive financing \(f>0\) from the shared \(c_0>0\) / F4 Chapter-10 packet.
+
+Thus W0-A is not a separate mechanism beyond those rows. It remains open
+because those rows are not certified here. W0-B same-packet lineage remains a
+separate bridge.
