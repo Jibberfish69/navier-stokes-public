@@ -1102,15 +1102,20 @@ certified positive constant.
    \]
    or the finite/high-rank Gram version. Uniform-compatible service rows leave
    the near-uniform bath alive, so the remaining ancestry-side branches are
-   transport-current variation, custody/bank variation, or
+   current/action transport payment, custody/bank variation, or
    construction/exclusion.
+   Transport-current variation has now been split too: \(A=w\rho\) gives the
+   exact current cost \(|A|=|w|\rho\), but uniform WKB density can carry
+   nonzero divergence-free relative current. Thus current variation is a
+   current/action payer, an added-carrier certificate branch, or Part-side
+   material-history failure, not density anti-equidistribution by itself.
    Current overlap-bath closeout at local-mechanism level: the tested local
    rows do not decide the confinement constant. Mean-zero Hodge algebra,
    affine pressure motion, finite-energy localization, affine same-fluid
    custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
    certificate rows, high-rank linear rows, finite-range local nonlinear
-   legality, bare material ancestry, and service-coordinate mismatch have all
-   been typed. The remaining
+   legality, bare material ancestry, service-coordinate mismatch, and
+   transport-current variation have all been typed. The remaining
    dense-crowd decision surface is
    exactly four global sources: non-affine/broadband transport, now only in its
    supercritical residual or fine/sparse high-Re WKB form; the Reynolds-edge
