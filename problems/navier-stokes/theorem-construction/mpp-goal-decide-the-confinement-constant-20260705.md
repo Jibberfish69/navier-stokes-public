@@ -785,6 +785,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    The same positive trace energy must also lift to the finite-cover
    certificate; if it survives only after cover collapse, chart-count escape,
    or overlap/readout incompatibility, the branch is Pack-side cover failure.
+   The same positive trace energy must also lift to material ancestry and the
+   same-law tower. Its transport defect \(A_R=J_R-u\rho_R\), derivative graph
+   defects \(G_\alpha\), and differentiated flux defects \(R_\alpha\) must
+   vanish or be legally carried. If not, the first lost coordinate is Part-side
+   material-history or same-law tower failure, not retained pressure-law
+   supply.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
