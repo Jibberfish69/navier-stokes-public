@@ -85,8 +85,10 @@ completion_truth: >-
   Reynolds-edge failure, fixed-density compensator/residue, or
   construction/exclusion. Follow-up affine-transport pressure-bank obstruction
   prices the affine custody layer: producer-frame transport, projection, and
-  Hessian tracking all remain at |K|D^5 over one producer clock. The remaining
-  pressure branch is non-affine/broadband same-fluid transport, Reynolds-edge
+  Hessian tracking all remain at |K|D^5 over one producer clock. Follow-up
+  non-affine transport threshold obstruction prices residual spatial variation
+  at density (delta_D/s)beta^(4/5). The remaining pressure branch is
+  supercritical non-affine/broadband same-fluid transport, Reynolds-edge
   failure, fixed-density compensator/residue, or construction/exclusion.
 ---
 
@@ -318,8 +320,8 @@ retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
 
 The remaining exact-matrix burden is now sharper:
 
-- non-affine/broadband same-fluid transport and persistence of the pressure-source cell,
-  after affine custody is priced, including the Reynolds threshold
+- supercritical non-affine/broadband same-fluid transport and persistence of
+  the pressure-source cell, after affine custody is priced, including the Reynolds threshold
   \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) for nonconstant producer
   curvature, or a bridge from threshold failure to record-ladder payment;
 - Gate-8 no-recount allocation of pressure service into record-ladder
@@ -348,4 +350,4 @@ so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
 through a Reynolds-edge bridge, fixed-density compensator/residue,
-non-affine/broadband same-fluid transport, or construction.
+supercritical non-affine/broadband same-fluid transport, or construction.
