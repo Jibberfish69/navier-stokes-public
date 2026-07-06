@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-material-phase-service-identity-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-coordinate-mismatch-row-distance-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-current-variation-not-density-gap-20260706.md
 completion_truth: >-
   Exact obstruction to one possible nonlinear/global same-packet source, not a
   WKB construction or exclusion theorem. Incompressible material ancestry is
@@ -168,6 +169,13 @@ If \(A\) is singular relative to \(\rho\), it needs added legal ancestry
 mass/current. Those are current-variation or certificate rows, not a free
 density gap.
 
+The transport-current follow-up sharpens this too. Nonzero current variation is
+compatible with the uniform WKB density: \(f\equiv1\) can carry a nonzero
+divergence-free relative current \(A=w\rho\). Thus current variation is an
+explicit current/action payer or added-carrier certificate branch. It becomes a
+density-gap theorem only after an extra law ties \(w\) to a fixed service row,
+which returns to the row-distance formula above.
+
 Third, material custody may force population variation, bank variation, or
 refresh/reassembly. Those ledgers are already separate WKB service currencies.
 They can price service, but they do not follow from the word "ancestry" before
@@ -198,11 +206,13 @@ uniform bath to a non-volume service coordinate, a transport-current defect, a
 bank/custody variation ledger, a nonlocal pressure/Hodge row with explicit
 row-distance, or actual construction/exclusion.
 
-With the service-coordinate follow-up, the first item in that list is no longer
-an untyped refuge: it is a row-distance payer or no density gap. The genuinely
-global residue is the nonlinear forbidden-ball theorem or construction/exclusion
-of the near-uniform same-fluid WKB bath, after explicit service rows have been
-pulled out.
+With the service-coordinate and transport-current follow-ups, the first two
+items in that list are no longer untyped refuges: service mismatch is a
+row-distance payer or no density gap, and transport-current variation is a
+current/action payer or certificate branch. The genuinely global residue is the
+nonlinear forbidden-ball theorem or construction/exclusion of the near-uniform
+same-fluid WKB bath, after explicit service and current rows have been pulled
+out.
 
 Closed same-packet identity and material ancestry are still required for
 admission. They are not the anti-uniform payer.
@@ -212,10 +222,11 @@ admission. They are not the anti-uniform payer.
 Incompressible material ancestry preserves volume, so the uniform WKB density
 is carried to the uniform WKB density. Measure-preserving relabeling is
 unitary in density \(L^2\), hence same-fluid ancestry alone cannot separate a
-legal cloud from the uniform zero mode. If ancestry helps the Gram gap through
-service coordinates, it must pay the explicit row-distance formula; otherwise it
-must add transport-current variation, custody/bank variation, or
-construction/exclusion. Thus "same material history" is an admission
-coordinate, not a density anti-equidistribution payer.
+legal cloud from the uniform zero mode. Service coordinates help only through
+explicit row distance, and transport currents help only as current/action
+payers or certificate branches. Thus "same material history" is an admission
+coordinate, not a density anti-equidistribution payer; after explicit rows are
+pulled out, the live residue is custody/bank variation or
+construction/exclusion.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
