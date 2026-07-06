@@ -492,6 +492,12 @@ the confinement constant.
    self-exit leaves log(seed); viscosity closes the log only with a cap
    proportional to local Reynolds. K5-alone high-Re uniform cap is now
    killed; the remaining edge burden is strictly the high-Re payer.
+   Same-day high-Re return-race premise obstruction: return-race is a
+   financed-handoff theorem, not an automatic edge-residence theorem. It
+   pays \(r_0(f)\ge f^2/(2\pi\rho)\) only after a next triad extracts a
+   positive same-packet fraction \(f\). The pure edge residence supplies
+   \(f=0\), so K5 high-Re still needs a theorem producing \(f>0\), or else
+   custody, sideband/crowd, Gate-A allocation, or route-out.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
