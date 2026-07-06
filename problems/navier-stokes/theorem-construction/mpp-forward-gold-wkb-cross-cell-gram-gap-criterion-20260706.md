@@ -19,6 +19,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -57,6 +58,9 @@ completion_truth: >-
   identity values, or inside one large identity fiber, still fragments unless a
   bounded-count theorem, positive identity-fiber uniform-mode charge, legal
   anti-equidistribution theorem, or construction/exclusion is supplied. This
+  bounded-count theorem is not supplied by the finite-cover certificate itself:
+  one legal chart can contain arbitrarily many effective cells in one identity
+  fiber while the square charge remains 1/M. This
   proves no such PDE gap, no WKB construction or exclusion, no confinement
   constant, and no MPP closure.
 ---
@@ -297,6 +301,11 @@ over effective cells inside that identity. A uniform cloud over many identities,
 or over one large identity fiber, still has diagonal/local square charge
 \(1/M\) and still lies in the mean-zero uniform mode unless an extra
 quantitative theorem is added.
+
+The finite-cover follow-up blocks the cover-count version of that extra
+theorem. One legal chart and one common identity fiber can contain \(M\) equal
+effective WKB cells, so finite cover does not imply bounded effective cell
+count and does not by itself produce the Gram gap.
 
 ## 6. Four-sentence result
 
