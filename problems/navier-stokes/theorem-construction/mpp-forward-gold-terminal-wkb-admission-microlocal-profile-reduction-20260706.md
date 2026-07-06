@@ -1,0 +1,216 @@
+---
+theorem_id: forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706
+status: strict-reduction-terminal-wkb-admission-to-actual-carrier-or-microlocal-profile-admission
+created: 2026-07-06
+problem: navier-stokes
+route: forward-gold / terminal WKB frequency escape / same-solution witness admission
+target_object:
+  - TerminalWKBMomentWitnessAdmission.A
+  - ActualWKBCarrierExtraction.A
+  - MicrolocalDefectProfileAdmission.A
+  - LimitOfClassTerminalArtifact.A
+source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-field-admission-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-high-factor-admission-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-terminal-frequency-escape-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-sparse-same-witness-carrier-custody-reduction-20260621.md
+  - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
+  - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
+completion_truth: >-
+  Strict reduction only. The nonvanishing terminal WKB horn already has the
+  Sobolev readout: if lambda tends to infinity and the normalized retained
+  pressure-Hessian moment phi D^3 |K| does not vanish, every H^m readout with
+  m>1 diverges. The missing theorem is not another readout estimate and not a
+  Chapter-10 constant. It is admission: the WKB moment must be extracted from
+  the actual same Navier-Stokes branch as a same-solution terminal witness. The
+  current sources split that admission into two possible inputs. Either one
+  proves ActualWKBCarrierExtraction.A, producing real material packets/windows
+  with finite overlap, selected carrier heredity, actual pressure-Hessian
+  moment, and same-law tower; then the installed Sobolev CM theorem gives the
+  Field face. Or one proves MicrolocalDefectProfileAdmission.A, showing that a
+  nonzero semiclassical/H-measure/WKB defect profile from the actual branch is
+  itself a lawful terminal witness ledger, or else a limit-of-class terminal
+  artifact/original-participation failure. Existing microlocal-defect notes show
+  that defect visibility alone does not supply selected positive-carrier
+  payment or same-witness admission. Therefore a WKB profile without actual
+  carrier admission is not retained supply. This note proves no actual-carrier
+  extraction theorem, no microlocal-profile admission theorem, no WKB
+  construction/exclusion, no native-reserve theorem, and no MPP closure.
+---
+
+# Terminal WKB admission: actual carrier or microlocal profile
+
+## 1. What is already paid
+
+The terminal WKB field-admission reduction already proves the readout
+calculation. In a normalized \(D\)-bank, a Beltrami WKB packet with carrier
+frequency \(\lambda\), occupied fraction \(\phi\), and pressure-Hessian moment
+\(K\) has
+\[
+  \|\nabla^m u_{\rm WKB}\|_2^2
+  \sim
+  \phi D^3 |K|\lambda^{2m-2},
+  \qquad m>1.
+\]
+Thus
+\[
+  \lambda\to\infty,
+  \qquad
+  \phi D^3 |K|\ge c_0>0
+  \quad\Longrightarrow\quad
+  \|\nabla^m u_{\rm WKB}\|_2\to\infty
+  \quad(m>1).
+\]
+
+Once this object is a synchronized same-fluid terminal witness ledger, the
+installed Sobolev/H^s CM theorem applies:
+\[
+  SobWall_{H^s}(\mathcal W)
+  \Longrightarrow
+  \neg Pack_Q(\mathcal W)
+  \vee
+  \neg Part_{N,Q}(\mathcal W)
+  \vee
+  \forall\rho>0\,\neg Field_{N,\rho,Q}(\mathcal W).
+\]
+
+So the nonvanishing WKB horn has no remaining Sobolev calculation. Its missing
+gate is admission of the WKB object as the actual terminal object of the same
+solution.
+
+## 2. Why the existing WKB notes do not give admission
+
+The many-cell WKB notes produce a parameter window and a list of necessary
+same-fluid requirements:
+\[
+  \theta\lesssim\beta^{24/25},
+  \qquad
+  \beta^{-12/5}\lesssim N\lesssim\beta^{12/5}\theta^{-5},
+  \qquad
+  \operatorname{Re}_D\gg\theta^{-2}.
+\]
+Those conditions type a possible survivor. They do not extract that survivor
+from an arbitrary finite-time Navier-Stokes branch.
+
+The Beltrami phase identity, endpoint-room ledger, weight-variation ledger,
+bank-motion ledger, and terminal-frequency fork are also necessary laws for an
+actual material WKB population. They do not prove that such a population exists
+inside the actual same branch, with selected carrier heredity and a finite
+readout-compatible packet cover.
+
+The retained-pulse same-witness recheck supplies admission after a promoted
+finite-breakdown terminal pulse is already identified. The sparse same-witness
+custody note preserves a same witness and carrier on a tail where those objects
+are already tail-hereditary. Neither note creates a WKB carrier from a
+support-only ansatz.
+
+## 3. Actual carrier extraction
+
+The first sufficient theorem is:
+
+```text
+ActualWKBCarrierExtraction.A
+```
+
+Statement shape:
+
+Given an alleged finite-time Navier-Stokes breakdown from the same smooth datum,
+suppose the terminal-frequency WKB horn is active. Then there is a terminal
+subsequence of actual same-solution packets/windows \(Q_j\), times
+\(t_j\uparrow T_\ast\), scales \(D_j\), carrier frequencies
+\(\lambda_j\to\infty\), and pressure-Hessian moments \(K_j\) such that:
+
+1. the packets come from the actual velocity-pressure solution, not an external
+   WKB ansatz;
+2. the packets have material ancestry or a licensed outside-CM
+   original-participation record;
+3. finite-overlap and readout-compatible localization hold on the chosen
+   windows;
+4. selected carrier heredity or finite-menu/profile capture prevents the WKB
+   label from moving through an unpriced continuum;
+5. the differentiated same-law tower exists through the required depth \(N\);
+6. the normalized retained moment satisfies
+   \[
+     \phi_jD_j^3|K_j|\ge c_0>0.
+   \]
+
+Then the WKB object is a synchronized same-solution terminal witness ledger
+\(\mathcal W\), and the Sobolev readout gives the CM face alternative above.
+
+This is not a new proof of Field failure. It is the exact missing producer
+admission theorem whose output the Field consumer already knows how to use.
+
+## 4. Microlocal/profile admission
+
+The second possible theorem is:
+
+```text
+MicrolocalDefectProfileAdmission.A
+```
+
+Statement shape:
+
+From the actual same-solution WKB sequence, construct a semiclassical,
+H-measure, Wigner, or equivalent microlocal defect measure \(\mu\) carrying the
+nonzero terminal pressure-Hessian moment. Then prove one of the following:
+
+1. \(\mu\) localizes to a lawful terminal witness ledger with the same datum,
+   same branch, actual pressure law, finite/readout-compatible carrier cover,
+   and same-law tower; or
+2. failure of such localization is itself a limit-of-class terminal artifact or
+   original-participation failure, landing outside `Member(Q)` through the
+   Part/Field interface.
+
+The existing microlocal-defect direct test is the warning label. Microlocal
+defect compactness can see a positive divergence-free high-frequency
+oscillation. It does not by itself make the selected positive carrier
+endpoint-uniformly integrable, square-summable, polar-saturated, or admitted to
+the CM witness tree. Visibility is not admission.
+
+So a nonzero WKB defect measure is useful only after this additional theorem
+turns it into either an admitted terminal witness or a typed limit-of-class /
+participation failure.
+
+## 5. The sharpened terminal WKB fork
+
+The nonvanishing terminal WKB horn is now:
+\[
+  \lambda_j\to\infty,
+  \qquad
+  \phi_jD_j^3|K_j|\ge c_0>0
+  \Longrightarrow
+  \begin{cases}
+    \text{actual WKB carrier extraction}
+      &\Rightarrow \text{Sobolev Field-face route},\\
+    \text{microlocal/profile admission}
+      &\Rightarrow \text{Field face or limit-of-class / Part failure},\\
+    \text{no carrier and no admitted profile}
+      &\Rightarrow \text{construction/exclusion or admission failure.}
+  \end{cases}
+\]
+
+The vanishing/intermittent horn remains exactly as in the high-factor admission
+fork: bounded original-packet selected reads enter the Riesz/Bessel/first-exit
+channel; scale-native zoom reads enter the native-reserve /
+positive-critical-transfer hinge; unadmitted high-frequency sources are not
+retained supply.
+
+## 6. State
+
+This note does not close `TerminalWKBMomentWitnessAdmission.A`. It makes that
+gate smaller and harder to misroute.
+
+The next proof-bearing object is one of:
+
+```text
+ActualWKBCarrierExtraction.A
+MicrolocalDefectProfileAdmission.A
+WKBConstructionOrExclusion.A
+```
+
+Without one of those, the nonvanishing WKB Sobolev readout remains a conditional
+consumer, not an admitted terminal witness and not MPP closure.
