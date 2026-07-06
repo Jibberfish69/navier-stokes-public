@@ -379,6 +379,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     refresh high-Re condition is weaker than carrier persistence, so the
     Reynolds demand collapses to
     \(\operatorname{Re}_D\gg\theta^{-2}\).
+    Follow-up Beltrami material-phase service identity filed: for a material
+    WKB carrier \(k=\lambda n\) in producer strain \(S\),
+    \(D_t\log\lambda=-n\cdot S n\), while the Beltrami pressure shape
+    \(Q_n=I/3-n\otimes n\) satisfies \(S:Q_n=D_t\log\lambda\). Thus
+    \(K=\sum_iw_iQ_{n_i}\) gives
+    \(S:K=\sum_iw_iD_t\log\lambda_i\). Carrier-neutral cells cannot supply the
+    active same-shape pressure-service row; that row forces carrier-scale drift,
+    refresh/reassembly/custody, orthogonal-only service, or construction/exclusion.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -536,6 +544,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(\theta\lesssim\beta^{6/5}\). The rest of the WKB window is sparse
    support and routes to compensator / nonlocal allocation / construction-or-exclusion,
    not to a backed fixed-density retained tax row.
+   The Beltrami material-phase identity adds that the active same-shape
+   pressure-service row cannot be supplied by carrier-neutral WKB cells:
+   \(S:K=\sum_iw_iD_t\log\lambda_i\). Active service forces carrier-scale drift
+   on the producer clock, or else refresh/reassembly/custody, orthogonal-only
+   service, or construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
