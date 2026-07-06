@@ -1042,7 +1042,11 @@ the confinement constant.
    \(B_Md_M^2\gtrsim1\), and a row-drift residual floor requires
    \(B_Md_M\gtrsim1\). Thus unbounded residual strength only weakens the
    separation scale; it does not erase the need for same-fluid backing and
-   legal separation, or construction/exclusion.
+   legal separation, or construction/exclusion. The raw pressure/CZ kernel now
+   has its normalization typed: in density coordinates it is \(L^2\)-bounded,
+   while the mass-coordinate appearance \(B_M\lesssim C M\) only converts
+   \(B_Md_M^2\gtrsim1\) into density-level separation
+   \(\|f-1\|_{L^2_\omega}^2\gtrsim1\). Thus raw CZ growth is not a new payer.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
