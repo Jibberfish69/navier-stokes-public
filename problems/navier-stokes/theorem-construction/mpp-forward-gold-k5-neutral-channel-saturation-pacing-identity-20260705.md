@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k5-neutral-channel-saturation-pacing-identity-20260705
-status: CORRECTED-SAME-DAY-2kappa-band-entry-mechanism-dead-by-wavenumber-conservation-impulse-lemma-stands-pacing-identity-conditional-see-mean-detuning-note
+status: CORRECTED-SAME-DAY-direct-feed-zero-normal-form-log-seed-obstruction
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / work item 1 (K5)
@@ -29,10 +29,11 @@ completion_truth: >-
   selection. The surviving pacing object is the cubic edge normal-form
   coefficient Lambda_edge displayed in the Codex gate. The local-kappa
   trough test is not certified, because the 2*k modulation is same-scale
-  rather than WKB-slow; the correct gate is Re Lambda_edge > 0. If that
-  coefficient vanishes or has nonpositive real part on the edge family,
-  work item 1's kill condition triggers and the per-encounter tax dies
-  on the pure neutral channel. No closure claimed.
+  rather than WKB-slow. Even if Re Lambda_edge > 0, the neutral-phase
+  integrated production is logarithmic in seed amplitude, not
+  seed-independent. If Re Lambda_edge <= 0 the pure neutral channel
+  survives outright; if Re Lambda_edge > 0, K5 still needs a seed floor,
+  custody payment, or sideband/crowd mechanism. No closure claimed.
 ---
 
 # K5: neutral-channel saturation by the pacing identity
@@ -63,7 +64,8 @@ onto the edge mode.
 The corrected identity is conditional: production rate is ~ s * beta^2,
 and the edge-mode amplitude leaves neutrality at relative rate
 s * beta^2 only if the cubic normal-form coefficient Lambda_edge has
-positive real part. Then the ratio is amplitude-free. If
+positive real part. Then the payment is bounded per amplitude octave,
+but the total neutral-phase stretch is logarithmic in the seed. If
 Re Lambda_edge <= 0, the pure neutral mode is not killed by this channel.
 
 ## 4. K5c: scope
@@ -83,6 +85,7 @@ The Codex gate is filed in:
 Result: the direct pure-mode feed coefficient is zero; the replacement
 coefficient is the resonant edge normal-form coefficient Lambda_edge.
 The local-kappa trough criterion is rejected as a certification
-criterion. Kill condition (standing, from the goal): Re Lambda_edge <= 0
-or symmetry-zero on the edge family => neutral producing mode survives
-this K5 channel => per-encounter tax dies on the pure neutral channel.
+criterion. Even favorable sign gives a log(seed) neutral-phase integral.
+Kill condition (standing, from the goal): Re Lambda_edge <= 0 or
+symmetry-zero on the edge family, or no seed floor/custody mechanism for
+the log, leaves the pure neutral channel uncapped.
