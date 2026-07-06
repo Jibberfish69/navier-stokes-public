@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-affine-material-jet-insufficiency-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. After the local affine dynamic obstruction,
@@ -32,6 +33,8 @@ completion_truth: >-
   is not an exact unforced Navier-Stokes construction. It leaves the narrower
   exact-matrix burden: unforced evolution, nonlocal pressure/Hodge interaction
   with signs, same-packet allocation, or an admissible dynamic bath schedule.
+  Follow-up pressure-source scaling raises the pressure-Hessian retuning row to
+  beta^(4/5)E_prod, still below an order-one floor.
 ---
 
 # Overlap bath: time-dependent collar scaling obstruction
