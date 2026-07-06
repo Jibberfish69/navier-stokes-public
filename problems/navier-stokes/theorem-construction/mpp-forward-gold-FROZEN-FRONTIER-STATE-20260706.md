@@ -152,14 +152,35 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    and inactive-time charges are spent. Thus \(G_{\mathfrak e}\) is no
    longer a separate interval input; \(K_{\rm off}=
    Q_WX_{\max}S_{\max}/(r_0(f)\tau_{\min})\). This is a row
-   substitution only. REMAINING, exactly: [R4-adjusted margin beating
-   the scoped drift] + [the finite product-row evaluation] +
-   [BoundaryTail/F4 carry rows]. It does not prove \(R_{\rm prod}>0\).
+   substitution only. PRODUCT-ROW ENVELOPE (Codex, 2026-07-06):
+   after expanding \(r_0(f)=f^2/(2\pi\rho)\), the active F4
+   rent/tail row uses
+   \(A_{\rm prod}=2\pi\rho Q_WX_{\max}S_{\max}/f^2\) and the
+   inactive/R4 charge is
+   \(A_{\rm prod}((1+\Omega_{\rm R4})/\tau_{\min}-1)\), decreasing in
+   \(\tau_{\min}\) and increasing in \(\Omega_{\rm R4}\). A sufficient
+   interval pass row is therefore
+   \[
+   \Delta_{\rm G6a}^-
+   >
+   2\left[
+   A_{\rm prod}^+
+   \left({1+\Omega_{\rm R4}^+\over\tau^-}-1\right)
+   +(D_{P2}^{\rm ti})^+
+   +(D_{\rm tail}^{\rm ti})^+
+   \right].
+   \]
+   The exact row remains available for direct interval certification.
+   REMAINING, exactly: [R4-adjusted \(\Delta_{\rm G6a}\) source packet
+   / lower enclosure] + [finite product-row evaluation] +
+   [BoundaryTail/F4 carry rows]. It does not prove
+   \(R_{\rm prod}^{F4,{\rm ti,tail}}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
    codex-period-cap-traversal-reduction,
    codex-phi0-package-drain-alias-circularity-check,
-   codex-ge-source-floor-substitution.
+   codex-ge-source-floor-substitution,
+   codex-product-row-monotone-envelope-after-ge.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
