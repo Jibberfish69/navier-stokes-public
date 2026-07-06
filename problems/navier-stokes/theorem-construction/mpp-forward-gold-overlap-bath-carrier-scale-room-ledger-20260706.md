@@ -25,7 +25,11 @@ completion_truth: >-
   branch it is at most (1/2)log Re_D-(6/5)log(1/beta), up to constants. Once
   that room is exhausted, continued active service requires weight variation,
   carrier refresh, envelope reassembly, moving-bank co-drift, custody/Gate-8
-  allocation, or a dynamic construction/exclusion theorem. This proves no
+  allocation, or a dynamic construction/exclusion theorem. A follow-up prices
+  fixed-total-weight variation inside a window of width Delta by
+  |int S:K dt| <= W Delta+(Delta/2) int sum_i |D_t w_i| dt, so variable
+  weights are refresh/reassembly total variation rather than neutral service.
+  This proves no
   carrier-drift pricing floor, no refresh theorem, no construction/exclusion,
   and no MPP closure.
 ---
@@ -185,8 +189,11 @@ This is not yet the WKB exclusion theorem.
 
 It does not prove that the finite log room is too small for the record ladder,
 because \(\operatorname{Re}_D\) may itself be very large. It does not prove a
-positive floor for the refresh/reassembly branch. It also does not route the
-weight-variation term in (CSR.6) through Gate-8 no-recount allocation.
+positive floor for the refresh/reassembly branch. The follow-up
+`mpp-forward-gold-overlap-bath-variable-weight-refresh-variation-ledger-20260706.md`
+prices fixed-total-weight variation by \(L^1\) total variation of the weights,
+but it still does not route that variation through Gate-8 no-recount
+allocation.
 
 It does, however, remove one more free option: active WKB pressure service is
 not an indefinitely reusable neutral Beltrami bath. It is finite carrier-scale
