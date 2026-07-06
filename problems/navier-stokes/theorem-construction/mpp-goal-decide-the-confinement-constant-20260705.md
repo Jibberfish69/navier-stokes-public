@@ -226,9 +226,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Follow-up producer-coupling obstruction filed: adding a constant producing
     affine jet \(Bx\) to the shear cell leaves the producer first jet unchanged
     at the station, and the cross pressure source is a sum of single sine modes
-    whose pressure Hessian vanishes at the station. The live pressure branch is
-    now producer-clock direction tracking, localization/producer curvature, and
-    allocation.
+    whose pressure Hessian vanishes at the station. At that stage the live
+    pressure branch was producer-clock direction tracking,
+    localization/producer curvature, and allocation.
     Follow-up fast-direction tracking obstruction filed: producer-clock
     direction changes of the supplied pressure Hessian can be tracked in a
     fixed finite shear-cell bank. With \(K=\sum_m c_mK_m\) and
