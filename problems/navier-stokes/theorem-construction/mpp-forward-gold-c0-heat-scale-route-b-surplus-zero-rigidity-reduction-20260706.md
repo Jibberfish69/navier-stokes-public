@@ -241,8 +241,17 @@ C_N(u_0)+Legal+Stop .
 \tag{HSR.16}
 \]
 
-Here \(a_\gamma\simeq2^{\ell_\gamma}\mu_{j_\gamma}
-(E_{j_\gamma,\ell_\gamma}\cap I_\gamma)\), and
+Here
+
+\[
+a_\gamma
+\simeq
+2^{\ell_\gamma}
+\mu_{j_\gamma}(E_{j_\gamma,\ell_\gamma}\cap I_\gamma),
+\tag{HSR.16a}
+\]
+
+and
 \(\sum_\gamma a_\gamma\simeq\sum_\ell2^\ell\nu_\ell\).
 
 ## 5. Why current support still does not prove it
