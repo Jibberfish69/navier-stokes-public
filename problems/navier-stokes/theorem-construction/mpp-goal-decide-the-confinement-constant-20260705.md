@@ -630,8 +630,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(A\) requires \(\operatorname{Re}_D\theta_+^2\ge\exp(2A/W)\), and repeated
    use telescopes to terminal material carrier-frequency travel unless reset by
    refresh/reassembly or bank motion.
-   This still leaves exponential high-Re persistence / terminal frequency
-   escape, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
+   The terminal-frequency fork then splits that horn: nonvanishing retained
+   WKB moment gives high-Sobolev Field/readout material; vanishing or
+   intermittent moment aliases to the high-factor source / no-free-upcascade
+   branch.
+   This still leaves exponential high-Re persistence with Field/high-factor
+   fork, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
    angle/eigenpath service, and construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
