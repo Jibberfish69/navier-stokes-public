@@ -68,9 +68,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(o(1)\) relative to carrier production. Same-day endpoint-room obstruction:
     over the high-Re residence the integrated envelope defect remains
     \(O((kL)^{-1})\) relative to production, and endpoint contact can be delayed
-    by taking \(kL\gg\operatorname{Re}\). Open: a record-length cap,
-    endpoint recirculation/nonlocal end influence, curve/core/crowd
-    contamination, route-out or exclusion of the isolated pure edge, or a
+    by taking \(kL\gg\operatorname{Re}\). Follow-up endpoint-return typing
+    filed: local endpoint return is not an independent payer; it aliases to a
+    record/effective-length cap unless a genuinely nonlocal recirculating
+    influence beats the \(1/(kL)\) and bounded group-speed scaling. Open:
+    record/effective-length cap, genuine nonlocal endpoint return,
+    curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
     genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
     composition. K3
@@ -556,10 +559,13 @@ certified positive constant.
    long envelopes drive the leakage ratio to zero. Same-day endpoint-room
    obstruction: over the full high-Re residence, endpoint/envelope tax remains
    \(O((kL)^{-1})\) relative to production, and contact can be delayed if
-   \(kL\gg\operatorname{Re}\). Live pure-edge branch: record-length cap,
-   endpoint recirculation/nonlocal end influence, curve/core/crowd
-   contamination, route-out/exclusion, or a genuinely new unweighted high-Re
-   mechanism.
+   \(kL\gg\operatorname{Re}\). Follow-up endpoint-return typing: local
+   endpoint return is only the length-cap theorem in different words; a
+   separate endpoint branch must be genuinely nonlocal or recirculating and
+   must beat the \(1/(kL)\) envelope and bounded group-speed scaling. Live
+   pure-edge branch: record/effective-length cap, genuine nonlocal endpoint
+   return, curve/core/crowd contamination, route-out/exclusion, or a genuinely
+   new unweighted high-Re mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
@@ -577,9 +583,10 @@ certified positive constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no record-length cap, no endpoint recirculation/nonlocal end
-   influence, no curve/core/crowd contamination trigger, no route-out/exclusion
-   of the isolated pure edge, no new unweighted high-Re mechanism, and no
+   Kill condition: no record/effective-length cap, no genuinely nonlocal
+   endpoint return, no curve/core/crowd contamination trigger, no
+   route-out/exclusion of the isolated pure edge, no new unweighted high-Re
+   mechanism, and no
    curve-leakage payment => the pure
    neutral/curvature channel is not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
@@ -1205,9 +1212,9 @@ certified positive constant.
    \(\theta_{\rm reuse}\sim1/\Lambda\) of the local record currency. Bounded
    core-log gives a fixed localized-reuse toll; unbounded core-log is the same
    high-Re weighted-payer row as K5/Gate-A, not an independent reuse branch.
-   It is decided only by record-length cap, endpoint return, curve/core/crowd
-   contamination, financed handoff, route-out/exclusion, or a genuinely
-   unweighted high-Re mechanism.
+   It is decided only by record/effective-length cap, genuinely nonlocal
+   endpoint return, curve/core/crowd contamination, financed handoff,
+   route-out/exclusion, or a genuinely unweighted high-Re mechanism.
    Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
