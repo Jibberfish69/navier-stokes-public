@@ -618,6 +618,26 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(R_0/(g_0X_{\max}^2)<V_b(q_*)\). No graph monotonicity, interval value, or
   product pass is claimed.
 
+  CODEX ROUTE-3 LOWER-EDGE SELECTOR CLOSED ROW (2026-07-06,
+  codex-route3-lower-edge-selector-closed-row): the lower-edge selector branch
+  is now explicit. With \(E_b=e^b\),
+  \[
+    \Lambda_{\rm edge}^+(b)={b(2-E_b)\over2+E_b},\qquad
+    \Lambda_{\rm edge}^-(b)=
+    {b(6-E_b(3+b))\over4+E_b(2+b)}.
+  \]
+  The lower-edge branch is
+  \[
+    \max\{0,\Lambda_{\rm edge}^-(b)\}\le\lambda<
+    \Lambda_{\rm edge}^+(b),
+  \]
+  and its rent check is
+  \[
+    {R_0\over g_0X_{\max}^2}
+    <{b\over4}\left[b(2-e^b)-\lambda(2+e^b)\right].
+  \]
+  No edge value, interval comparison, or product pass is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
