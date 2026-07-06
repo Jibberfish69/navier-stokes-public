@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-no-vanishing-horn-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-signed-stress-certificate-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -70,6 +71,10 @@ completion_truth: >-
   ancestry, and tower landings: uncovered trace is Pack-side cover failure,
   untransported trace energy is Part-side material-history failure, and a trace
   tower not tied to the same differentiated law is Part-side tower failure. The
+  signed-stress variation-floor follow-up prices the non-PSD alternative:
+  S=P-N with P,N PSD implies tr P+tr N >= ||S||_*. Thus nonzero signed stress
+  has nonzero positive trace variation or else it is not a retained
+  same-packet signed certificate. The
   ancestry coordinate has the transport-defect fork, and the cover coordinate
   has the finite-cover compactness fork.
   Existing microlocal-defect notes show
@@ -286,6 +291,15 @@ pointwise
 when \(R=(\tau/3)I+A\) and \(\operatorname{tr}A=0\). Such a defect must be
 handled as PSD null covariance with ballast, as an explicitly legal signed
 certificate, or by one of the other certificate rows.
+
+If the explicitly legal signed certificate is represented by same-packet PSD
+pieces \(S=P-N\), then
+\[
+  \operatorname{tr}P+\operatorname{tr}N\ge\|S\|_* .
+\]
+Thus vanishing normalized trace norm kills the signed tensor, while
+nonvanishing trace norm carries nonzero positive trace variation and must pass
+through the same witness-admission, cover, ancestry, and tower rows.
 
 The PSD covariance branch has no vanishing-energy horn. The same inequality
 gives
