@@ -63,7 +63,9 @@ completion_truth: >-
   close the pressure row. Actual Reynolds origin adds the covariance-ballast
   screen, whose positive trace is unresolved kinetic energy; once that trace is
   admitted at terminal WKB frequency with nonvanishing mass, it is consumed by
-  the same Sobolev/Field readout. The positive trace also has explicit cover,
+  the same Sobolev/Field readout. The no-vanishing-horn follow-up proves that
+  vanishing normalized trace energy forces vanishing trace-free PSD covariance
+  anisotropy, since \(|A|_F\le2\sqrt{2/3}\mu_R\). The positive trace also has explicit cover,
   ancestry, and tower landings: uncovered trace is Pack-side cover failure,
   untransported trace energy is Part-side material-history failure, and a trace
   tower not tied to the same differentiated law is Part-side tower failure. The
@@ -284,6 +286,16 @@ when \(R=(\tau/3)I+A\) and \(\operatorname{tr}A=0\). Such a defect must be
 handled as PSD null covariance with ballast, as an explicitly legal signed
 certificate, or by one of the other certificate rows.
 
+The PSD covariance branch has no vanishing-energy horn. The same inequality
+gives
+\[
+  |A|_F\le 2\sqrt{2\over3}\,\mu_R .
+\]
+Thus normalized trace ballast \(M_j=\phi_jD_j^3\mu_{R,j}\to0\) forces the
+normalized trace-free covariance mass \(B_j=\phi_jD_j^3|A_j|_F\to0\). If
+\(\limsup_j M_j>0\), pass to a terminal subtail with \(M_j\ge c_0>0\) and use
+the ballast Field-readout consumer after same-solution witness admission.
+
 The ballast-energy ledger identifies the positive trace as unresolved kinetic
 energy:
 \[
@@ -343,11 +355,13 @@ The nonvanishing terminal WKB horn is now:
   \end{cases}
 \]
 
-The vanishing/intermittent horn remains exactly as in the high-factor admission
-fork: bounded original-packet selected reads enter the Riesz/Bessel/first-exit
-channel; scale-native zoom reads enter the native-reserve /
-positive-critical-transfer hinge; unadmitted high-frequency sources are not
-retained supply.
+The vanishing/intermittent high-factor horn remains exactly as in the
+high-factor admission fork: bounded original-packet selected reads enter the
+Riesz/Bessel/first-exit channel; scale-native zoom reads enter the
+native-reserve / positive-critical-transfer hinge; unadmitted high-frequency
+sources are not retained supply. The PSD covariance ballast branch is sharper:
+vanishing trace ballast means vanishing trace-free covariance anisotropy, while
+positive limsup trace ballast becomes a nonvanishing terminal subtail.
 
 ## 6. State
 
@@ -361,7 +375,7 @@ ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
-ballast-energy ledger, and the transport-defect
+ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, and the transport-defect
 material-ancestry closure fork, and the finite-cover / ballast-cover
 compactness fork, the ballast ancestry/tower landing, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
