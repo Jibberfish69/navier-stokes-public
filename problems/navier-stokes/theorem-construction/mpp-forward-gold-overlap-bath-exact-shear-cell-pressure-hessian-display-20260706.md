@@ -7,7 +7,7 @@ route: forward-gold / confinement constant / crowd cell / overlap bath exact mat
 target_object:
   - PressureSource.MeanZeroConstraint.NO-STATIC-FLOOR
   - PressureSource.ExactShearCell.NONZERO-TRACEFREE-HESSIAN
-  - ExactMatrix.MultiDirectionSuperposition.REMAINS
+  - PressureSource.ArbitraryTracefreeHessian.PERIODIC-CELL-DISPLAY
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
@@ -21,11 +21,13 @@ completion_truth: >-
   that the mean-zero constraint itself is not the missing order-one floor. An
   explicit divergence-free shear cell has zero velocity gradient at the station
   while its pressure Hessian there is a nonzero traceless off-diagonal matrix of
-  size U^2/D^2, with kinetic energy scale U^2D^3 = (U^2/D^2)D^5. Thus exact
-  mean-zero pressure sourcing can supply nonzero retuning curvature at the same
-  HD^5 scale. What remains is the full multi-direction exact matrix:
-  superposition/cross-term control, localization/collar matching, coupling to
-  the producing packet, time persistence, and record-ladder allocation.
+  size U^2/D^2, with kinetic energy scale U^2D^3 = (U^2/D^2)D^5. The display
+  extends to any prescribed trace-free Hessian K: choose a zero-diagonal
+  orthonormal frame for K and set reciprocal shear amplitudes so
+  U_ij U_ji/D^2=K_ij. Thus exact mean-zero pressure sourcing can supply
+  arbitrary trace-free retuning curvature at the same |K|D^5 scale on a
+  periodic cell. What remains is localization/collar matching, coupling to the
+  producing packet, time persistence, and record-ladder allocation.
 ---
 
 # Overlap bath: exact shear-cell pressure-Hessian display
@@ -136,12 +138,75 @@ At the station \(x=0\),
 Thus the cell supplies a nonzero traceless pressure Hessian while the local
 velocity gradient at the station is zero.
 
-## 3. Scaling
+## 3. Arbitrary traceless Hessian on one periodic cell
+
+The one displayed direction is not a representation-level restriction. Let
+\[
+  K\in\operatorname{Sym}_0(3).
+  \tag{ESC.11}
+\]
+
+Use the standard zero-diagonal lemma for trace-free symmetric matrices: there
+is an orthonormal frame \(a_1,a_2,a_3\) such that
+\[
+  \langle Ka_i,a_i\rangle=0,
+  \qquad i=1,2,3.
+  \tag{ESC.12}
+\]
+
+Write \(y_i=a_i\cdot x\). Define
+\[
+  u(x)
+  =
+  \sum_{i\ne j} U_{ij}\bigl(\cos(y_j/D)-1\bigr)a_i,
+  \qquad U_{ii}=0.
+  \tag{ESC.13}
+\]
+
+This field is divergence-free, has \(u(0)=0\), and has \(\nabla u(0)=0\),
+because each \(i\)-component is independent of \(y_i\) and each derivative
+contains \(\sin(y_j/D)\).
+
+The pressure source is
+\[
+  f
+  =
+  {2\over D^2}\sum_{i<j}U_{ij}U_{ji}
+  \sin(y_i/D)\sin(y_j/D).
+  \tag{ESC.14}
+\]
+
+Solving \(-\Delta p=f\) mode by mode gives
+\[
+  \nabla^2p(0)
+  =
+  \sum_{i<j}{U_{ij}U_{ji}\over D^2}
+  (a_i\otimes a_j+a_j\otimes a_i).
+  \tag{ESC.15}
+\]
+
+Since \(K\) has zero diagonal in this frame, choose
+\[
+  U_{ij}=D|K_{ij}|^{1/2},
+  \qquad
+  U_{ji}=D\,\operatorname{sgn}(K_{ij})|K_{ij}|^{1/2}
+  \tag{ESC.16}
+\]
+for each \(i<j\). Then
+\[
+  \nabla^2p(0)=K.
+  \tag{ESC.17}
+\]
+
+So the exact periodic shear-cell display supplies every trace-free Hessian, not
+only one off-diagonal direction.
+
+## 4. Scaling
 
 Let
 \[
   H={U^2\over D^2}.
-  \tag{ESC.11}
+  \tag{ESC.18}
 \]
 
 The kinetic energy on one \(D\)-cell satisfies
@@ -151,7 +216,17 @@ The kinetic energy on one \(D\)-cell satisfies
   U^2D^3
   =
   HD^5.
-  \tag{ESC.12}
+  \tag{ESC.19}
+\]
+
+In the arbitrary \(K\) construction,
+\[
+  E_{\rm cell}
+  \lesssim
+  D^3\sum_{i\ne j}U_{ij}^2
+  \lesssim
+  |K|D^5.
+  \tag{ESC.20}
 \]
 
 This is exactly the pressure-source scaling from the previous note. The exact
@@ -162,34 +237,33 @@ change the exponent.
 For overlap retuning,
 \[
   H\sim|\dot A|\sim s^2\beta^{4/5},
-  \tag{ESC.13}
+  \tag{ESC.21}
 \]
 so the pressure-service row remains
 \[
   E_{\rm cell}
   \sim
   \beta^{4/5}E_{\rm prod}.
-  \tag{ESC.14}
+  \tag{ESC.22}
 \]
 
-## 4. What this decides
+## 5. What this decides
 
 The exact source-mean constraint is not the missing confinement constant.
 There is an explicit unforced divergence-free initial datum whose pressure
-source is mean-zero and whose pressure Hessian gives a nonzero traceless
-retuning direction at the station at cost \(HD^5\).
+source is mean-zero and whose pressure Hessian gives any prescribed traceless
+retuning matrix at the station at cost \(HD^5\).
 
 This also corrects the language of the pressure-source scaling note. The source
 service should be read as a mean-zero quadrupole/shear-cell row, not as isolated
 signed source mass.
 
-## 5. What remains
+## 6. What remains
 
 This display does not decide the exact overlap-bath matrix.
 
 The remaining burdens are:
 
-- multi-direction superposition without uncontrolled cross terms;
 - localization of the periodic shear cell into the producing field with the
   collar estimates already priced;
 - coupling the pressure cell to a nonzero producing packet without losing the
@@ -198,7 +272,7 @@ The remaining burdens are:
   evolution;
 - same-packet allocation of the pressure service into record-ladder currency.
 
-## 6. Four-sentence result
+## 7. Four-sentence result
 
 The pressure source is not a free signed scalar packet: for a true
 divergence-free periodic velocity field its spatial mean is exactly zero. But
@@ -209,7 +283,9 @@ cell \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
   =
   {U^2\over D^2}(e_1\otimes e_2+e_2\otimes e_1).
 \]
-Its energy is \(U^2D^3=HD^5\), so the overlap pressure row remains
-\(\beta^{4/5}E_{\rm prod}\). The exact-matrix branch is now narrowed to
-multi-direction superposition, localization, producer coupling, time
-persistence, and allocation, not the mean-zero pressure-source constraint.
+The same construction supplies any trace-free Hessian after choosing a
+zero-diagonal frame for that Hessian, with energy \(\lesssim HD^5\), so the
+overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). The exact-matrix
+branch is now narrowed to localization, producer coupling, time persistence,
+and allocation, not the mean-zero pressure-source constraint or instantaneous
+multi-direction pressure algebra.
