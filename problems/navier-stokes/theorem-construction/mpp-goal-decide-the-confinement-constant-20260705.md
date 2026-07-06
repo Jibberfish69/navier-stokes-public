@@ -65,9 +65,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     the exact isolated pure edge has zero sideband/crowd coordinate. Same-day
     long-packet route-out obstruction: static finite energy/localization alone
     cannot exclude the isolated edge, because envelope leakage can be made
-    \(o(1)\) relative to carrier production. Open: dynamic/geometric forced
-    sideband/leakage/crowd contamination, route-out or exclusion of the isolated
-    pure edge, or a genuinely new unweighted high-Re
+    \(o(1)\) relative to carrier production. Same-day endpoint-room obstruction:
+    over the high-Re residence the integrated envelope defect remains
+    \(O((kL)^{-1})\) relative to production, and endpoint contact can be delayed
+    by taking \(kL\gg\operatorname{Re}\). Open: a record-length cap,
+    endpoint recirculation/nonlocal end influence, curve/core/crowd
+    contamination, route-out or exclusion of the isolated pure edge, or a
+    genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
     composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
@@ -523,9 +527,13 @@ the confinement constant.
    envelope/curve/core leakage, crowd contamination, or route-out/exclusion
    of the isolated edge. Same-day long-packet route-out obstruction:
    static finite energy/localization alone does not supply that theorem;
-   long envelopes drive the leakage ratio to zero. Live pure-edge branch:
-   dynamic/geometric forced sideband/leakage/crowd contamination,
-   route-out/exclusion, or a genuinely new unweighted high-Re mechanism.
+   long envelopes drive the leakage ratio to zero. Same-day endpoint-room
+   obstruction: over the full high-Re residence, endpoint/envelope tax remains
+   \(O((kL)^{-1})\) relative to production, and contact can be delayed if
+   \(kL\gg\operatorname{Re}\). Live pure-edge branch: record-length cap,
+   endpoint recirculation/nonlocal end influence, curve/core/crowd
+   contamination, route-out/exclusion, or a genuinely new unweighted high-Re
+   mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
@@ -543,9 +551,10 @@ the confinement constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no dynamic/geometric forced sideband/leakage/crowd trigger,
-   no route-out/exclusion of the isolated pure edge, no new unweighted
-   high-Re mechanism, and no curve-leakage payment => the pure
+   Kill condition: no record-length cap, no endpoint recirculation/nonlocal end
+   influence, no curve/core/crowd contamination trigger, no route-out/exclusion
+   of the isolated pure edge, no new unweighted high-Re mechanism, and no
+   curve-leakage payment => the pure
    neutral/curvature channel is not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Normalized sidecar now passes:
