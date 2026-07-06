@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate1-pressure-ownership-size-separation-20260706
-status: failed-ownership-alone-does-not-prove-pressure-collar-tightness
+status: historical-detached-ownership-size-split-demoted-by-pressure-increment-absorption
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 1 pressure ownership versus size
@@ -19,21 +19,39 @@ proved_inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-flux-tightness-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-pressure-source-law-verdict-20260706.md
 completion_truth: >-
-  Gate 1 strict reduction. This does not install or refute
-  NormalizedRelayBillCompactnessRecordPassage.A. It proves that same-carrier
-  ownership of the pressure collar is only an address/admission statement and
-  does not imply the sublinear collar route-measure bound needed for tightness.
-  A pressure route measure can remain owned by the same parent while having
-  collar mass of order R, so the factor |grad phi_R|~1/R leaves an order-one
-  boundary contribution. Therefore SameCarrierPressureCollarOwnershipOrTightness.A
-  reduces, on the non-route-out branch, to a quantitative theorem:
-  OwnedPressureCollarSublinearRouteMeasure.A. The first exact failed gate
-  remains Gate 1; the smallest current pressure theorem is that owned retained
-  pressure collar flux has sublinear route measure, is absorbed by B, or is a
-  legal/collar/Pack-Part route-out.
+  Historical strict reduction for a detached owned pressure-collar route
+  measure. Superseded/demoted by the pressure-increment absorption pass on the
+  same date. The address-versus-size distinction remains useful as a warning:
+  ownership alone never proves smallness for an arbitrary route measure. But the
+  actual TC.20 pressure flux is not arbitrary; it contains the tower-difference
+  factor and is locally controlled by pressure-increment Calderon-Zygmund
+  structure. The current first Gate 1 theorem is
+  RetainedPressureIncrementCZTailAdmission.A, with only the leftover nonlocal
+  pressure-increment tail carrying the old route-out/tightness burden.
 ---
 
 # Gate 1 pressure ownership-size separation
+
+## 0. Supersession
+
+This note is historical. It remains true that same-carrier ownership alone does
+not imply sublinear size for a detached route measure. The current pressure flux
+is more constrained:
+
+```math
+\delta_h U_k * \delta_h\nabla^k p,
+\tag{POS.0}
+```
+
+so the live Gate 1 theorem is
+
+```math
+\texttt{RetainedPressureIncrementCZTailAdmission.A}.
+\tag{POS.0a}
+```
+
+Only a nonlocal pressure-increment tail left after local CZ admission inherits
+the detached route-measure concern developed below.
 
 ## 1. Physical object
 
@@ -150,8 +168,8 @@ the same parent-known event carries a finite charge/payment key.
 
 ## 5. Smaller Gate 1 theorem
 
-The pressure gate therefore reduces to the quantitative owned route-measure
-theorem:
+For the historical detached route-measure model, the pressure gate reduced to
+the quantitative owned route-measure theorem:
 
 ```math
 \texttt{OwnedPressureCollarSublinearRouteMeasure.A}.
@@ -187,8 +205,8 @@ Together with the prior material-cutoff and viscous-collar reductions,
 
 ## 6. Consequence for the active c_0 goal
 
-This is still Gate 1, not the whole epsilon extraction. The current proof has
-now separated the first failed gate into two layers:
+This is still Gate 1, not the whole epsilon extraction. Historically this note
+separated the detached-collar branch into two layers:
 
 ```math
 \text{source ownership/admission}
@@ -197,7 +215,7 @@ now separated the first failed gate into two layers:
 \tag{POS.11}
 ```
 
-The first layer is not enough. The active smallest pressure theorem is the
-second layer, `(POS.8)`. Until that size/absorption/route-out theorem is proved,
-`B(W_j)\to0` does not give the compact retained limit required by
-`NormalizedRelayBillCompactnessRecordPassage.A`.
+The first layer is not enough for a detached route measure. The active pressure
+theorem is now `(POS.0a)`: local pressure increments must be absorbed by the
+Field/viscous closure, and only the leftover nonlocal pressure-increment tail
+requires size, absorption, or route-out control.
