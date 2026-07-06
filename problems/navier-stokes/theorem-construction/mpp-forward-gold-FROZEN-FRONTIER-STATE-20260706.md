@@ -140,7 +140,7 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    \(X\) contribute \(A\) variation and take \(T_{\rm per}/2\), so
    after endpoint fragments are routed,
    \[
-     \Phi_W={1\over2}{\rm TV}^{int}_W(X)
+     \Phi_W={1\over2}{\rm TV}^{\rm int}_W(X)
      \le {A|W|\over T_{\rm per}},
    \]
    hence \(\Phi_W\ge\Phi_0\) and \(A\le A_+\) give
