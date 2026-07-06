@@ -117,37 +117,30 @@ The weak limit then retains only the averaged signed defect information. The
 record can vanish as a selected positive event even though each approximating
 window had \(R=1\).
 
-So the missing theorem is not generic compactness. It is lower semicontinuity of
-the same retained one-way record:
+So the missing theorem is not generic compactness. It is no-loss passage of the
+same retained one-way record:
 
 ```math
-\texttt{TowerRecordLowerSemicontinuity.A}.
+\texttt{TowerRecordNoLossPassage.A}.
 \tag{G3S.6}
 ```
 
 Statement. Under the compactness topology supplied by the Field/viscous/four-
 body bills, and after legal symmetries, recentering, and critical rescaling, the
-selected relay-record measure \(dR_N^+\) is tight and lower semicontinuous on
-retained same-fluid windows:
-
-```math
-\liminf_{j\to\infty}R(W_j)\le? 
-\tag{G3S.7}
-```
-
-The needed direction is
+selected relay-record measure \(dR_N^+\) is tight and passes to the retained
+limit with no loss of total positive record. The needed direction is
 
 ```math
 R(W_*)\ge\limsup_{j\to\infty}R(W_j)
 \quad\text{for normalized retained record sequences,}
-\tag{G3S.8}
+\tag{G3S.7}
 ```
 
 or, equivalently for \(R(W_j)=1\),
 
 ```math
 R(W_*)\ge1.
-\tag{G3S.9}
+\tag{G3S.8}
 ```
 
 This requires the positive selector/source address to be fixed or admitted as a
@@ -156,7 +149,7 @@ retained positive measure before the weak limit is taken.
 ## 5. Consequence for the active c_0 objective
 
 Gate 3 is open under the allowed sources. Chapter 2 gives finite-readout defect
-cone closedness, not relay-record lower semicontinuity. The relay-record kernel
+cone closedness, not relay-record no-loss passage. The relay-record kernel
 then has no zero-bill positive-record profile to contradict unless `(G3S.6)' is
 proved.
 
