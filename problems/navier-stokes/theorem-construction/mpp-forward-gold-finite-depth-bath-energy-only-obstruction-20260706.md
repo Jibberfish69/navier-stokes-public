@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-exponent-recursion-energy-nondecay-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-tv-toll-funding-allocation-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-custody-row-lift-gate8-allocation-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md
 completion_truth: >-
   Exact obstruction to an energy-only proof against finite-depth bath leverage,
   not a dense-crowd construction and not a confinement-constant decision. If a
@@ -30,7 +31,11 @@ completion_truth: >-
   the same bath, or an explicit PDE impossibility of the fresh-holder schedule.
   Conversely, an actual fresh finite-depth schedule satisfying the geometric and
   PDE admissibility constraints would be a real exit-II candidate. No such
-  schedule is constructed here.
+  schedule is constructed here. Follow-up correction: the summable sequence
+  requires beta_n to shrink with n, hence requires growing scale depth. Under a
+  uniform finite-depth bound K_n=log_2(1/beta_n)<=K_*, beta_n>=2^{-K_*} and the
+  geometric-demand series diverges. Thus this note's summable example is a
+  growing-depth/upscale-cascade obstruction, not a bounded finite-depth escape.
 ---
 
 # Finite-depth bath: energy-only obstruction
@@ -149,15 +154,27 @@ Fourth, one could exhibit an actual PDE schedule with fresh finite-depth
 holders satisfying the summable series and maintaining production. That would
 be a real evasion candidate.
 
+Follow-up correction:
+`mpp-forward-gold-finite-depth-beta-depth-correction-20260706.md`
+separates bounded finite depth from shrinking-\(\beta_n\) depth. Uniform
+finite depth means \(K_n=\log_2(1/\beta_n)\le K_*\), so
+\(\beta_n\ge2^{-K_*}\). Then geometric record demand forces
+\[
+  H_n\gtrsim 2^n2^{-qK_*},
+\]
+and \(\sum_nH_n\) diverges. The summable example in this note has
+\(K_n=(1+\epsilon)n/q\), so it is a growing-depth/upscale-cascade threat, not
+a bounded finite-depth threat.
+
 ## 5. Four-sentence result
 
-Finite-depth bath leverage cannot be killed by finite energy alone. If the
-\(n\)-th record event costs \(H_n\sim W_n\beta_n^q\) and \(W_n\sim2^n\), then
-choosing \(\beta_n=2^{-(1+\epsilon)n/q}\) makes
+Energy-only starvation fails if \(\beta_n\) is allowed to shrink with \(n\).
+If the \(n\)-th record event costs \(H_n\sim W_n\beta_n^q\) and \(W_n\sim2^n\),
+then choosing \(\beta_n=2^{-(1+\epsilon)n/q}\) makes
 \[
   \sum_n H_n<\infty.
 \]
-So the finite-depth branch needs a lower bound or divergence theorem for the
-admissible \(\beta_n\) sequence, same-packet allocation of the holder cost, or a
-reuse/tracking obstruction. Without one of those, finite-depth fresh holders
-remain a real crowd-cell threat, not a closed composition row.
+But that choice has depth \(K_n=(1+\epsilon)n/q\), so it is not uniformly
+finite-depth. The bounded finite-depth branch is killed; the surviving threat
+is growing-depth upscale bath construction, same-packet allocation failure, or
+reuse/tracking evasion.
