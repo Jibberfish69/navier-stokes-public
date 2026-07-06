@@ -173,7 +173,8 @@ R = 0
 or R is PSD Leray-null covariance and its positive trace energy
    mu_R=(1/2)tr R is carried by the profile certificates
 or a signed/non-PSD stress is carried by an explicit legal certificate outside
-   the rung-zero Reynolds covariance claim
+   the rung-zero Reynolds covariance claim, with trace-variation floor
+   tr P + tr N >= ||S||_* for any PSD representation S=P-N
 or actual-pressure-law / covariance-energy / ancestry / cover / tower failure.
 ```
 

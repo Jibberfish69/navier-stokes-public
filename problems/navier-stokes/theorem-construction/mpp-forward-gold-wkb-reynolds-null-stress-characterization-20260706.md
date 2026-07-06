@@ -242,7 +242,8 @@ or R is a PSD covariance measure in the null class R = qI + S with div S = 0,
    with pressure service adjusted by q and positive trace ballast paid for
    nonzero trace-free anisotropy as mu_R=(1/2)tr R
 or a signed/non-PSD stress is carried by an explicit legal certificate outside
-   the rung-zero Reynolds covariance claim
+   the rung-zero Reynolds covariance claim, with variation floor
+   tr P + tr N >= ||S||_* if represented as S=P-N by PSD packet pieces
 or actual-pressure-law / covariance-ancestry / tower certificate failure.
 ```
 

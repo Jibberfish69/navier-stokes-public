@@ -151,7 +151,8 @@ trace ballast vanishes on the retained terminal witness
 positive trace survives only outside the legal witness
   -> cover / ancestry / tower / admission failure;
 stress is not PSD covariance
-  -> requires explicit signed-stress certificate.
+  -> requires explicit signed-stress certificate; if represented as S=P-N
+     by PSD packet pieces, then tr P+tr N >= ||S||_*.
 ```
 
 There is no fifth branch in which trace energy vanishes while the PSD

@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-no-vanishing-horn-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-signed-stress-certificate-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
 completion_truth: >-
@@ -64,7 +65,10 @@ completion_truth: >-
   two Part-side clauses: the same positive energy must lift to a material
   energy current with transport defect A_R=J_R-u rho_R vanishing or legally
   carried, and to the differentiated same-law tower with derivative graph and
-  nonlinear flux defects vanishing or legally carried. This proves no legal
+  nonlinear flux defects vanishing or legally carried. The signed-stress
+  variation-floor follow-up prices the non-PSD alternative: if S=P-N with
+  P,N PSD, then tr P+tr N >= ||S||_*, so a nonzero signed tensor certificate
+  cannot be carried by zero positive trace variation. This proves no legal
   carriage theorem for the positive energy ballast through ancestry/cover/tower,
   no profile admission theorem, no WKB construction/exclusion, no confinement
   constant, and no MPP closure.
@@ -396,7 +400,14 @@ ballast transport defect \(A_R=J_R-u\rho_R\), the derivative graph defects
 be legally carried. Otherwise the branch is Part-side material-history or
 same-law tower failure. Or the stress is otherwise carried by an explicit
 legal signed-stress certificate outside the rung-zero Reynolds covariance
-claim. If none of these holds, the profile fails the actual velocity-pressure
+claim. If such a signed certificate is realized by PSD same-packet pieces
+\(S=P-N\), then
+\[
+  \operatorname{tr}P+\operatorname{tr}N\ge\|S\|_*,
+\]
+so nonzero signed stress carries nonzero positive trace variation and routes to
+the same admission/certificate rows; vanishing trace norm means the signed
+tensor vanishes. If none of these holds, the profile fails the actual velocity-pressure
 law / covariance-energy / cover / ancestry / tower certificate.
 
 This is smaller than profile admission. It is the law-coordinate test inside

@@ -173,7 +173,8 @@ or trace ballast vanishes on the retained terminal witness
 or positive trace ballast is not legally carried through
    ancestry / cover / same-law tower, giving certificate failure
 or the stress is not an actual Reynolds covariance and needs
-   an explicit signed-stress certificate.
+   an explicit signed-stress certificate; if represented by PSD packet pieces
+   S=P-N, it carries tr P+tr N >= ||S||_* positive trace variation.
 ```
 
 This is not a confinement constant. It is a consumer for a branch that already
