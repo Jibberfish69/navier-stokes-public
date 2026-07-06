@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -40,6 +41,9 @@ completion_truth: >-
   across many identity values, or inside one large identity fiber, keeps the
   same fragmentation unless identity supplies bounded count, positive
   uniform-mode charge, legal anti-equidistribution, or construction/exclusion.
+  The finite-cover follow-up shows that finite chart count is not the bounded
+  count alternative: one legal chart can contain N equal effective cells inside
+  one common identity fiber with square charge 1/N.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -203,6 +207,8 @@ filling across them is near-uniform; if it has one large identity fiber,
 uniform filling inside that fiber is still near-uniform. Identity helps only
 after an added quantitative law bounds the effective count, gives the identity
 fiber a positive uniform-mode charge, or forbids near-uniform legal weights.
+The finite-cover certificate is not that effective-count law; it bounds carrier
+charts, not WKB service cells inside a chart or identity fiber.
 
 ## 5. Physical meaning
 
