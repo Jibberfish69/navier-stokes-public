@@ -15,6 +15,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
 completion_truth: >-
   Exact criterion and countermodel. For a tight WKB phase-label cloud
   mu_j -> mu on a compact label space X, if the active pressure-service readout
@@ -27,9 +29,13 @@ completion_truth: >-
   mu_j -> delta_0 and the limiting functional is identically zero. Therefore a
   WKB profile proof cannot cite compactness alone; it must prove continuous /
   uniformly stabilized pressure-service readout, or else the failure is
-  material/time/weight/rung/selector escape. This pays only the moment-passage
-  subclause, not same-solution terminal witness admission, no WKB construction
-  or exclusion, no confinement constant, and no MPP closure.
+  material/time/weight/rung/selector escape. The closed-graph witness follow-up
+  then isolates the remaining legality clause: a closed legal-label set admits
+  the limiting profile support, while nonclosed legality gives a limit-of-class
+  / original-participation / carrier-or-tower failure. This pays only the
+  moment-passage subclause, not closedness of the actual Navier-Stokes WKB
+  legality predicates, no WKB construction or exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB profile moment continuity criterion
@@ -222,6 +228,13 @@ Those clauses are exactly the still-open
 \]
 or its diffuse/atomic subbranches.
 
+The closed-graph witness criterion pays the compactness form of this remaining
+legality question. Once the legal-label set is closed in the WKB phase-label
+topology, profile support stays legal under weak-* passage. When the legal set
+is not closed, legal prelimit labels can converge to an illegal limiting label,
+which is a limit-of-class / original-participation / carrier-or-tower failure,
+not admitted retained profile supply.
+
 ## 6. Four-sentence result
 
 Weak-* profile compactness preserves the retained WKB pressure-service moment
@@ -230,12 +243,16 @@ phase-label space. It also preserves the moment for moving functionals that
 converge uniformly. Without that stabilization the statement is false: a moving
 spike selector can keep unit service on every prelimit while the limiting
 profile sees zero service. Thus profile admission now separates into a paid
-moment-passage clause and an open same-solution witness-legality clause.
+moment-passage clause and a closed-graph same-solution witness-legality clause:
+closed legal labels admit the profile, while nonclosed legality produces a
+typed limit-of-class defect.
 
 ## 7. State
 
 This note proves the profile moment-passage criterion and the moving-spike
-countermodel.
+countermodel. The follow-up closed-graph criterion proves the exact legal-label
+compactness condition for profile support, and leaves the actual closedness of
+the Navier-Stokes WKB legality predicates open.
 
 It proves no `MicrolocalDefectProfileAdmission.A`, no
 `DiffuseWKBProfileAdmission.A`, no `AtomicWKBNeighborhoodCarrierAdmission.A`,
