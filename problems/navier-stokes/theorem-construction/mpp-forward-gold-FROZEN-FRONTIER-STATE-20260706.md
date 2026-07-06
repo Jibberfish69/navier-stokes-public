@@ -553,6 +553,25 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   friendly branch returns to the full RUN-H scalar supremum, Door A, Door C,
   fixed-block availability, or typed route-out; it is not an F4 refutation.
 
+  CODEX ROUTE-3 PRODUCT DUAL RENT-BUDGET REDUCTION (2026-07-06,
+  codex-route3-product-dual-rent-budget-reduction): the friendly midpoint
+  product row \(0\le s<s_b^0\) and \(\lambda<C_b(s)\) is equivalently the
+  single allowable-rent row
+  \[
+    s<\mathcal R_b(\lambda),
+    \qquad
+    \mathcal R_b(\lambda)=
+    \sup_{2b<q<U,\ S(q)>\lambda}
+    {h(q)\over4}(S(q)-\lambda).
+  \]
+  Thus the Chapter-10-friendly product certificate is
+  \(2b<U\) and
+  \(R_0/(g_0X_{\max}^2)
+  <\mathcal R_b(d_{\rm R4}^+/X_{\max})\).
+  The separate rent endpoint is included as
+  \(s_b^0=\mathcal R_b(0)\). Failure of this dual row is still only failure
+  of the friendly midpoint branch, not the full RUN-H scalar supremum.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
