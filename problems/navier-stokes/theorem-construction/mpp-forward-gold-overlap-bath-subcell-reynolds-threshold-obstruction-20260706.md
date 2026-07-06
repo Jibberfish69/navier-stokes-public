@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-time-persistence-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and threshold obstruction, not a dense-crowd theorem and not
   a confinement-constant decision. The producer-curvature note left the
@@ -26,6 +27,9 @@ completion_truth: >-
   construction fails, but that failure is not itself an order-one energy floor;
   it is a viscous/admissibility edge that still needs allocation to
   record-ladder currency, a global pressure construction, or an exclusion.
+  Follow-up same-packet raw allocation obstruction checks that raw same-field
+  charging still gives only beta^(4/5) of local producer currency; the needed
+  allocation is Gate-8 no-recount allocation or a compensator/residue.
 ---
 
 # Overlap bath: subcell Reynolds threshold obstruction
@@ -196,6 +200,9 @@ The pressure row now has three typed exits:
   \(\operatorname{Re}_R\lesssim\beta^{-4/5}\), where the local subcell fails but
   a proof must still convert that failure into record-ladder payment or
   producer suppression;
+- Gate-8 no-recount allocation or compensator:
+  raw same-field energy charging remains \(\beta^{4/5}\) of local producer
+  currency;
 - global construction/exclusion:
   a nonlocal pressure bath that avoids the local subcell model, or a proof that
   no such bath is compatible with the true field.
