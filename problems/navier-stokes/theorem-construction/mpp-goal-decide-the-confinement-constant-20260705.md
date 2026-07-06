@@ -358,6 +358,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     Hessian, so the persistent high-Re branch must be decided by localization,
     moment matching, same-fluid coupling, compensator routing, or
     construction/exclusion.
+    Follow-up Beltrami localization cell-count split filed: a Beltrami carrier
+    of wavelength \(\ell\) localized in envelope scale \(L\) has cutoff drift
+    rate \(\delta_D\ell/L\). At \(\delta_D/s\sim\beta^{-4/5}\), avoiding an
+    order-one producer-clock localization drift requires
+    \(L/\ell\gtrsim\beta^{-4/5}\), hence at least \(\beta^{-12/5}\) carrier
+    cells. In variables \(L=\phi^{1/3}D\), \(\ell=\theta D\), this is
+    \(\phi\gtrsim\theta^3\beta^{-12/5}\). Local trace-free pressure-Hessian
+    moment matching is possible by rotated Beltrami cells; the surviving branch
+    is therefore a many-cell WKB Beltrami bath with same-fluid coupling and
+    routing still unproved, or a new cancellation of the cutoff defect.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -497,6 +507,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    decay only on the viscous clock, while still admitting nonzero pressure
    Hessian through \(|b|^2\). The remaining branch is localization, moment
    matching, same-fluid coupling, compensator routing, or construction/exclusion.
+   The localization cell-count split says no-payer localization requires
+   \(L/\ell\gtrsim\beta^{-4/5}\), hence at least \(\beta^{-12/5}\) carrier cells;
+   local moment matching is algebraically possible, so the surviving object is a
+   many-cell WKB same-fluid bath or a new cutoff-defect cancellation.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
