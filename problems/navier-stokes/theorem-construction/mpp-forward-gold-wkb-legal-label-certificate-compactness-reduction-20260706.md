@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-assembly-theorem-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -45,9 +46,10 @@ completion_truth: >-
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
   not prove uniform finite-cover compactness, does not prove tower-defect
-  vanishing or legal carriage, does not prove simultaneous product lift, does
-  not prove profile admission, does not prove WKB construction/exclusion, does
-  not decide the confinement constant, and does not close the MPP.
+  vanishing or legal carriage, does not prove cross-certificate compatibility
+  for actual same-fluid WKB packets, does not prove profile admission, does not
+  prove WKB construction/exclusion, does not decide the confinement constant,
+  and does not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
@@ -344,8 +346,12 @@ product,
   C_{\rm law}\times C_{\rm anc}\times C_{\rm cov}\times C_{\rm tower},
 \]
 the product is compact, the intersection graph is closed, and the closed-graph
-criterion applies. If simultaneous product lift fails, the first failed
-coordinate routes to the same Pack/Part/Field typed failure listed above.
+criterion applies. The product-lift gluing theorem then sharpens the last
+phrase: rowwise lifts over the same observable marginal glue automatically when
+no cross-row relation is imposed. The residual same-packet burden is
+cross-certificate compatibility among the law, ancestry, cover, and tower
+coordinates. If that compatibility fails, the first incompatible coordinate
+routes to the same Pack/Part/Field typed failure listed above.
 
 ## 7. State
 
