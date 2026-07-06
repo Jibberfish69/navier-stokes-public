@@ -1583,6 +1583,15 @@ surface, not F4 clearance.
    must hide every dangerous mixed-shell output from the exposed boundary of
    the cross-shell sum set; the remaining cancellation door is a convex-hull
    hidden closed resonant crowd, not an exposed finite graph.
+   Follow-up unique-mixed-sum obstruction sharpened this: exposedness was
+   only a sufficient way to get a single feeding pair. Any unique
+   noncollinear cross-shell output rings, even if it is hidden from the
+   convex-hull vertices; the aligned two-shell skeleton
+   \(\{\pm e_i\}\cup\{\pm2e_i\}\) leaks at \(e_1+2e_2\). The finite
+   cancellation door is now a multiply represented closed resonant graph:
+   every dangerous mixed-shell output must be fed by at least two active
+   cross-shell pairs, or the interaction must collapse to same-shell,
+   collinear, or zero-amplitude degeneracy.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
