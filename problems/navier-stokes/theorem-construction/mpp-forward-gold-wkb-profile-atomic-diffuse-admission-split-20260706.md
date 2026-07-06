@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -46,7 +47,10 @@ completion_truth: >-
   unbounded-count compactness split then routes tight clouds to nonzero
   WKB/microlocal profiles and nontight clouds to selected-carrier
   domain/label/rung escape; it also shows that count-only no-free-fragmentation
-  and same-cell packet-moment square coercivity are false. A nonzero
+  and same-cell packet-moment square coercivity are false. The cross-cell
+  Gram-gap follow-up types the remaining square option: it must be a uniform
+  positive lower bound for the actual interaction Gram form on the normalized
+  admissible positive cloud cone, or near-null clouds defeat it. A nonzero
   profile carries the retained scalar pressure-service moment whenever the
   active service readout is continuous or uniformly stabilized; without that
   stabilization a moving-spike selector is label/weight/rung escape. The
@@ -362,5 +366,5 @@ fork for material ancestry, and the finite-cover compactness fork for the
 Pack-side cover coordinate.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
-no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,
-and no MPP closure is claimed.
+no cross-cell Gram-gap theorem, no WKB construction/exclusion theorem, no F4/F5
+pass, no manuscript completion, and no MPP closure is claimed.
