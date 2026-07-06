@@ -647,8 +647,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    Field-face failure once the WKB packet is a same-solution terminal witness
    ledger. The exact open theorem is
    `TerminalWKBMomentWitnessAdmission.A`, not a Chapter-10 number.
-   This still leaves exponential high-Re persistence with Field/high-factor
-   fork, Gate-8/custody pricing for refresh/reassembly and bank travel, slow
+   The terminal WKB high-factor admission fork then checks the other horn:
+   negative tail/enstrophy visibility is not selected positive carrier control.
+   If the vanishing/intermittent high-frequency source is bounded as an
+   original-packet selected read, it is already in the Riesz/Bessel/first-exit
+   packing channel. If it is a scale-native zoom read, it is exactly
+   `NativeBirthChargePacking.A` / `SelectedGeneratorStorageCoercivity.A` /
+   `PositiveCriticalTransferBound.A`. This still leaves exponential high-Re
+   persistence with Field witness admission, native-reserve scale births,
+   Gate-8/custody pricing for refresh/reassembly and bank travel, slow
    angle/eigenpath service, and construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
