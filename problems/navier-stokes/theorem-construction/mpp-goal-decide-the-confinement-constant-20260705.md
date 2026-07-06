@@ -671,6 +671,13 @@ the confinement constant.
    \(\theta\lesssim\beta^{6/5}\). The rest of the WKB window is sparse
    support and routes to compensator / nonlocal allocation / construction-or-exclusion,
    not to a backed fixed-density retained tax row.
+   Follow-up sparse-allocation amplification reduction filed: if a sparse bath
+   of support fraction \(\phi\) and pressure density \(\beta^{4/5}\) backs a
+   full-bank fixed tax through allocation amplification \(B\), then
+   \(B\beta^{4/5}\phi\gtrsim1\). In the sparse WKB window this forces
+   \(B\gtrsim\theta^2\beta^{-16/5}\), so bounded nonlocal allocation is not a
+   hidden payer; the branch is unbounded allocation/custody, compensator,
+   producer suppression, or construction/exclusion.
    The Beltrami material-phase identity adds that the active same-shape
    pressure-service row cannot be supplied by carrier-neutral WKB cells:
    \(S:K=\sum_iw_iD_t\log\lambda_i\). Active service forces carrier-scale drift
