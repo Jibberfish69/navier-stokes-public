@@ -24,6 +24,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
 completion_truth: >-
   This is a proof of implication and a checked no-go for a weaker route, not a
   proof of c_0. The surviving route-b storage inequality HSR.13 is reduced to
@@ -37,8 +39,11 @@ completion_truth: >-
   raw L^2 current square control still admits the one-child half-tail. The
   checked proof attempt stops at the persistent affine quotient admission and
   active route Carleson rows: ODP.132/ODP.133 or equivalently native-birth
-  charge packing / positive critical transfer. No FullTower retention,
-  material-time Liouville, strict c_0, or MPP closure is claimed.
+  charge packing / positive critical transfer. The persistent quotient side is
+  now sharpened to PersistentRootAffineQuotientReturnPayment.A and its fresh
+  potential-average plus strict reset/overrun original-history producers. No
+  FullTower retention, material-time Liouville, strict c_0, or MPP closure is
+  claimed.
 ---
 
 # First-ratio storage as current-Carleson currency
