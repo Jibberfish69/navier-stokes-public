@@ -1052,8 +1052,11 @@ the confinement constant.
    density separation when the uniform density satisfies them. A finite row can
    force separation only by a fixed moment mismatch, quantified by
    \(\delta^T\mathcal G^\dagger\delta\), which is an explicit row/payer rather
-   than hidden certificate compatibility. Thus density separation must come
-   from a fixed nonuniform row, a high-rank/infinite certificate family, a
+   than hidden certificate compatibility. The high-rank linear row check now
+   collapses the apparent high-rank/infinite linear branch to the same
+   row-distance payer: uniform-compatible linear families still admit the
+   uniform bath, and nonuniform families pay by Hilbert row distance. Thus
+   density separation must come from an explicit nonzero row-distance payer, a
    nonlinear/global same-packet law, or construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
