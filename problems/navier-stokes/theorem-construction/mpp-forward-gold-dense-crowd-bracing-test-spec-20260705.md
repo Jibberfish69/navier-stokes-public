@@ -27,7 +27,7 @@ completion_truth: >-
   the bracing pair suffers back-reaction eviction from the same
   interaction that supplies the brace. The theorem-shaped question is
   whether reaction eviction restores the floor for the four-tube
-  system. SAME-DAY FOLLOW-UP: the unallocated pairwise-TV subcell is
+  system. FOLLOW-UP: the unallocated pairwise-TV subcell is
   paid exactly by the K3 two-tube TV floor; the remaining bracing
   danger is net-vector cancellation before the accepted ledger charges
   pairwise TV, or non-pairwise/off-profile geometry. KILL CONDITION
@@ -85,7 +85,7 @@ Floor fails: first evasion cell found; the construction iterates
 toward the broadband counterexample; the program heads to exit (ii)
 with a real object in hand.
 
-Same-day subcell
+Follow-up subcell
 `mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md`
 settles one restricted version: if ordered pairwise geometric-exit TV is
 charged before cancellations between different interactions are netted, then
