@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-opening-augmented-worksheet-row-inventory-20260705
-status: codex-gated-inventory-accepted-w4-rent-loaded-product-row-w5-table-blocker
+status: codex-gated-inventory-accepted-w4-rent-loaded-product-row-w5-merged-to-density-display
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F4 / opening - the augmented worksheet frozen as a row inventory
@@ -123,6 +123,21 @@ Therefore W5 is not yet interval-ready. The F4 pass cannot execute as a
 completed sheet until W5 is installed as an exact comparison row,
 merged into W2/W4 by a named re-gate, or struck by a named architecture
 audit. No positivity or interval arithmetic is claimed.
+
+W5 merge gate filed:
+`mpp-forward-gold-codex-f4-w5-merge-regate-gate-20260705.md`.
+The independent W5 same-currency comparison is struck. Its supply half
+is retained only as \(W5'\), the marginal tax-density display
+\[
+  \theta_{\rm marg}
+  =
+  \frac{\varepsilon_\theta}
+       {2N_{\rm ov}R_g\kappa_{\min}^{1/2}},
+\]
+with \(\varepsilon_\theta>0\) a fixed safety factor; under the
+normalized P2 convention, \(\varepsilon_\theta=1\). Its former
+"sufficiency" content is merged into W1-W3 supplying \(c_0\) and W6
+consuming \(c_0\). No interval arithmetic or positivity is claimed.
 
 # F4 opening: the sheet, written the night before
 
