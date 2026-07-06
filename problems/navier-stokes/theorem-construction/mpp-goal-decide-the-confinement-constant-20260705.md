@@ -495,6 +495,25 @@ R4 drift, finite constants \(K_{\rm off},\tau_{\min},\Omega_{\rm R4},
 D_{P2}^{\rm ti},D_{\rm tail}^{\rm ti}\), positivity of the displayed row,
 BoundaryTail_F4 endpoint/rate split, and the length row. This does not decide
 the confinement constant.
+One-sided correction carried forward: the bottom-root horn route spends the top
+source only on RUN time. After the self-financing dwell gate, the active
+product source is
+\[
+  {1-f_{\rm dw}\over2}\Delta_{\rm run}^-(\delta),
+  \qquad
+  \Delta_{\rm run}^-(\delta)
+  =
+  A_0g_0
+  \left[
+    {A_0(1-e^\delta/2)\over2}
+    -
+    (1+e^\delta/2)d_{\rm R4}^+
+  \right],
+\]
+with \(0<\delta<\min(q_{\rm per}^-,\log2)\), the H-row bounding dwell
+fraction by \(f_{\rm dw}\), and a separate dwell-excess length floor.
+This is the active composition-side interval surface; it is still not a
+certified positive constant.
 
 ## Work order (each unit: output + kill condition)
 
