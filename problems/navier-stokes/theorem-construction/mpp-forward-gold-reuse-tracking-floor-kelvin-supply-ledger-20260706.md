@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fresh-holder-architecture-gate-overlap-survivor-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-reuse-thin-core-log-edge-alias-20260706.md
 completion_truth: >-
   The named reuse tracking-floor display, executed as a SUPPLY LEDGER
   closed by Kelvin's theorem; identity tier except where typed; one
@@ -103,6 +104,16 @@ THREE-object live space: overlap bath (exact matrix / bath-recursion
 branch), reuse tracking floor (this note), Gate-8 allocation. The
 overlap bath remains governed by BD1 (steady-or-tracking), BD3, and
 the summability criterion - typed there, not priced here.
+
+Second correction, same date:
+`mpp-forward-gold-reuse-thin-core-log-edge-alias-20260706.md` identifies the
+thin-core edge as the already named high-Re weighted-payer row, not an
+independent reuse branch. With
+\(\Lambda=\log(d/a)\), the reuse floor backs density \(\sim1/\Lambda\);
+bounded \(\Lambda\) gives a fixed localized-reuse toll, while
+\(\Lambda\to\infty\) aliases to record-length cap / endpoint return /
+curve-core-crowd contamination / financed handoff / route-out / new unweighted
+high-Re mechanism.
 
 ## 1. Kill condition
 
