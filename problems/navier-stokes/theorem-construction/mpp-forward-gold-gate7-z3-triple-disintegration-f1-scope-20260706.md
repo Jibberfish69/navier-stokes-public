@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-z3-triple-disintegration-f1-scope-20260706
-status: filed-pending-codex-gate
+status: codex-regated-f1-scope-accepted-general-triple-measure-routing-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / Gate 7 / z3 completed two ways — the F1 one-leg scope, and the N_dof^3 triple disintegration
@@ -18,9 +18,17 @@ depends_on:
   - mpp-forward-gold-gate7-z3-one-volume-mode-budget-landau-20260706.md
   - mpp-forward-gold-codex-f1-t3-bad-cone-capacity-fork-20260706.md
   - mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md
+  - mpp-forward-gold-codex-gate7-z3-triple-disintegration-f1-scope-regate-20260706.md
 completion_truth: >-
-  Completes the z3 mode-budget route along both options the regate
-  named; proves nothing beyond the accepted one-volume principle
+  Codex-regated state: strict reduction, not full z3 clearance. The F1
+  one-free-leg scope is accepted as the correct mechanism for the live
+  F1 local-tail consumer. The N_dof^3 triple expansion is accepted as
+  the right finite algebraic skeleton for general Gate 7, but the
+  measure-level triple submeasures, legwise lineage/routing map,
+  mixed-band trilinear constants, plunge/tail routing, and
+  m_mu-vs-N_dof^3 safety ratio remain open/certification rows. This note
+  reduces the z3 mode-budget route along both options the regate named;
+  proves nothing beyond the accepted one-volume principle
   applied leg-by-leg. (W1 - THE F1 SCOPE, sufficient for the
   current chain) The only Gate-7 consumer in the live F1 chain is
   the bad-cone/tail fork, whose trilinear readout has TWO legs
@@ -63,6 +71,24 @@ completion_truth: >-
 ---
 
 # z3 completed two ways: the F1 scope, and the triple disintegration
+
+## Codex regate, 2026-07-06
+
+Codex audit filed:
+`mpp-forward-gold-codex-gate7-z3-triple-disintegration-f1-scope-regate-20260706.md`.
+
+Accepted: the F1 one-free-leg scope. The live F1 local-tail consumer has
+the form \(M(f_{\rm tail},g,h)\), so one Landau-mode disintegration is
+the correct reduction for that scoped use.
+
+Accepted as skeleton: the full \(N_{\rm dof}^3\) triple expansion is the
+right finite algebraic object for general Gate 7.
+
+Regated: this is not yet full z3 clearance. The proof must still
+construct positive mode-triple submeasures of the throughput variation
+\(\lambda_a\), supply the legwise lineage/routing map, bound mixed-band
+trilinear factors, charge plunge/tails, and certify the
+\(m_\mu\)-vs-\(N_{\rm dof}^3\) safety ratio.
 
 ## W1. The F1 scope (sufficient for the current chain)
 
