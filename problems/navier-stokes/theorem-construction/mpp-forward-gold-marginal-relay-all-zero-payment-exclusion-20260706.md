@@ -18,6 +18,8 @@ authorship: >-
 depends_on:
   - mpp-forward-gold-participation-break-even-identities-c0-is-rigidity-deficit-20260706.md
   - mpp-forward-gold-CANONICAL-one-object-strain-service-reserve-floor-consolidation-20260706.md
+related_audits:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
 completion_truth: >-
   PROVED (at strict-reduction rigor, reads defined below; matching to the
   repo's exact dR/dA_{4B}/dE^Field row definitions is an owed transcription):
@@ -40,7 +42,10 @@ completion_truth: >-
   independent of the configuration, i.e. c_0 = 2 eps > 0. The half-speed
   marginal relay is exactly the minimizing sequence whose limit must be
   excluded; the uniform bound is the material-time Liouville / compactness
-  step, the one remaining wall. No closure claimed. Filed is not cleared.
+  step, the one remaining wall. The theta-profile audit further fixes the
+  scope: this theorem concerns the central upward relay read, not the full
+  Theta_N material clock, so it cannot be cited as c_0 closure without the
+  detector/affine-quotient bridge. No closure claimed. Filed is not cleared.
 ---
 
 # The all-zero-payment marginal relay is excluded
