@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-affine-transport-pressure-bank-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scale dichotomy, not a dense-crowd theorem and not a
   confinement-constant decision. The constant-affine coupling note showed that
@@ -43,7 +44,11 @@ completion_truth: >-
   Gate-8 no-recount allocation/compensator, producer-suppression bridge, or
   construction exclusion. Follow-up same-packet raw allocation obstruction says raw same-field
   charging remains beta^(4/5) of local producer currency, so the allocation
-  branch is Gate-8 no-recount allocation or compensator.
+  branch is Gate-8 no-recount allocation or compensator. Follow-up
+  affine-transport pressure-bank obstruction prices affine same-fluid custody at
+  beta^(4/5), so the current dynamic branch is non-affine/broadband same-fluid
+  transport, Reynolds-edge failure, fixed-density compensator/residue, or
+  construction/exclusion.
 ---
 
 # Overlap bath: shear-cell producer-curvature subscale obstruction
