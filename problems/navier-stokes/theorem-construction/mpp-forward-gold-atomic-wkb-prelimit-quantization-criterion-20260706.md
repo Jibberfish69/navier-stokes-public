@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-heredity-finite-menu-reduction-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
 completion_truth: >-
   Exact criterion and obstruction. The limiting atomic WKB profile gives a
   shrinking phase-tube cloud with total retained moment at least a_*/2 on a
@@ -36,7 +37,9 @@ completion_truth: >-
   compactness follow-up shows that count-only no-free-fragmentation and
   same-cell packet-moment square coercivity are false; a tight unbounded cloud
   is a WKB/microlocal profile object and a nontight cloud is selected-carrier
-  escape.
+  escape. The cross-cell Gram-gap follow-up types the remaining square rescue:
+  cross-cell coercivity is exactly a uniform positive Gram lower bound on the
+  normalized admissible positive cloud cone; near-null Gram sequences defeat it.
 ---
 
 # Atomic WKB prelimit quantization criterion
@@ -153,7 +156,7 @@ The branch can still be paid by one of these additional inputs:
 
 1. a PDE uncertainty-cell lower bound showing that \(M_j\) is actually bounded
    inside the shrinking atom tube at the retained readout scale;
-2. orthogonality or cross-cell square coercivity in the actual field, not the
+2. a PDE uncertainty / cross-cell Gram-gap theorem in the actual field, not the
    same-cell packet-moment square sum;
 3. admission of the whole shrinking phase-tube cloud as a profile-level
    terminal witness.
@@ -161,6 +164,11 @@ The branch can still be paid by one of these additional inputs:
 The count-only version of no-free-fragmentation is false: uniform fragmentation
 can keep total mass while every packet mass vanishes. The same-cell
 packet-moment square sum also vanishes in that model.
+
+The cross-cell square version is now an exact Gram problem. A quadratic form
+\(a^TG_ja\) pays only under a uniform lower bound on the normalized admissible
+positive cloud cone; without that gap, near-null clouds preserve total moment
+and kill the square charge.
 
 Without one of these, the atomic branch is not an actual packet. It is the
 atomic fragmentation defect:
@@ -191,7 +199,8 @@ prelimit packet cells, pigeonhole gives one cell with fixed positive moment,
 and finite-menu carrier extraction applies. If the effective packet count is
 unbounded, the same atomic moment can fragment into \(M_j\) cells of mass
 \(a_\ast/(2M_j)\), so no actual packet is forced. The remaining unbounded-count
-branch needs no-free-fragmentation, an uncertainty-cell bound, square coercivity,
-cloud-profile admission, or it is a typed atomic fragmentation defect. The
-count-only no-free-fragmentation and same-cell packet-moment square-coercivity
-versions are false; the remaining versions require PDE structure or admission.
+branch needs no-free-fragmentation, an uncertainty-cell / cross-cell Gram-gap
+bound, cloud-profile admission, or it is a typed atomic fragmentation defect.
+The count-only no-free-fragmentation and same-cell packet-moment
+square-coercivity versions are false; the remaining versions require PDE
+structure or admission.
