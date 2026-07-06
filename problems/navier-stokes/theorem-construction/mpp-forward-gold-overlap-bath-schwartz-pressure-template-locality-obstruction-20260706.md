@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-template-bank-cross-term-correction-20260706.md
 completion_truth: >-
   Strict reduction and finite-energy template obstruction, not a dynamic bath
   construction, not a dense-crowd theorem, and not a confinement-constant
@@ -23,9 +24,12 @@ completion_truth: >-
   payer. This note gives an explicit Schwartz divergence-free template whose
   velocity and velocity gradient vanish at the producer while its pressure
   source generates a nonzero trace-free pressure Hessian there. The exact
-  computation gives (106/1155) diag(-1,-1,2). Rotations and nonnegative
-  amplitude weights span every trace-free Hessian, and the scaling
-  u_{D,K}=D |K|^(1/2) v(x/D) gives energy O(|K|D^5) and Hessian K. Hence
+  computation gives (106/1155) diag(-1,-1,2). Same-day correction: the first
+  filed rotated-bank spanning step was false as an additive source identity,
+  because the pressure source is quadratic and co-centered rotated copies have
+  exact cross terms. The corrected bank map
+  Phi(c)=(106/1155)[5 diag(c^2)-|c|^2 I-2 c tensor c] is exact and reaches
+  every trace-free Hessian, with energy O(|K|D^5) after scaling. Hence
   finite-energy pressure/Hodge localization has the same q=4/5 pressure-service
   row; it does not force supercritical motion or an order-one locality tax by
   itself. Compact support follows by cutting off the stream function at a fixed
@@ -153,6 +157,22 @@ Hessian at the producer.
 
 ## 4. Spanning every trace-free Hessian
 
+Correction header, 2026-07-06. The first filed version of this section claimed
+that co-centered rotated copies add their pressure Hessians linearly. That is
+false at source level. The pressure source
+\(f=\partial_i v_j\,\partial_j v_i\) is quadratic in \(v\), so distinct
+rotated copies create cross sources. The same-day correction note computes the
+unit cyclic pair exactly:
+\[
+  \nabla^2p_{\rm cross}(0)
+  =
+  -{212\over1155}(e_i\otimes e_j+e_j\otimes e_i),
+  \qquad i\ne j,
+  \tag{SPT.12b}
+\]
+twice the solo coefficient. The locality conclusion survives, but the witness
+is the corrected bank map below, not the additive nonnegative-weight formula.
+
 Write
 \[
   Q(n):=3n\otimes n-I.
@@ -166,37 +186,43 @@ The template supplies
   c={106\over1155}.
   \tag{SPT.12a}
 \]
-Rotating the template supplies \(cQ(n)\) for any unit vector \(n\).
-
-Let \(K\in\operatorname{Sym}_0(3)\), and diagonalize it:
+For signed amplitudes \(c=(c_1,c_2,c_3)\) on the three cyclic copies, the
+exact station Hessian is
 \[
-  K=\sum_{i=1}^3\lambda_i e_i\otimes e_i,
-  \qquad
-  \lambda_1+\lambda_2+\lambda_3=0.
+  \Phi(c)
+  =
+  {106\over1155}
+  \left[
+    5\operatorname{diag}(c^2)-|c|^2I-2c\otimes c
+  \right].
   \tag{SPT.13}
 \]
-
-Choose
+This map is trace-free and quadratic homogeneous. It reproduces the solo
+template at \(c=(0,0,1)\), and it reaches the oblate extreme at
 \[
-  A=-\min_i\lambda_i,
+  c=(1,1,1),
   \qquad
-  \alpha_i={\lambda_i+A\over3}\ge0.
+  \Phi(c)={106\over1155}(2I-2J),
   \tag{SPT.14}
 \]
+with spectrum \((106/1155)(2,2,-4)\).
 
-Then
+Along \(c(t)=(t,t,1)\), \(t\in[0,1]\), the normalized cubic invariant of
+\(\Phi(c(t))\) runs continuously from the prolate extreme to the oblate
+extreme. Since trace-free spectra are classified up to scale by that invariant,
+and rotations supply arbitrary eigenframes, the corrected bank supplies every
+trace-free Hessian.
+
+The correction note gives the exact cost bound
 \[
-  K=\sum_{i=1}^3\alpha_i Q(e_i).
+  |c|^2
+  \le
+  \sqrt{3\over2}\,{1155\over106}|K|_F,
   \tag{SPT.15}
 \]
-
-So three rotated copies of the same template, with nonnegative amplitude
-weights \(\alpha_i/c\), supply any prescribed trace-free Hessian. The total
-weight obeys
-\[
-  \sum_i{\alpha_i\over c}\lesssim |K|.
-  \tag{SPT.16}
-\]
+so the total bank energy remains \(O(|K|D^5)\). Thus the false additive formula
+is replaced by the exact quadratic bank map without changing the pressure-row
+scaling conclusion.
 
 ## 5. Scaling
 
@@ -317,7 +343,10 @@ has \(v(0)=0\), \(\nabla v(0)=0\), and generates pressure Hessian
   {106\over1155}\operatorname{diag}(-1,-1,2)
 \]
 at the origin. Rotations and nonnegative amplitude weights supply every
-trace-free Hessian, and scaling gives cost \(\lesssim |K|D^5\), hence
-\(\beta^{4/5}E_{\rm prod}\) for the overlap row. The remaining pressure branch
-is dynamic admissibility, Reynolds-edge failure, fixed-density compensator, or
-construction/exclusion, not static finite-energy localization.
+trace-free Hessian in the first filed version, but that additive witness is
+false; the corrected quadratic bank map \(\Phi(c)\) with its exact cross terms
+supplies every trace-free Hessian instead. Scaling still gives cost
+\(\lesssim |K|D^5\), hence \(\beta^{4/5}E_{\rm prod}\) for the overlap row.
+The remaining pressure branch is dynamic admissibility, Reynolds-edge failure,
+fixed-density compensator, or construction/exclusion, not static finite-energy
+localization.
