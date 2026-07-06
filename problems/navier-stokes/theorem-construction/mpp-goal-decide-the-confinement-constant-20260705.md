@@ -1243,7 +1243,24 @@ surface, not F4 clearance.
    Material angular shear therefore creates pressure moment along the exact
    least-distance row. It proves the uniform angular bath is not dynamically
    parked under strain, but it is still the beta-small service-coordinate row,
-   not an independent order-one confinement tax. Follow-up finite-cloud witness: for
+   not an independent order-one confinement tax.
+   The finite constant-strain angular follow-up then integrates that row
+   exactly. For fixed trace-free strain \(S\), the projective covector map
+   \(\Phi_Tn=e^{-TS}n/|e^{-TS}n|\) pushes the uniform angular density to
+   \(f_T(\Phi_Tn)=|e^{-TS}n|^3\), and the cumulative active service obeys
+   \[
+     \int_0^T S:K(f_t)\,dt
+     =
+     \int_{S^2}\log|e^{-TS}n|\,d\sigma(n)
+     =
+     {1\over3}\int_{S^2}f_T\log f_T\,d\sigma .
+   \]
+   Thus a fixed affine angular bath cannot supply sign-coherent service while
+   staying entropy-neutral; persistent service is carrier log-room / angular
+   profile formation. The remaining Liouville problem is variable-strain,
+   same-solution, same-certificate construction or exclusion, not the constant
+   affine subcase.
+   Follow-up finite-cloud witness: for
    \(K=\sum k_i e_i\otimes e_i\), choose
    \(\varepsilon\ge3\lambda_{\max}^+(K)\) and set
    \(m_i=\varepsilon/3-k_i\). The paired weights \(m_i/2\) at \(\pm e_i\)
@@ -1473,7 +1490,11 @@ surface, not F4 clearance.
    strain \(S\), \(D_tf=3S:Q_n\) and \(D_tK=(2/5)S\). This is exactly the
    least-distance angular row, \(\|D_tf\|_2=\sqrt{15/2}\|D_tK\|_F\), so
    angular production and angular anti-uniformity co-activate, but only in the
-   beta-small service-coordinate currency already priced. Bounded-custody
+   beta-small service-coordinate currency already priced. The finite
+   constant-strain subcase is now exact too: cumulative angular service equals
+   one third of the angular relative entropy created from uniformity, so fixed
+   affine persistence routes to carrier log-room/profile formation rather than
+   neutral near-uniform service. Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
    \(V_w\), and bank log-variation \(V_D\), active service obeys
