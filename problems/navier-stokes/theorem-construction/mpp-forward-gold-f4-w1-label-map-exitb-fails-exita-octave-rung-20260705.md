@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-label-map-exitb-fails-exita-octave-rung-20260705
-status: filed-pending-codex-gate
+status: codex-gated-exitb-negative-accepted-exita-octave-rung-not-cleared
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 rho - the label map installed; Exit B checked FALSE; Exit A on the octave rung
