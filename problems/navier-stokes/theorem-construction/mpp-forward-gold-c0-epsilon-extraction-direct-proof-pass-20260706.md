@@ -31,6 +31,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-record-lower-entrance-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-c11-metric-tower-or-exit-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
