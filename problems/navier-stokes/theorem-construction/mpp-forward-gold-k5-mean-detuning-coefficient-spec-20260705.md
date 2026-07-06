@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k5-mean-detuning-coefficient-spec-20260705
-status: channel-decomposition-exact-coefficient-identified-as-nonlinear-self-rotation-shift-sign-chain-stated-display-open
+status: channel-decomposition-exact-pure-normal-form-log-seed-obstruction-corrected
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant goal / item 1 retyped (K5 mean detuning)
@@ -13,12 +13,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-saturation-pacing-identity-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
 external_inputs_to_verify:
   - nonlinear frequency shift of Kelvin/displacement waves on a strained
     vortex (Klein-Majda-tier core dynamics; sign and scaling of the
     amplitude-squared self-rotation shift)
 completion_truth: >-
-  Spec and exact channel decomposition, not a proof. The retyped K5
+  Spec and exact channel decomposition, corrected by the same-day log-seed
+  obstruction. The retyped K5
   object: does the near-edge neutral mode detune ITSELF into the
   unstable side at rate ~ s * beta^2? The 0-mode (mean) channel
   decomposes exactly into three: (a) mean vector separation - DEAD,
@@ -26,22 +28,17 @@ completion_truth: >-
   mean axial flow - expected DEAD by the planar-mode reflection
   symmetry of the Crow eigenmode; display the symmetry argument or the
   nonzero coefficient; (c) nonlinear self-rotation shift - THE LIVE
-  COEFFICIENT: a finite-amplitude displacement wave shifts its own
-  rotation frequency at order beta^2 (classic nonlinear frequency
-  shift), and the Crow growth factor depends on the self-rotation term
-  at order one, with the band edge a simple zero. SIGN CHAIN, stated
-  for the display: destabilizing (tax collects, pacing identity
-  restored through this channel) iff the product of (i) the sign of
-  the amplitude-squared self-rotation shift at the edge mode and (ii)
-  the sign of the derivative of the growth factor with respect to the
-  self-rotation term at the upper edge is positive. If that product is
-  NEGATIVE uniformly over admissible cores, the edge mode nonlinearly
-  detunes itself STABLE: a producing configuration surviving second
-  order - goal item 1's kill condition TRIGGERS on the edge channel
-  and the per-encounter tax dies there, leaving custody (item 3) to
-  carry the edge. The stakes are stated before the computation, per
-  the lane law. Sideband/packet coupling is typed to the crowd cell
-  (item 4), not consumed here. No closure claimed.
+  COEFFICIENT: a finite-amplitude displacement wave may shift its own
+  rotation frequency at order beta^2, and the Crow growth factor depends
+  on the self-rotation term at order one, with the band edge a simple
+  zero. Same-day correction: even a favorable sign gives only nonlinear
+  self-exit, hence a neutral-phase integral logarithmic in the seed
+  amplitude. Therefore the sign chain cannot by itself restore the
+  seed-independent pair kill integral. If the sign is nonpositive, the
+  pure edge channel fails outright; if the sign is positive, K5 still
+  needs an external seed floor, lifetime, viscous/core damping, custody
+  payment, or sideband/crowd mechanism. Sideband/packet coupling is typed
+  to the crowd cell (item 4), not consumed here. No closure claimed.
 ---
 
 ## Codex gate, same date
@@ -118,15 +115,18 @@ sign imported from memory or literature without re-derivation.
 
 ## 4. Outcomes, stated before the computation
 
-DESTABILIZING: pacing identity restored via (c) - production and
-self-detuning both ~ s*beta^2, amplitude-free ratio; integrated
-stretch of the neutral phase bounded; pair-cell kill integral complete
-up to chapter-10 constants.
+DESTABILIZING: self-detuning has the favorable sign, so the edge mode
+leaves neutrality on the amplitude-squared clock. This gives only a
+bounded payment per amplitude octave. The total neutral-phase stretch
+still contains log(seed), so the pair-cell kill integral is NOT complete
+without an external seed floor, lifetime, damping, custody payment, or
+sideband/crowd mechanism.
 
 STABILIZING (uniformly over admissible cores): a neutral producing
 mode survives second order. Item 1 kill condition TRIGGERS on the edge
 channel; per-encounter tax dead there; the edge burden moves to
-custody (item 3) and the goal records the first real wound honestly.
+external lifetime/custody/sideband mechanisms and the goal records the
+first real wound honestly.
 
 ZERO through third order: escalate the display one order; if it
 persists at all orders accessible to the filament model, type the edge
