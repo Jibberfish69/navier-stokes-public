@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-defect-current-variation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-material-phase-service-identity-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-coordinate-mismatch-row-distance-reduction-20260706.md
 completion_truth: >-
   Exact obstruction to one possible nonlinear/global same-packet source, not a
   WKB construction or exclusion theorem. Incompressible material ancestry is
@@ -137,6 +138,21 @@ so active pressure service is carrier-scale drift. A density gap could come
 from a fixed service-moment mismatch in the carrier-scale coordinate. That is a
 named row payment, not ancestry alone.
 
+The service-coordinate follow-up makes this exact. If the active service row is
+\(\int m f\,d\omega=a\), then the mismatch
+\[
+  \delta=a-\int m\,d\omega
+\]
+forces only the standard row-distance bound
+\[
+  \|f-1\|_{L^2_\omega}
+  \ge
+  {|\delta|\over\|m-\int m\,d\omega\|_{L^2_\omega}}.
+\]
+Thus service mismatch is an explicit payer when the uniform bath misses the
+demanded service. When the mismatch vanishes, this coordinate leaves the
+near-uniform bath legal.
+
 Second, the material transport relation may fail to close in the terminal
 profile. The ancestry fork writes the defect as
 \[
@@ -181,6 +197,12 @@ What remains under "global same-packet law" is sharper: a law that ties the
 uniform bath to a non-volume service coordinate, a transport-current defect, a
 bank/custody variation ledger, a nonlocal pressure/Hodge row with explicit
 row-distance, or actual construction/exclusion.
+
+With the service-coordinate follow-up, the first item in that list is no longer
+an untyped refuge: it is a row-distance payer or no density gap. The genuinely
+global residue is the nonlinear forbidden-ball theorem or construction/exclusion
+of the near-uniform same-fluid WKB bath, after explicit service rows have been
+pulled out.
 
 Closed same-packet identity and material ancestry are still required for
 admission. They are not the anti-uniform payer.
