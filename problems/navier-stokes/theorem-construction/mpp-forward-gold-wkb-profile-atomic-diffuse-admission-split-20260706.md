@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-profile-reconstruction-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -34,7 +35,11 @@ completion_truth: >-
   to cloud-profile admission, no-free-fragmentation / uncertainty-cell input,
   or atomic fragmentation defect. The many-cell WKB quantization follow-up
   shows that the beta-small cheap WKB bath is on the unbounded-count side:
-  cutoff-neutrality requires \(N_{\rm eff}\gtrsim\beta^{-12/5}\). A nonzero
+  cutoff-neutrality requires \(N_{\rm eff}\gtrsim\beta^{-12/5}\). The
+  unbounded-count compactness split then routes tight clouds to nonzero
+  WKB/microlocal profiles and nontight clouds to selected-carrier
+  domain/label/rung escape; it also shows that count-only no-free-fragmentation
+  and same-cell packet-moment square coercivity are false. A nonzero
   diffuse part reduces the problem to DiffuseWKBProfileAdmission.A: admit the
   diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
@@ -294,8 +299,9 @@ DiffuseWKBProfileAdmission.A
 
 The former is a reconstruction theorem from one fixed limiting label. It is
 paid in the bounded effective prelimit packet-count case and remains open in
-the unbounded-count case, which is cloud admission, no-free-fragmentation /
-uncertainty-cell input, or atomic fragmentation defect. The beta-small many-cell
+the unbounded-count case, which the compactness split routes to a tight profile
+object or nontight selected-carrier escape; count-only no-free-fragmentation and
+same-cell packet-moment square coercivity are false. The beta-small many-cell
 WKB survivor lies in that unbounded-count case. The latter is a measure-valued
 terminal witness theorem or limit-of-class failure theorem.
 

@@ -707,6 +707,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(N_{\rm eff}\gtrsim\beta^{-12/5}\). Thus bounded count is not a hidden
    survivor; it pays atomization, pays localization, or leaves the cheap WKB
    window.
+   The unbounded-count WKB cloud compactness split now decides the count-only
+   rescue: tight clouds give nonzero WKB/microlocal profiles, nontight clouds
+   are selected-carrier domain/label/rung escape, and uniform fragmentation
+   kills count-only no-free-fragmentation plus same-cell packet-moment square
+   coercivity.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;

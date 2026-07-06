@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-support-density-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
 completion_truth: >-
   Strict reduction only. The atomic quantization criterion says bounded
   effective prelimit packet count pays atomization by pigeonhole. But the
@@ -24,10 +25,13 @@ completion_truth: >-
   no-payer many-cell WKB survivor as beta tends to zero. It either pays
   atomization / finite-menu extraction, pays the cutoff/Hodge localization row,
   or exits the cheap WKB window. The remaining WKB atomic branch is unbounded
-  effective count: shrinking cloud admission, no-free-fragmentation /
-  square-coercivity, or atomic fragmentation defect. No actual WKB carrier
-  extraction theorem, no cloud admission theorem, no WKB construction/exclusion,
-  and no MPP closure is claimed.
+  effective count. The unbounded-count compactness split then shows that a
+  tight cloud gives a nonzero WKB/microlocal profile, while a nontight cloud is
+  selected-carrier domain/label/rung escape. Pure count-only
+  no-free-fragmentation and same-cell packet-moment square coercivity are false
+  by uniform fragmentation. No actual WKB carrier extraction theorem, no profile
+  admission theorem, no WKB construction/exclusion, and no MPP closure is
+  claimed.
 ---
 
 # Many-cell WKB quantization obstruction
@@ -162,14 +166,16 @@ N_{\rm eff}\le M
   \text{atomization / finite-menu extraction, or localization payer},\\[2mm]
 N_{\rm eff}\to\infty
   &\Rightarrow
-  \text{cloud-profile admission, no-free-fragmentation, square coercivity,}\\
-  &\qquad\text{or atomic fragmentation defect}.
+  \text{tight WKB/microlocal profile admission, or nontight escape,}\\
+  &\qquad\text{or extra PDE uncertainty/cross-cell coercivity}.
 \end{array}
 \]
 
 So the many-cell WKB survivor is not waiting on the bounded-count case. That
 case is already paid or exits the no-payer window. The remaining WKB survivor
-is necessarily an unbounded-count cloud.
+is necessarily an unbounded-count cloud. The compactness split shows that this
+cloud is either a profile object under tightness or selected-carrier escape
+under nontightness; it is not killed by count-only no-free-fragmentation.
 
 ## 6. State
 
@@ -178,7 +184,9 @@ bounded effective count cannot be the hidden beta-small many-cell WKB no-payer:
 bounded count either pays atomization, pays localization, or leaves the cheap
 window.
 
-It proves no unbounded-count no-free-fragmentation law, no square-coercivity
-theorem, no cloud-profile admission theorem, no general
+The follow-up compactness split proves that count-only no-free-fragmentation and
+same-cell packet-moment square coercivity are false in this currency. This note
+still proves no PDE uncertainty-cell theorem, no cross-cell square-coercivity
+theorem, no profile admission theorem, no general
 `ActualWKBCarrierExtraction.A`, no WKB construction/exclusion theorem, no F4/F5
 pass, no manuscript completion, and no MPP closure.
