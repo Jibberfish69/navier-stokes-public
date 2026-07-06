@@ -572,6 +572,21 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(s_b^0=\mathcal R_b(0)\). Failure of this dual row is still only failure
   of the friendly midpoint branch, not the full RUN-H scalar supremum.
 
+  CODEX ROUTE-3 DUAL RENT-ROOM SIMPLIFIED OBJECTIVE (2026-07-06,
+  codex-route3-dual-rent-room-simplified-objective): the dual rent room has
+  an elementary objective because \(h(q)\) cancels the denominator in
+  \(S(q)\). With \(\lambda=d_{\rm R4}^+/X_{\max}\),
+  \[
+    \mathcal R_b(\lambda)=
+    \sup_{2b<q<U}
+    \left[
+      {(q-b)(q(2-e^{q/2})-2\lambda(2+e^{q/2}))\over8}
+    \right]_+ .
+  \]
+  Thus the friendly product certificate is the same strict inequality
+  \(R_0/(g_0X_{\max}^2)<\mathcal R_b(\lambda)\), now as one elementary
+  exponential supremum. No selector monotonicity or interval value is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
