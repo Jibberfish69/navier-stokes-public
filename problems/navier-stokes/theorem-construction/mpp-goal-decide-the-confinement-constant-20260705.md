@@ -759,8 +759,17 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
      \quad\Longrightarrow\quad
      \mathbb P\operatorname{div}R_\phi=0.
    \]
-   Thus anisotropy alone cannot close the pressure row. Otherwise the
-   pressure-law branch is legal defect carriage or actual-law/tower failure.
+   Thus anisotropy alone cannot close the pressure row. Actual Reynolds origin
+   adds the covariance-ballast screen: a rung-zero defect from one weak
+   velocity branch must be positive-semidefinite. If
+   \(R=(\tau/3)I+A\ge0\) and \(\operatorname{tr}A=0\), then
+   \[
+     {\tau\over3}\ge-\lambda_{\min}(A),
+     \qquad
+     \tau\ge\sqrt{3\over2}|A|_F .
+   \]
+   Otherwise the pressure-law branch is PSD null covariance with ballast,
+   explicit signed-stress certificate carriage, or actual-law/tower failure.
    The material-ancestry certificate is now split by the transport-defect
    fork: selected paths, flow maps, or ancestry currents must pass the limiting
    transport relation, or the hidden current defect \(A=J-u\rho\) must be
