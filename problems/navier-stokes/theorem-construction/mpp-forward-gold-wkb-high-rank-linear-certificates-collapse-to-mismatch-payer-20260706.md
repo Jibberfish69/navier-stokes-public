@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-nonlinear-same-packet-law-gap-or-construction-dichotomy-20260706.md
 completion_truth: >-
   Strict reduction only. Increasing the number of bounded linear certificate
   rows, even to a high-rank or infinite family, does not force density
@@ -29,8 +30,11 @@ completion_truth: >-
   uniform-compatible and pays nothing, or it supplies an explicit mismatch /
   unbounded-row payer. The only remaining non-row source of density
   anti-equidistribution is a genuinely nonlinear/global same-packet law or a
-  construction/exclusion of the WKB bath. This proves no such nonlinear law, no
-  construction/exclusion, no confinement constant, and no MPP closure.
+  construction/exclusion of the WKB bath. The nonlinear-law follow-up types
+  that last phrase exactly: it is a positive \(L^2\) forbidden ball around the
+  uniform bath, or a near-uniform legal bath sequence to construct or exclude.
+  This proves no such nonlinear law, no construction/exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # High-rank linear certificate families collapse to mismatch payer
@@ -170,6 +174,14 @@ nonlinear/global same-packet law: a rule of the one fluid-object that forbids
 near-uniform WKB baths even though every uniform-compatible linear readout
 would allow them.
 
+The nonlinear-law follow-up says this non-row possibility is exact, not a
+placeholder. It must prove
+\[
+  \liminf_M\operatorname{dist}_{L^2_\omega}(1,\mathcal C_M)>0,
+  \tag{HRC.15}
+\]
+or else legal near-uniform WKB baths remain for construction/exclusion.
+
 ## 6. Physical meaning
 
 The same-fluid pressure bath can spread service uniformly across many cells.
@@ -195,6 +207,7 @@ the rows force a gap, the exact price is the row-distance
 or the finite Gram version of the same formula. Therefore the remaining
 dense-crowd source is no longer "high rank" by itself; it is an explicit
 mismatch / unbounded-row payer, a genuinely nonlinear/global same-packet law,
-or construction/exclusion.
+or construction/exclusion. The nonlinear/global phrase is itself typed by the
+follow-up dichotomy: positive forbidden ball or near-uniform bath.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
