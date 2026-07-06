@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-srp-moment-readout-bridge-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter9-reserve-queue-consumer-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-residual-gram-positivity-is-anti-equidistribution-20260706.md
 completion_truth: >-
   Strict reduction only. The fixed-density pressure-tax compensator is not a
   small free residue. On the beta-small overlap row, Gate-8 gives pressure
@@ -27,6 +28,9 @@ completion_truth: >-
   weighted residue. The WKB uniform-mode follow-up identifies an order-one
   positive uniform-mode Gram charge on the pressure-service overlap bath as this
   same fixed-density tax demand, hence the same compensator/residue branch.
+  The residual Gram follow-up leaves bounded residual positivity outside this
+  branch: it collapses to legal anti-equidistribution, while an unbounded
+  residual is a new payer/certificate or construction branch.
   This note proves none of those three destinations and
   claims no W1, F4, F5, manuscript, or MPP closure.
 ---
@@ -187,6 +191,12 @@ uniform-mode charge in the pressure-service overlap bath. An order-one
 all-to-all uniform mode is a fixed-density tax row on \(\mu_{\rm prod}\), so it
 creates exactly the residue \(\rho_{\theta_0}\) above unless a different
 backing source is proved.
+
+The bounded residual Gram branch is separate from this compensator branch. Once
+the backed rank-one uniform mode is subtracted, a bounded zero-mode residual
+can only give a count-free floor by proving legal anti-equidistribution. An
+unbounded residual strong enough to charge near-uniform clouds would need its
+own same-fluid backing or construction/exclusion proof.
 
 ## 6. State
 
