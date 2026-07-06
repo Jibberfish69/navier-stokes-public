@@ -242,6 +242,15 @@ F1 -> (F2 || F3) -> F4 -> F5.
   endpoint/flooring residue or route persistent excess to
   boundary/locality/Gate-A tax/Silver, then test the resulting
   \(D_{\rm tail}^{\rm ti}\) and \(B_{\rm end}^{\rm ti}\) in Chapter 10.
+  Codex follow-up reduces the F1 z5 residual routing:
+  `mpp-forward-gold-codex-gate7-f1-z5-tail-residual-routing-reduction-20260706.md`.
+  For the live F1 one-free-leg local-tail consumer, z5 is no longer an
+  independent Gate-7 construction theorem. The retained weighted projection is
+  consumed by the geometric crossing once P1/P2 and \(c_0>0\) are in place; the
+  time projection is Chapter-10 one-block data
+  \(D, B_{\rm tail}^{bad}(D), B_{\rm end}^{\rm ti}\); non-retained weighted or
+  time residues route to boundary/locality/Gate-A/SRP/Silver/exit grammar. F1
+  remains reduced, not cleared.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
