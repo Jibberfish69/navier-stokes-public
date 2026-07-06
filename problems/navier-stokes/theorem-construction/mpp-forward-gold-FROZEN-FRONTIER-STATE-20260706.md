@@ -357,15 +357,17 @@ codex-bottom-root-horn-cm-route-audit,
   codex-product-row-monotone-envelope-after-ge.
 
 **THE CONSOLIDATED MAP (2026-07-06, Opus consolidation + Fable
-acceptance/verification — pending Codex gates).**
+acceptance/verification — partly Codex-gated, with live subgates).**
 - **Part I footing:** Vieta top-endpoint floor VERIFIED proof-grade;
   g3 DISCHARGED (gap_0 = the period-capped separatrix gap; the
   top-coalescence horn m -> 1 excluded by the same cap); Door 2
-  VOID (both sides r_-independent); the extraction laws
-  (dI_1 = dI_2 = -rho_ext X, dG_0^2 = -rho_ext G_0^2) are FORCED by
-  Manley-Rowe within the relay model (shared action in both
-  invariants, spent once) — W-I folds into the faithfulness
-  meta-gap W-0. NAME COLLISION FLAGGED: rho_ext (Gate-6 extraction
+  VOID (both sides r_-independent); the Manley-Rowe ceiling laws
+  \(dI_1=dI_2=-\rho_{\rm ext}X\) are forced within the relay model
+  under single-mode handoff, so \(I_2-I_1\) is conserved. The Casimir
+  law \(dG_0^2=-\rho_{\rm ext}G_0^2\) is a finite-chain normalized
+  slow row from the Gate-6 rho note, not derived by the two-ceiling
+  Manley-Rowe argument; it keeps signed-measure/model scope. NAME
+  COLLISION FLAGGED: rho_ext (Gate-6 extraction
   drain rate) is NOT the seed row's coupling ratio
   rho = |g_2|/(2|g_1|).
 - **Part II (pincer) CORRECTED (Fable error, same-day, verified
@@ -380,9 +382,9 @@ acceptance/verification — pending Codex gates).**
   sigma = (1 - E/K)/m >= 1/2; C2 applies at the home verbatim.
 - **TOP-BRACKET SHARP FORM consumed + ANSWERED (Fable) and CODEX
   GATED (codex-fable-update429-430-pincer-pricing-dwellrun-gate):**
-  the high-bottom/small-gap family is a PREFIX, not a band
-  condition — the Casimir only decays on financed windows
-  (exponentially at sheet rate G_e/X_max), so the split
+  the high-bottom/small-gap family is proposed as a PREFIX, not a band
+  condition — conditional on net-positive extraction/Casimir decay at
+  sheet rate \(G_{\mathfrak e}/X_{\max}\), the split
   DWELL = {G_0^2 > G_thr}, RUN = {G_0^2 <= G_thr},
   G_thr = (g_0/2)A_0(A_0+g_0), is monotone: DWELL is a bounded
   prefix (T_dwell <= (X_max/G_e) log(X_max^3/G_thr), an
