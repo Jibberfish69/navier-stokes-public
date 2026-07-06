@@ -456,18 +456,35 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
 Composition-side product-front audit, same date: the time-integrated
 rent payment removes the lineage/counting detour from the RENT row, and
 the BoundaryTail split forces any pass-side tail density into the row
-rather than the length numerator. The live product row is therefore
+rather than the length numerator. Later one-sided corrections replace
+the old two-ended product reserve by the RUN-H row: the top source is
+spent only on RUN time, dwell is charged by the H row and endpoint
+floor, and the active scalar source is
 \[
-  R_{\rm prod}^{F4,{\rm ti,tail}}
+  S_H(\delta)
   =
-  {1\over2}\Delta_{\rm G6a}
-  -
-  K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
-  -
-  D_{P2}^{\rm ti}
-  -
-  D_{\rm tail}^{\rm ti}.
+  A_0g_0
+  \left({1\over2}-{aq\over\delta(q-\delta)}\right)
+  B(\delta),
 \]
+tested against
+\[
+  R_{\rm rent}
+  =
+  K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
+  +D_{P2}^{\rm ti}
+  +D_{\rm tail}^{\rm ti}.
+\]
+Current product filters: \(A_0>6d\), \(P_{\rm cap}>4aq\), and
+\[
+  R_{\rm rent}
+  <
+  A_0g_0
+  \left({1\over2}-{aq\over P_{\rm cap}}\right)
+  {A_0-6d\over4}
+\]
+before the exact RH.20 supremum is worth evaluating. Passing these
+filters is not product positivity.
 The row is typed, but the interval pass is not pure certification yet:
 \(\Delta_{\rm G6a}\) is still an unpaid source packet, the compact-band
 infimum of the R4-adjusted endpoint margins. Its positivity still
