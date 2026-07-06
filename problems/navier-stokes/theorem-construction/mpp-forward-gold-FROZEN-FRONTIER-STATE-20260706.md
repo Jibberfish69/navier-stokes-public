@@ -255,11 +255,25 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
      \Delta_{\rm G6a}^{\rm top}/(X_{\max}S_{\max}),
    \]
    and the lower endpoint can be charged as a net episode endpoint
-   term \(B_{\rm bot}^{\rm end}=\sum r_-(t_0)\). Remaining product
-   rewrite: certify \(\Delta_{\rm G6a}^{\rm top}>0\), rewrite G6b /
-   Chapter 10 with \(c_W^{\rm top}\), and add \(B_{\rm bot}^{\rm end}\)
-   to the length/endpoint row. It does not prove
-   \(R_{\rm prod}^{F4,{\rm ti,tail}}>0\).
+   term. CONSUMER REWRITE (Codex, 2026-07-06):
+   `mpp-forward-gold-codex-one-sided-product-consumer-rewrite-20260706.md`
+   files the active replacement row
+   \[
+     R_{\rm prod}^{\rm top,F4,ti,tail}
+     =
+     {1\over2}\Delta_{\rm G6a}^{\rm top}
+     -
+     K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})
+     -
+     D_{P2}^{\rm ti}
+     -
+     D_{\rm tail}^{\rm ti},
+   \]
+   and the length row adds the scaled bottom block charge
+   \(B_{\rm bot}^{\rm prod}\). For contiguous same-packet routing
+   blocks, \(B_{\rm bot}^{\rm raw}=r_-(\mathrm{initial})\); otherwise it
+   is summed over block entries. It does not prove
+   \(R_{\rm prod}^{\rm top,F4,{\rm ti,tail}}>0\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
    codex-period-cap-traversal-reduction,
@@ -270,8 +284,9 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-delta-g6a-root-factor-bottom-root-obstruction,
    codex-bottom-root-horn-financed-obstruction,
    codex-bottom-root-horn-cm-route-audit,
-   codex-gate6-row-formation-part-bridge-attempt.
-   codex-one-sided-contraction-parti-gate.
+   codex-gate6-row-formation-part-bridge-attempt,
+   codex-one-sided-contraction-parti-gate,
+   codex-one-sided-product-consumer-rewrite.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
@@ -308,19 +323,22 @@ surviving product rewrite is
   c_W^{\rm top}=
   {\Delta_{\rm G6a}^{\rm top}\over X_{\max}S_{\max}},
 \]
-with bottom retreat charged to
+  with bottom retreat charged to
 \[
-  B_{\rm bot}^{\rm end}=\sum r_-(t_0)
-\]
-inside the length/endpoint row. The monotone-envelope row below is the
-old two-ended envelope until that rewrite is made. Key notes:
+  B_{\rm bot}^{\rm prod}
+  \]
+  inside the length/endpoint row. The consumer rewrite is now filed; the
+  active remaining work is to certify \(\Delta_{\rm G6a}^{\rm top}>0\),
+  prove the bottom block routing bound, and evaluate
+  \(R_{\rm prod}^{\rm top,F4,{\rm ti,tail}}>0\). Key notes:
 codex-delta-g6a-factorized-source-row,
 codex-delta-g6a-root-factor-bottom-root-obstruction,
 codex-bottom-root-horn-financed-obstruction,
 codex-bottom-root-horn-cm-route-audit,
 codex-bottom-root-rate-gap-collapse,
-codex-one-sided-contraction-parti-gate,
-codex-product-row-monotone-envelope-after-ge.
+  codex-one-sided-contraction-parti-gate,
+  codex-one-sided-product-consumer-rewrite,
+  codex-product-row-monotone-envelope-after-ge.
 
 ## 5. Failure taxonomy (carried verbatim)
 
