@@ -27,10 +27,11 @@ completion_truth: >-
   checked sources do not install it: localized tower closure still needs the
   legal flux/cutoff estimate, full-tower signed-total exchange retention is
   explicitly open, chapter-2 closedness is finite-readout/conditional rather
-  than tower-record passage, and signed-height record-net work admission still
-  lacks native same-parent edge admission/storage. So this pass does not close
-  c_0 or the repo; it reduces closure to one exact compactness-and-record
-  theorem and names the current escape routes for a vanishing-bill sequence.
+  than tight no-loss passage of the selected positive record, and signed-height
+  record-net work admission still lacks native same-parent edge
+  admission/storage. So this pass does not close c_0 or the repo; it reduces
+  closure to one exact compactness-and-record theorem and names the current
+  escape routes for a vanishing-bill sequence.
 ---
 
 # c_0 epsilon extraction direct proof pass
