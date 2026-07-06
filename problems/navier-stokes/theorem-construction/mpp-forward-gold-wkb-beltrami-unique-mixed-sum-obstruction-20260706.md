@@ -73,7 +73,8 @@ eigenvalue shell:
 \]
 
 The bandwidth identity gives the cross-shell projected mismatch coefficient at
-an output \(m\) as the sum over active cross-shell representations
+an output \(m\) as the sum over unordered active cross-shell representations,
+with one ordering chosen for the two shell labels:
 \[
   p+q=m,\qquad p\in S_\lambda,\quad q\in S_\mu,\quad \lambda\ne\mu,
   \tag{UMS.5}
