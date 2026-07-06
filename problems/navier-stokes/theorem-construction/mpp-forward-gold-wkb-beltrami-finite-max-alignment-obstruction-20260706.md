@@ -1,0 +1,261 @@
+---
+theorem_id: forward-gold-wkb-beltrami-finite-max-alignment-obstruction-20260706
+status: exact-finite-broadband-beltrami-neutralizer-exclusion
+created: 2026-07-06
+problem: navier-stokes
+route: forward-gold / confinement constant / crowd cell / WKB bath construction-exclusion
+target_object:
+  - BroadbandBeltramiBath.FiniteSupportNeutrality.EXCLUDED
+  - ClosedResonantFrequencyGraph.FINITE-MULTIPLY-REPRESENTED-DOOR.CLOSED
+  - DenseInfiniteWKBBath.REMAINING-DOOR
+source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-bandwidth-mismatch-turnover-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-nonresonant-cross-shell-cancellation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-resonant-two-pair-sideband-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-beltrami-unique-mixed-sum-obstruction-20260706.md
+completion_truth: >-
+  Exact finite-support algebraic exclusion only. In a finite same-helicity
+  helical Beltrami Fourier cloud, choose a noncollinear active cross-shell
+  pair p,q with maximal normalized alignment p.q/(|p||q|). If p+q had a
+  second active cross-shell representation p'+q', then the off-diagonal
+  active pairs p,q' and p',q would have strictly larger alignment than p,q;
+  because the two shell radii differ, at least one of those off-diagonal pairs
+  is noncollinear. This contradicts maximality. Hence p+q is a unique
+  noncollinear cross-shell output, and the nonresonant two-mode calculation
+  makes its projected eigenvalue-mismatch coefficient nonzero. Therefore no
+  finite genuinely broadband directionally spread same-helicity Beltrami
+  Fourier cloud is an exact projected-neutral bath. Finite exact neutrality
+  collapses to the one-shell branch, collinear/one-dimensional degeneracy, or
+  zero-amplitude interactions. This proves no lower bound for infinite/dense
+  WKB baths, no finite-energy localization theorem, no same-fluid custody
+  theorem, no confinement constant, and no MPP closure.
+---
+
+# Finite broadband Beltrami clouds always leak at maximal alignment
+
+## 1. Question
+
+The unique-mixed-sum note reduced finite exact cancellation to a multiply
+represented closed resonant graph. This note checks whether that finite graph
+can exist at all:
+
+\[
+  \text{Can every noncollinear cross-shell output in a finite broadband}
+  \quad
+  \text{Beltrami cloud be multiply represented?}
+  \tag{FMA.1}
+\]
+
+The answer is no.
+
+## 2. Setup
+
+Let
+\[
+  u=\sum_{k\in S} a_k h_k e^{ik\cdot x}
+  \tag{FMA.2}
+\]
+be a finite same-helicity helical Beltrami Fourier cloud. The active support is
+grouped by curl eigenvalue shell:
+\[
+  S=\bigcup_\lambda S_\lambda,
+  \qquad
+  i k\times h_k=\lambda h_k .
+  \tag{FMA.3}
+\]
+
+The broadband mismatch identity gives cross-shell output terms
+\[
+  -(\mu-\lambda)a_p a_q\,\mathbb P_{p+q}(h_p\times h_q)
+  \tag{FMA.4}
+\]
+for
+\[
+  p\in S_\lambda,\qquad q\in S_\mu,\qquad \lambda\ne\mu .
+  \tag{FMA.5}
+\]
+
+Assume there is at least one active noncollinear cross-shell pair:
+\[
+  p\nparallel q,\qquad a_p a_q\ne0,\qquad \lambda\ne\mu .
+  \tag{FMA.6}
+\]
+
+Among all such pairs, choose one maximizing the normalized alignment
+\[
+  c(p,q):={p\cdot q\over |p|\,|q|}.
+  \tag{FMA.7}
+\]
+
+Because the support is finite, the maximum is attained.
+
+## 3. A duplicate sum creates a better off-diagonal pair
+
+Write
+\[
+  |p|=|p'|=K,\qquad |q|=|q'|=L,\qquad K\ne L .
+  \tag{FMA.8}
+\]
+
+Suppose the selected output has a second active cross-shell representation:
+\[
+  p+q=p'+q',
+  \qquad
+  (p',q')\ne(p,q).
+  \tag{FMA.9}
+\]
+
+Then the off-diagonal active pairs \((p,q')\) and \((p',q)\) have strictly
+larger dot product than the original pair.
+
+Indeed,
+\[
+  q'=p+q-p',
+  \tag{FMA.10}
+\]
+so
+\[
+  p\cdot q'
+  =
+  p\cdot q+|p|^2-p\cdot p'
+  =
+  p\cdot q+K^2-p\cdot p'.
+  \tag{FMA.11}
+\]
+Since \(p'\ne p\) and \(|p'|=|p|=K\),
+\[
+  p\cdot p'<K^2,
+  \tag{FMA.12}
+\]
+and therefore
+\[
+  p\cdot q'>p\cdot q.
+  \tag{FMA.13}
+\]
+
+Similarly,
+\[
+  p'\cdot q
+  =
+  p\cdot q+L^2-q\cdot q'
+  >
+  p\cdot q.
+  \tag{FMA.14}
+\]
+
+Because the off-diagonal pairs still join the same two shell radii \(K,L\),
+their normalized alignments are also strictly larger:
+\[
+  c(p,q')>c(p,q),
+  \qquad
+  c(p',q)>c(p,q).
+  \tag{FMA.15}
+\]
+
+## 4. At least one off-diagonal pair is noncollinear
+
+It remains only to exclude the possibility that both off-diagonal pairs are
+collinear degeneracies. Suppose
+\[
+  q'=\alpha p,
+  \qquad
+  q=\beta p',
+  \qquad
+  \alpha,\beta\in\left\{\pm {L\over K}\right\}.
+  \tag{FMA.16}
+\]
+
+Using \(p+q=p'+q'\) gives
+\[
+  (1-\alpha)p=(1-\beta)p'.
+  \tag{FMA.17}
+\]
+
+If \(p\) and \(p'\) are linearly independent, then
+\[
+  \alpha=\beta=1,
+  \tag{FMA.18}
+\]
+which would force \(L=K\), contrary to the cross-shell assumption.
+
+If \(p\) and \(p'\) are linearly dependent, then \(p'=-p\) because \(p'\ne p\)
+and \(|p'|=|p|\). Equation (FMA.17) becomes
+\[
+  2=\alpha+\beta.
+  \tag{FMA.19}
+\]
+With \(\alpha,\beta\in\{\pm L/K\}\), this again forces \(L=K\).
+
+Thus both off-diagonal pairs cannot be collinear when the shell radii differ.
+At least one of \((p,q')\), \((p',q)\) is a noncollinear active cross-shell
+pair with larger normalized alignment than the selected pair.
+
+This contradicts the maximality of \(c(p,q)\).
+
+Therefore the selected output \(p+q\) has no second active cross-shell
+representation.
+
+## 5. The maximal-alignment output rings
+
+The selected pair is noncollinear and lies on different curl eigenvalue shells.
+By Section 4, its output \(m=p+q\) is unique among active cross-shell
+representations.
+
+Hence the Fourier coefficient of the projected mismatch at \(m\) is exactly
+one term:
+\[
+  -(\mu-\lambda)a_p a_q\,\mathbb P_m(h_p\times h_q).
+  \tag{FMA.20}
+\]
+
+The nonresonant two-mode calculation gives
+\[
+  \mathbb P_m(h_p\times h_q)\ne0
+  \tag{FMA.21}
+\]
+for a noncollinear same-helicity pair. Since \(\mu-\lambda\ne0\) and
+\(a_pa_q\ne0\), the coefficient is nonzero.
+
+Thus the finite cloud is not projected-neutral.
+
+## 6. Consequence
+
+Every finite same-helicity helical Beltrami Fourier cloud has the following
+dichotomy:
+\[
+\begin{array}{ll}
+\text{all active cross-shell pairs are collinear} &
+  \Rightarrow \text{one-dimensional / degenerate angular branch},\\[1mm]
+\text{some active cross-shell pair is noncollinear} &
+  \Rightarrow \text{a unique noncollinear cross-shell output rings.}
+\end{array}
+  \tag{FMA.22}
+\]
+
+Therefore a finite genuinely broadband, directionally spread same-helicity
+Beltrami cloud cannot be an exact projected-neutral bath. The finite closed
+resonant graph door is closed.
+
+The surviving Beltrami-bath door must leave this finite algebraic setting:
+infinite or dense WKB support, finite-energy localization/envelope passage,
+same-fluid transport/custody, profile admission, or construction/exclusion of
+the actual bath.
+
+## 7. Four-sentence result
+
+Choose the active noncollinear cross-shell Beltrami pair with maximal normalized
+alignment. If its output had another active cross-shell representation, the
+off-diagonal pairs would have strictly larger alignment; because the two shell
+radii differ, at least one off-diagonal pair is still noncollinear. That
+contradicts maximality, so the selected output is unique. The nonresonant
+two-mode theorem then makes its projected mismatch coefficient nonzero, so no
+finite genuinely broadband directionally spread same-helicity Beltrami Fourier
+cloud is an exact projected-neutral bath.
+
+## 8. State
+
+This closes the finite-support same-helicity Beltrami cancellation branch.
+
+It proves no quantitative lower bound for infinite/dense WKB baths, no
+finite-energy localization theorem, no same-fluid custody theorem, no
+confinement constant, and no MPP closure.
