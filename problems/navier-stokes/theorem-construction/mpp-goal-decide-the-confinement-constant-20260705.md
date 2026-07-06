@@ -227,8 +227,16 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     affine jet \(Bx\) to the shear cell leaves the producer first jet unchanged
     at the station, and the cross pressure source is a sum of single sine modes
     whose pressure Hessian vanishes at the station. The live pressure branch is
-    now fast direction tracking if forced, localization/producer curvature, and
+    now producer-clock direction tracking, localization/producer curvature, and
     allocation.
+    Follow-up fast-direction tracking obstruction filed: producer-clock
+    direction changes of the supplied pressure Hessian can be tracked in a
+    fixed finite shear-cell bank. With \(K=\sum_m c_mK_m\) and
+    \(\sum_m|\dot c_m|\lesssim|\dot K|\), one producer clock costs
+    \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Thus producer-clock tracking is the
+    existing pressure row, not an order-one floor. The live pressure branch is
+    now localization/producer curvature, same-packet allocation,
+    faster-than-producer forced tracking, or construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -336,11 +344,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    The shear-cell time-persistence check adds that constant-direction pressure
    service drifts only by \(\beta^{2/5}+\nu/(sD^2)\) over one producer clock.
    The producer-coupling check adds that a constant affine producer creates no
-   cross pressure Hessian at the station. Therefore the exact matrix must use
-   fast pressure-direction tracking if forced, localization/producer curvature,
-   same-packet allocation, or a real summability-valid bath construction, not a
-   pointwise affine, generic collar, source-mean, constant-persistence, or
-   constant-producer-coupling tax. The reuse tracking ledger now prices
+   cross pressure Hessian at the station. The fast-direction tracking check
+   adds that producer-clock pressure-direction retuning costs only
+   \(|K|D^5\sim\beta^{4/5}E_{\rm prod}\). Therefore the exact matrix must use
+   localization/producer curvature, same-packet allocation,
+   faster-than-producer forcing, or a real summability-valid bath construction,
+   not a pointwise affine, generic collar, source-mean, constant-persistence,
+   constant-producer-coupling, or producer-clock tracking tax. The reuse
+   tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
