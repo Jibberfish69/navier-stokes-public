@@ -52,7 +52,8 @@ and production
 
 give a logarithmic or worse dependence on the seed \(A_0\). The remaining
 possible rescue inside the real Navier-Stokes field is an external clock:
-viscosity, finite lifetime, custody, or sideband/crowd interaction.
+viscosity, finite lifetime, custody, forced contamination, route-out, or a new
+unweighted high-Re mechanism.
 
 This note decides the viscosity part.
 
