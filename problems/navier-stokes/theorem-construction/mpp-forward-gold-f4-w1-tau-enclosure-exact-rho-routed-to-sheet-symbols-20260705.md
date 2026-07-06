@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-tau-enclosure-exact-rho-routed-to-sheet-symbols-20260705
-status: filed-pending-codex-gate
+status: codex-gated-tau-paid-rho-identification-accepted-rho-upper-diff-floor-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 inputs - tau lower enclosure paid exactly; rho routed to sheet symbols
@@ -77,6 +77,33 @@ completion_truth: >-
   arithmetic beyond exact closed forms. Filed is not cleared. No
   closure claimed.
 ---
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f4-w1-tau-rho-gate-20260705.md`.
+
+Accepted:
+\[
+  \tau_{\min}\ge\frac{\sqrt{1-m_{\rm cap}}}{6},
+\]
+so W1 may use \(\tau^-=\sqrt{\delta_m}/6\) once the tau home supplies
+\(m_{\rm cap}\le1-\delta_m\). Also accepted, under the return-race
+normalization:
+\[
+  \rho=\frac{|g_2|}{2|g_1|}.
+\]
+
+Not accepted as a completed enclosure: the proposed \(\rho^+\) still
+needs the denominator floor. The opposite-helicity denominator branch
+would give \(\rho^+\le\Sigma_{\max}^+/(4\kappa_{\min}^-)\), but the
+same-helicity branch needs a positive difference-factor floor
+\({\rm DIFF}^-\). Current sector citations clear \(k\le q\) and the
+zero-set exclusion; they explicitly do not clear a positive \(q-k\)
+margin. \({\rm DIFF}^-\) must be an alias for an already frozen
+sheet/family floor, or the F4 freeze must be reopened by name.
+
+No W1, F4, Chapter-10, F5, or MPP closure is claimed.
 
 # F4/W1: a sixth of the clock survives; rho is the ladder's own ratio
 
