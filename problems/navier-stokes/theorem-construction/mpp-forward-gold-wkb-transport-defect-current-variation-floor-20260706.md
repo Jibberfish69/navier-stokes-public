@@ -7,6 +7,7 @@ route: forward-gold / confinement constant / WKB profile admission / material an
 target_object:
   - WKBTransportDefectVanishesOrCertified.A
   - WKBMaterialAncestryClosedness.A
+  - TransportCurrentVariation.NO-DENSITY-GAP-BY-ITSELF
   - WKBCertificateCompactness.A
   - LimitOfClassTerminalArtifact.A
 source_refs:
@@ -14,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-current-variation-not-density-gap-20260706.md
 completion_truth: >-
   Exact variation floor for the material-ancestry transport-defect alternative.
   Let rho be the positive packet/ancestry mass and let A=J-u rho be the hidden
@@ -169,6 +171,12 @@ Then:
 
 This is not a Field consumer by itself. It is the exact price of carrying the
 material-history defect rather than losing same-fluid ancestry.
+
+The transport-current variation follow-up records the matching negative fact:
+this current/action price is not a density anti-equidistribution theorem.
+Uniform WKB density can carry nonzero divergence-free relative current, so
+current variation is a separate payer/certificate currency unless an additional
+service row ties the current to density.
 
 ## 7. Corrected transport branch
 
