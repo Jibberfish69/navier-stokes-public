@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w1-rung-declaration-constructed-ladder-octave-20260705
-status: codex-gated-scoped-rung-declaration-accepted-w1-rho-paid-scope-guarded
+status: codex-gated-then-reopened-by-triangle-order-catch
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / F4 Stage-3 workbook / W1 rho - the rung is declared, the chopper is the other lane's enemy
@@ -72,6 +72,17 @@ completion_truth: >-
 ---
 
 # F4/W1: we built the ladder - the rung is a carpenter's fact
+
+## Correction header, 2026-07-06
+
+Codex filed
+`mpp-forward-gold-codex-f4-w1-band-ratio-triangle-order-catch-20260706.md`.
+The exact-octave row declared below is not compatible with the accepted
+W1 label map \(k<p<q\) and the nondegenerate Fourier triangle
+inequality \(q<k+p\). Together they imply \(q<2p\), so \(q\ge2p\)
+would make the ordered W1 triad empty or collinear. The rho payment is
+therefore reopened. The surviving route is a sub-octave relative
+separation floor or a side-sum cap on the constructed W1 row.
 
 ## 1. R-1: the source, read honestly
 
