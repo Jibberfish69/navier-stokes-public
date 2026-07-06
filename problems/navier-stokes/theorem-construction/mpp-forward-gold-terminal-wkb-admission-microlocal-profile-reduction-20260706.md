@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -237,8 +238,18 @@ It is nontrivial even inside trace-free anisotropic stresses:
   \mathbb P\operatorname{div}R_\phi=0 .
 \]
 So the pressure-law row cannot reject every anisotropic crowd defect by
-anisotropy alone. Such a defect must be handled as pressure gauge plus
-null-stress certificate, or by one of the other certificate rows.
+anisotropy alone. Actual Reynolds origin adds the covariance screen: the
+rung-zero defect must be positive semidefinite as a matrix-valued measure.
+Thus trace-free anisotropy in the null branch requires positive trace ballast,
+pointwise
+\[
+  {\tau\over3}\ge-\lambda_{\min}(A),
+  \qquad
+  \tau\ge\sqrt{3\over2}|A|_F
+\]
+when \(R=(\tau/3)I+A\) and \(\operatorname{tr}A=0\). Such a defect must be
+handled as PSD null covariance with ballast, as an explicitly legal signed
+certificate, or by one of the other certificate rows.
 
 The cover coordinate is Pack-side. A WKB profile must lift to a uniformly
 bounded finite readout-compatible cover with compact chart parameters and
@@ -285,7 +296,8 @@ The next proof-bearing object is one of:
 ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
-Reynolds-null stress characterization, and the transport-defect
+Reynolds-null stress characterization plus covariance-ballast screen, and the
+transport-defect
 material-ancestry closure fork, and the finite-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
