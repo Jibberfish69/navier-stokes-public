@@ -372,6 +372,13 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   real availability comparison \(L_{\rm avail}>L_{\rm Route3}\). No
   availability theorem is silently assumed.
 
+  CODEX TAIL-DIAL REDUCTION (2026-07-06,
+  codex-route3-tail-d-zero-construction-reduction): in
+  construction-parameter mode the one-block tail dial is fixed at \(D=0\).
+  The product scalar row drops the \(D\) subtraction, and the full finite
+  \(m_{\rm tail}(\mathbb R_t)\) appears only in the length threshold. In
+  fixed-block mode \(D\) remains a real tradeoff against \(L_{\rm avail}\).
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
