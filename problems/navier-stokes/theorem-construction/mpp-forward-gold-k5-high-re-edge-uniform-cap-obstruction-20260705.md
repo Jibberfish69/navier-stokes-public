@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-endpoint-room-reynolds-length-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction and strict reduction. K5 alone cannot supply a uniform
   high-Reynolds edge cap. The pure viscous edge normal form gives integrated
@@ -125,7 +126,7 @@ while
 
 \[
 \text{high-Re edge}
-  \quad\text{must pay by dynamic/geometric forced sideband/leakage/crowd trigger,}
+  \quad\text{must pay by record-length cap, endpoint return, curve/core/crowd trigger,}
 \quad
 \text{route-out/exclusion, or a new unweighted high-Re mechanism.}
 \tag{K5H.8}
@@ -136,8 +137,8 @@ after the trigger checks: inviscid transfer is not spent by pure residence,
 custody has no event to price, installed Gate-A is Reynolds-weighted, and the
 exact isolated edge has zero sideband coordinate. The missing constant is
 therefore no longer a hidden K5 coefficient. It is the uniform lower bound that
-forces dynamic/geometric contamination, excludes the isolated branch, or supplies a new
-unweighted high-Re payer.
+forces a record-length cap, endpoint return, curve/core/crowd contamination,
+excludes the isolated branch, or supplies a new unweighted high-Re payer.
 
 ## 5. Consequence for the work order
 
@@ -153,5 +154,5 @@ K5 closes the neutral edge only on the marginal/unit-Re family. In the high-Re
 family, the K5-only residence cap grows like \(\operatorname{Re}A_0\). Because
 the edge mode has no intrinsic seed floor or Reynolds ceiling, K5 alone has no
 uniform high-Re cap. The high-Re edge cell is therefore strictly reduced to the
-dynamic/geometric forced-contamination, route-out/exclusion, or
-new-unweighted-payer problem.
+record-length-cap, endpoint-return, curve/core/crowd-contamination,
+route-out/exclusion, or new-unweighted-payer problem.

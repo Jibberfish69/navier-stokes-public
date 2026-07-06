@@ -26,9 +26,9 @@ completion_truth: >-
   logarithm. Uniformly over high Reynolds it is not closed: the cap grows like
   Re. Therefore K5 yields a Reynolds-weighted edge tax, matching the existing
   two-payer split: marginal/low-Re pays viscosity, high-Re must pay through a
-  dynamic/geometric forced sideband/leakage/crowd trigger, route-out/exclusion,
-  or a genuinely new unweighted mechanism. No full confinement constant or MPP
-  closure is claimed.
+  record-length cap, endpoint recirculation/nonlocal end influence,
+  curve/core/crowd contamination, route-out/exclusion, or a genuinely new
+  unweighted mechanism. No full confinement constant or MPP closure is claimed.
 ---
 
 # K5 edge log: viscous Reynolds split
@@ -53,7 +53,8 @@ and production
 
 give a logarithmic or worse dependence on the seed \(A_0\). The remaining
 possible rescue inside the real Navier-Stokes field is an external clock:
-viscosity, finite lifetime, custody, dynamic/geometric forced contamination,
+viscosity, finite lifetime, custody, record-length cap, endpoint
+recirculation/nonlocal end influence, curve/core/crowd contamination,
 route-out, or a new unweighted high-Re mechanism.
 
 This note decides the viscosity part.
@@ -152,7 +153,7 @@ This is exactly the two-payer split already present in the campaign:
 \[
 \text{low/marginal Re pays viscosity;}
 \qquad
-\text{high Re must pay dynamic/geometric contamination, route-out, or a new unweighted tax.}
+\text{high Re must pay length/endpoint/curve/crowd, route-out, or a new unweighted tax.}
 \tag{K5V.9}
 \]
 

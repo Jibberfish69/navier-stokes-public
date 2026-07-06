@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-finite-energy-long-packet-routeout-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-endpoint-room-reynolds-length-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction to one shortcut. The lambda-edge re-gate left the high-Re
   edge branch as return-race, custody, sideband/crowd, or an apparent same-packet
@@ -37,8 +38,10 @@ completion_truth: >-
   delivery trigger, installed Gate-A/Theorem-2 allocation is not an independent
   unweighted pure-edge payer, and sideband/crowd has zero trigger on the exact
   isolated pure edge, and static finite-energy localization alone does not
-  route it out. Thus the live branch is dynamic/geometric forced
-  sideband/leakage/crowd contamination, route-out/exclusion, or a genuinely new unweighted high-Re
+  route it out, and endpoint/envelope dynamics over the residence still needs a
+  length cap or endpoint-return mechanism. Thus the live branch is
+  record-length cap, endpoint recirculation/nonlocal end influence,
+  curve/core/crowd contamination, route-out/exclusion, or a genuinely new unweighted high-Re
   mechanism. No such theorem is proved here; no confinement constant or MPP
   closure is claimed.
 ---
@@ -57,7 +60,7 @@ branch, and otherwise remains Reynolds-weighted. A fourth follow-up shows the
 exact isolated pure edge has zero sideband/crowd trigger. Therefore the live
 high-Re edge branch is:
 \[
-  \text{dynamic/geometric forced sideband/leakage/crowd trigger, route-out/exclusion,}
+  \text{record-length cap, endpoint return, curve/core/crowd trigger, route-out/exclusion,}
   \quad
   \text{or a new unweighted high-Re mechanism.}
 \]
@@ -147,7 +150,7 @@ budget:
 \[
   \text{high-Re edge}
   \Rightarrow
-  \text{dynamic/geometric forced sideband/leakage/crowd trigger, route-out/exclusion,}
+  \text{record-length cap, endpoint return, curve/core/crowd trigger, route-out/exclusion,}
   \quad
   \text{or a new unweighted high-Re mechanism}.
   \tag{K5R.9}
@@ -165,6 +168,6 @@ On the high-Re edge, total viscous dissipation is only \(O(A_0)\), while total
 edge production is \(O(\operatorname{Re}_\Gamma A_0)\). The Reynolds factor is
 therefore not a packet budget; it is the residence/readout weight already
 identified in Gate A. So a raw same-packet Reynolds budget cannot pay the
-high-Re edge. The remaining branch is dynamic/geometric forced
-sideband/leakage/crowd contamination, route-out/exclusion, or a new unweighted
-high-Re mechanism.
+high-Re edge. The remaining branch is record-length cap, endpoint
+recirculation/nonlocal end influence, curve/core/crowd contamination,
+route-out/exclusion, or a new unweighted high-Re mechanism.
