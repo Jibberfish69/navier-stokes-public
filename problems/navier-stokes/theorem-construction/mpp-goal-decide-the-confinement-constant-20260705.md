@@ -1659,6 +1659,16 @@ surface, not F4 clearance.
    unshielded output-maximal resonant graphs; the finite survivor must be a
    shielded resonant graph whose top sidebands degenerate before the WKB /
    profile / construction questions re-enter.
+   Follow-up shielded two-pair same-side leak filed: the shielded branch is
+   nonempty. The four modes
+   \(p=(-3,-3,0), q=(-2,3,0), a=(-2,-3,0), b=(-3,3,0)\) have
+   \(p+q=a+b=(-5,0,0)\), equal selected radius sum
+   \(\sqrt{18}+\sqrt{13}\), and same-shell harmless off-diagonal sidebands
+   \(a+q=(-4,0,0)\), \(p+b=(-6,0,0)\). Thus a proof by "shield impossible" is
+   false. The same four-mode gadget still dies because \(p+a=(-5,-6,0)\) and
+   \(q+b=(-5,6,0)\) are unique dangerous same-side sidebands. The finite
+   survivor is now narrowed to a shielded vector-moment resonant graph with
+   full sideband closure, not merely top off-diagonal shielding.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
