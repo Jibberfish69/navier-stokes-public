@@ -207,7 +207,17 @@ It must be one of:
 \]
 
 After any backed rank-one payer is removed, the residual Gram form still owes
-legal anti-equidistribution, residual positivity, or construction/exclusion.
+legal anti-equidistribution, unbounded residual payer backing, or
+construction/exclusion. The bounded-residual phrase has now been reduced: if
+the residual \(H\) has the uniform mode removed and \(\|H\|\le C\), then
+\[
+  |a^THa|
+  \le
+  C\|a-u\|_2^2.
+  \tag{UMC.16}
+\]
+So a count-free residual lower bound is exactly the legal
+anti-equidistribution theorem in residual-metric coordinates.
 
 ## 6. Four-sentence result
 
@@ -220,8 +230,8 @@ to every normalized positive cloud, so an order-one \(\gamma_F\) is a genuine
 fixed-density payer. The mean-zero pressure kernel, finite cover, and common
 identity do not create that payer; in the overlap bath pressure channel,
 demanding it is exactly the fixed-density compensator branch already priced as
-producer-equivalent residue. After the backed rank-one part is subtracted, the
-remaining Gram problem is still anti-equidistribution, residual positivity, or
-construction/exclusion.
+producer-equivalent residue. After the backed rank-one part is subtracted,
+bounded residual positivity is exactly anti-equidistribution, while unbounded
+residual positivity is a new payer or construction branch.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
