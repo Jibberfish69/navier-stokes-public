@@ -12,40 +12,27 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-goal-decide-the-confinement-constant-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
 external_inputs_to_verify:
   - Crow 1970 dispersion (already carried by the kill-integral note)
   - nonlinear Crow evolution: trough pinch-in preceding reconnection
     (attested in the vortex-dynamics literature; used here only as a
     sign check on the modulation coefficient, not as proof)
 completion_truth: >-
-  K5 is DERIVED IN STRUCTURE, not closed. Exact: (K5a) IMPULSE LEMMA -
+  K5 is STRUCTURALLY RETYPED, not closed. Exact: (K5a) IMPULSE LEMMA -
   the pair's linear impulse per unit length is proportional to
   circulation times separation and is conserved, so the quadratic
   self-coupling of any non-growing mode CANNOT drive uniform separation
   drift; the uniform escape channel is dead at all orders. (K5b) PACING
-  IDENTITY - with the mean pinned, the quadratic channel is separation
-  MODULATION at twice the mode wavenumber (approach at troughs, mean
-  fixed); both the mode's production and its trough-deepening rate are
-  quadratic in amplitude on the same strain clock, so their ratio is
-  AMPLITUDE-FREE: a neutral or stable oscillatory mode finances its own
-  entry into the growing band at a rate locked to its production, and
-  the integrated stretch of the non-growing phase is bounded by a
-  band-geometry constant independent of amplitude and seed. (K5c) SCOPE
-  - the identity covers the band edge AND the entire stable oscillatory
-  complement (rotating tilts produce on time-average and self-modulate
-  identically); externally held configurations are dichotomy branch 2,
-  out of family. OPEN (the gate): display the second-variation
-  modulation coefficient from the exact mutual-induction kernel and
-  verify its sign (trough-approach, not crest-approach); display the
-  local band-entry criterion (local kappa below edge at troughs) at the
-  same order. If the coefficient vanishes identically or has the wrong
-  sign uniformly on the edge family, work item 1's kill condition
-  triggers and the per-encounter tax dies on the neutral channel.
-  Combined state if the gate clears: every channel of the pair
-  encounter (growing interior, long waves, edge, stable side) carries
-  an amplitude-free per-encounter stretch bound - the pair cell's kill
-  integral is then complete up to chapter-10 constants. No closure
-  claimed.
+  IDENTITY - direct pure-mode growing-band feed is zero by wavenumber
+  selection. The surviving pacing object is the cubic edge normal-form
+  coefficient Lambda_edge displayed in the Codex gate. The local-kappa
+  trough test is not certified, because the 2*k modulation is same-scale
+  rather than WKB-slow; the correct gate is Re Lambda_edge > 0. If that
+  coefficient vanishes or has nonpositive real part on the edge family,
+  work item 1's kill condition triggers and the per-encounter tax dies
+  on the pure neutral channel. No closure claimed.
 ---
 
 # K5: neutral-channel saturation by the pacing identity
@@ -65,24 +52,19 @@ the dynamics. Therefore no quadratic (or any-order) self-interaction
 of a perturbation mode can produce uniform separation drift. The
 "slide the whole pair into or out of the band" channel does not exist.
 
-## 3. K5b: pacing identity (exact in structure)
+## 3. K5b: pacing identity (normal-form route)
 
-With the mean separation pinned, the leading quadratic self-coupling
-of a mode at wavenumber kappa is separation modulation at 2*kappa:
-local approach at troughs, recession at crests. At the troughs the
-local kappa = k*d_local falls below the band edge and the
-configuration enters the growing band LOCALLY - the known nonlinear
-Crow pinch-in, here re-read as the tax collecting.
+With the mean separation pinned, the leading pure-mode quadratic outputs
+are the mean mode and the 2*kappa second harmonic. Direct feed into the
+interior growing band is zero. The remaining pacing question is the
+resonant normal-form feedback of those second-order geometry corrections
+onto the edge mode.
 
-The identity: production rate ~ s * beta^2 and trough-deepening rate
-~ s * beta^2, same clock, both quadratic. The ratio is amplitude-free.
-Consequences: (i) a neutral mode cannot produce arbitrarily slowly to
-delay its fall - slower production IS slower deepening in the same
-proportion; (ii) integrated stretch of the non-growing phase is
-bounded by a band-geometry constant, seed- and amplitude-independent,
-the same structural miracle as the kill integral's last-e-fold
-dominance (production quadratic in the quantity whose growth kills the
-configuration).
+The corrected identity is conditional: production rate is ~ s * beta^2,
+and the edge-mode amplitude leaves neutrality at relative rate
+s * beta^2 only if the cubic normal-form coefficient Lambda_edge has
+positive real part. Then the ratio is amplitude-free. If
+Re Lambda_edge <= 0, the pure neutral mode is not killed by this channel.
 
 ## 4. K5c: scope
 
@@ -92,18 +74,15 @@ the same order). Externally held poses are branch 2 of the symmetry
 dichotomy (financed), out of family. Crowd-cell interactions are goal
 item 4, not consumed here.
 
-## 5. CODEX GATE (two display items)
+## 5. Codex gate result
 
-(G-K5-1) Display the second-variation modulation coefficient: the
-2*kappa separation-modulation forcing from the exact mutual-induction
-kernel at a band-edge mode, and verify its sign gives trough-approach
-on the edge family. The nonlinear Crow pinch-in attests the sign
-physically; the display must derive it.
+The Codex gate is filed in:
 
-(G-K5-2) Display the local band-entry criterion: local kappa below
-kappa_edge at the troughs at the same order in amplitude, i.e. the
-modulation actually reaches the band, not merely deforms.
+`mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md`.
 
-Kill condition (standing, from the goal): coefficient identically
-zero or uniformly wrong-signed on the edge family => neutral producing
-mode survives second order => per-encounter tax dies on this channel.
+Result: the direct pure-mode feed coefficient is zero; the replacement
+coefficient is the resonant edge normal-form coefficient Lambda_edge.
+The local-kappa trough criterion is rejected as a certification
+criterion. Kill condition (standing, from the goal): Re Lambda_edge <= 0
+or symmetry-zero on the edge family => neutral producing mode survives
+this K5 channel => per-encounter tax dies on the pure neutral channel.
