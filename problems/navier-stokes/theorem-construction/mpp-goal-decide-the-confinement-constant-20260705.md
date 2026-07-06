@@ -1639,6 +1639,16 @@ surface, not F4 clearance.
    \(T_3e_2+T_4(-11e_2/15-ie_3/15)=0\). The finite live branch is now a
    vector-moment resonant graph with sideband closure, followed by the same
    WKB/profile/construction questions.
+   Follow-up minimal-gadget sideband check filed: the local vector cancellation
+   witness is realized by integer modes at \(m=(24,0,0)\) using
+   \(p_3=(24,32,0), q_3=(0,-32,0)\), the \(e_2\)-grade-four pair
+   \((24,45,0),(0,-45,0)\), and the \(e_3\)-grade-four pair
+   \((24,0,45),(0,0,-45)\). The selected \(m\)-coefficient cancels with
+   \(R_3=e_2\) and \(R_4=-11e_2/15-ie_3/15\), but the same six modes create
+   unique dangerous sidebands, for example
+   \(q_3+q_{4,e_3}=(0,-32,-45)\). Thus the minimal local vector-moment gadget
+   is not a finite neutral bath; any survivor must close the full sideband
+   graph by adding modes without exposing another dangerous output.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
