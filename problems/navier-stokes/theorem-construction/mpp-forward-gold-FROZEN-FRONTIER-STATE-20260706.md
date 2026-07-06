@@ -727,6 +727,29 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(2\beta\le2b<2\log2\) gives all supported selectors lower-edge. No product
   pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP closure is claimed.
 
+  CODEX ROUTE-3 FIXED-\(b\) DRIFT ENVELOPE MONOTONICITY (2026-07-06,
+  codex-route3-fixed-b-drift-envelope-monotonicity): for each fixed live
+  \(b\), the friendly rent room \(\mathcal R_b(\lambda)\) is strictly
+  decreasing throughout its supported drift range. Interior monotonicity is
+  the previous envelope derivative
+  \[
+    {d\over d\lambda}\mathcal R_b(\lambda)
+    =
+    -{(q_*-b)(2+e^{q_*/2})\over4}<0,
+  \]
+  lower-edge monotonicity is the explicit slope
+  \[
+    -{b(2+e^b)\over4}<0,
+  \]
+  and at the mixed-regime switch
+  \(L_b(2b)=\Lambda_{\rm edge}^-(b)\), so
+  \(V_b(2b)=\Psi_b(2b;\Lambda_{\rm edge}^-(b))\) and the two formulas meet
+  continuously. Thus a fixed-\(b\) upper drift enclosure
+  \(\lambda\le\overline\lambda<S_{\max}(b)\) gives
+  \(\mathcal R_b(\lambda)\ge\mathcal R_b(\overline\lambda)\). No \(b\)-interval
+  monotonicity, product pass, Route-3 pass, F4, Chapter-10 pass, F5, or MPP
+  closure is claimed.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
