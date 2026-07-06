@@ -213,8 +213,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(u=U(\cos(x_2/D)-1)e_1+U(\cos(x_1/D)-1)e_2\) has \(\nabla u(0)=0\) and
     \(\nabla^2p(0)=(U^2/D^2)(e_1\otimes e_2+e_2\otimes e_1)\), with energy
     \(U^2D^3=HD^5\). The same periodic shear display supplies any trace-free
-    Hessian after choosing a zero-diagonal frame. The live pressure branch is
-    now localization, producer coupling, time persistence, and allocation.
+    Hessian after choosing a zero-diagonal frame. At that stage the live
+    pressure branch was localization, producer coupling, time persistence, and
+    allocation.
+    Follow-up shear-cell time-persistence obstruction filed:
+    constant-direction pressure service is not destroyed on the producer clock.
+    The source cell gradient scale is \(a\sim |K|^{1/2}\sim s\beta^{2/5}\),
+    so its relative Hessian drift over one producer clock is
+    \(\beta^{2/5}+\nu/(sD^2)\). The live pressure branch is now fast direction
+    tracking if forced, localization, producer coupling, and allocation.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -319,6 +326,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    collar. The exact shear-cell check adds that the zero-mean Hodge constraint
    is not the missing payer: an exact divergence-free mean-zero shear source
    supplies a nonzero traceless Hessian at the same \(HD^5\) scale.
+   The shear-cell time-persistence check adds that constant-direction pressure
+   service drifts only by \(\beta^{2/5}+\nu/(sD^2)\) over one producer clock.
    Therefore the exact matrix must use exact unforced evolution, nonlocal
    pressure/Hodge structure, same-packet allocation, or a real summability-valid
    bath construction, not a pointwise affine or generic collar tax. The reuse
