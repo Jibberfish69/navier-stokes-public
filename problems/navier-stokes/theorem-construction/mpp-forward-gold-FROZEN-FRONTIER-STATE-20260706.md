@@ -473,6 +473,18 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   (o2); one-signed-reference routing convention (o3); G3 cycle
   bookkeeping (o4). Both final comparisons REAL, can fail — honest
   F4 endings (drift beats deadband; refill rate beats drain rate).
+  CODEX GATED
+  (codex-threshold-floor-r4tv-parkingtime-gate): threshold floor
+  accepted as a rate cap and ParkingTime bridge in finite-chain/root
+  coordinates; R4-TV accepted as the right shape from pointwise R4
+  Gronwall plus the \(X_{\rm flr}\) denominator floor. NOT CLEARED:
+  o1 package-slot monomial display; o2 \(L_\rho\) display; o3
+  one-signed forward-reference routing (or signed subwindow split); o4
+  lift/decay/run cycle bookkeeping; the two real comparisons
+  \(C_{\rm TV}T_*\operatorname{drift}_{\rm per}<\delta\) and
+  \((\delta/(q_{\rm per}^--\delta)+2)T_*\rho^-_{\max}/\delta
+  \le f_{\rm dw}<1/2\). This is bridge-shape progress, not return
+  budget closure.
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
@@ -484,11 +496,14 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   import fires only after \(D_j\) is matched to the nested parabolic
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff); THE RETURN BUDGET ROW, now reduced to
-  R4-TV\((\delta)\) on forward-routed periods +
-  ParkingCount\((\delta)\) for backward-routed re-entries (pure
-  bookkeeping routes closed by the F2 no-go; a net extraction law
-  would instead revive the prefix route); pricing completeness
+  single-mode handoff); THE RETURN BUDGET ROW, now reduced past pure
+  ParkingCount to the threshold-floor gate: o1 package-slot monomial
+  display + o2 \(L_\rho\) display + o3 one-signed forward-reference
+  routing/signed subwindow split + o4 lift/decay/run cycle bookkeeping
+  + \(C_{\rm TV}T_*\operatorname{drift}_{\rm per}<\delta\) +
+  \((\delta/(q_{\rm per}^--\delta)+2)T_*\rho^-_{\max}/\delta
+  \le f_{\rm dw}<1/2\) (pure bookkeeping routes closed by the F2 no-go;
+  a net extraction law would instead revive the prefix route); pricing completeness
   \(D_j\le C_{\rm pc}E_j\); the parametric RUN row
   \(A_0>C_\delta d_{\rm R4}^+\) with
   \(0<\delta<q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
