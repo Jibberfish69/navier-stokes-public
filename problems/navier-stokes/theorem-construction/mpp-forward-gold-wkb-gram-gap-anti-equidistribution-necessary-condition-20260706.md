@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-identity-not-gram-gap-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-not-bounded-cell-count-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -43,7 +44,10 @@ completion_truth: >-
   uniform-mode charge, legal anti-equidistribution, or construction/exclusion.
   The finite-cover follow-up shows that finite chart count is not the bounded
   count alternative: one legal chart can contain N equal effective cells inside
-  one common identity fiber with square charge 1/N.
+  one common identity fiber with square charge 1/N. The uniform-mode follow-up
+  prices the remaining alternative: a positive uniform mode is a rank-one
+  all-to-all payer, and in the overlap-bath pressure channel an order-one
+  version is the fixed-density compensator/residue branch.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -210,6 +214,12 @@ fiber a positive uniform-mode charge, or forbids near-uniform legal weights.
 The finite-cover certificate is not that effective-count law; it bounds carrier
 charts, not WKB service cells inside a chart or identity fiber.
 
+The positive-uniform-mode alternative is also typed. It is a rank-one
+all-to-all payer on the normalized cloud. For the pressure-service overlap
+bath, an order-one such payer is not supplied by the mean-zero kernel or by
+certificate compatibility; it is the fixed-density compensator/residue branch
+unless a new backing source is proved.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -230,7 +240,7 @@ The cross-cell WKB branch is now:
 \[
 \begin{array}{ll}
 \text{positive uniform-mode charge}
-  &\Rightarrow \text{new non-pressure-kernel all-to-all payer},\\[1mm]
+  &\Rightarrow \text{rank-one payer / fixed-density compensator branch},\\[1mm]
 \text{anti-equidistribution of legal clouds}
   &\Rightarrow \text{possible admissible-cone Gram gap},\\[1mm]
 \text{near-uniform legal clouds}
