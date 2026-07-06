@@ -67,14 +67,13 @@ completion_truth: >-
   the same Sobolev/Field readout. The no-vanishing-horn follow-up proves that
   vanishing normalized trace energy forces vanishing trace-free PSD covariance
   anisotropy, since \(|A|_F\le2\sqrt{2/3}\mu_R\). The positive trace also has
-  explicit cover,
-  ancestry, and tower landings: uncovered trace is Pack-side cover failure,
-  untransported trace energy is Part-side material-history failure, and a trace
-  tower not tied to the same differentiated law is Part-side tower failure. The
-  signed-stress variation-floor follow-up prices the non-PSD alternative:
-  S=P-N with P,N PSD implies tr P+tr N >= ||S||_*. Thus nonzero signed stress
-  has nonzero positive trace variation or else it is not a retained
-  same-packet signed certificate. The
+  explicit cover, ancestry, and tower landings: uncovered trace is Pack-side
+  cover failure, untransported trace energy is Part-side material-history
+  failure, and a trace tower not tied to the same differentiated law is
+  Part-side tower failure. The signed-stress variation-floor follow-up prices
+  the non-PSD alternative: S=P-N with P,N PSD implies
+  tr P+tr N >= ||S||_*. Thus nonzero signed stress has nonzero positive trace
+  variation or else it is not a retained same-packet signed certificate. The
   ancestry coordinate has the transport-defect fork, and the cover coordinate
   has the finite-cover compactness fork.
   Existing microlocal-defect notes show
@@ -390,7 +389,8 @@ ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
-ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, and
+ballast-energy ledger, the PSD covariance no-vanishing-horn inequality, the
+signed-stress variation-floor inequality, and
 the transport-defect material-ancestry closure fork, and the finite-cover / ballast-cover
 compactness fork, the ballast ancestry/tower landing, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
