@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
 completion_truth: >-
   Exact fork for the actual velocity-pressure law certificate. If smooth
   same-viscosity Navier-Stokes branches u_j,p_j converge weakly and
@@ -49,8 +50,11 @@ completion_truth: >-
   tau>=sqrt(3/2)|A|_F. This proves no theorem forcing actual Navier-Stokes WKB
   packets into the PSD null class. The ballast-energy identity adds that
   (1/2)tr R is unresolved kinetic energy, independent of the pressure gauge.
-  This proves no legal carriage theorem for the positive energy ballast through
-  ancestry/cover/tower, no profile admission theorem, no WKB
+  The terminal ballast-readout follow-up consumes the admitted nonzero-trace
+  branch: positive terminal trace energy at carrier frequency
+  lambda_j -> infinity gives high Sobolev readout of size
+  mu_R lambda_j^(2m). This proves no legal carriage theorem for the positive
+  energy ballast through ancestry/cover/tower, no profile admission theorem, no WKB
   construction/exclusion, no confinement constant, and no MPP closure.
 ---
 
@@ -322,6 +326,25 @@ does not erase the energy/profile coordinate
   \tag{RDC.24}
 \]
 
+If that energy coordinate is admitted at terminal WKB frequency with
+\(\lambda_j\to\infty\) and nonvanishing normalized mass
+\[
+  \phi_jD_j^3\mu_{R,j}\ge c_0>0,
+  \tag{RDC.25}
+\]
+then the trace energy is high-Sobolev visible:
+\[
+  \|\nabla^m u_j^{\rm WKB}\|_2^2
+  \gtrsim
+  \phi_jD_j^3\mu_{R,j}\lambda_j^{2m}
+  \longrightarrow\infty
+  \qquad(m>0).
+  \tag{RDC.26}
+\]
+For the installed CM consumer, use the required Sobolev depth \(m>1\). Thus
+positive trace ballast is a pressure-law gauge only in the velocity-force
+coordinate; after terminal WKB admission it is a Field-visible energy readout.
+
 ## 6. Reduced burden
 
 The actual-law coordinate in `WKBCertificateCompactness.A` is now:
@@ -341,7 +364,9 @@ in the Leray-null class
 \]
 with \(q\) absorbed into pressure and positive trace ballast paid for any
 nonzero trace-free anisotropy as the energy ledger
-\(\mu_R=(1/2)\operatorname{tr}R\), or is otherwise carried by an explicit
+\(\mu_R=(1/2)\operatorname{tr}R\). If that ledger has nonvanishing terminal
+carrier-frequency mass, the Sobolev/Field consumer applies after same-solution
+witness admission. Or the stress is otherwise carried by an explicit
 legal signed-stress certificate outside the rung-zero Reynolds covariance
 claim. If none of these holds, the profile fails the actual velocity-pressure
 law / covariance-energy / ancestry certificate.
@@ -366,7 +391,9 @@ This note proves the Reynolds-defect closure fork for the actual law
 certificate, the single-shape localized anisotropic Leray obstruction, and the
 exact Leray-null stress characterization, including the trace-free Hessian
 null-stress example. It also imports the covariance-ballast screen for actual
-rung-zero Reynolds defects and the ballast-energy ledger identity. It does not
+rung-zero Reynolds defects, the ballast-energy ledger identity, and the
+terminal-frequency Field-readout consumer for admitted positive trace ballast.
+It does not
 prove actual Navier-Stokes WKB Reynolds defects lie in the PSD null class, does
 not prove the defect vanishes for Navier-Stokes WKB packets, does not prove
 that a nonzero PSD null defect and its positive trace energy can be legally
