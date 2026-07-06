@@ -1402,3 +1402,23 @@ supplier fronts:
 
 Thus W0-B is not a loose lineage slogan. It is finite lineage count, internal
 no-exit/source-wall depth, or material-time global law. It remains open.
+
+## 11. Codex W0-B B1 supersession audit (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-w0b-b1-lineagecount-supersession-audit-20260706.md`.
+This is a strict supersession audit, not a proof of W0-B.
+
+The B1 `LineageCount_F4` entry is not part of the current RENT/product front.
+The time-integrated rent declaration and its tower display replaced the raw
+length-times-supremum row, and explicitly removed `LineageCount_F4`,
+`F4ChargedFinancedSplit`, `JminToCountFloor`, \(N_{\rm time}\), and
+\(B_{\rm time}\) from the RENT row.
+
+B1 remains dormant support only for any future row that returns to raw retained
+time counting or uses financed/sub-financed splitting outside RENT. Current
+W0-B is reduced to:
+
+1. B2: `InternalFirstAdmissionNoExit(N*)` or the selected-critical fresh-source
+   wall;
+2. B3: material-time Liouville / certified marginal bath construction-or-exit.
