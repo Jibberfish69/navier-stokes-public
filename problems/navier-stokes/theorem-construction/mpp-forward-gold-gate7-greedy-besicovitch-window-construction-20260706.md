@@ -22,6 +22,7 @@ depends_on:
   - mpp-forward-gold-codex-f1-tail-capacity-window-routing-reduction-20260706.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
   - mpp-forward-gold-f3-ledger-first-contact-20260705.md
+  - mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md
 completion_truth: >-
   Codex-regated state: the Besicovitch/Vitali argument is accepted as a
   covering lemma for a positive finite channel-cell measure, but it does
@@ -29,12 +30,12 @@ completion_truth: >-
   disjoint post-merger family; use bounded-overlap/coloring or carry a
   bounded-merger stability clause. Exhaustion is valid only for the
   maximal-superlevel set of the same positive measure/readout being
-  covered, not automatically for signed active monomial mass or the
-  weak-limit defect. The remaining clauses are the positive
-  control-measure choice/domination, weak-limit reconstruction direction,
-  coherence versus mass-greedy selection, bounded-merger/readout
-  stability, and eta/locality tail charging. F1 remains reduced, not
-  cleared.
+  covered. Codex follow-up pays the positive control-measure
+  choice/domination and the weak-limit domination direction at fixed
+  finite readout: lambda_a = w*-lim |nu_a^epsilon| dominates |nu_a|. The
+  remaining clauses are finite-readout total reconstruction and tail
+  charging, coherence versus mass-greedy selection, and
+  bounded-merger/readout stability. F1 remains reduced, not cleared.
   Constructs the Gate-7 countable locally finite measurable
   window decomposition by greedy Besicovitch selection on the
   actual defect measure, with exhaustion and the bounded overlap
@@ -108,6 +109,24 @@ measure used to define the maximal readout; the active monomial/defect
 ledger still needs channel-first reconstruction or domination in the
 right semicontinuity direction. Coherence versus mass-greedy selection
 also remains open.
+
+## Codex follow-up, 2026-07-06
+
+Codex filed
+`mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md`.
+The positive measure and weak-limit direction are now specified for the
+channel-cell frame:
+\[
+  \lambda_a=\mathrm{w^*}\!-\lim|\nu_a^\varepsilon|,
+  \qquad
+  |\nu_a|\le\lambda_a .
+\]
+Thus the Besicovitch cover is taken over the positive variation envelope
+of the same signed throughput measure.
+
+This does not reconstruct the total active monomial/defect measure from
+the finite-readout channel-cell sum. Tails, coherence, and
+bounded-merger/readout stability remain open.
 
 ## T1. Finiteness
 
