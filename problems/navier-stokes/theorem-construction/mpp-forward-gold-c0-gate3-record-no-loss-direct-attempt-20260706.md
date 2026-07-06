@@ -24,8 +24,9 @@ proved_inputs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-E4-delamination-same-parent-storage-obstruction-20260706.md
 completion_truth: >-
   Gate 3 direct attempt for the c_0 normalized passage objective. This does not
-  install or refute NormalizedRelayBillCompactnessRecordPassage.A. Gate 1 remains
-  the first exact failed gate and Gate 2 remains the next independent failure.
+  install or refute NormalizedRelayBillCompactnessRecordPassage.A. Gate 1 is now
+  supplied by the retained pressure-source envelope chain, and Gate 2 is the
+  first exact failed gate.
   This note proves that the allowed finite-readout closedness technology is not
   enough to pass the selected relay record: it passes linear cone inequalities
   for defect measure pairs on fixed finite-readout regions, while the needed
@@ -181,9 +182,8 @@ kernel has no positive-record limit profile to contradict.
 
 ## 7. Consequence for the active c_0 objective
 
-Gate 3 is not solved by chapter-2 closedness. The first exact failed gate of
-`NormalizedRelayBillCompactnessRecordPassage.A` is still Gate 1, and Gate 2 is
-also independently open. Gate 3 adds the next precise escape:
+Gate 3 is not solved by chapter-2 closedness. Gate 1 is supplied, Gate 2 is the
+first exact failed gate, and Gate 3 adds the next precise escape:
 
 ```math
 \text{compact signed defect limit exists}
