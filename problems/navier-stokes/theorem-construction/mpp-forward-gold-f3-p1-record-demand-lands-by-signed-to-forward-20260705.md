@@ -64,6 +64,35 @@ completion_truth: >-
   closure claimed.
 ---
 
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-p1-record-demand-collapse-gate-20260705.md`.
+
+Accepted: modulo the accepted modified-row declaration, P1(ii) is not
+a separate producer theorem. SRP.3 gives
+\[
+  \Lambda_{\rm record}\le\int_I P(t)\,dt,
+\]
+the finite SRP projection identity gives
+\[
+  \int_I P=\nu_{\rm ret}^{\rm SRP,L}+{\mathcal R}_{\rm out}^L,
+\]
+and positive-part subadditivity plus oriented exactness gives
+\[
+  \Lambda_{\rm record}
+  \le
+  A_{\rm ret}^w+({\mathcal R}_{\rm out}^L)_+.
+\]
+
+Regated only in scope: this does not route
+\(({\mathcal R}_{\rm out}^L)_+\). The positive residue still has to be
+decomposed family-by-family into high-readout, off-retained,
+replacement-tail, boundary/locality, Silver, tax, or failure channels.
+Thus P1(ii) collapses as a separate burden, while P1 still remains open
+at gross-production pricing/orientation-window replacement and residue
+routing. No P1 clearance or MPP closure is claimed.
+
 # F3/P1(ii): the record demand lands by signed-to-forward
 
 ## 1. The chain - three paid pieces, one inequality
