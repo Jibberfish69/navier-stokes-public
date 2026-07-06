@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f4-w5-merge-regate-tax-supply-paid-demand-is-w6-20260705
-status: filed-pending-codex-gate
+status: codex-gated-w5-merge-accepted-density-normalization-guard
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F4 / W5 named re-gate - the sufficiency row merges; supply is paid, demand is W6
@@ -79,6 +79,30 @@ completion_truth: >-
 ---
 
 # F4/W5 re-gate: one question, one row - the ghost row is struck
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f4-w5-merge-regate-gate-20260705.md`.
+
+Accepted: W5 as an independent same-currency comparison
+"collected diagonal tax minus financed record demand \(>0\)" has no
+current downstream consumer and is struck. The demand side belongs to
+W1-W3 supplying \(c_0\), then W6 consuming \(c_0\). The tax side remains
+as a backed marginal-density display.
+
+Regated: the \(\varepsilon\) in \(W5'\) is only a fixed positive
+tax-density safety factor. It is not a second sufficiency dial and not
+an evaluated constant. Under the normalized P2 convention one may set
+that factor to one:
+\[
+  \theta_{\rm marg}
+  =
+  \frac{1}{2N_{\rm ov}R_g\kappa_{\min}^{1/2}}.
+\]
+If a smaller factor is kept visible, the interval table must carry it
+as a fixed positive input and the rent row must use the same density
+convention. No interval arithmetic or positivity is claimed.
 
 ## 1. M1: the supply half is paid, and the marginal floor is a sheet formula
 
