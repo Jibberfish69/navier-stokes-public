@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-kill-integral-crow-reduction-20260705
-status: seed-independent-cap-derived-direct-k5-feed-obstructed-log-seed-obstruction-open
+status: seed-independent-cap-derived-k5-marginal-closed-high-re-weighted-open
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / goal item 1 (kill integral)
@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-neutral-channel-second-order-direct-feed-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-pacing-identity-normal-form-gate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
 external_inputs_to_verify:
   - Crow 1970 linear stability of the anti-parallel vortex pair
     (cutoff filament model; dispersion in modified-Bessel
@@ -46,9 +47,12 @@ completion_truth: >-
   criterion rejected as certification. Even if Re Lambda_edge > 0, the
   cubic normal form gives a neutral-phase integral logarithmic in the
   seed amplitude, not a seed-independent cap. If Re Lambda_edge <= 0 or
-  vanishes by symmetry, the per-encounter tax is dead on the pure edge
-  channel outright; if Re Lambda_edge > 0, the edge still needs a seed
-  floor, custody payment, or sideband/crowd mechanism. 
+  vanishes by symmetry, inviscid self-saturation is dead on the pure edge
+  channel outright; if Re Lambda_edge > 0, inviscid self-saturation still
+  leaves log(seed). Viscosity supplies an external clock with cap
+  proportional to local Reynolds: marginal/unit-Re edge is capped, high-Re
+  edge remains Reynolds-weighted and passes to return-race/custody/sideband
+  mechanisms.
   Certification-typed inputs, named: the core-log
   constant in the Crow dispersion; the kill displacement Delta; the
   sinusoidal-vs-uniform tilt profile factor relating the X-formula
@@ -105,7 +109,7 @@ Short-wave band edge: gamma_c -> 0 at finite kappa_edge, K formally
 diverges. The evasion channel is the near-neutral mode: constant
 amplitude, indefinite production at linear order. LIVE PRESSURE POINT.
 
-## 4. K5 correction: direct feed obstructed, mean detuning open
+## 4. K5 correction: direct feed obstructed, edge Reynolds split
 
 The first K5 mechanism as stated was direct second-order projection from
 a pure near-edge Crow Fourier mode into the growing band. That mechanism
@@ -122,6 +126,11 @@ relative rate ~ s * beta^2. Favorable sign gives one bounded payment per
 amplitude octave, hence a log(seed) neutral-phase integral. Sideband
 packets are a separate sideband/crowd channel, not the pure-mode
 coefficient.
+
+The real-field viscous clock removes the seed logarithm with a cap
+proportional to local Reynolds. Hence the unit/marginal Reynolds edge is
+capped; the super-marginal edge is not uniformly capped by K5 alone and
+is handed to the two-payer/custody/crowd mechanisms.
 
 ## 5. What would certify (chapter-10 items, quarantined)
 
