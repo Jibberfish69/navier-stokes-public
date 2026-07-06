@@ -762,8 +762,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    closed graphs for the law, ancestry, cover, and tower certificates, plus a
    simultaneous lift of the same prelimit WKB measures to their product, imply
    closed legal-label support. The remaining WKB profile-admission burden is
-   exactly those four row-level certificate theorems and the simultaneous product
-   lift, or else the first failed row routes to Pack/Part/Field.
+   exactly those four row-level certificate theorems plus same-packet
+   cross-certificate compatibility, or else the first failed row routes to
+   Pack/Part/Field.
+   The product-lift gluing theorem then proves that simultaneous lift is
+   automatic from rowwise lifts over the same observable marginal when no
+   cross-row relation is imposed. Thus the residual product-line object is
+   `WKBCrossCertificateCompatibility.A`: the law, ancestry, cover, and tower
+   certificates must describe the same prelimit packet/cloud.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
