@@ -405,9 +405,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     in the fixed-density branch. This kills the eternal fixed-carrier bath, and
     the follow-up variable-weight ledger prices weight motion by total
     variation. The bank-scale motion ledger prices bank retuning by
-    \(V_D=\int |D_t\log D|\,dt\). The remaining WKB doors are high-Re log
-    reservoir, refresh/reassembly custody, bank log-variation custody,
-    orthogonal-only service, or construction/exclusion.
+    \(V_D=\int |D_t\log D|\,dt\). The orthogonal shape-speed ledger prices
+    zero-contraction frame service: the cheap row moves the producer frame only
+    at \(s\beta^{4/5}\), and producer-clock holding costs order one. The
+    remaining WKB doors are high-Re log reservoir, refresh/reassembly custody,
+    bank log-variation custody, slow angle/eigenpath service or order-one
+    frame holding, or construction/exclusion.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -617,8 +620,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(S:K=\sum_iw_iD_t\log\lambda_i\), so an orthogonal-only bath has zero
    active scalar service and routes to angle/eigenpath work, not WKB
    active-service supply.
+   The orthogonal shape-speed limit prices that routed work: for
+   \(S=\sigma\widehat S\), an orthogonal \(K\) moves shape at speed
+   \(|K|/\sigma\). Thus the cheap row \(|K|\sim s^2\beta^{4/5}\) moves the
+   producer frame only at \(s\beta^{4/5}\), while producer-clock holding
+   needs \(|K|\sim s^2\) and pays order-one producer energy.
    This still leaves the high-Re logarithmic reservoir, Gate-8/custody pricing
-   for refresh/reassembly and bank travel, and construction/exclusion.
+   for refresh/reassembly and bank travel, slow angle/eigenpath service, and
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
