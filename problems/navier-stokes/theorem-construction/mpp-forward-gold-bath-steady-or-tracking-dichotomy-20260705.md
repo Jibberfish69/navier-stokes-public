@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706.md
 completion_truth: >-
   Three pieces, typed. (BD1, lemma-shaped, near-exact) STEADY
   SCAFFOLDED PRODUCTION IS IMPOSSIBLE: if the holding ensemble is a
@@ -63,6 +64,13 @@ completion_truth: >-
   criterion. A live bath escape must therefore be a non-shallowing cumulative
   schedule, a non-power schedule satisfying the criterion, or a finite-depth
   composition escape.
+  Third follow-up:
+  mpp-forward-gold-finite-depth-bath-energy-only-obstruction-20260706 says the
+  finite-depth branch cannot be closed by finite energy alone. Fresh holder
+  costs \(H_n\sim W_n\beta_n^q\) can be summable even for geometric record
+  demand \(W_n\sim2^n\), if \(\beta_n\) shrinks fast enough. Finite-depth
+  composition therefore requires \(\beta_n\) control, same-packet allocation,
+  reuse/tracking, or PDE impossibility.
 ---
 
 # The bath: steady-or-tracking dichotomy, and the final recursion
