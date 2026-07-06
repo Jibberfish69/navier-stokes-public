@@ -195,7 +195,7 @@ producing packet, or impossibility of a global pressure construction.
 
 ## 6. What remains
 
-The pressure row now has three typed exits:
+The pressure row now has five typed exits:
 
 - high-Re subcell room:
   \(\operatorname{Re}_R\gg\beta^{-4/5}\), where the local pressure bath remains
