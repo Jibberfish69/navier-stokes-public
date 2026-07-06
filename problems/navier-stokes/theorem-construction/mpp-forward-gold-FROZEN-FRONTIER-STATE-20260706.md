@@ -135,11 +135,20 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    boundary-routed interior throughput floor
    \(\Phi_W\ge\Phi_0>0\) forces
    \(A\ge 2\Phi_0/(\alpha_+\sqrt{B_+}|W|)\) and hence
-   \(m\ge A_0/B_+\); the remaining separatrix failure \(m\uparrow1\)
-   is exactly the period-cap line \(T_{\rm per}\le T_*\), since
+   \(m\ge A_0/B_+\). The period cap is now reduced by
+   `codex-period-cap-traversal-reduction`: completed traversals of
+   \(X\) contribute \(A\) variation and take \(T_{\rm per}/2\), so
+   after endpoint fragments are routed,
+   \[
+     \Phi_W={1\over2}{\rm TV}^{int}_W(X)
+     \le {A|W|\over T_{\rm per}},
+   \]
+   hence \(\Phi_W\ge\Phi_0\) and \(A\le A_+\) give
+   \(T_{\rm per}\le A_+|W|/\Phi_0\). Since
    \(T_{\rm per}=C_{\rm per}K(m)/(\alpha\sqrt B)\) and
-   \(K(m)\to\infty\). REMAINING: boundary-routed interior financing
-   \(\Phi_0>0\), the period cap, and the scoped R4-adjusted margin.
+   \(K(m)\to\infty\), this gives \(m\le m_*<1\). REMAINING:
+   boundary-routed interior financing \(\Phi_0>0\) in weighted gross
+   currency and the scoped R4-adjusted margin.
    In story terms: the financed spring genuinely swings because
    interior throughput is motion of the same root variable, and exact
    separatrix parking is excluded only when the window currency caps
