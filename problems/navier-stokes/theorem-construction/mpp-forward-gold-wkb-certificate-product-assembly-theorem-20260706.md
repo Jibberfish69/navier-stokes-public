@@ -23,6 +23,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-common-packet-identity-factorization-reduction-20260706.md
 completion_truth: >-
   Conditional assembly theorem only. This note proves that
   WKBCertificateCompactness.A has no remaining independent topological content
@@ -41,11 +42,11 @@ completion_truth: >-
   product when no cross-row relation is imposed. The remaining same-packet
   burden is then reduced by the diagonal-compatibility note to compactness of a
   common packet identity coordinate over which law, ancestry, cover, and tower
-  certificates are all closed. This note does not prove any of the four
-  certificate rows for actual Navier-Stokes WKB packets, does not prove common
-  packet identity compactness, does not prove profile construction or
-  exclusion, does not decide the confinement constant, and does not close the
-  MPP.
+  certificates are all closed. The identity-factorization note absorbs that
+  common identity coordinate into row identity subcoordinates. This note does
+  not prove any of the four certificate rows for actual Navier-Stokes WKB
+  packets, does not prove profile construction or exclusion, does not decide
+  the confinement constant, and does not close the MPP.
 ---
 
 # WKB certificate compactness assembles from four rows
@@ -237,16 +238,16 @@ WKBReynoldsDefectVanishesOrCertified.A
 WKBTransportDefectVanishesOrCertified.A
 WKBFiniteCoverCertificateCompactness.A
 WKBTowerDefectVanishesOrCertified.A
-WKBCommonPacketIdentityCompactness.A
 ```
 
-The last line is the sharpened form of the previous product-lift residual.
 Rowwise lifts over the same observable marginal glue automatically by
 disintegration and conditional product when no cross-row relation is imposed.
 Cross-certificate compatibility is then the diagonal over one compact common
-packet identity coordinate. If that identity coordinate fails to compactify or
-one row cannot be tied to it, the first incompatible coordinate routes by
-(ASS.12)--(ASS.15).
+packet identity coordinate. That common identity coordinate factors through the
+row identity subcoordinates. If a subcoordinate fails to compactify or one row
+cannot be tied to it, the first incompatible coordinate routes by
+(ASS.12)--(ASS.15). Thus no fifth product/identity row remains after the row
+definitions include their identity data.
 
 ## 6. Four-sentence result
 
@@ -257,16 +258,15 @@ then the limiting profile is legally certified by closedness of a finite
 intersection in a compact product space. If a coordinate cannot be carried, the
 first loss is a typed Pack or Part failure; if all coordinates persist with the
 high-Sobolev readout, the installed Field consumer applies. The remaining work
-is to prove or refute the four row-level certificates and common-packet
-identity compactness for actual Navier-Stokes WKB packets.
+is to prove or refute the four row-level certificates for actual Navier-Stokes
+WKB packets, with each row carrying its identity subcoordinate.
 
 ## 7. State
 
 This note proves the conditional assembly of `WKBCertificateCompactness.A` from
-the four certificate rows, certified product lifts, and same-packet
-common-identity compatibility.
+the four certificate rows, certified product lifts, same-packet diagonal
+compatibility, and row identity factorization.
 
 It proves no row-level defect vanishing or legal carriage theorem for actual
-Navier-Stokes WKB packets, no common-packet identity compactness theorem, no
-profile construction/exclusion theorem, no confinement constant, and no MPP
-closure.
+Navier-Stokes WKB packets, no profile construction/exclusion theorem, no
+confinement constant, and no MPP closure.
