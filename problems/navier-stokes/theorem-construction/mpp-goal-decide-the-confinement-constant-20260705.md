@@ -1131,6 +1131,16 @@ certified positive constant.
    bath problem: construct or exclude a near-uniform same-fluid WKB bath that
    also evades finite/atomic carrier admission, microlocal-profile admission,
    high-factor routing, and Pack/Part certificate failure.
+   Follow-up free-periodic-Beltrami branch kill filed: the exact periodic
+   Beltrami neutralizer is not itself exit (ii). It blocks the fast self-drift
+   shortcut and can carry nonzero pressure Hessian, but as a free periodic cell
+   it has zero cell-periodic net stretching production, no coupled
+   producer-strain row, and infinite whole-space energy. Coupled active service
+   satisfies \(S:Q_n=D_t\log\lambda\), so neutral carriers give no active
+   scalar service and active carriers spend scale drift; localization or
+   terminal admission routes to the existing cutoff/Reynolds-certificate and
+   Field/Pack/Part rows. The actual near-uniform same-fluid WKB bath remains
+   open.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
