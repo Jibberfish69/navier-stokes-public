@@ -164,6 +164,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(\beta_n=2^{-(1+\epsilon)n/q}\) makes \(\sum_nH_n<\infty\). Thus the
     finite-depth branch needs admissible \(\beta_n\) control, same-packet
     allocation/depletion, reuse tracking, or PDE impossibility/construction.
+    Follow-up beta-depth correction filed: the summable \(\beta_n\) example is
+    not uniformly finite-depth. If \(K_n=\log_2(1/\beta_n)\le K_*\), then
+    \(H_n\gtrsim2^n2^{-qK_*}\) and the holder energy diverges. The summable
+    sequence has \(K_n=(1+\epsilon)n/q\), so it is a growing-depth/upscale
+    cascade threat.
 
 ## Work order (each unit: output + kill condition)
 
@@ -215,8 +220,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    cheap-bath chain under the filed beta^(4/5), beta^(8/5) scaling:
    holder energies do not decay. Remaining dense escape: exact
    matrix/node-sitting must satisfy the summability criterion, while
-   finite-depth bath funding must satisfy beta-control, allocation,
-   reuse/tracking, or PDE impossibility or construction. Same-day
+   bounded finite-depth bath funding is killed by geometric demand; shrinking
+   \(\beta_n\) is a growing-depth/upscale cascade and must satisfy beta-depth
+   admissibility, allocation, reuse/tracking, or PDE impossibility or
+   construction. Same-day
    node-sitting moving-constraint
    identity replaces static cancellation by the differentiated
    constraint \(D_hC\,\dot h=-D_qC\,\dot q\); the live constant is the
@@ -237,10 +244,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    decision sits in the up-scale recursion or a summability-valid exact matrix
    schedule. The recursion criterion now says a surviving infinite-bath
    escape must make \(\sum_N\exp(-q\sum_{j<N}x_j)\) finite; shallowing
-   exponent laws cannot. The finite-depth side now has its own obstruction:
-   energy-only starvation fails because \(W_n\beta_n^q\) can be summable even
-   for geometric record demand. It must be killed by admissible \(\beta_n\)
-   control, same-packet allocation, reuse/tracking, or PDE impossibility.
+   exponent laws cannot. The finite-depth side is now split: bounded depth is
+   killed by geometric demand, while the summable energy-only example requires
+   linearly growing depth and is an upscale-cascade threat. That surviving
+   threat needs beta-depth admissibility, same-packet allocation,
+   reuse/tracking, or PDE impossibility.
    Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
