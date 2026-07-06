@@ -233,6 +233,7 @@ At least one adjacent output is larger by (FDG.12). It remains to exclude
 same-shell degeneracy on a larger adjacent side.
 
 If \(p,b\) were same-shell, direct substitution in (FDG.20) gives
+\(\beta>\alpha\) and
 \[
   |p+b|^2-|m|^2
   =
