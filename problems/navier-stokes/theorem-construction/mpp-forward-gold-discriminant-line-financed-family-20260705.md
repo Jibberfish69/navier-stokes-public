@@ -67,6 +67,16 @@ the weighted throughput-to-swing-fraction estimate, the bottom-dwell to
 bottom-root estimate, and level-gap bounds for the root identity. Filed
 is not cleared.
 
+## Second correction header, 2026-07-06
+
+The actual Gate-6 cubic normalization is now paid in
+`mpp-forward-gold-codex-gate6-cubic-normalization-jacobian-interface-20260706.md`.
+With the Gate-6 sign convention, the cubic maps exactly to normalized
+roots \(0,1,1/m\), and the physical Jacobian is the swing amplitude
+\(r_+-r_-\). Thus the remaining bounded-nonzero Jacobian issue is not
+a separate discriminant theorem. It is exactly the financed-family
+root-spread / swing-amplitude floor already named below.
+
 ## 1. The discriminant line
 
 Normalized roots: zero, one, reciprocal modulus. Merging pair: one
