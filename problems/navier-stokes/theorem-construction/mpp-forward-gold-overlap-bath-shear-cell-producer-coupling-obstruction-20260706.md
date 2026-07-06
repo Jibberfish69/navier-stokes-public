@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-producer-curvature-subscale-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-subcell-reynolds-threshold-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and exact local/periodic-cell obstruction, not a dense-crowd
   theorem and not a confinement-constant decision. The pressure cell is now
@@ -30,9 +31,10 @@ completion_truth: >-
   retuning the supplied Hessian direction costs |K|D^5, the existing q=4/5
   pressure row. Follow-up producer-curvature subscale obstruction kills generic
   producer curvature as an order-one floor when a high-Re subcell fits below
-  the curvature radius. Remaining: subcell/high-Re admissibility, same-packet
-  allocation, supercritical fast-motion forcing, and a real dynamic bath
-  construction or exclusion.
+  the curvature radius. Follow-up subcell Reynolds threshold obstruction types
+  that fit condition as Re_R=sR^2/nu>>beta^(-4/5). Remaining: the
+  Reynolds-edge bridge, same-packet allocation, supercritical fast-motion
+  forcing, and a real dynamic bath construction or exclusion.
 ---
 
 # Overlap bath: shear-cell producer-coupling obstruction
@@ -198,8 +200,9 @@ This is not a dynamic bath construction and not a full coupling theorem.
 The remaining pressure-row burdens are:
 
 - localization and collar effects when the periodic cell is embedded in the
-  actual producing field, now sharpened to the subcell/high-Re condition for
-  producer curvature;
+  actual producing field, now sharpened to the Reynolds threshold
+  \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) or a bridge from threshold
+  failure to record-ladder payment;
 - same-packet allocation of the pressure service into record-ladder currency;
 - supercritical fast-motion forcing, if the exact matrix demands
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
@@ -213,5 +216,5 @@ producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
 additive at instantaneous periodic-cell level; the live pressure branch is now
-subcell/high-Re admissibility, allocation, supercritical fast motion, or
+the Reynolds-edge bridge, allocation, supercritical fast motion, or
 construction.
