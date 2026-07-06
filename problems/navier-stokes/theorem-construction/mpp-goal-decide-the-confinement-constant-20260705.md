@@ -158,6 +158,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(e_n=\beta_n^q\), an infinite bath chain is finite-energy exactly when
     \(\sum_N\exp(-q\sum_{j<N}x_j)<\infty\). Every shallowing power law
     \(x_{n+1}=p x_n\), \(0<p<1\), including \(p=4/5\), fails.
+    Follow-up finite-depth obstruction filed: finite total energy alone does
+    not kill fresh finite-depth bath funding. If record demand \(W_n\sim2^n\)
+    and one-holder cost is \(H_n\sim W_n\beta_n^q\), then choosing
+    \(\beta_n=2^{-(1+\epsilon)n/q}\) makes \(\sum_nH_n<\infty\). Thus the
+    finite-depth branch needs admissible \(\beta_n\) control, same-packet
+    allocation/depletion, reuse tracking, or PDE impossibility/construction.
 
 ## Work order (each unit: output + kill condition)
 
@@ -226,10 +232,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(D_hC\,\dot h=-D_qC\,\dot q\). The one-holder amplitude-supply
    floor is also locally obstructed in the filed bath scaling:
    \(E_{\rm bath}/E_{\rm prod}\sim\beta^{8/5}\to0\), so the dense
-   decision sits in the up-scale recursion or a different exact matrix
+   decision sits in the up-scale recursion or a summability-valid exact matrix
    schedule. The recursion criterion now says a surviving infinite-bath
    escape must make \(\sum_N\exp(-q\sum_{j<N}x_j)\) finite; shallowing
-   exponent laws cannot. Finding a genuine
+   exponent laws cannot. The finite-depth side now has its own obstruction:
+   energy-only starvation fails because \(W_n\beta_n^q\) can be summable even
+   for geometric record demand. It must be killed by admissible \(\beta_n\)
+   control, same-packet allocation, reuse/tracking, or PDE impossibility.
+   Finding a genuine
    no-eviction crowd kills the program and is the most valuable single
    output.
 5. COMPOSITION. Only if 1-4 stand: per-encounter tax -> per-octave
