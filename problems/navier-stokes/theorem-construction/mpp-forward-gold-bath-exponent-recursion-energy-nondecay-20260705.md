@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-regress-demand-cascade-two-channel-display-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-matrix-node-sitting-correction-tracking-floor-merge-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md
 completion_truth: >-
   Exact calculation inside the already-filed scaling recursion; not a
   full bath theorem. Under the cheap-bath law recorded in BD2/BD3 and
@@ -141,3 +142,10 @@ up-scale chain has infinite total energy in this scaling model. The
 remaining bath escape must change the exponent law through the exact
 matrix/node-sitting schedule or become a finite-depth composition
 problem.
+
+Follow-up:
+`mpp-forward-gold-one-holder-amplitude-floor-bath-ratio-obstruction-20260706.md`
+uses this same recursion to kill the separate one-holder amplitude-floor target.
+The ratio \(\beta^{8/5}\) is cheap enough to make the local floor vanish; this
+note's nondecay computation is exactly why that one-tier cheapness still does
+not by itself produce an infinite finite-energy holding chain.
