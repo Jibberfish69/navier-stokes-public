@@ -29,6 +29,8 @@ regrades:
   - mpp-forward-gold-E4-record-closedness-compensated-compactness-20260706.md
   - mpp-forward-gold-c0-E4-temporal-pinch-charge-bill-currency-reduction-20260706.md
   - mpp-forward-gold-c0-normalized-passage-gate4-source-strict-verdict-20260706.md
+derived_reductions:
+  - mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
 completion_truth: >-
   This is a correction and strict re-foundation, not a proof of c_0. The
   previous reversible-cancellation language is withdrawn as a temporal
@@ -40,10 +42,12 @@ completion_truth: >-
   dissipative pressure-constrained same-fluid field. Therefore c_0 should be
   sought as the cumulative irreversible cost of sustaining an Euler-like
   marginal climb through infinitely many record doublings. The remaining wall
-  is the thin-record evasion of the finite dissipation/charge budget: prove
-  temporal thickness-or-charge in bill currency and same-parent
-  positive-selection storage/detector faithfulness, or route the event out as
-  legal/stop/parentless. No MPP closure is claimed.
+  is now sharpened: positive-radius / thick-material-time concentration is paid
+  by finite participation and fixed-cylinder viscous throttle, while the
+  shrinking heat-scale branch still requires temporal thickness-or-charge in
+  bill currency and same-parent positive-selection storage/detector
+  faithfulness, or route the event out as legal/stop/parentless. No MPP closure
+  is claimed.
 ---
 
 # Irreversibility rebuild after the reversible-frame error
@@ -279,3 +283,9 @@ c_0 = cumulative irreversible cost of an Euler-like marginal climb.
 The next proof work belongs on thickness-or-charge in bill currency and on the
 same-parent positive-selection storage/detector-faithfulness theorem, not on a
 reversible-cancellation cycle.
+
+The positive-radius / thick-material-time branch is now separated in
+`mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md`:
+that branch is paid by finite participation and the fixed-cylinder viscous
+throttle. The remaining active branch is the shrinking heat-scale material-time
+zero-payer rigidity problem.
