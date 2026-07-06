@@ -21,10 +21,19 @@ completion_truth: >-
   defect/active monomial mass from the channel-cell measures, UV/IR and
   mollifier tail charging, and coherence versus mass-greedy selection,
   now sharpened by the coloring gate to lineage-disintegration /
-  incoherent-lump routing. The merged-component readout burden is
-  dissolved by finite Besicovitch coloring; no-dropped-mass/no-double-tax
-  still depends on reconstruction and explicit supply-side multiplicity
-  bookkeeping.
+  incoherent-lump routing. Later same-date updates accept z4 in coloring
+  form and accept z3 for the scoped F1 one-free-leg local-tail consumer.
+  Codex follow-up
+  mpp-forward-gold-codex-gate7-z2-z5-reconstruction-tail-split-20260706.md
+  pays z2 finite-readout reconstruction on the energy-side
+  Duchon-Robert / active-monomial object and splits z5: retained
+  internal boundaries are zero, the high-channel energy tail vanishes,
+  helicity high readout is Silver-routed, and the remaining pass-side
+  boundary/locality/mollifier/weighted-diffuse tail requires the named
+  time-marginal / first-moment theorem or route-out. The
+  merged-component readout burden is dissolved by finite Besicovitch
+  coloring; no-dropped-mass/no-double-tax now sits only in the remaining
+  pass-side tail/routing theorem and supply-side multiplicity bookkeeping.
   CODEX RE-GATE UPDATE, same date. This note gives the right finite
   target for reduced gate 7, but it does not pay the theorem.
   Countability is the right strategy only after the packet/window family
@@ -83,6 +92,31 @@ accepts the coloring form for z4. Bounded-merger/readout stability is no
 longer a separate burden. The remaining coherence issue is
 lineage-disintegration / incoherent-lump routing on \(\lambda_a\)-rich
 balls.
+
+Third follow-up:
+`mpp-forward-gold-codex-gate7-z3-triple-disintegration-f1-scope-regate-20260706.md`
+accepts z3 for the scoped F1 one-free-leg local-tail consumer. The
+general \(N_{\rm dof}^3\) triple expansion remains only a finite
+algebraic skeleton until its measure-level lineage/routing rows are
+supplied.
+
+Fourth follow-up:
+`mpp-forward-gold-codex-gate7-z2-z5-reconstruction-tail-split-20260706.md`
+pays z2 energy-side finite-readout reconstruction from the Target-1
+linear-slot identity and the energy reconstruction-tail proof:
+\[
+  \nu_{E,\rm tot}^{\varepsilon}\!\restriction U
+  =
+  \sum_{\kappa_c^+\le\Lambda,\,Q\cap U\ne\varnothing}
+  \nu_{E,c,Q}^{\varepsilon}\!\restriction U
+  +R_{E,\Lambda}^{\varepsilon}\!\restriction U,
+  \qquad
+  |R_{E,\Lambda}^{\varepsilon}|(U)\to0.
+\]
+It does not clear z5. z5 is now the pass-side
+boundary/locality/mollifier/weighted-diffuse tail theorem: prove the
+time-marginal \(L^\infty_t\) or first-moment tightness condition, or
+route failure to Gate-A tax/Silver.
 
 ## (a) The readout at partition grade
 
