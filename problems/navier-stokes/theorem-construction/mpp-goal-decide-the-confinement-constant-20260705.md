@@ -81,7 +81,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     route-out. Follow-up single-close-return subcell: if that close return is
     one leading-order two-tube episode on the same packet, K3 gives
     \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\), so the visible pair is
-    TV-paid, not free. Open: record/effective-length cap,
+    TV-paid, not free. Follow-up closed-long-packet obstruction: finite energy
+    and closed-filament topology do not force close return; return arcs can be
+    kept at distance \(R\sim L\), with tail \((d/L)^2\) and curvature/cutoff
+    errors \(O((kL)^{-1})\). Open: record/effective-length cap,
     close-return/curve/core/crowd contamination, route-out or exclusion of the isolated pure edge, or a
     genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
@@ -582,7 +585,11 @@ certified positive constant.
    a visible leading-order two-tube close return satisfies
    \(\mathrm{Prod}_+\le3\mathrm{TV}_{\rm evict}\) on the same packet, so
    evasion must use forced occurrence, TV allocation/budget escape,
-   core/off-profile correction, or multiple-return/crowd cancellation. Live pure-edge branch:
+   core/off-profile correction, or multiple-return/crowd cancellation.
+   Follow-up closed-long-packet obstruction: finite energy plus closed-strand
+   topology does not force close return, since the return arcs can stay at
+   \(R\sim L\) with only \((d/L)^2\) tail and \(O((kL)^{-1})\)
+   curvature/cutoff errors. Live pure-edge branch:
    record/effective-length cap, close-return/curve/core/crowd contamination,
    route-out/exclusion, or a genuinely
    new unweighted high-Re mechanism.
@@ -603,8 +610,9 @@ certified positive constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no record/effective-length cap, no forced close-return or
-   close-return/curve/core/crowd contamination trigger beyond the paid
+   Kill condition: no record/effective-length cap, no dynamic forced close-return
+   or close-return/curve/core/crowd contamination trigger beyond the closed-long-packet
+   topology obstruction and paid
    single-pair TV subcell, no
    route-out/exclusion of the isolated pure edge, no new unweighted high-Re
    mechanism, and no
