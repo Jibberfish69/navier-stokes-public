@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-angular-continuum-quadrature-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-profile-reconstruction-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-microlocal-defect-positive-carrier-direct-test-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-carrier-tightness-defect-as-bodyiii-relay-defect-20260621.md
@@ -26,7 +27,11 @@ completion_truth: >-
   witness from one fixed limiting phase label. The follow-up direct test shows
   that a limiting atom alone is not enough; it still requires prelimit
   atomization / finite packet quantization or shrinking phase-tube cloud
-  admission. A nonzero diffuse part reduces the problem to
+  admission. The quantization follow-up sharpens this clause: bounded effective
+  prelimit packet count pays atomization by pigeonhole, while unbounded count
+  is compatible with vanishing mass in every actual packet and therefore routes
+  to cloud-profile admission, no-free-fragmentation / uncertainty-cell input,
+  or atomic fragmentation defect. A nonzero diffuse part reduces the problem to
   DiffuseWKBProfileAdmission.A: admit the diffuse phase-space measure itself as
   a lawful terminal witness ledger, or classify failure of such admission as a
   limit-of-class / original-participation defect. The already filed
@@ -166,6 +171,16 @@ individual prelimit packet has vanishing mass. Thus the atomic branch still
 needs either prelimit atomization / finite packet quantization or admission of
 the shrinking phase-tube cloud as a profile-level witness.
 
+The quantization follow-up makes the atomization side exact. If the shrinking
+atomic tube has at most \(M\) effective prelimit packet cells while carrying
+mass \(a_\ast/2\), one cell carries at least \(a_\ast/(2M)\), and finite-menu
+extraction applies. If the effective count \(M_j\to\infty\), the uniform
+fragmentation model
+\[
+  A_j(P_{j,b})={a_\ast\over2M_j}
+\]
+keeps the atomic tube mass and makes every individual packet vanish.
+
 If one of those reconstruction/admission theorems is paid, the atomic
 compact-continuum branch feeds the already installed WKB Sobolev Field consumer.
 
@@ -242,7 +257,7 @@ the nonvanishing terminal WKB horn now has the exact split:
   \text{actual WKB carrier extraction paid},\\[2mm]
 \text{tight continuum profile with atom}
   &\Rightarrow
-  \text{prelimit atomization or shrinking-cloud admission},\\[2mm]
+  \text{bounded-count atomization or unbounded-count cloud admission/defect},\\[2mm]
 \text{tight continuum profile, diffuse non-angular mass}
   &\Rightarrow
   \text{DiffuseWKBProfileAdmission.A},\\[2mm]
@@ -264,9 +279,11 @@ AtomicWKBProfileReconstruction.A
 DiffuseWKBProfileAdmission.A
 ```
 
-The former is a reconstruction theorem from one fixed limiting label. The
-latter is a measure-valued terminal witness theorem or limit-of-class failure
-theorem.
+The former is a reconstruction theorem from one fixed limiting label. It is
+paid in the bounded effective prelimit packet-count case and remains open in
+the unbounded-count case, which is cloud admission, no-free-fragmentation /
+uncertainty-cell input, or atomic fragmentation defect. The latter is a
+measure-valued terminal witness theorem or limit-of-class failure theorem.
 
 No general `ActualWKBCarrierExtraction.A`, no `MicrolocalDefectProfileAdmission.A`,
 no WKB construction/exclusion theorem, no F4/F5 pass, no manuscript completion,
