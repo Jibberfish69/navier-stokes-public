@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-pressure-participation-near-far-allocation-20260705
-status: filed-pending-codex-gate
+status: filed-codex-regated-pressure-allocation-accepted-as-gross-confinement-not-tax-supply
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P2 pressure-locality allocation - the participation term confines
@@ -72,6 +72,25 @@ completion_truth: >-
 ---
 
 # F3/P2: the participation term allocates - near dues to neighbors, far dues to a cube-weighted whisper
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-pressure-allocation-regate-20260705.md`.
+
+Accepted: the pressure near/far split pays P2's pressure/locality
+allocation ingredient at gross-confinement level in the finite-energy
+MPP Leray-pressure scope. The near pressure field licenses the doubled
+cell locality edge \(R_{\rm loc}^{\rm allocated}\) at estimate level.
+The far pressure field is a cube-weighted annular tail with finite
+zeroth and first geometric moments.
+
+Guards: the near-field \(L^3(2B)\) domination is an allowed locality
+edge, not positive \(\beta\)-supply. The far-field moment payment is a
+routed tail after the local gate factor and cutoff normalization are
+carried; it is not retained tax mass. The weighted Gate-A Hall
+inequality for actual gross throughput, or routing of \(dK^{\rm tax}\),
+remains open.
 
 ## 0. Scope and pressure convention
 
