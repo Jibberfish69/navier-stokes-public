@@ -401,6 +401,13 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   single \(S_H(q/2)>K_{\rm off}(1-\tau_{\min}+\Omega_{\rm R4})+D_{P2}^{ti}\)
   check. Failure of the midpoint branch is not failure of Route 3.
 
+  CODEX DOOR-B MONOTONE CORNER REDUCTION (2026-07-06,
+  codex-doorb-monotone-corner-reduction): Door B's rescue margin is monotone
+  decreasing in \(T_B\). Given \(T_B\le T_+<1\), the seed-side check is one
+  corner inequality at \(T_+\), using the interior formula if \(T_+<1/6\) and
+  the high-threshold formula if \(T_+\ge1/6\). Packet signs and the upper bound
+  \(T_+\) remain to be certified.
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
