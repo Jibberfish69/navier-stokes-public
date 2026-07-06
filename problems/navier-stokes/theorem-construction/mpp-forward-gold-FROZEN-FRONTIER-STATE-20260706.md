@@ -912,6 +912,19 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   effective-exponent and no-hidden-compensator display. Remaining K3
   burdens: ChargeHomeExponent.A, PassiveL3TimeReadout.A, and
   reserve/boundary routing.
+  CODEX K3 PASSIVE L3 TIME-READOUT PAYMENT (codex-k3-passive-l3-
+  time-readout-fubini-payment): PassiveL3TimeReadout.A is paid at
+  conversion level only. If
+  \(C_j^{pass}=r_j^{-2}\int_{t_*-a r_j^2}^{t_*}
+  \int_{B_{r_j}}|u|^3\ge\varepsilon\) along a subsequence, then Fubini
+  gives \(t_j\in(t_*-a r_j^2,t_*)\), hence \(t_j\uparrow t_*\), with
+  \(\int_{B_{r_j}}|u(x,t_j)|^3dx\ge\varepsilon/a\). Thus persistent
+  passive parabolic \(L^3_{x,t}\) source produces the required terminal
+  critical time-slice \(L^3_x\) readout sequence. This does not prove the
+  ESS/Tao bounded branch, Field failure, CKN import, or K3 clearance; the
+  bounded/unbounded or non-transferring consumers remain the existing
+  standard-scope and CM face grammar. Remaining K3 burdens:
+  ChargeHomeExponent.A and reserve/boundary routing.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
   single-mode handoff); THE RETURN BUDGET ROW, now gated to the
   self-financing H row:
