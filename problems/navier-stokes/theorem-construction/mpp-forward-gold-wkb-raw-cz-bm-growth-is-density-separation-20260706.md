@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-unbounded-residual-norm-separation-product-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
 completion_truth: >-
   Exact normalization reduction only. A raw translation-invariant mean-zero
   pressure / Calderon-Zygmund kernel has scale-invariant L^2 operator norm in
@@ -26,7 +27,10 @@ completion_truth: >-
   anti-equidistribution away from the uniform cloud. Exact uniform clouds and
   density-near-uniform legal clouds still defeat the raw kernel. This proves no
   legal separation theorem, no non-raw certificate row, no construction or
-  exclusion of the WKB bath, no confinement constant, and no MPP closure.
+  exclusion of the WKB bath, no confinement constant, and no MPP closure. The
+  finite-certificate follow-up shows that finitely many bounded compatibility
+  rows do not supply the missing density separation unless they impose an
+  explicit fixed moment mismatch row.
 ---
 
 # Raw CZ norm growth is density separation, not a new payer
@@ -213,6 +217,11 @@ same-packet coupling, near-diagonal/local singularity not already typed as a
 bounded local row, boundary/collar effects, or construction/exclusion of the
 bath.
 
+Finite bounded certificate compatibility is not enough for that density
+separation. Uniform-compatible rows leave the uniform cloud legal; rows that
+force separation do so by a fixed moment mismatch, which is an explicit payer
+rather than raw pressure/CZ growth.
+
 ## 7. Four-sentence result
 
 The raw pressure/CZ kernel is bounded in the density \(L^2\) quadrature norm.
@@ -224,6 +233,7 @@ but the same conversion gives \(\|a-u\|_2^2=M^{-1}\|f-1\|_{L^2_\omega}^2\).
 Thus the product law \(B_Md_M^2\gtrsim1\) is just density-level
 anti-equidistribution, not a new raw-kernel payer. Any count-free row drift or
 stronger \(B_M\) growth must be backed by non-raw same-fluid geometry or by
-construction/exclusion.
+construction/exclusion. Finitely many bounded compatibility rows do not create
+that density gap unless they impose an explicit fixed mismatch row.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
