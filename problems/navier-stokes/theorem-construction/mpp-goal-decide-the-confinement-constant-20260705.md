@@ -578,9 +578,9 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \[
      {1\over2}\log\operatorname{Re}_D-{6\over5}\log {1\over\beta}
    \]
-   in the fixed-density branch. The remaining WKB branch is therefore
-   refreshed/reassembled, bank-retuned, high-Re-log, orthogonal-only, or
-   construction/exclusion.
+   in the fixed-density branch. Before the next two ledgers, the remaining WKB
+   branch was refreshed/reassembled, bank-retuned, high-Re-log, orthogonal-only,
+   or construction/exclusion.
    The variable-weight refresh ledger now prices the first refresh door. In a
    WKB log-window of width \(\Delta\), fixed total mixture weight \(W\), and
    \(V_w=\int\sum_i|D_tw_i|\,dt\),
@@ -591,8 +591,22 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \]
    Thus weight motion cannot supply active service in place. It is endpoint
    carrier room, \(L^1\) weight variation of the WKB population, or explicit
-   bank-log displacement. This still leaves the high-Re logarithmic reservoir,
-   Gate-8/custody pricing for refresh/reassembly, orthogonal-only service, and
+   bank-log displacement.
+   The bank-scale motion ledger prices that last term. If
+   \(z_i=\log(\lambda_iD)\) stays in a relative WKB window of width
+   \(\Delta\), and
+   \[
+     V_D=\int |D_t\log D|\,dt,
+   \]
+   then
+   \[
+     \left|\int S:K\,dt\right|
+     \le
+     W\Delta+{\Delta\over2}V_w+WV_D.
+   \]
+   Moving the bank is therefore bank log-variation, not neutral pressure
+   service. This still leaves the high-Re logarithmic reservoir, Gate-8/custody
+   pricing for refresh/reassembly and bank travel, orthogonal-only service, and
    construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
