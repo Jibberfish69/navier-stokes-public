@@ -175,6 +175,14 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     leave a vorticity-free standoff ball and need not contain a localized fresh
     octave-adjacent bottom tier. It remains the exact joint
     matrix/bath-recursion branch.
+    Follow-up overlap-bath affine-jet obstruction filed: static finite energy
+    cannot kill that survivor. The installed local/global affine-jet notes give
+    compact divergence-free realizations of any trace-free overlap strain jet
+    of size \(G\) on scale \(d\) at energy \(O(G^2d^5)\); with
+    \(G=s\beta^{4/5}\), this is exactly the cheap
+    \(E_{\rm bath}/E_{\rm prod}\lesssim\beta^{8/5}\) ratio. The overlap branch
+    is therefore dynamic: exact matrix, tracking, allocation, or a
+    summability-valid construction.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -265,7 +273,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    reuse/tracking, or PDE impossibility. The fresh-holder architecture gate
    closes only localized spatial fresh support; overlapping smooth/broadband
    bath remains live as the exact matrix / bath-recursion branch, beside reuse
-   tracking and Gate-8 allocation. The reuse tracking ledger now prices
+   tracking and Gate-8 allocation. The affine-jet import kills a static-energy
+   attack on that overlap branch: trace-free overlap strain jets have compact
+   divergence-free realizations at cost \(O(G^2d^5)\), hence the filed
+   \(\beta^{8/5}\) cheap ratio is exact at static level. The overlap branch is
+   now purely dynamic: exact matrix, tracking/allocation, or a real
+   summability-valid bath construction. The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
