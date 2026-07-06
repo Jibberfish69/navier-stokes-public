@@ -41,9 +41,11 @@ completion_truth: >-
   certification-typed: importing the classical
   Crow e-folding as lifetime gives per-encounter integrated stretch at
   most (3*sqrt(3)/8) * beta^2 * ln(1/beta), maximized in closed form at
-  beta = exp(-1/2) with value 3*sqrt(3)/(16e); whether this certifies
-  below ln 2 (single-encounter doubling exclusion) is a chapter-10
-  comparison, quarantined. (S1, sheet hunt, negative for the
+  beta = exp(-1/2) with value 3*sqrt(3)/(16e). Follow-up
+  `mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
+  certifies this normalized sidecar strictly below log 2, so it excludes
+  single-encounter doubling in that model; the full interval Crow-band
+  comparison remains quarantined. (S1, sheet hunt, negative for the
   counterexample) A free vortex sheet of jump delta-u is Kelvin-Helmholtz
   unstable with exact classical rate k*delta-u/2 at wavenumber k; at the
   sheet's own thickness the self-destruction rate exceeds any
@@ -119,6 +121,10 @@ lifetime clock, integrated stretch per encounter is at most
 \]
 
 and the doubling comparison (against ln 2) is a chapter-10 item.
+Follow-up
+`mpp-forward-gold-normalized-crow-sidecar-doubling-comparison-20260706.md`
+certifies this normalized sidecar below \(\log2\). The full interval
+Crow-band comparison remains a chapter-10 item.
 
 Same-day follow-up
 `mpp-forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705.md`
@@ -188,6 +194,7 @@ two-tube record toll \(\mathrm{TV}_{\rm evict}\ge(\log2)/3\) per
 factor-two event;
 crowd cell; continuum custody (no-free-reassembly); octave composition.
 Quarantined comparisons:
-Crow-lifetime stretch cap vs ln 2. Kill condition standing: a
+full Crow-band stretch cap vs ln 2. The normalized beta-only sidecar
+is certified below \(\log2\). Kill condition standing: a
 producing class evading both the pointwise ratio and the max floor;
 the crowd cell is the remaining hunting ground.
