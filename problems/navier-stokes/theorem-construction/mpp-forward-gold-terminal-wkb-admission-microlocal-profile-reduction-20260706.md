@@ -285,7 +285,8 @@ The next proof-bearing object is one of:
 ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
-transport-defect material-ancestry closure fork, and the finite-cover
+Reynolds-null stress characterization, and the transport-defect
+material-ancestry closure fork, and the finite-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
 cross-certificate compatibility, and the diagonal-compatibility reduction
