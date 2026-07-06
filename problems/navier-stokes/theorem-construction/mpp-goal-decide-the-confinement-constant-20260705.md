@@ -62,9 +62,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     weighted readout, not a finite payer. Same-day trigger/alias follow-ups
     block the automatic return-race, custody, and installed Gate-A/Theorem-2
     shortcuts for the pure edge. Same-day sideband-trigger obstruction:
-    the exact isolated pure edge has zero sideband/crowd coordinate. Open:
-    forced sideband/leakage/crowd contamination, route-out or exclusion of
-    the isolated pure edge, or a genuinely new unweighted high-Re
+    the exact isolated pure edge has zero sideband/crowd coordinate. Same-day
+    long-packet route-out obstruction: static finite energy/localization alone
+    cannot exclude the isolated edge, because envelope leakage can be made
+    \(o(1)\) relative to carrier production. Open: dynamic/geometric forced
+    sideband/leakage/crowd contamination, route-out or exclusion of the isolated
+    pure edge, or a genuinely new unweighted high-Re
     mechanism; Lambda_edge/Duffing sign as secondary diagnostic, custody,
     composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
@@ -518,9 +521,11 @@ the confinement constant.
    the exact isolated pure edge has \(B_{\rm sb}=0\). Sideband/crowd
    can pay only after a theorem supplies nonzero sideband mass,
    envelope/curve/core leakage, crowd contamination, or route-out/exclusion
-   of the isolated edge. Live pure-edge branch: forced
-   sideband/leakage/crowd contamination, route-out/exclusion, or a genuinely
-   new unweighted high-Re mechanism.
+   of the isolated edge. Same-day long-packet route-out obstruction:
+   static finite energy/localization alone does not supply that theorem;
+   long envelopes drive the leakage ratio to zero. Live pure-edge branch:
+   dynamic/geometric forced sideband/leakage/crowd contamination,
+   route-out/exclusion, or a genuinely new unweighted high-Re mechanism.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
@@ -538,8 +543,8 @@ the confinement constant.
    budget, fixed tolls give the counting bound
    \(N\le3B/(\lambda\log2)\). The open burden is exactly the
    TV-to-throughput transcription or a funding/crowd evasion.
-   Kill condition: no forced sideband/leakage/crowd trigger, no
-   route-out/exclusion of the isolated pure edge, no new unweighted
+   Kill condition: no dynamic/geometric forced sideband/leakage/crowd trigger,
+   no route-out/exclusion of the isolated pure edge, no new unweighted
    high-Re mechanism, and no curve-leakage payment => the pure
    neutral/curvature channel is not uniformly capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
