@@ -312,7 +312,15 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    with only finite endpoint/flooring singular mass entering
    \(B_{\rm end}^{\rm ti}\). Failure of the \(L^\infty_t\) rate or
    non-endpoint singular mass routes to boundary/locality/Gate-A
-   tax/Silver/exit, not Gold rent.
+   tax/Silver/exit, not Gold rent. CODEX OBSTRUCTION
+   (boundarytail-linfty-rate-obstruction): the current
+   suitable-solution/F3 inputs give \(L^1_t\) currencies, not an
+   \(L^\infty_t\) clock rate. The scalar spike
+   \(g_N(t)=N{\bf1}_{[0,1/N]}\) has fixed total mass and violates
+   every fixed interval-rate bound on short intervals. BoundaryTail
+   therefore needs an active-clock pointwise rate theorem, a deliberate
+   long-window average rewrite with paid bad-time/endpoint measure, or
+   route-out; it is not paid by finite tail mass.
 3. Constants: K_off = Q_W X_max S_max / (r_0(f) tau_min); tau_min >=
    sqrt(1 - m_cap)/6 (exact); Omega_R4 (drift six); D_P2^{ti}
    (displayed, sheet symbols); kappa_min, r positivity (W7).
