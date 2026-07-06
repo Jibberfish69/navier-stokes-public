@@ -101,6 +101,23 @@ F1 -> (F2 || F3) -> F4 -> F5.
   to-monomial participation theorem, or routing of cancellation
   histories to already priced parking/return/debt/tax channels.
   Do-not-cite: the static trilinear lower-bound route.
+  ROUTING ROUTE TAKEN (Fable, pending gate,
+  f1-cancellation-routing-climb-sweeps-phase): cancellation
+  histories are EXHAUSTED by two priced channels. (P1,
+  definitional) forward cancellation = zero drain = unfinanced =
+  no climb (arrival is transfer, transfer is monomial mass) =
+  ATTENUATION - the pincer's second jaw. (P2) climb-while-
+  predator-hiding: climb = amplitude motion; twist locality makes
+  triad frequencies amplitude-linear in own members; climbing
+  ROTATES every carried phase (the un-parking law: d phi_t/d ln A
+  >= 1 deep; sweep >= f per extraction f) - a pose cannot be held
+  while dancing. OWED (v1 = THE remaining F1 population content):
+  the phase-sweep participation floor displayed at the predator
+  slot (Section-4 computation for Theta_pred; per climb quantum,
+  (Re M_pred)_+ collects a displayed fraction of Bernstein x
+  G_floor). Gaps: v2 uniformity over the populated class; v3
+  "climb" = the pincer's rung-readout climb (W-II interface); v4
+  finite-chain scope, W-0 unchanged.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
