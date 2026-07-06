@@ -344,6 +344,20 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     in the \(q=4/5\) pressure row requires
     \(\phi\theta^2\lesssim\beta^{12/5}\); in the coherent case this is
     \(\ell/D\lesssim\beta^{6/5}\), with a strengthened high-Re cascade edge.
+    Follow-up Reynolds-edge refresh dichotomy filed: low Reynolds pays an
+    order-one refresh bill, the middle corridor has explicit row
+    \(\phi\beta^{-8/5}/\operatorname{Re}_D\), and only
+    \(\operatorname{Re}_D\gg\phi\beta^{-12/5}\) remains as the persistent
+    fine/sparse high-Re cascade branch.
+    Follow-up fine/sparse Beltrami self-drift obstruction filed: the shortcut
+    "fine scale plus large gradient forces self-eviction by fast turnover" is
+    false at exact local/periodic level. For Beltrami fields,
+    \((b\cdot\nabla)b=\nabla(|b|^2/2)\), so the projected nonlinearity vanishes;
+    if the field is a Laplacian eigenmode, Navier-Stokes only applies viscous
+    decay. Same-eigenvalue Beltrami superpositions can have nonzero pressure
+    Hessian, so the persistent high-Re branch must be decided by localization,
+    moment matching, same-fluid coupling, compensator routing, or
+    construction/exclusion.
     Follow-up fixed-density compensator routing reduction filed: in the
     beta-small overlap regime, the fixed-density deficit is comparable to the
     producer-throughput measure,
@@ -474,7 +488,15 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    needs \(\delta_D/s\gtrsim\beta^{-4/5}\). The supercritical-residual scale
    split says coherent moderate residuals already pay order-one energy, while
    q-row hiding forces \(\phi(\ell/D)^2\lesssim\beta^{12/5}\), hence a
-   fine/sparse high-Re cascade or Reynolds edge. The reuse
+   fine/sparse high-Re cascade or Reynolds edge. The Reynolds-edge refresh
+   dichotomy converts low Reynolds to an order-one refresh payer, gives the
+   middle row \(\phi\beta^{-8/5}/\operatorname{Re}_D\), and leaves only
+   \(\operatorname{Re}_D\gg\phi\beta^{-12/5}\) as persistent high-Re cascade.
+   The Beltrami self-drift check kills the fast-turnover shortcut against that
+   last branch: exact Beltrami pockets have zero projected self-advection and
+   decay only on the viscous clock, while still admitting nonzero pressure
+   Hessian through \(|b|^2\). The remaining branch is localization, moment
+   matching, same-fluid coupling, compensator routing, or construction/exclusion. The reuse
    tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
