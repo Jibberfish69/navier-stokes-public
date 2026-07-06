@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-many-cell-wkb-quantization-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-atomic-wkb-prelimit-quantization-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
 completion_truth: >-
   Exact criterion and countermodel only. The earlier unbounded-cloud direct
   test killed the same-cell square reserve \(\sum_b A_{j,b}^2\). This note
@@ -25,10 +26,15 @@ completion_truth: >-
   to zero, near-minimizing clouds retain total selected moment while the
   cross-cell square charge tends to zero, so the proposed cross-cell theorem
   fails by near-null fragmentation. Orthogonality, diagonal square sums, finite
-  range, or unsigned packet counting do not supply this gap; only an actual
-  Navier-Stokes interaction/uncertainty Gram gap tied to same-packet identity
-  and legal certificates can. This proves no such PDE gap, no WKB construction
-  or exclusion, no confinement constant, and no MPP closure.
+  range, unsigned packet counting, or the raw mean-zero pressure kernel do not
+  supply this gap. The pressure-kernel zero-mode follow-up proves that a
+  translation-invariant mean-zero pressure/Calderon-Zygmund kernel has the
+  uniform positive cloud in its zero mode: the kernel-only quadratic charge is
+  zero, with bounded diagonal corrections vanishing like 1/M. Only an actual
+  Navier-Stokes interaction/uncertainty Gram gap tied to admissible-cone
+  restrictions, same-packet identity, and legal certificates can remain. This
+  proves no such PDE gap, no WKB construction or exclusion, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB cross-cell square coercivity: Gram-gap criterion
@@ -163,11 +169,28 @@ The same decay holds for finite-range or uniformly bounded-row interaction
 kernels against uniform fragmentation. Such kernels see many small packets as
 many small orthogonal deposits.
 
+The pressure kernel alone also points the wrong way. The pressure Hessian
+kernel has angular mean zero. In the kernel-only translation-invariant model,
+the uniform positive cloud is the zero Fourier mode, so
+\[
+  \int\!\!\int K(x-y)\,d\rho_0(x)d\rho_0(y)=0 .
+  \tag{CG.12a}
+\]
+The finite cloud version has the same obstruction: if the pressure-kernel Gram
+matrix has zero row sums, the uniform cloud \(a_b=1/M_j\) gives
+\[
+  a^TG_ja=0,
+  \tag{CG.12b}
+\]
+and bounded diagonal self-cell corrections vanish like \(1/M_j\). Thus the raw
+mean-zero Calderon-Zygmund kernel is not the all-to-all positive charge needed
+for (CG.6).
+
 A cross-cell rescue needs a genuinely coherent positive interaction: the Gram
 form must act like a positive all-to-all charge on the selected positive cone,
 or the admissible cone must be restricted by a PDE uncertainty law that forbids
 near-null fragmentation. That is extra Navier-Stokes structure, not a counting
-fact.
+fact and not a pressure-kernel-only fact.
 
 ## 5. Consequence for the unbounded WKB branch
 
@@ -189,7 +212,7 @@ The unbounded-count atomic cloud now has this split:
 So the live theorem cannot be phrased as "use cross-cell coercivity" without
 the actual Gram gap. The missing input is now:
 \[
-  \text{CrossCellWKBGramGap.A}
+  \text{CrossCellWKBGramGap.A beyond the raw pressure kernel}
   \quad\text{or}\quad
   \text{profile admission / construction-exclusion}.
   \tag{CG.14}
@@ -200,11 +223,12 @@ the actual Gram gap. The missing input is now:
 The same-cell square reserve is already false for an unbounded WKB cloud, so
 any square rescue must come from cross-cell interaction. Such a rescue is
 exactly a uniform positive lower bound for the actual interaction Gram matrix
-on the normalized admissible positive cloud cone. If that Gram gap is absent,
-near-null clouds keep total selected moment while their cross-cell square
-charge tends to zero. Therefore the remaining cross-cell branch is a real
-Navier-Stokes interaction/uncertainty Gram-gap theorem, or it falls back to
-profile admission, typed escape, or construction/exclusion.
+on the normalized admissible positive cloud cone. Orthogonality, finite-range
+interaction, and the raw mean-zero pressure kernel all admit uniform or
+near-uniform positive clouds with vanishing quadratic charge. Therefore the
+remaining cross-cell branch is a real Navier-Stokes admissibility /
+same-packet / certificate Gram-gap theorem, or it falls back to profile
+admission, typed escape, or construction/exclusion.
 
 ## 7. State
 
