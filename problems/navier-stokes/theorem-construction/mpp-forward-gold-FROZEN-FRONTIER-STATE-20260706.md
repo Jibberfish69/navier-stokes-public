@@ -1473,3 +1473,30 @@ supersession, it is:
 2. the B3 marginal-bath trichotomy;
 3. F5 assembly after the Chapter-10 packet and surviving W0-B suppliers are
    actually paid or routed.
+
+## 14. Codex F5 assembly scope audit (2026-07-06)
+
+Codex filed
+`mpp-forward-gold-codex-f5-assembly-scope-audit-20260706.md`.
+This is a strict scope audit, not proof progress and not manuscript
+completion.
+
+The pasted Fable "display queue empty / pure wait" report is already consumed
+by the installed source as a filed-display state, not a gate-clearance state.
+It does not make Chapter 10 immediately executable and does not make F5 a live
+analytic theorem.
+
+F5 is the assembly manuscript plus Codex gates end to end. It starts only after
+the upstream rows it consumes are actually paid, certified, or routed:
+
+1. F1 actual-NS / pass-tail / finite-row interfaces;
+2. the F4 / Chapter-10 seed-product packet;
+3. W0-A selected same-fluid handoff production;
+4. W0-B surviving lineage suppliers: Door-A/deep-route fresh-source wall when
+   used, plus the B3 marginal-bath trichotomy;
+5. manuscript chapter gates in their current, non-superseded form.
+
+Thus there is no standalone F5 proof gate to attack right now. Direct F5 work
+before these rows exist is assembly/manuscript support, not theorem progress.
+
+No F4, Chapter-10, W0, F5, manuscript, gate, or MPP closure is claimed.
