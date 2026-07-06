@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-gram-gap-anti-equidistribution-necessary-condition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-beltrami-localization-cell-count-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-uniform-mode-charge-compensator-reduction-20260706.md
 completion_truth: >-
   Exact local countermodel to one possible proof route, not a full WKB
   construction, not a dense-crowd theorem, and not a confinement-constant
@@ -27,6 +28,9 @@ completion_truth: >-
   surviving gap must use a genuinely global same-packet restriction: common
   material identity, law/ancestry/cover/tower certificates, non-translation
   geometry, a positive uniform-mode charge, or actual construction/exclusion.
+  The positive uniform-mode alternative is not a local-cell theorem either; the
+  uniform-mode follow-up prices it as a rank-one payer / fixed-density branch
+  in the pressure-service overlap bath.
   This proves no actual same-solution near-uniform WKB bath and no MPP closure.
 ---
 
@@ -158,7 +162,7 @@ omitted from the replicated local model:
 - common material packet identity across the cloud;
 - actual pressure-law, ancestry, cover, or tower certificate coupling;
 - a non-translation-invariant geometry that creates a positive uniform-mode
-  charge;
+  charge, priced as a rank-one payer rather than as local legality;
 - a quantitative theorem that same-solution WKB clouds cannot be near-uniform;
 - or actual construction/exclusion of the near-uniform WKB bath.
 
