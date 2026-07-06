@@ -136,13 +136,16 @@ budget:
 \[
   \text{high-Re edge}
   \Rightarrow
-  \text{return-race, custody, sideband/crowd, or Gate-A/Theorem-2 allocation}.
+  \text{sideband/crowd, Gate-A/Theorem-2 allocation,}
+  \quad\text{or trigger-production for return-race/custody}.
   \tag{K5R.9}
 \]
 
 Here Gate-A/Theorem-2 allocation means a genuine theorem that turns the
-weighted readout into a uniform payer. The raw identity
-\(\int\mathcal P\sim\operatorname{Re}A_0\) does not do that.
+weighted readout into a uniform payer. Return-race and custody likewise mean
+genuine trigger-producing theorems: financed handoff for return-race, and
+reassembly/refresh/destruction/delivery for custody. The raw identity
+\(\int\mathcal P\sim\operatorname{Re}A_0\) supplies none of those triggers.
 
 ## 5. Four-sentence result
 
@@ -150,5 +153,6 @@ On the high-Re edge, total viscous dissipation is only \(O(A_0)\), while total
 edge production is \(O(\operatorname{Re}_\Gamma A_0)\). The Reynolds factor is
 therefore not a packet budget; it is the residence/readout weight already
 identified in Gate A. So a raw same-packet Reynolds budget cannot pay the
-high-Re edge. The remaining payers are return-race, custody, sideband/crowd, or
-a real Gate-A/Theorem-2 allocation theorem that removes the raw weight.
+high-Re edge. The remaining branch is sideband/crowd, a real Gate-A/Theorem-2
+allocation theorem that removes the raw weight, or a theorem that first creates
+the return-race or custody trigger.
