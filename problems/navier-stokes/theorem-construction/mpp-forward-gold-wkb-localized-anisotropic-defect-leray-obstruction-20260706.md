@@ -193,8 +193,8 @@ A localized anisotropic WKB Reynolds defect is not just pressure. For
 supported, \(\operatorname{div}R=Q\nabla\chi\) has nonzero curl in every
 possible compactly supported case, hence its Leray projection is nonzero. This
 applies to localized Beltrami shapes \(Q_n=I/3-n\otimes n\). The remaining
-pressure-law escape is multi-stress cancellation, legal carriage of the defect,
-or typed actual-law/tower failure.
+pressure-law escape is Leray-null aggregation, legal carriage of the defect, or
+typed actual-law/tower failure.
 
 ## 7. State
 
