@@ -41,14 +41,20 @@ first, and no schedule may presume it.
 Pair cell: floor 8*sqrt(3)/9 (max form), pointwise ratio cot(2*alpha),
 skew sector production-dead, eviction pumps into it. Sheet cell
 dominated (KH clock). Self-cell reduced to pair (LIA length
-conservation). Regular-symmetry classes imprisoned. Open: kill
-integral, crowd cell, custody, composition.
+    conservation). Regular-symmetry classes imprisoned. Kill integral:
+    Crow interior cap reduced; direct K5 pure-mode growing-band feed
+    coefficient is zero by wavenumber selection; the remaining edge
+    channel is mean detuning or sideband/crowd coupling. Open: mean
+    detuning, crowd cell, custody, composition.
 
 ## Work order (each unit: output + kill condition)
 
-1. KILL INTEGRAL. Integrated stretch per pair encounter, closed form
-   under the exact kernel + Crow linear theory. Kill condition:
-   unbounded integral on an evasion channel => per-encounter tax dead.
+1. KILL INTEGRAL / K5 MEAN DETUNING. Integrated stretch per pair
+   encounter under the exact kernel + Crow linear theory. The direct
+   pure-mode second-order feed is obstructed; compute the mean-detuning
+   coefficient at the band edge. Kill condition: a neutral producing
+   mode whose mean detuning does not move it into the unstable side =>
+   per-encounter tax dead on the edge channel.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
