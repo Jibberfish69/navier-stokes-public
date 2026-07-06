@@ -606,9 +606,19 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
      W\Delta+{\Delta\over2}V_w+WV_D.
    \]
    Moving the bank is therefore bank log-variation, not neutral pressure
-   service. This still leaves the high-Re logarithmic reservoir, Gate-8/custody
-   pricing for refresh/reassembly and bank travel, orthogonal-only service, and
-   construction/exclusion.
+   service.
+   The orthogonal-service quarantine then removes the zero-contraction branch
+   from the active WKB supplier list. If
+   \[
+     K={S:K\over |S|^2}S+K_\perp,
+     \qquad S:K_\perp=0,
+   \]
+   the active row consumes only \(S:K\). For a Beltrami mixture,
+   \(S:K=\sum_iw_iD_t\log\lambda_i\), so an orthogonal-only bath has zero
+   active scalar service and routes to angle/eigenpath work, not WKB
+   active-service supply.
+   This still leaves the high-Re logarithmic reservoir, Gate-8/custody pricing
+   for refresh/reassembly and bank travel, and construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
