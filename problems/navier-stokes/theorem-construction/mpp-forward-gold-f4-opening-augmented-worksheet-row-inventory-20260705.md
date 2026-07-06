@@ -81,6 +81,8 @@ completion_truth: >-
 
 Codex gate filed:
 `mpp-forward-gold-codex-f4-worksheet-rent-row-consolidation-20260705.md`.
+Envelope notation gate filed:
+`mpp-forward-gold-codex-f4-rent-envelope-cell-length-gate-20260705.md`.
 
 The worksheet inventory is accepted as the current F4 row freeze, with
 one correction to W4. The rent row is not an independently funded
@@ -105,6 +107,12 @@ with
 The product length threshold correspondingly carries \(+B_{P2}\) in
 the numerator and \(R_{\rm prod}^{F4}\) in the denominator. No
 positivity or interval arithmetic is claimed.
+
+Cell-length guard: the \(|I|\) in the two-coin rent formula is the
+local retained episode length \(|I_i|\). The F4 row is linear only
+after summing local cell lengths with bounded overlap/time-density.
+The reading "whole worksheet window times \(N_{\rm cells}\)" is
+rejected because it would make W4 quadratic and re-open the sheet.
 
 # F4 opening: the sheet, written the night before
 
