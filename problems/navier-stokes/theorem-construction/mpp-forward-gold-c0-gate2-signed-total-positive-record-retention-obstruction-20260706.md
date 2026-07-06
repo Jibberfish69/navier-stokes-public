@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-gate2-signed-total-positive-record-retention-obstruction-20260706
-status: checked-gate2-obstruction-normalized-relay-compactness-needs-strict-cycle-coercivity
+status: regraded-gate2-positive-record-retention-open-cycle-language-not-physical-ontology
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 2
@@ -14,7 +14,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
 completion_truth: >-
-  Gate 2 proof attempt. The four-body/full-tower source proves signed adjacent
+  REGRADE 2026-07-06: the positive-record retention gap remains open, but the
+  reversible cycle ontology is withdrawn by
+  mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md.
+  The correct physical reading is cumulative irreversible thickness-or-charge:
+  a positive record leg must be retained in same-parent bill currency, paid by
+  irreversible NS cost, or routed out. OLD SOURCE-STRICT GAP BELOW REMAINS AS
+  AN ALGEBRAIC WARNING: Gate 2 proof attempt. The four-body/full-tower source proves signed adjacent
   exchange identities and net cancellation after summing the four simultaneous
   packet readings. The relay record is total positive variation. Signed net
   cancellation does not control total positive variation unless every positive
