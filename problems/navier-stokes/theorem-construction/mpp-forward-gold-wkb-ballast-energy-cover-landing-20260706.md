@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
 completion_truth: >-
   Strict reduction only. The positive trace ballast mu_R=(1/2)tr R is a scalar
   positive profile measure. Therefore it has the same cover legality burden as
@@ -22,10 +23,11 @@ completion_truth: >-
   closed overlap/readout relations, or the ballast has lost Pack-side carrier
   service. Projecting away the cover while retaining positive ballast energy
   gives an observable positive measure outside the legal witness class. This
-  proves no uniform finite-cover theorem for actual Navier-Stokes WKB ballast,
-  no legal carriage theorem through material ancestry or tower, no WKB profile
-  admission theorem, no WKB construction/exclusion theorem, no confinement
-  constant, and no MPP closure.
+  note prices only the cover row; the parallel ancestry/tower landing prices
+  the two Part-side rows. This proves no uniform finite-cover theorem for actual
+  Navier-Stokes WKB ballast, no legal carriage theorem through material ancestry
+  or tower, no WKB profile admission theorem, no WKB construction/exclusion
+  theorem, no confinement constant, and no MPP closure.
 ---
 
 # Positive Reynolds ballast must land on the finite cover
@@ -132,7 +134,9 @@ otherwise the branch is Pack-side cover failure or another row failure.
 
 This does not prove the finite cover exists for actual Navier-Stokes WKB
 ballast. It removes one possible misrouting: positive ballast energy cannot be
-retained as an uncovered pressure-null residue.
+retained as an uncovered pressure-null residue. The separate ballast
+ancestry/tower landing records the matching Part-side obligations after the
+cover row.
 
 ## 6. Four-sentence result
 
