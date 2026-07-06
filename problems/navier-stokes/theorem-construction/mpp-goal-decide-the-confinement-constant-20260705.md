@@ -662,6 +662,13 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    persistence with Field witness admission, native-reserve scale births,
    Gate-8/custody pricing for refresh/reassembly and bank travel, slow
    angle/eigenpath service, and construction/exclusion.
+   The terminal WKB admission/profile reduction then makes the Field witness
+   admission clause exact: either extract actual same-solution WKB carriers
+   with material packets, finite overlap, carrier heredity, actual
+   pressure-Hessian moment, and same-law tower; or admit the microlocal/WKB
+   defect profile itself as a terminal witness ledger. If neither is available,
+   the branch is construction/exclusion or limit-of-class /
+   original-participation failure, not retained WKB supply.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
