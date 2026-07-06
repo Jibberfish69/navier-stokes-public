@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-signed-cycle-kernel-no-go-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -38,7 +39,11 @@ completion_truth: >-
   four-body cancellation to positive-record retention;
   chapter-2 closedness is finite-readout/conditional rather than tight no-loss
   passage of the selected positive record; and signed-height record-net work
-  admission still lacks native same-parent edge admission/storage. So this pass
+  admission still lacks native same-parent edge admission/storage; and the
+  parent-owned positive-record bill-currency reduction shows that all three
+  record escapes disappear if the pre-readout native menu, detector
+  faithfulness, exact-projector admission, and B-currency storage package is
+  proved. That package is explicitly open in the allowed sources. So this pass
   does not close c_0 or the repo; it reduces closure to one exact
   compactness-and-record theorem and names the current escape routes for a
   vanishing-bill sequence. The first failed gate is now Gate 2.
@@ -260,6 +265,23 @@ clause is the unproved covering map from every full-tower positive channel in
 `(FTR.10)` to that pre-readout root-payment dialect, strict payment, or legal
 residual. Therefore the Opus/root-payment input sharpens Gate 2; it does not
 discharge it.
+
+The stronger local reduction is now named as
+
+```math
+\texttt{ParentOwnedPositiveRecordBillCurrency.A}.
+\tag{CEE.9b}
+```
+
+It says that the positive record has a preannounced same-parent native work
+menu, detector faithfulness/root-full-exchange visibility or silent-service
+payment before readout, exact-projector chart admission, and storage in
+\(B=dE^{Field}+dA_{4B}+dVisc\) currency. If `(CEE.9b)' holds, then a normalized
+sequence with \(R(W_j)=1\) and \(B(W_j)\to0\) cannot exist, so the normalized
+passage theorem holds in the stronger coercive form \(B\gtrsim R\). The allowed
+sources prove the native-coordinate/admission identity at finite truncation,
+but leave detector faithfulness, exact-projector admission, and B-currency
+storage open.
 
 ### Gate 3: no-loss passage at the tower-record level
 
