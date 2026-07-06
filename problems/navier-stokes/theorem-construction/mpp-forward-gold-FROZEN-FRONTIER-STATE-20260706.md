@@ -299,6 +299,24 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
 
 ## 4. The LIVE OPEN OBJECTS (everything that remains, by name)
 
+**Confinement-constant / near-uniform WKB bath branch:**
+- CODEX MATERIAL-TIME LIOUVILLE BATH REDUCTION (2026-07-06,
+  codex-material-time-liouville-bath-reduction): after finite
+  certificate rows, high-rank linear rows, bounded residual Gram forms,
+  and finite-range nonlinear laws have been priced, the phrase
+  "genuinely nonlocal same-packet law" is no longer a separate hidden
+  supplier on the near-uniform WKB bath branch. If the positive density
+  gap around the uniform bath fails, and service modulus + phase-label
+  tightness + certificate compactness hold, weak-* compactness produces a
+  certified material-time marginal bath profile: positive normalized
+  strain-service with vanishing native heat/square charge. Excluding that
+  profile is exactly the canonical material-time Liouville route on this
+  branch; constructing it is the corresponding failure/existence branch.
+  If compactness or a certificate row fails first, the failure routes to
+  the already filed Pack/Part/selector/custody faces. No density gap,
+  no Liouville theorem, no WKB construction/exclusion, no confinement
+  constant, and no F4/F5/MPP closure is proved by this reduction.
+
 **Seed side (W1 rescue) — three structural doors:**
 - (A) THE WALL: MacroFreshAdmissionProducer = the finite-window form
   of the fresh-source wall (CriticalFreshSourceTentCarleson.A /
