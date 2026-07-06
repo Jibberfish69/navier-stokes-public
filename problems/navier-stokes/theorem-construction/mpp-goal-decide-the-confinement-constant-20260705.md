@@ -768,8 +768,11 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    The product-lift gluing theorem then proves that simultaneous lift is
    automatic from rowwise lifts over the same observable marginal when no
    cross-row relation is imposed. Thus the residual product-line object is
-   `WKBCrossCertificateCompatibility.A`: the law, ancestry, cover, and tower
-   certificates must describe the same prelimit packet/cloud.
+   same-packet identity custody. The cross-certificate diagonal reduction
+   proves that compatibility is closed once the certificates share one compact
+   common packet identity coordinate. The remaining product-line burden is
+   `WKBCommonPacketIdentityCompactness.A`, or else the first incompatible
+   coordinate routes to Pack/Part/Field.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;

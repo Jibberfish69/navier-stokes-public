@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-moment-continuity-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-certificate-product-lift-gluing-theorem-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-certificate-diagonal-compatibility-reduction-20260706.md
 completion_truth: >-
   Conditional assembly theorem only. This note proves that
   WKBCertificateCompactness.A has no remaining independent topological content
@@ -38,11 +39,13 @@ completion_truth: >-
   gluing theorem sharpens the residual line: rowwise lifts over the same
   observable marginal glue automatically by disintegration and conditional
   product when no cross-row relation is imposed. The remaining same-packet
-  burden is cross-certificate compatibility among law, ancestry, cover, and
-  tower coordinates. This note does not prove any of the four certificate rows
-  for actual Navier-Stokes WKB packets, does not prove cross-compatibility, does
-  not prove profile construction or exclusion, does not decide the confinement
-  constant, and does not close the MPP.
+  burden is then reduced by the diagonal-compatibility note to compactness of a
+  common packet identity coordinate over which law, ancestry, cover, and tower
+  certificates are all closed. This note does not prove any of the four
+  certificate rows for actual Navier-Stokes WKB packets, does not prove common
+  packet identity compactness, does not prove profile construction or
+  exclusion, does not decide the confinement constant, and does not close the
+  MPP.
 ---
 
 # WKB certificate compactness assembles from four rows
@@ -234,15 +237,16 @@ WKBReynoldsDefectVanishesOrCertified.A
 WKBTransportDefectVanishesOrCertified.A
 WKBFiniteCoverCertificateCompactness.A
 WKBTowerDefectVanishesOrCertified.A
-WKBCrossCertificateCompatibility.A
+WKBCommonPacketIdentityCompactness.A
 ```
 
 The last line is the sharpened form of the previous product-lift residual.
 Rowwise lifts over the same observable marginal glue automatically by
 disintegration and conditional product when no cross-row relation is imposed.
-It says that the law, ancestry, cover, and tower certificates describe the
-same prelimit WKB packet/cloud. If cross-compatibility fails, the first
-incompatible coordinate routes by (ASS.12)-(ASS.15).
+Cross-certificate compatibility is then the diagonal over one compact common
+packet identity coordinate. If that identity coordinate fails to compactify or
+one row cannot be tied to it, the first incompatible coordinate routes by
+(ASS.12)--(ASS.15).
 
 ## 6. Four-sentence result
 
@@ -255,14 +259,17 @@ first loss is a typed Pack or Part failure; if all coordinates persist with the
 high-Sobolev readout, the installed Field consumer applies. The remaining work
 is to prove or refute the four row-level certificates and same-packet
 cross-certificate compatibility for actual Navier-Stokes WKB packets.
+The diagonal-compatibility reduction sharpens this last phrase further:
+cross-certificate compatibility follows once the common packet identity
+coordinate compactifies with closed row maps.
 
 ## 7. State
 
 This note proves the conditional assembly of `WKBCertificateCompactness.A` from
 the four certificate rows, certified product lifts, and same-packet
-cross-compatibility.
+common-identity compatibility.
 
 It proves no row-level defect vanishing or legal carriage theorem for actual
-Navier-Stokes WKB packets, no cross-certificate compatibility theorem, no
+Navier-Stokes WKB packets, no common-packet identity compactness theorem, no
 profile construction/exclusion theorem, no confinement constant, and no MPP
 closure.

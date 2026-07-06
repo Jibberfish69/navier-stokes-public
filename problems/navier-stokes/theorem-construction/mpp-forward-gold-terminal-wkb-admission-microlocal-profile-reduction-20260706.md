@@ -268,7 +268,8 @@ the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 transport-defect material-ancestry closure fork, and the finite-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
-cross-certificate compatibility
+cross-certificate compatibility, and the diagonal-compatibility reduction
+reducing that residue to common-packet identity compactness
 WKBConstructionOrExclusion.A
 ```
 
