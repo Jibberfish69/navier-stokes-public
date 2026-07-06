@@ -287,6 +287,17 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     supercritical branch; surviving fast-motion pressure payment is global
     pressure/Hodge matching, boundary/locality forcing, Reynolds-edge failure,
     or construction/exclusion.
+    Follow-up Schwartz pressure-template locality obstruction filed: the
+    divergence-free finite-energy template
+    \(v=(\partial_2,-\partial_1,0)(x_1x_2x_3e^{-|x|^2/2})\) vanishes to first
+    order at the producer and generates pressure Hessian
+    \((106/1155)\operatorname{diag}(-1,-1,2)\). Rotations and nonnegative
+    weights span every trace-free Hessian, and scaling gives
+    \(E_{\rm ph}\lesssim |K|D^5\), hence the q=4/5 row for overlap pressure.
+    Thus static finite-energy pressure/Hodge localization is not the missing
+    payer; the live pressure branch is dynamic same-fluid transport/persistence,
+    Reynolds-edge failure, fixed-density compensator/residue, or
+    construction/exclusion.
     Follow-up reuse tracking ledger filed: Kelvin plus Biot-Savart prices
     localized reuse supply growth by five channels - approach, geometry-work,
     transport-in, own amplification, and viscosity. Approach has finite
@@ -401,7 +412,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    \(s(D/R)\sqrt H\), which stays inside \(H\sim s^2\beta^{4/5}\) when
    \(D/R\lesssim\beta^{2/5}\). Therefore the exact matrix must use
    the Reynolds-edge bridge, fixed-density compensator/residue,
-   global supercritical fast-motion forcing/admissibility, or a real
+   dynamic same-fluid pressure-bank transport/persistence, or a real
    summability-valid bath construction,
    not a pointwise affine, generic collar, source-mean, constant-persistence,
    constant-producer-coupling, producer-clock tracking, or generic curvature

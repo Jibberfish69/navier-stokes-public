@@ -26,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-pressure-template-locality-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -75,7 +76,12 @@ completion_truth: >-
   forcing branch: the same-shape affine history has the q=4/5 Hessian size but
   only beta^(4/5) normalized Hessian motion. The remaining fast-motion branch is
   global pressure/Hodge matching, boundary/locality forcing, Reynolds-edge
-  failure, or construction/exclusion.
+  failure, or construction/exclusion. Follow-up Schwartz pressure-template
+  locality obstruction kills static finite-energy localization as that global
+  branch: a divergence-free finite-energy bank supplies any trace-free Hessian
+  at |K|D^5 while vanishing to first order at the producer. The remaining
+  pressure branch is dynamic same-fluid transport/persistence, Reynolds-edge
+  failure, fixed-density compensator/residue, or construction/exclusion.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -306,15 +312,14 @@ retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
 
 The remaining exact-matrix burden is now sharper:
 
-- localization of the pressure-source cell into the producing field, including
-  the Reynolds threshold
+- dynamic same-fluid transport and persistence of the pressure-source cell,
+  including the Reynolds threshold
   \(\operatorname{Re}_R=sR^2/\nu\gg\beta^{-4/5}\) for nonconstant producer
   curvature, or a bridge from threshold failure to record-ladder payment;
-- nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
 - Gate-8 no-recount allocation of pressure service into record-ladder
   currency, or a positive compensator/residue;
-- global supercritical fast-motion forcing/admissibility, if nonlocal
-  pressure/Hodge matching or boundary/locality requires
+- global supercritical fast-motion forcing/admissibility, if dynamic
+  same-fluid transport or locality over time requires
   \(|\dot K|/|K|\gtrsim s\beta^{-4/5}\);
 - beta-depth admissibility for finite-depth or growing-depth schedules;
 - or an actual dynamic bath construction satisfying the summability criterion
@@ -337,4 +342,4 @@ so the pressure-source service costs \(\beta^{4/5}E_{\rm prod}\), while the
 quadratic part remains \(\beta^{8/5}E_{\rm prod}\). The live matrix now carries
 a \(q=4/5\) pressure row; any proof or construction has to decide that row
 through a Reynolds-edge bridge, fixed-density compensator/residue,
-global supercritical fast motion, or construction.
+dynamic same-fluid transport/persistence, or construction.

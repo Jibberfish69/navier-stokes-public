@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-shear-cell-fast-direction-tracking-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-pressure-template-locality-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and local obstruction, not a global bath construction, not a
   dense-crowd theorem, and not a confinement-constant decision. The
@@ -30,9 +31,10 @@ completion_truth: >-
   below beta^(-4/5). The exact shear-cell bank supplies this K_tf(t) at the
   same |K|D^5 cost. Therefore no local affine/pressure-Hessian matrix theorem
   can force supercritical motion. Any surviving fast-motion payer must be a
-  genuinely global same-fluid effect: nonlocal pressure/Hodge matching,
-  boundary/locality side terms, Reynolds-edge failure, or construction
-  exclusion.
+  genuinely dynamic same-fluid effect: transport or persistence of the service
+  bank, Reynolds-edge failure, or construction exclusion. Follow-up Schwartz
+  pressure-template locality obstruction kills static finite-energy
+  pressure/Hodge localization as the missing payer.
 ---
 
 # Overlap bath: local supercritical-motion obstruction
@@ -208,8 +210,8 @@ record ladder.
 
 The remaining fast-motion branch is now global:
 
-- nonlocal pressure/Hodge matching may force faster motion than the local jet;
-- boundary/locality side terms may force a supercritical tracking relation;
+- dynamic same-fluid transport or persistence of the pressure-service bank may
+  force faster motion than the local jet;
 - Reynolds-edge failure may suppress the producer or create a record-ladder
   payment;
 - otherwise a summability-valid dynamic pressure bath below the threshold
@@ -230,5 +232,5 @@ but its normalized motion is only
   \omega/s\lesssim\beta^{4/5}.
 \]
 The exact shear-cell bank supplies that Hessian at the same \(q=4/5\) cost, so
-the supercritical-motion payer must be global or absent: nonlocal Hodge
-matching, boundary/locality, Reynolds-edge failure, or construction/exclusion.
+the supercritical-motion payer must be dynamic or absent: service-bank
+transport/persistence, Reynolds-edge failure, or construction/exclusion.
