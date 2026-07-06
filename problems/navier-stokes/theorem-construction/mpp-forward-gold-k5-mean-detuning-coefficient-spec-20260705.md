@@ -45,6 +45,12 @@ completion_truth: >-
 
 Codex gate filed:
 `mpp-forward-gold-codex-k5-mean-detuning-regate-20260705.md`.
+Same-day correction carried by
+`mpp-forward-gold-k5-log-seed-obstruction-pure-normal-form-20260705.md`:
+even a favorable finite sign gives nonlinear self-exit and hence a
+\(\log(A_{\rm exit}/A_0)\) seed divergence. Positive
+\(\operatorname{Re}\Lambda_{\rm edge}\) is not a seed-independent K5
+cap.
 
 Accepted: direct pure-mode growing-band feed is dead by wavenumber
 selection; the surviving pure-mode question is an edge-amplitude
@@ -71,7 +77,8 @@ then the finite sign computation
 \[
   \operatorname{Re}\Lambda_{\rm edge}>0
 \]
-is open. No pair-cell kill-integral closure is claimed.
+is open, but no sign outcome by itself closes the seed-independent
+pair-cell cap. No pair-cell kill-integral closure is claimed.
 
 # K5 retyped: the mean-detuning coefficient
 
