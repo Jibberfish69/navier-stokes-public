@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-combined-instantaneous-eviction-floor-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-two-tube-record-doubling-tv-toll-20260705.md
 completion_truth: >-
   Exact conditional lifetime reduction on the leading-order two-tube
   profile, not a duration cap and not a full-family constant. If an
@@ -26,7 +27,9 @@ completion_truth: >-
   variation is not itself bounded or consumed by the record economy.
   Remaining gates: curve-profile persistence, off-profile/core
   corrections, high-Re neutral-edge timing, custody/return-race budget,
-  crowd/bath interaction, and octave composition. No per-encounter cap,
+  crowd/bath interaction, and octave composition. SAME-DAY COROLLARY:
+  any record-doubling event in this episode class pays
+  TV_Evict >= (log 2)/3. No per-encounter cap, record starvation theorem,
   confinement-constant decision, or MPP closure is claimed.
 ---
 
@@ -118,3 +121,11 @@ time-cancellation inside that TV currency because reversal adds path
 length instead of subtracting it. The remaining K3 burden is not
 cancellation; it is bounding or consuming the total eviction variation
 through duration, high-Re timing, custody, crowds, and composition.
+
+Same-day corollary
+`mpp-forward-gold-k3-two-tube-record-doubling-tv-toll-20260705.md`
+turns this into record currency: a factor-two record rise requires
+\[
+\mathrm{TV}_{\rm evict}\ge(\log2)/3.
+\]
+This is a toll floor, not a starvation theorem.
