@@ -187,6 +187,18 @@ F1 -> (F2 || F3) -> F4 -> F5.
   remains reduced, not cleared: after Gate-7 z1/z2-domination/z2-energy/
   z3-for-F1/z4, the live proof-theorem residue is z5 pass-side tail
   charging plus carried finite rows and Chapter 10.
+  Codex regates Fable's "one theorem, two consumers" synthesis as a
+  two-projection shared tail-envelope package:
+  `PassTailEnvelope.A`. The F1 z5 tail and the product BoundaryTail row
+  share the parent pass-side non-retained tail measure
+  \(\mathfrak T_{\rm pass}\), but the product consumer needs the
+  time-marginal \(L^\infty_t\) rate
+  \(m_{\rm time}(I)\le D_{\rm tail}^{\rm ti}|I|+B_{\rm end}^{\rm ti}\),
+  while the F1/SRP diffuse-tail consumer needs weighted channel
+  first-moment tightness
+  \(\int_{\kappa>L}\kappa\,d\sigma_{\varepsilon,F_M}\to0\), or a
+  typed route-out. One parent object, two projections; z5 remains open
+  until both are proved or routed.
   GATE-7 REMAINING CLAUSES ATTACKED (Fable, pending gate,
   gate7-greedy-besicovitch-window-construction — filed in parallel
   with the Codex follow-up; the gate adjudicates overlap): greedy
