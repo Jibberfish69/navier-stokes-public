@@ -375,3 +375,11 @@ notes.
 - The crude-threshold constant table: stale; not the active sheet.
 - "K_T > K_cap" tau-only branch of Door B: unavailable in the
   rescue regime (shallow pass in disguise).
+- The TWO-ENDED Delta_G6a consumer rows (old sign row, old G6b/
+  product/length rows spending c_W): SUPERSEDED by the one-sided
+  architecture (c_W^top, Delta_G6a^top) installed 2026-07-06 by
+  codex-one-sided-product-consumer-rewrite; the bottom endpoint is
+  a blockwise-telescoped endpoint charge B_bot^prod, never a rate.
+- The bottom-horn RATE GAP route: closed by the incompatibility
+  theorem (gate-accepted): it cannot hold with a nonempty financed
+  family.
