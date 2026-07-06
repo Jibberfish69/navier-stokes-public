@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-normalized-passage-gate1-source-strict-verdict-20260706
-status: failed-first-gate-localized-field-flux-cutoff-closure-open
+status: superseded-gate1-closed-by-retained-pressure-source-envelope-chain
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / NormalizedRelayBillCompactnessRecordPassage.A
@@ -15,20 +15,44 @@ allowed_source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/spine.md
 completion_truth: >-
-  Source-strict Gate 1 verdict for the edited objective. This does not install
-  or refute NormalizedRelayBillCompactnessRecordPassage.A. The first proof gate
-  fails at localized Field compactness: the allowed participation/coherence
-  source states that the localized tower estimate uses a pressure/cutoff flux
-  functional and is usable only with a legal flux/cutoff bound such as TC.31a,
-  or an absorbable boundary/cutoff estimate on the same retained family. The
-  bill B=dE_Field+dA_4B+dVisc does not include this flux channel. Therefore the
-  proof cannot infer compactness of retained tower differences from B->0 under
-  the current allowed sources. The smallest remaining theorem at the first gate
-  is the legal/absorbable retained flux closure TC.31a for the selected retained
-  relay windows.
+  Historical source-strict Gate 1 verdict. Superseded on 2026-07-06 by the
+  Gate 1 retained pressure-source envelope chain: material cutoff transport,
+  viscous collar reduction, pressure-increment local absorption, dyadic
+  pressure-tail reduction, remote Field-envelope absorption, and terminal
+  Part/Field route-out for outside-envelope pressure sources. Those notes
+  install RetainedRelayFluxCutoffClosure.A on retained same-fluid relay
+  windows. This file remains as the original source-strict failure snapshot, not
+  the current frontier. NormalizedRelayBillCompactnessRecordPassage.A remains
+  open because Gates 2--4 are not supplied.
 ---
 
 # Source-strict Gate 1 verdict for normalized relay passage
+
+## 0. Supersession
+
+This verdict is historical. The Gate 1 theorem named below,
+
+```math
+\texttt{RetainedRelayFluxCutoffClosure.A},
+\tag{G1S.0}
+```
+
+is now installed on retained same-fluid relay windows by:
+
+```math
+\begin{gathered}
+\texttt{material cutoff transport}
++\texttt{viscous collar large-window reduction}
++\texttt{pressure-increment local absorption}\\
++\texttt{dyadic pressure-tail estimate}
++\texttt{RetainedFieldEnvelopeExhaustsPressureIncrementSource.A}.
+\end{gathered}
+\tag{G1S.0a}
+```
+
+The first remaining failed gate for
+`NormalizedRelayBillCompactnessRecordPassage.A` is Gate 2, not this Gate 1
+snapshot.
 
 ## 1. Target
 
@@ -155,8 +179,7 @@ one of the following before compactness is invoked:
 \tag{G1S.9}
 ```
 
-The proof of this theorem would clear Gate 1. It would not by itself install
-`NormalizedRelayBillCompactnessRecordPassage.A`; Gates 2--4 would still have to
-pass. Under the edited objective, this is the first exact failed gate and the
-first smallest theorem that must be supplied before the normalized compactness
-proof can continue.
+The proof of this theorem has now been supplied by the later Gate 1 chain. It
+does not by itself install `NormalizedRelayBillCompactnessRecordPassage.A`;
+Gates 2--4 still have to pass. Under the edited objective, Gate 2 is now the
+first exact failed gate.
