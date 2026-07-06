@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-tube-exact-tilt-stretch-eviction-ratio-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-impedance-law-derivation-attempt-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-pairwise-tv-no-free-subcell-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md
 completion_truth: >-
   Spec only, no computation. The dense crowd's first named danger is
   BRACING: crowd members paying each other's eviction - a second pair
@@ -30,7 +31,11 @@ completion_truth: >-
   system. FOLLOW-UP: the unallocated pairwise-TV subcell is
   paid exactly by the K3 two-tube TV floor; the remaining bracing
   danger is net-vector cancellation before the accepted ledger charges
-  pairwise TV, or non-pairwise/off-profile geometry. KILL CONDITION
+  pairwise TV, or non-pairwise/off-profile geometry. SECOND FOLLOW-UP:
+  the net-vector-only ledger is obstructed algebraically: cancellation
+  after summation can hide paid pairwise TV. Thus the proof target is
+  pairwise/current-resolved same-packet allocation, or an actual PDE
+  cancelling schedule. KILL CONDITION
   (item 4b, first trigger point): a four-tube
   configuration with total eviction strictly below c times total
   production for c below the pair floor, sustained over an encounter
@@ -92,3 +97,10 @@ charged before cancellations between different interactions are netted, then
 bracing is paid. The live four-tube danger is cancellation of the net geometric
 exit vector before that pairwise TV is accepted as same-packet tax, or a
 non-pairwise geometry outside the leading two-tube pairwise profile.
+
+Follow-up ledger obstruction
+`mpp-forward-gold-dense-bracing-net-vector-ledger-obstruction-20260706.md`
+settles the opposite restricted version: a ledger that sees only the net exit
+vector after cancellation cannot inherit the pairwise floor. The accepted tax
+has to be pairwise/current-resolved before cancellation, or the dense crowd must
+be studied as an actual sustaining PDE schedule.
