@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-parameter-window-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-many-cell-wkb-support-density-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-cross-cell-gram-gap-criterion-20260706.md
 completion_truth: >-
   Strict reduction only. The atomic quantization criterion says bounded
   effective prelimit packet count pays atomization by pigeonhole. But the
@@ -29,9 +30,11 @@ completion_truth: >-
   tight cloud gives a nonzero WKB/microlocal profile, while a nontight cloud is
   selected-carrier domain/label/rung escape. Pure count-only
   no-free-fragmentation and same-cell packet-moment square coercivity are false
-  by uniform fragmentation. No actual WKB carrier extraction theorem, no profile
-  admission theorem, no WKB construction/exclusion, and no MPP closure is
-  claimed.
+  by uniform fragmentation. The cross-cell square route is now typed as a
+  required uniform interaction Gram gap on the normalized admissible positive
+  cloud cone; near-null Gram sequences defeat it. No actual WKB carrier
+  extraction theorem, no profile admission theorem, no WKB construction/exclusion,
+  and no MPP closure is claimed.
 ---
 
 # Many-cell WKB quantization obstruction
@@ -167,7 +170,7 @@ N_{\rm eff}\le M
 N_{\rm eff}\to\infty
   &\Rightarrow
   \text{tight WKB/microlocal profile admission, or nontight escape,}\\
-  &\qquad\text{or extra PDE uncertainty/cross-cell coercivity}.
+  &\qquad\text{or extra PDE uncertainty / cross-cell Gram-gap coercivity}.
 \end{array}
 \]
 
@@ -185,8 +188,12 @@ bounded count either pays atomization, pays localization, or leaves the cheap
 window.
 
 The follow-up compactness split proves that count-only no-free-fragmentation and
-same-cell packet-moment square coercivity are false in this currency. This note
-still proves no PDE uncertainty-cell theorem, no cross-cell square-coercivity
-theorem, no profile admission theorem, no general
+same-cell packet-moment square coercivity are false in this currency. The
+cross-cell Gram-gap follow-up proves that cross-cell square coercivity is
+equivalent to a uniform positive lower bound for the actual interaction Gram
+form on the normalized admissible cloud cone; absent that lower bound, near-null
+fragmentation defeats the square route. This note still proves no PDE
+uncertainty-cell theorem, no cross-cell Gram-gap theorem, no profile admission
+theorem, no general
 `ActualWKBCarrierExtraction.A`, no WKB construction/exclusion theorem, no F4/F5
 pass, no manuscript completion, and no MPP closure.
