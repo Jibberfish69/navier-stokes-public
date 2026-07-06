@@ -274,6 +274,19 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    blocks, \(B_{\rm bot}^{\rm raw}=r_-(\mathrm{initial})\); otherwise it
    is summed over block entries. It does not prove
    \(R_{\rm prod}^{\rm top,F4,{\rm ti,tail}}>0\).
+   TOP-BRACKET SHARP FORM (Codex, 2026-07-06):
+   `mpp-forward-gold-codex-top-bracket-sharp-form-bottom-floor-gap-reduction-20260706.md`
+   shows that with \(s=r_-\), \(A=r_+-r_-\), \(g=r_*-r_+\),
+   \(m=A/(A+g)\), \(\sigma=(1-E/K)/m\), and \(d=d_{\rm R4}\),
+   the exact top source row is
+   \[
+     \Delta_{\rm G6a}^{\rm top}
+     =
+     \inf_{\mathcal K}
+     (s+A)\left[A(\sigma g-(1-\sigma)s)-d(s+g)\right].
+   \]
+   Thus the product route needs a bottom-floor/top-gap comparison, not
+   only the horn inequality \(A/2>d_{\rm R4}\).
    Key notes: codex-gate6-normalization-jacobian-reduction,
    codex-financed-swing-rootgap-floor-reduction,
    codex-period-cap-traversal-reduction,
@@ -286,7 +299,8 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
    codex-bottom-root-horn-cm-route-audit,
    codex-gate6-row-formation-part-bridge-attempt,
    codex-one-sided-contraction-parti-gate,
-   codex-one-sided-product-consumer-rewrite.
+   codex-one-sided-product-consumer-rewrite,
+   codex-top-bracket-sharp-form-bottom-floor-gap-reduction.
 2. BoundaryTail fork: prove B_bdry^{ti} <= D_tail^{ti}|I| +
    B_end^{ti} (rate into the row, endpoint into the length) or route
    to Silver/exit. Routing exists; the numerical bound does not.
@@ -328,16 +342,18 @@ surviving product rewrite is
   B_{\rm bot}^{\rm prod}
   \]
   inside the length/endpoint row. The consumer rewrite is now filed; the
-  active remaining work is to certify \(\Delta_{\rm G6a}^{\rm top}>0\),
-  prove the bottom block routing bound, and evaluate
+  active remaining work is to certify \(\Delta_{\rm G6a}^{\rm top}>0\)
+  in the exact bottom-floor/top-gap form above; prove the bottom block
+  routing bound; and evaluate
   \(R_{\rm prod}^{\rm top,F4,{\rm ti,tail}}>0\). Key notes:
 codex-delta-g6a-factorized-source-row,
 codex-delta-g6a-root-factor-bottom-root-obstruction,
 codex-bottom-root-horn-financed-obstruction,
 codex-bottom-root-horn-cm-route-audit,
-codex-bottom-root-rate-gap-collapse,
+  codex-bottom-root-rate-gap-collapse,
   codex-one-sided-contraction-parti-gate,
   codex-one-sided-product-consumer-rewrite,
+  codex-top-bracket-sharp-form-bottom-floor-gap-reduction,
   codex-product-row-monotone-envelope-after-ge.
 
 ## 5. Failure taxonomy (carried verbatim)
