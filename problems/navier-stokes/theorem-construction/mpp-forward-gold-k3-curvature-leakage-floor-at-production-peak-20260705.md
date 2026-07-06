@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-k3-curvature-leakage-floor-at-production-peak-20260705
-status: exact-instantaneous-curve-leakage-floor-proved-not-lifetime-cap
+status: codex-gated-exact-instantaneous-curve-leakage-floor-accepted-not-lifetime-cap
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / confinement constant / goal item 1 (K3 curve leakage)
@@ -12,6 +12,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k3-exact-kernel-finite-ode-obstruction-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-kill-integral-crow-reduction-20260705.md
 completion_truth: >-
+  CODEX GATE SAME DATE:
+  mpp-forward-gold-codex-k3-curve-leakage-gate-20260705. Accepted as
+  an exact leading-filament local floor, not a lifetime cap.
   Exact leading-filament instantaneous floor, not a lifetime cap. In the
   two-tube coordinates, the curve mode omitted by the four-variable
   straight-skeleton model has scale-normalized normal leakage
@@ -32,6 +35,17 @@ completion_truth: >-
 ---
 
 # K3 curvature leakage floor at the production peak
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-k3-curve-leakage-gate-20260705`.
+
+The displayed formula and \(B_d=2\sigma_{\max}\) comparison are accepted
+at leading filament order. This pays the local residual floor only; the
+kill-integral theorem still must transport that leakage through the
+evolving filament lifetime and account for cancellation, reabsorption,
+core corrections, and high-Re timing.
 
 ## 1. Same physical object
 
