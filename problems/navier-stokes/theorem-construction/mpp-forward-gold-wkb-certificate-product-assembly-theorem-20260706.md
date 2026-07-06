@@ -257,11 +257,8 @@ then the limiting profile is legally certified by closedness of a finite
 intersection in a compact product space. If a coordinate cannot be carried, the
 first loss is a typed Pack or Part failure; if all coordinates persist with the
 high-Sobolev readout, the installed Field consumer applies. The remaining work
-is to prove or refute the four row-level certificates and same-packet
-cross-certificate compatibility for actual Navier-Stokes WKB packets.
-The diagonal-compatibility reduction sharpens this last phrase further:
-cross-certificate compatibility follows once the common packet identity
-coordinate compactifies with closed row maps.
+is to prove or refute the four row-level certificates and common-packet
+identity compactness for actual Navier-Stokes WKB packets.
 
 ## 7. State
 
