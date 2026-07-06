@@ -1574,6 +1574,15 @@ surface, not F4 clearance.
    nonresonant two-mode theorem. Thus the remaining exact-cancellation
    problem is a closed resonant frequency graph, not a minimal two-pair
    neutralizer.
+   The finite-support boundary of that graph is now typed as well: any
+   exposed cross-shell output \(m=p+q\) with \(p,q\) on different curl
+   eigenvalue shells and \(p\nparallel q\) has a single active pair feeding
+   it, so its coefficient is exactly
+   \(-(\mu-\lambda)\mathbb P_m(h_p\times h_q)\), which is nonzero by the
+   nonresonant two-mode calculation. Hence a finite broadband neutralizer
+   must hide every dangerous mixed-shell output from the exposed boundary of
+   the cross-shell sum set; the remaining cancellation door is a convex-hull
+   hidden closed resonant crowd, not an exposed finite graph.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
