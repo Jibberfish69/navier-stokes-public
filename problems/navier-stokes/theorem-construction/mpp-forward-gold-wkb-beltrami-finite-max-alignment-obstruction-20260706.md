@@ -35,7 +35,7 @@ completion_truth: >-
   and no MPP closure.
 ---
 
-# Finite broadband Beltrami clouds always leak at maximal alignment
+# Same-two-shell finite Beltrami clouds leak at maximal alignment
 
 ## 0. Same-day scope correction
 
@@ -55,8 +55,8 @@ graph closure, profile admission, or construction/exclusion.
 ## 1. Question
 
 The unique-mixed-sum note reduced finite exact cancellation to a multiply
-represented closed resonant graph. This note checks whether that finite graph
-can exist at all:
+represented closed resonant graph. With the scope correction above, this note
+checks the fixed two-shell subcase of that graph:
 
 \[
   \text{Can every noncollinear cross-shell output in a finite broadband}
@@ -65,7 +65,7 @@ can exist at all:
   \tag{FMA.1}
 \]
 
-The answer is no.
+Inside one fixed pair of shell radii, the answer is no.
 
 ## 2. Setup
 
