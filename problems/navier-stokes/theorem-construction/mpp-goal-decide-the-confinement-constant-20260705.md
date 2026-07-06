@@ -44,20 +44,21 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     conservation). Regular-symmetry classes imprisoned. Kill integral:
     Crow interior cap reduced; direct K5 pure-mode growing-band feed
     coefficient is zero by wavenumber selection; the remaining pure edge
-    channel is the resonant normal-form sign Re Lambda_edge, but even
-    favorable sign leaves a log(seed) neutral-phase integral. Open:
-    Lambda_edge sign, seed-floor/custody for the log, sideband/crowd
-    coupling, custody, composition.
+    channel is the resonant normal-form sign Re Lambda_edge, but pure
+    nonlinear self-exit cannot give a seed-independent cap: favorable
+    sign still leaves a log(seed) neutral-phase integral. Open: external
+    seed floor/lifetime/damping/custody for the log, Lambda_edge sign as
+    secondary diagnostic, sideband/crowd coupling, custody, composition.
 
 ## Work order (each unit: output + kill condition)
 
-1. KILL INTEGRAL / K5 EDGE NORMAL FORM. Integrated stretch per pair
-   encounter under the exact kernel + Crow linear theory. The direct
-   pure-mode second-order feed is obstructed; compute the resonant
-   edge normal-form coefficient Lambda_edge and decide the log(seed)
-   obstruction. Kill condition: Re Lambda_edge <= 0 or symmetry-zero on
-   the edge family, or no seed-floor/custody mechanism for the log =>
-   the pure neutral edge channel is not seed-independently capped.
+1. KILL INTEGRAL / K5 EDGE LOG. Integrated stretch per pair encounter
+   under the exact kernel + Crow linear theory. The direct pure-mode
+   second-order feed is obstructed, and autonomous nonlinear self-exit
+   leaves log(seed). Decide whether the real field supplies an external
+   seed floor, finite lifetime, viscous/core damping, or custody payment
+   for the log. Kill condition: no such mechanism => the pure neutral
+   edge channel is not seed-independently capped.
 2. DOUBLING COMPARISON. Certify the per-encounter cap against ln 2.
    Chapter-10 discipline. Either outcome is progress.
 3. CUSTODY. No free re-assembly: destroyed configurations cannot
