@@ -1624,6 +1624,20 @@ surface, not F4 clearance.
    internally. The finite live branch is therefore equal-radius-sum internal
    cancellation, or a three-or-more-grade moment-balanced resonant graph with
    sideband closure, followed by the same WKB/profile/construction questions.
+   Same-day 3D correction filed: the scalar radius-sum certificate is only the
+   common-transverse-plane reduction. In full 3D the transverse azimuth around
+   \(m\) is live, and the fixed-output coefficient is
+   \(T_sR_s=(|m|J_m-isI)R_s\) on \(m^\perp_\mathbb C\). The correct local
+   certificate is
+   \[
+     \sum_s (|m|J_m-isI)R_s(m)=0.
+   \]
+   One-pair-per-grade unequal cancellation is still blocked, but two
+   radius-sum grades can cancel locally if one grade carries multiple
+   transverse azimuths; exact witness:
+   \(T_3e_2+T_4(-11e_2/15-ie_3/15)=0\). The finite live branch is now a
+   vector-moment resonant graph with sideband closure, followed by the same
+   WKB/profile/construction questions.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
