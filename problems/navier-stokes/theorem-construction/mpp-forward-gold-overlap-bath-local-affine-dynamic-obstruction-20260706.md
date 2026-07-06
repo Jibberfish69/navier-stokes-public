@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-steady-or-tracking-dichotomy-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-time-dependent-collar-scaling-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and checked obstruction, not a crowd theorem and not a
   confinement-constant decision. The installed local affine material-jet note
@@ -27,9 +28,10 @@ completion_truth: >-
   absorbs the acceleration; no local material-jet identity forces a paid
   tracking floor tied to production. This does not construct a finite-energy
   global Navier-Stokes bath and does not decide the exact matrix. It relocates
-  the overlap-bath decision to global same-fluid matching over time: Hodge and
-  collar pressure coupling, finite-energy support under evolution, same-packet
-  allocation, or a summability-valid dynamic construction.
+  the overlap-bath decision to global same-fluid matching over time: exact
+  unforced evolution, nonlocal Hodge/pressure coupling, same-packet allocation,
+  or a summability-valid dynamic construction. Follow-up collar scaling audit
+  kills generic cutoff/Hodge retuning as the missing floor.
 ---
 
 # Overlap bath: local affine dynamic obstruction
@@ -154,8 +156,9 @@ A successful floor theorem must show that an actual same-fluid finite-energy
 field cannot keep realizing those local strain histories without paid global
 cost. The possible sources are:
 
-- time-dependent compact support and collar matching;
-- nonlocal pressure and Hodge coupling across the surrounding fluid;
+- exact unforced evolution of the localized packet;
+- nonlocal pressure and Hodge coupling across the surrounding fluid with sign
+  or phase structure beyond norm scaling;
 - same-packet allocation of the bath's pressure or tracking work into record
   ladder currency;
 - admissibility failure for the strength/spacing schedule in the exact matrix.
@@ -174,5 +177,6 @@ smooth symmetric trace-free \(A(t)\), the field
 is an exact local incompressible Navier-Stokes packet once the pressure Hessian
 is chosen. Therefore local strain tracking, magnitude change, and eigenframe
 motion are not automatically taxed at the material-jet level. Any remaining
-floor must come from global same-fluid matching, pressure/Hodge/collar coupling,
-same-packet allocation, or else fail by an actual dynamic bath construction.
+floor must come from exact unforced global evolution, nonlocal pressure/Hodge
+structure, same-packet allocation, or else fail by an actual dynamic bath
+construction.
