@@ -26,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-gate8-tax-density-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-supercritical-motion-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
 completion_truth: >-
   Exact criterion for the energy recursion model, not a dense-crowd theorem.
   Write beta_n=e^{-x_n}, x_n>0, and suppose the holder-energy ratio at octave n
@@ -63,7 +64,12 @@ completion_truth: >-
   a fixed density belongs to the compensator branch. Follow-up local
   supercritical-motion obstruction checks that the local exact pressure matrix
   does not force omega/s>=beta^(-4/5); a same-shape affine history stays at
-  omega/s=O(beta^(4/5)) while carrying the q=4/5 row. The criterion itself is
+  omega/s=O(beta^(4/5)) while carrying the q=4/5 row. Follow-up
+  supercritical residual scale split says that, at eta=delta_D/s~beta^(-4/5),
+  residual support phi theta^2=beta^a gives effective holder ratio
+  beta^(a-8/5). The q=4/5 row occurs only at a=12/5; the intermediate band
+  8/5<a<12/5 is a larger payer with 0<q_eff<4/5, and coherent moderate
+  residuals at a<=8/5 are order-one payers. The criterion itself is
   unchanged. No no-eviction crowd, confinement constant, composition theorem, or
   MPP closure is claimed.
 ---
@@ -220,6 +226,22 @@ Thus the live matrix question is sharpened:
 3. bounded finite-depth outer scale: killed by geometric demand in the
    beta-depth correction;
 4. growing-depth outer scale: re-enters the up-scale cascade problem.
+
+The supercritical residual scale split supplies an additional row choice inside
+this criterion. At \(\eta=\delta_D/s\sim\beta^{-4/5}\), if
+\[
+  \phi\theta^2=\beta^a,
+  \tag{BSC.19}
+\]
+then the residual energy ratio is
+\[
+  \beta^{a-8/5}.
+  \tag{BSC.20}
+\]
+Thus \(a=12/5\) is exactly the \(q=4/5\) pressure row, \(8/5<a<12/5\) is a
+larger payer with \(0<q_{\rm eff}<4/5\), and \(a\le8/5\) is an order-one payer.
+Only \(a\ge12/5\) remains as cheap as the pressure row, and it forces the
+fine/sparse high-Re cascade branch.
 
 ## 6. Four-sentence result
 
