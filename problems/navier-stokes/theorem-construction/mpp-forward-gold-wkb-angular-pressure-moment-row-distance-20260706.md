@@ -24,11 +24,13 @@ completion_truth: >-
   ordinary service-coordinate row. In the overlap scaling where the normalized
   pressure moment is \(O(\beta^{4/5})\), the angular density distance is only
   \(O(\beta^{4/5})\) and the square charge is \(O(\beta^{8/5})\), so angular
-  mismatch alone is not a fixed order-one confinement tax. A fixed normalized
-  moment would pay a fixed anti-uniformity row, but the bath row under test is
-  precisely the small \(q=4/5\) pressure-service row. This proves no WKB
-  construction, no WKB exclusion, no crowd-cell theorem, no confinement
-  constant, and no MPP closure.
+  mismatch alone is not a fixed order-one confinement tax. The minimizer is an
+  actual nonnegative angular density whenever \(\lambda_{\max}(K)\le2/15\),
+  since \(f_K(n)=1-(15/2)n\cdot Kn\). Thus the beta-small angular bath is not
+  merely a signed Hilbert-row artifact. A fixed normalized moment would pay a
+  fixed anti-uniformity row, but the bath row under test is precisely the small
+  \(q=4/5\) pressure-service row. This proves no WKB construction, no WKB
+  exclusion, no crowd-cell theorem, no confinement constant, and no MPP closure.
 ---
 
 # Angular Beltrami pressure moment is an exact row distance
@@ -141,19 +143,36 @@ This is the exact angular row-distance formula.
 
 ## 4. Positivity and small moments
 
-The minimizer in (APM.10) is signed. For sufficiently small \(|K|\), however,
+The minimizer in (APM.10) is signed in general. It is an actual positive
+angular density on a sharp one-sided cone, though. Since
 \[
-  f_K=1+h_K
+  h_K(n)={15\over2}K:Q_n
+  =
+  -{15\over2}\,n\cdot K n,
   \tag{APM.13}
 \]
-is still nonnegative after reducing the moment size by the same scaling. Thus
-small trace-free pressure moments are compatible with near-uniform positive
-angular densities.
+the density
+\[
+  f_K=1+h_K
+  \tag{APM.14}
+\]
+is nonnegative exactly when
+\[
+  1-{15\over2}\lambda_{\max}(K)\ge0,
+  \qquad\hbox{i.e.}\qquad
+  \lambda_{\max}(K)\le {2\over15}.
+  \tag{APM.15}
+\]
+
+In particular, every sufficiently small trace-free pressure moment is
+compatible with a near-uniform positive angular density. The beta-small bath is
+therefore not being protected by a positivity obstruction hidden behind the
+Hilbert-space row calculation.
 
 In the overlap bath row,
 \[
   |K|_{\rm norm}\sim \beta^{4/5}.
-  \tag{APM.14}
+  \tag{APM.16}
 \]
 
 Consequently the exact angular density distance is
@@ -161,14 +180,14 @@ Consequently the exact angular density distance is
   \|f_K-1\|_{L^2(S^2)}
   \sim
   \beta^{4/5},
-  \tag{APM.15}
+  \tag{APM.17}
 \]
 and the associated square charge is
 \[
   \|f_K-1\|_{L^2(S^2)}^2
   \sim
   \beta^{8/5}.
-  \tag{APM.16}
+  \tag{APM.18}
 \]
 
 So angular pressure-moment mismatch is not the missing order-one confinement
@@ -182,9 +201,9 @@ The angular branch now has only two states:
 |K|_{\rm norm}\ge c_0>0
   &\Rightarrow \text{fixed angular anti-uniformity payer},\\[1mm]
 |K|_{\rm norm}=O(\beta^{4/5})
-  &\Rightarrow \text{cheap pressure row with density distance }O(\beta^{4/5}).
+  &\Rightarrow \text{positive near-uniform density with distance }O(\beta^{4/5}).
 \end{array}
-\tag{APM.17}
+\tag{APM.19}
 \]
 
 Thus angular moment geometry does not exclude the near-uniform WKB bath. It
@@ -204,9 +223,10 @@ trace-free moment \(K\) costs exactly
 \]
 in angular \(L^2\) distance from the uniform bath. In the overlap row
 \(|K|=O(\beta^{4/5})\), so this is the already-filed small pressure row, with
-square charge \(O(\beta^{8/5})\), not a fixed confinement tax. A fixed angular
-moment would pay a fixed row; the near-uniform WKB bath survives this angular
-test and remains construction/exclusion or certificate routing.
+square charge \(O(\beta^{8/5})\), not a fixed confinement tax. The minimizing
+density is actually nonnegative whenever \(\lambda_{\max}(K)\le2/15\), so the
+beta-small bath survives the angular positivity test and remains
+construction/exclusion or certificate routing.
 
 ## 7. State
 
