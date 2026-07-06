@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-kernel-zero-mode-gram-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-psd-ballast-is-not-gram-gap-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-unbounded-count-wkb-cloud-compactness-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-near-uniform-local-cloud-gram-countermodel-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -27,6 +28,13 @@ completion_truth: >-
   separating every legal positive cloud from the uniform zero mode. This proves
   no such anti-equidistribution law, no admissible-cone gap, no WKB
   construction/exclusion, no confinement constant, and no MPP closure.
+  Follow-up near-uniform local-cloud countermodel shows that local
+  translation-invariant WKB legality cannot be the source of the needed
+  anti-equidistribution: periodic replication of one locally legal service
+  cell keeps total selected moment one while every diagonal or mean-zero/local
+  Gram charge vanishes like 1/M. Therefore the hidden theorem must be genuinely
+  global same-packet legality, positive uniform-mode geometry, or
+  construction/exclusion.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -175,6 +183,14 @@ mean-zero pressure-kernel regime it contains the hidden theorem
   \tag{AE.16}
 \]
 
+The local replication follow-up blocks the weakest reading of this theorem.
+Local translation-invariant WKB legality permits translating one locally legal
+service cell to an \(M\)-point periodic cloud with equal weights. That cloud is
+near-uniform by construction, keeps total selected moment one, and has
+vanishing diagonal and mean-zero/local cross charge. Thus the required
+anti-equidistribution cannot follow from local cell legality or local moment
+matching alone.
+
 ## 5. Physical meaning
 
 The same-fluid WKB cloud has already retained positive total service. Uniform
@@ -214,8 +230,9 @@ legal WKB clouds can approach that uniform cloud in \(\ell^2\), then every
 bounded pressure-kernel/local-correction Gram charge tends to zero. Therefore a
 true `CrossCellWKBGramGap.A` must either introduce a genuine positive
 uniform-mode charge or prove that legal same-packet WKB clouds are
-quantitatively anti-equidistributed. The latter is the hidden theorem; without
-it, near-uniform legal fragmentation is an explicit countermodel to the
-cross-cell square rescue.
+quantitatively anti-equidistributed. Local translation-invariant WKB legality
+does not prove that separation, because periodic replication gives a
+near-uniform local countermodel; the remaining theorem must use global
+same-packet/certificate structure or construction/exclusion.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
