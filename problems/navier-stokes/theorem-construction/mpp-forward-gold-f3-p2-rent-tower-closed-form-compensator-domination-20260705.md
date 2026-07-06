@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-f3-p2-rent-tower-closed-form-compensator-domination-20260705
-status: filed-pending-codex-gate
+status: codex-gated-rent-tower-accepted-compensator-prefix-escrow-regated
 created: 2026-07-05
 problem: navier-stokes
 route: forward-gold / FROZEN FRONTIER F3 / P2 - the rent tower sums in closed form; the compensator is dominated by the rent
@@ -73,6 +73,29 @@ completion_truth: >-
 ---
 
 # F3/P2: the rent tower sums; the overdraft monster is just the rent
+
+## Codex gate, same date
+
+Codex gate filed:
+`mpp-forward-gold-codex-f3-p2-rent-tower-gate-20260705.md`.
+
+Accepted: the consolidated taxed rent has dyadic decay
+\(\kappa^{-2}\) in the Young part and \(\kappa^{-1/2}\) in the
+cutoff-reserve part, so the displayed geometric sums reduce rent
+aggregation to one worksheet row.
+
+Accepted with correction: the diagonal row makes cumulative
+\({\rm RENT}_{P2}\) a feasible prefix compensator, hence
+\[
+  K^{\rm tax}(t)\le {\rm RENT}_{P2}(t)
+\]
+for every prefix. This contracts the diagonal-family overdraft to the
+rent allowance in prefix/escrow form.
+
+Regated: this prefix domination does not imply literal Stieltjes
+measure domination \(dK^{\rm tax}\le d{\rm RENT}_{P2}\). Any downstream
+consumer needing a measure inequality must use escrowed rent in the
+queue or prove a separate submeasure/absolute-continuity statement.
 
 ## 1. R1: the rent tower in closed form
 
