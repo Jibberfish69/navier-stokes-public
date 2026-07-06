@@ -576,12 +576,14 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   \(D_j^{\rm total}\le C_{\rm pc}E_j\) is false on actual solutions by
   amplitude scaling: CKN dissipation is quadratic while the admitted
   F3 production/readout row is cubic. The live replacement is the
-  carrier split \(D_j=D_j^{\rm adm}+D_j^{\rm bg}\), with
-  \(D_j^{\rm adm}\le C_{\rm pc}E_j\) plus a separate theorem that
-  \(D_j^{\rm bg}\) is CKN-harmless in the nested tail or routed as
-  Pack/Part/Field/Silver residue. The CKN import fires only after that
-  split is matched to the nested parabolic CKN shell quantity and the
-  total tail is driven below epsilon.
+  carrier split \(D_j=D_j^{\rm adm}+D_j^{\rm bg}\). After Fable's
+  same-day strike acceptance, the same-carrier row is typed as
+  \(D_j^{\rm adm}\le C_{\rm pc}(E_j+X_j)\), where \(X_j\) is the
+  priced charge column, plus a separate theorem that \(D_j^{\rm bg}\)
+  is CKN-harmless in the nested tail or routed as Pack/Part/Field/Silver
+  residue. The CKN import fires only after that split is matched to the
+  nested parabolic CKN shell quantity and the total tail is driven below
+  epsilon.
   STRIKE ACCEPTED + CORRECTED ATTACK FILED (Fable, pending gate,
   wiib-strike-accepted-carrier-split-starved-background): (K2) the
   admitted carrier is fed by GROSS flux, so the same-carrier row is
@@ -614,8 +616,9 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   are unnecessary-or-superseded for this row
   (pure bookkeeping routes closed by the F2 no-go; a net extraction
   law would instead revive the prefix route); pricing-completeness
-  replacement \(D_j^{\rm adm}\le C_{\rm pc}E_j\) plus
-  \(D_j^{\rm bg}\) CKN-harmless-or-routed; the parametric RUN row
+  replacement \(D_j^{\rm adm}\le C_{\rm pc}(E_j+X_j)\) plus
+  per-scale charge-column decay and \(D_j^{\rm bg}\)
+  CKN-harmless-or-routed; the parametric RUN row
   \(A_0>C_\delta d_{\rm R4}^+\) with
   \(0<\delta<\min(q_{\rm per}^-, \log 2)\),
   \(q_{\rm per}^- = A_0/X_{\max}\) (+ \(\Phi_0>0\)); the
