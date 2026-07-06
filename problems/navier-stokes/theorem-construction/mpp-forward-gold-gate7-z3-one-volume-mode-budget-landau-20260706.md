@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-gate7-z3-one-volume-mode-budget-landau-20260706
-status: filed-pending-codex-gate
+status: codex-regated-strict-reduction-mode-triple-disintegration-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / Gate 7 / z3 — the one-volume mode budget: same-volume incoherence is impossible at scale
@@ -22,11 +22,17 @@ depends_on:
   - mpp-forward-gold-codex-gate7-positive-control-measure-domination-20260706.md
   - mpp-forward-gold-return-race-elliptic-writeup-and-w1-20260705.md
   - mpp-forward-gold-f3-ledger-first-contact-20260705.md
+  - mpp-forward-gold-codex-gate7-z3-mode-budget-regate-20260706.md
 completion_truth: >-
-  Answers the regated z3 residual (lineage-disintegration /
-  incoherent-lump routing on lambda-rich balls) by a mode-counting
-  theorem with classical ingredients; proves no new estimate beyond
-  the classical eigenvalue count. (V1 - THE MODE BUDGET, classical)
+  Codex-regated state: strict reduction, not clearance. This note
+  gives a useful mode-counting route for the regated z3 residual
+  (lineage-disintegration / incoherent-lump routing on lambda-rich
+  balls), but it expands one L2 field leg while the Gate-7 control
+  measure lambda_a is total variation of a cubic throughput measure. The
+  full z3 theorem still needs a finite mode-triple disintegration of
+  lambda_a, or an explicit restriction to the one-tail-leg F1 case where
+  the other two legs are already coherent packets. (V1 - THE MODE
+  BUDGET, classical)
   The concentration operator of exact band limitation (annulus
   mu/2 <= |xi| <= 2mu) composed with localization to a
   correlation-volume ball (radius kappa a/mu) is the classical
@@ -80,6 +86,23 @@ completion_truth: >-
 ---
 
 # z3: the one-volume mode budget — incoherence needs room
+
+## Codex regate, 2026-07-06
+
+Codex audit filed:
+`mpp-forward-gold-codex-gate7-z3-mode-budget-regate-20260706.md`.
+
+Accepted: the one-volume finite-dimensional principle. A band on one
+correlation-volume ball has \(O(1)\) effective concentration modes, with
+Landau/prolate constants quarantined.
+
+Regated: this does not clear z3 as written. The proof expands one
+\(L^2\) field leg, but \(\lambda_a\) is the total variation envelope of
+a cubic throughput measure. A \(\lambda_a\)-rich ball may be rich
+through finitely many mode triples, not through a single field-leg
+coefficient. The remaining z3 theorem is finite mode-triple
+disintegration of \(\lambda_a\), with lineage/routing and threshold
+safety.
 
 ## V1. The mode budget (classical)
 
