@@ -497,7 +497,13 @@ the confinement constant.
    pays \(r_0(f)\ge f^2/(2\pi\rho)\) only after a next triad extracts a
    positive same-packet fraction \(f\). The pure edge residence supplies
    \(f=0\), so K5 high-Re still needs a theorem producing \(f>0\), or else
-   custody, sideband/crowd, Gate-A allocation, or route-out.
+   sideband/crowd, Gate-A allocation, or route-out.
+   Same-day custody-trigger obstruction: the installed custody packet
+   prices reassembly after destruction, fast delivery, or stored-energy
+   escrow. The pure K5 edge is an intact near-neutral residence, so it
+   supplies no debris transit, relative reassembly, or escrow event.
+   Custody can pay only after another theorem creates a reassembly,
+   refresh, destruction, or delivery trigger.
    Same-day K3 correction: the exact four-variable straight-skeleton
    ODE is obstructed; any kill-integral certification must include
    filament-curve evolution or pay the curvature-leakage residual.
