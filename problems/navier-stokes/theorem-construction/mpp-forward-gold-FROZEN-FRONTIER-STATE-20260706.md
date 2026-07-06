@@ -108,23 +108,20 @@ F1 -> (F2 || F3) -> F4 -> F5.
   routed to a finite-band capacity/Chapter-10 row or active-subwindow
   parking/return/debt/tax transcription.
   Do-not-cite: the static trilinear lower-bound route.
-  ROUTING ROUTE TAKEN (Fable, pending gate,
-  f1-cancellation-routing-climb-sweeps-phase): cancellation
-  histories are EXHAUSTED by two priced channels. (P1,
-  definitional) forward cancellation = zero drain = unfinanced =
-  no climb (arrival is transfer, transfer is monomial mass) =
-  ATTENUATION - the pincer's second jaw. (P2) climb-while-
-  predator-hiding: climb = amplitude motion; twist locality makes
-  triad frequencies amplitude-linear in own members; climbing
-  ROTATES every carried phase (the un-parking law: d phi_t/d ln A
-  >= 1 deep; sweep >= f per extraction f) - a pose cannot be held
-  while dancing. OWED (v1 = THE remaining F1 population content):
-  the phase-sweep participation floor displayed at the predator
-  slot (Section-4 computation for Theta_pred; per climb quantum,
-  (Re M_pred)_+ collects a displayed fraction of Bernstein x
-  G_floor). Gaps: v2 uniformity over the populated class; v3
-  "climb" = the pincer's rung-readout climb (W-II interface); v4
-  finite-chain scope, W-0 unchanged.
+  ROUTING ROUTE TAKEN and CODEX-GATED (Fable note plus Codex
+  cancellation-routing regate): (P1 accepted) forward cancellation =
+  zero drain = unfinanced = no climb (arrival is transfer, transfer
+  is monomial mass) = ATTENUATION - the pincer's second jaw. P2/P3
+  DO NOT CLEAR AS STATED. The return-race Section-4 un-parking
+  identity is installed for one turning phase; it does not by itself
+  prove that the predator-slot phase \(\Theta_{\rm pred}\) sweeps
+  by the W-II climb amount, crosses the positive Jordan sector, and
+  spends enough time there to produce a time-integrated lower bound
+  for \((\operatorname{Re}M_{\rm pred})_+\). v1 is a real theorem,
+  not a display-only transcription: it must supply phase-change,
+  clock/time-weight, oriented Jordan routing, and uniformity over the
+  Bernstein populated bounded-shape family. The bad-cone capacity fork
+  remains the parallel finite route. F1 actual-NS lift remains open.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
