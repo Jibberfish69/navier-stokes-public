@@ -30,8 +30,9 @@ completion_truth: >-
   create the density anti-equidistribution needed by the cross-cell Gram gap.
   If material history helps, it must do so through an additional non-volume
   service-coordinate row: carrier-scale drift / phase shear, a fixed service
-  moment mismatch, a transport defect with current variation, custody or bank
-  variation, or actual construction/exclusion of the near-uniform bath. This
+  moment mismatch, a transport-current action payer or added-carrier branch,
+  custody or bank variation, or actual construction/exclusion of the
+  near-uniform bath. This
   proves no positive service row-distance floor for the actual WKB bath, no
   transport-defect vanishing or carriage theorem, no WKB
   construction/exclusion theorem, no confinement constant, and no MPP closure.
