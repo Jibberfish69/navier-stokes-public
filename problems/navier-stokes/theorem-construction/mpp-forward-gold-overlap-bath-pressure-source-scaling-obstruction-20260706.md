@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-pressure-hessian-to-strain-eigenvalue-clock-placement-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-production-extremizer-pressure-hessian-frame-rotation-test-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. The local affine dynamic note used the
@@ -31,9 +32,13 @@ completion_truth: >-
   cost is s^2 beta^(4/5)D^5=beta^(4/5)E_prod, while the quadratic G^2 term is
   beta^(8/5)E_prod. Thus pressure-Hessian source service is more expensive
   than the collar energy but still vanishes with beta; it does not restore an
-  order-one floor. The live exact-matrix burden is now sharpened to q=4/5 for
-  retuning pressure service, plus exact unforced evolution, pressure/Hodge sign
-  structure, same-packet allocation, or a true dynamic bath construction.
+  order-one floor. Follow-up exact shear-cell display corrects the loose signed
+  packet wording: true periodic divergence-free pressure sources have zero
+  mean, but a mean-zero shear cell still gives a nonzero traceless Hessian at a
+  zero-gradient station with the same HD^5 cost. The live exact-matrix burden
+  is now sharpened to q=4/5 for retuning pressure service, plus multi-direction
+  superposition, exact unforced evolution, same-packet allocation, or a true
+  dynamic bath construction.
 ---
 
 # Overlap bath: pressure-source scaling obstruction
@@ -93,20 +98,32 @@ Therefore any traceless pressure Hessian \(K\in\operatorname{Sym}_0(3)\) with
   |K|=H
   \tag{OBPS.6}
 \]
-can be generated at scaling level by finitely many signed source packets in an
-annulus \(|y|\sim D\), with source magnitude \(H\) over total volume
-\(\sim D^3\). The zero-mean condition for the periodic pressure source is met
-by adding neutralizing signed packets; those packets have the same scaling and
-do not change the estimate.
+can be generated at scaling level by a mean-zero source pattern in an annulus
+\(|y|\sim D\), with source magnitude \(H\) over total volume \(\sim D^3\).
+The later exact shear-cell display shows why the zero-mean condition does not
+change the scale: the pressure row is a quadrupole/shear-cell row, not a free
+monopole row.
 
-## 3. Realizing signed source packets
+## 3. Realizing signed source patterns
 
 The source
 \[
   f=\partial_i u_j\,\partial_j u_i
   \tag{OBPS.7}
 \]
-is not an arbitrary scalar. But its sign can be selected locally.
+is not an arbitrary scalar. In a periodic divergence-free field it has exact
+zero mean:
+\[
+  \int f\,dx=0.
+  \tag{OBPS.7a}
+\]
+
+So the source-service picture is not a collection of independent signed
+monopoles. The exact shear-cell display supplies the corrected object: a
+mean-zero shear/quadrupole pattern can create a nonzero traceless pressure
+Hessian at a zero-gradient station with the same \(HD^5\) energy scale.
+
+At the local sign level, the two signs still appear.
 
 A symmetric trace-free strain cell with \(|S|=a\) gives
 \[
@@ -126,7 +143,7 @@ A rotation-dominated cell with skew part \(\Omega\) gives
   \tag{OBPS.9}
 \]
 
-Thus a source packet of signed magnitude \(H\) is realized at scaling level by
+Thus a source pattern of signed magnitude \(H\) is realized at scaling level by
 \[
   |\nabla u|\sim H^{1/2}.
   \tag{OBPS.10}
@@ -242,7 +259,7 @@ where \(\dot A\) is the demanded service.
 
 This kills the generic pressure-source floor as a route to the confinement
 constant. The pressure Poisson source does not force an order-one payer for the
-overlap bath; a quadrupole source at scale \(D\) can supply the needed
+overlap bath; a mean-zero quadrupole/shear source at scale \(D\) can supply the needed
 traceless Hessian at energy \(HD^5\).
 
 It also kills the too-cheap reading of the dynamic bath. The pressure-Hessian
@@ -252,9 +269,10 @@ retuning service has exponent \(4/5\), not \(8/5\), on the producer clock.
 
 The remaining exact-matrix burden is now sharper:
 
+- multi-direction superposition and cross-term control for pressure-source
+  cells;
 - exact unforced evolution of the pressure-source cells and the producing bath;
-- nonlocal pressure/Hodge sign or phase constraints not visible in the scaling
-  construction;
+- nonlocal pressure/Hodge phase constraints beyond the mean-zero source law;
 - same-packet allocation of pressure service into record-ladder currency;
 - beta-depth admissibility for finite-depth or growing-depth schedules;
 - or an actual dynamic bath construction satisfying the summability criterion
@@ -267,8 +285,8 @@ to an order-one pressure-Hessian floor.
 
 The global pressure source raises the dynamic bath cost, but it does not restore
 the confinement floor. A traceless pressure Hessian of size \(H\) at the
-producer can be generated by signed Poisson source packets on scale \(D\), and
-those packets cost \(HD^5\) in velocity energy because
+producer can be generated at scaling level by mean-zero Poisson source patterns
+on scale \(D\), and those patterns cost \(HD^5\) in velocity energy because
 \(|\nabla u|\sim H^{1/2}\). For producer-clock overlap retuning,
 \[
   H\sim|\dot A|\sim s^2\beta^{4/5},
