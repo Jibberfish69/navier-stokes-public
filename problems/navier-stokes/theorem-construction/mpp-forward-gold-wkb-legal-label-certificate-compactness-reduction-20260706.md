@@ -30,6 +30,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-cover-landing-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-ballast-energy-ancestry-tower-landing-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-defect-current-variation-floor-20260706.md
 completion_truth: >-
   Strict reduction only. The closed-graph profile-admission criterion is now
   reduced to a certificate-compactness theorem. If the WKB label space is
@@ -57,7 +58,10 @@ completion_truth: >-
   landing adds that the same positive energy must lift to a material energy
   current and differentiated same-law tower, with transport, derivative-graph,
   and nonlinear flux defects vanishing or legally carried; otherwise the first
-  failed row is Part-side ancestry or tower loss. The product-lift and
+  failed row is Part-side ancestry or tower loss. The transport-current
+  variation floor prices legal carriage: same-packet carriage gives A=w rho and
+  |A|=|w|rho, while singular current needs added legal ancestry or is Part-side
+  participation failure. The product-lift and
   diagonal-compatibility reductions sharpen the simultaneous lift residue to
   compactness of one common packet identity coordinate shared by the four rows,
   and the identity-factorization reduction absorbs that coordinate into the row
@@ -310,6 +314,12 @@ then the limiting transport defect is
 The ancestry certificate closes only when that defect vanishes in the required
 graph/current sense or is itself carried as a legal original-participation
 certificate. Otherwise the observable WKB profile has lost same-fluid history.
+The carried-current option has exact variation:
+\[
+  A=w\rho\quad\Longrightarrow\quad |A|=|w|\rho .
+\]
+If \(A\) has a singular part relative to \(\rho\), that part needs added legal
+ancestry mass/current or it is Part-side participation failure.
 
 If the legal certificates persist and the profile carries the nonvanishing WKB
 Sobolev readout, then the already installed WKB/Sobolev consumer supplies the
@@ -358,7 +368,9 @@ WKBTransportDefectVanishesOrCertified.A
 Weak WKB limits close same-fluid history only after the selected paths, flow
 maps, or ancestry currents compactify strongly enough to pass the transport
 relation, or after the hidden transport defect is legally carried in the
-profile certificate.
+profile certificate. Same-packet carriage means \(A=w\rho\) and carries exact
+current variation \(|A|=|w|\rho\); singular current must be assigned an added
+legal ancestry carrier or the row fails.
 
 The finite-cover relation includes:
 
