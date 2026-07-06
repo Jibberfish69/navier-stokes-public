@@ -15,6 +15,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-reynolds-edge-refresh-dichotomy-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-overlap-bath-survivor-front-classification-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-schwartz-template-bank-cross-term-correction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-angular-pressure-moment-row-distance-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-small-moment-finite-angular-cloud-square-charge-20260706.md
 completion_truth: >-
   Strict reduction only. The Beltrami self-drift obstruction kills the shortcut
   that fast fine-scale turnover automatically evicts the persistent high-Re
@@ -33,11 +35,18 @@ completion_truth: >-
   Beltrami cells generate the cone of trace-free Hessians with nonnegative
   cell weights. This is a cell-level mixture statement, not the false
   co-centered additive rotated-bank identity corrected in the Schwartz
-  template cross-term note. Thus the surviving no-payer branch is narrowed to a
-  many-cell WKB Beltrami bath with same-fluid coupling and localization/Hodge
-  errors controlled, or to a new cutoff-defect cancellation theorem. This note
-  proves no construction, no exclusion of the many-cell branch, no Gate-8
-  allocation, no dense-crowd theorem, and no MPP closure.
+  template cross-term note. The same calculation gives the exact total-weight
+  cone: for \(K\in{\rm Sym}_0(3)\), the least positive Beltrami cell weight
+  needed to realize \(K\) is \(W_{\min}=3\lambda_{\max}(K)\), and the associated
+  covariance cone is precisely \(C\ge0,\ \lambda_{\max}(C)\le
+  \operatorname{tr}C/2\). Thus arbitrary PSD Reynolds ballast is too wide for
+  same-helicity Beltrami covariance, but beta-small pressure moments remain
+  inside the cone with small anisotropic weight. Thus the surviving no-payer
+  branch is narrowed to a many-cell WKB Beltrami bath with same-fluid coupling
+  and localization/Hodge errors controlled, or to a new cutoff-defect
+  cancellation theorem. This note proves no construction, no exclusion of the
+  many-cell branch, no Gate-8 allocation, no dense-crowd theorem, and no MPP
+  closure.
 ---
 
 # Beltrami localization cell-count split
@@ -279,6 +288,62 @@ Thus separated or WKB-averaged Beltrami pressure-Hessian cells, with
 nonnegative cell weights, span every trace-free pressure Hessian at the local
 algebra level.
 
+The exact total weight needed for this span is also visible in the same display.
+If
+\[
+  K=\sum_{i=1}^3 k_i e_i\otimes e_i,\qquad \sum_i k_i=0,
+  \tag{BLCS.30}
+\]
+then a realization with total Beltrami weight \(W\) has weights
+\[
+  w_i={W\over3}-k_i .
+  \tag{BLCS.31}
+\]
+Therefore nonnegativity is equivalent to
+\[
+  W\ge 3\lambda_{\max}(K),
+  \tag{BLCS.32}
+\]
+and the least possible total anisotropic weight is
+\[
+  W_{\min}=3\lambda_{\max}(K)
+  \tag{BLCS.33}
+\]
+for nonzero trace-free \(K\), with the zero case giving \(W_{\min}=0\).
+
+The covariance version gives the exact Beltrami cone. A unit-weight circular
+Beltrami cell in direction \(n\) has averaged covariance, up to the fixed
+normalization,
+\[
+  C_n={1\over2}(I-n\otimes n),
+  \tag{BLCS.34}
+\]
+so a positive angular mixture has
+\[
+  C={W\over2}I-{1\over2}M,\qquad
+  M=\int n\otimes n\,d\mu(n),\qquad \operatorname{tr}M=W .
+  \tag{BLCS.35}
+\]
+Writing the eigenvalues of \(C\) as \(c_i\), this is equivalent to
+\[
+  C\ge0,\qquad \lambda_{\max}(C)\le {1\over2}\operatorname{tr}C .
+  \tag{BLCS.36}
+\]
+Conversely, if a PSD matrix \(C\) satisfies (BLCS.36) and
+\(W=\operatorname{tr}C\), then \(m_i=W-2c_i\ge0\) and
+\(\sum_i m_i=W\), so the spectral mixture
+\[
+  \sum_i m_i\,{1\over2}(I-e_i\otimes e_i)
+  \tag{BLCS.37}
+\]
+realizes \(C\).
+
+Thus a rank-one PSD covariance is not a same-helicity Beltrami covariance: its
+top eigenvalue equals its trace, violating (BLCS.36). This does not help against
+the beta-small overlap bath, because its needed trace-free pressure moment has
+\(|K|=O(\beta^{4/5})\) and can be carried by \(W=O(\beta^{4/5})\) anisotropic
+weight plus neutral isotropic mass, exactly as in the finite angular cloud row.
+
 This is not the additive co-centered superposition claim that failed for the
 Schwartz template bank. Here the weights are cell/mixture weights after the
 local Beltrami pressure-Hessian shape has already been formed. If several
@@ -295,7 +360,7 @@ First:
   \text{compact localized Beltrami pocket}
   \Rightarrow
   \text{exact Beltrami neutrality for free}.
-  \tag{BLCS.30}
+  \tag{BLCS.38}
 \]
 The cutoff defect costs unless the pocket contains at least
 \(\beta^{-12/5}\) carrier cells or a new cancellation is proved.
@@ -305,9 +370,12 @@ Second:
   \text{moment matching}
   \Rightarrow
   \text{local algebraic obstruction}.
-  \tag{BLCS.31}
+  \tag{BLCS.39}
 \]
 At the local periodic level, trace-free Hessian moment matching is possible.
+The exact covariance cone only blocks over-wide PSD covariance shortcuts such as
+rank-one Reynolds ballast; it does not block the small near-isotropic Beltrami
+pressure moments used by the surviving overlap bath.
 
 ## 8. What remains
 
