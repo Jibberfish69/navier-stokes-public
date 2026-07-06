@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mcp-partfieldbeforepackstrengthattempt-a-partfieldbeforepackstrength-a-241943042e.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter10-certification-workbook-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-chapter10-final-worksheet-rows-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-covariance-ballast-field-readout-20260706.md
 completion_truth: >-
   Strict reduction only. The pasted display-queue / Chapter-10 report is an
   installed July-5 certification snapshot, not the current July-6 WKB admission
@@ -28,6 +30,9 @@ completion_truth: >-
   high \(H^m\) readout for every \(m>1\). By the installed Sobolev/H^s CM face
   theorem, that readout becomes a Field-face failure only after the WKB packet is
   admitted as a same-solution terminal witness ledger. Therefore the exact
+  same consumer applies to admitted positive covariance trace ballast: retained
+  terminal trace energy \(\mu_R\) at carrier frequency \(\lambda_j\to\infty\)
+  gives Sobolev readout of size \(\mu_R\lambda_j^{2m}\). Therefore the exact
   missing clause is TerminalWKBMomentWitnessAdmission.A: the WKB moment must be
   extracted from the actual same maximal Navier-Stokes branch, with same datum,
   fixed viscosity, actual velocity-pressure evolution, material ancestry or a
@@ -88,6 +93,25 @@ along \(\lambda\to\infty\), then for every \(m>1\)
 
 This is a Sobolev readout wall. No new Sobolev estimate is missing.
 
+There is a trace-energy version for covariance ballast. If the admitted WKB
+packet carries unresolved covariance energy
+\[
+  \mu_R={1\over2}\operatorname{tr}R
+\]
+with normalized terminal mass
+\[
+  \phi D^3\mu_R\not\to0,
+\]
+then the carrier-energy readout is
+\[
+  \|\nabla^m u_{\rm WKB}\|_2^2
+  \sim
+  \phi D^3\mu_R\lambda^{2m}.
+\]
+Thus positive trace ballast admitted at \(\lambda\to\infty\) is also a
+Sobolev readout wall. The pressure gauge can remove the force coordinate, but
+it does not remove this high-frequency energy coordinate.
+
 ## 3. How it becomes a CM Field face
 
 The installed Sobolev/H^s CM theorem says:
@@ -111,7 +135,9 @@ Thus the implication for the WKB horn is:
 \begin{aligned}
 &\hbox{same-solution terminal WKB witness,}\quad
 \lambda\to\infty,\quad
-\phi D^3|K|\not\to0 \\
+\phi D^3|K|\not\to0
+\quad\hbox{or}\quad
+\phi D^3\mu_R\not\to0 \\
 &\qquad\Longrightarrow
 SobWall_{H^s}(\mathcal W)
 \Longrightarrow
