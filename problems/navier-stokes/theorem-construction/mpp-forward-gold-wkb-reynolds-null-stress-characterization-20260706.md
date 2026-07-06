@@ -13,6 +13,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-localized-anisotropic-defect-leray-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
 completion_truth: >-
   Exact characterization of the pressure-law null branch. For a smooth compactly
   supported symmetric Reynolds stress R on R^3, the condition
@@ -27,11 +28,14 @@ completion_truth: >-
   rather than becoming retained pressure-service supply. The null class is
   nontrivial even among compactly supported trace-free anisotropic stresses:
   R_phi=Hess phi-(Delta phi)I/3 satisfies P div R_phi=0. Thus anisotropy or
-  trace-free pressure shape alone cannot close the pressure row. This proves no
-  theorem forcing actual Navier-Stokes WKB Reynolds defects into the null class,
-  no legal carriage theorem for nonzero null stresses through the whole
-  profile, no profile admission theorem, no WKB construction/exclusion theorem,
-  no confinement constant, and no MPP closure.
+  trace-free pressure shape alone cannot close the pressure row. The
+  covariance-ballast follow-up adds the actual Reynolds-defect constraint:
+  nonzero trace-free null stresses are not positive covariance defects unless
+  they are padded by positive trace. This proves no theorem forcing actual
+  Navier-Stokes WKB Reynolds defects into the null class, no legal carriage
+  theorem for nonzero null stresses through the whole profile, no profile
+  admission theorem, no WKB construction/exclusion theorem, no confinement
+  constant, and no MPP closure.
 ---
 
 # WKB Reynolds null stresses: exact pressure-law characterization
@@ -198,6 +202,12 @@ Thus a Leray-null stress is not pressure-service closure of the whole profile.
 It is only the exact null branch of the actual velocity-pressure law
 certificate.
 
+For an actual Reynolds defect, there is one more constraint not visible in the
+arbitrary symmetric null class: covariance positivity. A weak quadratic defect
+from velocity products is positive-semidefinite. Therefore a nonzero
+trace-free null stress is not itself an actual Reynolds covariance defect; it
+requires positive scalar trace ballast.
+
 ## 6. Reduced burden
 
 The pressure-law row is now:
@@ -250,7 +260,9 @@ close the pressure row.
 This note proves the exact Leray-null characterization for compactly supported
 smooth Reynolds stresses and the trace-free Hessian null-stress example.
 
-It proves no theorem forcing actual Navier-Stokes WKB Reynolds defects into
-the null class, no legal carriage theorem for nonzero null stresses through the
-whole profile, no WKB profile admission theorem, no WKB construction/exclusion
-theorem, no confinement constant, and no MPP closure.
+The covariance-ballast follow-up proves the separate positivity price for
+actual Reynolds defects. This note itself proves no theorem forcing actual
+Navier-Stokes WKB Reynolds defects into the null class, no legal carriage
+theorem for nonzero null stresses through the whole profile, no WKB profile
+admission theorem, no WKB construction/exclusion theorem, no confinement
+constant, and no MPP closure.
