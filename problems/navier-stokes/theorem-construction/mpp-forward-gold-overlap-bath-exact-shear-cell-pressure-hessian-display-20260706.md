@@ -49,9 +49,9 @@ completion_truth: >-
   constant. What remains is the Reynolds-edge bridge, Gate-8 no-recount
   allocation/compensator, supercritical fast-motion forcing, or
   construction/exclusion.
-  Follow-up same-packet raw allocation obstruction says raw same-field charging
-  of the pressure-service energy remains beta^(4/5) of local producer currency;
-  record-ladder allocation must be Gate-8 no-recount allocation or a
+Follow-up same-packet raw allocation obstruction says raw same-field charging
+of the pressure-service energy remains beta^(4/5) of local producer currency;
+  record-ladder charging must mean Gate-8 no-recount allocation or a
   compensator/residue.
 ---
 
