@@ -417,6 +417,14 @@ codex-f4-w1-seed-demand-cost-no-rescue-audit; the N-scope audit
   \(T_+\). The corrected finite seed row uses \(f_B^2H_B>T_+\) and
   \(L_{\rm seed}^{B,+}=4Q_W/(L_W(1-T_+/(f_B^2H_B)))\).
 
+  CODEX ROUTE-3 SEED SINGLE-CEILING REDUCTION (2026-07-06,
+  codex-route3-seed-single-ceiling-reduction): Door-B monotonicity defines
+  a single ceiling \(T_D\). The shallow row plus Door B plus the finite seed
+  row reduce to \(T_+<T_{\rm seed}\), where
+  \(T_{\rm seed}=\min\{f_B^2H_B,\max(\tau^-,T_D),1\}\). Equivalently the
+  seed side is the one gamma-floor
+  \(C\Gamma_->D_+ + \log(8\pi\rho_+/T_{\rm seed})\).
+
 **Product side (R_prod^{F4,ti,tail} > 0) — final order:**
 1. Delta_G6a source packet: COLLAPSED TO ONE UNWEIGHTED LIVE PRODUCER.
    Items paid: (i) normalization/Jacobian = root-coordinate algebra
