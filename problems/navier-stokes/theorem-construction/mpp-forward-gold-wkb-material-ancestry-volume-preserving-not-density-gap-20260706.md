@@ -212,12 +212,10 @@ admission. They are not the anti-uniform payer.
 Incompressible material ancestry preserves volume, so the uniform WKB density
 is carried to the uniform WKB density. Measure-preserving relabeling is
 unitary in density \(L^2\), hence same-fluid ancestry alone cannot separate a
-legal cloud from the uniform zero mode. If ancestry helps the Gram gap, it must
-add a non-volume service-coordinate mismatch, a transport-current defect with
-variation, custody/bank variation, or construction/exclusion. Thus "same
-material history" is an admission coordinate, not a density
-anti-equidistribution payer. A service-coordinate mismatch is priced by the
-follow-up row-distance formula, so it is an explicit payer only after a
-scale-uniform nonzero mismatch is proved.
+legal cloud from the uniform zero mode. If ancestry helps the Gram gap through
+service coordinates, it must pay the explicit row-distance formula; otherwise it
+must add transport-current variation, custody/bank variation, or
+construction/exclusion. Thus "same material history" is an admission
+coordinate, not a density anti-equidistribution payer.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
