@@ -55,8 +55,12 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \((\nu k^2)/s=\kappa^2/\operatorname{Re}_\Gamma\), and rejects pure K5
     as a uniform high-Re cap. K5 alone has now
     been checked not to supply a uniform high-Re edge cap: for fixed
-    admissible edge amplitude, the K5-only cap grows like Re. Open:
-    high-Re edge payment through return-race/custody/sideband-crowd,
+    admissible edge amplitude, the K5-only cap grows like Re. The
+    raw-Reynolds-budget shortcut is also blocked: total edge dissipation is
+    \(O(A_0)\), while total edge production is
+    \(O(\operatorname{Re}_\Gamma A_0)\), so the Reynolds factor is a Gate-A
+    weighted readout, not a finite payer. Open: high-Re edge payment through
+    return-race/custody/sideband-crowd or a real Gate-A/Theorem-2 allocation,
     Lambda_edge/Duffing sign as secondary diagnostic, custody, composition. K3
     exact-kernel correction filed: a four-variable straight-pair ODE is
     not an invariant reduction, because the exact kernel immediately
