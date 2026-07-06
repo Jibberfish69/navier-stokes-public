@@ -64,8 +64,8 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     recorded at beta^(8/5); FINAL FORM = the up-scale holding recursion
     e_oct: fixed floor => (A) via composition starvation; vanishing =>
     (B) construction. Custody: re-assembly Reynolds threshold filed
-    (quadratic in concentration ratio), thick-debris and
-    payment-identity displays gated. Doubling-comparison certification
+    (quadratic in concentration ratio), thick-debris self-dispersal
+    display gated. Doubling-comparison certification
     scope-restricted to the marginal branch per the high-Re
     obstruction. Custody payment identity filed at scaling level: fast
     thick re-assembly pays pair-energy scale in increment-cubic
