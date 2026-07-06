@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bath-recursion-summability-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-dense-crowd-two-channel-regate-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
 completion_truth: >-
   Strict reduction and scaling obstruction, not a dense-crowd theorem and not a
   confinement-constant decision. After the local affine dynamic obstruction,
@@ -32,7 +33,8 @@ completion_truth: >-
   time-dependent collar-matching cost does not restore an order-one floor. This
   is not an exact unforced Navier-Stokes construction. It leaves the narrower
   exact-matrix burden: unforced evolution, nonlocal pressure/Hodge interaction
-  with signs, same-packet allocation, or an admissible dynamic bath schedule.
+  with signs, Gate-8 no-recount allocation/compensator, or an admissible
+  dynamic bath schedule.
   Follow-up pressure-source scaling raises the pressure-Hessian retuning row to
   beta^(4/5)E_prod, still below an order-one floor.
 ---
@@ -246,7 +248,8 @@ use a mechanism not present in the generic collar scaling:
   affine packet;
 - a nonlocal pressure/Hodge sign or phase constraint not visible in the norm
   scaling;
-- same-packet allocation that charges the bath work in record-ladder currency;
+- Gate-8 no-recount allocation that charges the bath work in record-ladder
+  currency, or a compensator/residue;
 - an exact joint matrix that forces non-shallowing accumulated smallness;
 - or a proof that every summability-valid bath schedule fails in the true
   field.
@@ -266,4 +269,4 @@ relative retune costs \(O(G^2D^5)\). For the overlap demand
 that cost is \(\beta^{8/5}\) of the producer energy, with quadratic and viscous
 collar terms no larger in the high-Re overlap regime. The remaining decision
 is exact and material: unforced evolution, nonlocal pressure/Hodge structure,
-same-packet allocation, or a real dynamic bath construction.
+Gate-8 allocation/compensator, or a real dynamic bath construction.
