@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-pressure-source-scaling-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-fast-motion-threshold-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-same-packet-raw-allocation-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-supercritical-residual-scale-split-20260706.md
 completion_truth: >-
   Strict reduction and threshold obstruction, not a dense-crowd theorem and not
   a confinement-constant decision. The producer-curvature note left the
@@ -30,6 +31,10 @@ completion_truth: >-
   Follow-up same-packet raw allocation obstruction checks that raw same-field
   charging still gives only beta^(4/5) of local producer currency; the needed
   allocation is Gate-8 no-recount allocation or a compensator/residue.
+  Follow-up supercritical residual scale split adds a distinct Reynolds edge:
+  q=4/5 hiding for coherent residual scale theta<=beta^(6/5) requires at least
+  Re_D>>beta^(-8/5), and producer-clock persistence requires
+  Re_D>>beta^(-12/5).
 ---
 
 # Overlap bath: subcell Reynolds threshold obstruction
@@ -203,6 +208,11 @@ The pressure row now has three typed exits:
 - Gate-8 no-recount allocation or compensator:
   raw same-field energy charging remains \(\beta^{4/5}\) of local producer
   currency;
+- fine/sparse residual high-Re edge:
+  q-row hiding of a coherent supercritical residual forces
+  \(\theta\lesssim\beta^{6/5}\), so its own actuation needs
+  \(\operatorname{Re}_D\gg\beta^{-8/5}\), and producer-clock persistence needs
+  \(\operatorname{Re}_D\gg\beta^{-12/5}\);
 - global construction/exclusion:
   a nonlocal pressure bath that avoids the local subcell model, or a proof that
   no such bath is compatible with the true field.
@@ -222,3 +232,8 @@ Above that threshold, producer curvature and persistence stay inside the cheap
 \(q=4/5\) pressure row. Below it, the local subcell construction fails, but the
 failure is only a Reynolds-edge obstruction until it is allocated to
 record-ladder payment, producer suppression, or a global construction/exclusion.
+The later residual scale split adds a stronger hiding demand for coherent
+supercritical residuals: staying in the \(q=4/5\) row at
+\(\theta\lesssim\beta^{6/5}\) requires the high-Re cascade edge
+\(\operatorname{Re}_D\gg\beta^{-8/5}\), or
+\(\operatorname{Re}_D\gg\beta^{-12/5}\) on the producer clock.
