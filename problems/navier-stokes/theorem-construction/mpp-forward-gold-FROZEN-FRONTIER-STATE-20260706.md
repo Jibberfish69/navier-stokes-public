@@ -266,6 +266,16 @@ F1 -> (F2 || F3) -> F4 -> F5.
   home); y2 readout stability under bounded merger; y3 the W1
   coherence clause vs mass-greedy selection; y4 cite the installed
   m_mu display.
+  Codex follow-up adjudicates the remaining y-flags for the F1 scope:
+  `mpp-forward-gold-codex-gate7-pending-verdicts-f1-scope-audit-20260706.md`.
+  For the live F1 one-free-leg local-tail consumer, the old "pending
+  gate verdicts" no longer name an independent Gate-7 mechanism: y1 is
+  consumed by z2 domination + energy reconstruction with unbounded helicity
+  routed; y2 is z4 coloring; y3 is accepted only as the F1 one-leg
+  Landau/mode-lineage row with finite constants carried; y4 is the
+  \(m_\mu\) maximal-threshold citation plus \(m_\mu\)-versus-\(N_{\rm dof}\)
+  safety row, not a fresh theorem. General Gate 7 still carries the full
+  triple-measure disintegration/certification rows if consumed downstream.
 - **F3 producers — CLOSED.** The five clauses reduced and paid:
   chronological energy queue on actual suitable solutions
   (f3-ledger-first-contact + gates); pressure near/far allocation
