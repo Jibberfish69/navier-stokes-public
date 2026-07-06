@@ -219,9 +219,11 @@ cover, it must also lift to a material energy current with
 \[
   A_R=J_R-u\rho_R
 \]
-vanishing or legally carried. It must likewise lift to the same-law tower, with
-derivative graph defects \(G_\alpha\) and differentiated flux defects
-\(R_\alpha\) vanishing or legally carried. Losing either lift is Part-side
+vanishing or legally carried. Same-mass legal carriage means
+\(A_R=w_R\rho_R\), hence \(|A_R|=|w_R|\rho_R\); singular current relative to
+\(\rho_R\) needs an added legal ancestry carrier. It must likewise lift to the
+same-law tower, with derivative graph defects \(G_\alpha\) and differentiated
+flux defects \(R_\alpha\) vanishing or legally carried. Losing either lift is Part-side
 material-ancestry or tower failure; retaining both at terminal frequency is the
 already installed Field-visible high-Sobolev branch.
 
