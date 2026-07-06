@@ -12,6 +12,8 @@ target_object:
   - MaterialTimeCertificateFlowInvariance.A
   - ZeroLossTowerRelayRigidity.A
   - CertifiedSurplusZeroThetaProfileRigidity.A
+  - ThetaRelayDetectorFaithfulnessOrAffineQuotientPayment.A
+  - ParentOwnedPositiveRecordBillCurrency.A
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -26,6 +28,7 @@ ontology_lock:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-coercivity-audit-20260623.md
@@ -51,9 +54,13 @@ completion_truth: >-
   record clock is unweighted. Thus Gate 2 full-tower retention and route-b
   material-time Liouville now share one exact bad sequence: a retained
   same-solution heat-scale profile with positive normalized Theta_N service and
-  vanishing same-packet surplus payers. Current sources do not prove the needed
-  certificate-flow invariance or zero-loss rigidity. No FullTower retention,
-  material-time Liouville theorem, c_0, or MPP closure is claimed.
+  vanishing same-packet surplus payers. The zero-payment relay audit shows that
+  qualitative all-zero relay rigidity does not close this profile until positive
+  Theta_N clock service is detected before readout or paid as persistent
+  affine/root quotient. Current sources do not prove that detector/quotient
+  bridge, the needed certificate-flow invariance, or zero-loss rigidity. No
+  FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
+  claimed.
 ---
 
 # Theta-clock bridge between retention and route-b Liouville
