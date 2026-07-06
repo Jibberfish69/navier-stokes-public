@@ -5,7 +5,7 @@ problem: navier-stokes
 route: forward-gold / c_0 / physical ontology
 status: canonical-ontology-lock
 ontology_lock:
-  fluid_field_object: one same-fluid incompressible Navier-Stokes velocity-pressure history at fixed viscosity
+  fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
   adiabatic: false
   compressible: false

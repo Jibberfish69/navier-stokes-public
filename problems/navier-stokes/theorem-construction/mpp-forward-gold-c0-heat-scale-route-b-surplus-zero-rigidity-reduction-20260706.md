@@ -14,7 +14,7 @@ target_object:
   - GlobalWeightedLaminarAncestryVariationReserve.A
   - FullTowerSignedTotalExchangeRetention.A
 ontology_lock:
-  fluid_field_object: Navier-Stokes same-fluid velocity-pressure field
+  fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
   adiabatic: false
   compressible: false
@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -58,9 +59,11 @@ completion_truth: >-
   first-ratio storage, a global laminar ancestry-variation reserve, or the
   self-similar difference-operator spectral gap/coercivity named by
   ZeroLossTowerRelayRigidity.A after the compact certified material-time shift
-  hull and closed zero-surplus certificate graph are built. The shift-hull
-  follow-up proves the abstract invariance lemma, not those Navier-Stokes
-  compactness or rigidity inputs. The first-ratio storage route is further
+  hull is built and the surplus payer measures are lifted lower
+  semicontinuously. The shift-hull follow-up proves the abstract invariance
+  lemma, and the zero-surplus follow-up proves abstract closedness under that
+  payer-measure lift; neither proves those Navier-Stokes producer inputs or
+  zero-loss rigidity. The first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
   sharpened to persistent root affine quotient payment and then to the single
@@ -307,7 +310,9 @@ missing theorem must add exactly one of:
 \begin{array}{ll}
 \text{route a:} & \texttt{FullTowerSignedTotalExchangeRetention.A},\\[1mm]
 \text{route b1:} & \texttt{CertifiedMaterialTimeShiftHullCompactness.A}
-  +\texttt{ZeroSurplusCertificateClosedGraph.A}
+  +\texttt{ZeroSurplusPayerMeasureLift.A}
+  +\texttt{ZeroSurplusPayerLowerSemicontinuity.A}\\
+&\quad+\texttt{TerminalWindowNoEscapeCompactness.A}
   +\texttt{ZeroLossTowerRelayRigidity.A},\\[1mm]
 \text{route b2:} & \texttt{GlobalWeightedLaminarAncestryVariationReserve.A},\\[1mm]
 \text{storage form:} & \text{bounded-below }\mathscr S_N

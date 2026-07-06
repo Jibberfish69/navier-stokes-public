@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-w0b-b3-material-time-liouville-supplier-map-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -65,8 +66,10 @@ completion_truth: >-
   sources do not prove that detector/quotient bridge. The shift-hull reduction
   proves the abstract material-time invariance lemma, but it lowers the needed
   certificate-flow row to compact certified material-time shift-hull
-  construction plus a closed zero-surplus certificate graph. Current sources do
-  not prove those Navier-Stokes compactness/closedness inputs or zero-loss
+  construction plus a closed zero-surplus certificate graph. The zero-surplus
+  follow-up proves abstract closedness once the payer measures/defects are
+  lifted into the compact certificate, but current sources do not prove those
+  Navier-Stokes payer-measure/lower-semicontinuity inputs or zero-loss
   rigidity. No
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
@@ -235,7 +238,11 @@ A sufficient route is:
 \[
 \texttt{CertifiedMaterialTimeShiftHullCompactness.A}
 +
-\texttt{ZeroSurplusCertificateClosedGraph.A}
+\texttt{ZeroSurplusPayerMeasureLift.A}
++
+\texttt{ZeroSurplusPayerLowerSemicontinuity.A}
++
+\texttt{TerminalWindowNoEscapeCompactness.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
@@ -243,11 +250,13 @@ A sufficient route is:
 \tag{TCL.3}
 \]
 
-The first two rows keep the marginal profile inside the actual same-fluid
-Navier-Stokes evolution by shift-hull invariance. The final row empties the
-invariant zero-surplus set except for zero service. The abstract shift-hull
-lemma is proved in the follow-up file; the compact certified path, closed
-zero-surplus graph, and zero-loss rigidity are not currently installed.
+The first row keeps the marginal profile inside the actual same-fluid
+Navier-Stokes evolution by shift-hull invariance once the compact path exists.
+The payer-measure rows are exactly the closed-zero-surplus graph condition. The
+final row empties the invariant zero-surplus set except for zero service. The
+abstract shift-hull lemma and abstract closed-zero-surplus lemma are proved in
+the follow-up files; the compact certified path, Navier-Stokes payer lift/lsc,
+and zero-loss rigidity are not currently installed.
 
 ## 6. Consequence
 

@@ -20,6 +20,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
 completion_truth: >-
   Bounded proof attempt and strict reduction only. The corrected radiodrome
   object is the one VPI fluid-field read up its participation tower. Pressure
@@ -32,7 +33,8 @@ completion_truth: >-
   The shift-hull follow-up proves the abstract invariance mechanism once a
   compact certified material-time path hull and closed zero-surplus certificate
   graph are built, so the route-b flow row is now reduced to that compact
-  certified path/closed graph construction plus zero-loss rigidity.
+  certified path construction, zero-surplus payer-measure lift/lower
+  semicontinuity, and zero-loss rigidity.
   Thus radiodrome gives a sharp coordinate and a useful bad-sequence detector
   for c_0, not an independent source of c_0. No closure is claimed.
 ---
@@ -213,7 +215,11 @@ paths. The proof-grade route-b package is therefore
 ```math
 \texttt{CertifiedMaterialTimeShiftHullCompactness.A}
 +
-\texttt{ZeroSurplusCertificateClosedGraph.A}
+\texttt{ZeroSurplusPayerMeasureLift.A}
++
+\texttt{ZeroSurplusPayerLowerSemicontinuity.A}
++
+\texttt{TerminalWindowNoEscapeCompactness.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
@@ -279,7 +285,11 @@ or
 ```math
 \texttt{CertifiedMaterialTimeShiftHullCompactness.A}
 +
-\texttt{ZeroSurplusCertificateClosedGraph.A}
+\texttt{ZeroSurplusPayerMeasureLift.A}
++
+\texttt{ZeroSurplusPayerLowerSemicontinuity.A}
++
+\texttt{TerminalWindowNoEscapeCompactness.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}.
 \tag{RTR.16}
