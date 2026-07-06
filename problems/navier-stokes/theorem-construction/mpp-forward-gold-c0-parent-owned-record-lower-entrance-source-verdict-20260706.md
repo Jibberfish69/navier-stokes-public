@@ -18,6 +18,8 @@ allowed_source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter2-refereegrade-closedness-limit-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/spine.md
+derived_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
 completion_truth: >-
   Source-strict lower verdict. This note tests the next possible proof of
   ParentOwnedPositiveRecordBillCurrency.A from the allowed signed-height source:
