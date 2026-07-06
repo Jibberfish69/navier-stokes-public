@@ -108,7 +108,7 @@ radiodromic tower-relay defect as the minimal nonnegative measure
 dR_N^+
 \le
 C\,dA_{4B,N}
-dL_N^{rad},
++dL_N^{rad},
 \tag{RTR.6}
 ```
 
