@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-covariance-ballast-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-ballast-energy-ledger-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-order-selected-carrier-atom-to-cm-field-face-20260621.md
@@ -251,6 +252,16 @@ when \(R=(\tau/3)I+A\) and \(\operatorname{tr}A=0\). Such a defect must be
 handled as PSD null covariance with ballast, as an explicitly legal signed
 certificate, or by one of the other certificate rows.
 
+The ballast-energy ledger identifies the positive trace as unresolved kinetic
+energy:
+\[
+  \mu_R={1\over2}\operatorname{tr}R .
+\]
+Absorbing \(\operatorname{div}R=\nabla q\) into pressure removes the velocity
+force, but it does not erase \(\mu_R\). A nonzero PSD null branch therefore
+carries an energy/profile coordinate that must remain in the admitted witness
+ledger or route to certificate loss.
+
 The cover coordinate is Pack-side. A WKB profile must lift to a uniformly
 bounded finite readout-compatible cover with compact chart parameters and
 closed overlap/readout constraints. Radius collapse, unbounded chart count, or
@@ -297,7 +308,7 @@ ActualWKBCarrierExtraction.A
 MicrolocalDefectProfileAdmission.A, now including certificate compactness for
 the legal-label graph, the Reynolds-defect pressure-law closure fork, and the
 Reynolds-null stress characterization plus covariance-ballast screen, and the
-transport-defect
+ballast-energy ledger, and the transport-defect
 material-ancestry closure fork, and the finite-cover
 compactness fork, the same-law tower defect fork, the product-assembly theorem,
 and the product-lift gluing theorem reducing simultaneous lift to same-packet
