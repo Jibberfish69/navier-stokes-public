@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-witness-closed-graph-admission-criterion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-legal-label-certificate-compactness-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-profile-no-supplier-trichotomy-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-pressure-law-reynolds-defect-closure-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-cover-certificate-compactness-fork-20260706.md
@@ -72,7 +73,12 @@ completion_truth: >-
   material, time, center, envelope, scale, bank, weight, or profile admission.
   This note proves the measure split and blocks the overclaim that tightness or
   microlocal visibility alone proves ActualWKBCarrierExtraction.A or
-  MicrolocalDefectProfileAdmission.A. No profile admission theorem, no WKB
+  MicrolocalDefectProfileAdmission.A. The profile no-supplier trichotomy then
+  consumes the branch after scalar moment passage and legal certificates are
+  part of the object: admitted profile gives Field, first failed certificate
+  gives Pack/Part, and failure to form the tight stabilized profile is selector,
+  carrier, Gram-gap, or construction/exclusion work. No profile admission
+  theorem, no WKB
   construction/exclusion theorem, and no MPP closure is claimed.
 ---
 
@@ -341,6 +347,14 @@ The cover part is likewise separate from scalar service passage. The profile
 must lift to a finite readout-compatible cover certificate. If chart radii
 collapse, chart count escapes, chart parameters escape, or overlap/readout
 compatibility fails, the branch is Pack-side carrier-cover loss.
+
+The no-supplier trichotomy records the profile-level endpoint of these rows.
+Once the scalar moment passes and the law, ancestry, cover, and tower
+certificates are included in the profile object, a retained WKB profile is
+either a legal terminal witness consumed by the Sobolev/Field readout, or the
+first failed row is Pack/Part-typed, or the tight stabilized profile was never
+formed. Thus the atomic/diffuse split leaves profile admission or row failure;
+it does not leave a third retained WKB supplier branch.
 
 ## 8. State
 
