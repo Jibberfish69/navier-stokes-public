@@ -1619,11 +1619,12 @@ surface, not F4 clearance.
    spanned by \(-i(|p|+|q|)e_\perp+|m|e_n\). Thus two multiradius pairs at the
    same output cannot cancel across unequal radius-sum grades. The exact local
    cancellation certificate is now
-   \(\sum_s A_s=0\) and \(\sum_s sA_s=0\), where \(s=|p|+|q|\). One or two
-   radius-sum grades cannot cancel across grades; each grade must cancel
-   internally. The finite live branch is therefore equal-radius-sum internal
-   cancellation, or a three-or-more-grade moment-balanced resonant graph with
-   sideband closure, followed by the same WKB/profile/construction questions.
+   \(\sum_s A_s=0\) and \(\sum_s sA_s=0\), where \(s=|p|+|q|\). In that
+   coplanar reduction, one or two radius-sum grades cannot cancel across
+   grades; each grade must cancel internally. Before the 3D correction below,
+   the finite branch was typed as equal-radius-sum internal cancellation, or a
+   three-or-more-grade moment-balanced resonant graph with sideband closure,
+   followed by the same WKB/profile/construction questions.
    Same-day 3D correction filed: the scalar radius-sum certificate is only the
    common-transverse-plane reduction. In full 3D the transverse azimuth around
    \(m\) is live, and the fixed-output coefficient is
