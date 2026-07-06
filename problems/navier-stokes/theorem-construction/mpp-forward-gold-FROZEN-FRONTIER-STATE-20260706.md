@@ -542,6 +542,29 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   valid, unspent); the c3 mixing-term comparison SUPERSEDED. The
   refill war is rate-versus-rate on one shared clock: the drain's
   rate is financed, the refill's rate is capped by the floor.
+  CONVERGENT CODEX PAYMENT (codex-return-budget-signed-subwindow-
+  fallback, independent of the H note): o3 also paid by splitting
+  on the SIGN SETS of the frozen reference (F_0/B_0; no crossing
+  count, no slow clock); R4-TV immediate on F_0; ParkingTime prices
+  B_0; integral bookkeeping (N_re <= V_lift/delta + 1). T_slow and
+  the mixing term REMOVED from the necessary front on both routes.
+  Live comparisons: Codex route = [C_TV T_* drift_per < delta] +
+  [c2 without mixing]; H route (pending gate) = the single
+  self-financing row absorbing the first. F4 spends the cheaper.
+  CODEX GATED (codex-self-financing-dwell-bound-gate): accepted as
+  proof-shaped. The rate cap controls all above-threshold refill; the
+  two-kind dwell split bounds \(D_1,D_2\) by the BV budget plus total
+  lift; fragmentation costs nothing because the count uses total
+  variation. Correction: \(\delta=q_{\rm per}^-/2\) is the optimizer
+  only when \(q_{\rm per}^-/2<\log2\). In general the live H row is
+  \[
+  \exists\delta\in(0,\min(q_{\rm per}^-,\log2)):\quad
+  T_*\rho^-_{\max}\left({1\over q_{\rm per}^- - \delta}
+  + {1\over\delta}\right)\le {f_{\rm dw}\over2},
+  \]
+  with the same \(\delta\) carried into \(A_0>C_\delta d_{\rm R4}^+\).
+  Endpoint excess is the block-length floor
+  \(T_*B_\phi/((q_{\rm per}^- - \delta)T_{\rm block})\le f_{\rm dw}/2\).
 - **W-II DECOMPOSED (Fable) and CODEX GATED
   (codex-fable-update429-430-pincer-pricing-dwellrun-gate):** the
   corrected block length
@@ -553,13 +576,18 @@ acceptance/verification — partly Codex-gated, with live subgates).**
   import fires only after \(D_j\) is matched to the nested parabolic
   CKN shell quantity and the tail is driven below epsilon.
 - **Remaining named set:** W-0 (NS -> relayed-triad reduction +
-  single-mode handoff); THE RETURN BUDGET ROW, now (pending the H
-  gate) ONE band-symbol comparison + one length floor:
+  single-mode handoff); THE RETURN BUDGET ROW, now gated to the
+  self-financing H row:
+  \[
+  \exists\delta\in(0,\min(q_{\rm per}^-,\log2)):\quad
+  T_*\rho^-_{\max}\left({1\over q_{\rm per}^- - \delta}
+  + {1\over\delta}\right)\le {f_{\rm dw}\over2}
+  \]
+  plus the block-length floor for \(B_\phi\); the raw
   \(16|d_{\rm pkg}|B_1B_2T_*X_{\max}^2 \le
-  f_{\rm dw}A_0\sqrt{G_{\rm thr}}\) (the self-financing dwell
-  fraction row; delta dial free) + \(T_{\rm block}\) floor for
-  \(B_\phi\); AdiabaticSignRouting/T_slow/R4-TV/c3 all
-  unnecessary-or-superseded for this row if the H gate passes
+  f_{\rm dw}A_0\sqrt{G_{\rm thr}}\) is only the
+  \(q_{\rm per}^-/2<\log2\) branch; AdiabaticSignRouting/T_slow/R4-TV/c3
+  are unnecessary-or-superseded for this row
   (pure bookkeeping routes closed by the F2 no-go; a net extraction
   law would instead revive the prefix route); pricing completeness
   \(D_j\le C_{\rm pc}E_j\); the parametric RUN row

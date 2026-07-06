@@ -1057,7 +1057,10 @@ the confinement constant.
    row-distance payer: uniform-compatible linear families still admit the
    uniform bath, and nonuniform families pay by Hilbert row distance. Thus
    density separation must come from an explicit nonzero row-distance payer, a
-   nonlinear/global same-packet law, or construction/exclusion.
+   nonlinear/global same-packet law, or construction/exclusion. The nonlinear
+   same-packet law is now typed exactly: it must prove a positive
+   \(L^2\)-density forbidden ball around the uniform bath, or the near-uniform
+   legal bath sequence remains and the task is construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;

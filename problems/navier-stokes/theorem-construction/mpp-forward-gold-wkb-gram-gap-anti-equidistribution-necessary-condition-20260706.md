@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-raw-cz-bm-growth-is-density-separation-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-finite-certificate-rows-do-not-force-density-anti-equidistribution-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-high-rank-linear-certificates-collapse-to-mismatch-payer-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-nonlinear-same-packet-law-gap-or-construction-dichotomy-20260706.md
 completion_truth: >-
   Strict reduction and exact obstruction only. For a normalized positive WKB
   cloud \(A(a)=\sum_b a_b=1\), let \(u_M=(1/M,\ldots,1/M)\). If the
@@ -68,7 +69,10 @@ completion_truth: >-
   row mismatch \(\delta^T\mathcal G^\dagger\delta\), not certificate
   compatibility itself. The high-rank linear follow-up extends this to growing
   or infinite linear row families: uniform-compatible families still admit the
-  uniform density, and nonuniform families pay by row-distance.
+  uniform density, and nonuniform families pay by row-distance. The nonlinear
+  same-packet follow-up then types the last non-row branch: a positive
+  \(L^2\) forbidden ball around the uniform bath, or near-uniform legal baths
+  remain for construction/exclusion.
 ---
 
 # WKB Gram gap: anti-equidistribution is necessary
@@ -341,6 +345,12 @@ uniform-compatible rows do not separate the cloud, while fixed nonuniform
 moment rows are explicit payers rather than hidden compatibility consequences.
 The same statement holds for high-rank or infinite linear row families after
 replacing the finite Gram inverse by the Hilbert row-distance.
+The nonlinear/global same-packet branch is therefore exactly the positive
+distance statement
+\[
+  \liminf_M\operatorname{dist}_{L^2_\omega}(1,\mathcal C_M)>0;
+\]
+without it, the legal cone contains near-uniform baths.
 
 This is a smaller burden than the previous Gram-gap label. It says exactly what
 the admissible-cone theorem must prevent.
@@ -368,6 +378,8 @@ many bounded certificate rows do not provide that density separation by
 compatibility alone; only a fixed moment mismatch gives an explicit row
 payment. High-rank linear certificate families obey the same dichotomy:
 uniform-compatible means no gap, and nonuniform means explicit row-distance
-payment.
+payment. The remaining nonlinear/global law must supply a positive forbidden
+ball around the uniform bath; otherwise the branch is construction/exclusion of
+near-uniform legal baths.
 
 MPP CLOSURE DENIED. Filed is not cleared. No closure claimed.
