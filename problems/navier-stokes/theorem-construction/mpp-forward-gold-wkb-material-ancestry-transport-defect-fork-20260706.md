@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-wkb-admission-microlocal-profile-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-actual-wkb-carrier-extraction-finite-menu-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-pulse-same-witness-admission-recheck-20260620.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-transport-defect-current-variation-floor-20260706.md
 completion_truth: >-
   Strict reduction only. The material-ancestry/original-participation
   coordinate in WKBCertificateCompactness.A is closed under WKB profile passage
@@ -27,7 +28,10 @@ completion_truth: >-
   while material trajectories selected on favorable phases converge to a curve
   with nonzero velocity. Such a limit has an observable curve/profile but has
   lost same-fluid ancestry. This note proves the flow/transport closedness
-  criterion and the weak-topology countermodel; it does not prove compactness
+  criterion and the weak-topology countermodel. The current-variation follow-up
+  prices legal carriage: same-packet carriage means A=w rho and |A|=|w|rho;
+  singular current relative to rho needs added legal ancestry mass/current or is
+  Part-side original-participation failure. This note does not prove compactness
   or defect-vanishing for actual Navier-Stokes WKB packets, does not prove
   WKBCertificateCompactness.A, does not prove profile admission, does not
   decide the confinement constant, and does not close the MPP.
@@ -237,13 +241,31 @@ same-fluid history.
 This is a Part-side participation/tower failure, not retained pressure-service
 supply.
 
+The legal-carriage option has an exact variation floor. If \(A\) is carried by
+the same packet mass \(\rho\), then
+\[
+  A=w\rho,\qquad |A|=|w|\rho .
+  \tag{MAT.22}
+\]
+Thus nonzero same-packet current defect carries nonzero relative-motion action.
+If
+\[
+  A=w\rho+A^\perp,\qquad A^\perp\perp\rho,
+  \tag{MAT.23}
+\]
+then the singular piece is not carried by the named packet mass. It must be
+supplied by an additional legal ancestry mass/current, or the branch is
+Part-side original-participation failure.
+
 ## 6. Four-sentence result
 
 The material-ancestry certificate is not closed under weak WKB convergence by
 observable profile compactness alone. Passing material histories to a limiting
 profile requires either strong enough flow-map compactness to pass the ODE
 relation, or an Eulerian transport current whose defect relative to the
-limiting velocity vanishes or is legally carried. A simple divergence-free
+limiting velocity vanishes or is legally carried. Legal carriage has exact
+current variation: \(A=w\rho\) gives \(|A|=|w|\rho\), while a singular current
+requires added legal ancestry. A simple divergence-free
 oscillatory shear shows the weak topology failure: legal prelimit material
 paths can converge to a curve not transported by the weak limiting velocity.
 Failure of this test is original-participation / Part-side certificate loss,
