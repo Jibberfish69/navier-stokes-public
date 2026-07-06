@@ -88,6 +88,21 @@ completion_truth: >-
 
 # Reuse tracking floor: the Kelvin supply ledger
 
+## Correction header, 2026-07-06
+
+Codex filed
+`mpp-forward-gold-fresh-holder-architecture-gate-overlap-survivor-20260706.md`.
+The spatial fresh-holder enumeration covers LOCALIZED support only; a
+smooth/broadband bath can OVERLAP the producer region, where neither
+the far-holder harmonic lemma (no vorticity-free standoff ball) nor
+the bottom-tier charge (no localized bottom tier) is licensed. This
+note's ledger is filament-tier and shares that scope: it prices
+localized holders. The consequence claim below is corrected to a
+THREE-object live space: overlap bath (exact matrix / bath-recursion
+branch), reuse tracking floor (this note), Gate-8 allocation. The
+overlap bath remains governed by BD1 (steady-or-tracking), BD3, and
+the summability criterion - typed there, not priced here.
+
 ## 1. Kill condition
 
 The fresh-holder enumeration left reuse as the survivor. The reuse
