@@ -8,6 +8,8 @@ target_object:
   - MaterialTimeLiouvilleExclusion.A
   - MaterialTimeCertificateFlowInvariance.A
   - ZeroLossTowerRelayRigidity.A
+  - CertifiedSurplusZeroThetaProfileRigidity.A
+  - SignedSmoothSamePacketCommutatorCoercivity.A
   - GlobalSameHistoryAffineBurstNoZeno.A
   - GlobalWeightedLaminarAncestryVariationReserve.A
   - FullTowerSignedTotalExchangeRetention.A
@@ -25,6 +27,7 @@ ontology_lock:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -35,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-ratio-tail-surviving-global-storage-frontier-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
 derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
@@ -47,7 +51,9 @@ completion_truth: >-
   cost radius-discounted. The remaining theorem is a global same-history
   surplus-zero rigidity: exclude a certified shrinking heat-scale marginal
   profile whose normalized bills vanish only at ratio one while positive record
-  service persists. Equivalently, prove a bounded-below original-history
+  service persists. The theta-clock bridge sharpens that positive service to
+  the unowned full material strain/coefficient/commutator clock Theta_N from
+  the Gate 2 channel audit. Equivalently, prove a bounded-below original-history
   first-ratio storage, a global laminar ancestry-variation reserve, or the
   self-similar difference-operator spectral gap/coercivity named by
   ZeroLossTowerRelayRigidity.A. The first-ratio storage route is further
