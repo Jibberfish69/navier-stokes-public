@@ -50,10 +50,10 @@ completion_truth: >-
   Navier-Stokes WKB packets, does not prove Reynolds-defect vanishing or legal
   carriage, does not prove transport-defect vanishing or legal carriage, does
   not prove uniform finite-cover compactness, does not prove tower-defect
-  vanishing or legal carriage, does not prove cross-certificate compatibility
-  for actual same-fluid WKB packets, does not prove profile admission, does not
-  prove WKB construction/exclusion, does not decide the confinement constant,
-  and does not close the MPP.
+  vanishing or legal carriage, does not prove common-packet identity
+  compactness for actual same-fluid WKB packets, does not prove profile
+  admission, does not prove WKB construction/exclusion, does not decide the
+  confinement constant, and does not close the MPP.
 ---
 
 # WKB legal-label closedness is certificate compactness
