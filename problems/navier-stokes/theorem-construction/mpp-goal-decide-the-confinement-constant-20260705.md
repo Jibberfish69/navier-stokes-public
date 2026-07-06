@@ -1020,6 +1020,16 @@ the confinement constant.
    service cells with total moment one and square charge \(1/M\). Thus bounded
    effective count remains a separate microlocal quantization/extraction
    theorem, not a consequence of cover compactness.
+   The positive uniform-mode branch is now priced too. A uniform-mode Gram
+   charge is the rank-one all-to-all payer
+   \[
+     \gamma_F\left(\sum_b a_b\right)^2.
+   \]
+   In the overlap-bath pressure channel, order-one \(\gamma_F\) is the same
+   fixed-density tax demand already reduced to producer-equivalent compensator
+   residue. After subtracting any actually backed rank-one payer, the remaining
+   Gram problem is legal anti-equidistribution, residual positivity, or
+   construction/exclusion.
    The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
