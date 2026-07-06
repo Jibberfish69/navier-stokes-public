@@ -12,6 +12,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-edge-log-viscous-reynolds-split-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-lambda-edge-hamiltonian-retype-marginal-viscous-closure-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-theorem2-two-payer-impedance-attack-20260705.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-return-race-handoff-premise-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-custody-trigger-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-gate-a-allocation-alias-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-k5-high-re-sideband-trigger-obstruction-20260706.md
 completion_truth: >-
   Exact obstruction and strict reduction. K5 alone cannot supply a uniform
   high-Reynolds edge cap. The pure viscous edge normal form gives integrated
@@ -19,8 +23,11 @@ completion_truth: >-
   edge mode has no intrinsic positive seed floor. For any fixed admissible A0 in
   the normal-form window, the K5-only supremum over local Reynolds grows like Re.
   Therefore the high-Re edge branch is not a K5 kill-integral problem anymore:
-  it is exactly the high-Re payer problem from the two-payer note. No full
-  confinement constant, crowd result, custody theorem, or MPP closure is claimed.
+  it is exactly the high-Re payer problem from the two-payer note. Same-day
+  follow-ups block the automatic return-race, custody, installed Gate-A, and
+  exact-isolated-edge sideband/crowd shortcuts. No full confinement constant,
+  crowd result, custody theorem, forced sideband theorem, or MPP closure is
+  claimed.
 ---
 
 # K5 high-Re edge: uniform cap obstruction
@@ -117,21 +124,27 @@ while
 
 \[
 \text{high-Re edge}
-\quad\text{must pay by return-race, custody, or sideband/crowd interaction.}
+\quad\text{must pay by forced sideband/leakage/crowd trigger,}
+\quad
+\text{route-out/exclusion, or a new unweighted high-Re mechanism.}
 \tag{K5H.8}
 \]
 
-The second line is the same object as the high-Re payer in the two-payer note:
-inviscid transfer is not spent; it returns unless the next handoff extracts it
-before the return clock. The missing constant is therefore no longer a hidden
-K5 coefficient. It is the uniform lower bound on the high-Re payer.
+The second line is the same object as the high-Re payer in the two-payer note,
+after the trigger checks: inviscid transfer is not spent by pure residence,
+custody has no event to price, installed Gate-A is Reynolds-weighted, and the
+exact isolated edge has zero sideband coordinate. The missing constant is
+therefore no longer a hidden K5 coefficient. It is the uniform lower bound that
+forces contamination, excludes the isolated branch, or supplies a new
+unweighted high-Re payer.
 
 ## 5. Consequence for the work order
 
 The doubling comparison cannot be promoted to the full pair-cell certification
 until the high-Re edge payer is proved or the certification is explicitly
 restricted to the marginal/unit-Re branch. The next load-bearing high-Re object
-is the return-race/custody/sideband floor, not another K5-only edge estimate.
+is the forced-contamination / route-out / unweighted-payer floor, not another
+K5-only edge estimate.
 
 ## 6. Four-sentence result
 
@@ -139,4 +152,4 @@ K5 closes the neutral edge only on the marginal/unit-Re family. In the high-Re
 family, the K5-only residence cap grows like \(\operatorname{Re}A_0\). Because
 the edge mode has no intrinsic seed floor or Reynolds ceiling, K5 alone has no
 uniform high-Re cap. The high-Re edge cell is therefore strictly reduced to the
-two-payer return-race/custody/sideband problem.
+forced-contamination, route-out/exclusion, or new-unweighted-payer problem.
