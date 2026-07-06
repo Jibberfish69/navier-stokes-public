@@ -1227,7 +1227,23 @@ surface, not F4 clearance.
    \(O(\beta^{8/5})\), not a fixed confinement tax. The associated minimizing
    density \(f_K(n)=1-(15/2)n\cdot Kn\) is nonnegative whenever
    \(\lambda_{\max}(K)\le2/15\), so the beta-small angular bath is not merely
-   a signed-row artifact. Follow-up finite-cloud witness: for
+   a signed-row artifact. Follow-up angular Liouville shear calculation gives
+   the dynamic version of the same row. For material WKB covectors in a
+   trace-free producer strain \(S\), the sphere direction field
+   \(D_tn=-Sn+(n\cdot Sn)n\) has divergence \(3n\cdot Sn\). Thus a uniform
+   angular density has Liouville derivative \(3S:Q_n\), the induced moment
+   derivative is \(D_tK=(2/5)S\), and
+   \[
+     \|D_tf\|_{L^2(S^2)}
+     =
+     \sqrt{15/2}\,\|D_tK\|_F
+     =
+     \sqrt{6/5}\,|S|_F .
+   \]
+   Material angular shear therefore creates pressure moment along the exact
+   least-distance row. It proves the uniform angular bath is not dynamically
+   parked under strain, but it is still the beta-small service-coordinate row,
+   not an independent order-one confinement tax. Follow-up finite-cloud witness: for
    \(K=\sum k_i e_i\otimes e_i\), choose
    \(\varepsilon\ge3\lambda_{\max}^+(K)\) and set
    \(m_i=\varepsilon/3-k_i\). The paired weights \(m_i/2\) at \(\pm e_i\)
@@ -1452,7 +1468,13 @@ surface, not F4 clearance.
    actual problem: construct or exclude a near-uniform same-fluid WKB bath
    that evades finite/atomic carrier admission, microlocal-profile
    admission, high-factor routing, Pack/Part certificate failure, and the
-   WKB profile no-supplier trichotomy. The same-helicity Beltrami cone now has
+   WKB profile no-supplier trichotomy. The material angular Liouville row now
+   says uniform angular density is not dynamically parked: under producer
+   strain \(S\), \(D_tf=3S:Q_n\) and \(D_tK=(2/5)S\). This is exactly the
+   least-distance angular row, \(\|D_tf\|_2=\sqrt{15/2}\|D_tK\|_F\), so
+   angular production and angular anti-uniformity co-activate, but only in the
+   beta-small service-coordinate currency already priced. The same-helicity
+   Beltrami cone now has
    the sharp trace-ballast floor
    \(\tau\ge\sqrt6|A|_F\) for \(C=(\tau/3)I+A\), so cone-compatible
    trace-free covariance is not a zero-trace survivor. At fixed trace, its
