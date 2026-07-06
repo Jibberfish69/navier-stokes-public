@@ -328,10 +328,10 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
    supplies a nonzero traceless Hessian at the same \(HD^5\) scale.
    The shear-cell time-persistence check adds that constant-direction pressure
    service drifts only by \(\beta^{2/5}+\nu/(sD^2)\) over one producer clock.
-   Therefore the exact matrix must use exact unforced evolution, nonlocal
-   pressure/Hodge structure, same-packet allocation, or a real summability-valid
-   bath construction, not a pointwise affine or generic collar tax. The reuse
-   tracking ledger now prices
+   Therefore the exact matrix must use fast pressure-direction tracking if
+   forced, localization, producer coupling, same-packet allocation, or a real
+   summability-valid bath construction, not a pointwise affine, generic collar,
+   source-mean, or constant-persistence tax. The reuse tracking ledger now prices
    localized reuse supply growth by Kelvin: approach is a finite
    per-encounter budget; sustained geometry-work pays on the production clock;
    imported circulation, own amplification, and viscosity route to existing
