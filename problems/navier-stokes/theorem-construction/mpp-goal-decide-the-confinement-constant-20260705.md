@@ -1603,6 +1603,17 @@ surface, not F4 clearance.
    zero-amplitude interactions. The surviving Beltrami bath must be
    infinite/dense WKB, localized/enveloped, same-fluid transported, or an
    actual construction/exclusion branch.
+   Same-day scope correction filed: the maximal-alignment proof closes the
+   same-two-shell duplicate-output subcase, but its displayed larger-alignment
+   step is not radius-free. The exact lattice witness
+   \((-2,-1)+(-1,-1)=(-2,0)+(-1,-2)\) has selected alignment
+   \(3/\sqrt{10}\), while the off-diagonal alignments are \(4/5\) and
+   \(1/\sqrt2\), so cross-radius duplication need not create a larger
+   normalized-alignment pair. Therefore the finite/dense Beltrami algebra is
+   retyped: same-two-shell resonant graphs are blocked by maximal alignment,
+   while multiradius resonant graph closure, nonattainment/accumulation,
+   unbounded fragmentation, profile admission/certificate failure, or actual
+   construction/exclusion remains open.
    Bounded-custody
    same-bank persistence is also removed by the installed ledger: for total
    weight \(W\), relative carrier-window width \(\Delta\), weight variation
