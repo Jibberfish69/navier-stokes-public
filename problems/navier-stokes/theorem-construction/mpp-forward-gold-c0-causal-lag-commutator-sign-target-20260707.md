@@ -74,7 +74,11 @@ completion_truth: >-
   embedding. The remaining sign work is therefore same-edge pre-readout custody
   carrying the signed retained current, selected first-ratio bill currency,
   detector/channel custody, and uniform positivity of the retained linearized
-  pressure-response stability index, or a typed route-out.
+  pressure-response stability index, or a typed route-out. Section 20 records
+  the isotropy guard: isotropic scalar pieces are permitted as trace/gauge/pass
+  components, but incompressibility forbids nonzero isotropic strain and scalar
+  pressure/rotation pieces commute with \(S\), so no isotropic piece can be the
+  retained \(c_0\) brake.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1458,3 +1462,42 @@ currency. This is the linearized strict-attractor version of \(c_0>0\). It is
 not proved by saying that the retained selection pins a single angular point:
 the retained selection pins the local vorticity direction, while \(L^P\) is still
 the nonlocal Calderon-Zygmund pressure response of the whole same field.
+
+## 20. Isotropy admissibility guard
+
+The physical rule is simple: isotropy is allowed only as a scalar/pass component,
+not as the retained brake.
+
+For strain, incompressibility gives
+
+```math
+\operatorname{tr}S=\nabla\cdot u=0.
+\tag{CLS.92}
+```
+
+Thus an isotropic strain \(S=\alpha I\) has \(\alpha=0\). A nonzero retained
+self-stretching packet is necessarily anisotropic in its strain geometry.
+
+For the pressure Hessian and \(\Omega^2\), scalar parts may be present. Write
+
+```math
+\nabla^2p={1\over3}(\Delta p)I+(\nabla^2p)^{\rm tf},
+\qquad
+\Omega^2={1\over3}\operatorname{tr}(\Omega^2)I+(\Omega^2)^{\rm tf}.
+\tag{CLS.93}
+```
+
+The scalar pieces are aligned with every frame and commute with \(S\):
+
+```math
+[S^2,\alpha I]=0.
+\tag{CLS.94}
+```
+
+They can move trace/diagonal bookkeeping or participate in the reversible
+restricted-Euler skeleton, but they cannot rotate the strain eigenframe and
+cannot supply the transverse \(c_0\) brake. A physically real \(c_0\)-bearing
+scenario must therefore put the work in the anisotropic trace-free transverse
+pressure response, with same-edge vorticity/current and detector custody. Any
+attempt to make an isotropic piece carry the retained sign is a pass/gauge/free
+component or a route-out, not a \(c_0\) mechanism.
