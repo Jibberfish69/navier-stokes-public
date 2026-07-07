@@ -3022,3 +3022,73 @@ The remaining proof obligations are now specific:
 If those four obligations are proved uniformly over the strict participation
 atom class, the log endpoint is removed by a genuine non-affine collar payment.
 Until then, this is a corrected bridge candidate, not a \(c_0>0\) proof.
+
+## 25. Proved subcase: fixed axisymmetric affine-plateau turn-off
+
+The corrected bridge has one fixed-geometry subcase that can be proved now. In
+the axisymmetric no-swirl \(l=2\) class,
+
+```math
+u=A(r)Dx+B(r)(x\cdot Dx)x,
+\tag{VPL.242}
+```
+
+the divergence-free equation and the \(P_4\)-free condition reduce, for
+
+```math
+\rho=\frac{r^2B}{A},
+\qquad
+\tau=\frac{rA'}{A},
+\tag{VPL.243}
+```
+
+to
+
+```math
+r\rho'
+=
+-\frac{\rho(3\rho^2+4\rho-2)}{2\rho+1}.
+\tag{VPL.244}
+```
+
+If the selected packet contains an exact affine plateau, then on the inner
+plateau
+
+```math
+\rho=0,\qquad \tau=0.
+\tag{VPL.245}
+```
+
+At any positive collar radius the ODE (VPL.244) is locally Lipschitz at
+\(\rho=0\). Hence an exact \(P_4\)-free continuation from the plateau has
+\(\rho\equiv0\), \(\tau\equiv0\), and therefore
+
+```math
+A\equiv A_0,\qquad B\equiv0.
+\tag{VPL.246}
+```
+
+It remains the same affine field and cannot turn off at the outer collar
+boundary. Thus a fixed-geometry axisymmetric collar with an exact nonzero
+affine plateau and an outer finite-energy turn-off must either emit \(P_4\)
+pressure or spend relative viscous collar work.
+
+On a compact fixed normalized class this gives
+
+```math
+\|\Pi_4(\partial_i u_j\partial_j u_i)\|_{\rm press}
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a)
+\ge
+c_{\rm ax,plat}\mathsf S(u).
+\tag{VPL.247}
+```
+
+The bill in (VPL.247) is the same pressure-viscous participation bill as
+(VPL.222). This is a real paid subcase, not a new detector.
+
+It does not prove the all-tower \(c_0\) floor. The remaining long-chain problem
+is precisely the loss of the exact fixed plateau: approximate/no-plateau
+turn-off, log-spread same-affine chains, non-axisymmetric hiding, and the
+uniform atomization accounting still have to be proved in the full strict
+participation atom class. The detailed sublemma is recorded separately in
+`mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
