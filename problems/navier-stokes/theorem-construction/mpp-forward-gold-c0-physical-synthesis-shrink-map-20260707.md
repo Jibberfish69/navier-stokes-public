@@ -1100,6 +1100,94 @@ sharp current representative is the moving low-high / stopped primitive PLS
 half-barrier, with record-edge admission required before the record can consume
 that stopped primitive story.
 
+The record-edge admission bridge is not a new lower wall either. The same-packet
+Hodge/material-service sources identify every higher exact-projector residue as
+moving pressure/strain service of the retained packet, but payment still
+requires that the record edge enter the stopped primitive channel before
+readout. The current source split is
+
+\[
+\begin{aligned}
+&\texttt{RecordMenuPressureActiveOrSilentService.A}\\
+&+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}\\
+&+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}
+\end{aligned}
+\Longrightarrow
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}.
+\tag{CPS.26m9}
+\]
+
+Each face returns to an existing same-edge entrance/payment obligation. The
+pressure-active/silent face splits into a finite-dimensional quotient-angle
+part and a detector-silent service reserve. The quotient side is linear algebra
+after the active subbundle and near-silent collar are fixed. The detector-silent
+side is not a pressure theorem; local silent-source and complete-frame routing
+only assign a same-packet service address. The record-level reserve is the
+original-history strict half-barrier in silent-service coordinates:
+
+\[
+\texttt{StoppedPrimitivePLSStrictHalfBarrierBreak.A}
+\Longrightarrow
+\texttt{RecordMenuDetectorSilentServicePreReadoutReserve.A}
+\Longrightarrow
+\texttt{RecordMenuPressureActiveOrSilentService.A},
+\tag{CPS.26m10}
+\]
+
+equivalently `OriginalHistoryDetectorSilentStrictHalfBarrier.A'. The half-tail
+\(\nu_L=2^{-L}/(L+1)\) still defeats any inference from local service mass to
+record-weighted reserve.
+
+The common-selector face is the retained-edge version of the selector capture
+problem already isolated above:
+
+\[
+\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}
++\texttt{stopped-selector variation/payment support}
+\Longrightarrow
+\texttt{RetainedRecordEdgeCommonSelectorRefinementNoLoss.A}.
+\tag{CPS.26m11}
+\]
+
+The primitive-channel face is also not a free consequence of same-packet
+pressure/strain identity. It reduces to selector/projector channel alignment,
+then to angle-lock or paid rotation:
+
+\[
+\texttt{RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgeSelectorProjectorChannelAlignment.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgePrimitiveChannelCompatibility.A}.
+\tag{CPS.26m12}
+\]
+
+The paid-rotation branch has already been collapsed. After
+parent-announced selector capture, near-silent mismatch returns to the
+detector-silent reserve and genuine selector/channel rotation returns to
+selected-density/full-exchange first-ratio gain. Both are consumers of the
+pre-entrance selected-critical original-history payment:
+
+\[
+\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}
++\bigl(
+\texttt{CriticalFreshSourceTentCarleson.A}
+\text{ or }
+\texttt{FreshSourceCriticalScaleMemoryBound.A}
+\bigr)
+\Longrightarrow
+\texttt{ParentAnnouncedAngleLockWithFiniteRotation.A}.
+\tag{CPS.26m13}
+\]
+
+Thus the record-edge admission side has three nonduplicate physical inputs:
+parent-announced selector capture; retained exact-projector \(C^{1,1}\)
+chart/tower-or-exit; and pre-entrance selected-critical original-history payment
+for detector-silent service plus selector/projector rotation. It does not add a
+fourth proof route below c0.
+
 The order-lock partner gate also collapses back to the existing selected
 full-packet payment. If
 
