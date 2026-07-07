@@ -173,6 +173,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -1245,6 +1248,16 @@ tower coherence and Chapter 2 closedness are support; they do not by themselves
 rule out a thin material-frame curvature spike that is invisible to the averaged
 Field/viscous bill while still rotating the exact pressure projector at the
 active wavelength.
+
+The existing local-thickness rows do not automatically prove this chart row.
+`LocalRecordFaceThicknessOrChargeModulus.A' controls positive record subfaces
+inside an admitted carrier, and
+`PrimitivePreReturnFaceTraceUniformIntegrabilityOrCharge.A' controls primitive
+face-trace event mass. A low-pass curvature superlevel \(K_j^{lo}\) becomes
+eligible for those rows only after it is admitted as the same chart/face subevent
+with a finite same-chart charge. Until that bridge is proved,
+`RetainedCurvatureSpikeThicknessOrCharge.A' is the chart-coordinate
+thickness theorem, not an alias for face compactness support.
 
 The angle/payment part is not a new producer. It is the same selected-critical
 Gold price already appearing above as selected-generator storage, positive
