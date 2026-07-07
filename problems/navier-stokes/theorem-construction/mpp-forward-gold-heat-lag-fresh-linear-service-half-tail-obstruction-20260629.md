@@ -29,7 +29,7 @@ completion_truth: >-
   windows are forced into motion, return, viscosity, legal, or stop.  The later
   same-parent pushforward audit reduces that fresh-linear wall to `(WLF.60)':
   finite parent-weighted first-admission pulse measure from the original coupled
-  packet before child positive clipping.  Entropy, Hilbert/BMO, reverse-Holder,
+  packet before selected positive-part readout.  Entropy, Hilbert/BMO, reverse-Holder,
   and terminal no-atom language are deterministic consumers once that parent
   active density/root carrier exists; they do not construct the pulse measure
   by themselves.
@@ -306,7 +306,7 @@ J_P(P_{F_I}\psi_I^P)
 \tag{WLF.17}
 \]
 
-with the weighted positive read admitted before child clipping:
+with the weighted positive read admitted before selected positive-part readout:
 
 \[
 \omega_I|J_P(P_{F_I}\psi_I^P)|
@@ -429,7 +429,7 @@ S_I
 
 Thus the needed theorem is a no-recount theorem for the signed parent impulse
 variation.  The first audit correction is that the retained and fresh branches
-must not be merged.  Before the child clips the positive readout, split the
+must not be merged.  Before the child selects the positive readout, split the
 same parent detector as
 
 \[
@@ -986,7 +986,7 @@ first-admission map is
 \tag{WLF.50}
 \]
 
-The parent-weighted detector is the detector built before child clipping:
+The parent-weighted detector is the detector built before selected positive-part readout:
 
 \[
 \Phi_I^P
@@ -1009,7 +1009,7 @@ row current \(dK_P\) is the child finite difference:
 \]
 
 The selected-critical weight is already inside \(\Phi_I^P\).  It is not
-multiplied onto the child after the positive part is clipped.
+multiplied onto the child after the positive part is selected.
 
 First-admission update.  Order the retained readouts by stopped material time
 and ancestry.  Before \(I\), let \(\mathcal E_{<I}^P\) be the paid parent-current
@@ -1141,14 +1141,14 @@ variation by raw Bessel square mass.
 ## 10. Entropy/BMO consumer coordinate
 
 The selected-density and entropy route is useful only after the same parent
-packet has already produced a pre-clipping active density.  If
+packet has already produced a pre-readout active density.  If
 
 \[
 d\mu_P^{pw}=f_P\,d\mathcal R_P
 \tag{WLF.62}
 \]
 
-is parent-known before child clipping and the root entropy capacity
+is parent-known before selected positive-part readout and the root entropy capacity
 
 \[
 \mathcal C_P^{ent}
@@ -1167,7 +1167,7 @@ are consumer languages for this same deterministic implication.
 This proves a strict reduction, not Gold closure:
 
 \[
-\text{parent active entropy/root BMO before clipping}
+\text{parent active entropy/root BMO before positive-part readout}
 \Longrightarrow
 \text{terminal-uniform selected }L^1 .
 \tag{WLF.64}
@@ -1215,7 +1215,7 @@ noncircular proof of the three grants behind that line:
 \begin{array}{ll}
 \text{(i)}&
 \text{stopped Duhamel-Hodge propagator and bounded parent detector estimates}\\
-&\text{from the original coupled packet before child clipping;}\\
+&\text{from the original coupled packet before selected positive-part readout;}\\
 \text{(ii)}&
 \text{zero-baseline endpoint/source admission without using the}\\
 &\text{full-exchange storage being proved;}\\
@@ -1266,7 +1266,7 @@ This is the present proof-sized form of `(WLF.60)' in the heat-lag coordinate.
 Same-parent detection, Bessel square, entropy/BMO, retained heat decay, endpoint
 admission, and Duhamel formulas are support.  Active capacity and full-exchange
 language are support as well until `(WLF.67)' is proved from the original
-pressure-viscosity-incompressibility packet before child clipping, or until one
+pressure-viscosity-incompressibility packet before selected positive-part readout, or until one
 of its storage faces is proved independently without reserve self-financing.
 For Gold force after the signed-height restart, the same storage must also be
 record-admitted: the selected meter controlled by `(WLF.67)' has to be the
