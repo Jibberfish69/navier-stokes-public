@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / alignment-lag / first-ratio storage audit
-status: strict-reduction-not-proof-alignment-lag-is-coordinate-of-moving-driver-first-ratio-wall
+route: forward-gold / c_0 / alignment-lag / bill-record epsilon extraction / first-ratio storage audit
+status: strict-reduction-not-proof-alignment-lag-is-coordinate-of-bill-record-compactness-wall
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -11,6 +11,8 @@ ontology_lock:
   compressible: false
 target_objects:
   - StrictAlignmentDeficitStretchVsSpin.A
+  - NormalizedRelayBillCompactnessRecordPassage.A
+  - zero-bill positive-record kernel
   - MovingLowHighPressureStrainPumpFiniteWork.A
   - StoppedFreeMaterialGraphDriverCarleson.A
   - GlobalSameHistoryNoFreeUpwardTransfer.A
@@ -18,6 +20,8 @@ target_objects:
   - GlobalSamePacketFullWeightBeatingTail.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
@@ -29,23 +33,29 @@ source_refs:
 completion_truth: >-
   Strict reduction and no-shortcut audit. The physical alignment-lag picture is
   a useful sign coordinate for c_0, but it is not a lower producer than the
-  current moving low-high / first-ratio wall. The local quantity
+  bill-record epsilon extraction wall. The surviving c_0 object is the positive
+  normalized infimum epsilon_* = inf_{retained R(W)=1} B(W)>0, where B is the
+  irreversible Field/four-body/viscous bill and R is the one-way retained relay
+  record. The zero-bill kernel gives only B=0 => R=0 or route-out; the missing
+  proof is compactness plus record passage from B->0, R=1 to a forbidden
+  zero-bill positive-record limit. The local quantity
   alpha=xi.S xi and the local spin |omega| are instantaneous scale-covariant
   readings of the same grad u; they locate the marginal tie but do not by
-  themselves produce a finite same-history charge. To close c_0, the lag must
-  supply a uniform retained-packet inequality that pays the selected
-  first-ratio action, equivalently finite work of the moving low-high
-  pressure/strain pump, a bounded-below same-material no-free-upward-transfer
-  storage, a strict good-lambda half-barrier break, a direct original-data
-  subcritical matrix face, or a typed route-out. The installed half-tail model
-  still satisfies raw energy, laminarity, complete-frame support, and
-  conditional line payment while making the first-ratio sum diverge. Therefore
-  "strict alignment deficit" cannot be used as a standalone closer; it must be
-  proved as the same weighted first-ratio / moving-driver theorem already
-  isolated by the shrink map. No c_0 or MPP closure is claimed.
+  themselves produce that compactness or a finite same-history bill. To close
+  c_0, the lag must supply the epsilon extraction theorem directly, or a uniform
+  retained-packet inequality that pays its selected first-ratio bill currency:
+  finite work of the moving low-high pressure/strain pump, a bounded-below
+  same-material no-free-upward-transfer storage, a strict good-lambda
+  half-barrier break, a direct original-data subcritical matrix face, or a typed
+  route-out. The installed half-tail model still satisfies raw energy,
+  laminarity, complete-frame support, and conditional line payment while making
+  the first-ratio sum diverge. Therefore "strict alignment deficit" cannot be
+  used as a standalone closer; it must be proved as bill-record compactness /
+  record passage or as the same weighted first-ratio / moving-driver theorem
+  already isolated by the shrink map. No c_0 or MPP closure is claimed.
 ---
 
-# Alignment lag must pay the first-ratio wall
+# Alignment lag must pay the bill-record wall
 
 ## 1. Same object
 
@@ -69,11 +79,48 @@ local spin scale. Both are readings of \(\nabla u\). This makes the alignment
 race the right physical diagnostic for the marginal tie, but it does not yet
 make a bill.
 
+The live c_0 extraction sits one layer above the first-ratio readout. For a
+retained relay window,
+
+\[
+R(W)=\int_W dR_N^+,
+\qquad
+B(W)=\int_W\bigl(dE_{N,h}^{Field}+dA_{4B,N}+dVisc_{N,h}\bigr).
+\tag{ALF.1a}
+\]
+
+The target is
+
+\[
+B(W)\ge\varepsilon R(W),
+\qquad
+\varepsilon_*=\inf_{R(W)=1}B(W)>0,
+\qquad
+c_0=2\varepsilon_*.
+\tag{ALF.1b}
+\]
+
+The zero-bill kernel supplies only
+
+\[
+B(W)=0\Longrightarrow R(W)=0
+\quad\hbox{or route-out.}
+\tag{ALF.1c}
+\]
+
+Thus the missing theorem is not the kernel. It is compactness and record
+passage: a sequence with \(R(W_j)=1\) and \(B(W_j)\to0\) must yield a retained
+same-fluid zero-bill positive-record limit, contradicting the kernel. The
+first-ratio forms below are bill currencies/readouts for this extraction, not a
+replacement for it.
+
 ## 2. What a proof would have to add
 
 A usable alignment-lag theorem cannot only say that nonlocal strain should lag
-local spin. It must produce a retained same-packet charge. In the current
-variables this means a finite measure or bounded-below storage satisfying
+local spin. It must produce bill-record compactness/record passage, or else a
+retained same-packet charge strong enough to pay the same epsilon extraction.
+In the current variables this means a finite measure or bounded-below storage
+satisfying
 
 \[
 d\mathscr S_N+c_N\,d\Omega_N^{first}
@@ -113,7 +160,7 @@ H_{j,N},
 \]
 
 Thus the strict alignment deficit is not a new lower object. It is a proposed
-physical sign for `(ALF.2)'--`(ALF.5)'.
+physical sign for `(ALF.1b)' through `(ALF.2)'--`(ALF.5)'.
 
 ## 3. Half-tail countertest
 
@@ -181,6 +228,6 @@ record climb.
 
 This audit does not disprove the alignment-lag idea. It locates the exact
 mathematical burden it must pay. The statement "nonlocal strain lags local
-spin" becomes a \(c_0\) proof only after it is upgraded to the same weighted
-first-ratio / moving-driver / no-free-upward-transfer theorem already exposed
-by the physical shrink map.
+spin" becomes a \(c_0\) proof only after it is upgraded to bill-record epsilon
+extraction, or to the same weighted first-ratio / moving-driver /
+no-free-upward-transfer theorem already exposed by the physical shrink map.
