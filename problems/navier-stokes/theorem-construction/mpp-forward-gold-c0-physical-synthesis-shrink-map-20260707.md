@@ -1345,9 +1345,11 @@ graph driver bound `(CPS.20)'--`(CPS.21)', proves
 reduces that temporal bill-currency row to the existing same-parent
 positive-selection storage theorem,
 proves a strictly smaller noncircular supplier for one of those clauses, proves
-the repeated-core record/return or shrinking-core reset branch by constructing
-the same parent-known pre-readout state/currency/record-storage object from
-original data, proves same-carrier overrun tail UI before terminalization,
+the common original-history transition derivative / original-ledger generator
+storage producer beneath the repeated-core record/return and shrinking-core reset
+faces by constructing the same record-admitted parent-known
+state/currency/record-storage object from original data, proves same-carrier
+overrun tail UI before terminalization,
 proves theta-payer/pre-readout admission with the signed carrier retained, or
 gives a typed route-out in the CM grammar.
 New labels that do not do one of those jobs are coordinates of this wall, not
