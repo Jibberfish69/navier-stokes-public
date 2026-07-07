@@ -42,6 +42,8 @@ target_object:
   - FullExchangeCriticalDepletionStorage.A
   - RecordFeedingSurplusPerronClassExclusion.A
   - FullTowerPositiveChannelThreeMeasureAdmission.A
+  - MovingDriverFixedChartJordanOrientationAllocation.A
+  - MovingDriverPreEnvelopeSignedCurrentRetention.A
   - SignedSmoothSamePacketCommutatorCoercivity.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - MovingLowHighPressureStrainPumpFiniteWork.A
@@ -118,6 +120,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
@@ -549,6 +553,39 @@ the missing signed storage cannot be a bounded-below local primitive of line
 stretch. The sign must come from the non-affine, nonlocal
 pressure-viscosity-incompressibility coupling of the same packet, or the branch
 must pay the affine/collar bill or route out.
+
+The moving-driver orientation audit removes one sub-obstruction inside this
+pre-envelope line. After a raw moving-driver event has a parent-known fixed
+material chart, the positive leg, negative partner, and signed current are
+ordinary Hahn-Jordan pieces of the same raw current:
+
+\[
+\texttt{PrimitiveSignedChannelDirectMaterialRepresentation.A}
++\texttt{fixed-chart finite raw throughput}
+\Longrightarrow
+\texttt{MovingDriverFixedChartJordanOrientationAllocation.A}.
+\tag{CPS.3i}
+\]
+
+That is not three-measure admission. It only says the sign split is available
+after the raw event is owned. The surviving c0 burden is:
+
+\[
+\begin{gathered}
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}\\
++\texttt{RetainedRecordEdgePreReadoutCustodyTuple.A}\\
++\texttt{same-event no-recount / no-delamination / first-ratio bill currency}
+\end{gathered}
+\Longrightarrow
+\texttt{MovingDriverPreEnvelopeSignedCurrentRetention.A}
+\Longrightarrow
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
+\tag{CPS.3j}
+\]
+
+So the present wall is not orientation allocation. It is ownership and
+bill-currency retention of the moving low-high pressure/strain event before
+selected positive-part readout and through the normalized compactness passage.
 
 The TFE2748B rows open the full-exchange ledger into Duhamel-Hodge pullback,
 early-fibre/source admission, retained heat gap, endpoint/log-carrier, active
