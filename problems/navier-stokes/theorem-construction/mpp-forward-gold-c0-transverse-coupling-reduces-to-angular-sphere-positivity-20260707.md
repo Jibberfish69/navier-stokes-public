@@ -23,7 +23,10 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   physically real but not free; it must be retained and billed or route out.
   Claude's stretched-vortex narrowing is accepted only as a physically real
   profile branch: it constrains \(L^P\) after a retained-profile reduction is
-  proved, but it does not replace the full retained minimax by itself.
+  proved, but it does not replace the full retained minimax by itself. The local
+  BKM/CKN gate supplies non-removable critical visibility on singular retained
+  moving cylinders; it still needs a same-edge-current upgrade before the
+  \(c_0\) pressure-response sign can be read.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -85,7 +88,11 @@ completion_truth: >-
   strict-tilting wall, but it is a branch theorem rather than a closure: one must
   prove that every retained marginal tower reduces to a stretched-vortex profile,
   is paid/summable, or routes out, and then prove strict positivity of
-  \(\mathcal I_{\rm lin}\) on that profile class.
+  \(\mathcal I_{\rm lin}\) on that profile class. The later local BKM/CKN packet
+  reduces same-edge custody to a visibility theorem only after the retained
+  moving-frame hypotheses are installed; the remaining upgrade is from local
+  critical/vorticity visibility to the same selected current and detector
+  channel, or a typed route-out.
 ---
 
 # Corrected transverse-coupling reduction
@@ -253,6 +260,20 @@ followed by a strict profile bound for
 The older strict-tilting notes mark why this is not automatic: the self-tilting
 mechanism is real, but the raw stretched-vortex picture lands at break-even
 unless the retained pressure-response profile has a strict excess.
+
+The local BKM/CKN correction helps only up to the visibility line. On a retained
+moving-frame branch, a singular endpoint forces non-removable critical
+velocity-pressure visibility, and a locally vorticity-free potential patch is a
+regular/pass branch. The \(c_0\) use still needs the upgrade
+
+```math
+\texttt{LocalVorticityVisibilityToSameEdgeCurrentOrRouteOut.A}.
+```
+
+That theorem must put the visible vorticity on the same selected
+strain/current detector feeding \(L^P\). Without that same-edge upgrade, the
+branch is a different carrier, a pressure bank, a paid profile collar, or a
+route-out, not the terminal sign proof.
 
 ## 6. Honest status
 
