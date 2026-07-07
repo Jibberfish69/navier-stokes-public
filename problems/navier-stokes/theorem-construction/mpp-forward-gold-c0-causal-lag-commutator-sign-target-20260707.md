@@ -1391,7 +1391,7 @@ be recaptured by same-edge custody.
 Second, the single local configuration \(\omega\parallel e_1\) does not freeze
 the nonlocal pressure embedding. Write \(S e_i=\lambda_i e_i\) with
 \(\lambda_1>\lambda_2>\lambda_3\), \(d_j=\lambda_1-\lambda_j\), and
-n=\omega/|\omega|\). For \(j=2,3\), put \(a_j=n\cdot e_j\). At \(\nu=0\),
+\(n=\omega/|\omega|\). For \(j=2,3\), put \(a_j=n\cdot e_j\). At \(\nu=0\),
 linearizing near \(n=e_1\) gives
 
 ```math
