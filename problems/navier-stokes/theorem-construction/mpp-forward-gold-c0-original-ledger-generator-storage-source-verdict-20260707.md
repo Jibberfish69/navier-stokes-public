@@ -36,6 +36,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
 completion_truth: >-
   Source-strict proof attempt for the active c_0 goal. The allowed sources do
   not install StrictOriginalLedgerGeneratorStorage.A or
@@ -55,7 +56,9 @@ completion_truth: >-
   the residual matrix subcritical. The downstream absorption from such a
   bill-coercive subcritical matrix to ParentOwnedPositiveRecordBillCurrency.A is
   now proved as a conditional criterion; the unproved part is producing the
-  matrix from the Navier-Stokes parent packet.
+  matrix from the Navier-Stokes parent packet. The compact pressure test retypes
+  that producer as a qualitative zero-bill unit-cycle exclusion on the
+  record-admitted finite parent-face bundle.
 ---
 
 # Original-ledger generator storage: source verdict for the c0 extraction
@@ -269,3 +272,5 @@ The active first failed gate remains Gate2 positive-record ownership. The
 smallest nonduplicate producer now visible inside that gate is the
 bill-coercive record-admitted active-critical/full-exchange storage matrix
 `(OLS.12)', with the exact-projector chart row as the legal-reading companion.
+Equivalently, after finite retained charting, it is the qualitative exclusion of
+a normalized record-admitted zero-bill unit cycle in the same parent-face bundle.
