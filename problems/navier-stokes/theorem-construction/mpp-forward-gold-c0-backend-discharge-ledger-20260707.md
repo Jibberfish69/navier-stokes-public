@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-backend-discharge-ledger-20260707
-status: backend-discharge-ledger-partial-not-mpp-closure
+status: conditional-backend-discharge-ledger-partial-not-mpp-closure
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 backend / frozen frontier handoff
@@ -11,21 +11,21 @@ source_refs:
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-f5-assembly-scope-audit-20260706.md
 completion_truth: >-
-  Backend ledger only. It records what the strict overlap-charge route would
-  discharge after the overlap charge is accepted as the same strict
-  participation payment used in c_0. It proves the retained-row weighted
-  first-moment consumer calculation from c_0>0. It does not discharge the F1
-  actual-NS lift, does not execute Chapter 10, does not assemble F5, and does
-  not claim MPP closure.
+  Backend ledger only. The live c_0 note now marks the affine-mismatch route as
+  insufficient and keeps the overlap/atomization accounting conditional on a
+  genuine non-affine collar or turn-off charge. This ledger proves only the
+  retained-row weighted first-moment consumer calculation from an assumed
+  c_0>0. It does not prove c_0>0, does not discharge the F1 actual-NS lift, does
+  not execute Chapter 10, does not assemble F5, and does not claim MPP closure.
 ---
 
 # c_0 backend discharge ledger
 
-## 1. Imported F2 result
+## 1. Conditional F2 import
 
-The current c_0 note reduces the remaining zero-floor object to the strict
-overlap-charge lemma and the atomization accounting. The payment is not a new
-detector: it is the existing strict participation bill
+The current c_0 note does not install F2. It records a conditional accounting
+route: if a genuine non-affine overlap, collar, or turn-off charge is proved,
+that charge belongs to the existing strict participation bill
 
 ```math
 \mathsf P(K)
@@ -37,9 +37,9 @@ detector: it is the existing strict participation bill
 ```
 
 with \(E_a=S(u-a)\) and \(a\in\mathfrak A\) the affine Vieillefosse jet.
-The adjacent overlap charge is a restriction of this same payment, and the
-stopping-time atomization has bounded overlap. Therefore the c_0 note proves,
-inside the strict participation atom class,
+The adjacent overlap charge would be a restriction of this same payment, and
+the stopping-time atomization has bounded overlap. Therefore the backend import
+needed from F2 is the still-conditional statement
 
 ```math
 \mathsf P(\mathcal T)
@@ -50,7 +50,7 @@ c_{\rm acc}>0.
 \tag{BACK.2}
 ```
 
-Equivalently,
+Equivalently, once that still-missing non-affine charge theorem is proved,
 
 ```math
 c_0
@@ -62,9 +62,10 @@ c_{\rm acc}>0.
 \tag{BACK.3}
 ```
 
-This discharges F2 only in the strict-participation currency: the same
-pressure-viscous payment must be the one consumed by the frozen frontier, and
-Chapter 10 must certify the resulting constants in its worksheet currency.
+The affine amplitude-mismatch argument does not supply (BACK.2). It only
+identifies the scaling tension. F2 remains open until the non-affine
+collar/turn-off rigidity is proved in the same pressure-viscous currency and
+Chapter 10 certifies the resulting constants in its worksheet currency.
 
 ## 2. Retained-row crossing consumer
 
