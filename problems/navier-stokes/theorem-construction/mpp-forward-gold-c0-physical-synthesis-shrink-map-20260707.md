@@ -696,7 +696,11 @@ Perron class. A ratio-one compact limit carries a nonnegative Perron edge
 circulation, not necessarily one literal cycle. Once the positive edges of that
 circulation are admitted as full-tower same-packet three-measure channels, the
 four-body/viscous/Field bill sees positive total variation and posts payment.
-So the matrix side now reduces to the admission theorem:
+So the matrix side now reduces to the admission theorem. A direct proof of the
+subcritical matrix gap is still sufficient, but it is not a lower physical
+source than admitted same-packet channel ownership; below the checked Perron
+normal form it must either construct that ownership or prove one original-data
+face strong enough to make the feedback matrix subcritical:
 
 \[
 \texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
@@ -1335,7 +1339,8 @@ before readout.
 ## 5. Shrink rule
 
 Future c0 work should attach to this file unless it proves `(CPS.13)' from the
-original coupled packet, proves the record-admitted matrix gap, proves
+original coupled packet, proves the record-admitted matrix gap as a direct
+sufficient original-data face theorem rather than a detached Perron label, proves
 `FullTowerPositiveChannelThreeMeasureAdmission.A` specifically for the surviving
 full material clock `(CPS.17a)', proves the pre-envelope signed commutator line
 `(CPS.18)' by proving the moving low-high pressure/strain pump/free-material
