@@ -27,6 +27,7 @@ derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
 completion_truth: >-
   Failed-gate certificate for the active goal, not a proof of c_0 and not a
   refutation of NormalizedRelayBillCompactnessRecordPassage.A. The allowed
@@ -59,7 +60,11 @@ completion_truth: >-
   That criterion is conditional only; it does not produce the NS matrix. The
   matrix producer has now been retyped as a qualitative compact unit-cycle
   exclusion: after record admission and exact charting, no retained
-  record-admitted zero-bill nonnegative Perron cycle may survive.
+  record-admitted zero-surplus nonnegative Perron cycle may survive. The
+  zero-bill relay-record kernel kills only the absolute-zero realization of that
+  cycle; the current c_0 wall is the surplus-zero rigidity/upgrade from
+  zero-surplus ratio-one activity to either a positive payer/exit or an
+  absolute-zero kernel contradiction.
 ---
 
 # Normalized relay passage: failed gate and smallest exposed theorem
@@ -338,11 +343,13 @@ x_P\ge0,\qquad \ell_P\!\cdot x_P=1,\qquad dB_P=0,\qquad x_P\le K_Px_P.
 Thus the qualitative producer is:
 
 ```math
-\texttt{RecordAdmittedZeroBillUnitCycleExclusion.A}.
+\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}.
 ```
 
-If that exclusion is proved for the actual Navier-Stokes parent packet, compactness
-gives \(\rho(K_P)\le1-\eta\), the bill-coercive matrix criterion gives
-parent-owned bill currency, and normalized passage follows. Current allowed
-sources still permit the ratio-one active-critical/full-exchange/active-transit
-cycle, so this is not closure.
+If that exclusion is proved for the actual Navier-Stokes parent packet,
+compactness gives \(\rho(K_P)\le1-\eta\), the bill-coercive matrix criterion
+gives parent-owned bill currency, and normalized passage follows. The
+zero-bill kernel supplies this exclusion only after the cycle has been upgraded
+to actual zero payer measures; current allowed sources still permit the
+ratio-one active-critical/full-exchange/active-transit cycle with nonzero
+scale-covariant payers and zero strict surplus, so this is not closure.
