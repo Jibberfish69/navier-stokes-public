@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
@@ -54,9 +55,11 @@ completion_truth: >-
   RecordFeedingSurplusPerronClassExclusion.A are the same remaining admitted
   finite theorem at the current frontier. Proving that theorem would imply the
   existing matrix gap, ParentOwnedPositiveRecordBillCurrency.A,
-  NormalizedRelayBillCompactnessRecordPassage.A, and c_0>0. Current sources do
-  not prove the theorem and no retained Navier-Stokes counterexample is
-  constructed.
+  NormalizedRelayBillCompactnessRecordPassage.A, and c_0>0. The retained-edge
+  Perron follow-up proves that edge-admitted branching cannot hide from
+  four-body activity; the unproved part is positive-channel three-measure
+  admission before compactness. Current sources do not prove that admission
+  theorem and no retained Navier-Stokes counterexample is constructed.
 ---
 
 # High-frequency pressure-stress transfer equals the zero-surplus Perron circulation
@@ -238,5 +241,7 @@ c_0>0 .
 
 This is a strict contraction of labels, not closure. The proof still needs the
 actual Navier-Stokes producer excluding the zero-surplus record-feeding Perron
-class, or an independent original-history proof of one active face that makes
-the feedback matrix subcritical.
+class. After the retained-edge Perron coercivity follow-up, the surviving
+producer is `FullTowerPositiveChannelThreeMeasureAdmission.A`, or an independent
+original-history proof of one active face that makes the feedback matrix
+subcritical.
