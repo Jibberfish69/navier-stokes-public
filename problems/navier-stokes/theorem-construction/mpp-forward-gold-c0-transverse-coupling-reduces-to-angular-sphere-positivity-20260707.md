@@ -8,11 +8,11 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   log-endpoint is disarmed only after a fixed-sign retained-participation pairing is proved. The
   affine-symbol test shows the bare Calderon-Zygmund transverse response changes sign over
   angular embeddings on S^2, so the terminal target is not naked spectral positivity of the
-  pressure operator. The remaining target has two locked pieces: same-edge
-  retained-service admission (chart/selector custody, detector/channel custody,
-  selected first-ratio bill currency) and the T-odd signed Liouville statement
-  that the retained \((S,\omega)\) alignment is pushed off the maximal-stretch
-  axis toward the intermediate axis. The Claude strict-repeller packet is audited
+  pressure operator. The commutator gives the signed brake once transverse
+  pressure response is present; the live terminal target is now the same-field
+  transverse Hodge coercivity theorem that rules out an aligned incompressible
+  critical-record atom except pass/collar/endpoint-kernel escape, in the same
+  participation/payment currency. The Claude strict-repeller packet is audited
   as a diagnostic only: BKM needs same-edge vorticity-current custody, and
   \(\omega\parallel e_1\) does not determine the nonlocal pressure embedding.
   Isotropy is permitted only as scalar trace/gauge/pass content; it cannot be the
@@ -41,6 +41,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rsf4-angle-pincer-coherence-backscatter-dichotomy-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707.md
 completion_truth: >-
   PHYSICS FIRST. In one incompressible fluid the only thing that can brake the Vieillefosse
   self-stretch is the TRANSVERSE (eigenframe-rotating) part of the non-local pressure Hessian;
@@ -342,8 +343,12 @@ affine-symbol test; source-free zero-lag cancellation collapses to degenerate en
 retained chart absence is already a paid/exit branch; boundary moment ownership reduces to
 same-edge selector/order-lock variation admitted in the existing \(c_0\) bill currency; and
 \(\mathsf P_{\rm mix}\) admission is the already exposed selected first-ratio /
-parent-owned positive-record bill-currency wall. The remaining route is same-edge
-pre-readout custody plus selected first-ratio bill currency and detector/channel custody for
-the admitted retained angular chart, joined to the T-odd \((S,\omega)\)
-strict-attractor sign. This is a strict reduction plus an obstruction to the bare
+parent-owned positive-record bill-currency wall. The remaining terminal route is
+uniform transverse Hodge coercivity in the same participation/payment currency:
+after pass, collar/exit, and parent-owned affine endpoint-kernel classes are
+removed,
+\(\|\Pi_\perp^S\nabla^2(-\Delta)^{-1}(\partial_i u_j\partial_j u_i)\|\)
+must control the retained record amplitude. The T-odd \((S,\omega)\)
+strict-attractor sign and stretched-vortex quadrupole packets are branch tests
+for that theorem. This is a strict reduction plus an obstruction to the bare
 spectral version, not a closure.
