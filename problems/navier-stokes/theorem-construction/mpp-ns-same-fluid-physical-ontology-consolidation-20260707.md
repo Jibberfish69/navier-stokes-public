@@ -79,8 +79,9 @@ participation-field grammar.
 
 ## 2. The current Gold object
 
-The current Gold record is not pointwise positive clipping. It is a signed
-critical-height record upcrossing. The installed identity is:
+The current Gold record is not a pointwise post-readout positive-part
+extraction. It is a signed critical-height record upcrossing. The installed
+identity is:
 
 ```math
 \int_a^b P(t)\,dt
