@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-root-weight-snell-compensator-realization-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-free-high-weight-tube-escape-charge-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-numerator-wlf60-route-measure-reduction-20260707.md
 completion_truth: >-
   Strict reduction and checked obstruction only. The stopped active-weight/root-weight
   compensator machinery does not prove ReturnClockParentAnnouncedRNDerivative.A.
@@ -22,7 +23,9 @@ completion_truth: >-
   for the inverse clock int_I w^{-1} itself to be parent-announced as a bounded
   Radon-Nikodym submeasure of R_P^+ d mathfrak m_P. That requires a lower
   active-numerator / same-parent route-measure gate, recorded here as
-  ReturnClockActiveNumeratorLowerGate.A. No proof of uniform cascade termination,
+  ReturnClockActiveNumeratorLowerGate.A. The active-numerator follow-up
+  identifies that gate with the selected-linear route-measure/WLF.60/ODP.91
+  wall in return-clock coordinates. No proof of uniform cascade termination,
   epsilon_* > 0, c_0 > 0, or MPP closure is claimed.
 ---
 
@@ -164,6 +167,12 @@ Equivalently, the parent active numerator may not vanish down a shrinking
 low-\(H\), large-\(A_I\) tube before child clipping. In the older half-tail
 language, this is the same-parent route-measure size line: \(MA(Q)<C\,Ep(Q)\) /
 \(\texttt{WLF.60}\), not a raw Bessel or active-weight square estimate.
+
+The active-numerator follow-up makes this exact. After
+`ReturnClockParentKnownCoarea.A' identifies \(w^{-1}d\sigma\) with the selected
+first-ratio linear readout, `(AWPT.12)' is the local Radon-Nikodym form of
+`SelectedLinearRouteMeasureCarleson.A' / WLF.60 / ODP.91. It is not an
+independent producer below WLF.60.
 
 Thus the sharpened route is
 
