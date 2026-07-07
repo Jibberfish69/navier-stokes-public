@@ -119,6 +119,11 @@ Physically, this says the same parent packet cannot circulate critical entry,
 full exchange, and active transit around a ratio-one loop while the Field,
 four-body, and viscous bills all post zero surplus.
 
+The sharper finite object is a record-feeding Perron class, not necessarily one
+visible simple loop. A recurrent parent-face class can keep spectral radius one
+by splitting service across several branches, so the exclusion must apply to
+the strongly connected class that feeds the selected record.
+
 ## 3. Linear algebra equivalence
 
 For a fixed finite chart with \(K_P\ge0\), the following are equivalent:
@@ -154,7 +159,15 @@ selected positive channel; it can be quotiented away from the record-admitted
 bundle.
 
 Thus on the record-admitted bundle, the strict matrix gap is the absence of
-unit zero-bill Perron cycles.
+unit zero-bill record-feeding Perron classes. The normal-form note gives the
+exact finite equivalence:
+
+```math
+\exists x\ge0,\ \ell_P\!\cdot x>0,\ x\le K_Px
+\quad\Longleftrightarrow\quad
+\exists C\ \text{record-feeding SCC with }\rho(K_C)\ge1 .
+\tag{ZBU.8a}
+```
 
 ## 4. Compactness gives the uniform gap
 
