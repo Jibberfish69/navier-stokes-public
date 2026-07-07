@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-commutator-hminusone-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-full-balance-payment-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-nonlinear-stress-localization-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-defect-carriage-moment-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-angle-gap-proof-pass-20260706.md
@@ -47,7 +48,11 @@ completion_truth: >-
   cancellation, and the viscous leg is bill-compatible when it is the same
   selected carrier. The acceleration leg is not bill-compatible from current
   sources: a terminal pulse can have unit L1 selected service and unbounded
-  L2-in-time force while using only bounded endpoint impulse. The nonlinear
+  L2-in-time force while using only bounded endpoint impulse. The fixed-chart
+  endpoint impulse branch is now sharpened: sign-coherent service is finite
+  endpoint storage plus negative return variation, and repeated service must
+  spend return/reset variation, frame motion, legal/stop terms, or a typed
+  endpoint route-out. That still is not retained B-currency. The nonlinear
   and defect legs are priced in kinetic/collar/Reynolds or certificate
   variation currencies but are not yet admitted as the retained
   B=dE_Field+dA_4B+dVisc bill on the same edge. Hence this note proves a
@@ -295,6 +300,27 @@ while \(a_\tau=dI_\tau/ds\) for an endpoint impulse coordinate with only
 order-one endpoint displacement.  Thus endpoint impulse can carry terminal
 selected service without giving `(SFB.13)' unless endpoint/frame variation is
 charged or routed out.
+
+The fixed-chart endpoint subcase is now separated.  On one retained affine
+chart,
+\[
+I_A(t)=\langle v(t),\Psi_A\rangle
+\tag{SFB.22}
+\]
+has bounded range by energy, and sign-coherent acceleration service is
+\[
+\int_JM_A(T)(t)\,dt=I_A(b)-I_A(a).
+\tag{SFB.23}
+\]
+Thus a family of same-chart positive acceleration threads is bounded by
+endpoint range plus negative return variation of \(I_A\).  This proves
+\[
+\texttt{AccelerationEndpointImpulseFiniteStorageRouteOut.A}.
+\tag{SFB.24}
+\]
+It narrows the open branch but does not close `(SFB.16)': the return/reset
+variation, moving-frame term, or endpoint-face route-out still has to be
+admitted to the same retained edge or charged before readout.
 
 That is now the exact open burden below the Rellich route.
 
