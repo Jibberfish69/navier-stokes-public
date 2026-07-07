@@ -20,7 +20,8 @@ completion_truth: >-
   current on the same transported parent packet.  Plain pressure flux and raw
   local momentum remain too weak and are already beaten by the heat-scale
   half-tail.  The surviving candidate is a first-use same-parent stress-current
-  ledger: every selected fresh child overrun must be paid before clipping by a
+  ledger: every selected fresh child overrun must be paid before selected
+  positive-part readout by a
   parent-visible stress/momentum redistribution current with stopped Carleson or
   entropy packing.  This kills the abstract half-tail if proved, but the lower
   edge and packing theorem are exactly the still-open Gold producer.
@@ -132,7 +133,7 @@ energy/CKN currencies are therefore support only.  They do not pay WLF.60.
 The Fable move survives only in the following strengthened form.
 
 For every stopped parent packet \(P\), selected fresh first-entry heat-lag window
-\(I\), and parent-subtracted detector \(P_{F_I}\psi_I^P\), define a before-clipping
+\(I\), and parent-subtracted detector \(P_{F_I}\psi_I^P\), define a pre-readout
 stress-current price \(d\mathsf{SM}_I(P)\) from the same transported Cauchy
 stress / routed participation current.  It must satisfy the lower-edge estimate
 
@@ -188,7 +189,7 @@ contradicting `(BMS.4)`.
 That is useful, but it is not closure.  It says the bathtub/stress-ledger
 candidate is strong enough to kill the known cheap countermodel.  The actual
 proof burden is producing `(BMS.5)` and `(BMS.6)` from the original coupled
-Navier-Stokes packet before child positive clipping.
+Navier-Stokes packet before selected positive-part readout.
 
 ## 6. Relation to the installed Gold wall
 
@@ -202,7 +203,7 @@ FGC.20 strict whole-field jet-service absorption
 =
 TFE1906--TFE1922 stopped routed participation current source
 =
-selected same-parent stress/current price before clipping.
+selected same-parent stress/current price before positive-part readout.
 ```
 
 The coupled stress-jet admission note already proves that a selected child
@@ -225,7 +226,7 @@ Therefore:
 weak bathtub = net momentum / plain pressure flux:
   fails by existing half-tail and pressure-flux tests.
 
-strong bathtub = first-use same-parent stress-current price before clipping:
+strong bathtub = first-use same-parent stress-current price before positive-part readout:
   passes Tao's negative-space test, kills the half-tail if proved,
   and is exactly the remaining Gold producer rather than a solved theorem.
 ```
