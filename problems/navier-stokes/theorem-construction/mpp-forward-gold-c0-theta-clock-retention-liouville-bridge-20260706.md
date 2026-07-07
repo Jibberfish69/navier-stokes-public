@@ -30,6 +30,7 @@ ontology_lock:
     - pressure-constrained
     - irreversible
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
@@ -106,7 +107,12 @@ completion_truth: >-
   SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A and
   the original-ledger matrix subcriticality row named above.
   Current sources do not prove the Navier-Stokes admission input or that final
-  high-frequency branch. No FullTower retention, material-time Liouville
+  high-frequency branch. The critical-height route-b follow-up makes the
+  post-correction collapse explicit: within the retained in-class branch,
+  material-time Liouville reduces to theta-payer/Gate2 admission and then to
+  the record-admitted active-critical/full-exchange matrix row, whose
+  independent face is WLF.60 carrier mismatch/tail UI. No FullTower retention,
+  material-time Liouville
   theorem, c_0, or MPP closure is claimed.
 ---
 
@@ -313,6 +319,15 @@ detector-visible, persistent localized affine, and temporal-thin branches are
 already incompatible with zero surplus. The remaining profile is the
 high-frequency pressure-stress transfer branch, which source checking lowers to
 the selected-generator / positive-critical-transfer storage wall.
+
+After the critical-height correction, this is stronger than a profile-side
+cleanup. The retained in-class route-b branch has no separate producer: theta
+payer admission is Gate2 pre-readout ownership, and the admitted zero-loss
+branch lowers through high-frequency transfer to
+`RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A`. The current
+bill-matrix reductions then identify the independent face as WLF.60 / ODP.91 on
+the order-locked selected carrier, further reduced to same-carrier mismatch
+evacuation and overrun tail UI.
 
 ## 6. Consequence
 
