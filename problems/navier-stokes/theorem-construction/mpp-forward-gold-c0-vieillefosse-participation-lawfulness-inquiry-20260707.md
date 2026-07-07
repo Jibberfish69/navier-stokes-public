@@ -3321,10 +3321,76 @@ Calderon-Zygmund operator restricted to the transverse channel does not have a
 uniform handedness over arbitrary embeddings.
 
 The consequence for \(c_0\) is exact: causal lag must be proved after selected
-material orientation, retained participation measure, and pass/collar/zero-record
-classification are imposed. A self-similar or log-self-similar marginal tower
-could try to mix the two signs in (VPL.257). Excluding that cancellation is the
-retained-participation classification problem, not a bare Fourier-symbol fact.
+  material orientation, retained participation measure, and pass/collar/zero-record
+  classification are imposed. A self-similar or log-self-similar marginal tower
+  could try to mix the two signs in (VPL.257). Excluding that cancellation is the
+  retained-participation classification problem, not a bare Fourier-symbol fact.
+
+### 26.3 Zero-lag cone transport test
+
+The angular cancellation is not stationary under the affine Vieillefosse angular
+flow. Let
+
+```math
+z=n_3^2,
+\qquad
+\tau=2z-1.
+\tag{VPL.258}
+```
+
+For the angular vector field \( \dot n=\pm(An-(n\cdot An)n) \), the sign depending
+only on time-orientation convention,
+
+```math
+\dot z=\pm 6a\,z(1-z),
+\qquad
+\dot\tau=\pm 12a\,z(1-z).
+\tag{VPL.259}
+```
+
+Thus the cone \(\tau=0\), where the factor \(2n_3^2-1\) changes sign, is crossed
+with speed \(3a\) at \(z=1/2\). A material angular packet cannot remain on the
+zero cone while the affine Vieillefosse motion is active.
+
+For a retained angular measure \(\mu_t\), a zero-lag adversary must therefore
+solve a transport balance
+
+```math
+0
+=
+\frac{d}{dt}\int \tau\,d\mu_t
+=
+\int \pm 12a\,z(1-z)\,d\mu_t
++
+\int \tau\,d\nu_t,
+\tag{VPL.260}
+```
+
+where \(\nu_t\) records source, selector, parent, collar, or angular
+redistribution defects. Since the first integral has one sign away from
+\(z=0,1\), zero lag forces either angular-mixing payment, collapse to degenerate
+endpoint channels, or collar/exit/pass routing.
+
+The new smaller target is the zero-lag angular mixing payment:
+
+```math
+\mathcal L_{\rm ret}=0
+\quad\Longrightarrow\quad
+\int_{\rm active} z(1-z)\,d\mu_{\rm ret}
+\le
+C\left(
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{VPL.261}
+```
+
+Together with a nondegenerate-participation lower bound, this would rule out a
+zero-lag retained positive-record strict atom. It is not a proof of \(c_0\); it
+is the next route-b Liouville rigidity lemma that replaces naked angular
+spectral positivity.
 
 ## 27. Proved ingredient: log-scale endpoint inequality
 
