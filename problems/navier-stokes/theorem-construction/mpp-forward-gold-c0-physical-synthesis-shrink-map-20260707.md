@@ -83,9 +83,17 @@ target_object:
   - StoppedPrimitivePLSStrictHalfBarrierBreak.A
   - RetainedRecordEdgeHigherProjectorServiceOrExit.A
   - RetainedRecordEdgePrimitivePLSDriverAdmission.A
+  - RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A
+  - RecordMenuDetectorSilentServicePreReadoutReserve.A
+  - OriginalHistoryDetectorSilentStrictHalfBarrier.A
+  - RetainedRecordEdgeCommonSelectorRefinementNoLoss.A
+  - RetainedRecordEdgePrimitiveChannelCompatibility.A
+  - RetainedRecordEdgeSelectorProjectorChannelAlignment.A
+  - RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A
+  - RetainedRecordEdgeProjectorSelectorPaidRotation.A
+  - ParentAnnouncedAngleLockWithFiniteRotation.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
   - RetainedRecordEdgeC11MetricTowerOrExit.A
-  - RetainedRecordEdgeHigherProjectorServiceOrExit.A
   - RecordMenuPressureActiveOrSilentService.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
@@ -145,6 +153,16 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-return-recurrence-defect-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-top-strain-storage-vs-moving-pump-alignment-check-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-primitive-pls-driver-admission-proof-pass-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-stopped-primitive-channel-admission-lower-face-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-silent-service-reserve-half-tail-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-primitive-channel-compatibility-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-angle-lock-obstruction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-paid-rotation-producer-collapse-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-announced-angle-lock-finite-rotation-producer-collapse-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
   - problems/navier-stokes/theorem-construction/metricstretchnofreemonotonegrowth-a-theorem-creation-20260626.md
@@ -185,6 +203,9 @@ supersedes_as_live_frontier:
   - TransportedSelectorHeatScaleReturn.A as a solved energy consequence or hidden no-residue payment rather than an open unweighted deformation-return / charged Body-IV geometry-carrier defect gate
   - endpoint UI, Body-IV material-record retention, HeatScaleReturnTerminalAC.A, MetricStretchNoFreeMonotoneGrowth.A, or SameCarrierUnweightedStrainActionReserve.A as sibling c_0 producers rather than readouts of UniformSameMaterialTerminalClock.A
   - UniformSameMaterialTerminalClock.A as a lower object than the moving low-high pressure/strain pump / stopped primitive PLS strict half-barrier after record-edge admission
+  - RetainedRecordEdgePrimitivePLSDriverAdmission.A or RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A as new lower c_0 walls rather than same-edge admission bridges into the existing stopped primitive PLS half-barrier
+  - RecordMenuDetectorSilentServicePreReadoutReserve.A or OriginalHistoryDetectorSilentStrictHalfBarrier.A as a pressure-detector theorem rather than the primitive PLS strict half-barrier / weighted laminar reserve in detector-silent coordinates
+  - RetainedRecordEdgeSelectorProjectorChannelAlignment.A, RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A, or ParentAnnouncedAngleLockWithFiniteRotation.A as sibling angle-lock producers rather than parent-announced selector capture plus pre-entrance selected-critical payment for paid rotation
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
