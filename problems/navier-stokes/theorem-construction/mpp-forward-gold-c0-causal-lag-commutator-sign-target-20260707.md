@@ -1891,3 +1891,221 @@ strain annulus must have a fixed helpful quadrupole moment after collars and
 banks are owned. If the real retained profile can be prolate in the source-level
 sense above without an annular \(l=2\) correction, payment, or route-out, then
 the proposed \(c_0\) sign is false on that branch.
+
+## 26. Compact proof packet for the three angular lines
+
+This records the exact proof shape for (CLS.50), (CLS.53), and (CLS.54). It is
+conditional on the strict retained atom being admitted with a parent-owned
+selector, a fixed material angular chart, and a fixed detector/channel before
+readout. If any one of those admissions fails, the failure is already a
+mix/collar/exit/pass bill.
+
+### 26.1 Retained angular transport identity
+
+Let \(m_t\) be the positive retained participation measure on the same material
+packet and let
+
+```math
+Z(t,\xi)=n_3(t,\xi)^2.
+\tag{CLS.117}
+```
+
+Define the angular pushforward
+
+```math
+\mu_t := Z(t,\cdot)_\# m_t .
+\tag{CLS.118}
+```
+
+On the admitted affine Vieillefosse chart,
+
+```math
+D_t Z=\sigma\,6a\,Z(1-Z),
+\qquad \sigma\in\{+1,-1\}.
+\tag{CLS.119}
+```
+
+For every \(\varphi\in C^1([0,1])\), Reynolds transport on the same selected
+material packet gives
+
+```math
+\frac{d}{dt}\int\varphi\,d\mu_t
+=
+\int \varphi'(Z)\,\sigma\,6a\,Z(1-Z)\,dm_t
++
+\int\varphi\,d\nu_t
++
+\operatorname{CollarExitPass}_t(\varphi),
+\tag{CLS.120}
+```
+
+where \(\nu_t\) is exactly the non-affine source, selector, parent, chart, or
+angular redistribution defect. Pushing the first integral to \(z\)-space gives
+
+```math
+\frac{d}{dt}\int\varphi\,d\mu_t
+=
+\int \varphi'(z)\,\sigma\,6a\,z(1-z)\,d\mu_t
++
+\int\varphi\,d\nu_t
++
+\operatorname{CollarExitPass}_t(\varphi).
+\tag{CLS.121}
+```
+
+This is the weak form of (CLS.50). Therefore the transport identity is proved by
+chart admission plus the material Reynolds formula. If the chart is not
+admitted, the defect is not zero; it is precisely \(\nu_t\), collar, exit, or
+pass.
+
+### 26.2 Boundary moment ownership
+
+Set
+
+```math
+B(t)=\int (2z-1)\,d\mu_t.
+\tag{CLS.122}
+```
+
+On a fixed retained chart, changing \(B\) between the two endpoints is changing
+the same packet's selected angular/order-lock coordinate. Define the raw
+variation bill
+
+```math
+\mathsf P_{\rm mix}^{\rm var}(I)
+:=
+\operatorname{Var}_{I} B
++
+\|\nu\|_{I}
++
+\operatorname{CollarExitPass}_{I}.
+\tag{CLS.123}
+```
+
+Then the endpoint estimate is immediate:
+
+```math
+|B(t_1)-B(t_0)|
+\le
+\operatorname{Var}_{I}B
+\le
+\mathsf P_{\rm mix}^{\rm var}(I).
+\tag{CLS.124}
+```
+
+The nontrivial step is bill-currency admission:
+
+```math
+\mathsf P_{\rm mix}^{\rm var}(I)
+\le
+C\left(
+\mathsf P_{\rm mix}^{c_0}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.125}
+```
+
+With (CLS.125), (CLS.53) follows at once from (CLS.124). Without (CLS.125),
+boundary moment ownership is exactly the unpaid selector/order-lock variation
+wall. Thus the proof of boundary ownership is:
+
+```math
+\text{parent-owned selector/order-lock admission}
+\Longrightarrow
+\text{raw variation belongs to the existing }c_0\text{ bill}
+\Longrightarrow
+\text{(CLS.53).}
+\tag{CLS.126}
+```
+
+### 26.3 Nondegenerate service domination
+
+On the selected plane-to-compressive transverse channel,
+
+```math
+\sum_{i=1}^2 |n_i n_3|^2=z(1-z).
+\tag{CLS.127}
+```
+
+The transverse service density for that same detector/channel is therefore
+bounded by the channel amplitude:
+
+```math
+d\mathsf S_{\rm pc}
+\le
+C\,z(1-z)\,d\mu_{\rm ret}.
+\tag{CLS.128}
+```
+
+If a packet at \(z=0\) or \(z=1\) still claims positive retained service, then
+the service is not in the selected plane-to-compressive channel: at \(z=0\),
+\(n_3=0\); at \(z=1\), \(n_i=0\) for \(i=1,2\). The strict atom has only the
+following lawful readings:
+
+```math
+d\mathsf S_{\rm ret}
+\le
+d\mathsf S_{\rm pc}
++
+d\mathsf P_{\rm collar}
++
+d\mathsf P_{\rm exit}
++
+d\mathsf S_{\rm pass}.
+\tag{CLS.129}
+```
+
+Combining (CLS.128) and (CLS.129) gives
+
+```math
+d\mathsf S_{\rm ret}
+\le
+C\,z(1-z)\,d\mu_{\rm ret}
++
+d\mathsf P_{\rm collar}
++
+d\mathsf P_{\rm exit}
++
+d\mathsf S_{\rm pass},
+\tag{CLS.130}
+```
+
+which is (CLS.54). The only possible failure is detector/channel custody:
+positive service is being read from a different channel after the selected
+channel went silent. That failure is itself a channel-rotation, collar, exit, or
+pass bill if strict atom custody is admitted.
+
+### 26.4 The bridge consequence
+
+With (CLS.50), (CLS.53), and (CLS.54), the zero-signed-lag branch obeys
+
+```math
+\mathsf S_{\rm ret}
+\le
+C\left(
+\mathsf P_{\rm mix}^{c_0}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.131}
+```
+
+On the strict retained class, \(\mathsf S_{\rm pass}=0\). Hence a normalized
+zero-lag strict atom with \(\mathsf S_{\rm ret}=1\) must have positive
+mix/collar/exit bill. The three-line bridge is therefore proved exactly under
+these admissions:
+
+```math
+\text{retained angular chart admission}
++\text{parent-owned boundary variation bill}
++\text{same-edge detector/channel custody}.
+\tag{CLS.132}
+```
+
+What remains outside this compact packet is not an angular calculus problem. It
+is the parent-owned positive-record bill-currency theorem that admits
+\(\mathsf P_{\rm mix}^{\rm var}\) before readout, plus detector/channel custody
+on the same retained edge.
