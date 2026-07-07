@@ -3392,6 +3392,23 @@ zero-lag retained positive-record strict atom. It is not a proof of \(c_0\); it
 is the next route-b Liouville rigidity lemma that replaces naked angular
 spectral positivity.
 
+The source-free subcase is closed. If \(\nu_t=0\) and
+\(\int\tau\,d\mu_t=0\) persists over a time interval, (VPL.260) gives
+
+```math
+\int z(1-z)\,d\mu_t=0.
+\tag{VPL.262}
+```
+
+For positive retained measure this means \(\mu_t\) is supported on
+\(z=0\cup z=1\). Those endpoint sets make the active plane-to-compressive
+factor \(n_i n_3(2n_3^2-1)\) vanish, and the planar channel is degenerate on the
+axisymmetric Vieillefosse sheet. Thus source-free zero lag is pass/zero-record
+unless another channel, collar, parent, or exit mechanism carries the retained
+handoff. The remaining open subcase is sourced angular mixing: a zero-lag
+interior retained measure must expose nonzero source/selector/collar defect in
+the same participation currency.
+
 ## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
