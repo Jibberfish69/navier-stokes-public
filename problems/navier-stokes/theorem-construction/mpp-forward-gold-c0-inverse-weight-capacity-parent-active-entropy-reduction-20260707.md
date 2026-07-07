@@ -16,6 +16,7 @@ target_object:
   - FullExchangeCriticalDepletionStorage.A
   - MovingDriverActiveStateFirstRatioPackage.A
   - UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A
+  - ReturnClockActiveNumeratorLowerGate.A
   - epsilon_star_positive
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md
@@ -24,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-custody-first-ratio-source-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md  # Sections 213-215 / TFE.2471-TFE.2504
   - problems/navier-stokes/source-frontier.yaml
@@ -302,3 +304,21 @@ part of this theorem after the clock is admitted, but it does not by itself
 prove that \(w^{-1}d\sigma\) is a bounded submeasure of
 \(R_P^+d\mathfrak m_P\). That clock admission is now the first failed line
 inside the return-side capacity source.
+
+The active-weight compensator pressure test sharpens the source again. The
+stopped compensator controls \(H_I\|D_I\|^2\) and high-\(H_I\) upcrossings with
+
+\[
+H_I={|I|^2\over\int_Iw^{-1}d\sigma}.
+\tag{IWP.22}
+\]
+
+This is reciprocal to the inverse clock. Finite active-weight square charge does
+not bound \(\int_Iw^{-1}d\sigma\). The remaining producer inside
+`ReturnClockParentAnnouncedRNDerivative.A' is therefore
+\[
+\texttt{ReturnClockActiveNumeratorLowerGate.A},
+\tag{IWP.23}
+\]
+the same-parent route-measure / \(WLF.60\) gate saying the before-clipping active
+numerator cannot vanish along low-\(H_I\), large inverse-clock tubes.
