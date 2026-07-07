@@ -39,12 +39,11 @@ completion_truth: >-
   exactly the bill-coercive record-admitted storage matrix, or an independent
   original-history proof of one face that makes the residual matrix subcritical.
   The early-branch contraction follow-up identifies that independent face in the
-  sub-heat-lag branch. The zero-bill unit-cycle follow-up identifies the
-  qualitative compact form of the full matrix gap: after record admission and
-  exact charting, exclude normalized nonnegative zero-bill Perron cycles.
   checked TFE/c_0 decomposition: record-admitted sub-heat-lag first-admission
   storage, equivalently WLF.60 / ODP.91 on the order-locked full-packet selected
-  carrier. No c_0 closure is claimed.
+  carrier. The zero-bill unit-cycle follow-up identifies the qualitative compact
+  form of the full matrix gap: after record admission and exact charting, exclude
+  normalized nonnegative zero-bill Perron cycles. No c_0 closure is claimed.
 ---
 
 # Bill-coercive storage matrix criterion
