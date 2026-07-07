@@ -35,6 +35,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
 completion_truth: >-
   Source-strict proof attempt for the active c_0 goal. The allowed sources do
   not install StrictOriginalLedgerGeneratorStorage.A or
@@ -51,7 +52,10 @@ completion_truth: >-
   nonduplicate theorem is the record-admitted active-critical/full-exchange
   storage matrix with feedback spectral radius strictly below one, or an
   independent original-history proof of one matrix face strong enough to make
-  the residual matrix subcritical.
+  the residual matrix subcritical. The downstream absorption from such a
+  bill-coercive subcritical matrix to ParentOwnedPositiveRecordBillCurrency.A is
+  now proved as a conditional criterion; the unproved part is producing the
+  matrix from the Navier-Stokes parent packet.
 ---
 
 # Original-ledger generator storage: source verdict for the c0 extraction
@@ -238,10 +242,11 @@ dA_P^{AT}
 Equivalently, prove one of the three faces from original history independently
 enough that the remaining feedback matrix has spectral radius below one.
 
-Once `(OLS.12)' is proved, absorption by \((I-K_P)^{-1}\) gives finite
-parent-owned positive selection storage for admitted record-menu edges. With
-the exact-projector chart license and the already isolated parent-face storage
-rows, this supplies `ParentOwnedPositiveRecordBillCurrency.A', hence the
+Once `(OLS.12)' is proved with its residual charged in
+\(B=dE^{Field}+dA_{4B}+dVisc\), the bill-coercive storage matrix criterion
+absorbs the feedback by \((I-K_P)^{-1}\) and gives finite parent-owned positive
+selection storage for admitted record-menu edges. With the exact-projector chart
+license, this supplies `ParentOwnedPositiveRecordBillCurrency.A', hence the
 normalized relay passage theorem by the existing c0 extraction note.
 
 ## 5. Consequence for the active goal
@@ -262,6 +267,5 @@ It proves the source verdict needed for the current proof search:
 
 The active first failed gate remains Gate2 positive-record ownership. The
 smallest nonduplicate producer now visible inside that gate is the
-record-admitted active-critical/full-exchange storage matrix `(OLS.12)', with
-the exact-projector chart row as the legal-reading companion and
-\(B\)-currency storage as the consumer after admission.
+bill-coercive record-admitted active-critical/full-exchange storage matrix
+`(OLS.12)', with the exact-projector chart row as the legal-reading companion.
