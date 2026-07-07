@@ -1362,6 +1362,18 @@ split stopped affine transitions before scalar positive readout, route
 predictable inherited pieces to record/return, and route lifted innovations to
 critical reset carriers.
 
+This grades the five-thread physical synthesis. No self-tightening,
+bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
+Reynolds-edge refresh, and irreversibility are one same-fluid story against the
+marginal relay. They show that a sustained Euler-like climb must become a
+deepening, weighted, irreversible relay whose positive service is the
+\(\ell^2\)-to-\(\ell^1\) / first-ratio borderline. But the repo does not license
+the shorter conclusion "uniform finite-depth termination closes \(c_0\)": the
+Reynolds-edge notes split low-Re payer, middle explicit refresh row, and a
+surviving high-Re fine/sparse branch. In the current authority that branch is
+closed only by the WLF/ODP same-carrier payment above, or by a typed
+legal/stop/Pack/Part/Field exit before readout.
+
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity
 and parent/full-exchange address lower semicontinuous through the limit.
@@ -1435,3 +1447,8 @@ proves theta-payer/pre-readout admission with the signed carrier retained, or
 gives a typed route-out in the CM grammar.
 New labels that do not do one of those jobs are coordinates of this wall, not
 sibling frontiers.
+Finite-depth bath, analyticity-radius, Reynolds-edge, or irreversibility
+language is support unless it proves the same WLF/ODP parent-weighted
+same-carrier payment, proves an equivalent direct original-data subcritical
+active/root face, or routes the surviving high-Re branch out before selected
+readout.
