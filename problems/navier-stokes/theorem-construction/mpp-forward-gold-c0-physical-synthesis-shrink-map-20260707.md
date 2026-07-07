@@ -122,6 +122,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
@@ -215,6 +217,7 @@ supersedes_as_live_frontier:
   - root-fixed terminal-uniform service storage as final bottom after the parent-active source descent
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
   - viscous heat-thickness square control as selected first-ratio bill currency
+  - raw event-space ownership, fixed-event Jordan orientation, finite parent menu, or no-recount pairing as parent-owned bill currency without selected first-ratio payment
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
