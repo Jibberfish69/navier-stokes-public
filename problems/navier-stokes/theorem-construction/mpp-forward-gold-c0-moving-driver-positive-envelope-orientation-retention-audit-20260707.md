@@ -21,9 +21,7 @@ target_object:
   - RetainedRecordEdgePrimitivePLSDriverAdmission.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - ParentOwnedPositiveRecordBillCurrency.A
-terminology_correction:
-  deprecated:
-    - clipping
+terminology_lock:
   active_terms:
     - selected positive-part readout
     - pre-readout signed current
