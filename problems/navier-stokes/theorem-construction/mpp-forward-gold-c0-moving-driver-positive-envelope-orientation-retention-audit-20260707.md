@@ -21,6 +21,13 @@ target_object:
   - RetainedRecordEdgePrimitivePLSDriverAdmission.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - ParentOwnedPositiveRecordBillCurrency.A
+terminology_correction:
+  deprecated:
+    - clipping
+  active_terms:
+    - selected positive-part readout
+    - pre-readout signed current
+    - selected positive extraction
 source_refs:
   - problems/navier-stokes/spine.md
   - problems/navier-stokes/claim-ladder.md
@@ -33,8 +40,8 @@ completion_truth: >-
   The moving low-high pressure/strain pump is the current sharp representative
   of the c_0 bill-currency wall, but its positive envelope is not a retained
   three-measure packet. The exact weighted material identity supplies a signed
-  interface M_w before positive clipping. The useful Gate 2 object must retain
-  this pre-envelope event as one same-carrier positive carrier, negative
+  interface M_w before selected positive-part readout. The useful Gate 2 object
+  must retain this pre-envelope event as one same-carrier positive carrier, negative
   partner, and signed current. Taking [M_w]_+ after summing material interfaces,
   or replacing the event by an absolute-value envelope, forgets orientation,
   carrier ownership, and the counter-leg. Therefore finite positive moving-pump
@@ -92,7 +99,7 @@ the pre-readout event:
 ```math
 \mathcal M_w
 =J^{+}_{w}-J^{-}_{w}
-\quad\text{on one parent-known carrier, before positive clipping.}
+\quad\text{on one parent-known carrier, before selected positive-part readout.}
 \tag{MDP.4}
 ```
 
@@ -112,8 +119,8 @@ The implication
 \tag{MDP.5}
 ```
 
-is false. Positive clipping after summing interfaces erases the event that made
-the sign.
+is false. Positive-part readout after summing interfaces erases the event that
+made the sign.
 
 A two-component interface already shows the loss:
 
@@ -124,7 +131,7 @@ J_2=-M+\eta,\qquad M\gg \eta>0 .
 \tag{MDP.6}
 ```
 
-The clipped pump sees
+The positive-part pump sees
 
 ```math
 [\mathcal M_w]_+=\eta,
@@ -140,9 +147,9 @@ the retained readout. Conversely, an absolute-value envelope sees
 ```
 
 which overcounts possible activity but still does not say which parent-known
-positive leg, negative partner, and current are retained. The clipped scalar and
-the absolute-value envelope fail in opposite directions, but both fail the same
-admission test: neither is the pre-envelope signed current.
+positive leg, negative partner, and current are retained. The positive-part
+scalar and the absolute-value envelope fail in opposite directions, but both
+fail the same admission test: neither is the pre-envelope signed current.
 
 Therefore the positive moving-driver envelope is not a proof of
 `FullTowerPositiveChannelThreeMeasureAdmission.A`.
@@ -151,8 +158,9 @@ Therefore the positive moving-driver envelope is not a proof of
 
 The admission loss has four concrete faces.
 
-First, orientation can cancel. Signed low-high events can cancel before clipping,
-while an envelope records only unsigned activity or only the small residual.
+First, orientation can cancel. Signed low-high events can cancel before selected
+positive-part readout, while an envelope records only unsigned activity or only
+the small residual.
 
 Second, the carrier can switch. The positive leg and the negative partner can
 live on different active shells, charts, or stopped selector labels. Then there
