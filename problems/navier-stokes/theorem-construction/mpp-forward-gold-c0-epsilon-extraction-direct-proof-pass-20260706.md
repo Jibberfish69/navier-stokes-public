@@ -13,6 +13,7 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
   - problems/navier-stokes/spine.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
@@ -70,7 +71,12 @@ completion_truth: >-
   StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
   through the original-history transition derivative collapse. That storage
   theorem and the exact-projector/B-currency clauses are explicitly open in the
-  allowed sources. The retained Perron-circulation follow-up proves that, after
+  allowed sources. The 2026-07-07 normalized-passage collapse sharpens the proof
+  search: Gate 2, Gate 3, and Gate 4 should not be chased as independent lower
+  compactness producers once ParentOwnedPositiveRecordBillCurrency.A is selected.
+  That stronger theorem would make a retained R=1, B->0 sequence impossible
+  directly, while Gate 3 no-loss and Gate 4 same-parent passage are its escape
+  modes. The retained Perron-circulation follow-up proves that, after
   positive-channel three-measure admission, a branching ratio-one Perron class
   cannot hide from four-body activity; it shifts the first failed Gate 2 line to
   FullTowerPositiveChannelThreeMeasureAdmission.A itself; the theta-envelope
@@ -473,6 +479,32 @@ vanishing-bill sequence can avoid producing the zero-bill positive-record limit:
 it can leak through flux/cutoff, lose the signed-total positive carrier, lose
 the selected record through cancellation/pinch/delamination, or lose the
 same-parent source address.
+
+The current physical shrink is stricter. Gate 1 is installed on retained
+same-fluid relay windows. Gates 2--4 collapse under the stronger coercive route
+
+```math
+\texttt{ParentOwnedPositiveRecordBillCurrency.A}
+\Longrightarrow
+\texttt{NormalizedRelayBillCompactnessRecordPassage.A}.
+\tag{CEE.12a}
+```
+
+Indeed, parent-owned bill currency gives
+
+```math
+R(W)\le C B(W),
+\tag{CEE.12b}
+```
+
+so a retained sequence with \(R(W_j)=1\) and \(B(W_j)\to0\) cannot exist.
+Thus the separate Gate 3 and Gate 4 failures are not lower independent
+producers; they are the record-loss and same-parent-delamination expressions of
+the same missing pre-readout ownership of the positive record leg. The current
+nonduplicate lower object is the same-edge pre-readout custody tuple: selector
+capture, exact-projector chart/license, pressure-active or detector-silent
+service payment, and root/endpoint/full-exchange face address for the same
+future-positive retained edge before readout.
 
 ## 6. Physical reading
 
