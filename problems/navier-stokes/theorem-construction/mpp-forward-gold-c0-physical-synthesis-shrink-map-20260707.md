@@ -94,6 +94,8 @@ target_object:
   - ParentAnnouncedAngleLockWithFiniteRotation.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
   - RetainedRecordEdgeC11MetricTowerOrExit.A
+  - RetainedFlowCurvatureMorreyEnvelopeOrExit.A
+  - RetainedCurvatureSpikeThicknessOrCharge.A
   - RecordMenuPressureActiveOrSilentService.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
@@ -167,6 +169,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
   - problems/navier-stokes/theorem-construction/metricstretchnofreemonotonegrowth-a-theorem-creation-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-c11-metric-tower-or-exit-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -207,6 +213,7 @@ supersedes_as_live_frontier:
   - RecordMenuDetectorSilentServicePreReadoutReserve.A or OriginalHistoryDetectorSilentStrictHalfBarrier.A as a pressure-detector theorem rather than the primitive PLS strict half-barrier / weighted laminar reserve in detector-silent coordinates
   - RetainedRecordEdgeSelectorProjectorChannelAlignment.A, RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A, or ParentAnnouncedAngleLockWithFiniteRotation.A as sibling angle-lock producers rather than parent-announced selector capture plus pre-entrance selected-critical payment for paid rotation
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
+  - retained exact-projector C11 chart/tower-or-exit as an opaque bottom source rather than the low-pass curvature spike thickness/charge row plus higher-projector service split
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
@@ -1183,10 +1190,12 @@ pre-entrance selected-critical original-history payment:
 \]
 
 Thus the record-edge admission side has three nonduplicate physical inputs:
-parent-announced selector capture; retained exact-projector \(C^{1,1}\)
-chart/tower-or-exit; and pre-entrance selected-critical original-history payment
-for detector-silent service plus selector/projector rotation. It does not add a
-fourth proof route below c0.
+parent-announced selector capture; the retained exact-projector chart row whose
+remaining metric content is low-pass material-curvature spike thickness/charge;
+and pre-entrance selected-critical original-history payment for detector-silent
+service plus selector/projector rotation. The broad \(C^{1,1}\) chart label is
+not a bottom source: ellipticity is supported by the finite same-carrier strain
+clock, and high-frequency coefficient curvature is higher-projector service.
 
 The order-lock partner gate also collapses back to the existing selected
 full-packet payment. If
@@ -1217,22 +1226,25 @@ half-tail already isolated in the selected-density route. Thus
 `SameEdgeOrderLockPartnerDeficitPayment.A' is the full-packet wording of the
 existing selected-overrun / order-lock-overlap payment, not a new lower source.
 
-The chart part is also open:
+The chart part is also open, but it has been reduced:
 
 \[
-\texttt{RetainedRecordEdgeC11MetricTowerOrExit.A}
+\texttt{RetainedCurvatureSpikeThicknessOrCharge.A}
 +\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}
 \Longrightarrow
 \texttt{RetainedRecordEdgeExactProjectorChartLicense.A}.
 \tag{CPS.26n}
 \]
 
-Finite-difference tower coherence and Chapter 2 closedness are support; they do
-not by themselves control the shell-changing exact-projector commutators or
-moving material-chart residues of an arbitrary future-positive edge. The
-physical question is whether the same high packet remains in a retained chart
-where those residues are legal, stopped, lower-order, service-paid, or
-active-paid before the selector counts it.
+The \(C^{1,1}\) metric tower test reduces to a flow-curvature bill. The
+flow-curvature bill reduces to a Morrey envelope. The Morrey envelope splits:
+sub-wavelength coefficient curvature is not an \(S^0\) metric symbol and is
+therefore higher-projector service, while the remaining same-edge metric content
+is the low-pass curvature spike thickness/charge theorem. Finite-difference
+tower coherence and Chapter 2 closedness are support; they do not by themselves
+rule out a thin material-frame curvature spike that is invisible to the averaged
+Field/viscous bill while still rotating the exact pressure projector at the
+active wavelength.
 
 The angle/payment part is not a new producer. It is the same selected-critical
 Gold price already appearing above as selected-generator storage, positive
@@ -1296,11 +1308,13 @@ original coupled packet, proves the record-admitted matrix gap, proves
 `FullTowerPositiveChannelThreeMeasureAdmission.A` specifically for the surviving
 full material clock `(CPS.17a)', proves the pre-envelope signed commutator line
 `(CPS.18)' by proving the moving low-high pressure/strain pump/free-material
-graph driver bound `(CPS.20)'--`(CPS.21)', proves a strictly smaller noncircular
-supplier for one of those clauses, proves the repeated-core record/return or
-shrinking-core reset branch by constructing the same parent-known pre-readout
-state/currency/record-storage object from original data, proves same-carrier
-overrun tail UI before terminalization, proves theta-payer/pre-readout admission
-with the signed carrier retained, or gives a typed route-out in the CM grammar.
+graph driver bound `(CPS.20)'--`(CPS.21)', proves the same-edge
+`RetainedCurvatureSpikeThicknessOrCharge.A` row for the exact-projector chart,
+proves a strictly smaller noncircular supplier for one of those clauses, proves
+the repeated-core record/return or shrinking-core reset branch by constructing
+the same parent-known pre-readout state/currency/record-storage object from
+original data, proves same-carrier overrun tail UI before terminalization,
+proves theta-payer/pre-readout admission with the signed carrier retained, or
+gives a typed route-out in the CM grammar.
 New labels that do not do one of those jobs are coordinates of this wall, not
 sibling frontiers.
