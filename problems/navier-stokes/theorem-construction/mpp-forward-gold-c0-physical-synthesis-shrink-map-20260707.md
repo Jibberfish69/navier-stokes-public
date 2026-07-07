@@ -45,6 +45,11 @@ target_object:
   - StoppedFreeMaterialGraphDriverCarleson.A
   - StrictHighRatioGoodLambdaHalfBarrierBreak.A
   - GlobalSamePacketFullWeightBeatingTail.A
+  - ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A
+  - OriginalHistoryRecordResetRootPayment.A
+  - RecordAdmittedActiveFullExchangeCoupledStorage.A
+  - RepeatedCorePositiveVariationRootBound.A
+  - ScaleInvariantSelectedCapacityNoEscape.A
   - SameParentCriticalDepletionNoZeno.A
   - SameParentCriticalGoodLambdaTail.A
   - BeforeClippingActiveDensityComparison.A
@@ -79,6 +84,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
@@ -101,6 +110,8 @@ supersedes_as_live_frontier:
   - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
   - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
+  - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
+  - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -157,7 +168,14 @@ completion_truth: >-
   bound is the first ratio moment. The critical half-tail
   nu_l=2^-l/(l+1) passes every installed support axiom and fails the first-ratio
   action, so the strict half-barrier theta<1/2 is not a second producer; it is
-  the exact tail/readout form of the moving pump. Local finite-depth storages,
+  the exact tail/readout form of the moving pump. Below that tail wall, the
+  repeated-core and shrinking-core notes do not create two new roofs: inherited
+  no-reset reuse is the repeated-core record/return branch, while genuinely
+  fresh child reset is the critical weighted reset-current branch. Both are
+  faces of the same parent-known pre-readout active-state/root-currency/record-
+  storage package; bounded record height, raw capacity, raw reset distance, raw
+  Bessel freshness, and compactness all fail the selected-critical half-tail
+  test. Local finite-depth storages,
   shell energy, Cauchy-Green, strain-log, coefficient-log, pointwise
   contraction, complete-frame orientation, laminar ancestry, and Volterra
   payback are checked support or no-go surfaces unless they build a global
