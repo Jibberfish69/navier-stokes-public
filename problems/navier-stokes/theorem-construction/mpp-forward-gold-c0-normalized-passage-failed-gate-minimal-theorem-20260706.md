@@ -289,7 +289,7 @@ collapse identifies the nonduplicate original-data producer as:
 ```
 
 Physically, the same parent packet must delete enough active/root/full-exchange
-state before child positive clipping that the selected generator clock cannot
+state before child positive-part extraction that the selected generator clock cannot
 fund itself. The exact-projector chart row remains necessary because the frozen
 detector must be a legal retained-edge reading, and the admitted parent faces
 still need \(B\)-currency storage. But those are admission/readout chores around
