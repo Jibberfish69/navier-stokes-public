@@ -190,18 +190,21 @@ irreversibility measure and is **not** here identified with the four *principles
 Body I–IV — the weld is principle ↔ coordinate, which is what the Layer-1 and
 shrink-map surfaces ground; the naming coincidence is flagged, not used.)
 
-## 3. Load-bearing: the `4→1` closure IS the one solution's self-consistency, and that IS the cross-rung margin
+## 3. Load-bearing: there is no loop to close — one simultaneous balance, and c_0 is whether it tips depleting
 
-Because the four bodies are one simultaneous solution, the `4→1` "return"
-(`Curvature-Based Regularity ⇌ Scale-Barrier`; Layer-2's `3→4→1`;
-`route-b-euclidean-closure-theorem`) is **not a separable last step you perform**.
-It is the coordinate-name for the **self-consistency of the one packet** — the
-condition that the single simultaneous solution close on itself. Physically: the
-signed strain-geometry driver (Body IV) and the supercritical high-frequency decay
-(Body I) are the *same field at the same instant*, so the demand is that this one
-object be self-coherent — that the driver it *is* be strong enough, uniformly down
-the cascade, to keep the tail it *is* ahead of the production it *is*. Self-closure
-of one object, not a loop between four.
+The corpus writes a circuit `S→Q→(S,Q)→C→G→S` with a `4→1` "return" and a
+propagation `P(T)→P(T⁺)`, and it says "work body by body." **The owner correction
+retires that reading.** There is no relay of four results and no last arrow to
+close, because the four never separated: the high-frequency tail, the transfer
+budget, the coherence, and the strain-geometry are the *same field at the same
+instant*. The whole question is a **single simultaneous balance** — does the one
+field's self-stretching outrun, uniformly down every scale, the same field's
+simultaneous incompressible participation-braking, vortex-turning, and viscous
+smoothing? `c_0 > 0` is exactly: **that one simultaneous balance tips to the
+depleting side by a fixed margin.** No circuit, no return, no self-consistency
+condition on four parts — one balance, one object.
+
+And this is why the margin is where it is:
 
 That is **identically c_0's cross-rung margin.** And it fails to close for the
 identical reason the modern route isolated:
