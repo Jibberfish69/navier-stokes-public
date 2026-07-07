@@ -778,3 +778,188 @@ may stretch like Vieillefosse only if the parent field supplies a gluing layer;
 the gluing layer either emits transverse pressure stress or spends comparable
 viscous deformation trying to hide it. The full theorem is the uniform version
 of that sentence over all lawful participation towers.
+
+## 12. How the three escape routes die
+
+The proof should be run as a compactness contradiction. Normalize a lawful
+participation sequence by
+
+```math
+\mathcal S_{\rm Vieillefosse}(u_n)=1,
+\tag{VPL.60}
+```
+
+and suppose the transverse/cancellation bill tends to zero. The affine core
+calculation says the limiting local core can only be the frictionless
+Vieillefosse stretcher. The gluing calculation says any finite-energy attachment
+of that core creates an \(l=4\) pressure channel unless another same-field mode
+cancels it. The three escapes are exactly the three possible ways to claim that
+this cancellation is free.
+
+### 12.1 Non-axisymmetric hiding
+
+Let \(G=\nabla u\) in one active collar and split it as
+
+```math
+G=G_0+E,
+\tag{VPL.61}
+```
+
+where \(G_0\) is the axisymmetric Leray-corrected Vieillefosse gluing component
+and \(E\) contains all non-axisymmetric or non-model correction modes. The
+pressure source is
+
+```math
+f[u]=\operatorname{tr}(G^2)
+=
+\operatorname{tr}(G_0^2)
++2\operatorname{tr}(G_0E)
++\operatorname{tr}(E^2).
+\tag{VPL.62}
+```
+
+Project to the full \(l=4\) spherical-harmonic subspace:
+
+```math
+\Pi_4 f[u]
+=
+F_{4,0}
++\Pi_4\big(2\operatorname{tr}(G_0E)+\operatorname{tr}(E^2)\big).
+\tag{VPL.63}
+```
+
+The model calculation gives \(F_{4,0}\neq0\) for every nontrivial collar. If
+non-axisymmetric hiding makes \(\Pi_4 f[u]\) small, then the correction term in
+(VPL.63) must be comparable to \(F_{4,0}\). This gives the dichotomy
+
+```math
+\|\Pi_4 f[u]\|
++\|E\|_{\rm glue}^2
+\ge
+c\,\|F_{4,0}\|.
+\tag{VPL.64}
+```
+
+For small \(E\), (VPL.64) follows by the boundedness of the bilinear map
+\(E\mapsto\Pi_4\operatorname{tr}(G_0E)\): cancelling a fixed \(F_{4,0}\) forces
+\(\|E\|\gtrsim \|F_{4,0}\|/\|G_0\|\). For large \(E\), the cost term
+\(\|E\|_{\rm glue}^2\) already pays. Physically, spreading the four-lobed stress
+among non-axisymmetric \(m\)-modes is still a deformation of the same collar,
+and angular spectral gap on \(S^2\) charges that deformation.
+
+So non-axisymmetric hiding dies if (VPL.64) is installed in the lawful
+participation norm.
+
+### 12.2 Pressure cancellation
+
+Pressure cannot cancel an \(l=4\) source by isotropic gauge. On each nonzero
+spherical harmonic,
+
+```math
+\nabla^2(-\Delta)^{-1}
+\tag{VPL.65}
+```
+
+is an elliptic order-zero operator. Thus, on the \(l=4\) channel,
+
+```math
+\|\operatorname{dev}\nabla^2p_4\|
+\simeq
+\|\Pi_4 f[u]\|.
+\tag{VPL.66}
+```
+
+The only way to erase the transverse pressure is to make the source
+\(\Pi_4 f[u]\) small before pressure is solved. But by (VPL.63), that requires
+another same-field \(l=4\) source of opposite sign. Call the modes creating that
+opposite sign \(E_{\rm cancel}\). Then
+
+```math
+\|\operatorname{dev}\nabla^2p_4\|
++\|E_{\rm cancel}\|_{\rm glue}^2
+\ge
+c\,\|F_{4,0}\|.
+\tag{VPL.67}
+```
+
+Physically, cancellation is not erasure. It is another deformation of the same
+packet or parent collar, and that deformation has to be counted as viscous
+participation cost. Pressure cancellation dies when the bill includes the modes
+that manufacture the opposite \(l=4\) source.
+
+### 12.3 Log-endpoint delamination
+
+The log-endpoint escape tries to pay only at the entrance and exit of a long
+tower. The way to kill it is to make the transverse bill an onsite measure on
+active same-fluid participation rungs.
+
+For each log-scale rung \(I\), the local no-free-collar statement must be
+
+```math
+\mu_T(I)
+:=
+\int_I
+\big(
+\|\Pi_4 f[u]\|_{\rm press}
++\|E_{\rm cancel}\|_{\rm glue}^2
+\big)
+\ge
+c
+\int_I d\mu_S,
+\tag{VPL.68}
+```
+
+where \(d\mu_S\) is the Vieillefosse self-stretching service on that same
+participant. This is stronger than a derivative-in-log-scale estimate. It says
+the cost is attached to each active lawful rung, not to variation between
+rungs.
+
+Then a \(2^{-L}/L\) endpoint sequence cannot survive. If
+
+```math
+\mu_S([0,L])=1,
+\qquad
+\mu_T([0,L])\to0,
+\tag{VPL.69}
+```
+
+then (VPL.68) gives
+
+```math
+0\leftarrow\mu_T([0,L])
+\ge
+c\,\mu_S([0,L])
+=c,
+\tag{VPL.70}
+```
+
+a contradiction.
+
+Physically, the middle rungs cannot say "we are lawful same-fluid
+Vieillefosse participants" while outsourcing all attachment stress to the two
+ends of the tower. A lawful participant has to be attached where it participates.
+If the collar stress is absent in the middle, the middle is not a lawful
+same-field participant in the strict participation-law sense.
+
+### 12.4 What remains after this reduction
+
+The three escapes are killed by one local-to-measure theorem:
+
+```math
+\boxed{
+\|\Pi_4 f[u]\|_{\rm press}
++\mathcal V_{\rm cancel}(u)
+\ge
+c\,\mathcal S_{\rm Vieillefosse}(u)
+}
+\tag{VPL.71}
+```
+
+on every active lawful participation packet, with \(c>0\) independent of scale,
+orientation, and tower depth.
+
+The model collar proves the nonzero channel in one symmetry class. The upgrade
+requires proving that every mode used to hide or cancel that channel is itself a
+same-field gluing deformation charged by \(\mathcal V_{\rm cancel}\), and that
+the resulting measure is onsite on active rungs. That is the exact mathematical
+form of the physical no-free-collar law.
