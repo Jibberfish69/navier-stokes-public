@@ -14,11 +14,12 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-what-any-proof-must-supply-target-spec-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-hs-lp-heat-flow-continuum-ontology-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
 completion_truth: >-
-  Physics-first diagnosis, a falsifiability filter, and identification of the one
-  live lever. NOT a proof of c_0. (1) UNIFICATION: the alignment ratio a/|omega|->1,
+  Physics-first diagnosis, a falsifiability filter, and identification of the
+  candidate signed lever. NOT a proof of c_0. (1) UNIFICATION: the alignment ratio a/|omega|->1,
   the l^2->l^1 service borderline, the L^2->L^3 record equi-integrability step, the
   div-curl weak-continuity endpoint, and the shrink-map "ratio-one same-packet
   payer" terminal atom are ONE object -- the ratio-one marginal knife-edge at the
