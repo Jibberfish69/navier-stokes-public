@@ -40,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-potential-average-bound-endpoint-corrected-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
 completion_truth: >-
