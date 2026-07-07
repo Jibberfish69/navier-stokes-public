@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-null-lagrangian-projection-demotion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-unified-object-referee-placement-vs-CKN-ESS-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-hs-lp-heat-flow-continuum-ontology-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-depth-hhalf-l3-critical-row-proof-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
@@ -57,7 +58,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-custody-first-ratio-source-split-20260707.md
 completion_truth: >-
   This note resolves the proposed route at the current source state, and the
-  resolution is a strict separation. Uniform cascade-termination depth in the
+  resolution is a strict separation. The later Hhalf-L3 critical-row proof
+  installs the projection-level theorem: uniform cascade-termination depth in the
   L2-to-L3 sense is exactly the spatial
   signed-core no-critical-concentration projection: it prevents the Jacobian /
   null-Lagrangian record core from forming arbitrarily deep spatial
@@ -190,6 +192,19 @@ This proves the equality the older target-spec was trying to name:
 \]
 
 It does not prove c0.
+
+The Hhalf-L3 critical-row proof makes `(UCD.4)' precise in standard analytic
+coordinates: in three dimensions \(H^{1/2}\hookrightarrow L^3\), and
+Littlewood-Paley/Bernstein gives
+\[
+\|P_{\ge J}f\|_{L^3}
+\lesssim
+\left(\sum_{j\ge J-O(1)}2^j\|P_jf\|_{L^2}^2\right)^{1/2}.
+\tag{UCD.4a}
+\]
+For the retained spatial core, tightness of this critical tail is equivalent to
+absence of arbitrarily deep dyadic \(L^3\)-critical concentration cylinders.
+That installs the uniform-depth \(=\ L^2\to L^3\) row at the spatial projection.
 
 ## 3. Why this projection does not imply epsilon positivity
 
