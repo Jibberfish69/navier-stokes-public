@@ -33,6 +33,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -72,8 +73,11 @@ completion_truth: >-
   positive service survives as a nonzero atom and cannot be zero surplus. The
   compact coercivity extraction follow-up proves that a qualitative zero-loss
   Liouville theorem on the admitted compact theta class automatically yields
-  the strict c_0 modulus. None of these notes proves those Navier-Stokes
-  producer inputs or zero-loss rigidity. The first-ratio storage route is further
+  the strict c_0 modulus. The zero-loss case-elimination follow-up narrows the
+  qualitative rigidity theorem to the high-frequency pressure-stress transfer /
+  positive-critical-transfer branch. None of these notes proves those
+  Navier-Stokes producer inputs or the final high-frequency branch. The
+  first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
   sharpened to persistent root affine quotient payment and then to the single
@@ -362,7 +366,10 @@ Navier-Stokes material history, or prove the spectral gap `(HSR.11)' on the
 certified invariant heat-scale profile class. By the compact coercivity
 extraction lemma, it is enough to prove the qualitative zero-loss form of that
 gap on the compact admitted theta class; the positive modulus then follows by
-minimization.
+minimization. By the zero-loss case-elimination reduction, the retained
+qualitative zero-loss form is now concentrated in the high-frequency
+pressure-stress transfer branch, reduced to
+`SelectedGeneratorStorageCoercivity.A` / `PositiveCriticalTransferBound.A`.
 
 The current-Carleson reduction in
 `mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md`
