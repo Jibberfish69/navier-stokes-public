@@ -108,10 +108,11 @@ The weighted first-moment tail is therefore finite and vanishes at infinity:
 \tag{BACK.7}
 ```
 
-Thus F2, once installed as (BACK.3), removes the retained-row weighted
-first-moment obstruction. This pays only the retained row whose compensators
-have already been zeroed or routed. Non-retained residues still need their
-typed weighted route, SRP moment readout, or Pack/Part/Field consumer.
+Thus an installed F2 floor, once proved as (BACK.3), removes the retained-row
+weighted first-moment obstruction. This pays only the retained row whose
+compensators have already been zeroed or routed. Non-retained residues still
+need their typed weighted route, SRP moment readout, or Pack/Part/Field
+consumer.
 
 ## 3. F1 state after F2
 
@@ -129,9 +130,9 @@ The remaining F1 burden is still one of:
 
 or the phase-sweep route, or a typed route-out of the bad-cone/cancellation
 histories into already priced parking, return, debt, tax, finite-band
-capacity, or Chapter-10 rows. The new c_0 floor can finance the retained
-crossing after the actual row exists; it does not by itself construct the
-actual-NS predator-cone population row.
+capacity, or Chapter-10 rows. The conditional c_0 floor can finance the
+retained crossing after the actual row exists; it does not by itself construct
+the actual-NS predator-cone population row.
 
 ## 4. F3 state after F2
 
@@ -148,10 +149,10 @@ frozen frontier.
 ## 5. F4 and Chapter 10
 
 F4 is not automatic from (BACK.3). Chapter 10 is the interval certification
-surface for constants, identities, fractions, and closed forms. The new input
-from c_0 is a positive constant \(c_{\rm acc}\), but the worksheet still must
-certify that this constant enters the currently live product/seed packet rather
-than a superseded row.
+surface for constants, identities, fractions, and closed forms. If F2 is later
+proved, the new input from c_0 is a positive constant \(c_{\rm acc}\), but the
+worksheet still must certify that this constant enters the currently live
+product/seed packet rather than a superseded row.
 
 The F4 handoff from this ledger is:
 
@@ -174,15 +175,15 @@ consumes are paid, certified, or routed. The current prerequisites remain:
 4. W0-B surviving lineage suppliers or typed route-outs.
 5. Manuscript chapter gates in their current, non-superseded form.
 
-This ledger supplies a possible F2-to-retained-row bridge. It does not assemble
-F5.
+This ledger supplies the conditional F2-to-retained-row bridge. It does not
+assemble F5.
 
 ## 7. Current backend status
 
-The immediate backend consequence of the overlap-charge work is:
+The immediate backend consequence is conditional:
 
 ```math
-\text{strict overlap charge}
+\text{genuine non-affine strict overlap charge}
 \Rightarrow
 c_0>0\text{ in the strict participation bill}
 \Rightarrow
@@ -199,5 +200,6 @@ The proof remains open at:
 \tag{BACK.11}
 ```
 
-So the back-half has begun: F2 now has a concrete consumer calculation, but the
-full frozen sequence is not complete.
+So the back-half has begun in the precise sense that an assumed F2 floor now has
+a concrete consumer calculation. The full frozen sequence is not complete, and
+F2 itself remains open until the non-affine collar/turn-off charge is proved.
