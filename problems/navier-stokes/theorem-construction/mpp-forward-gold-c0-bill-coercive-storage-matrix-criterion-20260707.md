@@ -48,7 +48,7 @@ completion_truth: >-
   carrier. The WLF.60 carrier-mismatch follow-up further reduces that face to
   mismatch evacuation plus same-carrier selected overrun tail UI, with terminal
   tail failure held as obstruction/readout unless separately admitted and
-  consumed. The zero-bill unit-cycle follow-up identifies the qualitative
+  consumed. The Perron-class normal-form follow-up identifies the qualitative
   compact form of the full matrix gap: after record admission and exact
   charting, exclude normalized nonnegative zero-surplus record-feeding Perron
   classes/circulations. The kernel test proves the absolute-zero version is
