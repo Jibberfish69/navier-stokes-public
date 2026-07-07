@@ -11,6 +11,7 @@ target_object:
   - MaterialTimeCertificateFlowInvariance.A
   - MaterialTimeLiouvilleExclusion.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-mq-local-membership-canonical-surface.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-CANONICAL-one-object-strain-service-reserve-floor-consolidation-20260706.md
@@ -36,6 +37,11 @@ completion_truth: >-
   graph are built, so the route-b flow row is now reduced to that compact
   certified path construction, zero-surplus payer-measure lift/lower
   semicontinuity, theta-record pre-readout admission, and zero-loss rigidity.
+  The critical-height-growth correction prevents this certified marginal path
+  from being identified with a standalone self-similar/DSS profile: exact
+  scaling keeps H=1/2||u||_{\dot H^{1/2}}^2 constant, while the c_0 bad object
+  needs H(t)->infinity through retained records. Route-b is therefore a
+  material-time critical-height-growth rigidity theorem, not profile exclusion.
   Thus radiodrome gives a sharp coordinate and a useful bad-sequence detector
   for c_0, not an independent source of c_0. No closure is claimed.
 ---
@@ -203,6 +209,15 @@ N_L\sim {2^{-L}\over L},
 The radiodrome picture explains the arithmetic: bounded per-rung lag can still
 have divergent weighted total turning. At equality speed, the chaser never
 captures.
+
+The critical-height-growth correction fixes the meaning of "profile" here. This
+compactified branch is not a standalone exact self-similar or DSS Leray profile.
+Exact scaling preserves the critical height, while the bad \(c_0\) branch must
+carry \(H(t)\to\infty\) through record doublings. Thus the route-b compact object
+is a certified material-time marginal recurrence of the same Navier-Stokes
+history, with positive critical-height record service and surplus-zero payers.
+Self-similar/DSS calculations remain tests of scale-covariant equality; they do
+not close `(RTR.13)' without a bridge preserving the record-growth service.
 
 ## 4. LaSalle form of the remaining theorem
 
