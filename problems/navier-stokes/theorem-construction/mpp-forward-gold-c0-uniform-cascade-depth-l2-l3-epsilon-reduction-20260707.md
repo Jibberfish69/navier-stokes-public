@@ -43,6 +43,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-numerator-wlf60-route-measure-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pressure-hessian-global-triad-zero-localized-commutator-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -856,3 +857,10 @@ producer: after parent-known coarea, it is `SelectedLinearRouteMeasureCarleson.A
 / WLF.60 / ODP.91 in local Radon-Nikodym form. The remaining source theorem is
 therefore still the selected-linear route-measure payment on the actual
 order-locked full-packet carrier.
+
+The pressure-Hessian triad swing gives the same instruction in Fourier
+coordinates. The bare global pressure-Hessian/strain pairing vanishes
+identically by incompressibility, so the \(L^2\to L^3\) uniformity cannot come
+from an unlocalized pressure triad floor. The only surviving pressure-side
+candidate is the localized pressure-Hodge / viscosity-collar commutator on the
+same selected packet, expressed here as the WLF/ODP selected-linear bill.
