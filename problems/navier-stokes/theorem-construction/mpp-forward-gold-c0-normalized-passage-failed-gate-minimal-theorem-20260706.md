@@ -292,22 +292,23 @@ closedness, and Field-coherence inputs are still compatible with a cyclic
 feedback matrix of spectral radius one. In that model, critical entry, full
 exchange, and active transit pay one another sequentially, while no strict
 parent reserve is depleted. Thus the source-produced theorem must be the
-record-admitted active-critical/full-exchange storage matrix itself:
+bill-coercive record-admitted active-critical/full-exchange storage matrix
+itself:
 
 ```math
 \rho(K_P)<1
 ```
 
-on the same pre-readout parent packet, or an independent original-history proof
-of one matrix face strong enough to make the residual matrix subcritical.
+on the same pre-readout parent packet with residual charged in
+\(B=dE^{Field}+dA_{4B}+dVisc\), or an independent original-history proof of one
+matrix face strong enough to make the residual matrix subcritical.
 
 The sharpened current stack is:
 
 ```math
 \begin{aligned}
-&\texttt{RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A}\\
+&\texttt{BillCoerciveRecordAdmittedStorageMatrix.A}\\
 &+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
-&+\texttt{B-currency storage of admitted parent faces}
 \Longrightarrow
 \texttt{ParentOwnedPositiveRecordBillCurrency.A}\\
 &\Longrightarrow
@@ -315,6 +316,9 @@ The sharpened current stack is:
 \end{aligned}
 ```
 
-This is still a strict reduction, not a proof of the normalized passage theorem:
-the original-ledger generator storage theorem is unproved, and no retained
-Navier-Stokes counterexample to normalized passage has been constructed.
+The implication from the bill-coercive matrix to parent-owned bill currency is
+now proved as a conditional linear-algebra criterion. This is still a strict
+reduction, not a proof of the normalized passage theorem: the actual
+Navier-Stokes construction of the bill-coercive matrix is unproved, and no
+retained Navier-Stokes counterexample to normalized passage has been
+constructed.
