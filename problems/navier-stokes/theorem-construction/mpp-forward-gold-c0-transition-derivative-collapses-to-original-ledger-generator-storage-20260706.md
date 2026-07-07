@@ -201,7 +201,7 @@ Thus the c0 wall is not:
 
 Those are coordinates or consumers. The remaining producer is the same-parent
 full-exchange critical-depletion storage: the parent packet must record enough
-pressure/Hodge/frame/collar/reset/critical-birth motion before child clipping so
+pressure/Hodge/frame/collar/reset/critical-birth motion before child positive-part extraction so
 that the selected generator clock cannot be funded by itself.
 
 ## 4. Completion state
