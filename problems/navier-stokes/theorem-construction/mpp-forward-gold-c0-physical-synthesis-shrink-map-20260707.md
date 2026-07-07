@@ -104,6 +104,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
@@ -242,7 +243,16 @@ completion_truth: >-
   Field/four-body/viscous bill and R is the one-way retained relay record, so
   c_0=2 epsilon_*. The zero-bill kernel gives only B=0 => R=0 or route-out; the
   missing theorem is compactness plus record passage from B->0, R=1 to a
-  forbidden zero-bill positive-record limit. That inventory and the route-b
+  forbidden zero-bill positive-record limit. The current stronger route is
+  ParentOwnedPositiveRecordBillCurrency.A: represent the selected positive record
+  before readout on the same retained parent edge and control it in B-currency.
+  If that theorem holds, the R=1, B->0 sequence is impossible directly; Gate 3
+  no-loss passage and Gate 4 same-parent admission are escape modes of the same
+  missing pre-readout ownership, not independent lower producers. Its current
+  nonduplicate lower object is RetainedRecordEdgePreReadoutCustodyTuple.A:
+  selector capture, exact-projector chart/license, pressure-active or
+  detector-silent service payment, and root/endpoint/full-exchange face address
+  on one future-positive edge before readout. That inventory and the route-b
   material-time Liouville story reduce to the same Gate2/WLF.60 early-row wall
   after typed route-outs, theta-payer admission, compact zero-loss extraction,
   original-ledger matrix reduction, and WLF mismatch analysis. The
