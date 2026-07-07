@@ -46,7 +46,8 @@ completion_truth: >-
   collar/exit/pass. The source-free zero-lag subcase is closed: without angular source defect,
   zero lag forces support on z=0 or z=1, where the active transverse channel vanishes. HONEST
   STATUS: this is a strict reduction plus a failed bare-symbol positivity attempt; the sourced
-  retained angular Liouville rigidity remains open and is the current c_0 wall.
+  retained angular Liouville rigidity remains open as two concrete lines: boundary moment
+  ownership and nondegenerate service domination.
 ---
 
 # Corrected transverse-coupling reduction
@@ -142,13 +143,17 @@ to the degenerate endpoint channels \(z=0,1\), or route through collar/exit/pass
 The source-free subcase is closed: if no angular source defect is present and
 zero lag persists, then \(\int z(1-z)d\mu_t=0\), so the retained angular measure
 is supported on \(z=0\cup z=1\), where the active transverse factor vanishes.
-The current smaller Liouville target is the sourced angular-mixing payment.
+The retained transport identity itself is chart admission, not the sign theorem.
+If the chart/selector is absent, the object already pays mix/collar/exit/pass; if
+the chart is present, the identity is the pushforward formula. The current smaller
+Liouville target is therefore boundary moment ownership plus nondegenerate service
+domination.
 
 ## 6. Honest status
 
 The old formulation was too strong: it treated fixed-sign density as already available. The
 checked state is sharper. Covariance survives; naked angular positivity fails at the first
 affine-symbol test; source-free zero-lag cancellation collapses to degenerate endpoint channels;
-the remaining route is sourced retained-participation angular Liouville rigidity, extending the
-exact self-similar exclusion to the marginal tower with the material bill currency included.
-This is a strict reduction plus an obstruction to the bare spectral version, not a closure.
+retained chart absence is already a paid/exit branch; the remaining route is boundary moment
+ownership plus nondegenerate service domination for the admitted retained angular chart. This is
+a strict reduction plus an obstruction to the bare spectral version, not a closure.
