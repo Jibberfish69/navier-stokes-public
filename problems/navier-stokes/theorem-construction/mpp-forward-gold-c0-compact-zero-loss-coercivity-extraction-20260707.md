@@ -33,6 +33,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-marginal-relay-all-zero-payment-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fourbody-compactness-rigidity-coercivity-principle-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-activity-persistence-replacement-criterion-20260621.md
@@ -50,8 +51,11 @@ completion_truth: >-
   CertifiedMaterialTimeShiftHullCompactness.A, or ZeroLossTowerRelayRigidity.A.
   It lowers the remaining c_0 work to a qualitative compact Liouville theorem
   on the admitted theta class rather than a separate numeric spectral-gap
-  formula. No FullTower retention, material-time Liouville theorem, c_0, or
-  MPP closure is claimed.
+  formula. The zero-loss case-elimination follow-up further narrows that
+  qualitative theorem to the high-frequency pressure-stress transfer branch,
+  equivalently SelectedGeneratorStorageCoercivity.A /
+  PositiveCriticalTransferBound.A after current source reductions. No FullTower
+  retention, material-time Liouville theorem, c_0, or MPP closure is claimed.
 ---
 
 # Compact zero-loss rigidity extracts the \(c_0\) modulus
@@ -192,6 +196,13 @@ The remaining nonabstract producer rows are exactly:
 \end{array}
 \tag{CZC.11}
 \]
+
+The zero-loss case-elimination note narrows the last row. After theta-payer
+admission, zero-loss positive service cannot be detector-visible, persistent
+localized affine, or temporal-thin. Thus the remaining qualitative Liouville
+producer is the high-frequency nonlinear pressure-stress transfer branch,
+currently reduced to `SelectedGeneratorStorageCoercivity.A` /
+`PositiveCriticalTransferBound.A`.
 
 Equivalently, route (a) can bypass this package only by proving
 `FullTowerSignedTotalExchangeRetention.A` directly, which supplies the same
