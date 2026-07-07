@@ -70,6 +70,7 @@ FORWARD_POSITIVE_QUARANTINE_SUMMARY = FORWARD_POSITIVE_SURFACE_QUARANTINE.merge(
 NS_TARGET_PREFLIGHT = TARGET_OPERATING_CONTRACT.fetch("target_preflight").freeze
 NS_TARGET_LOCK_SCHEMA = TARGET_OPERATING_CONTRACT.fetch("target_lock_schema").freeze
 NS_PROOF_PROGRAM_TOPOLOGY = TARGET_OPERATING_CONTRACT.fetch("proof_program_topology").freeze
+NS_FLUID_FIELD_OBJECT_ONTOLOGY = TARGET_OPERATING_CONTRACT.fetch("fluid_field_object_ontology").freeze
 OPEN_ROOT_GROUP = TARGET_OPERATING_CONTRACT.fetch("open_root_group").freeze
 OPEN_ROOT_PRESENTATIONS = OPEN_ROOT_GROUP.fetch("diagnostic_presentations_pending_cm_exit_landing").freeze
 NS_NON_MERGE_RULES = TARGET_OPERATING_CONTRACT.fetch("non_merge_rules").freeze
@@ -658,6 +659,7 @@ def target_topology_payload
     "target_preflight" => NS_TARGET_PREFLIGHT,
     "target_lock_schema" => NS_TARGET_LOCK_SCHEMA,
     "proof_program_topology" => NS_PROOF_PROGRAM_TOPOLOGY,
+    "fluid_field_object_ontology" => NS_FLUID_FIELD_OBJECT_ONTOLOGY,
     "open_root_group" => OPEN_ROOT_GROUP,
     "exact_live_theorem_grade_burden" => CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN,
     "release_or_respawn_consequence" => current_release_or_respawn_consequence,
