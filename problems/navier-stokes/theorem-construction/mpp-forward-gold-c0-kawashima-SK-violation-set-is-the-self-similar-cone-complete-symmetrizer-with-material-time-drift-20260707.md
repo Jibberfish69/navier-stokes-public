@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-classical-four-principle-cycle-IS-the-c0-floor-two-coordinates-one-wall-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscosity-is-marginal-on-the-counterobject-welds-viscous-lever-to-rigidity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-surplus-zero-single-scale-c0-is-exactly-zero-counterobject-is-log-self-similar-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pressure-hessian-global-triad-zero-localized-commutator-reduction-20260707.md
 completion_truth: >-
   Structural reduction and a new candidate attack, not a proof of c_0. Uses the
   repo's simultaneous four-body Kawashima symmetrizer H_σ=I+K_σ on the packet
@@ -130,6 +131,13 @@ is: `c_0` **requires** the field never sit on the one cone where `A,B` commute
 (simultaneously scaling); it is not *equivalent* to that by any installed theorem. No rate
 can decide the cone (there every rate is a shared scaling) — which is why no scale-covariant
 estimate closes `c_0`.
+
+The pressure-Hessian triad computation adds a sharper warning: the bare
+unlocalized pressure-Hessian/strain pairing is zero for every incompressible
+Fourier field, not merely degenerate on one mode. Therefore SK language cannot
+be read as a coercive global pressure-Hessian triad floor. Any SK-shaped floor
+must include the localized packet/moving-frame commutator leg and the selected
+bill currency.
 
 ## 3. (C) The funnel is CONDITIONAL — a would-be architecture, not a forced one
 
