@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-zeno-rellich-same-carrier-reserve-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-codex-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-paired-carrier-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-full-packet-noresidue-rigidity-audit-20260627.md
@@ -57,6 +58,11 @@ completion_truth: >-
   broad SelectedRellichBulkPositivity.A to the quantitative selector-force /
   non-affine pressure-viscous commutator theorem, and then to the installed
   H^{-1} selector-force floor plus the open same-edge bill-currency conversion.
+  The balance-leg audit shows this conversion is not bookkeeping: viscosity
+  pays, but acceleration endpoint impulse can carry a unit terminal record with
+  unbounded L2 force square unless endpoint/frame variation is charged or
+  routed out, and the nonlinear/defect legs still need same-edge admission from
+  native stress/certificate currencies into the retained bill.
   No c_0, WLF.60, or MPP closure is claimed here.
 ---
 
