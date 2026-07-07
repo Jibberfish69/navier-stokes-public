@@ -285,13 +285,18 @@ stationary collar theorem or to pass/nonparticipation rather than retained
 record. Proving (CLS.13) together with the stationary no-free-collar branch
 uniformly over the strict participation atom class is the corrected bridge.
 
-## 8. How to attack the bridge
+## 8. Failed attack: magnitude re-aiming bill
 
-The corrected bridge has two inequalities. The first is a payment estimate: any
-aligned pressure frame that is re-aimed inside a moving strain frame must spend
-the same pressure/collar bill. The second is a participation estimate: retained
-positive record must create either moving-frame re-aiming or stationary
-collar/turn-off. The bridge closes only after both are proved.
+This section is retained as a wrong-type attack. It correctly identifies a
+same-field re-aiming channel, but it wraps that channel in absolute values. That
+turns a time-odd causal-lag problem into a time-even magnitude bill. A magnitude
+bill can prove that something moved; it cannot prove whether the pressure frame
+lags rather than leads, or whether two angular sectors have cancelled the
+oriented lag.
+
+The physical reason is simple. Irreversibility lives in the handedness of the
+pressure pursuit. The following estimates forget handedness. They are therefore
+visibility estimates, not a \(c_0\) floor.
 
 ### 8.1 Payment estimate
 
@@ -328,7 +333,7 @@ Thus \(D_tH\) can change the pressure eigenframe only by seeing non-affine
 same-field variation: source deformation, parent/collar motion, pressure tail,
 or selector motion.
 
-The payment lemma to prove is
+The magnitude payment lemma would be
 
 ```math
 \int_{\rm active}
@@ -347,7 +352,7 @@ participation bill: pressure source variation, material selector/collar
 commutator, pressure tail, and relative viscous repair. This is not a new
 currency.
 
-Under the aligned condition (CLS.9), (CLS.10) gives
+Under the aligned condition (CLS.9), (CLS.10) would give
 
 ```math
 \int_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
@@ -358,15 +363,15 @@ C\,\mathsf P_{\rm reaim}.
 
 ### 8.2 Participation lower bound
 
-The second lemma is the physical one. Retained positive record is not a local
-value of \(-\operatorname{tr}S^3\). It is a material handoff through the tower.
-That handoff has only two active forms:
+The second magnitude lemma is where the attack fails. Retained positive record
+is not a local value of \(-\operatorname{tr}S^3\). It is a material handoff
+through the tower. That handoff has only two active forms:
 
 1. the strain frame turns relative to the pressure frame;
 2. the frame stays aligned and the record is carried by amplitude/scale, which
    forces a finite-energy turn-off/collar.
 
-The kinematic participation lemma is therefore
+The unsigned kinematic participation lemma would be
 
 ```math
 \mathsf S_{\rm ret}
@@ -385,7 +390,7 @@ The pass term is zero on the retained positive-record class. A symmetric affine
 core with zero transverse pressure lands in \(\mathsf S_{\rm pass}\) unless it
 hands record through a collar, in which case it lands in \(\mathsf P_{\rm collar}\).
 
-Combining (CLS.18) and (CLS.19) gives
+Combining (CLS.18) and (CLS.19) would give
 
 ```math
 \mathsf S_{\rm ret}
@@ -399,11 +404,20 @@ C
 \tag{CLS.20}
 ```
 
-on the retained marginal class. This is the desired packet inequality.
+on the retained marginal class. This is not the desired packet inequality. It
+only controls absolute re-aiming mass. Section 9 shows that the bare transverse
+symbol has both signs; an adversarial embedding can keep the magnitude while
+canceling the oriented lag unless retained participation forbids that angular
+mixing.
 
 ### 8.3 Compactness route to a uniform floor
 
-If (CLS.20) failed uniformly, there would be strict atoms with
+The compactness route below is therefore invalid as a \(c_0\) proof. It would
+only rule out zero absolute re-aiming bill. The dangerous endpoint has zero
+oriented lag after cancellation, not necessarily zero magnitude.
+
+If the unsigned inequality (CLS.20) failed uniformly, there would be strict
+atoms with
 
 ```math
 \mathsf S_{\rm ret}=1,
@@ -412,8 +426,8 @@ If (CLS.20) failed uniformly, there would be strict atoms with
 \tag{CLS.21}
 ```
 
-Strict atom compactness should give a same-field limit with positive retained
-service and zero re-aiming/collar bill. In that limit:
+Strict atom compactness would give a same-field limit with positive retained
+service and zero absolute re-aiming/collar bill. In that limit:
 
 * (CLS.18) forces \((h_i-h_j)B_{ij}=0\) on every active channel;
 * the collar bill vanishes, so stationary aligned handoff is impossible by the
@@ -421,7 +435,7 @@ service and zero re-aiming/collar bill. In that limit:
 * the remaining branch is pass/nonparticipation, contradicting
   \(\mathsf S_{\rm ret}=1\).
 
-Therefore the attack reduces to three load-bearing lemmas:
+Therefore the failed magnitude attack reduces to three load-bearing lemmas:
 
 ```math
 \text{Material CZ re-aiming payment (CLS.17)}
@@ -438,10 +452,10 @@ Therefore the attack reduces to three load-bearing lemmas:
 \tag{CLS.24}
 ```
 
-These are smaller than the original \(c_0\) floor because each has a falsifier:
-respectively, a material CZ commutator that re-aims for free, a retained record
-handoff with neither frame turning nor collar turn-off, or a zero-bill aligned
-limit that still carries retained positive record.
+These lemmas are not enough for \(c_0\), because each is time-even. The
+falsifier is sharper than a free re-aiming mode: it is a signed cone-cancellation
+mode where the transverse response exists, costs magnitude, and still has zero
+oriented lag.
 
 ## 9. Affine-symbol test: the bare CZ re-aiming has no fixed sign
 
