@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-E4-record-closedness-compensated-compactness-20260706
-status: filed-pending-codex-gate-E4-spatial-reduced-to-compensated-compactness-temporal-admission-open
+status: filed-pending-codex-gate-E4-spatial-signed-core-reduced-to-compensated-compactness-positive-temporal-admission-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 endgame / E4 record closedness — the record is a null Lagrangian, so it passes to weak limits unless it concentrates, and the three bills forbid concentration
@@ -11,34 +11,30 @@ authorship: >-
   (tr A^3 = 3 det A = div Phi, machine-verified this session) from
   mpp-forward-gold-marginal-relay-all-zero-payment-exclusion-20260706 and the
   Gate-1 identity from mpp-forward-gold-gate1-tower-defect-identity-derived-kernel-regrade-20260706.
+source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-null-lagrangian-projection-demotion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-E4-tower-jacobian-transcription-proof-pass-20260706.md
 completion_truth: >-
-  E4's spatial escape is reduced to installed compensated-compactness
-  technology; its temporal and same-parent-admission escapes remain open and
-  Clay-hard. The argument: the relay record is a null-Lagrangian (Jacobian /
-  det-type) quantity — a geometric volume-distortion flux — because record
-  service is tr A^3 = 3 det(grad u) = div Phi (L1). Null Lagrangians are WEAKLY
-  CONTINUOUS (Reshetnyak / Ball / Murat-Tartar) precisely when the sequence
-  does not CONCENTRATE (det(grad u_j) equi-integrable). The three bills are
-  exactly the three concentration channels: the viscous bill nu int|grad
-  delta_h U_k|^2 forbids SCALE concentration (equi-integrability at small
-  scale); the Field bill forbids SPATIAL decoherence concentration between
-  towers; the four-body bill forbids the IRREVERSIBLE signed-defect
-  concentration. Hence a unit-record vanishing-bill sequence has an
-  equi-integrable, non-concentrating record core, so R passes to the weak
-  limit: limsup R(W_j) <= R(W_infty) = 0 (kernel), contradicting R(W_j) = 1.
-  This closes the SPATIAL escape (mode 1 flux + mode 2 lost-readout, spatial
-  part) on installed technology. NOT closed: (i) the finite-difference TOWER
-  version of the Jacobian weak-continuity theorem (owed transcription, plausible);
-  (ii) TEMPORAL concentration — the record concentrating onto an instant — which
-  compensated compactness in space does not see, routed to the RUC
-  thickness-or-charge dichotomy in bill currency (open); (iii) SAME-PARENT
-  ADMISSION — that the limit record is owned by a retained same-fluid parent,
-  not a detached defect measure — the hardest, the open native-admission of the
-  signed-height record note. No F2/F4/F5, Chapter-10, manuscript, or MPP closure
-  is proved. Filed is not cleared.
+  Superseded scope and partial reduction only. E4's valid compensated-
+  compactness result is the spatial signed-core projection: the relay record
+  has a Jacobian/null-Lagrangian core, and after fixed-depth tower
+  transcription plus equi-integrability/no-concentration that signed core
+  passes weakly. This does not pass the positive one-way record part, does not
+  prevent material-time concentration, and does not prove same-parent/root
+  ownership of the limiting record. Earlier wording in this note that sounds
+  like the three bills alone pass R(W_j) to R(W_infty) is superseded by the
+  null-lagrangian projection demotion. The open rows remain positive-part pawl
+  retention/Gate 2, temporal thickness-or-charge in bill currency, and native
+  same-parent admission. No F2/F4/F5, Chapter-10, manuscript, c_0, or MPP closure
+  is proved.
 ---
 
-# E4: the record is a null Lagrangian, so it cannot survive as a limiting artifact — unless it concentrates in time or loses its parent
+# E4: the signed spatial core is a null Lagrangian; the positive record still needs admission
+
+Supersession notice: the compensated-compactness argument below is valid only
+for the spatial signed Jacobian core. The positive one-way record, temporal
+material concentration, and same-parent ownership are still open.
 
 ## 1. Physical statement (Codex's three channels, made into the closedness engine)
 
