@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: constructive-target-narrowed; pointwise-no-aligned-embedding-version-refuted
+status: constructive-target-narrowed-to-retained-participation; local-zeroing-is-pass-or-paid-collar
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -23,13 +23,13 @@ completion_truth: >-
   in the strain frame then [S^2,Hess q]=0 and the response remains reversible.
   The proposed endpoint strictness is a forward-material-time causal-lag sign:
   the nonlocal participation frame pursues the local stretch frame with a
-  one-signed lag. The overbroad pointwise theorem "no lawful finite-energy
-  nonzero-service embedding can keep Hess q aligned in the strain frame" is
-  false by symmetric finite-energy affine-core examples. The surviving target is
-  narrower: no positive critical-record, surplus-zero, marginal participation
-  tower may keep aligned anisotropy after symmetry/gauge/pass branches are
-  quotiented or routed out. This is a constructive target and a falsifiability
-  test, not a proof of c_0>0.
+  one-signed lag. Local aligned zeroing at a symmetric affine core is a pass or
+  non-participation reading unless the same packet carries retained positive
+  critical-record service through the tower; if the work is pushed into a collar,
+  the collar is the payer. The surviving target is: no positive critical-record,
+  surplus-zero, marginal participation tower may keep aligned anisotropy while
+  still participating. This is a constructive target and a falsifiability test,
+  not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
@@ -84,26 +84,27 @@ In the strain eigenframe, with \(S=\operatorname{diag}(\lambda_1,\lambda_2,\lamb
 ```
 
 So the null condition is exact diagonal alignment of \(\nabla^2q\) in the
-strain frame. The tempting pointwise target would be:
+strain frame. The target must be stated for retained participation, not for a
+pointwise affine snapshot:
 
 ```math
-\text{No lawful forward-time finite-energy nonzero-service tower can keep }
+\text{No lawful forward-time finite-energy retained positive-record tower can keep }
 \nabla^2q
 \text{ diagonal in the }S\text{-frame rung by rung.}
 \tag{CLS.5}
 ```
 
-This is too broad. A finite-energy compactly supported divergence-free field
-can equal the axisymmetric affine Vieillefosse core
+The local symmetric affine core is the warning. A finite-energy compactly
+supported divergence-free field can equal the axisymmetric affine Vieillefosse core
 \(u=Ax\), \(A=\operatorname{diag}(a,a,-2a)\), near the origin and be corrected
 only in an outer collar. At the origin, symmetry forces
 \((\nabla^2q)_{13}=(\nabla^2q)_{23}=0\), while
-\(-\operatorname{tr}S^3=6a^3>0\). Thus nonzero local Vieillefosse service does
-not by itself force transverse pressure.
+\(-\operatorname{tr}S^3=6a^3>0\). This does not zero the live theorem; it shows
+that local strain service is not the same object as retained participation. The
+center is a stopped/pass affine reading unless it hands record service through
+the tower. If the handoff is performed by the outer collar, the collar pays.
 
-The \(c_0\)-level target must be narrower. It is a signed minimax only after
-symmetry, gauge, exact-pass, and finite-collar-payment branches have been
-removed:
+The \(c_0\)-level target is therefore the retained-participation minimax:
 
 ```math
 \inf_{\mathcal E_{\rm marg}}
