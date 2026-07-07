@@ -28,6 +28,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-reynolds-null-stress-characterization-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-leray-null-affine-moment-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-null-stress-selection-commutator-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-commutator-hminusone-floor-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-positive-source-adjoint-escape-identity-reentry-20260609.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
 completion_truth: >-
@@ -40,11 +42,11 @@ completion_truth: >-
   the selector creates the force P(S grad chi). Therefore the Rellich route
   lowers to a quantitative selected selector-force / non-affine pressure-viscous
   commutator lower bound on the same order-locked full packet, or to a paid
-  selector/certificate/custody route-out. Such a lower bound would imply
-  TerminalZenoRellichSameCarrierReserve.A, hence terminal tail UI/payment, hence
-  ParentOwnedPositiveRecordBillCurrency.A and epsilon_* > 0. The lower bound is
-  not installed here; no c_0, WLF.60, Rellich positivity, or MPP closure is
-  claimed.
+  selector/certificate/custody route-out. The follow-up HminusOne pass shows the
+  scale-normalized analytic force floor is already installed; the open part is
+  identifying the terminal carrier as the selected affine moment and converting
+  that H^{-1} force floor into retained bill currency through the same-fluid
+  balance legs. No c_0, WLF.60, Rellich positivity, or MPP closure is claimed.
 ---
 
 # Rellich selector-force lower bound reduction
@@ -200,22 +202,31 @@ The Rellich route should be lowered to:
 \tag{RSF.15}
 \]
 
-Statement shape.  On the retained terminal full packet \(D_Q\), after legal,
-selector-drift, collar, gauge, and already paid exits are removed, a selected
-positive terminal carrier with mass \(a_m\) satisfies
+The installed HminusOne floor proves the force part at scale.  On the retained
+terminal full packet \(D_Q\), after legal, selector-drift, collar, gauge, and
+already paid exits are removed, the remaining lower form is:
 
 \[
-\int_{-1}^{0}a_m(s)^2\,ds
-\le
-C
-\int
-\left|\mathbb P(S_m\nabla\chi_m)\right|^2
-+C R_{\rm legal}(Q_m)+o_m(1),
+\texttt{SelectedAffineMomentCarrierIdentification.A}
++
+\texttt{SelectorForceHminusOneBillCurrency.A}.
 \tag{RSF.16}
 \]
 
-or the selected force fails to be an admitted same-packet object and routes to
-legal/certificate/custody failure before readout.
+The first clause identifies \(a_m(s)\) with the selected affine moment
+\(|M_A(T_m(s))|/(|A|D^{3/2})\) of the same order-locked packet.  The second
+clause converts the installed floor
+
+\[
+\|\mathbb P(S_m\nabla\chi_m)\|_{\dot H^{-1}}
+\ge
+c\,{|M_A(T_m)|\over |A|D^{3/2}}
+\tag{RSF.16a}
+\]
+
+into the retained bill currency after integrating in time.  If the selected
+force is unadmitted, it routes to legal/certificate/custody failure before
+readout.
 
 Equivalently, the branch form is:
 
@@ -225,8 +236,8 @@ Equivalently, the branch form is:
   &\Rightarrow \text{no Rellich payment of the selected carrier},\\[1mm]
 \text{nonzero selected affine moment}
   &\Rightarrow \mathbb P(S\nabla\chi)\ne0,\\[1mm]
-\text{quantified admitted selector force}
-  &\Rightarrow \text{same-carrier square reserve},\\[1mm]
+\text{installed }H^{-1}\text{ selector-force floor}
+  &\Rightarrow \text{needs }H^{-1}\text{-to-bill conversion},\\[1mm]
 \text{unadmitted selector force}
   &\Rightarrow \text{legal/custody/Pack/Part/Field-facing route-out}.
 \end{array}
@@ -239,18 +250,16 @@ specific force that must pay the selected positive patch.
 
 ## 5. Conditional implication to c0
 
-Assume `(RSF.15)' and the standard Rellich bookkeeping that carries the selected
-force as Schur/full-packet payment:
+Assume the carrier-identification and HminusOne bill-currency conversion:
 
 \[
-\int
-\left|\mathbb P(S_m\nabla\chi_m)\right|^2
-\le
-C\,\mathsf S_m(U_m,U_m)+C R_{\rm legal}(Q_m)+o_m(1).
+\texttt{SelectedAffineMomentCarrierIdentification.A}
++
+\texttt{SelectorForceHminusOneBillCurrency.A}.
 \tag{RSF.18}
 \]
 
-Then `(RSF.16)' gives `(RSF.3)', hence
+Then the installed HminusOne floor gives `(RSF.3)', hence
 `TerminalZenoRellichSameCarrierReserve.A`.
 
 That implies `TerminalZenoVisibleReadoutPayment.A`, which supplies the terminal
@@ -258,7 +267,9 @@ branch of `SameEdgeTerminalTailUIBillCurrency.A`.  The already checked finite
 WLF mismatch reductions remove the nonterminal branches.  Therefore
 
 \[
-\texttt{SelectedRellichSelectorForceLowerBound.A}
+\texttt{SelectedAffineMomentCarrierIdentification.A}
++
+\texttt{SelectorForceHminusOneBillCurrency.A}
 \Longrightarrow
 \texttt{ParentOwnedPositiveRecordBillCurrency.A}.
 \tag{RSF.19}
