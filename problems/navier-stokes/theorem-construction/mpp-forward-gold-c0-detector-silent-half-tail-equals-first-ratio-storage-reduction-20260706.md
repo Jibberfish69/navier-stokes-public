@@ -38,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-strict-half-barrier-minimal-bad-chain-direct-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-full-action-scale-native-depletion-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
 completion_truth: >-
   Strict reduction and branch identification only. This note proves that the
   detector-silent pre-readout reserve is the first-ratio/strict-half-barrier
@@ -50,7 +51,9 @@ completion_truth: >-
   original-history first-ratio storage/root-payment wall already exposed by
   StoppedPrimitivePLSStrictHalfBarrierBreak.A,
   GlobalWeightedLaminarAncestryVariationReserve.A, and
-  OriginalHistoryRecordResetRootPayment.A. No detector-silent reserve,
+  OriginalHistoryRecordResetRootPayment.A; the no-Zeno/transition derivative
+  face of that wall is now reduced to StrictOriginalLedgerGeneratorStorage.A /
+  FullExchangeCriticalDepletionStorage.A. No detector-silent reserve,
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
 ---
