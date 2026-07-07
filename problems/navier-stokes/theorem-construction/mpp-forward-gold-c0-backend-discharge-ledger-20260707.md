@@ -8,6 +8,7 @@ authorship: Codex, 2026-07-07.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-FROZEN-FRONTIER-STATE-20260706.md
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-f5-assembly-scope-audit-20260706.md
@@ -109,6 +110,45 @@ geometry, and compactness bounds. The live F2 residue is:
 +\text{ non-axisymmetric hiding}
 +\text{ uniform atomization without service loss.}
 \tag{BACK.3d}
+```
+
+## 1.2 Proved F2 ingredient: log-scale endpoint inequality
+
+The corrected long-chain bridge also has one scalar ingredient now proved. For
+the log-scale amplitude \(a(\rho)\) in the same-affine channel, the operator
+
+```math
+L=\partial_\rho-2
+\tag{BACK.3e}
+```
+
+satisfies the endpoint estimate
+
+```math
+\int_I |a|^2\,d\rho
+\le
+C_{\rm HH}
+\left(
+|a(\rho_+)|^2
++
+\int_I |La|^2\,d\rho
+\right),
+\tag{BACK.3f}
+```
+
+with \(C_{\rm HH}\) independent of the log-chain length. Multiplying by the
+fixed \(|A|^2\) gives the same estimate for the affine Vieillefosse channel.
+
+This closes the scalar Hodge-Hardy step only. It does not prove that \(La\) is
+owned by the pressure-viscous participation bill, and it does not charge the
+endpoint kernel \(a(\rho_+)\). The live long-chain F2 residue is now sharper:
+
+```math
+\text{same-field spherical Hodge payment for }La
++\text{ parent-owned endpoint kernel}
++\text{ channel extraction without service loss}
++\text{ atomization without double-counting.}
+\tag{BACK.3g}
 ```
 
 ## 2. Retained-row crossing consumer
