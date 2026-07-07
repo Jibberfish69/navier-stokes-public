@@ -42,6 +42,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-numerator-wlf60-route-measure-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
