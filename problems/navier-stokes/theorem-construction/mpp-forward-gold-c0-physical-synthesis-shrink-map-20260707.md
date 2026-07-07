@@ -102,6 +102,8 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
@@ -205,7 +207,7 @@ supersedes_as_live_frontier:
   - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
   - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
-  - strict alignment deficit or pursuit-lag wording as an independent c_0 closer rather than a sign coordinate that must pay the same moving-driver first-ratio/no-free-upward-transfer wall
+  - strict alignment deficit or pursuit-lag wording as an independent c_0 closer rather than a sign coordinate that must pay the bill-record epsilon extraction, or its moving-driver first-ratio/no-free-upward-transfer bill currency
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
   - original-history transition derivative as an independent bottom rather than a projection of the parent root generator/full-exchange ledger
   - stopped accretive testing, native-birth packing, positive critical transfer, or dyadic no-free-upcascade as sibling producers unless they build the same record-admitted full-exchange/original-ledger coercivity before readout
@@ -234,7 +236,13 @@ completion_truth: >-
   self-similar or DSS profile, since exact scaling preserves the critical
   height and DSS repeats that currency. The old route-a FTR branch is defunct
   as reversible tower-retention; its surviving content is only the one-way
-  positive-channel inventory FTR.3-FTR.10. That inventory and the route-b
+  positive-channel inventory FTR.3-FTR.10. The original c_0 architecture is the
+  bill-record epsilon extraction: prove a positive normalized infimum
+  epsilon_* = inf_{retained R(W)=1} B(W)>0, where B is the irreversible
+  Field/four-body/viscous bill and R is the one-way retained relay record, so
+  c_0=2 epsilon_*. The zero-bill kernel gives only B=0 => R=0 or route-out; the
+  missing theorem is compactness plus record passage from B->0, R=1 to a
+  forbidden zero-bill positive-record limit. That inventory and the route-b
   material-time Liouville story reduce to the same Gate2/WLF.60 early-row wall
   after typed route-outs, theta-payer admission, compact zero-loss extraction,
   original-ledger matrix reduction, and WLF mismatch analysis. The
@@ -282,7 +290,11 @@ completion_truth: >-
   bound is the first ratio moment. The critical half-tail
   nu_l=2^-l/(l+1) passes every installed support axiom and fails the first-ratio
   action, so the strict half-barrier theta<1/2 is not a second producer; it is
-  the exact tail/readout form of the moving pump. Below that tail wall, the
+  the exact tail/readout form of the moving pump and a bill currency for the
+  same epsilon extraction. Alignment-lag/pursuit-lag language is typed the same
+  way: it may explain the physical sign of the irreversible bill, but it closes
+  c_0 only by proving the bill-record compactness/record-passage theorem or by
+  paying this same first-ratio/moving-driver currency. Below that tail wall, the
   repeated-core and shrinking-core notes do not create two new roofs: inherited
   no-reset reuse is the repeated-core record/return branch, while genuinely
   fresh child reset is the critical weighted reset-current branch. Both are
@@ -333,6 +345,25 @@ H(t)=\frac12\|u(t)\|_{\dot H^{1/2}}^2,
 
 with positive material record service retained while every same-packet payment
 channel remains exactly ratio-one marginal.
+
+The original half-barrier extraction lives in the retained bill/record ratio,
+not in a standalone tail slogan. On a retained relay window,
+
+\[
+R(W)=\int_W dR_N^+,
+\qquad
+B(W)=\int_W\bigl(dE_{N,h}^{Field}+dA_{4B,N}+dVisc_{N,h}\bigr),
+\tag{CPS.1a}
+\]
+
+and the needed estimate is \(B(W)\ge\varepsilon R(W)\), equivalently
+\(\varepsilon_*=\inf_{R(W)=1}B(W)>0\) and \(c_0=2\varepsilon_*\). The
+zero-bill kernel rules out retained zero-bill positive record only at the
+limit. The missing bridge is compactness and record passage for a minimizing
+sequence with \(R=1\) and \(B\to0\). Every first-ratio, moving-driver,
+alignment-lag, and no-free-upward-transfer formulation below is a possible way
+to pay that same irreversible bill; it is not a replacement definition of
+\(c_0\).
 
 Self-similar and DSS calculations are now only scale-equality tests. Exact NS
 scaling preserves \(H\), and a DSS orbit is periodic in that critical-height
