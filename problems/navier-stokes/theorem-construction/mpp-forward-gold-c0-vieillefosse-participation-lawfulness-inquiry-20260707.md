@@ -535,3 +535,153 @@ delaminate this transverse \(P_4\) pressure channel so that
 ```
 
 along a \(2^{-L}/L\) endpoint sequence.
+
+## 10. Leray-corrected collar: the \(P_4\)-free condition
+
+The previous calculation used the raw collar. The incompressible correction can
+be kept explicit. Let
+
+```math
+Q=x\cdot Dx,
+\qquad
+D=\operatorname{diag}(1,1,-2).
+\tag{VPL.40}
+```
+
+Every axisymmetric no-swirl divergence-free \(l=2\) gluing of the affine
+Vieillefosse core can be written in the form
+
+```math
+u=A(r)Dx+B(r)Qx .
+\tag{VPL.41}
+```
+
+For the actual Leray projection of \(\chi(r)Dx\), this comes from
+
+```math
+u=\chi(r)Dx-\nabla(h(r)P_2(\mu)),
+\tag{VPL.42}
+```
+
+with
+
+```math
+A=\chi+\frac{h}{r^2},
+\qquad
+B=\frac{rh'-2h}{2r^4}.
+\tag{VPL.43}
+```
+
+The divergence-free condition is
+
+```math
+\frac{A'}{r}+rB'+5B=0.
+\tag{VPL.44}
+```
+
+Now compute the pressure source
+
+```math
+f=\partial_i u_j\,\partial_j u_i.
+\tag{VPL.45}
+```
+
+The \(P_4\) part has the form
+
+```math
+f^{(4)}
+=
+\frac{72}{35}r^4 C_4(r)P_4(\mu),
+\tag{VPL.46}
+```
+
+where direct differentiation of (VPL.41) gives
+
+```math
+C_4
+=
+\left(\frac{A'}{r}+rB'\right)^2
++11B^2
++\frac{2AB'}{r}
++\frac{2BA'}{r}
++6rBB'.
+\tag{VPL.47}
+```
+
+Use the divergence-free relation and introduce the dimensionless variables
+
+```math
+\rho=\frac{r^2B}{A},
+\qquad
+\tau=\frac{rA'}{A}.
+\tag{VPL.48}
+```
+
+Then
+
+```math
+C_4
+=
+\frac{A^2}{r^4}
+\left[
+6\rho^2-10\rho-(4\rho+2)\tau
+\right].
+\tag{VPL.49}
+```
+
+The condition that the incompressible collar have no \(P_4\) pressure source is
+therefore
+
+```math
+\tau=\frac{\rho(3\rho-5)}{2\rho+1}.
+\tag{VPL.50}
+```
+
+The divergence-free relation in the same variables is
+
+```math
+(1+\rho)\tau+r\rho'+3\rho=0.
+\tag{VPL.51}
+```
+
+Combining (VPL.50) and (VPL.51), a \(P_4\)-free incompressible collar must obey
+
+```math
+r\rho'
+=
+-\frac{\rho(3\rho^2+4\rho-2)}{2\rho+1}.
+\tag{VPL.52}
+```
+
+At the affine Vieillefosse core,
+
+```math
+\rho=0,
+\qquad
+\tau=0.
+\tag{VPL.53}
+```
+
+Near \(\rho=0\), the right side of (VPL.52) is smooth. Hence the solution that
+agrees with the affine core on any interior interval is forced to remain
+
+```math
+\rho\equiv0,
+\qquad
+\tau\equiv0.
+\tag{VPL.54}
+```
+
+That means \(B=0\) and \(A\) is constant: the field never enters a finite-energy
+collar. Therefore an incompressible same-symmetry gluing layer that actually
+departs from the affine core cannot keep the \(P_4\) pressure source identically
+zero.
+
+This improves (VPL.38): the transverse \(P_4\) channel is not just an artifact
+of the raw cutoff. It survives the Leray-corrected axisymmetric gluing unless
+the gluing is trivial.
+
+This still stops short of \(c_0>0\). It proves a nonzero transverse channel for
+the first incompressible collar model. The full \(c_0\) floor still requires a
+quantitative lower bound that survives tower optimization, non-axisymmetric
+escape, and log-endpoint delamination.
