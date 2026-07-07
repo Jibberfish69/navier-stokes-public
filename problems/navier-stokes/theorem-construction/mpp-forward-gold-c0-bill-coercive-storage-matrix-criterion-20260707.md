@@ -28,6 +28,7 @@ derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
   the current c_0 Gate2 stack. It does not produce the Navier-Stokes matrix from
@@ -271,7 +272,9 @@ around the parent packet forever with zero finite reserve drop. The new point
 here is only that once the feedback is strictly subcritical in bill currency,
 absorption is automatic.
 
-The zero-bill unit-cycle follow-up gives the qualitative compact form of the
+The zero-surplus unit-cycle follow-up gives the qualitative compact form of the
 same producer. After record admission and exact charting, absence of normalized
-nonnegative zero-bill Perron cycles in the retained parent-face bundle implies a
-uniform gap \(\rho(K_P)\le1-\eta\).
+nonnegative zero-surplus Perron cycles in the retained parent-face bundle
+implies a uniform gap \(\rho(K_P)\le1-\eta\). The high-frequency transfer
+equivalence identifies that cycle with the last retained in-class zero-loss
+theta branch.
