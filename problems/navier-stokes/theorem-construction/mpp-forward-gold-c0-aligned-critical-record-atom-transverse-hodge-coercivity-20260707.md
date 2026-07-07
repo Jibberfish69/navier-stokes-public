@@ -2,27 +2,28 @@
 theorem_id: forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / transverse pressure-Hodge coercivity / aligned atom exclusion
-status: strict-reduction-open
+route: forward-gold / c_0 / aligned zero-bill Liouville-UCP / aligned atom exclusion
+status: strict-reduction-open; original transverse-Hodge-coercivity wording demoted
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transverse-coupling-reduces-to-angular-sphere-positivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
 completion_truth: >-
-  This note installs the corrected terminal c_0 reduction. The commutator is the
-  signed brake once a transverse pressure Hessian is present; the remaining open
-  theorem is the magnitude/admission source that forces a transverse pressure
-  Hessian on any lawful retained critical-record atom. The target is uniform
-  transverse Hodge coercivity for the same incompressible velocity field, in the
-  same participation/payment currency. Equivalently: no aligned incompressible
-  critical-record atom, except pass, collar/exit payment, or parent-owned affine
-  endpoint-kernel escape. Causal lag, stretched-vortex quadrupoles, local
-  BKM/CKN visibility, and angular transport remain diagnostic or branch tools;
-  they are not the terminal c_0 theorem unless they prove this coercivity or
-  produce a physically admitted counterprofile.
+  This note preserves the aligned-atom exclusion target, but corrects its first
+  wording. The commutator is the signed brake once a transverse pressure Hessian
+  is present; the remaining open theorem is not a rate/coercivity lower bound.
+  The terminal target is zero-bill Liouville/UCP: no lawful retained
+  critical-record atom can keep the same-field pressure Hessian co-diagonal with
+  the moving strain frame, \([R_iR_jQ,S]=0\), with zero collar/exit and no
+  atomization loss, except by routing to pass, service-zero, collar/exit payment,
+  or parent-owned affine endpoint-kernel escape. Causal lag, transverse-Hodge
+  estimates, stretched-vortex quadrupoles, local BKM/CKN visibility, and angular
+  transport remain diagnostic or branch tools; they are not the terminal c_0
+  theorem unless they prove this Liouville/UCP rigidity or produce a physically
+  admitted counterprofile.
 ---
 
-# Aligned Critical-Record Atom And Transverse Hodge Coercivity
+# Aligned Critical-Record Atom And Zero-Bill Liouville/UCP
 
 ## 1. Physical object
 
@@ -63,7 +64,7 @@ rung is affine. A finite-energy incompressible packet can have an anisotropic
 pressure Hessian that remains diagonal in the moving strain frame. That is the
 dangerous aligned atom.
 
-## 2. Signed brake versus magnitude source
+## 2. Signed brake versus zero-bill rigidity
 
 The commutator supplies the signed braking channel once \(H_\perp^S\) is
 present:
@@ -76,51 +77,39 @@ present:
 
 So the sign story is coherent only after the transverse pressure Hessian has
 been admitted on the same retained edge. The remaining theorem is not another
-lag label. It is the lower bound that prevents a positive record atom from
-keeping \(H_\perp^S=0\).
+lag label and not a magnitude floor. Scale covariance leaves a bare lower-bound
+form marginal, and the profile tests show that source-level quadrupole
+coercivity can change sign under admissibility failures.
 
-In the native currency, the open wall is:
-
-```math
-\left\|
-\Pi_\perp^S\nabla^2(-\Delta)^{-1}
-\left(\partial_i u_j\partial_j u_i\right)
-\right\|_{\mathsf B_{\rm ret}}
-\ge c_*
-\mathsf R_{\rm rec}(u)
-\tag{ATH.5}
-```
-
-for all lawful retained critical-record atoms after pass, collar/exit, and
-endpoint-kernel classes are removed. Here \(\mathsf R_{\rm rec}\) is the record
-amplitude/readout and \(\mathsf B_{\rm ret}\) is the same participation/payment
-currency used by the \(c_0\) backend.
-
-Equivalently, after normalizing \(\mathsf R_{\rm rec}=1\):
+The native zero-bill wall is:
 
 ```math
-H_\perp^S=0
+\mathsf S_{\rm ret}=1,\qquad
+\mathsf P\to0,\qquad
+[H,S]=0
 \Longrightarrow
 \text{pass}
+\;\vee\;
+\text{service-zero}
 \;\vee\;
 \text{collar/exit paid}
 \;\vee\;
 \text{parent-owned affine endpoint kernel}.
-\tag{ATH.6}
+\tag{ATH.5}
 ```
 
 This is the compact theorem:
 
 ```math
 \texttt{NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A}
-\tag{ATH.7}
+\tag{ATH.6}
 ```
 
-or, in lower-bound form,
+or, in proof-method form,
 
 ```math
-\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}.
-\tag{ATH.8}
+\texttt{SameFieldAlignedZeroBillLiouvilleUCPOrCounterprofile.A}.
+\tag{ATH.7}
 ```
 
 ## 3. Physical admissibility
@@ -149,31 +138,33 @@ for that channel. The terminal obstruction is an aligned positive-record atom:
 the same field keeps its pressure Hessian co-diagonal with the strain frame
 while still claiming record amplitude.
 
-Therefore causal-lag, strict-repeller, stretched-vortex quadrupole, angular
-transport, and local BKM/CKN packets are branch tests. They matter only by
-proving (ATH.5), by paying/routing one of the escapes in (ATH.6), or by
-constructing a physically admitted counterprofile.
+Therefore causal-lag, transverse-Hodge lower bounds, strict-repeller,
+stretched-vortex quadrupole, angular transport, and local BKM/CKN packets are
+branch tests. They matter only by proving the Liouville/UCP exclusion (ATH.5),
+by paying/routing one of the escapes in (ATH.5), or by constructing a physically
+admitted counterprofile.
 
 ## 5. What proves \(c_0\)
 
-The \(c_0\) backend consumes the signed commutator once the transverse Hodge
-lower bound has been supplied in the same currency. The needed package is:
+The \(c_0\) backend consumes the signed commutator once the zero-bill aligned
+survivor has been excluded in the same strict-atom currency. The needed package
+is:
 
 ```math
-\text{uniform transverse Hodge coercivity}
-+
+\text{zero-bill aligned atom Liouville/UCP}
++ 
 \text{currency/accounting compatibility}
 +
 \text{commutator sign balance}
 \Longrightarrow
 c_0>0 .
-\tag{ATH.9}
+\tag{ATH.8}
 ```
 
-What remains open is exactly the first two inputs: prove the uniform
-Calderon-Zygmund/Riesz pressure operator cannot co-diagonalize with the strain
-frame on a lawful incompressible critical-record atom, and prove the resulting
-lower bound is counted in the same participation/payment currency without
+What remains open is exactly the first two inputs: prove the same-field
+Calderon-Zygmund/Riesz pressure Hessian cannot co-diagonalize with the strain
+frame on a lawful incompressible critical-record atom in the zero-bill limit,
+and prove the strict-atom accounting compactifies the sequence without
 double-counting or losing the selected channel.
 
 Leaving either input unproved gives a sharp reduction, not closure.

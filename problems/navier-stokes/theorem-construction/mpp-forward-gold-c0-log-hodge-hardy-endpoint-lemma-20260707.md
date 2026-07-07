@@ -8,6 +8,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-backend-discharge-ledger-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707.md
 completion_truth: >-
   This note proves the one-dimensional endpoint inequality for the corrected
   log-scale Hodge-Hardy bridge. It proves only the scalar log-amplitude
@@ -15,8 +16,9 @@ completion_truth: >-
   chain length. It does not prove endpoint strictness: Hardy is scale-covariant
   and borderline at the affine endpoint kernel. Quotienting the exact kernel is
   insufficient against an approach-to-kernel log tower. Endpoint strictness
-  requires a separate causal-lag / commutator-sign rigidity theorem. This note
-  also does not prove the same-field spherical Hodge lower bound, endpoint
+  requires the separate transverse Hodge coercivity / aligned critical-record
+  atom exclusion theorem. This note also does not prove the same-field spherical
+  Hodge lower bound, endpoint
   ownership by the parent collar, channel extraction without service loss,
   atomization, c_0>0, F1, F4, F5, or MPP closure.
 ---
@@ -178,5 +180,5 @@ The live F2 burdens remain:
 ```
 
 So this is a proved scalar Hardy lemma, not the endpoint rigidity and not a
-proof of \(c_0>0\). The endpoint rigidity is the causal-lag commutator-sign
-target, not a Hardy constant.
+proof of \(c_0>0\). The endpoint rigidity is the transverse Hodge coercivity /
+no aligned incompressible critical-record atom theorem, not a Hardy constant.
