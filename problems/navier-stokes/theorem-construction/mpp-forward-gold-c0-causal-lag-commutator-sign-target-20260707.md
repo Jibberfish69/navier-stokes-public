@@ -100,7 +100,12 @@ completion_truth: >-
   by themselves identify that visible vorticity with the selected \(c_0\)
   strain/current channel or with the stretched-vortex profile. The remaining
   gate is the same-edge upgrade from local visibility to selected current, or a
-  typed route-out.
+  typed route-out. Section 24 scalarizes the stretched-vortex sign in the
+  axisymmetric profile branch: the \(e_1\leftrightarrow e_2\) pressure response is
+  the trace-free pressure quadrupole of the source
+  \(f=|S|^2-\frac12|\omega|^2\), not an automatic consequence of having a
+  low-pressure core. The next profile theorem is a strict quadrupole lower bound
+  strong enough to make \(\mathcal I_{\rm lin}>0\).
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1715,3 +1720,104 @@ upgrade. Gate 2 is still the strict sign of the retained pressure-response
 stability index on the admitted stretched-vortex profile. Both gates are part
 of the current \(c_0/\epsilon\) burden unless Gate 1 is proved or the non-same
 edge alternatives are routed out.
+
+## 24. Axisymmetric stretched-vortex branch: the sign is a pressure quadrupole
+
+Inside the stretched-vortex profile class, the next useful reduction is to
+separate geometry from wishful sign. Put the selected station at the origin and
+take the exact alignment axis to be \(e_1\). Let
+
+```math
+f:=|S|^2-\frac12|\omega|^2=-\Delta p .
+\tag{CLS.106}
+```
+
+For any finite-energy localized profile, the trace-free pressure Hessian at the
+station has the principal-value representation
+
+```math
+(\nabla^2p)_{ij}^{\rm tf}(0)
+=
+{\rm p.v.}\int
+{3y_i y_j-\delta_{ij}|y|^2\over 4\pi |y|^5}\,
+f(y)\,dy .
+\tag{CLS.107}
+```
+
+On an axisymmetric profile around \(e_1\), write
+
+```math
+\nabla^2p(0)=h_\perp I+\mu_{\rm sv}\,e_1\otimes e_1
+\quad\text{modulo trace},
+\tag{CLS.108}
+```
+
+so
+
+```math
+\mu_{\rm sv}
+=
+(\nabla^2p)_{11}(0)-(\nabla^2p)_{22}(0)
+=
+{3\over4\pi}\,{\rm p.v.}\int
+{y_1^2-y_2^2\over |y|^5}\,f(y)\,dy .
+\tag{CLS.109}
+```
+
+Equivalently, in cylindrical coordinates \((x,\rho)\) around the vortex axis,
+
+```math
+\mu_{\rm sv}
+=
+{3\over2}\,{\rm p.v.}\int
+{\rho\,(x^2-\rho^2/2)\over (x^2+\rho^2)^{5/2}}\,
+f(x,\rho)\,d\rho\,dx .
+\tag{CLS.110}
+```
+
+Now tilt the profile axis by a small amount \(a_2\) in the \(e_1e_2\)-plane. To
+first order,
+
+```math
+(\nabla^2p)_{12}
+=\mu_{\rm sv}a_2+o(|a_2|).
+\tag{CLS.111}
+```
+
+Thus the profile contribution to the \(j=2\) linearized stability coefficient
+in (CLS.90) is explicit:
+
+```math
+\mathcal I_{\rm sv}^{(2)}
+=
+-d_2+{|\omega|^2\over4d_2}
+{\mu_{\rm sv}\over d_2}.
+\tag{CLS.112}
+```
+
+The corresponding strict-repeller margin is the scalar inequality
+
+```math
+\mu_{\rm sv}
+>
+d_2^2-\frac14|\omega|^2
+\text{(uniform positive margin in }d_2\text{)}.
+\tag{CLS.113}
+```
+
+This is the first concrete profile-sign target. It also blocks a false shortcut:
+a vorticity-dominated low-pressure core plus strain-dominated annulus does not
+by itself determine the sign of \(\mu_{\rm sv}\). The kernel in (CLS.110) has
+axial and transverse sectors with opposite signs. A finite-energy collar or
+remote bank can change the quadrupole unless it is owned by the retained profile
+bill or routed out. Therefore the stretched-vortex branch has now reduced to
+
+```math
+\texttt{StretchedVortexPressureQuadrupoleSign.A}
+\tag{CLS.114}
+```
+
+together with the profile-reduction and same-edge-current gates above. Proving
+(CLS.114) uniformly would prove the profile sign. Finding an admitted profile
+with the opposite quadrupole would be the counterexample profile for this
+route.
