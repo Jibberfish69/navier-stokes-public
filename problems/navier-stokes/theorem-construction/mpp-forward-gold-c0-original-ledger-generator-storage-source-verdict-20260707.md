@@ -38,6 +38,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
 completion_truth: >-
   Source-strict proof attempt for the active c_0 goal. The allowed sources do
   not install StrictOriginalLedgerGeneratorStorage.A or
@@ -276,4 +277,6 @@ smallest nonduplicate producer now visible inside that gate is the
 bill-coercive record-admitted active-critical/full-exchange storage matrix
 `(OLS.12)', with the exact-projector chart row as the legal-reading companion.
 Equivalently, after finite retained charting, it is the qualitative exclusion of
-a normalized record-admitted zero-bill unit cycle in the same parent-face bundle.
+a normalized record-admitted zero-surplus unit cycle in the same parent-face
+bundle. The high-frequency transfer equivalence identifies this same cycle as
+the remaining retained zero-loss theta branch.
