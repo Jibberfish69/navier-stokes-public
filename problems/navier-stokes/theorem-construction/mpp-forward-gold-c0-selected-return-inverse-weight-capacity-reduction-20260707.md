@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-stopped-score-square-to-linear-bv-gap-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-original-packet-return-bv-producer-test-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-negative-return-square-to-linear-admission-verdict-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
 completion_truth: >-
   This note proves the exact algebraic bridge from harmonic square return
@@ -37,7 +38,12 @@ completion_truth: >-
   prove epsilon_* > 0 or c_0 > 0. The new progress is that the selected-return
   admission wall is no longer phrased only as lower thickness or generic
   same-edge admission; its precise Cauchy coefficient is the retained same-edge
-  inverse-weight capacity sum in the same harmonic square currency.
+  inverse-weight capacity sum in the same harmonic square currency. The
+  parent-active entropy follow-up sharpens the source location: inverse-weight
+  capacity follows from before-clipping return-fibre admission into the parent
+  active density, together with the already isolated
+  FullExchangeCriticalDepletionStorage.A / BeforeClippingActiveDensityComparison.A
+  source package.
 ---
 
 # Selected return inverse-weight capacity reduction
@@ -234,3 +240,32 @@ The proven part of this note is the middle conversion
 `(SRIW.3)' + `(SRIW.5)' + `(SRIW.11)' \(\Rightarrow\) `(SRIW.12)'. The
 unproved part is the construction of `(SRIW.5)' and `(SRIW.11)' from the
 original Navier-Stokes packet before readout.
+
+## 6. Source sharpening: parent active entropy
+
+The inverse-weight capacity source is sharpened in
+[mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md).
+The deterministic source chain is
+
+\[
+\begin{aligned}
+&\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}.
+\end{aligned}
+\tag{SRIW.16}
+\]
+
+Here the return-fibre clause says that each retained selected return interval
+is already a bounded-overlap fibre in the parent active measure before child
+clipping, and that its inverse-weight mass is dominated by the same selected
+density \(R_P^+\,d\mathfrak m_P\). TFE.2472--TFE.2475 then give the sum
+\(\sum_I A_I\), while TFE.2491--TFE.2493 identify the sufficient PDE source as
+full-exchange depletion plus before-clipping active-density comparison.
+
+This keeps `(SRIW.5)' from becoming an orphan theorem. It is still unproved,
+but its current first failed line is the return-fibre admission/projection into
+the before-clipping parent active measure, plus the already open full-exchange
+and active-density source package.
