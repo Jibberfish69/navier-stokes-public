@@ -23,6 +23,10 @@ target_object:
   - SelectedLinearRouteMeasureCarleson.A
   - ThetaRecordPayerMeasureAdmission.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
+  - HighFrequencyPressureStressSurplusCycleRigidity.A
+  - HighFrequencyPressureStressTransferRigidity.A
+  - RecordAdmittedSurplusZeroUnitCycleRigidity.A
+  - RecordAdmittedZeroBillUnitCycleExclusion.A
   - WLF.60
   - ODP.91
   - TerminalZenoVisibleReadoutPayment.A
@@ -123,6 +127,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
@@ -229,6 +237,8 @@ supersedes_as_live_frontier:
   - raw event-space ownership, fixed-event Jordan orientation, finite parent menu, or no-recount pairing as parent-owned bill currency without selected first-ratio payment
   - native-menu identity, one-record admission, or positive-selection labels as parent-owned bill currency without same-edge pre-readout linear storage
   - Hardy/BMO/Carleson route measure, square packing, or entropy conversion as WLF.60 payment unless constructed as selected linear parent-owned bill currency
+  - compact zero-loss extraction as c_0 closure without theta admission, compactness, and zero-loss rigidity for the actual NS class
+  - zero-bill kernel or simple unit-cycle exclusion as the surplus-zero Perron-class theorem without an absolute-zero upgrade or typed route-out
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
@@ -533,6 +543,17 @@ in the parent-face feedback graph:
 \texttt{RecordFeedingSurplusPerronClassExclusion.A}.
 \tag{CPS.3f}
 \]
+
+The compact zero-loss extraction note supplies the abstract direct-method step:
+once theta admission, compactness, lower semicontinuity, and zero-loss rigidity
+are installed for the actual retained Navier-Stokes class, the positive
+\(c_0\) modulus follows by minimization. It does not supply those producer
+hypotheses. The zero-bill kernel also applies only to absolute-zero payer
+measures; the active Perron/radiodrome obstruction is zero-surplus, where
+Field, four-body, and viscous measures can be nonzero but exactly balanced at
+ratio one. Therefore the admitted finite theorem is the surplus-zero
+high-frequency pressure-stress/Perron circulation exclusion, not another
+application of the absolute-zero kernel.
 
 That obstruction is not just a simple unit cycle. It is a balanced Perron edge
 circulation. But retained-Perron four-body coercivity removes the apparent
