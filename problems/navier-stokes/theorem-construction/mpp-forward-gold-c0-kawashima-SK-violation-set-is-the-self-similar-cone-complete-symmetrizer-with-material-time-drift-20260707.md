@@ -85,40 +85,50 @@ H_\sigma=I+K_\sigma,\quad K_\sigma=K_{SQ}+K_{QC}+K_{CG}+K_{GS}\ \text{(cyclic, o
 The packet decays iff the *partial* drain `B` reaches *every* non-gauge aspect through
 the exchange `A`.
 
-## 1. (A) The SK-failure set is exactly the self-similar cone
+## 1. (A) On the frozen/retained quotient, the observability tower degenerates on the self-similar cone — algebra, NOT a PDE theorem
 
-Existence of a bounded `H=I+K` is the **Shizuta–Kawashima genuine-coupling** condition
+Existence of a bounded `H=I+K` requires the **Shizuta–Kawashima genuine-coupling**
+condition
 ```math
 Z\in\ker B_\sigma\ \text{and}\ A_\sigma^k Z\in\ker B_\sigma\ \forall k\ \Longrightarrow\ Z\in\mathcal G,
 ```
-i.e. the **Kalman observability tower** `{B, BA, BA², …}` sees every non-gauge mode.
-Ask where it degenerates. It degenerates exactly where `A` and `B` are *simultaneously
-diagonal* — both pure rescalings — so `A^k(\ker B)\subseteq\ker B` never escapes the
-undamped kernel. That is precisely the **self-similar strain cone**: there the exchange
-merely rescales the profile and the drain is marginal (ratio-one, `B≡1`). Hence
+i.e. the **Kalman observability tower** `{B, BA, BA², …}` must see every non-gauge mode.
+On the **finite-dimensional retained quotient / frozen linearized operator** (the only
+place the repo's Kawashima check is installed — [direct-kawashima-...-20260623](mpp-forward-gold-direct-kawashima-fourbody-operator-form-check-20260623.md) §3, and the
+PDE production theorem is explicitly absent there), that tower **degenerates on the
+self-similar strain cone**: there `A` and `B` are simultaneously diagonal (both pure
+rescalings), so `A^k(\ker B)\subseteq\ker B` never escapes and the drain is marginal
+(`B≡1`).
 
 ```math
-\boxed{\ \text{SK holds on every mode EXCEPT the self-similar cone; }[A,B]\text{ and higher brackets vanish on it, are non-degenerate off it.}\ }
+\text{[frozen/finite-dim quotient]}\quad
+\text{the observability tower degenerates on the self-similar cone; }[A,B]\text{ and higher brackets vanish there.}
 ```
 
-The self-similar cone is the `B≡1` log-self-similar tower `N_L ~ 2^{-L}/L` — the
-counterobject. So the symmetrizer's failure set is the counterobject, *identically*.
-This is the algebraic form of the three things already known in words:
-viscosity-marginal-on-the-counterobject, purely-cross-rung, and scale-covariance. The
-affine `X_comm = −c\log|ℓ| → −∞` no-go (repo, 2026-06-23) is the symmetrizer failing to
-close on the cone — a theorem, not a gap.
+**Do not upgrade this to "SK holds on every mode except the cone" for the actual PDE.**
+That the *infinite-dimensional* dissipation `B` reaches all off-cone modes is precisely
+the open bounded-symmetrizer / PDE-production theorem — unproven, and at large data not
+expected from genuine-coupling alone (§3). What is genuinely in hand: the cone is a
+**degeneracy set** of the frozen tower, and it coincides with the counterobject
+(`B≡1` log-self-similar `N_L~2^{-L}/L`) and with the viscosity-marginal / purely-cross-rung
+/ scale-covariance set. The **one real theorem** here is the affine no-go: on the affine
+strain mode the bounded instantaneous algebraic compensator is impossible
+(`X_comm=−c\log|ℓ|→−∞`, repo 2026-06-23). Everything else in this section is a
+*classification of the wall*, not a disposal of anything.
 
-## 2. (B) c_0 as non-commutativity — the higher-algebra content
+## 2. (B) c_0 requires non-commutativity — necessary, not sufficient
 
+Genuine coupling is a **necessary** condition for a coercive symmetrizer:
 ```math
-\boxed{\ c_0>0\ \Longleftrightarrow\ \{B,BA,BA^2,\dots\}\ \text{full-rank on }\mathcal G^\perp\ \Longleftrightarrow\ A,B\ \text{genuinely non-commuting on every mode a finite-energy field occupies.}\ }
+c_0>0\ \Longrightarrow\ \{B,BA,BA^2,\dots\}\ \text{full-rank on the occupied non-gauge modes}\ \Longleftrightarrow\ A,B\ \text{non-commuting there.}
 ```
-
-The counterobject is the *unique* cone where `A` and `B` commute (simultaneously
-scaling). So the entire problem is one question: **does a finite-energy Navier-Stokes
-field ever lock onto the one cone where exchange and dissipation commute?** No rate can
-answer it (on the cone every rate is a shared scaling), which is exactly why no
-scale-covariant estimate closes `c_0`.
+The reverse (non-commutativity `⟹` bounded coercive symmetrizer `⟹` `c_0>0`) is the
+Shizuta–Kawashima *small-data / near-equilibrium* implication and is **not** available at
+the large-data blow-up regime — that gap is the open PDE production. So the honest content
+is: `c_0` **requires** the field never sit on the one cone where `A,B` commute
+(simultaneously scaling); it is not *equivalent* to that by any installed theorem. No rate
+can decide the cone (there every rate is a shared scaling) — which is why no scale-covariant
+estimate closes `c_0`.
 
 ## 3. (C) The symmetrizer is a funnel — it forces route-b
 
