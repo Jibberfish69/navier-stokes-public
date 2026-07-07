@@ -195,7 +195,7 @@ The honest reduction is
 \[
 \begin{aligned}
 &\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
-&+\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}
+&+\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}\\
 &+\texttt{TemporalRecordThicknessChargeBillCurrency.A}\\
 &+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}\\
 &+\text{pre-entrance original-history }
