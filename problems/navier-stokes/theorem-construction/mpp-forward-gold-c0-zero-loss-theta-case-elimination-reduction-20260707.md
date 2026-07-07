@@ -22,6 +22,8 @@ target_object:
   - HighFrequencyPressureStressTransferRigidity.A
   - SelectedGeneratorStorageCoercivity.A
   - PositiveCriticalTransferBound.A
+  - StrictOriginalLedgerGeneratorStorage.A
+  - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
   - FullTowerSignedTotalExchangeRetention.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
@@ -32,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
 completion_truth: >-
   Strict reduction and case elimination only. Under the already named compact
@@ -45,11 +48,16 @@ completion_truth: >-
   not a retained zero-loss profile. Therefore the only retained in-class branch
   left for ZeroLossTowerRelayRigidity.A is high-frequency nonlinear
   pressure-stress transfer in the full material theta clock. Current source
-  checking lowers that branch to SelectedGeneratorStorageCoercivity.A /
-  PositiveCriticalTransferBound.A through same-edge exact-projector and
-  detector-silent half-barrier reductions. Those producer rows are not proved
-  here. No FullTower retention, material-time Liouville theorem, c_0, or MPP
-  closure is claimed.
+  checking lowers the exact-projector/selected-critical face of that branch to
+  SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A. The
+  detector-silent/original-ledger face has now been source-tested: the installed
+  signed tower/exchange sources still allow a unit-spectral-radius active
+  critical/full-exchange storage loop, so StrictOriginalLedgerGeneratorStorage.A
+  is not derived from those sources. The smaller nonduplicate row exposed there
+  is RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A, or an independent
+  original-history proof of one matrix face strong enough to make the feedback
+  subcritical. Those producer rows are not proved here. No FullTower retention,
+  material-time Liouville theorem, c_0, or MPP closure is claimed.
 ---
 
 # Zero-loss theta profiles reduce to high-frequency pressure-stress transfer
@@ -192,6 +200,24 @@ analytic content is the weighted no-free-upcascade/native-birth packing bound:
 the same original history must prevent finite raw heat-scale cost from carrying
 infinite selected first-ratio record service.
 
+The original-ledger face of the same branch has an additional checked source
+verdict. Signed full-tower exchange, finite native menu admission, and
+finite-readout closedness do not imply
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}.
+\tag{ZTC.6a}
+\]
+The installed algebra still admits the marginal active loop in which critical
+entry, active full exchange, and active transit pay one another with feedback
+spectral radius one. The smaller nonduplicate producer is therefore
+\[
+\texttt{RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A},
+\qquad \rho(K_P)<1,
+\tag{ZTC.6b}
+\]
+or an independent original-history proof of one active matrix face that makes
+the remaining loop subcritical.
+
 ## 7. Consequence
 
 Within the admitted compact theta framework,
@@ -204,7 +230,8 @@ is now strictly reduced to the high-frequency pressure-stress branch:
 \Longleftarrow
 \texttt{SelectedGeneratorStorageCoercivity.A}
 /
-\texttt{PositiveCriticalTransferBound.A}.
+\texttt{PositiveCriticalTransferBound.A}
+\quad\text{and the original-ledger matrix row }(ZTC.6b).
 \tag{ZTC.7}
 \]
 
