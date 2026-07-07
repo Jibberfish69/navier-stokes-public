@@ -24,9 +24,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-positive-critical-transfer-dyadic-flux-affine-threading-reduction-20260628.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-native-reserve-critical-fractional-transfer-reduction-20260628.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
 completion_truth: >-
   This is a proof of implication and a checked no-go for a weaker route, not a
   proof of c_0. The surviving route-b storage inequality HSR.13 is reduced to
@@ -44,7 +46,10 @@ completion_truth: >-
   now sharpened to PersistentRootAffineQuotientReturnPayment.A, and the latter
   is further reduced to the single pre-readout
   OriginalHistoryRecordResetRootPayment.A / selected potential-amplification BV
-  producer. No FullTower retention, material-time Liouville, strict c_0, or MPP
+  producer; the no-Zeno transition branch is now reduced further to
+  StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
+  through OriginalHistoryTransitionDerivativeCarleson.A. No FullTower retention,
+  material-time Liouville, strict c_0, or MPP
   closure is claimed.
 ---
 
