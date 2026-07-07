@@ -41,8 +41,8 @@ completion_truth: >-
   3a n_i n_3(2n_3²-1), which changes sign across angular sectors. NET REDUCTION: scaling is
   quotiented, but the angular problem is a retained-participation minimax, not naked spectral
   positivity of the Calderon-Zygmund operator on S^2. c_0 > 0 requires a uniform positive lower
-  bound after selected material orientation, retained participation measure, and
-  same-edge retained-service admission prevents angular cancellation. The zero-cone transport
+  bound in which selected material orientation, retained participation measure, and
+  same-edge retained-service admission prevent angular cancellation. The zero-cone transport
   test sharpens the open lemma: the cancellation cone
   2n_3²=1 is crossed by the affine angular flow, so a zero-lag retained history must pay angular
   redistribution/source/selector flux, collapse to degenerate endpoint channels, or route through
