@@ -76,6 +76,13 @@ target_object:
   - SelectorTieGapOrDriftCharge.A
   - SameEdgeOrderLockPartnerDeficitPayment.A
   - HeatScaleReturnTerminalAC.A
+  - UniformSameMaterialTerminalClock.A
+  - UniformLaterAnnularReturnModulus.A
+  - UniformHeatScaleMaterialRecordSurvival.A
+  - SameCarrierUnweightedStrainActionReserve.A
+  - StoppedPrimitivePLSStrictHalfBarrierBreak.A
+  - RetainedRecordEdgeHigherProjectorServiceOrExit.A
+  - RetainedRecordEdgePrimitivePLSDriverAdmission.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
   - RetainedRecordEdgeC11MetricTowerOrExit.A
   - RetainedRecordEdgeHigherProjectorServiceOrExit.A
@@ -133,6 +140,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-order-lock-partner-payment-selected-density-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-selector-kinematic-realization-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-return-terminal-ac-direct-attempt-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-endpoint-bodyiv-same-material-clock-unification-direct-attempt-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-deformation-gradient-return-normal-form-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyiv-return-recurrence-defect-decomposition-20260621.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-top-strain-storage-vs-moving-pump-alignment-check-20260625.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-higher-projector-service-record-return-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
+  - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
+  - problems/navier-stokes/theorem-construction/metricstretchnofreemonotonegrowth-a-theorem-creation-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
@@ -168,6 +183,8 @@ supersedes_as_live_frontier:
   - SameEdgeOrderLockPartnerDeficitPayment.A as an independent c_0 wall rather than selected-density half-tail / retained same-packet overlap payment in full-packet variables
   - MaterialSelectorKinematicRealization.A or selector/collar endpoint UI as an independent source rather than an admissibility consumer after order-locked material definition, heat-scale return, tie/drift charge, and finite endpoint-jet modulus
   - TransportedSelectorHeatScaleReturn.A as a solved energy consequence or hidden no-residue payment rather than an open unweighted deformation-return / charged Body-IV geometry-carrier defect gate
+  - endpoint UI, Body-IV material-record retention, HeatScaleReturnTerminalAC.A, MetricStretchNoFreeMonotoneGrowth.A, or SameCarrierUnweightedStrainActionReserve.A as sibling c_0 producers rather than readouts of UniformSameMaterialTerminalClock.A
+  - UniformSameMaterialTerminalClock.A as a lower object than the moving low-high pressure/strain pump / stopped primitive PLS strict half-barrier after record-edge admission
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
@@ -991,6 +1008,76 @@ unbounded anisotropic deformation, loss of heat-scale relocalization, metric
 coefficient loss, or packet-label/cutoff/gauge drift. It returns to the same
 four-body/no-waste or charged-geometry frontier; it is not an independent
 no-residue theorem.
+
+The current Body-IV and endpoint sources lower this again. Endpoint UI /
+no-free Zeno, Body-IV material-record retention, heat-scale return terminal AC,
+metric stretch, and same-carrier unweighted strain-action reserve are readouts
+of one missing same-material terminal clock:
+
+\[
+d\mathfrak C_N
+=
+\widehat\rho_A(s)\,ds
++d[\log(1+\mathcal P_N^{mat})]_+
++dK_{\rm iface}^+
++dK_{\rm sel/collar}^+ .
+\tag{CPS.26m5}
+\]
+
+Here \(\widehat\rho_A\,ds\) is normalized pressure/viscous annular
+stress-return of the same transported packet, \(d[\log(1+\mathcal P_N^{mat})]_+\)
+is positive growth of the pulled-back material tower, and the \(K\)-terms are
+the same-packet interface, selector, collar, sign, and atlas defects that stop
+the four coordinates from being one packet. On a fixed retained annulus this is
+a genuine \(L^1\) time density with no terminal atom. On an infinite shrinking
+heat-scale family the physical energy estimate gives only
+
+\[
+\sum_j r_j
+\int_{-1}^0\widehat\rho_{A_j}(s)\,ds<\infty,
+\tag{CPS.26m6}
+\]
+
+which is the wrong, radius-discounted weight. The missing theorem is therefore
+not "geometry" or "endpoint UI"; it is
+`UniformSameMaterialTerminalClock.A' for the same selected packet.
+
+The moving low-high source notes identify the service coordinate of this clock
+with the existing c0 bottom. Finite moving low-high pressure/strain pump work
+is equivalent to the continuation-strength material clock at the chosen depth,
+and the stopped primitive graph-driver audits reduce every local closure
+currency to the strict high-ratio half-barrier:
+
+\[
+N_{L+1}\le \theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^LB_L<\infty .
+\tag{CPS.26m7}
+\]
+
+The higher exact-projector service audit states the same identification in
+record-edge language: higher projector service, moving low-high pressure/strain
+pump, primitive PLS driver, strict half-barrier, and affine record/return
+survivor are the same physical obstruction under different coordinates. The
+extra record-edge burden is admission before readout:
+
+\[
+\texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}
++\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}
++\texttt{StoppedPotentialRecordAverageBound.A}
++\texttt{StoppedNegativeScaleReturnCharge.A}
+\Longrightarrow
+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}.
+\tag{CPS.26m8}
+\]
+
+So `TransportedSelectorHeatScaleReturn.A' does not spawn a new c0 branch. It is
+the Body-IV/material-geometry face of the same unweighted material clock whose
+sharp current representative is the moving low-high / stopped primitive PLS
+half-barrier, with record-edge admission required before the record can consume
+that stopped primitive story.
 
 The order-lock partner gate also collapses back to the existing selected
 full-packet payment. If
