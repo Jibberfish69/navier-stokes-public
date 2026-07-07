@@ -129,8 +129,8 @@ d\mu^J=d\mu^A-d\mu^N
 
 on the same parent-known event space. Thus the three-measure orientation row
 is automatic after ownership of the raw event. The open issue is getting the
-  raw event owned before selected positive-part readout and keeping it owned
-  through the normalized bill-record passage.
+raw event owned before selected positive-part readout and keeping it owned
+through the normalized bill-record passage.
 
 The source-split follow-up sharpens the first and last clauses of `(UDM.4)'.
 The primitive channelization clause is lowered to parent-known pre-readout
