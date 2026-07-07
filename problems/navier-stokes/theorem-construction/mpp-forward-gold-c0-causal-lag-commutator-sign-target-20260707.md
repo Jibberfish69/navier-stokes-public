@@ -275,3 +275,161 @@ already counted in the \(c_0\) quotient, and with equality-zero routing to the
 stationary collar theorem or to pass/nonparticipation rather than retained
 record. Proving (CLS.13) together with the stationary no-free-collar branch
 uniformly over the strict participation atom class is the corrected bridge.
+
+## 8. How to attack the bridge
+
+The corrected bridge has two inequalities. The first is a payment estimate: any
+aligned pressure frame that is re-aimed inside a moving strain frame must spend
+the same pressure/collar bill. The second is a participation estimate: retained
+positive record must create either moving-frame re-aiming or stationary
+collar/turn-off. The bridge closes only after both are proved.
+
+### 8.1 Payment estimate
+
+Let
+
+```math
+f=\partial_i u_j\partial_j u_i,
+\qquad
+H=\nabla^2q=\nabla^2(-\Delta)^{-1}(-f)=Tf.
+\tag{CLS.14}
+```
+
+On a material participant with selector \(\chi\),
+
+```math
+D_tH
+=
+T(D_tf)+[D_t,T]f+\text{selector/collar/tail terms}.
+\tag{CLS.15}
+```
+
+The commutator is concrete:
+
+```math
+([u\cdot\nabla,T]f)(x)
+=
+\operatorname{p.v.}\int
+\bigl(u(x)-u(y)\bigr)\cdot\nabla K(x-y)\,f(y)\,dy,
+\tag{CLS.16}
+```
+
+where \(K\) is the Calderon-Zygmund kernel for \(\nabla^2(-\Delta)^{-1}\).
+Thus \(D_tH\) can change the pressure eigenframe only by seeing non-affine
+same-field variation: source deformation, parent/collar motion, pressure tail,
+or selector motion.
+
+The payment lemma to prove is
+
+```math
+\int_{\rm active}
+\left|
+\Pi_\perp^S
+\left(T(D_tf)+[D_t,T]f+\operatorname{CollarTail}\right)
+\right|\,d\mu_{\rm part}
+\le
+C\,\mathsf P_{\rm reaim}.
+\tag{CLS.17}
+```
+
+Here \(\Pi_\perp^S\) is off-diagonal projection in the strain frame, and
+\(\mathsf P_{\rm reaim}\) must be booked inside the existing pressure-viscous
+participation bill: pressure source variation, material selector/collar
+commutator, pressure tail, and relative viscous repair. This is not a new
+currency.
+
+Under the aligned condition (CLS.9), (CLS.10) gives
+
+```math
+\int_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
+\le
+C\,\mathsf P_{\rm reaim}.
+\tag{CLS.18}
+```
+
+### 8.2 Participation lower bound
+
+The second lemma is the physical one. Retained positive record is not a local
+value of \(-\operatorname{tr}S^3\). It is a material handoff through the tower.
+That handoff has only two active forms:
+
+1. the strain frame turns relative to the pressure frame;
+2. the frame stays aligned and the record is carried by amplitude/scale, which
+   forces a finite-energy turn-off/collar.
+
+The kinematic participation lemma is therefore
+
+```math
+\mathsf S_{\rm ret}
+\le
+C
+\left(
+\int_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
++
+\mathsf P_{\rm collar}
+\right)
++\mathsf S_{\rm pass}.
+\tag{CLS.19}
+```
+
+The pass term is zero on the retained positive-record class. A symmetric affine
+core with zero transverse pressure lands in \(\mathsf S_{\rm pass}\) unless it
+hands record through a collar, in which case it lands in \(\mathsf P_{\rm collar}\).
+
+Combining (CLS.18) and (CLS.19) gives
+
+```math
+\mathsf S_{\rm ret}
+\le
+C
+\left(
+\mathsf P_{\rm reaim}
++
+\mathsf P_{\rm collar}
+\right)
+\tag{CLS.20}
+```
+
+on the retained marginal class. This is the desired packet inequality.
+
+### 8.3 Compactness route to a uniform floor
+
+If (CLS.20) failed uniformly, there would be strict atoms with
+
+```math
+\mathsf S_{\rm ret}=1,
+\qquad
+\mathsf P_{\rm reaim}+\mathsf P_{\rm collar}\to0.
+\tag{CLS.21}
+```
+
+Strict atom compactness should give a same-field limit with positive retained
+service and zero re-aiming/collar bill. In that limit:
+
+* (CLS.18) forces \((h_i-h_j)B_{ij}=0\) on every active channel;
+* the collar bill vanishes, so stationary aligned handoff is impossible by the
+  no-free-collar theorem;
+* the remaining branch is pass/nonparticipation, contradicting
+  \(\mathsf S_{\rm ret}=1\).
+
+Therefore the attack reduces to three load-bearing lemmas:
+
+```math
+\text{Material CZ re-aiming payment (CLS.17)}
+\tag{CLS.22}
+```
+
+```math
+\text{Retained participation lower bound (CLS.19)}
+\tag{CLS.23}
+```
+
+```math
+\text{Zero-bill compactness/pass classification for strict atoms.}
+\tag{CLS.24}
+```
+
+These are smaller than the original \(c_0\) floor because each has a falsifier:
+respectively, a material CZ commutator that re-aims for free, a retained record
+handoff with neither frame turning nor collar turn-off, or a zero-bill aligned
+limit that still carries retained positive record.
