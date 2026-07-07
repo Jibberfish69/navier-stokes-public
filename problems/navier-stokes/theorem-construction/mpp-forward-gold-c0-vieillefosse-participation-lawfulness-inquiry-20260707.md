@@ -3185,7 +3185,7 @@ This target crosses only if it proves all three points uniformly:
 Until these points are proved, causal lag is the constructive target for
 endpoint strictness, not a completed proof of \(c_0>0\).
 
-## 26. Proved ingredient: log-scale endpoint inequality
+## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
 
