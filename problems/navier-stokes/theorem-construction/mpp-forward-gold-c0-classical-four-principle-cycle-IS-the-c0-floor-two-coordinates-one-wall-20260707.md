@@ -64,13 +64,29 @@ completion_truth: >-
   Liouville, WLF.60, or MPP closure is proved.
 ---
 
-# The classical four-principle cycle IS the c_0 floor: two coordinates, one wall
+# The four-body solution is ONE solution acting simultaneously — and it IS the c_0 floor
 
-Physics-first. This proves no new estimate. It welds four surfaces the repo kept
+Physics-first. This proves no new estimate. It welds surfaces the repo kept
 separate — the Layer-1 source-grounded classical architecture, the modern
 forward-Gold `c_0` shrink-map, the Euler mirror, and route b — by showing they are
 readouts of one physical question on one field. (Verified before writing: no
 `survivor`↔`c_0` / `survivor`↔`ε_*` weld exists on disk.)
+
+**Owner correction, load-bearing (supersedes the word "cycle" in the filename and
+the corpus's "work body by body / circuit / return arrow / propagation `P(T)→P(T⁺)`"
+framing).** The four-body solution is ONE solution acting simultaneously. The four
+"bodies" are not four principles run in sequence, not four faces to synchronize,
+and not four coordinates to put in a dictionary. There is one field; at each instant
+it stretches itself, is held incompressible non-locally, is turned by its own
+vorticity, and is smoothed by viscosity — the single right-hand side
+`D_t S = −S² − Ω² − Hess(q) + νΔS`, all terms at one instant. There is **no circuit,
+no `4→1` return, no loop to close**; those are the corpus's sequential proxy. `c_0`
+is one property of the one simultaneous action, and it is single-scale/local **zero**
+because at any one scale that simultaneous balance is exactly marginal; the margin
+lives **only** in the cross-scale simultaneity (the one solution coupled to itself
+across all scales at once). "Purely cross-rung" and "one solution acting
+simultaneously" are the same sentence. Any move that closes one body/face/coordinate
+in isolation has already destroyed the object.
 
 ## 0. One object, one failure mode, one floor
 
