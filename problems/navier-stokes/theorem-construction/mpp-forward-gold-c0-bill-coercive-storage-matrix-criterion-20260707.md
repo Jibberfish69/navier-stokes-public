@@ -27,6 +27,7 @@ derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
   the current c_0 Gate2 stack. It does not produce the Navier-Stokes matrix from
@@ -47,8 +48,10 @@ completion_truth: >-
   tail failure held as obstruction/readout unless separately admitted and
   consumed. The zero-bill unit-cycle follow-up identifies the qualitative
   compact form of the full matrix gap: after record admission and exact
-  charting, exclude normalized nonnegative zero-bill Perron cycles. No c_0
-  closure is claimed.
+  charting, exclude normalized nonnegative zero-surplus Perron cycles. The
+  kernel test proves the absolute-zero version is already excluded by the
+  zero-bill relay-record kernel; the open producer is the upgrade/rigidity that
+  excludes the zero-surplus ratio-one cycle. No c_0 closure is claimed.
 ---
 
 # Bill-coercive storage matrix criterion
