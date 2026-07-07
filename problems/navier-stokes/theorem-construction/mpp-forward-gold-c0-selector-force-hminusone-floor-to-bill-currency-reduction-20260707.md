@@ -26,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-commutator-hminusone-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-full-balance-payment-split-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-nonlinear-stress-localization-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-defect-carriage-moment-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-angle-gap-proof-pass-20260706.md
@@ -43,10 +44,16 @@ completion_truth: >-
   bill currency by the full same-fluid balance legs: acceleration impulse,
   viscous dissipation, nonlinear kinetic/collar/Reynolds stress, or legal
   defect/certificate variation. The full-balance split prevents mixed
-  cancellation, but current sources do not convert every leg into one uniform
-  B=dE_Field+dA_4B+dVisc bill. Hence this note proves a sharper conditional
-  route to epsilon_* > 0 and leaves SelectorForceHminusOneBillCurrency.A /
-  SelectorForceBalanceLegBillCurrency.A open. No c_0 or MPP closure is claimed.
+  cancellation, and the viscous leg is bill-compatible when it is the same
+  selected carrier. The acceleration leg is not bill-compatible from current
+  sources: a terminal pulse can have unit L1 selected service and unbounded
+  L2-in-time force while using only bounded endpoint impulse. The nonlinear
+  and defect legs are priced in kinetic/collar/Reynolds or certificate
+  variation currencies but are not yet admitted as the retained
+  B=dE_Field+dA_4B+dVisc bill on the same edge. Hence this note proves a
+  sharper conditional route to epsilon_* > 0 and leaves
+  SelectorForceHminusOneBillCurrency.A / SelectorForceBalanceLegBillCurrency.A
+  open. No c_0 or MPP closure is claimed.
 ---
 
 # Selector-force HminusOne floor to bill currency
@@ -272,9 +279,24 @@ and
 \tag{SFB.20}
 \]
 
-They do not prove the uniform conversion of those legs into the retained
-Field/four-body/viscous bill on the same parent edge.  That is now the exact
-open burden below the Rellich route.
+They do not prove the uniform conversion of the nonviscous legs into the
+retained Field/four-body/viscous bill on the same parent edge.  The balance-leg
+audit shows the sharp acceleration countercheck:
+
+\[
+a_\tau(s)=\tau^{-1}{\bf 1}_{(-\tau,0]}
+\quad\hbox{has}\quad
+\int a_\tau=1,\qquad
+\int a_\tau^2=\tau^{-1}\to\infty,
+\tag{SFB.21}
+\]
+
+while \(a_\tau=dI_\tau/ds\) for an endpoint impulse coordinate with only
+order-one endpoint displacement.  Thus endpoint impulse can carry terminal
+selected service without giving `(SFB.13)' unless endpoint/frame variation is
+charged or routed out.
+
+That is now the exact open burden below the Rellich route.
 
 So the next proof-bearing target is not broad Rellich positivity.  It is the
 same-edge bill-currency conversion of the installed \(H^{-1}\) selector-force
