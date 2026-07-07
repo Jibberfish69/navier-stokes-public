@@ -687,7 +687,8 @@ it exists, must be a global original-history same-material action functional;
 otherwise the branch must be routed to legal/stop/Pack/Part/Field before
 readout.
 
-modulo the stopped/root Carleson packaging. The checked hard-boundary note says
+The equivalence in `(CPS.21)' is modulo the stopped/root Carleson packaging. The
+checked hard-boundary note says
 finite work of this pump is equivalent to the continuation-strength material
 clock at the chosen depth. Thus this is a strict reduction and a failed proof
 attempt, not closure. A proof of \(c_0\) through this branch must now construct
