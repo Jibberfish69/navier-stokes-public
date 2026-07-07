@@ -31,6 +31,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscous-thickness-square-not-first-ratio-no-go-20260707.md
   - problems/navier-stokes/spine.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
@@ -52,9 +53,11 @@ completion_truth: >-
   WLF.60 carrier-mismatch follow-up further reduces that row to
   FreshCarrierMismatchEvacuationOrTerminalAtom.A plus same-carrier selected
   overrun tail UI on the identity branch, with terminal tail failure treated as
-  a typed obstruction/readout until separately admitted and consumed. This note
-  does not prove that row, the bill-coercive matrix, FullTower retention, c_0,
-  or MPP closure.
+  a typed obstruction/readout until separately admitted and consumed. The
+  viscous-thickness no-go supplies the check that Stokes residence gives square
+  payment, not first-ratio linear payment: the half-tail profile has finite
+  viscous square charge and divergent WLF.60 service. This note does not prove
+  that row, the bill-coercive matrix, FullTower retention, c_0, or MPP closure.
 ---
 
 # Bill matrix contraction to the early sub-heat-lag row
@@ -289,6 +292,40 @@ retained heat-lag contraction, exact pressure-Hodge atom attachment,
 finite-menu admission, and Perron-Frobenius absorption as already checked
 support. It attacks only the early sub-heat-lag source that lacks an
 independent payer.
+
+The tempting viscosity-only strengthening is ruled out by the half-tail
+countercheck. Let
+
+\[
+\omega_\ell=2^\ell,
+\qquad
+\Delta_\ell={2^{-\ell}\over \ell+1}.
+\tag{BME.15a}
+\]
+
+Then the square-thickness charge is finite,
+
+\[
+\sum_\ell \omega_\ell|\Delta_\ell|^2
+=
+\sum_\ell {2^{-\ell}\over(\ell+1)^2}<\infty,
+\tag{BME.15b}
+\]
+
+while the first-ratio service is infinite,
+
+\[
+\sum_\ell \omega_\ell|\Delta_\ell|
+=
+\sum_\ell {1\over \ell+1}
+=\infty .
+\tag{BME.15c}
+\]
+
+So sub-heat-lag residence and viscous thickness can be true on the same parent
+carrier without proving the WLF.60/ODP.91 row. The independent payer has to be
+same-carrier overrun tail uniform integrability, terminal atom route-out, or a
+direct full matrix contraction with \(\rho(K_P)<1\).
 
 ## 6. State
 
