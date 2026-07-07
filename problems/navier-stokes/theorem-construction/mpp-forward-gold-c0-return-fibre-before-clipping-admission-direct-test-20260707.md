@@ -272,16 +272,18 @@ This note does not construct the before-clipping parent active density from
 arbitrary Navier-Stokes data. It makes the next theorem smaller and typed:
 
 ```math
-\begin{gathered}
-\texttt{BeforeClippingSelectedLogCarrier.A}\\
-+\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
-+\texttt{TerminalFirstTimeRungNoResidue.A}\\
-+\texttt{FullExchangeNoSelfFeedingStorage.A}
+\begin{aligned}
+&\texttt{BeforeClippingSelectedLogCarrier.A}\\
+&+\texttt{StoppedParentLogCarrierExponentialBMO.A}\\
+&+\texttt{TerminalFirstTimeRungNoResidue.A}\\
+&+\texttt{FullExchangeNoSelfFeedingStorage.A}
 \Longrightarrow
-\texttt{BeforeClippingActiveDensityComparison.A}\\
-\Longrightarrow
-\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}.
-\end{gathered}
+\texttt{BeforeClippingActiveDensityComparison.A},\\
+&\texttt{BeforeClippingActiveDensityComparison.A}
++\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}.
+\end{aligned}
 \tag{RFA.18}
 ```
 
