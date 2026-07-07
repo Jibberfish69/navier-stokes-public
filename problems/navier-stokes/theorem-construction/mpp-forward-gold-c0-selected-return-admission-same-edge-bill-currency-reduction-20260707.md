@@ -87,6 +87,25 @@ The question is whether `(SRA.2)'--`(SRA.4)' are already produced by the stopped
 score.  They are not.  They are an admission theorem about which physical
 events the future selector is allowed to count.
 
+The inverse-weight form has now been isolated as the exact Cauchy coefficient
+in
+[mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md).
+In that notation,
+
+\[
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}
++\text{fixed stopped-score square return payment}
++\text{original root square-reserve bound}
+\Longrightarrow
+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
+\tag{SRA.4a}
+\]
+
+This sharpens `(SRA.3)' from an equivalent local phrasing into the exact
+coefficient that converts the harmonic square sum into selected linear BV. It
+does not prove the inverse-weight capacity theorem from the original
+Navier-Stokes packet.
+
 ## 2. Consumer implications already installed
 
 The stopped score gives
