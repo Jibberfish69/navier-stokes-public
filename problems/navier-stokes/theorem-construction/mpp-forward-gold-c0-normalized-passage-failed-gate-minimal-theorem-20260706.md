@@ -25,6 +25,7 @@ derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
 completion_truth: >-
   Failed-gate certificate for the active goal, not a proof of c_0 and not a
   refutation of NormalizedRelayBillCompactnessRecordPassage.A. The allowed
@@ -50,7 +51,11 @@ completion_truth: >-
   transition-derivative collapse. The positive-selection storage gap is now
   checked by an explicit native-menu countermodel: finite menu admission and
   one-record admission can both hold while the scale-normalized positive
-  selection sum over future disjoint records diverges.
+  selection sum over future disjoint records diverges. The linear algebra
+  absorption criterion has now been filed in bill currency: a record-admitted
+  matrix with spectral radius strictly below one and residual charged in
+  B=dE_Field+dA_4B+dVisc would imply ParentOwnedPositiveRecordBillCurrency.A.
+  That criterion is conditional only; it does not produce the NS matrix.
 ---
 
 # Normalized relay passage: failed gate and smallest exposed theorem
