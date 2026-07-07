@@ -124,8 +124,10 @@ C_0(e)+C_1(e)+C_2(e)+C_3(e)+C_4(e)+C_5(e)+C_6(e)+C_7(e)
 ```
 
 This is the same hypothesis package currently called
-`MovingDriverActiveStateFirstRatioPackage.A`, with the raw fixed-chart formula
-and raw atlas reductions supplying \(C_0\) and \(C_1\).
+`MovingDriverActiveStateFirstRatioPackage.A`. The fixed-chart formula supplies
+the local raw density in \(C_0\); the active-state/raw-atlas chain converts the
+parent-owned first-address clause \(C_1\) into global raw-event coverage, but
+does not prove \(C_1\) by itself.
 
 ## 3. Route-out branches already isolated
 
