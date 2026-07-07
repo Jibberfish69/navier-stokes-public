@@ -11,8 +11,8 @@ ontology_lock:
   compressible: false
 target_objects:
   - FullTowerPositiveChannelRootProjection.A
-  - FullTowerSignedTotalExchangeRetention.A
-  - StrictSamePacketCycleExchangeCoercivity.A
+  - FullTowerPositiveChannelThreeMeasureAdmission.A
+  - HistoricalFTR10PositiveChannelInventory
   - SimultaneousMaterialFourBodyPacketCoercivity.A
   - SamePacketInterfaceDefectSummabilityOrStrictLoss.A
   - SignedSmoothSamePacketCommutatorCoercivity.A
@@ -37,12 +37,15 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
 completion_truth: >-
-  This audit does not prove Gate 2, FullTowerSignedTotalExchangeRetention.A,
-  StrictSamePacketCycleExchangeCoercivity.A, c_0, or the MPP. It narrows the
-  Gate 2 projection burden. The root-payment frontier gives the right
+  This audit does not prove Gate 2, FullTowerPositiveChannelThreeMeasureAdmission.A,
+  SignedSmoothSamePacketCommutatorCoercivity.A, c_0, or the MPP. It narrows the
+  Gate 2 projection burden. After the corrected irreversible ontology, FTR is a
+  historical positive-channel inventory, not a reversible retention theorem.
+  The root-payment frontier gives the right
   pre-readout time order for the selected-critical record/reset face, but it
-  does not cover every generated full-tower positive channel from FTR.10. The
-  current sources discharge or type several channels: retained compactness is
+  does not cover every generated full-tower positive channel from the historical
+  FTR.10 inventory. The current sources discharge or type several channels:
+  retained compactness is
   represented by the mixed C_N coordinate on the retained branch, atlas motion
   is fixed-gauge/translation/route-out, retained interface currents are exact
   or exposed as K_iface/K_C/K_G/selector/legal defects, and algebraic
@@ -57,7 +60,8 @@ completion_truth: >-
   material-time density. The theta-clock bridge identifies the remaining
   unowned channel as the route-b certified surplus-zero material-time profile
   if retained compactness persists. The exact remaining producer is a
-  genuine Navier-Stokes same-packet coercivity/admission theorem:
+  genuine Navier-Stokes same-packet coercivity/admission theorem for that
+  surviving channel:
   SignedSmoothSamePacketCommutatorCoercivity.A inside
   OriginalSmoothDataToPrelimitMasterBalanceFamily.A, or a route-out as
   same-object Part/Field failure. The retained Perron-circulation follow-up
@@ -99,10 +103,11 @@ The previous Gate 2 note named the needed covering theorem:
 This audit checks what that covering theorem actually reduces to in the current
 sources.
 
-## 2. Source fact: FTR.10 is broader than root payment
+## 2. Source fact: the historical FTR.10 inventory is broader than root payment
 
-The full-tower retention source says the generated positive channels in
-`(FPC.1)` include:
+The historical FTR note supplies a one-way generated-channel inventory. It is
+not a live reversible-retention theorem after the ontology correction. The
+generated positive channels in `(FPC.1)` include:
 
 ```text
 metric deformation,
@@ -318,8 +323,9 @@ Pack_Q+Part_{N,Q}+\forall r>0,\neg Field_{N,r,Q}.
 ## 6. Consequence for c_0
 
 This audit makes the first failed Gate 2 burden smaller than "all positive
-channels from FTR.10" but still open. The unowned positive channel is the
-scale-normalized full material strain/coefficient/commutator clock
+channels from the historical FTR.10 inventory" but still open. The unowned
+positive channel is the scale-normalized full material
+strain/coefficient/commutator clock
 \(\Theta_N\), together with the same-packet interface-defect production needed
 to retain it through compactness.
 

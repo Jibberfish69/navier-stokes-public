@@ -124,12 +124,15 @@ completion_truth: >-
   Perron class. Once each positive Perron edge is admitted as a same-packet
   positive/negative/current channel, retained four-body/viscous/Field payment
   sees it, so branching Perron cancellation is not independent. The unproved
-  producer is FullTowerPositiveChannelThreeMeasureAdmission.A. The theta
-  envelope is not that producer because it is a positive BKM/Moser clock after
-  absolute values; the source line is the pre-envelope raw signed commutator
-  PMB.9s / SSC-DC.4. Pure local bounded X_comm storage cannot pay that clock;
-  after affine/collar payment and route-outs, the surviving theorem is the
-  non-affine, nonlocal pressure-viscous same-packet commutator coercivity.
+  producer is FullTowerPositiveChannelThreeMeasureAdmission.A, but the channel
+  projection audit has already shrunk that from the whole historical FTR.10
+  menu to one unowned channel: the scale-normalized full material
+  strain/coefficient/commutator clock. The theta envelope is not that producer
+  because it is a positive BKM/Moser clock after absolute values; the source
+  line is the pre-envelope raw signed commutator PMB.9s / SSC-DC.4. Pure local
+  bounded X_comm storage cannot pay that clock; after affine/collar payment and
+  route-outs, the surviving theorem is the non-affine, nonlocal
+  pressure-viscous same-packet commutator coercivity.
   Duhamel-Hodge pullback, endpoint admission, retained heat gap, component
   compactness, log-carrier, before-clipping density, Perron normal forms, and
   theta envelopes are support unless they build that same record-admitted
@@ -531,6 +534,16 @@ So the matrix side now reduces to the admission theorem:
 \tag{CPS.17}
 \]
 
+The projection audit has already shrunk `(CPS.17)' below the whole historical
+FTR.10 channel menu. Retained compactness, fixed-atlas motion, interface
+currents, algebraic \(X\)-primitives, and persistent localized affine service
+are paid, typed, or routed. The surviving positive channel is:
+
+\[
+\text{scale-normalized full material strain/coefficient/commutator clock}.
+\tag{CPS.17a}
+\]
+
 That theorem cannot be obtained from the visible \(\Theta_N\) envelope alone.
 The envelope is produced after Kato-Ponce/Moser absolute values, where the
 signed carrier and negative partner have already been forgotten. The remaining
@@ -555,10 +568,10 @@ the non-affine, nonlocal pressure-viscous same-packet coupling:
 
 Future c0 work should attach to this file unless it proves `(CPS.13)' from the
 original coupled packet, proves the record-admitted matrix gap, proves
-`FullTowerPositiveChannelThreeMeasureAdmission.A`, proves the pre-envelope
-signed commutator line `(CPS.18)'/`(CPS.19)', proves a strictly smaller
-noncircular supplier for one of those clauses, proves same-carrier overrun tail
-UI before terminalization, proves theta-payer/pre-readout admission with the
-signed carrier retained, or gives a typed route-out in the CM grammar. New
-labels that do not do one of those jobs are coordinates of this wall, not
-sibling frontiers.
+`FullTowerPositiveChannelThreeMeasureAdmission.A` specifically for the surviving
+full material clock `(CPS.17a)', proves the pre-envelope signed commutator line
+`(CPS.18)'/`(CPS.19)', proves a strictly smaller noncircular supplier for one of
+those clauses, proves same-carrier overrun tail UI before terminalization,
+proves theta-payer/pre-readout admission with the signed carrier retained, or
+gives a typed route-out in the CM grammar. New labels that do not do one of
+those jobs are coordinates of this wall, not sibling frontiers.
