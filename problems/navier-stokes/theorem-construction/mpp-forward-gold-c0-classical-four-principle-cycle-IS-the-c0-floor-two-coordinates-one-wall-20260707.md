@@ -167,14 +167,18 @@ irreversibility measure and is **not** here identified with the four *principles
 Body I–IV — the weld is principle ↔ coordinate, which is what the Layer-1 and
 shrink-map surfaces ground; the naming coincidence is flagged, not used.)
 
-## 3. Load-bearing: the open `4→1` return arrow IS the cross-rung margin
+## 3. Load-bearing: the `4→1` closure IS the one solution's self-consistency, and that IS the cross-rung margin
 
-The classical cycle has exactly one arrow that never closes: the **return**
-`Curvature-Based Regularity → Scale-Barrier` (the `4→1` loop-closure; Layer-2's
-`3→4→1` return; `route-b-euclidean-closure-theorem`). Physically it is the demand
-that the signed strain-geometry driver (Body IV) feed back to *establish* the
-supercritical high-frequency decay (Body I) — i.e. that the driver be strong
-enough, uniformly down the cascade, to force the tail to stay ahead of production.
+Because the four bodies are one simultaneous solution, the `4→1` "return"
+(`Curvature-Based Regularity ⇌ Scale-Barrier`; Layer-2's `3→4→1`;
+`route-b-euclidean-closure-theorem`) is **not a separable last step you perform**.
+It is the coordinate-name for the **self-consistency of the one packet** — the
+condition that the single simultaneous solution close on itself. Physically: the
+signed strain-geometry driver (Body IV) and the supercritical high-frequency decay
+(Body I) are the *same field at the same instant*, so the demand is that this one
+object be self-coherent — that the driver it *is* be strong enough, uniformly down
+the cascade, to keep the tail it *is* ahead of the production it *is*. Self-closure
+of one object, not a loop between four.
 
 That is **identically c_0's cross-rung margin.** And it fails to close for the
 identical reason the modern route isolated:
@@ -186,10 +190,11 @@ identical reason the modern route isolated:
   log-self-similar tower `N_L ~ 2^{-L}/L`, a scaling fixed point under a scaling
   that preserves `ν` (the viscosity-marginal weld).
 
-So `Q(t)` boundedness cannot close the return arrow (it is only the zeroth moment),
-and no scale-covariant estimate can (it re-ties the marginal). **The classical
-four-principle cycle and the modern c_0 collapse are one wall, unclosed for one
-reason.**
+So `Q(t)` boundedness cannot supply that self-consistency (it is only the zeroth
+moment), and no scale-covariant estimate can (it re-ties the marginal). **The one
+simultaneous four-body solution and the modern c_0 collapse are one wall, unclosed
+for one reason** — and, being one object, it must be closed as one, not face by
+face.
 
 ## 4. The Euler mirror is the `ν=0` control that confirms the lever
 
