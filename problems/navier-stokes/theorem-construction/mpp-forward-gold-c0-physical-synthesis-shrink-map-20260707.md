@@ -172,8 +172,8 @@ completion_truth: >-
   repeated-core and shrinking-core notes do not create two new roofs: inherited
   no-reset reuse is the repeated-core record/return branch, while genuinely
   fresh child reset is the critical weighted reset-current branch. Both are
-  faces of the same parent-known pre-readout active-state/root-currency/record-
-  storage package; bounded record height, raw capacity, raw reset distance, raw
+  faces of the same parent-known pre-readout active-state/root-currency/
+  record-storage package; bounded record height, raw capacity, raw reset distance, raw
   Bessel freshness, and compactness all fail the selected-critical half-tail
   test. Local finite-depth storages,
   shell energy, Cauchy-Green, strain-log, coefficient-log, pointwise
