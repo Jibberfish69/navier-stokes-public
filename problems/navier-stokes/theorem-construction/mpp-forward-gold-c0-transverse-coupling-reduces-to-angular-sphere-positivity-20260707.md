@@ -279,6 +279,33 @@ strain/current detector feeding \(L^P\). Without that same-edge upgrade, the
 branch is a different carrier, a pressure bank, a paid profile collar, or a
 route-out, not the terminal sign proof.
 
+On the axisymmetric stretched-vortex profile branch the remaining sign is a
+single quadrupole. If
+
+```math
+f=|S|^2-\frac12|\omega|^2=-\Delta p,
+```
+
+and the profile axis is \(e_1\), then
+
+```math
+\mu_{\rm sv}
+=
+(\nabla^2p)_{11}(0)-(\nabla^2p)_{22}(0)
+=
+{3\over4\pi}\,{\rm p.v.}\int
+{y_1^2-y_2^2\over |y|^5}\,f(y)\,dy .
+```
+
+A small tilt \(a_2\) gives \((\nabla^2p)_{12}=\mu_{\rm sv}a_2+o(|a_2|)\), so the
+profile pressure contribution to the linearized stability index is
+\(\mu_{\rm sv}/d_2\). The branch is therefore not closed by saying "low-pressure
+core"; the kernel has axial and transverse sectors with opposite signs. The
+new scalar target is
+\(\texttt{StretchedVortexPressureQuadrupoleSign.A}\), a uniform lower bound for
+\(\mu_{\rm sv}\) after profile collars and pressure banks are retained, paid, or
+routed out.
+
 ## 6. Honest status
 
 The old formulation was too strong: it treated fixed-sign density as already available. The
