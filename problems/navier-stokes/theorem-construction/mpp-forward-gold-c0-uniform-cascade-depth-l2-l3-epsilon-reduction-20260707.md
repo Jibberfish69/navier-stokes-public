@@ -433,21 +433,21 @@ pre-readout custody and first-ratio bill currency:
 &+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}\\
 &+\texttt{SameEventNoRecountFirstRatioBillCurrency.A}.
 \end{aligned}
-\tag{UCD.17}
+\tag{UCD.16d}
 \]
 
 Thus the currently sharpened conditional route is
 
 \[
-\texttt{L2L3\_sp}+(UCD.17)
+\texttt{L2L3\_sp}+(UCD.16d)
 \Longrightarrow
 \texttt{UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A}
 \Longrightarrow
 \varepsilon_*>0.
-\tag{UCD.18}
+\tag{UCD.16e}
 \]
 
-The new line `(UCD.17)' is still open.  It is smaller than generic orientation
+The new line `(UCD.16d)' is still open.  It is smaller than generic orientation
 admission because the fixed-event orientation row is paid; it is not a proof of
 \(c_0>0\).
 
