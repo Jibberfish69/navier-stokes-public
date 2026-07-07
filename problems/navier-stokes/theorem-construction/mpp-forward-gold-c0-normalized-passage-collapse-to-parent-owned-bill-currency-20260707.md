@@ -345,6 +345,20 @@ because paying it directly would require the selected-critical weighted
 \(L^2\) bound being sought. The live theorem is therefore: each survivor is
 parent-predictable record/return, is converted before readout into
 derivative/turnstile/exchange/covector motion, or routes to legal/stop/CM exit.
+The source audit sharpens the first clause: record/return is available only
+after primitive signed-channel visibility and the stopped scale-potential
+package,
+\[
+\texttt{FreshSelectedPrimitiveAlignment.A}
++\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}
++(\texttt{StoppedPotentialRecordAverageBound.A}
+\ \text{or}\ 
+\texttt{FreshPositiveStressSecondOrderExactness.A})
++\texttt{StoppedNegativeScaleReturnCharge.A}.
+\tag{NPB.12g2}
+\]
+Bounded record oscillation and fixed-core identity alone do not pay this
+zero-mode.
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
