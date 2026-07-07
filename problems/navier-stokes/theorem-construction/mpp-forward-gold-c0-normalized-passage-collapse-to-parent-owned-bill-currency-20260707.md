@@ -333,6 +333,19 @@ while lifted innovations must enter log-scale reset / critical jump carriers.
 The stopped routed-current route is only a conditional local proof spine until
 these noncircular clauses are installed before future selected readout.
 
+This should not be overread as "Bessel closes the row." Once the predictable
+lifted geometry is installed, the Bessel consumer is standard, and the harmonic
+Cauchy step pays only derivative-exact reset pieces. The survivor is the
+non-derivative affine quotient
+\[
+c_F^{fresh}(t)=\int_I\theta_I(\sigma)Z^{fresh}(\sigma,t)\,d\sigma ,
+\tag{NPB.12g1}
+\]
+because paying it directly would require the selected-critical weighted
+\(L^2\) bound being sought. The live theorem is therefore: each survivor is
+parent-predictable record/return, is converted before readout into
+derivative/turnstile/exchange/covector motion, or routes to legal/stop/CM exit.
+
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
 
