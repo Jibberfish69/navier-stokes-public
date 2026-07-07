@@ -33,6 +33,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-zeno-rellich-same-carrier-reserve-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-codex-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-paired-carrier-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-full-packet-noresidue-rigidity-audit-20260627.md
@@ -54,9 +55,9 @@ completion_truth: >-
   on the actual order-locked full selected packet, or routes failure through
   same-witness CM admission. The Rellich source route has now been lowered from
   broad SelectedRellichBulkPositivity.A to the quantitative selector-force /
-  non-affine pressure-viscous commutator theorem
-  SelectedRellichSelectorForceLowerBound.A. No c_0, WLF.60, or MPP closure is
-  claimed here.
+  non-affine pressure-viscous commutator theorem, and then to the installed
+  H^{-1} selector-force floor plus the open same-edge bill-currency conversion.
+  No c_0, WLF.60, or MPP closure is claimed here.
 ---
 
 # Terminal tail UI to c0 bill currency
@@ -308,6 +309,10 @@ The terminal same-carrier route can close through one of these source theorems.
 The Rellich branch is now lowered one step:
 
 \[
+\texttt{SelectedAffineMomentCarrierIdentification.A}
++
+\texttt{SelectorForceHminusOneBillCurrency.A}
+\Longrightarrow
 \texttt{SelectedRellichSelectorForceLowerBound.A}
 \Longrightarrow
 \texttt{SelectedRellichBulkPositivity.A}
