@@ -850,3 +850,8 @@ large inverse-clock side. The smaller producer now exposed is
 the requirement that the before-clipping parent active numerator dominate the
 linear inverse clock. This is the local return-clock form of the \(WLF.60\)
 same-parent route-measure gate.
+The active-numerator/WLF follow-up confirms that this is not a new lower
+producer: after parent-known coarea, it is `SelectedLinearRouteMeasureCarleson.A'
+/ WLF.60 / ODP.91 in local Radon-Nikodym form. The remaining source theorem is
+therefore still the selected-linear route-measure payment on the actual
+order-locked full-packet carrier.
