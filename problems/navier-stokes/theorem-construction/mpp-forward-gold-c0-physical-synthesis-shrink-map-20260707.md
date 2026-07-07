@@ -58,6 +58,15 @@ target_object:
   - SameParentCriticalDepletionNoZeno.A
   - SameParentCriticalGoodLambdaTail.A
   - BeforeClippingActiveDensityComparison.A
+  - OneSidedAlignedCurrentDomination.A
+  - FullExchangeCriticalCompactness.A
+  - ZeroCostFullExchangeCriticalRigidity.A
+  - RecordAdmittedFullExchangeCriticalCompactness.A
+  - ZeroCostRecordCriticalNoArbitrageRigidity.A
+  - RecordAdmissionClosedness.A
+  - SameEdgeNoDetachmentModulus.A
+  - RetainedRecordEdgeParentAnnouncedSelectorCapture.A
+  - RetainedRecordEdgeExactProjectorChartLicense.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -99,6 +108,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-generator-storage-accretive-testing-equivalence-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
@@ -124,6 +137,9 @@ supersedes_as_live_frontier:
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
   - original-history transition derivative as an independent bottom rather than a projection of the parent root generator/full-exchange ledger
   - stopped accretive testing, native-birth packing, positive critical transfer, or dyadic no-free-upcascade as sibling producers unless they build the same record-admitted full-exchange/original-ledger coercivity before readout
+  - OneSidedAlignedCurrentDomination.A as final bottom after Section 101 lowers it to full-exchange depletion plus before-clipping active-density comparison
+  - raw same-parent pressure-Hodge atom decomposition or retained opposite-lobe reserve as the selected-critical Gold source after the raw before-clipping atom request is discharged
+  - freestanding full-exchange compactness or carrier compactness without RecordAdmissionClosedness.A / SameEdgeNoDetachmentModulus.A
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
