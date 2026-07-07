@@ -25,6 +25,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
@@ -41,9 +42,13 @@ completion_truth: >-
   The early-branch contraction follow-up identifies that independent face in the
   checked TFE/c_0 decomposition: record-admitted sub-heat-lag first-admission
   storage, equivalently WLF.60 / ODP.91 on the order-locked full-packet selected
-  carrier. The zero-bill unit-cycle follow-up identifies the qualitative compact
-  form of the full matrix gap: after record admission and exact charting, exclude
-  normalized nonnegative zero-bill Perron cycles. No c_0 closure is claimed.
+  carrier. The WLF.60 carrier-mismatch follow-up further reduces that face to
+  mismatch evacuation plus same-carrier selected overrun tail UI, with terminal
+  tail failure held as obstruction/readout unless separately admitted and
+  consumed. The zero-bill unit-cycle follow-up identifies the qualitative
+  compact form of the full matrix gap: after record admission and exact
+  charting, exclude normalized nonnegative zero-bill Perron cycles. No c_0
+  closure is claimed.
 ---
 
 # Bill-coercive storage matrix criterion
