@@ -697,6 +697,56 @@ abstractly, including laminarity and complete-frame orientation payment. Thus
 `GlobalSamePacketFullWeightBeatingTail.A' are not lower independent sources;
 they are equivalent-strength tail forms of `(CPS.20)'--`(CPS.21)'.
 
+The repeated-core and shrinking-core notes refine the next physical test, not a
+new menu below the pump. The same parent packet must own an active state, a
+selected-critical root currency, and the record edge before child readout:
+
+\[
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}
+\quad\supset\quad
+\texttt{OriginalHistoryRecordResetRootPayment.A}
++\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}.
+\tag{CPS.26a}
+\]
+
+The branch split is a physical dichotomy inside that one object. If a selected
+child inherits the parent state, the problem is repeated reuse of one stopped
+core; the required charge is signed primitive-scale-potential return plus
+parent-predictable root geometry:
+
+\[
+\begin{aligned}
+&\texttt{PredictableRootWeightMartingaleRealization.A}\\
+&+\texttt{SignedStoppedPLSEvolutionIdentity.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}\\
+&\Longrightarrow
+\texttt{RepeatedCorePositiveVariationRootBound.A}.
+\end{aligned}
+\tag{CPS.26b}
+\]
+
+Bounded record height does not close this branch, because bounded primitives
+can oscillate with infinite positive and negative variation. If the child is a
+genuinely fresh selected state, the branch is shrinking-core reset; raw
+capacity, raw reset distance, raw Bessel freshness, and compactness all miss
+the same half-tail, so the charge has to be critical-weighted:
+
+\[
+\begin{aligned}
+&\texttt{ParentChildResetOrRepeatedCoreDichotomy.A}\\
+&+\texttt{ResetVisibleSelectedCarrierObservability.A}\\
+&+\texttt{CriticalWeightedParentChildResetCarleson.A}\\
+&\Longrightarrow
+\texttt{ScaleInvariantSelectedCapacityNoEscape.A}.
+\end{aligned}
+\tag{CPS.26c}
+\]
+
+Thus repeated-core record/return and shrinking-core reset are faces of the same
+pre-readout parent payment package. They do not count as sibling producers
+unless one of them constructs the missing same-parent state, currency, and
+record-storage from the original pressure-viscosity-incompressibility history.
+
 The checked local-state no-go also fixes what kind of proof cannot work. Any
 finite-depth local material state primitive that drops by
 \(\int\lambda_+(t)\,dt\) along an affine incompressible material packet becomes
@@ -728,8 +778,10 @@ original coupled packet, proves the record-admitted matrix gap, proves
 full material clock `(CPS.17a)', proves the pre-envelope signed commutator line
 `(CPS.18)' by proving the moving low-high pressure/strain pump/free-material
 graph driver bound `(CPS.20)'--`(CPS.21)', proves a strictly smaller noncircular
-supplier for one of those clauses, proves same-carrier overrun tail UI before
-terminalization, proves theta-payer/pre-readout admission with the signed
-carrier retained, or gives a typed route-out in the CM grammar. New labels that
-do not do one of those jobs are coordinates of this wall, not sibling
-frontiers.
+supplier for one of those clauses, proves the repeated-core record/return or
+shrinking-core reset branch by constructing the same parent-known pre-readout
+state/currency/record-storage object from original data, proves same-carrier
+overrun tail UI before terminalization, proves theta-payer/pre-readout admission
+with the signed carrier retained, or gives a typed route-out in the CM grammar.
+New labels that do not do one of those jobs are coordinates of this wall, not
+sibling frontiers.
