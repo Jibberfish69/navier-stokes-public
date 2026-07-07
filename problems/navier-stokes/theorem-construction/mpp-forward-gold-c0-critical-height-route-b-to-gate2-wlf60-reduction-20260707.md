@@ -37,6 +37,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
 completion_truth: >-
   Strict reduction only. After the critical-height correction, the route-b bad
   object is a same-fluid material-time recurrence with H(t)->infinity through
@@ -56,10 +58,14 @@ completion_truth: >-
   bill-matrix early-row note reduces the independent face to
   RecordAdmittedSubHeatLagEarlyBranchStorage.A / WLF.60; and the WLF.60
   carrier note reduces WLF.60 to mismatch evacuation plus same-carrier overrun
-  tail UI. Thus material-time Liouville has no separate retained in-class
-  producer beyond the same Gate2/WLF row, although the compact certified path
-  construction itself remains an unproved route-b input. No FullTower
-  retention, material-time Liouville theorem, c_0, or MPP closure is claimed.
+  tail UI. The WLF terminal-atom follow-up proves that terminal WLF
+  concentration is consumed inside the admitted route-b zero-loss class after
+  theta-payer or CM same-witness admission; before that admission it remains a
+  forward obstruction/readout. Thus material-time Liouville has no separate
+  retained in-class producer beyond the same Gate2/WLF row, although the
+  compact certified path construction itself remains an unproved route-b input.
+  No FullTower retention, material-time Liouville theorem, c_0, or MPP closure
+  is claimed.
 ---
 
 # Critical-height route-b reduces to the Gate2/WLF producer
