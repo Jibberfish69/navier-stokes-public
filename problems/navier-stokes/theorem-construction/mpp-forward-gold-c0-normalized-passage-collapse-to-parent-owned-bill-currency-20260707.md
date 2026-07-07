@@ -24,6 +24,9 @@ target_objects:
   - SignedSmoothSamePacketCommutatorCoercivity.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - ParentActiveCapacityThreeToothSource.A
+  - WLF.60
+  - StoppedAffineTransitionLiftedMartingaleDifference.A
+  - PredictableActiveWeightTransitionCarleson.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
@@ -43,6 +46,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-transition-predictable-weight-martingale-lock-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-affine-quotient-transition-square-packing-direct-attack-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-canonical-source-promotion-contract-stopped-routed-current-20260627.md
 completion_truth: >-
   Strict reduction only. The normalized bill-record compactness theorem remains
   open, but current sources show the proof search should not treat Gate 2, Gate
@@ -73,7 +80,15 @@ completion_truth: >-
   original-data subcritical face. The unsigned theta envelope and pure local
   bounded X_comm storage are checked no-gos. The surviving physical source wall
   is the moving low-high pressure/strain driver / first-ratio no-free-upward
-  transfer bill before positive readout. No c_0 or MPP closure is claimed.
+  transfer bill before positive readout. In WLF/ODP coordinates, same-parent
+  origin, no-recount, raw Bessel novelty, and local first-admission atoms are
+  support only; they do not imply the weighted linear pulse measure. The unpaid
+  coordinate is the persistent affine quotient on the order-locked full-packet
+  selected carrier. The immediate nonduplicate proof object below it is a
+  predictable-weight lifted martingale split of stopped affine transitions
+  before scalar positive readout, with predictable inherited pieces routed to
+  record/return and innovations routed to critical reset carriers. No c_0 or
+  MPP closure is claimed.
 ---
 
 # Normalized passage collapses to parent-owned bill currency
@@ -279,6 +294,45 @@ bill:
 \tag{NPB.12d}
 \]
 
+The first-ratio face of `(NPB.12d)' is the WLF/ODP early-row theorem:
+
+\[
+\texttt{WLF.60}
+\quad\hbox{or equivalently}\quad
+\texttt{ODP.91}.
+\tag{NPB.12e}
+\]
+
+The installed same-parent detector, no-recount pushforward, raw
+first-admission Bessel measure, and local native first-entry atom do not prove
+`(NPB.12e)'. They control origin and raw square size, while \(c_0\) needs the
+weighted linear first-ratio pulse measure. The half-tail keeps finite raw square
+mass and infinite selected weighted linear mass.
+
+The checked WLF/ODP reduction exposes the unpaid affine coordinate:
+
+\[
+\texttt{ODP.160}/\texttt{ODP.125}
+\quad
+\text{on the order-locked full-packet selected carrier.}
+\tag{NPB.12f}
+\]
+
+The current nonduplicate proof technology below `(NPB.12f)' is not another
+support ledger. It is the stopped transition theorem
+
+\[
+\texttt{PredictableActiveWeightTransitionCarleson.A}
++\texttt{StoppedAffineTransitionLiftedMartingaleDifference.A},
+\tag{NPB.12g}
+\]
+
+followed by the Bessel/Carleson consumer and the already-separated branch
+routing: predictable inherited pieces must enter primitive PLS record/return,
+while lifted innovations must enter log-scale reset / critical jump carriers.
+The stopped routed-current route is only a conditional local proof spine until
+these noncircular clauses are installed before future selected readout.
+
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
 
@@ -289,9 +343,9 @@ So the lower split is non-aliased:
 \text{pressure-active angle:} & \text{finite-dimensional consumer after the collar},\\[1mm]
 \text{detector-silent service:} & \text{first-ratio strict half-barrier in invisible coordinates},\\[1mm]
 \text{exact-projector chart:} & \text{same-edge chart-payer admission plus higher service/exit},\\[1mm]
-\text{selected-critical payment:} & \text{pre-readout moving-driver/three-measure original-history source}.
+\text{selected-critical payment:} & \text{pre-readout WLF/ODP moving-driver affine-transition source}.
 \end{array}
-\tag{NPB.12e}
+\tag{NPB.12h}
 \]
 
 ## 6. Result
@@ -315,5 +369,7 @@ pressure-viscosity-incompressibility history of the same packet, through the
 same-edge custody tuple and its detector-silent / exact-projector /
 selected-critical payment rows. At the current bottom this means proving
 pre-readout three-measure admission for the moving low-high same-packet driver,
-proving a direct original-data subcritical active/root face, or routing failure
-to a typed legal/stop/Pack/Part/Field exit before readout.
+proving the WLF/ODP parent-weighted pulse measure through the predictable
+lifted affine-transition split, proving a direct original-data subcritical
+active/root face, or routing failure to a typed legal/stop/Pack/Part/Field exit
+before readout.
