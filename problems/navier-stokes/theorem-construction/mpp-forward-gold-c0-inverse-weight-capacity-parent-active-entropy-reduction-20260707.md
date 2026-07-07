@@ -322,3 +322,6 @@ not bound \(\int_Iw^{-1}d\sigma\). The remaining producer inside
 \]
 the same-parent route-measure / \(WLF.60\) gate saying the before-clipping active
 numerator cannot vanish along low-\(H_I\), large inverse-clock tubes.
+The active-numerator reduction shows that this is the local return-clock
+coordinate of `SelectedLinearRouteMeasureCarleson.A' / WLF.60 / ODP.91, not a
+new theorem below that selected-linear bill wall.
