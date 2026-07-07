@@ -300,11 +300,12 @@ Current installed inputs do not prove:
 \tag{FTR.19}
 ```
 
-Therefore the direct attempt does not close
-`FullTowerSignedTotalExchangeRetention.A`.
-
-It reduces it to the strict same-packet cycle-exchange coercivity statement
-`(FTR.13)`--`(FTR.14)`.
+Therefore the direct attempt does not close the old
+`FullTowerSignedTotalExchangeRetention.A` label. Under the corrected ontology,
+that label is withdrawn as a reversible-retention target. The surviving
+obligation is `(FTR.19)`: every positive generated channel from the actual
+transported packet must be admitted as a same-packet three-measure channel,
+strict loss, selected activity, residual, or route-out before readout.
 
 ## 7. Consequence for the gold route
 
@@ -327,9 +328,9 @@ Pack_Q+\neg Part_{N,Q}.
 \tag{FTR.21}
 ```
 
-The branch is therefore exactly located.  The remaining pure gold theorem is
-strict same-packet cycle-exchange coercivity for the full transported material
-tower.
+The branch is therefore exactly located. The remaining pure Gold theorem is
+positive-channel three-measure admission / pre-readout payment for the full
+transported material tower.
 
 After the simultaneous material-packet correction, this theorem is an internal
 face of
@@ -339,16 +340,16 @@ face of
 \tag{FTR.22}
 ```
 
-The signed-total exchange retention problem is solved if the single
-bounded-below symmetrized functional
+The old signed-total exchange retention problem is replaced by the demand for
+a single bounded-below same-packet functional
 
 ```math
 L_S+L_Q+L_C+L_G+X_{SQ}+X_{QC}+X_{CG}+X_{GS}
 \tag{FTR.23}
 ```
 
-is constructed from the transported material law and its derivative controls
-the four-body activity, material-record positive log growth, and strict
-nonnegative loss at once.  Thus `(FTR.13)` is no longer a separate supplier
-target; it is one necessary cancellation/coercivity face of the simultaneous
-packet estimate.
+constructed from the transported material law whose derivative controls the
+four-body activity, material-record positive log growth, and strict nonnegative
+loss at once. Thus `(FTR.13)` is no longer a separate supplier target; after
+the ontology correction it is only a channel-admission/coercivity face of the
+simultaneous packet estimate.
