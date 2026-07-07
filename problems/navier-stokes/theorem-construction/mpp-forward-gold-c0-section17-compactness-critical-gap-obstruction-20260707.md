@@ -6,7 +6,13 @@ route: forward-gold / c_0 / no-free-collar / §17 compactness audit
 status: OBSTRUCTION LOCATED (physics-first, exponent-counting; no numerics). The §17
   compactness proof of the uniform packet inequality does not close: (A3) is the theorem
   restated, and the load-bearing step (A5) service-continuity fails exactly at the NS
-  critical L²→L³ gap. A concrete escape surviving §17 is exhibited. NO PROOF, NO CLOSURE.
+  critical L²→L³ gap. CORRECTION (owner turn-off computation, integrated): my first-draft
+  "concrete escape" put the concentrating bubble on the P4-free branch — that realization is
+  DEAD in the axisymmetric class (P4-free ⟹ u~r^{+0.16} grows ⟹ no finite-energy attach), so
+  §10/§11 hold in-class via a decay-rate obstruction. The §2 obstructions (A3-restatement,
+  A5-critical-gap) and §4 either-or STAND; the live escape relocates to (1) the axisymmetric
+  spreading turn-off = onsite-vs-derivative mass-gap, and (2) unproven non-axisymmetric hiding.
+  NO PROOF, NO CLOSURE either way.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   service_is: cubic self-stretching production −tr S³ (L³-natural), the scalar (l=0) channel
