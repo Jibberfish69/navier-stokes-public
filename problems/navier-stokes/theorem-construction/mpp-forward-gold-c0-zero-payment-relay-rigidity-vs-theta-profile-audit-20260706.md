@@ -30,6 +30,7 @@ ontology_lock:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-marginal-relay-all-zero-payment-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-break-even-identities-c0-is-rigidity-deficit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-cancellation-defect-is-critical-distributional-jacobian-defect-20260706.md
@@ -54,7 +55,13 @@ completion_truth: >-
   demonstrates the mismatch: it has positive local strain/metric material-clock
   service with zero higher finite-difference relay content, zero affine viscous
   heat, and no pair-field deviation. Therefore positive Theta_N service does
-  not by itself trigger the all-zero relay contradiction. To use the all-zero
+  not by itself trigger the all-zero relay contradiction. The affine-quotient
+  follow-up now excludes the persistent localized finite-energy affine
+  zero-surplus subcase: a nonzero local affine core inside a finite same-fluid
+  parent must pay a collar/parent second-derivative tower bill on positive
+  material-time density. Thus the affine-looking escape that remains is only
+  temporal thinness, lost parent/cover/tower certificate, or high-frequency
+  nonlinear pressure-stress transfer. To use the all-zero
   rigidity in the c_0 proof, one still needs a detector theorem: every positive
   retained Theta_N clock service either appears before readout as a
   parent-owned upward relay/root-full-exchange record in B-currency, or is paid
