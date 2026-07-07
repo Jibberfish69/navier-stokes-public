@@ -3213,11 +3213,14 @@ For an actual retained participant, let \(R(t)\) be the material strain frame,
 ```
 
 Thus a retained packet whose strain frame moves cannot keep the pressure frame
-aligned for free. Either \(B_{ij}=0\) on the active channels, so the packet is a
-pass/nonparticipant; or \(h_i=h_j\), so that channel is pressure-degenerate and
-cannot carry oriented record; or the same field must re-aim \(\nabla^2q\) through
-\(\widehat{D_tH}_{ij}\). That re-aiming is non-affine pressure/collar work in
-the same physical annulus.
+aligned for free. Either the same field must re-aim \(\nabla^2q\) through
+\(\widehat{D_tH}_{ij}\), or the moving-frame channel is absent/degenerate. If
+\(B_{ij}=0\) on the active channels, the packet is either pass/nonparticipating
+or it is carrying record only by amplitude/scale in the stationary aligned
+scalar branch; finite energy then forces a turn-off/collar, which is the payer.
+If \(h_i=h_j\), that channel is pressure-degenerate and cannot carry oriented
+record unless another channel takes the handoff. Re-aiming is non-affine
+pressure/collar work in the same physical annulus.
 
 The corrected bridge is therefore the pressure-reaiming inequality
 
@@ -3229,8 +3232,8 @@ C\,\mathsf P_{\rm reaim},
 ```
 
 where \(\mathsf P_{\rm reaim}\) is already part of the same participation bill,
-and equality-zero forces pass/nonparticipation rather than positive retained
-record. This is the next exact theorem, recorded separately in
+and equality-zero routes to the stationary collar theorem or pass/nonparticipation
+rather than positive retained record. This is the next exact theorem, recorded separately in
 `mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`.
 
 ## 27. Proved ingredient: log-scale endpoint inequality
