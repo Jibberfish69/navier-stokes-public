@@ -65,8 +65,16 @@ target_object:
   - ZeroCostRecordCriticalNoArbitrageRigidity.A
   - RecordAdmissionClosedness.A
   - SameEdgeNoDetachmentModulus.A
+  - RetainedRecordEdgePreReadoutCustodyClosedGraph.A
+  - RetainedRecordEdgePreReadoutCustodyTuple.A
   - RetainedRecordEdgeParentAnnouncedSelectorCapture.A
+  - RecordEdgeSelectorLabelModulusOrPaidDrift.A
+  - FiniteParentKnownRecordEdgeSelectorMenu.A
+  - StoppedSelectorFiniteScoreOrPaidDrift.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
+  - RetainedRecordEdgeC11MetricTowerOrExit.A
+  - RetainedRecordEdgeHigherProjectorServiceOrExit.A
+  - RecordMenuPressureActiveOrSilentService.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -111,6 +119,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-current-active-capacity-full-exchange-physical-story-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admitted-critical-no-arbitrage-compactness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-common-selector-refinement-parent-announced-capture-reduction-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-edge-selector-modulus-same-packet-gate-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
@@ -140,6 +155,10 @@ supersedes_as_live_frontier:
   - OneSidedAlignedCurrentDomination.A as final bottom after Section 101 lowers it to full-exchange depletion plus before-clipping active-density comparison
   - raw same-parent pressure-Hodge atom decomposition or retained opposite-lobe reserve as the selected-critical Gold source after the raw before-clipping atom request is discharged
   - freestanding full-exchange compactness or carrier compactness without RecordAdmissionClosedness.A / SameEdgeNoDetachmentModulus.A
+  - SameEdgeNoDetachmentModulus.A as one opaque compactness side condition rather than the simultaneous selector/chart/payment/face custody of one retained edge
+  - StoppedSelectorFiniteScoreOrPaidDrift.A as proof of arbitrary retained-edge capture before FiniteParentKnownRecordEdgeSelectorMenu.A / RecordEdgeSelectorLabelModulusOrPaidDrift.A is supplied
+  - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
+  - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
