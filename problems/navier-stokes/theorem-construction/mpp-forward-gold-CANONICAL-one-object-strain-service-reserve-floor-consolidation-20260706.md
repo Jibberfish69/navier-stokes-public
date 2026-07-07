@@ -39,7 +39,7 @@ completion_truth: >-
   one-field participation tower. The leading-edge fact that simplifies the
   rest: this floor is provably NON-LOCAL — the exact incompressible affine
   packet u=B(t)x (tr B=0) realizes order-one strain-service action with
-  vanishing critical heat-mass, so no local jet / pointwise angle / clipping /
+  vanishing critical heat-mass, so no local jet / pointwise angle / post-readout positive-part extraction /
   rigidity can supply the below-1/2 margin. Hence a whole class of local
   attempts is ontologically doomed and pruned. The two honest open routes:
   (a) derive c_0 from the original COUPLED VPI packet's global participation
@@ -138,7 +138,7 @@ object's open core:
 2. **The projector/parametrix tower** `RecordMenuDetectorAngleGap → ExactProjectorDyadicParametrix → RetainedRecordEdgeC11MetricTowerOrExit` — shell-frame `u`-as-operator drift (violates P1, P5). Demote; the open core is native-edge ownership + storage, not a pseudodifferential kernel-exclusion.
 3. **The entire W-II CKN route** (`A(r)=r^{-1}∬|∇u|^2` shells, `D_j <= C_pc E_j`, `|u|^3` excess-decay) and its verdict "the Millennium core / equivalent-strength" — `u` sliced into dyadic shells; energy-only budget discards the one-field participation tower (violates P1, P2). This is my own earlier drift; the `ontological-frame-audit` note is authoritative over it. Prune the verdict.
 4. **The Germano/Katz-Pavlovic/Constantin-Fefferman/ESS-Carleman sidecar** (`mpp-consolidated-conditional-proof-spine...`) — standard-literature imports, self-demoted; "exactly two burdens" flattens the real producer. Quarantine.
-5. **Pointwise `P_+ dt` / child-positive clipping as primitive** — violates no-clipping (P4). The record supplies the sign; rewrite as net-sign selection off the pre-announced menu (2026-07-02 restart).
+5. **Pointwise `P_+ dt` / child-positive positive-part extraction as primitive** — violates pre-readout selection discipline (P4). The record supplies the sign; rewrite as net-sign selection off the pre-announced menu (2026-07-02 restart).
 6. **Naked pressure-Hodge detector faithfulness** (`Pi_PH(mu)=0 => A(mu)=0`) — proven false by the transverse trace-free `Z=diag(0,1,-1)` (violates P4, P5). Keep only as the counterboundary that motivates routing, and read pressure as participation, not as an outside kernel.
 7. **Complete-frame six probe directions as physical pressure traces** — adds non-native test info (violates P1). Keep only the material-service orientation role.
 8. **TFE self-financing loop** `FE => finite excess => critical-source => FE` — reserve pays its own event (violates P3, P4). Bookkeeping, not proof; only `rho(K_P)<1` from original data or one independently-proved face is admissible.
@@ -159,11 +159,11 @@ The single discovery worth going back over everything for: **the reserve floor
 `S = sym B` and order-one strain-service action `S^2`, while carrying vanishing
 critical heat-mass `nu D = nu||Lambda^{3/2}u||^2` (a degree-one field has no fine
 scales). So there is an exact object with full strain action and zero viscous
-cost: no local jet, pointwise angle, clipping, or rigidity argument can ever
+cost: no local jet, pointwise angle, post-readout positive-part extraction, or rigidity argument can ever
 extract a below-1/2 margin from it.
 
 This explains the repo's stall pattern in one line: the recurring dead attempts
-(pointwise `P_+` clipping, naked detector-angle, local Schur coercivity, jet
+(pointwise `P_+` positive-part extraction, naked detector-angle, local Schur coercivity, jet
 rigidity) are not unlucky — they are **ontologically doomed**, because the margin
 they seek is provably absent locally. Pruning that whole class (items 4, 5, 8
 above and their kin) is not a loss; it is the simplification.
