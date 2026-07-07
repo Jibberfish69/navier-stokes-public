@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
 completion_truth: >-
   Finite linear-algebra normal form for the remaining admitted parent-face
   obstruction. The prior "zero-surplus unit cycle" language is correct only in
@@ -45,8 +46,12 @@ completion_truth: >-
   route it to bill, legal, stop, Pack, Part, or Field. This is the finite
   retained-chart carrier of the canonical radiodrome surplus-zero recurrence:
   radiodrome names the marginal defect coordinate, and the Perron class is the
-  ratio-one feedback normal form. This proof is finite algebra only. It does
-  not produce the Navier-Stokes exclusion and does not close c_0.
+  ratio-one feedback normal form. The retained-edge follow-up proves that once
+  the positive Perron edges are admitted as same-carrier three-measure packets,
+  four-body activity sees the circulation. The surviving producer is therefore
+  positive-channel three-measure admission before compactness, not branching
+  Perron cancellation. This proof is finite algebra only. It does not produce
+  that Navier-Stokes admission theorem and does not close c_0.
 ---
 
 # Record-feeding Perron circulation normal form
@@ -258,6 +263,10 @@ This is exactly the finite algebra behind
 resolved:
 
 ```math
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
++
+\texttt{RetainedPerronCirculationFourBodyActivityCoercivity.A}
+\Longrightarrow
 \texttt{RecordFeedingSurplusPerronClassExclusion.A}
 \Longrightarrow
 \texttt{HighFrequencyPressureStressSurplusCycleRigidity.A}
