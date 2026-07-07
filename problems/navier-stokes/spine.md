@@ -92,6 +92,7 @@ Clean labels:
 
 ## Current Exact Burdens
 
+- Current same-fluid consolidation map: [theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md) is the active cross-lane physical map. It is strict consolidation only: it hardens the reading that Gold, Silver, c0, radiodrome, B3, tower, and commutator surfaces all concern one same-fluid fixed-viscosity incompressible pressure-constrained history, and that proof force requires the same retained signed-record edge before selected positive-part readout or a typed Pack/Part/Field / certified material-time branch.
 - Gold physical story: the live object is one original smooth Navier-Stokes field and one signed critical-height record upcrossing. The installed identity is the record-net work law
   \[
   \int_a^b P(t)\,dt = H(b)-H(a)+\nu\int_a^bD(t)\,dt,
