@@ -1337,7 +1337,18 @@ has not disappeared into that collapse. Local parametrix, ellipticity, and
 frozen angles are support; the live chart row is same-edge chart-payer temporal
 admission plus higher-projector service or route-out before readout, and it
 rejoins selected-critical original-history payment only after same-edge custody
-is enforced.
+is enforced. That selected-critical phrase now has a checked time order:
+record-admitted active/full-exchange storage is downstream after root projection
+has admitted the edge, while the entrance theorem needs pre-readout
+original-history active/root payment. In the c_0/Perron coordinate this lowers
+to `FullTowerPositiveChannelThreeMeasureAdmission.A'; the retained Perron
+coercivity theorem then pays the channel by four-body activity once the channel
+is admitted. The unproved point is admission itself. The unsigned theta envelope
+is not enough because it has lost the signed current and negative partner, and
+pure local bounded \(X_{comm}\) storage is blocked by the affine-strain normal
+form. Thus the current physical bottom is the moving low-high
+pressure/strain driver / first-ratio no-free-upward-transfer bill, or an
+equivalent direct original-data subcritical active/root face.
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity
 and parent/full-exchange address lower semicontinuous through the limit.
