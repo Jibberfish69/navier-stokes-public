@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: constructive-target-not-proof
+status: constructive-target-narrowed; pointwise-no-aligned-embedding-version-refuted
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -23,9 +23,13 @@ completion_truth: >-
   in the strain frame then [S^2,Hess q]=0 and the response remains reversible.
   The proposed endpoint strictness is a forward-material-time causal-lag sign:
   the nonlocal participation frame pursues the local stretch frame with a
-  one-signed lag, so aligned anisotropy cannot persist on a lawful nonzero
-  service tower. This is a constructive target and a falsifiability test, not a
-  proof of c_0>0.
+  one-signed lag. The overbroad pointwise theorem "no lawful finite-energy
+  nonzero-service embedding can keep Hess q aligned in the strain frame" is
+  false by symmetric finite-energy affine-core examples. The surviving target is
+  narrower: no positive critical-record, surplus-zero, marginal participation
+  tower may keep aligned anisotropy after symmetry/gauge/pass branches are
+  quotiented or routed out. This is a constructive target and a falsifiability
+  test, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
@@ -80,7 +84,7 @@ In the strain eigenframe, with \(S=\operatorname{diag}(\lambda_1,\lambda_2,\lamb
 ```
 
 So the null condition is exact diagonal alignment of \(\nabla^2q\) in the
-strain frame. The \(c_0\)-level target is:
+strain frame. The tempting pointwise target would be:
 
 ```math
 \text{No lawful forward-time finite-energy nonzero-service tower can keep }
@@ -89,19 +93,31 @@ strain frame. The \(c_0\)-level target is:
 \tag{CLS.5}
 ```
 
-More sharply, the target is a signed minimax:
+This is too broad. A finite-energy compactly supported divergence-free field
+can equal the axisymmetric affine Vieillefosse core
+\(u=Ax\), \(A=\operatorname{diag}(a,a,-2a)\), near the origin and be corrected
+only in an outer collar. At the origin, symmetry forces
+\((\nabla^2q)_{13}=(\nabla^2q)_{23}=0\), while
+\(-\operatorname{tr}S^3=6a^3>0\). Thus nonzero local Vieillefosse service does
+not by itself force transverse pressure.
+
+The \(c_0\)-level target must be narrower. It is a signed minimax only after
+symmetry, gauge, exact-pass, and finite-collar-payment branches have been
+removed:
 
 ```math
-\inf_{\mathcal E}
+\inf_{\mathcal E_{\rm marg}}
 \mathfrak s_{\rm mat}
 \bigl([S^2,\nabla^2q]\bigr)
 >0,
 \tag{CLS.6}
 ```
 
-where \(\mathcal E\) ranges over lawful same-field nonzero-service embeddings,
-and \(\mathfrak s_{\rm mat}\) is the oriented transverse component read using
-the material-time rotation of the strain frame.
+where \(\mathcal E_{\rm marg}\) ranges over lawful same-field positive-record
+marginal participation towers with surplus-zero same-packet bills, after
+aligned symmetric pass branches and paid finite collars have been routed out.
+\(\mathfrak s_{\rm mat}\) is the oriented transverse component read using the
+material-time rotation of the strain frame.
 
 ## 3. Where the sign is supposed to come from
 
@@ -128,8 +144,9 @@ non-covariant sign input: the causal-lag commutator sign in this note.
 
 ## 5. Falsifiability
 
-The target fails if there exists a lawful finite-energy self-similar or
-log-self-similar embedding with positive Vieillefosse service such that
+The narrow target fails if there exists a lawful finite-energy self-similar or
+log-self-similar positive-record marginal tower, after the pass/paid branches
+above are removed, such that
 \(\nabla^2q\) remains diagonal in the strain frame through the participation
 tower. Such an embedding would keep
 
@@ -138,8 +155,8 @@ tower. Such an embedding would keep
 \tag{CLS.7}
 ```
 
-while carrying service, and the commutator-sign route would not produce
-\(c_0>0\).
+while carrying retained critical-record service with surplus-zero bills, and the
+commutator-sign route would not produce \(c_0>0\).
 
 The target crosses only if the opposite is proved uniformly: every lawful
 embedding with positive service develops a fixed-orientation transverse
@@ -149,7 +166,8 @@ the same participation bill used in the \(c_0\) quotient.
 ## 6. Current status
 
 This is not a completed smoothness proof. It is the corrected endpoint theorem:
-prove the aligned anisotropy manifold is a forward-time repeller for the
-same-field pressure participation dynamics. The proof must be pointwise
+prove the aligned anisotropy manifold is a forward-time repeller only for the
+retained marginal positive-record participation tower, not for every symmetric
+finite-energy nonzero-service local embedding. The proof must be pointwise
 geometric in the frame first, then converted to the participation bill; turning
 it immediately into a scalar \(L^2\) norm reopens the critical log endpoint.
