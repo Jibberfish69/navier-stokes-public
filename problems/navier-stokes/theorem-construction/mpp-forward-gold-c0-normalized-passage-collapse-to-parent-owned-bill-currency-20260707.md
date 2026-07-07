@@ -291,7 +291,7 @@ So the lower split is non-aliased:
 \text{exact-projector chart:} & \text{same-edge chart-payer admission plus higher service/exit},\\[1mm]
 \text{selected-critical payment:} & \text{pre-readout moving-driver/three-measure original-history source}.
 \end{array}
-\tag{NPB.12a}
+\tag{NPB.12e}
 \]
 
 ## 6. Result
