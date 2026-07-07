@@ -44,6 +44,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -86,9 +87,15 @@ completion_truth: >-
   a nonzero time atom and contradicts zero surplus. The compact coercivity
   extraction follow-up proves that if the compact admitted theta class and
   qualitative zero-loss rigidity are installed, the strict \(c_0\) modulus
-  follows automatically by minimization. Current sources do not prove that
-  Navier-Stokes admission input or zero-loss rigidity. No FullTower retention,
-  material-time Liouville theorem, c_0, or MPP closure is claimed.
+  follows automatically by minimization. The zero-loss case-elimination
+  follow-up narrows the qualitative rigidity row: detector-visible, persistent
+  localized affine, and temporal-thin positive service are excluded after
+  admission, so the remaining retained in-class branch is high-frequency
+  nonlinear pressure-stress transfer, lowered to
+  SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A.
+  Current sources do not prove the Navier-Stokes admission input or that final
+  high-frequency branch. No FullTower retention, material-time Liouville
+  theorem, c_0, or MPP closure is claimed.
 ---
 
 # Theta-clock bridge between retention and route-b Liouville
@@ -287,6 +294,13 @@ once those missing producer rows and qualitative zero-loss rigidity are
 available, the positive \(c_0\) modulus is the attained minimum of the
 same-packet surplus payer on the compact normalized class. No separate
 closed-form spectral constant has to be guessed.
+
+The zero-loss case-elimination reduction then narrows what qualitative
+zero-loss rigidity still has to prove: after theta-payer admission, the
+detector-visible, persistent localized affine, and temporal-thin branches are
+already incompatible with zero surplus. The remaining profile is the
+high-frequency pressure-stress transfer branch, which source checking lowers to
+the selected-generator / positive-critical-transfer storage wall.
 
 ## 6. Consequence
 
