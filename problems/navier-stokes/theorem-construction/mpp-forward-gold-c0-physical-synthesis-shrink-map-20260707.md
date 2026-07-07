@@ -45,11 +45,16 @@ target_object:
   - StoppedFreeMaterialGraphDriverCarleson.A
   - StrictHighRatioGoodLambdaHalfBarrierBreak.A
   - GlobalSamePacketFullWeightBeatingTail.A
+  - OriginalHistoryTransitionDerivativeCarleson.A
+  - ParentChildTransitionPaymentLaw.A
   - ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A
   - OriginalHistoryRecordResetRootPayment.A
   - RecordAdmittedActiveFullExchangeCoupledStorage.A
   - RepeatedCorePositiveVariationRootBound.A
   - ScaleInvariantSelectedCapacityNoEscape.A
+  - MaterialAdjointAccretiveTestingData.A
+  - PositiveCriticalTransferBound.A
+  - NativeBirthChargePacking.A
   - SameParentCriticalDepletionNoZeno.A
   - SameParentCriticalGoodLambdaTail.A
   - BeforeClippingActiveDensityComparison.A
@@ -86,8 +91,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-payment-predictable-weight-causality-collapse-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-repeated-core-record-return-balance-law-sharpener-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-shrinking-core-critical-reset-carleson-sharpener-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-root-generator-storage-accretive-testing-equivalence-20260627.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
@@ -111,6 +122,8 @@ supersedes_as_live_frontier:
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
   - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
+  - original-history transition derivative as an independent bottom rather than a projection of the parent root generator/full-exchange ledger
+  - stopped accretive testing, native-birth packing, positive critical transfer, or dyadic no-free-upcascade as sibling producers unless they build the same record-admitted full-exchange/original-ledger coercivity before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
