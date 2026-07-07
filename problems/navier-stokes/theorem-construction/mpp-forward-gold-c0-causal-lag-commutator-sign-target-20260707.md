@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: section-8-magnitude-attack-refuted; signed-retained-angular-rigidity-target; zero-cone-transport-reduction
+route: forward-gold / c_0 / commutator-sign / transverse pressure-Hodge coercivity
+status: causal-lag-demoted-to-diagnostic; terminal-transverse-hodge-coercivity-open
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -20,8 +20,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-rsf4-angle-pincer-coherence-backscatter-dichotomy-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707.md
 completion_truth: >-
-  This note records the corrected crossing target. Isotropy of Hess q belongs
+  This note records the corrected crossing target and the later physical
+  demotion of causal lag. The commutator is the signed brake once a transverse
+  pressure Hessian is present; the remaining terminal theorem is the
+  same-fluid transverse Hodge coercivity that prevents a lawful incompressible
+  critical-record atom from keeping the pressure Hessian aligned in the strain
+  frame. Isotropy of Hess q belongs
   to the infinite spatially uniform affine jet, where the pressure source is
   constant. The real free manifold for a finite-energy participation tower is
   aligned pressure anisotropy: Hess q may be anisotropic, but if it is diagonal
@@ -113,6 +119,12 @@ completion_truth: >-
   the zero \(l=2\) control. Thus the stretched-vortex branch needs a same-fluid
   anisotropic core-annulus quadrupole law for the retained velocity profile, not
   just the core/annulus sign pattern.
+  The current terminal theorem is
+  NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A /
+  UniformTransverseHodgeCoercivityInRecordCurrency.A: after pass,
+  collar/exit, and parent-owned affine endpoint-kernel classes are removed,
+  \(\Pi_\perp^S\nabla^2(-\Delta)^{-1}(\partial_i u_j\partial_j u_i)\)
+  must control the retained record amplitude in the same payment currency.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -2109,3 +2121,53 @@ What remains outside this compact packet is not an angular calculus problem. It
 is the parent-owned positive-record bill-currency theorem that admits
 \(\mathsf P_{\rm mix}^{\rm var}\) before readout, plus detector/channel custody
 on the same retained edge.
+
+## 27. Terminal correction: transverse Hodge coercivity, not causal lag
+
+The compact angular packet above remains useful, but it is not the terminal
+\(c_0\) theorem. It proves how a selected angular defect would be paid once the
+transverse channel is present. The remaining physical question is prior to that:
+can a lawful incompressible critical-record atom keep the pressure Hessian
+aligned in the moving strain frame?
+
+The dangerous condition is
+
+```math
+H_\perp^S
+=
+\Pi_\perp^S\nabla^2(-\Delta)^{-1}
+\left(\partial_i u_j\partial_j u_i\right)
+=0.
+\tag{CLS.133}
+```
+
+This says the same-field pressure Hessian co-diagonalizes with \(S\). It does
+not say the rung is affine. A finite-energy retained packet may have an
+anisotropic diagonal pressure Hessian, and that is exactly the aligned atom that
+has to be excluded.
+
+The sharpened theorem is therefore
+
+```math
+\texttt{NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A}.
+\tag{CLS.134}
+```
+
+Equivalently, after pass, collar/exit, and parent-owned affine endpoint-kernel
+classes are removed, prove the lower bound
+
+```math
+\left\|
+\Pi_\perp^S\nabla^2(-\Delta)^{-1}
+\left(\partial_i u_j\partial_j u_i\right)
+\right\|_{\mathsf B_{\rm ret}}
+\ge
+c_*
+\mathsf R_{\rm rec}.
+\tag{CLS.135}
+```
+
+The norm and the record amplitude in (CLS.135) must be measured in the same
+participation/payment currency used by the \(c_0\) backend. With that currency
+compatibility, the commutator sign balance consumes the transverse response and
+gives \(c_0>0\). Without it, this note is a sharp reduction only.
