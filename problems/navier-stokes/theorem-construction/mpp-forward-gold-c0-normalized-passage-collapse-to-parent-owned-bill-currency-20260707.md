@@ -26,6 +26,10 @@ target_objects:
   - FullTowerPositiveChannelThreeMeasureAdmission.A
   - SignedSmoothSamePacketCommutatorCoercivity.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
+  - MovingLowHighPressureStrainPumpFiniteWork.A
+  - StoppedFreeMaterialGraphDriverCarleson.A
+  - StrictHighRatioGoodLambdaHalfBarrierBreak.A
+  - GlobalSamePacketFullWeightBeatingTail.A
   - ParentActiveCapacityThreeToothSource.A
   - WLF.60
   - StoppedAffineTransitionLiftedMartingaleDifference.A
@@ -50,6 +54,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-pressop-collar-graph-split-free-driver-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-first-ratio-tail-surviving-global-storage-frontier-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -84,9 +93,14 @@ completion_truth: >-
   FullTowerPositiveChannelThreeMeasureAdmission.A, which must be proved from
   the pre-envelope signed same-packet commutator or an equivalent direct
   original-data subcritical face. The unsigned theta envelope and pure local
-  bounded X_comm storage are checked no-gos. The surviving physical source wall
-  is the moving low-high pressure/strain driver / first-ratio no-free-upward
-  transfer bill before positive readout. In WLF/ODP coordinates, same-parent
+  bounded X_comm storage are checked no-gos. The graph split pays the
+  pressure/operator-collar normal defect; the surviving physical source wall is
+  the tangent moving low-high pressure/strain driver, equivalently the
+  first-ratio no-free-upward-transfer bill before positive readout. Current
+  sources identify finite pump work with continuation-strength material-clock
+  control: installed energy/viscosity support gives only the zeroth ratio
+  moment, while c_0 needs the first-ratio moment or a strict good-lambda break
+  below the half-barrier. In WLF/ODP coordinates, same-parent
   origin, no-recount, raw Bessel novelty, and local first-admission atoms are
   support only; they do not imply the weighted linear pulse measure. The unpaid
   coordinate is the persistent affine quotient on the order-locked full-packet
@@ -413,7 +427,10 @@ pays them. Thus the current same-fluid producer below the matrix wrapper is
 or one independent original-data face strong enough to make the matrix
 subcritical. The theta envelope and pure local \(X_{comm}\) shortcut are
 checked no-go routes, so the active pre-envelope source is the signed
-same-packet commutator / moving low-high pressure-strain driver line.
+same-packet commutator / moving low-high pressure-strain driver line, whose
+nonproxy tail readout is the first-ratio moment
+\(\sum_\ell2^\ell\nu_\ell<\infty\) or the strict recurrence
+\(N_{L+1}\le\theta N_L+B_L\) with \(\theta<1/2\).
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
@@ -450,8 +467,8 @@ the parent-owned positive-record bill currency from the original
 pressure-viscosity-incompressibility history of the same packet, through the
 same-edge custody tuple and its detector-silent / exact-projector /
 selected-critical payment rows. At the current bottom this means proving
-pre-readout three-measure admission for the moving low-high same-packet driver,
-proving the WLF/ODP parent-weighted pulse measure through the predictable
-lifted affine-transition split, proving a direct original-data subcritical
-active/root face, or routing failure to a typed legal/stop/Pack/Part/Field exit
-before readout.
+pre-readout three-measure admission for the moving low-high same-packet driver
+by paying its first-ratio/weight-beating tail, proving the WLF/ODP
+parent-weighted pulse measure through the predictable lifted affine-transition
+split, proving a direct original-data subcritical active/root face, or routing
+failure to a typed legal/stop/Pack/Part/Field exit before readout.
