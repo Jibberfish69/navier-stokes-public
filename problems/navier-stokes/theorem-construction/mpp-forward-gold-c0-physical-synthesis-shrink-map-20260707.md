@@ -28,6 +28,7 @@ target_object:
   - FreshOverrunSameCarrierTailUI.A
   - FullSelectedPacketParentAnnouncedDerivativeRepresentation.A
   - TerminalAdjointRellichCriticalAntiAtom.A
+  - SelectedRellichSelectorForceLowerBound.A
   - RootFixedTerminalUniformL1FullPacketServiceStorage.A
   - ParentActiveTowerTailAndAffineQuotientDepletion.A
   - ParentActiveCapacityThreeToothSource.A
@@ -120,6 +121,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
@@ -261,7 +263,11 @@ completion_truth: >-
   route-b or CM consumers; the unadmitted forward survivor is terminal visible
   readout, further reduced to TerminalFullPacketNoResiduePayment.A or the
   terminal same-carrier critical anti-atom for the full selected packet
-  D_Q=(S, Pi_Q grad^2 p), and then lowered to
+  D_Q=(S, Pi_Q grad^2 p). The Rellich side of that anti-atom has been lowered
+  from broad selected Rellich positivity to the selector-force / non-affine
+  pressure-viscous commutator lower bound
+  SelectedRellichSelectorForceLowerBound.A, and the terminal storage side is
+  lowered to
   RootFixedTerminalUniformL1FullPacketServiceStorage.A, then by the TFE source
   audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
   ParentActiveCapacityThreeToothSource.A, and then by TFE1542-TFE2181 to two
@@ -603,7 +609,20 @@ There are only two currently lawful proof routes:
 The high-weight tube theorem proves `(R1)' only for strict reset quotients that
 already have a first-exit derivative representation. It does not prove `(R1)'
 for the whole selected packet \(D_Q\). The Rellich route proposes `(R2)' but
-still needs selected Rellich positivity or an adjoint-polarization fallback.
+the checked Rellich selector-force pass lowers broad selected Rellich positivity
+to the quantitative selector-force / non-affine pressure-viscous commutator
+theorem:
+
+\[
+\texttt{SelectedRellichSelectorForceLowerBound.A}.
+\tag{CPS.6a}
+\]
+
+That theorem must quantify the exact force
+\(\mathbb P(S\nabla\chi)\) created when a positive selected patch is cut out of
+a pressure-law null packet, or route the unadmitted force out before readout.
+Without that lower bound, the remaining fallback is adjoint-polarization or
+microlocal no-invisible-carrier work on the polar-null packet.
 
 The checked terminal descent lowers `(CPS.6)' to one storage producer. First
 exit pays moving/reset pieces only; compactness, Rellich, no-residue, no-jump,
