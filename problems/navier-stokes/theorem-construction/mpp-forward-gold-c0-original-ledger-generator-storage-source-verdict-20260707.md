@@ -39,6 +39,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
 completion_truth: >-
   Source-strict proof attempt for the active c_0 goal. The allowed sources do
   not install StrictOriginalLedgerGeneratorStorage.A or
@@ -59,10 +60,11 @@ completion_truth: >-
   bill-coercive subcritical matrix to ParentOwnedPositiveRecordBillCurrency.A is
   now proved as a conditional criterion; the unproved part is producing the
   matrix from the Navier-Stokes parent packet. The compact pressure test retypes
-  that producer as a qualitative zero-surplus unit-cycle rigidity theorem on the
-  record-admitted finite parent-face bundle. The zero-bill relay-record kernel
-  excludes only the absolute-zero realization of that cycle, so the current
-  obstruction is the surplus-zero-to-absolute-zero upgrade/route-out.
+  that producer as a qualitative zero-surplus record-feeding Perron-class
+  rigidity theorem on the record-admitted finite parent-face bundle. The
+  zero-bill relay-record kernel excludes only the absolute-zero realization of
+  that Perron class, so the current obstruction is the
+  surplus-zero-to-absolute-zero upgrade/route-out.
 ---
 
 # Original-ledger generator storage: source verdict for the c0 extraction
@@ -277,6 +279,6 @@ smallest nonduplicate producer now visible inside that gate is the
 bill-coercive record-admitted active-critical/full-exchange storage matrix
 `(OLS.12)', with the exact-projector chart row as the legal-reading companion.
 Equivalently, after finite retained charting, it is the qualitative exclusion of
-a normalized record-admitted zero-surplus unit cycle in the same parent-face
-bundle. The high-frequency transfer equivalence identifies this same cycle as
-the remaining retained zero-loss theta branch.
+a normalized record-admitted zero-surplus record-feeding Perron class in the
+same parent-face bundle. The high-frequency transfer equivalence identifies
+this same Perron class as the remaining retained zero-loss theta branch.
