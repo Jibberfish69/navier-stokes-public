@@ -37,6 +37,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -76,7 +77,10 @@ completion_truth: >-
   no-go then shows that this admission cannot be obtained by treating the
   unsigned BKM/Moser clock Theta_N as a three-measure packet. The remaining
   object is the raw signed commutator coercivity identity before absolute-value
-  estimation. So this pass
+  estimation. The pure-local X_comm no-go further proves that the raw identity
+  cannot be supplied by a bounded local line-stretch primitive; after
+  affine/collar payment and route-outs, the sign must come from the non-affine
+  pressure-viscous same-packet coupling. So this pass
   does not close c_0 or the repo; it reduces closure to one exact
   compactness-and-record theorem and names the current escape routes for a
   vanishing-bill sequence. The first failed gate is now Gate 2.
@@ -290,6 +294,13 @@ The theta-envelope no-go sharpens that admission line. The positive clock
 not a same-carrier positive/negative/current packet. Gate 2 therefore requires
 the raw signed commutator coercivity identity before absolute values are taken,
 not merely admission of the \(\Theta_N\) clock.
+
+The pure-local \(X_{comm}\) no-go removes another shortcut. A bounded local
+primitive cannot pay the material line-growth clock: the affine normal form
+would force \(X_{comm}\) to decrease without lower bound. Therefore the
+remaining signed commutator theorem has to use the non-affine
+pressure-viscous/incompressible same-packet coupling, with affine-looking
+service already paid by collar/parent-tower bill or routed out.
 
 The retained-window hypothesis does not remove this gap. Terminal `Part` means
 that the pressure-viscosity carrier law is retained with the terminal
