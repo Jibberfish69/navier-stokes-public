@@ -19,6 +19,8 @@ target_object:
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
   - epsilon_star_positive
+  - MovingDriverFixedChartJordanOrientationAllocation.A
+  - MovingDriverPreEnvelopeSignedCurrentRetention.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-what-any-proof-must-supply-target-spec-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-null-lagrangian-projection-demotion-20260706.md
@@ -31,6 +33,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
 completion_truth: >-
   This note resolves the proposed route at the current source state, and the
   resolution is a strict separation. Uniform cascade-termination depth in the
@@ -53,11 +57,16 @@ completion_truth: >-
   uniform integrability. The later selector-force balance audit shows the same
   obstruction through the acceleration endpoint leg: endpoint impulse can carry
   the terminal pulse without square-force billing unless endpoint/frame
-  variation is charged or routed out. Therefore the requested short proof does
-  not close c_0 unless the uniform-depth theorem is upgraded to the same WLF/ODP
-  same-carrier payment / FullTowerPositiveChannelThreeMeasureAdmission /
-  same-edge custody theorem already isolated in the shrink map. No c_0 or MPP
-  closure is claimed.
+  variation is charged or routed out. The moving-driver Jordan sublemma removes
+  a different false obstruction: once a raw moving-driver event is parent-owned
+  on a fixed material chart, positive leg / negative partner / signed current
+  orientation is supplied by ordinary Hahn-Jordan splitting. It does not close
+  c_0, because the pre-readout ownership, stopped-line, no-recount, and
+  first-ratio/tower-tail bill passage remain unproved. Therefore the requested
+  short proof does not close c_0 unless the uniform-depth theorem is upgraded
+  to the same WLF/ODP same-carrier payment /
+  FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem
+  already isolated in the shrink map. No c_0 or MPP closure is claimed.
 ---
 
 # Uniform cascade depth, L2-to-L3 uniformity, and the epsilon extraction
@@ -378,6 +387,45 @@ wall:
 \end{gathered}
 \tag{UCD.16}
 \]
+
+The moving-driver Jordan pass removes only the orientation part of this wall.
+On a fixed parent-known material event space,
+
+\[
+\texttt{PrimitiveSignedChannelDirectMaterialRepresentation.A}
++\texttt{fixed-chart finite raw throughput}
+\Longrightarrow
+\texttt{MovingDriverFixedChartJordanOrientationAllocation.A}.
+\tag{UCD.16a}
+\]
+
+The remaining moving-driver theorem is:
+
+\[
+\begin{gathered}
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}\\
++\texttt{RetainedRecordEdgePreReadoutCustodyTuple.A}\\
++\texttt{same-event no-recount / no-delamination / first-ratio bill currency}
+\end{gathered}
+\Longrightarrow
+\texttt{MovingDriverPreEnvelopeSignedCurrentRetention.A}.
+\tag{UCD.16b}
+\]
+
+Then
+
+\[
+\texttt{MovingDriverPreEnvelopeSignedCurrentRetention.A}
+\Longrightarrow
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
+\Longrightarrow
+\texttt{ParentOwnedPositiveRecordBillCurrency.A}.
+\tag{UCD.16c}
+\]
+
+Thus the fixed-chart sign split is no longer the blocker. The blocker is the
+same-edge admission of the raw event before positive readout and its passage
+through the normalized bill-record limit.
 
 In the finite matrix coordinate, the same statement is:
 \[
