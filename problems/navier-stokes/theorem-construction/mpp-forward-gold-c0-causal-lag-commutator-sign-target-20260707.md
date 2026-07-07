@@ -216,9 +216,13 @@ the nonlocal pressure field must be re-aimed by the same amount.
 There are then only three branches.
 
 **Pass / nonparticipation.** If \(B_{ij}=0\) on the active channels, the strain
-frame is not being handed through the tower. A local affine core can have
-positive instantaneous Vieillefosse service, but it is not carrying retained
-critical-record participation. It is a stopped/pass reading.
+frame is not being handed through orientation. A local affine core can have
+positive instantaneous Vieillefosse service, but that does not yet make it a
+retained participant. If it is merely sitting there, it is a stopped/pass
+reading. If it carries record by amplitude/scale instead, then the work has
+moved into the stationary aligned scalar branch, and finite energy forces a
+turn-off/collar. That branch is handled by the no-free-collar theorem, not by
+the moving-frame commutator sign.
 
 **Paid pressure re-aiming.** If \(B_{ij}\ne0\) and \(h_i\ne h_j\), then
 \(\widehat{D_tH}_{ij}\) must be nonzero with the opposite orientation. But
@@ -239,7 +243,9 @@ oriented retained record through that channel. The packet is again pass/gauge
 unless another channel carries the handoff; if another channel carries it, that
 channel is governed by the previous two branches.
 
-Thus an aligned retained tower has no free moving branch. In compact form, the
+Thus an aligned retained tower has no free branch: moving-frame participation
+requires pressure re-aiming, while stationary aligned participation requires a
+collar/turn-off payment. In compact form, the
 attack is:
 
 ```math
@@ -247,6 +253,8 @@ attack is:
 +\text{retained positive-record participation}
 \Longrightarrow
 \text{pressure re-aiming bill}
+\quad\text{or}\quad
+\text{collar bill}
 \quad\text{or}\quad
 \text{pass/nonparticipation}.
 \tag{CLS.12}
@@ -263,6 +271,7 @@ C\,\mathsf P_{\rm reaim}
 ```
 
 with \(\mathsf P_{\rm reaim}\) a legitimate same-field participation bill
-already counted in the \(c_0\) quotient, and with equality-zero forcing
-pass/nonparticipation rather than retained record. Proving (CLS.13) uniformly
-over the strict participation atom class is the corrected bridge.
+already counted in the \(c_0\) quotient, and with equality-zero routing to the
+stationary collar theorem or to pass/nonparticipation rather than retained
+record. Proving (CLS.13) together with the stationary no-free-collar branch
+uniformly over the strict participation atom class is the corrected bridge.
