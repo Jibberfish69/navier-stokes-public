@@ -24,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-pump-finite-work-circularity-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
@@ -41,13 +42,16 @@ completion_truth: >-
   zero-bill positive-record limit. The local quantity
   alpha=xi.S xi and the local spin |omega| are instantaneous scale-covariant
   readings of the same grad u; they locate the marginal tie but do not by
-  themselves produce that compactness or a finite same-history bill. To close
-  c_0, the lag must supply the epsilon extraction theorem directly, or a uniform
+  themselves produce that compactness or a finite same-history bill. The direct
+  pursuit-lag derivation breaks because S is an order-zero singular integral of
+  omega, not a smoothing of omega at the strain level, so nonlocality alone does
+  not yield a uniform deficit alpha <= (1-epsilon)|omega|. To close c_0, the lag
+  must supply the epsilon extraction theorem directly, or a uniform
   retained-packet inequality that pays its selected first-ratio bill currency:
-  finite work of the moving low-high pressure/strain pump, a bounded-below
-  same-material no-free-upward-transfer storage, a strict good-lambda
-  half-barrier break, a direct original-data subcritical matrix face, or a typed
-  route-out. The installed half-tail model still satisfies raw energy,
+  pre-readout signed admission of the moving low-high pressure/strain pump, a
+  bounded-below same-material no-free-upward-transfer storage, a strict
+  good-lambda half-barrier break, a direct original-data subcritical matrix face,
+  or a typed route-out. The installed half-tail model still satisfies raw energy,
   laminarity, complete-frame support, and conditional line payment while making
   the first-ratio sum diverge. Therefore "strict alignment deficit" cannot be
   used as a standalone closer; it must be proved as bill-record compactness /
@@ -161,6 +165,59 @@ H_{j,N},
 
 Thus the strict alignment deficit is not a new lower object. It is a proposed
 physical sign for `(ALF.1b)' through `(ALF.2)'--`(ALF.5)'.
+
+## 2b. Direct pursuit-lag lower-bound test
+
+The tempting direct estimate would turn non-locality into a uniform retained
+deficit:
+
+\[
+\xi\cdot S\xi
+\le
+(1-\varepsilon)|\omega|
+\quad\hbox{on retained positive record visits,}
+\tag{ALF.5a}
+\]
+
+with \(\varepsilon>0\) carried by the same original-history bill. That would
+give the needed strictness immediately.
+
+The estimate does not follow from Biot-Savart smoothing. Velocity is one
+derivative smoother than vorticity, but the strain is
+
+\[
+S
+=
+\operatorname{sym}\nabla(-\Delta)^{-1}\nabla\times\omega
+=
+T\omega,
+\tag{ALF.5b}
+\]
+
+where \(T\) is an order-zero singular integral. Under the Navier-Stokes scaling,
+both \(S\) and \(\omega\) scale with the same power. Thus the non-local strain
+read has no small scale factor relative to local spin at the critical exponent.
+
+This is the physical location of the break. A straight isolated tube may fail
+to stretch itself by symmetry, but the retained packet is not only that local
+tube. Same-scale surrounding vorticity, low-high pressure/strain service, and
+the transported graph driver can present a positive strain direction at the
+active high packet. The installed stopped-driver tests already show that
+pointwise contraction, complete-frame payment, laminar ancestry, and Volterra
+payback do not insert the missing first-ratio weight.
+
+So the best direct pursuit-lag theorem one can honestly ask for is not
+`(ALF.5a)' from smoothing. It is the same global statement as before: the
+deficit coefficients on the retained visits cannot decay like the half-tail
+
+\[
+\varepsilon_\ell\sim {1\over \ell+1}.
+\tag{ALF.5c}
+\]
+
+Proving a uniform lower density for that deficit is exactly the
+same-edge first-ratio / moving-driver / no-free-upward-transfer theorem, not a
+new local Biot-Savart estimate.
 
 ## 3. Half-tail countertest
 
