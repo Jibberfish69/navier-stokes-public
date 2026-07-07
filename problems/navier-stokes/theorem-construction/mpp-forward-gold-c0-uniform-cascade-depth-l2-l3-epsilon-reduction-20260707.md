@@ -44,6 +44,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-depth-to-moving-driver-custody-reduction-20260707.md
 completion_truth: >-
   This note resolves the proposed route at the current source state, and the
   resolution is a strict separation. Uniform cascade-termination depth in the
@@ -418,6 +419,37 @@ wall:
 \end{gathered}
 \tag{UCD.16}
 \]
+
+The moving-driver follow-up sharpens the non-spatial part of `(UCD.16)'.  Once
+the raw moving-driver event is parent-owned on a fixed chart, the sign
+orientation is paid by the Hahn-Jordan split; the open clause is the event's
+pre-readout custody and first-ratio bill currency:
+
+\[
+\begin{aligned}
+&\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}\\
+&+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}\\
+&+\texttt{SameEventNoRecountFirstRatioBillCurrency.A}.
+\end{aligned}
+\tag{UCD.17}
+\]
+
+Thus the currently sharpened conditional route is
+
+\[
+\texttt{L2L3\_sp}+(UCD.17)
+\Longrightarrow
+\texttt{UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A}
+\Longrightarrow
+\varepsilon_*>0.
+\tag{UCD.18}
+\]
+
+The new line `(UCD.17)' is still open.  It is smaller than generic orientation
+admission because the fixed-event orientation row is paid; it is not a proof of
+\(c_0>0\).
 
 The moving-driver Jordan pass removes only the orientation part of this wall.
 On a fixed parent-known material event space,
