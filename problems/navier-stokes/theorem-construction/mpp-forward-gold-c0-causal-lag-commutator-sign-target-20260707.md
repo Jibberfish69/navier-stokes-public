@@ -108,9 +108,9 @@ completion_truth: >-
   strong enough to make \(\mathcal I_{\rm lin}>0\). Section 25 pressure-tests
   that scalar theorem at source level: anisotropic negative-core profiles with
   the same low-pressure-core sign can make the quadrupole positive or negative
-  depending on aspect ratio. The radial positive shell used in the first source
-  test is not a physically admitted stretched-vortex annulus; it is only the
-  zero \(l=2\) control. Thus the stretched-vortex branch needs a same-fluid
+  depending on aspect ratio. The scalar radial-shell check used in the first
+  source test is not a physically admitted stretched-vortex annulus; it is only
+  the zero \(l=2\) control. Thus the stretched-vortex branch needs a same-fluid
   anisotropic core-annulus quadrupole law for the retained velocity profile, not
   just the core/annulus sign pattern.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
