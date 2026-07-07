@@ -40,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-material-ancestry-transport-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-same-law-tower-defect-fork-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
 completion_truth: >-
   Strict reduction and failed direct construction only. The law, ancestry,
   cover, tower, and service certificate rows can carry their own defects as
@@ -53,10 +54,13 @@ completion_truth: >-
   Gate 2 admission package: StrictSamePacketCycleExchangeCoercivity.A /
   FullTowerPositiveChannelRootProjection.A, equivalently the parent-owned
   positive-record bill-currency clauses with original-history root payment and
-  retained exact-projector chart license. Thus the route-b payer-measure lift
-  does not bypass FullTower retention; it exposes the same pre-readout
-  ownership theorem in certificate language. No FullTower retention,
-  CertifiedSurplusZeroThetaProfileRigidity.A, c_0, or MPP closure is claimed.
+  retained exact-projector chart license. The detector-silent lower branch is
+  not independent: the detector-silent reserve is the first-ratio strict
+  half-barrier/root-payment wall restricted to invisible service coordinates.
+  Thus the route-b payer-measure lift does not bypass FullTower retention; it
+  exposes the same pre-readout ownership theorem in certificate language. No
+  FullTower retention, CertifiedSurplusZeroThetaProfileRigidity.A, c_0, or MPP
+  closure is claimed.
 ---
 
 # Theta payer-measure lift reduces to Gate 2 admission
@@ -220,6 +224,13 @@ The named lower clauses are:
 Current sources reduce these clauses to original-history selected generator /
 positive critical transfer producers. They do not prove them from arbitrary
 smooth data.
+
+The detector-silent part of `RecordMenuPressureActiveOrSilentService.A` is not
+a separate lower route. The detector-silent half-tail reduction identifies it
+with the first-ratio strict half-barrier/root-payment reserve on the invisible
+service coordinate. Local silent-source routing gives each silent visit a
+same-packet address; the missing theorem is the weighted record-unit reserve
+that beats \(\sigma_L=2^{-L}/(L+1)\).
 
 ## 6. Consequence for route-b
 
