@@ -363,6 +363,25 @@ aperture / common selector refinement; angle failure is not a new producer, but
 returns to paid rotation, detector-silent service, legal/stop material,
 parent-announced selector capture, and the same selected-critical scale-memory
 payment.
+The June 27 root-payment source notes lower `(NPB.12g2)' further: the
+potential-average, fixed stopped-score return/BV, and strict reset/overrun
+clauses are consumer projections of one parent-known selected
+potential/amplification record
+\[
+\texttt{OriginalHistorySelectedPotentialAmplificationBV.A},
+\tag{NPB.12g3}
+\]
+equivalently the original-history stopped testing/root-generator producer
+\[
+\texttt{MaterialAdjointAccretiveTestingData.A}
+/
+\texttt{StoppedAdjointTestingEnergyCarleson.A}
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}
+\Longrightarrow
+\texttt{StoppedPredictableRootGeometryCompensator.A}.
+\tag{NPB.12g4}
+\]
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.

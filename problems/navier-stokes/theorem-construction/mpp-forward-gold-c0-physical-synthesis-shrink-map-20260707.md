@@ -1414,12 +1414,40 @@ physical producer; angle failure is paid rotation, detector-silent service, lega
 or stop material, or it returns to parent-announced selector capture plus the
 same selected-critical scale-memory wall.
 
-or a derivative/turnstile/exchange/covector conversion before scalar positive
-readout, or a typed route-out. This is the same-fluid physical content of the
-affine quotient wall: a positive selected upcrossing can repeat only if the
-same transported pressure/strain graph keeps a parent-visible record, returns
-through paid irreversible motion, becomes an exact derivative/exchange current,
-or exits the admissible witness grammar.
+The June 27 source notes lower `(CPS.26n2)' one more layer. The potential
+average, fixed stopped-score return/BV, and strict reset/overrun Carleson are
+three projections of one parent-known selected potential/amplification record
+\[
+\mathfrak Z^S=(Z^S,\Psi^S,\Lambda^S).
+\tag{CPS.26n3}
+\]
+Thus the immediate producer is not the separate list of consumer clauses in
+`(CPS.26n2)', but
+\[
+\texttt{OriginalHistorySelectedPotentialAmplificationBV.A}.
+\tag{CPS.26n4}
+\]
+Equivalently, in stopped testing/root-generator language, the construction
+burden is
+\[
+\begin{gathered}
+\texttt{MaterialAdjointAccretiveTestingData.A}
+/
+\texttt{StoppedAdjointTestingEnergyCarleson.A}\\
+\Longrightarrow
+\texttt{SelectedGeneratorStorageCoercivity.A}
+\Longrightarrow
+\texttt{OriginalLedgerRootDefectTightness.A}
+\Longrightarrow
+\texttt{StoppedPredictableRootGeometryCompensator.A}.
+\end{gathered}
+\tag{CPS.26n5}
+\]
+This is the same-fluid physical content of the affine quotient wall: a positive
+selected upcrossing can repeat only if the same transported pressure/strain
+graph has a parent-known record/testing family built before descendant readout,
+becomes an exact derivative/turnstile/exchange/covector current, or exits the
+admissible witness grammar.
 
 This grades the five-thread physical synthesis. No self-tightening,
 bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
@@ -1511,7 +1539,9 @@ language is support unless it proves the same WLF/ODP parent-weighted
 same-carrier payment, proves an equivalent direct original-data subcritical
 active/root face, or routes the surviving high-Re branch out before selected
 readout.
-Likewise, martingale/Bessel or reset-derivative language is support unless it
-pays the non-derivative affine quotient `(CPS.26n1)' through the sharpened
-record/return package `(CPS.26n2)', derivative conversion before readout, or
-typed route-out.
+Likewise, martingale/Bessel, reset-derivative, potential-average, or
+record/return language is support unless it pays the non-derivative affine
+quotient `(CPS.26n1)' by constructing the original-history selected
+potential/amplification record `(CPS.26n4)' / stopped testing root-generator
+storage `(CPS.26n5)', by converting it before readout into
+derivative/turnstile/exchange/covector motion, or by typed route-out.
