@@ -760,6 +760,57 @@ pre-readout parent payment package. They do not count as sibling producers
 unless one of them constructs the missing same-parent state, currency, and
 record-storage from the original pressure-viscosity-incompressibility history.
 
+The transition-derivative audit lowers that package one more layer. The return
+and reset charges are both consumers of one original-history transition
+derivative:
+
+\[
+\texttt{OriginalHistoryTransitionDerivativeCarleson.A}
+\Longrightarrow
+\texttt{ParentChildTransitionPaymentLaw.A}.
+\tag{CPS.26d}
+\]
+
+That derivative is not a new bottom source. In the parent-known chart it is the
+transition-coordinate projection of the original root generator,
+
+\[
+\mathcal G_P^{tr}=\Pi_{tr}^P\mathcal G_P^{root},
+\qquad
+d\Lambda_P^{tr}\le C_N d\Lambda_P^{orig}.
+\tag{CPS.26e}
+\]
+
+So the branch package returns to the same original-ledger/full-exchange
+producer already named in `(CPS.14)'--`(CPS.16)':
+
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+/\texttt{FullExchangeCriticalDepletionStorage.A}
+\Longrightarrow
+\texttt{OriginalHistoryTransitionDerivativeCarleson.A}.
+\tag{CPS.26f}
+\]
+
+The stopped accretive-testing, positive-critical-transfer, native-birth, and
+dyadic no-free-upcascade dialects are lawful only as constructions of that same
+parent source. In physical terms, the same signed record work must enter a
+parent critical/full-exchange carrier before readout; first scale-native births
+of that record edge must lower into the carrier with selected-scale weight; and
+the carrier must deplete with strict no-self-feeding margin:
+
+\[
+\texttt{RecordAdmittedActiveFullExchangeCoupledStorage.A}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}.
+\tag{CPS.26g}
+\]
+
+This is still open. The natural scale-memory identity is signed and can cancel,
+the direct Leray critical estimate absorbs only small critical packets, and
+stopped testing is a readout unless it constructs the parent carrier and testing
+defect Carleson packing from original history before selected readout.
+
 The checked local-state no-go also fixes what kind of proof cannot work. Any
 finite-depth local material state primitive that drops by
 \(\int\lambda_+(t)\,dt\) along an affine incompressible material packet becomes
