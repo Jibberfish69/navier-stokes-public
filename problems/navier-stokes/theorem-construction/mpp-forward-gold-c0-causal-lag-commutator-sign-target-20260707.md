@@ -67,10 +67,14 @@ completion_truth: >-
   parent-owned positive-record / selected first-ratio bill-currency wall, not an
   angular operator theorem. The Claude bridge packet adds the T-parity placement:
   selected first-ratio bill currency is an admission/payment layer, not the
-  time-odd sign itself. The remaining sign work is therefore same-edge
-  pre-readout custody carrying the signed retained current, selected first-ratio
-  bill currency, detector/channel custody, and the retained \((S,\omega)\)
-  strict-attractor Liouville statement, or a typed route-out.
+  time-odd sign itself. Section 19 audits Claude's strict-repeller packet against
+  the physical ontology: BKM excludes a globally vorticity-free blow-up, but it
+  does not by itself put vorticity on the same retained edge; and
+  \(\omega\parallel e_1\) fixes the local arrow, not the nonlocal pressure
+  embedding. The remaining sign work is therefore same-edge pre-readout custody
+  carrying the signed retained current, selected first-ratio bill currency,
+  detector/channel custody, and uniform positivity of the retained linearized
+  pressure-response stability index, or a typed route-out.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1360,3 +1364,97 @@ lock is a strict repeller and intermediate-axis lock is a strict attractor for
 the selected transverse pressure torque. Section 17 supplies the admission and
 payment side of this statement; the open \(c_0\) content is the T-odd
 strict-attractor sign.
+
+## 19. Ontology audit of the strict-repeller packet
+
+Claude's strict-repeller packet is useful only after two physical-admissibility
+corrections.
+
+First, the BKM input is a global continuation fact:
+
+```math
+T<\infty\hbox{ blow-up}
+\Longrightarrow
+\int_0^T\|\omega(t)\|_{L^\infty}\,dt=\infty.
+\tag{CLS.86}
+```
+
+It rules out a globally vorticity-free retained blow-up. It does not, by itself,
+prove that the selected strain packet carrying the \(c_0\) record is the same
+edge carrying the BKM-active vorticity current. A physically real retained
+torque therefore needs same-edge vorticity-current custody before the
+\((S,\omega)\) alignment angle is a lawful order parameter. Otherwise the
+scenario is not "pure strain blows up"; it is "the chosen strain readout missed
+the vorticity-bearing edge," which must route to selector/channel/collar/exit or
+be recaptured by same-edge custody.
+
+Second, the single local configuration \(\omega\parallel e_1\) does not freeze
+the nonlocal pressure embedding. Write \(S e_i=\lambda_i e_i\) with
+\(\lambda_1>\lambda_2>\lambda_3\), \(d_j=\lambda_1-\lambda_j\), and
+n=\omega/|\omega|\). For \(j=2,3\), put \(a_j=n\cdot e_j\). At \(\nu=0\),
+linearizing near \(n=e_1\) gives
+
+```math
+\dot a_j
+=
+\left(-d_j+{|\omega|^2\over 4d_j}\right)a_j
+ + {(\nabla^2p)_{1j}\over d_j}
+ + O(|a|^2),
+\qquad j=2,3.
+\tag{CLS.87}
+```
+
+Here the pressure term enters through rotation of the strain eigenframe:
+
+```math
+e_1\cdot D_t e_j
+={ (D_tS)_{1j}\over \lambda_j-\lambda_1},
+\qquad
+(D_tS)_{1j}
+=-{1\over4}|\omega|^2 a_j-(\nabla^2p)_{1j}
+\quad(\nu=0).
+\tag{CLS.88}
+```
+
+Thus the strict-repeller test is not a local sign read at one point. If the
+transverse pressure term has a nonzero constant part at \(a=0\), the maximal-axis
+lock is immediately broken and the branch routes to the transverse torque. The
+adversarial marginal case is the one where this constant part is zero and
+
+```math
+(\nabla^2p)_{1j}
+=
+\sum_{k=2}^3 L^P_{jk} a_k
+ + o(|a|).
+\tag{CLS.89}
+```
+
+The actual linearized stability index is then
+
+```math
+\mathcal I_{\rm lin}(\eta)
+=
+\sum_{j=2}^3
+\left(-d_j+{|\omega|^2\over 4d_j}\right)\eta_j^2
++
+\sum_{j,k=2}^3 {\eta_j L^P_{jk}\eta_k\over d_j}.
+\tag{CLS.90}
+```
+
+The audited terminal lemma is the uniform positivity statement
+
+```math
+\inf_{\mathcal E_{\rm ret}}
+\inf_{|\eta|=1}
+\mathcal I_{\rm lin}^{\mathcal E}(\eta)
+>0,
+\tag{CLS.91}
+```
+
+where \(\mathcal E_{\rm ret}\) ranges only over physically admitted same-fluid
+retained marginal embeddings with same-edge vorticity-current custody,
+chart/selector custody, detector/channel custody, and selected first-ratio bill
+currency. This is the linearized strict-attractor version of \(c_0>0\). It is
+not proved by saying that the retained selection pins a single angular point:
+the retained selection pins the local vorticity direction, while \(L^P\) is still
+the nonlocal Calderon-Zygmund pressure response of the whole same field.

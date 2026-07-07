@@ -12,7 +12,9 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   retained-service admission (chart/selector custody, detector/channel custody,
   selected first-ratio bill currency) and the T-odd signed Liouville statement
   that the retained \((S,\omega)\) alignment is pushed off the maximal-stretch
-  axis toward the intermediate axis.
+  axis toward the intermediate axis. The Claude strict-repeller packet is audited
+  as a diagnostic only: BKM needs same-edge vorticity-current custody, and
+  \(\omega\parallel e_1\) does not determine the nonlocal pressure embedding.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -65,8 +67,9 @@ completion_truth: >-
   the \(c_0\) brake itself must be a signed, time-odd lower bound. The sourced
   retained angular Liouville rigidity remains open as same-edge pre-readout
   custody plus selected first-ratio bill currency and detector/channel custody
-  joined to the retained \((S,\omega)\) strict-attractor sign, or a typed
-  route-out.
+  joined to the retained linearized \((S,\omega)\) strict-attractor sign. That
+  sign is a uniform pressure-response stability-index statement over physically
+  admitted same-fluid embeddings, or a typed route-out.
 ---
 
 # Corrected transverse-coupling reduction
@@ -184,6 +187,14 @@ on the same retained edge before readout. The signed lemma is the retained
 marginal tower cannot keep maximal-axis alignment against the selected transverse
 pressure torque; the torque must push toward the intermediate axis uniformly, or
 the branch routes out.
+
+The ontology audit adds the missing qualifier. BKM gives a vorticity-active
+blow-up edge, but same-edge custody must identify that edge with the selected
+\(c_0\) strain record. Also, fixing \(\omega\parallel e_1\) does not fix the
+Calderon-Zygmund pressure response of the rest of the same field. The strict
+repeller test is therefore the positivity of the linearized pressure-response
+stability index over physically admitted retained embeddings, not a local
+single-point calculation.
 
 ## 6. Honest status
 
