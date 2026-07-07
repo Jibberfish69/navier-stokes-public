@@ -226,7 +226,15 @@ live_route_table:
     TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
     visible terminal high-factor/source-square/finite-rung/no-waste readout, or
     an installed legal/endpoint/profile/CM consumer.
-    This terminal-Zeno label is an endpoint reduction. TerminalFullPacketNoResiduePayment.A
+    This terminal-Zeno label is an endpoint reduction. The c0 physical synthesis
+    shrink map lowers it further to TerminalFullPacketNoResiduePayment.A or
+    TerminalSameCarrierCriticalAntiAtom.A for the full selected packet
+    D_Q=(S,Pi_Q grad^2 p), with same-carrier overrun tail UI still needed on
+    the identity branch before terminalization. Broad mismatch, raw freshness,
+    profile Liouville, affine martingale/storage labels, and radiodrome are
+    coordinates or tests unless they prove that terminal wall, theta-payer/pre-readout
+    admission, same-carrier overrun tail UI, or a typed CM route-out.
+    TerminalFullPacketNoResiduePayment.A
     is the terminal/no-residue face of the same continuous parent active-measure
     ledger. After the signed-height restart, ParentActivePotentialCapacityDomination.A
     is not the primitive Gold bottom; it is the terminal/off-face coordinate of
