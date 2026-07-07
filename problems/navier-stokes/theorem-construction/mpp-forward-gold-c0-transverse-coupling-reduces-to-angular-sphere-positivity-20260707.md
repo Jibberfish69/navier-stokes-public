@@ -96,7 +96,12 @@ completion_truth: >-
   sign has now been scalarized: the tilted \(e_1\leftrightarrow e_2\) pressure
   response is the pressure quadrupole \(\mu_{\rm sv}\) of
   \(f=|S|^2-\frac12|\omega|^2\), and the profile sign is a strict lower bound
-  for that quadrupole strong enough to make \(\mathcal I_{\rm lin}>0\).
+  for that quadrupole strong enough to make \(\mathcal I_{\rm lin}>0\). A
+  source-level anisotropic-core test shows this sign is controlled by aspect
+  ratio, not by the mere low-pressure-core/positive-annulus pattern: flattened
+  negative cores give the helpful sign, while prolate tube-like cores give the
+  opposite sign. The current smaller profile theorem is an aspect-lock or
+  annular-compensation law, or else an admitted counterprofile.
 ---
 
 # Corrected transverse-coupling reduction
@@ -305,6 +310,27 @@ new scalar target is
 \(\texttt{StretchedVortexPressureQuadrupoleSign.A}\), a uniform lower bound for
 \(\mu_{\rm sv}\) after profile collars and pressure banks are retained, paid, or
 routed out.
+
+A source-level model shows what this target must actually prove. For
+
+```math
+f_{L,R}(x,\rho)=
+-\exp\left(-x^2/L^2-\rho^2/R^2\right),
+```
+
+direct quadrature of the same quadrupole formula gives positive
+\(\mu_{\rm sv}\) for flattened cores \((L/R<1)\), zero at the round core, and
+negative \(\mu_{\rm sv}\) for long tube-like cores \((L/R>1)\). Adding a
+radially symmetric positive annulus barely changes the quadrupole. Therefore
+the live profile theorem is sharper:
+
+```math
+\texttt{RetainedStretchedVortexQuadrupoleAspectLockOrCounterprofile.A}.
+```
+
+The retained velocity profile must either force the helpful aspect/annular
+\(l=2\) moment, pay/reroute the collar or pressure bank supplying the adverse
+moment, or admit a prolate counterprofile with \(\mathcal I_{\rm lin}\le0\).
 
 ## 6. Honest status
 
