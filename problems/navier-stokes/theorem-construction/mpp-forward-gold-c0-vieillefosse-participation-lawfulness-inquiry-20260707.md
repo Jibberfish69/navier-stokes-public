@@ -20,21 +20,22 @@ blocks:
   - FullTowerPositiveChannelThreeMeasureAdmission.A
   - NormalizedRelayBillCompactnessRecordPassage.A
   - CriticalAffineChannelHodgeHardyBridge.A
+  - CausalLagCommutatorSignTarget.A
 completion_truth: >-
   Working inquiry and strict reduction only. The affine Vieillefosse core is a
-  lawful incompressible local jet and its true pressure response is purely
-  isotropic, so the deviatoric pressure kick is zero at the affine core. Any
-  positive c_0 bite must come from the finite-energy same-field participation
-  and gluing layer: the true nonlocal pressure response must push transverse to
-  the frictionless Vieillefosse direction strongly enough to force viscous
-  participation cost. That non-affine coercivity is not proved here. The later
-  adjacent-overlap-charge attempt in Sections 21--23 is refuted: it charges an
-  affine amplitude mismatch, but affine mismatch is in the participation/Korn
-  null mode. The remaining payer is the non-affine incompressible collar
-  repair/turn-off sign. The corrected bridge candidate is the log-scale
-  Hodge-Hardy mass for the critical affine channel: incompressibility charges
-  \((\partial_\rho-2)a\), while the kernel \(a\sim e^{2\rho}\) is the smooth
-  affine endpoint mode, not the log-endpoint survivor.
+  lawful incompressible local jet, and the purely isotropic pressure Hessian
+  belongs only to the infinite spatially uniform affine jet. It is the
+  reversible restricted-Euler fiction, not the behavior of a finite-energy
+  same-field flow with collars, neighbors, or turn-off. The live free manifold
+  is broader: aligned anisotropy, where the participation Hessian is diagonal
+  in the strain frame and \([S^2,\nabla^2q]=0\). Any positive c_0 bite must come
+  from transverse anisotropy: a signed material-time lag between the local
+  stretch frame and the nonlocal participation frame. That commutator sign is
+  not proved here. The adjacent-overlap-charge attempt in Sections 21--23 is
+  refuted because it charges affine amplitude mismatch, a participation/Korn
+  null mode. The log-scale Hodge-Hardy bridge in Section 24 is only an
+  off-kernel bookkeeping coordinate; it cannot supply endpoint strictness by
+  itself. Endpoint strictness requires the causal-lag / route-b sign theorem.
 ---
 
 # Vieillefosse participation-lawfulness inquiry
@@ -2929,12 +2930,13 @@ This is the physical form of a normalized affine core
 \tag{VPL.236}
 ```
 
-This is the missing sign. The free smooth affine mode is
-\(\partial_\rho a=2a\), i.e. \(a(\rho)=Ce^{2\rho}\). That is the physical
-degree \(+1\) affine field \(u(x)=CAx\), concentrated at the parent endpoint
-under critical normalization. The log-endpoint survivor has slowly varying
-normalized amplitude, so \(\partial_\rho a\) is small and
-\(\partial_\rho a-2a\) is order \(a\), not order zero.
+This is an off-kernel Hodge-Hardy coordinate, not the endpoint sign. The free
+smooth affine mode is \(\partial_\rho a=2a\), i.e.
+\(a(\rho)=Ce^{2\rho}\). That is the physical degree \(+1\) affine field
+\(u(x)=CAx\), concentrated at the parent endpoint under critical
+normalization. A Hardy estimate can separate interior off-kernel mass from this
+endpoint kernel, but it is scale-covariant and cannot by itself make the
+approach to the endpoint kernel strict.
 
 For an incompressible completion \(u=u_A+w\), the correction satisfies
 
@@ -3003,11 +3005,12 @@ C
 \tag{VPL.241}
 ```
 
-This is the bridge that actually hits the marginal tower. A slowly varying
-normalized amplitude cannot hide in affine gauge drift, because the divergence
-law sees the mass term \(-2a\). The only zero mode is the smooth affine scaling
-\(a=Ce^{2\rho}\), and that mode exits the long-chain case by parent endpoint
-ownership rather than by per-rung affine mismatch.
+This bridge closes only the off-kernel funnel. A slowly varying normalized
+amplitude is detected by the divergence law unless it is allowed to approach
+the endpoint kernel through the borderline Hardy layer. Quotienting the exact
+kernel is not enough; a log-endpoint counterobject lives in the approach to the
+kernel. To remove that approach one needs a signed endpoint rigidity input,
+not another Hardy constant.
 
 The remaining proof obligations are now specific:
 
@@ -3015,13 +3018,16 @@ The remaining proof obligations are now specific:
    Vieillefosse service;
 2. prove the same-field spherical Hodge lower bound (VPL.238), including the
    pressure/viscous participation bill and atom errors;
-3. prove parent-owned payment for the endpoint kernel \(a(\rho_+)\);
+3. prove parent-owned payment or signed exclusion for approach to the endpoint
+   kernel \(a(\rho_+)\);
 4. run the conditional atomization accounting of Sections 22--23 with
    (VPL.241) replacing the refuted (VPL.219).
 
 If those four obligations are proved uniformly over the strict participation
-atom class, the log endpoint is removed by a genuine non-affine collar payment.
-Until then, this is a corrected bridge candidate, not a \(c_0>0\) proof.
+atom class, the log endpoint is removed. The third obligation is the
+load-bearing one: it must be a genuine drift/sign rigidity, not mere quotienting
+of the exact affine mode. Until then, this is a faithful coordinate for the
+wall, not a \(c_0>0\) proof.
 
 The scalar endpoint inequality (VPL.240) itself is now proved in
 `mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md`. What remains
@@ -3097,6 +3103,87 @@ turn-off, log-spread same-affine chains, non-axisymmetric hiding, and the
 uniform atomization accounting still have to be proved in the full strict
 participation atom class. The detailed sublemma is recorded separately in
 `mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
+
+## 26. Constructive target: causal-lag commutator sign
+
+The isotropic pressure response in the affine calculation is an artifact of
+the infinite spatially uniform affine jet. For the affine jet,
+\(\partial_i u_j\partial_j u_i\) is constant, so the pressure particular
+solution is quadratic and \(\nabla^2q\) is isotropic. That isotropy records
+spatial uniformity, not physical mildness. A finite-energy flow with a collar,
+turn-off, neighbor eddy, or parent packet gives the pressure source spatial
+structure, and the participation Hessian is anisotropic.
+
+The live split is therefore not isotropic versus anisotropic. It is aligned
+anisotropy versus transverse anisotropy:
+
+```math
+[\;S^2,\nabla^2q\;]=0
+\qquad\text{aligned/reversible/free,}
+\tag{VPL.248}
+```
+
+and
+
+```math
+[\;S^2,\nabla^2q\;]\ne0
+\qquad\text{transverse/irreversible/charged.}
+\tag{VPL.249}
+```
+
+The \(P_4\)-free branch and the restricted-Euler/Vieillefosse closure live on
+the aligned side: the pressure Hessian may be anisotropic, but it shares the
+strain eigenframe, so it does no transverse work. The proposed \(c_0\) sign is
+the exclusion of persistent aligned anisotropy on a lawful forward-time,
+finite-energy, nonzero-service participation tower.
+
+In the strain eigenframe, the transverse components are
+
+```math
+\bigl([S^2,\nabla^2q]\bigr)_{ij}
+=
+(\lambda_i^2-\lambda_j^2)(\nabla^2q)_{ij},
+\qquad i\ne j.
+\tag{VPL.250}
+```
+
+Thus the first falsifiable target is an embedding minimax:
+
+```math
+\inf_{\text{lawful nonzero-service embeddings}}
+\operatorname{sgn}_{\rm mat}
+\bigl([S^2,\nabla^2q]\bigr)
+>0,
+\tag{VPL.251}
+```
+
+where \(\operatorname{sgn}_{\rm mat}\) is the oriented transverse component
+read with the material-time rotation of the strain frame. If an adversary can
+choose a lawful finite-energy self-similar or log-self-similar embedding for
+which \(\nabla^2q\) remains diagonal in the \(S\)-frame rung by rung, this
+commutator-sign route fails. If no such embedding exists and the oriented
+misalignment has a uniform sign, the Shizuta-Kawashima Lyapunov mechanism has
+the missing genuine-coupling input.
+
+The physical origin of the sign is the causal material-time lag: the local
+stretch frame is advected and rotated by the flow, while the participation
+Hessian is the instantaneous nonlocal response to the same field that has just
+been stretched. A forward-time response pursues the stretch frame from behind.
+Running time backward reverses that lag. This is why the target is a sign, not
+a rate, and why viscosity is not the source of the sign.
+
+This target crosses only if it proves all three points uniformly:
+
+1. the aligned manifold is not invariant for any lawful nonzero-service
+   forward-time finite-energy participation tower;
+2. the transverse commutator has a fixed material orientation over the embedding
+   minimax, including at \(\nu=0\);
+3. the SK/Lyapunov conversion turns that oriented misalignment into the same
+   participation bill currency used in \(c_0\), without replacing it by a
+   critical \(L^2\) norm that reopens the log endpoint.
+
+Until these points are proved, causal lag is the constructive target for
+endpoint strictness, not a completed proof of \(c_0>0\).
 
 ## 26. Proved ingredient: log-scale endpoint inequality
 
