@@ -23,6 +23,7 @@ target_object:
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
@@ -189,7 +190,30 @@ Each one-step self-loop has weight \(1/2\), but the recurrent class has unit
 Perron radius because two half-payments add. The Navier-Stokes theorem must
 exclude the record-feeding recurrent class, not merely a visible simple loop.
 
-## 4. Sharpened remaining theorem
+## 4. Radiodrome interface
+
+The canonical radiodrome note gives the continuum name for this same marginal
+object. Its tower-relay defect detects positive record service that is not
+retained as same-packet four-body payment, strict loss, Q-activity, or legal
+residual. In a finite parent-face chart, a certified surplus-zero radiodrome
+bad sequence has exactly the algebraic form above: a record-feeding recurrent
+class with no strict spectral loss.
+
+Thus the surplus-zero/absolute-zero warning becomes:
+
+```math
+\text{surplus-zero radiodrome recurrence}
+\quad\leadsto\quad
+\rho(K_C)=1\ \text{record-feeding Perron class},
+\tag{RPC.10a}
+```
+
+while a true \(c_0\) margin is the uniform strict gap
+\(\rho(K_C)\le1-\eta\). Radiodrome supplies the coordinate of the marginal
+defect; the Perron normal form says what its finite retained feedback carrier
+must look like.
+
+## 5. Sharpened remaining theorem
 
 The remaining admitted finite theorem is therefore:
 
@@ -225,7 +249,7 @@ strict spectral margin
 
 uniformly on the compact retained record-admitted bundle.
 
-## 5. Consequence
+## 6. Consequence
 
 This is exactly the finite algebra behind
 `HighFrequencyPressureStressSurplusCycleRigidity.A`, with the cycle word
