@@ -35,6 +35,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
 completion_truth: >-
   This audit does not prove Gate 2, FullTowerSignedTotalExchangeRetention.A,
   StrictSamePacketCycleExchangeCoercivity.A, c_0, or the MPP. It narrows the
@@ -63,7 +64,10 @@ completion_truth: >-
   proves that admitted positive edges are paid by four-body activity; the
   theta-envelope no-go proves the unsigned Theta_N envelope is not itself the
   required three-measure packet. The first remaining proof object is the raw
-  signed commutator coercivity identity before absolute-value estimation.
+  signed commutator coercivity identity before absolute-value estimation. The
+  pure-local X_comm no-go proves this identity cannot be supplied by a bounded
+  local line-stretch primitive; after affine/collar payment and route-outs, the
+  sign must come from the non-affine pressure-viscous same-packet coupling.
 ---
 
 # Full-tower positive-channel projection audit
@@ -340,3 +344,12 @@ It cannot by itself supply the same-carrier positive carrier, negative partner,
 and signed current required for three-measure admission. The proof must return
 to the raw signed commutator identity `PMB.9s` / `SSC-DC.4`, or route the lost
 orientation to bill, legal, stop, Pack, Part, or Field.
+
+The pure-local \(X_{comm}\) no-go also removes the local primitive route. In the
+affine strain normal form, positive material line growth persists while local
+affine viscous heat and higher finite-difference relay detectors vanish. Any
+primitive that pays the line-growth clock decreases like \(-c\log|\ell|\) and
+is unbounded below. Thus `(FPC.18)' cannot be proved by a local bounded
+cross-storage alone; the remaining sign must be non-affine and nonlocal in the
+same pressure-viscosity-incompressibility packet, or paid by the already named
+collar/parent-tower branch.
