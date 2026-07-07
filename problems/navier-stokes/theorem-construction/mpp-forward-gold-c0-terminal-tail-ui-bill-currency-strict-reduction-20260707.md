@@ -39,6 +39,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-paired-carrier-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-full-packet-noresidue-rigidity-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
 completion_truth: >-
   Strict reduction only. This pass proves the exact conditional route from
   terminal same-carrier tail UI / root-fixed terminal-uniform full-packet
@@ -378,7 +380,35 @@ positive/negative/current channel before theta-envelope readout:
 \tag{TTB.27}
 \]
 
-None of `(TTB.23)'--`(TTB.27)' is installed in the current checked sources.
+The moving-driver orientation pass sharpens `(TTB.27)' without closing it. For
+a parent-owned raw moving-driver event on a fixed material chart,
+
+\[
+\texttt{PrimitiveSignedChannelDirectMaterialRepresentation.A}
++\texttt{fixed-chart finite raw throughput}
+\Longrightarrow
+\texttt{MovingDriverFixedChartJordanOrientationAllocation.A}.
+\tag{TTB.28}
+\]
+
+That proves the positive leg, negative partner, and signed current are the
+Hahn-Jordan split of one raw current after the event is owned. It does not prove
+that the event is owned before selected positive readout or that it survives the
+normalized bill passage. The remaining bridge is
+
+\[
+\texttt{MovingDriverPreEnvelopeSignedCurrentRetention.A}
+\Longrightarrow
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
+\tag{TTB.29}
+\]
+
+Its current lower form is pre-readout material channelization plus same-edge
+custody, stopped ancestry, no-recount/no-delamination, and first-ratio/tower
+bill currency.
+
+None of `(TTB.23)'--`(TTB.27)' or `(TTB.29)' is installed in the current checked
+sources.
 
 ## 7. Result
 
