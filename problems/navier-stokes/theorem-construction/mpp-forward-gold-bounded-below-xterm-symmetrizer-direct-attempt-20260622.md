@@ -31,6 +31,8 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-frozen-family-compactness-lsc-solution-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-observable-frozen-gramian-to-instantaneous-xterm-direct-test-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-frozen-full-packet-dissipative-noreturn-direct-test-20260622.md
+derived_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
 ---
 
 # Bounded-Below \(X\)-Term Symmetrizer Direct Attempt
@@ -335,3 +337,11 @@ simultaneous \(X\)-term attempt has reduced it further to the exact material
 exchange concomitant: the adjacent exchange mismatch one-form must be the
 differential of a bounded instantaneous same-packet cross-term, modulo strict
 same-packet loss and same-packet residual.
+
+The \(c_0\) pure-local \(X_{comm}\) no-go sharpens what kind of cross-term is
+still admissible. A local line-stretch primitive cannot be the bounded
+same-packet cross-term: in the incompressible affine normal form it decreases
+like \(-c\log|\ell|\) and is unbounded below. Thus the remaining \(X\)-term
+identity must be genuinely full-packet and non-affine, using pressure,
+viscosity, incompressibility, and collar/interface residuals after localized
+affine service has been paid or routed out.
