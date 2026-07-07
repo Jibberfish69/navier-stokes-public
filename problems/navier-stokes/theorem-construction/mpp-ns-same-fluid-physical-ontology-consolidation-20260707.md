@@ -12,6 +12,11 @@ target_object:
   - FullTowerPositiveChannelThreeMeasureAdmission.A
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - MaterialTimeCertificateFlowInvariance.A
+  - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
+  - SameEdgePrimitiveSignedScalePotentialLift.A
+  - SameEdgePotentialRecordRootBound.A
+  - SameEdgeNegativeScaleReturnCharge.A
+  - SameEdgeEscapingCoreCapacityPacking.A
   - Exit(Q):=not Member(Q)
 source_refs:
   - problems/navier-stokes/spine.md
@@ -22,6 +27,7 @@ source_refs:
   - problems/navier-stokes/agent-contract.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-same-edge-strict-half-barrier-direct-proof-pass-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-ns-unified-physical-roof-control-synthesis-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
   - problems/navier-stokes/theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
@@ -183,6 +189,60 @@ subcritical. It is not a lower physical source than same-packet positive-channel
 admission. The Perron language is the finite-chart normal form of the same
 retained zero-surplus recurrence, not a separate graph problem.
 
+## 5a. Same-edge half-barrier split
+
+The strict half-barrier is not a new physical source. It is the ratio-tail form
+of the same retained edge before readout. After legal exits, paid detector
+terms, repeated-count corrections, and visible quotient payments are removed,
+the bad same-edge tail has only two physical ways to persist.
+
+First, the selected episodes can keep returning to a material core with
+persistent ancestry. That branch is one-dimensional after the same edge has a
+signed scale potential:
+
+```math
+Y=\partial_\sigma\Psi+E,
+\qquad
+Y=Y_+-Y_-.
+\tag{SFO.6a}
+```
+
+The scalar record/return BV identity then kills the repeated-core half-tail
+once three same-edge PDE inputs are admitted before readout:
+`SameEdgePrimitiveSignedScalePotentialLift.A`,
+`SameEdgePotentialRecordRootBound.A`, and
+`SameEdgeNegativeScaleReturnCharge.A`. The root-bound word matters. The older
+stopped potential-average bound is a consumer after the stopped record has
+already been built. The producer needed here is the original-history root bound
+for the same stopped potential record.
+
+Second, the selected episodes can escape every fixed material core by moving to
+smaller transported cores. Raw heat mass cannot rule this out; the affine local
+packet shows normalized strain service can stay order one while critical heat
+mass tends to zero. This branch needs
+`SameEdgeEscapingCoreCapacityPacking.A`: a first-ratio capacity packing bound
+attached to the same edge that carried the selected record before readout.
+
+Thus the current same-edge reduction is:
+
+```math
+\begin{aligned}
+&\texttt{SameEdgePrimitiveSignedScalePotentialLift.A}\\
+&+\texttt{SameEdgePotentialRecordRootBound.A}\\
+&+\texttt{SameEdgeNegativeScaleReturnCharge.A}\\
+&+\texttt{SameEdgeEscapingCoreCapacityPacking.A}\\
+&\Longrightarrow
+\texttt{OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A}.
+\end{aligned}
+\tag{SFO.6b}
+```
+
+This is a strict reduction, not c0 closure. Its physical content is useful
+because it separates the half-speed relay obstruction into two same-fluid
+payments: repeated-core record/return and escaping-core capacity packing. Both
+remain open as PDE inputs from the original pressure-viscosity-incompressibility
+history.
+
 ## 6. Tower and CM faces
 
 The stable carriers are \((u,p,\Phi,F)\). Lawful primitive local-law content
@@ -297,17 +357,22 @@ renaming it as closure:
 
 1. prove `ParentOwnedPositiveRecordBillCurrency.A` or the compactness plus record
    passage theorem for \(B\to0,\ R=1\);
-2. prove `FullTowerPositiveChannelThreeMeasureAdmission.A` for the surviving
+2. prove the same-edge half-barrier branch inputs:
+   `SameEdgePrimitiveSignedScalePotentialLift.A`,
+   `SameEdgePotentialRecordRootBound.A`,
+   `SameEdgeNegativeScaleReturnCharge.A`, and
+   `SameEdgeEscapingCoreCapacityPacking.A`;
+3. prove `FullTowerPositiveChannelThreeMeasureAdmission.A` for the surviving
    moving low-high pressure/strain driver;
-3. prove `NonAffinePressureViscousSignedCommutatorCoercivity.A` after affine,
+4. prove `NonAffinePressureViscousSignedCommutatorCoercivity.A` after affine,
    collar, and legal route-outs are paid;
-4. prove a direct original-data record-admitted matrix face with feedback
+5. prove a direct original-data record-admitted matrix face with feedback
    spectral radius below one;
-5. prove the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the
+6. prove the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the
    order-locked full-packet carrier before selected positive-part readout;
-6. prove `MaterialTimeCertificateFlowInvariance.A` and the zero-surplus
+7. prove `MaterialTimeCertificateFlowInvariance.A` and the zero-surplus
    path-hull/closed-graph package for the B3 route;
-7. route failure of the same retained object through a concrete Pack/Part/Field
+8. route failure of the same retained object through a concrete Pack/Part/Field
    face supporting `Exit(Q):=not Member(Q)`.
 
 Everything else is support until it proves one of these statements or strictly
