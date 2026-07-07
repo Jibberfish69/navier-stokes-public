@@ -20,6 +20,7 @@ allowed_source_refs:
   - problems/navier-stokes/spine.md
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-record-lower-entrance-source-verdict-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
 completion_truth: >-
   Failed-gate certificate for the active goal, not a proof of c_0 and not a
   refutation of NormalizedRelayBillCompactnessRecordPassage.A. The allowed
@@ -40,7 +41,9 @@ completion_truth: >-
   exchange visibility or paid silent service before record readout. Current
   allowed sources prove finite-truncation native menu admission and frozen
   detector-angle algebra only; they do not prove positive-selection storage,
-  detector-silent strict half-barrier, or exact-projector chart admission.
+  exact-projector chart admission, or the strict original-ledger generator
+  storage that now underlies the detector-silent strict half-barrier through the
+  transition-derivative collapse.
 ---
 
 # Normalized relay passage: failed gate and smallest exposed theorem
