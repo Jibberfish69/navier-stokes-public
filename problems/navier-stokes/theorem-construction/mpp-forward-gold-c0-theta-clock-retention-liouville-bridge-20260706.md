@@ -42,6 +42,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -78,9 +79,11 @@ completion_truth: >-
   lifted into the compact certificate. The theta-payer follow-up shows the
   positive clock's payer lift is exactly the Gate 2 pre-readout admission
   problem: the future-positive record edge must already be owned by
-  parent/root/full-exchange currency or paid service before readout. Current
-  sources do not prove that Navier-Stokes admission input or zero-loss
-  rigidity. No
+  parent/root/full-exchange currency or paid service before readout. The
+  temporal-thin payer follow-up proves the compact atom/lower-semicontinuity
+  part after that admission: a positive shrinking material-time service becomes
+  a nonzero time atom and contradicts zero surplus. Current sources do not
+  prove that Navier-Stokes admission input or zero-loss rigidity. No
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
 ---
@@ -267,11 +270,14 @@ Navier-Stokes evolution by shift-hull invariance once the compact path exists.
 The payer-measure rows are exactly the closed-zero-surplus graph condition. For
 the positive \(\Theta_N\)-record channel, that condition contains
 `ThetaRecordPayerMeasureAdmission.A`, which is the Gate 2 pre-readout ownership
-problem in certificate language. The final row empties the invariant
-zero-surplus set except for zero service. The abstract shift-hull lemma and
-abstract closed-zero-surplus lemma are proved in the follow-up files; the
-compact certified path, Navier-Stokes theta-payer admission/lsc, and zero-loss
-rigidity are not currently installed.
+problem in certificate language. Once that payer is admitted on a compact
+material-time window, the temporal-thin follow-up proves that shrinking positive
+service survives as a nonzero atom, so it cannot live in the zero-surplus graph.
+The final row empties the invariant zero-surplus set except for zero service.
+The abstract shift-hull lemma, abstract closed-zero-surplus lemma, and
+temporal-thin atom/lsc lemma are proved in the follow-up files; the compact
+certified path, Navier-Stokes theta-payer admission, and zero-loss rigidity are
+not currently installed.
 
 ## 6. Consequence
 
