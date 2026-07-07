@@ -25,6 +25,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
   the current c_0 Gate2 stack. It does not produce the Navier-Stokes matrix from
@@ -38,6 +39,9 @@ completion_truth: >-
   exactly the bill-coercive record-admitted storage matrix, or an independent
   original-history proof of one face that makes the residual matrix subcritical.
   The early-branch contraction follow-up identifies that independent face in the
+  sub-heat-lag branch. The zero-bill unit-cycle follow-up identifies the
+  qualitative compact form of the full matrix gap: after record admission and
+  exact charting, exclude normalized nonnegative zero-bill Perron cycles.
   checked TFE/c_0 decomposition: record-admitted sub-heat-lag first-admission
   storage, equivalently WLF.60 / ODP.91 on the order-locked full-packet selected
   carrier. No c_0 closure is claimed.
@@ -259,3 +263,8 @@ The unit-spectral-radius source countermodel remains the warning. A matrix with
 around the parent packet forever with zero finite reserve drop. The new point
 here is only that once the feedback is strictly subcritical in bill currency,
 absorption is automatic.
+
+The zero-bill unit-cycle follow-up gives the qualitative compact form of the
+same producer. After record admission and exact charting, absence of normalized
+nonnegative zero-bill Perron cycles in the retained parent-face bundle implies a
+uniform gap \(\rho(K_P)\le1-\eta\).
