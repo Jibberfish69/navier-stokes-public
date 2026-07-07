@@ -3,13 +3,14 @@ theorem_id: forward-gold-c0-transverse-coupling-reduces-to-angular-sphere-positi
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / transverse pressure-Hessian coupling / covariance filter
-status: REDUCTION (physics-first, structural/homogeneity + sign; no numerics). The transverse
-  pressure-Hessian coupling survives the scale-covariance filter (marginal, same homogeneity as
-  the production it must dominate) AND provably disarms the log-endpoint (it is a fixed-sign
-  density, not a log-derivative). Together these collapse c_0 onto ONE angular spectral
-  positivity on S^2. NO PROOF of the sign — that inf>0 IS the open Millennium content — but the
-  two killers of every prior route (scaling, log-endpoint) are removed and the target is
-  localized to a singular-integral positivity on the sphere.
+status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling survives the
+  scale-covariance filter (marginal, same homogeneity as the production it must dominate). The
+  log-endpoint is disarmed only after a fixed-sign retained-participation pairing is proved. The
+  affine-symbol test shows the bare Calderon-Zygmund transverse response changes sign over
+  angular embeddings on S^2, so the terminal target is not naked spectral positivity of the
+  pressure operator. The remaining theorem is retained-participation angular positivity:
+  selected material orientation plus pass/collar/zero-record classification must prevent
+  cancellation of the transverse response.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -18,38 +19,37 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-section17-compactness-critical-gap-obstruction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-adjacent-affine-chain-mismatch-is-free-mode-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-participation-hessian-not-pressure-hessian-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
 completion_truth: >-
   PHYSICS FIRST. In one incompressible fluid the only thing that can brake the Vieillefosse
   self-stretch is the TRANSVERSE (eigenframe-rotating) part of the non-local pressure Hessian;
   the aligned/isotropic part carries no braking sign (restricted-Euler closure keeps exactly that
-  part and blows up). So all of c_0 lives in the transverse coupling. THREE STRUCTURAL RESULTS,
-  no numerics. (1) Aligned part = no brake (classical restricted-Euler blowup). (2) COVARIANCE
+  part and blows up). So all of c_0 lives in the transverse coupling. CURRENT STRUCTURAL STATE:
+  (1) Aligned part = no brake (classical restricted-Euler blowup). (2) COVARIANCE
   FILTER: under NS scaling strain ~ λ², so S² and Hess p each ~ λ⁴, and the transverse coupling
   entering the production balance D_t(ω·Sω) ~ λ⁸ — the SAME homogeneity as the production it must
   dominate. Scale-marginal ⇒ its magnitude is fixed by nothing and its SIGN is the whole content:
   the signature of a sign-lever, not a rate. This is the filter that killed the defect-measure
   route (cost λ¹ vs service λ³, mismatched); here they MATCH, so this register survives. (3)
-  LOG-ENDPOINT DISARMED: in every coercive route the 2^{-L}/L endpoint won because the bill was a
-  log-scale DERIVATIVE (spreadable to 0 while service stayed O(1)). The transverse coupling is a
-  FIXED-SIGN DENSITY scaling WITH the production, so spreading dilutes numerator and denominator
-  together and cannot change the ratio's sign. Marginality + sign-nature provably remove the
-  log-endpoint. NET REDUCTION: with scaling quotiented and the log-endpoint disarmed, c_0 collapses
-  off the radial/tower directions onto the ANGULAR profile. c_0 > 0 ⟺ inf over admissible
-  self-similar angular embeddings on S^2 of (transverse pressure-Hessian coupling)/(strain
-  production) > 0 — spectral positivity of one scale-invariant Calderón-Zygmund operator on the
-  sphere, adversary picks the angular shape. HONEST STATUS: that inf>0 is the open sign; it IS
-  3D global regularity; NOT proved and not known true in either direction. What is achieved is a
-  reduction that removes the two obstructions (scale-covariance, log-endpoint) that defeated the
-  coercive/compactness/defect-measure/collar/affine-chain routes, and localizes the sign to a
-  singular integral on S^2. The sign is non-local (Riesz), so no local/averaged move yields it —
-  the matched attack is spherical spectral positivity / a Liouville rigidity on the angular
-  profile, extending NRS/Tsai from the exact self-similar profile to the marginal one.
+  LOG-ENDPOINT CONDITIONAL: if the transverse coupling is already paired as a fixed-sign retained
+  participation density, the log tower dilutes numerator and denominator together and cannot
+  change the ratio's sign. The affine-symbol test shows this fixed-sign hypothesis is exactly the
+  unpaid theorem: for affine Vieillefosse strain the transverse pressure multiplier contributes
+  3a n_i n_3(2n_3²-1), which changes sign across angular sectors. NET REDUCTION: scaling is
+  quotiented, but the angular problem is a retained-participation minimax, not naked spectral
+  positivity of the Calderon-Zygmund operator on S^2. c_0 > 0 requires a uniform positive lower
+  bound after selected material orientation, retained participation measure, and
+  pass/collar/zero-record classification prevent angular cancellation. HONEST STATUS: this is a
+  strict reduction plus a failed bare-symbol positivity attempt; the retained angular Liouville
+  rigidity remains open and is the current c_0 wall.
 ---
 
-# The transverse coupling reduces c₀ to an angular spectral positivity on S²
+# Corrected transverse-coupling reduction
 
 Physics-first. The covariance filter, run on the transverse pressure-Hessian coupling, returns a
-genuine reduction: it survives scaling, disarms the log-endpoint, and localizes c₀ to the sphere.
+genuine target: the object survives scaling. The affine-symbol test then sharpens the target: the
+bare angular pressure operator is sign-indefinite, so the sign must come from retained material
+orientation and participation lawfulness.
 
 ## 1. Object
 
@@ -65,32 +65,74 @@ transverse coupling in `D_t(ω·Sω) ~ λ⁸` — the **same homogeneity as the 
 marginal: magnitude fixed by nothing, **sign** is the whole content. Contrast the dead defect-
 measure route (cost `λ¹` vs service `λ³`, mismatched). Here they match ⇒ **right type, survives**.
 
-## 3. Log-endpoint (disarmed)
+## 3. Log-endpoint condition
 
 Coercive routes died because the bill was a **log-scale derivative** — spreadable to 0 while the
-service stayed `O(1)`. The transverse coupling is a **fixed-sign density scaling with the
-production**. Spreading it over the tower dilutes numerator and denominator together; the ratio's
-**sign is preserved**. Marginality + sign-nature ⇒ the `2^{-L}/L` endpoint **cannot dilute it**.
-This is the move no coercive bridge could make.
+service stayed `O(1)`. A transverse coupling that has already been selected as a **fixed-sign
+retained density** scales with the production. Spreading that paired density over the tower
+dilutes numerator and denominator together; the ratio's sign is preserved.
 
-## 4. The reduction
+That is a conditional advantage. The fixed sign is the unpaid theorem.
 
-Scaling quotiented, log-endpoint disarmed ⇒ c₀ collapses onto the **angular profile**:
+## 4. Bare angular test
 
+The first bare-symbol test is unfavorable to naked spectral positivity. Freeze the material
+velocity to affine Vieillefosse strain
+
+```math
+u_A(x)=Ax,\qquad A=\operatorname{diag}(a,a,-2a),\qquad a>0,
 ```
-c₀ > 0  ⟺  inf over admissible self-similar angular embeddings on S²
-           of  (transverse pressure-Hessian coupling) / (strain production)  > 0.
+
+and use the pressure Hessian multiplier
+
+```math
+m(\xi)=\frac{\xi\otimes\xi}{|\xi|^2}.
 ```
 
-The pressure operator is scale-invariant, so it descends to a singular integral on the angular
-profile; the adversary (embedding minimax) picks the shape on the sphere to drive the ratio to 0.
+The affine transport commutator has angular symbol
 
-## 5. Honest status
+```math
+-\bigl((A\xi)\cdot\nabla_\xi m(\xi)\bigr).
+```
 
-That `inf > 0` is the open sign — it **is** 3D global regularity, not proved, not known true in
-either direction. What is achieved: the two obstructions that beat every prior route (scale-
-covariance and the log-endpoint) are **removed**, and the sign is localized to **spectral
-positivity of one Calderón-Zygmund operator on S²**. The sign is non-local (Riesz), so no local
-or averaged argument can produce it; the matched attack is spherical spectral positivity, or a
-Liouville rigidity on the angular profile extending NRS/Tsai from the exact to the marginal
-self-similar object. This is a reduction, not a closure.
+For \(n=\xi/|\xi|\), the plane-to-compressive transverse entries are
+
+```math
+\bigl((A\xi)\cdot\nabla_\xi m\bigr)_{i3}
+=3a\,n_i n_3(2n_3^2-1),
+\qquad i=1,2.
+```
+
+The factor \(2n_3^2-1\) changes sign across angular sectors. The bare Calderon-Zygmund transverse
+response is a real re-aiming channel, but it has no uniform handedness over arbitrary angular
+embeddings.
+
+## 5. Corrected reduction
+
+Scaling is quotiented. The log endpoint is removed only after the sign is selected. The correct
+angular target is therefore:
+
+```math
+c_0>0
+\Longleftrightarrow
+\inf_{\text{retained admissible angular histories}}
+\frac{\text{selected transverse pressure-Hessian coupling}}
+     {\text{strain production}}
+>0,
+```
+
+where retained admissible means the same material participant carries positive critical-record
+service after pass, collar, and zero-record classifications have been applied.
+
+The adversary can try to mix the two angular signs in the bare symbol. The theorem must prove
+that a positive-record retained marginal tower cannot use that angular cancellation while still
+participating.
+
+## 6. Honest status
+
+The old formulation was too strong: it treated fixed-sign density as already available. The
+checked state is sharper. Covariance survives; naked angular positivity fails at the first
+affine-symbol test; the remaining route is retained-participation angular Liouville rigidity,
+extending the exact self-similar exclusion to the marginal tower with the material bill currency
+included. This is a strict reduction plus an obstruction to the bare spectral version, not a
+closure.
