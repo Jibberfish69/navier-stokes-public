@@ -8,10 +8,11 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   log-endpoint is disarmed only after a fixed-sign retained-participation pairing is proved. The
   affine-symbol test shows the bare Calderon-Zygmund transverse response changes sign over
   angular embeddings on S^2, so the terminal target is not naked spectral positivity of the
-  pressure operator. The remaining theorem is the same-edge retained-service
-  admission theorem: chart/selector custody, detector/channel custody, and
-  selected first-ratio bill currency must attach to the selected transverse
-  pressure/strain service before readout.
+  pressure operator. The remaining target has two locked pieces: same-edge
+  retained-service admission (chart/selector custody, detector/channel custody,
+  selected first-ratio bill currency) and the T-odd signed Liouville statement
+  that the retained \((S,\omega)\) alignment is pushed off the maximal-stretch
+  axis toward the intermediate axis.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -23,6 +24,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
 completion_truth: >-
   PHYSICS FIRST. In one incompressible fluid the only thing that can brake the Vieillefosse
   self-stretch is the TRANSVERSE (eigenframe-rotating) part of the non-local pressure Hessian;
@@ -58,9 +60,13 @@ completion_truth: >-
   service is detector/channel rotation, silence, channel transfer, pass/collar,
   or exit. Section 17 identifies \(\mathsf P_{\rm mix}\) admission as a consumer
   of the existing parent-owned positive-record / selected first-ratio
-  bill-currency wall. The sourced retained angular Liouville rigidity remains
-  open as same-edge pre-readout custody plus selected first-ratio bill currency
-  for the selected transverse service, or a typed route-out.
+  bill-currency wall. Claude's T-parity filter places that wall correctly: the
+  bill admits the selected event and prevents unpaid chart/detector motion, but
+  the \(c_0\) brake itself must be a signed, time-odd lower bound. The sourced
+  retained angular Liouville rigidity remains open as same-edge pre-readout
+  custody plus selected first-ratio bill currency and detector/channel custody
+  joined to the retained \((S,\omega)\) strict-attractor sign, or a typed
+  route-out.
 ---
 
 # Corrected transverse-coupling reduction
@@ -171,6 +177,14 @@ admitted plane-to-compressive channel, unsigned transverse service is controlled
 by \(z(1-z)\); endpoint service means the packet has become detector-silent,
 changed channel, passed to zero-record, or routed through collar/exit.
 
+Claude's bridge packet adds the T-parity placement. The first-ratio bill is not
+the sign; it is the admission/payment layer that keeps the selected signed event
+on the same retained edge before readout. The signed lemma is the retained
+\((S,\omega)\) alignment-attractor statement: a genuine \(\omega\)-carrying
+marginal tower cannot keep maximal-axis alignment against the selected transverse
+pressure torque; the torque must push toward the intermediate axis uniformly, or
+the branch routes out.
+
 ## 6. Honest status
 
 The old formulation was too strong: it treated fixed-sign density as already available. The
@@ -181,5 +195,6 @@ same-edge selector/order-lock variation admitted in the existing \(c_0\) bill cu
 \(\mathsf P_{\rm mix}\) admission is the already exposed selected first-ratio /
 parent-owned positive-record bill-currency wall. The remaining route is same-edge
 pre-readout custody plus selected first-ratio bill currency and detector/channel custody for
-the admitted retained angular chart. This is a strict reduction plus an obstruction to the
-bare spectral version, not a closure.
+the admitted retained angular chart, joined to the T-odd \((S,\omega)\)
+strict-attractor sign. This is a strict reduction plus an obstruction to the bare
+spectral version, not a closure.

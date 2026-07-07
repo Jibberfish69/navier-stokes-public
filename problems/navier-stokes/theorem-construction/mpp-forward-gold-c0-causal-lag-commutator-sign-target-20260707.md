@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
 completion_truth: >-
   This note records the corrected crossing target. Isotropy of Hess q belongs
   to the infinite spatially uniform affine jet, where the pressure source is
@@ -64,9 +65,12 @@ completion_truth: >-
   transfer, pass/collar, or exit branch. Section 17 identifies the last
   non-formal admission: \(\mathsf P_{\rm mix}\) bill currency is the existing
   parent-owned positive-record / selected first-ratio bill-currency wall, not an
-  angular operator theorem. The remaining sign work is therefore same-edge
-  pre-readout custody plus selected first-ratio bill currency for the selected
-  transverse pressure/strain service, or a typed route-out.
+  angular operator theorem. The Claude bridge packet adds the T-parity placement:
+  selected first-ratio bill currency is an admission/payment layer, not the
+  time-odd sign itself. The remaining sign work is therefore same-edge
+  pre-readout custody carrying the signed retained current, selected first-ratio
+  bill currency, detector/channel custody, and the retained \((S,\omega)\)
+  strict-attractor Liouville statement, or a typed route-out.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1316,5 +1320,43 @@ The terminal shape of this route is therefore:
 ```
 
 This is still conditional. It strictly lowers the original transverse sign lemma
-to the already exposed same-edge bill-currency theorem; it does not prove
-\(c_0>0\).
+to the already exposed same-edge bill-currency theorem plus the signed
+\((S,\omega)\) Liouville rigidity below; it does not prove \(c_0>0\).
+
+## 18. T-parity placement: the bill admits the sign; it is not the sign
+
+Claude's bridge packet gives the needed type check on Section 17. A first-ratio
+bill can charge selected angular/selector/order-lock variation before readout,
+but if it is read only as a magnitude or dissipative payment it is time-reversal
+even. The \(c_0\) brake is time-reversal odd: reverse material time and the lag
+becomes a lead. Thus the bill currency cannot replace the signed lower bound.
+It can only make the selected signed event lawful and prevent the adversary from
+hiding angular cancellation in unpaid chart or detector motion.
+
+The retained tower is also not allowed to evade the torque by sitting on the
+achiral pure-strain slice. On a genuine finite-time blow-up branch, BKM forces a
+vorticity concentration record; the \(\omega=0\) pure-strain/potential slice is a
+regular/pass reading or a collar/localization artifact, not the retained
+counterobject. The terminal signed order parameter is therefore the
+\((S,\omega)\) alignment angle, not a scalar magnitude of re-aiming.
+
+The corrected terminal statement is:
+
+```math
+\begin{aligned}
+&\text{retained angular chart/selector admission}\\
+&+\text{same-edge signed-current custody}\\
+&+\text{selected first-ratio bill currency}\\
+&+\text{same-edge detector/channel custody}
+\end{aligned}
+\Longrightarrow
+\text{the transverse pressure torque moves retained }\omega
+\text{ off the maximal-stretch axis toward the intermediate axis,}
+\tag{CLS.85}
+```
+
+uniformly on the admissible marginal retained class. Equivalently, maximal-axis
+lock is a strict repeller and intermediate-axis lock is a strict attractor for
+the selected transverse pressure torque. Section 17 supplies the admission and
+payment side of this statement; the open \(c_0\) content is the T-odd
+strict-attractor sign.

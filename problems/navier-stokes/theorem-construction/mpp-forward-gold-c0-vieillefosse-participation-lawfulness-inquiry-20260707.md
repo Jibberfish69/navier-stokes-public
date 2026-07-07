@@ -3424,6 +3424,15 @@ endpoint service means detector/channel silence, rotation, channel transfer,
 pass/collar, or exit unless the same-edge detector/channel was fixed before
 readout.
 
+The Claude sync adds the T-parity correction to this placement. The selected
+first-ratio bill is an admission/payment condition for the retained event; it is
+not the time-odd transverse sign. The signed object is the retained
+\((S,\omega)\) alignment angle: BKM excludes the genuinely retained blow-up tower
+from being a pure \(\omega=0\) achiral strain slice, and the open Liouville
+claim is that the selected transverse pressure torque makes maximal-axis
+alignment a strict repeller and intermediate-axis alignment a strict attractor,
+uniformly on the admitted marginal retained class.
+
 ## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
