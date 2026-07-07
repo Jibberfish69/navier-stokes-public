@@ -1859,9 +1859,9 @@ L/R = 3.00   mu_sv = -0.33691
 L/R = 6.00   mu_sv = -0.43511
 ```
 
-The tempting follow-up "add a radially symmetric positive annulus" is not a
-physical stretched-vortex annulus. It is a null control: by symmetry it has no
-trace-free \(l=2\) moment, hence no transverse pressure torque. The real
+The scalar radial-shell check is not a physical stretched-vortex annulus. It is
+a null control: by symmetry it has no trace-free \(l=2\) moment, hence no
+transverse pressure torque. The real
 strain-dominated annulus has to be anisotropic and locked to the vortex/current
 axis. Its \(l=2\) moment is not a harmless decoration; it is exactly the missing
 sign carrier.
