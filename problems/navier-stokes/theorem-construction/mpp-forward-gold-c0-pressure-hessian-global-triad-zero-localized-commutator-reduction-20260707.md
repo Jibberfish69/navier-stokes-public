@@ -17,6 +17,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-kawashima-SK-violation-set-is-the-self-similar-cone-complete-symmetrizer-with-material-time-drift-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-numerator-wlf60-route-measure-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-localized-pressure-hodge-two-scale-triad-sign-indefinite-20260707.md
 completion_truth: >-
   This note proves no c_0, no epsilon_* > 0, and no WLF.60 / ODP.91 payment.
   It computes the proposed bare pressure-Hessian triad floor and shows it is
@@ -145,6 +146,13 @@ Thus the real object is not a bare triad floor. It is a localized pressure-Hodge
 commutator / packet-projection form. In physical language: the sign can only
 come from how the same pressure-constrained packet is cut, transported,
 recombined, and selected before positive readout.
+
+The two-scale sign test sharpens this. The localized coefficient
+\(F_KK^T\widehat S(\ell)K\) is nonzero, but changing the selected strain
+orientation flips its sign while leaving the pressure-source pair fixed. Thus
+localization creates the possible commutator work; it does not by itself create
+a positive floor. The selector orientation and same-edge bill currency remain
+part of the theorem.
 
 ## 4. Consequence for the SK and WLF readings
 
