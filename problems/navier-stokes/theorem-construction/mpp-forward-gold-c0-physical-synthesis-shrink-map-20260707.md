@@ -687,6 +687,12 @@ it exists, must be a global original-history same-material action functional;
 otherwise the branch must be routed to legal/stop/Pack/Part/Field before
 readout.
 
+The route-out alternative has the same order restriction. Current source
+surfaces sort failure of parent source-square or overrun critical-density tail
+depletion through the selected `ScaleCriticalTreeCarleson' diagnostic only
+after a same-witness terminal branch has been admitted. That is a lawful CM
+consumer, not a forward proof of finite pump work.
+
 The equivalence in `(CPS.21)' is modulo the stopped/root Carleson packaging. The
 checked hard-boundary note says
 finite work of this pump is equivalent to the continuation-strength material
