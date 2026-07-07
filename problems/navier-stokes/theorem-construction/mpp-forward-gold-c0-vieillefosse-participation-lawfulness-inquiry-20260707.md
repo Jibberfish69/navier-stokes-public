@@ -2065,10 +2065,12 @@ c_{\rm acc}c
 \tag{VPL.165}
 ```
 
-The remaining theorem is exactly (VPL.147). If strict atomization holds, the
-no-free-collar route closes \(c_0\). If it fails, the surviving endpoint escape
-is also precise: service is being counted on rungs whose collars have not been
-owned as positive same-field participation payment.
+Section 19 turns (VPL.147) into a stopping-time construction plus one remaining
+rigidity statement: no arbitrarily long unpaid same-affine-good chain can carry
+positive Vieillefosse service. If that chain obstruction is ruled out, strict
+atomization holds and the no-free-collar route closes \(c_0\). If it survives,
+the endpoint escape is precise: service is being counted on rungs whose collars
+have not been owned as positive same-field participation payment.
 
 ## 19. Atomization theorem: construction and failure test
 
@@ -2296,10 +2298,8 @@ and no service loss.}
 The theorem still needed for all lawful towers is:
 
 ```math
-\boxed{
 \text{No arbitrarily long unpaid same-affine-good chain carrying positive
 Vieillefosse service exists.}
-}
 \tag{VPL.186}
 ```
 
