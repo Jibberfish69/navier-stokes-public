@@ -33,6 +33,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
 completion_truth: >-
@@ -50,7 +51,9 @@ completion_truth: >-
   service and vanishing normalized surplus bill must be impossible, or else
   typed out through Pack/Part/selector/legal failure. The local absolute-zero
   Liouville reading is superseded by the heat-scale route-b surplus-zero
-  reduction. No MPP closure is claimed.
+  reduction. The temporal-thin follow-up proves the compact atom/lsc step after
+  theta-payer admission, but it leaves the same admission/bill-currency row
+  open. No MPP closure is claimed.
 ---
 
 # Irreversible thick branch and material-time marginal reduction
@@ -288,7 +291,7 @@ The active \(c_0\) objective now has this stricter fork:
 \text{positive-radius / thick branch}
   &\Rightarrow \text{closed by finite participation and viscous throttle},\\[1mm]
 \text{shrinking heat-scale retained branch}
-  &\Rightarrow \text{prove }(ITL.13)\text{ or surplus-zero route-b rigidity},\\[1mm]
+  &\Rightarrow \text{admit the theta payer, then prove atom/lsc plus zero-loss rigidity},\\[1mm]
 \text{certificate or custody failure}
   &\Rightarrow \text{typed Pack/Part/selector/legal route-out}.
 \end{array}
@@ -298,7 +301,11 @@ The active \(c_0\) objective now has this stricter fork:
 
 Thus the remaining proof is not a search for temporal reversibility or an
 adiabatic equality cycle. It is a material-time surplus-zero rigidity theorem
-for one incompressible viscous pressure-constrained same-fluid field.
+for one incompressible viscous pressure-constrained same-fluid field. The
+temporal-thin part of that theorem is now strict: after the theta payer is
+admitted on a compact material-time window, a shrinking positive record survives
+as a nonzero atom and cannot be zero surplus. Before admission, the branch is
+still `(ITL.13)' / `SameParentRecordPositiveSelectionStorage.A`.
 
 ## 7. State
 
