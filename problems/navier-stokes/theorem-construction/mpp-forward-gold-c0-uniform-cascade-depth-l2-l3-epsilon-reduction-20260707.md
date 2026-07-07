@@ -19,6 +19,7 @@ target_object:
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
   - epsilon_star_positive
+  - MovingDriverActiveStateFirstRatioPackage.A
   - MovingDriverFixedChartJordanOrientationAllocation.A
   - MovingDriverPreEnvelopeSignedCurrentRetention.A
 source_refs:
@@ -45,6 +46,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-depth-to-moving-driver-custody-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-custody-first-ratio-source-split-20260707.md
 completion_truth: >-
   This note resolves the proposed route at the current source state, and the
   resolution is a strict separation. Uniform cascade-termination depth in the
@@ -450,6 +452,42 @@ Thus the currently sharpened conditional route is
 The new line `(UCD.16d)' is still open.  It is smaller than generic orientation
 admission because the fixed-event orientation row is paid; it is not a proof of
 \(c_0>0\).
+
+The custody-first-ratio source split now lowers the first clause of
+`(UCD.16d)' and separates support from payment in the last clause:
+
+\[
+\begin{aligned}
+\texttt{MovingDriverActiveStateFirstRatioPackage.A}:={}&
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}\\
+&+\texttt{WLF.60/ODP.91 selected first-ratio payment}\\
+&+\text{same-edge no-detachment/record-admission closedness}.
+\end{aligned}
+\tag{UCD.16f}
+\]
+
+The fixed-chart raw formula is already installed, and the primitive raw atlas
+branch reduces to parent-known pre-readout active-state capacity.  Finite menu
+and no-recount are custody/support; they do not pay the half-tail first-ratio
+linear service without `(UCD.16f)'s WLF/ODP row.  Therefore the sharpened
+conditional route is
+
+\[
+\texttt{L2L3\_sp}
++\texttt{MovingDriverActiveStateFirstRatioPackage.A}
+\Longrightarrow
+\texttt{UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A}
+\Longrightarrow
+\varepsilon_*>0.
+\tag{UCD.16g}
+\]
+
+The new package is still open.  This only prevents two false returns: proving
+fixed-chart channel formulas again, or treating finite menu/no-recount as the
+selected first-ratio bill.
 
 The moving-driver Jordan pass removes only the orientation part of this wall.
 On a fixed parent-known material event space,
