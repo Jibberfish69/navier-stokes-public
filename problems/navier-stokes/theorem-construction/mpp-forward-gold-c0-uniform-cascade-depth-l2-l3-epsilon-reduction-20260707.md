@@ -818,3 +818,15 @@ is the Radon-Nikodym/Jacobian shadow of the same before-clipping active density
 \(R_P^+d\mathfrak m_P\). Without `(UCD.33)', the half-tail can keep finite
 parent active \(L^1\) mass and bounded fibre overlap while
 \(\sum_I\int_Iw^{-1}d\sigma\) diverges.
+
+The return-clock Radon-Nikodym pressure test refines `(UCD.33)' to
+\[
+\texttt{ReturnClockParentAnnouncedRNDerivative.A}.
+\tag{UCD.34}
+\]
+This is the clock-measure theorem: the pushed inverse-weight return clock must
+be absolutely continuous with respect to the parent active measure, have
+Radon-Nikodym density bounded by \(R_P^+\), and route singular clock mass to
+paid first-entry, terminal no-residue, legal, stop, or CM before the return can
+be counted. The existing entropy/Jacobian chain controls admitted active
+density ratios; it does not alone admit \(w^{-1}d\sigma\) into that density.
