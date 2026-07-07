@@ -28,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-CANONICAL-one-object-strain-service-reserve-floor-consolidation-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pressure-hessian-global-triad-zero-localized-commutator-reduction-20260707.md
 completion_truth: >-
   Checked no-go for a tempting way to prove the remaining raw signed commutator
   line. The missing X_comm in PMB.9s / SSC.8 cannot be a pure local bounded
@@ -174,6 +175,14 @@ or route-out, the raw signed commutator identity `(PXN.1)' holds with
 \(X_{comm}\) built from the nonlocal pressure-viscosity-incompressibility
 coupling and same-packet interface/collar residuals, not from a pure local
 line-stretch primitive.
+
+The pressure-Hessian triad computation sharpens the same boundary. The
+unlocalized global pairing \(\int S:\nabla^2q\,dx\) is identically zero for
+incompressible smooth fields, since \(k_i\widehat S_{ij}(k)k_j=0\) for every
+Fourier mode. Thus the surviving sign cannot be a bare Hessian/eigenframe/triad
+floor. It must be the localized pressure-Hodge commutator with the packet
+projector, moving chart, viscosity/collar term, and selected bill currency
+present.
 
 With the already filed reductions, the implication chain is:
 
