@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-detector-silent-service-pre-readout-reserve-primitive-half-tail-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
 completion_truth: >-
   This note does not prove RecordMenuPressureActiveOrSilentService.A or
   NormalizedRelayBillCompactnessRecordPassage.A. It proves that the installed
@@ -24,8 +25,10 @@ completion_truth: >-
   positive record service while its local silent-service mass tends to zero.
   Therefore the detector-silent branch reduces noncircularly to an
   original-history strict half-barrier / bounded-below primitive Lyapunov
-  theorem in record units. Using record-edge admission to supply that theorem is
-  circular because admission already assumes the pressure-active-or-silent face.
+  theorem in record units. The detector-silent/first-ratio follow-up records
+  that this is exactly first-ratio storage restricted to the invisible service
+  coordinate. Using record-edge admission to supply that theorem is circular
+  because admission already assumes the pressure-active-or-silent face.
 ---
 
 # Detector-silent service reserve: half-tail obstruction to local routing
