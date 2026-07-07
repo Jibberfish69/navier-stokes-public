@@ -71,6 +71,11 @@ target_object:
   - RecordEdgeSelectorLabelModulusOrPaidDrift.A
   - FiniteParentKnownRecordEdgeSelectorMenu.A
   - StoppedSelectorFiniteScoreOrPaidDrift.A
+  - RecordEdgeMaterialOrderLockedSelectorModulus.A
+  - TransportedSelectorHeatScaleReturn.A
+  - SelectorTieGapOrDriftCharge.A
+  - SameEdgeOrderLockPartnerDeficitPayment.A
+  - HeatScaleReturnTerminalAC.A
   - RetainedRecordEdgeExactProjectorChartLicense.A
   - RetainedRecordEdgeC11MetricTowerOrExit.A
   - RetainedRecordEdgeHigherProjectorServiceOrExit.A
@@ -125,6 +130,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-finite-record-edge-selector-menu-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-edge-selector-modulus-same-packet-gate-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-order-lock-partner-payment-selected-density-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-material-selector-kinematic-realization-direct-test-20260622.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-scale-return-terminal-ac-direct-attempt-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-fluid-physical-story-entrance-order-consolidation-20260704.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
@@ -157,6 +165,9 @@ supersedes_as_live_frontier:
   - freestanding full-exchange compactness or carrier compactness without RecordAdmissionClosedness.A / SameEdgeNoDetachmentModulus.A
   - SameEdgeNoDetachmentModulus.A as one opaque compactness side condition rather than the simultaneous selector/chart/payment/face custody of one retained edge
   - StoppedSelectorFiniteScoreOrPaidDrift.A as proof of arbitrary retained-edge capture before FiniteParentKnownRecordEdgeSelectorMenu.A / RecordEdgeSelectorLabelModulusOrPaidDrift.A is supplied
+  - SameEdgeOrderLockPartnerDeficitPayment.A as an independent c_0 wall rather than selected-density half-tail / retained same-packet overlap payment in full-packet variables
+  - MaterialSelectorKinematicRealization.A or selector/collar endpoint UI as an independent source rather than an admissibility consumer after order-locked material definition, heat-scale return, tie/drift charge, and finite endpoint-jet modulus
+  - TransportedSelectorHeatScaleReturn.A as a solved energy consequence or hidden no-residue payment rather than an open unweighted deformation-return / charged Body-IV geometry-carrier defect gate
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
