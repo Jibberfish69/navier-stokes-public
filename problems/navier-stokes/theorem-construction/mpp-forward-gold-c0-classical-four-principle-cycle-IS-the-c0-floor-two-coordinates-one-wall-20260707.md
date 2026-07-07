@@ -150,15 +150,22 @@ c_0=2\varepsilon_*,
 with `B = dE^{Field}+dA_{4B}+dVisc` the irreversible bill and `R` the one-way
 record.
 
-## 2. They are the same object — the map is exact and forced
+## 2. Same one object, two vocabularies — NOT a four-part decomposition
 
 `(FPC.1)` says: **production `N^lift` is a strict fraction `ε` of the viscous
 payment `νD_N`, uniformly in the shell index `N`, modulo a summable tail.** That is
 `(FPC.2)` — `record ≤ ε⁻¹ · bill` — at shell resolution. **The strict fraction `ε`
-in the classical survivor IS the c_0 margin.** The four principles map onto the
-four shrink-map coordinates one-for-one:
+in the classical survivor IS the c_0 margin.**
 
-| classical principle / Body face | c_0 shrink-map coordinate | physical content |
+The table below is a **translation glossary between two vocabularies for the one
+simultaneous object, read left-to-right only** — it is emphatically **not** a
+decomposition into four separable producers, and neither column is four things. Each
+row names the same one solution seen through a classical word and a shrink-map word;
+the shrink-map's own refrain ("not a menu of independent producers") is the modern
+statement of the owner correction above. Reading any single row as a closable
+sub-theorem re-slices the object and is the error this note exists to retire:
+
+| classical word (one aspect of the one solution) | shrink-map word (same aspect) | physical content |
 |---|---|---|
 | Scale-Barrier / **Body I** — tail leakage, no-escape (high-freq spectral control `E(k)≤Ck^{-β}`) | `SameCarrierTailUI.A` / terminal-atom no-escape | the record cannot leak to the high-frequency / terminal tail unbilled |
 | Monotone-cascade carrier / **Body II** — tower flux/debt | tower-relay / radiodrome / `FullTowerPositiveChannelThreeMeasureAdmission.A` (Perron) | cross-rung transfer must be admitted and billed |
