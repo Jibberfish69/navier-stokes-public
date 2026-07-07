@@ -126,6 +126,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
@@ -273,7 +274,12 @@ completion_truth: >-
   SelectedRellichSelectorForceLowerBound.A. The selector-force floor itself is
   now installed in scale-normalized H^{-1}; the remaining Rellich-side source is
   selected affine-moment carrier identification plus H^{-1} selector-force
-  conversion into the retained bill currency. The terminal storage side is
+  conversion into the retained bill currency. The balance-leg audit shows the
+  viscous leg is paid in bill currency, while acceleration endpoint impulse can
+  carry the terminal pulse without square-force billing unless endpoint/frame
+  variation is charged or routed out; nonlinear and defect legs still need
+  same-edge admission from kinetic/collar/Reynolds or certificate variation
+  into the retained bill. The terminal storage side is
   lowered to
   RootFixedTerminalUniformL1FullPacketServiceStorage.A, then by the TFE source
   audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
