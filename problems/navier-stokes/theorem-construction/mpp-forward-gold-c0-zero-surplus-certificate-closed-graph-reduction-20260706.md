@@ -41,6 +41,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
 completion_truth: >-
   Abstract closedness proof and strict reduction only. This note proves that
   the zero-surplus certificate graph is closed once every same-packet surplus
@@ -60,7 +61,10 @@ completion_truth: >-
   FullTower retention. The temporal-thin follow-up proves that after such a
   payer is admitted on a compact terminal material-time window, shrinking
   positive service survives as a nonzero atom and contradicts the zero-surplus
-  graph. This file does not close FullTower retention, c_0, or the MPP.
+  graph. The compact coercivity extraction follow-up proves that this closed
+  graph plus qualitative zero-loss rigidity yields the strict c_0 modulus by
+  the direct method. This file does not close FullTower retention, c_0, or the
+  MPP.
 ---
 
 # Zero-surplus certificate closed graph
@@ -223,5 +227,8 @@ future-positive edge into parent-owned/root/full-exchange currency. After that
 construction, the temporal-thin atom lemma prevents shrinking material-time
 service from escaping the zero-surplus graph, and zero-loss tower relay
 rigidity still has to be proved on the certified invariant surplus-zero class.
+After that qualitative rigidity is proved, the compact coercivity extraction
+lemma supplies the positive modulus by minimizing the surplus payer on the
+normalized compact graph.
 
 No \(c_0\) closure is claimed here.
