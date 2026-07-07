@@ -15,7 +15,7 @@ target_object:
   - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
   - SameEdgePrimitiveSignedScalePotentialLift.A
   - SameEdgePotentialRecordRootBound.A
-  - SameEdgeNegativeScaleReturnCharge.A
+  - SameEdgeSelectedReturnAdmissionToLinearBV.A
   - SameEdgeEscapingCoreCapacityPacking.A
   - Exit(Q):=not Member(Q)
 source_refs:
@@ -28,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-same-edge-strict-half-barrier-direct-proof-pass-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-negative-return-square-to-linear-admission-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-ns-unified-physical-roof-control-synthesis-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
   - problems/navier-stokes/theorem-construction/mpp-pack-part-field-canonicality-reduction-note.md
@@ -211,10 +212,12 @@ The scalar record/return BV identity then kills the repeated-core half-tail
 once three same-edge PDE inputs are admitted before readout:
 `SameEdgePrimitiveSignedScalePotentialLift.A`,
 `SameEdgePotentialRecordRootBound.A`, and
-`SameEdgeNegativeScaleReturnCharge.A`. The root-bound word matters. The older
-stopped potential-average bound is a consumer after the stopped record has
-already been built. The producer needed here is the original-history root bound
-for the same stopped potential record.
+`SameEdgeSelectedReturnAdmissionToLinearBV.A`. The root-bound word matters. The
+older stopped potential-average bound is a consumer after the stopped record
+has already been built. The fixed stopped score supplies square return
+currency; the producer needed here is the original-history root bound for the
+same stopped potential record plus selected-return admission that turns square
+currency into linear one-way BV.
 
 Second, the selected episodes can escape every fixed material core by moving to
 smaller transported cores. Raw heat mass cannot rule this out; the affine local
@@ -229,7 +232,7 @@ Thus the current same-edge reduction is:
 \begin{aligned}
 &\texttt{SameEdgePrimitiveSignedScalePotentialLift.A}\\
 &+\texttt{SameEdgePotentialRecordRootBound.A}\\
-&+\texttt{SameEdgeNegativeScaleReturnCharge.A}\\
+&+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}\\
 &+\texttt{SameEdgeEscapingCoreCapacityPacking.A}\\
 &\Longrightarrow
 \texttt{OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A}.
@@ -360,7 +363,7 @@ renaming it as closure:
 2. prove the same-edge half-barrier branch inputs:
    `SameEdgePrimitiveSignedScalePotentialLift.A`,
    `SameEdgePotentialRecordRootBound.A`,
-   `SameEdgeNegativeScaleReturnCharge.A`, and
+   `SameEdgeSelectedReturnAdmissionToLinearBV.A`, and
    `SameEdgeEscapingCoreCapacityPacking.A`;
 3. prove `FullTowerPositiveChannelThreeMeasureAdmission.A` for the surviving
    moving low-high pressure/strain driver;
