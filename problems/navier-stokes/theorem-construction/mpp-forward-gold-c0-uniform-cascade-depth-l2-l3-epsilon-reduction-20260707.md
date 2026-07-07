@@ -38,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fresh-overrun-tail-ui-no-invisible-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -759,3 +760,47 @@ the actual selected carrier. Thus the terminal source-curve atom must be either
 admitted as a typed CM route-out or paid by full-packet no-residue / terminal
 same-carrier critical anti-atom before readout. This is a strict narrowing of
 the source wall, not a proof of \(c_0\).
+
+## 9. Return-side source sharpening after parent-active entropy
+
+The selected-return part of the first-ratio bill now has a sharper source
+location. The inverse-weight capacity needed to turn stopped-score square
+currency into selected linear BV follows from return-fibre admission into the
+same before-clipping parent active density:
+
+\[
+\begin{aligned}
+&\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}.
+\end{aligned}
+\tag{UCD.31}
+\]
+
+Thus the active \(L^2\to L^3\) to \(\varepsilon_*\) chain can be stated more
+sharply as
+
+\[
+\begin{aligned}
+&\texttt{L2L3\_sp}
++\texttt{MovingDriverActiveStateFirstRatioPackage.A}\\
+&+\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\Longrightarrow
+\texttt{UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A}\\
+&\Longrightarrow
+\varepsilon_*>0.
+\end{aligned}
+\tag{UCD.32}
+\]
+
+This is still a strict reduction. The new gain is that the return-side
+half-tail cannot hide behind the phrase "selected return admission": the
+retained return intervals must already be bounded-overlap fibres of the parent
+active measure before clipping, with \(\int_Iw^{-1}\,d\sigma\) dominated by
+\(R_P^+\,d\mathfrak m_P\). Parent thickness plus active entropy then supplies
+the inverse-weight capacity, while full-exchange depletion and before-clipping
+active-density comparison remain the unproved PDE source theorems.

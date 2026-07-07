@@ -38,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf-odp-affine-transition-first-ratio-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-record-return-producer-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
 completion_truth: >-
   Strict reduction only. This note does not prove
@@ -235,6 +236,28 @@ bound are consumers after admission; root-geometry square return is not linear
 one-way BV without the selected-return admission. The lower noncircular
 producer is still original-history selected potential/amplification BV, or the
 equivalent strict original-ledger generator/full-exchange depletion carrier.
+
+The selected-return admission in that producer has now been localized to its
+exact capacity source:
+
+\[
+\begin{aligned}
+&\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
+\end{aligned}
+\tag{MDS.9d}
+\]
+
+So the selected-return part of the first-ratio row is not an independent
+post-readout BV estimate. It is the return-fibre face of the same parent active
+thickness/entropy source, and it remains open exactly where the retained
+return intervals must be admitted as before-clipping bounded-overlap fibres of
+the same parent active measure.
 
 ## 4. The sharpened package
 

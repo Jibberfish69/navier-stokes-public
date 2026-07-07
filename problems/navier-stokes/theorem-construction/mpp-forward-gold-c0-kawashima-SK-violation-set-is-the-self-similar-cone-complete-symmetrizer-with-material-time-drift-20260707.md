@@ -202,15 +202,43 @@ are non-degenerate there. Proving this is exactly the drift-viscosity Liouville;
 open content is that `\mathcal D`'s non-commutativity is *quantitatively* enough to
 dominate the cone, uniformly — which is 3D global regularity, open.
 
-## 5. Honest grade
+## 4a. What `\mathcal D` gives w.r.t. `ε` — and the critical-null catch
 
-- **STRUCTURAL, checkable:** the SK/observability tower degenerates exactly on the
-  self-similar cone (§1); `c_0` = non-commutativity of `(A,B)` (§2); the symmetrizer is
-  a funnel forcing route-b (§3). These use only the repo's installed symmetrizer
-  operator form and the standard SK/Kalman equivalence.
-- **PROPOSAL, not proof:** completing the symmetrizer on the cone with `\mathcal D`
-  (§4). It is a specific, previously-unmade line — identify route-b as the missing
-  `\mathcal D`-coupled compensator, with the irreversibility sign realized as the drift.
-- **OPEN (unchanged target, now mechanized):** the quantitative uniform sufficiency of
-  `\mathcal D` on the self-similar cone = the material-time Liouville / NRS-extension =
-  `c_0`. 3D global regularity; open. No closure claimed. Filed is not cleared.
+`ε_*=\inf_{R=1}B` is the bill per unit *critical* record. On the cone spatial exchange
++ viscosity give `ε=0` (marginal), so any `ε` there is `\mathcal D`-sourced. `\mathcal D`
+supplies a fixed `−½` per e-fold of self-similar time — scale-free, the parabolic
+exponent, i.e. the per-decade fixed sign that beats the harmonic/log gap `Σ1/(ℓ+1)`. So
+its *would-be* contribution is `O(1)`, arrow-sourced, not viscosity-small. **But
+`\mathcal D` is the scaling generator and the critical norm `H` is scale-invariant, so
+`\mathcal D H=0` — `\mathcal D` is critical-null.** Its `½`-gap lives in *non-critical*
+norms and books zero in the critical currency `ε` is measured in. Hence `\mathcal D`
+alone gives `ε=0` in the critical currency; the gap reaches `ε` only through the
+**nonlinear** vortex-stretching transfer:
+```math
+\varepsilon_*\ \approx\ \tfrac12\times\eta,\qquad
+\eta=\text{efficiency of nonlinear transfer of the drift's per-e-fold sign into the scale-invariant critical currency, uniformly to the log endpoint.}
+```
+Exact self-similar: `η` rigid, closes (NRS). Log-marginal `N_L~2^{-L}/L`: `η` leaks at
+the log endpoint — the same `ℓ¹`/first-ratio wall as the delamination file. So even the
+optimistic `\mathcal D`-completion does not hand a number; it reduces `ε` to the one
+endpoint scalar `η`, and does not prove `η>0`.
+
+## 5. Honest grade (clean version)
+
+- **The genuinely useful output — a candidate attack card:** `\mathcal D` names a *sharp
+  candidate coupling operator* for the route-b residual, and welds route-b to the
+  four-body symmetrizer instead of treating them as separate. The next honest burden is
+  the **displayed `\mathcal D`-coupled compensator inequality** (§4).
+- **CLASSIFICATION only (not a PDE theorem):** on the frozen/finite-dim retained quotient
+  the observability tower degenerates on the self-similar cone, which coincides with the
+  counterobject / viscosity-marginal set (§1). The one real theorem is the affine no-go.
+- **NOT PROVED — two open burdens, stated plainly:**
+  1. that the SK failure set is **exactly exhausted by the cone in the actual PDE** (the
+     bounded off-cone symmetrizer at large data is open — §1, §3; the affine
+     `−c log|ℓ|` stretching obstruction is *not* confined to the cone);
+  2. that `\mathcal D` supplies a **uniform positive floor** (`η>0`; §4a shows `\mathcal D`
+     is critical-null, so this rests entirely on the nonlinear transfer at the log
+     endpoint).
+- **OPEN target:** `ε_* ≳ ½·η > 0` uniformly = the material-time drift-viscosity Liouville
+  / NRS-extension = `c_0`. 3D global regularity; open. The funnel (§3) is conditional on
+  burden 1. No closure claimed. Filed is not cleared.
