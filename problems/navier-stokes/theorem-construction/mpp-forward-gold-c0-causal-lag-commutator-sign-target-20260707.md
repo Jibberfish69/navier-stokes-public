@@ -53,8 +53,13 @@ completion_truth: >-
   Section 14 places the transport identity itself: it is not the sign theorem,
   but the retained chart/selector admission condition. If that chart is absent,
   the object already routes to chart/selector/collar/exit bill; if it is present,
-  the identity is the pushforward definition and the remaining sign work is
-  boundary moment ownership plus nondegenerate-service domination.
+  the identity is the pushforward definition. Section 15 reduces boundary moment
+  ownership to same-edge selector/order-lock variation in the existing c_0 bill
+  currency: the endpoint moment variation is formal once the retained chart is
+  fixed, while the nontrivial line is admitting that variation as
+  \(\mathsf P_{\rm mix}\) before readout. The remaining sign work is therefore
+  \(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate-service
+  domination.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1086,3 +1091,68 @@ service can concentrate on \(z=0\cup z=1\), where the active transverse channel
 vanishes. If both hold, the sourced angular-mixing branch closes. If either
 fails, the failure is now sharply typed: unpaid retained angular boundary handoff
 or positive service living on a transverse-degenerate endpoint.
+
+## 15. Boundary moment ownership reduces to bill-currency admission
+
+The boundary line (CLS.53) is not a second Calderon-Zygmund sign theorem. Once
+Section 14 has put the object on the admitted retained angular chart, the
+boundary moment is just a same-edge selector/chart coordinate:
+
+```math
+B(t):=\int g\,d\mu_t,\qquad g(z)=2z-1.
+\tag{CLS.71}
+```
+
+On a fixed retained chart with a parent-announced selector, changing \(B(t)\)
+over the material interval is selector/order-lock/angular-coordinate variation
+of the same packet. Hence the formal estimate is only
+
+```math
+\left|B(t_1)-B(t_0)\right|
+\le
+\operatorname{Var}_{I}B
+\le
+C\left(
+\mathsf P_{\rm mix}^{\rm var}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.72}
+```
+
+Here \(\mathsf P_{\rm mix}^{\rm var}\) is the raw same-chart angular/selector
+variation. The real question is whether that raw variation is an admitted
+pressure-participation bill before the positive record is read:
+
+```math
+\mathsf P_{\rm mix}^{\rm var}
+\le
+C\,\mathsf P_{\rm mix}^{c_0}.
+\tag{CLS.73}
+```
+
+The retained-edge source notes identify exactly this producer. The
+projector/selector paid-rotation split says that genuine selector/order-lock
+motion is payable only after parent-announced selector capture, through stopped
+full-exchange action or an equivalent selected-density first-ratio gain; the
+producer-collapse note then routes that payment to the original-history
+selected-critical fresh-source / scale-memory wall. In the present variables,
+
+```math
+\begin{aligned}
+&\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
+&+\texttt{StoppedFullExchangeActionCarleson.A}
+  \quad\text{or equivalent selected-density/original-history payment}\\
+&\Longrightarrow
+\text{boundary moment ownership (CLS.53).}
+\end{aligned}
+\tag{CLS.74}
+```
+
+Thus boundary moment ownership has been reduced, not proved. If
+\(\mathsf P_{\rm mix}^{\rm var}\) is admitted as the existing \(c_0\) bill, then
+(CLS.53) follows by total variation on the same retained chart. If that
+admission fails, the surviving obstruction is not an angular CZ sign failure; it
+is an unpaid retained angular boundary handoff, equivalently a selector-variation
+currency mismatch before readout.
