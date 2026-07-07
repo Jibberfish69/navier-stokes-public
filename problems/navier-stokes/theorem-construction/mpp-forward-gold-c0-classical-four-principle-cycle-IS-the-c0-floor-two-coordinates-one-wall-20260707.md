@@ -216,11 +216,10 @@ identical reason the modern route isolated:
   log-self-similar tower `N_L ~ 2^{-L}/L`, a scaling fixed point under a scaling
   that preserves `ν` (the viscosity-marginal weld).
 
-So `Q(t)` boundedness cannot supply that self-consistency (it is only the zeroth
-moment), and no scale-covariant estimate can (it re-ties the marginal). **The one
-simultaneous four-body solution and the modern c_0 collapse are one wall, unclosed
-for one reason** — and, being one object, it must be closed as one, not face by
-face.
+So `Q(t)` boundedness cannot tip the balance (it is only the zeroth moment), and no
+scale-covariant estimate can (it re-ties the marginal). **The one simultaneous
+four-body solution and the modern c_0 collapse are one wall, unclosed for one
+reason** — and, being one object, it must be closed as one, not face by face.
 
 ## 4. The Euler mirror is the `ν=0` control that confirms the lever
 
