@@ -3236,6 +3236,54 @@ and equality-zero routes to the stationary collar theorem or pass/nonparticipati
 rather than positive retained record. This is the next exact theorem, recorded separately in
 `mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`.
 
+### 26.2 Affine-symbol pressure test
+
+The first direct pressure test is now recorded in the causal-lag note. Freeze
+the material velocity to the affine Vieillefosse strain
+
+```math
+u_A(x)=Ax,
+\qquad
+A=\operatorname{diag}(a,a,-2a),
+\qquad a>0.
+\tag{VPL.254}
+```
+
+For the pressure Hessian multiplier
+
+```math
+m(\xi)=\frac{\xi\otimes\xi}{|\xi|^2},
+\tag{VPL.255}
+```
+
+the affine transport commutator has Fourier symbol
+
+```math
+-\bigl((A\xi)\cdot\nabla_\xi m(\xi)\bigr).
+\tag{VPL.256}
+```
+
+Writing \(n=\xi/|\xi|\), the plane-to-compressive transverse entries are
+
+```math
+\bigl((A\xi)\cdot\nabla_\xi m\bigr)_{i3}
+=
+3a\,n_i n_3(2n_3^2-1),
+\qquad i=1,2.
+\tag{VPL.257}
+```
+
+This is a genuine re-aiming channel, but it is not a sign theorem. The factor
+\(2n_3^2-1\) changes sign across angular sectors. Therefore the bare
+Calderon-Zygmund operator restricted to the transverse channel does not have a
+uniform handedness over arbitrary embeddings.
+
+The consequence for \(c_0\) is exact: causal lag must be proved after selected
+material orientation, retained participation measure, and pass/collar/zero-record
+classification are imposed. A self-similar or log-self-similar marginal tower
+could try to mix the two signs in (VPL.257). Excluding that cancellation is the
+retained-participation classification problem, not a bare Fourier-symbol fact.
+
 ## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
