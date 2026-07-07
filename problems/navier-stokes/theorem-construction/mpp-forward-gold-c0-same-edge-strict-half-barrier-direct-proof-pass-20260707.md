@@ -19,8 +19,8 @@ descent split.
 The result is a strict conditional reduction. The repeated-core branch is
 algebraically killed by the scalar record/return BV identity once the signed
 scale-potential lift, original-history potential record bound, and negative
-return charge are admitted before selected positive-part readout. The
-shrinking-core branch
+return is admitted into linear BV through the same parent-owned square bill
+currency before selected positive-part readout. The shrinking-core branch
 reduces to one same-edge escaping-core capacity packing theorem. Those PDE
 branch inputs are still open.
 
@@ -133,13 +133,14 @@ facts are supplied on the same retained edge before readout:
 ```text
 SameEdgePrimitiveSignedScalePotentialLift.A
 SameEdgePotentialRecordRootBound.A
-SameEdgeNegativeScaleReturnCharge.A
+SameEdgeSelectedReturnAdmissionToLinearBV.A
 ```
 
 The proof of the repeated-core implication is purely scalar after `(SEH.4)'.
-If \(\operatorname{Rec}_M(\Psi)\) is bounded by original data, and
-\(V_-^{return}\) is charged to the same parent bills, then the right side of
-`(SEH.6)' stays finite. This contradicts the half-tail divergence
+If \(\operatorname{Rec}_M(\Psi)\) is bounded by original data, and the retained
+negative returns are admitted into the same parent-owned harmonic square bill
+currency so that square return control becomes linear BV, then the right side
+of `(SEH.6)' stays finite. This contradicts the half-tail divergence
 \(\sum_m a_m=\infty\). If the stopped endpoint, channel, or representative is
 not parent-known before readout, that is a reset/overrun or channel-admission
 failure, not a proof of the potential record bound.
@@ -147,10 +148,12 @@ failure, not a proof of the potential record bound.
 These are the same physical inputs as
 `StoppedPrimitivePLSSignedScalePotentialLift.A`,
 `StoppedPotentialRecordAverageBound.A`, and
-`StoppedNegativeScaleReturnCharge.A`, but with the extra same-edge custody
+the fixed-score return/BV package, but with the extra same-edge custody
 requirement kept explicit. The potential-average bound is a consumer after the
-endpoint-corrected stopped record is built; the producer needed here is the
-original-history root bound for that same stopped potential record.
+endpoint-corrected stopped record is built. The fixed stopped score gives
+square return currency; the producer needed here is the original-history root
+bound for that same stopped potential record plus selected-return admission
+that turns the square currency into linear one-way BV.
 
 ## Shrinking-core branch: capacity packing
 
@@ -207,7 +210,7 @@ The direct proof pass proves the following conditional reduction:
 \begin{aligned}
 &\texttt{SameEdgePrimitiveSignedScalePotentialLift.A}\\
 &+\texttt{SameEdgePotentialRecordRootBound.A}\\
-&+\texttt{SameEdgeNegativeScaleReturnCharge.A}\\
+&+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}\\
 &+\texttt{SameEdgeEscapingCoreCapacityPacking.A}\\
 &\Longrightarrow
 \texttt{OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A}.
@@ -238,7 +241,7 @@ the same-edge admission of the scalar objects and the escaping-core capacity:
 ```text
 SameEdgePrimitiveSignedScalePotentialLift.A
 SameEdgePotentialRecordRootBound.A
-SameEdgeNegativeScaleReturnCharge.A
+SameEdgeSelectedReturnAdmissionToLinearBV.A
 SameEdgeEscapingCoreCapacityPacking.A
 ```
 
