@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -804,3 +805,16 @@ active measure before clipping, with \(\int_Iw^{-1}\,d\sigma\) dominated by
 \(R_P^+\,d\mathfrak m_P\). Parent thickness plus active entropy then supplies
 the inverse-weight capacity, while full-exchange depletion and before-clipping
 active-density comparison remain the unproved PDE source theorems.
+
+The return-fibre clause itself has now been split. Same-edge custody, finite
+menu, stopped-line ancestry, and no-detachment supply the correct retained
+fibre container, but the quantitative first failed line is
+\[
+\texttt{ReturnIntervalActiveFibreJacobianDomination.A}.
+\tag{UCD.33}
+\]
+That theorem must prove that the inverse-weight return clock \(w^{-1}d\sigma\)
+is the Radon-Nikodym/Jacobian shadow of the same before-clipping active density
+\(R_P^+d\mathfrak m_P\). Without `(UCD.33)', the half-tail can keep finite
+parent active \(L^1\) mass and bounded fibre overlap while
+\(\sum_I\int_Iw^{-1}d\sigma\) diverges.
