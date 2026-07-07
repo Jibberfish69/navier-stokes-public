@@ -29,6 +29,7 @@ derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
   the current c_0 Gate2 stack. It does not produce the Navier-Stokes matrix from
@@ -49,10 +50,11 @@ completion_truth: >-
   tail failure held as obstruction/readout unless separately admitted and
   consumed. The zero-bill unit-cycle follow-up identifies the qualitative
   compact form of the full matrix gap: after record admission and exact
-  charting, exclude normalized nonnegative zero-surplus Perron cycles. The
-  kernel test proves the absolute-zero version is already excluded by the
-  zero-bill relay-record kernel; the open producer is the upgrade/rigidity that
-  excludes the zero-surplus ratio-one cycle. No c_0 closure is claimed.
+  charting, exclude normalized nonnegative zero-surplus record-feeding Perron
+  classes/circulations. The kernel test proves the absolute-zero version is
+  already excluded by the zero-bill relay-record kernel; the open producer is
+  the upgrade/rigidity that excludes the zero-surplus ratio-one Perron class.
+  No c_0 closure is claimed.
 ---
 
 # Bill-coercive storage matrix criterion
@@ -272,9 +274,9 @@ around the parent packet forever with zero finite reserve drop. The new point
 here is only that once the feedback is strictly subcritical in bill currency,
 absorption is automatic.
 
-The zero-surplus unit-cycle follow-up gives the qualitative compact form of the
-same producer. After record admission and exact charting, absence of normalized
-nonnegative zero-surplus Perron cycles in the retained parent-face bundle
-implies a uniform gap \(\rho(K_P)\le1-\eta\). The high-frequency transfer
-equivalence identifies that cycle with the last retained in-class zero-loss
-theta branch.
+The zero-surplus Perron-class follow-up gives the qualitative compact form of
+the same producer. After record admission and exact charting, absence of
+normalized nonnegative zero-surplus record-feeding Perron classes in the
+retained parent-face bundle implies a uniform gap
+\(\rho(K_P)\le1-\eta\). The high-frequency transfer equivalence identifies
+that Perron class with the last retained in-class zero-loss theta branch.
