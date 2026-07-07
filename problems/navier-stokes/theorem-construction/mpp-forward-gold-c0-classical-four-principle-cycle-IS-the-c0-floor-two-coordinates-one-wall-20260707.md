@@ -172,6 +172,53 @@ sub-theorem re-slices the object and is the error this note exists to retire:
 | Non-Sobolev Compactness / **Body III** — extraction passage `u^{(n)}→u` | `ParentOwnedPositiveRecordBillCurrency.A` compactness + record-passage / no-critical-concentration | the survivor must reappear on the exact weak-limit field |
 | Curvature-Based Regularity / **Body IV** — deformation-geometry commutator | `SignedSmoothSamePacketCommutatorCoercivity.A` / non-affine pressure-viscous commutator / moving low-high pump | the strain-geometry driver must be **signed** |
 
+### 2a. The higher algebra of the simultaneity — the binding is OFF-DIAGONAL
+
+The table above is the **diagonal** (`L_S, L_Q, L_C, L_G`) — four separable readings.
+It is **not** the object, and treating it as the object is the re-slicing error. The
+actual higher algebra that balances all four **simultaneously** is the **four-body
+Kawashima symmetrizer** (repo cluster, 2026-06-22/23), a single positive quadratic
+form on the one packet's four-vector:
+
+```math
+\mathfrak U_N=(S_N,Q_N,C_N,G_N),\qquad
+\mathfrak L_{4B,N}=\langle\mathfrak U_N,\,H_\sigma\,\mathfrak U_N\rangle,\qquad
+H_\sigma=I+K_\sigma,\qquad
+K_\sigma=K_{SQ}+K_{QC}+K_{CG}+K_{GS},
+```
+
+with `K_σ` **cyclic off-diagonal** — the bilinear cross-terms `X_ij = 2Re⟨i,K_ij j⟩`
+that weld adjacent bodies. The balance is the one Kawashima/Lyapunov inequality
+
+```math
+\partial_\sigma H_\sigma+H_\sigma\mathcal L_\sigma+\mathcal L_\sigma^\ast H_\sigma
+\ \le\ -c\,A_{4B,N}-D_{4B,N}-c\,d[\log(1+\mathcal P_N^{mat})]_+ + R_{4B,N},
+\qquad \mathcal L_\sigma=A_\sigma-B_\sigma+E_\sigma,
+```
+
+`A_σ` = conservative cyclic exchange `S⇌Q⇌C⇌G⇌S`, `B_σ≥0` = dissipative loss. Its
+existence is governed by the **Shizuta–Kawashima genuine-coupling condition**
+(`Z∈ker B_σ` and `A_σ^k Z∈ker B_σ ∀k ⟹ Z∈𝓖` gauge): iterating the conservative
+exchange transmits the *partial* drain `B` to *all four* coordinates at once. **This
+one symmetrizer is what "one solution acting simultaneously" IS**, algebraically —
+the off-diagonal `K` is the simultaneity, and no single body is closable because the
+coercivity is a property of `H` as a whole.
+
+**And it cannot be built by algebra alone.** On the affine strain normal form
+`S_λ = diag(λ,−λ/2,−λ/2)` the cross-storage that would cancel the stretching is
+`X = −c log|ℓ|`, unbounded below as a material line stretches (`∫dΓ_+ = λT → ∞`); a
+cumulative primitive `X_ij(σ) = −∫ω_ij` is bounded below **iff** the full clock is
+already finite (circular). So the bounded-below symmetrizer exists **iff** NS supplies
+a genuine one-way *signed* loss. Therefore:
+
+```math
+\boxed{\ \text{four balanced simultaneously}\ \equiv\ \text{bounded-below } H_\sigma=I+K_\sigma \text{ exists}
+\ \equiv\ \texttt{SignedSmoothSamePacketCommutatorCoercivity.A}\ \equiv\ X_{comm}\text{ no-go}\ \equiv\ c_0>0.\ }
+```
+
+This is the same wall as §3 and as the viscosity-marginal note's `X_comm` no-go —
+now seen as the **non-existence-by-algebra of the four-body symmetrizer**.
+
 And the **Monotone Functional** itself:
 
 ```math
