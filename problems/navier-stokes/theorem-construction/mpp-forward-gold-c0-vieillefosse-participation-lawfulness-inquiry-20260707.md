@@ -685,3 +685,96 @@ This still stops short of \(c_0>0\). It proves a nonzero transverse channel for
 the first incompressible collar model. The full \(c_0\) floor still requires a
 quantitative lower bound that survives tower optimization, non-axisymmetric
 escape, and log-endpoint delamination.
+
+## 11. Physical upgrade path
+
+The collar calculation should be read physically as a stress-transfer
+calculation. The affine Vieillefosse core is an infinite frictionless
+self-stretcher. To make it a finite-energy same-fluid participant, the parent
+field has to turn that affine stretcher off. That turn-off is the gluing layer.
+
+The gluing layer cannot be physically neutral. The core is an \(l=2\)
+quadrupolar strain. A finite-energy turn-off of an \(l=2\) stretcher forces the
+fluid to bend the quadrupole through the collar. Quadrupole times quadrupole
+contains
+
+```math
+2\otimes2=0\oplus2\oplus4.
+\tag{VPL.55}
+```
+
+The \(l=0\) part is isotropic pressure. The \(l=2\) part can stay aligned with
+the affine Vieillefosse direction. The \(l=4\) part is the transverse
+four-lobed pressure stress. In the radial Leray-corrected collar, trying to
+remove that \(l=4\) part forced the collar to be trivial.
+
+This gives the physical upgrade principle:
+
+```math
+\text{a lawful finite-energy participation layer cannot turn off a
+Vieillefosse stretcher without producing transverse pressure stress, unless
+the attempted cancellation itself carries comparable viscous cost.}
+\tag{VPL.56}
+```
+
+So the route from model-class coercivity to \(c_0\) is not to add more local
+strain algebra. It is to eliminate the physical escape modes.
+
+First, eliminate non-axisymmetric hiding. A non-axisymmetric gluing may rotate
+or spread the \(l=4\) stress among the \(m=-4,\ldots,4\) components, but the
+physical quantity is the whole \(l=4\) multipole mass:
+
+```math
+\|\Pi_{4}(\partial_i u_j\partial_j u_i)\|.
+\tag{VPL.57}
+```
+
+The target statement is that if this \(l=4\) mass is made small while the
+Vieillefosse service is fixed, then the compensating modes must have comparable
+gradient energy. Physically: hiding the four-lobed pressure by adding
+counter-shear is itself a viscous payment.
+
+Second, eliminate pressure cancellation. Pressure is elliptic, so the
+\(l=4\) source cannot disappear into a gauge or isotropic pressure. It can only
+be cancelled by another \(l=4\) source of opposite sign. The same-field law must
+charge that opposite source as participation cost, because it is another
+non-affine deformation of the same packet or parent collar.
+
+Third, eliminate log-endpoint delamination. A long tower can defeat a derivative
+energy in log scale by putting all variation at the two ends. The participation
+law has to supply a mass measure, not merely a derivative measure:
+
+```math
+d\mu_{\rm transverse}
+\ge
+c\,d\mu_{\rm service}
+\tag{VPL.58}
+```
+
+on the active same-fluid participation rungs. In physical words: every rung
+that claims Vieillefosse self-stretching service also has to be attached to the
+parent field as a lawful participant, and that attachment has to create its own
+transverse pressure stress. If the only stress is at the entrance and exit of a
+long tower, the middle rungs were not individually lawful same-fluid
+participants in the participation-law sense.
+
+The upgraded theorem would therefore be an alternative:
+
+```math
+\|\Pi_4 f[u]\|_{\rm press}
++\mathcal V_{\rm cancel}(u)
+\ge
+c\,\mathcal S_{\rm Vieillefosse}(u),
+\tag{VPL.59}
+```
+
+where \(f[u]=\partial_i u_j\partial_j u_i\), \(\Pi_4\) is the transverse
+quadrupole-square pressure channel, and \(\mathcal V_{\rm cancel}\) charges any
+same-field modes used to cancel that channel. This is the physical content of
+the desired SK mass.
+
+In this reading, \(c_0>0\) comes from a no-free-collar law: a same-fluid packet
+may stretch like Vieillefosse only if the parent field supplies a gluing layer;
+the gluing layer either emits transverse pressure stress or spends comparable
+viscous deformation trying to hide it. The full theorem is the uniform version
+of that sentence over all lawful participation towers.
