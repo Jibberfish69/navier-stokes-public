@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-2
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / physics-first falsifiability filter + signed-irreversibility candidate lever
-status: DIAGNOSIS + FALSIFIABILITY FILTER + CANDIDATE SIGN-MECHANISM, NOT A PROOF; diagnostic overlay subordinate to the shrink-map
+status: CORRECTED DIAGNOSIS + FALSIFIABILITY FILTER + PURSUIT-LAG BREAKPOINT, NOT A PROOF; diagnostic overlay subordinate to the shrink-map
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -16,6 +16,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-pump-finite-work-circularity-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
 completion_truth: >-
   Physics-first diagnosis, a falsifiability filter, and identification of the
@@ -26,36 +28,40 @@ completion_truth: >-
   exact scaling-critical exponent (dot H^{1/2}/L^3). (2) FILTER: the 3D NS scaling
   u_l=l u(l x, l^2 t) is an EXACT symmetry of the full equation, viscosity
   INCLUDED (every term scales as l^3; nu is preserved; ||u||_{dot H^{1/2}} is
-  invariant). Therefore any mechanism that is itself scale-covariant can only
-  reproduce a scale-invariant (equality/marginal) bound -- it CANNOT produce the
-  strict inequality c_0>0. Every scale-covariant route is dead on arrival at the
-  marginal 1/2. This is why all routes collapse to one wall. (3) The only
-  scale-BREAKING levers are: (i) the finite-energy subcritical budget -- but thin
-  records escape it (established, not-a-budget note); (ii) a strictly-supercritical
-  compensated-compactness gain -- but div-curl is marginal exactly at L^3; (iii)
-  IRREVERSIBILITY / sign / monotonicity -- NOT a scaling statement, and the one
-  lever left standing. (4) THE LIVE LEVER, pushed: c_0 is the STRICT, SIGNED,
-  cascade-uniform deviation off the ratio-one marginal (surplus = R(B-1)^2/B = 0
-  at B=1), and the candidate physical sign-mechanism is pursuit-lag / radiodrome:
-  the smoothed non-local self-strain frame must be compared with the sharpening
-  local spin inside the same irreversible packet (route-b tower-relay, never a
-  local eigenframe read). In the current shrink map this candidate is not a
-  freestanding source; it must instantiate as the moving low-high pressure/strain
-  pump / stopped free-material graph driver, or as a direct original-data face
-  theorem making the record-admitted matrix subcritical. (5) OPEN WALL: the
-  uniform quantitative strictness and correct SIGN of that deficit at the
-  critical exponent. Confirms the shrink-map's terminal storage lever
+  invariant). Scale covariance therefore gives no dimensional gain by itself.
+  The earlier stronger sentence was too strong: strict scale-invariant constants
+  can exist. The correct filter is that a scale-covariant route is only a
+  coordinate of the marginal wall unless it adds a signed irreversible
+  compactness/storage/admission mechanism in bill currency. (3) The possible
+  strictness levers beyond dimensional scaling are: (i) the finite-energy
+  subcritical budget -- but thin records escape it (established, not-a-budget
+  note); (ii) a strictly-supercritical compensated-compactness gain -- but
+  div-curl is marginal exactly at L^3; (iii) irreversibility / sign /
+  monotonicity -- the one lever left standing, provided it is realized as
+  same-edge bill-currency, not as a slogan. (4) THE LIVE LEVER, pushed and
+  checked: c_0 is the STRICT, SIGNED, cascade-uniform deviation off the
+  ratio-one marginal (surplus = R(B-1)^2/B = 0 at B=1), and the candidate
+  physical sign-mechanism is pursuit-lag / radiodrome. The naive smoothing
+  version does not prove it: Biot-Savart smooths velocity, but strain
+  S=sym grad u is an order-zero singular integral of omega, so nonlocality alone
+  supplies no scale factor forcing alpha=xi.Sxi below |omega|. In the current
+  shrink map this candidate is not a freestanding source; it must instantiate
+  as pre-readout signed admission for the moving low-high pressure/strain pump /
+  stopped free-material graph driver, a global original-history no-free-upward
+  transfer law, or a direct original-data face theorem making the
+  record-admitted matrix subcritical. (5) OPEN WALL: the uniform quantitative
+  strictness and correct SIGN of that deficit at the critical exponent, with
+  thin-record escape closed. Confirms the shrink-map's terminal storage lever
   (RootFixedTerminalUniformL1FullPacketServiceStorage) is on the correct lever --
   a monotone one-way storage IS a sign statement, not a scaling one. No FullTower
   retention, material-time Liouville, WLF.60, c_0, or MPP closure is proved.
 ---
 
-# c_0 is one wall; scale-covariance says only irreversibility can break it
+# c_0 is one wall; scaling locates it, sign must pay it
 
 Physics-first. This does not prove `c_0`. It diagnoses why every route lands on
-one wall, gives a filter that kills the dead routes on sight, and names the
-candidate sign mechanism that would have to be realized by the current
-shrink-map objects.
+one wall, gives a filter for demoting merely scale-covariant coordinates, and
+checks the candidate sign mechanism against the current shrink-map objects.
 
 ## 1. The object (one sentence, in its own terms)
 
@@ -84,7 +90,7 @@ The prior identity `surplus = R(B−1)²/B` (zero at the marginal `B=1`) and
 "menu of c_0 producers" is a coordinate atlas of **one** wall. Effort that fans
 out across the coordinates is re-deriving the same tie.
 
-## 3. The filter — scale-covariance kills every scale-invariant mechanism
+## 3. The filter — scaling alone cannot pay the bill
 
 Here is the load-bearing fact, checkable by hand. The 3D NS scaling
 ```math
@@ -96,23 +102,29 @@ is an **exact symmetry of the full equation, viscosity included**: every term
 `‖u_λ‖_{Ḣ^{1/2}} = ‖u‖_{Ḣ^{1/2}}`. That invariance is *why* `Ḣ^{1/2}/L³` is
 critical, and it is exact — the cascade the blowup rides is scale-invariant.
 
-**Consequence (the filter).** A mechanism that is itself scale-covariant can
-produce only a scale-invariant bound — an **equality / marginal** statement. It
-is structurally incapable of producing a **strict** inequality `c_0>0`. So:
+**Consequence (the filter).** Scaling alone supplies no dimensional surplus at
+the critical exponent. The earlier version of this note said something too
+strong: scale-covariance by itself does not logically forbid a strict
+scale-invariant estimate. Sobolev-type strict constants are scale-invariant.
+What scaling forbids is a **free power** or a hidden dimensional gain.
 
-> **Any proposed `c_0` route that is scale-covariant is dead on arrival: at best
-> it re-derives the marginal `½`.** Before pursuing a route, check its
-> scale-covariance. If it is covariant, it cannot be the closer.
+So the useful filter is:
 
-This is the physical reason §2's routes all stall at the tie: the alignment
-ratio, the Bernstein/Littlewood-Paley service conversion, the div-curl gain, and
-the naive record integrability are **all scale-covariant**, hence all marginal.
-They *locate* `c_0`; none can *sign* it.
+> A proposed `c_0` route that is only scale-covariant is a coordinate of the
+> marginal wall. It can close only after adding a signed irreversible
+> compactness, storage, admission, or route-out mechanism in the same retained
+> bill currency.
 
-## 4. What can break scaling — only three things, two already dead
+This is why §2's routes all stall at the tie in the current source state: the
+alignment ratio, the Bernstein/Littlewood-Paley service conversion, the div-curl
+gain, and the naive record integrability are scale-covariant **without** the
+needed same-edge sign/storage mechanism. They locate `c_0`; they do not yet pay
+it.
 
-The strict tie-break must come from a **scale-breaking** feature. There are only
-three in the whole problem:
+## 4. What can create strictness beyond scaling
+
+The strict tie-break must come from information that scaling does not supply.
+The currently visible possibilities are:
 
 1. **Finite-energy subcritical budget** (`‖u‖_{L²}²` scales as `λ^{-1}`, not
    invariant). — *Dead as a closer:* thin records spend vanishing residence and
@@ -123,10 +135,11 @@ three in the whole problem:
    only **above** `L³` and is **marginal exactly at** `L³`, where the fluid
    lives.
 3. **Irreversibility / sign / monotonicity.** — *The one lever left standing.*
-   Irreversibility is **not** a scaling statement: it is a one-way sign on the
-   material time-arrow (the four-body ratchet, the entropy/dissipation the record
-   dumps and cannot recover). A sign is exactly the kind of statement scaling
-   cannot fix, so it is the only place a strict inequality can be born.
+   The sign is a one-way material-time statement (the four-body ratchet, the
+   entropy/dissipation the record dumps and cannot recover). Scaling can preserve
+   such a statement, but it cannot manufacture it. This lever counts only when it
+   is realized as same-edge bill-currency, a bounded-below storage, a
+   pre-readout admission theorem, or a typed route-out.
 
 ## 5. The candidate sign lever, pushed as far as physics honestly goes
 
@@ -141,34 +154,54 @@ The perturbation off marginal is the only place strictness can live: the real
 fluid is finite-energy and irreversible rather than a detached scale-invariant
 profile. The open content is its **sign** and **uniformity**. The candidate
 physical sign-mechanism is the **pursuit-lag / radiodrome** (route-b tower-relay,
-*never* a local pressure-Hessian/eigenframe read):
+*never* a local pressure-Hessian/eigenframe read).
 
-- the stretching strain frame the vortex must align to is generated **non-locally**
-  and is therefore **smoothed** (a Biot-Savart integral over vorticity elsewhere);
-- the spin that rotates that frame away is **local** and **sharpening** (`|ω|` at
-  the point);
-- the proof would have to show that this smoothed pursuer cannot track the
-  sharpening evader at ratio one through an infinite retained cascade, so the
-  alignment stays strictly short and the deviation off marginal is biased to the
-  **depleting** side.
+The tempting short proof is:
 
-That lag is a candidate physical reason the deviation could be *signed*, not
-merely nonzero. Under the current shrink map, it is lawful only when translated
-into the moving low-high pressure/strain pump / stopped free-material graph
-driver, a global original-history no-free-upward-transfer law, or a direct
-original-data face theorem making the record-admitted matrix subcritical.
+- the stretching strain frame is generated **non-locally**;
+- the spin is **local** and sharpening;
+- therefore the non-local pursuer must lag the local evader.
+
+That argument breaks at the operator level. Biot-Savart smooths the velocity
+relative to vorticity, but the strain is
+
+\[
+S=\operatorname{sym}\nabla(-\Delta)^{-1}\nabla\times\omega,
+\tag{SCF.1}
+\]
+
+an order-zero Calderon-Zygmund transform of \(\omega\). Under the Navier-Stokes
+scaling, \(S\) and \(\omega\) scale with the same power. There is no scale
+factor, no smoothing exponent, and no local inequality of the form
+
+\[
+\xi\cdot S\xi\le (1-\varepsilon)|\omega|
+\tag{SCF.2}
+\]
+
+from nonlocality alone. The checked stopped-driver and affine/local normal-form
+tests already show the same fact in packet language: a high packet can align
+with a positive low strain direction, complete-frame payment supplies only a
+partner, and the half-tail keeps the first-ratio action divergent.
+
+So pursuit-lag is still the right physical sign coordinate, but not because
+Biot-Savart gives a free smoothing gap. It becomes lawful only when translated
+into pre-readout signed admission for the moving low-high pressure/strain pump /
+stopped free-material graph driver, a global original-history no-free-upward
+transfer law, a direct original-data subcritical matrix face, or a typed
+route-out.
 
 ## 6. Honest grade and the sharp target
 
-- **PROVED (physics-first, structural):** the routes are one wall (§2); every
-  scale-covariant mechanism is marginal and cannot close `c_0` (§3, the filter);
-  two of the three scale-breaking levers are dead (§4); therefore `c_0` lives or
-  dies on a **uniform, correctly-signed, thin-record-non-escapable irreversibility
-  floor** (§4.3, §5).
+- **PROVED (physics-first, structural):** the routes are one wall (§2);
+  scaling alone supplies no critical surplus (§3); the energy budget and
+  endpoint compensated-compactness shortcuts do not close the thin-record
+  branch (§4); and the naive Biot-Savart smoothing version of pursuit-lag does
+  not give a uniform deficit because \(S\) is order-zero in \(\omega\) (§5).
 - **OPEN (the wall):** the uniform quantitative **strictness and sign** of the
-  candidate pursuit-lag deficit at the critical exponent — that the smoothed
-  non-local strain lags the sharpening local spin by a definite,
-  cascade-uniform amount in the retained same-fluid packet.
+  candidate pursuit-lag deficit at the critical exponent, carried by a
+  same-edge bill/storage/admission theorem rather than by operator smoothing
+  alone.
   This is 3D global regularity; open.
 - **Confirms Codex's terminal object:** `RootFixedTerminalUniformL1FullPacket
   ServiceStorage` is a **monotone one-way storage** — a *sign* statement, not a
@@ -177,9 +210,11 @@ original-data face theorem making the record-admitted matrix subcritical.
   lower density as the moving low-high driver/no-free-upward-transfer theorem,
   not to seek any further scale-covariant gain.
 
-**Shrink rule (physical):** any new `c_0` route must first pass the §3 filter —
-state its scale-covariance. If covariant, it is a coordinate of this wall, not a
-closer. A signed-irreversibility / pursuit-lag mechanism counts only when it is
-made uniform and thin-record-non-escapable as the moving low-high driver,
-global no-free-upward-transfer law, direct subcritical matrix face, or typed
-CM route-out. No closure claimed; filed is not cleared.
+**Shrink rule (physical):** any new `c_0` route must first pass the §3 filter:
+state its scale behavior and then state the extra signed bill/storage/admission
+mechanism that survives the half-tail. If it supplies only scale-covariant
+bookkeeping, it is a coordinate of this wall, not a closer. A
+signed-irreversibility / pursuit-lag mechanism counts only when it is made
+uniform and thin-record-non-escapable as the moving low-high driver, global
+no-free-upward-transfer law, direct subcritical matrix face, or typed CM
+route-out. No closure claimed; filed is not cleared.
