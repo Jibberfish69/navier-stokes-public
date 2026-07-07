@@ -95,7 +95,8 @@ In that notation,
 \[
 \texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}
 +\text{fixed stopped-score square return payment}
-+\text{original root square-reserve bound}
++\texttt{OriginalHistorySelectedPotentialAmplificationBV.A}
+/\texttt{SelectedGeneratorStorageCoercivity.A}
 \Longrightarrow
 \texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
 \tag{SRA.4a}
