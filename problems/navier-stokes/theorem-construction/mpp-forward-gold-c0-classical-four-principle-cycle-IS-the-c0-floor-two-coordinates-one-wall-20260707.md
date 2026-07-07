@@ -96,16 +96,18 @@ others has already left the object.
 
 ## 1. Two coordinate systems for the floor
 
-**Classical (Layer-1 theorem contract, the four-principle cycle).**
+**Classical (Layer-1 theorem contract, the four bodies of one solution).**
 `master-program-analysis` and `ns-layered-route-graph` fix the source-grounded
-architecture as a *cycle*:
+architecture as **one solution whose four bodies mutually reinforce
+simultaneously** (the arrows are co-present reinforcement, not a traversal order):
 
 ```math
-\text{Scale-Barrier} \to \text{Monotone } Q(t) \to \text{Non-Sobolev Compactness}
-\to \text{Curvature-Based Regularity} \xrightarrow{\ 4\to1\ } \text{Scale-Barrier},
+\text{Scale-Barrier} \rightleftharpoons \text{Monotone } Q(t) \rightleftharpoons
+\text{Non-Sobolev Compactness} \rightleftharpoons \text{Curvature-Based Regularity}
+\rightleftharpoons \text{Scale-Barrier} \quad(\text{all at once, on one packet}),
 ```
 
-with the live survivor a per-shell bound
+with the one live survivor a per-shell bound
 
 ```math
 \bigl|\mathcal N^{\mathrm{lift}}_{N,\mathrm{grad}}(t)\bigr|
