@@ -1,20 +1,20 @@
 ---
 theorem_id: forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622
-status: direct-attempt-reduces-to-strict-same-packet-cycle-exchange-coercivity-not-installed
+status: ontology-demoted-retention-label-defunct-channel-inventory-survives
 logical_landing_node: full_tower_signed_total_exchange_retention
 edge_effect: >-
-  Tests FullTowerSignedTotalExchangeRetention.A after the simultaneous material
-  four-body correction. The pulled-back material tower gives signed adjacent
-  exchange currents, and the four-body sum cancels their net contribution. The
-  positive material-record growth is a total-variation quantity, so net
-  cancellation does not control it. The direct attempt proves the exact
-  equivalence: signed-total retention holds only when every complete same-packet
-  exchange cycle with nonzero positive tower-record variation has strict
-  four-body loss, Q-coordinate activity, or already-enveloped residual. That
-  strict same-packet cycle-exchange coercivity is not installed by the current
-  inputs. Failure is the same-material Part-side record loss, not a new center
-  pulse.
+  Historical direct attempt only. After the corrected irreversible ontology,
+  FullTowerSignedTotalExchangeRetention.A is not a live proof target when read
+  as a reversible M-out/M-back retention cycle. The pulled-back material tower
+  still gives the useful signed adjacent current identities and the generated
+  positive channel inventory FTR.3-FTR.10. FTR.11-FTR.12 expose the failure:
+  signed net exchange can cancel while positive material record variation is
+  nonzero, but that is not a reversible Navier-Stokes equality class. The live
+  replacement is one-way pre-readout admission of those positive channels as
+  same-packet positive/negative/current measures, strict loss, Q-activity,
+  legal residual, or typed route-out.
 parents:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-participation-carrying-full-tower-fourbody-balance-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-four-body-same-carrier-orientation-defect-decomposition-20260621.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bodyii-bodyiii-retained-participation-packet-criterion-20260621.md
@@ -25,7 +25,38 @@ parents:
 
 Date: 2026-06-22
 
-## 0. Target
+## 0. Ontology correction
+
+The label
+
+```math
+\texttt{FullTowerSignedTotalExchangeRetention.A}
+\tag{FTR.0}
+```
+
+is defunct as a live \(c_0\) proof target if it means a temporally reversible
+same-packet exchange cycle. Navier-Stokes is an irreversible viscous flow; the
+`M`-out/`M`-back reading in `(FTR.11)`--`(FTR.12)` is only an algebraic exposure
+of signed-net cancellation versus positive variation. It is not a physical
+equality class that can run backward for free.
+
+What survives is narrower: `(FTR.3)`--`(FTR.10)` are a one-way channel inventory
+for the actual transported packet. The current live theorem is not retention of
+a reversible cycle, but pre-readout admission of every positive generated
+channel as a same-packet positive/negative/current packet, strict loss,
+selected \(Q\)-activity, legal residual, or typed route-out.
+
+Thus the active replacement is
+
+```math
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
+\tag{FTR.0a}
+```
+
+with its lower source line in the raw signed commutator identity
+`PMB.9s` / `SSC-DC.4`.
+
+## 1. Historical target
 
 The target is
 
@@ -36,7 +67,7 @@ The target is
 \tag{FTR.1}
 ```
 
-It is the missing internal clause in
+This was the historical missing internal clause in
 `ParticipationCarryingFullTowerFourBodyBalance.A`.
 
 The same transported material law gives signed adjacent exchange currents
@@ -50,7 +81,7 @@ between the four simultaneous coordinates
 The question is whether those signed identities also retain the total positive
 tower-record growth of the same packet.
 
-## 1. Signed exchange supplied by the material tower
+## 2. Signed exchange supplied by the material tower
 
 After differentiating the pulled-back material equation and testing with the
 same transported cutoff and factorial weights, the four projections have the
@@ -99,7 +130,7 @@ dJ_{SQ},\quad dJ_{QC},\quad dJ_{CG},\quad dJ_{GS}.
 
 That proves net oriented cancellation only.
 
-## 2. The material record asks for total positive variation
+## 3. The material record asks for total positive variation
 
 The material record is
 
@@ -132,7 +163,7 @@ defects, geometry-frame growth, and tower commutators.
 
 Total positive variation is not the same object as signed net exchange.
 
-## 3. The obstruction is exact
+## 4. The obstruction is exact
 
 Let one adjacent exchange current move amount \(M>0\) from one coordinate to
 the next and return the same amount through the neighboring coordinate.  The
@@ -154,7 +185,7 @@ So the four-body cancellation theorem does not by itself control
 `(FTR.9)`.  It controls the signed net exchange after the four readings are
 summed.
 
-The needed theorem is stronger:
+The old note called the needed theorem stronger:
 
 ```math
 \boxed{
@@ -177,10 +208,11 @@ C\,dA_{Q,N}
 \tag{FTR.14}
 ```
 
-This is the same theorem as signed-total retention, written in coercive cycle
-language.  It is not a new external ledger.
+Under the corrected ontology, this is not a reversible retention theorem. It is
+the demand that a one-way positive record channel already have same-packet
+admission or payment before readout.
 
-## 4. What existing interface notes supply
+## 5. What existing interface notes supply
 
 The existing retained-packet interface notes prove the correct local criterion.
 For the \(Q\to C\) interface, retaining
@@ -209,7 +241,7 @@ three-measure packet has already been produced.
 It does not prove that every generated tower-record positive term from
 `(FTR.10)` is already such a retained three-measure packet.
 
-## 5. Compactness-rigidity route check
+## 6. Compactness-rigidity route check
 
 There is an abstract route to `(FTR.13)`.  The compactness-rigidity principle
 would give strict same-packet cycle payment if the full-tower packet space were
