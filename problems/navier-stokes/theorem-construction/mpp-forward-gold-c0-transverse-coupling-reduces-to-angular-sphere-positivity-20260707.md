@@ -228,6 +228,32 @@ summable below the bill, or a legal/collar/Pack/Part/Field route-out. The
 current smaller target is therefore a no-free-bank pressure-response dichotomy
 for the linearized stability index.
 
+Claude's stretched-vortex profile narrowing is the physically right subbranch,
+but it is not yet a license to discard the minimax. The pressure source identity
+
+```math
+-\Delta p=|S|^2-\frac12|\omega|^2
+```
+
+allows a coherent vortex core where \(|S|^2-\frac12|\omega|^2<0\), surrounded by
+a strain-dominated annulus where the source is positive. On that branch, the
+vorticity, strain, and pressure response are one same-fluid core-annulus
+profile, so same-edge vorticity-current custody is natural rather than imported.
+The missing theorem is still a theorem:
+
+```math
+\mathcal E_{\rm ret}
+\subset
+\mathcal E_{\rm sv}\cup\mathcal E_{\rm paid}\cup
+\mathcal E_{\rm route\text{-}out},
+```
+
+followed by a strict profile bound for
+\(\inf_{\mathcal E_{\rm sv}}\inf_{|\eta|=1}\mathcal I_{\rm lin}^{\mathcal E}(\eta)\).
+The older strict-tilting notes mark why this is not automatic: the self-tilting
+mechanism is real, but the raw stretched-vortex picture lands at break-even
+unless the retained pressure-response profile has a strict excess.
+
 ## 6. Honest status
 
 The old formulation was too strong: it treated fixed-sign density as already available. The
