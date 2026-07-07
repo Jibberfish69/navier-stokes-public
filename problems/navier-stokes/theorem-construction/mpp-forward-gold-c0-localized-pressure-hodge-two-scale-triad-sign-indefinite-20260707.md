@@ -154,23 +154,16 @@ pressure Hessian can do work after the global cancellation. But raw nonzero
 localized work is not \(c_0\). There is no sign-definite lower bound at the level
 of an unselected two-scale triad.
 
-Therefore the proof target must keep the selected positive-part structure:
+Therefore the proof target must keep the selected positive-part structure rather
+than asking an unselected triad for a sign floor:
 
 \[
 \texttt{LocalizedPressureHodgeCommutatorTriadFloor.A}
 \quad\leadsto\quad
-\texttt{LocalizedTriadOrientationBillCurrency.A}.
-\tag{LPT.13}
-\]
-
-In the existing route, that means the same smaller wall already exposed by the
-selector-force and WLF reductions:
-
-\[
 \texttt{SelectorForceBalanceLegBillCurrency.A}
-\quad\text{or}\quad
+\quad\leadsto\quad
 \texttt{SelectedLinearRouteMeasureCarleson.A / WLF.60 / ODP.91}.
-\tag{LPT.14}
+\tag{LPT.13}
 \]
 
 The sign can contribute to \(\varepsilon_*>0\) only after the packet selector
