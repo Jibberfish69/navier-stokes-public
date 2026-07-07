@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: corrected-attack-in-progress; retained-alignment-requires-pressure-reaiming
+status: section-8-magnitude-attack-refuted; signed-retained-angular-rigidity-target
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -31,12 +31,17 @@ completion_truth: >-
   surplus-zero, marginal participation tower may keep aligned anisotropy while
   still participating. The corrected attack is pressure-reaiming: if Hess q
   remains diagonal in a moving strain frame, the pressure eigenframe must be
-  actively re-aimed by the same field; that re-aiming is a participation bill
-  unless the packet is a stopped/pass nonparticipant. The affine-symbol test in
-  Section 9 shows the bare Calderon-Zygmund transverse response is real but
-  sign-indefinite over angular embeddings, so fixed handedness is still the
-  retained-participation classification theorem, not a proved operator fact.
-  This is a constructive target and a strict reduction, not a proof of c_0>0.
+  actively re-aimed by the same field; that re-aiming is visible in the
+  participation bill unless the packet is a stopped/pass nonparticipant. Section
+  8's magnitude bridge is now recorded as a failed attack: its absolute values
+  make a time-even payment estimate, while causal lag is a time-odd oriented
+  sign. The affine-symbol test in Section 9 shows exactly why that matters: the
+  bare Calderon-Zygmund transverse response is real but sign-indefinite over
+  angular embeddings, so magnitude can stay positive while the oriented lag
+  cancels. The live target is therefore a signed retained angular rigidity
+  theorem: no positive critical-record, surplus-zero, marginal participation
+  tower may cancel the material lag by aligned cone-mixing. This is a
+  constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
