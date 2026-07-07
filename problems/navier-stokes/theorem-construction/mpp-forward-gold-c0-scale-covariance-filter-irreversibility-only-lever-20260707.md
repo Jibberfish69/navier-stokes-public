@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / physics-first falsifiability filter + the one live lever
-status: DIAGNOSIS + FALSIFIABILITY FILTER + SIGN-MECHANISM, NOT A PROOF; a typed route-out criterion in physical grammar, sibling to the shrink-map
+route: forward-gold / c_0 / physics-first falsifiability filter + signed-irreversibility candidate lever
+status: DIAGNOSIS + FALSIFIABILITY FILTER + CANDIDATE SIGN-MECHANISM, NOT A PROOF; diagnostic overlay subordinate to the shrink-map
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -35,10 +35,14 @@ completion_truth: >-
   IRREVERSIBILITY / sign / monotonicity -- NOT a scaling statement, and the one
   lever left standing. (4) THE LIVE LEVER, pushed: c_0 is the STRICT, SIGNED,
   cascade-uniform deviation off the ratio-one marginal (surplus = R(B-1)^2/B = 0
-  at B=1), and the physical sign-mechanism is the pursuit-lag / radiodrome of the
-  SMOOTHED NON-LOCAL self-strain frame behind the SHARPENING LOCAL spin (route-b
-  tower-relay, never a local eigenframe read). (5) OPEN WALL: the uniform
-  quantitative strictness and correct SIGN of that pursuit-lag deficit at the
+  at B=1), and the candidate physical sign-mechanism is pursuit-lag / radiodrome:
+  the smoothed non-local self-strain frame must be compared with the sharpening
+  local spin inside the same irreversible packet (route-b tower-relay, never a
+  local eigenframe read). In the current shrink map this candidate is not a
+  freestanding source; it must instantiate as the moving low-high pressure/strain
+  pump / stopped free-material graph driver, or as a direct original-data face
+  theorem making the record-admitted matrix subcritical. (5) OPEN WALL: the
+  uniform quantitative strictness and correct SIGN of that deficit at the
   critical exponent. Confirms the shrink-map's terminal storage lever
   (RootFixedTerminalUniformL1FullPacketServiceStorage) is on the correct lever --
   a monotone one-way storage IS a sign statement, not a scaling one. No FullTower
@@ -48,8 +52,9 @@ completion_truth: >-
 # c_0 is one wall; scale-covariance says only irreversibility can break it
 
 Physics-first. This does not prove `c_0`. It diagnoses why every route lands on
-one wall, gives a filter that kills the dead routes on sight, and names the one
-lever and sign-mechanism that could actually break the tie.
+one wall, gives a filter that kills the dead routes on sight, and names the
+candidate sign mechanism that would have to be realized by the current
+shrink-map objects.
 
 ## 1. The object (one sentence, in its own terms)
 
@@ -122,7 +127,7 @@ three in the whole problem:
    dumps and cannot recover). A sign is exactly the kind of statement scaling
    cannot fix, so it is the only place a strict inequality can be born.
 
-## 5. The live lever, pushed as far as physics honestly goes
+## 5. The candidate sign lever, pushed as far as physics honestly goes
 
 Per-record, the surplus over marginal is `R(B−1)²/B`, **zero at the ratio-one
 balance `B=1`**. So `c_0>0` is precisely:
@@ -131,23 +136,26 @@ balance `B=1`**. So `c_0>0` is precisely:
 > irreversible dynamics**, moves **strictly to the depleting side** (`B` off `1`
 > in the against-blowup direction), **uniformly** down the cascade.
 
-The perturbation off marginal certainly exists — the real fluid is not a
-scale-invariant profile; it is finite-energy and irreversible. The open content
-is its **sign** and **uniformity**. The physical sign-mechanism is the
-**pursuit-lag / radiodrome** (route-b tower-relay, *never* a local
-pressure-Hessian/eigenframe read):
+The perturbation off marginal is the only place strictness can live: the real
+fluid is finite-energy and irreversible rather than a detached scale-invariant
+profile. The open content is its **sign** and **uniformity**. The candidate
+physical sign-mechanism is the **pursuit-lag / radiodrome** (route-b tower-relay,
+*never* a local pressure-Hessian/eigenframe read):
 
 - the stretching strain frame the vortex must align to is generated **non-locally**
   and is therefore **smoothed** (a Biot-Savart integral over vorticity elsewhere);
 - the spin that rotates that frame away is **local** and **sharpening** (`|ω|` at
   the point);
-- a smoothed pursuer chasing a sharpening evader **always lags** — so the
-  alignment is never completed, `α` stays strictly below `|ω|`, and the deviation
-  off marginal is biased to the **depleting** side.
+- the proof would have to show that this smoothed pursuer cannot track the
+  sharpening evader at ratio one through an infinite retained cascade, so the
+  alignment stays strictly short and the deviation off marginal is biased to the
+  **depleting** side.
 
-That lag is the one physical reason the deviation should be *signed*, not merely
-nonzero — and it is a statement about the non-local tower-relay, matching the
-irreversibility lever of §4.
+That lag is a candidate physical reason the deviation could be *signed*, not
+merely nonzero. Under the current shrink map, it is lawful only when translated
+into the moving low-high pressure/strain pump / stopped free-material graph
+driver, a global original-history no-free-upward-transfer law, or a direct
+original-data face theorem making the record-admitted matrix subcritical.
 
 ## 6. Honest grade and the sharp target
 
@@ -157,17 +165,20 @@ irreversibility lever of §4.
   dies on a **uniform, correctly-signed, thin-record-non-escapable irreversibility
   floor** (§4.3, §5).
 - **OPEN (the wall):** the uniform quantitative **strictness and sign** of the
-  pursuit-lag deficit at the critical exponent — that the smoothed non-local
-  strain lags the sharpening local spin by a definite, cascade-uniform amount.
+  candidate pursuit-lag deficit at the critical exponent — that the smoothed
+  non-local strain lags the sharpening local spin by a definite,
+  cascade-uniform amount in the retained same-fluid packet.
   This is 3D global regularity; open.
 - **Confirms Codex's terminal object:** `RootFixedTerminalUniformL1FullPacket
   ServiceStorage` is a **monotone one-way storage** — a *sign* statement, not a
   scaling one — so the shrink-map's terminal wall is already on the correct
-  (irreversibility) lever. The productive work is to build that storage's strict
-  lower density from the pursuit-lag, not to seek any further scale-covariant gain.
+  irreversibility lever. The productive work is to build that storage's strict
+  lower density as the moving low-high driver/no-free-upward-transfer theorem,
+  not to seek any further scale-covariant gain.
 
 **Shrink rule (physical):** any new `c_0` route must first pass the §3 filter —
 state its scale-covariance. If covariant, it is a coordinate of this wall, not a
-closer. Only a signed-irreversibility / pursuit-lag mechanism that is uniform and
-thin-record-non-escapable can be the closer. No closure claimed; filed is not
-cleared.
+closer. A signed-irreversibility / pursuit-lag mechanism counts only when it is
+made uniform and thin-record-non-escapable as the moving low-high driver,
+global no-free-upward-transfer law, direct subcritical matrix face, or typed
+CM route-out. No closure claimed; filed is not cleared.
