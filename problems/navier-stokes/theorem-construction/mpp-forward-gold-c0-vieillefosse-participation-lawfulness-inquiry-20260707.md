@@ -1830,3 +1830,286 @@ c_0\ge c>0
 ```
 
 is complete.
+
+## 18. Proving the five strict-atom properties
+
+The five atom properties are not independent assumptions if the strict atom
+class is built correctly. They follow from one atomization rule:
+
+```math
+\text{an active atom is a maximal same-affine-coherent participation packet,
+with its collar and parent attachment included.}
+\tag{VPL.146}
+```
+
+Here "maximal" means that if the parent field carries the same affine
+Vieillefosse jet through the outer collar at zero relative cost, then the atom
+was chosen too small and must be merged with its parent. A genuine atom ends at
+the first scale where same-affine coherence has to be turned off, rotated,
+cancelled, or attached to a different parent state.
+
+### 18.1 A1: uniform packet/collar geometry
+
+Define each strict atom by a stopping-time packet with fixed normalized
+geometry:
+
+```math
+B_1\subset P\subset B_2,
+\qquad
+C=P\setminus B_{1+\delta},
+\qquad
+0<\delta_0\le\delta\le\delta_1<1,
+\tag{VPL.147}
+```
+
+after scaling, translating, and rotating. More generally, allow
+bi-Lipschitz images of this reference packet with a uniform bi-Lipschitz bound:
+
+```math
+\|\Psi\|_{C^{1,1}}+\|\Psi^{-1}\|_{C^{1,1}}\le M.
+\tag{VPL.148}
+```
+
+Extension, trace, Korn, Poincare, and elliptic constants are stable under such
+uniform bi-Lipschitz pullbacks. Therefore there is a single constant
+\(C_{\rm geom}=C(M,\delta_0,\delta_1)\) for the whole atom family:
+
+```math
+C_{\rm ext},C_{\rm tr},C_{\rm Korn},C_{\rm ell}
+\le
+C_{\rm geom}.
+\tag{VPL.149}
+```
+
+If a candidate packet has a vanishingly thin collar or degenerating geometry,
+then it is not a strict atom. It must be either split into normalized atoms or
+charged as collar concentration. Thus degenerating geometry cannot appear in a
+zero-bill minimizing sequence inside the strict atom class.
+
+### 18.2 A2: incompressibility and pressure lawfulness
+
+Strict atoms are not independent model fields. They are restrictions and
+rescalings of one incompressible Navier-Stokes field. Therefore
+
+```math
+\nabla\cdot u=0.
+\tag{VPL.150}
+```
+
+Taking divergence of the Navier-Stokes equation gives the pressure law
+
+```math
+-\Delta p=\partial_i u_j\,\partial_j u_i.
+\tag{VPL.151}
+```
+
+On a local atom, write
+
+```math
+p
+=
+(-\Delta)^{-1}(\eta\,\partial_i u_j\partial_j u_i)
++h_{\rm par},
+\tag{VPL.152}
+```
+
+where \(\eta\) is a packet cutoff equal to one on the active core and
+\(h_{\rm par}\) is harmonic on the atom, carrying the parent/remote pressure.
+Both pieces are lawful: the first is the local Calderon-Zygmund pressure and
+the second is the parent field's harmonic pressure trace. Uniform elliptic
+constants from A1 give
+
+```math
+\|\nabla^2p\|_{\rm atom}
+\le
+C_{\rm geom}
+\left(
+\|\partial_i u_j\partial_j u_i\|_{\rm atom}
++\|h_{\rm par}\|_{\rm boundary}
+\right).
+\tag{VPL.153}
+```
+
+So pressure lawfulness is inherited from the same global field, not imposed on
+the atom as a separate model equation.
+
+### 18.3 A3: parent-owned collar attachment
+
+Let \(a(x)=\lambda RDR^Tx+\Omega x+\beta\in\mathfrak A\) be the affine
+Vieillefosse jet selected by the atom. The relative field is
+
+```math
+w=u-a.
+\tag{VPL.154}
+```
+
+Zero collar cost means the relative strain and relative trace vanish on the
+collar in the strict participation sense:
+
+```math
+S(w)=0\text{ on }C,
+\qquad
+\operatorname{Tr}_{\partial P}w
+\text{ matches the parent at zero relative cost.}
+\tag{VPL.155}
+```
+
+By Korn rigidity, \(S(w)=0\) on the connected collar implies
+
+```math
+w(x)=\Omega_C x+\beta_C
+\quad\text{on }C.
+\tag{VPL.156}
+```
+
+Thus, on the collar, \(u\) carries the same nonzero affine symmetric part as
+\(a\). If the parent also carries that same affine symmetric part at zero cost,
+then the selected packet and parent are the same affine-coherent participant
+and maximality (VPL.146) says they must be merged. If the atom is already
+maximal, zero relative collar cost is possible only when the affine symmetric
+Vieillefosse amplitude vanishes:
+
+```math
+\lambda=0.
+\tag{VPL.157}
+```
+
+This proves the parent-owned attachment property. Physically: a nonzero affine
+stretcher cannot simply stop at the atom boundary. Either it continues into the
+parent, in which case the atom was not maximal, or it changes, in which case
+the collar pays.
+
+This is the most important strict-law point. Without maximal same-affine
+atomization, A3 is not automatic; it is exactly where a self-similar/log tower
+could hide its collar at the parent scale.
+
+### 18.4 A4: actual payment dominates the relative bill
+
+The strict participation payment must include the positive localized viscous
+strain work and the parent-owned collar flux. For \(w=u-a\) and
+\(E=S(w)\), \(a\) is affine, so
+
+```math
+\nabla E=\nabla S(u),
+\qquad
+\Delta S(a)=0.
+\tag{VPL.158}
+```
+
+The localized viscous identity gives
+
+```math
+\nu\int_P\phi|\nabla E|^2
+=
+-\nu\int_P\phi\,\Delta S(u):E
+-\nu\int_P\nabla\phi\cdot\nabla E:E.
+\tag{VPL.159}
+```
+
+The first term is the bulk viscous strain payment. The second term lives on
+the participation boundary. Strict participation makes that boundary
+parent-owned and counts its positive part or absolute flux in the packet bill:
+
+```math
+\mathsf P(a)
+\ge
+c_1\nu\int_P\phi|\nabla E|^2
++c_1\nu\int_C |E|^2
++\|\Pi_4 f[u]\|_{\rm press}.
+\tag{VPL.160}
+```
+
+By the Korn-Hodge estimate (VPL.112),
+
+```math
+\mathsf P(a)
+\ge
+c_2
+\left(
+\mathcal G(u)
++\|\Pi_4 f[u]\|_{\rm press}
+\right).
+\tag{VPL.161}
+```
+
+This proves actual payment dominates the relative bill. If the payment uses
+only a signed collar flux and allows cancellation before taking the positive
+participation bill, then (VPL.160) is false. The strict law must count the
+parent-owned positive collar work, not only the net signed global flux.
+
+### 18.5 A5: service continuity
+
+The service is a packet-local cubic strain readout, for example
+
+```math
+\mathsf S(u)
+=
+\int_P \phi\,[-\operatorname{tr}(S(u)^3)]_+
+\quad\text{or its Vieillefosse-projected equivalent.}
+\tag{VPL.162}
+```
+
+The relative bill convergence gives
+
+```math
+S(u_n)-S(b_n)\to0
+\quad\text{strongly in }H^1(P)\text{, hence in }L^q(P),\ 2\le q\le6.
+\tag{VPL.163}
+```
+
+The affine jets \(b_n\) live in the finite-dimensional normalized manifold
+\(\mathfrak A\), so after subsequence
+
+```math
+S(b_n)\to S(b_\infty)
+\quad\text{strongly in every }L^q(P).
+\tag{VPL.164}
+```
+
+Thus
+
+```math
+S(u_n)\to S(b_\infty)
+\quad\text{strongly in }L^3(P).
+\tag{VPL.165}
+```
+
+Since \(M\mapsto[-\operatorname{tr}(M^3)]_+\) is continuous with cubic growth,
+strong \(L^3\) convergence implies
+
+```math
+\mathsf S(u_n)\to\mathsf S(b_\infty).
+\tag{VPL.166}
+```
+
+So unit service cannot disappear into oscillation, concentration, or a
+Young-measure defect once the relative bill vanishes.
+
+### 18.6 Net result
+
+The five properties are proved if the strict participation atomization supplies
+maximal same-affine packets with normalized geometry and parent-owned positive
+collar flux. Under that atomization,
+
+```math
+\text{A1--A5}
+\Longrightarrow
+\text{uniform packet inequality}
+\Longrightarrow
+c_0>0.
+\tag{VPL.167}
+```
+
+The remaining genuinely load-bearing theorem is therefore the atomization
+theorem itself:
+
+```math
+\text{Every lawful participation tower admits a decomposition into maximal
+same-affine strict atoms with uniform normalized geometry and parent-owned
+positive collar flux, without losing service.}
+\tag{VPL.168}
+```
+
+If (VPL.168) is proved, the no-free-collar route closes \(c_0\). If (VPL.168)
+fails, the failure describes the surviving log-endpoint escape: service is
+being counted on rungs whose collars have not been parent-owned at that rung.
