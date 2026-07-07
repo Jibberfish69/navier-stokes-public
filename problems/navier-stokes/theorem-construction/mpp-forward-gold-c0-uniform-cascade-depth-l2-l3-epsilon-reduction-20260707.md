@@ -30,7 +30,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscous-thickness-square-not-first-ratio-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -79,10 +83,17 @@ completion_truth: >-
   payment. The selector-force route has the scale-normalized H^{-1} floor and
   pays the viscous leg, but the acceleration, nonlinear, and defect legs are
   not in retained B-currency until same-edge bill-or-route-out admission is
-  proved. Therefore the requested short proof does not close c_0 unless the
-  uniform-depth theorem is upgraded to the same WLF/ODP same-carrier payment /
-  FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem
-  already isolated in the shrink map. No c_0 or MPP closure is claimed.
+  proved. The early-row bill-matrix pivot further sharpens the first failed
+  line: viscous residence controls square thickness, while the c_0 service row
+  needs first-ratio linear payment. The half-tail profile has finite viscous
+  square charge and divergent first-ratio service, so same-parent detector
+  origin, finite menus, and no-recount do not close WLF.60/ODP.91. Therefore
+  the requested proof does not close c_0 unless the uniform-depth theorem is
+  upgraded to the same WLF/ODP same-carrier payment /
+  FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem,
+  or to the full record-admitted active-critical/full-exchange/active-transit
+  matrix with spectral radius strictly below one. No c_0 or MPP closure is
+  claimed.
 ---
 
 # Uniform cascade depth, L2-to-L3 uniformity, and the epsilon extraction
@@ -583,3 +594,64 @@ So the current pressure-test conclusion is:
 The proof of \(\varepsilon_*>0\) is complete from `(UCD.7)' or from either
 source theorem once it proves `(UCD.7)'. The source theorem itself is still
 open in the current files.
+
+## 8. Current first failed line after the early-row pivot
+
+The present first failed line is no longer bare spatial \(L^2\to L^3\)
+uniformity. That projection has already been separated from \(\varepsilon_*>0\)
+by the terminal pulse model. The first failed line is the same-edge
+pre-readout bill admission needed to turn selected positive service into
+parent-owned retained \(B\)-currency.
+
+In the bill-matrix coordinate, the coupled active-critical/full-exchange/
+active-transit loop has two noncircular exits:
+
+\[
+\begin{array}{ll}
+\text{matrix exit:}
+  & \rho(K_P)<1
+    \text{ for the full record-admitted storage matrix},\\[1mm]
+\text{early-row exit:}
+  & \texttt{RecordAdmittedSubHeatLagEarlyBranchStorage.A},
+    \text{ equivalently WLF.60/ODP.91 on the same carrier.}
+\end{array}
+\tag{UCD.26}
+\]
+
+The early-row exit is not supplied by viscous thickness alone. A half-tail
+profile
+\[
+\omega_\ell=2^\ell,\qquad
+\Delta_\ell={2^{-\ell}\over \ell+1}
+\tag{UCD.27}
+\]
+has finite square charge
+\[
+\sum_\ell \omega_\ell|\Delta_\ell|^2
+=
+\sum_\ell {2^{-\ell}\over(\ell+1)^2}<\infty
+\tag{UCD.28}
+\]
+and divergent first-ratio service
+\[
+\sum_\ell \omega_\ell|\Delta_\ell|
+=
+\sum_\ell {1\over \ell+1}
+=\infty .
+\tag{UCD.29}
+\]
+
+Thus heat residence, Bessel-square control, finite menu, same-parent detector
+origin, and no-recount are checked support only. The proof of
+\(\varepsilon_*>0\) now requires one of the following same-edge producers:
+
+\[
+\texttt{FreshOverrunSameCarrierTailUI.A}
+\quad\text{or}\quad
+\texttt{BillCoerciveRecordAdmittedStorageMatrix.A}
+\tag{UCD.30}
+\]
+
+with the terminal source-curve atom either admitted as a typed CM route-out or
+paid before readout. This is a strict narrowing of the source wall, not a proof
+of \(c_0\).
