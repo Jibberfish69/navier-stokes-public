@@ -288,3 +288,16 @@ clause is
 \]
 It says the inverse-weight return clock \(w^{-1}d\sigma\) is dominated by the
 before-clipping active density \(R_P^+d\mathfrak m_P\) on the same fibre.
+
+The return-clock Radon-Nikodym split sharpens this line again:
+\[
+\texttt{ReturnClockParentAnnouncedRNDerivative.A}
+\Longrightarrow
+\texttt{ReturnIntervalActiveFibreJacobianDomination.A}.
+\tag{IWP.21}
+\]
+The older active-coordinate entropy/Jacobian machinery is the likely density
+part of this theorem after the clock is admitted, but it does not by itself
+prove that \(w^{-1}d\sigma\) is a bounded submeasure of
+\(R_P^+d\mathfrak m_P\). That clock admission is now the first failed line
+inside the return-side capacity source.
