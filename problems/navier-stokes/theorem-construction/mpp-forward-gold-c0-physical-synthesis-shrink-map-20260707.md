@@ -36,6 +36,11 @@ target_object:
   - EndpointThreadedNativeNoResidue.A
   - PersistentRootAffineQuotientReturnPayment.A
   - SelectedGeneratorStorageCoercivity.A
+  - StrictOriginalLedgerGeneratorStorage.A
+  - FullExchangeCriticalDepletionStorage.A
+  - SameParentCriticalDepletionNoZeno.A
+  - SameParentCriticalGoodLambdaTail.A
+  - BeforeClippingActiveDensityComparison.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -46,6 +51,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
@@ -53,6 +59,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
+  - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
 supersedes_as_live_frontier:
   - self-similar/DSS profile exclusion as c_0 counterobject
@@ -64,6 +72,7 @@ supersedes_as_live_frontier:
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
+  - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -87,9 +96,18 @@ completion_truth: >-
   CurrentRecordSquarePacking.A, EndpointThreadedNativeNoResidue.A, and
   PersistentRootAffineQuotientReturnPayment.A /
   SelectedGeneratorStorageCoercivity.A, with terminal no-residue and
-  no-fourth-location exhaustion in the same parent metric. No such source
-  package, root-geometry storage/coercivity law, FullTower retention,
-  material-time Liouville theorem, WLF.60, c_0, or MPP closure is proved here.
+  no-fourth-location exhaustion in the same parent metric. The later TFE
+  source-frontier lowers the selected-generator/root-geometry wording again:
+  StrictOriginalLedgerGeneratorStorage.A is FullExchangeCriticalDepletionStorage.A
+  in no-self-feeding form; TFE2748B opens that ledger into one record-admitted
+  active-critical/full-exchange/active-transit coupled storage matrix whose
+  feedback spectral radius must be strictly below one, or into the isolated
+  WLF.60 / WLF.36 / ODP.91 original-data early-row face on the order-locked
+  full-packet carrier. Duhamel-Hodge pullback, endpoint admission, retained heat
+  gap, component compactness, log-carrier, and before-clipping density language
+  are support unless they build that same record-admitted matrix before readout.
+  No such matrix, early-row face, FullTower retention, material-time Liouville
+  theorem, WLF.60, c_0, or MPP closure is proved here.
 ---
 
 # c0 physical synthesis shrink map
@@ -194,6 +212,32 @@ The later TFE audit lowers the parent-active source one more layer:
 with terminal no-residue and no-fourth-location exhaustion attached in the same
 parent metric.
 
+The current source-frontier pushes the root-geometry wall down again:
+
+\[
+\begin{gathered}
+\texttt{PersistentRootAffineQuotientReturnPayment.A}
+/
+\texttt{SelectedGeneratorStorageCoercivity.A}\\
+\leadsto
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longleftrightarrow
+\texttt{FullExchangeCriticalDepletionStorage.A}\\
+\leadsto
+\text{record-admitted active-critical/full-exchange/active-transit matrix}
+\quad(\rho(K)<1)\\
+\text{or the isolated } \texttt{WLF.60 / WLF.36 / ODP.91}
+\text{ early-row face.}
+\end{gathered}
+\tag{CPS.3e}
+\]
+
+The TFE2748B rows open the full-exchange ledger into Duhamel-Hodge pullback,
+early-fibre/source admission, retained heat gap, endpoint/log-carrier, active
+density, compactness, and component-rigidity coordinates. Those are consumers
+or support unless they construct the same record-admitted coupled matrix before
+selected readout for the signed-height upcrossing.
+
 Thus the live c0 wall is not broad mismatch evacuation, profile Liouville, raw
 freshness, or an abstract storage label. It is payment of the terminal visible
 readout on the actual order-locked full selected packet, same-carrier tail
@@ -202,7 +246,8 @@ source package whose endpoint face is root-fixed terminal-uniform service
   storage.  The lower source audit then splits that package into a current
   square-packing record, an endpoint/native no-residue record, and the
   original root-generator storage/coercivity wall for the persistent
-  affine/root quotient.
+  affine/root quotient, then opens that wall into the strict record-admitted
+  coupled storage matrix or the isolated WLF/ODP early-row face.
 
 ## 3. What is demoted
 
@@ -357,6 +402,43 @@ branch is lower still: it needs original root-generator storage/coercivity for
 the same coupled packet before child positive clipping, while dyadic,
 stopped-edge, martingale, reset, and return formulas are consumers of the
 continuous parent-root measure.
+
+The checked lower source-frontier says that `SelectedGeneratorStorageCoercivity.A'
+is still a wrapper. In current source language it is:
+
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longleftrightarrow
+\texttt{FullExchangeCriticalDepletionStorage.A}
+\tag{CPS.14}
+\]
+
+with the no-self-feeding inequalities
+
+\[
+d\Omega_P^{gen}\le C_Nd\Xi_P^{FE}+Paid,
+\qquad
+d\Xi_P^{FE}\le -dM_P+d\Theta_P^0+\vartheta d\Omega_P^{gen}+Paid,
+\qquad C_N\vartheta<1.
+\tag{CPS.15}
+\]
+
+The TFE2748B audit opens `(CPS.15)' into one simultaneous
+active-critical/full-exchange/active-transit matrix for the same record-admitted
+parent packet:
+
+\[
+\mathbf dX_P\le -d\mathbf M_P+K_P\mathbf dX_P+\mathbf dPaid_P,
+\qquad \rho(K_P)<1.
+\tag{CPS.16}
+\]
+
+The source-strict obstruction is exactly that the currently allowed sources do
+not force \(\rho(K_P)<1\); they still permit a unit-spectral-radius storage loop.
+Thus the current physical proof burden is to prove the subcritical feedback
+margin from the irreversible pressure-viscosity-incompressibility packet before
+selected readout, or to prove the isolated WLF.60 / WLF.36 / ODP.91 early-row
+payment on the same order-locked full-packet carrier.
 
 ## 5. Shrink rule
 
