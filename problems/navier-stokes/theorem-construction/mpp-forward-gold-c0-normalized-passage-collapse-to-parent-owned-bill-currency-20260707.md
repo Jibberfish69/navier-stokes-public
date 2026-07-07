@@ -371,7 +371,7 @@ potential/amplification record
 \texttt{OriginalHistorySelectedPotentialAmplificationBV.A},
 \tag{NPB.12g3}
 \]
-equivalently the original-history stopped testing/root-generator producer
+with stopped testing/root-generator language giving a construction route
 \[
 \texttt{MaterialAdjointAccretiveTestingData.A}
 /
@@ -382,6 +382,17 @@ equivalently the original-history stopped testing/root-generator producer
 \texttt{StoppedPredictableRootGeometryCompensator.A}.
 \tag{NPB.12g4}
 \]
+The TFE stopped-testing audit blocks reading `(NPB.12g4)' as a lower source by
+itself: the testing/current clauses are support unless they construct the same
+record-admitted original-ledger carrier. The noncircular lower producer remains
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longleftrightarrow
+\texttt{FullExchangeCriticalDepletionStorage.A},
+\tag{NPB.12g5}
+\]
+or the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the same
+order-locked full-packet carrier.
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
