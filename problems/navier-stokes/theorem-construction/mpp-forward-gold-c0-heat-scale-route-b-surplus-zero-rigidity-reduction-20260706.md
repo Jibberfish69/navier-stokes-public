@@ -32,6 +32,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -68,9 +69,11 @@ completion_truth: >-
   payer lift is the Gate 2 pre-readout record-admission problem, so route-b
   does not bypass FullTower ownership. The temporal-thin follow-up proves that
   once this payer is admitted on a compact material-time window, shrinking
-  positive service survives as a nonzero atom and cannot be zero surplus. None
-  of these notes proves those Navier-Stokes producer inputs or zero-loss
-  rigidity. The first-ratio storage route is further
+  positive service survives as a nonzero atom and cannot be zero surplus. The
+  compact coercivity extraction follow-up proves that a qualitative zero-loss
+  Liouville theorem on the admitted compact theta class automatically yields
+  the strict c_0 modulus. None of these notes proves those Navier-Stokes
+  producer inputs or zero-loss rigidity. The first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
   sharpened to persistent root affine quotient payment and then to the single
@@ -356,7 +359,10 @@ and
 This is the material-time route-b version of \(c_0\). It is not closed here.
 The next proof burden is to construct `(HSR.13)' from the original
 Navier-Stokes material history, or prove the spectral gap `(HSR.11)' on the
-certified invariant heat-scale profile class.
+certified invariant heat-scale profile class. By the compact coercivity
+extraction lemma, it is enough to prove the qualitative zero-loss form of that
+gap on the compact admitted theta class; the positive modulus then follows by
+minimization.
 
 The current-Carleson reduction in
 `mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md`
