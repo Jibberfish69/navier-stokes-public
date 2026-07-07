@@ -149,7 +149,8 @@ Thus the exact conditional bridge is
 \begin{gathered}
 \text{fixed stopped-score square return payment}\\
 +\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}\\
-+\text{original root square-reserve bound}\\
++\texttt{OriginalHistorySelectedPotentialAmplificationBV.A}
+/\texttt{SelectedGeneratorStorageCoercivity.A}\\
 \Longrightarrow
 \texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
 \end{gathered}
@@ -188,7 +189,8 @@ Therefore the return-side source theorem is now:
 
 \[
 \texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}
-+\texttt{OriginalHistoryRootSquareReserveBound.A}.
++\texttt{OriginalHistorySelectedPotentialAmplificationBV.A}
+/\texttt{SelectedGeneratorStorageCoercivity.A}.
 \tag{SRIW.13}
 \]
 
@@ -216,7 +218,8 @@ The active route now has the sharper return-side chain
 &\texttt{L2L3\_sp}
 +\texttt{MovingDriverActiveStateFirstRatioPackage.A}\\
 &+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}
-+\texttt{OriginalHistoryRootSquareReserveBound.A}\\
++\texttt{OriginalHistorySelectedPotentialAmplificationBV.A}
+/\texttt{SelectedGeneratorStorageCoercivity.A}\\
 &\Longrightarrow
 \texttt{UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A}\\
 &\Longrightarrow
