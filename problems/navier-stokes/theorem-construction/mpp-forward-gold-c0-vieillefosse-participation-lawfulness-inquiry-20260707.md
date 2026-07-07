@@ -3195,7 +3195,7 @@ This target crosses only if it proves all three points uniformly:
 Until these points are proved, causal lag is the constructive target for
 endpoint strictness, not a completed proof of \(c_0>0\).
 
-### 26.1 Corrected attack: pressure re-aiming
+### 26.1 Pressure re-aiming: magnitude branch and signed correction
 
 The attack is not that a local affine core cannot have aligned pressure. It can.
 That local zeroing is a stopped/pass or nonparticipating reading unless the same
@@ -3226,7 +3226,7 @@ If \(h_i=h_j\), that channel is pressure-degenerate and cannot carry oriented
 record unless another channel takes the handoff. Re-aiming is non-affine
 pressure/collar work in the same physical annulus.
 
-The corrected bridge is therefore the pressure-reaiming inequality
+The magnitude bridge would be the pressure-reaiming inequality
 
 ```math
 \sum_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
@@ -3237,8 +3237,46 @@ C\,\mathsf P_{\rm reaim},
 
 where \(\mathsf P_{\rm reaim}\) is already part of the same participation bill,
 and equality-zero routes to the stationary collar theorem or pass/nonparticipation
-rather than positive retained record. This is the next exact theorem, recorded separately in
-`mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`.
+rather than positive retained record. This is not enough for \(c_0\). The
+absolute value makes (VPL.253) time-even, while causal lag is the time-odd
+question of whether the pressure frame lags rather than leads.
+
+The corrected \(c_0\)-level object is the signed retained lag
+
+```math
+\mathcal L_{\rm ret}
+:=
+\int_{\rm active}
+\left\langle
+\Pi_\perp^S
+\left(T(D_tf)+[D_t,T]f+\operatorname{CollarTail}\right),
+\mathcal O_{\rm mat}
+\right\rangle
+d\mu_{\rm part},
+\tag{VPL.253a}
+```
+
+with \(\mathcal O_{\rm mat}\) the material orientation of the same retained
+participant. The needed bridge is
+
+```math
+\mathcal L_{\rm ret}
+\ge
+c\,\mathsf S_{\rm ret}
+-
+C\left(
+\mathsf P_{\rm collar}
++\mathsf S_{\rm pass}
++\mathsf P_{\rm exit}
+\right),
+\qquad c>0.
+\tag{VPL.253b}
+```
+
+This is the exact theorem recorded separately in
+`mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`: retained
+positive participation must forbid cancellation of the signed angular pressure
+lag, or else the endpoint remains alive.
 
 ### 26.2 Affine-symbol pressure test
 
