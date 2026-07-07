@@ -43,6 +43,7 @@ derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fresh-overrun-tail-ui-no-invisible-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. The c_0 bill-matrix early-row note reduced the
   nonduplicate matrix face to RecordAdmittedSubHeatLagEarlyBranchStorage.A,
@@ -62,9 +63,12 @@ completion_truth: >-
   already forced into the main trilinear carrier or named charges, and the
   remaining unadmitted survivor is TerminalZenoVisibleReadoutPayment.A, sharpened
   to TerminalFullPacketNoResiduePayment.A or a terminal same-carrier critical
-  anti-atom for the full selected packet. This note does not prove WLF.60, the
-  early-row storage theorem, the bill-coercive matrix, FullTower retention, c_0,
-  or MPP closure.
+  anti-atom for the full selected packet. The fresh-overrun no-invisible
+  reduction adds the same conclusion on the identity branch: failure of
+  FreshOverrunSameCarrierTailUI.A is a visible terminal atom, not an invisible
+  donor-chain supplier, and still needs unweighted same-carrier payment or
+  admitted route-out. This note does not prove WLF.60, the early-row storage
+  theorem, the bill-coercive matrix, FullTower retention, c_0, or MPP closure.
 ---
 
 # WLF.60 carrier mismatch to tail UI reduction

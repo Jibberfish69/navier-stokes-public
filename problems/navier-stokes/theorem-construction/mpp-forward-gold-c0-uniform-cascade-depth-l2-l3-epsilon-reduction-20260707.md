@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscous-thickness-square-not-first-ratio-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fresh-overrun-tail-ui-no-invisible-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
@@ -87,8 +88,11 @@ completion_truth: >-
   line: viscous residence controls square thickness, while the c_0 service row
   needs first-ratio linear payment. The half-tail profile has finite viscous
   square charge and divergent first-ratio service, so same-parent detector
-  origin, finite menus, and no-recount do not close WLF.60/ODP.91. Therefore
-  the requested proof does not close c_0 unless the uniform-depth theorem is
+  origin, finite menus, and no-recount do not close WLF.60/ODP.91. The
+  fresh-overrun pivot also removes the invisible-Zeno branch: tail failure is a
+  visible terminal source-curve atom, but current sources still do not provide
+  unweighted same-carrier payment for that visible branch. Therefore the
+  requested proof does not close c_0 unless the uniform-depth theorem is
   upgraded to the same WLF/ODP same-carrier payment /
   FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem,
   or to the full record-admitted active-critical/full-exchange/active-transit
@@ -653,5 +657,12 @@ origin, and no-recount are checked support only. The proof of
 \]
 
 with the terminal source-curve atom either admitted as a typed CM route-out or
-paid before readout. This is a strict narrowing of the source wall, not a proof
-of \(c_0\).
+paid before readout. The fresh-overrun no-invisible pivot sharpens this first
+option: failure of same-carrier tail UI is a visible terminal atom forced by
+the full Hodge-Stokes / coupled-tower audit into endpoint, finite-rung,
+high-factor/source-square, no-waste, or profile-facing readout. Current energy,
+local-energy, and source-square consumer surfaces do not pay that readout on
+the actual selected carrier. Thus the terminal source-curve atom must be either
+admitted as a typed CM route-out or paid by full-packet no-residue / terminal
+same-carrier critical anti-atom before readout. This is a strict narrowing of
+the source wall, not a proof of \(c_0\).
