@@ -32,6 +32,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-zeno-rellich-same-carrier-reserve-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-codex-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-fresh-source-tent-carleson-paired-carrier-direct-attack-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-terminal-full-packet-noresidue-rigidity-audit-20260627.md
@@ -51,7 +52,11 @@ completion_truth: >-
   producer is not the ratio definition of c_0; it is the missing source theorem
   that creates SameCarrierTailUI.A / RootFixedTerminalUniformL1FullPacketServiceStorage.A
   on the actual order-locked full selected packet, or routes failure through
-  same-witness CM admission. No c_0, WLF.60, or MPP closure is claimed here.
+  same-witness CM admission. The Rellich source route has now been lowered from
+  broad SelectedRellichBulkPositivity.A to the quantitative selector-force /
+  non-affine pressure-viscous commutator theorem
+  SelectedRellichSelectorForceLowerBound.A. No c_0, WLF.60, or MPP closure is
+  claimed here.
 ---
 
 # Terminal tail UI to c0 bill currency
@@ -299,9 +304,12 @@ null-Lagrangian passage, or a raw nonuse/freshness theorem.
 
 ## 6. Current exact lower producers
 
-The terminal same-carrier route can close through one of these source theorems:
+The terminal same-carrier route can close through one of these source theorems.
+The Rellich branch is now lowered one step:
 
 \[
+\texttt{SelectedRellichSelectorForceLowerBound.A}
+\Longrightarrow
 \texttt{SelectedRellichBulkPositivity.A}
 \Longrightarrow
 \texttt{TerminalZenoRellichSameCarrierReserve.A}
@@ -310,7 +318,8 @@ The terminal same-carrier route can close through one of these source theorems:
 \tag{TTB.23}
 \]
 
-If the Rellich sign fails, the smaller remaining object is a polar-null packet:
+If the selector-force lower bound fails, the smaller remaining object is a
+polar-null or unadmitted selector-force packet:
 
 \[
 \texttt{SelectedAdjointPolarizationNoCancellation.A}
