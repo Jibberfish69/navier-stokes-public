@@ -1155,3 +1155,232 @@ The collar calculation is evidence for (VPL.87) and proves it in the
 same-symmetry model class. The full \(c_0\) theorem requires (VPL.86) and
 (VPL.87) for arbitrary lawful participation towers, including non-axisymmetric
 mode mixing and log-endpoint Young-measure defects.
+
+## 14. Handling the two load-bearing lines
+
+The first correction is that the domination measure cannot live on raw
+space-time points. If it did, a blow-up could sample the interior affine core
+while the participation collar sits outside the zoom. The participation-law
+measure space has to be packet/rung based:
+
+```math
+\mathcal A
+=
+\{\text{lawful same-field participation atoms: core + collar + parent
+attachment at one scale}\}.
+\tag{VPL.88}
+```
+
+On each atom \(a\in\mathcal A\), rescale to a fixed reference packet
+\(\widehat a\) containing the core and the whole gluing layer. The service and
+bill are then measures on atoms:
+
+```math
+\nu(a)=\mathcal S_{\rm Vieillefosse}(\widehat u_a),
+\qquad
+\mu(a)=\mathcal V_{\rm transverse/cancel}(\widehat u_a).
+\tag{VPL.89}
+```
+
+With this choice, a density-point blow-up cannot leave the collar behind. Unit
+service means a whole lawful participant is present.
+
+### 14.1 Tangent compactness
+
+The tangent compactness line is handled by adding the correct quotient
+compactness to the bill. Let \(\mathfrak A\) be the finite-dimensional affine
+Vieillefosse manifold
+
+```math
+\mathfrak A
+=
+\{
+x\mapsto \lambda RDR^T x + \Omega x + b
+:
+\lambda\in\mathbb R,\ R\in SO(3),\ \Omega^T=-\Omega,\ b\in\mathbb R^3
+\}.
+\tag{VPL.90}
+```
+
+Translations and rotations are harmless symmetries; the service reads only the
+symmetric Vieillefosse part. Define the non-affine gluing distance on the
+reference packet by
+
+```math
+\mathcal G(u)
+:=
+\inf_{a\in\mathfrak A}
+\|\nabla u-\nabla a\|_{L^2({\rm collar})}^2
++\|\nabla_{\omega}(\nabla u-\nabla a)\|_{L^2({\rm packet})}^2
++\|\partial_r(\nabla u-\nabla a)\|_{H^{-1}({\rm packet})}^2 .
+\tag{VPL.91}
+```
+
+This is not a new external meter. Physically it is the viscous cost of
+departing from one affine self-stretcher while attaching the selected packet to
+the parent field. The transverse bill must include this quantity:
+
+```math
+\mu(a)
+\gtrsim
+\|\Pi_4 f[\widehat u_a]\|_{\rm press}
++\mathcal G(\widehat u_a).
+\tag{VPL.92}
+```
+
+Now take a normalized sequence with
+
+```math
+\nu(a_n)=1,
+\qquad
+\mu(a_n)\to0.
+\tag{VPL.93}
+```
+
+By (VPL.92),
+
+```math
+\mathcal G(\widehat u_{a_n})\to0.
+\tag{VPL.94}
+```
+
+Choose \(a_n^*\in\mathfrak A\) realizing the affine quotient up to \(o(1)\).
+Korn-Poincare on the fixed reference packet gives compactness modulo
+\(\mathfrak A\):
+
+```math
+\widehat u_{a_n}-a_n^*
+\to0
+\quad\text{strongly in the packet topology needed to pass }f[u]
+\text{ and }\mathcal S.
+\tag{VPL.95}
+```
+
+The normalization \(\nu(a_n)=1\) fixes the affine amplitude, so after a
+subsequence
+
+```math
+a_n^*\to a_\infty(x)=\lambda RDR^Tx+\Omega x+b,
+\qquad
+\lambda\neq0.
+\tag{VPL.96}
+```
+
+Thus
+
+```math
+\widehat u_{a_n}\to a_\infty
+\tag{VPL.97}
+```
+
+strongly enough that the service does not vanish into a Young measure:
+
+```math
+\nu_\infty=1,
+\qquad
+\mu_\infty=0.
+\tag{VPL.98}
+```
+
+That handles tangent compactness. The decisive point is that vanishing bill
+forces strong convergence modulo the affine Vieillefosse manifold; it does not
+allow oscillation or log-scale bookkeeping mass to carry the service.
+
+### 14.2 Zero-bill tangent rigidity
+
+The zero-bill tangent line is then an equality case. If
+
+```math
+\mu_\infty=0,
+\tag{VPL.99}
+```
+
+then by (VPL.92)
+
+```math
+\mathcal G(u_\infty)=0,
+\qquad
+\Pi_4 f[u_\infty]=0.
+\tag{VPL.100}
+```
+
+The equality case of Korn-Poincare gives
+
+```math
+u_\infty\in\mathfrak A
+\tag{VPL.101}
+```
+
+on the whole reference packet. The service normalization removes the trivial
+case and gives a nonzero Vieillefosse strain:
+
+```math
+u_\infty(x)=\lambda RDR^Tx+\Omega x+b,
+\qquad
+\lambda\neq0.
+\tag{VPL.102}
+```
+
+Now use the participation boundary. A lawful same-field atom is not just an
+interior jet; it includes the attachment to the parent field. On the outer
+participation boundary, the selected packet must either match the parent
+admissibly or vanish relative to the parent readout. In either case the
+nonzero affine field cannot satisfy the boundary condition without a nontrivial
+collar:
+
+```math
+\lambda RDR^Tx+\Omega x+b
+\text{ cannot be both nonzero affine in the core and zero-cost attached at the
+outer boundary.}
+\tag{VPL.103}
+```
+
+Therefore a zero-bill lawful atom has only the trivial affine amplitude:
+
+```math
+\lambda=0.
+\tag{VPL.104}
+```
+
+But then
+
+```math
+\nu_\infty=0,
+\tag{VPL.105}
+```
+
+contradicting (VPL.98). This proves the zero-bill rigidity once the packet/rung
+lawfulness boundary and the gluing distance (VPL.91) are installed as part of
+the strict participation law.
+
+### 14.3 What the handled proof gives
+
+With (VPL.88)--(VPL.92), the two load-bearing lines become standard:
+
+```math
+\text{vanishing bill}
+\Rightarrow
+\text{strong compactness modulo }\mathfrak A
+\Rightarrow
+\text{zero-bill tangent}
+\Rightarrow
+\text{nonzero affine lawful atom}
+\Rightarrow
+\text{boundary contradiction.}
+\tag{VPL.106}
+```
+
+So the all-tower inequality follows:
+
+```math
+\nu\le C\mu,
+\qquad
+c_0\ge C^{-1}>0.
+\tag{VPL.107}
+```
+
+The remaining non-formalized point is no longer "find the pressure effect." The
+pressure effect is the \(l=4\) channel. The exact remaining formal burden is to
+show that (VPL.91) is a legitimate participation-law bill: every non-affine
+mode used to attach, hide, or cancel the Vieillefosse core is charged by the
+same-field viscous participation cost already allowed in \(c_0\).
