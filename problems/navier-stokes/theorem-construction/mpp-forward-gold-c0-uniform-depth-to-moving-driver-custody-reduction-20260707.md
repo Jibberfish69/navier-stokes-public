@@ -12,6 +12,7 @@ ontology_lock:
 target_object:
   - L2L3_sp
   - UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A
+  - MovingDriverActiveStateFirstRatioPackage.A
   - MovingDriverPreEnvelopeSignedCurrentRetention.A
   - MovingDriverFixedChartJordanOrientationAllocation.A
   - PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A
@@ -26,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-custody-first-ratio-source-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-signed-channel-material-carrier-support-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
@@ -127,8 +129,62 @@ d\mu^J=d\mu^A-d\mu^N
 
 on the same parent-known event space. Thus the three-measure orientation row
 is automatic after ownership of the raw event. The open issue is getting the
-raw event owned before selected positive-part readout and keeping it owned
-through the normalized bill-record passage.
+  raw event owned before selected positive-part readout and keeping it owned
+  through the normalized bill-record passage.
+
+The source-split follow-up sharpens the first and last clauses of `(UDM.4)'.
+The primitive channelization clause is lowered to parent-known pre-readout
+active-state capacity plus the installed fixed-chart formula:
+
+\[
+\begin{aligned}
+&\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&\Longrightarrow
+\texttt{PrimitiveRawActiveStateFirstAddressOrPaidTransition.A}\\
+&\Longrightarrow
+\texttt{PrimitiveRawMaterialChannelAtlasFiniteOverlapOrPaidBoundary.A}\\
+&+\texttt{PrimitiveRawMaterialChannelFormulaOnFixedChart.A}\\
+&\Longrightarrow
+\texttt{PrimitiveSignedChannelPreReadoutMaterialChannelizationPartition.A}.
+\end{aligned}
+\tag{UDM.5a}
+\]
+
+The same-event/no-recount clause splits into support plus the actual payment
+row:
+
+\[
+\text{no-recount/no-delamination support}
++
+\texttt{WLF.60/ODP.91 selected first-ratio payment}
++
+\text{same-edge record-admission closedness}.
+\tag{UDM.5b}
+\]
+
+Thus a sharper sufficient package is
+
+\[
+\begin{aligned}
+\texttt{MovingDriverActiveStateFirstRatioPackage.A}:={}&
+\texttt{ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A}\\
+&+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}\\
+&+\texttt{WLF.60/ODP.91 selected first-ratio payment}\\
+&+\text{same-edge no-detachment/record-admission closedness}.
+\end{aligned}
+\tag{UDM.5c}
+\]
+
+and
+
+\[
+\texttt{MovingDriverActiveStateFirstRatioPackage.A}
+\Longrightarrow
+\texttt{MovingDriverCustodyFirstRatio.A}.
+\tag{UDM.5d}
+\]
 
 Equivalently,
 
