@@ -33,6 +33,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-packet-interface-defect-summability-or-strict-loss-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-reset-root-payment-frontier-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
 completion_truth: >-
   This audit does not prove Gate 2, FullTowerSignedTotalExchangeRetention.A,
   StrictSamePacketCycleExchangeCoercivity.A, c_0, or the MPP. It narrows the
@@ -57,7 +59,11 @@ completion_truth: >-
   genuine Navier-Stokes same-packet coercivity/admission theorem:
   SignedSmoothSamePacketCommutatorCoercivity.A inside
   OriginalSmoothDataToPrelimitMasterBalanceFamily.A, or a route-out as
-  same-object Part/Field failure.
+  same-object Part/Field failure. The retained Perron-circulation follow-up
+  proves that admitted positive edges are paid by four-body activity; the
+  theta-envelope no-go proves the unsigned Theta_N envelope is not itself the
+  required three-measure packet. The first remaining proof object is the raw
+  signed commutator coercivity identity before absolute-value estimation.
 ---
 
 # Full-tower positive-channel projection audit
@@ -327,3 +333,10 @@ Therefore the active c_0 proof is now sitting on this exact statement:
 
 No current source proves `(FPC.18)`. It is the sharpened Gate 2 producer, not a
 closed theorem.
+
+The theta-envelope no-go further prevents a shortcut: the positive
+\(\Theta_N\) clock in `(FPC.18)' is a BKM/Moser envelope after absolute values.
+It cannot by itself supply the same-carrier positive carrier, negative partner,
+and signed current required for three-measure admission. The proof must return
+to the raw signed commutator identity `PMB.9s` / `SSC-DC.4`, or route the lost
+orientation to bill, legal, stop, Pack, Part, or Field.
