@@ -8,9 +8,10 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   log-endpoint is disarmed only after a fixed-sign retained-participation pairing is proved. The
   affine-symbol test shows the bare Calderon-Zygmund transverse response changes sign over
   angular embeddings on S^2, so the terminal target is not naked spectral positivity of the
-  pressure operator. The remaining theorem is retained-participation angular positivity:
-  selected material orientation plus angular transport/mixing payment plus pass/collar/zero-record
-  classification must prevent cancellation of the transverse response.
+  pressure operator. The remaining theorem is the same-edge retained-service
+  admission theorem: chart/selector custody, detector/channel custody, and
+  selected first-ratio bill currency must attach to the selected transverse
+  pressure/strain service before readout.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -20,6 +21,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-adjacent-affine-chain-mismatch-is-free-mode-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-participation-hessian-not-pressure-hessian-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
 completion_truth: >-
   PHYSICS FIRST. In one incompressible fluid the only thing that can brake the Vieillefosse
   self-stretch is the TRANSVERSE (eigenframe-rotating) part of the non-local pressure Hessian;
@@ -39,8 +42,8 @@ completion_truth: >-
   quotiented, but the angular problem is a retained-participation minimax, not naked spectral
   positivity of the Calderon-Zygmund operator on S^2. c_0 > 0 requires a uniform positive lower
   bound after selected material orientation, retained participation measure, and
-  angular transport/mixing payment plus pass/collar/zero-record classification prevent angular
-  cancellation. The zero-cone transport test sharpens the open lemma: the cancellation cone
+  same-edge retained-service admission prevents angular cancellation. The zero-cone transport
+  test sharpens the open lemma: the cancellation cone
   2n_3²=1 is crossed by the affine angular flow, so a zero-lag retained history must pay angular
   redistribution/source/selector flux, collapse to degenerate endpoint channels, or route through
   collar/exit/pass. The source-free zero-lag subcase is closed: without angular source defect,
@@ -53,9 +56,11 @@ completion_truth: >-
   detector/channel custody: on the selected plane-to-compressive channel the
   unsigned transverse service has angular factor \(z(1-z)\), while endpoint
   service is detector/channel rotation, silence, channel transfer, pass/collar,
-  or exit. The sourced retained angular Liouville rigidity remains open as
-  \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel
-  custody/bill-currency for the selected transverse service.
+  or exit. Section 17 identifies \(\mathsf P_{\rm mix}\) admission as a consumer
+  of the existing parent-owned positive-record / selected first-ratio
+  bill-currency wall. The sourced retained angular Liouville rigidity remains
+  open as same-edge pre-readout custody plus selected first-ratio bill currency
+  for the selected transverse service, or a typed route-out.
 ---
 
 # Corrected transverse-coupling reduction
@@ -157,10 +162,13 @@ the chart is present, the identity is the pushforward formula. Boundary moment
 ownership then reduces to a bill-currency question: endpoint moment change is
 controlled by same-chart angular/selector variation, and the unpaid producer is
 that this variation must be admitted as \(\mathsf P_{\rm mix}\) before readout.
-The current smaller Liouville target is therefore \(\mathsf P_{\rm mix}\)
-bill-currency admission plus detector/channel custody. On the admitted
-plane-to-compressive channel, unsigned transverse service is controlled by
-\(z(1-z)\); endpoint service means the packet has become detector-silent,
+Section 17 lowers that line once more: \(\mathsf P_{\rm mix}\) admission is a
+consumer of the existing selected first-ratio / parent-owned positive-record
+bill-currency theorem. The current smaller Liouville target is therefore
+same-edge pre-readout custody plus selected first-ratio bill currency for the
+selected transverse service, together with detector/channel custody. On the
+admitted plane-to-compressive channel, unsigned transverse service is controlled
+by \(z(1-z)\); endpoint service means the packet has become detector-silent,
 changed channel, passed to zero-record, or routed through collar/exit.
 
 ## 6. Honest status
@@ -169,7 +177,9 @@ The old formulation was too strong: it treated fixed-sign density as already ava
 checked state is sharper. Covariance survives; naked angular positivity fails at the first
 affine-symbol test; source-free zero-lag cancellation collapses to degenerate endpoint channels;
 retained chart absence is already a paid/exit branch; boundary moment ownership reduces to
-same-edge selector/order-lock variation admitted in the existing \(c_0\) bill currency. The
-remaining route is \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel custody
-for the admitted retained angular chart. This is a strict reduction plus an obstruction to the
+same-edge selector/order-lock variation admitted in the existing \(c_0\) bill currency; and
+\(\mathsf P_{\rm mix}\) admission is the already exposed selected first-ratio /
+parent-owned positive-record bill-currency wall. The remaining route is same-edge
+pre-readout custody plus selected first-ratio bill currency and detector/channel custody for
+the admitted retained angular chart. This is a strict reduction plus an obstruction to the
 bare spectral version, not a closure.
