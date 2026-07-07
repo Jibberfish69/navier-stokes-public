@@ -28,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-cm-routeout-bridge-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-clay-cm-consumption-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-bill-face-classification-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/spine.md
@@ -44,10 +45,13 @@ completion_truth: >-
   no-residue, and return-fibre projection, it becomes bill currency. If any
   clause fails, the failure is typed as bill-source failure, legal, stop,
   service/custody failure, or Pack/Part/Field only after the corresponding
-  same-witness CM or field/participation admission is present. The remaining
-  arbitrary-data work is still the same: prove the active-transit/full-exchange
-  storage or WLF/ODP first-ratio payment on the order-locked same carrier. No
-  c_0 closure or Millennium closure is claimed.
+  same-witness CM or field/participation admission is present. The final owned
+  same-edge no-recount half-tail is classified as a first-ratio Bill-face debt
+  certificate: finite if WLF/ODP or the active-transit/full-exchange matrix pays,
+  unpaid Bill if the first-ratio demand is infinite. The remaining arbitrary-data
+  work is still the same: prove the active-transit/full-exchange storage or
+  WLF/ODP first-ratio payment on the order-locked same carrier. No c_0 closure or
+  Millennium closure is claimed.
 ---
 
 # Full-tower positive channel: same-carrier log-carrier route-out
@@ -313,15 +317,17 @@ the following exhaustive test.
 \text{zero-baseline entry forms terminal residue after same-witness CM admission}
   &\Rightarrow \text{Part/Field route-out},\\[1mm]
 \text{owned same-edge first-ratio half-tail remains unpaid}
-  &\Rightarrow \text{open forward bill obstruction}.
+  &\Rightarrow \text{first-ratio Bill-face debt certificate}.
 \end{array}
 \tag{LCR.20}
 ```
 
-The final row is not an in-class survivor. It is the exact source theorem still
-unproved from arbitrary original data: WLF.60/ODP.91, an equivalent
-record-admitted subcritical active/root face, terminal full-packet no-residue /
-critical anti-atom payment, theta-payer admission, or same-witness CM admission.
+The final row is not an in-class survivor and not an untyped obstruction. It is
+the Bill branch with an unpaid first-ratio demand. It becomes paid bill if the
+source theorem is proved from arbitrary original data: WLF.60/ODP.91, an
+equivalent record-admitted subcritical active/root face, terminal full-packet
+no-residue / critical anti-atom payment, theta-payer admission, or same-witness
+CM admission.
 
 ## 7. Conditional theorem proved here
 
@@ -373,11 +379,15 @@ three-measure packet or is charged to bill, legal, stop, Pack, Part, or Field.
    chain rule once the detector and root generator are parent-announced before
    clipping.
 
-4. The remaining hard PDE producer is not sign orientation, Perron branching, or
+4. The last owned half-tail now has a typed destination: first-ratio Bill-face
+   debt on the same carrier. Finite \(B_{fr}\) is paid bill; infinite \(B_{fr}\)
+   is unpaid Bill, not an unclassified survivor.
+
+5. The remaining hard PDE producer is not sign orientation, Perron branching, or
    the theta envelope. It is the original-data construction of the stopped
    active-transit/full-exchange storage or WLF/ODP first-ratio payment on the
    same order-locked carrier.
 
-5. Pack/Part/Field is licensed only by the typed mechanism. Missing bill alone
+6. Pack/Part/Field is licensed only by the typed mechanism. Missing bill alone
    stays a bill obstruction; terminal atoms route to Part/Field only after
    same-witness CM admission or a named field/participation failure.
