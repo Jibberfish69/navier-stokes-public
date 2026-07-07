@@ -38,6 +38,10 @@ target_object:
   - SelectedGeneratorStorageCoercivity.A
   - StrictOriginalLedgerGeneratorStorage.A
   - FullExchangeCriticalDepletionStorage.A
+  - RecordFeedingSurplusPerronClassExclusion.A
+  - FullTowerPositiveChannelThreeMeasureAdmission.A
+  - SignedSmoothSamePacketCommutatorCoercivity.A
+  - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - SameParentCriticalDepletionNoZeno.A
   - SameParentCriticalGoodLambdaTail.A
   - BeforeClippingActiveDensityComparison.A
@@ -58,6 +62,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
   - problems/navier-stokes/source-frontier.yaml
@@ -73,6 +84,9 @@ supersedes_as_live_frontier:
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
+  - simple unit-cycle wording as the whole matrix obstruction after the Perron-class normal form
+  - theta-envelope positivity as same-packet three-measure admission
+  - pure local bounded X_comm storage as the signed commutator proof
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -103,11 +117,25 @@ completion_truth: >-
   active-critical/full-exchange/active-transit coupled storage matrix whose
   feedback spectral radius must be strictly below one, or into the isolated
   WLF.60 / WLF.36 / ODP.91 original-data early-row face on the order-locked
-  full-packet carrier. Duhamel-Hodge pullback, endpoint admission, retained heat
-  gap, component compactness, log-carrier, and before-clipping density language
-  are support unless they build that same record-admitted matrix before readout.
-  No such matrix, early-row face, FullTower retention, material-time Liouville
-  theorem, WLF.60, c_0, or MPP closure is proved here.
+  full-packet carrier. The matrix wall is lower than a simple unit loop:
+  the remaining ratio-one obstruction is a record-feeding strongly connected
+  Perron class. Once each positive Perron edge is admitted as a same-packet
+  positive/negative/current channel, retained four-body/viscous/Field payment
+  sees it, so branching Perron cancellation is not independent. The unproved
+  producer is FullTowerPositiveChannelThreeMeasureAdmission.A. The theta
+  envelope is not that producer because it is a positive BKM/Moser clock after
+  absolute values; the source line is the pre-envelope raw signed commutator
+  PMB.9s / SSC-DC.4. Pure local bounded X_comm storage cannot pay that clock;
+  after affine/collar payment and route-outs, the surviving theorem is the
+  non-affine, nonlocal pressure-viscous same-packet commutator coercivity.
+  Duhamel-Hodge pullback, endpoint admission, retained heat gap, component
+  compactness, log-carrier, before-clipping density, Perron normal forms, and
+  theta envelopes are support unless they build that same record-admitted
+  matrix, three-measure admission, pre-envelope signed commutator, early-row
+  payment, overrun tail UI, or typed CM route-out before readout. No such matrix,
+  three-measure admission, signed commutator, early-row face, FullTower
+  retention, material-time Liouville theorem, WLF.60, c_0, or MPP closure is
+  proved here.
 ---
 
 # c0 physical synthesis shrink map
@@ -232,6 +260,53 @@ The current source-frontier pushes the root-geometry wall down again:
 \tag{CPS.3e}
 \]
 
+The finite matrix obstruction is now typed more precisely. Failure of
+\(\rho(K)<1\) means a record-feeding strongly connected Perron class survives
+in the parent-face feedback graph:
+
+\[
+\rho(K_C)\ge1
+\leadsto
+\texttt{RecordFeedingSurplusPerronClassExclusion.A}.
+\tag{CPS.3f}
+\]
+
+That obstruction is not just a simple unit cycle. It is a balanced Perron edge
+circulation. But retained-Perron four-body coercivity removes the apparent
+branching-cancellation escape once every positive edge is retained as a
+same-packet three-measure channel:
+
+\[
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
+\Longrightarrow
+\texttt{RecordFeedingSurplusPerronClassExclusion.A}.
+\tag{CPS.3g}
+\]
+
+The current lower producer is therefore pre-envelope. The positive
+\(\Theta_N\) clock is an absolute-value envelope and cannot by itself supply
+the same-carrier positive carrier, negative partner, and signed current needed
+for three-measure admission. The source line is:
+
+\[
+\begin{gathered}
+\texttt{NonAffinePressureViscousSignedCommutatorCoercivity.A}\\
++\texttt{ThetaRelayDetectorFaithfulnessOrAffineQuotientPayment.A}\\
+\Longrightarrow
+\texttt{SignedSmoothSamePacketCommutatorCoercivity.A}\\
+\Longrightarrow
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
+\end{gathered}
+\tag{CPS.3h}
+\]
+
+The direct smooth calculation proves only the BKM-type readout unless
+`PMB.9s` / `SSC-DC.4` is supplied. The pure-local \(X_{comm}\) no-go says that
+the missing signed storage cannot be a bounded-below local primitive of line
+stretch. The sign must come from the non-affine, nonlocal
+pressure-viscosity-incompressibility coupling of the same packet, or the branch
+must pay the affine/collar bill or route out.
+
 The TFE2748B rows open the full-exchange ledger into Duhamel-Hodge pullback,
 early-fibre/source admission, retained heat gap, endpoint/log-carrier, active
 density, compactness, and component-rigidity coordinates. Those are consumers
@@ -246,8 +321,11 @@ source package whose endpoint face is root-fixed terminal-uniform service
   storage.  The lower source audit then splits that package into a current
   square-packing record, an endpoint/native no-residue record, and the
   original root-generator storage/coercivity wall for the persistent
-  affine/root quotient, then opens that wall into the strict record-admitted
-  coupled storage matrix or the isolated WLF/ODP early-row face.
+  affine/root quotient, opens that wall into the strict record-admitted
+  coupled storage matrix or the isolated WLF/ODP early-row face, and lowers the
+  matrix branch through record-feeding Perron-class exclusion to full-tower
+  three-measure admission and then to the raw signed same-packet commutator line
+  before theta-envelope estimation.
 
 ## 3. What is demoted
 
@@ -440,11 +518,46 @@ margin from the irreversible pressure-viscosity-incompressibility packet before
 selected readout, or to prove the isolated WLF.60 / WLF.36 / ODP.91 early-row
 payment on the same order-locked full-packet carrier.
 
+The sharper reading of "unit-spectral-radius storage loop" is a record-feeding
+Perron class. A ratio-one compact limit carries a nonnegative Perron edge
+circulation, not necessarily one literal cycle. Once the positive edges of that
+circulation are admitted as full-tower same-packet three-measure channels, the
+four-body/viscous/Field bill sees positive total variation and posts payment.
+So the matrix side now reduces to the admission theorem:
+
+\[
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
+\tag{CPS.17}
+\]
+
+That theorem cannot be obtained from the visible \(\Theta_N\) envelope alone.
+The envelope is produced after Kato-Ponce/Moser absolute values, where the
+signed carrier and negative partner have already been forgotten. The remaining
+pre-envelope statement is:
+
+\[
+\texttt{SignedSmoothSamePacketCommutatorCoercivity.A}
+\tag{CPS.18}
+\]
+
+in the `PMB.9s` / `SSC-DC.4` form. The local affine normal-form test rules out
+a bounded-below purely local \(X_{comm}\) primitive as the proof mechanism.
+After affine/collar payment or route-out, the surviving source of strictness is
+the non-affine, nonlocal pressure-viscous same-packet coupling:
+
+\[
+\texttt{NonAffinePressureViscousSignedCommutatorCoercivity.A}.
+\tag{CPS.19}
+\]
+
 ## 5. Shrink rule
 
 Future c0 work should attach to this file unless it proves `(CPS.13)' from the
-original coupled packet, proves a strictly smaller noncircular supplier for one
-of those clauses, proves same-carrier overrun tail UI before terminalization,
-proves theta-payer/pre-readout admission, or gives a typed route-out in the CM
-grammar. New labels that do not do one of those jobs are coordinates of this
-wall, not sibling frontiers.
+original coupled packet, proves the record-admitted matrix gap, proves
+`FullTowerPositiveChannelThreeMeasureAdmission.A`, proves the pre-envelope
+signed commutator line `(CPS.18)'/`(CPS.19)', proves a strictly smaller
+noncircular supplier for one of those clauses, proves same-carrier overrun tail
+UI before terminalization, proves theta-payer/pre-readout admission with the
+signed carrier retained, or gives a typed route-out in the CM grammar. New
+labels that do not do one of those jobs are coordinates of this wall, not
+sibling frontiers.
