@@ -4,6 +4,17 @@ created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / Gate2 / original-ledger generator storage
 status: source-strict-verdict-unit-spectral-radius-loop-not-excluded
+ontology_lock:
+  fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
+  reversible: false
+  adiabatic: false
+  compressible: false
+  corrected_terms:
+    - incompressible
+    - viscous
+    - dissipative
+    - pressure-constrained
+    - irreversible
 target_object:
   - NormalizedRelayBillCompactnessRecordPassage.A
   - ParentOwnedPositiveRecordBillCurrency.A
