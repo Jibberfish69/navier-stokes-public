@@ -61,9 +61,12 @@ completion_truth: >-
   nondegenerate-service line to the same detector/channel custody condition: on
   the admitted plane-to-compressive channel it is just the angular factor
   \(z(1-z)\); endpoint service is a detector/channel rotation, silence, channel
-  transfer, pass/collar, or exit branch. The remaining sign work is therefore
-  \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel
-  custody/bill-currency for the selected transverse service.
+  transfer, pass/collar, or exit branch. Section 17 identifies the last
+  non-formal admission: \(\mathsf P_{\rm mix}\) bill currency is the existing
+  parent-owned positive-record / selected first-ratio bill-currency wall, not an
+  angular operator theorem. The remaining sign work is therefore same-edge
+  pre-readout custody plus selected first-ratio bill currency for the selected
+  transverse pressure/strain service, or a typed route-out.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1226,3 +1229,92 @@ active channel, and the cost belongs to paid service, pass/collar, or exit. The
 unproved part is the same-edge admission theorem that prevents an arbitrary
 future-positive record from choosing or changing that detector/channel after the
 positive readout has selected it.
+
+## 17. The \(P_{\rm mix}\) bill is the existing first-ratio wall
+
+After Sections 15--16, no independent angular theorem remains hidden in
+\(\mathsf P_{\rm mix}\). The raw angular payment is
+
+```math
+d\mathsf P_{\rm mix}^{\rm var}
+=
+\text{same-chart angular/selector/order-lock variation of the selected packet}.
+\tag{CLS.79}
+```
+
+The required admission is the same-edge bill-currency inequality
+
+```math
+d\mathsf P_{\rm mix}^{\rm var}
+\le
+C\,dB_{\rm same\ edge},
+\tag{CLS.80}
+```
+
+where \(dB_{\rm same\ edge}\) is the existing \(c_0\) bill currency: Field,
+four-body/full-exchange, viscosity, legal/stop, or selected-critical
+original-history payment before positive readout.
+
+The parent-owned bill-currency sources already identify this wall. Raw
+same-fluid ownership and fixed-event Jordan orientation are not enough. A raw
+event space may have finite zeroth or square mass while the selected first-ratio
+read diverges:
+
+```math
+\nu_\ell={2^{-\ell}\over \ell+1},
+\qquad
+\sum_\ell \nu_\ell<\infty,
+\qquad
+\sum_\ell 2^\ell\nu_\ell=\infty.
+\tag{CLS.81}
+```
+
+So the implication
+
+```math
+\text{raw same-carrier variation}
++\text{finite same-edge custody}
++\text{no-recount}
+\nRightarrow
+\mathsf P_{\rm mix}^{\rm var}\le C\,dB_{\rm same\ edge}
+\tag{CLS.82}
+```
+
+is false in the checked support model. The lawful upgrade is the same one already
+isolated by the \(c_0\) bill-currency notes:
+
+```math
+\begin{aligned}
+&\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}\\
+&+\texttt{MovingDriverPreEnvelopeSignedCurrentRetention.A}\\
+&+\texttt{WLF.60 / ODP.91 selected first-ratio payment}\\
+&+\texttt{RecordAdmissionClosedness.A}
+\end{aligned}
+\Longrightarrow
+\mathsf P_{\rm mix}^{\rm var}\le C\,dB_{\rm same\ edge}.
+\tag{CLS.83}
+```
+
+Equivalently, \(\mathsf P_{\rm mix}\) admission is a consumer of
+\(\texttt{ParentOwnedPositiveRecordBillCurrency.A}\), or of a direct
+record-admitted active/root matrix theorem that supplies the same weighted
+linear payment on the selected transverse event. Without that producer, the
+transverse-coupling route stops at the known half-tail obstruction, not at an
+unproved angular Calderon-Zygmund positivity statement.
+
+The terminal shape of this route is therefore:
+
+```math
+\begin{aligned}
+&\text{retained angular chart/selector admission}\\
+&+\text{same-edge detector/channel custody}\\
+&+\texttt{ParentOwnedPositiveRecordBillCurrency.A}
+\end{aligned}
+\Longrightarrow
+\text{no zero-lag retained transverse strict atom.}
+\tag{CLS.84}
+```
+
+This is still conditional. It strictly lowers the original transverse sign lemma
+to the already exposed same-edge bill-currency theorem; it does not prove
+\(c_0>0\).
