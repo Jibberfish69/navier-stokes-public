@@ -27,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-announceable-active-weight-reset-carleson-cauchy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-numerator-wlf60-route-measure-reduction-20260707.md
 completion_truth: >-
   Strict reduction and failed shortcut only. This note does not prove
   ReturnIntervalActiveFibreJacobianDomination.A, inverse-weight capacity,
@@ -46,7 +47,10 @@ completion_truth: >-
   StoppedPredictableActiveWeightCompensator.A controls H_I||D||^2 and high-H_I
   upcrossings, where H_I=|I|^2/int_I w^{-1}; it does not dominate the reciprocal
   clock int_I w^{-1}. The remaining producer is the lower active-numerator /
-  route-measure gate ReturnClockActiveNumeratorLowerGate.A.
+  route-measure gate ReturnClockActiveNumeratorLowerGate.A. The follow-up
+  active-numerator reduction classifies that gate as the local return-clock
+  coordinate of SelectedLinearRouteMeasureCarleson.A / WLF.60 / ODP.91, not a
+  solved producer below that wall.
 ---
 
 # Return-clock Radon-Nikodym split
@@ -283,6 +287,13 @@ lower active-numerator gate:
 It is the return-clock form of the same-parent route-measure line
 \(\texttt{WLF.60}\): the before-clipping parent active numerator may not vanish
 down shrinking low-\(H_I\), large-\(A_I\) tubes.
+
+The active-numerator follow-up sharpens this classification. Once the
+parent-known return coarea map identifies \(w^{-1}d\sigma\) with the selected
+first-ratio linear readout, `ReturnClockActiveNumeratorLowerGate.A' is the local
+Radon-Nikodym version of `SelectedLinearRouteMeasureCarleson.A' / WLF.60 /
+ODP.91. It is therefore not a new proof source below WLF.60; it is the same
+linear bill in return-clock coordinates.
 
 ## 5. Smaller live theorem
 
