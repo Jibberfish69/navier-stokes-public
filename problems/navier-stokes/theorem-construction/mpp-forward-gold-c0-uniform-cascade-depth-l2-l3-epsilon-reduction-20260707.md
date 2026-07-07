@@ -271,7 +271,7 @@ At this resolution, the new non-spatial clause is exactly:
 \quad\hbox{or}\quad
 \texttt{RootFixedTerminalUniformL1FullPacketServiceStorage.A}
 \quad\hbox{or}\quad
-\texttt{EndpointImpulseFrameVariationBillOrRouteOut.A}.
+\texttt{AccelerationEndpointImpulseOrFrameVariationBillOrRouteOut.A}.
 \tag{UCD.6i}
 \]
 
