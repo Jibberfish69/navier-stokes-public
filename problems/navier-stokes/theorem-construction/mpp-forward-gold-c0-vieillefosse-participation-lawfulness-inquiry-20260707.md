@@ -3418,8 +3418,8 @@ identifies that \(\mathsf P_{\rm mix}\) admission with the existing selected
 first-ratio / parent-owned positive-record bill-currency wall; raw same-carrier
 variation plus finite same-edge custody still has the half-tail obstruction. The
 remaining pair is same-edge pre-readout custody plus selected first-ratio bill
-currency and detector/channel custody at the transverse-degenerate endpoint. On the admitted
-plane-to-compressive channel, unsigned transverse service carries \(z(1-z)\);
+currency and detector/channel custody at the transverse-degenerate endpoint. On
+the admitted plane-to-compressive channel, unsigned transverse service carries \(z(1-z)\);
 endpoint service means detector/channel silence, rotation, channel transfer,
 pass/collar, or exit unless the same-edge detector/channel was fixed before
 readout.
