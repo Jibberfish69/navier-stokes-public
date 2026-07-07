@@ -96,6 +96,8 @@ target_object:
   - RetainedRecordEdgeC11MetricTowerOrExit.A
   - RetainedFlowCurvatureMorreyEnvelopeOrExit.A
   - RetainedCurvatureSpikeThicknessOrCharge.A
+  - RetainedCurvatureSpikeChartPayerAdmission.A
+  - TemporalRecordThicknessChargeBillCurrency.A
   - RecordMenuPressureActiveOrSilentService.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
@@ -173,6 +175,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-spike-spatial-thickness-temporal-admission-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md
@@ -216,7 +219,7 @@ supersedes_as_live_frontier:
   - RecordMenuDetectorSilentServicePreReadoutReserve.A or OriginalHistoryDetectorSilentStrictHalfBarrier.A as a pressure-detector theorem rather than the primitive PLS strict half-barrier / weighted laminar reserve in detector-silent coordinates
   - RetainedRecordEdgeSelectorProjectorChannelAlignment.A, RetainedRecordEdgeProjectorSelectorAngleLockOrPaidRotation.A, or ParentAnnouncedAngleLockWithFiniteRotation.A as sibling angle-lock producers rather than parent-announced selector capture plus pre-entrance selected-critical payment for paid rotation
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
-  - retained exact-projector C11 chart/tower-or-exit as an opaque bottom source rather than the low-pass curvature spike thickness/charge row plus higher-projector service split
+  - retained exact-projector C11 chart/tower-or-exit as an opaque bottom source rather than the low-pass spatial Bernstein / chart-payer temporal admission / higher-projector service split
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
 completion_truth: >-
@@ -1229,7 +1232,7 @@ half-tail already isolated in the selected-density route. Thus
 `SameEdgeOrderLockPartnerDeficitPayment.A' is the full-packet wording of the
 existing selected-overrun / order-lock-overlap payment, not a new lower source.
 
-The chart part is also open, but it has been reduced:
+The chart part is also open, but it has been reduced twice. First:
 
 \[
 \texttt{RetainedCurvatureSpikeThicknessOrCharge.A}
@@ -1239,15 +1242,30 @@ The chart part is also open, but it has been reduced:
 \tag{CPS.26n}
 \]
 
+Second, the curvature-spike thickness row itself now lowers to:
+
+\[
+\begin{aligned}
+&\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}\\
+&+\texttt{TemporalRecordThicknessChargeBillCurrency.A}
+\end{aligned}
+\Longrightarrow
+\texttt{RetainedCurvatureSpikeThicknessOrCharge.A}.
+\tag{CPS.26n1}
+\]
+
 The \(C^{1,1}\) metric tower test reduces to a flow-curvature bill. The
 flow-curvature bill reduces to a Morrey envelope. The Morrey envelope splits:
 sub-wavelength coefficient curvature is not an \(S^0\) metric symbol and is
 therefore higher-projector service, while the remaining same-edge metric content
-is the low-pass curvature spike thickness/charge theorem. Finite-difference
-tower coherence and Chapter 2 closedness are support; they do not by themselves
-rule out a thin material-frame curvature spike that is invisible to the averaged
-Field/viscous bill while still rotating the exact pressure projector at the
-active wavelength.
+has a spatial and a temporal side. The spatial side is now paid by low-pass
+Bernstein geometry: a retained interior low-pass curvature superlevel has
+active \(2^{-j}\)-scale spatial thickness, while boundary/collar/chart failure
+is higher-projector service, legal, stop, chart-transfer, or exit. The temporal
+side is the survivor: the curvature superlevel must be admitted before readout
+as a same-chart nonnegative payer/charge coordinate, then temporal pinching is
+the existing `TemporalRecordThicknessChargeBillCurrency.A' /
+`SameParentRecordPositiveSelectionStorage.A' wall.
 
 The existing local-thickness rows do not automatically prove this chart row.
 `LocalRecordFaceThicknessOrChargeModulus.A' controls positive record subfaces
@@ -1256,8 +1274,8 @@ inside an admitted carrier, and
 face-trace event mass. A low-pass curvature superlevel \(K_j^{lo}\) becomes
 eligible for those rows only after it is admitted as the same chart/face subevent
 with a finite same-chart charge. Until that bridge is proved,
-`RetainedCurvatureSpikeThicknessOrCharge.A' is the chart-coordinate
-thickness theorem, not an alias for face compactness support.
+`RetainedCurvatureSpikeChartPayerAdmission.A' is the chart-coordinate admission
+row, not an alias for face compactness support.
 
 The angle/payment part is not a new producer. It is the same selected-critical
 Gold price already appearing above as selected-generator storage, positive
@@ -1321,8 +1339,11 @@ original coupled packet, proves the record-admitted matrix gap, proves
 `FullTowerPositiveChannelThreeMeasureAdmission.A` specifically for the surviving
 full material clock `(CPS.17a)', proves the pre-envelope signed commutator line
 `(CPS.18)' by proving the moving low-high pressure/strain pump/free-material
-graph driver bound `(CPS.20)'--`(CPS.21)', proves the same-edge
-`RetainedCurvatureSpikeThicknessOrCharge.A` row for the exact-projector chart,
+graph driver bound `(CPS.20)'--`(CPS.21)', proves
+`RetainedCurvatureSpikeChartPayerAdmission.A` plus
+`TemporalRecordThicknessChargeBillCurrency.A` for the exact-projector chart, or
+reduces that temporal bill-currency row to the existing same-parent
+positive-selection storage theorem,
 proves a strictly smaller noncircular supplier for one of those clauses, proves
 the repeated-core record/return or shrinking-core reset branch by constructing
 the same parent-known pre-readout state/currency/record-storage object from
