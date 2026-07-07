@@ -7,6 +7,7 @@ route: forward-gold / c_0 backend / frozen frontier handoff
 authorship: Codex, 2026-07-07.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-FROZEN-FRONTIER-STATE-20260706.md
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-f5-assembly-scope-audit-20260706.md
@@ -66,6 +67,49 @@ The affine amplitude-mismatch argument does not supply (BACK.2). It only
 identifies the scaling tension. F2 remains open until the non-affine
 collar/turn-off rigidity is proved in the same pressure-viscous currency and
 Chapter 10 certifies the resulting constants in its worksheet currency.
+
+## 1.1 Proved F2 subcase: fixed axisymmetric plateau turn-off
+
+The axisymmetric plateau sublemma proves a genuine local payer in one fixed
+class. For a no-swirl \(l=2\) collar
+
+```math
+u=A(r)Dx+B(r)(x\cdot Dx)x
+\tag{BACK.3a}
+```
+
+with an exact inner affine plateau, fixed normalized annular geometry, and outer
+turn-off, the exact \(P_4\)-free equations force
+
+```math
+\rho=\frac{r^2B}{A}\equiv0,
+\qquad
+\tau=\frac{rA'}A\equiv0,
+\tag{BACK.3b}
+```
+
+so the field remains affine and cannot turn off. Therefore that fixed class has
+a positive pressure-viscous floor:
+
+```math
+\|\Pi_4(\partial_i u_j\partial_j u_i)\|_{\rm press}
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a)
+\ge
+c_{\rm ax,plat}\mathsf S(u).
+\tag{BACK.3c}
+```
+
+This is the same \(\mathsf P\) currency as (BACK.1), not a new detector. It
+does not install F2 because it assumes exact plateau, axisymmetry, fixed
+geometry, and compactness bounds. The live F2 residue is:
+
+```math
+\text{approximate/no-plateau turn-off}
++\text{ long log-spread same-affine chains}
++\text{ non-axisymmetric hiding}
++\text{ uniform atomization without service loss.}
+\tag{BACK.3d}
+```
 
 ## 2. Retained-row crossing consumer
 
