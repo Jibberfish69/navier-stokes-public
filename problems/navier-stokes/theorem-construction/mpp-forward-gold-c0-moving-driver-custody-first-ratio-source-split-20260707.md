@@ -271,6 +271,17 @@ The remaining quantitative clause is
 the domination of \(\int_Iw^{-1}d\sigma\) by \(R_P^+d\mathfrak m_P\) on that
 same before-clipping fibre.
 
+The clock-measure pressure test refines `(MDS.9e)' to
+\[
+\texttt{ReturnClockParentAnnouncedRNDerivative.A}.
+\tag{MDS.9f}
+\]
+This is stronger than saying the active-coordinate entropy/Jacobian row is
+installed: that row controls admitted density ratios after the parent active
+measure exists, while `(MDS.9f)' admits the harmonic inverse-weight return
+clock itself as a bounded Radon-Nikodym submeasure of the same active density
+before clipping.
+
 ## 4. The sharpened package
 
 Define the current source-split package
