@@ -31,11 +31,15 @@ completion_truth: >-
   in the strain frame and \([S^2,\nabla^2q]=0\). Any positive c_0 bite must come
   from transverse anisotropy: a signed material-time lag between the local
   stretch frame and the nonlocal participation frame. That commutator sign is
-  not proved here. The adjacent-overlap-charge attempt in Sections 21--23 is
-  refuted because it charges affine amplitude mismatch, a participation/Korn
-  null mode. The log-scale Hodge-Hardy bridge in Section 24 is only an
-  off-kernel bookkeeping coordinate; it cannot supply endpoint strictness by
-  itself. Endpoint strictness requires the causal-lag / route-b sign theorem.
+  not proved here, and the affine-symbol test in Section 26.2 shows the bare
+  Calderon-Zygmund transverse response changes sign over angular embeddings
+  before retained material orientation and bill currency are imposed. The
+  adjacent-overlap-charge attempt in Sections 21--23 is refuted because it
+  charges affine amplitude mismatch, a participation/Korn null mode. The
+  log-scale Hodge-Hardy bridge in Section 24 is only an off-kernel bookkeeping
+  coordinate; it cannot supply endpoint strictness by itself. Endpoint
+  strictness requires the causal-lag / route-b retained-participation sign
+  theorem.
 ---
 
 # Vieillefosse participation-lawfulness inquiry
