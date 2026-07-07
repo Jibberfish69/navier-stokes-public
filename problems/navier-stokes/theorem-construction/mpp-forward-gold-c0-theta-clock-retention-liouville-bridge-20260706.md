@@ -43,6 +43,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -82,10 +83,12 @@ completion_truth: >-
   parent/root/full-exchange currency or paid service before readout. The
   temporal-thin payer follow-up proves the compact atom/lower-semicontinuity
   part after that admission: a positive shrinking material-time service becomes
-  a nonzero time atom and contradicts zero surplus. Current sources do not
-  prove that Navier-Stokes admission input or zero-loss rigidity. No
-  FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
-  claimed.
+  a nonzero time atom and contradicts zero surplus. The compact coercivity
+  extraction follow-up proves that if the compact admitted theta class and
+  qualitative zero-loss rigidity are installed, the strict \(c_0\) modulus
+  follows automatically by minimization. Current sources do not prove that
+  Navier-Stokes admission input or zero-loss rigidity. No FullTower retention,
+  material-time Liouville theorem, c_0, or MPP closure is claimed.
 ---
 
 # Theta-clock bridge between retention and route-b Liouville
@@ -278,6 +281,12 @@ The abstract shift-hull lemma, abstract closed-zero-surplus lemma, and
 temporal-thin atom/lsc lemma are proved in the follow-up files; the compact
 certified path, Navier-Stokes theta-payer admission, and zero-loss rigidity are
 not currently installed.
+
+The compact coercivity extraction lemma adds the final direct-method step:
+once those missing producer rows and qualitative zero-loss rigidity are
+available, the positive \(c_0\) modulus is the attained minimum of the
+same-packet surplus payer on the compact normalized class. No separate
+closed-form spectral constant has to be guessed.
 
 ## 6. Consequence
 
