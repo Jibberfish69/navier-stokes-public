@@ -16,6 +16,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-common-selector-refinement-parent-announced-capture-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-metric-symbol-control-audit-20260703.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-spike-spatial-thickness-temporal-admission-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-escape-payment-audit-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-silent-service-pre-readout-reserve-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-primitive-channel-compatibility-reduction-20260704.md
@@ -134,14 +135,22 @@ capture theorem.
 Second, retained exact-projector chart control:
 
 \[
-\texttt{RetainedRecordEdgeC11MetricTowerOrExit.A}.
+\begin{aligned}
+&\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}\\
+&+\texttt{TemporalRecordThicknessChargeBillCurrency.A}\\
+&+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}.
+\end{aligned}
 \tag{RPCf.4}
 \]
 
-Finite same-carrier strain supports ellipticity. The open physical input is the
-spatial \(C^{1,1}\)/symbol tower for the same retained high packet, or a paid
-chart/legal/stop/material-service exit. Standard dyadic parametrix calculus is
-downstream of this license.
+Finite same-carrier strain supports ellipticity. The \(C^{1,1}\)/symbol tower
+has since been reduced: high-frequency coefficient curvature is higher-projector
+service, and low-pass coefficient curvature has fixed-time spatial thickness by
+Bernstein inside the retained chart. The remaining chart-side input is temporal
+and admissive: the low-pass curvature superlevel must be admitted as the same
+retained edge's chart payer before readout, and the resulting temporal pinch is
+the existing temporal bill-currency / same-parent positive-selection storage
+wall. Standard dyadic parametrix calculus is downstream of this license.
 
 Third, pre-entrance original-history selected-critical service payment:
 
@@ -186,7 +195,9 @@ The honest reduction is
 \[
 \begin{aligned}
 &\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
-&+\texttt{RetainedRecordEdgeC11MetricTowerOrExit.A}\\
+&+\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}
+ +\texttt{TemporalRecordThicknessChargeBillCurrency.A}
+ +\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}\\
 &+\text{pre-entrance original-history }
   \bigl(\texttt{CriticalFreshSourceTentCarleson.A}
   /\texttt{FreshSourceCriticalScaleMemoryBound.A}\bigr)\\
