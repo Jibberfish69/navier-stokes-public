@@ -958,7 +958,12 @@ N_{L+1}\le\theta N_L+B_L,
 
 The half-tail \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite zeroth moment and
 infinite first-ratio moment. It satisfies the installed support axioms
-abstractly, including laminarity and complete-frame orientation payment. Thus
+abstractly, including laminarity and complete-frame orientation payment. The
+viscous-thickness square test sharpens this physically: viscosity is
+irreversible, but heat-scale dissipation prices pulse size quadratically, while
+the selected positive record reads the pulse linearly with the first-ratio
+weight. Thus weighted square/Bessel or heat-thickness support still misses the
+selected first-ratio bill. Therefore
 `StrictHighRatioGoodLambdaHalfBarrierBreak.A' and
 `GlobalSamePacketFullWeightBeatingTail.A' are not lower independent sources;
 they are equivalent-strength tail forms of `(CPS.20)'--`(CPS.21)'.
@@ -1649,9 +1654,10 @@ language is support unless it proves the same WLF/ODP parent-weighted
 same-carrier payment, proves same-edge bill-currency termination before readout,
 proves an equivalent direct original-data subcritical active/root face, or
 routes the surviving high-Re branch out before selected readout.
-Likewise, martingale/Bessel, reset-derivative, potential-average, record/return,
-or stopped-testing language is support unless it pays the non-derivative affine
-quotient `(CPS.26n1)' by constructing the original-history selected
+Likewise, martingale/Bessel, viscous-thickness square, reset-derivative,
+potential-average, record/return, or stopped-testing language is support unless
+it pays the non-derivative affine quotient `(CPS.26n1)' by constructing the
+original-history selected
 potential/amplification record `(CPS.26n4)' through the record-admitted
 original-ledger/full-exchange storage wall `(CPS.26n6)', by converting it before
 readout into derivative/turnstile/exchange/covector motion, or by typed
