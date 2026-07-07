@@ -19,6 +19,7 @@ blocks:
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - FullTowerPositiveChannelThreeMeasureAdmission.A
   - NormalizedRelayBillCompactnessRecordPassage.A
+  - CriticalAffineChannelHodgeHardyBridge.A
 completion_truth: >-
   Working inquiry and strict reduction only. The affine Vieillefosse core is a
   lawful incompressible local jet and its true pressure response is purely
@@ -30,7 +31,10 @@ completion_truth: >-
   adjacent-overlap-charge attempt in Sections 21--23 is refuted: it charges an
   affine amplitude mismatch, but affine mismatch is in the participation/Korn
   null mode. The remaining payer is the non-affine incompressible collar
-  repair/turn-off sign.
+  repair/turn-off sign. The corrected bridge candidate is the log-scale
+  Hodge-Hardy mass for the critical affine channel: incompressibility charges
+  \((\partial_\rho-2)a\), while the kernel \(a\sim e^{2\rho}\) is the smooth
+  affine endpoint mode, not the log-endpoint survivor.
 ---
 
 # Vieillefosse participation-lawfulness inquiry
@@ -2891,3 +2895,129 @@ failures once the genuine long-chain payer is supplied. The current note does
 not supply that payer. The remaining \(c_0=0\) counterobject is the marginal
 slowly-varying affine tower whose affine drift is free and whose only possible
 charge is the non-affine incompressible collar repair/turn-off sign.
+
+## 24. Corrected bridge candidate: log-scale Hodge-Hardy mass
+
+The adjacent-affine mismatch argument failed because it charged affine drift
+inside the quotient. The corrected bridge does not charge the difference
+between affine amplitudes. It charges the non-affine repair forced by
+incompressibility when a normalized affine Vieillefosse core is carried through
+Navier-Stokes critical scaling.
+
+Let \(\rho=\log r\). On a strict same-affine-good chain, isolate the
+Vieillefosse \(l=2\) affine channel in physical variables as
+
+```math
+u_A(r,\omega)
+=
+a(\rho)\frac{A\omega}{r}
+=
+a(\rho)\frac{Ax}{|x|^2},
+\qquad
+\operatorname{tr}A=0.
+\tag{VPL.235}
+```
+
+This is the physical form of a normalized affine core
+\(U_r(y)\simeq a(\rho)Ay\) on the dyadic collar. The divergence computation is
+
+```math
+\nabla\cdot u_A
+=
+(\partial_\rho a-2a)
+\frac{\omega\cdot A\omega}{r^2}.
+\tag{VPL.236}
+```
+
+This is the missing sign. The free smooth affine mode is
+\(\partial_\rho a=2a\), i.e. \(a(\rho)=Ce^{2\rho}\). That is the physical
+degree \(+1\) affine field \(u(x)=CAx\), concentrated at the parent endpoint
+under critical normalization. The log-endpoint survivor has slowly varying
+normalized amplitude, so \(\partial_\rho a\) is small and
+\(\partial_\rho a-2a\) is order \(a\), not order zero.
+
+For an incompressible completion \(u=u_A+w\), the correction satisfies
+
+```math
+\nabla\cdot w
+=
+-(\partial_\rho a-2a)
+\frac{\omega\cdot A\omega}{r^2}
+\text{strict-atom error}.
+\tag{VPL.237}
+```
+
+The angular source \(\omega\cdot A\omega\) is a nonzero \(l=2\) spherical
+harmonic whenever the Vieillefosse service is nonzero. Spherical Hodge-Poincare
+therefore gives the non-affine collar bill
+
+```math
+\mathsf P_{\rm collar}(I)
+\gtrsim
+\int_I |\partial_\rho a-2a|^2\,|A|^2\,d\rho
+-\operatorname{Err}_{\rm atom}(I).
+\tag{VPL.238}
+```
+
+The service carried by this channel is
+
+```math
+\mathsf S_A(I)
+\simeq
+\int_I |a|^2\,|A|^2\,d\rho.
+\tag{VPL.239}
+```
+
+The one-dimensional endpoint inequality for the operator
+\(\partial_\rho-2\) is
+
+```math
+\int_I |a|^2\,d\rho
+\le
+C
+\left(
+|a(\rho_+)|^2
++
+\int_I|\partial_\rho a-2a|^2\,d\rho
+\right),
+\tag{VPL.240}
+```
+
+with \(C\) independent of the length of \(I\). The endpoint term is exactly the
+smooth affine kernel \(Ce^{2\rho}\); in the strict participation tower it must
+be owned by the parent collar or by a stopping atom. After that endpoint is
+charged, (VPL.238)--(VPL.240) give the corrected long-chain bridge:
+
+```math
+\mathsf S_A(I)
+\le
+C
+\left(
+\mathsf P_{\rm collar}(I)
++
+\mathsf P_{\rm parent}(\rho_+)
++
+\operatorname{Err}_{\rm atom}(I)
+\right).
+\tag{VPL.241}
+```
+
+This is the bridge that actually hits the marginal tower. A slowly varying
+normalized amplitude cannot hide in affine gauge drift, because the divergence
+law sees the mass term \(-2a\). The only zero mode is the smooth affine scaling
+\(a=Ce^{2\rho}\), and that mode exits the long-chain case by parent endpoint
+ownership rather than by per-rung affine mismatch.
+
+The remaining proof obligations are now specific:
+
+1. extract \(a(\rho)A\) as a legitimate strict-atom channel without losing
+   Vieillefosse service;
+2. prove the same-field spherical Hodge lower bound (VPL.238), including the
+   pressure/viscous participation bill and atom errors;
+3. prove parent-owned payment for the endpoint kernel \(a(\rho_+)\);
+4. run the conditional atomization accounting of Sections 22--23 with
+   (VPL.241) replacing the refuted (VPL.219).
+
+If those four obligations are proved uniformly over the strict participation
+atom class, the log endpoint is removed by a genuine non-affine collar payment.
+Until then, this is a corrected bridge candidate, not a \(c_0>0\) proof.
