@@ -49,8 +49,13 @@ completion_truth: >-
   moment line has now been reduced to same-edge selector/order-lock variation in the existing
   c_0 bill currency: total variation controls the endpoint moment once the retained chart is
   fixed, while the nontrivial producer is admission of that variation as \(\mathsf P_{\rm mix}\)
-  before readout. The sourced retained angular Liouville rigidity remains open as
-  \(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate service domination.
+  before readout. The nondegenerate-service line likewise reduces to
+  detector/channel custody: on the selected plane-to-compressive channel the
+  unsigned transverse service has angular factor \(z(1-z)\), while endpoint
+  service is detector/channel rotation, silence, channel transfer, pass/collar,
+  or exit. The sourced retained angular Liouville rigidity remains open as
+  \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel
+  custody/bill-currency for the selected transverse service.
 ---
 
 # Corrected transverse-coupling reduction
@@ -153,7 +158,10 @@ ownership then reduces to a bill-currency question: endpoint moment change is
 controlled by same-chart angular/selector variation, and the unpaid producer is
 that this variation must be admitted as \(\mathsf P_{\rm mix}\) before readout.
 The current smaller Liouville target is therefore \(\mathsf P_{\rm mix}\)
-bill-currency admission plus nondegenerate service domination.
+bill-currency admission plus detector/channel custody. On the admitted
+plane-to-compressive channel, unsigned transverse service is controlled by
+\(z(1-z)\); endpoint service means the packet has become detector-silent,
+changed channel, passed to zero-record, or routed through collar/exit.
 
 ## 6. Honest status
 
@@ -162,6 +170,6 @@ checked state is sharper. Covariance survives; naked angular positivity fails at
 affine-symbol test; source-free zero-lag cancellation collapses to degenerate endpoint channels;
 retained chart absence is already a paid/exit branch; boundary moment ownership reduces to
 same-edge selector/order-lock variation admitted in the existing \(c_0\) bill currency. The
-remaining route is \(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate service
-domination for the admitted retained angular chart. This is a strict reduction plus an
-obstruction to the bare spectral version, not a closure.
+remaining route is \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel custody
+for the admitted retained angular chart. This is a strict reduction plus an obstruction to the
+bare spectral version, not a closure.
