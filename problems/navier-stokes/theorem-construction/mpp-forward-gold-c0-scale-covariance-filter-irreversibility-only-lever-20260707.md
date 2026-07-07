@@ -219,7 +219,7 @@ uniform and thin-record-non-escapable as the moving low-high driver, global
 no-free-upward-transfer law, direct subcritical matrix face, or typed CM
 route-out. No closure claimed; filed is not cleared.
 
-## 7. Sync addendum (Opus, 2026-07-07): the lag's leading order is covariant too; strict piece = uniform local Re⁻¹
+## 7. Sync addendum (Opus, 2026-07-07): the lag's leading order is covariant too; even viscosity is marginal on the self-similar fixed point → lever is sign/rigidity, not a rate
 
 Physical sentence first. §5 killed the *spatial* smoothing version (`S` is
 order-zero in `ω`, no scale factor). The **temporal** version dies the same way,
@@ -240,25 +240,30 @@ covariant by construction.** This is the temporal twin of §5: neither the spati
 operator order nor the temporal lag supplies strictness, because both are measured
 in the cascade's own scale-free currency.
 
-**Where the strict piece is forced.** The one clock that is *not* covariant is
-viscosity: `ν` sets an absolute time `~ℓ²/ν` that grows *relative to* the turnover
-as `ℓ` shrinks. So the only surviving source of a strict-beyond-marginal deficit
-is the ratio of the covariant lag to viscosity's absolute clock:
-```math
-\varepsilon_* \;\sim\; \frac{\text{turnover}}{\text{viscous time at that scale}} \;=\; \text{local } Re^{-1}(\ell).
-```
-Hence `c_0 > 0 ⟺` the local Reynolds number is prevented from running away
-**uniformly** down the cascade — which is exactly the `L²→L³` / cascade-depth
-uniformity of the shrink map. The lever lands on the same wall, now *for a
-reason*: its covariant part (spatial §5 + temporal here) is marginal by the
-filter, and its only non-covariant part is viscous.
+**Where the strict piece is forced — CORRECTED (2026-07-07).** I first wrote that
+viscosity is the one non-covariant clock, so `ε_* ~ uniform local Re⁻¹`. **That is
+withdrawn.** It fails on the only state that matters: the **self-similar
+counterobject**. A Leray self-similar profile is an *exact solution of the full
+viscous equation* — a scaling fixed point with `ν` **included** — so on it the
+local Reynolds number is **constant by construction** and viscosity is **marginal**,
+not an absolute clock that "runs away." Even `ν` is covariant on the fixed point.
+So there is **no rate** — covariant *or* viscous — that supplies the strict piece.
 
-**Net, honest:** (a) the deficit's **sign** is confirmed one-way toward depletion
-(a smoothed/lagged pursuer cannot over-align a sharpening spin); (b) the lever's
-**leading order is scale-covariant** in both space and time, so — by this note's
-own filter — one must **stop trying to make the bare pursuit-lag strict**; (c) the
-strict piece is `~` uniform **local `Re⁻¹`**, and its cascade-uniformity is 3D
-global regularity, open. This sharpens the target from "prove the pursuit-lag is
-strict" (forbidden by the filter) to "prove viscosity's absolute clock overtakes
-the covariant turnover uniformly down the cascade," consistent with
-`RootFixedTerminalUniformL1FullPacketServiceStorage`. No closure.
+**The lever is a sign/rigidity, not a rate.** With every rate marginal on the
+self-similar state, `c_0`'s strictness can only come from **excluding that state**:
+the `f=0` self-similar (backward-DSS) profile cannot be a sustained finite-energy
+irreversible history. That is a global sign/rigidity — NRŠ excludes exact
+self-similar in `L³`; backward-DSS is open — i.e. the **route-b material-time
+Liouville / critical-element exclusion**, *not* a viscous `Re⁻¹` margin.
+
+**Net, honest:** (a) the deficit's **sign** is confirmed one-way toward depletion;
+(b) the lever's **leading order is scale-covariant** in space *and* time, and — the
+correction — **so is viscosity on the self-similar fixed point**, so by this note's
+own filter *nothing local or rate-like signs `c_0`*; (c) the strict piece is a
+**single-state rigidity**: exclude sustained self-similar (`f=0`) alignment. That is
+3D global regularity, open. The target is therefore not "viscosity overtakes the
+turnover uniformly" (that state has constant `Re`) but "the self-similar deficit-zero
+profile is excluded as a real finite-energy history," consistent with
+`RootFixedTerminalUniformL1FullPacketServiceStorage` read as a *sign* storage. No
+closure. (See the hardened-synthesis note: covariance frees scale-uniformity; the
+wall is the self-similar single-state exclusion.)
