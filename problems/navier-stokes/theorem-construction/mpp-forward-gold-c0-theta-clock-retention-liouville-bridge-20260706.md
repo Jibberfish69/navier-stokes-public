@@ -67,8 +67,8 @@ completion_truth: >-
   localized finite-energy affine zero-surplus subcase: a nonzero local affine
   core inside a finite same-fluid parent pays a collar/parent tower bill on
   positive material-time density. The remaining affine-looking escapes are
-  temporal thinness, lost parent/cover/tower certificate, or high-frequency
-  nonlinear pressure-stress transfer. The exact-projector collapse further
+  unadmitted temporal-thin service, lost parent/cover/tower certificate, or
+  high-frequency nonlinear pressure-stress transfer. The exact-projector collapse further
   shows that one branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
   PositiveCriticalTransferBound.A, not a local projector theorem. Current
   sources do not prove that detector/quotient bridge. The shift-hull reduction
