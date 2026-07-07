@@ -1791,7 +1791,7 @@ in (CLS.90) is explicit:
 \mathcal I_{\rm sv}^{(2)}
 =
 -d_2+{|\omega|^2\over4d_2}
-{\mu_{\rm sv}\over d_2}.
++{\mu_{\rm sv}\over d_2}.
 \tag{CLS.112}
 ```
 
@@ -1799,9 +1799,10 @@ The corresponding strict-repeller margin is the scalar inequality
 
 ```math
 \mu_{\rm sv}
->
+\ge
 d_2^2-\frac14|\omega|^2
-\text{(uniform positive margin in }d_2\text{)}.
++c_*d_2,
+\qquad c_*>0.
 \tag{CLS.113}
 ```
 
