@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-kawashima-SK-violation-set-is-the-self-similar-cone-complete-symmetrizer-with-material-time-drift-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / USE the four-body Kawashima symmetrizer: (1) its Shizuta-Kawashima genuine-coupling failure set is EXACTLY the self-similar counterobject; (2) c_0 = non-commutativity/observability of (A,B); (3) funnel architecture forces route-b; (4) NEW attack: complete the symmetrizer on the cone with the material-time self-similar drift, which IS route-b and IS the irreversibility sign
-status: STRUCTURAL REDUCTION + NEW CANDIDATE ATTACK, NOT A PROOF; uses the 2026-06-22/23 symmetrizer cluster, welds it to the counterobject / viscosity-marginal / route-b, and proposes one previously-unmade move
+route: "forward-gold / c_0 / USE the four-body Kawashima symmetrizer. (1) CLASSIFICATION (frozen quotient, not PDE): the observability-tower degeneracy set = the self-similar counterobject; (2) c_0 REQUIRES non-commutativity of (A,B) — necessary not sufficient; (3) CONDITIONAL funnel (open antecedent); (4) THE KEEPER — new attack: complete the symmetrizer on the cone with the material-time self-similar drift 𝓓, which IS route-b and IS the irreversibility sign"
+status: "ATTACK CARD (candidate) + CLASSIFICATION, NOT A THEOREM; the 𝓓-coupled compensator is the keeper. Overclaims flagged and demoted after owner grade 2026-07-07: SK-exhaustion and off-cone funnel are NOT PDE theorems (open bounded large-data symmetrizer); 𝓓 supplying a uniform floor is unproven (𝓓 is critical-null)"
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
