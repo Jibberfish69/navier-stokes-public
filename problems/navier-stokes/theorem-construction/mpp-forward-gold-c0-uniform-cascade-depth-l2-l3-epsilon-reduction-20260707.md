@@ -32,6 +32,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-root-weight-snell-compensator-realization-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
@@ -62,9 +65,17 @@ completion_truth: >-
   on a fixed material chart, positive leg / negative partner / signed current
   orientation is supplied by ordinary Hahn-Jordan splitting. It does not close
   c_0, because the pre-readout ownership, stopped-line, no-recount, and
-  first-ratio/tower-tail bill passage remain unproved. Therefore the requested
-  short proof does not close c_0 unless the uniform-depth theorem is upgraded
-  to the same WLF/ODP same-carrier payment /
+  first-ratio/tower-tail bill passage remain unproved. A continuation pressure
+  test checked the WLF/ODP affine-weight route and the Rellich selector-force
+  route against the terminal pulse obstruction. The WLF/ODP route does not
+  close from predictable envelopes, raw Bessel square, no-recount, or local
+  first-admission atoms; it needs paid stopped active-weight compensator /
+  root Hilbert martingale geometry, or the same terminal tail UI/no-atom
+  payment. The selector-force route has the scale-normalized H^{-1} floor and
+  pays the viscous leg, but the acceleration, nonlinear, and defect legs are
+  not in retained B-currency until same-edge bill-or-route-out admission is
+  proved. Therefore the requested short proof does not close c_0 unless the
+  uniform-depth theorem is upgraded to the same WLF/ODP same-carrier payment /
   FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem
   already isolated in the shrink map. No c_0 or MPP closure is claimed.
 ---
@@ -452,3 +463,102 @@ the second. A future proof must either prove `(UCD.7)' directly, prove the
 record-admitted matrix gap `(UCD.17)', prove same-carrier WLF/ODP early-row
 payment, or route the terminal/overrun survivor through an admitted
 legal/stop/Pack/Part/Field exit before positive readout.
+
+## 7. Continuation pressure test: the two apparent routes share one wall
+
+The WLF/ODP affine-weight route and the Rellich selector-force route were
+checked against the same terminal pulse obstruction. They are not independent
+ways around `(UCD.7)'.
+
+On the WLF/ODP side, the installed support is real but insufficient:
+
+\[
+\text{same-parent origin}
++\text{no-recount}
++\text{raw Bessel square}
++\text{local first-admission atom}
+\not\Longrightarrow
+\texttt{WLF.60}.
+\tag{UCD.19}
+\]
+
+The half-tail still has finite square/raw admission and divergent selected
+first-ratio bill. The sharper affine route is therefore:
+
+\[
+\begin{gathered}
+\texttt{StoppedPredictableActiveWeightCompensator.A}\\
++\texttt{PredictableProjectionTransitionInnovation.A}\\
+\Longrightarrow
+\texttt{PredictableRootWeightMartingaleRealization.A}\\
+\Longrightarrow
+\texttt{WLF.60/ODP.91}.
+\end{gathered}
+\tag{UCD.20}
+\]
+
+This is a genuine smaller theorem only if the active-weight compensator is
+paid by original-history scale derivative, turnstile, exchange, covector,
+record/return, legal, or stop variation before selected positive readout. A
+parent-predictable envelope alone only moves the future weight earlier; it
+does not pay its upcrossings.
+
+On the Rellich side, the selector-force floor is already installed:
+
+\[
+\|\mathbb P(S\nabla\chi)\|_{\dot H^{-1}}
+\gtrsim
+{|M_A(T)|\over |A|D^{3/2}}.
+\tag{UCD.21}
+\]
+
+The viscous balance leg is bill-compatible on the same selected carrier. The
+other balance legs are native currencies:
+
+\[
+\begin{array}{ll}
+\text{acceleration:} & \text{endpoint impulse / frame variation},\\
+\text{nonlinear:} & \text{kinetic, collar, or Reynolds stress},\\
+\text{defect:} & \text{trace ballast, variation, or certificate}.
+\end{array}
+\tag{UCD.22}
+\]
+
+The acceleration leg reproduces the terminal pulse countercheck:
+
+\[
+a_\tau(t)=\tau^{-1}{\bf 1}_{(-\tau,0]}(t),
+\qquad
+\int a_\tau=1,
+\qquad
+\int a_\tau^2=\tau^{-1}\to\infty,
+\tag{UCD.23}
+\]
+
+while the endpoint impulse can remain order one. Thus selector-force
+noncancellation still needs:
+
+\[
+\texttt{SelectorForceBalanceLegBillCurrency.A}
+\tag{UCD.24}
+\]
+
+meaning the nonviscous leg is admitted to the retained \(B\)-bill on the same
+edge, or is routed out before readout.
+
+So the current pressure-test conclusion is:
+
+\[
+\begin{array}{c}
+\texttt{WLF.60/ODP.91}\\
+\text{and}\\
+\texttt{SelectorForceHminusOneBillCurrency.A}
+\end{array}
+\quad
+\text{both reduce to same-edge bill admission / terminal no-atom payment.}
+\tag{UCD.25}
+\]
+
+The proof of \(\varepsilon_*>0\) is complete from `(UCD.7)' or from either
+source theorem once it proves `(UCD.7)'. The source theorem itself is still
+open in the current files.
