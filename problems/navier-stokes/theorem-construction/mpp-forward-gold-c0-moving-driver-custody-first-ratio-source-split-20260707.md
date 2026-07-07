@@ -22,6 +22,7 @@ target_object:
   - ODP.91
   - SelectedFirstRatioAffineTransitionReducer.A
   - UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A
+  - ReturnClockActiveNumeratorLowerGate.A
   - epsilon_star_positive
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-depth-to-moving-driver-custody-reduction-20260707.md
@@ -38,6 +39,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf-odp-affine-transition-first-ratio-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-record-return-producer-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
@@ -282,6 +285,22 @@ installed: that row controls admitted density ratios after the parent active
 measure exists, while `(MDS.9f)' admits the harmonic inverse-weight return
 clock itself as a bounded Radon-Nikodym submeasure of the same active density
 before clipping.
+
+The active-weight compensator pressure test keeps this from being misread as a
+settled square-packing consequence. It controls \(H_I\|D_I\|^2\) and paid
+upcrossings of
+\[
+H_I={|I|^2\over\int_Iw^{-1}d\sigma},
+\tag{MDS.9g}
+\]
+so it controls the reciprocal high-weight side. The first-ratio source still
+needs
+\[
+\texttt{ReturnClockActiveNumeratorLowerGate.A},
+\tag{MDS.9h}
+\]
+which is the return-clock / \(WLF.60\) statement that the parent active numerator
+does not disappear along low-\(H_I\), large inverse-clock tubes.
 
 ## 4. The sharpened package
 
