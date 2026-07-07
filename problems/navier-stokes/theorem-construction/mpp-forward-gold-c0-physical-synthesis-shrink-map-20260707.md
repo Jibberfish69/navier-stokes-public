@@ -131,6 +131,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-live-prong-delamination-is-highfreq-log-endpoint-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
@@ -139,6 +141,12 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-hardy-carleson-route-measure-not-native-linear-charge-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-first-derivative-payment-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-pump-finite-work-circularity-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-stopped-primitive-lift-consumer-producer-scope-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-stopped-score-square-to-linear-bv-gap-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -239,6 +247,11 @@ supersedes_as_live_frontier:
   - Hardy/BMO/Carleson route measure, square packing, or entropy conversion as WLF.60 payment unless constructed as selected linear parent-owned bill currency
   - compact zero-loss extraction as c_0 closure without theta admission, compactness, and zero-loss rigidity for the actual NS class
   - zero-bill kernel or simple unit-cycle exclusion as the surplus-zero Perron-class theorem without an absolute-zero upgrade or typed route-out
+  - bill-coercive matrix absorption as a producer rather than a sufficient criterion after record-admitted faces and a strict subcritical margin are supplied
+  - first-derivative/Poincare/finite-depth payment as payment for the non-derivative affine quotient without announced derivative, turnstile, exchange, covector, second-order, bill, or route-out representation
+  - fixed stopped score, primitive lift, root-weighted square control, or selected-return lower-thickness as c_0 closure without same-edge pre-readout channel admission and linear bill currency
+  - moving low-high pump finite work as a lower c_0 source rather than continuation-strength material-clock control
+  - terminal tail UI or live-prong delamination wording as closure without same-carrier high-frequency log-endpoint tightness plus positive-part admission
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
