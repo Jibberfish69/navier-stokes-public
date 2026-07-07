@@ -16,7 +16,11 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   as a diagnostic only: BKM needs same-edge vorticity-current custody, and
   \(\omega\parallel e_1\) does not determine the nonlocal pressure embedding.
   Isotropy is permitted only as scalar trace/gauge/pass content; it cannot be the
-  retained transverse \(c_0\) brake.
+  retained transverse \(c_0\) brake. The remote-pressure-bank audit further
+  shows that local alignment data do not determine the pressure-response
+  derivative: a same-fluid divergence-free bank can supply arbitrary trace-free
+  Hessian while vanishing to first order at the selected station. Such a bank is
+  physically real but not free; it must be retained and billed or route out.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -203,6 +207,16 @@ is impossible under incompressibility, and scalar pieces of \(\nabla^2p\) or
 \(\Omega^2\) commute with \(S\). They may belong to trace bookkeeping, pass
 branches, or the reversible skeleton; they cannot rotate the eigenframe and
 cannot carry \(c_0\).
+
+The remote-pressure-bank audit adds the companion nonlocal rule. A smooth
+divergence-free pressure-service bank can have zero local velocity gradient at
+the selected station while supplying an arbitrary trace-free pressure Hessian
+there, so the strict-repeller sign is not locally computable from
+\((S,\omega)\) alone. In the retained \(c_0\) problem that bank must be owned by
+the same-fluid record: it is either inside Field/viscous/selected bill currency,
+summable below the bill, or a legal/collar/Pack/Part/Field route-out. The
+current smaller target is therefore a no-free-bank pressure-response dichotomy
+for the linearized stability index.
 
 ## 6. Honest status
 

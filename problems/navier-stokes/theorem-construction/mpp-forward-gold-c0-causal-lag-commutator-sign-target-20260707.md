@@ -78,7 +78,12 @@ completion_truth: >-
   the isotropy guard: isotropic scalar pieces are permitted as trace/gauge/pass
   components, but incompressibility forbids nonzero isotropic strain and scalar
   pressure/rotation pieces commute with \(S\), so no isotropic piece can be the
-  retained \(c_0\) brake.
+  retained \(c_0\) brake. Section 21 records the remote-pressure-bank audit:
+  local alignment data do not determine \(L^P\), since a real divergence-free
+  same-fluid pressure bank can supply arbitrary trace-free Hessian while
+  vanishing to first order at the selected station. That bank is not free; Gate 1
+  says it must be retained and billed as Field/viscous/currency, be summable, or
+  route out.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1501,3 +1506,70 @@ scenario must therefore put the work in the anisotropic trace-free transverse
 pressure response, with same-edge vorticity/current and detector custody. Any
 attempt to make an isotropic piece carry the retained sign is a pass/gauge/free
 component or a route-out, not a \(c_0\) mechanism.
+
+## 21. Remote pressure-bank audit of the linearized index
+
+The linearized index in (CLS.90) is not determined by the local retained jet.
+This is a physical fact, not a formal loophole. The overlap-bath construction
+gives a smooth divergence-free pressure-service bank with
+
+```math
+u_{\rm bank}(0)=0,
+\qquad
+\nabla u_{\rm bank}(0)=0,
+\qquad
+\nabla^2p_{\rm bank}(0)=K,
+\quad K\in\operatorname{Sym}_0(3)
+\tag{CLS.95}
+```
+
+for any prescribed trace-free matrix \(K\), at cost comparable to \(|K|D^5\).
+Thus the local data \(S(0)\), \(\omega(0)\), and \(\omega\parallel e_1\) do not
+fix the off-diagonal pressure response or its derivative \(L^P\). A local
+single-point strict-repeller proof is therefore impossible as stated.
+
+This does not make the pressure response arbitrary in the retained problem. The
+bank is part of the same velocity field. Gate 1 already gives the physical
+custody rule for nonlocal pressure: pressure can act at a distance, but it
+cannot act from nowhere. A remote source that contributes to the selected
+pressure response must satisfy one of the legal alternatives:
+
+```math
+\begin{array}{ll}
+\text{retained/billed:}&
+\text{it lies in the enlarged retained Field/viscous/record currency},\\[1mm]
+\text{summable:}&
+\text{its elliptic tail decays below the retained bill},\\[1mm]
+\text{route-out:}&
+\text{it defines a legal/collar/Pack/Part/Field failure of the retained record.}
+\end{array}
+\tag{CLS.96}
+```
+
+The \(c_0/\epsilon\) problem is therefore not "compute the sign from the local
+alignment." It is the following same-fluid pressure-response dichotomy:
+
+```math
+\begin{array}{ll}
+\text{local retained index:}&
+\mathcal I_{\rm lin}\ge c_*>0,\\[1mm]
+\text{remote bank supplies sign:}&
+\text{the bank is retained and pays in the same bill currency},\\[1mm]
+\text{remote bank avoids the bill:}&
+\text{the branch is no longer the same retained }c_0\text{ record.}
+\end{array}
+\tag{CLS.97}
+```
+
+So the next smaller theorem is a pressure-response no-free-bank theorem:
+
+```math
+\texttt{RetainedTransversePressureResponseIndexOrBankRouteOut.A}.
+\tag{CLS.98}
+```
+
+It says that a marginal retained tower cannot hold the restricted-Euler
+maximal-axis alignment while borrowing a transverse trace-free pressure Hessian
+from an unbilled same-fluid bank. The bank either enters \(L^P\) with a signed
+stability index visible to the retained bill, or it is a typed route-out. This
+is still a strict reduction, not \(c_0\) closure.
