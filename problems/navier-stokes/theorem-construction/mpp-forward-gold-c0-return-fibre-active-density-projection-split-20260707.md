@@ -25,6 +25,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-same-edge-closed-graph-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md  # TFE.2494-TFE.2504
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
 completion_truth: >-
   Strict reduction only. This note does not prove
   ReturnFibreBeforeClippingActiveDensityProjection.A, inverse-weight capacity,
@@ -249,6 +250,20 @@ The new first failed line inside the return-fibre projection is
 \boxed{\texttt{ReturnIntervalActiveFibreJacobianDomination.A}.}
 \tag{RFS.19}
 \]
+
+The return-clock Radon-Nikodym split sharpens `(RFS.19)' further. The
+entropy/Jacobian machinery in the tower-feedback note controls admitted density
+ratios and active-coordinate changes, but it does not by itself prove that the
+harmonic inverse-weight clock \(w^{-1}d\sigma\) is a submeasure of the same
+before-clipping active density. The nonduplicate clock theorem is therefore
+\[
+\boxed{\texttt{ReturnClockParentAnnouncedRNDerivative.A}.}
+\tag{RFS.20}
+\]
+It says the pushed return clock \(\pi_{I\#}(w^{-1}d\sigma|_I)\) is absolutely
+continuous with respect to \(d\mathfrak m_P\), has density bounded by
+\(C_NR_P^+\), and has any singular clock mass paid, stopped, legal, terminal
+no-residue, or CM-routed before selected return readout.
 
 In physical terms: the proof still has to show that the selected return
 clock \(w^{-1}d\sigma\) is read from the same before-clipping parent active
