@@ -24,6 +24,7 @@ derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
 completion_truth: >-
   Failed-gate certificate for the active goal, not a proof of c_0 and not a
   refutation of NormalizedRelayBillCompactnessRecordPassage.A. The allowed
@@ -280,12 +281,26 @@ detector must be a legal retained-edge reading, and the admitted parent faces
 still need \(B\)-currency storage. But those are admission/readout chores around
 the same producer, not separate half-tail killers.
 
+The source verdict on the original-ledger row checks the remaining algebraic
+escape: the allowed signed exchange, finite native menu, finite-readout
+closedness, and Field-coherence inputs are still compatible with a cyclic
+feedback matrix of spectral radius one. In that model, critical entry, full
+exchange, and active transit pay one another sequentially, while no strict
+parent reserve is depleted. Thus the source-produced theorem must be the
+record-admitted active-critical/full-exchange storage matrix itself:
+
+```math
+\rho(K_P)<1
+```
+
+on the same pre-readout parent packet, or an independent original-history proof
+of one matrix face strong enough to make the residual matrix subcritical.
+
 The sharpened current stack is:
 
 ```math
 \begin{aligned}
-&\texttt{StrictOriginalLedgerGeneratorStorage.A}
-/\texttt{FullExchangeCriticalDepletionStorage.A}\\
+&\texttt{RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A}\\
 &+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
 &+\texttt{B-currency storage of admitted parent faces}
 \Longrightarrow
