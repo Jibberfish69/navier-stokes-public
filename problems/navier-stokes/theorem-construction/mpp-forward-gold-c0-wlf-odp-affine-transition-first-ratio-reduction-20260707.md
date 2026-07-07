@@ -18,6 +18,8 @@ target_object:
   - StoppedAffineTransitionLiftedMartingaleDifference.A
   - StoppedLiftedTransitionBesselCarleson.A
   - PersistentAffineQuotientRouting.A
+  - PersistentAffineQuotientRecordReturnProducer.A
+  - OriginalHistorySelectedPotentialAmplificationBV.A
   - MovingDriverActiveStateFirstRatioPackage.A
   - UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A
   - epsilon_star_positive
@@ -32,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-first-derivative-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-positive-envelope-orientation-retention-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-record-return-producer-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. This note does not prove WLF.60, ODP.91,
   MovingDriverActiveStateFirstRatioPackage.A, uniform cascade-termination depth,
@@ -42,8 +45,15 @@ completion_truth: >-
   parent history. Raw Bessel mass, finite menu/no-recount, parent envelopes, and
   first-derivative Cauchy consumers do not pay the persistent non-derivative
   affine quotient. The open source theorem is the persistent affine-quotient
-  routing / announceable active-weight transition package, or an equivalent
-  direct original-data active/root subcritical face. This is progress as a
+  routing / announceable active-weight transition package. That row is now
+  lowered one step further to a same-edge record/return producer package:
+  fixed parent-known stopped-channel admission, stopped selector aperture,
+  signed scale-potential lift, endpoint potential record/average control, and
+  selected-return admission to linear BV from original history. The lower
+  noncircular producer remains OriginalHistorySelectedPotentialAmplificationBV.A
+  / StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A,
+  or an equivalent direct original-data active/root subcritical face. This is
+  progress as a
   sharper proof obligation, not closure.
 ---
 
@@ -175,6 +185,57 @@ record/return, converted before readout into derivative/turnstile/exchange/
 covector or second-order exact motion, paid by non-affine pressure-viscous
 same-packet bill, or routed to legal/stop/Pack/Part/Field.
 
+## 3a. The persistent quotient is no longer opaque
+
+The checked record/return sources give the sufficient lower row
+
+```math
+\texttt{PersistentAffineQuotientRecordReturnProducer.A}
+\Longrightarrow
+\texttt{PersistentAffineQuotientRouting.A}.
+\tag{AFR.6a}
+```
+
+Here
+
+```math
+\begin{aligned}
+\texttt{PersistentAffineQuotientRecordReturnProducer.A}:={}&
+\texttt{RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A}\\
+&+\texttt{StoppedSelectorConeAperture.A}/
+  \texttt{FreshCommonSelectorRefinementNoLoss.A}\\
+&+\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}\\
+&+\texttt{StoppedPotentialRecordAverageBound.A}\\
+&+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}\\
+&+\texttt{StoppedReturnBVFiniteFromOriginalData.A}\\
+&+\text{reset/overrun/legal/stop/typed-exit routing for channel changes.}
+\end{aligned}
+\tag{AFR.6b}
+```
+
+The implication is source substitution, not closure. Once a future-positive
+edge is admitted to a fixed parent-known stopped primitive channel before
+readout, the signed scale-potential identity splits the affine quotient into
+endpoint/potential-record terms, negative return, and spill/legal material.
+The endpoint and average pieces are fixed-channel consumers; the negative
+return still needs selected-return admission to linear BV. Without the
+pre-readout channel admission, choosing the primitive channel after seeing the
+selected edge is circular. Without the return admission, root-geometry square
+control leaves the same \(\ell^2\)-to-\(\ell^1\) half-tail.
+
+Thus the noncircular lower producer is the parent-known selected potential /
+amplification record
+
+```math
+\texttt{OriginalHistorySelectedPotentialAmplificationBV.A},
+\tag{AFR.6c}
+```
+
+equivalently the record-admitted
+\(\texttt{StrictOriginalLedgerGeneratorStorage.A}\) /
+\(\texttt{FullExchangeCriticalDepletionStorage.A}\) carrier, or a direct WLF /
+ODP early-row payment on the same order-locked selected carrier.
+
 ## 4. Conditional implication to WLF/ODP
 
 The WLF pressure-test and ODP route-measure notes already identify the selected
@@ -228,7 +289,7 @@ pays only pieces already announced as derivative motion.
 The remaining production theorem is:
 
 ```math
-\texttt{PersistentAffineQuotientRouting.A}
+\texttt{PersistentAffineQuotientRecordReturnProducer.A}
 \tag{AFR.12}
 ```
 
@@ -256,7 +317,9 @@ Installed here:
 Still open:
 
 ```math
-\texttt{SelectedFirstRatioAffineTransitionReducer.A}.
+\texttt{SelectedFirstRatioAffineTransitionReducer.A},
+\qquad
+\texttt{PersistentAffineQuotientRecordReturnProducer.A}.
 \tag{AFR.14}
 ```
 
