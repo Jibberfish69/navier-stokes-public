@@ -42,6 +42,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-silent-service-reserve-half-tail-obstruction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate4-same-parent-admission-direct-attempt-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-menu-pressure-active-quotient-angle-collar-reduction-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-exact-projector-retained-chart-license-audit-20260703.md
 completion_truth: >-
@@ -59,9 +60,11 @@ completion_truth: >-
   follow-up now excludes the persistent localized finite-energy affine
   zero-surplus subcase: a nonzero local affine core inside a finite same-fluid
   parent must pay a collar/parent second-derivative tower bill on positive
-  material-time density. Thus the affine-looking escape that remains is only
-  temporal thinness, lost parent/cover/tower certificate, or high-frequency
-  nonlinear pressure-stress transfer. To use the all-zero
+  material-time density. The temporal-thin follow-up proves that admitted
+  shrinking service becomes a nonzero payer atom, so the affine-looking escape
+  that remains is only unadmitted temporal-thin service, lost parent/cover/tower
+  certificate, or high-frequency nonlinear pressure-stress transfer. To use the
+  all-zero
   rigidity in the c_0 proof, one still needs a detector theorem: every positive
   retained Theta_N clock service either appears before readout as a
   parent-owned upward relay/root-full-exchange record in B-currency, or is paid
