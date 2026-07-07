@@ -32,6 +32,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-defect-carriage-moment-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-menu-detector-angle-gap-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-localized-pressure-hodge-two-scale-triad-sign-indefinite-20260707.md
 completion_truth: >-
   Strict reduction only. The selector-force theorem needed by the Rellich route
   is not wholly open. The existing WKB selector-commutator note already proves
@@ -133,6 +134,13 @@ For a selected patch \(T=\chi R\) of a pressure-law null packet \(R=qI+S\) with
 
 Thus the qualitative selector-force step and its scale-normalized \(H^{-1}\)
 version are installed.
+
+The localized two-scale pressure-Hodge test explains why this selector-force
+form cannot be replaced by raw localized triad positivity. A clean localized
+pressure-Hodge coefficient is nonzero, but it changes sign when the selected
+strain orientation is reversed. The analytic force floor must therefore be used
+with selected affine-moment carrier identification and bill-currency conversion,
+not as a sign-free triad lower bound.
 
 ## 3. Affine-moment identification
 
