@@ -358,7 +358,11 @@ package,
 \tag{NPB.12g2}
 \]
 Bounded record oscillation and fixed-core identity alone do not pay this
-zero-mode.
+zero-mode. The primitive-visibility clause is conditional on stopped selector
+aperture / common selector refinement; angle failure is not a new producer, but
+returns to paid rotation, detector-silent service, legal/stop material,
+parent-announced selector capture, and the same selected-critical scale-memory
+payment.
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
