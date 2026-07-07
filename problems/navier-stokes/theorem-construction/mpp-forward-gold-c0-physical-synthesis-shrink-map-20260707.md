@@ -1149,6 +1149,7 @@ extra record-edge burden is admission before readout:
 \[
 \texttt{RetainedRecordEdgePrimitivePLSDriverAdmission.A}
 +\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}
++\texttt{FreshSelectedPrimitiveAlignment.A}/\texttt{StoppedSignedChannelCoercivity.A}
 +\texttt{StoppedPotentialRecordAverageBound.A}
 +\texttt{StoppedNegativeScaleReturnCharge.A}
 \Longrightarrow
@@ -1380,6 +1381,38 @@ legal/stop/Pack/Part/Field exit. The exact bad profile is a parent-announced
 sequence of increasingly active child intervals with summable raw innovation
 mass and divergent harmonic active-weighted mass.
 
+The source check also sharpens the word "record/return." It is not an installed
+bill for `(CPS.26n1)'. On one stopped core, record/return still requires the
+selected source to be positively visible to the stopped primitive channel
+\(\texttt{FreshSelectedPrimitiveAlignment.A}/\texttt{StoppedSignedChannelCoercivity.A}\),
+the selected positive source to admit the signed scale-potential lift, and the
+leftover affine zero-mode to be anchored by
+\(\texttt{StoppedPotentialRecordAverageBound.A}\) or by direct positive
+second-order exactness. The negative-return side is likewise not paid by bounded
+record oscillation; it requires
+\(\texttt{StoppedNegativeScaleReturnCharge.A}\) /
+\(\texttt{StoppedPrimitivePLSNoFreeOscillation.A}\). So the honest smaller
+obligation is:
+
+\[
+\begin{aligned}
+&\texttt{FreshSelectedPrimitiveAlignment.A}
++\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}\\
+&+\bigl(\texttt{StoppedPotentialRecordAverageBound.A}
+\ \text{or}\ 
+\texttt{FreshPositiveStressSecondOrderExactness.A}\bigr)
++\texttt{StoppedNegativeScaleReturnCharge.A}
+\end{aligned}
+\tag{CPS.26n2}
+\]
+
+or a derivative/turnstile/exchange/covector conversion before scalar positive
+readout, or a typed route-out. This is the same-fluid physical content of the
+affine quotient wall: a positive selected upcrossing can repeat only if the
+same transported pressure/strain graph keeps a parent-visible record, returns
+through paid irreversible motion, becomes an exact derivative/exchange current,
+or exits the admissible witness grammar.
+
 This grades the five-thread physical synthesis. No self-tightening,
 bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
 Reynolds-edge refresh, and irreversibility are one same-fluid story against the
@@ -1471,5 +1504,6 @@ same-carrier payment, proves an equivalent direct original-data subcritical
 active/root face, or routes the surviving high-Re branch out before selected
 readout.
 Likewise, martingale/Bessel or reset-derivative language is support unless it
-pays the non-derivative affine quotient `(CPS.26n1)' by record/return,
-derivative conversion before readout, or typed route-out.
+pays the non-derivative affine quotient `(CPS.26n1)' through the sharpened
+record/return package `(CPS.26n2)', derivative conversion before readout, or
+typed route-out.
