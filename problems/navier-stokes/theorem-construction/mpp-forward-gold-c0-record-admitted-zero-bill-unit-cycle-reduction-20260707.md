@@ -2,11 +2,12 @@
 theorem_id: forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / Gate2 / bill-coercive matrix / zero-bill unit cycle
-status: proved-compact-equivalence-reduces-matrix-producer-to-qualitative-unit-cycle-exclusion
+route: forward-gold / c_0 / Gate2 / bill-coercive matrix / zero-bill Perron class
+status: proved-compact-equivalence-reduces-matrix-producer-to-record-feeding-perron-class-exclusion
 target_object:
   - BillCoerciveRecordAdmittedStorageMatrix.A
   - RecordAdmittedZeroBillUnitCycleExclusion.A
+  - RecordFeedingSurplusPerronClassExclusion.A
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
 allowed_source_refs:
@@ -22,28 +23,31 @@ derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
 completion_truth: >-
   Direct pressure test of the remaining bill-coercive matrix producer. This note
   proves a compact finite-chart equivalence: after record admission and exact
   retained-edge charting, a uniform subunit feedback gap rho(K_P)<=1-eta is
-  equivalent to excluding normalized nonnegative record-admitted zero-bill unit
-  cycles in the closed parent-face bundle. If
+  equivalent to excluding normalized nonnegative record-feeding zero-bill
+  Perron classes in the closed parent-face bundle. If
   RecordAdmittedZeroBillUnitCycleExclusion.A were proved for the actual
   Navier-Stokes parent packet, compactness would give eta>0, the bill-coercive
   matrix criterion would give ParentOwnedPositiveRecordBillCurrency.A, and the
   normalized relay passage theorem would follow. Current allowed sources do not
-  prove that unit-cycle exclusion: signed exchange cancellation, finite native
-  menu admission, finite-readout closedness, and one-field coherence remain
-  compatible with a ratio-one active-critical/full-exchange/active-transit
-  circulation. The kernel follow-up proves the shortcut precisely: if such a
-  cycle is upgraded to an absolute-zero retained relay record, the zero-bill
+  prove that Perron-class exclusion: signed exchange cancellation, finite
+  native menu admission, finite-readout closedness, and one-field coherence
+  remain compatible with a ratio-one active-critical/full-exchange/active-transit
+  circulation, including branching recurrent classes. The kernel follow-up
+  proves the shortcut precisely: if such a circulation is upgraded to an
+  absolute-zero retained relay record, the zero-bill
   kernel kills it immediately. The current files only supply zero surplus, so
-  the live theorem is RecordAdmittedSurplusZeroUnitCycleRigidity.A, equivalently
-  an AbsoluteZeroAdmissionForRecordAdmittedUnitCycle.A route-out/upgrade. This
-  is not an actual retained Navier-Stokes counterexample and not c_0 closure.
+  the live theorem is RecordFeedingSurplusPerronClassExclusion.A, equivalently
+  an AbsoluteZeroAdmissionForRecordAdmittedUnitCycle.A route-out/upgrade at the
+  parent-face Perron-class level. This is not an actual retained Navier-Stokes
+  counterexample and not c_0 closure.
 ---
 
-# Record-admitted zero-bill unit cycle reduction
+# Record-admitted zero-bill Perron-class reduction
 
 ## 1. Same physical object
 
