@@ -17,6 +17,10 @@ ontology_lock:
     - irreversible
 target_object:
   - CriticalHeightGrowingMarginalRecordLadder.A
+  - ParentOwnedPositiveRecordBillCurrency.A
+  - RecordNativeWorkMenuPositiveSelectionStorage.A
+  - RecordMenuRootProjectionFaithfulness.A
+  - SelectedLinearRouteMeasureCarleson.A
   - ThetaRecordPayerMeasureAdmission.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
   - WLF.60
@@ -124,6 +128,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-pre-readout-jordan-orientation-sublemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-hardy-carleson-route-measure-not-native-linear-charge-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
@@ -221,6 +227,8 @@ supersedes_as_live_frontier:
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
   - viscous heat-thickness square control as selected first-ratio bill currency
   - raw event-space ownership, fixed-event Jordan orientation, finite parent menu, or no-recount pairing as parent-owned bill currency without selected first-ratio payment
+  - native-menu identity, one-record admission, or positive-selection labels as parent-owned bill currency without same-edge pre-readout linear storage
+  - Hardy/BMO/Carleson route measure, square packing, or entropy conversion as WLF.60 payment unless constructed as selected linear parent-owned bill currency
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
@@ -1607,6 +1615,22 @@ addressed, charted, paid, and admitted to the limiting full-exchange face. Raw
 same-parent pressure-Hodge atom coupling and retained opposite-lobe reserve are
 already installed before selected positive extraction; the selected-critical Gold price is the
 extra weighted log-meter/full-exchange surplus of that same coupled packet.
+
+The native-menu countermodel narrows this further. A preannounced same-fluid
+work menu and a one-record admission row do not by themselves give finite
+future-positive selection storage: a thin record sequence can draw each positive
+unit from a fresh legal menu coordinate. The missing object is exactly
+`RecordNativeWorkMenuPositiveSelectionStorage.A`, reduced to root/full-exchange
+projection faithfulness, exact-projector chart admission, and noncircular
+same-parent bill storage for the selected edge before readout.
+
+The Hardy-Carleson route-measure pressure test lands in the same place. Raw
+square route mass, stopped Carleson packing, BMO/entropy conversion, and
+same-parent route ownership are support while the half-tail keeps finite square
+mass and infinite selected first-ratio service. Hardy-Carleson closes this slice
+only when it is already a selected linear parent-owned measure theorem, i.e.
+`SelectedLinearRouteMeasureCarleson.A`, which is WLF.60 / ODP.91 in route-measure
+coordinates rather than an independent payer.
 
 The checked local-state no-go also fixes what kind of proof cannot work. Any
 finite-depth local material state primitive that drops by
