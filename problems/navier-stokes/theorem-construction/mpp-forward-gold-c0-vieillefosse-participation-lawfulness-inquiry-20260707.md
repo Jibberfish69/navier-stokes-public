@@ -963,3 +963,195 @@ requires proving that every mode used to hide or cancel that channel is itself a
 same-field gluing deformation charged by \(\mathcal V_{\rm cancel}\), and that
 the resulting measure is onsite on active rungs. That is the exact mathematical
 form of the physical no-free-collar law.
+
+## 13. All-tower no-free-collar proof attempt
+
+The all-tower theorem has to be proved as measure domination. A global tower
+estimate is too weak, because the \(2^{-L}/L\) endpoint tries to spread service
+through the middle of a long tower while putting cost at the two ends.
+
+Define the service measure and transverse bill measure on the same
+participation space:
+
+```math
+d\nu
+=
+d\mu_{\rm service}
+=
+d\mu_{\rm Vieillefosse},
+\tag{VPL.72}
+```
+
+and
+
+```math
+d\mu
+=
+d\mu_{\rm transverse}
++d\mu_{\rm cancel}
+=
+\big(
+\|\Pi_4 f[u]\|_{\rm press}
++\mathcal V_{\rm cancel}(u)
+\big).
+\tag{VPL.73}
+```
+
+The desired no-free-collar inequality for all lawful participation towers is
+equivalent to
+
+```math
+\nu\le C\mu .
+\tag{VPL.74}
+```
+
+If (VPL.74) holds, then for any normalized tower
+
+```math
+\nu(\mathcal T)=1
+\tag{VPL.75}
+```
+
+one gets
+
+```math
+\mu(\mathcal T)\ge C^{-1}.
+\tag{VPL.76}
+```
+
+So \(c_0\ge C^{-1}>0\) in this coordinate.
+
+### 13.1 Contradiction setup
+
+Assume (VPL.74) fails. Then there is a lawful participation sequence with
+
+```math
+\nu_n(\mathcal T_n)=1,
+\qquad
+\mu_n(\mathcal T_n)\to0.
+\tag{VPL.77}
+```
+
+By the failure of domination, choose a density point in participation
+space where service has positive density and bill has zero relative density:
+
+```math
+\frac{\mu_n(Q_{\rho_n})}{\nu_n(Q_{\rho_n})}\to0,
+\qquad
+\nu_n(Q_{\rho_n})>0.
+\tag{VPL.78}
+```
+
+Here \(Q_{\rho_n}\) is a same-field parabolic/log-scale participation cylinder
+following the packet. Rescale, rotate into the local Vieillefosse eigenframe,
+and normalize
+
+```math
+\nu_n(Q_1)=1.
+\tag{VPL.79}
+```
+
+The rescaled objects still satisfy the same incompressible Navier-Stokes
+lawfulness constraints, because the pressure equation and Leray projection are
+scale invariant in this critical local readout. The bill tends to zero:
+
+```math
+\mu_n(Q_1)\to0.
+\tag{VPL.80}
+```
+
+### 13.2 Tangent compactness
+
+The required compactness statement is:
+
+```math
+\text{From any lawful normalized sequence satisfying (VPL.79)--(VPL.80), one
+can extract a same-field tangent packet } u_\infty
+\text{ with }
+\nu_\infty(Q_1)=1
+\text{ and }
+\mu_\infty(Q_1)=0.
+\tag{VPL.81}
+```
+
+This is the first hard theorem in the all-tower upgrade. It has to prevent the
+normalization from disappearing into a Young-measure or log-endpoint defect.
+Physically, it says: if the tower claims unit same-fluid Vieillefosse service
+at a point, then after zooming in there is an actual tangent packet carrying
+that service, not just bookkeeping mass.
+
+### 13.3 Zero-bill tangent rigidity
+
+The second hard theorem is the zero-bill rigidity statement:
+
+```math
+\mu_\infty(Q_1)=0
+\quad\Longrightarrow\quad
+u_\infty
+\text{ is a pure affine Vieillefosse core on every active same-field collar.}
+\tag{VPL.82}
+```
+
+The collar computation supplies the model mechanism. If a finite-energy gluing
+layer is nontrivial, it produces an \(l=4\) transverse pressure channel. If an
+extra mode cancels that channel, the extra mode is a charged gluing deformation.
+So zero bill rules out both nontrivial transverse pressure and nontrivial
+cancelling deformation.
+
+Thus the only remaining zero-bill tangent is
+
+```math
+u_\infty(x)=\lambda D x
+\tag{VPL.83}
+```
+
+up to rotation and scale on the active packet.
+
+### 13.4 Finite-energy/lawfulness contradiction
+
+A pure affine Vieillefosse core has unit service, but it has no finite-energy
+same-field participation boundary. It is an infinite local jet, not a lawful
+finite-energy packet attached to a parent field. A lawful participant with
+\(\nu_\infty(Q_1)=1\) must have a nontrivial attachment layer. By
+(VPL.82), zero bill forbids that attachment layer.
+
+So the tangent object has to satisfy two incompatible statements:
+
+```math
+\nu_\infty(Q_1)=1
+\tag{VPL.84}
+```
+
+and
+
+```math
+u_\infty
+\text{ has no lawful finite-energy participation collar.}
+\tag{VPL.85}
+```
+
+That contradiction proves (VPL.74).
+
+### 13.5 Where the proof is still open
+
+The proof reduces the all-tower no-free-collar inequality to two precise
+theorems:
+
+```math
+\text{Tangent compactness: unit service and vanishing bill produce a lawful
+zero-bill tangent packet.}
+\tag{VPL.86}
+```
+
+and
+
+```math
+\text{Zero-bill tangent rigidity: every lawful zero-bill tangent packet is a
+pure affine Vieillefosse jet, hence not a finite-energy participant.}
+\tag{VPL.87}
+```
+
+The collar calculation is evidence for (VPL.87) and proves it in the
+same-symmetry model class. The full \(c_0\) theorem requires (VPL.86) and
+(VPL.87) for arbitrary lawful participation towers, including non-axisymmetric
+mode mixing and log-endpoint Young-measure defects.
