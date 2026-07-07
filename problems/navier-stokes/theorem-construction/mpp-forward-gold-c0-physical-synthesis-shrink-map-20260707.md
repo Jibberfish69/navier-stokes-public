@@ -43,6 +43,8 @@ target_object:
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - MovingLowHighPressureStrainPumpFiniteWork.A
   - StoppedFreeMaterialGraphDriverCarleson.A
+  - StrictHighRatioGoodLambdaHalfBarrierBreak.A
+  - GlobalSamePacketFullWeightBeatingTail.A
   - SameParentCriticalDepletionNoZeno.A
   - SameParentCriticalGoodLambdaTail.A
   - BeforeClippingActiveDensityComparison.A
@@ -72,6 +74,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-construction-check-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-pressop-collar-graph-split-free-driver-audit-20260627.md
   - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-free-material-graph-driver-direct-attack-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-strict-storage-compactness-rigidity-attack-20260701.md
@@ -93,6 +100,7 @@ supersedes_as_live_frontier:
   - pure local bounded X_comm storage as the signed commutator proof
   - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
+  - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -143,7 +151,18 @@ completion_truth: >-
   pressure/operator-collar normal defect by relative Schur/interface/legal
   bookkeeping and identify tangent graph motion with the primitive
   participation-law-strain driver. Current sources do not prove finite work of
-  that driver; they show it is continuation-strength.
+  that driver; they show it is continuation-strength. The stopped direct attack
+  and high-ratio tail audits put the same obstruction in exact tail variables:
+  raw heat/viscous residence supplies only the zeroth moment, while the pump
+  bound is the first ratio moment. The critical half-tail
+  nu_l=2^-l/(l+1) passes every installed support axiom and fails the first-ratio
+  action, so the strict half-barrier theta<1/2 is not a second producer; it is
+  the exact tail/readout form of the moving pump. Local finite-depth storages,
+  shell energy, Cauchy-Green, strain-log, coefficient-log, pointwise
+  contraction, complete-frame orientation, laminar ancestry, and Volterra
+  payback are checked support or no-go surfaces unless they build a global
+  original-history no-free-upward-transfer law for this same driver or route
+  its failure as a typed exit before readout.
   Duhamel-Hodge pullback, endpoint admission, retained heat gap, component
   compactness, log-carrier, before-clipping density, Perron normal forms, and
   theta envelopes are support unless they build that same record-admitted
@@ -606,6 +625,67 @@ repo language this is the common object:
 \texttt{StoppedFreeMaterialGraphDriverCarleson.A}
 \tag{CPS.21}
 \]
+
+The stopped direct attack and ratio-tail audits do not create a new sibling
+producer below `(CPS.21)'. They give the exact readout form of the same
+physical driver. With
+
+\[
+d\mu_j=2^{2j}e_j(t)\,dt,
+\qquad
+\rho_j=\frac{\Theta_j^{mat}}{2^{2j}},
+\qquad
+E_{j,\ell}=\{2^\ell\delta<\rho_j\le 2^{\ell+1}\delta\},
+\tag{CPS.22}
+\]
+
+and
+
+\[
+\nu_\ell=\sum_j\mu_j(E_{j,\ell}),
+\tag{CPS.23}
+\]
+
+raw energy, viscosity, and installed support give only
+
+\[
+\sum_{\ell\ge0}\nu_\ell<\infty.
+\tag{CPS.24}
+\]
+
+Finite moving-pump work is the first-ratio moment
+
+\[
+\sum_{\ell\ge0}2^\ell\nu_\ell<\infty.
+\tag{CPS.25}
+\]
+
+Equivalently, for \(N_L=\sum_{\ell\ge L}\nu_\ell\), a good-lambda proof must
+beat the sharp half barrier:
+
+\[
+N_{L+1}\le\theta N_L+B_L,
+\qquad
+\theta<\frac12,
+\qquad
+\sum_L2^LB_L<\infty.
+\tag{CPS.26}
+\]
+
+The half-tail \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite zeroth moment and
+infinite first-ratio moment. It satisfies the installed support axioms
+abstractly, including laminarity and complete-frame orientation payment. Thus
+`StrictHighRatioGoodLambdaHalfBarrierBreak.A' and
+`GlobalSamePacketFullWeightBeatingTail.A' are not lower independent sources;
+they are equivalent-strength tail forms of `(CPS.20)'--`(CPS.21)'.
+
+The checked local-state no-go also fixes what kind of proof cannot work. Any
+finite-depth local material state primitive that drops by
+\(\int\lambda_+(t)\,dt\) along an affine incompressible material packet becomes
+unbounded below on reachable one-way stretch histories. So a valid storage, if
+it exists, must be a global original-history same-material action functional;
+otherwise the branch must be routed to legal/stop/Pack/Part/Field before
+readout.
 
 modulo the stopped/root Carleson packaging. The checked hard-boundary note says
 finite work of this pump is equivalent to the continuation-strength material
