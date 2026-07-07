@@ -3023,6 +3023,11 @@ If those four obligations are proved uniformly over the strict participation
 atom class, the log endpoint is removed by a genuine non-affine collar payment.
 Until then, this is a corrected bridge candidate, not a \(c_0>0\) proof.
 
+The scalar endpoint inequality (VPL.240) itself is now proved in
+`mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md`. What remains
+in this bridge is not the one-dimensional Hardy estimate; it is the same-field
+NS ownership of the quantities appearing around it.
+
 ## 25. Proved subcase: fixed axisymmetric affine-plateau turn-off
 
 The corrected bridge has one fixed-geometry subcase that can be proved now. In
@@ -3092,3 +3097,77 @@ turn-off, log-spread same-affine chains, non-axisymmetric hiding, and the
 uniform atomization accounting still have to be proved in the full strict
 participation atom class. The detailed sublemma is recorded separately in
 `mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
+
+## 26. Proved ingredient: log-scale endpoint inequality
+
+The one-dimensional part of Section 24 is closed. Let
+
+```math
+I=[\rho_-,\rho_+],
+\qquad
+L=\partial_\rho-2.
+\tag{VPL.248}
+```
+
+For every absolutely continuous amplitude \(a\) with \(La\in L^2(I)\),
+
+```math
+\int_I |a(\rho)|^2\,d\rho
+\le
+C_{\rm HH}
+\left(
+|a(\rho_+)|^2
++
+\int_I |La(\rho)|^2\,d\rho
+\right),
+\tag{VPL.249}
+```
+
+with \(C_{\rm HH}\) independent of \(|I|\).
+
+Proof. Write \(f=La\). Solving backward from the parent endpoint gives
+
+```math
+a(\rho)
+=
+e^{-2(\rho_+-\rho)}a(\rho_+)
+-
+\int_\rho^{\rho_+}e^{-2(s-\rho)}f(s)\,ds.
+\tag{VPL.250}
+```
+
+The first term has \(L^2\)-norm at most \(\frac12|a(\rho_+)|\). The second term
+is convolution on the half-line with \(e^{-2t}\mathbf 1_{t\ge0}\), whose
+\(L^1\)-norm is \(\frac12\). Young's inequality gives
+
+```math
+\left\|
+\int_\rho^{\rho_+}e^{-2(s-\rho)}f(s)\,ds
+\right\|_{L^2(I)}
+\le
+\frac12\|f\|_{L^2(I)}.
+\tag{VPL.251}
+```
+
+Thus (VPL.249) holds, for instance with \(C_{\rm HH}=1\).
+
+Multiplying by the fixed \(|A|^2\) of the same-affine channel gives
+
+```math
+\int_I |a|^2|A|^2\,d\rho
+\le
+C_{\rm HH}
+\left(
+|a(\rho_+)|^2|A|^2
++
+\int_I|\partial_\rho a-2a|^2|A|^2\,d\rho
+\right).
+\tag{VPL.252}
+```
+
+So the scalar log-chain service reduces to the non-affine divergence defect
+plus the smooth affine endpoint kernel. This proves only the scalar endpoint
+ingredient. The remaining F2 burden is to prove that the defect term is
+actually charged by the same pressure-viscous participation bill, that the
+endpoint kernel is parent-owned, and that atomization can use those payments
+without service loss or double-counting.
