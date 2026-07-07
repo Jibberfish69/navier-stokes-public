@@ -16,6 +16,7 @@ target_object:
   - ReturnIntervalActiveFibreJacobianDomination.A
   - ReturnFibreNoDetachmentClosedGraph.A
   - SameEdgeSelectedReturnInverseWeightCapacity.A
+  - ReturnClockActiveNumeratorLowerGate.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md
@@ -26,6 +27,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-admission-no-detachment-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md  # TFE.2494-TFE.2504
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
 completion_truth: >-
   Strict reduction only. This note does not prove
   ReturnFibreBeforeClippingActiveDensityProjection.A, inverse-weight capacity,
@@ -270,5 +272,19 @@ clock \(w^{-1}d\sigma\) is read from the same before-clipping parent active
 density that the full-exchange ledger controls. Same-edge custody tells us
 which edge the return belongs to; it does not yet prove that this edge's
 inverse-weight clock is quantitatively carried by \(R_P^+d\mathfrak m_P\).
+
+The active-weight compensator pressure test rules out the nearest shortcut. The
+compensator pays \(H_I\|D_I\|^2\) and new high-\(H_I\) upcrossings, where
+\[
+H_I={|I|^2\over\int_Iw^{-1}d\sigma}.
+\tag{RFS.21}
+\]
+That is reciprocal square control, not domination of the linear inverse clock.
+The smaller source inside `(RFS.20)' is
+\[
+\boxed{\texttt{ReturnClockActiveNumeratorLowerGate.A}.}
+\tag{RFS.22}
+\]
+It is the return-fibre version of the \(WLF.60\) route-measure bound.
 
 No proof of \(\varepsilon_*>0\) or \(c_0>0\) is claimed.
