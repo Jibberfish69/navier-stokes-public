@@ -29,6 +29,7 @@ target_object:
   - FreshOverrunSameCarrierTailUI.A
   - FullSelectedPacketParentAnnouncedDerivativeRepresentation.A
   - TerminalAdjointRellichCriticalAntiAtom.A
+  - RootFixedTerminalUniformL1FullPacketServiceStorage.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -42,12 +43,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
 supersedes_as_live_frontier:
   - self-similar/DSS profile exclusion as c_0 counterobject
   - radiodrome as independent producer rather than defect coordinate
   - broad fresh-carrier mismatch as terminal endpoint
   - terminal atom as retained zero-loss route-b profile after theta-payer admission
+  - terminal anti-atom / Rellich / full-packet no-residue as final wording after the root-fixed service-storage descent
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
   - affine martingale or storage labels as sibling producers after TFE2748B
 completion_truth: >-
@@ -65,8 +68,12 @@ completion_truth: >-
   route-b or CM consumers; the unadmitted forward survivor is terminal visible
   readout, further reduced to TerminalFullPacketNoResiduePayment.A or the
   terminal same-carrier critical anti-atom for the full selected packet
-  D_Q=(S, Pi_Q grad^2 p). No FullTower retention, material-time Liouville
-  theorem, WLF.60, c_0, or MPP closure is proved here.
+  D_Q=(S, Pi_Q grad^2 p), and then lowered to
+  RootFixedTerminalUniformL1FullPacketServiceStorage.A. The remaining
+  nonduplicate producer is root-fixed terminal-uniform L1 full-packet service
+  storage built from the original coupled Navier-Stokes packet. No such
+  storage, FullTower retention, material-time Liouville theorem, WLF.60, c_0,
+  or MPP closure is proved here.
 ---
 
 # c0 physical synthesis shrink map
@@ -131,10 +138,20 @@ The terminal branch is sharpened again:
 \tag{CPS.3}
 \]
 
+The checked terminal descent sharpens this one more step:
+
+\[
+\texttt{TerminalSameCarrierCriticalAntiAtom.A}(D_Q)
+\leadsto
+\texttt{RootFixedTerminalUniformL1FullPacketServiceStorage.A}.
+\tag{CPS.3b}
+\]
+
 Thus the live c0 wall is not broad mismatch evacuation, profile Liouville, raw
 freshness, or an abstract storage label. It is payment of the terminal visible
-readout on the actual order-locked full selected packet, or same-carrier tail
-uniform integrability before the terminal atom forms.
+readout on the actual order-locked full selected packet, same-carrier tail
+uniform integrability before the terminal atom forms, or the root-fixed
+terminal-uniform service storage that removes the terminal anti-atom.
 
 ## 3. What is demoted
 
@@ -196,10 +213,46 @@ already have a first-exit derivative representation. It does not prove `(R1)'
 for the whole selected packet \(D_Q\). The Rellich route proposes `(R2)' but
 still needs selected Rellich positivity or an adjoint-polarization fallback.
 
+The checked terminal descent lowers `(CPS.6)' to one storage producer. First
+exit pays moving/reset pieces only; compactness, Rellich, no-residue, no-jump,
+flux absorption, adjoint detectors, native capacity, fixed-core replay, and
+probe admission are tests for the retained terminal branch. Bounded-below
+storage is too weak because bounded negative primitive can still concentrate
+as a terminal atom. The nonduplicate producer is:
+
+\[
+\texttt{RootFixedTerminalUniformL1FullPacketServiceStorage.A}.
+\tag{CPS.7}
+\]
+
+In concrete terms, construct for each fixed root packet \(P\) an original-data
+service storage
+
+\[
+\mathcal L_P(t)
+=
+\mathcal L_P(t_0)+\int_{t_0}^{t}\ell_P(s)\,ds+Paid_P(t),
+\tag{CPS.8}
+\]
+
+with terminal-uniform \(L^1\) control of the unpaid negative density in
+
+\[
+d\mu_P^{end}
+\le
+C(\ell_P)_-\,dtdx
++d\lambda_P
++dPaid_P.
+\tag{CPS.9}
+\]
+
+This gives absolute continuity of the endpoint trace and kills the terminal
+same-carrier critical atom.
+
 ## 5. Shrink rule
 
-Future c0 work should attach to this file unless it proves one of the terminal
-obligations in `(CPS.3)'--`(CPS.6)', proves same-carrier overrun tail UI before
+Future c0 work should attach to this file unless it proves `(CPS.8)'--`(CPS.9)'
+from the original coupled packet, proves same-carrier overrun tail UI before
 terminalization, proves theta-payer/pre-readout admission, or gives a typed
 route-out in the CM grammar. New labels that do not do one of those jobs are
 coordinates of this wall, not sibling frontiers.
