@@ -1584,3 +1584,83 @@ maximal-axis alignment while borrowing a transverse trace-free pressure Hessian
 from an unbilled same-fluid bank. The bank either enters \(L^P\) with a signed
 stability index visible to the retained bill, or it is a typed route-out. This
 is still a strict reduction, not \(c_0\) closure.
+
+## 22. Stretched-vortex profile narrowing: admitted branch, not automatic closure
+
+Claude's cycle-4 narrowing is physically real in the following sense. For
+incompressible Navier-Stokes, with \(A=\nabla u=S+\Omega\),
+
+```math
+-\Delta p
+=\operatorname{tr}(A^2)
+=|S|^2-\frac12|\omega|^2 .
+\tag{CLS.99}
+```
+
+A coherent stretched vortex has a vorticity-dominated core,
+
+```math
+|S|^2-\frac12|\omega|^2<0,
+\tag{CLS.100}
+```
+
+and a surrounding strain-dominated annulus where the same pressure source is
+positive. This is a real same-fluid configuration: the vortex and the stretching
+strain are co-located in one coherent object, while the pressure response is
+produced by that whole core-annulus profile. On this branch, same-edge
+vorticity-current custody is not an artificial add-on; it is the profile's
+native geometry.
+
+What does not follow is that every retained marginal embedding is already such
+a profile. A retained tower might still use a sheet, a multi-core field, a
+remote pressure bank, a collar, or a selector/channel change. Those alternatives
+must be proved impossible, paid, summable, or routed out before the minimax can
+be restricted to stretched-vortex profiles. The right branch theorem is
+
+```math
+\texttt{RetainedStretchedVortexProfileReductionOrRouteOut.A}.
+\tag{CLS.101}
+```
+
+Its content is the partition
+
+```math
+\mathcal E_{\rm ret}
+\subset
+\mathcal E_{\rm sv}
+\cup
+\mathcal E_{\rm paid}
+\cup
+\mathcal E_{\rm route\text{-}out},
+\tag{CLS.102}
+```
+
+where \(\mathcal E_{\rm sv}\) is the retained stretched-vortex profile class
+with same-edge current, \(\mathcal E_{\rm paid}\) is retained pressure-bank or
+profile-collar service visible in the existing bill currency, and
+\(\mathcal E_{\rm route\text{-}out}\) is a legal/collar/Pack/Part/Field exit or
+zero-record/pass branch.
+
+Only after (CLS.101) is proved does the terminal sign reduce to the profile
+spectral statement
+
+```math
+\inf_{\mathcal E_{\rm sv}}
+\inf_{|\eta|=1}
+\mathcal I_{\rm lin}^{\mathcal E}(\eta)
+\ge c_{\rm sv}>0 .
+\tag{CLS.103}
+```
+
+Together, (CLS.101) and (CLS.103) would imply the retained \(c_0/\epsilon\)
+sign. Conversely, a single physically admitted stretched-vortex profile with
+\(\mathcal I_{\rm lin}\le0\) is not a harmless model artifact; it is the
+counterexample profile for this route, unless its surrounding pressure service
+is paid or routed out.
+
+This also reconciles the older strict-tilting notes. The stretched vortex is
+the correct physical wall because it is where self-stretching and self-tilting
+belong to the same coherent object. But the existing break-even identities say
+that the raw mechanism lands at the marginal value. The missing \(c_0\) is the
+strict excess of the retained profile response over that break-even, not the
+mere existence of a coherent vortex.
