@@ -211,7 +211,7 @@ to reset the coordinate:
 \sum_k\int_{J_k}M_A(T)(t)\,dt
 \le
 C_E|A|D^{5/2}
-+\operatorname{Var}^-_{\cup J_k}(I_A).
++ \operatorname{Var}^-_{\cup J_k}(I_A).
 \tag{SBA.13b}
 \]
 Thus pure fixed-chart endpoint impulse is finite storage/route-out.  The open
@@ -296,10 +296,10 @@ c_0=2\varepsilon_*>0.
 \tag{SBA.19}
 \]
 
-The present source state proves the viscous line of `(SBA.18)' and prices the
-fixed-chart endpoint impulse line as finite storage/route-out, while pricing
-the other nonviscous lines in their native currencies. It does not convert those native
-currencies into the retained bill.
+The present source state proves the viscous line of `(SBA.18)', prices the
+fixed-chart endpoint impulse line as finite storage/route-out, and prices the
+other nonviscous lines in their native currencies. It does not convert those
+native currencies into the retained bill.
 
 The acceleration endpoint pulse `(SBA.10)'--`(SBA.13)' is the sharp warning:
 the selector-force split alone cannot rule out the terminal Zeno pulse. That
