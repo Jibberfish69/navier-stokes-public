@@ -57,6 +57,9 @@ target_object:
   - MovingLowHighPressureStrainPumpFiniteWork.A
   - StoppedFreeMaterialGraphDriverCarleson.A
   - StrictHighRatioGoodLambdaHalfBarrierBreak.A
+  - NoZenoReuseEscapeDichotomyStrictCharge.A
+  - RepeatedCoreNonreuseStorageBound.A
+  - ShrinkingCoreEscapeCapacityLowerBound.A
   - GlobalSamePacketFullWeightBeatingTail.A
   - OriginalHistoryTransitionDerivativeCarleson.A
   - ParentChildTransitionPaymentLaw.A
@@ -100,6 +103,10 @@ target_object:
   - RecordMenuDetectorSilentServicePreReadoutReserve.A
   - OriginalHistoryDetectorSilentStrictHalfBarrier.A
   - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
+  - SameEdgePrimitiveSignedScalePotentialLift.A
+  - SameEdgePotentialRecordBoundOrTypedExit.A
+  - SameEdgeNegativeScaleReturnCharge.A
+  - SameEdgeEscapingCoreCapacityPacking.A
   - RetainedRecordEdgeCommonSelectorRefinementNoLoss.A
   - RetainedRecordEdgePrimitiveChannelCompatibility.A
   - RetainedRecordEdgeSelectorProjectorChannelAlignment.A
@@ -122,6 +129,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscosity-is-marginal-on-the-counterobject-welds-viscous-lever-to-rigidity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
@@ -148,6 +156,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-stopped-score-square-to-linear-bv-gap-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-strict-half-barrier-minimal-bad-chain-direct-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -227,6 +239,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-spike-spatial-thickness-temporal-admission-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-lower-entrance-cycles-back-to-half-barrier-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-same-edge-strict-half-barrier-direct-proof-pass-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md
@@ -254,6 +267,8 @@ supersedes_as_live_frontier:
   - first-derivative/Poincare/finite-depth payment as payment for the non-derivative affine quotient without announced derivative, turnstile, exchange, covector, second-order, bill, or route-out representation
   - fixed stopped score, primitive lift, root-weighted square control, or selected-return lower-thickness as c_0 closure without same-edge pre-readout channel admission and linear bill currency
   - moving low-high pump finite work as a lower c_0 source rather than continuation-strength material-clock control
+  - quantitative local Re^{-1} or viscous per-decade gain as a c_0 closer on the log-self-similar counterobject
+  - strict half-barrier wording as an opaque bottom rather than the no-Zeno repeated-core / shrinking-core dichotomy
   - terminal tail UI or live-prong delamination wording as closure without same-carrier high-frequency log-endpoint tightness plus positive-part admission
   - acceleration endpoint impulse as retained bill currency rather than finite fixed-chart storage plus reset/frame route-out
   - affine martingale or storage labels as sibling producers after TFE2748B
@@ -276,6 +291,7 @@ supersedes_as_live_frontier:
   - SameEdgeNoDetachmentModulus.A as one opaque compactness side condition rather than the simultaneous selector/chart/payment/face custody of one retained edge
   - StoppedSelectorFiniteScoreOrPaidDrift.A as proof of arbitrary retained-edge capture before FiniteParentKnownRecordEdgeSelectorMenu.A / RecordEdgeSelectorLabelModulusOrPaidDrift.A is supplied
   - detector-silent service, exact-projector chart license, curvature spike thickness, or primitive-driver admission as independent lower entrances after the source-checked cycle back to OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
+  - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A as one opaque burden after the direct same-edge minimal-bad-chain proof splits it into repeated-core signed scale-potential record/return payment and shrinking-core same-edge capacity packing
   - SameEdgeOrderLockPartnerDeficitPayment.A as an independent c_0 wall rather than selected-density half-tail / retained same-packet overlap payment in full-packet variables
   - MaterialSelectorKinematicRealization.A or selector/collar endpoint UI as an independent source rather than an admissibility consumer after order-locked material definition, heat-scale return, tie/drift charge, and finite endpoint-jet modulus
   - TransportedSelectorHeatScaleReturn.A as a solved energy consequence or hidden no-residue payment rather than an open unweighted deformation-return / charged Body-IV geometry-carrier defect gate
@@ -1666,6 +1682,19 @@ material clock, so it is not a smaller noncircular c0 source. The lawful use of
 the pump coordinate is pre-envelope signed channel admission, a direct
 subcritical active/root matrix face from original data, or typed route-out.
 
+The strict half-barrier direct audit lowers that pump obstruction by the proof
+method that fits its arithmetic: a minimal bad chain / descent split. After
+visible Schur defect, silent zero-cost source, spent-source reuse,
+selector/reselection jumps, nonlaminar exits, recirculation/return,
+entrance/legal, and subheat branches are removed, the surviving chain has finite
+raw mass and divergent selected first-ratio action. It can avoid payment only
+by reusing one material core forever or by escaping into shrinking cores. Thus
+the nonduplicate stopped target is
+`NoZenoReuseEscapeDichotomyStrictCharge.A`: repeated-core visits must pay finite
+nonreuse storage, and shrinking-core visits must pay pressure-Hodge /
+collar-turnstile escape capacity, all from the original same-fluid history
+before readout.
+
 The live-prong delamination note localizes the compactness leak without closing
 it. A temporal positive record atom is an ownership/delamination problem because
 irreversible one-way record concentrated in vanishing time must post viscous or
@@ -1675,6 +1704,15 @@ coherence; the unresolved leak is the high-frequency logarithmic endpoint where
 the record mass stays only weakly controlled, together with positive-part
 admission for \([\det\nabla u]_+\). That is the frequency-tightness reading of
 the same first-ratio half-tail, not an independent closure.
+
+The viscosity weld prunes the remaining rate-based reading of irreversibility.
+The Navier-Stokes scaling preserves \(\nu\), so on the log-self-similar
+counterobject \(N_L\sim2^{-L}/L\) the viscous bill is marginal rung to rung
+just like strain order and turnover lag. Viscosity remains the arrow-of-time
+payer, but not as a quantitative per-decade \(Re^{-1}\) margin on this
+counterobject. The remaining use of viscosity is a sign/rigidity input: exclude
+the log-marginal tower as a real finite-energy irreversible material history,
+or route the lost parent/positive-part defect out.
 
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity
