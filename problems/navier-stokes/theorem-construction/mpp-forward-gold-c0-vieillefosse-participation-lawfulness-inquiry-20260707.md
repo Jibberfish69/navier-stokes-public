@@ -398,3 +398,140 @@ response that creates uniform viscous participation cost?}
 
 A positive answer is the infinitesimal SK mass needed for \(c_0\). A negative
 answer leaves the log endpoint alive.
+
+## 9. First gluing-layer calculation
+
+The affine core has no transverse pressure response. The first place to look is
+therefore the simplest finite-energy collar:
+
+```math
+v(x)=\chi(r)Sx,
+\qquad
+S=\lambda D,
+\qquad
+D=\operatorname{diag}(1,1,-2),
+\qquad
+r=|x|.
+\tag{VPL.28}
+```
+
+This raw field is not yet divergence-free unless \(\chi\) is constant, but it
+shows the unavoidable source term created by finite-energy participation. Write
+
+```math
+A_{ji}=\partial_i v_j
+=
+\chi S_{ji}+(Sx)_j\partial_i\chi .
+\tag{VPL.29}
+```
+
+The pressure source before the Leray correction is
+
+```math
+f_{\rm raw}
+=
+\partial_i v_j\,\partial_j v_i
+=
+\operatorname{tr}(A^2).
+\tag{VPL.30}
+```
+
+Since \(S\) is symmetric,
+
+```math
+\operatorname{tr}(A^2)
+=
+\chi^2\operatorname{tr}(S^2)
++2\chi\,\nabla\chi\cdot S^2x
++(\nabla\chi\cdot Sx)^2.
+\tag{VPL.31}
+```
+
+For a radial collar, let \(\mu=x_3/r\). Then
+
+```math
+\nabla\chi\cdot Sx
+=
+\lambda r\chi'(1-3\mu^2),
+\qquad
+\nabla\chi\cdot S^2x
+=
+\lambda^2 r\chi'(1+3\mu^2),
+\tag{VPL.32}
+```
+
+and
+
+```math
+f_{\rm raw}
+=
+\lambda^2\left[
+6\chi^2
++2\chi r\chi'(1+3\mu^2)
++r^2(\chi')^2(1-3\mu^2)^2
+\right].
+\tag{VPL.33}
+```
+
+The affine interior is the first term \(6\lambda^2\), which gives only
+isotropic pressure. The collar terms are different. Using Legendre polynomials,
+
+```math
+1+3\mu^2=2+2P_2(\mu),
+\tag{VPL.34}
+```
+
+and
+
+```math
+(1-3\mu^2)^2
+=
+\frac45+\frac87P_2(\mu)+\frac{72}{35}P_4(\mu).
+\tag{VPL.35}
+```
+
+Therefore the collar contains the forced fourth angular mode
+
+```math
+f_{\rm raw}^{(4)}
+=
+\lambda^2 r^2(\chi')^2\frac{72}{35}P_4(\mu).
+\tag{VPL.36}
+```
+
+This mode is zero exactly when there is no collar. A finite-energy participant
+must have a collar or an equivalent non-affine gluing correction, so the affine
+zero-pressure-kick calculation cannot persist unchanged through participation.
+
+After pressure is recovered from
+
+```math
+-\Delta p=f,
+\tag{VPL.37}
+```
+
+the \(P_4\) source produces a non-isotropic pressure component. Its Hessian is
+deviatoric and cannot be everywhere parallel to the affine Vieillefosse tensor
+\(D\). Thus the collar creates a transverse pressure channel:
+
+```math
+P_\perp\operatorname{dev}\nabla^2p_{\rm collar}\neq0
+\tag{VPL.38}
+```
+
+for any fixed nontrivial radial collar before possible cancellations from the
+full Leray projection and tower optimization are accounted for.
+
+This is the first concrete evidence for the expected SK bite. It is not yet the
+uniform \(c_0\) theorem. The remaining proof burden is to show that the
+divergence-free correction and the full same-field tower cannot cancel or
+delaminate this transverse \(P_4\) pressure channel so that
+
+```math
+\mathcal V_\chi(u_L)\to0,
+\qquad
+\mathcal S_\chi(u_L)=1
+\tag{VPL.39}
+```
+
+along a \(2^{-L}/L\) endpoint sequence.
