@@ -36,6 +36,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-carrier-tail-ui-production-normal-form-20260620.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-potential-average-bound-endpoint-corrected-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
 completion_truth: >-
   Strict reduction only. The c_0 bill-matrix early-row note reduced the
   nonduplicate matrix face to RecordAdmittedSubHeatLagEarlyBranchStorage.A,
@@ -47,10 +49,12 @@ completion_truth: >-
   on the identity branch, FreshOverrunSameCarrierTailUI.A /
   FreshSelectedCoefficientOverrunPayment.A on the actual selected carrier.
   Terminal tail-UI failure is a terminal source-curve atom/readout; after
-  same-witness CM admission and uniform service certification it is consumed by
-  installed Part/Field consumers, but before that admission it is not a forward
-  supplier of WLF.60. This note does not prove WLF.60, the early-row storage
-  theorem, the bill-coercive matrix, FullTower retention, c_0, or MPP closure.
+  theta-payer admission in the compact route-b zero-loss class it contradicts
+  zero surplus, and after same-witness CM admission and uniform service
+  certification it is consumed by installed Part/Field consumers. Before those
+  admissions it is not a forward supplier of WLF.60. This note does not prove
+  WLF.60, the early-row storage theorem, the bill-coercive matrix, FullTower
+  retention, c_0, or MPP closure.
 ---
 
 # WLF.60 carrier mismatch to tail UI reduction
@@ -186,9 +190,11 @@ The source-curve statement is
 \tag{CWT.9}
 \]
 
-After same-witness CM admission and uniform service certification, that atom is
-consumed by installed Part/Field service-topology consumers. Before that
-admission, `(CWT.9)' is an exact forward obstruction/readout. It is not by
+After theta-payer admission in the compact route-b zero-loss class, that atom
+contradicts zero surplus by the temporal-thin payer lower-semicontinuity lemma.
+After same-witness CM admission and uniform service certification, it is also
+consumed by installed Part/Field service-topology consumers. Before those
+admissions, `(CWT.9)' is an exact forward obstruction/readout. It is not by
 itself a proof of WLF.60 and it is not `Exit(Q)' by itself.
 
 Thus the terminal side is a typed route-out or obstruction, not a forward
