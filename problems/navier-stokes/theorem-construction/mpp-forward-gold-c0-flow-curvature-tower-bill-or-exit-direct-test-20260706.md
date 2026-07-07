@@ -20,6 +20,7 @@ allowed_source_refs:
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-c11-metric-tower-or-exit-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
 completion_truth: >-
   Direct test of RetainedFlowCurvatureTowerBillOrExit.A from the allowed
   Field/tower sources. The test does not prove the theorem and does not prove or

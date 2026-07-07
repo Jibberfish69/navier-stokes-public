@@ -19,6 +19,7 @@ allowed_source_refs:
   - problems/navier-stokes/spine.md
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
 completion_truth: >-
   Conditional reduction of RetainedFlowCurvatureMorreyEnvelopeOrExit.A, not a
   proof of it and not a proof or refutation of
@@ -34,7 +35,9 @@ completion_truth: >-
   RetainedFlowCurvatureMorreyEnvelopeOrExit.A. The first clause prevents
   sub-wavelength coefficient curvature from being smuggled into the metric half;
   the second supplies the spatial/material-time density needed for the L2
-  Field/viscous bill to control the pointwise envelope.
+  Field/viscous bill to control the pointwise envelope. The low-pass clause has
+  since been collapsed conditionally into RetainedRecordEdgeHigherProjectorServiceOrExit.A,
+  so the independent metric-side residue is RetainedCurvatureSpikeThicknessOrCharge.A.
 ---
 
 # Morrey envelope: thickness/charge reduction
@@ -203,13 +206,16 @@ Without the first fact, the metric half is actually higher-projector service.
 Without the second, the averaged Field/viscous bill can vanish while the
 pointwise coefficient envelope fails on a thin selected set.
 
-So this note does not close `NormalizedRelayBillCompactnessRecordPassage.A`.
-It gives the next strict route for this operator branch:
+The low-pass clause has now been checked as non-independent: it follows from
+`RetainedRecordEdgeHigherProjectorServiceOrExit.A`, because sub-wavelength
+metric curvature is a moving-chart exact-projector residue rather than a legal
+low metric symbol. So this note does not close
+`NormalizedRelayBillCompactnessRecordPassage.A`. It gives the next strict route
+for this operator branch:
 
 ```math
 \begin{aligned}
-&\texttt{RetainedCurvatureCoefficientLowPassOrHigherServiceExit.A}\\
-&+\texttt{RetainedCurvatureSpikeThicknessOrCharge.A}\\
+&\texttt{RetainedCurvatureSpikeThicknessOrCharge.A}\\
 &+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}\\
 &\Longrightarrow
 \texttt{RetainedRecordEdgeExactProjectorChartLicense.A},
