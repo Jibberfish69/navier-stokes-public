@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf-odp-affine-transition-first-ratio-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-record-return-producer-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
 completion_truth: >-
   Strict reduction only. This note does not prove
@@ -258,6 +259,17 @@ post-readout BV estimate. It is the return-fibre face of the same parent active
 thickness/entropy source, and it remains open exactly where the retained
 return intervals must be admitted as before-clipping bounded-overlap fibres of
 the same parent active measure.
+
+The fibre-admission clause has now been split further. The same-edge custody
+surfaces give the container for the fibre only after selector capture, chart
+license, stopped-line ancestry, no-recount, and no-detachment are all present.
+The remaining quantitative clause is
+\[
+\texttt{ReturnIntervalActiveFibreJacobianDomination.A},
+\tag{MDS.9e}
+\]
+the domination of \(\int_Iw^{-1}d\sigma\) by \(R_P^+d\mathfrak m_P\) on that
+same before-clipping fibre.
 
 ## 4. The sharpened package
 
