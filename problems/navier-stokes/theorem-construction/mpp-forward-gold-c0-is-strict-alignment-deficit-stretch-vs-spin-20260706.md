@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706
 status: physical-coordinate-regraded-not-independent-producer-strict-deficit-open
 created: 2026-07-06
 problem: navier-stokes
-route: forward-gold / c_0 / the physical statement — c_0 is the strict cascade-uniform deficit of stretching below spin, forced by the non-locality of the self-strain
+route: forward-gold / c_0 / physical alignment coordinate for the strict cascade-uniform deficit of stretching below spin
 authorship: >-
   Claude (Opus 4.8), 2026-07-06, physical-reasoning-first (gate-enforced),
   for "work with Codex to solve c_0". Physical ontology: Thomas Birnie.
@@ -15,7 +15,9 @@ current_regrade_20260707: >-
   The strict alignment deficit becomes proof only if it is upgraded into the
   same weighted first-ratio / moving low-high driver / no-free-upward-transfer
   theorem, a direct original-data subcritical matrix face, or a typed route-out
-  before readout.
+  before readout. The stronger "non-local strain is smoothed, therefore it must
+  lag local spin" reading is withdrawn: at the strain level S is an order-zero
+  singular integral of omega, so nonlocality alone supplies no uniform deficit.
 completion_truth: >-
   Physical statement of c_0, honestly graded, no closure. A record is sustained
   vortex stretching. Stretching thins the tube, which (circulation conserved)
@@ -30,16 +32,13 @@ completion_truth: >-
   the SAME grad u, both O(|grad u|), so GENERICALLY alpha ~ |omega| -- the
   alignment race is a TIE, which is exactly the marginal 1/2 re-derived
   physically (consistent with break-even = 1/2, single-scale = 0). Therefore
-  c_0 is precisely the STRICT sub-marginal deficit of alpha below |omega|,
-  forced by the non-locality/smoothing of the self-strain, sustained through the
-  infinite fining cascade. This deficit is physically plausible (smoothed
-  non-local strain cannot chase a sharpening local spin) but NON-GENERIC
-  (alpha ~ |omega| is the default), so proving it strict and cascade-uniform is
-  the genuine Navier-Stokes wall. The "might be easy" hearing: the physics says
-  the race is a tie at leading order, so it is NOT easy. For Codex: the target
-  is the strict cascade-uniform sign of |omega| - alpha from the self-strain
-  non-locality. No F2/F4/F5, Chapter-10, manuscript, or MPP closure is proved.
-  Filed is not cleared.
+  c_0 can be read in this coordinate as a STRICT sub-marginal deficit of alpha
+  below |omega|, sustained through the infinite fining cascade, but that deficit
+  is not forced by pointwise nonlocal smoothing. Biot-Savart smooths velocity;
+  S=sym grad u is order-zero in omega. The alignment picture becomes proof only
+  after it is upgraded into same-edge bill currency, no-free-upward-transfer
+  storage, a direct subcritical matrix face, or typed route-out. No F2/F4/F5,
+  Chapter-10, manuscript, or MPP closure is proved. Filed is not cleared.
 ---
 
 # c_0 is the strict alignment deficit: stretching vs spin
@@ -57,9 +56,16 @@ The record persists only while stretching keeps pace with that mis-rotation.
 The mis-aligning rotation is LOCAL — the vortex's own spin |omega| at the point.
 The stretching strain is NON-LOCAL — a straight tube does not stretch itself;
 the stretching comes from the collective vorticity elsewhere (the fluid's
-incompressibility self-participation reaching in from around the point). So the
-race is a sharpening LOCAL spin against a smoothed, COLLECTIVE strain. That
-asymmetry is the only physical reason coherence can deplete self-tightening.
+incompressibility self-participation reaching in from around the point). This is
+the right physical asymmetry to watch, but it is not a proof by itself. At the
+strain level,
+
+\[
+S=\operatorname{sym}\nabla(-\Delta)^{-1}\nabla\times\omega
+\]
+
+is an order-zero singular integral of \(\omega\), so the non-local strain read
+does not carry a free smoothing power relative to local spin.
 
 ## 3. Check: the race is a tie at leading order
 
@@ -73,26 +79,26 @@ generic pulls the ratio to the depleting side.
 
 ## 4. So what c_0 is, physically
 
-c_0 = the STRICT sub-marginal deficit of alpha below |omega| -- the amount by
-which the fluid's own non-local self-strain forces stretching to fall strictly
-behind spin -- sustained UNIFORMLY through the infinite fining cascade. It is
-plausible (the collective strain is smoothed relative to the sharpening local
-spin, so it should lose the race in the limit) but NON-GENERIC (alpha ~ |omega|
-is the default), which is why it is not a one-line estimate. Proving the strict,
-cascade-uniform sign of |omega| - alpha is the genuine Navier-Stokes wall.
+c_0 can be read as the STRICT sub-marginal deficit of alpha below |omega|,
+sustained UNIFORMLY through the infinite fining cascade. But the strictness is
+not a local consequence of non-local smoothing. The operator order says the
+race can remain tied at every scale. Proving the strict, cascade-uniform sign of
+|omega| - alpha means proving a global same-history bill/storage/admission
+theorem for the retained packet.
 
 ## 5. Honest grade and handoff
 
 - PROVED (physical): the alignment race alpha/|omega| is a tie at leading order
   (both O(|grad u|)); c_0 cannot be a generic/leading-order margin -- it is a
   strict non-generic deficit. This is why single-scale/local/mean all give 0.
-- OPEN: the strict, cascade-uniform sign of |omega| - alpha forced by the
-  self-strain non-locality. The genuine wall.
+- OPEN: the strict, cascade-uniform sign of |omega| - alpha carried by a
+  same-history bill/storage/admission theorem. Nonlocality alone does not force
+  it.
 - CURRENT REGRADE: this wall is not lower than the first-ratio/moving-driver
   wall. It must pay a finite same-history first-ratio charge or become a typed
   route-out before readout.
-- For Codex: take the strictness of |omega| - alpha from the non-local
-  (collective, smoothed) structure of the self-generated strain; I hold the
-  alignment/spin dynamics physics.
+- For Codex: keep the alignment/spin dynamics as a physical coordinate, but do
+  not treat "collective strain is smoothed" as the missing estimate. The missing
+  estimate is the first-ratio/moving-driver/no-free-upward-transfer bill.
 
 No closure claimed. Filed is not cleared.
