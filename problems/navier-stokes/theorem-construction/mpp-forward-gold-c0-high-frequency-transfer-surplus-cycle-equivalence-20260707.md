@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / Gate2 / theta profile / zero-surplus unit cycle
-status: proved-equivalence-last-theta-branch-is-zero-surplus-unit-cycle-not-proof
+route: forward-gold / c_0 / Gate2 / theta profile / zero-surplus Perron circulation
+status: proved-equivalence-last-theta-branch-is-zero-surplus-perron-circulation-not-proof
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -18,6 +18,7 @@ ontology_lock:
 target_object:
   - HighFrequencyPressureStressTransferRigidity.A
   - RecordAdmittedSurplusZeroUnitCycleRigidity.A
+  - RecordFeedingSurplusPerronClassExclusion.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
   - CertifiedSurplusZeroThetaProfileRigidity.A
   - ParentOwnedPositiveRecordBillCurrency.A
@@ -27,6 +28,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
@@ -35,27 +37,29 @@ completion_truth: >-
   Strict reduction and label collapse only. This note proves that, inside the
   already admitted retained finite parent-face chart, the last in-class
   high-frequency pressure-stress transfer branch from the zero-loss theta case
-  split is the same object as the record-admitted zero-surplus unit cycle. The
-  direction from theta to cycle uses the prior case eliminations: detector-
+  split is the same object as the record-admitted zero-surplus Perron
+  circulation. The direction from theta to Perron circulation uses the prior
+  case eliminations: detector-
   visible service, persistent localized affine service, temporal-thin admitted
   service, and route-out branches have already been removed or typed. The
   remaining positive theta service must pass through the active critical,
   active full-exchange, and active-transit faces; zero surplus gives no strict
   B-payer, and failure of the subcritical matrix margin gives a normalized
-  nonnegative Perron cycle. The converse says a retained record-admitted
-  zero-surplus unit cycle, after legal/stop quotienting and exact charting, is
-  precisely a ratio-one high-frequency pressure-stress transfer profile unless
+  nonnegative record-feeding Perron class. The converse says a retained
+  record-admitted zero-surplus Perron circulation, after legal/stop quotienting
+  and exact charting, is precisely a ratio-one high-frequency pressure-stress
+  transfer profile unless
   it routes out or upgrades to absolute-zero, where the zero-bill kernel kills
   it. Therefore HighFrequencyPressureStressTransferRigidity.A and
-  RecordAdmittedSurplusZeroUnitCycleRigidity.A are the same remaining admitted
-  theorem at the current frontier. Proving that theorem would imply the
+  RecordFeedingSurplusPerronClassExclusion.A are the same remaining admitted
+  finite theorem at the current frontier. Proving that theorem would imply the
   existing matrix gap, ParentOwnedPositiveRecordBillCurrency.A,
   NormalizedRelayBillCompactnessRecordPassage.A, and c_0>0. Current sources do
   not prove the theorem and no retained Navier-Stokes counterexample is
   constructed.
 ---
 
-# High-frequency pressure-stress transfer equals the zero-surplus unit cycle
+# High-frequency pressure-stress transfer equals the zero-surplus Perron circulation
 
 ## 1. Same object
 
@@ -78,12 +82,22 @@ The current finite parent-face language says the last Gate 2 matrix branch is
 \tag{HFZ.2}
 ```
 
+Its precise finite normal form is
+
+```math
+\texttt{RecordFeedingSurplusPerronClassExclusion.A},
+\tag{HFZ.2a}
+```
+
+where "cycle" means a record-feeding strongly connected Perron class, possibly
+with branching.
+
 This note identifies them after the already named admissions are imposed:
 compact material-time theta certificate, theta-payer admission, retained
 finite parent-face chart, exact projector/chart license, and legal/stop
 quotienting. It does not prove those admissions.
 
-## 2. From a zero-loss theta profile to a unit cycle
+## 2. From a zero-loss theta profile to a Perron circulation
 
 Assume a certified retained zero-surplus theta profile has positive normalized
 theta service:
@@ -138,8 +152,8 @@ record row
 If the active-face storage matrix had a uniform subcritical margin, the
 bill-coercive matrix criterion would pay the record in \(B\)-currency. We are
 inside the zero-surplus retained profile, so this subcritical margin is absent.
-On the compact finite retained chart, absence of the margin gives a Perron
-direction:
+On the compact finite retained chart, absence of the margin gives a
+record-feeding Perron direction:
 
 ```math
 X_P\ge0,\qquad
@@ -150,11 +164,14 @@ X_P\le K_PX_P,\qquad
 ```
 
 Together with zero surplus and the legal/stop quotient, `(HFZ.7)' is exactly
-the record-admitted zero-surplus unit cycle.
+the record-admitted zero-surplus Perron circulation. The finite normal form is
+not a simple-loop claim: it is the existence of a record-feeding strongly
+connected class \(C\) with \(\rho(K_C)\ge1\).
 
-## 3. From a zero-surplus unit cycle to the theta branch
+## 3. From a zero-surplus Perron circulation to the theta branch
 
-Conversely, assume a retained record-admitted zero-surplus unit cycle exists:
+Conversely, assume a retained record-admitted zero-surplus Perron circulation
+exists:
 
 ```math
 X_P\ge0,\qquad
@@ -165,7 +182,7 @@ X_P\le K_PX_P .
 ```
 
 If \(dB_P=0\) upgrades to actual payer-measure zero, the zero-bill relay-record
-kernel excludes the cycle. If the service is detector-visible, the all-zero
+kernel excludes the circulation. If the service is detector-visible, the all-zero
 relay lemma excludes it. If it is persistent localized affine, the affine
 collar theorem pays it. If it is admitted temporal-thin, the atom/lower
 semicontinuity lemma pays it. If any parent, cover, tower, selector, terminal
@@ -174,7 +191,7 @@ not a retained in-class zero-loss profile.
 
 The only retained possibility left by these checked alternatives is non-affine
 high-frequency pressure-stress transfer in the full material theta clock. Thus
-the cycle is the finite parent-face reading of `(HFZ.1)'.
+the Perron circulation is the finite parent-face reading of `(HFZ.1)'.
 
 ## 4. The collapsed remaining theorem
 
@@ -183,7 +200,7 @@ Inside the admitted compact retained class,
 ```math
 \texttt{HighFrequencyPressureStressTransferRigidity.A}
 \quad\Longleftrightarrow\quad
-\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}.
+\texttt{RecordFeedingSurplusPerronClassExclusion.A}.
 \tag{HFZ.9}
 ```
 
@@ -199,8 +216,8 @@ So the remaining theorem may be stated once:
 Statement. No retained same-fluid Navier-Stokes parent packet, after theta-payer
 admission, retained finite parent-face charting, exact projector/chart license,
 and legal/stop quotienting, carries a normalized nonnegative active
-critical/full-exchange/active-transit cycle with positive selected record,
-zero strict surplus, and no typed route-out.
+critical/full-exchange/active-transit record-feeding Perron class with positive
+selected record, zero strict surplus, and no typed route-out.
 
 ## 5. Consequence for the active goal
 
@@ -220,6 +237,6 @@ c_0>0 .
 ```
 
 This is a strict contraction of labels, not closure. The proof still needs the
-actual Navier-Stokes producer excluding the zero-surplus cycle, or an
-independent original-history proof of one active face that makes the feedback
-matrix subcritical.
+actual Navier-Stokes producer excluding the zero-surplus record-feeding Perron
+class, or an independent original-history proof of one active face that makes
+the feedback matrix subcritical.
