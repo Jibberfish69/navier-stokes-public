@@ -20,6 +20,8 @@ allowed_source_refs:
   - problems/navier-stokes/spine.md
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-record-lower-entrance-source-verdict-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
 completion_truth: >-
@@ -244,3 +246,55 @@ positive-record bill currency, with the lower entrance:
 +
 \texttt{RetainedRecordEdgeExactProjectorChartLicense.A}.
 ```
+
+## 8. Nonduplicate producer after the lower branch collapse
+
+The lower entrance should not be read as two independent new sources of \(c_0\).
+The detector-visible part is finite-dimensional once the exact retained
+projector and chart have been licensed. The detector-silent part has now been
+checked against the half-tail model and is exactly the first-ratio storage wall
+in an invisible-service coordinate:
+
+```math
+\sigma_L\sim {2^{-L}\over L},
+\qquad
+\sum_L\sigma_L<\infty,
+\qquad
+\sum_L2^L\sigma_L=\infty .
+```
+
+Thus local silent-service routing gives a same-fluid address for each visit,
+but it does not give the record-weighted reserve. The transition-derivative
+collapse identifies the nonduplicate original-data producer as:
+
+```math
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+/
+\texttt{FullExchangeCriticalDepletionStorage.A}.
+```
+
+Physically, the same parent packet must delete enough active/root/full-exchange
+state before child positive clipping that the selected generator clock cannot
+fund itself. The exact-projector chart row remains necessary because the frozen
+detector must be a legal retained-edge reading, and the admitted parent faces
+still need \(B\)-currency storage. But those are admission/readout chores around
+the same producer, not separate half-tail killers.
+
+The sharpened current stack is:
+
+```math
+\begin{aligned}
+&\texttt{StrictOriginalLedgerGeneratorStorage.A}
+/\texttt{FullExchangeCriticalDepletionStorage.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{B-currency storage of admitted parent faces}
+\Longrightarrow
+\texttt{ParentOwnedPositiveRecordBillCurrency.A}\\
+&\Longrightarrow
+\texttt{NormalizedRelayBillCompactnessRecordPassage.A}.
+\end{aligned}
+```
+
+This is still a strict reduction, not a proof of the normalized passage theorem:
+the original-ledger generator storage theorem is unproved, and no retained
+Navier-Stokes counterexample to normalized passage has been constructed.
