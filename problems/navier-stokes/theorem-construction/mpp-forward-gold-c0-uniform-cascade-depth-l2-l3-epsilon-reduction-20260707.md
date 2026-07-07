@@ -13,6 +13,9 @@ target_object:
   - UniformCascadeTerminationDepth
   - SpatialSignedCoreProjection
   - L2ToL3RecordEquiIntegrability
+  - FullPositiveMaterialRecordTermination
+  - SameCarrierTailUI.A
+  - TerminalPulseSeparationModel
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
   - epsilon_star_positive
@@ -25,10 +28,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
 completion_truth: >-
-  This note resolves the proposed route at the current source state. Uniform
-  cascade-termination depth in the L2-to-L3 sense is exactly the spatial
+  This note resolves the proposed route at the current source state, and the
+  resolution is a strict separation. Uniform cascade-termination depth in the
+  L2-to-L3 sense is exactly the spatial
   signed-core no-critical-concentration projection: it prevents the Jacobian /
   null-Lagrangian record core from forming arbitrarily deep spatial
   concentration atoms. That equivalence is useful but it is not enough to prove
@@ -42,10 +48,16 @@ completion_truth: >-
   retained bill/record ratio has epsilon_* > 0 and c_0=2 epsilon_*. It also
   records the obstruction: the bare L2-to-L3/equi-integrability theorem lacks
   positive-part retention, material-time tightness, and same-parent edge
-  ownership. Therefore the requested short proof does not close c_0 unless the
-  uniform-depth theorem is upgraded to the same WLF/ODP same-carrier payment /
-  FullTowerPositiveChannelThreeMeasureAdmission / same-edge custody theorem
-  already isolated in the shrink map. No c_0 or MPP closure is claimed.
+  ownership. The terminal pulse model is the separating object: it has fixed
+  positive record, no new spatial concentration, and no same-carrier tail
+  uniform integrability. The later selector-force balance audit shows the same
+  obstruction through the acceleration endpoint leg: endpoint impulse can carry
+  the terminal pulse without square-force billing unless endpoint/frame
+  variation is charged or routed out. Therefore the requested short proof does
+  not close c_0 unless the uniform-depth theorem is upgraded to the same WLF/ODP
+  same-carrier payment / FullTowerPositiveChannelThreeMeasureAdmission /
+  same-edge custody theorem already isolated in the shrink map. No c_0 or MPP
+  closure is claimed.
 ---
 
 # Uniform cascade depth, L2-to-L3 uniformity, and the epsilon extraction
@@ -166,6 +178,105 @@ Therefore
 from the installed source logic. The implication becomes true only after the
 uniform-depth theorem is strengthened from spatial termination to same-edge
 positive-record termination in bill currency.
+
+## 3b. Full equivalence separation
+
+There are two different statements:
+
+\[
+\texttt{UCTD\_sp}
+\Longleftrightarrow
+\texttt{L2L3\_sp},
+\tag{UCD.6a}
+\]
+
+and
+
+\[
+\texttt{UCTD\_full}
+\Longrightarrow
+\varepsilon_*>0.
+\tag{UCD.6b}
+\]
+
+The first is the spatial signed-core equivalence proved above. The second is
+the retained positive material-record theorem needed for \(c_0\). They are not
+the same theorem at the current source state.
+
+The separating model is the terminal pulse already isolated in the terminal-tail
+and selector-force audits:
+
+\[
+a_\tau(t)=\tau^{-1}{\bf 1}_{(-\tau,0]}(t),
+\qquad
+r_\tau(x,t)=a_\tau(t)\phi(x),
+\qquad
+\int\phi\,dx=1.
+\tag{UCD.6c}
+\]
+
+It has fixed positive record:
+
+\[
+\int r_\tau\,dx\,dt=1.
+\tag{UCD.6d}
+\]
+
+It has no spatial concentration beyond the fixed profile \(\phi\), so it is
+invisible to a theorem that only forbids spatial \(L^3\)-critical concentration
+of the signed core. But it has no tail uniform integrability in material time:
+
+\[
+\lim_{K\to\infty}\sup_{\tau}
+\int_{\{a_\tau>K\}}a_\tau(t)\,dt=1.
+\tag{UCD.6e}
+\]
+
+It also has divergent square force:
+
+\[
+\int_{-1}^{0}a_\tau(t)^2\,dt=\tau^{-1}\to\infty.
+\tag{UCD.6f}
+\]
+
+while it can be written as the derivative of an endpoint impulse coordinate
+with order-one endpoint displacement. Thus spatial \(L^2\to L^3\) uniformity
+does not force the terminal record into the retained bill.
+
+Therefore the full statement cannot be
+
+\[
+\texttt{UCTD\_full}
+=
+\texttt{L2L3\_sp}.
+\tag{UCD.6g}
+\]
+
+The strongest correct equality is
+
+\[
+\texttt{UCTD\_full}
+=
+\texttt{L2L3\_sp}
++\texttt{PositivePartRetention}
++\texttt{MaterialTimeTailUI}
++\texttt{SameEdgeBillCurrency}.
+\tag{UCD.6h}
+\]
+
+At this resolution, the new non-spatial clause is exactly:
+
+\[
+\texttt{SameCarrierTailUI.A}
+\quad\hbox{or}\quad
+\texttt{RootFixedTerminalUniformL1FullPacketServiceStorage.A}
+\quad\hbox{or}\quad
+\texttt{EndpointImpulseFrameVariationBillOrRouteOut.A}.
+\tag{UCD.6i}
+\]
+
+Without one of `(UCD.6i)', the terminal pulse remains a normalized
+zero-bill/positive-record countersequence to the proposed epsilon extraction.
 
 ## 4. The strengthened theorem that would close epsilon
 
