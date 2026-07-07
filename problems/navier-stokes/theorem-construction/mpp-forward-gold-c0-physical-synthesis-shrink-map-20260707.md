@@ -29,6 +29,9 @@ target_object:
   - FullSelectedPacketParentAnnouncedDerivativeRepresentation.A
   - TerminalAdjointRellichCriticalAntiAtom.A
   - SelectedRellichSelectorForceLowerBound.A
+  - SelectedAffineMomentCarrierIdentification.A
+  - SelectorForceHminusOneBillCurrency.A
+  - SelectorForceBalanceLegBillCurrency.A
   - RootFixedTerminalUniformL1FullPacketServiceStorage.A
   - ParentActiveTowerTailAndAffineQuotientDepletion.A
   - ParentActiveCapacityThreeToothSource.A
@@ -122,6 +125,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
@@ -266,7 +270,10 @@ completion_truth: >-
   D_Q=(S, Pi_Q grad^2 p). The Rellich side of that anti-atom has been lowered
   from broad selected Rellich positivity to the selector-force / non-affine
   pressure-viscous commutator lower bound
-  SelectedRellichSelectorForceLowerBound.A, and the terminal storage side is
+  SelectedRellichSelectorForceLowerBound.A. The selector-force floor itself is
+  now installed in scale-normalized H^{-1}; the remaining Rellich-side source is
+  selected affine-moment carrier identification plus H^{-1} selector-force
+  conversion into the retained bill currency. The terminal storage side is
   lowered to
   RootFixedTerminalUniformL1FullPacketServiceStorage.A, then by the TFE source
   audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
@@ -618,11 +625,30 @@ theorem:
 \tag{CPS.6a}
 \]
 
-That theorem must quantify the exact force
-\(\mathbb P(S\nabla\chi)\) created when a positive selected patch is cut out of
-a pressure-law null packet, or route the unadmitted force out before readout.
-Without that lower bound, the remaining fallback is adjoint-polarization or
-microlocal no-invisible-carrier work on the polar-null packet.
+The follow-up HminusOne pass shows the scale-normalized force floor is already
+installed:
+
+\[
+\|\mathbb P(S\nabla\chi)\|_{\dot H^{-1}}
+\gtrsim
+{|M_A(T)|\over |A|D^{3/2}}.
+\tag{CPS.6b}
+\]
+
+The remaining Rellich-side source is therefore:
+
+\[
+\texttt{SelectedAffineMomentCarrierIdentification.A}
++
+\texttt{SelectorForceHminusOneBillCurrency.A}.
+\tag{CPS.6c}
+\]
+
+The first clause identifies the terminal selected carrier with the same-packet
+affine moment. The second converts the installed \(H^{-1}\) floor into retained
+Field/four-body/viscous bill currency through the acceleration, viscous,
+nonlinear, or defect/certificate balance legs, or routes the unadmitted force
+out before readout.
 
 The checked terminal descent lowers `(CPS.6)' to one storage producer. First
 exit pays moving/reset pieces only; compactness, Rellich, no-residue, no-jump,
