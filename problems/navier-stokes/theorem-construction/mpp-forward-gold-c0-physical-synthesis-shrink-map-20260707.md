@@ -1349,6 +1349,19 @@ pure local bounded \(X_{comm}\) storage is blocked by the affine-strain normal
 form. Thus the current physical bottom is the moving low-high
 pressure/strain driver / first-ratio no-free-upward-transfer bill, or an
 equivalent direct original-data subcritical active/root face.
+
+In WLF/ODP coordinates this bottom is sharper. Same-parent origin,
+no-recount pushforward, raw Bessel novelty, and local first-admission atoms
+are support; they do not give the weighted linear pulse measure. The unpaid
+coordinate is the persistent affine quotient \(\texttt{ODP.160}/\texttt{ODP.125}\)
+on the order-locked full-packet selected carrier. The immediate nonduplicate
+proof object is
+\(\texttt{PredictableActiveWeightTransitionCarleson.A}
++\texttt{StoppedAffineTransitionLiftedMartingaleDifference.A}\):
+split stopped affine transitions before scalar positive readout, route
+predictable inherited pieces to record/return, and route lifted innovations to
+critical reset carriers.
+
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity
 and parent/full-exchange address lower semicontinuous through the limit.
