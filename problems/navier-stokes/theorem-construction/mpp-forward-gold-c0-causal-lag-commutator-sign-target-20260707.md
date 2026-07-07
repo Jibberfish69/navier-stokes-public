@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: section-8-magnitude-attack-refuted; signed-retained-angular-rigidity-target
+status: section-8-magnitude-attack-refuted; signed-retained-angular-rigidity-target; zero-cone-transport-reduction
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -40,8 +40,12 @@ completion_truth: >-
   angular embeddings, so magnitude can stay positive while the oriented lag
   cancels. The live target is therefore a signed retained angular rigidity
   theorem: no positive critical-record, surplus-zero, marginal participation
-  tower may cancel the material lag by aligned cone-mixing. This is a
-  constructive target and a strict reduction, not a proof of c_0>0.
+  tower may cancel the material lag by aligned cone-mixing. Section 11 records
+  the first pressure test on that cancellation: the angular zero cone
+  \(2n_3^2=1\) is not invariant under the affine Vieillefosse angular flow, so a
+  zero-lag retained history must either pay angular redistribution/source/selector
+  flux, collapse to degenerate pass directions, or use a collar/exit branch. This
+  is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
@@ -668,3 +672,123 @@ The three live lemmas are now:
 These are route-b/Liouville rigidity lemmas. Hardy or magnitude participation
 estimates may book the supporting costs, but they do not supply endpoint
 strictness by themselves.
+
+## 11. Zero-lag cone transport test
+
+The first direct test of (CLS.41) is the affine angular flow. It does not prove
+the sign. It shows what a zero-sign adversary must keep paying.
+
+Continue with the affine Vieillefosse strain
+
+```math
+A=\operatorname{diag}(a,a,-2a),
+\qquad a>0,
+\tag{CLS.43}
+```
+
+and write \(z=n_3^2\). The angular vector field used in the affine CZ
+commutator is, up to the global time-orientation sign,
+
+```math
+\dot n
+=
+\pm\bigl(An-(n\cdot An)n\bigr).
+\tag{CLS.44}
+```
+
+Therefore
+
+```math
+\dot z
+=
+\pm 6a\,z(1-z),
+\qquad
+\frac{d}{dt}(2z-1)
+=
+\pm 12a\,z(1-z).
+\tag{CLS.45}
+```
+
+The sign convention changes only the direction of crossing. The important point
+is invariant:
+
+```math
+\left|\frac{d}{dt}(2z-1)\right|_{z=1/2}
+=
+3a.
+\tag{CLS.46}
+```
+
+So the cancellation cone \(2n_3^2=1\) is a crossing surface, not an invariant
+surface. A single retained material angular packet cannot sit on the zero of the
+cone sign factor while the affine Vieillefosse motion remains active.
+
+This sharpens the adversary. To keep the signed lag zero over a material-time
+interval, the tower cannot merely choose the zero cone once. It must maintain a
+transport balance for its retained angular measure \(\mu_t\):
+
+```math
+0
+=
+\frac{d}{dt}\int (2z-1)\,d\mu_t
+=
+\int \pm 12a\,z(1-z)\,d\mu_t
++
+\int (2z-1)\,d\nu_t,
+\tag{CLS.47}
+```
+
+where \(\nu_t\) is the non-affine source, selector, parent, collar, or angular
+redistribution defect. Since the first integral has one sign on
+\(0<z<1\), zero signed lag requires one of three outcomes:
+
+1. a nonzero angular redistribution/source/selector defect \(\nu_t\);
+2. collapse of retained mass to the endpoint angular sets \(z=0\) or \(z=1\);
+3. a collar, exit, or different active channel carrying the handoff.
+
+The endpoint sets are degenerate for the plane-to-compressive transverse symbol:
+\(n_i n_3=0\), hence the active channel in (CLS.31) vanishes. They are
+pass/zero-record readings unless another channel or a collar carries the
+retained handoff.
+
+The next smaller theorem is therefore not bare positivity on \(S^2\). It is an
+angular-mixing payment lemma. In the zero-lag branch,
+
+```math
+\mathcal L_{\rm ret}=0
+\quad\Longrightarrow\quad
+\int_{\rm active} z(1-z)\,d\mu_{\rm ret}
+\le
+C\left(
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right),
+\tag{CLS.48}
+```
+
+where \(\mathsf P_{\rm mix}\) is the retained angular redistribution/source or
+selector bill in the same pressure-participation currency.
+
+This must be paired with the nondegenerate-participation lemma
+
+```math
+\mathsf S_{\rm ret}
+\le
+C\left(
+\int_{\rm active} z(1-z)\,d\mu_{\rm ret}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.49}
+```
+
+Together, (CLS.48)--(CLS.49) would rule out a zero-lag strict atom with
+\(\mathsf S_{\rm ret}=1\) and zero mix/collar/exit/pass bill. This is smaller
+than the original \(c_0\) terminal lemma because it has a concrete falsifier: a
+lawful retained positive-record angular measure that keeps (CLS.47) balanced
+with \(\nu_t=0\) and without collapsing to the degenerate endpoint channels.
+No such falsifier is excluded here; this section only identifies the exact
+angular transport obstruction that route-b must prove.
