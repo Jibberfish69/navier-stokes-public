@@ -7,6 +7,8 @@ status: proved-conditional-linear-absorption-criterion-not-producer
 target_object:
   - BillCoerciveRecordAdmittedStorageMatrixCriterion.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
+  - RecordAdmittedSubHeatLagEarlyBranchStorage.A
+  - ParentWeightedSelectedFirstAdmissionPulseMeasure.A
   - ParentOwnedPositiveRecordBillCurrency.A
   - NormalizedRelayBillCompactnessRecordPassage.A
 source_refs:
@@ -20,6 +22,9 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-coupled-storage-matrix-early-branch-obstruction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-exchange-no-self-feeding-physical-lyapunov-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
 completion_truth: >-
   This note proves the linear algebra absorption criterion that was implicit in
   the current c_0 Gate2 stack. It does not produce the Navier-Stokes matrix from
@@ -32,7 +37,10 @@ completion_truth: >-
   stronger coercive form B>=epsilon R and c_0=2epsilon. The remaining producer is
   exactly the bill-coercive record-admitted storage matrix, or an independent
   original-history proof of one face that makes the residual matrix subcritical.
-  No c_0 closure is claimed.
+  The early-branch contraction follow-up identifies that independent face in the
+  checked TFE/c_0 decomposition: record-admitted sub-heat-lag first-admission
+  storage, equivalently WLF.60 / ODP.91 on the order-locked full-packet selected
+  carrier. No c_0 closure is claimed.
 ---
 
 # Bill-coercive storage matrix criterion
@@ -227,6 +235,24 @@ The current producer is therefore:
 It asks for the actual NS construction of `(BCM.3)' with residual charged in
 \(dB=dE^{Field}+dA_{4B}+dVisc\), together with the retained exact-projector
 chart/license that makes `(BCM.5)' a legal same-parent record reading.
+
+The early-branch contraction follow-up sharpens the independent-face version of
+this producer. The retained heat-lag part of full exchange already has genuine
+Stokes smallness after zero modes and paid exits are removed. The unpaid row is
+the early sub-heat-lag trace/source branch, where heat-lag contraction has not
+yet acted. Thus, in the checked TFE/c0 decomposition,
+
+```math
+\texttt{RecordAdmittedSubHeatLagEarlyBranchStorage.A}
+\Longrightarrow
+\texttt{BillCoerciveRecordAdmittedStorageMatrix.A},
+\tag{BCM.16}
+```
+
+with the WLF.60 / ODP.91 parent-weighted first-admission pulse measure as the
+same row in heat-lag route-measure coordinates, provided the row is proved on
+the order-locked full-packet selected carrier and the same-packet overlap and
+selected-overrun tail are paid before readout.
 
 The unit-spectral-radius source countermodel remains the warning. A matrix with
 \(\rho(K_P)=1\) can circulate critical entry, full exchange, and active transit
