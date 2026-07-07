@@ -22,6 +22,8 @@ target_object:
   - ZeroLossTowerRelayRigidity.A
   - CriticalHeightGrowingMarginalRecordLadder.A
   - SelfSimilarProfileQuarantine.A
+  - HsDriftConfinementProfileQuarantine.A
+  - HeadPressureProfileLiouvilleQuarantine.A
 source_refs:
   - /Users/thomasbirnie/.codex/attachments/334c8347-95df-4df0-a07e-cc602db48024/pasted-text.txt
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -36,12 +38,15 @@ completion_truth: >-
   scaling preserves the critical height H=1/2||u||_{\dot H^{1/2}}^2, and a DSS
   orbit is periodic in the same critical-height currency. Such a profile may be
   a formal ratio-one scale-covariant bill model, but it does not produce the
-  unbounded critical-height record climb required by c_0. The true c_0 bad
-  object is a same-fluid material history with H(t) growing through infinitely
-  many retained record doublings while every same-packet payment channel remains
-  exactly marginal. The H^s drift-confinement calculation is useful for
-  quarantining the self-similar profile branch and for exposing why the critical
-  H-currency is marginal, but it does not close c_0. Route-b rigidity must be
+  unbounded critical-height record climb required by c_0. The H^s
+  drift-confinement calculation and the head-pressure/Liouville profile line are
+  saved as profile-side mathematics: they explain why the critical H-currency is
+  exactly marginal and why exact self-similar profiles are not the retained
+  c_0 counterobject. The true c_0 bad object is a same-fluid material history
+  with H(t) growing through infinitely many retained record doublings while
+  every same-packet payment channel remains exactly marginal. Therefore the
+  profile work quarantines a wrong counterobject; it does not close c_0.
+  Route-b rigidity must be
   stated on certified material-time marginal recurrence with critical-height
   growth, not as standalone self-similar/DSS profile exclusion. No
   FullTower retention, material-time Liouville theorem, strict c_0, or MPP
@@ -144,6 +149,40 @@ self-similar branch is better attacked in a supercritical \(H^s\) currency. It
 does not give a lower bound for positive \(H\)-record growth in the critical
 currency.
 
+The profile-side exclusion saved from the attachment is:
+
+\[
+\|U\|_{\dot H^{s+1}}^2
++\frac12\left(s-\frac12\right)\|U\|_{\dot H^s}^2
+\lesssim
+|\langle (U\cdot\nabla)U+\nabla P,U\rangle_{\dot H^s}|
+\tag{CHG.9}
+\]
+
+with the transport core cancelling by incompressibility and the pressure term
+handled by the usual Leray-profile pressure geometry. For small
+\(\dot H^s\) data this already gives profile triviality after the standard
+commutator estimate. At arbitrary amplitude the all-profile conclusion belongs
+to the classical exact-self-similar Liouville / head-pressure line: the total
+head pressure
+
+\[
+\Pi=P+\frac12|U|^2
+\tag{CHG.10}
+\]
+
+cannot sustain an interior over-pressure core in the steady self-similar
+profile equation with decaying far field. This saves the physical content of
+the \(H^s\) lift: the lift exposes the confining drift that the critical
+currency hides, and the head-pressure geometry removes the large-amplitude
+exact-profile remainder.
+
+This is now filed only as
+`HsDriftConfinementProfileQuarantine.A` plus
+`HeadPressureProfileLiouvilleQuarantine.A`. These are profile-side quarantine
+rows. They do not identify a critical-height-growing material record ladder
+with a Leray profile.
+
 ## 3. Why profile exclusion does not close \(c_0\)
 
 A self-similar profile has \(H\) constant. The \(c_0\) counterobject has \(H\)
@@ -153,7 +192,7 @@ growing. Therefore the implication
 \text{exclude self-similar/DSS profiles}
 \Longrightarrow
 \text{exclude the }c_0\text{ record ladder}
-\tag{CHG.9}
+\tag{CHG.11}
 \]
 
 is not available without a bridge theorem.
@@ -169,7 +208,7 @@ Thus self-similar/DSS exclusion is quarantined as a route-licensing test:
 
 \[
 \text{DSS can test scale-covariant ratio-one bookkeeping,}
-\tag{CHG.10}
+\tag{CHG.12}
 \]
 
 but it is not the \(c_0\) bad object.
@@ -185,7 +224,7 @@ material-time marginal recurrence for the same Navier-Stokes history:
 \text{the same-packet bill is surplus-zero / ratio-one marginal,}\\
 \text{the certified path remains a same-fluid Navier-Stokes material history.}
 \end{gathered}
-\tag{CHG.11}
+\tag{CHG.13}
 \]
 
 The theorem must exclude that invariant set or route it out through a typed
@@ -198,7 +237,7 @@ Equivalently, the live bad sequence is
 N_L\sim {2^{-L}\over L},
 \qquad
 \sum_L2^LN_L=\infty,
-\tag{CHG.12}
+\tag{CHG.14}
 \]
 
 read as infinitely many critical-height record doublings with no strict
@@ -208,7 +247,7 @@ critical-height growth-rate exclusion:
 \[
 \text{ratio-one marginal payment cannot sustain }H(t)\to\infty
 \text{ along one same-fluid NS history.}
-\tag{CHG.13}
+\tag{CHG.15}
 \]
 
 ## 5. Consequence
@@ -219,7 +258,7 @@ The route correction is:
 \boxed{
 \texttt{SelfSimilarProfileQuarantine.A}
 }
-\tag{CHG.14}
+\tag{CHG.16}
 \]
 
 Exact self-similar and DSS profile work remains useful only as a falsifiability
@@ -228,7 +267,7 @@ return to one of the live same-history objects:
 
 \[
 \texttt{FullTowerSignedTotalExchangeRetention.A}
-\tag{CHG.15}
+\tag{CHG.17}
 \]
 
 or
@@ -240,7 +279,7 @@ or
 +\texttt{ThetaRecordPayerMeasureAdmission.A}
 +\texttt{ZeroLossTowerRelayRigidity.A}
 \end{gathered}
-\tag{CHG.16}
+\tag{CHG.18}
 \]
 
 with `ZeroLossTowerRelayRigidity.A` now typed as critical-height-growing
