@@ -159,6 +159,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-rellich-selector-force-lower-bound-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-hminusone-floor-to-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
@@ -254,6 +255,7 @@ supersedes_as_live_frontier:
   - fixed stopped score, primitive lift, root-weighted square control, or selected-return lower-thickness as c_0 closure without same-edge pre-readout channel admission and linear bill currency
   - moving low-high pump finite work as a lower c_0 source rather than continuation-strength material-clock control
   - terminal tail UI or live-prong delamination wording as closure without same-carrier high-frequency log-endpoint tightness plus positive-part admission
+  - acceleration endpoint impulse as retained bill currency rather than finite fixed-chart storage plus reset/frame route-out
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
@@ -331,6 +333,12 @@ completion_truth: >-
   variation is charged or routed out; nonlinear and defect legs still need
   same-edge admission from kinetic/collar/Reynolds or certificate variation
   into the retained bill. The terminal storage side is
+  The fixed-chart endpoint impulse sublemma sharpens this: same-sign
+  acceleration service is finite endpoint coordinate storage plus negative
+  return variation. Repeated selected service must spend reset/frame variation,
+  legal/stop material, or a typed endpoint route-out before readout; the endpoint
+  coordinate range is not itself \(B\)-currency.
+  The terminal storage side is
   lowered to
   RootFixedTerminalUniformL1FullPacketServiceStorage.A, then by the TFE source
   audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
