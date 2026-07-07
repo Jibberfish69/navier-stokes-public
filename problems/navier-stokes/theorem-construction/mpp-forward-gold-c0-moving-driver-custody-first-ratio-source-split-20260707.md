@@ -301,6 +301,10 @@ needs
 \]
 which is the return-clock / \(WLF.60\) statement that the parent active numerator
 does not disappear along low-\(H_I\), large inverse-clock tubes.
+The active-numerator/WLF route-measure reduction identifies `(MDS.9h)' with
+`SelectedLinearRouteMeasureCarleson.A' / WLF.60 / ODP.91 in local
+Radon-Nikodym return-clock form. It is not an independent source below the
+selected first-ratio bill wall.
 
 ## 4. The sharpened package
 
