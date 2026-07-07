@@ -196,8 +196,8 @@ The honest reduction is
 \begin{aligned}
 &\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
 &+\texttt{RetainedCurvatureSpikeChartPayerAdmission.A}
- +\texttt{TemporalRecordThicknessChargeBillCurrency.A}
- +\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}\\
+&+\texttt{TemporalRecordThicknessChargeBillCurrency.A}\\
+&+\texttt{RetainedRecordEdgeHigherProjectorServiceOrExit.A}\\
 &+\text{pre-entrance original-history }
   \bigl(\texttt{CriticalFreshSourceTentCarleson.A}
   /\texttt{FreshSourceCriticalScaleMemoryBound.A}\bigr)\\
