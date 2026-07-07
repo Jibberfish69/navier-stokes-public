@@ -22,6 +22,7 @@ ontology_lock:
     - pressure-constrained
     - irreversible
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-material-time-liouville-bath-reduction-20260706.md
@@ -48,9 +49,12 @@ completion_truth: >-
   tower, service modulus, zero-surplus payer closure, and terminal-window
   interior shift room. Thus MaterialTimeCertificateFlowInvariance.A is now
   reduced to CertifiedMaterialTimeShiftHullCompactness.A plus
-  ZeroSurplusCertificateClosedGraph.A. ZeroLossTowerRelayRigidity.A remains the
-  self-similar/surplus-zero spectral gap. No FullTower retention, Liouville
-  exclusion, c_0, or MPP closure is claimed.
+  ZeroSurplusCertificateClosedGraph.A. ZeroLossTowerRelayRigidity.A is retyped
+  by the critical-height-growth correction as zero-loss rigidity for certified
+  material-time recurrence with positive critical-height record service; a
+  self-similar/DSS spectral calculation is only a scale-equality model unless it
+  preserves H-record growth. No FullTower retention, Liouville exclusion, c_0,
+  or MPP closure is claimed.
 ---
 
 # Material-time certificate flow invariance reduces to a compact shift hull
@@ -217,7 +221,7 @@ The route-b package becomes:
 \]
 
 The first two lines give the invariant certified marginal class. The third
-line is still the analytic spectral gap/coercivity on that class:
+line is the zero-loss rigidity on that class:
 \[
   \nu\int|\nabla\delta|^2
   \ge
@@ -225,8 +229,13 @@ line is still the analytic spectral gap/coercivity on that class:
   \qquad \varepsilon>0.
 \]
 
+After the critical-height-growth correction, this is not a standalone
+self-similar/DSS profile exclusion. The certified class must still carry
+positive \(H=\frac12\|u\|_{\dot H^{1/2}}^2\) record service in material time;
+exact self-similar scaling has \(H\) constant and a DSS orbit has \(H\)
+periodic.
+
 Thus this note moves the active goal by proving that flow invariance itself is
 not mysterious once the compact certified path exists. The hard Navier-Stokes
 work is now explicitly the compact certified shift-hull/closed-zero-surplus
 construction plus the surplus-zero spectral gap. It is not closed here.
-
