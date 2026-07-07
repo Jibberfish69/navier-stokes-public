@@ -41,6 +41,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-density-rn-split-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -831,3 +832,21 @@ Radon-Nikodym density bounded by \(R_P^+\), and route singular clock mass to
 paid first-entry, terminal no-residue, legal, stop, or CM before the return can
 be counted. The existing entropy/Jacobian chain controls admitted active
 density ratios; it does not alone admit \(w^{-1}d\sigma\) into that density.
+
+The active-weight/root-weight compensator does not close `(UCD.34)'. It pays the
+reciprocal square quantity
+\[
+H_I\|D_I\|^2,
+\qquad
+H_I={|I|^2\over\int_Iw^{-1}d\sigma},
+\tag{UCD.35}
+\]
+and high-\(H_I\) upcrossings. The return-clock obstruction is the low-\(H_I\),
+large inverse-clock side. The smaller producer now exposed is
+\[
+\texttt{ReturnClockActiveNumeratorLowerGate.A},
+\tag{UCD.36}
+\]
+the requirement that the before-clipping parent active numerator dominate the
+linear inverse clock. This is the local return-clock form of the \(WLF.60\)
+same-parent route-measure gate.
