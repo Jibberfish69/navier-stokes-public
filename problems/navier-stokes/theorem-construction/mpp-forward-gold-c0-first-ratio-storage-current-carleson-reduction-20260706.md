@@ -35,7 +35,7 @@ completion_truth: >-
   an exact current-Carleson currency theorem: retained reuse must telescope as
   same-parent Schur current work, while fresh first-entry heat-lag service must
   be controlled by a parent push-variation / native heat-lag Hardy-Carleson
-  measure with bounded overlap before child positive clipping. The existing
+  measure with bounded overlap before child positive-part extraction. The existing
   stopped Hilbert/BMO and accretive-testing surfaces discharge the transform
   side once a routed participation current Carleson estimate is available, but
   they do not supply the missing L^1 first-ratio storage. Weighted Bessel or
@@ -188,7 +188,7 @@ The same-parent detector gives
 \tag{FCC.13}
 \]
 
-Before child positive clipping, split the parent detector into already-charged
+Before child positive-part extraction, split the parent detector into already-charged
 reuse and first-entry fresh parts:
 
 \[
