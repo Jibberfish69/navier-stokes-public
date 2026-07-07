@@ -7,13 +7,18 @@ status: scalar-endpoint-lemma-proved-not-c0-closure
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-backend-discharge-ledger-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
 completion_truth: >-
   This note proves the one-dimensional endpoint inequality for the corrected
   log-scale Hodge-Hardy bridge. It proves only the scalar log-amplitude
   estimate for the operator partial_rho - 2, with a constant independent of
-  chain length. It does not prove the same-field spherical Hodge lower bound,
-  endpoint ownership by the parent collar, channel extraction without service
-  loss, atomization, c_0>0, F1, F4, F5, or MPP closure.
+  chain length. It does not prove endpoint strictness: Hardy is scale-covariant
+  and borderline at the affine endpoint kernel. Quotienting the exact kernel is
+  insufficient against an approach-to-kernel log tower. Endpoint strictness
+  requires a separate causal-lag / commutator-sign rigidity theorem. This note
+  also does not prove the same-field spherical Hodge lower bound, endpoint
+  ownership by the parent collar, channel extraction without service loss,
+  atomization, c_0>0, F1, F4, F5, or MPP closure.
 ---
 
 # Log-scale Hodge-Hardy endpoint lemma
@@ -151,24 +156,27 @@ C_{\rm HH}
 ```
 
 This is exactly the scalar part of (VPL.240). It does not by itself charge the
-endpoint term. It says only that the interior log-chain service can be reduced
-to the non-affine incompressibility defect plus the smooth affine kernel owned
-at the parent endpoint.
+endpoint term or forbid approach to the endpoint kernel. It says only that the
+interior off-kernel log-chain service can be reduced to the non-affine
+incompressibility defect plus whatever theorem owns or signs the smooth affine
+kernel at the parent endpoint.
 
 ## 4. What remains
 
-The scalar estimate closes one ingredient of the corrected bridge. The live
-F2 burdens remain:
+The scalar estimate closes one off-kernel ingredient of the corrected bridge.
+The live F2 burdens remain:
 
 ```math
 \text{extract }a(\rho)A\text{ without service loss}
 +
 \text{prove the same-field spherical Hodge lower bound}
 +
-\text{charge the parent endpoint kernel}
+\text{charge or sign-exclude approach to the parent endpoint kernel}
 +
 \text{run atomization without double-counting.}
 \tag{LHH.12}
 ```
 
-So this is a proved endpoint lemma, not a proof of \(c_0>0\).
+So this is a proved scalar Hardy lemma, not the endpoint rigidity and not a
+proof of \(c_0>0\). The endpoint rigidity is the causal-lag commutator-sign
+target, not a Hardy constant.
