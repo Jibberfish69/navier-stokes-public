@@ -17,7 +17,6 @@ ontology_lock:
     - irreversible
 target_object:
   - CriticalHeightGrowingMarginalRecordLadder.A
-  - MaterialTimeLiouvilleExclusion.A
   - ThetaRecordPayerMeasureAdmission.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
   - WLF.60
@@ -142,7 +141,10 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-nongauge-material-time-profile-liouville-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-dyadic-reduced-identities-insufficiency-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-superheat-no-free-acceleration-direct-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-active-state-root-payment-same-parent-projection-synthesis-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-root-record-reset-single-geometry-synthesis-20260704.md
@@ -214,6 +216,7 @@ supersedes_as_live_frontier:
   - pure local bounded X_comm storage as the signed commutator proof
   - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
+  - MaterialTimeLiouvilleExclusion.A as a sibling c_0 route rather than the global original-history no-free-upward-transfer / weight-beating law after the affine local NS packet no-go
   - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
   - strict alignment deficit or pursuit-lag wording as an independent c_0 closer rather than a sign coordinate that must pay the bill-record epsilon extraction, or its moving-driver first-ratio/no-free-upward-transfer bill currency
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
@@ -409,9 +412,10 @@ reduction is:
 \begin{array}{c}
 \texttt{CriticalHeightGrowingMarginalRecordLadder.A}\\
 \Downarrow\\
-\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
-\quad\text{or}\quad
-\texttt{MaterialTimeLiouvilleExclusion.A}\\
+\texttt{ParentOwnedPositiveRecordBillCurrency.A}
+\quad\text{or compactness+record-passage for }B\to0,\ R=1\\
+\Downarrow\\
+\texttt{RetainedRecordEdgePreReadoutCustodyTuple.A}\\
 \Downarrow\\
 \text{typed route-out, theta-payer admission failure, or compact zero-loss class}\\
 \Downarrow\\
