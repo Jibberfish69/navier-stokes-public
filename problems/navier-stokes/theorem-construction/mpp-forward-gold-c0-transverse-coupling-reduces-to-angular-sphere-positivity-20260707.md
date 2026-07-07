@@ -320,17 +320,19 @@ f_{L,R}(x,\rho)=
 
 direct quadrature of the same quadrupole formula gives positive
 \(\mu_{\rm sv}\) for flattened cores \((L/R<1)\), zero at the round core, and
-negative \(\mu_{\rm sv}\) for long tube-like cores \((L/R>1)\). Adding a
-radially symmetric positive annulus barely changes the quadrupole. Therefore
-the live profile theorem is sharper:
+negative \(\mu_{\rm sv}\) for long tube-like cores \((L/R>1)\). A radial
+positive shell is only a null control, not a physically admitted
+stretched-vortex annulus: by symmetry it has no \(l=2\) moment and cannot carry
+the transverse brake. Therefore the live profile theorem is sharper:
 
 ```math
-\texttt{RetainedStretchedVortexQuadrupoleAspectLockOrCounterprofile.A}.
+\texttt{RetainedStretchedVortexCoreAnnulusQuadrupoleLockOrCounterprofile.A}.
 ```
 
-The retained velocity profile must either force the helpful aspect/annular
-\(l=2\) moment, pay/reroute the collar or pressure bank supplying the adverse
-moment, or admit a prolate counterprofile with \(\mathcal I_{\rm lin}\le0\).
+The retained velocity profile must either force the helpful combined
+core-annulus \(l=2\) moment, pay/reroute the collar or pressure bank supplying
+the adverse moment, or admit a prolate counterprofile with
+\(\mathcal I_{\rm lin}\le0\).
 
 ## 6. Honest status
 
