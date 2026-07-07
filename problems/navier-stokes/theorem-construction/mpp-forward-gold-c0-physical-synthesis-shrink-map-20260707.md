@@ -1406,6 +1406,14 @@ obligation is:
 \tag{CPS.26n2}
 \]
 
+The first line of `(CPS.26n2)' is conditional, but checked one layer lower: the
+stopped selector cone proves primitive alignment once
+\(\texttt{StoppedSelectorConeAperture.A}/\texttt{FreshCommonSelectorRefinementNoLoss.A}\)
+is available. The same-edge angle-lock notes show that this is not a fourth
+physical producer; angle failure is paid rotation, detector-silent service, legal
+or stop material, or it returns to parent-announced selector capture plus the
+same selected-critical scale-memory wall.
+
 or a derivative/turnstile/exchange/covector conversion before scalar positive
 readout, or a typed route-out. This is the same-fluid physical content of the
 affine quotient wall: a positive selected upcrossing can repeat only if the
