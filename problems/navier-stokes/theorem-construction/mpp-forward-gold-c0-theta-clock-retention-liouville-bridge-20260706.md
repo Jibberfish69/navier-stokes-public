@@ -14,6 +14,10 @@ target_object:
   - CertifiedSurplusZeroThetaProfileRigidity.A
   - ThetaRelayDetectorFaithfulnessOrAffineQuotientPayment.A
   - ParentOwnedPositiveRecordBillCurrency.A
+  - SelectedGeneratorStorageCoercivity.A
+  - PositiveCriticalTransferBound.A
+  - StrictOriginalLedgerGeneratorStorage.A
+  - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
@@ -45,6 +49,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -73,7 +78,13 @@ completion_truth: >-
   high-frequency nonlinear pressure-stress transfer. The exact-projector collapse further
   shows that one branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
   PositiveCriticalTransferBound.A, not a local projector theorem. Current
-  sources do not prove that detector/quotient bridge. The shift-hull reduction
+  sources do not prove that detector/quotient bridge. The original-ledger
+  source verdict adds the matching lower obstruction: signed exchange,
+  finite-menu admission, and finite-readout closedness still allow a
+  unit-spectral-radius active-critical/full-exchange storage loop, so
+  StrictOriginalLedgerGeneratorStorage.A is not installed from those surfaces;
+  the smaller producer is RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
+  or an equivalent independent original-history face proof. The shift-hull reduction
   proves the abstract material-time invariance lemma, but it lowers the needed
   certificate-flow row to compact certified material-time shift-hull
   construction plus a closed zero-surplus certificate graph. The zero-surplus
@@ -92,7 +103,8 @@ completion_truth: >-
   localized affine, and temporal-thin positive service are excluded after
   admission, so the remaining retained in-class branch is high-frequency
   nonlinear pressure-stress transfer, lowered to
-  SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A.
+  SelectedGeneratorStorageCoercivity.A / PositiveCriticalTransferBound.A and
+  the original-ledger matrix subcriticality row named above.
   Current sources do not prove the Navier-Stokes admission input or that final
   high-frequency branch. No FullTower retention, material-time Liouville
   theorem, c_0, or MPP closure is claimed.
