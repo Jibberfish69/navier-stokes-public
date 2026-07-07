@@ -256,14 +256,17 @@ irreversible history. That is a global sign/rigidity — NRŠ excludes exact
 self-similar in `L³`; backward-DSS is open — i.e. the **route-b material-time
 Liouville / critical-element exclusion**, *not* a viscous `Re⁻¹` margin.
 
-**Net, honest:** (a) the deficit's **sign** is confirmed one-way toward depletion;
-(b) the lever's **leading order is scale-covariant** in space *and* time, and — the
-correction — **so is viscosity on the self-similar fixed point**, so by this note's
-own filter *nothing local or rate-like signs `c_0`*; (c) the strict piece is a
-**single-state rigidity**: exclude sustained self-similar (`f=0`) alignment. That is
-3D global regularity, open. The target is therefore not "viscosity overtakes the
-turnover uniformly" (that state has constant `Re`) but "the self-similar deficit-zero
-profile is excluded as a real finite-energy history," consistent with
+**Net, honest:** (a) the candidate sign is oriented toward depletion, but the
+sign is **not proved** until it is realized as same-edge bill/storage/admission or
+typed route-out; (b) the lever's **leading order is scale-covariant** in space
+*and* time, and — the correction — **so is viscosity on the self-similar fixed
+point**, so by this note's own filter *nothing local or rate-like signs `c_0`*;
+(c) the strict piece is compactness plus rigidity/admission for a normalized
+deficit-zero bad sequence. The target is therefore not "viscosity overtakes the
+turnover uniformly" (that state has constant `Re`) and not a standalone
+self-similar profile theorem. It is: a real same-fluid retained
+`B\to0,\ R=1` history cannot pass to a zero-deficit critical element without
+same-edge payment or typed exit, consistent with
 `RootFixedTerminalUniformL1FullPacketServiceStorage` read as a *sign* storage. No
-closure. (See the hardened-synthesis note: covariance frees scale-uniformity; the
-wall is the self-similar single-state exclusion.)
+closure. (See the hardened-synthesis note: covariance removes scale-depth loss;
+the wall is compactness plus critical-element rigidity.)
