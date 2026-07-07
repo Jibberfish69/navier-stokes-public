@@ -104,7 +104,7 @@ target_object:
   - OriginalHistoryDetectorSilentStrictHalfBarrier.A
   - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
   - SameEdgePrimitiveSignedScalePotentialLift.A
-  - SameEdgePotentialRecordBoundOrTypedExit.A
+  - SameEdgePotentialRecordRootBound.A
   - SameEdgeNegativeScaleReturnCharge.A
   - SameEdgeEscapingCoreCapacityPacking.A
   - RetainedRecordEdgeCommonSelectorRefinementNoLoss.A
@@ -130,6 +130,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscosity-is-marginal-on-the-counterobject-welds-viscous-lever-to-rigidity-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-participation-hessian-not-pressure-hessian-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
@@ -267,6 +268,7 @@ supersedes_as_live_frontier:
   - first-derivative/Poincare/finite-depth payment as payment for the non-derivative affine quotient without announced derivative, turnstile, exchange, covector, second-order, bill, or route-out representation
   - fixed stopped score, primitive lift, root-weighted square control, or selected-return lower-thickness as c_0 closure without same-edge pre-readout channel admission and linear bill currency
   - moving low-high pump finite work as a lower c_0 source rather than continuation-strength material-clock control
+  - pressure-Hessian wording as a force/curvature source rather than the non-local participation Hessian enforcing incompressibility
   - quantitative local Re^{-1} or viscous per-decade gain as a c_0 closer on the log-self-similar counterobject
   - strict half-barrier wording as an opaque bottom rather than the no-Zeno repeated-core / shrinking-core dichotomy
   - terminal tail UI or live-prong delamination wording as closure without same-carrier high-frequency log-endpoint tightness plus positive-part admission
@@ -1681,6 +1683,14 @@ moving pressure/strain pump is equivalent to controlling the continuation-depth
 material clock, so it is not a smaller noncircular c0 source. The lawful use of
 the pump coordinate is pre-envelope signed channel admission, a direct
 subcritical active/root matrix face from original data, or typed route-out.
+
+The participation-Hessian correction fixes the ontology of the nonlocal term in
+that pump. The Hessian in the strain equation is not a pressure-force curvature;
+it is the second-order cost of keeping an accelerating concentration a coherent
+participant in the one incompressible field. This names the right object for
+Gate-2 admission, but it does not supply a new rate: circulation is
+scale-invariant and participation multiplicity grows downscale. The strict
+content remains same-edge bill/exit rigidity for that participation Hessian.
 
 The strict half-barrier direct audit lowers that pump obstruction by the proof
 method that fits its arithmetic: a minimal bad chain / descent split. After
