@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-moving-driver-custody-first-ratio-source-split-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md  # Sections 213-215 / TFE.2471-TFE.2504
   - problems/navier-stokes/source-frontier.yaml
@@ -40,7 +41,9 @@ completion_truth: >-
   parent thickness/entropy is FullExchangeCriticalDepletionStorage.A plus
   BeforeClippingActiveDensityComparison.A. The new first failed line is the
   return-fibre admission/projection clause from retained selected returns to
-  the before-clipping parent active measure, with full-exchange and active
+  the before-clipping parent active measure. The follow-up fibre split sharpens
+  the first failed line inside that clause to
+  ReturnIntervalActiveFibreJacobianDomination.A, with full-exchange and active
   density still unproved source theorems.
 ---
 
@@ -259,6 +262,7 @@ Installed here:
 Still open:
 \[
 \begin{gathered}
+\texttt{ReturnIntervalActiveFibreJacobianDomination.A},\\
 \texttt{ReturnFibreBeforeClippingActiveDensityProjection.A},\\
 \texttt{BeforeClippingActiveDensityComparison.A},\\
 \texttt{FullExchangeCriticalDepletionStorage.A}
@@ -272,3 +276,15 @@ first-ratio gap to one same-edge return-fibre admission clause plus the
 already isolated full-exchange/active-density source package. It does not
 prove \(\varepsilon_*>0\), because the PDE construction of those clauses is
 still missing.
+
+The internal split is recorded in
+[mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md):
+same-edge custody, finite menu, stopped-line ancestry, and no-detachment supply
+the physical container for the return fibre, but the nonduplicate quantitative
+clause is
+\[
+\texttt{ReturnIntervalActiveFibreJacobianDomination.A}.
+\tag{IWP.20}
+\]
+It says the inverse-weight return clock \(w^{-1}d\sigma\) is dominated by the
+before-clipping active density \(R_P^+d\mathfrak m_P\) on the same fibre.
