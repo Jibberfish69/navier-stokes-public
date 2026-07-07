@@ -1536,3 +1536,111 @@ prove the Korn-Hodge-Poincare constant and the collar-flux sign are uniform for
 the admissible family of strict participation atoms. If the participation atoms
 have fixed normalized geometry and the collar flux is parent-owned, then
 (VPL.117) is a legitimate same-field viscous participation estimate.
+
+## 16. How the legitimate bill closes \(c_0\)
+
+The definition of \(c_0\) is the infimum of payment per unit self-stretching
+service over lawful participation towers. Write, on each lawful packet/rung
+atom \(a\),
+
+```math
+\mathsf S(a)=\mathcal S_{\rm Vieillefosse}(a),
+\tag{VPL.118}
+```
+
+and let \(\mathsf P(a)\) be the actual same-field pressure-viscous
+participation payment allowed by the strict law. The previous section proves
+that the gluing/cancellation bill is not invented:
+
+```math
+\mathsf P(a)
+\ge
+\|\Pi_4 f[u_a]\|_{\rm press}
++\inf_{b\in\mathfrak A}\mathcal V_{\rm rel}(u_a,b).
+\tag{VPL.119}
+```
+
+The no-free-collar theorem is the uniform packet inequality
+
+```math
+\|\Pi_4 f[u_a]\|_{\rm press}
++\inf_{b\in\mathfrak A}\mathcal V_{\rm rel}(u_a,b)
+\ge
+c\,\mathsf S(a),
+\qquad
+c>0,
+\tag{VPL.120}
+```
+
+with the same \(c\) for every scale, orientation, collar shape, and lawful
+tower atom.
+
+Combining (VPL.119) and (VPL.120),
+
+```math
+\mathsf P(a)\ge c\,\mathsf S(a)
+\tag{VPL.121}
+```
+
+on every active atom. Summing/integrating over the whole lawful tower
+\(\mathcal T\) gives
+
+```math
+\mathsf P(\mathcal T)
+=
+\int_{\mathcal T}\mathsf P(a)
+\ge
+c\int_{\mathcal T}\mathsf S(a)
+=
+c\,\mathsf S(\mathcal T).
+\tag{VPL.122}
+```
+
+Normalize the counterobject service:
+
+```math
+\mathsf S(\mathcal T)=1.
+\tag{VPL.123}
+```
+
+Then
+
+```math
+\mathsf P(\mathcal T)\ge c.
+\tag{VPL.124}
+```
+
+Thus a \(c_0=0\) minimizing sequence cannot exist. If a sequence tried
+
+```math
+\mathsf S(\mathcal T_n)=1,
+\qquad
+\mathsf P(\mathcal T_n)\to0,
+\tag{VPL.125}
+```
+
+then (VPL.122) would give
+
+```math
+0\leftarrow\mathsf P(\mathcal T_n)\ge c,
+\tag{VPL.126}
+```
+
+which is impossible. Therefore
+
+```math
+c_0
+=
+\inf_{\mathcal T}
+\frac{\mathsf P(\mathcal T)}{\mathsf S(\mathcal T)}
+\ge
+c
+>0.
+\tag{VPL.127}
+```
+
+So the logic is exact: legitimate gluing bill plus uniform no-free-collar
+inequality implies \(c_0>0\). The current work has reduced the problem to
+proving the uniform packet inequality (VPL.120) over the strict participation
+atom class. Without that uniform theorem, the note is still a strict reduction,
+not a claimed proof of \(c_0>0\).
