@@ -3409,6 +3409,14 @@ handoff. The remaining open subcase is sourced angular mixing: a zero-lag
 interior retained measure must expose nonzero source/selector/collar defect in
 the same participation currency.
 
+The later causal-lag note sharpens the sourced line. The boundary moment part is
+not another angular sign theorem: after a retained angular chart is admitted, its
+endpoint change is controlled by same-chart selector/order-lock variation. The
+unpaid producer is bill currency, namely proving that this raw angular variation
+is admitted as \(\mathsf P_{\rm mix}\) before readout. The remaining pair is
+\(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate service
+domination at the transverse-degenerate endpoint.
+
 ## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
