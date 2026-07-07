@@ -75,22 +75,49 @@ VPL.144; it does not prove it.
 under the bill's convergence; it can concentrate. `S(b_∞)` may be `0`, giving `λ=0` with no
 contradiction.
 
-## 3. The escape that survives §17
+## 3. The candidate escape — and the correction that kills its axisymmetric realization
 
 Critical scaling `u = a r⁻¹ U(·/r)`, strain amplitude `σ ~ a r⁻²`:
 
 ```
 service   𝒮 ~ σ³ r³ = a³ r⁻³   ── normalize to 1 ⟹ a = r
 viscous   𝒢 ~ σ² r³ = a² r⁻¹ = r → 0     (as r → 0)
-pressure  ‖Π₄f‖ ≈ 0            (put the bubble on the verified P4-free branch)
 ```
 
-A shrinking, nearly-axisymmetric Vieillefosse bubble at scale `r → 0` inside the fixed
-packet, on the P4-free branch, attaching to the background across the log-gap `[r,1]` (gentle
-taper): unit scalar service, every bill term `→ 0`. The `l=4` channel is small because the
-bubble is nearly axisymmetric, while the *scalar* production (`l=0`) carries the service —
-different contractions. The fixed reference packet (VPL.88) does not stop this: the sub-bubble
-is a lawful finer-scale atom. **Concentration is the log-endpoint tower in atom form.**
+The viscous (Korn) part vanishes on the concentrating bubble. The remaining bill term is the
+pressure channel `‖Π₄f‖`. My first draft put the bubble on the verified P4-free branch to make
+`‖Π₄f‖ ≈ 0` too, and claimed it attaches across the log-gap `[r,1]`. **That realization is
+wrong in the axisymmetric class**, corrected by the turn-off computation (owner, 2026-07-07):
+
+- The P4-free + div-free flow leaving the core (`ρ ~ C r²`) flows to the **attracting** fixed
+  point `ρ* = (−2+√10)/3 ≈ 0.387`, where `τ = dlnA/dlnr → ρ*(3ρ*−5)/(2ρ*+1) ≈ −0.84`. So on
+  the P4-free locus `A ~ r^{−0.84}` and `u ~ A·r ~ r^{+0.16}` — the field **grows**. Finite
+  energy needs the velocity exponent `< −3/2`. Hence **no finite-energy (decaying/compact)
+  P4-free axisymmetric collar exists**: staying P4-free precludes attachment. A "gentle taper
+  over `[r,1]`" is a departure *from* the P4-free branch, not a stay on it, so it does emit P4.
+
+So the P4-free bubble does not attach, and the axisymmetric no-free-collar conclusion (§10/§11)
+is rehabilitated **via a decay-rate obstruction**, not §10's refuted core-uniqueness argument.
+
+## 3′. What actually remains of the escape
+
+The homogeneity facts (viscous `𝒢 → 0`, `a=r`) and the two reasons in §2 stand; only the
+*P4-free realization* is dead. The live escape is now one of two, both open:
+
+1. **Spreading turn-off (log-endpoint, axisymmetric).** Leave the P4-free branch *slowly* over
+   the octaves `[r,1]`. Per-octave P4 emission is small; the question is whether the integrated
+   emission is an **onsite mass** (uniform, `‖Π₄f‖ ≳ c𝒮`, escape dead, in-class `c₀>0`) or a
+   **log-derivative** (spreadable to `0`, escape lives). The decay-rate obstruction shows the
+   emission is *nonzero* per finite turn-off; it does **not** yet show the infimum over
+   spreading turn-offs is positive. This is the same onsite-vs-derivative mass-gap as §4/§12.3.
+2. **Non-axisymmetric hiding.** The decay-rate obstruction is derived from the axisymmetric
+   `l=2` ODE. In 3D the collar has all `m`-modes, so the P4-free locus is higher-dimensional
+   and may contain a **decaying** (finite-energy) turn-off. Whether "P4-free ⟹ grows" survives
+   to 3D is not established (§12.1 is asserted, not proved).
+
+Concentration is still the log-endpoint tower in atom form; the fixed reference packet (VPL.88)
+does not forbid a finer sub-bubble. What the correction removes is only the *cheapest* claimed
+realization of it.
 
 ## 4. Why no patch: the critical/supercritical either-or
 
