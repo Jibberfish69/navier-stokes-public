@@ -1331,6 +1331,13 @@ Gold price already appearing above as selected-generator storage, positive
 critical transfer, native-birth packing, and full-exchange admission. The
 defect here is channel-first positivity before the full same-packet
 pressure/viscosity/transport/incompressibility partner is retained and paid.
+The detector-silent coordinate has collapsed to the first-ratio strict
+half-barrier in invisible-service variables, but the exact-projector chart row
+has not disappeared into that collapse. Local parametrix, ellipticity, and
+frozen angles are support; the live chart row is same-edge chart-payer temporal
+admission plus higher-projector service or route-out before readout, and it
+rejoins selected-critical original-history payment only after same-edge custody
+is enforced.
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity
 and parent/full-exchange address lower semicontinuous through the limit.
