@@ -129,9 +129,14 @@ c_F^{fresh}(t)=a(t)g\int_I\theta_I(\sigma)\,d\sigma
 \tag{AQ1.8}
 \]
 
-or, for the first affine moment, the same test uses
-\(Z^{fresh}=a(t)(\sigma-\sigma_I)g\) and the appropriate affine moment of
-\(\theta_I\).
+If the chosen affine quotient weight kills constants, replace this concrete
+constant test by any normalized vector in the finite-dimensional quotient left
+after the derivative-exact projection. That quotient is the object isolated in
+the DER/AQK split: it is exactly the part not represented as an announced
+first-derivative average. The no-go is not the false claim that a linear
+scale-function has zero derivative; it is the statement that the surviving
+quotient mode is outside the first-derivative payment range until a parent
+record/return, boundary, higher-exactness, or route-out mechanism is supplied.
 
 Therefore any estimate of the form
 
