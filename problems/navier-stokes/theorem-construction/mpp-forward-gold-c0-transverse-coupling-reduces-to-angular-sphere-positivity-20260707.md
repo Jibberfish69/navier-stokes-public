@@ -21,6 +21,9 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   derivative: a same-fluid divergence-free bank can supply arbitrary trace-free
   Hessian while vanishing to first order at the selected station. Such a bank is
   physically real but not free; it must be retained and billed or route out.
+  Claude's stretched-vortex narrowing is accepted only as a physically real
+  profile branch: it constrains \(L^P\) after a retained-profile reduction is
+  proved, but it does not replace the full retained minimax by itself.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -33,6 +36,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-rsf4-angle-pincer-coherence-backscatter-dichotomy-20260704.md
 completion_truth: >-
   PHYSICS FIRST. In one incompressible fluid the only thing that can brake the Vieillefosse
   self-stretch is the TRANSVERSE (eigenframe-rotating) part of the non-local pressure Hessian;
@@ -75,7 +80,12 @@ completion_truth: >-
   custody plus selected first-ratio bill currency and detector/channel custody
   joined to the retained linearized \((S,\omega)\) strict-attractor sign. That
   sign is a uniform pressure-response stability-index statement over physically
-  admitted same-fluid embeddings, or a typed route-out.
+  admitted same-fluid embeddings, or a typed route-out. Claude's cycle-4
+  stretched-vortex narrowing is physically admissible and matches the older
+  strict-tilting wall, but it is a branch theorem rather than a closure: one must
+  prove that every retained marginal tower reduces to a stretched-vortex profile,
+  is paid/summable, or routes out, and then prove strict positivity of
+  \(\mathcal I_{\rm lin}\) on that profile class.
 ---
 
 # Corrected transverse-coupling reduction
