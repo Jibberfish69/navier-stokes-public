@@ -32,6 +32,10 @@ target_object:
   - RootFixedTerminalUniformL1FullPacketServiceStorage.A
   - ParentActiveTowerTailAndAffineQuotientDepletion.A
   - ParentActiveCapacityThreeToothSource.A
+  - CurrentRecordSquarePacking.A
+  - EndpointThreadedNativeNoResidue.A
+  - PersistentRootAffineQuotientReturnPayment.A
+  - SelectedGeneratorStorageCoercivity.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
@@ -47,6 +51,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-active-source-to-two-record-root-geometry-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-bounded-below-same-material-service-storage-target-20260628.md
 supersedes_as_live_frontier:
@@ -58,6 +63,7 @@ supersedes_as_live_frontier:
   - root-fixed terminal-uniform service storage as final bottom after the parent-active source descent
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
   - affine martingale or storage labels as sibling producers after TFE2748B
+  - parent-active three-tooth source as final bottom after TFE1542-TFE2181
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -74,13 +80,16 @@ completion_truth: >-
   readout, further reduced to TerminalFullPacketNoResiduePayment.A or the
   terminal same-carrier critical anti-atom for the full selected packet
   D_Q=(S, Pi_Q grad^2 p), and then lowered to
-  RootFixedTerminalUniformL1FullPacketServiceStorage.A, and then by the TFE
-  source audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
-  ParentActiveCapacityThreeToothSource.A. The remaining nonduplicate producer
-  is a parent-known active source package built before child positive clipping
-  from the original coupled Navier-Stokes packet. No such source package,
-  FullTower retention, material-time Liouville theorem, WLF.60, c_0, or MPP
-  closure is proved here.
+  RootFixedTerminalUniformL1FullPacketServiceStorage.A, then by the TFE source
+  audit to ParentActiveTowerTailAndAffineQuotientDepletion.A /
+  ParentActiveCapacityThreeToothSource.A, and then by TFE1542-TFE2181 to two
+  source records plus the persistent affine/root quotient storage wall:
+  CurrentRecordSquarePacking.A, EndpointThreadedNativeNoResidue.A, and
+  PersistentRootAffineQuotientReturnPayment.A /
+  SelectedGeneratorStorageCoercivity.A, with terminal no-residue and
+  no-fourth-location exhaustion in the same parent metric. No such source
+  package, root-geometry storage/coercivity law, FullTower retention,
+  material-time Liouville theorem, WLF.60, c_0, or MPP closure is proved here.
 ---
 
 # c0 physical synthesis shrink map
@@ -165,12 +174,35 @@ The source audit lowers root-fixed terminal service one more step:
 \tag{CPS.3c}
 \]
 
+The later TFE audit lowers the parent-active source one more layer:
+
+\[
+\begin{gathered}
+\texttt{ParentActiveCapacityThreeToothSource.A}\\
+\leadsto
+\texttt{CurrentRecordSquarePacking.A}
++
+\texttt{EndpointThreadedNativeNoResidue.A}\\
++
+\texttt{PersistentRootAffineQuotientReturnPayment.A}
+/
+\texttt{SelectedGeneratorStorageCoercivity.A}
+\end{gathered}
+\tag{CPS.3d}
+\]
+
+with terminal no-residue and no-fourth-location exhaustion attached in the same
+parent metric.
+
 Thus the live c0 wall is not broad mismatch evacuation, profile Liouville, raw
 freshness, or an abstract storage label. It is payment of the terminal visible
 readout on the actual order-locked full selected packet, same-carrier tail
 uniform integrability before the terminal atom forms, or the parent-active
 source package whose endpoint face is root-fixed terminal-uniform service
-storage.
+  storage.  The lower source audit then splits that package into a current
+  square-packing record, an endpoint/native no-residue record, and the
+  original root-generator storage/coercivity wall for the persistent
+  affine/root quotient.
 
 ## 3. What is demoted
 
@@ -269,7 +301,7 @@ This gives absolute continuity of the endpoint trace and kills the terminal
 same-carrier critical atom.
 
 The TFE source audit makes `(CPS.8)'--`(CPS.9)' a consumer of the parent-known
-active source theorem.  The current lower producer is to construct, before
+active source theorem.  The first lowered producer is to construct, before
 child positive clipping,
 
 \[
@@ -298,11 +330,39 @@ quotient depletion from original data:
 \tag{CPS.12}
 \]
 
+The later source audit pushes `(CPS.10)'--`(CPS.12)' below the three-tooth
+container. The live lower source record package is:
+
+\[
+\begin{gathered}
+\texttt{CurrentRecordSquarePacking.A}
++
+\texttt{EndpointThreadedNativeNoResidue.A}\\
++
+\texttt{PersistentRootAffineQuotientReturnPayment.A}
+/
+\texttt{SelectedGeneratorStorageCoercivity.A}\\
++
+\text{terminal no-residue in the same parent metric}
++
+\text{no-fourth-location exhaustion.}
+\end{gathered}
+\tag{CPS.13}
+\]
+
+`CurrentRecordSquarePacking.A' is the stopped same-material participation
+current record. `EndpointThreadedNativeNoResidue.A' is the first-birth
+endpoint/native record plus time-thickness. The persistent affine/root quotient
+branch is lower still: it needs original root-generator storage/coercivity for
+the same coupled packet before child positive clipping, while dyadic,
+stopped-edge, martingale, reset, and return formulas are consumers of the
+continuous parent-root measure.
+
 ## 5. Shrink rule
 
-Future c0 work should attach to this file unless it proves `(CPS.10)'--`(CPS.12)'
-from the original coupled packet, proves a strictly smaller noncircular supplier
-for one of those clauses, proves same-carrier overrun tail UI before
-terminalization, proves theta-payer/pre-readout admission, or gives a typed
-route-out in the CM grammar. New labels that do not do one of those jobs are
-coordinates of this wall, not sibling frontiers.
+Future c0 work should attach to this file unless it proves `(CPS.13)' from the
+original coupled packet, proves a strictly smaller noncircular supplier for one
+of those clauses, proves same-carrier overrun tail UI before terminalization,
+proves theta-payer/pre-readout admission, or gives a typed route-out in the CM
+grammar. New labels that do not do one of those jobs are coordinates of this
+wall, not sibling frontiers.
