@@ -57,9 +57,13 @@ completion_truth: >-
   ownership to same-edge selector/order-lock variation in the existing c_0 bill
   currency: the endpoint moment variation is formal once the retained chart is
   fixed, while the nontrivial line is admitting that variation as
-  \(\mathsf P_{\rm mix}\) before readout. The remaining sign work is therefore
-  \(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate-service
-  domination.
+  \(\mathsf P_{\rm mix}\) before readout. Section 16 reduces the
+  nondegenerate-service line to the same detector/channel custody condition: on
+  the admitted plane-to-compressive channel it is just the angular factor
+  \(z(1-z)\); endpoint service is a detector/channel rotation, silence, channel
+  transfer, pass/collar, or exit branch. The remaining sign work is therefore
+  \(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel
+  custody/bill-currency for the selected transverse service.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1156,3 +1160,69 @@ Thus boundary moment ownership has been reduced, not proved. If
 admission fails, the surviving obstruction is not an angular CZ sign failure; it
 is an unpaid retained angular boundary handoff, equivalently a selector-variation
 currency mismatch before readout.
+
+## 16. Nondegenerate service reduces to detector/channel custody
+
+The second remaining line (CLS.54) is also not a new pressure-operator sign
+claim. It asks whether positive retained service can live on the angular endpoint
+sets where the selected transverse channel vanishes.
+
+For the Vieillefosse plane-to-compressive channel, the active off-diagonal
+pressure response is carried by
+
+```math
+\sum_{i=1}^2 |n_i n_3|^2
+=
+z(1-z).
+\tag{CLS.75}
+```
+
+Thus on the admitted detector/channel, before the oriented sign factor
+\((2z-1)\) is read, the unsigned transverse-channel service satisfies the formal
+geometric bound
+
+```math
+d\mathsf S_{\rm pc}
+\le
+C\,z(1-z)\,d\mu_{\rm ret}.
+\tag{CLS.76}
+```
+
+At \(z=0\), \(n_3=0\); at \(z=1\), \(n_i=0\) for \(i=1,2\). So an endpoint atom
+has no plane-to-compressive transverse detector signal. If it still claims
+positive retained service, then it is no longer service in the same selected
+detector/channel. It is one of the already typed alternatives:
+
+```math
+\begin{array}{ll}
+\text{detector-silent or near-silent residue} &\to \text{paid material service},\\
+\text{different transverse channel} &\to \text{detector/channel rotation or transfer},\\
+\text{loss of retained participation} &\to \text{pass/zero-record},\\
+\text{handoff through the boundary} &\to \text{collar, legal, stop, or exit}.
+\end{array}
+\tag{CLS.77}
+```
+
+The primitive channel sources give exactly this routing. A primitive stopped
+event has one detector/channel before readout, or its detector-silent,
+near-silent, selector-channel-rotation, or readout-change portion is paid by
+same-packet service, legal, stop, or exit. In this note's variables:
+
+```math
+\begin{aligned}
+&\texttt{PrimitiveStoppedChamberDetectorChannelLiftOrPaidService.A}\\
+&+\texttt{RetainedRecordEdgePreReadoutCustodyTuple.A}\\
+&\Longrightarrow
+\text{strict-atom nondegenerate service domination (CLS.54).}
+\end{aligned}
+\tag{CLS.78}
+```
+
+So (CLS.54) has been reduced to detector/channel custody and bill currency. If
+the strict atom is already admitted in the selected plane-to-compressive
+detector/channel, endpoint service is zero by (CLS.75). If service survives at
+the endpoint, the object has changed detector/channel or left the retained
+active channel, and the cost belongs to paid service, pass/collar, or exit. The
+unproved part is the same-edge admission theorem that prevents an arbitrary
+future-positive record from choosing or changing that detector/channel after the
+positive readout has selected it.
