@@ -44,8 +44,11 @@ completion_truth: >-
   the first pressure test on that cancellation: the angular zero cone
   \(2n_3^2=1\) is not invariant under the affine Vieillefosse angular flow, so a
   zero-lag retained history must either pay angular redistribution/source/selector
-  flux, collapse to degenerate pass directions, or use a collar/exit branch. This
-  is a constructive target and a strict reduction, not a proof of c_0>0.
+  flux, collapse to degenerate pass directions, or use a collar/exit branch.
+  Section 12 proves the source-free subcase of that statement: with no angular
+  source defect, a positive zero-lag transported measure must be supported on
+  \(z=0\cup z=1\), where the plane-to-compressive transverse channel vanishes.
+  This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
@@ -792,3 +795,86 @@ lawful retained positive-record angular measure that keeps (CLS.47) balanced
 with \(\nu_t=0\) and without collapsing to the degenerate endpoint channels.
 No such falsifier is excluded here; this section only identifies the exact
 angular transport obstruction that route-b must prove.
+
+## 12. Source-free zero-lag subcase
+
+The transport balance in (CLS.47) has one closed subcase. Assume the retained
+angular measure is a positive measure transported by the affine angular flow with
+no redistribution/source defect:
+
+```math
+\nu_t=0.
+\tag{CLS.50}
+```
+
+If the signed lag remains zero over a time interval,
+
+```math
+\int (2z-1)\,d\mu_t=0
+\quad\text{for all }t\in I,
+\tag{CLS.51}
+```
+
+then differentiating by (CLS.47) gives
+
+```math
+0
+=
+\int \pm 12a\,z(1-z)\,d\mu_t.
+\tag{CLS.52}
+```
+
+Since \(a>0\), \(\mu_t\ge0\), and \(z(1-z)\ge0\), this forces
+
+```math
+z(1-z)=0
+\quad \mu_t\text{-a.e.}
+\tag{CLS.53}
+```
+
+Thus a source-free zero-lag retained angular measure is supported only on
+
+```math
+z=0
+\quad\text{or}\quad
+z=1.
+\tag{CLS.54}
+```
+
+Both endpoint sets are degenerate for the active transverse Vieillefosse
+channel. In (CLS.31),
+
+```math
+n_i n_3(2n_3^2-1)=0
+\qquad (z=0\text{ or }z=1).
+\tag{CLS.55}
+```
+
+At \(z=0\), \(n_3=0\). At \(z=1\), \(n_i=0\) for \(i=1,2\). The
+plane-to-compressive transverse response vanishes in either case. On the
+axisymmetric Vieillefosse sheet the remaining plane-plane channel is degenerate
+because the two planar strain eigenvalues coincide.
+
+Therefore the source-free zero-lag branch is not an interior retained transverse
+counterobject. It is a pass/zero-record endpoint unless another active channel,
+collar, parent, or exit mechanism carries the retained handoff.
+
+The reduced open theorem is now narrower than (CLS.48). It is the sourced
+angular-mixing bill:
+
+```math
+\mathcal L_{\rm ret}=0,\quad
+\mu_t\bigl(0<z<1\bigr)>0
+\Longrightarrow
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+>0.
+\tag{CLS.56}
+```
+
+Equivalently, any zero-lag strict atom with positive interior angular
+participation must expose a nonzero angular source/selector/collar defect in the
+same pressure-participation currency. This is the remaining route-b Liouville
+rigidity burden.
