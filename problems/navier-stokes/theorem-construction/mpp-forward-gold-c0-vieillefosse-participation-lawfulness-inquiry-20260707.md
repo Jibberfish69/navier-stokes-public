@@ -1384,3 +1384,155 @@ pressure effect is the \(l=4\) channel. The exact remaining formal burden is to
 show that (VPL.91) is a legitimate participation-law bill: every non-affine
 mode used to attach, hide, or cancel the Vieillefosse core is charged by the
 same-field viscous participation cost already allowed in \(c_0\).
+
+## 15. Legitimacy of the gluing distance as viscous participation bill
+
+The gluing distance is legitimate only if it is dominated by the same localized
+viscous participation form already present in the Navier-Stokes packet. This is
+proved relative to the affine Vieillefosse nullspace.
+
+Fix one lawful participation atom on a normalized reference packet \(P\), with
+collar \(C\subset P\). For each affine Vieillefosse jet \(a\in\mathfrak A\),
+write
+
+```math
+w=u-a,
+\qquad
+Z=\nabla w=\nabla u-\nabla a,
+\qquad
+E=S(u)-S(a)=\operatorname{sym}Z.
+\tag{VPL.108}
+```
+
+Since \(a\) is affine,
+
+```math
+\Delta a=0,
+\qquad
+\nabla S(a)=0.
+\tag{VPL.109}
+```
+
+So viscosity sees only the non-affine remainder \(w\). The relative localized
+viscous strain form is
+
+```math
+\mathcal V_{\rm rel}(u,a)
+:=
+\nu
+\left[
+\int_P \phi\,|\nabla E|^2
++\int_C |E|^2
+\right],
+\tag{VPL.110}
+```
+
+where \(\phi\) is the same participation weight on the packet and the collar
+term is the participation-boundary flux written as a positive trace/collar
+quantity on the normalized atom. In physical terms, (VPL.110) is the viscous
+cost of changing the strain away from one affine self-stretcher while attaching
+the selected packet to its parent field.
+
+This is not an added detector. It comes from the localized strain equation:
+
+```math
+\nu\int_P \phi|\nabla E|^2
+=
+-\nu\int_P \phi\,(\Delta S(u)):E
+-\nu\int_P \nabla\phi\cdot\nabla E:E .
+\tag{VPL.111}
+```
+
+The first term is the bulk viscous strain work. The second term is exactly the
+participation-boundary flux. Strict participation law cannot discard that flux,
+because it is where the selected packet is attached to the parent field. Moving
+the flux into the collar term gives (VPL.110).
+
+Now apply Korn-Hodge-Poincare on the fixed packet, modulo the affine nullspace
+\(\mathfrak A\). Since \(u\) is incompressible, and translations, rigid
+rotations, and affine Vieillefosse cores have been quotiented out,
+
+```math
+\inf_{a\in\mathfrak A}
+\left[
+\|Z\|_{L^2(C)}^2
++\|\nabla_\omega Z\|_{L^2(P)}^2
++\|\partial_r Z\|_{H^{-1}(P)}^2
+\right]
+\le
+C
+\inf_{a\in\mathfrak A}
+\left[
+\int_P\phi|\nabla E|^2
++\int_C |E|^2
+\right].
+\tag{VPL.112}
+```
+
+The left side is \(\mathcal G(u)\). Therefore
+
+```math
+\mathcal G(u)
+\le
+C\nu^{-1}
+\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a).
+\tag{VPL.113}
+```
+
+This proves that \(\mathcal G\) is a legitimate viscous participation bill,
+provided the strict participation bill includes the packet's relative viscous
+strain form and its collar flux.
+
+The hide/cancel modes are charged because they are exactly modes of \(w\)
+outside the affine nullspace. A rigid translation or rigid rotation cannot
+produce an \(l=4\) pressure source. A pure affine Vieillefosse jet produces the
+frictionless core but no finite-energy attachment. Any mode that attaches the
+packet, spreads the four-lobed stress, or creates an opposite \(l=4\) source
+has
+
+```math
+Z\notin T\mathfrak A,
+\tag{VPL.114}
+```
+
+and hence has positive Korn-Hodge distance. By (VPL.113), that distance is paid
+by \(\mathcal V_{\rm rel}\).
+
+Equivalently, if a sequence tries to make a non-affine attach/hide/cancel mode
+free, then
+
+```math
+\mathcal V_{\rm rel}(u_n,a_n)\to0
+\tag{VPL.115}
+```
+
+forces
+
+```math
+\mathcal G(u_n)\to0,
+\qquad
+\nabla u_n-\nabla a_n\to0
+\quad\text{in the packet/collar topology.}
+\tag{VPL.116}
+```
+
+Thus the alleged cancelling mode disappears. What remains is the affine
+Vieillefosse core, which cannot be a finite-energy same-field participant with
+zero collar cost. This is the desired legitimacy statement.
+
+With (VPL.113), the all-tower no-free-collar inequality can be written without
+invented bill currency:
+
+```math
+\|\Pi_4 f[u]\|_{\rm press}
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a)
+\ge
+c\,\mathcal S_{\rm Vieillefosse}(u).
+\tag{VPL.117}
+```
+
+The remaining proof task is now narrowed to a standard uniformity problem:
+prove the Korn-Hodge-Poincare constant and the collar-flux sign are uniform for
+the admissible family of strict participation atoms. If the participation atoms
+have fixed normalized geometry and the collar flux is parent-owned, then
+(VPL.117) is a legitimate same-field viscous participation estimate.
