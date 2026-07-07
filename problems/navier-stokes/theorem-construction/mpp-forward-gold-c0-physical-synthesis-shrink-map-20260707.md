@@ -111,6 +111,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
@@ -239,6 +240,7 @@ supersedes_as_live_frontier:
   - retained exact-projector C11 chart/tower-or-exit as an opaque bottom source rather than the low-pass spatial Bernstein / chart-payer temporal admission / higher-projector service split
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
   - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
+  - uniform cascade-depth or L2-to-L3 spatial no-critical-concentration as c_0 proof unless upgraded to same-edge bill-currency termination before readout
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
@@ -1602,11 +1604,12 @@ proves theta-payer/pre-readout admission with the signed carrier retained, or
 gives a typed route-out in the CM grammar.
 New labels that do not do one of those jobs are coordinates of this wall, not
 sibling frontiers.
-Finite-depth bath, analyticity-radius, Reynolds-edge, or irreversibility
+Uniform cascade-depth, \(L^2\to L^3\) no-critical-concentration,
+finite-depth bath, analyticity-radius, Reynolds-edge, or irreversibility
 language is support unless it proves the same WLF/ODP parent-weighted
-same-carrier payment, proves an equivalent direct original-data subcritical
-active/root face, or routes the surviving high-Re branch out before selected
-readout.
+same-carrier payment, proves same-edge bill-currency termination before readout,
+proves an equivalent direct original-data subcritical active/root face, or
+routes the surviving high-Re branch out before selected readout.
 Likewise, martingale/Bessel, reset-derivative, potential-average, record/return,
 or stopped-testing language is support unless it pays the non-derivative affine
 quotient `(CPS.26n1)' by constructing the original-history selected
