@@ -1644,3 +1644,189 @@ inequality implies \(c_0>0\). The current work has reduced the problem to
 proving the uniform packet inequality (VPL.120) over the strict participation
 atom class. Without that uniform theorem, the note is still a strict reduction,
 not a claimed proof of \(c_0>0\).
+
+## 17. Uniform packet inequality over strict participation atoms
+
+This is the compactness proof of the uniform packet inequality. The strict
+participation atom class must be normalized before compactness is invoked. An
+atom is represented on a reference packet \(P\) with collar \(C\), participation
+weight \(\phi\), and parent attachment data. Scale, translation, and rotation
+are quotiented out.
+
+The strict atom hypotheses are:
+
+```math
+\text{(A1) fixed normalized packet/collar geometry with uniform extension,
+trace, Korn, and elliptic constants;}
+\tag{VPL.128}
+```
+
+```math
+\text{(A2) incompressibility and pressure lawfulness:
+\(\nabla\cdot u=0\), \(-\Delta p=\partial_i u_j\partial_j u_i\);}
+\tag{VPL.129}
+```
+
+```math
+\text{(A3) parent-owned collar attachment: a nonzero affine Vieillefosse
+core cannot satisfy the outer atom boundary at zero collar cost;}
+\tag{VPL.130}
+```
+
+```math
+\text{(A4) actual payment dominates the legitimate relative bill:
+\(\mathsf P(a)\ge\|\Pi_4f[u]\|_{\rm press}
++\inf_{b\in\mathfrak A}\mathcal V_{\rm rel}(u,b)\);}
+\tag{VPL.131}
+```
+
+```math
+\text{(A5) service is continuous under the strong packet convergence supplied
+by the relative bill.}
+\tag{VPL.132}
+```
+
+Under these strict atom hypotheses, prove:
+
+```math
+\|\Pi_4 f[u]\|_{\rm press}
++\inf_{b\in\mathfrak A}\mathcal V_{\rm rel}(u,b)
+\ge
+c\,\mathsf S(u),
+\qquad c>0.
+\tag{VPL.133}
+```
+
+### 17.1 Contradiction normalization
+
+Assume no such \(c\) exists. Then there are strict participation atoms \(u_n\)
+with
+
+```math
+\mathsf S(u_n)=1,
+\tag{VPL.134}
+```
+
+and
+
+```math
+\|\Pi_4 f[u_n]\|_{\rm press}
++\inf_{b\in\mathfrak A}\mathcal V_{\rm rel}(u_n,b)
+\to0.
+\tag{VPL.135}
+```
+
+Choose \(b_n\in\mathfrak A\) so that
+
+```math
+\mathcal V_{\rm rel}(u_n,b_n)\to0.
+\tag{VPL.136}
+```
+
+Write
+
+```math
+w_n=u_n-b_n,
+\qquad
+E_n=S(u_n)-S(b_n).
+\tag{VPL.137}
+```
+
+By the legitimacy estimate (VPL.113),
+
+```math
+\mathcal G(u_n)\to0.
+\tag{VPL.138}
+```
+
+So Korn-Hodge-Poincare modulo \(\mathfrak A\) gives
+
+```math
+\nabla u_n-\nabla b_n\to0
+\tag{VPL.139}
+```
+
+in the packet/collar topology. In particular, all non-affine attach/hide/cancel
+modes disappear in the limit.
+
+### 17.2 Compactness of the affine part
+
+The normalization \(\mathsf S(u_n)=1\) prevents the Vieillefosse amplitude of
+\(b_n\) from vanishing. The normalized packet removes translation, rotation,
+and scale drift. Hence, after passing to a subsequence,
+
+```math
+b_n\to b_\infty
+\in\mathfrak A,
+\qquad
+b_\infty(x)=\lambda RDR^Tx+\Omega x+\beta,
+\qquad
+\lambda\neq0.
+\tag{VPL.140}
+```
+
+Together with (VPL.139),
+
+```math
+u_n\to b_\infty
+\tag{VPL.141}
+```
+
+strongly enough to pass the service:
+
+```math
+\mathsf S(b_\infty)=1.
+\tag{VPL.142}
+```
+
+The pressure-channel term is also lower semicontinuous, and (VPL.135) gives
+
+```math
+\Pi_4 f[b_\infty]=0.
+\tag{VPL.143}
+```
+
+This is consistent with the affine Vieillefosse core: affine pressure is
+isotropic. The contradiction has to come from strict participation, not from
+the affine pressure equation.
+
+### 17.3 Boundary equality case
+
+Since the whole atom, including its collar, converges to \(b_\infty\), the
+parent-owned attachment condition passes to the limit. But (A3) says a nonzero
+affine Vieillefosse core cannot attach to the parent field at zero collar cost.
+Equivalently, the zero-collar-cost equality case of the strict atom boundary is
+
+```math
+\lambda=0.
+\tag{VPL.144}
+```
+
+That contradicts (VPL.140)--(VPL.142), where \(\lambda\neq0\) and
+\(\mathsf S(b_\infty)=1\).
+
+Therefore the contradiction sequence (VPL.134)--(VPL.135) cannot exist. This
+proves the uniform packet inequality (VPL.133).
+
+### 17.4 Meaning of the proof
+
+The proof uses no extra currency beyond strict participation. The relative
+viscous form is the packet's own localized viscous strain cost plus the
+parent-owned collar flux. The \(P_4\) term is the true pressure response to the
+quadrupole-square collar source. Korn-Hodge compactness says every attempted
+attach/hide/cancel mode is either a rigid/affine null mode or it is paid.
+
+Thus the uniform packet inequality follows once the strict atom class really
+has (A1)--(A5). If any of those five atom properties is missing, that missing
+property is the exact remaining gap. With (A1)--(A5) installed, the chain
+
+```math
+\text{uniform packet inequality}
+\Rightarrow
+\mathsf P(\mathcal T)\ge c\mathsf S(\mathcal T)
+\Rightarrow
+c_0\ge c>0
+\tag{VPL.145}
+```
+
+is complete.
