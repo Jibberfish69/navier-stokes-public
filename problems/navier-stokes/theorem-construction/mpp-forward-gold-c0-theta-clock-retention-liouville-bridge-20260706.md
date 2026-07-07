@@ -29,6 +29,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-affine-quotient-zero-surplus-subcase-exclusion-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-smooth-same-packet-commutator-direct-calculation-20260623.md
@@ -61,8 +62,13 @@ completion_truth: >-
   vanishing same-packet surplus payers. The zero-payment relay audit shows that
   qualitative all-zero relay rigidity does not close this profile until positive
   Theta_N clock service is detected before readout or paid as persistent
-  affine/root quotient. The exact-projector collapse further shows that one
-  branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
+  affine/root quotient. The affine-quotient follow-up excludes the persistent
+  localized finite-energy affine zero-surplus subcase: a nonzero local affine
+  core inside a finite same-fluid parent pays a collar/parent tower bill on
+  positive material-time density. The remaining affine-looking escapes are
+  temporal thinness, lost parent/cover/tower certificate, or high-frequency
+  nonlinear pressure-stress transfer. The exact-projector collapse further
+  shows that one branch of that detector bridge rejoins SelectedGeneratorStorageCoercivity.A /
   PositiveCriticalTransferBound.A, not a local projector theorem. Current
   sources do not prove that detector/quotient bridge. The shift-hull reduction
   proves the abstract material-time invariance lemma, but it lowers the needed
