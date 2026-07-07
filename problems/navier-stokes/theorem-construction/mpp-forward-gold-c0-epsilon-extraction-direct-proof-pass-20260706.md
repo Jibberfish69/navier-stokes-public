@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-flow-curvature-tower-bill-or-exit-direct-test-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -62,7 +63,11 @@ completion_truth: >-
   parent-owned positive-record bill-currency reduction shows that all three
   record escapes disappear if the pre-readout native menu, detector
   faithfulness, exact-projector admission, and B-currency storage package is
-  proved. That package is explicitly open in the allowed sources. So this pass
+  proved; and the detector-silent first-ratio sub-branch is now reduced to
+  StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
+  through the original-history transition derivative collapse. That storage
+  theorem and the exact-projector/B-currency clauses are explicitly open in the
+  allowed sources. So this pass
   does not close c_0 or the repo; it reduces closure to one exact
   compactness-and-record theorem and names the current escape routes for a
   vanishing-bill sequence. The first failed gate is now Gate 2.
