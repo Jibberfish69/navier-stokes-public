@@ -94,7 +94,13 @@ completion_truth: >-
   profile class. The older strict-tilting note says exactly why this is the live
   wall: the stretched-vortex self-tilting mechanism is real, but the known
   identities place the model at break-even unless a strict profile excess is
-  proved.
+  proved. Section 23 audits Claude's local BKM/CKN gate: local regularity
+  criteria can force non-removable critical/vorticity visibility on a singular
+  retained edge after the moving-frame hypotheses are installed, but they do not
+  by themselves identify that visible vorticity with the selected \(c_0\)
+  strain/current channel or with the stretched-vortex profile. The remaining
+  gate is the same-edge upgrade from local visibility to selected current, or a
+  typed route-out.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
