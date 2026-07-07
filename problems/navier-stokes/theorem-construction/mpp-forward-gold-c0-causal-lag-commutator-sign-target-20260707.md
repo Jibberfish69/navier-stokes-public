@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / causal-lag / commutator-sign / SK genuine coupling
-status: constructive-target-narrowed-to-retained-participation; local-zeroing-is-pass-or-paid-collar
+status: corrected-attack-in-progress; retained-alignment-requires-pressure-reaiming
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -28,8 +28,11 @@ completion_truth: >-
   critical-record service through the tower; if the work is pushed into a collar,
   the collar is the payer. The surviving target is: no positive critical-record,
   surplus-zero, marginal participation tower may keep aligned anisotropy while
-  still participating. This is a constructive target and a falsifiability test,
-  not a proof of c_0>0.
+  still participating. The corrected attack is pressure-reaiming: if Hess q
+  remains diagonal in a moving strain frame, the pressure eigenframe must be
+  actively re-aimed by the same field; that re-aiming is a participation bill
+  unless the packet is a stopped/pass nonparticipant. This is a constructive
+  target and a strict reduction, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target
@@ -172,3 +175,94 @@ retained marginal positive-record participation tower, not for every symmetric
 finite-energy nonzero-service local embedding. The proof must be pointwise
 geometric in the frame first, then converted to the participation bill; turning
 it immediately into a scalar \(L^2\) norm reopens the critical log endpoint.
+
+## 7. Corrected attack: aligned participation forces pressure re-aiming
+
+The attack starts from the participating packet, not from a pointwise affine
+core. Let \(R(t)\) be the material strain frame of the selected participant and
+
+```math
+\widehat H=R^T(\nabla^2q)R,
+\qquad
+B=R^TD_tR,\qquad B^T=-B.
+\tag{CLS.8}
+```
+
+The aligned/free condition is
+
+```math
+(\widehat H)_{ij}=0,\qquad i\ne j.
+\tag{CLS.9}
+```
+
+Differentiate this condition in material time. Since the frame itself rotates,
+
+```math
+0
+=
+(D_t\widehat H)_{ij}
+=
+\widehat{D_tH}_{ij}
++(h_i-h_j)B_{ij},
+\qquad i\ne j,
+\tag{CLS.10}
+```
+
+where \(h_i=(\widehat H)_{ii}\). This is the first non-negotiable physical
+line. If a retained packet is participating, its strain frame must move through
+material time. If the pressure Hessian remains aligned while that frame moves,
+the nonlocal pressure field must be re-aimed by the same amount.
+
+There are then only three branches.
+
+**Pass / nonparticipation.** If \(B_{ij}=0\) on the active channels, the strain
+frame is not being handed through the tower. A local affine core can have
+positive instantaneous Vieillefosse service, but it is not carrying retained
+critical-record participation. It is a stopped/pass reading.
+
+**Paid pressure re-aiming.** If \(B_{ij}\ne0\) and \(h_i\ne h_j\), then
+\(\widehat{D_tH}_{ij}\) must be nonzero with the opposite orientation. But
+\(H=\nabla^2q\) is the Calderon-Zygmund response to the same pressure source
+
+```math
+-\Delta q=\partial_i u_j\partial_j u_i.
+\tag{CLS.11}
+```
+
+Re-aiming \(H\) in the moving strain frame means the source has changed
+non-affinely in the same physical annulus, or the parent/collar has supplied a
+rotating correction. That is exactly the same-field participation bill.
+
+**Degenerate aligned kernel.** If \(h_i=h_j\) in the active transverse channel,
+then pressure is isotropic or degenerate in that channel. It cannot transmit
+oriented retained record through that channel. The packet is again pass/gauge
+unless another channel carries the handoff; if another channel carries it, that
+channel is governed by the previous two branches.
+
+Thus an aligned retained tower has no free moving branch. In compact form, the
+attack is:
+
+```math
+\widehat H_\perp=0
++\text{retained positive-record participation}
+\Longrightarrow
+\text{pressure re-aiming bill}
+\quad\text{or}\quad
+\text{pass/nonparticipation}.
+\tag{CLS.12}
+```
+
+The remaining load-bearing theorem is now precise:
+
+```math
+\sum_{\rm active}
+|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
+\le
+C\,\mathsf P_{\rm reaim}
+\tag{CLS.13}
+```
+
+with \(\mathsf P_{\rm reaim}\) a legitimate same-field participation bill
+already counted in the \(c_0\) quotient, and with equality-zero forcing
+pass/nonparticipation rather than retained record. Proving (CLS.13) uniformly
+over the strict participation atom class is the corrected bridge.
