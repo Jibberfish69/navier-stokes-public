@@ -218,3 +218,47 @@ signed-irreversibility / pursuit-lag mechanism counts only when it is made
 uniform and thin-record-non-escapable as the moving low-high driver, global
 no-free-upward-transfer law, direct subcritical matrix face, or typed CM
 route-out. No closure claimed; filed is not cleared.
+
+## 7. Sync addendum (Opus, 2026-07-07): the lag's leading order is covariant too; strict piece = uniform local Re⁻¹
+
+Physical sentence first. §5 killed the *spatial* smoothing version (`S` is
+order-zero in `ω`, no scale factor). The **temporal** version dies the same way,
+and knowing that tells us where the strict piece must live. The vortex's stretch
+frame is set a **turnover ago**; the spin that rotates it away is **now**. But the
+only intrinsic clock the inertial range has is the turnover itself: the lag time
+is `~1/|ω|` and the rotation rate is `~|ω|`, so the misalignment angle is their
+product — **dimensionless, scale-free**:
+```math
+\theta_{\text{mis}} \sim (\text{lag time})\times(\text{rotation rate}) \sim \tfrac{1}{|\omega|}\cdot|\omega| = O(1),
+\qquad
+\lambda_1-\alpha = (\lambda_1-\lambda_2)\sin^2\theta_{\text{mis}} \sim \text{const}\cdot(\lambda_1-\lambda_2).
+```
+So the pursuit-lag deficit is a **fixed fraction of the stretching** — ratio-
+preserving, i.e. it obeys the §3 filter and only re-ties the marginal balance at a
+shifted constant. **The lag lags in turnovers, so a lag argument is scale-
+covariant by construction.** This is the temporal twin of §5: neither the spatial
+operator order nor the temporal lag supplies strictness, because both are measured
+in the cascade's own scale-free currency.
+
+**Where the strict piece is forced.** The one clock that is *not* covariant is
+viscosity: `ν` sets an absolute time `~ℓ²/ν` that grows *relative to* the turnover
+as `ℓ` shrinks. So the only surviving source of a strict-beyond-marginal deficit
+is the ratio of the covariant lag to viscosity's absolute clock:
+```math
+\varepsilon_* \;\sim\; \frac{\text{turnover}}{\text{viscous time at that scale}} \;=\; \text{local } Re^{-1}(\ell).
+```
+Hence `c_0 > 0 ⟺` the local Reynolds number is prevented from running away
+**uniformly** down the cascade — which is exactly the `L²→L³` / cascade-depth
+uniformity of the shrink map. The lever lands on the same wall, now *for a
+reason*: its covariant part (spatial §5 + temporal here) is marginal by the
+filter, and its only non-covariant part is viscous.
+
+**Net, honest:** (a) the deficit's **sign** is confirmed one-way toward depletion
+(a smoothed/lagged pursuer cannot over-align a sharpening spin); (b) the lever's
+**leading order is scale-covariant** in both space and time, so — by this note's
+own filter — one must **stop trying to make the bare pursuit-lag strict**; (c) the
+strict piece is `~` uniform **local `Re⁻¹`**, and its cascade-uniformity is 3D
+global regularity, open. This sharpens the target from "prove the pursuit-lag is
+strict" (forbidden by the filter) to "prove viscosity's absolute clock overtakes
+the covariant turnover uniformly down the cascade," consistent with
+`RootFixedTerminalUniformL1FullPacketServiceStorage`. No closure.
