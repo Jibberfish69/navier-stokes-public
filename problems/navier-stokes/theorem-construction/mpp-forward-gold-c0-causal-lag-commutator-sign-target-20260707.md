@@ -1869,29 +1869,20 @@ L/R = 3.00 with annulus   mu_sv = -0.33691
 So a flattened negative core gives the helpful sign, while a long tube-like
 negative core gives the opposite sign. The stretched-vortex sign theorem
 therefore cannot be "low-pressure core implies positive torque." It must prove
-one of the following physically licensed alternatives:
+one of four physically licensed alternatives.
 
-```math
-\begin{array}{ll}
-\text{aspect lock:}&
-\text{retained self-similar stretched vortices have the helpful quadrupole
-aspect},\\[1mm]
-\text{annular compensation:}&
-\text{the strain-dominated annulus supplies a larger positive }l=2\text{
-moment},\\[1mm]
-\text{paid collar/bank:}&
-\text{the adverse quadrupole is supplied by retained bill currency},\\[1mm]
-\text{counterprofile:}&
-\text{a physically admitted prolate profile keeps }\mathcal I_{\rm lin}\le0 .
-\end{array}
-\tag{CLS.116}
-```
+First, an aspect lock: retained self-similar stretched vortices have the helpful
+quadrupole aspect. Second, annular compensation: the strain-dominated annulus
+supplies a larger positive \(l=2\) moment. Third, paid collar/bank: the adverse
+quadrupole is supplied by retained bill currency. Fourth, counterprofile: a
+physically admitted prolate profile keeps
+\(\mathcal I_{\rm lin}\le0\).
 
 The resulting smaller theorem is
 
 ```math
 \texttt{RetainedStretchedVortexQuadrupoleAspectLockOrCounterprofile.A}.
-\tag{CLS.117}
+\tag{CLS.116}
 ```
 
 This is still inside the same physical object. It says the retained pressure
