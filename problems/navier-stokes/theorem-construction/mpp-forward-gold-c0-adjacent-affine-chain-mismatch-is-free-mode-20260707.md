@@ -93,3 +93,30 @@ Both extremes collapse to a single payment, not infinitely many free rungs:
 The per-rung floor is exactly the open **turn-off rigidity** — a non-affine, concentration-proof
 **sign**. This step cannot reach it: it charges the affine mode, which is the exact scale-
 covariance null direction (viscosity included) and can never be the payer.
+
+## 5. The gradient version (§21 lemma) does not escape
+
+A follow-up makes it "rigorous" by taking gradients of the overlap relation:
+`∇e_r(y) − ¼∇e_R(y/2) = −(3/4)A`, a fixed constant tensor, then claims
+`‖∇e_r‖²_{L²(O)} + ‖∇e_R‖²_{L²(O/2)} ≥ c|A|²`, and calls that the bill `P ≥ c|A|² ≥ cS`.
+
+**Why it fails — a constant gradient-defect is the fingerprint of the affine (free) mode.** Taking
+`∇` did not move the mismatch out of the null space; it displayed the affine field `−(3/4)Ay` by
+its constant gradient. Two exact points:
+
+- The raw-norm bound `‖∇e_r‖²_{L²} ≥ c|A|²` is true, but the participation/Korn **bill is the
+  quotient norm** `inf_{a∈𝔄}‖∇e − ∇a‖`, minimized **per rung**. The defect `−(3/4)A` is itself
+  `∇a` for `a=−(3/4)Ay`, so each rung's quotient norm is **0**. "The bill controls those
+  *non-affine* overlap errors" mislabels affine errors as non-affine. The lemma sums **raw** norms
+  across rungs; the bill is `Σ inf`, not `Σ raw`, and `Σ inf = 0` for affine `e`.
+- The bill charges the **variation** of the strain (curvature, second-order / non-affine part),
+  not a constant offset. A constant defect has zero variation ⟹ zero bill. Physically the defect
+  is absorbed by the geometric amplitude drift `A_r=¼A_R` (the free scale-covariance direction),
+  which just makes service decay down the chain — single-scale, already paid.
+
+So the gradient move charges the wrong norm. The only genuinely costly requirement — keeping the
+amplitude from dropping by `¼` per step, i.e. constant-strain-across-scales (rougher than affine)
+— is again the open onsite mass-gap / turn-off sign, not the constant defect. And the degree −1
+closer (`Ay/|y|²` not divergence-free, `l=2` repair charged) is correct but charges only the
+**exact** self-similar singularity, already excluded by NRS/Tsai; the slowly-varying marginal
+survivor is untouched.
