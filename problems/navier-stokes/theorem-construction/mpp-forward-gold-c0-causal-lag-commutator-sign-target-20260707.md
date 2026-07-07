@@ -564,3 +564,107 @@ compactness. A self-similar Vieillefosse embedding that uses both sides of
 symbol; it is excluded only by the still-open retained-participation
 classification (CLS.23)--(CLS.24), or it is a genuine counterexample to this
 route.
+
+## 10. Corrected attack: signed retained angular rigidity
+
+The corrected object is the oriented lag of the same participating packet. It is
+not the absolute off-diagonal size of \(D_tH\). Define the signed retained lag
+schematically by
+
+```math
+\mathcal L_{\rm ret}
+:=
+\int_{\rm active}
+\left\langle
+\Pi_\perp^S
+\left(T(D_tf)+[D_t,T]f+\operatorname{CollarTail}\right),
+\mathcal O_{\rm mat}
+\right\rangle
+d\mu_{\rm part},
+\tag{CLS.35}
+```
+
+where \(\mathcal O_{\rm mat}\) is the material lag orientation selected by the
+same retained participant: lag and lead have opposite signs. This is the first
+place where the forward-time arrow enters the bill.
+
+The \(c_0\)-level target is a signed lower bound,
+
+```math
+\mathcal L_{\rm ret}
+\ge
+c\,\mathsf S_{\rm ret}
+-
+C\left(
+\mathsf P_{\rm collar}
++\mathsf S_{\rm pass}
++\mathsf P_{\rm exit}
+\right),
+\qquad c>0,
+\tag{CLS.36}
+```
+
+not an absolute-value upper bound. In physical words: any same-fluid packet that
+keeps positive retained Vieillefosse record must make the nonlocal pressure
+frame pursue the strain frame with one forward-time orientation, unless the
+record is actually pass/nonparticipation, is paid by a collar, or exits the
+strict retained atom class.
+
+Section 9 supplies the falsifier that this theorem must defeat. The angular
+symbol
+
+```math
+3a\,n_i n_3(2n_3^2-1)
+\tag{CLS.37}
+```
+
+has both signs. Thus an adversarial aligned embedding can try to place retained
+mass on both sides of \(2n_3^2=1\), canceling \(\mathcal L_{\rm ret}\) while
+leaving the time-even magnitude bill positive. The corrected proof burden is
+therefore not "show transverse pressure exists"; it is:
+
+```math
+\text{positive retained participation forbids zero signed angular lag.}
+\tag{CLS.38}
+```
+
+Equivalently, a zero-lag minimizing sequence with
+\(\mathsf S_{\rm ret}=1\) must compactify to one of three non-\(c_0\) branches:
+
+```math
+\mathcal L_{\rm ret}\to0,\quad
+\mathsf P_{\rm collar}+\mathsf P_{\rm exit}\to0,\quad
+\mathsf S_{\rm pass}\to0
+\Longrightarrow
+\text{no lawful retained positive-record limit}.
+\tag{CLS.39}
+```
+
+The expected compactness mechanism is a signed Liouville rigidity at the
+self-similar/log-self-similar endpoint. Zero signed lag plus zero collar bill
+forces the tower into an aligned reversible cone-mixing profile. The remaining
+theorem is to prove that such a profile cannot be a lawful finite-energy
+retained participant carrying positive critical record. If that rigidity is
+proved, (CLS.36) gives the missing \(c_0=\varepsilon>0\) floor. If it fails, the
+cone-mixed aligned tower is the surviving endpoint obstruction.
+
+The three live lemmas are now:
+
+```math
+\text{oriented material pairing is a legitimate participation-law bill;}
+\tag{CLS.40}
+```
+
+```math
+\text{retained participation cannot symmetrically cancel the angular sign;}
+\tag{CLS.41}
+```
+
+```math
+\text{zero signed lag plus zero collar/exit bill implies pass or zero record.}
+\tag{CLS.42}
+```
+
+These are route-b/Liouville rigidity lemmas. Hardy or magnitude participation
+estimates may book the supporting costs, but they do not supply endpoint
+strictness by themselves.
