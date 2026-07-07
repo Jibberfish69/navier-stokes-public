@@ -130,19 +130,19 @@ is: `c_0` **requires** the field never sit on the one cone where `A,B` commute
 can decide the cone (there every rate is a shared scaling) — which is why no scale-covariant
 estimate closes `c_0`.
 
-## 3. (C) The symmetrizer is a funnel — it forces route-b
+## 3. (C) The funnel is CONDITIONAL — a would-be architecture, not a forced one
 
-Because `H=I+K` is coercive on the **entire complement** of the cone (SK holds there),
-it coercively disposes of every non-self-similar excitation. Any blow-up therefore must
-asymptotically collapse onto the SK-violating cone — the symmetrizer leaves it nowhere
-else to live. So the architecture is forced:
-
+**If** a bounded coercive off-cone symmetrizer existed at large data (this is the open
+PDE-production theorem, §1), **then** `H=I+K` would dispose of every non-self-similar
+excitation and force any blow-up onto the cone, giving the clean split
 ```math
-\boxed{\ \text{regularity}=\underbrace{[\,H=I+K\ \text{coercive off the cone}\,]}_{\text{structure in hand, generic}}+\underbrace{[\,\text{route-b on the cone}\,]}_{\text{open}}.\ }
+\text{[conditional]}\quad
+\text{regularity}=\underbrace{[\,H=I+K\ \text{coercive off the cone — OPEN, large data}\,]}_{\text{aspiration, not constructed}}+\underbrace{[\,\text{route-b on the cone — OPEN}\,]}_{}.
 ```
-
-This *explains* why every repo surface funnels to route-b: route-b is precisely the SK
-residual — the one cone the four-body symmetrizer cannot reach.
+This would *explain* why every repo surface funnels to route-b. But the antecedent is
+unproven, so this is a **candidate architecture, not a theorem**: the four-body *names*
+the wall and classifies its degeneracy set; it does not yet dispose of anything at large
+data.
 
 **Precision — do not over-read "coercive off the cone" (sync, 2026-07-07).** "SK holds
 off the cone" is the **algebraic** non-degeneracy `[A,B]≠0` (`A^k(\ker B)⊄\ker B`) — a
