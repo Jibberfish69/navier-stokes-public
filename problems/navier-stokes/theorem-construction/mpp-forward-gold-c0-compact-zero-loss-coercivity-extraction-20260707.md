@@ -132,16 +132,23 @@ Normalize the class by \(R(X)\ge1\). Define
 \tag{CZC.6}
 \]
 
-By persistence of \(R\), the set \(\{R\ge1\}\) is compact after adding the
-declared disappearance defects to \(P\). By lower semicontinuity of \(P\), the
-infimum is attained at some \(X_*\).
-
-If \(\varepsilon_\Theta=0\), then
+If \(\varepsilon_\Theta=0\), choose \(X_n\in\mathcal K_\Theta\) with
 \[
-  P(X_*)=0,\qquad R(X_*)\ge1,
+  R(X_n)\ge1,\qquad P(X_n)\to0.
+\tag{CZC.6a}
+\]
+By compactness, pass to a subsequence \(X_n\to X_*\). Lower semicontinuity gives
+\[
+  P(X_*)\le\liminf_nP(X_n)=0,
+\]
+so \(P(X_*)=0\). Since the declared disappearance defects are included in
+\(P\), they also vanish along the sequence. The persistence hypothesis for
+the admitted theta-record payer gives
+\[
+  R(X_*)\ge\eta_*>0.
 \tag{CZC.7}
 \]
-which contradicts `(CZC.5)'. Therefore
+This contradicts `(CZC.5)'. Therefore
 \[
   \varepsilon_\Theta>0.
 \tag{CZC.8}
