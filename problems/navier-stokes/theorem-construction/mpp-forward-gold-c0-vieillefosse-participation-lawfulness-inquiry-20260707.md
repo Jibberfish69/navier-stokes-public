@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-202607
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / participation law / Vieillefosse lawfulness
-status: open-inquiry-strict-reduction-not-proof
+status: open-inquiry-strict-reduction-not-proof; adjacent-overlap-charge-lemma-refuted
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous pressure-constrained Navier-Stokes history
   participant: selected same-field participant, not an observer cutoff and not an independent model blob
@@ -14,6 +14,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-adjacent-affine-chain-mismatch-is-free-mode-20260707.md
 blocks:
   - NonAffinePressureViscousSignedCommutatorCoercivity.A
   - FullTowerPositiveChannelThreeMeasureAdmission.A
@@ -25,7 +26,11 @@ completion_truth: >-
   positive c_0 bite must come from the finite-energy same-field participation
   and gluing layer: the true nonlocal pressure response must push transverse to
   the frictionless Vieillefosse direction strongly enough to force viscous
-  participation cost. That non-affine coercivity is not proved here.
+  participation cost. That non-affine coercivity is not proved here. The later
+  adjacent-overlap-charge attempt in Sections 21--23 is refuted: it charges an
+  affine amplitude mismatch, but affine mismatch is in the participation/Korn
+  null mode. The remaining payer is the non-affine incompressible collar
+  repair/turn-off sign.
 ---
 
 # Vieillefosse participation-lawfulness inquiry
@@ -2436,7 +2441,22 @@ same-normalized-affine chain. The remaining formal burden is to package
 (VPL.192)--(VPL.193) as the strict overlap-charge lemma inside the participation
 atomization theorem.
 
-## 21. Rigorous strict overlap-charge lemma
+## 21. Failed attempt: rigorous strict overlap-charge lemma
+
+Correction 2026-07-07. This section is retained as the failed adjacent-scale
+attempt, not as a proved lemma. The proposed bridge from (VPL.207)--(VPL.209)
+to (VPL.210) fixes one affine gauge and then charges the resulting mismatch.
+The actual participation bill quotients affine jets; the mismatch
+\((A_r-\theta^2A_R)y\), including the equal-amplitude \((1-\theta^2)Ay\)
+case, is itself affine and therefore lies in the free Korn/participation null
+mode. Hence (VPL.205), (VPL.219), and the accounting conclusion (VPL.233) do
+not follow from this argument.
+
+The degree \(-1\) discussion below only explains why a pure exact critical
+Vieillefosse profile needs a non-affine incompressible repair. It does not
+exclude the marginal slowly-varying-amplitude tower, where the per-step affine
+drift can be free and the charge remains located in the non-affine collar
+turn-off.
 
 This section packages the adjacent-scale bridge as the uniform lemma needed in
 the strict atom class.
@@ -2564,8 +2584,12 @@ C
 \tag{VPL.209}
 ```
 
-The right side is a non-affine overlap defect. By the legitimacy of the
-relative bill,
+This is the invalid load-bearing step in the attempt. The right side is a
+defect after one affine gauge has been fixed. The legitimate relative bill
+minimizes over affine jets, so a pure adjacent affine amplitude drift is
+removed by the quotient rather than charged. Therefore the following displayed
+inequality was the intended bridge, but it is not justified by the strict
+participation law:
 
 ```math
 \mathsf P(Q_r,Q_R)
@@ -2578,7 +2602,7 @@ c_1
 \tag{VPL.210}
 ```
 
-Thus
+The deduction below is therefore not established:
 
 ```math
 \mathsf P(Q_r,Q_R)
@@ -2596,8 +2620,9 @@ c_3\mathsf S(Q_r).
 \tag{VPL.212}
 ```
 
-This proves (VPL.205) when adjacent rungs claim the same normalized affine
-Vieillefosse jet.
+This does not prove (VPL.205). It proves only that the same fixed affine gauge
+cannot satisfy the smooth adjacent-scale identity without an affine mismatch;
+that mismatch is free under the actual quotient.
 
 ### 21.3 Degree \(-1\) escape case
 
@@ -2663,9 +2688,10 @@ on the service-normalized active class.
 
 ### 21.4 Chain consequence
 
-Every adjacent step in a long same-normalized-affine-good chain either pays by
-the affine overlap mismatch (VPL.212) or pays by the incompressible degree
-\(-1\) repair (VPL.218). Therefore
+This was the attempted chain consequence. It is not valid after the correction
+above. An adjacent step does not pay by affine overlap mismatch; only a
+non-affine incompressible collar repair is a legitimate payer. Therefore the
+following intended estimate is not proved:
 
 ```math
 \sum_m \mathsf P(Q_m,Q_{m+1})
@@ -2674,7 +2700,7 @@ c\sum_m \mathsf S(Q_m).
 \tag{VPL.219}
 ```
 
-This proves the missing chain exclusion:
+Consequently the missing chain exclusion is not proved here:
 
 ```math
 \text{No arbitrarily long unpaid same-normalized-affine-good chain can carry
@@ -2682,18 +2708,24 @@ positive Vieillefosse service.}
 \tag{VPL.220}
 ```
 
-With (VPL.220), finite stopping atoms pay by the uniform packet inequality and
-non-stopping chains pay at adjacent overlaps. Hence the atomization theorem has
-no log-endpoint escape, and the tower-level inequality
+Without (VPL.220), finite stopping atoms may still pay by the uniform packet
+inequality, but non-stopping slowly-varying affine chains retain the log-endpoint
+escape unless the non-affine collar/turn-off sign is proved. Hence the
+tower-level inequality
 
 ```math
 \mathsf P(\mathcal T)\ge c\,\mathsf S(\mathcal T)
 \tag{VPL.221}
 ```
 
-follows.
+does not follow from this section.
 
-## 22. Overlap charge is the same \(\mathsf P\)
+## 22. Conditional accounting if a genuine non-affine overlap charge is proved
+
+This accounting section remains useful only conditionally. It shows how a
+valid adjacent overlap charge would be booked inside the same participation
+bill \(\mathsf P\). It does not repair the failed affine-mismatch argument in
+Section 21.
 
 The adjacent-scale charge is not a new detector. It is a localized piece of the
 strict participation payment already used in the definition of \(c_0\).
@@ -2761,11 +2793,16 @@ c_0
 \tag{VPL.227}
 ```
 
-It does not add a fourth bill. It identifies an existing parent-owned
-pressure-viscous payment that every unpaid same-normalized-affine step would
-have tried to ignore.
+It does not add a fourth bill. If the charge is the non-affine collar repair,
+then it identifies an existing parent-owned pressure-viscous payment that an
+unpaid same-normalized-affine step would have tried to ignore. The affine
+amplitude mismatch itself is not such a payment.
 
-## 23. Atomization accounting: no service loss and no payment double count
+## 23. Conditional atomization accounting: no service loss and no payment double count
+
+This section depends on a valid long-chain payment theorem. After the Section
+21 correction, the missing theorem is again the non-affine turn-off rigidity,
+not affine amplitude-mismatch coercivity.
 
 The tower service is the positive measure
 
@@ -2801,10 +2838,11 @@ Therefore service is not lost:
 ```
 
 Bad packets pay by the stopping inequality (VPL.174). Finite strict atoms pay by
-the uniform packet inequality. Long same-normalized-affine chains pay by the
-adjacent overlap lemma (VPL.219). These three payments are all restrictions of
-the same positive measure \(\mathsf P\), and the selected packets/collars have
-bounded overlap:
+the uniform packet inequality. Long same-normalized-affine chains would have to
+pay by a genuine non-affine collar/turn-off rigidity theorem; (VPL.219) does
+not supply that theorem. If such a theorem is proved, these payments are all
+restrictions of the same positive measure \(\mathsf P\), and the selected
+packets/collars have bounded overlap:
 
 ```math
 \sum_j\mathbf 1_{\Lambda A_j}
@@ -2830,7 +2868,7 @@ N_{\rm acc}^{-1}
 \tag{VPL.232}
 ```
 
-Combining the three local lower bounds with (VPL.230)--(VPL.232) gives
+Combining the three local lower bounds with (VPL.230)--(VPL.232) would give
 
 ```math
 \mathsf P(\mathcal T)
@@ -2848,8 +2886,8 @@ After normalizing \(\mathsf S(\mathcal T)=1\),
 \tag{VPL.234}
 ```
 
-Thus the two accounting failures are removed. Service cannot hide between atoms,
-and the adjacent overlap charge is not being counted twice as a new currency.
-In this note, the remaining \(c_0=0\) counterobject has been reduced to failure
-of the strict participation bill itself to own the positive collar work in
-(VPL.222), not to a missing chain or atomization mechanism.
+Thus the accounting mechanism would remove service-loss and double-counting
+failures once the genuine long-chain payer is supplied. The current note does
+not supply that payer. The remaining \(c_0=0\) counterobject is the marginal
+slowly-varying affine tower whose affine drift is free and whose only possible
+charge is the non-affine incompressible collar repair/turn-off sign.
