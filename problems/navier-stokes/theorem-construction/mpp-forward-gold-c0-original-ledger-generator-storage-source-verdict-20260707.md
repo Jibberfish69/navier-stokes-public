@@ -37,6 +37,7 @@ comparison_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-admitted-zero-bill-unit-cycle-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
 completion_truth: >-
   Source-strict proof attempt for the active c_0 goal. The allowed sources do
   not install StrictOriginalLedgerGeneratorStorage.A or
@@ -57,8 +58,10 @@ completion_truth: >-
   bill-coercive subcritical matrix to ParentOwnedPositiveRecordBillCurrency.A is
   now proved as a conditional criterion; the unproved part is producing the
   matrix from the Navier-Stokes parent packet. The compact pressure test retypes
-  that producer as a qualitative zero-bill unit-cycle exclusion on the
-  record-admitted finite parent-face bundle.
+  that producer as a qualitative zero-surplus unit-cycle rigidity theorem on the
+  record-admitted finite parent-face bundle. The zero-bill relay-record kernel
+  excludes only the absolute-zero realization of that cycle, so the current
+  obstruction is the surplus-zero-to-absolute-zero upgrade/route-out.
 ---
 
 # Original-ledger generator storage: source verdict for the c0 extraction
