@@ -433,3 +433,111 @@ These are smaller than the original \(c_0\) floor because each has a falsifier:
 respectively, a material CZ commutator that re-aims for free, a retained record
 handoff with neither frame turning nor collar turn-off, or a zero-bill aligned
 limit that still carries retained positive record.
+
+## 9. Affine-symbol test: the bare CZ re-aiming has no fixed sign
+
+The material CZ commutator in (CLS.16) is the first place where the pressure
+operator can see the moving strain frame. It does create transverse response,
+but the bare operator response is not yet the \(c_0\) sign.
+
+Freeze the material velocity to an affine incompressible strain
+
+```math
+u_A(x)=Ax,
+\qquad
+A=\operatorname{diag}(a,a,-2a),
+\qquad a>0,
+\tag{CLS.25}
+```
+
+and let \(T\) be the pressure Hessian multiplier
+
+```math
+m(\xi)=\frac{\xi\otimes\xi}{|\xi|^2}
+\tag{CLS.26}
+```
+
+up to the scalar sign convention. Since \(m\) is homogeneous of degree zero,
+the Fourier symbol of the affine transport commutator is the angular derivative
+
+```math
+\widehat{[u_A\cdot\nabla,T]f}(\xi)
+=
+-\bigl((A\xi)\cdot\nabla_\xi m(\xi)\bigr)\widehat f(\xi)
+\quad
+\text{(sign convention only changes the global sign).}
+\tag{CLS.27}
+```
+
+Writing \(n=\xi/|\xi|\), \(m=n\otimes n\), and
+
+```math
+v=An-(n\cdot An)n,
+\tag{CLS.28}
+```
+
+gives
+
+```math
+(A\xi)\cdot\nabla_\xi m
+=
+v\otimes n+n\otimes v.
+\tag{CLS.29}
+```
+
+For the Vieillefosse sheet \(A=\operatorname{diag}(a,a,-2a)\), with
+\(n=(n_1,n_2,n_3)\),
+
+```math
+v
+=
+3a\,(n_3^2 n_1,\ n_3^2 n_2,\ -(1-n_3^2)n_3).
+\tag{CLS.30}
+```
+
+Thus the active plane-to-compressive off-diagonal entries are
+
+```math
+\bigl((A\xi)\cdot\nabla_\xi m\bigr)_{i3}
+=
+3a\,n_i n_3(2n_3^2-1),
+\qquad i=1,2.
+\tag{CLS.31}
+```
+
+This is the important obstruction. The affine material motion of the CZ
+pressure operator does re-aim the pressure frame unless the frequency lies on
+special angular sets, but the sign changes across the cone
+
+```math
+2n_3^2=1.
+\tag{CLS.32}
+```
+
+Therefore the bare affine-symbol response cannot supply a uniform handedness
+over arbitrary embeddings. It can cancel by angular mixing before any
+participation law is imposed.
+
+Consequently, the terminal lemma cannot be the naked statement
+
+```math
+\text{CZ pressure restricted to the transverse channel has one sign.}
+\tag{CLS.33}
+```
+
+The proved pressure-test statement is narrower:
+
+```math
+\text{CZ affine re-aiming is a real transverse channel, but it is
+sign-indefinite before selected material orientation and bill currency.}
+\tag{CLS.34}
+```
+
+So the \(c_0\)-level lemma must include the retained participation measure
+\(d\mu_{\rm part}\), the oriented material-frame pairing, and the route-out of
+angular cancellations into pass/nonparticipation, paid collar, or zero-record
+compactness. A self-similar Vieillefosse embedding that uses both sides of
+(CLS.32) to cancel the transverse response is not excluded by the bare CZ
+symbol; it is excluded only by the still-open retained-participation
+classification (CLS.23)--(CLS.24), or it is a genuine counterexample to this
+route.
