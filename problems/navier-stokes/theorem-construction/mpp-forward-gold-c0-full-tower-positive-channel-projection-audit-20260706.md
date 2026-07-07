@@ -16,6 +16,8 @@ target_objects:
   - SimultaneousMaterialFourBodyPacketCoercivity.A
   - SamePacketInterfaceDefectSummabilityOrStrictLoss.A
   - SignedSmoothSamePacketCommutatorCoercivity.A
+  - MovingLowHighPressureStrainPumpFiniteWork.A
+  - StoppedFreeMaterialGraphDriverCarleson.A
   - OriginalSmoothDataToPrelimitMasterBalanceFamily.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
@@ -36,6 +38,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-pressop-collar-graph-split-free-driver-audit-20260627.md
+  - problems/navier-stokes/theorem-construction/mcp-movinglowhighpressurestrainpumpfiniteworkhardboundary-a-globalsamepacketfullclockfromoriginaldata-a-5206f8d65f.md
+  - problems/navier-stokes/theorem-construction/mcp-relative-schur-pressop-collar-storage-direct-attack-20260625.md
 completion_truth: >-
   This audit does not prove Gate 2, FullTowerPositiveChannelThreeMeasureAdmission.A,
   SignedSmoothSamePacketCommutatorCoercivity.A, c_0, or the MPP. It narrows the
@@ -72,6 +77,13 @@ completion_truth: >-
   pure-local X_comm no-go proves this identity cannot be supplied by a bounded
   local line-stretch primitive; after affine/collar payment and route-outs, the
   sign must come from the non-affine pressure-viscous same-packet coupling.
+  The graph-compatible pressure/collar surfaces sharpen that phrase: relative
+  Schur/interface/legal bookkeeping pays the pressure/operator-collar normal
+  defect, while tangent graph motion is the moving low-high
+  pressure/strain pump / stopped free-material graph driver. Current sources do
+  not prove finite work of that driver; they identify it as continuation-strength
+  and leave the needed bounded-below same-material action storage or no-free
+  upward-transfer theorem open.
 ---
 
 # Full-tower positive-channel projection audit
@@ -359,3 +371,28 @@ is unbounded below. Thus `(FPC.18)' cannot be proved by a local bounded
 cross-storage alone; the remaining sign must be non-affine and nonlocal in the
 same pressure-viscosity-incompressibility packet, or paid by the already named
 collar/parent-tower branch.
+
+The pressure/collar graph split makes this last sentence concrete. The
+pressure/operator-collar normal defect is not the remaining producer: relative
+Schur storage pays the relative defect, the exact global graph has zero normal
+defect, and localized graph memory is interface/legal bookkeeping. The unpaid
+same-fluid driver is the primitive moving low-high pressure/strain pump,
+
+```math
+\sum_j w_j
+\left[
+\left\langle
+H_{j,N},
+\mathcal M_{<j-C,N}H_{j,N}
+\right\rangle
+\right]_+dt .
+\tag{FPC.19}
+```
+
+Finite work of `(FPC.19)' is the same physical demand as the stopped
+free-material graph-driver Carleson bound. The checked hard-boundary note
+classifies it as equivalent to the continuation-strength material clock, so
+this audit does not prove it. It only lowers the unowned positive channel from
+"the full material clock" to this primitive same-material driver, after the
+paid pressure/collar, affine, high-high, fixed-low, and recirculation branches
+are removed.
