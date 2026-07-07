@@ -24,6 +24,9 @@ target_object:
   - FreshOverrunSameCarrierTailUI.A
   - FreshSelectedCoefficientOverrunPayment.A
   - SameCarrierTailUI.A
+  - TerminalZenoVisibleReadoutPayment.A
+  - TerminalFullPacketNoResiduePayment.A
+  - TerminalSameCarrierCriticalAntiAtom.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
@@ -38,6 +41,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. The c_0 bill-matrix early-row note reduced the
   nonduplicate matrix face to RecordAdmittedSubHeatLagEarlyBranchStorage.A,
@@ -52,9 +56,14 @@ completion_truth: >-
   theta-payer admission in the compact route-b zero-loss class it contradicts
   zero surplus, and after same-witness CM admission and uniform service
   certification it is consumed by installed Part/Field consumers. Before those
-  admissions it is not a forward supplier of WLF.60. This note does not prove
-  WLF.60, the early-row storage theorem, the bill-coercive matrix, FullTower
-  retention, c_0, or MPP closure.
+  admissions it is not a forward supplier of WLF.60. The mismatch follow-up
+  further lowers the broad mismatch branch: finite nonterminal mismatches are
+  already forced into the main trilinear carrier or named charges, and the
+  remaining unadmitted survivor is TerminalZenoVisibleReadoutPayment.A, sharpened
+  to TerminalFullPacketNoResiduePayment.A or a terminal same-carrier critical
+  anti-atom for the full selected packet. This note does not prove WLF.60, the
+  early-row storage theorem, the bill-coercive matrix, FullTower retention, c_0,
+  or MPP closure.
 ---
 
 # WLF.60 carrier mismatch to tail UI reduction
@@ -242,13 +251,28 @@ The active forward Gold c0 producer has been contracted again:
 \tag{CWT.11}
 \]
 
+The follow-up reduction sharpens the first summand in `(CWT.11)':
+
+\[
+\texttt{FreshCarrierMismatchEvacuationOrTerminalAtom.A}
+\leadsto
+\texttt{TerminalZenoVisibleReadoutPayment.A}
+\leadsto
+\texttt{TerminalFullPacketNoResiduePayment.A}
+\ \text{or}\
+\texttt{TerminalSameCarrierCriticalAntiAtom.A}.
+\tag{CWT.12}
+\]
+
 Equivalently, WLF.60 is now a carrier-typing / terminal-concentration dichotomy
 on the actual order-locked full-packet selected carrier. Critical-factor
-Holder, CKN visibility, endpoint tests, potential-average control, and
-second-order exactness are consumers or analytic faces unless they prove the
-mismatch evacuation theorem or same-carrier tail UI on that carrier.
+Holder, CKN visibility, endpoint tests, potential-average control, second-order
+exactness, Rellich, and full-packet compactness are consumers or analytic faces
+unless they pay the terminal visible readout on the actual selected carrier, or
+prove same-carrier tail UI before the terminal atom forms.
 
 This is still not c0 closure. It is a smaller, source-strict producer wall:
-prove mismatch evacuation, or prove the same-carrier overrun tail UI/no-free
-terminal Zeno/profile theorem, or route the terminal branch through an already
-admitted CM consumer without pretending it is a forward WLF supplier.
+prove the terminal same-carrier critical anti-atom / full-packet no-residue
+payment, prove the same-carrier overrun tail UI before terminalization, or route
+the terminal branch through an already admitted route-b/CM consumer without
+pretending it is a forward WLF supplier.
