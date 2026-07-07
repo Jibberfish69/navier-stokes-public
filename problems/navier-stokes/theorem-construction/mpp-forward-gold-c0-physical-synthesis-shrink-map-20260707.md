@@ -188,7 +188,13 @@ completion_truth: >-
   faces of the same parent-known pre-readout active-state/root-currency/
   record-storage package; bounded record height, raw capacity, raw reset distance, raw
   Bessel freshness, and compactness all fail the selected-critical half-tail
-  test. Local finite-depth storages,
+  test. The transition-derivative audit lowers both faces again:
+  OriginalHistoryTransitionDerivativeCarleson.A is a consumer projection
+  G_P^tr=Pi_P^tr G_P^root of the parent root generator, so stopped accretive
+  testing, native-birth packing, positive critical transfer, and dyadic
+  no-free-upcascade are source only when they construct the same record-admitted
+  StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
+  carrier before readout. Local finite-depth storages,
   shell energy, Cauchy-Green, strain-log, coefficient-log, pointwise
   contraction, complete-frame orientation, laminar ancestry, and Volterra
   payback are checked support or no-go surfaces unless they build a global
