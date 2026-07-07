@@ -25,6 +25,7 @@ ontology_lock:
     - pressure-constrained
     - irreversible
 source_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
@@ -62,10 +63,13 @@ completion_truth: >-
   the unowned full material strain/coefficient/commutator clock Theta_N from
   the Gate 2 channel audit. Equivalently, prove a bounded-below original-history
   first-ratio storage, a global laminar ancestry-variation reserve, or the
-  self-similar difference-operator spectral gap/coercivity named by
+  certified material-time critical-height-growth zero-loss rigidity named by
   ZeroLossTowerRelayRigidity.A after the compact certified material-time shift
   hull is built and the surplus payer measures are lifted lower
-  semicontinuously. The shift-hull follow-up proves the abstract invariance
+  semicontinuously. Self-similar/DSS profile calculations are only
+  scale-equality tests here: exact scaling preserves the critical height, while
+  the c_0 bad object requires H(t)->infinity through retained record doublings.
+  The shift-hull follow-up proves the abstract invariance
   lemma, and the zero-surplus follow-up proves abstract closedness under that
   payer-measure lift. The theta-payer follow-up shows that the positive clock
   payer lift is the Gate 2 pre-readout record-admission problem, so route-b
@@ -227,6 +231,19 @@ The ratio-one marginal pursuit is the case \(\varepsilon=0\). It is
 arithmetically possible. The theorem must prove a genuine transported
 incompressible viscous field cannot sustain it along one original history.
 
+The critical-height-growth correction adds one more restriction on this
+language. A standalone exact self-similar or DSS profile is not the \(c_0\) bad
+object, because the critical height
+\[
+H(t)=\frac12\|u(t)\|_{\dot H^{1/2}}^2
+\tag{HSR.11a}
+\]
+is invariant under exact Navier-Stokes scaling and periodic on a DSS orbit. The
+bad \(c_0\) branch must have \(H(t)\to\infty\) through retained record doublings.
+Therefore `(HSR.11)' is only a model coercivity test unless it is applied to a
+certified material-time marginal recurrence that preserves positive
+critical-height record service.
+
 ## 4. Same-history packing form
 
 The global same-history version is the first-ratio storage theorem. Let
@@ -360,15 +377,17 @@ and
 \boxed{
 \text{physical impossibility}
 =
-\text{strict same-history first-ratio storage or DSS/surplus-zero coercivity.}
+\text{strict same-history first-ratio storage or material-time zero-loss rigidity.}
 }
 \tag{HSR.21}
 \]
 
 This is the material-time route-b version of \(c_0\). It is not closed here.
 The next proof burden is to construct `(HSR.13)' from the original
-Navier-Stokes material history, or prove the spectral gap `(HSR.11)' on the
-certified invariant heat-scale profile class. By the compact coercivity
+Navier-Stokes material history, or prove the zero-loss rigidity `(HSR.11)' on
+the certified invariant heat-scale class with positive critical-height record
+growth. Self-similar/DSS profile exclusion is quarantined as a scale-equality
+test unless a bridge preserves the \(H\)-record service. By the compact coercivity
 extraction lemma, it is enough to prove the qualitative zero-loss form of that
 gap on the compact admitted theta class; the positive modulus then follows by
 minimization. By the zero-loss case-elimination reduction, the retained
