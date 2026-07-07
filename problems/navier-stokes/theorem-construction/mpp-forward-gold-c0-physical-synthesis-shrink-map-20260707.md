@@ -99,6 +99,7 @@ target_object:
   - RetainedRecordEdgeStoppedPrimitiveChannelAdmission.A
   - RecordMenuDetectorSilentServicePreReadoutReserve.A
   - OriginalHistoryDetectorSilentStrictHalfBarrier.A
+  - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
   - RetainedRecordEdgeCommonSelectorRefinementNoLoss.A
   - RetainedRecordEdgePrimitiveChannelCompatibility.A
   - RetainedRecordEdgeSelectorProjectorChannelAlignment.A
@@ -224,6 +225,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-spike-spatial-thickness-temporal-admission-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-lower-entrance-cycles-back-to-half-barrier-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md
@@ -271,6 +273,7 @@ supersedes_as_live_frontier:
   - freestanding full-exchange compactness or carrier compactness without RecordAdmissionClosedness.A / SameEdgeNoDetachmentModulus.A
   - SameEdgeNoDetachmentModulus.A as one opaque compactness side condition rather than the simultaneous selector/chart/payment/face custody of one retained edge
   - StoppedSelectorFiniteScoreOrPaidDrift.A as proof of arbitrary retained-edge capture before FiniteParentKnownRecordEdgeSelectorMenu.A / RecordEdgeSelectorLabelModulusOrPaidDrift.A is supplied
+  - detector-silent service, exact-projector chart license, curvature spike thickness, or primitive-driver admission as independent lower entrances after the source-checked cycle back to OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
   - SameEdgeOrderLockPartnerDeficitPayment.A as an independent c_0 wall rather than selected-density half-tail / retained same-packet overlap payment in full-packet variables
   - MaterialSelectorKinematicRealization.A or selector/collar endpoint UI as an independent source rather than an admissibility consumer after order-locked material definition, heat-scale return, tie/drift charge, and finite endpoint-jet modulus
   - TransportedSelectorHeatScaleReturn.A as a solved energy consequence or hidden no-residue payment rather than an open unweighted deformation-return / charged Body-IV geometry-carrier defect gate
@@ -879,6 +882,15 @@ Thus the current physical proof burden is to prove the subcritical feedback
 margin from the irreversible pressure-viscosity-incompressibility packet before
 selected readout, or to prove the isolated WLF.60 / WLF.36 / ODP.91 early-row
 payment on the same order-locked full-packet carrier.
+
+The bill-coercive storage matrix criterion is an absorption theorem, not a
+producer. If the same retained parent packet already supplies record-admitted
+active-critical/full-exchange/active-transit faces, residuals in
+\(dB=dE^{Field}+dA_{4B}+dVisc\), and a uniform strict margin \(\rho(K)<1\), then
+\(B(W)\ge\varepsilon R(W)\) follows by finite-dimensional linear absorption.
+The current source work is the physical construction of that subcritical matrix,
+or a direct original-data face that makes the matrix subcritical before selected
+readout.
 
 The sharper reading of "unit-spectral-radius storage loop" is a record-feeding
 Perron class. A ratio-one compact limit carries a nonnegative Perron edge
@@ -1611,6 +1623,14 @@ graph has that parent-known original-ledger/full-exchange storage built before
 descendant readout, becomes an exact derivative/turnstile/exchange/covector
 current, or exits the admissible witness grammar.
 
+The first-derivative affine-quotient audit fixes the same point in differential
+language. Harmonic Cauchy pays reset pieces only after they have already been
+announced as derivative, turnstile, exchange, or covector averages. The
+surviving non-derivative affine quotient is exactly the part outside that
+payment range. Localizing it only moves the cost to boundary/turnstile/covector
+motion, which is the missing bill-currency representation theorem rather than a
+free finite-depth proof.
+
 This grades the five-thread physical synthesis. No self-tightening,
 bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
 Reynolds-edge refresh, and irreversibility are one same-fluid story against the
@@ -1622,6 +1642,31 @@ Reynolds-edge notes split low-Re payer, middle explicit refresh row, and a
 surviving high-Re fine/sparse branch. In the current authority that branch is
 closed only by the WLF/ODP same-carrier payment above, or by a typed
 legal/stop/Pack/Part/Field exit before readout.
+
+The stopped primitive and fixed-score audits fix the return side. A fixed
+parent-known stopped channel gives a valid primitive signed-potential consumer,
+and root geometry gives a valid square action. Linear one-way BV, selected
+return lower thickness, and negative return payment are open producer clauses
+until the same selected edge is admitted to the same parent-known channel, same
+primitive face, same chart/projector license, finite-overlap/no-duplication
+rule, and harmonic bill currency before readout. Choosing the channel after
+seeing the future selected edge recreates the half-tail.
+
+The moving low-high pump audit fixes the source scale. Finite work of the
+moving pressure/strain pump is equivalent to controlling the continuation-depth
+material clock, so it is not a smaller noncircular c0 source. The lawful use of
+the pump coordinate is pre-envelope signed channel admission, a direct
+subcritical active/root matrix face from original data, or typed route-out.
+
+The live-prong delamination note localizes the compactness leak without closing
+it. A temporal positive record atom is an ownership/delamination problem because
+irreversible one-way record concentrated in vanishing time must post viscous or
+four-body bill unless it has lost the parent. The coherent low-frequency signed
+null-Lagrangian part passes by the divergence/Piola structure plus Field
+coherence; the unresolved leak is the high-frequency logarithmic endpoint where
+the record mass stays only weakly controlled, together with positive-part
+admission for \([\det\nabla u]_+\). That is the frequency-tightness reading of
+the same first-ratio half-tail, not an independent closure.
 
 The face part is `RecordAdmissionClosedness.A' in physical form: the limiting
 compactness row must retain the same signed-height record face, with polarity

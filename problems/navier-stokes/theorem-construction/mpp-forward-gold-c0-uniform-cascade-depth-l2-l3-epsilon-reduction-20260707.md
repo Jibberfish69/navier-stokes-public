@@ -32,6 +32,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-tail-ui-bill-currency-strict-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-root-weight-snell-compensator-realization-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
@@ -59,13 +60,17 @@ completion_truth: >-
   positive record, no new spatial concentration, and no same-carrier tail
   uniform integrability. The later selector-force balance audit shows the same
   obstruction through the acceleration endpoint leg: endpoint impulse can carry
-  the terminal pulse without square-force billing unless endpoint/frame
-  variation is charged or routed out. The moving-driver Jordan sublemma removes
-  a different false obstruction: once a raw moving-driver event is parent-owned
-  on a fixed material chart, positive leg / negative partner / signed current
-  orientation is supplied by ordinary Hahn-Jordan splitting. It does not close
-  c_0, because the pre-readout ownership, stopped-line, no-recount, and
-  first-ratio/tower-tail bill passage remain unproved. A continuation pressure
+  the terminal pulse without square-force billing. The fixed-chart acceleration
+  sublemma now sharpens this branch: sign-coherent endpoint impulse is finite
+  endpoint storage plus negative return variation, so repeated service must
+  spend reset/frame variation or route out; those currencies still are not the
+  retained B-bill until same-edge admission is proved. The moving-driver Jordan
+  sublemma removes a different false obstruction: once a raw moving-driver event
+  is parent-owned on a fixed material chart, positive leg / negative partner /
+  signed current orientation is supplied by ordinary Hahn-Jordan splitting. It
+  does not close c_0, because the pre-readout ownership, stopped-line,
+  no-recount, and first-ratio/tower-tail bill passage remain unproved. A
+  continuation pressure
   test checked the WLF/ODP affine-weight route and the Rellich selector-force
   route against the terminal pulse obstruction. The WLF/ODP route does not
   close from predictable envelopes, raw Bessel square, no-recount, or local
@@ -545,6 +550,22 @@ noncancellation still needs:
 
 meaning the nonviscous leg is admitted to the retained \(B\)-bill on the same
 edge, or is routed out before readout.
+
+The acceleration endpoint part is now smaller. On a fixed retained affine
+chart, sign-coherent endpoint service is positive increase of
+\[
+I_A(t)=\langle v(t),\Psi_A\rangle,
+\tag{UCD.24a}
+\]
+so it is bounded by endpoint coordinate range plus the negative return
+variation needed to reset that coordinate. This proves
+\[
+\texttt{AccelerationEndpointImpulseFiniteStorageRouteOut.A}.
+\tag{UCD.24b}
+\]
+The remaining acceleration burden is no longer "endpoint impulse" as a black
+box. It is same-edge admission of the reset variation, frame variation, or
+endpoint-face route-out into the retained bill before positive readout.
 
 So the current pressure-test conclusion is:
 

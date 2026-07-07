@@ -22,6 +22,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-viscous-cancellation-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-acceleration-impulse-identity-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-moving-frame-variation-floor-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-nonlinear-stress-localization-split-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-selector-force-defect-carriage-moment-floor-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
@@ -37,10 +38,13 @@ completion_truth: >-
   B=dE_Field+dA_4B+dVisc bill. The acceleration leg gives endpoint impulse,
   H^{-1} time variation, or moving-frame variation; a terminal pulse can have
   unit L1 record and unbounded L2-in-time force while using only bounded
-  endpoint impulse. The nonlinear leg gives same-scale kinetic/collar/Reynolds
-  stress, and the defect leg gives trace ballast or signed variation, but
-  current sources do not admit those currencies as same-edge retained bill
-  before readout. Therefore the HminusOne selector route does not solve c_0.
+  endpoint impulse. The fixed-chart endpoint impulse subcase is finite
+  endpoint storage: repeated sign-coherent service must spend negative return
+  variation, frame motion, legal/stop terms, or an endpoint-face route-out.
+  The nonlinear leg gives same-scale kinetic/collar/Reynolds stress, and the
+  defect leg gives trace ballast or signed variation, but current sources do
+  not admit those currencies as same-edge retained bill before readout.
+  Therefore the HminusOne selector route does not solve c_0.
   It reduces c_0 to same-edge bill-or-route-out conversion for the nonviscous
   balance legs, with the acceleration endpoint branch rejoining the terminal
   no-atom / parent-active source wall. No c_0 or MPP closure is claimed.
@@ -194,6 +198,26 @@ can be locally absorbed by the pressure Hessian. The missing theorem must be
 global same-fluid bill-or-route-out for endpoint impulse/frame variation, or
 terminal no-atom storage on the same full packet.
 
+There is one positive subcase.  On a fixed retained affine chart, with
+\[
+I_A(t)=\langle v(t),\Psi_A\rangle,
+\tag{SBA.13a}
+\]
+same-sign acceleration service is just positive increase of \(I_A\).  The
+energy bound gives a finite range for \(I_A\), so a collection of such positive
+threads is bounded by endpoint range plus the negative return variation needed
+to reset the coordinate:
+\[
+\sum_k\int_{J_k}M_A(T)(t)\,dt
+\le
+C_E|A|D^{5/2}
++\operatorname{Var}^-_{\cup J_k}(I_A).
+\tag{SBA.13b}
+\]
+Thus pure fixed-chart endpoint impulse is finite storage/route-out.  The open
+part is the same-edge admission of the reset variation, the moving-frame term,
+or the endpoint-face route-out into retained bill currency before readout.
+
 ## 4. Nonlinear leg
 
 If nonlinear transport carries the selector force, then
@@ -273,7 +297,8 @@ c_0=2\varepsilon_*>0.
 \]
 
 The present source state proves the viscous line of `(SBA.18)' and prices the
-other three lines in their native currencies. It does not convert those native
+fixed-chart endpoint impulse line as finite storage/route-out, while pricing
+the other nonviscous lines in their native currencies. It does not convert those native
 currencies into the retained bill.
 
 The acceleration endpoint pulse `(SBA.10)'--`(SBA.13)' is the sharp warning:
