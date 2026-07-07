@@ -1427,8 +1427,7 @@ Thus the immediate producer is not the separate list of consumer clauses in
 \texttt{OriginalHistorySelectedPotentialAmplificationBV.A}.
 \tag{CPS.26n4}
 \]
-Equivalently, in stopped testing/root-generator language, the construction
-burden is
+In stopped testing/root-generator language, one construction route is
 \[
 \begin{gathered}
 \texttt{MaterialAdjointAccretiveTestingData.A}
@@ -1443,11 +1442,25 @@ burden is
 \end{gathered}
 \tag{CPS.26n5}
 \]
+But the TFE stopped-testing audit prevents treating `(CPS.26n5)' as a lower
+source by itself. The testing/current clauses are support unless they construct
+the same original-ledger carrier; the audit still feeds the source line through
+native birth / selected-generator storage. Therefore the noncircular lower
+producer is the already-named storage wall
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longleftrightarrow
+\texttt{FullExchangeCriticalDepletionStorage.A},
+\tag{CPS.26n6}
+\]
+with the record-admitted no-self-feeding/full-exchange margin in `(CPS.15)' /
+`(CPS.16)', or the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the
+same order-locked full-packet carrier.
 This is the same-fluid physical content of the affine quotient wall: a positive
 selected upcrossing can repeat only if the same transported pressure/strain
-graph has a parent-known record/testing family built before descendant readout,
-becomes an exact derivative/turnstile/exchange/covector current, or exits the
-admissible witness grammar.
+graph has that parent-known original-ledger/full-exchange storage built before
+descendant readout, becomes an exact derivative/turnstile/exchange/covector
+current, or exits the admissible witness grammar.
 
 This grades the five-thread physical synthesis. No self-tightening,
 bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
@@ -1539,9 +1552,10 @@ language is support unless it proves the same WLF/ODP parent-weighted
 same-carrier payment, proves an equivalent direct original-data subcritical
 active/root face, or routes the surviving high-Re branch out before selected
 readout.
-Likewise, martingale/Bessel, reset-derivative, potential-average, or
-record/return language is support unless it pays the non-derivative affine
+Likewise, martingale/Bessel, reset-derivative, potential-average, record/return,
+or stopped-testing language is support unless it pays the non-derivative affine
 quotient `(CPS.26n1)' by constructing the original-history selected
-potential/amplification record `(CPS.26n4)' / stopped testing root-generator
-storage `(CPS.26n5)', by converting it before readout into
-derivative/turnstile/exchange/covector motion, or by typed route-out.
+potential/amplification record `(CPS.26n4)' through the record-admitted
+original-ledger/full-exchange storage wall `(CPS.26n6)', by converting it before
+readout into derivative/turnstile/exchange/covector motion, or by typed
+route-out.
