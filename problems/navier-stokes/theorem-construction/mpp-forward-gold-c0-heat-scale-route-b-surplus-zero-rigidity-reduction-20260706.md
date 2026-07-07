@@ -34,6 +34,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-loss-theta-case-elimination-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -74,9 +75,13 @@ completion_truth: >-
   compact coercivity extraction follow-up proves that a qualitative zero-loss
   Liouville theorem on the admitted compact theta class automatically yields
   the strict c_0 modulus. The zero-loss case-elimination follow-up narrows the
-  qualitative rigidity theorem to the high-frequency pressure-stress transfer /
-  positive-critical-transfer branch. None of these notes proves those
-  Navier-Stokes producer inputs or the final high-frequency branch. The
+  qualitative rigidity theorem to the high-frequency pressure-stress transfer
+  branch: selected-critical transfer remains the positive-critical/native-birth
+  producer, and the original-ledger face is now source-tested to a
+  unit-spectral-radius active-critical/full-exchange storage loop, with
+  RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A as the smaller
+  nonduplicate producer. None of these notes proves those Navier-Stokes producer
+  inputs or the final high-frequency branch. The
   first-ratio storage route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
@@ -370,6 +375,15 @@ minimization. By the zero-loss case-elimination reduction, the retained
 qualitative zero-loss form is now concentrated in the high-frequency
 pressure-stress transfer branch, reduced to
 `SelectedGeneratorStorageCoercivity.A` / `PositiveCriticalTransferBound.A`.
+
+The original-ledger source verdict adds the same obstruction in full-exchange
+storage language. The installed signed exchange and finite-menu sources do not
+force strict original parent reserve drop; they still allow a marginal
+active-critical/full-exchange feedback loop with spectral radius one. Therefore
+the nonduplicate storage form of the remaining producer is
+`RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A`, or an equivalent
+independent original-history proof of one matrix face that makes the feedback
+subcritical.
 
 The current-Carleson reduction in
 `mpp-forward-gold-c0-first-ratio-storage-current-carleson-reduction-20260706.md`
