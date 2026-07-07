@@ -20,6 +20,7 @@ target_object:
   - SameEventNoRecountFirstRatioBillCurrency.A
   - WLF.60
   - ODP.91
+  - SelectedFirstRatioAffineTransitionReducer.A
   - UniformCascadeTerminationDepthWithSameEdgeBillCurrency.A
   - epsilon_star_positive
 source_refs:
@@ -35,6 +36,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-selector-capture-finite-score-scope-audit-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf-odp-affine-transition-first-ratio-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
 completion_truth: >-
   Strict reduction only. This note does not prove
@@ -179,6 +181,42 @@ Thus the last clause of `(MDS.2)' splits as:
 No-recount prevents duplicate spending after ownership; it does not construct
 the weighted linear pulse measure.
 
+## 3a. The selected first-ratio row is now lowered to affine-transition routing
+
+The WLF/ODP row in `(MDS.9)' is no longer an opaque label. The current checked
+lower row is
+
+```math
+\texttt{SelectedFirstRatioAffineTransitionReducer.A}
+\Longrightarrow
+\texttt{WLF.60/ODP.91 selected first-ratio payment}.
+\tag{MDS.9a}
+```
+
+Here `SelectedFirstRatioAffineTransitionReducer.A' is the predictable
+active-weight / stopped lifted affine-transition package:
+
+```math
+\begin{aligned}
+&\texttt{PredictableActiveWeightTransitionCarleson.A}\\
+&+\texttt{StoppedAffineTransitionLiftedMartingaleDifference.A}\\
+&+\texttt{StoppedLiftedTransitionBesselCarleson.A}\\
+&+\texttt{PersistentAffineQuotientRouting.A}
+\end{aligned}
+\tag{MDS.9b}
+```
+
+with inherited affine pieces routed to primitive PLS record/return, lifted
+innovations routed to log-scale reset / critical jump carriers, and every
+persistent non-derivative affine quotient routed before positive readout to
+record/return, second-order exactness, derivative/turnstile/exchange/covector
+motion, non-affine pressure-viscous bill, or legal/stop/Pack/Part/Field exit.
+
+The no-go files block the shortcuts: finite menu/no-recount, raw Bessel mass,
+parent envelopes, and first-derivative Cauchy consumers do not pay the
+persistent affine quotient. Thus `(MDS.9a)' is a strict reduction, not a proof
+of WLF/ODP.
+
 ## 4. The sharpened package
 
 Define the current source-split package
@@ -191,7 +229,7 @@ Define the current source-split package
 &+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}\\
 &+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
 &+\texttt{RetainedRecordEdgeStoppedLineBeforeReadout.A}\\
-&+\texttt{WLF.60/ODP.91 selected first-ratio payment}\\
+&+\texttt{SelectedFirstRatioAffineTransitionReducer.A}\\
 &+\texttt{same-edge no-detachment and record-admission closedness}.
 \end{aligned}
 \tag{MDS.10}
