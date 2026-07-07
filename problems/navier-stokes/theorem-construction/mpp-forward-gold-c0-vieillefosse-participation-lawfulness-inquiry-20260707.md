@@ -3414,8 +3414,11 @@ not another angular sign theorem: after a retained angular chart is admitted, it
 endpoint change is controlled by same-chart selector/order-lock variation. The
 unpaid producer is bill currency, namely proving that this raw angular variation
 is admitted as \(\mathsf P_{\rm mix}\) before readout. The remaining pair is
-\(\mathsf P_{\rm mix}\) bill-currency admission plus nondegenerate service
-domination at the transverse-degenerate endpoint.
+\(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel custody at
+the transverse-degenerate endpoint. On the admitted plane-to-compressive channel,
+unsigned transverse service carries \(z(1-z)\); endpoint service means
+detector/channel silence, rotation, channel transfer, pass/collar, or exit unless
+the same-edge detector/channel was fixed before readout.
 
 ## 27. Proved ingredient: log-scale endpoint inequality
 
