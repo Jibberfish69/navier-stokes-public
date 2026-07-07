@@ -31,6 +31,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate2-root-payment-integration-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-storage-coercivity-hard-block-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-selected-generator-physical-payment-synthesis-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-inverse-weight-capacity-parent-active-entropy-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
 completion_truth: >-
   Strict reduction and contradiction test, not c_0 closure.  The selected return
@@ -306,3 +307,26 @@ the original pressure-viscosity-incompressibility history of the same packet,
 before future positive or negative selected returns are read.  Current sources
 have consumer implications and sharp failure tests; they do not yet provide the
 noncircular selected-return admission/lower-thickness theorem.
+
+## 7. Parent-active entropy source coordinate
+
+The later inverse-weight reduction sharpens `(SRA.3)' into the parent-active
+entropy coordinate:
+
+\[
+\begin{aligned}
+&\texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}\\
+&+\texttt{FullExchangeCriticalDepletionStorage.A}
++\texttt{BeforeClippingActiveDensityComparison.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}\\
+&\Longrightarrow
+\texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
+\end{aligned}
+\tag{SRA.19}
+\]
+
+So the selected-return admission/lower-thickness theorem is now located at the
+return-fibre face of the before-clipping parent active measure.  It is still
+unproved from arbitrary original data, but it is no longer a free-standing
+post-score BV estimate.
