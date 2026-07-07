@@ -43,7 +43,7 @@ completion_truth: >-
   rigidity can supply the below-1/2 margin. Hence a whole class of local
   attempts is ontologically doomed and pruned. The two honest open routes:
   (a) derive c_0 from the original COUPLED VPI packet's global participation
-  tower before child clipping (owner-and-charge honored), or (b) a material-time
+  tower before selected positive-part readout (owner-and-charge honored), or (b) a material-time
   Liouville/rigidity excluding the critical marginal profile N_L ~ 2^{-L}/L.
   No F2/F4/F5, Chapter-10, manuscript, or MPP closure is proved.
 ---
@@ -171,8 +171,8 @@ above and their kin) is not a loss; it is the simplification.
 What survives is exactly two honest, GLOBAL routes for the one object:
 
 - **(a) Coupled-packet global participation.** Derive `c_0 > 0` from the
-  original coupled VPI packet's global participation tower before child
-  clipping — owner-and-charge honored, reserve owned pre-readout. The margin
+  original coupled VPI packet's global participation tower before selected
+  positive-part readout — owner-and-charge honored, reserve owned pre-readout. The margin
   must be a property of the one field's relay through its participation law, not
   a local coercivity and not a triad invariant imported from a slice.
 - **(b) Material-time Liouville.** Exclude the critical marginal profile
