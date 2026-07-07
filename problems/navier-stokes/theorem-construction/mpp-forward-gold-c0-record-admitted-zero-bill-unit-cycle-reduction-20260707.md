@@ -80,10 +80,11 @@ X_P\le -dM_P+K_PX_P+C\,\mathbf 1\,dB_P+dLegal_P+dStop_P,
 This note tests the remaining producer: where does the strict \(\eta\) come
 from physically?
 
-## 2. The unit-cycle object
+## 2. The Perron-class object
 
 After the exact retained-edge chart/license and legal/stop quotienting, freeze a
-finite parent-face chart. A normalized zero-bill unit cycle is a tuple
+finite parent-face chart. A normalized zero-bill Perron-class obstruction is a
+tuple
 
 ```math
 (P,K_P,x_P,\ell_P)
@@ -207,7 +208,7 @@ x_*\le K_{P_*}x_*,
 If the bill residuals have been charged in \(dB_P\) and the sequence is a
 candidate for the normalized \(B\to0\) wall, the lower semicontinuity of the
 declared payer measures gives \(dB_{P_*}=0\). Thus failure of the uniform matrix
-gap produces a retained record-admitted zero-bill unit cycle.
+gap produces a retained record-admitted zero-bill record-feeding Perron class.
 
 Therefore:
 
@@ -235,7 +236,8 @@ With the zero-bill relay-record kernel, this would give \(c_0=2\varepsilon_*>0\)
 
 ## 5. Why the allowed sources do not prove the exclusion
 
-The allowed sources identify the unit-cycle object but do not rule it out.
+The allowed sources identify the record-feeding Perron-class object but do not
+rule it out.
 
 The full-tower source supplies signed adjacent exchange currents. Signed
 cancellation allows a ratio-one circulation unless positive total variation is
@@ -247,14 +249,14 @@ future-positive edge is pressure-active, or that detector-silent positive work i
 already paid before readout.
 
 The participation/tower law supplies one same pressure-viscosity-incompressibility
-carrier. It keeps the cycle inside one fluid-field object, but it does not create
-strict loss. A common-mode ratio-one loop can remain coherent across neighboring
-towers while the strict bill surplus is zero.
+carrier. It keeps the Perron class inside one fluid-field object, but it does
+not create strict loss. A common-mode ratio-one circulation can remain coherent
+across neighboring towers while the strict bill surplus is zero.
 
 The finite-readout closedness source passes admitted finite inequalities. It
 does not manufacture the missing strict inequality; it only says that, once a
-unit-cycle family is admitted, its limit remains a legal finite-readout unit
-cycle.
+Perron-class family is admitted, its limit remains a legal finite-readout
+Perron-class obstruction.
 
 Thus the present sources remain compatible with the physical picture
 
@@ -280,10 +282,10 @@ then the zero-bill relay-record kernel immediately contradicts
 \(\ell_P\!\cdot x_P=1\). The active matrix/radiodrome wall instead uses
 zero-surplus: the physical payer measures may be nonzero and exactly balanced
 against production at ratio one. The required qualitative theorem is therefore
-the surplus-zero rigidity/upgrade
+the surplus-zero Perron-class rigidity/upgrade
 
 ```math
-\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}
+\texttt{RecordFeedingSurplusPerronClassExclusion.A}
 \quad\text{or}\quad
 \texttt{AbsoluteZeroAdmissionForRecordAdmittedUnitCycle.A}.
 \tag{ZBU.14b}
@@ -299,10 +301,11 @@ qualitative theorem now equivalent to the bill-coercive matrix producer, after
 the absolute-zero/surplus-zero distinction is imposed, is:
 
 ```math
-\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}.
+\texttt{RecordFeedingSurplusPerronClassExclusion.A}.
 \tag{ZBU.15}
 ```
 
 It is the route-a finite-parent-face form of the route-b zero-loss rigidity
-theorem: exclude a record-admitted ratio-one same-parent cycle, and compactness
-turns that qualitative exclusion into the positive \(c_0\) modulus.
+theorem: exclude a record-admitted ratio-one same-parent Perron class that feeds
+the selected record, and compactness turns that qualitative exclusion into the
+positive \(c_0\) modulus.
