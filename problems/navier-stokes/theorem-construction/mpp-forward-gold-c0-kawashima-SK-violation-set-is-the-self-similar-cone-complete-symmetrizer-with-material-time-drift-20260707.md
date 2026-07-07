@@ -134,6 +134,25 @@ else to live. So the architecture is forced:
 This *explains* why every repo surface funnels to route-b: route-b is precisely the SK
 residual — the one cone the four-body symmetrizer cannot reach.
 
+**Precision — do not over-read "coercive off the cone" (sync, 2026-07-07).** "SK holds
+off the cone" is the **algebraic** non-degeneracy `[A,B]≠0` (`A^k(\ker B)⊄\ker B`) — a
+*necessary* condition for a symmetrizer, **not a constructed one**. The implication
+"genuine-coupling ⟹ bounded coercive symmetrizer" is Shizuta–Kawashima's
+*near-equilibrium, small-data* theorem, and it does **not** extend to the large-data,
+far-from-equilibrium blow-up regime (if it did, NS would be solved). Worse, the affine
+log-divergence that kills the on-cone instantaneous symmetrizer (`X=−c log|ℓ|→−∞`) comes
+from **material-line stretching**, which is *not* confined to the cone — so the *same*
+obstruction must be independently ruled out **off** the cone too. Therefore "disposes of
+every non-self-similar excitation" is the funnel's **aspiration, not a theorem**. What is
+genuinely in hand is the **classification** — SK-failure-set `=` the self-similar cone,
+identically the counterobject/viscosity-marginal set — *not* a constructed off-cone
+coercive symmetrizer. Honest architecture:
+`[off-cone: correct SK setting, bounded coercive symmetrizer NOT constructed at large
+data — open] + [on-cone: route-b — open]`. The four-body **names the wall and its exact
+failure-set**; it does not yet dispose of anything at large data. Kawashima is the *shape*
+here, not a governing theorem — consistent with the ontology memory's caution against
+serving near-equilibrium model-facts as object-facts.
+
 ## 4. (D) The new move — complete the symmetrizer on the cone with the material-time drift
 
 On the cone, spatial `A, B` commute, so **no spatial symmetrizer exists** (§1: the
