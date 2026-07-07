@@ -1362,6 +1362,24 @@ split stopped affine transitions before scalar positive readout, route
 predictable inherited pieces to record/return, and route lifted innovations to
 critical reset carriers.
 
+The source pass sharpens this one layer further. The Bessel/Carleson consumer is
+standard once the predictable lifted geometry exists, and the harmonic Cauchy
+step pays only derivative-exact reset pieces. The surviving unpaid object is the
+non-derivative affine quotient
+\[
+c_F^{fresh}(t)=\int_I\theta_I(\sigma)Z^{fresh}(\sigma,t)\,d\sigma .
+\tag{CPS.26n1}
+\]
+Trying to pay `(CPS.26n1)' directly by the harmonic active weight requires a
+prior bound on \(\int_I w(\sigma,t)\|Z^{fresh}(\sigma,t)\|^2\,d\sigma\), which
+is exactly the selected-critical weight being sought. Thus the noncircular
+theorem is narrower than "prove the martingale split": every non-derivative
+quotient survivor must be parent-predictable record/return, converted before
+readout into derivative/turnstile/exchange/covector motion, or routed to a typed
+legal/stop/Pack/Part/Field exit. The exact bad profile is a parent-announced
+sequence of increasingly active child intervals with summable raw innovation
+mass and divergent harmonic active-weighted mass.
+
 This grades the five-thread physical synthesis. No self-tightening,
 bath-recursion summability, the \(H^s\leftrightarrow L^p\) readout continuum,
 Reynolds-edge refresh, and irreversibility are one same-fluid story against the
@@ -1452,3 +1470,6 @@ language is support unless it proves the same WLF/ODP parent-weighted
 same-carrier payment, proves an equivalent direct original-data subcritical
 active/root face, or routes the surviving high-Re branch out before selected
 readout.
+Likewise, martingale/Bessel or reset-derivative language is support unless it
+pays the non-derivative affine quotient `(CPS.26n1)' by record/return,
+derivative conversion before readout, or typed route-out.
