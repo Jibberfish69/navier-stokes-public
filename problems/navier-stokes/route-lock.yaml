@@ -136,6 +136,9 @@ target_preflight:
   required_fields:
   - user_question_or_action
   - action_type
+  - shared_target_object
+  - gold_lane_state
+  - silver_lane_state
   - proof_mode_or_transfer_mode
   - target_object
   - direct_live_authority_surface
@@ -151,8 +154,11 @@ target_preflight:
     live surfaces first. Ask the user exactly one referent-lock question only if the
     current prompt and direct live surfaces still do not identify the field.
   language_boundary: Do not say "the route", "the wall", "the path", or "the method"
-    unless the sentence names the exact proof mode or says explicitly that it is only
-    a dashboard/release gate.
+    unless the sentence names the exact proof mode, identifies the shared Gold/Silver
+    object, or says explicitly that it is only a dashboard/release gate.
+  parallel_pairing_rule: Positive smoothness and CM contrapositive proof work are
+    paired by default only as Gold and Silver lanes on the same object. Their proof
+    logic is not merged and neither lane inherits completion from the other.
   must_not_merge:
   - positive smoothness proof
   - CM contrapositive class-exit proof
@@ -168,6 +174,7 @@ target_lock_schema:
   proof_mode:
     meaning: The proof program or comparison mode being discussed.
     allowed_values:
+    - gold_silver_dual_route
     - positive_smoothness
     - cm_contrapositive_class_exit
     - fixed_nu_euler_to_ns_transfer
@@ -388,30 +395,56 @@ open_root_group:
   top_level_release_blocker: true
   not_single_path: true
   not_single_proof_mode: true
-  dashboard_boundary: The installed Clay terminal-witness CM chain remains proof grammar,
-    but it does not close the forward Gold L1 source wall. The current open object
-    is the signed critical-height sign-persistence or peak-height theorem
-    for the original parent packet before child clipping. Terminal anti-atom, source-refill,
-    native-reserve, and scalar sum displays are readouts or countertests unless they
-    prove that signed-height object.
+  dashboard_boundary: 'The installed Clay terminal-witness CM chain remains proof
+    grammar, but it does not close the forward Gold L1 source wall. The current open
+    object is the signed critical-height restart: prove sign persistence with physical
+    cost, or prove peak-height control when the signed rate changes sign. Terminal
+    anti-atom, source-refill, native-reserve, scalar sum displays, and selected positive
+    L1 clipping are readouts or countertests unless they prove that signed-height
+    object.'
   exact_live_theorem_grade_burden: &1
     status: gold-l1-open-signed-height-sign-persistence-wall
     burden_id: gold-l1-signed-height-sign-persistence-wall
     proof_mode: gold_forward_signed_height_restart
     target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
-    theorem_grade_statement: Prove the Gold restart from the signed critical-height equation. The theorem must explain sign persistence with physical cost, or bound peak height when the signed rate changes sign.
+    theorem_grade_statement: Prove the Gold restart from the signed critical-height
+      equation, not from selected positive-part readout. The theorem must control
+      the signed height or prove the physical mechanism that lets one same-fluid packet
+      keep the signed rate positive long enough to raise that height. If the signed
+      rate changes sign, the object is peak height, not total positive variation.
     active_container: gold-l1-signed-height-sign-persistence-wall
     respawn_cell: theorem-upgrade
     respawn_stage: gold-l1-source-theorem
-    allowed_input_boundary: The signed Navier-Stokes height equation comes first. Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack anti-concentration, and selected positive L1 statements are readouts, countertests, or sufficient-but-unproved entrances unless they prove the signed-height sign-persistence or peak-height theorem.
-    nearest_wrong_substitution: Treating total positive variation, child clipping, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent storage ledger as the primitive physical source object instead of the signed height and its sign mechanism.
+    allowed_input_boundary: The signed Navier-Stokes height equation comes first.
+      Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack
+      anti-concentration, and selected positive L1 statements are typed readouts,
+      countertests, or sufficient-but-unproved entrances unless they prove the signed-height
+      sign-persistence or peak-height theorem.
+    current_event_local_reduction_20260703: RecordLocalPositiveProductionWitnessCover.A
+      is now reconciled with the TFE2748B source wall as the signed-height record-local
+      projection of the pre-readout parent active-density/full-exchange source wall.
+      The live nonduplicate producer under this group is RecordLocalActiveDensityWitnessCover.A
+      from arbitrary original data, with strict no-self-feeding margin before selected
+      positive-part readout.
+    current_trace_admission_reduction_20260703: The active-density witness-cover proof
+      pass sharpens the producer into signed-height positive-time trace admission
+      before selected positive-part readout plus noncircular strict same-parent coupled
+      storage for the admitted parent active source. Reset, Schur, return, and superheat
+      surfaces are consumer branches after admission, not substitutes for this producer.
+    nearest_wrong_substitution: Treating total positive variation, selected positive-part
+      readout, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent
+      storage ledger as the primitive physical source object instead of the signed
+      height and its sign mechanism.
     accepted_replacement:
       theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A
       audit_surfaces:
+      - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-restart-after-positive-clipping-demotion-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
-      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may call the Gold L1 wall closed or treat positive clipping as primitive until the signed-height sign-persistence or peak-height theorem is proved.
+      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
+        call the Gold L1 wall closed or treat positive clipping as primitive until
+        the signed-height sign-persistence or peak-height theorem is proved.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Part or Field obligation. The H^s readout bridge is proof-licensing
@@ -729,7 +762,9 @@ release_or_respawn_consequence:
   disposition: blocked
   next_cell_type: theorem-upgrade
   next_stage: gold-l1-source-theorem
-  next_action: Prove the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation before restoring downstream release or submission readiness.
+  next_action: Prove the signed critical-height sign-persistence or peak-height theorem
+    from the Navier-Stokes equation before restoring downstream release or submission
+    readiness.
 forward_positive_surface_quarantine:
   status: active-no-proof-authority
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -748,3 +783,31 @@ forward_positive_surface_quarantine:
   summary_by_scope:
     repo-surface: 1026
     theorem-construction: 2279
+fluid_field_object_ontology:
+  status: active
+  source_ref: problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  same_fluid_consolidation_ref: problems/navier-stokes/theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md
+  direct_answers:
+    reversible: false
+    adiabatic: false
+    compressible: false
+  corrected_terms:
+  - incompressible
+  - viscous
+  - dissipative
+  - pressure-constrained
+  - irreversible
+  rule: The Navier-Stokes fluid-field-object is one same-fluid incompressible viscous
+    dissipative pressure-constrained velocity-pressure history at fixed viscosity.
+    Euler is only an inviscid comparison object. Spatial null-Lagrangian identities
+    may support spatial cancellation or compactness, but they do not license temporal
+    reversibility for Navier-Stokes. c_0 work must seek cumulative irreversible material-history
+    cost, not strict residue of a reversible cancellation cycle.
+  same_fluid_consolidation_rule: 'Broad Gold, Silver, c_0, radiodrome/B3, tower, commutator,
+    and generated theorem surfaces must be read as projections of this same physical
+    history: original smooth datum, same-fluid Navier-Stokes material evolution, then
+    signed critical-height control or CM Part/Field class-exit readout. A supplier,
+    coordinate, compactness note, or record ledger has proof force only when it attaches
+    to the same retained signed-record edge before selected positive-part readout,
+    derives a typed Pack/Part/Field face failure, or certifies a material-time branch
+    such as MaterialTimeCertificateFlowInvariance.A.'
