@@ -2113,3 +2113,241 @@ positive collar flux, without losing service.}
 If (VPL.168) is proved, the no-free-collar route closes \(c_0\). If (VPL.168)
 fails, the failure describes the surviving log-endpoint escape: service is
 being counted on rungs whose collars have not been parent-owned at that rung.
+
+## 19. Atomization theorem: construction and failure test
+
+The atomization theorem cannot be obtained by an arbitrary partition of unity.
+It has to be a stopping-time decomposition of the same-field tower by affine
+coherence. Otherwise one can cut a long coherent tower into artificial pieces
+whose internal boundaries have no parent-owned flux.
+
+Let \(d\nu=s\,d\zeta\) be the positive Vieillefosse-service measure on the
+participation tower, where \(\zeta\) denotes the packet coordinates
+\((x,t,\ell)\) or the corresponding material/log-scale variable. For each
+dyadic packet \(Q\) in the tower, with fixed dilation \(\Lambda Q\) and collar
+
+```math
+C(Q)=\Lambda Q\setminus Q,
+\tag{VPL.169}
+```
+
+define the best affine Vieillefosse jet
+
+```math
+a_Q
+\in
+\arg\min_{a\in\mathfrak A}
+\mathcal V_{\rm rel}(u,a;\Lambda Q).
+\tag{VPL.170}
+```
+
+Define the normalized same-affine defect
+
+```math
+\mathfrak e(Q)
+:=
+\frac{
+\|\Pi_4 f[u]\|_{\rm press}(\Lambda Q)
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a;\Lambda Q)
+}{
+\nu(Q)
+}
+\tag{VPL.171}
+```
+
+when \(\nu(Q)>0\). A packet is good if
+
+```math
+\mathfrak e(Q)\le\varepsilon_0
+\tag{VPL.172}
+```
+
+and the minimizing affine jets on \(Q\) and \(\Lambda Q\) are the same up to a
+fixed small tolerance:
+
+```math
+\|\nabla a_Q-\nabla a_{\Lambda Q}\|
+\le
+\varepsilon_0|\nabla a_Q|.
+\tag{VPL.173}
+```
+
+A packet is bad if (VPL.172) or (VPL.173) fails. Bad packets already satisfy a
+packet inequality with constant \(\varepsilon_0\), because their failure is
+itself a pressure/relative-viscous bill:
+
+```math
+\|\Pi_4 f[u]\|_{\rm press}(\Lambda Q)
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a;\Lambda Q)
+\ge
+\varepsilon_0\nu(Q).
+\tag{VPL.174}
+```
+
+So only good packets can threaten \(c_0\).
+
+### 19.1 Maximal same-affine packets
+
+For \(\nu\)-almost every active tower point, take the largest dyadic packet
+\(Q\) containing it such that all intermediate packets from \(Q\) down to the
+core are good and carry the same affine jet within tolerance. Select the
+maximal such packets by the usual dyadic stopping-time/Vitali rule:
+
+```math
+\mathcal A=\{Q_j:\ Q_j\text{ is maximal same-affine-good}\}.
+\tag{VPL.175}
+```
+
+The selected \(Q_j\) are disjoint at their core scale, and the bounded-overlap
+dilates \(\Lambda Q_j\) cover the good service set:
+
+```math
+\nu\left(
+\text{good service set}\setminus\bigcup_j Q_j
+\right)=0,
+\qquad
+\sum_j \mathbf 1_{\Lambda Q_j}\le N_{\rm ov}.
+\tag{VPL.176}
+```
+
+Bad service is covered by the stopping packets where (VPL.174) already pays.
+Thus the decomposition loses no service:
+
+```math
+\nu(\mathcal T)
+=
+\sum_j \nu(Q_j)
++\sum_k \nu(B_k),
+\tag{VPL.177}
+```
+
+where \(B_k\) are bad stopping packets, counted with a subordinate partition of
+unity if overlaps occur.
+
+Uniform packet/collar geometry follows from the dyadic construction:
+
+```math
+\Lambda Q_j/Q_j
+\text{ has fixed shape and fixed collar thickness.}
+\tag{VPL.178}
+```
+
+So A1 and service accounting are standard once the tower is atomized by this
+stopping rule.
+
+### 19.2 Why maximality gives parent-owned collar flux
+
+Take a maximal good packet \(Q_j\). Since it is maximal, its parent
+\(\Lambda Q_j\) cannot remain same-affine-good with zero relative bill. One of
+three things happens.
+
+First, the affine jet changes at the parent:
+
+```math
+\|\nabla a_{\Lambda Q_j}-\nabla a_{Q_j}\|
+\gtrsim
+|\nabla a_{Q_j}|.
+\tag{VPL.179}
+```
+
+Then Korn on the collar gives
+
+```math
+\mathcal V_{\rm rel}(u,a_{Q_j};C(Q_j))
+\gtrsim
+\nu(Q_j).
+\tag{VPL.180}
+```
+
+Second, the affine jet does not change, but the parent fails pressure/relative
+viscous coherence:
+
+```math
+\mathfrak e(\Lambda Q_j)>\varepsilon_0.
+\tag{VPL.181}
+```
+
+Then (VPL.174) pays on the parent collar.
+
+Third, neither happens. Then the same affine jet continues through the parent
+with zero relative collar bill. In that case \(Q_j\) was not maximal; it must
+be merged with its parent. Therefore a true maximal strict atom has
+parent-owned positive collar flux unless it belongs to a same-affine chain that
+never stops.
+
+This proves parent-owned collar flux for all finite stopping atoms.
+
+### 19.3 The exact log-endpoint obstruction
+
+The only remaining failure is an arbitrarily long same-affine-good chain:
+
+```math
+Q_0\subset Q_1\subset\cdots\subset Q_L,
+\qquad
+\mathfrak e(Q_m)\le\varepsilon_0,
+\qquad
+a_{Q_m}\approx a_{Q_0}
+\quad(0\le m\le L),
+\tag{VPL.182}
+```
+
+with service spread through the chain and no parent-owned collar flux in the
+middle. If one takes the whole chain as one atom, normalized geometry is lost
+as \(L\to\infty\). If one cuts it into bounded atoms, the artificial cuts have
+no parent-owned flux. This is exactly the \(2^{-L}/L\) endpoint in atomization
+language.
+
+Therefore the atomization theorem reduces to the bounded-coherence-length
+statement:
+
+```math
+\text{There exists }L_0<\infty\text{ such that every same-affine-good chain
+with positive normalized service stops within }L_0\text{ log-rungs,}
+\tag{VPL.183}
+```
+
+or else pays inside the chain:
+
+```math
+\sum_{m=0}^{L}
+\left(
+\|\Pi_4 f[u]\|_{\rm press}(Q_m)
++\inf_{a\in\mathfrak A}\mathcal V_{\rm rel}(u,a;Q_m)
+\right)
+\ge
+c\sum_{m=0}^{L}\nu(Q_m).
+\tag{VPL.184}
+```
+
+Physically, (VPL.183)--(VPL.184) says a lawful tower cannot keep claiming
+Vieillefosse service on many consecutive rungs while saying the same affine
+stretcher is still the same unpaid participant. Either the participant merges
+into one larger object and eventually meets a parent-owned collar, or each
+bounded log block has its own participation attachment and pays there.
+
+### 19.4 What is proved and what remains
+
+The stopping-time construction proves:
+
+```math
+\text{finite stopping atoms}
+\Rightarrow
+\text{maximal strict atoms with uniform geometry, parent-owned collar flux,
+and no service loss.}
+\tag{VPL.185}
+```
+
+The theorem still needed for all lawful towers is:
+
+```math
+\boxed{
+\text{No arbitrarily long unpaid same-affine-good chain carrying positive
+Vieillefosse service exists.}
+}
+\tag{VPL.186}
+```
+
+That statement is not a covering lemma. It is the remaining physical rigidity
+theorem. If (VPL.186) holds, every lawful tower decomposes into strict atoms
+with A1--A5 and the no-free-collar route gives \(c_0>0\). If (VPL.186) fails,
+the failure is the log-endpoint counterobject.
