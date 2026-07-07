@@ -15,6 +15,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-E4-record-closedness-compensated-compactness-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
 completion_truth: >-
   E4 temporal-pinch proof pass. A unit record concentrated into vanishing
   material time is exactly the thin-record case of the signed-height
@@ -27,8 +28,11 @@ completion_truth: >-
   finite native positive-selection charge is controlled by
   B=dE_Field+dA_4B+dVisc on retained relay windows. Current allowed sources
   explicitly leave the positive-selection storage/bill-currency theorem open.
-  Thus temporal pinch is reduced to SameParentRecordPositiveSelectionStorage.A
-  / TemporalRecordThicknessChargeBillCurrency.A; it is not independently closed.
+  The temporal-thin theta-payer follow-up proves only the compact atom/lsc
+  step after that payer has already been admitted; it does not construct the
+  bill currency. Thus temporal pinch is reduced to
+  SameParentRecordPositiveSelectionStorage.A /
+  TemporalRecordThicknessChargeBillCurrency.A; it is not independently closed.
 ---
 
 # E4 temporal pinch: reduced to charge, not yet to bill
@@ -204,6 +208,12 @@ Using `(TP.5)`, the only non-formal row is the bill branch:
 Thus E4 temporal concentration is not an additional independent wall after the
 signed-height record admission note. It is the thin-time face of the same
 positive-selection storage and same-parent charge problem.
+
+The compact measure follow-up proves the later passage step: once this
+positive-selection charge is actually carried as a same-packet nonnegative
+payer on a compact material-time window, a shrinking unit record becomes a
+nonzero time atom and cannot disappear in a zero-surplus limit. That does not
+prove `(TP.6)'; it starts after `(TP.6)' has supplied the payer.
 
 ## 6. Consequence for c_0
 
