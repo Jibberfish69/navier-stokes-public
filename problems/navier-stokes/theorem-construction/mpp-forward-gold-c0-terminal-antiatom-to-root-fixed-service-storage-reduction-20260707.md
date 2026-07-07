@@ -155,11 +155,9 @@ which gives terminal no-atom and therefore the terminal anti-atom.
 So the current nonduplicate Gold producer is:
 
 \[
-\boxed{
 \text{construct root-fixed terminal-uniform }L^1
 \text{ full-packet service storage `(TRS.4)'--`(TRS.5)' from the original
 coupled Navier-Stokes packet.}
-}
 \tag{TRS.7}
 \]
 
