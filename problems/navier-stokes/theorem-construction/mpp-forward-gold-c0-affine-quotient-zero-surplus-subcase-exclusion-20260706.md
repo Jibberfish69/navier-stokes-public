@@ -30,6 +30,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-periodic-low-mode-exclusion-high-frequency-material-return-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-affine-core-finite-energy-collar-cost-direct-test-20260611.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
 completion_truth: >-
   Subcase proof and strict reduction only. The local affine incompressible
   strain packet remains a valid equality test: it has pressure-balanced strain
@@ -42,11 +43,11 @@ completion_truth: >-
   time slab where the critical affine core persists with positive density. That
   bill is a same-parent tower/collar payer, so it is incompatible with a
   certified zero-surplus profile whose tower/collar/interface payers vanish.
-  The affine-looking escape therefore survives only as temporal thinness, loss
-  of finite parent carrier/cover, loss of same-parent tower/collar certificate,
-  or high-frequency nonlinear pressure-stress transfer inside the full material
-  clock. This does not prove full Theta rigidity, FullTower retention, c_0, or
-  MPP closure.
+  The affine-looking escape therefore survives only as unadmitted temporal-thin
+  payer service, loss of finite parent carrier/cover, loss of same-parent
+  tower/collar certificate, or high-frequency nonlinear pressure-stress
+  transfer inside the full material clock. This does not prove full Theta
+  rigidity, FullTower retention, c_0, or MPP closure.
 ---
 
 # Persistent localized affine zero-surplus profiles are excluded
@@ -141,8 +142,8 @@ The affine-looking escape can still avoid this subcase theorem in only the
 following ways:
 \[
 \begin{array}{ll}
-\text{no positive material-time density} &\Rightarrow
-  \text{temporal thinness / payer lower-semicontinuity problem},\\[1mm]
+\text{no admitted positive material-time payer density} &\Rightarrow
+  \text{temporal-thin payer admission problem},\\[1mm]
 \text{no finite parent carrier or retained cover} &\Rightarrow
   \text{Pack/cover route-out},\\[1mm]
 \text{no same-parent tower/collar certificate} &\Rightarrow
@@ -155,7 +156,9 @@ following ways:
 
 This is the strict narrowing. The local affine normal form no longer remains as
 a persistent zero-surplus equality profile. The surviving branches are exactly
-the temporal payer/admission problem and the high-frequency same-material full
-clock.
+the unadmitted temporal payer problem and the high-frequency same-material full
+clock. Once the theta payer is admitted on a compact material-time window, the
+temporal-thin atom lemma prevents a shrinking positive service packet from
+vanishing inside the zero-surplus certificate.
 
 No full material-time Liouville theorem or \(c_0\) closure is claimed here.
