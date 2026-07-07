@@ -17,6 +17,7 @@ target_object:
   - ActiveCoordinateJacobianCurrentDomination.A
   - ParentKnownNestedActiveDetector.A
   - SameEdgeSelectedReturnInverseWeightCapacity.A
+  - ReturnClockActiveNumeratorLowerGate.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-active-density-projection-split-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md
@@ -25,6 +26,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-feedback-entropy-l1-attempt-20260630.md  # TFE.1974--2003, 2031--2052, 2459--2504, 2561--2588
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-announceable-active-weight-reset-carleson-cauchy-reduction-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-clock-active-weight-compensator-pressure-test-20260707.md
 completion_truth: >-
   Strict reduction and failed shortcut only. This note does not prove
   ReturnIntervalActiveFibreJacobianDomination.A, inverse-weight capacity,
@@ -40,6 +42,11 @@ completion_truth: >-
   pushed forward to the parent active fibre before clipping as a bounded
   Radon-Nikodym submeasure of R_P^+ d mathfrak m_P, with singular clock atoms
   routed to paid first-entry, terminal no-residue, legal, stop, or CM route-out.
+  The active-weight compensator pressure test rules out another shortcut:
+  StoppedPredictableActiveWeightCompensator.A controls H_I||D||^2 and high-H_I
+  upcrossings, where H_I=|I|^2/int_I w^{-1}; it does not dominate the reciprocal
+  clock int_I w^{-1}. The remaining producer is the lower active-numerator /
+  route-measure gate ReturnClockActiveNumeratorLowerGate.A.
 ---
 
 # Return-clock Radon-Nikodym split
@@ -225,13 +232,65 @@ return clock has been identified as the coordinate-change/readout measure of
 the same parent active fibre. It is not a standalone proof of inverse-weight
 capacity.
 
-## 4. Smaller live theorem
+## 4. Active-weight compensator pressure test
+
+The active-weight/root-weight route also does not prove `(RCRN.5)' by itself.
+It controls the reciprocal square currency
+
+\[
+H_I={|I|^2\over\int_Iw^{-1}d\sigma},
+\qquad
+H_I\|D_I\|^2
+\lesssim
+\int_Iw\|G_I\|^2+Legal,
+\tag{RCRN.17}
+\]
+
+plus the paid upcrossing compensator for \(H_I\). This is the correct high-weight
+reset theorem, but it is pointed at the opposite side of the ratio: large
+\(H_I\) means small inverse clock. The return-clock RN theorem asks for control
+of
+
+\[
+A_I:=\int_Iw^{-1}d\sigma
+\tag{RCRN.18}
+\]
+
+itself after pushforward to the parent active fibre.
+
+A bounded active-weight square charge can coexist with divergent inverse-clock
+mass. For instance, with \(|I_\ell|=(\ell+1)^{-2}\),
+\(A_\ell=(\ell+1)^{-1}\), and \(\|D_\ell\|\simeq1\), one has
+
+\[
+H_\ell={|I_\ell|^2\over A_\ell}=(\ell+1)^{-3},
+\qquad
+\sum_\ell H_\ell\|D_\ell\|^2<\infty,
+\qquad
+\sum_\ell A_\ell=\infty.
+\tag{RCRN.19}
+\]
+
+Thus the compensator can pay the square/reset side while the linear return clock
+still fails parent-active domination. The surviving nonduplicate producer is the
+lower active-numerator gate:
+
+\[
+\boxed{\texttt{ReturnClockActiveNumeratorLowerGate.A}.}
+\tag{RCRN.20}
+\]
+
+It is the return-clock form of the same-parent route-measure line
+\(\texttt{WLF.60}\): the before-clipping parent active numerator may not vanish
+down shrinking low-\(H_I\), large-\(A_I\) tubes.
+
+## 5. Smaller live theorem
 
 The noncircular producer now has a sharper name:
 
 \[
 \boxed{\texttt{ReturnClockParentAnnouncedRNDerivative.A}.}
-\tag{RCRN.17}
+\tag{RCRN.21}
 \]
 
 It states that every retained selected return interval has a parent-announced
@@ -247,7 +306,7 @@ has three clauses:
 \text{density bound:}
 &d\lambda_I/d\mathfrak m_P\le C_NR_P^+ \text{ plus paid/legal/stop material.}
 \end{array}
-\tag{RCRN.18}
+\tag{RCRN.22}
 \]
 
 The first clause is custody/coarea. The second is the zero-baseline or terminal
@@ -269,7 +328,7 @@ Thus the sharper reduction is
 &\Longrightarrow
 \texttt{ReturnFibreBeforeClippingActiveDensityProjection.A}.
 \end{aligned}
-\tag{RCRN.19}
+\tag{RCRN.23}
 \]
 
 Together with the existing parent-active entropy source package,
@@ -284,10 +343,26 @@ Together with the existing parent-active entropy source package,
 &\Longrightarrow
 \texttt{SameEdgeSelectedReturnAdmissionToLinearBV.A}.
 \end{aligned}
-\tag{RCRN.20}
+\tag{RCRN.24}
 \]
 
-## 5. Current proof truth
+The producer itself is now split as
+
+\[
+\begin{aligned}
+&\texttt{ReturnClockParentKnownCoarea.A}\\
+&+\texttt{ReturnClockNoSingularEntryOrPaidRouteOut.A}\\
+&+\texttt{ReturnClockActiveNumeratorLowerGate.A}\\
+&\Longrightarrow
+\texttt{ReturnClockParentAnnouncedRNDerivative.A}.
+\end{aligned}
+\tag{RCRN.25}
+\]
+
+The first two clauses are custody and routing. The third clause is the
+unproved weighted linear service theorem.
+
+## 6. Current proof truth
 
 This does not prove \(\varepsilon_*>0\). It replaces the broad phrase
 "return-fibre Jacobian domination" by the exact clock-measure theorem that must
@@ -297,7 +372,7 @@ The first failed line is now:
 
 \[
 \boxed{\texttt{ReturnClockParentAnnouncedRNDerivative.A}.}
-\tag{RCRN.21}
+\tag{RCRN.26}
 \]
 
 The older entropy/Jacobian surfaces are not discarded. They are the likely
@@ -305,3 +380,11 @@ ac/density part of `(RCRN.18)'. The missing part is the admission of the
 harmonic inverse-weight clock \(w^{-1}d\sigma\) itself into the same
 before-clipping parent active measure, with singular clock mass paid or routed
 before selected return readout.
+
+Inside that theorem, the first producer to attack is now
+\[
+\boxed{\texttt{ReturnClockActiveNumeratorLowerGate.A}.}
+\tag{RCRN.27}
+\]
+The stopped active-weight compensator remains support for the reset/high-\(H_I\)
+side; it does not prove this low-\(H_I\), large inverse-clock admission gate.
