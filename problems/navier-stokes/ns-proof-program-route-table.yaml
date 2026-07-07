@@ -10,33 +10,31 @@ identity:
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
-  theorem_program: Every live Navier-Stokes theorem object is tracked through two
-    simultaneous proof lanes. Gold proves direct regularity / controlled evolution
-    for the shared object. Silver proves obstruction exclusion / CM class exit for
-    that same object through `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`. Neither
-    lane is a fallback for the other.
+  theorem_program: Prove the CM contrapositive primitive `Exit(Q;O_NS^work):=not Member(Q;O_NS^work)`
+    through a first class-exit witness failure of Part or Field; arbitrary `not CM=>not
+    Member` is not installed.
   gold_program_status: Gold is an independent direct proof obligation, not secondary
     supplier/readout material for Silver.
   silver_program_status: Silver is an independent obstruction-exclusion proof obligation,
     not a cleanup or fallback after Gold fails.
-  silver_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the same-fluid
-    family after original NS participation is already the governing ontology. Part_{N,Q}
-    is the finite field-local Silver record, not the source of participation.
+  silver_witness: CM_{N,r,Q} means Pack_Q plus Part_{N,Q} plus Field_{N,r,Q} on the
+    same-fluid family after original NS participation is already the governing ontology.
+    Part_{N,Q} is the finite field-local Silver record, not the source of participation.
   sourcepulse_frontier_reading: SourcePulseCMExit.A is a source-pulse manifestation
     / branch theorem under the CM-exit grammar. SOURCE.NO-PULSE.A and AWG.A are branch-support
     suppliers for no-Jump_avg/source-pulse exclusion only; they are not the governing
     CM contrapositive primitive and cannot by themselves close Exit(Q):=not Member(Q).
-  positive_program_status: Positive or forward estimates are Gold-lane work when
-    they address the shared theorem object directly. They become supplier/readout
-    support only when they address a different object and require an explicit bridge.
-    They may install, transport, or consume Pack / Part / Field through explicit
-    bridge theorems, but they may not replace the Silver class-exit obligation.
+  positive_program_status: Positive or forward estimates are Gold-lane work when they
+    address the shared theorem object directly. They become supplier/readout support
+    only when they address a different object and require an explicit bridge. They
+    may install, transport, or consume Pack / Part / Field through explicit bridge
+    theorems, but they may not replace the Silver class-exit obligation.
 course_correction_protocol:
   status: active-dual-route-custody
   rule: Every theorem target must first preserve the shared object, then record the
     Gold direct proof obligation and the Silver obstruction-exclusion obligation.
-    A Silver result must be typed against Exit(Q):=not Member(Q) and the witness
-    split not Part_{N,Q} or not Field_{N,r,Q} before it can count as Silver closure.
+    A Silver result must be typed against Exit(Q):=not Member(Q) and the witness split
+    not Part_{N,Q} or not Field_{N,r,Q} before it can count as Silver closure.
   continuation_packet_generation_rule:
     status: active
     note: problems/navier-stokes/theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md
@@ -139,10 +137,10 @@ authority_surface_audit:
     object_law_reading: class-membership object law governs finite-time class exit
     primary_route_block_reading: stale source-grounded four-bridge positive program
       claims locked-primary status
-    action: Preserve object-law authority inside Silver, but do not let positive
-      four-bridge language replace the same-object Gold/Silver route. Positive routes
-      are Gold only when they directly address the shared object; otherwise they are
-      supplier/readout programs unless an explicit bridge is proved.
+    action: Preserve object-law authority inside Silver, but do not let positive four-bridge
+      language replace the same-object Gold/Silver route. Positive routes are Gold
+      only when they directly address the shared object; otherwise they are supplier/readout
+      programs unless an explicit bridge is proved.
   - conflict_id: route_integrity_report_stale_four_bridge
     surface: problems/navier-stokes/route-integrity-report.yaml
     reading: source-grounded four-bridge is primary route
@@ -190,83 +188,71 @@ live_route_table:
   surface:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
-  bridge_needed: estimates from other objects need explicit bridge into the same
-    Navier-Stokes object before counting as Gold closure
-  current_open_theorem: >-
-    SignedCriticalHeightSignPersistenceOrPeakBound.A via the signed-height
-    owner-and-charge law: a parent-known owner map and original-history charge
-    measure for the same record event before selected readout. Parent active
-    state, selected-critical root currency, and record-admitted full-exchange
-    storage are the three projections of that law. Once the pre-return address
-    admission/lift exists, the owner map is formal; the live proof-sized burden
-    is one finite original-history pre-readout boundary measure, Gamma_pre, with
-    address/boundary and selected-critical root-payment faces tied to the same
-    event key. The address/boundary face reads as stopped address admission/lift
-    plus same-event first-boundary charge for carrier escape, coordinate failure,
-    overlap, and pre-return address change before selected readout. The
-    parent-currency off-face entry is now read as one pre-readout same-parent
-    active state/root currency/record-storage package. Fresh innovation,
-    selected-generator coercivity, positive critical transfer, native birth,
-    full-exchange action, and WLF.60's heat-lag first-admission row are
-    coordinates of one original-history selected-critical source payment.
-    WLF.60 tests that this payment lands on the
-    order-locked full-packet selected carrier for the lower fresh source and
-    upper selected positive queue, with same-packet order-lock overlap and
-    selected-overrun tail payment on that carrier. Primitive ownership and no-recount are
-    support until selection happens from the recombined full packet before
-    positive-part extraction. In the older ODP coordinates this is active
-    same-parent route-measure Carleson ODP.91; ODP.91 gives WLF.60 but still
-    requires the projected original-history reserve Carleson bound ODP.111,
-    whose unpaid producer is the persistent affine quotient ODP.160 / ODP.125.
-    Potential-average control and positive second-order scale exactness are the
-    two recorded analytic faces of paying that quotient on the same carrier. The terminal branch is obstruction / CM-consumer
-    support after same-witness admission; the forward WLF branch remains the
-    order-locked full-packet carrier with selected-overrun tail payment.
-    Installed finite-graph payments lower the remaining mismatch branch to
-    TerminalZenoVisibleReadoutPayment.A: unweighted same-carrier payment of the
-    visible terminal high-factor/source-square/finite-rung/no-waste readout, or
-    an installed legal/endpoint/profile/CM consumer.
-    This terminal-Zeno label is an endpoint reduction. The c0 physical synthesis
-    shrink map lowers it further to TerminalFullPacketNoResiduePayment.A or
-    TerminalSameCarrierCriticalAntiAtom.A for the full selected packet
-    D_Q=(S,Pi_Q grad^2 p), with same-carrier overrun tail UI still needed on
-    the identity branch before terminalization. Broad mismatch, raw freshness,
-    profile Liouville, affine martingale/storage labels, and radiodrome are
-    coordinates or tests unless they prove that terminal wall, theta-payer/pre-readout
-    admission, same-carrier overrun tail UI, or a typed CM route-out.
-    TerminalFullPacketNoResiduePayment.A
-    is the terminal/no-residue face of the same continuous parent active-measure
-    ledger. After the signed-height restart, ParentActivePotentialCapacityDomination.A
-    is not the primitive Gold bottom; it is the terminal/off-face coordinate of
-    the signed-height owner-and-charge law. In that coordinate, after raw
-    pressure-Hodge atoms and retained opposite-lobe reserve are installed, the
-    selected critical meter prices the paired lobes unequally, equivalently
-    leaving a terminal super-capacitary active-potential survivor. Its
-    nonduplicate source is the active full-exchange ledger:
-    LocalActiveTransitStorage.A + FullExchangeNoSelfFeedingStorage.A, with
-    projection inclusions and strict combined feedback from the original parent
-    packet. BeforeClippingActiveDensityComparison.A is the opened/consumed split
-    fed by that ledger. This coordinate remains support unless it proves the
-    same pre-readout owner/charge required by
-    SignedCriticalHeightSignPersistenceOrPeakBound.A; WLF.60 remains the
-    early-branch / heat-lag first-admission coordinate of that same signed-height
-    payment, with order-locked full-packet admission plus paid same-packet
-    order-lock overlap and selected-overrun tail payment.
-    Repeated-core record/return
-    and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
-    the selected-critical face of
-    ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A. The root face must
-    pay the same primitive record event rather than a detached selected
-    transition. After the WLF/ODP merge, the persistent affine quotient ODP.160 /
-    ODP.125 is the heat-lag/AQK coordinate of this root face; the record/reset
-    theorem pays it only when proved on the same order-locked carrier and
-    record-admitted edge before readout.
-    Return first-address, finite return multiplicity, and selected-return
-    no-duplication are downstream consequences of that same pre-return owner
-    process, as recorded in the live authority surfaces.
-  allowed_imports: source, pressure, material-history, and export estimates only
-    when they prove direct regularity control for the shared object or pass through
-    a named bridge
+  bridge_needed: estimates from other objects need explicit bridge into the same Navier-Stokes
+    object before counting as Gold closure
+  current_open_theorem: 'SignedCriticalHeightSignPersistenceOrPeakBound.A via the
+    signed-height owner-and-charge law: a parent-known owner map and original-history
+    charge measure for the same record event before selected readout. Parent active
+    state, selected-critical root currency, and record-admitted full-exchange storage
+    are the three projections of that law. Once the pre-return address admission/lift
+    exists, the owner map is formal; the live proof-sized burden is one finite original-history
+    pre-readout boundary measure, Gamma_pre, with address/boundary and selected-critical
+    root-payment faces tied to the same event key. The address/boundary face reads
+    as stopped address admission/lift plus same-event first-boundary charge for carrier
+    escape, coordinate failure, overlap, and pre-return address change before selected
+    readout. The parent-currency off-face entry is now read as one pre-readout same-parent
+    active state/root currency/record-storage package. Fresh innovation, selected-generator
+    coercivity, positive critical transfer, native birth, full-exchange action, and
+    WLF.60''s heat-lag first-admission row are coordinates of one original-history
+    selected-critical source payment. WLF.60 tests that this payment lands on the
+    order-locked full-packet selected carrier for the lower fresh source and upper
+    selected positive queue, with same-packet order-lock overlap and selected-overrun
+    tail payment on that carrier. Primitive ownership and no-recount are support until
+    selection happens from the recombined full packet before positive-part extraction.
+    In the older ODP coordinates this is active same-parent route-measure Carleson
+    ODP.91; ODP.91 gives WLF.60 but still requires the projected original-history
+    reserve Carleson bound ODP.111, whose unpaid producer is the persistent affine
+    quotient ODP.160 / ODP.125. Potential-average control and positive second-order
+    scale exactness are the two recorded analytic faces of paying that quotient on
+    the same carrier. The terminal branch is obstruction / CM-consumer support after
+    same-witness admission; the forward WLF branch remains the order-locked full-packet
+    carrier with selected-overrun tail payment. Installed finite-graph payments lower
+    the remaining mismatch branch to TerminalZenoVisibleReadoutPayment.A: unweighted
+    same-carrier payment of the visible terminal high-factor/source-square/finite-rung/no-waste
+    readout, or an installed legal/endpoint/profile/CM consumer. This terminal-Zeno
+    label is an endpoint reduction. The c0 physical synthesis shrink map lowers it
+    further to TerminalFullPacketNoResiduePayment.A or TerminalSameCarrierCriticalAntiAtom.A
+    for the full selected packet D_Q=(S,Pi_Q grad^2 p), with same-carrier overrun
+    tail UI still needed on the identity branch before terminalization. Broad mismatch,
+    raw freshness, profile Liouville, affine martingale/storage labels, and radiodrome
+    are coordinates or tests unless they prove that terminal wall, theta-payer/pre-readout
+    admission, same-carrier overrun tail UI, or a typed CM route-out. TerminalFullPacketNoResiduePayment.A
+    is the terminal/no-residue face of the same continuous parent active-measure ledger.
+    After the signed-height restart, ParentActivePotentialCapacityDomination.A is
+    not the primitive Gold bottom; it is the terminal/off-face coordinate of the signed-height
+    owner-and-charge law. In that coordinate, after raw pressure-Hodge atoms and retained
+    opposite-lobe reserve are installed, the selected critical meter prices the paired
+    lobes unequally, equivalently leaving a terminal super-capacitary active-potential
+    survivor. Its nonduplicate source is the active full-exchange ledger: LocalActiveTransitStorage.A
+    + FullExchangeNoSelfFeedingStorage.A, with projection inclusions and strict combined
+    feedback from the original parent packet. BeforeClippingActiveDensityComparison.A
+    is the opened/consumed split fed by that ledger. This coordinate remains support
+    unless it proves the same pre-readout owner/charge required by SignedCriticalHeightSignPersistenceOrPeakBound.A;
+    WLF.60 remains the early-branch / heat-lag first-admission coordinate of that
+    same signed-height payment, with order-locked full-packet admission plus paid
+    same-packet order-lock overlap and selected-overrun tail payment. Repeated-core
+    record/return and shrinking-core reset are faces of OriginalHistoryRecordResetRootPayment.A,
+    the selected-critical face of ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A.
+    The root face must pay the same primitive record event rather than a detached
+    selected transition. After the WLF/ODP merge, the persistent affine quotient ODP.160
+    / ODP.125 is the heat-lag/AQK coordinate of this root face; the record/reset theorem
+    pays it only when proved on the same order-locked carrier and record-admitted
+    edge before readout. Return first-address, finite return multiplicity, and selected-return
+    no-duplication are downstream consequences of that same pre-return owner process,
+    as recorded in the live authority surfaces.'
+  allowed_imports: source, pressure, material-history, and export estimates only when
+    they prove direct regularity control for the shared object or pass through a named
+    bridge
   forbidden_substitutions: Silver face landing, supplier/readout status, or generated
     review readiness cannot replace Gold direct proof closure
 - program: Silver class-membership / endpoint-exclusion
@@ -919,6 +905,9 @@ target_preflight:
   required_fields:
   - user_question_or_action
   - action_type
+  - shared_target_object
+  - gold_lane_state
+  - silver_lane_state
   - proof_mode_or_transfer_mode
   - target_object
   - direct_live_authority_surface
@@ -934,8 +923,11 @@ target_preflight:
     live surfaces first. Ask the user exactly one referent-lock question only if the
     current prompt and direct live surfaces still do not identify the field.
   language_boundary: Do not say "the route", "the wall", "the path", or "the method"
-    unless the sentence names the exact proof mode or says explicitly that it is only
-    a dashboard/release gate.
+    unless the sentence names the exact proof mode, identifies the shared Gold/Silver
+    object, or says explicitly that it is only a dashboard/release gate.
+  parallel_pairing_rule: Positive smoothness and CM contrapositive proof work are
+    paired by default only as Gold and Silver lanes on the same object. Their proof
+    logic is not merged and neither lane inherits completion from the other.
   must_not_merge:
   - positive smoothness proof
   - CM contrapositive class-exit proof
@@ -1095,30 +1087,56 @@ open_root_group:
   top_level_release_blocker: true
   not_single_path: true
   not_single_proof_mode: true
-  dashboard_boundary: The installed Clay terminal-witness CM chain remains proof grammar,
-    but it does not close the forward Gold L1 source wall. The current open object
-    is the signed critical-height sign-persistence or peak-height theorem
-    for the original parent packet before child clipping. Terminal anti-atom, source-refill,
-    native-reserve, and scalar sum displays are readouts or countertests unless they
-    prove that signed-height object.
+  dashboard_boundary: 'The installed Clay terminal-witness CM chain remains proof
+    grammar, but it does not close the forward Gold L1 source wall. The current open
+    object is the signed critical-height restart: prove sign persistence with physical
+    cost, or prove peak-height control when the signed rate changes sign. Terminal
+    anti-atom, source-refill, native-reserve, scalar sum displays, and selected positive
+    L1 clipping are readouts or countertests unless they prove that signed-height
+    object.'
   exact_live_theorem_grade_burden: &1
     status: gold-l1-open-signed-height-sign-persistence-wall
     burden_id: gold-l1-signed-height-sign-persistence-wall
     proof_mode: gold_forward_signed_height_restart
     target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
-    theorem_grade_statement: Prove the Gold restart from the signed critical-height equation. The theorem must explain sign persistence with physical cost, or bound peak height when the signed rate changes sign.
+    theorem_grade_statement: Prove the Gold restart from the signed critical-height
+      equation, not from selected positive-part readout. The theorem must control
+      the signed height or prove the physical mechanism that lets one same-fluid packet
+      keep the signed rate positive long enough to raise that height. If the signed
+      rate changes sign, the object is peak height, not total positive variation.
     active_container: gold-l1-signed-height-sign-persistence-wall
     respawn_cell: theorem-upgrade
     respawn_stage: gold-l1-source-theorem
-    allowed_input_boundary: The signed Navier-Stokes height equation comes first. Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack anti-concentration, and selected positive L1 statements are readouts, countertests, or sufficient-but-unproved entrances unless they prove the signed-height sign-persistence or peak-height theorem.
-    nearest_wrong_substitution: Treating total positive variation, child clipping, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent storage ledger as the primitive physical source object instead of the signed height and its sign mechanism.
+    allowed_input_boundary: The signed Navier-Stokes height equation comes first.
+      Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack
+      anti-concentration, and selected positive L1 statements are typed readouts,
+      countertests, or sufficient-but-unproved entrances unless they prove the signed-height
+      sign-persistence or peak-height theorem.
+    current_event_local_reduction_20260703: RecordLocalPositiveProductionWitnessCover.A
+      is now reconciled with the TFE2748B source wall as the signed-height record-local
+      projection of the pre-readout parent active-density/full-exchange source wall.
+      The live nonduplicate producer under this group is RecordLocalActiveDensityWitnessCover.A
+      from arbitrary original data, with strict no-self-feeding margin before selected
+      positive-part readout.
+    current_trace_admission_reduction_20260703: The active-density witness-cover proof
+      pass sharpens the producer into signed-height positive-time trace admission
+      before selected positive-part readout plus noncircular strict same-parent coupled
+      storage for the admitted parent active source. Reset, Schur, return, and superheat
+      surfaces are consumer branches after admission, not substitutes for this producer.
+    nearest_wrong_substitution: Treating total positive variation, selected positive-part
+      readout, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent
+      storage ledger as the primitive physical source object instead of the signed
+      height and its sign mechanism.
     accepted_replacement:
       theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A
       audit_surfaces:
+      - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-restart-after-positive-clipping-demotion-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
-      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may call the Gold L1 wall closed or treat positive clipping as primitive until the signed-height sign-persistence or peak-height theorem is proved.
+      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
+        call the Gold L1 wall closed or treat positive clipping as primitive until
+        the signed-height sign-persistence or peak-height theorem is proved.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Part or Field obligation. The H^s readout bridge is proof-licensing
@@ -1359,6 +1377,7 @@ target_lock_schema:
   proof_mode:
     meaning: The proof program or comparison mode being discussed.
     allowed_values:
+    - gold_silver_dual_route
     - positive_smoothness
     - cm_contrapositive_class_exit
     - fixed_nu_euler_to_ns_transfer
@@ -1513,7 +1532,9 @@ release_or_respawn_consequence:
   disposition: blocked
   next_cell_type: theorem-upgrade
   next_stage: gold-l1-source-theorem
-  next_action: Prove the signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation before restoring downstream release or submission readiness.
+  next_action: Prove the signed critical-height sign-persistence or peak-height theorem
+    from the Navier-Stokes equation before restoring downstream release or submission
+    readiness.
 forward_positive_surface_quarantine:
   status: active-no-proof-authority
   index: problems/navier-stokes/forward-positive-proof-surface-quarantine-20260523.yaml
@@ -1532,3 +1553,31 @@ forward_positive_surface_quarantine:
   summary_by_scope:
     repo-surface: 1026
     theorem-construction: 2279
+fluid_field_object_ontology:
+  status: active
+  source_ref: problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
+  same_fluid_consolidation_ref: problems/navier-stokes/theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md
+  direct_answers:
+    reversible: false
+    adiabatic: false
+    compressible: false
+  corrected_terms:
+  - incompressible
+  - viscous
+  - dissipative
+  - pressure-constrained
+  - irreversible
+  rule: The Navier-Stokes fluid-field-object is one same-fluid incompressible viscous
+    dissipative pressure-constrained velocity-pressure history at fixed viscosity.
+    Euler is only an inviscid comparison object. Spatial null-Lagrangian identities
+    may support spatial cancellation or compactness, but they do not license temporal
+    reversibility for Navier-Stokes. c_0 work must seek cumulative irreversible material-history
+    cost, not strict residue of a reversible cancellation cycle.
+  same_fluid_consolidation_rule: 'Broad Gold, Silver, c_0, radiodrome/B3, tower, commutator,
+    and generated theorem surfaces must be read as projections of this same physical
+    history: original smooth datum, same-fluid Navier-Stokes material evolution, then
+    signed critical-height control or CM Part/Field class-exit readout. A supplier,
+    coordinate, compactness note, or record ledger has proof force only when it attaches
+    to the same retained signed-record edge before selected positive-part readout,
+    derives a typed Pack/Part/Field face failure, or certifies a material-time branch
+    such as MaterialTimeCertificateFlowInvariance.A.'
