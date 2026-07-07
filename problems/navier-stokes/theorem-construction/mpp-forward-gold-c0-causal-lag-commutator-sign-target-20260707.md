@@ -796,6 +796,137 @@ with \(\nu_t=0\) and without collapsing to the degenerate endpoint channels.
 No such falsifier is excluded here; this section only identifies the exact
 angular transport obstruction that route-b must prove.
 
+## 12. Proof skeleton for the angular-mixing payment
+
+The attack on (CLS.48) is a signed moment argument. It is deliberately not a
+positivity statement for the frozen symbol.
+
+Let \(g(z)=2z-1\). For each retained active channel, push the participation
+measure to the angular coordinate \(z=n_3^2\), with the material orientation
+already selected, and write the pushed measure as \(\mu_t\). Lawfulness of the
+strict atom should give a transport identity
+
+```math
+\partial_t\mu_t+\partial_z\!\left(\sigma\,6a\,z(1-z)\mu_t\right)
+=
+\nu_t+\operatorname{CollarExitPass}_t,
+\qquad \sigma\in\{+1,-1\},
+\tag{CLS.50}
+```
+
+where \(\nu_t\) is exactly the non-affine angular redistribution/source/selector
+defect. Pair (CLS.50) with \(g\). Since \(g'(z)=2\),
+
+```math
+\frac{d}{dt}\int g\,d\mu_t
+=
+\sigma\,12a\int z(1-z)\,d\mu_t
++\int g\,d\nu_t
++\operatorname{CollarExitPass}_t(g).
+\tag{CLS.51}
+```
+
+Integrating on a retained material interval \(I=[t_0,t_1]\) gives
+
+```math
+12a
+\int_I\!\int z(1-z)\,d\mu_t\,dt
+\le
+\left|
+\int g\,d\mu_{t_1}
+-
+\int g\,d\mu_{t_0}
+\right|
++
+\int_I\!\int |g|\,d|\nu_t|\,dt
++
+\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}.
+\tag{CLS.52}
+```
+
+The boundary moment is not free bookkeeping. In a strict retained atom it has
+only three lawful readings:
+
+```math
+\left|
+\int g\,d\mu_{t_1}
+-
+\int g\,d\mu_{t_0}
+\right|
+\le
+C\left(
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.53}
+```
+
+It is paid by angular mixing if the same packet rearranges its angular mass,
+paid by collar/exit if the handoff leaves the atom, or routed to pass if the
+selected participant was not carrying retained record. Substituting (CLS.53)
+into (CLS.52) gives (CLS.48).
+
+The remaining companion estimate is geometric. In the selected
+plane-to-compressive channel, the transverse symbol contains the factor
+\(n_i n_3\). Thus the endpoint sets \(z=0\) and \(z=1\) have no active
+transverse channel. Uniform strict-atom geometry should give
+
+```math
+d\mathsf S_{\rm ret}
+\le
+C\,z(1-z)\,d\mu_{\rm ret}
++
+d\mathsf P_{\rm collar}
++d\mathsf P_{\rm exit}
++d\mathsf S_{\rm pass}.
+\tag{CLS.54}
+```
+
+After integration this is (CLS.49). Combining (CLS.48) and (CLS.49) gives
+
+```math
+\mathsf S_{\rm ret}
+\le
+C\left(
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\right).
+\tag{CLS.55}
+```
+
+On the strict retained class, \(\mathsf S_{\rm pass}=0\). Therefore a normalized
+zero-lag tower with \(\mathsf S_{\rm ret}=1\) cannot have vanishing
+mix/collar/exit bill.
+
+The load-bearing lines are now exact:
+
+```math
+\text{prove the retained angular transport identity (CLS.50);}
+\tag{CLS.56}
+```
+
+```math
+\text{prove boundary moment ownership (CLS.53);}
+\tag{CLS.57}
+```
+
+```math
+\text{prove strict-atom nondegenerate service domination (CLS.54).}
+\tag{CLS.58}
+```
+
+If these three are lawful in the strict participation atom class, the
+cone-cancellation adversary is killed in the same-field participation currency.
+If any one fails, the failure gives the precise surviving endpoint: unpaid
+angular redistribution, unpaid boundary handoff, or positive retained service
+concentrated on a transverse-degenerate endpoint.
+
 ## 12. Source-free zero-lag subcase
 
 The transport balance in (CLS.47) has one closed subcase. Assume the retained
