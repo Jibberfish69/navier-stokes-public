@@ -30,6 +30,7 @@ regrades:
   - mpp-forward-gold-c0-E4-temporal-pinch-charge-bill-currency-reduction-20260706.md
   - mpp-forward-gold-c0-normalized-passage-gate4-source-strict-verdict-20260706.md
 derived_reductions:
+  - mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md
   - mpp-forward-gold-c0-heat-scale-route-b-surplus-zero-rigidity-reduction-20260706.md
   - mpp-forward-gold-c0-persistent-affine-quotient-payment-frontier-20260706.md
@@ -44,7 +45,10 @@ completion_truth: >-
   not adiabatic, and not compressible; it is the incompressible viscous
   dissipative pressure-constrained same-fluid field. Therefore c_0 should be
   sought as the cumulative irreversible cost of sustaining an Euler-like
-  marginal climb through infinitely many record doublings. The remaining wall
+  marginal climb through infinitely many record doublings. The critical-height
+  correction further separates this object from exact self-similar/DSS profile
+  exclusion: exact scaling keeps H=1/2||u||_{\dot H^{1/2}}^2 constant, while the
+  c_0 bad object requires H(t)->infinity through retained records. The remaining wall
   is now sharpened: positive-radius / thick-material-time concentration is paid
   by finite participation and fixed-cylinder viscous throttle, while the
   shrinking heat-scale branch still requires temporal thickness-or-charge in
@@ -286,6 +290,12 @@ c_0 = cumulative irreversible cost of an Euler-like marginal climb.
 The next proof work belongs on thickness-or-charge in bill currency and on the
 same-parent positive-selection storage/detector-faithfulness theorem, not on a
 reversible-cancellation cycle.
+
+The self-similar/DSS profile route is also quarantined by the critical-height
+growth correction. Exact scaling preserves \(H=\frac12\|u\|_{\dot H^{1/2}}^2\),
+so a standalone profile has no unbounded \(H\)-record climb. The \(c_0\) route
+therefore remains the quantitative critical-height growth-rate problem for one
+same-fluid material history.
 
 The positive-radius / thick-material-time branch is now separated in
 `mpp-forward-gold-c0-irreversible-thick-branch-liouville-reduction-20260706.md`:
