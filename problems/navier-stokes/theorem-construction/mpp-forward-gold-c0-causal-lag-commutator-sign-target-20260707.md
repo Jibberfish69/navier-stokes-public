@@ -1670,3 +1670,48 @@ belong to the same coherent object. But the existing break-even identities say
 that the raw mechanism lands at the marginal value. The missing \(c_0\) is the
 strict excess of the retained profile response over that break-even, not the
 mere existence of a coherent vortex.
+
+## 23. Local BKM/CKN audit: visibility is not yet same-edge current
+
+Claude's cycle-5 correction is right in one direction: a truly singular
+retained edge cannot be a locally harmless vorticity-free potential-flow patch.
+In a retained moving frame with the needed bounded frame and pressure-gauge
+control, the CKN contrapositive gives non-removable critical visibility on
+shrinking cylinders. In symbols, the existing endpoint note supplies the branch
+
+```math
+\text{singular retained moving-frame endpoint}
+\Longrightarrow
+\mathcal C^\perp(Q_j^\Phi)\ge\varepsilon_M
+\quad\text{along a retained sequence.}
+\tag{CLS.104}
+```
+
+This supports a local vorticity/current visibility gate. It does not close
+same-edge custody by itself. CKN visibility is a critical velocity-pressure
+packet, and BKM-type criteria identify a vorticity obstruction to continuation;
+neither statement automatically says that the selected \(c_0\) strain record,
+the BKM-active vorticity, the detector channel, and the pressure-response
+profile are the same pre-readout object.
+
+The missing upgrade is therefore
+
+```math
+\texttt{LocalVorticityVisibilityToSameEdgeCurrentOrRouteOut.A}.
+\tag{CLS.105}
+```
+
+It must prove that the vorticity forced by the local regularity criterion is
+captured in the same retained detector/channel as the selected strain record,
+with enough orientation/current information to feed \(L^P\). If the visible
+vorticity sits on a different carrier, if the pressure service is supplied by a
+separate bank, or if the selected strain record is only a remote pressure
+readout, the branch returns to the paid/summable/route-out alternatives of
+(CLS.96)--(CLS.102).
+
+So the two-gate picture is sharper but not collapsed. Gate 1 is no longer a
+global hope for vorticity; it is the local visibility-to-same-edge-current
+upgrade. Gate 2 is still the strict sign of the retained pressure-response
+stability index on the admitted stretched-vortex profile. Both gates are part
+of the current \(c_0/\epsilon\) burden unless Gate 1 is proved or the non-same
+edge alternatives are routed out.
