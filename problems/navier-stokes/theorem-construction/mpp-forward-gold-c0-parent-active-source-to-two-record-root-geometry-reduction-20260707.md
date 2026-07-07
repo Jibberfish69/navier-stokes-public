@@ -22,6 +22,9 @@ target_object:
   - StoppedPredictableRootGeometryCompensator.A
   - PersistentRootAffineQuotientReturnPayment.A
   - SelectedGeneratorStorageCoercivity.A
+  - StrictOriginalLedgerGeneratorStorage.A
+  - FullExchangeCriticalDepletionStorage.A
+  - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
 source_refs:
   - /Users/thomasbirnie/.codex/attachments/334c8347-95df-4df0-a07e-cc602db48024/pasted-text.txt
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
@@ -44,8 +47,14 @@ completion_truth: >-
   root-generator storage/coercivity wall
   PersistentRootAffineQuotientReturnPayment.A /
   SelectedGeneratorStorageCoercivity.A, with terminal no-residue still in the
-  same parent metric. None of these source records, root-geometry storage laws,
-  c_0, or MPP closure is proved here.
+  same parent metric. The source-frontier then lowers that storage/coercivity
+  wall again to StrictOriginalLedgerGeneratorStorage.A /
+  FullExchangeCriticalDepletionStorage.A, and the TFE2748B audit opens that
+  ledger into one record-admitted active-critical/full-exchange/active-transit
+  coupled matrix with feedback spectral radius below one, or into the isolated
+  WLF.60 / WLF.36 / ODP.91 early-row face on the same order-locked carrier.
+  None of these source records, coupled storage laws, c_0, or MPP closure is
+  proved here.
 ---
 
 # c0 parent-active source descends to two records and root geometry
@@ -234,3 +243,35 @@ construct those records and the root-generator storage from the original
 pressure-viscosity-incompressibility-velocity packet before selected positive
 readout, or route the same witness out through legal/stop/material service or
 the CM Pack/Part/Field grammar.
+
+The checked source-frontier lowers the final line of `(PTR.12)' one more step.
+`SelectedGeneratorStorageCoercivity.A' is the wrapper name for:
+
+\[
+\texttt{StrictOriginalLedgerGeneratorStorage.A}
+\Longleftrightarrow
+\texttt{FullExchangeCriticalDepletionStorage.A}.
+\tag{PTR.13}
+\]
+
+In physical terms, the same parent packet must carry a full-exchange ledger
+\(d\Xi_P^{FE}\) that pays the generator clock \(d\Omega_P^{gen}\) with strict
+no-self-feeding margin:
+
+\[
+d\Omega_P^{gen}\le C_Nd\Xi_P^{FE}+Paid,
+\qquad
+d\Xi_P^{FE}\le -dM_P+d\Theta_P^0+\vartheta d\Omega_P^{gen}+Paid,
+\qquad C_N\vartheta<1.
+\tag{PTR.14}
+\]
+
+The TFE2748B audit opens `(PTR.14)' into one record-admitted
+active-critical/full-exchange/active-transit coupled matrix before readout.
+Duhamel-Hodge pullback, endpoint admission, retained heat gap, active-density
+comparison, log-carrier, compactness, and component rigidity are support unless
+they build that same coupled matrix for the signed-height upcrossing. The
+source-strict obstruction is still present: the installed sources do not force
+the feedback spectral radius below one. The live lower burden is therefore the
+subcritical record-admitted coupled matrix, or the isolated WLF.60 / WLF.36 /
+ODP.91 early-row payment on the same order-locked full-packet carrier.
