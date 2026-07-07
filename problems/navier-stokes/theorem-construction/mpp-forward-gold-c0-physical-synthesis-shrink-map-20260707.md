@@ -127,6 +127,9 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-predictable-root-weight-snell-compensator-realization-20260627.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-active-weight-compensator-from-scale-memory-storage-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-terminal-antiatom-to-root-fixed-service-storage-reduction-20260707.md
@@ -1665,3 +1668,17 @@ potential/amplification record `(CPS.26n4)' through the record-admitted
 original-ledger/full-exchange storage wall `(CPS.26n6)', by converting it before
 readout into derivative/turnstile/exchange/covector motion, or by typed
 route-out.
+
+The 2026-07-07 continuation pressure test merges the two apparent analytic
+routes under this same rule. In WLF/ODP coordinates, raw same-parent Bessel
+mass, no-recount, local first-admission atoms, and a parent-predictable
+envelope do not prove the selected first-ratio bill; the active-weight route
+needs a paid stopped compensator/root Hilbert martingale geometry before
+positive readout. In Rellich/selector-force coordinates, the \(H^{-1}\)
+selector-force floor is installed and the viscous leg is bill-compatible, but
+the acceleration, nonlinear, and defect legs become retained bill only after
+same-edge bill-or-route-out admission. The terminal pulse
+\(a_\tau=\tau^{-1}{\bf 1}_{(-\tau,0]}\) is the common countercheck. Thus
+`WLF.60/ODP.91', `SelectorForceHminusOneBillCurrency.A', and
+`SameCarrierTailUI.A' are not sibling bottoms: they are coordinate faces of
+the same same-edge bill-admission / terminal no-atom wall.
