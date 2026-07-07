@@ -210,7 +210,12 @@ completion_truth: >-
   testing, native-birth packing, positive critical transfer, and dyadic
   no-free-upcascade are source only when they construct the same record-admitted
   StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
-  carrier before readout. Local finite-depth storages,
+  carrier before readout. The TFE2748B no-arbitrage audit then rewrites that
+  carrier proof as RecordAdmittedFullExchangeCriticalCompactness.A plus
+  ZeroCostRecordCriticalNoArbitrageRigidity.A plus RecordAdmissionClosedness.A;
+  SameEdgeNoDetachmentModulus.A is the custody condition that the retained
+  signed-height edge stays parent-addressed, chart-licensed, paid, and admitted
+  through the compactness limit. Local finite-depth storages,
   shell energy, Cauchy-Green, strain-log, coefficient-log, pointwise
   contraction, complete-frame orientation, laminar ancestry, and Volterra
   payback are checked support or no-go surfaces unless they build a global
@@ -832,6 +837,57 @@ This is still open. The natural scale-memory identity is signed and can cancel,
 the direct Leray critical estimate absorbs only small critical packets, and
 stopped testing is a readout unless it constructs the parent carrier and testing
 defect Carleson packing from original history before selected readout.
+
+The TFE2748B current-edge audit lowers the carrier proof to a no-arbitrage
+compactness problem with the record row retained. The one-sided aligned-current
+inequality is a useful scalar face, but Section 101 lowers it back to
+full-exchange depletion plus before-clipping active-density comparison. Section
+126 rewrites the full-exchange storage as bounded same-parent no-profit:
+
+\[
+d\Pi_P^{FE}\le -dB_P,
+\qquad
+B_P\ \text{bounded below from original data}.
+\tag{CPS.26h}
+\]
+
+The current compactness route is therefore:
+
+\[
+\begin{array}{c}
+\texttt{RecordAdmittedFullExchangeCriticalCompactness.A}\\
++\texttt{ZeroCostRecordCriticalNoArbitrageRigidity.A}\\
++\texttt{RecordAdmissionClosedness.A}
+\end{array}
+\Longrightarrow
+\text{record-admitted }\texttt{SameParentCriticalDepletionNoZeno.A}.
+\tag{CPS.26i}
+\]
+
+The nonduplicate signed-height addition is `RecordAdmissionClosedness.A'. A
+freestanding critical carrier can converge while the signed-height record face
+vanishes or changes polarity. In the same-fluid story, closed record admission
+requires a same-edge no-detachment modulus:
+
+\[
+\begin{aligned}
+&\texttt{RetainedRecordEdgeParentAnnouncedSelectorCapture.A}\\
+&+\texttt{RetainedRecordEdgeExactProjectorChartLicense.A}\\
+&+\texttt{SelectedGeneratorStorageCoercivity.A}
+ /\texttt{PositiveCriticalTransferBound.A}
+ /\texttt{NativeBirthChargePacking.A}\\
+&+\texttt{record-admitted face lower semicontinuity}
+\Longrightarrow
+\texttt{SameEdgeNoDetachmentModulus.A}.
+\end{aligned}
+\tag{CPS.26j}
+\]
+
+Thus compactness only helps if it keeps the same retained signed-height edge
+addressed, charted, paid, and admitted to the limiting full-exchange face. Raw
+same-parent pressure-Hodge atom coupling and retained opposite-lobe reserve are
+already installed before clipping; the selected-critical Gold price is the
+extra weighted log-meter/full-exchange surplus of that same coupled packet.
 
 The checked local-state no-go also fixes what kind of proof cannot work. Any
 finite-depth local material state primitive that drops by
