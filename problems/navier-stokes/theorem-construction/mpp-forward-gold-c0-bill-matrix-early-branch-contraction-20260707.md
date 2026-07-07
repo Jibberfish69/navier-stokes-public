@@ -32,6 +32,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-parent-known-active-state-capacity-half-tail-pressure-test-20260704.md
   - problems/navier-stokes/spine.md
+derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. The c_0 bill-coercive matrix criterion already proves
   absorption once the record-admitted active-critical/full-exchange/active-transit
@@ -46,9 +48,13 @@ completion_truth: >-
   decomposition, the nonduplicate remaining producer is the record-admitted
   early sub-heat-lag storage row, equivalently WLF.60 / ODP.91 parent-weighted
   first-admission pulse measure on the order-locked full-packet selected carrier,
-  with same-packet overlap and selected-overrun tail paid before readout. This
-  note does not prove that row, the bill-coercive matrix, FullTower retention,
-  c_0, or MPP closure.
+  with same-packet overlap and selected-overrun tail paid before readout. The
+  WLF.60 carrier-mismatch follow-up further reduces that row to
+  FreshCarrierMismatchEvacuationOrTerminalAtom.A plus same-carrier selected
+  overrun tail UI on the identity branch, with terminal tail failure treated as
+  a typed obstruction/readout until separately admitted and consumed. This note
+  does not prove that row, the bill-coercive matrix, FullTower retention, c_0,
+  or MPP closure.
 ---
 
 # Bill matrix contraction to the early sub-heat-lag row
@@ -293,3 +299,18 @@ directly with spectral radius below one. In WLF/ODP terms, the sharper
 independent-face row is parent-weighted first-admission pulse measure
 finiteness on the order-locked full-packet selected carrier, with same-packet
 overlap and selected-overrun tail paid before child positive readout.
+
+The WLF.60 carrier-mismatch reduction sharpens that independent-face row again:
+
+\[
+\texttt{RecordAdmittedSubHeatLagEarlyBranchStorage.A}
+\quad\leadsto\quad
+\texttt{FreshCarrierMismatchEvacuationOrTerminalAtom.A}
++\texttt{FreshOverrunSameCarrierTailUI.A}.
+\tag{BME.16}
+\]
+
+Potential-average control and second-order scale exactness are analytic faces
+after the same selected carrier is fixed. They do not bypass carrier identity.
+The terminal branch is a source-curve atom/readout; before same-witness CM
+admission and service certification it is not a forward WLF.60 supplier.
