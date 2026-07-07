@@ -17,6 +17,9 @@ parents:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-prelimit-master-balance-limit-passage-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-uniform-terminal-zeno-annular-return-proof-20260623.md
   - problems/navier-stokes/theorem-construction/mpp-full-proof-closure-after-uniform-zeno-annular-return-20260623.md
+derived_refs:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
 ---
 
 # Signed Smooth Same-Packet Commutator Coercivity Audit
@@ -202,3 +205,13 @@ The same-fluid pay-it-back-later mechanism is not being demoted.  The audit
 only removes the false closure claim that the full clock is already finite.
 The live mathematical target is now the exact signed smooth same-packet
 commutator/coercivity theorem `(SSC.2)`--`(SSC.8)`.
+
+The \(c_0\) follow-up notes sharpen the mechanism. The positive
+\(\Theta_N\) envelope is not itself a retained positive/negative/current
+packet, because it appears after absolute values. Also, \(X_{comm,m}\) cannot
+be a pure local bounded primitive of the material line-growth clock: the
+incompressible affine normal form would force such a primitive to decrease like
+\(-c\log|\ell|\), hence become unbounded below. Therefore the remaining proof
+must be a genuinely non-affine pressure-viscous same-packet coercivity theorem,
+with localized affine service already charged to the collar/parent-tower branch
+or routed out.
