@@ -2066,11 +2066,11 @@ c_{\rm acc}c
 ```
 
 Section 19 turns (VPL.147) into a stopping-time construction plus one remaining
-rigidity statement: no arbitrarily long unpaid same-affine-good chain can carry
-positive Vieillefosse service. If that chain obstruction is ruled out, strict
-atomization holds and the no-free-collar route closes \(c_0\). If it survives,
-the endpoint escape is precise: service is being counted on rungs whose collars
-have not been owned as positive same-field participation payment.
+rigidity statement: no arbitrarily long unpaid same-normalized-affine chain can
+carry positive Vieillefosse service. Section 20 gives the adjacent-scale overlap
+mechanism that kills that chain. If the overlap mismatch is charged by the
+strict participation bill, strict atomization holds and the no-free-collar route
+closes \(c_0\).
 
 ## 19. Atomization theorem: construction and failure test
 
@@ -2237,7 +2237,8 @@ This proves parent-owned collar flux for all finite stopping atoms.
 
 ### 19.3 The exact log-endpoint obstruction
 
-The only remaining failure is an arbitrarily long same-affine-good chain:
+The only remaining failure is an arbitrarily long same-normalized-affine-good
+chain:
 
 ```math
 Q_0\subset Q_1\subset\cdots\subset Q_L,
@@ -2249,17 +2250,19 @@ a_{Q_m}\approx a_{Q_0}
 \tag{VPL.182}
 ```
 
-with service spread through the chain and no parent-owned collar flux in the
-middle. If one takes the whole chain as one atom, normalized geometry is lost
-as \(L\to\infty\). If one cuts it into bounded atoms, the artificial cuts have
-no parent-owned flux. This is exactly the \(2^{-L}/L\) endpoint in atomization
-language.
+Here same-affine means same normalized affine jet after Navier-Stokes rescaling.
+It does not mean the same physical gradient in unscaled coordinates. The chain
+has service spread through many adjacent rungs and no parent-owned collar flux
+in the middle. If one takes the whole chain as one atom, normalized geometry is
+lost as \(L\to\infty\). If one cuts it into bounded atoms, the artificial cuts
+have no parent-owned flux. This is exactly the \(2^{-L}/L\) endpoint in
+atomization language.
 
 Therefore the atomization theorem reduces to the bounded-coherence-length
 statement:
 
 ```math
-\text{There exists }L_0<\infty\text{ such that every same-affine-good chain
+\text{There exists }L_0<\infty\text{ such that every same-normalized-affine-good chain
 with positive normalized service stops within }L_0\text{ log-rungs,}
 \tag{VPL.183}
 ```
@@ -2278,10 +2281,10 @@ c\sum_{m=0}^{L}\nu(Q_m).
 ```
 
 Physically, (VPL.183)--(VPL.184) says a lawful tower cannot keep claiming
-Vieillefosse service on many consecutive rungs while saying the same affine
-stretcher is still the same unpaid participant. Either the participant merges
-into one larger object and eventually meets a parent-owned collar, or each
-bounded log block has its own participation attachment and pays there.
+Vieillefosse service on many consecutive rungs while saying the same normalized
+affine stretcher is still the same unpaid participant. Adjacent Navier-Stokes
+scales do not preserve a degree \(+1\) affine jet with constant normalized
+amplitude.
 
 ### 19.4 What is proved and what remains
 
@@ -2298,7 +2301,7 @@ and no service loss.}
 The theorem still needed for all lawful towers is:
 
 ```math
-\text{No arbitrarily long unpaid same-affine-good chain carrying positive
+\text{No arbitrarily long unpaid same-normalized-affine-good chain carrying positive
 Vieillefosse service exists.}
 \tag{VPL.186}
 ```
@@ -2307,3 +2310,128 @@ That statement is not a covering lemma. It is the remaining physical rigidity
 theorem. If (VPL.186) holds, every lawful tower decomposes into strict atoms
 with A1--A5 and the no-free-collar route gives \(c_0>0\). If (VPL.186) fails,
 the failure is the log-endpoint counterobject.
+
+## 20. Adjacent-scale overlap kills the unpaid chain
+
+Take neighboring rungs with the same center/material packet: child scale \(r\)
+and parent scale \(R=2r\). Use Navier-Stokes normalization
+
+```math
+U_r(y)=r\,u(x_0+ry),
+\qquad
+U_R(Y)=R\,u(x_0+RY).
+\tag{VPL.187}
+```
+
+On the physical overlap \(x=x_0+ry=x_0+RY\), one has
+
+```math
+Y=\frac rR y,
+\qquad
+U_r(y)=\frac rR\,U_R\!\left(\frac rR y\right).
+\tag{VPL.188}
+```
+
+If the chain is same-normalized-affine-good and unpaid, both normalized packets
+claim the same affine Vieillefosse core:
+
+```math
+U_r(y)=Ay+e_r(y),
+\qquad
+U_R(Y)=AY+e_R(Y),
+\qquad
+A=\lambda R_0DR_0^T,\ \lambda\ne0.
+\tag{VPL.189}
+```
+
+Substituting (VPL.189) into the exact overlap identity gives, with
+\(\rho=r/R=1/2\),
+
+```math
+Ay+e_r(y)
+=
+\rho\left(A(\rho y)+e_R(\rho y)\right)
+=
+\rho^2Ay+\rho e_R(\rho y).
+\tag{VPL.190}
+```
+
+Therefore
+
+```math
+e_r(y)-\rho e_R(\rho y)
+=
+-(1-\rho^2)Ay
+=
+-\frac34Ay.
+\tag{VPL.191}
+```
+
+The same physical field is being asked to look like \(Ay\) and
+\(\frac14Ay\) on the same overlap. Thus the two errors cannot both be small in
+the overlap topology controlled by the participation bill:
+
+```math
+\|e_r\|_{\rm ov}
++\|e_R\|_{\rm ov}
+\gtrsim
+|A|.
+\tag{VPL.192}
+```
+
+Korn-Poincare on the overlap converts this mismatch into a paid relative
+defect. After service normalization,
+
+```math
+\mathcal V_{\rm rel}(Q_r\leftrightarrow Q_R)
++\|\Pi_4 f[u]\|_{\rm press}(Q_r\leftrightarrow Q_R)
+\ge
+c\,\mathsf S(Q_r).
+\tag{VPL.193}
+```
+
+So an unpaid adjacent same-normalized-affine step is impossible unless
+\(A=0\), and \(A=0\) carries no Vieillefosse service. This kills the long unpaid
+same-normalized-affine chain.
+
+The only apparent escape is to stop asking for a degree \(+1\) affine normalized
+profile and instead make the same profile persist under Navier-Stokes scaling.
+That requires a degree \(-1\) physical field, schematically
+
+```math
+u(x)\sim\frac{Ax}{|x|^2}.
+\tag{VPL.194}
+```
+
+But for traceless Vieillefosse \(A\ne0\),
+
+```math
+\nabla\cdot\left(\frac{Ax}{|x|^2}\right)
+=
+-2\frac{x\cdot Ax}{|x|^4}\ne0.
+\tag{VPL.195}
+```
+
+Thus the pure scale-normalized affine escape is not incompressible. Any
+incompressible repair must add non-affine angular/pressure modes, and those
+modes are precisely attach/hide/cancel modes charged by the strict
+participation bill.
+
+Combining (VPL.193) with the atom accounting gives
+
+```math
+\mathsf P(\mathcal T)\ge c\,\mathsf S(\mathcal T).
+\tag{VPL.196}
+```
+
+For \(\mathsf S(\mathcal T)=1\), this gives
+
+```math
+\mathsf P(\mathcal T)\ge c>0.
+\tag{VPL.197}
+```
+
+Hence a \(c_0=0\) minimizing sequence cannot be the long unpaid
+same-normalized-affine chain. The remaining formal burden is to package
+(VPL.192)--(VPL.193) as the strict overlap-charge lemma inside the participation
+atomization theorem.
