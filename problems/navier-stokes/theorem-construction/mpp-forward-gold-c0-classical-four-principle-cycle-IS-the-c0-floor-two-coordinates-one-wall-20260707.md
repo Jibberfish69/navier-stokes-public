@@ -81,6 +81,19 @@ scale, nonlinear stretching produces finer-scale gradient, and the question — 
 viscous payment, uniformly down the scales, forever**. Everything below is that
 one sentence in two coordinate systems.
 
+**The four-body solution is ONE solution acting simultaneously.** This is the
+load-bearing ontology and it governs everything below. The four bodies are **not**
+four principles applied in sequence, and **not** four separable sub-theorems that
+hand off around a loop. They are four aspects of the *same field* acting at the
+*same instant* — one propagated packet, one survivor family. The diagram arrows
+below are the **mutual, simultaneous self-reinforcement of one object with
+itself**, read all-at-once, never a pipeline you traverse. This is Principle 1
+(never slice `u`) at the level of the *solution*, and it is exactly the
+classical-side statement of the shrink-map's own refrain — *"the route is no longer
+a menu of independent producers."* Both the four bodies and the four c₀ coordinates
+are **one object, not four**; any move that closes one face in isolation of the
+others has already left the object.
+
 ## 1. Two coordinate systems for the floor
 
 **Classical (Layer-1 theorem contract, the four-principle cycle).**
