@@ -35,16 +35,19 @@ completion_truth: >-
   (checked: u_l=l u(l x, l^2 t) leaves Gamma fixed), hence marginal, not an
   absolute clock. Participation multiplicity (coherent sub-participants a finite
   parent hosts at scale l) GROWS like (L0/l)^3, so there is no finite-multiplicity
-  bound forcing a single non-self-tightening relay. So participation, like scaling
-  and pressure, transfers the strict piece back to viscosity's absolute clock
-  (uniform local Re^{-1}); the reframing corrects the OBJECT without changing the
-  strictness VERDICT. WHAT IT BUYS: it fuses the participation LAW (Gate-2
-  admission charge) with the participation HESSIAN — the admission charge IS this
-  Hessian's action — and it explains why the non-local term is the whole game.
-  The terminal object is now correctly named: does the non-local participation
-  Hessian subtract STRICTLY, uniformly down the cascade, from the local
-  self-amplification. That is 3D global regularity; open. No FullTower retention,
-  material-time Liouville, WLF.60, c_0, or MPP closure is proved.
+  bound forcing a single non-self-tightening relay. So participation, like
+  pressure and circulation, corrects the OBJECT but does not supply a rate. After
+  the viscosity-marginal-on-the-counterobject weld, the strictness residue is the
+  same rigidity/sign problem: exclude the log-marginal same-fluid participation
+  tower as a real finite-energy irreversible material history, or route the
+  parent/positive-part defect out before readout. WHAT IT BUYS: it fuses the
+  participation LAW (Gate-2 admission charge) with the participation HESSIAN —
+  the admission charge IS this Hessian's action — and it explains why the
+  non-local term is the whole game. The terminal object is now correctly named:
+  does the non-local participation Hessian enforce a same-edge bill/exit
+  rigidity against local self-amplification. That is 3D global regularity; open.
+  No FullTower retention, material-time Liouville, WLF.60, c_0, or MPP closure is
+  proved.
 ---
 
 # The terminal object is a participation Hessian, not a pressure Hessian
@@ -90,10 +93,11 @@ temptation to declare victory.
   at scale `ℓ`) **grows** like `(L₀/ℓ)³`. No finite-multiplicity bound forces the
   cascade into a single, non-self-tightening relay.
 
-So participation transfers the strict piece back onto the same non-covariant clock
-— viscosity, `ε_* ~ uniform local Re⁻¹` — exactly as the scale-covariance filter
-predicts. The reframing corrects the **object**; it does not change the
-**strictness verdict**.
+So participation does not create a rate. After the viscosity-weld correction,
+the strict piece is the same non-rate object: a rigidity/sign exclusion of the
+log-marginal participation tower, or a same-edge bill/exit before the parentless
+positive defect is counted. The reframing corrects the **object**; it does not
+change the **strictness verdict**.
 
 ## 4. What it buys (the genuine progress)
 
@@ -113,4 +117,6 @@ predicts. The reframing corrects the **object**; it does not change the
   is not proving it
 - circulation and multiplicity are **scale-covariant/growing** — no free
   non-covariant lever from participation alone
-- the strict, uniform subtraction is still `c_0` — 3D global regularity, open
+- the strict, uniform subtraction is still `c_0` — now typed as same-edge
+  bill/exit rigidity rather than a quantitative viscous-rate margin; 3D global
+  regularity remains open

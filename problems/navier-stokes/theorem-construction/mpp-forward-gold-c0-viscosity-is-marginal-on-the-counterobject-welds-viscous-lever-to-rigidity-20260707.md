@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-viscosity-is-marginal-on-the-counterobject-welds-viscous-lever-to-rigidity-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / consolidation weld: the §7 viscous lever and the delamination rigidity are the same wall, because the scaling is exact INCLUDING viscosity on the very counterobject
-status: CONSOLIDATION + ONE PRUNING RESULT, NOT A PROOF; subordinate to the shrink-map, welds two 2026-07-07 leading-edge files that sat side by side unreconciled
+route: "forward-gold / c_0 / consolidation weld: the §7 viscous lever and the delamination rigidity are the same wall, because the scaling is exact INCLUDING viscosity on the very counterobject"
+status: "CONSOLIDATION + ONE PRUNING RESULT, NOT A PROOF; subordinate to the shrink-map, welds two 2026-07-07 leading-edge files that sat side by side unreconciled"
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous dissipative pressure-constrained irreversible Navier-Stokes history
   reversible: false
