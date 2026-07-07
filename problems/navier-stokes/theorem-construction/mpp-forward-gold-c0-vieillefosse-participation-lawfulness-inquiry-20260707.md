@@ -2943,6 +2943,7 @@ For an incompressible completion \(u=u_A+w\), the correction satisfies
 =
 -(\partial_\rho a-2a)
 \frac{\omega\cdot A\omega}{r^2}
+\+
 \text{strict-atom error}.
 \tag{VPL.237}
 ```
