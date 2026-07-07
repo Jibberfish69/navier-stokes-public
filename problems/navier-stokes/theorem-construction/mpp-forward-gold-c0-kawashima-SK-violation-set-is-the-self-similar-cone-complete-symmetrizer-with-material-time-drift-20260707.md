@@ -30,21 +30,22 @@ completion_truth: >-
   four-vector 𝔘_N=(S_N,Q_N,C_N,G_N), with 𝓛_σ=A_σ−B_σ+E_σ (A conservative cyclic
   exchange S⇌Q⇌C⇌G⇌S, B≥0 dissipative loss), and the Shizuta-Kawashima genuine-
   coupling condition (Z∈ker B & A^k Z∈ker B ∀k ⟹ Z∈𝓖 gauge), which is a Kalman-type
-  observability tower {B,BA,BA^2,...}. FOUR MOVES. (A) The SK tower degenerates
-  EXACTLY on the self-similar strain cone, where A and B are simultaneously diagonal
-  (both pure scalings) so A^k(ker B)⊆ker B never escapes; that cone is the B≡1
-  log-self-similar tower N_L~2^{-L}/L = the counterobject. So SK holds on every mode
-  except the cone; [A,B] and higher brackets are non-degenerate off the cone, zero on
-  it. This is the algebraic identity of viscosity-marginal-on-counterobject /
-  purely-cross-rung / scale-covariance, and the affine X_comm=−c log|ℓ|→−∞ no-go is
-  the symmetrizer failing on the cone. (B) c_0>0 ⟺ the observability tower is
-  full-rank on the non-gauge space ⟺ A,B genuinely fail to commute on every mode a
-  finite-energy field can occupy; the counterobject is the unique commuting cone.
-  (C) The symmetrizer is a FUNNEL: H=I+K is coercive on the whole complement of the
-  cone (SK holds there), so it disposes of every non-self-similar excitation and any
-  blow-up must asymptotically collapse onto the cone. Hence regularity = [symmetrizer
-  off the cone: structure in hand, generic] + [route-b on the cone: open]; this is
-  WHY every surface funnels to route-b (route-b IS the SK residual). (D) NEW ATTACK:
+  observability tower {B,BA,BA^2,...}. FOUR MOVES, HONESTLY GRADED. (A) CLASSIFICATION
+  (algebra on the frozen/finite-dim retained quotient — NOT a PDE theorem; the PDE
+  production is explicitly absent, DKF §3): the observability tower degenerates on the
+  self-similar strain cone, where A and B are simultaneously diagonal (both pure
+  scalings); that cone coincides with the B≡1 log-self-similar tower N_L~2^{-L}/L =
+  counterobject = viscosity-marginal/purely-cross-rung/scale-covariance set. NOT proved:
+  that the infinite-dim PDE dissipation reaches all off-cone modes (that is the open
+  bounded-symmetrizer theorem). The one real theorem is the affine no-go
+  (X_comm=−c log|ℓ|→−∞). (B) c_0>0 REQUIRES (necessary, not sufficient) non-commutativity
+  of (A,B) on occupied modes; the reverse implication is Shizuta-Kawashima's small-data
+  theorem and is NOT available at large data. (C) CONDITIONAL funnel: IF a bounded
+  off-cone symmetrizer existed at large data (OPEN), THEN it would dispose of non-self-
+  similar excitation and force blow-up onto the cone (regularity = [off-cone, aspiration]
+  + [route-b on cone, open]); the antecedent is unproven and the affine stretching
+  obstruction is not confined to the cone, so this is a candidate architecture, not a
+  theorem. (D) NEW ATTACK (the genuinely useful output):
   on the cone spatial A,B commute so no spatial symmetrizer exists (that is the repo's
   affine no-go, a theorem not a gap); but in self-similar variables the profile carries
   a material-time DRIFT 𝓓~−½(1+y·∇), the generator of the rescaling, which does NOT
