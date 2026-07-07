@@ -21,6 +21,7 @@ allowed_source_refs:
 derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-record-lower-entrance-source-verdict-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-native-menu-positive-selection-storage-countermodel-20260707.md
 completion_truth: >-
   Failed-gate certificate for the active goal, not a proof of c_0 and not a
   refutation of NormalizedRelayBillCompactnessRecordPassage.A. The allowed
@@ -43,7 +44,10 @@ completion_truth: >-
   detector-angle algebra only; they do not prove positive-selection storage,
   exact-projector chart admission, or the strict original-ledger generator
   storage that now underlies the detector-silent strict half-barrier through the
-  transition-derivative collapse.
+  transition-derivative collapse. The positive-selection storage gap is now
+  checked by an explicit native-menu countermodel: finite menu admission and
+  one-record admission can both hold while the scale-normalized positive
+  selection sum over future disjoint records diverges.
 ---
 
 # Normalized relay passage: failed gate and smallest exposed theorem
@@ -191,6 +195,15 @@ P(t)\,dt
 
 It also derives record admission from that menu for one record interval. What
 is open is positive-selection storage for all future disjoint record intervals.
+The native-menu countermodel shows why this is a genuine missing theorem, not a
+transcription detail: a preannounced menu can assign each record interval to a
+fresh legal native edge, so the one-record admission row holds while the
+scale-normalized positive-selection sum is infinite. Thus the first lower
+failed clause inside the parent-owned package is
+
+```math
+\texttt{RecordNativeWorkMenuPositiveSelectionStorage.A}.
+```
 
 The frozen detector-angle algebra is finite-dimensional after one retained
 edge, packet, and frequency direction are fixed:
