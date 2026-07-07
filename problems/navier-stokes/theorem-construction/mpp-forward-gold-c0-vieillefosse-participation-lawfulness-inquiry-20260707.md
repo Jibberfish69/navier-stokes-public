@@ -3135,7 +3135,11 @@ The \(P_4\)-free branch and the restricted-Euler/Vieillefosse closure live on
 the aligned side: the pressure Hessian may be anisotropic, but it shares the
 strain eigenframe, so it does no transverse work. The proposed \(c_0\) sign is
 the exclusion of persistent aligned anisotropy on a lawful forward-time,
-finite-energy, nonzero-service participation tower.
+finite-energy, retained positive-record participation tower. A stopped/pass
+affine core may have local Vieillefosse strain with zero transverse pressure;
+it is not the live counterobject unless it is actually carrying retained
+participation through the tower. If the participation is pushed into a collar,
+the collar is the payer.
 
 In the strain eigenframe, the transverse components are
 
@@ -3150,7 +3154,7 @@ In the strain eigenframe, the transverse components are
 Thus the first falsifiable target is an embedding minimax:
 
 ```math
-\inf_{\text{lawful nonzero-service embeddings}}
+\inf_{\text{lawful retained positive-record marginal towers}}
 \operatorname{sgn}_{\rm mat}
 \bigl([S^2,\nabla^2q]\bigr)
 >0,
@@ -3159,11 +3163,13 @@ Thus the first falsifiable target is an embedding minimax:
 
 where \(\operatorname{sgn}_{\rm mat}\) is the oriented transverse component
 read with the material-time rotation of the strain frame. If an adversary can
-choose a lawful finite-energy self-similar or log-self-similar embedding for
-which \(\nabla^2q\) remains diagonal in the \(S\)-frame rung by rung, this
-commutator-sign route fails. If no such embedding exists and the oriented
-misalignment has a uniform sign, the Shizuta-Kawashima Lyapunov mechanism has
-the missing genuine-coupling input.
+choose a lawful finite-energy self-similar or log-self-similar marginal tower
+that carries retained positive record while \(\nabla^2q\) remains diagonal in
+the \(S\)-frame rung by rung, this commutator-sign route fails. A merely local
+aligned affine core is a pass/nonparticipating reading, not a failure. If no
+retained participating aligned tower exists and the oriented misalignment has a
+uniform sign, the Shizuta-Kawashima Lyapunov mechanism has the missing
+genuine-coupling input.
 
 The physical origin of the sign is the causal material-time lag: the local
 stretch frame is advected and rotated by the flow, while the participation
@@ -3174,7 +3180,7 @@ a rate, and why viscosity is not the source of the sign.
 
 This target crosses only if it proves all three points uniformly:
 
-1. the aligned manifold is not invariant for any lawful nonzero-service
+1. the aligned manifold is not invariant for any lawful retained positive-record
    forward-time finite-energy participation tower;
 2. the transverse commutator has a fixed material orientation over the embedding
    minimax, including at \(\nu=0\);
