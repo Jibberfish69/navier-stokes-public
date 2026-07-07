@@ -19,6 +19,9 @@ target_objects:
   - RecordMenuDetectorSilentServicePreReadoutReserve.A
   - OriginalHistoryDetectorSilentStrictHalfBarrier.A
   - SelectedGeneratorStorageCoercivity.A
+  - StrictOriginalLedgerGeneratorStorage.A
+  - FullExchangeCriticalDepletionStorage.A
+  - RecordFeedingSurplusPerronClassExclusion.A
   - PositiveCriticalTransferBound.A
   - FullTowerPositiveChannelThreeMeasureAdmission.A
   - SignedSmoothSamePacketCommutatorCoercivity.A
@@ -41,11 +44,14 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-record-feeding-perron-circulation-normal-form-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-affine-transition-predictable-weight-martingale-lock-20260627.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-stopped-affine-quotient-transition-square-packing-direct-attack-20260627.md
@@ -384,7 +390,7 @@ with stopped testing/root-generator language giving a construction route
 \]
 The TFE stopped-testing audit blocks reading `(NPB.12g4)' as a lower source by
 itself: the testing/current clauses are support unless they construct the same
-record-admitted original-ledger carrier. The noncircular lower producer remains
+record-admitted original-ledger carrier. At that source layer, the carrier is
 \[
 \texttt{StrictOriginalLedgerGeneratorStorage.A}
 \Longleftrightarrow
@@ -393,6 +399,21 @@ record-admitted original-ledger carrier. The noncircular lower producer remains
 \]
 or the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the same
 order-locked full-packet carrier.
+
+The later matrix/Perron audit lowers `(NPB.12g5)' again. A direct
+record-admitted active-critical/full-exchange/active-transit matrix with
+\(\rho(K)<1\) is a sufficient original-data face theorem, but a failed strict
+margin is exactly a record-feeding Perron class. Once its positive edges are
+admitted as same-packet positive/negative/current channels, four-body activity
+pays them. Thus the current same-fluid producer below the matrix wrapper is
+\[
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A},
+\tag{NPB.12g6}
+\]
+or one independent original-data face strong enough to make the matrix
+subcritical. The theta envelope and pure local \(X_{comm}\) shortcut are
+checked no-go routes, so the active pre-envelope source is the signed
+same-packet commutator / moving low-high pressure-strain driver line.
 
 These are the current physical places where the irreversible same-fluid history
 must pay the retained positive record before readout.
