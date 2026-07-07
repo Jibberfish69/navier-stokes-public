@@ -35,6 +35,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-morrey-envelope-thickness-charge-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-lowpass-collapses-to-higher-projector-service-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transition-derivative-collapses-to-original-ledger-generator-storage-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
 completion_truth: >-
   Direct proof pass. The zero-bill record kernel gives the right rigidity
   statement, but it does not by itself yield c_0>0. The exact epsilon extraction
@@ -67,7 +68,10 @@ completion_truth: >-
   StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A
   through the original-history transition derivative collapse. That storage
   theorem and the exact-projector/B-currency clauses are explicitly open in the
-  allowed sources. So this pass
+  allowed sources. The retained Perron-circulation follow-up proves that, after
+  positive-channel three-measure admission, a branching ratio-one Perron class
+  cannot hide from four-body activity; it shifts the first failed Gate 2 line to
+  FullTowerPositiveChannelThreeMeasureAdmission.A itself. So this pass
   does not close c_0 or the repo; it reduces closure to one exact
   compactness-and-record theorem and names the current escape routes for a
   vanishing-bill sequence. The first failed gate is now Gate 2.
@@ -268,6 +272,13 @@ dA_{Q,N}(j)+dD_S(j)+dD_C(j)+dD_G(j)+dR_{4B,N}(j)>0 .
 
 After-the-fact retained compactness is a consumer only after the
 positive/negative/current packet has already been produced.
+
+The retained Perron-circulation follow-up removes the branching version of the
+same worry. Once the selected positive edges are already retained as
+positive/negative/current packets, the balanced Perron edge flow has positive
+total variation and posts positive \(dA_{4B,N}\). Hence a vanishing-bill
+sequence can no longer hide in a record-feeding Perron class after edge
+admission; it must fail at admission or route out.
 
 The retained-window hypothesis does not remove this gap. Terminal `Part` means
 that the pressure-viscosity carrier law is retained with the terminal
