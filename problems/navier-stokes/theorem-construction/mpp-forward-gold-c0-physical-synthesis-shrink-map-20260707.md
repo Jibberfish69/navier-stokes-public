@@ -102,6 +102,9 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-irreversibility-rebuild-reversible-frame-withdrawal-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-scale-covariance-filter-irreversibility-only-lever-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
@@ -202,6 +205,7 @@ supersedes_as_live_frontier:
   - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
   - generic pressure/collar or non-affine pressure-viscous wording as the final source after the graph-driver split
   - strict half-barrier or weight-beating tail wording as an independent producer rather than the ratio-tail form of the same moving pump/free-material graph driver
+  - strict alignment deficit or pursuit-lag wording as an independent c_0 closer rather than a sign coordinate that must pay the same moving-driver first-ratio/no-free-upward-transfer wall
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
   - original-history transition derivative as an independent bottom rather than a projection of the parent root generator/full-exchange ledger
   - stopped accretive testing, native-birth packing, positive critical transfer, or dyadic no-free-upcascade as sibling producers unless they build the same record-admitted full-exchange/original-ledger coercivity before readout
