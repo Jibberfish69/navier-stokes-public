@@ -9,8 +9,8 @@ status: CORRECTED STRICT REDUCTION. The transverse pressure-Hessian coupling sur
   affine-symbol test shows the bare Calderon-Zygmund transverse response changes sign over
   angular embeddings on S^2, so the terminal target is not naked spectral positivity of the
   pressure operator. The remaining theorem is retained-participation angular positivity:
-  selected material orientation plus pass/collar/zero-record classification must prevent
-  cancellation of the transverse response.
+  selected material orientation plus angular transport/mixing payment plus pass/collar/zero-record
+  classification must prevent cancellation of the transverse response.
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous Navier-Stokes history
   brake: transverse (eigenframe-rotating) part of the non-local pressure Hessian; the aligned
@@ -39,9 +39,12 @@ completion_truth: >-
   quotiented, but the angular problem is a retained-participation minimax, not naked spectral
   positivity of the Calderon-Zygmund operator on S^2. c_0 > 0 requires a uniform positive lower
   bound after selected material orientation, retained participation measure, and
-  pass/collar/zero-record classification prevent angular cancellation. HONEST STATUS: this is a
-  strict reduction plus a failed bare-symbol positivity attempt; the retained angular Liouville
-  rigidity remains open and is the current c_0 wall.
+  angular transport/mixing payment plus pass/collar/zero-record classification prevent angular
+  cancellation. The zero-cone transport test sharpens the open lemma: the cancellation cone
+  2n_3²=1 is crossed by the affine angular flow, so a zero-lag retained history must pay angular
+  redistribution/source/selector flux, collapse to degenerate endpoint channels, or route through
+  collar/exit/pass. HONEST STATUS: this is a strict reduction plus a failed bare-symbol positivity
+  attempt; the retained angular Liouville rigidity remains open and is the current c_0 wall.
 ---
 
 # Corrected transverse-coupling reduction
@@ -124,9 +127,17 @@ c_0>0
 where retained admissible means the same material participant carries positive critical-record
 service after pass, collar, and zero-record classifications have been applied.
 
-The adversary can try to mix the two angular signs in the bare symbol. The theorem must prove
-that a positive-record retained marginal tower cannot use that angular cancellation while still
-participating.
+The adversary can try to mix the two angular signs in the bare symbol. The affine angular flow
+sharpens the required theorem: if \(z=n_3^2\), then up to time orientation
+
+```math
+\frac{d}{dt}(2z-1)=\pm 12a\,z(1-z).
+```
+
+The zero cone \(2z-1=0\) is crossed with nonzero speed. A retained zero-lag
+history must therefore pay angular redistribution/source/selector flux, collapse
+to the degenerate endpoint channels \(z=0,1\), or route through collar/exit/pass.
+That angular-mixing payment is the current smaller Liouville target.
 
 ## 6. Honest status
 
