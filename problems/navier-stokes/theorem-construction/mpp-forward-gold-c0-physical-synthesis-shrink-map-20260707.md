@@ -17,7 +17,6 @@ ontology_lock:
     - irreversible
 target_object:
   - CriticalHeightGrowingMarginalRecordLadder.A
-  - FullTowerSignedTotalExchangeRetention.A
   - MaterialTimeLiouvilleExclusion.A
   - ThetaRecordPayerMeasureAdmission.A
   - RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A
@@ -87,16 +86,19 @@ supersedes_as_live_frontier:
   - simple unit-cycle wording as the whole matrix obstruction after the Perron-class normal form
   - theta-envelope positivity as same-packet three-measure admission
   - pure local bounded X_comm storage as the signed commutator proof
+  - FullTowerSignedTotalExchangeRetention.A as a reversible-retention theorem
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
   critical-height growth H(t)->infinity in one irreversible incompressible
   viscous pressure-constrained Navier-Stokes history, with positive retained
   record service and ratio-one same-packet payers. It is not a standalone
   self-similar or DSS profile, since exact scaling preserves the critical
-  height and DSS repeats that currency. The route-a tower-retention and route-b
-  material-time Liouville stories reduce to the same Gate2/WLF.60 early-row
-  wall after typed route-outs, theta-payer admission, compact zero-loss
-  extraction, original-ledger matrix reduction, and WLF mismatch analysis. The
+  height and DSS repeats that currency. The old route-a FTR branch is defunct
+  as reversible tower-retention; its surviving content is only the one-way
+  positive-channel inventory FTR.3-FTR.10. That inventory and the route-b
+  material-time Liouville story reduce to the same Gate2/WLF.60 early-row wall
+  after typed route-outs, theta-payer admission, compact zero-loss extraction,
+  original-ledger matrix reduction, and WLF mismatch analysis. The
   broad mismatch branch is no longer the endpoint: finite nonterminal mismatch
   is paid, identified, or charged; an admitted terminal atom is consumed by
   route-b or CM consumers; the unadmitted forward survivor is terminal visible
@@ -133,9 +135,8 @@ completion_truth: >-
   theta envelopes are support unless they build that same record-admitted
   matrix, three-measure admission, pre-envelope signed commutator, early-row
   payment, overrun tail UI, or typed CM route-out before readout. No such matrix,
-  three-measure admission, signed commutator, early-row face, FullTower
-  retention, material-time Liouville theorem, WLF.60, c_0, or MPP closure is
-  proved here.
+  three-measure admission, signed commutator, early-row face, material-time
+  Liouville theorem, WLF.60, c_0, or MPP closure is proved here.
 ---
 
 # c0 physical synthesis shrink map
@@ -172,7 +173,7 @@ reduction is:
 \begin{array}{c}
 \texttt{CriticalHeightGrowingMarginalRecordLadder.A}\\
 \Downarrow\\
-\texttt{FullTowerSignedTotalExchangeRetention.A}
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
 \quad\text{or}\quad
 \texttt{MaterialTimeLiouvilleExclusion.A}\\
 \Downarrow\\

@@ -1,13 +1,13 @@
 ---
 theorem_id: forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706
-status: strict-reduction-radiodrome-defect-equals-full-tower-retention-or-b3-liouville
+status: strict-reduction-radiodrome-defect-equals-positive-channel-admission-or-b3-liouville
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / participation tower / route (b) material-time Liouville
 target_object:
   - OneVPIFluidField.ParticipationTower
   - RadiodromeTowerRelayDefect
-  - FullTowerSignedTotalExchangeRetention.A
+  - FullTowerPositiveChannelThreeMeasureAdmission.A
   - MaterialTimeCertificateFlowInvariance.A
   - MaterialTimeLiouvilleExclusion.A
 source_refs:
@@ -28,10 +28,13 @@ completion_truth: >-
   object is the one VPI fluid-field read up its participation tower. Pressure
   Hessian pursuit and eigenframe-gap rigidity remain demoted local readings.
   The native tower-level pursuit cost is the positive material-record growth
-  that is not retained by the same-packet signed four-body exchange, strict
-  loss, Q-activity, or legal residual. Proving this defect has no marginal
-  tail is exactly FullTowerSignedTotalExchangeRetention.A, or, after
-  certificate compactness, the B3 material-time Liouville/invariance theorem.
+  that is not admitted or paid by same-packet three-measure retention, strict
+  loss, Q-activity, or legal residual. The old FTR retention label is defunct
+  as a reversible tower-cycle theorem; its surviving content is the one-way
+  positive-channel inventory. Proving this defect has no marginal tail is now
+  FullTowerPositiveChannelThreeMeasureAdmission.A / pre-readout payment, or,
+  after certificate compactness, the B3 material-time Liouville/invariance
+  theorem.
   The shift-hull follow-up proves the abstract invariance mechanism once a
   compact certified material-time path hull and closed zero-surplus certificate
   graph are built, so the route-b flow row is now reduced to that compact
@@ -138,8 +141,8 @@ against the nonlinear split cascade along the same material tower.
 
 ## 2. What the direct attempt proves
 
-The full-tower retention note proves the signed identities and locates the
-missing line:
+The historical FTR note proves the signed identities and locates the missing
+one-way admission line:
 
 ```math
 \text{every positive generated tower-record channel is retained as}
@@ -151,7 +154,7 @@ missing line:
 With the notation above,
 
 ```math
-\texttt{FullTowerSignedTotalExchangeRetention.A}
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
 \quad\Longleftrightarrow\quad
 dL_N^{rad}=0
 \quad\text{up to the installed legal residual envelope}.
@@ -159,8 +162,8 @@ dL_N^{rad}=0
 ```
 
 Thus the first proof attempt does not create a new payer. It restates the
-missing retention theorem in a native pursuit coordinate: finite capture means
-no unretained positive tower-record chase.
+missing admission theorem in a native pursuit coordinate: finite capture means
+no unadmitted positive tower-record chase.
 
 The useful sharpening is the failure object. Failure of `(RTR.8)` is not a new
 center pulse or a pressure-Hessian gadget. It is a sequence of same-material
@@ -261,7 +264,7 @@ So the strongest honest output of the attempt is the strict fork
 \Rightarrow
 \left(
 \begin{array}{c}
-\text{FullTowerSignedTotalExchangeRetention.A fails as Part-record loss}\\
+\text{positive-channel admission fails as Part-record loss}\\
 \text{or}\\
 \text{a certified material-time marginal profile exists}
 \end{array}
@@ -271,7 +274,7 @@ So the strongest honest output of the attempt is the strict fork
 ```
 
 Excluding the second line is exactly the route-(b) Liouville theorem. Proving
-the first line cannot occur is exactly the route-(a) full-tower retention
+the first line cannot occur is exactly the route-(a) positive-channel admission
 theorem. The radiodrome coordinate does not bypass either one.
 
 ## 5. Result
@@ -294,7 +297,7 @@ No local pressure-Hessian or eigenframe argument survives the affine-packet
 floor test. The next theorem is exactly one of:
 
 ```math
-\texttt{FullTowerSignedTotalExchangeRetention.A}
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}
 \tag{RTR.15}
 ```
 

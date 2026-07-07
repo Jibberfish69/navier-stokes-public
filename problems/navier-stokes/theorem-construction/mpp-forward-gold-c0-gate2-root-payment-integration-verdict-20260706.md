@@ -6,8 +6,8 @@ problem: navier-stokes
 route: forward-gold / c_0 epsilon extraction / Gate 2 root-payment integration
 target_object:
   - NormalizedRelayBillCompactnessRecordPassage.A
-  - FullTowerSignedTotalExchangeRetention.A
-  - StrictSamePacketCycleExchangeCoercivity.A
+  - FullTowerPositiveChannelThreeMeasureAdmission.A
+  - SignedSmoothSamePacketCommutatorCoercivity.A
   - SimultaneousMaterialFourBodyPacketCoercivity.A
   - OriginalHistoryRecordResetRootPayment.A
   - FullTowerPositiveChannelRootProjection.A
@@ -29,8 +29,8 @@ completion_truth: >-
   original Navier-Stokes history before selected readout. But its own checked
   state leaves OriginalHistoryRecordResetRootPayment.A open. The full-tower
   positive-channel projection audit also shows that root payment alone does not
-  cover every positive generated full-tower channel in FTR.10: the unowned
-  channel is the scale-normalized full material
+  cover every positive generated full-tower channel in the historical FTR.10
+  inventory: the unowned channel is the scale-normalized full material
   strain/coefficient/commutator clock, equivalently the signed smooth
   same-packet commutator/coercivity line needed to put the material record
   log-growth clock on the prelimit left side. Gate 2 remains the first failed
@@ -93,16 +93,18 @@ M-M=0,
 So the signed four-body cancellation by itself does not price the positive
 record.
 
-The missing Gate 2 theorem is still:
+The missing Gate 2 theorem is no longer the old reversible FTR retention label.
+It is the one-way admission theorem:
 
 ```math
-\texttt{StrictSamePacketCycleExchangeCoercivity.A}.
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
 \tag{G2R.5}
 ```
 
-Every complete same-packet exchange cycle with nonzero total positive
-tower-record variation must post strict four-body loss, selected Q-activity,
-or already-enveloped residual:
+Every generated positive tower-record channel must be retained before readout
+as a same-packet positive/negative/current packet, or else post strict
+four-body loss, selected Q-activity, viscous/defect payment, legal residual, or
+typed route-out:
 
 ```math
 d\mathcal A_N^\kappa
@@ -206,8 +208,9 @@ can keep re-aiming through the tower only by producing a one-way record. A
 one-way record is physical only when the same parent history already contains a
 pawl: loss, Q-activity, viscosity/defect payment, or a retained
 positive/negative/current packet. Without that pre-readout pawl, the record can
-be a signed-total/positive-total mismatch: reversible exchange makes no net
-four-body demand while the positive counter records travel.
+be a signed-total/positive-total mismatch: net signed exchange makes no
+four-body demand while the positive one-way records travel. That mismatch is
+algebraic bookkeeping, not reversible Navier-Stokes ontology.
 
 Therefore the Opus root-payment note helps by giving the right producer shape
 for Gate 2, but it does not solve the gate. It reduces the gate to the
