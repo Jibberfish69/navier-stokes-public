@@ -38,6 +38,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
 derived_reductions:
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
 completion_truth: >-
