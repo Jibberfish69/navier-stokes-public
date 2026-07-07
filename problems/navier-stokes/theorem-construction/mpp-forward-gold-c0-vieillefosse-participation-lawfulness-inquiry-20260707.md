@@ -3191,6 +3191,48 @@ This target crosses only if it proves all three points uniformly:
 Until these points are proved, causal lag is the constructive target for
 endpoint strictness, not a completed proof of \(c_0>0\).
 
+### 26.1 Corrected attack: pressure re-aiming
+
+The attack is not that a local affine core cannot have aligned pressure. It can.
+That local zeroing is a stopped/pass or nonparticipating reading unless the same
+packet carries retained positive record through the tower.
+
+For an actual retained participant, let \(R(t)\) be the material strain frame,
+\(\widehat H=R^T\nabla^2qR\), and \(B=R^TD_tR\). If pressure remains aligned,
+\((\widehat H)_{ij}=0\) for \(i\ne j\). Differentiating in the moving frame gives
+
+```math
+0
+=
+(D_t\widehat H)_{ij}
+=
+\widehat{D_tH}_{ij}
++(h_i-h_j)B_{ij},
+\qquad i\ne j.
+\tag{VPL.252}
+```
+
+Thus a retained packet whose strain frame moves cannot keep the pressure frame
+aligned for free. Either \(B_{ij}=0\) on the active channels, so the packet is a
+pass/nonparticipant; or \(h_i=h_j\), so that channel is pressure-degenerate and
+cannot carry oriented record; or the same field must re-aim \(\nabla^2q\) through
+\(\widehat{D_tH}_{ij}\). That re-aiming is non-affine pressure/collar work in
+the same physical annulus.
+
+The corrected bridge is therefore the pressure-reaiming inequality
+
+```math
+\sum_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}
+\le
+C\,\mathsf P_{\rm reaim},
+\tag{VPL.253}
+```
+
+where \(\mathsf P_{\rm reaim}\) is already part of the same participation bill,
+and equality-zero forces pass/nonparticipation rather than positive retained
+record. This is the next exact theorem, recorded separately in
+`mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`.
+
 ## 27. Proved ingredient: log-scale endpoint inequality
 
 The one-dimensional part of Section 24 is closed. Let
