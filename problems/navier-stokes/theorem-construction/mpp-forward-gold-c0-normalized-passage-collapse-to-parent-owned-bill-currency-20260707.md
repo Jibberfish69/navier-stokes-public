@@ -20,6 +20,10 @@ target_objects:
   - OriginalHistoryDetectorSilentStrictHalfBarrier.A
   - SelectedGeneratorStorageCoercivity.A
   - PositiveCriticalTransferBound.A
+  - FullTowerPositiveChannelThreeMeasureAdmission.A
+  - SignedSmoothSamePacketCommutatorCoercivity.A
+  - NonAffinePressureViscousSignedCommutatorCoercivity.A
+  - ParentActiveCapacityThreeToothSource.A
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
@@ -34,6 +38,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-relay-rigidity-vs-theta-profile-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-detector-silent-half-tail-equals-first-ratio-storage-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-high-frequency-transfer-surplus-cycle-equivalence-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-perron-circulation-fourbody-coercivity-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-envelope-not-three-measure-packet-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-pure-local-xcomm-storage-no-go-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-root-fixed-service-storage-to-parent-active-source-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. The normalized bill-record compactness theorem remains
   open, but current sources show the proof search should not treat Gate 2, Gate
@@ -54,8 +63,17 @@ completion_truth: >-
   reserve: local parametrix/ellipticity is support, while the live chart row is
   same-edge chart-payer temporal admission plus higher-projector service or
   route-out before readout. That chart row rejoins selected-critical
-  original-history payment only after same-edge custody is enforced. No c_0 or
-  MPP closure is claimed.
+  original-history payment only after same-edge custody is enforced. The
+  selected-critical phrase is now typed: downstream record-admitted
+  active/full-exchange storage is circular as an entrance proof and can only be
+  used after the edge is admitted; the noncircular pre-readout source is the
+  original-history active/root payment. In the c_0/Perron reading this lowers to
+  FullTowerPositiveChannelThreeMeasureAdmission.A, which must be proved from
+  the pre-envelope signed same-packet commutator or an equivalent direct
+  original-data subcritical face. The unsigned theta envelope and pure local
+  bounded X_comm storage are checked no-gos. The surviving physical source wall
+  is the moving low-high pressure/strain driver / first-ratio no-free-upward
+  transfer bill before positive readout. No c_0 or MPP closure is claimed.
 ---
 
 # Normalized passage collapses to parent-owned bill currency
@@ -217,9 +235,52 @@ payment rejoins the selected-critical original-history wall:
 \tag{NPB.12}
 \]
 
-These are not support labels. They are the current physical places where the
-irreversible same-fluid history must pay the retained positive record before
-readout.
+These labels must be read in time order. Record-admitted depletion, reset
+charge, and active/full-exchange storage are downstream consumers after root
+projection has admitted the edge; using them as the entrance payment loops
+through the target. The entrance payment must instead be original-history
+active/root currency before the record reads the edge.
+
+In the current c_0 zero-surplus/Perron reading, that entrance row lowers to
+positive-channel admission:
+
+\[
+\texttt{FullTowerPositiveChannelThreeMeasureAdmission.A}.
+\tag{NPB.12b}
+\]
+
+The retained Perron circulation theorem already proves that an admitted
+positive channel cannot hide in signed cancellation: once the positive channel
+is retained as a same-carrier positive/negative/current packet, four-body
+activity sees it. Thus the remaining point is admission of the positive
+channel before compactness, not Perron branching.
+
+The theta envelope does not supply that admission. It is produced after taking
+absolute values and forgets the signed current, negative partner, and carrier
+orientation. The admissible pre-envelope row is
+
+\[
+\texttt{SignedSmoothSamePacketCommutatorCoercivity.A}.
+\tag{NPB.12c}
+\]
+
+The pure local bounded-storage route to `(NPB.12c)' is also blocked: an
+incompressible affine strain normal form forces any local primitive paying the
+positive log clock to run unboundedly downward over long stretch time. After the
+affine/collar paid branch is removed, the surviving source is therefore
+nonlocal pressure-viscous same-packet partner retention, equivalently the
+moving low-high pressure/strain driver / first-ratio no-free-upward-transfer
+bill:
+
+\[
+\texttt{NonAffinePressureViscousSignedCommutatorCoercivity.A}
+\quad\hbox{or}\quad
+\texttt{ParentActiveCapacityThreeToothSource.A}.
+\tag{NPB.12d}
+\]
+
+These are the current physical places where the irreversible same-fluid history
+must pay the retained positive record before readout.
 
 So the lower split is non-aliased:
 
@@ -228,7 +289,7 @@ So the lower split is non-aliased:
 \text{pressure-active angle:} & \text{finite-dimensional consumer after the collar},\\[1mm]
 \text{detector-silent service:} & \text{first-ratio strict half-barrier in invisible coordinates},\\[1mm]
 \text{exact-projector chart:} & \text{same-edge chart-payer admission plus higher service/exit},\\[1mm]
-\text{selected-critical payment:} & \text{original-history source of the detector-silent and rotation/escape charges}.
+\text{selected-critical payment:} & \text{pre-readout moving-driver/three-measure original-history source}.
 \end{array}
 \tag{NPB.12a}
 \]
@@ -252,4 +313,7 @@ The open source work is not "prove compactness" in the abstract. It is to build
 the parent-owned positive-record bill currency from the original
 pressure-viscosity-incompressibility history of the same packet, through the
 same-edge custody tuple and its detector-silent / exact-projector /
-selected-critical payment rows.
+selected-critical payment rows. At the current bottom this means proving
+pre-readout three-measure admission for the moving low-high same-packet driver,
+proving a direct original-data subcritical active/root face, or routing failure
+to a typed legal/stop/Pack/Part/Field exit before readout.
