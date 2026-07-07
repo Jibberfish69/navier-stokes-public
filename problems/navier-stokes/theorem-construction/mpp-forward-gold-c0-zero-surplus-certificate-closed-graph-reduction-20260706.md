@@ -40,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-temporal-thin-theta-payer-lsc-reduction-20260706.md
 completion_truth: >-
   Abstract closedness proof and strict reduction only. This note proves that
   the zero-surplus certificate graph is closed once every same-packet surplus
@@ -56,8 +57,10 @@ completion_truth: >-
   prove those Navier-Stokes payer lifts or the zero-loss spectral gap. The
   theta-payer follow-up shows that the positive theta-record payer lift is the
   Gate 2 pre-readout admission problem, not an independent shortcut around
-  FullTower retention. This file does not close FullTower retention, c_0, or
-  the MPP.
+  FullTower retention. The temporal-thin follow-up proves that after such a
+  payer is admitted on a compact terminal material-time window, shrinking
+  positive service survives as a nonzero atom and contradicts the zero-surplus
+  graph. This file does not close FullTower retention, c_0, or the MPP.
 ---
 
 # Zero-surplus certificate closed graph
@@ -217,7 +220,8 @@ construct the payer-measure lift and lower-semicontinuity for the actual
 same-fluid history. For the positive \(\Theta_N\)-record channel, the follow-up
 reduction identifies that lift with pre-readout Gate 2 admission of the
 future-positive edge into parent-owned/root/full-exchange currency. After that
-construction, zero-loss tower relay rigidity still has to be proved on the
-certified invariant surplus-zero class.
+construction, the temporal-thin atom lemma prevents shrinking material-time
+service from escaping the zero-surplus graph, and zero-loss tower relay
+rigidity still has to be proved on the certified invariant surplus-zero class.
 
 No \(c_0\) closure is claimed here.
