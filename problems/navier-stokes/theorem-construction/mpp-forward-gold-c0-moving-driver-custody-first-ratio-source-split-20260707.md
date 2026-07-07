@@ -37,6 +37,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-raw-event-space-not-parent-owned-bill-currency-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-finite-menu-norecount-not-first-ratio-payment-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf-odp-affine-transition-first-ratio-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-persistent-affine-quotient-record-return-producer-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-same-edge-no-detachment-producer-topology-synthesis-20260704.md
 completion_truth: >-
   Strict reduction only. This note does not prove
@@ -216,6 +217,24 @@ The no-go files block the shortcuts: finite menu/no-recount, raw Bessel mass,
 parent envelopes, and first-derivative Cauchy consumers do not pay the
 persistent affine quotient. Thus `(MDS.9a)' is a strict reduction, not a proof
 of WLF/ODP.
+
+The persistent quotient row has now been lowered one step further:
+
+```math
+\texttt{PersistentAffineQuotientRecordReturnProducer.A}
+\Longrightarrow
+\texttt{PersistentAffineQuotientRouting.A}.
+\tag{MDS.9c}
+```
+
+The producer package is fixed same-edge stopped-channel admission before
+readout, stopped selector aperture/common-selector refinement, signed
+scale-potential lift, endpoint potential record/average control, and selected
+return admission to linear BV. The fixed-channel lift and potential-average
+bound are consumers after admission; root-geometry square return is not linear
+one-way BV without the selected-return admission. The lower noncircular
+producer is still original-history selected potential/amplification BV, or the
+equivalent strict original-ledger generator/full-exchange depletion carrier.
 
 ## 4. The sharpened package
 
