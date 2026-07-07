@@ -37,6 +37,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fresh-overrun-tail-ui-no-invisible-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-admission-same-edge-bill-currency-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selected-return-inverse-weight-capacity-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-selector-force-balance-leg-bill-currency-audit-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-acceleration-endpoint-impulse-finite-storage-routeout-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
@@ -488,6 +489,28 @@ conditional route is
 The new package is still open.  This only prevents two false returns: proving
 fixed-chart channel formulas again, or treating finite menu/no-recount as the
 selected first-ratio bill.
+
+The return-side part of the first-ratio bill has one sharper algebraic
+coefficient.  The fixed stopped-score/root-geometry square payment becomes
+selected linear return BV under
+
+\[
+\texttt{SameEdgeSelectedReturnInverseWeightCapacity.A}
+\tag{UCD.16h}
+\]
+
+together with the original-history selected potential/amplification or selected
+generator storage bound.  The inverse-weight capacity is
+
+\[
+\sum_I\int_Iw^{-1}\,d\sigma
+\le C_N\mathcal R(P)+Legal+Stop+RouteOut,
+\tag{UCD.16i}
+\]
+
+on the same retained selected-return family used by the harmonic square
+currency.  This is still an unproved same-edge admission/source theorem, but it
+is now the exact Cauchy coefficient for the square-to-linear return conversion.
 
 The moving-driver Jordan pass removes only the orientation part of this wall.
 On a fixed parent-known material event space,
