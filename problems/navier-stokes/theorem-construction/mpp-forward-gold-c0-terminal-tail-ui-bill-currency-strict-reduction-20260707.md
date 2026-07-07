@@ -355,7 +355,7 @@ original same-material history:
 
 on the relevant stopped carrier.
 
-The parent-active source route can close by constructing the pre-clipping
+The parent-active source route can close by constructing the pre-readout
 source package
 
 \[

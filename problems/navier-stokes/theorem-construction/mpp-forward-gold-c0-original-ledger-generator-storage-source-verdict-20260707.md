@@ -79,7 +79,7 @@ coordinates of that same packet.
 
 The remaining c0 producer is not another record menu and not a terminal
 compactness wrapper. It is the statement that the original parent packet has a
-strict reserve drop before child positive clipping. In the current c0 language
+strict reserve drop before child selected positive extraction. In the current c0 language
 this is
 
 ```math

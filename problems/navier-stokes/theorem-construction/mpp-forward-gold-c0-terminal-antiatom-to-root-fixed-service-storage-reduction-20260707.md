@@ -114,7 +114,7 @@ Along the way, the source audit proves several negative reductions:
   selected weight is parent-built;
 - a backward adjoint detector exists, but its raw parent norm inflates at the
   selected zoom scale;
-- input-colored positive clipping is diagnostic for Gold unless a separate
+- input-colored selected positive extraction is diagnostic for Gold unless a separate
   two-point product-current theorem is introduced;
 - signed full-output current representation does not pay positive upcrossing
   variation.

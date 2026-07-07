@@ -76,7 +76,7 @@ the critical height, so they are tests of scale-equality bookkeeping, not the
 record-growth counterobject.
 
 At the source wall, the same fluid packet must already carry the record before
-child positive clipping. The parent-active three-tooth package was the right
+child selected positive extraction. The parent-active three-tooth package was the right
 container:
 
 \[
@@ -213,7 +213,7 @@ generator storage/coercivity line:
 
 This is the current lower physical wall for the persistent affine/root quotient:
 construct the bounded-below original-ledger storage/coercivity for the same
-coupled packet before child positive clipping. Dyadic counts, stopped-edge
+coupled packet before child selected positive extraction. Dyadic counts, stopped-edge
 sums, martingale/Bessel formulas, reset ledgers, and record/return identities
 are consumers of that continuous parent-root measure.
 

@@ -229,8 +229,8 @@ supersedes_as_live_frontier:
   - repeated-core record/return and shrinking-core reset as sibling lower producers rather than branch tests of one parent-known pre-readout active-state/root-currency/record-storage package
   - original-history transition derivative as an independent bottom rather than a projection of the parent root generator/full-exchange ledger
   - stopped accretive testing, native-birth packing, positive critical transfer, or dyadic no-free-upcascade as sibling producers unless they build the same record-admitted full-exchange/original-ledger coercivity before readout
-  - OneSidedAlignedCurrentDomination.A as final bottom after Section 101 lowers it to full-exchange depletion plus before-clipping active-density comparison
-  - raw same-parent pressure-Hodge atom decomposition or retained opposite-lobe reserve as the selected-critical Gold source after the raw before-clipping atom request is discharged
+  - OneSidedAlignedCurrentDomination.A as final bottom after Section 101 lowers it to full-exchange depletion plus pre-readout active-density comparison
+  - raw same-parent pressure-Hodge atom decomposition or retained opposite-lobe reserve as the selected-critical Gold source after the raw pre-readout atom request is discharged
   - freestanding full-exchange compactness or carrier compactness without RecordAdmissionClosedness.A / SameEdgeNoDetachmentModulus.A
   - SameEdgeNoDetachmentModulus.A as one opaque compactness side condition rather than the simultaneous selector/chart/payment/face custody of one retained edge
   - StoppedSelectorFiniteScoreOrPaidDrift.A as proof of arbitrary retained-edge capture before FiniteParentKnownRecordEdgeSelectorMenu.A / RecordEdgeSelectorLabelModulusOrPaidDrift.A is supplied
@@ -359,7 +359,7 @@ completion_truth: >-
   original-history no-free-upward-transfer law for this same driver or route
   its failure as a typed exit before readout.
   Duhamel-Hodge pullback, endpoint admission, retained heat gap, component
-  compactness, log-carrier, before-clipping density, Perron normal forms, and
+  compactness, log-carrier, pre-readout density, Perron normal forms, and
   theta envelopes are support unless they build that same record-admitted
   matrix, three-measure admission, pre-envelope signed commutator, early-row
   payment, overrun tail UI, or typed CM route-out before readout. No such matrix,
@@ -739,7 +739,7 @@ same-carrier critical atom.
 
 The TFE source audit makes `(CPS.8)'--`(CPS.9)' a consumer of the parent-known
 active source theorem.  The first lowered producer is to construct, before
-child positive clipping,
+child selected positive extraction,
 
 \[
 J_P^S,\quad Z_P^S,\quad f_P,\quad \mathcal B_P^{nat},\quad b_P
@@ -791,7 +791,7 @@ container. The live lower source record package is:
 current record. `EndpointThreadedNativeNoResidue.A' is the first-birth
 endpoint/native record plus time-thickness. The persistent affine/root quotient
 branch is lower still: it needs original root-generator storage/coercivity for
-the same coupled packet before child positive clipping, while dyadic,
+the same coupled packet before child selected positive extraction, while dyadic,
 stopped-edge, martingale, reset, and return formulas are consumers of the
 continuous parent-root measure.
 
@@ -1072,7 +1072,7 @@ defect Carleson packing from original history before selected readout.
 The TFE2748B current-edge audit lowers the carrier proof to a no-arbitrage
 compactness problem with the record row retained. The one-sided aligned-current
 inequality is a useful scalar face, but Section 101 lowers it back to
-full-exchange depletion plus before-clipping active-density comparison. Section
+full-exchange depletion plus pre-readout active-density comparison. Section
 126 rewrites the full-exchange storage as bounded same-parent no-profit:
 
 \[
@@ -1599,7 +1599,7 @@ unadmitted.
 Thus compactness only helps if it keeps the same retained signed-height edge
 addressed, charted, paid, and admitted to the limiting full-exchange face. Raw
 same-parent pressure-Hodge atom coupling and retained opposite-lobe reserve are
-already installed before clipping; the selected-critical Gold price is the
+already installed before selected positive extraction; the selected-critical Gold price is the
 extra weighted log-meter/full-exchange surplus of that same coupled packet.
 
 The checked local-state no-go also fixes what kind of proof cannot work. Any

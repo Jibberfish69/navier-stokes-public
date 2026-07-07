@@ -32,7 +32,7 @@ completion_truth: >-
   construct the stopped same-material current, log-density carrier, active
   density, native depletion storage, and terminal density from the original
   coupled pressure-viscosity-incompressibility-velocity packet before child
-  positive clipping. The normalized-bad compactness audit removes tight
+  selected positive extraction. The normalized-bad compactness audit removes tight
   finite-band, route/selector escape, and derivative-exact reset branches. The
   surviving source wall is parent-known high-frequency tower-tail charge plus
   affine/root quotient depletion, packaged as ParentActiveCapacityThreeToothSource.A.
@@ -47,7 +47,7 @@ The root-fixed terminal storage line is still the same fluid-field-object.  One
 original smooth Navier-Stokes packet is transported, re-coordinated by pressure,
 read through heat/viscosity, constrained by incompressibility, and tested by the
 moving stress/frame/selector apparatus before any child positive readout is
-clipped.
+selected into the positive readout.
 
 The terminal storage theorem asks for this packet to spend through an actual
 terminal-uniform service density.  The TFE source audit shows where that density
@@ -83,7 +83,7 @@ J_P^S,\quad Z_P^S,\quad f_P,\quad \mathcal M_P,
 \tag{PAS.3}
 \]
 
-with selected admission before clipping, stopped current Carleson, native
+with selected admission before selected positive extraction, stopped current Carleson, native
 depletion with strict \(\theta<1\), and terminal uniform integrability.  This is
 the installed TFE.1516 package.
 
@@ -127,7 +127,7 @@ The surviving branch is exactly:
 \]
 
 In the TFE audit this means high-frequency tower-tail charge plus affine/root
-quotient depletion, both parent-known before clipping:
+quotient depletion, both parent-known before selected positive extraction:
 
 \[
 \text{TFE.1525}+\text{TFE.1527}
@@ -139,7 +139,7 @@ quotient depletion, both parent-known before clipping:
 ## 4. Current lower source package
 
 The sharper physical bottom is the three-tooth parent active capacity package.
-Construct, before child positive clipping,
+Construct, before child selected positive extraction,
 
 \[
 J_P^S,\quad Z_P^S,\quad f_P,\quad \mathcal B_P^{nat},\quad b_P
