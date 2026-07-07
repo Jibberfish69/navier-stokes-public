@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-carrier-mismatch-tail-ui-reduction-20260707.md
 derived_reductions:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-terminal-atom-route-b-consumption-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-wlf60-mismatch-to-terminal-critical-antiatom-reduction-20260707.md
 completion_truth: >-
   Strict reduction only. After the critical-height correction, the route-b bad
   object is a same-fluid material-time recurrence with H(t)->infinity through
@@ -61,11 +62,14 @@ completion_truth: >-
   tail UI. The WLF terminal-atom follow-up proves that terminal WLF
   concentration is consumed inside the admitted route-b zero-loss class after
   theta-payer or CM same-witness admission; before that admission it remains a
-  forward obstruction/readout. Thus material-time Liouville has no separate
-  retained in-class producer beyond the same Gate2/WLF row, although the
-  compact certified path construction itself remains an unproved route-b input.
-  No FullTower retention, material-time Liouville theorem, c_0, or MPP closure
-  is claimed.
+  forward obstruction/readout. The mismatch follow-up lowers that unadmitted
+  forward branch to TerminalZenoVisibleReadoutPayment.A and then to
+  TerminalFullPacketNoResiduePayment.A / a terminal same-carrier critical
+  anti-atom for the full selected packet. Thus material-time Liouville has no
+  separate retained in-class producer beyond the same Gate2/WLF row, although
+  the compact certified path construction itself remains an unproved route-b
+  input. No FullTower retention, material-time Liouville theorem, c_0, or MPP
+  closure is claimed.
 ---
 
 # Critical-height route-b reduces to the Gate2/WLF producer
@@ -198,7 +202,19 @@ The WLF.60 carrier reduction then sharpens `(RBG.7)' to
 \]
 
 with terminal tail failure treated as obstruction/readout until an independent
-admission/consumer theorem routes it out.
+admission/consumer theorem routes it out. The c0 mismatch follow-up sharpens the
+first summand further:
+
+\[
+\texttt{FreshCarrierMismatchEvacuationOrTerminalAtom.A}
+\leadsto
+\texttt{TerminalZenoVisibleReadoutPayment.A}
+\leadsto
+\texttt{TerminalFullPacketNoResiduePayment.A}
+\ \text{or}\
+\texttt{TerminalSameCarrierCriticalAntiAtom.A}.
+\tag{RBG.8a}
+\]
 
 ## 5. Result
 
@@ -215,7 +231,7 @@ independent producer after the critical-height correction. Its proof chain is:
 \Downarrow\\
 \texttt{RecordAdmittedActiveCriticalFullExchangeStorageMatrix.A}\\
 \Downarrow\\
-\texttt{WLF.60 carrier mismatch/tail UI}.
+\texttt{WLF.60 terminal visible-readout payment / tail UI}.
 \end{array}
 \tag{RBG.9}
 \]
@@ -223,5 +239,6 @@ independent producer after the critical-height correction. Its proof chain is:
 This is not a proof of \(c_0\). It is a strict reduction of the current
 route-b retained zero-loss burden to the same Gate2/WLF producer already exposed
 by route-a. The still-open inputs are the compact certified path construction,
-theta-payer/pre-readout admission, and the WLF.60 same-carrier mismatch/tail UI
-producer itself.
+theta-payer/pre-readout admission, and the WLF.60 terminal same-carrier critical
+anti-atom / full-packet no-residue payment or same-carrier tail UI producer
+itself.
