@@ -50,7 +50,12 @@ completion_truth: >-
   payment all attached to one edge. The detector-silent reserve is the
   first-ratio/strict-half-barrier wall in invisible-service coordinates; the
   half-tail still blocks local service routing from becoming finite record-unit
-  reserve. No c_0 or MPP closure is claimed.
+  reserve. The exact-projector chart row cannot be erased into detector-silent
+  reserve: local parametrix/ellipticity is support, while the live chart row is
+  same-edge chart-payer temporal admission plus higher-projector service or
+  route-out before readout. That chart row rejoins selected-critical
+  original-history payment only after same-edge custody is enforced. No c_0 or
+  MPP closure is claimed.
 ---
 
 # Normalized passage collapses to parent-owned bill currency
@@ -176,10 +181,15 @@ the active quotient and near-silent collar are fixed:
 \tag{NPB.10}
 \]
 
-The hard PDE row is the detector-silent service reserve. Local silent-source
-routing gives same-packet service addresses, but it does not give finite
-record-unit reserve. The half-tail still passes local service mass while failing
-the selected first-ratio action. Thus the nonduplicate silent-service burden is
+The pressure-active detector-angle row is not a current PDE producer. It is the
+finite-dimensional part left after the exact chart, active quotient, legal
+gauges, stops, and near-silent collar have already been fixed.
+
+The detector-silent service row is a PDE producer, but it is not a second wall
+below first-ratio storage. Local silent-source routing gives same-packet service
+addresses, but it does not give finite record-unit reserve. The half-tail still
+passes local service mass while failing the selected first-ratio action. Thus
+the nonduplicate silent-service burden is
 
 \[
 \texttt{OriginalHistoryDetectorSilentStrictHalfBarrier.A}
@@ -189,8 +199,16 @@ the selected first-ratio action. Thus the nonduplicate silent-service burden is
 or the equivalent bounded-below primitive Lyapunov / weighted laminar reserve
 theorem in detector-silent coordinates.
 
-The exact-projector/chart side rejoins the same selected-critical original
-history wall after same-edge custody:
+The exact-projector/chart side has a different logical role. It cannot be
+deleted as a detector-silent subcase, because the record edge still needs the
+same material chart and pressure/root projector license before the parent
+detectors and B-currency can see the work. Local ellipticity, fixed-chart
+parametrix, and frozen selector angle are support. The live chart row is
+same-edge chart-payer temporal admission plus higher-projector service or
+route-out before readout.
+
+After that same-edge custody is enforced, the chart/selector/projector escape
+payment rejoins the selected-critical original-history wall:
 
 \[
 \texttt{SelectedGeneratorStorageCoercivity.A}
@@ -202,6 +220,18 @@ history wall after same-edge custody:
 These are not support labels. They are the current physical places where the
 irreversible same-fluid history must pay the retained positive record before
 readout.
+
+So the lower split is non-aliased:
+
+\[
+\begin{array}{ll}
+\text{pressure-active angle:} & \text{finite-dimensional consumer after the collar},\\[1mm]
+\text{detector-silent service:} & \text{first-ratio strict half-barrier in invisible coordinates},\\[1mm]
+\text{exact-projector chart:} & \text{same-edge chart-payer admission plus higher service/exit},\\[1mm]
+\text{selected-critical payment:} & \text{original-history source of the detector-silent and rotation/escape charges}.
+\end{array}
+\tag{NPB.12a}
+\]
 
 ## 6. Result
 
