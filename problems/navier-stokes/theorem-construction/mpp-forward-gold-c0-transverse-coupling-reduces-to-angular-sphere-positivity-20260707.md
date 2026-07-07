@@ -92,7 +92,11 @@ completion_truth: >-
   reduces same-edge custody to a visibility theorem only after the retained
   moving-frame hypotheses are installed; the remaining upgrade is from local
   critical/vorticity visibility to the same selected current and detector
-  channel, or a typed route-out.
+  channel, or a typed route-out. On the axisymmetric stretched-vortex branch, the
+  sign has now been scalarized: the tilted \(e_1\leftrightarrow e_2\) pressure
+  response is the pressure quadrupole \(\mu_{\rm sv}\) of
+  \(f=|S|^2-\frac12|\omega|^2\), and the profile sign is a strict lower bound
+  for that quadrupole strong enough to make \(\mathcal I_{\rm lin}>0\).
 ---
 
 # Corrected transverse-coupling reduction
