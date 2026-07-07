@@ -18,6 +18,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-not-a-budget-strict-tilting-excess-on-thin-cascade-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-rsf4-angle-pincer-coherence-backscatter-dichotomy-20260704.md
 completion_truth: >-
   This note records the corrected crossing target. Isotropy of Hess q belongs
   to the infinite spatially uniform affine jet, where the pressure source is
@@ -83,7 +85,16 @@ completion_truth: >-
   same-fluid pressure bank can supply arbitrary trace-free Hessian while
   vanishing to first order at the selected station. That bank is not free; Gate 1
   says it must be retained and billed as Field/viscous/currency, be summable, or
-  route out.
+  route out. Section 22 audits Claude's stretched-vortex narrowing: a coherent
+  stretched vortex is a physically real same-fluid subbranch, with a
+  vorticity-dominated core and strain-dominated annulus governed by the pressure
+  source \(|S|^2-\frac12|\omega|^2\). It is not yet the whole retained minimax.
+  To use it for \(c_0\), one must prove a profile-reduction-or-route-out theorem,
+  then prove strict positivity of the retained \(L^P\) stability index on that
+  profile class. The older strict-tilting note says exactly why this is the live
+  wall: the stretched-vortex self-tilting mechanism is real, but the known
+  identities place the model at break-even unless a strict profile excess is
+  proved.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
