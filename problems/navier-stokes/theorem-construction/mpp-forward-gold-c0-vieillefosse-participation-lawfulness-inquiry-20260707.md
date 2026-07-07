@@ -3413,12 +3413,16 @@ The later causal-lag note sharpens the sourced line. The boundary moment part is
 not another angular sign theorem: after a retained angular chart is admitted, its
 endpoint change is controlled by same-chart selector/order-lock variation. The
 unpaid producer is bill currency, namely proving that this raw angular variation
-is admitted as \(\mathsf P_{\rm mix}\) before readout. The remaining pair is
-\(\mathsf P_{\rm mix}\) bill-currency admission plus detector/channel custody at
-the transverse-degenerate endpoint. On the admitted plane-to-compressive channel,
-unsigned transverse service carries \(z(1-z)\); endpoint service means
-detector/channel silence, rotation, channel transfer, pass/collar, or exit unless
-the same-edge detector/channel was fixed before readout.
+is admitted as \(\mathsf P_{\rm mix}\) before readout. The causal-lag note now
+identifies that \(\mathsf P_{\rm mix}\) admission with the existing selected
+first-ratio / parent-owned positive-record bill-currency wall; raw same-carrier
+variation plus finite same-edge custody still has the half-tail obstruction. The
+remaining pair is same-edge pre-readout bill currency plus detector/channel
+custody at the transverse-degenerate endpoint. On the admitted
+plane-to-compressive channel, unsigned transverse service carries \(z(1-z)\);
+endpoint service means detector/channel silence, rotation, channel transfer,
+pass/collar, or exit unless the same-edge detector/channel was fixed before
+readout.
 
 ## 27. Proved ingredient: log-scale endpoint inequality
 
