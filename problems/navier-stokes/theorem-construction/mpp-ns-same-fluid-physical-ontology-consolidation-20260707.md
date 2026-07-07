@@ -27,6 +27,10 @@ source_refs:
   - problems/navier-stokes/agent-contract.yaml
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-ns-fluid-field-object-corrected-ontology-lock-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-physical-synthesis-shrink-map-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-hardened-synthesis-covariance-frees-scale-uniformity-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-participation-hessian-not-pressure-hessian-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-uniform-cascade-depth-l2-l3-epsilon-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-matrix-early-branch-contraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-same-edge-strict-half-barrier-direct-proof-pass-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-negative-return-square-to-linear-admission-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-ns-unified-physical-roof-control-synthesis-20260703.md
@@ -44,9 +48,9 @@ completion_truth: >-
   material-time Liouville theorem, any Silver CM terminal exclusion, or global
   Navier-Stokes regularity. Its proof-program effect is to collapse several
   apparent sibling walls into one smaller physical demand: keep the same retained
-  signed-record edge parent-owned, chart-licensed, pressure-serviced, paid, and
-  admitted before selected positive-part readout, or route its failure through a
-  typed Pack/Part/Field or certified material-time branch.
+  signed-record edge parent-owned, chart-licensed, participation-Hessian serviced,
+  paid, and admitted before selected positive-part readout, or route its failure
+  through a typed Pack/Part/Field or certified material-time branch.
 ---
 
 # Same-fluid physical ontology consolidation
@@ -156,6 +160,20 @@ coupling, same-packet interface/collar residuals, or a typed route-out. A local
 jet, pointwise angle, theta envelope, or post-readout positive-part statistic
 cannot create the strict below-half margin.
 
+The pressure word should be read here as participation, not as a force. For the
+same incompressible field, pressure is the nonlocal multiplier enforcing coherent
+volume-preserving participation, and \(\mathrm{Hess}(q)\) in the strain equation
+is the second-order cost of keeping an accelerating concentration inside that one
+field. This fuses the pursuit-lag/radiodrome language with the participation
+Hessian language: the lag is the failure of nonlocal participation to sharpen as
+fast as the local self-amplifying strain wants to sharpen.
+
+That correction names the object but still gives no rate. Circulation is
+scale-invariant, participation multiplicity grows downscale, and viscosity is
+marginal on a scaling fixed point. Thus the strict content remains same-edge
+bill/admission/exit rigidity for this participation Hessian, not a new
+pressure-curvature estimate.
+
 ## 5. Current collapse map
 
 The current c0/Gate-2 branch is not a menu of independent producers. Its active
@@ -190,6 +208,14 @@ face theorem making the active-critical/full-exchange/active-transit feedback
 subcritical. It is not a lower physical source than same-packet positive-channel
 admission. The Perron language is the finite-chart normal form of the same
 retained zero-surplus recurrence, not a separate graph problem.
+
+The early WLF/ODP row is the same physical deficit seen before heat has had time
+to give square payment. Retained heat-lag exchange has genuine Stokes smallness,
+but the sub-heat-lag trace/source branch asks for first-ratio bill currency on
+the order-locked full packet. Uniform spatial cascade termination or \(L^2\to L^3\)
+equi-integrability controls the signed spatial core only; it does not supply
+\(\varepsilon_*>0\) until the positive material record is retained on the same
+edge and paid in \(B\)-currency before readout.
 
 ## 5a. Same-edge half-barrier split
 
@@ -278,10 +304,12 @@ reaches from the Gold side:
 ```
 
 Viscosity is the signed defect dissipation after the correct object is admitted.
-Pressure redistributes through the incompressibility law. The dangerous growth
-channel is strain/cascade interaction on neighboring towers. This is why the
-material-derivative tower failure is useful evidence: absorbing bare transport
-leaves the strain/pressure/viscous commutators as the active source.
+Pressure is the participation multiplier inside the incompressibility law. The
+dangerous growth channel is strain/cascade interaction on neighboring towers,
+where the participation Hessian has to keep the local tower coherent with the
+rest of the field. This is why the material-derivative tower failure is useful
+evidence: absorbing bare transport leaves the strain/participation-Hessian/viscous
+commutators as the active source.
 
 Silver uses the same physical object with different proof polarity. A bad
 terminal object first tests original NS participation and field readout. Pack is
@@ -307,9 +335,9 @@ dR_N^+\le C\,dA_{4B,N}+dL_N^{rad}.
 \tag{SFO.10}
 ```
 
-Thus radiodrome names the native same-tower defect that both open c0 routes are
-trying to eliminate. It is not a local pressure-Hessian chaser, not an
-independent source of c0, and not a profile theorem by itself.
+Thus radiodrome names the native same-tower participation-Hessian deficit that
+both open c0 routes are trying to eliminate. It is not a local pressure-Hessian
+chaser, not an independent source of c0, and not a profile theorem by itself.
 
 Its bad-sequence fork is:
 
@@ -345,9 +373,13 @@ same-fluid object:
 5. affine/local storage or pure \(X_{comm}\) primitives;
 6. selected-density entropy, Hilbert/BMO, reverse Holder, and terminal no-atom
    language;
-7. Duhamel-Hodge pullback, endpoint admission, Rellich, radiodrome, and
+7. spatial cascade-depth or \(L^2\to L^3\) no-critical-concentration without
+   same-edge positive material-record admission;
+8. pressure-Hessian force/curvature wording instead of participation-Hessian
+   cost;
+9. Duhamel-Hodge pullback, endpoint admission, Rellich, radiodrome, and
    component compactness;
-8. source-wall, export, and manuscript readouts.
+10. source-wall, export, and manuscript readouts.
 
 Their proof force is exactly the bridge they prove into Gold signed-height
 owner/payment/admission, Silver Part/Field class exit, or a typed route-out. A
