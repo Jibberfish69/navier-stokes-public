@@ -15,6 +15,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-exact-projector-chart-license-positive-transfer-collapse-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-projector-selector-paid-rotation-split-20260704.md
 completion_truth: >-
   This note records the corrected crossing target. Isotropy of Hess q belongs
   to the infinite spatially uniform affine jet, where the pressure source is
@@ -48,6 +50,11 @@ completion_truth: >-
   Section 12 proves the source-free subcase of that statement: with no angular
   source defect, a positive zero-lag transported measure must be supported on
   \(z=0\cup z=1\), where the plane-to-compressive transverse channel vanishes.
+  Section 14 places the transport identity itself: it is not the sign theorem,
+  but the retained chart/selector admission condition. If that chart is absent,
+  the object already routes to chart/selector/collar/exit bill; if it is present,
+  the identity is the pushforward definition and the remaining sign work is
+  boundary moment ownership plus nondegenerate-service domination.
   This is a constructive target and a strict reduction, not a proof of c_0>0.
 ---
 
@@ -1009,3 +1016,73 @@ Equivalently, any zero-lag strict atom with positive interior angular
 participation must expose a nonzero angular source/selector/collar defect in the
 same pressure-participation currency. This is the remaining route-b Liouville
 rigidity burden.
+
+## 14. Transport identity is chart admission, not the sign theorem
+
+The first load-bearing line in Section 12 should not be misread. The retained
+angular transport identity (CLS.50) is not the \(c_0\) sign and not an independent
+Calderon-Zygmund positivity theorem. It is the statement that the same retained
+participant has a lawful angular chart before readout.
+
+The live authority already says the exact-projector/selector chart is not free.
+For a retained record edge, the chart/license and selector/projector channel
+must land on the same future-positive edge before readout; otherwise the object
+routes to chart leakage, selector rotation, collar transfer, legal stop, or exit.
+
+In this note's variables, that means:
+
+```math
+\text{no lawful retained angular chart}
+\Longrightarrow
+\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+>0.
+\tag{CLS.66}
+```
+
+On the complementary branch, where the retained chart is admitted, (CLS.50) is
+just the distributional pushforward identity for
+
+```math
+z=n_3^2,
+\qquad
+\dot z=\sigma\,6a\,z(1-z),
+\tag{CLS.67}
+```
+
+with all non-affine source, selector, parent, and chart leakage collected in
+\(\nu_t\) and the collar/exit/pass term. Thus the transport-identity line
+(CLS.56) is discharged as a dichotomy:
+
+```math
+\text{chart absent}
+\Rightarrow
+\text{paid/exit branch},
+\qquad
+\text{chart present}
+\Rightarrow
+\text{(CLS.50) by pushforward.}
+\tag{CLS.68}
+```
+
+After this placement, the remaining live proof burden is exactly two lines:
+
+```math
+\text{boundary moment ownership (CLS.53);}
+\tag{CLS.69}
+```
+
+```math
+\text{strict-atom nondegenerate service domination (CLS.54).}
+\tag{CLS.70}
+```
+
+Those are still open. Boundary moment ownership asks whether changing the signed
+angular moment of the same retained packet is always paid before readout.
+Nondegenerate service domination asks whether positive retained transverse
+service can concentrate on \(z=0\cup z=1\), where the active transverse channel
+vanishes. If both hold, the sourced angular-mixing branch closes. If either
+fails, the failure is now sharply typed: unpaid retained angular boundary handoff
+or positive service living on a transverse-degenerate endpoint.
