@@ -1454,7 +1454,7 @@ obligation is:
 &\texttt{FreshSelectedPrimitiveAlignment.A}
 +\texttt{StoppedPrimitivePLSSignedScalePotentialLift.A}\\
 &+\bigl(\texttt{StoppedPotentialRecordAverageBound.A}
-\ \text{or}\ 
+\quad\text{or}\quad
 \texttt{FreshPositiveStressSecondOrderExactness.A}\bigr)
 +\texttt{StoppedNegativeScaleReturnCharge.A}
 \end{aligned}
