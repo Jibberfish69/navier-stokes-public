@@ -42,9 +42,11 @@ completion_truth: >-
   downstream. Thus the remaining theorem is sharpened to
   RecordFeedingSurplusPerronClassExclusion.A: exclude every record-feeding
   surplus-zero Perron class in the retained Navier-Stokes parent-face chart, or
-  route it to bill, legal, stop, Pack, Part, or Field. This proof is finite
-  algebra only. It does not produce the Navier-Stokes exclusion and does not
-  close c_0.
+  route it to bill, legal, stop, Pack, Part, or Field. This is the finite
+  retained-chart carrier of the canonical radiodrome surplus-zero recurrence:
+  radiodrome names the marginal defect coordinate, and the Perron class is the
+  ratio-one feedback normal form. This proof is finite algebra only. It does
+  not produce the Navier-Stokes exclusion and does not close c_0.
 ---
 
 # Record-feeding Perron circulation normal form
