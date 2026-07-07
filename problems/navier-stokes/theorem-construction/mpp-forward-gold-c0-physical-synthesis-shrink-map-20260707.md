@@ -105,7 +105,7 @@ target_object:
   - OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A
   - SameEdgePrimitiveSignedScalePotentialLift.A
   - SameEdgePotentialRecordRootBound.A
-  - SameEdgeNegativeScaleReturnCharge.A
+  - SameEdgeSelectedReturnAdmissionToLinearBV.A
   - SameEdgeEscapingCoreCapacityPacking.A
   - RetainedRecordEdgeCommonSelectorRefinementNoLoss.A
   - RetainedRecordEdgePrimitiveChannelCompatibility.A
@@ -241,6 +241,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-curvature-spike-spatial-thickness-temporal-admission-reduction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-lower-entrance-cycles-back-to-half-barrier-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-same-edge-strict-half-barrier-direct-proof-pass-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-negative-return-square-to-linear-admission-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-face-local-thickness-charge-modulus-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-prereturn-face-trace-local-thickness-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-primitive-chamber-chart-projector-lift-reduction-20260704.md
