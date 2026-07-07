@@ -3273,7 +3273,7 @@ C\left(
 \tag{VPL.253b}
 ```
 
-This is the exact theorem recorded separately in
+This is the exact remaining theorem recorded separately in
 `mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md`: retained
 positive participation must forbid cancellation of the signed angular pressure
 lag, or else the endpoint remains alive.
