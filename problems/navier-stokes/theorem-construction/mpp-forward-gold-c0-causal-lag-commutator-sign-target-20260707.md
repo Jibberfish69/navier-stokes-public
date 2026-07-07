@@ -927,7 +927,7 @@ If any one fails, the failure gives the precise surviving endpoint: unpaid
 angular redistribution, unpaid boundary handoff, or positive retained service
 concentrated on a transverse-degenerate endpoint.
 
-## 12. Source-free zero-lag subcase
+## 13. Source-free zero-lag subcase
 
 The transport balance in (CLS.47) has one closed subcase. Assume the retained
 angular measure is a positive measure transported by the affine angular flow with
@@ -935,7 +935,7 @@ no redistribution/source defect:
 
 ```math
 \nu_t=0.
-\tag{CLS.50}
+\tag{CLS.59}
 ```
 
 If the signed lag remains zero over a time interval,
@@ -943,7 +943,7 @@ If the signed lag remains zero over a time interval,
 ```math
 \int (2z-1)\,d\mu_t=0
 \quad\text{for all }t\in I,
-\tag{CLS.51}
+\tag{CLS.60}
 ```
 
 then differentiating by (CLS.47) gives
@@ -952,7 +952,7 @@ then differentiating by (CLS.47) gives
 0
 =
 \int \pm 12a\,z(1-z)\,d\mu_t.
-\tag{CLS.52}
+\tag{CLS.61}
 ```
 
 Since \(a>0\), \(\mu_t\ge0\), and \(z(1-z)\ge0\), this forces
@@ -960,7 +960,7 @@ Since \(a>0\), \(\mu_t\ge0\), and \(z(1-z)\ge0\), this forces
 ```math
 z(1-z)=0
 \quad \mu_t\text{-a.e.}
-\tag{CLS.53}
+\tag{CLS.62}
 ```
 
 Thus a source-free zero-lag retained angular measure is supported only on
@@ -969,7 +969,7 @@ Thus a source-free zero-lag retained angular measure is supported only on
 z=0
 \quad\text{or}\quad
 z=1.
-\tag{CLS.54}
+\tag{CLS.63}
 ```
 
 Both endpoint sets are degenerate for the active transverse Vieillefosse
@@ -978,7 +978,7 @@ channel. In (CLS.31),
 ```math
 n_i n_3(2n_3^2-1)=0
 \qquad (z=0\text{ or }z=1).
-\tag{CLS.55}
+\tag{CLS.64}
 ```
 
 At \(z=0\), \(n_3=0\). At \(z=1\), \(n_i=0\) for \(i=1,2\). The
@@ -1002,7 +1002,7 @@ angular-mixing bill:
 +\mathsf P_{\rm exit}
 +\mathsf S_{\rm pass}
 >0.
-\tag{CLS.56}
+\tag{CLS.65}
 ```
 
 Equivalently, any zero-lag strict atom with positive interior angular
