@@ -21,6 +21,7 @@ derived_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-bill-coercive-storage-matrix-criterion-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-original-ledger-generator-storage-source-verdict-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-surplus-zero-unit-cycle-kernel-test-20260707.md
 completion_truth: >-
   Direct pressure test of the remaining bill-coercive matrix producer. This note
   proves a compact finite-chart equivalence: after record admission and exact
@@ -34,8 +35,12 @@ completion_truth: >-
   prove that unit-cycle exclusion: signed exchange cancellation, finite native
   menu admission, finite-readout closedness, and one-field coherence remain
   compatible with a ratio-one active-critical/full-exchange/active-transit
-  circulation. This is not an actual retained Navier-Stokes counterexample and
-  not c_0 closure.
+  circulation. The kernel follow-up proves the shortcut precisely: if such a
+  cycle is upgraded to an absolute-zero retained relay record, the zero-bill
+  kernel kills it immediately. The current files only supply zero surplus, so
+  the live theorem is RecordAdmittedSurplusZeroUnitCycleRigidity.A, equivalently
+  an AbsoluteZeroAdmissionForRecordAdmittedUnitCycle.A route-out/upgrade. This
+  is not an actual retained Navier-Stokes counterexample and not c_0 closure.
 ---
 
 # Record-admitted zero-bill unit cycle reduction
@@ -246,16 +251,38 @@ at ratio one, with pressure redistributing, viscosity matching production at
 critical scale, Field motion common-mode, and four-body exchange reversible in
 the signed ledger.
 
+The kernel test sharpens the word "zero" in `(ZBU.4)'. If \(dB_P=0\) means
+actual measure vanishing
+
+```math
+dE_P^{Field}=dA_{4B,P}=dVisc_P=0,
+\tag{ZBU.14a}
+```
+
+then the zero-bill relay-record kernel immediately contradicts
+\(\ell_P\!\cdot x_P=1\). The active matrix/radiodrome wall instead uses
+zero-surplus: the physical payer measures may be nonzero and exactly balanced
+against production at ratio one. The required qualitative theorem is therefore
+the surplus-zero rigidity/upgrade
+
+```math
+\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}
+\quad\text{or}\quad
+\texttt{AbsoluteZeroAdmissionForRecordAdmittedUnitCycle.A}.
+\tag{ZBU.14b}
+```
+
 ## 6. Consequence for the active goal
 
 This is a strict reduction, not a proof or refutation of
 `NormalizedRelayBillCompactnessRecordPassage.A`.
 
 The first failed gate remains Gate2 positive-record ownership. The smallest
-qualitative theorem now equivalent to the bill-coercive matrix producer is:
+qualitative theorem now equivalent to the bill-coercive matrix producer, after
+the absolute-zero/surplus-zero distinction is imposed, is:
 
 ```math
-\texttt{RecordAdmittedZeroBillUnitCycleExclusion.A}.
+\texttt{RecordAdmittedSurplusZeroUnitCycleRigidity.A}.
 \tag{ZBU.15}
 ```
 
