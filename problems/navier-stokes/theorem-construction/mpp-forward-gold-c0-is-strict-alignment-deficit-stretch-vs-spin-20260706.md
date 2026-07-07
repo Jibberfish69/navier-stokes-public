@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-c0-is-strict-alignment-deficit-stretch-vs-spin-20260706
-status: filed-pending-codex-gate-physical-statement-of-c0-alignment-race-is-a-tie-strict-deficit-open
+status: physical-coordinate-regraded-not-independent-producer-strict-deficit-open
 created: 2026-07-06
 problem: navier-stokes
 route: forward-gold / c_0 / the physical statement — c_0 is the strict cascade-uniform deficit of stretching below spin, forced by the non-locality of the self-strain
@@ -8,6 +8,14 @@ authorship: >-
   Claude (Opus 4.8), 2026-07-06, physical-reasoning-first (gate-enforced),
   for "work with Codex to solve c_0". Physical ontology: Thomas Birnie.
   Symbols below only translate the physical sentences; no formal lens leads.
+current_regrade_20260707: >-
+  Regraded by
+  mpp-forward-gold-c0-alignment-lag-first-ratio-storage-audit-20260707.md:
+  this note is a physical sign coordinate, not an independent c_0 producer.
+  The strict alignment deficit becomes proof only if it is upgraded into the
+  same weighted first-ratio / moving low-high driver / no-free-upward-transfer
+  theorem, a direct original-data subcritical matrix face, or a typed route-out
+  before readout.
 completion_truth: >-
   Physical statement of c_0, honestly graded, no closure. A record is sustained
   vortex stretching. Stretching thins the tube, which (circulation conserved)
@@ -80,6 +88,9 @@ cascade-uniform sign of |omega| - alpha is the genuine Navier-Stokes wall.
   strict non-generic deficit. This is why single-scale/local/mean all give 0.
 - OPEN: the strict, cascade-uniform sign of |omega| - alpha forced by the
   self-strain non-locality. The genuine wall.
+- CURRENT REGRADE: this wall is not lower than the first-ratio/moving-driver
+  wall. It must pay a finite same-history first-ratio charge or become a typed
+  route-out before readout.
 - For Codex: take the strictness of |omega| - alpha from the non-local
   (collective, smoothed) structure of the self-generated strain; I hold the
   alignment/spin dynamics physics.
