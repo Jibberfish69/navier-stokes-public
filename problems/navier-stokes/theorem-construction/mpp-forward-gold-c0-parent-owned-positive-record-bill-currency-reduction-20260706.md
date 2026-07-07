@@ -13,6 +13,8 @@ target_object:
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-epsilon-extraction-direct-proof-pass-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-relay-record-reversibility-kernel-and-epsilon-extraction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-normalized-passage-collapse-to-parent-owned-bill-currency-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-retained-record-edge-pre-readout-custody-tuple-reduction-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-full-tower-signed-total-exchange-retention-direct-attempt-20260622.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-chapter2-refereegrade-closedness-limit-20260705.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-record-net-work-admission-proof-pass-20260703.md
@@ -23,7 +25,15 @@ completion_truth: >-
   it identifies the lower clauses of that theorem from the allowed sources:
   native menu preannouncement, root/full-exchange detector faithfulness,
   exact-projector chart admission, and B-currency storage of the admitted faces.
-  The allowed sources prove the native-coordinate/admission identity at finite
+  The 2026-07-07 normalized-passage collapse clarifies the proof role: this
+  theorem is the stronger coercive route that kills the entire retained R=1,
+  B->0 compactness countersequence, so Gate 3 no-loss passage and Gate 4
+  same-parent admission are its escape modes rather than independent lower
+  producers. The current lower nonduplicate entrance is
+  RetainedRecordEdgePreReadoutCustodyTuple.A on the same future-positive edge:
+  selector capture, exact-projector chart/license, pressure-active or
+  detector-silent service payment, and root/endpoint/full-exchange face address
+  before readout. The allowed sources prove the native-coordinate/admission identity at finite
   truncation, but they explicitly leave positive-selection storage, detector
   faithfulness, and exact-projector admission open. Therefore this note does not
   install c_0, does not refute NormalizedRelayBillCompactnessRecordPassage.A,
@@ -260,15 +270,30 @@ record-menu edges. The spine states the same boundary in global language:
 current sources have not built the pre-readout same-parent
 state/currency/storage package from arbitrary original data.
 
+After the retained-edge custody tuple reduction, these lower clauses must be
+proved for the same edge before readout. It is not enough to prove selector
+capture on one edge, chart license on a nearby edge, and detector payment on a
+third edge. The current lower entrance is
+
+```math
+\texttt{RetainedRecordEdgePreReadoutCustodyTuple.A}
+\Longrightarrow
+\texttt{RecordMenuRootProjectionFaithfulness.A}.
+\tag{POB.15a}
+```
+
 So this note is a strict reduction, not a proof. The first failed gate remains
-Gate 2. The smallest currently exposed theorem that would remove the Gate 2
-cycle-kernel escape is the parent-owned bill-currency package `(POB.2)', whose
-lowest named visible clauses are
+Gate 2, but Gate 3 and Gate 4 are now read as the same parent-owned-currency
+failure in record-passage coordinates. The smallest currently exposed theorem
+that would remove the compactness countersequence is the parent-owned
+bill-currency package `(POB.2)', whose lowest named visible clauses are
 
 ```math
 \texttt{RecordMenuPressureActiveOrSilentService.A}
 +
 \texttt{RetainedRecordEdgeExactProjectorChartLicense.A}
++
+\texttt{same-edge selector/face custody}
 +
 \texttt{B-currency storage of the admitted parent faces.}
 \tag{POB.16}
