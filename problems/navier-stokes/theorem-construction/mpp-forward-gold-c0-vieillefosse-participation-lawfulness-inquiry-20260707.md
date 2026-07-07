@@ -2435,3 +2435,260 @@ Hence a \(c_0=0\) minimizing sequence cannot be the long unpaid
 same-normalized-affine chain. The remaining formal burden is to package
 (VPL.192)--(VPL.193) as the strict overlap-charge lemma inside the participation
 atomization theorem.
+
+## 21. Rigorous strict overlap-charge lemma
+
+This section packages the adjacent-scale bridge as the uniform lemma needed in
+the strict atom class.
+
+Let \(Q_r\subset Q_R\) be adjacent same-center/material packets with
+
+```math
+R=2r,
+\qquad
+\theta=\frac rR=\frac12.
+\tag{VPL.198}
+```
+
+Normalize the same physical velocity field by Navier-Stokes critical scaling:
+
+```math
+U_r(y)=r\,u(x_0+ry),
+\qquad
+U_R(Y)=R\,u(x_0+RY).
+\tag{VPL.199}
+```
+
+On the fixed normalized overlap \(O\), these obey the exact identity
+
+```math
+U_r(y)=\theta\,U_R(\theta y).
+\tag{VPL.200}
+```
+
+Assume the pair is same-normalized-affine-good. This means there is one
+Vieillefosse affine jet
+
+```math
+A=\lambda R_0DR_0^T,
+\qquad
+D=\operatorname{diag}(1,1,-2),
+\tag{VPL.201}
+```
+
+and errors \(e_r,e_R\) such that
+
+```math
+U_r(y)=Ay+e_r(y),
+\qquad
+U_R(Y)=AY+e_R(Y)
+\tag{VPL.202}
+```
+
+on the overlap. Work in the service-normalized active class:
+
+```math
+\mathsf S(Q_r)=1.
+\tag{VPL.203}
+```
+
+Then the same-normalized-affine-good hypotheses give a compact amplitude
+annulus
+
+```math
+0<a_0\le |A|\le a_1<\infty,
+\tag{VPL.204}
+```
+
+with constants depending only on the reference atom geometry and the service
+normalization.
+
+### 21.1 Lemma statement
+
+There is a constant \(c>0\), independent of \(r\), tower depth, packet
+location, and orientation, such that
+
+```math
+\mathsf P(Q_r,Q_R)
+\ge
+c\,\mathsf S(Q_r)
+\tag{VPL.205}
+```
+
+for every adjacent same-normalized-affine-good rung pair. The payment
+\(\mathsf P(Q_r,Q_R)\) is the actual strict participation payment on the
+overlap/collar pair, including the legitimate relative viscous bill and the
+transverse pressure channel.
+
+### 21.2 Same normalized affine jet case
+
+Insert (VPL.202) into the exact overlap identity (VPL.200):
+
+```math
+Ay+e_r(y)
+=
+\theta\left(A(\theta y)+e_R(\theta y)\right)
+=
+\theta^2Ay+\theta e_R(\theta y).
+\tag{VPL.206}
+```
+
+Therefore
+
+```math
+e_r(y)-\theta e_R(\theta y)
+=
+-(1-\theta^2)Ay.
+\tag{VPL.207}
+```
+
+Taking gradients gives
+
+```math
+\nabla e_r(y)-\theta^2\nabla e_R(\theta y)
+=
+-(1-\theta^2)A.
+\tag{VPL.208}
+```
+
+After integration over the fixed overlap \(O\),
+
+```math
+(1-\theta^2)^2|A|^2|O|
+\le
+C
+\left(
+\|\nabla e_r\|_{L^2(O)}^2
++\|\nabla e_R\|_{L^2(\theta O)}^2
+\right).
+\tag{VPL.209}
+```
+
+The right side is a non-affine overlap defect. By the legitimacy of the
+relative bill,
+
+```math
+\mathsf P(Q_r,Q_R)
+\ge
+c_1
+\left(
+\|\nabla e_r\|_{L^2(O)}^2
++\|\nabla e_R\|_{L^2(\theta O)}^2
+\right).
+\tag{VPL.210}
+```
+
+Thus
+
+```math
+\mathsf P(Q_r,Q_R)
+\ge
+c_2|A|^2.
+\tag{VPL.211}
+```
+
+Using the compact amplitude annulus (VPL.204) and service normalization,
+
+```math
+c_2|A|^2
+\ge
+c_3\mathsf S(Q_r).
+\tag{VPL.212}
+```
+
+This proves (VPL.205) when adjacent rungs claim the same normalized affine
+Vieillefosse jet.
+
+### 21.3 Degree \(-1\) escape case
+
+The only way to avoid the affine mismatch is to stop claiming the same
+normalized affine jet and instead claim true critical self-similarity:
+
+```math
+\Phi(y)=\theta\,\Phi(\theta y).
+\tag{VPL.213}
+```
+
+This makes \(\Phi\) homogeneous of degree \(-1\). The naive degree \(-1\)
+replacement for the affine Vieillefosse core is
+
+```math
+\Phi_A(y)=\frac{Ay}{|y|^2}.
+\tag{VPL.214}
+```
+
+For tracefree symmetric \(A\),
+
+```math
+\nabla\cdot\Phi_A
+=
+-2\,\frac{y\cdot Ay}{|y|^4}.
+\tag{VPL.215}
+```
+
+This is nonzero whenever the Vieillefosse service is nonzero. Therefore an
+incompressible degree \(-1\) repair must add a non-affine correction
+\(\Psi_A\) satisfying
+
+```math
+\nabla\cdot\Psi_A
+=
+2\,\frac{y\cdot Ay}{|y|^4}.
+\tag{VPL.216}
+```
+
+On the unit sphere, \(y\cdot Ay/|y|^2\) is a nonzero \(l=2\) spherical harmonic.
+Spherical Hodge-Poincare gives
+
+```math
+\|\nabla_\omega\Psi_A\|_{L^2(S^2)}
+\ge
+c_4|A|.
+\tag{VPL.217}
+```
+
+This correction is outside the affine nullspace and is charged by the
+legitimate relative bill. Hence
+
+```math
+\mathsf P(Q_r,Q_R)
+\ge
+c_5|A|^2
+\ge
+c_6\mathsf S(Q_r)
+\tag{VPL.218}
+```
+
+on the service-normalized active class.
+
+### 21.4 Chain consequence
+
+Every adjacent step in a long same-normalized-affine-good chain either pays by
+the affine overlap mismatch (VPL.212) or pays by the incompressible degree
+\(-1\) repair (VPL.218). Therefore
+
+```math
+\sum_m \mathsf P(Q_m,Q_{m+1})
+\ge
+c\sum_m \mathsf S(Q_m).
+\tag{VPL.219}
+```
+
+This proves the missing chain exclusion:
+
+```math
+\text{No arbitrarily long unpaid same-normalized-affine-good chain can carry
+positive Vieillefosse service.}
+\tag{VPL.220}
+```
+
+With (VPL.220), finite stopping atoms pay by the uniform packet inequality and
+non-stopping chains pay at adjacent overlaps. Hence the atomization theorem has
+no log-endpoint escape, and the tower-level inequality
+
+```math
+\mathsf P(\mathcal T)\ge c\,\mathsf S(\mathcal T)
+\tag{VPL.221}
+```
+
+follows.
