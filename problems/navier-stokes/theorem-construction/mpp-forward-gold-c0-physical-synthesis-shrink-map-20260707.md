@@ -146,6 +146,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-high-ratio-goodlambda-half-barrier-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-installed-support-axioms-half-tail-model-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-weight-beating-tail-ns-structure-audit-20260626.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-viscous-thickness-square-not-first-ratio-no-go-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-no-nongauge-material-time-profile-liouville-test-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-local-state-action-storage-no-go-20260626.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-dyadic-reduced-identities-insufficiency-20260626.md
@@ -213,6 +214,7 @@ supersedes_as_live_frontier:
   - terminal anti-atom / Rellich / full-packet no-residue as final wording after the root-fixed service-storage descent
   - root-fixed terminal-uniform service storage as final bottom after the parent-active source descent
   - raw Bessel/freshness/primitive ownership as WLF.60 payment
+  - viscous heat-thickness square control as selected first-ratio bill currency
   - affine martingale or storage labels as sibling producers after TFE2748B
   - parent-active three-tooth source as final bottom after TFE1542-TFE2181
   - selected-generator/root-geometry storage as final bottom after the TFE2411-TFE2748B descent
@@ -243,7 +245,7 @@ supersedes_as_live_frontier:
   - tower/coherence law or Chapter 2 closedness as proof of exact-projector chart license for arbitrary future-positive record-menu edges
   - retained exact-projector C11 chart/tower-or-exit as an opaque bottom source rather than the low-pass spatial Bernstein / chart-payer temporal admission / higher-projector service split
   - separate selector, chart, detector/service, and face proofs as RecordMenuRootProjectionFaithfulness.A unless they are proved for the same edge before readout
-  - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, and compactness as selected-critical payment mechanisms
+  - bounded record height, raw shrinking capacity, raw reset distance, raw Bessel freshness, viscous square thickness, and compactness as selected-critical payment mechanisms
   - uniform cascade-depth or L2-to-L3 spatial no-critical-concentration as c_0 proof unless upgraded to same-edge bill-currency termination before readout
 completion_truth: >-
   Canonical shrink map and strict synthesis only. The current c_0 object is
