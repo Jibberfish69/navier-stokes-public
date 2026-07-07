@@ -30,6 +30,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-clock-retention-liouville-bridge-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-CANONICAL-definition-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
@@ -62,8 +63,11 @@ completion_truth: >-
   hull is built and the surplus payer measures are lifted lower
   semicontinuously. The shift-hull follow-up proves the abstract invariance
   lemma, and the zero-surplus follow-up proves abstract closedness under that
-  payer-measure lift; neither proves those Navier-Stokes producer inputs or
-  zero-loss rigidity. The first-ratio storage route is further
+  payer-measure lift. The theta-payer follow-up shows that the positive clock
+  payer lift is the Gate 2 pre-readout record-admission problem, so route-b
+  does not bypass FullTower ownership. None of these notes proves those
+  Navier-Stokes producer inputs or zero-loss rigidity. The first-ratio storage
+  route is further
   reduced to retained Schur telescoping plus fresh push-variation
   Hardy-Carleson and persistent affine quotient admission; the latter is now
   sharpened to persistent root affine quotient payment and then to the single
@@ -313,6 +317,7 @@ missing theorem must add exactly one of:
   +\texttt{ZeroSurplusPayerMeasureLift.A}
   +\texttt{ZeroSurplusPayerLowerSemicontinuity.A}\\
 &\quad+\texttt{TerminalWindowNoEscapeCompactness.A}
+  +\texttt{ThetaRecordPayerMeasureAdmission.A}
   +\texttt{ZeroLossTowerRelayRigidity.A},\\[1mm]
 \text{route b2:} & \texttt{GlobalWeightedLaminarAncestryVariationReserve.A},\\[1mm]
 \text{storage form:} & \text{bounded-below }\mathscr S_N

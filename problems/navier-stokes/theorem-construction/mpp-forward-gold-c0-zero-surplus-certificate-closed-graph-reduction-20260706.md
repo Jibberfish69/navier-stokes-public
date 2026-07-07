@@ -39,6 +39,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wkb-service-modulus-or-selector-escape-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-parent-owned-positive-record-bill-currency-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-projection-audit-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
 completion_truth: >-
   Abstract closedness proof and strict reduction only. This note proves that
   the zero-surplus certificate graph is closed once every same-packet surplus
@@ -52,8 +53,11 @@ completion_truth: >-
   ZeroSurplusPayerMeasureLift.A plus ZeroSurplusPayerLowerSemicontinuity.A and
   TerminalWindowNoEscapeCompactness.A, on top of the already named law,
   ancestry, cover, tower, label, and service certificate rows. This does not
-  prove those Navier-Stokes payer lifts or the zero-loss spectral gap, and does
-  not close FullTower retention, c_0, or the MPP.
+  prove those Navier-Stokes payer lifts or the zero-loss spectral gap. The
+  theta-payer follow-up shows that the positive theta-record payer lift is the
+  Gate 2 pre-readout admission problem, not an independent shortcut around
+  FullTower retention. This file does not close FullTower retention, c_0, or
+  the MPP.
 ---
 
 # Zero-surplus certificate closed graph
@@ -210,7 +214,10 @@ The shift-hull note proves that invariance is automatic once this compact
 closed graph exists. This note proves the abstract closedness of zero-surplus
 inside that graph. The live Navier-Stokes producer burden is now narrower:
 construct the payer-measure lift and lower-semicontinuity for the actual
-same-fluid history, then prove zero-loss tower relay rigidity on the certified
-invariant surplus-zero class.
+same-fluid history. For the positive \(\Theta_N\)-record channel, the follow-up
+reduction identifies that lift with pre-readout Gate 2 admission of the
+future-positive edge into parent-owned/root/full-exchange currency. After that
+construction, zero-loss tower relay rigidity still has to be proved on the
+certified invariant surplus-zero class.
 
 No \(c_0\) closure is claimed here.

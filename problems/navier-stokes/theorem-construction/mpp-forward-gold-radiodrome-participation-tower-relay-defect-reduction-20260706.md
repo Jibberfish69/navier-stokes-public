@@ -21,6 +21,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
 completion_truth: >-
   Bounded proof attempt and strict reduction only. The corrected radiodrome
   object is the one VPI fluid-field read up its participation tower. Pressure
@@ -34,7 +35,7 @@ completion_truth: >-
   compact certified material-time path hull and closed zero-surplus certificate
   graph are built, so the route-b flow row is now reduced to that compact
   certified path construction, zero-surplus payer-measure lift/lower
-  semicontinuity, and zero-loss rigidity.
+  semicontinuity, theta-record pre-readout admission, and zero-loss rigidity.
   Thus radiodrome gives a sharp coordinate and a useful bad-sequence detector
   for c_0, not an independent source of c_0. No closure is claimed.
 ---
@@ -221,6 +222,8 @@ paths. The proof-grade route-b package is therefore
 +
 \texttt{TerminalWindowNoEscapeCompactness.A}
 +
+\texttt{ThetaRecordPayerMeasureAdmission.A}
++
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
 dL_N^{rad}=0
@@ -290,6 +293,8 @@ or
 \texttt{ZeroSurplusPayerLowerSemicontinuity.A}
 +
 \texttt{TerminalWindowNoEscapeCompactness.A}
++
+\texttt{ThetaRecordPayerMeasureAdmission.A}
 +
 \texttt{ZeroLossTowerRelayRigidity.A}.
 \tag{RTR.16}

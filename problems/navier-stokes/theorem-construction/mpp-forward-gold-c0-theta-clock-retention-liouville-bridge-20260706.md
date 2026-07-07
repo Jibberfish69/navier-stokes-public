@@ -40,6 +40,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-codex-b3-material-time-flow-certificate-closure-audit-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-material-time-certificate-shift-hull-invariance-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-surplus-certificate-closed-graph-reduction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-theta-payer-measure-lift-gate2-admission-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-tower-relay-lag-liouville-route-b-20260706.md
 completion_truth: >-
@@ -68,8 +69,11 @@ completion_truth: >-
   certificate-flow row to compact certified material-time shift-hull
   construction plus a closed zero-surplus certificate graph. The zero-surplus
   follow-up proves abstract closedness once the payer measures/defects are
-  lifted into the compact certificate, but current sources do not prove those
-  Navier-Stokes payer-measure/lower-semicontinuity inputs or zero-loss
+  lifted into the compact certificate. The theta-payer follow-up shows the
+  positive clock's payer lift is exactly the Gate 2 pre-readout admission
+  problem: the future-positive record edge must already be owned by
+  parent/root/full-exchange currency or paid service before readout. Current
+  sources do not prove that Navier-Stokes admission input or zero-loss
   rigidity. No
   FullTower retention, material-time Liouville theorem, c_0, or MPP closure is
   claimed.
@@ -244,6 +248,8 @@ A sufficient route is:
 +
 \texttt{TerminalWindowNoEscapeCompactness.A}
 +
+\texttt{ThetaRecordPayerMeasureAdmission.A}
++
 \texttt{ZeroLossTowerRelayRigidity.A}
 \Longrightarrow
 \texttt{CertifiedSurplusZeroThetaProfileRigidity.A}.
@@ -252,11 +258,14 @@ A sufficient route is:
 
 The first row keeps the marginal profile inside the actual same-fluid
 Navier-Stokes evolution by shift-hull invariance once the compact path exists.
-The payer-measure rows are exactly the closed-zero-surplus graph condition. The
-final row empties the invariant zero-surplus set except for zero service. The
-abstract shift-hull lemma and abstract closed-zero-surplus lemma are proved in
-the follow-up files; the compact certified path, Navier-Stokes payer lift/lsc,
-and zero-loss rigidity are not currently installed.
+The payer-measure rows are exactly the closed-zero-surplus graph condition. For
+the positive \(\Theta_N\)-record channel, that condition contains
+`ThetaRecordPayerMeasureAdmission.A`, which is the Gate 2 pre-readout ownership
+problem in certificate language. The final row empties the invariant
+zero-surplus set except for zero service. The abstract shift-hull lemma and
+abstract closed-zero-surplus lemma are proved in the follow-up files; the
+compact certified path, Navier-Stokes theta-payer admission/lsc, and zero-loss
+rigidity are not currently installed.
 
 ## 6. Consequence
 
