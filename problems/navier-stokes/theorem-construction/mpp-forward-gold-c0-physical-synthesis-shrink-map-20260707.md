@@ -332,8 +332,8 @@ completion_truth: >-
   carry the terminal pulse without square-force billing unless endpoint/frame
   variation is charged or routed out; nonlinear and defect legs still need
   same-edge admission from kinetic/collar/Reynolds or certificate variation
-  into the retained bill. The terminal storage side is
-  The fixed-chart endpoint impulse sublemma sharpens this: same-sign
+  into the retained bill. The fixed-chart endpoint impulse sublemma sharpens
+  this: same-sign
   acceleration service is finite endpoint coordinate storage plus negative
   return variation. Repeated selected service must spend reset/frame variation,
   legal/stop material, or a typed endpoint route-out before readout; the endpoint
