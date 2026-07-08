@@ -92,7 +92,10 @@ The terms are not detached proxies:
   ownership component is proved by
   `CriticalConePressureRowEllipticOwnership.A`; the open part is the retained
   tower-passage/material-time row and the parent/source relay, not the sphere
-  Poisson ownership calculation itself.
+  Poisson ownership calculation itself. The same exact-cone note proves that a
+  nonzero \(\ell=1\) harmonic pressure relay has pressure-traction moment
+  \((4\pi/3)a\); it is stress-flux/source visible unless the full same-field
+  stress cancels it into the zero-force Landau/Sverak consumer.
 
 Thus
 
