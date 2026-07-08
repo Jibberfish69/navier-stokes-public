@@ -724,3 +724,67 @@ Either the retained-record metric charges the spin-2 precession as order-lock /
 frame-variation payment, or a same-field rotating-wave profile is actually
 admitted with \(o(1)\) order-lock cost. Only the second outcome is a genuine
 counterprofile to the transverse-coupling route.
+
+## 14. Harmonic spin-2 tail: orientation admission is the sign
+
+Cycle 16 sharpens the parent-bank wall. Inside the child packet, a
+parent-borrowed pressure bank is harmonic. Its retained \(l=2\) part is a
+trace-free tensor \(K_{\rm par}\), and the aligned Case-B readout is the
+oriented coefficient
+
+```math
+a_{\rm align}
+=
+\langle K_{\rm par},T_\varphi\rangle,
+\qquad
+T_\varphi=e_1\otimes e_1-e_2\otimes e_2.
+\tag{ATH.47}
+```
+
+The scalar size \(\|K_{\rm par}\|\) is not enough. It is T-even and can miss the
+coherent sign of the up-scale leaked quadrupoles. The Schur route-metric term
+\(\mathfrak S_J\,d\mathcal K_J\) controls that sign only if the parent CZ tail
+is admitted as an oriented tensor detector, not merely as a magnitude tail.
+
+The exact admission theorem is:
+
+```math
+\texttt{OrientedHarmonicSpinTwoTailSchurAdmission.A}.
+\tag{ATH.48}
+```
+
+One useful form is:
+
+```math
+\mathsf S_{\rm ret}(Q_r)\simeq1,\quad
+|a_{\rm align}|\gtrsim1
+\Longrightarrow
+K_{\rm par}\otimes T_{\varphi_r}
+\in\mathcal C_P
+\quad\text{with}\quad
+d\mathcal K_J^{orient}\text{ charging its motion},
+\tag{ATH.49}
+```
+
+or else the pressure-Hessian tail is not retained and the branch routes to
+collar/Field, parent endpoint, pass/service-zero, legal, or stop.
+
+Thus the live bank-payment theorem is orientation-sensitive:
+
+```math
+\texttt{OrientedHarmonicSpinTwoTailSchurAdmission.A}
++
+\texttt{ComparableScalePressureBankIsAtomCollarParentOrField.A}
++
+\texttt{ParentBorrowingCostNonTelescoping.A}
+\Longrightarrow
+\texttt{ParentHarmonicUniaxialBankPaysOrIsSummable.A}.
+\tag{ATH.50}
+```
+
+If the retained record metric sees \(T_\varphi\), the up-leaked quadrupoles
+superpose coherently only by paying oriented route variation. If the retained
+metric sees only the scalar pressure source \(Q\), it is blind to
+\(\varphi\), and the rotating-wave branch is the honest counterprofile
+candidate pending same-field compatibility, localization, viscosity, and strict
+retention.
