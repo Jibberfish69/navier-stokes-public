@@ -245,3 +245,11 @@ None.
   W2+W6, already terminally assigned as W3+W8. This prevents a fifth wall from
   being born, but it does not prove W7 graph/admission, W8 selected-linear
   original-data collection, or W9 material-time certificate invariance.
+- W9 compact-BV-state action failed as a deletion: compact legal certificate
+  states with zero payer and uniformly BV actual paths do not define a
+  material-time action on instantaneous state closure. In the abstract model
+  \(X=S^1\), \(Z^+(t)=e^{it}\) and \(Z^-(t)=e^{-it}\) share state \(1\) at
+  \(t=0\), but a time-\(h\) action would need both
+  \(\Phi_h(1)=e^{ih}\) and \(\Phi_h(1)=e^{-ih}\). W9 still requires the
+  path-valued compact shift hull already named by the source, or a proved
+  canonical cocycle/path-germ coordinate.
