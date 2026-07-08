@@ -1,6 +1,6 @@
 # Frontier-dissolution loop - Cycle 3 W10 reduction candidate (2026-07-08)
 
-Status: pending partner refutation. This file opens the next cycle from the
+Status: confirmed reduction after failed partner refutation. This file opened the next cycle from the
 post-W14 remaining frontier:
 
 ```text
@@ -55,9 +55,9 @@ original-data full-clock producer clause that must be proved before or
 independently of `SignedCriticalHeightSignPersistenceOrPeakBound.A`, rather than
 as its downstream readout/counterpart.
 
-DELETED: none; W10 reduction is pending partner refutation.
-CERTIFICATE: source-frontier typing `gold-counterpart-frontier` / `gold-open-not-silver-blocker` and the explicit clause that W10 remains open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled.
-REMAINING: W2, W3, W4, W5, W6, W7, W8, W9, W10, W12, W13.
+DELETED: W10 by reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A` / the surviving Gold signed-height object.
+CERTIFICATE: source-frontier typing `gold-counterpart-frontier` / `gold-open-not-silver-blocker` and the explicit clause that W10 remains open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled; partner attacks against upstream-Liouville consumption, independent Silver content, and pre-signed-height producer content all failed.
+REMAINING: W2, W3, W4, W5, W6, W7, W8, W9, W12, W13.
 
 ---
 
