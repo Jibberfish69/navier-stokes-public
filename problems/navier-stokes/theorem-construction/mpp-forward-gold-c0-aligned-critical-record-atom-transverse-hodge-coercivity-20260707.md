@@ -1363,6 +1363,41 @@ Thus the \(\Gamma\)-transport charge is a real Gate-B ingredient, but the
 installed endpoint exclusion does not yet reach either the on-axis quotient
 record or the Hou--Luo-type off-axis annulus.
 
+## 24. Cycle 25: route priority
+
+Gate A is closer than Gate B.
+
+For Gate A, the physical pieces are now mostly identified: parent-known strain
+frame, headless compact spin-2 orientation, finite angular parent net,
+inherited child placement, and Schur payment after stopped selection. The
+remaining theorem is an admission/selection assembly:
+
+```math
+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}
++
+\texttt{SpinTwoLowerEdgeGapAdmission.A}
++
+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}
+\Longrightarrow
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\tag{ATH.81}
+```
+
+Gate B remains a harder PDE endpoint theorem. The \(\Gamma\)-law is useful, but
+it does not automatically control \(\gamma=\Gamma/r^2\) on-axis and it does not
+exclude off-axis annular concentration. The residual Gate-B targets are
+
+```math
+\texttt{AxisGammaQuotientCoefficientLiouville.A},
+\qquad
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A}.
+\tag{ATH.82}
+```
+
+Therefore the nearer route is to finish Gate A's finite parent-known selector
+admission. Gate B remains the fixed-axis/off-axis swirl Liouville wall or
+counterprofile branch.
+
 ## 22. Cycle 23 endpoint exclusion audit
 
 Claude cycle 23 correctly restores the axisymmetric swirl branch as Gate B, but
