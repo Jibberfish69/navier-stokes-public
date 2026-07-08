@@ -342,3 +342,11 @@ None.
   pressure-source/pressure-row/material-frame/VPI graph passage through critical
   compactness; the defect \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) still needs graph
   closedness, paid/owned carriage, or typed route-out.
+- B2 is not yet the one surviving written object deleting W3/W7/W8/W9. The B2
+  source is an exact executable setup for the off-frame restoring-sign
+  computation, asserts no restoring sign, and says either outcome pays. The
+  checked W3, W7, W8, and W9 sources still leave retained service-payment
+  admission, selected-linear original-data payment, retained pressure-source
+  graph passage/typed route-out, and compact material-time certificate
+  path/action rows open, so B2 is target/method material rather than a terminal
+  deletion certificate.
