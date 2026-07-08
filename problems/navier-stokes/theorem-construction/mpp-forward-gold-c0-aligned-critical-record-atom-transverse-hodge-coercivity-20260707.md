@@ -1320,6 +1320,49 @@ else admit it as the Gate-B counterprofile. Exact NRS/Tsai self-similar
 exclusion and no-swirl plateau turn-off are not enough by themselves; they apply
 only after the endpoint is promoted into their hypotheses.
 
+## 23. Cycle 24: Gamma transport splits Gate B, but does not close it
+
+The circulation variable
+
+```math
+\Gamma=r u_\theta
+\tag{ATH.77}
+```
+
+is the correct axisymmetric swirl quantity, but in Navier--Stokes it obeys a
+transport-diffusion equation, not a pure material-invariant law. Its maximum
+principle controls \(\Gamma\), and smoothness imposes \(\Gamma=0\) on the axis.
+
+The on-axis retained swirl coefficient is
+
+```math
+\gamma=\frac{u_\theta}{r}=\frac{\Gamma}{r^2}.
+\tag{ATH.78}
+```
+
+Controlling \(\Gamma\) does not by itself control \(\gamma\) when radial
+compression is part of the record. Therefore on-axis exclusion needs
+
+```math
+\texttt{AxisGammaQuotientCoefficientLiouville.A},
+\tag{ATH.79}
+```
+
+a Hardy/material-time quotient theorem converting \(\Gamma\)-control into
+same-currency payment, pass/service-zero degeneration, or endpoint-kernel
+escape for the retained \(\gamma\)-record.
+
+The off-axis annular swirl endpoint remains separate:
+
+```math
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A}.
+\tag{ATH.80}
+```
+
+Thus the \(\Gamma\)-transport charge is a real Gate-B ingredient, but the
+installed endpoint exclusion does not yet reach either the on-axis quotient
+record or the Hou--Luo-type off-axis annulus.
+
 ## 22. Cycle 23 endpoint exclusion audit
 
 Claude cycle 23 correctly restores the axisymmetric swirl branch as Gate B, but
