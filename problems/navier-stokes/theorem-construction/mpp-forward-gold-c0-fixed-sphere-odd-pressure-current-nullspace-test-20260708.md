@@ -9,6 +9,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-forces-zero-participation-direct-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-turnoff-physical-reduction-claude-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md
 completion_truth: >-
   This note executes the first fixed-sphere nullspace test for the
   conversation-only object OddPressureCurrentCoercivity.A. In the linearized
@@ -369,6 +370,8 @@ positive cubic flux vector \(6w\nabla_{S^2}w\) remains in the coercive adjoint
 range of the same-field pressure-row operator for the retained record, modulo
 the parent-row relay. That is the same open object as
 `RetainedPositiveCubicFluxHasPressureRowOrRoutesOut.A`.
+The general retained-sphere operator and range test are now recorded in
+`mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md`.
 
 ## 5. Why the extension is not automatic
 
