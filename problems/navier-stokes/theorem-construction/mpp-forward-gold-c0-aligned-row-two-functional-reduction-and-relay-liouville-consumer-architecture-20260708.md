@@ -105,6 +105,14 @@ Certificate to attack: the dichotomy clause — "fixed point zero-record ⟹ Lio
 
 If this survives: upon install, W3 deletes as empty-by-admission and the Door-1 bundle collapses to {rung-local ZPF.21a (W2), closedness (W7)} — with W1 already resolved, the c₀ lane's live walls would be W2, W6 (consumer of W1+W2+W7), W7. Not paid; not closed; stated per rule 14.
 
+## 3f. Provisional Cycle-5 openings: W11 as reduction, W9≡W10 as two-are-one (both PENDING partner refutation and owner install; nothing paid)
+
+**(a) W11 (`OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A`) is not a wall — it is the Gold conclusion listed as its own obstacle.** The authority surface (proof-assembly.yaml) types it `gold-counterpart-frontier, status: gold-open-not-silver-blocker`: it is the Gold theorem seen from Silver's ledger, not an object beside the Gold chain. Under the goal grammar it resolves as REDUCTION to the surviving written object (the Gold chain W1-corrected → W2 → W6 → W7 → shrink map → `SignedCriticalHeightSignPersistenceOrPeakBound.A`). Certificate: the authority surface's own typing — keeping W11 on the frontier double-counts the theorem as a sibling of its own remaining burdens. Attack surface: whether W11 carries any content (e.g., a persistence-of-smoothness clause from the datum forward) not already in the Gold chain's statement.
+
+**(b) W9 ≡ W10 two-are-one candidate via the spine's own clause.** W9 (`MaterialTimeCertificateFlowInvariance.A`: the B3 certificate clauses remain closed under material-time evolution) and W10 (`GlobalSamePacketFullClockFromOriginalData.A`: the same-packet material clock is global from the datum) are one wall: a certificate closed under material evolution IS a clock that never breaks, and a global clock IS the transport that keeps the clauses closed. Certificate anchor already in the spine: "endpoint UI/no-free Zeno, Body-IV material-record retention, heat-scale return terminal AC, metric stretch, and same-carrier unweighted strain-action reserve are readouts of one `UniformSameMaterialTerminalClock.A`" — the merged wall is that already-christened clock (no new name; net-negative naming satisfied: two names retire into one existing name). Attack surface: whether W9's zero-payer/selector-label clauses contain non-clock content (bookkeeping legality rather than transport), which would leave a residual W9′ and demote the merge to partial.
+
+Projected post-install frontier if ALL pending items survive adjudication: W1 resolved (refuted-as-worded + corrected sense proved), W3 empty-by-admission, W11 reduced, W9+W10 merged — 14 walls → 8 (W2, W6, W7, W8, clock, W12, W13, W14). Stated per rule 14: projected, not paid.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
