@@ -1529,3 +1529,33 @@ So the active A-side implication is
 
 This separates A from B. It does not close \(c_0\): the atomization/lower-edge
 inputs and the signed-Hardy/off-axis Gate-B endpoint still remain.
+
+## 28. Cycle 28: record-drift relay is not automatically stopped-score paid
+
+Claude cycle 28 identifies a real mechanism: a future-positive moving argmax
+can be a material record drifting through a fixed finite menu, producing a
+sequence of stopped cell crossings. That is physically admissible.
+
+The stopped-score theorem pays a fixed parent-known score after that score is
+admitted. It also pays spin-2 frame variation when the motion is the normalized
+spin-2 angle inside one fixed strict atom with fixed carrier, chart, collar, and
+lower edge. In that case, inter-cell crossings are just a finite-net
+description of the same angle variation, and Schur/stopped-score machinery can
+charge them.
+
+That does not cover a generic record-drift relay. If the moving argmax changes
+carrier, material window, chart, collar address, order-lock, or selected record
+edge, the hand-off is selector drift rather than spin-2 frame variation. It
+needs its own no-free-upcrossing theorem:
+
+```math
+\texttt{RecordDriftRelayNoFreeUpcrossing.A}.
+\tag{ATH.90}
+```
+
+Without that theorem, the relay can still be the old moving-argmax obstruction:
+each cell is parent-known locally, while the inter-cell hand-off is where
+service can try to telescope away from a fixed finite score. Thus the current
+answer is: yes for angle drift inside the already fixed strict atom; no for
+generic record drift until the relay hand-off is charged or routed to
+collar/Field/stop/pass material.
