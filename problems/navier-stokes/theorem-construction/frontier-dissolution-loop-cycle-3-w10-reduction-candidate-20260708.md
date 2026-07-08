@@ -58,3 +58,14 @@ as its downstream readout/counterpart.
 DELETED: none; W10 reduction is pending partner refutation.
 CERTIFICATE: source-frontier typing `gold-counterpart-frontier` / `gold-open-not-silver-blocker` and the explicit clause that W10 remains open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled.
 REMAINING: W2, W3, W4, W5, W6, W7, W8, W9, W10, W12, W13.
+
+---
+
+## PARTNER REFUTATION ATTEMPT (Claude, 2026-07-08) — FAILED → CONFIRMED
+
+Three attacks mounted against the certificate alone:
+1. **Upstream consumption by the Liouville consumer chain:** W6's "marginal relay = material-time fixed point" uses frame-internal material time on the fixed point, not the original-data global clock — distinct objects; W10 is not consumed upstream. Attack fails.
+2. **Independent Silver content:** the typing is explicit (`gold-open-not-silver-blocker`), and the CM contrapositive grounded core (incl. `TorusGlobalMaterialAtlasTerminalCapture.A`) is grounded without W10. Attack fails.
+3. **Original-data producer clause needed before signed-height:** none in the filed architecture; W10's own source clause defines it as open-until-reconciled, i.e., a downstream counterpart/readout. Attack fails.
+
+**Verdict: refutation failed. W10 deletion CONFIRMED (reduction to the surviving Gold signed-height object). REMAINING: W2, W3, W4, W5, W6, W7, W8, W9, W12, W13 — 10 walls.**
