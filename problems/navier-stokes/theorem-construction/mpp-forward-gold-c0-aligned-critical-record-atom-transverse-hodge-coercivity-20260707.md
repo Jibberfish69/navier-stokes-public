@@ -423,3 +423,83 @@ So the sole wall after cycle 12 is:
 Proving (ATH.24) closes the pressure-degenerate branch. Producing a same-field
 finite-energy atom satisfying (ATH.21)--(ATH.22) with zero phase, parent,
 collar, and exit bill is the honest counterprofile.
+
+## 9. Parent-bank scaling: why the shear cell is not a tower counterexample
+
+Claude cycle 13 correctly demotes all purely local rigidity attempts. The exact
+shear-cell display means a local jet can prescribe the uniaxial pressure Hessian
+without changing the selected strain to first order. Therefore the proof cannot
+be "local Codazzi forbids the bank." It has to be "a bank strong enough to serve
+the retained tower is owned and paid."
+
+The scaling is the useful fact. Under the Navier-Stokes normalization
+
+```math
+U_r(y)=r\,u(x_0+ry),
+\qquad
+P_r(y)=r^2p(x_0+ry),
+\tag{ATH.27}
+```
+
+the normalized pressure Hessian obeys
+
+```math
+\nabla_y^2P_r(y)=r^4\nabla_x^2p(x_0+ry).
+\tag{ATH.28}
+```
+
+So a fixed parent harmonic Hessian \(H_{\rm par}\) contributes only
+\(r^4H_{\rm par}\) in the child coordinates. More generally, a pressure source
+living at a parent scale \(R\gg r\), with order-one normalized parent strength,
+contributes to the child normalized Hessian with a factor comparable to
+
+```math
+\left(\frac rR\right)^4.
+\tag{ATH.29}
+```
+
+Thus a genuinely remote bank cannot supply order-one aligned pressure to an
+arbitrarily deep normalized child tower. It is summable below the retained
+record.
+
+To keep \(H_\perp^S=0\) with order-one normalized effect at every retained rung,
+the bank must occur at comparable scale:
+
+```math
+R\sim r.
+\tag{ATH.30}
+```
+
+But then it is no longer a harmless remote jet. It lies in the strict atom,
+collar, adjacent parent, or Field envelope. The exact theorem is:
+
+```math
+\texttt{ComparableScalePressureBankIsAtomCollarParentOrField.A}.
+\tag{ATH.31}
+```
+
+Combined with far-field decay, this gives the parent-bank dichotomy in the form
+needed for \(c_0\):
+
+```math
+\texttt{ParentHarmonicUniaxialBankPaysOrIsSummable.A}.
+\tag{ATH.32}
+```
+
+One possible statement is:
+
+```math
+\mathsf S_{\rm ret}(Q_r)=1,\quad
+\|H^{\rm bank}_{r,tf}\|_{\rm norm}\ge c
+\Longrightarrow
+\mathsf P_{\rm atom/collar/parent/Field}(Q_r)\ge c'
+\quad\text{or}\quad
+\sum_{\text{remote }R\gg r}\|H^{R\to r}_{tf}\|_{\rm norm}<\infty.
+\tag{ATH.33}
+```
+
+This is the no-free-bank version of the \(c_0\) wall. A shear cell proves the
+local jet is possible; scaling says an order-one tower bank cannot remain remote
+and free. The remaining proof work is to make the near/far pressure split,
+normalized \(r^4/R^4\) decay, and atom/collar/parent/Field admission exact in
+the strict participation currency.
