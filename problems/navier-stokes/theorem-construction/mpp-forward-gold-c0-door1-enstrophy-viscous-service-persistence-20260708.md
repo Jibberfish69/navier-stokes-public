@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-door1-enstrophy-viscous-service-persistence-20260708
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / Door 1 / service persistence
-status: door-1-candidate-proof-under-enstrophy-viscous-participation; not-c0-closure
+status: door-1-conditional-proof-under-admitted-local-strain-H1-row; not-c0-closure
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-service-persistence-audit-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-section17-compactness-critical-gap-obstruction-20260707.md
@@ -11,24 +11,62 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
 completion_truth: >-
   This note attacks Door 1 only. It proves that Claude's a=r critical bubble is
-  a counterexample to an L2/Korn-only bill, but not to the strict same-field
-  viscous participation bill once that bill is read in the enstrophy/strain
-  production budget. The viscous response paired with Vieillefosse service is
-  the localized H1/enstrophy-dissipation term, not the L2 strain energy. Under
-  that legitimate same-field bill, zero payment gives strong L3 persistence of
-  the non-affine strain defect. This does not prove c0 by itself; the affine
-  endpoint is handled by the Door-2a fixed-collar note, the critical cone by the
-  Door-2b profile-production note, and the retained strict tower inequality by
-  the global strict bill admission/accounting note.
+  a counterexample to an L2/Korn-only bill, but not to an admitted strict
+  same-field viscous participation row read from the local strain production
+  budget. The viscous response paired with Vieillefosse service is the
+  localized H1/enstrophy-dissipation term, not the L2 strain energy. If that
+  row is admitted as actual retained strict payment, zero payment gives strong
+  L3 persistence of the non-affine strain defect. This is a conditional Door-1
+  proof, not c0 closure; the row-admission/finiteness and Door-2 endpoint
+  burdens remain.
 ---
 
 # Door 1: Enstrophy-Viscous Service Persistence
 
 Physical sentence: a small participating stretcher cannot keep unit
-Vieillefosse service while paying only the \(L^2\) strain energy. The service
-is the cubic production term in the vorticity/enstrophy budget, and the same
-budget's viscous response is the \(H^1\)-level enstrophy dissipation. That is
-the bill that sees the critical bubble.
+Vieillefosse service while paying only the \(L^2\) strain energy. The service is
+the cubic production term in the local strain budget, and the same budget's
+viscous response is the \(H^1\)-level strain/enstrophy dissipation. That is the
+same-field row that sees the critical bubble, provided the strict VPI bill
+admits it as retained payment.
+
+## 0. Why the \(H^1\) row is same-field
+
+Let \(D_t=\partial_t+u\cdot\nabla\),
+
+```math
+S={1\over2}(\nabla u+\nabla u^T),
+\qquad
+\Omega={1\over2}(\nabla u-\nabla u^T).
+\tag{D1.0a}
+```
+
+Taking the symmetric gradient of Navier--Stokes gives
+
+```math
+D_tS-\nu\Delta S+S^2+\Omega^2+\nabla^2p=0.
+\tag{D1.0b}
+```
+
+Testing this equation on a retained packet by \(\phi^2S\) gives, after the
+usual localized integration by parts,
+
+```math
+{1\over2}D_t\int\phi^2|S|^2
++
+\nu\int\phi^2|\nabla S|^2
+=
+-\int\phi^2\operatorname{tr}(S^3)
+-\int\phi^2S:\Omega^2
+-\int\phi^2S:\nabla^2p
++\operatorname{Collar}_\phi .
+\tag{D1.0c}
+```
+
+Thus the row that controls \(H^1\) strain is not an external norm. It is the
+viscous response in the same local strain-production identity that contains
+the Vieillefosse service \(-\operatorname{tr}(S^3)\), with vorticity, pressure,
+transport, and collar appearing as the other same-record rows.
 
 ## 1. The \(a=r\) bubble only beats an \(L^2\) bill
 
@@ -87,9 +125,10 @@ For a packet of width \(\ell\), the strain changes on scale \(\ell\), so
 
 If the packet only lives for a time \(\tau\), then
 \(\mathsf S_\ell\sim\tau\) and the viscous enstrophy bill is
-\(\sim\nu\tau/\ell\). Normalizing the retained service to \(1\) forces
-\(\tau\sim1\), or an equivalent sum of shorter episodes, and the bill is
-\(\gtrsim\nu/\ell\), not \(o(1)\).
+\(\sim\nu\tau/\ell\). Splitting the event into shorter episodes does not help:
+for total retained service \(\mathsf S_{\rm tot}\), the same-scale viscous row
+is \(\sim(\nu/\ell)\mathsf S_{\rm tot}\). Normalizing
+\(\mathsf S_{\rm tot}=1\) gives a bill \(\gtrsim\nu/\ell\), not \(o(1)\).
 
 Thus the \(a=r\) bubble says exactly this: the \(L^2\) Korn bill is the wrong
 viscous readout for Door 1. It does not give a zero-payment same-fluid packet
@@ -197,6 +236,7 @@ So the physical accounting is:
 \tag{D1.13}
 ```
 
-This closes Door 1 only under the strict participation bill that includes the
-same-field enstrophy-viscous response. The retained strict tower \(c_0\) bound
-then requires Door 2a, Door 2b, and the global no-double-count accounting.
+This closes Door 1 only under the strict participation bill that admits the
+same-field local strain \(H^1\) response in (D1.0c) as retained payment. The
+retained strict tower \(c_0\) bound then requires that row admission/finiteness,
+Door 2a, Door 2b, and the global no-double-count accounting.
