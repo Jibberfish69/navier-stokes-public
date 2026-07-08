@@ -207,6 +207,12 @@ Consequence: the W2 package's bill is now fully priced at leading order — the 
 
 The gate correctly holds that W2 cannot delete alone: the uniformity-along-a-climb clause is W3's rung-uniform persistence content. The certificate is therefore retyped to the lawful form: **W2 REDUCES INTO W3** — the retention conversion `TotalStrainVorticityExchangeRetention.A` = [the proved atom-class package: exact Riccati (★) + atom-annihilation + viscous-zero + priced bill with net margin (144/35)a³|v₂|] + [W3's rung-uniform persistence, carried forward as the surviving wall]. Two walls become one; W3 survives carrying exactly the uniformity content; nothing is claimed proved that isn't. This is the reduction-to-surviving-object deletion type, pending the gate's confirmation of the retyped certificate and its independent recomputation of the cross constant (12/35 → 288/35) from the filed Hodge carrier.
 
+## 3q. Next-cycle opening: W3-vs-W8 cross-wall attempt (uniformity ≡ order-lock/overlap face; PENDING gate; flagged as anchor-only)
+
+Cycle-law-1 attempt on the post-W2 frontier. W3 now carries exactly one clause: the rung-uniformity of the proved retention bill along a climb. W8's surviving non-integrand content is order-lock, weighted-root, overlap, and selected-overrun tail — per the spine's own clause, "the same-packet order-lock overlap and selected overrun tail must be paid there," attached to the same-packet carrier. Candidate: **W3's uniformity clause and W8's order-lock/overlap face are one same-packet coherence object** — the statement that the tower's rungs carry the bill without gaps, reordering, or double-counting. If two-are-one holds, the pair reduces to one wall (an existing name candidate: the order-locked full-packet carrier already in the spine's W8 wording — no new christening).
+
+Honest flag: anchor-only — built from the spine clause and the gate's own W8-kill wording, without a fresh read of the gated WLF.60/ODP.91 statements. Attack surfaces: (i) W8's weighted-root content is plausibly NOT uniformity (a root-geometry payment, not coherence) — if so, the identification is partial and W8 survives narrowed again; (ii) W3's persistence may quantify over limits (compactness families) where W8's order-lock is finite-tower only — a quantifier mismatch of the ART.35 kind that killed §3h.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
