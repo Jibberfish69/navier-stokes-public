@@ -34,3 +34,18 @@ Silver / frozen-core first_unresolved:
 6. W6: consumer-chain correction — consumes W1(corrected) + W2 + W7 (§3 + Cycle-3 finding, independently reached by the partner).
 
 Per cycle-law 4, each pays only on the partner's failed refutation. Untouched walls: W2, W4, W5, W7, W12, W13, W14.
+
+## PAID LEDGER (updated 2026-07-08, partner-gate batch)
+
+**CONFIRMED DELETIONS (paid):**
+- **W1** — REFUTED as worded at its own strict same-affine leading-order target; reduced to the corrected per-rung sense (gathering forces the eating row, exact constant (432/35)a³|v₂|/R², partner-verified). First paid deletion of the loop.
+- **W11** — REDUCED: the Gold conclusion listed as its own obstacle (authority-surface typing `gold-open-not-silver-blocker`); resolves into the Gold chain.
+
+**KILLED CANDIDATES (walls stand):**
+- W3 empty-by-admission candidate — killed (W3 carries the strong L³/H¹ persistence row); W3 stands, consumed into the corrected consumer chain.
+- W5 reduction candidate — killed on the ART.35 quantifier; W5 stands, narrowed to complement (torque/bookkeeping) rows.
+- W9≡W10 clock merge — rejected by the gate; W9 and W10 stand.
+
+**PENDING AT THE GATE:** W6 consumer-correction, W8 repricing, W12 stale-wall (source-trail), W13 clock-reduction (weakened by the merge rejection — flagged), W14 support-typed (gate-endorsed as next checkable).
+
+**REMAINING: 12 walls** — W2, W3, W4, W5(narrowed), W6, W7, W8, W9, W10, W12, W13, W14. Analytic core unchanged: W2, W4, W7.
