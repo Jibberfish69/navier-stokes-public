@@ -167,3 +167,9 @@ None.
   continuous shifts/action on the compactified certificate family,
   terminal-window no-escape, and lower-semicontinuous closure of all
   surplus-payer rows in that common topology.
+- Static W7/W8 row closure does not delete W9: compact pointwise certificate
+  states, legal rows, and zero payer do not force a compact shift-continuous
+  material-time path hull. The abstract counterexample \(Z_n(t)=e^{int}\) in
+  \(X=S^1\) has closed legal rows and zero payer at every time but no compact
+  \(C_{\rm loc}\) shift hull, so W9 still needs a uniform material-time
+  modulus/BV/cocycle or a typed route-out for its failure.
