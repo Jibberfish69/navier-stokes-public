@@ -173,3 +173,12 @@ None.
   \(X=S^1\) has closed legal rows and zero payer at every time but no compact
   \(C_{\rm loc}\) shift hull, so W9 still needs a uniform material-time
   modulus/BV/cocycle or a typed route-out for its failure.
+- Claude Rows 1-2 transcription gate did not delete W9: Row 1 is accepted only
+  as the scalar signed-record BV coordinate supplied by the record-net work law,
+  and Row 2 is accepted only conditionally for payer rows already carried as
+  nonnegative finite measures or lsc defect coordinates on the common compact
+  W9 material-time window. The checked WLF/W9 sources do not define W9 payer
+  paths as running totals of W8, do not prove WLF.60 / ODP.91 from original
+  data, and do not supply terminal-window no-escape, the common certificate
+  path topology, the action on the closure, or uniform moduli for the pressure,
+  ancestry, cover, tower, service, and selector/legal rows.
