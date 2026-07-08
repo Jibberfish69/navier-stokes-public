@@ -94,6 +94,10 @@ None.
   closed-zero-surplus certificate-flow invariance, with path-hull,
   shift-room, zero-payer, and terminal-window certificate clauses. Neither
   direction reduces to the other.
+- W9 `ZeroSurplusCertificateClosedGraph.A` consumed by W7 failed: W7 has
+  retained-row graph overlap, but it does not prove same-packet surplus-payer
+  measure lift, lower semicontinuity, carried nonnegative surplus-defect
+  coordinates, or terminal-window no-escape.
 - W3 == W7 failed: W3 is the Door-1 H1/strong-L3 service-persistence row from
   strict same-field payment, while W7 is retained VPI record graph
   passage/admission through critical compactness. W3 does not carry pressure /
