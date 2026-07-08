@@ -22,11 +22,11 @@ completion_truth: >-
   a'=2a. The critical-service audit records that A5 is conditional on genuine
   strong L3/service persistence from the same payment, not on L2 compactness.
   The cubic radial strain moment note replaces quadratic collar slope payment
-  with the signed Vieillefosse moment drop and identifies the remaining
+  with the signed Vieillefosse moment turn-off and identifies the remaining
   non-tautological bill-admission theorem:
   CubicRadialMomentOddPayment.A. What is not yet proved as a global
   Navier-Stokes theorem is that the legitimate material-time oriented
-  pressure/current bill dominates that signed cubic drop, and that every
+  pressure/current bill dominates that signed cubic turn-off, and that every
   normalized zero-payment positive-service sequence compactifies without
   service loss to a zero-payment strict atom/tower limit whose endpoint kernel
   is stopped, parent-owned/global-affine/nonlocalizable, or nonparticipating.
@@ -260,7 +260,7 @@ If the finite-energy/localized turn-off has \(M(\rho_j)\to0\) outward, then
 ```math
 \mathsf S_V(Q)
 \lesssim
-\int_0^\infty[-M'(\rho)]_+\,d\rho.
+\int_0^\infty[M'(\rho)]_+\,d\rho.
 \tag{ZPF.7i}
 ```
 
@@ -270,7 +270,7 @@ independent of collar length because
 ```math
 M'(\rho)=3a(\rho)^2a'(\rho)M_{\rm aff},
 \qquad
-\int [-M']_+\,d\rho\ge -M_{\rm aff}.
+\int [M']_+\,d\rho\ge -M_{\rm aff}.
 \tag{ZPF.7j}
 ```
 
@@ -281,7 +281,7 @@ So the \(1/L\) receding-collar leak is an artifact of charging
 \texttt{CubicRadialMomentOddPayment.A:}\qquad
 \mathsf P_{\rm odd}(\Lambda Q)
 \ge
-c\int_{\Lambda Q}[-M'(\rho)]_+\,d\rho.
+c\int_{\Lambda Q}[M'(\rho)]_+\,d\rho.
 \tag{ZPF.7k}
 ```
 
