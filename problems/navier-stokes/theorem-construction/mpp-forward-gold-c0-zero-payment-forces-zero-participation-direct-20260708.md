@@ -327,6 +327,35 @@ d\rho.
 \tag{ZPF.7k4}
 ```
 
+The pressure rate-order test supports the linear side of this target. Expanding
+the slaved pressure source
+
+```math
+Q[u]=\partial_i u_j\partial_j u_i=\operatorname{tr}((\nabla u)^2)
+\tag{ZPF.7k5}
+```
+
+around the affine carrier \(\nabla u=aS+K_j\) gives
+
+```math
+Q[u]
+=
+a^2\operatorname{tr}(S^2)
++
+2a\,\operatorname{tr}(S K_j)
++
+\operatorname{tr}(K_j^2).
+\tag{ZPF.7k6}
+```
+
+The only turn-off term with the right rate order is the linear pressure source
+\(2a\,\operatorname{tr}(S K_j)\). Square-current and viscous terms are
+quadratic in \(j\) and reproduce the receding-collar leak. In the scalar aligned
+incompressible turn-off, this linear pressure source is present but remains
+axisymmetric/aligned, so the legitimate \(\mathsf P_{\rm odd}\) cannot be only
+a transverse pressure-Hessian commutator. It has to be the material-time
+oriented pressure-current/collar transfer that owns the positive linear flux.
+
 Since the right side equals
 \(\int_{\Lambda Q}[M'(\rho)]_+\,d\rho\), (ZPF.7k4) implies
 `CubicRadialMomentOddPayment.A`.
