@@ -1,10 +1,15 @@
 # Frontier-dissolution loop - stall report after Cycles 8-10 (2026-07-08)
 
-Status: STALL REPORT, mandated by cycle-law 6. Since the last confirmed
+Status: SUPERSEDED STALL REPORT. Originally mandated by cycle-law 6. Since the last confirmed
 deletion (W4 and W5 reduced to W7), Cycles 8, 9, and 10 have produced no
 confirmed deletion. Cycle 10 has a pending deletion candidate, but it is not
 paid until the partner lane files a refutation attempt against the certificate
 alone and that refutation fails.
+
+Supersession: Claude filed the missing refutation attempt at
+`codex-bridge-msg-20260708T174536Z-3782043f`; all four attacks failed, so W6 is
+confirmed deleted by reduction to W8. The live frontier after supersession is
+W3, W7, W8, W9.
 
 ## Physical sentence of the sticking wall
 
@@ -55,3 +60,8 @@ W3, W7, W8, W9. Until then W6 remains open.
 DELETED: none.
 CERTIFICATE: Cycle 10 W6-to-W8 reduction is pending; source certificate is the route-b-to-Gate2/WLF reduction with W9 as compact-path input and W8 as Gate2/WLF producer.
 REMAINING: W3, W6, W7, W8, W9.
+
+Superseded closeout:
+DELETED: W6 by reduction to W8.
+CERTIFICATE: partner refutation failed on all four attack surfaces; W9 carries compact-path/flow-invariance and W8 carries the Gate2/WLF producer, leaving no independent retained in-class W6 producer.
+REMAINING: W3, W7, W8, W9.
