@@ -1353,3 +1353,42 @@ The remaining theorem is still
 ```
 
 or the fixed-axis swirl endpoint becomes the admitted counterprofile.
+
+## 23. Cycle 24 circulation audit
+
+Claude cycle 24 proposes that \(\Gamma=ru^\theta\) excludes the on-axis swirl
+record because it is a material invariant and vanishes on the axis. This is a
+scalar substitute and does not close Gate B.
+
+For Navier--Stokes,
+
+```math
+D_t\Gamma
+=
+\nu\left(\partial_r^2-\frac1r\partial_r+\partial_z^2\right)\Gamma .
+\tag{ATH.78}
+```
+
+So \(\Gamma\) is not materially invariant; it has viscous transport/diffusion.
+Also, smoothness forces \(\Gamma=\gamma r^2+O(r^4)\), hence \(\Gamma=0\) on the
+axis automatically. The record can live in the quotient
+\(\gamma=\lim_{r\to0}\Gamma/r^2\), axial vorticity \(2\gamma\), strain, and
+aligned pressure Hessian. A bound or vanishing statement for \(\Gamma\) is not
+yet a same-currency bound for those quantities.
+
+Thus cycle 24 supplies a possible proof route, not a proof: show that nonzero
+\(\gamma\) pays through the \(\Gamma\)-current, viscous diffusion, annular flux,
+or collar/Field currency. That charge is not installed. The off-axis annular
+case is also not reached, since \(\Gamma\) need not vanish there and the same
+transport/diffusion/collar accounting would have to be proved in the retained
+zero-bill atom currency.
+
+Gate B remains
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointCoefficientLiouville.A}
+\tag{ATH.79}
+```
+
+with on-axis quotient growth and off-axis annular circulation both still under
+the same material-time Liouville burden.
