@@ -15,11 +15,17 @@ completion_truth: >-
   total-turnoff identity showing that a finite-energy/localized turn-off of a
   nonzero Vieillefosse affine imprint has scale-uniform signed cubic moment
   variation. This kills the artificial 1/L leak produced by quadratic
-  slope-squared turn-off charges. It does not yet prove c0: the remaining
-  theorem is the non-tautological same-field bill admission
-  CubicRadialMomentOddPayment.A, namely that the material-time oriented
-  transverse pressure/current bill dominates the positive turn-off rise
-  [M']_+.
+  slope-squared turn-off charges. The residual-current normal form shows that
+  M' is linear in the turn-off current, and the scalar aligned incompressible
+  turn-off test shows the slaved pressure source is also linear in the rate
+  a', while viscous/square-current costs are quadratic and leak. In the
+  aligned axisymmetric subcase this linear pressure source need not create a
+  transverse eigenframe torque, so the remaining bill cannot be only a
+  transverse Hessian commutator. It must be the broader material-time oriented
+  pressure-current/collar transfer. This note does not yet prove c0: the
+  remaining theorem is the non-tautological same-field bill admission
+  CubicRadialMomentOddPayment.A, namely that this legitimate odd bill dominates
+  the positive turn-off rise [M']_+.
 ---
 
 # Cubic Radial Strain Moment Turn-Off
