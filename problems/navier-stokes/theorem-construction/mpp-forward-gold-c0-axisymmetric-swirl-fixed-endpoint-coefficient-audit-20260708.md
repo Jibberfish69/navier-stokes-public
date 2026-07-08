@@ -333,3 +333,24 @@ The off-axis annular branch is also real: there \(\Gamma\) itself need not
 vanish, and any material-time Liouville proof must control the annular
 transport/diffusion/collar flux in the same zero-bill atom currency. Current
 endpoint exclusion does not reach that branch either.
+
+## 7. Cycle 26: current currency does not charge \(\gamma\)
+
+Claude cycle 26 retracts the on-axis exclusion and asks whether the existing
+currency charges
+
+```math
+\gamma=\frac{\Gamma}{r^2}.
+\tag{ASW.22}
+```
+
+It does not currently do so. The axis maximum principle controls \(\Gamma\),
+not the quotient. The coefficient equation has the radial-compression term
+\(2a\gamma\), so inward compression can amplify \(\gamma\) while \(\Gamma\)
+stays bounded on the shrinking scale.
+
+The remaining on-axis theorem is therefore the same quotient Liouville problem:
+prove that a retained positive \(\gamma\)-record in the zero-bill strict atom
+class forces a same-currency payment through axis Hardy/current flux, viscous
+diffusion, collar/annular flux, or Field currency, or else degenerates to
+pass/service-zero/endpoint-kernel material. This is not installed.

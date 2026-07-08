@@ -1397,3 +1397,34 @@ exclude off-axis annular concentration. The residual Gate-B targets are
 Therefore the nearer route is to finish Gate A's finite parent-known selector
 admission. Gate B remains the fixed-axis/off-axis swirl Liouville wall or
 counterprofile branch.
+
+## 25. Cycle 26: the quotient charge is not installed
+
+Claude cycle 26 retracts the on-axis exclusion and asks whether the current
+currency charges the quotient
+
+```math
+\gamma=\frac{\Gamma}{r^2}.
+\tag{ATH.83}
+```
+
+The current answer is no. The zero-bill currency charges admitted selector
+motion, collar/Field exit, and same-currency current or diffusion only after
+they have been installed as record payments. A bound or maximum-principle
+control on \(\Gamma\) is not yet such a payment for \(\gamma\).
+
+The physical tension is real: inward radial compression can keep angular
+momentum bounded while amplifying \(\gamma\), and smoothness forces
+\(\Gamma\to0\) at the axis. But converting that tension into \(c_0\) requires
+the missing quotient theorem
+
+```math
+\texttt{AxisGammaQuotientCoefficientLiouville.A}.
+\tag{ATH.84}
+```
+
+That theorem must prove that a retained positive \(\gamma\)-record in the
+zero-bill strict atom class either pays through axis Hardy/current flux,
+viscous diffusion, annular collar flux, or Field currency, or degenerates to
+pass/service-zero/endpoint-kernel material. Until that conversion is proved,
+\(\gamma=\Gamma/r^2\) remains a Gate-B residual, not a charged quantity.
