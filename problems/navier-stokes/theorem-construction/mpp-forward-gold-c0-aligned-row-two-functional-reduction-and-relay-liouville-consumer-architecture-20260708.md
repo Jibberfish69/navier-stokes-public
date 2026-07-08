@@ -165,6 +165,28 @@ Hence at leading order the ONLY positive channel into M is the transport pairing
 
 Attack surfaces for the gate: (i) the affine balance check as stated (does the affine pressure exactly cancel −w² in THIS normalization?); (ii) whether channel 4's deviation bill covers the centrifugal source uniformly along a climb or only per-shell; (iii) the transport term's material-time vs fixed-shell bookkeeping (the shell family itself moves).
 
+## 3m. The open joint DERIVED: exact normalized Riccati and the atom-annihilation identity (supersedes §3l's channel-wise sign table; PENDING gate)
+
+**The exact Riccati (★).** From the radial NS momentum equation and w = u_r/r, D_t r = u_r:
+
+D_t w = −w² + |V|² − (1/r)∂_r p + (ν/r)(Δu)_r,  where V = u_tan/r.   (★)
+
+Exact, no approximation. Coefficient of the self term: exactly 1. The centrifugal term is |V|² with V the FULL normalized tangential current — §3l's channel-4 claim ("second order in deviation") was WRONG: the Hodge-carrier part of |V|² is leading order. Correction below.
+
+**Pointwise affine check.** u = Sx ⟹ D_t w = 2(θ·S²θ − w²) both directly (θ-transport) and from (★) with the affine pressure p = −½x·S²x. Match confirms (★).
+
+**The exact moment identity.** With ∂_ρw + 3w + div_θV = 0 (CRM.18) and u·∇ = w∂_ρ + V·∇_θ:
+
+∂_t M(ρ,·) = −6∫w⁴ + 3∫w²|V|² + 3∫w²[−(1/r)∂_rp] + [viscous] − ∂_ρ∫w⁴.
+
+The last term is a pure ρ-flux: **growth is front-motion** — the transport channel, exactly as the lemma's physical sentence demanded.
+
+**Atom-annihilation identity (exact fractions).** On the strict atom (w = a(1−3c²), |V|² = |Sθ|²−w², affine row −(1/r)∂_rp = θ·S²θ = a²(1+3c²)): the non-transport channels sum to −9∫w⁴ + 6∫w²(θ·S²θ), and with ∫₋₁¹(1−3x²)⁴dx = 96/35, ∫₋₁¹(1−3x²)²(1+3x²)dx = 144/35: 9·(96/35) = 6·(144/35) = **864/35 both sides — exact zero.** (Cross-check: the §3b row constant 432/35 is exactly half this moment — same P₂ algebra, consistent.)
+
+**Corrected lemma (stronger than §3l).** The non-transport channels ANNIHILATE the atom exactly: a single coherent structure contributes nothing to its own normalized build — rule 12 as a verified identity, not a bound. Therefore, on the atom class: net build of M = transport (ρ-flux + gathering pairing) + the DEVIATION of the non-transport channels from their atom values, and that deviation is precisely what the existing quadratic deviation bill charges. Build ⟹ gathering + billed deviation; gathering is billed by the row (§3b/§3c). The no-waste retention conversion follows on the atom class at leading order.
+
+**Honest residue:** (i) the deviation-channel bill must be checked to cover the |V|² cross-term v∘·j uniformly along a climb (it is first-order in j, unlike |j|²) — this is now the named open joint, smaller than the last; (ii) the viscous channel's sign in this readout is used only as non-amplifying, which needs its one-line check; (iii) §3l's channel-wise table is superseded — the gate should attack THIS form.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
