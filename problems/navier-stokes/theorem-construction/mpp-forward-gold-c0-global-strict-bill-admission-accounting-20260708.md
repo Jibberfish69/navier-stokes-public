@@ -11,6 +11,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2-fixed-affine-collar-h1-trace-payment-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2b-critical-cone-profile-production-accounting-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md
 completion_truth: >-
   This note proves only the no-loss/no-double-count accounting step after the
   local payment theorems have already been admitted in the same tower currency.
