@@ -172,7 +172,7 @@ C_C\left(
 \mu_{\rm chain}(\Lambda C_\alpha)
 +\mu_{\rm end}(\partial_{\rm handoff}C_\alpha)
 +\mu_{\rm D2a}(\partial_{\rm out}C_\alpha)
-    +\mu_{\rm D2b}(\partial_{\rm crit}C_\alpha)
++\mu_{\rm D2b}(\partial_{\rm crit}C_\alpha)
 \right).
 \tag{GBA.8}
 ```
