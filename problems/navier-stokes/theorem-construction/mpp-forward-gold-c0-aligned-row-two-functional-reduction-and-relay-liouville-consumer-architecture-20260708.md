@@ -139,6 +139,16 @@ proof-assembly.yaml types W14 (`PackOutOfCMSmoothnessCertification.A` / `Origina
 
 **(b) W13 candidate: reduces to the clock.** W13's own gated statement makes its residue explicit: "finite rectified annular force-action variation is now conditional on finite positive variation of the continuation-depth material record or an equivalent bounded-below global same-material storage." A bounded-below global same-material storage IS the `UniformSameMaterialTerminalClock.A` object of the W9≡W10 merge candidate. If the merge survives its gate, W13's residual condition is the same wall — W13 deletes as reduction, leaving its already-corrected Stokes/Hodge shell part as support. Attack surface: whether "continuation-depth material record" variation is clock content or an independent depth-counting row.
 
+## 3k. Theorem-mode opening: the W2 proof program (retention inequality; PENDING gate; identification altitude exhausted, descent earned per cycle-law 1)
+
+Physical sentence: the global exchange ledger (ZPF.21) cannot say WHERE the payment for local retained growth is collected; the no-waste conversion (`TotalStrainVorticityExchangeRetention.A`) is the statement that a locally climbing record collects its own bill locally, or the apparent subsidy from elsewhere is a lawful relay (re-entering W6) or ¬Part. Proof program in three steps:
+
+1. **(open — the one derivation)** Build-side forcing: a record whose local cubic content grows in material time runs a nonzero gathering current at its front. Exact shape: the temporal analogue of CRM.10–14 — decompose D_t M(ρ,·) via the strain equation into transport (the same j·∇w pairing as CRM.19d, now in time), local production, pressure row, viscous; then rule-12 structure (a single shell is inert — local production at the shell is itself supplied) forces the transport term to carry the net build. Deliverable: one exact identity plus one signed inequality on the transport term.
+2. **(proved, partner-verified)** Gathering forces the eating row at the exact per-rung constant (432/35)a³|v₂|/R² — §3b/§3c, per-shell by §3d.
+3. **(assembly)** 1 + 2 ⟹ local retained growth carries a local signed bill; waste-free by construction; failure branches route to relay (W6) or ¬Part — the trichotomy, already framed.
+
+Attack surfaces for the gate: (i) step 1's local-production branch — can a shell self-feed at leading order without violating rule 12's supply recursion? state the recursion exactly; (ii) the material-time vs fixed-shell bookkeeping in D_t M (transport of the shell family itself); (iii) whether step 3's assembly needs W3's rung-uniform persistence as an input (if yes, W2's proof consumes W3 — a dependency to type, not hide).
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
