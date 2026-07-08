@@ -195,6 +195,14 @@ The last term is a pure ρ-flux: **growth is front-motion** — the transport ch
 
 With §3m + §3n, the W2 package now stands as: exact Riccati (★), atom-annihilation identity (exact fractions, twice-verified), viscous-zero on atom (exact), cross-term typed into the bill (structural, constant computable), deviation channels charged by the existing quadratic bill. Remaining for the gate: R1 (the fraction chain), R4 (CRM.18 usage), and the single uniformity question — does the deviation bill hold uniformly along a climb (which is W3's rung-uniform persistence content, a typed dependency, not a hidden one).
 
+## 3o. The cross constant executed: the net build-side bill is (144/35)a³|v₂| (decide-both-ways passed; PENDING gate)
+
+The R2 residual computed in the same P₂ fraction algebra. Hodge carrier: Δ_θψ = −3w₀ with w₀ = −2aP₂ gives ψ = −aP₂, v∘ = −a∇_θP₂. Cross term of the moment identity: 6∫w₀² v∘·j = 6·4a²·(−a)v₂·∫P₂²|∇P₂|² with ∫₋₁¹ P₂²|∇P₂|² dx = (9/4)∫x²(1−x²)(3x²−1)²dx = (9/4)(16/105) = 12/35 (the 16/105 is the same integral family as the drop constant — consistent algebra). Cross constant: **−(288/35)a³v₂.**
+
+Sign reading (the delicate part — gate must check the bookkeeping): under GATHERING (v₂ < 0), the carrier cross-channel FEEDS the build at (288/35)a³|v₂| while the forced row EATS at (432/35)a³|v₂|. **Net: (144/35)a³|v₂| eating — strictly positive margin.** The decide-both-ways risk was real: had the cross constant exceeded 432/35, the net would have flipped and the mechanism would be refuted; it did not, by exactly 144/35 (= 432 − 288, one algebra family: 432, 288, 144 over 35).
+
+Consequence: the W2 package's bill is now fully priced at leading order — the net per-rung cost of building the record is (144/35)a³ per unit gathering rate, exact, with every channel accounted: transport (the build itself), row (eats, 432/35), carrier cross (feeds, 288/35), self/centrifugal/affine-row (atom-annihilated, 864/35 = 864/35), viscous (zero on atom), quadratic deviations (charged). Refutation targets for the gate: the ψ solve sign, the 12/35 integral, and above all the side-of-balance bookkeeping for the cross term.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
