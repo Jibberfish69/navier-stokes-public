@@ -18,10 +18,9 @@ Installed frontier source:
 | W10 `GlobalSamePacketFullClockFromOriginalData.A` | Reduction to surviving Gold signed-height object | Partner refutation attempt failed: upstream-Liouville consumption, independent-Silver-content, and pre-signed-height-producer attacks all failed. W10 is source-typed as a downstream Gold counterpart/readout open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled. |
 | W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCompletion.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W12 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on finite positive variation of the continuation-depth material record supplied by the W10/signed-height survivor. |
 | W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W13 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on the same finite positive variation / bounded-below same-material storage supplied by the W10/signed-height survivor. |
+| W2 `NoSilentPressureRowDropping.A` / ZPF.21a | Reduction to W3 `CriticalServicePersistenceFromPayment.A` | Codex refutation attempt against Claude's section-3m/3o certificate failed: the Riccati identity, atom-annihilation fractions \(96/35,144/35,864/35\), viscous-zero atom clause, CRM.18/19 continuity usage, Hodge-carrier solve \(\psi=-aP_2\), and cross integral \(12/35\) all check. The atom package gives net leading-order bill \((144/35)a^3|v_2|\); the only remaining uniformity-along-a-climb burden is exactly W3's rung-uniform persistence content. |
 
 ## Open walls
-
-W2 `NoSilentPressureRowDropping.A` / ZPF.21a
 
 W3 `CriticalServicePersistenceFromPayment.A`
 
@@ -63,3 +62,8 @@ None.
   ZPF.21 is only a signed global ledger, and
   `TotalStrainVorticityExchangeRetention.A` remains the independent no-waste /
   retained localized same-carrier conversion from original data.
+- W8 integrand-only deletion still fails: Cycle 6 supplies the exact
+  build-side atom integrand and leading-order margin
+  \((144/35)a^3|v_2|\), but WLF.60/ODP.91 still carries order-lock,
+  weighted-root, overlap, and selected-overrun tail content beyond that local
+  integrand.
