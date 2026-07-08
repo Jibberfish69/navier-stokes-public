@@ -377,6 +377,72 @@ turn-off. The legitimate payer must be the oriented pressure-current/collar
 bill that sees \(\mathsf J_M^+\), with transverse torque only one possible
 component of that bill.
 
+Adding a solid swirl to this local aligned turn-off does not close the aligned
+null direction. In cylindrical coordinates \(R=(x_1^2+x_2^2)^{1/2}\), for
+\(S=\operatorname{diag}(1,1,-2)\) and \(\mu=x_3/|x|\), the poloidal part of
+(CRM.19h) is
+
+```math
+u_R=aR+b\mu^2R,
+\qquad
+u_z=-2ax_3-b(1-\mu^2)x_3 .
+\tag{CRM.19k-swirl1}
+```
+
+Now add
+
+```math
+u_\phi=\gamma R .
+\tag{CRM.19k-swirl2}
+```
+
+This azimuthal field is tangent to the spheres, so it does not change \(w\),
+\(M\), or \(\mathsf J_M^+\). For constant \(\gamma\), its contribution to the
+pressure source is only
+
+```math
+\operatorname{tr}(\nabla u)^2
+=
+\operatorname{tr}(\nabla u_{\rm pol})^2
+-2\gamma^2 .
+\tag{CRM.19k-swirl3}
+```
+
+The extra term is the isotropic solid-rotation source. There is no \(b\gamma\)
+cross term that would own the aligned cubic turn-off. If \(\gamma\) varies, the
+instantaneous source reads the radial swirl derivative through
+
+```math
+-2\frac{u_\phi}{R}\partial_R u_\phi
+=
+-2\gamma(\gamma+R\partial_R\gamma),
+\tag{CRM.19k-swirl4}
+```
+
+which is a circulation-gradient object, not the solid-swirl add-on.
+
+The material swirl coefficient also gives no uniform local domination of the
+aligned cubic drop. For the solid-swirl coefficient,
+
+```math
+D_t\frac{\gamma^2}{2}
++2(a+b\mu^2)\gamma^2
+=
+\text{viscous/circulation-gradient terms}.
+\tag{CRM.19k-swirl5}
+```
+
+This work is \(\gamma^2\)-weighted and its sign depends on the radial
+compression \(a+b\mu^2\). It can vanish as \(\gamma\to0\) while
+\(\mathsf J_M^+\) for the poloidal turn-off remains fixed. Thus the local test
+does not prove a scale-uniform bound of \([M']_+\) by swirl compression work.
+The genuine aligned-with-swirl branch is not a solid-body rotation added to the
+affine sheet. It is the non-solid circulation-gradient/centrifugal problem:
+the same axisymmetric swirl field must either be the known no-swirl/poloidal
+regular branch, a solid-rotation gauge with no cubic ownership, or a
+\(\Gamma\)-gradient branch whose driver and centrifugal brake are both part of
+the same participation bill.
+
 The correct ownership theorem is therefore not a detached pressure-collar size
 estimate. The old Gate 1 pressure-collar notes show that address ownership
 alone does not imply payment: a raw owned pressure route measure can remain
