@@ -963,6 +963,68 @@ current is built. If it can, that is exactly the rotating-wave counterprofile
 branch, still subject to full same-field compatibility, localization, viscosity,
 and strict-retention checks.
 
+## 18. Cycles 19--20: spin-2 admission or fixed-axis Gate B
+
+The live partition is by the retained spin-2 component. Let \(a_2\) denote the
+retained transverse trace-free spin-2 amplitude paired with the parent harmonic
+pressure Hessian. The scalar or transverse-isotropic swirl source satisfies
+
+```math
+[H_{\rm iso},S]=0,\qquad
+\Pi^S_{\perp}H_{\rm iso}=0,
+\tag{ATH.59}
+```
+
+so it cannot carry \(c_0\) service. It is background, readout, pass-owned, or
+service-zero.
+
+When
+
+```math
+a_2\neq 0,
+\tag{ATH.60}
+```
+
+the orientation is a real observable, but theorem A is discharged only after
+the parent-known admission lemma:
+
+```math
+\texttt{ParentKnownOrientedSpinTwoDetectorAdmission.A}.
+\tag{ATH.61}
+```
+
+That lemma must prove that a retained same-field spin-2 record cannot choose
+its detector after the parent current is built. Once it is available, the
+Schur motion payment proves
+\(\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}\) on every nonzero
+spin-2 branch.
+
+When \(a_2=0\), the remaining positive-record survivor cannot be scalar. It
+must be a fixed-axis trace-free aligned \(l=2\) endpoint, possibly with swirl:
+
+```math
+\texttt{AxisymmetricSwirlAlignedEndpointExcludedOrCounterprofile.A}
+\subset
+\texttt{FixedAlignedParentQuadrupoleEndpointExcludedByMaterialTimeLiouville.A}.
+\tag{ATH.62}
+```
+
+Thus the conditional collapse is exact:
+
+```math
+\texttt{ParentKnownOrientedSpinTwoDetectorAdmission.A}
+\Longrightarrow
+c_0\text{ reduces to theorem B}.
+\tag{ATH.63}
+```
+
+Theorem B still has to exclude the axisymmetric-with-swirl aligned endpoint
+under the actual material-time Liouville / NRS--Tsai profile hypotheses:
+same-field localized incompressible atom, viscous compatibility, retained
+positive service, zero collar/exit bill, and an admitted endpoint profile
+class. If those hypotheses are not met, the fixed-axis swirl remains the Gate-B
+counterprofile candidate.
+
 ## 18. Axisymmetric-with-swirl audit for theorem B
 
 Claude cycle 19 identifies the correct fixed-phase threat. On the symmetry axis
