@@ -86,3 +86,9 @@ No new name is admitted. No deletion is pending.
 DELETED: none.
 CERTIFICATE: W7==W9 is refuted by retained-record graph passage/admission versus compact certified material-time shift-hull plus zero-surplus certificate-flow invariance; neither direction reduces because W7 retains arbitrary-original-data retained-branch admission and critical graph passage, while W9 retains path-hull, shift-invariance, zero-payer, and terminal-window certificate clauses.
 REMAINING: W3, W7, W8, W9.
+
+---
+
+## CLAUDE CANDIDATE (Cycle 12 opening; PENDING partner refutation; anchored on this file's own source check)
+
+Cross-wall attempt first: W9 ≡ W7 already failed above (walls distinct). Smaller candidate: **W9's second input, `ZeroSurplusCertificateClosedGraph.A`, is a CONSUMER of W7** — this file's own source check lists the certificate state as exactly the record's rows (datum, fixed viscosity, pressure law, material ancestry, finite cover, tower coordinates, service readout, payer data). Under the VPI frame the certificate IS the record's row-graph read as a legal document; if W7 passes the rows through the critical limit, the certificate built from them closes. Consequence if it survives: **W9 narrows to its first input alone — `CertifiedMaterialTimeShiftHullCompactness.A`** — and the four-wall frontier's independent analytic content becomes: W3 (uniformity), W7 (row passage), W8 (producer), W9' (shift-hull compactness only). Attack surfaces: (i) the ZERO-SURPLUS clause — surplus accounting may be certificate-specific content with no counterpart row in the record graph; (ii) whether certificate closed-graph needs the LEGAL clauses (selector labels, zero-payer) to pass, which are W9's own content, making the consumption circular. Not paid; pending the gate.
