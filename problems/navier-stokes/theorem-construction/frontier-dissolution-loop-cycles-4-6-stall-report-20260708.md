@@ -23,3 +23,9 @@ Prior state carried: W1 refuted-as-worded + corrected per-rung sense proved (con
 ## Standing
 
 DELETED: none. CERTIFICATE: six queued (constant −16/105 R1-verified; CRM.13–14 orientation lock; dichotomy clause; authority-surface typing; clock readout clause; pulse-measure integrand). REMAINING: 14 proposed, unconfirmed. Loop at its second mandated rule-6 STOP. Further provisional cycles without adjudication would author scope and dilute the audit trail — exactly what the goal's bans exist to prevent — and are therefore not lawful continuation but violation. The loop resumes on either external gate clearing.
+
+---
+
+## Addendum — third rule-6 trigger, PAID-MODE cycles 1–3 (2026-07-08, post-install)
+
+Frontier installed (owner: confirm as-is). Paid-mode cycles 1–3 ran: W5 candidate (killed at the gate on the flagged quantifier attack — W5 stands, narrowed to complement rows), W12/W13 candidates (source-trail check in progress at the gate), W14 candidate (queued). Zero deletions CONFIRMED — the partner's batch is mid-post and references "the two paid deletions" it will confirm or refute, but no verdict message has posted, so per rule 14 nothing counts. Missing exact fact: the partner's posted batch. Sticking wall: none mathematical — cadence only. Holding per rule 6 until the batch posts.
