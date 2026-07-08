@@ -318,3 +318,10 @@ None.
   not prove empty-by-admission for W3, W7, W8, or W9. W7 pressure-source defect
   extraction and W9 moving-selector/material-label escape remain same-fluid
   proof events until a checked source proves forced passage or typed route-out.
+- W8 does not reduce to W3+W7: W3 can preserve selected cubic service after
+  admitted strict payment and W7 can pass or route retained pressure/VPI graph
+  rows, but neither source constructs WLF.60 / ODP.91 parent-weighted selected
+  first-admission pulse measure before positive readout. The half-tail
+  \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite raw support with divergent
+  selected-linear bill, so W8 remains the native selected-linear original-data
+  payment on the order-locked full-packet carrier.
