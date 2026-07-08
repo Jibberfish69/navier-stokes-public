@@ -258,12 +258,13 @@ The constants depend only on the fixed strict atom geometry, the fixed
 stopping thresholds, and the admitted bill constants; they do not depend on
 tower depth or scale.
 
-## 5. \(c_0\) consequence inside the retained strict class
+## 5. Conditional \(c_0\) consequence inside the admitted class
 
 For the retained strict participation tower class with the admitted bill,
+including \(\mu_{\rm end}\),
 
 ```math
-c_0^{\rm strict}
+c_0^{\rm strict,adm}
 =
 \inf_{\mathsf S(\mathcal T)>0}
 {\mathsf P_{\rm strict}(\mathcal T)\over\mathsf S(\mathcal T)}
@@ -275,21 +276,25 @@ c_{\rm strict}>0.
 Equivalently,
 
 ```math
-c_0^{\rm strict}
+c_0^{\rm strict,adm}
 =
 \sup\{c:\mathsf P_{\rm strict}\ge c\,\mathsf S
-\text{ on every retained strict tower}\}
+\text{ on every admitted retained strict tower}\}
 \ge
 c_{\rm strict}>0.
 \tag{GBA.16}
 ```
 
-## 6. What remains outside this theorem
+This is a conditional sharp floor for the already-admitted class. It is not the
+unconditional \(c_0\) theorem, because the signed endpoint handoff charge is
+one of the admitted bill terms.
 
-This proves the global accounting theorem for the retained strict tower once
-the strict bill is admitted. It does not prove that every Clay-facing
-Navier-Stokes breakdown branch enters this retained strict tower with this bill.
-The outside alternatives remain:
+## 6. What remains outside this accounting theorem
+
+This proves the global accounting theorem only after the strict bill is
+admitted. It does not prove the signed endpoint handoff charge, and it does not
+prove that every Clay-facing Navier-Stokes breakdown branch enters this
+retained strict tower with this bill. The outside alternatives remain:
 
 ```math
 \text{carrier/law/field loss}
@@ -302,6 +307,8 @@ or the forward-Gold original-data admission theorem that turns arbitrary
 terminal growth into retained positive Vieillefosse participation with the
 strict bill already attached.
 
-Thus the retained strict \(c_0\) wall is crossed under the admitted bill. The
-remaining Clay/global task is admission from arbitrary original data, not
-another local pressure-sign or affine-collar calculation.
+Thus this file leaves the \(c_0\) wall at the same place as the two-door audit:
+prove the signed endpoint handoff / non-telescoping charge on the long
+same-affine chain, or route that service out, and prove original-data admission
+into the retained branch. The accounting is ready once those theorems exist; it
+does not create them.
