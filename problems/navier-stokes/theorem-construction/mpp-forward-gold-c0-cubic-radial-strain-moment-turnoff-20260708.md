@@ -443,6 +443,23 @@ regular branch, a solid-rotation gauge with no cubic ownership, or a
 \(\Gamma\)-gradient branch whose driver and centrifugal brake are both part of
 the same participation bill.
 
+This also shows why a fixed-time pressure-source coercivity theorem is too
+strong on the full swirl class. Since
+
+```math
+-2\frac{u_\phi}{R}\partial_Ru_\phi
+=
+-\frac1R\partial_R(R^2\gamma^2),
+\tag{CRM.19k-swirl6}
+```
+
+a non-solid swirl profile can be chosen locally so that this term cancels the
+aligned poloidal source (CRM.19j), while \(w\), \(M\), and \(\mathsf J_M^+\)
+are unchanged. The static \(Q\)-operator therefore has a lawful swirl-gradient
+null direction. The missing payment must use the material-time axisymmetric
+swirl dynamics: circulation-gradient forcing, viscosity, and centrifugal
+reaction in the same field.
+
 The correct ownership theorem is therefore not a detached pressure-collar size
 estimate. The old Gate 1 pressure-collar notes show that address ownership
 alone does not imply payment: a raw owned pressure route measure can remain
