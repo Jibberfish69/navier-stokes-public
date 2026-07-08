@@ -36,7 +36,7 @@ defects are removed, the cone is exactly the zero-force stationary
 
 ## 1. The endpoint object
 
-After the adjacent-scale pressure mismatch, the only possible zero-bill
+After the adjacent-scale pressure mismatch, the only possible zero-row-loss
 wrong-sign bank has the critical form
 
 ```math
@@ -151,7 +151,7 @@ These rows imply the earlier admission theorem:
 \tag{D2B.3c}
 ```
 
-## 3. Zero payment produces the exact consumer profile
+## 3. Zero row loss produces the exact consumer profile
 
 Assume a retained cone sequence has positive normalized Vieillefosse service
 and zero retained cone-row defect:
