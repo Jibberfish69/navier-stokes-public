@@ -235,3 +235,19 @@ while \(S\) still carries a positive biaxial critical record in the same
 participation/payment currency. If yes, it is the admitted anisotropic
 counterprofile. If no, this closes the only local Codazzi survivor left by the
 distinct-spectrum attack.
+
+## 7. Local algebra cannot close the survivor
+
+The uniaxial survivor is not pointwise impossible. Existing remote-bank tests
+already show the physical reason: a same-fluid divergence-free field can vanish
+to first order at the selected station while its nonlocal pressure source
+supplies a prescribed trace-free Hessian there. Choosing that trace-free Hessian
+uniaxial gives the \(h_1=h_2\ne h_3\) pressure spectrum without changing the
+local strain record at first order.
+
+So a proof that only uses the local strain frame, local Codazzi algebra, or
+pointwise incompressibility will miss the actual adversary. The needed theorem
+must say that such a bank is retained and paid in \(\mathsf B_{\rm ret}\),
+summable below the normalized record, or routed to collar/exit/pass. This is why
+the lower bound (ATH.5) is a same-currency transverse Hodge coercivity theorem,
+not a local diagonalization theorem.
