@@ -324,6 +324,53 @@ So a square-current collar estimate reproduces the log leak. The missing
 admission theorem must put the positive linear flux \(\mathsf J_M^+\) into the
 legitimate material-time oriented bill.
 
+The scalar aligned turn-off is the physical test case for that admission. Let
+\(q(\theta)=\theta\cdot S\theta\), \(S=S^T\), \(\operatorname{tr}S=0\), and
+write \(b=a'(\rho)\). The same-field incompressible scalar turn-off has the
+local form
+
+```math
+u
+=
+aSx+\frac{b}{3}\left(Sx-qx\right).
+\tag{CRM.19h}
+```
+
+Indeed,
+
+```math
+\nabla\cdot(aSx)=bq,
+\qquad
+\nabla\cdot\left(\frac{b}{3}(Sx-qx)\right)=-bq.
+\tag{CRM.19i}
+```
+
+The pressure source \(\partial_i u_j\partial_j u_i=\operatorname{tr}(\nabla u)^2\)
+has, to first order in \(b\),
+
+```math
+2\frac{ab}{3}
+\left[
+\operatorname{tr}(S^2)-2|S\theta|^2+2q(\theta)^2
+\right].
+\tag{CRM.19j}
+```
+
+For the normalized Vieillefosse sheet \(S=\operatorname{diag}(1,1,-2)\), with
+\(\mu=\theta_3\), this is
+
+```math
+4ab\left(1-3\mu^2+3\mu^4\right).
+\tag{CRM.19k}
+```
+
+This source is not isotropic, but it is still aligned/axisymmetric. It does not
+force a transverse eigenframe torque by itself. Therefore a proof that admits
+only transverse pressure-Hessian commutator payment misses a real same-fluid
+turn-off. The legitimate payer must be the oriented pressure-current/collar
+bill that sees \(\mathsf J_M^+\), with transverse torque only one possible
+component of that bill.
+
 In an incompressible flow, this angular/current change is tied to the slaved
 pressure source
 
