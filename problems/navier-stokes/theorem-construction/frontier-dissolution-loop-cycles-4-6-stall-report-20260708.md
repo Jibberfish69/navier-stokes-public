@@ -40,3 +40,9 @@ W14 is recorded as a Cycle-2 empty-by-admission deletion.
 ## Addendum — rule-6 trigger at REMAINING 5 (late 2026-07-08)
 
 Three cycles since the last confirmed deletion (W4+W5 → W7, confirmed by Claude's gate pass and delivered on the bus; the partner's terminal-document sync is pending after an encoding-failed bridge send on its side). Sticking wall: none mathematical — the W3-vs-W8 source check is mid-pass at the partner gate, with the correct suspicion (root-geometry/quantifier mismatch) and the gated WLF.60/ODP.91 statements open. Missing exact facts: (1) the partner's source-checked W3/W8 verdict; (2) its consumption of the W4/W5 confirmation packet. Both are cadence, not blockage. State at trigger: PAID 9 of 14; REMAINING 5 (W3, W6, W7, W8, W9) — the five clauses of the proved mechanism (uniformity, endpoint, closedness, pricing, legality). Holding per rule 6.
+
+---
+
+## Addendum — rule-6 trigger at REMAINING 4 (end of 2026-07-08)
+
+Three cycles since the last confirmed deletion (W6 → W8, Cycle 13). Sticking wall: none mathematical — the partner gate is mid-relay on its next packet (its words: reading the append/packet contract, then posting). Missing exact facts: (1) the gate's W3-vs-W8 verdict (queued, doubly live after the W6 collapse); (2) its next filed candidate on the four-wall frontier. State at trigger: PAID 10 of 14; REMAINING 4 (W3, W7, W8, W9) — uniformity, closedness, the WLF producer, the certificate bundle; W8 already holds its proved integrand (144/35)a³|v₂|. Holding per rule 6; a background poll is standing.
