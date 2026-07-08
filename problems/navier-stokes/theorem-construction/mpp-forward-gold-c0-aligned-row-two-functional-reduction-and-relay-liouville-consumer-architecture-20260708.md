@@ -95,6 +95,16 @@ Partner lane verified R1: "P1's exact constant checks out" (bridge event `agent-
 
 R2 (shell-family fidelity), partially settled by superposition: the per-shell constant's SIGN is radius-independent (A ∝ v₂(R)/R², same sign for every shell), so spreading the current over the log-chain collar cannot flip the per-shell sense — the corrected one-sense (§3c) is a PER-SHELL (per-rung) statement and holds shell-wise by linearity. What superposition does NOT settle: the aggregate row pairs shells with weight ∝ e^{−2ρ} while the drop total (CRM.14) weighs them flat, so a sign-varying v₂(ρ) profile can make aggregate row and aggregate drop disagree across shells. The corrected wall's honest form is therefore per-rung — which is the form the tower consumes anyway. The radial-weighting statement is the remaining R2 content for any aggregate claim.
 
+## 3e. Provisional Cycle-4 opening: the W3-vs-W7 cross-wall attempt (candidate empty-by-admission; PENDING partner refutation and owner install; nothing paid)
+
+Physical sentence first: the retention question at the limit splits on what the limit HOLDS. If the relay's material-time fixed point holds no record, the Liouville conclusion is satisfied vacuously — a zero-record forward history is the certified affine/rigid class. If it holds a record, the per-rung corrected sense (§3c, per-shell by §3d) bills every rung of the SEQUENCE, before any limit is taken.
+
+Candidate resolution: **W3 (`CriticalServicePersistenceFromPayment.A`) is empty-by-admission inside the consumer architecture.** Door 1's service-persistence demand (the L²→L³ concentration gap, born from the §17 normalized-atom hole) was load-bearing only when the bill was charged AT the limit object — there, a service-evaporating limit dodged the bill. With per-rung billing, evaporation is not an escape: the sequence pays rung-by-rung, and an evaporated limit lands in the vacuous (zero-record) branch. The limit then owes exactly one thing: to remain in-class — which is W7 (`RecordAdmissionClosedness.A` / admitted-face lower semicontinuity), already a named face of the spine's compactness/no-arbitrage package.
+
+Certificate to attack: the dichotomy clause — "fixed point zero-record ⟹ Liouville vacuous (certified class); fixed point nonzero ⟹ billed per-rung by §3c/§3d + rung-local ZPF.21a, needing only W7 at the limit" — leaves no case in which W3's persistence statement is consumed. Attack surfaces: (i) a case where the Liouville target needs the limit to be NONtrivial (e.g., the NRS/Tsai extension as gated may quantify over nonzero profiles only — check whether the vacuous branch is truly conclusion-equivalent there); (ii) whether Door-1's gated statement carries content beyond the limit role (e.g., rung-uniformity of the normalization) that the per-rung bill silently uses.
+
+If this survives: upon install, W3 deletes as empty-by-admission and the Door-1 bundle collapses to {rung-local ZPF.21a (W2), closedness (W7)} — with W1 already resolved, the c₀ lane's live walls would be W2, W6 (consumer of W1+W2+W7), W7. Not paid; not closed; stated per rule 14.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
