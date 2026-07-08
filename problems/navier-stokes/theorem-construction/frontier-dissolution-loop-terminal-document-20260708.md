@@ -19,14 +19,12 @@ Installed frontier source:
 | W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCompletion.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W12 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on finite positive variation of the continuation-depth material record supplied by the W10/signed-height survivor. |
 | W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W13 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on the same finite positive variation / bounded-below same-material storage supplied by the W10/signed-height survivor. |
 | W2 `NoSilentPressureRowDropping.A` / ZPF.21a | Reduction to W3 `CriticalServicePersistenceFromPayment.A` | Codex refutation attempt against Claude's section-3m/3o certificate failed: the Riccati identity, atom-annihilation fractions \(96/35,144/35,864/35\), viscous-zero atom clause, CRM.18/19 continuity usage, Hodge-carrier solve \(\psi=-aP_2\), and cross integral \(12/35\) all check. The atom package gives net leading-order bill \((144/35)a^3|v_2|\); the only remaining uniformity-along-a-climb burden is exactly W3's rung-uniform persistence content. |
+| W4 `RetainedFullMaterialFrameRowAdmission.A` | Reduction to W7 `RecordAdmissionClosedness.A` / retained VPI graph closedness | Partner refutation attempt failed: W7 already contains the admission component; ART.47 sequences W4 as ART.35's precondition; W4 is the material-frame row component of the retained VPI record graph. |
+| W5 `RetainedCombinedRowAdjointRangePersistence.A` | Reduction to W7 `RecordAdmissionClosedness.A` / retained VPI graph closedness | Partner refutation attempt failed: the ART.35 all-row quantifier lives inside the retained VPI graph object rather than in a one-channel witness, and W5's visible-failure disjunct is standing CM grammar rather than residual wall content. |
 
 ## Open walls
 
 W3 `CriticalServicePersistenceFromPayment.A`
-
-W4 `RetainedFullMaterialFrameRowAdmission.A`
-
-W5 `RetainedCombinedRowAdjointRangePersistence.A`
 
 W6 `RelayEndpointMaterialTimeLiouville.A`
 
@@ -38,12 +36,7 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
 
 ## Pending candidates
 
-- W4 and W5 reduce to W7, pending partner refutation. Candidate certificate:
-  `RetainedVPIRecordGraphClosednessOrTypedRouteOut.A` / W7 graph closedness
-  carries the pressure source, material-frame rows, material-time rows, and
-  positive VPI record together; W4 is the material-frame component and W5 is
-  the combined-row persistence component after graph closure plus exact-cone /
-  affine full-frame consumers.
+None.
 
 ## Failed or nonpaying candidates
 
@@ -72,3 +65,8 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
   \((144/35)a^3|v_2|\), but WLF.60/ODP.91 still carries order-lock,
   weighted-root, overlap, and selected-overrun tail content beyond that local
   integrand.
+- W3 == W8 failed: CSP.12/13 is an H1/strong-L3 service-persistence compactness
+  theorem, while WLF.60/ODP.91 is a parent-weighted selected first-admission /
+  route-measure Carleson theorem on an order-locked full-packet carrier with
+  weighted-root, overlap, overrun, and persistent-affine-quotient producer
+  clauses.
