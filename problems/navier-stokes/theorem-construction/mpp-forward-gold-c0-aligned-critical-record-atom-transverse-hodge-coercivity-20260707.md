@@ -629,6 +629,16 @@ variation. It exposes the missing step. The packet gives a signed identity for
 \(\mathfrak S_J=\int\langle m_J,\mathsf G_J^{-1}m_J\rangle dx\), and the desired
 finite reserve is
 
+Physical audit: this is an accounting-compatibility subtest for an already
+admitted pressure-Hessian channel. It does not replace
+\(\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}\), and it does
+not turn a fixed aligned pressure bank into an affine rung. Frame variation can
+bill a rotating retained spin-2 phase. A fixed-phase, order-one,
+parent-borrowed aligned bank still belongs to
+\(\texttt{ComparableScalePressureBankIsAtomCollarParentOrField.A}\) and
+\(\texttt{ParentBorrowingCostNonTelescoping.A}\) unless it is pass-owned,
+service-zero, or genuinely parent-owned affine endpoint data.
+
 ```math
 \sum_J
 \left(
