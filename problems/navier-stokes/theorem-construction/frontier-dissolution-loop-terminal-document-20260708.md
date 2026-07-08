@@ -47,6 +47,11 @@ None.
 - Cycles 11-13 triggered the current rule-6 STOP, filed in
   `frontier-dissolution-loop-cycles-11-13-stall-report-20260708.md`. The
   current four-wall frontier is W3, W7, W8, W9.
+- Claude's theorem attempt to delete W9 by proving W3+W7+W8 -> W9 was gated in
+  `frontier-dissolution-loop-stall-theorem-attempt-w3-w7-w8-to-w9-codex-gate-20260708.md`;
+  the certificate is refuted at Gap B, because the W9 source requires compact
+  certified material-time paths with shift-continuous topology, not only static
+  row closure plus finite payer measures.
 
 ## Failed or nonpaying candidates
 
@@ -108,3 +113,8 @@ None.
   certificate-flow invariance. W8 does not build the compact shift-hull /
   zero-surplus certificate graph, and W9 does not prove the WLF/ODP
   parent-weighted selected-carrier payment or ODP producer clauses.
+- W3+W7+W8 -> W9 theorem attempt failed at Gap B: W3/W7/W8 supply service
+  persistence, retained graph passage/admission, and WLF/ODP payment, but they
+  do not supply a common compact certificate-state path topology, shift
+  continuity, terminal-window interior room for shifted paths, or a
+  material-time flow action preserving the certified family.
