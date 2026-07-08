@@ -435,3 +435,10 @@ None.
   source proves the common theorem
   `SameFluidCertificateRealizationAndClosure.A`, and admitting that name would
   be non-net-negative because it currently deletes no existing wall.
+- The W7 original-data admission tail has one overstrong presentation reading
+  refuted but no wall deleted. The installed shorthand "arbitrary-original-data
+  admission into the retained branch" is source-correct only as "admission into
+  the retained branch or typed CM route-out": no-carrier, nonparticipating, and
+  no-field branches route through Pack/Part/Field, while retained positive VPI
+  branches still need W7 graph passage/admission. W8's selected-linear
+  original-data payment does not supply that branch-selection disjunction.
