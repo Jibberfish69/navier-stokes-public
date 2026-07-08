@@ -252,116 +252,79 @@ participation/payment currency. If yes, it is the admitted anisotropic
 counterprofile. If no, this closes the only local Codazzi survivor left by the
 distinct-spectrum attack.
 
-## 7. Uniaxial survivor split: local normal form or parent pressure bank
+## 7. Local algebra cannot close the survivor
 
-The uniaxial survivor has two genuinely different sources.
-
-First, \(H\) may be locally produced on the same atom. Write
+The uniaxial survivor is not pointwise impossible. The exact shear-cell display
+shows the physical reason. For every \(K\in{\rm Sym}_0(3)\), there is a
+periodic divergence-free cell \(u_K\) with
 
 ```math
-H=hP+k\,n\otimes n,
+u_K(0)=0,\qquad
+\nabla u_K(0)=0,\qquad
+\nabla^2p_K(0)=K,
 \qquad
-P=I-n\otimes n,
-\qquad
-h\ne k.
+-\Delta p_K=\partial_i (u_K)_j\,\partial_j (u_K)_i.
 \tag{ATH.15}
 ```
 
-Since \(H\) is a Hessian, it is a Codazzi tensor:
+Take the strain frame as the coordinate frame and choose
 
 ```math
-\nabla_\ell H_{ij}=\nabla_iH_{\ell j}.
+K=k\,{\rm diag}(1,1,-2),
+\qquad k\ne0.
 \tag{ATH.16}
 ```
 
-For a Codazzi tensor with eigenvalue multiplicity \(2+1\), (ATH.16) forces the
-two-plane distribution \(P\) to be integrable and umbilic on the simple
-uniaxial region; \(h\) is constant along each leaf, and the pressure-axis
-curvature is controlled by the transverse derivative of the eigenvalue gap.
-Thus the local pressure eigensurfaces are the Euclidean totally-umbilic
-surfaces: planar or spherical, up to the usual endpoint degeneracies. This is
-the local normal-form sublemma:
+This is exactly the uniaxial pressure spectrum \(h_1=h_2\ne h_3\). The
+zero-diagonal frame used by the shear-cell construction can be chosen
+explicitly:
 
 ```math
-\texttt{UniaxialHessianCodazziNormalForm.A}.
+a_1=\left(\sqrt{2/3},0,1/\sqrt3\right),
+\quad
+a_2=\left(-1/\sqrt6,1/\sqrt2,1/\sqrt3\right),
+\quad
+a_3=\left(-1/\sqrt6,-1/\sqrt2,1/\sqrt3\right),
 \tag{ATH.17}
 ```
 
-Now impose co-diagonal biaxial strain. On the same splitting,
+and each vector satisfies \(\langle Ka_m,a_m\rangle=0\). Reciprocal shear
+amplitudes in this frame realize (ATH.16) by the exact pressure-Hessian display.
+
+Now place a local biaxial affine strain record at the selected station,
 
 ```math
-S=aP-2a\,n\otimes n.
+A={\rm diag}(\alpha,\beta,-\alpha-\beta),
+\qquad
+\alpha,\beta,-\alpha-\beta \text{ distinct},
 \tag{ATH.18}
 ```
 
-The planar normal form gives a fixed pressure axis. A zero-collar finite-energy
-retained atom in this branch is either the affine endpoint, or it needs lateral
-or endpoint cut-off and pays through collar/exit/parent ownership. The spherical
-normal form gives a radial biaxial strain; incompressibility and strain
-compatibility force the radial amplitude into the \(r^{-3}\) homogeneous branch
-on an annulus, hence a singular/non-finite-energy center or a paid cut-off. In
-short:
+and put the pressure cell outside the record core or in a zero-gradient service
+pocket. At the station the bank does not alter the local strain to first order,
+but its pressure Hessian can be co-diagonal and uniaxial in the same frame:
 
 ```math
-\text{local uniaxial }H+\text{ co-diagonal biaxial }S
-\Longrightarrow
-\text{affine endpoint / singular radial branch / collar-exit payment.}
+S(0)=A,\qquad
+H_\perp^S(0)=0,\qquad
+h_1=h_2\ne h_3.
 \tag{ATH.19}
 ```
 
-(ATH.19) is not yet a theorem in the weak strict-atom class; the remaining work
-is to prove (ATH.17) and the strain-compatibility classification with the atom
-error terms. But it shows that the local uniaxial branch is not the hard
-survivor.
+Thus a proof that only uses the local strain frame, local Codazzi algebra, or
+pointwise incompressibility will miss the actual adversary. The uniaxial
+pressure/biaxial strain configuration is locally compatible with one
+divergence-free velocity field after localization/Hodge correction.
 
-Second, \(H\) may be supplied by a nonlocal same-field pressure bank. A remote
-source can be divergence-free and can vanish to first order at the selected
-station while its Riesz pressure contribution supplies a trace-free uniaxial
-Hessian on the atom. That cannot be killed by local Codazzi equations, because
-inside the child atom the bank is a harmonic parent field. The required theorem
-is instead a parent-bank dichotomy:
+This is not a retained \(c_0\) counterexample. It is the obstruction to local
+closure. To become an admitted aligned atom, the bank must persist through the
+material record tower and evade the retained Field/viscous/selected currency.
+The available remote-pressure tail theorem gives the exact closing dichotomy:
+every pressure source used by the selected record is either inside the retained
+Field envelope and paid, legal/stopped/collar, or a Pack/Part/Field route-out.
+Applying that closure to the uniaxial pressure bank is the current subproblem:
 
 ```math
 \texttt{ParentHarmonicUniaxialBankPaysOrRoutesOut.A}.
 \tag{ATH.20}
 ```
-
-One useful formulation is:
-
-```math
-H_{\rm far}^{tf}\ne0,\quad
-[H_{\rm far},S]=0
-\text{ through a retained child tower}
-\Longrightarrow
-\mathsf P_{\rm parent}
-+\mathsf P_{\rm mix}
-+\mathsf P_{\rm collar}
-+\mathsf P_{\rm exit}
-+\mathsf S_{\rm pass}
-\gtrsim
-\mathsf S_{\rm ret},
-\tag{ATH.21}
-```
-
-unless the child service is parent-owned endpoint service. Physically: a fixed
-harmonic parent Hessian can align one child by ownership/pass, but a positive
-record tower that keeps changing scale or material orientation must either
-re-aim the parent pressure frame, spend selector/order-lock variation, or expose
-the remote bank as a same-currency Field/parent bill. This is the nonlocal
-piece Claude should attack next; a purely local Codazzi closure cannot see it.
-
-## 7. Local algebra cannot close the survivor
-
-The uniaxial survivor is not pointwise impossible. Existing remote-bank tests
-already show the physical reason: a same-fluid divergence-free field can vanish
-to first order at the selected station while its nonlocal pressure source
-supplies a prescribed trace-free Hessian there. Choosing that trace-free Hessian
-uniaxial gives the \(h_1=h_2\ne h_3\) pressure spectrum without changing the
-local strain record at first order.
-
-So a proof that only uses the local strain frame, local Codazzi algebra, or
-pointwise incompressibility will miss the actual adversary. The needed theorem
-must say that such a bank is retained and paid in \(\mathsf B_{\rm ret}\),
-summable below the normalized record, or routed to collar/exit/pass. This is why
-the lower bound (ATH.5) is a same-currency transverse Hodge coercivity theorem,
-not a local diagonalization theorem.
