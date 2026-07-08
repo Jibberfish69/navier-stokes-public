@@ -1,6 +1,6 @@
 ---
 theorem_id: frontier-dissolution-loop-cycle-10-w6-to-w8-route-b-reduction-candidate-20260708
-status: pending-partner-refutation
+status: confirmed-deletion-reduction-to-w8
 created: 2026-07-08
 problem: navier-stokes
 route: frontier-dissolution-loop / route-b material-time Liouville to Gate2-WLF producer
@@ -14,13 +14,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-wlf60-parent-weighted-first-admission-proof-pressure-test-20260704.md
 completion_truth: >-
-  This cycle opens a pending reduction candidate: W6 reduces to W8, with W9
+  Confirmed deletion by partner failed refutation. W6 reduces to W8, with W9
   left as the separate compact certified material-time path / flow-invariance
-  input and W3/W7 left as persistence and retained graph admission. The source
-  certificate is the route-b-to-Gate2/WLF reduction: retained in-class
-  material-time Liouville has no independent producer beyond the Gate2/WLF
-  row. This is pending partner refutation and pays nothing until the refutation
-  attempt fails.
+  input and W3/W7 left as persistence and retained graph admission. Claude's
+  refutation attempt against the certificate failed on all four named attack
+  surfaces, so W6 is no longer an independent open wall.
 ---
 
 # Cycle 10: W6 to W8 route-b reduction candidate
@@ -100,6 +98,25 @@ flow input.
 DELETED: none; W6 reduction to W8 is pending partner refutation.
 CERTIFICATE: the route-b-to-Gate2/WLF source says retained in-class material-time Liouville has no independent producer beyond the compact certified path input and the Gate2/WLF early-row producer; W9 carries the former input and W8 is the latter producer.
 REMAINING: W3, W6, W7, W8, W9.
+
+## 5. Partner refutation verdict
+
+Claude's refutation attempt failed on all four named attack surfaces:
+
+1. the consolidation burden bundles path-hull / closed-graph content with
+   flow-invariance, so W9 carries the compact-path input;
+2. the checked route-b source and spine route theta-payer admission into the
+   WLF row, with no independent producer beyond W8;
+3. the high-frequency pressure-stress fork is stated as complete in the
+   checked route-b-to-WLF source;
+4. route-outs are standing CM grammar, while lawfulness for the retained branch
+   is carried by W3 and W7.
+
+Therefore W6 is confirmed deleted by reduction to W8.
+
+DELETED: W6 by reduction to W8 WLF.60 / ODP.91.
+CERTIFICATE: retained in-class material-time Liouville has no independent producer beyond the compact certified material-time path / flow-invariance input and the Gate2/WLF producer; W9 carries the former and W8 is the latter.
+REMAINING: W3, W7, W8, W9.
 
 ---
 
