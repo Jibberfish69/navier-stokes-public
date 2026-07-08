@@ -374,3 +374,91 @@ ingredient for
 ```
 
 not the theorem itself.
+
+## 9. Cycle 33: the native B1 current is compression-quotient work
+
+Claude cycle 33 asks whether there is an installed signed/oriented Hardy
+dominating the \(\gamma\)-quotient on the self-similar layer. There is not.
+The source audit gives a candidate signed identity, not the lower bound.
+
+Set
+
+```math
+\gamma=\frac{\Gamma}{r^2},
+\qquad
+a_r=\frac{u^r}{r},
+\qquad
+D_t=\partial_t+u^r\partial_r+u^z\partial_z .
+\tag{ASW.24}
+```
+
+Using the circulation law `(ASW.11)' and \(\Gamma=r^2\gamma\), the quotient
+obeys
+
+```math
+D_t\gamma+2a_r\gamma
+=
+\nu\left(\partial_r^2+\frac3r\partial_r+\partial_z^2\right)\gamma .
+\tag{ASW.25}
+```
+
+Thus
+
+```math
+D_t\left(\frac12\gamma^2\right)
++2a_r\gamma^2
+=
+\nu\gamma
+\left(\partial_r^2+\frac3r\partial_r+\partial_z^2\right)\gamma .
+\tag{ASW.26}
+```
+
+The sign-bearing term is \(2a_r\gamma^2\). Inward radial compression
+\(a_r<0\) amplifies \(|\gamma|\); radial expansion damps it. This sign is
+material-time orientation. It flips under \(u\mapsto -u\) through \(a_r\), while
+\(\gamma^2\), \(\Omega^2\), and the axisymmetric pressure source do not.
+
+Hardy can still enter as a quotient magnitude conversion from \(\Gamma\) or its
+radial derivative to \(\gamma\). But Hardy does not choose the sign of
+`(ASW.26)' and does not prevent compression/expansion cancellation. Therefore
+B1 has the same signed-wall type as Gate A, but with a different native current:
+
+```math
+\text{Gate A current: inter-packet signed transfer through collars,}
+\tag{ASW.27}
+```
+
+```math
+\text{B1 current: material compression-quotient work }
+2a_r\gamma^2
+\text{ plus diffusion/axis/annular flux.}
+\tag{ASW.28}
+```
+
+The sharper B1 theorem is:
+
+```math
+\texttt{AxisGammaCompressionQuotientNoFreeRecord.A}.
+\tag{ASW.29}
+```
+
+Statement. A retained zero-bill fixed-axis swirl atom with positive
+\(\gamma\)-record must either have positive material-time compression work
+\(-2a_r\gamma^2\) retained in bill currency, diffusion/axis/annular flux in the
+same currency, collar/Field/merge/stop/pass route-out, or degeneration to the
+endpoint kernel. Equivalently, compression/expansion oscillation in `(ASW.26)'
+cannot carry positive retained \(\gamma\)-record with zero signed bill.
+
+Then
+
+```math
+\texttt{AxisGammaCompressionQuotientNoFreeRecord.A}
+\Longrightarrow
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}.
+\tag{ASW.30}
+```
+
+This is not currently installed. So B1 is not closed by magnitude Hardy,
+\(\Gamma\) maximum principle, finite dissipation, or swirl handedness. It is a
+signed material-time Liouville/no-free-oscillation theorem for the quotient
+identity `(ASW.25)'--`(ASW.26)'.

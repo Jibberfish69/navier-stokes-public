@@ -1,7 +1,7 @@
 ---
 version: 1
 problem_id: navier-stokes
-generated_at: '2026-07-08T01:35:00Z'
+generated_at: '2026-07-08T01:42:15Z'
 status: exported-stale-not-submission-ready
 current_authority_override_20260702: The current Gold L1 source wall is the signed
   critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation.
@@ -29,8 +29,8 @@ pdf_tracks:
   human_app_aligned:
     path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
     present: true
-    sha1: 6988e8d251baa5f15d679fce4fddd376deb62f7b
-    bytes: 4854981
+    sha1: ec34592e07f853cf78e5d9f2e4236d5d388fb689
+    bytes: 5132616
     manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
     role: preferred problems/** app-aligned human submission track
     required_for_clay_submission: true
@@ -272,8 +272,8 @@ readiness_evidence:
         human_app_aligned:
           path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
           present: true
-          sha1: 6988e8d251baa5f15d679fce4fddd376deb62f7b
-          bytes: 4854981
+          sha1: ec34592e07f853cf78e5d9f2e4236d5d388fb689
+          bytes: 5132616
           manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
           required_for_clay_submission: true
         codex_machine_paper:
@@ -354,8 +354,8 @@ readiness_evidence:
       human_app_aligned:
         path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
         present: true
-        sha1: 6988e8d251baa5f15d679fce4fddd376deb62f7b
-        bytes: 4854981
+        sha1: ec34592e07f853cf78e5d9f2e4236d5d388fb689
+        bytes: 5132616
         manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
         required_for_clay_submission: true
       codex_machine_paper:
@@ -370,8 +370,8 @@ readiness_evidence:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 6988e8d251baa5f15d679fce4fddd376deb62f7b
-      bytes: 4854981
+      sha1: ec34592e07f853cf78e5d9f2e4236d5d388fb689
+      bytes: 5132616
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       role: preferred problems/** app-aligned human submission track
       required_for_clay_submission: true
@@ -393,8 +393,8 @@ pdf_render_status:
     human_app_aligned:
       path: problems/navier-stokes/submission-bundle/navier-stokes-human-submission.pdf
       present: true
-      sha1: 6988e8d251baa5f15d679fce4fddd376deb62f7b
-      bytes: 4854981
+      sha1: ec34592e07f853cf78e5d9f2e4236d5d388fb689
+      bytes: 5132616
       manuscript_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
       required_for_clay_submission: true
     codex_machine_paper:
