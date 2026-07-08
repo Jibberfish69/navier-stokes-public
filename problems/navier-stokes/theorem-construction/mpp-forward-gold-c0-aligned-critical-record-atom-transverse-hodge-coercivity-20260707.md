@@ -152,25 +152,25 @@ controls only.
 ## 4. Why causal lag is demoted
 
 Causal lag was a useful way to see that the brake is time-oriented after the
-transverse channel is present. It does not supply the endpoint exclusion. The
-terminal obstruction is an aligned positive-record atom: the same field keeps
-its pressure Hessian co-diagonal with the strain frame while still claiming
-retained service and paying no collar/exit/atomization bill.
+transverse channel is present. It does not supply the magnitude/admission source
+for that channel. The terminal obstruction is an aligned positive-record atom:
+the same field keeps its pressure Hessian co-diagonal with the strain frame
+while still claiming retained service and paying no collar/exit/atomization
+bill.
 
-Therefore causal-lag, transverse-Hodge estimates, strict-repeller,
-stretched-vortex quadrupole, angular transport, and local BKM/CKN packets are
-branch tests. They matter only by proving the Liouville/UCP exclusion (ATH.5),
-by paying/routing one of the escapes in (ATH.5), or by constructing a physically
-admitted counterprofile.
+Therefore causal-lag, strict-repeller, stretched-vortex quadrupole, angular
+transport, and local BKM/CKN packets are branch tests. They matter only by
+proving the transverse Hodge lower bound (ATH.5), by paying/routing one of the
+escapes in (ATH.6), or by constructing a physically admitted counterprofile.
 
 ## 5. What proves \(c_0\)
 
-The \(c_0\) backend consumes the signed commutator once the zero-bill aligned
-survivor has been excluded in the same strict-atom currency. The needed package
-is:
+The \(c_0\) backend consumes the signed commutator once the transverse Hodge
+lower bound has been supplied in the same strict-atom currency. The needed
+package is:
 
 ```math
-\text{zero-bill aligned atom Liouville/UCP}
+\text{uniform transverse Hodge coercivity}
 +
 \text{currency/accounting compatibility}
 +
@@ -203,6 +203,7 @@ pressure eigenvalue gaps. Schematically,
 
 ```math
 (h_i-h_j)\,\langle\nabla e_i,e_j\rangle
+\;+\;
 \text{diagonal-gradient terms}
 =0
 \tag{ATH.11}
