@@ -299,3 +299,10 @@ None.
   source's defect form \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) can coexist with
   finite payer data and a trivial certified path unless W7's graph-closedness or
   typed route-out theorem is supplied.
+- W9 is not deleted by the phrase "W7 with germ preservation" or by calling W9
+  administrative. Ordinary W7 lacks the certified path-hull, continuous shift
+  action, terminal-window, and zero-surplus closed-graph clauses. The
+  strengthened reading already contains W9 and is circular rather than a
+  net-negative new name. The time-oscillation model \(Z_n(t)=e^{int}\) keeps
+  pointwise legal rows and zero payer but has no compact material-time shift
+  hull.
