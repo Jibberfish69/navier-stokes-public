@@ -894,3 +894,71 @@ degeneracies are removed, the terminal survivor is the fixed parent-harmonic
 \(l=2\) endpoint, governed by theorem B. Thus cycle 18 is correct as a frontier
 collapse: no third branch remains after oriented admission; before oriented
 admission, theorem A is still open.
+
+## 17. Direct attack on theorem A: what Schur already proves
+
+The finite-dimensional Schur motion lemma applies to a parent-known detector
+\(a\). With
+
+```math
+S(t)=\langle m,G^{-1}m\rangle,\qquad
+N_a(t)=\langle a,G^{-1}a\rangle,\qquad
+q_a(t)=\langle a,G^{-1}m\rangle,
+\tag{ATH.54}
+```
+
+it gives the pointwise motion payment
+
+```math
+\frac{|q_a(t)|^2}{N_a(t)}
+\left|\frac{d}{dt}\log N_a(t)\right|^2
+\le
+S(t)\,\|G^{-1/2}\dot G\,G^{-1/2}\|_{\rm op}^2 .
+\tag{ATH.55}
+```
+
+Summed on parent-announced first-exit slabs with bounded overlap, this pays the
+motion of that detector by \(\sup S+\int S\,d\mathcal K\), plus return/legal
+terms.
+
+For \(c_0\), the detector is not a scalar pressure magnitude. It is the oriented
+spin-2 tensor
+
+```math
+a_\varphi=T_\varphi=e_1\otimes e_1-e_2\otimes e_2
+\tag{ATH.56}
+```
+
+paired with the parent harmonic pressure Hessian \(K_{\rm par}\). Therefore the
+Schur lemma proves theorem A after, and only after, the following admission gate:
+
+```math
+\texttt{ParentKnownOrientedSpinTwoDetectorAdmission.A}.
+\tag{ATH.57}
+```
+
+Meaning: before the selected child reads the aligned pressure service, the
+parent packet must already contain the oriented tensor \(T_\varphi\) as a legal
+detector with first-exit slabs and bounded overlap; otherwise the event is
+fresh onset, selector/order-lock motion, collar/Field, legal/stop,
+pass/service-zero, endpoint material, or an unadmitted rotating-wave
+counterprofile candidate.
+
+Thus the precise conditional proof is
+
+```math
+\texttt{ParentKnownOrientedSpinTwoDetectorAdmission.A}
++
+\texttt{SchurThinAdmissionRule.A}
++
+\texttt{FiniteDimensionalSchurMotionPayment.A}
+\Longrightarrow
+\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}.
+\tag{ATH.58}
+```
+
+The remaining gap is physical, not algebraic: show that a retained same-fluid
+critical record cannot choose its spin-2 orientation only after the parent
+current is built. If it can, that is exactly the rotating-wave counterprofile
+branch, still subject to full same-field compatibility, localization, viscosity,
+and strict-retention checks.
