@@ -24,7 +24,10 @@ completion_truth: >-
   Liouville. The exact critical-cone elliptic ownership subcase is now proved:
   on a degree -1 cone the pressure row is fixed by -(Delta_{S^2}+2)P=Q_V
   modulo the l=1 parent/source harmonic row, and an l=1 same-scale source forces
-  log-scale pressure drift.
+  log-scale pressure drift. The same note proves that a nonzero l=1 harmonic
+  pressure relay has pressure-traction moment (4*pi/3)a, hence is visible as
+  stress-flux/source material unless the full same-field stress cancels it into
+  the zero-force Landau/Sverak consumer.
 ---
 
 # Non-separable pressure-row correction
@@ -182,3 +185,17 @@ source while silently dropping the pressure row. The open part of
 `NoSilentPressureRowDropping.A` is the retained compactness/material-time
 passage into that exact cone, not the elliptic ownership of the exact cone
 itself.
+
+The same exact-cone note also computes the force visibility of the harmonic
+relay:
+
+```math
+\int_{\partial B_r}r^{-2}(a\cdot\theta)\,\theta\,dS
+=
+{4\pi\over3}a.
+\tag{NPC.11}
+```
+
+So the \(\ell=1\) relay is either owned as nonzero stress-flux/source material
+or is part of a full zero-flux stationary profile sent to the Landau/Sverak
+consumer. It is not a child-owned silent pressure row.
