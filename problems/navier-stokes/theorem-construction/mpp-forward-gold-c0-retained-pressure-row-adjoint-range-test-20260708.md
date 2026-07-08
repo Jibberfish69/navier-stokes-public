@@ -24,8 +24,10 @@ completion_truth: >-
   pressure-row counterexample. In the solid-rotation model it is repaired
   exactly by adjoining the same-record frame row F_Omega j=Omega theta.j; the
   obstruction term lies in F_Omega^*. This proves the finite quotient repair for
-  rigid rotation, but the general retained-row persistence theorem remains
-  open. This is a strict finite reduction, not c0 closure.
+  axial rigid rotation. A general skew affine part has an additional transported
+  strain-frame component unless the full material-frame row is included, so the
+  general retained-row persistence theorem remains open. This is a strict finite
+  reduction, not c0 closure.
 ---
 
 # Retained Pressure-Row Adjoint Range Test
@@ -378,10 +380,10 @@ asked the pressure row to carry a piece that belongs to the same record's
 material frame current. Once that row is included, the apparent null is gone in
 this model.
 
-This discharges only the rigid-rotation example. It does not prove the general
+This discharges the axial rigid-rotation example. It does not prove the general
 retained quotient theorem, because a real retained \(w=q+\eta\) can have
-nonrigid frame drift, nonlinear source terms, collar coupling, and parent-row
-relay. The general theorem is therefore sharpened to:
+non-axial frame transport, nonrigid frame drift, nonlinear source terms, collar
+coupling, and parent-row relay. The general theorem is therefore sharpened to:
 
 ```math
 \texttt{RetainedCombinedRowAdjointRangePersistence.A:}
@@ -392,14 +394,78 @@ after all lawful same-record frame/material-time rows are included, the
 positive cubic current lies in the combined row adjoint range, or the failure is
 visible as parent/pass/Field/nonparticipation.
 
-## 7. Status for \(c_0\)
+## 7. What changes for a general skew affine part
+
+The previous repair must not be overstated. Let a general skew affine part be
+
+```math
+\Omega x=b\times x,\qquad a(\theta)=b\cdot\theta .
+\tag{ART.36}
+```
+
+Use the sphere rotation \(J\) with the convention
+
+```math
+J\nabla_{S^2}a=\Omega\theta .
+\tag{ART.37}
+```
+
+A direct tensor calculation gives the skew contribution to the pressure-row
+adjoint:
+
+```math
+L_\Omega^*\psi
+=
+J\nabla_{S^2}(a\psi)+2\psi J\nabla_{S^2}a
+=
+aJ\nabla_{S^2}\psi+3\psi J\nabla_{S^2}a .
+\tag{ART.38}
+```
+
+For \(b=\gamma e_3\) and \(\psi=\psi(\mu)\), this reduces to (ART.22):
+
+```math
+L_\Omega^*\psi
+=
+\gamma\sqrt{1-\mu^2}\left((\mu\psi)' +2\psi\right)e_\phi .
+\tag{ART.39}
+```
+
+The scalar spin row \(F_\Omega j=\Omega\theta\cdot j\) owns only vector fields
+parallel to \(J\nabla a=\Omega\theta\). Thus (ART.29) is exact for the axial
+spin sector. For a non-axial \(b\), the term
+
+```math
+aJ\nabla_{S^2}\Psi
+\tag{ART.40}
+```
+
+is not generally parallel to \(J\nabla a\). That residual is not a pressure-row
+counterexample. It is the transported strain-frame component: the skew part is
+rotating the Vieillefosse frame itself, not merely spinning around the already
+chosen symmetry axis.
+
+So the lawful quotient row cannot be the scalar \(F_\Omega\) alone. The next
+finite statement is:
+
+```math
+\texttt{FullMaterialFrameRowAdmission.A:}
+\tag{ART.41}
+```
+
+the retained record includes the material transport of its strain frame, and
+that row owns the non-axial component (ART.40). After this admission, the
+combined-row persistence theorem (ART.35) is the correct finite target.
+
+## 8. Status for \(c_0\)
 
 This note strengthens the fixed-sphere calculation and prevents a false
 closure. The affine sphere is row-coercive by an explicit certificate. The
-rigid-rotation obstruction to the static pressure-only test is repaired by the
-combined pressure-plus-frame certificate (ART.32). The general retained sphere
-is reduced to the combined-row adjoint-range persistence theorem (ART.35),
-followed by no silent row-dropping through the tower and the relay-endpoint
-material-time Liouville.
+axial rigid-rotation obstruction to the static pressure-only test is repaired
+by the combined pressure-plus-frame certificate (ART.32). General skew affine
+motion reduces to full material-frame row admission (ART.41). The general
+retained sphere is then reduced to the combined-row adjoint-range persistence
+theorem (ART.35), followed by no silent row-dropping through the tower and the
+relay-endpoint material-time Liouville.
 
 No \(c_0>0\) theorem is proved here.
