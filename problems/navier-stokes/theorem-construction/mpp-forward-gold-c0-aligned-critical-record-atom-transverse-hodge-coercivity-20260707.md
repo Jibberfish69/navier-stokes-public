@@ -689,3 +689,38 @@ After this admission theorem, the BV split is exactly:
 So \(dK_J\) can telescope only as an unadmitted or gauge-degenerate coordinate.
 In the strict retained currency, it must become positive route variation or the
 record is not actually retained.
+
+## 13. In-plane rotating-wave fork: pressure blindness is conditional
+
+Claude cycle 16 supplies the missing generator for the in-plane spin-2 phase.
+In the pressure-degenerate plane, the inviscid strain-frame equation gives
+
+```math
+\frac{D\varphi}{Dt}
+=
+-\,\frac{\tfrac14\,\omega_1\omega_2+H_{12}}{\lambda_1-\lambda_2},
+\qquad
+H_{12}=0\ \text{on the Case-B wall}.
+\tag{ATH.45}
+```
+
+Thus the phase can precess by the local vorticity skew while the scalar pressure
+source \(Q=|S|^2-\frac12|\omega|^2\) is blind to the in-plane spin-2 angle.
+
+This is a real pressure-channel blind spot, but it is not yet a physical
+counterprofile. Pointwise \(Q\)-blindness does not construct a divergence-free
+velocity-gradient field whose rotating-wave embedding is spatially compatible,
+viscously admissible, finite-energy/localized, and retained through the strict
+\(c_0\) tower.
+
+The exact fork is therefore
+
+```math
+\texttt{RotatingWaveSpinTwoRecordAdmittedOrPaysOrderLock.A}.
+\tag{ATH.46}
+```
+
+Either the retained-record metric charges the spin-2 precession as order-lock /
+frame-variation payment, or a same-field rotating-wave profile is actually
+admitted with \(o(1)\) order-lock cost. Only the second outcome is a genuine
+counterprofile to the transverse-coupling route.
