@@ -16,8 +16,10 @@ completion_truth: >-
   by asking for a linear source to be admitted into an odd bill. Under VPI
   pressure non-separability, that is the wrong coordinate. The same Q that
   makes the retained record is its pressure row. The fixed-sphere computation
-  is row visibility; the remaining c0 route burdens are no silent row-dropping
-  and relay-endpoint material-time Liouville.
+  is row visibility; the rigid-rotation obstruction to the static pressure-only
+  certificate is repaired by adjoining the same-record frame row. The remaining
+  c0 route burdens are combined-row persistence, no silent row-dropping, and
+  relay-endpoint material-time Liouville.
 ---
 
 # Non-separable pressure-row correction
@@ -141,3 +143,8 @@ adjoint certificate persists for retained \(w=q+\eta\), or whether the
 perturbation is necessarily visible in another retained VPI row or in the
 parent relay. The retained-sphere adjoint-range form of that test is recorded
 in `mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md`.
+That note also shows that a solid rotation added to the affine strain is not a
+pressure-row counterexample: the missing azimuthal adjoint term is exactly the
+adjoint of the same-record frame row \(F_\Omega j=\Omega\theta\cdot j\). Thus
+the pressure-only test is replaced by the combined-row test
+`RetainedCombinedRowAdjointRangePersistence.A`.
