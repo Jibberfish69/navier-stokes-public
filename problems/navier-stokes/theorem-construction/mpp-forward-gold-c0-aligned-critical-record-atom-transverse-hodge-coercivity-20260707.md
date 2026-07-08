@@ -621,3 +621,61 @@ Thus the live \(c_0\) route is:
 The remaining burden is to prove the adjacent-collar payment identity in the
 strict participation currency and show its endpoint terms are exactly pass,
 service-zero, or parent-owned affine kernel.
+
+## 12. Frame-variation admission: answering the \(dK_J\) telescope risk
+
+The affine Schur/no-free-upcrossing source does not yet control frame total
+variation. It exposes the missing step. The packet gives a signed identity for
+\(\mathfrak S_J=\int\langle m_J,\mathsf G_J^{-1}m_J\rangle dx\), and the desired
+finite reserve is
+
+```math
+\sum_J
+\left(
+\sup_t\mathfrak S_J
++\int dA_J^-
++\int\mathfrak S_J\,d\mathcal K_J
+\right)
+\le C_N(u_0)+R_{legal}+Stop.
+\tag{ATH.41}
+```
+
+Thus \(dK_J\) cannot be treated as already paid. It is paid only after the
+retained spin-2 frame motion is admitted as positive route-metric variation in
+the selected parent-pulled metric:
+
+```math
+\texttt{RetainedSpinTwoFrameVariationAdmittedBySchurMetric.A}.
+\tag{ATH.42}
+```
+
+A useful form is:
+
+```math
+\mathsf S_{\rm ret}(Q_r)\simeq1,\quad
+|\Delta\theta_r|>0
+\Longrightarrow
+\mathfrak S_J\,d\mathcal K_J^{geom}
+\gtrsim |\Delta\theta_r|,
+\tag{ATH.43}
+```
+
+unless the frame change is not retained, in which case the branch routes to
+phase hiding, collar/Field, parent endpoint, pass/service-zero, legal, or stop.
+
+After this admission theorem, the BV split is exactly:
+
+```math
+\sum_r|\Delta\theta_r|<\infty
+\Longrightarrow
+\text{fixed-phase / parent-endpoint branch},
+\qquad
+\sum_r|\Delta\theta_r|=\infty
+\Longrightarrow
+\sum_J\int\mathfrak S_J\,d\mathcal K_J^{geom}=\infty.
+\tag{ATH.44}
+```
+
+So \(dK_J\) can telescope only as an unadmitted or gauge-degenerate coordinate.
+In the strict retained currency, it must become positive route variation or the
+record is not actually retained.
