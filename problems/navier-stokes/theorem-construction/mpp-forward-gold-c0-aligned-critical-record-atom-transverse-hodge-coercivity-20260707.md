@@ -1080,3 +1080,75 @@ So cycle 19 supplies a concrete B-side falsifiability class. It is not yet an
 admitted Navier-Stokes counterprofile; it becomes one only if a finite-energy,
 viscosity-compatible, retained marginal axisymmetric-with-swirl tower survives
 pass, service-zero, collar/Field payment, and parent-endpoint ownership.
+
+## 19. Cycle 21 and the corrected terminal theorem
+
+The terminal theorem should be phrased as
+
+```math
+\texttt{NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A}.
+\tag{ATH.63}
+```
+
+In plain terms: no aligned incompressible critical-record atom survives except
+pass, collar/exit, or endpoint-kernel escape.
+
+This wording is important. The condition
+
+```math
+\widehat H_\perp^S=0
+\tag{ATH.64}
+```
+
+means that the pressure Hessian is aligned in the strain eigenframe. It does
+not by itself say that the rung is affine. Axisymmetric swirl already shows the
+physical distinction: the aligned survivor can be anisotropic and same-field,
+with \(H_\perp^S=0\) by symmetry rather than by scalar or isotropic content.
+
+Equivalently, the open wall is the same-currency transverse-Hodge lower bound:
+
+```math
+\left\|
+\Pi_\perp^S\nabla^2(-\Delta)^{-1}
+(\partial_i u_j\,\partial_j u_i)
+\right\|
+\gtrsim
+\text{retained record amplitude},
+\tag{ATH.65}
+```
+
+uniformly over lawful embeddings and measured in the same
+participation/payment currency. The commutator gives the signed brake once the
+transverse pressure Hessian is present. The unproved source statement is that
+incompressibility and angular algebra force such a transverse response on every
+critical record outside the pass/collar/endpoint-kernel escapes.
+
+Claude cycle 21 adds a conditional route through theorem A. If the selected
+strict child is stopped and nonanticipatory, carved from the already-built
+parent full tensor/current, then a nonzero retained spin-2 orientation is
+inherited at formation. In that case it is parent-known at birth, and subsequent
+reorientation is charged by the Schur motion/payment lemma after the existing
+first-exit and Schur-thin admission gates:
+
+```math
+\texttt{StoppedInheritedSpinTwoDetectorAdmission.A}
++
+\texttt{SchurThinAdmissionRule.A}
++
+\texttt{FiniteDimensionalSchurMotionPayment.A}
+\Longrightarrow
+\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}.
+\tag{ATH.66}
+```
+
+If the orientation is selected only from future child readout, this inheritance
+argument does not apply. That is exactly the rotating-wave admission gap or
+counterprofile candidate. If the nonzero spin-2 orientation becomes fixed
+instead of rotating, the branch returns to theorem B, including the
+axisymmetric-with-swirl endpoint class.
+
+Thus causal lag is demoted. The c0 proof hinges on the uniform transverse
+Hodge/coercivity statement in record currency, plus the accounting compatibility
+that makes the admitted transverse response pay in the same \(c_0\) bill. With
+those two pieces, the signed commutator plugs into \(c_0>0\). Without them, this
+note is a sharp reduction, not closure.
