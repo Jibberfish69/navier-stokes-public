@@ -58,6 +58,10 @@ None.
   it is accepted only for prelimit actual histories and refuted as a deletion,
   because W9 acts on the compactified certificate hull and the B3 audit says
   the material-time action on that lifted certificate family is not installed.
+- The remaining path-uniform-moduli residue was gated in
+  `frontier-dissolution-loop-stall-path-uniform-row-moduli-codex-gate-20260708.md`;
+  W3/W7/W8 do not supply a common material-time modulus/equicontinuity or BV
+  bound for all W9 certificate rows as one shift-continuous path.
 
 ## Failed or nonpaying candidates
 
@@ -129,3 +133,8 @@ None.
   shift-continuous action on the compactified certificate hull, where limit
   certificates may be weak, measure-level, or legally defect-carried rather than
   actual smooth histories.
+- W9 path-uniform-moduli reduction failed as a deletion: W3 gives selected
+  service persistence, W7 gives static retained graph passage or route-out, and
+  W8 gives finite order-locked first-admission payment, but no checked source
+  gives a common material-time modulus/equicontinuity or BV bound for all W9
+  certificate rows as one shift-continuous path.
