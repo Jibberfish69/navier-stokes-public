@@ -2,32 +2,34 @@
 theorem_id: forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / aligned zero-bill Liouville-UCP / uniaxial survivor
-status: strict-reduction-open; uniaxial-pressure-survivor-reduced-to-local-normal-form-or-parent-bank
+route: forward-gold / c_0 / transverse pressure-Hodge coercivity / uniaxial aligned survivor
+status: strict-reduction-open; transverse-Hodge-coercivity-terminal
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transverse-coupling-reduces-to-angular-sphere-positivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-exact-shear-cell-pressure-hessian-display-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-overlap-bath-local-affine-dynamic-obstruction-20260706.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-gate1-remote-pressure-tail-dichotomy-direct-attempt-20260706.md
 completion_truth: >-
   This note records the corrected terminal c_0 reduction and the current
   uniaxial survivor. The commutator is the signed brake once a transverse
-  pressure Hessian is present; the remaining open theorem is the zero-bill
-  same-field Liouville/UCP exclusion. Equivalently: no aligned incompressible
-  critical-record atom can keep \([R_iR_jQ,S]=0\) with zero collar/exit and no
-  atomization loss, except by routing to pass, service-zero, collar/exit payment,
-  or parent-owned affine endpoint-kernel escape. Causal lag, transverse-Hodge
-  estimates, stretched-vortex quadrupoles, local BKM/CKN visibility, and angular
-  transport remain diagnostic or branch tools unless they prove this rigidity or
-  produce a physically admitted counterprofile. Claude cycles 10--11 sharpen the
-  only local Codazzi survivor: an anisotropic uniaxial pressure Hessian,
-  \(h_1=h_2\ne h_3\), co-diagonal with a biaxial strain record. That survivor is
-  physically real as a candidate, but it is admitted only if the same
-  incompressible velocity field and pressure equation realize it in the record
-  currency. Section 7 splits this survivor into a local Hessian normal-form
-  branch and a nonlocal parent-pressure-bank branch.
+  pressure Hessian is present; the remaining open theorem is the same-currency
+  transverse Hodge lower bound, equivalently the exclusion of aligned
+  incompressible critical-record atoms except pass, collar/exit payment,
+  service-zero, or parent-owned affine endpoint-kernel escape. Causal lag,
+  stretched-vortex quadrupoles, local BKM/CKN visibility, angular transport, and
+  Liouville/UCP remain diagnostic, branch, or proof-method tools unless they
+  prove this coercivity or produce a physically admitted counterprofile. Claude
+  cycles 10--11 sharpen the local Codazzi survivor: an anisotropic uniaxial
+  pressure Hessian, \(h_1=h_2\ne h_3\), co-diagonal with a biaxial strain record.
+  Exact shear-cell pressure-bank notes show this survivor is locally physically
+  realizable as a pressure Hessian shape; it is admitted for c_0 only if the
+  same incompressible velocity field realizes it through the retained record
+  tower without paying or routing the bank.
 ---
 
-# Aligned Critical-Record Atom And Zero-Bill Liouville/UCP
+# Aligned Critical-Record Atom And Transverse Hodge Coercivity
 
 ## 1. Physical object
 
@@ -68,7 +70,7 @@ rung is affine. A finite-energy incompressible packet can have an anisotropic
 pressure Hessian that remains diagonal in the moving strain frame. That is the
 dangerous aligned atom.
 
-## 2. Signed brake versus zero-bill rigidity
+## 2. Signed brake versus same-currency transverse Hodge lower bound
 
 The commutator supplies the signed braking channel once \(H_\perp^S\) is
 present:
@@ -81,9 +83,22 @@ present:
 
 So the sign story is coherent only after the transverse pressure Hessian has
 been admitted on the same retained edge. The remaining theorem is not another
-lag label and not a magnitude floor. Scale covariance leaves a bare lower-bound
-form marginal, and the profile tests show that source-level quadrupole
-coercivity can change sign under admissibility failures.
+lag label and not a raw untyped norm. Its native form is a same-currency lower
+bound, equivalently a zero-bill exclusion of the aligned atom.
+
+After pass, collar/exit, and parent-owned affine endpoint-kernel classes have
+been removed, the lower-bound form is
+
+```math
+\left\|
+\Pi_\perp^S\nabla^2(-\Delta)^{-1}
+\left(\partial_i u_j\partial_j u_i\right)
+\right\|_{\mathsf B_{\rm ret}}
+\ge
+c_*
+\mathsf R_{\rm rec}(u).
+\tag{ATH.5}
+```
 
 The native zero-bill wall is:
 
@@ -99,21 +114,21 @@ The native zero-bill wall is:
 \text{collar/exit paid}
 \;\vee\;
 \text{parent-owned affine endpoint kernel}.
-\tag{ATH.5}
+\tag{ATH.6}
 ```
 
 This is the compact theorem:
 
 ```math
 \texttt{NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A}
-\tag{ATH.6}
+\tag{ATH.7}
 ```
 
-or, in proof-method form,
+or, in lower-bound form,
 
 ```math
-\texttt{SameFieldAlignedZeroBillLiouvilleUCPOrCounterprofile.A}.
-\tag{ATH.7}
+\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}.
+\tag{ATH.8}
 ```
 
 ## 3. Physical admissibility
