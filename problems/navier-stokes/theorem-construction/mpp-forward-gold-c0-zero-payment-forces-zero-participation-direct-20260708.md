@@ -285,6 +285,52 @@ c\int_{\Lambda Q}[M'(\rho)]_+\,d\rho.
 \tag{ZPF.7k}
 ```
 
+The exact same-field current normal form reduces this to a smaller admission
+theorem. Write
+
+```math
+e^{-\rho}u(e^\rho\theta)=w(\rho,\theta)\theta+v(\rho,\theta),
+\qquad
+v=v_\circ[w]+j,
+\qquad
+\operatorname{div}_{S^2}v_\circ[w]=-3w.
+\tag{ZPF.7k1}
+```
+
+Then incompressibility gives
+
+```math
+\partial_\rho w+\operatorname{div}_{S^2}j=0,
+\tag{ZPF.7k2}
+```
+
+and hence
+
+```math
+M'(\rho)
+=
+6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta.
+\tag{ZPF.7k3}
+```
+
+So the immediate producer row is
+
+```math
+\texttt{PositiveResidualAngularCurrentFluxAdmission.A:}\qquad
+\mathsf P_{\rm odd}(\Lambda Q)
+\ge
+c\int_{\Lambda Q}
+\left[
+6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta
+\right]_+
+d\rho.
+\tag{ZPF.7k4}
+```
+
+Since the right side equals
+\(\int_{\Lambda Q}[M'(\rho)]_+\,d\rho\), (ZPF.7k4) implies
+`CubicRadialMomentOddPayment.A`.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
