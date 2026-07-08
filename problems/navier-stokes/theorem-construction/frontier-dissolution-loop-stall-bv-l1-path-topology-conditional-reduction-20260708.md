@@ -82,7 +82,8 @@ in this topology:
 \[
   D_S(\tau_hY,\tau_hY')
   =
-  D_{S+h}(Y,Y')
+  \int_{-S+h}^{S+h} d(Y(r),Y'(r))\,dr
+  \le D_{S+|h|}(Y,Y')
 \]
 after enlarging the window, and \(D_S(\tau_hY,Y)\to0\) as \(h\to0\) by the
 ordinary continuity of translations in \(L^1_{\rm loc}\). Thus every fixed
