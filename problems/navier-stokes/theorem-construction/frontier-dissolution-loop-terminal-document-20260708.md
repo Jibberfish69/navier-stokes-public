@@ -212,3 +212,10 @@ None.
   concentration is charged only after payer admission on a compact window, and
   lack of compact window remains `TerminalWindowNoEscapeCompactness.A` or typed
   route-out.
+- W8 original-data direct descent failed as a deletion: raw same-parent support,
+  finite menu/no-recount, raw event ownership, and viscous heat-thickness square
+  cost do not prove WLF.60 / ODP.91. The half-tail
+  `nu_l=2^-l/(l+1)` has finite raw/square support but infinite selected
+  first-ratio linear read, so W8 remains the selected-linear route-measure /
+  persistent-affine-quotient payment on the actual order-locked full-packet
+  carrier.
