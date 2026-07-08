@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / direct zero-payment coercivity / cubic turn-off moment
-status: proved-cubic-moment-drop-identity; remaining-bill-admission-lemma
+status: proved-cubic-moment-turnoff-identity; remaining-bill-admission-lemma
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-forces-zero-participation-direct-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-service-persistence-audit-20260708.md
@@ -12,13 +12,14 @@ completion_truth: >-
   This note installs the cubic radial strain moment as the direct c0 turn-off
   coordinate. It proves the exact spherical identity
   int_{S^2} (theta.S theta)^3 = (32 pi/105) tr(S^3) for tracefree S, and the
-  total-drop identity showing that a finite-energy/localized turn-off of a
+  total-turnoff identity showing that a finite-energy/localized turn-off of a
   nonzero Vieillefosse affine imprint has scale-uniform signed cubic moment
   variation. This kills the artificial 1/L leak produced by quadratic
   slope-squared turn-off charges. It does not yet prove c0: the remaining
   theorem is the non-tautological same-field bill admission
   CubicRadialMomentOddPayment.A, namely that the material-time oriented
-  transverse pressure/current bill dominates the positive drop [-M']_+.
+  transverse pressure/current bill dominates the positive turn-off rise
+  [M']_+.
 ---
 
 # Cubic Radial Strain Moment Turn-Off
@@ -120,7 +121,7 @@ so the inner affine core satisfies
 
 after the fixed normalization of the atom.
 
-## 3. Total drop is independent of collar length
+## 3. Total turn-off is independent of collar length
 
 A lawful finite-energy/localized turn-off of the affine imprint has an outer
 radius sequence or parent collar where the cubic radial moment disappears:
@@ -135,7 +136,7 @@ For every such \(\rho_j\),
 ```math
 -M(0)
 =
-\int_0^{\rho_j}-M'(\rho)\,d\rho
+\int_0^{\rho_j}M'(\rho)\,d\rho
 -M(\rho_j).
 \tag{CRM.10}
 ```
@@ -145,12 +146,12 @@ Taking \(j\to\infty\),
 ```math
 \mathsf S_V(Q)
 \lesssim
-\int_0^\infty[-M'(\rho)]_+\,d\rho .
+\int_0^\infty[M'(\rho)]_+\,d\rho .
 \tag{CRM.11}
 ```
 
 This is the scale-uniform part. The collar can recede, but the total signed
-cubic drop cannot shrink.
+cubic turn-off cannot shrink.
 
 For the scalar cutoff model
 
@@ -173,10 +174,12 @@ M'(\rho)=3a(\rho)^2a'(\rho)M_{\rm aff}.
 Since \(M_{\rm aff}<0\) for positive Vieillefosse service,
 
 ```math
-\int_0^{\rho_+}[-M'(\rho)]_+\,d\rho
+\int_0^{\rho_+}[M'(\rho)]_+\,d\rho
 \ge
 -M_{\rm aff}
-\int_{a=1}^{a=0}3a^2\,(-da)
+=
+M_{\rm aff}
+\int_{a=1}^{a=0}3a^2\,da
 =
 -M_{\rm aff}.
 \tag{CRM.14}
@@ -207,18 +210,53 @@ M'(\rho)
 \tag{CRM.16}
 ```
 
-measures the non-affine radial turn-off/current of the same field. In an
-incompressible flow, this radial change is tied to angular strain/current and
-to the slaved pressure source
+measures the non-affine radial turn-off/current of the same field.
+
+To make the ownership explicit, write
 
 ```math
--\Delta p=\partial_i u_j\partial_j u_i .
+U(\rho,\theta)=e^{-\rho}u(e^\rho\theta)=w(\rho,\theta)\theta+v(\rho,\theta),
+\qquad v\cdot\theta=0 .
 \tag{CRM.17}
 ```
 
-The affine/isotropic aligned modes have \(M'=0\). A nonzero negative drop of
-the cubic moment is therefore the signed handoff of the Vieillefosse imprint
-to the surrounding same fluid.
+The spherical divergence formula gives, for the same incompressible velocity
+field,
+
+```math
+\partial_\rho w+3w+\operatorname{div}_{S^2}v=0 .
+\tag{CRM.18}
+```
+
+Therefore
+
+```math
+M'(\rho)
+=
+3\int_{S^2}w^2\partial_\rho w\,d\theta
+=
+-9\int_{S^2}w^3\,d\theta
++6\int_{S^2}w\,v\cdot\nabla_{S^2}w\,d\theta .
+\tag{CRM.19}
+```
+
+For the affine incompressible core \(U_A=S\theta\), one has
+\(\partial_\rho w_A=0\) and
+\(\operatorname{div}_{S^2}v_A=-3w_A\), so \(M'=0\). Thus a nonzero
+\([M']_+\) is not a scalar cutoff artifact. It is the same-field angular
+current needed to turn off the affine Vieillefosse imprint.
+
+In an incompressible flow, this angular/current change is tied to the slaved
+pressure source
+
+```math
+-\Delta p=\partial_i u_j\partial_j u_i .
+\tag{CRM.20}
+```
+
+The affine/isotropic aligned modes have \(M'=0\). A nonzero positive rise of
+the cubic moment, equivalently a drop of \(-M\), is therefore the signed
+handoff of the Vieillefosse imprint to the surrounding same fluid.
 
 ## 5. The remaining bill-admission lemma
 
@@ -226,7 +264,7 @@ The theorem still needed is:
 
 ```math
 \texttt{CubicRadialMomentOddPayment.A}
-\tag{CRM.18}
+\tag{CRM.21}
 ```
 
 Statement. For every lawful finite-energy strict atom/collar turn-off of a
@@ -235,9 +273,9 @@ nonzero Vieillefosse affine core,
 ```math
 \mathsf P_{\rm odd}(\Lambda Q)
 \ge
-c\int_{\Lambda Q}[-M'(\rho)]_+\,d\rho,
+c\int_{\Lambda Q}[M'(\rho)]_+\,d\rho,
 \qquad c>0,
-\tag{CRM.19}
+\tag{CRM.22}
 ```
 
 where \(\mathsf P_{\rm odd}\) is the legitimate material-time oriented
@@ -249,24 +287,24 @@ Equivalently, in density form,
 ```math
 \mathsf P_{\rm odd}(\rho)
 \gtrsim
-[-M'(\rho)]_+ .
-\tag{CRM.20}
+[M'(\rho)]_+ .
+\tag{CRM.23}
 ```
 
 This is not a definition of a new bill. It must be proved as an admission
-theorem: the positive drop of the cubic radial strain moment must be the same
-pressure/current/collar participation payment already allowed in the \(c_0\)
-currency.
+theorem: the positive turn-off rise of the cubic radial strain moment,
+equivalently the positive drop of \(-M\), must be the same pressure/current/
+collar participation payment already allowed in the \(c_0\) currency.
 
 ## 6. Consequence for \(c_0\)
 
-If (CRM.19) holds, then (CRM.11) gives
+If (CRM.22) holds, then (CRM.11) gives
 
 ```math
 \mathsf P_{\rm odd}(\Lambda Q)
 \ge
 c\,\mathsf S_V(Q),
-\tag{CRM.21}
+\tag{CRM.24}
 ```
 
 with \(c\) independent of collar radius and tower depth.
