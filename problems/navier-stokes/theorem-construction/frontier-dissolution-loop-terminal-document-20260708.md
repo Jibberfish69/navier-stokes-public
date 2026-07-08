@@ -452,3 +452,9 @@ None.
   reflection fixes the scalar W3/W7/W8/W9 clauses while flipping the legal
   \(m=\pm1\) tilt row. No checked source makes the four retyped clauses automatic
   from one same-fluid history or one surviving written object.
+- W9 future-germ action criterion does not delete W9: a material-time action on
+  compactified certificate states is well-defined only when equal time-zero
+  states have equal shifted future germs, or when a canonical path-germ
+  coordinate is admitted. W7 retained graph passage is one-time graph
+  closure/route-out, not future-germ uniqueness; adding the future germ to W7
+  would import W9 by definition rather than delete it.
