@@ -513,3 +513,15 @@ None.
   or accounting comparison of transverse pressure response against the
   vorticity-square off-diagonal row on the strain-dominated branch; no
   W3/W7/W8/W9 wall is deleted.
+- The fixed-region flux frame gate accepts the owner proposal only as a strict
+  reframe. Fixed cylinders and suitable/local-energy closure can remove some
+  moving-packet identity bookkeeping after a signed fixed-cylinder pressure or
+  stress-export tax is proved. They do not delete the frontier now. The checked
+  pressure-flux source still requires `ScaleCriticalCubicFluxReserve.A` plus
+  `PressureConormalTraceAbsorption.A`; the CKN supplement says physical CKN mass
+  controls \(\sum r_j^2\mathcal C(Q_{r_j})\), not
+  \(\sum\mathcal C(Q_{r_j})\); and the annular flux scaling test leaves the
+  normalized terminal stress-work variation clock unproved. Thus fixed-region
+  closure does not by itself prove W3 tower-uniform service payment, W7 graph or
+  route-out, W8 selected-linear original-data bill, or W9 compact material-time
+  action/path content.
