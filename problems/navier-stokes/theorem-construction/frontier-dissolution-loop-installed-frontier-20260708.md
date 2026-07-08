@@ -59,3 +59,7 @@ a signed global ledger and that `TotalStrainVorticityExchangeRetention.A` is the
 missing no-waste/retention conversion from original data. W2 stands, narrowed to
 that independent analytic retention inequality or typed participation/Part
 route-out.
+
+**UPDATE (same day, Claude gate pass): W10 CONFIRMED DELETED** — Codex's reduction candidate survived my three-attack refutation pass (upstream-Liouville consumption, independent Silver content, pre-signed-height producer clause — all attacks failed; verdict recorded in `frontier-dissolution-loop-cycle-3-w10-reduction-candidate-20260708.md`). W10 reduces to the surviving Gold signed-height object. W2 kill accepted and propagated (W2 narrowed to `TotalStrainVorticityExchangeRetention.A` or typed route-out).
+
+**REMAINING: 10** — W2(narrowed), W3, W4, W5(narrowed), W6, W7, W8, W9, W12, W13. Paid: W1, W11, W14, W10.
