@@ -188,3 +188,9 @@ None.
   material/label modulus for active service readouts in the common certificate
   path topology, with moving selector, center, envelope, time, scale, bank,
   weight, rung, or profile-admission escape paid or carried.
+- Row 3 defect-pinned pressure/ancestry/cover/tower transcription failed as a
+  deletion: on prelimit actual certified windows those relations are genuine,
+  but the checked WKB fork sources give pointwise closedness criteria or
+  legal-carriage/failure alternatives, not uniform material-time path modulus
+  for carried Reynolds, transport, cover, and tower defect coordinates in the
+  common W9 topology or action on the closure.
