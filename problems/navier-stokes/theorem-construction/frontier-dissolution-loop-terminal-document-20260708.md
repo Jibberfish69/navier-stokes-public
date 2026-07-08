@@ -205,3 +205,10 @@ None.
   ledgers price or route individual label motions, but they do not install the
   W9 common compact certificate-path topology, continuous fixed shifts,
   terminal-window room, or action on the compactified closure.
+- Claude Row 4 terminal-window room from work-law absolute continuity failed
+  as a deletion: fixed-history absolute continuity gives positive interval
+  length on each actual smooth history, but it does not prove the W9 uniform
+  retained-family terminal-window interior-room/no-escape theorem; temporal-thin
+  concentration is charged only after payer admission on a compact window, and
+  lack of compact window remains `TerminalWindowNoEscapeCompactness.A` or typed
+  route-out.
