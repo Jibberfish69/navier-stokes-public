@@ -804,3 +804,87 @@ Then the B2 chain is
 So yes: the B2 ledger reads \(\partial_r\Gamma^2\) as the brake/driver switch.
 The remaining B2 wall is exactly the off-axis negative-Rayleigh annular
 Hou--Luo residual. It is not closed here.
+
+## 14. Codex cycle 38: the Rayleigh switch lives in the angular-momentum gradient budget
+
+The next pressure test is whether negative Rayleigh can be treated as an
+unowned free sign. It cannot. It is one component of the same angular-momentum
+gradient that also supplies the poloidal driver.
+
+Set
+
+```math
+F=\Gamma^2,
+\qquad
+L_\Gamma=\partial_r^2-\frac1r\partial_r+\partial_z^2 .
+\tag{ASW.53}
+```
+
+From the circulation law `(ASW.11)',
+
+```math
+D_tF
+=
+\nu L_\Gamma F
+-2\nu|\nabla_{r,z}\Gamma|^2 .
+\tag{ASW.54}
+```
+
+On an off-axis annular atom, where \(r\) is bounded above and below in the
+normalized packet geometry, the two B2 quantities are just weighted components
+of \(\nabla F\):
+
+```math
+\text{Rayleigh switch}
+\quad
+\Phi_R=\frac1{r^3}F_r,
+\qquad
+\text{poloidal driver}
+\quad
+\frac{\zeta}{r^4}F_z .
+\tag{ASW.55}
+```
+
+Thus a Hou--Luo-type retained record is not merely "negative Rayleigh." It is an
+oriented angular-momentum-gradient packet:
+
+```math
+F_r<0,
+\qquad
+\zeta F_z \text{ selected with the amplifying sign},
+\tag{ASW.56}
+```
+
+while the same \(F\)-equation carries diffusion, angular-momentum gradient
+dissipation, transport, and annular/collar flux.
+
+This does not prove the B2 theorem. There is no pointwise contradiction between
+\(F_r<0\) and \(\zeta F_z\neq0\) on an off-axis annulus. Negative Rayleigh is a
+real fluid instability mechanism, not a filtered ghost. What `(ASW.54)' gives
+is the right smaller budget theorem:
+
+```math
+\texttt{OffAxisAngularMomentumGradientBudgetNoFreeRecord.A}.
+\tag{ASW.57}
+```
+
+Statement. In a retained off-axis strict atom, an angular-momentum-gradient
+packet satisfying `(ASW.56)' cannot sustain positive B2 record while the
+localized \(F\)-diffusion/dissipation in `(ASW.54)', the \(\zeta\)-equation
+diffusion, annular/collar flux, pressure/complement work, and participation
+ownership all vanish or route nowhere.
+
+Then
+
+```math
+\texttt{OffAxisAngularMomentumGradientBudgetNoFreeRecord.A}
+\Longrightarrow
+\texttt{OffAxisRayleighUnstableSwirlDriverNoFreeRecord.A}.
+\tag{ASW.58}
+```
+
+So the B2 wall is now sharper. The admitted survivor is an off-axis
+negative-Rayleigh angular-momentum-gradient packet that keeps \(F_r<0\) and
+\(\zeta F_z\) in the amplifying orientation while paying none of the scalar
+\(F\)-budget, poloidal-vorticity, collar, pressure/complement, or participation
+costs. That is the object to prove impossible or route out.
