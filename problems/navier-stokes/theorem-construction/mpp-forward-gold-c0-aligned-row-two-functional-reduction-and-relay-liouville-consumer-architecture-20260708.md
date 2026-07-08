@@ -77,6 +77,18 @@ Three consequences, stated with rule-14 care:
 
 Open clauses before any deletion: thin-shell vs log-chain shell-family fidelity; carrier-extent (ℓ=0/ℓ=4 subleading) corrections; the normal-form sense adjudication; partner refutation of the integral itself (three-line check: (Sv)_r = −9av₂sin²θcos²θ, (Sv)_θ = −3av₂ sinθcosθ(3cos²θ−2), ∫₋₁¹(22x⁴−7x²−15x⁶)dx = −16/105).
 
+## 3c. Sense adjudication against the gated normal form (Cycle-3 continuation; decides refuted-vs-inverted, PENDING R1/R2 partner verification)
+
+The gated cubic note fixes the orientation without any convention freedom: CRM.13–14 give `M_aff < 0` for positive Vieillefosse service, the turn-off is `M(ρ_j) → 0` outward, and the turn-off measure is exactly `[M′(ρ)]₊` with total `≥ −M_aff > 0` (CRM.14, collar-length-independent). In the residual normal form (CRM.19a–d), `j` is the current after the stationary Hodge carrier `v∘[w]` is removed, the affine core has `j = 0`, and `M′ = 6∫ w j·∇w`. In the §3b parametrization, `M′ > 0 ⟺ v₂ > 0`. So **the gated shedding/turn-off orientation IS v₂ > 0** — the same object §3b computed.
+
+Adjudicated result (modulo R1 integral verification and R2 thin-shell fidelity):
+
+- **`AlignedRowShedsRecordOneSense.A` as worded is REFUTED at the strict atom, leading order.** The row forced by the turn-off current has the ASSISTING sign on the record: 3tr(S²H₁) = +(432/35)a³v₂/R² > 0 for v₂ > 0. Shedding does not force the eating row.
+- **The corrected one-sense is proved-at-leading-order by the same certificate:** the GATHERING current (v₂ < 0 — the inward/downscale transfer a climbing record must run at its front) forces the row that eats the record, with the same exact constant. One T-odd constant, orientation now fixed by the gated text: the brake attaches to the climb, the assist attaches to the turn-off.
+- Physical sentence of the corrected wall: the field's simultaneous incompressible answer opposes the record's growth exactly when the record is being built, and supports its persistence exactly when it is being dismantled — in both directions the response resists change of the record, which is the depolarization/restoring character of the slaved response, now with its exact aligned-channel constant.
+
+Downstream object (NOT opened here, one sentence per cycle-law 1): the c₀ accounting question this leaves is whether a climbing history necessarily runs a nonzero gathering current at its front — the temporal (build-side) analogue of CRM.14's spatial turn-off bound — which is where the corrected wall's bill attaches to the tower.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
