@@ -20,7 +20,11 @@ completion_truth: >-
   pressure-only certificate is repaired by adjoining the same-record frame row,
   while non-axial skew motion requires full material-frame row admission. The
   remaining c0 route burdens are combined-row persistence, no silent
-  row-dropping, and relay-endpoint material-time Liouville.
+  row-dropping through retained tower passage, and relay-endpoint material-time
+  Liouville. The exact critical-cone elliptic ownership subcase is now proved:
+  on a degree -1 cone the pressure row is fixed by -(Delta_{S^2}+2)P=Q_V
+  modulo the l=1 parent/source harmonic row, and an l=1 same-scale source forces
+  log-scale pressure drift.
 ---
 
 # Non-separable pressure-row correction
@@ -151,3 +155,30 @@ strain-pattern turnover. Thus `AffineFullMaterialFrameRowCertificate.A` is
 proved at the affine sphere. For retained \(w=q+\eta\), the pressure-only test
 is replaced by `RetainedFullMaterialFrameRowAdmission.A` plus the combined-row
 test `RetainedCombinedRowAdjointRangePersistence.A`.
+
+The exact critical-cone pressure row has one additional closed subcase, recorded
+in
+`mpp-forward-gold-c0-critical-cone-pressure-row-elliptic-ownership-20260708.md`.
+For
+
+```math
+u=r^{-1}V(\theta),\qquad p=r^{-2}P(\theta),\qquad Q[u]=r^{-4}Q_V(\theta),
+\tag{NPC.9}
+```
+
+the slaved pressure equation is
+
+```math
+-(\Delta_{S^2}+2)P=Q_V.
+\tag{NPC.10}
+```
+
+The kernel is exactly the \(\ell=1\) harmonic row, which has no same-scale
+interior source and is therefore parent/source/relay material. A same-scale
+\(\ell=1\) component of \(Q_V\) cannot be hidden by a homogeneous \(r^{-2}\)
+pressure; it forces an \(r^{-2}\log r\) pressure term, hence log-scale row
+drift. Thus an exact zero-row-loss cone cannot keep its same-scale pressure
+source while silently dropping the pressure row. The open part of
+`NoSilentPressureRowDropping.A` is the retained compactness/material-time
+passage into that exact cone, not the elliptic ownership of the exact cone
+itself.
