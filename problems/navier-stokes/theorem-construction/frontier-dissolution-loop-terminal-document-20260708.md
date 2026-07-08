@@ -312,3 +312,9 @@ None.
   rows, and W8 payer fixed while the W9 shifted path hull is noncompact. The
   missing exact fact is metric coercivity or typed route-out for every
   uncharged material-time path direction.
+- Claude's ontology audit does not delete the four-wall frontier. It correctly
+  warns that the static half-tail and free \(S^1\) coordinate are formal
+  implication witnesses rather than actual Navier-Stokes histories. That does
+  not prove empty-by-admission for W3, W7, W8, or W9. W7 pressure-source defect
+  extraction and W9 moving-selector/material-label escape remain same-fluid
+  proof events until a checked source proves forced passage or typed route-out.
