@@ -200,3 +200,8 @@ None.
   semicontinuity or shift invariance can run; failure of compact window or
   shifted interior room routes to terminal-window escape or typed
   stop/legal/selector/Pack/Part/Field failure, not to W8 payment.
+- WKB label-coordinate path transcription failed as a deletion:
+  existing label tightness and selector / bank / scale / weight variation
+  ledgers price or route individual label motions, but they do not install the
+  W9 common compact certificate-path topology, continuous fixed shifts,
+  terminal-window room, or action on the compactified closure.
