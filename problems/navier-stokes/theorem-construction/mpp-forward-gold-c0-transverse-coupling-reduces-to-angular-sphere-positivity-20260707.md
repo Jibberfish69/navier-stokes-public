@@ -79,12 +79,12 @@ completion_truth: >-
   of the existing parent-owned positive-record / selected first-ratio
   bill-currency wall. Claude's T-parity filter places that wall correctly: the
   bill admits the selected event and prevents unpaid chart/detector motion, but
-  the \(c_0\) brake itself must be a signed, time-odd lower bound. The sourced
-  retained angular Liouville rigidity remains open as same-edge pre-readout
-  custody plus selected first-ratio bill currency and detector/channel custody
-  joined to the retained linearized \((S,\omega)\) strict-attractor sign. That
-  sign is a uniform pressure-response stability-index statement over physically
-  admitted same-fluid embeddings, or a typed route-out. Claude's cycle-4
+  the \(c_0\) brake itself is supplied by the commutator only after transverse
+  pressure response is present. The sourced retained angular Liouville and
+  strict-attractor statements are now branch tests. The open terminal wall is
+  uniform transverse Hodge coercivity in record currency: an aligned
+  incompressible critical-record atom must be pass-owned, collar/exit-paid, or
+  trapped in the parent-owned affine endpoint kernel. Claude's cycle-4
   stretched-vortex narrowing is physically admissible and matches the older
   strict-tilting wall, but it is a branch theorem rather than a closure: one must
   prove that every retained marginal tower reduces to a stretched-vortex profile,

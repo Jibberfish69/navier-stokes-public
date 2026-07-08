@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-causal-lag-commutator-sign-target-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / commutator-sign / aligned zero-bill Liouville-UCP
-status: causal-lag-and-transverse-coercivity-demoted-to-diagnostics; terminal-zero-bill-liouville-ucp-open
+route: forward-gold / c_0 / commutator-sign / transverse pressure-Hodge coercivity
+status: causal-lag-demoted-to-diagnostic; terminal-transverse-hodge-coercivity-open
 ontology_lock:
   fluid_field_object: one same-fluid incompressible finite-energy Navier-Stokes history
   local_frame: strain/self-stretch eigenframe of the selected participant
@@ -24,10 +24,10 @@ source_refs:
 completion_truth: >-
   This note records the corrected crossing target and the later physical
   demotion of causal lag. The commutator is the signed brake once a transverse
-  pressure Hessian is present; the remaining terminal theorem is the
-  same-fluid transverse Hodge coercivity that prevents a lawful incompressible
+  pressure Hessian is present; the remaining terminal theorem is the zero-bill
+  same-field Liouville/UCP rigidity that prevents a lawful incompressible
   critical-record atom from keeping the pressure Hessian aligned in the strain
-  frame. Isotropy of Hess q belongs
+  frame while paying no collar/exit/atomization bill. Isotropy of Hess q belongs
   to the infinite spatially uniform affine jet, where the pressure source is
   constant. The real free manifold for a finite-energy participation tower is
   aligned pressure anisotropy: Hess q may be anisotropic, but if it is diagonal
@@ -119,15 +119,17 @@ completion_truth: >-
   the zero \(l=2\) control. Thus the stretched-vortex branch needs a same-fluid
   anisotropic core-annulus quadrupole law for the retained velocity profile, not
   just the core/annulus sign pattern.
-  Section 27 records the cycle-9 correction: the current terminal theorem is
-  NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A as a zero-bill
-  Liouville/UCP rigidity, not a rate/coercivity estimate. After pass,
-  collar/exit, and parent-owned affine endpoint-kernel classes are removed, a
-  retained positive-record atom cannot keep
-  \([R_iR_j(\partial_a u_b\partial_b u_a),S]=0\) through the tower. The angular,
-  strict-repeller, stretched-vortex, quadrupole, and transverse-Hodge packets are
-  diagnostics or subbranch attacks on that rigidity. This is a constructive
-  target and a strict reduction, not a proof of c_0>0.
+  Section 27 records the physical-first correction: the current terminal theorem
+  is NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A, equivalently
+  UniformTransverseHodgeCoercivityInRecordCurrency.A. After pass, collar/exit,
+  and parent-owned affine endpoint-kernel classes are removed, the same-field
+  transverse pressure Hessian must control the retained record amplitude in the
+  same payment currency:
+  \(\|\Pi_\perp^S\nabla^2(-\Delta)^{-1}(\partial_i u_j\partial_j u_i)\|
+  \gtrsim \mathsf R_{\rm rec}\). The angular, strict-repeller,
+  stretched-vortex, and quadrupole packets are diagnostics or subbranch attacks
+  on that transverse-Hodge theorem. This is a constructive target and a strict
+  reduction, not a proof of c_0>0.
 ---
 
 # Causal-lag commutator sign target

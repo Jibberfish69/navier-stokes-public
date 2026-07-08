@@ -152,7 +152,7 @@ is:
 
 ```math
 \text{zero-bill aligned atom Liouville/UCP}
-+ 
++
 \text{currency/accounting compatibility}
 +
 \text{commutator sign balance}
