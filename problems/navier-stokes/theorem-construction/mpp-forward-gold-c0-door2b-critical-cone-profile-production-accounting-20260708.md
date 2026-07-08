@@ -9,18 +9,22 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2-fixed-affine-collar-h1-trace-payment-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-two-door-sharp-form-repair-20260618.md
   - problems/navier-stokes/theorem-construction/mpp-gold-stress-flux-bridge-and-landau-liouville-test-20260617.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-cone-pressure-row-elliptic-ownership-20260708.md
 completion_truth: >-
   This note attacks the remaining Door-2 endpoint after the fixed smooth-affine
   collar has been paid. The 2026-07-08 VPI pressure non-separability correction
   changes the admission row: pressure is a row of the retained record, not a
   separable bill charged to service. The note now proves only the consumer
   direction after the retained cone has admitted same-record material
-  stationarity, no silent pressure-row dropping, point-force/source ownership,
-  and the regularity needed for the Landau/Sverak consumer. The annular
+  stationarity, pressure-row ownership on the exact cone, point-force/source
+  ownership, and the regularity needed for the Landau/Sverak consumer. The annular
   Navier-Stokes residual and angular roughness are not independent purchasable
   bills: residual vanishes once the actual same-field record is stationary in
   cone variables, and sphere regularity is a downstream elliptic/route-out
-  issue. Arbitrary-original-data admission remains outside this note.
+  issue. The exact-cone pressure-row ownership component is now proved by the
+  sphere equation -(Delta_{S^2}+2)P=Q_V; the only homogeneous ambiguity is the
+  l=1 parent/source row, while an l=1 same-scale source forces a logarithmic
+  pressure row. Arbitrary-original-data admission remains outside this note.
 ---
 
 # Door 2b: Critical Cone Profile-Production Accounting
@@ -132,10 +136,15 @@ Equivalently, Door 2b now splits into three smaller rows:
 \tag{D2B.3b}
 ```
 
-`RetainedConeMaterialStationarityAdmission.A` includes
+`RetainedConeMaterialStationarityAdmission.A` includes the tower passage part of
 `NoSilentPressureRowDropping.A` / `ZPF.21a`: a retained cone with zero row defect
-cannot keep record-size VPI content while dropping the pressure row or changing
-the material frame between rungs. `ConePointForceOwnershipOrRouteOut.A` says a
+cannot keep record-size VPI content while changing material frame between rungs
+or passing to a limit that deletes the pressure row. Once the cone is exact, the
+pressure-row ownership itself is proved by
+`CriticalConePressureRowEllipticOwnership.A`: the sphere operator
+\(-(\Delta_{S^2}+2)\) fixes the same-scale pressure row modulo the
+\(\ell=1\) harmonic parent/source relay, and a same-scale \(\ell=1\) source
+forces logarithmic pressure drift. `ConePointForceOwnershipOrRouteOut.A` says a
 nonzero \(\Phi_0\) is owned by the parent/source/Field face, not by a free child
 cone. `ConeStationaryWeakProfileRegularity.A` is a consumer regularity row: an
 exact stationary zero-force \((-1)\)-homogeneous weak profile retained on
