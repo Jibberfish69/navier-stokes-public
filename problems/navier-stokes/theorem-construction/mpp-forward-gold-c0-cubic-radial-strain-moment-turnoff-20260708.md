@@ -302,6 +302,28 @@ d\rho
 \tag{CRM.19e}
 ```
 
+This also explains why the payer cannot be a T-even quadratic magnitude alone.
+On a collar of log-length \(L\), an oriented residual current of size \(L^{-1}\)
+can carry a fixed total flux
+
+```math
+\int_{\Lambda Q}
+6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta\,d\rho
+\simeq 1,
+\tag{CRM.19f}
+```
+
+while its square cost satisfies
+
+```math
+\int_{\Lambda Q}|j|^2\,d\rho\simeq L^{-1}.
+\tag{CRM.19g}
+```
+
+So a square-current collar estimate reproduces the log leak. The missing
+admission theorem must put the positive linear flux \(\mathsf J_M^+\) into the
+legitimate material-time oriented bill.
+
 In an incompressible flow, this angular/current change is tied to the slaved
 pressure source
 
