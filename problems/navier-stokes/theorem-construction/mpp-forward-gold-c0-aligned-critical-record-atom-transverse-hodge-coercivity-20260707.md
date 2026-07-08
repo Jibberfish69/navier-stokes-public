@@ -109,10 +109,10 @@ This is the compact theorem:
 \tag{ATH.6}
 ```
 
-or, in proof-method form,
+or, in lower-bound form,
 
 ```math
-\texttt{SameFieldAlignedZeroBillLiouvilleUCPOrCounterprofile.A}.
+\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}.
 \tag{ATH.7}
 ```
 
