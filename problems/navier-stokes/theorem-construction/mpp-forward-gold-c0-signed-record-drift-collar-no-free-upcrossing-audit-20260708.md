@@ -139,3 +139,59 @@ Thus the alias is:
 \texttt{SignedRecordDriftCollarNoFreeUpcrossing.A}.
 \tag{SRC.5}
 ```
+
+## 7. Cycle-32 pressure test: signed current is not enough
+
+The focused pressure test is now recorded in
+`mpp-forward-gold-c0-forward-cascade-signed-transfer-pressure-test-20260708.md`.
+It sharpens `(SRC.2)' as follows.
+
+A raw signed collar/current identity has the same cancellation kernel as the
+earlier signed-cycle no-go:
+
+```math
+j=(M,-M),
+\qquad
+\sum_e j_e=0,
+\qquad
+\sum_e |j_e|_+=2M .
+\tag{SRC.6}
+```
+
+So Gate A cannot close from signed-current retention alone. The relay must
+retain the three-measure packet
+
+```math
+(\mu^A,\mu^N,\mu^J),
+\qquad
+d\mu^J=d\mu^A-d\mu^N,
+\tag{SRC.7}
+```
+
+on one parent-known relay event space, where \(\mu^A\) is the nonnegative
+selected forward-record carrier and \(\mu^N\) is the negative/back-transfer
+partner. The signed lower bound follows only after the no-free-return clause
+
+```math
+\mu^N(C_{\rm rel})
+\le
+(1-\eta)\mu^A(C_{\rm rel})
+dStop+dPass+dField+dCollar+dMerge+dLegal,
+\qquad \eta>0 .
+\tag{SRC.8}
+```
+
+Thus the sharper sufficient theorem is
+
+```math
+\texttt{OrientedThreeMeasureRelayNoReturn.A}
+\Longrightarrow
+\texttt{ForwardCascadeSignedTransferNonTelescoping.A}.
+\tag{SRC.9}
+```
+
+The new wall is `(SRC.8)': retained same-event custody of the positive carrier,
+negative partner, and signed current, plus strict no-return/no-recount
+domination of the negative partner. Without `(SRC.8)', backscatter,
+recirculation, merge/split reversal, orientation reversal, or double-counted
+return faces remain exactly the telescoping counterprofile.
