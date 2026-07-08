@@ -149,6 +149,22 @@ Physical sentence: the global exchange ledger (ZPF.21) cannot say WHERE the paym
 
 Attack surfaces for the gate: (i) step 1's local-production branch — can a shell self-feed at leading order without violating rule 12's supply recursion? state the recursion exactly; (ii) the material-time vs fixed-shell bookkeeping in D_t M (transport of the shell family itself); (iii) whether step 3's assembly needs W3's rung-uniform persistence as an input (if yes, W2's proof consumes W3 — a dependency to type, not hide).
 
+## 3l. Step-1 derivation: the build-side channel-sign lemma (proof sketch with one named open joint; PENDING gate)
+
+Physical sentence: in the scale-normalized frame (U = e^{-ρ}u(e^ρθ), w = U·θ — CRM.17), a structure that genuinely grows appears as MOTION of its front through ρ, not as growth of w at a fixed shell: the normalization absorbs amplification into transport. So rule 12 ("a single scale is inert") becomes an exact sign statement on the channels of D_material M(ρ,·).
+
+**Lemma (BuildSide four-channel sign split, leading order at the strict atom).** The material rate of the normalized cubic content splits into exactly four channels:
+1. **Self/production:** the normalized radial Riccati carries −w² (affine balance check: for u = Sx, w is time-independent and the Riccati balances exactly against the affine pressure) — contributing −3∫w⁴ ≤ 0, zero iff w ≡ 0. **Strictly non-positive: a shell cannot self-feed.**
+2. **Pressure row:** slaved, never free (rule 11); its aligned action under gathering is the eating sign with the §3b constant — **non-positive against the build on the gathering branch.**
+3. **Viscous:** dissipative in the readout — non-positive.
+4. **Centrifugal/deviation:** the |v|²-type radial source (classical Rayleigh term). At the strict atom this is second order in the deviation from same-affine and is ALREADY CHARGED by the existing quadratic deviation bill (the sector note's own typing: swirl's "quadratic centrifugal pressure source ... is support").
+
+Hence at leading order the ONLY positive channel into M is the transport pairing (the CRM.19d structure read in material time): **net build ⟹ a nonzero gathering current at the front**, with the row then billing it at (432/35)a³|v₂|/R² per unit rate (step 2, proved). Assembly (step 3): local retained growth carries a local signed bill — the no-waste retention conversion — with failure branches routed to relay (W6) or ¬Part.
+
+**The one open joint, named exactly:** the normalized-Riccati bookkeeping — the precise coefficients of the −w² term, the frame-stretching corrections from the e^{-ρ} normalization, and the exact form of the centrifugal term — must be derived line-by-line rather than asserted from the classical radial Rayleigh structure. The sign table above is what the derivation must reproduce; any sign that flips under exact bookkeeping kills the lemma and is a paid refutation.
+
+Attack surfaces for the gate: (i) the affine balance check as stated (does the affine pressure exactly cancel −w² in THIS normalization?); (ii) whether channel 4's deviation bill covers the centrifugal source uniformly along a climb or only per-shell; (iii) the transport term's material-time vs fixed-shell bookkeeping (the shell family itself moves).
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
