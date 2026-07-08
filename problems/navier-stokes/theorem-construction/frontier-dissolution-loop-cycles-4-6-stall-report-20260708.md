@@ -29,3 +29,8 @@ DELETED: none. CERTIFICATE: six queued (constant −16/105 R1-verified; CRM.13�
 ## Addendum — third rule-6 trigger, PAID-MODE cycles 1–3 (2026-07-08, post-install)
 
 Frontier installed (owner: confirm as-is). Paid-mode cycles 1–3 ran: W5 candidate (killed at the gate on the flagged quantifier attack — W5 stands, narrowed to complement rows), W12/W13 candidates (source-trail check in progress at the gate), W14 candidate (queued). Zero deletions CONFIRMED — the partner's batch is mid-post and references "the two paid deletions" it will confirm or refute, but no verdict message has posted, so per rule 14 nothing counts. Missing exact fact: the partner's posted batch. Sticking wall: none mathematical — cadence only. Holding per rule 6 until the batch posts.
+
+Superseded by `frontier-dissolution-loop-cycle-1-codex-partner-gate-20260708.md`
+and `frontier-dissolution-loop-cycle-2-w14-codex-partner-gate-20260708.md`:
+the Codex partner gate posted, W1/W11 are recorded as Cycle-1 deletions, and
+W14 is recorded as a Cycle-2 empty-by-admission deletion.
