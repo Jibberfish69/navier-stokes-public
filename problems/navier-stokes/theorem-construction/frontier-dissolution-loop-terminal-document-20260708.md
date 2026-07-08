@@ -144,3 +144,7 @@ None.
   neither installs the compact certificate-state path topology, continuous
   fixed shifts, terminal-window room, or material-time action on the lifted
   certificate family required by W9.
+- W9 GAP-A reduction failed: W3 supplies a fixed packet/collar service-row
+  persistence statement conditional on same-field H1/strong-L3 payment; it does
+  not supply W9's certified material-time interval room for tested fixed shifts
+  or the boundary-loss stop/legal/selector/Pack/Part/Field defect clause.
