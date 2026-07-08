@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708
 created: 2026-07-08
 problem: navier-stokes
-route: forward-gold / c_0 / cubic radial moment / fixed-sphere pressure-current nullspace
-status: fixed-sphere-linear-source-coercivity-test; support-only; not-c0-proof
+route: forward-gold / c_0 / cubic radial moment / fixed-sphere retained pressure-row nullspace
+status: fixed-sphere-linear-pressure-row-coercivity-test; support-only; not-c0-proof
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-attempt-census-20260707-undeveloped-frontier-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
@@ -18,19 +18,19 @@ completion_truth: >-
   full linear pressure-current source operator commutes with the axial
   symmetry, so m != 0 modes cannot cancel the m = 0 source. In the m = 0
   poloidal drop-bearing channel, the drop functional factors explicitly through
-  the linear source: for j=F(mu) grad_S mu, M'(j) = -72 pi int phi(mu) L_Sj dmu
-  with phi=mu^2/5-1/45. Thus the fixed-sphere linear source controls the
-  positive drop in this register. This is support for
-  CubicRadialMomentOddPayment.A, not the theorem: it does not yet prove the
-  nonlinear retained-record material-time odd bill or the transverse restoring
-  pressure sign.
+  the linear pressure row: for j=F(mu) grad_S mu, M'(j) = -72 pi int phi(mu)
+  L_Sj dmu with phi=mu^2/5-1/45. Thus the fixed-sphere linear pressure row
+  controls the positive drop in this register. This is support for retained
+  pressure-row nondegeneracy, not the theorem: it does not yet prove nonlinear
+  row persistence through scale passage, compactness, or the relay-endpoint
+  material-time Liouville.
 ---
 
-# Fixed-Sphere Odd Pressure-Current Nullspace Test
+# Fixed-Sphere Retained Pressure-Row Nullspace Test
 
-This note takes up the unfinished census item named
-`OddPressureCurrentCoercivity.A`, but only in the first bounded register:
-the fixed unit sphere around the affine Vieillefosse core.
+This note takes up the fixed-sphere part of the pressure-row nondegeneracy
+problem, but only in the first bounded register: the fixed unit sphere around
+the affine Vieillefosse core.
 
 The same-fluid object is the retained spherical record at one scale. The affine
 core is
@@ -102,7 +102,7 @@ The first two clauses are incompatible at the affine Vieillefosse sphere.
 
 ## 2. Mixed modes cannot hide the m = 0 source in the full-source test
 
-Let \(L_S\) denote the full linear pressure-current source around the affine
+Let \(L_S\) denote the full linear own-pressure-row source around the affine
 core:
 
 ```math
@@ -123,7 +123,7 @@ L_S j_m\ \text{has the same }m.
 \tag{FSN.4}
 ```
 
-Thus an \(m\ne0\) add-on cannot cancel the \(m=0\) pressure-current source as a
+Thus an \(m\ne0\) add-on cannot cancel the \(m=0\) pressure-row source as a
 function on the sphere. If
 
 ```math
@@ -151,7 +151,7 @@ empty in this linear affine register.
 The support result is:
 
 ```math
-\texttt{FixedSphereLinearOddPressureCurrentNullspace.A:}
+\texttt{FixedSphereLinearPressureRowNullspace.A:}
 \qquad
 \begin{array}{c}
 M'(j)>0,\\
@@ -251,26 +251,26 @@ C_S\,\|L_Sj\|_{L^2(S^2)}
 for a universal fixed-sphere constant \(C_S\).
 
 Together with (FSN.2)--(FSN.6), this says: at the affine Vieillefosse sphere,
-the full linear pressure-current source controls the entire linear cubic drop.
+the full linear pressure row controls the entire linear cubic drop.
 Pure \(m\ne0\) modes carry no drop, mixed modes cannot cancel the \(m=0\)
-source, and the \(m=0\) source has the explicit bound (FSN.15).
+row source, and the \(m=0\) row source has the explicit bound (FSN.15).
 
 This is a fixed-sphere linear source-coercivity test. It proves that the first
 conversation-level escape is not present at the affine Vieillefosse sphere:
-the linear pressure-current source controls the linear cubic drop, so there is
-no current that carries positive drop while hiding the full linear source.
+the linear pressure row controls the linear cubic drop, so there is no current
+that carries positive drop while hiding the full linear row.
 
-It does not prove `CubicRadialMomentOddPayment.A`. Three burdens remain outside
-this note:
+It does not prove retained pressure-row nondegeneracy for the full tower. Three
+burdens remain outside this note:
 
-1. The theorem needs the legitimate material-time odd bill
-   \(\mathsf P_{\rm odd}\), not merely full-source visibility \(L_Sj\).
+1. The theorem needs row persistence for retained VPI records, not merely
+   fixed-sphere row visibility \(L_Sj\).
 2. A retained record can become non-axisymmetric after finite same-fluid
    evolution; this note is the affine-sheet linear test, not the nonlinear
    record-chirality theorem.
-3. The global strict atom/tower accounting still has to admit the signed
-   pressure-current/collar transfer without double-counting Door 1, Door 2a,
-   or Door 2b.
+3. The global strict atom/tower accounting still has to keep pressure as a
+   non-separable row of the retained record while routing borrowed harmonic
+   rows to the parent and nonparticipating rows to Pack/Part/Field.
 
 The exact remaining fixed-geometry extension is:
 
@@ -281,6 +281,5 @@ The exact remaining fixed-geometry extension is:
 ```
 
 and to show that any positive retained \([M']_+\) either enters the
-material-time oriented pressure-current bill or routes to a parent/pass/Field
-owner. That is the same open object as
-`RetainedPositiveCubicFluxIsPaidOrRoutesOut.A`.
+retained pressure row or routes to a parent/pass/Field owner. That is the same
+open object as `RetainedPositiveCubicFluxHasPressureRowOrRoutesOut.A`.
