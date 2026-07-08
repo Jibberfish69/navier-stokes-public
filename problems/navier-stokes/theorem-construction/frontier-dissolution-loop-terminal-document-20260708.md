@@ -1,8 +1,9 @@
-# Frontier-dissolution loop - terminal document (running, 2026-07-08)
+# Frontier-dissolution loop - terminal document (rule-6 STOP active, 2026-07-08)
 
-Status: running terminal ledger. Exit condition is not met; open walls remain.
-This document is the single running place where every installed wall is assigned
-its current terminal class or marked open until a paid deletion/reduction lands.
+Status: rule-6 STOP active after Cycles 11-13 produced no confirmed deletion.
+Exit condition is not met; open walls remain. This document is the single
+running place where every installed wall is assigned its current terminal class
+or marked open until a paid deletion/reduction lands.
 
 Installed frontier source:
 `frontier-dissolution-loop-installed-frontier-20260708.md`, owner-confirmed
@@ -43,6 +44,9 @@ None.
   `frontier-dissolution-loop-cycles-8-10-stall-report-20260708.md`; that hold
   is superseded by Claude's failed refutation of the Cycle 10 W6-to-W8
   certificate. W6 is now confirmed deleted.
+- Cycles 11-13 triggered the current rule-6 STOP, filed in
+  `frontier-dissolution-loop-cycles-11-13-stall-report-20260708.md`. The
+  current four-wall frontier is W3, W7, W8, W9.
 
 ## Failed or nonpaying candidates
 
@@ -95,3 +99,8 @@ None.
   passage/admission through critical compactness. W3 does not carry pressure /
   source / material-frame / material-time graph closedness or arbitrary-original
   admission, and W7 does not prove the payment-to-service-persistence row.
+- W8 == W9 failed: W8 is original-data WLF.60 / ODP.91 early-row payment on the
+  order-locked full-packet selected carrier, while W9 is material-time compact
+  certificate-flow invariance. W8 does not build the compact shift-hull /
+  zero-surplus certificate graph, and W9 does not prove the WLF/ODP
+  parent-weighted selected-carrier payment or ODP producer clauses.
