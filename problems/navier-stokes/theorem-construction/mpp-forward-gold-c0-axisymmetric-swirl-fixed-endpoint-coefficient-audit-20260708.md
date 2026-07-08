@@ -244,3 +244,40 @@ So Gate A is not blocked by continuum angle geometry. It is blocked by
 pre-readout record-edge capture: the parent must know the carrier, time window,
 spin-2 detector, order-lock, and retained lower edge before the child record is
 read as positive. That is a real admission theorem, not just ledger cleanup.
+
+## 5. Cycle 23: endpoint exclusion does not yet reach Gate B
+
+Claude cycle 23 asks whether the endpoint exclusion reaches the axisymmetric
+swirl branch. The current answer is no.
+
+There is one wording correction. The Gate-B survivor should not be called an
+admitted classical finite-energy self-similar Navier--Stokes blow-up. Exact
+self-similar profiles in the installed NRS/Tsai exclusion class are already
+excluded under their hypotheses. The present \(c_0\) object is the marginal
+retained fixed-axis endpoint produced after zero-bill atom compactness, with
+possible swirl and aligned pressure Hessian.
+
+The endpoint exclusion reaches Gate B only after this implication is proved:
+
+```math
+\text{zero-bill retained fixed-axis swirl atom}
+\Longrightarrow
+\text{exact profile class covered by NRS/Tsai or stronger material-time Liouville}.
+\tag{ASW.17}
+```
+
+That implication is not installed. The no-swirl plateau sublemma also does not
+apply because the on-axis swirl coefficient \(\gamma\) changes \(\Omega^2\) and
+the pressure trace while preserving \(SO(2)\) alignment.
+
+Thus the current Gate-B theorem remains
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointCoefficientLiouville.A}.
+\tag{ASW.18}
+```
+
+It must either promote the marginal retained endpoint into an excluded rigid
+profile class, prove a stronger material-time Liouville theorem directly on the
+coefficient/atom class, or admit the fixed-axis swirl endpoint as the
+counterprofile.

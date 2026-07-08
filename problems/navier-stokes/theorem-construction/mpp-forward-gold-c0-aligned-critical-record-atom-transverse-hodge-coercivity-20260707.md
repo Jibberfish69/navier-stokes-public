@@ -1294,3 +1294,37 @@ after an order-locked retained selector chart is already parent-known. They do
 not prove that every future-positive spin-2 record edge enters such a finite
 parent menu before readout. Thus Gate A is physically reduced but formally
 open at the same pre-readout selector-capture theorem.
+
+## 21. Cycle 23 endpoint exclusion audit
+
+Claude cycle 23 correctly restores the axisymmetric swirl branch as Gate B, but
+the endpoint wording needs one correction. The current proof does not contain
+an admitted classical finite-energy self-similar Navier--Stokes blow-up profile.
+Exact self-similar profiles in the installed NRS/Tsai class are excluded under
+their hypotheses.
+
+The live Gate-B object is weaker and more dangerous: a marginal retained
+fixed-axis axisymmetric-with-swirl endpoint extracted from the zero-bill
+critical-record atom limit. The current endpoint exclusion reaches it only if
+one proves
+
+```math
+\text{retained zero-bill fixed-axis swirl endpoint}
+\Longrightarrow
+\text{NRS/Tsai-covered exact profile or stronger material-time Liouville class}.
+\tag{ATH.76}
+```
+
+That bridge is not installed. The no-swirl plateau turn-off sublemma also does
+not apply, because \(\gamma=u^\theta/r\) changes \(\Omega^2\) and the pressure
+trace while preserving \(SO(2)\) alignment.
+
+So the answer to cycle 23 is: current endpoint exclusion does not reach Gate B.
+The remaining theorem is still
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointCoefficientLiouville.A},
+\tag{ATH.77}
+```
+
+or the fixed-axis swirl endpoint becomes the admitted counterprofile.
