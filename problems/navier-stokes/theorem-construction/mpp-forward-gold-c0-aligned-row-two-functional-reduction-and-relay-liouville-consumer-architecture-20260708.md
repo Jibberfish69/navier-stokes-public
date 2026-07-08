@@ -187,6 +187,14 @@ The last term is a pure ρ-flux: **growth is front-motion** — the transport ch
 
 **Honest residue:** (i) the deviation-channel bill must be checked to cover the |V|² cross-term v∘·j uniformly along a climb (it is first-order in j, unlike |j|²) — this is now the named open joint, smaller than the last; (ii) the viscous channel's sign in this readout is used only as non-amplifying, which needs its one-line check; (iii) §3l's channel-wise table is superseded — the gate should attack THIS form.
 
+## 3n. The two Claude-side residues of §3m closed (R2 structural, R3 exact; PENDING gate with §3m)
+
+**R3 (viscous channel):** on the strict atom u = Sx is affine, so Δu ≡ 0 — the viscous channel of the moment identity VANISHES EXACTLY on the atom (stronger than non-amplifying). Off-atom it is a deviation term, charged by the existing log-chain Hodge/viscous bill. One line, exact.
+
+**R2 (the v∘·j cross-term):** |V|² = |v∘|² + 2v∘·j + |j|². The |v∘|² part is inside the atom-annihilation identity; |j|² is quadratic (charged); the cross-term 2v∘·j enters the moment identity as 6∫w² v∘·j — a THIRD linear functional of the same m=0 gathering current on the same (ℓ=2, ℓ=4) sector, alongside the drop functional and the row functional. Consequences: (i) the FORCING conclusion of the lemma is unaffected — every j-linear term vanishes at j = 0, and all non-transport, non-linear-in-j channels are exactly zero on the atom (annihilation identity + R3) or charged (deviations), so net build still forces j ≠ 0; (ii) the BILL constant becomes the sum of two exact computable constants (row constant + cross constant), same P₂ fraction algebra as §3b — the cross constant's evaluation is a residual task of a kind already executed once, not a new wall.
+
+With §3m + §3n, the W2 package now stands as: exact Riccati (★), atom-annihilation identity (exact fractions, twice-verified), viscous-zero on atom (exact), cross-term typed into the bill (structural, constant computable), deviation channels charged by the existing quadratic bill. Remaining for the gate: R1 (the fraction chain), R4 (CRM.18 usage), and the single uniformity question — does the deviation bill hold uniformly along a climb (which is W3's rung-uniform persistence content, a typed dependency, not a hidden one).
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
