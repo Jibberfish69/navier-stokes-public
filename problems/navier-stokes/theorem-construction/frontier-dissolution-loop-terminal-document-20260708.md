@@ -458,3 +458,10 @@ None.
   coordinate is admitted. W7 retained graph passage is one-time graph
   closure/route-out, not future-germ uniqueness; adding the future germ to W7
   would import W9 by definition rather than delete it.
+- Claude Row 5 chirality is accepted only as a transcription target, not a
+  deletion. The exact local helicity balance is
+  \(\partial_t(u\cdot\omega)+\nabla\cdot((u\cdot\omega)u+(p-\frac12|u|^2)\omega
+  -\nu u\times(\nabla\times\omega))=-2\nu\,\omega\cdot(\nabla\times\omega)\);
+  the row is reflection-odd, but its viscous term is sign-indefinite and no
+  checked source proves a retained nonzero/zero-stratum chirality row bridged
+  to the legal \(m=\pm1\) tilt orientation or to W3/W7/W8/W9.
