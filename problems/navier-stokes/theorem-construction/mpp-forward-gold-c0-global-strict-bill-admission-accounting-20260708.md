@@ -10,6 +10,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door1-enstrophy-viscous-service-persistence-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2-fixed-affine-collar-h1-trace-payment-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2b-critical-cone-profile-production-accounting-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-cone-pressure-row-elliptic-ownership-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md
 completion_truth: >-
@@ -87,7 +88,11 @@ The terms are not detached proxies:
   non-separable row `RetainedCriticalConeProfileProductionBillAdmission.A`,
   split in Door 2b into `RetainedConeMaterialStationarityAdmission.A`,
   `ConePointForceOwnershipOrRouteOut.A`, and
-  `ConeStationaryWeakProfileRegularity.A`.
+  `ConeStationaryWeakProfileRegularity.A`. The exact-cone pressure-row
+  ownership component is proved by
+  `CriticalConePressureRowEllipticOwnership.A`; the open part is the retained
+  tower-passage/material-time row and the parent/source relay, not the sphere
+  Poisson ownership calculation itself.
 
 Thus
 
