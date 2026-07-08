@@ -228,3 +228,8 @@ None.
   original-data collection theorem on the order-locked full-packet carrier; no
   checked source types the log-chain deviation charge as collected W8 bill
   currency.
+- W3 direct admitted-H1-row descent did not delete W3: the Door-1 sources prove
+  only the conditional implication from an admitted retained local strain H1
+  payment row to strong-L3 service persistence. They do not prove the
+  admission, finiteness, or uniformity of that H1 row as strict same-field tower
+  payment. W3 remains the installed service-persistence wall.
