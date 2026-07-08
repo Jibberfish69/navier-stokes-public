@@ -1559,3 +1559,28 @@ service can try to telescope away from a fixed finite score. Thus the current
 answer is: yes for angle drift inside the already fixed strict atom; no for
 generic record drift until the relay hand-off is charged or routed to
 collar/Field/stop/pass material.
+
+## 29. Cycle 29: carrier hand-off is a signed-collar obligation
+
+Claude cycle 29 asks whether the carrier-level relay is stopped-score lifted
+from angle crossings or a new signed-collar obligation. It is the latter.
+
+For angle crossings inside one strict atom, the carrier, chart, collar address,
+and record edge are fixed. The same parent-known score is still being followed,
+so stopped-score and Schur motion can pay the finite-net crossing sequence.
+
+For carrier crossings, the selected material packet changes. The score itself
+has changed domain and address. A per-cell stopped score can be parent-known on
+each side while the hand-off between packets is still unpaid. The missing
+theorem is therefore a signed collar/current statement:
+
+```math
+\texttt{SignedRecordDriftCollarNoFreeUpcrossing.A}.
+\tag{ATH.91}
+```
+
+It must prove that service crossing from one material packet to the next either
+appears as signed collar flux/current payment in the same participation
+currency, is routed to stop/pass/Field material, or cannot retain the positive
+record. A magnitude collar bill is not enough for the \(c_0\) sign target, and
+stopped-score does not supply this transfer by itself.
