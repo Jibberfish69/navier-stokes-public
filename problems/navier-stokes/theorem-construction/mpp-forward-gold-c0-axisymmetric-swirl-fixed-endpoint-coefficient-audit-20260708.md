@@ -888,3 +888,76 @@ negative-Rayleigh angular-momentum-gradient packet that keeps \(F_r<0\) and
 \(\zeta F_z\) in the amplifying orientation while paying none of the scalar
 \(F\)-budget, poloidal-vorticity, collar, pressure/complement, or participation
 costs. That is the object to prove impossible or route out.
+
+## 15. Cubic-drop pressure refund is the same Rayleigh/centrifugal budget
+
+The cubic-moment turn-off calculation adds one useful check to the Gate-B
+stack. In the aligned poloidal turn-off, a non-solid swirl can cancel the
+instantaneous pressure source. That cancellation is not a new pressure bank.
+It is the same angular-momentum-gradient object already isolated above.
+
+Indeed, with \(u^\theta=\Gamma/r\),
+
+```math
+-2\frac{u^\theta}{r}\partial_r u^\theta
+=
+-2\frac{\Gamma}{r^2}
+\left(\frac{\partial_r\Gamma}{r}-\frac{\Gamma}{r^2}\right)
+=
+-\frac1{r^3}\partial_r(\Gamma^2)
++\frac{2\Gamma^2}{r^4}.
+\tag{ASW.59}
+```
+
+Thus the fixed-time pressure-source refund is exactly:
+
+```math
+\text{negative-Rayleigh part } -r^{-3}F_r
+\quad+\quad
+\text{centrifugal barrier }2r^{-4}F,
+\qquad F=\Gamma^2 .
+\tag{ASW.60}
+```
+
+The same \(F\) satisfies
+
+```math
+D_tF
+=
+\nu\left(\partial_r^2-\frac1r\partial_r+\partial_z^2\right)F
+-2\nu|\nabla_{r,z}\Gamma|^2 .
+\tag{ASW.61}
+```
+
+So a retained zero-payment cubic-drop atom cannot treat the swirl refund as
+free unless it also hides the material \(F\)-budget, the \(|\nabla\Gamma|^2\)
+dissipation, annular/collar flux, the centrifugal response, and participation
+ownership. This gives the next smaller theorem:
+
+```math
+\texttt{OwnedAngularMomentumGradientRefundNoFreeCubicDrop.A}.
+\tag{ASW.62}
+```
+
+Statement. A lawful aligned non-solid-swirl strict atom/tower cannot use the
+negative-Rayleigh component \(-r^{-3}F_r\) to cancel the aligned cubic-drop
+pressure source while retaining positive \(\mathsf J_M^+\) unless the same
+\(F\)-budget, centrifugal response, diffusion/dissipation, collar flux, or
+participation owner pays or routes the service.
+
+Then
+
+```math
+\texttt{OwnedAngularMomentumGradientRefundNoFreeCubicDrop.A}
+\Longrightarrow
+\texttt{AxisymmetricSwirlMaterialTimeCubicPayment.A}
+\Longrightarrow
+\texttt{ZeroPaymentForcesZeroParticipationInLawfulStrictTowers.A}
+\quad\text{on the aligned non-solid-swirl branch.}
+\tag{ASW.63}
+```
+
+This is a strict reduction, not a proof of \(c_0>0\). The theorem is smaller
+than the full \(c_0\) floor because it concerns one admitted physical survivor:
+an off-axis angular-momentum-gradient packet refunding the aligned cubic drop
+through material time while all same-field budgets deny payment.
