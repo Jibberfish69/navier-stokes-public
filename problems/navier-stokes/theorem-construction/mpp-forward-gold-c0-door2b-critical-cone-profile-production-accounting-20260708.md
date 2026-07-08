@@ -19,8 +19,9 @@ completion_truth: >-
   zero-force profile, and the Landau/Sverak consumer gives u=0. This is a
   candidate discharge of the cone endpoint if the profile-production bill is
   accepted as legitimate strict participation currency; it is not yet a full
-  c0 proof because that bill admission must be reconciled with the global
-  strict tower accounting.
+  Clay proof because that bill admission is reconciled into the retained strict
+  tower in the companion global accounting note, while arbitrary-original-data
+  admission remains outside this note.
 ---
 
 # Door 2b: Critical Cone Profile-Production Accounting
@@ -210,4 +211,5 @@ installed, the Door-2 endpoint chain becomes
 
 Together with Door 1 service persistence, this would give the strict retained
 tower inequality \(\mathsf P\ge c\mathsf S\), hence \(c_0>0\) for the retained
-strict participation class.
+strict participation class. The companion global accounting note records that
+conditional summation.
