@@ -17,10 +17,11 @@ completion_truth: >-
   flux is controlled by the pressure row exactly when 6w nabla_{S^2}w lies in
   the adjoint range of L_A. At the affine Vieillefosse sphere this holds by
   the explicit certificate Psi=(4/5)(3q-2). For general retained w=q+eta this
-  is an overdetermined row-range condition; if it fails, a linearized silent
-  row-current exists, but that current is only an instantaneous obstruction
-  until material-time retention or route-out is checked. This is a strict
-  finite reduction, not c0 closure.
+  is an overdetermined row-range condition. The first concrete obstruction is a
+  solid rotation added to the affine strain: w=q is unchanged, but the skew
+  part creates an azimuthal adjoint component that no smooth scalar certificate
+  can remove. That obstruction is frame/material-time drift, not a pressure-row
+  counterexample. This is a strict finite reduction, not c0 closure.
 ---
 
 # Retained Pressure-Row Adjoint Range Test
@@ -214,12 +215,82 @@ The retained VPI history forces (ART.17), uniformly enough for the row
 certificate, or else the failure of (ART.17) is visible in another VPI row or
 routes to parent/pass/Field/nonparticipation.
 
-## 5. Status for \(c_0\)
+## 5. The first obstruction: solid rotation is frame drift
+
+The range equation is not stable under adding an unquotiented skew affine part.
+Let
+
+```math
+A=S+\Omega,\qquad
+S=\operatorname{diag}(1,1,-2),\qquad
+\Omega\theta=\gamma e_3\times\theta .
+\tag{ART.20}
+```
+
+The radial readout is still
+
+```math
+w=q=1-3\mu^2,
+\tag{ART.21}
+```
+
+because the skew part has zero radial component. The target
+\(6q\nabla_{S^2}q\) is axisymmetric and poloidal. The operator \(L_A^*\)
+commutes with rotations around the \(e_3\) axis, so a scalar certificate for
+this \(m=0\) target must be axisymmetric.
+
+For an axisymmetric scalar \(\psi(\mu)\), the skew part of the adjoint is the
+azimuthal field
+
+```math
+\gamma\sqrt{1-\mu^2}\left((\mu\psi)' +2\psi\right)e_\phi .
+\tag{ART.22}
+```
+
+To match the poloidal target, this component must vanish. Thus
+
+```math
+(\mu\psi)'+2\psi=0
+\quad\Longleftrightarrow\quad
+\mu\psi'+3\psi=0,
+\tag{ART.23}
+```
+
+whose smooth solutions on the sphere are only \(\psi\equiv0\). That cannot
+also solve the nonzero poloidal equation \(L_A^*\psi=6q\nabla q\). Therefore
+
+```math
+A=S+\Omega,\qquad \gamma\ne0
+\quad\Longrightarrow\quad
+6q\nabla q\notin\operatorname{Range}L_A^*
+\tag{ART.24}
+```
+
+before quotienting the rotation/frame row.
+
+This is not a \(c_0\) counterexample. A solid rotation of the affine core is a
+material-frame/current row of the same velocity field; it carries vorticity and
+frame drift while leaving the radial cubic readout unchanged. The corrected
+classification is:
+
+```math
+\text{static pressure-row certificate fails}
+\quad\Longrightarrow\quad
+\text{frame/material-time row must own the skew part,}
+\tag{ART.25}
+```
+
+or the record routes to parent/pass/Field/nonparticipation. This is exactly why
+`RetainedPressureRowAdjointRangePersistence.A` must be stated after the lawful
+frame quotient and with the material-time row included.
+
+## 6. Status for \(c_0\)
 
 This note strengthens the fixed-sphere calculation and prevents a false
 closure. The affine sphere is row-coercive by an explicit certificate. The
 general retained sphere is reduced to the adjoint-range persistence theorem
-(ART.19), followed by no silent row-dropping through the tower and the
-relay-endpoint material-time Liouville.
+(ART.19), after removing frame/material-time drift such as (ART.20), followed
+by no silent row-dropping through the tower and the relay-endpoint
+material-time Liouville.
 
 No \(c_0>0\) theorem is proved here.
