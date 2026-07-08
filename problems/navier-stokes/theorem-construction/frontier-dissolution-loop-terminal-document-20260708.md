@@ -38,7 +38,12 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
 
 ## Pending candidates
 
-None.
+- W4 and W5 reduce to W7, pending partner refutation. Candidate certificate:
+  `RetainedVPIRecordGraphClosednessOrTypedRouteOut.A` / W7 graph closedness
+  carries the pressure source, material-frame rows, material-time rows, and
+  positive VPI record together; W4 is the material-frame component and W5 is
+  the combined-row persistence component after graph closure plus exact-cone /
+  affine full-frame consumers.
 
 ## Failed or nonpaying candidates
 
