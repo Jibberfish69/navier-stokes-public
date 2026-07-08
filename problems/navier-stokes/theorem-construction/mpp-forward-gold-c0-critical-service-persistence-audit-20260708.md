@@ -17,11 +17,12 @@ completion_truth: >-
   not supplied by Korn-Hodge L2 compactness alone. The note proves only the
   conditional implication: if the same-field payment gives H1 control of the
   non-affine strain defect modulo the affine channel, then Sobolev gives strong
-  L3 convergence and cubic service persists. The companion Door-1 note proves
-  that Claude's a=r bubble is seen by the localized enstrophy-viscous H1 bill,
-  provided that term is admitted as part of the strict same-field participation
-  bill. The remaining global status is not c0 closure: Door 2, the affine
-  endpoint/no-free-collar sign, is still open.
+  L3 convergence and cubic service persists. The companion Door-1 note derives
+  that H1 row from the local strain-production identity and shows Claude's a=r
+  bubble pays it, provided the row is admitted as retained strict same-field
+  payment. The remaining global status is not c0 closure: H1 row admission /
+  finiteness and Door 2, the affine endpoint/no-free-collar sign, are still
+  open.
 ---
 
 # Critical Service Persistence Audit
@@ -183,11 +184,12 @@ C\left(\mathsf P_{\rm chain}(I)+\operatorname{Err}_{\rm atom}(I)\right).
 That is a valid off-kernel chain payment row under its assumptions. It gives
 service persistence only after Door 1 supplies the H1/strong-L3 payment and
 the affine endpoint is handled. The fixed smooth-affine first non-merge collar
-is handled by the companion Door-2a H1 trace/collar note; the remaining Door-2
-endpoint is the scale-consistent degree -1 wrong-sign pressure-bank cone, now
-handled by the Door-2b note under strict profile-production bill admission.
-VPL Section 23 supplies the stopping decomposition; it does not itself prove
-bill admission/accounting for these payment doors.
+is isolated by the companion Door-2a H1 trace/collar note; the remaining Door-2
+endpoint is the scale-consistent degree -1 wrong-sign pressure-bank cone, with
+Door-2b only a conditional profile-production discharge under strict
+profile-production bill admission. VPL Section 23 supplies the stopping
+decomposition; it does not itself prove bill admission/accounting for these
+payment doors.
 
 Thus the current direct strict-tower \(c_0\) reduction is:
 
