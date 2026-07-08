@@ -82,9 +82,9 @@ present:
 ```
 
 So the sign story is coherent only after the transverse pressure Hessian has
-been admitted on the same retained edge. The remaining theorem is not another
-lag label and not a raw untyped norm. Its native form is a same-currency lower
-bound, equivalently a zero-bill exclusion of the aligned atom.
+been admitted on the same retained edge. The remaining theorem is a
+same-currency lower bound, equivalently a zero-bill exclusion of the aligned
+atom.
 
 After pass, collar/exit, and parent-owned affine endpoint-kernel classes have
 been removed, the lower-bound form is
@@ -328,3 +328,98 @@ Applying that closure to the uniaxial pressure bank is the current subproblem:
 \texttt{ParentHarmonicUniaxialBankPaysOrRoutesOut.A}.
 \tag{ATH.20}
 ```
+
+## 8. Cycle-12 sharpened wall: in-plane strain phase
+
+Claude cycle 12 sharpens the uniaxial survivor by the location of the record
+axis.
+
+Case A: the pressure axis is the record axis. Then the Codazzi/normal-form
+branch attacks the same direction that carries service. In the zero-bill
+reading this routes to affine endpoint, singular radial branch, pass/service
+zero, or paid cut-off.
+
+Case B is the remaining wall. The record lies inside the pressure-degenerate
+plane. Then pressure is isotropic on the plane while strain is still anisotropic
+inside that same plane:
+
+```math
+H=hP+k\,n\otimes n,
+\qquad
+S=\lambda_1e_1\otimes e_1+\lambda_2e_2\otimes e_2+\lambda_3n\otimes n,
+\qquad
+e_1,e_2\in P,\quad \lambda_1\ne\lambda_2.
+\tag{ATH.21}
+```
+
+For every in-plane eigenbasis \((e_1,e_2)\),
+
+```math
+[H,S]=0,
+\tag{ATH.22}
+```
+
+because \(H\) cannot see the spin-2 angle inside its degenerate plane. This is
+the exact no-wake survivor after the local Codazzi split: pressure is in-plane
+isotropic, strain is in-plane anisotropic, and the retained record claims to
+persist without a phase bill.
+
+The scalar pressure source
+
+```math
+Q=|S|^2-\frac12|\omega|^2
+\tag{ATH.23}
+```
+
+can see the magnitude of the in-plane strain anisotropy, but it does not
+automatically retain the phase
+\(e_1\otimes e_1-e_2\otimes e_2\). Thus the next theorem is a phase-custody
+statement, not a pointwise pressure-spectrum statement:
+
+```math
+\texttt{InPlaneSpinTwoRecordPhasePaysOrRoutesOut.A}.
+\tag{ATH.24}
+```
+
+A useful form is:
+
+```math
+\lambda_1-\lambda_2\ne0,\quad
+H|_P=hP,\quad
+\mathsf S_{\rm ret}=1
+\Longrightarrow
+\mathsf P_{\rm phase}
++\mathsf P_{\rm parent}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\gtrsim1,
+\tag{ATH.25}
+```
+
+unless the in-plane strain phase is parent-owned endpoint data.
+
+The proof split is:
+
+1. fixed in-plane phase through the tower \(\Rightarrow\) parent-owned
+   affine/endpoint lock or planar branch with paid cut-off;
+2. phase rotation in space, material time, or scale \(\Rightarrow\)
+   selector/order-lock variation, hence \(\mathsf P_{\rm phase}\);
+3. cone-mixing or Young-measure hiding of the phase \(\Rightarrow\)
+   atomization must recover a selected spin-2 channel without service loss, or
+   the averaged object is pass/service-zero.
+
+So the sole wall after cycle 12 is:
+
+```math
+\text{pressure in-plane isotropic}
+\quad+\quad
+\text{strain in-plane anisotropic retained record}
+\quad+\quad
+\text{zero phase/parent/collar/exit bill}.
+\tag{ATH.26}
+```
+
+Proving (ATH.24) closes the pressure-degenerate branch. Producing a same-field
+finite-energy atom satisfying (ATH.21)--(ATH.22) with zero phase, parent,
+collar, and exit bill is the honest counterprofile.
