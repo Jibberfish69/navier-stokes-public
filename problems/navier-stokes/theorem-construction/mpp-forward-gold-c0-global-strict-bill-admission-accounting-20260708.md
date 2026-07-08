@@ -80,7 +80,8 @@ The terms are not detached proxies:
   affine endpoint fails to merge into the same parent affine field.
 - \(d\mu_{\rm D2b}\) is the retained critical-cone profile-production bill:
   log-scale drift, material-time drift, frame modulation, annular stationary
-  NS defect, angular roughness, and point-force/source ownership.
+  NS defect, angular roughness, and point-force/source ownership. Its admission
+  is the open row `RetainedCriticalConeProfileProductionBillAdmission.A`.
 
 Thus
 
@@ -171,17 +172,17 @@ C_C\left(
 \mu_{\rm chain}(\Lambda C_\alpha)
 +\mu_{\rm end}(\partial_{\rm handoff}C_\alpha)
 +\mu_{\rm D2a}(\partial_{\rm out}C_\alpha)
-+\mu_{\rm D2b}(\partial_{\rm crit}C_\alpha)
+    +\mu_{\rm D2b}(\partial_{\rm crit}C_\alpha)
 \right).
 \tag{GBA.8}
 ```
 
 The terms represent the same-field exits of the chain: off-kernel log
 variation, signed parent handoff, fixed smooth-affine first non-merge collar,
-and scale-consistent degree \(-1\) pressure cone. Door 2b says the last term
-vanishes with positive service only under the profile-production/no-cone
-admission. The parent handoff cannot be charged by the Hodge magnitude; it
-needs the signed endpoint theorem.
+and scale-consistent degree \(-1\) pressure cone. Door 2b consumes the last
+term only after `RetainedCriticalConeProfileProductionBillAdmission.A` supplies
+the profile-production/no-cone bill. The parent handoff cannot be charged by
+the Hodge magnitude; it needs the signed endpoint theorem.
 
 Let
 
