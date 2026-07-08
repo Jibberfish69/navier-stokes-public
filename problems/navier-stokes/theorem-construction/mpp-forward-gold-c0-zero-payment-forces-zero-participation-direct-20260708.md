@@ -373,6 +373,31 @@ from the pressure-current/collar bill. If it is not billed, the service has
 crossed the collar to a parent, child, Field, stopped/pass, or nonparticipating
 owner and the atom/tower accounting must follow it there.
 
+Equivalently, with \(N=-M\),
+
+```math
+\mathsf J_M^+
+=
+\int_{\Lambda Q}[-N'(\rho)]_+\,d\rho.
+\tag{ZPF.7k6}
+```
+
+On a constant-owner retained subcollar, strict participation counts positive
+retained-service variation:
+
+```math
+d\mathsf P_{\rm ret}
+\ge
+c\,d\operatorname{Var}_{\rm ret}N
+\ge
+c[-N'(\rho)]_+\,d\rho.
+\tag{ZPF.7k7}
+```
+
+Thus zero retained bill forces no positive retained cubic flux. A positive
+flux with zero bill is lawful only as owner transfer, not as retained active
+service.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
