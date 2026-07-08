@@ -58,3 +58,7 @@ W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A
   mass.
 - W13 clock-reduction as filed failed because it depended on the rejected
   W9 == W10 merge.
+- W2 split into `RetainedRecordEdgePreReadoutCustodyTuple.A` plus W7 failed:
+  ZPF.21 is only a signed global ledger, and
+  `TotalStrainVorticityExchangeRetention.A` remains the independent no-waste /
+  retained localized same-carrier conversion from original data.
