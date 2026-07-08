@@ -40,6 +40,12 @@ W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCom
 
 W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A`
 
+## Pending candidates
+
+- W10 reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A` /
+  surviving Gold signed-height chain is pending partner refutation in
+  `frontier-dissolution-loop-cycle-3-w10-reduction-candidate-20260708.md`.
+
 ## Failed or nonpaying candidates
 
 - W3 empty-by-admission failed: the critical-service audit carries rung-uniform
