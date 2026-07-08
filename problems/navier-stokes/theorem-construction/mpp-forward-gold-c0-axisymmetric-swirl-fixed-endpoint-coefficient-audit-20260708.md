@@ -462,3 +462,90 @@ This is not currently installed. So B1 is not closed by magnitude Hardy,
 \(\Gamma\) maximum principle, finite dissipation, or swirl handedness. It is a
 signed material-time Liouville/no-free-oscillation theorem for the quotient
 identity `(ASW.25)'--`(ASW.26)'.
+
+## 10. Cycle 34: B2 has the same signed-work architecture, not the same radial-collapse current
+
+Claude cycle 34 proposes one common law: no free reversing collapse. This is
+correct as a meta-law if "collapse" means selected record-amplifying
+material-time orientation. It is too narrow if it means only radial compression
+or downscale transfer.
+
+For the off-axis annular swirl branch, the native variable is the poloidal
+vorticity quotient
+
+```math
+\zeta=\frac{\omega^\theta}{r}.
+\tag{ASW.31}
+```
+
+In axisymmetric Navier--Stokes it obeys
+
+```math
+D_t\zeta
+=
+\nu\left(\Delta+\frac2r\partial_r\right)\zeta
++\frac1{r^4}\partial_z\Gamma^2 .
+\tag{ASW.32}
+```
+
+Thus
+
+```math
+D_t\left(\frac12\zeta^2\right)
+=
+\nu\zeta\left(\Delta+\frac2r\partial_r\right)\zeta
++\frac{\zeta}{r^4}\partial_z\Gamma^2 .
+\tag{ASW.33}
+```
+
+The sign-bearing B2 work is
+
+```math
+\frac{\zeta}{r^4}\partial_z\Gamma^2,
+\tag{ASW.34}
+```
+
+plus diffusion and annular/collar flux. This is \(T\)-odd: under
+\(u\mapsto -u\), \(\Gamma^2\) is unchanged while \(\zeta\) changes sign. But it
+is not radial compression. It is the orientation of poloidal roll-up against
+the axial gradient of swirl energy on an annulus.
+
+Therefore B2 reduces to the same no-free-reversal architecture only after the
+native direction is changed:
+
+```math
+\begin{array}{ll}
+\text{Gate A:} & \text{forward inter-packet transfer direction},\\
+\text{Gate B1:} & \text{inward radial compression direction},\\
+\text{Gate B2:} & \text{annular poloidal swirl-gradient direction}.
+\end{array}
+\tag{ASW.35}
+```
+
+The sharper B2 theorem is:
+
+```math
+\texttt{OffAxisAnnularSwirlGradientNoFreeReversal.A}.
+\tag{ASW.36}
+```
+
+Statement. A retained zero-bill off-axis annular swirl endpoint with positive
+poloidal/strain record must either pay by the signed work
+\(r^{-4}\zeta\,\partial_z\Gamma^2\), diffusion or annular/collar flux in the
+same currency, or route to collar/Field/merge/stop/pass/endpoint-kernel
+material. Equivalently, annular poloidal forcing cannot roll up and unroll the
+selected record for free.
+
+Then
+
+```math
+\texttt{OffAxisAnnularSwirlGradientNoFreeReversal.A}
+\Longrightarrow
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A}.
+\tag{ASW.37}
+```
+
+So A, B1, and B2 are instances of one signed material-time no-free-reversal
+principle, but B2 remains a separate native-current theorem unless that
+principle is formulated abstractly enough to include annular swirl-gradient
+work.
