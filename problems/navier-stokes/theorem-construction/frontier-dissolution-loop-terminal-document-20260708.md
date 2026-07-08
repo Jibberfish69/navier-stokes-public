@@ -16,6 +16,8 @@ Installed frontier source:
 | W11 `OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A` | Reduction to surviving Gold signed-height object | Source-frontier typing makes W11 a Gold counterpart/conclusion, not an independent Silver wall; it reduces to `SignedCriticalHeightSignPersistenceOrPeakBound.A` / the surviving Gold signed-height chain. |
 | W14 `PackOutOfCMSmoothnessCertification.A` / `OriginalParticipationBeforePackLicensing.A` | Empty-by-admission | `Pack_Q` is outside the CM object and not a class-exit witness; original participation is tested before Pack, and remaining branches are outside-CM Field evidence or Part/Field failure under the installed support status `support-installed-not-silver-blocker`. |
 | W10 `GlobalSamePacketFullClockFromOriginalData.A` | Reduction to surviving Gold signed-height object | Partner refutation attempt failed: upstream-Liouville consumption, independent-Silver-content, and pre-signed-height-producer attacks all failed. W10 is source-typed as a downstream Gold counterpart/readout open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled. |
+| W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCompletion.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W12 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on finite positive variation of the continuation-depth material record supplied by the W10/signed-height survivor. |
+| W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A` | Reduction to surviving Gold signed-height object via W10 | Partner refutation attempt failed: circularity-through-W10, residual Silver content, and W9-precedent attacks all failed. W13 is a `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligation conditional on the same finite positive variation / bounded-below same-material storage supplied by the W10/signed-height survivor. |
 
 ## Open walls
 
@@ -35,16 +37,9 @@ W8 WLF.60 / ODP.91 early-row payment
 
 W9 `MaterialTimeCertificateFlowInvariance.A`
 
-W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCompletion.A`
-
-W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A`
-
 ## Pending candidates
 
-- W12/W13 common reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A`
-  via the confirmed W10 full-material-clock reduction is pending partner
-  refutation in
-  `frontier-dissolution-loop-cycle-5-w12-w13-common-reduction-candidate-20260708.md`.
+None.
 
 ## Failed or nonpaying candidates
 
