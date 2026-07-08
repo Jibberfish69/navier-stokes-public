@@ -41,7 +41,10 @@ W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A
 
 ## Pending candidates
 
-None.
+- W12/W13 common reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A`
+  via the confirmed W10 full-material-clock reduction is pending partner
+  refutation in
+  `frontier-dissolution-loop-cycle-5-w12-w13-common-reduction-candidate-20260708.md`.
 
 ## Failed or nonpaying candidates
 
