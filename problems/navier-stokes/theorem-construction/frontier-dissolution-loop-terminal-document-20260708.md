@@ -286,3 +286,9 @@ None.
   only after they are admitted in the same tower currency. The finite-measure
   model \(\mu_n=\delta_n\) on moving rungs separates fixed-window finite row
   mass from rung-uniform retained tower distribution or typed route-out.
+- W8 does not reduce to W7+W9: W7 preserves/passes retained graph rows and W9
+  gives shift invariance only after certified paths and carried payer rows
+  exist. Neither constructs WLF.60 / ODP.91 selected-linear original-data
+  payment before positive readout. The half-tail
+  \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite raw/square support and trivial
+  static/path closedness while \(\sum_\ell 2^\ell\nu_\ell=\infty\).
