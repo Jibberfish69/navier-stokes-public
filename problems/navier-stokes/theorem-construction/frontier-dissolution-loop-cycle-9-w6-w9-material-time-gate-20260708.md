@@ -13,13 +13,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-growth-not-self-similar-profile-correction-20260707.md
 completion_truth: >-
-  This cycle refutes the material-time two-are-one candidate W6 == W9 and also
-  refutes the attempted deletion of W6 into the existing W3/W7/W8/W9 rows. W9
-  supplies the flow-invariance row once a compact certified shift hull and
-  closed zero-surplus certificate graph are built. W6 still carries the
-  endpoint Liouville / zero-loss relay rigidity excluding a positive
-  critical-height material-time recurrence with surplus-zero same-packet
-  payers. No deletion is paid.
+  This cycle refutes the material-time two-are-one candidate W6 == W9 and
+  refutes the attempted deletion of W6 into W3/W7/W9. W9 supplies the
+  flow-invariance row once a compact certified shift hull and closed
+  zero-surplus certificate graph are built. W6 still carries an endpoint
+  Liouville / zero-loss relay burden unless the separate Gate2/WLF producer
+  reduction is invoked; that W6-to-W8 candidate is Cycle 10 material, not paid
+  here.
 ---
 
 # Cycle 9: W6-vs-W9 material-time gate
@@ -77,16 +77,17 @@ form that branch.
 
 ## 4. Deletion attempt and verdict
 
-Attempted reduction: W6 reduces to the existing retained-row package
-W3+W7+W8+W9.
+Attempted reduction: W6 reduces to the existing retained-row and
+material-time-invariance package W3+W7+W9.
 
-Refutation: those rows supply persistence, graph closedness/admission,
-early-row root payment, and material-time certificate invariance, but they do
-not prove `ZeroLossTowerRelayRigidity.A` or the full
+Refutation: those rows supply persistence, graph closedness/admission, and
+material-time certificate invariance, but they do not prove
+`ZeroLossTowerRelayRigidity.A` or the full
 `CertifiedSurplusZeroThetaProfileRigidity.A` endpoint exclusion. The source
 explicitly lists zero-loss rigidity as a remaining row after the compact
-certified path and closed-zero-surplus mechanisms are named.
+certified path and closed-zero-surplus mechanisms are named, unless the
+separate Gate2/WLF producer reduction is invoked.
 
 DELETED: none.
-CERTIFICATE: W6==W9 is refuted because W9 is the compact certified material-time shift-hull / closed-zero-surplus flow-invariance row, while W6 is the endpoint Liouville / zero-loss relay rigidity excluding a positive critical-height material-time recurrence with surplus-zero same-packet payers; W6 also does not reduce to W3+W7+W8+W9 because `ZeroLossTowerRelayRigidity.A` remains listed as an unproved row.
+CERTIFICATE: W6==W9 is refuted because W9 is the compact certified material-time shift-hull / closed-zero-surplus flow-invariance row, while W6 is the endpoint Liouville / zero-loss relay rigidity excluding a positive critical-height material-time recurrence with surplus-zero same-packet payers; W6 also does not reduce to W3+W7+W9 because `ZeroLossTowerRelayRigidity.A` remains listed as an unproved row unless the separate Gate2/WLF producer reduction is invoked.
 REMAINING: W3, W6, W7, W8, W9.
