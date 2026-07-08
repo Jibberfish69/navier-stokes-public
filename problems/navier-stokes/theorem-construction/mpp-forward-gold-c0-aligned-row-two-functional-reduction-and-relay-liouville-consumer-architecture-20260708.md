@@ -121,6 +121,10 @@ Certificate anchors: the spine's own clauses — "WLF.60 is the early-branch / h
 
 Attack surfaces: (i) the gated WLF.60 statement itself — does its pulse measure meter first-admission of RECORD content at the front (then the identification stands) or a different carrier event (then it fails); (ii) whether the order-locked full-packet admission and selected-overrun tail are independent content or the multi-shell radial-weighting statement of §3d in the WLF coordinate; (iii) heat-lag: the corrected sense was computed instantaneous-slaved — confirm the heat-lag row consumes viscosity separately and does not modify the slaved constant.
 
+## 3h. Paid-mode Cycle-1 opening (frontier INSTALLED, owner-confirmed as-is): W5 reduction candidate (PENDING partner gate)
+
+The gated pair is already sequenced, not sibling: ART.47 (W4) admits the material-frame rows, "after this admission, the combined-row persistence theorem (ART.35)" (W5) asserts the positive cubic current lies in the combined row adjoint range or fails visibly. Candidate: **W5 reduces to W4 + the §3b witness + the VPI trichotomy.** In the record-coupled drop channel, range-membership is no longer an assertion — the §3b constant is an explicit nonzero pairing witness (the row sees the cubic current; non-degeneracy, partner-verified). Outside the drop channel, the sector-orthogonality facts type every current as torque/bookkeeping, whose failure mode is already the trichotomy's "visible as parent/pass/Field/nonparticipation." Retires W5 into existing objects; no new name. Flag: built on partial reads of the ART note (grep windows §391–397, §523–529); the partner gate should check the full ART.35 quantifier ("ALL lawful same-record rows") against the drop-channel-only witness.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
