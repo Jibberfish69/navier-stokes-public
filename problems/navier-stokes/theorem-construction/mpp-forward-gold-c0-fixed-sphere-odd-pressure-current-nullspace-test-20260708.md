@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-202
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / cubic radial moment / fixed-sphere pressure-current nullspace
-status: fixed-sphere-linear-nullspace-test; support-only; not-c0-proof
+status: fixed-sphere-linear-source-coercivity-test; support-only; not-c0-proof
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-attempt-census-20260707-undeveloped-frontier-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
@@ -16,9 +16,11 @@ completion_truth: >-
   cannot carry the cubic radial moment drop at all, because the drop functional
   is axisymmetric. Any positive drop has an m = 0 divergence component. The
   full linear pressure-current source operator commutes with the axial
-  symmetry, so m != 0 modes cannot cancel the m = 0 source. Using the already
-  recorded m = 0 poloidal full-source null check, the fixed-sphere full-source
-  silent positive-drop nullspace is empty in this register. This is support for
+  symmetry, so m != 0 modes cannot cancel the m = 0 source. In the m = 0
+  poloidal drop-bearing channel, the drop functional factors explicitly through
+  the linear source: for j=F(mu) grad_S mu, M'(j) = -72 pi int phi(mu) L_Sj dmu
+  with phi=mu^2/5-1/45. Thus the fixed-sphere linear source controls the
+  positive drop in this register. This is support for
   CubicRadialMomentOddPayment.A, not the theorem: it does not yet prove the
   nonlinear retained-record material-time odd bill or the transverse restoring
   pressure sign.
@@ -162,10 +164,101 @@ after the pass-owned aligned branch and rotation-gauge swirl have been removed.
 
 ## 3. What this proves and what it does not prove
 
-This is a fixed-sphere linear nullspace test. It proves that the first
+The preceding nullspace statement has a quantitative version in the
+drop-bearing \(m=0\) poloidal channel. Write
+
+```math
+j=F(\mu)\nabla_{S^2}\mu .
+\tag{FSN.7}
+```
+
+At \(r=1\),
+
+```math
+\nabla_{S^2}\mu=e_3-\mu\theta .
+\tag{FSN.8}
+```
+
+A direct contraction gives
+
+```math
+L_Sj
+=
+S:\nabla_x(rj(\theta))
+=
+A(\mu)F'(\mu)+B(\mu)F(\mu),
+\tag{FSN.9}
+```
+
+where
+
+```math
+A(\mu)=(1-\mu^2)(-2+3\mu^2),
+\qquad
+B(\mu)=\mu(1-3\mu^2).
+\tag{FSN.10}
+```
+
+The cubic drop is
+
+```math
+M'(j)
+=
+6\int_{S^2}q\,j\cdot\nabla_{S^2}q\,d\theta
+=
+-72\pi\int_{-1}^1
+\mu(1-3\mu^2)(1-\mu^2)F(\mu)\,d\mu .
+\tag{FSN.11}
+```
+
+Set
+
+```math
+\phi(\mu)={1\over5}\mu^2-{1\over45}.
+\tag{FSN.12}
+```
+
+Then the exact adjoint identity is
+
+```math
+-{d\over d\mu}\bigl(A(\mu)\phi(\mu)\bigr)
++B(\mu)\phi(\mu)
+=
+\mu(1-3\mu^2)(1-\mu^2).
+\tag{FSN.13}
+```
+
+For smooth axisymmetric tangential currents the boundary term vanishes because
+\(A(\pm1)=0\). Hence
+
+```math
+M'(j)
+=
+-72\pi\int_{-1}^1
+\phi(\mu)\,L_Sj(\mu)\,d\mu .
+\tag{FSN.14}
+```
+
+Consequently,
+
+```math
+|M'(j)|
+\le
+C_S\,\|L_Sj\|_{L^2(S^2)}
+\tag{FSN.15}
+```
+
+for a universal fixed-sphere constant \(C_S\).
+
+Together with (FSN.2)--(FSN.6), this says: at the affine Vieillefosse sphere,
+the full linear pressure-current source controls the entire linear cubic drop.
+Pure \(m\ne0\) modes carry no drop, mixed modes cannot cancel the \(m=0\)
+source, and the \(m=0\) source has the explicit bound (FSN.15).
+
+This is a fixed-sphere linear source-coercivity test. It proves that the first
 conversation-level escape is not present at the affine Vieillefosse sphere:
-there is no off-frame \(m\ne0\) current that both carries the linear cubic drop
-and hides the full linear pressure-current source.
+the linear pressure-current source controls the linear cubic drop, so there is
+no current that carries positive drop while hiding the full linear source.
 
 It does not prove `CubicRadialMomentOddPayment.A`. Three burdens remain outside
 this note:
