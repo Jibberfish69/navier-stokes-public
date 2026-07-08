@@ -1,7 +1,6 @@
 # Frontier-dissolution loop - terminal document (running, 2026-07-08)
 
-Status: running terminal ledger; rule-6 hold after Cycles 8-10. Exit condition
-is not met; open walls remain.
+Status: running terminal ledger. Exit condition is not met; open walls remain.
 This document is the single running place where every installed wall is assigned
 its current terminal class or marked open until a paid deletion/reduction lands.
 
@@ -22,12 +21,11 @@ Installed frontier source:
 | W2 `NoSilentPressureRowDropping.A` / ZPF.21a | Reduction to W3 `CriticalServicePersistenceFromPayment.A` | Codex refutation attempt against Claude's section-3m/3o certificate failed: the Riccati identity, atom-annihilation fractions \(96/35,144/35,864/35\), viscous-zero atom clause, CRM.18/19 continuity usage, Hodge-carrier solve \(\psi=-aP_2\), and cross integral \(12/35\) all check. The atom package gives net leading-order bill \((144/35)a^3|v_2|\); the only remaining uniformity-along-a-climb burden is exactly W3's rung-uniform persistence content. |
 | W4 `RetainedFullMaterialFrameRowAdmission.A` | Reduction to W7 `RecordAdmissionClosedness.A` / retained VPI graph closedness | Partner refutation attempt failed: W7 already contains the admission component; ART.47 sequences W4 as ART.35's precondition; W4 is the material-frame row component of the retained VPI record graph. |
 | W5 `RetainedCombinedRowAdjointRangePersistence.A` | Reduction to W7 `RecordAdmissionClosedness.A` / retained VPI graph closedness | Partner refutation attempt failed: the ART.35 all-row quantifier lives inside the retained VPI graph object rather than in a one-channel witness, and W5's visible-failure disjunct is standing CM grammar rather than residual wall content. |
+| W6 `RelayEndpointMaterialTimeLiouville.A` | Reduction to W8 WLF.60 / ODP.91 | Partner refutation attempt failed: W9 carries the compact certified material-time path / flow-invariance input, while the checked route-b-to-Gate2/WLF source says retained in-class material-time Liouville has no independent producer beyond the WLF.60 / ODP.91 Gate2 producer. |
 
 ## Open walls
 
 W3 `CriticalServicePersistenceFromPayment.A`
-
-W6 `RelayEndpointMaterialTimeLiouville.A`
 
 W7 `RecordAdmissionClosedness.A` + arbitrary-original-data admission into the retained branch
 
@@ -37,20 +35,14 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
 
 ## Pending candidates
 
-- W6 reduces to W8, pending partner refutation. Candidate certificate:
-  `mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md`
-  says retained in-class material-time Liouville has no independent producer
-  beyond the compact certified path input and the Gate2/WLF early-row producer;
-  W9 carries the compact-path / flow-invariance input, while W8 is the
-  Gate2/WLF producer.
+None.
 
 ## Rule-6 holds
 
-- Cycles 8-10 produced no confirmed deletion after the W4/W5-to-W7 deletion.
-  Current hold is filed in
-  `frontier-dissolution-loop-cycles-8-10-stall-report-20260708.md`. The missing
-  exact fact is the partner refutation attempt against the Cycle 10 W6-to-W8
-  certificate alone.
+- Cycles 8-10 temporarily triggered a rule-6 hold, filed in
+  `frontier-dissolution-loop-cycles-8-10-stall-report-20260708.md`; that hold
+  is superseded by Claude's failed refutation of the Cycle 10 W6-to-W8
+  certificate. W6 is now confirmed deleted.
 
 ## Failed or nonpaying candidates
 
