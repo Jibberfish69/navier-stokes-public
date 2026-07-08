@@ -2,28 +2,32 @@
 theorem_id: forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / aligned zero-bill Liouville-UCP / aligned atom exclusion
-status: strict-reduction-open; original transverse-Hodge-coercivity wording demoted
+route: forward-gold / c_0 / transverse pressure-Hodge coercivity / aligned atom exclusion
+status: strict-reduction-open; transverse-Hodge-coercivity-terminal
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transverse-coupling-reduces-to-angular-sphere-positivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
 completion_truth: >-
-  This note preserves the aligned-atom exclusion target, but corrects its first
-  wording. The commutator is the signed brake once a transverse pressure Hessian
-  is present; the remaining open theorem is not a rate/coercivity lower bound.
-  The terminal target is zero-bill Liouville/UCP: no lawful retained
-  critical-record atom can keep the same-field pressure Hessian co-diagonal with
-  the moving strain frame, \([R_iR_jQ,S]=0\), with zero collar/exit and no
-  atomization loss, except by routing to pass, service-zero, collar/exit payment,
-  or parent-owned affine endpoint-kernel escape. Causal lag, transverse-Hodge
-  estimates, stretched-vortex quadrupoles, local BKM/CKN visibility, and angular
-  transport remain diagnostic or branch tools; they are not the terminal c_0
-  theorem unless they prove this Liouville/UCP rigidity or produce a physically
-  admitted counterprofile.
+  This note installs the corrected terminal c_0 reduction. The commutator is the
+  signed brake once a transverse pressure Hessian is present; the remaining open
+  theorem is the magnitude/admission source that forces a transverse pressure
+  Hessian on any lawful retained critical-record atom. The target is uniform
+  transverse Hodge coercivity for the same incompressible velocity field, in the
+  same participation/payment currency. Equivalently: no aligned incompressible
+  critical-record atom, except pass, collar/exit payment, or parent-owned affine
+  endpoint-kernel escape. Causal lag, stretched-vortex quadrupoles, local
+  BKM/CKN visibility, angular transport, and Liouville/UCP remain diagnostic,
+  branch, or proof-method tools unless they prove this coercivity or produce a
+  physically admitted counterprofile. Claude cycles 10--11 sharpen the only
+  local Codazzi survivor: an anisotropic uniaxial pressure Hessian,
+  \(h_1=h_2\ne h_3\), co-diagonal with a biaxial strain record. That survivor is
+  physically real as a candidate, but it is admitted only if the same
+  incompressible velocity field and pressure equation realize it in the record
+  currency.
 ---
 
-# Aligned Critical-Record Atom And Zero-Bill Liouville/UCP
+# Aligned Critical-Record Atom And Transverse Hodge Coercivity
 
 ## 1. Physical object
 
