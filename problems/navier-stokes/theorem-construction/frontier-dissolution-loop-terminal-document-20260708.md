@@ -358,3 +358,16 @@ None.
   payment row or routes its moving-rung concentration out. W3 remains
   `CriticalServicePersistenceFromPayment.A` at the strict Door-1 row
   admission/finiteness/uniformity point.
+- The second-order ontology audit identifies a common-root shape but pays no
+  deletion. W3, W7, W8, and W9 are clauses of one faithful retained-record
+  problem rather than independent fluid events: service-row/tower admission,
+  pressure/VPI graph passage, selected-linear original-data bill currency, and
+  compact material-time path/action. The common-root phrase is not admitted as a
+  new wall because no checked source proves it or deletes two existing walls.
+- Claude's recoordination candidate is refuted as a deletion certificate. The
+  non-separable and T-parity gates block false source/payment/sign grammars, but
+  they do not prove W3 rung-uniform row admission or route-out, W7 nonlinear
+  pressure/VPI graph closedness or route-out, W8 finite selected-linear
+  original-data payment on the order-locked carrier, or W9 compact material-time
+  path/action topology. The proposed restatements lose those theorem-bearing
+  clauses, so no wall is deleted.
