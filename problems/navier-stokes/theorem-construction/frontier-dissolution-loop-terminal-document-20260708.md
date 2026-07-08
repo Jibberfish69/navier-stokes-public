@@ -1,6 +1,7 @@
 # Frontier-dissolution loop - terminal document (running, 2026-07-08)
 
-Status: running terminal ledger. Exit condition is not met; open walls remain.
+Status: running terminal ledger; rule-6 hold after Cycles 8-10. Exit condition
+is not met; open walls remain.
 This document is the single running place where every installed wall is assigned
 its current terminal class or marked open until a paid deletion/reduction lands.
 
@@ -42,6 +43,14 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
   beyond the compact certified path input and the Gate2/WLF early-row producer;
   W9 carries the compact-path / flow-invariance input, while W8 is the
   Gate2/WLF producer.
+
+## Rule-6 holds
+
+- Cycles 8-10 produced no confirmed deletion after the W4/W5-to-W7 deletion.
+  Current hold is filed in
+  `frontier-dissolution-loop-cycles-8-10-stall-report-20260708.md`. The missing
+  exact fact is the partner refutation attempt against the Cycle 10 W6-to-W8
+  certificate alone.
 
 ## Failed or nonpaying candidates
 
