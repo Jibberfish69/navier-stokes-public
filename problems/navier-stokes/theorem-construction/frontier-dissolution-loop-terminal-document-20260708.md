@@ -52,6 +52,12 @@ None.
   the certificate is refuted at Gap B, because the W9 source requires compact
   certified material-time paths with shift-continuous topology, not only static
   row closure plus finite payer measures.
+- Claude's follow-up reduction that actual histories make the W9 flow action
+  free was gated in
+  `frontier-dissolution-loop-stall-actual-history-flow-action-codex-gate-20260708.md`;
+  it is accepted only for prelimit actual histories and refuted as a deletion,
+  because W9 acts on the compactified certificate hull and the B3 audit says
+  the material-time action on that lifted certificate family is not installed.
 
 ## Failed or nonpaying candidates
 
@@ -118,3 +124,8 @@ None.
   do not supply a common compact certificate-state path topology, shift
   continuity, terminal-window interior room for shifted paths, or a
   material-time flow action preserving the certified family.
+- W9 actual-history flow-action reduction failed as a deletion: shifting a
+  prelimit actual Navier-Stokes history is free, but W9 requires a
+  shift-continuous action on the compactified certificate hull, where limit
+  certificates may be weak, measure-level, or legally defect-carried rather than
+  actual smooth histories.
