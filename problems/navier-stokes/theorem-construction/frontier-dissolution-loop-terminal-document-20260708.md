@@ -407,3 +407,13 @@ None.
   records helicity/chirality as undeveloped, sign-indefinite, and not bridged to
   the retained tilt coefficient. The current walls therefore do not contain the
   orientation certificate.
+- The ontological presentation assumption gate refutes the stronger collapse
+  from "one same-fluid retained record" to "one solved proof object." The
+  corrected ontology is one Navier-Stokes history with compatible pressure,
+  service, selected-bill, and material-time readings, but the checked sources
+  still leave four separate proof properties: W3 retained \(H^1\)/strong-\(L^3\)
+  row admission, W7 nonlinear pressure/VPI graph closure or route-out, W8 finite
+  selected-linear original-data bill before readout, and W9 compact
+  future-determining path/action. The one-object phrase is the unproved
+  conjunction of the remaining clauses, not a two-are-one identity or reduction
+  to one surviving written object.
