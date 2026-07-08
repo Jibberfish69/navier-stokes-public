@@ -182,3 +182,9 @@ None.
   data, and do not supply terminal-window no-escape, the common certificate
   path topology, the action on the closure, or uniform moduli for the pressure,
   ancestry, cover, tower, service, and selector/legal rows.
+- W3 as W9 service/readout modulus failed as a deletion: W3 supplies the
+  payment-to-service-persistence coordinate under an admitted same-field
+  H1/strong-L3 payment row, but W9's service source requires a uniform
+  material/label modulus for active service readouts in the common certificate
+  path topology, with moving selector, center, envelope, time, scale, bank,
+  weight, rung, or profile-admission escape paid or carried.
