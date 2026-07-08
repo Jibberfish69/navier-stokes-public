@@ -396,3 +396,14 @@ None.
   orientation does not fix the B2 restoring sense; the missing fact is a
   retained material-time orientation / no-free-wrong-sign-borrowing theorem
   plus bridges to W3, W7, W8, and W9.
+
+- The B2 reflection-helicity ontology gate proves that the current orientation
+  residue is genuinely reflection-odd. At the strict atom, the reflection
+  \(R=\operatorname{diag}(-1,1,1)\) fixes
+  \(S=a\,\operatorname{diag}(1,1,-2)\), the \(m=0\) shedding/service sector,
+  and the W3/W7/W8/W9 admission, graph-passage, selected-bill, and path-action
+  clauses, but sends \(j=c\nabla_{S^2}(n_1n_3)\) to \(-j\) and flips
+  \(H_{13}=(12/35)ac/R^2\). Helicity is reflection-odd, but the checked census
+  records helicity/chirality as undeveloped, sign-indefinite, and not bridged to
+  the retained tilt coefficient. The current walls therefore do not contain the
+  orientation certificate.
