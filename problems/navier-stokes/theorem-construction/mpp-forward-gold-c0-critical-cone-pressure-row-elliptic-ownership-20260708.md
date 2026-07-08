@@ -3,21 +3,27 @@ theorem_id: forward-gold-c0-critical-cone-pressure-row-elliptic-ownership-202607
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / Door 2b / retained critical cone pressure row
-status: exact-cone-pressure-row-ownership-proved; retained-compactness-and-relay-open
+status: exact-cone-pressure-row-and-l1-force-visibility-proved; retained-compactness-and-relay-open
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-nonseparable-pressure-row-correction-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2b-critical-cone-profile-production-accounting-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-gold-stress-flux-bridge-and-landau-liouville-test-20260617.md
 completion_truth: >-
   This note proves the exact-cone pressure-row ownership calculation. For a
   retained degree -1 cone, the slaved pressure row is fixed by the same-scale
   pressure source through the sphere operator -(Delta_{S^2}+2). The only
   homogeneous r^{-2} ambiguity is the l=1 harmonic parent/source mode. A
   same-scale l=1 source is not silent; it forces an r^{-2} log r pressure row,
-  hence log-scale record drift. Thus an exact zero-row-loss retained cone cannot
-  keep its same-scale pressure source while dropping or replacing the pressure
-  row. This proves only the exact-cone elliptic ownership component of
-  NoSilentPressureRowDropping.A. The retained compactness/material-time passage
-  into this exact cone and the infinite parent-row relay remain open.
+  hence log-scale record drift. The l=1 harmonic pressure row itself has a
+  nonzero pressure-traction moment (4*pi/3)a on every sphere. Thus an exact
+  zero-row-loss retained cone cannot keep its same-scale pressure source while
+  dropping or replacing the pressure row, and an l=1 harmonic relay is visible
+  as stress-flux/source material unless the full velocity-viscous stress cancels
+  it. In that zero-total-flux exact smooth profile case the Landau/Sverak
+  consumer applies downstream. This proves only the exact-cone elliptic
+  ownership and pressure-traction visibility components. The retained
+  compactness/material-time passage into this exact cone and the infinite
+  parent-row relay remain open.
 ---
 
 # Critical Cone Pressure-Row Elliptic Ownership
@@ -186,22 +192,77 @@ Equivalently,
 
 ## 5. Boundary of the proof
 
+## 5. The \(\ell=1\) relay is force-visible
+
+Write the homogeneous harmonic pressure ambiguity as
+
+```math
+p_a(x)=r^{-2}(a\cdot\theta)={a\cdot x\over r^3}.
+\tag{CPE.13}
+```
+
+Its pressure traction over any sphere is
+
+```math
+\Phi_p(r)
+=
+\int_{\partial B_r}p_a\,n\,dS
+=
+\int_{S^2}(a\cdot\theta)\theta\,d\theta
+=
+{4\pi\over3}a.
+\tag{CPE.14}
+```
+
+So a nonzero \(\ell=1\) harmonic pressure row is not invisible to the
+surrounding field. It carries a vector force moment in the annular stress flux.
+In the stationary flux convention
+
+```math
+\Phi(r)
+=
+\int_{\partial B_r}
+\left(u\otimes u+pI-\nu\nabla u\right)n\,dS,
+\tag{CPE.15}
+```
+
+the pressure part contributes (CPE.14). If the full flux \(\Phi_0\) is nonzero,
+the cone has point-force/source/Field ownership. If the full velocity-viscous
+stress cancels (CPE.14), that cancellation is a full same-field stationary
+profile condition, not a pressure-row deletion. The zero-force exact smooth
+profile is then precisely the downstream Landau/Sverak consumer used in Door
+2b.
+
+Thus the exact \(\ell=1\) relay satisfies:
+
+```math
+\texttt{CriticalConeL1PressureRelayForceVisibility.A}
+\tag{CPE.16}
+```
+
+A nonzero homogeneous \(\ell=1\) pressure relay has nonzero pressure-traction
+moment. It is either owned as nonzero stress-flux/source material, or it is
+part of a full zero-flux stationary profile consumed downstream. It is not a
+silent child-owned pressure row.
+
+## 6. Boundary of the proof
+
 This does not prove the full retained-row theorem. It proves the exact cone
-elliptic ownership step after material stationarity has already produced a
-degree \(-1\) cone.
+elliptic ownership and \(\ell=1\) pressure-traction visibility steps after
+material stationarity has already produced a degree \(-1\) cone.
 
 The remaining open passages are:
 
 ```math
 \texttt{RetainedConeMaterialStationarityAdmission.A}
-\tag{CPE.13}
+\tag{CPE.17}
 ```
 
 to obtain the exact zero-row-loss cone from a retained tower sequence, and
 
 ```math
 \texttt{RelayEndpointMaterialTimeLiouville.A}
-\tag{CPE.14}
+\tag{CPE.18}
 ```
 
 to prevent the typed \(\ell=1\) parent/source relay from continuing forever as
