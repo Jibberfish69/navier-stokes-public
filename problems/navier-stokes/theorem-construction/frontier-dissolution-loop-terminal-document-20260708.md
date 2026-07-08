@@ -15,6 +15,7 @@ Installed frontier source:
 | W1 `AlignedRowShedsRecordOneSense.A` | Refutation as worded | Exact strict-atom aligned-row sign: \(\int_{-1}^{1}(22x^4-7x^2-15x^6)\,dx=-16/105\), \(A=(24/35)av_2/R^2\), \(3{\rm tr}(S^2H_1)=(432/35)a^3v_2/R^2\); CRM.13-14/19 fix turn-off as \(v_2>0\), which assists rather than eats the record. |
 | W11 `OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A` | Reduction to surviving Gold signed-height object | Source-frontier typing makes W11 a Gold counterpart/conclusion, not an independent Silver wall; it reduces to `SignedCriticalHeightSignPersistenceOrPeakBound.A` / the surviving Gold signed-height chain. |
 | W14 `PackOutOfCMSmoothnessCertification.A` / `OriginalParticipationBeforePackLicensing.A` | Empty-by-admission | `Pack_Q` is outside the CM object and not a class-exit witness; original participation is tested before Pack, and remaining branches are outside-CM Field evidence or Part/Field failure under the installed support status `support-installed-not-silver-blocker`. |
+| W10 `GlobalSamePacketFullClockFromOriginalData.A` | Reduction to surviving Gold signed-height object | Partner refutation attempt failed: upstream-Liouville consumption, independent-Silver-content, and pre-signed-height-producer attacks all failed. W10 is source-typed as a downstream Gold counterpart/readout open until `SignedCriticalHeightSignPersistenceOrPeakBound.A` is proved and reconciled. |
 
 ## Open walls
 
@@ -34,17 +35,13 @@ W8 WLF.60 / ODP.91 early-row payment
 
 W9 `MaterialTimeCertificateFlowInvariance.A`
 
-W10 `GlobalSamePacketFullClockFromOriginalData.A`
-
 W12 `R3ExteriorDyadicSurvivorMaterialClockExclusion.A` / `R3.WholeSpaceHsTailCompletion.A`
 
 W13 `ScaleUniformAnnularSupplierGoalResolution.A` / `AnnularLimitCMFaceLanding.A`
 
 ## Pending candidates
 
-- W10 reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A` /
-  surviving Gold signed-height chain is pending partner refutation in
-  `frontier-dissolution-loop-cycle-3-w10-reduction-candidate-20260708.md`.
+None.
 
 ## Failed or nonpaying candidates
 
