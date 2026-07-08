@@ -477,23 +477,23 @@ L_\Omega^*\Psi
 \tag{ART.43}
 ```
 
-Consequently the full affine skew certificate is
+Consequently the full affine skew certificate is the combined-adjoint identity
 
 ```math
-\left(
-L_{S+\Omega}^*
+\mathcal L_{S+\Omega,b}^*
+\big(\Psi,3\Psi,\Psi'(q)\big)
+:=
+L_{S+\Omega}^*\Psi
 -
-(F_b^{\rm spin})^*3\Psi
+(F_b^{\rm spin})^*(3\Psi)
 -
-(F_b^{\rm turn})^*\Psi'(q)
-\right)\Psi
+(F_b^{\rm turn})^*(\Psi'(q))
 =
 6q\nabla_{S^2}q ,
 \tag{ART.44}
 ```
 
-where the notation means that the two frame-row adjoints are evaluated with the
-displayed scalar multipliers \(3\Psi\) and \(\Psi'(q)\). Equivalently,
+Equivalently,
 
 ```math
 M'(j)
