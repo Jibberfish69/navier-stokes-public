@@ -148,3 +148,8 @@ None.
   persistence statement conditional on same-field H1/strong-L3 payment; it does
   not supply W9's certified material-time interval room for tested fixed shifts
   or the boundary-loss stop/legal/selector/Pack/Part/Field defect clause.
+- W9 GAP-C legal-clause reduction failed: W7 supplies standing row-passage /
+  route-out grammar, but W9 still requires same-packet surplus-payer measure
+  lift, lower semicontinuity of carried nonnegative surplus defects,
+  terminal-window no-escape, selector/service-label modulus or paid selector
+  escape, and closure of those coordinates in the common certificate topology.
