@@ -1584,3 +1584,58 @@ appears as signed collar flux/current payment in the same participation
 currency, is routed to stop/pass/Field material, or cannot retain the positive
 record. A magnitude collar bill is not enough for the \(c_0\) sign target, and
 stopped-score does not supply this transfer by itself.
+
+## 30. Cycle 30: no installed signed-flux lower bound
+
+The signed forward inter-packet transfer flux is now the correct Gate-A object.
+It is the \(T\)-odd, causal current by which a positive retained record passes
+from one material packet to the next through the collar.
+
+The ledger currently identifies this object and its route-outs. It does not
+prove the lower bound
+
+```math
+\sum_{\text{carrier handoffs }e}
+\mathsf F^{signed}_{e}
+\ge
+c\,\mathsf S_{\rm ret}
+-dStop-dPass-dField-dCollar .
+\tag{ATH.92}
+```
+
+The available machinery supplies:
+
+```math
+\text{stopped crossing times}
+\quad+\quad
+\text{parent-owned collar/Field/stop/pass routing}.
+\tag{ATH.93}
+```
+
+It does not supply:
+
+```math
+\text{signed non-telescoping of the forward transfer flux over the relay}.
+\tag{ATH.94}
+```
+
+So the \(c_0\) reduction is now clean:
+
+```math
+\text{Gate A}
+=
+\texttt{SignedRecordDriftCollarNoFreeUpcrossing.A},
+\tag{ATH.95}
+```
+
+while Gate B remains
+
+```math
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}
+\quad\text{or}\quad
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A}.
+\tag{ATH.96}
+```
+
+That is a completed reduction map, not a proof of \(c_0>0\). The signed
+forward-transfer lower bound is the shared wall.
