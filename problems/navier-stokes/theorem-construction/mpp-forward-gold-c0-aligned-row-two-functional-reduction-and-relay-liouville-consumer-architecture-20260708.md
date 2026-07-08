@@ -46,6 +46,16 @@ Consequence for effort routing: the load-bearing open objects are exactly (1) th
 7. Gold: no finite breakdown from any smooth datum. Silver, same law contrapositively: a claimed witness either lacks its row (¬Part) or field coherence at every radius (∀r>0 ¬Field) — `Exit(Q) := not Member(Q)`. Two faces of one membership law; neither a fallback.
 8. F1–F5 assembly and Chapter-10 interval pass package the result (frozen goal machinery, unchanged).
 
+## 3a. P1 sharpening (added same day, provisional Cycle-1 work under the frontier-dissolution goal; PENDING partner refutation; pays nothing until the owner-confirmed frontier is installed)
+
+The record's growth is read where the record lives — at the core, through 3tr(S²H₁) with H₁ = Hess p₁ evaluated where S is constant. The interior Newtonian potential of a sphere-supported m=0 angular source has a center Hessian that is nonzero only in the ℓ=2 channel (ℓ=0 contributes an isotropic/constant part; ℓ=4 is quartic at the center — zero second derivative). Consequences, at strict-atom leading order:
+
+- **(a) The two-ratio proportionality certificate collapses to ONE exact sign.** The record-coupled shedding channel is ℓ=2 alone (one component in, one out — Schur), so full-sector proportionality is not required; the certificate is the sign of a single Newtonian constant: the ℓ=2 shedding current's forced row, paired with S² at the core, against the drop sense.
+- **(b) The candidate ℓ=4 wedge decouples.** An ℓ=4 shed has zero record coupling through the center Hessian; no feeding row can be harvested through it. Sphere-imprint bookkeeping in ℓ=4 is not core-record transfer.
+- **(c) The T-odd structure is exact here.** Row action and record transfer are both odd in the ℓ=2 current, so their pairing is one invariant constant; "shedding forces the eating row" and "gathering forces the feeding row" are one statement read forward/backward, and the forward reading is selected by the viscous arrow on the one history. Certificate = one constant's sign + the forward-arrow selection clause. A lag, not a bill.
+
+Attack surfaces sent to the partner lane: (1) carrier-extent corrections (ℓ=0/ℓ=4 couple at subleading order — is that already charged by the log-chain Hodge/viscous deviation bill?); (2) the exact-fraction Newtonian sign itself (decide-both-ways; a wrong sign is a paid refutation of the wall as stated); (3) normal-form fidelity (the filed drop identity lives on log-radius shells, not one sphere — confirm the single-sphere source transcription or state the correction); (4) the exact clause by which the viscous arrow selects the forward reading in the gated record law.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
