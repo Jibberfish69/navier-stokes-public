@@ -1639,3 +1639,6 @@ while Gate B remains
 
 That is a completed reduction map, not a proof of \(c_0>0\). The signed
 forward-transfer lower bound is the shared wall.
+
+Focused source audit:
+`problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-signed-record-drift-collar-no-free-upcrossing-audit-20260708.md`.
