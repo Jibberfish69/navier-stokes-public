@@ -474,3 +474,12 @@ None.
   tilt-neutral certificate for the legal B2 \(m=\pm1\) numerator
   \((\Omega^2)_{13}+H_{13}\); the zero stratum still needs retained reflection
   symmetry, cancellation, or route-out. No W3/W7/W8/W9 wall is deleted.
+- Row 5+B2 also does not delete W9 as a material-time action. The local
+  divergence-free perturbation \(v_\gamma(x)=(0,0,\gamma x_1^2)\) has zero value
+  and zero first derivative at the front, preserving \(u(0)\), \(S(0)\),
+  \(\omega(0)\), \(h(0)\), and \(\Omega^2(0)\), but changes
+  \(\omega\cdot(\nabla\times\omega)(0)\) by \(-2\gamma\omega_3(0)\). Hence the
+  local Row 5 helicity source changes by \(4\nu\gamma\omega_3(0)\) while the
+  instantaneous chirality/tilt readout is unchanged. The pairing is not a
+  future-determining compact path/action; W9 still needs the flux/curl-helicity
+  rows carried, canceled, paid, or routed out.
