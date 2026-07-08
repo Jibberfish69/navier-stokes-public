@@ -350,3 +350,11 @@ None.
   graph passage/typed route-out, and compact material-time certificate
   path/action rows open, so B2 is target/method material rather than a terminal
   deletion certificate.
+- W3 does not reduce to W7+W8+W9. W7 supplies retained graph passage or typed
+  route-out, W8 supplies selected-linear original-data payment, and W9 supplies
+  compact material-time path/action after rows are carried, but no checked source
+  admits the Door-1 localized strain \(H^1\)/enstrophy-viscous row
+  \(d\mu_{\rm D1}\) as a finite, rung-uniform retained same-field strict tower
+  payment row or routes its moving-rung concentration out. W3 remains
+  `CriticalServicePersistenceFromPayment.A` at the strict Door-1 row
+  admission/finiteness/uniformity point.
