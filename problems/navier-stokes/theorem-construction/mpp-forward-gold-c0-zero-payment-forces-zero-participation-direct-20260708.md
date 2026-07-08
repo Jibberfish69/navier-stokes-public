@@ -440,6 +440,35 @@ rotation-gauge add-on, and the genuine aligned-with-swirl residual is the
 non-solid \(\Gamma\)-gradient/centrifugal driver-brake problem in the same
 axisymmetric field.
 
+Allowing that non-solid swirl also kills a purely fixed-time
+pressure-source coercivity proof. In an axisymmetric field,
+
+```math
+\operatorname{tr}(\nabla u)^2
+=
+\operatorname{tr}(\nabla u_{\rm pol})^2
+-2\frac{u_\phi}{R}\partial_Ru_\phi .
+\tag{ZPF.7k11}
+```
+
+With \(u_\phi=\gamma R\) and \(H=R^2\gamma^2\),
+
+```math
+-2\frac{u_\phi}{R}\partial_Ru_\phi
+=
+-2\gamma(\gamma+R\partial_R\gamma)
+=
+-\frac1R\partial_RH .
+\tag{ZPF.7k12}
+```
+
+Thus, on a local annulus, a nonnegative \(H\) can be chosen so that this swirl
+source cancels the aligned poloidal \(b\)-linear source while leaving
+\(\mathsf J_M^+\) unchanged. The remaining Gate-B theorem is therefore
+material-time: the same field's \(\Gamma\)-gradient and centrifugal response
+must pay, pass to a known regular axisymmetric class, or lose active
+participation. It is not a static elliptic \(Q\)-operator lower bound.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
