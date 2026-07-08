@@ -198,3 +198,45 @@ current is already the right object. The burden is to prove retained
 same-event custody of \((\mu^A,\mu^N,\mu^J)\) plus the strict no-return /
 no-recount domination `(FST.9)', or to route failure to stop/pass/Field/collar,
 merge, service loss, or an admitted counterprofile.
+
+## 6. Proof-method consequence
+
+Since \(\mu^J\) is a signed interface current, the direct estimate method is
+the wrong proof skeleton. A signed interface current is a coboundary-like
+object: over a relay, it naturally cancels on internal faces.
+
+The correct obstruction test is a minimal zero-net relay cycle. Assume, after
+typed route-outs are removed, that
+
+```math
+\mu^N(C_{\rm rel})
+\ge
+(1-o(1))\mu^A(C_{\rm rel})
+\tag{FST.13}
+```
+
+while \(\mu^A(C_{\rm rel})\) carries positive retained service. Then the bad
+object is a same-fluid relay cycle with positive selected service and zero net
+signed transfer. Excluding Gate-A failure is therefore equivalent to proving:
+
+```math
+\texttt{RetainedRelayCycleRouteOutOrReturnPayment.A}.
+\tag{FST.14}
+```
+
+Statement. A retained same-fluid relay cycle with positive selected service and
+zero net signed transfer must produce one of:
+
+```math
+\begin{array}{ll}
+\text{negative-return payment in the bill currency},\\
+\text{finite-multiplicity/no-recount failure routed as paid or legal},\\
+\text{stop/pass/Field/collar/merge/service-loss route-out},\\
+\text{or an admitted recurrent relay counterprofile.}
+\end{array}
+\tag{FST.15}
+```
+
+This is the noncircular proof shape behind `(FST.9)'. The no-return theorem is
+not a positivity property of pressure or a magnitude collar estimate. It is a
+minimal-cycle exclusion for the same retained positive carrier.
