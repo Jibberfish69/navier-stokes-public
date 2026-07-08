@@ -21,11 +21,16 @@ completion_truth: >-
   a', while viscous/square-current costs are quadratic and leak. In the
   aligned axisymmetric subcase this linear pressure source need not create a
   transverse eigenframe torque, so the remaining bill cannot be only a
-  transverse Hessian commutator. It must be the broader material-time oriented
-  pressure-current/collar transfer. This note does not yet prove c0: the
-  remaining theorem is the non-tautological same-field bill admission
-  CubicRadialMomentOddPayment.A, namely that this legitimate odd bill dominates
-  the positive turn-off rise [M']_+.
+  transverse Hessian commutator. Adding solid swirl does not fix that: it leaves
+  the cubic radial moment unchanged and contributes only the isotropic
+  solid-rotation source. Allowing non-solid swirl also kills a purely fixed-time
+  pressure-source coercivity theorem, because a local Gamma-gradient can cancel
+  the aligned poloidal source while preserving the cubic drop. The remaining
+  bill must be the broader material-time oriented pressure-current/collar
+  transfer. This note does not yet prove c0: the remaining theorem is the
+  non-tautological same-field bill admission CubicRadialMomentOddPayment.A,
+  namely that this legitimate odd bill dominates the positive turn-off rise
+  [M']_+.
 ---
 
 # Cubic Radial Strain Moment Turn-Off
