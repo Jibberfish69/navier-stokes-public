@@ -36,7 +36,12 @@ W9 `MaterialTimeCertificateFlowInvariance.A`
 
 ## Pending candidates
 
-None.
+- W6 reduces to W8, pending partner refutation. Candidate certificate:
+  `mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md`
+  says retained in-class material-time Liouville has no independent producer
+  beyond the compact certified path input and the Gate2/WLF early-row producer;
+  W9 carries the compact-path / flow-invariance input, while W8 is the
+  Gate2/WLF producer.
 
 ## Failed or nonpaying candidates
 
@@ -74,7 +79,7 @@ None.
   closed-zero-surplus certificate-flow invariance row, while W6 is the endpoint
   Liouville / zero-loss relay rigidity excluding positive critical-height
   material-time recurrence with surplus-zero same-packet payers.
-- W6 reduction to W3+W7+W8+W9 failed: those walls supply persistence, retained
-  graph closedness/admission, early-row root payment, and material-time
-  certificate invariance, but `ZeroLossTowerRelayRigidity.A` remains an
-  unproved source-listed endpoint row.
+- W6 reduction to W3+W7+W9 failed: those walls supply persistence, retained
+  graph closedness/admission, and material-time certificate invariance, but
+  `ZeroLossTowerRelayRigidity.A` remains an unproved source-listed endpoint row
+  unless the separate Gate2/WLF producer reduction is invoked.
