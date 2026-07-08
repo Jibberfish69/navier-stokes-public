@@ -203,6 +203,10 @@ Sign reading (the delicate part — gate must check the bookkeeping): under GATH
 
 Consequence: the W2 package's bill is now fully priced at leading order — the net per-rung cost of building the record is (144/35)a³ per unit gathering rate, exact, with every channel accounted: transport (the build itself), row (eats, 432/35), carrier cross (feeds, 288/35), self/centrifugal/affine-row (atom-annihilated, 864/35 = 864/35), viscous (zero on atom), quadratic deviations (charged). Refutation targets for the gate: the ψ solve sign, the 12/35 integral, and above all the side-of-balance bookkeeping for the cross term.
 
+## 3p. Certificate retyping per the gate's hold (final form of the W2 claim)
+
+The gate correctly holds that W2 cannot delete alone: the uniformity-along-a-climb clause is W3's rung-uniform persistence content. The certificate is therefore retyped to the lawful form: **W2 REDUCES INTO W3** — the retention conversion `TotalStrainVorticityExchangeRetention.A` = [the proved atom-class package: exact Riccati (★) + atom-annihilation + viscous-zero + priced bill with net margin (144/35)a³|v₂|] + [W3's rung-uniform persistence, carried forward as the surviving wall]. Two walls become one; W3 survives carrying exactly the uniformity content; nothing is claimed proved that isn't. This is the reduction-to-surviving-object deletion type, pending the gate's confirmation of the retyped certificate and its independent recomputation of the cross constant (12/35 → 288/35) from the filed Hodge carrier.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
