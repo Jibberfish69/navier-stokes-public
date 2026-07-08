@@ -89,6 +89,12 @@ Adjudicated result (modulo R1 integral verification and R2 thin-shell fidelity):
 
 Downstream object (NOT opened here, one sentence per cycle-law 1): the c₀ accounting question this leaves is whether a climbing history necessarily runs a nonzero gathering current at its front — the temporal (build-side) analogue of CRM.14's spatial turn-off bound — which is where the corrected wall's bill attaches to the tower.
 
+## 3d. Partner verdict and the R2 shell-family structure (same day)
+
+Partner lane verified R1: "P1's exact constant checks out" (bridge event `agent-goal-bridge-event-20260708T161414Z-43df03f0`). Per cycle-law 4 that is a failed refutation of the §3b certificate on the R1 axis.
+
+R2 (shell-family fidelity), partially settled by superposition: the per-shell constant's SIGN is radius-independent (A ∝ v₂(R)/R², same sign for every shell), so spreading the current over the log-chain collar cannot flip the per-shell sense — the corrected one-sense (§3c) is a PER-SHELL (per-rung) statement and holds shell-wise by linearity. What superposition does NOT settle: the aggregate row pairs shells with weight ∝ e^{−2ρ} while the drop total (CRM.14) weighs them flat, so a sign-varying v₂(ρ) profile can make aggregate row and aggregate drop disagree across shells. The corrected wall's honest form is therefore per-rung — which is the form the tower consumes anyway. The radial-weighting statement is the remaining R2 content for any aggregate claim.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
