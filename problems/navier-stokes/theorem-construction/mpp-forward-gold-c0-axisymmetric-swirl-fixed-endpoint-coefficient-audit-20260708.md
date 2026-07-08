@@ -281,3 +281,55 @@ It must either promote the marginal retained endpoint into an excluded rigid
 profile class, prove a stronger material-time Liouville theorem directly on the
 coefficient/atom class, or admit the fixed-axis swirl endpoint as the
 counterprofile.
+
+## 6. Cycle 24: circulation is not enough to exclude the axis branch
+
+Claude cycle 24 proposes that \(\Gamma=ru^\theta\) is a material invariant,
+vanishes on the axis, and therefore excludes an on-axis swirl record.
+
+This is not valid for Navier--Stokes. In the viscous equation the exact law is
+(ASW.11):
+
+```math
+D_t\Gamma
+=
+\nu\left(\partial_r^2-\frac1r\partial_r+\partial_z^2\right)\Gamma .
+\tag{ASW.19}
+```
+
+So \(\Gamma\) is not a material invariant. It is a parabolic scalar with a
+maximum-principle structure.
+
+The second problem is the record variable. Smoothness gives
+
+```math
+\Gamma(r,z,t)=\gamma(z,t)r^2+O(r^4)
+\quad\text{near }r=0,
+\tag{ASW.20}
+```
+
+so \(\Gamma=0\) on the axis is automatic. The swirl rate
+
+```math
+\gamma=\lim_{r\to0}\frac{\Gamma}{r^2}
+\tag{ASW.21}
+```
+
+and the axial vorticity \(2\gamma\) can still be the concentrating quantity.
+Under critical parabolic scaling, a scale \(r\sim\ell\) can have
+\(\gamma\sim \ell^{-2}\) while \(\Gamma\sim O(1)\) on that scale and
+\(\Gamma=0\) at the axis. Thus a maximum-principle bound for \(\Gamma\) does
+not by itself rule out critical growth of \(\gamma\), strain, vorticity, or the
+aligned pressure Hessian.
+
+This gives a useful but limited reduction. A Gate-B proof may try to show that
+nonzero \(\gamma\) creates a same-currency charge through the \(\Gamma\)-current,
+its diffusion, or its collar/annular flux. But that charge is not installed
+from \(\Gamma=0\) on the axis. The on-axis coefficient branch remains open
+unless one proves such a charge or routes it to pass/service-zero/endpoint
+kernel.
+
+The off-axis annular branch is also real: there \(\Gamma\) itself need not
+vanish, and any material-time Liouville proof must control the annular
+transport/diffusion/collar flux in the same zero-bill atom currency. Current
+endpoint exclusion does not reach that branch either.
