@@ -9,3 +9,15 @@
 - **E5 — material survivor**: the domination question (transverse pressure response vs vorticity off-diagonal square on the strain-dominated Q>0 branch) — retained until E2 consumes it or fails.
 
 Cycle-1 provisional cross-wall attempt filed on the bus: E2 ≡ E4 (tax-at-the-window ⟹ no-hiding by construction); kill mode: signed term interior-volume rather than boundary-flux. Arc-1 ledgers remain the authority for everything paid and retyped there.
+
+---
+
+## ARC-BRIDGE REDUCTION CANDIDATE (terminal classes for arc-1's W3/W7/W8/W9; PENDING partner refutation + owner install of the E-list; nothing paid)
+
+Candidate terminal class for all four: **reduction to the one surviving written object = the arc-2 E-program + the classical closure theorem of the suitable class.** Per wall:
+- **W7 (row passage through critical limits)** → its custody content is a packet-frame artifact; in the fixed frame the closure it demanded is the CLASSICAL weak-closure theorem of suitable weak solutions (proved; the class is closed — this is why the class exists). Its non-custody content (per-instant row attachment) is ontology fact 4. Certificate: the closure theorem + the frame-pivot analysis. REDUCES to E-frame + theorem.
+- **W9 (steady certificate paths/action)** → same structure: material-time path machinery is the packet frame's tax; fixed-region readouts are functions of time with budget-controlled derivatives; no transport action needs defining. Its banked content (H-row BV = Row 1) carries over as a fixed-region statement (the work law on cylinders). REDUCES to E-frame + theorem.
+- **W3 (service persistence / tax uniformity)** → REDUCES to E3 (the per-delivery tax's scale-uniformity across shrinking cylinders — the ε-threshold structure), same content, lawful frame.
+- **W8 (the collection/payment producer)** → REDUCES to E1+E2 (sustained supercritical delivery vs the signed flux tax — the physical core with the bookkeeping grammar deleted).
+
+Attack surfaces: (i) exhibit W7/W9 packet-frame content that the fixed frame genuinely needs and cannot restate (the partner's own dichotomy E4 — if packet accounting is NECESSARY as leak-excluder, the reduction of W7 is partial and W7 survives as the leak-exclusion clause); (ii) the suitable-class closure theorem covers the ENERGY-level rows — check whether the corrected walls' H^{1/2}-record-level content passes at that level or needs the E2 identity first; (iii) owner install of the E-list is a precondition — no terminal class binds before it.
