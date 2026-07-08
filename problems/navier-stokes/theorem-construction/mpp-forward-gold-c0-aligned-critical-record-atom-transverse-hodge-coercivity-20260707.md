@@ -1642,3 +1642,46 @@ forward-transfer lower bound is the shared wall.
 
 Focused source audit:
 `problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-signed-record-drift-collar-no-free-upcrossing-audit-20260708.md`.
+
+## 31. Cycle 31: terminal two-wall reduction, with the cascade caveat
+
+Claude cycle 31 identifies the physical content of the signed collar wall as a
+forward-cascade non-telescoping law. This is the right object, with one
+correction: signed collar cancellation need not be phrased as an exact "if and
+only if" with classical up-cascade backscatter. In the material relay it can
+appear as back-transfer, recirculation, merge/split ownership reversal, or
+another inter-packet hand-off that reverses the selected forward-transfer
+orientation.
+
+The theorem is therefore:
+
+```math
+\texttt{ForwardCascadeSignedTransferNonTelescoping.A}
+\equiv
+\texttt{SignedRecordDriftCollarNoFreeUpcrossing.A}.
+\tag{ATH.97}
+```
+
+It must prove that the forward signed inter-packet transfer flux cannot cancel
+over the retained relay unless the record routes to stop/pass/Field/collar,
+loses retained service, merges into a larger atom, or produces an admitted
+back-transfer counterprofile. Intermittent backscatter is precisely the
+telescoping risk, not something current ledger machinery excludes.
+
+So the both-sided \(c_0\) reduction is:
+
+```math
+c_0>0
+\Longleftarrow
+\texttt{ForwardCascadeSignedTransferNonTelescoping.A}
++
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}
++
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A},
+\tag{ATH.98}
+```
+
+with the converse reading: failure of the first theorem gives the carrier-relay
+back-transfer/telescoping counterprofile; failure of the Gate-B theorems gives
+the fixed-axis or off-axis swirl counterprofile. This is a sharp reduction, not
+a proof.

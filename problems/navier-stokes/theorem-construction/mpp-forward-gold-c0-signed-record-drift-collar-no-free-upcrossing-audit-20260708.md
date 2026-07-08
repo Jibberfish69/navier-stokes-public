@@ -117,3 +117,25 @@ With the strict-atom spin-2 selector-menu proof, Gate A is now split into:
 The current \(c_0\) Gate-A wall is exactly the non-telescoping signed
 forward-transfer flux lower bound. The ledger names the flux and its route-outs;
 it does not yet prove `(SRC.3)'.
+
+## 6. Cascade-language boundary
+
+It is useful to call `(SRC.2)' a forward-cascade monotonicity theorem, provided
+the word "cascade" is read materially: selected service moves forward through
+the retained packet relay with a consistent orientation.
+
+Cancellation of signed collar terms is the obstruction. It may correspond to
+classical backscatter/up-cascade transfer, but in the material relay it may also
+appear as recirculation, merge/split ownership reversal, or another hand-off
+that reverses the selected forward-transfer orientation. The theorem must rule
+out all such telescoping while the record remains retained, or classify the
+branch as stop/pass/Field/collar/service-loss/counterprofile material.
+
+Thus the alias is:
+
+```math
+\texttt{ForwardCascadeSignedTransferNonTelescoping.A}
+\equiv
+\texttt{SignedRecordDriftCollarNoFreeUpcrossing.A}.
+\tag{SRC.5}
+```
