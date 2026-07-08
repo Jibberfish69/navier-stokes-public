@@ -465,3 +465,12 @@ None.
   the row is reflection-odd, but its viscous term is sign-indefinite and no
   checked source proves a retained nonzero/zero-stratum chirality row bridged
   to the legal \(m=\pm1\) tilt orientation or to W3/W7/W8/W9.
+- The Row 5 zero-helicity shortcut is refuted as an ontology assumption. In a
+  co-moving local incompressible jet with \(u(x_0)=0\),
+  \(S=a\,\operatorname{diag}(1,1,-2)\), and
+  \(\omega(x_0)=(\alpha,0,\beta)\), \(\alpha\beta\ne0\), one has
+  \(h(x_0)=u\cdot\omega=0\) while
+  \((\Omega^2)_{13}=\alpha\beta/4\ne0\). Thus zero local helicity is not a
+  tilt-neutral certificate for the legal B2 \(m=\pm1\) numerator
+  \((\Omega^2)_{13}+H_{13}\); the zero stratum still needs retained reflection
+  symmetry, cancellation, or route-out. No W3/W7/W8/W9 wall is deleted.
