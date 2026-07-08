@@ -16,8 +16,10 @@ completion_truth: >-
   production budget. The viscous response paired with Vieillefosse service is
   the localized H1/enstrophy-dissipation term, not the L2 strain energy. Under
   that legitimate same-field bill, zero payment gives strong L3 persistence of
-  the non-affine strain defect. This does not prove c0, because the affine
-  endpoint / first non-merge collar sign remains Door 2.
+  the non-affine strain defect. This does not prove c0 by itself; the affine
+  endpoint is handled by the Door-2a fixed-collar note, the critical cone by the
+  Door-2b profile-production note, and the retained strict tower inequality by
+  the global strict bill admission/accounting note.
 ---
 
 # Door 1: Enstrophy-Viscous Service Persistence
@@ -175,12 +177,13 @@ positive-service sequence can only retain service in the affine channel
 packet is the smooth affine endpoint: it must either be parent-owned, routed
 out, or paid at the first non-merge collar.
 
-That last statement is Door 2:
+That last statement is Door 2. The fixed smooth-affine first non-merge collar
+is Door 2a; the scale-consistent critical pressure cone is Door 2b:
 
 ```math
-\texttt{NoFreeWrongSignPressureBorrowing.A}
-\quad/\quad
-\texttt{MarginalWrongSignLerayConeLiouville.A}.
+\texttt{FixedSmoothAffineFirstNonmergeCollarPayment.A}
+\quad+\quad
+\texttt{NoRetainedWrongSignCriticalPressureCone.A}.
 \tag{D1.12}
 ```
 
@@ -189,11 +192,11 @@ So the physical accounting is:
 ```math
 \begin{array}{ll}
 \text{non-affine critical bubble} & \text{seen by the enstrophy-viscous }H^1\text{ bill,}\\
-\text{affine endpoint} & \text{left to the no-free-collar/restoring-sign door.}
+\text{affine endpoint} & \text{left to Door 2a / Door 2b endpoint payment.}
 \end{array}
 \tag{D1.13}
 ```
 
 This closes Door 1 only under the strict participation bill that includes the
-same-field enstrophy-viscous response. It does not close \(c_0\), because the
-remaining affine endpoint is exactly Door 2.
+same-field enstrophy-viscous response. The retained strict tower \(c_0\) bound
+then requires Door 2a, Door 2b, and the global no-double-count accounting.
