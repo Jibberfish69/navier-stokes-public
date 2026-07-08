@@ -190,8 +190,6 @@ Equivalently,
 \tag{CPE.12}
 ```
 
-## 5. Boundary of the proof
-
 ## 5. The \(\ell=1\) relay is force-visible
 
 Write the homogeneous harmonic pressure ambiguity as
