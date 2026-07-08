@@ -133,10 +133,10 @@ controls only.
 ## 4. Why causal lag is demoted
 
 Causal lag was a useful way to see that the brake is time-oriented after the
-transverse channel is present. It does not supply the magnitude/admission source
-for that channel. The terminal obstruction is an aligned positive-record atom:
-the same field keeps its pressure Hessian co-diagonal with the strain frame
-while still claiming record amplitude.
+transverse channel is present. It does not supply the endpoint exclusion. The
+terminal obstruction is an aligned positive-record atom: the same field keeps
+its pressure Hessian co-diagonal with the strain frame while still claiming
+retained service and paying no collar/exit/atomization bill.
 
 Therefore causal-lag, transverse-Hodge lower bounds, strict-repeller,
 stretched-vortex quadrupole, angular transport, and local BKM/CKN packets are

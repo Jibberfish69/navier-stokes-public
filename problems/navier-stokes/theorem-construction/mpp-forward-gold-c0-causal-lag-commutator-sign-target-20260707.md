@@ -120,14 +120,12 @@ completion_truth: >-
   anisotropic core-annulus quadrupole law for the retained velocity profile, not
   just the core/annulus sign pattern.
   Section 27 records the physical-first correction: the current terminal theorem
-  is NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A, equivalently
-  UniformTransverseHodgeCoercivityInRecordCurrency.A. After pass, collar/exit,
-  and parent-owned affine endpoint-kernel classes are removed, the same-field
-  transverse pressure Hessian must control the retained record amplitude in the
-  same payment currency:
-  \(\|\Pi_\perp^S\nabla^2(-\Delta)^{-1}(\partial_i u_j\partial_j u_i)\|
-  \gtrsim \mathsf R_{\rm rec}\). The angular, strict-repeller,
-  stretched-vortex, and quadrupole packets are diagnostics or subbranch attacks
+  is NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A in the zero-bill
+  Liouville/UCP form. After pass, collar/exit, and parent-owned affine
+  endpoint-kernel classes are removed, no retained positive-record atom may keep
+  \([R_iR_j(\partial_a u_b\partial_b u_a),S]=0\) with zero collar/exit bill and
+  no atomization loss. The angular, strict-repeller, stretched-vortex, and
+  quadrupole packets are diagnostics or subbranch attacks
   on that transverse-Hodge theorem. This is a constructive target and a strict
   reduction, not a proof of c_0>0.
 ---
