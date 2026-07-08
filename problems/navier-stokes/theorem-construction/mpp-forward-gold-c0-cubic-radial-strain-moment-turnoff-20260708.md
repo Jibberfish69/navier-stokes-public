@@ -246,6 +246,62 @@ For the affine incompressible core \(U_A=S\theta\), one has
 \([M']_+\) is not a scalar cutoff artifact. It is the same-field angular
 current needed to turn off the affine Vieillefosse imprint.
 
+There is a sharper current normal form. Since \(\nabla\cdot u=0\) on the
+same field, the spherical mean of \(w\) vanishes on each retained sphere. Let
+\(v_\circ[w]\) be the canonical tangential Hodge carrier on \(S^2\) satisfying
+
+```math
+\operatorname{div}_{S^2}v_\circ[w]=-3w,
+\qquad
+\int_{S^2}v_\circ[w]\cdot\xi\,d\theta=0
+\quad\text{for every tangential Killing field }\xi .
+\tag{CRM.19a}
+```
+
+Write the actual tangential current as
+
+```math
+v=v_\circ[w]+j .
+\tag{CRM.19b}
+```
+
+Then incompressibility reduces to
+
+```math
+\partial_\rho w+\operatorname{div}_{S^2}j=0,
+\tag{CRM.19c}
+```
+
+and therefore
+
+```math
+M'(\rho)
+=
+-3\int_{S^2}w^2\operatorname{div}_{S^2}j\,d\theta
+=
+6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta .
+\tag{CRM.19d}
+```
+
+The affine core has \(j=0\). The turn-off measure \([M']_+\) is therefore
+exactly the positive oriented work of the residual same-field tangential
+current after the stationary incompressible carrier has been removed. A
+quadratic magnitude bill on \(j\) can still leak across a long collar; the
+needed \(c_0\) bill is the admitted positive linear current flux
+
+```math
+\mathsf J_M^+
+:=
+\int_{\Lambda Q}
+\left[
+6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta
+\right]_+
+d\rho
+=
+\int_{\Lambda Q}[M'(\rho)]_+\,d\rho .
+\tag{CRM.19e}
+```
+
 In an incompressible flow, this angular/current change is tied to the slaved
 pressure source
 
