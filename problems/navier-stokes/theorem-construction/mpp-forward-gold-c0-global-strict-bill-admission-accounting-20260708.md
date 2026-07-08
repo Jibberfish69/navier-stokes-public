@@ -155,25 +155,32 @@ smooth-affine collar. If the affine endpoint merges into the parent, it is not
 charged to the child atom; its service is parent-owned and appears in the
 parent packet selected by the stopping partition.
 
-For a long same-affine chain \(C_\alpha\), the log-chain Hodge note gives
+For a long same-affine chain \(C_\alpha\), the log-chain Hodge note gives the
+off-kernel payment plus an endpoint term. The endpoint term is the affine
+handoff amplitude. It is the free Korn/participation mode, so this note may
+convert it into a bill only under the signed endpoint handoff theorem
+\(\texttt{SignedEndpointHandoffCharge.A}\), equivalently the retained
+T-odd cubic-flux/payment-or-route-out theorem on the long chain. With that
+additional admission,
 
 ```math
 S(C_\alpha)
 \le
 C_C\left(
 \mu_{\rm chain}(\Lambda C_\alpha)
++\mu_{\rm end}(\partial_{\rm handoff}C_\alpha)
 +\mu_{\rm D2a}(\partial_{\rm out}C_\alpha)
 +\mu_{\rm D2b}(\partial_{\rm crit}C_\alpha)
 \right).
 \tag{GBA.8}
 ```
 
-The three terms represent the only same-field exits of the chain:
-off-kernel log variation, fixed smooth-affine first non-merge collar, and
-scale-consistent degree \(-1\) pressure cone. Door 2b says the last term
-vanishes with positive service only if the cone has a profile-production
-defect; if no defect remains, the zero-force Landau/Sverak consumer gives
-zero service.
+The terms represent the same-field exits of the chain: off-kernel log
+variation, signed parent handoff, fixed smooth-affine first non-merge collar,
+and scale-consistent degree \(-1\) pressure cone. Door 2b says the last term
+vanishes with positive service only under the profile-production/no-cone
+admission. The parent handoff cannot be charged by the Hodge magnitude; it
+needs the signed endpoint theorem.
 
 Let
 
