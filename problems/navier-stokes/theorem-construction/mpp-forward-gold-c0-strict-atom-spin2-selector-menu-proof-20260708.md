@@ -199,3 +199,40 @@ name the first parent-known detector before selected positive readout. A bare
 integral lower bound for \(\int |Z_Q|^2\) is not by itself the stopped detector
 unless the strict atom normalization also supplies the time-window and threshold
 conversion.
+
+## 6. Relay boundary
+
+Claude cycle 28 sharpens the first-crossing result. A record can drift through
+several finite menu cells, so the issue is whether the sequence of hand-offs
+pays or telescopes away.
+
+Inside one fixed strict atom, with the same carrier, material window,
+chart/collar address, order-lock, eigengap, and spin-2 lower edge, the relay is
+only the finite-net expression of spin-2 angle variation. Each hand-off is a
+first exit of a parent-known score inequality. The stopped-score derivative
+identity and bounded first-exit overlap charge the path variation, not just the
+endpoint displacement:
+
+```math
+\sum_e \omega_e^{relay}
+\lesssim
+\int_{\operatorname{Hist}(P)}
+|Z_Q(t)|^2|\dot\alpha(t)|^2\,dt
++dPaid+dStop+dLegal+dExit .
+\tag{SAM.12}
+```
+
+So a back-and-forth relay of spin-2 detector cells is not free once the
+lower-edge/stopped-threshold admission is present.
+
+This does not cover a generic moving argmax. If the hand-off changes the
+selected record edge, carrier, material window, chart/collar address,
+order-lock, or packet ownership, it is not frame variation inside the finite
+spin-2 menu. It is selector drift, reselection, collar/Field material,
+legal/stop material, or the generic future-argmax obstruction. That remaining
+object is
+
+```math
+\texttt{RecordDriftRelayNoFreeUpcrossing.A}.
+\tag{SAM.13}
+```
