@@ -292,3 +292,10 @@ None.
   payment before positive readout. The half-tail
   \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite raw/square support and trivial
   static/path closedness while \(\sum_\ell 2^\ell\nu_\ell=\infty\).
+- W7 does not reduce to W8+W9: W8 supplies selected-linear payment and W9
+  supplies compact certified path/shift machinery only after rows are carried.
+  They do not prove retained pressure-source/material-frame/VPI graph passage
+  or arbitrary-original-data admission through an arbitrary critical limit. The
+  source's defect form \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) can coexist with
+  finite payer data and a trivial certified path unless W7's graph-closedness or
+  typed route-out theorem is supplied.
