@@ -32,17 +32,17 @@ completion_truth: >-
   budget. The fixed smooth-affine first non-merge collar payment is isolated in
   the Door-2a note: a nonzero affine trace either merges into the same parent
   affine field or pays the H1 trace/collar bill. The scale-consistent degree -1
-  pressure-bank cone is killed by the Door-2b note under strict
-  profile-production bill admission: zero bill removes log-scale drift,
-  material-time drift, frame modulation, annular NS residual, angular roughness,
-  and point-force/source ownership, producing the exact zero-force stationary
-  smooth-sphere cone consumed by Landau/Sverak. The remaining retained-branch
-  retained strict tower inequality is proved in the global strict bill
-  admission/accounting note once Door 1, Door 2a, and Door 2b are admitted in
-  the same tower currency. The broader physical split remains correct:
+  pressure-bank cone is only conditionally handled by the Door-2b note under
+  strict profile-production bill admission. The long same-affine chain still
+  needs the signed parent-owned endpoint handoff / non-telescoping charge in
+  T-odd same-field currency; Hodge/viscous magnitude bills charge off-kernel
+  variation but do not charge the affine endpoint mode. The global strict bill
+  accounting note proves only that admitted local payments sum without service
+  loss or double counting. The broader physical split remains correct:
   no-carrier, nonparticipating, or no-field branches route through CM
-  Pack/Part/Field, while the remaining outside burden is arbitrary-original-data
-  admission into the retained positive strict bill class.
+  Pack/Part/Field, while the remaining retained-branch burden is the endpoint
+  signed charge plus original-data admission into the retained positive strict
+  bill class.
 ---
 
 # Zero Payment Forces Zero Participation
