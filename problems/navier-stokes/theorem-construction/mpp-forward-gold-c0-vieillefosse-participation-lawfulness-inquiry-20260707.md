@@ -3557,17 +3557,17 @@ If finite energy/localization forces \(M(\rho_j)\to0\) outward, then
 ```math
 \mathsf S_V(Q)
 \lesssim
-\int_0^\infty[-M'(\rho)]_+\,d\rho.
+\int_0^\infty[M'(\rho)]_+\,d\rho.
 \tag{VPL.256}
 ```
 
-This total drop is independent of how far outward the collar is pushed. In the
+This total turn-off is independent of how far outward the collar is pushed. In the
 scalar cutoff model \(w=a(\rho)(\theta\cdot S\theta)\),
 
 ```math
 M'(\rho)=3a(\rho)^2a'(\rho)M_{\rm aff},
 \qquad
-\int[-M']_+\,d\rho\ge -M_{\rm aff}.
+\int[M']_+\,d\rho\ge -M_{\rm aff}.
 \tag{VPL.257}
 ```
 
@@ -3580,7 +3580,7 @@ The remaining direct lemma is
 \texttt{CubicRadialMomentOddPayment.A:}\qquad
 \mathsf P_{\rm odd}(\Lambda Q)
 \ge
-c\int_{\Lambda Q}[-M'(\rho)]_+\,d\rho.
+c\int_{\Lambda Q}[M'(\rho)]_+\,d\rho.
 \tag{VPL.258}
 ```
 
