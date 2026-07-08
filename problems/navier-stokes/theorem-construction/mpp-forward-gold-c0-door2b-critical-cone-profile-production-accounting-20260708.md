@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-door2b-critical-cone-profile-production-accounting-2
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / Door 2 / critical pressure cone endpoint
-status: door-2b-candidate-proof-under-strict-profile-production-bill; not-c0-closure
+status: door-2b-consumer-under-profile-production-bill-admission; not-c0-closure
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transverse-restoring-sign-local-no-go-borrowing-reduction-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2-fixed-affine-collar-h1-trace-payment-20260708.md
@@ -11,17 +11,15 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-gold-stress-flux-bridge-and-landau-liouville-test-20260617.md
 completion_truth: >-
   This note attacks the remaining Door-2 endpoint after the fixed smooth-affine
-  collar has been paid. It proves the critical pressure-cone row only under the
-  strict profile-production bill that charges log-scale drift, material-time
-  drift, frame modulation, annular Navier-Stokes residual, angular roughness,
-  and point-force/source ownership in the same retained cone. Under that bill,
-  zero payment produces an exact stationary smooth-sphere (-1)-homogeneous
-  zero-force profile, and the Landau/Sverak consumer gives u=0. This is a
-  candidate discharge of the cone endpoint if the profile-production bill is
-  accepted as legitimate strict participation currency; it is not yet a full
-  Clay proof because that bill admission is reconciled into the retained strict
-  tower in the companion global accounting note, while arbitrary-original-data
-  admission remains outside this note.
+  collar has been paid. It proves only the consumer direction: if the retained
+  cone admits the strict profile-production bill charging log-scale drift,
+  material-time drift, frame modulation, annular Navier-Stokes residual, angular
+  roughness, and point-force/source ownership in the same cone, then zero
+  payment produces an exact stationary smooth-sphere (-1)-homogeneous
+  zero-force profile, and the Landau/Sverak consumer gives u=0. The
+  load-bearing open theorem is the admission of that profile-production bill as
+  legitimate retained strict participation currency, with no double counting in
+  the tower. Arbitrary-original-data admission remains outside this note.
 ---
 
 # Door 2b: Critical Cone Profile-Production Accounting
@@ -100,6 +98,22 @@ Here:
 None of these is a detached scalar proxy. Each is a same-field way the retained
 velocity-pressure cone fails to be an exact, smooth, zero-force stationary
 Navier-Stokes profile.
+
+The load-bearing admission theorem is:
+
+```math
+\texttt{RetainedCriticalConeProfileProductionBillAdmission.A}
+\tag{D2B.3a}
+```
+
+Statement. In a lawful retained wrong-sign critical cone, every nonzero
+log-scale drift, material-time drift, frame modulation, annular
+Navier-Stokes residual, angular roughness defect, or point-force/source residue
+appearing in (D2B.3) is either a legitimate same-field strict participation
+payment on that cone, or the claimed child-retained service routes to
+parent/Field/source/nonparticipation. The theorem must be derived from the
+same velocity-pressure field and the tower ownership rule; it is not supplied
+by writing the norm in (D2B.3).
 
 ## 3. Zero payment produces the exact consumer profile
 
@@ -180,7 +194,7 @@ In the zero-bill quotient,
 \tag{D2B.10}
 ```
 
-Equivalently, under the strict profile-production bill,
+Equivalently, after `RetainedCriticalConeProfileProductionBillAdmission.A`,
 
 ```math
 \texttt{NoRetainedWrongSignCriticalPressureCone.A}
@@ -196,8 +210,8 @@ scalar cone is impossible. It says that a same-fluid retained cone with zero
 strict bill is forced into the exact zero-force Landau/Sverak consumer.
 
 The remaining global task is bill admission: the terms in (D2B.3) must be
-accepted as legitimate strict participation payments and inserted into the
-tower accounting without double-counting Door 1 or Door 2a. If that admission is
+proved legitimate strict participation payments and inserted into the tower
+accounting without double-counting Door 1 or Door 2a. If that admission is
 installed, the Door-2 endpoint chain becomes
 
 ```math
@@ -212,4 +226,5 @@ installed, the Door-2 endpoint chain becomes
 Together with Door 1 service persistence, this would give the strict retained
 tower inequality \(\mathsf P\ge c\mathsf S\), hence \(c_0>0\) for the retained
 strict participation class. The companion global accounting note records that
-conditional summation.
+conditional summation; it does not prove
+`RetainedCriticalConeProfileProductionBillAdmission.A`.
