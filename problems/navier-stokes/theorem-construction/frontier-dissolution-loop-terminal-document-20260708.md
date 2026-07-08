@@ -332,3 +332,13 @@ None.
   and positive VPI record. The critical defect
   \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) still needs graph closedness,
   paid/owned carriage, or typed route-out.
+- W7 does not reduce to W3+W8+W9. The ontology correction says the surviving
+  walls are proof-interface obligations on one retained same-fluid history, not
+  four independent fluid events, but it does not make critical weak compactness
+  multiplicative. W3 supplies selected cubic service persistence after admitted
+  local strain \(H^1\) payment, W8 supplies selected-linear original-data
+  payment, and W9 supplies compact material-time path/action structure after
+  certificate rows are carried. No checked source proves retained
+  pressure-source/pressure-row/material-frame/VPI graph passage through critical
+  compactness; the defect \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) still needs graph
+  closedness, paid/owned carriage, or typed route-out.
