@@ -426,3 +426,12 @@ None.
   A quotient is lawful only after the coordinate is proved harmless gauge,
   paid variation, or typed route-out; current W3/W7/W8/W9 sources do not prove
   that for all W9 label motions.
+- The certificate-realization ontology audit tightens the problem-presentation
+  critique. The native PDE object is only the same fixed-viscosity
+  velocity-pressure history \((u,p)\); W3 service payment, W7 retained graph
+  passage, W8 selected-linear first-admission bill, and W9 material-time
+  certificate path/action are certificate readings that must be realized from
+  that history, closed, made finite, made shift-stable, or routed out. No checked
+  source proves the common theorem
+  `SameFluidCertificateRealizationAndClosure.A`, and admitting that name would
+  be non-net-negative because it currently deletes no existing wall.
