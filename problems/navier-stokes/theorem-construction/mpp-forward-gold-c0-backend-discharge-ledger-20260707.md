@@ -58,7 +58,7 @@ c_{\rm acc}>0.
 \tag{BACK.2}
 ```
 
-Equivalently, once that still-missing non-affine charge theorem is proved,
+Equivalently, once that still-missing zero-bill aligned floor theorem is proved,
 
 ```math
 c_0
