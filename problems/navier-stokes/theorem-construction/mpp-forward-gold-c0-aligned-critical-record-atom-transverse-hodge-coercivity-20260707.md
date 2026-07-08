@@ -158,7 +158,7 @@ package is:
 \text{commutator sign balance}
 \Longrightarrow
 c_0>0 .
-\tag{ATH.8}
+\tag{ATH.9}
 ```
 
 What remains open is exactly the first two inputs: prove the same-field
@@ -168,3 +168,66 @@ and prove the strict-atom accounting compactifies the sequence without
 double-counting or losing the selected channel.
 
 Leaving either input unproved gives a sharp reduction, not closure.
+
+## 6. Pressure-spectrum survivor after the Codazzi audit
+
+Claude cycles 10--11 add a useful local audit, but it has to be read through
+the same physical gate. If \(H\) is diagonal in the strain frame,
+
+```math
+H=\sum_i h_i e_i\otimes e_i,
+\tag{ATH.10}
+```
+
+then the Hessian/Codazzi identities constrain off-diagonal frame connection by
+pressure eigenvalue gaps. Schematically,
+
+```math
+(h_i-h_j)\,\langle\nabla e_i,e_j\rangle
+\text{diagonal-gradient terms}
+=0
+\tag{ATH.11}
+```
+
+on the aligned branch. Distinct pressure eigenvalues therefore make spatial
+frame rotation visible to the pressure-Hessian equations. That is a legitimate
+Liouville/UCP attack on the aligned atom.
+
+The local audit does not kill the pressure-degenerate branch. If
+
+```math
+h_1=h_2\ne h_3,
+\tag{ATH.12}
+```
+
+then \(H\) is anisotropic and uniaxial, but rotations inside the \((e_1,e_2)\)
+pressure-degenerate plane are invisible to the local Codazzi torsion. This is
+not an isotropic proxy and not a scalar shell. It is the physically dangerous
+aligned survivor: an anisotropic uniaxial pressure Hessian co-diagonal with a
+biaxial strain record.
+
+Thus the next sharp subtest is
+
+```math
+\texttt{NoUniaxialPressureBiaxialStrainCriticalRecordAtomExceptEscapes.A}.
+\tag{ATH.13}
+```
+
+The test is not merely whether a prolate source model has the adverse
+quadrupole sign. The prolate source model is a pressure-shape warning. The
+physical question is whether the same incompressible velocity field can realize
+
+```math
+\nabla\cdot u=0,\qquad
+H=\nabla^2(-\Delta)^{-1}(\partial_i u_j\partial_j u_i),
+\qquad
+H_\perp^S=0,
+\qquad
+h_1=h_2\ne h_3,
+\tag{ATH.14}
+```
+
+while \(S\) still carries a positive biaxial critical record in the same
+participation/payment currency. If yes, it is the admitted anisotropic
+counterprofile. If no, this closes the only local Codazzi survivor left by the
+distinct-spectrum attack.
