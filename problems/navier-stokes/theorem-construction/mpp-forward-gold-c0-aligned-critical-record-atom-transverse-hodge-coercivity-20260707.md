@@ -2,32 +2,32 @@
 theorem_id: forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707
 created: 2026-07-07
 problem: navier-stokes
-route: forward-gold / c_0 / transverse pressure-Hodge coercivity / aligned atom exclusion
-status: strict-reduction-open; transverse-Hodge-coercivity-terminal
+route: forward-gold / c_0 / aligned zero-bill Liouville-UCP / uniaxial survivor
+status: strict-reduction-open; uniaxial-pressure-survivor-reduced-to-local-normal-form-or-parent-bank
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-transverse-coupling-reduces-to-angular-sphere-positivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
 completion_truth: >-
-  This note installs the corrected terminal c_0 reduction. The commutator is the
-  signed brake once a transverse pressure Hessian is present; the remaining open
-  theorem is the magnitude/admission source that forces a transverse pressure
-  Hessian on any lawful retained critical-record atom. The target is uniform
-  transverse Hodge coercivity for the same incompressible velocity field, in the
-  same participation/payment currency. Equivalently: no aligned incompressible
-  critical-record atom, except pass, collar/exit payment, or parent-owned affine
-  endpoint-kernel escape. Causal lag, stretched-vortex quadrupoles, local
-  BKM/CKN visibility, angular transport, and Liouville/UCP remain diagnostic,
-  branch, or proof-method tools unless they prove this coercivity or produce a
-  physically admitted counterprofile. Claude cycles 10--11 sharpen the only
-  local Codazzi survivor: an anisotropic uniaxial pressure Hessian,
+  This note records the corrected terminal c_0 reduction and the current
+  uniaxial survivor. The commutator is the signed brake once a transverse
+  pressure Hessian is present; the remaining open theorem is the zero-bill
+  same-field Liouville/UCP exclusion. Equivalently: no aligned incompressible
+  critical-record atom can keep \([R_iR_jQ,S]=0\) with zero collar/exit and no
+  atomization loss, except by routing to pass, service-zero, collar/exit payment,
+  or parent-owned affine endpoint-kernel escape. Causal lag, transverse-Hodge
+  estimates, stretched-vortex quadrupoles, local BKM/CKN visibility, and angular
+  transport remain diagnostic or branch tools unless they prove this rigidity or
+  produce a physically admitted counterprofile. Claude cycles 10--11 sharpen the
+  only local Codazzi survivor: an anisotropic uniaxial pressure Hessian,
   \(h_1=h_2\ne h_3\), co-diagonal with a biaxial strain record. That survivor is
   physically real as a candidate, but it is admitted only if the same
   incompressible velocity field and pressure equation realize it in the record
-  currency.
+  currency. Section 7 splits this survivor into a local Hessian normal-form
+  branch and a nonlocal parent-pressure-bank branch.
 ---
 
-# Aligned Critical-Record Atom And Transverse Hodge Coercivity
+# Aligned Critical-Record Atom And Zero-Bill Liouville/UCP
 
 ## 1. Physical object
 
@@ -109,10 +109,10 @@ This is the compact theorem:
 \tag{ATH.6}
 ```
 
-or, in lower-bound form,
+or, in proof-method form,
 
 ```math
-\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}.
+\texttt{SameFieldAlignedZeroBillLiouvilleUCPOrCounterprofile.A}.
 \tag{ATH.7}
 ```
 
@@ -137,25 +137,25 @@ controls only.
 ## 4. Why causal lag is demoted
 
 Causal lag was a useful way to see that the brake is time-oriented after the
-transverse channel is present. It does not supply the magnitude/admission source
-for that channel. The terminal obstruction is an aligned positive-record atom:
-the same field keeps its pressure Hessian co-diagonal with the strain frame
-while still claiming retained service and paying no collar/exit/atomization
-bill.
+transverse channel is present. It does not supply the endpoint exclusion. The
+terminal obstruction is an aligned positive-record atom: the same field keeps
+its pressure Hessian co-diagonal with the strain frame while still claiming
+retained service and paying no collar/exit/atomization bill.
 
-Therefore causal-lag, strict-repeller, stretched-vortex quadrupole, angular
-transport, and local BKM/CKN packets are branch tests. They matter only by
-proving the transverse Hodge lower bound (ATH.5), by paying/routing one of the
-escapes in (ATH.6), or by constructing a physically admitted counterprofile.
+Therefore causal-lag, transverse-Hodge estimates, strict-repeller,
+stretched-vortex quadrupole, angular transport, and local BKM/CKN packets are
+branch tests. They matter only by proving the Liouville/UCP exclusion (ATH.5),
+by paying/routing one of the escapes in (ATH.5), or by constructing a physically
+admitted counterprofile.
 
 ## 5. What proves \(c_0\)
 
-The \(c_0\) backend consumes the signed commutator once the transverse Hodge
-lower bound has been supplied in the same strict-atom currency. The needed
-package is:
+The \(c_0\) backend consumes the signed commutator once the zero-bill aligned
+survivor has been excluded in the same strict-atom currency. The needed package
+is:
 
 ```math
-\text{uniform transverse Hodge coercivity}
+\text{zero-bill aligned atom Liouville/UCP}
 +
 \text{currency/accounting compatibility}
 +
@@ -235,6 +235,104 @@ while \(S\) still carries a positive biaxial critical record in the same
 participation/payment currency. If yes, it is the admitted anisotropic
 counterprofile. If no, this closes the only local Codazzi survivor left by the
 distinct-spectrum attack.
+
+## 7. Uniaxial survivor split: local normal form or parent pressure bank
+
+The uniaxial survivor has two genuinely different sources.
+
+First, \(H\) may be locally produced on the same atom. Write
+
+```math
+H=hP+k\,n\otimes n,
+\qquad
+P=I-n\otimes n,
+\qquad
+h\ne k.
+\tag{ATH.15}
+```
+
+Since \(H\) is a Hessian, it is a Codazzi tensor:
+
+```math
+\nabla_\ell H_{ij}=\nabla_iH_{\ell j}.
+\tag{ATH.16}
+```
+
+For a Codazzi tensor with eigenvalue multiplicity \(2+1\), (ATH.16) forces the
+two-plane distribution \(P\) to be integrable and umbilic on the simple
+uniaxial region; \(h\) is constant along each leaf, and the pressure-axis
+curvature is controlled by the transverse derivative of the eigenvalue gap.
+Thus the local pressure eigensurfaces are the Euclidean totally-umbilic
+surfaces: planar or spherical, up to the usual endpoint degeneracies. This is
+the local normal-form sublemma:
+
+```math
+\texttt{UniaxialHessianCodazziNormalForm.A}.
+\tag{ATH.17}
+```
+
+Now impose co-diagonal biaxial strain. On the same splitting,
+
+```math
+S=aP-2a\,n\otimes n.
+\tag{ATH.18}
+```
+
+The planar normal form gives a fixed pressure axis. A zero-collar finite-energy
+retained atom in this branch is either the affine endpoint, or it needs lateral
+or endpoint cut-off and pays through collar/exit/parent ownership. The spherical
+normal form gives a radial biaxial strain; incompressibility and strain
+compatibility force the radial amplitude into the \(r^{-3}\) homogeneous branch
+on an annulus, hence a singular/non-finite-energy center or a paid cut-off. In
+short:
+
+```math
+\text{local uniaxial }H+\text{ co-diagonal biaxial }S
+\Longrightarrow
+\text{affine endpoint / singular radial branch / collar-exit payment.}
+\tag{ATH.19}
+```
+
+(ATH.19) is not yet a theorem in the weak strict-atom class; the remaining work
+is to prove (ATH.17) and the strain-compatibility classification with the atom
+error terms. But it shows that the local uniaxial branch is not the hard
+survivor.
+
+Second, \(H\) may be supplied by a nonlocal same-field pressure bank. A remote
+source can be divergence-free and can vanish to first order at the selected
+station while its Riesz pressure contribution supplies a trace-free uniaxial
+Hessian on the atom. That cannot be killed by local Codazzi equations, because
+inside the child atom the bank is a harmonic parent field. The required theorem
+is instead a parent-bank dichotomy:
+
+```math
+\texttt{ParentHarmonicUniaxialBankPaysOrRoutesOut.A}.
+\tag{ATH.20}
+```
+
+One useful formulation is:
+
+```math
+H_{\rm far}^{tf}\ne0,\quad
+[H_{\rm far},S]=0
+\text{ through a retained child tower}
+\Longrightarrow
+\mathsf P_{\rm parent}
++\mathsf P_{\rm mix}
++\mathsf P_{\rm collar}
++\mathsf P_{\rm exit}
++\mathsf S_{\rm pass}
+\gtrsim
+\mathsf S_{\rm ret},
+\tag{ATH.21}
+```
+
+unless the child service is parent-owned endpoint service. Physically: a fixed
+harmonic parent Hessian can align one child by ownership/pass, but a positive
+record tower that keeps changing scale or material orientation must either
+re-aim the parent pressure frame, spend selector/order-lock variation, or expose
+the remote bank as a same-currency Field/parent bill. This is the nonlocal
+piece Claude should attack next; a purely local Codazzi closure cannot see it.
 
 ## 7. Local algebra cannot close the survivor
 
