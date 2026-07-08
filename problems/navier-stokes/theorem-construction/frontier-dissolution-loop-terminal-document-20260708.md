@@ -483,3 +483,12 @@ None.
   instantaneous chirality/tilt readout is unchanged. The pairing is not a
   future-determining compact path/action; W9 still needs the flux/curl-helicity
   rows carried, canceled, paid, or routed out.
+- Scalar Row 5 helicity also does not choose the legal B2 tilt sign by itself.
+  Two divergence-free first jets with the same strict strain atom
+  \(S=a\,\operatorname{diag}(1,1,-2)\), vorticities
+  \(\omega^+=(1,0,1)\) and \(\omega^-=(1,0,-1)\), and point velocities
+  \(u^\pm(0)=\omega^\pm\) both have positive helicity
+  \(h^\pm(0)=2\), but their legal \(13\) vorticity-square tilt rows satisfy
+  \((\Omega_+^2)_{13}=1/4\) and \((\Omega_-^2)_{13}=-1/4\). Thus a Row 5
+  deletion needs an oriented retained chirality/strain-frame/pressure-row bridge
+  or route-out theorem, not scalar \(u\cdot\omega\) alone.
