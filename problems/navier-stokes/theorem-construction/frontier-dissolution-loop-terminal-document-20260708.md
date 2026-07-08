@@ -377,3 +377,13 @@ None.
   the phase is undefined. A legal B2 computation must use the \(m=\pm1\)
   compression-axis tilt channel with gap \(3a\), or a deviation-lifted
   \(m=\pm2\) gap with paid/owned/route-out accounting and bridges to W3/W7/W8/W9.
+- The source-ontology assumption audit corrects the remaining-wall presentation
+  but does not delete a wall. W3, W7, W8, and W9 are four proof-interface
+  clauses of one same-fluid retained record, not four independent fluid events.
+  The hidden assumption needed for dissolution is unproved: one same-fluid
+  retained history does not automatically imply W3 retained \(H^1\) row
+  admission/tightness, W7 nonlinear pressure/VPI graph passage or route-out,
+  W8 finite selected-linear original-data payment before readout, and W9
+  compact future-determining material-time path/action. No checked source
+  reduces those clauses to B2, W7, W9, Claude's recoordination candidate, or one
+  surviving written object.
