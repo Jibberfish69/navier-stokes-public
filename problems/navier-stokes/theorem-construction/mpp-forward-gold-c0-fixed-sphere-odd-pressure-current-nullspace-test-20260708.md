@@ -369,3 +369,36 @@ positive cubic flux vector \(6w\nabla_{S^2}w\) remains in the coercive adjoint
 range of the same-field pressure-row operator for the retained record, modulo
 the parent-row relay. That is the same open object as
 `RetainedPositiveCubicFluxHasPressureRowOrRoutesOut.A`.
+
+## 5. Why the extension is not automatic
+
+The adjoint certificate has the form
+
+```math
+L_{\rm row}^*\Psi=6w\nabla_{S^2}w .
+\tag{FSN.23}
+```
+
+For the affine Vieillefosse sphere \(w=q\), (FSN.20)--(FSN.22) give the
+explicit solution. For a general retained \(w=q+\eta\), (FSN.23) is an
+overdetermined row-range condition: one scalar pressure source has to generate
+the whole tangential cubic-flux vector through the adjoint of the same-field
+pressure-row operator.
+
+So the fixed-sphere computation cannot be promoted by saying \(\eta\) is small
+or by returning to a separate pressure bill. The physical trichotomy is exactly:
+
+```math
+\text{certificate persists in the own row}
+\quad\vee\quad
+\eta\text{ is visible in another retained VPI row}
+\quad\vee\quad
+\text{parent-row relay / }\neg\mathrm{Part}.
+\tag{FSN.24}
+```
+
+This is the finite B1/K(theta) task in the corrected language. A failure of
+(FSN.23) is not automatically a fluid counterexample; it must be checked as a
+lawful retained same-field history. But a proof of \(c_0\) through this route
+must supply (FSN.24) with a scale-uniform constant and then close the relay by
+material-time Liouville.
