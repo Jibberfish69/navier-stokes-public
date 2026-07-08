@@ -153,3 +153,10 @@ None.
   lift, lower semicontinuity of carried nonnegative surplus defects,
   terminal-window no-escape, selector/service-label modulus or paid selector
   escape, and closure of those coordinates in the common certificate topology.
+- W9 conditional BV path-topology reduction proved only a sufficient route, not
+  a deletion: one compact certificate-state space plus uniform local
+  BV/tightness for all W9 rows would give an \(L^1_{\rm loc}\) compact shifted
+  path hull with continuous material-time shifts, and with payer-measure
+  lift/lsc plus terminal-window no-escape would imply the W9 closed certificate
+  graph; current W3/W7/W8 sources do not supply that uniform BV/tightness or
+  terminal-window input.
