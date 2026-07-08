@@ -1685,3 +1685,73 @@ with the converse reading: failure of the first theorem gives the carrier-relay
 back-transfer/telescoping counterprofile; failure of the Gate-B theorems gives
 the fixed-axis or off-axis swirl counterprofile. This is a sharp reduction, not
 a proof.
+
+## 32. Cycle 32: three-measure no-return is the actual Gate-A content
+
+Claude cycle 32 accepts the broader cancellation caveat and logs the shared
+terminal reduction. The follow-up ledger pressure test gives a sharper Gate-A
+statement. A raw signed collar/current lower bound cannot be recovered from
+signed-current data alone, because the signed-current kernel can carry positive
+selected record while its net signed sum vanishes:
+
+```math
+j=(M,-M),
+\qquad
+\sum_e j_e=0,
+\qquad
+R^+(j)=2M.
+\tag{ATH.99}
+```
+
+Thus the Gate-A theorem must retain the full participation relay packet
+
+```math
+(\mu^A,\mu^N,\mu^J),
+\qquad
+d\mu^J=d\mu^A-d\mu^N,
+\tag{ATH.100}
+```
+
+on one parent-known relay event space. Here \(\mu^A\) is the nonnegative
+selected forward-record carrier, \(\mu^N\) is the negative/back-transfer
+partner, and \(\mu^J\) is the signed collar/current measure.
+
+The exact smaller sufficient theorem is
+
+```math
+\texttt{OrientedThreeMeasureRelayNoReturn.A}
+\Longrightarrow
+\texttt{ForwardCascadeSignedTransferNonTelescoping.A}.
+\tag{ATH.101}
+```
+
+Its hard clause is the strict no-return/no-recount bound
+
+```math
+\mu^N(C_{\rm rel})
+\le
+(1-\eta)\mu^A(C_{\rm rel})
+dStop+dPass+dField+dCollar+dMerge+dLegal,
+\qquad \eta>0 .
+\tag{ATH.102}
+```
+
+With retained service controlled by \(\mu^A\), `(ATH.102)' gives
+
+```math
+\sum_e\mathsf F_e^{signed}
+=
+\mu^J(C_{\rm rel})
+=
+\mu^A(C_{\rm rel})-\mu^N(C_{\rm rel})
+\ge
+c\,\mathsf S_{\rm ret}
+-\text{typed route-outs}.
+\tag{ATH.103}
+```
+
+So the live Gate-A wall is now more precise: prove same-event custody of the
+positive carrier, negative partner, and signed current through the carrier
+relay, plus strict no-return/no-recount domination of the negative partner; or
+route the failure to stop/pass/Field/collar, merge, service loss, or a retained
+counterprofile. This is still a reduction, not \(c_0\) closure.
