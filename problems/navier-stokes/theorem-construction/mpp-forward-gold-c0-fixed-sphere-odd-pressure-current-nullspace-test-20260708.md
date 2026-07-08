@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-202
 created: 2026-07-08
 problem: navier-stokes
 route: forward-gold / c_0 / cubic radial moment / fixed-sphere retained pressure-row nullspace
-status: fixed-sphere-linear-pressure-row-coercivity-test; support-only; not-c0-proof
+status: fixed-sphere-linear-pressure-row-adjoint-certificate; support-only; not-c0-proof
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-attempt-census-20260707-undeveloped-frontier-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
@@ -19,10 +19,13 @@ completion_truth: >-
   symmetry, so m != 0 modes cannot cancel the m = 0 source. In the m = 0
   poloidal drop-bearing channel, the drop functional factors explicitly through
   the linear pressure row: for j=F(mu) grad_S mu, M'(j) = -72 pi int phi(mu)
-  L_Sj dmu with phi=mu^2/5-1/45. Thus the fixed-sphere linear pressure row
-  controls the positive drop in this register. This is support for retained
-  pressure-row nondegeneracy, not the theorem: it does not yet prove nonlinear
-  row persistence through scale passage, compactness, or the relay-endpoint
+  L_Sj dmu with phi=mu^2/5-1/45. The invariant form is
+  L_Sj=(P_theta S P_theta):nabla_{S^2}j and
+  L_S^*Psi=6q nabla_{S^2}q with Psi=(4/5)(3q-2). Thus the fixed-sphere
+  linear pressure row controls the positive drop in this register by an
+  explicit adjoint certificate. This is support for retained pressure-row
+  nondegeneracy, not the theorem: it does not yet prove nonlinear row
+  persistence through scale passage, compactness, or the relay-endpoint
   material-time Liouville.
 ---
 
