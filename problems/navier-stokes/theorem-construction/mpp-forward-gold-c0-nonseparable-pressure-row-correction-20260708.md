@@ -9,6 +9,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-endpoint-handoff-from-fixed-sphere-source-bound-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md
 completion_truth: >-
   This note records the correction to the endpoint/source-bound framing. The
   previous formulation still separated the pressure source from participation
@@ -138,4 +139,5 @@ test is the finite computation both burdens point at, not a source-to-payment
 conversion. In the corrected language, the next finite test is whether the
 adjoint certificate persists for retained \(w=q+\eta\), or whether the
 perturbation is necessarily visible in another retained VPI row or in the
-parent relay.
+parent relay. The retained-sphere adjoint-range form of that test is recorded
+in `mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md`.
