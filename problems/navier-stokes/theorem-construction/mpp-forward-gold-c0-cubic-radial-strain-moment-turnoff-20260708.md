@@ -465,6 +465,30 @@ null direction. The missing payment must use the material-time axisymmetric
 swirl dynamics: circulation-gradient forcing, viscosity, and centrifugal
 reaction in the same field.
 
+Equivalently, with \(F=\Gamma^2\),
+
+```math
+-2\frac{u_\phi}{R}\partial_Ru_\phi
+=
+-\frac1{R^3}F_R+\frac{2}{R^4}F .
+\tag{CRM.19k-swirl7}
+```
+
+The refund is therefore the Rayleigh/centrifugal pair, not an unowned pressure
+bank. The same \(F\) satisfies
+
+```math
+D_tF
+=
+\nu\left(\partial_R^2-\frac1R\partial_R+\partial_z^2\right)F
+-2\nu|\nabla_{R,z}\Gamma|^2 .
+\tag{CRM.19k-swirl8}
+```
+
+So any persistent cancellation of the aligned cubic-drop source has to be paid
+or routed by the angular-momentum-gradient budget, its diffusion/dissipation,
+the centrifugal response, collar flux, or participation ownership.
+
 The correct ownership theorem is therefore not a detached pressure-collar size
 estimate. The old Gate 1 pressure-collar notes show that address ownership
 alone does not imply payment: a raw owned pressure route measure can remain
