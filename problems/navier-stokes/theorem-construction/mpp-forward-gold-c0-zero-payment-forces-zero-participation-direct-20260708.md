@@ -8,17 +8,22 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
 completion_truth: >-
   This note resets the c0 target to the direct coercivity theorem:
   zero payment forces zero participation. The packet proof is already present
   in VPL Section 17 under A1--A5, and the direct-method extraction is already
-  present in CZC under compactness/lower-semicontinuity/persistence. What is
-  not yet proved as a global Navier-Stokes theorem is the unified lawful
-  strict-tower statement that every normalized zero-payment positive-service
-  sequence compactifies without service loss to a zero-payment strict atom/tower
-  limit, and that such a limit is stopped, global-affine/nonlocalizable, or
-  nonparticipating. Side survivor branches have zero threat weight unless they
-  produce that same-fluid zero-payment positive-service object.
+  present in CZC under compactness/lower-semicontinuity/persistence. The
+  2026-07-08 log-chain Hodge payment reduction proves the interior
+  incompressibility payment after lawful same-affine log-channel extraction:
+  zero payment forces the chain to be the smooth affine endpoint kernel
+  a'=2a. What is not yet proved as a global Navier-Stokes theorem is the
+  unified lawful strict-tower statement that every normalized zero-payment
+  positive-service sequence compactifies without service loss to such a
+  zero-payment strict atom/tower limit, and that the remaining endpoint kernel
+  is stopped, parent-owned/global-affine/nonlocalizable, or nonparticipating.
+  Side survivor branches have zero threat weight unless they produce that
+  same-fluid zero-payment positive-service object.
 ---
 
 # Zero Payment Forces Zero Participation
@@ -155,6 +160,64 @@ P(X)=0\Longrightarrow R(X)=0
 ```
 
 imply a positive modulus. That is the same theorem in compactness language.
+
+The log-chain Hodge payment reduction now proves the interior part of the only
+remaining long-chain wall under lawful channel extraction. If a same-affine log
+chain is represented by
+
+```math
+u_A(r,\omega)=a(\rho)\frac{A\omega}{r},
+\qquad \rho=\log r,
+\tag{ZPF.7a}
+```
+
+then incompressibility gives
+
+```math
+\nabla\cdot u_A
+=
+(\partial_\rho a-2a)
+\frac{\omega\cdot A\omega}{r^2}.
+\tag{ZPF.7b}
+```
+
+The factor \(\omega\cdot A\omega\) is a nonzero \(l=2\) spherical harmonic for
+positive Vieillefosse service. Spherical Hodge on the fixed annular geometry,
+combined with A4, gives
+
+```math
+\int_I|\partial_\rho a-2a|^2|A|^2\,d\rho
+\le
+C\left(\mathsf P_{\rm chain}(I)+\operatorname{Err}_{\rm atom}(I)\right).
+\tag{ZPF.7c}
+```
+
+Together with the scalar endpoint lemma,
+
+```math
+\mathsf S_A(I)
+\le
+C\left(
+\mathsf P_{\rm chain}(I)
++
+|a(\rho_+)|^2|A|^2
++
+\operatorname{Err}_{\rm atom}(I)
+\right).
+\tag{ZPF.7d}
+```
+
+Thus a zero-payment extracted log chain satisfies
+
+```math
+\partial_\rho a-2a=0,
+\qquad
+u_A=C\,Ax.
+\tag{ZPF.7e}
+```
+
+The interior long-chain escape is therefore reduced to endpoint ownership of
+the smooth affine kernel. It is no longer a free interior Hodge defect.
 
 ## 3. The remaining theorem, stated directly
 
