@@ -1731,7 +1731,7 @@ Its hard clause is the strict no-return/no-recount bound
 \mu^N(C_{\rm rel})
 \le
 (1-\eta)\mu^A(C_{\rm rel})
-dStop+dPass+dField+dCollar+dMerge+dLegal,
++dStop+dPass+dField+dCollar+dMerge+dLegal,
 \qquad \eta>0 .
 \tag{ATH.102}
 ```
