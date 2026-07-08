@@ -194,3 +194,9 @@ None.
   legal-carriage/failure alternatives, not uniform material-time path modulus
   for carried Reynolds, transport, cover, and tower defect coordinates in the
   common W9 topology or action on the closure.
+- W8/theta-payer as terminal-window no-escape failed as a deletion:
+  temporal-thin, zero-surplus, and shift-hull sources use compact terminal
+  material-time window/no-escape as a separate input before payer lower
+  semicontinuity or shift invariance can run; failure of compact window or
+  shifted interior room routes to terminal-window escape or typed
+  stop/legal/selector/Pack/Part/Field failure, not to W8 payment.
