@@ -21,13 +21,12 @@ completion_truth: >-
   a', while viscous/square-current costs are quadratic and leak. In the
   aligned axisymmetric subcase this linear pressure source need not create a
   transverse eigenframe torque, so the remaining bill cannot be only a
-  transverse Hessian commutator. Adding solid swirl does not fix that: it leaves
-  the cubic radial moment unchanged and contributes only the isotropic
-  solid-rotation source. Allowing non-solid swirl also kills a purely fixed-time
-  pressure-source coercivity theorem, because a local Gamma-gradient can cancel
-  the aligned poloidal source while preserving the cubic drop. The remaining
-  bill must be the broader material-time oriented pressure-current/collar
-  transfer. This note does not yet prove c0: the remaining theorem is the
+  transverse Hessian commutator. Tangential auxiliary channels are support-only:
+  they can show that a static pressure-source or transverse-torque shortcut is
+  too narrow, but they are not the live route to c0. The remaining bill must be
+  the broader material-time oriented pressure-current/collar transfer for the
+  retained cubic flux, or the atom must route that flux to its lawful owner.
+  This note does not yet prove c0: the remaining theorem is the
   non-tautological same-field bill admission CubicRadialMomentOddPayment.A,
   namely that this legitimate odd bill dominates the positive turn-off rise
   [M']_+.
@@ -382,112 +381,187 @@ turn-off. The legitimate payer must be the oriented pressure-current/collar
 bill that sees \(\mathsf J_M^+\), with transverse torque only one possible
 component of that bill.
 
-Adding a solid swirl to this local aligned turn-off does not close the aligned
-null direction. In cylindrical coordinates \(R=(x_1^2+x_2^2)^{1/2}\), for
-\(S=\operatorname{diag}(1,1,-2)\) and \(\mu=x_3/|x|\), the poloidal part of
-(CRM.19h) is
+The same-affine scalar source computation is still useful, but only as a
+readout obstruction. It shows that the scalar collar is not invisible to the
+slaved pressure source. It does not by itself supply the \(c_0\) payment,
+because the resulting mode is \(m=0\), aligned with the strain eigenframe, and
+time-even as a source magnitude. Decompose the bracket in (CRM.19k) into
+Legendre modes:
+
+```math
+1-3\mu^2+3\mu^4
+=
+\frac35-\frac27P_2(\mu)+\frac{24}{35}P_4(\mu).
+\tag{CRM.19k0}
+```
+
+Thus the \(l=4\) part of the slaved pressure source is
+
+```math
+\Pi_4 Q_{\rm lin}
+=
+\frac{96}{35}ab\,P_4(\mu).
+\tag{CRM.19k1}
+```
+
+For the same scalar turn-off,
+
+```math
+M'(\rho)=3a^2b\,M_{\rm aff},
+\qquad
+M_{\rm aff}<0
+\tag{CRM.19k2}
+```
+
+on the positive Vieillefosse orientation. This confirms that the same scalar
+collar carries the cubic drop while leaving an \(l=4\) source imprint:
+
+```math
+\Pi_4Q_{\rm lin}\neq0
+\quad\text{whenever}\quad
+ab\neq0.
+\tag{CRM.19k3}
+```
+
+This is not `CubicRadialMomentOddPayment.A`. A visible \(l=4\) source is an
+on-frame pressure readout; it can rescale the aligned strain, but it is not the
+off-frame, material-time-oriented pressure-current that brakes the Vieillefosse
+record. The same-affine scalar/no-swirl collar is therefore discharged only as
+pass-owned aligned material, not as a zero-bill \(c_0\) survivor paid by
+\(\Pi_4Q_{\rm lin}\). A non-aligned/off-frame pressure-current sign would be a
+component proof inside the strict bill, not the governing theorem. The governing
+theorem is the full zero-bill kernel: retained positive cubic flux cannot
+survive after every strict payment and every lawful owner-transfer has vanished.
+
+The first cancellation test says a \(P_4\)-only source readout is too narrow.
+In the axisymmetric poloidal class, write a smooth tangential incompressible
+correction as
+
+```math
+h_R=RH(\mu),
+\qquad
+h_z=-z\,\frac{1-\mu^2}{\mu^2}H(\mu),
+\qquad
+H(\mu)=O(\mu^2)\quad(\mu\to0).
+\tag{CRM.19k4}
+```
+
+This correction is tangent to the spheres, so it changes the angular current
+without directly changing the radial readout. Its divergence and linear
+pressure-source density are
+
+```math
+D_H
+=
+2H-\mu(1-\mu^2)H'
+-G-\mu(1-\mu^2)G',
+\qquad
+G=\frac{1-\mu^2}{\mu^2}H,
+\tag{CRM.19k5}
+```
+
+and
+
+```math
+T_H
+:=
+S:\nabla h
+=
+\left(4-\frac2{\mu^2}\right)H
+(1-\mu^2)\left(\frac2\mu-3\mu\right)H'.
+\tag{CRM.19k6}
+```
+
+Here the retained cubic flux is proportional to
+
+```math
+-\int_{-1}^1(1-3\mu^2)^2D_H(\mu)\,d\mu.
+\tag{CRM.19k7}
+```
+
+There are \(P_4\)-only cancellations. For example
+\(H=\mu^2-\frac{33}{2}\mu^4\) has nonzero cubic flux and zero \(P_4\) coefficient
+of \(T_H\). But it is not pressure-current silent:
+
+```math
+T_H
+=
+2-105\mu^2+270\mu^4-198\mu^6,
+\tag{CRM.19k8}
+```
+
+whose \(P_6\) coefficient is \(-96/7\). Thus the \(P_4\)-only readout is too
+narrow, while the full linear source still sees this axisymmetric retained
+flux.
+
+Moreover the smooth axisymmetric poloidal full-source null is empty. If
+\(T_H=0\), and \(H(\mu)=c\mu^k+O(\mu^{k+2})\) near \(\mu=0\), then (CRM.19k6)
+gives
+
+```math
+T_H
+=
+(2k-2)c\,\mu^{k-2}+O(\mu^k).
+\tag{CRM.19k9}
+```
+
+Smooth tangential corrections have \(k\ge2\), so \(T_H=0\) forces \(c=0\), and
+iteration gives \(H\equiv0\). Therefore an axisymmetric poloidal retained
+cubic-flux current cannot be silent for the full source. This is still a
+support calculation, not a payment theorem: \(T_H\) is a source-magnitude
+readout, and in this axisymmetric aligned class the frame remains locked. It
+rules out one fake invisible-source escape; it does not replace the required
+non-aligned \(m\neq0\) transverse pressure-current sign.
+
+Tangential auxiliary tests are only shortcut filters. They do not become a new
+live route. In cylindrical coordinates \(R=(x_1^2+x_2^2)^{1/2}\), for
+\(S=\operatorname{diag}(1,1,-2)\) and \(\mu=x_3/|x|\), the aligned poloidal
+part of (CRM.19h) is
 
 ```math
 u_R=aR+b\mu^2R,
 \qquad
 u_z=-2ax_3-b(1-\mu^2)x_3 .
-\tag{CRM.19k-swirl1}
+\tag{CRM.19k-support1}
 ```
 
-Now add
+Any tangential add-on is invisible to the radial readout unless it changes the
+same retained pressure/current/collar ownership. In particular
 
 ```math
 u_\phi=\gamma R .
-\tag{CRM.19k-swirl2}
+\tag{CRM.19k-support2}
 ```
 
-This azimuthal field is tangent to the spheres, so it does not change \(w\),
-\(M\), or \(\mathsf J_M^+\). For constant \(\gamma\), its contribution to the
-pressure source is only
+does not change \(w\), \(M\), or \(\mathsf J_M^+\). For constant \(\gamma\),
+its contribution to the pressure source is only
 
 ```math
 \operatorname{tr}(\nabla u)^2
 =
 \operatorname{tr}(\nabla u_{\rm pol})^2
 -2\gamma^2 .
-\tag{CRM.19k-swirl3}
+\tag{CRM.19k-support3}
 ```
 
-The extra term is the isotropic solid-rotation source. There is no \(b\gamma\)
-cross term that would own the aligned cubic turn-off. If \(\gamma\) varies, the
-instantaneous source reads the radial swirl derivative through
+The extra term is an isotropic rotation-gauge source. It supplies no
+\(b\)-linear ownership of the aligned cubic turn-off. More generally, a
+tangential profile can alter the instantaneous pressure source through
 
 ```math
 -2\frac{u_\phi}{R}\partial_R u_\phi
 =
--2\gamma(\gamma+R\partial_R\gamma),
-\tag{CRM.19k-swirl4}
+-\frac1R\partial_R(R^2\gamma^2).
+\tag{CRM.19k-support4}
 ```
-
-which is a circulation-gradient object, not the solid-swirl add-on.
-
-The material swirl coefficient also gives no uniform local domination of the
-aligned cubic drop. For the solid-swirl coefficient,
-
-```math
-D_t\frac{\gamma^2}{2}
-+2(a+b\mu^2)\gamma^2
-=
-\text{viscous/circulation-gradient terms}.
-\tag{CRM.19k-swirl5}
-```
-
-This work is \(\gamma^2\)-weighted and its sign depends on the radial
-compression \(a+b\mu^2\). It can vanish as \(\gamma\to0\) while
-\(\mathsf J_M^+\) for the poloidal turn-off remains fixed. Thus the local test
-does not prove a scale-uniform bound of \([M']_+\) by swirl compression work.
-The genuine aligned-with-swirl branch is not a solid-body rotation added to the
-affine sheet. It is the non-solid circulation-gradient/centrifugal problem:
-the same axisymmetric swirl field must either be the known no-swirl/poloidal
-regular branch, a solid-rotation gauge with no cubic ownership, or a
-\(\Gamma\)-gradient branch whose driver and centrifugal brake are both part of
-the same participation bill.
 
 This also shows why a fixed-time pressure-source coercivity theorem is too
-strong on the full swirl class. Since
-
-```math
--2\frac{u_\phi}{R}\partial_Ru_\phi
-=
--\frac1R\partial_R(R^2\gamma^2),
-\tag{CRM.19k-swirl6}
-```
-
-a non-solid swirl profile can be chosen locally so that this term cancels the
-aligned poloidal source (CRM.19j), while \(w\), \(M\), and \(\mathsf J_M^+\)
-are unchanged. The static \(Q\)-operator therefore has a lawful swirl-gradient
-null direction. The missing payment must use the material-time axisymmetric
-swirl dynamics: circulation-gradient forcing, viscosity, and centrifugal
-reaction in the same field.
-
-Equivalently, with \(F=\Gamma^2\),
-
-```math
--2\frac{u_\phi}{R}\partial_Ru_\phi
-=
--\frac1{R^3}F_R+\frac{2}{R^4}F .
-\tag{CRM.19k-swirl7}
-```
-
-The refund is therefore the Rayleigh/centrifugal pair, not an unowned pressure
-bank. The same \(F\) satisfies
-
-```math
-D_tF
-=
-\nu\left(\partial_R^2-\frac1R\partial_R+\partial_z^2\right)F
--2\nu|\nabla_{R,z}\Gamma|^2 .
-\tag{CRM.19k-swirl8}
-```
-
-So any persistent cancellation of the aligned cubic-drop source has to be paid
-or routed by the angular-momentum-gradient budget, its diffusion/dissipation,
-the centrifugal response, collar flux, or participation ownership.
+strong. A tangential profile can be chosen locally so that (CRM.19k-support4)
+cancels the aligned poloidal source (CRM.19j), while \(w\), \(M\), and
+\(\mathsf J_M^+\) are unchanged. This is not a new c0 route. It is only a
+negative test on the attempted proof: the static \(Q\)-operator by itself
+cannot be the bill. The live theorem remains the retained cubic-flux
+admission below.
 
 The correct ownership theorem is therefore not a detached pressure-collar size
 estimate. The old Gate 1 pressure-collar notes show that address ownership

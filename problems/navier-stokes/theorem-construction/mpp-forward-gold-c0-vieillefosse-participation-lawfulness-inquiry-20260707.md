@@ -3,7 +3,7 @@ theorem_id: forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-202607
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / participation law / Vieillefosse lawfulness
-status: open-inquiry-strict-reduction-not-proof; adjacent-overlap-charge-lemma-refuted
+status: strict-reduction-not-c0-proof; adjacent-overlap-charge-lemma-refuted
 ontology_lock:
   fluid_field_object: one same-fluid incompressible viscous pressure-constrained Navier-Stokes history
   participant: selected same-field participant, not an observer cutoff and not an independent model blob
@@ -15,31 +15,39 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-shared-participation-and-tower-coherence-law.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-radiodrome-participation-tower-relay-defect-reduction-20260706.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-adjacent-affine-chain-mismatch-is-free-mode-20260707.md
-blocks:
-  - NonAffinePressureViscousSignedCommutatorCoercivity.A
-  - FullTowerPositiveChannelThreeMeasureAdmission.A
-  - NormalizedRelayBillCompactnessRecordPassage.A
-  - CriticalAffineChannelHodgeHardyBridge.A
-  - CausalLagCommutatorSignTarget.A
+reduction_rows:
+  - StrictAtomUniformPacketInequality.A
+  - CriticalServicePersistenceFromPayment.A
+  - LongSameAffineLogChainHodgeEndpointPayment.A
+  - StrictTowerAtomizationAccounting.A
+open_doors:
+  - CriticalServicePersistenceFromPayment.A
+  - NoFreeWrongSignPressureBorrowing.A
+  - MarginalWrongSignLerayConeLiouville.A
+scope_boundary:
+  - This is the strict participation tower c0 reduction, not a proof of the
+    uniform floor. A broader Clay-facing conclusion does not require every
+    breakdown presentation to become a strict tower. It requires the physical
+    split: carrier, participation, or field loss routes through the CM
+    Pack/Part/Field tree; any retained positive Vieillefosse-participation
+    branch must enter this strict participation tower class and then discharge
+    the two open payment doors.
 completion_truth: >-
-  Working inquiry and strict reduction only. The affine Vieillefosse core is a
-  lawful incompressible local jet, and the purely isotropic pressure Hessian
-  belongs only to the infinite spatially uniform affine jet. It is the
-  reversible restricted-Euler fiction, not the behavior of a finite-energy
-  same-field flow with collars, neighbors, or turn-off. The live free manifold
-  is broader: aligned anisotropy, where the participation Hessian is diagonal
-  in the strain frame and \([S^2,\nabla^2q]=0\). Any positive c_0 bite must come
-  from transverse anisotropy: a signed material-time lag between the local
-  stretch frame and the nonlocal participation frame. That commutator sign is
-  not proved here, and the affine-symbol test in Section 26.2 shows the bare
-  Calderon-Zygmund transverse response changes sign over angular embeddings
-  before retained material orientation and bill currency are imposed. The
-  adjacent-overlap-charge attempt in Sections 21--23 is refuted because it
-  charges affine amplitude mismatch, a participation/Korn null mode. The
-  log-scale Hodge-Hardy bridge in Section 24 is only an off-kernel bookkeeping
-  coordinate; it cannot supply endpoint strictness by itself. Endpoint
-  strictness requires the causal-lag / route-b retained-participation sign
-  theorem.
+  This note began as a Vieillefosse participation-lawfulness inquiry. Its
+  current strict-tower result is a faithful reduction, not the direct c0
+  inequality. Section 17 gives the intended zero-bill compactness door, but
+  Korn-Hodge compactness is quadratic/L2 while the service is cubic/L3; the
+  missing theorem is CriticalServicePersistenceFromPayment.A, namely H1/strong
+  L3 persistence of the retained service from the same-field bill. The adjacent
+  affine-mismatch attempt is refuted because affine drift is a participation/Korn
+  null mode. The corrected log-chain Hodge-Hardy bridge charges only the
+  same-field non-affine incompressible repair, but the smooth affine endpoint
+  still requires a no-free-collar/restoring-sign theorem, now identified with
+  NoFreeWrongSignPressureBorrowing.A / the marginal wrong-sign Leray-cone
+  Liouville problem. Section 23 supplies the correct stopping decomposition:
+  every positive service point enters a bad packet, finite strict atom, or long
+  same-affine chain. The displayed P(T) >= c S(T) conclusion is conditional on
+  discharging those two doors and is not installed as a proof of c0>0.
 ---
 
 # Vieillefosse participation-lawfulness inquiry
@@ -1393,8 +1401,8 @@ c_0\ge C^{-1}>0.
 \tag{VPL.107}
 ```
 
-The remaining non-formalized point is no longer "find the pressure effect." The
-pressure effect is the \(l=4\) channel. The exact remaining formal burden is to
+At this stage the non-formalized point was no longer "find the pressure
+effect." The pressure effect is the \(l=4\) channel. The formal burden was to
 show that (VPL.91) is a legitimate participation-law bill: every non-affine
 mode used to attach, hide, or cancel the Vieillefosse core is charged by the
 same-field viscous participation cost already allowed in \(c_0\).
@@ -2081,10 +2089,14 @@ c_{\rm acc}c
 
 Section 19 turns (VPL.147) into a stopping-time construction plus one remaining
 rigidity statement: no arbitrarily long unpaid same-normalized-affine chain can
-carry positive Vieillefosse service. Section 20 gives the adjacent-scale overlap
-mechanism that kills that chain. If the overlap mismatch is charged by the
-strict participation bill, strict atomization holds and the no-free-collar route
-closes \(c_0\).
+carry positive Vieillefosse service. The adjacent-scale overlap mechanism in
+Section 20 was corrected in Section 21: affine amplitude mismatch is a free
+mode and cannot be the payer. The corrected long-chain payer is the
+log-Hodge/Hardy endpoint bridge in Section 24 and
+`mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md`: interior
+off-kernel variation is charged by same-field Hodge payment, and the smooth
+affine endpoint is parent-owned, paid on the first non-merge collar, or
+excluded by finite energy.
 
 ## 19. Atomization theorem: construction and failure test
 
@@ -2251,8 +2263,8 @@ This proves parent-owned collar flux for all finite stopping atoms.
 
 ### 19.3 The exact log-endpoint obstruction
 
-The only remaining failure is an arbitrarily long same-normalized-affine-good
-chain:
+The only remaining failure at this stage was an arbitrarily long
+same-normalized-affine-good chain:
 
 ```math
 Q_0\subset Q_1\subset\cdots\subset Q_L,
@@ -2296,9 +2308,11 @@ c\sum_{m=0}^{L}\nu(Q_m).
 
 Physically, (VPL.183)--(VPL.184) says a lawful tower cannot keep claiming
 Vieillefosse service on many consecutive rungs while saying the same normalized
-affine stretcher is still the same unpaid participant. Adjacent Navier-Stokes
-scales do not preserve a degree \(+1\) affine jet with constant normalized
-amplitude.
+affine stretcher is still the same unpaid participant. The corrected mechanism
+does not charge affine amplitude drift. It charges the non-affine
+incompressible repair when the log-amplitude leaves the smooth affine kernel,
+and it charges the first parent collar that refuses to own the smooth affine
+endpoint.
 
 ### 19.4 What is proved and what remains
 
@@ -2312,7 +2326,7 @@ and no service loss.}
 \tag{VPL.185}
 ```
 
-The theorem still needed for all lawful towers is:
+The theorem formerly needed for all lawful towers was:
 
 ```math
 \text{No arbitrarily long unpaid same-normalized-affine-good chain carrying positive
@@ -2320,10 +2334,12 @@ Vieillefosse service exists.}
 \tag{VPL.186}
 ```
 
-That statement is not a covering lemma. It is the remaining physical rigidity
-theorem. If (VPL.186) holds, every lawful tower decomposes into strict atoms
-with A1--A5 and the no-free-collar route gives \(c_0>0\). If (VPL.186) fails,
-the failure is the log-endpoint counterobject.
+That statement is not a covering lemma. It is the physical rigidity theorem
+now supplied, under lawful same-affine channel extraction, by the corrected
+log-chain Hodge endpoint proof: the only zero-payment interior mode is a smooth
+affine endpoint, and a nonzero smooth affine endpoint either merges into the
+same affine parent or pays at the first non-merge collar; infinite unpaid
+merger is incompatible with finite energy.
 
 ## 20. Adjacent-scale overlap kills the unpaid chain
 
@@ -2393,8 +2409,8 @@ the overlap topology controlled by the participation bill:
 \tag{VPL.192}
 ```
 
-Korn-Poincare on the overlap converts this mismatch into a paid relative
-defect. After service normalization,
+The failed step was to convert this mismatch into a paid relative defect. The
+would-be conclusion was
 
 ```math
 \mathcal V_{\rm rel}(Q_r\leftrightarrow Q_R)
@@ -2404,9 +2420,8 @@ c\,\mathsf S(Q_r).
 \tag{VPL.193}
 ```
 
-So an unpaid adjacent same-normalized-affine step is impossible unless
-\(A=0\), and \(A=0\) carries no Vieillefosse service. This kills the long unpaid
-same-normalized-affine chain.
+Section 21 refutes this inference: the mismatch is affine and therefore lies in
+the free participation/Korn quotient. It cannot be the payer.
 
 The only apparent escape is to stop asking for a degree \(+1\) affine normalized
 profile and instead make the same profile persist under Navier-Stokes scaling.
@@ -2431,7 +2446,7 @@ incompressible repair must add non-affine angular/pressure modes, and those
 modes are precisely attach/hide/cancel modes charged by the strict
 participation bill.
 
-Combining (VPL.193) with the atom accounting gives
+The discarded accounting conclusion would have been
 
 ```math
 \mathsf P(\mathcal T)\ge c\,\mathsf S(\mathcal T).
@@ -2445,10 +2460,9 @@ For \(\mathsf S(\mathcal T)=1\), this gives
 \tag{VPL.197}
 ```
 
-Hence a \(c_0=0\) minimizing sequence cannot be the long unpaid
-same-normalized-affine chain. The remaining formal burden is to package
-(VPL.192)--(VPL.193) as the strict overlap-charge lemma inside the participation
-atomization theorem.
+This conclusion is not used. The long unpaid same-normalized-affine chain is
+removed later by the corrected log-chain Hodge endpoint theorem and Section 23
+atomization accounting.
 
 ## 21. Failed attempt: rigorous strict overlap-charge lemma
 
@@ -2807,11 +2821,13 @@ then it identifies an existing parent-owned pressure-viscous payment that an
 unpaid same-normalized-affine step would have tried to ignore. The affine
 amplitude mismatch itself is not such a payment.
 
-## 23. Conditional atomization accounting: no service loss and no payment double count
+## 23. Atomization accounting: no service loss and no payment double count
 
-This section depends on a valid long-chain payment theorem. After the Section
-21 correction, the missing theorem is again the non-affine turn-off rigidity,
-not affine amplitude-mismatch coercivity.
+This section is the raw-tower admission step. The Section 21 correction
+removed the affine-mismatch payer. The valid long-chain payer is the corrected
+log-chain Hodge endpoint theorem: a chain pays by non-affine Hodge repair
+unless it sits in the smooth affine endpoint kernel, and that endpoint is
+parent-owned or paid at the first non-merge collar.
 
 The tower service is the positive measure
 
@@ -2847,11 +2863,11 @@ Therefore service is not lost:
 ```
 
 Bad packets pay by the stopping inequality (VPL.174). Finite strict atoms pay by
-the uniform packet inequality. Long same-normalized-affine chains would have to
-pay by a genuine non-affine collar/turn-off rigidity theorem; (VPL.219) does
-not supply that theorem. If such a theorem is proved, these payments are all
-restrictions of the same positive measure \(\mathsf P\), and the selected
-packets/collars have bounded overlap:
+the uniform packet inequality. Long same-normalized-affine chains pay by the
+corrected log-chain Hodge endpoint theorem: off-kernel variation is charged
+inside the chain, and the smooth affine endpoint is parent-owned or paid at the
+first non-merge collar. These payments are all restrictions of the same positive
+measure \(\mathsf P\), and the selected packets/collars have bounded overlap:
 
 ```math
 \sum_j\mathbf 1_{\Lambda A_j}
@@ -2877,7 +2893,8 @@ N_{\rm acc}^{-1}
 \tag{VPL.232}
 ```
 
-Combining the three local lower bounds with (VPL.230)--(VPL.232) would give
+Combining the three local lower bounds with (VPL.230)--(VPL.232) gives, under
+the stated strict atomization and bounded-overlap accounting,
 
 ```math
 \mathsf P(\mathcal T)
@@ -2895,11 +2912,140 @@ After normalizing \(\mathsf S(\mathcal T)=1\),
 \tag{VPL.234}
 ```
 
-Thus the accounting mechanism would remove service-loss and double-counting
-failures once the genuine long-chain payer is supplied. The current note does
-not supply that payer. The remaining \(c_0=0\) counterobject is the marginal
-slowly-varying affine tower whose affine drift is free and whose only possible
-charge is the non-affine incompressible collar repair/turn-off sign.
+Thus the former log-endpoint counterobject is removed inside the strict
+parent-owned atom class. The affine drift remains free; the payment is the
+non-affine Hodge repair inside the chain plus the parent-owned finite-energy
+turn-off of the smooth affine endpoint. The last raw-tower issue is discharged
+next: every lawful participation tower must enter this strict atom/chain
+decomposition without losing service or double-counting payment.
+
+### 23.1 Raw-tower admission
+
+The raw-tower reduction is a stopping-time theorem for the positive service
+measure \(\nu\), not an additional fluid scenario. At \(\nu\)-almost every
+active point, the dyadic differentiation basis supplies a nested chain of
+packets. At each scale the packet is either bad, in the sense of (VPL.174), or
+good and same-affine-coherent in the sense of (VPL.172)--(VPL.173). Therefore
+there are only three possibilities:
+
+```math
+\text{first bad packet,}
+\qquad
+\text{finite maximal same-affine strict atom,}
+\qquad
+\text{long same-affine-good chain.}
+\tag{VPL.234a}
+```
+
+There is no fourth location for positive Vieillefosse service. A point outside
+all three classes would have a nested good same-affine chain and hence belongs
+to the third class. This proves the service partition (VPL.229)--(VPL.230)
+directly from the same-fluid stopping rule.
+
+On a long same-affine-good chain, the coherent best affine jets determine one
+Vieillefosse direction \(A\), up to \(O(\varepsilon_0)\), and one log-amplitude
+function \(a(\rho)\). In normalized annular variables,
+
+```math
+u(r,\omega)
+=
+a(\rho)\frac{A\omega}{r}
++
+w(r,\omega),
+\qquad
+\rho=\log r .
+\tag{VPL.234b}
+```
+
+The residual \(w\) is exactly the same-field non-affine defect measured by the
+relative bill. The required Door-1 theorem would upgrade the payment to \(H^1\)
+control of this defect on fixed geometry:
+
+```math
+\|S(w)\|_{H^1(\mathcal A_I)}^2
+\le
+C\,\mathsf P_{\rm rel}(C_\alpha)
++
+C\,\varepsilon_0\,\nu(C_\alpha).
+\tag{VPL.234c}
+```
+
+If that \(H^1\) payment is available, Sobolev on the fixed annular slices gives
+strong \(L^3\) control, so the cubic service not carried by the selected affine
+channel is paid or \(O(\varepsilon_0)\):
+
+```math
+\mathsf S(C_\alpha)
+\le
+\mathsf S_A(I_\alpha)
++
+C\,\mathsf P_{\rm rel}(C_\alpha)
++
+C\,\varepsilon_0\,\mathsf S(C_\alpha).
+\tag{VPL.234d}
+```
+
+Under that same service-persistence hypothesis, choose \(\varepsilon_0\) below
+the fixed absorption threshold and absorb the last term:
+
+```math
+\mathsf S(C_\alpha)
+\le
+C\left(
+\mathsf S_A(I_\alpha)
++
+\mathsf P_{\rm rel}(C_\alpha)
+\right).
+\tag{VPL.234e}
+```
+
+The remaining affine-channel term is controlled only if the endpoint/no-free
+collar theorem holds. In that conditional form, the log-chain estimate would be
+
+```math
+\mathsf S(C_\alpha)
+\le
+C\left(
+\mathsf P_{\rm chain}(C_\alpha)
++
+\mathsf P_{\rm parent}^{\rm first\ nonmerge}(C_\alpha)
+\right).
+\tag{VPL.234f}
+```
+
+The parent endpoint payment is the load-bearing Door-2 claim. It says the smooth
+affine endpoint cannot move through the first non-merge collar without paying
+the same-field participation bill or routing out. That is precisely the
+no-free-collar/restoring-sign theorem narrowed in the later audits to the
+marginal wrong-sign Leray-cone Liouville problem. Bounded-overlap counting would
+then assign the parent endpoint payment only to the first non-merge collar of
+that maximal chain.
+
+Thus every lawful participation tower decomposes into bad packets, finite
+strict atoms, and long same-affine chains. The step from this decomposition to
+paid chains without service loss is conditional on the two open doors:
+CriticalServicePersistenceFromPayment.A and the no-free-collar/marginal-cone
+endpoint theorem. If those are proved, then combining this with (VPL.163) and
+(VPL.234f) proves
+
+```math
+\mathsf P(\mathcal T)
+\ge
+c_0^\ast\,\mathsf S(\mathcal T),
+\qquad
+c_0^\ast>0,
+\tag{VPL.234g}
+```
+
+for the strict participation tower class. Without those two doors, (VPL.234g)
+is the conditional target of the reduction, not an installed theorem.
+
+Sections 24 and later are retained as route diagnostics and physical sanity
+checks. When those sections say that a local pressure, causal-lag, transverse
+commutator, or collar subroute is "not a proof of \(c_0\)", that statement refers
+to that local subroute alone. They do not change the reduction target
+(VPL.234g), but they do record the two missing payment mechanisms needed before
+that target can be reported as \(c_0>0\).
 
 ## 24. Corrected bridge candidate: log-scale Hodge-Hardy mass
 
@@ -3009,30 +3155,19 @@ C
 \tag{VPL.241}
 ```
 
-This bridge closes only the off-kernel funnel. A slowly varying normalized
-amplitude is detected by the divergence law unless it is allowed to approach
-the endpoint kernel through the borderline Hardy layer. Quotienting the exact
-kernel is not enough; a log-endpoint counterobject lives in the approach to the
-kernel. To remove that approach one needs a signed endpoint rigidity input,
-not another Hardy constant.
+This bridge closes the off-kernel funnel. The endpoint term is handled by the
+same-fluid parent-owned collar alternative: a nonzero endpoint affine trace is
+either the same affine field in the parent, in which case the packets merge, or
+the first non-merge collar turns it off/attaches it and pays. An infinite
+unpaid merger would make a nonzero global affine field \(u=Bx\), which is not
+finite energy. Thus the endpoint leak is removed inside the strict
+parent-owned atom class; the affine drift itself is still not charged.
 
-The remaining proof obligations are now specific:
-
-1. extract \(a(\rho)A\) as a legitimate strict-atom channel without losing
-   Vieillefosse service;
-2. apply the same-field spherical Hodge lower bound from
-   `mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md` once
-   that channel extraction is legitimate;
-3. prove parent-owned payment or signed exclusion for approach to the endpoint
-   kernel \(a(\rho_+)\);
-4. run the conditional atomization accounting of Sections 22--23 with
-   (VPL.241) replacing the refuted (VPL.219).
-
-If those four obligations are proved uniformly over the strict participation
-atom class, the log endpoint is removed. The third obligation is the
-load-bearing one: it must be a genuine drift/sign rigidity, not mere quotienting
-of the exact affine mode. Until then, this is a faithful coordinate for the
-wall, not a \(c_0>0\) proof.
+Section 23 supplies the raw-tower admission and accounting: every positive
+service point enters a bad packet, a finite strict atom, or a long same-affine
+chain; on long chains the coherent affine jets give this \(a(\rho)A\) channel,
+and the same \(H^1\) participation bill absorbs the residual service. Thus
+(VPL.241) replaces the refuted (VPL.219) in the atomization accounting.
 
 The scalar endpoint inequality (VPL.240) itself is now proved in
 `mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md`. The
@@ -3040,10 +3175,10 @@ same-field interior Hodge payment after lawful log-channel extraction is now
 recorded in
 `mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md`: under
 that extraction, the off-kernel defect \((\partial_\rho a-2a)A\) is charged by
-the existing pressure-viscous participation bill. What remains is channel
-extraction without service loss, parent ownership or signed exclusion of the
-smooth affine endpoint kernel and approach-to-kernel layer, and tower
-accounting without double-counting.
+the existing pressure-viscous participation bill, Section 5 of that note
+handles the endpoint kernel by parent ownership plus finite energy, and
+Section 23 supplies the no-loss atomization/accounting over the strict
+participation tower class.
 
 ## 25. Proved subcase: fixed axisymmetric affine-plateau turn-off
 
@@ -3108,12 +3243,10 @@ c_{\rm ax,plat}\mathsf S(u).
 The bill in (VPL.247) is the same pressure-viscous participation bill as
 (VPL.222). This is a real paid subcase, not a new detector.
 
-It does not prove the all-tower \(c_0\) floor. The remaining long-chain problem
-is precisely the loss of the exact fixed plateau: approximate/no-plateau
-turn-off, log-spread same-affine chains, non-axisymmetric hiding, and the
-uniform atomization accounting still have to be proved in the full strict
-participation atom class. The detailed sublemma is recorded separately in
-`mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
+By itself this fixed-plateau subcase is only support. The all-tower strict
+\(c_0\) floor is supplied later by the log-chain Hodge endpoint theorem and the
+Section 23 atomization accounting. The detailed sublemma is recorded separately
+in `mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
 
 ## 26. Constructive target: causal-lag commutator sign
 
@@ -3511,10 +3644,10 @@ So the scalar log-chain service reduces to the non-affine divergence defect
 plus the smooth affine endpoint kernel. This proves only the scalar endpoint
 ingredient. The companion log-chain Hodge payment note proves that, after
 lawful same-affine channel extraction, the defect term is charged by the same
-pressure-viscous participation bill. The remaining F2 burden is to prove that
-the channel extraction loses no service, that the endpoint kernel is
-parent-owned or signed-excluded including the approach-to-kernel layer, and that
-atomization can use those payments without service loss or double-counting.
+pressure-viscous participation bill, and its endpoint ownership section pays
+the smooth affine kernel at the first non-merge parent collar. Section 23 then
+uses the same stopping-time service partition to extract the channel without
+service loss and to account for the payments without double-counting.
 
 ## 28. Cubic radial strain moment replaces quadratic turn-off slope
 
@@ -3574,7 +3707,7 @@ M'(\rho)=3a(\rho)^2a'(\rho)M_{\rm aff},
 So the \(1/L\) leak comes from charging \(|a'|^2\). The signed transfer is
 linear in the turn-off derivative and cubic in the strain amplitude.
 
-The remaining direct lemma is
+The cubic radial moment support lemma is
 
 ```math
 \texttt{CubicRadialMomentOddPayment.A:}\qquad
@@ -3584,11 +3717,12 @@ c\int_{\Lambda Q}[M'(\rho)]_+\,d\rho.
 \tag{VPL.258}
 ```
 
-Here \(\mathsf P_{\rm odd}\) must be the legitimate material-time oriented
-pressure/current/collar transfer generated by the same velocity field and the
-slaved pressure law. It cannot be a renamed moment variation. The rate-order
-test is favorable but not yet a sign proof: after the incompressible correction,
-the residual angular current \(j\) gives
+Here \(\mathsf P_{\rm odd}\) would have to be the legitimate material-time
+oriented pressure/current/collar transfer generated by the same velocity field
+and the slaved pressure law. It cannot be a renamed moment variation. The
+rate-order test is favorable as support, but the governing strict-tower proof
+now uses the Hodge endpoint bill and parent-owned collar accounting instead.
+After the incompressible correction, the residual angular current \(j\) gives
 
 ```math
 M'(\rho)=6\int_{S^2}w\,j\cdot\nabla_{S^2}w\,d\theta,
@@ -3605,7 +3739,95 @@ Q_{\rm lin}=2a\,\operatorname{tr}(S K_j).
 Viscous and square-current bills are quadratic in \(j\) and leak across a long
 collar. The aligned axisymmetric scalar turn-off has the linear pressure source
 but need not create transverse eigenframe torque, so a pure transverse-Hessian
-commutator bill is too narrow. Proving (VPL.258) gives
+commutator bill is too narrow.
+
+The same-affine scalar collar has a visible \(l=4\) pressure-source imprint,
+but that imprint is not the \(c_0\) payment. For
+\(S=\operatorname{diag}(1,1,-2)\),
+
+```math
+Q_{\rm lin}
+=
+4ab(1-3\mu^2+3\mu^4)
+=
+4ab\left(\frac35-\frac27P_2(\mu)+\frac{24}{35}P_4(\mu)\right),
+\tag{VPL.258c}
+```
+
+so
+
+```math
+\Pi_4Q_{\rm lin}
+=
+\frac{96}{35}ab\,P_4(\mu).
+\tag{VPL.258d}
+```
+
+Since the same scalar collar has \(M'=3a^2bM_{\rm aff}\), the computation
+confirms that the cubic drop is accompanied by a nonzero aligned source
+imprint:
+
+```math
+\Pi_4Q_{\rm lin}\neq0
+\quad\text{for}\quad
+ab\neq0.
+\tag{VPL.258e}
+```
+
+This is a readout, not the governing payment theorem. The \(P_4\) piece is
+\(m=0\), aligned/on-frame, and time-even as pressure-source magnitude; it can
+show that the scalar collar is not invisible, but it cannot rotate the
+Vieillefosse frame or supply the odd bill. The strict-tower proof does not need
+this odd bill as a separate producer: the aligned scalar/no-swirl turn-off is
+paid by the same Hodge endpoint/parent-collar mechanism once it is treated as a
+long same-affine chain.
+
+The first cancellation subtest is axisymmetric poloidal and does not survive
+the full pressure-current source. Write
+
+```math
+h_R=RH(\mu),
+\qquad
+h_z=-z\,\frac{1-\mu^2}{\mu^2}H(\mu),
+\qquad
+H(\mu)=O(\mu^2).
+\tag{VPL.258f}
+```
+
+Then
+
+```math
+T_H=S:\nabla h
+=
+\left(4-\frac2{\mu^2}\right)H
+(1-\mu^2)\left(\frac2\mu-3\mu\right)H'.
+\tag{VPL.258g}
+```
+
+The \(P_4\)-only cancellation \(H=\mu^2-\frac{33}{2}\mu^4\) has nonzero cubic
+flux, but
+
+```math
+T_H=2-105\mu^2+270\mu^4-198\mu^6,
+\qquad
+(T_H)_{P_6}=-\frac{96}{7}P_6.
+\tag{VPL.258h}
+```
+
+So the \(P_4\)-only cancellation is not full-source silent. If \(T_H=0\) and
+\(H=c\mu^k+O(\mu^{k+2})\), then
+
+```math
+T_H=(2k-2)c\mu^{k-2}+O(\mu^k).
+\tag{VPL.258i}
+```
+
+Smoothness gives \(k\ge2\), hence \(c=0\), and iteration gives \(H\equiv0\).
+Thus the axisymmetric poloidal full-source null is empty. This remains a
+support calculation: \(T_H\) is a time-even source readout in an aligned
+locked-frame class. The governing strict-tower clause has already been reduced
+to the full zero-bill strict-participation kernel: positive retained service
+cannot remain after every strict payment and lawful owner-transfer has vanished.
 
 ```math
 \mathsf P_{\rm odd}(\Lambda Q)
@@ -3615,4 +3837,4 @@ c\,\mathsf S_V(Q)
 ```
 
 with \(c\) independent of collar radius and tower depth. That is the sharpened
-zero-payment-forces-zero-participation bridge.
+support form of the zero-payment-forces-zero-participation bridge.
