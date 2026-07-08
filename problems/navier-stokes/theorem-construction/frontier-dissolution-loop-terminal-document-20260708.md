@@ -525,3 +525,13 @@ None.
   closure does not by itself prove W3 tower-uniform service payment, W7 graph or
   route-out, W8 selected-linear original-data bill, or W9 compact material-time
   action/path content.
+- The fixed-cover flux ownership reduction records the positive overlap in that
+  proposal. If a dangerous selected record has a common Eulerian balance
+  \(\partial_tR+\nabla\cdot J_R=G_R-B_R+\operatorname{Route}_R\), then for a
+  fixed partition of unity \(\{\chi_\alpha\}\),
+  \(\sum_\alpha\int J_R\cdot\nabla\chi_\alpha=0\). Packet exit is then internal
+  field transfer, not loss of ownership. This is a strict reduction target, not
+  a deletion, because current sources do not install that signed balance for the
+  selected \(c_0\)-bearing record: pressure flux lacks sign/coercive absorption,
+  CKN mass is radius-weighted rather than an unweighted normalized critical
+  budget, and terminal stress-work variation is still open.

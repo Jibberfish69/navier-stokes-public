@@ -21,3 +21,17 @@ Candidate terminal class for all four: **reduction to the one surviving written 
 - **W8 (the collection/payment producer)** → REDUCES to E1+E2 (sustained supercritical delivery vs the signed flux tax — the physical core with the bookkeeping grammar deleted).
 
 Attack surfaces: (i) exhibit W7/W9 packet-frame content that the fixed frame genuinely needs and cannot restate (the partner's own dichotomy E4 — if packet accounting is NECESSARY as leak-excluder, the reduction of W7 is partial and W7 survives as the leak-exclusion clause); (ii) the suitable-class closure theorem covers the ENERGY-level rows — check whether the corrected walls' H^{1/2}-record-level content passes at that level or needs the E2 identity first; (iii) owner install of the E-list is a precondition — no terminal class binds before it.
+
+---
+
+## ARC-2 SYNTHESIS: the exploitable overlap = tiled transport + pairwise cancellation (owner-driven, both lanes converged; filed as the arc's opening object)
+
+Owner's insight chain (with the partner lane): smoothness breaks frame-invariantly; the flux law should restore ownership if the whole field is the owner; there is overlap to exploit. The exploit, made exact:
+
+1. **Tiled transport balance:** Reynolds transport on every cell of a fixed cover; interior boundary terms cancel PAIRWISE (shared walls, opposite normals). Custody is replaced by pairing: nothing hides through a window because every window has a partner.
+2. **Pressure is globally zero-sum:** ∫div(pu) = 0 — pressure does no net work on the whole incompressible field; its entire role is redistribution. THIS RESOLVES THE INVARIANT WALL'S MYSTERY: two years of "every payment candidate reverts, pressure unpaid" happened because the packet frame was billing a courier — globally there was never anything to pay. In the tiled frame this is an identity, not a wall.
+3. **What survives the global sum:** only genuine material change (production, dissipation — where the day's proved per-cell signs live: knock-off square, per-shell bill, net margin, all local and custody-free) and terminal concentration defects (ε-regularity's object).
+4. **Theorem shape (tiled no-runaway):** on a multiscale (CKN-type) cover, sustained supercritical concentration requires production to keep winning inside shrinking cells against its own per-cell tax, with no subsidy possible — every apparent subsidy is a paired transfer drawn from a globally non-increasing budget (Leray + the exact enstrophy ledger ZPF.21).
+5. **Named crux (the arc's E2 sharpened):** the cancellation needs LOCAL balance laws. Energy and enstrophy/strain have them (the corpus's identities live there); the critical record Ḣ^{1/2} is nonlocal and does not tile naively. The exploit's exact technical content: run the tiled balance at the strain/enstrophy level, port to the critical record through the existing shrink-map chain. The representative choice is where this works or teaches the next correction.
+
+E-list mapping: this synthesis is E2+E4 jointly attacked (the pairing IS the leak-exclusion; the per-cell signs ARE the signed correction), with E1 as the surviving question in tiled form and E3 as the cover's scale-uniformity. Nothing paid; the owner's install of the E-list still governs.
