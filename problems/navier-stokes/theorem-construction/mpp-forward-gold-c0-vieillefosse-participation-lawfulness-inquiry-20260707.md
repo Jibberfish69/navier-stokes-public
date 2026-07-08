@@ -3020,8 +3020,9 @@ The remaining proof obligations are now specific:
 
 1. extract \(a(\rho)A\) as a legitimate strict-atom channel without losing
    Vieillefosse service;
-2. prove the same-field spherical Hodge lower bound (VPL.238), including the
-   pressure/viscous participation bill and atom errors;
+2. apply the same-field spherical Hodge lower bound from
+   `mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md` once
+   that channel extraction is legitimate;
 3. prove parent-owned payment or signed exclusion for approach to the endpoint
    kernel \(a(\rho_+)\);
 4. run the conditional atomization accounting of Sections 22--23 with
@@ -3034,9 +3035,15 @@ of the exact affine mode. Until then, this is a faithful coordinate for the
 wall, not a \(c_0>0\) proof.
 
 The scalar endpoint inequality (VPL.240) itself is now proved in
-`mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md`. What remains
-in this bridge is not the one-dimensional Hardy estimate; it is the same-field
-NS ownership of the quantities appearing around it.
+`mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md`. The
+same-field interior Hodge payment after lawful log-channel extraction is now
+recorded in
+`mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md`: under
+that extraction, the off-kernel defect \((\partial_\rho a-2a)A\) is charged by
+the existing pressure-viscous participation bill. What remains is channel
+extraction without service loss, parent ownership or signed exclusion of the
+smooth affine endpoint kernel and approach-to-kernel layer, and tower
+accounting without double-counting.
 
 ## 25. Proved subcase: fixed axisymmetric affine-plateau turn-off
 
@@ -3502,7 +3509,9 @@ C_{\rm HH}
 
 So the scalar log-chain service reduces to the non-affine divergence defect
 plus the smooth affine endpoint kernel. This proves only the scalar endpoint
-ingredient. The remaining F2 burden is to prove that the defect term is
-actually charged by the same pressure-viscous participation bill, that the
-endpoint kernel is parent-owned, and that atomization can use those payments
-without service loss or double-counting.
+ingredient. The companion log-chain Hodge payment note proves that, after
+lawful same-affine channel extraction, the defect term is charged by the same
+pressure-viscous participation bill. The remaining F2 burden is to prove that
+the channel extraction loses no service, that the endpoint kernel is
+parent-owned or signed-excluded including the approach-to-kernel layer, and that
+atomization can use those payments without service loss or double-counting.
