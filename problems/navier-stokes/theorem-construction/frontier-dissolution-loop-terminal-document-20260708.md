@@ -84,3 +84,9 @@ None.
   graph closedness/admission, and material-time certificate invariance, but
   `ZeroLossTowerRelayRigidity.A` remains an unproved source-listed endpoint row
   unless the separate Gate2/WLF producer reduction is invoked.
+- W7 == W9 failed: W7 is retained VPI record graph passage/admission through a
+  critical compactness limit, including arbitrary-original-data admission into
+  the retained branch; W9 is compact certified material-time shift-hull /
+  closed-zero-surplus certificate-flow invariance, with path-hull,
+  shift-room, zero-payer, and terminal-window certificate clauses. Neither
+  direction reduces to the other.
