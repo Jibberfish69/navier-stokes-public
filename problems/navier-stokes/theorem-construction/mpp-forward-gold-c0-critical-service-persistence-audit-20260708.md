@@ -8,6 +8,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-forces-zero-participation-direct-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
 completion_truth: >-
   This note records the direct c0 service-persistence audit prompted by Claude
   cycle 41. VPL Section 17 is a conditional compactness proof under A1--A5,
@@ -19,7 +20,10 @@ completion_truth: >-
   the direct theorem now has an explicit producer row:
   CriticalServicePersistenceFromPayment.A. Under H1-payment admission this row
   is proved by Sobolev/strong L3 convergence; without that admission the bubble
-  is a real gap in the direct c0 proof.
+  is a real gap in the direct c0 proof. The cubic radial strain moment note
+  supplies the signed cubic turn-off coordinate that can replace square-slope
+  control, provided CubicRadialMomentOddPayment.A is proved in the legitimate
+  same-field pressure/current bill.
 ---
 
 # Critical Service Persistence Audit
@@ -184,6 +188,8 @@ Thus the current direct \(c_0\) frontier is:
 \begin{array}{ll}
 \text{service persistence/payment admission:}
 & \texttt{CriticalServicePersistenceFromPayment.A},\\
+\text{signed cubic turn-off bill:}
+& \texttt{CubicRadialMomentOddPayment.A},\\
 \text{channel extraction:}
 & \text{extract the same-affine log channel without losing service,}\\
 \text{endpoint ownership:}
@@ -196,3 +202,5 @@ Thus the current direct \(c_0\) frontier is:
 
 With these rows installed, the direct contradiction proof of \(c_0>0\) goes
 through. Without the first row, the cubic concentration bubble is not excluded.
+Without the second row, the cubic moment drop is only a signed readout, not yet
+the legitimate \(\mathsf P\)-currency.
