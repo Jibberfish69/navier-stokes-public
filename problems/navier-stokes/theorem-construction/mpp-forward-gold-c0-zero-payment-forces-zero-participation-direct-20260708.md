@@ -474,6 +474,38 @@ material-time: the same field's \(\Gamma\)-gradient and centrifugal response
 must pay, pass to a known regular axisymmetric class, or lose active
 participation. It is not a static elliptic \(Q\)-operator lower bound.
 
+In the angular-momentum variable \(F=\Gamma^2\), the same term is
+
+```math
+-2\frac{u_\phi}{R}\partial_Ru_\phi
+=
+-\frac1{R^3}F_R+\frac{2}{R^4}F .
+\tag{ZPF.7k13}
+```
+
+So the static refund is the already identified Rayleigh/centrifugal pair:
+negative angular-momentum gradient plus centrifugal barrier. The \(F\)-budget
+
+```math
+D_tF
+=
+\nu\left(\partial_R^2-\frac1R\partial_R+\partial_z^2\right)F
+-2\nu|\nabla_{R,z}\Gamma|^2
+\tag{ZPF.7k14}
+```
+
+owns that refund resource. The smaller Gate-B obligation is therefore
+
+```math
+\texttt{OwnedAngularMomentumGradientRefundNoFreeCubicDrop.A}.
+\tag{ZPF.7k15}
+```
+
+It says a retained atom cannot use \(-R^{-3}F_R\) to cancel the aligned
+cubic-drop pressure source while the same \(F\)-budget, centrifugal term,
+annular/collar flux, and participation owner all claim zero payment or no
+route-out.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
