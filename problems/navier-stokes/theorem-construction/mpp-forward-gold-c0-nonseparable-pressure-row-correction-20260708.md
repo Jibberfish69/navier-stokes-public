@@ -144,10 +144,10 @@ adjoint certificate persists for retained \(w=q+\eta\), or whether the
 perturbation is necessarily visible in another retained VPI row or in the
 parent relay. The retained-sphere adjoint-range form of that test is recorded
 in `mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md`.
-That note also shows that axial solid rotation added to the affine strain is
-not a pressure-row counterexample: the missing azimuthal adjoint term is
-exactly the adjoint of the same-record frame row
-\(F_\Omega j=\Omega\theta\cdot j\). For non-axial skew motion, the residual is
-the transported strain-frame component, so the pressure-only test is replaced
-by `FullMaterialFrameRowAdmission.A` plus the combined-row test
-`RetainedCombinedRowAdjointRangePersistence.A`.
+That note also shows that affine skew motion added to the affine strain is not
+a pressure-row counterexample. For \(\Omega x=b\times x\), the skew adjoint
+term is exactly owned by the same-record material-frame rows: rigid spin and
+strain-pattern turnover. Thus `AffineFullMaterialFrameRowCertificate.A` is
+proved at the affine sphere. For retained \(w=q+\eta\), the pressure-only test
+is replaced by `RetainedFullMaterialFrameRowAdmission.A` plus the combined-row
+test `RetainedCombinedRowAdjointRangePersistence.A`.
