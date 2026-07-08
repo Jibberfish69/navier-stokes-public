@@ -398,6 +398,48 @@ Thus zero retained bill forces no positive retained cubic flux. A positive
 flux with zero bill is lawful only as owner transfer, not as retained active
 service.
 
+The aligned-with-swirl check does not close this theorem by simply adding
+solid-body swirl to the aligned turn-off. For the aligned poloidal test
+
+```math
+u_{\rm pol}
+=
+aSx+\frac{b}{3}(Sx-qx),
+\qquad
+S=\operatorname{diag}(1,1,-2),
+\tag{ZPF.7k8}
+```
+
+the add-on \(u_\phi=\gamma R\) is tangent to the spherical radial readout, so
+it leaves \(M\), \(\mathsf J_M^+\), and the aligned cubic drop unchanged. For
+constant \(\gamma\), it contributes only the solid-rotation pressure source
+
+```math
+\operatorname{tr}(\nabla u)^2
+=
+\operatorname{tr}(\nabla u_{\rm pol})^2-2\gamma^2,
+\tag{ZPF.7k9}
+```
+
+which is isotropic and does not own the \(b\)-linear aligned turn-off. The
+material swirl work
+
+```math
+D_t\frac{\gamma^2}{2}
++2(a+b\mu^2)\gamma^2
+=
+\text{viscous/circulation-gradient terms}
+\tag{ZPF.7k10}
+```
+
+is \(\gamma^2\)-weighted and not uniformly tied to \([M']_+\). Hence the
+solid-swirl add-on still has a null direction for the local cubic-drop bill.
+The strict branch split is: no-swirl/aligned poloidal material is covered by
+the known axisymmetric-no-swirl regularity mechanism, solid-body swirl is a
+rotation-gauge add-on, and the genuine aligned-with-swirl residual is the
+non-solid \(\Gamma\)-gradient/centrifugal driver-brake problem in the same
+axisymmetric field.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
