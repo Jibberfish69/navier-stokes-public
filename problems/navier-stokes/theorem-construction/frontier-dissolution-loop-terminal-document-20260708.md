@@ -160,3 +160,10 @@ None.
   lift/lsc plus terminal-window no-escape would imply the W9 closed certificate
   graph; current W3/W7/W8 sources do not supply that uniform BV/tightness or
   terminal-window input.
+- W8 theta-payer coordinate narrowing does not delete W9: the route-b/Gate2
+  and theta-payer sources identify W8 as the Gate2 / pre-readout theta-payer
+  producer coordinate, but WLF.60 / ODP.91 remains unproved from arbitrary
+  original data, and W9 still requires compact certified path topology,
+  continuous shifts/action on the compactified certificate family,
+  terminal-window no-escape, and lower-semicontinuous closure of all
+  surplus-payer rows in that common topology.
