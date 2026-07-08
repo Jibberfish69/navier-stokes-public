@@ -1295,7 +1295,32 @@ not prove that every future-positive spin-2 record edge enters such a finite
 parent menu before readout. Thus Gate A is physically reduced but formally
 open at the same pre-readout selector-capture theorem.
 
-## 21. Cycle 23 endpoint exclusion audit
+## 22. Cycle 23: Gate B is not currently excluded
+
+Claude cycle 23 asks whether the endpoint exclusion reaches the axisymmetric
+self-similar swirl branch. The answer is no, not with the installed \(c_0\)
+machinery.
+
+The branch is axisymmetric \(l=2,m=0\) uniaxial service, not scalar \(l=0\)
+background and not the rotating \(m=\pm2\) spin-2 branch. It has
+\(H_\perp^S=0\) by \(SO(2)\) symmetry and remains anisotropic. The coefficient
+audit shows that the local on-axis equations do not contradict such a retained
+endpoint.
+
+Therefore the live theorem is
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointCoefficientLiouville.A}.
+\tag{ATH.76}
+```
+
+It must exclude a finite-energy, viscosity-compatible, zero-bill,
+positive-record axisymmetric-with-swirl endpoint in the strict atom class, or
+else admit it as the Gate-B counterprofile. Exact NRS/Tsai self-similar
+exclusion and no-swirl plateau turn-off are not enough by themselves; they apply
+only after the endpoint is promoted into their hypotheses.
+
+## 22. Cycle 23 endpoint exclusion audit
 
 Claude cycle 23 correctly restores the axisymmetric swirl branch as Gate B, but
 the endpoint wording needs one correction. The current proof does not contain
