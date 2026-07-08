@@ -1148,6 +1148,43 @@ transverse response pay in the same \(c_0\) bill. With those pieces, the signed
 commutator plugs into \(c_0>0\). Without them, this note is a sharp reduction,
 not closure.
 
+## 20. Cycle 22: causality versus proof selection
+
+Claude cycle 22 correctly kills the physical anticipatory escape. A forward
+Navier--Stokes solution cannot choose a child orientation from its own future;
+at formation the child is carved out of the already-built parent velocity,
+strain, pressure, and collar tensor/current.
+
+The formal obligation is the stopped-selector theorem:
+
+```math
+\texttt{StoppedCausalSpinTwoSelectorRealization.A}.
+\tag{ATH.67}
+```
+
+It must convert any retained positive spin-2 record tower into a stopped,
+parent-announced first-exit selection whose birth detector is the inherited
+parent-known spin-2 tensor, preserving service and not hiding the reorientation
+bill. Then
+
+```math
+\texttt{StoppedCausalSpinTwoSelectorRealization.A}
++
+\texttt{SchurThinAdmissionRule.A}
++
+\texttt{FiniteDimensionalSchurMotionPayment.A}
+\Longrightarrow
+\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}.
+\tag{ATH.68}
+```
+
+So Gate A is reduced to a ledger/stopping theorem, not to a new physical
+counterprofile. The distinction still matters: the fluid cannot anticipate, but
+the proof can accidentally select retrospectively unless the stopped selector is
+constructed. Once it is constructed, all rotating nonzero-spin-2 branches pay,
+and the residual \(c_0\) burden is Gate B: the fixed-axis \(l=2\)
+axisymmetric-with-swirl endpoint under material-time Liouville.
+
 ## 20. Cycle 22 and the fixed-axis swirl coefficient audit
 
 Claude cycle 22 is too strong as stated. Forward causality says the velocity
