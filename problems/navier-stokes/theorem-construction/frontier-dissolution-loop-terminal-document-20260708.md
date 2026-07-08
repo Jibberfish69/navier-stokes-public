@@ -260,3 +260,9 @@ None.
   \(\sum 2^{-\ell}/(\ell+1)^2\) and infinite selected-linear bill
   \(\sum 1/(\ell+1)\). W8 remains the native selected-linear WLF.60 / ODP.91
   original-data payment on the order-locked full-packet carrier.
+- Claude's W9 datum/ancestry-faithfulness attack confirms the S1 action
+  certificate as scoped but deletes no wall: actual smooth histories have
+  future uniqueness on their retained interval, yet checked W7 is still a
+  retained record graph-passage/admission theorem and does not provide the W9
+  path-valued compact shift hull, continuous fixed shifts, terminal-window
+  room, or canonical path-germ/action coordinate on compact closure.
