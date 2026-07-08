@@ -266,3 +266,10 @@ None.
   retained record graph-passage/admission theorem and does not provide the W9
   path-valued compact shift hull, continuous fixed shifts, terminal-window
   room, or canonical path-germ/action coordinate on compact closure.
+- W3 does not reduce to the W7+W8 coalition as sourced. W7 supplies retained
+  VPI graph passage/admission through critical compactness, and W8 supplies
+  selected-linear WLF.60 / ODP.91 original-data payment on the order-locked
+  full-packet carrier, but no checked source admits the Door-1 local strain H1
+  response as a finite/uniform retained same-field payment row in the strict
+  tower. W3 remains `CriticalServicePersistenceFromPayment.A` at the H1-row
+  admission/finiteness/uniformity point.
