@@ -2,8 +2,8 @@
 theorem_id: forward-gold-c0-global-strict-bill-admission-accounting-20260708
 created: 2026-07-08
 problem: navier-stokes
-route: forward-gold / c_0 / strict retained participation tower / global bill accounting
-status: strict-retained-tower-c0-closed-under-admitted-strict-bill; clay-original-data-admission-still-open
+route: forward-gold / c_0 / strict retained participation tower / conditional global bill accounting
+status: conditional-accounting-only; long-chain-signed-endpoint-handoff-charge-still-open
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-zero-payment-forces-zero-participation-direct-20260708.md
@@ -12,28 +12,28 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2b-critical-cone-profile-production-accounting-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
 completion_truth: >-
-  This note proves the global no-loss/no-double-count accounting step for the
-  retained strict participation tower, assuming the strict bill admits the
-  same-field Door-1 H1/enstrophy payment, Door-2a fixed-collar H1 trace payment,
-  and Door-2b profile-production cone payment. Under that admitted bill, VPL
-  Section 23 plus Door 1, Door 2a, and Door 2b give P(T) >= c S(T), hence
-  c0>0 for the retained strict participation tower class. This is not yet a
-  full Clay proof from arbitrary original data: the remaining external burden is
-  that every relevant Navier-Stokes breakdown branch either enters this retained
-  strict bill class with the admitted payment channels or routes out through the
-  CM Pack/Part/Field tree.
+  This note proves only the no-loss/no-double-count accounting step after the
+  local payment theorems have already been admitted in the same tower currency.
+  It must not be cited as an independent c0 closure. The long same-affine chain
+  row still depends on the signed endpoint handoff / non-telescoping charge:
+  the parent-owned endpoint amplitude a_+ has to be charged by a T-odd
+  same-field pressure-current/transport sign, or routed out, with a
+  scale-uniform constant. Hodge/viscous magnitude bills charge off-kernel
+  variation and fixed finite collars; they do not by themselves charge the
+  endpoint affine mode. Under that additional signed endpoint-admission theorem
+  the accounting gives P(T) >= c S(T) for the admitted class. Without it this
+  file is a conditional reduction, not a proof of c0>0.
 ---
 
 # Global strict bill admission/accounting
 
 Physical sentence: once a retained tower is really the same fluid carrying
-positive Vieillefosse service, every place where that service can hide has a
-same-field payment channel. Small non-affine concentration pays the
-enstrophy-viscous \(H^1\) bill. Smooth affine turn-off pays the fixed collar
-trace bill. The critical pressure cone pays profile-production defects, and
-zero defect is the zero-force Landau/Sverak profile. The only remaining
-accounting question is whether these payments are all counted once in the same
-tower bill. They are.
+positive Vieillefosse service, the surrounding field must answer that service.
+The finite and off-kernel answers can be accounted by the strict bills below.
+The long same-affine endpoint is different: the endpoint affine amplitude is
+the free Korn/participation mode, so it is paid only by a signed same-field
+handoff theorem, not by a magnitude bill. This file accounts payments after
+that theorem is admitted; it does not prove the endpoint sign.
 
 ## 1. The admitted strict bill
 
