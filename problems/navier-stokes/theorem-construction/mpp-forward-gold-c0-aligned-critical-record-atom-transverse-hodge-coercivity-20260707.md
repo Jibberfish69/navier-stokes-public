@@ -329,19 +329,15 @@ Applying that closure to the uniaxial pressure bank is the current subproblem:
 \tag{ATH.20}
 ```
 
-## 8. Cycle-12 sharpened wall: in-plane strain phase
+## 8. Cycle-12 phase bookkeeping after the local-rigidity failure
 
-Claude cycle 12 sharpens the uniaxial survivor by the location of the record
-axis.
+Claude cycle 12 usefully isolates the in-plane strain phase, but cycle 13
+supersedes the local closure reading. The exact shear-cell bank can prescribe
+the uniaxial pressure Hessian at jet level, so no case is killed by local
+Codazzi algebra alone.
 
-Case A: the pressure axis is the record axis. Then the Codazzi/normal-form
-branch attacks the same direction that carries service. In the zero-bill
-reading this routes to affine endpoint, singular radial branch, pass/service
-zero, or paid cut-off.
-
-Case B is the remaining wall. The record lies inside the pressure-degenerate
-plane. Then pressure is isotropic on the plane while strain is still anisotropic
-inside that same plane:
+The phase bookkeeping is still useful. In the pressure-degenerate plane, pressure
+is isotropic while strain can remain anisotropic:
 
 ```math
 H=hP+k\,n\otimes n,
@@ -360,9 +356,9 @@ For every in-plane eigenbasis \((e_1,e_2)\),
 ```
 
 because \(H\) cannot see the spin-2 angle inside its degenerate plane. This is
-the exact no-wake survivor after the local Codazzi split: pressure is in-plane
-isotropic, strain is in-plane anisotropic, and the retained record claims to
-persist without a phase bill.
+the no-wake phase coordinate: pressure is in-plane isotropic, strain is
+in-plane anisotropic, and the retained record claims to persist without a phase
+bill.
 
 The scalar pressure source
 
@@ -373,8 +369,8 @@ Q=|S|^2-\frac12|\omega|^2
 
 can see the magnitude of the in-plane strain anisotropy, but it does not
 automatically retain the phase
-\(e_1\otimes e_1-e_2\otimes e_2\). Thus the next theorem is a phase-custody
-statement, not a pointwise pressure-spectrum statement:
+\(e_1\otimes e_1-e_2\otimes e_2\). Thus phase custody is a real payment
+coordinate, not a pointwise pressure-spectrum contradiction:
 
 ```math
 \texttt{InPlaneSpinTwoRecordPhasePaysOrRoutesOut.A}.
@@ -402,14 +398,14 @@ unless the in-plane strain phase is parent-owned endpoint data.
 The proof split is:
 
 1. fixed in-plane phase through the tower \(\Rightarrow\) parent-owned
-   affine/endpoint lock or planar branch with paid cut-off;
+   endpoint service or a comparable-scale bank that is paid;
 2. phase rotation in space, material time, or scale \(\Rightarrow\)
    selector/order-lock variation, hence \(\mathsf P_{\rm phase}\);
 3. cone-mixing or Young-measure hiding of the phase \(\Rightarrow\)
    atomization must recover a selected spin-2 channel without service loss, or
    the averaged object is pass/service-zero.
 
-So the sole wall after cycle 12 is:
+So the phase form of the bank wall is:
 
 ```math
 \text{pressure in-plane isotropic}
@@ -420,7 +416,8 @@ So the sole wall after cycle 12 is:
 \tag{ATH.26}
 ```
 
-Proving (ATH.24) closes the pressure-degenerate branch. Producing a same-field
+Proving (ATH.24) helps only as a component of
+\(\texttt{ParentHarmonicUniaxialBankPaysOrRoutesOut.A}\). Producing a same-field
 finite-energy atom satisfying (ATH.21)--(ATH.22) with zero phase, parent,
 collar, and exit bill is the honest counterprofile.
 
