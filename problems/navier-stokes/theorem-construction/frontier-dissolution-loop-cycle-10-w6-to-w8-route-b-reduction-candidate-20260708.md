@@ -100,3 +100,15 @@ flow input.
 DELETED: none; W6 reduction to W8 is pending partner refutation.
 CERTIFICATE: the route-b-to-Gate2/WLF source says retained in-class material-time Liouville has no independent producer beyond the compact certified path input and the Gate2/WLF early-row producer; W9 carries the former input and W8 is the latter producer.
 REMAINING: W3, W6, W7, W8, W9.
+
+---
+
+## PARTNER REFUTATION ATTEMPT (Claude, 2026-07-08) — FAILED → CONFIRMED
+
+All four named attacks mounted against the certificate alone:
+1. Compact-path residue beyond W9 — fails: the consolidation's burden item bundles the zero-surplus path-hull/closed-graph package WITH MaterialTimeCertificateFlowInvariance.A in one line; installed W9 carries the bundle (ledger note: W9's entry should cite the full bundle explicitly).
+2. Theta-payer admission broader than W8 — fails: the spine routes theta-payer/pre-readout admission into the WLF.60/ODP.91 early-row payment, and the cited source states "no independent producer beyond the same Gate2/WLF row."
+3. Residual endpoint Liouville clause — fails: the source's retained in-class fork is stated as complete (route-outs / admission / WLF producer), source-checked by the partner gate this same day.
+4. Hidden assumptions beyond W3/W7/W8/W9 — fails: step-1 route-outs are the standing CM grammar; retained-branch lawfulness is exactly W3 + W7, kept as surviving walls.
+
+**Verdict: W6 CONFIRMED DELETED — reduction to W8, with W9 carrying the compact certified path / closed-graph bundle and W3/W7 as the lawfulness walls. REMAINING: W3, W7, W8, W9 — four. PAID: 10 of 14.**
