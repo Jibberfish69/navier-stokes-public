@@ -306,3 +306,9 @@ None.
   net-negative new name. The time-oscillation model \(Z_n(t)=e^{int}\) keeps
   pointwise legal rows and zero payer but has no compact material-time shift
   hull.
+- W3+W7+W8 do not delete W9 unless they also control the W9 certificate-path
+  metric. In the abstract product \(X=X_{\rm rows}\times S^1\), the paths
+  \(Z_n(t)=(x_0,e^{int})\) keep the W3 service row, W7 pointwise retained graph
+  rows, and W8 payer fixed while the W9 shifted path hull is noncompact. The
+  missing exact fact is metric coercivity or typed route-out for every
+  uncharged material-time path direction.
