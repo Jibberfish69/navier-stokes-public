@@ -82,7 +82,15 @@ the calculation gives
 
 This says that, in the fixed-sphere register, positive cubic drop cannot be
 hidden while the full linear own pressure row is silent. It is a finite
-row-visibility computation.
+row-visibility computation. The sharpened form is the adjoint certificate
+
+```math
+L_S^*\Psi=6q\nabla_{S^2}q,\qquad \Psi={4\over5}(3q-2),
+\tag{NPC.5a}
+```
+
+so the positive cubic flux lies in the adjoint range of the own pressure-row
+operator at the affine Vieillefosse sphere.
 
 It does not prove \(c_0>0\). It must still pass through retained scale
 compactness and same-field history.
@@ -127,4 +135,7 @@ The parent-row relay cannot continue forever as a retained marginal tower.
 
 Those are the current live burdens. The fixed-sphere \(B1/K(\theta)\) nullspace
 test is the finite computation both burdens point at, not a source-to-payment
-conversion.
+conversion. In the corrected language, the next finite test is whether the
+adjoint certificate persists for retained \(w=q+\eta\), or whether the
+perturbation is necessarily visible in another retained VPI row or in the
+parent relay.
