@@ -727,3 +727,80 @@ Then the B chain becomes
 
 This paired driver-vs-brake theorem is now the B-side wall. It is a same-fluid
 fluid event and an admitted residual. It is not proved here.
+
+## 13. Claude cycle 37: the B2 switch is the Rayleigh discriminant
+
+Claude cycle 37 identifies the missing sign in the paired B ledger. The raw
+centrifugal force gives the brake magnitude, but the radial stability switch is
+the Rayleigh discriminant
+
+```math
+\Phi_R
+=
+\frac1{r^3}\partial_r\Gamma^2 .
+\tag{ASW.48}
+```
+
+Near the axis, smooth swirl has \(u^\theta=O(r)\), hence
+\(\Gamma=r u^\theta=O(r^2)\), so \(\Gamma^2=O(r^4)\) and
+\(\Phi_R>0\) to leading order. That is the on-axis physical brake: the angular
+momentum profile rises outward and centrifugal response is restoring. This
+filters the B1 on-axis pile-up as a physical zero-bill concentration mechanism.
+
+The admitted B2 residual is off-axis Rayleigh-unstable annular concentration:
+
+```math
+\partial_r\Gamma^2<0
+\qquad\text{or equivalently}\qquad
+\Phi_R<0 .
+\tag{ASW.49}
+```
+
+The B2 source
+
+```math
+\frac{\zeta}{r^4}\partial_z\Gamma^2
+```
+
+is the poloidal swirl-gradient driver. The Rayleigh sign decides whether the
+same centrifugal field restores the radial displacement or feeds it. Thus the
+B2 ledger should carry the selected negative-Rayleigh part:
+
+```math
+\mu_B^{\rm Rayleigh}
+\sim
+\chi_{\rm rec}
+\left(-\frac1{r^3}\partial_r\Gamma^2\right)_+\,dt\,dx,
+\tag{ASW.50}
+```
+
+paired with the poloidal driver measure and with pressure, viscosity,
+annular/axis flux, collar/complement work, and participation ownership.
+
+The sharpened B2 theorem is:
+
+```math
+\texttt{OffAxisRayleighUnstableSwirlDriverNoFreeRecord.A}.
+\tag{ASW.51}
+```
+
+Statement. A retained off-axis Hou--Luo-type annular record cannot sustain
+self-similar concentration by combining the poloidal driver
+\(r^{-4}\zeta\,\partial_z\Gamma^2\) with a negative Rayleigh discriminant
+\(\Phi_R<0\) while paying no pressure, viscosity, annular/axis flux,
+collar/complement work, participation loss, or typed route-out.
+
+Then the B2 chain is
+
+```math
+\texttt{OffAxisRayleighUnstableSwirlDriverNoFreeRecord.A}
+\Longrightarrow
+\texttt{AxisSwirlDriverCentrifugalBrakeNoFreeRecord.A}
+\Longrightarrow
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}.
+\tag{ASW.52}
+```
+
+So yes: the B2 ledger reads \(\partial_r\Gamma^2\) as the brake/driver switch.
+The remaining B2 wall is exactly the off-axis negative-Rayleigh annular
+Hou--Luo residual. It is not closed here.
