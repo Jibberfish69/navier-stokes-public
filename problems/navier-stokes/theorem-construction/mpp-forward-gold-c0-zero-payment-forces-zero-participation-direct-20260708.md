@@ -26,10 +26,15 @@ completion_truth: >-
   non-tautological bill-admission theorem:
   CubicRadialMomentOddPayment.A. What is not yet proved as a global
   Navier-Stokes theorem is that the legitimate material-time oriented
-  pressure/current bill dominates that signed cubic turn-off, and that every
-  normalized zero-payment positive-service sequence compactifies without
-  service loss to a zero-payment strict atom/tower limit whose endpoint kernel
-  is stopped, parent-owned/global-affine/nonlocalizable, or nonparticipating.
+  pressure/current bill dominates that signed cubic turn-off. The latest
+  aligned-swirl check also shows this cannot be reduced to static elliptic
+  pressure-source coercivity: a non-solid Gamma-gradient can cancel the aligned
+  poloidal source at a fixed time while leaving the cubic drop unchanged. The
+  remaining Gate-B obligation is material-time axisymmetric-swirl payment or
+  lawful pass/regularity, together with compactification of every normalized
+  zero-payment positive-service sequence without service loss to a zero-payment
+  strict atom/tower limit whose endpoint kernel is stopped,
+  parent-owned/global-affine/nonlocalizable, or nonparticipating.
   Side survivor branches have zero threat weight unless they produce that
   same-fluid zero-payment positive-service object.
 ---
