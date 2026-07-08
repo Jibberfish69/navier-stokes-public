@@ -138,3 +138,9 @@ None.
   W8 gives finite order-locked first-admission payment, but no checked source
   gives a common material-time modulus/equicontinuity or BV bound for all W9
   certificate rows as one shift-continuous path.
+- W9 same-edge/terminal-clock collapse failed as a deletion: the checked
+  same-edge source gives retained-edge custody through compactness, and the
+  terminal-clock source gives a same-material packet clock/readout package, but
+  neither installs the compact certificate-state path topology, continuous
+  fixed shifts, terminal-window room, or material-time action on the lifted
+  certificate family required by W9.
