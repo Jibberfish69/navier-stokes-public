@@ -58,6 +58,7 @@ d\mu_{\rm strict}
 d\mu_{\rm bad}
 +d\mu_{\rm D1}
 +d\mu_{\rm chain}
++d\mu_{\rm end}
 +d\mu_{\rm D2a}
 +d\mu_{\rm D2b}.
 \tag{GBA.2}
@@ -70,6 +71,10 @@ The terms are not detached proxies:
   the same strain-production budget as the cubic service.
 - \(d\mu_{\rm chain}\) is the off-kernel same-affine Hodge payment for
   \((\partial_\rho a-2a)A\).
+- \(d\mu_{\rm end}\) is the signed parent-owned endpoint handoff charge for
+  the long-chain affine endpoint amplitude. This is not a Hodge magnitude bill;
+  it is the T-odd same-field pressure-current/transport sign, or a typed
+  route-out, admitted as a theorem.
 - \(d\mu_{\rm D2a}\) is the fixed-collar \(H^1\) trace payment when a smooth
   affine endpoint fails to merge into the same parent affine field.
 - \(d\mu_{\rm D2b}\) is the retained critical-cone profile-production bill:
