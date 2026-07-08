@@ -273,3 +273,10 @@ None.
   response as a finite/uniform retained same-field payment row in the strict
   tower. W3 remains `CriticalServicePersistenceFromPayment.A` at the H1-row
   admission/finiteness/uniformity point.
+- Claude's W3 dissipation-row retyping is accepted only as a fixed-window
+  identity: the Door-1 H1 response is the localized same-field
+  enstrophy-viscous row plus collar/owner terms. It deletes no wall because no
+  checked source proves that this collected row is rung-uniformly distributed as
+  strict retained tower payment, or routes concentration of that row. W3 remains
+  narrowed to the localized H1/enstrophy-viscous row's
+  tower-uniformity/admission-or-route-out burden.
