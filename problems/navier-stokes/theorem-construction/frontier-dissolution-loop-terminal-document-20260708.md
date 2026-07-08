@@ -219,3 +219,12 @@ None.
   first-ratio linear read, so W8 remains the selected-linear route-measure /
   persistent-affine-quotient payment on the actual order-locked full-packet
   carrier.
+- Claude direct-transfer collapse to W8 failed as a deletion: the checked
+  log-chain Hodge note proves a real local same-field participation payment for
+  off-kernel chain deviation, but the global strict-bill accounting source says
+  those local rows are summed only after admission into the same tower currency,
+  with signed endpoint handoff, retained-row admission, and arbitrary-original
+  data admission still open. W8 remains the selected-linear WLF.60 / ODP.91
+  original-data collection theorem on the order-locked full-packet carrier; no
+  checked source types the log-chain deviation charge as collected W8 bill
+  currency.
