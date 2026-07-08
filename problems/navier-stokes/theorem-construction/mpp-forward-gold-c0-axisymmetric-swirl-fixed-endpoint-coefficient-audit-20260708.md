@@ -193,3 +193,54 @@ excluded by material-time Liouville.
 If that theorem fails, the fixed-axis swirl endpoint is the Gate-B
 counterprofile candidate. This remains a strict reduction, not a proof of
 \(c_0>0\).
+
+## 4. Gate A finite-net pressure test
+
+The spin-2 angle itself is not the hard part. Once a retained nonzero spin-2
+component and a strain eigenvalue gap are already admitted, the oriented line
+lives in the compact circle \(S^1/\pi\). A fixed finite net
+\(\{T_{\varphi_k}\}\) captures it up to a constant:
+
+```math
+\max_k|\langle T_{\varphi_k},T_\varphi\rangle|
+\ge c_{\rm net}>0 .
+\tag{ASW.14}
+```
+
+Thus a parent-known finite angular menu can replace the exact angle after
+losing only a fixed constant, provided the amplitude and eigenvalue gap are
+retained above threshold.
+
+For a fixed detector in that menu, the first time its retained score crosses a
+threshold is a stopped time, and the existing Schur / finite stopped-score
+machinery pays later detector motion or routes the interval to stop, legal,
+collar, or exit. This gives the conditional implication
+
+```math
+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}
++
+\texttt{SpinTwoLowerEdgeGapAdmission.A}
++
+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}
+\Longrightarrow
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\tag{ASW.15}
+```
+
+The current repo sources do not prove the first input. The selector-capture
+audit says the finite stopped-score theorem is proof-grade only after an
+order-locked retained selector chart is already parent-known. A future-positive
+edge can still be selected by a moving argmax outside any fixed finite parent
+menu unless
+
+```math
+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}
+\tag{ASW.16}
+```
+
+is proved from the original same-fluid history before positive readout.
+
+So Gate A is not blocked by continuum angle geometry. It is blocked by
+pre-readout record-edge capture: the parent must know the carrier, time window,
+spin-2 detector, order-lock, and retained lower edge before the child record is
+read as positive. That is a real admission theorem, not just ledger cleanup.

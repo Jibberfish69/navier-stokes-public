@@ -1158,7 +1158,7 @@ strain, pressure, and collar tensor/current.
 The formal obligation is the stopped-selector theorem:
 
 ```math
-\texttt{StoppedCausalSpinTwoSelectorRealization.A}.
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
 \tag{ATH.67}
 ```
 
@@ -1168,7 +1168,7 @@ parent-known spin-2 tensor, preserving service and not hiding the reorientation
 bill. Then
 
 ```math
-\texttt{StoppedCausalSpinTwoSelectorRealization.A}
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}
 +
 \texttt{SchurThinAdmissionRule.A}
 +
@@ -1185,7 +1185,7 @@ constructed. Once it is constructed, all rotating nonzero-spin-2 branches pay,
 and the residual \(c_0\) burden is Gate B: the fixed-axis \(l=2\)
 axisymmetric-with-swirl endpoint under material-time Liouville.
 
-## 20. Cycle 22 and the fixed-axis swirl coefficient audit
+## 21. Cycle 22 and the fixed-axis swirl coefficient audit
 
 Claude cycle 22 is too strong as stated. Forward causality says the velocity
 field determines the child orientation at formation. It does not by itself
@@ -1271,3 +1271,26 @@ algebraic contradiction. The honest smaller theorem is
 It must exclude the finite-energy, viscosity-compatible, retained marginal
 axisymmetric-with-swirl endpoint with zero collar/Field/parent bill and
 positive critical record service, or else admit it as the Gate-B counterprofile.
+
+The same audit also tests theorem A. The spin-2 angle is compact, so once a
+nonzero spin-2 lower edge and eigenvalue gap are already admitted, a fixed
+finite parent-known angular net captures the detector up to a constant. The
+unproved step is not continuum angle geometry; it is pre-readout record-edge
+capture:
+
+```math
+\texttt{FiniteParentKnownRecordEdgeSelectorMenu.A}
++
+\texttt{SpinTwoLowerEdgeGapAdmission.A}
++
+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}
+\Longrightarrow
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\tag{ATH.75}
+```
+
+Existing selector notes prove the finite stopped-score/payment theorem only
+after an order-locked retained selector chart is already parent-known. They do
+not prove that every future-positive spin-2 record edge enters such a finite
+parent menu before readout. Thus Gate A is physically reduced but formally
+open at the same pre-readout selector-capture theorem.
