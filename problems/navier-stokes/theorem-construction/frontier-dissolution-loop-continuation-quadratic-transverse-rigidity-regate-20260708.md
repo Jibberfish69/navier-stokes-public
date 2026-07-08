@@ -3,7 +3,7 @@ theorem_id: frontier-dissolution-loop-continuation-quadratic-transverse-rigidity
 created: 2026-07-08
 problem: navier-stokes
 route: frontier-dissolution-loop / ontology audit / quadratic transverse rigidity regate
-status: ontology-regate-no-wall-deleted
+status: ontology-regate-no-wall-deleted-rescoped
 frontier_opened:
   - W3 CriticalServicePersistenceFromPayment.A
   - W7 RetainedVPIRecordGraphClosednessOrTypedRouteOut.A plus arbitrary-original-data admission
@@ -16,12 +16,13 @@ source_refs:
   - problems/navier-stokes/theorem-construction/frontier-dissolution-loop-terminal-document-20260708.md
 completion_truth: >-
   This regate accepts the quadratic transverse-restoring normal form as the
-  correct ontology for the transverse-active pressure-Hessian branch and demotes
-  the linear chirality/orientation framing to a coordinatization artifact for
-  that branch. It pays no wall. The surviving walls are the uniform accounting,
-  admission, compactness, and material-time passage demands for the same
-  rigidity, especially the H_perp=0 re-aiming/collar/pass branch and the
-  P_reaim bill.
+  correct ontology at the pressure-block / strict-atom level and demotes the
+  linear chirality/orientation framing to a coordinatization artifact for that
+  block. It pays no wall. Later scoping in
+  `frontier-dissolution-loop-continuation-joint-rotation-form-scoping-regate-20260708.md`
+  narrows this: the pressure block is the whole rotation form only at the
+  irrotational strict atom; on vorticity-carrying retained records it is one
+  positive block inside the joint pressure-vorticity rotation form.
 ---
 
 # Quadratic Transverse-Rigidity Regate
@@ -135,7 +136,10 @@ open object is the accounting/admission/compactness passage of that fact
 through one retained same-fluid history, with the \(\widehat H_\perp=0\)
 stratum handled by the re-aiming bill, collar bill, or pass/nonparticipation.
 
-This is a strict ontology regate, not a deletion.
+This is a strict ontology regate, not a deletion. Later scoping narrows the
+claim to strict-atom exactness plus pressure-block positivity; on
+vorticity-carrying records the open object is the joint
+\(\widehat H\)-versus-\(\widehat\Omega^2\) domination/accounting comparison.
 
 DELETED: none.
 CERTIFICATE: On the sheet strain branch \(S=\operatorname{diag}(a,a,-2a)\), \(a>0\), the sheet-transverse pressure-Hessian square is \(\mathcal C_H^{\rm phys}=2a(\widehat H_{13}^2+\widehat H_{23}^2)\ge0\) after the in-plane \(\widehat H_{12}\) gauge is quotiented, so linear Row 5/B2 chirality-orientation gates are demoted for the transverse-active branch; however the checked sources still leave the \(\widehat H_\perp=0\) re-aiming/collar/pass theorem and the uniform W3 row admission, W7 graph passage, W8 selected-linear original-data bill, and W9 compact material-time path/action accounting unproved.

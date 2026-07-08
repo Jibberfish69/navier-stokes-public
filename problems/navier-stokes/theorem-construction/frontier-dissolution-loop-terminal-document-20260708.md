@@ -502,3 +502,14 @@ None.
   \(\widehat H_\perp=0\) re-aiming/collar/pass theorem plus W3 row admission,
   W7 graph passage, W8 selected-linear bill construction, and W9 compact
   material-time path/action remain unproved.
+- The joint rotation-form scoping regate narrows that quadratic claim. The
+  pressure-Hessian square is the whole rotation form only at the irrotational
+  strict atom, where \(\widehat\Omega^2\equiv0\) and
+  \(\nu\widehat{\Delta S}\equiv0\). On vorticity-carrying retained records the
+  exact frame law contains
+  \((\widehat\Omega^2+\widehat H-\nu\widehat{\Delta S})_{ij}\), and the local
+  first-jet row \((\Omega^2)_{13}=\alpha\beta/4\) shows the vorticity-square
+  competitor is not structure-zero. The open object is the same-field domination
+  or accounting comparison of transverse pressure response against the
+  vorticity-square off-diagonal row on the strain-dominated branch; no
+  W3/W7/W8/W9 wall is deleted.
