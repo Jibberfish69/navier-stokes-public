@@ -795,7 +795,7 @@ quadrupole, except pass, service-zero, collar/Field payment, or parent-owned
 endpoint kernel. The current Schur ledger does not reach this branch first;
 it hands it to endpoint Liouville after the orientation variation is zero.
 
-## 14. Harmonic spin-2 tail: orientation admission is the sign
+## 15. Harmonic spin-2 tail: orientation admission is the sign
 
 Cycle 16 sharpens the parent-bank wall. Inside the child packet, a
 parent-borrowed pressure bank is harmonic. Its retained \(l=2\) part is a
@@ -858,3 +858,39 @@ metric sees only the scalar pressure source \(Q\), it is blind to
 \(\varphi\), and the rotating-wave branch is the honest counterprofile
 candidate pending same-field compatibility, localization, viscosity, and strict
 retention.
+
+## 16. Cycle-18 two-gate frontier
+
+The rotating-wave admissibility check reduces to the frame-TV theorem exactly
+when the admitted object is the oriented spin-2 section. Then the frontier is:
+
+```math
+\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}
+\quad\vee\quad
+\texttt{FixedAlignedParentQuadrupoleEndpointExcludedByMaterialTimeLiouville.A}.
+\tag{ATH.51}
+```
+
+For a genuinely precessing retained record,
+
+```math
+\sum_r|\Delta\varphi_r|=\infty
+\tag{ATH.52}
+```
+
+and theorem A must either charge
+\(\sum_J\int\mathfrak S_J\,d\mathcal K_J^{orient}\) or admit the rotating-wave
+counterprofile.
+
+For finite total variation,
+
+```math
+\sum_r|\Delta\varphi_r|<\infty,
+\tag{ATH.53}
+```
+
+the oriented frame converges. After finite motion cost and service-zero/pass
+degeneracies are removed, the terminal survivor is the fixed parent-harmonic
+\(l=2\) endpoint, governed by theorem B. Thus cycle 18 is correct as a frontier
+collapse: no third branch remains after oriented admission; before oriented
+admission, theorem A is still open.
