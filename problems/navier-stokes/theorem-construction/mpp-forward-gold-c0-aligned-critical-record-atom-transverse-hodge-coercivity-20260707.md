@@ -725,6 +725,76 @@ frame-variation payment, or a same-field rotating-wave profile is actually
 admitted with \(o(1)\) order-lock cost. Only the second outcome is a genuine
 counterprofile to the transverse-coupling route.
 
+## 14. Harmonic quadrupole up-leak: which ledger branch is first
+
+Claude cycles 16--17 identify the physical shape of the borrowed aligned bank.
+Inside the child packet, an aligned trace-free pressure Hessian \(K\) is the
+harmonic quadratic
+
+```math
+p_K(x)=\frac12 x\cdot Kx,\qquad \operatorname{tr}K=0,
+\qquad \nabla^2p_K=K .
+\tag{ATH.47}
+```
+
+This is real pressure data, but it is not free flow data. On a parent annulus of
+radius \(R\), the same mode has pressure size \(|K|R^2\) and gradient size
+\(|K|R\). A finite-energy localized Navier-Stokes field must realize that
+interior harmonic mode through parent/collar/Field source data, cutoff data, or
+an endpoint harmonic range. Thus the up-leaked \(l=2\) mode is exactly the
+parent-bank ownership object.
+
+The orientation of \(K\) is the part a scalar pressure-source readout misses.
+A ledger that only records \(|K|\), \(|Q|\), or unoriented pressure magnitude is
+time-even and can telescope through cancellations. The \(c_0\) sign needs the
+oriented \(l=2\) current: the strain-frame phase of \(K/|K|\) against the retained
+spin-2 record.
+
+This gives the exact two-branch answer.
+
+```math
+\textbf{Rotating branch:}\quad
+D_t(K/|K|)\ne0 .
+\tag{ATH.48}
+```
+
+The existing Schur ledger reaches this branch first, but only conditionally:
+the route metric must admit the oriented \(l=2\) / spin-2 frame coordinate. The
+needed theorem is
+
+```math
+\texttt{OrientedL2QuadrupoleCurrentAdmittedBySchurMetric.A}
+\quad
+\text{(same object as }
+\texttt{RetainedSpinTwoFrameVariationAdmittedBySchurMetric.A}\text{)}.
+\tag{ATH.49}
+```
+
+After this admission, \(\int\mathfrak S_J\,d\mathcal K_J^{geom}\) charges
+orientation coherence. Before this admission, the installed Schur identity sees
+only a signed storage derivative and does not prevent magnitude-only telescope.
+
+```math
+\textbf{Fixed-phase branch:}\quad
+D_t(K/|K|)=0 .
+\tag{ATH.50}
+```
+
+There is then no rotating-frame bill to charge. The bank is a parent-endpoint
+harmonic quadrupole, not an affine child rung. The live theorem is the
+material-time Liouville endpoint:
+
+```math
+\texttt{FixedAlignedParentQuadrupoleEndpointExcludedByMaterialTimeLiouville.A}.
+\tag{ATH.51}
+```
+
+This is the NRS/Tsai-extension branch: exclude a retained marginal tower whose
+aligned pressure Hessian is supplied by a fixed oriented parent harmonic
+quadrupole, except pass, service-zero, collar/Field payment, or parent-owned
+endpoint kernel. The current Schur ledger does not reach this branch first;
+it hands it to endpoint Liouville after the orientation variation is zero.
+
 ## 14. Harmonic spin-2 tail: orientation admission is the sign
 
 Cycle 16 sharpens the parent-bank wall. Inside the child packet, a
