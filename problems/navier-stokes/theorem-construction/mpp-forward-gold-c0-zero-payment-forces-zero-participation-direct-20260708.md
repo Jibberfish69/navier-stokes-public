@@ -9,6 +9,8 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-service-persistence-audit-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-radial-strain-moment-turnoff-20260708.md
 completion_truth: >-
   This note resets the c0 target to the direct coercivity theorem:
   zero payment forces zero participation. The packet proof is already present
@@ -17,10 +19,16 @@ completion_truth: >-
   2026-07-08 log-chain Hodge payment reduction proves the interior
   incompressibility payment after lawful same-affine log-channel extraction:
   zero payment forces the chain to be the smooth affine endpoint kernel
-  a'=2a. What is not yet proved as a global Navier-Stokes theorem is the
-  unified lawful strict-tower statement that every normalized zero-payment
-  positive-service sequence compactifies without service loss to such a
-  zero-payment strict atom/tower limit, and that the remaining endpoint kernel
+  a'=2a. The critical-service audit records that A5 is conditional on genuine
+  strong L3/service persistence from the same payment, not on L2 compactness.
+  The cubic radial strain moment note replaces quadratic collar slope payment
+  with the signed Vieillefosse moment drop and identifies the remaining
+  non-tautological bill-admission theorem:
+  CubicRadialMomentOddPayment.A. What is not yet proved as a global
+  Navier-Stokes theorem is that the legitimate material-time oriented
+  pressure/current bill dominates that signed cubic drop, and that every
+  normalized zero-payment positive-service sequence compactifies without
+  service loss to a zero-payment strict atom/tower limit whose endpoint kernel
   is stopped, parent-owned/global-affine/nonlocalizable, or nonparticipating.
   Side survivor branches have zero threat weight unless they produce that
   same-fluid zero-payment positive-service object.
@@ -218,6 +226,74 @@ u_A=C\,Ax.
 
 The interior long-chain escape is therefore reduced to endpoint ownership of
 the smooth affine kernel. It is no longer a free interior Hodge defect.
+
+The cubic radial strain moment gives the signed turn-off coordinate that the
+quadratic collar slope missed. Define
+
+```math
+w(\rho,\theta)=e^{-\rho}u(e^\rho\theta)\cdot\theta,
+\qquad
+M(\rho)=\int_{S^2}w(\rho,\theta)^3\,d\theta.
+\tag{ZPF.7f}
+```
+
+For a tracefree affine strain core \(u=Sx\),
+
+```math
+M_{\rm aff}
+=
+\int_{S^2}(\theta\cdot S\theta)^3\,d\theta
+=
+\frac{32\pi}{105}\operatorname{tr}(S^3).
+\tag{ZPF.7g}
+```
+
+Thus Vieillefosse service is read by the sign of the cubic moment:
+
+```math
+\mathsf S_V(Q)\simeq-\operatorname{tr}(S^3)\simeq -M_{\rm aff}.
+\tag{ZPF.7h}
+```
+
+If the finite-energy/localized turn-off has \(M(\rho_j)\to0\) outward, then
+
+```math
+\mathsf S_V(Q)
+\lesssim
+\int_0^\infty[-M'(\rho)]_+\,d\rho.
+\tag{ZPF.7i}
+```
+
+For a slow scalar cutoff \(w=a(\rho)(\theta\cdot S\theta)\), the right side is
+independent of collar length because
+
+```math
+M'(\rho)=3a(\rho)^2a'(\rho)M_{\rm aff},
+\qquad
+\int [-M']_+\,d\rho\ge -M_{\rm aff}.
+\tag{ZPF.7j}
+```
+
+So the \(1/L\) receding-collar leak is an artifact of charging
+\(|a'|^2\). The direct bill-admission theorem is:
+
+```math
+\texttt{CubicRadialMomentOddPayment.A:}\qquad
+\mathsf P_{\rm odd}(\Lambda Q)
+\ge
+c\int_{\Lambda Q}[-M'(\rho)]_+\,d\rho.
+\tag{ZPF.7k}
+```
+
+If this theorem is proved in the legitimate same-field pressure/current
+currency, then
+
+```math
+\mathsf P_{\rm odd}(\Lambda Q)\ge c\,\mathsf S_V(Q)
+\tag{ZPF.7l}
+```
+
+with \(c\) independent of collar radius and tower depth.
 
 ## 3. The remaining theorem, stated directly
 
