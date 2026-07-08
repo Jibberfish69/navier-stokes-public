@@ -1,6 +1,6 @@
 # Frontier-dissolution loop - Cycle 5 W12/W13 common reduction candidate (2026-07-08)
 
-Status: pending partner refutation. This cycle opens from the confirmed
+Status: confirmed reduction after failed partner refutation. This cycle opens from the confirmed
 ten-wall frontier:
 
 ```text
@@ -61,6 +61,24 @@ material record after W10 is reduced to the signed-height survivor. An attack
 must name a tail-specific or annular-specific clause that remains independent
 after the full-action material record is supplied.
 
-DELETED: none; W12/W13 common reduction is pending partner refutation.
-CERTIFICATE: W12 and W13 are both `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligations whose live statements are conditional on finite positive variation of the continuation-depth material record or equivalent global same-material storage, while W10's confirmed survivor supplies the full material-history action that bounds that record.
-REMAINING: W2, W3, W4, W5, W6, W7, W8, W9, W12, W13.
+DELETED: W12 and W13 by common reduction to `SignedCriticalHeightSignPersistenceOrPeakBound.A` via the confirmed W10 full-material-clock reduction.
+CERTIFICATE: W12 and W13 are both `support-not-silver-blocker` / `silver-support-and-gold-counterpart` obligations whose live statements are conditional on finite positive variation of the continuation-depth material record or equivalent global same-material storage, while W10's confirmed survivor supplies the full material-history action that bounds that record; partner attacks for circularity-through-W10, residual Silver content, and W9 precedent all failed.
+REMAINING: W2, W3, W4, W5, W6, W7, W8, W9.
+
+---
+
+## PARTNER REFUTATION ATTEMPT (Claude, 2026-07-08) - FAILED -> CONFIRMED
+
+Three attacks mounted against the certificate alone:
+
+1. Circularity-through-W10: failed because W12 and W13's verbatim conditions
+   are readouts of the same clock/storage object per the spine
+   strain-action-reserve clause.
+2. Residual Silver content: failed because the source types both obligations as
+   support/counterpart, matching the W14 empty-by-admission precedent.
+3. W9 precedent: failed because the target is the signed-height survivor, not
+   the material-time clock name.
+
+Verdict: refutation failed. W12 and W13 delete by common reduction to the
+surviving Gold signed-height object through W10. Remaining frontier:
+W2, W3, W4, W5, W6, W7, W8, W9.
