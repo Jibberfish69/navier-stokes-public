@@ -492,3 +492,13 @@ None.
   \((\Omega_+^2)_{13}=1/4\) and \((\Omega_-^2)_{13}=-1/4\). Thus a Row 5
   deletion needs an oriented retained chirality/strain-frame/pressure-row bridge
   or route-out theorem, not scalar \(u\cdot\omega\) alone.
+- The quadratic transverse-rigidity regate corrects the Row 5/B2 presentation
+  without deleting a wall. On the sheet branch
+  \(S=\operatorname{diag}(a,a,-2a)\), the physical transverse pressure-Hessian
+  square after quotienting the in-plane gauge is
+  \(\mathcal C_H^{\rm phys}=2a(\widehat H_{13}^2+\widehat H_{23}^2)\ge0\), so
+  the linear chirality/orientation framing is demoted for the transverse-active
+  branch. The open object is now the accounting/admission passage: the
+  \(\widehat H_\perp=0\) re-aiming/collar/pass theorem plus W3 row admission,
+  W7 graph passage, W8 selected-linear bill construction, and W9 compact
+  material-time path/action remain unproved.
