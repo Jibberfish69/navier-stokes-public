@@ -962,3 +962,59 @@ critical record cannot choose its spin-2 orientation only after the parent
 current is built. If it can, that is exactly the rotating-wave counterprofile
 branch, still subject to full same-field compatibility, localization, viscosity,
 and strict-retention checks.
+
+## 18. Axisymmetric-with-swirl audit for theorem B
+
+Claude cycle 19 identifies the correct fixed-phase threat. On the symmetry axis
+of an axisymmetric flow with swirl, the tensor algebra is forced by \(SO(2)\)
+symmetry. Any trace-free symmetric tensor at the axis has the uniaxial form
+
+```math
+S=s\left(e_z\otimes e_z-\frac12P_\perp\right),
+\qquad
+H=h\left(e_z\otimes e_z-\frac12P_\perp\right),
+\tag{ATH.59}
+```
+
+so \(H\) is aligned with \(S\). If \(u_\theta=\gamma r+O(r^3)\) near the axis,
+the swirl contribution is solid-body rotation to leading order and
+
+```math
+\Omega^2=-\gamma^2P_\perp ,
+\tag{ATH.60}
+```
+
+up to the same axisymmetric scalar structure. It changes the eigenvalue
+equations but does not rotate the strain frame. The pressure source
+\(Q=|S|^2-\frac12|\omega|^2\) is also axisymmetric at the axis, so the pressure
+Hessian produced by the Riesz operator remains uniaxial there. Thus on-axis
+axisymmetric swirl is a physically real aligned survivor:
+
+```math
+H_\perp^S=0
+\quad\text{by symmetry, not by scalar/isotropic flow.}
+\tag{ATH.61}
+```
+
+This reaches theorem B, not theorem A. There is no spin-2 frame variation to
+charge. The relevant endpoint is
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointExcludedByMaterialTimeLiouville.A}
+\subset
+\texttt{FixedAlignedParentQuadrupoleEndpointExcludedByMaterialTimeLiouville.A}.
+\tag{ATH.62}
+```
+
+Current installed profile exclusions do not discharge it. The exact
+self-similar NRS/Tsai class is excluded under its hypotheses, but the present
+\(c_0\) object is a marginal material-time retained endpoint with pressure
+service, and the repo already records that self-similar/DSS exclusion does not
+by itself exclude the \(c_0\) record ladder. The no-swirl axisymmetric plateau
+turn-off sublemma also does not reach swirl: swirl changes \(\Omega^2\) and
+\(Q\) while preserving uniaxial alignment.
+
+So cycle 19 supplies a concrete B-side falsifiability class. It is not yet an
+admitted Navier-Stokes counterprofile; it becomes one only if a finite-energy,
+viscosity-compatible, retained marginal axisymmetric-with-swirl tower survives
+pass, service-zero, collar/Field payment, and parent-endpoint ownership.
