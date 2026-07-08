@@ -1105,23 +1105,13 @@ not by itself say that the rung is affine. Axisymmetric swirl already shows the
 physical distinction: the aligned survivor can be anisotropic and same-field,
 with \(H_\perp^S=0\) by symmetry rather than by scalar or isotropic content.
 
-Equivalently, the open wall is the same-currency transverse-Hodge lower bound:
-
-```math
-\left\|
-\Pi_\perp^S\nabla^2(-\Delta)^{-1}
-(\partial_i u_j\,\partial_j u_i)
-\right\|
-\gtrsim
-\text{retained record amplitude},
-\tag{ATH.65}
-```
-
-uniformly over lawful embeddings and measured in the same
-participation/payment currency. The commutator gives the signed brake once the
-transverse pressure Hessian is present. The unproved source statement is that
-incompressibility and angular algebra force such a transverse response on every
-critical record outside the pass/collar/endpoint-kernel escapes.
+The open wall is a zero-bill rigidity theorem in this same currency. A
+transverse-Hodge lower bound may be a proof tactic after strict atom accounting
+is fixed, but it is not the theorem by itself and should not be chased as a
+detached magnitude estimate. The commutator gives the signed brake once a lawful
+transverse pressure Hessian is present. The unproved source statement is that an
+aligned same-field atom with zero collar/exit bill cannot keep positive critical
+record service outside the pass/collar/endpoint-kernel escapes.
 
 Claude cycle 21 adds a conditional route through theorem A. If the selected
 strict child is stopped and nonanticipatory, carved from the already-built
@@ -1147,8 +1137,8 @@ counterprofile candidate. If the nonzero spin-2 orientation becomes fixed
 instead of rotating, the branch returns to theorem B, including the
 axisymmetric-with-swirl endpoint class.
 
-Thus causal lag is demoted. The c0 proof hinges on the uniform transverse
-Hodge/coercivity statement in record currency, plus the accounting compatibility
-that makes the admitted transverse response pay in the same \(c_0\) bill. With
-those two pieces, the signed commutator plugs into \(c_0>0\). Without them, this
-note is a sharp reduction, not closure.
+Thus causal lag is demoted. The \(c_0\) proof hinges on the zero-bill aligned
+atom rigidity theorem plus the accounting compatibility that makes any admitted
+transverse response pay in the same \(c_0\) bill. With those pieces, the signed
+commutator plugs into \(c_0>0\). Without them, this note is a sharp reduction,
+not closure.
