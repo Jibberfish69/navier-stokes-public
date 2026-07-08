@@ -78,10 +78,16 @@ The terms are not detached proxies:
   route-out, admitted as a theorem.
 - \(d\mu_{\rm D2a}\) is the fixed-collar \(H^1\) trace payment when a smooth
   affine endpoint fails to merge into the same parent affine field.
-- \(d\mu_{\rm D2b}\) is the retained critical-cone profile-production bill:
-  log-scale drift, material-time drift, frame modulation, annular stationary
-  NS defect, angular roughness, and point-force/source ownership. Its admission
-  is the open row `RetainedCriticalConeProfileProductionBillAdmission.A`.
+- \(d\mu_{\rm D2b}\) is the retained critical-cone pressure-row admission:
+  log-scale record mismatch, material-time record change, frame/selector drift,
+  no silent pressure-row dropping, and point-force/source ownership. The annular
+  NS residual and angular roughness are not independent bills; residual is the
+  same-field equation after material stationarity, and angular regularity is a
+  Landau/Sverak consumer or route-out row. Its admission is the open
+  non-separable row `RetainedCriticalConeProfileProductionBillAdmission.A`,
+  split in Door 2b into `RetainedConeMaterialStationarityAdmission.A`,
+  `ConePointForceOwnershipOrRouteOut.A`, and
+  `ConeStationaryWeakProfileRegularity.A`.
 
 Thus
 
@@ -181,8 +187,8 @@ The terms represent the same-field exits of the chain: off-kernel log
 variation, signed parent handoff, fixed smooth-affine first non-merge collar,
 and scale-consistent degree \(-1\) pressure cone. Door 2b consumes the last
 term only after `RetainedCriticalConeProfileProductionBillAdmission.A` supplies
-the profile-production/no-cone bill. The parent handoff cannot be charged by
-the Hodge magnitude; it needs the signed endpoint theorem.
+the non-separable retained pressure-row admission. The parent handoff cannot be
+charged by the Hodge magnitude; it needs the signed endpoint theorem.
 
 Let
 
