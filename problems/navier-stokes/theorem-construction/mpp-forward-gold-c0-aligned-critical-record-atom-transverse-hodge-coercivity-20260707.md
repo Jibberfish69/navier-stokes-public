@@ -999,8 +999,13 @@ Schur motion payment proves
 \(\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}\) on every nonzero
 spin-2 branch.
 
-When \(a_2=0\), the remaining positive-record survivor cannot be scalar. It
-must be a fixed-axis trace-free aligned \(l=2\) endpoint, possibly with swirl:
+When \(a_2=0\), no trace-free spin-2 service is retained. The scalar or
+transverse-isotropic swirl source is background, pass-owned readout, or
+service-zero material.
+
+The positive-record fixed-axis branch has \(a_2\neq0\) and finite or zero
+surviving reorientation. After convergence it must be a trace-free aligned
+\(l=2\) endpoint, possibly with swirl:
 
 ```math
 \texttt{AxisymmetricSwirlAlignedEndpointExcludedOrCounterprofile.A}
@@ -1142,3 +1147,90 @@ atom rigidity theorem plus the accounting compatibility that makes any admitted
 transverse response pay in the same \(c_0\) bill. With those pieces, the signed
 commutator plugs into \(c_0>0\). Without them, this note is a sharp reduction,
 not closure.
+
+## 20. Cycle 22 and the fixed-axis swirl coefficient audit
+
+Claude cycle 22 is too strong as stated. Forward causality says the velocity
+field determines the child orientation at formation. It does not by itself
+prove that the analysis has a stopped, parent-known detector before the child
+record is read. The missing theorem is therefore
+
+```math
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\tag{ATH.67}
+```
+
+With this selector admission, theorem A is paid by the already installed Schur
+motion lemma:
+
+```math
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}
++
+\texttt{SchurThinAdmissionRule.A}
++
+\texttt{FiniteDimensionalSchurMotionPayment.A}
+\Longrightarrow
+\texttt{OrientedSpinTwoFrameTVPaidOrCounterprofile.A}.
+\tag{ATH.68}
+```
+
+Without it, the rotating-wave branch remains an admission gap, not a physical
+contradiction already excluded by causality.
+
+The Gate-B pressure test is recorded in
+`mpp-forward-gold-c0-axisymmetric-swirl-fixed-endpoint-coefficient-audit-20260708.md`.
+For a smooth axisymmetric velocity near the axis,
+
+```math
+u^r=a(z,t)r+O(r^3),\qquad
+u^\theta=\gamma(z,t)r+O(r^3),\qquad
+u^z=b(z,t)+O(r^2),
+\tag{ATH.69}
+```
+
+incompressibility gives \(b_z=-2a\), and
+
+```math
+S=aP_\perp-2a\,e_z\otimes e_z,\qquad
+\Omega^2=-\gamma^2P_\perp,\qquad
+H=h_\perp P_\perp+h_z\,e_z\otimes e_z.
+\tag{ATH.70}
+```
+
+Hence \(H_\perp^S=0\) by \(SO(2)\) symmetry while the flow remains anisotropic.
+The pressure trace and swirl laws are
+
+```math
+2h_\perp+h_z=2\gamma^2-6a^2,
+\tag{ATH.71}
+```
+
+and, for \(\Gamma=ru^\theta\),
+
+```math
+\partial_t\Gamma+u^r\partial_r\Gamma+u^z\partial_z\Gamma
+=
+\nu\left(\partial_r^2-\frac1r\partial_r+\partial_z^2\right)\Gamma,
+\tag{ATH.72}
+```
+
+so the on-axis swirl rate satisfies
+
+```math
+D_t\gamma+2a\gamma=\nu\gamma_{zz}+\text{higher-axis terms}.
+\tag{ATH.73}
+```
+
+The maximum principle controls \(\Gamma\), not automatically the quotient
+\(\gamma=\Gamma/r^2\). Radial compression can amplify the on-axis swirl rate
+without creating transverse pressure-Hessian torque. Thus Gate B has no local
+algebraic contradiction. The honest smaller theorem is
+
+```math
+\texttt{AxisymmetricSwirlFixedEndpointCoefficientLiouville.A}.
+\tag{ATH.74}
+```
+
+It must exclude the finite-energy, viscosity-compatible, retained marginal
+axisymmetric-with-swirl endpoint with zero collar/Field/parent bill and
+positive critical record service, or else admit it as the Gate-B counterprofile.
