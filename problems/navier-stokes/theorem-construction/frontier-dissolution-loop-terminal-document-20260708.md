@@ -325,3 +325,10 @@ None.
   \(\nu_\ell=2^{-\ell}/(\ell+1)\) has finite raw support with divergent
   selected-linear bill, so W8 remains the native selected-linear original-data
   payment on the order-locked full-packet carrier.
+- W7 does not reduce to W3+W9: W3 preserves selected cubic service after
+  admitted payment and W9 supplies compact certified path/shift machinery after
+  rows are carried, but neither source proves retained VPI graph passage for
+  the pressure source, pressure row, material-frame rows, material-time rows,
+  and positive VPI record. The critical defect
+  \(Q[U_n]\rightharpoonup Q[U]+\mu_Q\) still needs graph closedness,
+  paid/owned carriage, or typed route-out.
