@@ -371,3 +371,9 @@ None.
   original-data payment on the order-locked carrier, or W9 compact material-time
   path/action topology. The proposed restatements lose those theorem-bearing
   clauses, so no wall is deleted.
+- The B2 \(m=\pm2\) strict-atom shortcut is refuted as a deletion certificate.
+  At \(S=a\,\mathrm{diag}(1,1,-2)\), the in-plane stretch eigenvalues are equal,
+  so the spin-2 frame-rotation denominator \(\lambda_1-\lambda_2\) is zero and
+  the phase is undefined. A legal B2 computation must use the \(m=\pm1\)
+  compression-axis tilt channel with gap \(3a\), or a deviation-lifted
+  \(m=\pm2\) gap with paid/owned/route-out accounting and bridges to W3/W7/W8/W9.
