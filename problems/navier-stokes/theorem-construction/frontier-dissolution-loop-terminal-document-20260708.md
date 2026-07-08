@@ -387,3 +387,12 @@ None.
   compact future-determining material-time path/action. No checked source
   reduces those clauses to B2, W7, W9, Claude's recoordination candidate, or one
   surviving written object.
+- The legal B2 \(m=\pm1\) pressure-row orientation gate computes an exact
+  nonzero row but does not delete a wall. The calibrated shell formula gives
+  \(H_{13}=H_{31}=(12/35)ac/R^2\) for
+  \(j=c\nabla_{S^2}(n_1n_3)\), with the \(m=0\) calibration reproducing the
+  verified \(24/35\) coefficient. Since the sign reverses with \(c\) and
+  \(m\ne0\) torque currents carry no cubic drop at the strict atom, the service
+  orientation does not fix the B2 restoring sense; the missing fact is a
+  retained material-time orientation / no-free-wrong-sign-borrowing theorem
+  plus bridges to W3, W7, W8, and W9.
