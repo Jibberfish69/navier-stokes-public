@@ -1477,3 +1477,48 @@ selector theorem, the atomization theorem, the lower-edge theorem, or Gate B.
 
 Focused note:
 `problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-strict-atom-spin2-selector-menu-proof-20260708.md`.
+
+## 27. Cycle 27: Gate A closes first in the conditional branch sense
+
+The on-axis \(\gamma=\Gamma/r^2\) quotient should be attacked by a Hardy-type
+axis flux, but raw Hardy is a magnitude estimate. It is sign-blind and
+scale-marginal, so it does not by itself produce the signed/oriented
+same-currency \(c_0\) payment. The Gate-B on-axis target is therefore better
+typed as a signed quotient theorem:
+
+```math
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}.
+\tag{ATH.87}
+```
+
+Together with the off-axis annulus,
+
+```math
+\texttt{OffAxisAnnularSwirlEndpointLiouville.A},
+\tag{ATH.88}
+```
+
+this remains the harder PDE endpoint frontier.
+
+Gate A is closer because the finite-menu part is now proved inside the
+non-axisymmetric strict-atom branch. Once strict atom birth/custody and
+\(\texttt{SpinTwoLowerEdgeGapAdmission.A}\) are supplied, the parent-known
+finite spin-2 menu gives a stopped detector crossing, and the existing stopped
+score plus Schur motion machinery pays later reorientation.
+
+So the active A-side implication is
+
+```math
+\begin{aligned}
+&\texttt{strict atom birth/custody}\\
+&+\texttt{SpinTwoLowerEdgeGapAdmission.A}\\
+&+\texttt{StrictAtomNonAxisymmetricSpinTwoSelectorMenu.A}\\
+&+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}\\
+&\Longrightarrow
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\end{aligned}
+\tag{ATH.89}
+```
+
+This separates A from B. It does not close \(c_0\): the atomization/lower-edge
+inputs and the signed-Hardy/off-axis Gate-B endpoint still remain.
