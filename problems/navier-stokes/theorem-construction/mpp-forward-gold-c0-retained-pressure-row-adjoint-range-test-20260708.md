@@ -19,9 +19,13 @@ completion_truth: >-
   the explicit certificate Psi=(4/5)(3q-2). For general retained w=q+eta this
   is an overdetermined row-range condition. The first concrete obstruction is a
   solid rotation added to the affine strain: w=q is unchanged, but the skew
-  part creates an azimuthal adjoint component that no smooth scalar certificate
-  can remove. That obstruction is frame/material-time drift, not a pressure-row
-  counterexample. This is a strict finite reduction, not c0 closure.
+  part creates an azimuthal adjoint component that no smooth scalar pressure
+  certificate can remove. That obstruction is frame/material-time drift, not a
+  pressure-row counterexample. In the solid-rotation model it is repaired
+  exactly by adjoining the same-record frame row F_Omega j=Omega theta.j; the
+  obstruction term lies in F_Omega^*. This proves the finite quotient repair for
+  rigid rotation, but the general retained-row persistence theorem remains
+  open. This is a strict finite reduction, not c0 closure.
 ---
 
 # Retained Pressure-Row Adjoint Range Test
@@ -284,13 +288,118 @@ or the record routes to parent/pass/Field/nonparticipation. This is exactly why
 `RetainedPressureRowAdjointRangePersistence.A` must be stated after the lawful
 frame quotient and with the material-time row included.
 
-## 6. Status for \(c_0\)
+## 6. The quotient repair for rigid frame rotation
+
+The obstruction in Section 5 is exactly the missing frame row. Define the
+same-record frame functional
+
+```math
+F_\Omega j=\Omega\theta\cdot j .
+\tag{ART.26}
+```
+
+Its adjoint is
+
+```math
+F_\Omega^*\chi=\chi\,\Omega\theta .
+\tag{ART.27}
+```
+
+For the axisymmetric rotation in (ART.20),
+
+```math
+\Omega\theta=\gamma\sqrt{1-\mu^2}\,e_\phi .
+\tag{ART.28}
+```
+
+The skew obstruction (ART.22) is therefore not an unowned pressure-row
+failure. It is exactly
+
+```math
+\gamma\sqrt{1-\mu^2}\left((\mu\psi)' +2\psi\right)e_\phi
+=
+F_\Omega^*\!\left((\mu\psi)' +2\psi\right).
+\tag{ART.29}
+```
+
+Consequently the combined pressure-plus-frame row has the adjoint
+
+```math
+\mathcal L_{S+\Omega}^*(\psi,\chi)
+=
+L_{S+\Omega}^*\psi-F_\Omega^*\chi .
+\tag{ART.30}
+```
+
+Taking the affine pressure certificate
+
+```math
+\psi=\Psi={4\over5}(3q-2),
+\qquad
+\chi=(\mu\Psi)' +2\Psi ,
+\tag{ART.31}
+```
+
+gives
+
+```math
+\mathcal L_{S+\Omega}^*(\Psi,\chi)
+=
+6q\nabla_{S^2}q .
+\tag{ART.32}
+```
+
+Thus, for every tangential current \(j\),
+
+```math
+M'(j)
+=
+\int_{S^2}\Psi\,L_{S+\Omega}j\,d\theta
+-
+\int_{S^2}\chi\,F_\Omega j\,d\theta .
+\tag{ART.33}
+```
+
+This is the finite rigid-frame quotient result:
+
+```math
+|M'(j)|
+\le
+C_{S,\Omega}\left(
+\|L_{S+\Omega}j\|_{L^2(S^2)}
++\|F_\Omega j\|_{L^2(S^2)}
+\right).
+\tag{ART.34}
+```
+
+Physically this says exactly what the non-separable ontology demanded. A
+solidly rotating affine core did not create a silent pressure-row direction; it
+asked the pressure row to carry a piece that belongs to the same record's
+material frame current. Once that row is included, the apparent null is gone in
+this model.
+
+This discharges only the rigid-rotation example. It does not prove the general
+retained quotient theorem, because a real retained \(w=q+\eta\) can have
+nonrigid frame drift, nonlinear source terms, collar coupling, and parent-row
+relay. The general theorem is therefore sharpened to:
+
+```math
+\texttt{RetainedCombinedRowAdjointRangePersistence.A:}
+\tag{ART.35}
+```
+
+after all lawful same-record frame/material-time rows are included, the
+positive cubic current lies in the combined row adjoint range, or the failure is
+visible as parent/pass/Field/nonparticipation.
+
+## 7. Status for \(c_0\)
 
 This note strengthens the fixed-sphere calculation and prevents a false
 closure. The affine sphere is row-coercive by an explicit certificate. The
-general retained sphere is reduced to the adjoint-range persistence theorem
-(ART.19), after removing frame/material-time drift such as (ART.20), followed
-by no silent row-dropping through the tower and the relay-endpoint
+rigid-rotation obstruction to the static pressure-only test is repaired by the
+combined pressure-plus-frame certificate (ART.32). The general retained sphere
+is reduced to the combined-row adjoint-range persistence theorem (ART.35),
+followed by no silent row-dropping through the tower and the relay-endpoint
 material-time Liouville.
 
 No \(c_0>0\) theorem is proved here.
