@@ -24,7 +24,10 @@ completion_truth: >-
   issue. The exact-cone pressure-row ownership component is now proved by the
   sphere equation -(Delta_{S^2}+2)P=Q_V; the only homogeneous ambiguity is the
   l=1 parent/source row, while an l=1 same-scale source forces a logarithmic
-  pressure row. Arbitrary-original-data admission remains outside this note.
+  pressure row. The l=1 harmonic relay also has nonzero pressure-traction
+  moment, so it is stress-flux/source visible unless full same-field stress
+  cancellation puts the cone into the zero-force Landau/Sverak consumer.
+  Arbitrary-original-data admission remains outside this note.
 ---
 
 # Door 2b: Critical Cone Profile-Production Accounting
@@ -144,9 +147,12 @@ pressure-row ownership itself is proved by
 `CriticalConePressureRowEllipticOwnership.A`: the sphere operator
 \(-(\Delta_{S^2}+2)\) fixes the same-scale pressure row modulo the
 \(\ell=1\) harmonic parent/source relay, and a same-scale \(\ell=1\) source
-forces logarithmic pressure drift. `ConePointForceOwnershipOrRouteOut.A` says a
-nonzero \(\Phi_0\) is owned by the parent/source/Field face, not by a free child
-cone. `ConeStationaryWeakProfileRegularity.A` is a consumer regularity row: an
+forces logarithmic pressure drift. The same note proves
+`CriticalConeL1PressureRelayForceVisibility.A`: a nonzero \(\ell=1\) harmonic
+pressure relay has pressure-traction moment \((4\pi/3)a\). `ConePointForceOwnershipOrRouteOut.A`
+says a nonzero total stress flux \(\Phi_0\) is owned by the parent/source/Field
+face, not by a free child cone; zero total flux with full stress cancellation
+is passed to the exact Landau/Sverak consumer. `ConeStationaryWeakProfileRegularity.A` is a consumer regularity row: an
 exact stationary zero-force \((-1)\)-homogeneous weak profile retained on
 annuli is smooth on \(S^2\), or its singular/source residue is not a retained
 smooth-sphere child record.
