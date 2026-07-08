@@ -19,7 +19,7 @@ W1 (`AlignedRowShedsRecordOneSense.A`). What the fluid does: the field's instant
 ## The missing exact facts (what would unstick each item)
 
 1. **Owner confirmation** of the install list (`confirm as-is` or edited). Procedural; blocks all payment.
-2. **The normal-form sense adjudication for v₂** against the gated cubic/log-chain conventions: which orientation is the climb. One convention check; decides W1 refuted vs inverted-confirmed.
+2. **The normal-form sense adjudication for v₂** — RESOLVED same day (§3c of the two-functional note): CRM.13–14 fix the turn-off orientation as v₂ > 0 with no convention freedom; W1 as worded is REFUTED at the strict atom (leading order) and the corrected one-sense (gathering → eating row) is proved-at-leading-order by the same certificate. Still PENDING the partner's R1 (integral chain) and R2 (thin-shell fidelity) verdicts, and unpayable until owner install confirmation.
 3. **Partner verdict on the ℓ=2 integral chain** (R1 of the sent refutation targets) and on thin-shell fidelity (R2).
 4. **The closedness face** (W7) stated as the limit-passage clause the corrected P2 consumes — currently gated inside the compactness/no-arbitrage package; needs its row-membership form made explicit.
 
