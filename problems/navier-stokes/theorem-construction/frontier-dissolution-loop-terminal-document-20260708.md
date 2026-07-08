@@ -417,3 +417,12 @@ None.
   future-determining path/action. The one-object phrase is the unproved
   conjunction of the remaining clauses, not a two-are-one identity or reduction
   to one surviving written object.
+- The W9 label-gauge quotient gate refutes another ontology shortcut. Material
+  labels are not automatically removable gauge: the checked WKB service-modulus
+  source defines modulus failure as active service-functional escape in
+  material, center, envelope, time, scale, bank, weight, rung, or
+  profile-selector coordinates, and the legal-label source treats dropped
+  certificate coordinates as Pack/Part/Field or same-solution legality failure.
+  A quotient is lawful only after the coordinate is proved harmless gauge,
+  paid variation, or typed route-out; current W3/W7/W8/W9 sources do not prove
+  that for all W9 label motions.
