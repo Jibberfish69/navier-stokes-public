@@ -253,3 +253,10 @@ None.
   \(\Phi_h(1)=e^{ih}\) and \(\Phi_h(1)=e^{-ih}\). W9 still requires the
   path-valued compact shift hull already named by the source, or a proved
   canonical cocycle/path-germ coordinate.
+- W8 Hardy/Carleson route-measure shortcut failed as a deletion: Hardy/BMO/
+  Carleson support pays W8 only after it is already selected-linear bill
+  currency. The half-tail \(\omega_\ell=2^\ell\),
+  \(\Delta_\ell=2^{-\ell}/(\ell+1)\) has finite square route measure
+  \(\sum 2^{-\ell}/(\ell+1)^2\) and infinite selected-linear bill
+  \(\sum 1/(\ell+1)\). W8 remains the native selected-linear WLF.60 / ODP.91
+  original-data payment on the order-locked full-packet carrier.
