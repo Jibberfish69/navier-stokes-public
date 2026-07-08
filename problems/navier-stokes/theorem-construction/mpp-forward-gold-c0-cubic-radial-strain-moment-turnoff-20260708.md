@@ -412,6 +412,47 @@ owner. A zero-bill positive-service counterexample must therefore exhibit a
 same-fluid collar carrying \(\mathsf J_M^+>0\) while every lawful owner denies
 both payment and route-out.
 
+This theorem is an owner/BV statement, not a new pressure estimate. Set
+
+```math
+N(\rho)=-M(\rho).
+\tag{CRM.19n}
+```
+
+Positive cubic service corresponds to \(N>0\), and
+
+```math
+\mathsf J_M^+
+=
+\int_{\Lambda Q}[-N'(\rho)]_+\,d\rho.
+\tag{CRM.19o}
+```
+
+On any subcollar where the strict atom keeps the same active service owner,
+the retained-service current has no place to disappear. A decrease of \(N\)
+is the selected cubic service leaving that owner. If the owner does not change,
+the only way the same participant can still claim the service is by a later
+return/increase of \(N\), which is another collar-current event. Strict
+participation counts positive retained-service variation, not signed net
+cancellation. Therefore the retained part of the bill contains the BV measure
+
+```math
+d\mathsf P_{\rm ret}
+\ge
+c\,d\operatorname{Var}_{\rm ret}N
+\ge
+c[-N'(\rho)]_+\,d\rho
+=
+c[M'(\rho)]_+\,d\rho
+\tag{CRM.19p}
+```
+
+on every constant-owner subcollar. Hence \(\mathsf P_{\rm ret}=0\) forces
+\(N\) to be constant there and gives no positive \(\mathsf J_M^+\). If
+\([-N']_+>0\) is present while this retained BV bill is absent, the service
+has crossed an owner boundary. That is precisely route-out to parent, child,
+Field, stopped/pass, or nonparticipating material.
+
 In an incompressible flow, this angular/current change is tied to the slaved
 pressure source
 
