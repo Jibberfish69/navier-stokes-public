@@ -360,6 +360,19 @@ Since the right side equals
 \(\int_{\Lambda Q}[M'(\rho)]_+\,d\rho\), (ZPF.7k4) implies
 `CubicRadialMomentOddPayment.A`.
 
+The strict physical form of (ZPF.7k4) is the payment-or-route-out theorem
+
+```math
+\texttt{RetainedPositiveCubicFluxIsPaidOrRoutesOut.A}.
+\tag{ZPF.7k5}
+```
+
+A positive residual angular-current flux cannot be kept as active
+Vieillefosse service by the same strict participant while also being absent
+from the pressure-current/collar bill. If it is not billed, the service has
+crossed the collar to a parent, child, Field, stopped/pass, or nonparticipating
+owner and the atom/tower accounting must follow it there.
+
 If this theorem is proved in the legitimate same-field pressure/current
 currency, then
 
