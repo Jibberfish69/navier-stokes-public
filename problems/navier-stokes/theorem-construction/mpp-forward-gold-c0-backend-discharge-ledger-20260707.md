@@ -7,6 +7,9 @@ route: forward-gold / c_0 backend / frozen frontier handoff
 authorship: Codex, 2026-07-07.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-causal-lag-commutator-sign-target-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-aligned-critical-record-atom-transverse-hodge-coercivity-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-hodge-hardy-endpoint-lemma-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-FROZEN-FRONTIER-STATE-20260706.md
@@ -15,8 +18,10 @@ source_refs:
 completion_truth: >-
   Backend ledger only. The live c_0 note now marks the affine-mismatch route as
   insufficient and keeps the overlap/atomization accounting conditional on a
-  genuine non-affine collar or turn-off charge. This ledger proves only the
-  retained-row weighted first-moment consumer calculation from an assumed
+  genuine F2 floor. The current synchronized F2 route is the aligned zero-bill
+  same-field Liouville/UCP exclusion plus strict-atom accounting, not a
+  magnitude/coercivity-by-rate estimate. This ledger proves only the retained-row
+  weighted first-moment consumer calculation from an assumed
   c_0>0. It does not prove c_0>0, does not discharge the F1 actual-NS lift, does
   not execute Chapter 10, does not assemble F5, and does not claim MPP closure.
 ---
@@ -25,9 +30,10 @@ completion_truth: >-
 
 ## 1. Conditional F2 import
 
-The current c_0 note does not install F2. It records a conditional accounting
-route: if a genuine non-affine overlap, collar, or turn-off charge is proved,
-that charge belongs to the existing strict participation bill
+The current c_0 notes do not install F2. They record a conditional accounting
+route: if the aligned zero-bill retained survivor is excluded by the same-field
+Liouville/UCP theorem, and every resulting payment is admitted to the existing
+strict participation bill,
 
 ```math
 \mathsf P(K)
@@ -65,8 +71,8 @@ c_{\rm acc}>0.
 ```
 
 The affine amplitude-mismatch argument does not supply (BACK.2). It only
-identifies the scaling tension. F2 remains open until the non-affine
-collar/turn-off rigidity is proved in the same pressure-viscous currency and
+identifies the scaling tension. F2 remains open until the zero-bill aligned
+atom is ruled out in the same pressure-viscous/participation currency and
 Chapter 10 certifies the resulting constants in its worksheet currency.
 
 ## 1.1 Proved F2 subcase: fixed axisymmetric plateau turn-off
@@ -286,4 +292,5 @@ The proof remains open at:
 
 So the back-half has begun in the precise sense that an assumed F2 floor now has
 a concrete consumer calculation. The full frozen sequence is not complete, and
-F2 itself remains open until the non-affine collar/turn-off charge is proved.
+F2 itself remains open until the aligned zero-bill Liouville/UCP exclusion and
+strict-atom accounting are proved.
