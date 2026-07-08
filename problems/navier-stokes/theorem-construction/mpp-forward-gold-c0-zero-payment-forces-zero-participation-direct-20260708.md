@@ -9,6 +9,7 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door1-enstrophy-viscous-service-persistence-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2-fixed-affine-collar-h1-trace-payment-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-door2b-critical-cone-profile-production-accounting-20260708.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-global-strict-bill-admission-accounting-20260708.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-compact-zero-loss-coercivity-extraction-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-claude-codex-sync-transverse-coupling-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-log-chain-hodge-payment-reduction-20260708.md
@@ -36,11 +37,12 @@ completion_truth: >-
   material-time drift, frame modulation, annular NS residual, angular roughness,
   and point-force/source ownership, producing the exact zero-force stationary
   smooth-sphere cone consumed by Landau/Sverak. The remaining retained-branch
-  burden is global bill admission/accounting for Door 1, Door 2a, and Door 2b
-  in the same tower currency. The broader physical split remains correct:
+  retained strict tower inequality is proved in the global strict bill
+  admission/accounting note once Door 1, Door 2a, and Door 2b are admitted in
+  the same tower currency. The broader physical split remains correct:
   no-carrier, nonparticipating, or no-field branches route through CM
-  Pack/Part/Field, while retained positive participation enters this strict
-  tower reduction.
+  Pack/Part/Field, while the remaining outside burden is arbitrary-original-data
+  admission into the retained positive strict bill class.
 ---
 
 # Zero Payment Forces Zero Participation
