@@ -354,3 +354,23 @@ prove that a retained positive \(\gamma\)-record in the zero-bill strict atom
 class forces a same-currency payment through axis Hardy/current flux, viscous
 diffusion, collar/annular flux, or Field currency, or else degenerates to
 pass/service-zero/endpoint-kernel material. This is not installed.
+
+## 8. Cycle 27: Hardy must be material-time signed
+
+Hardy control is a plausible quotient-conversion ingredient, but only after it
+is tied to the retained atom currency. Plain Hardy is magnitude coercivity.
+Swirl handedness is not the missing sign, because \(\gamma\mapsto-\gamma\)
+leaves \(\Omega^2\), the pressure source, and the \(SO(2)\)-aligned Hessian
+structure unchanged.
+
+The missing signed object is a material-time charge: compression, current,
+diffusion, annular flux, or collar/Field payment attached to the retained
+\(\gamma\)-record. Without that conversion, Hardy remains a candidate proof
+ingredient for
+
+```math
+\texttt{SignedAxisGammaQuotientHardyLiouville.A},
+\tag{ASW.23}
+```
+
+not the theorem itself.

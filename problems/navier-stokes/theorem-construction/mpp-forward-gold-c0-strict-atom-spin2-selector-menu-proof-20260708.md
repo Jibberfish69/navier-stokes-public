@@ -192,3 +192,10 @@ So Gate A is conditionally discharged on the non-axisymmetric strict-atom
 branch once atom birth/custody and the spin-2 lower edge are supplied. The
 proof of \(c_0>0\) still needs those inputs and the Gate-B exclusion or branch
 classification.
+
+One precision is required in the phrase "spin-2 lower edge." It must include a
+stopped, time-local lower-edge or threshold-crossing admission strong enough to
+name the first parent-known detector before selected positive readout. A bare
+integral lower bound for \(\int |Z_Q|^2\) is not by itself the stopped detector
+unless the strict atom normalization also supplies the time-window and threshold
+conversion.

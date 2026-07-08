@@ -1486,6 +1486,13 @@ scale-marginal, so it does not by itself produce the signed/oriented
 same-currency \(c_0\) payment. The Gate-B on-axis target is therefore better
 typed as a signed quotient theorem:
 
+Here "signed" cannot mean swirl handedness alone. The fixed-axis aligned
+pressure branch sees \(\gamma^2\): reversing the swirl sign leaves
+\(\Omega^2\), the pressure source, and the \(SO(2)\)-aligned Hessian structure
+unchanged. The sign or payment must come from the material-time quotient
+identity: compression, \(\Gamma\)-current, viscous diffusion, annular flux, or
+collar/Field currency.
+
 ```math
 \texttt{SignedAxisGammaQuotientHardyLiouville.A}.
 \tag{ATH.87}
