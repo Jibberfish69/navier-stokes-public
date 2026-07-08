@@ -200,7 +200,7 @@ C_{\rm loc}
 \left(
 \sum_k\mu_{\rm bad}(\Lambda B_k)
 +\sum_j\mu_{\rm D1/D2a}(\Lambda A_j)
-+\sum_\alpha\mu_{\rm chain/D2a/D2b}(\Lambda C_\alpha)
++\sum_\alpha\mu_{\rm chain/end/D2a/D2b}(\Lambda C_\alpha)
 \right).
 \tag{GBA.10}
 ```
@@ -214,6 +214,7 @@ are selected by a dyadic maximal rule. Their dilates have bounded overlap:
 \sum_k \mathbf 1_{\Lambda B_k}
 +\sum_j \mathbf 1_{\Lambda A_j}
 +\sum_\alpha \mathbf 1_{\Lambda C_\alpha}
++\sum_\alpha \mathbf 1_{\partial_{\rm handoff}C_\alpha}
 +\sum_\alpha \mathbf 1_{\partial_{\rm out}C_\alpha}
 +\sum_\alpha \mathbf 1_{\partial_{\rm crit}C_\alpha}
 \le
@@ -227,7 +228,7 @@ measure \(d\mu_{\rm strict}\), (GBA.11) implies
 ```math
 \sum_k\mu_{\rm bad}(\Lambda B_k)
 +\sum_j\mu_{\rm D1/D2a}(\Lambda A_j)
-+\sum_\alpha\mu_{\rm chain/D2a/D2b}(\Lambda C_\alpha)
++\sum_\alpha\mu_{\rm chain/end/D2a/D2b}(\Lambda C_\alpha)
 \le
 N_{\rm acc}\,\mu_{\rm strict}(\mathcal T).
 \tag{GBA.12}
