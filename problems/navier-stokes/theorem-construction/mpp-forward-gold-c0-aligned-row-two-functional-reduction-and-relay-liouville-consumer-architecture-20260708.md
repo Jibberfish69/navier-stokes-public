@@ -113,6 +113,14 @@ If this survives: upon install, W3 deletes as empty-by-admission and the Door-1 
 
 Projected post-install frontier if ALL pending items survive adjudication: W1 resolved (refuted-as-worded + corrected sense proved), W3 empty-by-admission, W11 reduced, W9+W10 merged — 14 walls → 8 (W2, W6, W7, W8, clock, W12, W13, W14). Stated per rule 14: projected, not paid.
 
+## 3g. Provisional Cycle-6 opening: W8 as the time-integrated gathering bill (two-are-one candidate; PENDING partner refutation and owner install; nothing paid)
+
+Physical sentence first: WLF.60's "first admission" prices the moment fresh content first enters the record's carrier. Physically, first entry of fresh content at the front IS an act of gathering — the inward/downscale current the corrected W1 sense bills, at the exact per-rung constant. So the candidate: **W8 (the WLF.60/ODP.91 early-row payment) is the material-time integral of the corrected W1 sense** — the parent-weighted pulse measure is the gathering bill summed over first entries, i.e., the temporal CRM.14 (the successor object named in §3c, which under net-negative naming was never christened — this candidate says it never needs to be: it already has W8's name).
+
+Certificate anchors: the spine's own clauses — "WLF.60 is the early-branch / heat-lag first-admission coordinate of that same signed-height payment" and "WLF.60's parent-weighted pulse measure and ODP.91 are the same early-row burden in two coordinates" — plus the §3b/§3c constant supplying, for the first time, an exact per-unit price for what the pulse measure meters. If this survives, W8 stops being an unpriced payment postulate: its pulse measure acquires the computed integrand (the per-rung eating pairing under gathering), and the remaining W8 content is the order-lock/overlap bookkeeping the spine already lists.
+
+Attack surfaces: (i) the gated WLF.60 statement itself — does its pulse measure meter first-admission of RECORD content at the front (then the identification stands) or a different carrier event (then it fails); (ii) whether the order-locked full-packet admission and selected-overrun tail are independent content or the multi-shell radial-weighting statement of §3d in the WLF coordinate; (iii) heat-lag: the corrected sense was computed instantaneous-slaved — confirm the heat-lag row consumes viscosity separately and does not modify the slaved constant.
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
