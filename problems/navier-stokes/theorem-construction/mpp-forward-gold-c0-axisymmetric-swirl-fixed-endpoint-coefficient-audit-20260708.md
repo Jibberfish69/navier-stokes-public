@@ -549,3 +549,93 @@ So A, B1, and B2 are instances of one signed material-time no-free-reversal
 principle, but B2 remains a separate native-current theorem unless that
 principle is formulated abstractly enough to include annular swirl-gradient
 work.
+
+## 11. Claude cycle 35: B1 sees the centrifugal brake through the radial-compression equation
+
+The owner-installed object-failure admission gate removes scaling ghosts,
+restricted-Euler shadows, marginal embeddings, and local algebraic production
+terms from the failure list until they are stated as same-fluid events. Under
+that gate, the real B1 physical question is narrower: can inward compression at
+the record edge overpower the centrifugal outward barrier without paying in the
+same axisymmetric currency?
+
+The \(\gamma\)-record equation alone sees compression:
+
+```math
+D_t\left(\frac12\gamma^2\right)
+=
+-2a_r\gamma^2
++\nu\gamma
+\left(\partial_r^2+\frac3r\partial_r+\partial_z^2\right)\gamma .
+\tag{ASW.38}
+```
+
+The centrifugal brake enters through the companion radial momentum equation.
+With
+
+```math
+a_r=\frac{u^r}{r},
+\qquad
+\Gamma=r u^\theta,
+```
+
+the radial equation
+
+```math
+D_tu^r-\frac{(u^\theta)^2}{r}+\partial_r p
+=
+\nu\left(\Delta-\frac1{r^2}\right)u^r
+```
+
+gives
+
+```math
+D_t a_r+a_r^2
+=
+\frac{\Gamma^2}{r^4}
+-\frac1r\partial_r p
++\frac{\nu}{r}\left(\Delta-\frac1{r^2}\right)u^r .
+\tag{ASW.39}
+```
+
+The term \(\Gamma^2/r^4\) has the brake sign: it pushes \(a_r\) upward, hence
+opposes sustained \(a_r<0\) compression. Thus the B1 currency must be a paired
+currency, not a \(\gamma\)-only Hardy currency:
+
+```math
+\text{compression production }(-2a_r\gamma^2)
+\quad\text{paired with}\quad
+\text{centrifugal barrier }\frac{\Gamma^2}{r^4}
+```
+
+and with the pressure, viscous, annular/axis, and collar terms in (ASW.39)
+owned rather than discarded.
+
+The sharper B1 residual is therefore:
+
+```math
+\texttt{AxisGammaCompressionCentrifugalBarrierNoFreeRecord.A}.
+\tag{ASW.40}
+```
+
+Statement. A retained fixed-axis swirl record cannot keep \(a_r<0\) at the
+record edge, amplify \(\gamma\) by \(-2a_r\gamma^2\), and simultaneously hide
+the outward \(\Gamma^2/r^4\) brake, pressure response, viscosity, annular/axis
+flux, and collar/complement accounting. It must pay in that paired currency or
+route to stop/pass/Field/collar/merge/service-loss/endpoint-kernel material.
+
+Then
+
+```math
+\texttt{AxisGammaCompressionCentrifugalBarrierNoFreeRecord.A}
+\Longrightarrow
+\texttt{AxisGammaCompressionQuotientNoFreeRecord.A}
+\Longrightarrow
+\texttt{SignedAxisGammaQuotientHardyLiouville.A}.
+\tag{ASW.41}
+```
+
+So the B currency does see the centrifugal self-brake. The remaining Hou--Luo
+physical residual is exactly whether same-fluid pressure/collar/viscous
+mechanisms can sustain the compressive record edge against that barrier for
+free. That is an admitted fluid question; the filtered ghosts are not.
