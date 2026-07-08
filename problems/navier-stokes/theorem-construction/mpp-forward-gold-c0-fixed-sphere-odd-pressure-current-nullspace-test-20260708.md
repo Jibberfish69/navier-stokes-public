@@ -250,6 +250,85 @@ C_S\,\|L_Sj\|_{L^2(S^2)}
 
 for a universal fixed-sphere constant \(C_S\).
 
+## 4. Coordinate-free adjoint certificate
+
+The calculation above is not merely an axisymmetric accident. It has an
+adjoint certificate on the fixed affine sphere.
+
+Let
+
+```math
+P_\theta=I-\theta\otimes\theta,\qquad B_S(\theta)=P_\theta S P_\theta .
+\tag{FSN.16}
+```
+
+For any smooth tangential current \(j\), viewed as the homogeneous perturbation
+\(rj(\theta)\),
+
+```math
+L_Sj
+=
+S:\nabla_x(rj(\theta))
+=
+B_S:\nabla_{S^2}j ,
+\tag{FSN.17}
+```
+
+where the derivative on the right is the covariant derivative on the sphere.
+Indeed, differentiating \(rj(\theta)\) gives a radial term and a second
+fundamental form term; because \(j\cdot\theta=0\), those two terms cancel after
+contraction with \(S\), leaving exactly \(P_\theta S P_\theta:\nabla_{S^2}j\).
+
+Thus the formal adjoint is
+
+```math
+L_S^*\psi
+=
+-\operatorname{div}_{S^2}(\psi B_S).
+\tag{FSN.18}
+```
+
+For the Vieillefosse affine sphere
+
+```math
+q=1-3\mu^2,
+\tag{FSN.19}
+```
+
+the scalar
+
+```math
+\Psi(\theta)
+=
+-36\phi(\mu)
+=
+{4\over5}(3q(\theta)-2)
+\tag{FSN.20}
+```
+
+satisfies the exact adjoint identity
+
+```math
+L_S^*\Psi=6q\,\nabla_{S^2}q .
+\tag{FSN.21}
+```
+
+Therefore, for every smooth tangential \(j\),
+
+```math
+M'(j)
+=
+\int_{S^2}6q\,j\cdot\nabla_{S^2}q\,d\theta
+=
+\int_{S^2}\Psi\,L_Sj\,d\theta .
+\tag{FSN.22}
+```
+
+Equation (FSN.22) is the finite pressure-row certificate: the cubic-drop
+functional lies in the adjoint range of the own pressure-row operator at the
+affine Vieillefosse sphere. The constant in (FSN.15) can be taken as
+\(\|\Psi\|_{L^2(S^2)}\).
+
 Together with (FSN.2)--(FSN.6), this says: at the affine Vieillefosse sphere,
 the full linear pressure row controls the entire linear cubic drop.
 Pure \(m\ne0\) modes carry no drop, mixed modes cannot cancel the \(m=0\)
@@ -280,6 +359,10 @@ The exact remaining fixed-geometry extension is:
 \text{ with lawful same-fluid history,}
 ```
 
-and to show that any positive retained \([M']_+\) either enters the
-retained pressure row or routes to a parent/pass/Field owner. That is the same
-open object as `RetainedPositiveCubicFluxHasPressureRowOrRoutesOut.A`.
+and to show that the corresponding retained-row adjoint certificate persists,
+or else the perturbation \(\eta\) is visible in another VPI row or routes to a
+parent/pass/Field owner. In operator terms, the next finite test is whether the
+positive cubic flux vector \(6w\nabla_{S^2}w\) remains in the coercive adjoint
+range of the same-field pressure-row operator for the retained record, modulo
+the parent-row relay. That is the same open object as
+`RetainedPositiveCubicFluxHasPressureRowOrRoutesOut.A`.
