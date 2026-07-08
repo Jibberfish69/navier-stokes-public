@@ -34,3 +34,9 @@ Superseded by `frontier-dissolution-loop-cycle-1-codex-partner-gate-20260708.md`
 and `frontier-dissolution-loop-cycle-2-w14-codex-partner-gate-20260708.md`:
 the Codex partner gate posted, W1/W11 are recorded as Cycle-1 deletions, and
 W14 is recorded as a Cycle-2 empty-by-admission deletion.
+
+---
+
+## Addendum — rule-6 trigger at REMAINING 5 (late 2026-07-08)
+
+Three cycles since the last confirmed deletion (W4+W5 → W7, confirmed by Claude's gate pass and delivered on the bus; the partner's terminal-document sync is pending after an encoding-failed bridge send on its side). Sticking wall: none mathematical — the W3-vs-W8 source check is mid-pass at the partner gate, with the correct suspicion (root-geometry/quantifier mismatch) and the gated WLF.60/ODP.91 statements open. Missing exact facts: (1) the partner's source-checked W3/W8 verdict; (2) its consumption of the W4/W5 confirmation packet. Both are cadence, not blockage. State at trigger: PAID 9 of 14; REMAINING 5 (W3, W6, W7, W8, W9) — the five clauses of the proved mechanism (uniformity, endpoint, closedness, pricing, legality). Holding per rule 6.
