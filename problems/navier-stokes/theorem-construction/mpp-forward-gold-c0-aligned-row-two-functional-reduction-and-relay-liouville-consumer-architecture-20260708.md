@@ -56,6 +56,27 @@ The record's growth is read where the record lives — at the core, through 3tr(
 
 Attack surfaces sent to the partner lane: (1) carrier-extent corrections (ℓ=0/ℓ=4 couple at subleading order — is that already charged by the log-chain Hodge/viscous deviation bill?); (2) the exact-fraction Newtonian sign itself (decide-both-ways; a wrong sign is a paid refutation of the wall as stated); (3) normal-form fidelity (the filed drop identity lives on log-radius shells, not one sphere — confirm the single-sphere source transcription or state the correction); (4) the exact clause by which the viscous arrow selects the forward reading in the gated record law.
 
+## 3b. The ℓ=2 constant, executed (exact register; thin-shell model; PENDING partner refutation and sense adjudication — possibly a refutation-or-inversion of W1's wording)
+
+Physical sentence: at the atom, the field's instantaneous answer to a unit of m=0 meridional current at the front is one aligned Hessian at the core; its pairing with the record is one exact constant, and the computation decides its sign both ways at once.
+
+Setup: S = a·diag(1,1,−2), a>0 (equatorial stretching belt, compressive polar caps; record −tr S³ = 6a³ > 0). Front current v = v₂∇_{S²}P₂(cosθ) on the shell r=R (thin-shell transcription of the log-chain residual current — fidelity is attack surface 3). Forced row: −Δp₁ = 2 div(Sv δ_R), H₁ = Hess p₁(0). Interior Green expansion gives H₁(0) exactly trace-free aligned, H₁(0) = A·diag(−1,−1,2), with
+
+A = −(9 a v₂ / 2R²) ∫₋₁¹ (1−x²)x²(15x²−7) dx = −(9 a v₂ / 2R²)·(−16/105) = +(24/35)·a v₂/R².
+
+Row–record pairing: 3 tr(S²H₁) = 18a²A = +(432/35)·a³ v₂ / R².
+
+Orientation dictionary (fixed by incompressibility, ∂_ρw + div_{S²} j = 0):
+- v₂ > 0 = belt→caps drain = the residual current consistent with an outward-DECAYING imprint (localization maintenance). Row pairing POSITIVE: the forced row FEEDS the record.
+- v₂ < 0 = caps→belt = gathering / inward (downscale) transfer of imprint content. Row pairing NEGATIVE: the forced row EATS the record.
+
+Three consequences, stated with rule-14 care:
+1. **Non-degeneracy is PROVED at the atom (thin-shell model):** the row–current pairing constant is −16/105 ≠ 0 in the ℓ=2 channel — the aligned row is never silent under nonzero m=0 current. The "zero-row escape" is closed in this channel; this stands regardless of the sense adjudication.
+2. **The sense came out INVERTED relative to W1's wording.** As filed, `AlignedRowShedsRecordOneSense.A` says "shedding forces the row that eats the record." The computed constant says: the localization/shedding-sense current (v₂>0) forces a FEEDING row, and the GATHERING current (v₂<0) forces the EATING row. If the climb (record growth by downscale transfer) runs the gathering current at the front — which is what a climbing record must do — then the brake attaches to the CLIMB itself: the row eats exactly when the record gathers, with exact strength (432/35)a³|v₂|/R² per unit rate. That is the c₀ mechanism with the sign landing on the dangerous direction, which is better for the theorem than the filed wording — but it REFUTES-OR-REWORDS W1 as stated. The adjudication between "refuted" and "inverted-and-confirmed" is exactly the normal-form sense check (which orientation of v₂ the gated log-chain conventions call the climb), attack surface 3.
+3. The T-odd structure is confirmed concretely: one constant, two readings under arrow reversal, no magnitude anywhere.
+
+Open clauses before any deletion: thin-shell vs log-chain shell-family fidelity; carrier-extent (ℓ=0/ℓ=4 subleading) corrections; the normal-form sense adjudication; partner refutation of the integral itself (three-line check: (Sv)_r = −9av₂sin²θcos²θ, (Sv)_θ = −3av₂ sinθcosθ(3cos²θ−2), ∫₋₁¹(22x⁴−7x²−15x⁶)dx = −16/105).
+
 ## 4. Honest scope
 
 - §1 is a reduction of a filed open sign to a finite exact computation; the computation itself is NOT executed here. Executing it is the next move and it can refute as well as confirm.
