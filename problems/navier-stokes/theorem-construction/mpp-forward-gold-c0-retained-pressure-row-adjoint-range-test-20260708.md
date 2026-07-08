@@ -25,7 +25,9 @@ completion_truth: >-
   exactly by adjoining the same-record frame row F_Omega j=Omega theta.j; the
   obstruction term lies in F_Omega^*. This proves the finite quotient repair for
   axial rigid rotation. A general skew affine part has an additional transported
-  strain-frame component unless the full material-frame row is included, so the
+  strain-frame component, and in the affine model that component splits into two
+  explicit material-frame rows: rigid spin and strain-pattern turnover. Thus the
+  full affine skew obstruction is repaired after adjoining those rows. The
   general retained-row persistence theorem remains open. This is a strict finite
   reduction, not c0 closure.
 ---
@@ -446,16 +448,86 @@ rotating the Vieillefosse frame itself, not merely spinning around the already
 chosen symmetry axis.
 
 So the lawful quotient row cannot be the scalar \(F_\Omega\) alone. The next
-finite statement is:
+finite statement is to include the full material-frame row. In the affine
+model this is still explicit, not a black box. Since
 
 ```math
-\texttt{FullMaterialFrameRowAdmission.A:}
+\nabla_{S^2}\Psi=\Psi'(q)\nabla_{S^2}q,\qquad \Psi'(q)={12\over5},
 \tag{ART.41}
 ```
 
-the retained record includes the material transport of its strain frame, and
-that row owns the non-axial component (ART.40). After this admission, the
-combined-row persistence theorem (ART.35) is the correct finite target.
+define two scalar material-frame rows:
+
+```math
+F_b^{\rm spin}j=(J\nabla_{S^2}a)\cdot j,
+\qquad
+F_b^{\rm turn}j=(aJ\nabla_{S^2}q)\cdot j .
+\tag{ART.42}
+```
+
+Their adjoints are multiplication by the corresponding tangent vector fields.
+Therefore
+
+```math
+L_\Omega^*\Psi
+=
+(F_b^{\rm spin})^*(3\Psi)
++
+(F_b^{\rm turn})^*(\Psi'(q)).
+\tag{ART.43}
+```
+
+Consequently the full affine skew certificate is
+
+```math
+\left(
+L_{S+\Omega}^*
+-
+(F_b^{\rm spin})^*3\Psi
+-
+(F_b^{\rm turn})^*\Psi'(q)
+\right)\Psi
+=
+6q\nabla_{S^2}q ,
+\tag{ART.44}
+```
+
+where the notation means that the two frame-row adjoints are evaluated with the
+displayed scalar multipliers \(3\Psi\) and \(\Psi'(q)\). Equivalently,
+
+```math
+M'(j)
+=
+\int_{S^2}\Psi\,L_{S+\Omega}j\,d\theta
+-
+\int_{S^2}3\Psi\,F_b^{\rm spin}j\,d\theta
+-
+\int_{S^2}\Psi'(q)\,F_b^{\rm turn}j\,d\theta .
+\tag{ART.45}
+```
+
+This proves:
+
+```math
+\texttt{AffineFullMaterialFrameRowCertificate.A}
+\tag{ART.46}
+```
+
+At the affine Vieillefosse sphere, every skew affine frame motion is seen by
+the pressure row plus the two same-record material-frame rows (spin and
+strain-pattern turnover).
+
+The retained theorem beyond the affine model is still:
+
+```math
+\texttt{RetainedFullMaterialFrameRowAdmission.A:}
+\tag{ART.47}
+```
+
+the retained record includes the material transport of its strain frame for
+\(w=q+\eta\), including the analogues of the spin and turnover rows in
+(ART.42). After this admission, the combined-row persistence theorem (ART.35)
+is the correct finite target.
 
 ## 8. Status for \(c_0\)
 
@@ -463,9 +535,10 @@ This note strengthens the fixed-sphere calculation and prevents a false
 closure. The affine sphere is row-coercive by an explicit certificate. The
 axial rigid-rotation obstruction to the static pressure-only test is repaired
 by the combined pressure-plus-frame certificate (ART.32). General skew affine
-motion reduces to full material-frame row admission (ART.41). The general
-retained sphere is then reduced to the combined-row adjoint-range persistence
-theorem (ART.35), followed by no silent row-dropping through the tower and the
-relay-endpoint material-time Liouville.
+motion at the affine sphere is repaired by the full material-frame certificate
+(ART.44). The general retained sphere is then reduced to retained full
+material-frame row admission (ART.47), combined-row adjoint-range persistence
+(ART.35), no silent row-dropping through the tower, and the relay-endpoint
+material-time Liouville.
 
 No \(c_0>0\) theorem is proved here.
