@@ -239,3 +239,9 @@ None.
   admission. W7 remains the wall that must pass or route the pressure source,
   pressure row, material-frame rows, material-time rows, and positive VPI record
   through the critical limit.
+- Endpoint handoff residue reduction did not delete a survivor: the long-chain
+  endpoint source reduces that residue to W5+W6, already terminally assigned as
+  W7+W8, while the fixed-sphere endpoint source reduces the same residue to
+  W2+W6, already terminally assigned as W3+W8. This prevents a fifth wall from
+  being born, but it does not prove W7 graph/admission, W8 selected-linear
+  original-data collection, or W9 material-time certificate invariance.
