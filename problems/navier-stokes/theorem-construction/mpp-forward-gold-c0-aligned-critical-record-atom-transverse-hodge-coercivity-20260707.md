@@ -124,10 +124,14 @@ This is the compact theorem:
 \tag{ATH.7}
 ```
 
-or, in lower-bound form,
+After the shear-cell audit, the lower-bound phrasing is not the live target by
+itself. The same object must be stated as a no-free aligned-bank/payment
+dichotomy:
 
 ```math
-\texttt{UniformTransverseHodgeCoercivityInRecordCurrency.A}.
+\texttt{NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A}
+\quad+\quad
+\texttt{ParentHarmonicUniaxialBankPaysOrIsSummable.A}.
 \tag{ATH.8}
 ```
 
@@ -500,3 +504,65 @@ local jet is possible; scaling says an order-one tower bank cannot remain remote
 and free. The remaining proof work is to make the near/far pressure split,
 normalized \(r^4/R^4\) decay, and atom/collar/parent/Field admission exact in
 the strict participation currency.
+
+## 10. Hessian-channel tail admission
+
+The installed Gate 1 theorem controls a selected pressure increment in the
+relay/cutoff flux. The aligned-bank wall asks for a pressure Hessian component
+in the strain frame. These are not the same readout. The transfer is licensed
+only after the selected strict atom admits the pressure-Hessian channel as part
+of its retained packet.
+
+The needed analogue is
+
+```math
+\texttt{RetainedPressureHessianCZTailAdmission.A}.
+\tag{ATH.34}
+```
+
+For \(H=\nabla^2(-\Delta)^{-1}Q\), decompose \(Q\) into a near part and dyadic
+annuli \(A_\ell\) outside the selected packet. The Hessian kernel satisfies
+
+```math
+|K_H(x-y)|\le C\,|x-y|^{-3}.
+\tag{ATH.35}
+```
+
+Hence, on a selected packet of radius \(r\),
+
+```math
+\|H_{\rm far}\|_{\rm packet}
+\le
+C
+\sum_{\ell\ge0}
+(2^\ell r)^{-3}
+\|Q\|_{L^1(A_\ell)}.
+\tag{ATH.36}
+```
+
+After NS normalization this is the same \((r/R)^4\) parent-to-child decay
+recorded in (ATH.29) for sources at scale \(R\). Thus a far bank is summable
+below the normalized record unless the annular source is itself retained at
+comparable strength.
+
+If the annular source is retained, it belongs to the legal Field/viscous
+envelope and is paid. If it is outside every retained Field envelope while still
+needed for the selected Hessian readout, then the pressure-Hessian component is
+not terminally retained with the witness, giving the same terminal Part/Field
+route-out as the pressure-increment Gate 1 theorem. Therefore the exact
+reduction is:
+
+```math
+\texttt{RetainedPressureHessianCZTailAdmission.A}
++
+\texttt{ComparableScalePressureBankIsAtomCollarParentOrField.A}
+\Longrightarrow
+\texttt{ParentHarmonicUniaxialBankPaysOrIsSummable.A}.
+\tag{ATH.37}
+```
+
+What remains unpaid is not local pressure algebra. It is the channel-admission
+statement that the selected \(c_0\) strict atom really contains the
+pressure-Hessian readout in \(\mathsf B_{\rm ret}\), and the comparable-scale
+ownership statement that a bank strong enough to cancel \(H_\perp^S\) is atom,
+collar, parent, or Field currency before readout.
