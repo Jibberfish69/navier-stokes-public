@@ -233,3 +233,9 @@ None.
   payment row to strong-L3 service persistence. They do not prove the
   admission, finiteness, or uniformity of that H1 row as strict same-field tower
   payment. W3 remains the installed service-persistence wall.
+- W7 direct retained-record admission descent did not delete W7: W8's
+  selected-linear original-data payment ledger does not prove retained VPI
+  record graph closedness, critical row passage, or arbitrary-original-data
+  admission. W7 remains the wall that must pass or route the pressure source,
+  pressure row, material-frame rows, material-time rows, and positive VPI record
+  through the critical limit.
