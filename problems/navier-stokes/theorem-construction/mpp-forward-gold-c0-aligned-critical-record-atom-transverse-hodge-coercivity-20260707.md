@@ -1428,3 +1428,52 @@ zero-bill strict atom class either pays through axis Hardy/current flux,
 viscous diffusion, annular collar flux, or Field currency, or degenerates to
 pass/service-zero/endpoint-kernel material. Until that conversion is proved,
 \(\gamma=\Gamma/r^2\) remains a Gate-B residual, not a charged quantity.
+
+## 26. Gate A strict-atom spin-2 selector menu
+
+The generic parent-known selector menu theorem is still too broad. The older
+moving-argmax obstruction remains valid for arbitrary future-positive record
+edges.
+
+The strict-atom non-axisymmetric Gate-A branch has more structure. The same
+atom already owns the carrier, parent strain frame, material chart, normalized
+geometry, collar address, and child placement before selected positive readout.
+After spin-2 lower-edge and eigengap admission, the only continuum label left
+is the headless spin-2 angle.
+
+Choose a finite parent-frame net \(E_k\subset S^1/\pi\). For the retained
+spin-2 observable \(Z_Q(t)\),
+
+```math
+\max_k|\langle Z_Q(t),E_k\rangle|\ge c_{\rm net}|Z_Q(t)|.
+\tag{ATH.85}
+```
+
+The finite scores \(s_k(t)=\langle Z_Q(t),E_k\rangle\) are parent-chart
+observables, and their first threshold crossings are stopped. A positive
+non-axisymmetric lower edge forces a stopped crossing before readout. From that
+point on, the existing finite stopped-score theorem and Schur motion payment
+charge detector motion, while loss of eigengap, chart, collar, order-lock, or
+carrier routes to the declared paid/stop/exit currencies.
+
+So the branch theorem is
+
+```math
+\begin{aligned}
+&\texttt{StrictAtomNonAxisymmetricSpinTwoSelectorMenu.A}\\
+&+\texttt{StoppedSelectorFiniteScoreOrPaidDrift.A}\\
+&+\texttt{SchurThinAdmissionRule.A}\\
+&+\texttt{FiniteDimensionalSchurMotionPayment.A}\\
+&\Longrightarrow
+\texttt{CausalStoppedSpinTwoSelectorAdmission.A}.
+\end{aligned}
+\tag{ATH.86}
+```
+
+This conditionally discharges Gate A only inside the non-axisymmetric strict
+atom branch, assuming strict atom birth/custody and
+\(\texttt{SpinTwoLowerEdgeGapAdmission.A}\). It does not discharge the generic
+selector theorem, the atomization theorem, the lower-edge theorem, or Gate B.
+
+Focused note:
+`problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-strict-atom-spin2-selector-menu-proof-20260708.md`.
