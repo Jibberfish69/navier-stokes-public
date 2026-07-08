@@ -70,3 +70,11 @@ None.
   route-measure Carleson theorem on an order-locked full-packet carrier with
   weighted-root, overlap, overrun, and persistent-affine-quotient producer
   clauses.
+- W6 == W9 failed: W9 is the compact certified material-time shift-hull /
+  closed-zero-surplus certificate-flow invariance row, while W6 is the endpoint
+  Liouville / zero-loss relay rigidity excluding positive critical-height
+  material-time recurrence with surplus-zero same-packet payers.
+- W6 reduction to W3+W7+W8+W9 failed: those walls supply persistence, retained
+  graph closedness/admission, early-row root payment, and material-time
+  certificate invariance, but `ZeroLossTowerRelayRigidity.A` remains an
+  unproved source-listed endpoint row.
