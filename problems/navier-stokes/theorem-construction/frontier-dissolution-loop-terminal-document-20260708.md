@@ -442,3 +442,13 @@ None.
   no-field branches route through Pack/Part/Field, while retained positive VPI
   branches still need W7 graph passage/admission. W8's selected-linear
   original-data payment does not supply that branch-selection disjunction.
+- The coordinate-legality ontology audit corrects the statement forms but does
+  not delete a wall. W3 and W8 are not detachable payment ledgers: W3 is
+  retained \(H^1\) service-row admission/tightness or route-out, while W8 is
+  finite selected-linear original-data bill currency before positive readout.
+  W7 is the same-record nonlinear pressure/VPI graph-passage or route-out face,
+  and W9 is compact certified material-time path/action rather than ordinary
+  material flow. B2 is constrained to a reflection-covariant handedness theorem:
+  reflection fixes the scalar W3/W7/W8/W9 clauses while flipping the legal
+  \(m=\pm1\) tilt row. No checked source makes the four retyped clauses automatic
+  from one same-fluid history or one surviving written object.
