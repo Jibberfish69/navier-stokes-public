@@ -280,3 +280,9 @@ None.
   strict retained tower payment, or routes concentration of that row. W3 remains
   narrowed to the localized H1/enstrophy-viscous row's
   tower-uniformity/admission-or-route-out burden.
+- W3 is not empty by ordinary dissipation admission: the checked Door-1 source
+  spends the local strain H1/enstrophy row only after admission as retained
+  strict payment, and the global strict-bill accounting source sums local rows
+  only after they are admitted in the same tower currency. The finite-measure
+  model \(\mu_n=\delta_n\) on moving rungs separates fixed-window finite row
+  mass from rung-uniform retained tower distribution or typed route-out.
