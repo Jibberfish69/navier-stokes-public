@@ -4808,3 +4808,102 @@ least `1/4`, with the balanced-or-opposite-dissipation alternative `(G62.6)`.
 
 **Status.** Strict same-trajectory history reduction. No limiting defect,
 finite reserve, or Gold conclusion is proved.
+
+## 63. THE POSITIVE RUNNING-RECORD MEASURE (2026-07-09)
+
+For
+
+```math
+\overline R(t):=\max_{0\le s\le t}R(s),
+\qquad
+F(t):=P_H(t)-\nu D(t)=\frac12R'(t),
+\tag{G63.1}
+```
+
+smoothness of `R` gives the exact absolutely continuous identity
+
+```math
+\boxed{
+\frac12\,d\overline R
+=\mathbf 1_{\{R=\overline R\}}[F]_+\,dt.
+}
+\tag{G63.2}
+```
+
+In the canonical record normalization, set
+
+```math
+\rho_n(\tau):=R(v_n(\tau)),
+\qquad
+q_n(\tau):=
+\frac{\overline R(t_n+\theta_n\tau)}{R_n}.
+\tag{G63.3}
+```
+
+On the last doubling interval, `q_n` increases continuously from `1/2` to `1`,
+and the positive record-gain measure satisfies
+
+```math
+\boxed{
+dG_n
+:=\mathbf 1_{\{\rho_n=q_n\}}
+[P_H(v_n)-\nu_nD(v_n)]_+\,d\tau
+=\frac12\,dq_n,
+\qquad
+G_n([\tau_{n,-},0])=\frac14.
+}
+\tag{G63.4}
+```
+
+The measurable generalized inverse
+
+```math
+\tau_n(q):=
+\inf\{\tau\in[\tau_{n,-},0]:q_n(\tau)\ge q\},
+\qquad
+V_n(q):=v_n(\tau_n(q))
+\tag{G63.5}
+```
+
+obeys `R(V_n(q))=q`, and
+
+```math
+\boxed{
+\int\Phi(q_n(\tau))\,dG_n(\tau)
+=\frac12\int_{1/2}^1\Phi(q)\,dq.
+}
+\tag{G63.6}
+```
+
+Thus the record-height pushforward is the fixed positive measure `(1/2)dq`.
+This does not give a controlled equation for `V_n(q)`: there is no uniform
+bound on `D`, current, energy, spatial location, or inverse record speed, and
+the inverse can jump across plateaus. Nor does `q`-tightness locate the measure
+in a fixed terminal `tau` window. The next exact passage condition is
+
+```math
+\boxed{
+\exists L<\infty,\ \eta>0,\ \text{and a subsequence such that}
+\qquad
+G_n([-L,0])\ge\eta.
+}
+\tag{G63.7}
+```
+
+Spatial/current profile retention would still remain after `(G63.7)`. In
+original units,
+
+```math
+\sum_{n=1}^N\frac{R_n}{4}=\frac12(R_N-R_0),
+```
+
+so the unnormalized total is exactly the critical-height growth still needing
+control.
+
+**Adversarial result.** Running-record extraction produces a lawful positive
+same-field measure of fixed normalized mass. Record-height reparametrization
+removes only sign and scalar total-variation defects.
+
+**Status.** Exact reparametrization and strict localization of the compactness
+burden. No terminal tightness, spatial profile, finite reserve, or Gold
+conclusion is proved.
