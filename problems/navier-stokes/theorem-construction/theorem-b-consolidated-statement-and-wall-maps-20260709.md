@@ -4388,3 +4388,148 @@ and adversarial-lane recomputation.
 Gold closure. The instantaneous state `(E_+,E_-,R_+,R_-,P_H)` cannot supply
 the missing one-way theorem. Any surviving Gold argument must use genuinely
 time-nonlocal same-trajectory information or richer same-field geometry.
+
+## 60. CRITICAL-RECORD NORMALIZATION EJECTS CLASSICAL VISCOSITY (2026-07-09)
+
+Assume one smooth `R^3` Navier--Stokes solution has first-record times
+`t_n -> T` with
+
+```math
+R_n:=\|u(t_n)\|_{\dot H^{1/2}}^2\to\infty,
+\qquad
+R(t)\le R_n\quad(0\le t\le t_n).
+\tag{G60.1}
+```
+
+For the full-field rescaling
+
+```math
+v_n(y,\tau)
+=a_n u(x_n+\ell_ny,t_n+a_n\ell_n\tau),
+\tag{G60.2}
+```
+
+the equation and critical norm are
+
+```math
+\partial_\tau v_n+B(v_n,v_n)+\nabla\pi_n
+=\nu_n\Delta v_n,
+\qquad
+\nu_n=\nu\frac{a_n}{\ell_n},
+\qquad
+R(v_n)=a_n^2\ell_n^{-2}R(u).
+\tag{G60.3}
+```
+
+Therefore
+
+```math
+\boxed{
+\nu_n
+=\nu\sqrt{\frac{R(v_n(0))}{R_n}}.
+}
+\tag{G60.4}
+```
+
+Every normalization with bounded nonzero critical norm sends `nu_n` to zero.
+Every normalization retaining `nu_n>=nu_*>0` leaves
+
+```math
+R(v_n(0))
+\ge
+\left(\frac{\nu_*}{\nu}\right)^2R_n
+\longrightarrow\infty.
+\tag{G60.5}
+```
+
+This viscosity--compactness incompatibility is independent of the selected
+length scale.
+
+The canonical critical/frequency normalization is
+
+```math
+\ell_n=\sqrt{\frac{R_n}{D_n}},
+\qquad
+a_n=D_n^{-1/2},
+\qquad
+\theta_n=\frac{\sqrt{R_n}}{D_n},
+\tag{G60.6}
+```
+
+where `D_n=||u(t_n)||_{dot H^{3/2}}^2`. It gives
+
+```math
+\boxed{
+R(v_n(0))=D(v_n(0))=1,
+\qquad
+\nu_n=\frac{\nu}{\sqrt{R_n}}\to0.
+}
+\tag{G60.7}
+```
+
+With
+
+```math
+\eta_n
+:=P_H(v_n(0))
+=\frac{P_H(u(t_n))}{D_n\sqrt{R_n}},
+\tag{G60.8}
+```
+
+the record balance and HMIN are
+
+```math
+\boxed{
+\frac12R(v_n)'(0)=\eta_n-\nu_n,
+\qquad
+\eta_n\ge\nu_n,
+\qquad
+\eta_n
+\le C\min_s\|v_{n,s}(0)\|_{\dot H^{1/2}}.
+}
+\tag{G60.9}
+```
+
+The first-record property and interpolation give
+
+```math
+R(v_n(\tau))\le1
+\quad
+\left(-\frac{t_n}{\theta_n}\le\tau\le0\right),
+\qquad
+\frac{t_n}{\theta_n}
+\ge\frac{t_nR_n^{5/2}}{E(0)^2}\to\infty.
+\tag{G60.10}
+```
+
+Thus every compact limit for which the nonlinearity passes is ancient Euler,
+not positive-viscosity Navier--Stokes. Nontriviality is not inherited. For a
+fixed divergence-free compact-Fourier Schwartz field `w`, widely separated
+copies
+
+```math
+w_N=N^{-1/2}\sum_{j=1}^Nw(\,\cdot-x_{j,N})
+\tag{G60.11}
+```
+
+can be rescaled so that `R=D=1`, while `P_H -> 0` and every translated
+subsequence converges locally to zero. This is an endpoint countersequence,
+not one Navier--Stokes history; it proves that the normalized bounds alone do
+not supply tightness.
+
+The remaining compactness split is exact. If `liminf eta_n>0`, HMIN retains
+both helical sectors, but one still needs an inverse/profile theorem that puts
+the positive current and record property into one nonzero Euler profile and a
+rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
+effective viscosity and normalized record derivative vanish; endpoint
+vanishing and frequency dichotomy remain possible, and compactly supported
+steady Euler fields rule out any broad ancient-Euler Liouville conclusion.
+Only an additional same-trajectory viscous/history defect could retain the NS
+arrow in that branch.
+
+**Adversarial result.** A bounded critical record normalization cannot retain
+classical viscosity, and the canonical normalized bounds do not force a
+nonzero profile.
+
+**Status.** Checked obstruction and strict branch reduction. This is not Gold
+closure.
