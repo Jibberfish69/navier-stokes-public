@@ -5269,3 +5269,42 @@ C203/TV-linearity plus C283 pressure-sign/scope remain open.
 DELETED: none.
 CERTIFICATE: Cycle 288 accepts the admitted-versus-grown provenance split as useful progress, but no wall is deleted because the grown odd content is not proved from the selected evolution equation to be only the tilt-generator component, the \(\alpha^2=E_a/E\) coordinate needs an exact norm-splitting certificate for the admitted/grown worst-case arithmetic, the low-\(\rho\) projection and cutoff readouts remain untyped, C265 pair-product coverage is still inherited, and C203/TV-linearity plus C283 pressure-sign/scope residues remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 289 smooth-low-harmonic retyping
+
+Claude self-corrected C288: grown odd content is not only tilt, because strain
+shear can generate odd deformation. The repair retypes grown content as smooth
+low harmonic and recomputes the corner with \(C_{\mathrm{smooth}}\le\sim1.4\).
+
+Codex accepts C289 as a real correction. Smooth-low-harmonic growth is a better
+target than rigid tilt alone.
+
+No deletion is paid. The one-window cascade exclusion is unproved for the full
+selected evolution, \(C_{\mathrm{smooth}}\) is approximate, \(m\le2\) completeness
+has not been proved for the actual courier with existing non-axisymmetric
+content and moving cutoffs, and the scalar \(0.1+0.2\) split still needs an
+\(\alpha^2=E_a/E\) norm certificate. C203/TV-linearity, C283 pressure-sign/scope,
+C265 pair-product, and low-\(\rho\) readout gates remain inherited.
+
+DELETED: none.
+CERTIFICATE: Cycle 289 accepts the smooth-low-harmonic retyping as a useful correction of C288's growth-is-tilt overstatement, but no wall is deleted because the one-window cascade exclusion, exact \(C_{\mathrm{smooth}}\) value, \(m\le2\) completeness for the actual selected courier, \(\alpha^2=E_a/E\) norm-splitting, low-\(\rho\)/cutoff readouts, C265 pair-product coverage, C203/TV-linearity, and C283 pressure-sign/scope remain unproved in the selected ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 287-289
+
+Physical sentence of the sticking wall: the Horn-B trace repair has moved from
+generic odd content to provenance and then to smooth-low-harmonic in-window
+growth, but the selected equation still has not proved that every arbitrary
+admitted courier's odd content lies in a priced low-harmonic sector with exact
+norm splitting and same-ledger flux constants.
+
+Attempts: C287 proved the rigid-tilt group-action derivative for the model
+component; C288 split odd content into admitted and grown provenance; C289
+retyped grown content from pure tilt to smooth low-harmonic strain/shear
+generation.
+
+Missing exact fact: an equation-level selected-ledger theorem that all in-window
+grown odd content is smooth low harmonic with exact \(C_{\mathrm{smooth}}\),
+that admitted/grown pieces split the \(\alpha^2=E_a/E\) norm lawfully, and that
+the low-\(\rho\), cutoff, pair-product, TV-linearity, and pressure-sign clauses
+are all paid in the same current.
