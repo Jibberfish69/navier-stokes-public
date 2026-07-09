@@ -3212,3 +3212,26 @@ Missing exact fact: a signed, orthogonal, or symmetry certificate for
 fully executed \(w\)-free serviceability reformulation that retypes R5 without
 bar editing and without leaving W7/W8 admission, boundary payment, stranding,
 TV-to-one-way, \(\delta u\), or sweep/no-reuse unpaid.
+
+## Codex gate on post-stall Cycle 263 \(m\)-sector co-spectrum split
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C263 flags
+that the co-spectrum residue may be the miniature form of the master \(c_0\)
+wall, but it does not assert a two-are-one identity and therefore does not
+identify W8 with W3/W7/W9.
+
+Codex accepts C263 as a real orthogonality reduction. The axisymmetric bulk
+sector of \(\int\psi w''\nabla\rho\cdot\nabla\phi\) is exactly absent because
+\(\nabla\rho\cdot\nabla\phi=(1/r)\partial_\phi\rho\), and the axisymmetric
+\(m=0\) density mode has zero azimuthal derivative.
+
+No deletion is paid. The remaining \(m\ne0\) resonant-pair sector is still
+open, phase mixing is expressly ineffective because the paired modes co-rotate,
+and the possible differential damping crack is named but not proved. The
+miniature-\(c_0\) resemblance is a target for a future cross-wall identity, not
+an identity certificate. Coarse \(m\)-band limiting still depends on the
+admission vector and W7/W8 same-selector passage.
+
+DELETED: none.
+CERTIFICATE: Cycle 263 accepts the \(m=0\) orthogonality as a real reduction of the co-spectrum residue, but W8 is not deleted because the \(m\ne0\) resonant-pair content remains open, co-rotation blocks the naive phase-mixing kill, differential damping is only named as an unproved crack, the possible miniature-\(c_0\) two-are-one identity is flagged rather than certified, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
