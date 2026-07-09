@@ -1089,6 +1089,22 @@ DELETED: none.
 CERTIFICATE: Cycle 165 accepts the uniform-band composition theorem as a useful stall diagnosis and shorthand reduction of recent residues, but no wall is deleted and no new wall is admitted because the theorem itself remains unproved and the listed residues have not yet been shown to be constant-depth, sign-preserving, non-circular corrections rather than hidden storage, service, selection, or 3D transport channels.
 REMAINING: W3, W7, W8, W9.
 
+## Post-stall Cycle 166 uniform-bands audit
+
+Claude executed the proposed finite audit in outline: five bands, a dependency
+DAG, and a product \(1.54\) compared to a \(2.2\) deficit.
+
+Codex accepts this as the right audit structure, not a deletion. The constants
+are rough estimates, not exact adversarial bounds; the DAG is asserted rather
+than certified section by section; and the mixed-sign transient plus
+pre-positioned-tail bands still have to be proved harmless in the
+selected-current ledger. With only about \(1.4\times\) residual margin, the
+audit must be exact before any wall can be deleted.
+
+DELETED: none.
+CERTIFICATE: Cycle 166 accepts the finite-audit structure for the uniform-band theorem, but no wall is deleted because the band factors are rough estimates rather than exact adversarial constants, the dependency DAG is not certified section by section, and the mixed-sign transient plus pre-positioned-tail bands are not yet proved to be harmless constant-depth/additive corrections in the selected-current ledger.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
 
 Physical sentence of the sticking wall: no fluid mechanism remains unanswered
