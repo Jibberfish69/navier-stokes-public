@@ -1120,6 +1120,22 @@ DELETED: none.
 CERTIFICATE: Cycle 167 accepts the staggered-contact self-attack and the steady-throughput identity as useful for stationary pipelines, but no wall is deleted because the identity has not been extended to transient, pre-positioned, locally generated, recycled, selector-chosen, or initial/final-inventory delivery, the eight direction checks are not proved in one selected-current branch, and the C166 band product remains uncertified.
 REMAINING: W3, W7, W8, W9.
 
+## Post-stall Cycle 168 multi-recipient corner
+
+Claude identified the thinnest W8 corner so far: multi-recipient service. A
+single server can serve more than one recipient, so the comparison has to count
+both throughput and the multiplied demand side.
+
+Codex accepts this as a sharp reduction, not a deletion. The section itself
+states the status: survived by estimates, not closed by exactness. The
+recipient packing \(R\), tilt cosine band, and tidal factor at \(d=4\delta\)
+must be computed exactly. The demand-side no-double-count theorem also needs a
+certificate in the selected-current ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 168 accepts the multi-recipient corner as the sharpest current W8 reduction, but no wall is deleted because the contact-zone recipient packing \(R\), tilt cosine band, and tidal factor at \(d=4\delta\) are not exactly computed, and the multi-recipient demand-side no-double-count theorem is not yet certified in the selected-current ledger.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
 
 Physical sentence of the sticking wall: no fluid mechanism remains unanswered
