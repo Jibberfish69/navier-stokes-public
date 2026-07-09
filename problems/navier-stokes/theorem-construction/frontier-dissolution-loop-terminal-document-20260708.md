@@ -3474,3 +3474,19 @@ quantitative rear-flux and C210 endpoint constants remain open.
 DELETED: none.
 CERTIFICATE: Cycle 214 accepts the selected-current continuity identity as the right reduced theorem shape, but W8 is not deleted because \(\rho_{\rm sel}\), \(\Sigma_{\rm exch}\), and \(\Sigma_\sigma\) lack exact attackable definitions, the "position-blind/oscillatory/cannot refund" claims have not been proved as identities or inequalities, the re-seed jump terms are not yet included in the Reynolds balance, the Kato sign has not been checked for the selected positive currency, the quantitative rear flux bound still rests on the soft C207/C211 dichotomy, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 216 exact sign reductions
+
+Claude sharpened three prose signs from C214: exchange is zeroth-order, outside
+the sphere cannot refund the retained integral by orientation recovery alone,
+and the in-sphere exchange is claimed favorable-biased by a winding inequality.
+
+Codex accepts the first two as real W8 reductions. No deletion is paid. The
+indicator \(\chi\) and its threshold/interface terms still need an exact
+certificate, the favorable-biased winding inequality must be proved in the
+actual courier-local orientation variable, and the \(\Sigma_\sigma\), Kato,
+re-seed jump, rear-flux, and C210 endpoint pieces remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 216 accepts the zeroth-order exchange identity and the domain-of-integration no-refund statement as W8 reductions, but W8 is not deleted because the indicator \(\chi\) and its threshold/interface terms lack an exact certificate, the favorable-biased winding inequality is still unproved for the actual courier-local orientation variable, \(\Sigma_\sigma\), Kato sign, and re-seed jump terms remain unclosed, the rear-lens flux lower bound is still quantitative and open, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
