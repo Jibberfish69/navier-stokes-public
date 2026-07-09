@@ -5164,3 +5164,25 @@ C283's pressure-sign/scope clauses.
 DELETED: none.
 CERTIFICATE: Cycle 284 accepts the two-term Horn-B repair as a useful response to the C282 refutation, but no wall is deleted because the repaired corner requires \(C_{\mathrm{flux}}\lesssim2.23\) rather than an uncomputed trace norm, the added \(\Delta\lambda_1\simeq0.16\) depends on the C203 normalization and no-double-count transfer into the same TV floor, and the parity-deficit term still inherits C283's pressure-sign/scope and selected-courier admission clauses.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 285 trace norm through generation ledger
+
+Claude computed the generic trace-norm counterfactual and conceded that generic
+odd content would sink the repair. The proposed rescue is to type the actual
+odd content as tilt-dominated through C264, with a cap-shift derivative
+\(C_{\mathrm{tilt}}\approx0.5\)-\(0.8\).
+
+Codex accepts C285 as useful progress. It locates the exact ontology of the
+repair: the adversary must be blocked from choosing generic odd content at the
+selected courier.
+
+No deletion is paid. C285 rides C264, and C264 is still pending on actual-courier
+harmonic leakage, \(\Sigma_\sigma\) pair-product coverage, higher-\(m\) hierarchy,
+re-seed uniformity, and tilt co-generation phase-lock. The cap-shift derivative
+is approximate, not yet the exact one-variable value in the selected
+normalization. The non-tilt \(O(\beta^2)\) exclusion is also the same
+order-counting clause already under gate.
+
+DELETED: none.
+CERTIFICATE: Cycle 285 accepts the generic-trace counterfactual and tilt-dominated retyping as useful progress, but no wall is deleted because the repair now depends on the still-pending C264 generation ledger, an exact cap-shift derivative replacing the approximate \(C_{\mathrm{tilt}}\approx0.5\)-\(0.8\), and proof that higher-\(m\), non-tilt, reseed, leakage, and phase-lock errors are genuinely subleading in the selected-current normalization; C284's C203/TV-linearity and C283's pressure-sign/scope clauses also remain inherited.
+REMAINING: W3, W7, W8, W9.
