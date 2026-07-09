@@ -1161,3 +1161,49 @@ tool cannot reach it. This is the most reduced honest form on record. It is
 not a proof of Gold. Recommendation filed to owner: bank the reduction;
 attacking the slaved-pressure sign is a Clay-hard T-odd rigidity program, not
 a next cycle.
+
+## 26. THE NON-COVARIANT INSTRUMENT TRIED: inflow-trap ⊕ ESS backward-uniqueness — right shape, stops at the marginal-object gap (2026-07-09)
+
+Having proved the covariant tools dead (§25), the honest next step is to
+actually try the T-odd non-covariant instrument, not merely name it.
+
+**The proof strategy (concrete, physics-first).** The residue is a rigidity
+on the ancient rescaled limit U of the locked tower (R(U)=1, zero payment,
+sheet quadrant). Candidate instrument: ESS-type backward uniqueness — a
+bounded ancient Navier–Stokes limit satisfying a backward differential
+inequality plus a vanishing condition is trivial. The pairing:
+
+1. §17 inflow trap: the transition shell is advected inward and burned, never
+   sustained — so along the ancient limit, the transverse (spin-supplying)
+   vorticity ω_θ is NOT sustained in backward material time; it is a decaying
+   input, not a standing structure.
+2. That non-sustainability is exactly the vanishing/decay hypothesis a
+   backward-uniqueness argument consumes.
+3. ESS backward uniqueness ⟹ U ≡ trivial (affine kernel), which finite energy
+   excludes ⟹ contradiction with R(U)=1.
+
+If all three held, Gold closes: the slaved-pressure sign would be FORCED,
+because a nontrivial locked ancient limit cannot exist to violate it.
+
+**Where it stops — exactly, and it is the same terminal gap.** ESS backward
+uniqueness is proven for the L^{3,∞} (Type-I) class: the differential
+inequality |∂_t u − Δu| ≤ M(|u| + |∇u|) and the spatial decay it needs are
+controlled there. The Gold counterobject is the MARGINAL log-drift profile
+N_L ~ 2^{-L}/L — outside L^{3,∞} by the 1/L drift. The backward-uniqueness
+decay hypothesis is not established on the marginal object; verifying it IS
+the NRS/Tsai → log-marginal extension, the terminal open item since the
+program began. The instrument is the right kind (T-odd, non-covariant,
+history-based) and connects the construction to standard machinery, but it
+does not close: the marginal object fails the anchor's hypothesis.
+
+**Honest verdict (rule 14).** The non-covariant instrument has now been TRIED,
+not just named. Outcome: it reduces Gold's closure to one precise external
+statement — ESS backward uniqueness (or an equivalent T-odd rigidity) EXTENDED
+to the marginal log-drift class — and no further. This is progress of the
+only honest kind available: the open item is now a named theorem in the PDE
+literature's own terms (extend backward uniqueness past Type-I to the
+log-marginal profile), with an explicit mechanism (§17) supplying its
+vanishing hypothesis. It is not proved. Both the covariant route (§25, dead)
+and the non-covariant route (§26, reduced-to-external-extension) are now
+filed. The loop's reductive capacity is exhausted; what remains is a research
+program with a named target, not a cycle.
