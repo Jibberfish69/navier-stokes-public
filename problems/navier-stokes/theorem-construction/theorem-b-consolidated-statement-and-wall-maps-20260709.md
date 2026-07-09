@@ -2256,3 +2256,48 @@ are named problems with literatures (Chevillard–Meneveau for A; the
 NRS/Tsai/Chae–Wolf marginal/Euler frontier for B). No third within-construction
 attack remains unrefuted. The honest next step, if pursued, is to open one of
 the two as a distinct research program — not another loop cycle. Gold: open.
+
+## 38. THE THREE RESIDUES ARE ONE: the viscous floor of the payment-refund cycle (2026-07-09)
+
+Assessing Codex's native-current analysis (material-pair current + cyclic-payment
+countermodel). The current is exact and is the best-grounded object in the
+record: j_ab = (c_Λ/4)|V|² d/dt|R|^{−4} (material pair contracting while carrying
+relative KE; verified: Ṙ = V ⟹ d/dt|R|^{−4} = −4|R|^{−6}(R·V)). It is a genuine
+material-time object (not frame-fixed — passes where §27/§30-31 failed) and
+dissolves the §28.1 one-point identification hole. The upcrossing balance
+d/dt H_crit + ν‖Λ^{3/2}u‖² = ∬j_ab is clean and same-field. Small-data reserve
+(Fujita–Kato) is real and noncircular.
+
+**The unification.** The large-data reserve fails by the cyclic-payment
+countermodel (FCP.16): a STEADY circulation J_GS=J_SQ=J_QC=J_CG around the four
+bodies — storages constant, gross flow unbounded, net zero. That is a REVERSIBLE
+cycle. But NS is irreversible (fact 5): a velocity field realizing the
+circulation pays viscous dissipation each loop. The refund is free ONLY in the
+ν→0 limit — which is EXACTLY Codex's §36 obstruction (the record-retaining limit
+is vanishing-viscosity Euler). So the three residues coincide:
+
+- Face A no-return/pressure-Hessian sign (§35),
+- Face B vanishing-viscosity Euler limit (§36),
+- four-body cyclic-payment refund-freeness (FCP.16),
+
+= ONE question: **does the payment-refund cycle pay a viscous dissipation floor
+at finite ν?** If a fixed cost per unit gross traffic exists, Leray's finite
+total dissipation ν∫‖∇u‖² ≤ energy bounds the cycles → bounds gross traffic →
+finite reserve → Gold. The floor is T-odd (dissipative, directional) — correct
+parity, unlike the reversible countermodel.
+
+**Burden correction (§11) applied.** The cyclic countermodel is a CANDIDATE to
+be admitted, not a proven obstruction. It must be shown to be a lawful finite-ν
+NS history before it refutes the reserve; at finite ν the refund pays
+dissipation. So the sharp open question is the ADMISSIBILITY of the cyclic
+countermodel: can it exist at finite viscosity, or is it a vanishing-viscosity
+shadow (§11 unadmitted model-shadow)? This is Gold's residue in its most
+unified, most concrete, correctly-signed form.
+
+**Status (rule 14):** the native current and upcrossing balance are exact as
+filed; the small-data reserve is complete; the three-residue unification is a
+structural identification (reversible cycle vs irreversible NS + §36 Euler +
+§11 burden), not a proof; the viscous floor / countermodel-admissibility is
+open — it is the sharpest statement of the c₀ core. NOT closure. The concrete
+next target is now single and named: the finite-ν viscous cost of the
+four-body refund cycle. Sent to Codex.
