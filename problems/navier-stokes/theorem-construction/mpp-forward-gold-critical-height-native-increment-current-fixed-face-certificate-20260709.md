@@ -1821,14 +1821,29 @@ scalings, so
 
 Finally, the nonlinear acceleration at the `p` and `q` modes has magnitude
 `A^2K sin(theta_varepsilon)`, which stays nonzero at equal radius. Hence `Q_m`
-does not vanish with `P_H`: it counts nonlinear exchange that cancels under a
-constant radial weight. Passing from `(NIC.122)` to the unsigned `Q_m` norm
-therefore discards the cancellation that made the spectral identity useful.
+has the exact lower bound
+
+```math
+Q_m
+\ge
+2A^4K^2\sin^2\theta_\varepsilon
+\left(
+\frac1{K+m}+\frac1{L+m}
+\right)
+\longrightarrow \frac32A^4K,
+\tag{NIC.140}
+```
+
+even though `(NIC.131)` tends to zero. Thus `Q_m` counts nonlinear exchange
+that cancels under a constant radial weight. Passing from `(NIC.122)` to the
+unsigned `Q_m` norm discards the cancellation that made the spectral identity
+useful.
 
 **Consequence.** Equations `(NIC.120)--(NIC.126)` remain exact, but they do not
 strictly reduce Gold. The one-field states `(NIC.134)--(NIC.139)` have bounded
 energy, divergent critical height, positive initial record production, and
-vanishing relative spectral spread. They are not claimed to be snapshots of
-one common trajectory. Excluding them along a putative Gold history requires a
-new complete-history theorem; zero-spread rigidity and the `Q_m` magnitude
-condition do not supply it.
+vanishing relative spectral spread. Equation `(NIC.140)` separately shows that
+the `Q_m` magnitude does not converge to the zero-spread rigidity class. These
+fields are not claimed to be snapshots of one common trajectory. Excluding
+them along a putative Gold history requires a new complete-history theorem;
+zero-spread rigidity and the `Q_m` magnitude condition do not supply it.
