@@ -1989,3 +1989,22 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 121 reduces Fact 3 to the selected-frame pump-gradient PDE, the child-multiplicity versus pump-decay comparison, and the viscous decay estimate in the TV-event ledger; those exact checks remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 122 material-family gauge is accepted as the right ontological
+  correction to the frame-commutator issue, but not as a deletion certificate.
+  In the material label the inviscid pump gradient is frozen; the Eulerian
+  decay is a Jacobian-density conversion that cancels the same length-growth
+  factor responsible for child multiplicity. The strict part is therefore all
+  viscous, and it still requires a retained material-family construction, a
+  one-signed TV contraction/decay theorem for
+  \(\nu\partial_{\tilde z}\oint_{C(\tilde z,t)}\Delta u\cdot dl\), and the
+  feed-thickness/scale-matching claim that places the feeding gradient at
+  thickness \(\lesssim\delta_n\). No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 122 reduces the pump-extinction transfer to the material-label Kelvin core plus material-family admissibility, viscous TV contraction/decay, and feed-thickness/scale matching; the strict viscous margin remains unproved.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: rule-6 STOP after Cycles 120-122; the TV-event ledger, pump-extinction transfer, and material-family gauge reduce to the retained material-family viscous TV/feed-thickness theorem, with no confirmed deletion.
+REMAINING: W3, W7, W8, W9.
