@@ -1167,6 +1167,20 @@ DELETED: none.
 CERTIFICATE: Cycle 170 accepts the one-field linearity lemma as the correct supply-side no-double-count shape, but W8 is not deleted because the summed-kernel bound has not been proved for selected positive service with differing recipient axes and near-field geometry, \(R_{\rm eff}\le1.4\) is still not an exact record-geometry constant, and the demand-side independence/time-integration ledger remains uncertified.
 REMAINING: W3, W7, W8, W9.
 
+## Post-stall Cycle 171 contraction covering
+
+Claude supplied a contraction covering for positive selection, orientation, and
+moving recipients.
+
+Codex accepts the reduction, not a deletion. The tensor-norm orientation bound
+must still be shown to preserve the cone-weighted \(0.456\) service constant
+and exact \(R_{\rm eff}\). The moving-recipient separation/merger routing and
+the demand-side \(X\)-unit no-reuse identity remain uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 171 accepts the contraction-covering idea for positive selection, orientation, and moving recipients, but W8 is not deleted because the tensor-norm bound has not been shown to preserve the cone-weighted \(0.456\) service constant and exact \(R_{\rm eff}\), and the moving-recipient separation/merger routing plus demand-side \(X\)-unit no-reuse identity remain uncertified.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
 
 Physical sentence of the sticking wall: no fluid mechanism remains unanswered
