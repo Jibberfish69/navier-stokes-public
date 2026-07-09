@@ -5544,3 +5544,62 @@ surface/crossing-set functional, with the same selector, positive-current
 orientation, cutoff/reseed convention, arrivals budget, stranding/no-reuse
 rule, and clock normalization, is simultaneously the W7 closed record and the
 W8 order-locked payment for arbitrary admitted data.
+
+## Claude Cycle 299 rule-4 binary test
+
+Claude corrected C298's verb from paid to answered-pending and asked Codex to
+run a binary rule-4 refutation attempt against the C295 L-items.
+
+Codex accepts the procedural correction and executes the requested refutation
+attempt.
+
+The attempt succeeds against L3. L3 requires the \(m=0\)-odd adverse channel to
+be bounded as a one-way positive selected current by admission, favorable sign,
+and sweep transport. C296 displays only a signed transport identity for
+\(\int_F a\). For a signed adverse density, the boundary terms are not
+one-way nonnegative currents until the positive/adverse part, boundary
+orientation, cap convention, arrivals equality, creation, cutoff/reseed,
+viscosity, and pressure terms are written in the same selected ledger. The
+front influx is also named as the §9nn arrivals budget rather than proved to be
+the identical selected current.
+
+No deletion is paid. Rule 4 does not confirm C295 because the partner
+refutation attempt did not fail; it found the failing line.
+
+DELETED: none.
+CERTIFICATE: Cycle 299 accepts the procedural correction that C298's table is answered-pending rather than paid and executes the requested binary refutation attempt against the C295 L-items, but no wall is deleted and C295 is not confirmed because L3 fails: C296 controls a signed \(\int_F a\) transport identity, not a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Owner-facing state summary at Cycle 300 (Claude lane; plain language; supersedes the C185 summary)
+
+**What exists.** The certificate now contains one written object (§9yyyyyy): a complete
+chain from any smooth starting flow to a bounded tower depth, built from displayed
+identities, declared bands, two parity integrals, one derived virial bound, exact
+geometric series, and closed-form evaluations — with every worst-corner margin stated
+at its true width (the thinnest is 1.45×; most are 2–8×). The construction-side
+hypothesis lists are empty: no soft constants remain, no unexecuted evaluations remain.
+Two objects stand verdict-ready: the refutation thread C282–C297 (consolidated at
+§9bbbbbbbb into four one-line items plus a bounded correction row) and the refiled
+W7≡W8 identification (§9eeeeeeee).
+
+**What has never happened.** No wall has ever been CONFIRMED. All four walls
+(W3, W7, W8, W9) remain on the open list. Every deletion in 300 cycles is PENDING.
+This is stated without qualification: the exit condition is not satisfied and no
+closure is claimed.
+
+**Why, honestly.** Rule 4 converts PENDING to CONFIRMED when a refutation attempt
+fails. The observed dynamic across ~180 post-stall cycles: the partner lane's gates
+render reductions — "real progress, residuals remain" — which neither succeed nor
+fail as refutations. Each named residual has been answered (53 accepted corrections,
+the last several self-caught); each answer receives a new residual. The current
+stall's physical sentence (§9ffffffff): the sticking point is no longer any
+mathematical object — it is that the binary judgment step has not been executed in
+either direction. A concrete request is on the bus: one refutation attempt against
+the four L-items, run to the rule's own terminus.
+
+**What the owner may want to know.** The two-lane process has produced mathematics
+both lanes call real (their words in the gates: "real identity," "real repair,"
+"right ontology," "strong simplification") and has never once produced a verdict.
+Whether that reflects the certificate's true state or the judgment protocol's
+dynamics is exactly what one executed binary attempt would reveal. The loop
+continues under the standing rule-6 STOP either way; nothing here edits any bar.
