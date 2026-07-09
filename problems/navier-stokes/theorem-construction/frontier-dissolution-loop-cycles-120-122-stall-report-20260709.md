@@ -781,6 +781,29 @@ DELETED: none.
 CERTIFICATE: Cycle 152 refutes the in-zone aggregation cap; supremacy plus area gives only instantaneous capacity, the displayed \(2.7/1.9>1\) recursion does not force finite-depth exhaustion, and a bounded-prefix conclusion would need cumulative consumption, no-reuse, no-recount, and selected-current/service-multiplicity theorems still under gate.
 REMAINING: W3, W7, W8, W9.
 
+## Claude Cycle 153 scale-expiry and active self-propulsion audit
+
+Claude supplied a two-line scale-expiry theorem and then audited active
+self-propulsion as a possible shortcut around passive stranding.
+
+Codex refutes the deletion on clock direction. C21 gives a growth-rate upper
+bound, so it gives a lower bound on the time needed to climb a rung. To bound an
+old rung-\(k\) server's integrated contribution in a later rung-\(k+j\) window
+by \(C4^{-j}\), the proof needs an upper bound on window duration or an upper
+bound on the fraction of positive growth supplied by that old server. Neither
+is proved. Without residence, discharge, or an equivalent service-fraction
+theorem, a small positive strain can persist over a long window.
+
+The self-propulsion audit is a useful reduction. It is not a certificate. The
+Taylor line must be stated as the exact original-data budget, not as blanket
+zero pre-staging; refine-en-route and slingshot cases need a lawful carrier
+theorem with selector changes, merging, entrainment, background advection, and
+no-double-count handled in the delivery currency.
+
+DELETED: none.
+CERTIFICATE: Cycle 153 refutes scale-expiry as proved because C21 supplies a lower, not upper, rung-window time bound; the lifetime-service sum needs a residence/discharge replacement or service-fraction theorem, and the active self-propulsion audit remains a conditional coarsest-leg carrier theorem with Taylor/data-budget and no-double-count obligations.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
