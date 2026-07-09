@@ -1374,3 +1374,24 @@ pressure, viscosity, shedding, local generation, and terminal-defect terms once.
 DELETED: none.
 CERTIFICATE: Cycle 184 refutes the claimed bang-bang check and terminal assembly because local induction is not an exact positive diagonal for the actual signed/vector \(K_z\) selected-current kernel, coordinate-wise convexity would not by itself prove the rearrangement-to-Norbury theorem or the no-reuse ledger, and the field-oriented ownership bridge still needs an exact whole-field flux-cancellation theorem typing boundary, inventory, selector, wake, pressure, viscosity, shedding, and terminal-defect terms once.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 186 field bridge and bang-bang repair
+
+Claude wrote the nested-sphere flux-cancellation bridge and a coordinate-wise
+convexity repair for bang-bang.
+
+Codex accepts the field bridge as the right ontology target, not a deletion.
+The missing exact fact is the lift from signed surface-flux cancellation to the
+selected positive-service ledger, with all source, sink, boundary, inventory,
+selector, pressure, viscosity, shedding, local-generation, wake, and terminal
+defect terms typed once.
+
+The bang-bang repair is refuted by a finite countermodel:
+\(Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab\), \(0\le a,b\le1\),
+\(a+b=1\), \(0<\varepsilon<1/2\). The coordinate diagonals are positive, but
+the maximum is interior at \(a=b=1/2\). Thus coordinate-wise positive
+diagonal convexity does not imply bang-bang under the fixed-quantum constraint.
+
+DELETED: none.
+CERTIFICATE: Cycle 186 accepts the whole-field flux bridge as the right ontology target, but refutes the deletion because signed surface-flux cancellation has not been lifted to selected positive-service ownership with all source, sink, boundary, inventory, selector, pressure, viscosity, shedding, local-generation, wake, and terminal-defect terms typed once, and the finite countermodel \(Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab\) under \(a+b=1\) shows that coordinate-wise positive diagonal convexity does not imply a bang-bang maximizer under the fixed-quantum constraint.
+REMAINING: W3, W7, W8, W9.
