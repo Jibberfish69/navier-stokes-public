@@ -4527,7 +4527,7 @@ not supply tightness.
 The remaining compactness split is exact. If `liminf eta_n>0`, HMIN
 lower-bounds both global terminal sector norms; it does not retain both signs
 or their cubic interaction in one profile. One still needs an inverse/profile
-theorem that puts the positive current and record property into one nonzero
+theorem within this compactness route that puts the positive current and record property into one nonzero
 Euler profile and a rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
 effective viscosity and normalized record derivative vanish; endpoint
 vanishing and frequency dichotomy remain possible, and compactly supported
