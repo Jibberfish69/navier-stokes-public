@@ -1075,3 +1075,146 @@ statement must be history-adaptive and control record-selected gross weighted
 flux across scales. Without an independently bounded critical storage or an
 absorbable differential inequality, that gross-flux statement is the Gold
 reserve itself rather than a smaller consequence of `(NIC.69)`.
+
+## 13. Separation-energy lineages: exact carrier, exact tradeoff, and the inviscid obstruction
+
+The separation balance does admit a canonical continuity-equation form. For
+`h != 0`, set
+
+```math
+b(h,t)=\frac{F(h,t)}{2E(h,t)},
+\qquad
+\kappa(h,t)=\nu\frac{D(h,t)}{E(h,t)}.
+\tag{NIC.81}
+```
+
+For a nonzero finite-energy field, `E(h,t)>0` at every nonzero `h`: equality
+would make `u(x+h,t)=u(x,t)` almost everywhere, and a nonzero function periodic
+in one Euclidean direction cannot lie in `L^2(R^3)`. Hence `(NIC.81)` is
+well-defined away from the origin while the solution is smooth. Equation
+`(NIC.65)` becomes
+
+```math
+\partial_tE+\nabla_h\cdot(Eb)=-\kappa E.
+\tag{NIC.82}
+```
+
+Let `H(t;s,h_0)` be the `h`-space characteristic `dot H=b(H,t)` and let `J`
+be its Jacobian. The transported mass is not the point value `E`; it is
+
+```math
+m(t)=E(H(t),t)J(t;s,h_0)\,dh_0.
+\tag{NIC.83}
+```
+
+It satisfies the exact killing law
+
+```math
+m(t_2)=m(t_1)
+\exp\left(-\int_{t_1}^{t_2}\kappa(H(t),t)\,dt\right).
+\tag{NIC.84}
+```
+
+With `rho=-log|H|`, the critical contribution of this infinitesimal mass is
+`a=m exp(4 rho)`, and therefore
+
+```math
+\log\frac{a(t_2)}{a(t_1)}
+=4[\rho(t_2)-\rho(t_1)]
+-\int_{t_1}^{t_2}\kappa(H(t),t)\,dt.
+\tag{NIC.85}
+```
+
+This validates the carrier and the threshold `4`. It does not provide the
+needed lower bound on the hazard.
+
+There is one unconditional transit-hazard estimate. With
+`f=delta_h u`, Gagliardo--Nirenberg gives
+
+```math
+|F|
+\le \|f\|_3^3
+\le C\|f\|_2^{3/2}\|\nabla f\|_2^{3/2},
+\tag{NIC.86}
+```
+
+and hence
+
+```math
+|b|^{4/3}
+\le C D E^{-1/3},
+\qquad
+\kappa
+\ge c\nu E^{-2/3}|b|^{4/3}.
+\tag{NIC.87}
+```
+
+Since `E(h,t)<=2||u_0||_2^2`, a characteristic segment of duration `tau` and
+`h`-space length `L` obeys
+
+```math
+\int\kappa\,dt
+\ge
+c\nu\|u_0\|_2^{-4/3}
+L^{4/3}\tau^{-1/3}.
+\tag{NIC.88}
+```
+
+This is a real same-field transit cost, but it has no scale-independent
+positive floor on a shrinking record tower.
+
+More decisively, a universal hazard-versus-log-compression inequality is
+false in the Euler-dominated regime. Choose a smooth divergence-free
+`phi` with `P_H(phi)>0`, for example a Schwartz realization of the triad in
+§12, and let `u^A` solve NS from `u^A(0)=A phi`. Define
+
+```math
+v^A(x,\tau)=A^{-1}u^A(x,\tau/A).
+\tag{NIC.89}
+```
+
+Then
+
+```math
+\partial_\tau v^A+v^A\cdot\nabla v^A+\nabla q^A
+=\frac{\nu}{A}\Delta v^A.
+\tag{NIC.90}
+```
+
+On every fixed short smooth `tau`-interval, `v^A` converges to the Euler
+solution from `phi`. Positive `P_H(phi)` implies that the Euler separation
+field has an inward characteristic segment with a fixed
+`Delta rho>0`. Along the corresponding NS segment,
+
+```math
+\int\kappa_{u^A}\,dt
+=\frac{\nu}{A}
+\int\frac{D_{v^A}}{E_{v^A}}\,d\tau
+\longrightarrow0,
+\tag{NIC.91}
+```
+
+while `Delta rho` stays positive. At the same time,
+
+```math
+\frac d{dt}H_{\rm crit}(u^A)(0)
+=A^3P_H(\phi)-\nu A^2D_{\rm crit}(\phi)>0
+\tag{NIC.92}
+```
+
+for large `A`, so these are record-upcrossing segments, not detached kinematic
+paths.
+
+Thus the proposed alternative
+
+```math
+\int\kappa\,dt\ge4\Delta\rho+\eta
+\tag{NIC.93}
+```
+
+cannot hold uniformly for all inward record segments. Any viable lineage
+theorem must put these low-hazard Euler-like segments into an independently
+defined history charge whose total is bounded by the original datum. The
+whole-field equation `(NIC.82)` contains no such source or collar term; adding
+one without a closed functional merely relocates the Gold reserve into the
+second branch.
