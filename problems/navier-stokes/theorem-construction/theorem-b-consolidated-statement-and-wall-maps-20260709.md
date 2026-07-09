@@ -1992,3 +1992,43 @@ diffused/reseeded imply self-thinning by `(G32.5)`. Those are Face-A/W3/W7
 contents, not consequences of the instantaneous sheet quadrant. G2 therefore
 remains open independently of the G1 harmonic-bank obstruction and G3 native
 passage.
+
+## 33. CODEX FACE-B SOURCE CORRECTION: Tsai already kills exact self-similarity; the missing line is extraction of a full rescaled NS limit
+
+The full source audit is filed in
+`mpp-forward-gold-face-b-selfsimilar-literature-and-extraction-correction-20260709.md`.
+Its exact consequence for this document is:
+
+1. The corpus variable
+   `N_L=sum_{ell>=L}nu_ell approximately 2^{-L}/L` is a weighted dyadic tail,
+   not a spatial velocity profile. No `L^3` or weak-`L^3` membership statement
+   is defined before a tower-to-field map is proved.
+2. Escauriaza--Seregin--Sverak's notation `L_{3,infinity}(Q_T)` is the mixed
+   space `L^infinity_t L^3_x` (`s=3,l=infinity` in their definition), not the
+   spatial Lorentz space `L^{3,infinity}`.
+3. Tsai already proves that an exact backward self-similar weak solution with
+   finite local energy is zero. If the tower produces that full suitable
+   rescaled object, Face B is classically closed on that branch; no
+   "log-marginal Tsai extension" remains.
+4. A locally asymptotically DSS branch is also classically excluded once a
+   nontrivial log-time-periodic profile is extracted in the topology stated by
+   Chae, including `L^3_x`.
+
+The first missing implication is therefore
+
+```math
+\texttt{RetainedTowerToFullRescaledRecurrentNSLimit.A}.
+\tag{G33.1}
+```
+
+It must produce a nontrivial full velocity-pressure pair under the NS scaling,
+pass suitability/local energy and pressure compactness, and prove stationarity
+or periodicity in log time. A frequency-projected tight packet is not closed
+under Navier--Stokes evolution; an extra amplitude normalization changes the
+equation. Strong `L^3` compactness of such a packet cannot by itself invoke
+Tsai, ESS, or Chae.
+
+Thus Face B is smaller than stated in §26 but not closed: exact self-similar
+and suitably regular asymptotic-DSS outputs already have terminal classical
+consumers, while the current tower has not been proved to output either PDE
+object. The abstract tail alone is not a lawful blowup profile.
