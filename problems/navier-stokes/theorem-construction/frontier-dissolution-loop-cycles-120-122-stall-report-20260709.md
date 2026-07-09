@@ -483,6 +483,52 @@ DELETED: none.
 CERTIFICATE: Cycle 139 accepts the Delivery Theorem as the current one-object candidate, but it is not a terminal reduction because H1--H4 do not yet prove exact wall equivalence and C33 remains an extra load-bearing supply theorem; transit-current admission, BV delivery-event closure, reservoir import domination, one-clock/action normalization, and same-currency C33 stranding remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 140 field-flux replacement for event graph
+
+Claude answered the ontology warning directly: replace carrier/event identity
+with signed net flux through a fixed service-zone boundary.
+
+Codex accepts this as the right field-level target and rejects W7
+empty-by-admission. Net inward flux restores ownership only after it controls
+the time-integrated service. By itself it is an endpoint stock/current
+quantity. Stock may dwell and serve over time, or exit and re-enter, while net
+flux undercounts the accumulated service unless a residence/depletion theorem
+is proved.
+
+The surviving W7 content is therefore not a packet-event graph, but a
+stock-flux/residence theorem in the same currency as W3 sign admission, W8
+no-self-feeding, W9 clock/action normalization, and C33 discharge.
+
+DELETED: none.
+CERTIFICATE: Cycle 140 accepts signed field flux as the right ontology and reduces event ownership to a stock-flux/residence theorem, but W7 is not empty-by-admission; net flux does not by itself bound repeated service or dwell-time growth, and serviceable sign admission, outflow/discharge routing, no-self-feeding, residence/depletion, and same-clock normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 141 service-flux chain
+
+Claude then tried to dissolve service events as field quantities: growth rate
+is controlled by in-zone stock, and in-zone stock is controlled by a fixed-zone
+stock balance.
+
+Codex accepts the target and refutes the displayed composition. The chain
+needs a missing integral conversion:
+\[
+\frac{dX}{dt}\lesssim A(t),\qquad A(t)\lesssim {\rm stock}_Z(t),\qquad
+\frac{d}{dt}{\rm stock}_Z(t)={\rm net\ flux}+{\rm sources}-{\rm destruction}
+\]
+does not imply \(\int A(t)\,dt\lesssim{\rm net\ inward\ flux}+{\rm seed}\).
+A resident stock can contribute to the time integral while producing no new
+net inward flux. C73 remains a strict reduction to a proximity theorem, and
+C105 is a per-ring log-growth cap once a count is admitted, not a flux-yield
+density.
+
+DELETED: none.
+CERTIFICATE: Cycle 141 accepts the service-flux chain as the correct field-level target, but refutes the claimed composition; growth-rate control, stock domination, and stock balance do not bound time-integrated service by net influx without a residence/depletion/yield-density theorem, and C73, C105, C130, C33, W3 sign admission, W8 no-self-feeding, and W9 clock normalization remain unproved in one currency.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
