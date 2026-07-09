@@ -2777,6 +2777,12 @@ uniform positive constant. A rung-independent `Gamma` would make the selected
 packet's critical contribution in `(G44.1)` rung-independent, so that packet
 could not carry the asserted unbounded record.
 
+This gives an exact dichotomy for H2 as currently written. Its single fixed
+`Gamma` makes the retained fixed-fraction branch empty once
+`H_crit(t_m)->infinity`. Replacing it by `Gamma_m` repairs that admission
+contradiction, but then `(G44.3)` kills the proposed uniform toll. The first
+horn is only exclusion of the H2 scenario; the second horn leaves Gold open.
+
 The same mismatch appears in absolute currency. The packet's physical energy
 and the proposed viscous loss per round trip scale as
 
