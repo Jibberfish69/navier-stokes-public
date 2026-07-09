@@ -1414,3 +1414,180 @@ the aligned configuration, 4 given §22(a),(b)). Step 2 exact GIVEN C1.
 The chain is a candidate CLOSURE of the Gold core, resting on C1 + C2,
 both named and narrow. Sent to the partner lane for the hardest gate it
 can run. Not claimed proven until both clauses survive and the gate passes.
+
+## 28. CODEX ADVERSARIAL GATE ON THE ASSEMBLY: the affine saddle identity survives; the Gold chain does not
+
+The angular calculation in Step 3 is a valid restricted identity. The premises
+used to feed it are not consequences of the retained Gold object.
+
+### 28.1 Exact form of the affine identity
+
+For symmetric `S,H`, with `tr S=0`, the normalized spherical mean satisfies
+
+```math
+\fint_{S^2}(\theta^T S\theta)(\theta^T H\theta)\,d\theta
+=\frac{2}{15}\operatorname{tr}(SH).
+\tag{G28.1}
+```
+
+Hence, for
+
+```math
+S=\operatorname{diag}(a,a,-2a),
+\qquad
+\bar h=\frac{H_{11}+H_{22}}2,
+\qquad
+h_3=H_{33},
+```
+
+one has
+
+```math
+\fint_{S^2}\widetilde w\,\partial_rp\,d\theta
+=-\frac4{15}a(h_3-\bar h)r^2.
+\tag{G28.2}
+```
+
+If `dOmega` denotes ordinary surface measure rather than normalized mean, the
+coefficient is `-16 pi/15`, not `-4/15`. Thus Step 3 survives after pinning
+`\oint` to mean `\fint`. It depends on the mean pressure curvature in the
+double stretching plane, not on one selected in-plane curvature.
+
+### 28.2 Step 1 drops viscosity and substitutes a local monotonicity for record growth
+
+The previously checked aligned law is
+
+```math
+D_t\alpha=-\alpha^2-e\cdot He+\nu R_\alpha.
+\tag{G28.3}
+```
+
+It yields
+
+```math
+e\cdot He\le-\alpha^2+\nu R_\alpha
+\tag{G28.4}
+```
+
+only after assuming `D_t alpha >= 0`. Growth of the critical-height record is
+the global balance
+
+```math
+\frac d{dt}H_{\rm crit}(u)=P_H(u)-\nu\|\Lambda^{3/2}u\|_2^2;
+\tag{G28.5}
+```
+
+it does not imply `D_t alpha >= 0` at each retained atom. Even growth of
+vorticity along a material path uses
+
+```math
+D_t|\omega|=\alpha|\omega|+\nu e\cdot\Delta\omega,
+\tag{G28.6}
+```
+
+not the sign of `D_t alpha`. Therefore the displayed Step-1 implication is an
+additional local sustainment hypothesis, with an unpaid viscous row; it is not
+the candidate's own consequence of record growth.
+
+### 28.3 The double sheet eigenvalue leaves exactly the missing spin-2 pressure row
+
+For `S=diag(a,a,-2a)`, either `[S,H]=0` or `[S^2,H]=0` forces only
+
+```math
+H_{13}=H_{23}=0.
+\tag{G28.7}
+```
+
+It does not force `H_{11}=H_{22}`. After diagonalizing the unrestricted
+in-plane block one has
+
+```math
+H=\operatorname{diag}(h_1,h_2,h_3),
+\qquad
+h_1+h_2+h_3=-Q,
+\tag{G28.8}
+```
+
+not `2h+h_3=-Q`. Step 1 can at most control the curvature `h_e=e dot H e`
+in the selected vorticity direction. Formula `(G28.2)` reads the in-plane
+mean `bar h`; the difference is the unresolved in-plane spin-2 pressure row.
+
+There is an exact algebraic refutation of the claimed Step-1-to-Step-3
+implication. Take
+
+```math
+a=\alpha=1,
+\qquad
+H=\operatorname{diag}(-1,3,-4),
+\qquad
+Q=2.
+\tag{G28.9}
+```
+
+Then `H` commutes with `S`, `h_e=-1<=-alpha^2`, `tr H=-Q`, and
+`Q<=2alpha^2`, so every displayed Step-1/Step-2 algebraic premise holds.
+But `bar h=1` and `h_3-bar h=-5`, whence
+
+```math
+\fint_{S^2}\widetilde w\,\partial_rp\,d\theta=\frac43r^2>0.
+\tag{G28.10}
+```
+
+This is not asserted to be a global Navier--Stokes counterhistory. It proves
+that the sign does not follow from the displayed pointwise premises. A
+same-field nonlocal theorem excluding `(G28.9)` would be precisely additional
+Gold content.
+
+### 28.4 Clause C1 is a new amplitude hypothesis, not the sheet quadrant
+
+On the affine sheet,
+
+```math
+Q=|S|^2-\frac12|\omega|^2
+=6a^2-\frac12|\omega|^2.
+\tag{G28.11}
+```
+
+Thus C1 is exactly
+
+```math
+Q\le2a^2
+\quad\Longleftrightarrow\quad
+|\omega|^2\ge8a^2.
+\tag{G28.12}
+```
+
+The sheet-quadrant facts `tr S^3=-6a^3<0` and `omega dot S omega=a|omega|^2>0`
+fix orientation, not this amplitude ratio. Indeed the affine native-current
+ray remains in the producing sheet quadrant for every nonzero in-plane
+`omega`, including `0<|omega|^2<8a^2`, where C1 fails. Neither record status
+nor the C251 clock supplies `(G28.12)` without a separate same-atom comparison.
+
+### 28.5 C2 and Step 4 retain the prior open burdens
+
+C2 must do more than bound variation of `(a,h,h_3)`. It must first replace the
+one-point affine shell readout by the basepoint-integrated mixed increment
+current `(G27.1)`, control the transverse-increment term `(G27.3)`, preserve
+the nonlocal pressure slaving, and control the in-plane spin-2 row exposed in
+`(G28.8)`. Those are exactly the unproved tangent-to-atom and same-field
+passage statements.
+
+Step 4 is already refuted by `(G27.5)--(G27.6)`: exponential convolution is
+bounded on each `ell^p` but does not map an `ell^infinity` per-rung envelope
+to finite `ell^1` storage. A positive constant payment on every rung still has
+an infinite cumulative bill. The original-data positive-selection/storage
+theorem therefore remains necessary.
+
+### 28.6 Gate result
+
+The assembly contributes the following conditional local lemma: a
+plane-isotropic affine pressure Hessian with a controlled viscous remainder,
+local `D_t alpha >= 0`, and C1 has the stated saddle-descent sign. It does not
+close Gold. The failed inference is exact: the assembly sets the in-plane
+spin-2 pressure row to zero, treats a global record as local monotonicity, and
+then treats a scale-local kernel as finite cumulative storage.
+
+The surviving Gold burden remains a same-field theorem that either controls
+the in-plane spin-2 pressure curvature and viscous/localization rows in the
+native mixed-increment current, or converts their failure into a finite
+one-way original-data charge. No such theorem is contained in the assembly.
