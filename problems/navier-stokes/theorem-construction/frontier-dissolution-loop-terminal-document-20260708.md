@@ -1929,3 +1929,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 117 refutes the displayed \(0.82\) strictness margin: \(X\le\tau\) is the wrong direction for absorbing a material-time arrival cap; a service-active clock or reverse material-time bound remains unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 118 scale-matched closure is accepted only as a strict
+  reduction. It correctly pivots away from material-time arrival counting, but
+  it spends §8m as if the distribution lemma were already proved. The existing
+  Cycle 71 gate left the parent-child recurrence, no-recount episode count, and
+  C38/C39 pump-extinction transfer open. The new claim that fixed-shell imports
+  are only data-scale coarse is also unproved: later fine-scale vorticity can
+  be transported to the shell, generated away from the record, or enter through
+  another selector branch unless a global scale-production/no-free-fine-stock
+  theorem is supplied. The scale-matching window
+  \([c\delta_n,C\delta_n]\) is a promising exact subproblem, but it still must
+  be proved from the Biot-Savart kernel and retained geometry. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 118 reduces the shell-import strictness stall to the §8m distribution lemma plus scale-matching and fine-import classification; those parent-child, no-recount, pump-extinction, and no-free-fine-stock facts remain unproved.
+REMAINING: W3, W7, W8, W9.
