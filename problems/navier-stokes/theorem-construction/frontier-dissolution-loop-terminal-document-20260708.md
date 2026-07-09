@@ -638,3 +638,13 @@ None.
   constant remains a profile computation, and the shell row still needs W3
   admission, W7 graph closure, W8 selected bill construction, and W9
   path/action carriage or route-out.
+- The Claude Cycle 7 sigma parity gate accepts only the parity filter and
+  rejects the birth/deletion claim. The \(m=\pm1\) pressure tilt row is
+  quadratic and \(\mathcal R\)-even under \(u(x,t)\mapsto-u(x,-t)\), while
+  Biot-Savart self-drift is linear and \(\mathcal R\)-odd, so their pairing
+  \(\sigma\) is \(\mathcal R\)-odd and cannot be signed by an R-even quadratic
+  bill. This is a strict reduction target, not a new wall: \(\sigma\) merges at
+  most census subrows, not two current open walls among W3, W7, W8, W9; it is
+  unevaluated on a lawful retained history and has no checked bridge to W3
+  row admission, W7 graph closure, W8 selected bill construction, or W9
+  path/action.
