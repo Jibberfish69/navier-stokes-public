@@ -3,7 +3,7 @@ theorem_id: forward-gold-critical-height-native-increment-current-fixed-face-cer
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / signed critical height / c0 / Fable fixed face
-status: proved-native-current-identity-and-universal-affine-positive-part-floor; passage-to-retained-bill-open
+status: proved-native-current-pair-identity-and-universal-affine-positive-part-floor; record-selected-finite-variation-open
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-target1-energy-testform-display-executed-20260705.md
@@ -19,11 +19,16 @@ completion_truth: >-
   (8 pi/15)[-tr(S^3)]_+. The skew/vorticity part cannot cancel this floor. Thus
   every affine zero-native-positive-current tangent has zero positive
   Vieillefosse service; the rotating and spin-silent affine faces are both
-  excluded. This is an exact certificate inside the actual critical-height
-  equation, not a new ledger definition. Gold is not yet closed: the normalized
-  record extraction must retain this signed local current in the same
-  four-body/channel packet without cancellation, shell escape, or loss of
-  service.
+  excluded. The material-pair form proved below identifies the current as
+  weighted contraction of two labels of the same incompressible fluid and
+  derives its exact relative-acceleration equation. It also proves that a
+  uniform finite bound for the current's positive part on critical-height
+  record intervals already bounds every record peak and is therefore Gold,
+  rather than an inherited consequence of the signed four-body normal forms.
+  The first missing line is pairwise: pressure and viscosity cancel or dissipate
+  only after summing all pairs; neither has the sign needed to forbid repeated
+  selected compression of one carrier. Gold remains open at that finite-
+  positive-variation statement.
 ---
 
 # Native critical increment current on the fixed face
@@ -484,3 +489,239 @@ this positive production current to a finite one-way field loss, together with
 same-record passage and original-data storage. Until those statements are
 proved, this note is a strict local rigidity certificate, not `c0>0` and not
 Gold closure.
+
+## 9. Exact material-pair form and the no-return test
+
+Let `X(a,t)` be the material flow before a putative first singular time. For
+two labels `a,b`, set
+
+```math
+R_{ab}=X(a,t)-X(b,t),
+\qquad
+V_{ab}=u(X(a,t),t)-u(X(b,t),t).
+\tag{NIC.35}
+```
+
+Incompressibility gives `det D_aX=1`, and
+
+```math
+\dot R_{ab}=V_{ab}.
+\tag{NIC.36}
+```
+
+Define the canonical pair storage and radial compression rate by
+
+```math
+e_{ab}
+=\frac{c_\Lambda}{4}\frac{|V_{ab}|^2}{|R_{ab}|^4},
+\qquad
+\alpha_{ab}
+=\frac{V_{ab}\cdot R_{ab}}{|R_{ab}|^2}
+=\frac{d}{dt}\log|R_{ab}|.
+\tag{NIC.37}
+```
+
+The current `(NIC.7)` pulled back to labels is
+
+```math
+j_{ab}
+=-c_\Lambda
+\frac{|V_{ab}|^2(V_{ab}\cdot R_{ab})}{|R_{ab}|^6}
+=-4e_{ab}\alpha_{ab}
+=\frac{c_\Lambda}{4}|V_{ab}|^2
+\frac{d}{dt}|R_{ab}|^{-4}.
+\tag{NIC.38}
+```
+
+Thus `j_ab>0` means that the same two fluid labels are contracting while
+carrying relative kinetic energy. This supplies a first-principles physical
+parent for the signed four-body/channel currents.
+
+### 9.1 Exact pair-storage balance
+
+The relative material acceleration is
+
+```math
+\dot V_{ab}
+=-\delta_{ab}\nabla p
++\nu\,\delta_{ab}\Delta u.
+\tag{NIC.39}
+```
+
+Differentiating `(NIC.37)` gives
+
+```math
+\boxed{
+j_{ab}
+=\dot e_{ab}
++\frac{c_\Lambda}{2}|R_{ab}|^{-4}
+ V_{ab}\cdot\delta_{ab}\nabla p
+-\frac{c_\Lambda\nu}{2}|R_{ab}|^{-4}
+ V_{ab}\cdot\delta_{ab}\Delta u .
+}
+\tag{NIC.40}
+```
+
+After integration over all label pairs, the pressure row vanishes by
+incompressibility and gradient orthogonality:
+
+```math
+\frac{c_\Lambda}{2}
+\iint
+\frac{V_{ab}\cdot\delta_{ab}\nabla p}{|R_{ab}|^4},da,db
+=\langle u,\Lambda\nabla p\rangle
+=0.
+\tag{NIC.41}
+```
+
+The viscous row becomes positive only after the same global summation:
+
+```math
+-\frac{c_\Lambda\nu}{2}
+\iint
+\frac{V_{ab}\cdot\delta_{ab}\Delta u}{|R_{ab}|^4},da,db
+=\nu\|\Lambda^{3/2}u\|_2^2.
+\tag{NIC.42}
+```
+
+Since
+
+```math
+\iint e_{ab},da,db
+=\frac12\|u\|_{\dot H^{1/2}}^2
+=H_{\rm crit},
+\tag{NIC.43}
+```
+
+`(NIC.40)--(NIC.42)` recover the exact critical balance
+
+```math
+\boxed{
+\frac{d}{dt}H_{\rm crit}
++\nu\|\Lambda^{3/2}u\|_2^2
+=\iint j_{ab},da,db.
+}
+\tag{NIC.44}
+```
+
+The qualification in `(NIC.41)--(NIC.42)` is load-bearing: pressure does not
+cancel pairwise, and viscosity is not pairwise nonnegative. Their favorable
+properties arise only after summing every material pair.
+
+### 9.2 The exact first failed line of unrestricted no-return
+
+Let
+
+```math
+n_{ab}=R_{ab}/|R_{ab}|,
+\qquad
+V_{ab}^{\perp}=V_{ab}-(V_{ab}\cdot n_{ab})n_{ab}.
+\tag{NIC.45}
+```
+
+Direct differentiation gives
+
+```math
+\dot n_{ab}=\frac{V_{ab}^{\perp}}{|R_{ab}|},
+\tag{NIC.46}
+```
+
+and
+
+```math
+\boxed{
+\dot\alpha_{ab}
+=-\alpha_{ab}^2
++\frac{|V_{ab}^{\perp}|^2}{|R_{ab}|^2}
+-\frac{R_{ab}\cdot\delta_{ab}\nabla p}{|R_{ab}|^2}
++\nu\frac{R_{ab}\cdot\delta_{ab}\Delta u}{|R_{ab}|^2}.
+}
+\tag{NIC.47}
+```
+
+Neither of the last two terms has a sign for one pair. The pressure term is the
+same nonlocal whole-field response that turns the strain frame on Face A; the
+viscous term is dissipative only after integration as in `(NIC.42)`. Therefore
+the NS equations do not supply an unrestricted pairwise no-recollision or
+one-way-compression law. Any such law must use the record selector and prove
+that its chosen pairs cannot be refilled by the globally cancelling pressure
+exchange.
+
+### 9.3 Record selection makes the exact equivalence visible
+
+Let `t_m` be first record times satisfying
+
+```math
+H_{\rm crit}(t_{m+1})=2H_{\rm crit}(t_m),
+\qquad
+I_m=[t_m,t_{m+1}].
+\tag{NIC.48}
+```
+
+Integrating `(NIC.44)` on `I_m` and taking the pointwise positive part before
+pair integration gives
+
+```math
+H_{\rm crit}(t_{m+1})-H_{\rm crit}(t_m)
++\nu\int_{I_m}\|\Lambda^{3/2}u\|_2^2dt
+\le
+\int_{I_m}\iint[j_{ab}]_+,da,db,dt.
+\tag{NIC.49}
+```
+
+Consequently
+
+```math
+\sup_M
+\sum_{m=0}^{M}
+\int_{I_m}\iint[j_{ab}]_+,da,db,dt
+<\infty
+\tag{NIC.50}
+```
+
+would preclude infinitely many critical-height record doublings and would
+bound `H_crit`. Conversely, an unbounded record forces the left side of
+`(NIC.50)` to diverge. Thus an original-data bound for `(NIC.50)` is already
+the Gold peak bound in canonical material-pair coordinates. It is not a
+consequence of the signed identity `(NIC.44)` or of signed four-body exchange
+cancellation.
+
+### 9.4 Small-data reserve and arbitrary-data obstruction
+
+At each time,
+
+```math
+\iint[j_{ab}]_+,da,db
+\le
+c_\Lambda\iint
+\frac{|\delta_hu(x)|^3}{|h|^5},dx,dh
+\simeq
+\|u\|_{\dot B^{2/3}_{3,3}}^3.
+\tag{NIC.51}
+```
+
+Littlewood--Paley Bernstein and Cauchy--Schwarz give
+
+```math
+\|u\|_{\dot B^{2/3}_{3,3}}^3
+\le
+C\|u\|_{\dot H^{1/2}}
+ \|u\|_{\dot H^{3/2}}^2.
+\tag{NIC.52}
+```
+
+Hence sufficiently small critical data let viscosity absorb all gross positive
+pair compression. For arbitrary data, the coefficient in `(NIC.52)` is the
+uncontrolled critical height itself. Replacing it by a finite original-data
+constant is exactly the missing theorem.
+
+The pair formulation therefore corrects the two-face terminal description:
+Face A's pressure-Hessian turning and Face B's recurrent return are two
+projections of the same material-pair dynamics `(NIC.40)--(NIC.47)`. The
+four-body system is a lawful channelization of this parent current. Its signed
+normal forms do not produce the positive-variation reserve `(NIC.50)` because
+Body II has zero positive-activity coefficient and pressure exchange may
+circulate pair storage while cancelling globally. A closure now requires one
+strictly smaller fact than `(NIC.50)`--for example a record-specific sign or
+irreversible loss derived from `(NIC.47)`--rather than another renaming of the
+finite reserve itself. No such fact is proved here.
