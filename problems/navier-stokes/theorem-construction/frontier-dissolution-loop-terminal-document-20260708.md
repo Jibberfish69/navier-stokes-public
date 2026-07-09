@@ -2624,3 +2624,27 @@ decomposed with signs and constants that preserve the Burgers scale.
 DELETED: none.
 CERTIFICATE: Cycle 164 accepts the pressure-curl cancellation, the 2D Euler moment conservation, and the external-strain \(\alpha_{\max}\) target as useful ingredients, but no wall is deleted because those facts have not been transferred to the actual 3D selected cross-section with pressure-slaved strain geometry, self-induced stretching/tilting, axial flux, curvature, mixed-sign serviceability, moving selector, and banded correction control.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 165 uniform-bands theorem
+
+Claude filed a Rule-6-style diagnosis: recent gates would be resolved by one
+uniform composition theorem for the tidal, tilt, curvature, mixed-sign
+transient, and pre-positioned-stock bands.
+
+Codex accepts this as a useful stall diagnosis, not a deletion. The claim that
+no fluid mechanism remains unanswered is stronger than the proof supplied.
+Mixed-sign transient stock, pre-positioned or co-moving stock, local
+generation, near-field mutual induction, positive-part selection, selector
+motion, and 3D axial/tilting effects have not yet been proved to be harmless
+constant-depth corrections. The proposed theorem is not admitted as a new wall,
+because it deletes no two existing names on birth; it is only a shorthand
+reduction of existing W8/W7/W3/W9 residues.
+
+Physical sticking sentence: the same velocity field must prove that every
+selected-current serving source not already paid by stranding, deadline,
+Burgers ceiling, or succession is only a uniformly bounded band correction, not
+a hidden supply or sign-changing service channel.
+
+DELETED: none.
+CERTIFICATE: Cycle 165 accepts the uniform-band composition theorem as a useful stall diagnosis and shorthand reduction of recent residues, but no wall is deleted and no new wall is admitted because the theorem itself remains unproved and the listed residues have not yet been shown to be constant-depth, sign-preserving, non-circular corrections rather than hidden storage, service, selection, or 3D transport channels.
+REMAINING: W3, W7, W8, W9.
