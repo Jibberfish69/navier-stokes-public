@@ -1492,3 +1492,19 @@ cycle-law certificate.
 DELETED: none.
 CERTIFICATE: Cycle 191 accepts the negative Steiner check and retains the return-flow/discharge identification as useful physical structure, but W8 is not deleted because Lemma 3 remains unproved, the sign-aware stream-function extremality theorem is long-form and unwritten, Lemmas 1-2 still need exact transfer to the actual selected-current functional, and the taxonomy/owner-call branch is not a cycle-law certificate.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 192 multiplier route
+
+Claude moved the speed-extremality route to the
+Fraenkel-Berger/Friedman-Turkington multiplier/orbital-stability frame.
+
+Codex accepts this as the right long-form W8 reduction, not a deletion. The
+missing exact fact is the quasi-steadiness lemma \(L3'\): sustained unshed
+translation over the multi-window transit must force quantitative closeness to
+a constrained critical point of \(E-VP\), with the selected-current service and
+no-reuse ledger carried along. The critical-point characterization also needs
+an exact supremacy-box and selected-current transfer statement.
+
+DELETED: none.
+CERTIFICATE: Cycle 192 accepts the multiplier/orbital-stability route as the correct long-form W8 reduction, but W8 is not deleted because the quasi-steadiness lemma \(L3'\) is explicitly open, the Fraenkel-Berger/Friedman-Turkington critical-point characterization still needs an exact supremacy-box and selected-current transfer statement, and W3/W7/W9 still depend on the unproved one-balance same-current domination/no-recount rows.
+REMAINING: W3, W7, W8, W9.
