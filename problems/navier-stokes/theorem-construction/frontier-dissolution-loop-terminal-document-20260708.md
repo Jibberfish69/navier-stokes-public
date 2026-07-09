@@ -3556,3 +3556,19 @@ terms and the C217 front/rear geometry. The second-order deformation correction,
 DELETED: none.
 CERTIFICATE: Cycle 220 accepts fore-aft symmetry as the right N1 target, but W8 is not deleted because symmetry has not been proved for the actual smoothed selected-current crossing integrand on the re-seeded courier sphere, the steady-ring and circular-maximizer symmetries have not been transferred to the mismatch flux with C214 exchange/source terms, the second-order deformation correction is unbounded, the \(\lambda_1\ge0.3\) input remains uncertified, and N2/C210 plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 221 cap-independence
+
+Claude proposed that N2/C210 endpoint calibration is not load-bearing because
+every courier lies either below the steady-family cap, where stranding prices
+it, or above the cap, where non-steadiness forces rebuild loss.
+
+Codex accepts this as a conditional reduction. No deletion is paid. The
+below-cap regime still needs the exact selected-service stranding/no-reuse
+certificate with W9 clock normalization, and the above-cap regime still needs
+the quantitative \(\lambda_1\) deformation lower bound plus C220 symmetry
+transfer to the actual selected-current flux. The sweep remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 221 accepts the cap-independence dichotomy as a conditional reduction of N2/C210 endpoint calibration, but W8 is not deleted because the steady-family regime still needs an exact selected-service stranding/no-reuse certificate with W9 clock normalization, the super-family regime still needs a quantitative \(\lambda_1\) deformation lower bound and C220 symmetry transfer to the actual selected-current flux, "non-steady" has not been converted into a threshold-beating loss rate, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
