@@ -210,3 +210,92 @@ computation. It is the same-field material-time passage statement that turns
 zero payment into a constant-axis global finite-energy limit, or records one of
 the five failures above as nonzero participation. Once that passage is proved,
 (CAR.7) gives the fixed-face contradiction directly.
+
+## 6. Complementary constant-normal sheet rigidity
+
+The strong sheet lock uses the complementary vorticity orientation. Let
+`e in S^2` be constant, let `u in L^2(R^3)` be divergence-free, and assume in
+distributions
+
+```math
+\omega\cdot e=0,
+\qquad
+\Pi_{e^\perp}Se=0.
+\tag{CAR.14}
+```
+
+Thus the vorticity is tangent to one fixed sheet plane and the sheet normal is
+a strain eigenvector. Rotate so that `e=e_3`. The conditions are
+
+```math
+\partial_1u_2-\partial_2u_1=0,
+\qquad
+\partial_3u_1+\partial_1u_3=0,
+\qquad
+\partial_3u_2+\partial_2u_3=0,
+\tag{CAR.15}
+```
+
+together with `div u=0`.
+
+Take the Fourier transform. For
+`xi_perp=(xi_1,xi_2) ne 0`, the first equation says
+
+```math
+\widehat u_\perp(\xi)=\alpha(\xi)\xi_\perp.
+\tag{CAR.16}
+```
+
+The two tilt equations then give
+
+```math
+\widehat u_3(\xi)=-\alpha(\xi)\xi_3,
+\tag{CAR.17}
+```
+
+while incompressibility gives
+
+```math
+\alpha(\xi)
+\left(|\xi_\perp|^2-\xi_3^2\right)=0.
+\tag{CAR.18}
+```
+
+The cases `xi_perp=0` and `xi_3=0` give zero directly away from the origin.
+Therefore `widehat u` is supported on the characteristic cone
+
+```math
+\mathcal C
+=
+\left\{\xi\in\mathbb R^3:
+|\xi_\perp|=|\xi_3|\right\}.
+\tag{CAR.19}
+```
+
+This cone has three-dimensional Lebesgue measure zero. Since
+`widehat u in L^2` by Plancherel, it follows that
+
+```math
+\boxed{
+u\in L^2(\mathbb R^3),
+\quad \omega\cdot e=0,
+\quad Se\parallel e,
+\quad e\text{ constant}
+\quad\Longrightarrow\quad
+u=0.
+}
+\tag{CAR.20}
+```
+
+The cone is not algebraically empty: nonlocalized shear plane waves can live on
+it and decay under viscosity. Finite energy on `R^3` is the step that excludes
+them. Consequently a nonzero localized sheet must create at least one of:
+normal vorticity, strain-axis tilt, spatial frame variation, or a transition
+defect carrying the field away from the global lock.
+
+For the Fable fixed face this removes the complementary global endpoint. If a
+zero-payment record limit makes the sheet normal constant and the viscous
+orientation equation drives `omega dot e` to zero, `(CAR.20)` contradicts
+positive normalized service without any pressure-Hessian UCP. The remaining
+Gold burden is still the passage to a global `L^2` limit, or an exact charge for
+loss of tightness, frame constancy, normal-vorticity decay, or service.
