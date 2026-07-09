@@ -1142,3 +1142,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 60 controls the fixed far exterior as support but leaves the intermediate-zone polylog chaining/subcriticality theorem open.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 61 displacement gate is a strict reduction, not a deletion.
+  The correct quantity is \(\int \delta(\tau)\,d\tau\) along the canonical
+  selector: a fixed exterior ball contains the whole record trajectory only if
+  this integral is data-bounded. The proposed geometric series requires a
+  uniform \(O(1)\) material residence time on every rung, including selector
+  exchanges and leapfrog transitions. That residence bound is not automatic
+  from material time; using "lawful growth is exponential in \(\tau\)" risks
+  borrowing the Theorem C conclusion. Therefore fixed-ball compatibility
+  narrows to an exact residence lemma or direct data-bound for
+  \(\int\delta(\tau)d\tau\). No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 61 reduces fixed-exterior compatibility to a residence/displacement lemma for the canonical selector; that lemma remains unproved, so A2 remains open.
+REMAINING: W3, W7, W8, W9.
