@@ -1724,3 +1724,21 @@ existing frontier walls.
 DELETED: none.
 CERTIFICATE: Cycle 205 accepts the corrected worst-end loss threshold \(\lambda\ge6.11\%\), but no wall is deleted because the courier-local sphere evaluation has not been written as a single-consumed selected-current/no-reuse identity, the rule-3 net-negative fallback tries to delete W8 sub-obligations rather than two existing frontier walls, the lower bracket \(0.03\) still fails the corrected threshold, and the exact \(\lambda_1\) and \(\lambda_2\) lower-bound certificates remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 206 rear-sweep computation
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C206 tries
+to finish W8 through the same courier-local whole-field flux instance, but it
+still does not identify W8 with W3, W7, or W9 because the courier-local
+selected-current/no-reuse identity, the action-clock normalization, and the
+partner-sweep confirmation are not written as exact certificates.
+
+Codex accepts the rear-sweep product \(0.232\cdot4\pi\approx2.9\) as strong W8
+progress. No deletion is paid. The exact missing facts are the selected-ledger
+collar-crossing/re-gathering inequalities, the exact \(\lambda_1\) floor, the
+courier-local normalization of \(V\) and \(T\), and the single-consumption
+identity for the courier-local sphere evaluation.
+
+DELETED: none.
+CERTIFICATE: Cycle 206 accepts the rear-sweep product \(0.232\cdot4\pi\approx2.9\) as strong W8 progress, but W8 is not deleted because the collar-crossing and re-gathering times are still estimates rather than exact selected-ledger inequalities, the \(\lambda_1\ge0.3\) floor is still an unproved shape/crossing certificate, the speed/turnover inputs must be confirmed in the courier-local normalization, the courier-local sphere evaluation is not yet a single-consumed selected-current/no-reuse identity, and W3/W7/W9 remain open.
+REMAINING: W3, W7, W8, W9.
