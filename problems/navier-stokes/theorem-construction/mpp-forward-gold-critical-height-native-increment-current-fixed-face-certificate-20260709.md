@@ -3100,7 +3100,7 @@ The exact cyclic form of `(NIC.164)` is
 \tag{NIC.224}
 ```
 
-Pairing equal output scales in `(NIC.223)` yields the sharp direct
+Pairing equal output scales in `(NIC.223)` yields the direct
 scale-resolved estimate
 
 ```math
@@ -3255,7 +3255,7 @@ helical supports remain in disjoint dyadic ranges. Scaling by the actual
 field with compact Fourier support.
 
 **Result of this section.** The null form proves the weighted cross-scale
-overlap `(NIC.226)`, and summing it recovers the global HMIN participation
+overlap `(NIC.226)`, consistently with the separate global HMIN participation
 floor. It does not prove co-scale mixed-helicity occupancy. The exact family
 `(NIC.227)--(NIC.233)` shows that amplitude can compensate the geometric
 high--high-to--low kernel at an arbitrarily large spectral gap. This is an
