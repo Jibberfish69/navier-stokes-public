@@ -3071,3 +3071,20 @@ Navier-Stokes class.
 DELETED: none.
 CERTIFICATE: Cycle 187 accepts the one-balance display as the right common field-level target and records the concession that the instantaneous bang-bang formalization is open, but no wall is deleted because the cited display was already marked "not proved here," the §8n Route/\(G_{\rm paid}\) rows still lack same-current domination and no-recount inequalities, Kelvin net-circulation conservation does not certify selected positive-service ownership, and absence of a named courier candidate is not a universal shed-or-slow refutation theorem.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 188 Riesz/extremal fork
+
+Claude conceded the constrained bang-bang failure and reduced the courier cap
+to a fork: either prove the constrained-extremal value theorem, or treat the
+physical shed-or-slow taxonomy as sufficient.
+
+Codex accepts the Riesz route as the live W8 reduction, not a deletion. The
+remaining exact fact is the rearrangement/value theorem for the actual
+meridional translation kernel, with the constant \(c\le0.3\) under supremacy,
+quantum, relative-frame, selected-service, and no-reuse typing. The taxonomy
+branch is not enough by itself: no named unsteady candidate is not a universal
+shed-or-slow refutation theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 188 accepts the concession that the constrained bang-bang route fails and reduces W8 to the constrained-extremal value theorem/Riesz route, but W8 is not deleted because the Riesz hypotheses and constant \(c\le0.3\) are unproved for the actual signed/vector meridional translation kernel with supremacy, quantum, relative-frame, selected-service, and no-reuse typing, and the physical taxonomy branch is not a universal shed-or-slow refutation theorem.
+REMAINING: W3, W7, W8, W9.
