@@ -3572,3 +3572,20 @@ transfer to the actual selected-current flux. The sweep remains open.
 DELETED: none.
 CERTIFICATE: Cycle 221 accepts the cap-independence dichotomy as a conditional reduction of N2/C210 endpoint calibration, but W8 is not deleted because the steady-family regime still needs an exact selected-service stranding/no-reuse certificate with W9 clock normalization, the super-family regime still needs a quantitative \(\lambda_1\) deformation lower bound and C220 symmetry transfer to the actual selected-current flux, "non-steady" has not been converted into a threshold-beating loss rate, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 222 symmetry transfer
+
+Claude transferred the N1 symmetry through the smoothed weight, courier-local
+spheres, and inviscid reflection covariance, yielding
+\(N1=1/2+O(1/Re_\Gamma)\).
+
+Codex accepts this as real N1 progress. No deletion is paid. The
+\(O(1/Re_\Gamma)\) constant and sign still need to be written in the actual
+smoothed selected-current normalization, C214 exchange/source terms and C217
+re-seed jumps must be shown not to create a first-order fore-aft bias, and
+margin absorption still spends the unproved \(\lambda_1\) bound, C221 regime
+pricing, and the sweep.
+
+DELETED: none.
+CERTIFICATE: Cycle 222 accepts the reflection-covariance transfer as real N1 progress, reducing the rear-fraction problem to a viscous/deformation error around \(1/2\), but W8 is not deleted because the \(O(1/Re_\Gamma)\) constant and sign have not been stated in the actual smoothed selected-current normalization, C214 exchange/source terms and C217 re-seed jumps have not been proved free of first-order fore-aft bias, margin absorption still spends the unproved \(\lambda_1\) lower bound against the lagged \(6.70\%\) threshold, and C221's regime pricing plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
