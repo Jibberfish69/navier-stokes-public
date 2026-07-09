@@ -4033,3 +4033,40 @@ remain open.
 DELETED: none.
 CERTIFICATE: Cycle 243 accepts the integration-by-parts repair as a real reduction of the fine-scale \(\nabla\rho\) objection for the band rows, but W8 is not deleted because C² orientation coherence and the trace/cutoff terms are not certified for the actual smoothed selected field from arbitrary admissible data, the pure-geometry constant \(G\) and margin inequality \(Re^*\ge G/(\lambda-\mathrm{requirement})\) are uncomputed, the low-\(Re_\Gamma\) and off-family clauses still cite previously gated regime reductions, and the one-way \(\lambda\) floor, W7/W8 same-selector dictionary, W7 closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 244 assembled one-way rear-loss floor
+
+Claude assembled the one-way rear-loss floor from the TV floor, rear
+symmetry/sweep, the stranding cap, the C243 band-row geometry offset, and the
+W7/W8 currency dictionary.
+
+Codex accepts this as a useful localization of W8. No deletion is paid. The
+stranding cap remains the standing soft C207/C211 value, and \(G\) plus the
+margin inequality against \(6.7\%\) are uncomputed. The table also treats
+\(N1=1/2\), TV-to-one-way conversion, and layer-level symmetry as exact in the
+actual smoothed selected-current ledger, while earlier gates left
+viscous/deformation constants, exchange/jump terms, and one-way conversion
+under gate. The W7/W8 same-selector dictionary, W7 closed-record admission,
+\(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 244 accepts the assembled-floor table as a useful localization of W8 to the stranding constant, the band-row geometry constant, and same-currency typing, but W8 is not deleted because the stranding cap \(v_{\mathrm{close}}\le C\Omega d\) is still the standing soft C207/C211 value, the geometry number \(G\) and the \(6.7\%\) margin inequality are uncomputed, \(N1=1/2\), TV-to-one-way conversion, and layer-level symmetry are not certified in the actual smoothed selected-current ledger with viscous/exchange/jump terms, and the W7/W8 same-selector dictionary, W7 closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 242-244
+
+Physical sentence of the sticking wall: the selected fixed-region ledger now
+has sharp level-set memberships, integration-by-parts band-row reduction, and
+an assembled rear-loss table, but the proof still lacks one attackable
+same-field theorem with exact constants turning rear boundary crossing into
+one-way retained membership loss in the actual smoothed selected currency.
+
+Attempts: C242 repaired smooth membership by layer-cake sharp memberships;
+C243 moved the band-row \(\nabla\rho\) terms onto orientation geometry; C244
+assembled the rear-loss floor from TV, rear symmetry/sweep, stranding, and the
+band-row offset.
+
+Missing exact fact: an actual-smoothed-field same-currency rear-loss theorem
+combining the stranding cap constant, the computed \(G\) margin, layer-level
+TV-to-one-way conversion with viscous/exchange/jump terms, W7/W8 same-selector
+closed-record admission, and \(\delta u\) sign/size/ownership.
