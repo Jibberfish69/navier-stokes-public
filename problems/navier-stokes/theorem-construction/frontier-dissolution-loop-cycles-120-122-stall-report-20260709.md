@@ -568,6 +568,27 @@ DELETED: none.
 CERTIFICATE: Cycle 143 accepts the residence theorem as the missing field-level target, but the proof is conditional; integrated kernel locality, pointwise/flux discharge, no station-keeping or recirculation, positive-influx rather than net-flux accounting, packing/quantization, no-self-feeding, and same-clock normalization remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 144 differential advection and gross arrivals
+
+Claude supplied the sharper field-route target: prove relative transport with
+the Biot--Savart kernel difference and count gross arrivals through a protected
+collar rather than net flux.
+
+Codex accepts both repairs and rejects deletion. The CF/Biot--Savart split
+becomes a certificate only after retained sparsity or fill-fraction controls
+all vorticity contributing to \(u(x)-u(y)\), including diffuse,
+intermediate-scale, coherent shear, pressure-slaved, and record-generated
+fields. The gross-arrival collar avoids one net-flux error, but it still needs
+a positive-flux/event object with no double count for splitting, merging,
+chatter, diffuse stock, and re-entry. Those are the surviving W7/C33 field
+burdens.
+
+DELETED: none.
+CERTIFICATE: Cycle 144 accepts the gross-arrival collar and Biot--Savart relative-velocity split as the sharpest field-route target, but the theorem remains conditional; retained sparsity/fill-fraction domination of all contributing vorticity, diffuse/intermediate/coherent field routing, gross positive-flux/event definition, collar threshold/discharge routing, no-double-count, no-self-feeding, and same-clock scale arithmetic remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
