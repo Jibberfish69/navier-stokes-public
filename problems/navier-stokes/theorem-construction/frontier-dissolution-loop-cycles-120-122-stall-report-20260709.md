@@ -4849,3 +4849,90 @@ Missing exact fact: none of mathematical type currently named by either lane
 that lacks a filed answer awaiting verification; the operative missing item is
 the rule-4 outcome on the final assembly — either the failing line (as at C301)
 or the failed attempt that confirms. Both lanes' surfaces agree on this state.
+
+## Codex gate on post-stall Cycle 322 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C322 offers
+no new cross-wall identification.
+
+Codex accepts C322 as a holding cycle with state unchanged from C321.
+
+No deletion is paid. The C319 three-factor total-sweep certification burden
+remains active.
+
+DELETED: none.
+CERTIFICATE: Cycle 322 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 320-322
+
+Physical sentence of the sticking wall: the C319 total-sweep factor list has
+not become a same-field selected-cap theorem; the rear cap velocity, halo
+density, and clock normalization remain uncertified for arbitrary admitted
+selected material.
+
+Attempts: C320 held the C319 state; C321 held the same state; C322 again held
+the same state.
+
+Missing exact fact: an adversarially stable proof that the C319 cap velocity
+bound includes every same-field contribution, that the halo bound covers
+arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B material, and
+that the displayed conversion uses the exact L3-prime cap, window, retained
+normalization, cutoff/reseed convention, and four-wall ladder reduction.
+
+## Codex gate on post-stall Cycle 323 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C323 offers
+no new cross-wall identification.
+
+Codex accepts C323 as a holding cycle with state unchanged from C322.
+
+No deletion is paid. The C319 three-factor total-sweep certification burden
+remains active.
+
+DELETED: none.
+CERTIFICATE: Cycle 323 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 324 binary-verdict request
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C324 offers
+no new cross-wall identification, but it correctly requests the binary verdict
+on the C319 factor certificate.
+
+Codex accepts the procedural sharpening. No wall deletion follows from the
+request itself.
+
+DELETED: none.
+CERTIFICATE: Cycle 324 is accepted as a holding cycle that correctly requests the binary C319 factor verdict; no wall is deleted because a request for verification is not itself a two-are-one identity, empty-by-admission clause, refutation, or terminal reduction, and the C319 certificate still has to survive the adversarial factor check.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after post-stall Cycle 325
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: the standing
+C319 attempt is to make the total-sweep repair terminal through cap velocity,
+halo density, and clock conversion factors.
+
+Codex executes the requested binary attack. The C319 terminal certificate fails
+at factor (1). The cap-velocity line
+\[
+u_{\mathrm{cap}} = u_{\mathrm{rel}} + u_{\mathrm{self}}
+\]
+is not an exhaustive same-field decomposition for arbitrary admitted
+Navier-Stokes data. The selected rear cap sees the actual trace
+\[
+u_{\mathrm{cap}} =
+u_{\mathrm{rel}} + u_{\mathrm{self}} + u_{\mathrm{rem}},
+\]
+where \(u_{\mathrm{rem}}\) contains ambient, neighboring, Horn-B,
+cutoff/reseed, harmonic, and other non-courier same-field contributions not
+proved absent by C319. Since the rear flux is computed from the actual normal
+trace, the triangle/sup cap-velocity bound is not terminal unless
+\(u_{\mathrm{rem}}\) is killed or priced in the same selected ledger.
+
+This is the rule-4 failing line for C319. It refutes the proposed terminal
+certificate and leaves the frontier unchanged.
+
+DELETED: none.
+CERTIFICATE: The post-C325 binary attack refutes C319 as a terminal certificate at factor (1): the cap-velocity bound omits the same-field remainder \(u_{\mathrm{rem}}\), so the stated \(u_{\mathrm{cap}}=u_{\mathrm{rel}}+u_{\mathrm{self}}\) decomposition is not an exact certificate for arbitrary selected data unless all ambient, neighboring, Horn-B, cutoff/reseed, harmonic, and other non-courier contributions are proved absent or included in the same selected ledger.
+REMAINING: W3, W7, W8, W9.
