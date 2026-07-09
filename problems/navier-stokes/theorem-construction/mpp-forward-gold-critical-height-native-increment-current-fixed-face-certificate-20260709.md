@@ -2234,7 +2234,482 @@ both `Hdot^{1/2}` helical norms in `(NIC.169)` are unchanged, while
 `||v_lambda||_{Hdot^{3/2}}^2=lambda^2||v||_{Hdot^{3/2}}^2`.
 Scaled smooth solutions can therefore meet the same participation threshold at
 smaller scales with vanishing physical-energy cost and compressed time. This
-does not construct recurrence inside one Navier--Stokes trajectory; it shows
-that scaling and physical energy do not exclude such recurrence. The estimate
-strictly reduces any Gold counterhistory to mixed-helicity critical records,
-but supplies no event count, no one-way loss, and no bound on record height.
+does not construct recurrence inside one Navier--Stokes trajectory. It shows
+only that `(NIC.169)` supplies neither a scale-independent energy charge nor a
+dwell-time lower bound; a same-trajectory history identity could still exclude
+recurrence. The estimate strictly reduces any Gold counterhistory to
+mixed-helicity critical records at its record times, but supplies no event
+count, no one-way loss, and no bound on record height.
+
+## 22. Quadratic helical-state no-go and the exact odd-current obstruction
+
+The helical pieces remain simultaneous readouts of the one velocity field in
+this section. The purpose is to determine whether their four quadratic moments
+can carry the missing time arrow, and then to test the first same-field odd
+quantity that escapes that parity obstruction.
+
+### 22.1 Sector means and the viscous spectral-variance row
+
+In addition to `(NIC.152)`, set
+
+```math
+E_s=\|u_s\|_2^2,
+\qquad
+K_s=\|\Lambda u_s\|_2^2,
+\qquad
+T_s=-\langle B,u_s\rangle.
+\tag{NIC.170}
+```
+
+The full energy and helicity cancellations give
+
+```math
+T_++T_-=0,
+\qquad
+P_+=P_-=\frac12P_H,
+\tag{NIC.171}
+```
+
+and the exact sector system is
+
+```math
+\boxed{
+\frac12E_s'+\nu K_s=T_s,
+\qquad
+\frac12R_s'+\nu D_s=\frac12P_H.
+}
+\tag{NIC.172}
+```
+
+For `E_s>0`, define the mean helical frequency `m_s=R_s/E_s`. Direct
+differentiation of `(NIC.172)` yields
+
+```math
+\boxed{
+m_s'
+=
+\frac{P_H-2m_sT_s-2\nu(D_s-m_sK_s)}{E_s}.
+}
+\tag{NIC.173}
+```
+
+If `d mu_s(r)` is the radial pushforward of
+`|u_s hat(xi)|^2 d xi`, then
+
+```math
+\boxed{
+E_sD_s-R_sK_s
+=
+\frac12\iint
+(r+\rho)(r-\rho)^2\,d\mu_s(r)d\mu_s(\rho)
+\ge0.
+}
+\tag{NIC.174}
+```
+
+Thus `D_s-m_s K_s>=0`. Equality means that the sector is supported on one
+frequency radius. A nonzero `L^2(R^3)` field cannot have such support; on the
+torus equality is exactly single-shell support. Viscosity therefore decreases
+the sector mean frequency strictly on `R^3` unless the sector vanishes. The
+remaining nonlinear numerator `P_H-2m_sT_s` has no sign from the four moments.
+
+### 22.2 Exact parity no-go for every four-moment scalar
+
+Let
+
+```math
+\mathcal M(u)=(E_+,E_-,R_+,R_-)
+```
+
+and let `F` be `C^1` on the positive moment cone. Its inviscid nonlinear
+derivative is
+
+```math
+\boxed{
+\mathcal N_F(u)
+=
+2(F_{E_+}-F_{E_-})T_+
++(F_{R_+}+F_{R_-})P_H.
+}
+\tag{NIC.175}
+```
+
+The admissible same-field map `u -> -u` leaves all four entries of
+`mathcal M` fixed. It also leaves `B(u,u)` and the slaved pressure fixed, while
+it sends each linear readout `u_s` to `-u_s`. Consequently
+
+```math
+(T_+,P_H)(-u)=-(T_+,P_H)(u),
+\qquad
+\boxed{\mathcal N_F(-u)=-\mathcal N_F(u).}
+\tag{NIC.176}
+```
+
+Therefore a universal one-sided sign for `mathcal N_F` forces
+`mathcal N_F(u)=0` for every smooth divergence-free field. This is an
+initial-state symmetry of the full Euler vector field. It does not identify
+`-u(t)` with the same positive-viscosity trajectory.
+
+The resulting invariant classification is exact on `R^3`.
+
+**Fixed-moment span lemma.** At every interior moment state
+`M=(E_+,E_-,R_+,R_-)>0`, smooth real divergence-free Schwartz fields with
+`mathcal M(u)=M` realize two independent vectors in
+
+```math
+\mathcal V
+=
+\{(2T,-2T,P,P):T,P\in\mathbb R\}.
+\tag{NIC.177}
+```
+
+Here is a constructive certificate. Use two compact-Fourier mixed-helicity
+triad clusters concentrated near
+
+```math
+K_n=(n,0,0),
+\qquad
+L=(0,1,0),
+\qquad
+Q_n=(-n,-1,0),
+\qquad n\in\{2,3\},
+\tag{NIC.178}
+```
+
+with signs `(+,+,-)`. For the corresponding plane-wave symbols, direct
+helical evaluation gives a nonzero transfer and
+
+```math
+\frac{P_H}{T_+}=-2|Q_n|=-2\sqrt{n^2+1}.
+\tag{NIC.179}
+```
+
+One explicit nonzero normalization is
+
+```math
+T_+
+=
+\frac{n(n-1)}{\sqrt2(\sqrt{n^2+1}+1)}
+\left(1-\frac{n-1}{\sqrt{n^2+1}}\right)>0.
+\tag{NIC.180}
+```
+
+Rotate one cluster generically and choose all support balls sufficiently
+narrow that every undesignated signed three-center sum stays away from zero.
+All cross-cluster cubic terms then vanish exactly. A compact bump cluster need
+not remain on one transfer ray for every phase. Its exact phase law has the
+form
+
+```math
+(T_i(\theta),P_i(\theta))
+=
+\operatorname{Re}
+\left(e^{i\theta}(C_i^T,C_i^P)\right),
+\qquad
+V_i(\theta+\pi)=-V_i(\theta).
+\tag{NIC.181}
+```
+
+At a chosen phase its transfer vector converges to `(NIC.179)` as the balls
+shrink. The `n=2` and `n=3` vectors are therefore independent for sufficiently
+narrow balls.
+
+Scale the two active clusters so that their four moment contributions are
+arbitrarily small. For each sign, fill the positive residual pair `(E_s,R_s)`
+with two reality-symmetric silent packet pairs having unit-energy mean radii
+
+```math
+\rho_{s,1}<\frac{R_s}{E_s}<\rho_{s,2}.
+```
+
+Their squared amplitudes are exactly
+
+```math
+a_{s,1}^2
+=
+\frac{\rho_{s,2}E_s-R_s}{\rho_{s,2}-\rho_{s,1}},
+\qquad
+a_{s,2}^2
+=
+\frac{R_s-\rho_{s,1}E_s}{\rho_{s,2}-\rho_{s,1}}.
+\tag{NIC.182}
+```
+
+Generic directions and sufficiently small support balls exclude every zero
+triple-sum involving a filler, so all filler self-rates and cross-rates vanish.
+Changing an active phase by `pi` preserves `mathcal M` and reverses only that
+cluster's cubic transfer. This proves `(NIC.177)` at the prescribed moment
+state.
+
+Combining `(NIC.175)` with the two independent fixed-fiber vectors gives
+
+```math
+F_{E_+}=F_{E_-},
+\qquad
+F_{R_+}=-F_{R_-}
+\tag{NIC.183}
+```
+
+throughout the connected positive cone. Hence
+
+```math
+\boxed{
+F(E_+,E_-,R_+,R_-)
+=
+f(E_++E_-,R_+-R_-).
+}
+\tag{NIC.184}
+```
+
+The only universal inviscid invariants visible to the four quadratic helical
+moments are functions of total energy and signed helicity.
+
+### 22.3 The first odd current has an exact unsigned evolution
+
+The scalar `P_H` escapes `(NIC.176)` because it is cubic and odd. Set
+
+```math
+N=B(u,u),
+\qquad
+P_H(u)=-\langle N,\Lambda u\rangle.
+```
+
+For a smooth Navier--Stokes epoch, differentiating this same-field functional
+and substituting `u_t=-N-nu Lambda^2u` gives
+
+```math
+\boxed{
+\begin{aligned}
+P_H'
+={}&Q_E(u)+\nu Q_V(u),\\
+Q_E(u)
+={}&\langle B(N,u)+B(u,N),\Lambda u\rangle
++\langle N,\Lambda N\rangle,\\
+Q_V(u)
+={}&\langle B(\Lambda^2u,u)+B(u,\Lambda^2u),\Lambda u\rangle
++\langle N,\Lambda^3u\rangle.
+\end{aligned}
+}
+\tag{NIC.185}
+```
+
+Both signs in the last two lines are positive because the minus sign in the
+definition of `P_H` meets the two minus signs in `u_t`.
+
+Neither `Q_E` nor the full derivative has a one-way sign. Two exact periodic
+examples make this attackable.
+
+For a positive example, let `k=e_1`, `ell=e_2` and take
+
+```math
+\widehat u(\pm k)=a e_2,
+\qquad
+\widehat u(\pm\ell)=b e_3,
+\qquad ab\ne0.
+\tag{NIC.186}
+```
+
+There is no zero-sum triple in the initial support, so `P_H=Q_V=0`. The four
+nonzero modes of `N` are `+/- (k+ell)` and `+/- (k-ell)`, all on radius
+`sqrt(2)`. Since `Lambda u=u`, Euler energy conservation gives
+
+```math
+\boxed{
+Q_E=P_H'=(\sqrt2-1)\|N\|_2^2>0.
+}
+\tag{NIC.187}
+```
+
+For a negative example, take the planar modes
+
+```math
+k=(1,3,0),
+\qquad
+\ell=(1,-1,0),
+```
+
+with
+
+```math
+\widehat u(k)=\frac{i}{10}(-3,1,0),
+\qquad
+\widehat u(\ell)=\frac{i}{2}(1,1,0),
+\qquad
+\widehat u(-m)=\overline{\widehat u(m)}.
+\tag{NIC.188}
+```
+
+The complete nonlinear support and coefficients are
+
+```math
+\widehat N(2,2,0)=\frac{i}{5}(2,-2,0),
+\qquad
+\widehat N(0,4,0)=\frac{i}{5}(-2,0,0),
+\tag{NIC.189}
+```
+
+together with their conjugates. Again `P_H=Q_V=0`, while the full quartic is
+
+```math
+\boxed{
+Q_E
+=
+\frac{32+34\sqrt2-26\sqrt{10}}{25}<0.
+}
+\tag{NIC.190}
+```
+
+The sign is exact: after squaring positive quantities,
+`26 sqrt(10)>32+34 sqrt(2)` reduces first to
+`107>68 sqrt(2)` and then to `11449>9248`.
+
+The strict periodic signs transfer to real divergence-free Schwartz fields on
+`R^3`: replace each Fourier atom by the same narrow compactly supported smooth
+packet and apply the Leray projector. Equivalently, for a compact-Fourier
+envelope `chi`, localize a finite periodic carrier `U` by
+`u_L=P_R3(chi(x/L)U)`. The quartic multiplier is smooth away from zero and
+
+```math
+L^{-3}Q_E(u_L)
+\longrightarrow
+c_\chi Q_E^{\mathbb T^3}(U),
+\qquad
+c_\chi>0,
+\tag{NIC.191}
+```
+
+while projection and envelope commutators are `O(L^{-1})` relative to the
+leading term. Near-zero quadratic outputs are also lower order because the
+carrier-zero coefficient vanishes. Thus `(NIC.187)` and `(NIC.190)` are
+full-space sign counterexamples as well.
+
+### 22.4 Failure persists on a strict critical record-growth state
+
+The negative sign is not confined to a non-record state. On the normalized
+torus use
+
+```math
+k=(-3,-3,0),
+\quad
+p=(-2,-1,0),
+\quad
+q=(5,4,0),
+\quad
+k+p+q=0,
+\tag{NIC.192}
+```
+
+with helicities `(+,-,-)`, amplitudes `(2,1,1)`, and
+
+```math
+h_s(a,b,0)
+=
+\frac1{\sqrt2}
+\left(\frac{isb}{\sqrt{a^2+b^2}},
+-\frac{isa}{\sqrt{a^2+b^2}},1\right),
+\qquad
+i m\times h_s(m)=s|m|h_s(m).
+\tag{NIC.193}
+```
+
+Set `u hat(k)=2h_+(k)`, `u hat(p)=h_-(p)`,
+`u hat(q)=h_-(q)`, and impose reality at the negative modes. Direct full
+convolution, including all on-support and off-support outputs, gives
+
+```math
+\begin{aligned}
+P
+:={}&P_H(u)
+=-\frac{36}{5}\sqrt5
++\frac{36}{41}\sqrt{41}
++\frac{216}{205}\sqrt{410},\\
+D
+:={}&\|u\|_{\dot H^{3/2}}^2
+=432\sqrt2+10\sqrt5+82\sqrt{41},\\
+Q
+:={}&Q_E(u)\\
+= {}&-\frac{1065969}{23165}\sqrt2
+-\frac{6624}{1025}\sqrt5
++\frac{57476}{23165}\sqrt{41}
++\frac{249}{205}\sqrt{410}\\
+&+\frac{2115}{1517}\sqrt{74}
+-\frac9{205}\sqrt{15170}
++\frac{7196}{4633}\sqrt{113}
++\frac6{41}\sqrt{9266},\\
+Q_V(u)
+={}&-64P.
+\end{aligned}
+\tag{NIC.194}
+```
+
+The last identity uses the single-triad relation
+`|k|^2+|p|^2+|q|^2=18+5+41=64`. Rational bracketing of every displayed square
+root gives the strict signs
+
+```math
+\boxed{
+P>0,
+\qquad
+107P-D>0,
+\qquad
+Q<0.
+}
+\tag{NIC.195}
+```
+
+For a fully rational check, the same brackets give
+
+```math
+P>\frac{11128963383}{1025000000},
+\qquad
+107P-D>\frac{6966049717}{2050000000},
+```
+
+and
+
+```math
+-\frac{798013219289497}{428552500000000}
+<Q<
+-\frac{7062061638101}{3792500000000}<0.
+\tag{NIC.196}
+```
+
+Amplitude-scale this one field by `u^Gamma=Gamma u`. Then
+
+```math
+P_H(u^\Gamma)=\Gamma^3P,
+\qquad
+D(u^\Gamma)=\Gamma^2D,
+\qquad
+Q_E(u^\Gamma)=\Gamma^4Q,
+\qquad
+Q_V(u^\Gamma)=-64\Gamma^3P.
+\tag{NIC.197}
+```
+
+For every `Gamma>=107 nu>0`, the exact critical-height balance and
+`(NIC.185)` give
+
+```math
+\boxed{
+R_\Gamma'(0)
+=2\Gamma^2(\Gamma P-\nu D)>0,
+\qquad
+P_H'(0)
+=\Gamma^3(\Gamma Q-64\nu P)<0.
+}
+\tag{NIC.198}
+```
+
+Thus `P_H` is decreasing at a smooth state where the total critical height is
+strictly increasing. Restricting the candidate arrow to record-growth states
+does not repair its sign.
+
+**Result of this section.** The four quadratic helical moments contain only
+the energy and signed-helicity invariants after the full two-dimensional
+transfer plane is tested. The cubic `P_H` is a lawful odd same-field current,
+but its exact evolution is unsigned globally and on strict record-growth
+states. This is an exact obstruction, not Gold closure. Any surviving Gold
+argument must use genuinely time-nonlocal same-trajectory information or
+richer same-field geometry than the instantaneous state
+`(E_+,E_-,R_+,R_-,P_H)`.
