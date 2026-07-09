@@ -286,6 +286,33 @@ DELETED: none.
 CERTIFICATE: Cycle 131 accepts raw fixed-class Lipschitz attainment and a.e. criticality for interior maximizers, but refutes cap-active = mint-jump as a deletion certificate; selector closure, cap-active/mint equivalence, multiplicity/threading routing, Row-1 inventory jumps, and range/event floors remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 132 pump-decay assembly
+
+Claude assembled the pump-decay theorem as one object: Lipschitz attainment,
+fixed-loop evolution, a.e. vortex-line criticality, advective cancellation,
+translation-identity viscous sign, Dini envelope, cap-active mint jumps, edge
+routing, and the Row-1 mint budget.
+
+Codex accepts the assembly only through the raw fixed-class envelope theorem.
+Steps 1--6 are coherent for the analytic object
+\(M(t)=\sup_{C\in K}\Gamma(C,t)\): between boundary events, an interior raw
+maximizer has enough variational structure to kill the advective term and use
+the accepted translation identity for the viscous sign.
+
+The deletion fails at steps 7--9. Those steps replace the analytic envelope by
+a selected serviceable range/inventory. The replacement is still unproved:
+cap-active \(=\) mint, exact Row-1 range removal, multi-traversal/threading/
+folding/selector routing, material exclusivity, threshold match, three-row
+event partition, and the C120 re-service floor all remain open. The narrowed
+surviving object is therefore the selected serviceable range/inventory theorem,
+not the completed pump-decay deletion.
+
+DELETED: none.
+CERTIFICATE: Cycle 132 accepts the raw fixed-class pump-envelope theorem through steps 1--6, but steps 7--9 still require the selected serviceable range/inventory theorem, including cap-active/mint equivalence, exact Row-1 range removal, event partition, material exclusivity, threshold match, and re-service floor.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
