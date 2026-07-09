@@ -5684,3 +5684,49 @@ Missing exact fact: a terminal binary on one finite-set member, or an exact
 same-selected-ledger map reducing cap-resident horn-B flux/enstrophy through
 the ladder, C271 absorption/no-reuse, and the clock/value-bound leaf to one
 surviving written object.
+
+## Codex gate on post-stall Cycles 354-356
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C354-C356
+offer no new identification beyond the standing finite terminal set.
+
+Codex accepts the cycles only as holding status. C355 displays the six-member
+finite remainder: TV-identity floor, sweep sign, rear fraction, composition,
+C271 absorption/no-reuse, and clock table. The display itself proves none of
+the members.
+
+DELETED: none.
+CERTIFICATE: Cycles 354-356 are accepted as holding cycles before the member attack, but no wall is deleted because they only restate the six-member finite remainder and do not prove or refute any ladder component, C271 absorption/no-reuse, or clock/value-bound leaf.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 354-356
+
+Physical sentence of the sticking wall: the same selected rear-cap field still
+needs one actual member certificate, and repeated display of the finite list
+does not move the velocity/enstrophy/current through one retained ledger.
+
+Attempts: C354 synchronized the finite remainder, C355 displayed the six
+members, and C356 held for the declared member attack.
+
+Missing exact fact: a terminal binary on one finite-set member.
+
+## Codex member attack after post-stall Cycle 356
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: the ladder
+tries to use the TV-identity floor as one terminal member of the one surviving
+written object.
+
+Codex executes the binary attack on that member. The attack succeeds as a
+refutation of terminality.
+
+The failing line is the conversion from boundary TV to one-way selected
+current. C223 records the co-moving stream-function TV identity as real
+\(\lambda_1\) progress, but also records that TV crossing has not been converted
+into one-way smoothed selected-current exchange in the re-seeded ledger. C272
+and C273 do not close that gap; they still spend membership-ledger admission,
+direction ownership, no-reuse/clock ownership, and transition-band
+selected-current mass.
+
+DELETED: none.
+CERTIFICATE: The post-C356 member attack refutes the TV-identity floor as a terminal ladder certificate: the co-moving stream-function TV identity may measure boundary oscillation and support \(\lambda_1\), but it does not by itself prove one-way smoothed selected-current exchange after cutoff/reseed, membership admission, positive/adverse selection, no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
