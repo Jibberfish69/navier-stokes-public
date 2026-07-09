@@ -1031,3 +1031,21 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 51 narrows GAP-4 to a canonical-family no-recount lemma plus a noncircular two-variable comparison lemma consuming an independently proved \(c_*\); the canonical selector closure, ODE coefficients, and independent \(c_*\) lower bound remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 52/53 coefficient gate accepts the sign-vs-magnitude
+  ontology but no deletion. Cycle 52 correctly separates the unsigned
+  parabolic coefficient bound from the signed service inequality, and Cycle 53
+  usefully points at self-neutrality as the own-tube length-control mechanism.
+  That still leaves an unproved coefficient theorem: the near-field
+  Biot-Savart split must write own-tube self-neutrality, curvature/core
+  regularization, other retained tubes, selector boundary pieces, and the C17
+  log inside the canonical family; the far-field excised split needs a
+  time-uniform same-fluid tail theorem, since Leray \(L^2\) is not a pointwise
+  \(\nabla u\) tail along the moving record. The \(c_*\) dependency graph is
+  acyclic in form, but the actual \(c_*>0\) lower bound still requires uniform
+  source absolute continuity, stable separating level-set area, band-volume
+  control, moving Kato commutators, and the route table. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 52/53 reduces GAP-0/GAP-4 to an unsigned coefficient theorem, an independently proved \(c_*\) theorem, and a written two-variable ODE; those exact facts remain unproved, so W3/W7/W8/W9 are not terminally reduced.
+REMAINING: W3, W7, W8, W9.
