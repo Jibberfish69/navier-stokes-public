@@ -2092,6 +2092,11 @@ C\min\{|p|,|q|\}.
 \tag{NIC.161}
 ```
 
+After dyadic localization, the normalized high--low cancellation symbol in
+`(NIC.160)` is uniformly Coifman--Meyer: every derivative of the helical
+projectors costs the corresponding inverse input frequency. Thus the pointwise
+gain in `(NIC.161)` is an operator bound, not only a symbol-size heuristic.
+
 Here is the endpoint summation. Let `v_j=Delta_j v` and
 
 ```math
@@ -2704,6 +2709,29 @@ P_H'(0)
 Thus `P_H` is decreasing at a smooth state where the total critical height is
 strictly increasing. Restricting the candidate arrow to record-growth states
 does not repair its sign.
+
+This strict record obstruction also transfers to `R^3`. Apply the localization
+in `(NIC.191)` to the finite triad carrier and choose a real nonnegative
+envelope. Carrierwise multiplier expansion gives
+
+```math
+\begin{aligned}
+L^{-3}P_H(u_L)&\longrightarrow c_3P>0,\\
+L^{-3}D(u_L)&\longrightarrow c_2D>0,\\
+L^{-3}Q_E(u_L)&\longrightarrow c_4Q<0,\\
+L^{-3}Q_V(u_L)&\longrightarrow c_3Q_V<0,
+\end{aligned}
+\qquad
+c_j>0.
+\tag{NIC.199}
+```
+
+For all sufficiently large `L`, first fix the signs in `(NIC.199)` and then
+choose the amplitude `Gamma` large enough relative to `nu`. The resulting real
+divergence-free Schwartz datum satisfies `R'(0)>0` and `P_H'(0)<0`. By
+continuity both inequalities persist on a short smooth interval; every time in
+a sufficiently short initial subinterval is a strict critical-height record
+relative to its initial value while the odd current decreases.
 
 **Result of this section.** The four quadratic helical moments contain only
 the energy and signed-helicity invariants after the full two-dimensional
