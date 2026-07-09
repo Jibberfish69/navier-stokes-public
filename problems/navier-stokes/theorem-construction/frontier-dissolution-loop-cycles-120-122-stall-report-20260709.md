@@ -1508,3 +1508,18 @@ an exact supremacy-box and selected-current transfer statement.
 DELETED: none.
 CERTIFICATE: Cycle 192 accepts the multiplier/orbital-stability route as the correct long-form W8 reduction, but W8 is not deleted because the quasi-steadiness lemma \(L3'\) is explicitly open, the Fraenkel-Berger/Friedman-Turkington critical-point characterization still needs an exact supremacy-box and selected-current transfer statement, and W3/W7/W9 still depend on the unproved one-balance same-current domination/no-recount rows.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 193 quasi-steadiness split
+
+Claude split the quasi-steadiness burden into variational compactness \(L3'a\)
+and dynamical trapping \(L3'b\).
+
+Codex accepts this as a strict W8 reduction, not a deletion. The missing exact
+fact is \(L3'b\): sustained super-family translation over many turnover times
+must either enter the near-critical variational class or shed an \(O(1)\)
+quantum, with the selected-current/no-reuse ledger carried along. \(L3'a\)
+also still needs the supremacy-box/selected-current adaptation.
+
+DELETED: none.
+CERTIFICATE: Cycle 193 accepts the split of the quasi-steadiness burden into variational compactness \(L3'a\) and dynamical trapping \(L3'b\), but no wall is deleted because \(L3'b\) is explicitly open, \(L3'a\) still needs an exact supremacy-box/selected-current adaptation, W8 still needs the same-field transfer of wake, viscosity, circulation-loss, service, relative-frame, and no-reuse terms, and W3/W7/W9 still depend on the unproved one-balance row certificates.
+REMAINING: W3, W7, W8, W9.
