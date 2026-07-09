@@ -6146,3 +6146,32 @@ transport focusing of capped swirl fuel, or its gauge-free three-dimensional
 analogue, with positive-part/selected-current ownership, component tracking,
 nesting, no-reuse, retained normalization, and viscous-drain comparison all
 assigned once.
+
+## Codex gate on post-stall Cycles 374-375
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C374-C375
+try to identify the W8 sign-selection wall with the production-free material
+loop ledger and, in gauge, with the same-interface selected-positive
+comparison. The attempt fails as a wall deletion because the identities locate
+the comparison but do not prove the recurrent sign inequality in the gauge-free
+selected ledger.
+
+C374's Kelvin-\(\nu\) material-loop identity is accepted as exact parent
+no-creation. No wall is deleted because general viscous loop exchange is
+unsigned, loop-family selection is W3, Lagrangian tracking is W7, and one-way
+recurrence exclusion remains W8.
+
+C375's selected-positive interface budget is accepted as an in-gauge
+same-surface identity on smooth epochs with a generic zero set, subject to
+axis/decay terms and the fixed measure convention. No wall is deleted because
+the recurrent sign of the service/drain comparison, positive-part ownership,
+zero-set/axis tracking, and the gauge-free Lagrangian-interface analogue remain
+unproved.
+
+DELETED: none.
+CERTIFICATE: Cycle 374 verifies Kelvin-\(\nu\) material-loop no-creation and unifies the in-gauge displays as restrictions of that parent fact only; it does not delete W8 because general viscous loop exchange is unsigned, and loop-family selection, Lagrangian tracking, and one-way recurrence exclusion remain W3/W7/W8 content.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 375 verifies the in-gauge selected-positive interface budget and same-surface service/drain comparison only; it does not delete W8 because the recurrent sign of \((\Gamma^2/r^4)n_z-\nu|\partial_n\eta|\), the positive-part ownership, the zero-set/axis tracking, and the gauge-free Lagrangian-interface analogue remain unproved.
+REMAINING: W3, W7, W8, W9.
