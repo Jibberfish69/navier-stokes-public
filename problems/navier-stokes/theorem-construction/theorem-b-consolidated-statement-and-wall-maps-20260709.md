@@ -585,3 +585,90 @@ step 4: in the axisymmetric gauge the decisive fixed-face object is a finite
 consistency exhaustion ending in emptiness-by-admission, not a UCP/Liouville;
 the Liouville remains only as the general-gauge residue after the admission
 chase. Nothing further claimed.
+
+## 15. THE SHELL KERNEL GROUND OUT (2026-07-09): exact contradiction — the minimal axisymmetric lock is empty
+
+Continuing §14 branch 3. Normal form (forced there): u = (−C(r)/r, u_θ(r),
+a(r)z), C(r) = ∫₀^r a(s)s ds (incompressibility exact), core a ≡ a₀ > 0
+(service), annulus a ≡ 0, shell = the transition (a' ≠ 0). Write β := C/r²,
+s := ½a'z. Then S_rr = β − a, S_θθ = −β, S_zz = a, S_rz = s,
+S_rθ = ½r(u_θ/r)', S_θz = 0; ω = (0, −a'z, (1/r)(ru_θ)').
+
+**Step 1 (L1 kills the shell swirl).** (Sω)_r = ½a'z[ω_z − r(u_θ/r)'] =
+a'z·(u_θ/r). ω is an eigenvector of S only if (Sω)_r = 0 (since ω_r = 0):
+on the shell (a' ≠ 0, z ≠ 0) this forces **u_θ ≡ 0 on the shell**. By
+continuity u_θ(r₁) = 0, so the core's net circulation is ZERO (the record
+core is circulation-neutral — a sheathed/dipolar vortex), and any annulus
+swirl must be carried by an outer ring with zero stretching eigenvalue.
+With u_θ = 0 the shell vorticity is purely azimuthal, ω = −a'z e_θ, an exact
+eigenvector of S with eigenvalue S_θθ = −β. L1 then holds. ✓
+
+**Step 2 (L2 reduces to one scalar equation).** With u_θ = 0, S is
+block-diagonal: θ-block (−β) ⊕ (r,z)-block M = [[β−a, s],[s, a]], and the
+axisymmetric slaved Hessian is block-diagonal the same way (H_rθ = H_θz ≡ 0),
+with (r,z)-block N = [[p_rr, p_rz],[p_rz, p_zz]]. Compute
+dev(M²) = (tr M)·dev(M) = β·dev(M). So for β ≠ 0,
+[S²,H] = 0 ⟺ [M,N] = 0 ⟺ dev(M) ∥ dev(N):
+
+```math
+a'z\,(p_{rr} − p_{zz}) \;=\; 2(β − 2a)\,p_{rz}. \tag{K}
+```
+
+(β ≡ 0 on the shell means zero net core stretch flux — service-degenerate,
+routed out.)
+
+**Step 3 (slaving pins Q).** Q = |S|² − ½|ω|²: the shear pieces cancel
+exactly (½a'²z² in both — the shear Q-neutrality), leaving
+**Q = (β−a)² + β² + a² = 2β² − 2aβ + 2a², z-independent.** So Δp = −Q(r).
+
+**Step 4 (the ansatz and the forced ODE).** Even-z minimal class
+p = φ(r) + ψ(r)z² (the configuration is z-even; higher even powers only add
+constraints — see caveat b): Δp = −Q forces ψ'' + ψ'/r = 0, i.e.
+ψ = k ln r + m. Matching powers of z in (K): the z³ row gives a'ψ'' = 0 ⟹
+k = 0 ⟹ ψ ≡ m constant and p_rz ≡ 0; the z¹ row gives φ'' = 2m on the
+shell. Combining with φ'' + φ'/r = −Q − 2m yields φ' = −r(Q + 4m) and hence
+
+```math
+rQ' = −Q − 6m. \tag{ODE-Q}
+```
+
+**Step 5 (the contradiction).** Q is not free — it is the profile readout.
+With rβ' = a − 2β (exact from C' = ar):
+rQ' + Q = 6β(a − β) + 2ra'(2a − β), so (ODE-Q) becomes
+
+```math
+ra'(2a − β) = −3m − 3β(a − β). \tag{★}
+```
+
+C¹ matching at the shell edges (a' = 0 at both):
+- inner (a = a₀, constant-a core ⟹ β = a₀/2): 0 = −3m − 3(a₀/2)(a₀/2)
+  ⟹ **m = −a₀²/4 < 0**;
+- outer (a = 0, β₂ = C₁/r₂² > 0): 0 = −3m + 3β₂² ⟹ **m = +β₂² > 0**.
+
+One constant, two signs. **No C¹ shell profile exists with a₀ > 0.**
+Combined with §14 branches 1-2: the axisymmetric, z-even-minimal,
+z-uniform-annulus locked configuration with positive service is EMPTY BY
+ADMISSION — exact algebra end to end; no viscosity, no Type-I, no Liouville,
+no estimate.
+
+**Caveats displayed (rule 14; each a named sub-case, none prejudged):**
+(a) C¹ edge-matching: smooth Leray fields give smooth profile readouts, but
+the normal form (u_z exactly a(r)z, z-uniform annulus) is the natural-class
+representative, not the general atom — this closes the MINIMAL class only.
+(b) Higher even-z tail (p with z⁴, …): each added power adds (K)-rows against
+the same profile — over-determination grows; not ground out.
+(c) w(r) ≠ 0 (z-independent meridional shear): s gains ½w', breaking the
+z-parity split of (K); one more profile function; unclaimed.
+(d) Sign-changing a(r) / β = 0 branches: service-degenerate; unclaimed.
+(e) Lock domain: the shell is inside the atom because the stretch supplier
+is in-atom by (r/R)⁴ co-location; this is a clause an adversary may attack.
+(f) Γ' ≠ 0 and the non-axisymmetric lock: open as before (§14).
+
+**Relation to Codex's constant-frame route:** complementary. Codex works the
+global implication (zero orientation + zero non-affine variation ⟹ constant
+frame ⟹ incompatible with finite energy). §15 closes the local transition:
+within the natural class, a locked core cannot even JOIN a locked annulus
+through any shell. Between the two, the fixed face is being squeezed from
+both ends. Bonus fact for the global route: L1 forces the locked record core
+to be circulation-neutral (Γ_core = 0), which may feed the finite-energy
+incompatibility argument directly.
