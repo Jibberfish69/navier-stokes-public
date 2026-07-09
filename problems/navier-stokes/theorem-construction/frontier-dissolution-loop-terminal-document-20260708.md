@@ -1079,3 +1079,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 56 consolidates the remaining proof burden into Theorems A, B, and C inside the shared certificate; this is an accepted roadmap, not a deletion or terminal reduction.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 57 B1/A2 sequencing gate accepts the dependency tree but
+  refutes the proposed A2 tail estimate as stated. B1 is correctly conditional
+  on Theorem A: uniform source absolute continuity can follow from uniform
+  local density bounds only after the coefficient/bootstrap theorem exists.
+  The A2 candidate uses Cauchy-Schwarz on the exterior Biot-Savart strain with
+  \(\|\omega(t)\|_{L^2}\), but Leray energy gives a uniform \(L^2\) bound for
+  \(u\), not for vorticity/enstrophy. A time-uniform \(\|\omega(t)\|_{L^2}\)
+  or exterior-vorticity-tail bound is exactly missing theorem content. The
+  non-tier condition \(|\omega|<\Omega/2\) does not give integrability on the
+  unbounded exterior. Thus A2 narrows to an exterior same-fluid strain-tail
+  theorem or a velocity/pressure localization estimate with cancellation,
+  intermediate-zone control, and W7/W8 admission. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 57 accepts A as the root dependency and B1 as conditional on A, but refutes the Leray-enstrophy A2 shortcut; A2 remains the exterior strain-tail theorem.
+REMAINING: W3, W7, W8, W9.
