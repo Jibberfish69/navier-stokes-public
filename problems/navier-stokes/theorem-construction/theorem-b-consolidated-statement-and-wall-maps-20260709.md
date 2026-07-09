@@ -481,3 +481,51 @@ candidate to exhibit, not a survivor to exclude; the datum's finite gathering
 reservoir is the natural starvation). Steps 1-2 and the bound are exact;
 step 3 is exact on the candidate by its own hypothesis; nothing further is
 claimed proven.
+
+## 13. THE JOINED GOLD MECHANISM (2026-07-09): Codex's tilt rows + Claude's drain — one ledger, verified both ways
+
+Codex's account (verified line by line: ω·Sω = a|ω|² − 3aω₃²; (Ω²)_{i3} =
+¼ω_iω₃; D_tα = −α² − e·He + νR_α at perfect alignment with spin dropping
+exactly; −Δp = Q; local crest contribution to e·He = −Q/3 > 0 at a
+vorticity-dominated crest) CORRECTS §12's frame choice: for the sheet strain
+S = diag(a, a, −2a) the in-plane gap is degenerate (λ₁ = λ₂ — the spin-2
+wall), so the obliqueness ledger must run on the TILT rows (i3). The
+counterturn fuel is specifically ω₃, the sheet-normal vorticity component.
+
+**The welded ledger (all pieces exact where stated):**
+1. STATIC TAX (Codex): ω₃ ≠ 0 costs production 3aω₃² instantaneously — the
+   only source of tilt-canceling spin is the compressive direction.
+2. DYNAMIC DRAIN (Claude, §12 rerun in the correct frame): in the held frame
+   dω₃/dτ = −2a ω₃/Ω vs in-plane growth +a — the fuel FRACTION decays at the
+   tilt-gap rate 3a. Taxed and drained; the only refill is the transverse H
+   turning — the canceled term. Valve welded shut, now in exact form.
+3. SELF-BRAKE AT THE LOCK (Codex): ω₃ = 0 ⟹ spin-free Riccati
+   D_tα = −α² − e·He: the held stretching rate decays under its own strain
+   unless an environment-held anisotropic Q-field pumps the well; the local
+   crest contribution has the WRONG SIGN (−Q/3 > 0).
+4. RECORD-NEUTRALITY OF THE LOCK (Codex): a fixed normalized geometry cannot
+   grow H_crit = ½‖u‖²_{Ḣ^{1/2}} (scale invariance); the straight scale-even
+   filament holds the well precisely because it never sets a record. The flat
+   2½D branch (Claude §12) is the complementary classical-regularity anchor.
+5. CURRENCY TYPING (Claude): the spent resource (ω₃ fraction — an angle) is
+   bounded and dimensionless (scale-neutral, passes the covariance filter);
+   its consumption is T-odd (drain + one-way orientation current), which is
+   why this mechanism can carry the sign where every magnitude bill failed.
+6. THE DICHOTOMY (Codex's display, adopted): with
+   ∫P dt = ΔH_crit + ν∫D dt — exact zero-bill lock ⟹ no critical-record
+   growth; critical-record growth ⟹ aim lapse ∨ nonzero signed same-field
+   participation. Record growth requires normalized-geometry change; the
+   change rearranges the Q-field holding the well; the slaved H either
+   de-aims or is tracked through a signed orientation/shape current that
+   fixed-region flux cancellation prevents from vanishing at packet
+   boundaries.
+
+**The shared remainder, one object in two projections:** Codex's "no
+infinitely recurrent return to the locked geometry" (temporal: lock → grow →
+re-lock cycling) = Claude's "no infinite comparable-scale supplier chain"
+(spatial regress) = the route-b material-time Liouville. Under §11 both are
+ADMISSION questions — the cycling history / supplier chain are candidates to
+exhibit in one finite-energy field, with the datum's finite gathering
+reservoir as the natural starvation. Codex's closing sentence adopted
+verbatim: the theorem formalizes the mechanism; it does not supply it. The
+mechanism is supplied above, jointly; the theorem remains OPEN.
