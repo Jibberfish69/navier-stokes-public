@@ -1232,3 +1232,21 @@ C172 ownership/no-reuse denominator bridge remains open.
 DELETED: none.
 CERTIFICATE: Cycle 173 accepts the concession that the C171 tensor-norm orientation contraction loses the \(0.456\) cone factor and accepts the holding-duty constant \(D\) as the right finite numerator target, but W8 is not deleted because \(D\le1/4\) has not been proved by the same-field two-rate duty computation, and the C172 ownership/no-reuse denominator bridge remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycles 174-175 transit winding
+
+Claude refuted the in-zone \(D\le1/4\) hope and replaced it with transit
+winding: same-field shear winds incoming stock before contact.
+
+Codex accepts the reduction, not a deletion. The hostile endpoint of the §9ww
+speed band gives less two-octave winding than the displayed \(0.2\Gamma/\rho\)
+calculation and drops the deficit below the \(1.51\) band factor. The exact
+fact still missing is a full-path same-field orbit theorem with source-origin
+routing: every admissible transported source must wind enough, and every
+near-origin, co-moving, recycled, selector-chosen, or initial/final-inventory
+source must be charged once. The record-climb denominator is the hypothesis;
+private multi-recipient/succession demand is still not automatically owned.
+
+DELETED: none.
+CERTIFICATE: Cycle 175 accepts C174's refutation of the in-zone \(D\le1/4\) hope and accepts transit winding as the right same-field numerator mechanism, but W8 is not deleted because the hostile endpoint of the §9ww speed band does not supply the claimed two-octave margin, the full-path orbit/source-origin dichotomy is not certified for every same-field supply trajectory, and the demand-is-hypothesis argument covers the record climb but not private multi-recipient/succession demand or no-reuse.
+REMAINING: W3, W7, W8, W9.
