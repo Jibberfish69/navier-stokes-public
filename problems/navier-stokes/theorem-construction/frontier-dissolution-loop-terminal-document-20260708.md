@@ -4575,3 +4575,74 @@ exact certificates. Thus C264 prices the residue only conditionally.
 DELETED: none.
 CERTIFICATE: Cycle 264 accepts the direction-separation fact that the co-spectrum term reads azimuthal \(m\)-content rather than radial Batchelor pile-up, but W8 is not deleted because harmonic diagonality is not certified for the actual non-axisymmetric courier beyond an unquantified \(O(\beta)\) leakage, the \(\Sigma_\sigma\) row is not proved to cover the \(m=1\) paired amplitude product, the higher-\(m\) \(O(\beta^3)\) hierarchy, re-seed uniformity, and tilt co-generation phase-lock are not exact certificates, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 265 double-suppression consolidation
+
+Claude consolidated C241-C265 and claimed the remaining co-spectrum term is
+tilt-squared and Re-suppressed, so the deviation complex is sweep input rather
+than a live Batchelor pile-up threat.
+
+Codex accepts this as a useful reduction. No deletion is paid. The physical
+correction is real: the co-spectrum residue reads azimuthal non-axisymmetric
+content, not radial Batchelor pile-up, so the five failed radial/Dirichlet
+mechanisms were pricing a larger phantom object. But the claimed
+\(I_{\mathrm{cospec}}\sim\nu\sigma_t^2\rho_0\cdot\text{geometry}\) estimate
+is not yet an attackable same-ledger inequality. The \(\Sigma_\sigma\) cap is
+a first-order tilt row; C265 still has to prove it covers the integrated
+\(\psi_1\rho_1\) pair product with the same normalization. The \(O(\beta)\)
+leakage, re-seed uniformity, rigid/non-rigid phase-lock split, and higher-\(m\)
+hierarchy are still order claims. C266 itself keeps the C265
+double-suppression prefactor inside the unevaluated \(H_{\mathrm{comp}}\)
+bucket.
+
+DELETED: none.
+CERTIFICATE: Cycle 265 accepts the double-suppression consolidation as a useful reduction of the deviation complex, but W8 is not deleted because the claimed \(\Sigma_\sigma\) coverage of the integrated \(\psi_1\rho_1\) pair product is not written as a same-normalization inequality, the \(\nu\sigma_t^2\) prefactor and \(0.083\) margin are not numerically certified in the selected currency, the \(O(\beta)\) leakage, re-seed uniformity, rigid/non-rigid phase-lock split, and higher-\(m\) hierarchy remain order-counting claims, and C266 places the C265 prefactor itself in the unevaluated \(H_{\mathrm{comp}}\) bucket alongside stranding \(C\), geometry evaluations, pending subchains, the correspondence table, sweep, and standing verdicts.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 263-265
+
+Physical sentence of the sticking wall: the co-spectrum obstruction has been
+narrowed to azimuthal non-axisymmetric paired content; direction separation
+says radial Batchelor pile-up is not the integrand, and C265 offers a
+tilt-squared/Re-suppressed price, but terminal wall typing still depends on
+pending exact constants, admission, no-reuse, and one-object sweep.
+
+Attempts: C263 killed the \(m=0\) bulk by azimuthal orthogonality; C264 supplied
+direction separation and proposed pricing by the standing tilt row; C265
+assembled the double-suppression consolidation and catalogued the deviation
+complex as sweep input.
+
+Missing exact fact: an attackable same-ledger inequality for the co-spectrum
+pair product, including \(\Sigma_\sigma\) normalization, leakage, re-seed,
+phase-lock, higher-\(m\), geometry, and margin constants, plus proof that every
+C241-C265 dependency converts into W3/W7/W8/W9 terminal typing without a pending
+gate.
+
+## Claude Cycle 266 one surviving written object
+
+Claude displayed one surviving written object and located W3, W7, W8, and W9
+inside its hypothesis manifest.
+
+Codex accepts C266 as the current reduction target. It is the right shape for
+the exit condition: a single written object with an explicit manifest, and each
+remaining wall is assigned a location inside that object rather than left as a
+loose route label.
+
+No deletion is paid. The manifest itself lists \(H_{\mathrm{soft}}\)
+(stranding \(C\)), \(H_{\mathrm{comp}}\) (geometry evaluations, ladder boundary
+pricing, and the C265 prefactor), and \(H_{\mathrm{gate}}\) (pending subchains
+C238-C265, the §9uuuuu correspondence table, the sweep, and the four standing
+verdicts). Earlier Codex gates also left the relevant ontology joints unpaid:
+C236 refuted the W7/W8 residual two-are-one as stated, C240 accepted
+telescoping but not the smoothed one-way floor, C244 localized the rear-loss
+floor to uncomputed/soft constants, C247 accepted the dichotomy but not horn-B
+pricing or arbitrary-data selected-courier admission, and C155 refuted the
+binary deadline dichotomy by intermediate service-fraction profiles. The
+unproved ontological assumption is that every arbitrary-data finite-time
+breakdown must present as this selected courier-tower object with no residual
+W3 floor-uniformity, W7 admission/closed-record, W8 order-locked payment, or W9
+clock-selector content outside the manifest.
+
+DELETED: none.
+CERTIFICATE: Cycle 266 accepts the one surviving written object as the current reduction target, but no wall is confirmed reduced to it because C266's own manifest leaves \(H_{\mathrm{soft}}\), \(H_{\mathrm{comp}}\), and \(H_{\mathrm{gate}}\) pending, the C236 correspondence table, C240 no-reuse/order-lock, C244 rear-loss floor, C247 arbitrary-data admission dichotomy, and C155 deadline/tower dichotomy remain under prior gates, and the exact ontology that every finite-time breakdown is captured by the selected courier-tower object without leftover W3, W7, W8, or W9 content is not proved.
+REMAINING: W3, W7, W8, W9.
