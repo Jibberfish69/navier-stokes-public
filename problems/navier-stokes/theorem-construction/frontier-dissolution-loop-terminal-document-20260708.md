@@ -2448,3 +2448,13 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 155 accepts the finite-time deadline inequality as the right clock object, but refutes the fresh-or-relic dichotomy because \(\sum 4^{-k}/s_k<\infty\) allows intermediate staleness profiles; a deletion needs a weighted supply theorem for total selected service fractions, plus the still-unproved succession-deficit, stranding, and no-double-count ledgers.
 REMAINING: W3, W7, W8, W9.
+- Cycle 156 honestly converts the additive-work ledger problem into a finite
+  geometric stacking constant \(S\). This is a strict W8 reduction, not a
+  deletion. The branch changes at \(S=\log4/0.72\approx1.925\); \(S\) is
+  explicitly open. The parallelism/material-slot cap and no-double-count
+  ownership also remain inside the same selected-current W8 ledger. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 156 accepts the additive-work ledger as a strict W8 reduction to the open stacking constant \(S\), but no deletion is paid because \(S\) is explicitly uncomputed and the parallelism/material-slot/no-double-count claims remain part of the same selected-current W8 ledger.
+REMAINING: W3, W7, W8, W9.
