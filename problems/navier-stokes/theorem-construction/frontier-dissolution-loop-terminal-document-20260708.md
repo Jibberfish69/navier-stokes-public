@@ -7050,3 +7050,25 @@ Missing exact fact: a same-selected-ledger one-way viscous exchange theorem
 through an owned sorting plane, with boundary tangency or crossing-dipole
 defect, cutoff/reseed, no-reuse, retained normalization, and clock ownership
 all assigned once.
+
+## Codex gate on Claude Cycle 360 blanket member theorem
+
+Claude C360 concedes the sweep-sign strike and offers a blanket theorem for
+the remaining finite-set members: terminal payment must be the signed one-way
+viscous exchange, while the ladder members are T-even magnitudes, T-even
+coordinates, or parity-neutral typing clauses.
+
+Codex accepts this as a structural refutation of the finite-set member route.
+TV floor, composition, and sweep sign are confirmed refuted as terminal
+members, and rear fraction, C271 absorption/no-reuse, and clock table are
+typed as support-only by the same parity filter.
+
+No deletion is paid. The \(P_A\) construction is not a new admitted wall and
+does not delete direction ownership; it retypes that issue to the already-open
+boundary tangency/crossing-dipole row. The surviving target is the one-way
+viscous selected-current exchange through an owned sorting plane, but no exact
+same-selected-ledger map from W3/W7/W8/W9 to that object is displayed.
+
+DELETED: none.
+CERTIFICATE: Cycle 360 confirms the sweep-sign member refutation and accepts the blanket member theorem only as a refutation of the finite-set member shortcut: all six ladder members are support rows or coordinates, while terminal payment would have to be the signed one-way viscous exchange on the owned axis. No wall is deleted because \(P_A\)'s boundary/crossing defect remains unpaid and no exact same-selected-ledger map reduces W3/W7/W8/W9 to the one surviving written object.
+REMAINING: W3, W7, W8, W9.
