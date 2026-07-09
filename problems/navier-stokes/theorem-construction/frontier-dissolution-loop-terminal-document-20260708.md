@@ -973,3 +973,24 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 48 narrows the moving-operator residue to a joint Taylor-commutator lemma plus an explicit route table for frame, curvature, cutoff, and branch-exit terms; this is unproved and does not reduce all open walls by itself.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 49 fixed-cover admissibility gate accepts the composition as
+  a topology only after the scalar current exists. Cross-wall identification
+  fails: W3/W7/W8/W9 do not reduce to C49, because fixed-face cancellation is
+  automatic only for a single-valued locally integrable current \(J\), while
+  the local integrability and source typing of
+  \(J=u|\omega_\phi|-\nu\nabla|\omega_\phi|\) still depend on §0c's
+  scale-critical moving-tube bound and §3c's joint Taylor/commutator route
+  table. The dependency graph \(0c\to3c\to1a\) is acyclic but conditional; §1a
+  cannot prove the admissibility and route typing it assumes. Fixed partitions
+  remove moving-boundary terms, but the moving selector remains inside
+  \(\omega_\phi=\widehat\phi(x,t)\cdot\omega\), so \(\partial_t\widehat\phi\),
+  cutoff, branch-exit, and selector-concentration terms still need paid-source
+  or route-out typing. The "only structural residue" claim is accepted only for
+  GAP-0's fixed-cover admissibility subproblem; the whole certificate still has
+  independent GAP-4 moving-surface import/Radon-Nikodym and GAP-5
+  stock-orientation/defection structural clauses, plus GAP-3 route/coarea
+  constants. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 49 narrows GAP-0 to a named scale-critical cylinder hypothesis for fixed-cover admissibility, but the scalar current, route table, GAP-4 currency theorem, and GAP-5 action theorem remain unproved, so no terminal reduction of W3/W7/W8/W9 is certified.
+REMAINING: W3, W7, W8, W9.
