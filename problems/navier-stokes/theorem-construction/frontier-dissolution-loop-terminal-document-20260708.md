@@ -1254,3 +1254,16 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 70 reduces residence to a precise fork: an all-data proof of the fixed-point condition or an unconditional episode-distribution lemma, with service charging and \(G_R\) no-recount still unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 71 distribution lemma is the right unconditional tine of the
+  Cycle 70 fork, but it is not proved. Smooth initial data having no intrinsic
+  fine-scale stock is only an initial-data fact; it does not bound fine-scale
+  stock manufactured later unless the retained current already has the
+  no-creation/no-recount theorem. The claimed \(N_n\le y_nN_{n-1}\) recurrence
+  still needs an exact parent-child episode map, an invariant episode count
+  under recycling and repeated crossings, the C38/C39 pump-extinction gates in
+  the same current, pricing or exclusion of the Cycle 68 harmonic-strain mode,
+  and W7/W8 \(G_R\) admission. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 71 names the needed episode-distribution lemma; the parent-child map, no-recount current, pump-extinction transfer, and \(G_R\) admission remain unproved.
+REMAINING: W3, W7, W8, W9.
