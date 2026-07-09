@@ -2022,3 +2022,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 123 refutes the proposed two-are-one deletion: feed-thickness may reduce to the §9h size-window plus off-scale routing/decomposition theorem, but material-family admissibility, viscous TV contraction/decay, and event-currency transfer remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 124 range-not-TV reduction is accepted only as a sharper target
+  for the viscous clause. Range is a better serviceable stock only after the
+  C120 event floor and C119 recurrence are rewritten for single-signed range
+  stock, with alternating-sign/dipole feed routed to
+  \(\sigma\)-weighted/subthreshold or another paid remainder. The claimed
+  range maximum principle also needs a general foliation-ellipticity theorem:
+  the Kelvin defect line integral must become a transverse elliptic operator
+  on the material-family circulation plus controlled curvature, cutoff,
+  selector, and boundary terms. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 124 reduces the viscous TV clause to a serviceable-range maximum-principle theorem plus single-sign/remainder routing, retained-hull admissibility, and feed-thickness/§9h routing; those exact facts remain unproved.
+REMAINING: W3, W7, W8, W9.
