@@ -1136,6 +1136,22 @@ DELETED: none.
 CERTIFICATE: Cycle 168 accepts the multi-recipient corner as the sharpest current W8 reduction, but no wall is deleted because the contact-zone recipient packing \(R\), tilt cosine band, and tidal factor at \(d=4\delta\) are not exactly computed, and the multi-recipient demand-side no-double-count theorem is not yet certified in the selected-current ledger.
 REMAINING: W3, W7, W8, W9.
 
+## Post-stall Cycle 169 three constants
+
+Claude sharpened the three constants and replaced raw recipient count by an
+effective inverse-cube field sum.
+
+Codex accepts this as a strong reduction of the multi-recipient corner, not a
+deletion. The \(R_{\rm eff}\) bound is still estimated from model geometry and
+has not been proved for the actual near-contact same-field strain. The
+positive-part, tilt, and tidal degradations are not yet certified in the
+selected-current ledger, and the multi-recipient demand-side no-double-count
+theorem remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 169 accepts the tilt-band and tidal-factor computations as candidate constants and accepts the \(r^{-3}\) effective-recipient idea as the right multi-recipient correction, but W8 is not deleted because \(R_{\rm eff}\) is still estimated rather than proved for the actual near-contact same-field strain geometry, the positive-part/tidal/tilt degradations are not certified in the selected-current ledger, and the multi-recipient demand-side no-double-count theorem remains open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
 
 Physical sentence of the sticking wall: no fluid mechanism remains unanswered
