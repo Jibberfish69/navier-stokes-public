@@ -299,3 +299,101 @@ orientation equation drives `omega dot e` to zero, `(CAR.20)` contradicts
 positive normalized service without any pressure-Hessian UCP. The remaining
 Gold burden is still the passage to a global `L^2` limit, or an exact charge for
 loss of tightness, frame constancy, normal-vorticity decay, or service.
+
+## 7. Rigidity-generated packet gap
+
+The global kernel theorem yields a uniform gap once the retained packet is
+order-locked and spatially tight. Fix
+
+```math
+0<\kappa_-<\kappa_+<\infty,
+\qquad R<\infty,
+\qquad 0\le\eta<1,
+\tag{CAR.21}
+```
+
+and let `K` be the family of divergence-free `u in L^2(R^3)` satisfying
+
+```math
+\operatorname{supp}\widehat u
+\subset
+\{\kappa_-\le|\xi|\le\kappa_+\},
+\qquad
+\|u\|_2=1,
+\qquad
+\int_{|x|>R}|u(x)|^2\,dx\le\eta.
+\tag{CAR.22}
+```
+
+For `e in S^2`, define the strong-sheet defect
+
+```math
+\mathcal D_e(u)^2
+:=
+\|\omega\cdot e\|_2^2
++\|\Pi_{e^\perp}Se\|_2^2.
+\tag{CAR.23}
+```
+
+Then there is a constant
+
+```math
+c_{\rm sheet}
+=
+c_{\rm sheet}(\kappa_-,\kappa_+,R,\eta)>0
+\tag{CAR.24}
+```
+
+such that
+
+```math
+\boxed{
+\inf_{u\in\mathcal K}
+\inf_{e\in S^2}
+\mathcal D_e(u)
+\ge c_{\rm sheet}>0.
+}
+\tag{CAR.25}
+```
+
+Proof. If `(CAR.25)` failed, choose `u_n in K` and `e_n in S^2` with
+`mathcal D_{e_n}(u_n) to 0`. After a subsequence, `e_n to e`. The frequency
+annulus gives a uniform `H^1` bound, so Rellich compactness gives
+
+```math
+u_n\longrightarrow u
+\quad\text{strongly in }L^2(B_R),
+\tag{CAR.26}
+```
+
+and weakly in global `L^2`. The tightness row gives
+
+```math
+\|u\|_{L^2(B_R)}^2
+\ge1-\eta>0.
+\tag{CAR.27}
+```
+
+The band-limited derivative operators are bounded on `L^2`; weak passage and
+`e_n to e` give
+
+```math
+\omega[u]\cdot e=0,
+\qquad
+\Pi_{e^\perp}S[u]e=0.
+\tag{CAR.28}
+```
+
+But `(CAR.20)` forces `u=0`, contradicting `(CAR.27)`. This proves the gap.
+
+The constant is produced by compactness plus nonexistence, not by a direct
+magnitude estimate. It therefore has the rigidity class required by the Gold
+`c_0` reframe. On an order-locked, spatially tight normalized record packet,
+the strong sheet cannot make both its normal-vorticity fuel and its strain-axis
+tilt vanish. A surviving packet must carry a uniform amount of at least one of
+those two same-field defects.
+
+This closes the strong-sheet zero-defect kernel on that packet class. Gold still
+requires the packet hypotheses to be obtained from every arbitrary-data record
+or charged on failure, and requires the defect in `(CAR.23)` to enter a finite
+one-way four-body/current budget. The gap itself does not prove that storage.
