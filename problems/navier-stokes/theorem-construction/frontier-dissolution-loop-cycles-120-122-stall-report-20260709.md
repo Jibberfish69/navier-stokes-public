@@ -2771,3 +2771,28 @@ sweep/no-reuse remain open.
 DELETED: none.
 CERTIFICATE: Cycle 248 accepts the harmonic-attractor decomposition as a useful reduction of the first-order \(\theta\)-residue to a deviation-smoothing inequality, but W8 is not deleted because that smoothing inequality is expressly unproved for the actual transported selected density with band cutoff, axis/singularity exclusion, boundary terms, and Kato row in one ledger, the exactly wound attractor is cited rather than newly certified for the actual field, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 249 deviation-smoothing Grönwall route
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C249 tries
+to identify the C248 deviation-smoothing inequality with a Grönwall
+\(H^1\)-energy estimate, but it still does not identify W8 with W3/W7/W9
+because the actual \(\psi\) equation, boundary ledger, stock budget, and
+constants are not certified.
+
+Codex accepts C249 as the right analytic route for the remaining first-order
+orientation residue.
+
+No deletion is paid. The actual \(\psi\) equation has not been derived with
+selector, band cutoff, axis/singularity treatment, pressure/strain terms, and
+boundary motion typed in the selected ledger. The \(|\nabla u|\le C\Omega\)
+clock bound, \(T_\partial\) band-budget inequality, and stock-to-arrivals
+budget are not certified in the same currency, and the clock constants are
+unevaluated. W7 closed-record passage, W7/W8 same-selector admission, Horn-B
+rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins,
+layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and
+sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 249 accepts the Grönwall \(H^1\)-energy route as the right analytic reduction of the deviation-smoothing inequality, but W8 is not deleted because the actual \(\psi\) equation has not been derived with selector, band cutoff, axis/singularity treatment, pressure/strain terms, and boundary motion typed in the selected ledger, the \(|\nabla u|\le C\Omega\) clock bound, \(T_\partial\) band-budget inequality, and stock-to-arrivals budget are not certified in the same currency, the clock constants are unevaluated, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
