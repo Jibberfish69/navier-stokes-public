@@ -946,3 +946,30 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 47 narrows GAP-3 to moving-operator Kato plus uniform source absolute-continuity, separating-class area, band-volume, and route-table constants; these facts are not proved or carried through the whole-field Kato-current domination theorem.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 48 moving-operator Kato gate accepts the correct next
+  mechanical target but no deletion. Cross-wall identification fails:
+  W3/W7/W8/W9 do not reduce to the C48 moving-operator skeleton alone, because
+  it addresses the GAP-0/GAP-3 Kato machinery while GAP-4 moving-surface
+  import/Radon-Nikodym currency, GAP-5 stock-orientation action, W3 rung
+  uniformity, and fixed-cover admissibility remain separate unproved clauses of
+  the displayed whole-field theorem. The accepted part is that Kato itself is
+  coordinate-free once \(\omega_\phi\) is a lawful scalar. The open certificate
+  is the moving projection: \(f=\widehat\phi\cdot\omega\) must have the required
+  regularity uniformly through W7 limits, and the commutator
+  \[
+    \nu\Delta(\widehat\phi\cdot\omega)
+    =\widehat\phi\cdot\nu\Delta\omega
+     +2\nu\,\nabla\widehat\phi:\nabla\omega
+     +\nu\,(\Delta\widehat\phi)\cdot\omega
+  \]
+  has singular coefficients before a joint Bishop-frame Taylor cancellation is
+  proved. The fact \(\omega_\phi=O(\rho)\) controls the scalar value, not
+  automatically the derivative commutators, curvature/cutoff terms, or weak
+  branch exits. The generic "Route" and "tilt-currency squared" labels must be
+  replaced by an explicit table assigning each term to \(G_{\rm paid}\),
+  \(\mu_K\), import, or route-out. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 48 narrows the moving-operator residue to a joint Taylor-commutator lemma plus an explicit route table for frame, curvature, cutoff, and branch-exit terms; this is unproved and does not reduce all open walls by itself.
+REMAINING: W3, W7, W8, W9.
