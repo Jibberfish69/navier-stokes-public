@@ -863,3 +863,46 @@ odd (it is a signed deepening, direction fixed by the record's growth), and
 the CWS obstruction. Status: candidate definition, NOT a theorem; the
 domination and original-data storage bound remain the open Gold theorem as
 Codex states it.
+
+## 20. THE SADDLE-DEEPENING CURRENT AS AN EXACT NS IDENTITY (2026-07-09): the formula for Codex's gate
+
+Declared data (preannounced by the tower per (H2)): the record axis e and
+the atom weight φ_A. Define the axis-deviatoric Riesz readout
+𝒫_e := (e⊗e − I/3) : ∇²(−Δ)⁻¹, so that the saddle depth along the axis is
+∫φ_A (e·H^{dev}e) = ∫φ_A 𝒫_e[Q] (+ atom-boundary corrections from φ_A).
+
+**The exact Q-evolution (every term NS-native):**
+
+D_t Q = −2 tr(S³) − (3/2) ω·Sω − 2 tr(SH) + νΔQ − 2ν|∇∇u|²-row,
+
+derived by differentiating Q = ∂_i u_j ∂_j u_i along NS; the cubic split
+uses tr((∇u)³) = tr(S³) + (3/4) ω·Sω exactly.
+
+**The saddle-deepening current (the identity row):**
+
+𝒥_{e,A}(t) := d/dt ∫ φ_A (e·(Hess p)e + Q/3) dx
+= ∫ φ_A 𝒫_e[ −u·∇Q − 2tr(S³) − (3/2)ω·Sω − 2tr(SH) + νΔQ − 2ν|∇∇u|²-row ] dx
+  + (φ_A-transport row for the moving atom).
+
+**T-parity table of the source rows (u → −u, t → −t):** −u·∇Q odd;
+−2tr(S³) ODD; −(3/2)ω·Sω ODD; −2tr(SH) ODD (S odd, H even); viscous rows
+even. The current is genuinely time-oriented — unlike J_M (CWS.3), which is
+a spatial identity, 𝒥 is BY CONSTRUCTION a d/dt of an NS readout with its
+sources displayed in the time evolution (CWS.1's side of the separation).
+
+**Two structural facts carried by the formula:** (i) on the irrotational
+affine core, the cubic row contributes 𝒫_e[−2tr(S³)] with
+tr(S³) = −6a³ < 0 for axial stretch — the core's own Vieillefosse
+self-amplification appears as POSITIVE saddle-deepening: the record's
+growth engine and the payment current are the same displayed row, oriented
+together; (ii) remote tuning of 𝒥 is kernel-suppressed: 𝒫_e's kernel
+against a source at distance R from the atom decays as the co-location
+scaling — a tuner must co-locate to touch the current, re-entering the
+(H4) admission rows.
+
+**What remains (the Gold theorem, unchanged in content, now with one
+formula):** the signed per-rung lower bound on ∫𝒥 dt over the locked
+tower's rungs (domination of the record's saddle demand a²-per-rung by 𝒥
+against the free rows), and the original-data storage bound
+Σ_rungs (deepening) ≤ budget(u₀). OPEN. This section supplies the exact
+object those two statements are about; it proves neither.
