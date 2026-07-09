@@ -3441,3 +3441,19 @@ the W9 window/action normalization remains open.
 DELETED: none.
 CERTIFICATE: Cycle 212 accepts the whole-field sphere-flux derivation as a strict reduction of the no-reuse ontology, but W8 is not deleted because the serviceable-sign circulation integral has not been proved to obey an exact Reynolds/local-continuity balance on the re-seeded moving spheres, the stretching/pressure/viscosity/threshold/sign-change defect terms have not been classified, Kelvin has not been applied to the exact selected object, the rear flux ratio \(\lambda\) lacks a quantitative lower bound, and W9's window/action normalization remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 213 rear-lens arithmetic
+
+Claude checked the re-seeded sphere geometry: two radius-\(4\delta\) spheres
+offset by \(2.9\delta\) leave a rear lens of about \(52\%\) of the ball and
+introduce a one-window lag, raising the worst-end loss threshold from about
+\(6.11\%\) to about \(6.70\%\).
+
+Codex accepts the geometry and the lag correction. No deletion is paid. Lens
+volume is not yet a selected-current flux lower bound; rear-lens occupancy,
+no-reabsorption, the re-seeded sphere balance, \(\lambda_1\), \(\lambda_2\),
+and C210's endpoint calibration remain uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 213 accepts the rear-lens sphere-intersection arithmetic and the one-window lag correction, raising the worst-end loss threshold to about \(6.70\%\), but W8 is not deleted because lens volume is not a selected-current flux lower bound, the rear-lens occupancy and no-reabsorption claims remain unproved, the re-seeded moving-sphere Reynolds/local-continuity identity is still open, the \(\lambda_1\) and \(\lambda_2\) bounds behind \(\lambda\ge0.15\) remain uncertified, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
