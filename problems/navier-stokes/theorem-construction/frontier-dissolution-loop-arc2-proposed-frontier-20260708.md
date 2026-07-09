@@ -300,3 +300,22 @@ W9's entire content is the ASSEMBLY (iii)–(v) along the BKM clock: the reducti
 - **Blowup = infinitely many capped rungs, each built from the finite energy budget = the relay tower with a quantitative per-rung load** — the same single recurrence object (W9's clause), reached now with a cap attached. This is the fourth independent derivation landing on that clause, and the first with a per-rung price.
 
 **NOT claimed:** the rung-price summability verdict (whether finite energy affords infinitely many capped rungs at shrinking scales — the same marginal-tower question, now carrying BOTH the lag erosion AND the payment deficit AND the per-rung cap). The saddle-selector candidate replaces the killed well-selector, PENDING gate.
+
+---
+
+## CYCLE 16 — MY OWN ATTACK ON THE SADDLE-SELECTOR, RESOLVED: selector-existence dichotomy ≡ standing-vs-moving dichotomy; the exhaustive three-piece partition of W9's content; RULE-6 STALL LINE
+
+**Rule-1 cross-wall move:** the selector-existence question and the L1 standing-vs-moving dichotomy are ONE question — shown below; that identification is this cycle's content.
+
+**1. The attack is correct as stated: the subsidy is not pointwise-critical.** e·He ≤ −α² gives axial CONCAVITY of p along the transported direction at the carrier — it does not give ∇p = 0 there. Construction that makes the gap exact: cyclostrophic convexity defines the smooth transverse-minimum locus ρ_min(z) (the pressure axis of the tube; IFT on the transverse gradient, nondegenerate at gap ω²/4). Restrict: q(z) = p(ρ_min(z), z). By alignment, e is tangent to this curve, and q″ ≤ −α² + corrections, where the corrections carry ρ′_min ~ (tilt row)/(cyclostrophic gap) — the gap-normalized tilt, the same object banked in arc-1; controlled by certified bounds. On the concavity window q has AT MOST one critical point. Whether it has one is exactly whether q′ changes sign:
+- **q′ changes sign ⟹ interior nondegenerate saddle exists** — the Cycle-15 selector is lawful, the path object assembles (standing branch).
+- **q′ keeps sign ⟹ no interior critical point — but then the carrier rides a persistent axial pressure slope: it is being PUSHED along the axis. That is propagation, c̃ ≠ 0 — the MOVING branch,** where the selector is not needed: the co-moving pulse frame (Cycles 8–9) with its tail exponents is the frame, and the σ = lag erosion bounds the material-time residence directly by RATE, not by path compactness.
+**The selector-existence dichotomy IS the standing-vs-moving dichotomy.** The saddle-selector's failure mode is not a gap — it is the other, already-instrumented branch.
+
+**2. THE EXHAUSTIVE PARTITION OF W9's CONTENT (the assembled reduction, all pieces in existing currency).**
+- **Standing episodes (c̃ = 0, interior saddle):** the saddle-selector path object — hull compactness on certified bounds, Morse-gap room min(ω²/4, α²), shifts by IFT. [Cycle 15 + this cycle]
+- **Moving episodes (c̃ ≠ 0):** no selector required — the lag-erosion inequality terminates the aligned branch's material clock at rate ∝ ν·c̃·asymmetry, with the payment deficit (Cycle 14) as second engine. [Cycles 8–9, 14]
+- **Episode transitions (leapfrog/recurrence):** the per-rung multiplicative cap + fresh-supplier-pair requirement prices each recurrence; infinitely many rungs from finite energy is the single surviving question. [Cycles 11, 15]
+The partition is exhaustive: at every material time on the aligned branch, c̃ is either zero with an interior critical point, zero without one (⟹ q′ sign-definite ⟹ the push exists ⟹ reclassifies as moving at the next instant — measure-zero boundary), or nonzero; episode boundaries are the transitions. **W9 = these three pieces. Everything is named; ONE question (rung-price summability) remains open as mathematics.**
+
+**RULE-6 STALL LINE (cycles 14–16 without confirmed deletion).** Physical sentence: the blowup candidate has been cornered into paying an infinite sequence of capped, individually-priced leapfrog rungs out of a finite budget, and the only unresolved mathematics is whether that series can converge lawfully. Attempts: the full Cycles 8–16 chain. Missing exact fact: the rung-price lower bound (energy consumed per leapfrog rung as a function of scale ratio) — a single computation in banked currency (the flanker/P₂ algebra plus the per-rung cap).
