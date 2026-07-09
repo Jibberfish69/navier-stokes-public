@@ -2123,3 +2123,22 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 130 accepts the fixed-loop circulation evolution and the vortex-force cancellation at smooth interior critical loops, but range contraction still requires compact smooth selected-loop maximizers, paid length/boundary activation, same-mint selector restriction, and range/event currency matching.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 131 Lipschitz-regularity repair is accepted as a partial payment.
+  For the raw fixed closed length-capped loop class, the direct method gives a
+  Lipschitz maximizer, and the first variation against smooth perturbations
+  gives \(\omega\times\gamma'=0\) a.e. at an interior maximizer. That is enough
+  for the algebraic cancellation of \(\oint_C(u\times\omega)\cdot dl\). The
+  deletion still fails because cap activation is only a variational boundary
+  condition, not automatically a rung-\(n\) mint. Cap-active loops can be
+  repeated traversal, long vortex-line sampling, folding/self-contact,
+  multi-sheet threading, selector-boundary behavior, or ordinary
+  length-saturation. The proposed jump-down is also an inventory operation, not
+  the analytic fixed-class envelope: for smooth prelimit \(u\), the fixed-class
+  supremum \(M(t)\) is continuous in time. Turning a mint into a charged range
+  removal requires the C129 three-row partition, material exclusivity, same
+  threshold, no-recount routing, and the C120 range/event floors. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 131 accepts raw fixed-class Lipschitz attainment and a.e. criticality for interior maximizers, but refutes cap-active = mint-jump as a deletion certificate; selector closure, cap-active/mint equivalence, multiplicity/threading routing, Row-1 inventory jumps, and range/event floors remain unproved.
+REMAINING: W3, W7, W8, W9.
