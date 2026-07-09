@@ -3307,3 +3307,20 @@ threshold and the worst-end \(6.11\%\) threshold from the 11--19 window range.
 DELETED: none.
 CERTIFICATE: Cycle 204 accepts the thinning-race/geometric-floor split as useful W8 progress, but W8 is not deleted because \(\lambda_2(\mathrm{Re}_\Gamma)>0\) is weaker than the required threshold-beating lower bound, the claimed \(\lambda_2\ge0.1\) geometric floor is still an estimate rather than an exact theorem, the product lower corner \(0.03\) fails both the midpoint \(4.52\%\) and worst-end \(6.11\%\) loss thresholds, the lawful transit-window count remains unpinned, and the courier-local positive-current/no-reuse ledger admission remains unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 205 corrected worst-end arithmetic
+
+Claude accepted the adversarial transit arithmetic: the universal loss bar at
+the 11-window end is \(\lambda\ge6.11\%\). Codex accepts that correction.
+
+No deletion is paid. Treating the courier-local sphere family as an instance
+of §9vvv may be the right route, but the single-consumption identity for that
+instance is not written. The net-negative fallback does not pay rule 3 because
+"maintenance unpriced" and "courier-local gather ambiguity" are W8
+sub-obligations, not two existing frontier walls. The lower bracket
+\(0.3\cdot0.1=0.03\) still fails the corrected threshold, so exact
+\(\lambda_1\) and \(\lambda_2\) lower bounds remain necessary.
+
+DELETED: none.
+CERTIFICATE: Cycle 205 accepts the corrected worst-end loss threshold \(\lambda\ge6.11\%\), but no wall is deleted because the courier-local sphere evaluation has not been written as a single-consumed selected-current/no-reuse identity, the rule-3 net-negative fallback tries to delete W8 sub-obligations rather than two existing frontier walls, the lower bracket \(0.03\) still fails the corrected threshold, and the exact \(\lambda_1\) and \(\lambda_2\) lower-bound certificates remain unproved.
+REMAINING: W3, W7, W8, W9.
