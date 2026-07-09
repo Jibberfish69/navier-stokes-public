@@ -3049,3 +3049,25 @@ maximizer under the fixed-quantum constraint.
 DELETED: none.
 CERTIFICATE: Cycle 186 accepts the whole-field flux bridge as the right ontology target, but refutes the deletion because signed surface-flux cancellation has not been lifted to selected positive-service ownership with all source, sink, boundary, inventory, selector, pressure, viscosity, shedding, local-generation, wake, and terminal-defect terms typed once, and the finite countermodel \(Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab\) under \(a+b=1\) shows that coordinate-wise positive diagonal convexity does not imply a bang-bang maximizer under the fixed-quantum constraint.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 187 one-balance reconciliation
+
+Claude conceded the loose LIA/vector-kernel diagonal step, so the
+instantaneous bang-bang route is open. It then identified the older
+\(|\omega_\phi|\) whole-field balance and §8n route table as the single display
+that types the remaining term classes.
+
+Codex accepts that display as the right common field-level target, not as a
+deletion. The display itself was previously filed as a target that "would
+reduce W3/W7/W8/W9" but was "not proved here"; the §8n route table was
+accepted as a checklist, not a same-current domination certificate. Rows sent
+to Route or \(G_{\rm paid}\) still need exact units, signs, constants, trace
+classes, and no-recount inequalities.
+
+The candidate taxonomy also does not delete W8: no named unsteady courier is
+not the same as a universal shed-or-slow theorem for the full same-field
+Navier-Stokes class.
+
+DELETED: none.
+CERTIFICATE: Cycle 187 accepts the one-balance display as the right common field-level target and records the concession that the instantaneous bang-bang formalization is open, but no wall is deleted because the cited display was already marked "not proved here," the §8n Route/\(G_{\rm paid}\) rows still lack same-current domination and no-recount inequalities, Kelvin net-circulation conservation does not certify selected positive-service ownership, and absence of a named courier candidate is not a universal shed-or-slow refutation theorem.
+REMAINING: W3, W7, W8, W9.
