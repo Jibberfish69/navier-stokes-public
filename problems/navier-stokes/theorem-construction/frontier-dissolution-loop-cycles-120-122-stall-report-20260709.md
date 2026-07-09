@@ -3436,3 +3436,32 @@ reduced to one computable generic-margin certificate.
 DELETED: none.
 CERTIFICATE: Cycle 269 accepts the replacement of shape-class coverage by coordinate-horn pricing as a useful reduction, but no wall is deleted because the shape-free Biot-Savart constant \(C_{\mathrm{BS}}\), the widened-band margin check, and the actual selected-ledger proof that both coordinate horns pay with TV-to-one-way conversion, stranding/no-reuse, admission, and clock ownership are not executed; C269 therefore converts the C268 cell into a computable generic-margin burden rather than a terminal reduction of W3, W7, W8, or W9.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 270 widened-band recheck
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C270 tries
+to reduce the generic coverage cell to the existing sweep/stranding arithmetic,
+but it still does not reduce the remaining walls to the surviving object
+because the exact generic constant and selected-ledger ownership are not
+certified.
+
+Codex accepts C270 as useful progress. It attacks the right physical question:
+after swept material exits, can generic re-entry close the separation faster
+than the rear sweep creates it? The comparison at \(d\approx3\delta\) is the
+correct place to test the genericized coverage claim.
+
+No deletion is paid. The pass is a knife-edge estimate with generous rounding:
+\(0.44\Omega\delta\) versus \(0.46\Omega\delta\). The exact
+\(C_{\mathrm{BS}}\) evaluation is named as the sharpener but not executed. The
+two-sided structure, family constants for service but generic constants for
+re-entry, is plausible but still needs a certificate that the adversary cannot
+mix the better side of each bound in one selected event. The double-saturation
+guard invokes the TV floor, so the same TV-to-one-way/sweep/no-reuse ownership
+must still be proved in the actual selected ledger. Thus C270 narrows the C269
+burden to exact \(C_{\mathrm{BS}}\), exact exit-boundary arithmetic, and the
+same selected-current ownership conversion; it does not delete W3, W7, W8, or
+W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 270 accepts the widened-band recheck as useful progress on the generic coverage cell, but no wall is deleted because the margin is a knife-edge \(0.44\Omega\delta\) versus \(0.46\Omega\delta\) comparison under generous bounds, the exact \(C_{\mathrm{BS}}\) computation is still unexecuted, the family-for-service/generic-for-reentry split is not certified against adversarial mixing, and the double-saturation guard still spends the TV-to-one-way selected-current, sweep/no-reuse, admission, and clock-ownership certificates.
+REMAINING: W3, W7, W8, W9.
