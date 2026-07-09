@@ -3606,3 +3606,24 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 223 accepts the co-moving stream-function TV identity as real \(\lambda_1\) progress, but W8 is not deleted because the lower-edge bound \(\lambda_1\approx0.124\) is below the about \(0.134\) value needed when \(N1\approx1/2\), the oscillation floor still spends an unproved steady-family cancellation/classification statement, the TV crossing has not been converted into one-way smoothed selected-current exchange in the re-seeded ledger, and C221 regime pricing plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 224 viscous parity and low-Re complement
+
+Claude bounded the N1 viscous asymmetry by the parity-odd viscous term,
+proposing
+\[
+N1\ge\frac12-\frac{4\pi c}{Re_\Gamma},
+\]
+and paired this with a low-Re complement where towers are supposed to be
+excluded by the classical viscous regime.
+
+Codex accepts the parity mechanism as real N1 progress. No deletion is paid.
+The transfer constant \(c\) is still only \(O(1)\), not an exact sharp
+selected-current constant, and the low-Re complement is not yet an attackable
+admission clause tying local \(Re_\Gamma\) to a full-class no-tower or
+small-data theorem. C223's lower-edge margin, TV-to-one-way selected-current
+conversion, C221 regime pricing, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 224 accepts the parity mechanism as real N1 progress, giving \(N1\ge\frac12-\frac{4\pi c}{Re_\Gamma}\), but W8 is not deleted because the transfer constant \(c\) is only stated as \(O(1)\) and not bounded sharply in the smoothed selected-current normalization, the low-Re complement is not yet an exact admission clause tying local \(Re_\Gamma\) to a classical no-tower/small-data theorem for the full adversarial class, C223's TV-to-one-way selected-current conversion and lower-edge margin remain open, and C221 regime pricing plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
