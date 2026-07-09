@@ -1839,3 +1839,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 109 is refuted as a frontier deletion; it gives at most a conditional \(L^1_\omega\) global-stock variant, while finite admitted stock, collection/no-reuse, pump summability, and final inequality remain unproved for smooth finite-energy data.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 110 ball-local repair is accepted as the right response to
+  the \(L^1\)-tail refutation. On a fixed finite containment ball,
+  \(\int_B|\omega_0|\le |B|^{1/2}\|\omega_0\|_{L^2}\) gives Clay-class local
+  stock finiteness, conditional on the §8d/l/m containment ball. The fixed
+  sphere flux row is not certified: Leray gives
+  \(u\in L^\infty_tL^2_x\cap L^2_t\dot H^1_x\) and \(\omega\in L^2_{t,x}\),
+  but this does not automatically define or bound
+  \(\int dt\int_{\partial B}|u||\omega|\,dS\) on a fixed sphere. The proof
+  needs an exact trace theorem, radius-averaged/coarea shell replacement, or
+  retained smooth-prelimit trace measure. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 110 replaces the invalid global \(L^1\) stock by a ball-local stock plus one external boundary/shell flux row; containment, certified flux, no-reuse collection, pump summability, and final inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
