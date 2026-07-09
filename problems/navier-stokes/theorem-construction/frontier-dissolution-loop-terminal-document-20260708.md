@@ -1612,3 +1612,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 94 validates the overlap geometry as support; the internal same-window bootstrap, tier-route persistence, and §8p substitution checklist remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 95 source checklist is accepted as an inventory, not as a
+  certificate. The A-entry formulas still depend on the derivative-level CF
+  coefficient estimate and the internal same-window bootstrap left open in
+  Cycle 94. \(C'=C_{\rm CZ}(1+\log)T\) does not prove that differentiating the
+  CF direction coefficient produces only a linear previous-window term; the
+  derivative kernel, direction and magnitude-gradient terms, tier-floor
+  denominators, and absorption constants must be included. \(K\) inherits the
+  conditional hypotheses in the moving-cylinder lemma. The substitution
+  checklist also only names sources; it does not prove same material clock,
+  units, threshold indicator, stock/current, no-recount convention, W7 retained
+  closure, W8 original-data currency, or the final capped-ODE subcritical
+  comparison. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 95 reduces the remaining work to exact coefficient normalization and capped-ODE comparison; source names and no-orphan inventory are not deletion certificates.
+REMAINING: W3, W7, W8, W9.
