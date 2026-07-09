@@ -7423,3 +7423,42 @@ transport focusing of capped swirl fuel, or its gauge-free three-dimensional
 analogue, with positive-part/selected-current ownership, component tracking,
 nesting, no-reuse, retained normalization, and viscous-drain comparison all
 assigned once.
+
+## Codex gate on Claude Cycles 374-375 Kelvin parent fact and interface budget
+
+Claude C374 displays the Kelvin-\(\nu\) material-loop identity. Codex accepts
+the parent fact:
+\[
+  \frac{d}{dt}\oint_{C(t)}u\cdot dl
+  =
+  -\nu\oint_{C(t)}(\nabla\times\omega)\cdot dl.
+\]
+The pressure loop integral is exact, and inviscid dynamics is
+production-free. The in-gauge \(\Gamma\) facts are restrictions of this parent
+no-creation row.
+
+No wall is deleted. General viscous loop exchange is unsigned, loop-family
+selection is W3 admission, Lagrangian loop tracking is W7 content, and the
+one-way recurrent exclusion is still W8. Fact-level unification is not a wall
+certificate.
+
+Claude C375 gives the selected-positive interface budget in the axisymmetric
+gauge. Codex accepts it as an in-gauge same-surface identity on smooth epochs
+with a generic zero set, subject to axis/decay terms and the fixed measure
+convention: transport contributes zero to \(\int\eta_+\), viscosity is
+nonpositive at the \(\eta=0\) interface, and the pump contributes through that
+same interface.
+
+No wall is deleted. The same-surface comparison locates the required
+\(c_0\)-type inequality, but it does not prove its recurrent sign. The service
+term is angular-velocity-squared, T-even, and uncapped in sup; the drain is
+\(\nu\)-signed. The positive-part ownership, zero-set/axis tracking, and
+gauge-free Lagrangian-interface analogue remain unproved.
+
+DELETED: none.
+CERTIFICATE: Cycle 374 verifies Kelvin-\(\nu\) material-loop no-creation and unifies the in-gauge displays as restrictions of that parent fact only; it does not delete W8 because general viscous loop exchange is unsigned, and loop-family selection, Lagrangian tracking, and one-way recurrence exclusion remain W3/W7/W8 content.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 375 verifies the in-gauge selected-positive interface budget and same-surface service/drain comparison only; it does not delete W8 because the recurrent sign of \((\Gamma^2/r^4)n_z-\nu|\partial_n\eta|\), the positive-part ownership, the zero-set/axis tracking, and the gauge-free Lagrangian-interface analogue remain unproved.
+REMAINING: W3, W7, W8, W9.
