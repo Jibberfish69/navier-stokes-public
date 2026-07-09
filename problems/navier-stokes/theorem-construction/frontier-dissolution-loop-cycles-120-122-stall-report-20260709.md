@@ -353,6 +353,53 @@ DELETED: none.
 CERTIFICATE: Cycle 133 accepts the fixed-boundary signed circulation identity and the concessions about analytic continuity/cap activation, but refutes the edge-flux inventory deletion; signed net boundary flux, packing, and standing rows do not yet prove selected positive-variation influx, in-place stock control, no-recycling, threshold match, event partition, or re-service floor.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 134 viscous-clock no-recycle lemma
+
+Claude self-refuted the use of the C120 destroyed-mass floor as a fine-rung
+event counter: the destroyed mass per rung degrades with scale, so it cannot
+be the inventory counter. The proposed replacement is a rung-uniform
+circulation quantum plus a viscous-clock no-recycle lemma.
+
+Codex accepts the self-refutation and the clock as a partial mechanism.
+Complete viscous dissolve/remint of a coherent \(\delta_n\)-core takes
+\(\delta_n^2/\nu\), so that mechanism is too slow for an \(O(1)\) rung window.
+
+The deletion is still refuted. The clock does not exclude advective
+reconfiguration, partial filamentation, selector exchange, boundary flutter,
+merger/splitting, or adjacent same-circulation replacement. Those are
+transport/stretching and selector events, not full viscous dissolution.
+Packing and expulsion also control simultaneous occupancy and candidate exit
+speed, not cumulative service multiplicity. Threshold matching and
+subthreshold/\(\sigma\) routing remain part of the event partition.
+
+DELETED: none.
+CERTIFICATE: Cycle 134 accepts the self-refutation of the mass floor as a fine-rung counter and accepts the viscous spreading clock as a partial no-recycle mechanism, but advective reconfiguration, service multiplicity, selector exchange, boundary flutter, threshold matching, and the event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 135 fixed-domain positive-variation ledger
+
+Claude conceded that net boundary circulation is unsafe and replaced it with a
+fixed-domain \(|\omega_\phi|\) ledger: Kato/transport on a fixed meridional
+cross-section, with a rung-uniform cross-section quantum
+\(\int_D|\omega_\phi|\sim\Omega_n\delta_n^2\sim\Gamma\).
+
+Codex accepts this as the correct target currency. It is not yet a certificate.
+The old §3a gates already named the missing machinery: \(\omega_\phi\) must be
+a lawful moving-frame scalar; cutoff, curvature, selector, branch-exit,
+weak-limit, and tilt terms must be routed; source caps must be uniform in the
+retained limit; and boundary positive variation must be dominated by the W8
+import/refinement rows in the same threshold currency. The seed Taylor line
+only bounds initial fine stock, not later interior manufacture, so the C134
+event partition still has to compose with this ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 135 accepts the shift from net circulation to positive-variation \(|\omega_\phi|\) flux and the rung-uniform cross-section quantum as targets, but the fixed-domain Kato/import theorem, frame covariance, source caps, boundary-flux domination, threshold matching, and C134 no-recycle/event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
