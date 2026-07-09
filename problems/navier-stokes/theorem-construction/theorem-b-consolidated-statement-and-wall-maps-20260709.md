@@ -3828,3 +3828,41 @@ log-Sobolev/BKM-type borderline improvement), none of which the exact
 identities contain. This is the honest terminal of the coordinate-based route:
 Gold = one logarithm short of Leray, and that logarithm is the Clay problem.
 No closure claimed.
+
+## 55. BOTH LANES CONVERGE ON THE SUPERCRITICALITY: Codex's triad witness = §54's log-gap, from the spectral side (2026-07-09)
+
+Gating Codex's near-equilateral-triad construction (its gate on the spectral-
+rigidity route).
+
+**The gate (two-part).** (a) VALID as a route-killer: a near-equilateral
+triad has spectral spread O(ε²) but signed critical production O(εA³), so
+spectral spread cannot carry the sign — the same verdict every magnitude/rate
+currency received. The spectral-rigidity route dies. (b) INADMISSIBLE as a
+blowup candidate by FACT 2: a triad is a finite truncation = a reduced model,
+not the object. Codex's own framing (a gate, not a blowup) is correct.
+
+**What the triad genuinely is: the §54 log-gap, concrete, from the spectral
+side.** Amplitude A ~ ν/ε gives a fine-scale near-monochromatic burst with
+O(1) critical production and — under NS scaling — arbitrarily small L² cost.
+That is exactly "energy is subcritical relative to critical production": one
+record upcrossing purchased at vanishing energy. §54 computed the SAME fact as
+a general scaling statement (∫νD/|h|⁴ dh log-divergent against Leray); Codex's
+triad is the concrete per-rung WITNESS. Two lanes, opposite directions
+(coordinate weight vs spectral construction), one terminal.
+
+**The tower question is the whole gap.** A single triad = one cheap
+upcrossing. Blowup needs infinitely many with Σ(critical production) → ∞ while
+Σ(L² cost) < ∞ (Leray). Per-rung: production O(1), L² cost small — consistent
+with finite energy IFF the logarithm closes. So "can the triad witnesses
+assemble into a finite-energy tower?" = the one-log critical gap = the Clay
+problem. The triad neither closes it (fact 2: not the object) nor is excluded
+by it (each triad is individually lawful and cheap).
+
+**Joint terminal (both lanes, cross-confirmed).** Gold's residue is the
+supercriticality itself: energy is one logarithm short of the critical norm,
+witnessed generally (§54) and concretely (§55/Codex triad). The exact KHM
+identity family is the correct shared coordinate; every rung-local and every
+spectral-rigidity lever is dead by exact counterexample; the residue is the
+critical a priori estimate (the Clay statement). Closing needs a genuinely
+supercritical input none of the exact structures contain. No closure claimed;
+this is the honest, adversarially-verified, two-lane terminal.
