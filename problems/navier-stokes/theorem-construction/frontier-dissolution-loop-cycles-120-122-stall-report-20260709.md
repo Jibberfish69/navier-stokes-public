@@ -2179,3 +2179,24 @@ and the sweep.
 DELETED: none.
 CERTIFICATE: Cycle 228 accepts the composed-constants check as a refutation of C226's strong near-threshold coverage claim and exposes the pinch band \(Re_\Gamma\in[16/C,45c]\), but W8 is not deleted because the band is closed only if the transfer constant satisfies \(c<0.36\) or the viscous crossing bias is proved favorable-signed, neither exact fact is certified, and the TV-to-one-way smoothed selected-current conversion plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 229 favorable sign check
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C229 tries
+to identify the C228 pinch band with favorable viscous sign, but it still does
+not identify W8 with W3/W7/W9 because the direct diffusive flux and its
+Biot-Savart-smoothed flow modification have not been compared in the actual
+selected-current ledger, and the sweep remains separate.
+
+Codex accepts the sign route as the correct attack surface. If the direct
+rear-loss term dominates its own smoothed velocity-modification shadow, the
+pinch band closes without needing \(c<0.36\).
+
+No deletion is paid. The missing exact fact is the strict kernel-contraction
+inequality in the courier-local smoothed selected-current normalization,
+together with the direct front/rear loss split under the no-reuse ledger.
+C223's TV-to-one-way selected-current conversion and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 229 accepts the favorable-viscous-sign route as the right attack on the C228 pinch band, but W8 is not deleted because the strict Biot-Savart smoothing/contraction inequality \(|\mathrm{modification}|<|\mathrm{direct}|\) has not been proved for the actual smoothed selected-current crossing ledger, the direct rear-loss/front-recapture split still spends the sweep and no-reuse ledger, C223's TV-to-one-way selected-current conversion remains open, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
