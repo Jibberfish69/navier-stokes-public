@@ -1960,3 +1960,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 119 accepts the parent-child inventory shape but leaves the actual recurrence, child-multiplicity bound, no-recount current, pump-extinction transfer, and initial fine-stock threshold unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 120 TV-event ledger is accepted as the right no-recount
+  shape, but not as a certificate. Destroyed unsigned mass is a lawful way to
+  avoid ring-identity recount only after the full Kato balance is written with
+  positive source, cutoff, frame, pump, shell, and route terms in the same
+  selected TV currency. The per-event floor must be proved in the same units as
+  the TV budget and the \(9.11\,\Gamma\delta_n\) ring-mass divisor, with
+  partial-service boundary cases integrated by the \(\sigma\)-weight. The
+  budget also still depends on Fact 3, because pump total has not yet been
+  transferred into this TV currency. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 120 reduces no-recount to a TV-event Kato balance, but the per-event floor, source/cutoff routing, partial-service weighting, parent-child recurrence, and pump-extinction transfer remain unproved.
+REMAINING: W3, W7, W8, W9.
