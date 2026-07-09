@@ -1460,3 +1460,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 85 refutes the claimed \(L^2_s\)-tail absorption for the gradient bootstrap; an endpoint Kato/time-Morrey or stronger tail class and full moving-cylinder estimate remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 86 integration-by-parts repair is accepted as the correct
+  far-tail time-class upgrade. For the Biot--Savart strain kernel
+  \(K\sim |z|^{-3}\), writing \(\omega=\nabla\times u\) and integrating by parts
+  once gives \(\nabla K\sim |z|^{-4}\), hence
+  \( |{\rm Tail}_{>R}(t)|\le C R^{-5/2}\|u(t)\|_{L^2}\le C R^{-5/2}\|u_0\|_{L^2} \).
+  This supplies the \(L^\infty_t\) far-tail class needed for the Kato
+  convolution. The boundary/cutoff clause remains: a sharp sphere creates trace
+  terms not controlled by energy alone, so the certificate needs a smooth cutoff
+  and an explicit assignment of the cutoff shell to the intermediate/no-recount
+  ledger. The estimate must also be uniform over the moving cylinder. C83's
+  near/intermediate magnitude and tube-geometry clauses and the full
+  moving-domain estimate remain open. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 86 repairs the far-tail endpoint class to \(L^\infty_t\) via integration by parts; smooth cutoff/no-recount, moving-cylinder uniformity, near/intermediate CZ control, and the full moving-domain bootstrap remain unproved.
+REMAINING: W3, W7, W8, W9.
