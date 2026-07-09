@@ -793,3 +793,14 @@ None.
   \(\Gamma_{\rm gather}\), recycling/conveyor accounting, tier/ring graph
   closure, selected payer currency, and compact zero-surplus action remain
   unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 33-34 recycling ontology gate accepts the correction that
+  the Cycle 32 expulsion arithmetic illegally charged a ring with its own
+  through-flow. The equal-coaxial model must use partner induction plus
+  curvature self-induction, giving net outward speed about
+  \(0.205\,\Omega\delta\), not the previous 8x margin. Cycle 34 gives the right
+  candidate form of a one-object reduction: a closed Eulerian conveyor current
+  with a positive per-cycle viscous wake-loss constant \(c_*>0\). This is not a
+  deletion yet. The exact current, event graph, wake-loss lower-bound integral,
+  pedigree universality, finite \(\Gamma_{\rm gather}(u_0)\) reservoir, W7
+  graph closure, W8 selected payer currency, and W9 compact zero-surplus action
+  are unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
