@@ -3923,3 +3923,41 @@ C203/TV-linearity and C283 pressure-sign/scope clauses are also still inherited.
 DELETED: none.
 CERTIFICATE: Cycle 285 accepts the generic-trace counterfactual and tilt-dominated retyping as useful progress, but no wall is deleted because the repair now depends on the still-pending C264 generation ledger, an exact cap-shift derivative replacing the approximate \(C_{\mathrm{tilt}}\approx0.5\)-\(0.8\), and proof that higher-\(m\), non-tilt, reseed, leakage, and phase-lock errors are genuinely subleading in the selected-current normalization; C284's C203/TV-linearity and C283's pressure-sign/scope clauses also remain inherited.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 286 segment additivity and cap-shift threshold
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C286 tries
+to close C284's two local prices by segment additivity and a tilt cap-shift
+bound, but the result still rests on pending selected-ledger facts.
+
+Codex accepts C286 as a real narrowing. The no-double-count argument has the
+right shape if the TV floor is one linear functional of total excess, and
+\(C_{\mathrm{tilt}}\le0.8\) would clear the named \(2.23\) threshold with room.
+
+No deletion is paid. The cap-shift derivative is not yet displayed as an exact
+selected-normalization value, C203 slope constancy across both segments is not
+proved, and the ordering \(V_{\max}(\alpha)<V_{\max}(0)\) still inherits the
+parity/steady-class scope gates. Most importantly, C286 explicitly reduces the
+corner to C264, whose tilt-dominance, leakage, re-seed, phase-lock, and
+pair-product clauses remain pending.
+
+DELETED: none.
+CERTIFICATE: Cycle 286 accepts the segment-additivity and \(C_{\mathrm{tilt}}\le0.8\) trace-norm route as a real narrowing of the Horn-B repair, but no wall is deleted because the repair still depends on the pending C264 tilt-dominance ledger, the exact cap-shift derivative in selected flux normalization, the C203/TV-linearity slope being constant across both excess segments, and the inherited parity/steady-class scope behind \(V_{\max}(\alpha)<V_{\max}(0)\).
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 284-286
+
+Physical sentence of the sticking wall: the Horn-B repair can now survive the
+generic trace-norm refutation only by proving that the actual selected odd
+content is the C264 tilt-generated content and that the same TV floor prices
+the base and parity-deficit excesses as one linear current.
+
+Attempts: C284 repaired the C282 coefficient failure with a two-term Horn-B
+floor; C285 retyped the trace norm through the C264 tilt-generation ledger;
+C286 claimed no-double-count by segment additivity and put the tilt trace norm
+below the \(2.23\) failure threshold.
+
+Missing exact fact: the C264 generation ledger as a terminal selected-admission
+certificate, the exact cap-shift derivative in the same flux normalization, and
+the C203/TV-linearity identity over the combined excess interval with the
+parity/steady-class ordering certified.
