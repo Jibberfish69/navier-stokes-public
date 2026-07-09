@@ -1217,3 +1217,26 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 66 reduces the arithmetic endpoint to candidate constants, residence/fixed-ball admission, additive \(G_R\) no-recount/positive-variation admission, and recycle-factor comparison; those certificates remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 67 job-site toll reduction is accepted conditionally inside
+  the forced counter-rotating ring-pair sector. In that sector, service creates
+  the zero set and Kato/coarea toll at the serving station, so path-avoidance
+  on the import road is not the right attack. This does not delete a wall
+  because the reduction still requires the C63 B facts, the B5 route table, and
+  the service-exhaustion identity attempted in C68. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 67 reduces path-avoidance to job-site collection in the already-forced ring-pair sector; stable cores, the \(A_{\min}\) floor, moving Kato/route typing, and service exhaustion remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 68 service identity is refuted as stated. A smooth
+  finite-energy divergence-free datum can agree near the record with an axial
+  vortex plus trace-free extensional strain, giving \(e\cdot S e>0\) while
+  local \(\omega_\phi\) about the record axis is zero; the supporting vorticity
+  can sit in a finite exterior shell through a compactly supported vector
+  potential cutoff. Whole-space decay excludes a global constant ambient strain,
+  not a finite-distance harmonic strain component. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 68 refutes the proposed finite-energy axial-stretching iff; local axial stretching need not instantiate a local opposite-signed \(\omega_\phi\) pair, so the definition-grade toll certificate fails.
+REMAINING: W3, W7, W8, W9.
