@@ -3029,3 +3029,27 @@ and Horn-B rebuild pricing in the W7/W8 same-selector ledger, evaluating
 \(C_{\mathrm{geo}}\), preserving transit orientation under the restoring
 current, and closing boundary-complete field payment, stranding, TV-to-one-way,
 \(\delta u\), and sweep/no-reuse in one selected currency.
+
+## Codex gate on post-stall Cycle 257 Batchelor obstruction and \(\chi\)
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C257 tries
+to identify the arrivals-orientation theorem with a single class ratio
+\(\chi\), but it still does not identify W8 with W3/W7/W9 because that ratio
+and the per-window cutoff are not certified.
+
+Codex accepts C257 as an important self-refutation of C256's hidden assumption.
+The stock route cannot use \(|\nabla\psi|\sim\beta/\delta\) until Batchelor
+pile-up is excluded.
+
+No deletion is paid. \(\chi\) is named but not evaluated; the C55 restoring
+current has not been proved to act at every deviation scale in the actual
+arrivals field; the strain-cascade spectrum and S-band/P2 class integrals are
+cited rather than computed; and the strongest rescue, finite window length
+preventing completion of the Batchelor cascade, is explicitly untested. C257
+narrows the arrivals theorem to a sharper obstruction, but it does not certify
+\(C_{\mathrm{geo}}\), horn-A/Horn-B admission, boundary-complete field payment,
+stranding, TV-to-one-way, \(\delta u\), or sweep/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 257 accepts the Batchelor pile-up danger as a real self-refutation of C256's forcing-scale gradient assumption and reduces the arrivals-orientation theorem to the class ratio \(\chi>1\) or a finite-window cutoff, but W8 is not deleted because \(\chi\) is not evaluated, scale-independent C55 winding restoration is not proved on actual deviation scales, the strain-cascade and S-band/P2 class integrals are cited rather than computed, the window-length cutoff is explicitly untested, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
