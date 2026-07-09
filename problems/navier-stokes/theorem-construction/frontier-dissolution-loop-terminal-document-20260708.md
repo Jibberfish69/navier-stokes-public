@@ -1281,3 +1281,28 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 72 organizes the B5 route table but does not prove the same-current domination inequalities or the sector-to-global Kato attachment.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 73 concession is accepted: Cycle 68's definition-grade
+  service identity was false, and the viable replacement is a dynamical
+  threshold-branch proximity theorem. This is not a deletion. Pointwise record
+  supremacy does not by itself bound the integrated Biot--Savart contribution
+  from a broad coherent exterior/intermediate source with
+  \(|\omega|\le\Omega_{\rm rec}\); that requires Theorem A's coefficient/tail
+  theorem and intermediate-zone chaining. Meridional zero-sum gives global
+  compensating sign, not local \(O(\delta)\) adjacency without confinement and
+  ring-geometry compactness. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 73 reduces the refuted service identity to a dynamical threshold-proximity theorem; the integrated Biot--Savart exclusion, confinement, and threshold-branch coverage remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 74 inequality table is accepted as the right next shape, not
+  as a closed B5 certificate. Rows R1--R8 still need same-current integration,
+  unit normalization against \(\mu_K\), ODE signs, and W7/W8 no-recount under
+  recycling, selector exchange, and weak limits. Row R10 still depends on the
+  Cycle 73 threshold-proximity theorem. The deletion certificate would be the
+  explicit number comparison \(C_{\rm src}<C_{10}/{\rm Re}_\Gamma\), or the
+  precise Theorem C subcritical variant, with all polylog terms and constants
+  displayed. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 74 supplies an inequality-shaped coefficient list for Theorem C, but the same-current normalization and source-loss number comparison remain unproved.
+REMAINING: W3, W7, W8, W9.
