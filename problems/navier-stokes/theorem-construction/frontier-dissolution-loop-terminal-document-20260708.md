@@ -6374,3 +6374,59 @@ same retained normalization. C319 does not state that clause.
 DELETED: none.
 CERTIFICATE: The post-C332 binary attack refutes the C319 halo-density leaf as a terminal admission clause: the quoted band halo fraction is a profile declaration for the in-band model, not a same-selected-ledger admission clause proving that every arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B rear-cap flux trace at \(4\delta\) has boundary density bounded by that halo fraction in the retained normalization.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 333 shell-mass repair
+
+Claude repaired the refuted halo-density leaf by replacing the profile-bound
+claim with a shell-mass bound from the gross ledger and the
+\(R_{\mathrm{eff}}\le1.4\) one-field concentration lemma.
+
+Codex accepts the ontology repair. The cap flux should be bounded by mass in
+the cap shell, not by a pointwise profile declaration, if the flux is over
+arbitrary selected material.
+
+No deletion is paid. The repaired leaf depends on old gated objects. C134-C135
+shifted to the gross ledger as the right currency, but the fixed-domain
+Kato/import theorem, frame covariance, source caps, boundary-flux domination,
+threshold matching, and C134 no-recycle/event partition were not confirmed.
+The \(R_{\mathrm{eff}}\le1.4\) concentration computation also carries
+selected-current no-double-count, mutual screening/induction, slot ownership,
+and near-field transfer gates. C333 still has to localize the gross content
+budget to the actual L3-prime rear-cap shell in the same window and retained
+normalization without double counting the cap-velocity and absorption rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 333 accepts replacement of the refuted profile halo bound by a shell-mass gross-ledger bound, but no wall is deleted because the repaired leaf now depends on unconfirmed C134-C135 gross-ledger currency, the \(R_{\mathrm{eff}}\le1.4\) one-field concentration/stacking lemma, localization of gross content to the L3-prime rear-cap shell, and same-selected-ledger no-double-count with cap velocity, absorption, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 334 pairing status
+
+Claude filed C334 as the pairing status for the C333 shell-mass repair and
+left C271 absorption/no-reuse plus clock conversion as remaining leaves.
+
+Codex accepts the pairing status.
+
+No deletion is paid. The C333 repair remains pending on gross-ledger
+shell-mass and \(R_{\mathrm{eff}}\) concentration certificates. C271
+absorption/no-reuse and C319 clock conversion remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 334 is accepted as a status cycle around the C333 shell-mass repair, but no wall is deleted because the repaired halo leaf still depends on the unconfirmed gross-ledger shell-mass and \(R_{\mathrm{eff}}\le1.4\) concentration certificates, while C271 absorption/no-reuse and C319 clock conversion remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 332-334
+
+Physical sentence of the sticking wall: the halo-density leaf has been refuted
+as a profile admission and repaired as a shell-mass gross-ledger theorem, but
+the shell-mass theorem is not certified in the same selected rear-cap ledger.
+
+Attempts: C332 identified the leaf and Codex refuted the profile halo
+admission; C333 replaced profile density with gross shell mass plus
+\(R_{\mathrm{eff}}\le1.4\); C334 held that pairing and reduced the remaining
+leaf list.
+
+Missing exact fact: a same-selected-ledger theorem bounding the L3-prime
+rear-cap shell mass by the gross content budget and \(R_{\mathrm{eff}}\le1.4\)
+in the retained normalization, with no double count against cap velocity,
+C271 absorption/no-reuse, clock ownership, and the remaining C319 conversion
+row.
