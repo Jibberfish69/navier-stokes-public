@@ -91,8 +91,8 @@ The numerator is the two-point material derivative
 \tag{NIC.5}
 ```
 
-Integrating by parts in `x` and `y`, using `div u=0`, and differentiating the
-kernel gives
+Integrating by parts in `x` and `y` on the symmetric truncation
+`|x-y|>epsilon`, using `div u=0`, and differentiating the kernel gives
 
 ```math
 \big(u(x)\cdot\nabla_x+u(y)\cdot\nabla_y\big)|\delta x|^{-4}
@@ -101,7 +101,9 @@ kernel gives
 \tag{NIC.6}
 ```
 
-Therefore
+The boundary term on `|x-y|=epsilon` is `O(epsilon)` for smooth `u`, because
+`delta u=O(epsilon)` and the antisymmetric two-point velocity has zero leading
+spherical mean. It vanishes as `epsilon` tends to zero. Therefore
 
 ```math
 \boxed{
@@ -476,6 +478,8 @@ temporal sign return must appear in the existing Field/four-body/viscous
 currency before record readout.
 
 The fixed-scale current and its channel partition are already explicit through
-`(NIC.8)`--`(NIC.12)`. What remains unproved is the positive same-record passage
-and original-data storage. Until `(NIC.23)` is proved, this note is a strict
-fixed-face reduction, not `c0>0` and not Gold closure.
+`(NIC.8)`--`(NIC.12)`. What remains unproved is a noncircular conversion from
+this positive production current to a finite one-way field loss, together with
+same-record passage and original-data storage. Until those statements are
+proved, this note is a strict local rigidity certificate, not `c0>0` and not
+Gold closure.
