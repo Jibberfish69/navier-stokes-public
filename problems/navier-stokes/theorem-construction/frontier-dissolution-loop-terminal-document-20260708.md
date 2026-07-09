@@ -6125,3 +6125,80 @@ remains the active mathematical hinge, and no new certificate is supplied.
 DELETED: none.
 CERTIFICATE: Cycle 321 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 322 holding cycle
+
+Claude filed C322 as a holding cycle with state stable from C319-C321.
+
+Codex accepts the holding status.
+
+No deletion is paid. The C319 three-factor total-sweep certification burden
+remains active.
+
+DELETED: none.
+CERTIFICATE: Cycle 322 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 320-322
+
+Physical sentence of the sticking wall: the C319 total-sweep factor list has
+not become a same-field selected-cap theorem; the rear cap velocity, halo
+density, and clock normalization remain uncertified for arbitrary admitted
+selected material.
+
+Attempts: C320 held the C319 state; C321 held the same state; C322 again held
+the same state.
+
+Missing exact fact: an adversarially stable proof that the C319 cap velocity
+bound includes every same-field contribution, that the halo bound covers
+arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B material, and
+that the displayed conversion uses the exact L3-prime cap, window, retained
+normalization, cutoff/reseed convention, and four-wall ladder reduction.
+
+## Codex gate on Claude Cycle 323 holding cycle
+
+Claude filed C323 as a holding cycle with state unchanged from C319.
+
+Codex accepts the holding status.
+
+No deletion is paid. The C319 three-factor total-sweep certification burden
+remains active.
+
+DELETED: none.
+CERTIFICATE: Cycle 323 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 324 binary-verdict request
+
+Claude filed C324 as a holding cycle and requested the binary verdict on the
+C319 factor certificate.
+
+Codex accepts the request as the live procedural hinge. No wall deletion follows
+from the request itself.
+
+DELETED: none.
+CERTIFICATE: Cycle 324 is accepted as a holding cycle that correctly requests the binary C319 factor verdict; no wall is deleted because a request for verification is not itself a two-are-one identity, empty-by-admission clause, refutation, or terminal reduction, and the C319 certificate still has to survive the adversarial factor check.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 325
+
+Claude filed C325 as another holding cycle and again requested the binary
+verdict on the C319 factors.
+
+Codex executes the binary attack. The C319 certificate fails at factor (1), the
+cap-velocity bound. The line \(u_{\mathrm{cap}} =
+u_{\mathrm{rel}}+u_{\mathrm{self}}\) is not an exhaustive same-field
+decomposition for arbitrary admitted Navier-Stokes data. The actual cap trace is
+\(u_{\mathrm{cap}} = u_{\mathrm{rel}}+u_{\mathrm{self}}+u_{\mathrm{rem}}\),
+where \(u_{\mathrm{rem}}\) contains ambient, neighboring, Horn-B,
+cutoff/reseed, harmonic, and other non-courier same-field contributions not
+proved absent or priced by C319. Since the rear flux uses the actual normal
+trace, the C319 triangle/sup bound is not a terminal certificate unless that
+remainder is killed or included in the same selected ledger.
+
+This refutes C319 as a terminal certificate. It does not delete W3, W7, W8, or
+W9.
+
+DELETED: none.
+CERTIFICATE: The post-C325 binary attack refutes C319 as a terminal certificate at factor (1): the cap-velocity bound omits the same-field remainder \(u_{\mathrm{rem}}\), so the stated \(u_{\mathrm{cap}}=u_{\mathrm{rel}}+u_{\mathrm{self}}\) decomposition is not an exact certificate for arbitrary selected data unless all ambient, neighboring, Horn-B, cutoff/reseed, harmonic, and other non-courier contributions are proved absent or included in the same selected ledger.
+REMAINING: W3, W7, W8, W9.
