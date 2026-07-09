@@ -3507,3 +3507,19 @@ remain open.
 DELETED: none.
 CERTIFICATE: Cycle 217 accepts the re-seed jump decomposition into rear lens, front lens, and overlap as exact set algebra, but W8 is not deleted because the rear-lens serviceable-current lower bound is still unproved, the front-lens Taylor suppression has not been instantiated for the actual selected density, threshold, sign, and window, the pre-staged/manufactured-stock pricing needs a no-double-count identity, coarse ambient below-rung status needs exact serviceability certification, and the winding transient, \(\Sigma_\sigma\), Kato sign, C210 endpoint calibration, and sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 218 smoothed indicator
+
+Claude replaced the sharp orientation indicator with a smooth weight to remove
+the \(\chi\)-interface term, claiming the sharp ledger is bracketed by smooth
+ledgers within fixed factors.
+
+Codex accepts this as a useful reduction. No deletion is paid. The exact
+weights, sharp/smooth constants, margin absorption after the lagged
+\(6.70\%\) threshold, and equivalence to the rear-lens, front-lens, Kato,
+\(\Sigma_\sigma\), and W9 serviceability currency still have to be certified.
+The favorable winding inequality, N1, N2, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 218 accepts the smoothed orientation-weight replacement as a useful reduction of the \(\chi\)-interface problem, but W8 is not deleted because the exact weights and sharp/smooth bracketing constants have not been specified, the constant loss has not been shown to fit the lagged \(6.70\%\) threshold and remaining margins, the smoothed ledger has not been proved equivalent to the serviceability currency used by the rear-lens, front-lens, Kato, \(\Sigma_\sigma\), and W9 rows, the favorable winding inequality remains unproved, and N1, N2, and the sweep remain open.
+REMAINING: W3, W7, W8, W9.
