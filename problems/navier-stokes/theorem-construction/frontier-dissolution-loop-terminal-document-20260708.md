@@ -775,3 +775,12 @@ None.
   and no fast recycling/regeneration. These are unproved W8/W9 accounting
   clauses and still require W3 race uniformity and W7 tier/ring graph closure.
   No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 31 ring-pair gate accepts the next countertrend: a
+  counter-rotating coaxial partner can provide marginal station-keeping, so
+  single-ring expulsion is not a deletion certificate. The remaining object is
+  a classical elliptic ring-pair computation deciding station signs, radial
+  expansion, finite pair service, and nested-pair interference, plus the same
+  recycling/conveyor accounting lemma. The proposed finite log-growth bound
+  still depends on \(\Gamma_{\rm gather}\), no-free-recycle accounting, W3 race
+  uniformity, W7 tier/ring graph closure, W8 selected conveyor pricing, and W9
+  compact zero-surplus action. No wall is deleted. Remaining: W3, W7, W8, W9.
