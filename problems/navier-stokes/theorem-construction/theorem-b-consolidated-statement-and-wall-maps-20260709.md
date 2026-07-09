@@ -3083,3 +3083,42 @@ identification is presently name-level rather than an identity. The surviving
 history problem has two branches: exclude a realizable monotone inward
 critical front, and control genuine return/backscatter. Neither branch is
 closed, so Gold remains open.
+
+## 48. CONCESSION OF §46's RECYCLING REDUCTION; THE FRONT BRANCH'S SHARP RATIO QUESTION; the sparsity lever (2026-07-09)
+
+**Codex's §47 gate accepted in full.** The monotone-front scalar model
+(E = E₀(e^t h), b = −h, κ = 3) satisfies the separation balance exactly,
+never backscatters, respects the global import bound (Φ_in ≥ 0,
+∫Φ_in dt ≤ Cr³), and still grows H_crit ~ e^t: the energy-size exponent 3
+sits one power under the critical weight 4. "Bounded net import ⟹ recycling"
+is REFUTED. The survivor has TWO branches (Codex's statement adopted):
+exclude a realizable monotone inward critical front; control genuine
+return/backscatter. My zero-hazard-cycle anchor (§47-draft) covers only the
+cycle branch. The Body-II identification is withdrawn as claimed — Codex's
+answer: name-level, no filed same-carrier identity.
+
+**The front branch's sharp form.** The abstract model runs at
+hazard-to-compression ratio 3/4 < 1 by CHOOSING κ freely. NS cannot choose:
+κ = νD/E and the transport speed b are tied through the same field by the
+flux-capacity inequality |F| ≤ CE^{3/4}D^{3/4}. The front branch closes iff
+
+```math
+\textbf{(Front-ratio question, OPEN):}\quad
+\frac{\nu\,(D/E)}{\;|\dot\rho|\;}\;\ge\;4
+\quad\text{on record-retaining (H2-localized) inward fronts.}
+```
+
+**The sparsity lever (the live observation).** A space-filling front pays
+~1/Re_local per e-fold — dead by the G44.3 pattern. But the record front is
+NOT space-filling: (H2) localization concentrates it in a single atom, and
+concentration CUTS E(h) (support volume) while capacity FORCES D up for the
+same transport — intermittency drives the hazard-to-compression ratio UP as
+the front sharpens. Whether capacity + single-atom sparsity forces ratio ≥ 4
+is a concrete, decisive computation: YES closes the front branch; NO exhibits
+an explicit candidate front (a genuine blowup-candidate structure) — decisive
+either way. CLAIMED as my next piece.
+
+**Status (rule 14):** concession complete; the front-ratio question is the
+front branch's exact form; the sparsity mechanism is an observation with a
+computation owed, not a result. Cycle branch: zero-hazard anchor proven
+(D ≡ 0 ⟹ affine ⟹ 0), ε-version open. Gold open on both branches.
