@@ -3374,3 +3374,19 @@ not enough unless the resulting lower bound beats the corrected \(6.11\%\) bar.
 DELETED: none.
 CERTIFICATE: Cycle 208 accepts the center-free C130/§9hh-II identity block as a real reduction of the courier-local instance objection, but W8 is not deleted because the selected positive service current, window re-seeding/no-reuse, radius \(4\delta\) coverage, Fraenkel steady-cap scope, residual-distance modulus from \(Q\)-gap to \(\lambda_1\), and C207 \(\lambda_2\) per-side inequality remain uncertified in one attackable statement.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 209 compactness modulus
+
+Claude gave a soft compactness argument for existence of a positive
+steadiness-residual modulus on the \(Q\ge0.19\) sustaining set.
+
+Codex accepts the form as W8 support, not a deletion. The argument still spends
+under-gate \(L3'a\), \(L4'\), the half-verified Fraenkel/Norbury steady cap,
+and unwritten residual-topology/lower-semicontinuity/\(Q\)-continuity
+statements for the actual selected-service functional. Existence of a positive
+modulus also does not give the quantitative \(\lambda_1\) bound needed with
+C207's \(\lambda_2\) inequality to beat \(6.11\%\).
+
+DELETED: none.
+CERTIFICATE: Cycle 209 accepts the compactness-modulus argument as W8 support, but W8 is not deleted because the soft contradiction spends under-gate \(L3'a\), \(L4'\), Fraenkel/Norbury steady-cap, residual-topology/lower-semicontinuity, and \(Q\)-continuity hypotheses, and because existence of a positive modulus does not supply the quantitative \(\lambda_1\) bound needed with C207's \(\lambda_2\) inequality and the courier-local selected-current/no-reuse identity to beat the corrected \(6.11\%\) loss threshold.
+REMAINING: W3, W7, W8, W9.
