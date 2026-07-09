@@ -248,3 +248,21 @@ If this survives the partner gate, the killed bridging theorem revives with its 
 **Clause 5 — NO BORROWING:** inputs are the proved Riccati (arc-2 Cycle 2), slaved pressure (fact 4), cyclostrophic balance (exact at any core), the p_axis law (Cycle 10), and W3/W7/W8 certified bounds. No W9 clause is consumed. The hull, its compactness (ν-parabolic on certified bounds), and shift-room (tail exponents μ± > 0) then assemble as in Cycle 10 but centered on x_w.
 
 **Candidate (PENDING, replaces the killed one):** W9 deletes by reduction to W3+W7+W8 via the WELL-selector path object. Self-named attack surfaces: (a) the implicit-function step needs ∇²p's axial block nondegenerate at x_w — the crest-curvature input is certified only where the record is strictly growing (is "strictly" an admission or a gap?); (b) the well may sit at the LAG offset from the crest — confirm the certified bounds control the field at x_w and not only at the crest; (c) reflexivity (Clause 3) must be checked for hidden circularity: the subsidy floor comes from the Riccati on the aligned branch — confirm "aligned branch" is W3/W7 currency, not a W9 window in disguise.
+
+---
+
+## CYCLE 13 — ATTACK (c) RESOLVED BY THE MATERIAL-CLOCK TAUTOLOGY: "the aligned branch" is BKM currency, not W9 currency; all three surfaces closed; RULE-6 STALL REPORT
+
+**Rule-1 cross-wall move:** the quantifier "on the branch where the record persistently grows" and W9's material-time terminal window are NOT the same object — the first is classical BKM currency, and showing that distinction is this cycle's content.
+
+**THE MATERIAL-CLOCK TAUTOLOGY (attack (c) closed).** Define the record's material clock dτ = α dt (α = stretching at the record carrier). Two classical facts, older than the repo: (1) d/dt log||ω||_∞ ≤ α(record) (Rademacher differentiation of the sup along the maximizer); (2) BKM: blowup at T ⟺ ∫^T ||ω||_∞ dt = ∞, which via (1) requires ∫^T α(record,t) dt = +∞. But ∫α dt IS τ: **blowup ⟺ the aligned branch has INFINITE length in the record's own material clock.** The "terminal window with interior room" in material time is therefore not an assumption borrowed from W9 — it is the definition of the blowup scenario itself, supplied by BKM. The reflexive circle is honest and closes without W9 input:
+  (i) blowup ⟺ infinite material time on the α-positive branch [BKM + Rademacher, classical];
+  (ii) on that branch the proved Riccati forces e·He ≤ −α² — the deep well [arc-2 Cycle 2];
+  (iii) deep well ⟹ cyclostrophic + axial nondegeneracy ⟹ the lawful well-selector and its path object [Cycle 12];
+  (iv) the lag/oscillation dichotomy erodes the subsidy at a definite material-time rate [Cycles 8–10];
+  (v) eroded subsidy ⟹ finite material time — contradicting (i).
+W9's entire content is the ASSEMBLY (iii)–(v) along the BKM clock: the reduction W9 → W3+W7+W8 is the statement that each assembly ingredient is already certified currency.
+
+**Attacks (a) and (b), closed by the same object.** (a) "Strict growth" is not needed pointwise: the admission is ∫α dt = ∞; plateaus and oscillation intervals contribute finitely and route out typed (vanishing lemma / per-visit bounds). (b) The well cannot leave the certified core: transversely it is trapped at the swirl axis by cyclostrophic dominance (Hessian ~ ω²/4 — no competitor scale); axially it sits within the near-field of the crest by the p_axis law, at the lag offset, which is inside the same tube the W3/W8 bounds certify. The bounds apply AT x_w.
+
+**RULE-6 STALL REPORT (cycles 8–12, no confirmed deletion).** Physical sentence: the four walls' joint content is now one assembled claim — a blowup must live infinitely long in its own material clock while its lawful selector-well erodes at a definite material rate — and every piece of that claim is filed, certified, or pending exactly one partner gate. Attempts this window: σ evaluation (Cycles 8–9), L1/L2 resolutions, Gap-B supply (killed — selector circularity), well-selector reconstruction (Cycle 12, pending), the material-clock tautology (this cycle). The missing exact fact is no longer mathematical but adjudicative: the partner's refutation attempt on the well-selector candidate; behind it, for constants-level rigor, two finite computations remain named (Burgers-profile P₂ integral; thick-core m=0 dispersion).
