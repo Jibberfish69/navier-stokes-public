@@ -4536,3 +4536,143 @@ nonzero profile.
 
 **Status.** Checked obstruction and strict branch reduction. This is not Gold
 closure.
+
+## 61. HMIN IS WEIGHTED CROSS-SCALE OVERLAP, NOT CO-SCALE OCCUPANCY (2026-07-09)
+
+For
+
+```math
+r_{s,j}=2^{j/2}\|\Delta_j u_s\|_2,
+\qquad
+A_{s,j}=2^jr_{s,j},
+\tag{G61.1}
+```
+
+define
+
+```math
+\begin{aligned}
+\mathcal N_{s,\ell}:={}&
+\sum_{\substack{|m-\ell|\le C_0\\n\le m-4}}
+2^{n-m}A_{s,m}A_{s,n}\\
+&+
+\sum_{\substack{m\ge\ell-C_0\\|n-m|\le3}}
+2^{-2(m-\ell)}A_{s,m}A_{s,n}.
+\end{aligned}
+\tag{G61.2}
+```
+
+The exact null-form estimates `(NIC.162)--(NIC.163)` give
+
+```math
+2^{\ell/2}
+\|\Delta_\ell\Pi_{-s}(u_s\times\Lambda u_s)\|_2
+\lesssim\mathcal N_{s,\ell}.
+\tag{G61.3}
+```
+
+Together with the cyclic identity
+
+```math
+\frac12P_H
+=
+\langle\Lambda u_-,\Pi_-(u_+\times\Lambda u_+)\rangle
+-
+\langle\Lambda u_+,\Pi_+(u_-\times\Lambda u_-)\rangle,
+\tag{G61.4}
+```
+
+this yields
+
+```math
+\boxed{
+|P_H|
+\lesssim
+\sum_\ell
+\left(
+r_{-,\ell}\mathcal N_{+,\ell}
++r_{+,\ell}\mathcal N_{-,\ell}
+\right).
+}
+\tag{G61.5}
+```
+
+Every record therefore has the weighted interaction floor
+
+```math
+\boxed{
+\sum_\ell
+\left(
+r_{-,\ell}\mathcal N_{+,\ell}
++r_{+,\ell}\mathcal N_{-,\ell}
+\right)
+\gtrsim\nu(D_++D_-).
+}
+\tag{G61.6}
+```
+
+No same-scale floor follows. For any integer `M>=2`, take the exact torus
+field supported at
+
+```math
+k=(1,0,0),
+\qquad
+p=(M,1,0),
+\qquad
+q=(-M-1,-1,0),
+```
+
+with helicities `(+,-,-)`, coefficients
+
+```math
+\widehat v_M(k)=h_+(k),
+\qquad
+\widehat v_M(p)=h_-(p),
+\qquad
+\widehat v_M(q)=-h_-(q),
+```
+
+and reality conjugates. With `a=M^2+1` and `b=(M+1)^2+1`, full convolution
+gives
+
+```math
+\boxed{
+P_H(v_M)
+=\frac{2M+1+\sqrt a-\sqrt b}{\sqrt{ab/2}}>0,
+\qquad
+D(v_M)=2(1+a^{3/2}+b^{3/2}).
+}
+\tag{G61.7}
+```
+
+The full quadratic support is
+
+```math
+\pm\{(1,0),(M-1,1),(M,1),(M+1,1),(M+2,1),(2M+1,2)\}.
+\tag{G61.8}
+```
+
+For `Gamma=2 nu D(v_M)/P_H(v_M)`, the full Navier--Stokes datum
+`u=Gamma v_M` satisfies
+
+```math
+\boxed{
+P_H(u)=2\nu D(u),
+\qquad
+R'(0)=2\nu D(u)>0.
+}
+\tag{G61.9}
+```
+
+Its positive helicity lies at unit scale and its negative helicity lies near
+`M`. Taking `M` beyond the LP overlap width leaves no block containing both
+signs. Narrow compact-Fourier helical packets preserve the strict coefficient
+and the scale separation on `R^3`, after which scaling by the actual
+`2 nu D/P_H` gives the same exact record identity.
+
+**Adversarial result.** The HMIN null form enforces weighted triadic overlap,
+including high--high-to--low interactions. It does not enforce co-scale
+mixed-helicity occupancy.
+
+**Status.** Exact scale-resolved consequence plus exact counterexample. This is
+not Gold closure.
