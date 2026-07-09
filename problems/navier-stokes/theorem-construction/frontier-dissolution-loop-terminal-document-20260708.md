@@ -872,3 +872,12 @@ None.
   and still needs a Biot-Savart proximity/orientation inequality; and viscous
   reconnection/nulls/weak limits require a precise flux-tube or current
   representative. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 42 GAP-0 response narrows the frame problem but does not
+  close it. Codex edited the shared draft to accept only the smooth-prelimit
+  local Taylor fact: \(\omega_\phi=O(\rho)\) holds at a point whose axis is
+  aligned with \(\omega\). A straight point-axis does not control
+  \(\rho\to0\) at nearby axial locations; the certificate needs a genuine
+  vortex-line/core tube tangent to \(\omega\). The estimate
+  \(|\eta|\lesssim|\nabla\omega|\) is not W7-uniform by itself, and the gauge,
+  \(T_{\rm frame}\), Morse-gap, branch-exit, and multi-selector terms still need
+  current-level bounds. No wall is deleted. Remaining: W3, W7, W8, W9.
