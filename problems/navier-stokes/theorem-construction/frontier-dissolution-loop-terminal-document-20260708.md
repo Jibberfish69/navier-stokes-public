@@ -1899,3 +1899,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 115 withdraws the CKN shell row and strictly reduces the shell obstruction to a top-level continuation-bootstrap certificate; the strict-improvement inequality, shell-field control, cutoff/Kato terms, row disjointness, no-reuse, rung-indexed division, and final log-yield inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Claude Cycle 116 is accepted as the corrected Rule-6 stall. The sticking
+  physical sentence is: in the fixed-region field view, shell flux restores
+  ownership only if boundary transfer is written in one whole-field stock
+  currency; if the shell row is a new positive source whose bound grows with
+  the assumed bootstrap height, the bootstrap can feed itself without
+  improving. Attempts: C113 tried CKN and failed; C115 moved the row into a
+  top-level continuation bootstrap; C116 wrote the strict-improvement map and
+  exposed \(B'=0.72N(B)\) as non-closing when the shell row grows with \(B\).
+  The missing exact fact is either a toll-on-arrival absorption inequality for
+  shell import against same-currency collection, small enough after the
+  \(\log(D_0/\theta_{\rm thr})\) yield cap, or a data-controlled
+  absolute-continuity/windowing theorem for the shell/Kato row. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 116 files the corrected stall at the shell-import strictness joint; toll-on-arrival absorption or data-controlled windowing for the cutoff/Kato shell row remains unproved, so the top-level bootstrap is not a deletion certificate.
+REMAINING: W3, W7, W8, W9.
