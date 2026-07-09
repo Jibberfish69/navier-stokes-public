@@ -4039,7 +4039,7 @@ Fourier variables,
 
 ```math
 \Pi_s(\xi)=\frac12\left(
-I-\widehat\xi\otimes\widehat\xi+s,i\widehat\xi\times
+I-\widehat\xi\otimes\widehat\xi+s i\widehat\xi\times
 \right).
 ```
 
@@ -4121,9 +4121,10 @@ At every nonzero smooth time with total critical height nondecreasing,
 This is an exact same-field participation barrier: critical growth cannot be
 carried by one helicity sign alone. It is not a Gold bound. Navier--Stokes
 scaling preserves both critical helical norms while shrinking physical energy
-and time. Scaled smooth solutions therefore show that energy and scaling do
-not exclude smaller-scale repetitions; they do not construct repetition in
-one trajectory.
+and time. Scaled smooth solutions therefore show only that `(G58.9)` supplies
+neither a scale-independent energy charge nor a dwell-time lower bound. They
+do not construct repetition in one trajectory, and a same-trajectory history
+identity could still exclude it.
 
 **Adversarial result.** The exact sector identities, pure-helicity
 cancellation, projector annihilation, high--low symbol gain,
@@ -4139,3 +4140,245 @@ realize mixed-helicity critical records. The remaining theorem is a
 time-integrated, scale-breaking same-field statement that bounds or excludes
 those repetitions. Nothing in `(G58.1)--(G58.9)` supplies that event count,
 one-way loss, or peak bound.
+
+## 59. QUADRATIC HELICAL-STATE NO-GO AND ODD-CURRENT OBSTRUCTION (2026-07-09)
+
+This section continues to treat the helical signs as simultaneous readouts of
+one velocity field. It classifies the information in their four quadratic
+moments and then attacks the first same-field odd current that lies outside
+that quadratic state.
+
+Set
+
+```math
+E_s=\|u_s\|_2^2,
+\quad
+K_s=\|\Lambda u_s\|_2^2,
+\quad
+R_s=\|\Lambda^{1/2}u_s\|_2^2,
+\quad
+D_s=\|\Lambda^{3/2}u_s\|_2^2,
+\quad
+T_s=-\langle B,u_s\rangle.
+\tag{G59.1}
+```
+
+The exact full-field balances are
+
+```math
+\boxed{
+T_++T_-=0,
+\qquad
+\frac12E_s'+\nu K_s=T_s,
+\qquad
+\frac12R_s'+\nu D_s=\frac12P_H.
+}
+\tag{G59.2}
+```
+
+For `m_s=R_s/E_s`, one obtains
+
+```math
+\boxed{
+m_s'
+=
+\frac{P_H-2m_sT_s-2\nu(D_s-m_sK_s)}{E_s},
+}
+\tag{G59.3}
+```
+
+with the exact spectral-variance identity
+
+```math
+\boxed{
+E_sD_s-R_sK_s
+=
+\frac12\iint
+(r+\rho)(r-\rho)^2\,d\mu_s(r)d\mu_s(\rho)
+\ge0.
+}
+\tag{G59.4}
+```
+
+Equality requires single-radius support. It is impossible for a nonzero
+`L^2(R^3)` sector and is exactly a single Laplace shell on the torus.
+
+For any `C^1` scalar `F(E_+,E_-,R_+,R_-)`, its inviscid nonlinear derivative
+is
+
+```math
+\mathcal N_F
+=
+2(F_{E_+}-F_{E_-})T_+
++(F_{R_+}+F_{R_-})P_H.
+\tag{G59.5}
+```
+
+The map `u -> -u` fixes all four quadratic moments and the slaved pressure,
+while it reverses `(T_+,P_H)`. Therefore
+
+```math
+\boxed{\mathcal N_F(-u)=-\mathcal N_F(u).}
+\tag{G59.6}
+```
+
+A universal one-sided nonlinear sign forces `mathcal N_F=0` for every smooth
+field.
+
+The stronger invariant classification is also exact. At every interior moment
+state, two compact-Fourier `(+,+,-)` triad clusters can be chosen with distinct
+lone negative radii. Their plane-wave transfer ratios are
+
+```math
+\frac{P_H}{T_+}=-2r_1,
+\qquad
+\frac{P_H}{T_+}=-2r_2,
+\qquad
+r_1\ne r_2.
+\tag{G59.7}
+```
+
+Generic rotations and narrow disjoint support balls remove every undesignated
+cross resonance. Phase shifts by `pi` preserve the quadratic moments and
+reverse the selected cubic transfer. Two nonresonant silent packet pairs in
+each helicity sign then fill any residual `(E_s,R_s)` exactly. The complete
+construction and amplitude formulas are `(NIC.177)--(NIC.182)` in the native
+certificate. Consequently the attainable fixed-fiber transfer vectors span
+
+```math
+\{(2T,-2T,P,P):T,P\in\mathbb R\},
+```
+
+and every universal four-moment invariant has the form
+
+```math
+\boxed{
+F(E_+,E_-,R_+,R_-)
+=f(E_++E_-,R_+-R_-).
+}
+\tag{G59.8}
+```
+
+Thus the quadratic helical state contributes only total energy and signed
+helicity as universal inviscid invariants.
+
+The first odd scalar outside this classification is the exact critical current
+
+```math
+P_H(u)=-\langle B(u,u),\Lambda u\rangle.
+```
+
+Writing `N=B(u,u)`, its full Navier--Stokes evolution is
+
+```math
+\boxed{
+\begin{aligned}
+P_H'
+={}&Q_E+\nu Q_V,\\
+Q_E
+={}&\langle B(N,u)+B(u,N),\Lambda u\rangle
++\langle N,\Lambda N\rangle,\\
+Q_V
+={}&\langle B(\Lambda^2u,u)+B(u,\Lambda^2u),\Lambda u\rangle
++\langle N,\Lambda^3u\rangle.
+\end{aligned}
+}
+\tag{G59.9}
+```
+
+This exact evolution is unsigned. For the equal-shell two-mode datum
+`u hat(+/- e_1)=a e_2`, `u hat(+/- e_2)=b e_3`, one has
+
+```math
+P_H=Q_V=0,
+\qquad
+Q_E=(\sqrt2-1)\|N\|_2^2>0.
+\tag{G59.10}
+```
+
+For the planar two-mode datum
+
+```math
+k=(1,3,0),
+\quad
+\ell=(1,-1,0),
+\quad
+\widehat u(k)=\frac{i}{10}(-3,1,0),
+\quad
+\widehat u(\ell)=\frac{i}{2}(1,1,0),
+```
+
+with the conjugate negative modes, one has
+
+```math
+P_H=Q_V=0,
+\qquad
+\boxed{
+Q_E=\frac{32+34\sqrt2-26\sqrt{10}}{25}<0.
+}
+\tag{G59.11}
+```
+
+These periodic signs persist for compact-Fourier divergence-free Schwartz
+localizations on `R^3` by the carrierwise multiplier limit
+
+```math
+L^{-3}Q_E(\mathbb P_{\mathbb R^3}(\chi(x/L)U))
+\longrightarrow c_\chi Q_E^{\mathbb T^3}(U),
+\qquad c_\chi>0.
+\tag{G59.12}
+```
+
+The sign failure also occurs on a strict critical-height growth state. For the
+triad
+
+```math
+k=(-3,-3,0),
+\quad
+p=(-2,-1,0),
+\quad
+q=(5,4,0),
+```
+
+with helicities `(+,-,-)` and amplitudes `(2,1,1)`, the exact full convolution
+gives constants `P,D,Q` satisfying
+
+```math
+P=P_H(u)>0,
+\qquad
+107P-D>0,
+\qquad
+Q=Q_E(u)<0,
+\qquad
+Q_V(u)=-64P.
+\tag{G59.13}
+```
+
+The complete radicals and rational root brackets are
+`(NIC.192)--(NIC.196)`. For `u^Gamma=Gamma u` and every
+`Gamma>=107 nu>0`, one has simultaneously
+
+```math
+\boxed{
+R_\Gamma'(0)
+=2\Gamma^2(\Gamma P-\nu D)>0,
+\qquad
+P_H'(0)
+=\Gamma^3(\Gamma Q-64\nu P)<0.
+}
+\tag{G59.14}
+```
+
+Continuity gives a short interval of strict record growth on which the odd
+current is decreasing. Restricting `P_H` monotonicity to critical record times
+therefore does not restore an arrow.
+
+**Adversarial result.** The sector balances, spectral-variance identity,
+parity no-go, fixed-moment span construction, exact `P_H'` identity, both
+two-mode signs, and the record-growth counterexample survived independent Sol
+and adversarial-lane recomputation.
+
+**Status.** Exact invariant classification plus exact obstruction. This is not
+Gold closure. The instantaneous state `(E_+,E_-,R_+,R_-,P_H)` cannot supply
+the missing one-way theorem. Any surviving Gold argument must use genuinely
+time-nonlocal same-trajectory information or richer same-field geometry.
