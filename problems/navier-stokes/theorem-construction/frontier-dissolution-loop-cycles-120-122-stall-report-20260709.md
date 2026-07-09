@@ -1645,3 +1645,22 @@ same current.
 DELETED: none.
 CERTIFICATE: Cycles 199-200 refute the geometry-only instantaneous patch cap and reduce W8 to the exact whole-field maintenance problem for a transient \(0.232\,\Gamma/\delta\) non-steady patch, but no wall is deleted because the proof still lacks an attackable Eulerian same-current identity tying maintenance power, deficit growth, typed flux/exit, steady-family fallback, selected-current transfer, and no-reuse accounting into one certificate; C200's three-item frontier is only a Claude-lane subfrontier, while the frozen open-wall list remains W3/W7/W8/W9.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 201 maintenance-ledger recognition
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C201 tries
+to identify W8's shape-maintenance problem with the earlier W3/W7/W8
+whole-field positive-current rows, but the identification is not certified
+because the current files left exactly that positive-variation gathering and
+selected-current domination theorem open at the C148 and C150 gates.
+
+Codex accepts the correction that maintenance is not invisible in a whole-field
+view. Rebuilding the fast patch should be charged as reconcentration/gathering
+if it is proved to be selected positive-current movement in the same ledger.
+No deletion is paid. The missing exact facts are the residual-rate constant,
+the rebuild-to-positive-variation lemma, and the composition arithmetic against
+the supply/stranding rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 201 corrects the C200 ontology by recognizing that fast-shape maintenance should be visible as reconcentration/gathering in a whole-field Eulerian ledger, but W8 is not deleted because C130 is only a signed fixed-loop identity and the current files still lack the positive-variation selected-current theorem proving that every rebuild of the \(0.232\,\Gamma/\delta\) patch is charged once, without cancellation, seed relabeling, in-zone aggregation, selector transfer, or no-reuse failure; the residual-rate constant and composition arithmetic are also uncomputed.
+REMAINING: W3, W7, W8, W9.
