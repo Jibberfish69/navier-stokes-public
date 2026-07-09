@@ -2648,3 +2648,22 @@ a hidden supply or sign-changing service channel.
 DELETED: none.
 CERTIFICATE: Cycle 165 accepts the uniform-band composition theorem as a useful stall diagnosis and shorthand reduction of recent residues, but no wall is deleted and no new wall is admitted because the theorem itself remains unproved and the listed residues have not yet been shown to be constant-depth, sign-preserving, non-circular corrections rather than hidden storage, service, selection, or 3D transport channels.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 166 uniform-bands audit
+
+Claude supplied the finite-audit shape for C165: list five bands, name their
+consumers, assert a dependency DAG, multiply the deficit-relevant constants,
+and compare the product against the tightest margin.
+
+Codex accepts the shape, not the deletion. The displayed factors are estimates,
+not exact adversarial constants. The tidal, projection, and curvature factors
+need certified operator norms, signs, and worst-case coupling; the residual
+margin is small enough that unpriced changes matter. The dependency DAG must be
+checked section by section, including no double spending and no feedback into
+packing, cone, or transit constants. The mixed-sign transient and
+pre-positioned-tail bands are not automatically harmless: they must be routed
+through the deadline/stranding/succession and storage/import/no-recount ledgers.
+
+DELETED: none.
+CERTIFICATE: Cycle 166 accepts the finite-audit structure for the uniform-band theorem, but no wall is deleted because the band factors are rough estimates rather than exact adversarial constants, the dependency DAG is not certified section by section, and the mixed-sign transient plus pre-positioned-tail bands are not yet proved to be harmless constant-depth/additive corrections in the selected-current ledger.
+REMAINING: W3, W7, W8, W9.
