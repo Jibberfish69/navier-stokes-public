@@ -1067,3 +1067,21 @@ that preserve the lower Burgers scale under iteration.
 DELETED: none.
 CERTIFICATE: Cycle 164 accepts the pressure-curl cancellation, the 2D Euler moment conservation, and the external-strain \(\alpha_{\max}\) target as useful ingredients, but no wall is deleted because those facts have not been transferred to the actual 3D selected cross-section with pressure-slaved strain geometry, self-induced stretching/tilting, axial flux, curvature, mixed-sign serviceability, moving selector, and banded correction control.
 REMAINING: W3, W7, W8, W9.
+
+## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
+
+Physical sentence of the sticking wall: no fluid mechanism remains unanswered
+in the §9ee–§9aaa stack; the sticking point is the UNIFORMITY of finitely many
+banded corrections (tidal, tilt/σ, curvature, mixed-sign transient,
+pre-positioned tail) across the composed chain.
+
+Missing exact fact (single target): THE UNIFORM-BANDS THEOREM — the five bands
+compose to a finite total constant shift, uniformly over the stack, with no
+circular consumption between bands, moving the halt depth by a constant and
+no inequality's direction. Stated in §9bbb of the certificate in attackable
+form. This is an accounting theorem over a finite list, the kind a referee
+demands of any long proof, and the last named object between the stack and
+the walls' terminal typing.
+
+REMAINING: W3, W7, W8, W9 (rule-6 STOP; the uniform-bands theorem is the
+current missing exact fact).
