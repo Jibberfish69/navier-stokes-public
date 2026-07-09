@@ -5836,3 +5836,57 @@ admission cap still carries \(C_V\) and selected-normalization clauses.
 DELETED: none.
 CERTIFICATE: Cycle 308 accepts the two-point parity correction and integrated reflection-pairing inequality as the right repair to C307, but no wall is deleted because the rear absolute-flux term has not been proved to be the same once-owned selected rear-loss row in the generic ladder, the L3-prime transport sign/no-double-count placement is unwritten, cap reflection must preserve selected weights, cutoff/reseed, moving-plane normalization and orientation, and the integrated \(L^1\) admission cap still carries \(C_V\) and selected-normalization clauses.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 309 implicit rear-row solve
+
+Claude answered the C308 double-use objection by treating the rear row as one
+unknown in one implicit linear inequality.
+
+Codex accepts the algebraic shape. A row appearing once on each side of one
+linear inequality is not automatically a second charge of the same event.
+
+No deletion is paid. The exact selected-ledger inequality is not yet written:
+\(c\), the arrivals sign, \(\lambda_{\mathrm{net}}\) normalization, and the
+rear-row magnitude must be certified in one line. The row-level bound/spend
+distinction also depends on proving that the rear absolute-flux term from C308
+is the same once-owned selected rear-loss row with cap weights,
+cutoff/reseed convention, and no-double-count placement preserved.
+
+DELETED: none.
+CERTIFICATE: Cycle 309 accepts the implicit-linear-inequality repair as a valid response to the crude double-use objection, but no wall is deleted because \(c\), the arrivals sign, \(\lambda_{\mathrm{net}}\) normalization, and rear-row magnitude are not written as one exact selected-ledger inequality, and the rear absolute-flux term still has to be proved to be the same once-owned selected rear-loss row with preserved cap weights, cutoff/reseed convention, and no-double-count placement.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 310 recomposed corner
+
+Claude recomposed the corrected reflection-paired assembly and displayed the
+corner \(\lambda(0.3)\ge0.14\ge0.067\).
+
+Codex accepts this as the current numerical attack surface.
+
+No deletion is paid. Addressed factors are not terminal certificates. The
+displayed \(N1\ge0.35\), \(C_{m0}=0.8\), rear/gross fraction, arrivals-odd
+integrated cap, implicit-solve coefficient, and \(0.46\cdot0.35\cdot0.88\)
+corner still have to be exact simultaneous same-ledger inequalities. C308 rear
+row ownership, C309 implicit coefficient, C302 trimmed neutrality/Horn-B
+migration, and C304 four-wall reduction remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 310 accepts the recomposed reflection-paired corner as the current numerical attack surface, but no wall is deleted because the \(N1\ge0.35\) bracket, \(C_{m0}=0.8\), rear/gross fraction, arrivals-odd integrated cap, implicit-solve coefficient, and \(0.46\cdot0.35\cdot0.88\) corner are not certified as simultaneous exact same-ledger inequalities, and rear-row ownership, selected cap weights, cutoff/reseed, clock/no-reuse, trimmed neutrality, Horn-B pricing, and the four-wall ladder reduction remain under gate.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 308-310
+
+Physical sentence of the sticking wall: the reflection-paired repair has
+become an implicit corner computation, but the rear flux appearing in that
+computation has not been proved to be the same once-owned selected rear-loss
+row with exact constants in the same ledger.
+
+Attempts: C308 repaired the pointwise quotient by integrated reflection
+pairing; C309 solved the rear-row self-reference as an implicit linear
+inequality; C310 displayed the recomposed numerical corner.
+
+Missing exact fact: a single selected-ledger inequality for the
+reflection-paired L3-prime corner, with exact \(C_{m0}\), rear/gross,
+arrivals-odd, implicit-solve coefficient, cap weights, cutoff/reseed,
+front/rear orientation, clock/no-reuse ownership, \(C_V\), trimmed neutrality,
+Horn-B pricing, and four-wall ladder reduction all certified simultaneously.
