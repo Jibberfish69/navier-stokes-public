@@ -1598,3 +1598,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 93 reduces the coupled-CF stall to an overlapping-window two-row induction plus a same-current coefficient-substitution checklist; both remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 94 half-window overlap is accepted as the right handoff
+  geometry, but it does not close the induction. The previous window's
+  second-half output gives bounds on \(W_n\)'s first half; it does not by itself
+  give coefficient bounds on \(W_n\)'s second half before that second half is
+  estimated. A parabolic estimate that assumes coefficient bounds on all of
+  \(W_n\) is still circular unless the proof adds a causal bootstrap/continuity
+  argument on \(W_n\), a smaller sliding-window construction, or an absorption
+  theorem estimating second-half coefficients while they are being used. The
+  tier floor, zero/exchange routing, and boundary route must also persist
+  through the handoff interval. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 94 validates the overlap geometry as support; the internal same-window bootstrap, tier-route persistence, and §8p substitution checklist remain unproved.
+REMAINING: W3, W7, W8, W9.
