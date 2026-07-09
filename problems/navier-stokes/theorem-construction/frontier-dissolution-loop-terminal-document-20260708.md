@@ -741,3 +741,15 @@ None.
   certificate current carries the normalized bill, defect-window export, W7
   graph closure, W8 payer row, and W9 action rows without importing them by
   definition. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 27-28 stranding / unified-race gate accepts useful symmetry
+  reductions but no wall deletion. The whole-space vorticity-monopole
+  cancellation and exact \(z\)-invariant axial-stretch zero law are meaningful
+  in their complete classes, and Cycle 28 correctly concedes that one snaking
+  tube can evade naive \(\Gamma\)-structure counting. The proposed replacement
+  stranding theorem is not yet exact: it still needs retained-class zero-law
+  boundary terms, a moving-frame shell family, a rigorous available-speed cap,
+  no-regrowth/no-preposition escape, \(O(1)\)-shell gather-cost absorption, and
+  the variational supply bounds for both aligned and misaligned faces. These
+  clauses are not carried through W3 row uniformity, W7 graph closure, W8 payer
+  currency, or W9 compact action. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
