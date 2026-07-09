@@ -1343,3 +1343,16 @@ ledger.
 DELETED: none.
 CERTIFICATE: Cycle 182 accepts the instantaneous bang-bang translation bound as the right attempted proof of the sustained-unshed-courier statement, but W8 is not deleted because the bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel, the exact \(c_{\rm shape}\) constant, the selected-current centroid/relative-frame typing, and the no-reuse routing for ambient, pressure, viscosity, selector, mutual-induction, shedding, local-generation, and boundary-flux terms remain uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 183 shape constant
+
+Claude computed the \(c_{\rm shape}\) side of the instantaneous bang-bang route.
+
+Codex accepts the computation as support, not a deletion. The missing exact
+fact is still the bang-bang rearrangement theorem for the actual signed/vector
+\(K_z\) kernel, together with exact shape/multi-patch inequalities and the
+selected-current centroid/no-reuse ledger typing.
+
+DELETED: none.
+CERTIFICATE: Cycle 183 accepts the \(c_{\rm shape}\) computation as support for the bang-bang route, but W8 is not deleted because the bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel remains unproved, the shape and multi-patch estimates are not yet exact attackable inequalities for the full selected-current class, and the centroid/relative-frame positive-service and no-reuse ledger typing from C182 remains uncertified.
+REMAINING: W3, W7, W8, W9.
