@@ -927,3 +927,22 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycles 45-46 narrow GAP-4 to a moving-surface flux/Radon-Nikodym theorem for \(\Gamma_{\rm gather}(u_0)\) and GAP-5 to a stock-orientation current plus defection-bookkeeping inequality, but neither theorem is proved or carried through W3/W7/W8/W9.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 47 Kato-current gate accepts a real sharpening of GAP-3,
+  not a deletion. The absolute-continuity-versus-singularity replacement is
+  the right measure-theoretic form for preventing smooth pump/tilt/frame
+  sources from cancelling the Kato defect, but it requires uniform absolute
+  continuity in the retained limit; smooth prelimit source densities do not
+  rule out singular limiting mass from \(\rho^{-4}\), moving cutoffs, selector
+  concentration, or shrinking neighborhoods of \(Z(\omega_\phi)\). The
+  separating-surface coarea certificate is also the right geometry for the
+  profile-independent lower bound, but it still needs the forced
+  \(+\lambda/-\lambda\) cores to define a fixed separating class, an
+  \(A_{\min}\) lower bound stable under ring deformation and weak limits, and a
+  retained band-volume upper bound so the Cauchy-Schwarz floor cannot
+  degenerate through broad transition. The moving-operator Kato write-up and
+  route typing remain shared with GAP-0/W7. No wall is deleted. Remaining: W3,
+  W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 47 narrows GAP-3 to moving-operator Kato plus uniform source absolute-continuity, separating-class area, band-volume, and route-table constants; these facts are not proved or carried through the whole-field Kato-current domination theorem.
+REMAINING: W3, W7, W8, W9.
