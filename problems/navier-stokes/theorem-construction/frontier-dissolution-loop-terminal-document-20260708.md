@@ -3760,7 +3760,7 @@ DELETED: none.
 CERTIFICATE: Cycle 232 accepts that the C231 profile is ledger-native when read as the smoothed selected density \(w\rho\), but W8 is not deleted because the actual dipole inequality for \(w\rho\), the numeric \(C_{\mathrm{dipole}}\) and allowed \(h\), the smoothed-ledger bracketing/transition-band compatibility, the direct boundary-gradient \(h\)-independence, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain uncertified.
 REMAINING: W3, W7, W8, W9.
 
-## Codex Cycle 233 orientation versus spatial scale
+## Codex obstruction pass on orientation versus spatial scale
 
 Codex attacked the C231-C232 contraction certificate directly. The obstruction
 is that the smoothing width \(h\) in C218-C219 is an orientation-band parameter,
@@ -3775,5 +3775,5 @@ inequality is proved in the re-seeded selected-current ledger. C223's
 TV-to-one-way conversion and the sweep/no-reuse split remain open.
 
 DELETED: none.
-CERTIFICATE: Cycle 233 refutes the current C231-C232 contraction certificate as typed because the smoothing width \(h\) used in the smoothed selected ledger is an orientation-band parameter, not a spatial dipole scale; W8 is not deleted because no theorem converts the actual source \(\Delta(w(\theta)\rho)\), including the \(w'\nabla\theta\), \(w''|\nabla\theta|^2\), and \(w'\Delta\theta\) terms, into a small spatial first-moment bound strong enough for \(\kappa<1\), and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+CERTIFICATE: The direct obstruction pass refutes the current C231-C232 contraction certificate as typed because the smoothing width \(h\) used in the smoothed selected ledger is an orientation-band parameter, not a spatial dipole scale; W8 is not deleted because no theorem converts the actual source \(\Delta(w(\theta)\rho)\), including the \(w'\nabla\theta\), \(w''|\nabla\theta|^2\), and \(w'\Delta\theta\) terms, into a small spatial first-moment bound strong enough for \(\kappa<1\), and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
