@@ -4479,3 +4479,41 @@ inequality.
 DELETED: none.
 CERTIFICATE: Cycle 306 accepts the bound-vs-quantum distinction and forward-composition ontology, but no wall is deleted because the required selected-state transition inequality from dispatch odd fraction to arrival odd influx is not proved with the same packet/current, selector, cutoff/reseed convention, boundary trace, pressure, viscosity, clock, no-recount ownership, certified transit-growth pricing, and C305 common-measure projection; C306 is a strict reduction to that state-propagation theorem, not a terminal certificate.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 307 smooth-prelimit projection
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C307 tries
+to close the projection theorem by writing the RN derivative as a pointwise
+quotient on the smooth prelimit.
+
+Codex accepts the smooth-prelimit reduction.
+
+No deletion is paid. The quotient is not yet a domination theorem. The selected
+\(m=0\) odd influx is a parity/projection component, so it is not automatically
+a local subdensity of \(|\rho u_n|\,dA\,dt\). The certificate must still prove
+quotient definedness, denominator floors, local domination despite reflected or
+cap-paired projection terms, and the C306 propagated-admission bound in the
+same selected crossing measure.
+
+DELETED: none.
+CERTIFICATE: Cycle 307 accepts the smooth-prelimit RN formulation as a useful reduction, but no wall is deleted because the pointwise quotient does not prove that the selected \(m=0\) odd influx density is dominated by the same local gross crossing density; quotient definedness, denominator floors, reflected/cap-paired projection effects, the C306 propagated-admission bound, trimmed neutrality, and the generic-ladder reduction remain uncertified.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 305-307
+
+Physical sentence of the sticking wall: the arrivals repair has moved from
+gross-current equality to projection, then to bound propagation, then to a
+smooth pointwise quotient, but the same selected odd influx has not been proved
+to be a local dominated subdensity of the same gross crossing current.
+
+Attempts: C305 replaced equality by admission-capped projection; C306 replaced
+reuse language by forward state composition; C307 replaced the measure theorem
+by a smooth-prelimit pointwise quotient.
+
+Missing exact fact: a pointwise domination theorem proving that the selected
+\(m=0\) odd front-cap influx density is absolutely continuous with respect to
+the same gross crossing density with a bounded derivative supplied by dispatch
+admission plus certified transit growth, including denominator/floor
+conventions, parity/reflection geometry, selector/cutoff/reseed ownership,
+clock/no-recount typing, pressure and viscosity placement, and the trimmed
+neutrality/Horn-B ladder residues.
