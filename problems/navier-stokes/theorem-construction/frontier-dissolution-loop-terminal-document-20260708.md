@@ -2008,3 +2008,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: rule-6 STOP after Cycles 120-122; the TV-event ledger, pump-extinction transfer, and material-family gauge reduce to the retained material-family viscous TV/feed-thickness theorem, with no confirmed deletion.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 123 two-are-one candidate is refuted as a deletion certificate.
+  It can be kept only as a reduction of the feed-thickness clause to the §9h
+  size-window plus an exact off-scale routing/decomposition theorem. The
+  "empty cell" move does not pay by definition: thicker sheets must be charged
+  to coarser parent stock plus priced stretching, thinner sheets to the
+  \(\sigma\)-weighted subthreshold side, and hybrid roll-up-while-stretching
+  events must be decomposed without overlap in the same TV-event ledger. C122
+  also left material-family admissibility and viscous TV contraction/decay
+  open, so the frontier does not collapse to the §9h window. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 123 refutes the proposed two-are-one deletion: feed-thickness may reduce to the §9h size-window plus off-scale routing/decomposition theorem, but material-family admissibility, viscous TV contraction/decay, and event-currency transfer remain unproved.
+REMAINING: W3, W7, W8, W9.
