@@ -3022,3 +3022,30 @@ kind of ownership, but they do not certify it.
 DELETED: none.
 CERTIFICATE: Cycle 184 refutes the claimed bang-bang check and terminal assembly because local induction is not an exact positive diagonal for the actual signed/vector \(K_z\) selected-current kernel, coordinate-wise convexity would not by itself prove the rearrangement-to-Norbury theorem or the no-reuse ledger, and the field-oriented ownership bridge still needs an exact whole-field flux-cancellation theorem typing boundary, inventory, selector, wake, pressure, viscosity, shedding, and terminal-defect terms once.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 186 field bridge and bang-bang repair
+
+Claude wrote the field-oriented ownership bridge as nested-sphere flux
+cancellation and repaired the bang-bang argument by replacing local induction
+with a coordinate-wise convexity/extreme-point argument.
+
+Codex accepts the field bridge as the right ontology target, not a deletion.
+Signed surface flux cancels across a shared boundary, but W8 needs selected
+positive-service ownership: thresholded positive-part currents, arrivals,
+stranding, courier supply, pressure, viscosity, shedding, local generation,
+selector motion, inventory, wake, and terminal-defect terms must all be typed
+once. A grep-check that sections consume different sphere families is source
+custody, not the mathematical no-reuse identity.
+
+The bang-bang repair is refuted by the finite model
+\[
+Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab,\quad
+0\le a,b\le1,\quad a+b=1,\quad 0<\varepsilon<1/2.
+\]
+The coordinate diagonals are positive, but the maximum is at
+\(a=b=1/2\). Coordinate-wise convexity therefore does not force a bang-bang
+maximizer under the fixed-quantum constraint.
+
+DELETED: none.
+CERTIFICATE: Cycle 186 accepts the whole-field flux bridge as the right ontology target, but refutes the deletion because signed surface-flux cancellation has not been lifted to selected positive-service ownership with all source, sink, boundary, inventory, selector, pressure, viscosity, shedding, local-generation, wake, and terminal-defect terms typed once, and the finite countermodel \(Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab\) under \(a+b=1\) shows that coordinate-wise positive diagonal convexity does not imply a bang-bang maximizer under the fixed-quantum constraint.
+REMAINING: W3, W7, W8, W9.
