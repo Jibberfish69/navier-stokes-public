@@ -2059,3 +2059,21 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 126 refutes empty-by-admission for retained-hull admissibility; the clause reduces to mint-local material-family admissibility plus degeneration, folding, exit/re-entry, selector, and limit route tables in the same event/range currency.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 127 translation identity is accepted as exact for a fixed smooth
+  loop:
+  \[
+  \nu\oint_C\Delta u\cdot dl
+  =\nu\,\Delta_y\Gamma_C(y)\big|_{y=0}.
+  \]
+  This removes the scalar-closure objection for the viscous defect and
+  supersedes the §9n drift-absorption operator formula. It does not delete a
+  frontier wall because the claimed range contraction still needs a lawful
+  material-envelope argument: the maximizing loop class has length, boundary,
+  selector, and retained-hull constraints, while Kelvin follows material loops
+  and fixed-loop derivatives contain transport terms. Boundary/length/selector
+  activation and the range-to-event-floor currency match remain unproved. No
+  wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 127 accepts the translation identity for the fixed-loop viscous Kelvin defect and supersedes the §9n drift-absorption formula, but the range-contraction deletion fails until material-envelope admissibility, boundary/length/selector routing, and range/event currency matching are proved.
+REMAINING: W3, W7, W8, W9.
