@@ -765,3 +765,13 @@ None.
   W9 is compact zero-surplus action at large \(\Omega\). The shell-1 export
   constant is a computation target, not a net-negative new wall. No wall is
   deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 30 ring-conveyor gate accepts the countertrend: a candidate
+  coaxial ring at the merger floor has instantaneous strain above the threshold,
+  so the previous small shell-1 constant picture is not a deletion certificate.
+  The new target is the ring-conveyor/recycling lemma: the ring is expelled in
+  about one turnover, sustained growth needs replacement rings, and finite
+  log-growth would follow only after proving no mutual stationing ring-pair, the
+  marginal \(k=1\) conveyor deficit, the \(\Gamma_{\rm gather}\)-based budget,
+  and no fast recycling/regeneration. These are unproved W8/W9 accounting
+  clauses and still require W3 race uniformity and W7 tier/ring graph closure.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
