@@ -1205,3 +1205,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 65 reduces the residue to the retained-history \(\eta^*\) computation plus its admissibility/route-out theorem; the homogeneity sweep, transit-crossing reduction, ODE/B5 table, and number certificate remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 66 candidate ledger is useful arithmetic, not a deletion.
+  Its fixed-ball reservoir cap spends C61 as though residence were proved, but
+  C61 only reduced fixed containment to a residence lemma or direct
+  \(\int\delta(\tau)d\tau\) data-bound. Even after containment, the additive
+  \(G_R(u_0)\) reservoir needs W7/W8 no-recount and positive-variation
+  admission for moving canonical disks with folding, reconnection, repeated
+  boundary crossings, selector changes, and weak-limit loss. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 66 reduces the arithmetic endpoint to candidate constants, residence/fixed-ball admission, additive \(G_R\) no-recount/positive-variation admission, and recycle-factor comparison; those certificates remain unproved.
+REMAINING: W3, W7, W8, W9.
