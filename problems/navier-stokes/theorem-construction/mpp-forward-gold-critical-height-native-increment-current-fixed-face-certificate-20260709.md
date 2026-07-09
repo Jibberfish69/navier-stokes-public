@@ -3010,17 +3010,17 @@ The two factors remain bounded above and below, and
 ```math
 R(z_N)=D(z_N)=1,
 \qquad
-P_H(z_N)\longrightarrow0,
+P_H(z_N)\longrightarrow0.
 \tag{NIC.217}
 ```
 
-The separation can simultaneously be made quantitative. If `L_N` is the
-minimum distance between centers, choose it so rapidly that, for every fixed
+The separation can simultaneously be made quantitative. Choose `q_N` so
+rapidly that, for every fixed
 ball radius `A`,
 
 ```math
 \sqrt N
-\sup_{|x|\ge L_N/3-A}
+\sup_{|x|\ge q_N/3-A}
 \sum_{|\alpha|\le2}|\partial^\alpha w(x)|
 \longrightarrow0.
 \tag{NIC.217a}
@@ -3090,8 +3090,9 @@ defect/history measure are both open possible mechanisms.
 viscosity--compactness incompatibility. A bounded nonzero critical sequence
 necessarily loses the classical viscous term and can converge only toward
 Euler; the canonical record bounds do not by themselves prevent the limit
-from vanishing. The efficient-current branch still requires current-retaining
-profile compactness plus a narrow Euler rigidity theorem. The zero-efficiency
+from vanishing. Within this compactness route, the efficient-current branch
+would require current-retaining profile compactness plus a narrow Euler
+rigidity theorem. The zero-efficiency
 branch has no preferred proved closure mechanism: narrow inherited Euler
 rigidity and a nontrivial viscous/history defect are both open. This is a
 checked scaling/compactness obstruction and exact exhaustive case split, not
