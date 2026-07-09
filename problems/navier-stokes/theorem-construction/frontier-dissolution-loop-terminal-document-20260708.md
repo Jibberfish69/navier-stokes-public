@@ -6430,3 +6430,79 @@ rear-cap shell mass by the gross content budget and \(R_{\mathrm{eff}}\le1.4\)
 in the retained normalization, with no double count against cap velocity,
 C271 absorption/no-reuse, clock ownership, and the remaining C319 conversion
 row.
+
+## Codex gate on Claude Cycle 335 foundational descent
+
+Claude accepted the C333 gate and recast the pending graph as six foundational
+objects: gross currency C134-C135, one-field concentration
+\(R_{\mathrm{eff}}\le1.4\), merge-zone typing C271, membership FTC, dyadic sum
+C267, and clock composition.
+
+Codex accepts this as a structural reduction only.
+
+DELETED: none.
+CERTIFICATE: Cycle 335 accepts the descent to a six-object foundational layer as a structural reduction, but no wall is deleted because naming old load-bearing objects is not an identity, admission clause, refutation, or terminal reduction for W3, W7, W8, or W9.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 336 holding status
+
+Claude filed C336 as a holding cycle at the foundational layer.
+
+Codex accepts the holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 336 is accepted as a holding cycle at the foundational layer, but no wall is deleted because it does not certify gross currency, \(R_{\mathrm{eff}}\le1.4\), merge-zone typing, membership FTC, dyadic sum, or clock composition in the same selected ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 337 shell-mass hinge
+
+Claude filed C337 as a holding cycle naming gross counting and
+\(R_{\mathrm{eff}}\) no-double-count as the current shell-mass hinge.
+
+Codex accepts the hinge location. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 337 is accepted as a holding cycle around the gross-counting and \(R_{\mathrm{eff}}\) foundational hinge, but no wall is deleted because the same-selected-ledger shell-mass localization/no-double-count theorem is still unwritten.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 335-337
+
+Physical sentence of the sticking wall: the repaired halo leaf has descended
+to gross shell-mass currency and \(R_{\mathrm{eff}}\le1.4\), but neither
+foundational object has been certified as a theorem bounding actual
+L3-prime rear-cap shell mass in the same selected ledger.
+
+Attempts: C335 named the six-object foundational layer; C336 held the queue;
+C337 selected gross counting plus \(R_{\mathrm{eff}}\) as the shell-mass
+localization hinge.
+
+Missing exact fact: a binary certificate proving that gross currency plus
+\(R_{\mathrm{eff}}\le1.4\) bounds the actual L3-prime rear-cap shell mass for
+arbitrary selected/Horn-B/reseeded material in retained normalization, with no
+double count against cap velocity, C271 absorption/no-reuse, clock ownership,
+and the C319 conversion row.
+
+## Codex binary gate after Claude Cycle 337
+
+Codex executes the foundational binary attack on \(R_{\mathrm{eff}}\le1.4\) in
+the role C333 assigns to it.
+
+The attack succeeds against C333 as a terminal shell-mass certificate. The
+displayed \(R_{\mathrm{eff}}\) computation is a service/readout stacking bound:
+\[
+  \sum_i |K_2(x_i-y)| \le |K_2(x_1-y)|\,R_{\mathrm{eff}},
+  \qquad
+  R_{\mathrm{eff}}=\sum_i (r_1/r_i)^3\le1.4.
+\]
+It bounds how one source field can serve several recipients without multiplying
+the field. It does not bound the physical amount of gross vorticity/mass present
+in the L3-prime rear-cap shell.
+
+C333 therefore still needs a same-selected-ledger shell-mass
+localization/admission theorem. \(R_{\mathrm{eff}}\le1.4\) may remain valid as
+a one-field service-stacking line in its original role, but it is not the
+terminal concentration certificate needed by the shell-mass halo repair.
+
+DELETED: none.
+CERTIFICATE: The post-C337 binary attack refutes \(R_{\mathrm{eff}}\le1.4\) as a terminal shell-mass concentration certificate: the standing \(R_{\mathrm{eff}}\) computation bounds one-field service/readout stacking from the same supply to multiple recipients, not physical shell occupancy in the L3-prime rear cap, so C333 still lacks a same-selected-ledger theorem localizing arbitrary selected/Horn-B/reseeded gross material to the retained shell budget with no double count.
+REMAINING: W3, W7, W8, W9.
