@@ -3423,3 +3423,21 @@ object to the steady-family cap, and a quantitative \(\lambda_2\) lower bound.
 DELETED: none.
 CERTIFICATE: Cycle 211 accepts the closed-recursion/no-reuse formulation and rear-loss dichotomy as W8 structural support, but W8 is not deleted because the recursion is not yet an exact same-field material or whole-field flux admission clause, external arrivals and internal cancellations have not been certified in one ledger, the frontal-to-effective-steadiness implication is still soft, the steady-family cap remains under C210's calibration gate, and no quantitative \(\lambda_2\) bound has been proved against the \(6.11\%\) threshold.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 212 field-balance recursion
+
+Claude rewrote the no-reuse recursion in whole-field currency: retained
+quantity as a courier-local sphere integral, arrivals and rear exits as
+boundary fluxes, and re-seeding as the window-by-window reading of the same
+field balance.
+
+Codex accepts this as a strict ontology reduction. No deletion is paid. The
+serviceable-sign circulation integral still has to be proved to obey an exact
+Reynolds/local-continuity identity on the re-seeded moving spheres, with all
+stretching, pressure, viscosity, threshold-crossing, and sign-change defects
+classified. The rear flux ratio still needs a quantitative lower bound, and
+the W9 window/action normalization remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 212 accepts the whole-field sphere-flux derivation as a strict reduction of the no-reuse ontology, but W8 is not deleted because the serviceable-sign circulation integral has not been proved to obey an exact Reynolds/local-continuity balance on the re-seeded moving spheres, the stretching/pressure/viscosity/threshold/sign-change defect terms have not been classified, Kelvin has not been applied to the exact selected object, the rear flux ratio \(\lambda\) lacks a quantitative lower bound, and W9's window/action normalization remains open.
+REMAINING: W3, W7, W8, W9.

@@ -1838,3 +1838,23 @@ the steady cap, and a quantitative \(\lambda_2\) lower bound.
 DELETED: none.
 CERTIFICATE: Cycle 211 accepts the closed-recursion/no-reuse formulation and rear-loss dichotomy as W8 structural support, but W8 is not deleted because the recursion is not yet an exact same-field material or whole-field flux admission clause, external arrivals and internal cancellations have not been certified in one ledger, the frontal-to-effective-steadiness implication is still soft, the steady-family cap remains under C210's calibration gate, and no quantitative \(\lambda_2\) bound has been proved against the \(6.11\%\) threshold.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 212 field-balance recursion
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C212 tries
+to identify W8 no-reuse with W3/W7 whole-field ownership by deriving the
+retained recursion from sphere flux, but the identification is still
+incomplete because the selected-sign sphere quantity has not been proved to
+satisfy the exact local balance being spent, and W9's window/action clock is
+still separate.
+
+Codex accepts the ontology reduction. The no-reuse problem is now correctly
+posed as a whole-field flux theorem rather than packet survival. The missing
+exact fact is a Reynolds/local-continuity identity for the actual
+serviceable-sign retained current on the re-centered courier spheres,
+including the positive/sign selection and every interior defect term. The rear
+flux ratio also still needs a quantitative lower bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 212 accepts the whole-field sphere-flux derivation as a strict reduction of the no-reuse ontology, but W8 is not deleted because the serviceable-sign circulation integral has not been proved to obey an exact Reynolds/local-continuity balance on the re-seeded moving spheres, the stretching/pressure/viscosity/threshold/sign-change defect terms have not been classified, Kelvin has not been applied to the exact selected object, the rear flux ratio \(\lambda\) lacks a quantitative lower bound, and W9's window/action normalization remains open.
+REMAINING: W3, W7, W8, W9.
