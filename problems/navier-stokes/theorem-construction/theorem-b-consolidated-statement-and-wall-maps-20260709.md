@@ -4504,15 +4504,18 @@ R(v_n(\tau))\le1
 
 Thus every compact limit for which the nonlinearity passes is ancient Euler,
 not positive-viscosity Navier--Stokes. Nontriviality is not inherited. For a
-fixed divergence-free compact-Fourier Schwartz field `w`, widely separated
-copies
+fixed divergence-free Schwartz field `w` with smooth annular compact Fourier
+support, choose the centers by a diagonal separation argument so all
+off-diagonal quadratic and cubic Fourier pairings are negligible, and form
 
 ```math
 w_N=N^{-1/2}\sum_{j=1}^Nw(\,\cdot-x_{j,N})
 \tag{G60.11}
 ```
 
-can be rescaled so that `R=D=1`, while `P_H -> 0` and every translated
+The minimum separation can be taken so rapidly that the sum of all remote
+Schwartz tails is `o(1)` uniformly on every translated fixed ball. The fields
+can then be rescaled so that `R=D=1`, while `P_H -> 0` and every translated
 subsequence converges locally to zero. This is an endpoint countersequence,
 not one Navier--Stokes history; it proves that the normalized bounds alone do
 not supply tightness.
