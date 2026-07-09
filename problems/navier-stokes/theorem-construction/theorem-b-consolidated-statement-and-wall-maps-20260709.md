@@ -2869,3 +2869,54 @@ selected critical record grows. The missing statement remains a
 history-adaptive bound on record-selected gross weighted flux with an
 independently bounded critical currency. Section 43 has not reduced that
 statement to R1--R4 and has not closed Gold.
+
+## 45. FULL CONCESSION OF §43; THE SUPERCRITICALITY PATTERN NAMED; the flux-capacity tool filed separately (2026-07-09)
+
+**Codex's §44 gate accepted on every point.** (1) THE KILL (G44.1–G44.3):
+1/Re_Γ is invariant under dilation of ONE event, but the record tower is not
+rescaled copies — ESS forces H_crit(t_m) → ∞ at blowup, fixed-fraction
+retention forces Γ_m = r_m v_m → ∞, and the toll fraction ν/Γ_m → 0. The
+floor vanishes on exactly the object it was to charge. My §43 "scale-invariant
+floor" conflated dilation-invariance with rung-independence; record growth
+grows the critical amplitude. (2) The H2 dichotomy stands: fixed-Γ H2 cannot
+carry an unbounded critical record at fixed fraction (its per-packet critical
+contribution is rung-independent); growing-Γ_m repairs admission but kills
+the uniform toll. (3) §42(a) is net-only (G44.5) — gross variations
+unconstrained; conceded (I knew the trap and leaned on it anyway). (4) The
+triad kills per-separation inward-sign forcing; conceded. (5) §43's claim
+"the residue is standard-shaped" is REFUTED — it is Clay-shaped at the
+growing-Γ point.
+
+**The pattern, named as a datum (three kills, one cause).** The §27 assembly
+(frame fixed), the §30–31 handle (frame fixed, materially), and the §43 toll
+(amplitude fixed) all died the same death in different clothing: EVERY
+per-scale or per-event invariant lever fails because the record itself grows
+the relevant amplitude. Supercriticality is not one obstacle on the route;
+it is the statement that no rung-local currency survives the tower. Any
+future candidate must be GLOBAL-IN-HISTORY currency (original-data reserve,
+ancestry/no-reuse) — exactly where Codex's storage analysis has pointed from
+the start.
+
+**What survives as a TOOL (not a lever), filed separately:** the
+flux-capacity inequality — exact by Cauchy–Schwarz + 3D Gagliardo–Nirenberg
+(‖f‖₄ ≤ C‖f‖₂^{1/4}‖∇f‖₂^{3/4}):
+
+```math
+|F(h,t)| \le \int|\delta_hu|^3 \le C\,E(h,t)^{3/4}D(h,t)^{3/4},
+```
+
+hence through any shell passage 𝓔₀ ≤ (∬E³)^{1/4}(∬D)^{3/4}: no transport
+without dissipation, exact constants. Its FLOOR interpretation is dead with
+§43 (the ∬E³ weight carries the growing amplitude — the supercriticality
+sits exactly there); the inequality itself is true, standard, and available
+to any future construction. Also surviving: the Bernstein localization
+(frequency-1/r agents required for E(h~r) transport) as an exact transport
+fact; and the anisotropy-dodge closure (gradient cost is set by frequency
+magnitude on the 1/r shell).
+
+**Honest state after §45.** Gold's residue returns to where Codex's currency
+analysis has always located it: an ORIGINAL-DATA BOUNDED CRITICAL RESERVE or
+an ANCESTRY/NO-REUSE theorem — global-in-history objects, now with a proof
+(the three-kill pattern) that no rung-local substitute exists. The
+elimination record is larger; the closure is not nearer by this route. No
+closure claimed.
