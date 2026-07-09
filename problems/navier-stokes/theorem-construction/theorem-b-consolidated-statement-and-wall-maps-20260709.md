@@ -810,3 +810,56 @@ dead: payment-from-the-global-critical-identity (Codex's counterexample).
 The definitional challenge is now answered in the local currency: the odd
 bill is the trap-forced burn row of the local material enstrophy balance,
 converted per rung by the declared clock table.
+
+## 19. RING CHANNEL DEAD; AXIAL CHANNEL SELF-CAUGHT; WHERE THE PAYMENT ACTUALLY SITS (2026-07-09)
+
+**(a) The ring-induction side channel is dead — exact scaling.** The shell's
+ω_θ ring pair (opposite signs at ±z) mutually induces radial expansion at
+speed ~ κ/(2πd) with κ ~ a₀h, d ~ h: outward speed ~ a₀/2π, RADIUS-
+INDEPENDENT. The affine core's inflow at the shell is |u_r| = C/r ~ a₀R/2 —
+LINEAR in R. The inflow wins by the factor ~ πR, which GROWS along the
+escape (R_m → ∞): the radial ring escape is not marginal, it loses
+progressively. Dead.
+
+**(b) Self-caught incompleteness in §17(ii): the AXIAL channel exists.**
+The stretch itself advects shell material axially (u_z = az): hyperbolic
+streamlines carry the sheath in radially and out axially. Two exact facts
+govern what happens to it: (i) for swirl-free axisymmetric flow,
+D_t(ω_θ/r) = ν(…): inbound material has ω_θ ∝ r — DILUTED as it approaches
+the axis; (ii) it exits into the AXIAL turn-off caps, where deceleration
+(∂_z u_z < 0) forces radial expansion, RE-AMPLIFYING ω_θ ∝ r outward, and
+the cap turn-off is itself a localization-lemma source. The sheath is not
+removed: it recirculates through the cell and regenerates at every
+transition zone. §17's "burn every turnover" is therefore NOT forced as
+stated — the cell can park and recycle sheath enstrophy. Conceded before
+the partner lane found it.
+
+**(c) An exact vacuity fact, load-bearing for the lock question.** In
+swirl-free axisymmetric flow, e_θ is ALWAYS an eigenvector of S
+(S_rθ = S_θz ≡ 0). Hence the WEAK lock (ω an eigenvector) is VACUOUS for
+azimuthal sheaths: it cannot see them at all. Only the STRONG lock (ω on
+the stretched axis) or a dynamical argument forbids the recirculating
+sheath. This makes Codex's requested derivation (zero-payment limit ⟹
+STRONG lock) the decisive line, exactly as anticipated in §16 — without it,
+the weak-lock admission chase cannot close the sheath configurations.
+
+**(d) Where the payment actually sits — the cell-saddle Riccati.** The
+escape's record is carried by an IRROTATIONAL affine core, whose axial
+stretch obeys D_t a = −a² − H_zz with H slaved. The core's own Q = 3a²/2
+supplies, through the isotropic part, only H_zz,local ≈ −a²/2: HALF the
+decay. Sustaining (let alone growing) the record requires the environment's
+DEVIATORIC pressure saddle to supply the other half: −H_zz^{dev} ≥ a²/2,
+order a², sustained — and each rung demands the saddle deepen 4×
+(a ↦ 4a under the length-dyadic rung). A 4×-per-rung deepening of the
+cell's deviatoric saddle is a change of the normalized whole-field geometry:
+Codex's dichotomy re-emerges at the CELL level — the recirculating escape
+does not evade the payment, it relocates the payment to the saddle-deepening
+current. Candidate answer to Codex's "preannounced localized odd current":
+the atom-localized saddle-deepening flux (the time-derivative of the cell's
+deviatoric Hessian row against the record axis), which is (i) localized,
+(ii) preannounced (the axis and atom are declared by the tower), (iii)
+odd (it is a signed deepening, direction fixed by the record's growth), and
+(iv) tied to the time evolution, not a spatial identity — directly aimed at
+the CWS obstruction. Status: candidate definition, NOT a theorem; the
+domination and original-data storage bound remain the open Gold theorem as
+Codex states it.
