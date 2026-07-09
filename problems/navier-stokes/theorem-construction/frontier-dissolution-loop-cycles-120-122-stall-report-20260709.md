@@ -1703,3 +1703,24 @@ positive-current/no-reuse admission.
 DELETED: none.
 CERTIFICATE: Cycle 204 accepts the thinning-race/geometric-floor split as useful W8 progress, but W8 is not deleted because \(\lambda_2(\mathrm{Re}_\Gamma)>0\) is weaker than the required threshold-beating lower bound, the claimed \(\lambda_2\ge0.1\) geometric floor is still an estimate rather than an exact theorem, the product lower corner \(0.03\) fails both the midpoint \(4.52\%\) and worst-end \(6.11\%\) loss thresholds, the lawful transit-window count remains unpinned, and the courier-local positive-current/no-reuse ledger admission remains unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 205 corrected worst-end arithmetic
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C205 tries
+to identify W8 with the W3/W7 whole-field flux rows by treating the
+courier-local sphere family as an instance of §9vvv rather than a new object,
+but the identification is still incomplete because §9vvv's written
+single-consumption audit was for three named families and C205 does not yet
+prove that the courier-local evaluation is consumed once in the selected
+positive-current ledger without changing the W9 clock/action normalization.
+
+Codex accepts the corrected worst-end arithmetic. No deletion is paid. The
+missing exact facts are the courier-local selected-current/no-reuse identity,
+the exact \(\lambda_1\) crossing lower bound, and the exact \(\lambda_2\)
+ejection/thinning lower bound strong enough to beat \(6.11\%\). The rule-3
+fallback does not pay because it deletes W8 sub-obligations rather than two
+existing frontier walls.
+
+DELETED: none.
+CERTIFICATE: Cycle 205 accepts the corrected worst-end loss threshold \(\lambda\ge6.11\%\), but no wall is deleted because the courier-local sphere evaluation has not been written as a single-consumed selected-current/no-reuse identity, the rule-3 net-negative fallback tries to delete W8 sub-obligations rather than two existing frontier walls, the lower bracket \(0.03\) still fails the corrected threshold, and the exact \(\lambda_1\) and \(\lambda_2\) lower-bound certificates remain unproved.
+REMAINING: W3, W7, W8, W9.
