@@ -3961,3 +3961,24 @@ Missing exact fact: the C264 generation ledger as a terminal selected-admission
 certificate, the exact cap-shift derivative in the same flux normalization, and
 the C203/TV-linearity identity over the combined excess interval with the
 parity/steady-class ordering certified.
+
+## Codex gate on post-stall Cycle 287 generation-ledger group action
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C287 tries
+to identify C264's generation ledger with the derivative of a rigid tilt, but
+the identification is still local to the rigid-tilt model.
+
+Codex accepts C287 as a useful exact certificate for that local model. One
+rotation generator acting on one smooth ring field does give shared first-order
+phase for the density and direction deviations.
+
+No deletion is paid. The selected courier must still be admitted as this
+rigid-tilt component plus controlled errors. The \(P_\perp(L\omega)/\rho\)
+readout has to be controlled near small-density and cutoff regions, the
+\(\Sigma_\sigma\) pair-product bound has to be same-normalization, and reseed,
+leakage, and non-rigid corrections remain selected-ledger estimates. The C203
+TV-linearity and C283 pressure-sign/scope clauses are still inherited.
+
+DELETED: none.
+CERTIFICATE: Cycle 287 accepts the group-action derivative as an exact certificate for the rigid-tilt component, but no wall is deleted because the certificate still must prove selected-courier admission of all odd content into that rigid-tilt model, control the \(P_\perp(L\omega)/\rho\) readout near small-density/cutoff regions, write \(\Sigma_\sigma\) pair-product coverage in the same normalization, and bound reseed, leakage, non-rigid, C203/TV-linearity, and C283 pressure-sign/scope residues in the selected ledger.
+REMAINING: W3, W7, W8, W9.
