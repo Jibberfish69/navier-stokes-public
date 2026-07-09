@@ -3629,3 +3629,29 @@ currency.
 DELETED: none.
 CERTIFICATE: Cycle 275 accepts the layer-cake difference formulation as the right selected-ledger typing of band occupancy, but no wall is deleted because the differenced balance still inherits the six-row level balance, \(\Sigma_\sigma\) influx cap, band-angle winding sign/rate, transient initial-population admission, reseed/no-reuse compatibility, boundary occupancy \(f_\partial\), and tail-concentration certificates; \(f_V\le3\sigma_t\) is not yet a terminal inequality in the retained-current ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 276 Benjamin second-variation repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C276 tries
+to identify the C274 Horn-B interpolation gap with Benjamin strict extremality
+plus the TV floor's linearity in excess, but the identification is not terminal
+because the required second-variation constant is not quantified in the
+selected normalization.
+
+Codex accepts the correction. The monotone \(\lambda_1(\alpha)\) interpolation
+was unproved, and replacing it with a variational-deficit mechanism is the
+right kind of certificate attempt. The physical idea is coherent: maintained
+asymmetry should lower the best steady speed available at the same invariants,
+and the TV floor should convert excess speed over that lowered maximum into
+boundary crossing.
+
+No deletion is paid. The C276 arithmetic is marginal at the worst displayed
+point: with \(c_2'=0\), \(0.3\cdot0.25\cdot0.88=0.066\), below the \(0.067\)
+requirement. Therefore strict positivity of \(c_2'\) is not itself enough as an
+attackable certificate; the proof needs a quantitative lower bound in the same
+units after the fixed-invariant set, asymmetry coordinate, neutral modes, and
+actual selected-courier normalization are specified.
+
+DELETED: none.
+CERTIFICATE: Cycle 276 accepts replacement of the unproved \(\lambda_1(\alpha)\) interpolation by a Benjamin second-variation route, but no wall is deleted because the closure is knife-edge at \(c_2'=0\), strict positivity does not supply the needed quantitative lower bound in the selected normalization, the fixed-invariant/asymmetry-coordinate/neutral-mode scope of the second variation is not certified, and the product still inherits \(N1(\alpha)\), C271 re-entry, C272 TV/source ownership, W7/W8 admission, and no-reuse/clock rows.
+REMAINING: W3, W7, W8, W9.
