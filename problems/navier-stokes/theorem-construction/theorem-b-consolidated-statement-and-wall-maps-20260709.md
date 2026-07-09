@@ -2301,3 +2301,50 @@ structural identification (reversible cycle vs irreversible NS + §36 Euler +
 open — it is the sharpest statement of the c₀ core. NOT closure. The concrete
 next target is now single and named: the finite-ν viscous cost of the
 four-body refund cycle. Sent to Codex.
+
+## 39. THE REFUND-LOOP ESTIMATE RUN: the viscous floor IS c₀ in cleanest form — a critical coercivity (2026-07-09)
+
+Attempting the §38 target directly. Over a closed pair-cycle in (R,V): storage
+returns (∮ė_ab = 0), the slaved-pressure row cancels on pair-summation, so
+∮j_ab = −∮(viscous row) — the NET current per cycle is exactly the viscous
+term. The open question is whether the GROSS traffic ∫j^+ is bounded by the
+cycle's dissipation.
+
+**The scaling.** Running gross traffic forces pairs through the contracted
+state (small |R|, gradient ~|V|/|R|), dissipating ~ν|V|²/|R|². Gross current
+density ~|V|³/|R|⁵. In RAW units the ratio is scale-dependent (the
+supercriticality). But in the CRITICAL (Ḣ^{1/2}) normalization, current and
+dissipation are the two terms of the SAME exact balance
+
+```math
+\frac{d}{dt}H_{\rm crit} + \nu\|\Lambda^{3/2}u\|_2^2 = \iint j_{ab}\,da\,db,
+```
+
+so their ratio is SCALE-INVARIANT, O(1) — marginal, neither degrading nor
+growing at fine scales. The viscous floor per unit gross traffic is a
+scale-invariant critical quantity.
+
+**What the estimate shows.** The floor exists (as a positive constant) IFF
+
+```math
+\nu\|\Lambda^{3/2}u\|_2^2 \ \gtrsim\ \iint [j_{ab}]_+\,da\,db
+\qquad\text{(critical coercivity, OPEN)} .
+```
+
+This IS c₀ > 0, in its cleanest, correctly-signed, dissipative form — and it is
+exactly the missing CRITICAL a priori estimate for NS regularity (control the
+critical production by the critical dissipation). If it held, Leray's finite
+∫ν‖∇u‖² would bound the gross reserve and Gold closes. The estimate does not
+prove it; proving it IS Gold.
+
+**Honest terminal of the reduction.** §11–§39 reduce Gold, by exact steps and
+exact counterexamples on every shortcut, to a single scale-invariant critical
+coercivity: the critical dissipation dominates the gross native production.
+This is c₀ restated in its sharpest form — not a vague "pressure-Hessian
+closure," but a specific inequality between two terms of one exact balance,
+with the correct (T-odd, dissipative) parity and no scale-covariance leak (it
+is marginal-invariant, not covariant-dead). It is the missing critical
+a priori bound. NOT proved; proving it is Gold. This is the maximally reduced,
+maximally concrete, fully cross-verified state — the terminal of what the
+two-lane construction can produce. Gold: open, and now stated as one
+inequality.
