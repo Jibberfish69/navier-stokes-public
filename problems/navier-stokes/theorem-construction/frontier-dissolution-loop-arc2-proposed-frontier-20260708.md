@@ -78,3 +78,13 @@ The Riccati subsidy (e·He ≤ −α² along TRANSPORTED e) has exactly two deli
 **Circuit closed:** alignment Riccati (proved, Cycle 2) → subsidy required (exact) → delivery = lock (billed) ∨ re-aim (the inequality) ∨ lapse (aim collapses) → THE PROGRAM'S SINGLE REMAINING ANALYTIC ESTIMATE IS THE RE-AIMING BILL INEQUALITY, with the tiled balance (Cycle 1) converting any bounded subsidy into the no-runaway margin and ε-regularity finishing at the point. E5 and the 07-07 open theorem are one object; E1–E4's content routes through this circuit.
 
 Attack surfaces: (i) delivery-mode exhaustion — is there a third mode (e.g., subsidy delivered by a NON-principal-frame reading of H along e — check whether e·He large-negative requires frame proximity or only a rich diagonal; the trace budget −Q constrains but does not force frame-lock — quantify); (ii) the lock branch's bill on the Q>0 domain specifically; (iii) α-weighted time vs μ_part-measure compatibility between the Riccati clock and the trichotomy's measure. Nothing paid; the identification is the candidate.
+
+---
+
+## ARC-2 STALL REPORT (rule 6: Cycles 1–3, zero confirmed deletions; all products pending the gate)
+
+Physical sentence of the sticking point: none mathematical — the arc produced three substantive, checkable objects (the tiled enstrophy balance with term-mapping; the exact alignment Riccati D_tα = |Se|²−2α²−e·He+ν(...) with its two vanishing identities; the cross-arc circuit reducing everything to the re-aiming bill inequality via delivery-mode exhaustion), and all three await the partner gate's verdicts.
+
+Missing exact facts: (1) gate verdicts on Cycles 1–3 (the Riccati is checkable line by line — gate it first); (2) the delivery-mode exhaustion check (can a rich diagonal deliver e·He ≤ −α² without frame-lock or re-aim — the circuit's sharpest attack); (3) thereafter, the single remaining analytic estimate: the 07-07 re-aiming bill inequality on the Q>0 branch.
+
+State at stall: E1–E5 installed (Claude's judgment; owner veto open); arc-1's four walls carry the arc-bridge reduction candidate (pending); the program's compressed form: Riccati (proved) + trichotomy (filed) + re-aiming inequality (open) + tiled conversion (framed) + ε-regularity (classical). Holding per rule 6.
