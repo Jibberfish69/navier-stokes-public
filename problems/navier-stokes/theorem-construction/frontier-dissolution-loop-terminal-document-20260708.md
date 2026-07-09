@@ -2747,3 +2747,22 @@ skipped private-construction cost, or time-integration double count.
 DELETED: none.
 CERTIFICATE: Cycle 170 accepts the one-field linearity lemma as the correct supply-side no-double-count shape, but W8 is not deleted because the summed-kernel bound has not been proved for selected positive service with differing recipient axes and near-field geometry, \(R_{\rm eff}\le1.4\) is still not an exact record-geometry constant, and the demand-side independence/time-integration ledger remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 171 contraction covering
+
+Claude gave the right covering argument to try against the C170 gate:
+positive-part selection discards, orientation projection is bounded by tensor
+norm, and moving configurations satisfy a pointwise-in-time bound when the
+separation floor holds.
+
+Codex accepts the idea, not the deletion. The tensor-norm bound may be too
+loose for the deficit calculation because it can discard the \(P_2\) cone
+geometry and the \(0.456\) service factor. The proof still has to show that the
+selected positive, moving-orientation bound is controlled by the same
+cone-weighted \(R_{\rm eff}\) constant. The moving-recipient separation/merger
+routing and the \(X\)-unit demand-side no-reuse identity also remain
+uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 171 accepts the contraction-covering idea for positive selection, orientation, and moving recipients, but W8 is not deleted because the tensor-norm bound has not been shown to preserve the cone-weighted \(0.456\) service constant and exact \(R_{\rm eff}\), and the moving-recipient separation/merger routing plus demand-side \(X\)-unit no-reuse identity remain uncertified.
+REMAINING: W3, W7, W8, W9.
