@@ -1306,3 +1306,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 74 supplies an inequality-shaped coefficient list for Theorem C, but the same-current normalization and source-loss number comparison remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 75 stall report is accepted as a stall marker only, not as
+  terminal typing and not as a lawful deferral. The cross-wall identification
+  fails: W3/W7/W8/W9 do not collapse to "compute the constants" alone because
+  the source rows and Kato loss row are not yet proved to be entries of one
+  normalized retained current. The coefficient comparison consumes W3
+  pedigree-uniformity, W7 retained-limit closure, W8 no-recount/original-data
+  positive variation, and W9 material-time action; it does not delete them. The
+  exact missing fact is the common-normalization theorem for R1--R8 and R10,
+  followed by the number comparison. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 75 files the stall at the common-normalization theorem plus coefficient comparison; the four remaining walls are consumed by that theorem and are not deleted.
+REMAINING: W3, W7, W8, W9.
