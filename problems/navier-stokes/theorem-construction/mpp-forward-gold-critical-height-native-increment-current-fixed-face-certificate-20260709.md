@@ -101,9 +101,10 @@ Integrating by parts in `x` and `y` on the symmetric truncation
 \tag{NIC.6}
 ```
 
-The boundary term on `|x-y|=epsilon` is `O(epsilon)` for smooth `u`, because
-`delta u=O(epsilon)` and the antisymmetric two-point velocity has zero leading
-spherical mean. It vanishes as `epsilon` tends to zero. Therefore
+The boundary term on `|x-y|=epsilon` is `O(epsilon)` for smooth `u`: the two
+increment factors and the normal two-point velocity contribute three powers of
+`epsilon`, while surface measure and the kernel contribute
+`epsilon^2 epsilon^{-4}`. It vanishes as `epsilon` tends to zero. Therefore
 
 ```math
 \boxed{
