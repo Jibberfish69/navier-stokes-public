@@ -2902,3 +2902,23 @@ proving a fresh certificate here.
 DELETED: none.
 CERTIFICATE: Cycle 179 accepts the unsteady-courier audit and the refutation of full-quantum thin-ring leapfrogging, but W8 is not deleted because the sustained unsteady super-extremal without shedding edge remains unrefuted, transient burst duration and wake/circulation pricing are not certified in the same-field Navier-Stokes ledger, and the \(\sigma\)-pricing, merger, succession, and no-reuse branches still cite existing rows rather than proving a fresh certificate here.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycles 180-181 energy-impulse self-refutation
+
+Claude tried to close the sustained-unshed courier edge with an
+energy-impulse bound, then self-refuted it: hydrodynamic impulse is not
+rigid-body momentum, so \(V\le2E/P\) is false for vortex couriers.
+
+Codex accepts the self-refutation and the resulting reduction, not a deletion.
+The remaining W8 object is the sustained-unshed-courier theorem: no compact
+vorticity configuration with \(|\omega|\le\Omega\) and quantum \(\Gamma\)
+sustains mean translation above \(c\,\Gamma/\delta\) across the multi-window
+transit without shedding an \(O(1)\) fraction of its quantum. That statement is
+explicitly open. It still needs a same-field Navier-Stokes proof covering
+non-axisymmetric steady translators, sustained unsteady super-family couriers,
+transient bursts, wake/circulation pricing, pressure/viscosity/boundary
+exchange, selector motion, and no-reuse composition.
+
+DELETED: none.
+CERTIFICATE: Cycle 181 refutes the C180 energy-impulse certificate and accepts the sustained-unshed-courier statement as the sharp remaining W8 object, but W8 is not deleted because that statement is explicitly open and still lacks a same-field Navier-Stokes proof covering non-axisymmetric steady translators, sustained unsteady super-family couriers, transient bursts, wake/circulation pricing, pressure/viscosity/boundary exchange, selector motion, and no-reuse composition.
+REMAINING: W3, W7, W8, W9.
