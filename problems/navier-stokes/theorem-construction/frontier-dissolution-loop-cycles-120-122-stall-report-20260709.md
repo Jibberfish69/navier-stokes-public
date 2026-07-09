@@ -1600,3 +1600,48 @@ evidence under the owner's physics-first standard, while remaining, under the
 frozen law, unproven mathematics stated as unproven (rule 14).
 
 REMAINING: W3, W7, W8, W9 (rule-6 STOP; three items, exact sub-states above).
+
+## Codex gate on post-stall Cycles 197-198 anchor request and deficit monotonicity
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt:
+C197-C198 do not identify W8 with W3, W7, or W9, because they address the W8
+courier-speed constants and \(L3'b\) reduction, while row admission,
+one-balance closure, and action normalization still require separate
+certificates.
+
+Codex accepts the Fraenkel/Norbury anchor request and the deficit monotonicity
+lemma as W8 support. No deletion is paid. The anchor remains half-verified in
+the relevant full-window normalization; deficit monotonicity still needs the
+deficit-to-speed modulus and selected-current transfer; and the patch
+computation was still open at that cycle state.
+
+DELETED: none.
+CERTIFICATE: Cycles 197-198 accept the fat-correction anchor path and the energy-deficit monotonicity lemma as W8 support, but W8 is not deleted because the external anchor has not yet certified the needed normalized full-window monotone speed bound, the deficit monotonicity still needs an exact deficit-to-speed modulus and selected-current transfer, the \(Q_{\max}\) patch-geometry computation is unrun at that cycle state, and W3/W7/W9 still depend on the unproved one-balance row certificates.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycles 199-200 patch maximum and field-ownership subfrontier
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: the
+whole-field flux view is the live candidate for identifying W8 with the
+W3/W7/W9 one-balance rows, but C199-C200 do not yet identify them because the
+statement still lacks an exact same-current identity that types selected
+service, wake, viscosity, pressure, shedding, local generation, terminal
+defect, action normalization, and no-recount consumption as one Eulerian field
+balance.
+
+Codex accepts the \(Q_{\max}=0.232\,\Gamma/\delta\) computation as a refutation
+of the instantaneous-patch shortcut, not as a deletion. The remaining physical
+sentence is now sharp: the proof must rule out sustaining a non-steady patch
+for the multi-window transit at definite, nondecreasing energy deficit. C200's
+three-item list is a Claude-lane subfrontier; it does not rewrite the frozen
+open-wall list.
+
+The missing exact fact is an attackable whole-field maintenance identity or
+inequality: a super-family non-steady patch either pays by energy-deficit
+growth, exits/sheds through a typed fixed-region flux, or falls into the
+steady-family cap, with selected-current transfer and no hidden re-use of the
+same current.
+
+DELETED: none.
+CERTIFICATE: Cycles 199-200 refute the geometry-only instantaneous patch cap and reduce W8 to the exact whole-field maintenance problem for a transient \(0.232\,\Gamma/\delta\) non-steady patch, but no wall is deleted because the proof still lacks an attackable Eulerian same-current identity tying maintenance power, deficit growth, typed flux/exit, steady-family fallback, selected-current transfer, and no-reuse accounting into one certificate; C200's three-item frontier is only a Claude-lane subfrontier, while the frozen open-wall list remains W3/W7/W8/W9.
+REMAINING: W3, W7, W8, W9.

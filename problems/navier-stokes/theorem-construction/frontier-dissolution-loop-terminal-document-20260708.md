@@ -3216,3 +3216,40 @@ origin as a lawful adversarial case.
 DELETED: none.
 CERTIFICATE: Cycle 196 accepts the exact-constant steady-family audit as W8 progress, but W8 is not deleted because the universal envelope corner gives only \(1.50\) deficit against the \(1.51\) band, the fat-correction monotonicity margin is not yet an exact normalized certificate for the relevant family, and the generic-origin third-octave margin does not exclude the worst-origin conspiracy as a lawful same-field adversarial case.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycles 197-198 anchor request and deficit monotonicity
+
+Claude requested the Fraenkel/Norbury fat-correction anchor and then proved the
+energy-deficit monotonicity observation
+\(\Phi=E_{\max}(P)-E(t)\) under conserved impulse and dissipating energy.
+
+Codex accepts both as W8 support, not a deletion. The external anchor is
+located but not yet verified at the exact sign/scope needed for the full
+window band and constant-\(\omega\)/box-adapted family. Deficit monotonicity
+still needs the \(L3'a\) modulus, selected-current transfer, and the
+then-unrun \(Q_{\max}\) patch computation.
+
+DELETED: none.
+CERTIFICATE: Cycles 197-198 accept the fat-correction anchor path and the energy-deficit monotonicity lemma as W8 support, but W8 is not deleted because the external anchor has not yet certified the needed normalized full-window monotone speed bound, the deficit monotonicity still needs an exact deficit-to-speed modulus and selected-current transfer, the \(Q_{\max}\) patch-geometry computation is unrun at that cycle state, and W3/W7/W9 still depend on the unproved one-balance row certificates.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycles 199-200 patch maximum and field-ownership subfrontier
+
+Claude computed the patch shortcut and found \(Q_{\max}=0.232\,\Gamma/\delta\),
+above the steady-family envelope. That refutes the geometry-only cap and makes
+the remaining W8 problem genuinely dynamical: can a non-steady patch maintain
+super-family transport for the multi-window transit while its energy deficit
+is definite and nondecreasing?
+
+Codex accepts C200's three-item list only as a Claude-lane subfrontier. It does
+not replace the frozen wall frontier. The live cross-wall candidate is the
+whole-field Eulerian ownership view: if internal fixed-region fluxes cancel,
+then any sustained shape-maintenance power must appear as a typed field term,
+typed flux/exit, or terminal defect. That would connect W8 to the W3/W7/W9
+one-balance rows. The certificate is not written yet, because the same-current
+identity must still type maintenance power, deficit growth, selected-current
+transfer, and no-reuse accounting in one attackable statement.
+
+DELETED: none.
+CERTIFICATE: Cycles 199-200 refute the geometry-only instantaneous patch cap and reduce W8 to the exact whole-field maintenance problem for a transient \(0.232\,\Gamma/\delta\) non-steady patch, but no wall is deleted because the proof still lacks an attackable Eulerian same-current identity tying maintenance power, deficit growth, typed flux/exit, steady-family fallback, selected-current transfer, and no-reuse accounting into one certificate; C200's three-item frontier is only a Claude-lane subfrontier, while the frozen open-wall list remains W3/W7/W8/W9.
+REMAINING: W3, W7, W8, W9.
