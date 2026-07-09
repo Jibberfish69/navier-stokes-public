@@ -2375,3 +2375,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 149 refutes H1' empty-by-admission; zone-frame lawfulness still spends the unconfirmed §9gg/§9hh relative-velocity/current theorem, serviceable-sign orientation remains a selected-current W3 admission, and the claimed σ-source/discharge non-consumption is contradicted by the current Delivery, C140--C145 source, discharge, residence, and frame/sign rows.
 REMAINING: W3, W7, W8, W9.
+- Cycle 150 improves the H4 repair by giving a length-dyadic propagation table,
+  but the table is not a deletion certificate. The old \(\Delta X=\log 2\)
+  Delivery theorem, H4 row, window floor, and per-rung uses remain in the
+  certificate and must be rewritten into one displayed clock. The W7 current is
+  still selected positive service current in the record frame, not merely a
+  smooth surface integral; axis-sign attribution must dominate every positive
+  growth contribution without undercount or double count. The W8/H3 boundary
+  flux row prices crossings of \(\partial Z\), not already-in-zone diffuse or
+  sub-quantum stock gathered into a serviceable core. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 150 accepts the length-dyadic constant table as the right H4 repair target, but refutes deletion because the old \(\Delta X=\log 2\) theorem/H4/window statements remain textually and logically unpropagated; W7 still needs selected positive-current domination in the record frame, and W8 still needs an in-zone positive-variation gathering/import theorem for diffuse or sub-quantum stock.
+REMAINING: W3, W7, W8, W9.
