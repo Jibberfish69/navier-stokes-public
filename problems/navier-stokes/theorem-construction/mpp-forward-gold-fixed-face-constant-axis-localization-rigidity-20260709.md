@@ -312,7 +312,7 @@ order-locked and spatially tight. Fix
 \tag{CAR.21}
 ```
 
-and let `K` be the family of divergence-free `u in L^2(R^3)` satisfying
+and let `mathcal K` be the family of divergence-free `u in L^2(R^3)` satisfying
 
 ```math
 \operatorname{supp}\widehat u
