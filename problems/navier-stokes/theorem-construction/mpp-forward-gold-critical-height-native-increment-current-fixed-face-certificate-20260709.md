@@ -2741,3 +2741,299 @@ states. This is an exact obstruction, not Gold closure. Any surviving Gold
 argument must use genuinely time-nonlocal same-trajectory information or
 richer same-field geometry than the instantaneous state
 `(E_+,E_-,R_+,R_-,P_H)`.
+
+## 23. Critical-record normalization ejects classical viscosity
+
+This section keeps the whole velocity field as the only evolving object. It
+tests a contradiction/compactness route after the instantaneous arrows of
+Sections 21--22 have been exhausted.
+
+Assume that one smooth `R^3` Navier--Stokes solution on `[0,T)` has first-record
+times `t_n -> T` such that
+
+```math
+R_n:=\|u(t_n)\|_{\dot H^{1/2}}^2\longrightarrow\infty,
+\qquad
+R(t)\le R_n\quad(0\le t\le t_n).
+\tag{NIC.200}
+```
+
+Write
+
+```math
+D_n:=\|u(t_n)\|_{\dot H^{3/2}}^2,
+\qquad
+P_n:=P_H(u(t_n)).
+```
+
+### 23.1 The viscosity--compactness identity
+
+For arbitrary `a_n,ell_n>0` and centers `x_n`, rescale the same field by
+
+```math
+v_n(y,\tau)
+=
+a_n u(x_n+\ell_n y,t_n+a_n\ell_n\tau),
+\qquad
+\pi_n(y,\tau)
+=a_n^2p(x_n+\ell_n y,t_n+a_n\ell_n\tau).
+\tag{NIC.201}
+```
+
+The transformed equation is exactly
+
+```math
+\partial_\tau v_n+B(v_n,v_n)+\nabla\pi_n
+=\nu_n\Delta v_n,
+\qquad
+\boxed{\nu_n=\nu\frac{a_n}{\ell_n}}.
+\tag{NIC.202}
+```
+
+At corresponding times, the relevant homogeneous quantities obey
+
+```math
+\begin{aligned}
+E(v_n)&=a_n^2\ell_n^{-3}E(u),
+&R(v_n)&=a_n^2\ell_n^{-2}R(u),\\
+D(v_n)&=a_n^2D(u),
+&P_H(v_n)&=a_n^3\ell_n^{-1}P_H(u).
+\end{aligned}
+\tag{NIC.203}
+```
+
+Eliminating `a_n/ell_n` gives the scale-choice-independent identity
+
+```math
+\boxed{
+\nu_n
+=
+\nu\sqrt{\frac{R(v_n(0))}{R_n}}.
+}
+\tag{NIC.204}
+```
+
+Consequently, every normalization with
+
+```math
+0<c\le R(v_n(0))\le C<\infty
+```
+
+has `nu_n -> 0`. Conversely, if `nu_n>=nu_*>0`, then
+
+```math
+R(v_n(0))
+\ge
+\left(\frac{\nu_*}{\nu}\right)^2R_n
+\longrightarrow\infty.
+\tag{NIC.205}
+```
+
+Thus no bounded, nonzero critical normalization of an unbounded record
+sequence can retain a positive classical Navier--Stokes viscosity. This is an
+exact obstruction to a positive-viscosity ancient-NS compactness route; it is
+independent of the length scale used to seek concentration.
+
+### 23.2 Canonical two-moment normalization
+
+The normalization that fixes the critical height and one frequency moment is
+
+```math
+\ell_n=\sqrt{\frac{R_n}{D_n}},
+\qquad
+a_n=D_n^{-1/2},
+\qquad
+\theta_n=a_n\ell_n=\frac{\sqrt{R_n}}{D_n}.
+\tag{NIC.206}
+```
+
+With `v_n` defined by `(NIC.201)`, this gives
+
+```math
+\boxed{
+R(v_n(0))=1,
+\qquad
+D(v_n(0))=1,
+\qquad
+\nu_n=\frac{\nu}{\sqrt{R_n}}\longrightarrow0.
+}
+\tag{NIC.207}
+```
+
+Define the dimensionless current efficiency
+
+```math
+\eta_n
+:=P_H(v_n(0))
+=\frac{P_n}{D_n\sqrt{R_n}}.
+\tag{NIC.208}
+```
+
+The critical balance and record-growth condition are then
+
+```math
+\boxed{
+\frac12\frac{d}{d\tau}R(v_n)(0)
+=\eta_n-\nu_n,
+\qquad
+\eta_n\ge\nu_n.
+}
+\tag{NIC.209}
+```
+
+The exact HMIN estimate from `(NIC.167)` becomes
+
+```math
+\boxed{
+\eta_n
+\le
+C\min_{s\in\{+,-\}}
+\|v_{n,s}(0)\|_{\dot H^{1/2}}.
+}
+\tag{NIC.210}
+```
+
+The first-record property survives on the full backward rescaled interval:
+
+```math
+R(v_n(\tau))\le1,
+\qquad
+-\frac{t_n}{\theta_n}\le\tau\le0.
+\tag{NIC.211}
+```
+
+Interpolation and the Leray energy inequality give
+
+```math
+R_n^3
+\le E(t_n)^2D_n
+\le E(0)^2D_n.
+\tag{NIC.212}
+```
+
+Hence
+
+```math
+\frac{t_n}{\theta_n}
+=\frac{t_nD_n}{\sqrt{R_n}}
+\ge
+\frac{t_nR_n^{5/2}}{E(0)^2}
+\longrightarrow\infty.
+\tag{NIC.213}
+```
+
+On every fixed backward interval, `(NIC.211)` bounds `v_n` in
+`L^\infty_\tau\dot H^{1/2}`. Moreover
+
+```math
+\|B(v_n,v_n)\|_{\dot H^{-3/2}}
+\lesssim
+\|v_n\|_{\dot H^{1/2}}^2,
+\qquad
+\|\nu_n\Delta v_n\|_{\dot H^{-3/2}}
+\le
+\nu_n\|v_n\|_{\dot H^{1/2}}.
+\tag{NIC.214}
+```
+
+Local compactness therefore permits distributional subsequential limits on
+`(-infinity,0]`, but `(NIC.207)` does not make such a limit nonzero. Every
+limit for which the nonlinear term passes is an ancient weak Euler solution,
+because `nu_n -> 0`.
+
+### 23.3 Endpoint normalization does not prevent vanishing
+
+The missing nontriviality is genuine. Fix a nonzero divergence-free Schwartz
+field `w` with compact Fourier support. Choose points `x_{j,N}` whose mutual
+distances tend to infinity sufficiently fast and set
+
+```math
+w_N(x)
+=
+N^{-1/2}\sum_{j=1}^Nw(x-x_{j,N}).
+\tag{NIC.215}
+```
+
+Translation orthogonality in every displayed homogeneous Sobolev inner
+product gives
+
+```math
+R(w_N)\longrightarrow R(w),
+\qquad
+D(w_N)\longrightarrow D(w),
+\qquad
+P_H(w_N)=O(N^{-1/2})+o(1).
+\tag{NIC.216}
+```
+
+After one bounded amplitude and spatial rescaling, call the result `z_N`; then
+
+```math
+R(z_N)=D(z_N)=1,
+\qquad
+P_H(z_N)\longrightarrow0,
+\tag{NIC.217}
+```
+
+while every translated subsequence converges locally to zero: a fixed ball
+meets at most one component of size `N^{-1/2}` once the centers have been
+chosen sufficiently far apart. Thus the exact endpoint bounds in
+`(NIC.207)` admit spatial vanishing. Analogous low/high-frequency pairs give
+frequency dichotomy: the low component can carry almost all of `R`, while a
+critical-mass `O(lambda^{-2})` component at frequency `lambda -> infinity`
+carries order-one `D`.
+
+These are endpoint countersequences, not records cut from one Navier--Stokes
+trajectory. Their role is exact: the inherited normalization bounds alone do
+not prove tightness or a nonzero ancient profile.
+
+### 23.4 The two surviving compactness branches
+
+After subsequence extraction, the normalized records split by `(NIC.208)`.
+
+If
+
+```math
+\liminf_{n\to\infty}\eta_n=\eta_0>0,
+\tag{NIC.218}
+```
+
+then `(NIC.210)` gives a nonzero relative critical fraction in both helical
+sectors. The nonzero cubic current also rules out the explicit vanishing
+model `(NIC.215)` in any topology that retains `P_H`. What remains unproved
+is the inverse/profile compactness theorem that retains this current and the
+terminal record property in one nonzero Euler profile, followed by a rigidity
+theorem for that narrower profile class.
+
+If instead
+
+```math
+\eta_n\longrightarrow0,
+\tag{NIC.219}
+```
+
+then `(NIC.209)` gives
+
+```math
+\nu_n\longrightarrow0,
+\qquad
+\frac{d}{d\tau}R(v_n)(0)\longrightarrow0.
+\tag{NIC.220}
+```
+
+HMIN supplies no positive relative helicity floor in this branch, and the
+vanishing/dichotomy examples above are not excluded by the inherited endpoint
+data. A broad ancient-Euler Liouville theorem cannot close the branch: smooth
+nonzero compactly supported steady Euler flows on `R^3` already satisfy the
+bounded ancient and zero-current conditions. The positive-viscosity arrow
+could survive here only as an additional same-trajectory defect or history
+measure that is absent from `(NIC.207)--(NIC.220)`.
+
+**Result of this section.** Critical-record normalization has an exact
+viscosity--compactness incompatibility. A bounded nonzero critical sequence
+necessarily loses the classical viscous term and can converge only toward
+Euler; the canonical record bounds do not by themselves prevent the limit
+from vanishing. The efficient-current branch still requires current-retaining
+profile compactness plus a narrow Euler rigidity theorem. The zero-efficiency
+branch still requires a nontrivial viscous/history defect. This is a checked
+obstruction and strict branch reduction, not Gold closure.
