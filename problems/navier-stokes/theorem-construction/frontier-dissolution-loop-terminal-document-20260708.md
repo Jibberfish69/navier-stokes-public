@@ -5349,3 +5349,41 @@ odd-mode stability bound \(g\lesssim1.62\) remains decisive.
 DELETED: none.
 CERTIFICATE: Cycle 291 accepts tensor-rank \(m\le2\), cap-cancellation, and the finite \(5\times5\) smooth-sector form as useful reductions, but no wall is deleted because curvature/cutoff/non-axisymmetric corrections, cap-cancellation monotonicity, the exact \(5\times5\) operator norm, and the decisive selected-courier odd-mode stability bound \(g\lesssim1.62\) remain unproved; inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff residues also remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 292 signed g-anchor
+
+Claude sharpened the \(g\)-anchor: growing odd modes are claimed to be favorable
+rear-shedding modes, while adverse-signed modes are stable. The corrected
+\(g\lesssim1.62\) threshold is accepted.
+
+Codex accepts C292 as the right sign-sensitive target. The ledger needs to
+exclude adverse rear-flux-reducing growth, not favorable rear-loss growth.
+
+No deletion is paid. The certificate still needs an exact selected-courier
+spectral or semigroup bound excluding adverse-signed growth beyond the
+\(g\lesssim1.62\) threshold, including transient or nonnormal amplification.
+The rear-shedding mode's sign must be projected into the same rear-flux
+functional, and favorable growth must be entered as payment without double
+counting. C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and
+low-\(\rho\)/cutoff clauses remain inherited.
+
+DELETED: none.
+CERTIFICATE: Cycle 292 accepts the signed \(g\)-anchor reformulation as useful progress, but no wall is deleted because the certificate still needs an exact selected-courier spectral/semigroup bound excluding adverse-signed growth beyond \(g\lesssim1.62\), a same-normalization projection of the rear-shedding mode into the rear-flux functional, proof that favorable growth is counted as payment without double counting, and the inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 290-292
+
+Physical sentence of the sticking wall: the provenance/odd-growth lane has
+shifted from field splitting to smooth-sector constants to signed stability,
+but the proof still lacks a selected-courier theorem that adverse rear-flux
+odd content cannot grow beyond the corrected threshold and that favorable
+growth is entered as rear-loss payment in the same ledger.
+
+Attempts: C290 introduced the Duhamel split and the new \(g\) factor; C291
+narrowed smooth-sector constants and left \(g\) decisive; C292 sharpened \(g\)
+to a signed no-adverse-growth theorem.
+
+Missing exact fact: a selected-courier spectral/semigroup theorem for the
+adverse rear-flux sector with \(g\lesssim1.62\), plus same-normalization
+projection of favorable rear-shedding growth into the TV/rear-loss ledger and
+the inherited pressure, pair-product, cutoff, and TV-linearity clauses.
