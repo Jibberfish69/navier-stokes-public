@@ -3787,3 +3787,44 @@ A→0. Neither advanced nor dented by the overlay. Decisively closed: the
 lineage-no-return lever as a route. No closure claimed; the honest asset (the
 exact KHM identity family) is retained and is the correct shared coordinate
 for any further attempt.
+
+## 54. THE NON-RUNG-LOCAL ATTACK TESTED: the critical weight is log-marginal against Leray energy — the exact obstruction, located in the KHM coordinate (2026-07-09)
+
+The three-kill pattern says any rung-local currency dies; the only non-rung-
+local exact bound is Leray: ∫₀^T ν‖∇u‖² dt ≤ ½‖u₀‖². Test whether it controls
+H_crit's growth in the exact KHM coordinates (§53's kept identities).
+
+**The computation.** dH_crit/dt needs control of the critical viscous term
+∫ νD(h,t)/|h|⁴ dh (weight from I3). At the record scale r=|h| the atom gives
+D(h) ~ v²r (E~v²r³, gradients v/r). The weighted integrand, with the 3D
+Jacobian r²dr:
+
+```math
+\frac{\nu D(h)}{|h|^4}\,dh \ \sim\ \nu v^2 r\cdot r^{-4}\cdot r^2\,dr
+\ =\ \nu v^2\,\frac{dr}{r}\quad\text{— LOGARITHMIC in }r .
+```
+
+So ∫νD/|h|⁴ dh is LOG-DIVERGENT (marginal) at small scales, against the
+FINITE Leray dissipation ∫νZ dt. The critical viscous weight carries exactly
+one logarithm more than energy controls.
+
+**What this locates.** The non-rung-local energy attack fails for a precise,
+named reason: Leray energy is subcritical by one log relative to the critical
+weight |h|⁻⁴ that defines H_crit. This is the marginal-log / H^s↔L^p /
+ℓ²-vs-ℓ¹ dyadic gap — the program's oldest wall — now pinned EXACTLY in the
+separation coordinate as a log divergence of the critical dissipation against
+Leray energy. It is why the exact KHM identities (§53) RELOCATE rather than
+REDUCE: they are lossless rewrites of the energy balance, and the energy
+balance is one log short of critical.
+
+**Status (rule 14).** The log-marginality is exact (scaling-level, both
+weights computed). It confirms: (a) the turn-off A→0 is not reachable from
+Leray energy by any weight manipulation of the exact identities — the gap is
+a genuine logarithm, not a missing constant; (b) the residue is the critical
+regularity problem itself (the Clay statement) in KHM coordinates; (c) closing
+it requires an object that supplies the missing logarithm — a genuinely
+supercritical input (a critical a priori bound, ESS-type L^∞L³, or a
+log-Sobolev/BKM-type borderline improvement), none of which the exact
+identities contain. This is the honest terminal of the coordinate-based route:
+Gold = one logarithm short of Leray, and that logarithm is the Clay problem.
+No closure claimed.
