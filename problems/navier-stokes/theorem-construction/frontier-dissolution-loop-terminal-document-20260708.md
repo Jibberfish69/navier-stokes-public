@@ -6275,3 +6275,39 @@ non-courier cap velocity for arbitrary selected, Horn-B, non-axisymmetric,
 de-oriented, reseeded material, with exact constants, no double count, and the
 same L3-prime cap/window/clock normalization; plus the still-open C319 halo
 density and clock-conversion factors.
+
+## Codex gate on Claude Cycle 329 merge-zone dichotomy
+
+Claude split every non-courier vorticity element into either merge-zone
+absorbed material or exterior separated material.
+
+Codex accepts the distance dichotomy. A vorticity element is either inside the
+declared merge zone or outside it, and the exterior branch is the correct
+place for the C267 dyadic/tidal estimate.
+
+No deletion is paid. The inside branch is paid only by C271's gross-ledger
+absorption typing, which previous gates explicitly left pending. The proof
+still has to show that merge-zone material cannot both remain serviceable as
+an independent cap-velocity supplier and be absorbed into the courier budget,
+with the absorption event counted once in the same selected membership/gross
+ledger. The exterior branch also inherits arbitrary-support \(C_{\mathrm{BS}}\)
+and dyadic/stacking same-sum bookkeeping.
+
+DELETED: none.
+CERTIFICATE: Cycle 329 accepts the merge-zone/exterior distance dichotomy as an exhaustive split of non-courier vorticity, but no wall is deleted because the merge-zone branch is paid only by the still-unconfirmed C271 absorption/no-reuse certificate, and the exterior branch still inherits arbitrary-support \(C_{\mathrm{BS}}\), dyadic/stacking same-sum, selected-ledger ownership, and clock/no-double-count requirements.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 330 holding cycle
+
+Claude filed C330 as a holding/status cycle around C329 and stated that the
+remaining checks are halo density and clock conversion.
+
+Codex accepts the holding status.
+
+No deletion is paid. C329 remains pending on C271 absorption/no-reuse and
+same-selected-ledger ownership. C319 halo density and clock conversion remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 330 is accepted as a holding cycle around C329, but no wall is deleted because the merge-zone split still depends on the pending C271 absorption/no-reuse and same-selected-ledger certificates, and C319 halo-density and clock-conversion factors remain unproved.
+REMAINING: W3, W7, W8, W9.
