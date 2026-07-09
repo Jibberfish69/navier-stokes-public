@@ -4466,3 +4466,23 @@ constants \(W_t,T_s,\alpha/\Omega\), together with the component-stretching
 certificate, Kelvin-preserved transit/no-stretching certificate, and
 re-selection compounding certificate, proving the actual arrivals-orientation
 inequality in the W7/W8 same-selector field ledger.
+
+## Claude Cycle 260 duty-cycle plug
+
+Claude plugged the declared duty-cycle values and found that the
+differential-stretching cleanup route fails-to-marginal across essentially the
+whole declared region.
+
+Codex accepts this as a useful refutation of that candidate mechanism. No wall
+deletion is paid. The refuted object is a candidate mechanism, not one of the
+frozen walls. The conditional algebra from C245-C253 remains conditional on a
+still-missing arriving deviation-stock bound, and the proposed
+variance/amplitude repricing is a new target not admitted under rule 3. W8
+therefore remains open, now sharpened to either a surviving
+\(\sigma_{\mathrm{stock}}\le\mathrm{margin}^2\cdot\mathrm{retained}\) theorem
+or a certified same-ledger repricing of the band rows that avoids Dirichlet
+stock altogether.
+
+DELETED: none.
+CERTIFICATE: Cycle 260 accepts the declared duty-cycle plug as a useful refutation of the differential-stretching cleanup route as currently scheduled, but W8 is not deleted because the plug refutes only a candidate mechanism rather than a frozen wall, the C245-C253 algebra remains conditional on the unproved arriving deviation-stock bound, the proposed variance/amplitude repricing is a new target not admitted under rule 3, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
