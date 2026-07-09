@@ -88,3 +88,13 @@ Physical sentence of the sticking point: none mathematical — the arc produced 
 Missing exact facts: (1) gate verdicts on Cycles 1–3 (the Riccati is checkable line by line — gate it first); (2) the delivery-mode exhaustion check (can a rich diagonal deliver e·He ≤ −α² without frame-lock or re-aim — the circuit's sharpest attack); (3) thereafter, the single remaining analytic estimate: the 07-07 re-aiming bill inequality on the Q>0 branch.
 
 State at stall: E1–E5 installed (Claude's judgment; owner veto open); arc-1's four walls carry the arc-bridge reduction candidate (pending); the program's compressed form: Riccati (proved) + trichotomy (filed) + re-aiming inequality (open) + tiled conversion (framed) + ε-regularity (classical). Holding per rule 6.
+
+---
+
+## CYCLE 4 — THE RICH-DIAGONAL ATTACK: ANSWERED EXACTLY (pointwise succeeds, dynamically fails; the exhaustion lifts to the pair-relation; self-attacked before filing)
+
+The circuit's sharpest attack surface, resolved by derivation rather than queued:
+**Pointwise: the attack SUCCEEDS.** A symmetric H with a deeper off-axis well (eigenvalue −M ≪ −α² along e′) delivers e·He ≤ −α² with cos²θ(e,e′) ≥ α²/M — frame proximity is NOT forced; the naive exhaustion is false as stated. Trace cost: tr H = −Q forces the complementary directions to carry positive curvature summing to M − Q.
+**Dynamically: the attack FAILS, and sharpens the circuit.** The Riccati requires the subsidy along the TRANSPORTED e over time. Rich delivery routes the subsidy through the RELATION between the moving vorticity direction e(t) and the moving well direction e′(t); that relation is itself transported and turned by the already-computed frame dynamics. Therefore the delivery trichotomy LIFTS to the pair-relation: (e,e′) must LOCK (billed — the on-frame ghost one level up), RE-AIM (the same re-aiming inequality, now for the relation), or LAPSE (decorrelation ⟹ subsidy lapses ⟹ −α² collapses the aim). No free third mode exists at the relation level either.
+**Corrected circuit statement:** Riccati (proved) → subsidy required (exact) → delivery via the (vorticity, pressure-well) relation → lock ∨ re-aim ∨ lapse ON THE RELATION → the re-aiming bill inequality (now for the pair-relation) remains the single estimate.
+**Self-attack before filing (the residual weakness found):** the pair-relation's turning rate needs the gap-normalization argument (analogous to Bᵢⱼ = Ĥᵢⱼ/(λᵢ−λⱼ)) stated for the relative rotation of two transported frames — same structure as the proved single-frame case, not yet written for the pair. That is the exact residue handed to the gate, pre-identified.
