@@ -3468,8 +3468,8 @@ measure. The identities provide neither the bounded-variation estimate
 ```math
 \sup_n\left(
 \|J_n\|_{\mathrm{TV}}
-+M_{+,n}((-∞,0])
-+M_{-,n}((-∞,0])
++M_{+,n}((-\infty,0])
++M_{-,n}((-\infty,0])
 \right)<\infty
 ```
 
@@ -3477,8 +3477,8 @@ nor terminal tightness
 
 ```math
 \lim_{L\to\infty}\sup_n\left[
-|J_n|((-∞,-L])
-+\sum_sM_{s,n}((-∞,-L])
+|J_n|((-\infty,-L])
++\sum_sM_{s,n}((-\infty,-L])
 \right]=0.
 ```
 
@@ -3495,7 +3495,7 @@ strict same-trajectory history reduction. Extraction of a terminal current
 defect still requires bounded variation, terminal tightness, and spatial
 profile retention. No finite reserve and no Gold conclusion follows.
 
-## 26. THE POSITIVE RUNNING-RECORD MEASURE AND ITS EXACT LIMIT (NIC.244--NIC.250)
+## 26. THE POSITIVE RUNNING-RECORD MEASURE AND ITS COMPACTNESS BOUNDARY (NIC.244--NIC.250)
 
 The signed parent current `J_n` contains all positive and negative nonlinear
 work on the last doubling interval. The productive part of the same full-field
@@ -3566,7 +3566,7 @@ V_n(q):=v_n(\tau_n(q))
 
 is measurable and requires no strict crossing-speed assumption. Continuity of
 `q_n` gives `R(V_n(q))=q`; at differentiability points of the first hit,
-`P_H(V_n(q))-nu_n D(V_n(q))>=0`. Moreover,
+`P_H(V_n(q))-\nu_n D(V_n(q))\ge0`. Moreover,
 
 ```math
 \boxed{
