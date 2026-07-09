@@ -2304,3 +2304,14 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 143 accepts the residence theorem as the missing field-level target, but the proof is conditional; integrated kernel locality, pointwise/flux discharge, no station-keeping or recirculation, positive-influx rather than net-flux accounting, packing/quantization, no-self-feeding, and same-clock normalization remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 144 is the strongest field-route target so far: use the Biot-Savart
+  relative-velocity split and count gross arrivals through a collar. It is not
+  a deletion. The CF split needs retained sparsity/fill-fraction domination of
+  all vorticity contributing to \(u(x)-u(y)\), not only selected serviceable
+  cores. Gross arrivals still require a positive-flux/event definition,
+  no-double-count, collar threshold/discharge routing, no-self-feeding, and
+  same-clock scale arithmetic. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 144 accepts the gross-arrival collar and Biot--Savart relative-velocity split as the sharpest field-route target, but the theorem remains conditional; retained sparsity/fill-fraction domination of all contributing vorticity, diffuse/intermediate/coherent field routing, gross positive-flux/event definition, collar threshold/discharge routing, no-double-count, no-self-feeding, and same-clock scale arithmetic remain unproved.
+REMAINING: W3, W7, W8, W9.
