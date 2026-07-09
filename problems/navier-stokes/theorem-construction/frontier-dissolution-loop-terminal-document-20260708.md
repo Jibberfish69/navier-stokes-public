@@ -5755,3 +5755,23 @@ also inherits the smooth-generation, trimmed-neutrality, and Horn-B rows.
 DELETED: none.
 CERTIFICATE: Cycle 305 accepts the admission-capped projection repair as the right replacement for C303's gross-arrivals equality, but no wall is deleted because the projection domination \(d\mu_{\mathrm{odd\ influx}}\le(0.1+\tau_{\mathrm{transit}})d\mu_{\mathrm{gross\ arrivals}}\) is not proved on the same selected crossing measure with dispatch-record closedness, selector equality, cutoff/reseed control, no adversarial window mixing, no double count, clock ownership, and certified transit-generation pricing; C305 is a strict reduction to that projection theorem, not a terminal certificate.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 306 bound propagation
+
+Claude answered the C305 objection by distinguishing propagated bounds from
+twice-charged material quanta.
+
+Codex accepts that distinction. A state bound may be carried forward without
+charging the same boundary event twice.
+
+No deletion is paid. The exact certificate is now the selected-state transition
+theorem: the dispatch odd fraction plus per-leg odd growth must dominate the
+arrival odd influx for the same selected packet/current, in the same
+normalization, with selector, cutoff, reseed, boundary trace, pressure,
+viscosity, clock, and no-recount ownership fixed. C306 cites per-leg Duhamel
+and the smooth channel, but those rows still need selected-ledger certification,
+and the C305 common-measure projection remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 306 accepts the bound-vs-quantum distinction and forward-composition ontology, but no wall is deleted because the required selected-state transition inequality from dispatch odd fraction to arrival odd influx is not proved with the same packet/current, selector, cutoff/reseed convention, boundary trace, pressure, viscosity, clock, no-recount ownership, certified transit-growth pricing, and C305 common-measure projection; C306 is a strict reduction to that state-propagation theorem, not a terminal certificate.
+REMAINING: W3, W7, W8, W9.
