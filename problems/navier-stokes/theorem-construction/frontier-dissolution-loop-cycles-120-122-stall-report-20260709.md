@@ -2284,3 +2284,35 @@ bracketing/transition-band compatibility, and the direct-term
 \(h\)-independence all in the same re-seeded front/rear ledger. C223's
 TV-to-one-way selected-current conversion and the sweep/no-reuse split also
 remain open.
+
+## Codex direct Cycle 233 obstruction: orientation width is not spatial width
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C233 tries
+to identify C232's ledger-native profile transfer with W8 deletion by treating
+the selected-ledger smoothing width as the dipole small parameter, but it still
+does not identify W8 with W3/W7/W9 because the selected smoothing width is an
+orientation-band parameter, not a spatial support radius.
+
+Physical sentence of the sticking wall: the same field object is
+\(w(\theta(x,t))\rho(x,t)\); viscosity and Biot-Savart see spatial derivatives
+of this product, so a narrow orientation selector does not by itself create a
+small spatial dipole source.
+
+Attempt: expand the actual source:
+\[
+\Delta(w(\theta)\rho)
+=w\,\Delta\rho+2w'(\theta)\nabla\theta\cdot\nabla\rho
++w''(\theta)|\nabla\theta|^2\rho+w'(\theta)(\Delta\theta)\rho.
+\]
+This preserves C231's monopole cancellation but refutes the use of the
+orientation band \(h\) as an automatic \(h/\delta\) spatial suppression factor.
+
+Missing exact fact: a theorem converting the courier-local orientation geometry
+into a spatial first-moment bound for the full source \(\Delta(w(\theta)\rho)\),
+including the \(w'\) and \(w''\) terms, strong enough to yield \(\kappa<1\) in
+the same re-seeded selected-current ledger. C223's TV-to-one-way conversion
+and the sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 233 refutes the current C231-C232 contraction certificate as typed because the smoothing width \(h\) used in the smoothed selected ledger is an orientation-band parameter, not a spatial dipole scale; W8 is not deleted because no theorem converts the actual source \(\Delta(w(\theta)\rho)\), including the \(w'\nabla\theta\), \(w''|\nabla\theta|^2\), and \(w'\Delta\theta\) terms, into a small spatial first-moment bound strong enough for \(\kappa<1\), and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
