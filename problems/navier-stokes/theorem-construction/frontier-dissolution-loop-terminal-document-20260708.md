@@ -855,3 +855,12 @@ None.
   remote stranding/import price, transition-zone closure, W7 graph current, W8
   selected currency, and W9 zero-surplus action remain unproved. No wall is
   deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 40 shared-certificate draft is accepted as the right
+  assembly surface, not as a deletion. Codex edited
+  `one-certificate-eta-current-draft-v1-20260708.md` at GAP-0: the moving
+  well-frame is a gauge choice, so the draft now requires tubular coordinates,
+  axis/cutoff treatment for \(\omega_\phi/\rho\), gauge-change laws, and a
+  \(T_{\rm frame}\) row carrying frame-rotation, translation, curvature, and
+  commutator terms into tilt, wake loss, or charged import. Clause 2 was also
+  corrected: the event graph is dissolved only after the moving-frame TV-decay
+  identity is proved. No wall is deleted. Remaining: W3, W7, W8, W9.
