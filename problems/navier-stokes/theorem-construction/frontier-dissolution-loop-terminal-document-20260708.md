@@ -1320,3 +1320,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 75 files the stall at the common-normalization theorem plus coefficient comparison; the four remaining walls are consumed by that theorem and are not deleted.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 76 C1 computation is accepted as a decomposition, not as a
+  certificate-quality number. The axis-rotation \(12/35\) contribution still
+  needs dimensional normalization into the same material clock and stock current
+  as R10. The advective winding contribution is bounded by the uncomputed shared
+  bootstrap constant \(C_{\rm grad}\); off-axis tangency at
+  \(\rho\sim1.45\delta\) gives only the tier-scale estimate supplied by Theorem
+  A, and R1 still has to enter as positive variation without double-counting R6.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 76 reduces \(C_1\) to a normalized \(12/35\) term plus \(C_{\rm grad}\); the shared normalization, off-axis estimate, and no-double-count entry remain unproved.
+REMAINING: W3, W7, W8, W9.
