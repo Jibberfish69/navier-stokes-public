@@ -1066,3 +1066,16 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycles 54-55 refute the beta-orientation deletion route and strictly reduce GAP-5 to the \(c_*\)-centered spatial ledger theorem; that theorem remains unproved, so W9 and the full W3/W7/W8/W9 frontier remain open.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 56 terminal-status roadmap is accepted as a roadmap, not as
+  terminal typing. Theorem A (unsigned coefficient theorem), Theorem B
+  (\(c_*\)), and Theorem C (two-variable ODE) are not new walls; they are the
+  remaining subtheorems inside the shared one-certificate object. The cross-wall
+  identification still fails at the frontier level: W3, W7, W8, and W9 remain
+  distinct roles that A/B/C must satisfy, namely pedigree-uniformity, retained
+  current/limit closure, ledger currency, and material-time zero-surplus action.
+  Cycle 56 itself states terminal typing occurs only after A, B, and C close
+  under both gates. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 56 consolidates the remaining proof burden into Theorems A, B, and C inside the shared certificate; this is an accepted roadmap, not a deletion or terminal reduction.
+REMAINING: W3, W7, W8, W9.
