@@ -2972,3 +2972,114 @@ transaction type, one refund channel. NOT closure. Sent to Codex with the
 question: does the four-body Body-II signed current measure exactly this
 supplier-link backscatter? If yes, the two lanes' terminal objects coincide
 at one displayed link.
+
+## 47. CODEX GATE ON GLOBAL IMPORT AND THE SUPPLIER LINK: a monotone inward front survives
+
+The global net-import estimate in §46 is exact. For every finite `T`,
+
+```math
+\int_0^T\Phi_{\rm in}(r,t)\,dt
+=\mathscr E(r,T)-\mathscr E(r,0)
++\nu\int_0^T\mathscr D(r,t)\,dt
+\le Cr^3\|u_0\|_2^2.
+\tag{G47.1}
+```
+
+The next inference in §46 does not follow. A bounded net import at every fixed
+`r` does not force gross in/out recycling. Critical growth can be carried by a
+front that crosses each radius inward once and never backscatters.
+
+This is already visible in an exact scalar model of the separation continuity
+equation. Let `E_0` be smooth, nonnegative, even, radial, and supported in one
+annulus. Set
+
+```math
+b(h,t)=-h,
+\qquad
+\kappa(h,t)=3,
+\qquad
+E(h,t)=E_0(e^t h),
+\tag{G47.2}
+```
+
+and define
+
+```math
+F=2Eb=-2hE,
+\qquad
+D=3E/\nu.
+\tag{G47.3}
+```
+
+Then
+
+```math
+\partial_tE+\frac12\nabla_h\cdot F+\nu D=0
+\tag{G47.4}
+```
+
+exactly. The characteristics satisfy `h(t)=e^{-t}h_0`; their mass decays like
+`e^{-3t}`, while the critical weight grows like `e^{4t}`. Consequently
+
+```math
+\int_{\mathbb R^3}|h|^{-4}E(h,t)\,dh
+=e^t
+\int_{\mathbb R^3}|h|^{-4}E_0(h)\,dh
+\longrightarrow\infty.
+\tag{G47.5}
+```
+
+Nevertheless `mathscr E(r,t)<=Cr^3`, the radial flux is everywhere inward,
+and, writing
+
+```math
+g(s)=\int_{S^2}E_0(s\theta)\,d\theta,
+\tag{G47.6}
+```
+
+one has
+
+```math
+\Phi_{\rm in}(r,t)=r^3g(e^tr)\ge0,
+\qquad
+\int_0^\infty\Phi_{\rm in}(r,t)\,dt
+=r^3\int_r^\infty\frac{g(s)}s\,ds
+\le Cr^3.
+\tag{G47.7}
+```
+
+There is no outward crossing, refund, or supplier-link backscatter in this
+model. The energy-size exponent `3` and the critical weight exponent `4`
+leave one full power in which a monotone front can grow.
+
+`(G47.2)--(G47.7)` is not asserted to be realizable as the structure function
+of an NS field. Its role is exact: it refutes the claimed deduction from the
+separation balance, the energy bound, and `(G47.1)` alone. Closing the monotone
+front requires an additional NS-realizability theorem proving that every
+record-retaining inward front has cumulative hazard at least `4 Delta rho`,
+or an explicit independently bounded history charge. NIC §13 proves the
+lineage formula and also shows that a universal hazard floor fails on
+Euler-dominated record-upcrossing segments.
+
+Body II does not yet identify the missing charge. Its exact statement is
+
+```math
+dM+dD=dJ,
+\qquad
+dJ^+=dM+dD+dJ^-,
+\tag{G47.8}
+```
+
+and its positive-activity coefficient is `c_Q=0`. Thus `J^-` is the signed
+partner of a generic mixed exchange; no filed identity equates it with the
+specific supplier-link backscatter of §46 or with the radial return of
+`Phi_in`. Such an equality would itself require a same-carrier map from the
+separation flux to the Body-II mixed rung, with no discarded angular,
+frequency, cutoff, or boundary terms.
+
+**Gate result.** The global net-import budget is proved. The reduction to pure
+recycling is refuted by the monotone-front branch, and the proposed Body-II
+identification is presently name-level rather than an identity. The surviving
+history problem has two branches: exclude a realizable monotone inward
+critical front, and control genuine return/backscatter. Neither branch is
+closed, so Gold remains open.
