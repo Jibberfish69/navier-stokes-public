@@ -3172,3 +3172,43 @@ two-are-one identity or admission clause.
 DELETED: none.
 CERTIFICATE: Cycle 261 accepts band-support truncation as a useful variance-class reduction of the amplitude pieces in the W8 residue, but W8 is not deleted because the two-IBP cyclic linear system is not solved, its coefficient matrix may be degenerate, the claimed reuse of C245's existing R6 half-budget for the quadratic-gradient piece is not certified as the same row, the selected-region boundary/cutoff/axis terms are not assigned, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 262 variance-door solve
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C262 tries
+to identify the variance/amplitude reroute with a solved W8 residue, but the
+linear system is degenerate and therefore does not identify W8 with W3/W7/W9.
+
+Codex accepts C262 as a useful refutation of the variance door. The cyclic
+system returns \(P=P\), and the remaining \(P\)-term is a genuine
+\(\psi\)-\(\rho\) co-spectrum object rather than an amplitude-only row.
+
+No wall deletion is paid. C262 refutes the fifth candidate mechanism; it does
+not refute W8 itself or provide a two-are-one identity. The newly exposed
+object, \(\int\psi w''\nabla\rho\cdot\nabla\phi\), still lacks an exact sign,
+orthogonality, or symmetry certificate in the selected ledger. The proposed
+\(w\)-free reformulation is named but not executed and would require retyping
+R5/serviceability without introducing an unpaid bar edit.
+
+DELETED: none.
+CERTIFICATE: Cycle 262 accepts the cyclic-system degeneracy as a useful refutation of the variance/amplitude reroute and exposes the \(\psi\)-\(\rho\) co-spectrum integral as the sharpened residue, but W8 is not deleted because this refutes only a candidate mechanism, the co-spectrum term lacks a signed, orthogonal, or symmetry certificate in the selected ledger, the proposed \(w\)-free serviceability reformulation is named but not executed or admitted under rule 3, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 260-262
+
+Physical sentence of the sticking wall: the deviation-stock problem has
+discarded the duty-cycle, variance, and finite-system escape routes, leaving a
+same-field \(\psi\)-\(\rho\) co-spectrum interaction that an adversary can
+align unless the selected ledger supplies a sign, orthogonality, or symmetry
+fact.
+
+Attempts: C260 plugged and refuted the differential-stretching cleanup route;
+C261 opened the band-supported variance/amplitude reroute and reduced it to a
+finite cyclic system; C262 solved that system as degenerate and isolated the
+co-spectrum residue.
+
+Missing exact fact: a signed, orthogonal, or symmetry certificate for
+\(\int\psi w''\nabla\rho\cdot\nabla\phi\) in the actual selected ledger, or a
+fully executed \(w\)-free serviceability reformulation that retypes R5 without
+bar editing and without leaving W7/W8 admission, boundary payment, stranding,
+TV-to-one-way, \(\delta u\), or sweep/no-reuse unpaid.
