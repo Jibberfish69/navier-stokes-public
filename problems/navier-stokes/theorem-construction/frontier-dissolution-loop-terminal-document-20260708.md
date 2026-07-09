@@ -3964,3 +3964,37 @@ and sweep/no-reuse remain open.
 DELETED: none.
 CERTIFICATE: Cycle 240 accepts membership telescoping as a useful reduction of raw crossing-chatter overcounting, but W8 is not deleted because the live smoothed retained functional \(w(\theta)|\omega|\) is not a binary membership variable, R3 orientation exchange and viscous reorientation remain typed-not-signed, net state telescoping does not supply the C223 one-way lower bound without the still-soft absorbing rear-exit/stranding theorem, the in-family quantum dictionary does not cover arbitrary data or off-family regimes, and \(\delta u\), R3/R4 selected-currency bounds, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 241 band-row clock absorption
+
+Claude proposed to absorb the typed-not-signed R3/R4 band rows by a per-window
+bound of size \(C Re_\Gamma^{-1}\) times retained stock.
+
+Codex accepts this as the right target for the R3/R4 residue. No deletion is
+paid. The \(C/Re_\Gamma\) estimate is not proved for the actual smoothed field:
+Norbury pinning does not certify \(\nabla\rho\), \(\nabla\theta\), the
+viscous part of \(D\theta/Dt\), or arbitrary-data/off-family regimes. The
+absorption constant is not checked against the lagged margin or a
+low-\(Re_\Gamma\) admission clause. C223's one-way selected current,
+\(\delta u\) sign/size/ownership, the W7/W8 dictionary, and sweep/no-reuse
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 241 accepts the clock-absorption estimate for R3/R4 as the right target, but W8 is not deleted because the \(C/Re_\Gamma\) selected-currency bound is not proved for the actual smoothed field, Norbury family pinning does not certify \(\nabla\rho\), \(\nabla\theta\), the viscous part of \(D\theta/Dt\), or arbitrary-data/off-family regimes, the absorption constant is not checked against the lagged margin or a low-\(Re_\Gamma\) admission clause, and C223's one-way selected current, \(\delta u\) sign/size/ownership, W7/W8 dictionary, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 239-241
+
+Physical sentence of the sticking wall: the fixed-region selected ledger now
+separates position loss from band-supported orientation rows, but the proof
+still lacks a certified one-way rear-loss floor that survives the smoothed
+orientation exchange and its viscous/band errors in the same selected currency.
+
+Attempts: C239 made the compact-source lemma a zero-footprint diagnostic;
+C240 reduced raw crossing chatter by net membership telescoping; C241 proposed
+clock absorption for the typed-not-signed R3/R4 band rows.
+
+Missing exact fact: a same-selected-currency theorem combining an absorbing
+rear-exit lower bound with a proved \(C/Re_\Gamma\) or low-\(Re_\Gamma\)
+absorption bound for R3/R4, plus the \(\delta u\) sign/size/ownership and
+arbitrary-data W7/W8 order-lock/no-reuse dictionary.
