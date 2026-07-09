@@ -5878,3 +5878,26 @@ dynamical sign-selection/Liouville statement.
 DELETED: none.
 CERTIFICATE: Cycle 361 is accepted as a strict reduction to the forced terminal form: a dynamical sign-selection/Liouville theorem for the owned-axis one-way viscous exchange, with clauses corresponding to W3 admission, W7 closure/reseed, W8 sign selection, and W9 clock normalization. No wall is deleted because the wall-to-clause maps and the sign-selection theorem are unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after post-stall Cycle 362
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C362 tries
+to identify W3 membership content with W7 closure and empty the remaining W3
+constitution rows by computed budget.
+
+Codex executes the rule-4 refutation attempt against the C362 certificate. The
+refutation succeeds.
+
+The failing line is that the functional is fixed. It is not fixed until
+\(P_A\), the selected region, cutoff/reseed, boundary tangency or crossing
+dipole, pressure/projection placement, retained normalization, and clock
+ownership are all typed in the same ledger. The schematic NS budget does not
+assign those terms once.
+
+The retained-support tangency/crossing-dipole condition is also a live
+admission instance for the surviving object. It is not just W7 propagation
+after definitional data selection.
+
+DELETED: none.
+CERTIFICATE: The post-C362 binary refutation succeeds: C362 does not delete W3 because the terminal functional is not fixed until \(P_A\), \(A\), cutoff/reseed, boundary/crossing defect, pressure/projection placement, retained normalization, and clock ownership are admitted in the same ledger; the retained-support tangency/crossing-dipole condition is a live W3 admission instance, so W3 is neither empty-by-admission nor two-are-one with W7.
+REMAINING: W3, W7, W8, W9.
