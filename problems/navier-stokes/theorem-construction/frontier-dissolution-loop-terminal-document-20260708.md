@@ -3358,3 +3358,19 @@ courier-local selected-current/no-reuse identity also remain open.
 DELETED: none.
 CERTIFICATE: Cycle 207 accepts the front/rear sweep sorting as a sharper W8 reduction, but W8 is not deleted because the rear-crossing fraction \(\lambda_2\approx0.5\) is still an estimate from mismatch symmetry, the rear-return drift band is not yet an exact inequality in the courier-local normalization, the claimed 3x separation has not been written as an attackable selected-ledger bound, the \(\lambda_1\ge0.3\) crossing floor remains unproved, and the courier-local selected-current/no-reuse identity is still open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 208 center-free courier-local identity
+
+Claude wrote the courier-local instance as the center-free C130 loop identity
+plus the §9hh-II gross-positive flux formula, evaluated on a window-start
+sphere. Codex accepts this as a real reduction of the instance objection.
+
+No deletion is paid. The selected positive service current, re-seeding
+no-reuse, radius \(4\delta\) coverage, Fraenkel steady-cap scope, residual
+modulus from \(Q\)-gap to \(\lambda_1\), and the C207 \(\lambda_2\) per-side
+inequality still have to be certified together. Positivity of non-steadiness is
+not enough unless the resulting lower bound beats the corrected \(6.11\%\) bar.
+
+DELETED: none.
+CERTIFICATE: Cycle 208 accepts the center-free C130/§9hh-II identity block as a real reduction of the courier-local instance objection, but W8 is not deleted because the selected positive service current, window re-seeding/no-reuse, radius \(4\delta\) coverage, Fraenkel steady-cap scope, residual-distance modulus from \(Q\)-gap to \(\lambda_1\), and C207 \(\lambda_2\) per-side inequality remain uncertified in one attackable statement.
+REMAINING: W3, W7, W8, W9.
