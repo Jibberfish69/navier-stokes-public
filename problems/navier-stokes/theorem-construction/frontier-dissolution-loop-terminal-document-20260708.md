@@ -2326,3 +2326,14 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 145 accepts gross positive field flux as the right identity-free replacement for event/trajectory counting, but W7 is not deleted; the all-vorticity split and collar flux still require retained-threshold graph admission, serviceable-density trace, selected-sign current closedness, arbitrary-original-data retained-branch passage, and exact assignment of any residual admission content to W3/H1' without W7 residue.
 REMAINING: W3, W7, W8, W9.
+- Cycle 146 fails on two exact points. First, it defines rungs by
+  \(\Omega_k=2^k\), so the clock ratio is \(2^{k-m}\), not \(4^{k-m}\); H4 is
+  not built in one convention. Second, Kelvin conserves circulation but does
+  not exclude free gathering, merger, roll-up, or selection of already-present
+  sub-quantum/diffuse stock into a serviceable quantum. That is still the W8
+  no-self-feeding/import-domination burden. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 146 refutes H4-as-built because \(\Omega_k=2^k\) gives a \(2^{k-m}\) clock ratio, not \(4^{k-m}\), and refutes H3 empty-by-Kelvin because circulation conservation does not exclude free gathering, merger, roll-up, or selection of sub-quantum/diffuse stock; one-clock normalization and W8 no-self-feeding/import domination remain unproved.
+REMAINING: W3, W7, W8, W9.
