@@ -3,7 +3,7 @@ theorem_id: forward-gold-critical-height-native-increment-current-fixed-face-cer
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / signed critical height / c0 / Fable fixed face
-status: proved-native-current-identity-and-affine-fixed-face-floor; passage-to-retained-bill-open
+status: proved-native-current-identity-and-universal-affine-positive-part-floor; passage-to-retained-bill-open
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-target1-energy-testform-display-executed-20260705.md
@@ -13,15 +13,17 @@ source_refs:
 completion_truth: >-
   This note derives an exact increment representation of the signed critical
   Hdot1/2 production and an exact weighted Duchon-Robert scale synthesis. It
-  then evaluates the native current on an affine velocity-gradient tangent. On
-  the spin-silent fixed face, if vorticity lies on a positive strain
-  eigenvalue and the Vieillefosse service -tr(S^3) is positive, the native
-  critical current has a strict pointwise angular floor. Thus the proposed
-  aligned zero-native-current positive-service affine tangent is empty. This is
-  an exact certificate inside the actual critical-height equation, not a new
-  ledger definition. Gold is not yet closed: the normalized record extraction
-  must retain this signed local current in the same four-body/channel packet
-  without cancellation, shell escape, or loss of service.
+  then evaluates the native current on an affine velocity-gradient tangent and
+  proves a universal positive-part floor: for every incompressible affine
+  gradient A=S+W, the angular positive native current dominates
+  (8 pi/15)[-tr(S^3)]_+. The skew/vorticity part cannot cancel this floor. Thus
+  every affine zero-native-positive-current tangent has zero positive
+  Vieillefosse service; the rotating and spin-silent affine faces are both
+  excluded. This is an exact certificate inside the actual critical-height
+  equation, not a new ledger definition. Gold is not yet closed: the normalized
+  record extraction must retain this signed local current in the same
+  four-body/channel packet without cancellation, shell escape, or loss of
+  service.
 ---
 
 # Native critical increment current on the fixed face
@@ -253,7 +255,134 @@ Hence
 
 The native critical-work orientation is `-mathcal I(A)`.
 
-## 4. Fixed-face certificate
+## 4. Universal affine positive-part floor
+
+The affine native-current density in direction `theta` has positive orientation
+
+```math
+\mathcal B(A)
+:=
+\int_{S^2}
+\left[
+-|A\theta|^2(\theta\cdot A\theta)
+\right]_+
+\,d\theta.
+\tag{NIC.18}
+```
+
+Write
+
+```math
+q(\theta)=\theta\cdot S\theta=\theta\cdot A\theta.
+\tag{NIC.19}
+```
+
+Then
+
+```math
+\mathcal B(A)
+=
+\int_{\{q<0\}}|S\theta+W\theta|^2[-q(\theta)]\,d\theta.
+\tag{NIC.20}
+```
+
+Diagonalize `S`. The region `{q<0}` and its weight `-q` depend only on
+`theta_1^2,theta_2^2,theta_3^2`. Meanwhile
+
+```math
+(S\theta)\cdot(W\theta)
+=
+\sum_{i<j}(\lambda_i-\lambda_j)W_{ij}\theta_i\theta_j.
+\tag{NIC.21}
+```
+
+Each cross term is odd under one coordinate reflection, so
+
+```math
+\int_{\{q<0\}}
+(S\theta)\cdot(W\theta)[-q(\theta)]\,d\theta
+=0.
+\tag{NIC.22}
+```
+
+The remaining skew term is nonnegative. Hence
+
+```math
+\mathcal B(A)
+\ge
+N_S
+:=
+\int_{S^2}|S\theta|^2[-q(\theta)]_+\,d\theta.
+\tag{NIC.23}
+```
+
+Let
+
+```math
+P_S
+:=
+\int_{S^2}|S\theta|^2[q(\theta)]_+\,d\theta.
+\tag{NIC.24}
+```
+
+The fourth spherical moment gives
+
+```math
+P_S-N_S
+=
+\int_{S^2}|S\theta|^2q(\theta)\,d\theta
+=
+\frac{8\pi}{15}\operatorname{tr}(S^3).
+\tag{NIC.25}
+```
+
+Therefore
+
+```math
+\boxed{
+\mathcal B(A)
+\ge
+\frac{8\pi}{15}
+\big[-\operatorname{tr}(S^3)\big]_+ .
+}
+\tag{NIC.26}
+```
+
+This certificate holds for every skew part `W`; no alignment, axisymmetry,
+pressure-Hessian condition, or eigenvalue-gap hypothesis is used.
+
+## 5. Smooth-field shell limit
+
+For a `C^1` velocity field define the positive native current on the
+`h=r theta` shell by
+
+```math
+\mathscr J_H^+(x,r)
+:=
+c_\Lambda
+\int_{S^2}
+\frac{|\delta_{r\theta}u(x)|^2
+[-\delta_{r\theta}u(x)\cdot\theta]_+}{r^3}
+\,d\theta.
+\tag{NIC.27}
+```
+
+Since `delta_{r theta}u=rA(x)theta+o(r)`, `(NIC.26)` gives
+
+```math
+\boxed{
+\lim_{r\downarrow0}\mathscr J_H^+(x,r)
+\ge
+c_\Lambda\frac{8\pi}{15}
+\big[-\operatorname{tr}(S(x)^3)\big]_+ .
+}
+\tag{NIC.28}
+```
+
+Thus positive Vieillefosse service cannot be locally silent for the positive
+part of the exact critical-height increment current.
+
+## 6. Spin-silent fixed-face corollary
 
 On the spin-silent fixed face assume
 
@@ -263,10 +392,10 @@ S\omega=\lambda\omega,
 \lambda>0,
 \qquad
 -\operatorname{tr}(S^3)>0.
-\tag{NIC.18}
+\tag{NIC.29}
 ```
 
-Then `(NIC.17)` gives
+Then `(NIC.17)` gives the signed angular floor
 
 ```math
 \begin{aligned}
@@ -281,10 +410,11 @@ Then `(NIC.17)` gives
 \big[-\operatorname{tr}(S^3)\big]
 >0.
 \end{aligned}
-\tag{NIC.19}
+\tag{NIC.30}
 ```
 
-This is an exact attackable certificate:
+This is consistent with, and weaker than, the universal positive-part
+certificate `(NIC.26)`:
 
 ```math
 \boxed{
@@ -294,14 +424,14 @@ This is an exact attackable certificate:
 \Longrightarrow
 \text{strict positive native critical increment current}.
 }
-\tag{NIC.20}
+\tag{NIC.31}
 ```
 
 In particular, a zero-native-current affine tangent with positive service can
 align its vorticity only with a nonpositive strain eigenvalue. It cannot be the
 positive vortex-stretching fixed-face survivor.
 
-## 5. Global consistency check
+## 7. Global consistency check
 
 For decaying or periodic incompressible fields, Betchov's identity is
 
@@ -309,7 +439,7 @@ For decaying or periodic incompressible fields, Betchov's identity is
 \int\operatorname{tr}(S^3)\,dx
 =
 -\frac34\int\omega\cdot S\omega\,dx.
-\tag{NIC.21}
+\tag{NIC.32}
 ```
 
 Therefore `(NIC.17)` also gives
@@ -319,22 +449,22 @@ Therefore `(NIC.17)` also gives
 =
 \frac{32\pi}{45}
 \int\operatorname{tr}(S^3)\,dx.
-\tag{NIC.22}
+\tag{NIC.33}
 ```
 
 This checks the orientation against the global strain-vorticity cubic ledger.
 It does not rectify the global current; positive and negative packets may still
 cancel.
 
-## 6. Exact remaining Gold passage
+## 8. Exact remaining Gold passage
 
-`(NIC.19)` removes the affine spin-silent fixed face from the zero-current
-kernel using the actual signed critical-height current. The remaining theorem
-is now narrower than `CubicRadialMomentOddPayment.A`:
+`(NIC.26)` removes every positive-service affine tangent from the zero-positive-
+native-current kernel using the actual signed critical-height current. The
+remaining theorem is now narrower than `CubicRadialMomentOddPayment.A`:
 
 ```math
 \texttt{RetainedNativeCriticalCurrentPassage.A}
-\tag{NIC.23}
+\tag{NIC.34}
 ```
 
 For every normalized retained record sequence with unit positive service and
