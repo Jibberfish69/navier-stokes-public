@@ -3,7 +3,7 @@ theorem_id: forward-gold-native-current-fixed-annulus-passage-reduction-20260709
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / signed critical height / native increment current / record passage
-status: proved-canonical-event-scaling-l3-passage-and-channel-domination-reduction; fourbody-currency-identification-open
+status: proved-canonical-event-scaling-l3-passage-and-channel-domination-reduction; proposed-fourbody-currency-inheritance-refuted
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-critical-height-native-increment-current-fixed-face-certificate-20260709.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-target1-exact-channel-flux-identity-20260705.md
@@ -18,10 +18,11 @@ completion_truth: >-
   partition and the measure inequality saying that the positive part of the
   total current is bounded by the sum of positive channel parts. Consequently
   record selection, scaling, and fixed-annulus compactness do not create a new
-  ownership wall for this current. Gold is not closed: the existing four-body
-  bill still has to be identified with, or proved to dominate, these native
-  positive channel measures on the same retained record edge, with the
-  weighted scale tail and original-data storage controlled.
+  ownership wall for this current. The proposed inheritance of an existing
+  four-body bound is refuted: the native positive current is the production
+  that raises the critical height, and domination by a finite original-data
+  four-body measure is exactly the still-open positive-selection storage
+  theorem. The channel partition does not prove that theorem.
 ---
 
 # Native-current fixed-annulus passage
@@ -244,10 +245,9 @@ on fixed event compacts, interpreted through the prelimit finite-readout
 measures. Thus channelization cannot cancel or hide the positive native current;
 the sum of positive channel carriers dominates it.
 
-## 6. The one remaining currency line
+## 6. The proposed currency inheritance is the Gold theorem
 
-The retained Perron/four-body theorem already has the conditional interface
-form
+The retained Perron/four-body note has only the conditional interface form
 
 ```math
 dA_{4B}
@@ -256,9 +256,10 @@ c_A\sum_c\nu_{u,c}^+
 \tag{NCP.19}
 ```
 
-once those channel measures are retained on the same record edge. Combining
-`(NCP.14)`, `(NCP.18)`, and `(NCP.19)` would give a scale-uniform strict bill for
-every positive-service affine limit.
+once the relevant positive channels have already been admitted as retained
+four-body activity on the same record edge. It does not identify the native
+critical-production channels with that activity and it does not prove a finite
+original-data bound for their positive selections.
 
 For the native current, raw ownership and the three-measure packet are no longer
 separate hypotheses: `(NCP.1)`--`(NCP.5)` provide one global pre-readout event
@@ -283,6 +284,35 @@ tail assigned once. If `(NCP.20)` fails, the first failing line must be one of:
 4. strong local `L^3` or positive service fails in the normalized limit;
 5. the original-data four-body storage is not finite.
 
-The first four are now exact, separately attackable passage statements. The
-fifth is the remaining global storage theorem. No wall is deleted and Gold is
-not closed until `(NCP.20)` and the finite original-data storage both hold.
+This is not a technical final interface. It contains the missing Gold theorem.
+Indeed, on pairwise disjoint critical-height record upcrossings `W_j`, the exact
+height equation and `(NCP.2)` give
+
+```math
+H_{\rm crit}(b_j)-H_{\rm crit}(a_j)
++\nu\int_{W_j}\|\Lambda^{3/2}u\|_2^2\,dt
+=
+\nu_u(W_j\times\mathbb R_x^3\times(\mathbb R_h^3\setminus\{0\}))
+\le
+\nu_u^+(W_j\times\mathbb R_x^3\times(\mathbb R_h^3\setminus\{0\})).
+\tag{NCP.21}
+```
+
+Consequently, `(NCP.20)` plus
+
+```math
+A_{4B}^{\rm retained}((0,T))\le C(u_0)<\infty
+\tag{NCP.22}
+```
+
+would bound the sum of all record increments and exclude unbounded critical
+height. That is precisely
+`RecordNativeWorkMenuPositiveSelectionStorage.A`, not a consequence of the
+linear-slot partition or the conditional Perron theorem. Defining `A_4B` to be
+the right side of `(NCP.20)` makes domination tautological and leaves
+`(NCP.22)` completely open.
+
+The first exact failure is therefore the combined currency/storage line: no
+proved field monovariant or dissipative identity dominates the positive native
+production measure. The fixed-annulus identities remain valid strict
+reductions, but no wall is deleted and Gold is not closed.
