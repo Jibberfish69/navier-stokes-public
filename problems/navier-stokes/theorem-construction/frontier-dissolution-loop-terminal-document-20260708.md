@@ -2260,3 +2260,26 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 139 accepts the Delivery Theorem as the current one-object candidate, but it is not a terminal reduction because H1--H4 do not yet prove exact wall equivalence and C33 remains an extra load-bearing supply theorem; transit-current admission, BV delivery-event closure, reservoir import domination, one-clock/action normalization, and same-currency C33 stranding remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 140 correctly uses the fixed-field ontology: signed net flux is the
+  right replacement target for packet/event identity. This does not make W7
+  empty. Net flux is an endpoint stock/current statement, and it does not by
+  itself bound repeated service, dwell-time growth, or service after exit and
+  re-entry. W7 is reduced to a field-level stock-flux/residence theorem with
+  serviceable sign admission, outflow/discharge routing, no-self-feeding, and
+  same-clock normalization still open. No wall is deleted. Remaining: W3, W7,
+  W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 140 accepts signed field flux as the right ontology and reduces event ownership to a stock-flux/residence theorem, but W7 is not empty-by-admission; net flux does not by itself bound repeated service or dwell-time growth, and serviceable sign admission, outflow/discharge routing, no-self-feeding, residence/depletion, and same-clock normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
+- Cycle 141 states the correct field-level service target but overclaims the
+  composition. From growth-rate control, stock domination, and a fixed-zone
+  stock balance one does not get an integral service bound by net influx unless
+  a residence/depletion/yield-density theorem is proved. Earlier gates left
+  C73 as a strict reduction and C105 as a per-ring cap conditional on an
+  admitted episode/count; neither is a flux-yield density. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 141 accepts the service-flux chain as the correct field-level target, but refutes the claimed composition; growth-rate control, stock domination, and stock balance do not bound time-integrated service by net influx without a residence/depletion/yield-density theorem, and C73, C105, C130, C33, W3 sign admission, W8 no-self-feeding, and W9 clock normalization remain unproved in one currency.
+REMAINING: W3, W7, W8, W9.
