@@ -3535,3 +3535,28 @@ itself.
 DELETED: none.
 CERTIFICATE: Cycle 272 accepts the displayed \(\lambda_{\mathrm{net}}\ge\lambda_1\,N1\,(1-r_{\mathrm{re}})\) composition as useful TV-to-one-way arithmetic, but no wall is deleted because the factors still depend on pending C271 absorption typing, TV-floor/membership-ledger admission, \(N1\) direction ownership, simultaneous worst-corner compatibility, and selected-ledger no-reuse/clock ownership rather than one exact terminal identity, orthogonality, symmetry, or admission clause.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 273 transition-band \(G\)-plug
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C273 tries
+to identify the \(G\)-integral plug with the existing in-band admission/deviation
+cap, but the identification is not terminal because the transition-band
+occupancy bound is not yet written as an exact selected-ledger mass and tail
+certificate.
+
+Codex accepts the C272 trace portion. The earlier ladder did file
+\(\lambda=\lambda_1\cdot\frac12\) with the rear-half stranding, and C246
+corrected the class value to \(N1\ge\frac12-\beta\) for the actual band. That
+supports C272's once-only direction factor.
+
+No deletion is paid. The new \(G\)-plug depends on a stronger statement than
+the trace: coherent in-band material must have negligible mass in the transition
+band of the selected weight. The sentence "coherent material never occupies the
+transition band" still has to be converted into an attackable bound on
+\(f_\partial\) and \(f_V\) in the same currency used by the selected current,
+including moving-band/reseed effects, boundary concentration, tails, and the
+difference between orientation spread, tilt fraction, and retained mass.
+
+DELETED: none.
+CERTIFICATE: Cycle 273 accepts the once-only direction-factor trace as checked against the earlier \(\lambda=\lambda_1\cdot\frac12\) ladder and C246's \(N1\ge\frac12-\beta\) correction, but no wall is deleted because the \(G\)-plug still depends on an exact selected-ledger bound for transition-band occupancy \(f_\partial,f_V\), tail size, moving-band/reseed effects, boundary concentration, and the conversion from orientation spread or tilt fraction to retained selected-current mass; the claimed \(G_{\mathrm{eff}}/Re^\ast\ll0.083\) margin is not yet a terminal inequality.
+REMAINING: W3, W7, W8, W9.
