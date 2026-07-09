@@ -3,7 +3,7 @@ theorem_id: forward-gold-fixed-face-constant-axis-localization-rigidity-20260709
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / c0 / fixed co-diagonal face / constant-axis localization
-status: proved-constant-axis-and-axisymmetric-localization-lemma; strict-reduction-not-gold-closure
+status: proved-parallel-axis-and-tangent-sheet-global-l2-rigidity-plus-axisymmetric-localization; strict-reduction-not-gold-closure
 source_refs:
   - problems/navier-stokes/theorem-construction/theorem-b-consolidated-statement-and-wall-maps-20260709.md
   - problems/navier-stokes/theorem-construction/frontier-dissolution-loop-arc2-proposed-frontier-20260708.md
@@ -13,8 +13,11 @@ completion_truth: >-
   z-uniform axisymmetric transition-shell subcase of the spin-silent fixed face.
   A positive axial stretch cannot be localized while vorticity stays on the
   same fixed strain eigenaxis: the localization derivative is exactly a
-  transverse vorticity component. A global L2 constant-axis field satisfying
-  the lock is zero. This does not close Gold because a normalized zero-payment
+  transverse vorticity component. Two complementary global L2 locks are now
+  excluded. A constant strain axis with vorticity parallel to it forces a
+  lower-dimensional split; a constant sheet normal with zero normal vorticity
+  forces the Fourier transform onto a measure-zero characteristic cone. Either
+  global finite-energy field is zero. This does not close Gold because a normalized zero-payment
   sequence may move its localization shell to infinity, vary its eigenaxis in
   space, pass through an eigenvalue-degenerate set, or fail the material-time
   passage needed to make the limiting axis constant. Those are now the exact
