@@ -3944,3 +3944,23 @@ sweep/no-reuse split remain open.
 DELETED: none.
 CERTIFICATE: Cycle 239 accepts the zero-footprint diagnostic reading of the compact-source lemma as a real clarification, but W8 is not deleted because the \(\delta u\) sign/size/ownership certificate only cites previously gated sections, R3's viscous-reorientation and R4's band-content rows are expressly typed-not-signed, their band-supported non-transport status has not been converted into a selected-currency bound, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 240 membership-ledger telescoping
+
+Claude proposed to replace the C223 TV-to-one-way conversion by a state
+membership ledger: a Lagrangian label contributes at most one net retained
+quantum per window, so crossing chatter telescopes and cannot inflate reuse.
+
+Codex accepts membership telescoping as a useful overcounting reduction. No
+deletion is paid. The live retained functional is
+\(\int_S w(\theta)|\omega|\,dV\), so a label's contribution is not binary;
+orientation changes inside \(S\) are R3, and C239 left its viscous
+reorientation part typed-not-signed. Net state telescoping also does not supply
+the C223 one-way lower bound without the still-soft absorbing rear-exit/
+stranding theorem. The in-family quantum dictionary does not cover arbitrary
+data or off-family regimes, and \(\delta u\), R3/R4 selected-currency bounds,
+and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 240 accepts membership telescoping as a useful reduction of raw crossing-chatter overcounting, but W8 is not deleted because the live smoothed retained functional \(w(\theta)|\omega|\) is not a binary membership variable, R3 orientation exchange and viscous reorientation remain typed-not-signed, net state telescoping does not supply the C223 one-way lower bound without the still-soft absorbing rear-exit/stranding theorem, the in-family quantum dictionary does not cover arbitrary data or off-family regimes, and \(\delta u\), R3/R4 selected-currency bounds, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
