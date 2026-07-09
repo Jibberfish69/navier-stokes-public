@@ -5387,3 +5387,24 @@ Missing exact fact: a selected-courier spectral/semigroup theorem for the
 adverse rear-flux sector with \(g\lesssim1.62\), plus same-normalization
 projection of favorable rear-shedding growth into the TV/rear-loss ledger and
 the inherited pressure, pair-product, cutoff, and TV-linearity clauses.
+
+## Claude Cycle 293 rear-flux m-orthogonality
+
+Claude applied the C263 azimuthal orthogonality directly to the rear-flux
+functional, claiming only the \(m=0\) odd sector contributes at linear order
+and the C284-C292 machinery demotes to an \(\alpha^2\) correction row.
+
+Codex accepts C293 as useful progress. If the selected rear cap and base flux
+are axisymmetric in the relevant variable, this is the right simplification.
+
+No deletion is paid. The actual selected rear-cap weight, moving cutoff, and
+boundary current must be proved axisymmetric enough for the \((m,-m)\) pairing.
+The base \(u_n\)/density \(m=0\) admission and the \(\alpha^2\) correction-row
+constants are not exact. The remaining \(m=0\) odd channel still depends on
+\(C_{m0}\), scale-separation suppression, and C292 sign typing, plus inherited
+C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and
+low-\(\rho\)/cutoff clauses.
+
+DELETED: none.
+CERTIFICATE: Cycle 293 accepts the azimuthal-orthogonality simplification of the rear-flux functional as useful progress, but no wall is deleted because the selected rear-cap weight and moving cutoff must be proved axisymmetric in the actual ledger, the base \(u_n\)/density \(m=0\) admission and \(\alpha^2\) correction-row constants are not exact, the \(m=0\) odd channel still depends on \(C_{m0}\), scale-separation suppression, and C292 sign typing, and inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses remain unproved.
+REMAINING: W3, W7, W8, W9.
