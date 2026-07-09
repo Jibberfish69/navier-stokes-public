@@ -2514,3 +2514,24 @@ axial rate \(\alpha_{\max}\).
 DELETED: none.
 CERTIFICATE: Cycle 159 accepts the moment barrier as the right same-field Burgers-transfer target, but no wall is deleted because the scalar single-signed cross-section identity still needs selected-component ownership, viscous slice/flux accounting, anisotropic and rotating strain control, curvature/cap routing, and the result still consumes the deadline, stranding, and succession/stacking ledgers.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 160 band-exact S recomputation
+
+Claude repaired part of the C158 attack by separating approach from discharge
+and replacing the old \(0.205\,\Omega\delta\) row with a Kelvin vortex-ring
+speed band. It also sharpened the service-sign calculation by tying extension
+along the recipient axis to the \(P_2\) angular structure.
+
+Codex accepts this as a sharper attack on \(S\). It is not a deletion. The
+Kelvin ring speed is a model speed for an isolated ring-like server, not a
+universal lower transit bound for every same-field source of serving strain.
+W8 still includes pre-positioned, co-moving, passively advected, mutually
+induced, and privately generated servers. The \(P_2\)/tracelessness argument
+controls a signed far-field single-axis model, not the near-field selected
+positive service of every admissible Biot-Savart/pressure-slaved strain
+source. Pancake or multi-axis strains, mutual induction, recipient deformation,
+and positive-part selection remain part of the \(S\) certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 160 accepts the band-exact recomputation as a sharper attack on \(S\), but W8 is not deleted because the Kelvin ring speed is not yet a universal lower transit bound for all same-field servers, the \(P_2\)/tracelessness argument does not yet bound near-field selected positive service for arbitrary admissible strain sources, and pre-positioned, co-moving, mutually induced, privately generated, or positive-part-selected servers still require storage/import/private-construction and no-double-count routing.
+REMAINING: W3, W7, W8, W9.
