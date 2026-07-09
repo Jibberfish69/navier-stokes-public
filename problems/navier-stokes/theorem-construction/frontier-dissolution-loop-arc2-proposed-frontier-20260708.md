@@ -35,3 +35,21 @@ Owner's insight chain (with the partner lane): smoothness breaks frame-invariant
 5. **Named crux (the arc's E2 sharpened):** the cancellation needs LOCAL balance laws. Energy and enstrophy/strain have them (the corpus's identities live there); the critical record Ḣ^{1/2} is nonlocal and does not tile naively. The exploit's exact technical content: run the tiled balance at the strain/enstrophy level, port to the critical record through the existing shrink-map chain. The representative choice is where this works or teaches the next correction.
 
 E-list mapping: this synthesis is E2+E4 jointly attacked (the pairing IS the leak-exclusion; the per-cell signs ARE the signed correction), with E1 as the surviving question in tiled form and E3 as the cover's scale-uniformity. Nothing paid; the owner's install of the E-list still governs.
+
+---
+
+## E-LIST INSTALLED ON CLAUDE'S OWN JUDGMENT (owner said: think for yourself; veto stands open) — CYCLE 1 EXECUTED
+
+Install: E1–E5 as filed, on my judgment that they are the adjudicated arc-1 content in the owner's chosen frame, not invented scope. Owner veto reverses this at any time.
+
+**Cycle 1 — E2's concrete opening: the tiled enstrophy balance.** The exact local balance law (classical, term-exact):
+∂_t(|ω|²/2) + div(u|ω|²/2) = ω·Sω − ν|∇ω|² + νΔ(|ω|²/2).
+Term mapping on a multiscale tiled cover:
+- **Paired couriers (cancel across shared walls, cannot hide anything):** the advective flux div(u|ω|²/2) and the viscous diffusion flux νΔ(|ω|²/2). These are the frame's answer to E4's leak question at the enstrophy level.
+- **Per-cell production:** ω·Sω — the stretching pairing; capped per-cell by alignment residence (proved at the irrotational atom via the knock-off square; the E5 domination question is its status on vorticity-carrying cells).
+- **Per-cell dissipation:** ν|∇ω|² — per unit enstrophy scales as ν/ℓ², strengthening as cells shrink.
+- **Global anchor:** the tiled sum is exactly ZPF.21 (d/dt∫|ω|²/2 + ν∫|∇ω|² = ∫ω·Sω = −(4/3)∫tr S³).
+
+**The tiled no-runaway question, concrete form:** enstrophy concentration at a point requires per-cell production to remain supercritical in shrinking cells — production rationed by residence (the aim-holding cap) — against ν/ℓ² dissipation, with all subsidies paired from a non-increasing budget. The classical cubic-vs-quadratic gap is NOT claimed closed; the new input is the residence cap on production. E2's remaining content: state the residence cap as a per-cell inequality (the atom case is proved; the general case is E5), and the port to the H^{1/2} record via the shrink-map chain.
+
+Cross-wall attempt (cycle-law 1): E2≡E4 already filed (tax-at-the-window); at the enstrophy level the couriers are identified and paired — E4's leak-exclusion holds at this level BY the balance law's structure; E4's residue is whether the H^{1/2}-level port preserves it.
