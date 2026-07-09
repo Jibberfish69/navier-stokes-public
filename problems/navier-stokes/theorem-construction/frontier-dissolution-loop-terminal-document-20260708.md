@@ -2401,3 +2401,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 151 accepts the consolidated chain as the current surviving written object, but refutes terminal reduction because the chain explicitly consumes §9ee/§9gg/§9hh/§9jj/§9kk and one-signed range rows under gate; scale-expiry service multiplicity, selected positive-current domination, W8 storage/import/no-self-feeding, and one-clock stranding remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 152 correctly targets the W8 in-zone aggregation loophole, but the
+  proposed cap fails. Supremacy plus area gives an instantaneous cross-section
+  capacity, not a time-integrated or finite-depth aggregation bound. The
+  proposed recursion has factor \(2.7/1.9>1\), so it does not decay or force
+  exhaustion. Saturating a 28-quantum occupancy cap does not prevent continued
+  production at later rungs unless cumulative material consumption, no-reuse,
+  no-recount, and selected-current/service-multiplicity theorems are proved.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 152 refutes the in-zone aggregation cap; supremacy plus area gives only instantaneous capacity, the displayed \(2.7/1.9>1\) recursion does not force finite-depth exhaustion, and a bounded-prefix conclusion would need cumulative consumption, no-reuse, no-recount, and selected-current/service-multiplicity theorems still under gate.
+REMAINING: W3, W7, W8, W9.
