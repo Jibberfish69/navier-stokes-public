@@ -529,3 +529,59 @@ exhibit in one finite-energy field, with the datum's finite gathering
 reservoir as the natural starvation. Codex's closing sentence adopted
 verbatim: the theorem formalizes the mechanism; it does not supply it. The
 mechanism is supplied above, jointly; the theorem remains OPEN.
+
+## 14. THE ADMISSION TEST RUN ON THE LOCKED GEOMETRY (2026-07-09): axisymmetric gauge — branch tree closed to one shell kernel
+
+Per §11 (admission precedes exclusion) and the owner's order, the locked
+geometry (spin-silent, co-diagonal, positive service) was tested for
+POSABILITY in the axisymmetric gauge — the lock's natural gauge, since ω an
+eigenvector of S with sustained stretching is the fixed-axis configuration.
+
+**Setup (kinematic only — no viscosity, no Type-I, no Liouville).** Core:
+ω ∥ ẑ = eigenvector of S, service α = S_zz > 0. Annulus (outside core):
+irrotational swirl u_θ = Γ/2πr (ω = 0 there; lock content = co-diagonality).
+Slaving: for axisymmetric p(r,z), Hess p is EXACTLY diagonal in (r,θ,z):
+H_rθ = H_θz ≡ 0. The swirl carries shear S_rθ = −Γ/2πr² ≠ 0 wherever Γ ≠ 0,
+eigenframe 45°-rotated — against a Hessian that cannot rotate.
+
+**Branch tree from [S²,H]_rθ = (S²)_rθ(h_θ − h_r), with
+(S²)_rθ = S_rθ(S_rr + S_θθ) + S_rz S_θz (z-uniform annulus, Γ' = 0):**
+
+1. **Γ = 0**: service-zero. DEAD.
+2. **h_r ≡ h_θ on the annulus**: p'' = p'/r ⟹ p = ½A(z)r² + B(z) — the Face-B
+   quadratic pressure BANK, now DERIVED not posed. Then Q = −Δp carries no
+   r⁻⁴ profile; but the irrotational swirl contributes Q ⊇ 2S_rθ² =
+   Γ²/2π²r⁴ > 0 STRICTLY. Compensators fail exactly: pure shears are
+   Q-NEUTRAL (|S|²-contribution cancels ½|ω|²-contribution identically —
+   the shear-cell fact used as a weapon), and Q-negative compensators are
+   rotation-dominated, i.e., extend the rotational core outward = change of
+   normalized geometry = the paid exit (Codex dichotomy). Within fixed
+   geometry: CONTRADICTION. DEAD.
+3. **S_rr + S_θθ = 0 on the annulus (⟺ S_zz = 0 there — stretch confined to
+   the core)**: incompressibility FORCES the annulus inflow u_r = −C/r,
+   C = ∫₀^r a(s)s ds > 0 (the sink is the cost of confinement, not a
+   choice). The rθ row closes, and the ENTIRE remaining co-diagonality
+   obligation concentrates on the transition shell where a'(r) ≠ 0:
+   S_rz = ½a'(r)z ≠ 0 activates the rz commutator row against slaved
+   H_rz = ∂_r∂_z p. SURVIVING NORMAL FORM: {core stretch a(r) confined;
+   forced sink annulus; irrotational swirl Γ; all consistency debt on the
+   shell}.
+
+**THE SHELL KERNEL (the single surviving obligation):** [S², H] = 0 on the
+transition shell, an ODE-level profile consistency problem in (a, a', Γ, C)
+with polynomial z-structure on the bounded atom. If it forces a' ≡ 0 (no
+transition ⟹ stretch reaches the annulus ⟹ branch 2 ⟹ dead), the exhaustion
+CLOSES and the axisymmetric lock is EMPTY BY ADMISSION — B-ax needs no
+Liouville and no Type-I hypothesis; the wall types by the frozen exit
+condition's own clause.
+
+**Status (rule 14, exact):** Executed: the branch tree above (z-uniform
+annulus, Γ' = 0), all kills kinematic-exact. NOT executed: the shell kernel
+(bounded computation); the Γ' ≠ 0 sub-branch; the general non-axisymmetric
+lock — for which this run supplies the proof SHAPE (co-diagonality ⟹ Hessian
+degeneracy on swirl supports ⟹ Q-profile rigidity ⟹ incompressible closure
+fails without geometry change), unproven. Correction to the Codex skeleton's
+step 4: in the axisymmetric gauge the decisive fixed-face object is a finite
+consistency exhaustion ending in emptiness-by-admission, not a UCP/Liouville;
+the Liouville remains only as the general-gauge residue after the admission
+chase. Nothing further claimed.
