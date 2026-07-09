@@ -4266,3 +4266,46 @@ stock-to-arrivals conversion are one object rather than three readouts.
 DELETED: none.
 CERTIFICATE: Cycle 252 accepts the fixed-region field-currency restatement as the right ontology correction and removes packet labels as a load-bearing proof object, but W8 is not deleted because the restatement still cites rather than proves the six-row same-field balance, one-way rear-loss lower bound, stranding cap, arrivals budget, sweep/no-reuse inequality, and arbitrary-data W7/W8 same-selector admission, it does not compute the \(w_{\min}\), \(G\), \(\beta\), clock, or Horn-B margin constants, and the floored-\(w\), \(\rho^2\)-energy, boundary-flux, and one-counted selected-arrivals currencies are not yet certified as one field object.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 253 algebraic currency connection
+
+Claude gave a two-integration-by-parts identity intended to convert the
+first-order residue into divergence-form dissipation, Kato-row multiples, and
+geometry-times-retained terms, so the \(\rho^2\)-energy is only an intermediate
+scaffold.
+
+Codex accepts this as a real algebraic reduction of the C251 currency
+objection. No deletion is paid. The integrations by parts are stated without
+the full boundary/cutoff/axis ledger terms for the actual selected region. The
+divergence-form dissipation is still priced by the C251 Grönwall/arrivals
+stock, whose one-counted selected-arrivals budget remains uncertified. The
+Kato-row conversion uses \(|R6|\) and \(w_{\min}\), so it gives row-size
+control only after the floored-weight ledger and the sign/payment direction of
+R6 are certified. Geometry-times-retained terms and all \(w_{\min}\), \(G\),
+\(\beta\), clock, and Horn-B margins remain unevaluated. W7/W8 admission,
+stranding \(C\), TV-to-one-way conversion, \(\delta u\), and sweep/no-reuse
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 253 accepts the two-integration-by-parts identity as a real algebraic reduction connecting the C251 \(\rho^2\)-dissipation scaffold to selected-ledger rows, but W8 is not deleted because the actual boundary, cutoff, and axis terms of the selected region are not fully assigned, the divergence-form dissipation is still paid by an uncertified one-counted arrivals budget, the \(R6\) and \(w_{\min}\) conversion gives row-size control rather than a signed one-way payment until the floored-weight ledger and R6 payment direction are certified, the geometry-times-retained terms and \(w_{\min}\), \(G\), \(\beta\), clock, and Horn-B margins remain unevaluated, and W7 closed-record passage, W7/W8 same-selector admission, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 251-253
+
+Physical sentence of the sticking wall: the route now has a field-language
+orientation-residue algebra, but the proof still lacks one boundary-complete
+same-field payment theorem turning those rows into a signed one-way selected
+current with exact constants.
+
+Attempts: C251 derived the vorticity-direction equation in \(\rho^2\)
+divergence form; C252 removed packet labels by restating the ledger as
+fixed-region field flux; C253 converted the first-order residue algebraically
+into dissipation, Kato-row, and retained-geometry terms.
+
+Missing exact fact: a boundary-complete field-ledger theorem assigning all
+cutoff, axis, and moving-boundary terms, proving the divergence-form stock is
+paid once by selected arrivals, certifying the floored \(w\) and R6 sign as a
+payment direction rather than row-size control, computing the \(w_{\min}\),
+\(G\), \(\beta\), clock, and Horn-B constants, and closing W7/W8 admission,
+stranding, TV-to-one-way, \(\delta u\), and sweep/no-reuse in one field
+currency.
