@@ -394,3 +394,50 @@ the quantitative c₀-Lemma displayed separately, three bounded classical
 checks owed that can only shrink the perimeter, and every v1 defect either
 repaired or converted into a named open clause. Unproven is stated as
 unproven.
+
+## 11. OWNER CORRECTION (2026-07-09, post-v2): the burden was inverted — admission precedes exclusion
+
+The owner's correction, integrated verbatim in content: the survivor is the
+specific self-sharpening SHEET whose material strain axis stays aimed because
+its spin cancels the transverse participation-Hessian turning, recurrently, at
+zero bill — in the S-eigenframe, the identity
+
+```math
+H_{ij} \;=\; -\tfrac14\,\omega_i\omega_j \;(+\,\nu(\Delta S)_{ij}),\qquad i\neq j,
+```
+
+held on an OPEN SET of the sheet, RECURRENTLY, along one finite-energy history
+(from (D_tS)_{ij} = −¼ω_iω_j − H_{ij} + ν(ΔS)_{ij}; IP.2 is its in-plane row).
+
+**That configuration is not lawful as presented.** Its record tower is only
+declared ((H2)), its zero-bill condition schematic ((H4)), and no single
+finite-energy NS history has ever been exhibited — even schematically, even
+for finitely many rungs — realizing alignment, recurrence, and zero bill
+together. The shear cell realizes the identity at a point-station only (zero
+local gradient, no recurrence); the axisymmetric branch realizes a fixed axis
+without zero-bill. The composite is an unadmitted model-shadow, and this
+document's §5 (like the whole loop before it) inverted the burden by treating
+it as a survivor to exclude. Gate fact 1: not assumed lawful, not assumed
+excluded — the program assumed it lawful enough to fear.
+
+**Corrected order of work.**
+
+1. **Admission test (first, bounded, falsifiable).** Determine whether the
+   cancellation identity can hold on an open sheet recurrently in one
+   participating history, against the three filed binding structures which a
+   point-station evades but an open set with recurrence cannot: (a) Hessian
+   integrability ∇_kH_ij = ∇_iH_kj forcing derivative relations on ω_iω_j
+   along the sheet; (b) H = ∇²(−Δ)⁻¹Q with Q built from the SAME u carrying
+   ω; (c) ω transported and stretched by the SAME S being aimed. This is a
+   consistency check on the posed composite, not a Liouville theorem.
+2. **If admission fails:** the survivor dies at the door; W3/W7/W8/W9 type
+   EMPTY-BY-ADMISSION (a terminal class of the frozen exit condition); Faces
+   A and B were never problems. This is the VPI empty-cell reading (07-08)
+   extended from the static snapshot to the full dynamical composite.
+3. **If admission survives** (a lawful finite-rung realization or a proof of
+   consistency): Faces A and B become live problems with a concrete object,
+   and §5-§7 stand as written.
+
+The §5 theorem display and §7 maps are hereby re-typed as CONDITIONAL on the
+admission question, which precedes them. Unproven stated as unproven; the
+admission test's outcome is not prejudged.
