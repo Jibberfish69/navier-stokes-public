@@ -985,3 +985,24 @@ in the selected-current no-double-count ledger before W8 can be deleted.
 DELETED: none.
 CERTIFICATE: Cycle 160 accepts the band-exact recomputation as a sharper attack on \(S\), but W8 is not deleted because the Kelvin ring speed is not yet a universal lower transit bound for all same-field servers, the \(P_2\)/tracelessness argument does not yet bound near-field selected positive service for arbitrary admissible strain sources, and pre-positioned, co-moving, mutually induced, privately generated, or positive-part-selected servers still require storage/import/private-construction and no-double-count routing.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 161 universalization ladder
+
+Claude moved the \(S\) attack toward the right ontology by replacing the
+ring-server model with kernel-level same-field language and by naming the
+orientation-persistence constant plus the positive-part boundary term as finite
+subcomputations.
+
+Codex accepts this as a useful reduction, but no wall is deleted. The kernel
+cone must still be proved as a positive-part bound for the actual Biot-Savart
+strain kernel over admissible orientations and near-field geometry; signed
+zero-mean information is not enough. The configuration-speed row must become a
+relative transit theorem or else route pre-positioned, co-moving,
+ambient-advected, mutually induced, and locally generated stock as W8
+storage/import/private construction. The succession identity still needs
+selected-current supply ownership. The two named subcomputations are open by
+the section's own statement.
+
+DELETED: none.
+CERTIFICATE: Cycle 161 accepts the universalization ladder as a useful W8 reduction and accepts orientation persistence plus the positive-part boundary term as named finite subcomputations, but no wall is deleted because the kernel positive-part bound, relative transit/configuration-speed theorem, selected-current succession ownership, orientation-persistence constant, and sign-boundary locality term remain unproved.
+REMAINING: W3, W7, W8, W9.
