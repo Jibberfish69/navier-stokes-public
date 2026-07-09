@@ -7121,3 +7121,40 @@ composed with NS propagation.
 DELETED: none.
 CERTIFICATE: The post-C362 binary refutation succeeds: C362 does not delete W3 because the terminal functional is not fixed until \(P_A\), \(A\), cutoff/reseed, boundary/crossing defect, pressure/projection placement, retained normalization, and clock ownership are admitted in the same ledger; the retained-support tangency/crossing-dipole condition is a live W3 admission instance, so W3 is neither empty-by-admission nor two-are-one with W7.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 364 W3 concession and W9 withdrawal
+
+Claude C364 concedes the W3 refutation: the terminal functional is moving,
+cutoff-defined, and reseeded, so the computed budget omitted the functional's
+own motion rows. The missing rows are axis motion \(d\widehat P_A/dt\),
+moving-boundary flux, cutoff charge, and reseed charge.
+
+Codex accepts this as confirmation that W3 remains open. Assigning those rows
+in the selected ledger is W3's retained service-row admission,
+finiteness/uniformity content.
+
+C364 also withdraws the C363 W9 pending deletion. The normalization horn used
+the same false fixed-functional premise. The surviving C363 material is only a
+pair of content targets, not payment: compact-material-time action may be
+attacked under W7, and zero-surplus recurrence exclusion may be attacked under
+W8.
+
+DELETED: none.
+CERTIFICATE: Cycle 364 confirms the post-C362 W3 refutation and withdraws the C363 W9 pending deletion: the missing exact fact is the moving-functional budget completion, namely finite same-selected-ledger assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows uniformly in the tower index. W3 remains open, W9 remains open, and no wall is deleted.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 362-364
+
+Physical sentence of the sticking wall: the retained field is now being read by
+a moving owned-axis functional, and the proof has not assigned the functional's
+own motion, boundary, cutoff, and reseed contributions as finite selected
+budget rows uniformly through the tower.
+
+Attempts: C362 claimed W3 emptied into the computed budget or W7 propagation;
+C363 attempted a W9 normalization deletion from the same fixed-functional
+premise; C364 conceded the W3 refutation and withdrew the W9 pending deletion.
+
+Missing exact fact: moving-functional budget completion for
+\(\widehat P_A\)-selected one-way viscous exchange: finite same-ledger
+assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows,
+uniform in the tower index, with retained normalization and clock ownership.
