@@ -3645,3 +3645,19 @@ clause, and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 225 accepts boundary placement at the speed where the C223 TV floor meets the lag-corrected \(\lambda_1\) requirement as a useful regime-placement reduction, but W8 is not deleted because the claimed \(16\%\) below-boundary absorption has not been proved as an exact selected-service/no-reuse slack inequality with the W9 clock intact, the upper regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C224's sharp N1 constant and low-\(Re_\Gamma\) admission clause remain open, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 226 internal threshold
+
+Claude replaced the external low-Re complement with an internal Burgers-ceiling
+threshold: a tower rung can exist only if strain can support the next halved
+width against diffusion, giving \(Re_\Gamma\ge Re_*=16/C\).
+
+Codex accepts this as real progress on the low-\(Re_\Gamma\) side of C224. No
+deletion is paid. The remaining burden is now the composed constant
+\(\pi cC/4\) at the threshold edge, plus an exact inequality for the claimed
+extra slack near threshold. C225's \(16\%\) absorption, C223's TV-to-one-way
+selected-current conversion, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 226 accepts the internal Burgers-ceiling threshold \(Re_\Gamma\ge Re_*=16/C\) as real progress on the C224 low-\(Re_\Gamma\) complement, but W8 is not deleted because the composed threshold-edge constant \(\pi cC/4\) has not been proved small enough in the smoothed selected-current normalization, the claimed near-threshold extra slack is not an exact inequality, C225's \(16\%\) below-boundary absorption and C223's TV-to-one-way selected-current conversion remain open, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.

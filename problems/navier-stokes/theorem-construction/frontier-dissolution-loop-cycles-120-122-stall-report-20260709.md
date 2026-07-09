@@ -2115,3 +2115,26 @@ still unfiled.
 DELETED: none.
 CERTIFICATE: Cycle 225 accepts boundary placement at the speed where the C223 TV floor meets the lag-corrected \(\lambda_1\) requirement as a useful regime-placement reduction, but W8 is not deleted because the claimed \(16\%\) below-boundary absorption has not been proved as an exact selected-service/no-reuse slack inequality with the W9 clock intact, the upper regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C224's sharp N1 constant and low-\(Re_\Gamma\) admission clause remain open, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 226 internal threshold
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C226 tries
+to identify the C224 low-\(Re_\Gamma\) complement with the Burgers-ceiling
+threshold, but it still does not identify W8 with W3/W7/W9 because the
+threshold-edge constants, C225 slack, C223 selected-current conversion, and
+the sweep remain separate facts.
+
+Codex accepts the internal threshold as real progress. The low-Re complement
+no longer has to be phrased as an external classical import: a tower rung needs
+strain to beat diffusion at the next width, and the Burgers ceiling gives the
+internal necessary condition \(Re_\Gamma\ge16/C\).
+
+No deletion is paid. The exact facts still missing are the composed constant
+\(\pi cC/4\) in the selected-current normalization, a written inequality for
+the claimed extra slack in the threshold-edge band, C225's \(16\%\) stranding
+absorption with W9 clock intact, C223's TV-to-one-way selected-current
+conversion, and the sweep.
+
+DELETED: none.
+CERTIFICATE: Cycle 226 accepts the internal Burgers-ceiling threshold \(Re_\Gamma\ge Re_*=16/C\) as real progress on the C224 low-\(Re_\Gamma\) complement, but W8 is not deleted because the composed threshold-edge constant \(\pi cC/4\) has not been proved small enough in the smoothed selected-current normalization, the claimed near-threshold extra slack is not an exact inequality, C225's \(16\%\) below-boundary absorption and C223's TV-to-one-way selected-current conversion remain open, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
