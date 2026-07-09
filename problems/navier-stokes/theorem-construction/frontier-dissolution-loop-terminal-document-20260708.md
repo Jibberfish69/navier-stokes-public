@@ -1156,3 +1156,40 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 61 reduces fixed-exterior compatibility to a residence/displacement lemma for the canonical selector; that lemma remains unproved, so A2 remains open.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 62 windows-chaining lemma is accepted as a conditional
+  coefficient-supplier role for Theorem A, not as a deletion. The fixed-cover
+  field-owner ontology is useful here: flux through a fixed cover can preserve
+  ownership at the whole-field level, so packet identity does not have to carry
+  every bookkeeping step. But C62 still gives constants conditional on
+  \(\Omega_{\max}\) and consumes the unresolved residence input from C61 plus a
+  later Theorem C cap. Conditional polylog control is support until a
+  noncircular data-only cap is proved. No wall is deleted. Remaining: W3, W7,
+  W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 62 clarifies Theorem A as a conditional coefficient supplier with polylog \(\Omega_{\max}\) constants, but residence/displacement and the Theorem C cap remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 63 B2 separating-area gate has the right integrated shape:
+  the coarea floor is the limit-stable object, not pointwise continuity of
+  individual level sets. This is a strict narrowing only. The neck constant
+  must account for the record-tube puncture, the two sign-definite cores must
+  remain disjoint under wound/tilted stock, and B3 band volume, B4 moving Kato
+  commutators, and B5 route typing still have to be written in the retained
+  current. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 63 narrows B2 to the integrated coarea/separating-area certificate, but B's constants, commutators, band volume, and route table remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 64 Theorem C display is the right comparison target and
+  it matches the field-oriented overlap: fixed-cover flux cancellation can make
+  the whole velocity field the owner of boundary transfers. The display is not
+  yet a closure certificate. It still must prove that positive imported stock
+  actually crosses the formation-zone Kato/coarea geometry and therefore pays
+  the same transit toll; fixed-cover cancellation alone preserves ownership but
+  does not collect that toll. The ODE also needs exact dimensioned rows and
+  signs, and the inequality \(c^*_{\rm transit}>C_{\rm imp}\) needs an actual
+  number-vs-number certificate. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 64 reduces Theorem C to an exact transit-crossing/subcriticality ODE theorem; the path-crossing claim, dimensioned rows, and \(c^*_{\rm transit}>C_{\rm imp}\) certificate remain unproved.
+REMAINING: W3, W7, W8, W9.
