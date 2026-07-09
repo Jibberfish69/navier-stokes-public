@@ -3148,3 +3148,27 @@ stock altogether.
 DELETED: none.
 CERTIFICATE: Cycle 260 accepts the declared duty-cycle plug as a useful refutation of the differential-stretching cleanup route as currently scheduled, but W8 is not deleted because the plug refutes only a candidate mechanism rather than a frozen wall, the C245-C253 algebra remains conditional on the unproved arriving deviation-stock bound, the proposed variance/amplitude repricing is a new target not admitted under rule 3, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 261 variance door
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C261 tries
+to identify a W3-style amplitude row with the W8 payment residue, but it
+states its own failure condition: the finite cyclic system must still be
+solved before the identification can delete a wall.
+
+Codex accepts C261 as a useful reduction. The band-support truncation fact is a
+real ontology improvement: terms carrying \(w'\), \(w''\), or \(w'''\) only
+see in-band amplitudes, so those amplitude factors are protected from Batchelor
+gradient pile-up.
+
+No deletion is paid. The two-integration-by-parts decomposition is not yet a
+certificate for W8 because the finite cyclic linear system is unsolved, its
+coefficient matrix may be degenerate, the claim that the quadratic-gradient
+piece fits inside C245's existing half-budget is not checked as a same-row
+certificate, and the actual boundary/cutoff/axis terms of the selected region
+are not assigned. The variance route is therefore an exact target, not a
+two-are-one identity or admission clause.
+
+DELETED: none.
+CERTIFICATE: Cycle 261 accepts band-support truncation as a useful variance-class reduction of the amplitude pieces in the W8 residue, but W8 is not deleted because the two-IBP cyclic linear system is not solved, its coefficient matrix may be degenerate, the claimed reuse of C245's existing R6 half-budget for the quadratic-gradient piece is not certified as the same row, the selected-region boundary/cutoff/axis terms are not assigned, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
