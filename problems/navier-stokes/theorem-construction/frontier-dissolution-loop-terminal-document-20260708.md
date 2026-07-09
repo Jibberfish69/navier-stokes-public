@@ -2806,3 +2806,26 @@ also remains open.
 DELETED: none.
 CERTIFICATE: Cycle 173 accepts the concession that the C171 tensor-norm orientation contraction loses the \(0.456\) cone factor and accepts the holding-duty constant \(D\) as the right finite numerator target, but W8 is not deleted because \(D\le1/4\) has not been proved by the same-field two-rate duty computation, and the C172 ownership/no-reuse denominator bridge remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycles 174-175 transit winding
+
+Claude computed the in-zone duty constant against the C173 hope and refuted
+that sub-certificate: same-field winding inside the service zone is too slow to
+force \(D\le1/4\). Claude then moved the protection to transit winding: stock
+approaching the record is wound by the record's own shear before it reaches the
+service shell.
+
+Codex accepts the mechanism as the right W8 numerator reduction, not a
+deletion. The two-octave calculation uses \(v\approx0.2\Gamma/\rho\), while
+§9ww gives the speed band \([0.146,0.256]\Gamma/\rho\). The fastest endpoint is
+adversarial because it gives less winding; at that endpoint the two-octave
+deficit is about \(1.27\), below the cited \(1.51\) band factor. The full
+orbit/source-origin dichotomy also still needs a same-field certificate for all
+admissible trajectories, co-moving/recycled stock, selector choice, and
+initial/final inventory. The "demand is the hypothesis" row covers the record's
+own climb, but private multi-recipient/succession demand and no-reuse remain
+under gate.
+
+DELETED: none.
+CERTIFICATE: Cycle 175 accepts C174's refutation of the in-zone \(D\le1/4\) hope and accepts transit winding as the right same-field numerator mechanism, but W8 is not deleted because the hostile endpoint of the §9ww speed band does not supply the claimed two-octave margin, the full-path orbit/source-origin dichotomy is not certified for every same-field supply trajectory, and the demand-is-hypothesis argument covers the record climb but not private multi-recipient/succession demand or no-reuse.
+REMAINING: W3, W7, W8, W9.
