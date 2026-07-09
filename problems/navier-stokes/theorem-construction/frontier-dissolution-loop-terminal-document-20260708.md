@@ -1884,3 +1884,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 113 supplies the final four-row ledger template; the CKN shell row, cutoff/Kato shell terms, four-row disjointness, rung-indexed ring-mass division, and final log-yield inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 114 stall report is overtaken by Cycle 115, because the CKN
+  row it asked Codex to confirm is withdrawn. Cycle 115 supplies the right next
+  shape: the viscous shell row should come from a top-level
+  continuation/bootstrap argument rather than CKN. This is a strict reduction,
+  not a deletion. The certificate still needs the exact bootstrap variable and
+  interval, the implication from the assumed ledger bound to the whole shell
+  fields needed by the cutoff/Kato row, a displayed strict-improvement
+  inequality with the \(c_*\)-margin and all shell/pump/yield constants in one
+  currency, plus four-row disjointness, no-reuse collection, rung-indexed
+  division, and the final log-yield inequality. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 115 withdraws the CKN shell row and strictly reduces the shell obstruction to a top-level continuation-bootstrap certificate; the strict-improvement inequality, shell-field control, cutoff/Kato terms, row disjointness, no-reuse, rung-indexed division, and final log-yield inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
