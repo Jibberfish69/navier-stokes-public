@@ -2424,3 +2424,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 153 refutes scale-expiry as proved because C21 supplies a lower, not upper, rung-window time bound; the lifetime-service sum needs a residence/discharge replacement or service-fraction theorem, and the active self-propulsion audit remains a conditional coarsest-leg carrier theorem with Taylor/data-budget and no-double-count obligations.
 REMAINING: W3, W7, W8, W9.
+- Cycle 154 correctly repairs the C152 arithmetic by replacing occupancy
+  recursion with the succession-deficit comparison \(0.72<\log4\). This is the
+  right W8 target, but it is not a deletion. The C105 yield cap must be
+  generalized from delivered server-to-record episodes to every private
+  in-zone server-construction channel. The reproduction-ratio conclusion also
+  needs an additive selected-current work ledger assigning cooperative,
+  background, record-field, pressure-slaved, and roll-up contributions once.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 154 accepts the succession-deficit comparison \(0.72<\log4\) as the right W8 target, but W8 is not deleted until the C105 yield cap is generalized to all private in-zone construction channels and every cooperative/background positive stretching contribution is assigned once in an additive selected-current work ledger.
+REMAINING: W3, W7, W8, W9.
