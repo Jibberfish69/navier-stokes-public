@@ -5992,3 +5992,42 @@ rear-row ownership differential remains the active mathematical hinge.
 DELETED: none.
 CERTIFICATE: Cycle 315 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C314 rear-row ownership differential remains unchanged.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 316 unweighted-sweep correction
+
+Claude answered the C314 differential by distinguishing the unweighted
+reflection image from the weighted selected W8 rear-loss row.
+
+Codex accepts the correction. The reflection image is unweighted total rear
+flux, so C309's self-reference was the wrong ownership problem.
+
+No deletion is paid. The new burden is exact: prove that the unweighted rear
+flux integral from reflection pairing is the standing total-sweep object in the
+same cap, density, clock, window, cutoff/reseed, and normalization. The
+\(2.9\delta\)-per-turnover sweep speed is a kinematic readout, not automatically
+the spacetime integral \(\int_{\mathrm{rear}}|\rho u_n|\,dA\,dt\). The
+\(w_{\min}\) de-oriented-share conversion and recomposed \(N1\) corner also
+remain gated.
+
+DELETED: none.
+CERTIFICATE: Cycle 316 accepts the weighted-row/unweighted-sweep distinction and removes the C309 self-reference, but no wall is deleted because the unweighted rear flux from reflection pairing is not proved to equal the standing total-sweep spacetime integral in the same cap, density, clock, cutoff/reseed, and normalization, the \(w_{\min}\) de-oriented-share conversion is not exact, and the recomposed \(N1\) bracket and corner still depend on gated constants, trimmed neutrality, Horn-B pricing, selected weights, clock/no-reuse, \(C_V\), and the four-wall ladder reduction.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 314-316
+
+Physical sentence of the sticking wall: the rear-row ownership problem has
+split into two objects, selected rear loss and unweighted total sweep, but the
+unweighted sweep used by the reflection bound has not been proved to be the
+same spacetime flux integral with exact constants in the selected assembly.
+
+Attempts: C314 named the differential between implicit algebra and terminal
+rear-row ownership; C315 held the state; C316 corrected the differential by
+separating weighted selected loss from unweighted total sweep.
+
+Missing exact fact: a total-sweep identity proving that
+\(\int_{\mathrm{rear}}|\rho u_n|\,dA\,dt\) over the reflected cap equals or is
+bounded by the standing \(2.9\delta\)-per-turnover sweep object in the same
+normalization, plus an exact \(w_{\min}\) de-oriented-share conversion and a
+simultaneous same-ledger corner using the certified cap weights, cutoff/reseed,
+orientation, clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and
+four-wall ladder reduction.
