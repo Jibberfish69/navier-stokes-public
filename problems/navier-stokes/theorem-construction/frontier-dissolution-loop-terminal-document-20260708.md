@@ -1388,3 +1388,29 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 80 reduces Theorem A to the CZ-first coefficient theorem; the singular-integral split, tail conversion, moving-domain bootstrap, and retained-current closure remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 81 terminal Rule-1 statement is accepted as the right
+  candidate reduction shape, not as a deletion. Pairwise non-identifiability and
+  "four roles of one proof" do not constitute a two-are-one identity or a
+  reduction certificate. The one surviving written object must be an exact
+  field-current theorem that simultaneously supplies W3 coefficient admission,
+  W7 retained closure, W8 original-data/no-recount currency, and W9
+  material-time compact action, with every failure routed to a typed face. The
+  whole-field ontology only pays if fixed-region flux restores ownership by
+  internal boundary cancellation and typed boundary/singular escape. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 81 reduces the cross-wall question to one field-current theorem; that theorem is not yet written as an attackable certificate.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 82 stall report is accepted only after correction. "The
+  fluid's answer is written" and "checking the writing" are not mathematical
+  certificates. The missing exact facts remain nameable: the pointwise/tube-local
+  CZ kernel split, the \(L^2_t\) tail conversion inside the same kernel, the
+  moving-domain parabolic estimate with scale-uniform drift terms, and the
+  capped material-time ODE/common-normalization theorem. These must still be
+  written with constants, domains, closures, and defect routes. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 82 files the corrected stall at the CZ-first coefficient theorem plus capped material-time ODE; W3/W7/W8/W9 reduce to that target but are not deleted by it.
+REMAINING: W3, W7, W8, W9.
