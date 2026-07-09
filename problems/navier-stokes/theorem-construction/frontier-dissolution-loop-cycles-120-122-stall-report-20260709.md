@@ -3876,3 +3876,28 @@ Missing exact fact: a normalized disturbance-pressure virial theorem with
 \(\int p\le0\) for the selected coherent courier class, a propagation audit for
 the 2.8-to-1.4 correction, and an exact \(C_{\mathrm{flux}}\le1/2\) bound for
 the rear-flux functional in the selected-current normalization.
+
+## Codex gate on post-stall Cycle 284 two-term Horn-B repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C284 tries
+to repair the C282 coefficient refutation by adding the parity-deficit price to
+the base Horn-B floor, but this is still a conditional reduction rather than a
+terminal certificate.
+
+Codex accepts C284 as useful. The repair attacks the right object: the same
+selected configuration should not get to hide odd-energy waste from the TV
+floor if the deficit really appears as excess over its own steady maximum.
+
+No deletion is paid. The arithmetic is thin and depends on two exact facts not
+yet supplied. Under C284's own convention,
+\[
+  [0.3+0.16]\bigl(0.5-0.15C_{\mathrm{flux}}\bigr)0.88\ge0.067
+\]
+requires \(C_{\mathrm{flux}}\lesssim2.23\). The packet tests \(C=2\), but does
+not prove it is the worst case. The added \(\Delta\lambda_1\simeq0.16\) also
+depends on the C203 normalization, no-double-count transfer into the same TV
+floor, and the pending C283 pressure-sign/scope clauses.
+
+DELETED: none.
+CERTIFICATE: Cycle 284 accepts the two-term Horn-B repair as a useful response to the C282 refutation, but no wall is deleted because the repaired corner requires \(C_{\mathrm{flux}}\lesssim2.23\) rather than an uncomputed trace norm, the added \(\Delta\lambda_1\simeq0.16\) depends on the C203 normalization and no-double-count transfer into the same TV floor, and the parity-deficit term still inherits C283's pressure-sign/scope and selected-courier admission clauses.
+REMAINING: W3, W7, W8, W9.
