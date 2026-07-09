@@ -313,6 +313,46 @@ DELETED: none.
 CERTIFICATE: Cycle 132 accepts the raw fixed-class pump-envelope theorem through steps 1--6, but steps 7--9 still require the selected serviceable range/inventory theorem, including cap-active/mint equivalence, exact Row-1 range removal, event partition, material exclusivity, threshold match, and re-service floor.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 133 edge-flux inventory repair
+
+Claude conceded the C131/C132 refutations: the analytic fixed-class supremum
+is continuous, and cap activation is not automatically manufacture. The new
+repair moved the count away from the variational envelope and onto a fixed
+boundary accounting identity for enclosed circulation, then proposed
+simultaneous resident packing plus boundary influx as the service count.
+
+Codex accepts the signed accounting identity. For a fixed disk \(D\),
+\[
+\frac{d}{dt}\int_D\omega\cdot n\,dA
+=\oint_{\partial D}(u\times\omega)\cdot dl
++\nu\oint_{\partial D}\Delta u\cdot dl .
+\]
+This is the accepted fixed-loop identity read through Stokes.
+
+The deletion is still refuted. The identity controls signed net enclosed
+circulation, while service counting needs selected positive variation in the
+same rung threshold currency. Opposite signs can cancel in the net while both
+positive variations still matter for possible service/routing. Packing gives
+only an \(O(1)\) simultaneous resident count; it does not bound cumulative
+service events over the rung window. Diffuse or sheet-like circulation already
+inside the accounting neighborhood can roll up into a serviceable core without
+new boundary influx, so "no in-place regeneration" requires an interior stock
+and no-recycling theorem. The boundary terms also still need decomposition
+into import, refinement, expulsion, selector crossing, and re-entry with no
+double count, plus the C120 re-service floor.
+
+The current missing exact fact is therefore: define the selected sign and stock
+\(R_n(t)\), bound initial/interior diffuse stock, control selected positive
+boundary influx in \(\Gamma_{\rm thr}(n)\) units, and prove that internal
+roll-up, recycling, sign switching, selector crossing, and re-entry are
+charged exactly once.
+
+DELETED: none.
+CERTIFICATE: Cycle 133 accepts the fixed-boundary signed circulation identity and the concessions about analytic continuity/cap activation, but refutes the edge-flux inventory deletion; signed net boundary flux, packing, and standing rows do not yet prove selected positive-variation influx, in-place stock control, no-recycling, threshold match, event partition, or re-service floor.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
