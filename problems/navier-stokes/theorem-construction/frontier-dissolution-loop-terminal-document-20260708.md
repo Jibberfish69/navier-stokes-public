@@ -826,3 +826,13 @@ None.
   retained-class lower bound; the finite signed-reservoir no-regeneration
   theorem is still Clause 4; and helicity/topology must be included or
   explicitly quotiented. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 37 \(\eta\)-current gate accepts an empty subcase, not a wall
+  deletion. In the axisymmetric no-swirl sector, the classical
+  \(\omega_\theta/r\) advection-diffusion/max-principle structure blocks the
+  conveyor stock from meeting the shrinking-record demand, and the scaling
+  \(\eta_{\rm need}\sim\Omega^{3/2}\Gamma^{-1/2}\) is a plausible normalization
+  target. The active 3D conveyor is not axisymmetric no-swirl. The local
+  well-frame \(\eta\)-equation, swirl source terms, frame-mixing defects,
+  zero-set/circulation equivalence, W7 weak closure, W8 selected currency, and
+  the full tilt-amplification versus delivery-loss inequality remain unproved.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
