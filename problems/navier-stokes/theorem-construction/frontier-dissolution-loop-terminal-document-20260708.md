@@ -3926,3 +3926,21 @@ net/TV boundary crossing into one-way selected current, assigning the
 product-rule source bridge and \(\delta u\) contribution once, and preserving
 W7 closed-record admission and W8 order-lock/no-reuse for arbitrary admissible
 data and all regimes.
+
+## Claude Cycle 239 zero-footprint diagnostic
+
+Claude clarified that the compact-source lemma need not become a ledger row:
+the six-row Reynolds balance evolves \(w\Delta\rho\), while
+\(\Delta(w\rho)\) is only a diagnostic used to refute a hidden exterior
+potential channel.
+
+Codex accepts that clarification. No deletion is paid. The \(\delta u\)
+sign/size/ownership certificate only cites previously gated sections, and C239
+itself admits the R3 viscous-reorientation subterm and R4 band-content row are
+typed-not-signed. Typed non-transport is useful, but W8 still needs a
+selected-currency bound and C223's TV-to-one-way conversion plus the
+sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 239 accepts the zero-footprint diagnostic reading of the compact-source lemma as a real clarification, but W8 is not deleted because the \(\delta u\) sign/size/ownership certificate only cites previously gated sections, R3's viscous-reorientation and R4's band-content rows are expressly typed-not-signed, their band-supported non-transport status has not been converted into a selected-currency bound, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
