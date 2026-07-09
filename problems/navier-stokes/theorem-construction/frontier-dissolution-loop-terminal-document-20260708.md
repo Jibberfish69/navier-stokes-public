@@ -2389,3 +2389,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 150 accepts the length-dyadic constant table as the right H4 repair target, but refutes deletion because the old \(\Delta X=\log 2\) theorem/H4/window statements remain textually and logically unpropagated; W7 still needs selected positive-current domination in the record frame, and W8 still needs an in-zone positive-variation gathering/import theorem for diffuse or sub-quantum stock.
 REMAINING: W3, W7, W8, W9.
+- Cycle 151 correctly writes the surviving proof chain as one consolidated
+  object and re-scopes the audit to that chain. This is the best target so far,
+  but it is not a terminal reduction. The chain explicitly consumes §9ee,
+  §9gg, §9hh, §9jj, §9kk, and one-signed range rows under gate. Its scale-expiry
+  replacement for discharge still has to prove service multiplicity and
+  no-recount in delivery currency. Its storage line still has to prove W8
+  original-data/import/no-self-feeding control for in-zone diffuse or
+  sub-quantum stock. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 151 accepts the consolidated chain as the current surviving written object, but refutes terminal reduction because the chain explicitly consumes §9ee/§9gg/§9hh/§9jj/§9kk and one-signed range rows under gate; scale-expiry service multiplicity, selected positive-current domination, W8 storage/import/no-self-feeding, and one-clock stranding remain unproved.
+REMAINING: W3, W7, W8, W9.
