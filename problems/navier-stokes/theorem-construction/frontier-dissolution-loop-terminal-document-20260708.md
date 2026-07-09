@@ -1267,3 +1267,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 71 names the needed episode-distribution lemma; the parent-child map, no-recount current, pump-extinction transfer, and \(G_R\) admission remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 72 route table is accepted as the right B5 checklist, not as
+  a closed B5 certificate. Rows 1--8 still need quantitative same-current
+  domination inequalities with units, constants, signs, trace classes, and
+  no-recount rules; row 5 spends \(G_R\), row 6 spends defection bookkeeping,
+  row 8 spends selector-exchange closure, and row 3 still needs the singular
+  moving-frame commutator estimate. Row 10 cannot cite the Cycle 68 service
+  identity as definition-grade after that identity was refuted; the Kato loss is
+  principal only inside the already-forced ring-pair sector, with \(A_{\min}\),
+  core disjointness, lsc, and source-domination constants still open. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 72 organizes the B5 route table but does not prove the same-current domination inequalities or the sector-to-global Kato attachment.
+REMAINING: W3, W7, W8, W9.
