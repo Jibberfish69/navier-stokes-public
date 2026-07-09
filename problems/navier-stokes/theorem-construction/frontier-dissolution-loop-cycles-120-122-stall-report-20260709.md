@@ -1798,3 +1798,43 @@ the actual selected-service functional, quantitative \(\lambda_1\), C207
 DELETED: none.
 CERTIFICATE: Cycle 209 accepts the compactness-modulus argument as W8 support, but W8 is not deleted because the soft contradiction spends under-gate \(L3'a\), \(L4'\), Fraenkel/Norbury steady-cap, residual-topology/lower-semicontinuity, and \(Q\)-continuity hypotheses, and because existence of a positive modulus does not supply the quantitative \(\lambda_1\) bound needed with C207's \(\lambda_2\) inequality and the courier-local selected-current/no-reuse identity to beat the corrected \(6.11\%\) loss threshold.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 210 multiplier-scaling law
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C210 tries
+to identify the W8 steady-cap anchor with the box-family scaling law and W9's
+multiplier/action clock, but the identification is still incomplete because
+the dilation and derivative identities are not yet proved for the actual
+courier-local selected-current ledger.
+
+Codex accepts the one-point reduction of the anchor. No deletion is paid. The
+missing exact facts are the calibration of \(c\), the endpoint bound
+\(V\le0.165\), the identity \(V=dE_{\max}/dP\) for the actual selected-service
+speed, and preservation of the box, quantum, window/radius,
+selected-current/no-reuse, and action-clock normalizations under the scaling.
+
+DELETED: none.
+CERTIFICATE: Cycle 210 accepts the multiplier-scaling law as a reduction of the W8 steady-cap anchor from full-window monotonicity to one endpoint calibration, but W8 is not deleted because \(c\) and the endpoint value \(V\le0.165\) remain uncertified, \(V=dE_{\max}/dP\) has not been proved for the actual selected-service speed, and the dilation must still be shown to preserve the box, quantum, window/radius, selected-current, no-reuse, and W9 action-clock normalizations.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 211 no-reuse recursion and rear-loss dichotomy
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C211 tries
+to identify W8 no-reuse and rear loss with the retained-recursion ledger and
+the compactness/steady-cap package, but it still does not identify W8 with
+W3/W7/W9 because the recursion has not been proved to be the actual same-field
+material or whole-field flux balance, and W9's action normalization remains
+separate.
+
+Codex accepts the ontology pressure. The exact missing fact is an admission
+clause that makes the recursion physically owned: re-gathered material is an
+internal transfer counted once, external arrivals are separately priced, and
+Eulerian fixed-cover interior flux cancels in pairs. Without that clause, the
+absence of a fresh-supply term is a ledger grammar choice, not a same-fluid
+certificate. The rear-loss dichotomy also needs an attackable
+frontal-to-effective-steadiness theorem, admission of the averaged object to
+the steady cap, and a quantitative \(\lambda_2\) lower bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 211 accepts the closed-recursion/no-reuse formulation and rear-loss dichotomy as W8 structural support, but W8 is not deleted because the recursion is not yet an exact same-field material or whole-field flux admission clause, external arrivals and internal cancellations have not been certified in one ledger, the frontal-to-effective-steadiness implication is still soft, the steady-family cap remains under C210's calibration gate, and no quantitative \(\lambda_2\) bound has been proved against the \(6.11\%\) threshold.
+REMAINING: W3, W7, W8, W9.
