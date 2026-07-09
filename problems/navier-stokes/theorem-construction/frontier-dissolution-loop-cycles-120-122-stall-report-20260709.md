@@ -3411,3 +3411,28 @@ or a same-selected-ledger variational-deficit price for that cell, together
 with confirmation that the resulting row converts W3 floor-uniformity, W7
 admission/closed-record, W8 order-locked payment, and W9 clock-selector/action
 content into the one surviving written object.
+
+## Codex gate on post-stall Cycle 269 coordinate-horn repricing
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C269 tries
+to identify the steady sub-cap non-axisymmetric cell with the existing
+coordinate-horn pricing scheme, but it does not yet reduce any wall to the one
+surviving object because the widened generic constants are not computed.
+
+Codex accepts C269 as a useful ontology correction. It removes the bad shape
+ontology: the proof should price coordinates and field rows, not assume a
+vortex-ring morphology. The move from rigidity to coordinate-pricing is the
+right kind of answer to the C268 residual.
+
+No deletion is paid. The claimed genericization replaces sharp family constants
+by a Biot-Savart shape-free constant \(C_{\mathrm{BS}}\) and a widened-band
+margin check. That check is expressly unexecuted. The cap-boundary dichotomy
+still has to show that both slower and faster coordinate horns pay in the
+actual selected ledger after the widened constants are inserted, including
+TV-to-one-way conversion, stranding/no-reuse, admission, and clock ownership.
+Thus the steady sub-cap non-axisymmetric cell is not terminally emptied; it is
+reduced to one computable generic-margin certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 269 accepts the replacement of shape-class coverage by coordinate-horn pricing as a useful reduction, but no wall is deleted because the shape-free Biot-Savart constant \(C_{\mathrm{BS}}\), the widened-band margin check, and the actual selected-ledger proof that both coordinate horns pay with TV-to-one-way conversion, stranding/no-reuse, admission, and clock ownership are not executed; C269 therefore converts the C268 cell into a computable generic-margin burden rather than a terminal reduction of W3, W7, W8, or W9.
+REMAINING: W3, W7, W8, W9.
