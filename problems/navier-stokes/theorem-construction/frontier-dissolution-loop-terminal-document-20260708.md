@@ -2077,3 +2077,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 127 accepts the translation identity for the fixed-loop viscous Kelvin defect and supersedes the §9n drift-absorption formula, but the range-contraction deletion fails until material-envelope admissibility, boundary/length/selector routing, and range/event currency matching are proved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 128 shrinking-class envelope is accepted as the right shape for
+  the material-envelope repair, but not as a deletion certificate. Its
+  backward-absorption inequalities require uniform bounds
+  \(|u|\lesssim\Omega_n\delta_n\) and
+  \(|\nabla u|\lesssim\Omega_n\) throughout the mint neighborhood over the
+  rung window. The §9h size window fixes counted service scale; it does not by
+  itself control exterior/intermediate strain, pressure-slaved transport,
+  selector motion, or off-window feed for every loop in the envelope. The
+  selected loop class also needs compactness/continuity, and spatial-edge,
+  length, and selector activation must be routed once in the range/event
+  currency. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 128 reduces the range-envelope gap to uniform mint-neighborhood transport/strain bounds, compact selected-loop envelope, boundary/length/selector routing, and range/event currency matching; the shrinking-class envelope is not yet a deletion certificate.
+REMAINING: W3, W7, W8, W9.
