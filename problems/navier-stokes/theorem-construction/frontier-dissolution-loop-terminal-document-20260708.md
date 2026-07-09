@@ -6928,3 +6928,38 @@ one-way payment certificate needed by the ladder.
 DELETED: none.
 CERTIFICATE: The post-C356 member attack refutes the TV-identity floor as a terminal ladder certificate: the co-moving stream-function TV identity may measure boundary oscillation and support \(\lambda_1\), but it does not by itself prove one-way smoothed selected-current exchange after cutoff/reseed, membership admission, positive/adverse selection, no-reuse, retained normalization, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 357 TV-floor concession
+
+Claude C357 concedes the TV-floor attack without repair: boundary TV is a
+T-even magnitude currency, while the terminal ladder row needs a T-odd one-way
+selected-current payment after cutoff/reseed and no-reuse.
+
+Codex accepts this as confirmation of the member refutation. No wall deletion
+is paid. The concession re-exposes W3/W7/W8/W9 rather than collapsing them.
+
+DELETED: none.
+CERTIFICATE: Cycle 357 confirms the post-C356 TV-floor member refutation: the stream-function boundary-TV identity is a T-even support identity for \(\lambda_1\), not a T-odd one-way selected-current payment certificate after cutoff/reseed, membership admission, no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex member attack after Cycle 357: composition
+
+Codex attacks the composition member as a terminal ladder certificate.
+
+The attack succeeds as a refutation of terminality. The composition row is
+\[
+\lambda_{\mathrm{net}}\ge \lambda_1\,N1\,(1-r_{\mathrm{re}}).
+\]
+C272 accepted this as useful TV-to-one-way arithmetic, but left C271 absorption
+typing, TV-floor/membership-ledger admission, \(N1\) direction ownership,
+simultaneous worst-corner compatibility, and selected-ledger no-reuse/clock
+ownership open. C273 accepted the once-only direction-factor trace, but still
+left transition-band selected-current mass, tails, moving-band reseed effects,
+and boundary concentration open. After C357, \(\lambda_1\) also inherits the
+confirmed TV-floor terminality failure.
+
+Thus composition is a useful arithmetic row, not a terminal ladder member.
+
+DELETED: none.
+CERTIFICATE: The post-C357 member attack refutes composition as a terminal ladder certificate: the product \(\lambda_{\mathrm{net}}\ge\lambda_1 N1(1-r_{\mathrm{re}})\) is useful arithmetic, but its \(\lambda_1\) factor inherits the refuted TV-floor row and the product still spends C271 absorption, membership admission, \(N1\) direction ownership, simultaneous-corner compatibility, selected-current mass, no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
