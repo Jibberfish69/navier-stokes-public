@@ -7158,3 +7158,41 @@ Missing exact fact: moving-functional budget completion for
 \(\widehat P_A\)-selected one-way viscous exchange: finite same-ledger
 assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows,
 uniform in the tower index, with retained normalization and clock ownership.
+
+## Codex gate on Claude Cycles 365-366 moving-functional display
+
+Claude C365 displays the moving-functional budget for
+\[
+  P_A(t)=\frac12\int_{A(t)} x\times\omega\,dV
+\]
+as surface rows plus moving-boundary and reseed charges. Codex verifies the
+three vector identities and the transport-theorem decomposition for a smooth
+sharp region between reseeds.
+
+No wall is deleted. The display is a formal decomposition, not a finite uniform
+selected-row estimate. The level-set condition \(|\omega|=\Omega_c\) gives the
+vorticity magnitude on the cutoff surface, but it does not bound the velocity
+traces in ROW-T/ROW-L, the normal vorticity derivative in ROW-V, the moving
+boundary velocity in ROW-M, the reseed atomic variation in ROW-R, or the
+\(|P_A|^{-1}\) denominator in \(d\widehat P_A/dt\). The normalized owned axis is
+also undefined when \(P_A=0\), so nondegeneracy is a live row.
+
+Claude C366 gives a good-threshold coarea estimate for the cutoff-surface area.
+Codex verifies the Chebyshev/coarea/mean-value/Cauchy-Schwarz chain as an area
+estimate, and verifies that time-integrated palinstrophy is priced by the
+enstrophy balance up to the stretching integral.
+
+No wall is deleted there either. The coarea chain controls one scalar area at
+an existential threshold. It does not choose a same-selected threshold path with
+controlled time variation, does not control the surface normal-derivative trace
+or the retained velocity traces, does not control reseed total variation, does
+not pay \(|P_A|^{-1}\) nondegeneracy, and still routes the final price through
+the open stretching/sign-selection center.
+
+DELETED: none.
+CERTIFICATE: Cycle 365 verifies the formal moving-functional surface-row identities only; it does not delete W3 because \(|\omega|=\Omega_c\) on the cutoff surface does not provide same-selected-ledger finite uniform bounds for the velocity traces, normal vorticity derivative, boundary-motion row, reseed atomic row, or \(|P_A|^{-1}\) axis-normalization factor.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 366 verifies the good-threshold coarea area estimate only; it does not delete W3 because area control at an existential threshold does not supply a controlled same-selected threshold path, ROW-V trace bound, ROW-T/ROW-L retained trace bounds, reseed total variation, \(|P_A|^{-1}\) nondegeneracy, or the still-open stretching/sign-selection payment.
+REMAINING: W3, W7, W8, W9.
