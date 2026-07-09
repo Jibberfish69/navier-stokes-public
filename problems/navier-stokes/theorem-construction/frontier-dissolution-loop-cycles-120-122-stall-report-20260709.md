@@ -4042,3 +4042,22 @@ grown odd content is smooth low harmonic with exact \(C_{\mathrm{smooth}}\),
 that admitted/grown pieces split the \(\alpha^2=E_a/E\) norm lawfully, and that
 the low-\(\rho\), cutoff, pair-product, TV-linearity, and pressure-sign clauses
 are all paid in the same current.
+
+## Codex gate on post-stall Cycle 290 Duhamel provenance and growth factor
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C290 tries
+to resolve the admitted/grown norm problem through a Duhamel field split, but
+it surfaces a new growth factor \(g\) that is not bounded by a certificate.
+
+Codex accepts C290 as a useful correction. Splitting the odd field by Duhamel
+linearity is the right currency for the linear flux functional.
+
+No deletion is paid. The actual row typing for pressure, selector/cutoff,
+viscosity, and nonlinear odd self-interaction remains unproved. The displayed
+threshold is also too loose: with C290's factors the pass requires
+\(g\lesssim1.62\), while \(g=1.7\) gives \(0.065<0.067\). The required anchor is
+a selected-courier odd-mode stability theorem below that threshold.
+
+DELETED: none.
+CERTIFICATE: Cycle 290 accepts the Duhamel split as a useful correction of the \(\alpha^2\) norm-splitting issue, but no wall is deleted because the row typing of pressure, selector/cutoff, viscosity, and nonlinear odd self-interaction is not an exact selected-ledger theorem, the newly surfaced growth factor \(g\) requires a ring/selected-courier odd-mode stability bound \(g\lesssim1.62\) rather than the displayed \(1.7\), and C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff residues remain open.
+REMAINING: W3, W7, W8, W9.
