@@ -1635,3 +1635,70 @@ this exchange: the Gold burden is now pinned to one nonlocal object (the
 in-plane spin-2 slaved-pressure row on the sheet record) with a proof it
 cannot be closed pointwise. Net loss: the assembly is not a closure and never
 was. Gold remains open. No claim otherwise.
+
+## 30. THE NONLOCAL ROW, ATTACKED DIRECTLY: aspect-ratio suppression of the slaved in-plane Hessian on a thin vortical sheet (2026-07-09)
+
+Per §29 the surviving burden is nonlocal: the in-plane spin-2 pressure row
+h₂ − h₁ (and the mean h̄ that Step 3 reads) is fixed by the whole-field
+slaving H = ∇²(−Δ)⁻¹Q, not by local data. Codex's counterexample (G28.9) is
+pointwise-admissible; the same-field question is whether a GENUINELY SLAVED
+sheet record can realize it. Computed — it cannot, by sheet geometry.
+
+**The slaved Hessian of a thin sheet (exact anisotropy).** Let Q be organized
+on a sheet: thickness δ_⊥ across e₃, in-plane scale L ≫ δ_⊥, Q = q(x₁,x₂)f(x₃/δ_⊥).
+Solving −Δp = Q near the sheet, the cross-sheet second derivative dominates
+(∂₃² ~ δ_⊥^{−2} ≫ ∂_{1,2}² ~ L^{−2}):
+
+```math
+h_3 = \partial_3^2 p \approx -Q,\qquad
+h_1,h_2 = \partial_{1,2}^2 p \sim Q\,(\delta_\perp/L)^2 ,
+```
+
+because p ≈ −q(x₁,x₂)F(x₃), F'' = f, so ∂_{1,2}²p ≈ −(∂_{1,2}²q)F ~ Q(δ_⊥/L)².
+Hence **h̄ = (h₁+h₂)/2 ~ Q(δ_⊥/L)² → 0 relative to h₃** — the in-plane mean
+curvature is aspect-ratio-suppressed. This is the nonlocal Calderón–Zygmund
+anisotropy of a thin source; it is not a local algebraic identity, so it is
+not touched by (G28.9)'s pointwise freedom.
+
+**The signs on a genuine vorticity record.** A record is enstrophy-dominated:
+Q = |S|² − ½|ω|² < 0. Then h₃ ≈ −Q > 0 (the low-pressure vortical core curving
+up ACROSS the sheet — a real fluid fact, vortices are pressure minima), and
+h̄ ≈ 0⁺. Therefore
+
+```math
+h_3 - \bar h \;\approx\; -Q \;>\;0 ,
+```
+
+the payment sign Ψ_press = −∮w̃∂_r p = +(16π/15)a(h₃−h̄)r² > 0 is CORRECT and
+robust, with margin ~ −Q = ½|ω|² − |S|² (the enstrophy surplus itself).
+
+**Why this excludes (G28.9) for real records — nonlocally.** The counterexample
+needs h₃ = −4 < 0 with h̄ = +1 comparable. But (i) h₃ < 0 is a cross-sheet
+pressure MAXIMUM — not a vortical record's pressure (records are low-pressure
+cores, h₃ > 0); (ii) |h̄| comparable to |h₃| violates the aspect suppression
+h̄/h₃ ~ (δ_⊥/L)² → 0. Both failures are geometric/nonlocal, invisible to the
+pointwise (S,H,Q) data — exactly as §29 requires. The counterexample is a
+lawful tensor pair but not the slaved Hessian of a thin sheet record.
+
+**The gaps (rule 14, named, not hidden):**
+(G1) QUANTITATIVE: "≈" and "~" must become inequalities with constants — need
+h₃ − h̄ ≥ κ(−Q) with κ > 0 uniform, i.e. the aspect suppression made rigorous
+via the CZ kernel bound for a sheet-organized source. Not done; it is a
+standard-but-real harmonic-analysis estimate.
+(G2) THINNESS PERSISTENCE: the argument needs δ_⊥/L ≤ ρ < 1 sustained along
+the tower — the record sheet must STAY thin (stay in the sheet quadrant). A
+sheet rolling to δ_⊥ ~ L exits into the tube quadrant (P_H-depleting, §22).
+So (G2) IS the sheet-quadrant persistence clause; it is dynamical, not given.
+(G3) PASSAGE: the native-increment/tangent-to-atom passage (Codex §28.5, C2)
+still applies — this is the model-sheet computation, not the atom-integrated
+current.
+
+**Status:** this is a genuine same-field handle on the nonlocal row — the
+FIRST that is nonlocal by construction (aspect-ratio CZ anisotropy) rather
+than a hidden pointwise shortcut. It gives the right sign with physical margin
+(the enstrophy surplus) for thin vortical sheet records and excludes the
+pointwise counterexample by geometry. It is NOT a closure: (G1) quantitative
+CZ estimate, (G2) thinness persistence = quadrant persistence, (G3) passage.
+Sent to Codex to gate — especially to attack whether a sheet-quadrant record
+can be non-thin (breaking G2) or whether the CZ suppression can fail (G1).
+No closure claimed.
