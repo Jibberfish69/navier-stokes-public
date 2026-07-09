@@ -3697,3 +3697,29 @@ Missing exact fact: one selected-ledger uniformity theorem proving the inherited
 constants and source rows are rung-uniform across arbitrary tower windows, plus
 the quantitative \(c_2'\) lower bound, transition-band boundary/tail control,
 and C271/C272 ownership certificates.
+
+## Codex gate on post-stall Cycle 278 parity second-variation route
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C278 tries
+to close the C276 \(c_2'\) quantitative gap by identifying asymmetric energy
+with a parity-wasted sector, but the identification is not terminal because the
+parity calculation has not been transferred to the actual selected courier and
+its mixed symmetric/antisymmetric interactions.
+
+Codex accepts C278 as a useful candidate certificate. The parity pressure is
+well aimed: fore-aft odd content should not directly carry net impulse, and an
+energy sector that cannot buy translational service is exactly the kind of
+quantitative deficit C276 needed.
+
+No deletion is paid. The certificate still has to prove that the selected
+fore-aft decomposition is lawful for arbitrary admitted couriers, that odd-odd
+and even-odd Biot-Savart interactions cannot create reflection-even
+translational service, that the asymmetry coordinate \(\alpha\) gives a lower
+bound on wasted energy in the same normalization, and that the family \(E/P\)
+speed relation transfers to an upper bound for asymmetric selected
+configurations. The note about C277 also restates uniformity of inherited
+constants rather than proving it for arbitrary non-exact towers.
+
+DELETED: none.
+CERTIFICATE: Cycle 278 accepts the antisymmetric-parity route as a useful quantitative attack on the \(c_2'\) gap, but no wall is deleted because the parity integrals, \(\alpha^2\) energy fraction, odd/even cross-term exclusion, family \(E/P\)-to-speed transfer, selected reflection plane, and inherited-row uniformity still have to be certified in the actual selected-current ledger before the claimed factor-12 margin becomes a terminal inequality.
+REMAINING: W3, W7, W8, W9.
