@@ -1240,3 +1240,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 68 refutes the proposed finite-energy axial-stretching iff; local axial stretching need not instantiate a local opposite-signed \(\omega_\phi\) pair, so the definition-grade toll certificate fails.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 70 residence-fork narrowing is accepted as a useful attack on
+  the fixed-ball gap, not as a deletion. Plateau material time is not free only
+  after the holding subsidy is proved to pass through the same retained
+  ring-pair/Kato current or a typed route-out; after the Cycle 68 refutation,
+  finite-distance harmonic strain remains a service mode that must be excluded
+  or priced. The displayed fixed-point condition is a smallness/data restriction
+  unless it is proved for every smooth finite-energy datum, and the alternative
+  unconditional route still needs the episode-distribution lemma plus the
+  W7/W8 \(G_R\) transport-range/no-recount admission. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 70 reduces residence to a precise fork: an all-data proof of the fixed-point condition or an unconditional episode-distribution lemma, with service charging and \(G_R\) no-recount still unproved.
+REMAINING: W3, W7, W8, W9.
