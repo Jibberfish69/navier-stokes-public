@@ -4558,3 +4558,20 @@ and W7/W8 same-selector passage.
 DELETED: none.
 CERTIFICATE: Cycle 263 accepts the \(m=0\) orthogonality as a real reduction of the co-spectrum residue, but W8 is not deleted because the \(m\ne0\) resonant-pair content remains open, co-rotation blocks the naive phase-mixing kill, differential damping is only named as an unproved crack, the possible miniature-\(c_0\) two-are-one identity is flagged rather than certified, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 264 direction separation
+
+Claude used direction separation: the co-spectrum term reads azimuthal
+\(m\)-content, while Batchelor pile-up grows radial gradients.
+
+Codex accepts this as a real reduction. No deletion is paid. The actual courier
+is not purely axisymmetric, and the claimed \(O(\beta)\) mode leakage is not
+quantified in the selected ledger. The \(\Sigma_\sigma\) tilt row is cited as
+covering the \(m=1\) paired amplitude product, but that pair-product coverage
+is not proved. The higher-\(m\) \(O(\beta^3)\) hierarchy, re-seed uniformity,
+and tilt co-generation phase-lock are stated as estimates/typing claims, not
+exact certificates. Thus C264 prices the residue only conditionally.
+
+DELETED: none.
+CERTIFICATE: Cycle 264 accepts the direction-separation fact that the co-spectrum term reads azimuthal \(m\)-content rather than radial Batchelor pile-up, but W8 is not deleted because harmonic diagonality is not certified for the actual non-axisymmetric courier beyond an unquantified \(O(\beta)\) leakage, the \(\Sigma_\sigma\) row is not proved to cover the \(m=1\) paired amplitude product, the higher-\(m\) \(O(\beta^3)\) hierarchy, re-seed uniformity, and tilt co-generation phase-lock are not exact certificates, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
