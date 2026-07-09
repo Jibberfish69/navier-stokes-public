@@ -1477,3 +1477,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 86 repairs the far-tail endpoint class to \(L^\infty_t\) via integration by parts; smooth cutoff/no-recount, moving-cylinder uniformity, near/intermediate CZ control, and the full moving-domain bootstrap remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 87 radius-averaging repair is accepted for the far-tail trace
+  term. With a smooth averaged cutoff, the cutoff-shell term is bounded by
+  \(C R^{-5/2}\|u_0\|_{L^2}\), the same class as the bulk integration-by-parts
+  term, so the far-tail coefficient is \(L^\infty_t\). This deletes the
+  far-tail trace sub-obstruction. It does not make the full coefficient theorem
+  parts-complete: the near/intermediate CZ coefficient still has the C83
+  magnitude term, tube cutoff commutators, tube chord-arc/no self-return, and
+  other-tube/intermediate shell control open; the moving-cylinder composition
+  must still be uniform over the cylinder and align the dyadic shell with the
+  intermediate row without double-counting. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 87 closes the far-tail trace sub-obstruction by smooth radius averaging; near/intermediate CZ control, moving-cylinder uniformity, and no-recount shell alignment remain unproved.
+REMAINING: W3, W7, W8, W9.
