@@ -1508,3 +1508,21 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 88 reduces the moving-domain piece to a bounded-coefficient parabolic lemma conditional on the still-open C83 coefficient inputs, moving-cylinder localization, and capped-current bookkeeping.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 89 time-marching induction is accepted for the direction
+  coherence subproblem, provided the first-window splice and tier-floor identity
+  are written. It is the right noncircular way to propagate
+  \(|\nabla \xi|\): seed from smooth data/local well-posedness, run one window,
+  then use \(|\nabla\xi|\le|\nabla\omega|/|\omega|\le 2C_{\rm grad}/\delta\)
+  on the tier to seed the next window. It does not close the full C83
+  coefficient input, because the near-field difference
+  \(\omega(y)-\omega(x_0)\) also contains the vorticity-magnitude term
+  \(|\omega(y)|-|\omega(x_0)|\). Direction coherence controls only the direction
+  part unless Theorem A is rewritten as a Constantin--Fefferman stretching-scalar
+  estimate with that cancellation, or the magnitude term is separately proved or
+  charged. Tube chord-arc/no self-return, other-tube shell control, and W7/W8
+  no-recount through tier birth/exchange also remain open. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 89 closes the direction-coherence provenance sub-obstruction conditionally; the vorticity-magnitude term, full coefficient input, tube/other-shell control, and W7/W8 no-recount remain unproved.
+REMAINING: W3, W7, W8, W9.
