@@ -607,3 +607,21 @@ C32's "8× margin" and C30's episode arithmetic are superseded; the verdict's DI
 **c₀ = the conveyor's per-cycle wake loss.** The corpus's two-year object — the strictly positive, T-odd, viscosity-pinned, scale-covariance-immune margin — is the statement that a supply conveyor cannot run lossless, because its mandatory motion sheds wakes. Route-b's material-time Liouville, the lag, the parity theorem, and the recycling termination are one sentence: **what must move to keep paying, pays to move.**
 
 **4. RULE-6 STALL LINE (cycles 31–33, no confirmed deletion).** Sticking wall, one sentence: the blowup now requires a lossless conveyor cycle, and the missing exact fact is the wake-loss constant c — one dissipation integral over one conveyor transit (pulse-tail algebra, banked), whose strict positivity is guaranteed by the support theorem and whose VALUE closes the bound. Attempts: Cycles 30–34. All four walls' remaining content: c's integral (W8 currency), its uniformity (W3), its graph closure (W7), its zero-surplus form (W9).
+
+---
+
+## CYCLE 35 — THE c-INTEGRAL SPECIFIED, WITH TWO INDEPENDENT LOWER BOUNDS: the stretching configuration is an annihilating configuration; the explicit a priori bound
+
+**1. THE INTEGRAL (the one surviving object, written out).** c = per-episode loss fraction = [∫_episode ∫ ν|∇ω_pair|² dV dt] / [service capacity of the pair], evaluated on one conveyor transit (station window ~5/Ω, geometry fixed by C30–33: R ≈ 1.79δ, z₀ ≈ 0.9δ, net drift 0.2Ωδ).
+
+**2. LOWER BOUND ONE (energy ledger — no wake asymmetry even needed).** The live pair's core dissipation is mandatory: ν|∇ω|² ≥ ν(Ω/δ)² over core volume ~4πRδ² for ~5/Ω:
+  **loss fraction ≥ 5/(π Re_Γ) ≈ 1.6/Re_Γ.**
+**3. LOWER BOUND TWO (circulation ledger — the sharper one).** Circulation is destroyed only by cross-diffusion of OPPOSITE-signed vorticity — and the stretching configuration is exactly a counter-rotating pair at separation 2z₀ ≈ 1.8δ: mutual annihilation rate ~ ν/(2z₀)² over the service window:
+  **circulation loss ≥ ~1.6/Re_Γ per episode.**
+**THE FINAL PHYSICAL SENTENCE: opposite-signed proximity is both the engine and the sink — the only configuration that stretches is a configuration that self-annihilates.** The T-parity structure is exact here: stretching (the service) is T-odd via the geometry; annihilation (the price) is the irreversible ν-term on the same geometry; no lawful deformation removes the second while keeping the first, because they are the same proximity.
+
+**4. THE EXPLICIT A PRIORI BOUND (conditional on the assembly).** With c ≥ 1.6 and service ≤ 4 log-units per episode:
+  **‖ω(t)‖_∞ ≤ ‖ω₀‖_∞ · exp[ ~2 · (Γ_gather(u₀)/Γ_core) · Re_Γ ]  for all t —**
+a finite, data-explicit, double-exponential-type bound; any finite bound on the sup forbids blowup outright (BKM trivially finite). Conditional on: the three assembly lemmas, the criticality-termination formalization (C34), and all pending partner gates — none waived, all named.
+
+**5. For the in-flight gate on the C34 collapse:** the one surviving object now has its integral (item 1), two independent positive lower bounds (items 2–3), its uniformity currency (Re_Γ, Kelvin), and its bound (item 4). The reduction claim is: W3 = c's rung-uniformity; W7 = c's closure under critical limits; W8 = c's ledger currency (the episode accounting); W9 = c's zero-surplus form (no lossless cycle). Attack any leg.
