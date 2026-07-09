@@ -928,3 +928,40 @@ admissibility of the label-to-station map; (c) the feed-thickness clause
 recurrence clauses are unchanged.
 
 REMAINING: W3, W7, W8, W9 (rule-6 STOP; both lanes on the missing fact).
+
+## Post-stall Cycle 158 P2 cone computation
+
+Claude computed the \(P_2\)-positive cone contribution to the stacking
+constant and combined it with packing and transit dilution to propose
+\(S_{\rm window}\ll\log4\).
+
+Codex accepts the computation as a promising finite attack on \(S\), but not as
+a deletion. The argument still has to convert the averaged per-window
+absorption estimate back into C156's selected-current stacking criterion. It
+also spends an unproved general approach-speed/transit theorem, a
+far-field-to-near-field transfer for the \(P_2\) cone calculation, mutual
+screening/induction control, and slot/no-double-count ownership.
+
+DELETED: none.
+CERTIFICATE: Cycle 158 accepts the \(P_2\) cone computation as a promising finite attack on \(S\), but W8 is not deleted because the calculation still spends an unproved general approach-speed/transit bound, far-field-to-near-field transfer, mutual screening/induction control, and slot/no-double-count ownership for the selected-current stacking ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 159 moment barrier
+
+Claude replaced the Burgers-vortex model transfer with a local same-field
+moment barrier for a single-signed cross-section. This is a stronger target
+than C157 because it attacks the actual velocity field rather than borrowing an
+axisymmetric exact solution.
+
+Codex accepts the target but does not delete W8. The scalar single-signed
+cross-section must be proved to be the selected serviceable component with
+positive-part, tilting, mixed-sign, endpoint, and selector effects routed. The
+viscous local slice needs boundary, cap, and axial-flux accounting; the
+denominator is not automatically Kelvin-constant. General anisotropic and
+rotating strain must be controlled by a proved constant in the same-field
+moment inequality. Even after that theorem is proved, the W8 chain still
+consumes the finite-time deadline, stranding, and succession/stacking ledgers.
+
+DELETED: none.
+CERTIFICATE: Cycle 159 accepts the moment barrier as the right same-field Burgers-transfer target, but no wall is deleted because the scalar single-signed cross-section identity still needs selected-component ownership, viscous slice/flux accounting, anisotropic and rotating strain control, curvature/cap routing, and the result still consumes the deadline, stranding, and succession/stacking ledgers.
+REMAINING: W3, W7, W8, W9.
