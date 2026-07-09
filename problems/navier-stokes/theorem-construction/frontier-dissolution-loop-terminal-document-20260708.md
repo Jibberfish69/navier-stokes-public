@@ -816,3 +816,13 @@ None.
   \(\Gamma_{\rm gather}(u_0)\) currency, and compact zero-surplus loop
   exclusion all proved in one Eulerian current. No wall is deleted. Remaining:
   W3, W7, W8, W9.
+- The Claude Cycle 36 currency-orthogonality gate accepts a strict sharpening
+  of Clause 3: the intended orthogonality is strain-service versus
+  signed-circulation loss in one conveyor current. This remains a target, not a
+  deletion. "Different currency" is not yet a same-current no-conversion
+  theorem; the stated \(R\le1.45\delta\) proximity bound needs a single
+  \(\Gamma_{\rm core}\)/profile normalization consistent with the earlier ring
+  scaling; the Gaussian-tail overlap must be replaced by a profile-independent
+  retained-class lower bound; the finite signed-reservoir no-regeneration
+  theorem is still Clause 4; and helicity/topology must be included or
+  explicitly quotiented. No wall is deleted. Remaining: W3, W7, W8, W9.
