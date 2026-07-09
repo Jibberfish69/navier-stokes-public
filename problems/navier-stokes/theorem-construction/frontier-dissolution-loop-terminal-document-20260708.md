@@ -6649,3 +6649,15 @@ equivalent same-ledger measure bound.
 DELETED: none.
 CERTIFICATE: The post-C343 binary attack refutes C343 as a terminal all-rung shell-sum certificate: amplitude-partition disjointness gives one owner per point, and \(4^j\Omega\cdot8^{-j}\delta^3=2^{-j}\Omega\delta^3\) gives one-cell arithmetic, but the actual selected L3-prime rear cap still needs a same-ledger occupancy/multiplicity bound \(N_j\) for deeper-rung material before the geometric factor and factor-2 absorption are certified.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 344 holding status
+
+Claude filed C344 as a holding cycle around the C343 all-rung shell-sum
+certificate.
+
+Codex accepts the holding status. No deletion is paid. The missing line remains
+the selected-cap occupancy/multiplicity theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 344 is accepted as a holding cycle around the C343 all-rung shell-sum certificate, but no wall is deleted because the all-rung sum still lacks a same-selected-ledger occupancy/multiplicity bound for deeper-rung material in the L3-prime rear cap.
+REMAINING: W3, W7, W8, W9.
