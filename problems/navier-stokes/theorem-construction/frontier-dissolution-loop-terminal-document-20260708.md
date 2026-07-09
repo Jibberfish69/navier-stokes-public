@@ -556,3 +556,12 @@ None.
   \(B_{ij}=0\), \(\widehat H_{ij}=0\), \(e\cdot He\le-\alpha^2\), and transverse
   trace compensation. Current sources name the aligned co-diagonal atom
   classification/route-out as unproved, so no W3/W7/W8/W9 wall is deleted.
+- The five-door/nonseparability birth-control gate refutes the tempting
+  empty-by-admission shortcut. Nonseparability empties only the fake separable
+  cell "retained record participation with zero transverse pressure
+  participation"; it does not empty the co-diagonal atom with the pressure row
+  present. The five-door source declares residues A/B open, the strict-atom
+  spin-2 selector proof is conditional on birth/custody and lower-edge
+  hypotheses, and the axisymmetric swirl audit leaves Gate-B material-time
+  Liouville/UCP open. Thus Gate-A/Gate-B labels are not admitted as new walls
+  because they delete no existing names, and they do not delete W3/W7/W8/W9.
