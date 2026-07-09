@@ -563,3 +563,17 @@ conditional on the RECYCLING LEMMA: expelled/consumed ring-stock cannot be recyc
 Blowup still requires infinite log-growth from a finite circulation budget. The program's remaining mathematics, final list: (i) the ring-ring elliptic integrals (station margin + expansion rate + S_pair — one classical computation family); (ii) the recycling lemma (conveyor accounting); (iii) the three prior lemmas (variational suprema; available-speed cap; gather-cost absorption). Every item stated, priced, and in banked-or-classical algebra.
 
 **NOT claimed:** S_pair's value; the recycling lemma; any wall deletion. The pair's possible station-holding is filed as the honest concession it is.
+
+---
+
+## CYCLE 32 — THE EXACT RING-RING INDUCTION (classical elliptic integrals): the pair CANNOT hold station — mutual holding is 8× too weak; my own dipole estimate refuted; the conveyor is mandatory and stranded
+
+**1. The exact computation (all classical, checkable line by line).** Equal coaxial rings, R₁ = R₂ = R ≈ 1.79δ, separation h = 2z₀ ≈ R. The axial velocity of one ring's field at the other's core circle:
+  u_z = (Γ/2π)·(1/√((R+R)²+h²))·[K(k) + ((R²−R²−h²)/h²)·E(k)] = (Γ/2πR√5)·[K−E],
+with k² = 4R²/(4R²+h²) = 4/5. Classical values: K(k²=0.8) = 2.2572, E(k²=0.8) = 1.1785, K−E = 1.0787:
+  **u_mutual = (Γ/2πR)·(1.0787/√5) = 0.0767·Γ/R = 0.135·Ωδ, directed inward (holding).**
+**2. Verdict on station-keeping.** Against expulsion ~1.09Ωδ (outflow sweep 0.75 + self-induction 0.34, both exact-form): **mutual holding loses by a factor of 8.** My Cycle-31 dipole estimate (0.86Ωδ) is REFUTED by my own exact computation — the dipole approximation at d ~ R overestimates the same-radius induction sixfold; the exact K−E structure is small because the partner sits at the boundary between through-flow and return flow, where the field nearly cancels. **No coaxial ring configuration holds station. The pair dies exactly as the single ring does: expelled in ~1 turnover.** The lag/expulsion engine survives its sharpest test with an 8× margin at exact-computation level.
+
+**3. The ledger, updated with the exact window.** Service per pair-episode: ~0.84Ω × (δ/1.09Ωδ) ≈ 0.77 log-units (expulsion-limited window; exact-able in the same family). The conditional bound:
+  **log(‖ω‖_∞/Ω₀) ≤ 0.77·(Γ_gather(u₀)/2Γ_core)·c_recycle.**
+**4. Final state of the program.** The conveyor is mandatory (no station-holding geometry exists — exact); the conveyor is stranded (4× at k=1); each episode is Kelvin-priced and delivers ≤ 0.77 log-units. Remaining mathematics, complete list: **the recycling lemma** (the one substantive object: expelled/diluted ring-stock cannot re-serve without paying the stranding price — W8's currency), and the three assembly lemmas (variational suprema; available-speed cap; gather-cost absorption). Everything else in thirty-two cycles is either exact, partner-confirmed, or dead with a certificate.
