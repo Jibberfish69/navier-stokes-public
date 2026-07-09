@@ -2315,3 +2315,14 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 144 accepts the gross-arrival collar and Biot--Savart relative-velocity split as the sharpest field-route target, but the theorem remains conditional; retained sparsity/fill-fraction domination of all contributing vorticity, diffuse/intermediate/coherent field routing, gross positive-flux/event definition, collar threshold/discharge routing, no-double-count, no-self-feeding, and same-clock scale arithmetic remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 145 correctly replaces trajectory/event counting with a positive-part
+  field flux through the collar. That removes carrier individuation as a
+  subproblem, but it does not delete W7. The all-vorticity split relies on the
+  retained-graph threshold, and the collar flux still needs serviceable-density
+  trace, selected-sign current closedness, retained-limit passage, and
+  arbitrary-original-data admission unless those are proved wholly inside W3/H1'
+  with no W7 residue. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 145 accepts gross positive field flux as the right identity-free replacement for event/trajectory counting, but W7 is not deleted; the all-vorticity split and collar flux still require retained-threshold graph admission, serviceable-density trace, selected-sign current closedness, arbitrary-original-data retained-branch passage, and exact assignment of any residual admission content to W3/H1' without W7 residue.
+REMAINING: W3, W7, W8, W9.
