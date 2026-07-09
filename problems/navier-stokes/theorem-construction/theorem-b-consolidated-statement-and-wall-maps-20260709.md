@@ -3993,3 +3993,149 @@ Leray energy plus the spectral mean and record monotonicity is exhausted. A
 successful Gold theorem must use signed angular, phase, or material-history
 information discarded by the radial moments; the unsigned `Q_m` magnitude and
 the moment occupancy bound do not provide that information.
+
+## 58. FULL-NS HELICAL PARTICIPATION BARRIER: exact theorem, strict reduction only (2026-07-09)
+
+The helical signs in this section are orthogonal readouts of the one velocity
+field. They are not separate carriers, stores, or actors. Set
+
+```math
+\mathcal C=\Lambda^{-1}\operatorname{curl},
+\qquad
+\Pi_s=\frac12(I+s\mathcal C),
+\qquad
+u_s=\Pi_su,
+\qquad s\in\{+1,-1\}.
+\tag{G58.1}
+```
+
+For
+
+```math
+R_s=\|\Lambda^{1/2}u_s\|_2^2,
+\qquad
+D_s=\|\Lambda^{3/2}u_s\|_2^2,
+\qquad
+P_s=-\langle\mathbb P\nabla\cdot(u\otimes u),\Lambda u_s\rangle,
+\tag{G58.2}
+```
+
+the Euler nonlinear helicity identity gives
+
+```math
+\boxed{
+P_+=P_-=\frac12P_H,
+\qquad
+\frac12R_s'+\nu D_s=\frac12P_H.
+}
+\tag{G58.3}
+```
+
+Thus pure-helicity critical production is zero at that instant. This does not
+make a pure-helicity slice invariant under the full equation.
+
+The endpoint estimate is supplied by an exact opposite-helicity null form. In
+Fourier variables,
+
+```math
+\Pi_s(\xi)=\frac12\left(
+I-\widehat\xi\otimes\widehat\xi+s,i\widehat\xi\times
+\right).
+```
+
+If `x` belongs to `Ran Pi_s(p)`, then for every `y`,
+
+```math
+\boxed{\Pi_{-s}(p)(x\times y)=0.}
+\tag{G58.4}
+```
+
+Indeed, the cross product with the component of `y` perpendicular to `p` is
+longitudinal, while the surviving cross product with the component parallel
+to `p` remains in the `s` helical fiber. Therefore, for `k=p+q` and
+`|p|>=2|q|`,
+
+```math
+|\Pi_{-s}(k)(x\times y)|
+\le C\frac{|q|}{|p|}|x|\,|y|.
+\tag{G58.5}
+```
+
+The resulting bilinear symbol of
+`Pi_{-s}(v_s cross Lambda v_s)` is bounded by
+`C min(|p|,|q|)`. With
+`A_j=2^{3j/2}||Delta_j v_s||_2`, the separated high--low terms contribute
+`2^{k-j}A_jA_k`, and comparable high--high inputs into output `2^ell`
+contribute `2^{-2(j-ell)}A_jA_{j+O(1)}`. Both kernels are summable, so
+
+```math
+\boxed{
+\|\Pi_{-s}(v_s\times\Lambda v_s)\|_{\dot H^{1/2}}
+\le C\|v_s\|_{\dot H^{3/2}}^2.
+}
+\tag{G58.6}
+```
+
+The full critical production also has the exact identity
+
+```math
+P_H
+=2\int (u_++u_-)
+\cdot(\Lambda u_+\times\Lambda u_-)\,dx.
+\tag{G58.7}
+```
+
+Pairing the term linear in the smaller helical readout with `(G58.6)` and
+estimating the remaining mixed term by
+`Hdot^{1/2} into L^3` gives the full-NS estimate
+
+```math
+\boxed{
+|P_H(u)|
+\le
+C\min_{s\in\{+,-\}}
+\|u_s\|_{\dot H^{1/2}}
+\|u\|_{\dot H^{3/2}}^2.
+}
+\tag{G58.8}
+```
+
+No Waleffe relay or independently evolving helical object enters this proof.
+The complete Littlewood--Paley certificate is recorded in
+`mpp-forward-gold-critical-height-native-increment-current-fixed-face-certificate-20260709.md`,
+section 21, `(NIC.150)--(NIC.169)`.
+
+At every nonzero smooth time with total critical height nondecreasing,
+
+```math
+\boxed{
+\min\left\{
+\|u_+\|_{\dot H^{1/2}},
+\|u_-\|_{\dot H^{1/2}}
+\right\}
+\ge\frac\nu C.
+}
+\tag{G58.9}
+```
+
+This is an exact same-field participation barrier: critical growth cannot be
+carried by one helicity sign alone. It is not a Gold bound. Navier--Stokes
+scaling preserves both critical helical norms while shrinking physical energy
+and time. Scaled smooth solutions therefore show that energy and scaling do
+not exclude smaller-scale repetitions; they do not construct repetition in
+one trajectory.
+
+**Adversarial result.** The exact sector identities, pure-helicity
+cancellation, projector annihilation, high--low symbol gain,
+high--high-to-low sum, and the factor in `(G58.7)` survived the independent
+Sol audit and a separate adversarial proof pass. The attempted Gold inference
+fails: `(G58.9)` is a lower floor, whereas dissipation absorption would require
+the same minimum to stay uniformly below `nu/C`. The common mode
+`R_+=R_-` is invisible to signed helicity and can grow without violating the
+displayed identities.
+
+**Status.** Strict reduction only. Every Gold counterhistory must repeatedly
+realize mixed-helicity critical records. The remaining theorem is a
+time-integrated, scale-breaking same-field statement that bounds or excludes
+those repetitions. Nothing in `(G58.1)--(G58.9)` supplies that event count,
+one-way loss, or peak bound.
