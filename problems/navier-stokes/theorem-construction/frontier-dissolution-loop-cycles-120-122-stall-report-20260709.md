@@ -5643,3 +5643,15 @@ clock.
 DELETED: none.
 CERTIFICATE: The post-C350 binary attack refutes C350 as a terminal reduction certificate: closure of the finite terminal set \(\{\)ladder components, C271 absorption, clock table/value bound\(\}\) is not reduction to the one surviving written object, and cap-resident horn-B material is not mapped into the ladder in the same selected cap ledger with no-reuse, retained normalization, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 351 holding status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C351 offers
+no new cross-wall identification beyond the finite terminal-set inventory.
+
+Codex accepts the holding status and the exact boundary: closure locates the
+work but does not perform it. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 351 is accepted as a holding cycle around the finite terminal set, but no wall is deleted because the ladder components, C271 absorption/no-reuse, and the clock/value-bound leaf still require their own binaries before any wall can be reduced to a single surviving written object.
+REMAINING: W3, W7, W8, W9.
