@@ -5901,3 +5901,33 @@ after definitional data selection.
 DELETED: none.
 CERTIFICATE: The post-C362 binary refutation succeeds: C362 does not delete W3 because the terminal functional is not fixed until \(P_A\), \(A\), cutoff/reseed, boundary/crossing defect, pressure/projection placement, retained normalization, and clock ownership are admitted in the same ledger; the retained-support tangency/crossing-dipole condition is a live W3 admission instance, so W3 is neither empty-by-admission nor two-are-one with W7.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 364
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C364 asks
+whether moving-functional budget completion is just W7 reseed bookkeeping. The
+attempt fails because W3 budget admission and W7 closure read the same reseed
+events as different proof objects.
+
+Codex accepts C364 as confirmation of the W3 refutation and withdrawal of the
+C363 W9 pending deletion. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 364 confirms the post-C362 W3 refutation and withdraws the C363 W9 pending deletion: the missing exact fact is the moving-functional budget completion, namely finite same-selected-ledger assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows uniformly in the tower index. W3 remains open, W9 remains open, and no wall is deleted.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 362-364
+
+Physical sentence of the sticking wall: the retained field is now being read by
+a moving owned-axis functional, and the proof has not assigned the functional's
+own motion, boundary, cutoff, and reseed contributions as finite selected
+budget rows uniformly through the tower.
+
+Attempts: C362 claimed W3 emptied into the computed budget or W7 propagation;
+C363 attempted a W9 normalization deletion from the same fixed-functional
+premise; C364 conceded the W3 refutation and withdrew the W9 pending deletion.
+
+Missing exact fact: moving-functional budget completion for
+\(\widehat P_A\)-selected one-way viscous exchange: finite same-ledger
+assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows,
+uniform in the tower index, with retained normalization and clock ownership.
