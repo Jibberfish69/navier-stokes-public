@@ -618,3 +618,12 @@ None.
   \(\mathbb P\operatorname{div}R\ne0\) and leaves legal carriage through cover,
   ancestry, tower, and payer rows open. W7 therefore remains the
   Reynolds-defect closure/compatibility/route-out burden.
+- The W7 Reynolds-defect-to-W8+W9 gate refutes the sharper coalition deletion.
+  The checked ballast sources prove that PSD Reynolds trace is unresolved
+  kinetic energy, that vanishing trace kills anisotropic covariance, that
+  nonvanishing admitted terminal trace is Field-visible, and that failed cover,
+  ancestry, or tower landing is typed certificate failure. They do not prove
+  that every Reynolds ballast is W8 selected-linear original-data payment, and
+  they do not prove that W9 already carries every nonzero defect as a closed
+  zero-surplus certificate row with terminal-window room. W7 remains the
+  universal Reynolds-defect payment/carriage/route-out burden.
