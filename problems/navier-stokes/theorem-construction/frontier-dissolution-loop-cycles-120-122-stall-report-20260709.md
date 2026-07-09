@@ -1878,6 +1878,25 @@ DELETED: none.
 CERTIFICATE: Cycle 213 accepts the rear-lens sphere-intersection arithmetic and the one-window lag correction, raising the worst-end loss threshold to about \(6.70\%\), but W8 is not deleted because lens volume is not a selected-current flux lower bound, the rear-lens occupancy and no-reabsorption claims remain unproved, the re-seeded moving-sphere Reynolds/local-continuity identity is still open, the \(\lambda_1\) and \(\lambda_2\) bounds behind \(\lambda\ge0.15\) remain uncertified, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 214 selected-current continuity
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C214 tries
+to identify W8's no-reuse/selected-current burden with the W3/W7 current
+admission rows by writing a continuity identity, but the identification is not
+complete because the selected current, exchange signs, re-seed jumps, and W9
+clock normalization are not yet certified by exact identities.
+
+Codex accepts the reduced theorem shape. The missing exact facts are the
+definitions of \(\rho_{\rm sel}\), \(\Sigma_{\rm exch}\), and
+\(\Sigma_\sigma\); the identities or inequalities proving the
+position-blind/oscillatory/cannot-refund claims; inclusion of re-seed jumps in
+the Reynolds balance; the Kato sign for the selected positive currency; and
+the quantitative rear-flux lower bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 214 accepts the selected-current continuity identity as the right reduced theorem shape, but W8 is not deleted because \(\rho_{\rm sel}\), \(\Sigma_{\rm exch}\), and \(\Sigma_\sigma\) lack exact attackable definitions, the "position-blind/oscillatory/cannot refund" claims have not been proved as identities or inequalities, the re-seed jump terms are not yet included in the Reynolds balance, the Kato sign has not been checked for the selected positive currency, the quantitative rear flux bound still rests on the soft C207/C211 dichotomy, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
