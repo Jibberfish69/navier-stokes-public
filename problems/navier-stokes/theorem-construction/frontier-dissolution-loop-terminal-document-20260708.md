@@ -1049,3 +1049,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 52/53 reduces GAP-0/GAP-4 to an unsigned coefficient theorem, an independently proved \(c_*\) theorem, and a written two-variable ODE; those exact facts remain unproved, so W3/W7/W8/W9 are not terminally reduced.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycles 54-55 orientation-current gate produces a real
+  self-refutation and a strict reduction, not a deletion. Cycle 54's
+  one-directional beta current is refuted by Cycle 55: the record's transverse
+  swirl shear is not beta-neutral, and circular shear supplies a restoring
+  winding current toward ringness at the same scale as the proposed defection.
+  Therefore the orientation route cannot prove W9 zero-surplus action. The
+  useful narrowing is that GAP-5 no longer has an independent orientation
+  inequality; it falls back to the spatial engines already inside the \(c_*\)
+  current: expulsion, Kato annihilation, stranding, and pump extinction. Those
+  engines still need one same-fluid stock/demand ledger theorem, including
+  tilted/wound overlap, same-current expulsion/stranding, frame-covariant pump
+  extinction, and the material-time zero-surplus action. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycles 54-55 refute the beta-orientation deletion route and strictly reduce GAP-5 to the \(c_*\)-centered spatial ledger theorem; that theorem remains unproved, so W9 and the full W3/W7/W8/W9 frontier remain open.
+REMAINING: W3, W7, W8, W9.
