@@ -1655,8 +1655,10 @@ At a critical-height record upcrossing, `P_H>=nu M_3`. Equations
 ```math
 Q_m
 \ge\nu^2\frac{M_3^2}{M_0\mathcal W}
-\ge\nu^2\frac{M_3}{M_0}
-\ge\nu^2m^3.
+\ge\nu^2M_3
+\ge\nu^2M_0m^3,
+\qquad
+\frac{Q_m}{M_0}\ge\nu^2m^3.
 \tag{NIC.126}
 ```
 
