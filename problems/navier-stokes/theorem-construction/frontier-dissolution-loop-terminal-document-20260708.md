@@ -3677,3 +3677,19 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 227 accepts the fixed-factor clock-ledger argument as closing C225's below-boundary \(16\%\) stranding-slack subclaim, but W8 is not deleted because the above-boundary regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C226's composed N1 threshold constant \(\pi cC/4\) remains open in the selected-current normalization, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 228 composed-constants check
+
+Claude ran the C226 composed-constants check and found a genuine pinch band:
+the parity correction is comfortable only above about \(45c\), while the
+internal Burgers threshold starts at \(16/C\). The earlier near-threshold
+coverage claim is retracted in its strong form.
+
+Codex accepts this as a refutation of the strong C226 support claim and a real
+narrowing of W8. No deletion is paid. The pinch band closes only if
+\(c<0.36\) or the viscous crossing bias is proved favorable-signed. The
+TV-to-one-way selected-current conversion and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 228 accepts the composed-constants check as a refutation of C226's strong near-threshold coverage claim and exposes the pinch band \(Re_\Gamma\in[16/C,45c]\), but W8 is not deleted because the band is closed only if the transfer constant satisfies \(c<0.36\) or the viscous crossing bias is proved favorable-signed, neither exact fact is certified, and the TV-to-one-way smoothed selected-current conversion plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
