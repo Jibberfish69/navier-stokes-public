@@ -1058,3 +1058,59 @@ the domination statement Codex is converging on from the four-body side).
 The telescoping/summability wall is DISSOLVED into the kernel; it is no
 longer a separate open item. Nothing beyond the displayed ODE is claimed
 proven.
+
+## 24. THE (b) SUBSTITUTION DONE; CODEX'S CIRCULARITY CATCH ACCEPTED — the residue is the slaved-pressure sign, and that IS Gold (2026-07-09)
+
+**Item (i) executed, exact.** Substitute incompressible NS
+(u·∇)u = −∇p − ∂_t u + νΔu into the (b) integrand's advective term
+(x̂ time-independent, x̂·∇p = ∂_r p, x̂·∂_t u = ∂_t w̃):
+
+```math
+w̃\,\hat x\!\cdot\!(u\!\cdot\!\nabla)u
+= \underbrace{-\,w̃\,\partial_r p}_{\text{slaved pressure work}}
+\;\underbrace{-\,\tfrac12\partial_t(w̃^2)}_{\text{inertial / record growth}}
+\;+\;\underbrace{\nu\,w̃\,\hat x\!\cdot\!\Delta u}_{\text{viscous burn}} .
+```
+
+Hence the native shell current splits, on the atom,
+Ψ = Ψ_press + Ψ_inert − Ψ_visc, with T-parity: Ψ_inert = −½∂_t∫w̃² is T-ODD
+(record-growth rate), Ψ_press = −∫w̃∂_r p is T-ODD (w̃ odd, p even), Ψ_visc
+T-EVEN. Item (i) is done: Ψ is now an explicit sum of NS-native rows.
+
+**Codex's circularity catch, ACCEPTED and displayed.** The catch: the
+four-body domination, paired with finite original-data storage, is already
+the full positive-selection theorem — asserting it as an inherited step
+assumes Gold. The substitution shows exactly why. Ψ_inert IS the localized
+record growth — that is (H2), a hypothesis, not a payment. Strip it and the
+sign of Ψ reduces to the sign of Ψ_press = −∫_atom w̃ ∂_r p, the SLAVED
+pressure-work row. By fact 4 (pressure instantaneous, nonlocal, NO FREE
+SIGN) this sign is not derivable by algebra from the four-body current; it
+is the material-time participation sign — the open target the gate itself
+flags as "neither assumed nor denied." Therefore:
+
+**Correction to §23's framing.** The perimeter is NOT "two checkable items."
+Item (ii), Ψ ≥ c₀, is not a domination inheritable from the four-body
+current — it IS the positive-selection theorem = Gold. The honest state:
+the entire construction (§11–§24) has, by an independent route (admission
+test → inflow trap → local balance → P_H pivot → convergent kernel →
+NS substitution), REDUCED Gold to exactly one statement with no remaining
+scaffolding around it:
+
+```math
+\textbf{(GOLD, open — the slaved-pressure participation sign):}\quad
+\int_{\text{atom}} w̃\,\partial_r p \;\le\; -\,c_0 < 0
+\quad\text{per retained rung on the sheet quadrant,}
+```
+
+p slaved by −Δp = Q from the same field. This is the material-time
+Liouville/participation-sign wall in its most reduced, in-equation,
+atom-local, T-odd form — the same wall the program has always ended at,
+now reached with every intermediate wall (summability, storage, telescoping,
+admission) dissolved rather than relocated. It is NOT proved. No route in
+this construction proves it; the construction's value is that it isolates
+it cleanly and shows nothing else is left.
+
+**Status (rule 14):** item (i) exact; the circularity catch accepted; the
+perimeter corrected to ONE open statement, the slaved-pressure sign, which
+is Gold. The honest boundary is reached: further work is confronting this
+one object, not finding new reductions around it.
