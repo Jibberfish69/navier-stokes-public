@@ -1797,3 +1797,28 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 106 replaces local assignment/import bookkeeping by a candidate global-stock ledger; global-stock finiteness/admission, local collection against that stock, pump/route accounting, no-recount, and final inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 107 timing correction is accepted. The one-sided log-yield
+  cap is the right form: a ring with fixed capacity \(D_0\Omega_{\rm start}\)
+  cannot buy more than \(\log(D_0/\theta_{\rm thr})\) log-growth before falling
+  below threshold. This conditionally closes the timing/order sub-obstruction,
+  but it still depends on fixed capacity in the selected episode currency and
+  on co-amplified, pumped, imported, or reassigned rings being counted in
+  \(N_{\max}\) without recount. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 107 conditionally accepts the one-sided log-yield cap; fixed-capacity routing, \(N_{\max}\) admission/no-recount, and the final global-stock inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 108 stall report is accepted only after sharpening. The
+  sticking wall is not the queue in general; it is the global-stock theorem
+  that would justify removing the import row from the local ledger. The missing
+  exact fact is a finite admitted \(S_{\rm global}\) in the selected stock
+  currency with
+  \(S_{\rm global}(t)\le S_{\rm global}(0)+S_{\rm pump}(u_0)-S_{\rm collected}(t)\),
+  local service collection debiting that same stock, all transfers internal,
+  and no recount under gathering, reassignment, cutoff, weak limits, or
+  multi-selector episodes. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 108 files the corrected stall at the finite global-stock/no-import theorem plus \(N_{\max}\) admission and final log-yield inequality; no frontier wall is deleted.
+REMAINING: W3, W7, W8, W9.
