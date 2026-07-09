@@ -335,3 +335,22 @@ The partition is exhaustive: at every material time on the aligned branch, c̃ i
 **4. THE ONE QUESTION, IN ITS EXACT CLASSICAL FORM.** Rung-price summability ≡ **log-shell coherence: can log-many dyadic shells simultaneously and persistently hold the adverse P₂ orientation needed to subsidize the record, when each shell's orientation is dynamically eroded (lag, Cycles 8–9), priced (flanker deficit, Cycle 14), and P₂-blind to its own isotropic part (Cycle 11)?** This is, verbatim: the memory-tier "every shell's P₂-moment adverse simultaneously" question; the ℓ²-vs-ℓ¹ dyadic gap of the H^s↔L^p continuum; the affine X = −c·log|ℓ| tower payment; and rung-price summability — four filed names, ONE object. The program's entire remaining mathematical content is this object's sign. Nothing else is open anywhere in the assembly.
 
 **NOT claimed:** the coherence verdict. What IS claimed (attackable): the four-name identity above, and that the log enters only through the unsubsidized-strain bound at the producer-less global record.
+
+---
+
+## CYCLE 18 — GATE PROCESSED (self-neutrality CONFIRMED exact); THE SLOW-SHELL DIFFICULTY STATED HONESTLY; THE TERMINAL TRICHOTOMY: every record behavior has a named killer
+
+**Gate processed.** Codex CONFIRMED the self-neutrality theorem as exact ("z-uniform pressure has ∂²_zp = 0... the earlier self-supply margin is refuted") — the Cycle-14 refutation of my own Cycle-6 claim is now partner-confirmed. The saddle objection in the same gate (Hessian inequality ≠ critical-point equation) is the one Cycle 16 already answered by the dichotomy; that answer is in Codex's queue.
+
+**1. THE SLOW-SHELL DIFFICULTY (stated against my own case, because it is true).** In the marginal tower each dyadic shell contributes ~equally to the record's strain (the log sum), so the record's clock runs ~log-times faster than any single shell's own turnover. Consequence: THE OUTER SHELLS ARE QUASI-STATIC relative to the core — holding orientation is CHEAP per shell. No argument of the form "shells decohere by their own dynamics" can work. This is precisely why the problem is hard, why the marginal counterobject exists, and why the coherent enemy is genuinely lawful-looking. Filed as a refutation of any residual per-shell-turnover decoherence hope.
+
+**2. EXACT COHERENCE IS CLASSICALLY DEAD.** "All shells coherent for all material time" realized exactly = the self-similar profile (frozen in similarity variables). That case is killed by the classical Liouville theorems (Nečas–Růžička–Šverák; Tsai; Escauriaza–Seregin–Šverák backward uniqueness) — the corpus's route-b/NRS-extension anchors. The surviving enemy is therefore the WANDERING near-coherent tower — coherence that holds approximately while the configuration drifts.
+
+**3. THE TERMINAL TRICHOTOMY (the endgame's complete typed structure).** The record's behavior on the aligned branch, exhaustively:
+- **(I) Exactly still in similarity variables** (frozen profile): dead classically [NRS/Tsai/ESŠ].
+- **(II) Standing episodes in the physical frame** (c̃ = 0): the saddle-conversion + Rayleigh oscillation bound each episode's growth [Cycles 10, 15, 16].
+- **(III) Moving episodes** (c̃ ≠ 0): the viscous wake ⟹ σ = lag ⟹ subsidy retardation at rate ∝ ν·c̃·asymmetry [Cycles 8–9].
+- **(Transitions):** leapfrogs, each priced (fresh supplier pair, multiplicative cap) [Cycles 15, 17].
+Wandering-near-self-similarity is not a fourth class: wander IS motion in similarity variables, which realizes as (II)/(III) episodes plus transitions in the physical frame. **Every behavior has a named, filed killer; three of the four killers act on exactly the wander that escapes the classical Liouville.** What remains is not a missing idea but the quantitative assembly: making each killer's inequality UNIFORM along the pedigree (W3's uniformity clause), closing the graph across episode boundaries (W7), summing the prices (W8), and excluding zero-surplus recurrence (W9) — the four walls, revealed as the four assembly obligations of the trichotomy.
+
+**NOT claimed:** any wall deletion; the uniformity assembly itself. Claimed (attackable): the trichotomy's exhaustiveness — in particular that wandering self-similarity has no realization outside (II)+(III)+transitions.
