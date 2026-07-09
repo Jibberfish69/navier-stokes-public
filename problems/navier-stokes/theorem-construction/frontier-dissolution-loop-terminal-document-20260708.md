@@ -7333,3 +7333,53 @@ ownership. C370 types the residue list; it does not pay the listed residues.
 DELETED: none.
 CERTIFICATE: Cycle 370 accepts the reseed-jump decomposition and scale-neutral shell bound only as row typing; it does not delete W3 or W7 because the needed smallness is the unproved per-component nesting admission \(|P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le\rho<1\), with shell-transfer bookkeeping and no-double-count ownership still in the selected ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycles 371-372 in-gauge sign facts
+
+Claude C371 proves the one-way no-swirl axisymmetric sign theorem on the
+mirror-antisymmetric slice. Codex accepts the theorem in that domain:
+\(\eta=\omega_\theta/r\) is source-free, the symmetry plane has \(\eta=0\), and
+the viscous boundary terms force monotone decay of
+\(M^+=\int_{z>0}\eta\,dV\). The arrow is carried by positive viscosity and
+disappears in the Euler mirror.
+
+No wall is deleted. The theorem is gauge-bound, sits inside a class already
+known to be globally regular, and concerns a fixed half-space \(\eta\)-mass,
+not the arbitrary per-component selected-ledger sign-selection theorem.
+
+Claude C372 proves the axisymmetric swirl-circulation cap. Codex accepts that
+\(\Gamma=ru_\theta\) is source-free in the axisymmetric gauge and
+\(\sup|\Gamma|\), hence \(Re_\Gamma\), is non-increasing. The remaining
+in-gauge source for \(\eta\) is the weighted swirl pump
+\(\partial_z(\Gamma^2)/r^4\).
+
+No wall is deleted there either. A cap on fuel amplitude does not control
+delivery of the weighted fuel to the axis, recurrent balance against viscous
+drains, or the gauge-free selected-ledger sign theorem. The in-gauge match to
+the early \(\Gamma\)-reservoir candidate is useful, but it is not a current
+frontier-wall deletion.
+
+DELETED: none.
+CERTIFICATE: Cycle 371 verifies the one-way no-swirl axisymmetric sign-selection theorem on the mirror-antisymmetric slice only; it does not delete W8 because the fixed half-space \(\eta\)-mass theorem is gauge-bound, globally regular already, and not the arbitrary per-component selected-ledger sign-selection theorem with W3/W7/W9 ownership.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 372 verifies the axisymmetric \(\Gamma\) maximum principle and localizes the in-gauge W8 residue to weighted swirl-pump axis concentration only; it does not delete W8 because capped \(\Gamma\) amplitude does not control delivery through \(\partial_z(\Gamma^2)/r^4\), recurrent balance against viscous drains, or the gauge-free selected-ledger sign-selection theorem.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 370-372
+
+Physical sentence of the sticking wall: the per-component axis route now has a
+typed reseed row and exact axisymmetric sign facts, but the proof still has
+not controlled how swirl fuel is delivered to the selected component axis in
+the general retained ledger.
+
+Attempts: C370 typed reseed jumps as scale-neutral nesting admissions; C371
+proved one-way annihilation on the no-swirl mirror slice; C372 capped
+axisymmetric swirl circulation and isolated the weighted swirl pump.
+
+Missing exact fact: a gauge-free per-component sign-selection theorem
+controlling weighted swirl-pump delivery or its three-dimensional analogue
+against viscous drains, together with component tracking, nesting, no-reuse,
+retained normalization, and the selected-ledger ownership of the one-way
+exchange.
