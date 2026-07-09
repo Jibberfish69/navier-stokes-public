@@ -4999,3 +4999,23 @@ uniformity of inherited constants rather than proving it.
 DELETED: none.
 CERTIFICATE: Cycle 278 accepts the antisymmetric-parity route as a useful quantitative attack on the \(c_2'\) gap, but no wall is deleted because the parity integrals, \(\alpha^2\) energy fraction, odd/even cross-term exclusion, family \(E/P\)-to-speed transfer, selected reflection plane, and inherited-row uniformity still have to be certified in the actual selected-current ledger before the claimed factor-12 margin becomes a terminal inequality.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 279 final construction-side plug
+
+Claude assembled the C265 prefactor and claimed \(H_{\mathrm{comp}}\) is empty
+and the construction manifest is complete.
+
+Codex accepts C279 as useful support. The prefactor is now displayed with a
+worst-corner plug, and the surviving written object is cleaner: the construction
+lane is no longer claiming another hidden computational item.
+
+No deletion is paid. \(H_{\mathrm{comp}}\)-empty is not the exit condition. The
+prefactor still inherits same-normalization, \(\Sigma_\sigma\) paired-amplitude
+coverage, no-double-count with C275 occupancy, and C278 selected-courier parity
+transfer. C279 itself lists the remaining partner-gated surface: C238-C279
+subchains, the §9uuuuu correspondence, the sweep checklist, and the four
+standing verdicts.
+
+DELETED: none.
+CERTIFICATE: Cycle 279 accepts the displayed C265 prefactor plug and construction-manifest cleanup as useful support, but no wall is deleted because H-comp-empty does not certify the partner-gated C238-C279 subchains, §9uuuuu correspondence, sweep checklist, or four standing verdicts; the prefactor still inherits same-normalization, \(\Sigma_\sigma\) paired-amplitude coverage, no-double-count with C275 occupancy, and C278 selected-courier parity-transfer certificates.
+REMAINING: W3, W7, W8, W9.
