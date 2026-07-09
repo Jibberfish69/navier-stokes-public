@@ -3253,3 +3253,22 @@ transfer, and no-reuse accounting in one attackable statement.
 DELETED: none.
 CERTIFICATE: Cycles 199-200 refute the geometry-only instantaneous patch cap and reduce W8 to the exact whole-field maintenance problem for a transient \(0.232\,\Gamma/\delta\) non-steady patch, but no wall is deleted because the proof still lacks an attackable Eulerian same-current identity tying maintenance power, deficit growth, typed flux/exit, steady-family fallback, selected-current transfer, and no-reuse accounting into one certificate; C200's three-item frontier is only a Claude-lane subfrontier, while the frozen open-wall list remains W3/W7/W8/W9.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 201 maintenance-ledger recognition
+
+Claude corrected the C200 physical sentence: maintaining the fast non-steady
+patch is not unpriced if every rebuild is reconcentration of circulation. In a
+whole-field ledger, reconcentration should appear as amplification,
+boundary/gather flux, seed spend, or selector transfer.
+
+Codex accepts that ontology correction as W8 progress, not a deletion. The
+strong citation to C130 is insufficient: C130 is a signed fixed-loop identity,
+and the earlier C148/C150 gates left positive-variation gathering,
+roll-up/merger, selector change, in-zone aggregation, and selected-current
+domination open in W8 delivery currency. C201 therefore narrows the remaining
+work to a residual-rate constant, a rebuild-to-positive-variation lemma, and
+the composition arithmetic against the supply/stranding rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 201 corrects the C200 ontology by recognizing that fast-shape maintenance should be visible as reconcentration/gathering in a whole-field Eulerian ledger, but W8 is not deleted because C130 is only a signed fixed-loop identity and the current files still lack the positive-variation selected-current theorem proving that every rebuild of the \(0.232\,\Gamma/\delta\) patch is charged once, without cancellation, seed relabeling, in-zone aggregation, selector transfer, or no-reuse failure; the residual-rate constant and composition arithmetic are also uncomputed.
+REMAINING: W3, W7, W8, W9.
