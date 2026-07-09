@@ -3321,3 +3321,47 @@ critical dissipation. Dissipation = dip-maintenance.
 **Honest negative.** Duhamel alone does not produce the history charge: the
 parabolic form's quantitative content is the marginal balance rearranged
 (the heat equation IS the energy balance — the relocation lesson applies to
+
+## 52. ONTOLOGY RESET: the one NS trajectory is the object; separation-space descendants are withdrawn (2026-07-09)
+
+The singular physical object is the full Navier--Stokes trajectory `u(t)`,
+with `p[u(t)]` imposed instantaneously by incompressibility. `H_crit`, `S`,
+`Hess p`, `E(h)`, `F(h)`, `D(h)`, `C(h)`, and the complete signed
+`Phi_in(r)` profile are simultaneous readouts of that object. None is a
+participant that carries rows, owns a clock, pays another part of the field,
+or persists as a descendant.
+
+The exact content of §§40, 44, 47, and 49 survives: the fixed-separation
+balance, the weighted recovery of the global critical identity, the triad
+counterexample, and the two-point realizability/heat identity. The first
+unlawful promotion occurs when `[Phi_in]_+` is treated as a conserved resource
+or independently finite current. Positive-part extraction by scale discards
+the negative part and the signed cross-scale relation. The second occurs when
+characteristics of `b=F/(2E)` are called physical lineages and are assigned
+ancestry, first passages, no-recount ownership, or collar/source charges.
+Those characteristics belong to an aggregate correlation-coordinate equation,
+not to the material flow. Sections 42--51 are therefore retained as exact
+identity work and pressure tests where stated, but retired as a Gold carrier
+or history-reserve route.
+
+This correction also exposes an upstream gap in the consolidated theorem. An
+owner-free aligned survivor can be stated using only the actual `S[u]`, actual
+`Hess p[u]`, and instantaneous field-defined record events. No checked result
+in this file proves that every one-field history with
+
+```math
+H_{\rm crit}(t_m)\longrightarrow\infty
+\tag{G52.1}
+```
+
+must satisfy that aligned condition or a closed global alternative. H2's
+selected packet/material lineage and H4's payment rows reintroduce the very
+extra actors removed by the participation law; they cannot establish the
+missing implication by definition. Proving the aligned rigidity alone would
+therefore remain conditional until the arbitrary Gold history is derived into
+its hypotheses without a selected owner.
+
+**Current mathematical state.** The exact one-field identities stand. The
+separation-lineage interpretation is withdrawn. The first open implication is
+the field-level reduction from an arbitrary unbounded critical-height history
+to any smaller recurrent-alignment rigidity class. Gold remains open.
