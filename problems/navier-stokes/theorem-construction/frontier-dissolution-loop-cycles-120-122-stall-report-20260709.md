@@ -3465,3 +3465,73 @@ W9.
 DELETED: none.
 CERTIFICATE: Cycle 270 accepts the widened-band recheck as useful progress on the generic coverage cell, but no wall is deleted because the margin is a knife-edge \(0.44\Omega\delta\) versus \(0.46\Omega\delta\) comparison under generous bounds, the exact \(C_{\mathrm{BS}}\) computation is still unexecuted, the family-for-service/generic-for-reentry split is not certified against adversarial mixing, and the double-saturation guard still spends the TV-to-one-way selected-current, sweep/no-reuse, admission, and clock-ownership certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 271 exact \(C_{\mathrm{BS}}\)
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C271 tries
+to identify the generic re-entry cell with the existing gross-ledger absorption
+row, but the identification is not terminal because merge-zone absorption and
+same-sum bookkeeping are still the certificate to be proved in the selected
+ledger.
+
+Codex accepts C271 as real progress on C270. It executes the missing
+\(C_{\mathrm{BS}}\) calculation and gives a physically coherent reason why
+touching structures should not be priced as independent re-entry: at sufficient
+proximity, they belong to the strong-interaction/merger row rather than the
+exterior stranding row.
+
+No deletion is paid. The proof must still show that a grazing or partially
+merging structure cannot be both counted as absorbed for the gross rung budget
+and remain serviceable as an independent re-entry supplier. The
+\((3/2)\ell\) exclusion boundary and \(C_{\mathrm{BS}}=1/8\) estimate also need
+a selected-support certificate for arbitrary vorticity geometry and tails, and
+the C267 dyadic sum / stacking sum identification still needs no-zero/no-double
+count bookkeeping.
+
+DELETED: none.
+CERTIFICATE: Cycle 271 accepts the merge-zone exclusion and \(C_{\mathrm{BS}}=1/8\) calculation as useful progress on the generic re-entry bound, but no wall is deleted because the absorption typing for merge-zone structures is not yet certified in the gross/membership selected ledger, the exterior kernel estimate and \((3/2)\ell\) exclusion must be proved for arbitrary selected supports and tails, the dyadic/stacking same-sum identification still needs a no-zero/no-double-count certificate, and the absorbing-rear conclusion still spends TV-to-one-way, sweep/no-reuse, admission, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 269-271
+
+Physical sentence of the sticking wall: coordinate-horn coverage and generic
+re-entry have been narrowed to merge-zone absorption and the exterior
+\(C_{\mathrm{BS}}=1/8\) constant, but the proof still lacks a same-selected-ledger
+certificate that merge-zone absorption, exterior re-entry, dyadic/stacking
+influence, and rear sweep are one counted object with no leakage or double
+counting.
+
+Attempts: C269 replaced shape-class coverage by coordinate-horn pricing; C270
+ran the widened-band recheck and exposed exact \(C_{\mathrm{BS}}\) as the
+sharpener; C271 typed merge-zone exclusion and computed \(C_{\mathrm{BS}}=1/8\).
+
+Missing exact fact: a gross/membership selected-ledger absorption and no-reuse
+theorem for merge-zone interactions, plus dyadic/stacking same-sum
+no-zero/no-double-count and TV-to-one-way/sweep/admission/clock ownership.
+
+## Codex gate on post-stall Cycle 272 TV-to-one-way ownership arithmetic
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C272 tries
+to identify the TV-to-one-way selected-current conversion with one composed
+inequality, but the remaining walls are not terminally reduced because the
+factors are imported from earlier certificate surfaces whose selected-ledger
+admission, ownership, and no-reuse status remains under attack.
+
+Codex accepts C272 as a useful arithmetic reduction. It correctly separates the
+two-way crossing magnitude \(\lambda_1\), the one-way direction factor \(N1\),
+and the re-entry correction \(1-r_{\mathrm{re}}\). The factor-2 placement is
+the right audit surface: the direction split appears once if \(\lambda_1\) is
+direction-blind and \(N1\) is the only rear/outbound assignment.
+
+No deletion is paid. The displayed product is a composition of pending source
+certificates, not a standalone orthogonality, symmetry, or admission clause.
+It inherits the C271 merge-zone absorption certificate for
+\(r_{\mathrm{re}}\), the TV identity and membership-ledger admission for
+\(\lambda_1\), and the \(N1\) symmetry/band correction for direction ownership.
+The worst-corner margin is numerical, but adversarial coupling among low
+excess, high re-entry, and band-correction regimes is not refuted by the line
+itself.
+
+DELETED: none.
+CERTIFICATE: Cycle 272 accepts the displayed \(\lambda_{\mathrm{net}}\ge\lambda_1\,N1\,(1-r_{\mathrm{re}})\) composition as useful TV-to-one-way arithmetic, but no wall is deleted because the factors still depend on pending C271 absorption typing, TV-floor/membership-ledger admission, \(N1\) direction ownership, simultaneous worst-corner compatibility, and selected-ledger no-reuse/clock ownership rather than one exact terminal identity, orthogonality, symmetry, or admission clause.
+REMAINING: W3, W7, W8, W9.
