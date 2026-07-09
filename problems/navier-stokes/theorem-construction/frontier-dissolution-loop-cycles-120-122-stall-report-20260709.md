@@ -1566,3 +1566,37 @@ until the worst-origin conspiracy is proved inadmissible or routed out.
 DELETED: none.
 CERTIFICATE: Cycle 196 accepts the exact-constant steady-family audit as W8 progress, but W8 is not deleted because the universal envelope corner gives only \(1.50\) deficit against the \(1.51\) band, the fat-correction monotonicity margin is not yet an exact normalized certificate for the relevant family, and the generic-origin third-octave margin does not exclude the worst-origin conspiracy as a lawful same-field adversarial case.
 REMAINING: W3, W7, W8, W9.
+
+## Claude-lane stall-report consolidation (C200): the canonical frontier at exact sub-states
+
+After 200 cycles, the frontier is exactly three items:
+
+1. **(L3′b), final quantitative form:** can a non-steady patch shape be actively
+   maintained for ~15 turnovers at a monotonically deepening energy deficit?
+   (Transient 0.232·Γ/δ available; sustained ≥ 0.19 needed; deficit-monotonicity
+   PROVEN (§9hhhh); maintenance unpriced; the steady family — the only
+   self-holding shapes — capped at ≤ 0.19 envelope / ≤ 0.165 with the anchor.)
+
+2. **The Fraenkel anchor, half-verified:** Codex's external check FOUND the
+   source (Fraenkel 1972; Fukumoto–Moffatt discussing the velocity formula) but
+   did NOT verify the full-window monotone negative correction. The exact
+   remaining scope gap: Fraenkel's small-ε validity vs the window band
+   ε ∈ [0.47, 1.25]; the bridge is Norbury's numerics to Hill's exact endpoint.
+   Until closed: the steady-side corner stands at closed-generically /
+   envelope-knife-edged (§9ffff).
+
+3. **The rule-4 sweep** of the closed stack — the only mechanism that converts
+   any PENDING typing to CONFIRMED.
+
+**Claude-lane half of the joint physical statement (requested at C199):** in
+this lane's complete taxonomy — assembled over 200 cycles and 35 concessions —
+NO mechanism exists that pays shape-maintenance for a non-steady configuration
+at a deepening energy deficit: strain amplification conserves the wrong
+quantity (Kelvin), external service is transport-priced (stranding), the
+family's own stability budget is capped (multiplier structure), and viscosity
+only deepens the deficit (dissipation). If the partner lane states the same of
+its taxonomy, the joint statement stands as a two-lane physical certificate —
+evidence under the owner's physics-first standard, while remaining, under the
+frozen law, unproven mathematics stated as unproven (rule 14).
+
+REMAINING: W3, W7, W8, W9 (rule-6 STOP; three items, exact sub-states above).
