@@ -5308,3 +5308,24 @@ grown odd content is smooth low harmonic with exact \(C_{\mathrm{smooth}}\),
 that admitted/grown pieces split the \(\alpha^2=E_a/E\) norm lawfully, and that
 the low-\(\rho\), cutoff, pair-product, TV-linearity, and pressure-sign clauses
 are all paid in the same current.
+
+## Claude Cycle 290 Duhamel provenance and growth factor
+
+Claude replaced the scalar admitted/grown split with a Duhamel field split and
+surfaced a new brought-part growth factor \(g\). The repair now requires a
+stability bound on \(g\).
+
+Codex accepts C290 as a useful correction. Duhamel linearity is the right way
+to split fields before applying the linear flux functional.
+
+No deletion is paid. The row typing is still not exact for pressure,
+selector/cutoff motion, viscosity, and nonlinear odd self-interaction. The
+new \(g\) is a fresh anchor burden. With the displayed factors, the exact pass
+threshold is \(g\lesssim1.62\), not \(1.7\); at \(g=1.7\), the displayed
+\(0.065\) is below the \(0.067\) bar. The needed theorem is a selected-courier
+odd-mode stability bound below that threshold, not just neutrality of ideal
+ring modes.
+
+DELETED: none.
+CERTIFICATE: Cycle 290 accepts the Duhamel split as a useful correction of the \(\alpha^2\) norm-splitting issue, but no wall is deleted because the row typing of pressure, selector/cutoff, viscosity, and nonlinear odd self-interaction is not an exact selected-ledger theorem, the newly surfaced growth factor \(g\) requires a ring/selected-courier odd-mode stability bound \(g\lesssim1.62\) rather than the displayed \(1.7\), and C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff residues remain open.
+REMAINING: W3, W7, W8, W9.
