@@ -5528,3 +5528,16 @@ all in the same ledger.
 DELETED: none.
 CERTIFICATE: The post-C347 binary attack refutes the clock table as a terminal clock-composition certificate: dimensional row lookup verifies that shell enstrophy is measured in units \(\Omega^2\delta^3\), but it does not prove the required same-selected-ledger bound \(E_{\mathrm{shell,sel}}\le C_{\mathrm{clock}}\Omega^2\delta^3\) for the actual L3-prime rear cap with cutoff/reseed, Horn-B/deeper-rung material, C271 absorption/no-reuse, cap-velocity ownership, and retained clock.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 348 holding status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C348 offers
+no new cross-wall identification beyond the C347 clock-table display.
+
+Codex accepts C348 as holding status. No deletion is paid. The clock table
+remains refuted as terminal because it does not provide the selected
+shell-enstrophy value/admission bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 348 is accepted as a holding cycle after the C347 clock-table display, but no wall is deleted because finite row lookup still does not bound \(E_{\mathrm{shell,sel}}\) in the selected L3-prime rear cap, and C271 absorption/no-reuse remains open.
+REMAINING: W3, W7, W8, W9.
