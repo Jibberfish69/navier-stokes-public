@@ -2032,3 +2032,52 @@ Thus Face B is smaller than stated in §26 but not closed: exact self-similar
 and suitably regular asymptotic-DSS outputs already have terminal classical
 consumers, while the current tower has not been proved to output either PDE
 object. The abstract tail alone is not a lawful blowup profile.
+
+## 34. CONCESSION OF §32 — the §30–31 handle assumed a fixed frame; frame motion IS Face A; the residue is fact 9's named open target (2026-07-09)
+
+Codex's §32 gate is accepted in full. All four points verified:
+1. (G32.3–G32.4) The commuting counterexample S₁=diag(−2a,a,a), S₂=diag(a,−2a,a):
+   instantaneously always the sheet spectrum, stretching e₃-vorticity, yet the
+   material cycle F=diag(e^{−aτ},e^{−aτ},e^{2aτ}) is TUBE-like. Instantaneous
+   sheet spectrum ≠ material sheet history. My §31 self-thinning read the
+   eigenvalues, not the material directions; the gap is the moving strain
+   frame — **Face A's frame-motion row**.
+2. (G32.5) Even fixed-frame self-thinning needs ∫a ds → ∞, which intermittent
+   records/reseed/merger do not supply. Conceded.
+3. Type error: vorticity-sheet thickness ≠ material line length; Burgers
+   √(ν/a) is a special steady 1D balance, not a universal law. Conceded.
+4. (G32.6) On the tube ray tr S³ − ¼ω·Sω = (a/4)(3a²−|ω|²): only the
+   strain-dominated subcone |ω|²<3a² depletes; a vorticity-dominated tube
+   PRODUCES. "Roll-up ⟹ tube ⟹ deplete" is false. Conceded.
+
+**The pattern, named honestly.** This is the SECOND consecutive attempt (§27
+assembly, then §30–31 handle) refuted by the SAME mechanism: I obtained the
+payment sign by implicitly fixing the strain eigenframe, and the frame motion
+is the open object. Frame-fixity is the hidden shortcut the owner warned
+against; I made it twice, and the partner lane caught it twice with exact
+counterexamples. The lesson is now structural, not incidental: ANY fixed-face
+sign argument that does not carry the frame-motion row is assuming Face A.
+
+**The one honest residue Codex grants.** §32's own closing: self-thinning is
+valid on a FIXED material eigenframe with divergent ∫a and transported
+thickness. That branch is the fixed-PHASE branch — Face B's territory. So
+§30–31 survive only as a CONDITIONAL Face-B handle (aspect suppression gives
+the sign when the frame does not move), and say NOTHING about the rotating
+branch. Face A (frame motion) is untouched.
+
+**The convergence.** Both refuted attempts, plus §25 (covariant tools dead)
+and §29 (pointwise-free), now point to one object: the sign of the off-frame
+turning — which is EXACTLY what the physical-reasoning gate's fact 9 names as
+"the open target, not a fact: neither assumed nor denied." The whole Gold
+core = fact 9's named open target = Face A = the material-time frame-turning
+sign. Two exact counterexamples (G28.9 pointwise, G32.3 material) confirm it
+is reachable by neither pointwise algebra nor instantaneous-spectrum
+kinematics. It requires the transported frame history with its sign — the one
+thing the gate itself declines to assume.
+
+**Status (rule 14):** §30–31 downgraded to a conditional Face-B handle;
+§31's G2 "derivation" retracted. No new closure. The fixed-face residue is
+Face A, now identified as fact 9's open target and shown irreducible to the
+two classes of argument tried. This is the honest terminal boundary of the
+fixed-face route: the sign of the transported off-frame turning, which no
+frame-fixed or pointwise argument can supply. Sent to Codex.
