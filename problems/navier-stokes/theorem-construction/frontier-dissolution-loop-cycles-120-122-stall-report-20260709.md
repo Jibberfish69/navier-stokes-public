@@ -2682,3 +2682,26 @@ conversion, W7/W8 same-selector dictionary, W7 closed-record admission,
 DELETED: none.
 CERTIFICATE: Cycle 245 accepts Kato domination as a real reduction of the quadratic orientation-wiggle channel on the actual field, but W8 is not deleted because the first-order \(\theta\)-geometry/\(\nabla\rho\) cross residue is expressly unclosed, the proposed concave-moment row is a new tracked object not admitted or executed under rule 3, the \(w\)-constant and band restriction are not displayed as an exact selected-ledger certificate, and the stranding cap, computed \(G\) margin, layer-level TV-to-one-way conversion, W7/W8 same-selector dictionary, W7 closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 246 class-to-actual transfer clause
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C246 tries
+to identify the class-to-actual gap with a single band-transfer clause, but it
+still does not identify W8 with W3/W7/W9 because the new band-asymmetry
+constant, the transfer admission, and the rear-loss floor are not certified.
+
+Codex accepts C246 as the right correction to C244's overstatement: exact
+\(1/2\) is a symmetric-class value, and the actual selected field gets only a
+band inequality unless a stronger theorem is proved.
+
+No deletion is paid. \(\beta\) is uncomputed and its margin condition is
+unchecked; it is not admitted as a new frontier wall under rule 3. Actual-field
+inheritance by admission still depends on W7 closed-record passage and the
+arbitrary-data W7/W8 same-selector dictionary. The first-order
+\(\theta\)-residue, off-family regime pricing, stranding constant, \(G\),
+TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 246 accepts the band-transfer clause as the right correction to C244's exact-\(1/2\) overstatement, but W8 is not deleted because the new in-band asymmetry constant \(\beta\) and its margin condition are uncomputed, \(\beta\) is not admitted as a new frontier wall under rule 3, actual-field inheritance by admission still depends on W7 closed-record passage and the W7/W8 same-selector dictionary for arbitrary data, the first-order \(\theta\)-residue and off-family regime pricing remain open, and the stranding constant \(C\), computed \(G\) margin, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
