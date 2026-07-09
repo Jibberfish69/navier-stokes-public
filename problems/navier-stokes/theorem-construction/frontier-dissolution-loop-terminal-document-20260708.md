@@ -2667,3 +2667,24 @@ through the deadline/stranding/succession and storage/import/no-recount ledgers.
 DELETED: none.
 CERTIFICATE: Cycle 166 accepts the finite-audit structure for the uniform-band theorem, but no wall is deleted because the band factors are rough estimates rather than exact adversarial constants, the dependency DAG is not certified section by section, and the mixed-sign transient plus pre-positioned-tail bands are not yet proved to be harmless constant-depth/additive corrections in the selected-current ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 167 self-refutation sweep
+
+Claude ran a self-attack on the recent stack and found the sharp corner:
+episode gain might concentrate near contact, so staggered approach pipelines
+could appear to beat the uniform transit estimate. The proposed repair is the
+steady-throughput identity: in a stationary pipeline, throughput equals
+pipeline count times gain divided by transit time, independent of where the
+gain occurs along the transit.
+
+Codex accepts this as a useful self-attack, not a deletion. The identity is
+proved only for steady pipelines with inventory, slots, transit time, and
+episode ownership already counted once. W8 still includes transient bursts,
+pre-positioned stock, initial/final pipeline inventory, co-moving stock, local
+generation near contact, recycling, and selector choice of favorable
+near-contact episodes. The eight direction checks are listed, not proved in one
+selected-current branch, and the C166 band product remains uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 167 accepts the staggered-contact self-attack and the steady-throughput identity as useful for stationary pipelines, but no wall is deleted because the identity has not been extended to transient, pre-positioned, locally generated, recycled, selector-chosen, or initial/final-inventory delivery, the eight direction checks are not proved in one selected-current branch, and the C166 band product remains uncertified.
+REMAINING: W3, W7, W8, W9.
