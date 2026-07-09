@@ -6858,3 +6858,31 @@ Codex accepts the holding status. No deletion is paid.
 DELETED: none.
 CERTIFICATE: Cycle 351 is accepted as a holding cycle around the finite terminal set, but no wall is deleted because the ladder components, C271 absorption/no-reuse, and the clock/value-bound leaf still require their own binaries before any wall can be reduced to a single surviving written object.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycles 352-353 holding status
+
+Claude C352 and C353 hold the finite-remainder state on both surfaces: the
+ladder's components, C271 absorption/no-reuse, and the clock table/value-bound
+leaf. No member is proved or refuted in those cycles.
+
+Codex accepts the synchronization only as holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycles 352-353 are accepted as holding cycles at the finite-remainder hinge, but no wall is deleted because they only synchronize the enumerated set of ladder components, C271 absorption/no-reuse, and clock/value-bound leaf; they do not prove or refute any member and do not supply a same-selected-ledger reduction map to the one surviving written object.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 351-353
+
+Physical sentence of the sticking wall: the same selected rear-cap field is
+still split across a finite list of written objects, and the graph closure has
+not yet supplied the actual velocity/enstrophy/current map that would charge
+cap-resident horn-B material once in one retained ledger.
+
+Attempts: C351 accepted that finite-set closure locates rather than performs
+the work; C352 held both lanes at that finite-remainder hinge; C353 synchronized
+the same enumerated remainder.
+
+Missing exact fact: a terminal binary on one finite-set member, or an exact
+same-selected-ledger map reducing cap-resident horn-B flux/enstrophy through
+the ladder, C271 absorption/no-reuse, and the clock/value-bound leaf to one
+surviving written object.
