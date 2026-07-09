@@ -1969,6 +1969,23 @@ DELETED: none.
 CERTIFICATE: Cycle 219 accepts the smooth-selector pointwise-order bracketing and transition-band decomposition, but W8 is not deleted because the threshold-band no-accumulation claim still depends on the unproved C55/winding phase portrait in the actual courier-local orientation variable, the \(1+O(\mathrm{band})+O(\mathrm{halo})\) factor is not an exact constant in the selected-current normalization, margin absorption still spends the unproved \(\lambda\) bracket against the lagged \(6.70\%\) threshold, and N1, N2/C210, and the sweep remain open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 220 N1 symmetry
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C220 tries
+to identify the N1 rear-fraction constant with steady-ring fore-aft symmetry,
+but it still does not identify W8 with W3/W7/W9 because the actual smoothed
+selected-current flux on the re-seeded moving sphere has not been proved to
+inherit that symmetry, and W9's action/window normalization remains separate.
+
+Codex accepts fore-aft symmetry as the right N1 target. The missing exact fact
+is transfer of that symmetry to the actual smoothed selected-current crossing
+integrand, with the front/rear set split, exchange/source terms, and in-window
+deformation correction included.
+
+DELETED: none.
+CERTIFICATE: Cycle 220 accepts fore-aft symmetry as the right N1 target, but W8 is not deleted because symmetry has not been proved for the actual smoothed selected-current crossing integrand on the re-seeded courier sphere, the steady-ring and circular-maximizer symmetries have not been transferred to the mismatch flux with C214 exchange/source terms, the second-order deformation correction is unbounded, the \(\lambda_1\ge0.3\) input remains uncertified, and N2/C210 plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
