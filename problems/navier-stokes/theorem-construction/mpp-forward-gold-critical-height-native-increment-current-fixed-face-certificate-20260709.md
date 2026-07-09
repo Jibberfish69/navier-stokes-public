@@ -1453,3 +1453,90 @@ repair this first failure.
 **Consequence.** The fixed-fraction record packet in H2 is not inherited from
 the one-field norms. The reduction to the aligned recurrent-record class fails
 before the pressure Hessian or Liouville question is reached.
+
+## 17. Record-upcrossing countersequence: NS dynamics does not restore H2 instantaneously
+
+The preceding obstruction persists after imposing positive Navier--Stokes
+critical-height production. Choose a real divergence-free Schwartz field `U`
+with compact Fourier support in an annulus and
+
+```math
+P_0:=-\langle U\cdot\nabla U,\Lambda U\rangle>0.
+\tag{NIC.109}
+```
+
+Such a field is supplied by the narrow whole-space realization of the triad in
+§12. Write
+
+```math
+E_0=\|U\|_2^2,
+\qquad H_0=\|U\|_{\dot H^{1/2}}^2,
+\qquad D_0=\|U\|_{\dot H^{3/2}}^2,
+\tag{NIC.110}
+```
+
+and choose `c>nu D_0/P_0`. For
+
+```math
+U_{\lambda,y}(x)=\lambda U(\lambda(x-y)),
+\tag{NIC.111}
+```
+
+the exact scaling relations are
+
+```math
+\|U_{\lambda,y}\|_2^2=\lambda^{-1}E_0,
+\quad
+\|U_{\lambda,y}\|_{\dot H^{1/2}}^2=H_0,
+\quad
+P(U_{\lambda,y})=\lambda^2P_0,
+\quad
+\|U_{\lambda,y}\|_{\dot H^{3/2}}^2=\lambda^2D_0.
+\tag{NIC.112}
+```
+
+Take `lambda_j=L^j`, with `L` large enough that the scaled Fourier annuli are
+disjoint, and set
+
+```math
+u^{(m)}=c\sum_{j=1}^mU_{\lambda_j,y_j}.
+\tag{NIC.113}
+```
+
+For each finite `m`, the translations `y_j` can be chosen successively far
+apart so every mixed term in the Schwartz trilinear form
+`-<f dot grad g,Lambda h>` is smaller in total than half the sum of the
+positive self terms. This follows directly from the Fourier representation:
+each mixed term acquires a nonconstant translation phase and tends to zero by
+the Riemann--Lebesgue lemma. Frequency disjointness makes all quadratic norms
+add exactly. Hence
+
+```math
+\sup_m\|u^{(m)}\|_2^2
+=c^2E_0\sum_{j=1}^m\lambda_j^{-1}
+\le C(U,c,L),
+\qquad
+\|u^{(m)}\|_{\dot H^{1/2}}^2=mc^2H_0,
+\tag{NIC.114}
+```
+
+and the Navier--Stokes derivative at the initial time satisfies
+
+```math
+\left.\frac d{dt}H_{\rm crit}(u^{(m)}(t))\right|_{t=0}
+\ge\frac12c^2(cP_0-\nu D_0)
+\sum_{j=1}^m\lambda_j^2>0.
+\tag{NIC.115}
+```
+
+Every field therefore begins a genuine record-upcrossing interval. Each
+frequency shell contributes exactly `c^2H_0`, so its largest fraction of the
+critical record is `1/m`. The fields are complete smooth Navier--Stokes
+initial states; only the claim that they lie on one common blowup trajectory
+is absent.
+
+This proves that bounded energy, arbitrarily large critical height, and the
+instantaneous record-upcrossing condition still do not imply H2. Any theorem
+recovering a fixed-fraction spatial packet must use a genuinely global history
+property beyond the current record condition. The corpus contains no such
+one-field theorem.
