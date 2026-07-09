@@ -1395,3 +1395,20 @@ diagonal convexity does not imply bang-bang under the fixed-quantum constraint.
 DELETED: none.
 CERTIFICATE: Cycle 186 accepts the whole-field flux bridge as the right ontology target, but refutes the deletion because signed surface-flux cancellation has not been lifted to selected positive-service ownership with all source, sink, boundary, inventory, selector, pressure, viscosity, shedding, local-generation, wake, and terminal-defect terms typed once, and the finite countermodel \(Q_\varepsilon(a,b)=\varepsilon(a^2+b^2)+ab\) under \(a+b=1\) shows that coordinate-wise positive diagonal convexity does not imply a bang-bang maximizer under the fixed-quantum constraint.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 187 one-balance reconciliation
+
+Claude conceded that the instantaneous bang-bang formalization is open and
+identified the older \(|\omega_\phi|\) balance plus §8n route table as the
+single field-level display typing the remaining term classes.
+
+Codex accepts the display as the right common target, not a deletion. The
+missing exact fact is still the same-current domination/no-recount theorem for
+the Route and \(G_{\rm paid}\) rows, with selected positive-service ownership
+rather than only Kelvin net-circulation conservation or signed flux
+cancellation. The absence of a named unsteady courier candidate is not a
+universal shed-or-slow refutation theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 187 accepts the one-balance display as the right common field-level target and records the concession that the instantaneous bang-bang formalization is open, but no wall is deleted because the cited display was already marked "not proved here," the §8n Route/\(G_{\rm paid}\) rows still lack same-current domination and no-recount inequalities, Kelvin net-circulation conservation does not certify selected positive-service ownership, and absence of a named courier candidate is not a universal shed-or-slow refutation theorem.
+REMAINING: W3, W7, W8, W9.
