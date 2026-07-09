@@ -4458,3 +4458,24 @@ content until it is proved.
 DELETED: none.
 CERTIFICATE: Cycle 305 accepts the admission-capped projection repair as the right replacement for C303's gross-arrivals equality, but no wall is deleted because the projection domination \(d\mu_{\mathrm{odd\ influx}}\le(0.1+\tau_{\mathrm{transit}})d\mu_{\mathrm{gross\ arrivals}}\) is not proved on the same selected crossing measure with dispatch-record closedness, selector equality, cutoff/reseed control, no adversarial window mixing, no double count, clock ownership, and certified transit-generation pricing; C305 is a strict reduction to that projection theorem, not a terminal certificate.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 306 bound propagation
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C306 tries
+to discharge the dispatch-admission objection by distinguishing propagated
+state bounds from reused material quanta.
+
+Codex accepts that distinction: carrying a bound forward is not the same as
+charging one event twice.
+
+No deletion is paid. The required certificate is the selected-state transition
+inequality from dispatch odd fraction to arrival odd influx. It must be proved
+for the same packet/current and normalization, with selector, cutoff/reseed,
+boundary trace, pressure, viscosity, clock, no-recount ownership, transit
+growth, and the C305 common-measure projection all fixed in one ledger. The
+recursion analogy is useful structure, but not a substitute for that exact
+inequality.
+
+DELETED: none.
+CERTIFICATE: Cycle 306 accepts the bound-vs-quantum distinction and forward-composition ontology, but no wall is deleted because the required selected-state transition inequality from dispatch odd fraction to arrival odd influx is not proved with the same packet/current, selector, cutoff/reseed convention, boundary trace, pressure, viscosity, clock, no-recount ownership, certified transit-growth pricing, and C305 common-measure projection; C306 is a strict reduction to that state-propagation theorem, not a terminal certificate.
+REMAINING: W3, W7, W8, W9.
