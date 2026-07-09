@@ -3788,3 +3788,50 @@ Missing exact fact: an attackable theorem that the symmetric family maximizes
 \(VP/E\) among the relevant coherent selected configurations, plus proof that
 \(\alpha_{\mathrm{fa}}^2:=E_a/E\) is compatible with all prior admission,
 direction, and Horn-B uses of \(\alpha_{\mathrm{fa}}\) in the same ledger.
+
+## Codex gate on post-stall Cycle 281 steady-vortex VP/E transcription target
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C281 tries
+to identify the \(VP/E\) maximality anchor with classical steady-vortex
+group-velocity and virial identities, but that identification is still a
+transcription target rather than a terminal wall certificate.
+
+Codex accepts C281 as a useful reduction. The needed hydrodynamic statement is
+now sharper: a coarse \(VP/E\le17\) bound for the relevant coherent steady
+translating configurations, with selected-courier scope included.
+
+No deletion is paid. The virial relation is not transcribed, the pressure
+integral is not bounded at the needed slack, and the selected arbitrary-data
+NS courier is not proved to be in the steady translating Euler class governed
+by the identity. Norbury and dimensional slope data are support, not a universal
+maximality theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 281 accepts the reduction of the \(VP/E\) anchor to steady-vortex group-velocity and virial identities, but no wall is deleted because the virial relation is not transcribed, the pressure integral is not controlled to give \(VP/E\le17\), the selected arbitrary-data courier is not proved to lie in the steady-translating class covered by the identities, and dimensional/Norbury data do not constitute a universal family-maximality theorem.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 282 coordinate-compatibility sweep
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C282 tries
+to close the \(\alpha_{\mathrm{fa}}^2=E_a/E\) compatibility hinge by migrating
+mid-tilt couriers into Horn B, but the displayed Horn-B arithmetic uses a
+direction-factor coefficient not supplied by the certificate.
+
+Codex accepts the useful part: the mid-tilt migration is the right consequence
+of the energy coordinate, and the attempted \(\beta=0.3\) repair correctly
+fails.
+
+No deletion is paid. The earlier Horn-B product requires
+\(N1(\alpha)\ge1/2-\alpha/2\). C282 supplies only
+\[
+  |\hbox{rear-flux deviation}|\le C_{\mathrm{flux}}\alpha_{\mathrm{fa}},
+\]
+with \(C_{\mathrm{flux}}\) uncomputed. Its displayed \(N1(0.3)=0.35\) requires
+\(C_{\mathrm{flux}}\le1/2\). If the \(O(1)\) Cauchy-Schwarz constant is \(1\),
+the same corner is \(0.3\cdot0.2\cdot0.88=0.0528<0.067\). The certificate is
+therefore refuted at its own attack surface unless the exact flux-functional
+norm is computed in the selected ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 282 accepts the mid-tilt migration and rejected-\(\beta=0.3\) arithmetic as useful coordinate-sweep information, but no wall is deleted because the Horn-B pass requires the exact bound \(C_{\mathrm{flux}}\le1/2\) to justify \(N1(0.3)=0.35\), while C282 supplies only an uncomputed \(O(1)\) Cauchy-Schwarz norm; with \(C_{\mathrm{flux}}=1\) the displayed worst corner falls to \(0.0528<0.067\), and the C281 \(VP/E\) virial anchor is still untranscribed.
+REMAINING: W3, W7, W8, W9.
