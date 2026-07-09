@@ -3468,8 +3468,8 @@ measure. The identities provide neither the bounded-variation estimate
 ```math
 \sup_n\left(
 \|J_n\|_{\mathrm{TV}}
-+M_{+,n}(( -\infty,0])
-+M_{-,n}(( -\infty,0])
++M_{+,n}((-∞,0])
++M_{-,n}((-∞,0])
 \right)<\infty
 ```
 
@@ -3477,8 +3477,8 @@ nor terminal tightness
 
 ```math
 \lim_{L\to\infty}\sup_n\left[
-|J_n|(( -\infty,-L])
-+\sum_sM_{s,n}(( -\infty,-L])
+|J_n|((-∞,-L])
++\sum_sM_{s,n}((-∞,-L])
 \right]=0.
 ```
 
@@ -3494,3 +3494,135 @@ order-one opposite-sector dissipation excess on that same interval. This is a
 strict same-trajectory history reduction. Extraction of a terminal current
 defect still requires bounded variation, terminal tightness, and spatial
 profile retention. No finite reserve and no Gold conclusion follows.
+
+## 26. THE POSITIVE RUNNING-RECORD MEASURE AND ITS EXACT LIMIT (NIC.244--NIC.250)
+
+The signed parent current `J_n` contains all positive and negative nonlinear
+work on the last doubling interval. The productive part of the same full-field
+history has an exact positive representation through the running critical
+maximum
+
+```math
+\overline R(t):=\max_{0\le s\le t}R(s),
+\qquad
+F(t):=P_H(t)-\nu D(t)=\frac12R'(t).
+\tag{NIC.244}
+```
+
+For smooth `R`, the function `overline R` is absolutely continuous and
+
+```math
+\boxed{
+\frac12\,d\overline R
+=\mathbf 1_{\{R=\overline R\}}[F]_+\,dt.
+}
+\tag{NIC.245}
+```
+
+On a plateau both sides vanish almost everywhere, so there is no additional
+singular Stieltjes part.
+
+In the canonical normalization based at `t_n`, define
+
+```math
+\rho_n(\tau):=R(v_n(\tau)),
+\qquad
+q_n(\tau):=
+\frac{\overline R(t_n+\theta_n\tau)}{R_n}.
+\tag{NIC.246}
+```
+
+On `[tau_{n,-},0]`, this function is continuous and nondecreasing from `1/2`
+to `1`. The normalized positive record-gain measure is
+
+```math
+\boxed{
+dG_n(\tau):=
+\mathbf 1_{\{\rho_n=q_n\}}
+[P_H(v_n)-\nu_nD(v_n)]_+\,d\tau
+=\frac12\,dq_n(\tau).
+}
+\tag{NIC.247}
+```
+
+It therefore has exact total variation
+
+```math
+\boxed{
+G_n([\tau_{n,-},0])=\frac14.
+}
+\tag{NIC.248}
+```
+
+For `q in [1/2,1]`, the generalized inverse
+
+```math
+\tau_n(q):=
+\inf\{\tau\in[\tau_{n,-},0]:q_n(\tau)\ge q\},
+\qquad
+V_n(q):=v_n(\tau_n(q))
+\tag{NIC.249}
+```
+
+is measurable and requires no strict crossing-speed assumption. Continuity of
+`q_n` gives `R(V_n(q))=q`; at differentiability points of the first hit,
+`P_H(V_n(q))-nu_n D(V_n(q))>=0`. Moreover,
+
+```math
+\boxed{
+\int\Phi(q_n(\tau))\,dG_n(\tau)
+=\frac12\int_{1/2}^1\Phi(q)\,dq.
+}
+\tag{NIC.250}
+```
+
+Thus the pushforward of `G_n` to record height is the fixed measure
+`(1/2)dq`. This gives positivity, bounded total variation, and tightness in
+the artificial `q` coordinate.
+
+It does not give compactness of the velocity history. Along the generalized
+inverse path the inherited bounds are only
+
+```math
+R(V_n(q))=q\in[1/2,1],
+\qquad
+\nu_n=\frac{\nu}{\sqrt{R_n}}\longrightarrow0,
+\qquad
+\min_s\|V_{n,s}(q)\|_{\dot H^{1/2}}\gtrsim\nu_n.
+```
+
+There is no uniform bound for `D(V_n(q))`, `P_H(V_n(q))`, physical energy,
+spatial location, or `d tau_n/dq`. The inverse can jump across a plateau, and
+dividing the Navier--Stokes equation by the record speed is singular at a
+tangential hit. Hence `V_n(q)` has no uniformly controlled evolution equation
+in `q`.
+
+Nor does compactness in `q` imply terminal tightness in the canonical physical
+time. The fixed mass may remain at `tau -> -infinity`. The exact next passage
+condition is
+
+```math
+\boxed{
+\exists L<\infty,\ \eta>0,\ \text{and a subsequence such that}
+\qquad
+G_n([-L,0])\ge\eta.
+}
+```
+
+Even that condition would leave spatial/current profile retention to prove.
+In original units the accumulated gain through `N` doublings is
+
+```math
+\sum_{n=1}^N\frac{R_n}{4}
+=\frac12(R_N-R_0),
+```
+
+which is exactly the unbounded critical-height quantity under the hypothetical
+breakdown.
+
+**Result of this section.** The productive running-record current is a lawful
+positive readout of the same velocity field and has fixed normalized mass on
+each doubling. Record-height parametrization removes sign and scalar
+total-variation defects only. It supplies neither terminal-time tightness nor a
+nonzero spatial profile, and summing its unnormalized mass is the original Gold
+problem rather than a finite reserve.
