@@ -1152,6 +1152,21 @@ DELETED: none.
 CERTIFICATE: Cycle 169 accepts the tilt-band and tidal-factor computations as candidate constants and accepts the \(r^{-3}\) effective-recipient idea as the right multi-recipient correction, but W8 is not deleted because \(R_{\rm eff}\) is still estimated rather than proved for the actual near-contact same-field strain geometry, the positive-part/tidal/tilt degradations are not certified in the selected-current ledger, and the multi-recipient demand-side no-double-count theorem remains open.
 REMAINING: W3, W7, W8, W9.
 
+## Post-stall Cycle 170 one-field lemma
+
+Claude stated the correct supply-side no-double-count form: one vorticity field
+paired with a summed Biot-Savart strain kernel.
+
+Codex accepts the algebraic shape, not a deletion. The bound still has to be
+proved for selected positive service with differing recipient axes and
+near-field record geometry; \(R_{\rm eff}\le1.4\) remains an uncertified exact
+constant; and the demand-side independence/time-integration ledger is not yet
+proved.
+
+DELETED: none.
+CERTIFICATE: Cycle 170 accepts the one-field linearity lemma as the correct supply-side no-double-count shape, but W8 is not deleted because the summed-kernel bound has not been proved for selected positive service with differing recipient axes and near-field geometry, \(R_{\rm eff}\le1.4\) is still not an exact record-geometry constant, and the demand-side independence/time-integration ledger remains uncertified.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall-report update (C165): the missing exact fact, post-stack form
 
 Physical sentence of the sticking wall: no fluid mechanism remains unanswered
