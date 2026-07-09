@@ -1207,3 +1207,69 @@ vanishing hypothesis. It is not proved. Both the covariant route (§25, dead)
 and the non-covariant route (§26, reduced-to-external-extension) are now
 filed. The loop's reductive capacity is exhausted; what remains is a research
 program with a named target, not a cycle.
+
+## 27. THE ASSEMBLY (2026-07-09, owner-prompted): sustainment ⟹ well; marginality ⟹ ridge; alignment ⟹ saddle-descent; kernel ⟹ per-rung payment
+
+Owner correction taken: stop exit-managing, assemble the pieces. They
+assemble. The chain, on the sheet quadrant, targeting exactly the §24
+residue Ψ_press = −∫w̃∂_r p ≥ c₀:
+
+**Step 1 — sustainment forces the well (Codex's spin-free law, exact).**
+At alignment D_tα = −α² − e·He. Record growth requires e·He ≤ −α²: the
+in-plane co-diagonal Hessian eigenvalue satisfies h ≤ −α². This is the
+CANDIDATE'S OWN requirement, not an import.
+
+**Step 2 — the record's enstrophy forces the ridge (trace + B≡1, exact
+given clause C1).** −Δp = Q ⟹ 2h + h₃ = −Q on the atom. On a sheet-quadrant
+vorticity record, Q|_atom is capped by the record's own enstrophy (clause
+C1: Q|_atom ≤ 2α²). With h ≤ −α²: h₃ = −Q − 2h ≥ −2α² + 2α² = 0, and the
+gap h₃ − h ≥ α². The saddle orientation (ridge along compression, well
+in-plane) is FORCED by the candidate's own trace. The marginal balance that
+killed every rate here pins the geometry.
+
+**Step 3 — the aligned exchange descends the saddle (new, exact at the
+aligned configuration).** For S = diag(a, a, −2a) and co-diagonal Hessian
+(h, h, h₃): w̃ = u·x̂ = r·a(1 − 3μ²) and ∂_r p = r(h + (h₃−h)μ²), μ = x̂₃.
+With ⟨μ²⟩ = 1/3, ⟨μ⁴⟩ = 1/5 on the unit sphere:
+
+```math
+\oint_{S^2} \tilde w\,\partial_r p\, d\Omega
+\;=\; -\,\frac{4}{15}\,a\,(h_3 - h)\,r^2\ <\ 0
+\quad\text{whenever } h_3 > h .
+```
+
+Incompressibility makes the shell mean of w̃ exactly zero (∮w̃dΩ = 0), so
+this is pure correlation: inbound flow descends the ridge, outbound flow
+descends the plane — the hyperbolic exchange is pressure-driven in BOTH
+sectors. With Step 2's gap: ∮w̃∂_r p ≤ −(4/15)·a·α²·(order 1) ~ −a³ — the
+cubic odd currency with an explicit constant, exactly the §21 cone ray the
+sheet quadrant needs.
+
+**Step 4 — the kernel sums it (§23, exact).** M(ρ) = ∫e^{−5(ρ−s)}Ψ(s)ds
+turns the per-shell payment into the per-rung bound with no summability
+gap: Ψ_press ≥ c₀ per retained rung, c₀ traceable to (4/15)×gap in clock
+units.
+
+**Escape audit.** The candidate avoids the chain only by: dropping
+sustainment (record dies — route-out), dropping alignment (pays Face A —
+the charged branch), or breaking the ridge — forbidden by its own trace
+(Step 2). The three exits are the three lawful exits already in the
+dichotomy. Nothing new admitted.
+
+**The two clauses this rests on (named, not hidden):**
+(C1) enstrophy-dominance at the sheet-record atom: Q|_atom ≤ 2α². This is
+the sheet quadrant's third inequality — a vorticity record whose own atom
+is strain-hyper-dominant belongs to the tube quadrant, where the §22 sign
+analysis already types the record as depleting (non-producing). C1 needs a
+one-page argument from the quadrant definition + C251 clock; it is NOT yet
+that argument.
+(C2) tangent-to-atom passage: Step 3 is exact at the aligned affine
+configuration; the lock supplies pointwise co-diagonality ON the atom as
+hypothesis, so the passage burden is only the variation of (a, h, h₃)
+across the atom under the (H2) normalization. Narrow, displayed, not done.
+
+**Status (rule 14):** Steps 1, 3, 4 exact as displayed (1 pointwise, 3 at
+the aligned configuration, 4 given §22(a),(b)). Step 2 exact GIVEN C1.
+The chain is a candidate CLOSURE of the Gold core, resting on C1 + C2,
+both named and narrow. Sent to the partner lane for the hardest gate it
+can run. Not claimed proven until both clauses survive and the gate passes.
