@@ -3560,3 +3560,72 @@ difference between orientation spread, tilt fraction, and retained mass.
 DELETED: none.
 CERTIFICATE: Cycle 273 accepts the once-only direction-factor trace as checked against the earlier \(\lambda=\lambda_1\cdot\frac12\) ladder and C246's \(N1\ge\frac12-\beta\) correction, but no wall is deleted because the \(G\)-plug still depends on an exact selected-ledger bound for transition-band occupancy \(f_\partial,f_V\), tail size, moving-band/reseed effects, boundary concentration, and the conversion from orientation spread or tilt fraction to retained selected-current mass; the claimed \(G_{\mathrm{eff}}/Re^\ast\ll0.083\) margin is not yet a terminal inequality.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 274 ladder-at-\(\beta\) interpolation
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C274 tries
+to identify Horn-B band-exit pricing with the same C272 rear-loss product by
+reading \(\lambda_1\) as a monotone deformation-indexed function, but the
+identification is not terminal because the monotone \(\lambda_1(\alpha)\)
+lower graph is not yet an exact certificate.
+
+Codex accepts C274 as a useful interpolation target. It is the right physical
+place to look: as fore-aft asymmetry worsens, rear-direction quality can
+degrade, but the boundary-crossing/rebuild rate should increase if the same
+deformation is what creates the asymmetry.
+
+No deletion is paid. The old \(\lambda_1\in[0.3,1.0]\) bracket was not filed as
+a proved monotone lower function of \(\alpha_{\mathrm{fa}}\), and the
+mid-bracket claim \(\lambda_1(0.5)\ge0.6\) does not follow from endpoint
+values alone. The same selected event could still try to combine degraded
+\(N1\) with a low crossing fraction unless a quantitative
+deformation-to-crossing inequality is proved.
+
+DELETED: none.
+CERTIFICATE: Cycle 274 accepts Horn-B interpolation as the right seam test, but no wall is deleted because \(\lambda_1\in[0.3,1.0]\) is not yet proved as a monotone lower function of \(\alpha_{\mathrm{fa}}\), the mid-deformation value \(\lambda_1(0.5)\ge0.6\) is not certified by the endpoint bracket, adversarial coupling between degraded \(N1\) and low crossing fraction is not refuted, and the product still inherits C271 re-entry typing, C272 source ownership, W7/W8 admission, and no-reuse/clock rows.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 272-274
+
+Physical sentence of the sticking wall: the rear-loss product is now written,
+the direction factor is traced once, and the Horn-B seam is reduced to an
+interpolation problem, but the proof still lacks a selected-ledger theorem that
+turns source certificates, transition occupancy, and deformation-indexed
+crossing into one terminal lower bound.
+
+Attempts: C272 displayed the TV-to-one-way product; C273 verified the once-only
+direction trace and reduced the \(G\)-plug to transition-band occupancy; C274
+proposed Horn-B interpolation through a monotone \(\lambda_1(\alpha)\) lower
+graph.
+
+Missing exact fact: a same-ledger source-certificate theorem covering C271
+absorption/no-reuse and C272 TV/N1 ownership, an exact transition-band
+occupancy/tail certificate, and a quantitative deformation-to-crossing lower
+graph for \(\lambda_1(\alpha)\).
+
+## Codex gate on post-stall Cycle 275 occupancy ledger balance
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C275 tries
+to identify the C273 occupancy residual with the existing layer-cake ledger,
+\(\Sigma_\sigma\) tilt row, and winding row, but it is not terminal because the
+parent rows and transient/admission clauses are still under gate in the
+selected current.
+
+Codex accepts C275 as a real ontology improvement. Retyping band occupancy as a
+difference of layer-cake levels is the right move: it puts the \(G\)-plug back
+inside the same selected-current bookkeeping instead of treating occupancy as a
+population slogan.
+
+No deletion is paid. The differenced balance inherits every parent certificate:
+each level must obey the six-row balance in the actual selected ledger, the
+\(\Sigma_\sigma\) influx cap must cover the paired amplitude/tilt content in
+the same normalization, the winding outflux must have the stated sign and rate
+for the transported selected density, and the transient initial band population
+must be bounded by an admission clause compatible with reseeding and no-reuse.
+C275 controls \(f_V\) only after those rows are certified, and it still must
+cover boundary occupancy \(f_\partial\) and tail concentration in the same
+currency.
+
+DELETED: none.
+CERTIFICATE: Cycle 275 accepts the layer-cake difference formulation as the right selected-ledger typing of band occupancy, but no wall is deleted because the differenced balance still inherits the six-row level balance, \(\Sigma_\sigma\) influx cap, band-angle winding sign/rate, transient initial-population admission, reseed/no-reuse compatibility, boundary occupancy \(f_\partial\), and tail-concentration certificates; \(f_V\le3\sigma_t\) is not yet a terminal inequality in the retained-current ledger.
+REMAINING: W3, W7, W8, W9.
