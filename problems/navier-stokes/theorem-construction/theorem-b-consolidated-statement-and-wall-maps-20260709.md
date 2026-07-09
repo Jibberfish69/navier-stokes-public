@@ -2620,3 +2620,67 @@ and complete; the re-map is structural (no new theorem claimed). Gold = the
 no-return sign of Φ in (G40.8), open. This is the cleanest object the
 program has ever had: one scalar flux, one exact balance, no pressure, no
 packets, no frames.
+
+## 42. THE RETURN-FLUX SECTOR WORKED: the cycle identity, the residence toll, and the transit minimization (2026-07-09)
+
+Working the no-return sign in the (NIC.65)/(G40.8) coordinates.
+
+**(a) The cycle identity (exact, one line).** Over any recurrence cycle of the
+tower (∮∂_t𝓔(r) dt = 0), the cumulative balance gives, for EVERY r:
+
+```math
+\oint \Phi_{\rm in}(r,t)\,dt \;=\; \nu\oint\!\!\int_{|h|\le r} D(h,t)\,dh\,dt \;>\;0 .
+```
+
+The breathing countermodel cannot be flux-neutral: every cycle imports net
+relative energy through every shell, equal to the dissipation inside it.
+Exact reversibility is dead: the time-reversed field satisfies an ANTI-viscous
+balance (∂_tE + ½∇_h·F = +νD), not NS.
+
+**(b) The residence toll (exact via Fourier).** E(h) = ∫(1−cos ξ·h)|û|²dξ,
+D(h) = ∫|ξ|²(1−cos ξ·h)|û|²dξ, so the frequency-≳1/|h| part of E(h) — where
+(H2) localization puts record content at its own scale — drains at rate
+≥ ν/|h|². Per turnover r²/Γ at the record scale the toll FRACTION is
+
+```math
+\frac{\nu}{r^2}\cdot\frac{r^2}{\Gamma} \;=\; \frac{1}{Re_\Gamma}
+\qquad\text{— scale-invariant.}
+```
+
+The marginality that killed rate-domination is exactly right for a per-cycle
+fixed fraction: the toll is the same at every rung; nothing escapes it by
+changing scale. 1/Re_Γ is a dimensionless gap — the covariance filter's own
+stated exception.
+
+**(c) The one remaining estimate (named): the transit minimization.** The
+refund's only escape from the residence toll is fast transit — moving content
+outward through shells in less than a turnover per shell. Fast transit needs
+super-turnover relative velocities ⟹ higher gradients ⟹ more dissipation:
+a gradient toll. The no-return law reduces to the minimization
+
+```math
+\textbf{(No-free-return, OPEN):}\quad
+\inf_{\text{transit strategies}}
+\big[\text{residence toll} + \text{transit toll}\big]
+\;\ge\; f(Re_\Gamma) \;>\; 0
+\quad\text{per round trip through a shell.}
+```
+
+Structural properties: per-PASSAGE (gross, not net — dodges the
+[∫j]_+ ≤ ∫[j]_+ trap that killed the four-body reserve); frame-free,
+packet-free, pressure-free (all statements are E(h)/𝓔(r) readouts in the
+exact balance); constant scale-invariant (dimensionless 1/Re_Γ class).
+
+**Threats, named for the gate:** (T1) the low-frequency parking loophole —
+the drain bound covers the frequency-≳1/|h| part of E(h); content could park
+at low frequency relative to its separation... but parking low IS outward
+scale-transport, which is the tolled passage; making that circle exact is
+part of (c). (T2) "record content is high-frequency at its scale" = the (H2)
+localization clause (filed, W3/W7 address). (T3) the minimization itself —
+the sweep between residence and transit needs the actual lower bound; it is
+a real estimate, not bookkeeping.
+
+**Status (rule 14):** (a) exact; (b) exact; (c) open and named — the
+no-free-return minimization at fixed Re_Γ. Gold in these coordinates =
+(c) + record-localization (H2). Sent to Codex to gate (a), (b) and to attack
+(c) via T1 especially.
