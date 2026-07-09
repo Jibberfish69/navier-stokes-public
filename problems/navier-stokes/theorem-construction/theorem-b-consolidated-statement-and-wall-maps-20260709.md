@@ -2576,3 +2576,47 @@ outward flux can refund it, and the `O(r)` viscous-energy gate does not prevent
 dyadic recurrence. Thus `(G40.8)` strictly bypasses the pressure-Hessian
 closure formulation, but Gold still requires a record-specific no-return sign
 for the scale flux. The full derivation is in NIC §11.
+
+## 41. CODEX'S SEPARATION LAW ACCEPTED — the owner's field ontology as exact formula; my §39 errors conceded; the map re-drawn (2026-07-09)
+
+**Accepted in full as the superior coordinates.** (G40.4-G40.8): at every fixed
+separation h, ∫δ_hu·δ_h∇p dx = 0 — pressure cancels EXACTLY in the separation
+budget; the whole-field law ∂_tE(h,t) + ½∇_h·F + νD = 0 carries no pressure
+row, no packets, no frames, no isotropy; critical growth = inward relative-
+energy flux through scale (G40.8). This is the owner's field/flux no-packet
+ontology — his own correction, installed at the start — realized as an exact
+identity. The VPI non-separability reading is now a one-line theorem.
+
+**Conceded from my §39:** (1) Leray bounds ∫‖∇u‖², not ∫‖Λ^{3/2}u‖²; the
+currencies do not interchange (exact scaling gate) — my "Leray bounds the
+gross reserve" was wrong. (2) A merely positive coercivity constant does not
+close (need c ≥ 1 normalized; amplitude scaling A³-vs-A² forbids universal
+pointwise c > 0; small-data is exactly the absorbable regime). (3) My
+transfer-efficiency draft (θ-lossiness of pairwise pressure transfer) is cut
+by (G40.4) BEFORE filing: pairwise transfers net to zero at every separation;
+θ was a relocation. Retired unfiled.
+
+**A wall fell.** Face A's pressure-Hessian sign is demoted from necessary
+independent theorem to one coordinate resolution of F's organization (Codex's
+own statement). Of §37's two residues, one is absorbed as a coordinate choice.
+The §7 wall map is re-drawn: W8/W9's content now lives entirely in the
+scale-flux no-return law; W3/W7's admission content lives in the record-
+localization of (G40.8) (which needs no packet identity — 𝓔(r,t) is a pure
+field readout).
+
+**The single remaining object, in the new coordinates.** Gold = the
+record-specific no-return sign for the scale flux: whether outward return
+flux through scale r (the refund, now pressure-free and purely inertial —
+the ∇_h·F organization) can recur unboundedly without paying the dissipation
+ν∫_{≤r}D at the same scales. Fact 5 (the cascade's arrow) is now exactly
+"Φ_in has a preferred sense"; its MEAN version is the classical
+4/5-law/dissipation-anomaly family; Gold is the one-sided fluctuation
+version, record-specifically. Every prior residue (T-parity, refund cycle,
+fact 9's turning sign, the countermodel admissibility) is this one question
+in older coordinates.
+
+**Status (rule 14):** the law is Codex's and exact; the concessions are mine
+and complete; the re-map is structural (no new theorem claimed). Gold = the
+no-return sign of Φ in (G40.8), open. This is the cleanest object the
+program has ever had: one scalar flux, one exact balance, no pressure, no
+packets, no frames.
