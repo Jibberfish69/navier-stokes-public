@@ -727,3 +727,17 @@ None.
   pedigree surface, signed-flux/gathering measure, original-data finite bound,
   and Navier-Stokes circulation-diffusion/no-creation theorem. No wall is
   deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 25-26 normalized-bill / defect-window gate accepts two
+  strict reductions only. Cycle 25 improves W9's endpoint presentation by using
+  an endpoint-safer integrated running-maximizer bill, but the Danskin exchange
+  step, \(V_\nu/\alpha\) residual, aligned/misaligned split, and compact
+  material-time action remain unproved or still depend on the unproved
+  \(\Gamma_{\rm gather}(u_0)\) budget. Cycle 26's antiderivative and
+  axisymmetric complete-swirl integration-by-parts computation are accepted as
+  model reductions; they do not prove a universal retained-field
+  \(g_{\max}<1/6\) theorem for non-axisymmetric lobes, rings, sheets, cutoffs,
+  weak/profile limits, ambient-strain shadows, or modulation defects. The owner
+  fixed-field overlap remains the right ontology only after one common Eulerian
+  certificate current carries the normalized bill, defect-window export, W7
+  graph closure, W8 payer row, and W9 action rows without importing them by
+  definition. No wall is deleted. Remaining: W3, W7, W8, W9.
