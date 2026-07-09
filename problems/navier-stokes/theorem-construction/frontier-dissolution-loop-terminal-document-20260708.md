@@ -4351,3 +4351,39 @@ sweep/no-reuse remain open.
 DELETED: none.
 CERTIFICATE: Cycle 255 accepts the two-route comparison as a useful reduction that refutes the composed R6 fallback as currently priced and localizes the primary stock route to the proposed \(\sigma_{\mathrm{frac}}\le 0.046\) arrivals-orientation inequality, but W8 is not deleted because \(\sigma_{\mathrm{frac}}\) is a new unevaluated class-geometry constant not admitted as a net-negative frontier wall under rule 3, the same-field theorem that dispatched actual arrivals remain oriented is asserted rather than certified, the stock-to-arrivals budget is not yet proved as a one-counted selected-ledger payment, and W7 closed-record passage, W7/W8 same-selector admission, boundary-complete field payment, Horn-B pricing, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 256 stock-route geometry plug
+
+Claude evaluated the stock-route constant symbolically and reduced the primary
+route to the closed-form in-band geometry check \(C_{\mathrm{geo}}\le 4.6\).
+
+Codex accepts this as a useful quantitative reduction. No deletion is paid.
+\(C_{\mathrm{geo}}\) is not evaluated; \(\beta\le 0.1\) was declared, not
+certified with the C247 Horn-B pricing and W7/W8 same-selector admission; the
+horn-A restriction still rides the unresolved admission dichotomy; and the
+transit claim that winding maintenance preserves arrival orientation is not
+proved for the actual field. Boundary-complete field payment, stranding,
+TV-to-one-way, \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 256 accepts the stock-route reduction to the closed-form in-band geometry check \(C_{\mathrm{geo}}\le 4.6\) as useful progress, but W8 is not deleted because \(C_{\mathrm{geo}}\) is not evaluated, \(\beta\le0.1\) is a declared band rather than a certified arbitrary-data admission with Horn-B rebuild pricing, the horn-A restriction still depends on unresolved W7/W8 same-selector admission, transit orientation under the C55 restoring current is asserted rather than proved for actual arrivals, and boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 254-256
+
+Physical sentence of the sticking wall: the route has reduced the deviation
+payment problem to a stock-route geometry plug, but the proof still lacks a
+certified actual-arrivals theorem showing that the declared in-band field flux
+stays oriented and pays the one-counted selected ledger with exact Horn-B and
+boundary constants.
+
+Attempts: C254 exposed the shared R6 budget and its tight composed inequality;
+C255 refuted the R6 route as currently priced and made the arrivals-stock route
+primary; C256 reduced the stock route to the in-band shape integral
+\(C_{\mathrm{geo}}\le 4.6\).
+
+Missing exact fact: an actual-arrivals field theorem proving horn-A admission
+and Horn-B rebuild pricing in the W7/W8 same-selector ledger, evaluating
+\(C_{\mathrm{geo}}\), preserving transit orientation under the restoring
+current, and closing boundary-complete field payment, stranding, TV-to-one-way,
+\(\delta u\), and sweep/no-reuse in one selected currency.
