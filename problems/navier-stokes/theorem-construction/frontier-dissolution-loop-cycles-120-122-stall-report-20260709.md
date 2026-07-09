@@ -2064,3 +2064,30 @@ AND ONE SWEEP; further cycles that re-derive aliases pay nothing (rule 7),
 and this lane has provided the exact integrands for both computations.
 
 REMAINING: W3, W7, W8, W9 (rule-6 STOP; frontier = N1, N2, sweep).
+
+## Codex gate on post-stall Cycle 224 viscous parity and low-Re complement
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C224 tries
+to identify the remaining N1 viscous/deformation error with a parity bound and
+a low-Re complement, but it still does not identify W8 with W3/W7/W9 because
+the exact selected-current transfer constant, the low-Re admission theorem,
+the lower-edge \(\lambda_1\) margin, W9 clock normalization, and the sweep
+remain separate certificates.
+
+Codex accepts the parity mechanism as real N1 progress. The odd term is now
+correctly located: viscosity is the symmetry breaker in the reflected/reversed
+comparison, so the N1 residue is reduced to an exact constant problem in
+\(N1\ge 1/2-4\pi c/Re_\Gamma\).
+
+No deletion is paid. The exact facts still missing are a sharp bound on
+\(c\) in the smoothed selected-current crossing distribution, an admission
+clause proving the low-\(Re_\Gamma\) regime really excludes towers for the
+whole adversarial class, conversion of C223's TV crossing into one-way
+selected-current exchange with enough lower-edge margin, C221 regime pricing
+with the W9 clock intact, and the sweep. The fixed-region or whole-field flux
+ontology does not remove those facts; it can replace packet custody only after
+boundary-flux ownership is proved exactly.
+
+DELETED: none.
+CERTIFICATE: Cycle 224 accepts the parity mechanism as real N1 progress, giving \(N1\ge\frac12-\frac{4\pi c}{Re_\Gamma}\), but W8 is not deleted because the transfer constant \(c\) is only stated as \(O(1)\) and not bounded sharply in the smoothed selected-current normalization, the low-Re complement is not yet an exact admission clause tying local \(Re_\Gamma\) to a classical no-tower/small-data theorem for the full adversarial class, C223's TV-to-one-way selected-current conversion and lower-edge margin remain open, and C221 regime pricing plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
