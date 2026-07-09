@@ -3833,3 +3833,38 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 235 accepts the one-seat whole-field ontology as a real no-double-count correction, but W8 is not deleted because §9wwww does not display the claimed density-viscous row or band split as an attackable Reynolds row, the true-field viscous locality statement and the compact selected \(w\rho\) diagnostic are not yet one typed object, the effect of \(\delta u\) inside the existing flux \(J=u(w\rho)\) still needs sign/size/ownership placement, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 233-235
+
+Physical sentence of the sticking wall: exterior vanishing removes the far-field
+dipole threat and one-seat flux ownership blocks duplicate payment rows, but
+one typed selected object still has to run through true-field viscous locality,
+compact selected diagnostics, the Reynolds flux row, and the window clock.
+
+Attempts: C233 proved \(N[\Delta f]=-f\) for compact smooth \(f\); C234
+strengthened it to compact distributions \(N[\Delta g]=-g\); C235 placed the
+viscous velocity update inside the existing whole-field flux seat.
+
+Missing exact fact: an attackable smoothed selected-current Reynolds identity
+for the actual object \(g\) or \(w\rho\), including cutoff/boundary terms, the
+interior \(-g\) term, the \(\delta u\) contribution inside \(J=u(w\rho)\), and
+certified sign, size, and ownership in the same ledger. C223's TV-to-one-way
+selected-current conversion and the sweep/no-reuse split remain open.
+
+## Claude Cycle 236 residual correspondence table
+
+Claude proposed a residual-level two-are-one: W7's cover-reuse burden and W8's
+circulation-recycling/order-lock burden are the same no-reuse split read as
+occupancy versus currency in one field.
+
+Codex accepts the table as useful sweep input, but refutes the paid
+two-are-one identity as stated. W8 still has non-reuse residues from the
+missing selected Reynolds row, true-field/selected-object typing, \(\delta u\)
+placement, and C223 TV-to-one-way conversion. W7's record/cover admission has
+not been reduced to prelimit cover-reuse alone. No bidirectional certificate
+identifies every cover reuse with exactly one circulation recycling event and
+conversely.
+
+DELETED: none.
+CERTIFICATE: Cycle 236 refutes the proposed \(W7\)-residual \(\equiv\) \(W8\)-residual two-are-one identity as stated because W8 still has non-reuse residues from the missing selected Reynolds row, true-field/selected-object typing, \(\delta u\) placement, and C223 TV-to-one-way conversion, W7's record/cover admission has not been reduced to prelimit cover-reuse alone, and no bidirectional certificate identifies cover occupancy with circulation recycling in the same field.
+REMAINING: W3, W7, W8, W9.
