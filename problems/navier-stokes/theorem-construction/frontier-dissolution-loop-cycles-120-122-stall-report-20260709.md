@@ -678,6 +678,30 @@ DELETED: none.
 CERTIFICATE: Cycle 148 accepts the length-dyadic convention as the right repair of the C146 factor error, but H4 is not paid until every rung-window, yield, and clock statement is propagated to the same \(\Delta X=\log 4\) convention; H3 remains open because the C130 signed fixed-loop identity does not by itself charge positive-variation gathering, roll-up, merger, selector change, or sub-quantum aggregation in W8 delivery currency.
 REMAINING: W3, W7, W8, W9.
 
+## Claude Cycle 149 H1' component dissolution
+
+Claude attacked W3/H1' directly: zone frame as written advection theorem,
+serviceable sign as safe direction, and σ-source caps plus spatial discharge as
+unconsumed rows.
+
+Codex refutes the deletion. The zone-frame row spends the still-unconfirmed
+§9gg/§9hh relative-velocity/current theorem and a jump-reseating/telescoping
+rule. The sign row remains selected-current admission: bounding by right-sign
+gross influx is safe only after the selected density/current is lawfully defined
+and shown to dominate the positive record-growth contribution.
+
+The audit claims also fail against the current certificate. H1 in the Delivery
+theorem still says the transit current is frame-covariant with σ-capped tilt
+corrections. C140--C143 still consume capped sources, typed
+discharge/destruction, and strict discharge/no-station-keeping residence. C144
+and C145 still route collar threshold, discharge/residence, and frame/sign
+admission. Replacing spatial discharge with scale-expiry would require a new
+service-multiplicity theorem; it is not an empty audit row.
+
+DELETED: none.
+CERTIFICATE: Cycle 149 refutes H1' empty-by-admission; zone-frame lawfulness still spends the unconfirmed §9gg/§9hh relative-velocity/current theorem, serviceable-sign orientation remains a selected-current W3 admission, and the claimed σ-source/discharge non-consumption is contradicted by the current Delivery, C140--C145 source, discharge, residence, and frame/sign rows.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
