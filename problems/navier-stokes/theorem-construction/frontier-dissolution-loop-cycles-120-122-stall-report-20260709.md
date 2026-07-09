@@ -4061,3 +4061,22 @@ a selected-courier odd-mode stability theorem below that threshold.
 DELETED: none.
 CERTIFICATE: Cycle 290 accepts the Duhamel split as a useful correction of the \(\alpha^2\) norm-splitting issue, but no wall is deleted because the row typing of pressure, selector/cutoff, viscosity, and nonlinear odd self-interaction is not an exact selected-ledger theorem, the newly surfaced growth factor \(g\) requires a ring/selected-courier odd-mode stability bound \(g\lesssim1.62\) rather than the displayed \(1.7\), and C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff residues remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 291 smooth-sector constants
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C291 tries
+to pay the smooth-sector constants, but it explicitly leaves the \(g\)-anchor
+as the decisive remaining fact.
+
+Codex accepts C291 as useful narrowing. The tensor-rank, cap-cancellation, and
+finite-form targets are the right objects to attack.
+
+No deletion is paid. The rank statement is not yet terminal after curvature,
+cutoff, and existing non-axisymmetric corrections; the cap-cancellation
+monotonicity is not written as an exact inequality; the \(5\times5\) entries and
+operator norm are not displayed; and the selected-courier odd-mode stability
+bound \(g\lesssim1.62\) remains unproved.
+
+DELETED: none.
+CERTIFICATE: Cycle 291 accepts tensor-rank \(m\le2\), cap-cancellation, and the finite \(5\times5\) smooth-sector form as useful reductions, but no wall is deleted because curvature/cutoff/non-axisymmetric corrections, cap-cancellation monotonicity, the exact \(5\times5\) operator norm, and the decisive selected-courier odd-mode stability bound \(g\lesssim1.62\) remain unproved; inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff residues also remain open.
+REMAINING: W3, W7, W8, W9.
