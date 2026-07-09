@@ -1540,3 +1540,129 @@ instantaneous record-upcrossing condition still do not imply H2. Any theorem
 recovering a fixed-fraction spatial packet must use a genuinely global history
 property beyond the current record condition. The corpus contains no such
 one-field theorem.
+
+## 18. Exact one-field spectral-mean identity and the zero-spread rigidity
+
+There is a global recoordination that keeps the entire velocity field and does
+not select a packet. Define the spectral moments
+
+```math
+M_q(t):=\int_{\mathbb R^3}|\xi|^q|\widehat u(\xi,t)|^2\,d\xi,
+\qquad
+m(t):=\frac{M_1(t)}{M_0(t)},
+\tag{NIC.116}
+```
+
+and the probability measure
+
+```math
+d\mu_t(\xi):=M_0(t)^{-1}|\widehat u(\xi,t)|^2\,d\xi .
+\tag{NIC.117}
+```
+
+Let `B(u,u)=P div(u tensor u)` be the Leray-projected nonlinearity and
+
+```math
+P_H(u):=-\langle B(u,u),\Lambda u\rangle .
+\tag{NIC.118}
+```
+
+The energy and critical identities give
+
+```math
+\frac12\dot M_0=-\nu M_2,
+\qquad
+\frac12\dot M_1=P_H-\nu M_3.
+\tag{NIC.119}
+```
+
+Consequently the energy-weighted mean frequency satisfies the exact identity
+
+```math
+\boxed{
+\frac12\dot m
+=\frac{P_H}{M_0}-\nu\mathcal W
+}
+\tag{NIC.120}
+```
+
+where
+
+```math
+\begin{aligned}
+\mathcal W
+&:=\frac{M_3}{M_0}-\frac{M_1M_2}{M_0^2}\\
+&=\int (|\xi|-m)^2(|\xi|+m)\,d\mu_t(\xi)
+\ge m\,\operatorname{Var}_{\mu_t}(|\xi|)\ge0.
+\end{aligned}
+\tag{NIC.121}
+```
+
+The nonlinear term is measured against the same spectral displacement.
+Energy skew-symmetry gives `\langle B(u,u),u\rangle=0`, hence
+
+```math
+P_H
+=-\langle B(u,u),(\Lambda-m)u\rangle .
+\tag{NIC.122}
+```
+
+Thus both terms driving `(NIC.120)` vanish when the spectrum has zero spread.
+On `R^3`, a nonzero `L^2` field cannot have Fourier support on the sphere
+`|xi|=m`, which has Lebesgue measure zero. The exact zero-spread class is
+therefore the zero field. Narrow annular fields can approach it, so this is a
+rigidity statement rather than a uniform gap.
+
+The common geometry can be made quantitative without introducing another
+participant. Set
+
+```math
+V:=\operatorname{Var}_{\mu_t}(|\xi|),
+\qquad
+Q_m:=\|(\Lambda+m)^{-1/2}B(u,u)\|_2^2.
+\tag{NIC.123}
+```
+
+Weighted Cauchy--Schwarz yields
+
+```math
+P_H^2\le Q_m M_0\mathcal W.
+\tag{NIC.124}
+```
+
+Using `\langle B,u\rangle=0` before Cauchy--Schwarz gives the sharper exact
+projection bound
+
+```math
+\boxed{
+P_H^2
+\le Q_m M_0
+\left(\mathcal W-\frac{V^2}{2m}\right).
+}
+\tag{NIC.125}
+```
+
+Indeed, with
+`x=(Lambda+m)^(-1/2)B`, `h=(Lambda+m)^(1/2)(Lambda-m)u`, and
+`v=(Lambda+m)^(1/2)u`, one has `x perpendicular v`,
+`||h||_2^2=M_0 W`, `||v||_2^2=2mM_0`, and
+`<h,v>=M_0V`; `(NIC.125)` is Cauchy--Schwarz after projecting `h` onto
+`v^perp`.
+
+At a critical-height record upcrossing, `P_H>=nu M_3`. Equations
+`(NIC.124)` and `(NIC.121)` then force
+
+```math
+Q_m
+\ge\nu^2\frac{M_3^2}{M_0\mathcal W}
+\ge\nu^2\frac{M_3}{M_0}
+\ge\nu^2m^3.
+\tag{NIC.126}
+```
+
+This is an exact one-field necessary condition: an unbounded record history
+must repeatedly generate resolvent-weighted nonlinear acceleration at least at
+the viscous mean-frequency scale. It does not bound `Q_m` from the datum, so it
+does not close Gold. It replaces the invalid H2 packet reduction with one
+global field identity and locates the remaining theorem at the signed
+nonlinear-acceleration term in `(NIC.120)`.
