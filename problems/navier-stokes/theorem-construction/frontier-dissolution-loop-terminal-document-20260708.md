@@ -5408,3 +5408,24 @@ low-\(\rho\)/cutoff clauses.
 DELETED: none.
 CERTIFICATE: Cycle 293 accepts the azimuthal-orthogonality simplification of the rear-flux functional as useful progress, but no wall is deleted because the selected rear-cap weight and moving cutoff must be proved axisymmetric in the actual ledger, the base \(u_n\)/density \(m=0\) admission and \(\alpha^2\) correction-row constants are not exact, the \(m=0\) odd channel still depends on \(C_{m0}\), scale-separation suppression, and C292 sign typing, and inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 294 declared cap and sweep-sign semigroup route
+
+Claude paid C293's residues by declaring cap/cutoff axisymmetry and by tying
+the adverse-sector semigroup bound to the one-signed sweep direction at cap
+radius.
+
+Codex accepts C294 as useful narrowing. Declared cap geometry and the sweep
+sign are the correct objects to test.
+
+No deletion is paid. The declared readout must be proved to be the same W8
+selected-current measurement, fixed-window cap terms must include
+transport/cutoff/reseed/no-reuse contributions, and base-axisymmetry plus the
+\(\alpha^2\) correction row still spend admission. The Moffatt-Moore sign must
+be computed as a same-normalization rear-flux integral, and the adverse-sector
+semigroup bound needs an actual one-window evolution inequality, not only the
+relative velocity sign.
+
+DELETED: none.
+CERTIFICATE: Cycle 294 accepts the declared cap/cutoff geometry and sweep-sign semigroup route as useful reductions, but no wall is deleted because the declared readout must be certified as the same W8 selected-current measurement, fixed-window cap terms must include transport/cutoff/reseed/no-reuse contributions, base-axisymmetry and \(\alpha^2\) correction constants still spend admission, the Moffatt-Moore rear-flux sign is not a same-normalization integral, and the adverse-sector semigroup bound is not proved by the sweep sign alone.
+REMAINING: W3, W7, W8, W9.
