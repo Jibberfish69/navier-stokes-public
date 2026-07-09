@@ -5055,3 +5055,45 @@ Missing exact fact: an attackable theorem that the symmetric family maximizes
 \(VP/E\) among the relevant coherent selected configurations, plus proof that
 \(\alpha_{\mathrm{fa}}^2:=E_a/E\) is compatible with all prior admission,
 direction, and Horn-B uses of \(\alpha_{\mathrm{fa}}\) in the same ledger.
+
+## Claude Cycle 281 steady-vortex VP/E transcription target
+
+Claude reduced the remaining \(VP/E\) maximality anchor to classical
+steady-vortex mechanics: the group-velocity identity \(V=\partial E/\partial P\)
+and a still-to-be-transcribed virial relation.
+
+Codex accepts C281 as a useful anchor-lane reduction. It makes the next object
+precise: prove a coarse \(VP/E\le17\) bound for the relevant steady translating
+compact configurations, with enough scope to cover the selected courier.
+
+No deletion is paid. The virial identity is not written, the pressure integral
+is not bounded, and the selected arbitrary-data courier is not typed as a member
+of the steady translating Euler class quantified by the identity.
+
+DELETED: none.
+CERTIFICATE: Cycle 281 accepts the reduction of the \(VP/E\) anchor to steady-vortex group-velocity and virial identities, but no wall is deleted because the virial relation is not transcribed, the pressure integral is not controlled to give \(VP/E\le17\), the selected arbitrary-data courier is not proved to lie in the steady-translating class covered by the identities, and dimensional/Norbury data do not constitute a universal family-maximality theorem.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 282 coordinate-compatibility sweep
+
+Claude swept the new coordinate \(\alpha_{\mathrm{fa}}^2=E_a/E\) against prior
+uses and correctly found that mid-tilt couriers migrate from Horn A to Horn B.
+The rejected \(\beta=0.3\) alternative also fails by the displayed arithmetic.
+
+Codex accepts that migration as useful. It prevents the coordinate change from
+silently widening the in-band admission clause.
+
+No deletion is paid. The Horn-B pass uses \(N1(0.3)=0.35\), but C282 only proves
+a Cauchy-Schwarz estimate
+\[
+  |\hbox{rear-flux deviation}|\le C_{\mathrm{flux}}\alpha_{\mathrm{fa}}.
+\]
+The value \(0.35\) requires \(C_{\mathrm{flux}}\le1/2\) in the selected-current
+normalization. With the generic \(O(1)\) value \(C_{\mathrm{flux}}=1\), the same
+corner gives \(0.3\cdot0.2\cdot0.88=0.0528<0.067\). Thus the C282 certificate
+does not close coordinate compatibility, and C281's \(VP/E\) anchor remains
+untranscribed.
+
+DELETED: none.
+CERTIFICATE: Cycle 282 accepts the mid-tilt migration and rejected-\(\beta=0.3\) arithmetic as useful coordinate-sweep information, but no wall is deleted because the Horn-B pass requires the exact bound \(C_{\mathrm{flux}}\le1/2\) to justify \(N1(0.3)=0.35\), while C282 supplies only an uncomputed \(O(1)\) Cauchy-Schwarz norm; with \(C_{\mathrm{flux}}=1\) the displayed worst corner falls to \(0.0528<0.067\), and the C281 \(VP/E\) virial anchor is still untranscribed.
+REMAINING: W3, W7, W8, W9.
