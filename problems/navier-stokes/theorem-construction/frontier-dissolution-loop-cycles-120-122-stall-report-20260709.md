@@ -6043,3 +6043,23 @@ Missing exact fact: a per-component selected-ledger theorem giving canonical
 component tracking through weak limits, cutoff, reseed, merge/split, and
 no-reuse, with \(r_j<1\), \(|P_j|\ge c\Omega_j\delta_j^4\), finite trace/reseed
 rows, retained normalization, and the stretching/sign-selection price.
+
+## Codex gate on post-stall Cycle 370
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C370 tries
+to identify the reseed-jump row with the shell-mass row because both live on
+the inter-rung shell. The attempt fails because the jump is a moment and the
+shell row is a mass/enstrophy row; a bound is not an identity.
+
+Codex accepts the reseed decomposition as exact row typing. The jump is carried
+by the symmetric-difference shell, and the shell-mass/enstrophy bound gives the
+same clock monomial as the component impulse. The jump is scale-neutral, not
+small by tower arithmetic.
+
+No wall is deleted. The needed smallness is the per-component nesting admission
+\(|P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le\rho<1\), with shell-transfer
+bookkeeping and no-double-count ownership still in the selected ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 370 accepts the reseed-jump decomposition and scale-neutral shell bound only as row typing; it does not delete W3 or W7 because the needed smallness is the unproved per-component nesting admission \(|P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le\rho<1\), with shell-transfer bookkeeping and no-double-count ownership still in the selected ledger.
+REMAINING: W3, W7, W8, W9.
