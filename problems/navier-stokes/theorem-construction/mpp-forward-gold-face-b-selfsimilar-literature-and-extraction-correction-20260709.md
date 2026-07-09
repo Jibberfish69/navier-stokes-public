@@ -171,3 +171,148 @@ Liouville theorem can be formulated.
 
 This is a strict reduction and source correction. It does not prove the
 extraction theorem or close Gold.
+
+## 6. Direct extraction test: current H2 cannot produce the required classical profile
+
+Write
+
+```math
+R_m:=H_{\rm crit}(t_m)\longrightarrow\infty,
+\qquad
+N_m\simeq\delta_m^{-1}.
+\tag{FBE.8}
+```
+
+The divergence in `(FBE.8)` is the defining critical-height record climb of
+the Gold counterhistory. The current H2 localization clause is
+
+```math
+\delta_m^{-1}
+\left\|P_{N_m}u(t_m)\right\|_{L^2(A_m)}^2
+\ge c_1R_m,
+\qquad
+A_m=B(x_m,C\delta_m).
+\tag{FBE.9}
+```
+
+Apply the fixed-viscosity Navier--Stokes scaling `(FBE.5)`. A scale-covariant
+Littlewood--Paley projection sends `P_{N_m}` to a fixed unit-frequency
+projection, and `A_m` to `B_C`. Hence
+
+```math
+\left\|P_{\simeq1}v_m(0)\right\|_{L^2(B_C)}^2
+=
+\delta_m^{-1}
+\left\|P_{N_m}u(t_m)\right\|_{L^2(A_m)}^2
+\ge c_1R_m
+\longrightarrow\infty.
+\tag{FBE.10}
+```
+
+This gives an exact fork.
+
+### 6.1 Retention and finite-local-energy compactness are incompatible here
+
+If the selected packet passes strongly in `L^2_loc` to the corresponding
+unit-frequency part of a finite-local-energy limit `V`, then its norms on
+`B_C` are bounded. This contradicts `(FBE.10)`. The same contradiction follows
+from the strong local `L^3` passage invoked for the native cubic current,
+because on a bounded ball strong `L^3` convergence bounds `L^2`.
+
+It is logically possible for the full fields `v_m` to have a local limit while
+the globally defined projections in `(FBE.10)` diverge through nonlocal tails
+and cancellations with other frequencies. That alternative does not prove
+Face B: it loses the selected packet carrying the positive record. A separate
+no-cancellation/tail theorem would be needed to identify the full-field limit
+with the retained service, and once that identification is strong enough to
+pass the packet, `(FBE.10)` applies.
+
+Thus the current hypotheses do not give both objects required by Face B:
+
+```math
+\text{finite-local-energy full NS limit}
+\quad+\quad
+\text{strong retention of the H2 record packet}.
+\tag{FBE.11}
+```
+
+### 6.2 Amplitude normalization changes the equation
+
+Let `a_m` be any amplitude normalization large enough to bound the selected
+packet; `(FBE.10)` forces `a_m\gtrsim R_m^{1/2}\to\infty` (one canonical
+choice is the selected packet's own `L^2(B_C)` norm). Put
+
+```math
+w_m=\frac{v_m}{a_m},
+\qquad
+\pi_m=\frac{q_m}{a_m}.
+\tag{FBE.12}
+```
+
+Then the exact equation is
+
+```math
+\partial_s w_m
++a_m(w_m\cdot\nabla)w_m
++\nabla\pi_m
+=\nu\Delta w_m,
+\qquad
+\nabla\cdot w_m=0.
+\tag{FBE.13}
+```
+
+This is not Navier--Stokes with a fixed nonlinearity coefficient. With the
+accelerated time `\tau=a_ms`, `(FBE.13)` becomes
+
+```math
+\partial_\tau w_m
++(w_m\cdot\nabla)w_m
++\nabla\widetilde\pi_m
+=\frac{\nu}{a_m}\Delta w_m,
+\tag{FBE.14}
+```
+
+so any compact limit is a vanishing-viscosity/Euler object, not a
+fixed-viscosity profile to which Tsai, ESS, or Chae applies. Navier--Stokes
+scaling cannot normalize the divergence because `H_crit` is scale invariant.
+
+### 6.3 Fixed phase does not supply full-field recurrence
+
+For consecutive moving microscopes, set
+
+```math
+\lambda_m=\frac{\delta_{m+1}}{\delta_m},
+\qquad
+\zeta_m=\frac{x_{m+1}-x_m}{\delta_m},
+\qquad
+\tau_m=\frac{t_{m+1}-t_m}{\delta_m^2}.
+\tag{FBE.15}
+```
+
+The same-solution identity is
+
+```math
+v_{m+1}(s,y)
+=\lambda_m
+v_m\!\left(\tau_m+\lambda_m^2s,
+            \zeta_m+\lambda_my\right).
+\tag{FBE.16}
+```
+
+The Face-B condition `V<\infty` gives convergence of one normalized
+quadrupole orientation. It gives no compactness of the full state, no control
+of the normalized time and space shifts in `(FBE.15)`, and no unique tangent
+ensuring that `v_m` and `v_{m+1}` have the same limit. Therefore `(FBE.16)`
+does not become a self-similar or DSS identity under the current hypotheses.
+
+### 6.4 Gate result
+
+`RetainedTowerToFullRescaledRecurrentNSLimit.A` is not merely unproved in its
+current placement; the version needed to send H2 directly to the classical
+finite-local-energy profile consumers is refuted by `(FBE.10)--(FBE.14)`.
+Any replacement must change one of the premises: select an order-one local
+concentration rather than a fixed fraction of the divergent record, produce a
+different PDE limit and prove a Liouville theorem for that limit, or prove a
+direct material-time rigidity without profile compactification. None of those
+replacements is presently proved. This refutes the current Face-B route, not
+Gold.
