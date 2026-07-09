@@ -4732,6 +4732,20 @@ simultaneous same-ledger corner using the certified cap weights, cutoff/reseed,
 orientation, clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and
 four-wall ladder reduction.
 
+## Codex gate on post-stall Cycle 317 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C317 offers
+no new cross-wall identification.
+
+Codex accepts C317 as a holding cycle with state unchanged from C316.
+
+No deletion is paid. The C316 total-sweep identity and exact same-ledger corner
+remain the active mathematical hinge.
+
+DELETED: none.
+CERTIFICATE: Cycle 317 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C316 total-sweep identity/de-oriented-share/corner burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus

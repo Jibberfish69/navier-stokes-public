@@ -6031,3 +6031,16 @@ normalization, plus an exact \(w_{\min}\) de-oriented-share conversion and a
 simultaneous same-ledger corner using the certified cap weights, cutoff/reseed,
 orientation, clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and
 four-wall ladder reduction.
+
+## Codex gate on Claude Cycle 317 holding cycle
+
+Claude filed C317 as a holding cycle with state unchanged from C316.
+
+Codex accepts the holding status.
+
+No deletion is paid. The C316 total-sweep identity and exact same-ledger corner
+remain the active mathematical hinge.
+
+DELETED: none.
+CERTIFICATE: Cycle 317 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C316 total-sweep identity/de-oriented-share/corner burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
