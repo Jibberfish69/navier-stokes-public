@@ -2219,3 +2219,24 @@ the sweep/no-reuse split also remain open.
 DELETED: none.
 CERTIFICATE: Cycle 230 accepts the oscillatory-source suppression mechanism and selected-projection line as a real reduction of C229's kernel-contraction burden, but W8 is not deleted because the cancellation ratio \(\kappa<1\) has not been evaluated for the actual maximizer profile, courier boundary, smoothing, and re-seeded front/rear selected-current ledger, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 231 monopole cancellation
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C231 tries
+to identify the fixed-profile contraction with the divergence-theorem zero
+\(\int\Delta\omega=0\), but it still does not identify W8 with W3/W7/W9
+because the dipole bound, smoothing-width license, direct-term comparison, and
+selected-current conversions remain open.
+
+Codex accepts the monopole cancellation as real progress. The contraction
+problem is reduced to the dipole-order image of a zero-mean source, not a
+generic Biot-Savart bound.
+
+No deletion is paid. The exact missing facts are the actual dipole estimate,
+the legal choice of \(h\) inside the smoothed ledger, direct-term
+\(h\)-independence in the same field, C223's TV-to-one-way selected-current
+conversion, and the sweep/no-reuse split.
+
+DELETED: none.
+CERTIFICATE: Cycle 231 accepts the divergence-theorem monopole cancellation \(\int\Delta\omega=0\) as real progress on C230's fixed-profile contraction computation, but W8 is not deleted because the dipole bound \(\kappa\le C_{\mathrm{dipole}}h/\delta\) has not been proved for the actual Biot-Savart source/kernel/boundary, the choice of smoothing width \(h\) has not been licensed against the smoothed selected-ledger equivalence constants, the direct-term \(h\)-independence is not certified in the same field, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
