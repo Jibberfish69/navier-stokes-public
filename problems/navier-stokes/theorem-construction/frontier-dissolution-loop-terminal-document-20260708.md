@@ -4857,3 +4857,61 @@ inequality.
 DELETED: none.
 CERTIFICATE: Cycle 273 accepts the once-only direction-factor trace as checked against the earlier \(\lambda=\lambda_1\cdot\frac12\) ladder and C246's \(N1\ge\frac12-\beta\) correction, but no wall is deleted because the \(G\)-plug still depends on an exact selected-ledger bound for transition-band occupancy \(f_\partial,f_V\), tail size, moving-band/reseed effects, boundary concentration, and the conversion from orientation spread or tilt fraction to retained selected-current mass; the claimed \(G_{\mathrm{eff}}/Re^\ast\ll0.083\) margin is not yet a terminal inequality.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 274 ladder-at-\(\beta\) interpolation
+
+Claude proposed that Horn-B pricing has no seam gap because the crossing
+fraction \(\lambda_1\) rises with fore-aft deformation while \(N1\) degrades.
+
+Codex accepts C274 as a useful interpolation target. It is the right same-object
+pressure test for the Horn-A/Horn-B seam: the asymmetry that damages rear
+direction should also be the deformation that creates boundary crossing.
+
+No deletion is paid. The prior \(\lambda_1\in[0.3,1.0]\) bracket was not filed
+as a proved monotone lower function of \(\alpha_{\mathrm{fa}}\), and the
+mid-bracket claim \(\lambda_1(0.5)\ge0.6\) does not follow from endpoints
+alone. The proof still has to refute adversarial coupling between degraded
+\(N1\) and low crossing fraction in one selected event.
+
+DELETED: none.
+CERTIFICATE: Cycle 274 accepts Horn-B interpolation as the right seam test, but no wall is deleted because \(\lambda_1\in[0.3,1.0]\) is not yet proved as a monotone lower function of \(\alpha_{\mathrm{fa}}\), the mid-deformation value \(\lambda_1(0.5)\ge0.6\) is not certified by the endpoint bracket, adversarial coupling between degraded \(N1\) and low crossing fraction is not refuted, and the product still inherits C271 re-entry typing, C272 source ownership, W7/W8 admission, and no-reuse/clock rows.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 272-274
+
+Physical sentence of the sticking wall: the rear-loss product is now written,
+the direction factor is traced once, and the Horn-B seam is reduced to an
+interpolation problem, but the proof still lacks a selected-ledger theorem that
+turns source certificates, transition occupancy, and deformation-indexed
+crossing into one terminal lower bound.
+
+Attempts: C272 displayed the TV-to-one-way product; C273 verified the once-only
+direction trace and reduced the \(G\)-plug to transition-band occupancy; C274
+proposed Horn-B interpolation through a monotone \(\lambda_1(\alpha)\) lower
+graph.
+
+Missing exact fact: a same-ledger source-certificate theorem covering C271
+absorption/no-reuse and C272 TV/N1 ownership, an exact transition-band
+occupancy/tail certificate, and a quantitative deformation-to-crossing lower
+graph for \(\lambda_1(\alpha)\).
+
+## Claude Cycle 275 occupancy ledger balance
+
+Claude retyped transition-band occupancy as a difference of layer-cake levels,
+with influx from the capped tilt row and outflux from order-one winding at the
+band angle.
+
+Codex accepts C275 as a real ontology improvement. It puts the \(G\)-plug back
+inside the selected-current ledger instead of leaving occupancy as a population
+sentence.
+
+No deletion is paid. The differenced balance inherits the parent six-row
+balance at each level, the \(\Sigma_\sigma\) tilt cap, the winding sign/rate,
+the transient initial-population admission clause, reseed/no-reuse
+compatibility, and boundary/tail concentration typing. The displayed
+\(f_V\le3\sigma_t\) is therefore not yet a terminal inequality in the retained
+current ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 275 accepts the layer-cake difference formulation as the right selected-ledger typing of band occupancy, but no wall is deleted because the differenced balance still inherits the six-row level balance, \(\Sigma_\sigma\) influx cap, band-angle winding sign/rate, transient initial-population admission, reseed/no-reuse compatibility, boundary occupancy \(f_\partial\), and tail-concentration certificates; \(f_V\le3\sigma_t\) is not yet a terminal inequality in the retained-current ledger.
+REMAINING: W3, W7, W8, W9.
