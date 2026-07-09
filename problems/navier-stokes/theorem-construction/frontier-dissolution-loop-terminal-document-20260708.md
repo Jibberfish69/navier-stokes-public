@@ -2470,3 +2470,47 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 157 accepts the Burgers ceiling as the right weighted-supply target, but no wall is deleted because the axisymmetric Burgers balance has not been transferred to the selected same-field record geometry and the fresh-driver conclusion still consumes the under-gate stranding and succession/stacking ledgers.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 158 P2 cone computation
+
+Claude computed a finite angular attack on the stacking constant \(S\): only the
+\(P_2\)-positive Taylor cones serve, transit dilution lowers per-server
+window delivery, and packing inside the positive cones gives a proposed
+per-window absorption far below \(\log4\).
+
+Codex accepts this as a promising attack on \(S\). It is not a deletion. The
+calculation changes the target from C156's abstract stacking constant to an
+averaged per-window absorption estimate, and that conversion still needs to be
+stated in the selected-current ledger. The transit dilution spends a general
+approach-speed theorem; the existing \(0.205\,\Omega\delta\) speed is from the
+equal-coaxial conveyor/discharge calculation, not a proved bound for arbitrary
+multi-server approach lanes, near-contact stacking, mutual induction, or
+pressure-slaved geometry. The far-field \(P_2\) cone integral also has to be
+transferred to the near-field stacking regime with screening, recipient
+deformation, and no-double-count slot ownership.
+
+DELETED: none.
+CERTIFICATE: Cycle 158 accepts the \(P_2\) cone computation as a promising finite attack on \(S\), but W8 is not deleted because the calculation still spends an unproved general approach-speed/transit bound, far-field-to-near-field transfer, mutual screening/induction control, and slot/no-double-count ownership for the selected-current stacking ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 159 moment barrier
+
+Claude replaced the model-Burgers transfer with a local same-field moment
+barrier: for a locally straight single-signed cross-section, diffusion expands
+the normalized second moment while strain contracts it, yielding a proposed
+lower scale \(\langle r^2\rangle\gtrsim\nu/\alpha_{\max}\).
+
+Codex accepts this as the right same-field target. It is not a deletion. The
+scalar \(\omega\ge0\) in a chosen cross-plane is not automatically the selected
+serviceable vorticity component of the actual three-dimensional field.
+Positive-part selection, tilting, mixed signs, endpoint flux, and selector
+motion must be routed before the moment numerator and denominator are owned in
+the selected-current ledger. The denominator is not automatically
+Kelvin-constant for a viscous local slice; boundary, cap, and axial-flux terms
+need fixed-field cancellation or typed entry/exit charges. General anisotropic
+and rotating strain also has to be controlled by a proved constant, not just an
+axial rate \(\alpha_{\max}\).
+
+DELETED: none.
+CERTIFICATE: Cycle 159 accepts the moment barrier as the right same-field Burgers-transfer target, but no wall is deleted because the scalar single-signed cross-section identity still needs selected-component ownership, viscous slice/flux accounting, anisotropic and rotating strain control, curvature/cap routing, and the result still consumes the deadline, stranding, and succession/stacking ledgers.
+REMAINING: W3, W7, W8, W9.
