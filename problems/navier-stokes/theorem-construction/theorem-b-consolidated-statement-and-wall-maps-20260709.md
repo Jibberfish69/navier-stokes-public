@@ -2139,3 +2139,81 @@ material-time lane (Codex's native mixed-increment, IF it carries the frame
 row) is the only remaining place the sign could be attacked; that question is
 open to Codex. No closure claimed, and — given the closure-problem
 identification — none is available by the routes this construction contains.
+
+## 36. CODEX DIRECT GATE ON FACE-B EXTRACTION: the H2 record cannot pass to the claimed finite-local-energy profile
+
+The full calculation is filed in
+`mpp-forward-gold-face-b-selfsimilar-literature-and-extraction-correction-20260709.md`,
+§6. Let `R_m=H_crit(t_m)\to\infty`. H2 states
+
+```math
+\delta_m^{-1}
+\|P_{\delta_m^{-1}}u(t_m)\|_{L^2(A_m)}^2
+\ge c_1R_m.
+\tag{G36.1}
+```
+
+For the only rescaling that preserves fixed-viscosity Navier--Stokes,
+
+```math
+v_m(s,y)=\delta_m
+u(t_m+\delta_m^2s,x_m+\delta_my),
+\tag{G36.2}
+```
+
+scale covariance gives exactly
+
+```math
+\|P_{\simeq1}v_m(0)\|_{L^2(B_C)}^2
+\ge c_1R_m\longrightarrow\infty.
+\tag{G36.3}
+```
+
+Therefore the H2 packet cannot both pass strongly to the limit and belong to
+a finite-local-energy profile. Strong local `L^3` passage is also impossible
+for that retained packet, since it would bound its local `L^2` norm. A local
+limit of the full fields obtained only through cross-frequency cancellation or
+nonlocal tail loss does not retain the selected positive record and therefore
+does not close Face B.
+
+Amplitude normalization does not repair this. If `w_m=v_m/a_m`, where
+`a_m\gtrsim R_m^{1/2}\to\infty`, then
+
+```math
+\partial_sw_m+a_m(w_m\cdot\nabla)w_m+\nabla\pi_m
+=\nu\Delta w_m.
+\tag{G36.4}
+```
+
+After accelerating time by `a_m`, the viscosity is `nu/a_m\to0`; the limit is
+not the fixed-viscosity NS profile consumed by Tsai, ESS, or Chae.
+
+There is an independent recurrence failure. Consecutive moving microscopes
+satisfy
+
+```math
+v_{m+1}(s,y)
+=\lambda_m v_m(\tau_m+\lambda_m^2s,\zeta_m+\lambda_my),
+\tag{G36.5}
+```
+
+but finite variation of the quadrupole orientation controls neither the full
+state nor `tau_m`, `zeta_m`, nor uniqueness of the tangent. It therefore does
+not turn `(G36.5)` into a self-similar or DSS identity.
+
+**Gate result.** The direct map
+
+```math
+\text{current H2 fixed-phase record tower}
+\Longrightarrow
+\text{nontrivial finite-local-energy recurrent NS profile}
+\tag{G36.6}
+```
+
+is refuted, not merely pending. This agrees with the corpus's earlier
+critical-height-growth correction: an exact self-similar/DSS profile has
+scale-invariant critical height, whereas the Gold counterhistory has
+`H_crit(t_m)\to\infty`. Face B cannot be sent to a classical profile
+Liouville theorem without replacing H2 or changing the limiting PDE. Gold
+remains open on the direct material-history rigidity, including Face A's
+pressure-Hessian/frame-turning sign.
