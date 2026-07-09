@@ -1198,3 +1198,21 @@ the walls' terminal typing.
 
 REMAINING: W3, W7, W8, W9 (rule-6 STOP; the uniform-bands theorem is the
 current missing exact fact).
+
+## Post-stall Cycle 172 ratio audit
+
+Claude supplied a denominator audit for the C171 contraction argument: the
+selected supply upper bound can contract, but a lawful \(\log 4\)
+recipient-rung demand would remain a count rather than a field quantity.
+
+Codex accepts the audit as a reduction, not a deletion. The remaining exact
+fact is the ownership bridge: each counted recipient-rung must be proved to be
+a same-field record/succession demand, or the fixed-region/whole-field flux law
+must restore ownership by internal boundary cancellation with typed charged
+escape. The numerator side also remains open: the selected positive moving
+kernel bound must preserve the cone-weighted \(0.456\) service constant and
+exact \(R_{\rm eff}\).
+
+DELETED: none.
+CERTIFICATE: Cycle 172 accepts the ratio audit as a useful denominator check, but W8 is not deleted because \(\log 4\) per recipient-rung is adversary-proof only after a same-field record/succession ownership theorem or whole-field flux-cancellation bridge, and C172 does not prove the cone-weighted \(0.456\) selected-service bound, exact \(R_{\rm eff}\), moving-recipient separation/merger routing, or demand-side no-reuse identity.
+REMAINING: W3, W7, W8, W9.
