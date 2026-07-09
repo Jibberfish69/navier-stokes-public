@@ -3039,3 +3039,224 @@ from vanishing. The efficient-current branch still requires current-retaining
 profile compactness plus a narrow Euler rigidity theorem. The zero-efficiency
 branch still requires a nontrivial viscous/history defect. This is a checked
 obstruction and strict branch reduction, not Gold closure.
+
+## 24. The HMIN null form gives weighted cross-scale overlap, not co-scale occupancy
+
+The instantaneous mixed-helicity floor does not force the two helical sectors
+to occupy one dyadic scale. The exact scale-resolved statement is triadic.
+
+Let
+
+```math
+r_{s,j}:=2^{j/2}\|\Delta_j u_s\|_2,
+\qquad
+A_{s,j}:=2^jr_{s,j}=2^{3j/2}\|\Delta_j u_s\|_2.
+\tag{NIC.221}
+```
+
+Thus `R_s` is equivalent to `sum_j r_{s,j}^2` and `D_s` is equivalent to
+`sum_j A_{s,j}^2`. Fix the finite Littlewood--Paley overlap width `C_0` and
+define the same-sign null output at scale `ell` by
+
+```math
+\begin{aligned}
+\mathcal N_{s,\ell}:={}&
+\sum_{\substack{|m-\ell|\le C_0\\ n\le m-4}}
+2^{n-m}A_{s,m}A_{s,n}\\
+&+
+\sum_{\substack{m\ge\ell-C_0\\ |n-m|\le3}}
+2^{-2(m-\ell)}A_{s,m}A_{s,n}.
+\end{aligned}
+\tag{NIC.222}
+```
+
+The high--low projector gain `(NIC.162)` and high--high-to--low gain
+`(NIC.163)` give
+
+```math
+\boxed{
+2^{\ell/2}
+\left\|
+\Delta_\ell\Pi_{-s}(u_s\times\Lambda u_s)
+\right\|_2
+\lesssim
+\mathcal N_{s,\ell}.
+}
+\tag{NIC.223}
+```
+
+The exact cyclic form of `(NIC.164)` is
+
+```math
+\frac12P_H
+=
+\left\langle
+\Lambda u_-,\Pi_-(u_+\times\Lambda u_+)
+\right\rangle
+-
+\left\langle
+\Lambda u_+,\Pi_+(u_-\times\Lambda u_-)
+\right\rangle.
+\tag{NIC.224}
+```
+
+Pairing equal output scales in `(NIC.223)` yields the sharp direct
+scale-resolved estimate
+
+```math
+\boxed{
+|P_H|
+\lesssim
+\sum_\ell
+\left(
+r_{-,\ell}\mathcal N_{+,\ell}
++r_{+,\ell}\mathcal N_{-,\ell}
+\right).
+}
+\tag{NIC.225}
+```
+
+In particular, every critical-growth state satisfies
+
+```math
+\boxed{
+\sum_\ell
+\left(
+r_{-,\ell}\mathcal N_{+,\ell}
++r_{+,\ell}\mathcal N_{-,\ell}
+\right)
+\gtrsim
+\nu(D_++D_-).
+}
+\tag{NIC.226}
+```
+
+This is a weighted interaction statement. The second line of `(NIC.222)`
+allows two high same-sign inputs to produce at a remote low scale occupied by
+the opposite sign.
+
+### 24.1 Exact arbitrarily separated record states
+
+That high--high-to--low possibility occurs in one full velocity field. On the
+normalized torus, fix an integer `M>=2` and set
+
+```math
+k=(1,0,0),
+\qquad
+p=(M,1,0),
+\qquad
+q=(-M-1,-1,0),
+\qquad
+k+p+q=0.
+\tag{NIC.227}
+```
+
+Using the helical vector `(NIC.193)`, take
+
+```math
+\widehat v_M(k)=h_+(k),
+\qquad
+\widehat v_M(p)=h_-(p),
+\qquad
+\widehat v_M(q)=-h_-(q),
+\tag{NIC.228}
+```
+
+and impose reality at the three negative modes. This is one divergence-free
+field. Full Leray convolution has exactly the six output pairs
+
+```math
+\pm\left\{
+(1,0,0),
+(M-1,1,0),
+(M,1,0),
+(M+1,1,0),
+(M+2,1,0),
+(2M+1,2,0)
+\right\}.
+\tag{NIC.229}
+```
+
+Writing
+
+```math
+a=M^2+1,
+\qquad
+b=(M+1)^2+1,
+```
+
+direct substitution of every generated mode gives
+
+```math
+\boxed{
+P_M:=P_H(v_M)
+=
+\frac{2M+1+\sqrt a-\sqrt b}{\sqrt{ab/2}}>0,
+\qquad
+D_M:=D(v_M)
+=2\left(1+a^{3/2}+b^{3/2}\right).
+}
+\tag{NIC.230}
+```
+
+The sign is exact because
+
+```math
+\sqrt b-\sqrt a
+=
+\frac{2M+1}{\sqrt b+\sqrt a}
+<2M+1.
+\tag{NIC.231}
+```
+
+For
+
+```math
+u_{M,\Gamma}=\Gamma v_M,
+\qquad
+\Gamma=\frac{2\nu D_M}{P_M},
+```
+
+homogeneity gives
+
+```math
+\boxed{
+P_H(u_{M,\Gamma})
+=2\nu D(u_{M,\Gamma}),
+\qquad
+R'(0)=2\nu D(u_{M,\Gamma})>0.
+}
+\tag{NIC.232}
+```
+
+The positive sector of this field occupies only unit frequency, while the
+negative sector occupies the two radii near `M`. Once `M` exceeds the fixed
+LP overlap width, no dyadic block contains both sectors. Therefore no
+universal constant `c>0` can make the record condition imply
+
+```math
+\exists j:
+\qquad
+r_{+,j}\ge c\nu
+\quad\hbox{and}\quad
+r_{-,j}\ge c\nu.
+\tag{NIC.233}
+```
+
+The counterexample is not a reduced-triad evolution. It is a smooth initial
+datum for the full equation, and `(NIC.229)` includes the complete quadratic
+support. The same strict obstruction holds on `R^3`: replace the six Fourier
+atoms by sufficiently narrow, reality-symmetric compactly supported packets,
+apply the exact helical projectors on the unit and high-frequency support
+balls, and retain the phase in `(NIC.228)`. The cubic multiplier converges to
+the positive coefficient `P_M`, so `P_H>0` for narrow enough packets; the
+helical supports remain in disjoint dyadic ranges. Scaling by the actual
+`2 nu D/P_H` then gives `(NIC.232)` exactly for a divergence-free Schwartz
+field with compact Fourier support.
+
+**Result of this section.** The null form proves the weighted cross-scale
+overlap `(NIC.226)`, and summing it recovers the global HMIN participation
+floor. It does not prove co-scale mixed-helicity occupancy. The exact family
+`(NIC.227)--(NIC.233)` shows that amplitude can compensate the geometric
+high--high-to--low kernel at an arbitrarily large spectral gap. This is an
+exact obstruction, not Gold closure and not an event-count theorem.
