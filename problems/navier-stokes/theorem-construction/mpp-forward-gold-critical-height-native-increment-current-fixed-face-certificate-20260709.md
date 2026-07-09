@@ -725,3 +725,97 @@ circulate pair storage while cancelling globally. A closure now requires one
 strictly smaller fact than `(NIC.50)`--for example a record-specific sign or
 irreversible loss derived from `(NIC.47)`--rather than another renaming of the
 finite reserve itself. No such fact is proved here.
+
+## 10. Gate on the proposed finite-viscosity refund floor
+
+The proposed repair is that every four-body payment-refund cycle pays a fixed
+amount of Leray energy dissipation at finite viscosity, so finite initial
+energy bounds the number of cycles. Exact Navier--Stokes scaling refutes that
+floor.
+
+Take any smooth finite-energy NS solution `U` on a short interval `[0,T_0]`
+for which
+
+```math
+\mathcal A_+(U)
+:=
+\int_0^{T_0}\iint[j_{ab}(U)]_+,da,db,dt
+>0.
+\tag{NIC.53}
+```
+
+Such data are supplied, for example, by a compact divergence-free field with
+the positive affine core in `(NIC.26)`, followed for a sufficiently short
+smooth interval. For `lambda>1`, apply the exact fixed-viscosity NS scaling
+
+```math
+U_\lambda(x,t)
+=\lambda U(\lambda x,\lambda^2t),
+\qquad
+0\le t\le\lambda^{-2}T_0.
+\tag{NIC.54}
+```
+
+The gross native critical action is scale invariant:
+
+```math
+\mathcal A_+(U_\lambda)=\mathcal A_+(U).
+\tag{NIC.55}
+```
+
+The Leray energy dissipation on the same event is subcritical:
+
+```math
+\nu\int_0^{\lambda^{-2}T_0}
+\|\nabla U_\lambda(t)\|_2^2,dt
+=\lambda^{-1}
+\nu\int_0^{T_0}\|\nabla U(t)\|_2^2,dt.
+\tag{NIC.56}
+```
+
+Hence
+
+```math
+\frac{
+\nu\int_0^{\lambda^{-2}T_0}
+\|\nabla U_\lambda\|_2^2dt
+}{\mathcal A_+(U_\lambda)}
+\longrightarrow0.
+\tag{NIC.57}
+```
+
+Viscosity in `(NIC.54)` is still exactly `nu`; no vanishing-viscosity limit
+has been taken. In physical scale `r=lambda^{-1}`, one normalized gross cycle
+has order-one critical action and costs only `O(r)` Leray energy. Dyadic costs
+`sum_j O(2^{-j})` are finite. Therefore no scale-independent inequality of the
+form
+
+```math
+\nu\int_{I_r}\|\nabla u\|_2^2dt
+\ge c\int_{I_r}\iint[j_{ab}]_+,da,db,dt,
+\qquad c>0,
+\tag{NIC.58}
+```
+
+can hold for the NS class.
+
+The critical viscous action has the right scaling:
+
+```math
+\nu\int_{I_r}\|\Lambda^{3/2}u\|_2^2dt.
+\tag{NIC.59}
+```
+
+But `(NIC.59)` is not bounded by Leray's energy inequality. Moreover the only
+general domination currently available is `(NIC.52)`, whose coefficient is
+the uncontrolled critical height. In the critical balance, a comparison
+between gross traffic and `(NIC.59)` closes only when its coefficient is
+strictly absorbable by `nu`, which is precisely the small-data argument. At
+large data it supplies no finite reserve.
+
+Thus finite viscosity does not by itself distinguish a lawful NS refund cycle
+from the abstract cyclic-payment countermodel in the currency Gold needs. The
+Face-B `nu/a_m -> 0` limit and the shrinking-scale `O(r)` Leray cost are
+different mechanisms and cannot be identified. The remaining candidate is
+still a record-specific sign or no-return theorem in the scale-invariant
+material-pair current, not a fixed physical-energy toll.
