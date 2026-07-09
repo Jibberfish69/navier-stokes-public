@@ -1822,3 +1822,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 108 files the corrected stall at the finite global-stock/no-import theorem plus \(N_{\max}\) admission and final log-yield inequality; no frontier wall is deleted.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 109 global-stock theorem is refuted as a Clay-level
+  frontier certificate. The displayed bound for
+  \(S_{\rm global}(t)=\int|\omega|\,dx\) assumes
+  \(\omega_0\in L^1(\mathbb R^3)\), which is not supplied by arbitrary smooth
+  finite-energy data. Leray controls the time integral of
+  \(\|\nabla u\|_2^2\), not the initial global \(L^1\) vorticity needed to make
+  this stock finite. Even under an added \(L^1_\omega\) hypothesis, the estimate
+  is an upper stock bound, not the required ledger
+  \(S_{\rm global}(t)\le S_{\rm global}(0)+S_{\rm pump}-S_{\rm collected}\);
+  it does not prove local service debits the same global stock or prevents
+  reuse through reassignment, co-amplification, or pump/import relabeling. The
+  three-cap assembly also still needs the pump-crossover summability theorem.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 109 is refuted as a frontier deletion; it gives at most a conditional \(L^1_\omega\) global-stock variant, while finite admitted stock, collection/no-reuse, pump summability, and final inequality remain unproved for smooth finite-energy data.
+REMAINING: W3, W7, W8, W9.
