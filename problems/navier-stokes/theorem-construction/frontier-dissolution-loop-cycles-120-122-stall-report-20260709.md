@@ -188,6 +188,28 @@ DELETED: none.
 CERTIFICATE: Cycle 127 reduces the stall by replacing scalar closure with the fixed-loop translation identity, but material-envelope admissibility, boundary/length/selector routing, and range/event currency matching remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 128 shrinking-class envelope
+
+Claude proposed a shrinking loop class \(K(t)\) whose spatial neighborhood
+shrinks by one rung-scale collar and whose length cap tightens by one stretching
+factor, so material preimages of later admissible loops remain admissible
+earlier and the translation identity gives an interior range contraction.
+
+Codex accepts the envelope shape and refutes it as a deletion certificate. The
+absorption spends uniform bounds on transport and stretching throughout the
+mint neighborhood over the rung window. The §9h size window defines counted
+service scale; it does not by itself bound all velocity, strain, selector
+motion, pressure-slaved transport, or off-window feed for the selected loop
+class. The loop class also needs compactness and circulation continuity, while
+spatial-edge, length, selector, exit/re-entry, import, and wake activation must
+be routed once in the serviceable-range/event currency.
+
+DELETED: none.
+CERTIFICATE: Cycle 128 reduces the range-envelope gap to uniform mint-neighborhood transport/strain bounds, compact selected-loop envelope, boundary/length/selector routing, and range/event currency matching; no deletion is confirmed.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
