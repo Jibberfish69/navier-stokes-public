@@ -4517,3 +4517,23 @@ admission plus certified transit growth, including denominator/floor
 conventions, parity/reflection geometry, selector/cutoff/reseed ownership,
 clock/no-recount typing, pressure and viscosity placement, and the trimmed
 neutrality/Horn-B ladder residues.
+
+## Codex gate on post-stall Cycle 308 reflection-pairing repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C308 repairs
+C307 by replacing local pointwise domination with the integrated two-point
+parity inequality over reflected front/rear caps.
+
+Codex accepts the correction. The integrated reflection-pairing inequality is
+the right repair to the failed pointwise quotient.
+
+No deletion is paid. The rear term must be certified as the same once-owned
+selected rear-loss row in the generic ladder. The proof also has to write the
+L3-prime transport sign, no-double-count placement, selected weights,
+cutoff/reseed convention, moving-plane normalization, and front/rear
+orientation in one ledger. The integrated \(L^1\) admission cap still carries
+\(C_V\) and selected-normalization clauses.
+
+DELETED: none.
+CERTIFICATE: Cycle 308 accepts the two-point parity correction and integrated reflection-pairing inequality as the right repair to C307, but no wall is deleted because the rear absolute-flux term has not been proved to be the same once-owned selected rear-loss row in the generic ladder, the L3-prime transport sign/no-double-count placement is unwritten, cap reflection must preserve selected weights, cutoff/reseed, moving-plane normalization and orientation, and the integrated \(L^1\) admission cap still carries \(C_V\) and selected-normalization clauses.
+REMAINING: W3, W7, W8, W9.
