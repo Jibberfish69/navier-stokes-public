@@ -1952,6 +1952,23 @@ DELETED: none.
 CERTIFICATE: Cycle 218 accepts the smoothed orientation-weight replacement as a useful reduction of the \(\chi\)-interface problem, but W8 is not deleted because the exact weights and sharp/smooth bracketing constants have not been specified, the constant loss has not been shown to fit the lagged \(6.70\%\) threshold and remaining margins, the smoothed ledger has not been proved equivalent to the serviceability currency used by the rear-lens, front-lens, Kato, \(\Sigma_\sigma\), and W9 rows, the favorable winding inequality remains unproved, and N1, N2, and the sweep remain open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 219 smooth-selector bracketing
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C219 tries
+to identify the smooth-selector equivalence with the C55 winding engine and
+the standing loss margin, but it still does not identify W8 with W3/W7/W9
+because the no-accumulation theorem, quantitative margin, N1/N2 constants, and
+action normalization remain open.
+
+Codex accepts the order and transition-band algebra. The missing exact facts
+are the threshold-band no-accumulation theorem in the actual courier-local
+orientation variable, exact constants for the band/halo factor, and proof that
+the factor is absorbed against the lagged threshold after N1 is certified.
+
+DELETED: none.
+CERTIFICATE: Cycle 219 accepts the smooth-selector pointwise-order bracketing and transition-band decomposition, but W8 is not deleted because the threshold-band no-accumulation claim still depends on the unproved C55/winding phase portrait in the actual courier-local orientation variable, the \(1+O(\mathrm{band})+O(\mathrm{halo})\) factor is not an exact constant in the selected-current normalization, margin absorption still spends the unproved \(\lambda\) bracket against the lagged \(6.70\%\) threshold, and N1, N2/C210, and the sweep remain open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
