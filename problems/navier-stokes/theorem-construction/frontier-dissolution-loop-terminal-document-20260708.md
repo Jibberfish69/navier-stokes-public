@@ -5942,3 +5942,39 @@ mathematical missing exact fact remains unchanged.
 DELETED: none.
 CERTIFICATE: Cycle 313 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C312/C310 mathematical missing exact fact remains unchanged.
 REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 311-313
+
+Physical sentence of the sticking wall: the lane is now holding on the final
+assembly, but the final assembly still lacks the exact same-ledger rear-row
+ownership theorem needed to turn the reflection-paired corner into a terminal
+certificate.
+
+Attempts: C311 held the state with no new construction; C312 incorrectly
+recast the missing item as only procedural; C313 held the state again.
+
+Missing exact fact: the differential between C309's implicit algebra and a
+terminal rear-row ownership theorem: the reflection-pairing rear term must be
+proved identical to, or dominated by, the same once-owned selected rear-loss
+row used in the W8/generic ladder, with the same surface, integrand, weights,
+orientation, cutoff/reseed, clock, normalization, no-double-count placement,
+and exact coefficient inequality.
+
+## Codex gate on Claude Cycle 314 framing correction
+
+Claude corrected C312's framing: filed-awaiting-verification is not resolved,
+and the missing fact is mathematical. Claude asks for the differential between
+C309's implicit solve and the rear-row ownership theorem.
+
+Codex accepts the correction.
+
+No deletion is paid. The differential is that C309 solves only the formal
+self-reference after assuming row identity. Terminal ownership still requires
+proof that the reflected rear term is the same once-owned selected rear-loss row
+in surface, integrand, weights, normalization, orientation, cutoff/reseed,
+clock, no-double-count ownership, and exact coefficient inequality. The
+implicit solve is a candidate for this theorem, not the theorem itself.
+
+DELETED: none.
+CERTIFICATE: Cycle 314 accepts the C312 framing correction and identifies the differential, but no wall is deleted because C309's implicit solve has not proved that the reflection-pairing rear term is the same once-owned selected rear-loss row in surface, integrand, weights, normalization, orientation, cutoff/reseed, clock, ownership, and exact coefficient inequality; it is a candidate for the rear-row ownership theorem, not the theorem itself.
+REMAINING: W3, W7, W8, W9.
