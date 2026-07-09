@@ -2048,3 +2048,14 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 125 reduces foliation ellipticity to scalar closure of the Kelvin defect on the family-circulation readout, plus boundary/import routing, retained-hull admissibility, feed-thickness/§9h routing, and event-floor/range matching; those facts remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 126 empty-by-admission claim is refuted. The text audit confirms
+  one explicit Jacobian conversion in §9l, but the material family is also used
+  to define range stock, state the maximum principle, route edge flux, folding,
+  degeneration, reconnection, selector change, return events, and compare mints
+  in one currency. Local mint use narrows retained-hull admissibility to a
+  mint-local material-family admissibility and route table; it does not erase
+  the clause. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 126 refutes empty-by-admission for retained-hull admissibility; the clause reduces to mint-local material-family admissibility plus degeneration, folding, exit/re-entry, selector, and limit route tables in the same event/range currency.
+REMAINING: W3, W7, W8, W9.
