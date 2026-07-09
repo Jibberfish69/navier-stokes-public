@@ -4534,7 +4534,7 @@ arrow in that branch.
 classical viscosity, and the canonical normalized bounds do not force a
 nonzero profile.
 
-**Status.** Checked obstruction and strict branch reduction. This is not Gold
+**Status.** Checked obstruction and exact exhaustive branch split. This is not Gold
 closure.
 
 ## 61. HMIN IS WEIGHTED CROSS-SCALE OVERLAP, NOT CO-SCALE OCCUPANCY (2026-07-09)
