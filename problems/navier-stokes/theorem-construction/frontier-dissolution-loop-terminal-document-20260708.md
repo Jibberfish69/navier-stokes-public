@@ -2036,3 +2036,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 124 reduces the viscous TV clause to a serviceable-range maximum-principle theorem plus single-sign/remainder routing, retained-hull admissibility, and feed-thickness/§9h routing; those exact facts remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 125 drift-absorption lemma is accepted as the right theorem
+  shape, but not as a certificate. The missing fact is scalar closure: the
+  Kelvin defect \(\oint_C\Delta u\cdot dl\) must be determined by the
+  material-family circulation readout \(\Gamma\) and its transverse
+  derivatives. Kelvin's identity evolves loop circulation, but the defect still
+  sees the surrounding three-dimensional velocity field, tangential
+  distribution, loop geometry, cutoffs, and retained modes unless a closure
+  theorem proves otherwise. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 125 reduces foliation ellipticity to scalar closure of the Kelvin defect on the family-circulation readout, plus boundary/import routing, retained-hull admissibility, feed-thickness/§9h routing, and event-floor/range matching; those facts remain unproved.
+REMAINING: W3, W7, W8, W9.
