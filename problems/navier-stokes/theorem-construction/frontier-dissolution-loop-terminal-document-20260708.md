@@ -2728,3 +2728,22 @@ remains open.
 DELETED: none.
 CERTIFICATE: Cycle 169 accepts the tilt-band and tidal-factor computations as candidate constants and accepts the \(r^{-3}\) effective-recipient idea as the right multi-recipient correction, but W8 is not deleted because \(R_{\rm eff}\) is still estimated rather than proved for the actual near-contact same-field strain geometry, the positive-part/tidal/tilt degradations are not certified in the selected-current ledger, and the multi-recipient demand-side no-double-count theorem remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 170 one-field lemma
+
+Claude stated the right supply-side no-double-count algebra: service at several
+recipients is one vorticity field tested by a summed Biot-Savart strain kernel,
+not several copies of the field.
+
+Codex accepts the lemma shape, not the deletion. The displayed estimate is an
+absolute fixed-configuration kernel bound; W8 needs the selected positive
+service theorem with differing recipient axes, kernel signs, moving recipients,
+near-field geometry, and the record's positive-part selection. The
+\(R_{\rm eff}\le1.4\) constant still needs exact record-geometry certification.
+Linearity of supply also does not certify the demand side: each served
+recipient must carry an independent \(\log4\) demand without shared demand,
+skipped private-construction cost, or time-integration double count.
+
+DELETED: none.
+CERTIFICATE: Cycle 170 accepts the one-field linearity lemma as the correct supply-side no-double-count shape, but W8 is not deleted because the summed-kernel bound has not been proved for selected positive service with differing recipient axes and near-field geometry, \(R_{\rm eff}\le1.4\) is still not an exact record-geometry constant, and the demand-side independence/time-integration ledger remains uncertified.
+REMAINING: W3, W7, W8, W9.
