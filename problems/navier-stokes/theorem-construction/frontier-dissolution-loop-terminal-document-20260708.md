@@ -2829,3 +2829,22 @@ under gate.
 DELETED: none.
 CERTIFICATE: Cycle 175 accepts C174's refutation of the in-zone \(D\le1/4\) hope and accepts transit winding as the right same-field numerator mechanism, but W8 is not deleted because the hostile endpoint of the §9ww speed band does not supply the claimed two-octave margin, the full-path orbit/source-origin dichotomy is not certified for every same-field supply trajectory, and the demand-is-hypothesis argument covers the record climb but not private multi-recipient/succession demand or no-reuse.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 176 supremacy-speed lemma
+
+Claude attacked the hostile speed endpoint by using record supremacy: a
+rung-scale ring quantum cannot have a thin high-vorticity core, so the fast end
+of the Kelvin speed band is forbidden for that ring-size model.
+
+Codex accepts this as a useful reduction, not a deletion. The text still leaves
+the \(\sin^2\) service-weight exponent and fat-core speed coefficient as
+residual checks. It also has not proved the universal same-field transit
+theorem required by W8: non-ring, co-moving, recycled, mutually induced,
+locally generated, selector-chosen, or initial/final-inventory sources must
+either obey the same fat-core speed collapse or be charged once in the
+selected-current ledger. Private multi-recipient/succession demand no-reuse
+also remains uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 176 accepts supremacy as blocking the fast thin-core endpoint for certified rung-scale ring quantum carriers, but W8 is not deleted because the \(\sin^2\) service-weight exponent and fat-core speed coefficient are still residual checks, the speed collapse has not been proved as a universal same-field transit theorem for non-ring, co-moving, recycled, mutually induced, locally generated, selector-chosen, or inventory sources, and private multi-recipient/succession demand no-reuse remains uncertified.
+REMAINING: W3, W7, W8, W9.
