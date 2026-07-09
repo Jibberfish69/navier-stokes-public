@@ -3882,3 +3882,114 @@ spectral-rigidity lever is dead by exact counterexample; the residue is the
 critical a priori estimate (the Clay statement). Closing needs a genuinely
 supercritical input none of the exact structures contain. No closure claimed;
 this is the honest, adversarially-verified, two-lane terminal.
+
+## 57. COMPLETE-HISTORY MOMENT GATE: Leray bounds record occupancy, not record height (2026-07-09)
+
+The remaining loophole in §§53--56 is that their countersequences are different
+smooth initial states rather than times of one solution. The strongest direct
+history consequence of the same global spectral moments still does not exclude
+that loophole.
+
+Write
+
+```math
+R(t)=M_1(t)=\|u(t)\|_{\dot H^{1/2}}^2,
+\qquad
+E(t)=M_0(t)=\|u(t)\|_2^2.
+\tag{G57.1}
+```
+
+The energy identity and spectral Cauchy--Schwarz give
+
+```math
+E'=-2\nu M_2,
+\qquad
+R^2=M_1^2\le M_0M_2.
+\tag{G57.2}
+```
+
+Therefore
+
+```math
+-\frac d{dt}E^2
+=4\nu E M_2
+\ge4\nu R^2,
+\tag{G57.3}
+```
+
+and every smooth epoch satisfies the datum-bound history estimate
+
+```math
+\boxed{
+4\nu\int_0^T R(t)^2dt
+\le E(0)^2-E(T)^2
+\le E(0)^2.
+}
+\tag{G57.4}
+```
+
+Equivalently, for every `K>0`,
+
+```math
+\big|\{t\in[0,T]:R(t)\ge K\}\big|
+\le\frac{E(0)^2}{4\nu K^2}.
+\tag{G57.5}
+```
+
+This is a genuine complete-history estimate for the one velocity field. It
+bounds the time occupied by high critical records; it does not bound their
+height.
+
+The exact mean-frequency identity sharpens that distinction. Since `m=R/E`,
+
+```math
+m'
+=\frac{R'}E+2\nu m\frac{M_2}{E}.
+\tag{G57.6}
+```
+
+At every smooth time on which the critical height is nondecreasing,
+`R'>=0`, Jensen's inequality `M_2/E>=m^2` yields
+
+```math
+\boxed{m'\ge2\nu m^3.}
+\tag{G57.7}
+```
+
+Thus on an uninterrupted record-upcrossing interval beginning at `t_0`,
+
+```math
+\frac1{m(t)^2}
+\le
+\frac1{m(t_0)^2}-4\nu(t-t_0).
+\tag{G57.8}
+```
+
+This forces a high record interval to end or lose smoothness within the
+scale-compatible time `1/(4 nu m(t_0)^2)`. It is not a regularizing
+contradiction: finite-time loss of smoothness is precisely the counterhistory
+under test.
+
+The Navier--Stokes scaling confirms that this shrinking-time behavior is
+dynamically admissible at the level proved here. If `U` is any smooth solution
+with a strict critical upcrossing on `[0,tau]`, then
+
+```math
+U_\lambda(t,x)=\lambda U(\lambda^2t,\lambda x)
+\tag{G57.9}
+```
+
+has the same critical-height history on `[0,lambda^{-2}tau]`, while its `L^2`
+energy is multiplied by `lambda^{-1}`. Hence neither `(G57.4)` nor record
+monotonicity supplies a positive scale-independent dwell time for a high
+record. This scaling statement compares complete smooth NS solutions; it does
+not assert that their upcrossings concatenate into one trajectory.
+
+**Gate result.** The one-field history does add the exact occupancy bound
+`(G57.4)`, but that bound is compatible with unbounded records concentrated in
+summably short intervals. The record inequality `(G57.7)` accelerates those
+intervals instead of excluding them. Consequently the attempted closure from
+Leray energy plus the spectral mean and record monotonicity is exhausted. A
+successful Gold theorem must use signed angular, phase, or material-history
+information discarded by the radial moments; the unsigned `Q_m` magnitude and
+the moment occupancy bound do not provide that information.
