@@ -606,3 +606,15 @@ None.
   with W3 row admission/rung-uniformity, W7 nonlinear graph closure or
   route-out, W8 selected-linear payer construction, W9 terminal-window and
   zero-surplus rows, plus typed boundary/singular failures.
+- The W7 field-current Reynolds-defect gate refutes the tempting empty-by-
+  admission candidate from ordinary spacetime-current closure. If
+  \(u_j\rightharpoonup u\) and
+  \(u_j\otimes u_j\rightharpoonup u\otimes u+R\), the weak limit satisfies
+  Navier-Stokes-Reynolds with forcing \(-\operatorname{div}R\). W7 graph
+  passage follows only if \(R=0\), or if
+  \(\mathbb P\operatorname{div}R=0\) with pressure-service compatibility, or if
+  \(R\) is legally carried or routed out. The checked Reynolds-defect source
+  gives localized anisotropic defects with
+  \(\mathbb P\operatorname{div}R\ne0\) and leaves legal carriage through cover,
+  ancestry, tower, and payer rows open. W7 therefore remains the
+  Reynolds-defect closure/compatibility/route-out burden.
