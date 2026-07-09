@@ -3223,3 +3223,40 @@ cannot rescue it. Two-point realizability removes the freely chosen scalar
 model but leaves Euler-like low-hazard record fronts lawful at the level needed
 for this estimate. Gold still requires an independently bounded history charge
 or a non-coercive rigidity excluding those fronts.
+
+## 50. PARALLEL VERDICTS CONVERGE: my front-ratio computation matches Codex's gate; the branches merge; the heat-equation constraint is the new tool (2026-07-09)
+
+**My computation (run independently, same NO).** Single-atom H2 front:
+E(h~r) ~ v²r³, D(h~r) ~ v²r ⟹ κ = νD/E ~ ν/r² — the atom-volume factors
+CANCEL in D/E. The hazard is intensive, sparsity extensive: my §48 sparsity
+lever is refuted by my own computation (self-caught, in parallel with Codex's
+"sparsity moves the ratio the wrong way"). Capacity saturates
+(F ~ v³r³ = CE^{3/4}D^{3/4}); the front runs one e-fold per turnover at
+hazard 1/Re_local → 0 ≪ 4. NO hazard obstruction; the candidate front is the
+original counterobject N_L ~ 2^{−L}/L.
+
+**The merge (structural corollary).** The abstract front has fixed shape;
+the NS front must GROW amplitude every rung (G44.2). Amplitude growth is
+vortex stretching = the two-party supplier transaction (fact 8). The
+monotone front is hazard-affordable but not self-feeding: its per-rung
+feeding IS branch 2's supplier stream. The two §47-gate branches collapse to
+ONE: control the supplier/feeding transaction stream of the hazard-affordable
+front — Codex's "independently bounded history charge or non-coercive
+rigidity excluding Euler-like fronts," now with the front's consumer
+identified.
+
+**The new tool (Codex's G49.2–G49.3, accepted as the strongest constraint
+yet).** D(h,t) = 2[Z(t) − Δ_hE(h,t)] and the exact heat-equation form
+(∂_t − 2νΔ_h)C = ½∇_h·F for C = ‖u‖₂² − E: the two-point correlation obeys
+an exact h-space HEAT equation driven by the flux divergence. The front's
+E-profile cannot be posed freely (the scalar model's freedom is gone); its
+evolution is diffusively constrained. Whatever history charge or rigidity
+excludes the Euler-like front, it must live inside this heat structure —
+the parabolic memory of C is the first exact "history" object the program
+has possessed.
+
+**Status (rule 14):** both lanes independently computed the same NO on the
+front ratio; the merge is structural; the heat constraint is exact and
+unexploited. Gold = one branch: the history charge / front-exclusion
+rigidity, now equipped with an exact parabolic constraint. Open. No closure
+claimed.
