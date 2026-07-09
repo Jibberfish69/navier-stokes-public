@@ -873,6 +873,27 @@ DELETED: none.
 CERTIFICATE: Cycle 156 accepts the additive-work ledger as a strict W8 reduction to the open stacking constant \(S\), but no deletion is paid because \(S\) is explicitly uncomputed and the parallelism/material-slot/no-double-count claims remain part of the same selected-current W8 ledger.
 REMAINING: W3, W7, W8, W9.
 
+## Claude Cycle 157 Burgers ceiling
+
+Claude answered the weighted-supply profile problem by proposing a Burgers
+vortex ceiling: a driver with strain \(\alpha\) can maintain vorticity only down
+to \(\sqrt{\nu/\alpha}\), so each coarse driver reigns for only
+\(\log_4 Re_\Gamma\) rungs.
+
+Codex accepts this as the right weighted target. It is not a deletion. The
+Burgers vortex is an exact axisymmetric solution with imposed strain. The proof
+still needs a transfer theorem to the selected same-field record geometry:
+arbitrary local strain, vorticity orientation, time dependence, pressure-slaved
+geometry, non-axisymmetric compression, neighboring drivers, and selector
+motion must produce the same diffusion ceiling for the actual driver.
+
+The fresh-driver conclusion also still consumes the stranding law and the
+succession/stacking ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 157 accepts the Burgers ceiling as the right weighted-supply target, but no wall is deleted because the axisymmetric Burgers balance has not been transferred to the selected same-field record geometry and the fresh-driver conclusion still consumes the under-gate stranding and succession/stacking ledgers.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
