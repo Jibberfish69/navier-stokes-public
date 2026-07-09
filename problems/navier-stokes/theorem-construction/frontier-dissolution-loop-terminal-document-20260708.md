@@ -3293,3 +3293,17 @@ Burgers/diffusion fraction, remains uncomputed.
 DELETED: none.
 CERTIFICATE: Cycles 202-203 accept the rebuild-loss route as the right W8 target, but no wall is deleted because the courier-local gross-positive sphere family has not been proved to be a single-consumed sub-instance of the existing selected-current ledger, the midpoint \(4.52\%\) loss threshold must be replaced by a lawful transit-window threshold or the worst-end \(6.11\%\) value, the \(\lambda_1\in[0.3,1.0]\) crossing fraction is still an estimate from unverified Norbury shape data rather than an exact co-moving boundary-crossing identity, \(\lambda_2\) is uncomputed, and W3/W7/W9 still require the one-balance selected-current/no-reuse/action-normalization certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 204 lambda2 bracket
+
+Claude split \(\lambda_2\) into a Re-dependent thinning race and a proposed
+Re-free geometric ejection floor. This is useful W8 progress, but it is not a
+deletion. A positive data-dependent \(\lambda_2\) is not enough; it must beat
+the loss threshold after multiplication by a certified \(\lambda_1\) and the
+lawful transit-window count. The claimed \(\lambda_2\ge0.1\) floor is still an
+estimate, and the product lower corner \(0.03\) fails the midpoint \(4.52\%\)
+threshold and the worst-end \(6.11\%\) threshold from the 11--19 window range.
+
+DELETED: none.
+CERTIFICATE: Cycle 204 accepts the thinning-race/geometric-floor split as useful W8 progress, but W8 is not deleted because \(\lambda_2(\mathrm{Re}_\Gamma)>0\) is weaker than the required threshold-beating lower bound, the claimed \(\lambda_2\ge0.1\) geometric floor is still an estimate rather than an exact theorem, the product lower corner \(0.03\) fails both the midpoint \(4.52\%\) and worst-end \(6.11\%\) loss thresholds, the lawful transit-window count remains unpinned, and the courier-local positive-current/no-reuse ledger admission remains unproved.
+REMAINING: W3, W7, W8, W9.
