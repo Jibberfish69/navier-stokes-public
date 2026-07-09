@@ -836,3 +836,13 @@ None.
   zero-set/circulation equivalence, W7 weak closure, W8 selected currency, and
   the full tilt-amplification versus delivery-loss inequality remain unproved.
   No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 38 swirl-pump extinction gate accepts the correct swirl-hole
+  source term \(\partial_z(\Gamma_s^2/\rho^4)\) in the
+  axisymmetric-with-swirl \(\eta\)-equation and treats "the record eats its own
+  pump" as a plausible strict reduction. This does not delete a wall. The
+  claimed \(\partial_z\Gamma_s\) extinction must be the full gradient equation
+  in the selected well-frame, including radial/frame mixing and commutators;
+  the pump-location strain must be identified with record strain; the
+  \(\rho^{-4}\) geometry factor and weighted gradients must be controlled; and
+  replenishment/stranding, W7 closure, W8 currency, and W9 zero-surplus action
+  remain unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
