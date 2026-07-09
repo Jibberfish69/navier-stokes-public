@@ -230,6 +230,30 @@ DELETED: none.
 CERTIFICATE: Cycle 129 conditionally removes the need for a literal conversion rate, but only after the three-row event partition, material exclusivity, range budget, threshold match, and re-service event floor are proved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 130 fixed-class envelope
+
+Claude replaced the shrinking moving class by a fixed loop class and used the
+fixed-loop circulation identity
+\[
+\partial_t\Gamma(C,t)
+=\oint_C(u\times\omega)\cdot dl+\nu\oint_C\Delta u\cdot dl .
+\]
+Codex accepts this identity and the algebraic cancellation
+\((u\times\omega)\cdot dl=0\) on a smooth loop with \(\omega\parallel dl\).
+
+The deletion is still refuted. The supremum over rectifiable loops with a
+length cap is not yet known to be attained by a smooth interior loop. Length
+cap activation, boundary activation, folding, selector changes, and nonsmooth
+maximizing sequences require paid route rows. The maximizing loop must also be
+shown to be the same selected rung-\(n\) serviceable mint stock, not an
+unrelated high-circulation vortex-line loop.
+
+DELETED: none.
+CERTIFICATE: Cycle 130 reduces the strain-control demand to a fixed-loop variational envelope theorem with compact smooth selected-loop maximizers, paid length/boundary activation, same-mint selector restriction, and range/event currency matching; no deletion is confirmed.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
