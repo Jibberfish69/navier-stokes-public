@@ -3540,3 +3540,19 @@ N2/C210, and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 219 accepts the smooth-selector pointwise-order bracketing and transition-band decomposition, but W8 is not deleted because the threshold-band no-accumulation claim still depends on the unproved C55/winding phase portrait in the actual courier-local orientation variable, the \(1+O(\mathrm{band})+O(\mathrm{halo})\) factor is not an exact constant in the selected-current normalization, margin absorption still spends the unproved \(\lambda\) bracket against the lagged \(6.70\%\) threshold, and N1, N2/C210, and the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 220 N1 symmetry
+
+Claude proposed to compute N1 by fore-aft symmetry: the steady ring and
+circular \(Q\)-maximizer are symmetric, so the mismatch crossing flux should
+split half front and half rear.
+
+Codex accepts this as the right N1 target. No deletion is paid. The symmetry
+still has to be proved for the actual smoothed selected-current crossing
+integrand on the re-seeded courier sphere, including the C214 exchange/source
+terms and the C217 front/rear geometry. The second-order deformation correction,
+\(\lambda_1\), N2/C210, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 220 accepts fore-aft symmetry as the right N1 target, but W8 is not deleted because symmetry has not been proved for the actual smoothed selected-current crossing integrand on the re-seeded courier sphere, the steady-ring and circular-maximizer symmetries have not been transferred to the mismatch flux with C214 exchange/source terms, the second-order deformation correction is unbounded, the \(\lambda_1\ge0.3\) input remains uncertified, and N2/C210 plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
