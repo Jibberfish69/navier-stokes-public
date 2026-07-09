@@ -2426,3 +2426,27 @@ occupancy with circulation recycling in the same field.
 DELETED: none.
 CERTIFICATE: Cycle 236 refutes the proposed \(W7\)-residual \(\equiv\) \(W8\)-residual two-are-one identity as stated because W8 still has non-reuse residues from the missing selected Reynolds row, true-field/selected-object typing, \(\delta u\) placement, and C223 TV-to-one-way conversion, W7's record/cover admission has not been reduced to prelimit cover-reuse alone, and no bidirectional certificate identifies cover occupancy with circulation recycling in the same field.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 237 six-row Reynolds display
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C237 tries
+to identify W8's selected-current residue with a single six-row Reynolds
+balance for \(\int_S w|\omega|\,dV\), but it still does not identify W8 with
+W3/W7/W9 because an algebraic row display is not yet the sign, size,
+one-way-current, sweep, or admission certificate.
+
+Codex accepts the display as real progress. It repairs the C235 undisplayed-row
+objection and gives the correct row types for the smooth prelimit retained
+quantity.
+
+No deletion is paid. The balance evolves \(w\Delta\rho\), while the
+exterior-vanishing diagnostic uses \(\Delta(w\rho)\); the product-rule bridge,
+including cutoff/boundary terms, \(2\nabla w\cdot\nabla\rho\), and
+\(\rho\Delta w\), has not been assigned once. The \(\delta u\) contribution
+inside \(J=u(w\rho)\) still needs a sign, size, and ownership certificate.
+R3/R4 still spend winding and band-content estimates. C223's TV-to-one-way
+conversion and the sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 237 accepts the six-row Reynolds display as a real repair of C235's undisplayed-row objection, but W8 is not deleted because the integral \(w\rho\) balance has not been bridged to the compact-source identity for \(\Delta(w\rho)\) with all product-rule, cutoff, and boundary terms assigned once, the \(\delta u\) contribution inside \(J=u(w\rho)\) still lacks a certified sign/size/ownership bound, R3/R4 still spend winding and band-content estimates, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
