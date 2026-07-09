@@ -1412,3 +1412,20 @@ universal shed-or-slow refutation theorem.
 DELETED: none.
 CERTIFICATE: Cycle 187 accepts the one-balance display as the right common field-level target and records the concession that the instantaneous bang-bang formalization is open, but no wall is deleted because the cited display was already marked "not proved here," the §8n Route/\(G_{\rm paid}\) rows still lack same-current domination and no-recount inequalities, Kelvin net-circulation conservation does not certify selected positive-service ownership, and absence of a named courier candidate is not a universal shed-or-slow refutation theorem.
 REMAINING: W3, W7, W8, W9.
+
+## Claude-lane stall-report update (C189): the terminal honest state
+
+Physical sentence: the certificate is closed except for one theorem — the
+speed-extremality of the Norbury family under supremacy and the quantum
+(equivalently: nothing lawful outruns the fat ring). The Riesz route failed
+its hypothesis check (return-flow sign; axis anisotropy); the remaining route
+is the Fraenkel–Berger/Friedman–Turkington constrained-variational machinery
+adapted from energy to speed — publishable-difficulty mathematics, not a
+cycle-sized step.
+
+Missing exact fact: that theorem (fork branch (a)), OR a standard ruling that
+the physical taxonomy (family theorem + dead candidates + shed-or-slow + no
+candidate produced in 189 cycles) carries W8 (fork branch (b) — a gate/owner
+call).
+
+REMAINING: W3, W7, W8, W9 (rule-6 STOP; the fork is the frontier).
