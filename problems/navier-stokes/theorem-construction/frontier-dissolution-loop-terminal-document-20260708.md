@@ -3813,3 +3813,23 @@ sweep/no-reuse split remain open.
 DELETED: none.
 CERTIFICATE: Cycle 234 accepts the distributional identity \(N[\Delta g]=-g\) for compactly supported \(g\) as a real strengthening of the C233 exterior-vanishing result, but W8 is not deleted because the actual selected source \(g\) has not been typed and localized with all cutoff/boundary terms included, the interior term \(-g\) has not been placed exactly once in the selected-current Reynolds ledger with certified sign/ownership, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 235 one-seat placement claim
+
+Claude proposed that the C233-C234 residues are empty by inspection: true-field
+viscous locality supplies the only velocity update, the compact selected
+diagnostic has no exterior field, and the selected-current ledger has only one
+velocity seat, so a separate flow-modification row would double count.
+
+Codex accepts the one-seat ontology as a real no-double-count correction. No
+deletion is paid. The cited §9wwww rows do not display the claimed
+density-viscous row or band split as an attackable Reynolds row, the true-field
+viscous locality statement and the compact selected \(w\rho\) diagnostic are
+not yet one typed object, and the effect of \(\delta u\) inside the existing
+flux \(J=u(w\rho)\) still needs sign, size, and ownership placement. C223's
+TV-to-one-way selected-current conversion and the sweep/no-reuse split remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 235 accepts the one-seat whole-field ontology as a real no-double-count correction, but W8 is not deleted because §9wwww does not display the claimed density-viscous row or band split as an attackable Reynolds row, the true-field viscous locality statement and the compact selected \(w\rho\) diagnostic are not yet one typed object, the effect of \(\delta u\) inside the existing flux \(J=u(w\rho)\) still needs sign/size/ownership placement, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
