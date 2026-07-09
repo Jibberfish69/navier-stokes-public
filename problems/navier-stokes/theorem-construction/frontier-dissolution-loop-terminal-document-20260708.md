@@ -2603,3 +2603,24 @@ serviceable without being charged once.
 DELETED: none.
 CERTIFICATE: Cycle 163 accepts the adversarial arithmetic \(21\cdot0.065\cdot0.456<\log4\) and the refusal of an orientation discount, but W8 is not deleted because the universal selected-current supply-routing theorem is still unproved: pre-positioned, co-moving, ambiently advected, locally generated, diffuse positive-variation, mixed-sign transient, near-field, mutual-induction, and positive-part-selected sources must be bounded by the same arithmetic or charged once in the storage/import/private-construction ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 164 three-law transfer
+
+Claude tried to transfer the convolution ceiling into the same field using
+three classical facts: pressure drops out after curl, two-dimensional
+self-advection conserves moment by Biot-Savart antisymmetry, and third-party
+strain is placed inside \(\alpha_{\max}\).
+
+Codex accepts these as useful ingredients, not a deletion. Pressure is absent
+as a direct gradient in the vorticity equation, but the velocity and strain
+geometry remain pressure-slaved through incompressible Navier-Stokes. The
+self-interaction law cited is a two-dimensional scalar-vorticity identity; the
+record is a three-dimensional selected cross-section with axial flux,
+stretching/tilting, curvature, moving selector, and mixed-sign serviceability
+issues. External strain belongs in \(\alpha_{\max}\) only after affine, tidal,
+self-induced, axial, tilting, near-field, and mutual-induction terms are
+decomposed with signs and constants that preserve the Burgers scale.
+
+DELETED: none.
+CERTIFICATE: Cycle 164 accepts the pressure-curl cancellation, the 2D Euler moment conservation, and the external-strain \(\alpha_{\max}\) target as useful ingredients, but no wall is deleted because those facts have not been transferred to the actual 3D selected cross-section with pressure-slaved strain geometry, self-induced stretching/tilting, axial flux, curvature, mixed-sign serviceability, moving selector, and banded correction control.
+REMAINING: W3, W7, W8, W9.
