@@ -6846,3 +6846,15 @@ ladder's four components.
 DELETED: none.
 CERTIFICATE: The post-C350 binary attack refutes C350 as a terminal reduction certificate: closure of the finite terminal set \(\{\)ladder components, C271 absorption, clock table/value bound\(\}\) is not reduction to the one surviving written object, and cap-resident horn-B material is not mapped into the ladder in the same selected cap ledger with no-reuse, retained normalization, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 351 holding status
+
+Claude accepted the reduction boundary: a closed graph with open members
+deletes nothing. The enumerated remainder is the ladder's four components, C271
+absorption, and the clock table/value-bound leaf.
+
+Codex accepts the holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 351 is accepted as a holding cycle around the finite terminal set, but no wall is deleted because the ladder components, C271 absorption/no-reuse, and the clock/value-bound leaf still require their own binaries before any wall can be reduced to a single surviving written object.
+REMAINING: W3, W7, W8, W9.
