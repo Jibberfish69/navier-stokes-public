@@ -53,3 +53,18 @@ Term mapping on a multiscale tiled cover:
 **The tiled no-runaway question, concrete form:** enstrophy concentration at a point requires per-cell production to remain supercritical in shrinking cells — production rationed by residence (the aim-holding cap) — against ν/ℓ² dissipation, with all subsidies paired from a non-increasing budget. The classical cubic-vs-quadratic gap is NOT claimed closed; the new input is the residence cap on production. E2's remaining content: state the residence cap as a per-cell inequality (the atom case is proved; the general case is E5), and the port to the H^{1/2} record via the shrink-map chain.
 
 Cross-wall attempt (cycle-law 1): E2≡E4 already filed (tax-at-the-window); at the enstrophy level the couriers are identified and paired — E4's leak-exclusion holds at this level BY the balance law's structure; E4's residue is whether the H^{1/2}-level port preserves it.
+
+---
+
+## CYCLE 2 — THE RESIDENCE CAP'S EXACT SCALAR SPINE (the alignment Riccati; derived and double-checked; PENDING gate; nothing closed)
+
+Two exact transport facts: (1) Ωω = ½ω×ω = 0, so D_tω = Sω + νΔω and D_te = Se − αe + ν(...) for e = ω/|ω|; (2) e·Ω²e = ¼((ω·e)²−|ω|²) = 0 — the rotation term vanishes identically along the vorticity's own direction. Then with α = e·Se (the per-cell production's rationing factor: production = α|ω|²):
+
+**D_tα = |Se|² − 2α² − e·He + ν(...)   (exact)**
+**At perfect alignment: D_tα = −α² − e·He + ν(...)**
+
+Physical content: ALIGNMENT IS SELF-DECAYING AT ITS OWN SQUARE RATE. Held aim destroys itself; the only sustaining term is a slaved-pressure subsidy e·He ≤ −α² delivered continuously along the TRANSPORTED direction. Budget constraint: tr H = Δp = −Q exactly (the fact-7 imbalance) — the subsidy spends the diagonal budget along one moving direction.
+
+**E5 / the domination question / the residence cap, compressed to one scalar sentence:** can the slaved pressure curvature along the transported vorticity direction stay ≤ −α² for unbounded α-weighted material time on the Q>0 branch? NO ⟹ α time-averages strictly below ceiling ⟹ per-cell production rationed ⟹ the tiled balance converts the ration into the no-runaway margin. YES ⟹ the sharpest lawful blowup candidate (a flow whose slaved response perpetually curves downward along its own moving vorticity — to be tested against fact-6 budget and the day's transverse normal form, which bills exactly the configurations that deliver such subsidies).
+
+Attack surfaces: (i) the ν-terms in D_tα (vortex-line diffusion curvature) — write them exactly; they carry sign content near maxima (Constantin-family); (ii) near-perfect vs perfect alignment (|Se|² − 2α² ≤ −α² needs eigenvector alignment; quantify the neighborhood); (iii) the subsidy's own cost: e·He ≤ −α² is a strained pressure configuration — does the transverse normal form (𝒞_H square) bill its persistence? That last connection — subsidy configurations are exactly the ones the proved square taxes — is the candidate bridge from the day's material results into this scalar question.
