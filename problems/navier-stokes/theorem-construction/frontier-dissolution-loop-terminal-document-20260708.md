@@ -1526,3 +1526,21 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 89 closes the direction-coherence provenance sub-obstruction conditionally; the vorticity-magnitude term, full coefficient input, tube/other-shell control, and W7/W8 no-recount remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 90 CF rewrite is accepted as the right ontology for the C83
+  magnitude objection. If the proof only needs the stretching scalar and the
+  perpendicular strain action on the vorticity direction, then full tensor
+  \(\nabla u\) was too strong a target, and the Constantin--Fefferman scalar
+  kernels are the right way for direction coherence to cancel the dangerous
+  near-field magnitude variation. This is still a strict reduction. The exact
+  \((|\omega|,\xi)\) equations must be written on the tier, including the
+  distributional/tier-floor handling of zeros, the favorable magnitude diffusion
+  sign, every viscosity term in the direction equation, and the
+  \(\nabla\log|\omega|\)-type couplings. Those terms must be controlled by the
+  same induction or charged to the capped ODE without no-recount leakage. The CF
+  kernel must also be stated with its exact cancellation exponent and with
+  low-vorticity, other-tube, and intermediate/far pieces assigned in the same
+  current. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 90 reduces the C83 magnitude obstruction to the coupled Constantin--Fefferman scalar system; the exact scalar equations, viscosity/tier-boundary terms, CF kernel exponent, and same-current route charges remain unproved.
+REMAINING: W3, W7, W8, W9.
