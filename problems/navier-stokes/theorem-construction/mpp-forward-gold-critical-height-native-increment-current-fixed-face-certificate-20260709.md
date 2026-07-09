@@ -1380,3 +1380,14 @@ field-coordinate consequence of that evolution.
 claimed. The first unsupported implication is the reduction from arbitrary
 unbounded `H_crit` evolution of the one field to the proposed aligned
 recurrent-record class.
+
+There is a stronger origin failure behind that implication. The aligned class
+was selected in the earlier construction as the zero set of a transverse
+pressure `bill/service` ratio. That ratio is precisely the separable grammar
+removed by the participation law. Once the ratio is removed, its minimizing
+sequence no longer supplies the condition `[S,Hess p]=0`. Co-diagonality is a
+lawful instantaneous property of some Navier--Stokes fields, including the
+filed shear-cell degeneracies; what is lost is its claimed status as the
+exhaustive worst case of an arbitrary critical-height blowup. The aligned
+Liouville problem is therefore a conditional test class, not the one remaining
+Gold object.
