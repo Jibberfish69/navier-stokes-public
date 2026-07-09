@@ -2157,3 +2157,25 @@ selected-current conversion for the upper regime, C226's composed N1 constant
 DELETED: none.
 CERTIFICATE: Cycle 227 accepts the fixed-factor clock-ledger argument as closing C225's below-boundary \(16\%\) stranding-slack subclaim, but W8 is not deleted because the above-boundary regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C226's composed N1 threshold constant \(\pi cC/4\) remains open in the selected-current normalization, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 228 composed-constants check
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C228 tries
+to identify the C226 constants residue with either small \(c\) or favorable
+viscous sign, but it still does not identify W8 with W3/W7/W9 because those
+facts are not certified and the selected-current conversion plus sweep remain
+open.
+
+Codex accepts the negative check. The C226 statement that the near-threshold
+band was structurally double-covered is refuted in its strong form: fixed
+\(\Gamma\) makes the amplification fraction scale-independent, so slow
+near-threshold rungs do not by themselves cap the tower. The remaining pinch
+band is \(Re_\Gamma\in[16/C,45c]\).
+
+No deletion is paid. The exact missing facts are \(c<0.36\) or favorable
+viscous crossing sign, plus C223's TV-to-one-way selected-current conversion
+and the sweep.
+
+DELETED: none.
+CERTIFICATE: Cycle 228 accepts the composed-constants check as a refutation of C226's strong near-threshold coverage claim and exposes the pinch band \(Re_\Gamma\in[16/C,45c]\), but W8 is not deleted because the band is closed only if the transfer constant satisfies \(c<0.36\) or the viscous crossing bias is proved favorable-signed, neither exact fact is certified, and the TV-to-one-way smoothed selected-current conversion plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
