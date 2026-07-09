@@ -6202,3 +6202,76 @@ W9.
 DELETED: none.
 CERTIFICATE: The post-C325 binary attack refutes C319 as a terminal certificate at factor (1): the cap-velocity bound omits the same-field remainder \(u_{\mathrm{rem}}\), so the stated \(u_{\mathrm{cap}}=u_{\mathrm{rel}}+u_{\mathrm{self}}\) decomposition is not an exact certificate for arbitrary selected data unless all ambient, neighboring, Horn-B, cutoff/reseed, harmonic, and other non-courier contributions are proved absent or included in the same selected ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 326 cap-velocity repair
+
+Claude repaired the C319 factor-(1) omission by adding the ambient
+differential term: uniform cancellation, courier self-field, and ambient
+differential.
+
+Codex accepts the trichotomy as the right repair to the literal omission.
+
+No deletion is paid. The repair bounds the ambient differential by invoking
+the C267 dyadic/tidal object, but C267 was previously accepted only as a
+reduction. C268 left the steady or near-steady sub-cap non-axisymmetric
+deliverer cell unpriced, and later gates kept C267 dyadic/stacking coverage,
+Horn-B coverage, and generic margins under gate.
+
+DELETED: none.
+CERTIFICATE: Cycle 326 accepts the three-component cap-velocity decomposition as the right repair to C319's omitted remainder, but no wall is deleted because the ambient differential is bounded only by invoking the unconfirmed C267 dyadic/tidal coverage theorem, including the still-gated sub-cap non-axisymmetric, Horn-B, selected-ledger, and no-double-count clauses.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 327 remainder map
+
+Claude mapped the five named remainders into one all-other-vorticity dyadic sum
+plus two nullities.
+
+Codex accepts the whole-space source split and nullity bookkeeping: cutoff and
+reseed operations are not themselves velocity sources, and a decaying
+whole-space smooth prelimit has no sourceless harmonic velocity remainder.
+
+No deletion is paid. The load-bearing claim that ambient, neighboring, and
+Horn-B contributions are all covered by the same C267 dyadic sum, including
+the \(j=0\) comparable-scale term, remains unconfirmed in the selected ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 327 accepts the whole-space Biot-Savart source split and the cutoff/reseed and harmonic nullity claims as bookkeeping repairs, but no wall is deleted because the claim that all ambient, neighboring, and Horn-B non-courier vorticity is bounded by the C267 dyadic sum, including the \(j=0\) comparable-scale term, remains an unconfirmed selected-ledger coverage theorem rather than a terminal certificate.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 328 verdict-response pairing
+
+Claude claimed the post-C325 remainder is answered by C326-C327: non-courier
+vorticity is priced by C267, cutoff/reseed are operations, and the harmonic
+remainder is zero.
+
+Codex accepts this as a direct response to the post-C325 refutation.
+
+No deletion is paid. The response still depends on proving that the C267
+dyadic/tidal sum exhaustively bounds all non-courier cap velocity in the same
+selected ledger, including \(j=0\) comparable-scale, Horn-B,
+non-axisymmetric, de-oriented, reseeded, and arbitrary admitted material. C319
+factors (2) and (3) also remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 328 accepts C326-C327 as a response to the post-C325 cap-velocity refutation, but no wall is deleted because the priced branch depends on the still-unconfirmed theorem that the C267 dyadic/tidal sum exhaustively bounds all non-courier cap velocity in the same selected ledger, including \(j=0\) comparable-scale, Horn-B, non-axisymmetric, de-oriented, reseeded, and arbitrary admitted material; C319 factors (2) and (3) also remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 326-328
+
+Physical sentence of the sticking wall: the cap-velocity failure has been
+reduced from a missing remainder to an all-other-vorticity dyadic/tidal
+coverage theorem, but that theorem is not certified for the actual same-field
+selected rear cap.
+
+Attempts: C326 added the ambient-differential term and bounded it by the C267
+tidal object; C327 mapped ambient, neighboring, and Horn-B sources into the
+C267 dyadic sum while treating cutoff/reseed and harmonic remainder as
+nullities; C328 claimed that this answers the post-C325 refutation in the
+priced branch.
+
+Missing exact fact: a same-selected-ledger theorem that the C267 dyadic/tidal
+sum, including its \(j=0\) comparable-scale term, exhaustively bounds the
+non-courier cap velocity for arbitrary selected, Horn-B, non-axisymmetric,
+de-oriented, reseeded material, with exact constants, no double count, and the
+same L3-prime cap/window/clock normalization; plus the still-open C319 halo
+density and clock-conversion factors.
