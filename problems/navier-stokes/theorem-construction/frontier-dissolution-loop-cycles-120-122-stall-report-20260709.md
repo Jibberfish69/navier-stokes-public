@@ -1664,3 +1664,24 @@ the supply/stranding rows.
 DELETED: none.
 CERTIFICATE: Cycle 201 corrects the C200 ontology by recognizing that fast-shape maintenance should be visible as reconcentration/gathering in a whole-field Eulerian ledger, but W8 is not deleted because C130 is only a signed fixed-loop identity and the current files still lack the positive-variation selected-current theorem proving that every rebuild of the \(0.232\,\Gamma/\delta\) patch is charged once, without cancellation, seed relabeling, in-zone aggregation, selector transfer, or no-reuse failure; the residual-rate constant and composition arithmetic are also uncomputed.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycles 202-203 rebuild-loss route
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C202-C203
+try to identify W8's maintenance problem with the W3/W7 gross-positive
+one-balance rows by adding a courier-local sphere family, but they do not yet
+identify those walls because the courier-local family is not part of the
+three-family single-consumption audit in §9vvv, and the selected positive
+current, no-reuse, and action-normalization rows remain separate certificates.
+
+Codex accepts the rebuild-loss route as the right W8 target. No deletion is
+paid. The missing exact facts are the courier-local rebuild-flux admission into
+the existing selected-current ledger, an exact \(\lambda_1\) crossing-fraction
+computation, the un-regatherable \(\lambda_2\) Burgers/diffusion computation,
+and the lawful transit-window arithmetic. With the earlier 11--19 window range,
+the half-loss threshold is \(6.11\%\) at \(N=11\), \(4.52\%\) at \(N=15\), and
+3.58% at \(N=19\).
+
+DELETED: none.
+CERTIFICATE: Cycles 202-203 accept the rebuild-loss route as the right W8 target, but no wall is deleted because the courier-local gross-positive sphere family has not been proved to be a single-consumed sub-instance of the existing selected-current ledger, the midpoint \(4.52\%\) loss threshold must be replaced by a lawful transit-window threshold or the worst-end \(6.11\%\) value, the \(\lambda_1\in[0.3,1.0]\) crossing fraction is still an estimate from unverified Norbury shape data rather than an exact co-moving boundary-crossing identity, \(\lambda_2\) is uncomputed, and W3/W7/W9 still require the one-balance selected-current/no-reuse/action-normalization certificates.
+REMAINING: W3, W7, W8, W9.
