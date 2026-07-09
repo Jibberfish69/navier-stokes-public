@@ -2260,3 +2260,27 @@ and the sweep/no-reuse split.
 DELETED: none.
 CERTIFICATE: Cycle 232 accepts that the C231 profile is ledger-native when read as the smoothed selected density \(w\rho\), but W8 is not deleted because the actual dipole inequality for \(w\rho\), the numeric \(C_{\mathrm{dipole}}\) and allowed \(h\), the smoothed-ledger bracketing/transition-band compatibility, the direct boundary-gradient \(h\)-independence, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 230-232
+
+Physical sentence of the sticking wall: the same smoothed selected density
+\(w\rho\) is supposed to pay direct viscous boundary loss while its nonlocal
+Biot-Savart image is harmless, but the exact inequality comparing those two
+readouts inside the same selected-current ledger has not been written.
+
+Attempts: C230 named the oscillatory-source suppression mechanism and
+projection line; C231 proved the monopole cancellation
+\(\int\Delta\omega=0\) and reduced the image to dipole order; C232 tied the
+profile back to the ledger-native object \(w\rho\).
+
+Missing exact fact: an attackable selected-ledger inequality of the form
+\[
+|\mathrm{BS}(\Delta(w\rho))_{\mathrm{selected}}|
+\le \kappa\,\nu\int_{\partial A}|\partial_n(w\rho)|\,dS,
+\qquad \kappa<1,
+\]
+with the numeric dipole constant, the licensed smoothing width \(h\), the
+bracketing/transition-band compatibility, and the direct-term
+\(h\)-independence all in the same re-seeded front/rear ledger. C223's
+TV-to-one-way selected-current conversion and the sweep/no-reuse split also
+remain open.
