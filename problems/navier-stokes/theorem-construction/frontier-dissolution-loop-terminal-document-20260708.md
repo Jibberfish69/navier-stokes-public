@@ -804,3 +804,15 @@ None.
   pedigree universality, finite \(\Gamma_{\rm gather}(u_0)\) reservoir, W7
   graph closure, W8 selected payer currency, and W9 compact zero-surplus action
   are unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 35 wake-loss integral gate accepts a strict sharpening of
+  the one-object target: the numerator should be the same-field episode
+  integral \(\int_E \nu|\nabla\omega_{\rm pair}|^2\,dx\,dt\), and the model
+  arithmetic \(5/\pi\approx1.6\) is accepted for the fixed pair geometry. This
+  still does not delete a wall. The needed certificate is the retained-class
+  coercive infimum
+  \(c_*=\inf_E Re_\Gamma(E)\nu\int_E|\nabla\omega|^2/{\rm Serv}(E)>0\), with
+  the admissible episode class, service denominator, graph closure, conversion
+  of palinstrophy dissipation into lost reusable service, finite signed
+  \(\Gamma_{\rm gather}(u_0)\) currency, and compact zero-surplus loop
+  exclusion all proved in one Eulerian current. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
