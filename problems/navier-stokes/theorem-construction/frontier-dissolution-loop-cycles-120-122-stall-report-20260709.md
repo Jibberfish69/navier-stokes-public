@@ -5435,3 +5435,25 @@ line.
 DELETED: none.
 CERTIFICATE: Cycle 344 is accepted as a holding cycle around the C343 all-rung shell-sum certificate, but no wall is deleted because the all-rung sum still lacks a same-selected-ledger occupancy/multiplicity bound for deeper-rung material in the L3-prime rear cap.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 345 enstrophy route
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C345 offers
+no new two-are-one identity between the surviving walls. It repairs the
+post-C343 occupancy failure by replacing one-cell packet volume with the
+quadratic enstrophy column.
+
+Codex accepts the main ontology correction. High-amplitude occupancy should be
+paid by a quadratic quantity: on a rung where \(\rho\sim\Omega_j\), shell mass
+is bounded by shell enstrophy divided by \(\Omega_j\), up to the fixed quartile
+constants.
+
+No deletion is paid. The certificate now terminates at the clock/enstrophy
+normalization leaf. To be terminal, the proof must bound the actual shell
+enstrophy of the selected L3-prime rear cap in the same retained normalization
+and clock used by the C318/C319 corner, with cutoff/reseed, Horn-B material,
+C271 absorption/no-reuse, and cap-velocity ownership kept in the same ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 345 accepts the enstrophy route as a strict reduction of the all-rung occupancy/multiplicity problem to the shell-enstrophy/clock-composition leaf, but no wall is deleted because the actual selected L3-prime rear-cap shell enstrophy is not yet bounded in the same retained normalization, cap geometry, cutoff/reseed convention, C271 absorption/no-reuse ledger, and clock ownership used by the C318/C319 corner.
+REMAINING: W3, W7, W8, W9.
