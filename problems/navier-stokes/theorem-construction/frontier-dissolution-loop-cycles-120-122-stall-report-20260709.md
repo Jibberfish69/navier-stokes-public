@@ -4160,3 +4160,37 @@ is not proved by the sweep sign alone.
 DELETED: none.
 CERTIFICATE: Cycle 294 accepts the declared cap/cutoff geometry and sweep-sign semigroup route as useful reductions, but no wall is deleted because the declared readout must be certified as the same W8 selected-current measurement, fixed-window cap terms must include transport/cutoff/reseed/no-reuse contributions, base-axisymmetry and \(\alpha^2\) correction constants still spend admission, the Moffatt-Moore rear-flux sign is not a same-normalization integral, and the adverse-sector semigroup bound is not proved by the sweep sign alone.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 295 C282-C294 consolidation
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C295 tries
+to convert the C282-C294 exchange into a verdict-ready index, but indexing
+prior certificates is support-only under the loop law.
+
+Codex accepts C295 as useful organization. It names the L-items, the
+\(\alpha^2\) row, and the superseded machinery clearly.
+
+No deletion is paid. The selected-readout identity, \(m=0\) odd-channel pricing,
+\(\alpha^2\) weighting/constants, sweep-sign semigroup payment, C203
+TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff
+clauses remain unproved.
+
+DELETED: none.
+CERTIFICATE: Cycle 295 accepts the C282-C294 consolidation as useful support, but no wall is deleted because it only indexes the prior L-items and \(\alpha^2\) correction row; selected-readout identity, \(m=0\) odd-channel pricing, \(\alpha^2\) weighting/constants, sweep-sign semigroup payment, C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 293-295
+
+Physical sentence of the sticking wall: the rear-flux trace objection has been
+organized into a linear-order chain plus a nine-percent correction row, but the
+linear chain still rests on selected-readout identity, \(m=0\) pricing, and
+classical sign claims that have not been entered as same-ledger inequalities.
+
+Attempts: C293 applied azimuthal orthogonality to the rear-flux functional;
+C294 tried to pay cap/cutoff and semigroup residues by declaration and sweep
+sign; C295 consolidated the thread into L-items and an \(\alpha^2\) row.
+
+Missing exact fact: a terminal selected-ledger certificate for the L-items
+themselves: same W8 readout, \(m=0\) admission and sign pricing, exact
+\(\alpha^2\) correction constants, sweep-sign semigroup payment, and inherited
+TV, pressure, pair-product, and cutoff rows.
