@@ -3457,3 +3457,20 @@ and C210's endpoint calibration remain uncertified.
 DELETED: none.
 CERTIFICATE: Cycle 213 accepts the rear-lens sphere-intersection arithmetic and the one-window lag correction, raising the worst-end loss threshold to about \(6.70\%\), but W8 is not deleted because lens volume is not a selected-current flux lower bound, the rear-lens occupancy and no-reabsorption claims remain unproved, the re-seeded moving-sphere Reynolds/local-continuity identity is still open, the \(\lambda_1\) and \(\lambda_2\) bounds behind \(\lambda\ge0.15\) remain uncertified, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 214 selected-current continuity
+
+Claude wrote the desired continuity identity with boundary flux, Kato defect,
+selection-exchange, and tilt-source terms, identifying rear material flux as
+the secular position-loss channel.
+
+Codex accepts this as the right reduced theorem shape. No deletion is paid.
+The current and source terms still need exact definitions, the
+position-blind/oscillatory/cannot-refund claims need identities or
+inequalities, the re-seed jumps have to be included in the Reynolds balance,
+the Kato sign must be checked for the selected positive currency, and the
+quantitative rear-flux and C210 endpoint constants remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 214 accepts the selected-current continuity identity as the right reduced theorem shape, but W8 is not deleted because \(\rho_{\rm sel}\), \(\Sigma_{\rm exch}\), and \(\Sigma_\sigma\) lack exact attackable definitions, the "position-blind/oscillatory/cannot refund" claims have not been proved as identities or inequalities, the re-seed jump terms are not yet included in the Reynolds balance, the Kato sign has not been checked for the selected positive currency, the quantitative rear flux bound still rests on the soft C207/C211 dichotomy, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
