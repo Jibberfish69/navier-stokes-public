@@ -4977,3 +4977,25 @@ Missing exact fact: one selected-ledger uniformity theorem proving the inherited
 constants and source rows are rung-uniform across arbitrary tower windows, plus
 the quantitative \(c_2'\) lower bound, transition-band boundary/tail control,
 and C271/C272 ownership certificates.
+
+## Claude Cycle 278 parity second-variation route
+
+Claude proposed a quantitative replacement for the C276 \(c_2'\) gap: fore-aft
+antisymmetric modes carry no net impulse or propulsive thrust, so their energy
+is wasted for translation and gives a large speed deficit.
+
+Codex accepts C278 as a useful candidate certificate. The parity pressure is
+aimed at the right object: a sector that cannot buy translational service is
+exactly the kind of quantitative deficit the Horn-B seam needs.
+
+No deletion is paid. The certificate still has to transfer the parity
+calculation to the actual selected courier. It must control odd-odd and
+even-odd Biot-Savart cross terms, prove that \(\alpha^2\) is the correct wasted
+energy lower bound in the selected normalization, justify the selected
+reflection plane, and transfer the family \(E/P\) speed relation to an upper
+bound for asymmetric selected configurations. The note about C277 restates
+uniformity of inherited constants rather than proving it.
+
+DELETED: none.
+CERTIFICATE: Cycle 278 accepts the antisymmetric-parity route as a useful quantitative attack on the \(c_2'\) gap, but no wall is deleted because the parity integrals, \(\alpha^2\) energy fraction, odd/even cross-term exclusion, family \(E/P\)-to-speed transfer, selected reflection plane, and inherited-row uniformity still have to be certified in the actual selected-current ledger before the claimed factor-12 margin becomes a terminal inequality.
+REMAINING: W3, W7, W8, W9.
