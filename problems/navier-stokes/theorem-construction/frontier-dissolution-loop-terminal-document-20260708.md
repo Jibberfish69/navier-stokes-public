@@ -1332,3 +1332,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 76 reduces \(C_1\) to a normalized \(12/35\) term plus \(C_{\rm grad}\); the shared normalization, off-axis estimate, and no-double-count entry remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 77 C2-C4 computation is accepted as formulas, not as
+  certificate-quality numbers. C2 and C3 depend on uncomputed bootstrap
+  constants \(C_{\rm grad}\) and \(C_{\rm grad2}\), inheriting Theorem A and the
+  common-normalization gate. C2 needs the full tubular-frame curvature bound,
+  not only the core-curve Bishop statement. C3's cancellation must be checked
+  through the curved/tapered tube, cutoff, and moving-frame extensions; any
+  radial, axial, cutoff, or curvature derivative adds a \(C_{\rm grad}\) or
+  route term. C4 needs the chosen frame extension and volume form before
+  \(0.205\) is a same-current coefficient. No wall is deleted. Remaining: W3,
+  W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 77 reduces \(C_2,C_3,C_4\) to formulas in shared bootstrap constants and frame-extension normalization; those constants and commutator/index checks remain unproved.
+REMAINING: W3, W7, W8, W9.
