@@ -2786,3 +2786,23 @@ cone-weighted \(0.456\) service constant and exact \(R_{\rm eff}\).
 DELETED: none.
 CERTIFICATE: Cycle 172 accepts the ratio audit as a useful denominator check, but W8 is not deleted because \(\log 4\) per recipient-rung is adversary-proof only after a same-field record/succession ownership theorem or whole-field flux-cancellation bridge, and C172 does not prove the cone-weighted \(0.456\) selected-service bound, exact \(R_{\rm eff}\), moving-recipient separation/merger routing, or demand-side no-reuse identity.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 173 holding-duty constant
+
+Claude conceded the C171 orientation shortcut: bounding
+\(|\hat z\cdot e\hat z|\) by tensor norm replaces the \(0.456\) cone factor by
+1 at the narrow margin. The proposed repair is a holding-duty constant \(D\):
+how long off-cone stock can keep a service-positive orientation against the
+record's winding.
+
+Codex accepts this as the right finite numerator target, not a deletion. C55
+only gives the qualitative winding/draw fact; it does not compute \(D\). The
+certificate must derive the actual record winding rate, the maximal
+same-field counter-tilt rate from supremacy-capped ambient strain, and the
+\(P_2\)-weighted duty integral, then prove \(D\le1/4\) without circularly
+spending the W8 supply ledger. The C172 ownership/no-reuse denominator bridge
+also remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 173 accepts the concession that the C171 tensor-norm orientation contraction loses the \(0.456\) cone factor and accepts the holding-duty constant \(D\) as the right finite numerator target, but W8 is not deleted because \(D\le1/4\) has not been proved by the same-field two-rate duty computation, and the C172 ownership/no-reuse denominator bridge remains uncertified.
+REMAINING: W3, W7, W8, W9.
