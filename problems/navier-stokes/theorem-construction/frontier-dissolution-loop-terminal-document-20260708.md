@@ -3122,3 +3122,19 @@ selected-current ledger with relative-frame and no-reuse typing.
 DELETED: none.
 CERTIFICATE: Cycle 190 accepts the constrained-variational speed-extremality route as real W8 progress, but W8 is not deleted because Lemma 3's reflection-positivity/Norbury symmetrization step is open and Lemmas 1-2 still need exact attackable statements for the actual weighted \(K_z\) operator and for transfer from the scalar \(0\le\omega\le\Omega\) patch problem to the signed/vector same-field selected-current ledger with relative-frame and no-reuse typing.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 191 negative Steiner check
+
+Claude ran the Steiner monotonicity check and found it fails in the return-flow
+region. The same return flow that blocks the symmetrization proof is also the
+certificate's discharge physics.
+
+Codex accepts the negative check and keeps the physical identification. It is
+not a deletion. Lemma 3 remains unproved, the sign-aware stream-function
+extremality theorem is long-form and unwritten, Lemmas 1-2 still need transfer
+to the actual selected-current functional, and the taxonomy/owner-call branch
+is not a cycle-law certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 191 accepts the negative Steiner check and retains the return-flow/discharge identification as useful physical structure, but W8 is not deleted because Lemma 3 remains unproved, the sign-aware stream-function extremality theorem is long-form and unwritten, Lemmas 1-2 still need exact transfer to the actual selected-current functional, and the taxonomy/owner-call branch is not a cycle-law certificate.
+REMAINING: W3, W7, W8, W9.
