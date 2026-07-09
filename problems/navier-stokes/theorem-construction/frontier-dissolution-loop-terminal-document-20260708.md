@@ -3523,3 +3523,20 @@ The favorable winding inequality, N1, N2, and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 218 accepts the smoothed orientation-weight replacement as a useful reduction of the \(\chi\)-interface problem, but W8 is not deleted because the exact weights and sharp/smooth bracketing constants have not been specified, the constant loss has not been shown to fit the lagged \(6.70\%\) threshold and remaining margins, the smoothed ledger has not been proved equivalent to the serviceability currency used by the rear-lens, front-lens, Kato, \(\Sigma_\sigma\), and W9 rows, the favorable winding inequality remains unproved, and N1, N2, and the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 219 smooth-selector bracketing
+
+Claude proved the pointwise-order part of smooth-selector bracketing and
+identified the sharp/smooth difference as transition-band stock, then claimed
+winding depletes that band with margin-absorbed constant loss.
+
+Codex accepts the bracketing algebra. No deletion is paid. The threshold-band
+no-accumulation estimate still depends on the unproved C55/winding phase
+portrait in the actual courier-local orientation variable, the factor is not
+an exact selected-current constant, and margin absorption still spends the
+unproved \(\lambda\) bracket against the lagged \(6.70\%\) threshold. N1,
+N2/C210, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 219 accepts the smooth-selector pointwise-order bracketing and transition-band decomposition, but W8 is not deleted because the threshold-band no-accumulation claim still depends on the unproved C55/winding phase portrait in the actual courier-local orientation variable, the \(1+O(\mathrm{band})+O(\mathrm{halo})\) factor is not an exact constant in the selected-current normalization, margin absorption still spends the unproved \(\lambda\) bracket against the lagged \(6.70\%\) threshold, and N1, N2/C210, and the sweep remain open.
+REMAINING: W3, W7, W8, W9.
