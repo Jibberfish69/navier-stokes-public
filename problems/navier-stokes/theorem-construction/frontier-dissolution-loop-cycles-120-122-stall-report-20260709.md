@@ -4816,6 +4816,20 @@ DELETED: none.
 CERTIFICATE: Cycle 320 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 321 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C321 offers
+no new cross-wall identification.
+
+Codex accepts C321 as a holding cycle with state unchanged from C320.
+
+No deletion is paid. The C319 three-factor total-sweep certification burden
+remains the active mathematical hinge, and no new certificate is supplied.
+
+DELETED: none.
+CERTIFICATE: Cycle 321 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C319 three-factor total-sweep certification burden remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus
