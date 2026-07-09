@@ -4629,6 +4629,21 @@ DELETED: none.
 CERTIFICATE: Cycle 312 is accepted only as a holding/status update; no wall is deleted because C310-C311 already name the mathematical missing exact fact for the final assembly, and filed answers awaiting verification do not certify the reflection-paired L3-prime corner, rear-row ownership, exact constants, cap weights, no-reuse/clock typing, trimmed neutrality, Horn-B pricing, or the four-wall ladder reduction.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 313 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C313 offers
+no new cross-wall identification.
+
+Codex accepts C313 as a holding cycle with state unchanged from C312.
+
+No deletion is paid. No new cross-wall identity, refutation,
+empty-by-admission clause, or terminal reduction is supplied. The C312/C310
+mathematical missing exact fact remains unchanged.
+
+DELETED: none.
+CERTIFICATE: Cycle 313 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C312/C310 mathematical missing exact fact remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus
