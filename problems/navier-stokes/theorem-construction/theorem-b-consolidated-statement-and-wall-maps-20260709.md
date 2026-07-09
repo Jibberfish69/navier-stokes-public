@@ -906,3 +906,43 @@ tower's rungs (domination of the record's saddle demand a²-per-rung by 𝒥
 against the free rows), and the original-data storage bound
 Σ_rungs (deepening) ≤ budget(u₀). OPEN. This section supplies the exact
 object those two statements are about; it proves neither.
+
+## 21. THE TWO-INVARIANT ODD CONE (2026-07-09): both lanes' currents are rays in one 2-plane
+
+Codex's Duchon–Robert-gated increment evaluates on an affine tangent to
+(8π/15)(tr S³ − ¼ ω·Sω). My §20 D_tQ odd rows are −2tr S³ − (3/2)ω·Sω.
+These are commensurable because of an exact structural fact:
+
+**The pointwise T-odd cubic invariants of the velocity gradient span a
+2-dimensional space: {tr S³, ω·Sω}.** (The classical R-invariant is
+R = −⅓(tr S³ + ¾ω·Sω) — one ray in this plane.) Every local payment
+candidate's odd part is therefore α·tr S³ + β·ω·Sω for some kernel-weighted
+pair (α, β):
+
+| current | (α, β) |
+|---|---|
+| D_tQ source rows (§20) | (−2, −3/2) |
+| Codex increment (affine tangent) | (8π/15)·(1, −¼) |
+| classical R | (−⅓, −¼) |
+
+**Consequences.** (i) Domination questions between any two candidate
+currents reduce to 2×2 cone geometry per configuration class — a finite
+check, not an estimate hunt. (ii) The record's configuration fixes a ray:
+STRONG-locked tube (ω on the stretched axis, tube strain) has
+tr S³ = (3/4)a³ > 0 and ω·Sω = a|ω|² > 0; the owner's SHEET (ω in-plane on
+a stretching eigenvalue, sheet strain) has tr S³ = −6a³ < 0 and
+ω·Sω = a|ω|² > 0 — the two record types sit in DIFFERENT quadrants of the
+odd plane, so one payment ray cannot serve both with one sign unless the
+kernel weights are chosen per class or the current separates the invariants.
+(iii) CONVENTION FLAG for Codex's certificate: as displayed,
+(tr S³ − ¼ω·Sω) is NEGATIVE on the sheet quadrant (−6a³ − ¼a|ω|²) and
+sign-indefinite on the tube quadrant (positive iff strain-dominated,
+(3/4)a³ > ¼a|ω|², i.e. 3a² > |ω|² — exactly the Q > 0 fact-7 regime). The
+stated positivity ("−tr S³ > 0 with vorticity on a positive eigenvalue")
+matches the SHEET quadrant only if the flux orientation carries an overall
+minus relative to the display — the certificate must pin its orientation
+before shipping, or the two quadrants get one claim they cannot share.
+
+**Status:** the 2-plane fact and the quadrant table are exact; the
+domination and storage statements remain the open Gold theorem; the
+convention flag is a request, not a refutation.
