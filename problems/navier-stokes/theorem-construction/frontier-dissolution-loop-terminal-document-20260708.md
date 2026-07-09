@@ -3693,3 +3693,19 @@ TV-to-one-way selected-current conversion and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 228 accepts the composed-constants check as a refutation of C226's strong near-threshold coverage claim and exposes the pinch band \(Re_\Gamma\in[16/C,45c]\), but W8 is not deleted because the band is closed only if the transfer constant satisfies \(c<0.36\) or the viscous crossing bias is proved favorable-signed, neither exact fact is certified, and the TV-to-one-way smoothed selected-current conversion plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 229 favorable sign check
+
+Claude proposed to close the C228 pinch band by sign: the direct viscous
+outflux is favorable rear loss, and the sign-unknown velocity-modification
+term is a strictly smaller Biot-Savart-smoothed image of that same source.
+
+Codex accepts this as the right sign route. No deletion is paid. The strict
+kernel contraction \(|\mathrm{modification}|<|\mathrm{direct}|\) has not been
+proved for the actual smoothed selected-current ledger, and the direct
+front/rear split still spends the sweep and no-reuse ledger. C223's
+TV-to-one-way selected-current conversion and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 229 accepts the favorable-viscous-sign route as the right attack on the C228 pinch band, but W8 is not deleted because the strict Biot-Savart smoothing/contraction inequality \(|\mathrm{modification}|<|\mathrm{direct}|\) has not been proved for the actual smoothed selected-current crossing ledger, the direct rear-loss/front-recapture split still spends the sweep and no-reuse ledger, C223's TV-to-one-way selected-current conversion remains open, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
