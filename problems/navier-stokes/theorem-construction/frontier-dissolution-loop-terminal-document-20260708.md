@@ -864,3 +864,11 @@ None.
   commutator terms into tilt, wake loss, or charged import. Clause 2 was also
   corrected: the event graph is dissolved only after the moving-frame TV-decay
   identity is proved. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The shared-certificate GAP-0′ linking/helicity insertion is not accepted as a
+  replacement for GAP-0. Codex edited the shared draft to mark helicity as an
+  auxiliary topology row only: mutual helicity is signed and nonlocal rather
+  than a positive stock norm; the Navier-Stokes helicity balance is not a
+  sign-definite monotone budget; linking is topological while service is metric
+  and still needs a Biot-Savart proximity/orientation inequality; and viscous
+  reconnection/nulls/weak limits require a precise flux-tube or current
+  representative. No wall is deleted. Remaining: W3, W7, W8, W9.
