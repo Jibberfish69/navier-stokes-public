@@ -784,3 +784,12 @@ None.
   still depends on \(\Gamma_{\rm gather}\), no-free-recycle accounting, W3 race
   uniformity, W7 tier/ring graph closure, W8 selected conveyor pricing, and W9
   compact zero-surplus action. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 32 coaxial ring computation gate accepts an exact
+  sub-refutation inside the ring program: the equal coaxial elliptic-integral
+  computation gives mutual inward velocity about \(0.135\,\Omega\delta\), far
+  below the outward expulsion scale, so Cycle 31's dipole station-keeping
+  estimate is refuted for that geometry. This does not delete a wall. Tilted,
+  non-coaxial, and nested ring configurations, self-consistent expulsion,
+  \(\Gamma_{\rm gather}\), recycling/conveyor accounting, tier/ring graph
+  closure, selected payer currency, and compact zero-surplus action remain
+  unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
