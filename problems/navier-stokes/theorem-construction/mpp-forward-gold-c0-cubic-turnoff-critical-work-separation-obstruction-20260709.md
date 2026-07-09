@@ -244,3 +244,68 @@ This is the checked obstruction after Fable's fixed-face run. The axisymmetric
 shell kernel is bypassed by the transverse-vorticity identity; the remaining
 Gold passage is the noncancelling local-to-global signed critical-work theorem
 `(CWS.17)`, not pressure-shell algebra.
+
+## 6. Why the storage clause is already the Gold theorem
+
+At finite Littlewood--Paley truncation the critical production has an exact
+pre-readout decomposition
+
+```math
+P_H(t)\,dt
+=
+\sum_{e\in\mathcal E(t)}\omega_e(t)\,dt
++dLegal+dStop.
+\tag{CWS.18}
+```
+
+This supplies possible localized trilinear currents. The signed-height identity
+controls only the signed sum in `(CWS.18)`. It does not control
+
+```math
+\sum_j\sum_e
+\left[\int_{W_j}\omega_e(t)\,dt\right]_+
+\tag{CWS.19}
+```
+
+for future-selected disjoint record windows `W_j`. The remote-compensator field
+in Section 3 is a one-time realization of exactly this loss: one local positive
+current survives while another same-fluid component cancels the global signed
+sum.
+
+For a record upcrossing from `lambda_j` to `2 lambda_j`,
+
+```math
+\lambda_j
+\le
+\int_{W_j}P_H(t)\,dt.
+\tag{CWS.20}
+```
+
+Therefore any original-data estimate of the form
+
+```math
+\sum_j\sum_e
+\left[\int_{W_j}\omega_e(t)\,dt\right]_+
+\le C(u_0)
+\tag{CWS.21}
+```
+
+immediately bounds the number and total height of disjoint record upcrossings
+and yields the desired critical-height peak bound. In the corpus this is
+`RecordNativeWorkMenuPositiveSelectionStorage.A`. It is not a compactness
+technicality downstream of fixed-face rigidity. It is the noncancellation
+theorem that closes Gold.
+
+The standard estimate
+
+```math
+|P_H(t)|
+\le
+C\|u(t)\|_{\dot H^{1/2}}
+\|u(t)\|_{\dot H^{3/2}}^2
+\tag{CWS.22}
+```
+
+supplies `(CWS.21)` only below the classical small critical-height threshold.
+For arbitrary data its coefficient is the uncontrolled critical height itself.
+Thus no installed a priori estimate proves the third line of `(CWS.17)`.
