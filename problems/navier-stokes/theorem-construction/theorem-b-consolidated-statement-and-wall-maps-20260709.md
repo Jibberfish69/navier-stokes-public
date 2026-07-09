@@ -2457,3 +2457,122 @@ a priori bound. NOT proved; proving it is Gold. This is the maximally reduced,
 maximally concrete, fully cross-verified state — the terminal of what the
 two-lane construction can produce. Gold: open, and now stated as one
 inequality.
+
+## 40. CODEX GATE AND FIELD-LEVEL RECOORDINATION: critical coercivity is not a Leray reserve; pressure cancels at every separation
+
+The second §39 correctly recognizes that the displayed critical-coercivity
+inequality is unproved and Gold-sized. Two claimed consequences need
+correction.
+
+First, Leray's energy inequality does not bound
+`int ||Lambda^(3/2)u||_2^2`. It bounds only
+`int ||grad u||_2^2`. The exact scaling gate `(G39.2)--(G39.4)` proves that
+these currencies cannot be interchanged: gross critical action is invariant,
+whereas the Leray cost is `O(r)`. Therefore even a comparison with critical
+dissipation would not let Leray energy bound the gross reserve.
+
+Second, a merely positive constant in
+
+```math
+\nu\|\Lambda^{3/2}u\|_2^2
+\ge c\iint[j_{ab}]_+,da,db
+\tag{G40.1}
+```
+
+does not close. The critical balance gives
+
+```math
+\frac{d}{dt}H_{\rm crit}
+\le \nu(c^{-1}-1)\|\Lambda^{3/2}u\|_2^2.
+\tag{G40.2}
+```
+
+Absorption requires the correctly normalized coefficient `c>=1`; for
+`0<c<1`, `(G40.2)` permits growth and the right side has no original-data
+integral bound. Moreover no universal pointwise `c>0` exists on arbitrary
+data: replacing a fixed smooth divergence-free field `phi` by `A phi` makes
+the gross cubic current scale as `A^3` and critical dissipation as `A^2`.
+The small-data threshold is exactly the regime in which the coefficient is
+absorbable.
+
+There is, however, a useful exact recoordinatization. Define for every spatial
+separation `h`
+
+```math
+E(h,t)=\frac12\int|\delta_hu|^2dx,
+\qquad
+F(h,t)=\int\delta_hu|\delta_hu|^2dx,
+\qquad
+D(h,t)=\int|\nabla\delta_hu|^2dx.
+\tag{G40.3}
+```
+
+At each fixed `h`, incompressibility gives
+
+```math
+\int\delta_hu\cdot\delta_h\nabla p\,dx=0,
+\tag{G40.4}
+```
+
+and direct integration by parts gives the exact whole-field separation balance
+
+```math
+\boxed{
+\partial_tE
++\frac12\nabla_h\cdot F
++\nu D=0.
+}
+\tag{G40.5}
+```
+
+No isotropy, homogeneity, profile, or packet persistence is used. The critical
+objects are
+
+```math
+H_{\rm crit}
+=\frac{c_\Lambda}{2}\int\frac{E(h)}{|h|^4}dh,
+\qquad
+P_H
+=-c_\Lambda\int\frac{F(h)\cdot h}{|h|^6}dh.
+\tag{G40.6}
+```
+
+For cumulative separation storage
+
+```math
+\mathscr E(r,t)=\int_{|h|\le r}E(h,t)dh,
+\qquad
+\Phi_{\rm in}(r,t)
+=-\frac12\int_{|h|=r}F(h,t)\cdot n\,dS_h,
+\tag{G40.7}
+```
+
+`(G40.5)` becomes
+
+```math
+\boxed{
+\partial_t\mathscr E(r,t)
++\nu\int_{|h|\le r}D(h,t)dh
+=\Phi_{\rm in}(r,t).
+}
+\tag{G40.8}
+```
+
+This is the whole-field flux law sought by the owner: the fluid itself is the
+single participant, internal pressure transfer cancels at each separation,
+and critical growth is inward relative-energy flux through scale. Face A's
+pressure-Hessian sign is therefore not a necessary independent theorem on this
+route; it is one coordinate resolution of how the same `F` is organized.
+
+The remaining sign is now visible without ownership scaffolding. Although
+
+```math
+0\le\mathscr E(r,t)\le Cr^3\|u(t)\|_2^2,
+\tag{G40.9}
+```
+
+bounded separation storage does not bound positive inward-flux variation:
+outward flux can refund it, and the `O(r)` viscous-energy gate does not prevent
+dyadic recurrence. Thus `(G40.8)` strictly bypasses the pressure-Hessian
+closure formulation, but Gold still requires a record-specific no-return sign
+for the scale flux. The full derivation is in NIC §11.
