@@ -2867,3 +2867,28 @@ sweep/no-reuse remain open.
 DELETED: none.
 CERTIFICATE: Cycle 251 accepts the vorticity-direction derivation and the \(\rho^2\)-weighted divergence-form identity as a real reduction of the C249 actual-\(\psi\)-equation objection, but W8 is not deleted because the \(\rho^2\)-weighted energy is not yet certified as the same selected current paid by the W8 ledger, the angle coordinate, selector, band cutoff, zero-vorticity/axis exclusions, curvature terms, pressure/strain direction forcing, and moving band boundary terms are not fully typed in that ledger, the definitional clock and stock-to-arrivals conversion spend an unproved transfer from \(\rho^2\)-stock to one-counted arrivals, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 252 field-currency restatement
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C252 tries
+to identify the packet-ownership objection with a fixed-region field-flux
+ledger, but it still does not identify W8 with W3/W7/W9 because the field form
+restates ownership without proving the signed one-way payment facts.
+
+Codex accepts C252 as the right ontology correction: the payer can be the whole
+field through fixed-region integrals, superlevel sets, and boundary fluxes;
+particle labels are a proof device rather than the bill-owning object.
+
+No deletion is paid. The fixed-region FTC gives an exact change of the chosen
+field integral once the six-row balance is already certified, but it does not
+by itself prove the one-way rear-loss lower bound, stranding cap, arrivals
+budget, sweep/no-reuse inequality, or W7/W8 same-selector admission for
+arbitrary data. C252 still points to the standing stranding law and arrivals
+budget as candidates rather than supplying exact constants. It also has to be
+made compatible with the C250 floored \(w\) and C251 \(\rho^2\)-energy
+currency, so the selected field being integrated, the boundary crossing set,
+and the stock-to-arrivals conversion are one object rather than three readouts.
+
+DELETED: none.
+CERTIFICATE: Cycle 252 accepts the fixed-region field-currency restatement as the right ontology correction and removes packet labels as a load-bearing proof object, but W8 is not deleted because the restatement still cites rather than proves the six-row same-field balance, one-way rear-loss lower bound, stranding cap, arrivals budget, sweep/no-reuse inequality, and arbitrary-data W7/W8 same-selector admission, it does not compute the \(w_{\min}\), \(G\), \(\beta\), clock, or Horn-B margin constants, and the floored-\(w\), \(\rho^2\)-energy, boundary-flux, and one-counted selected-arrivals currencies are not yet certified as one field object.
+REMAINING: W3, W7, W8, W9.
