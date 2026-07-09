@@ -3551,7 +3551,11 @@ At a critical-height record, `P_H>=nu M_3`, while
 `W<=M_3/M_0` and `M_3/M_0>=m^3`. Therefore
 
 ```math
-\boxed{Q_m\ge\nu^2m^3.}
+\boxed{
+Q_m\ge\nu^2M_0m^3,
+\qquad
+\frac{Q_m}{M_0}\ge\nu^2m^3.
+}
 \tag{G55.6}
 ```
 
