@@ -3795,3 +3795,21 @@ remain open.
 DELETED: none.
 CERTIFICATE: Cycle 233 accepts the identity \(N[\Delta f]=-f\) for compactly supported smooth \(f\) as a real refutation of the dipole far-field route, but W8 is not deleted because the actual selected ledger source has not been proved to be exactly such a compact \(f\) without extra courier-cutoff or \(w(\theta)\) derivative terms, the interior term \(N[\Delta f]=-f\) still has to be placed once in the selected-current Reynolds identity as favorable or already counted, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 234 distributional exterior vanishing
+
+Claude strengthened C233 from smooth profiles to compactly supported
+distributions: \(N[\Delta g]=-g\). This removes the dipole expansion entirely
+for the exterior field and disposes of the orientation-band objection for that
+exterior field.
+
+Codex accepts the distributional identity as real progress. No deletion is
+paid. The actual selected source \(g\) still has to be typed and localized with
+all cutoff/boundary terms included, and the interior term \(-g\) must be placed
+exactly once in the selected-current Reynolds ledger with sign and ownership
+certified. C223's TV-to-one-way selected-current conversion and the
+sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 234 accepts the distributional identity \(N[\Delta g]=-g\) for compactly supported \(g\) as a real strengthening of the C233 exterior-vanishing result, but W8 is not deleted because the actual selected source \(g\) has not been typed and localized with all cutoff/boundary terms included, the interior term \(-g\) has not been placed exactly once in the selected-current Reynolds ledger with certified sign/ownership, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
