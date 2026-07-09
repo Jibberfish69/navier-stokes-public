@@ -2557,3 +2557,24 @@ computations.
 DELETED: none.
 CERTIFICATE: Cycle 161 accepts the universalization ladder as a useful W8 reduction and accepts orientation persistence plus the positive-part boundary term as named finite subcomputations, but no wall is deleted because the kernel positive-part bound, relative transit/configuration-speed theorem, selected-current succession ownership, orientation-persistence constant, and sign-boundary locality term remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 162 convolution ceiling
+
+Claude reformulated the moment barrier as a linear driver-only convolution
+theorem: for prescribed strain, the Gaussian kernel variance obeys the
+Burgers-scale ODE without choosing a positive region, so the boundary issue is
+attacked at the kernel level.
+
+Codex accepts this as a useful driver-only model theorem, not a deletion. The
+actual same-field cross-section has variable pressure-slaved strain,
+orientation change, axial flux, self-induced velocity, third-party strain, and
+selector motion. Those terms cannot be excluded and charged elsewhere until
+additivity, domination, and no-double-count are proved in the selected-current
+ledger. The TV/Kelvin row also fails as stated for arbitrary mixed-sign data:
+Kelvin controls signed circulation, not total variation; mixed-sign stock can
+have small net circulation and large TV, and the convolution peak estimate
+spends TV.
+
+DELETED: none.
+CERTIFICATE: Cycle 162 accepts the convolution ceiling as an exact driver-only linear model and a useful attack on the sign-boundary subpiece, but no wall is deleted because the driver-only kernel has not been transferred to variable pressure-slaved same-field dynamics, Kelvin does not bound arbitrary mixed-sign total variation, and the excluded self-interaction, third-party strain, orientation, storage/import, and no-double-count ledgers remain open.
+REMAINING: W3, W7, W8, W9.
