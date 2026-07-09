@@ -3365,3 +3365,13 @@ its hypotheses without a selected owner.
 separation-lineage interpretation is withdrawn. The first open implication is
 the field-level reduction from an arbitrary unbounded critical-height history
 to any smaller recurrent-alignment rigidity class. Gold remains open.
+
+**Origin audit of H3.** The aligned condition was promoted to the survivor as
+the zero set of the earlier transverse-pressure `bill/service` coercivity. The
+participation law removes that separable ratio. It therefore also removes the
+minimizing argument that was supposed to make H3 the worst-case endpoint.
+Actual co-diagonality of `S[u]` and `Hess p[u]` remains a lawful field property;
+the filed shear-cell degeneracies already show that it is not empty by
+ontology. What is unproved is that an arbitrary Gold failure must approach it.
+Consequently the theorem in §§1--6 is a conditional rigidity problem for an
+aligned subclass, not the one surviving object of the full Gold problem.
