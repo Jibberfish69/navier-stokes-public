@@ -993,3 +993,68 @@ non-telescoping question of the old record (ParentBorrowingCostNonTelescoping)
 returning in its lawful, in-equation form. The Gold theorem's two statements
 (per-rung domination in the record's own quadrant; storage bound by u₀)
 remain open, now attached to P_H.
+
+## 23. STEP (c) GROUND OUT: it does NOT telescope — it solves to a one-sided convergent kernel (2026-07-09)
+
+Grinding §22(c) exactly refutes its own naive form and gives something
+better. From (b), the raw angular integral W(r) := ∮_{S²} w̃³ dΩ = (2/r²)B(r).
+The certificate's log-moment M(ρ) = ∫_{S²} w³ dΩ with w = e^{−ρ}w̃, r = e^ρ:
+
+```math
+M(ρ) = e^{−3ρ}W(e^ρ) = 2e^{−5ρ}B(e^ρ)
+\;\Rightarrow\;
+\frac{dM}{dρ} = \underbrace{2e^{−5ρ}\,rB'(r)}_{Ψ(ρ)\ :=\ \text{pure shell current}}
+\;-\;5M(ρ).
+```
+
+**So (c) as stated is FALSE:** dM/dρ − Ψ = −5M(ρ) is NOT a total ρ-derivative;
+the residual −5M is the criticality scale-weight (the marginal term the record
+kept relocating). Telescoping fails by exactly the marginal exponent.
+
+**But the exact ODE is better than telescoping.** dM/dρ + 5M = Ψ integrates
+(integrating factor e^{5ρ}; boundary term e^{5ρ₀}M(ρ₀) → 0 as ρ₀ → −∞ under
+mild fine-scale decay) to
+
+```math
+M(ρ) = \int_{−∞}^{ρ} e^{−5(ρ−s)}\,Ψ(s)\,ds .
+```
+
+This is a CONVERGENT, ONE-SIDED accumulation of the native shell current Ψ:
+- **one-sided** — only s ≤ ρ (the current scale and finer) contribute; the
+  kernel is directed in the scale coordinate = T-odd in the cascade arrow
+  (fact 5), the right parity for a c₀ carrier;
+- **convergent, scale-local** — the weight e^{−5(ρ−s)} decays at rate 5 (the
+  criticality exponent), so M(ρ) is dominated by Ψ at its OWN rung with an
+  exponentially-decaying finer tail;
+- **no ℓ¹-vs-ℓ² gap** — the exponential kernel performs the dyadic summation
+  that the H^s↔L^p continuum wall (the record's oldest summability gap) never
+  closed. The kernel does it for free because 5 > 0.
+
+**Consequence — two open statements become one.** Controlling the record's
+demand M(ρ) per rung now requires only a LOCAL lower bound on Ψ (the native
+shell current) at that rung and nearby-finer — the exponential kernel
+converts it to M with no long-range summability. The §22 "telescoping check"
+and the "per-rung domination in the record's own quadrant" MERGE into a
+single statement:
+
+```math
+\textbf{(Gold core, OPEN):}\quad
+Ψ(ρ)\ \ge\ c_0 > 0 \ \text{per retained rung on the sheet quadrant,}
+```
+
+with Ψ the native shell current of P_H (identification pending the (b) NS
+substitution — the one remaining exact algebra step, pressure entering
+slaved). The storage bound Σ (deepening) ≤ budget(u₀) then follows from the
+kernel: Σ_rungs M ≤ (1/5)·sup Ψ-envelope by the convergent weight, so the
+reservoir clause reduces to bounding the Ψ-envelope by the datum — not an
+independent third statement.
+
+**Status (rule 14):** the ODE and its solved kernel are EXACT given (a),(b)
+exact and the fine-scale boundary-term decay (a displayed mild clause). What
+remains, now genuinely singular: (i) the (b) NS substitution identifying Ψ
+with P_H's angular channel (exact algebra, pressure slaved — the next grind);
+(ii) the per-rung lower bound Ψ ≥ c₀ on the sheet quadrant (THE Gold core,
+the domination statement Codex is converging on from the four-body side).
+The telescoping/summability wall is DISSOLVED into the kernel; it is no
+longer a separate open item. Nothing beyond the displayed ODE is claimed
+proven.
