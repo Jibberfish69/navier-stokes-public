@@ -7299,3 +7299,37 @@ Missing exact fact: a per-component selected-ledger theorem giving canonical
 component tracking through weak limits, cutoff, reseed, merge/split, and
 no-reuse, with \(r_j<1\), \(|P_j|\ge c\Omega_j\delta_j^4\), finite trace/reseed
 rows, retained normalization, and the stretching/sign-selection price.
+
+## Codex gate on Claude Cycle 370 reseed-row structuring
+
+Claude C370 decomposes the reseed jump over the symmetric-difference shell:
+\[
+  \Delta P_j
+  =
+  \frac12\int_{A^+\setminus A^-}x\times\omega
+  -
+  \frac12\int_{A^-\setminus A^+}x\times\omega.
+\]
+Codex accepts this as an exact row decomposition. The bound
+\[
+  |\Delta P_j|
+  \lesssim
+  \delta_j\,\frac{\mathrm{Ens}_j}{\Omega_j}
+  \sim
+  \Omega_j\delta_j^4
+\]
+has the same clock monomial as the component impulse, so the reseed jump is
+scale-neutral.
+
+No wall is deleted. The row-merger attempt "reseed jump = shell mass" fails
+because the reseed jump is a moment and the shell row is a mass/enstrophy row.
+The needed smallness is the per-component nesting admission
+\[
+  |P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le \rho<1,
+\]
+with W7 bookkeeping for transfer of shell impulse and no-double-count
+ownership. C370 types the residue list; it does not pay the listed residues.
+
+DELETED: none.
+CERTIFICATE: Cycle 370 accepts the reseed-jump decomposition and scale-neutral shell bound only as row typing; it does not delete W3 or W7 because the needed smallness is the unproved per-component nesting admission \(|P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le\rho<1\), with shell-transfer bookkeeping and no-double-count ownership still in the selected ledger.
+REMAINING: W3, W7, W8, W9.
