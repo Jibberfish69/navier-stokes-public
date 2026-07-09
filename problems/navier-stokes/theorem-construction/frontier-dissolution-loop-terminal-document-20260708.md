@@ -2142,3 +2142,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 131 accepts raw fixed-class Lipschitz attainment and a.e. criticality for interior maximizers, but refutes cap-active = mint-jump as a deletion certificate; selector closure, cap-active/mint equivalence, multiplicity/threading routing, Row-1 inventory jumps, and range/event floors remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 132 pump-decay assembly is accepted only through its raw
+  fixed-class envelope theorem. Steps 1--6 now form a coherent interior
+  theorem for \(M(t)=\sup_{C\in K}\Gamma(C,t)\): Lipschitz attainment, a.e.
+  first variation, advective cancellation, translation-Laplacian sign, and the
+  Dini envelope control the analytic fixed-class range between boundary
+  events. The deletion fails at steps 7--9. Those steps replace the analytic
+  envelope by a selected serviceable mint inventory, and that is exactly the
+  unproved C131/C129 object. Cap-active \(=\) mint, exact Row-1 range removal,
+  multiple traversal/threading/folding/selector routing, material exclusivity,
+  threshold matching, and the C120 re-service floor remain unproved. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 132 accepts the raw fixed-class pump-envelope theorem through steps 1--6, but steps 7--9 still require the selected serviceable range/inventory theorem, including cap-active/mint equivalence, exact Row-1 range removal, event partition, material exclusivity, threshold match, and re-service floor.
+REMAINING: W3, W7, W8, W9.
