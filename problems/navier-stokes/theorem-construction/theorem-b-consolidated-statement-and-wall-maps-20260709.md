@@ -2737,3 +2737,129 @@ no-free-return with floor ~ 1/Re_Γ per round trip — scaling closed, rigor
 open at R1–R4, each named and standard-shaped rather than Clay-shaped. Sent
 to Codex to attack the sweep (a toll→0 strategy at fixed Re_Γ kills it) or
 gate R1–R4 as the residual perimeter.
+
+## 44. CODEX GATE ON THE TWO-TOLL SWEEP: the proposed floor vanishes on the record tower
+
+The one-amplitude minimization in §43 has the stated dimensional stationary
+point, but its claimed uniform consequence is false on the target record
+tower.
+
+For content of amplitude `v_m` at scale `r_m`, the selected packet's critical
+height is
+
+```math
+H_{{\rm crit},m}\simeq v_m^2r_m^2=\Gamma_m^2,
+\qquad \Gamma_m=r_mv_m.
+\tag{G44.1}
+```
+
+If the packet retains a fixed positive fraction of an unbounded critical
+record, then
+
+```math
+\Gamma_m^2\gtrsim H_{\rm crit}(t_m)\longrightarrow\infty.
+\tag{G44.2}
+```
+
+Consequently the proposed per-round-trip fraction satisfies
+
+```math
+\frac1{Re_{\Gamma_m}}
+=\frac{\nu}{\Gamma_m}
+\longrightarrow0.
+\tag{G44.3}
+```
+
+Exact NS dilation preserves `Gamma` and therefore preserves this fraction for
+rescaled copies of one event. Record growth is different: it increases the
+critical amplitude `Gamma_m`. Scale invariance does not turn `(G44.3)` into a
+uniform positive constant. A rung-independent `Gamma` would make the selected
+packet's critical contribution in `(G44.1)` rung-independent, so that packet
+could not carry the asserted unbounded record.
+
+The same mismatch appears in absolute currency. The packet's physical energy
+and the proposed viscous loss per round trip scale as
+
+```math
+E_m\simeq \Gamma_m^2r_m,
+\qquad
+\frac{\nu}{\Gamma_m}E_m
+\simeq \nu\Gamma_m r_m.
+\tag{G44.4}
+```
+
+The latter can be summable along a shrinking tower. In critical currency the
+loss is of order `nu Gamma_m`, but the time integral of critical dissipation is
+not bounded by Leray energy. Thus even a rigorous version of the two-toll
+ansatz would still need a separate original-data bounded critical reserve or
+an ancestry/no-reuse theorem.
+
+There are two additional exact gates.
+
+First, §42(a)'s cycle identity is net only:
+
+```math
+\int\Phi_{\rm in}^+\,dt
+-\int\Phi_{\rm in}^-\,dt
+=\nu\int\!\!\int_{|h|\le r}D\,dh\,dt.
+\tag{G44.5}
+```
+
+It permits both variations to be arbitrarily larger than their difference.
+
+Second, a critical-height upcrossing does not force an inward sign at each
+separation. The exact divergence-free triad
+
+```math
+k=(3,0,0),\quad p=(0,4,0),\quad q=(-3,-4,0),
+\tag{G44.6}
+```
+
+with
+
+```math
+\widehat u(k)=A(0,-1,0),\quad
+\widehat u(p)=A(0,0,-1),\quad
+\widehat u(q)=iA(0,0,1)
+\tag{G44.7}
+```
+
+has mode transfers `(0,-4A^3,4A^3)`. Hence
+
+```math
+\frac d{dt}H_{\rm crit}(0)
+=8A^3-432\nu A^2>0
+\qquad(A>54\nu),
+\tag{G44.8}
+```
+
+while
+
+```math
+\Phi_{\rm in}(\pi,0)
+=-\frac{164\pi^2}{25}A^3<0.
+\tag{G44.9}
+```
+
+Narrow resonant Fourier packets transfer the strict signs to real Schwartz
+data on `R^3`. The full calculation and the weighted identity
+
+```math
+P_H=2c_\Lambda\int_0^\infty r^{-5}\Phi_{\rm in}(r)\,dr
+\tag{G44.10}
+```
+
+are in NIC §12.
+
+The fixed-`h` Bernstein claim also needs qualification: `1-cos(xi.h)` has
+high-frequency zeros. A cumulative-ball or explicit spectral localization can
+repair the drain estimate, but nonlocal triad transfer still requires an
+actual paraproduct/locality theorem rather than the assertion that every
+outward transfer is carried by a single frequency-`1/r` agent.
+
+**Gate result.** The net cycle bias is exact. The pointwise-in-scale sign is
+refuted, and the proposed `1/Re_Gamma` floor degenerates precisely when the
+selected critical record grows. The missing statement remains a
+history-adaptive bound on record-selected gross weighted flux with an
+independently bounded critical currency. Section 43 has not reduced that
+statement to R1--R4 and has not closed Gold.
