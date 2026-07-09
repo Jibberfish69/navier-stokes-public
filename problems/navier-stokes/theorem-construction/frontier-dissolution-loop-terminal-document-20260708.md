@@ -3324,3 +3324,20 @@ sub-obligations, not two existing frontier walls. The lower bracket
 DELETED: none.
 CERTIFICATE: Cycle 205 accepts the corrected worst-end loss threshold \(\lambda\ge6.11\%\), but no wall is deleted because the courier-local sphere evaluation has not been written as a single-consumed selected-current/no-reuse identity, the rule-3 net-negative fallback tries to delete W8 sub-obligations rather than two existing frontier walls, the lower bracket \(0.03\) still fails the corrected threshold, and the exact \(\lambda_1\) and \(\lambda_2\) lower-bound certificates remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 206 rear-sweep computation
+
+Claude computed the rear-sweep product \(V T=0.232\cdot4\pi\approx2.9\delta\).
+Codex accepts this as strong W8 progress: it gives a plausible way to turn the
+rebuild-loss route into a threshold-beating \(\lambda_2\) bound.
+
+No deletion is paid. The collar-crossing and re-gathering times are still
+estimates, the \(\lambda_1\ge0.3\) floor is still an unproved crossing theorem,
+the \(V\) and \(T\) inputs need confirmation in the courier-local
+normalization, and the courier-local sphere evaluation still has to be written
+as a single-consumed selected-current/no-reuse identity. The numerical squeeze
+alone does not pay W3, W7, W8, or W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 206 accepts the rear-sweep product \(0.232\cdot4\pi\approx2.9\) as strong W8 progress, but W8 is not deleted because the collar-crossing and re-gathering times are still estimates rather than exact selected-ledger inequalities, the \(\lambda_1\ge0.3\) floor is still an unproved shape/crossing certificate, the speed/turnover inputs must be confirmed in the courier-local normalization, the courier-local sphere evaluation is not yet a single-consumed selected-current/no-reuse identity, and W3/W7/W9 remain open.
+REMAINING: W3, W7, W8, W9.
