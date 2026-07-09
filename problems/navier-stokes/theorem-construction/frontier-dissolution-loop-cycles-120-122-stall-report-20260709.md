@@ -4140,3 +4140,23 @@ low-\(\rho\)/cutoff clauses remain open.
 DELETED: none.
 CERTIFICATE: Cycle 293 accepts the azimuthal-orthogonality simplification of the rear-flux functional as useful progress, but no wall is deleted because the selected rear-cap weight and moving cutoff must be proved axisymmetric in the actual ledger, the base \(u_n\)/density \(m=0\) admission and \(\alpha^2\) correction-row constants are not exact, the \(m=0\) odd channel still depends on \(C_{m0}\), scale-separation suppression, and C292 sign typing, and inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 294 declared cap and sweep-sign semigroup route
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C294 tries
+to convert C293's cap and semigroup residues into declarations plus the sweep
+sign, but this is not terminal payment.
+
+Codex accepts C294 as useful narrowing. The declared cap geometry and cap-radius
+sweep sign are the right pieces to inspect.
+
+No deletion is paid. The declared readout must be certified as the same W8
+selected-current measurement; fixed-window cap terms must include transport,
+cutoff, reseed, and no-reuse effects; admission still pays the base-axisymmetry
+and \(\alpha^2\) correction row; the Moffatt-Moore sign is not yet a
+same-normalization rear-flux integral; and the adverse-sector semigroup bound
+is not proved by the sweep sign alone.
+
+DELETED: none.
+CERTIFICATE: Cycle 294 accepts the declared cap/cutoff geometry and sweep-sign semigroup route as useful reductions, but no wall is deleted because the declared readout must be certified as the same W8 selected-current measurement, fixed-window cap terms must include transport/cutoff/reseed/no-reuse contributions, base-axisymmetry and \(\alpha^2\) correction constants still spend admission, the Moffatt-Moore rear-flux sign is not a same-normalization integral, and the adverse-sector semigroup bound is not proved by the sweep sign alone.
+REMAINING: W3, W7, W8, W9.
