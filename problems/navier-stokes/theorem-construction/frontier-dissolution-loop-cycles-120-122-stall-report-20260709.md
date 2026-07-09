@@ -2360,3 +2360,28 @@ TV crossing to one-way selected current, and close the sweep/no-reuse split.
 DELETED: none.
 CERTIFICATE: Cycle 234 accepts the distributional identity \(N[\Delta g]=-g\) for compactly supported \(g\) as a real strengthening of the C233 exterior-vanishing result, but W8 is not deleted because the actual selected source \(g\) has not been typed and localized with all cutoff/boundary terms included, the interior term \(-g\) has not been placed exactly once in the selected-current Reynolds ledger with certified sign/ownership, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 235 one-seat placement claim
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C235 tries
+to identify the selected-localization/no-double-count residue with the
+one-field ownership rows behind W3/W7, but it still does not identify W8 with
+W3/W7/W9 because true-field locality, selected-object compactness,
+selected-current flux, and the W9 action clock remain different typed facts.
+
+Codex accepts the one-seat ontology as real progress: the true velocity field
+has one current through the surface, and a viscous change of \(u\) should not
+be written as a second independent supply row.
+
+No deletion is paid. Section §9wwww does not display the claimed
+density-viscous row \(w\nu\Delta\rho\) or band split as an attackable Reynolds
+row. The true-field statement for \(\omega\) and the compact selected
+diagnostic for \(w\rho\) are not yet one typed object. If \(\delta u\) changes
+the existing flux \(J=u(w\rho)\), then one-seat bookkeeping only says where the
+term lives; it does not certify that term's sign, size, or ownership in the
+selected-current ledger. C223's TV-to-one-way conversion and the sweep/no-reuse
+split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 235 accepts the one-seat whole-field ontology as a real no-double-count correction, but W8 is not deleted because §9wwww does not display the claimed density-viscous row or band split as an attackable Reynolds row, the true-field viscous locality statement and the compact selected \(w\rho\) diagnostic are not yet one typed object, the effect of \(\delta u\) inside the existing flux \(J=u(w\rho)\) still needs sign/size/ownership placement, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
