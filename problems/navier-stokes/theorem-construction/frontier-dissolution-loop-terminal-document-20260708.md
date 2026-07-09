@@ -1945,3 +1945,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 118 reduces the shell-import strictness stall to the §8m distribution lemma plus scale-matching and fine-import classification; those parent-child, no-recount, pump-extinction, and no-free-fine-stock facts remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 119 parent-child recurrence is accepted as the correct
+  inventory skeleton, but not as a certificate. Smooth initial data gives small
+  fine-scale stock in a fixed ball, not literal absence of all serviceable
+  fine-scale structures unless the threshold lower bound and scale-matching
+  window are proved. The channel inventory must be written as a scale-local
+  current: every rung-\(n\) serviceable unit must be charged exactly once to a
+  parent, pump/roll-up source, data term, or typed route-out. The exposed hinge
+  is child multiplicity: one coarse parent can spawn multiple fine serviceable
+  segments through length growth unless the multiplicity factor is bounded or
+  absorbed in the same service/yield ledger. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 119 accepts the parent-child inventory shape but leaves the actual recurrence, child-multiplicity bound, no-recount current, pump-extinction transfer, and initial fine-stock threshold unproved.
+REMAINING: W3, W7, W8, W9.
