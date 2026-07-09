@@ -7462,3 +7462,71 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 375 verifies the in-gauge selected-positive interface budget and same-surface service/drain comparison only; it does not delete W8 because the recurrent sign of \((\Gamma^2/r^4)n_z-\nu|\partial_n\eta|\), the positive-part ownership, the zero-set/axis tracking, and the gauge-free Lagrangian-interface analogue remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Bounded confirmation resumption: ownership-deletion certificate attack
+
+Owner resumption condition: the frontier is W3, W7, W8, W9, and the only
+admissible business is the standing ownership-deletion certificate. The
+certificate asserts that W3 row admission, W7 graph closure, W8 payment/import,
+and W9 action/normalization are not four independent child-owner debts, but
+reduce to one surviving written object: nonexistence of the aligned zero-bill
+positive-record survivor, with the rotating-frame Schur route-metric face and
+the fixed-phase marginal Liouville/NRS-Tsai face stated exactly.
+
+Cycle-law 1 cross-wall identification attempt: W3, W7, W8, and W9 are one
+because all four arise from treating a record/readout coordinate as an owner
+with rows, identity, reservoir, and clock. Failure, in one sentence: this is a
+valid ontology diagnosis, but not an exact terminal reduction certificate until
+each wall is mapped to an attackable clause of the one theorem.
+
+Codex partner-lane attack on the certificate alone: the refutation succeeds at
+terminal typing. The current written record contains the aligned zero-bill
+Liouville/UCP target and the A/B split, but it does not contain a single exact
+theorem statement plus exact wall-to-clause maps. The C0 synchronization note
+states the shared target as
+`NoAlignedIncompressibleCriticalRecordAtomExceptEscapes.A`, with positive
+retained record, same-field pressure Hessian co-diagonal with the moving strain
+frame, and escape into service-zero, pass-owned, collar/exit paid, or
+parent-owned smooth affine endpoint. The same note still marks load-bearing
+F2/A/B accounting open: the rotating spin-2 branch needs parent-known oriented
+detector admission plus Schur-thin admission and Schur motion payment, while
+the fixed-phase branch needs the material-time Liouville/NRS-Tsai endpoint
+exclusion. The terminal document through C375 also leaves W3/W7/W8/W9 open at
+the recurrence/sign-comparison and selected-ledger typing level.
+
+Therefore the ownership-deletion certificate is refuted as a wall deletion.
+It correctly deletes the false ownership grammar for future work, and it
+identifies the right survivor class, but it does not yet reduce W3, W7, W8,
+and W9 to the one surviving written object under the frozen exit condition.
+No new construction is admitted in this bounded resumption.
+
+DELETED: none.
+CERTIFICATE: Bounded resumption Cycle 1 refutes the ownership-deletion certificate as a terminal reduction: record-ownership is a false ontology and the aligned zero-bill positive-record survivor is the correct survivor class, but the written certificate lacks an exact single theorem statement plus exact maps sending W3 row admission, W7 graph closure, W8 payment/import, and W9 action/normalization to attackable clauses of that theorem, with Face A and Face B paid or left as the one stated survivor.
+REMAINING: W3, W7, W8, W9.
+
+## Terminal STOP for bounded confirmation resumption
+
+The bounded resumption stops after the first certificate attack. Under the
+resumption law, STOP is terminal and no further cycles run without a new owner
+message.
+
+Physical sentence: the proof has correctly removed child-owner metaphysics
+from the parent-child corpus, but the current written object still has not
+turned that ontology cut into an exact reduction map from W3/W7/W8/W9 into one
+attackable aligned-zero-bill theorem.
+
+Attempts: the loop attempted the cross-wall identification
+W3=W7=W8=W9 as shadows of record ownership; it checked the standing C0/UCP
+source and the terminal document through C375; it found the survivor class and
+the A/B faces named, but not a terminal theorem statement with wall-to-clause
+maps.
+
+Missing exact fact: an exact adversary-readable theorem statement for the
+aligned zero-bill positive-record survivor, together with exact maps showing
+that W3, W7, W8, and W9 are no longer independent walls but clauses of that one
+object; without that, the ownership cut is an ontology correction, not a paid
+reduction-to-one-object certificate.
+
+Final state: the bounded resumption ends by refutation. No wall deletion is
+confirmed. The open-wall list remains W3, W7, W8, W9. Paid deletions remain
+10/14 unchanged.
