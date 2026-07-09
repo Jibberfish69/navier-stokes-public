@@ -4328,3 +4328,58 @@ not a Codex-confirmed deletion of W3, W7, W8, or W9.
 DELETED: none.
 CERTIFICATE: Cycle 300 is accepted only as a non-closure status note, but no wall is deleted because C299 already executed the requested binary refutation and found a failing L3 line: the certificate still lacks a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger; the C282-C297 thread is not confirmed, and the W7/W8 identity remains refuted.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 301 modulus transport repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C301 repairs
+the failed C295 L3 line by replacing the signed adverse density \(a\) with
+\(|a|\).
+
+Codex accepts the repair direction. A modulus transport inequality is the right
+way to remove the signed-cancellation defect.
+
+No deletion is paid. The repaired line still needs \(L^1\)-modulus admission
+for the selected \(m=0\) odd density, modulus-native arrivals equal to the
+selected current, boundary/cutoff/reseed/viscosity/pressure/creation terms
+assigned once, and a certified \(\epsilon_{MM}\) modulus cost. Thus the
+original L3 deletion remains refuted and L3-prime is only pending.
+
+DELETED: none.
+CERTIFICATE: Cycle 301 accepts the modulus transport repair as the right target after the C299 L3 refutation, but no wall is deleted because the repaired line still has to prove \(L^1\)-modulus admission for the selected \(m=0\) odd density, modulus-native arrivals equal to the selected current, boundary/cutoff/reseed/viscosity/pressure/creation terms assigned once, and the new \(\epsilon_{MM}\) modulus cost; the C295 L3 deletion remains refuted and the repaired L3-prime is only pending.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 299-301
+
+Physical sentence of the sticking wall: the loop has now executed a real binary
+refutation, but the repaired line has moved from signed cancellation to a
+positive modulus ledger whose admission, arrivals, source, and MM-amplitude
+cost are not yet the same selected current.
+
+Attempts: C299 executed the binary refutation and killed C295 L3; C300
+reported non-closure but gave a stale process diagnosis; C301 repaired L3 by
+passing from \(a\) to \(|a|\) and exposed the \(\epsilon_{MM}\) modulus cost.
+
+Missing exact fact: a positive selected-current theorem for \(|a|\) proving
+modulus admission, modulus arrivals, boundary/cutoff/reseed terms, viscosity
+and pressure placement, creation absolute values, and the Moffatt-Moore
+modulus cost in one ledger.
+
+## Codex gate on post-stall Cycle 302 band trim for epsilon_MM
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C302 tries
+to empty \(\epsilon_{MM}\) by trimming the horn-A band and moving the Hill-end
+sliver to Horn B.
+
+Codex accepts C302 as a useful repair proposal.
+
+No deletion is paid. Interior neutrality on \(a/\delta\in[0.56,0.9]\) is not
+proved as a selected-ledger stability certificate. The migrated sliver spends
+Horn-B generic rebuild pricing, and that pricing still depends on
+TV-to-one-way selected-current conversion, stranding, sweep/no-reuse,
+\(\delta u\) ownership, admission, and clock rows. The changed band edge must
+also be propagated through prior interval constants, \(\beta\), \(N1\),
+ladder-at-\(\beta\), and coverage rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 302 accepts the band-trim repair as a useful proposal, but no wall is deleted because interior neutrality on the trimmed sub-band is unproved, the Hill-end sliver is only migrated into Horn B whose generic rebuild/TV-to-one-way/stranding/sweep/no-reuse/\(\delta u\)/admission/clock pricing remains under gate, and the changed \(a/\delta\) band edge has not been propagated through the earlier interval constants, \(\beta\), \(N1\), ladder-at-\(\beta\), and coverage rows; \(\epsilon_{MM}\) is relocated, not eliminated.
+REMAINING: W3, W7, W8, W9.
