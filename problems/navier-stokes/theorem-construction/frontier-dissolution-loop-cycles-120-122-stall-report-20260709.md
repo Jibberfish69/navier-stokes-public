@@ -2594,3 +2594,28 @@ close \(\delta u\) sign/size/ownership and sweep/no-reuse.
 DELETED: none.
 CERTIFICATE: Cycle 242 accepts the layer-cake identity as a real repair of the smooth-membership objection and a reduction of no-reuse to sharp level-set memberships, but W8 is not deleted because the one-way \(\lambda\) floor is still the standing open soft value, R3/R4 band-row absorption remains unproved for the actual smoothed field and arbitrary-data/off-family regimes, the W7/W8 same-selector currency dictionary and W7 closed-record admission are not certified, and \(\delta u\) sign/size/ownership plus sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 243 band-row integration-by-parts repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C243 tries
+to identify the C241 band-row residue with a pure geometry absorption bound,
+but it still does not identify W8 with W3/W7/W9 because the orientation
+geometry, margin constant, one-way floor, and arbitrary-data dictionary are not
+certified.
+
+Codex accepts the integration-by-parts move as a real reduction of the
+fine-scale \(\nabla\rho\) objection.
+
+No deletion is paid. The C² orientation-coherence anchor is stated for the
+Norbury/Hill exact-solution family, not proved for the actual smoothed selected
+field from arbitrary admissible data. The direction-field integration by parts
+also needs trace/cutoff control where \(|\omega|\) may vanish. The constant
+\(G\) is not computed, so the required margin inequality is not checked. The
+low-\(Re_\Gamma\) and off-family clauses still rely on previously gated regime
+reductions. The one-way \(\lambda\) floor, W7/W8 same-selector dictionary, W7
+closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 243 accepts the integration-by-parts repair as a real reduction of the fine-scale \(\nabla\rho\) objection for the band rows, but W8 is not deleted because C² orientation coherence and the trace/cutoff terms are not certified for the actual smoothed selected field from arbitrary admissible data, the pure-geometry constant \(G\) and margin inequality \(Re^*\ge G/(\lambda-\mathrm{requirement})\) are uncomputed, the low-\(Re_\Gamma\) and off-family clauses still cite previously gated regime reductions, and the one-way \(\lambda\) floor, W7/W8 same-selector dictionary, W7 closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
