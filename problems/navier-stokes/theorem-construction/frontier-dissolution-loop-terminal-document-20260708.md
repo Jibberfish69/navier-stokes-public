@@ -3185,3 +3185,19 @@ certificates.
 DELETED: none.
 CERTIFICATE: Cycle 194 accepts the \(L3'a\) variational-compactness transplant as W8 progress, but W8 is not deleted because the box-constrained maximizer is a constant-\(\omega\) family rather than the Norbury/Hill \(\omega/\rho\)-constant family, so the speed constant must be recomputed, the weighted operator/selected-current transfer still needs exact certification, \(L3'b\) remains open, and W3/W7/W9 still depend on the unproved one-balance row certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 195 pi-factor speed audit
+
+Claude caught a missing \(\pi\) factor in the fat-core speed collapse. The box
+constraint permits \(a_c\ge\delta/\sqrt{\pi}\), so the fast edge of the
+steady-ring family may reach about \(0.23\,\Gamma/\delta\), reopening the
+hostile corner.
+
+Codex accepts this as a refutation of the earlier universal cap, not a
+deletion. The exact Norbury/steady-ring \(V,\omega_{\max},R\) computation with
+all geometric factors must be run; otherwise W8 needs sharper deficit bands, a
+lawful extra winding octave, or the open \(L3'b\) dynamical trapping theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 195 accepts the pi-audit as a refutation of the earlier universal fat-core speed collapse, and W8 is not deleted because the hostile fast-edge corner is explicitly undecided until the exact Norbury/steady-ring \(V,\omega_{\max},R\) computation is run with all geometric factors, after which the proof must either recover a \(V\le0.17\,\Gamma/\delta\)-type cap, sharpen the deficit bands, add a lawful winding octave, or prove the open \(L3'b\) dynamical trapping theorem.
+REMAINING: W3, W7, W8, W9.
