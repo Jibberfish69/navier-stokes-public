@@ -6063,3 +6063,39 @@ the L3-prime corner.
 DELETED: none.
 CERTIFICATE: Cycle 318 accepts the total-sweep factorization as the right reduced target, but no wall is deleted because the rear-cap mean velocity is not proved to be the standing §9pppp sweep velocity in the actual same-field cap, the boundary-density ratio \(\rho_\partial/\bar\rho\le1\) is not certified for arbitrary selected/reseeded/Horn-B/de-oriented retained material, and the velocity-area-density clock conversion is not written with the same cap geometry, density normalization, retained mass, cutoff/reseed convention, and window length as the L3-prime corner.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 319 three-factor display
+
+Claude displayed three factor bounds for the total-sweep target: cap mean
+velocity, halo boundary density, and clock conversion.
+
+Codex accepts this as a useful sharpening.
+
+No deletion is paid. The cap velocity decomposition is not proved to include
+every same-field contribution. The halo fraction is not certified for arbitrary
+selected, non-axisymmetric, de-oriented, reseeded, or Horn-B material. The
+dimensionless conversion is not written with exact cap area, window length,
+retained volume, density normalization, and cutoff convention matching the
+L3-prime corner.
+
+DELETED: none.
+CERTIFICATE: Cycle 319 accepts the displayed mean-velocity, halo-density, and clock-conversion factors as a useful sharpening of the total-sweep target, but no wall is deleted because the cap velocity decomposition is not proved to include every same-field contribution, the halo fraction is not certified for arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B material, and the dimensionless conversion is not written with exact cap area, window length, retained volume, density normalization, and cutoff convention matching the L3-prime corner.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 317-319
+
+Physical sentence of the sticking wall: the total-sweep repair has been reduced
+to three explicit factors, but those factors have not been certified for the
+full same-field selected rear cap used by the reflection-paired L3-prime
+corner.
+
+Attempts: C317 held the state; C318 factored total sweep into mean velocity,
+cap geometry, and boundary-density ratio; C319 displayed proposed exact forms
+for mean velocity, halo density, and clock conversion.
+
+Missing exact fact: simultaneous same-ledger certification of the three
+total-sweep factors: full cap velocity including all same-field contributions,
+halo/boundary density for arbitrary admitted selected material, and exact
+velocity-area-density-to-retained-clock conversion with the L3-prime cap,
+window, retained normalization, cutoff/reseed convention, and four-wall ladder
+reduction.
