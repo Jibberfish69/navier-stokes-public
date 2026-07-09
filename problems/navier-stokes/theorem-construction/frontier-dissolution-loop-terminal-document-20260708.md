@@ -1642,3 +1642,32 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 96 conditionally closes the internal same-window bootstrap shape; strict constants, first-window splice, tier routing, window-count control, and capped-ODE insertion remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 97 normalized capped ODE is accepted as the right
+  one-surviving-object shape, but it is not yet a reduction certificate or
+  deletion. The display still has to prove that \(\sigma(s)\) matches the
+  service-requires-stock episode arithmetic, that \(\mathbf 1_{\rm thr}\)
+  attaches collection to the aligned branch without dropping unaligned service,
+  and that the \(s\)-comparison may replace thresholded loss by
+  \(c_*+d_{\rm def}\) after pump/import spending. The import bound \(G_R\) is
+  also W7/W8 positive-variation and no-recount admission for the canonical
+  family in the same retained current, not bookkeeping. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 97 identifies the normalized capped ODE that could absorb W3/W7/W8/W9; the saturation, threshold, \(G_R\)-admission, no-recount, and subcritical comparison clauses remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 98 dimensional sweep verifies the exact top row:
+  \(dX/d\tau\le 1\), so \(S_0=1\) is a material-clock normalization. This is a
+  genuine check, not a frontier deletion. The lower row still carries the
+  ownership burden: service, collection, pump, import, threshold, and no-recount
+  must be owned by the same retained current. The pasted fixed-region insight
+  sharpens the test: packet identity can be abandoned only if a whole-field
+  Eulerian current restores ownership by fixed-cover flux cancellation, with
+  selector, cutoff, branch-exit, weak-limit, and route-out defects charged in
+  the same currency. Until that fixed-cover ownership law and the capped-ODE
+  comparison are proved, C98 does not delete W3, W7, W8, or W9. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 98 confirms the top-row normalization \(S_0=1\) and narrows the remaining certificate to fixed-cover Eulerian ownership plus the capped-ODE comparison; those clauses remain unproved.
+REMAINING: W3, W7, W8, W9.
