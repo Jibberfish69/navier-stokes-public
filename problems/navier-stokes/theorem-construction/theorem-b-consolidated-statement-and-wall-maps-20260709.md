@@ -4502,8 +4502,10 @@ R(v_n(\tau))\le1
 \tag{G60.10}
 ```
 
-Thus every compact limit for which the nonlinearity passes is ancient Euler,
-not positive-viscosity Navier--Stokes. Nontriviality is not inherited. For a
+Localized Rellich compactness and the time-derivative bound pass the quadratic
+nonlinearity strongly in `L^1_{loc}`, so a diagonal limit is ancient weak
+Euler, not positive-viscosity Navier--Stokes. Nontriviality, the endpoint
+equalities, and `P_H` are not inherited. For a
 fixed divergence-free Schwartz field `w` with smooth annular compact Fourier
 support, choose the centers by a diagonal separation argument so all
 off-diagonal quadratic and cubic Fourier pairings are negligible, and form
@@ -4516,29 +4518,32 @@ w_N=N^{-1/2}\sum_{j=1}^Nw(\,\cdot-x_{j,N})
 The minimum separation can be taken so rapidly that the sum of all remote
 Schwartz tails is `o(1)` uniformly on every translated fixed ball. The fields
 can then be rescaled so that `R=D=1`, while `P_H -> 0` and every translated
-subsequence converges locally to zero. This is an endpoint countersequence,
+subsequence converges locally to zero. The exact normalization is
+`R(w_N)^{-1/2}S_{sqrt(R(w_N)/D(w_N))}w_N`, where
+`S_lambda f=lambda f(lambda x)`. This is an endpoint countersequence,
 not one Navier--Stokes history; it proves that the normalized bounds alone do
 not supply tightness.
 
-The remaining compactness split is exact. If `liminf eta_n>0`, HMIN retains
-both helical sectors, but one still needs an inverse/profile theorem that puts
-the positive current and record property into one nonzero Euler profile and a
-rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
+The remaining compactness split is exact. If `liminf eta_n>0`, HMIN
+lower-bounds both global terminal sector norms; it does not retain both signs
+or their cubic interaction in one profile. One still needs an inverse/profile
+theorem that puts the positive current and record property into one nonzero
+Euler profile and a rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
 effective viscosity and normalized record derivative vanish; endpoint
 vanishing and frequency dichotomy remain possible, and compactly supported
 steady Euler fields
 ([Gavrilov](https://arxiv.org/abs/1810.08020),
 [Constantin--La--Vicol](https://arxiv.org/abs/1903.11699)) rule out any broad
-ancient-Euler Liouville conclusion.
-Only an additional same-trajectory viscous/history defect could retain the NS
-arrow in that branch.
+ancient-Euler Liouville conclusion. A narrower inherited Euler rigidity/UCP
+class and an additional same-trajectory viscous/history defect remain separate
+open possibilities.
 
 **Adversarial result.** A bounded critical record normalization cannot retain
 classical viscosity, and the canonical normalized bounds do not force a
 nonzero profile.
 
-**Status.** Checked obstruction and exact exhaustive branch split. This is not Gold
-closure.
+**Status.** Checked scaling/compactness obstruction and exact exhaustive case
+split. This is not Gold closure.
 
 ## 61. HMIN IS WEIGHTED CROSS-SCALE OVERLAP, NOT CO-SCALE OCCUPANCY (2026-07-09)
 
