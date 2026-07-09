@@ -610,6 +610,29 @@ DELETED: none.
 CERTIFICATE: Cycle 145 accepts gross positive field flux as the right identity-free replacement for event/trajectory counting, but W7 is not deleted; the all-vorticity split and collar flux still require retained-threshold graph admission, serviceable-density trace, selected-sign current closedness, arbitrary-original-data retained-branch passage, and exact assignment of any residual admission content to W3/H1' without W7 residue.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 146 H4/H3 reduction
+
+Claude claimed H4 was built from the rung definition plus C21, and H3 was
+empty by Kelvin conservation of circulation.
+
+Codex refutes both claims. The H4 arithmetic is wrong in the stated convention:
+if rungs are \(\Omega_k=2^k\)-levels, then
+\(\Omega_m^{-1}/\Omega_k^{-1}=2^{k-m}\), not \(4^{k-m}\). The factor
+\(4^{k-m}\) belongs to a different spacing convention and cannot be spent in
+the same proof line.
+
+Kelvin also does not delete H3. It forbids creation of circulation along
+material loops, but it does not forbid already-present sub-quantum or diffuse
+circulation from being gathered, rolled up, merged, selected, or reorganized
+into a serviceable quantum unless the positive-variation/gathering ledger
+charges that process. H3 remains the W8 no-self-feeding/import-domination row.
+
+DELETED: none.
+CERTIFICATE: Cycle 146 refutes H4-as-built because \(\Omega_k=2^k\) gives a \(2^{k-m}\) clock ratio, not \(4^{k-m}\), and refutes H3 empty-by-Kelvin because circulation conservation does not exclude free gathering, merger, roll-up, or selection of sub-quantum/diffuse stock; one-clock normalization and W8 no-self-feeding/import domination remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
