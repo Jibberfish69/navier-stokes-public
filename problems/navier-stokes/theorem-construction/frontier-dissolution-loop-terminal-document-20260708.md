@@ -4938,3 +4938,42 @@ coordinate/neutral-mode scope is proved.
 DELETED: none.
 CERTIFICATE: Cycle 276 accepts replacement of the unproved \(\lambda_1(\alpha)\) interpolation by a Benjamin second-variation route, but no wall is deleted because the closure is knife-edge at \(c_2'=0\), strict positivity does not supply the needed quantitative lower bound in the selected normalization, the fixed-invariant/asymmetry-coordinate/neutral-mode scope of the second variation is not certified, and the product still inherits \(N1(\alpha)\), C271 re-entry, C272 TV/source ownership, W7/W8 admission, and no-reuse/clock rows.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 277 W3 rung-uniformity type inspection
+
+Claude tried to type W3's rung-uniformity residual by inspecting the composed
+floor and observing that no displayed factor carries a rung index.
+
+Codex accepts the useful part. The visible floor is made from same-rung
+dimensionless ratios, and exact Navier-Stokes scaling leaves \(\Gamma/\nu\)
+scale-invariant. That supports the claim that the displayed formula has no new
+explicit rung coordinate.
+
+No deletion is paid. Absence of a displayed rung index is not an
+empty-by-admission clause for W3. The inherited constants and rows still have to
+be uniform across arbitrary tower windows: admission bands, \(\beta\),
+\(\sigma_t\), \(c_2'\), re-seed choices, C271 absorption/no-reuse, C272 TV/N1
+source ownership, C275 level balances, and the Re-threshold fallback for
+non-exact towers. C277 itself also says it types only W3's residual inside the
+surviving object, not the wall.
+
+DELETED: none.
+CERTIFICATE: Cycle 277 accepts that the displayed rear-loss floor has no explicit rung-indexed factor and that \(\Gamma/\nu\) is scale-invariant for exact NS rescalings, but no wall is deleted because W3 requires uniformity of the inherited admission bands, \(\beta,\sigma_t,c_2'\), re-seed choices, C271 absorption/no-reuse, C272 TV/N1 ownership, C275 level balances, and Re-threshold fallback across arbitrary non-exact tower windows, and C277 itself types only W3's residual inside the surviving object rather than the wall.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 275-277
+
+Physical sentence of the sticking wall: transition-band occupancy, Horn-B
+second variation, and W3 rung uniformity have all been retyped into better
+same-ledger-looking rows, but each still depends on inherited selected-current
+admission, source ownership, threshold, and no-reuse clauses rather than a
+terminal identity or admission clause.
+
+Attempts: C275 retyped band occupancy as a layer-cake difference balance; C276
+replaced Horn-B interpolation with a Benjamin second-variation route; C277
+typed the W3 residual by absence of an explicit rung-indexed factor.
+
+Missing exact fact: one selected-ledger uniformity theorem proving the inherited
+constants and source rows are rung-uniform across arbitrary tower windows, plus
+the quantitative \(c_2'\) lower bound, transition-band boundary/tail control,
+and C271/C272 ownership certificates.
