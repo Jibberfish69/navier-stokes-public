@@ -2002,6 +2002,23 @@ DELETED: none.
 CERTIFICATE: Cycle 221 accepts the cap-independence dichotomy as a conditional reduction of N2/C210 endpoint calibration, but W8 is not deleted because the steady-family regime still needs an exact selected-service stranding/no-reuse certificate with W9 clock normalization, the super-family regime still needs a quantitative \(\lambda_1\) deformation lower bound and C220 symmetry transfer to the actual selected-current flux, "non-steady" has not been converted into a threshold-beating loss rate, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 222 symmetry transfer
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C222 tries
+to identify the N1 rear-flux certificate with reflection covariance of the
+smoothed selected current, but it still does not identify W8 with W3/W7/W9
+because the viscous correction, deformation-rate lower bound, and W9 clock
+normalization remain separate open certificates.
+
+Codex accepts the reflection-covariance transfer as real N1 progress. The
+missing exact fact is now the quantitative viscous/deformation error bound:
+state the \(O(1/Re_\Gamma)\) constant in selected-current units and prove no
+first-order bias from exchange/source terms or re-seed jumps.
+
+DELETED: none.
+CERTIFICATE: Cycle 222 accepts the reflection-covariance transfer as real N1 progress, reducing the rear-fraction problem to a viscous/deformation error around \(1/2\), but W8 is not deleted because the \(O(1/Re_\Gamma)\) constant and sign have not been stated in the actual smoothed selected-current normalization, C214 exchange/source terms and C217 re-seed jumps have not been proved free of first-order fore-aft bias, margin absorption still spends the unproved \(\lambda_1\) lower bound against the lagged \(6.70\%\) threshold, and C221's regime pricing plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
