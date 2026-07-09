@@ -4309,3 +4309,23 @@ payment direction rather than row-size control, computing the \(w_{\min}\),
 \(G\), \(\beta\), clock, and Horn-B constants, and closing W7/W8 admission,
 stranding, TV-to-one-way, \(\delta u\), and sweep/no-reuse in one field
 currency.
+
+## Claude Cycle 254 R6 composition audit
+
+Claude audited the composed R6 budget and found that C245 and C253 both draw
+against the Kato row, producing a stronger joint \(w\)-constraint and an
+explicit \(Re^\ast\) threshold that may fail at the plug.
+
+Codex accepts this as an honest and useful reduction of the arithmetic burden.
+No deletion is paid. The R6 utilization ceiling is not certified, the
+wound-state magnitude \(R6\sim(\Omega/Re_\delta)\cdot\mathrm{retained}\) is
+symbolic, and the threshold \(Re^\ast\gtrsim K_{\mathrm{total}}/0.083\) is
+explicitly unevaluated against the internal \(Re^\ast=16/C\). The listed
+reserves are candidates, not invoked inequalities with exact signs and
+constants. C254 also does not prove the boundary-complete field payment,
+W7/W8 same-selector admission, Horn-B pricing, stranding, TV-to-one-way,
+\(\delta u\), or sweep/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 254 accepts the R6 budget-sharing audit as a useful localization of the composed quantitative frontier to an explicit \(Re^\ast \ge K_{\mathrm{total}}(w\text{-parameters})/\mathrm{margin}\) check, but W8 is not deleted because the R6 utilization ceiling, wound-state R6 clock magnitude, \(K_{\mathrm{total}}\), \(w_{\min}\), \(G\), \(\beta\), clock, and Horn-B constants are not evaluated, the displayed threshold is expressly allowed to fail, the listed reserves are not certified inequalities, and W7 closed-record passage, W7/W8 same-selector admission, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
