@@ -701,3 +701,13 @@ None.
   No checked clause carries W3 row admission, W7 graph/Reynolds-defect closure,
   W8 selected original-data payment, or W9 compact material-time zero-surplus
   action. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 19-21 integrated-bill gate accepts the smooth-prelimit
+  peak-production inequality: the vorticity sup can grow only through stretching
+  at the running maximizer, not through advection, rearrangement, merger
+  language, or diffusion. This refutes a loose objection but does not delete a
+  wall. The proposed finite \(Re_\Gamma\) single-rung race is still a target:
+  \(\Gamma\)-monotonicity along viscous pedigrees is unproved, far-field
+  quasi-static escape refutes naive erosion, the no-third-clock capacity
+  dichotomy is not exhausted, and the integrated Riccati demand still needs
+  endpoint, viscous residual, exchange-time, and compact-action control. No wall
+  is deleted. Remaining: W3, W7, W8, W9.
