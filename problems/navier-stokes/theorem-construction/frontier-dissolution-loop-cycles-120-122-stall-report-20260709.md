@@ -1742,3 +1742,21 @@ identity for the courier-local sphere evaluation.
 DELETED: none.
 CERTIFICATE: Cycle 206 accepts the rear-sweep product \(0.232\cdot4\pi\approx2.9\) as strong W8 progress, but W8 is not deleted because the collar-crossing and re-gathering times are still estimates rather than exact selected-ledger inequalities, the \(\lambda_1\ge0.3\) floor is still an unproved shape/crossing certificate, the speed/turnover inputs must be confirmed in the courier-local normalization, the courier-local sphere evaluation is not yet a single-consumed selected-current/no-reuse identity, and W3/W7/W9 remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 207 front/rear sweep sorting
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C207 again
+tries to identify W8 with the W3/W7 whole-field flux rows through the
+front-to-back sweep, but the identification is not complete because the
+front/rear split has not yet been written as a selected-current identity
+consumed once in the courier-local ledger, and W9's transit/action clock still
+has to be carried in the same currency.
+
+Codex accepts the front/rear sweep sorting as a sharper W8 reduction. No
+deletion is paid. The exact missing facts are the rear-crossing measure,
+the return-against-sweep inequality, the certified \(\lambda_1\) floor, and
+the courier-local selected-current/no-reuse identity.
+
+DELETED: none.
+CERTIFICATE: Cycle 207 accepts the front/rear sweep sorting as a sharper W8 reduction, but W8 is not deleted because the rear-crossing fraction \(\lambda_2\approx0.5\) is still an estimate from mismatch symmetry, the rear-return drift band is not yet an exact inequality in the courier-local normalization, the claimed 3x separation has not been written as an attackable selected-ledger bound, the \(\lambda_1\ge0.3\) crossing floor remains unproved, and the courier-local selected-current/no-reuse identity is still open.
+REMAINING: W3, W7, W8, W9.
