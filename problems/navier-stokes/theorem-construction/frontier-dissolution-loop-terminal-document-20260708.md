@@ -4427,3 +4427,42 @@ C258 refines the obstruction, but it does not certify horn-A/Horn-B admission,
 DELETED: none.
 CERTIFICATE: Cycle 258 accepts the withdrawal of the finite-window rescue and the spectral reduction of the arrivals-orientation theorem to the exact threshold \(\chi>\log 4\), but W8 is not deleted because the C55 restoring coefficient \(\kappa\) and hence \(\chi\) are not evaluated from the actual in-band class objects, the zeroth-order linearization and forcing-scale strain injection are not certified in the selected ledger, the cascade-shell bookkeeping is stated rather than proved for the actual arrivals field, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 259 duty-cycle restorer correction
+
+Claude corrected C258: the small-amplitude scale-independent restorer is
+differential stretching, not geometric winding, and the proposed condition is
+\((3\alpha/2\Omega)T_s>W_t\log4\).
+
+Codex accepts this as a real correction and sharper bottom. No deletion is
+paid. The section explicitly says the ranges overlap, so the certificate is
+not an evaluated inequality. The component-stretching bookkeeping,
+Kelvin-preserved transit/no-stretching claim, per-stage compounding through
+re-selection, and the exact declared values of \(W_t,T_s,\alpha/\Omega\) are
+all attack surfaces. Thus C259 reduces the arrivals-orientation theorem to one
+duty-cycle plug, but it does not certify that actual arrivals remain oriented
+or pay W8.
+
+DELETED: none.
+CERTIFICATE: Cycle 259 accepts the correction that differential stretching, not geometric winding, supplies the scale-independent restorer and reduces the arrivals-orientation theorem to the duty-cycle inequality \((3\alpha/2\Omega)T_s>W_t\log4\), but W8 is not deleted because the inequality is expressly unevaluated with overlapping standing ranges, the component-stretching bookkeeping, Kelvin-preserved transit/no-stretching claim, per-stage compounding through re-selection, and exact declared constants \(W_t,T_s,\alpha/\Omega\) are not certified as an adversarial plug, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 257-259
+
+Physical sentence of the sticking wall: the arrivals-orientation route has
+been stripped down to a same-field duty-cycle race between transit pile-up and
+service stretching cleanup, but the proof still lacks the exact plug showing
+that the chain's declared constants force cleanup before the next selected
+arrival is counted.
+
+Attempts: C257 exposed the Batchelor pile-up danger and named a winding-versus
+strain-cascade ratio; C258 withdrew the finite-window rescue and sharpened the
+spectral threshold to \(\chi>\log4\); C259 corrected the restorer to
+differential stretching and rewrote the threshold as
+\((3\alpha/2\Omega)T_s>W_t\log4\).
+
+Missing exact fact: an adversarial evaluation of the declared duty-cycle
+constants \(W_t,T_s,\alpha/\Omega\), together with the component-stretching
+certificate, Kelvin-preserved transit/no-stretching certificate, and
+re-selection compounding certificate, proving the actual arrivals-orientation
+inequality in the W7/W8 same-selector field ledger.
