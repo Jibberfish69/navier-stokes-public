@@ -2339,3 +2339,24 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 233 accepts the identity \(N[\Delta f]=-f\) for compactly supported smooth \(f\) as a real refutation of the dipole far-field route, but W8 is not deleted because the actual selected ledger source has not been proved to be exactly such a compact \(f\) without extra courier-cutoff or \(w(\theta)\) derivative terms, the interior term \(N[\Delta f]=-f\) still has to be placed once in the selected-current Reynolds identity as favorable or already counted, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 234 distributional exterior vanishing
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C234 tries
+to identify the selected-contraction residue with the distributional identity
+\(N[\Delta g]=-g\), but it still does not identify W8 with W3/W7/W9 because
+selected source typing, compact localization, interior no-double-count
+placement, TV conversion, and sweep/no-reuse remain separate facts.
+
+Codex accepts the distributional strengthening. The exterior field of a compact
+distributional Laplacian vanishes without any smoothness or dipole estimate.
+
+No deletion is paid. The exact missing facts are now: define the actual
+selected \(g\), include all courier-cutoff and boundary distributions needed
+for compact support, place the interior local term \(-g\) exactly once in the
+selected-current Reynolds ledger with sign/ownership certified, convert C223's
+TV crossing to one-way selected current, and close the sweep/no-reuse split.
+
+DELETED: none.
+CERTIFICATE: Cycle 234 accepts the distributional identity \(N[\Delta g]=-g\) for compactly supported \(g\) as a real strengthening of the C233 exterior-vanishing result, but W8 is not deleted because the actual selected source \(g\) has not been typed and localized with all cutoff/boundary terms included, the interior term \(-g\) has not been placed exactly once in the selected-current Reynolds ledger with certified sign/ownership, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
