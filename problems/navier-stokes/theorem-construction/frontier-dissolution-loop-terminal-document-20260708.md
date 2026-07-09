@@ -1113,3 +1113,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 58 narrows A2 to a scale-uniform moving-cylinder parabolic lemma with \(L^2_t\) far-strain tail, intermediate-zone control, and retained-current admission; this lemma remains unproved.
 REMAINING: W3, W7, W8, W9.
+- The Codex direct A2 pressure test (Cycle 59) splits the C58 tail estimate by
+  the meaning of \(r_0\). If \(r_0\) is a fixed physical exterior radius, the
+  Leray \(L^2_t\) tail is valid support on finite time intervals, but it leaves
+  the dyadic region between the shrinking tier boundary and that fixed radius.
+  If \(r_0\sim\delta(t)\) follows the moving tier, the estimate requires
+  \(\int_I \delta(t)^{-3}E(t)\,dt\), not merely \(\int_I E(t)\,dt\). Leray
+  supplies the latter, while the former carries the blowup-scale weight. The
+  live A2 theorem is therefore the moving/intermediate-zone weighted-tail
+  theorem or a proof that the near-field four-piece/C17-log machinery already
+  covers that zone. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 59 separates fixed-exterior Leray tail support from the still-open moving-tier weighted enstrophy/intermediate-zone theorem; A2 remains unproved.
+REMAINING: W3, W7, W8, W9.
