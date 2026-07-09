@@ -5841,3 +5841,22 @@ Missing exact fact: a same-selected-ledger one-way viscous exchange theorem
 through an owned sorting plane, with boundary tangency or crossing-dipole
 defect, cutoff/reseed, no-reuse, retained normalization, and clock ownership
 all assigned once.
+
+## Codex gate on post-stall Cycle 360
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C360 offers
+W3/W7/W8/W9 as four coordinates of the one object. The attempt fails as a
+deletion because an exact same-selected-ledger map per wall is not displayed.
+
+Codex accepts the sweep-sign concession and the blanket member theorem as a
+refutation of the ladder-member shortcut. The six members are support rows or
+coordinates; terminal payment would have to be the signed one-way viscous
+exchange on the owned axis.
+
+No row deletion is paid by the \(P_A\) accounting. The alleged direction
+ownership deletion is conditional on paying the boundary tangency/crossing
+dipole in the same selected ledger, so the row is retyped rather than deleted.
+
+DELETED: none.
+CERTIFICATE: Cycle 360 confirms the sweep-sign member refutation and accepts the blanket member theorem only as a refutation of the finite-set member shortcut: all six ladder members are support rows or coordinates, while terminal payment would have to be the signed one-way viscous exchange on the owned axis. No wall is deleted because \(P_A\)'s boundary/crossing defect remains unpaid and no exact same-selected-ledger map reduces W3/W7/W8/W9 to the one surviving written object.
+REMAINING: W3, W7, W8, W9.
