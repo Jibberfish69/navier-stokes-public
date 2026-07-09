@@ -3488,3 +3488,75 @@ conclusion is exact and sufficient for the reduction audit: neither the norms
 nor the instantaneous NS record condition produces H2. A new theorem using
 the complete preceding history would be required. None is installed, so the
 route to H3 remains unavailable.
+
+## 55. GLOBAL SPECTRAL-MEAN IDENTITY: a lawful one-field replacement for H2 (2026-07-09)
+
+Define the complete spectral moments and mean frequency
+
+```math
+M_q=\int|\xi|^q|\widehat u(\xi)|^2d\xi,
+\qquad
+m=\frac{M_1}{M_0},
+\qquad
+d\mu=M_0^{-1}|\widehat u|^2d\xi.
+\tag{G55.1}
+```
+
+For `B=P div(u tensor u)` and
+`P_H=-<B,Lambda u>`, the energy and critical-height equations imply
+
+```math
+\boxed{
+\frac12\dot m
+=\frac{P_H}{M_0}-\nu\mathcal W,
+\qquad
+\mathcal W
+=\int(|\xi|-m)^2(|\xi|+m)d\mu\ge0.
+}
+\tag{G55.2}
+```
+
+This is one global identity of the full field. Energy skew-symmetry gives
+
+```math
+P_H=-\langle B,(\Lambda-m)u\rangle,
+\tag{G55.3}
+```
+
+so the nonlinear drive and differential viscous damping read the same spectral
+displacement. A zero-spread spectrum makes both terms vanish; on `R^3` the
+only `L^2` field supported on one frequency sphere is zero. This is exact
+rigidity, with no uniform gap because narrow annuli approximate the sphere.
+
+Let
+
+```math
+V=\operatorname{Var}_{\mu}(|\xi|),
+\qquad
+Q_m=\|(\Lambda+m)^{-1/2}B\|_2^2.
+\tag{G55.4}
+```
+
+Weighted Cauchy--Schwarz, improved using `<B,u>=0`, gives
+
+```math
+P_H^2
+\le Q_mM_0
+\left(\mathcal W-\frac{V^2}{2m}\right)
+\le Q_mM_0\mathcal W.
+\tag{G55.5}
+```
+
+At a critical-height record, `P_H>=nu M_3`, while
+`W<=M_3/M_0` and `M_3/M_0>=m^3`. Therefore
+
+```math
+\boxed{Q_m\ge\nu^2m^3.}
+\tag{G55.6}
+```
+
+The conclusion is a strict reduction rather than closure. Every unbounded Gold
+history must repeatedly create resolvent-weighted nonlinear acceleration at
+least at the viscous mean-frequency scale. No datum bound for `Q_m` is proved.
+The identity replaces the non-exhaustive H2 packet with a lawful global
+coordinate and gives Opus 4.8 one exact signed term to attack.
