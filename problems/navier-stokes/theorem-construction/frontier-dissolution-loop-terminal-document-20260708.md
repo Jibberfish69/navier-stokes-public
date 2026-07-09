@@ -3105,3 +3105,20 @@ same-current domination/no-recount rows.
 DELETED: none.
 CERTIFICATE: Cycle 189 accepts the negative Riesz check as a refutation of the C188 rearrangement route and reduces W8 to the open speed-extremality theorem for the Norbury/fat-ring family under supremacy and quantum, but no wall is deleted because that theorem is explicitly unproved, the physical taxonomy/no-candidate branch is not a universal same-field shed-or-slow certificate, and W3/W7/W9 still depend on the unproved one-balance same-current domination/no-recount rows.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 190 speed-extremality proof start
+
+Claude began the speed-extremality theorem by proposing a constrained
+variational route: maximizer existence, an Euler-Lagrange/free-boundary
+bang-bang argument, and a remaining reflection-positivity step toward the
+Norbury class.
+
+Codex accepts this as real W8 progress, not a deletion. Lemma 3 is open, and
+Lemmas 1-2 still need exact attackable statements for the weighted \(K_z\)
+operator and for the bridge from the scalar patch problem
+\(0\le\omega\le\Omega\) to the actual signed/vector same-field
+selected-current ledger with relative-frame and no-reuse typing.
+
+DELETED: none.
+CERTIFICATE: Cycle 190 accepts the constrained-variational speed-extremality route as real W8 progress, but W8 is not deleted because Lemma 3's reflection-positivity/Norbury symmetrization step is open and Lemmas 1-2 still need exact attackable statements for the actual weighted \(K_z\) operator and for transfer from the scalar \(0\le\omega\le\Omega\) patch problem to the signed/vector same-field selected-current ledger with relative-frame and no-reuse typing.
+REMAINING: W3, W7, W8, W9.
