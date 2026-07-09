@@ -1193,3 +1193,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 64 reduces Theorem C to an exact transit-crossing/subcriticality ODE theorem; the path-crossing claim, dimensioned rows, and \(c^*_{\rm transit}>C_{\rm imp}\) certificate remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 65 scalarization is accepted as the right computation target,
+  not as terminal typing. The checked July 7 c0 notes support the shape: c0 is a
+  pure sign/ratio/minimax over lawful retained histories, and the pure-number
+  index note labels itself a candidate closure route, not a closure. C65 still
+  has to prove Re_\(\Gamma\)-homogeneity across every row in A/B/C, reduce the
+  retained-history minimax to the forced ring-pair geometry or route out all
+  escapes, and then compute the number inside the exact ODE and B5 route table.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 65 reduces the residue to the retained-history \(\eta^*\) computation plus its admissibility/route-out theorem; the homogeneity sweep, transit-crossing reduction, ODE/B5 table, and number certificate remain unproved.
+REMAINING: W3, W7, W8, W9.
