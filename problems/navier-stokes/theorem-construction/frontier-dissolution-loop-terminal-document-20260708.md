@@ -535,3 +535,13 @@ None.
   selected \(c_0\)-bearing record: pressure flux lacks sign/coercive absorption,
   CKN mass is radius-weighted rather than an unweighted normalized critical
   budget, and terminal stress-work variation is still open.
+- The W3-W8 fixed-cover Radon-Nikodym domination reduction sharpens that overlap
+  against the two payment walls. Fixed-cover cancellation removes spatial
+  handoff loss, but it does not identify W3 with W8: W3's selected Door-1
+  \(H^1\)/enstrophy-viscous measure can still concentrate in the scale/rung
+  coordinate. W3 becomes a W8 consumer only after
+  \(d\mu_{D1}^{\rm sel}=f\,d\mu_{W8}+d\mu^\perp\) with bounded density and typed
+  route-out of \(d\mu^\perp\), or the equivalent weighted tower-cell inequality.
+  Current sources do not prove that domination; the moving-rung model
+  \(\mu_n=\delta_{(\alpha_0,n)}\) has perfect fixed-region ownership while
+  failing tower-uniform selected bill admission.
