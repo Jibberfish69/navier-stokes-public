@@ -6109,3 +6109,40 @@ controlling weighted swirl-pump delivery or its three-dimensional analogue
 against viscous drains, together with component tracking, nesting, no-reuse,
 retained normalization, and the selected-ledger ownership of the one-way
 exchange.
+
+## Codex gate on post-stall Cycle 373
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C373 tries
+to identify in-gauge W8 with transport-focusing recurrence exclusion. The
+attempt fails as a wall deletion because the identification remains
+axisymmetric-gauge-bound and the focusing exclusion is unproved.
+
+Codex accepts the z-exact pump identity. In the axisymmetric gauge,
+\((1/r^4)\partial_z(\Gamma^2)\) has zero full-column integral in \(z\) at each
+radius, assuming decay. Thus the swirl pump redistributes \(\eta\) along \(z\);
+it does not create net signed column mass.
+
+No wall is deleted. Column cancellation does not control selected positive
+mass, meridian/radial focusing, recurrent concentration against the viscous
+drains, or the gauge-free per-component sign-selection theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 373 verifies the z-exact swirl-pump identity and zero full-column production only; it does not delete W8 because column-integral cancellation does not control selected positive mass, meridian/radial focusing, recurrent concentration against the viscous drains, or the gauge-free per-component sign-selection theorem.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 371-373
+
+Physical sentence of the sticking wall: in the axisymmetric gauge the swirl
+pump is now known to redistribute rather than create signed column mass, but
+the proof still has not excluded recurrent focusing of that mass into the
+selected component axis.
+
+Attempts: C371 proved one-way no-swirl annihilation on the mirror slice; C372
+capped the swirl circulation reservoir; C373 proved zero full-column creation
+by the swirl pump.
+
+Missing exact fact: a selected-ledger Liouville theorem excluding recurrent
+transport focusing of capped swirl fuel, or its gauge-free three-dimensional
+analogue, with positive-part/selected-current ownership, component tracking,
+nesting, no-reuse, retained normalization, and viscous-drain comparison all
+assigned once.
