@@ -1897,6 +1897,24 @@ DELETED: none.
 CERTIFICATE: Cycle 214 accepts the selected-current continuity identity as the right reduced theorem shape, but W8 is not deleted because \(\rho_{\rm sel}\), \(\Sigma_{\rm exch}\), and \(\Sigma_\sigma\) lack exact attackable definitions, the "position-blind/oscillatory/cannot refund" claims have not been proved as identities or inequalities, the re-seed jump terms are not yet included in the Reynolds balance, the Kato sign has not been checked for the selected positive currency, the quantitative rear flux bound still rests on the soft C207/C211 dichotomy, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 216 exact sign reductions
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C216 tries
+to identify the C214 exchange/sign residue with exact operator/domain facts,
+but it still does not identify W8 with W3/W7/W9 because the winding sign,
+re-seed jump, Kato/tilt terms, quantitative rear flux, and action-clock
+normalization remain separate certificates.
+
+Codex accepts the zeroth-order exchange identity and the domain no-refund
+statement as real reductions. The missing exact facts are the threshold
+regularity of \(\chi\), the favorable-biased winding inequality in the actual
+courier-local orientation variable, closure of \(\Sigma_\sigma\), Kato sign,
+re-seed jump terms, and the quantitative rear-lens flux lower bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 216 accepts the zeroth-order exchange identity and the domain-of-integration no-refund statement as W8 reductions, but W8 is not deleted because the indicator \(\chi\) and its threshold/interface terms lack an exact certificate, the favorable-biased winding inequality is still unproved for the actual courier-local orientation variable, \(\Sigma_\sigma\), Kato sign, and re-seed jump terms remain unclosed, the rear-lens flux lower bound is still quantitative and open, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
