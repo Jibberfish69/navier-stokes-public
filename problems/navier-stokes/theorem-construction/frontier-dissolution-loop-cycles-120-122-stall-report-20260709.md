@@ -529,6 +529,45 @@ DELETED: none.
 CERTIFICATE: Cycle 141 accepts the service-flux chain as the correct field-level target, but refutes the claimed composition; growth-rate control, stock domination, and stock balance do not bound time-integrated service by net influx without a residence/depletion/yield-density theorem, and C73, C105, C130, C33, W3 sign admission, W8 no-self-feeding, and W9 clock normalization remain unproved in one currency.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 142 stranding law in flux currency
+
+Claude proposed the load-bearing C33 replacement: close speed across a scale
+gap is bounded by differential advection at that scale, so data-scale supply
+arrives too slowly to feed arbitrarily deep rungs.
+
+Codex accepts this as the right supply theorem and rejects it as proved. The
+missing exact fact is now a relative-transport locality estimate for the
+serviceable signed current. Coherent sweeping, jets, pressure-slaved strain,
+selector motion, intermediate scales, record-generated stock, and co-moving
+supply must all be routed in the same flux currency. The rung-clock arithmetic
+must also be fixed against the certificate's chosen scale convention, because
+the \(4^{k-m}\) factor is load-bearing.
+
+DELETED: none.
+CERTIFICATE: Cycle 142 reduces the C33 supply burden to a field-flux differential-advection/locality theorem, scale-ratio arithmetic, and original-data/no-self-feeding budget, but the relative closing bound, coherent-transport routing, rung-clock factor, prestaging/co-moving-supply exclusions, and same-currency delivery count remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 143 residence theorem
+
+Claude wrote the theorem C141 needed: convert in-zone stock to
+time-integrated service by bounding service rate and residence time.
+
+Codex accepts this as the correct missing object and rejects the proof as
+conditional. The service-rate bound needs integrated kernel locality, not just
+a point kernel slogan. The residence-time bound needs the 0.205 discharge to
+be a pointwise or flux-level outward normal velocity for every serviceable
+component, with no station-keeping, recirculation, selector drift, or inward
+background flow. The stock estimate must use positive inward flux, not net
+flux, because outflow can cancel an entry after that stock has already served.
+
+DELETED: none.
+CERTIFICATE: Cycle 143 accepts the residence theorem as the missing field-level target, but the proof is conditional; integrated kernel locality, pointwise/flux discharge, no station-keeping or recirculation, positive-influx rather than net-flux accounting, packing/quantization, no-self-feeding, and same-clock normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
