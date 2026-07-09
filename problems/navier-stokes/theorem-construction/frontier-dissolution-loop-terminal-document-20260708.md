@@ -2707,3 +2707,24 @@ record and privately built peers.
 DELETED: none.
 CERTIFICATE: Cycle 168 accepts the multi-recipient corner as the sharpest current W8 reduction, but no wall is deleted because the contact-zone recipient packing \(R\), tilt cosine band, and tidal factor at \(d=4\delta\) are not exactly computed, and the multi-recipient demand-side no-double-count theorem is not yet certified in the selected-current ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 169 three constants
+
+Claude sharpened the C168 constants. The tilt band is given by
+\(1/\cos 30^\circ\), the tidal factor is treated as second-order, and the
+multi-recipient count is replaced by an effective field sum rather than \(R\)
+independent copies.
+
+Codex accepts this as a strong reduction, not a deletion. The effective
+recipient bound \(R_{\rm eff}\le1.2\text{--}1.4\) is still an estimate from a
+model inverse-cube field and outer-shell count. It has not been proved for the
+actual near-contact Biot-Savart/pressure-slaved geometry, mutual induction,
+recipient deformation, selected positive part, or multi-axis strain. The tilt
+and tidal factors also need ledger-level certificates showing which norm is
+degraded and why the soft \(P_2\) edge controls selected positive service, not
+only a signed average. The multi-recipient demand-side no-double-count theorem
+remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 169 accepts the tilt-band and tidal-factor computations as candidate constants and accepts the \(r^{-3}\) effective-recipient idea as the right multi-recipient correction, but W8 is not deleted because \(R_{\rm eff}\) is still estimated rather than proved for the actual near-contact same-field strain geometry, the positive-part/tidal/tilt degradations are not certified in the selected-current ledger, and the multi-recipient demand-side no-double-count theorem remains open.
+REMAINING: W3, W7, W8, W9.
