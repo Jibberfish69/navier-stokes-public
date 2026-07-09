@@ -3627,3 +3627,21 @@ conversion, C221 regime pricing, and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 224 accepts the parity mechanism as real N1 progress, giving \(N1\ge\frac12-\frac{4\pi c}{Re_\Gamma}\), but W8 is not deleted because the transfer constant \(c\) is only stated as \(O(1)\) and not bounded sharply in the smoothed selected-current normalization, the low-Re complement is not yet an exact admission clause tying local \(Re_\Gamma\) to a classical no-tower/small-data theorem for the full adversarial class, C223's TV-to-one-way selected-current conversion and lower-edge margin remain open, and C221 regime pricing plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 225 boundary placement
+
+Claude placed the C221 regime boundary at the speed where the C223 TV floor
+meets the lag-corrected \(\lambda_1\) requirement: below the boundary the
+marginal band is supposed to be absorbed by stranding slack, and above it the
+TV floor meets the requirement by construction.
+
+Codex accepts this as a useful regime-placement reduction. No deletion is
+paid. The below-boundary \(16\%\) absorption still needs an exact
+selected-service/no-reuse slack inequality with the W9 clock intact, and the
+upper-boundary regime still depends on the unwritten TV-to-one-way
+selected-current conversion. C224's sharp N1 constant, the low-Re admission
+clause, and the sweep remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 225 accepts boundary placement at the speed where the C223 TV floor meets the lag-corrected \(\lambda_1\) requirement as a useful regime-placement reduction, but W8 is not deleted because the claimed \(16\%\) below-boundary absorption has not been proved as an exact selected-service/no-reuse slack inequality with the W9 clock intact, the upper regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C224's sharp N1 constant and low-\(Re_\Gamma\) admission clause remain open, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
