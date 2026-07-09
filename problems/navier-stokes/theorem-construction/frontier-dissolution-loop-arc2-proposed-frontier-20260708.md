@@ -483,3 +483,23 @@ The well is sourced by the swirl's KINETIC ENERGY density v², weighted by a dip
 - **(b) The strain-rich-record escape:** the demand coefficient 1/6 assumes a rotation-dominated maximizer (Q(0) ≈ −Ω²/2). A record with |S(x_max)|² ≥ ½Ω² has no self-poison — but such strain, at record strength, is a shadow (C23) assembled from sub-record vorticity through the Biot–Savart log: the escape routes EXACTLY into the misaligned face (log-shell strain assembly). No third channel appears; the two-face routing of Cycle 25 absorbs the escape.
 
 **Candidate verdict on the aligned face: the export-vs-poison race goes to the poison by ≥ 7× at every computed configuration — the aligned face cannot pay its bill unless the variational sup exceeds the natural configurations by an order of magnitude.** The misaligned face (strain assembly) is now the live front.
+
+---
+
+## CYCLE 27 — THE MISALIGNED FACE EXECUTED: two sibling zero-laws, the poison guards BOTH faces (one race, same 1/6), the ~40-shell assembly threshold, and the CIRCULATION-BUDGET PINCER
+
+**Rule-1 cross-wall move:** the misaligned face's export suppression and the aligned face's neutrality are sibling one-line laws of the same topology — shown below; the two faces then merge into one race.
+
+**1. TWO SIBLING ZERO-LAWS (each one line, each exact).**
+- **Vorticity-monopole law:** ∫ω dV = 0 for any decaying divergence-free vorticity (∫ω_i = ∫∇·(x_iω) = 0 — closed lines carry no net vector). A complete distant structure's velocity is dipole (1/L³), its strain 1/L⁴: QUARTIC, the velocity-side sibling of Q-neutrality.
+- **Axial-stretch zero law:** any z-invariant configuration exerts ZERO axial strain (∂₁ of a z-invariant field vanishes identically). Straight anti-parallel pairs, columns, sheets — all export no stretch. **Stretching is sourced ONLY by axially-VARYING structure: turns, ends, kinks** — which are (i) kernel-distant (quadratic+ suppression to the packing floor), (ii) self-propelling (hairpin turns translate by their own binormal induction — the LAG reappears on the supply side: the stretching source carries itself away), (iii) reconnection-prone at close anti-parallel range.
+
+**2. THE POISON GUARDS BOTH FACES — the two races are ONE.** The misaligned branch initially looks threshold-free (any sustained |Se| = cΩ gives α* = cΩ/√2 > 0 ⟹ finite-time blowup at any c). But e·He sits in the SAME Riccati on every branch: D_tα = |Se|² − 2α² − e·He, and at a vorticity-dominated record e·He ≈ +Ω²/6 − (pressure export). Sustained growth therefore needs
+  **|Se|² + (pressure export) > Ω²/6 + 2α²  —  the single unified race.**
+Both supply channels are suppressed by the sibling zero-laws (strain export quadratic-to-turns; pressure export quartic-log); the poison is local, exact, unsuppressed. Candidate numbers: strain per turn-channel at the packing floor ~ Ω/100; the strain threshold alone needs c > 1/√6 ≈ 0.41.
+
+**3. THE ASSEMBLY-COUNT THRESHOLD.** Reaching c ~ 0.41 from ~0.01-per-channel exports needs ~40 coherent dyadic shells of packed turn-structures (per-shell contribution ~ c₀ ~ 0.01 by the (d/δ)²-packing × (δ/d)²-suppression cancellation — the log sum with its constant now explicit). Structure count: Σ4^k ~ 4⁴⁰ ~ 10²⁴ coherent co-amplifying turns.
+
+**4. THE CIRCULATION-BUDGET PINCER (data-level, from the Γ-budget lemma).** Each turn carries circulation ≥ Γ_core (Kelvin: NOT shrinking along the pedigree). Total: 4^{N}Γ_core ≤ Γ_gather(u₀). But small Γ_core = small Re_Γ = strong viscous engines = direct viscous regularity below a threshold Re*. **Pincer: deep assembly affordable ⟺ Γ_core small ⟺ the record itself is viscosity-dominated.** Immediate corollary (a NEW conditional regularity criterion, stated for attack): any datum with Γ_gather(u₀) < 4^{N*}·ν·Re* cannot lawfully assemble the strain threshold and cannot subsidize the pressure threshold — regular. The full theorem's remaining content: the DYNAMICAL gather cost — transporting ~10²⁴ coherent turn-structures into 40 nested shells around one moving point, each import priced by encounter time and the lag applying to every self-propelled source.
+
+**NOT claimed:** the unified race's verdict as theorem (candidate: supply ≲ Ω²/38 vs demand Ω²/6, both faces); the gather-cost dynamics (the final open object). Claimed (attackable): both zero-laws; the poison's branch-universality (it is the same e·He in the same proved Riccati); the packing-suppression cancellation making the per-shell constant explicit; the pincer's direction.
