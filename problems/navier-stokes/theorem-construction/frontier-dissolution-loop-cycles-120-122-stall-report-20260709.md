@@ -2200,3 +2200,22 @@ C223's TV-to-one-way selected-current conversion and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 229 accepts the favorable-viscous-sign route as the right attack on the C228 pinch band, but W8 is not deleted because the strict Biot-Savart smoothing/contraction inequality \(|\mathrm{modification}|<|\mathrm{direct}|\) has not been proved for the actual smoothed selected-current crossing ledger, the direct rear-loss/front-recapture split still spends the sweep and no-reuse ledger, C223's TV-to-one-way selected-current conversion remains open, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 230 contraction mechanism
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C230 tries
+to identify the C229 contraction burden with oscillatory-source suppression
+and projection contraction, but it still does not identify W8 with W3/W7/W9
+because the cancellation ratio and selected-current conversions remain open.
+
+Codex accepts the mechanism as a strict reduction. The remaining sign problem
+is now one fixed-profile kernel computation: evaluate the cancellation ratio
+\(\kappa\) for the \(\Delta\omega\) source in the actual maximizer/courier
+geometry and show \(\kappa<1\).
+
+No deletion is paid. The C223 TV-to-one-way selected-current conversion and
+the sweep/no-reuse split also remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 230 accepts the oscillatory-source suppression mechanism and selected-projection line as a real reduction of C229's kernel-contraction burden, but W8 is not deleted because the cancellation ratio \(\kappa<1\) has not been evaluated for the actual maximizer profile, courier boundary, smoothing, and re-seeded front/rear selected-current ledger, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
