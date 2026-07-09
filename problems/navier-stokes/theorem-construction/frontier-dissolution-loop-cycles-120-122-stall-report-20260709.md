@@ -3901,3 +3901,25 @@ floor, and the pending C283 pressure-sign/scope clauses.
 DELETED: none.
 CERTIFICATE: Cycle 284 accepts the two-term Horn-B repair as a useful response to the C282 refutation, but no wall is deleted because the repaired corner requires \(C_{\mathrm{flux}}\lesssim2.23\) rather than an uncomputed trace norm, the added \(\Delta\lambda_1\simeq0.16\) depends on the C203 normalization and no-double-count transfer into the same TV floor, and the parity-deficit term still inherits C283's pressure-sign/scope and selected-courier admission clauses.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 285 trace norm through generation ledger
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C285 tries
+to close the C284 trace-norm gap by restricting the actual odd content to the
+C264 tilt-generated class, but this imports a pending ledger rather than giving
+an independent certificate.
+
+Codex accepts C285 as a useful reduction. The generic counterfactual is now
+honest: generic odd content would fail the repaired Horn-B corner, so the
+repair lives or dies on selected-admission typing of the odd content.
+
+No deletion is paid. C264's own gate left the actual-courier \(O(\beta)\)
+leakage, \(\Sigma_\sigma\) pair-product coverage, higher-\(m\) hierarchy,
+re-seed uniformity, and tilt phase-lock under gate. C285's cap-shift derivative
+is still approximate, and its non-tilt \(O(\beta^2)\) exclusion is the same
+order-counting clause rather than a terminal admission/refutation. The C284
+C203/TV-linearity and C283 pressure-sign/scope clauses are also still inherited.
+
+DELETED: none.
+CERTIFICATE: Cycle 285 accepts the generic-trace counterfactual and tilt-dominated retyping as useful progress, but no wall is deleted because the repair now depends on the still-pending C264 generation ledger, an exact cap-shift derivative replacing the approximate \(C_{\mathrm{tilt}}\approx0.5\)-\(0.8\), and proof that higher-\(m\), non-tilt, reseed, leakage, and phase-lock errors are genuinely subleading in the selected-current normalization; C284's C203/TV-linearity and C283's pressure-sign/scope clauses also remain inherited.
+REMAINING: W3, W7, W8, W9.
