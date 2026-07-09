@@ -2225,3 +2225,38 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 136 accepts the core/diffuse partition as the right selector-match target, but the measurable free-boundary sequestration theorem, completed-core quantization, threshold-motion/flutter routing, one-way depletion, fission/merger routing, selector exchange, and event partition remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 137 correctly concedes the advective-reconfiguration hole and moves the
+  counter from mint inventory toward a delivery ledger. That is the stronger
+  ontology because it tries to make the whole field own repeated service. It
+  is not an exact terminal reduction. The service-to-delivery inequality,
+  \(O(1)\) service multiplicity, same-currency C33 delivery supply,
+  transit-current admission, delivery graph closure, reservoir import
+  domination, and one-clock/action normalization are all still unproved. No
+  wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 137 accepts the delivery ledger as the sharper candidate surviving object and accepts the advective-reconfiguration concession, but the four-row wall map is not an exact terminal reduction; service-to-delivery multiplicity, C33 same-currency supply, transit-current admission, delivery graph closure, reservoir import domination, and one-clock/action normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
+- Cycle 138 usefully demotes the mint/free-boundary ledger to a proxy, but the
+  empty-by-admission clause is not paid. The composed chain may be rewritten on
+  deliveries only after delivery events are defined, serviceability is matched
+  to the same threshold currency, expulsion forces re-delivery, and C33 is
+  restated in the delivery/log-growth currency. The old partition obligations
+  reappear as delivery graph closure and no-double-count routing. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 138 demotes the mint/free-boundary ledger to a proxy in favor of delivery counting, but empty-by-admission is unproved; the composed chain still needs certified service-to-delivery multiplicity, delivery event closure, serviceability threshold routing, C33 same-currency supply, reservoir/import domination, and per-rung normalization.
+REMAINING: W3, W7, W8, W9.
+- Cycle 139 gives the best current one-object target, the Delivery Theorem with
+  H1--H4, but it is not a terminal reduction. The statement still carries a
+  separate load-bearing C33 supply theorem, and H1--H4 are not yet proved
+  exact-equivalent to W3/W7/W8/W9. The residue is theorem content, not typed
+  deletion: transit-current admission, BV event closure/no-double-count,
+  reservoir import domination, clock/action normalization, and C33 stranding
+  in delivery currency remain open. No wall is deleted. Remaining: W3, W7,
+  W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 139 accepts the Delivery Theorem as the current one-object candidate, but it is not a terminal reduction because H1--H4 do not yet prove exact wall equivalence and C33 remains an extra load-bearing supply theorem; transit-current admission, BV delivery-event closure, reservoir import domination, one-clock/action normalization, and same-currency C33 stranding remain unproved.
+REMAINING: W3, W7, W8, W9.
