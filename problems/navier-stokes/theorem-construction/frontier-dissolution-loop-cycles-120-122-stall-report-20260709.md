@@ -3747,3 +3747,44 @@ four standing verdicts.
 DELETED: none.
 CERTIFICATE: Cycle 279 accepts the displayed C265 prefactor plug and construction-manifest cleanup as useful support, but no wall is deleted because H-comp-empty does not certify the partner-gated C238-C279 subchains, §9uuuuu correspondence, sweep checklist, or four standing verdicts; the prefactor still inherits same-normalization, \(\Sigma_\sigma\) paired-amplitude coverage, no-double-count with C275 occupancy, and C278 selected-courier parity-transfer certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 280 parity anchor reduction
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C280 tries
+to close the C278 parity-transfer objections except for one anchor-check, but
+that is a reduction to a named unproved fact rather than a terminal wall
+certificate.
+
+Codex accepts C280 as a real reduction. It usefully separates the parity algebra
+from the remaining hydrodynamic anchor: cross-term orthogonality, impulse
+linearity, and the ledger-native reflection plane are now the right attack
+surfaces, and the false C181 \( \frac12 PV \) route is not being revived.
+
+No deletion is paid. C280 itself states that the \(§9mmm\)-to-\(E/P\) transfer
+is not verified and that the remaining anchor-check is family maximality of
+\(VP/E\) among coherent configurations. The definitional change
+\(\alpha_{\mathrm{fa}}^2:=E_a/E\) must also be checked against every prior use
+of \(\alpha_{\mathrm{fa}}\) as a flux/asymmetry admission coordinate. Until the
+anchor-check and coordinate-compatibility are proved in the selected ledger,
+the claimed parity margin is not a terminal inequality.
+
+DELETED: none.
+CERTIFICATE: Cycle 280 accepts the parity algebra cleanup as a real reduction of C278, but no wall is deleted because the family-maximality of \(VP/E\) anchor is expressly unverified, the new definition \(\alpha_{\mathrm{fa}}^2:=E_a/E\) must be checked against prior flux-asymmetry/admission uses of \(\alpha_{\mathrm{fa}}\), and the parity margin still has to transfer to the actual selected-current ledger with W7/W8 admission, no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 278-280
+
+Physical sentence of the sticking wall: the construction lane has converted the
+Horn-B quantitative gap into parity algebra plus one hydrodynamic
+\(VP/E\)-maximality anchor, but that anchor and the compatibility of the
+asymmetry coordinate with the selected-current ledger remain unproved.
+
+Attempts: C278 proposed antisymmetric parity as the quantitative second
+variation; C279 plugged the C265 prefactor and claimed the construction
+manifest complete; C280 reduced the parity objections to \(VP/E\) family
+maximality and \(\alpha_{\mathrm{fa}}\)-coordinate compatibility.
+
+Missing exact fact: an attackable theorem that the symmetric family maximizes
+\(VP/E\) among the relevant coherent selected configurations, plus proof that
+\(\alpha_{\mathrm{fa}}^2:=E_a/E\) is compatible with all prior admission,
+direction, and Horn-B uses of \(\alpha_{\mathrm{fa}}\) in the same ledger.
