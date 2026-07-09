@@ -1429,3 +1429,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 83 reduces the CZ-first coefficient theorem to CF-coherence plus tube-geometry and tail-conversion clauses; the magnitude term, cutoff commutators, tube chord-arc, other-tube/intermediate shell control, and \(L^2_t\) pointwise conversion remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 84 tail class is accepted after retyping. The estimate is a
+  vorticity/enstrophy-tail estimate,
+  \( |{\rm Tail}(t)|\le C R^{-3/2}\|\omega(t)\|_{L^2(|y-x_0(t)|>R)} \), and
+  Leray supplies its \(L^2_t\) bound through dissipation. It is not a pointwise
+  kinetic-energy estimate on \(u\) unless an integration-by-parts/kernel rewrite
+  and boundary terms are supplied. The moving-exterior reduction also needs a
+  disjoint annulus/no-recount split: the leftover set inside the fixed
+  containment ball is not automatically the same as the already-counted C83
+  intermediate row. Containment still spends the pending C38/extinction gates,
+  and the moving-domain parabolic estimate must still use an \(L^2_t\) tail
+  coefficient without silently upgrading it to a pointwise \(L^\infty_t\)
+  coefficient. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 84 conditionally supplies the tail as an \(L^2_t\) vorticity-dissipation coefficient; the moving-annulus no-recount split, containment gates, and downstream use of an \(L^2_t\) coefficient remain unproved.
+REMAINING: W3, W7, W8, W9.
