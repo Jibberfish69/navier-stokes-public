@@ -3335,3 +3335,79 @@ clock-selector content outside the manifest.
 DELETED: none.
 CERTIFICATE: Cycle 266 accepts the one surviving written object as the current reduction target, but no wall is confirmed reduced to it because C266's own manifest leaves \(H_{\mathrm{soft}}\), \(H_{\mathrm{comp}}\), and \(H_{\mathrm{gate}}\) pending, the C236 correspondence table, C240 no-reuse/order-lock, C244 rear-loss floor, C247 arbitrary-data admission dichotomy, and C155 deadline/tower dichotomy remain under prior gates, and the exact ontology that every finite-time breakdown is captured by the selected courier-tower object without leftover W3, W7, W8, or W9 content is not proved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 267 stranding band
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C267 tries
+to collapse \(H_{\mathrm{soft}}\) to a numerical stranding interval, but this
+does not identify W3, W7, W8, or W9 with each other or with the surviving
+object because the coverage and terminal-typing gates remain open.
+
+Codex accepts C267 as useful progress on the stranding constant. The relative
+velocity cancellation is the right same-field ontology: uniform ambient motion
+does not close separation; only differential velocity can. The dyadic-series
+form also matches the current tower convention.
+
+No deletion is paid. The kernel factor is evaluated on in-band ring geometry
+and then applied to arbitrary closing dynamics through transfer clauses. That
+still requires adversarial coverage for debris between rungs, non-ring in-band
+shapes, and self-propelled/near-steady closing structures. The debris budget is
+cited as gross-ledger coverage rather than proved here, and C268 immediately
+shows the remaining coverage cell. Thus \(C\in[0.22,0.28]\) is a sharpened
+constant target, not a terminal wall certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 267 accepts the relative-velocity cancellation and dyadic-series stranding calculation as a useful reduction of \(H_{\mathrm{soft}}\), but no wall is deleted because the kernel factor is still transferred from in-band ring geometry to arbitrary closing dynamics through unproved debris, non-ring, self-propulsion, and coverage clauses, and the result does not certify W3 floor-uniformity, W7 admission/closed-record passage, W8 order-locked payment, or W9 clock-selector/action closure.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 268 coverage ontology
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C268 tries
+to identify arbitrary-data finite-time breakdown with the selected
+courier-tower object, but the attempt refutes itself as a terminal certificate
+by naming a steady or near-steady sub-cap non-axisymmetric deliverer cell that
+is not priced by the family-class axisymmetric band.
+
+Codex accepts C268 as a real ontology audit. Rung passage is a coordinate on
+finite-time blowup, sustained stretching requires nearby vorticity, and closing
+against sweep is the right physical place to force payer ownership. Those are
+useful shape-free reductions.
+
+No deletion is paid. The load-bearing optimality statement still passes through
+Benjamin/Norbury steady axisymmetric family pricing and cap-independence
+dichotomies. C268 itself names the survivor: steady or near-steady sub-cap
+non-axisymmetric deliverers. That cell is not empty by admission, not refuted,
+and not reduced to the one surviving written object by an exact certificate.
+It needs either a rigidity theorem
+\[
+\text{steady sub-cap coherent deliverer}\Rightarrow\text{axisymmetric up to band corrections}
+\]
+or a direct variational-deficit price in the same selected ledger. Until that
+lands, C266's reduction-to-one-object is pending.
+
+DELETED: none.
+CERTIFICATE: Cycle 268 accepts the coverage audit as a useful reduction of the arbitrary-data ontology question, but no wall is deleted because the proof itself leaves steady or near-steady sub-cap non-axisymmetric deliverers unpriced, Benjamin/Norbury family optimality covers the axisymmetric steady class rather than this cell, cap-independence does not empty the sub-cap non-axisymmetric case, and no rigidity theorem or same-ledger variational-deficit price reduces that cell to W3, W7, W8, W9, or the one surviving written object.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 266-268
+
+Physical sentence of the sticking wall: the selected courier-tower object now
+has a displayed manifest and a sharpened stranding constant, but arbitrary-data
+coverage still has one unpriced physical cell: a steady or near-steady
+sub-cap non-axisymmetric coherent deliverer that can supply nearby strain
+without falling into the axisymmetric family-pricing row or the super-cap
+rebuild-loss row.
+
+Attempts: C266 displayed the one surviving written object and assigned the
+remaining walls inside it; C267 closed-form reduced the stranding constant to a
+band interval; C268 audited arbitrary-data coverage and reduced the ontology
+gap to the steady/near-steady sub-cap non-axisymmetric cell.
+
+Missing exact fact: either a rigidity theorem emptying the cell,
+\[
+\text{steady sub-cap coherent deliverer}\Rightarrow\text{axisymmetric up to band corrections},
+\]
+or a same-selected-ledger variational-deficit price for that cell, together
+with confirmation that the resulting row converts W3 floor-uniformity, W7
+admission/closed-record, W8 order-locked payment, and W9 clock-selector/action
+content into the one surviving written object.
