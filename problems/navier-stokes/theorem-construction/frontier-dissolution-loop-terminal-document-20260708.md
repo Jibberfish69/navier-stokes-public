@@ -1703,3 +1703,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 100 files the corrected stall at the fixed-cover Eulerian stock-current certificate plus renormalized episode/ODE comparison; the table/queue alone is not a deletion certificate.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 101 consistency table is accepted as the right conversion
+  target, not as a deletion certificate. The bridge
+  \(1\Gamma\leftrightarrow 9\Gamma\delta\) still has to be derived from the
+  selected stock itself, including ring radius, cross-section profile,
+  component projection, cutoff, multiplicity, and the profile factor converting
+  circulation into the \(s\)-mass used in the ODE. The service row is not exact
+  merely because \(S_0=1\): it also needs episode duration, \(\sigma\)-support,
+  aligned-threshold placement, and the same service fraction used in the
+  normalizer row. The burn comparison remains open because two lower bounds can
+  be safely exchanged only after they apply to the same episode class and the
+  final inequality is rerun with the weaker constant. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 101 supplies a currency-bridge checklist for the episode/ODE comparison; exact stock conversion, same-episode lower-bound comparison, fixed-cover current, \(G_R\) no-recount, and final inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
