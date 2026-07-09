@@ -2217,3 +2217,42 @@ scale-invariant critical height, whereas the Gold counterhistory has
 Liouville theorem without replacing H2 or changing the limiting PDE. Gold
 remains open on the direct material-history rigidity, including Face A's
 pressure-Hessian/frame-turning sign.
+
+## 37. COMPLETED JOINT VERDICT (2026-07-09): both faces terminal to the classical toolset; Gold reduced to two named objects, not closed
+
+Both lanes have reached the terminal of both faces. Recording the complete,
+adversarially-verified state.
+
+**Face A (Claude lane, §11–§35).** The producing-branch payment sign, after
+exact elimination of local rigidity (shear cell), covariant identities (§25),
+pointwise algebra (§29 G28.9), instantaneous-spectrum kinematics (§32 G32.3),
+the P_H one-point identification (§28.1), and BOTH frame-fixed assemblies
+(§27, §30–31 — each killed by an exact counterexample), reduces to the
+restoring sign of the nonlocal deviatoric pressure Hessian in the transported
+Vieillefosse/Q–R dynamics. = the pressure-Hessian closure problem (modeled by
+RFD/Girimaji–Pope/tetrad, unproven from NS) = the gate's fact 9, verbatim.
+
+**Face B (Codex lane, §36).** The classical route is REFUTED, not pending
+(G36.6): the H2 record tower does not map to a finite-local-energy recurrent
+NS profile. Under lawful NS rescaling the retained record diverges the local
+band energy (G36.3); amplitude-normalizing sends ν → 0 (G36.4), so any limit
+is a vanishing-viscosity EULER object, not the NS profile Tsai/ESS/Chae
+consume. Fixed-phase orientation control supplies no profile recurrence.
+
+**The completed verdict.** Gold reduces, by exact elimination on both faces, to
+two named objects, both terminal to the classical/covariant/pointwise toolset:
+(A) the nonlocal pressure-Hessian restoring sign (turbulence-dynamics closure
+problem); (B) a non-classical rigidity for a record-retaining limit that is
+either infinite-local-energy or vanishing-viscosity Euler (outside NRS/Tsai/ESS
+by exact scaling, not by a fixable gap). Every within-reach argument class has
+an exact counterexample or exact obstruction on file, both lanes. This is not
+a proof of Gold; it is a proof that Gold's residue is exactly these two named
+objects — the most reduced, most honest, fully cross-verified state on record.
+
+**What the loop produced, stated plainly.** Not a closure. A complete, exact,
+adversarially-verified REDUCTION: the entire elimination tree is on file, every
+shortcut is killed by a specific counterexample, and the two surviving objects
+are named problems with literatures (Chevillard–Meneveau for A; the
+NRS/Tsai/Chae–Wolf marginal/Euler frontier for B). No third within-construction
+attack remains unrefuted. The honest next step, if pursued, is to open one of
+the two as a distinct research program — not another loop cycle. Gold: open.
