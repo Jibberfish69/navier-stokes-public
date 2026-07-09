@@ -1391,3 +1391,65 @@ filed shear-cell degeneracies; what is lost is its claimed status as the
 exhaustive worst case of an arbitrary critical-height blowup. The aligned
 Liouville problem is therefore a conditional test class, not the one remaining
 Gold object.
+
+## 16. Lossless dyadic audit: critical-height divergence need not select a record packet
+
+Let `Delta_j` be a homogeneous Littlewood--Paley decomposition and retain all
+shells of the one field. Set
+
+```math
+a_j(u):=2^j\|\Delta_j u\|_2^2 .
+\tag{NIC.104}
+```
+
+Then, up to fixed Littlewood--Paley equivalence constants,
+
+```math
+\|u\|_{\dot H^{1/2}}^2\simeq\sum_j a_j(u),
+\qquad
+\|u\|_2^2\simeq\sum_j2^{-j}a_j(u).
+\tag{NIC.105}
+```
+
+Choose smooth divergence-free fields `phi_j` with disjoint Fourier supports
+in narrow subannuli of `|xi|` comparable to `2^j` and `||phi_j||_2=1`, and
+define
+
+```math
+u^{(m)}:=\sum_{j=1}^m
+\left(\frac{2^{-j}}{j}\right)^{1/2}\phi_j .
+\tag{NIC.106}
+```
+
+Orthogonality gives
+
+```math
+\sup_m\|u^{(m)}\|_2^2
+=\sup_m\sum_{j=1}^m\frac{2^{-j}}{j}<\infty,
+\qquad
+\|u^{(m)}\|_{\dot H^{1/2}}^2
+\simeq\sum_{j=1}^m\frac1j\longrightarrow\infty.
+\tag{NIC.107}
+```
+
+At the same time,
+
+```math
+\frac{\sup_j a_j(u^{(m)})}
+{\sum_j a_j(u^{(m)})}
+\lesssim\frac1{\log m}\longrightarrow0.
+\tag{NIC.108}
+```
+
+Thus bounded physical energy and divergent critical height do not select any
+frequency shell carrying a fixed fraction of the record. The construction is
+a sequence of complete smooth fields, not a claim that these fields are
+successive Navier--Stokes snapshots. Its exact role is to locate the first
+missing implication: obtaining H2 from a Gold history requires a dynamical
+concentration theorem that defeats `(NIC.106)--(NIC.108)`. No such theorem is
+installed. Spatial localization and alignment are later conditions and cannot
+repair this first failure.
+
+**Consequence.** The fixed-fraction record packet in H2 is not inherited from
+the one-field norms. The reduction to the aligned recurrent-record class fails
+before the pressure Hessian or Liouville question is reached.
