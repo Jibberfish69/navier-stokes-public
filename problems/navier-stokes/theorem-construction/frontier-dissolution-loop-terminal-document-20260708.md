@@ -1414,3 +1414,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 82 files the corrected stall at the CZ-first coefficient theorem plus capped material-time ODE; W3/W7/W8/W9 reduce to that target but are not deleted by it.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 83 CZ tube split names the right near-field mechanism, but
+  it is not yet the coefficient theorem. Principal-value cancellation against a
+  constant vector is exact only for the selected symmetric truncation; tube
+  cutoffs, moving boundaries, and non-round cross-sections produce commutators
+  that must be charged. The bound
+  \(\omega(y)-\omega(x_0)\lesssim \Omega\,{\rm direction\ variation}\) also
+  drops the vorticity-magnitude term, which is not controlled by direction
+  coherence alone. The own-tube far estimate still needs tube chord-arc/no
+  self-return, the intermediate bound must cover off-record and other-tube
+  contributions, and the far tail remains a kernel-level \(L^2_t\) conversion.
+  No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 83 reduces the CZ-first coefficient theorem to CF-coherence plus tube-geometry and tail-conversion clauses; the magnitude term, cutoff commutators, tube chord-arc, other-tube/intermediate shell control, and \(L^2_t\) pointwise conversion remain unproved.
+REMAINING: W3, W7, W8, W9.
