@@ -1998,7 +1998,7 @@ P_H=-\langle B,\Lambda u\rangle=P_++P_-.
 
 ### 21.1 Equal nonlinear production in the two readouts
 
-The Euler nonlinearity conserves helicity pointwise in the full field:
+The Euler nonlinearity conserves the full-field helicity exactly:
 
 ```math
 \langle B,\operatorname{curl}u\rangle
