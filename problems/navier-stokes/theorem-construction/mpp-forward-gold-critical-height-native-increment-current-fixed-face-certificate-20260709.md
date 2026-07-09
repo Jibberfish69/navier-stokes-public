@@ -1218,3 +1218,114 @@ defined history charge whose total is bounded by the original datum. The
 whole-field equation `(NIC.82)` contains no such source or collar term; adding
 one without a closed functional merely relocates the Gold reserve into the
 second branch.
+
+## 14. Two-point realizability and the failure of the front-ratio floor
+
+The structure functions `E` and `D` are not independent scalar fields. Define
+
+```math
+K(t)=\int|u(x,t)|^2dx,
+\qquad
+C(h,t)=\int u(x+h,t)\cdot u(x,t)dx,
+\qquad
+Z(t)=\int|\nabla u(x,t)|^2dx.
+\tag{NIC.94}
+```
+
+Then `E=K-C`, and differentiation in `h` gives the exact compatibility
+
+```math
+\Delta_hE(h,t)
+=\int\nabla u(x+h,t):\nabla u(x,t)dx,
+\tag{NIC.95}
+```
+
+so
+
+```math
+\boxed{
+D(h,t)=2[Z(t)-\Delta_hE(h,t)].
+}
+\tag{NIC.96}
+```
+
+Substituting `(NIC.96)` into `(NIC.65)` yields
+
+```math
+\partial_tE+rac12\nabla_h\cdot F
+-2\nu\Delta_hE
+=-2\nu Z(t).
+\tag{NIC.97}
+```
+
+Equivalently, using `dot K=-2 nu Z`, the correlation satisfies
+
+```math
+\boxed{
+(\partial_t-2\nu\Delta_h)C
+=\frac12\nabla_h\cdot F.
+}
+\tag{NIC.98}
+```
+
+Thus the two-point viscous mechanism is an `h`-space diffusion with generator
+`2 nu Delta_h`, corresponding for the heat part to relative noise
+`sqrt(4 nu)dB`. Common-noise stochastic material trajectories do cancel in
+their label difference, but that observation does not remove the independent
+relative diffusion in the two-point correlation law. The nonlinear forcing
+`div_h F/2` remains sign-indefinite.
+
+Compatibility `(NIC.96)` still cannot prove the proposed front ratio. At any
+fixed smooth state, amplitude multiplication gives
+
+```math
+E_{A\phi}=A^2E_\phi,
+\qquad
+D_{A\phi}=A^2D_\phi,
+\qquad
+F_{A\phi}=A^3F_\phi.
+\tag{NIC.99}
+```
+
+Consequently
+
+```math
+b_{A\phi}=A b_\phi,
+\qquad
+\kappa_{A\phi}=\kappa_\phi,
+\qquad
+\frac{\nu(D/E)}{|\dot\rho|}[A\phi]
+=\frac1A
+\frac{\nu(D/E)}{|\dot\rho|}[\phi].
+\tag{NIC.100}
+```
+
+Choose `phi` smooth, compactly concentrated in one scale-`r` atom, and with
+positive native production. For large `A`, `(NIC.92)` makes the initial
+segment a critical-height record upcrossing, while `(NIC.100)` makes the
+front ratio smaller than any prescribed positive constant. This is already
+an H2-shaped single-atom state; spatial concentration does not reverse the
+amplitude scaling.
+
+The same point appears in packet variables. If an atom occupies a fraction
+`sigma` of a scale-`r` cell, has amplitude `v`, and remains frequency-localized
+at `1/r`, then
+
+```math
+H_{\rm atom}\simeq \sigma v^2r^2,
+\qquad
+\frac{\nu(D/E)}{|\dot\rho|}
+\simeq\frac{\nu}{rv}
+\simeq\frac{\nu\sqrt\sigma}{\sqrt{H_{\rm atom}}}.
+\tag{NIC.101}
+```
+
+At fixed retained critical mass, making the atom sparser decreases this ratio.
+If sparsity creates gradients on a smaller length `ell<<r`, then `ell`, not
+`r`, is the active frequency scale; claiming an extra drain while retaining
+the old scale double-counts the localization gain.
+
+Therefore neither two-point realizability nor single-atom sparsity yields the
+constant `4` front floor. They leave the same history-level alternative as
+§13: an explicit bounded charge for Euler-like low-hazard inward fronts, or a
+different rigidity mechanism.
