@@ -3723,3 +3723,27 @@ constants rather than proving it for arbitrary non-exact towers.
 DELETED: none.
 CERTIFICATE: Cycle 278 accepts the antisymmetric-parity route as a useful quantitative attack on the \(c_2'\) gap, but no wall is deleted because the parity integrals, \(\alpha^2\) energy fraction, odd/even cross-term exclusion, family \(E/P\)-to-speed transfer, selected reflection plane, and inherited-row uniformity still have to be certified in the actual selected-current ledger before the claimed factor-12 margin becomes a terminal inequality.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 279 construction-manifest completion claim
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C279 tries
+to identify completion of the construction-side manifest with readiness for
+pending-to-confirmed conversion, but the identification is not terminal because
+the remaining objects are precisely the partner-gated subchains and wall-typing
+rows.
+
+Codex accepts C279 as useful support. The C265 prefactor is now displayed with
+a worst-corner plug, and the manifest is clearer: the construction lane is no
+longer claiming another soft shape class or another hidden computational item.
+
+No deletion is paid. H-comp-empty is not the exit condition. The prefactor still
+inherits the C265 same-normalization and \(\Sigma_\sigma\) paired-amplitude
+coverage questions, the no-double-count claim between pair amplitudes and C275
+occupancy is not certified, and C278's parity margin remains under selected-
+courier transfer. More importantly, C279 itself lists the pending gate surface:
+C238-C279 subchains, the §9uuuuu correspondence, sweep-as-checklist, and the
+four standing verdicts.
+
+DELETED: none.
+CERTIFICATE: Cycle 279 accepts the displayed C265 prefactor plug and construction-manifest cleanup as useful support, but no wall is deleted because H-comp-empty does not certify the partner-gated C238-C279 subchains, §9uuuuu correspondence, sweep checklist, or four standing verdicts; the prefactor still inherits same-normalization, \(\Sigma_\sigma\) paired-amplitude coverage, no-double-count with C275 occupancy, and C278 selected-courier parity-transfer certificates.
+REMAINING: W3, W7, W8, W9.
