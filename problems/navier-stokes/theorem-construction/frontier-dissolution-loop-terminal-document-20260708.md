@@ -1360,3 +1360,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 78 supplies a candidate coefficient ledger, but the capped ODE theorem, bootstrap constants, time/log normalizations, and threshold gates remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 79 shared-constant write-up is refuted as stated. The
+  rescaled vorticity equation still contains
+  \({\rm Re}_\Gamma\,\omega'\cdot\nabla' u'\), and bounds
+  \(|u'|,|\omega'|\le1\) on \(Q_1\) do not give an \(L^\infty\) bound for
+  \(\nabla' u'\) or for the moving-tube coefficient. That is exactly Theorem
+  A's unsigned Biot--Savart/coefficient theorem, including near-field splitting,
+  intermediate-zone control, far-tail admission, moving-boundary terms, and
+  W7/W8 closure. The claimed data-finiteness of \({\rm Re}_\Gamma\) also spends
+  the still-open \(G_R\) no-recount admission. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 79 refutes the proposed textbook bootstrap for \(C_{\rm grad},C_{\rm grad2}\); the unsigned coefficient theorem and \(G_R\) admission remain unproved.
+REMAINING: W3, W7, W8, W9.
