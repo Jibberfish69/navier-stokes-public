@@ -2106,3 +2106,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 129 accepts currency orthogonality as a conditional reduction, but the three-row partition, material exclusivity, range budget, threshold match, and re-service event floor remain unproved; no conversion-rate deletion is confirmed.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 130 fixed-class envelope replaces the C128 moving-class strain
+  spend with a useful identity:
+  \[
+  \partial_t\Gamma(C,t)
+  =\oint_C(u\times\omega)\cdot dl+\nu\oint_C\Delta u\cdot dl .
+  \]
+  Pressure and the gradient part of advection drop out of closed-loop
+  circulation. This does not delete a wall. A supremum over rectifiable loops
+  with a length cap is not automatically attained by a smooth interior loop,
+  so the first variation does not yet force \(\omega\parallel dl\). Length-cap,
+  boundary, folding, and selector activation still need paid route rows, and
+  the maximizing loop must be shown to represent the same rung-\(n\)
+  serviceable mint stock. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 130 accepts the fixed-loop circulation evolution and the vortex-force cancellation at smooth interior critical loops, but range contraction still requires compact smooth selected-loop maximizers, paid length/boundary activation, same-mint selector restriction, and range/event currency matching.
+REMAINING: W3, W7, W8, W9.
