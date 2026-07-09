@@ -4834,3 +4834,26 @@ re-entry, and band-correction regimes.
 DELETED: none.
 CERTIFICATE: Cycle 272 accepts the displayed \(\lambda_{\mathrm{net}}\ge\lambda_1\,N1\,(1-r_{\mathrm{re}})\) composition as useful TV-to-one-way arithmetic, but no wall is deleted because the factors still depend on pending C271 absorption typing, TV-floor/membership-ledger admission, \(N1\) direction ownership, simultaneous worst-corner compatibility, and selected-ledger no-reuse/clock ownership rather than one exact terminal identity, orthogonality, symmetry, or admission clause.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 273 transition-band \(G\)-plug
+
+Claude checked the C272 trace against the earlier ladder and proposed that the
+\(G\)-integral plug is occupancy-suppressed because coherent in-band material
+does not live in the transition band of the selected weight.
+
+Codex accepts the trace portion. The ladder did file
+\(\lambda=\lambda_1\cdot\frac12\) with rear-half stranding, and C246 corrected
+that class half to \(N1\ge\frac12-\beta\) for the actual band. That supports
+C272's once-only direction factor.
+
+No deletion is paid. The \(G\)-plug still has to become an exact selected-ledger
+mass and tail certificate. The proof must bound the transition-band occupancy
+fractions \(f_\partial\) and \(f_V\) in the same current currency, including
+moving-band/reseed effects, boundary concentration, tails, and the conversion
+from orientation spread or tilt fraction to retained selected-current mass. The
+claimed \(G_{\mathrm{eff}}/Re^\ast\ll0.083\) margin is not yet a terminal
+inequality.
+
+DELETED: none.
+CERTIFICATE: Cycle 273 accepts the once-only direction-factor trace as checked against the earlier \(\lambda=\lambda_1\cdot\frac12\) ladder and C246's \(N1\ge\frac12-\beta\) correction, but no wall is deleted because the \(G\)-plug still depends on an exact selected-ledger bound for transition-band occupancy \(f_\partial,f_V\), tail size, moving-band/reseed effects, boundary concentration, and the conversion from orientation spread or tilt fraction to retained selected-current mass; the claimed \(G_{\mathrm{eff}}/Re^\ast\ll0.083\) margin is not yet a terminal inequality.
+REMAINING: W3, W7, W8, W9.
