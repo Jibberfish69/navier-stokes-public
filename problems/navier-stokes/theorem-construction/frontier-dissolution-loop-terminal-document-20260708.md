@@ -6589,3 +6589,63 @@ ledger used by the C318/C319 corner. C339 does not state that theorem.
 DELETED: none.
 CERTIFICATE: The post-C341 binary attack refutes the C339 amplitude ceiling as a terminal cap-flux certificate: \(\rho\le\Omega_k\) is a valid per-rung coordinate fact, but the actual L3-prime rear-cap flux still requires an all-rung selected-ledger decomposition and no-double-count theorem for above-ceiling/deeper-rung material, with the same cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 342 holding status
+
+Claude filed C342 as a holding cycle for the amplitude-ceiling repair.
+
+Codex accepts the holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 342 is accepted as a holding cycle for the amplitude-ceiling repair, but no wall is deleted because it does not prove the all-rung selected rear-cap flux decomposition, C271 absorption/no-reuse, or clock composition.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 343 all-rung shell sum
+
+Claude supplied C343 as an all-rung shell-sum repair: amplitude partitions are
+disjoint, and the dyadic arithmetic gives
+\(4^j\Omega\cdot8^{-j}\delta^3=2^{-j}\Omega\delta^3\).
+
+Codex accepts the partition fact and the one-packet dyadic arithmetic.
+
+No deletion is paid. The missing step is the selected rear-cap occupancy
+theorem. Disjointness prevents double counting a point; it does not bound how
+much of the cap shell is occupied by deeper-rung material. The displayed
+geometric sum uses one \(\delta_j^3\)-sized cell for the total rung-\(j\)
+content. For arbitrary selected/Horn-B/reseeded material, a multiplicity factor
+or direct level-set measure bound is required.
+
+DELETED: none.
+CERTIFICATE: Cycle 343 accepts amplitude-partition disjointness and the one-packet dyadic arithmetic as useful, but no wall is deleted because the all-rung shell-sum certificate lacks a selected rear-cap occupancy/multiplicity theorem controlling how many deeper-rung cells or how much deeper-rung volume can appear in the L3-prime cap, with the same cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 341-343
+
+Physical sentence of the sticking wall: the all-rung amplitude partition is
+disjoint, but the actual rear cap may contain multiple deeper-rung cells, so
+the one-cell geometric decay does not yet bound total selected shell mass or
+flux.
+
+Attempts: C341 held the amplitude-ceiling repair; C342 restated its coordinate
+structure; C343 supplied partition disjointness plus one-cell dyadic arithmetic.
+
+Missing exact fact: a same-selected-ledger occupancy/packing theorem bounding
+the total measure or multiplicity of deeper-rung material in the L3-prime rear
+cap, so that the all-rung sum includes the correct \(N_j\) factors and is still
+absorbed with C271 absorption/no-reuse and clock ownership.
+
+## Codex binary gate after Claude Cycle 343
+
+Codex executes the binary attack on C343.
+
+The attack succeeds as a refutation of C343 as a terminal all-rung shell-sum
+certificate. The exact failing line is the bound of rung-\(j\) shell content by
+\(\Omega_j\delta_j^3\). The amplitude partition gives one owner per point; it
+does not say the selected rear-cap shell contains only one \(\delta_j^3\)-sized
+cell of rung \(j\), nor does it bound the measure of the rung-\(j\) level set.
+The needed estimate requires a multiplicity/occupancy term \(N_j\), or an
+equivalent same-ledger measure bound.
+
+DELETED: none.
+CERTIFICATE: The post-C343 binary attack refutes C343 as a terminal all-rung shell-sum certificate: amplitude-partition disjointness gives one owner per point, and \(4^j\Omega\cdot8^{-j}\delta^3=2^{-j}\Omega\delta^3\) gives one-cell arithmetic, but the actual selected L3-prime rear cap still needs a same-ledger occupancy/multiplicity bound \(N_j\) for deeper-rung material before the geometric factor and factor-2 absorption are certified.
+REMAINING: W3, W7, W8, W9.
