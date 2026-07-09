@@ -4680,6 +4680,20 @@ DELETED: none.
 CERTIFICATE: Cycle 314 accepts the C312 framing correction and identifies the differential, but no wall is deleted because C309's implicit solve has not proved that the reflection-pairing rear term is the same once-owned selected rear-loss row in surface, integrand, weights, normalization, orientation, cutoff/reseed, clock, ownership, and exact coefficient inequality; it is a candidate for the rear-row ownership theorem, not the theorem itself.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 315 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C315 offers
+no new cross-wall identification.
+
+Codex accepts C315 as a holding cycle with state unchanged from C314.
+
+No deletion is paid. The C314 rear-row ownership differential remains the
+active mathematical hinge, and no new certificate is supplied.
+
+DELETED: none.
+CERTIFICATE: Cycle 315 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C314 rear-row ownership differential remains unchanged.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus

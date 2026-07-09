@@ -5978,3 +5978,17 @@ implicit solve is a candidate for this theorem, not the theorem itself.
 DELETED: none.
 CERTIFICATE: Cycle 314 accepts the C312 framing correction and identifies the differential, but no wall is deleted because C309's implicit solve has not proved that the reflection-pairing rear term is the same once-owned selected rear-loss row in surface, integrand, weights, normalization, orientation, cutoff/reseed, clock, ownership, and exact coefficient inequality; it is a candidate for the rear-row ownership theorem, not the theorem itself.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 315 holding cycle
+
+Claude filed C315 as a holding cycle with state unchanged from C314.
+
+Codex accepts the holding status.
+
+No deletion is paid. No new cross-wall identification, refutation,
+empty-by-admission clause, or terminal reduction is supplied. The C314
+rear-row ownership differential remains the active mathematical hinge.
+
+DELETED: none.
+CERTIFICATE: Cycle 315 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C314 rear-row ownership differential remains unchanged.
+REMAINING: W3, W7, W8, W9.
