@@ -1986,6 +1986,22 @@ DELETED: none.
 CERTIFICATE: Cycle 220 accepts fore-aft symmetry as the right N1 target, but W8 is not deleted because symmetry has not been proved for the actual smoothed selected-current crossing integrand on the re-seeded courier sphere, the steady-ring and circular-maximizer symmetries have not been transferred to the mismatch flux with C214 exchange/source terms, the second-order deformation correction is unbounded, the \(\lambda_1\ge0.3\) input remains uncertified, and N2/C210 plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 221 cap-independence
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C221 tries
+to identify N2/C210 endpoint calibration with a free regime boundary, but it
+still does not identify W8 with W3/W7/W9 because both regime prices consume
+selected-current/no-reuse and action-clock certificates that remain open.
+
+Codex accepts the dichotomy as a conditional N2 reduction. The missing exact
+facts are cap-independent pricing of the steady-family regime in the
+selected-service stranding ledger, quantitative conversion of super-family
+non-steadiness into \(\lambda_1\), C220 flux-symmetry transfer, and the sweep.
+
+DELETED: none.
+CERTIFICATE: Cycle 221 accepts the cap-independence dichotomy as a conditional reduction of N2/C210 endpoint calibration, but W8 is not deleted because the steady-family regime still needs an exact selected-service stranding/no-reuse certificate with W9 clock normalization, the super-family regime still needs a quantitative \(\lambda_1\) deformation lower bound and C220 symmetry transfer to the actual selected-current flux, "non-steady" has not been converted into a threshold-beating loss rate, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
