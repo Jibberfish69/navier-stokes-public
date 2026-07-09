@@ -2705,3 +2705,45 @@ remain open.
 DELETED: none.
 CERTIFICATE: Cycle 246 accepts the band-transfer clause as the right correction to C244's exact-\(1/2\) overstatement, but W8 is not deleted because the new in-band asymmetry constant \(\beta\) and its margin condition are uncomputed, \(\beta\) is not admitted as a new frontier wall under rule 3, actual-field inheritance by admission still depends on W7 closed-record passage and the W7/W8 same-selector dictionary for arbitrary data, the first-order \(\theta\)-residue and off-family regime pricing remain open, and the stranding constant \(C\), computed \(G\) margin, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 247 admission dichotomy
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C247 tries
+to identify W8's arbitrary-data admission gap with a per-window in-band/
+band-exit dichotomy, but it still does not identify W8 with W3/W7/W9 because
+the band-exit pricing and actual selected-courier admission are not certified.
+
+Codex accepts C247 as a useful reduction of the "in-family is an assumption"
+objection.
+
+No deletion is paid. Horn B still spends the unproved generic rebuild-loss
+ladder: TV-to-one-way selected-current conversion, stranding, sweep/no-reuse,
+and \(\delta u\) ownership. Declaring \(\alpha_{\mathrm{fa}}\) and \(\beta\)
+does not compute the band boundary or satisfy rule 3 as a net-negative
+new-name admission. Horn A still depends on W7 closed-record passage and the
+arbitrary-data W7/W8 same-selector dictionary. The actual selected-courier
+coordinates, first-order \(\theta\)-residue, \(C\), \(G\), \(\beta\),
+layer-level conversion, \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 247 accepts the per-window admission dichotomy as a useful reduction of the "in-family assumption" objection, but W8 is not deleted because Horn B still spends the unproved generic rebuild-loss ladder, including TV-to-one-way selected-current conversion, stranding, sweep/no-reuse, and \(\delta u\) ownership, declaring \(\alpha_{\mathrm{fa}}\) and \(\beta\) does not compute the band boundary or satisfy rule 3 as a net-negative new-name admission, Horn A still depends on W7 closed-record passage and the arbitrary-data W7/W8 same-selector dictionary, and the actual selected-courier coordinates, first-order \(\theta\)-residue, \(C\), \(G\), \(\beta\), layer-level conversion, \(\delta u\), and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 245-247
+
+Physical sentence of the sticking wall: the actual selected courier is now
+split into a Kato-dominated quadratic orientation channel and a declared
+coarse-band dichotomy, but the proof still lacks one same-field per-window
+admission theorem whose band-exit horn pays the rear-loss ledger with exact
+constants in the actual smoothed selected currency.
+
+Attempts: C245 used the Kato defect to dominate the quadratic orientation
+wiggle; C246 replaced exact rear half by a band-asymmetry parameter \(\beta\);
+C247 wrote the in-band/band-exit dichotomy for actual-data windows.
+
+Missing exact fact: a closed actual-selected-courier theorem defining the
+coordinates \(P\), proving W7 closed-record and W7/W8 same-selector admission
+for arbitrary data, computing the \(G\) and \(\beta\) boundary margins, and
+proving the Horn-B rebuild-loss ladder with TV-to-one-way conversion,
+stranding, \(\delta u\), first-order \(\theta\)-residue control, and
+sweep/no-reuse in one selected currency.
