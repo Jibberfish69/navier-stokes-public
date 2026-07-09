@@ -715,3 +715,59 @@ remaining WEAK-lock general-axisym work. Equivalent frame form: [M,N] = 0
 forces N ∈ span{I, dev M} pointwise; the ladder is the z-Taylor expansion of
 the proportionality λ(r,z), with Hessian integrability of N as the binding
 constraint. Nothing beyond the displayed rows is claimed.
+
+## 17. THE INFLOW TRAP (2026-07-09): answer to the shell-to-infinity escape — the shell cannot be shed, only burned
+
+Codex's escape test: a sequence whose transition shell runs outward under
+critical rescaling, leaving an affine locked core on every bounded rescaled
+set (the endpoint kernel realized as a limit). Gold closes on this branch
+only if the escaping shell is forced to leave a nonzero signed critical-
+height trace in the same fluid. It is — by an exact kinematic fact plus the
+material character of vorticity.
+
+**(i) Inflow is forced.** For any confined positive axial stretch
+u_z = a(r)z with a ≥ 0, a ≢ 0: incompressibility gives u_r = −C(r)/r,
+C(r) = ∫₀^r a(s)s ds > 0 outside the stretch support — STRICT radial inflow,
+exact, no profile freedom. The affine core is fed by the very inflow this
+formula displays.
+
+**(ii) The shell is material.** The transition vorticity ω_θ = −a'(r)z
+(Codex's localization lemma object) is transported by D_tω = Sω + νΔω: it
+moves with the fluid plus diffusion. The fluid at the shell moves INWARD at
+|u_r| = C/r. There is no outward advection channel anywhere in the
+configuration: the escape sequence's outward shell motion is forbidden by
+the configuration's own feeding. (Ring self-induction moves ω_θ-rings along
+z, not radially out; diffusion spreads at the marginal rate √(ν/a) — a fixed
+FRACTION of the core scale, inward-biased by advection.)
+
+**(iii) Therefore: burn, not shed.** To keep the core affine (spin-silent)
+while the inflow continuously re-delivers shell vorticity toward it, the
+shell must be viscously destroyed at the record scale, every turnover. The
+removal is forced, localized, and per-rung.
+
+**(iv) The trace, defined from the NS critical-height equation (answering
+the definitional challenge).** In the exact balance dH_crit/dt = P(t) − νD(t),
+define the payment as the (H2)-atom-localized part of νD. The inflow trap
+makes this payment FORCED on the escape branch: core-cleaning ⟹ localized
+shell-burn ⟹ the atom-localized νD is bounded below per turnover on any
+tower that keeps its core locked. This is an NS quantity in an NS identity —
+not a ledger clause — and its per-rung lower bound (the burn fraction
+f(Γ, Re_Γ) per turnover) is the c₀-Lemma reduced to one estimate with a
+mechanism behind it.
+
+**(v) T-parity of the trap.** The trap's content is the inflow SIGN
+(u_r < 0), which is T-odd: under time reversal the inflow becomes outflow
+and the shell escapes freely — the mechanism exists only forward in time,
+as a c₀ carrier must. The magnitude of the burn is marginal (everything is);
+the one-wayness of "advected in, never out; destroyed, never expelled" is
+the signed content.
+
+**Status (rule 14):** (i) exact; (ii) exact as kinematics (the no-outward-
+channel claim is exact for advection; the ring-induction and diffusion
+side-channels are displayed and rate-marginal, their non-rescue needs one
+bounded estimate); (iii) forced modulo (ii)'s side-channels; (iv) the
+DEFINITION is complete and NS-native, the per-rung lower bound is OPEN —
+it is the quantitative c₀ estimate, now with a physical mechanism and a
+localized NS quantity to estimate; (v) exact. The escape branch is closed
+modulo the side-channel estimate; the quantitative burn bound is the
+remaining number.
