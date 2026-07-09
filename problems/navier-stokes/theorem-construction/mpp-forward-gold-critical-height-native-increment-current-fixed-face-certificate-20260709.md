@@ -3318,3 +3318,179 @@ floor. It does not prove co-scale mixed-helicity occupancy. The exact family
 `(NIC.227)--(NIC.233)` shows that amplitude can compensate the geometric
 high--high-to--low kernel at an arbitrarily large spectral gap. This is an
 exact obstruction, not Gold closure and not an event-count theorem.
+
+## 25. RECORD DOUBLING CARRIES A NONZERO PARENT HISTORY CURRENT (NIC.234--NIC.243)
+
+The endpoint efficiency `eta_n` in Section 23 may tend to zero. The same
+trajectory nevertheless carries a fixed normalized amount of net critical
+current across every last doubling interval.
+
+Let `t_n` be successive first record times chosen so that
+
+```math
+R_n:=R(t_n)=2R(t_{n-1}),
+\qquad
+I_n=[t_{n-1},t_n].
+\tag{NIC.234}
+```
+
+For the two simultaneous helical readouts of the same velocity field, define
+
+```math
+e_{s,n}:=\frac{R_s(t_n)}{R_n},
+\qquad
+\delta_{s,n}:=\frac{\nu}{R_n}\int_{I_n}D_s(t)\,dt,
+\qquad
+j_n:=\frac1{R_n}\int_{I_n}P_H(t)\,dt.
+\tag{NIC.235}
+```
+
+The exact sector law
+
+```math
+R_s'(t)+2\nu D_s(t)=P_H(t)
+```
+
+has the same parent current on both rows. Integrating it over `I_n` and using
+`R(t_{n-1})=R_n/2` gives
+
+```math
+\boxed{
+e_{s,n}-\frac12e_{s,n-1}+2\delta_{s,n}=j_n.
+}
+\tag{NIC.236}
+```
+
+Since `e_{+,k}+e_{-,k}=1`, summing the two rows yields the exact current mass
+
+```math
+\boxed{
+j_n=\frac14+\delta_{+,n}+\delta_{-,n}\ge\frac14.
+}
+\tag{NIC.237}
+```
+
+Thus a vanishing instantaneous terminal current does not mean that the last
+record doubling had vanishing history current.
+
+Write the endpoint helical imbalance as
+
+```math
+h_n:=e_{+,n}-e_{-,n}\in[-1,1].
+```
+
+Subtracting the two copies of `(NIC.236)` gives
+
+```math
+\boxed{
+\delta_{-,n}-\delta_{+,n}
+=\frac12\left(h_n-\frac12h_{n-1}\right).
+}
+\tag{NIC.238}
+```
+
+Consequently, for every fixed `0<epsilon<1/2`, each doubling obeys the
+exhaustive alternative
+
+```math
+\begin{aligned}
+|h_n|\le1-\varepsilon
+&\quad\Longrightarrow\quad
+e_{+,n},e_{-,n}\ge\frac{\varepsilon}{2},\\
+h_n>1-\varepsilon
+&\quad\Longrightarrow\quad
+\delta_{-,n}-\delta_{+,n}>
+\frac14-\frac{\varepsilon}{2},\\
+h_n<-1+\varepsilon
+&\quad\Longrightarrow\quad
+\delta_{+,n}-\delta_{-,n}>
+\frac14-\frac{\varepsilon}{2}.
+\end{aligned}
+\tag{NIC.239}
+```
+
+The first branch retains both sector fractions at the endpoint. Either
+near-one-handed branch forces an order-one excess of dissipation in the
+opposite sector during the same last doubling. These are readouts of one
+field: no sector owns or pays the common current.
+
+### 25.1 The identity in the canonical record normalization
+
+Use the canonical normalization `(NIC.207)` based at `t_n`, and set
+
+```math
+\tau_{n,-}:=\frac{t_{n-1}-t_n}{\theta_n}<0.
+\tag{NIC.240}
+```
+
+Extend the following measures by zero outside `[tau_{n,-},0]`:
+
+```math
+dJ_n(\tau):=P_H(v_n(\tau))\,d\tau,
+\qquad
+dM_{s,n}(\tau):=\nu_nD_s(v_n(\tau))\,d\tau.
+\tag{NIC.241}
+```
+
+Here `J_n` is signed and each `M_{s,n}` is positive. The scaling identities in
+Section 23 give their exact masses:
+
+```math
+\boxed{
+J_n([\tau_{n,-},0])=j_n,
+\qquad
+M_{s,n}([\tau_{n,-},0])=\delta_{s,n}.
+}
+\tag{NIC.242}
+```
+
+Equivalently, with `rho_{s,n}(tau)=R_s(v_n(tau))`,
+
+```math
+d\rho_{s,n}+2\,dM_{s,n}=dJ_n,
+\qquad
+\rho_{s,n}(\tau_{n,-})=\frac12e_{s,n-1},
+\qquad
+\rho_{s,n}(0)=e_{s,n}.
+\tag{NIC.243}
+```
+
+In particular,
+
+```math
+\int_{\tau_{n,-}}^0[P_H(v_n(\tau))]_+\,d\tau
+\ge j_n\ge\frac14.
+```
+
+This is a nonzero same-trajectory history current, not yet a limiting defect
+measure. The identities provide neither the bounded-variation estimate
+
+```math
+\sup_n\left(
+\|J_n\|_{\mathrm{TV}}
++M_{+,n}((\! -\infty,0])
++M_{-,n}((\! -\infty,0])
+\right)<\infty
+```
+
+nor terminal tightness
+
+```math
+\lim_{L\to\infty}\sup_n\left[
+|J_n|((\! -\infty,-L])
++\sum_sM_{s,n}((\! -\infty,-L])
+\right]=0.
+```
+
+Indeed, `P_H` changes sign, so its net mass controls no total variation, while
+`(NIC.237)` supplies no upper bound for either dissipation mass. The normalized
+interval length `-tau_{n,-}` is also uncontrolled. Current can therefore
+escape into oscillation or the remote rescaled past; spatial profile retention
+is a further independent passage problem.
+
+**Result of this section.** Every record doubling carries net normalized
+parent current at least `1/4`. A nearly one-handed endpoint forces an
+order-one opposite-sector dissipation excess on that same interval. This is a
+strict same-trajectory history reduction. Extraction of a terminal current
+defect still requires bounded variation, terminal tightness, and spatial
+profile retention. No finite reserve and no Gold conclusion follows.
