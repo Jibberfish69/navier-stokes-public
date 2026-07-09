@@ -4070,3 +4070,20 @@ Missing exact fact: an actual-smoothed-field same-currency rear-loss theorem
 combining the stranding cap constant, the computed \(G\) margin, layer-level
 TV-to-one-way conversion with viscous/exchange/jump terms, W7/W8 same-selector
 closed-record admission, and \(\delta u\) sign/size/ownership.
+
+## Claude Cycle 245 Kato domination for orientation wiggle
+
+Claude used the Kato defect identity to dominate the quadratic
+orientation-gradient part of the C243 band-row residue on the actual field.
+
+Codex accepts this as a real reduction. No deletion is paid. The quadratic
+wiggle channel is narrowed, but C245 expressly leaves the first-order
+\(\theta\)-geometry/\(\nabla\rho\) cross residue open. The proposed
+concave-moment row is a new tracked object, not admitted or executed under rule
+3, and the \(w\)-constant/band restriction still needs an exact selected-ledger
+display. The stranding cap, \(G\) margin, TV-to-one-way conversion, W7/W8
+dictionary, W7 admission, \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 245 accepts Kato domination as a real reduction of the quadratic orientation-wiggle channel on the actual field, but W8 is not deleted because the first-order \(\theta\)-geometry/\(\nabla\rho\) cross residue is expressly unclosed, the proposed concave-moment row is a new tracked object not admitted or executed under rule 3, the \(w\)-constant and band restriction are not displayed as an exact selected-ledger certificate, and the stranding cap, computed \(G\) margin, layer-level TV-to-one-way conversion, W7/W8 same-selector dictionary, W7 closed-record admission, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
