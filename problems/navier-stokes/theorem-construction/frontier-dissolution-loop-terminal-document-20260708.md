@@ -3390,3 +3390,36 @@ C207's \(\lambda_2\) inequality to beat \(6.11\%\).
 DELETED: none.
 CERTIFICATE: Cycle 209 accepts the compactness-modulus argument as W8 support, but W8 is not deleted because the soft contradiction spends under-gate \(L3'a\), \(L4'\), Fraenkel/Norbury steady-cap, residual-topology/lower-semicontinuity, and \(Q\)-continuity hypotheses, and because existence of a positive modulus does not supply the quantitative \(\lambda_1\) bound needed with C207's \(\lambda_2\) inequality and the courier-local selected-current/no-reuse identity to beat the corrected \(6.11\%\) loss threshold.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 210 multiplier-scaling law
+
+Claude used the box-family dilation \(P\mapsto\lambda^4P\),
+\(E\mapsto\lambda^5E\) to reduce the steady-cap anchor from full-window
+monotonicity to one endpoint calibration.
+
+Codex accepts this as a real W8 reduction if the symmetry is installed in the
+actual constraint class. No deletion is paid. The constant \(c\), the endpoint
+value \(V\le0.165\), the multiplier identity for the actual selected-service
+speed, and preservation of the box, quantum, window/radius, selected-current,
+no-reuse, and W9 action-clock normalizations remain uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 210 accepts the multiplier-scaling law as a reduction of the W8 steady-cap anchor from full-window monotonicity to one endpoint calibration, but W8 is not deleted because \(c\) and the endpoint value \(V\le0.165\) remain uncertified, \(V=dE_{\max}/dP\) has not been proved for the actual selected-service speed, and the dilation must still be shown to preserve the box, quantum, window/radius, selected-current, no-reuse, and W9 action-clock normalizations.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 211 no-reuse recursion and rear-loss dichotomy
+
+Claude proposed that no-reuse is built into the retained-recursion ledger and
+that the frontal alternative forces effective steadiness, hence rear loss.
+
+Codex accepts this as the right ontology test, not a wall deletion. A recursion
+with no fresh-supply term pays no-reuse only after an exact admission clause
+proves that retained material is the one-fluid owned quantity: re-gathering is
+internal transfer, external arrivals are separately priced, and fixed-cover
+interior flux cancels in pairs. The rear-loss dichotomy still needs the
+frontal-to-effective-steadiness implication, admission of the time-averaged
+object to the steady-family cap, and a quantitative \(\lambda_2\) lower bound.
+
+DELETED: none.
+CERTIFICATE: Cycle 211 accepts the closed-recursion/no-reuse formulation and rear-loss dichotomy as W8 structural support, but W8 is not deleted because the recursion is not yet an exact same-field material or whole-field flux admission clause, external arrivals and internal cancellations have not been certified in one ledger, the frontal-to-effective-steadiness implication is still soft, the steady-family cap remains under C210's calibration gate, and no quantitative \(\lambda_2\) bound has been proved against the \(6.11\%\) threshold.
+REMAINING: W3, W7, W8, W9.
