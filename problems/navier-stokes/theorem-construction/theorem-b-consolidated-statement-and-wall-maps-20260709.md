@@ -672,3 +672,46 @@ through any shell. Between the two, the fixed face is being squeezed from
 both ends. Bonus fact for the global route: L1 forces the locked record core
 to be circulation-neutral (Γ_core = 0), which may feed the finite-energy
 incompatibility argument directly.
+
+## 16. LOCK-STRENGTH × CLASS MATRIX and the (K_k) ladder (2026-07-09): keeping the join honest
+
+Codex's constant-axis localization lemma (in progress) and §15 kill DIFFERENT
+locks; the join must not blur them.
+
+**Two lock strengths:** WEAK lock = ω is an eigenvector of S (spin-silence as
+algebra; §15's L1). STRONG lock = ω lies on the stretched record axis
+specifically (the zero-payment limit's physical reading). Strong ⟹ weak. The
+§15 shell has ω = −a'z e_θ — an exact eigenvector of the COMPRESSED axis — so
+it satisfies the weak lock and violates the strong one. Codex's lemma
+(smooth confinement of axial stretch forces ω_θ = −a'z ≠ 0) kills the STRONG
+lock in every smooth confined axisymmetric class in one line. §15 kills the
+WEAK lock in the minimal class by the m-sign contradiction. Complementary:
+
+| | minimal axisym class | general axisym (tails, w≠0, Γ'≠0) | non-axisym |
+|---|---|---|---|
+| STRONG lock | closed (both routes) | closed (Codex lemma, pending gate) | open (constant-frame route) |
+| WEAK lock | closed (§15) | OPEN — the (K_k) ladder below | open |
+
+Escapes out of the table (both with known ledgers): frame variation → Face A
+one-way charge; affine-at-infinity → endpoint kernel, finite-energy kill.
+
+**The (K_k) ladder (weak lock, general even-z tail — my claimed piece,
+derived, not solved).** On the shell with u_θ = 0, p = Σ_{k≥0} p_{2k}(r)z^{2k}.
+Slaving Δp = −Q(r): p₀'' + p₀'/r + 2p₂ = −Q and, for k ≥ 1,
+p_{2k}'' + p_{2k}'/r + (2k+2)(2k+1)p_{2k+2} = 0 (the tail is generated
+downward from p₀). Co-diagonality (K) splits by odd powers z^{2k+1} into
+
+```math
+a'\left[\,2p_{2k}'' + p_{2k}'/r + Q\,\delta_{k0}\right]
+= 2(2k+2)(β−2a)\,p_{2k+2}' ,\qquad k = 0, 1, 2, \dots
+```
+
+— infinitely many equations against two profile functions (a, p₀); β slaved
+to a. The minimal truncation (p₀ tail-free) reproduces §15's contradiction
+and its first ladder row is verified consistent (p₂ ≡ m ⟹ p₄ = 0 ⟹ (K₁)
+trivially satisfied), so §15 stands as the k ≤ 1 closure. The full ladder is
+formally overdetermined; solving or refuting it on special profiles is the
+remaining WEAK-lock general-axisym work. Equivalent frame form: [M,N] = 0
+forces N ∈ span{I, dev M} pointwise; the ladder is the z-Taylor expansion of
+the proportionality λ(r,z), with Hessian integrability of N as the binding
+constraint. Nothing beyond the displayed rows is claimed.
