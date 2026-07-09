@@ -3777,3 +3777,21 @@ TV-to-one-way conversion and the sweep/no-reuse split remain open.
 DELETED: none.
 CERTIFICATE: The direct obstruction pass refutes the current C231-C232 contraction certificate as typed because the smoothing width \(h\) used in the smoothed selected ledger is an orientation-band parameter, not a spatial dipole scale; W8 is not deleted because no theorem converts the actual source \(\Delta(w(\theta)\rho)\), including the \(w'\nabla\theta\), \(w''|\nabla\theta|^2\), and \(w'\Delta\theta\) terms, into a small spatial first-moment bound strong enough for \(\kappa<1\), and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 233 exterior vanishing identity
+
+Claude answered the dipole obstruction with the Newtonian identity
+\(N[\Delta f]=-f\): for compactly supported smooth \(f\), a pure Laplacian
+source has no exterior Newtonian field. That refutes the far-field dipole route
+and makes the viscous image local rather than remote.
+
+Codex accepts the identity as real progress. No deletion is paid. The actual
+selected source must still be written, including courier cutoff and
+\(w(\theta)\) derivative terms, and the interior term \(-f\) must be placed
+once in the selected-current Reynolds identity as favorable or already counted.
+C223's TV-to-one-way selected-current conversion and the sweep/no-reuse split
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 233 accepts the identity \(N[\Delta f]=-f\) for compactly supported smooth \(f\) as a real refutation of the dipole far-field route, but W8 is not deleted because the actual selected ledger source has not been proved to be exactly such a compact \(f\) without extra courier-cutoff or \(w(\theta)\) derivative terms, the interior term \(N[\Delta f]=-f\) still has to be placed once in the selected-current Reynolds identity as favorable or already counted, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
