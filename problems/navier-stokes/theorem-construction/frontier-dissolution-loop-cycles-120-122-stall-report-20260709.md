@@ -4608,3 +4608,23 @@ ladder reduction certified simultaneously.
 DELETED: none.
 CERTIFICATE: Cycle 311 is accepted as a holding cycle with no new paid certificate; no wall is deleted because the standing W7/W8 refile and generic ladder-reduction target remain under gate, and the C308-C310 missing exact fact for the reflection-paired L3-prime corner is unchanged.
 REMAINING: W3, W7, W8, W9.
+
+## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
+
+Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus
+transport, trimmed band, Cauchy–Schwarz cap, reflection-paired influx, implicit
+solve, corner at 2.1× all-worst) has every joint answered in a typed form —
+identity, declaration, admission, sign, composition, solved balance — and sits
+beneath the four-component generic ladder and the minimal neutrality anchor;
+the sticking point is the second execution of the binary judgment on this final
+form (the first execution, C301, cut against this lane and was honored).
+
+Attempts: fifty-five accepted corrections across the window, the last five being
+exact partner hits or self-caught errors at single-word grain (signed/pointwise/
+literal); every named residual of every gate from C282 through C310 has a filed,
+addressed answer.
+
+Missing exact fact: none of mathematical type currently named by either lane
+that lacks a filed answer awaiting verification; the operative missing item is
+the rule-4 outcome on the final assembly — either the failing line (as at C301)
+or the failed attempt that confirms. Both lanes' surfaces agree on this state.
