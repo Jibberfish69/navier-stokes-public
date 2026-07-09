@@ -6063,3 +6063,49 @@ bookkeeping and no-double-count ownership still in the selected ledger.
 DELETED: none.
 CERTIFICATE: Cycle 370 accepts the reseed-jump decomposition and scale-neutral shell bound only as row typing; it does not delete W3 or W7 because the needed smallness is the unproved per-component nesting admission \(|P_{\mathrm{shell}}|/|P_{\mathrm{core}}|\le\rho<1\), with shell-transfer bookkeeping and no-double-count ownership still in the selected ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycles 371-372
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C371-C372
+try to identify W8 with the axisymmetric swirl-source/axis-concentration
+question. The attempt fails as a wall deletion because the identification is
+only in the axisymmetric gauge and on symmetry-selected classes; the general
+W8 wall is the gauge-free selected-ledger sign-selection theorem.
+
+C371 is accepted as a real in-gauge sign theorem. On the axisymmetric no-swirl
+mirror-antisymmetric slice, \(\eta=\omega_\theta/r\) is source-free and the
+viscous boundary terms force monotone decay of \(M^+=\int_{z>0}\eta\,dV\).
+No wall is deleted because this is a fixed half-space \(\eta\)-mass theorem in
+a globally regular gauge slice, not the arbitrary per-component selected
+ledger theorem.
+
+C372 is accepted as a real in-gauge swirl-circulation cap. The maximum
+principle gives non-increasing \(\sup|\Gamma|\), and the remaining in-gauge
+\(\eta\) source is the weighted swirl pump \(\partial_z(\Gamma^2)/r^4\). No
+wall is deleted because capped fuel amplitude does not control weighted
+delivery, recurrent balance, or the gauge-free selected-ledger theorem.
+
+DELETED: none.
+CERTIFICATE: Cycle 371 verifies the one-way no-swirl axisymmetric sign-selection theorem on the mirror-antisymmetric slice only; it does not delete W8 because the fixed half-space \(\eta\)-mass theorem is gauge-bound, globally regular already, and not the arbitrary per-component selected-ledger sign-selection theorem with W3/W7/W9 ownership.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 372 verifies the axisymmetric \(\Gamma\) maximum principle and localizes the in-gauge W8 residue to weighted swirl-pump axis concentration only; it does not delete W8 because capped \(\Gamma\) amplitude does not control delivery through \(\partial_z(\Gamma^2)/r^4\), recurrent balance against viscous drains, or the gauge-free selected-ledger sign-selection theorem.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 370-372
+
+Physical sentence of the sticking wall: the per-component axis route now has a
+typed reseed row and exact axisymmetric sign facts, but the proof still has
+not controlled how swirl fuel is delivered to the selected component axis in
+the general retained ledger.
+
+Attempts: C370 typed reseed jumps as scale-neutral nesting admissions; C371
+proved one-way annihilation on the no-swirl mirror slice; C372 capped
+axisymmetric swirl circulation and isolated the weighted swirl pump.
+
+Missing exact fact: a gauge-free per-component sign-selection theorem
+controlling weighted swirl-pump delivery or its three-dimensional analogue
+against viscous drains, together with component tracking, nesting, no-reuse,
+retained normalization, and the selected-ledger ownership of the one-way
+exchange.
