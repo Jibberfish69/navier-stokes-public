@@ -464,3 +464,22 @@ Blowup forces Δτ = ∞ (material-clock tautology), so the NORMALIZED bill dive
 **4. THE ALIGNED/MISALIGNED SPLIT (clause 4 typed, honestly).** Off the aligned branch (|Se|² > 2α²), α can grow UNSUBSIDIZED — parasitic on |Se|. But strain is a shadow (Cycle 23): |Se| at the maximizer is assembled from sub-record vorticity through the Biot–Savart log — the misaligned branch IS the log-shell coherence question. The material time thus splits exactly into: aligned stretches (pressure bill diverges ⟹ the export-vs-poison race) and misaligned stretches (strain assembly ⟹ log-shell coherence) — **the two faces of the ONE object established in Cycle 17, now with the bill routing every instant of a blowup's material time into one face or the other, no third channel.**
 
 **RULE-6 STALL LINE (cycles 22–24 without confirmed deletion):** sticking wall in one sentence — every instant of a blowup's infinite material time must now pay either the normalized pressure bill against five exact suppressions or the strain-assembly log against the same closed population, and the missing exact fact is the g_max defect-window integral (aligned face) with its misaligned twin (the strain-assembly export constant). Attempts: Cycles 17–25. Both constants are fully specified in banked algebra.
+
+---
+
+## CYCLE 26 — THE DEFECT-WINDOW INTEGRAL EXECUTED: the export law is v²-weighted, QUARTIC-log suppressed (the confirmed neutrality buys the extra power exactly as predicted); candidate verdict: supply loses by ≥ 7×
+
+**Gate processed.** Codex accepted the Q-neutrality identity exactly (complete profiles, v(0)=v(∞)=0) and listed the route-out remnants (non-axisymmetric lobes, cutoffs, modulation defects, weak limits). This cycle executes the integral those remnants orbit.
+
+**1. THE EXPORT LAW (exact structure, three steps, each checkable).** Lobe = finite tube segment [A,B] on the record's axis, swirl profile v(s). (i) The kernel's z-antiderivative is exact: ∫(2z²−s²)/(z²+s²)^{5/2}dz = −z/(z²+s²)^{3/2} =: −F(z,s). (ii) Integrate the transverse integral BY PARTS using Q = −2vv′/s and the confirmed neutrality boundary (v(0)=v(∞)=0):
+  **I = −(3/2)∫₀^∞ v(s)²·s·[A/(A²+s²)^{5/2} − B/(B²+s²)^{5/2}] ds.**
+The well is sourced by the swirl's KINETIC ENERGY density v², weighted by a dipole-type kernel — Q has disappeared from the formula; the neutrality is structural, not approximate. (iii) Far-lobe evaluation (A ≫ δ): the v² ~ (Γ/2πs)² tail gives
+  **supply per lobe ≈ (3/8π²)·Γ²·log(A/δ)/A⁴** — QUARTIC-log decay, one full power beyond the naive cubic kernel, exactly the extra suppression the neutrality theorem predicted; and the exporting agent is the lobe's FAR velocity field, not its core.
+
+**2. THE CANDIDATE RACE NUMBERS (aligned-axis geometry, comparable lobes, Γ ~ Ωδ²).** Ratio per lobe pair: (9/2π²)(δ/L)⁴log(L/δ), maximized at the non-overlap floor L = 2δ: **≈ 1/51.** Stacking lobes at L_k = 2δk sums the series: total ratio **≈ 1/43.** Equatorial strain-annulus contributions: shadow-suppressed, similar-order small. Against the unsuppressed demand 1/6 (+ (α/Ω)²): **supply loses by a factor ≥ 7 in every configuration computed.**
+
+**3. THE TWO HONEST HOLES (rule 14 — this is a candidate verdict, NOT a theorem).**
+- **(a) The variational sup:** computed configurations are the natural ones (aligned axial lobes, stacked, plus annuli). g_max as a supremum over ALL divergence-free configurations at ‖ω‖ ≤ Ω needs a variational lemma; the v²-dipole structure of the export law suggests a universal bound (the kernel is fixed; only the v² distribution varies under the energy and non-overlap constraints) — specified, not proved.
+- **(b) The strain-rich-record escape:** the demand coefficient 1/6 assumes a rotation-dominated maximizer (Q(0) ≈ −Ω²/2). A record with |S(x_max)|² ≥ ½Ω² has no self-poison — but such strain, at record strength, is a shadow (C23) assembled from sub-record vorticity through the Biot–Savart log: the escape routes EXACTLY into the misaligned face (log-shell strain assembly). No third channel appears; the two-face routing of Cycle 25 absorbs the escape.
+
+**Candidate verdict on the aligned face: the export-vs-poison race goes to the poison by ≥ 7× at every computed configuration — the aligned face cannot pay its bill unless the variational sup exceeds the natural configurations by an order of magnitude.** The misaligned face (strain assembly) is now the live front.
