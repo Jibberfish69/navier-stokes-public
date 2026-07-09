@@ -711,3 +711,11 @@ None.
   dichotomy is not exhausted, and the integrated Riccati demand still needs
   endpoint, viscous residual, exchange-time, and compact-action control. No wall
   is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 22-23 \(g_{\max}\) population gate accepts the axisymmetric
+  swirl \(Q\)-neutrality identity for complete profiles with
+  \(v(0)=v(\infty)=0\). It does not delete a wall. The claimed closed payer
+  population still needs a uniform comparison theorem for finite-energy strain
+  exporters, non-axisymmetric lobes, cutoffs, modulation defects, and weak
+  limits; the shadow theorem is same-field evidence but not a full dominance
+  certificate; and the final \(g_{\max}<1/6\) value is not computed. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
