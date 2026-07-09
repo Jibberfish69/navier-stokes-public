@@ -2157,3 +2157,25 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 132 accepts the raw fixed-class pump-envelope theorem through steps 1--6, but steps 7--9 still require the selected serviceable range/inventory theorem, including cap-active/mint equivalence, exact Row-1 range removal, event partition, material exclusivity, threshold match, and re-service floor.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 133 edge-flux inventory repair is accepted only as a signed
+  boundary accounting identity. The concessions are correct: the analytic
+  fixed-class supremum is continuous for smooth prelimit \(u\), and cap
+  activation is not manufacture by itself. For a fixed disk \(D\), the identity
+  \[
+  \frac{d}{dt}\int_D\omega\cdot n\,dA
+  =\oint_{\partial D}(u\times\omega)\cdot dl
+  +\nu\oint_{\partial D}\Delta u\cdot dl
+  \]
+  is a lawful Stokes/fixed-loop reading. It does not delete a wall. The
+  identity controls signed net enclosed circulation, not selected positive
+  serviceable rung-\(n\) inventory. Packing gives simultaneous occupancy, not
+  cumulative service count. Diffuse or sheet-like circulation already inside
+  the neighborhood can roll up into a serviceable core without crossing the
+  boundary. The boundary terms still require a positive-variation selected-sign
+  measure and routing into import/refinement/expulsion/re-entry rows with the
+  same threshold and event currency. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 133 accepts the fixed-boundary signed circulation identity and the concessions about analytic continuity/cap activation, but refutes the edge-flux inventory deletion; signed net boundary flux, packing, and standing rows do not yet prove selected positive-variation influx, in-place stock control, no-recycling, threshold match, event partition, or re-service floor.
+REMAINING: W3, W7, W8, W9.
