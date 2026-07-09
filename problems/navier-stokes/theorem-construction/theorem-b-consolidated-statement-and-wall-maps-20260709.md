@@ -3260,3 +3260,23 @@ front ratio; the merge is structural; the heat constraint is exact and
 unexploited. Gold = one branch: the history charge / front-exclusion
 rigidity, now equipped with an exact parabolic constraint. Open. No closure
 claimed.
+
+## 51. THE BACKWARD-MEMORY RUN: memory horizon and maintenance reading (exact); Duhamel alone yields no charge (honest negative) (2026-07-09)
+
+**Memory-horizon lemma (exact).** By Duhamel on (∂_t − 2νΔ_h)C = ½∇_h·F, a
+flux contribution at lag τ is heat-smoothed to scale √(2ντ): content at
+scale r reflects ONLY the flux history within lag ≲ r²/ν; older
+contributions live at coarser scales. NO PRE-BANKING: each rung's content
+must be flux-delivered within its own viscous window. (Honest scale count:
+the window is Re_local turnovers — generous on the growing tower; this alone
+does not choke the front.)
+
+**Maintenance reading (exact, maximum principle).** C is maximal at h = 0
+with C(0,t) = ‖u‖₂² Leray-monotone; the record's decorrelation dip at scale
+r is filled by diffusion at rate 2ν/r² and must be actively re-dug: record
+content is a MAINTAINED state, and the maintenance power is exactly the
+critical dissipation. Dissipation = dip-maintenance.
+
+**Honest negative.** Duhamel alone does not produce the history charge: the
+parabolic form's quantitative content is the marginal balance rearranged
+(the heat equation IS the energy balance — the relocation lesson applies to
