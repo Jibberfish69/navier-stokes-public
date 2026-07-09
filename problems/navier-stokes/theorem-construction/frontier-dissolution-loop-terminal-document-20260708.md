@@ -2211,3 +2211,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 135 accepts the shift from net circulation to positive-variation \(|\omega_\phi|\) flux and the rung-uniform cross-section quantum as targets, but the fixed-domain Kato/import theorem, frame covariance, source caps, boundary-flux domination, threshold matching, and C134 no-recycle/event partition remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 136 sequestration lemma correctly names the next object: minting
+  relocates \(|\omega_\phi|\)-stock into a core, so the count needs a
+  core/diffuse partition. This is not a deletion. The partition is a
+  time-dependent threshold/free-boundary object, and the certificate has not
+  proved measurable stable core selection, completed-core quantization,
+  threshold-motion terms, flutter routing, or a monotone diffuse-depletion
+  inequality. The four-flow taxonomy is also not yet exhaustive: advective
+  deformation, filamentation, selector exchange, boundary flutter, large-core
+  same-rung fission, merger with later release, and partial/aborted mints still
+  need a no-double-count route. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 136 accepts the core/diffuse partition as the right selector-match target, but the measurable free-boundary sequestration theorem, completed-core quantization, threshold-motion/flutter routing, one-way depletion, fission/merger routing, selector exchange, and event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
