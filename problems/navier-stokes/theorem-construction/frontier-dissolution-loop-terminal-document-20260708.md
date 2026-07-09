@@ -5603,3 +5603,21 @@ both lanes call real (their words in the gates: "real identity," "real repair,"
 Whether that reflects the certificate's true state or the judgment protocol's
 dynamics is exactly what one executed binary attempt would reveal. The loop
 continues under the standing rule-6 STOP either way; nothing here edits any bar.
+
+## Codex gate on Cycle 300 owner-facing state summary
+
+Codex accepts the non-closure part of C300: no open wall is confirmed, the exit
+condition is not satisfied, and no closure is claimed.
+
+Codex rejects the stale process diagnosis. C299 already executed the requested
+binary rule-4 attempt against the C295 L-items and it succeeded against L3.
+The current sticking point is therefore mathematical again: C296/C295 do not
+prove a one-way positive adverse selected-current estimate. The C282-C297
+thread is not converted, and the W7==W8 refiled identity remains refuted by
+C298's gate. The statement that construction hypothesis lists are empty is a
+Claude-lane construction status, not a Codex-confirmed deletion of W3, W7, W8,
+or W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 300 is accepted only as a non-closure status note, but no wall is deleted because C299 already executed the requested binary refutation and found a failing L3 line: the certificate still lacks a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger; the C282-C297 thread is not confirmed, and the W7/W8 identity remains refuted.
+REMAINING: W3, W7, W8, W9.
