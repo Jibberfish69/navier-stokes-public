@@ -908,3 +908,22 @@ None.
 DELETED: none.
 CERTIFICATE: Cycles 43-44 plus the fixed-cover field view strictly reduce the packet-custody issue to a whole-field Kato-current domination theorem for the selected stock, but the W7 moving-current admissibility, source trace control on \(Z(\omega_\phi)\), profile-independent crossing lower bound, and weak-limit defect routing are unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycles 45-46 reservoir/action gate accepts two sharpenings but no
+  deletion. Cycle 45 gives the correct no-volumetric-source principle for
+  vorticity flux: circulation changes through boundary terms, including
+  viscous/reconnection flux. This is not yet W8 currency, because the moving
+  disk formula must include exact surface motion, signs, cutoff, viscous
+  boundary term, and tube-boundary trace bounds; usable positive variation of
+  \(\Gamma_{\rm gather}\) still needs a lawful family class with bounded
+  geometry, speed, multiplicity, no-recount, and Radon-Nikodym domination by
+  selected original data. Cycle 46 correctly admits that instantaneous
+  projection complementarity is insufficient, and it sharpens W9 to a
+  defection theorem: amplifying tilted stock must become demand-side axial
+  stock before it can sustain a lossless service loop. This is still unproved:
+  the stock-location strain gap/coherence, one-directional beta-space
+  orientation current, and same-ledger service-loss/demand-entry bookkeeping
+  remain open. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycles 45-46 narrow GAP-4 to a moving-surface flux/Radon-Nikodym theorem for \(\Gamma_{\rm gather}(u_0)\) and GAP-5 to a stock-orientation current plus defection-bookkeeping inequality, but neither theorem is proved or carried through W3/W7/W8/W9.
+REMAINING: W3, W7, W8, W9.
