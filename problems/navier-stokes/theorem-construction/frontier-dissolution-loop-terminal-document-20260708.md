@@ -565,3 +565,12 @@ None.
   hypotheses, and the axisymmetric swirl audit leaves Gate-B material-time
   Liouville/UCP open. Thus Gate-A/Gate-B labels are not admitted as new walls
   because they delete no existing names, and they do not delete W3/W7/W8/W9.
+- The W9 instantaneous-state action presentation is refuted, but W9 is not
+  deleted. In \(X=S^1\), the legal zero-payer BV paths \(Z^+(t)=e^{it}\) and
+  \(Z^-(t)=e^{-it}\) share the time-zero state \(1\), while a state action would
+  require \(\Phi_h(1)=e^{ih}\) and \(\Phi_h(1)=e^{-ih}\) for
+  \(h\notin\pi\mathbb Z\). The checked W9 source avoids this only by acting on
+  compact certified path hulls, or by adding a future-germ/cocycle coordinate
+  plus terminal-window and zero-surplus closed-graph clauses. W3/W7/W8 do not
+  supply those clauses, so the source-presentation assumption is corrected
+  rather than paid as a deletion.
