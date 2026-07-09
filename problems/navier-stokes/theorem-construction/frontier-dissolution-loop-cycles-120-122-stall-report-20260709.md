@@ -2492,3 +2492,24 @@ net/TV boundary crossing into one-way selected current, assigning the
 product-rule source bridge and \(\delta u\) contribution once, and preserving
 W7 closed-record admission and W8 order-lock/no-reuse for arbitrary admissible
 data and all regimes.
+
+## Codex gate on post-stall Cycle 239 zero-footprint diagnostic
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C239 tries
+to identify the C237 source-bridge residue with a zero-footprint diagnostic,
+but it still does not identify W8 with W3/W7/W9 because the paying ledger facts
+are the selected one-way current, \(\delta u\) sign/size/ownership, the
+band-row signs, and no-reuse.
+
+Codex accepts the zero-footprint diagnostic clarification. The compact-source
+lemma may refute a hidden exterior field without entering the balance as a row.
+
+No deletion is paid. The \(\delta u\) certificate only cites sections already
+gated as insufficient. C239 also admits R3's viscous-reorientation subterm and
+R4's band-content row are typed-not-signed. Their non-transport status has not
+been converted into a selected-currency bound. C223's TV-to-one-way conversion
+and the sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 239 accepts the zero-footprint diagnostic reading of the compact-source lemma as a real clarification, but W8 is not deleted because the \(\delta u\) sign/size/ownership certificate only cites previously gated sections, R3's viscous-reorientation and R4's band-content rows are expressly typed-not-signed, their band-supported non-transport status has not been converted into a selected-currency bound, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
