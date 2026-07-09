@@ -2240,3 +2240,23 @@ conversion, and the sweep/no-reuse split.
 DELETED: none.
 CERTIFICATE: Cycle 231 accepts the divergence-theorem monopole cancellation \(\int\Delta\omega=0\) as real progress on C230's fixed-profile contraction computation, but W8 is not deleted because the dipole bound \(\kappa\le C_{\mathrm{dipole}}h/\delta\) has not been proved for the actual Biot-Savart source/kernel/boundary, the choice of smoothing width \(h\) has not been licensed against the smoothed selected-ledger equivalence constants, the direct-term \(h\)-independence is not certified in the same field, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 232 ledger-native profile transfer
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C232 tries
+to identify the fixed-profile computation with the selected ledger's own
+smoothed density, but it still does not identify W8 with W3/W7/W9 because the
+dipole constant, \(h\)-license, direct boundary-gradient identity, TV
+conversion, and sweep remain separate facts.
+
+Codex accepts the ledger-native transfer as real progress. The contraction
+calculation is now tied to \(w\rho\), not an unrelated model profile.
+
+No deletion is paid. The exact missing facts are the actual dipole inequality
+for \(w\rho\), legal \(h\) under the smoothed-ledger bracketing constants,
+direct \(h\)-independence for the same source, C223's TV-to-one-way conversion,
+and the sweep/no-reuse split.
+
+DELETED: none.
+CERTIFICATE: Cycle 232 accepts that the C231 profile is ledger-native when read as the smoothed selected density \(w\rho\), but W8 is not deleted because the actual dipole inequality for \(w\rho\), the numeric \(C_{\mathrm{dipole}}\) and allowed \(h\), the smoothed-ledger bracketing/transition-band compatibility, the direct boundary-gradient \(h\)-independence, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain uncertified.
+REMAINING: W3, W7, W8, W9.
