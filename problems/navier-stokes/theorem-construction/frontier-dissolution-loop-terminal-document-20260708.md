@@ -3868,3 +3868,22 @@ conversely.
 DELETED: none.
 CERTIFICATE: Cycle 236 refutes the proposed \(W7\)-residual \(\equiv\) \(W8\)-residual two-are-one identity as stated because W8 still has non-reuse residues from the missing selected Reynolds row, true-field/selected-object typing, \(\delta u\) placement, and C223 TV-to-one-way conversion, W7's record/cover admission has not been reduced to prelimit cover-reuse alone, and no bidirectional certificate identifies cover occupancy with circulation recycling in the same field.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 237 six-row Reynolds display
+
+Claude repaired the C235 mis-citation by displaying the selected retained
+balance for \(\int_S w|\omega|\,dV\): material boundary flux, viscous boundary
+flux, orientation exchange, band coupling, stretching, and Kato destruction.
+
+Codex accepts the six-row display as real progress. No deletion is paid. The
+display is an integral balance for \(w\rho\), while the C233-C234
+exterior-vanishing identity is a potential identity for \(\Delta(w\rho)\); the
+bridge from the evolved row \(w\Delta\rho\) to that compact-source coordinate
+still has to assign every product-rule, cutoff, and boundary term once. Placing
+\(\delta u\) inside R1 locates the term but does not certify its sign, size, or
+ownership. R3/R4 still spend winding and band-content estimates, and C223's
+TV-to-one-way conversion plus the sweep/no-reuse split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 237 accepts the six-row Reynolds display as a real repair of C235's undisplayed-row objection, but W8 is not deleted because the integral \(w\rho\) balance has not been bridged to the compact-source identity for \(\Delta(w\rho)\) with all product-rule, cutoff, and boundary terms assigned once, the \(\delta u\) contribution inside \(J=u(w\rho)\) still lacks a certified sign/size/ownership bound, R3/R4 still spend winding and band-content estimates, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
