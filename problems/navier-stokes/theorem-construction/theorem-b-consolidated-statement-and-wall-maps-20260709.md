@@ -2302,6 +2302,115 @@ open — it is the sharpest statement of the c₀ core. NOT closure. The concret
 next target is now single and named: the finite-ν viscous cost of the
 four-body refund cycle. Sent to Codex.
 
+## 39. CODEX GATE ON THE FINITE-NU REFUND FLOOR: fixed viscosity does not give a scale-independent Leray cost
+
+The material-pair derivation and full calculation are now filed in
+`mpp-forward-gold-critical-height-native-increment-current-fixed-face-certificate-20260709.md`,
+§§9--10. Section 38's proposed use of Leray dissipation is refuted by the exact
+NS scaling.
+
+Choose a smooth finite-energy solution `U` on `[0,T_0]` with positive gross
+material-pair action
+
+```math
+\mathcal A_+(U)
+=\int_0^{T_0}\iint[j_{ab}(U)]_+,da,db,dt>0.
+\tag{G39.1}
+```
+
+For the exact fixed-viscosity rescaling
+
+```math
+U_\lambda(x,t)=\lambda U(\lambda x,\lambda^2t),
+\tag{G39.2}
+```
+
+one has
+
+```math
+\mathcal A_+(U_\lambda)=\mathcal A_+(U),
+\tag{G39.3}
+```
+
+while
+
+```math
+\nu\int_0^{\lambda^{-2}T_0}
+\|\nabla U_\lambda\|_2^2dt
+=\lambda^{-1}\nu\int_0^{T_0}\|\nabla U\|_2^2dt.
+\tag{G39.4}
+```
+
+Thus the ratio of Leray energy loss to gross critical traffic tends to zero as
+`lambda->infinity`, with `nu` unchanged. In rung scale `r=lambda^{-1}`, a
+normalized cycle has order-one critical traffic and `O(r)` physical-energy
+cost; dyadic costs are summable. Finite viscosity therefore does not force the
+fixed per-cycle energy floor asserted in §38, and the cyclic candidate need
+not reach `nu=0` to become asymptotically free in Leray currency.
+
+The critical viscous action
+
+```math
+\nu\int\|\Lambda^{3/2}u\|_2^2dt
+\tag{G39.5}
+```
+
+is scale compatible with the native current, but Leray energy does not bound
+it. Comparing `(G39.5)` with gross positive current recovers the small-data
+estimate
+
+```math
+\iint[j_{ab}]_+
+\lesssim
+\|u\|_{\dot H^{1/2}}\|u\|_{\dot H^{3/2}}^2;
+\tag{G39.6}
+```
+
+at arbitrary height the coefficient is the target. A critical-dissipation
+floor without an absorbable coefficient supplies no original-data reserve.
+
+There is also an exact one-object correction to §37. For material pairs
+
+```math
+e_{ab}=\frac{c_\Lambda}{4}\frac{|V_{ab}|^2}{|R_{ab}|^4},
+\qquad
+j_{ab}=-4e_{ab}\alpha_{ab},
+\qquad
+\alpha_{ab}=\frac{d}{dt}\log|R_{ab}|,
+\tag{G39.7}
+```
+
+and
+
+```math
+\dot\alpha_{ab}
+=-\alpha_{ab}^2
++\frac{|V_{ab}^{\perp}|^2}{|R_{ab}|^2}
+-\frac{R_{ab}\cdot\delta_{ab}\nabla p}{|R_{ab}|^2}
++\nu\frac{R_{ab}\cdot\delta_{ab}\Delta u}{|R_{ab}|^2}.
+\tag{G39.8}
+```
+
+Face A's pressure-Hessian turning and Face B's recurrence are two projections
+of `(G39.8)`: pressure cancels and viscosity dissipates only after summing all
+pairs, not on one recurrent pair. The exact record-selected reserve
+
+```math
+\sum_m\int_{I_m}\iint[j_{ab}]_+,da,db,dt<\infty
+\tag{G39.9}
+```
+
+already prevents all critical-height record doublings and is therefore Gold,
+not an inherited four-body theorem. Existing first-admission/no-recount
+bookkeeping does not prove `(G39.9)`; the corpus itself records that fixed-scale
+destroyed-mass floors vanish like the rung scale and that pure mass pairing can
+refill a record at zero net mass.
+
+**Gate result.** The §38 finite-`nu` Leray-floor proposal is refuted. The three
+residues are unified by the material-pair equation, but their common open
+content is a scale-invariant, record-specific pressure/viscous no-return sign,
+not a scale-independent physical-energy toll. Gold remains open there.
+
 ## 39. THE REFUND-LOOP ESTIMATE RUN: the viscous floor IS c₀ in cleanest form — a critical coercivity (2026-07-09)
 
 Attempting the §38 target directly. Over a closed pair-cycle in (R,V): storage
