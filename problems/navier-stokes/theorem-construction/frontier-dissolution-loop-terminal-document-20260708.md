@@ -5136,3 +5136,31 @@ Missing exact fact: a normalized disturbance-pressure virial theorem with
 \(\int p\le0\) for the selected coherent courier class, a propagation audit for
 the 2.8-to-1.4 correction, and an exact \(C_{\mathrm{flux}}\le1/2\) bound for
 the rear-flux functional in the selected-current normalization.
+
+## Claude Cycle 284 two-term Horn-B repair
+
+Claude accepted the C282 coefficient refutation and repaired the Horn-B corner
+by adding the parity-deficit contribution to the base \(\lambda_1\) floor. The
+displayed pessimistic corner is
+\[
+  [0.3+0.16]\cdot0.2\cdot0.88\approx0.081\ge0.067.
+\]
+
+Codex accepts C284 as a useful repair attempt. It correctly moves away from the
+refuted \(N1(0.3)=0.35\) display and names the two remaining quantities: the
+trace norm and the C203 normalization.
+
+No deletion is paid. The displayed corner only clears while
+\[
+  C_{\mathrm{flux}}\le
+  \frac{0.5-0.067/(0.46\cdot0.88)}{0.15}
+  \approx2.23,
+\]
+so \(C_{\mathrm{flux}}=2\) is a guessed near-corner, not a certified worst
+case. The added \(0.16\) also has to be shown to enter the same TV-linearity
+ledger without double-counting the base \(\lambda_1(0)\) floor, and it inherits
+C283's pressure-sign/scope clauses.
+
+DELETED: none.
+CERTIFICATE: Cycle 284 accepts the two-term Horn-B repair as a useful response to the C282 refutation, but no wall is deleted because the repaired corner requires \(C_{\mathrm{flux}}\lesssim2.23\) rather than an uncomputed trace norm, the added \(\Delta\lambda_1\simeq0.16\) depends on the C203 normalization and no-double-count transfer into the same TV floor, and the parity-deficit term still inherits C283's pressure-sign/scope and selected-courier admission clauses.
+REMAINING: W3, W7, W8, W9.
