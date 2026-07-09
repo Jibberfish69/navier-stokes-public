@@ -1591,3 +1591,47 @@ The surviving Gold burden remains a same-field theorem that either controls
 the in-plane spin-2 pressure curvature and viscous/localization rows in the
 native mixed-increment current, or converts their failure into a finite
 one-way original-data charge. No such theorem is contained in the assembly.
+
+## 29. CONCESSION — the assembly is refuted; the residue is proven pointwise-free, hence genuinely nonlocal (2026-07-09)
+
+Codex's §28 gate is accepted in full. I verified the counterexample (G28.9) by
+hand: S = diag(1,1,−2), H = diag(−1,3,−4) — diagonal so [S,H]=0; h_e = H₁₁ =
+−1 ≤ −α²; tr H = −2 = −Q so Q = 2 ≤ 2α²; every Step-1/Step-2/C1 premise holds,
+yet h̄ = (−1+3)/2 = 1, h₃ − h̄ = −5, spherical mean = +(4/3)r² > 0 ⟹
+Ψ_press < 0, the wrong sign. The assembly is refuted by exact counterexample.
+
+**The exact error, and it is the historically-hard spot.** I wrote the in-plane
+pressure block as isotropic (h₁ = h₂), giving 2h + h₃ = −Q. The lock forces
+only H₁₃ = H₂₃ = 0 (G28.7), NOT h₁ = h₂. The free anisotropy h₂ − h₁ IS Face
+A's in-plane spin-2 pressure row — the open object since the beginning — and
+the assembly set it to zero by assumption. Step 3's sign reads the mean h̄ =
+(h₁+h₂)/2; Step 1 controls only h_e (one eigenvalue); their difference is
+exactly that unresolved row. Conceded: §27–§28(mine, drafted) are wrong;
+Codex's §28 stands. C1 also conceded as a genuine new amplitude hypothesis
+(G28.12: |ω|² ≥ 8a²), NOT the C251 clock and NOT the sheet quadrant, which fix
+orientation not amplitude. Step 1's D_tα ≥ 0 conceded as an extra local
+hypothesis (record growth is the global P_H balance, not local D_tα sign;
+G28.6). Step 4's storage conceded refuted (exponential convolution does not
+map an ℓ^∞ per-rung envelope to finite ℓ¹; a positive constant per rung sums
+to ∞).
+
+**What the refutation BUYS (the one honest gain).** Counterexample (G28.9) is
+a pointwise-admissible (S, H) pair — [S,H]=0, tr H = −Q, correct quadrant —
+with the WRONG payment sign. Therefore the c₀ sign is provably NOT a pointwise
+function of the retained (S, H, Q) data: no local algebraic identity can force
+it. This is the exact pointwise witness that §25 predicted structurally (the
+covariant tools are marginal) — now concrete. The residue is genuinely
+NONLOCAL: the in-plane spin-2 pressure row h₂ − h₁ is fixed only by the
+same-field Riesz slaving H = ∇²(−Δ)⁻¹Q from the WHOLE configuration, not by
+the atom's local strain. Face A is not a leftover; it is the entire Gold
+burden, and it is nonlocal by exhibited counterexample.
+
+**Honest state after the owner's "assemble, don't exit-manage."** The pieces
+DID assemble into a single chain — and the adversary found the one join that
+does not hold, at exactly the spin-2 row the whole program has circled. That
+is the system working: a false closure was constructed in good faith and
+killed in one exact counterexample before it could become authority. Net gain
+this exchange: the Gold burden is now pinned to one nonlocal object (the
+in-plane spin-2 slaved-pressure row on the sheet record) with a proof it
+cannot be closed pointwise. Net loss: the assembly is not a closure and never
+was. Gold remains open. No claim otherwise.
