@@ -2179,3 +2179,35 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 133 accepts the fixed-boundary signed circulation identity and the concessions about analytic continuity/cap activation, but refutes the edge-flux inventory deletion; signed net boundary flux, packing, and standing rows do not yet prove selected positive-variation influx, in-place stock control, no-recycling, threshold match, event partition, or re-service floor.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 134 viscous-clock repair correctly refutes the idea that C120's
+  destroyed-mass floor can count fine-rung events by itself. It also identifies
+  the right candidate currency: a serviceable circulation quantum should be
+  rung-uniform in \(\Gamma\)-units, and complete viscous dissolve/remint of a
+  coherent \(\delta_n\)-core is too slow on an \(O(1)\) rung window. This is
+  not a deletion. The viscous clock only rules out full diffusion recycling;
+  it does not rule out advective reconfiguration, partial filamentation,
+  selector exchange, boundary flutter, merger/splitting, or adjacent
+  same-circulation replacement. Packing and expulsion give simultaneous and
+  candidate exit controls, not a cumulative service count. Threshold matching
+  and subthreshold/\(\sigma\) routing remain unproved. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 134 accepts the self-refutation of the mass floor as a fine-rung counter and accepts the viscous spreading clock as a partial no-recycle mechanism, but advective reconfiguration, service multiplicity, selector exchange, boundary flutter, threshold matching, and the event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Cycle 135 positive-variation repair correctly concedes that net boundary
+  circulation is unsafe and moves to the right currency candidate,
+  \(|\omega_\phi|\) on a fixed cross-section. The cross-section quantum
+  \(\int_D|\omega_\phi|\sim\Omega_n\delta_n^2\sim\Gamma\) is the right target
+  for a rung-uniform serviceable core. This still does not delete a wall.
+  Earlier gates left the required fixed-domain Kato/import theorem open:
+  \(\omega_\phi\) must be a lawful moving-frame scalar; cutoff, curvature,
+  selector, branch-exit, weak-limit, and tilt terms must be routed; source
+  caps must be uniform; and boundary positive variation must be dominated by
+  W8 import/refinement rows in the same threshold currency. The seed Taylor
+  line handles initial fine stock only, not later interior manufacture. No wall
+  is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 135 accepts the shift from net circulation to positive-variation \(|\omega_\phi|\) flux and the rung-uniform cross-section quantum as targets, but the fixed-domain Kato/import theorem, frame covariance, source caps, boundary-flux domination, threshold matching, and C134 no-recycle/event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
