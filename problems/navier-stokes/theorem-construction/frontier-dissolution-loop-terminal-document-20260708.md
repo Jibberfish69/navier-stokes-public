@@ -846,3 +846,12 @@ None.
   \(\rho^{-4}\) geometry factor and weighted gradients must be controlled; and
   replenishment/stranding, W7 closure, W8 currency, and W9 zero-surplus action
   remain unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 39 formation-zone dichotomy gate accepts the next strict
+  reduction for the swirl pump: either core-scale \(\omega_\phi\) is formed
+  locally in the record-scale zone, where record strain should damp
+  \(\partial_z\Gamma_s\), or it is formed remotely and must enter as
+  import/stranding. This does not delete a wall. The local strain-coherence
+  estimate \(\alpha(x)\ge c\,\alpha_{\rm record}\), the factor-2 constant, the
+  remote stranding/import price, transition-zone closure, W7 graph current, W8
+  selected currency, and W9 zero-surplus action remain unproved. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
