@@ -5768,3 +5768,38 @@ that \(\lambda_1\) inherits the TV-floor terminality failure.
 DELETED: none.
 CERTIFICATE: The post-C357 member attack refutes composition as a terminal ladder certificate: the product \(\lambda_{\mathrm{net}}\ge\lambda_1 N1(1-r_{\mathrm{re}})\) is useful arithmetic, but its \(\lambda_1\) factor inherits the refuted TV-floor row and the product still spends C271 absorption, membership admission, \(N1\) direction ownership, simultaneous-corner compatibility, selected-current mass, no-reuse, retained normalization, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 358
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C358 suggests
+the four unstruck members' binaries are one question. The identification fails
+as a paid deletion because two struck members show a pattern, not an identity,
+and pre-conceding the unstruck members would be fake closure.
+
+Codex accepts C358 as confirmation of the composition refutation and as a
+useful parity census. No wall is deleted.
+
+DELETED: none.
+CERTIFICATE: Cycle 358 confirms the post-C357 composition refutation and accepts the parity census as a target sharpener, but no wall is deleted because the census only forecasts that sweep sign is the unique T-odd candidate and expressly leaves unproved whether sweep direction is selected-ledger-owned or frame-owned.
+REMAINING: W3, W7, W8, W9.
+
+## Codex member attack after post-stall Cycle 358
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: the parity
+census tries to make the sweep sign the signed survivor.
+
+Codex executes the binary attack on sweep sign. The attack succeeds as a
+refutation of terminality.
+
+The failing line is selected-ledger ownership. C207 accepted front/rear sweep
+sorting as a sharper W8 reduction, but left selected-ledger inequalities,
+\(\lambda_1\), and selected-current/no-reuse open. C294 accepted the sweep-sign
+semigroup route, but still required same-W8 readout, transport/cutoff/reseed,
+no-reuse, admission, same-normalization rear-flux, and one-window evolution.
+C296-C297 located the sign and plane, but left same-surface ownership,
+ledger-native center/relative-velocity direction, frame tilt, cutoff, reseed,
+arrivals, creation, viscosity, pressure, and no-extra-selector terms open.
+
+DELETED: none.
+CERTIFICATE: The post-C358 member attack refutes sweep sign as a terminal ladder certificate: the front/rear sweep direction is the unique T-odd candidate, but the existing record proves only a sorting/sign target and does not prove that the direction is owned by the same W8 selected-current ledger after cutoff/reseed, same-surface normalization, no-reuse, membership admission, frame-tilt control, arrivals/creation/viscosity/pressure assignment, and clock ownership.
+REMAINING: W3, W7, W8, W9.
