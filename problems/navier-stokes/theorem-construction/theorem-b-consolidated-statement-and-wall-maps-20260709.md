@@ -3559,11 +3559,183 @@ Q_m\ge\nu^2M_0m^3,
 \tag{G55.6}
 ```
 
-The conclusion is a strict reduction rather than closure. Every unbounded Gold
-history must repeatedly create resolvent-weighted nonlinear acceleration at
-least at the viscous mean-frequency scale. No datum bound for `Q_m` is proved.
-The identity replaces the non-exhaustive H2 packet with a lawful global
-coordinate and gives Opus 4.8 one exact signed term to attack.
+The conclusion is an exact necessary condition rather than closure. Every
+unbounded Gold history must repeatedly create resolvent-weighted nonlinear
+acceleration at least at the viscous mean-frequency scale. No datum bound for
+`Q_m` is proved. The identity replaces the non-exhaustive H2 packet with a
+lawful global coordinate and gives Opus 4.8 one exact signed term to attack.
+
+## 56. NEAR-MONOCHROMATIC RECORD COUNTERSEQUENCE: zero-spread rigidity has no Gold gap (2026-07-09)
+
+The exact zero-spread statement in §55 does not extend to a uniform record
+exclusion. This can be seen in one complete velocity field before introducing
+any scale owner or lineage.
+
+In the exact Fourier-triad algebra (equivalently, on a flat three-torus whose
+reciprocal lattice contains the displayed vectors), fix `K>0` and put
+
+```math
+\theta_\varepsilon=\frac{2\pi}{3}-\varepsilon,
+\quad
+k=K(1,0,0),
+\quad
+p=K(\cos\theta_\varepsilon,\sin\theta_\varepsilon,0),
+\quad
+q=-k-p,
+\tag{G56.1}
+```
+
+and write
+
+```math
+L=|q|=2K\cos(\theta_\varepsilon/2),
+\qquad
+\Delta=L-K>0.
+\tag{G56.2}
+```
+
+Choose the divergence-free coefficients
+
+```math
+\widehat u(k)=A(0,-1,0),
+\qquad
+\widehat u(p)=-Ae_3,
+\qquad
+\widehat u(q)=iAe_3,
+\tag{G56.3}
+```
+
+with their conjugates at the negative frequencies. Direct substitution in the
+Fourier nonlinearity gives
+
+```math
+T_k=0,
+\qquad
+T_p=-A^3K\sin\theta_\varepsilon,
+\qquad
+T_q=A^3K\sin\theta_\varepsilon.
+\tag{G56.4}
+```
+
+Thus energy transfer still sums to zero, while the signed critical production
+is
+
+```math
+P_H
+=2A^3K\sin\theta_\varepsilon\,\Delta>0.
+\tag{G56.5}
+```
+
+The three radial frequencies have equal energy weights, so
+
+```math
+m=\frac{2K+L}{3},
+\qquad
+V=\frac{2}{9}\Delta^2,
+\qquad
+\mathcal W=\frac{2}{9}\Delta^2(K+L).
+\tag{G56.6}
+```
+
+As `varepsilon` tends to zero, `Delta` is asymptotic to
+`(sqrt(3)/2)K varepsilon`. The signed nonlinear production is first order in
+the radial width, while the mean-frequency viscous spread is second order.
+For the critical-height record condition itself,
+
+```math
+P_H>\nu M_3
+\quad\Longleftrightarrow\quad
+A>
+\nu\frac{2K^3+L^3}
+{K\sin\theta_\varepsilon\,\Delta},
+\tag{G56.7}
+```
+
+so arbitrary amplitude produces a genuine record upcrossing at arbitrarily
+small relative spectral width.
+
+This torus calculation has a whole-space finite-energy realization. For each
+`varepsilon`, replace the six modes by sufficiently narrow smooth Fourier
+bumps around them and apply the Leray projection. The strict sign in `(G56.5)`
+persists, giving a real divergence-free Schwartz field `phi_varepsilon` whose
+Fourier support lies in a relative annulus of width `O(varepsilon)` and for
+which
+
+```math
+P_\varepsilon=P_H(\phi_\varepsilon)>0.
+\tag{G56.8}
+```
+
+Normalize `phi_varepsilon` so that its critical quadratic norm is one, and let
+`E_varepsilon` and `D_varepsilon` be its `L^2` and critical-dissipation
+quadratic norms. Choose
+
+```math
+c_\varepsilon
+\ge
+\max\!\left\{
+\varepsilon^{-1},
+\frac{2\nu D_\varepsilon}{P_\varepsilon}
+\right\},
+\qquad
+\lambda_\varepsilon
+\ge c_\varepsilon^4(1+E_\varepsilon),
+\tag{G56.9}
+```
+
+and use the exact Navier--Stokes spatial scaling
+
+```math
+u_\varepsilon(x)
+=c_\varepsilon\lambda_\varepsilon
+\phi_\varepsilon(\lambda_\varepsilon x).
+\tag{G56.10}
+```
+
+Then
+
+```math
+\|u_\varepsilon\|_2^2
+=\lambda_\varepsilon^{-1}c_\varepsilon^2E_\varepsilon
+\longrightarrow0,
+\qquad
+H_{\rm crit}(u_\varepsilon)
+=c_\varepsilon^2\longrightarrow\infty,
+\tag{G56.11}
+```
+
+and the initial Navier--Stokes derivative is strictly positive:
+
+```math
+\left.\frac d{dt}H_{\rm crit}(u_\varepsilon(t))\right|_{t=0}
+=\lambda_\varepsilon^2c_\varepsilon^2
+\big(c_\varepsilon P_\varepsilon-\nu D_\varepsilon\big)>0.
+\tag{G56.12}
+```
+
+Amplitude and Navier--Stokes scaling do not change relative spectral width;
+hence
+
+```math
+\frac{V(u_\varepsilon)}{m(u_\varepsilon)^2}
+\longrightarrow0.
+\tag{G56.13}
+```
+
+There is a second obstruction inside `(G55.6)`. At the two receiving modes in
+`(G56.4)`, the nonlinear acceleration has magnitude
+`A^2K sin(theta_varepsilon)`, which remains nonzero as `varepsilon` tends to
+zero. Consequently `Q_m` does not inherit the cancellation that makes `P_H`
+vanish at exact equal radius. It is an unsigned magnitude of nonlinear
+acceleration and counts exchanges that do not move any radial spectral moment.
+
+**Gate result.** The spectral-mean identity `(G55.2)` is exact and lawful, but
+zero-spread rigidity and the `Q_m` necessary condition do not give a uniform
+Gold exclusion. Bounded energy, arbitrarily large critical height, a genuine
+instantaneous record upcrossing, and arbitrarily small relative spectral spread
+coexist in `(G56.8)--(G56.13)`. As in §54, these fields are not asserted to be
+successive times of one trajectory. Only a complete-history theorem could
+exclude this countersequence, and no such theorem has been proved here.
 
 ## 53. THE LINEAGE ROUTE GATED (25-agent adversarial workflow, cross-verified): identities EXACT, lever WITHDRAWN three ways (2026-07-09)
 
