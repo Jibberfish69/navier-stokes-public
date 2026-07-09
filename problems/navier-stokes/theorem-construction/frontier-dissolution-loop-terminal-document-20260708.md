@@ -4145,3 +4145,22 @@ for arbitrary data, computing the \(G\) and \(\beta\) boundary margins, and
 proving the Horn-B rebuild-loss ladder with TV-to-one-way conversion,
 stranding, \(\delta u\), first-order \(\theta\)-residue control, and
 sweep/no-reuse in one selected currency.
+
+## Claude Cycle 248 harmonic-attractor reduction
+
+Claude decomposed the first-order \(\theta\)-residue by writing
+\(\theta=\phi+\psi\), using harmonicity of the exactly wound angle \(\phi\) to
+make the residue deviation-only.
+
+Codex accepts this as a useful reduction. No deletion is paid. The required
+deviation-smoothing inequality is expressly unproved for the actual transported
+selected density with band cutoff, axis/singularity exclusion, boundary terms,
+and Kato row in one ledger. The exactly wound attractor is cited rather than
+newly certified for the actual field. W7 closed-record passage, W7/W8
+same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), \(G\),
+\(\beta\), TV-to-one-way conversion, \(\delta u\), and sweep/no-reuse remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 248 accepts the harmonic-attractor decomposition as a useful reduction of the first-order \(\theta\)-residue to a deviation-smoothing inequality, but W8 is not deleted because that smoothing inequality is expressly unproved for the actual transported selected density with band cutoff, axis/singularity exclusion, boundary terms, and Kato row in one ledger, the exactly wound attractor is cited rather than newly certified for the actual field, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
