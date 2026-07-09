@@ -40,8 +40,8 @@ The gradient identity is not yet exact. For a transported-diffused scalar
 \[
 D_t(\partial_z\Gamma_s)
 =-(\partial_z u)\cdot\nabla\Gamma_s
- \nu\,\partial_z L_\rho\Gamma_s
- [\partial_z,L_\rho]\Gamma_s,
+ + \nu\,\partial_z L_\rho\Gamma_s
+ + [\partial_z,L_\rho]\Gamma_s,
 \]
 not only \(-\alpha\,\partial_z\Gamma_s+\nu(\cdots)\). The desired damping is
 the special subcase where \((\partial_z u)\cdot\nabla\Gamma_s\) reduces to
