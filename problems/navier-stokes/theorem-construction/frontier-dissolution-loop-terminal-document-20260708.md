@@ -881,3 +881,30 @@ None.
   \(|\eta|\lesssim|\nabla\omega|\) is not W7-uniform by itself, and the gauge,
   \(T_{\rm frame}\), Morse-gap, branch-exit, and multi-selector terms still need
   current-level bounds. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 43-44 / field-ownership gate accepts the useful ontology
+  correction: a whole-field fixed-cover current can restore ownership without
+  preserving a named packet, because transport flux through internal fixed
+  boundaries cancels. This does not yet delete a wall. The Bishop vortex-line
+  tube solves only the smooth-prelimit \(1/\rho\) alignment issue; W7 still
+  needs a scale-critical, moving-cylinder parabolic bootstrap and selector/tube
+  compactness that control \(\nabla\omega\), curvature, and frame velocity
+  uniformly through the retained pedigree. Kato's inequality on
+  \(\omega_\phi\) is the right field-oriented replacement for episode
+  bookkeeping only after the moving/tubular scalar-current law is written.
+  Pump, tilt, frame, cutoff, and boundary terms must be charged as paid sources
+  or route-outs; source trace on \(Z(\omega_\phi)\), profile-independent
+  zero-crossing/coarea lower bounds, and weak-limit lower semicontinuity remain
+  unproved. Thus the surviving written object is the whole-field Kato-current
+  domination theorem
+  \[
+    \partial_t|\omega_\phi|+\nabla\cdot J_{|\omega_\phi|}
+    \le G_{\rm paid}-\mu_K+\operatorname{Route},
+    \qquad
+    \mu_K\ge c\,Re_\Gamma^{-1}\operatorname{Serv},
+  \]
+  with fixed-cover flux cancellation, paid sources, and typed defects. No wall
+  is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycles 43-44 plus the fixed-cover field view strictly reduce the packet-custody issue to a whole-field Kato-current domination theorem for the selected stock, but the W7 moving-current admissibility, source trace control on \(Z(\omega_\phi)\), profile-independent crossing lower bound, and weak-limit defect routing are unproved.
+REMAINING: W3, W7, W8, W9.
