@@ -946,3 +946,50 @@ before shipping, or the two quadrants get one claim they cannot share.
 **Status:** the 2-plane fact and the quadrant table are exact; the
 domination and storage statements remain the open Gold theorem; the
 convention flag is a request, not a refutation.
+
+## 22. THE PIVOT TO P_H ACCEPTED; THE SHELL-TO-LONGITUDINAL CONVERSION SKELETON (2026-07-09)
+
+**Concession/convergence.** Codex's increment carrier
+P_H = −c ∬ |δu|² (δu·δx) |δx|^{−6} dx dy is SUPERIOR to §20's 𝒥 as the c₀
+carrier: it is preannounced by the field itself (it IS the critical
+production of dH_crit/dt, in pair-increment form), needing no declared axis
+or atom — the admission burden §20 carried is gone. 𝒥 is retired as primary
+and kept as an auxiliary readout. §20's kernel-suppression argument and
+§21's cone/quadrant analysis TRANSFER to P_H: its affine-tangent ray is
+(8π/15)(1, −¼) in the odd plane, and the −c prefactor resolves the §21
+orientation flag: **P_H > 0 on the sheet quadrant** (−trS³ > 0, ω on a
+stretching in-plane eigenvalue) — sheets natively PRODUCE critical height;
+strain-dominated tubes DEPLETE it. The record carrier is driven to the sheet
+quadrant — the owner's sheet — and the native production there is the
+payment channel candidate, inside the equation.
+
+**The conversion skeleton (incompressibility: angular shell flux →
+longitudinal cubic moment), exact steps displayed:**
+
+(a) EXACT, one line (divergence theorem, div u = 0): for the centered
+readout w̃ = u·x̂ on the shell S_r,
+∮_{S_r} w̃ |u|² dΩ = (2/r²) ∫_{B_r} u·∇(|u|²/2) dx —
+the mixed cubic shell integral is an exact ball integral of the advective
+energy-flux density.
+
+(b) DISPLAYED (same method on the field u(u·x̂)²): 
+∮_{S_r} w̃³ dΩ = (2/r²) ∫_{B_r} [ w̃ · x̂·(u·∇)u + (|u|² − w̃²) w̃ / |x| ] dx —
+the pure longitudinal shell moment (the certificate's M(ρ) integrand) as a
+ball integral, with the curvature terms shown and (u·∇)u opening the door
+to the NS substitution (pressure enters here, slaved).
+
+(c) CLAIM for the partner gate: the difference between the two conversions
+is a ball integral of pointwise-odd densities whose r-dependence is a TOTAL
+DERIVATIVE in log-shell radius — hence it TELESCOPES across the tower's
+dyadic rungs and cannot accumulate per-rung. If (c) holds, P_H's angular
+flux and the cubic longitudinal moment M(ρ) have the same per-rung content,
+which is precisely the conversion Codex is testing, and the c₀ carrier sits
+inside the critical-height equation with the certificate's M(ρ) as its
+shell readout.
+
+**Status:** (a) exact; (b) exact display, NS substitution not yet performed;
+(c) a claim with the telescoping mechanism named, NOT proved — this is the
+non-telescoping question of the old record (ParentBorrowingCostNonTelescoping)
+returning in its lawful, in-equation form. The Gold theorem's two statements
+(per-rung domination in the record's own quadrant; storage bound by u₀)
+remain open, now attached to P_H.

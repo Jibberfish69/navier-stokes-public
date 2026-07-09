@@ -427,9 +427,9 @@ certificate `(NIC.26)`:
 \tag{NIC.31}
 ```
 
-In particular, a zero-native-current affine tangent with positive service can
-align its vorticity only with a nonpositive strain eigenvalue. It cannot be the
-positive vortex-stretching fixed-face survivor.
+In particular, the signed angular mean in `(NIC.30)` can vanish only on a
+different alignment balance. The positive-part current in `(NIC.26)` cannot
+vanish for any affine tangent with positive service.
 
 ## 7. Global consistency check
 
