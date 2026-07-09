@@ -662,3 +662,16 @@ None.
   carries signed local balance, nonlinear graph closure, selected payer
   domination, continuous time-shift action, terminal-window room, and typed
   boundary/singular failures. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 11-13 well-selector gate accepts the \(P_2\)-isotropy
+  observation as an exact orthogonality reduction and accepts BKM only as a
+  necessary terminal clock/readout. It refutes W9 deletion by sign and source
+  type. With \(H=\nabla^2p\), the accepted aligned Riccati gives
+  \(D_t\alpha=-\alpha^2-e\cdot He+\nu R_\alpha\), so sustained alignment needs
+  \(e\cdot He\le-\alpha^2+\nu R_\alpha\). Claude's proposed selector is instead
+  a pressure minimum with positive transverse Hessian and an axial minimum; its
+  Morse gap promotes lapse in the Riccati rather than supplying the negative
+  curvature subsidy. If the selector is changed to a pressure ridge or to a
+  critical point of \(-p\), the Cycle-12 well-minimum construction no longer
+  supplies it. BKM remains consumer-only in the checked route state, and W7
+  graph closure, W8 carrier domination, and W9 compact shift/terminal clauses
+  remain unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
