@@ -3375,3 +3375,57 @@ the filed shear-cell degeneracies already show that it is not empty by
 ontology. What is unproved is that an arbitrary Gold failure must approach it.
 Consequently the theorem in §§1--6 is a conditional rigidity problem for an
 aligned subclass, not the one surviving object of the full Gold problem.
+
+## 53. ONE-FIELD DYADIC COUNTERSEQUENCE: H2 is not inherited from critical-height divergence (2026-07-09)
+
+Retain the complete Littlewood--Paley decomposition of one velocity field and
+write
+
+```math
+a_j(u)=2^j\|\Delta_j u\|_2^2,
+\qquad
+\|u\|_{\dot H^{1/2}}^2\simeq\sum_j a_j(u),
+\qquad
+\|u\|_2^2\simeq\sum_j2^{-j}a_j(u).
+\tag{G53.1}
+```
+
+For divergence-free unit `L^2` fields `phi_j` with disjoint narrow Fourier
+supports at `|xi|` comparable to `2^j`, define
+
+```math
+u^{(m)}=\sum_{j=1}^m
+\left(\frac{2^{-j}}{j}\right)^{1/2}\phi_j .
+\tag{G53.2}
+```
+
+Every `u^{(m)}` is a complete smooth finite-energy field, and orthogonality
+gives
+
+```math
+\sup_m\|u^{(m)}\|_2^2<\infty,
+\qquad
+\|u^{(m)}\|_{\dot H^{1/2}}^2\simeq\sum_{j=1}^m\frac1j\to\infty,
+\tag{G53.3}
+```
+
+while
+
+```math
+\frac{\sup_j2^j\|\Delta_j u^{(m)}\|_2^2}
+{\|u^{(m)}\|_{\dot H^{1/2}}^2}
+\lesssim\frac1{\log m}\to0.
+\tag{G53.4}
+```
+
+This is not asserted to be one Navier--Stokes trajectory. It is an exact
+counterexample to the functional implication used by H2: bounded `L^2`
+energy plus unbounded critical height does not yield a shell, still less a
+spatial atom, carrying a fixed fraction of the record. A dynamical theorem
+could in principle rule out this diffuse shell pattern along actual NS
+histories, but that theorem is absent from the corpus.
+
+Therefore the Gold-to-H2 reduction fails at its first concentration line,
+before H3 alignment or theorem-B rigidity is available. The aligned problem
+remains a conditional subclass test; it is not the exhaustive one-fluid
+remainder.
