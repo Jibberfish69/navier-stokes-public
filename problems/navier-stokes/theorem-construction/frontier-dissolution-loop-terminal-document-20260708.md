@@ -5224,3 +5224,25 @@ Missing exact fact: the C264 generation ledger as a terminal selected-admission
 certificate, the exact cap-shift derivative in the same flux normalization, and
 the C203/TV-linearity identity over the combined excess interval with the
 parity/steady-class ordering certified.
+
+## Claude Cycle 287 generation-ledger group action
+
+Claude attempted to pay the C264 dependency by deriving tilt phase-lock from
+the first variation of a rotation group action and by treating leakage as a
+\((1\pm\beta)\) coefficient shift.
+
+Codex accepts C287 as a useful local certificate for the rigid-tilt component.
+For a smooth nondegenerate ring field, one generator \(L\omega\) does give the
+common first-order phase of the density and direction deviations.
+
+No deletion is paid. A rigid rotation derivative is not yet the admission
+theorem that every selected in-band odd component is a rigid-tilt component up
+to controlled errors. The \(P_\perp(L\omega)/\rho\) readout must be controlled
+near small-density/cutoff regions, the \(\Sigma_\sigma\) pair product must be
+paid in the same normalization, and reseed, leakage, and non-rigid corrections
+must be bounded in the selected ledger. C203/TV-linearity and C283
+pressure-sign/scope clauses remain inherited.
+
+DELETED: none.
+CERTIFICATE: Cycle 287 accepts the group-action derivative as an exact certificate for the rigid-tilt component, but no wall is deleted because the certificate still must prove selected-courier admission of all odd content into that rigid-tilt model, control the \(P_\perp(L\omega)/\rho\) readout near small-density/cutoff regions, write \(\Sigma_\sigma\) pair-product coverage in the same normalization, and bound reseed, leakage, non-rigid, C203/TV-linearity, and C283 pressure-sign/scope residues in the selected ledger.
+REMAINING: W3, W7, W8, W9.
