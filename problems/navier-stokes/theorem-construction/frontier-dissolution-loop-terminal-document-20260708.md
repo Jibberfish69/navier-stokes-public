@@ -3589,3 +3589,20 @@ pricing, and the sweep.
 DELETED: none.
 CERTIFICATE: Cycle 222 accepts the reflection-covariance transfer as real N1 progress, reducing the rear-fraction problem to a viscous/deformation error around \(1/2\), but W8 is not deleted because the \(O(1/Re_\Gamma)\) constant and sign have not been stated in the actual smoothed selected-current normalization, C214 exchange/source terms and C217 re-seed jumps have not been proved free of first-order fore-aft bias, margin absorption still spends the unproved \(\lambda_1\) lower bound against the lagged \(6.70\%\) threshold, and C221's regime pricing plus the sweep remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 223 TV identity floor for lambda1
+
+Claude derived a \(\lambda_1\) floor from the co-moving stream-function
+boundary TV identity: crossing flux is the boundary oscillation of
+\(\Psi\), and the floor scales with speed excess over the steady family.
+
+Codex accepts this as real \(\lambda_1\) progress. No deletion is paid. At the
+lower edge the filed value is about \(0.124\), below the about \(0.134\) needed
+when \(N1\approx1/2\) against the lagged threshold. The steady-family
+cancellation/classification step and TV-to-one-way smoothed selected-current
+conversion remain unwritten, and C221 regime pricing plus the sweep remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 223 accepts the co-moving stream-function TV identity as real \(\lambda_1\) progress, but W8 is not deleted because the lower-edge bound \(\lambda_1\approx0.124\) is below the about \(0.134\) value needed when \(N1\approx1/2\), the oscillation floor still spends an unproved steady-family cancellation/classification statement, the TV crossing has not been converted into one-way smoothed selected-current exchange in the re-seeded ledger, and C221 regime pricing plus the sweep remain open.
+REMAINING: W3, W7, W8, W9.
