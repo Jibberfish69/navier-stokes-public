@@ -3564,3 +3564,54 @@ history must repeatedly create resolvent-weighted nonlinear acceleration at
 least at the viscous mean-frequency scale. No datum bound for `Q_m` is proved.
 The identity replaces the non-exhaustive H2 packet with a lawful global
 coordinate and gives Opus 4.8 one exact signed term to attack.
+
+## 53. THE LINEAGE ROUTE GATED (25-agent adversarial workflow, cross-verified): identities EXACT, lever WITHDRAWN three ways (2026-07-09)
+
+The owner-presented separation-energy lineage route was gated by a four-lens
+adversarial workflow with per-finding verification (25 agents, Opus-4.8). The
+verdict is unanimous and cross-verified: IDENTITY-ONLY-SURVIVES.
+
+**Exact and KEPT (the asset — owner's field/flux ontology as formulas).**
+All four identities re-derived independently from incompressible NS, no
+isotropy/homogeneity/statistical assumption (deterministic pointwise-in-h
+Kármán–Howarth–Monin family):
+- (I1) ∂_tE + ½∇_h·F + νD = 0 — pressure cancels at every fixed h from div-free
+  alone; ½ correct in the integral normalization. EXACT.
+- (I2) ∂_t𝓔(r) + ν𝓓(r) = Φ_in(r). EXACT (ball-integral corollary).
+- (I3) H_crit weight |h|^{−4} ↔ h/|h|⁶; P_H is exactly the flux part of
+  dH_crit/dt. EXACT (boundary terms vanish). Caveat kept: identifying this
+  weighted quantity with the ESS critical height is a route hypothesis.
+- (I4) D = 2[Z − Δ_hE]; (∂_t − 2νΔ_h)C = ½∇_h·F, C = ‖u‖₂² − E. EXACT.
+
+**WITHDRAWN (the lever) — fails three independent ways, any one sufficient.**
+- FACT-3 door: the no-recount inequality ν∫(D/E)dt ≥ 4Δρ + η is inf(bill/
+  service) — dissipation along a reified b-lineage billed against geometric
+  service 4Δρ, though (I1) binds F-transport and D-decay into ONE balance.
+  THE TELL fires: the repair DELETES the lineage split, returning to the
+  additive ratio-free budget (I2). CORRECTION to my §46-§51 read (workflow
+  caught it): κ = νD/E ITSELF is admissible — a single-field Rayleigh
+  quotient (D, E both readouts of one δ_hu at one h); the door violation is
+  the INEQUALITY, not the ratio. b = F/2E is the reified characteristic
+  (fact-2: F cubic sign-indefinite, b blows up where E→0).
+- Growing-Γ scaling kill: reparametrization-invariant to κ/|ρ̇| = 1/Re_Γ → 0
+  ≪ 4 on the record tower; descent speed cancels so the fast-return branch
+  cannot pay either. 4th instance of the three-kill pattern; = the filed
+  FRONT-RATIO NO (§49-50).
+- Exact affine counterexample: δ_hu = A(t)h is x-independent ⟹ D ≡ 0, κ ≡ 0;
+  a compress/decompress cycle with net Δu = 0 flatly violates the inequality
+  (LHS = 0). Lineage-no-return is FALSE as an exact structural statement of
+  NS, not merely unproven.
+
+**The escape disjunct is Gold restated.** With the hazard branch dead, the
+whole burden falls on "fast return creates a finite collar/source charge" =
+the finite-energy turn-off A→0 = the Gold theorem itself (contrapositive of
+no-return re-asserted; the only on-file collar result points the other way,
+the P4-free collar). The route RELOCATES Gold; it does not reduce it.
+
+**NET (cross-verified, coincides with Codex's independent withdrawal):** the
+lineage route = {(I1)–(I4) exact — KEEP} + {lineage/hazard/collar overlay —
+WITHDRAWN}. Gold remains open exactly where it was: the finite-energy turn-off
+A→0. Neither advanced nor dented by the overlay. Decisively closed: the
+lineage-no-return lever as a route. No closure claimed; the honest asset (the
+exact KHM identity family) is retained and is the correct shared coordinate
+for any further attempt.
