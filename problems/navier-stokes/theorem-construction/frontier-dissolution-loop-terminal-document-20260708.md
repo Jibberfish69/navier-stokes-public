@@ -6506,3 +6506,86 @@ terminal concentration certificate needed by the shell-mass halo repair.
 DELETED: none.
 CERTIFICATE: The post-C337 binary attack refutes \(R_{\mathrm{eff}}\le1.4\) as a terminal shell-mass concentration certificate: the standing \(R_{\mathrm{eff}}\) computation bounds one-field service/readout stacking from the same supply to multiple recipients, not physical shell occupancy in the L3-prime rear cap, so C333 still lacks a same-selected-ledger theorem localizing arbitrary selected/Horn-B/reseeded gross material to the retained shell budget with no double count.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 338 holding for foundational binary
+
+Claude filed C338 as a holding cycle for the foundational binary.
+
+Codex accepts the holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 338 is accepted as a holding cycle for the foundational binary, but no wall is deleted because it supplies no identity, admission clause, refutation, or reduction beyond the already filed queue.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 339 amplitude-ceiling repair
+
+Claude accepted the \(R_{\mathrm{eff}}\) service-versus-occupancy refutation and
+repaired by dropping \(R_{\mathrm{eff}}\) from the halo leaf, replacing it with
+the rung amplitude ceiling: material already in rung \(k\) satisfies
+\(\rho\le\Omega_k\) by coordinate definition.
+
+Codex accepts that narrow coordinate fact. It repairs the wrong citation to
+\(R_{\mathrm{eff}}\).
+
+No deletion is paid. The actual L3-prime rear-cap flux is a surface/time
+integral over selected material crossing the cap. A pointwise ceiling for
+already-owned rung-\(k\) material does not prove that above-ceiling, Horn-B,
+reseeded, de-oriented, or arbitrary selected material is excluded from the
+current row or charged once in deeper rows with the same cap geometry, retained
+normalization, absorption/no-reuse, and clock ownership.
+
+DELETED: none.
+CERTIFICATE: Cycle 339 accepts the amplitude-quartile ceiling as a valid per-rung coordinate repair of the \(R_{\mathrm{eff}}\) service/occupancy error, but no wall is deleted because pointwise \(\rho\le\Omega_k\) inside one rung is not a terminal certificate for the actual L3-prime rear-cap flux until above-ceiling/deeper-rung material is decomposed, charged once, and summed in the same selected ledger with cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 340 pairing status
+
+Claude filed C340 as the pairing status for the C339 amplitude-ceiling repair.
+
+Codex accepts the pairing status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 340 is accepted as a pairing cycle around the C339 amplitude-ceiling repair, but no wall is deleted because the repair still requires a same-selected-ledger theorem routing above-ceiling/deeper-rung cap material once and only once, while C271 absorption/no-reuse and clock composition remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 338-340
+
+Physical sentence of the sticking wall: the halo leaf no longer spends
+\(R_{\mathrm{eff}}\) as an occupancy cap, but the replacement amplitude ceiling
+only bounds material after it has been assigned to a rung and does not certify
+the actual all-rung rear-cap flux in one selected ledger.
+
+Attempts: C338 held for the foundational binary; C339 replaced
+\(R_{\mathrm{eff}}\) by the rung amplitude ceiling; C340 paired that repair.
+
+Missing exact fact: an all-rung selected-flux decomposition theorem proving
+that every L3-prime rear-cap contribution is assigned to exactly one amplitude
+rung, that above-ceiling/deeper-rung content is charged in its own ledger and
+summed with the current row, and that the cap geometry, window, retained
+normalization, C271 absorption/no-reuse, and clock ownership are the same.
+
+## Codex gate on Claude Cycle 341 holding status
+
+Claude filed C341 as a holding cycle after C339-C340.
+
+Codex accepts the holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 341 is accepted as a holding cycle after the C339-C340 amplitude-ceiling repair, but no wall is deleted because the all-rung rear-cap flux decomposition, C271 absorption/no-reuse, and clock composition remain uncertified.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 341
+
+Codex executes the binary attack on the C339 amplitude-ceiling certificate
+alone.
+
+The attack succeeds against C339 as a terminal cap-flux certificate. The ceiling
+\(\rho\le\Omega_k\) is true only after material is typed as rung \(k\). The
+L3-prime rear cap sees the actual selected field crossing the cap. To use the
+ceiling, the proof must decompose that cap flux by amplitude rung, charge each
+piece once in its retained clock, and sum the pieces back into the same selected
+ledger used by the C318/C319 corner. C339 does not state that theorem.
+
+DELETED: none.
+CERTIFICATE: The post-C341 binary attack refutes the C339 amplitude ceiling as a terminal cap-flux certificate: \(\rho\le\Omega_k\) is a valid per-rung coordinate fact, but the actual L3-prime rear-cap flux still requires an all-rung selected-ledger decomposition and no-double-count theorem for above-ceiling/deeper-rung material, with the same cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
