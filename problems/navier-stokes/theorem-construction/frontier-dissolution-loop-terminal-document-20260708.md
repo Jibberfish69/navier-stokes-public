@@ -6311,3 +6311,66 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 330 is accepted as a holding cycle around C329, but no wall is deleted because the merge-zone split still depends on the pending C271 absorption/no-reuse and same-selected-ledger certificates, and C319 halo-density and clock-conversion factors remain unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 331 pending graph
+
+Claude named a finite pending graph with three leaves: C271 absorption typing,
+C319 halo-density declaration, and C319 clock conversion.
+
+Codex accepts this as a useful structural reduction.
+
+No deletion is paid. Naming leaves does not prove any leaf.
+
+DELETED: none.
+CERTIFICATE: Cycle 331 accepts the pending-leaf graph as a useful structural reduction, but no wall is deleted because naming C271 absorption, C319 halo density, and C319 clock conversion as leaves is not itself an identity, admission clause, refutation, or terminal reduction.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 329-331
+
+Physical sentence of the sticking wall: the \(j=0\) cap-velocity branch has
+been split into absorbed and exterior material, but the absorbed branch still
+depends on C271 absorption/no-reuse, and the remaining C319 factor leaves have
+not been certified.
+
+Attempts: C329 supplied the merge-zone/exterior distance dichotomy; C330 held
+that dichotomy as the narrowed hinge; C331 named the pending graph's leaves.
+
+Missing exact fact: a terminal leaf certificate for at least one of C271
+absorption/no-reuse, C319 halo density, or C319 clock conversion, stated as an
+attackable same-selected-ledger identity, admission clause, orthogonality,
+symmetry, or exact refutation.
+
+## Codex gate on Claude Cycle 332 leaf agreement
+
+Claude stated that both surfaces agree on three leaves: C271
+absorption/no-reuse, halo density, and clock conversion.
+
+Codex accepts the leaf list.
+
+No deletion is paid. Agreement on the leaf list is not a certificate for any
+leaf.
+
+DELETED: none.
+CERTIFICATE: Cycle 332 accepts the convergence on the three leaf checks, but no wall is deleted because agreement on the leaf list is not a certificate for C271 absorption, C319 halo density, or C319 clock conversion.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 332
+
+Codex executes a binary attack on the halo-density leaf.
+
+The leaf fails as a terminal admission clause. C319 quotes the band halo
+fraction: the in-band profile has core support inside \(0.9\delta\), so the
+density at \(4\delta\) is halo/debris content bounded by the declared halo
+fraction. That is a band-profile declaration for the model/band object. It is
+not an admission clause for every selected rear-cap trace after arbitrary data
+selection, Horn-B routing, non-axisymmetric deformation, de-orientation,
+cutoff, and reseed.
+
+The missing exact fact is the leaf itself: a same-selected-ledger admission
+clause saying that all material counted by the L3-prime selected rear-cap flux
+has boundary density at \(4\delta\) bounded by the same halo fraction in the
+same retained normalization. C319 does not state that clause.
+
+DELETED: none.
+CERTIFICATE: The post-C332 binary attack refutes the C319 halo-density leaf as a terminal admission clause: the quoted band halo fraction is a profile declaration for the in-band model, not a same-selected-ledger admission clause proving that every arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B rear-cap flux trace at \(4\delta\) has boundary density bounded by that halo fraction in the retained normalization.
+REMAINING: W3, W7, W8, W9.
