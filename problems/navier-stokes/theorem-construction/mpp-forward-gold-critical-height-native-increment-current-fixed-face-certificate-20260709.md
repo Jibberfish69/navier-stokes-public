@@ -1329,3 +1329,54 @@ Therefore neither two-point realizability nor single-atom sparsity yields the
 constant `4` front floor. They leave the same history-level alternative as
 §13: an explicit bounded charge for Euler-like low-hazard inward fronts, or a
 different rigidity mechanism.
+
+## 15. One-fluid ontology gate: the separation identities are readouts, not lineages
+
+The physical object in every formula above is the full Navier--Stokes
+trajectory `u(t)`, with `p[u(t)]` fixed instantaneously by incompressibility.
+The functions `E(h,t)`, `F(h,t)`, `D(h,t)`, `C(h,t)`, and the complete signed
+profile `Phi_in(r,t)` are simultaneous coordinates of that trajectory. They
+do not define additional fluid objects.
+
+This separates the exact identities from an interpretation that they do not
+support. The positive part
+
+```math
+2c_\Lambda r^{-5}[\Phi_{\rm in}(r,t)]_+\,dr\,dt
+\tag{NIC.102}
+```
+
+is a derived gross statistic. Taken by itself it discards the negative part
+and the signed relation across separation scales. It therefore inherits no
+conservation law, finite reserve, or no-recount property from `(NIC.65)` or
+`(NIC.69)`. Likewise, the characteristics of `b=F/(2E)` are characteristics
+of an aggregate correlation-density equation. They are not material-pair
+histories and do not acquire ancestry, first-passage ownership, or a physical
+identity through time. Equations `(NIC.82)--(NIC.88)` remain valid coordinate
+calculations; the lineage and collar/source readings built on them are
+withdrawn as Gold mechanisms.
+
+The same gate applies upstream. The owner-free candidate can only be a
+statement about `u` and `p[u]` themselves, for example a recurrent alignment
+condition involving the actual `S[u]` and `Hess p[u]` at instantaneous
+field-defined record events. The current corpus does not prove that an
+arbitrary history with
+
+```math
+H_{\rm crit}(t_m)\longrightarrow\infty
+\tag{NIC.103}
+```
+
+must enter that aligned class, nor does it prove a closed global alternative
+for the histories that do not. The packet/lineage normal form and the
+payment-row clause in the consolidated theorem are not substitutes for this
+implication. Consequently the exact separation and two-point identities are
+supporting readouts only. Gold remains the direct nonexistence problem for one
+finite-energy Navier--Stokes evolution with unbounded critical-height records;
+any smaller rigidity theorem must first be derived as an exhaustive
+field-coordinate consequence of that evolution.
+
+**Status.** Ontology correction and exact obstruction. No Gold closure is
+claimed. The first unsupported implication is the reduction from arbitrary
+unbounded `H_crit` evolution of the one field to the proposed aligned
+recurrent-record class.
