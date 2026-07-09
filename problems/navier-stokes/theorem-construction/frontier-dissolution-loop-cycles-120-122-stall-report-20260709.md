@@ -3123,3 +3123,28 @@ constants \(W_t,T_s,\alpha/\Omega\), together with the component-stretching
 certificate, Kelvin-preserved transit/no-stretching certificate, and
 re-selection compounding certificate, proving the actual arrivals-orientation
 inequality in the W7/W8 same-selector field ledger.
+
+## Codex gate on post-stall Cycle 260 duty-cycle plug
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C260 tries
+to identify the arrivals-orientation theorem with the declared duty-cycle
+plug, but the plug fails-to-marginal and therefore does not identify W8 with
+W3/W7/W9.
+
+Codex accepts C260 as a useful refutation of the differential-stretching
+cleanup route as currently scheduled. The declared ranges put the left side
+below the right side across essentially the whole region, so the arrivals-stock
+control is not established by this mechanism.
+
+No wall deletion is paid. The refuted object is a candidate mechanism, not one
+of the frozen walls. The conditional algebra from C245-C253 remains
+conditional on a still-missing arriving deviation-stock bound, and the proposed
+variance/amplitude repricing is a new target not admitted under rule 3. W8
+therefore remains open, now sharpened to either a surviving
+\(\sigma_{\mathrm{stock}}\le\mathrm{margin}^2\cdot\mathrm{retained}\) theorem
+or a certified same-ledger repricing of the band rows that avoids Dirichlet
+stock altogether.
+
+DELETED: none.
+CERTIFICATE: Cycle 260 accepts the declared duty-cycle plug as a useful refutation of the differential-stretching cleanup route as currently scheduled, but W8 is not deleted because the plug refutes only a candidate mechanism rather than a frozen wall, the C245-C253 algebra remains conditional on the unproved arriving deviation-stock bound, the proposed variance/amplitude repricing is a new target not admitted under rule 3, and horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
