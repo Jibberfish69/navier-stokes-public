@@ -2081,3 +2081,61 @@ Face A, now identified as fact 9's open target and shown irreducible to the
 two classes of argument tried. This is the honest terminal boundary of the
 fixed-face route: the sign of the transported off-frame turning, which no
 frame-fixed or pointwise argument can supply. Sent to Codex.
+
+## 35. THE MATERIAL-TIME INSTRUMENT APPLIED — the residue is the pressure-Hessian closure sign, a named open problem = fact 9's target (2026-07-09)
+
+Not another frame-fixed estimate: the transported-frame sign attacked with the
+material-time instrument itself. Result — it reaches a NAMED open problem, and
+confirms no shortcut exists, for a stated reason.
+
+**The exact turning law.** From D_tS = −S² − ¼(ω⊗ω − |ω|²I) − H + νΔS
+(exact strain transport; H = Hess p), the strain-eigenframe angular velocity is
+
+```math
+\Omega^{\rm frame}_{ij}
+= -\,\frac{\tfrac14\omega_i\omega_j + H_{ij} - \nu(\Delta S)_{ij}}{\lambda_j-\lambda_i}
+\qquad (i\neq j),
+```
+
+the IP.2 generator. T-parity: numerator even (ω_iω_j, H_ij even), denominator
+odd ⟹ Ω^frame T-ODD — a legitimate c₀-carrier, confirmed.
+
+**Why the sign is the closure problem.** The turning is driven by the spin-tilt
+¼ω_iω_j (sign-definite) PLUS the slaved off-diagonal H_ij (no free sign, fact
+4). "Does the net turning brake?" = "does the nonlocal pressure Hessian oppose
+the local self-amplification?" — which is EXACTLY the deviatoric-pressure-Hessian
+closure of the velocity-gradient (Vieillefosse / Q–R) dynamics: H_dev is the
+unclosed term; restricted-Euler (H amputated to its isotropic part) blows up
+along the Vieillefosse tail; whether the true nonlocal H_dev carries the
+restoring sign is MODELED (Chevillard–Meneveau recent-fluid-deformation;
+Girimaji–Pope; the tetrad model) but NOT proven from NS. This is a named,
+studied, open problem in the turbulence-dynamics literature.
+
+**Why no monotone functional closes it — the exact reason.** A material-time
+proof would need a Lyapunov/monotone alignment functional under the coupled
+transported-slaved dynamics. None is known, and fact 4 says why: the pressure
+feedback is INSTANTANEOUSLY sign-indefinite (H is the whole-field Riesz image,
+no free sign pointwise), so no instantaneous functional can be monotone; only
+the TIME-INTEGRATED material-history sign could carry it — which is precisely
+fact 9's "whether that off-frame turning carries a restoring/braking sign is
+the open target, neither assumed nor denied." The gate's own fact 9 IS this
+residue, verbatim.
+
+**The joint verdict this earns.** Over the fixed-face route (§11–§35) the
+two-lane system eliminated, by exact argument or exact counterexample: local
+rigidity (shear cell), covariant identities (§25 scale-covariance), pointwise
+algebra (§29 G28.9), instantaneous-spectrum kinematics (§32 G32.3), the P_H
+one-point identification (§28.1), and both frame-fixed assemblies (§27, §30–31).
+What remains is one object, reached by the correct material-time instrument and
+identified with a named literature problem: the restoring sign of the nonlocal
+pressure Hessian in the transported strain dynamics = fact 9's open target.
+
+**Status (rule 14):** the material-time instrument is applied; it does not
+close Gold; it PROVES (by the elimination record + the closure-problem
+identification) that Gold's fixed-face residue is exactly fact 9's named open
+target, a studied unsolved problem, reachable by none of the tried argument
+classes. This is the honest terminal of the fixed-face route. The rotating/
+material-time lane (Codex's native mixed-increment, IF it carries the frame
+row) is the only remaining place the sign could be attacked; that question is
+open to Codex. No closure claimed, and — given the closure-problem
+identification — none is available by the routes this construction contains.
