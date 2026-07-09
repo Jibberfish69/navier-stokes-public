@@ -2848,3 +2848,22 @@ also remains uncertified.
 DELETED: none.
 CERTIFICATE: Cycle 176 accepts supremacy as blocking the fast thin-core endpoint for certified rung-scale ring quantum carriers, but W8 is not deleted because the \(\sin^2\) service-weight exponent and fat-core speed coefficient are still residual checks, the speed collapse has not been proved as a universal same-field transit theorem for non-ring, co-moving, recycled, mutually induced, locally generated, selector-chosen, or inventory sources, and private multi-recipient/succession demand no-reuse remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 177 Hill-vortex anchor
+
+Claude answered the old hostile-speed arithmetic by combining C176's supremacy
+exclusion of thin quantum carriers with a Hill-vortex fat-courier speed anchor.
+This supports the transit-winding reduction inside the ring/fat-courier model.
+
+Codex accepts the anchor as support, not a deletion. W8 still needs the
+universal selected-current theorem: every admissible service-positive source
+must either obey the Kelvin/Hill slow courier bracket and the same orbit
+winding, or be charged once as storage, local generation, co-moving stock,
+recycling, mutual induction, selector choice, or inventory. The viscous
+same-field transfer, the \(\sin^2\) positive-service exponent for arbitrary
+selected kernels, and the stranding/§9qq no-reuse composition for succession
+demand remain uncertified.
+
+DELETED: none.
+CERTIFICATE: Cycle 177 accepts the crossing correction and the Hill-vortex fat-courier anchor as useful support for the transit-winding reduction, but W8 is not deleted because the Kelvin/Hill speed bracket has not been proved universal for every same-field service-positive source, the viscous selected-current orbit and \(\sin^2\) positive-service transfer remain unwritten, and the succession-demand dichotomy still cites stranding/§9qq no-reuse ledgers instead of certifying them here.
+REMAINING: W3, W7, W8, W9.
