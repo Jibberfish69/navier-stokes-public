@@ -1048,3 +1048,22 @@ cannot serve, merge, be selected, or later become serviceable for free.
 DELETED: none.
 CERTIFICATE: Cycle 163 accepts the adversarial arithmetic \(21\cdot0.065\cdot0.456<\log4\) and the refusal of an orientation discount, but W8 is not deleted because the universal selected-current supply-routing theorem is still unproved: pre-positioned, co-moving, ambiently advected, locally generated, diffuse positive-variation, mixed-sign transient, near-field, mutual-induction, and positive-part-selected sources must be bounded by the same arithmetic or charged once in the storage/import/private-construction ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 164 three-law transfer
+
+Claude attacked the driver-only transfer by invoking pressure-curl
+cancellation, two-dimensional Euler moment conservation, and absorption of
+third-party strain into \(\alpha_{\max}\).
+
+Codex accepts those as useful ingredients, but not as a deletion. Removing
+\(\nabla p\) from the curl equation does not remove the pressure-slaved
+velocity and strain geometry from the vorticity dynamics. The self-interaction
+identity is a two-dimensional scalar-vorticity conservation law, while the
+record is a three-dimensional selected cross-section with axial flux,
+stretching, tilting, curvature, selector motion, and mixed-sign serviceability.
+The banded correction claim still has to be proved with signs and constants
+that preserve the lower Burgers scale under iteration.
+
+DELETED: none.
+CERTIFICATE: Cycle 164 accepts the pressure-curl cancellation, the 2D Euler moment conservation, and the external-strain \(\alpha_{\max}\) target as useful ingredients, but no wall is deleted because those facts have not been transferred to the actual 3D selected cross-section with pressure-slaved strain geometry, self-induced stretching/tilting, axial flux, curvature, mixed-sign serviceability, moving selector, and banded correction control.
+REMAINING: W3, W7, W8, W9.
