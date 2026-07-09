@@ -5262,3 +5262,96 @@ certificate needed by C333's shell-mass halo repair.
 DELETED: none.
 CERTIFICATE: The post-C337 binary attack refutes \(R_{\mathrm{eff}}\le1.4\) as a terminal shell-mass concentration certificate: the standing \(R_{\mathrm{eff}}\) computation bounds one-field service/readout stacking from the same supply to multiple recipients, not physical shell occupancy in the L3-prime rear cap, so C333 still lacks a same-selected-ledger theorem localizing arbitrary selected/Horn-B/reseeded gross material to the retained shell budget with no double count.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 338 holding for foundational binary
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C338 offers
+no new cross-wall identification beyond the standing foundational queue.
+
+Codex accepts C338 as holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 338 is accepted as a holding cycle for the foundational binary, but no wall is deleted because it supplies no identity, admission clause, refutation, or reduction beyond the already filed queue.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 339 amplitude-ceiling repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C339 repairs
+the post-C337 \(R_{\mathrm{eff}}\) failure by dropping \(R_{\mathrm{eff}}\)
+from the halo leaf and using the rung amplitude ceiling instead.
+
+Codex accepts the narrow coordinate fact. For material already admitted to rung
+\(k\), the rung coordinate gives a pointwise amplitude ceiling
+\(\rho\le\Omega_k\). That repairs the specific service-versus-occupancy error.
+
+No deletion is paid. The terminal certificate now depends on the all-rung
+selected-flux theorem hidden in the above-ceiling/deeper-rung routing. The
+actual L3-prime rear-cap flux is a surface/time integral over whatever selected
+material crosses the cap. A pointwise ceiling inside one already-owned rung
+does not by itself prove that all above-ceiling, Horn-B, reseeded, de-oriented,
+or arbitrary selected cap content is excluded from the current row or charged
+once in deeper rows with the same cap geometry, window, retained normalization,
+absorption/no-reuse, and clock ownership.
+
+DELETED: none.
+CERTIFICATE: Cycle 339 accepts the amplitude-quartile ceiling as a valid per-rung coordinate repair of the \(R_{\mathrm{eff}}\) service/occupancy error, but no wall is deleted because pointwise \(\rho\le\Omega_k\) inside one rung is not a terminal certificate for the actual L3-prime rear-cap flux until above-ceiling/deeper-rung material is decomposed, charged once, and summed in the same selected ledger with cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 340 pairing status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C340 offers
+no new cross-wall identification beyond the C339 amplitude-ceiling repair.
+
+Codex accepts the pairing status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 340 is accepted as a pairing cycle around the C339 amplitude-ceiling repair, but no wall is deleted because the repair still requires a same-selected-ledger theorem routing above-ceiling/deeper-rung cap material once and only once, while C271 absorption/no-reuse and clock composition remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 338-340
+
+Physical sentence of the sticking wall: the halo leaf no longer spends
+\(R_{\mathrm{eff}}\) as an occupancy cap, but the replacement amplitude ceiling
+only bounds material after it has been assigned to a rung and does not certify
+the actual all-rung rear-cap flux in one selected ledger.
+
+Attempts: C338 held for the foundational binary; C339 replaced
+\(R_{\mathrm{eff}}\) by the rung amplitude ceiling; C340 paired that repair.
+
+Missing exact fact: an all-rung selected-flux decomposition theorem proving
+that every L3-prime rear-cap contribution is assigned to exactly one amplitude
+rung, that above-ceiling/deeper-rung content is charged in its own ledger and
+summed with the current row, and that the cap geometry, window, retained
+normalization, C271 absorption/no-reuse, and clock ownership are the same.
+
+## Codex gate on post-stall Cycle 341 holding status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C341 offers
+no new cross-wall identification beyond C339-C340.
+
+Codex accepts C341 as holding status. No deletion is paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 341 is accepted as a holding cycle after the C339-C340 amplitude-ceiling repair, but no wall is deleted because the all-rung rear-cap flux decomposition, C271 absorption/no-reuse, and clock composition remain uncertified.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after post-stall Cycle 341
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C339 tries to
+identify the rear-cap density/shell factor with the amplitude-quartile ceiling
+of the rung coordinate.
+
+Codex executes the binary attack on the C339 certificate alone. The attack
+succeeds against C339 as a terminal cap-flux certificate.
+
+The ceiling \(\rho\le\Omega_k\) is true only after a piece of material has been
+typed as belonging to rung \(k\). The L3-prime rear cap sees the actual
+selected field crossing the cap. To use the amplitude ceiling in the flux row,
+the proof must exhibit a disjoint decomposition of that cap flux by amplitude
+rung, with each term charged once in its own retained clock and then summed
+back into the selected ledger used by the C318/C319 corner. C339 does not state
+that theorem.
+
+DELETED: none.
+CERTIFICATE: The post-C341 binary attack refutes the C339 amplitude ceiling as a terminal cap-flux certificate: \(\rho\le\Omega_k\) is a valid per-rung coordinate fact, but the actual L3-prime rear-cap flux still requires an all-rung selected-ledger decomposition and no-double-count theorem for above-ceiling/deeper-rung material, with the same cap geometry, retained normalization, C271 absorption/no-reuse, and clock ownership.
+REMAINING: W3, W7, W8, W9.
