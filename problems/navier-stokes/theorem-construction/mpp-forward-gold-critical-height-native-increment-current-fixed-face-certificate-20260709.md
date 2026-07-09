@@ -1847,3 +1847,107 @@ the `Q_m` magnitude does not converge to the zero-spread rigidity class. These
 fields are not claimed to be snapshots of one common trajectory. Excluding
 them along a putative Gold history requires a new complete-history theorem;
 zero-spread rigidity and the `Q_m` magnitude condition do not supply it.
+
+## 20. Complete-history moment gate: exact occupancy, no peak bound
+
+Set
+
+```math
+R(t):=M_1(t)=\|u(t)\|_{\dot H^{1/2}}^2,
+\qquad
+E(t):=M_0(t)=\|u(t)\|_2^2.
+\tag{NIC.141}
+```
+
+The energy identity and Cauchy--Schwarz in the spectral measure give
+
+```math
+E'=-2\nu M_2,
+\qquad
+R^2=M_1^2\le M_0M_2.
+\tag{NIC.142}
+```
+
+Consequently
+
+```math
+-\frac d{dt}E^2
+=4\nu E M_2
+\ge4\nu R^2,
+\tag{NIC.143}
+```
+
+and hence
+
+```math
+\boxed{
+4\nu\int_0^T R(t)^2dt
+\le E(0)^2-E(T)^2
+\le E(0)^2.
+}
+\tag{NIC.144}
+```
+
+In particular,
+
+```math
+\big|\{t\in[0,T]:R(t)\ge K\}\big|
+\le\frac{E(0)^2}{4\nu K^2}
+\qquad(K>0).
+\tag{NIC.145}
+```
+
+This is an exact datum-bound statement about the complete time history of the
+one field. It limits how long a high critical record can persist, but allows
+arbitrarily high records on correspondingly short intervals.
+
+There is also an exact record-time acceleration law. Since `m=R/E`,
+
+```math
+m'
+=\frac{R'}E+2\nu m\frac{M_2}{E}.
+\tag{NIC.146}
+```
+
+Whenever `R'>=0`, Jensen's inequality gives
+
+```math
+\boxed{m'\ge2\nu m^3,}
+\tag{NIC.147}
+```
+
+and therefore, on any uninterrupted record-upcrossing interval starting at
+`t_0`,
+
+```math
+\frac1{m(t)^2}
+\le
+\frac1{m(t_0)^2}-4\nu(t-t_0).
+\tag{NIC.148}
+```
+
+Thus the interval must end or lose smoothness within
+`1/(4 nu m(t_0)^2)`. This is compatible with the alleged finite-time breakdown;
+it does not exclude it.
+
+Exact Navier--Stokes scaling shows why no positive scale-independent dwell time
+comes from these rows. If `U` has a strict critical upcrossing on `[0,tau]`,
+then
+
+```math
+U_\lambda(t,x)=\lambda U(\lambda^2t,\lambda x)
+\tag{NIC.149}
+```
+
+has the same critical-height history compressed into
+`[0,lambda^{-2}tau]`, while its `L^2` energy is multiplied by `lambda^{-1}`.
+This compares complete smooth solutions; it does not build one recurrent
+tower.
+
+**Consequence.** The complete-history information available from energy,
+radial spectral moments, and record monotonicity is `(NIC.144)--(NIC.148)`.
+It forces high records into summably short epochs and is fully compatible with
+the NS scaling. Therefore the spectral-moment route stops at an occupancy
+bound, not a peak bound. Closing Gold requires a signed one-field history fact
+that these radial moments discard; neither `Q_m` nor Leray occupancy supplies
+it.
