@@ -1781,3 +1781,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 105 conditionally closes the within-episode drift sub-obstruction by the outgrowth log-yield cap; banked constants, fixed-capacity routing, \(N_{\max}\) admission, and the final finite-service inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 106 global-ledger move is accepted as the right
+  simplification candidate. If a finite global positive stock exists in the
+  same stock currency, threshold-crossing assignment events need not be counted
+  as stock-boundary flux; local service can be bounded by global stock while
+  collection happens at the service site. It is not yet a certificate. The
+  proof must define the global stock as a finite original-data quantity or
+  finite admitted current, including frame/component, sign convention, cutoff,
+  overlap multiplicity, and weak-limit representative. The local collection row
+  must prove each unit of service decreases this same global stock or is
+  charged to pump/route. The "no import row globally" simplification removes
+  local import bookkeeping only after global-stock finiteness and selected
+  no-recount are proved. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 106 replaces local assignment/import bookkeeping by a candidate global-stock ledger; global-stock finiteness/admission, local collection against that stock, pump/route accounting, no-recount, and final inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
