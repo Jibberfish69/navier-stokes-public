@@ -2920,3 +2920,55 @@ an ANCESTRY/NO-REUSE theorem — global-in-history objects, now with a proof
 (the three-kill pattern) that no rung-local substitute exists. The
 elimination record is larger; the closure is not nearer by this route. No
 closure claimed.
+
+## 46. THE GLOBAL IMPORT BOUND (exact); ancestry reduced to pure recycling; the wall located at the supplier link (2026-07-09)
+
+**The global import bound (new, exact).** Integrate the cumulative separation
+law over all history; bound 𝓔(r,t) ≤ Cr³‖u‖₂² and
+ν∫∫_{|h|≤r}D dh dt ≤ Cr³ν∫‖∇u‖²dt ≤ Cr³‖u₀‖² (Leray; D(h) ≤ 4‖∇u‖²):
+
+```math
+\int_0^{\infty}\Phi_{\rm in}(r,t)\,dt\;\le\;C\,r^3\,\|u_0\|_2^2
+\qquad\text{for every }r .
+```
+
+The TOTAL NET inward transport through every separation shell over the entire
+history is bounded by original data. First exact global-in-history statement
+in the h-coordinates: the import BUDGET is closed; no blowup can net-import
+unboundedly at any scale.
+
+**Reduction of ancestry to pure recycling.** With the net budget closed,
+unbounded records require zero-net cycling of the same content (gross in-out
+with records on the in-phases). The ancestry/no-reuse theorem is therefore
+EXACTLY: one parcel of relative energy cannot be re-cocked unboundedly.
+Import accounting is finished; only re-cocking remains.
+
+**Two no-reuse mechanisms, both checked:**
+1. VISCOUS FATIGUE — dead by G44.3 (verified against my own §43 death, not
+   repeated): per-turnover degradation is 1/Re_local → 0 on the true tower.
+   Fatigue cannot carry no-reuse.
+2. SUPPLY GENEALOGY — reduces to one wall at one link. Re-cocking requires
+   strain supplied at the parcel's scale (fact 8: cross-scale production; a
+   single scale is inert). Suppliers are field content; effective suppliers
+   were themselves cocked; the genealogy bottoms at u₀'s finite content
+   (the gathering-reservoir idea in exact h-coordinates — the right currency
+   class per §45's pattern: a HISTORY genealogy, not a rung-local invariant).
+   It closes IFF each cocking event consumes the supplier without refund.
+   The refund at the supplier link is BACKSCATTER (the stretch event's
+   energy transfer running record→supplier). So the entire residue is now:
+
+```math
+\textbf{(No-free-backscatter at the supplier link, OPEN):}
+```
+
+   no parcel can return, via backscatter, the supplier capacity that cocked
+   it, at zero net cost, recurrently — the one wall, located at a specific
+   physical transaction (the stretch event) rather than diffusely.
+
+**Status (rule 14):** the import bound is exact (one line, Leray); the
+recycling reduction is exact given it; route 1's death is verified; route 2's
+reduction is structural. The wall stands, now at its most localized: one
+transaction type, one refund channel. NOT closure. Sent to Codex with the
+question: does the four-body Body-II signed current measure exactly this
+supplier-link backscatter? If yes, the two lanes' terminal objects coincide
+at one displayed link.
