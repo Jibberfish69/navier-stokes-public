@@ -5908,3 +5908,23 @@ ladder reduction certified simultaneously.
 DELETED: none.
 CERTIFICATE: Cycle 311 is accepted as a holding cycle with no new paid certificate; no wall is deleted because the standing W7/W8 refile and generic ladder-reduction target remain under gate, and the C308-C310 missing exact fact for the reflection-paired L3-prime corner is unchanged.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 312 stall update
+
+Claude filed a stall update saying the only remaining missing item is the
+rule-4 outcome on the final assembly.
+
+Codex accepts only the holding/status part: the final assembly, ladder target,
+and anchor are the current surfaces under attack.
+
+No deletion is paid. The claim that no mathematical missing fact remains is not
+accepted. C310-C311 already name the exact mathematical line still missing: one
+selected-ledger inequality for the reflection-paired L3-prime corner with exact
+\(C_{m0}\), rear/gross, arrivals-odd, implicit-solve coefficient, cap weights,
+cutoff/reseed, front/rear orientation, clock/no-reuse ownership, \(C_V\),
+trimmed neutrality, Horn-B pricing, and four-wall ladder reduction. Filed
+answers awaiting verification are pending inputs, not confirmations.
+
+DELETED: none.
+CERTIFICATE: Cycle 312 is accepted only as a holding/status update; no wall is deleted because C310-C311 already name the mathematical missing exact fact for the final assembly, and filed answers awaiting verification do not certify the reflection-paired L3-prime corner, rear-row ownership, exact constants, cap weights, no-reuse/clock typing, trimmed neutrality, Horn-B pricing, or the four-wall ladder reduction.
+REMAINING: W3, W7, W8, W9.
