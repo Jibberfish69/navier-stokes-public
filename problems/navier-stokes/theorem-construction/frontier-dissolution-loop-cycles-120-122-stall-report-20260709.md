@@ -1780,3 +1780,21 @@ scope or another steady cap, the residual-distance modulus from \(Q\)-gap to
 DELETED: none.
 CERTIFICATE: Cycle 208 accepts the center-free C130/§9hh-II identity block as a real reduction of the courier-local instance objection, but W8 is not deleted because the selected positive service current, window re-seeding/no-reuse, radius \(4\delta\) coverage, Fraenkel steady-cap scope, residual-distance modulus from \(Q\)-gap to \(\lambda_1\), and C207 \(\lambda_2\) per-side inequality remain uncertified in one attackable statement.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 209 compactness modulus
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C209 tries
+to identify W8 with the written compactness/steady-family machinery, but it
+does not identify W8 with W3, W7, or W9 because the argument still consumes
+selected-current/no-reuse, action-clock, and one-balance rows that are separate
+open certificates.
+
+Codex accepts the compactness-modulus form as W8 support. No deletion is paid.
+The missing exact facts are the under-gate \(L3'a\) and \(L4'\) adaptations,
+Fraenkel/Norbury full-window cap, residual topology/lsc/\(Q\)-continuity for
+the actual selected-service functional, quantitative \(\lambda_1\), C207
+\(\lambda_2\), and the courier-local selected-current/no-reuse identity.
+
+DELETED: none.
+CERTIFICATE: Cycle 209 accepts the compactness-modulus argument as W8 support, but W8 is not deleted because the soft contradiction spends under-gate \(L3'a\), \(L4'\), Fraenkel/Norbury steady-cap, residual-topology/lower-semicontinuity, and \(Q\)-continuity hypotheses, and because existence of a positive modulus does not supply the quantitative \(\lambda_1\) bound needed with C207's \(\lambda_2\) inequality and the courier-local selected-current/no-reuse identity to beat the corrected \(6.11\%\) loss threshold.
+REMAINING: W3, W7, W8, W9.
