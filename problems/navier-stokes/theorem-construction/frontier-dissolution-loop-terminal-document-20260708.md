@@ -1750,3 +1750,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 103 conditionally accepts the single-signed profile conversion and weaker-floor arithmetic update; retained sign/profile admission and the full final inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 104 move to the discrete episode ledger is accepted as the
+  right repair for the normalized-dividend artifact. The continuous normalized
+  ODE is not the proof form once the \(+\frac12s\,dX/d\tau\) row is visible.
+  C104 is still not a deletion certificate. The fixed-cover assignment
+  \(\mathrm{tier}(t)=\bigcup\{Q_i:Q_i\cap\{|\omega|\ge\Omega(t)/2\}\ne
+  \emptyset\}\) does not make all assignment changes fixed-face flux: cells can
+  enter or leave because the threshold moves or \(|\omega|\) crosses the
+  threshold inside a fixed cell. Those threshold-motion terms still need
+  source/route measures and W7/W8/W9 currency. The episode inequality also
+  needs \(N_{\max}\) in one unit system and a within-episode scale-drift bound
+  showing no dividend leaks before repricing. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 104 replaces the final target by the discrete episode proof form; selected-union assignment law, threshold-motion routing, within-episode drift, \(N_{\max}\) conversion, and final finite-service inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
