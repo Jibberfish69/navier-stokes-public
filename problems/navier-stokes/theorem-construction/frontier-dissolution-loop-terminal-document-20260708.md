@@ -594,3 +594,15 @@ None.
   distribution of \(D_u(Q_r^\Phi(a,t))\) across labels, times, and scales. W3
   remains the terminal moving-dissipation modulus/rate or typed route-out
   burden.
+- The spacetime-current field-view gate corrects one presentation assumption in
+  the W9 residue. A material-time BV/equicontinuity path topology is sufficient
+  but not necessary: if the selected \(c_0\)-bearing record is realized as one
+  fixed-window spacetime certificate current with uniformly bounded/tight
+  measure and distribution rows, then weak-star/distribution compactness gives a
+  compact hull and fixed time-shift pullback is continuous on that hull. The
+  instantaneous-state \(S^1\) future-germ obstruction disappears because the
+  state is the whole spacetime current. This is a strict recoordination
+  reduction only. Current sources do not prove the common current realization
+  with W3 row admission/rung-uniformity, W7 nonlinear graph closure or
+  route-out, W8 selected-linear payer construction, W9 terminal-window and
+  zero-surplus rows, plus typed boundary/singular failures.
