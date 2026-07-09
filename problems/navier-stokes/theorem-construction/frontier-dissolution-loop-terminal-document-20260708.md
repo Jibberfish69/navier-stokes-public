@@ -2092,3 +2092,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 128 reduces the range-envelope gap to uniform mint-neighborhood transport/strain bounds, compact selected-loop envelope, boundary/length/selector routing, and range/event currency matching; the shrinking-class envelope is not yet a deletion certificate.
 REMAINING: W3, W7, W8, W9.
+- The Cycle 129 currency-orthogonality move is accepted only as a conditional
+  reduction. Manufacture may be circulation-priced, re-service mass-priced, and
+  refinement inventory-priced without a conversion rate, but only after an exact
+  three-row event partition is proved. The partition still has to classify
+  partial roll-up, aborted roll-up, merger/coarsening, re-release,
+  roll-up-while-stretching, simultaneous overlapping mints, service during
+  manufacture, and selector exchange. The manufacture count also depends on
+  material exclusivity and the C128 range budget; the re-service count still
+  depends on the C120 event floor. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 129 accepts currency orthogonality as a conditional reduction, but the three-row partition, material exclusivity, range budget, threshold match, and re-service event floor remain unproved; no conversion-rate deletion is confirmed.
+REMAINING: W3, W7, W8, W9.
