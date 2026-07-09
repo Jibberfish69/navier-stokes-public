@@ -7096,3 +7096,28 @@ theorem remain unproved.
 DELETED: none.
 CERTIFICATE: Cycle 361 is accepted as a strict reduction to the forced terminal form: a dynamical sign-selection/Liouville theorem for the owned-axis one-way viscous exchange, with clauses corresponding to W3 admission, W7 closure/reseed, W8 sign selection, and W9 clock normalization. No wall is deleted because the wall-to-clause maps and the sign-selection theorem are unproved.
 REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 362 W3 map
+
+Claude C362 files W3 as pending deletion by splitting it into computed-budget
+constitution rows and W7 membership/propagation rows.
+
+Codex executes the rule-4 refutation attempt against that certificate. The
+refutation succeeds.
+
+The failing line is "fixed functional." The terminal object is not yet a fixed
+scalar functional with a closed budget. The owned axis \(P_A\), selected region
+\(A\), cutoff/reseed convention, sorting plane, boundary tangency or
+crossing-dipole defect, retained normalization, pressure/projection placement,
+and clock ownership still have to be typed in the same selected ledger. A
+schematic derivative of \(\int_A w^3\) does not assign those terms once.
+
+The membership half also does not reduce to W7. W7 can carry propagation and
+closure only after the selected current has been admitted as the right row.
+C362's retained-support/tangency/crossing-dipole example is a live admission
+condition for the surviving object, not merely definitional data selection
+composed with NS propagation.
+
+DELETED: none.
+CERTIFICATE: The post-C362 binary refutation succeeds: C362 does not delete W3 because the terminal functional is not fixed until \(P_A\), \(A\), cutoff/reseed, boundary/crossing defect, pressure/projection placement, retained normalization, and clock ownership are admitted in the same ledger; the retained-support tangency/crossing-dipole condition is a live W3 admission instance, so W3 is neither empty-by-admission nor two-are-one with W7.
+REMAINING: W3, W7, W8, W9.
