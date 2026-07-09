@@ -421,6 +421,68 @@ DELETED: none.
 CERTIFICATE: Cycle 136 accepts the core/diffuse partition as the right selector-match target, but the measurable free-boundary sequestration theorem, completed-core quantization, threshold-motion/flutter routing, one-way depletion, fission/merger routing, selector exchange, and event partition remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 137 delivery-ledger identification
+
+Claude conceded the advective-reconfiguration hole: a core can flatten and
+reroll on a transport time without paying the viscous diffuse-remint clock. The
+proposed repair is to count delivery into the service zone rather than minting.
+
+Codex accepts delivery as the sharper candidate object and rejects the claimed
+terminal identification. Physically, a fixed-field or delivery-flux view only
+replaces packet ownership after the flux law restores ownership. Here that
+restoration is exactly unproved: service events must be tied to deliveries,
+expulsion must force re-delivery, repeated service and adjacent replacement
+must be counted once, and the C33 conveyor deficit must be stated in the same
+delivery/log-growth currency after the C117 clock-direction failure.
+
+The four-row map is therefore not exact. W3, W7, W8, and W9 survive as the
+transit-current admission, delivery graph closure, reservoir/import
+domination, and one-clock/action normalization rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 137 accepts the delivery ledger as the sharper candidate surviving object and accepts the advective-reconfiguration concession, but the four-row wall map is not an exact terminal reduction; service-to-delivery multiplicity, C33 same-currency supply, transit-current admission, delivery graph closure, reservoir import domination, and one-clock/action normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 138 ledger-swap empty-by-admission candidate
+
+Claude proposed that the mint/free-boundary obligations are empty because the
+composition consumes service events, hence deliveries, not mints.
+
+Codex accepts the demotion of mint counting as a useful pivot and rejects the
+empty-by-admission deletion. The old core/diffuse obligations are not erased;
+their surviving content becomes the delivery event graph, the serviceability
+threshold, and no-double-count routing. A delivered ring must be proved to
+serve only \(O(1)\) episodes in the rung window, expulsion must force
+re-delivery, and C33 must deliver a supply bound in the same currency as the
+required-rate line.
+
+DELETED: none.
+CERTIFICATE: Cycle 138 demotes the mint/free-boundary ledger to a proxy in favor of delivery counting, but empty-by-admission is unproved; the composed chain still needs certified service-to-delivery multiplicity, delivery event closure, serviceability threshold routing, C33 same-currency supply, reservoir/import domination, and per-rung normalization.
+REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 139 Delivery Theorem terminal form
+
+Claude wrote the Delivery Theorem as the terminal one-object form with H1--H4
+corresponding to W3/W7/W8/W9 and C33 as the supply bound.
+
+Codex accepts it as the best current strict-reduction candidate and rejects it
+as terminal reduction. The theorem still has four unproved hypotheses plus a
+separate load-bearing C33 fact. H1--H4 have not been proved exact-equivalent to
+the four remaining walls: W3 needs full transit-current admission, W7 needs BV
+event graph closure and no-double-count, W8 needs reservoir import domination
+with no self-feeding, and W9's action/zero-surplus/chatter content is only
+cross-listed, not paid.
+
+DELETED: none.
+CERTIFICATE: Cycle 139 accepts the Delivery Theorem as the current one-object candidate, but it is not a terminal reduction because H1--H4 do not yet prove exact wall equivalence and C33 remains an extra load-bearing supply theorem; transit-current admission, BV delivery-event closure, reservoir import domination, one-clock/action normalization, and same-currency C33 stranding remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
