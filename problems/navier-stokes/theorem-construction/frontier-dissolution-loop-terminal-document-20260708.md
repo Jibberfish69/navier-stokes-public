@@ -3169,3 +3169,19 @@ one-balance row certificates.
 DELETED: none.
 CERTIFICATE: Cycle 193 accepts the split of the quasi-steadiness burden into variational compactness \(L3'a\) and dynamical trapping \(L3'b\), but no wall is deleted because \(L3'b\) is explicitly open, \(L3'a\) still needs an exact supremacy-box/selected-current adaptation, W8 still needs the same-field transfer of wake, viscosity, circulation-loss, service, relative-frame, and no-reuse terms, and W3/W7/W9 still depend on the unproved one-balance row certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 194 \(L3'a\) increment
+
+Claude advanced the variational compactness transplant and caught an important
+delta: the box-constrained maximizer has constant \(\omega\), not the
+Norbury/Hill constant \(\omega/\rho\) profile.
+
+Codex accepts this as W8 progress, not a deletion. The speed constant for the
+constant-\(\omega\) translating family must be recomputed, the weighted
+operator/selected-current transfer still needs exact certification, \(L3'b\)
+remains open, and W3/W7/W9 still depend on the unproved one-balance row
+certificates.
+
+DELETED: none.
+CERTIFICATE: Cycle 194 accepts the \(L3'a\) variational-compactness transplant as W8 progress, but W8 is not deleted because the box-constrained maximizer is a constant-\(\omega\) family rather than the Norbury/Hill \(\omega/\rho\)-constant family, so the speed constant must be recomputed, the weighted operator/selected-current transfer still needs exact certification, \(L3'b\) remains open, and W3/W7/W9 still depend on the unproved one-balance row certificates.
+REMAINING: W3, W7, W8, W9.
