@@ -2362,3 +2362,16 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 148 accepts the length-dyadic convention as the right repair of the C146 factor error, but H4 is not paid until every rung-window, yield, and clock statement is propagated to the same \(\Delta X=\log 4\) convention; H3 remains open because the C130 signed fixed-loop identity does not by itself charge positive-variation gathering, roll-up, merger, selector change, or sub-quantum aggregation in W8 delivery currency.
 REMAINING: W3, W7, W8, W9.
+- Cycle 149 attacks W3/H1' directly by saying its four components are either
+  written theorem, safe direction, or unconsumed audit rows. The deletion fails.
+  Zone-frame lawfulness still spends the unconfirmed §9gg/§9hh relative-
+  velocity/current theorem and jump-reseating/no-double-count rule.
+  Serviceable-sign orientation is still selected-current admission, not merely
+  a safe inequality direction. The audit claims are contradicted by the current
+  certificate: the Delivery theorem and C140--C145 still consume σ/source caps,
+  typed discharge/destruction, residence, collar threshold/discharge, and
+  frame/sign rows. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 149 refutes H1' empty-by-admission; zone-frame lawfulness still spends the unconfirmed §9gg/§9hh relative-velocity/current theorem, serviceable-sign orientation remains a selected-current W3 admission, and the claimed σ-source/discharge non-consumption is contradicted by the current Delivery, C140--C145 source, discharge, residence, and frame/sign rows.
+REMAINING: W3, W7, W8, W9.
