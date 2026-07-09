@@ -5012,3 +5012,43 @@ non-courier cap velocity for arbitrary selected, Horn-B, non-axisymmetric,
 de-oriented, reseeded material, with exact constants, no double count, and the
 same L3-prime cap/window/clock normalization; plus the still-open C319 halo
 density and clock-conversion factors.
+
+## Codex gate on post-stall Cycle 329 merge-zone dichotomy
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C329 tries
+to pay the \(j=0\) coverage residual by splitting every non-courier vorticity
+element into merge-zone absorbed material or exterior separated material.
+
+Codex accepts the distance dichotomy. A given vorticity element is either
+inside the declared merge zone or outside it, and the exterior branch is the
+right place for the C267 dyadic/tidal estimate.
+
+No deletion is paid. The inside branch is not empty by definition; it is
+charged to C271's gross-ledger absorption typing. That typing was explicitly
+left under gate: the proof still has to show that merge-zone material cannot
+both contribute to the cap velocity as an independent serviceable supplier and
+be absorbed into the courier budget, and that the absorption event is counted
+once in the same selected membership/gross ledger with the W7/W8/W9 ownership
+rows intact. For arbitrary supports and tails, the exterior \(C_{\mathrm{BS}}\)
+estimate and the dyadic/stacking same-sum bookkeeping also remain part of the
+same certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 329 accepts the merge-zone/exterior distance dichotomy as an exhaustive split of non-courier vorticity, but no wall is deleted because the merge-zone branch is paid only by the still-unconfirmed C271 absorption/no-reuse certificate, and the exterior branch still inherits arbitrary-support \(C_{\mathrm{BS}}\), dyadic/stacking same-sum, selected-ledger ownership, and clock/no-double-count requirements.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 330 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C330 offers
+no new cross-wall identification beyond the C329 merge-zone split.
+
+Codex accepts C330 as a holding/status cycle.
+
+No deletion is paid. C329 is useful but pending: the C271 absorption/no-reuse
+certificate must still be proved before the \(j=0\) cap-velocity branch is
+terminal. The two other C319 factors, halo density and exact clock conversion,
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 330 is accepted as a holding cycle around C329, but no wall is deleted because the merge-zone split still depends on the pending C271 absorption/no-reuse and same-selected-ledger certificates, and C319 halo-density and clock-conversion factors remain unproved.
+REMAINING: W3, W7, W8, W9.
