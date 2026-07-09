@@ -4694,6 +4694,44 @@ DELETED: none.
 CERTIFICATE: Cycle 315 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C314 rear-row ownership differential remains unchanged.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 316 unweighted-sweep correction
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C316 answers
+the C314 differential by distinguishing the unweighted reflection image from
+the weighted selected W8 rear-loss row.
+
+Codex accepts the correction. The C309 self-reference is removed.
+
+No deletion is paid. The unweighted rear flux from reflection pairing must
+still be proved to equal the standing total-sweep spacetime integral in the
+same cap, density, clock, cutoff/reseed, and normalization. The \(w_{\min}\)
+de-oriented-share conversion is not exact, and the recomposed \(N1\) bracket
+and corner still depend on gated constants, trimmed neutrality, Horn-B pricing,
+selected weights, clock/no-reuse, \(C_V\), and the four-wall ladder reduction.
+
+DELETED: none.
+CERTIFICATE: Cycle 316 accepts the weighted-row/unweighted-sweep distinction and removes the C309 self-reference, but no wall is deleted because the unweighted rear flux from reflection pairing is not proved to equal the standing total-sweep spacetime integral in the same cap, density, clock, cutoff/reseed, and normalization, the \(w_{\min}\) de-oriented-share conversion is not exact, and the recomposed \(N1\) bracket and corner still depend on gated constants, trimmed neutrality, Horn-B pricing, selected weights, clock/no-reuse, \(C_V\), and the four-wall ladder reduction.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 314-316
+
+Physical sentence of the sticking wall: the rear-row ownership problem has
+split into two objects, selected rear loss and unweighted total sweep, but the
+unweighted sweep used by the reflection bound has not been proved to be the
+same spacetime flux integral with exact constants in the selected assembly.
+
+Attempts: C314 named the differential between implicit algebra and terminal
+rear-row ownership; C315 held the state; C316 corrected the differential by
+separating weighted selected loss from unweighted total sweep.
+
+Missing exact fact: a total-sweep identity proving that
+\(\int_{\mathrm{rear}}|\rho u_n|\,dA\,dt\) over the reflected cap equals or is
+bounded by the standing \(2.9\delta\)-per-turnover sweep object in the same
+normalization, plus an exact \(w_{\min}\) de-oriented-share conversion and a
+simultaneous same-ledger corner using the certified cap weights, cutoff/reseed,
+orientation, clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and
+four-wall ladder reduction.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus
