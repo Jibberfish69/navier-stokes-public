@@ -227,3 +227,24 @@ If this survives the partner gate, the killed bridging theorem revives with its 
 **Attack (iii) — recurrence relocation: CONFIRMED AS RELOCATION.** Same clause, same object, no new content: the three recurrence structures now on file (standing-crest oscillation returns, supremacy-exchange cascades, the supplier-shell recursion of Cycle 5) are one recurrence question in three costumes — each is "can the fluid lawfully revisit the aligned branch infinitely often with zero surplus," which is W9's terminal-window clause verbatim, previously the relay-tower object, previously route-b. ONE surviving recurrence object, three independent derivations of its unavoidability.
 
 **Net effect:** the Gap-B candidate hardens on all named surfaces; nothing new is claimed beyond the P₂-isotropy admission (exact, one-line, attackable: ∫P₂ dΩ = 0 over any isotropic measure — spherical-harmonic orthogonality). The candidate stands PENDING the partner gate already in flight.
+
+---
+
+## CYCLE 12 — CODEX KILL ACCEPTED (selector circularity); THE WELL-SELECTOR CONSTRUCTION: all five demanded clauses built without borrowing from W9
+
+**Gate processed.** Codex killed the Cycle-10 candidate correctly: using the crest (arg max |ω|) as center presupposes the selector/center/terminal-window data W9 demands. Stricter target accepted verbatim: construct selector, center, shift action, terminal-window room, and defect routing from non-W9 sources. **This cycle constructs them. The center is not the crest — it is the well.**
+
+**Clause 1 — SELECTOR: the pressure-well critical point.** arg max |ω| is lawless (jumps, no modulus). But p is SLAVED (fact 4): p = Newtonian potential of Q, an elliptic smoothing of the certified field — no new data, W7's own pressure-row currency. The selector is the local critical point of p at the active core: x_w(t) = the well center. Constructible from the field alone.
+
+**Clause 2 — CENTER CONTINUITY + SHIFT ACTION: cyclostrophic Morse nondegeneracy.** At any swirling core, cyclostrophic balance ∂_ρp = v_θ²/ρ makes the TRANSVERSE Hessian of p positive-definite at the axis with scale ~ ω²/4 — the largest scale in the problem, unconditional at any core. AXIALLY, at an active crest the p_axis ≈ −CΓ|ω| law (Cycle 10) puts an axial minimum at the crest with nondegeneracy set by the crest curvature |∂₁²|ω||. A nondegenerate 3D minimum ⟹ implicit function theorem ⟹ x_w(t) moves SMOOTHLY: the shift action is the well-frame translation, continuous by construction. The lag results transfer verbatim (the well frame and crest frame differ by the lag offset — and the well frame is the lawful one; the pulse-tail algebra was always secretly about the well frame).
+
+**Clause 3 — TERMINAL-WINDOW ROOM: the subsidy floor is the room.** On the branch where W9 has any content — record persistently growing, i.e., the aligned branch held — the proved alignment Riccati REQUIRES e·He ≤ −α²: the conspiracy itself forces the well deep and quantitatively nondegenerate. The window's interior room = the Morse gap ≥ α², sourced from the subsidy requirement, not from W9. Reflexivity, stated plainly: the blowup scenario is forced to construct the very selector that certifies its path — or lapse.
+
+**Clause 4 — DEFECT ROUTING: every degeneration is a typed route-out in existing clauses.**
+- Well shallow/degenerate ⟹ e·He > −α² ⟹ D_tα < 0 at alignment (proved Riccati) ⟹ aim decays ⟹ W3's "typed route-out for disappearing service," verbatim.
+- Axial plateau (flat crest, ∂₁²|ω| = 0 on an interval) ⟹ locally uniform tube ⟹ the vanishing lemma + straight-Burgers self-lock: no interior growth on the plateau — the non-growing branch, no window needed.
+- Multiple wells / supremacy exchange ⟹ the Cycle-11 dichotomy: finite ⟹ piecewise hull; accumulating ⟹ the relay/recurrence clause (the one surviving object).
+
+**Clause 5 — NO BORROWING:** inputs are the proved Riccati (arc-2 Cycle 2), slaved pressure (fact 4), cyclostrophic balance (exact at any core), the p_axis law (Cycle 10), and W3/W7/W8 certified bounds. No W9 clause is consumed. The hull, its compactness (ν-parabolic on certified bounds), and shift-room (tail exponents μ± > 0) then assemble as in Cycle 10 but centered on x_w.
+
+**Candidate (PENDING, replaces the killed one):** W9 deletes by reduction to W3+W7+W8 via the WELL-selector path object. Self-named attack surfaces: (a) the implicit-function step needs ∇²p's axial block nondegenerate at x_w — the crest-curvature input is certified only where the record is strictly growing (is "strictly" an admission or a gap?); (b) the well may sit at the LAG offset from the crest — confirm the certified bounds control the field at x_w and not only at the crest; (c) reflexivity (Clause 3) must be checked for hidden circularity: the subsidy floor comes from the Riccati on the aligned branch — confirm "aligned branch" is W3/W7 currency, not a W9 window in disguise.
