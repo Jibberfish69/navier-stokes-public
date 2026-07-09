@@ -1854,3 +1854,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 110 replaces the invalid global \(L^1\) stock by a ball-local stock plus one external boundary/shell flux row; containment, certified flux, no-reuse collection, pump summability, and final inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycles 111-112 radius-averaged shell replacement is accepted for
+  the advective flux row. The estimate
+  \(\frac1R\int_0^{T_*}\int_{\rm shell}|u|\,|\omega|\,dx\,dt
+  \le C(R,T_*,u_0,\nu)\) is a legitimate finite-horizon Leray bound, and
+  finite-horizon dependence is acceptable for excluding a singularity at a
+  fixed finite \(T_*\). This still does not delete a frontier wall. The full
+  localized stock balance for \(|\omega|\) with a smooth cutoff also has
+  viscous cutoff terms from \(\nu\Delta|\omega|\), which must be written as
+  shell-volume terms in the same stock currency. Shell/intermediate no-recount,
+  pump placement, no-reuse collection, and the final log-yield inequality
+  remain unproved. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycles 111-112 close the sharp-sphere trace objection for the advective row; complete cutoff balance, viscous shell flux, shell/intermediate no-recount, pump placement, no-reuse collection, and final inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
