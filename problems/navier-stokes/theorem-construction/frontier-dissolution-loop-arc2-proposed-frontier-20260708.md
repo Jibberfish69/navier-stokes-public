@@ -577,3 +577,17 @@ with k² = 4R²/(4R²+h²) = 4/5. Classical values: K(k²=0.8) = 2.2572, E(k²=0
 **3. The ledger, updated with the exact window.** Service per pair-episode: ~0.84Ω × (δ/1.09Ωδ) ≈ 0.77 log-units (expulsion-limited window; exact-able in the same family). The conditional bound:
   **log(‖ω‖_∞/Ω₀) ≤ 0.77·(Γ_gather(u₀)/2Γ_core)·c_recycle.**
 **4. Final state of the program.** The conveyor is mandatory (no station-holding geometry exists — exact); the conveyor is stranded (4× at k=1); each episode is Kelvin-priced and delivers ≤ 0.77 log-units. Remaining mathematics, complete list: **the recycling lemma** (the one substantive object: expelled/diluted ring-stock cannot re-serve without paying the stranding price — W8's currency), and the three assembly lemmas (variational suprema; available-speed cap; gather-cost absorption). Everything else in thirty-two cycles is either exact, partner-confirmed, or dead with a certificate.
+
+---
+
+## CYCLE 33 — HONEST CORRECTION OF MY OWN EXPULSION BUDGET (C30 double-counted; the true margin is 2.5×, service ~5 turnovers); THE TILT SWEEP CLOSES BY PROJECTION COVARIANCE
+
+**1. THE CORRECTION (against my own C30/C32 arithmetic, by Helmholtz).** A vortex is advected by the fields of OTHER vorticity plus its own curvature self-induction — it is NOT advected by its own irrotational-exterior pumping. My C30 "outflow sweep 0.75Ωδ" charged the ring with advection by its own through-flow: DOUBLE-COUNTING; unlawful vortex dynamics. The exact expulsion budget is:
+  self-induction 0.34Ωδ outward  −  partner's exact field 0.135Ωδ inward  =  **net 0.2Ωδ outward.**
+The pair still cannot hold station — self-induction alone beats partner-holding — but the margin is **2.5×, not 8×**, and the service window is ~5 turnovers, not 1. Service per pair-episode: ~0.84Ω × 5/Ω ≈ **4 log-units** (not 0.77). The conditional bound survives IN FORM with the weaker constant:
+  **log(‖ω‖_∞/Ω₀) ≤ ~4 · (Γ_gather(u₀)/2Γ_core) · c_recycle — still finite per datum.**
+C32's "8× margin" and C30's episode arithmetic are superseded; the verdict's DIRECTION (expelled, conveyor mandatory, finite service, budget-capped) is unchanged; its constants are corrected by my own audit before the partner's.
+
+**2. THE TILT SWEEP CLOSES (the last geometric dimension, by symmetry).** A tilted ring's delivery (axial strain at the record) and its self-expulsion (self-induction along its own axis) are BOTH projections of the same dipole axis: delivery ∝ cos β and e₁-expulsion ∝ cos β — their ratio is tilt-invariant at leading order. Tilting buys nothing: coaxial is WLOG for the race. The geometric sweep is complete: offset (forced by the delivery-zero at center), radius (floored by merger), tilt (projection-covariant), depth (stranded), topology (snake dead, pair dying). **No unswept dimension remains.**
+
+**3. State.** Remaining mathematics unchanged in kind: the recycling lemma + three assembly lemmas. The constants race is now: ~4 log-units per Kelvin-priced episode against the finite gather budget — blowup needs the episode count to diverge; the budget forbids it IF recycling is priced as claimed. Everything rides on the recycling lemma, as it has since Cycle 30 — now with honest constants.
