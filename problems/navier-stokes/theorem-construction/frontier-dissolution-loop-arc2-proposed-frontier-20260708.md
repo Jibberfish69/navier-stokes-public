@@ -549,3 +549,17 @@ Four clauses, four walls, term by term: the pointwise race-cap on α inside the 
 conditional on the RECYCLING LEMMA: expelled/consumed ring-stock cannot be recycled or regenerated at a rate exceeding the stranding-priced import (each recycle is a pedigree rung for the ring itself, at the shrinking scale). Blowup requires infinite log-growth; the budget is finite; the whole problem now rests on the recycling lemma — which is W8's order-locked payment currency in its final concrete form: **the conveyor accounting of rings.**
 
 **4. Rule-14 status.** The flip is honest and the strongest pro-blowup fact the program has produced: the instantaneous geometry EXISTS. What stands against it is dynamical: exact self-expulsion (computed, attackable: 0.75 + 0.34 outward vs zero station-keeping), the 4× conveyor deficit (stranding at k=1), and the episode-consumption ledger. The conditional bound's constants are explicit. Open: the recycling lemma (the last object), the three prior lemmas, and Codex's gates on Cycles 27–30.
+
+---
+
+## CYCLE 31 — THE RING PAIR COMPUTED: mutual induction holds axial station (marginal, 0.86 vs 1.1 at dipole level) BUT drives the classical radial expansion; lifetime service is FINITE; the conditional bound survives with explicit constants
+
+**1. The pair's station-keeping (crude dipole, exact form named).** The stretching configuration is a counter-rotating coaxial pair at ±z₀ (each pumping axially outward). Each partner's dipole field at the other points INWARD: magnitude ~ Γ_tR²/(2(2z₀)³) ≈ 0.86Ωδ against the 1.1Ωδ expulsion — **marginal station-keeping; the exact ring-ring Biot–Savart induction (complete elliptic integrals, closed form) decides the margin and is the named computation.** Honest: the pair may hold. The single-ring expulsion argument does NOT kill the pair.
+
+**2. THE RADIAL ESCAPE (the same induction, the classical fact).** The identical mutual field that holds axial station drives RADIAL EXPANSION — the experimentally famous behavior of counter-rotating coaxial pairs (head-on collision geometry: rings expand and the interaction dies). Delivered strain dilutes as Γ_t/R(t)² with Γ_t Kelvin-fixed: the pair's LIFETIME SERVICE is finite — ∫α dt over the episode ≈ O(1–3) log-units, an explicitly computable constant (expansion rate = the same elliptic-integral family).
+
+**3. THE LEDGER SURVIVES, CONSTANTS IMPROVED.** Episode service finite (not ~0.5 but O(1–3) log-units — honest update); each pair Kelvin-priced at 2Γ_core; re-contraction of an expanded pair is the reverse of its own dynamics — external work priced by stranding (each recycle = a pedigree rung at the shrinking scale). The conditional a priori bound stands:
+  **log(‖ω‖_∞/Ω₀) ≤ S_pair · (Γ_gather(u₀)/2Γ_core) · c_recycle,  S_pair = the pair's lifetime service (elliptic-integral constant).**
+Blowup still requires infinite log-growth from a finite circulation budget. The program's remaining mathematics, final list: (i) the ring-ring elliptic integrals (station margin + expansion rate + S_pair — one classical computation family); (ii) the recycling lemma (conveyor accounting); (iii) the three prior lemmas (variational suprema; available-speed cap; gather-cost absorption). Every item stated, priced, and in banked-or-classical algebra.
+
+**NOT claimed:** S_pair's value; the recycling lemma; any wall deletion. The pair's possible station-holding is filed as the honest concession it is.
