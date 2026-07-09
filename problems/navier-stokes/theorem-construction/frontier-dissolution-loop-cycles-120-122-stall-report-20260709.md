@@ -5960,3 +5960,47 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 366 verifies the good-threshold coarea area estimate only; it does not delete W3 because area control at an existential threshold does not supply a controlled same-selected threshold path, ROW-V trace bound, ROW-T/ROW-L retained trace bounds, reseed total variation, \(|P_A|^{-1}\) nondegeneracy, or the still-open stretching/sign-selection payment.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycles 367-368
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C368 tries
+to identify the axis-normalization bound with the tangency/crossing-dipole row
+through \(Q_A\). The attempt fails as a wall deletion because \(Q_A\) controls
+origin covariance, while axis normalization also needs a uniform lower bound
+for \(|P_A|\).
+
+C367 is accepted as a no-pay validity-domain correction: the C365-C366 display
+is classical on smooth epochs at regular good thresholds, while weak-limit
+closure and sign-selection control remain W7/W8 content and are unproved.
+
+C368's \(Q_A\) budget and origin covariance are formally correct on the smooth
+epoch. No wall is deleted because \(Q_A\) pays the origin-shift defect but not
+the separate \(|P_A|^{-1}\) nondegeneracy, and the scale-neutral ratio
+\(|Q_A|\delta_k/|P_A|<1\) is an unproved geometric admission hypothesis with
+the same selected trace and reseed-control burdens.
+
+DELETED: none.
+CERTIFICATE: Cycle 367 is accepted only as a validity-domain correction: the C365-C366 display is classical on smooth epochs at regular good thresholds, while weak-limit closure and sign-selection control remain W7/W8 content and are unproved.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 368 verifies the formal \(Q_A\) budget and origin covariance only; it does not delete W3 because \(Q_A\) pays the origin-shift defect but not the separate \(|P_A|^{-1}\) nondegeneracy, and the scale-neutral ratio \(|Q_A|\delta_k/|P_A|<1\) is an unproved geometric admission hypothesis with the same selected trace and reseed-control burdens.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 365-367
+
+Physical sentence of the sticking wall: the retained field now has formal
+smooth-epoch surface budgets for the moving impulse and a good-threshold area
+estimate, but the proof still has not turned those displays into finite
+uniform selected-ledger control of the normalized moving axis through weak
+limits.
+
+Attempts: C365 displayed the \(P_A\) surface rows; C366 priced cutoff area at a
+good threshold by band palinstrophy and the enstrophy balance; C367 restricted
+the display to smooth epochs and regular thresholds.
+
+Missing exact fact: a same-selected-ledger trace/path/nondegeneracy theorem
+for the normalized moving owned-axis functional, including boundary velocity
+traces, normal vorticity derivative, threshold-path variation, reseed total
+variation, \(|P_A|\) lower bound, retained normalization, weak-limit closure,
+and the stretching/sign-selection price.
