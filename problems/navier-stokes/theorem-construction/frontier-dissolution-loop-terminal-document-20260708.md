@@ -1719,3 +1719,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 101 supplies a currency-bridge checklist for the episode/ODE comparison; exact stock conversion, same-episode lower-bound comparison, fixed-cover current, \(G_R\) no-recount, and final inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 102 renormalization derivative is accepted in its exact
+  form \(+\frac12s\,dX/d\tau\) on a rung with fixed \(\Gamma\). Replacing it by
+  \(+\frac12s\sigma S_0\) is an upper-row insertion, not an equality, unless
+  the service-fraction law gives \(dX/d\tau=\sigma S_0\) on the counted
+  episode. If \(\Gamma\) changes through import, diffusion, or selector
+  exchange, the \(\frac32\,d\log\Gamma/d\tau\) contribution must be assigned to
+  pump/import, burn, or route rows without recounting. The union-tile repair is
+  the right fixed-cover direction, but not a non-event certificate: it still
+  needs a measurable assignment rule, multiplicity/no-overlap convention,
+  assignment-jump source terms, and weak-limit closedness of the selected
+  union. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 102 conditionally accepts the normalizer formula and union-tile direction; exact source routing, selected-union fixed-cover current, and the final renormalized episode inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
