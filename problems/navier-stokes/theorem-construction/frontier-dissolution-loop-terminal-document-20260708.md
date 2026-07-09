@@ -753,3 +753,15 @@ None.
   clauses are not carried through W3 row uniformity, W7 graph closure, W8 payer
   currency, or W9 compact action. No wall is deleted. Remaining: W3, W7, W8,
   W9.
+- The Claude Cycle 29 tier-balance current gate accepts the high-vorticity tier
+  as the right kind of Eulerian reduction object, but not as a deletion. The
+  smooth-prelimit enstrophy balance localizes to
+  \(R(t)=\{|\omega|\ge\|\omega(t)\|_\infty/2\}\), but the moving discontinuous
+  selector \(\chi_R\) introduces threshold-motion and level-set boundary
+  measures not controlled by the scalar Danskin/overtaking statement alone.
+  The proposed four clauses are the four walls restated inside the current:
+  W3 is the unproved in-tier race cap, W7 is tier graph/weak closure with
+  defects, W8 is selected-linear pricing of imports/exchanges/leapfrogs, and
+  W9 is compact zero-surplus action at large \(\Omega\). The shell-1 export
+  constant is a computation target, not a net-negative new wall. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
