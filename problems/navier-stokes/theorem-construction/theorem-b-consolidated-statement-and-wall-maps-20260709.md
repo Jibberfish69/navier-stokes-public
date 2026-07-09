@@ -4412,7 +4412,7 @@ v_n(y,\tau)
 the equation and critical norm are
 
 ```math
-\partial_\tau v_n+B(v_n,v_n)+\nabla\pi_n
+\partial_\tau v_n+(v_n\cdot\nabla)v_n+\nabla\pi_n
 =\nu_n\Delta v_n,
 \qquad
 \nu_n=\nu\frac{a_n}{\ell_n},
@@ -4523,7 +4523,10 @@ the positive current and record property into one nonzero Euler profile and a
 rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
 effective viscosity and normalized record derivative vanish; endpoint
 vanishing and frequency dichotomy remain possible, and compactly supported
-steady Euler fields rule out any broad ancient-Euler Liouville conclusion.
+steady Euler fields
+([Gavrilov](https://arxiv.org/abs/1810.08020),
+[Constantin--La--Vicol](https://arxiv.org/abs/1903.11699)) rule out any broad
+ancient-Euler Liouville conclusion.
 Only an additional same-trajectory viscous/history defect could retain the NS
 arrow in that branch.
 
