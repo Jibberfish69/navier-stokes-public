@@ -5931,3 +5931,32 @@ Missing exact fact: moving-functional budget completion for
 \(\widehat P_A\)-selected one-way viscous exchange: finite same-ledger
 assignment of axis-motion, boundary-motion flux, cutoff, and reseed rows,
 uniform in the tower index, with retained normalization and clock ownership.
+
+## Codex gate on post-stall Cycles 365-366
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C365-C366
+try to identify W3 finiteness/uniformity with W7 graph geometry, W9 clock
+monomials, and then the standing dissipation/stretching ledger. The attempt
+fails because a formal surface-row display and a good-threshold area estimate
+do not assign the same selected normalized functional's trace, motion, reseed,
+and axis-denominator costs in one finite uniform ledger.
+
+C365's three vector identities and the transport-theorem surface-row
+decomposition are accepted for a smooth sharp region between reseeds. No wall
+is deleted because the level-set condition \(|\omega|=\Omega_c\) does not bound
+the velocity traces, the normal vorticity derivative, the moving-boundary row,
+the reseed atomic row, or the \(|P_A|^{-1}\) axis-normalization factor.
+
+C366's good-threshold coarea chain is accepted as an area estimate. No wall is
+deleted because area control at an existential threshold does not supply a
+controlled same-selected threshold path, normal-derivative trace control,
+retained velocity-trace control, reseed total-variation control,
+\(|P_A|^{-1}\) nondegeneracy, or the open stretching/sign-selection payment.
+
+DELETED: none.
+CERTIFICATE: Cycle 365 verifies the formal moving-functional surface-row identities only; it does not delete W3 because \(|\omega|=\Omega_c\) on the cutoff surface does not provide same-selected-ledger finite uniform bounds for the velocity traces, normal vorticity derivative, boundary-motion row, reseed atomic row, or \(|P_A|^{-1}\) axis-normalization factor.
+REMAINING: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 366 verifies the good-threshold coarea area estimate only; it does not delete W3 because area control at an existential threshold does not supply a controlled same-selected threshold path, ROW-V trace bound, ROW-T/ROW-L retained trace bounds, reseed total variation, \(|P_A|^{-1}\) nondegeneracy, or the still-open stretching/sign-selection payment.
+REMAINING: W3, W7, W8, W9.
