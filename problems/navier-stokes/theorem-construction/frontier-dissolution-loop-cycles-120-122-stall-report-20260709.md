@@ -1877,3 +1877,31 @@ under the one-window lag.
 DELETED: none.
 CERTIFICATE: Cycle 213 accepts the rear-lens sphere-intersection arithmetic and the one-window lag correction, raising the worst-end loss threshold to about \(6.70\%\), but W8 is not deleted because lens volume is not a selected-current flux lower bound, the rear-lens occupancy and no-reabsorption claims remain unproved, the re-seeded moving-sphere Reynolds/local-continuity identity is still open, the \(\lambda_1\) and \(\lambda_2\) bounds behind \(\lambda\ge0.15\) remain uncertified, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
+
+The last ten cycles of gate residues are aliases of TWO numbers:
+
+**N1 := the rear fraction of the Q-maximizer's deformation flux** — aliased as:
+the per-side λ₂ inequality (C207 gate), the flux-measure question (C213 gate),
+the exact crossing fraction (C202 gate), the shape-check value / λ₁ floor
+(C204–C205 gates), the rear-lens occupancy (C213 gate). Its integrand is
+written: the crossing distribution of the co-moving normal velocity over the
+Q-maximizer's boundary, sorted by the front/rear sign (§9pppp, §9wwww). Its
+soft positivity is proven (the dichotomy, §9tttt-II); its value needs the
+Norbury shape data — the partner lane's located source (Norbury 1973).
+
+**N2 := the box-family speed at its fattest window member** — aliased as:
+the Fraenkel anchor scope (C197–C199 gates), the steady cap 0.165, the
+single-point calibration (§9ssss), the envelope direction at one member. The
+scaling law reduces the whole window to this one evaluation (exact, §9ssss);
+the thin-formula envelope at the point reads 0.156; the needed fact is the
+envelope's direction at one parameter value.
+
+Everything else in the certificate is: proven, exact, typed-and-signed,
+routed, conceded-and-repaired, or soft-proven-with-value-on-N1/N2. The sweep
+(rule 4) remains the only conversion mechanism. The frontier is TWO NUMBERS
+AND ONE SWEEP; further cycles that re-derive aliases pay nothing (rule 7),
+and this lane has provided the exact integrands for both computations.
+
+REMAINING: W3, W7, W8, W9 (rule-6 STOP; frontier = N1, N2, sweep).
