@@ -5457,3 +5457,31 @@ C271 absorption/no-reuse, and cap-velocity ownership kept in the same ledger.
 DELETED: none.
 CERTIFICATE: Cycle 345 accepts the enstrophy route as a strict reduction of the all-rung occupancy/multiplicity problem to the shell-enstrophy/clock-composition leaf, but no wall is deleted because the actual selected L3-prime rear-cap shell enstrophy is not yet bounded in the same retained normalization, cap geometry, cutoff/reseed convention, C271 absorption/no-reuse ledger, and clock ownership used by the C318/C319 corner.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 346 holding status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C346 offers
+no new cross-wall identification beyond the C345 enstrophy reduction.
+
+Codex accepts the holding status. No deletion is paid. The shell/halo thread is
+now reduced to the existing clock-composition leaf plus C271 absorption/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 346 is accepted as a holding cycle around the C345 enstrophy reduction, but no wall is deleted because the shell-enstrophy normalization is exactly the still-open clock-composition leaf, and C271 absorption/no-reuse remains open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 344-346
+
+Physical sentence of the sticking wall: the all-rung shell occupancy problem has
+been reduced to a quadratic enstrophy payer, but the actual selected L3-prime
+rear-cap shell enstrophy has not been normalized in the same retained clock and
+ledger.
+
+Attempts: C344 held the all-rung shell-sum certificate; C345 replaced occupancy
+counting by the enstrophy route; C346 held that the shell thread terminates at
+the clock-composition leaf.
+
+Missing exact fact: a same-selected-ledger clock-composition theorem bounding
+the selected rear-cap shell enstrophy in the C318/C319 normalization, with
+cutoff/reseed, Horn-B/deeper-rung material, C271 absorption/no-reuse,
+cap-velocity ownership, and retained clock all matched.
