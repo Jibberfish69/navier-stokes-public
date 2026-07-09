@@ -4684,3 +4684,127 @@ mixed-helicity occupancy.
 
 **Status.** Exact scale-resolved consequence plus exact counterexample. This is
 not Gold closure.
+
+## 62. EVERY RECORD DOUBLING CARRIES NONZERO PARENT HISTORY CURRENT (2026-07-09)
+
+Let `t_n` be successive first record times with
+
+```math
+R_n:=R(t_n)=2R(t_{n-1}),
+\qquad I_n=[t_{n-1},t_n].
+\tag{G62.1}
+```
+
+For the two simultaneous helical readouts of the same velocity field, set
+
+```math
+e_{s,n}:=\frac{R_s(t_n)}{R_n},
+\qquad
+\delta_{s,n}:=\frac{\nu}{R_n}\int_{I_n}D_s\,dt,
+\qquad
+j_n:=\frac1{R_n}\int_{I_n}P_H\,dt.
+\tag{G62.2}
+```
+
+Integrating the exact sector law `R_s'+2 nu D_s=P_H` gives
+
+```math
+\boxed{
+e_{s,n}-\frac12e_{s,n-1}+2\delta_{s,n}=j_n.
+}
+\tag{G62.3}
+```
+
+Summing and subtracting the two sector rows yields
+
+```math
+\boxed{
+j_n=\frac14+\delta_{+,n}+\delta_{-,n}\ge\frac14,
+}
+\tag{G62.4}
+```
+
+and, for `h_n=e_{+,n}-e_{-,n}`,
+
+```math
+\boxed{
+\delta_{-,n}-\delta_{+,n}
+=\frac12\left(h_n-\frac12h_{n-1}\right).
+}
+\tag{G62.5}
+```
+
+For each `0<epsilon<1/2`, this gives the exhaustive alternative
+
+```math
+\begin{aligned}
+|h_n|\le1-\varepsilon
+&\Longrightarrow e_{+,n},e_{-,n}\ge\varepsilon/2,\\
+h_n>1-\varepsilon
+&\Longrightarrow
+\delta_{-,n}-\delta_{+,n}>1/4-\varepsilon/2,\\
+h_n<-1+\varepsilon
+&\Longrightarrow
+\delta_{+,n}-\delta_{-,n}>1/4-\varepsilon/2.
+\end{aligned}
+\tag{G62.6}
+```
+
+Thus either both helical fractions remain at the endpoint or a nearly
+one-handed endpoint forces order-one excess dissipation in the opposite
+sector over the same last doubling. The current is one parent current of the
+full velocity field; the sector rows are projections, not separate owners.
+
+In the canonical normalization `(G60.6)`, let
+
+```math
+\tau_{n,-}:=\frac{t_{n-1}-t_n}{\theta_n},
+\qquad
+dJ_n=P_H(v_n)\,d\tau,
+\qquad
+dM_{s,n}=\nu_nD_s(v_n)\,d\tau.
+\tag{G62.7}
+```
+
+Extending these measures by zero outside `[tau_{n,-},0]`, their masses are
+exactly
+
+```math
+\boxed{
+J_n([\tau_{n,-},0])=j_n,
+\qquad
+M_{s,n}([\tau_{n,-},0])=\delta_{s,n}.
+}
+\tag{G62.8}
+```
+
+With `rho_{s,n}=R_s(v_n)`, the complete normalized history identity is
+
+```math
+d\rho_{s,n}+2\,dM_{s,n}=dJ_n,
+\qquad
+\rho_{s,n}(\tau_{n,-})=\frac12e_{s,n-1},
+\qquad
+\rho_{s,n}(0)=e_{s,n}.
+\tag{G62.9}
+```
+
+In particular,
+
+```math
+\int_{\tau_{n,-}}^0[P_H(v_n)]_+\,d\tau\ge\frac14.
+```
+
+The current is nonzero on every last doubling even when the endpoint
+efficiency `eta_n` tends to zero. No terminal defect measure follows yet:
+`P_H` has indefinite sign, so the net current gives no total-variation bound;
+`j_n=1/4+delta_{+,n}+delta_{-,n}` gives no upper bound on the dissipation
+masses; and the normalized interval length can diverge. Bounded variation,
+terminal time-tightness, and spatial profile retention remain unproved.
+
+**Adversarial result.** Endpoint vanishing does not erase the same-trajectory
+parent history current. Every last doubling has normalized net current at
+least `1/4`, with the balanced-or-opposite-dissipation alternative `(G62.6)`.
+
+**Status.** Strict same-trajectory history reduction. No limiting defect,
+finite reserve, or Gold conclusion is proved.
