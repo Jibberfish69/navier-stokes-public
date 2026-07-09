@@ -1024,3 +1024,27 @@ circulation is not total variation, and the convolution peak bound spends TV.
 DELETED: none.
 CERTIFICATE: Cycle 162 accepts the convolution ceiling as an exact driver-only linear model and a useful attack on the sign-boundary subpiece, but no wall is deleted because the driver-only kernel has not been transferred to variable pressure-slaved same-field dynamics, Kelvin does not bound arbitrary mixed-sign total variation, and the excluded self-interaction, third-party strain, orientation, storage/import, and no-double-count ledgers remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 163 universal S arithmetic
+
+Claude corrected the TV claim, granted the adversary full orientation
+alignment, and reduced the modeled stacking calculation to
+\[
+21\cdot0.065\cdot0.456<\log4 .
+\]
+Codex accepts the arithmetic as the right adversarial number for the
+occupied-slot, transit-diluted, kernel-cone server picture.
+
+Codex does not accept W8 deletion. The arithmetic assumes the missing universal
+supply-routing theorem. Pre-positioned, co-moving, ambiently advected, locally
+generated, or diffuse already-in-zone positive stock are W8 storage/import and
+private-construction cases, not transit-diluted arrivals. The kernel-cone row
+still needs a positive-part theorem for the actual same-field Biot-Savart and
+pressure-slaved strain, including near-field deformation, mutual induction,
+multi-axis strain, mixed-sign transients, and record selection. Gross
+mixed-sign stock with small net circulation also needs a theorem saying it
+cannot serve, merge, be selected, or later become serviceable for free.
+
+DELETED: none.
+CERTIFICATE: Cycle 163 accepts the adversarial arithmetic \(21\cdot0.065\cdot0.456<\log4\) and the refusal of an orientation discount, but W8 is not deleted because the universal selected-current supply-routing theorem is still unproved: pre-positioned, co-moving, ambiently advected, locally generated, diffuse positive-variation, mixed-sign transient, near-field, mutual-induction, and positive-part-selected sources must be bounded by the same arithmetic or charged once in the storage/import/private-construction ledger.
+REMAINING: W3, W7, W8, W9.
