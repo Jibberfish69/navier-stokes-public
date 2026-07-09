@@ -3907,3 +3907,22 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 238 accepts shared boundary support as useful whole-field ontology, but refutes the proposed W7/W8 two-are-one identity as stated because gross \(|\omega|\)-flux and retained \(w|\omega|\)-occupancy do not have identical support unless the W8 currency is proved to use the same selector, shared support does not convert net/TV crossing into one-way selected current, the in-family Norbury ratio does not cover arbitrary data or off-family regimes, smooth-test-object calculus does not discharge W7 closed-record admission, and C237's source-bridge plus \(\delta u\), C223, and sweep/no-reuse residues remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 236-238
+
+Physical sentence of the sticking wall: the whole-field fixed-region flux
+picture now has the right carrier, but the proof still has to turn shared
+boundary support into the same selected one-way current with the same quantum,
+the same order lock, and the same no-reuse count.
+
+Attempts: C236 proposed W7/W8 residual no-reuse two-are-one and Codex refuted
+it; C237 displayed the six-row retained Reynolds balance; C238 identified
+shared boundary support between retained occupancy and gross circulation flux,
+which Codex accepted only as ontology support.
+
+Missing exact fact: a bidirectional selected-current dictionary proving that
+W8's circulation currency uses the same selector as \(w|\omega|\), converting
+net/TV boundary crossing into one-way selected current, assigning the
+product-rule source bridge and \(\delta u\) contribution once, and preserving
+W7 closed-record admission and W8 order-lock/no-reuse for arbitrary admissible
+data and all regimes.
