@@ -4746,6 +4746,25 @@ DELETED: none.
 CERTIFICATE: Cycle 317 is accepted as a holding cycle with no new paid certificate; no wall is deleted because no new cross-wall identification, refutation, empty-by-admission clause, or terminal reduction is supplied, and the C316 total-sweep identity/de-oriented-share/corner burden remains unchanged.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 318 total-sweep factorization
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C318 tries
+to pay the total-sweep identity by factoring the unweighted rear flux into
+rear-cap mean velocity, cap geometry, and boundary-density ratio.
+
+Codex accepts the factorization as the right reduced target.
+
+No deletion is paid. The rear-cap mean velocity is not proved to be the
+standing §9pppp sweep velocity in the actual same-field cap. The
+\(\rho_\partial/\bar\rho\le1\) ratio is not certified for arbitrary selected,
+reseeded, Horn-B, or de-oriented retained material. The clock conversion is not
+written with the same cap geometry, density normalization, retained mass,
+cutoff/reseed convention, and window length as the L3-prime corner.
+
+DELETED: none.
+CERTIFICATE: Cycle 318 accepts the total-sweep factorization as the right reduced target, but no wall is deleted because the rear-cap mean velocity is not proved to be the standing §9pppp sweep velocity in the actual same-field cap, the boundary-density ratio \(\rho_\partial/\bar\rho\le1\) is not certified for arbitrary selected/reseeded/Horn-B/de-oriented retained material, and the velocity-area-density clock conversion is not written with the same cap geometry, density normalization, retained mass, cutoff/reseed convention, and window length as the L3-prime corner.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane stall entry at Cycle 312 (the current physical sentence, superseding this lane's prior entries)
 
 Physical sentence of the sticking wall: the repaired assembly (§9pppppppp: modulus
