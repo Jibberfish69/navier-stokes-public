@@ -1492,3 +1492,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 87 closes the far-tail trace sub-obstruction by smooth radius averaging; near/intermediate CZ control, moving-cylinder uniformity, and no-recount shell alignment remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 88 moving-cylinder estimate is accepted as a useful
+  conditional parabolic lemma, not as Theorem A closure. If the coefficients
+  \(a\) and \(b\) are genuinely \(L^\infty\) on the same moving cylinder with
+  scale-uniform localization, drift, cutoff, and restart constants, then the
+  maximum-principle plus weighted-Duhamel/chaining argument gives a bound of
+  the displayed type. The input hypotheses are still open: C83's
+  near/intermediate coefficient, vorticity-magnitude term, tube commutators,
+  chord-arc/no self-return, and other-tube shell control are not proved by the
+  far-tail repair; the whole-space heat-kernel display still needs conversion
+  into the interior moving-cylinder theorem; and \({\rm Re}_\Gamma\) plus the
+  log factor must enter the capped ODE/current without spending W7/W8
+  no-recount and closure. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 88 reduces the moving-domain piece to a bounded-coefficient parabolic lemma conditional on the still-open C83 coefficient inputs, moving-cylinder localization, and capped-current bookkeeping.
+REMAINING: W3, W7, W8, W9.
