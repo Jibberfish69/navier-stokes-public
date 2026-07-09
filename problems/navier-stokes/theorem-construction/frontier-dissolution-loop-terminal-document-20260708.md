@@ -1564,3 +1564,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 91 installs the correct CF scalar system; the two-row magnitude/direction induction, tier-zero regularization, C16 boundary routing, and capped-current insertion remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 92 stall report is accepted only after correction. The
+  sticking wall is not the queue's length; queue length is a workflow fact. The
+  physical/mathematical sticking wall is that the same evolving vorticity field
+  must run the coupled Constantin--Fefferman magnitude/direction system on the
+  tier, with the two-row induction, CF kernel cancellation, tier-zero/boundary
+  routing, and capped-current insertion written as one attackable certificate.
+  The newest three items remain mathematical facts: the two-row recurrence can
+  fail through superlinear coupling or uncontrolled window count; the \(D\)-factor
+  can fail if the classical cancellation covers only the stretching scalar and
+  not the needed direction action; and off-tier routing can fail if zeros, exits,
+  or tube-boundary flux create uncharged birth/exchange terms. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 92 files the corrected stall at the coupled CF scalar-system certificate plus capped ODE insertion; finite queue length is not a deletion certificate.
+REMAINING: W3, W7, W8, W9.
