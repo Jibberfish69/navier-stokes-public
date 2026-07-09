@@ -4387,3 +4387,23 @@ and Horn-B rebuild pricing in the W7/W8 same-selector ledger, evaluating
 \(C_{\mathrm{geo}}\), preserving transit orientation under the restoring
 current, and closing boundary-complete field payment, stranding, TV-to-one-way,
 \(\delta u\), and sweep/no-reuse in one selected currency.
+
+## Claude Cycle 257 Batchelor obstruction and \(\chi\) ratio
+
+Claude self-audited C256 and found a hidden Batchelor danger: if winding
+restoration does not beat strain-cascade injection, the arrival deviation
+Dirichlet stock can become \(Re\)-enhanced instead of staying at forcing scale.
+
+Codex accepts this as an important self-refutation and sharper obstruction. No
+deletion is paid. \(\chi\) is named but not evaluated; the C55 restoring current
+has not been proved to act at every deviation scale in the actual arrivals
+field; the strain-cascade spectrum and S-band/P2 class integrals are cited
+rather than computed; and the strongest rescue, finite window length preventing
+completion of the Batchelor cascade, is explicitly untested. C257 narrows the
+arrivals theorem to a sharper obstruction, but it does not certify
+\(C_{\mathrm{geo}}\), horn-A/Horn-B admission, boundary-complete field payment,
+stranding, TV-to-one-way, \(\delta u\), or sweep/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 257 accepts the Batchelor pile-up danger as a real self-refutation of C256's forcing-scale gradient assumption and reduces the arrivals-orientation theorem to the class ratio \(\chi>1\) or a finite-window cutoff, but W8 is not deleted because \(\chi\) is not evaluated, scale-independent C55 winding restoration is not proved on actual deviation scales, the strain-cascade and S-band/P2 class integrals are cited rather than computed, the window-length cutoff is explicitly untested, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
