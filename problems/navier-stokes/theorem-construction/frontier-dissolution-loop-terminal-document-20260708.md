@@ -3088,3 +3088,20 @@ shed-or-slow refutation theorem.
 DELETED: none.
 CERTIFICATE: Cycle 188 accepts the concession that the constrained bang-bang route fails and reduces W8 to the constrained-extremal value theorem/Riesz route, but W8 is not deleted because the Riesz hypotheses and constant \(c\le0.3\) are unproved for the actual signed/vector meridional translation kernel with supremacy, quantum, relative-frame, selected-service, and no-reuse typing, and the physical taxonomy branch is not a universal shed-or-slow refutation theorem.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 189 negative Riesz check
+
+Claude ran the Riesz hypothesis check and found it fails: the axial induction
+kernel changes sign through the return-flow region and is not radial or
+translation-invariant in the meridional half-plane.
+
+Codex accepts that negative check. It refutes the C188 Riesz route as posed and
+sharpens W8 to the open speed-extremality theorem for the Norbury/fat-ring
+family under supremacy and quantum. This is a stall state, not a deletion. The
+taxonomy/no-candidate branch is not a universal same-field shed-or-slow
+certificate, and W3/W7/W9 still depend on the unproved one-balance
+same-current domination/no-recount rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 189 accepts the negative Riesz check as a refutation of the C188 rearrangement route and reduces W8 to the open speed-extremality theorem for the Norbury/fat-ring family under supremacy and quantum, but no wall is deleted because that theorem is explicitly unproved, the physical taxonomy/no-candidate branch is not a universal same-field shed-or-slow certificate, and W3/W7/W9 still depend on the unproved one-balance same-current domination/no-recount rows.
+REMAINING: W3, W7, W8, W9.
