@@ -1672,7 +1672,9 @@ nonlinear-acceleration term in `(NIC.120)`.
 ## 19. Near-monochromatic record countersequence: no uniform spectral rigidity
 
 The zero-spread statement in §18 is exact, but it has no uniform extension to
-critical-height record upcrossings. On the normalized three-torus, let
+critical-height record upcrossings. In the exact Fourier-triad algebra
+(equivalently, on a flat three-torus whose reciprocal lattice contains the
+displayed vectors), let
 
 ```math
 \theta_\varepsilon=\frac{2\pi}{3}-\varepsilon,
@@ -1761,8 +1763,9 @@ P_\varepsilon=P_H(\phi_\varepsilon)>0
 \tag{NIC.134}
 ```
 
-and let `E_varepsilon`, `H_varepsilon`, and `D_varepsilon` denote its `L^2`,
-critical, and critical-dissipation quadratic norms. Choose
+Normalize `phi_varepsilon` so that its critical quadratic norm is one, and let
+`E_varepsilon` and `D_varepsilon` denote its `L^2` and critical-dissipation
+quadratic norms. Choose
 
 ```math
 c_\varepsilon
@@ -1794,7 +1797,7 @@ Exact Navier--Stokes scaling yields
 \longrightarrow0,
 \qquad
 H_{\rm crit}(u_\varepsilon)
-=c_\varepsilon^2H_\varepsilon\longrightarrow\infty,
+=c_\varepsilon^2\longrightarrow\infty,
 \tag{NIC.137}
 ```
 
