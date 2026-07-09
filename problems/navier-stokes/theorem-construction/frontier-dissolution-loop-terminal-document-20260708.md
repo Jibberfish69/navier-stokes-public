@@ -5676,3 +5676,82 @@ rather than eliminating it.
 DELETED: none.
 CERTIFICATE: Cycle 302 accepts the band-trim repair as a useful proposal, but no wall is deleted because interior neutrality on the trimmed sub-band is unproved, the Hill-end sliver is only migrated into Horn B whose generic rebuild/TV-to-one-way/stranding/sweep/no-reuse/\(\delta u\)/admission/clock pricing remains under gate, and the changed \(a/\delta\) band edge has not been propagated through the earlier interval constants, \(\beta\), \(N1\), ladder-at-\(\beta\), and coverage rows; \(\epsilon_{MM}\) is relocated, not eliminated.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 303 modulus rows
+
+Claude tried to pay the repaired L3-prime row by adding an \(L^1\)-from-\(L^2\)
+admission cap and citing the standing gross-arrivals budget as already
+modulus-native.
+
+Codex accepts the Cauchy--Schwarz line as a useful reduction once \(C_V\), the
+selected density, courier volume, and retained normalization are fixed.
+
+No deletion is paid. The arrivals row as filed identifies gross
+serviceable-sign arrivals with the selected \(m=0\) odd modulus front-cap
+current. That identity is not proved by modulus typing alone. The selected
+current still needs the same crossing measure, selector, cutoff/reseed
+convention, clock, projection dictionary, and no-double-count ledger. C302's
+trimmed-band neutrality and Horn-B migration remain under gate.
+
+DELETED: none.
+CERTIFICATE: Cycle 303 accepts the \(L^1\)-from-\(L^2\) admission line as a useful reduction, but no wall is deleted because C303's arrivals row identifies gross serviceable-sign arrivals with the selected \(m=0\) odd modulus front-cap current without proving the same crossing measure, selector, cutoff/reseed convention, clock, projection dictionary, and no-double-count ledger; \(C_V\), trimmed-band neutrality, and Horn-B pricing also remain uncertified.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 304 one-surviving-object convergence
+
+Claude named the generic rebuild-loss ladder as the one surviving written
+object: TV-identity floor, sweep sorting, rear fraction, and composition, plus
+the minimal neutrality anchor.
+
+Codex accepts this as a useful convergence trace and attack target.
+
+No deletion is paid. The exit condition requires each frozen wall to be
+terminally typed as a reduction to that object. C304 does not prove the exact
+map from W3 floor-uniformity, W7 closed-record/admission, W8 selected
+order-locked payment/no-reuse, and W9 clock ownership into the ladder. The
+ladder components still spend selected-current, TV-to-one-way, sweep/no-reuse,
+rear-fraction, Horn-B, admission, and clock certificates, and C303's arrivals
+projection is still open.
+
+DELETED: none.
+CERTIFICATE: Cycle 304 accepts the generic rebuild-loss ladder as the current one-surviving-written-object target, but no wall is deleted or terminally reduced because C304 does not provide exact typed reductions from W3, W7, W8, and W9 into the ladder, the ladder components still spend selected-current/TV-to-one-way/sweep/no-reuse/rear-fraction/Horn-B/admission/clock certificates, C303's arrivals projection remains open, and the minimal neutrality anchor is unproved.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 302-304
+
+Physical sentence of the sticking wall: the trimmed-band repair, modulus-arrival
+repair, and one-object convergence trace all point toward the same generic
+ladder, but the same selected current has not been typed through that ladder as
+W3 floor-uniformity, W7 closed record, W8 order-locked payment, and W9 clock
+ownership.
+
+Attempts: C302 moved the modulus cost into a trimmed-band/Horn-B split; C303
+tried to pay the remaining modulus rows by Cauchy--Schwarz and gross arrivals;
+C304 named the generic rebuild-loss ladder as the one surviving target.
+
+Missing exact fact: a terminal reduction map proving that the selected
+\(|a|\)-arrival projection, trimmed-band neutrality, Horn-B generic pricing,
+TV-to-one-way conversion, sweep/no-reuse, rear-fraction composition,
+admission, and clock rows are the same four-wall object, with every boundary,
+cutoff, reseed, selector, pressure, viscosity, and creation term assigned once.
+
+## Codex gate on Claude Cycle 305 arrivals projection
+
+Claude repaired C303 by distinguishing the selected odd influx from the whole
+gross arrival current and claiming the odd influx is an admission-capped
+projection of the gross arrival measure.
+
+Codex accepts the ontology correction: the odd influx is not the whole gross
+current.
+
+No deletion is paid. The new certificate is a projection-domination theorem on
+the same selected crossing measure. C305 must prove that dispatch admission
+travels with the arriving material through the selected record, without reseed
+or cutoff loss, adversarial mixing of dispatch windows, double counting, or
+clock drift. Re-using dispatch admission is still W7 closed-record and W8
+order-lock content until that record transport is certified. The transit share
+also inherits the smooth-generation, trimmed-neutrality, and Horn-B rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 305 accepts the admission-capped projection repair as the right replacement for C303's gross-arrivals equality, but no wall is deleted because the projection domination \(d\mu_{\mathrm{odd\ influx}}\le(0.1+\tau_{\mathrm{transit}})d\mu_{\mathrm{gross\ arrivals}}\) is not proved on the same selected crossing measure with dispatch-record closedness, selector equality, cutoff/reseed control, no adversarial window mixing, no double count, clock ownership, and certified transit-generation pricing; C305 is a strict reduction to that projection theorem, not a terminal certificate.
+REMAINING: W3, W7, W8, W9.
