@@ -574,3 +574,13 @@ None.
   plus terminal-window and zero-surplus closed-graph clauses. W3/W7/W8 do not
   supply those clauses, so the source-presentation assumption is corrected
   rather than paid as a deletion.
+- The W3-W8 pre-readout carrier domination gate refutes the scale-comparability
+  shortcut. Door 1 gives the \(H^1\)/enstrophy-viscous row as same-field payment
+  only after retained strict-tower selection and row admission; W8 requires
+  original-data first-ratio payment on an order-locked parent carrier fixed
+  before positive readout. The BFE.20 route table explicitly says a
+  future-tail-chosen weight/carrier is not order-locked and routes to
+  selector/recount/legal rather than W8 payment. W3 becomes a W8 consumer only
+  after a pre-readout parent-carrier map gives bounded Radon-Nikodym domination
+  of every selected Door-1 row by \(d\mu_{W8}\), with typed route-out of
+  non-announced or singular rows. No W3/W7/W8/W9 wall is deleted.
