@@ -4373,6 +4373,12 @@ Continuity gives a short interval of strict record growth on which the odd
 current is decreasing. Restricting `P_H` monotonicity to critical record times
 therefore does not restore an arrow.
 
+The same statement holds for real divergence-free Schwartz data on `R^3`.
+Localizing the finite carrier as in `(G59.12)` gives positive leading limits
+for `P_H` and `D`, and negative leading limits for `Q_E` and `Q_V`; after
+choosing the localization scale large and then the amplitude large relative to
+`nu`, both `R'>0` and `P_H'<0` persist. The complete limit is `(NIC.199)`.
+
 **Adversarial result.** The sector balances, spectral-variance identity,
 parity no-go, fixed-moment span construction, exact `P_H'` identity, both
 two-mode signs, and the record-growth counterexample survived independent Sol
