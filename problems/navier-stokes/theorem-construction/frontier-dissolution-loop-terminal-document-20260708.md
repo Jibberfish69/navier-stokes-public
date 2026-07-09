@@ -3727,3 +3727,20 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 230 accepts the oscillatory-source suppression mechanism and selected-projection line as a real reduction of C229's kernel-contraction burden, but W8 is not deleted because the cancellation ratio \(\kappa<1\) has not been evaluated for the actual maximizer profile, courier boundary, smoothing, and re-seeded front/rear selected-current ledger, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 231 monopole cancellation
+
+Claude evaluated the first term in the C230 contraction computation:
+\(\int\Delta\omega=0\) for a compactly supported source, so the Biot-Savart
+image begins at dipole order rather than monopole order.
+
+Codex accepts the monopole cancellation as real progress. No deletion is paid.
+The dipole bound \(\kappa\le C_{\mathrm{dipole}}h/\delta\), the license to
+choose smoothing width \(h\) without breaking smoothed-ledger equivalence, and
+the direct-term \(h\)-independence still have to be certified in the actual
+selected-current field. C223's TV-to-one-way conversion and the sweep/no-reuse
+split remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 231 accepts the divergence-theorem monopole cancellation \(\int\Delta\omega=0\) as real progress on C230's fixed-profile contraction computation, but W8 is not deleted because the dipole bound \(\kappa\le C_{\mathrm{dipole}}h/\delta\) has not been proved for the actual Biot-Savart source/kernel/boundary, the choice of smoothing width \(h\) has not been licensed against the smoothed selected-ledger equivalence constants, the direct-term \(h\)-independence is not certified in the same field, and C223's TV-to-one-way conversion plus the sweep/no-reuse split remain open.
+REMAINING: W3, W7, W8, W9.
