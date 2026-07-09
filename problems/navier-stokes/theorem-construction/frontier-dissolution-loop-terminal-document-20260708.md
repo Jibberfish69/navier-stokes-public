@@ -675,3 +675,14 @@ None.
   supplies it. BKM remains consumer-only in the checked route state, and W7
   graph closure, W8 carrier domination, and W9 compact shift/terminal clauses
   remain unproved. No wall is deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 14-15 saddle-selector gate accepts the straight-filament
+  self-neutrality computation as exact: \(z\)-uniform pressure has
+  \(\partial_z^2p=0\), so the previous self-supply margin is refuted. It also
+  accepts the pressure-saddle repair as a sharper target form. It does not
+  delete W9 because the subsidy inequality
+  \(e\cdot\nabla^2p\,e\le-\alpha^2+\nu R_\alpha\) is a Hessian row along a
+  transported direction, not the critical-point equation \(\nabla p=0\) or a
+  continuous saddle-branch/action certificate. Cycle 15 also explicitly leaves
+  rung-price summability unproved, so the neck-conversion mechanism is a sharper
+  recurrence model rather than W9 zero-surplus terminal closure. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
