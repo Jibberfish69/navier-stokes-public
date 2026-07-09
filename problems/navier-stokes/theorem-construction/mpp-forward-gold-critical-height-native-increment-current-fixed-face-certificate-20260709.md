@@ -2783,7 +2783,7 @@ a_n u(x_n+\ell_n y,t_n+a_n\ell_n\tau),
 The transformed equation is exactly
 
 ```math
-\partial_\tau v_n+B(v_n,v_n)+\nabla\pi_n
+\partial_\tau v_n+(v_n\cdot\nabla)v_n+\nabla\pi_n
 =\nu_n\Delta v_n,
 \qquad
 \boxed{\nu_n=\nu\frac{a_n}{\ell_n}}.
@@ -2937,7 +2937,7 @@ On every fixed backward interval, `(NIC.211)` bounds `v_n` in
 ```
 
 Local compactness therefore permits distributional subsequential limits on
-`(-infinity,0]`, but `(NIC.207)` does not make such a limit nonzero. Every
+the whole backward half-line, but `(NIC.207)` does not make such a limit nonzero. Every
 limit for which the nonlinear term passes is an ancient weak Euler solution,
 because `nu_n -> 0`.
 
@@ -3025,7 +3025,9 @@ HMIN supplies no positive relative helicity floor in this branch, and the
 vanishing/dichotomy examples above are not excluded by the inherited endpoint
 data. A broad ancient-Euler Liouville theorem cannot close the branch: smooth
 nonzero compactly supported steady Euler flows on `R^3` already satisfy the
-bounded ancient and zero-current conditions. The positive-viscosity arrow
+bounded ancient and zero-current conditions; see
+[Gavrilov](https://arxiv.org/abs/1810.08020) and
+[Constantin--La--Vicol](https://arxiv.org/abs/1903.11699). The positive-viscosity arrow
 could survive here only as an additional same-trajectory defect or history
 measure that is absent from `(NIC.207)--(NIC.220)`.
 
