@@ -3982,3 +3982,25 @@ TV-linearity and C283 pressure-sign/scope clauses are still inherited.
 DELETED: none.
 CERTIFICATE: Cycle 287 accepts the group-action derivative as an exact certificate for the rigid-tilt component, but no wall is deleted because the certificate still must prove selected-courier admission of all odd content into that rigid-tilt model, control the \(P_\perp(L\omega)/\rho\) readout near small-density/cutoff regions, write \(\Sigma_\sigma\) pair-product coverage in the same normalization, and bound reseed, leakage, non-rigid, C203/TV-linearity, and C283 pressure-sign/scope residues in the selected ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 288 provenance decomposition
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C288 tries
+to close the C287 model-to-actual gap by splitting odd content into admitted
+and grown provenance, but the grown provenance is not yet derived from the full
+selected equation.
+
+Codex accepts C288 as useful. The provenance split is the right place to test
+whether generic odd content is actually available to the adversary or only
+window-generated tilt content is.
+
+No deletion is paid. The make-row must be written from the selected evolution
+equation, with transport, strain, pressure, viscosity, selector/cutoff motion,
+reseed, and non-rigid terms assigned. The \(\alpha^2=E_a/E\) coordinate also
+needs a norm-splitting certificate before it can be priced as scalar
+\(0.1+0.2\). Low-\(\rho\) projection, C265 pair-product coverage, C203
+TV-linearity, and C283 pressure-sign/scope remain inherited gates.
+
+DELETED: none.
+CERTIFICATE: Cycle 288 accepts the admitted-versus-grown provenance split as useful progress, but no wall is deleted because the grown odd content is not proved from the selected evolution equation to be only the tilt-generator component, the \(\alpha^2=E_a/E\) coordinate needs an exact norm-splitting certificate for the admitted/grown worst-case arithmetic, the low-\(\rho\) projection and cutoff readouts remain untyped, C265 pair-product coverage is still inherited, and C203/TV-linearity plus C283 pressure-sign/scope residues remain open.
+REMAINING: W3, W7, W8, W9.
