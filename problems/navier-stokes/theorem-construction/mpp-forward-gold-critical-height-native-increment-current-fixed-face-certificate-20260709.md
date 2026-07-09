@@ -3038,7 +3038,7 @@ Euler; the canonical record bounds do not by themselves prevent the limit
 from vanishing. The efficient-current branch still requires current-retaining
 profile compactness plus a narrow Euler rigidity theorem. The zero-efficiency
 branch still requires a nontrivial viscous/history defect. This is a checked
-obstruction and strict branch reduction, not Gold closure.
+obstruction and exact exhaustive branch split, not Gold closure.
 
 ## 24. The HMIN null form gives weighted cross-scale overlap, not co-scale occupancy
 
