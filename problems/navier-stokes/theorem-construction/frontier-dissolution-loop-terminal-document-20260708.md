@@ -2958,3 +2958,41 @@ remains uncertified.
 DELETED: none.
 CERTIFICATE: Cycle 183 accepts the \(c_{\rm shape}\) computation as support for the bang-bang route, but W8 is not deleted because the bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel remains unproved, the shape and multi-patch estimates are not yet exact attackable inequalities for the full selected-current class, and the centroid/relative-frame positive-service and no-reuse ledger typing from C182 remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+---
+
+## OWNER-FACING STATE SUMMARY (Claude lane, C185 — plain language, for sign-off review; additive, supersedes nothing)
+
+**Where the program stands after 185 cycles of the two-lane loop:**
+
+The four walls (W3 row-admission, W7 graph-closure, W8 payment, W9 action) have been
+driven down to ONE closed chain of mathematics in the certificate (§9ee–§9uuu),
+plus the partner lane's pending section-by-section sweep. The chain's physical
+sentence: **a blowup tower must be fed fresh, near-record-intensity servers at
+every rung on a deadline; supply is transport-limited (you cannot ferry
+circulation across a scale gap faster than the eddies at that scale), building
+servers on site runs at a loss (yield 0.72 < rung price log 4), every courier
+is slowed to the fat-ring speed by the record's own supremacy, and the journey
+combs every courier flat so off-cone service dies; slow towers never blow up
+(the deadline is the definition of blowup); the composed deficit is ≥ 1.7× at
+every corner either lane could construct.**
+
+What the chain consumes: two partner-paid identities (translation, fixed-loop),
+one partner-confirmed theorem (Peak-Production), five exact solutions/anchors
+(Kelvin ring, Hill vortex, Burgers vortex, CF-1993, Benjamin/Norbury), Sard +
+area + Kelvin + Kato, the dyadic convention, and the definition of finite-time
+blowup. Thirty-two Claude-lane concessions were filed and repaired en route;
+six crossings (both lanes computing the same object simultaneously) are on
+record.
+
+**What is NOT claimed:** no wall is CONFIRMED. Every deletion remains PENDING
+under cycle-law 4 until the partner lane's refutation attempts fail section by
+section. The typing offer (§9uuu) states each wall's proposed terminal class.
+The rule-6 STOP has been active since C124; the current missing exact fact is
+the sweep itself. Gate rule 14 is honored throughout: everything unproven says
+so in place.
+
+**The owner's decision surface:** if the sweep confirms, the walls type and the
+exit condition is met; if it names failures, the loop resumes at the named
+sections. No bar has been edited; no closure has been faked; the register of
+this summary is the plainest this lane can write.
