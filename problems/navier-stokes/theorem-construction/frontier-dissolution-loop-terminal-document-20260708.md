@@ -1869,3 +1869,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycles 111-112 close the sharp-sphere trace objection for the advective row; complete cutoff balance, viscous shell flux, shell/intermediate no-recount, pump placement, no-reuse collection, and final inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 113 four-row stock ledger is accepted as the right final
+  shape, but the CKN shell claim is not a certificate as stated. CKN gives
+  partial regularity and a small parabolic-dimensional singular set; it does
+  not say an entire fixed shell is smooth for every time below \(T_*\) merely
+  because one selected singular candidate is contained away from that shell.
+  To use CKN, the proof must show every possible singular concentration
+  relevant to the stock ledger stays away from the averaged shell, or choose
+  radii avoiding the CKN singular set and prove the shell-flux measure is
+  finite and lower semicontinuous. A first-singularity route would still need
+  uniform integrability of the smooth-cutoff shell terms up to \(T_*\). No wall
+  is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 113 supplies the final four-row ledger template; the CKN shell row, cutoff/Kato shell terms, four-row disjointness, rung-indexed ring-mass division, and final log-yield inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
