@@ -1951,3 +1951,288 @@ the NS scaling. Therefore the spectral-moment route stops at an occupancy
 bound, not a peak bound. Closing Gold requires a signed one-field history fact
 that these radial moments discard; neither `Q_m` nor Leray occupancy supplies
 it.
+
+## 21. Exact full-field helical participation barrier
+
+This section uses the two helicity signs only as orthogonal readouts of the
+same velocity field. They are not separate fluids, carriers, or stores.
+
+On divergence-free fields set
+
+```math
+\mathcal C=\Lambda^{-1}\operatorname{curl},
+\qquad
+\Pi_s=\frac12(I+s\mathcal C),
+\qquad s\in\{+1,-1\},
+\tag{NIC.150}
+```
+
+and write `u_s=Pi_s u`. Then
+
+```math
+\operatorname{curl}u_s=s\Lambda u_s,
+\qquad
+u=u_++u_-,
+\qquad
+\langle\Lambda^\alpha u_+,\Lambda^\alpha u_-\rangle=0.
+\tag{NIC.151}
+```
+
+Define
+
+```math
+R_s=\|\Lambda^{1/2}u_s\|_2^2,
+\qquad
+D_s=\|\Lambda^{3/2}u_s\|_2^2,
+\tag{NIC.152}
+```
+
+and, with `B=P div(u tensor u)`, define
+
+```math
+P_s=-\langle B,\Lambda u_s\rangle,
+\qquad
+P_H=-\langle B,\Lambda u\rangle=P_++P_-.
+\tag{NIC.153}
+```
+
+### 21.1 Equal nonlinear production in the two readouts
+
+The Euler nonlinearity conserves helicity pointwise in the full field:
+
+```math
+\langle B,\operatorname{curl}u\rangle
+=\int (u\cdot\nabla u)\cdot\omega\,dx
+=0.
+\tag{NIC.154}
+```
+
+Indeed,
+
+```math
+(u\cdot\nabla)u
+=\nabla\frac{|u|^2}{2}-u\times\omega,
+```
+
+and both terms have zero pairing with `omega`. Since
+`curl u=Lambda u_+-Lambda u_-`, `(NIC.154)` gives
+
+```math
+\boxed{P_+=P_-=\frac12P_H.}
+\tag{NIC.155}
+```
+
+Consequently every smooth Navier--Stokes epoch satisfies
+
+```math
+\boxed{
+\frac12R_s'+\nu D_s=\frac12P_H,
+\qquad s\in\{+1,-1\}.
+}
+\tag{NIC.156}
+```
+
+In particular, the cubic critical production vanishes on either pure-helicity
+slice. This is an instantaneous cancellation, not a claim that a pure slice is
+invariant under the full Navier--Stokes evolution.
+
+### 21.2 Opposite-helicity output null estimate
+
+The endpoint estimate needed below is not the false embedding
+`Hdot^{3/2} into L-infinity`. It follows from a helical output null form.
+
+**Lemma.** If `v=Pi_s v` is a Schwartz divergence-free field, then
+
+```math
+\boxed{
+\|\Pi_{-s}(v\times\Lambda v)\|_{\dot H^{1/2}}
+\le C\|v\|_{\dot H^{3/2}}^2.
+}
+\tag{NIC.157}
+```
+
+To see the symbol cancellation, use the Fourier projector
+
+```math
+\Pi_s(\xi)
+=\frac12\left(
+I-\widehat\xi\otimes\widehat\xi
++s\,i\widehat\xi\times
+\right).
+\tag{NIC.158}
+```
+
+Let `x` lie in the range of `Pi_s(p)`. For every vector `y`,
+
+```math
+\Pi_{-s}(p)(x\times y)=0.
+\tag{NIC.159}
+```
+
+For the exact verification, decompose `y` into its part parallel to `p` and
+its part perpendicular to `p`. The cross product of two vectors perpendicular
+to `p` is parallel to `p` and is removed by the Leray projection. Also,
+`x cross p_hat` is a scalar multiple of `x`, so its surviving transverse part
+has helicity `s` and is removed by `Pi_{-s}`.
+
+If `k=p+q` and `|p|>=2|q|`, Lipschitz dependence of `(NIC.158)` on direction
+therefore gives
+
+```math
+|\Pi_{-s}(k)(x\times y)|
+\le C\frac{|q|}{|p|}|x|\,|y|.
+\tag{NIC.160}
+```
+
+Apply this with the higher-frequency input in the `x` slot. The bilinear
+symbol of `Pi_{-s}(v cross Lambda v)` is bounded by
+
+```math
+C\min\{|p|,|q|\}.
+\tag{NIC.161}
+```
+
+Here is the endpoint summation. Let `v_j=Delta_j v` and
+
+```math
+A_j=2^{3j/2}\|v_j\|_2.
+```
+
+For a high--low interaction `n<=m-4`, `(NIC.161)`, Bernstein, and the fact
+that the output has frequency comparable to `2^m` give
+
+```math
+2^{m/2}
+\|\Delta_m\Pi_{-s}(v_m\times\Lambda v_n
++v_n\times\Lambda v_m)\|_2
+\le C2^{n-m}A_mA_n.
+\tag{NIC.162}
+```
+
+For `|m-n|<=3` and output frequency `2^ell`, where `ell<=m+C`, Cauchy--Schwarz
+in Fourier space and the output-volume factor give
+
+```math
+2^{\ell/2}
+\|\Delta_\ell\Pi_{-s}(v_m\times\Lambda v_n)\|_2
+\le C2^{-2(m-\ell)}A_mA_n.
+\tag{NIC.163}
+```
+
+The kernels `2^{n-m}` and `2^{-2(m-ell)}` are summable. Taking the `ell^2`
+norm in the output index yields `(NIC.157)` because
+`||A||_{ell^2}=||v||_{Hdot^{3/2}}`. Thus the endpoint carries no hidden
+logarithmic loss.
+
+### 21.3 The minority-helicity critical estimate
+
+The critical production has the exact one-field form
+
+```math
+\boxed{
+P_H
+=2\int (u_++u_-)
+\cdot(\Lambda u_+\times\Lambda u_-)\,dx.
+}
+\tag{NIC.164}
+```
+
+This follows directly from
+`(u dot grad)u=grad(|u|^2/2)-u cross omega` and
+`omega=Lambda u_+-Lambda u_-`.
+
+Assume first that `||u_-||_{Hdot^{1/2}}` is the smaller critical readout. The
+term linear in `u_-` is bounded using `(NIC.157)`:
+
+```math
+\begin{aligned}
+\left|\int u_+\cdot
+(\Lambda u_+\times\Lambda u_-)\,dx\right|
+&=\left|\left\langle
+\Lambda u_-,u_+\times\Lambda u_+
+\right\rangle\right|\\
+&\le
+C\|u_-\|_{\dot H^{1/2}}
+\|u_+\|_{\dot H^{3/2}}^2.
+\end{aligned}
+\tag{NIC.165}
+```
+
+The term containing two `u_-` factors is controlled by
+`Hdot^{1/2} into L^3`:
+
+```math
+\left|\int u_-\cdot
+(\Lambda u_+\times\Lambda u_-)\,dx\right|
+\le
+C\|u_-\|_{\dot H^{1/2}}
+\|u_+\|_{\dot H^{3/2}}
+\|u_-\|_{\dot H^{3/2}}.
+\tag{NIC.166}
+```
+
+Interchanging the two signs gives the same estimate when the `+` readout is
+smaller. Therefore
+
+```math
+\boxed{
+|P_H(u)|
+\le
+C\min_{s\in\{+,-\}}
+\|u_s\|_{\dot H^{1/2}}
+\|u\|_{\dot H^{3/2}}^2.
+}
+\tag{NIC.167}
+```
+
+This is an estimate for the full Navier--Stokes cubic. No isolated Waleffe
+relay or independently evolving helical component has been introduced.
+
+### 21.4 Exact record consequence and exact limit
+
+Let
+
+```math
+R=R_++R_-,
+\qquad
+D=D_++D_-,
+\qquad
+h_{\min}=\min\{R_+^{1/2},R_-^{1/2}\}.
+```
+
+The critical balance and `(NIC.167)` give
+
+```math
+\boxed{
+\frac12R'+(\nu-Ch_{\min})D\le0.
+}
+\tag{NIC.168}
+```
+
+Hence every nonzero smooth time with `R'>=0` obeys
+
+```math
+\boxed{
+h_{\min}\ge\frac\nu C.
+}
+\tag{NIC.169}
+```
+
+Physically: the one fluid cannot increase its critical height through a
+single handedness. Both curl signs must be present in the same field at a
+scale-invariant critical amplitude. This is the exact full-field version of a
+mixed-helicity participation condition.
+
+It is not a finite Gold reserve. Under the Navier--Stokes scaling
+
+```math
+v_\lambda(x)=\lambda v(\lambda x),
+```
+
+both `Hdot^{1/2}` helical norms in `(NIC.169)` are unchanged, while
+`||v_lambda||_2^2=lambda^{-1}||v||_2^2` and
+`||v_lambda||_{Hdot^{3/2}}^2=lambda^2||v||_{Hdot^{3/2}}^2`.
+Thus the participation threshold can recur at smaller scales with summable
+physical energy and compressed time. The estimate proves a strict reduction
+of any Gold counterhistory to a mixed-helicity critical record; it supplies no
+event count, no one-way loss, and no bound on record height.
