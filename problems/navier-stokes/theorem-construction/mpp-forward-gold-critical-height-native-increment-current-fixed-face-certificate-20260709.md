@@ -2936,10 +2936,15 @@ On every fixed backward interval, `(NIC.211)` bounds `v_n` in
 \tag{NIC.214}
 ```
 
-Local compactness therefore permits distributional subsequential limits on
-the whole backward half-line, but `(NIC.207)` does not make such a limit nonzero. Every
-limit for which the nonlinear term passes is an ancient weak Euler solution,
-because `nu_n -> 0`.
+After multiplication by a fixed spatial cutoff, `(NIC.211)--(NIC.214)` bound
+`v_n` in `L^\infty_\tau H^{1/2}_{loc}` and `partial_tau v_n` in
+`L^\infty_\tau H^{-2}_{loc}`. Rellich compactness, time interpolation, and a
+diagonal extraction give strong local `L^2` convergence on every compact
+backward cylinder. Hence `v_n tensor v_n` converges strongly in `L^1_{loc}`,
+the nonlinear term passes, and `nu_n Delta v_n -> 0` distributionally. The
+resulting ancient weak Euler limit may be zero: the endpoint equalities
+`R(v_n(0))=D(v_n(0))=1` and the cubic current do not pass through this weak
+compactness statement.
 
 ### 23.3 Endpoint normalization does not prevent vanishing
 
@@ -2954,11 +2959,32 @@ N^{-1/2}\sum_{j=1}^Nw(x-x_{j,N}).
 \tag{NIC.215}
 ```
 
-The centers can be chosen so that the sum of every off-diagonal quadratic
-pairing in `R` and `D`, and every mixed term in the trilinear form `P_H`, is
-`o(1)` after the displayed `N^{-1/2}` normalization. This follows from the
-Riemann--Lebesgue lemma for the compact-Fourier quadratic and trilinear
-multipliers. Hence
+Let `q_N=min_{i!=j}|x_{i,N}-x_{j,N}|` and write
+`T(f,g,h)` for the trilinear polarization of `P_H`. Riemann--Lebesgue permits
+the centers to be chosen so that
+
+```math
+N\sup_{|h|\ge q_N}
+\left|
+\langle\Lambda^s w,T_h\Lambda^s w\rangle
+\right|
+\longrightarrow0,
+\qquad s\in\left\{\frac12,\frac32\right\},
+\tag{NIC.215a}
+```
+
+and
+
+```math
+N^{3/2}
+\sup_{\max\{|a|,|b|,|a-b|\}\ge q_N}
+|T(w,T_aw,T_bw)|
+\longrightarrow0.
+\tag{NIC.215b}
+```
+
+These bounds control the complete sums of off-diagonal quadratic pairings and
+mixed cubic terms. Hence
 
 ```math
 R(w_N)\longrightarrow R(w),
@@ -2969,7 +2995,17 @@ P_H(w_N)=O(N^{-1/2})+o(1).
 \tag{NIC.216}
 ```
 
-After one bounded amplitude and spatial rescaling, call the result `z_N`; then
+With `S_\lambda f(x)=\lambda f(\lambda x)`, set exactly
+
+```math
+z_N
+=
+R(w_N)^{-1/2}
+S_{\sqrt{R(w_N)/D(w_N)}}w_N.
+\tag{NIC.216a}
+```
+
+The two factors remain bounded above and below, and
 
 ```math
 R(z_N)=D(z_N)=1,
@@ -2990,9 +3026,9 @@ ball radius `A`,
 \tag{NIC.217a}
 ```
 
-Any translated ball of radius `A` is close to at most one center. That one
-copy has size `N^{-1/2}`, and `(NIC.217a)` kills the sum of all remaining
-Schwartz tails. Thus every translated subsequence converges locally to zero.
+Any translated ball of radius `A` is close to at most one center/core. That
+core has size `N^{-1/2}`, and `(NIC.217a)` makes the uniformly summed remote
+Schwartz tails `o(1)`. Thus every translated subsequence converges locally to zero.
 The exact endpoint bounds in
 `(NIC.207)` admit spatial vanishing. Analogous low/high-frequency pairs give
 frequency dichotomy: the low component can carry almost all of `R`, while a
@@ -3015,11 +3051,13 @@ If
 ```
 
 then `(NIC.210)` gives a nonzero relative critical fraction in both helical
-sectors. The nonzero cubic current also rules out the explicit vanishing
-model `(NIC.215)` in any topology that retains `P_H`. What remains unproved
-is the inverse/profile compactness theorem that retains this current and the
-terminal record property in one nonzero Euler profile, followed by a rigidity
-theorem for that narrower profile class.
+sectors at the terminal time. This is only a global norm lower bound: it does
+not put both signs or their cubic interaction into one profile. The nonzero
+cubic current rules out the explicit vanishing model `(NIC.215)` only in a
+topology that retains `P_H`. What remains unproved is the inverse/profile
+compactness theorem that retains this current and the terminal record property
+in one nonzero Euler profile, followed by a rigidity theorem for that narrower
+profile class.
 
 If instead
 
@@ -3043,9 +3081,10 @@ data. A broad ancient-Euler Liouville theorem cannot close the branch: smooth
 nonzero compactly supported steady Euler flows on `R^3` already satisfy the
 bounded ancient and zero-current conditions; see
 [Gavrilov](https://arxiv.org/abs/1810.08020) and
-[Constantin--La--Vicol](https://arxiv.org/abs/1903.11699). The positive-viscosity arrow
-could survive here only as an additional same-trajectory defect or history
-measure that is absent from `(NIC.207)--(NIC.220)`.
+[Constantin--La--Vicol](https://arxiv.org/abs/1903.11699). This does not refute
+a narrower rigidity/UCP theorem carrying inherited terminal geometry or
+history. Such a narrow inherited Euler class and an additional same-trajectory
+defect/history measure are both open possible mechanisms.
 
 **Result of this section.** Critical-record normalization has an exact
 viscosity--compactness incompatibility. A bounded nonzero critical sequence
@@ -3053,8 +3092,10 @@ necessarily loses the classical viscous term and can converge only toward
 Euler; the canonical record bounds do not by themselves prevent the limit
 from vanishing. The efficient-current branch still requires current-retaining
 profile compactness plus a narrow Euler rigidity theorem. The zero-efficiency
-branch still requires a nontrivial viscous/history defect. This is a checked
-obstruction and exact exhaustive branch split, not Gold closure.
+branch has no preferred proved closure mechanism: narrow inherited Euler
+rigidity and a nontrivial viscous/history defect are both open. This is a
+checked scaling/compactness obstruction and exact exhaustive case split, not
+Gold closure.
 
 ## 24. The HMIN null form gives weighted cross-scale overlap, not co-scale occupancy
 
