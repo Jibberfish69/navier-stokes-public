@@ -3122,3 +3122,104 @@ either way. CLAIMED as my next piece.
 front branch's exact form; the sparsity mechanism is an observation with a
 computation owed, not a result. Cycle branch: zero-hazard anchor proven
 (D ≡ 0 ⟹ affine ⟹ 0), ε-version open. Gold open on both branches.
+
+## 49. CODEX GATE ON THE FRONT RATIO: two-point realizability is exact; sparsity moves the ratio the wrong way
+
+The missing realizability identity can be computed exactly. With
+
+```math
+Z(t)=\int|\nabla u|^2dx,
+\tag{G49.1}
+```
+
+the structure functions satisfy
+
+```math
+\boxed{
+D(h,t)=2[Z(t)-\Delta_hE(h,t)].
+}
+\tag{G49.2}
+```
+
+Consequently the correlation `C=||u||_2^2-E` obeys
+
+```math
+\boxed{
+(\partial_t-2\nu\Delta_h)C
+=\frac12\nabla_h\cdot F.
+}
+\tag{G49.3}
+```
+
+This is the exact two-point NS constraint absent from the scalar model in
+§47. It does not imply the front-ratio bound.
+
+For any smooth divergence-free `phi`, amplitude multiplication gives
+
+```math
+E[A\phi]=A^2E[\phi],
+\qquad
+D[A\phi]=A^2D[\phi],
+\qquad
+F[A\phi]=A^3F[\phi].
+\tag{G49.4}
+```
+
+Hence
+
+```math
+b[A\phi]=A b[\phi],
+\qquad
+\kappa[A\phi]=\kappa[\phi],
+\qquad
+\frac{\nu(D/E)}{|\dot\rho|}[A\phi]
+=\frac1A
+\frac{\nu(D/E)}{|\dot\rho|}[\phi].
+\tag{G49.5}
+```
+
+Choose `phi` compactly concentrated in one scale-local atom with `P_H(phi)>0`.
+For large `A`, the NS derivative
+
+```math
+\frac d{dt}H_{\rm crit}(A\phi)
+=A^3P_H(\phi)-\nu A^2D_{\rm crit}(\phi)
+\tag{G49.6}
+```
+
+is positive, while `(G49.5)` makes the front ratio arbitrarily small. Thus the
+displayed `>=4` claim is false even on a smooth, one-atom, record-upcrossing
+segment. Restricting the claim to a later tower does not repair its scaling:
+the retained amplitude grows there rather than remaining fixed.
+
+The proposed sparsity direction is also reversed. For a frequency-`1/r` atom
+of amplitude `v` occupying a fraction `sigma` of a scale-`r` cell,
+
+```math
+H_{\rm atom}\simeq\sigma v^2r^2,
+\qquad
+\frac{\nu(D/E)}{|\dot\rho|}
+\simeq\frac{\nu}{rv}
+\simeq\frac{\nu\sqrt\sigma}{\sqrt{H_{\rm atom}}}.
+\tag{G49.7}
+```
+
+At fixed retained critical mass, smaller support forces larger amplitude and
+lowers the ratio. Extra gradients from a smaller thickness `ell` change the
+active frequency to `1/ell`; retaining `r` as the scale while spending the
+`ell`-drain counts the localization twice. H2's statement that the record lies
+in one atom supplies no subcell sparsity exponent in any event.
+
+The stochastic remark also needs one distinction. Common Brownian noise
+cancels from a material-label difference, but `(G49.3)` contains relative
+`h`-space diffusion with generator `2 nu Delta_h`, corresponding in the heat
+part to independent relative noise `sqrt(4 nu)dB`. This is an exact
+irreversible two-point mechanism. Its Duhamel forcing is the same
+sign-indefinite `div_h F/2`, and under `(G49.4)` the nonlinear drift still
+dominates it at large amplitude. It therefore does not close the front branch.
+
+**Gate result.** The front-ratio floor is refuted, and single-atom sparsity
+cannot rescue it. Two-point realizability removes the freely chosen scalar
+model but leaves Euler-like low-hazard record fronts lawful at the level needed
+for this estimate. Gold still requires an independently bounded history charge
+or a non-coercive rigidity excluding those fronts.
