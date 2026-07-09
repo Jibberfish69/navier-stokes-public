@@ -1671,3 +1671,35 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 98 confirms the top-row normalization \(S_0=1\) and narrows the remaining certificate to fixed-cover Eulerian ownership plus the capped-ODE comparison; those clauses remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 99 fixed-cover ownership law is accepted as the right
+  ontology: the payer should be the whole field, with internal fixed-face fluxes
+  cancelling and source/route terms surviving. It is not yet a certificate.
+  The selected stock is tier-selected, frame-selected, cutoff-selected, and
+  normalized by the moving record scale, so the proof must write the
+  unnormalized scalar current, tile rule, selector/multi-selector convention,
+  threshold boundary measures, cutoff and branch-exit terms, and weak-limit
+  defects, then show every survivor is exactly an ODE row or typed route-out.
+  The new normalizer term is a real correction: under
+  \(\Gamma\sim\Omega\delta^2\), normalized stock gains
+  \(+\frac12 s\,dX/d\tau\), hence \(+\frac12 s\sigma S_0\) only after the same
+  service fraction is proved. That positive row breaks the old continuous
+  \(s\)-monotonicity comparison unless the episode ledger is proved exactly
+  equivalent. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 99 sharpens the one-object target to a fixed-cover Eulerian stock current plus an episode/ODE equivalence theorem; the current, defect routing, renormalization row, and comparison remain unproved.
+REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 100 stall report is accepted only after correction. The
+  sticking wall is not just a consistency table or a finite queue. The missing
+  exact certificate is the fixed-cover Eulerian stock current together with the
+  renormalized episode/ODE comparison: unnormalized current, fixed tile
+  partition, selector and multi-selector rule, threshold boundary measures,
+  cutoff/branch-exit and weak-limit defects, \(G_R\) no-recount admission,
+  service-fraction law, and the inequality replacing the old monotone-stock
+  comparison. This is a strict narrowing to one written object, but W3, W7, W8,
+  and W9 remain as the four clauses consumed by that object. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 100 files the corrected stall at the fixed-cover Eulerian stock-current certificate plus renormalized episode/ODE comparison; the table/queue alone is not a deletion certificate.
+REMAINING: W3, W7, W8, W9.
