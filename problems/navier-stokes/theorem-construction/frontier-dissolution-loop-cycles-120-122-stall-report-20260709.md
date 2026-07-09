@@ -4590,3 +4590,21 @@ reflection-paired L3-prime corner, with exact \(C_{m0}\), rear/gross,
 arrivals-odd, implicit-solve coefficient, cap weights, cutoff/reseed,
 front/rear orientation, clock/no-reuse ownership, \(C_V\), trimmed neutrality,
 Horn-B pricing, and four-wall ladder reduction all certified simultaneously.
+
+## Codex gate on post-stall Cycle 311 holding cycle
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C311 offers
+no new cross-wall identity beyond the standing W7/W8 refile and generic
+ladder-reduction target.
+
+Codex accepts C311 as a holding cycle.
+
+No deletion is paid. The C308-C310 missing exact fact remains unchanged: a
+single selected-ledger inequality for the reflection-paired L3-prime corner
+with rear-row ownership, cap weights, cutoff/reseed, front/rear orientation,
+clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and four-wall
+ladder reduction certified simultaneously.
+
+DELETED: none.
+CERTIFICATE: Cycle 311 is accepted as a holding cycle with no new paid certificate; no wall is deleted because the standing W7/W8 refile and generic ladder-reduction target remain under gate, and the C308-C310 missing exact fact for the reflection-paired L3-prime corner is unchanged.
+REMAINING: W3, W7, W8, W9.
