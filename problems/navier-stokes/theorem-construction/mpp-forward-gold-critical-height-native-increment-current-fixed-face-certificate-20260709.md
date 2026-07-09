@@ -2944,8 +2944,8 @@ because `nu_n -> 0`.
 ### 23.3 Endpoint normalization does not prevent vanishing
 
 The missing nontriviality is genuine. Fix a nonzero divergence-free Schwartz
-field `w` with compact Fourier support. Choose points `x_{j,N}` whose mutual
-distances tend to infinity sufficiently fast and set
+field `w` with smooth compact Fourier support in an annulus. For each `N`,
+choose points `x_{j,N}` by a diagonal separation argument and set
 
 ```math
 w_N(x)
@@ -2954,8 +2954,11 @@ N^{-1/2}\sum_{j=1}^Nw(x-x_{j,N}).
 \tag{NIC.215}
 ```
 
-Translation orthogonality in every displayed homogeneous Sobolev inner
-product gives
+The centers can be chosen so that the sum of every off-diagonal quadratic
+pairing in `R` and `D`, and every mixed term in the trilinear form `P_H`, is
+`o(1)` after the displayed `N^{-1/2}` normalization. This follows from the
+Riemann--Lebesgue lemma for the compact-Fourier quadratic and trilinear
+multipliers. Hence
 
 ```math
 R(w_N)\longrightarrow R(w),
@@ -2975,9 +2978,22 @@ P_H(z_N)\longrightarrow0,
 \tag{NIC.217}
 ```
 
-while every translated subsequence converges locally to zero: a fixed ball
-meets at most one component of size `N^{-1/2}` once the centers have been
-chosen sufficiently far apart. Thus the exact endpoint bounds in
+The separation can simultaneously be made quantitative. If `L_N` is the
+minimum distance between centers, choose it so rapidly that, for every fixed
+ball radius `A`,
+
+```math
+\sqrt N
+\sup_{|x|\ge L_N/3-A}
+\sum_{|\alpha|\le2}|\partial^\alpha w(x)|
+\longrightarrow0.
+\tag{NIC.217a}
+```
+
+Any translated ball of radius `A` is close to at most one center. That one
+copy has size `N^{-1/2}`, and `(NIC.217a)` kills the sum of all remaining
+Schwartz tails. Thus every translated subsequence converges locally to zero.
+The exact endpoint bounds in
 `(NIC.207)` admit spatial vanishing. Analogous low/high-frequency pairs give
 frequency dichotomy: the low component can carry almost all of `R`, while a
 critical-mass `O(lambda^{-2})` component at frequency `lambda -> infinity`
