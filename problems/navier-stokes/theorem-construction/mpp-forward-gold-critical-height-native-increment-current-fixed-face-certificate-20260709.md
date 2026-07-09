@@ -947,3 +947,131 @@ uniformly because its Leray cost is `O(r)`. The remaining theorem is therefore
 a sign/no-return statement for the scale flux in `(NIC.69)` on record
 intervals. This field-level formulation bypasses pressure-Hessian closure but
 does not manufacture the missing irreversible scale-critical sign.
+
+## 12. A record upcrossing does not force inward flux at every separation
+
+The pointwise-in-scale version of the remaining sign statement is false. An
+exact Fourier triad gives a smooth same-field counterexample.
+
+Work first on the normalized three-torus. Let
+
+```math
+k=(3,0,0),\qquad p=(0,4,0),\qquad q=(-3,-4,0),
+\qquad k+p+q=0,
+\tag{NIC.71}
+```
+
+and prescribe the positive-frequency coefficients
+
+```math
+\widehat u(k)=A(0,-1,0),\qquad
+\widehat u(p)=A(0,0,-1),\qquad
+\widehat u(q)=iA(0,0,1),
+\tag{NIC.72}
+```
+
+with conjugate coefficients at the negative frequencies. These coefficients
+are divergence free. For
+
+```math
+N_m=-i\mathbb P_m
+\sum_{\ell+n=m}(\widehat u(\ell)\cdot n)\widehat u(n),
+\qquad
+T_m=\operatorname{Re}(\overline{\widehat u(m)}\cdot N_m),
+\tag{NIC.73}
+```
+
+direct substitution gives
+
+```math
+T_k=0,\qquad T_p=-4A^3,\qquad T_q=4A^3.
+\tag{NIC.74}
+```
+
+Energy is conserved by the triad, but its critical weighted production is
+
+```math
+\sum_{m\in\{k,p,q\}}|m|T_m
+=-4(4)A^3+5(4)A^3
+=4A^3>0.
+\tag{NIC.75}
+```
+
+Including viscosity, the derivative of the normalized critical quadratic is
+
+```math
+\frac d{dt}H_{\rm crit}(0)
+=8A^3-2\nu(3^3+4^3+5^3)A^2
+=8A^3-432\nu A^2.
+\tag{NIC.76}
+```
+
+It is positive for `A>54 nu`. Local smooth well-posedness and continuity then
+give a nontrivial interval on which `H_crit` is strictly increasing and every
+time is a new record time.
+
+The cumulative separation flux nevertheless points outward at another
+separation. Parseval gives
+
+```math
+\left.\partial_t\mathscr E(r,t)\right|_{\rm nl}
+=4\sum_m T_m I(|m|,r),
+\qquad
+I(K,r)
+=4\pi\left[
+\frac{r^3}{3}
+-\frac{\sin(Kr)-Kr\cos(Kr)}{K^3}
+\right].
+\tag{NIC.77}
+```
+
+At `r=pi`,
+
+```math
+I(K,\pi)
+=\frac{4\pi^4}{3}
++\frac{4\pi^2(-1)^K}{K^2}.
+\tag{NIC.78}
+```
+
+Since `T_k+T_p+T_q=0`, the volume term cancels and `(NIC.74)` yields
+
+```math
+\Phi_{\rm in}(\pi,0)
+=4\sum_mT_mI(|m|,\pi)
+=-\frac{164\pi^2}{25}A^3
+<0.
+\tag{NIC.79}
+```
+
+Thus the same smooth field has positive critical-height production and
+strictly outward cumulative separation flux at `r=pi`. The separation flux is
+a filtered scale readout, not a pointwise monotone cascade counter.
+
+The example transfers to finite-energy whole-space data. Replace each of the
+six Fourier atoms in `(NIC.72)` by a conjugate pair of sufficiently narrow
+smooth bumps, apply the Leray projector on each bump, and keep the resonant
+relation `(NIC.71)`. The cubic multipliers defining critical production and
+`Phi_in(pi)` are continuous near these nonzero frequencies. After division by
+their common positive bump-overlap factor, their values converge to
+`(NIC.75)` and `(NIC.79)`. The strict signs therefore persist for a real
+Schwartz divergence-free field on `R^3`; increasing `A` again dominates the
+quadratic viscous row.
+
+There is an exact weighted relation explaining the coexistence:
+
+```math
+H_{\rm crit}(t)
+=2c_\Lambda\int_0^\infty r^{-5}\mathscr E(r,t)\,dr,
+\qquad
+P_H(t)
+=2c_\Lambda\int_0^\infty r^{-5}\Phi_{\rm in}(r,t)\,dr.
+\tag{NIC.80}
+```
+
+A record upcrossing constrains this weighted integral, not the sign of every
+`Phi_in(r,t)`. Hence a fixed-scale no-return theorem is refuted. A surviving
+statement must be history-adaptive and control record-selected gross weighted
+flux across scales. Without an independently bounded critical storage or an
+absorbable differential inequality, that gross-flux statement is the Gold
+reserve itself rather than a smaller consequence of `(NIC.69)`.
