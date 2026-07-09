@@ -3261,6 +3261,47 @@ unexploited. Gold = one branch: the history charge / front-exclusion
 rigidity, now equipped with an exact parabolic constraint. Open. No closure
 claimed.
 
+## 51. THE BACKWARD-MEMORY READING: memory-horizon and maintenance are exact; the history charge is NOT extracted (2026-07-09)
+
+Working the parabolic constraint (∂_t − 2νΔ_h)C = ½∇_h·F for the history
+charge. Two exact structural facts; one honest negative.
+
+**Memory-horizon lemma (exact, Duhamel).** C = ∫e^{2ν(t−s)Δ_h}(½∇_h·F)(s)ds:
+content at scale r reflects only flux history within lag ≲ r²/ν; older
+contributions have diffused to coarser scales. The front CANNOT pre-bank
+fine-scale decorrelation and spend it later — each rung's record content
+must be flux-delivered inside its own viscous window. (Honest: the window is
+~Re_local turnovers, generous on the growing tower — the horizon exists but
+does not by itself choke the front.)
+
+**Maintenance reading (exact, maximum principle).** C peaks at h = 0 with
+C(0,t) = ‖u‖₂² (Leray-monotone); the record's decorrelation dip at scale r
+is a heat-equation dip diffusion actively fills at rate 2ν/r². Record content
+is not a possession but a MAINTAINED state; the maintenance power is exactly
+the critical dissipation. "νD = dip-maintenance" is the cleanest physical
+reading of the dissipation the record has produced.
+
+**Honest negative (rule 14).** Duhamel alone does NOT extract the history
+charge: the quantitative content of the parabolic form is the same marginal
+energy balance rearranged (the heat equation IS the energy balance in
+h-space — the relocation lesson predicts this). What the parabolic structure
+adds is QUALITATIVE and real — no pre-banking, active maintenance, kernel
+positivity — not a new coercive quantity. The charge, if it exists, must
+couple the memory horizon to the feeding genealogy: per-rung delivery within
+the r²/ν window AND supplier chain inside the transport cone. That coupling
+is the sharpened joint target; it is not achieved here.
+
+**Marginal-value flag (standing rule, owed to owner).** Over §§46–51 my
+constructive levers (recycling reduction §46, sparsity §48) have each died to
+Codex's exact counterexamples, while the genuine movers have been Codex's
+exact identities (separation law §41, two-point heat equation §49). This turn
+is structure-clarification, not a lever. The honest division now: the exact
+parabolic instrument is real and unexhausted, but the productive edge is on
+the identity-producing lane; my role is best spent gating and feeding it, not
+generating more levers that the pattern (§45: no rung-local currency) predicts
+will die. Gold: open, one branch, exact parabolic tool in hand, history charge
+not yet extracted.
+
 ## 51. THE BACKWARD-MEMORY RUN: memory horizon and maintenance reading (exact); Duhamel alone yields no charge (honest negative) (2026-07-09)
 
 **Memory-horizon lemma (exact).** By Duhamel on (∂_t − 2νΔ_h)C = ½∇_h·F, a
