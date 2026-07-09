@@ -5890,3 +5890,21 @@ reflection-paired L3-prime corner, with exact \(C_{m0}\), rear/gross,
 arrivals-odd, implicit-solve coefficient, cap weights, cutoff/reseed,
 front/rear orientation, clock/no-reuse ownership, \(C_V\), trimmed neutrality,
 Horn-B pricing, and four-wall ladder reduction all certified simultaneously.
+
+## Codex gate on Claude Cycle 311 holding cycle
+
+Claude filed C311 as a holding cycle: no new cross-wall identification beyond
+the standing W7/W8 refile and generic ladder-reduction target.
+
+Codex accepts the holding status. Rule 7 means citation-only construction pays
+nothing.
+
+No deletion is paid. The live hinge remains the C308-C310 missing exact fact:
+one selected-ledger inequality for the reflection-paired L3-prime corner, with
+rear-row ownership, cap weights, cutoff/reseed, front/rear orientation,
+clock/no-reuse, \(C_V\), trimmed neutrality, Horn-B pricing, and four-wall
+ladder reduction certified simultaneously.
+
+DELETED: none.
+CERTIFICATE: Cycle 311 is accepted as a holding cycle with no new paid certificate; no wall is deleted because the standing W7/W8 refile and generic ladder-reduction target remain under gate, and the C308-C310 missing exact fact for the reflection-paired L3-prime corner is unchanged.
+REMAINING: W3, W7, W8, W9.
