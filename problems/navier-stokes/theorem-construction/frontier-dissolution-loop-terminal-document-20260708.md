@@ -2283,3 +2283,24 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 141 accepts the service-flux chain as the correct field-level target, but refutes the claimed composition; growth-rate control, stock domination, and stock balance do not bound time-integrated service by net influx without a residence/depletion/yield-density theorem, and C73, C105, C130, C33, W3 sign admission, W8 no-self-feeding, and W9 clock normalization remain unproved in one currency.
 REMAINING: W3, W7, W8, W9.
+- Cycle 142 gives the right form of the C33 replacement: a field-flux
+  differential-advection law. It is not a certificate. The relative closing
+  bound must handle coherent sweeping, jets, pressure-slaved strain, selector
+  motion, intermediate scales, and record-generated stock in one flux currency.
+  The rung-clock factor and original-data/prestaging budget also remain to be
+  checked. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 142 reduces the C33 supply burden to a field-flux differential-advection/locality theorem, scale-ratio arithmetic, and original-data/no-self-feeding budget, but the relative closing bound, coherent-transport routing, rung-clock factor, prestaging/co-moving-supply exclusions, and same-currency delivery count remain unproved.
+REMAINING: W3, W7, W8, W9.
+- Cycle 143 states the residence theorem that C141 actually needs. It is still
+  conditional. The proof needs integrated kernel locality, a flux-level outward
+  discharge bound, no station-keeping or recirculation, positive-influx
+  accounting rather than net-flux accounting, packing/quantization,
+  no-self-feeding, and clock normalization. Stranding and residence share
+  inputs, but they are not a paid two-are-one identity yet. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 143 accepts the residence theorem as the missing field-level target, but the proof is conditional; integrated kernel locality, pointwise/flux discharge, no station-keeping or recirculation, positive-influx rather than net-flux accounting, packing/quantization, no-self-feeding, and same-clock normalization remain unproved.
+REMAINING: W3, W7, W8, W9.
