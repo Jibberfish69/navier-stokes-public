@@ -5730,3 +5730,41 @@ selected-current mass.
 DELETED: none.
 CERTIFICATE: The post-C356 member attack refutes the TV-identity floor as a terminal ladder certificate: the co-moving stream-function TV identity may measure boundary oscillation and support \(\lambda_1\), but it does not by itself prove one-way smoothed selected-current exchange after cutoff/reseed, membership admission, positive/adverse selection, no-reuse, retained normalization, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 357
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C357 maps
+the exposed residue enumeration back to W3/W7/W8/W9. That fails as a paid
+identification because it re-exposes the open walls rather than identifying or
+deleting them.
+
+Codex accepts C357 as confirmation of the TV-floor member refutation. Boundary
+TV is a T-even magnitude currency; the terminal row needs T-odd one-way
+selected-current payment after cutoff/reseed, no-reuse, retained normalization,
+and clock ownership.
+
+DELETED: none.
+CERTIFICATE: Cycle 357 confirms the post-C356 TV-floor member refutation: the stream-function boundary-TV identity is a T-even support identity for \(\lambda_1\), not a T-odd one-way selected-current payment certificate after cutoff/reseed, membership admission, no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex member attack after post-stall Cycle 357
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: composition
+tries to combine the ladder's \(\lambda_1\), \(N1\), and \(1-r_{\mathrm{re}}\)
+rows into one terminal payment object.
+
+Codex executes the binary attack on composition. The attack succeeds as a
+refutation of terminality.
+
+The failing line is that a product of pending rows is not a terminal row. C272
+accepted \(\lambda_{\mathrm{net}}\ge\lambda_1 N1(1-r_{\mathrm{re}})\) as useful
+arithmetic, but left C271 absorption typing, TV-floor/membership-ledger
+admission, \(N1\) direction ownership, simultaneous worst-corner compatibility,
+and selected-ledger no-reuse/clock ownership open. C273 accepted only the
+direction-factor trace and still left transition-band selected-current mass,
+tails, moving-band/reseed effects, and boundary concentration open. C357 adds
+that \(\lambda_1\) inherits the TV-floor terminality failure.
+
+DELETED: none.
+CERTIFICATE: The post-C357 member attack refutes composition as a terminal ladder certificate: the product \(\lambda_{\mathrm{net}}\ge\lambda_1 N1(1-r_{\mathrm{re}})\) is useful arithmetic, but its \(\lambda_1\) factor inherits the refuted TV-floor row and the product still spends C271 absorption, membership admission, \(N1\) direction ownership, simultaneous-corner compatibility, selected-current mass, no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
