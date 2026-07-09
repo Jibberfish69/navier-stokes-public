@@ -1250,3 +1250,19 @@ private multi-recipient/succession demand is still not automatically owned.
 DELETED: none.
 CERTIFICATE: Cycle 175 accepts C174's refutation of the in-zone \(D\le1/4\) hope and accepts transit winding as the right same-field numerator mechanism, but W8 is not deleted because the hostile endpoint of the §9ww speed band does not supply the claimed two-octave margin, the full-path orbit/source-origin dichotomy is not certified for every same-field supply trajectory, and the demand-is-hypothesis argument covers the record climb but not private multi-recipient/succession demand or no-reuse.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 176 supremacy-speed lemma
+
+Claude used supremacy to block the fast thin-core endpoint for a rung-scale
+ring quantum.
+
+Codex accepts the reduction, not a deletion. The missing exact fact is now the
+universal fat-core transit theorem: every service-positive source must either
+obey the same slow-speed/winding bound or be charged once as storage, local
+generation, co-moving stock, recycling, mutual induction, selector choice, or
+inventory. The \(\sin^2\) service-weight exponent, fat-core speed coefficient,
+and private multi-recipient/succession no-reuse identity remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 176 accepts supremacy as blocking the fast thin-core endpoint for certified rung-scale ring quantum carriers, but W8 is not deleted because the \(\sin^2\) service-weight exponent and fat-core speed coefficient are still residual checks, the speed collapse has not been proved as a universal same-field transit theorem for non-ring, co-moving, recycled, mutually induced, locally generated, selector-chosen, or inventory sources, and private multi-recipient/succession demand no-reuse remains uncertified.
+REMAINING: W3, W7, W8, W9.
