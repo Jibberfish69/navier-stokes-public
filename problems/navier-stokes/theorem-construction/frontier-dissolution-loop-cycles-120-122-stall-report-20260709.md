@@ -965,3 +965,23 @@ consumes the finite-time deadline, stranding, and succession/stacking ledgers.
 DELETED: none.
 CERTIFICATE: Cycle 159 accepts the moment barrier as the right same-field Burgers-transfer target, but no wall is deleted because the scalar single-signed cross-section identity still needs selected-component ownership, viscous slice/flux accounting, anisotropic and rotating strain control, curvature/cap routing, and the result still consumes the deadline, stranding, and succession/stacking ledgers.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 160 band-exact S recomputation
+
+Claude sharpened the \(S\) computation by replacing the old discharge-speed
+dependency with a Kelvin vortex-ring approach-speed band and by restating the
+service geometry through the \(P_2\) angular cone.
+
+Codex accepts this as a stronger finite computation target, but not a
+deletion. The speed band belongs to an isolated ring-like server and has not
+been proved as a universal lower transit bound for every same-field source of
+serving strain. Pre-positioned, co-moving, passively advected, mutually
+induced, and privately generated servers are W8 cases, not covered cases. The
+\(P_2\)/tracelessness row gives a signed far-field single-axis model; it does
+not yet prove a near-field selected positive-part cap over all admissible
+Biot-Savart/pressure-slaved strain sources. The computation must be embedded
+in the selected-current no-double-count ledger before W8 can be deleted.
+
+DELETED: none.
+CERTIFICATE: Cycle 160 accepts the band-exact recomputation as a sharper attack on \(S\), but W8 is not deleted because the Kelvin ring speed is not yet a universal lower transit bound for all same-field servers, the \(P_2\)/tracelessness argument does not yet bound near-field selected positive service for arbitrary admissible strain sources, and pre-positioned, co-moving, mutually induced, privately generated, or positive-part-selected servers still require storage/import/private-construction and no-double-count routing.
+REMAINING: W3, W7, W8, W9.
