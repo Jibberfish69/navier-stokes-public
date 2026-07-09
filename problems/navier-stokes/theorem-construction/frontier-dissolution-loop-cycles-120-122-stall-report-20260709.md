@@ -117,6 +117,30 @@ DELETED: none.
 CERTIFICATE: Cycle 124 refines the stall theorem by replacing viscous TV contraction with a serviceable-range maximum-principle target; foliation ellipticity, single-sign/remainder routing, retained-hull admissibility, and feed-thickness/§9h routing remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 125 drift-absorption lemma
+
+Claude proposed the local PDE shape
+\[
+D_t\Gamma=\nu a^{ij}\partial_{ij}\Gamma+b\cdot\nabla\Gamma
+\]
+for the material-family circulation scalar, with no zeroth-order term, so an
+interior maximum principle would control serviceable range.
+
+Codex accepts this as the right theorem shape and refutes it as a certificate.
+The missing fact is scalar closure: the Kelvin defect line integral
+\(\oint_C\Delta u\cdot dl\) must be determined by the family-circulation scalar
+and its transverse derivatives. The same loop-circulation readout can hide
+different surrounding velocity, tangential, geometry, cutoff, or retained-mode
+defects unless a closure/reconstruction theorem is proved. The potential-vortex
+and axisymmetric checks are shadows of the desired operator; they do not derive
+the general retained-family operator.
+
+DELETED: none.
+CERTIFICATE: Cycle 125 reduces the range maximum-principle clause to scalar closure of the Kelvin defect, boundary/import routing, retained-hull admissibility, feed-thickness/§9h routing, and event-floor/range matching; no deletion is confirmed.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
