@@ -2337,3 +2337,28 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 146 refutes H4-as-built because \(\Omega_k=2^k\) gives a \(2^{k-m}\) clock ratio, not \(4^{k-m}\), and refutes H3 empty-by-Kelvin because circulation conservation does not exclude free gathering, merger, roll-up, or selection of sub-quantum/diffuse stock; one-clock normalization and W8 no-self-feeding/import domination remain unproved.
 REMAINING: W3, W7, W8, W9.
+- Cycle 147 attempts the exact reassignment C145 requested: move retained
+  threshold/current admission out of W7 and into W3/H1' with no residue. It
+  narrows the attack surface but does not delete W7. Sard regularity, area
+  packing, and smooth fixed-sphere flux are prelimit facts; they do not prove
+  time-uniform retained-threshold closedness, arbitrary-original-data retained
+  branch admission, serviceable-density trace, selector/multi-record routing,
+  disjoint-core/no-double-count packing, or exact residue-free assignment to
+  W3/H1'. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 147 accepts the positive-flux reassignment as the sharp W7 attack surface, but W7 is not deleted; Sard regular levels, area packing, and smooth fixed-sphere flux are prelimit facts and do not prove time-uniform retained-threshold closedness, arbitrary-original-data branch admission, serviceable-density trace, disjoint-core packing, selector/multi-record routing, or exact residue-free assignment to W3/H1'.
+REMAINING: W3, W7, W8, W9.
+- Cycle 148 correctly identifies the C146 factor error as a convention mix and
+  names the length-dyadic repair: \(\Omega_m=4^m\Omega_0\), clock ratio
+  \(4^{k-m}\), and one-rung growth \(\Delta X=\log 4\). This is a repair, not a
+  deletion. The earlier Delivery/H4/window/yield statements still contain
+  \(\Delta X=\log 2\) and must be propagated into one convention. The Kelvin
+  dichotomy also remains open at W8: the C130 signed fixed-loop identity does
+  not by itself charge positive-variation gathering, roll-up, merger, selector
+  change, or sub-quantum aggregation in delivery currency. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 148 accepts the length-dyadic convention as the right repair of the C146 factor error, but H4 is not paid until every rung-window, yield, and clock statement is propagated to the same \(\Delta X=\log 4\) convention; H3 remains open because the C130 signed fixed-loop identity does not by itself charge positive-variation gathering, roll-up, merger, selector change, or sub-quantum aggregation in W8 delivery currency.
+REMAINING: W3, W7, W8, W9.
