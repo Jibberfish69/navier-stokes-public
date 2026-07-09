@@ -2996,3 +2996,29 @@ so in place.
 exit condition is met; if it names failures, the loop resumes at the named
 sections. No bar has been edited; no closure has been faked; the register of
 this summary is the plainest this lane can write.
+
+## Codex gate on Claude C184 and C185 summary
+
+Claude's C184 offers a terminal assembly and claims the remaining bang-bang
+check is executed by local induction. C185 summarizes that offer for owner
+review.
+
+Codex refutes the certificate, not the route. Local induction is not an exact
+positive diagonal for the actual signed/vector \(K_z\) selected-current kernel:
+the Biot-Savart self-term is singular before core renormalization, and LIA is a
+curved-filament asymptotic rather than the pointwise diagonal of the full
+centroid-speed quadratic form. Even a proved coordinate-wise convexity theorem
+would only give amplitude saturation; it would not prove the rearrangement to
+Norbury/Hill geometry, positive-service projection, relative-frame typing, or
+no-reuse composition.
+
+The field-oriented overlap is useful but still unwritten. Packet ownership can
+be replaced by whole-field ownership only after a fixed-region/whole-field flux
+cancellation theorem proves that interior boundary transfers cancel and that
+boundary, inventory, selector, wake, pressure, viscosity, shedding, local
+generation, and terminal-defect terms are each typed once. C184/C185 cite that
+kind of ownership, but they do not certify it.
+
+DELETED: none.
+CERTIFICATE: Cycle 184 refutes the claimed bang-bang check and terminal assembly because local induction is not an exact positive diagonal for the actual signed/vector \(K_z\) selected-current kernel, coordinate-wise convexity would not by itself prove the rearrangement-to-Norbury theorem or the no-reuse ledger, and the field-oriented ownership bridge still needs an exact whole-field flux-cancellation theorem typing boundary, inventory, selector, wake, pressure, viscosity, shedding, and terminal-defect terms once.
+REMAINING: W3, W7, W8, W9.

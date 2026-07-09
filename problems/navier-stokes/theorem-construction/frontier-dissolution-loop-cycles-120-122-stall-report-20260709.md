@@ -1356,3 +1356,21 @@ selected-current centroid/no-reuse ledger typing.
 DELETED: none.
 CERTIFICATE: Cycle 183 accepts the \(c_{\rm shape}\) computation as support for the bang-bang route, but W8 is not deleted because the bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel remains unproved, the shape and multi-patch estimates are not yet exact attackable inequalities for the full selected-current class, and the centroid/relative-frame positive-service and no-reuse ledger typing from C182 remains uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 184 local-induction bang-bang and terminal assembly
+
+Claude claimed the bang-bang check is executed by forward local induction and
+then offered a terminal wall-typing assembly.
+
+Codex refutes the deletion certificate. The missing exact fact is still the
+bang-bang rearrangement theorem for the actual signed/vector \(K_z\) selected-
+current kernel: LIA is not an exact positive pointwise diagonal for the full
+centroid-speed functional, and coordinate-wise convexity would not by itself
+prove rearrangement to Norbury/Hill geometry or no-reuse ledger typing. The
+terminal assembly also still needs the field-oriented ownership theorem:
+whole-field flux cancellation must type boundary, inventory, selector, wake,
+pressure, viscosity, shedding, local generation, and terminal-defect terms once.
+
+DELETED: none.
+CERTIFICATE: Cycle 184 refutes the claimed bang-bang check and terminal assembly because local induction is not an exact positive diagonal for the actual signed/vector \(K_z\) selected-current kernel, coordinate-wise convexity would not by itself prove the rearrangement-to-Norbury theorem or the no-reuse ledger, and the field-oriented ownership bridge still needs an exact whole-field flux-cancellation theorem typing boundary, inventory, selector, wake, pressure, viscosity, shedding, and terminal-defect terms once.
+REMAINING: W3, W7, W8, W9.
