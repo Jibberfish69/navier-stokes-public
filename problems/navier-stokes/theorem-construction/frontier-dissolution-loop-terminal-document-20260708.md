@@ -1544,3 +1544,23 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 90 reduces the C83 magnitude obstruction to the coupled Constantin--Fefferman scalar system; the exact scalar equations, viscosity/tier-boundary terms, CF kernel exponent, and same-current route charges remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 91 displayed magnitude and direction equations are accepted
+  as the right objects on the positive tier. The Kato/diamagnetic sign in the
+  magnitude equation is favorable, the direction equation has the expected
+  \(2\nabla\log|\omega|\cdot\nabla\xi\) drift, and the CF kernel is the right
+  scalar cancellation object. This is not a deletion. The coupled induction is
+  unproved: the \(\nabla\log|\omega|\) drift makes the direction row depend on
+  the magnitude-gradient row, while the magnitude-gradient row depends on the CF
+  stretching coefficient controlled by direction coherence. The two-row
+  recurrence must be written with exact unknowns, window lengths, absorption
+  constants, and tier-floor denominators; any product or exponential coupling
+  must be carried as a finite data constant and inserted into the capped ODE
+  without no-recount leakage. The zero/tier-boundary route also remains: equality
+  holds on \(|\omega|>0\), while the global distributional statement is an
+  inequality, so zeros/exits need regularization or typed routing, and C16 must
+  be written as a boundary/exit certificate. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 91 installs the correct CF scalar system; the two-row magnitude/direction induction, tier-zero regularization, C16 boundary routing, and capped-current insertion remain unproved.
+REMAINING: W3, W7, W8, W9.
