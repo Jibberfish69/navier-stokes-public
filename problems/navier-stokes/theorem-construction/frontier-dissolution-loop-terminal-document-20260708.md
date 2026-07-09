@@ -1734,3 +1734,19 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 102 conditionally accepts the normalizer formula and union-tile direction; exact source routing, selected-union fixed-cover current, and the final renormalized episode inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 103 profile conversion is accepted only under the stated
+  single-signed selected-section hypothesis. The identity
+  \(\int|\omega_\phi|\,dA=\Gamma\) is exact for a single-signed core with the
+  chosen component and orientation, but the certificate still has to prove that
+  the selected tier sections have that sign property, that it survives cutoff,
+  multi-core assignment, branch exchange, and W7 weak closure, and that
+  \(2\pi R=9.11\delta\) is the same support used by the fixed-cover current.
+  The weaker-floor rerun is also not yet a certificate: the final inequality
+  must be displayed with the weaker burn floor, positive normalizer source,
+  pump/import terms, \(G_R\) no-recount rule, service fraction, and
+  selected-union current all present. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 103 conditionally accepts the single-signed profile conversion and weaker-floor arithmetic update; retained sign/profile admission and the full final inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
