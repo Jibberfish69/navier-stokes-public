@@ -2138,3 +2138,22 @@ conversion, and the sweep.
 DELETED: none.
 CERTIFICATE: Cycle 226 accepts the internal Burgers-ceiling threshold \(Re_\Gamma\ge Re_*=16/C\) as real progress on the C224 low-\(Re_\Gamma\) complement, but W8 is not deleted because the composed threshold-edge constant \(\pi cC/4\) has not been proved small enough in the smoothed selected-current normalization, the claimed near-threshold extra slack is not an exact inequality, C225's \(16\%\) below-boundary absorption and C223's TV-to-one-way selected-current conversion remain open, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 227 clock-ledger absorption
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C227 tries
+to identify the below-boundary marginal band with the W9 clock ledger, but it
+still does not identify W8 with W3/W7/W9 because the upper-regime selected
+current conversion, C226 constants, and the sweep remain separate facts.
+
+Codex accepts the lower-regime absorption subclaim. A fixed \(1.16\) speed
+factor cannot change the \(4^{k-m}\) geometric clock schedule; it only shifts
+the halt depth by \(\log_4(1.16)\), an additive constant.
+
+No deletion is paid. The remaining exact facts are C223's TV-to-one-way
+selected-current conversion for the upper regime, C226's composed N1 constant
+\(\pi cC/4\), and the sweep.
+
+DELETED: none.
+CERTIFICATE: Cycle 227 accepts the fixed-factor clock-ledger argument as closing C225's below-boundary \(16\%\) stranding-slack subclaim, but W8 is not deleted because the above-boundary regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C226's composed N1 threshold constant \(\pi cC/4\) remains open in the selected-current normalization, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
