@@ -3429,3 +3429,62 @@ Therefore the Gold-to-H2 reduction fails at its first concentration line,
 before H3 alignment or theorem-B rigidity is available. The aligned problem
 remains a conditional subclass test; it is not the exhaustive one-fluid
 remainder.
+
+## 54. RECORD UPCROSSING STILL DOES NOT SELECT H2: a lacunary NS initial-state countersequence (2026-07-09)
+
+Let `U` be the divergence-free Schwartz realization from §44 with compact
+annular Fourier support and positive native production
+
+```math
+P_0=-\langle U\cdot\nabla U,\Lambda U\rangle>0.
+\tag{G54.1}
+```
+
+Write `H_0=||U||_{Hdot1/2}^2`, `D_0=||U||_{Hdot3/2}^2`, and choose
+`c>nu D_0/P_0`. Under the exact NS spatial scaling
+
+```math
+U_{\lambda,y}(x)=\lambda U(\lambda(x-y)),
+\tag{G54.2}
+```
+
+the `L^2` mass scales as `lambda^{-1}`, the critical mass is invariant, and
+both native production and critical dissipation scale as `lambda^2`. Choose a
+lacunary sequence `lambda_j=L^j` whose Fourier annuli are disjoint and define
+
+```math
+u^{(m)}=c\sum_{j=1}^mU_{\lambda_j,y_j}.
+\tag{G54.3}
+```
+
+For each finite `m`, put the centers `y_j` sufficiently far apart. The mixed
+Schwartz trilinear terms tend to zero under these translations by the
+Riemann--Lebesgue lemma, while frequency disjointness makes the quadratic
+norms add. The centers can therefore be chosen so that
+
+```math
+\sup_m\|u^{(m)}\|_2^2<\infty,
+\qquad
+\|u^{(m)}\|_{\dot H^{1/2}}^2=mc^2H_0,
+\tag{G54.4}
+```
+
+and
+
+```math
+\left.\frac d{dt}H_{\rm crit}(u^{(m)}(t))\right|_{t=0}
+\ge\frac12c^2(cP_0-\nu D_0)\sum_{j=1}^m\lambda_j^2>0.
+\tag{G54.5}
+```
+
+Thus these are legitimate smooth finite-energy NS initial states with
+arbitrarily large critical height and a genuine initial record upcrossing.
+Every dyadic shell contributes the same critical mass, so the largest shell
+fraction is exactly `1/m`. Widely separated centers also prevent a single
+scale-sized spatial ball from collecting the other shells.
+
+The sequence is not claimed to be successive times of one solution. Its
+conclusion is exact and sufficient for the reduction audit: neither the norms
+nor the instantaneous NS record condition produces H2. A new theorem using
+the complete preceding history would be required. None is installed, so the
+route to H3 remains unavailable.
