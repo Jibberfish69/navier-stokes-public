@@ -2436,3 +2436,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 154 accepts the succession-deficit comparison \(0.72<\log4\) as the right W8 target, but W8 is not deleted until the C105 yield cap is generalized to all private in-zone construction channels and every cooperative/background positive stretching contribution is assigned once in an additive selected-current work ledger.
 REMAINING: W3, W7, W8, W9.
+- Cycle 155 correctly introduces the finite-time blowup deadline as the missing
+  clock object, but the fresh-or-relic dichotomy is false as stated. The
+  deadline gives \(\sum 4^{-k}/s_k<\infty\), which still allows intermediate
+  staleness profiles such as \(s_k=2^{-k}\). The proof must price every
+  admissible total selected-service fraction, not only near-record fresh
+  servers or fixed relics. It also still consumes succession-deficit, stranding,
+  selected-current additivity, and no-double-count ledgers. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 155 accepts the finite-time deadline inequality as the right clock object, but refutes the fresh-or-relic dichotomy because \(\sum 4^{-k}/s_k<\infty\) allows intermediate staleness profiles; a deletion needs a weighted supply theorem for total selected service fractions, plus the still-unproved succession-deficit, stranding, and no-double-count ledgers.
+REMAINING: W3, W7, W8, W9.
