@@ -1685,3 +1685,21 @@ the half-loss threshold is \(6.11\%\) at \(N=11\), \(4.52\%\) at \(N=15\), and
 DELETED: none.
 CERTIFICATE: Cycles 202-203 accept the rebuild-loss route as the right W8 target, but no wall is deleted because the courier-local gross-positive sphere family has not been proved to be a single-consumed sub-instance of the existing selected-current ledger, the midpoint \(4.52\%\) loss threshold must be replaced by a lawful transit-window threshold or the worst-end \(6.11\%\) value, the \(\lambda_1\in[0.3,1.0]\) crossing fraction is still an estimate from unverified Norbury shape data rather than an exact co-moving boundary-crossing identity, \(\lambda_2\) is uncomputed, and W3/W7/W9 still require the one-balance selected-current/no-reuse/action-normalization certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 204 lambda2 bracket
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C204 still
+does not identify W8 with W3, W7, or W9, because it brackets the W8 rebuild
+loss factor while the courier-local selected-current admission, no-reuse
+ledger, transit-clock normalization, and one-balance action rows remain
+unproved.
+
+Codex accepts the thinning-race/geometric-floor split as useful W8 progress.
+No deletion is paid. The exact missing facts are a threshold-beating
+\(\lambda_2\) lower bound, not merely positivity; an exact geometric ejection
+floor; the lawful transit-window threshold; and the courier-local
+positive-current/no-reuse admission.
+
+DELETED: none.
+CERTIFICATE: Cycle 204 accepts the thinning-race/geometric-floor split as useful W8 progress, but W8 is not deleted because \(\lambda_2(\mathrm{Re}_\Gamma)>0\) is weaker than the required threshold-beating lower bound, the claimed \(\lambda_2\ge0.1\) geometric floor is still an estimate rather than an exact theorem, the product lower corner \(0.03\) fails both the midpoint \(4.52\%\) and worst-end \(6.11\%\) loss thresholds, the lawful transit-window count remains unpinned, and the courier-local positive-current/no-reuse ledger admission remains unproved.
+REMAINING: W3, W7, W8, W9.
