@@ -1899,3 +1899,96 @@ suppression forces h₃ − h̄ ≈ −Q > 0 (§30), the counterexample's non-th
 geometry is excluded dynamically. The nonlocal row has a sign on the
 producing branch, conditional on (G1) quantitative CZ and the shared
 native-current control. Not closure; a materially tighter perimeter.
+
+## 32. CODEX GATE ON THE CLAIMED G2 DERIVATION: instantaneous sheet spectrum does not give a material aspect-ratio monovariant
+
+For a material line element `ell`, the exact law is
+
+```math
+D_t\log|\ell|=\widehat\ell\cdot S\widehat\ell.
+\tag{G32.1}
+```
+
+Consequently
+
+```math
+D_t\log(\delta_\perp/L)=-3a
+\tag{G32.2}
+```
+
+holds only when the chosen material thickness and in-plane line remain locked
+to the compression and stretching eigenvectors. With a moving strain frame,
+`(G32.1)` reads the current material directions, not the instantaneous
+eigenvalues. Face A's unresolved frame-motion row is exactly the missing term.
+
+There is a direct kinematic counterexample. Fix `a>0` and alternate, for equal
+durations `tau`,
+
+```math
+S_1=\operatorname{diag}(-2a,a,a),
+\qquad
+S_2=\operatorname{diag}(a,-2a,a).
+\tag{G32.3}
+```
+
+At every instant the strain has the sheet spectrum `(a,a,-2a)`. A vorticity
+direction `e_3` lies in the positive eigenspace of both phases. Since these
+two matrices commute, one cycle gives
+
+```math
+F_{\rm cycle}
+=e^{\tau S_2}e^{\tau S_1}
+=\operatorname{diag}(e^{-a\tau},e^{-a\tau},e^{2a\tau}).
+\tag{G32.4}
+```
+
+The net material deformation is tube-like: both transverse directions shrink
+and the `e_3` direction stretches. No persistent material direction has the
+claimed sheet-thickness law, even though every instantaneous phase remains in
+the sheet quadrant and stretches `e_3`-vorticity. Smooth rotation of the
+compression axis gives the same example without jumps. At affine level it is
+compatible with the NS kinematics: for `A=S+W`, the skew equation
+`dot W+SW+WS=0` is the affine vorticity law and the symmetric pressure Hessian
+is chosen by `H=-dot A-A^2`; viscosity vanishes on the affine tangent. This is
+again a local implication test, not a finite-energy counterhistory.
+
+Even on a fixed-eigenframe branch, the exact conclusion is
+
+```math
+\frac{\delta_\perp(t)}{L(t)}
+=\frac{\delta_\perp(t_0)}{L(t_0)}
+\exp\!\left(-3\int_{t_0}^t a(s)\,ds\right),
+\tag{G32.5}
+```
+
+so convergence to zero additionally requires divergent accumulated positive
+strain. Intermittent records, reseeding, merger, and frame hand-off do not
+supply that integral by definition.
+
+There is a second type error: vorticity-sheet thickness is not generally the
+length of a material line. Viscosity transports vorticity across material
+surfaces, and cutoff/reseed changes the selected level set. The Burgers scale
+`sqrt(nu/a)` is the equilibrium width of a special steady one-dimensional
+balance, not a universal lower bound or evolution law for an arbitrary 3D
+sheet.
+
+Finally, roll-up does not imply a depleting native-current sign. On the affine
+tube ray cited in §21,
+
+```math
+\operatorname{tr}S^3-\frac14\omega\cdot S\omega
+=\frac a4(3a^2-|\omega|^2).
+\tag{G32.6}
+```
+
+With the §22 orientation, only the strain-dominated subcone
+`|omega|^2<3a^2` depletes critical height; a vorticity-dominated tube has the
+opposite sign. Thus "roll-up implies tube implies depletion" is not the
+displayed quadrant theorem.
+
+The valid residue of G2 is conditional: a fixed material eigenframe, divergent
+integrated `a`, and a selector whose thickness is transported rather than
+diffused/reseeded imply self-thinning by `(G32.5)`. Those are Face-A/W3/W7
+contents, not consequences of the instantaneous sheet quadrant. G2 therefore
+remains open independently of the G1 harmonic-bank obstruction and G3 native
+passage.
