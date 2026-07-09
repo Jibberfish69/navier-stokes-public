@@ -4164,3 +4164,21 @@ open.
 DELETED: none.
 CERTIFICATE: Cycle 248 accepts the harmonic-attractor decomposition as a useful reduction of the first-order \(\theta\)-residue to a deviation-smoothing inequality, but W8 is not deleted because that smoothing inequality is expressly unproved for the actual transported selected density with band cutoff, axis/singularity exclusion, boundary terms, and Kato row in one ledger, the exactly wound attractor is cited rather than newly certified for the actual field, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 249 deviation-smoothing Grönwall route
+
+Claude proposed an \(H^1\) Grönwall estimate for the deviation
+\(\psi=\theta-\phi\), intended to prove the C248 smoothing inequality.
+
+Codex accepts this as the right analytic route. No deletion is paid. The actual
+\(\psi\) equation has not been derived with selector, band cutoff,
+axis/singularity treatment, pressure/strain terms, and boundary motion typed in
+the selected ledger. The \(|\nabla u|\le C\Omega\) clock bound, boundary-band
+term, and stock-to-arrivals budget are not certified in the same currency, and
+the clock constants are unevaluated. W7 closed-record passage, W7/W8
+same-selector admission, Horn-B pricing, stranding \(C\), \(G\), \(\beta\),
+TV-to-one-way conversion, \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 249 accepts the Grönwall \(H^1\)-energy route as the right analytic reduction of the deviation-smoothing inequality, but W8 is not deleted because the actual \(\psi\) equation has not been derived with selector, band cutoff, axis/singularity treatment, pressure/strain terms, and boundary motion typed in the selected ledger, the \(|\nabla u|\le C\Omega\) clock bound, \(T_\partial\) band-budget inequality, and stock-to-arrivals budget are not certified in the same currency, the clock constants are unevaluated, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
