@@ -1766,3 +1766,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 104 replaces the final target by the discrete episode proof form; selected-union assignment law, threshold-motion routing, within-episode drift, \(N_{\max}\) conversion, and final finite-service inequality remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 105 outgrowth cut is accepted as the right way to avoid the
+  within-episode normalized-dividend leak, but the timing claim must be stated
+  in log-growth, not material time. From \(dX/d\tau\le1\), reaching
+  \(\Delta X=\log(0.84/0.41)\) takes at least \(0.72\) material-time units, not
+  at most \(0.72\). The useful certificate is: if the serving ring's capacity
+  remains fixed at \(D_0\Omega_{\rm start}\) and threshold demand is
+  \(\theta_{\rm thr}\Omega(\tau)\), then that ring cannot buy more than
+  \(\log(D_0/\theta_{\rm thr})\) log-growth. The constants \(D_0=0.84\) and
+  \(\theta_{\rm thr}=0.41\), the fixed-capacity assumption, and \(N_{\max}\)
+  admission/no-recount still need to be carried in one selected episode
+  currency. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 105 conditionally closes the within-episode drift sub-obstruction by the outgrowth log-yield cap; banked constants, fixed-capacity routing, \(N_{\max}\) admission, and the final finite-service inequality remain unproved.
+REMAINING: W3, W7, W8, W9.
