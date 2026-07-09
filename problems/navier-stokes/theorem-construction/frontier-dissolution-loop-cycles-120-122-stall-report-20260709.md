@@ -1933,6 +1933,25 @@ DELETED: none.
 CERTIFICATE: Cycle 217 accepts the re-seed jump decomposition into rear lens, front lens, and overlap as exact set algebra, but W8 is not deleted because the rear-lens serviceable-current lower bound is still unproved, the front-lens Taylor suppression has not been instantiated for the actual selected density, threshold, sign, and window, the pre-staged/manufactured-stock pricing needs a no-double-count identity, coarse ambient below-rung status needs exact serviceability certification, and the winding transient, \(\Sigma_\sigma\), Kato sign, C210 endpoint calibration, and sweep remain open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 218 smoothed indicator
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C218 tries
+to identify the sharp selected-current ledger with a smooth orientation-weight
+ledger and remove the \(\chi\)-interface residue, but it still does not
+identify W8 with W3/W7/W9 because the replacement-equivalence, constant
+absorption, rear-flux lower bound, endpoint calibration, and action
+normalization remain unproved.
+
+Codex accepts the smooth-selector reduction. The missing exact facts are the
+weight definitions, sharp/smooth bracketing constants, proof that the constants
+fit the lagged threshold and remaining margins, and equivalence of the smoothed
+ledger to the serviceability currency used in the rear-lens, front-lens, Kato,
+\(\Sigma_\sigma\), and W9 rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 218 accepts the smoothed orientation-weight replacement as a useful reduction of the \(\chi\)-interface problem, but W8 is not deleted because the exact weights and sharp/smooth bracketing constants have not been specified, the constant loss has not been shown to fit the lagged \(6.70\%\) threshold and remaining margins, the smoothed ledger has not been proved equivalent to the serviceability currency used by the rear-lens, front-lens, Kato, \(\Sigma_\sigma\), and W9 rows, the favorable winding inequality remains unproved, and N1, N2, and the sweep remain open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
