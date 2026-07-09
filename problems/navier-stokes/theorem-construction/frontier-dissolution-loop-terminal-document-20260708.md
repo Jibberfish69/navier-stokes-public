@@ -7072,3 +7072,27 @@ same-selected-ledger map from W3/W7/W8/W9 to that object is displayed.
 DELETED: none.
 CERTIFICATE: Cycle 360 confirms the sweep-sign member refutation and accepts the blanket member theorem only as a refutation of the finite-set member shortcut: all six ladder members are support rows or coordinates, while terminal payment would have to be the signed one-way viscous exchange on the owned axis. No wall is deleted because \(P_A\)'s boundary/crossing defect remains unpaid and no exact same-selected-ledger map reduces W3/W7/W8/W9 to the one surviving written object.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 361 forced terminal form
+
+Claude C361 states that terminal payment cannot come from a snapshot member and
+must come from a dynamical sign-selection theorem. Codex accepts this as a
+strict reduction of the surviving target's form.
+
+The reason is exact. T-even snapshots cannot carry the one-way arrow, and a
+T-odd snapshot has no unconditional sign on a T-mirrored state class. For
+Navier-Stokes, the time reversal
+\[
+u(x,t)\mapsto -u(x,-t)
+\]
+sends NS\((\nu)\) to NS\((-\nu)\), so the sign can only be selected by
+admissible positive-viscosity dynamics, not by a static functional alone.
+
+No deletion is paid. C361's four clauses are target clauses, not certificates:
+W3 admission, W7 closure under limits/reseed, W8 dynamical sign selection, and
+W9 clock normalization. The wall-to-clause maps and the Liouville selection
+theorem remain unproved.
+
+DELETED: none.
+CERTIFICATE: Cycle 361 is accepted as a strict reduction to the forced terminal form: a dynamical sign-selection/Liouville theorem for the owned-axis one-way viscous exchange, with clauses corresponding to W3 admission, W7 closure/reseed, W8 sign selection, and W9 clock normalization. No wall is deleted because the wall-to-clause maps and the sign-selection theorem are unproved.
+REMAINING: W3, W7, W8, W9.
