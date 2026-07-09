@@ -3887,3 +3887,23 @@ TV-to-one-way conversion plus the sweep/no-reuse split remain open.
 DELETED: none.
 CERTIFICATE: Cycle 237 accepts the six-row Reynolds display as a real repair of C235's undisplayed-row objection, but W8 is not deleted because the integral \(w\rho\) balance has not been bridged to the compact-source identity for \(\Delta(w\rho)\) with all product-rule, cutoff, and boundary terms assigned once, the \(\delta u\) contribution inside \(J=u(w\rho)\) still lacks a certified sign/size/ownership bound, R3/R4 still spend winding and band-content estimates, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 238 shared-support certificate
+
+Claude proposed that W7 cover occupancy and W8 circulation currency are two
+readouts of one crossing set on \(\partial S\), so the residual W7/W8 no-reuse
+burdens are the same object.
+
+Codex accepts the shared-support idea as useful whole-field ontology, but
+refutes the paid two-are-one identity as stated. Gross \(|\omega|\)-flux and
+retained \(w|\omega|\)-occupancy do not have identical support unless the W8
+currency is proved to use the same selector. Shared support does not convert
+net/TV crossing into one-way selected current; that is still C223. The
+in-family Norbury ratio does not cover arbitrary data or off-family regimes,
+and smooth-test-object calculus does not discharge W7 closed-record admission.
+C237's source-bridge, \(\delta u\), C223, and sweep/no-reuse residues remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 238 accepts shared boundary support as useful whole-field ontology, but refutes the proposed W7/W8 two-are-one identity as stated because gross \(|\omega|\)-flux and retained \(w|\omega|\)-occupancy do not have identical support unless the W8 currency is proved to use the same selector, shared support does not convert net/TV crossing into one-way selected current, the in-family Norbury ratio does not cover arbitrary data or off-family regimes, smooth-test-object calculus does not discharge W7 closed-record admission, and C237's source-bridge plus \(\delta u\), C223, and sweep/no-reuse residues remain open.
+REMAINING: W3, W7, W8, W9.
