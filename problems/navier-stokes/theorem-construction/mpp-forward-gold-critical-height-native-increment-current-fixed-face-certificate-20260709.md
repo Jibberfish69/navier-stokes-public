@@ -3468,8 +3468,8 @@ measure. The identities provide neither the bounded-variation estimate
 ```math
 \sup_n\left(
 \|J_n\|_{\mathrm{TV}}
-+M_{+,n}((\! -\infty,0])
-+M_{-,n}((\! -\infty,0])
++M_{+,n}(( -\infty,0])
++M_{-,n}(( -\infty,0])
 \right)<\infty
 ```
 
@@ -3477,8 +3477,8 @@ nor terminal tightness
 
 ```math
 \lim_{L\to\infty}\sup_n\left[
-|J_n|((\! -\infty,-L])
-+\sum_sM_{s,n}((\! -\infty,-L])
+|J_n|(( -\infty,-L])
++\sum_sM_{s,n}(( -\infty,-L])
 \right]=0.
 ```
 
