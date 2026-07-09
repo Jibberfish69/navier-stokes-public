@@ -441,3 +441,43 @@ excluded — the program assumed it lawful enough to fear.
 The §5 theorem display and §7 maps are hereby re-typed as CONDITIONAL on the
 admission question, which precedes them. Unproven stated as unproven; the
 admission test's outcome is not prejudged.
+
+## 12. THE GOLD MECHANISM ON THE SHEET (2026-07-09, owner question): the obliqueness ledger
+
+Question answered: why the held-aim, recurrently sharpening sheet cannot itself
+reach blow-up, inside the actual same-fluid evolution.
+
+**The ledger.** (1) Flat is regular: a flat uniformly-aimed sheet induces zero
+in-plane self-strain (Biot–Savart) and is 2½-dimensional — classically regular
+(Ladyzhenskaya); self-sharpening requires in-plane non-uniformity/curvature.
+(2) The canceller needs obliqueness: the spin bilinear (−¼ω_iω_j)_{i≠j} is
+nonzero iff ω is NOT an eigenvector of S — exact algebra. (3) Sharpening
+consumes obliqueness, EXACTLY on this candidate: the held-aim hypothesis
+freezes the eigenframe relative to the material, so D_tω = Sω + νΔω gives
+componentwise growth fastest along the stretching axis; the misalignment angle
+decays at the eigenvalue-gap rate, order one per rung of material time. The
+record's growth term and the fuel's consumption term are the SAME term, Sω.
+(4) The only re-obliquing mechanism in the held frame is the transverse
+Hessian turning — precisely the term the aim cancels. The refill valve is
+welded shut by the configuration's own defining condition. (5) Currency
+character: obliqueness is a bounded dimensionless ANGLE (≤ π/2) — scale-
+neutral (passes the covariance filter with no rate) — and its consumption is
+T-odd (alignment drift is the arrow, reversal rotates ω off-frame). This is
+the census §C unmade synthesis (linear-rate transfer + Biot–Savart restoring
+sense + handedness budget = one orientation budget) executed on the sheet.
+(6) Finitely many rungs, then the trichotomy: de-aim (turning acts, record
+supply de-coheres — route-out) ∨ flatten (2½D — regular class) ∨ outsource an
+exactly-aligned Hessian — and (r/R)⁴ co-location forces the supplier to
+comparable scale, where it inherits the identical ledger: the regress is the
+relay.
+
+**Open remainder (rule 14, exact):** (i) the viscous term's SENSE on
+obliqueness on the held-aim sheet (diffusion locally isotropizes — possible
+weak re-obliquing; rate-marginal, so only the sign decides; bounded
+computation); (ii) the relay terminus — whether an infinite comparable-scale
+supplier chain, each rung paying obliqueness for the one below, can be
+ADMITTED in one finite-energy history (burden per §11: the chain is a
+candidate to exhibit, not a survivor to exclude; the datum's finite gathering
+reservoir is the natural starvation). Steps 1-2 and the bound are exact;
+step 3 is exact on the candidate by its own hypothesis; nothing further is
+claimed proven.
