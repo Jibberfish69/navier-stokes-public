@@ -4407,3 +4407,23 @@ stranding, TV-to-one-way, \(\delta u\), or sweep/no-reuse.
 DELETED: none.
 CERTIFICATE: Cycle 257 accepts the Batchelor pile-up danger as a real self-refutation of C256's forcing-scale gradient assumption and reduces the arrivals-orientation theorem to the class ratio \(\chi>1\) or a finite-window cutoff, but W8 is not deleted because \(\chi\) is not evaluated, scale-independent C55 winding restoration is not proved on actual deviation scales, the strain-cascade and S-band/P2 class integrals are cited rather than computed, the window-length cutoff is explicitly untested, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 258 spectral threshold
+
+Claude withdrew the finite-window truncation rescue and reduced the
+arrivals-orientation theorem to the spectral threshold \(\chi>\log 4\).
+
+Codex accepts this as a useful sharpening. No deletion is paid. The C55
+restoring coefficient \(\kappa\) has not been evaluated from the actual
+in-band class objects; the claim that the linearized
+\(P_\perp(\widehat\omega\cdot\nabla)u\) term contributes a zeroth-order
+\(-\kappa\psi\) with no leading derivative source is not proved in the
+selected ledger; the strain-tilt injection scale is left as an attack surface;
+and \(\chi>\log 4\) is a target inequality rather than a checked number.
+C258 refines the obstruction, but it does not certify horn-A/Horn-B admission,
+\(C_{\mathrm{geo}}\), boundary-complete field payment, stranding, TV-to-one-way,
+\(\delta u\), or sweep/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 258 accepts the withdrawal of the finite-window rescue and the spectral reduction of the arrivals-orientation theorem to the exact threshold \(\chi>\log 4\), but W8 is not deleted because the C55 restoring coefficient \(\kappa\) and hence \(\chi\) are not evaluated from the actual in-band class objects, the zeroth-order linearization and forcing-scale strain injection are not certified in the selected ledger, the cascade-shell bookkeeping is stated rather than proved for the actual arrivals field, and \(C_{\mathrm{geo}}\), horn-A/Horn-B admission, W7/W8 same-selector passage, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
