@@ -1552,3 +1552,17 @@ winding octave, or \(L3'b\).
 DELETED: none.
 CERTIFICATE: Cycle 195 accepts the pi-audit as a refutation of the earlier universal fat-core speed collapse, and W8 is not deleted because the hostile fast-edge corner is explicitly undecided until the exact Norbury/steady-ring \(V,\omega_{\max},R\) computation is run with all geometric factors, after which the proof must either recover a \(V\le0.17\,\Gamma/\delta\)-type cap, sharpen the deficit bands, add a lawful winding octave, or prove the open \(L3'b\) dynamical trapping theorem.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 196 exact-constant steady-family audit
+
+Claude ran the steady-family constants and found the envelope corner is a
+knife-edge: \(1.50\) deficit against a \(1.51\) band.
+
+Codex accepts this as W8 progress, not a deletion. The missing exact facts are
+the fat-correction monotonicity in the exact normalization and a universal
+handling of the worst-origin case; generic third-octave closure is support only
+until the worst-origin conspiracy is proved inadmissible or routed out.
+
+DELETED: none.
+CERTIFICATE: Cycle 196 accepts the exact-constant steady-family audit as W8 progress, but W8 is not deleted because the universal envelope corner gives only \(1.50\) deficit against the \(1.51\) band, the fat-correction monotonicity margin is not yet an exact normalized certificate for the relevant family, and the generic-origin third-octave margin does not exclude the worst-origin conspiracy as a lawful same-field adversarial case.
+REMAINING: W3, W7, W8, W9.
