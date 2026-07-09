@@ -4770,3 +4770,67 @@ W9.
 DELETED: none.
 CERTIFICATE: Cycle 270 accepts the widened-band recheck as useful progress on the generic coverage cell, but no wall is deleted because the margin is a knife-edge \(0.44\Omega\delta\) versus \(0.46\Omega\delta\) comparison under generous bounds, the exact \(C_{\mathrm{BS}}\) computation is still unexecuted, the family-for-service/generic-for-reentry split is not certified against adversarial mixing, and the double-saturation guard still spends the TV-to-one-way selected-current, sweep/no-reuse, admission, and clock-ownership certificates.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 271 exact \(C_{\mathrm{BS}}\) and merge-zone exclusion
+
+Claude executed the exact \(C_{\mathrm{BS}}\) sharpener by typing near-contact
+re-entry as merge-zone absorption rather than independent exterior re-entry.
+
+Codex accepts C271 as real progress on C270. It gives a coherent physical
+separation between the strong-interaction/merger row and the exterior
+stranding row. If the merge-zone typing is certified, the generic re-entry
+comparison is no longer knife-edge: the exterior constant becomes
+\(C_{\mathrm{BS}}=1/8\), and the sweep margin becomes large.
+
+No deletion is paid. The same selected current still has to prove that a
+grazing or partially merging structure cannot be counted as absorbed in the
+gross rung budget while remaining serviceable as an independent re-entry
+supplier. The \((3/2)\ell\) boundary and \(C_{\mathrm{BS}}=1/8\) estimate also
+need a certificate for arbitrary selected vorticity supports and tails, not
+only the compact ball model. The claimed identity between the dyadic sum and
+the stacking sum still needs no-zero/no-double-count bookkeeping.
+
+DELETED: none.
+CERTIFICATE: Cycle 271 accepts the merge-zone exclusion and \(C_{\mathrm{BS}}=1/8\) calculation as useful progress on the generic re-entry bound, but no wall is deleted because the absorption typing for merge-zone structures is not yet certified in the gross/membership selected ledger, the exterior kernel estimate and \((3/2)\ell\) exclusion must be proved for arbitrary selected supports and tails, the dyadic/stacking same-sum identification still needs a no-zero/no-double-count certificate, and the absorbing-rear conclusion still spends TV-to-one-way, sweep/no-reuse, admission, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 269-271
+
+Physical sentence of the sticking wall: coordinate-horn coverage and generic
+re-entry have been narrowed to merge-zone absorption and the exterior
+\(C_{\mathrm{BS}}=1/8\) constant, but the proof still lacks a same-selected-ledger
+certificate that merge-zone absorption, exterior re-entry, dyadic/stacking
+influence, and rear sweep are one counted object with no leakage or double
+counting.
+
+Attempts: C269 replaced shape-class coverage by coordinate-horn pricing; C270
+ran the widened-band recheck and exposed exact \(C_{\mathrm{BS}}\) as the
+sharpener; C271 typed merge-zone exclusion and computed \(C_{\mathrm{BS}}=1/8\).
+
+Missing exact fact: a gross/membership selected-ledger absorption and no-reuse
+theorem for merge-zone interactions, plus dyadic/stacking same-sum
+no-zero/no-double-count and TV-to-one-way/sweep/admission/clock ownership.
+
+## Claude Cycle 272 TV-to-one-way ownership arithmetic
+
+Claude displayed the TV-to-one-way conversion as
+\[
+\lambda_{\mathrm{net}}\ge\lambda_1\,N1\,(1-r_{\mathrm{re}}).
+\]
+
+Codex accepts C272 as a useful arithmetic reduction. It separates the two-way
+crossing magnitude, the rear/outbound direction factor, and the re-entry
+correction, and it places the factor-2 audit on the right object: the direction
+split appears once if \(\lambda_1\) is direction-blind and \(N1\) is the only
+rear assignment.
+
+No deletion is paid. The product still composes pending source certificates:
+C271 merge-zone absorption for \(r_{\mathrm{re}}\), the TV identity and
+membership-ledger admission for \(\lambda_1\), and the \(N1\) symmetry/band
+correction for direction ownership. The worst-corner margin is numerical, but
+the line does not itself refute adversarial coupling between low excess, high
+re-entry, and band-correction regimes.
+
+DELETED: none.
+CERTIFICATE: Cycle 272 accepts the displayed \(\lambda_{\mathrm{net}}\ge\lambda_1\,N1\,(1-r_{\mathrm{re}})\) composition as useful TV-to-one-way arithmetic, but no wall is deleted because the factors still depend on pending C271 absorption typing, TV-floor/membership-ledger admission, \(N1\) direction ownership, simultaneous worst-corner compatibility, and selected-ledger no-reuse/clock ownership rather than one exact terminal identity, orthogonality, symmetry, or admission clause.
+REMAINING: W3, W7, W8, W9.
