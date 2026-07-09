@@ -1346,3 +1346,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 77 reduces \(C_2,C_3,C_4\) to formulas in shared bootstrap constants and frame-extension normalization; those constants and commutator/index checks remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 78 coefficient list is useful but is not a deletion
+  certificate and not a completed number phase. It still contains uncomputed
+  \(C_{\rm grad}\) and \(C_{\rm grad2}\), a time-dependent
+  \((C_{\rm grad}/2)e^{-\tau/2}\) term, and a scale-dependent
+  \(C_{\rm grad}(1+\log)\) term. The text correctly says the raw coefficient
+  race does not decide the proof, so the paid target is the capped Theorem C ODE
+  integrating extinguishing sources, defection drain, data-capped imports,
+  threshold indicators, and the Kato floor in one material-time current. C5,
+  C6, C7, and C10 still spend their named gates. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 78 supplies a candidate coefficient ledger, but the capped ODE theorem, bootstrap constants, time/log normalizations, and threshold gates remain unproved.
+REMAINING: W3, W7, W8, W9.
