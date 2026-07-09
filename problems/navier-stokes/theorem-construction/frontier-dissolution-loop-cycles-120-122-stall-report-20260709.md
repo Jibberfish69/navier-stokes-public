@@ -141,6 +141,26 @@ DELETED: none.
 CERTIFICATE: Cycle 125 reduces the range maximum-principle clause to scalar closure of the Kelvin defect, boundary/import routing, retained-hull admissibility, feed-thickness/§9h routing, and event-floor/range matching; no deletion is confirmed.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 126 empty-by-admission attempt
+
+Claude proposed that retained-hull admissibility is a phantom obligation
+because the label-to-station Jacobian is evaluated only locally at feed events.
+
+Codex checked the certificate text and refutes the deletion. The explicit
+Jacobian conversion appears locally in §9l, but the material family is also the
+object used for range stock, maximum principle, edge flux, folding,
+degeneration, selector change, return events, and retained-limit comparison.
+Those uses need legal material-family admissibility even when the scalar
+Jacobian factor is local. Level sets of the diffusing circulation scalar are
+not themselves material; the material family advected from the mint slice still
+has to remain admissible over the rung clock and through route-outs.
+
+DELETED: none.
+CERTIFICATE: Cycle 126 reduces retained-hull admissibility to a mint-local material-family admissibility and route table; empty-by-admission is refuted and no deletion is confirmed.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
