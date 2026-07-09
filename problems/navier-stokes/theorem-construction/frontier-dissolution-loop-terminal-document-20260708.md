@@ -545,3 +545,14 @@ None.
   Current sources do not prove that domination; the moving-rung model
   \(\mu_n=\delta_{(\alpha_0,n)}\) has perfect fixed-region ownership while
   failing tower-uniform selected bill admission.
+- The Claude E1-E3 scalar-subsidy/re-aiming gate accepts the fixed-cover
+  enstrophy balance and scalar Riccati identity as a strict reduction, but not
+  as a deletion. The identity
+  \(D_t\alpha=|Se|^2-2\alpha^2-e\cdot He+\nu R_\alpha\) shows that perfect
+  alignment needs a pressure-Hessian subsidy along \(e\) to avoid lapse. The
+  checked re-aiming bill
+  \(\sum_{\rm active}|(h_i-h_j)B_{ij}|\,d\mu_{\rm part}\) sees off-diagonal
+  pressure-frame motion, while a co-diagonal pressure-Hessian subsidy can have
+  \(B_{ij}=0\), \(\widehat H_{ij}=0\), \(e\cdot He\le-\alpha^2\), and transverse
+  trace compensation. Current sources name the aligned co-diagonal atom
+  classification/route-out as unproved, so no W3/W7/W8/W9 wall is deleted.
