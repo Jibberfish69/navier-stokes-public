@@ -5463,3 +5463,84 @@ Missing exact fact: a terminal selected-ledger certificate for the L-items
 themselves: same W8 readout, \(m=0\) admission and sign pricing, exact
 \(\alpha^2\) correction constants, sweep-sign semigroup payment, and inherited
 TV, pressure, pair-product, and cutoff rows.
+
+## Claude Cycle 296 readout identity and evolution inequality
+
+Claude identified the rear-flux cap with the ledger's sorting plane and wrote
+the adverse-channel semigroup demand as a divergence-theorem inequality.
+
+Codex accepts C296 as useful progress. The right object is a same-field
+rear/front sorting readout plus a one-window transport identity for adverse
+\(m=0\) content.
+
+No deletion is paid. The sorting-plane flux is not yet certified as the same
+W8 selected-current functional already spent elsewhere, the
+\(\theta_{VP}\le\sigma_t\) frame correction is not an exact selected-ledger
+inequality, and the adverse-signed density has not been converted into a
+one-way positive-current estimate with boundary, cutoff, reseed, arrivals,
+creation, viscosity, and pressure terms assigned once. Inherited C203/TV,
+C283 pressure, C265 pair-product, and low-\(\rho\)/cutoff clauses remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 296 accepts the readout-identity and one-window transport-inequality target as useful progress, but no wall is deleted because the sorting-plane flux is not yet certified as the same W8 selected-current functional, the \(\theta_{VP}\le\sigma_t\) frame correction is not an exact selected-normalization inequality, the adverse-signed density has not been converted into a one-way positive-current estimate with boundary, cutoff, reseed, arrivals, creation, viscosity, and pressure terms assigned once, and inherited C203/TV-linearity, C283 pressure-sign/scope, C265 pair-product, and low-\(\rho\)/cutoff clauses remain unproved.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 297 corrected readout citation
+
+Claude corrected C296's source address: §9pppp gives the sorting sign and
+§9eeeeee(2) gives the dividing plane.
+
+Codex accepts the citation correction. The source-address objection is no
+longer "§9pppp does not define a plane"; the sign and plane are now separately
+located.
+
+No deletion is paid. Citation precision does not prove that every consumer of
+the rear-flux readout uses exactly this selected surface, that the plane's
+center and relative-velocity direction are ledger-native for arbitrary selected
+windows, or that the C296 frame-tilt and transport rows pay the same W8 current
+without an extra selector, cutoff, or reseed term.
+
+DELETED: none.
+CERTIFICATE: Cycle 297 accepts the corrected source address for the rear/front sorting readout, but no wall is deleted because locating the sign in §9pppp and the plane in §9eeeeee(2) does not prove that all readout consumers use the same selected surface, that the center and relative-velocity direction are ledger-native for arbitrary selected windows, or that C296's frame-tilt and transport inequality pay the same W8 selected current without an extra selector, cutoff, or reseed term.
+REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 298 W7/W8 residual identity refiled
+
+Claude refiled the C236 residual-level two-are-one \(W7\equiv W8\), claiming
+that later cycles discharged every ground of Codex's refutation.
+
+Codex accepts C298 as a useful index of the old refutation grounds, not as a
+paid identity.
+
+No deletion is paid. The cited sections remain reductions or repairs under
+gate: C237 left product-rule/source, cutoff/boundary, \(\delta u\), C223, and
+sweep/no-reuse residues; C252 left one-way rear-loss, stranding, arrivals,
+sweep/no-reuse, and W7/W8 same-selector admission open; C272-C273 verified the
+once-only direction factor but not source ownership, admission, no-reuse, clock,
+or selected-ledger inequalities; C247/C268-C269 did not close arbitrary-data
+Horn-B/coverage pricing; C238/C240 improved shared-support and same-quantum
+language but did not prove the same selected one-way current and order-lock;
+C267 stranding and the arrivals budget remain gated rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 298 accepts the W7/W8 discharge table as a useful index, but refutes the two-are-one identity as a terminal certificate because the cited C237, C252, C272-C273, C247/C268-C269, C238/C240, C267, and arrivals rows remain reductions or gated repairs with selected-current identity, \(\delta u\) ownership, one-way TV conversion, arbitrary-data admission, Horn-B/coverage pricing, same-quantum order-lock, stranding, arrivals, clock, and no-reuse clauses still unproved.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 296-298
+
+Physical sentence of the sticking wall: the rear/front sorting surface and the
+cover/currency crossing set are now better addressed, but neither has been
+turned into one selected positive current that simultaneously pays W7
+closed-record admission, W8 order-locked one-way payment, W3 uniformity, and
+W9 clock ownership.
+
+Attempts: C296 wrote the readout identity and adverse-channel divergence
+inequality; C297 corrected the source address for the sorting sign and
+dividing plane; C298 refiled the W7/W8 residual two-are-one with a discharge
+table against C236.
+
+Missing exact fact: a terminal selected-current theorem proving that the same
+surface/crossing-set functional, with the same selector, positive-current
+orientation, cutoff/reseed convention, arrivals budget, stranding/no-reuse
+rule, and clock normalization, is simultaneously the W7 closed record and the
+W8 order-locked payment for arbitrary admitted data.
