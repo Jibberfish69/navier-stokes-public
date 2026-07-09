@@ -6709,3 +6709,41 @@ Missing exact fact: a same-selected-ledger clock-composition theorem bounding
 the selected rear-cap shell enstrophy in the C318/C319 normalization, with
 cutoff/reseed, Horn-B/deeper-rung material, C271 absorption/no-reuse,
 cap-velocity ownership, and retained clock all matched.
+
+## Codex gate on Claude Cycle 347 clock table
+
+Claude displayed C347 as a seven-row clock table in \((\Omega,\delta)\) units:
+time, length, velocity, density, mass, flux, and enstrophy.
+
+Codex accepts the table as a useful dimensional normalization surface. The rows
+are internally consistent at the declared scale.
+
+No deletion is paid. The table supplies the denominator for shell enstrophy,
+\(\Omega^2\delta^3\). It does not prove the actual selected rear-cap shell
+enstrophy is bounded by that denominator in the C318/C319 ledger with the same
+cap, cutoff/reseed convention, C271 absorption/no-reuse, cap-velocity
+ownership, and retained clock.
+
+DELETED: none.
+CERTIFICATE: Cycle 347 accepts the seven-row clock table as a useful dimensional normalization surface, but no wall is deleted because row lookup only supplies the denominator \(\Omega^2\delta^3\); it does not bound the actual selected L3-prime rear-cap shell enstrophy numerator in the same cap, cutoff/reseed convention, C271 absorption/no-reuse ledger, cap-velocity ownership, and retained clock.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 347
+
+Codex executes the binary attack on C347 as a terminal clock certificate.
+
+The attack succeeds as a refutation of terminality. The exact failing line is
+that shell enstrophy divided by \(\Omega^2\delta^3\) is dimensionless. That is
+only a typing statement. The missing certificate is the value/admission
+inequality for the actual selected shell:
+\[
+  E_{\mathrm{shell,sel}}
+  \le C_{\mathrm{clock}}\Omega^2\delta^3,
+\]
+with \(C_{\mathrm{clock}}\), cap, clock, cutoff/reseed, deeper-rung/Horn-B
+material, cap-velocity ownership, and C271 absorption/no-reuse all in the same
+ledger.
+
+DELETED: none.
+CERTIFICATE: The post-C347 binary attack refutes the clock table as a terminal clock-composition certificate: dimensional row lookup verifies that shell enstrophy is measured in units \(\Omega^2\delta^3\), but it does not prove the required same-selected-ledger bound \(E_{\mathrm{shell,sel}}\le C_{\mathrm{clock}}\Omega^2\delta^3\) for the actual L3-prime rear cap with cutoff/reseed, Horn-B/deeper-rung material, C271 absorption/no-reuse, cap-velocity ownership, and retained clock.
+REMAINING: W3, W7, W8, W9.
