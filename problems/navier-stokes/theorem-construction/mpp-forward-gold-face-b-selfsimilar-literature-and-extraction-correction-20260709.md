@@ -3,7 +3,7 @@ theorem_id: forward-gold-face-b-selfsimilar-literature-and-extraction-correction
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / c_0 / Face B / rescaled-limit extraction
-status: proved-literature-and-object-type-correction; tower-to-full-rescaled-solution-extraction-open
+status: proved-literature-and-object-type-correction; current-H2-to-classical-profile-extraction-refuted
 source_refs:
   - problems/navier-stokes/theorem-construction/theorem-b-consolidated-statement-and-wall-maps-20260709.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-strict-goodlambda-requires-epsilon-reserve-20260626.md
@@ -21,10 +21,19 @@ completion_truth: >-
   spatial weak-L3. Tsai already excludes exact backward self-similar weak
   solutions satisfying finite local energy. Chae excludes a stated class of
   locally asymptotically discretely self-similar blowups with time-periodic L3
-  profiles. The exact open Gold line is therefore extraction of a nontrivial
-  full rescaled Navier-Stokes solution from the retained tower, with local
-  energy, pressure, recurrence, and profile topology passed. A projected or
-  amplitude-normalized packet is not such a solution. No Gold closure claimed.
+  profiles. A direct scaling test refutes that extraction from the current H2
+  hypotheses. H2 places a fixed fraction of the diverging critical-height
+  record in one selected packet. Under the only scaling that preserves
+  Navier-Stokes with fixed viscosity, the selected packet's local L2 mass
+  diverges. Strong passage of that packet to a finite-local-energy profile is
+  therefore impossible. If the full field converges only because the selected
+  projection is cancelled or lost through nonlocal tails, the retained
+  positive record has not passed. Dividing by the divergent packet amplitude
+  restores bounded mass but changes the equation to one with divergent
+  convection coefficient, or after a time change to a vanishing-viscosity
+  equation. Fixed quadrupole phase also does not provide recurrence of the full
+  field. Thus the current Face-B map to Tsai/Chae is refuted, while Gold itself
+  remains open.
 ---
 
 # Face-B correction: the missing object is the rescaled NS limit, not a "log-marginal Tsai extension"
