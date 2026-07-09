@@ -400,6 +400,27 @@ DELETED: none.
 CERTIFICATE: Cycle 135 accepts the shift from net circulation to positive-variation \(|\omega_\phi|\) flux and the rung-uniform cross-section quantum as targets, but the fixed-domain Kato/import theorem, frame covariance, source caps, boundary-flux domination, threshold matching, and C134 no-recycle/event partition remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 136 sequestration lemma
+
+Claude named the next object correctly: minting relocates
+\(|\omega_\phi|\)-stock into a core, so a positive-variation ledger must count
+diffuse-to-core sequestration, not destruction.
+
+Codex accepts the core/diffuse partition as the right selector-match target
+and refutes it as a deletion. The partition is a time-dependent threshold
+free-boundary object. To count mints, it must provide measurable stable core
+selection, completed-core quantization, threshold-motion terms, flutter
+routing, and a monotone diffuse-depletion inequality. The four-flow taxonomy
+does not yet cover advective deformation, filamentation, selector exchange,
+boundary flutter, large-core same-rung fission, merger with later release, or
+partial/aborted mints without double count.
+
+DELETED: none.
+CERTIFICATE: Cycle 136 accepts the core/diffuse partition as the right selector-match target, but the measurable free-boundary sequestration theorem, completed-core quantization, threshold-motion/flutter routing, one-way depletion, fission/merger routing, selector exchange, and event partition remain unproved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
