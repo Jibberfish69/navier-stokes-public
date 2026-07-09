@@ -819,3 +819,131 @@ Face-B `nu/a_m -> 0` limit and the shrinking-scale `O(r)` Leray cost are
 different mechanisms and cannot be identified. The remaining candidate is
 still a record-specific sign or no-return theorem in the scale-invariant
 material-pair current, not a fixed physical-energy toll.
+
+## 11. Whole-field separation balance: pressure disappears scale by scale
+
+The material-pair formula has an equivalent Eulerian field form that removes
+the pressure-Hessian sign as an independent Gold burden. For a fixed separation
+`h`, define
+
+```math
+E(h,t)
+=\frac12\int_{\mathbb R^3}|\delta_hu(x,t)|^2dx,
+\qquad
+F(h,t)
+=\int_{\mathbb R^3}\delta_hu(x,t)|\delta_hu(x,t)|^2dx,
+\tag{NIC.60}
+```
+
+and
+
+```math
+D(h,t)
+=\int_{\mathbb R^3}|\nabla_x\delta_hu(x,t)|^2dx.
+\tag{NIC.61}
+```
+
+The pressure increment is orthogonal at every fixed `h`:
+
+```math
+\int\delta_hu\cdot\delta_h\nabla p\,dx=0.
+\tag{NIC.62}
+```
+
+Indeed, each of the four expanded terms vanishes after integration by parts,
+because both `u(x)` and `u(x+h)` are divergence free as functions of `x`.
+The nonlinear term is exactly
+
+```math
+\int\delta_hu\cdot
+\delta_h[(u\cdot\nabla)u],dx
+=\frac12\nabla_h\cdot F(h,t).
+\tag{NIC.63}
+```
+
+The viscous term is
+
+```math
+\nu\int\delta_hu\cdot\delta_h\Delta u\,dx
+=-\nu D(h,t).
+\tag{NIC.64}
+```
+
+Therefore the full smooth Navier--Stokes field satisfies the exact integrated
+Karman--Howarth balance
+
+```math
+\boxed{
+\partial_tE(h,t)
++\frac12\nabla_h\cdot F(h,t)
++\nu D(h,t)=0
+}
+\tag{NIC.65}
+```
+
+for every separation vector `h`. No isotropy, homogeneity, profile, or packet
+identity is assumed; integration over the whole spatial field supplies the
+translation average.
+
+The critical height and native production are recovered by the same weight:
+
+```math
+H_{\rm crit}(t)
+=\frac{c_\Lambda}{2}
+\int_{\mathbb R^3}\frac{E(h,t)}{|h|^4}dh,
+\tag{NIC.66}
+```
+
+```math
+P_H(t)
+=-c_\Lambda
+\int_{\mathbb R^3}\frac{F(h,t)\cdot h}{|h|^6}dh.
+\tag{NIC.67}
+```
+
+Multiplying `(NIC.65)` by `c_Lambda/(2|h|^4)`, integrating in `h`, and using
+`grad_h |h|^{-4}=-4h|h|^{-6}` reproduces `(NIC.44)`.
+
+There is also an exact cumulative separation-space balance. Set
+
+```math
+\mathscr E(r,t)=\int_{|h|\le r}E(h,t)dh,
+\qquad
+\Phi_{\rm in}(r,t)
+=-\frac12\int_{|h|=r}F(h,t)\cdot n\,dS_h.
+\tag{NIC.68}
+```
+
+Then
+
+```math
+\boxed{
+\partial_t\mathscr E(r,t)
++\nu\int_{|h|\le r}D(h,t)dh
+=\Phi_{\rm in}(r,t).
+}
+\tag{NIC.69}
+```
+
+Thus critical-record growth is inward relative-energy flux through separation
+scales. Pressure only redistributes the velocity field that determines `F`; it
+does not appear as a separate source or sign in the whole-field balance. Face
+A's pressure-Hessian turning and the four-body pressure row are coordinate
+resolutions of this same flux, not independent payment objects.
+
+The balance does not yet close Gold. Its storage is bounded at each fixed
+scale by
+
+```math
+0\le\mathscr E(r,t)
+\le C r^3\|u(t)\|_2^2,
+\tag{NIC.70}
+```
+
+but bounded storage does not bound the positive variation of
+`Phi_in`: inward transfer can be refunded by outward transfer and repeated.
+The finite-viscosity floor proposed in §10 cannot prevent this recurrence
+uniformly because its Leray cost is `O(r)`. The remaining theorem is therefore
+a sign/no-return statement for the scale flux in `(NIC.69)` on record
+intervals. This field-level formulation bypasses pressure-Hessian closure but
+does not manufacture the missing irreversible scale-critical sign.
