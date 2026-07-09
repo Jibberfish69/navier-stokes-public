@@ -1858,3 +1858,22 @@ flux ratio also still needs a quantitative lower bound.
 DELETED: none.
 CERTIFICATE: Cycle 212 accepts the whole-field sphere-flux derivation as a strict reduction of the no-reuse ontology, but W8 is not deleted because the serviceable-sign circulation integral has not been proved to obey an exact Reynolds/local-continuity balance on the re-seeded moving spheres, the stretching/pressure/viscosity/threshold/sign-change defect terms have not been classified, Kelvin has not been applied to the exact selected object, the rear flux ratio \(\lambda\) lacks a quantitative lower bound, and W9's window/action normalization remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 213 rear-lens arithmetic
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C213 tries
+to identify the C212 field-balance recursion with exact re-seed geometry, but
+it still does not identify W8 with W3/W7/W9 because sphere-intersection volume
+does not by itself prove selected-current flux measure, and W9's window/action
+normalization remains separate.
+
+Codex accepts the sphere-intersection calculation and the one-window lag. The
+missing exact facts are the selected-current rear-lens occupancy lower bound,
+no-reabsorption across the re-seeded sphere, the C212 moving-sphere
+Reynolds/local-continuity identity, and the quantitative \(\lambda_1\) and
+\(\lambda_2\) certificates. The worst-end threshold is now about \(6.70\%\)
+under the one-window lag.
+
+DELETED: none.
+CERTIFICATE: Cycle 213 accepts the rear-lens sphere-intersection arithmetic and the one-window lag correction, raising the worst-end loss threshold to about \(6.70\%\), but W8 is not deleted because lens volume is not a selected-current flux lower bound, the rear-lens occupancy and no-reabsorption claims remain unproved, the re-seeded moving-sphere Reynolds/local-continuity identity is still open, the \(\lambda_1\) and \(\lambda_2\) bounds behind \(\lambda\ge0.15\) remain uncertified, and C210's endpoint calibration remains open.
+REMAINING: W3, W7, W8, W9.
