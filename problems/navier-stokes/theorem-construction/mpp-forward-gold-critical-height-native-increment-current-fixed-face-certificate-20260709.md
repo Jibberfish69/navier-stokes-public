@@ -1668,3 +1668,164 @@ the viscous mean-frequency scale. It does not bound `Q_m` from the datum, so it
 does not close Gold. It replaces the invalid H2 packet reduction with one
 global field identity and locates the remaining theorem at the signed
 nonlinear-acceleration term in `(NIC.120)`.
+
+## 19. Near-monochromatic record countersequence: no uniform spectral rigidity
+
+The zero-spread statement in §18 is exact, but it has no uniform extension to
+critical-height record upcrossings. On the normalized three-torus, let
+
+```math
+\theta_\varepsilon=\frac{2\pi}{3}-\varepsilon,
+\quad
+k=K(1,0,0),
+\quad
+p=K(\cos\theta_\varepsilon,\sin\theta_\varepsilon,0),
+\quad
+q=-k-p,
+\tag{NIC.127}
+```
+
+and set
+
+```math
+L=|q|=2K\cos(\theta_\varepsilon/2),
+\qquad
+\Delta=L-K>0.
+\tag{NIC.128}
+```
+
+With conjugate coefficients at the negative frequencies, take
+
+```math
+\widehat u(k)=A(0,-1,0),
+\qquad
+\widehat u(p)=-Ae_3,
+\qquad
+\widehat u(q)=iAe_3.
+\tag{NIC.129}
+```
+
+These coefficients are divergence free. Direct evaluation of the Fourier
+nonlinearity gives
+
+```math
+T_k=0,
+\qquad
+T_p=-A^3K\sin\theta_\varepsilon,
+\qquad
+T_q=A^3K\sin\theta_\varepsilon.
+\tag{NIC.130}
+```
+
+The total energy transfer is zero, while the signed critical production is
+
+```math
+P_H
+=2A^3K\sin\theta_\varepsilon\,\Delta>0.
+\tag{NIC.131}
+```
+
+Because the three positive frequencies have equal energy weights,
+
+```math
+m=\frac{2K+L}{3},
+\qquad
+V=\frac{2}{9}\Delta^2,
+\qquad
+\mathcal W=\frac{2}{9}\Delta^2(K+L).
+\tag{NIC.132}
+```
+
+Thus `P_H` is first order in the radial width while `W` is second order. The
+full critical-height record condition is
+
+```math
+P_H>\nu M_3
+\quad\Longleftrightarrow\quad
+A>
+\nu\frac{2K^3+L^3}
+{K\sin\theta_\varepsilon\,\Delta}.
+\tag{NIC.133}
+```
+
+It can be met at every positive `varepsilon` by increasing the amplitude.
+
+The construction transfers to `R^3` without changing its role. Replace the
+six modes by sufficiently narrow smooth Fourier bumps around them and apply
+the Leray projection. For every `varepsilon`, strict positivity persists for a
+real divergence-free Schwartz field `phi_varepsilon` supported in a relative
+annulus of width `O(varepsilon)`. Write
+
+```math
+P_\varepsilon=P_H(\phi_\varepsilon)>0
+\tag{NIC.134}
+```
+
+and let `E_varepsilon`, `H_varepsilon`, and `D_varepsilon` denote its `L^2`,
+critical, and critical-dissipation quadratic norms. Choose
+
+```math
+c_\varepsilon
+\ge
+\max\!\left\{
+\varepsilon^{-1},
+\frac{2\nu D_\varepsilon}{P_\varepsilon}
+\right\},
+\qquad
+\lambda_\varepsilon
+\ge c_\varepsilon^4(1+E_\varepsilon),
+\tag{NIC.135}
+```
+
+and define the complete initial velocity field
+
+```math
+u_\varepsilon(x)
+=c_\varepsilon\lambda_\varepsilon
+\phi_\varepsilon(\lambda_\varepsilon x).
+\tag{NIC.136}
+```
+
+Exact Navier--Stokes scaling yields
+
+```math
+\|u_\varepsilon\|_2^2
+=\lambda_\varepsilon^{-1}c_\varepsilon^2E_\varepsilon
+\longrightarrow0,
+\qquad
+H_{\rm crit}(u_\varepsilon)
+=c_\varepsilon^2H_\varepsilon\longrightarrow\infty,
+\tag{NIC.137}
+```
+
+and
+
+```math
+\left.\frac d{dt}H_{\rm crit}(u_\varepsilon(t))\right|_{t=0}
+=\lambda_\varepsilon^2c_\varepsilon^2
+\big(c_\varepsilon P_\varepsilon-\nu D_\varepsilon\big)>0.
+\tag{NIC.138}
+```
+
+The relative spectral spread remains unchanged by the amplitude and spatial
+scalings, so
+
+```math
+\frac{V(u_\varepsilon)}{m(u_\varepsilon)^2}
+\longrightarrow0.
+\tag{NIC.139}
+```
+
+Finally, the nonlinear acceleration at the `p` and `q` modes has magnitude
+`A^2K sin(theta_varepsilon)`, which stays nonzero at equal radius. Hence `Q_m`
+does not vanish with `P_H`: it counts nonlinear exchange that cancels under a
+constant radial weight. Passing from `(NIC.122)` to the unsigned `Q_m` norm
+therefore discards the cancellation that made the spectral identity useful.
+
+**Consequence.** Equations `(NIC.120)--(NIC.126)` remain exact, but they do not
+strictly reduce Gold. The one-field states `(NIC.134)--(NIC.139)` have bounded
+energy, divergent critical height, positive initial record production, and
+vanishing relative spectral spread. They are not claimed to be snapshots of
+one common trajectory. Excluding them along a putative Gold history requires a
+new complete-history theorem; zero-spread rigidity and the `Q_m` magnitude
+condition do not supply it.
