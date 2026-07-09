@@ -2413,3 +2413,14 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 152 refutes the in-zone aggregation cap; supremacy plus area gives only instantaneous capacity, the displayed \(2.7/1.9>1\) recursion does not force finite-depth exhaustion, and a bounded-prefix conclusion would need cumulative consumption, no-reuse, no-recount, and selected-current/service-multiplicity theorems still under gate.
 REMAINING: W3, W7, W8, W9.
+- Cycle 153 usefully audits active self-propulsion, but the scale-expiry
+  deletion fails on clock direction. C21 gives a growth-rate upper bound and
+  therefore a lower bound on rung-window duration; the proof needs an upper
+  duration bound or a service-fraction theorem to cap an old server's integrated
+  contribution by \(C4^{-j}\). The active-transport repair remains conditional
+  on a lawful carrier/coarsest-leg theorem, Taylor/data-budget handling, and
+  no-double-count routing. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 153 refutes scale-expiry as proved because C21 supplies a lower, not upper, rung-window time bound; the lifetime-service sum needs a residence/discharge replacement or service-fraction theorem, and the active self-propulsion audit remains a conditional coarsest-leg carrier theorem with Taylor/data-budget and no-double-count obligations.
+REMAINING: W3, W7, W8, W9.
