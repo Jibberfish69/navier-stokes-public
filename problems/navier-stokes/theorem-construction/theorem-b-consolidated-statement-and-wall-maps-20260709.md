@@ -1702,3 +1702,200 @@ CZ estimate, (G2) thinness persistence = quadrant persistence, (G3) passage.
 Sent to Codex to gate — especially to attack whether a sheet-quadrant record
 can be non-thin (breaking G2) or whether the CZ suppression can fail (G1).
 No closure claimed.
+
+## 31. CODEX GATE ON THE THIN-SHEET PRESSURE CLAIM: the local cone piece is anisotropic; the full slaved Hessian is not controlled
+
+The thin-sheet model identifies a valid leading term only after two additional
+hypotheses: anisotropic Fourier concentration of the full pressure source and
+control of the harmonic pressure generated outside the sheet core. Physical
+thinness alone supplies neither one.
+
+### 31.1 Exact Fourier statement
+
+From `-Delta p=Q`,
+
+```math
+\widehat{H_{ij}}(\xi)
+=-\frac{\xi_i\xi_j}{|\xi|^2}\widehat Q(\xi).
+\tag{G31.1}
+```
+
+Writing `xi_parallel=(xi_1,xi_2)` and
+`bar h=(H_11+H_22)/2`,
+
+```math
+\widehat{h_3-\bar h}
+=\frac{-\xi_3^2+\tfrac12|\xi_\parallel|^2}
+{|\xi_\parallel|^2+\xi_3^2}\widehat Q.
+\tag{G31.2}
+```
+
+Thus `h_3 approximately -Q` and `bar h` small follow on a Fourier cone
+
+```math
+|\xi_\parallel|\le\rho|\xi_3|,
+\qquad \rho\ll1,
+\tag{G31.3}
+```
+
+up to a norm in which the multiplier estimate is being asserted. A source
+supported in a physically thin layer is broad in `xi_3`; it is not supported
+away from `xi_3=0`, and it need not satisfy `(G31.3)`. In particular, a
+one-signed normal profile has a nonzero low-normal-frequency component. A
+Calderon--Zygmund operator is bounded on `L^p`; it is not positivity preserving
+and does not convert support aspect ratio into a pointwise Hessian sign.
+
+### 31.2 The omitted harmonic Hessian is exactly the open pressure-bank row
+
+Let `chi=1` on the selected sheet core and split
+
+```math
+p=p_{\rm loc}+p_{\rm harm},
+\qquad
+-\Delta p_{\rm loc}=\chi Q,
+\qquad
+\Delta p_{\rm harm}=0
+\quad\hbox{on the core}.
+\tag{G31.4}
+```
+
+Then
+
+```math
+H=\nabla^2p_{\rm loc}+\nabla^2p_{\rm harm}.
+\tag{G31.5}
+```
+
+The local term may obey an anisotropic estimate under `(G31.3)`. The harmonic
+term is trace-free on the core and has no aspect-ratio suppression. Every
+trace-free symmetric matrix is the Hessian of a harmonic quadratic polynomial,
+so local thinness cannot bound its spin-2 part.
+
+This is not merely a free-pressure objection. The already filed same-field
+shear-cell construction gives, for every `K in Sym_0(3)`, a divergence-free
+velocity pressure bank with
+
+```math
+u_K(0)=0,
+\qquad
+\nabla u_K(0)=0,
+\qquad
+\nabla^2p_K(0)=K,
+\qquad
+-\Delta p_K=\partial_i(u_K)_j\,\partial_j(u_K)_i.
+\tag{G31.6}
+```
+
+Placed outside the sheet core (or in a disjoint zero-gradient pocket), this
+bank leaves the local sheet strain and vorticity unchanged while adding a
+same-field harmonic Hessian on the core. Choosing `K` in the in-plane spin-2
+sector can reverse `h_3-bar h`. Therefore the claim that a genuinely slaved
+thin sheet cannot realize the bad pressure sign is false without the still-open
+`ParentHarmonicUniaxialBankPaysOrRoutesOut.A` / no-free-wrong-sign-borrowing
+theorem. Requiring the bank to persist at infinitely many rungs may charge it;
+that dynamical charge is Gold content and is not an aspect-ratio CZ estimate.
+
+### 31.3 A finite-energy pressure source necessarily has compensating content
+
+For a smooth decaying divergence-free field,
+
+```math
+\int_{\mathbb R^3}Q\,dx
+=\int\partial_i u_j\,\partial_j u_i\,dx
+=-\int u_j\,\partial_j(\nabla\cdot u)\,dx
+=0.
+\tag{G31.7}
+```
+
+Hence a negative-`Q` vortical sheet core cannot be the whole source. It has
+positive compensating strain/source content elsewhere, and that same content
+contributes to `p_harm` in `(G31.4)`. The model `Q=q(x_parallel)f(x_3/delta)`
+does not justify deleting this compensator.
+
+### 31.4 A sheet record is not automatically `Q<0`
+
+For the affine sheet `S=diag(a,a,-2a)` with in-plane vorticity,
+
+```math
+Q=6a^2-\frac12|\omega|^2.
+\tag{G31.8}
+```
+
+Thus
+
+```math
+Q<0
+\quad\Longleftrightarrow\quad
+|\omega|^2>12a^2.
+\tag{G31.9}
+```
+
+The sheet quadrant fixes `tr S^3<0` and `omega dot S omega>0`; it does not
+imply `(G31.9)`. Native critical production has the sheet sign even when
+`Q>0`. Calling every sheet record enstrophy-dominated therefore inserts a
+stronger amplitude hypothesis than the already-refuted C1 condition
+`|omega|^2>=8a^2`. Moreover `Q<0` gives only `Delta p>0`, the trace of the
+Hessian; it does not force `H_33>0` or a pressure minimum in the selected
+normal direction.
+
+### 31.5 Gate result
+
+The surviving conditional statement is a local source-level estimate: if the
+full relevant `Q` is quantitatively concentrated in the anisotropic Fourier
+cone `(G31.3)`, its exterior harmonic Hessian is separately dominated, and
+the amplitude condition `(G31.9)` holds, then `(G31.2)` has the desired leading
+sheet sign in an appropriate norm. None of those three clauses follows from
+physical thinness or the sheet quadrant as currently defined.
+
+Therefore G1 is not a standard pending constant computation. It contains the
+global harmonic-bank/no-wrong-sign-borrowing theorem. G2 contains both
+thinness persistence and the independent enstrophy/strain ratio. G3 remains
+the native mixed-increment passage. Section 30 is a useful model calculation,
+not a same-field Gold closure.
+
+## 31. G2 DERIVED: the sheet quadrant is SELF-THINNING; thinness is forced, not assumed (2026-07-09)
+
+§30's gap (G2), thinness persistence δ_⊥/L ≤ ρ < 1, is not a hypothesis — it
+is a consequence of the sheet quadrant's own strain, on the producing branch.
+
+**Self-thinning (exact kinematics).** In the sheet quadrant S = diag(a,a,−2a),
+a > 0: cross-sheet e₃ compressed at −2a, in-plane stretched at +a. A material
+sheet element evolves δ_⊥ ~ δ_⊥(0)e^{−2at}, L ~ L(0)e^{+at}, so
+
+```math
+\frac{\delta_\perp}{L}\sim e^{-3at}\to 0 ,\qquad
+\frac{\bar h}{h_3}\sim\Big(\frac{\delta_\perp}{L}\Big)^2\sim e^{-6at}.
+```
+
+The aspect ratio decays at rate 3a (the same 3a as the tilt-gap §19): the
+sheet strain drives its own aspect ratio to zero; the §30 suppression IMPROVES
+down the tower.
+
+**Viscosity does not save the counterexample.** Cross-sheet diffusion floors
+δ_⊥ at the Burgers scale √(ν/a), but L keeps stretching, so δ_⊥/L → 0
+regardless. The floor stops the thinning of δ_⊥, not of the RATIO.
+
+**The only exit is to the depleting quadrant.** A thin sheet leaves the
+thin regime only by Kelvin–Helmholtz roll-up — concentrating in a second
+direction = becoming a TUBE. The tube is the other quadrant (§21, tr S³ > 0),
+which §22's P_H sign types as DEPLETING critical height. Exact dichotomy:
+stay a self-thinning sheet (G2 holds, §30 sign correct) OR roll to a tube and
+stop setting records (exit (H2)). No producing non-thin sheet exists.
+
+**Covariance safety.** δ_⊥/L is a dimensionless ratio decreasing monotonically
+— not a rate competing with a rate. Its → 0 is a geometric/sign fact, the
+covariance-filter-safe kind, unlike the dead rate levers.
+
+**Remaining gap (rule 14).** "Roll-up ⟹ tube ⟹ depleting" uses §22's P_H
+quadrant sign, whose native-current identification was conceded incomplete
+(§28.1/§29); the "tube depletes" leg needs the quadrant sign re-established on
+the native mixed-increment current. That is the SAME native-current control as
+G3, not a new object. Net: G2 collapses into G1 (quantitative CZ) + the shared
+native-current quadrant sign.
+
+**Status:** G2 derived on the producing branch modulo the native-current
+quadrant sign. §30 + §31: the strain self-thins the sheet (exact), aspect
+suppression forces h₃ − h̄ ≈ −Q > 0 (§30), the counterexample's non-thin
+geometry is excluded dynamically. The nonlocal row has a sign on the
+producing branch, conditional on (G1) quantitative CZ and the shared
+native-current control. Not closure; a materially tighter perimeter.
