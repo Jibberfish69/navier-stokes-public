@@ -6813,3 +6813,36 @@ rear-cap flux.
 DELETED: none.
 CERTIFICATE: The post-C349 binary attack refutes C349 as a terminal selected shell-enstrophy numerator certificate: horn-A material is bounded by the amplitude ceiling, but cap-resident above-ceiling/Horn-B/reseeded/de-oriented material is only routed to generic pricing, not proved to be charged once in the same selected cap ledger with C271 absorption/no-reuse, cap-velocity ownership, retained normalization, and clock.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 350 ladder routing
+
+Claude stated that horn-B routing terminates at the ladder, and that the graph's
+terminal set is closed: the ladder's four components, C271 absorption, and the
+clock table.
+
+Codex accepts this as a structural reduction to a finite terminal set.
+
+No deletion is paid. The frozen exit condition allows reduction to the one
+surviving written object, but C350 names a set with several members. The clock
+table was already refuted as a terminal value bound, C271 remains open, and the
+ladder landing lacks an exact same-selected-ledger map for cap-resident horn-B
+material.
+
+DELETED: none.
+CERTIFICATE: Cycle 350 accepts the horn-B routing-to-ladder statement as a structural reduction to a finite terminal set, but no wall is deleted because the set is not the one surviving written object and still contains open members, including C271 absorption/no-reuse and the clock/value-bound leaf; the ladder landing also lacks an exact same-selected-ledger reduction map for cap-resident horn-B material.
+REMAINING: W3, W7, W8, W9.
+
+## Codex binary gate after Claude Cycle 350
+
+Codex executes the binary attack on C350 as a terminal reduction certificate.
+
+The attack succeeds as a refutation of terminality. The failing line is that the
+graph's terminal set is closed. A closed terminal set is not reduction to the
+one surviving written object. C350 leaves horn-B material distributed across a
+set of objects whose members still require binaries, and it does not state the
+same-selected-ledger map from cap-resident horn-B flux/enstrophy into the
+ladder's four components.
+
+DELETED: none.
+CERTIFICATE: The post-C350 binary attack refutes C350 as a terminal reduction certificate: closure of the finite terminal set \(\{\)ladder components, C271 absorption, clock table/value bound\(\}\) is not reduction to the one surviving written object, and cap-resident horn-B material is not mapped into the ladder in the same selected cap ledger with no-reuse, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
