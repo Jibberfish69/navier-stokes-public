@@ -1014,3 +1014,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 50 reduces GAP-0 to a \(\Gamma\)-budget-to-coefficient theorem, but that theorem is unproved; finite \(Re_\Gamma\) has not been shown to supply the local parabolic coefficient bounds needed for \(\nabla\omega\), curvature, selector velocity, and fixed-cover current admissibility.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 51 GAP-4′ gate accepts the non-static correction to
+  \(\Gamma_{\rm gather}\): the reservoir is a canonical moving-disk positive
+  variation controlled by a coupled ODE, not a fixed original-data pile. This
+  is a strict reduction, not a deletion. The canonical-family no-recount rule
+  still depends on W7 selector closure: branch exits, multi-selector overlaps,
+  cutoff changes, and weak-limit loss of the canonical disk must be routed
+  before positive variation is recount-proof. The coupled Gronwall system uses
+  \(c_*>0\) as an input, so it is noncircular only if §3's local Kato/coarea
+  lower bound is proved independently of the \(\Gamma\)-budget comparison. The
+  ODE also still needs exact signs, variables, and coefficients: the definition
+  of \(\operatorname{Serv}\), its coupling to \(d\log\Omega/d\tau\), the import
+  term paid by \(G_{\rm paid}\), and the term that lowers \(\Gamma\). No wall is
+  deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 51 narrows GAP-4 to a canonical-family no-recount lemma plus a noncircular two-variable comparison lemma consuming an independently proved \(c_*\); the canonical selector closure, ODE coefficients, and independent \(c_*\) lower bound remain unproved.
+REMAINING: W3, W7, W8, W9.
