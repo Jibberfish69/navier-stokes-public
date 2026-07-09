@@ -3490,3 +3490,20 @@ re-seed jump, rear-flux, and C210 endpoint pieces remain open.
 DELETED: none.
 CERTIFICATE: Cycle 216 accepts the zeroth-order exchange identity and the domain-of-integration no-refund statement as W8 reductions, but W8 is not deleted because the indicator \(\chi\) and its threshold/interface terms lack an exact certificate, the favorable-biased winding inequality is still unproved for the actual courier-local orientation variable, \(\Sigma_\sigma\), Kato sign, and re-seed jump terms remain unclosed, the rear-lens flux lower bound is still quantitative and open, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 217 re-seed jump typing
+
+Claude decomposed the re-seed jump between \(S_n\) and \(S_{n+1}\) into rear
+lens, front lens, and overlap, assigning front-lens pickup to Taylor-suppressed
+ambient stock or priced pre-staging.
+
+Codex accepts the set algebra. No deletion is paid. The rear-lens
+serviceable-current lower bound is still unproved, the front-lens Taylor row
+has to be instantiated in the actual selected density/threshold/sign/window,
+and pre-staged stock needs a no-double-count pricing identity. The winding
+transient, \(\Sigma_\sigma\), Kato sign, C210 endpoint calibration, and sweep
+remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 217 accepts the re-seed jump decomposition into rear lens, front lens, and overlap as exact set algebra, but W8 is not deleted because the rear-lens serviceable-current lower bound is still unproved, the front-lens Taylor suppression has not been instantiated for the actual selected density, threshold, sign, and window, the pre-staged/manufactured-stock pricing needs a no-double-count identity, coarse ambient below-rung status needs exact serviceability certification, and the winding transient, \(\Sigma_\sigma\), Kato sign, C210 endpoint calibration, and sweep remain open.
+REMAINING: W3, W7, W8, W9.

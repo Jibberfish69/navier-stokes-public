@@ -1915,6 +1915,24 @@ DELETED: none.
 CERTIFICATE: Cycle 216 accepts the zeroth-order exchange identity and the domain-of-integration no-refund statement as W8 reductions, but W8 is not deleted because the indicator \(\chi\) and its threshold/interface terms lack an exact certificate, the favorable-biased winding inequality is still unproved for the actual courier-local orientation variable, \(\Sigma_\sigma\), Kato sign, and re-seed jump terms remain unclosed, the rear-lens flux lower bound is still quantitative and open, and C210's endpoint calibration remains open.
 REMAINING: W3, W7, W8, W9.
 
+## Codex gate on post-stall Cycle 217 re-seed jump typing
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C217 tries
+to identify the re-seed jump with existing Taylor and priced-manufacture rows,
+but it still does not identify W8 with W3/W7/W9 because the front-lens
+selected-current bound, rear-lens lower bound, and action-clock normalization
+remain to be certified in the same currency.
+
+Codex accepts the re-seed set decomposition. The missing exact facts are the
+rear-lens selected-current lower bound, the front-lens Taylor suppression
+instantiated for the actual selected density and window, exact pricing and
+no-double-count for pre-staged stock, and the coarse-stock below-rung
+serviceability statement.
+
+DELETED: none.
+CERTIFICATE: Cycle 217 accepts the re-seed jump decomposition into rear lens, front lens, and overlap as exact set algebra, but W8 is not deleted because the rear-lens serviceable-current lower bound is still unproved, the front-lens Taylor suppression has not been instantiated for the actual selected density, threshold, sign, and window, the pre-staged/manufactured-stock pricing needs a no-double-count identity, coarse ambient below-rung status needs exact serviceability certification, and the winding transient, \(\Sigma_\sigma\), Kato sign, C210 endpoint calibration, and sweep remain open.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane consolidation (C215): the two canonical numbers behind every recent gate residue
 
 The last ten cycles of gate residues are aliases of TWO numbers:
