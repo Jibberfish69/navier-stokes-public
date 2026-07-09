@@ -111,3 +111,27 @@ The circuit's sharpest attack surface, resolved by derivation rather than queued
 4. **The estimate, truly final form:** on the tiled cover, the shell-wise supplier cost (Q-mass per shell scaled to the subsidy it delivers) vs the finite non-increasing energy budget (fact 6): SUMMABILITY. Diverges ⟹ depletion in finite time ⟹ subsidy lapses ⟹ −α² collapses aim ⟹ no residence ⟹ BKM integral finite ⟹ SMOOTH. Sums ⟹ the lawful infinite relay = the explicit blowup candidate.
 
 Self-attack before filing: (i) the fixed-point analysis is at the strict aligned state — the neighborhood (near-locked) dynamics need the |Se|²−2α² correction tracked; (ii) shell cost scaling needs the exact Newtonian-shell computation (what Q-mass at radius r delivers well-depth α² at the core: ~ α²r³-family by potential theory — the exact constant is computable in the P₂ algebra already used); (iii) the recursion's scale-ratio per shell must be tied to the marginal tower's 2^{-ℓ} structure to make the series' exponent exact. These three are computations, not conceptual gaps. NOT claimed: the summability verdict itself.
+
+---
+
+## CYCLE 6 — THE NEWTONIAN SHELL COMPUTATION, EXECUTED EXACTLY: self-poison at the core, dr/r supply law, the filament is its own supplier, and the stretching dilemma
+
+**1. Exact Hessian decomposition (standard singular-integral fact, checkable line by line).** With Δp = −Q, p the Newtonian potential, for any unit vector e at a point taken as origin:
+  e·H e = −Q(0)/3 + (1/4π) p.v.∫ Q(y)·(3(y·ê)²−|y|²)/|y|⁵ dy,
+and (3cos²θ−1)/r³ = 2P₂(cosθ)/r³ — the SAME P₂ algebra as every constant already banked.
+
+**2. SELF-POISON COROLLARY (new, exact).** At a vorticity-dominated core (Q(0) = |S(0)|²−½|ω(0)|² < 0), the LOCAL term is −Q(0)/3 > 0: the core's own enstrophy excess pushes e·He REPULSIVE. The subsidy e·He = −α² must therefore be delivered entirely by the nonlocal integral, with demand
+  nonlocal = −α² + Q(0)/3 ≈ −|ω(0)|²/6,
+GROWING WITH THE RECORD SQUARED — not the constant −α² Cycle 5 assumed. The conspiracy's price was underquoted by a factor of |ω|²/α².
+
+**3. Supply law (exact).** nonlocal = (1/2π)∫₀^∞ m₂(r) dr/r, with m₂(r) = ∫_{S²} Q(rŷ)P₂(ŷ·ê)dΩ. The measure dr/r is scale-invariant: per-dyadic-shell supply is scale-free — THE AFFINE-LOG TOWER STRUCTURE (X = −c log|ℓ|) RE-DERIVED IN THE FIELD FRAME from potential theory alone.
+
+**4. Sign geography (exact from sgn P₂).** Well-deepening comes from Q<0 in the polar cones cos²θ>1/3 (companion ENSTROPHY along the axis) and/or Q>0 in the equatorial band (STRAIN beside). A Burgers-type filament — enstrophy core on the axis, strain annulus around it — deepens the well through BOTH channels at once: it is the maximally self-locking geometry.
+
+**5. Straight-filament self-supply (order-of-magnitude, constants flagged).** Uniform filament, core radius a, axial slab at distance r contributes d(supply) ≈ −|ω|²a²/(4r³)dr; both sides, r from a: supply ≈ −|ω|²/4 vs demand −|ω|²/6 — a straight uniform filament HOLDS ITS OWN LOCK WITH MARGIN, dominated by the near field r ∈ [a, few·a]. (Exact constants: Gaussian/Burgers profile computation, named below.)
+
+**6. THE STRETCHING DILEMMA (the estimate's physical floor).** A straight uniform filament locks — and does not blow up (no self-stretching; 2.5D-regular class). Blowup requires the record to GROW: D_t|ω| = α|ω| at a point means AXIAL NONUNIFORMITY of |ω|² along the filament. Axial nonuniformity does two things simultaneously: (i) degrades the P₂-supply coherence (the neighbors that hold the well are exactly the ones being outrun), and (ii) SELF-INDUCES transverse motion via Biot–Savart (curvature/nonuniformity → the filament moves itself, carrying the well off the record point). c₀ in fully physical form: does the axial nonuniformity that stretching REQUIRES necessarily de-cohere the supply faster than it grows the record?
+
+**7. PENDING DELETION CANDIDATE (join of census survivor).** The 07-07 census listed "Biot–Savart self-induction sign" as a never-joined survivor. Certificate offered for attack: the well-glue persistence question and the self-induction sign question are decided by THE SAME DATA — the axial-nonuniformity profile of the filament — through the same P₂/Biot–Savart integrals of the same Q-distribution; they are one wall, not two. PENDING partner refutation.
+
+Self-attack filed with the cycle: (a) item 5's constants are crude — the exact Burgers-profile P₂ integral is the named next computation; (b) item 2 assumes |S(0)|² stays O(α²) at the core while |ω|² grows — true for Burgers-type cores, must be stated as a branch, not a law; (c) item 6(i) is directional, not yet an inequality — the de-coherence rate needs the relative-rotation gap-normalization argument to become quantitative. NOT claimed: the dilemma's verdict.
