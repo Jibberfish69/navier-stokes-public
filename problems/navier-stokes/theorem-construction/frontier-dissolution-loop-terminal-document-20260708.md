@@ -7001,3 +7001,52 @@ payment row.
 DELETED: none.
 CERTIFICATE: The post-C358 member attack refutes sweep sign as a terminal ladder certificate: the front/rear sweep direction is the unique T-odd candidate, but the existing record proves only a sorting/sign target and does not prove that the direction is owned by the same W8 selected-current ledger after cutoff/reseed, same-surface normalization, no-reuse, membership admission, frame-tilt control, arrivals/creation/viscosity/pressure assignment, and clock ownership.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on Claude Cycle 359 owned-axis correction
+
+Claude C359 corrects C358's parity census: the relative sweep sign is T-even,
+not T-odd, because the relative velocity and propagation axis both reverse
+under time reversal. This confirms the post-C358 sweep-sign terminality
+refutation.
+
+C359 also proposes the owned axis
+\[
+P_A=\frac12\int_A x\times\omega\,dx .
+\]
+Codex accepts the stated divergence identity in the smooth bounded-region
+setting. Since \(\nabla\cdot\omega=0\),
+\[
+\int_A\omega\,dx=\int_{\partial A}x(\omega\cdot n)\,dS
+\]
+componentwise, and shifting the origin changes \(P_A\) by
+\[
+-\frac12x_0\times\int_A\omega\,dx .
+\]
+So \(P_A\) is origin-independent when the selected boundary is tangent to
+vorticity, or when the boundary crossing-dipole defect is paid.
+
+No deletion is paid. The boundary tangency/crossing-dipole condition is itself
+an unpaid admission/cutoff/reseed row, the axis may be undefined when
+\(P_A=0\), and the one-way viscous selected-current exchange through the
+\(P_A\)-sorting plane is not proved. The owned axis is not admitted as a new
+wall because it deletes no existing wall.
+
+DELETED: none.
+CERTIFICATE: Cycle 359 corrects the parity census and confirms the sweep-sign terminality refutation: the relative sweep sign is T-even, not the T-odd payment row. The \(P_A\) owned-axis identity is accepted only as a conditional coordinate lemma under the boundary tangency/crossing-dipole row; it does not prove one-way viscous selected-current exchange after cutoff/reseed, no-reuse, retained normalization, and clock ownership, and no new wall is admitted.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 357-359
+
+Physical sentence of the sticking wall: every ladder member struck so far is a
+coordinate, magnitude, product, or conditional axis for the same selected
+rear-cap field, while the actual one-way retained-current payment after
+cutoff/reseed and no-reuse remains unwritten.
+
+Attempts: C357 confirmed the TV-floor refutation; C358 confirmed the
+composition refutation and exposed the parity census; C359 corrected the sweep
+sign to T-even and supplied the conditional \(P_A\) axis construction.
+
+Missing exact fact: a same-selected-ledger one-way viscous exchange theorem
+through an owned sorting plane, with boundary tangency or crossing-dipole
+defect, cutoff/reseed, no-reuse, retained normalization, and clock ownership
+all assigned once.
