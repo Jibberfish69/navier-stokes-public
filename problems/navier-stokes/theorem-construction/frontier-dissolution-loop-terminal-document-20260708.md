@@ -1374,3 +1374,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 79 refutes the proposed textbook bootstrap for \(C_{\rm grad},C_{\rm grad2}\); the unsigned coefficient theorem and \(G_R\) admission remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 80 CZ-first repair is accepted as the right noncircular
+  route, not as a deletion. Calderon-Zygmund maps \(L^\infty\) vorticity to BMO,
+  not directly to a pointwise \(L^\infty\) strain bound; the displayed
+  \(\Omega(1+\log)\) bound still needs the actual kernel split: straight
+  self-neutrality/core regularization, other retained tubes, intermediate-zone
+  C17 logarithm, fixed far-tail \(L^2_t\) contribution, moving tube/cutoff
+  errors, and W7/W8 retained-current admission. The subsequent parabolic
+  bootstrap also needs the mixed pointwise/\(L^2_t\) coefficient and
+  moving-domain drift handled with scale-uniform constants. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 80 reduces Theorem A to the CZ-first coefficient theorem; the singular-integral split, tail conversion, moving-domain bootstrap, and retained-current closure remain unproved.
+REMAINING: W3, W7, W8, W9.
