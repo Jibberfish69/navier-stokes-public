@@ -994,3 +994,23 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 49 narrows GAP-0 to a named scale-critical cylinder hypothesis for fixed-cover admissibility, but the scalar current, route table, GAP-4 currency theorem, and GAP-5 action theorem remain unproved, so no terminal reduction of W3/W7/W8/W9 is certified.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 50 \(\Gamma\)-budget/cylinder-bound gate accepts a useful
+  strict reduction but no deletion. Cycle 50 correctly concedes that GAP-4 and
+  GAP-5 remain independent structural clauses, then tries to reduce GAP-0's
+  scale-critical moving-cylinder bound to the \(\Gamma_{\rm gather}\) budget.
+  The scaling identity \(\Omega\delta^2/\nu=\Gamma/\nu\) is not yet the
+  parabolic estimate. It bounds the selected core's dimensionless size only
+  after \(\Gamma\), \(\delta\), and the tier are lawful and stable; it does not
+  by itself bound the vorticity equation's transport coefficient \(u\), the
+  stretching coefficient \(\nabla u\), the nonlocal Biot-Savart near/far split,
+  pressure/selector drift, or retained tail rows. Standard interior estimates
+  cannot be invoked from \(Re_\Gamma<\infty\) alone, because \(\nabla u\) is the
+  same nonlocal service row the certificate is trying to control. The far-field
+  subordination \(u_{\rm far}\delta/\nu\to0\) also needs an excised
+  Biot-Savart/pressure tail theorem; Leray \(L^2\) energy alone is not a
+  pointwise velocity/strain bound. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 50 reduces GAP-0 to a \(\Gamma\)-budget-to-coefficient theorem, but that theorem is unproved; finite \(Re_\Gamma\) has not been shown to supply the local parabolic coefficient bounds needed for \(\nabla\omega\), curvature, selector velocity, and fixed-cover current admissibility.
+REMAINING: W3, W7, W8, W9.
