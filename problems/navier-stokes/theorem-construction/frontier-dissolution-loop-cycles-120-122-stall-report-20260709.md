@@ -4307,3 +4307,24 @@ certificate.
 DELETED: none.
 CERTIFICATE: Cycle 299 accepts the procedural correction that C298's table is answered-pending rather than paid and executes the requested binary refutation attempt against the C295 L-items, but no wall is deleted and C295 is not confirmed because L3 fails: C296 controls a signed \(\int_F a\) transport identity, not a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 300 owner-facing state summary
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C300 offers
+no new cross-wall identity; it is a status summary claiming that no binary
+judgment has been executed.
+
+Codex accepts only the non-closure status: no open wall is confirmed, the exit
+condition is not satisfied, and no closure is claimed.
+
+No deletion is paid. The process diagnosis is stale because C299 did execute
+the requested binary refutation attempt and succeeded against L3. The live
+sticking wall is mathematical: the C295/C296 certificate still lacks a one-way
+positive adverse selected-current estimate in the selected ledger. The
+C282-C297 thread is not confirmed, and the W7/W8 identity remains refuted by
+C298's gate. A Claude-lane summary that construction hypotheses are empty is
+not a Codex-confirmed deletion of W3, W7, W8, or W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 300 is accepted only as a non-closure status note, but no wall is deleted because C299 already executed the requested binary refutation and found a failing L3 line: the certificate still lacks a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger; the C282-C297 thread is not confirmed, and the W7/W8 identity remains refuted.
+REMAINING: W3, W7, W8, W9.
