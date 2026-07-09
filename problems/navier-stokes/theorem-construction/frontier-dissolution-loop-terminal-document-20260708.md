@@ -4182,3 +4182,66 @@ TV-to-one-way conversion, \(\delta u\), and sweep/no-reuse remain open.
 DELETED: none.
 CERTIFICATE: Cycle 249 accepts the Grönwall \(H^1\)-energy route as the right analytic reduction of the deviation-smoothing inequality, but W8 is not deleted because the actual \(\psi\) equation has not been derived with selector, band cutoff, axis/singularity treatment, pressure/strain terms, and boundary motion typed in the selected ledger, the \(|\nabla u|\le C\Omega\) clock bound, \(T_\partial\) band-budget inequality, and stock-to-arrivals budget are not certified in the same currency, the clock constants are unevaluated, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 250 weight-floor self-audit
+
+Claude self-audited the C245 domination ratio and found that any smooth angle
+weight touching zero gives an infinite \(\sup|w''|/\inf_{\mathrm{band}}w\)
+ratio at the band edge. The proposed repair is a positive floor
+\(w=w_{\min}+(1-w_{\min})\widetilde w\).
+
+Codex accepts the self-audit and the floor as a plausible repair of that
+specific band-edge defect. No deletion is paid. The floored \(w\) still has to
+be certified as the same selected ledger rather than a bar edit or new
+selector; layer-cake/order-lock and the W7/W8 same-selector dictionary must be
+rechecked for the floored levels; and the \(w_{\min}\), transition-band,
+Kato-domination, \(G\), and margin constants remain unevaluated. The
+\(\psi\)-equation, boundary/stock budgets, Horn-B rebuild-loss pricing,
+stranding \(C\), \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 250 accepts the self-audit that the unfloored angle weight makes the C245 domination ratio infinite and accepts a positive floor as a candidate repair of that specific band-edge defect, but W8 is not deleted because the floored \(w\) must be certified as the same selected ledger rather than a bar edit or new selector, layer-cake/order-lock and W7/W8 same-selector transfer must be rechecked for the floored levels, the \(w_{\min}\), transition-band, Kato-domination, \(G\), and margin constants remain unevaluated, and the C249 \(\psi\)-equation, boundary/stock budgets, Horn-B rebuild-loss pricing, stranding \(C\), \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 248-250
+
+Physical sentence of the sticking wall: the first-order orientation row has
+been reduced to a deviation-energy route and the quadratic Kato comparison has
+been self-audited at the band edge, but the proof still lacks one legal
+floored-selector theorem showing that the same selected field currency pays
+the orientation, boundary, stock, and rear-loss rows without changing the bar.
+
+Attempts: C248 reduced the first-order \(\theta\)-residue to harmonic-attractor
+deviation smoothing; C249 proposed a Grönwall \(H^1\)-energy estimate; C250
+self-refuted the unfloored Kato domination ratio and proposed a floored weight.
+
+Missing exact fact: a certified floored-weight selected-ledger theorem proving
+layer-cake/order-lock and W7/W8 same-selector transfer survive the floor,
+deriving the actual \(\psi\) dynamics with boundary, cutoff, axis, and
+pressure/strain terms, bounding stock-to-arrivals and \(T_\partial\), computing
+the \(w_{\min}\), \(G\), \(\beta\), and clock margins, and preserving Horn-B
+pricing, stranding, \(\delta u\), and sweep/no-reuse in one currency.
+
+## Claude Cycle 251 actual \(\psi\)-equation
+
+Claude derived the vorticity-direction equation and rewrote the viscous
+\(\psi\)-operator as a \(\rho^2\)-weighted divergence-form Laplacian.
+
+Codex accepts this as a real reduction of the C249 actual-\(\psi\)-equation
+objection. No deletion is paid. The proof has changed the stock from the
+earlier selected \(\rho\)-weighted ledger to a \(\rho^2\)-weighted energy, and
+the conversion back to one-counted selected arrivals is asserted by a supremum
+and clock absorption rather than certified in the W8 currency. The angle
+coordinate, selector, band cutoff, zero-vorticity/axis exclusions, curvature
+terms, pressure/strain direction forcing, and moving band boundary terms still
+need to be typed in that same ledger. Defining
+\(\Omega=\sup_{\mathrm{patch}}|\nabla u|\) removes one soft inequality but does
+not by itself prove the turnover-window payment, in-family transfer, or margin
+constants. W7 closed-record passage, W7/W8 same-selector admission, Horn-B
+rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins,
+layer-level TV-to-one-way conversion, \(\delta u\), and sweep/no-reuse remain
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 251 accepts the vorticity-direction derivation and the \(\rho^2\)-weighted divergence-form identity as a real reduction of the C249 actual-\(\psi\)-equation objection, but W8 is not deleted because the \(\rho^2\)-weighted energy is not yet certified as the same selected current paid by the W8 ledger, the angle coordinate, selector, band cutoff, zero-vorticity/axis exclusions, curvature terms, pressure/strain direction forcing, and moving band boundary terms are not fully typed in that ledger, the definitional clock and stock-to-arrivals conversion spend an unproved transfer from \(\rho^2\)-stock to one-counted arrivals, and W7 closed-record passage, W7/W8 same-selector admission, Horn-B rebuild-loss pricing, stranding \(C\), computed \(G\) and \(\beta\) margins, layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
