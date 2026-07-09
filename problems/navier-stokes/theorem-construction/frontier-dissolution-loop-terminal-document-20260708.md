@@ -627,3 +627,14 @@ None.
   they do not prove that W9 already carries every nonzero defect as a closed
   zero-surplus certificate row with terminal-window room. W7 remains the
   universal Reynolds-defect payment/carriage/route-out burden.
+- The Claude Cycle 6 pressure-shell gate accepts the Poisson/Hessian shell
+  computation but refutes the proposed merge with the Biot-Savart
+  self-induction sign. With \(Q=-\Delta p\),
+  \(e\cdot\nabla^2p(0)e=-Q(0)/3+(1/4\pi)\operatorname{p.v.}\int
+  Q(y)(3(y\cdot e)^2-|y|^2)/|y|^5\,dy\), so the pressure subsidy is a
+  scale-free scalar \(P_2\) shell moment. A mirror fixing \(e\) preserves this
+  scalar moment and flips the oriented transverse induction sign, so shared
+  axial nonuniformity is not a two-are-one certificate. The Burgers/self-supply
+  constant remains a profile computation, and the shell row still needs W3
+  admission, W7 graph closure, W8 selected bill construction, and W9
+  path/action carriage or route-out.
