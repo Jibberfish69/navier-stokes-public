@@ -1208,6 +1208,147 @@ and the non-covariant route (§26, reduced-to-external-extension) are now
 filed. The loop's reductive capacity is exhausted; what remains is a research
 program with a named target, not a cycle.
 
+## 27. CODEX ADVERSARIAL GATE ON §§23--26: the claimed reduction does not survive
+
+The exact ODE in §23 is valid for the one-point longitudinal cubic moment it
+defines. The conclusions drawn from it do not pass the partner gate.
+
+### 27.1 The longitudinal moment is not the native critical current
+
+The native current proved in the critical-height equation is the two-point,
+basepoint-integrated mixed third-order increment
+
+```math
+\Phi_{\rm mix}(r)
+=
+-c_\Lambda
+\int_{\mathbb R^3}\int_{S^2}
+|\delta_{r\theta}u(x)|^2
+\big(\delta_{r\theta}u(x)\cdot\theta\big)
+\,d\theta\,dx.
+\tag{G27.1}
+```
+
+The object used in §§22--24 is instead the one-point longitudinal cube
+
+```math
+W(r)
+=
+\int_{S^2}
+\big(u(r\theta)\cdot\theta\big)^3\,d\theta.
+\tag{G27.2}
+```
+
+Two identifications are missing: `u(r theta)` with the increment
+`delta_{r theta}u(x)` integrated over every basepoint, and the mixed moment
+`|delta u|^2(delta u dot theta)` with the longitudinal moment
+`(delta u dot theta)^3`. Their difference contains the transverse increment
+energy
+
+```math
+|\delta u|^2(\delta u\cdot\theta)
+-(\delta u\cdot\theta)^3
+=
+|\Pi_{\theta^\perp}\delta u|^2
+(\delta u\cdot\theta),
+\tag{G27.3}
+```
+
+which is not zero on a general anisotropic retained sheet. The familiar
+longitudinal/mixed conversion requires additional homogeneity/isotropy or a new
+exact anisotropic identity; neither is present here. Therefore §24 item (i) is
+not executed for `P_H`.
+
+### 27.2 The exponential kernel preserves the summability burden
+
+Grant the scalar ODE
+
+```math
+M'(\rho)+5M(\rho)=\Psi(\rho),
+\qquad
+M(\rho)=\int_{-\infty}^{\rho}
+e^{-5(\rho-s)}\Psi(s)\,ds.
+\tag{G27.4}
+```
+
+For nonnegative integrable `Psi`, Fubini gives exactly
+
+```math
+\int_{\mathbb R}M(\rho)\,d\rho
+=
+\frac15\int_{\mathbb R}\Psi(s)\,ds.
+\tag{G27.5}
+```
+
+On a dyadic lattice, with `0<q<1`, the same statement is
+
+```math
+M_n=\sum_{k\ge0}q^k\Psi_{n-k}
+\quad\Longrightarrow\quad
+\sum_nM_n
+=
+\frac1{1-q}\sum_n\Psi_n
+\tag{G27.6}
+```
+
+whenever the nonnegative sums are defined. Thus the kernel is bounded on each
+`ell^p`; it does not map an `ell^infinity` envelope into `ell^1` storage. A
+constant positive `Psi_n` gives a constant positive `M_n` and both rung sums
+diverge. The assertion in §23 that
+`sum_rungs M <= (1/5) sup Psi-envelope` is false. The original-data
+positive-selection/storage burden is preserved exactly, not dissolved.
+
+A one-sided kernel in scale also does not acquire time-reversal parity from its
+scale orientation. Time parity must be checked on the velocity/pressure
+integrand; cascade direction is not material-time direction.
+
+### 27.3 The pressure-sign and blanket covariance conclusions do not follow
+
+Because `(G27.1)` has not been identified with `(G27.2)` and `(G27.5)` leaves
+the `L^1` burden unchanged, §24 does not reduce Gold to the displayed atom
+pressure sign. The NS substitution is a valid identity for `(G27.2)` only.
+
+Section 25's blanket claim that every scale-covariant Rellich, Pohozaev, or
+virial identity is structurally incapable of a strict sign also does not follow
+from scale covariance. Scale degree and time-reversal parity are independent
+properties. Critical scaling can show that dimensional coercivity alone has no
+gap; it cannot refute every geometry- or history-dependent sign identity.
+
+### 27.4 The backward-uniqueness route starts from a withdrawn premise
+
+Section 19(b) already established that the transition sheath is not forced to
+burn: it can move inward and leave through the axial caps, with its azimuthal
+vorticity diluted and then regenerated. Section 26 step 1 reasserts that the
+shell is "advected inward and burned, never sustained." That premise was
+withdrawn and cannot supply the vanishing condition for backward uniqueness.
+
+No ancient rescaled Navier--Stokes limit, terminal vorticity vanishing, or
+coefficient class for a backward-uniqueness inequality is proved in §26. A
+formal sequence `N_L ~ 2^{-L}/L` is not by itself a function-space membership
+or non-membership proof. Consequently the current record has not reduced Gold
+to an ESS/NRS/Tsai log-marginal extension.
+
+### 27.5 Surviving state after the gate
+
+The exact surviving results are the native critical increment identity and its
+universal affine positive-part floor, the canonical fixed-annulus passage, and
+the constant-normal Fourier rigidity plus its order-locked tight-packet gap.
+The open Gold statements remain:
+
+```math
+\begin{gathered}
+\text{arbitrary-data record admission into an order-locked tight packet or a
+charged failure},\\
+\text{conversion of the resulting normal-vorticity/axis-tilt gap into a finite
+one-way same-field budget},\\
+\text{or a genuine material-time recurrence rigidity theorem.}
+\end{gathered}
+\tag{G27.7}
+```
+
+No storage wall, pressure-sign wall, or backward-uniqueness hypothesis is
+deleted by §§23--26.
+
 ## 27. THE ASSEMBLY (2026-07-09, owner-prompted): sustainment ⟹ well; marginality ⟹ ridge; alignment ⟹ saddle-descent; kernel ⟹ per-rung payment
 
 Owner correction taken: stop exit-managing, assemble the pieces. They
