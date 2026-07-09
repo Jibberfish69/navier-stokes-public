@@ -1445,3 +1445,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 84 conditionally supplies the tail as an \(L^2_t\) vorticity-dissipation coefficient; the moving-annulus no-recount split, containment gates, and downstream use of an \(L^2_t\) coefficient remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 85 moving-domain estimate is refuted as stated at the
+  endpoint gradient step. The sup-bound can use an \(L^1_s\) coefficient, but
+  the gradient Duhamel term needs control of
+  \(\sup_s\int_{s_0}^s(s-\sigma)^{-1/2}|{\rm Tail}(\sigma)|\,d\sigma\). Small
+  \(L^2_s\) mass on subwindows does not control this convolution, since the
+  Cauchy--Schwarz square kernel \((s-\sigma)^{-1}\) is nonintegrable at the
+  endpoint. The needed certificate is a Kato/time-Morrey tail bound, an
+  \(L^p_s\) bound with \(p>2\), or a nonconcentration theorem strong enough for
+  absorption. The tail must also be uniform over the moving cylinder, and drift,
+  cutoff, and subwindow initial-gradient terms must enter the same scale-uniform
+  estimate. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 85 refutes the claimed \(L^2_s\)-tail absorption for the gradient bootstrap; an endpoint Kato/time-Morrey or stronger tail class and full moving-cylinder estimate remain unproved.
+REMAINING: W3, W7, W8, W9.
