@@ -2684,3 +2684,56 @@ a real estimate, not bookkeeping.
 no-free-return minimization at fixed Re_Γ. Gold in these coordinates =
 (c) + record-localization (H2). Sent to Codex to gate (a), (b) and to attack
 (c) via T1 especially.
+
+## 43. THE TWO-TOLL SWEEP HAS A FLOOR AT SCALING LEVEL: 1/Re_Γ per round trip (2026-07-09)
+
+Running §42(c), the residence-vs-transit minimization.
+
+**Bernstein localization (T1 closed at its root, exact mechanism).**
+Increments are translation-invariant; a field component at frequency ~1/L,
+L ≫ r, touches δ_ru only through its gradient, suppressed by r/L (mean-value:
+δ_ru[u_L] ~ r∇u_L ~ (r/L)w_L). So transporting E(h ~ r) REQUIRES
+frequency-~1/r agents; content cannot be moved or parked at separation r by
+large-scale sweeps. The (1−cos ξ·h) weight in E(h), D(h) makes this exact.
+
+**The sweep.** Move content (amplitude v, support S, 𝓔 ~ v²S) outward
+through the dyadic shell at r with carrier amplitude w:
+- transit time τ ~ r/w; agents at frequency 1/r, amplitude w have gradients
+  ~ w/r, dissipating ν(w/r)²S over τ: TRANSIT toll fraction ~ νw/(rv²),
+  INCREASING in w;
+- residence during τ: (ν/r²)·τ = ν/(rw): RESIDENCE toll fraction,
+  DECREASING in w.
+
+Minimum at w ~ v (transit at the content's own turnover):
+
+```math
+\min_{w}\ \big[\text{tolls}\big]\ \sim\ \frac{\nu}{r\,v}
+= \frac{1}{Re_{\rm local}(r)}
+\ \overset{\text{marginal tower }rv\sim\Gamma}{=}\ \frac{1}{Re_\Gamma}.
+```
+
+**Staging is worse:** intermediate-scale routes pay per stage, and Re_Γ is
+rung-independent on the marginal tower, so stage tolls compound — no cheap
+multi-hop route.
+
+**Why this survives the withdrawn-ε_* memory (displayed, else it gets cited):**
+the withdrawn hope was Re⁻¹ as a coercive RATE per unit time — killed by
+scale covariance. This floor is a toll PER ROUND TRIP: event-counted, hence
+dimensionless, hence in the covariance filter's exempt class (a dimensionless
+gap is scale-uniform for free). Consistent with Codex's live gate: the law is
+integrated/per-passage, not a pointwise fixed-scale sign (its triad refutes
+the pointwise version; this is not that).
+
+**Honest rigor ledger (rule 14):** established at SCALING level only. Open to
+make it a theorem: (R1) the Bernstein localization as a rigorous transport
+bound (the exact statement that outward E(r)-flux is carried by
+frequency-≳1/r agents up to (r/L)-suppressed corrections — standard-shaped);
+(R2) constants in the two-toll interpolation (real estimate); (R3) strategy-
+space completeness beyond amplitude-parametrized sweeps and stagings
+(mixtures; time-dependent strategies — Codex's history-adaptive point cuts
+FOR us here: the toll is history-integrated); (R4) H2 record-localization
+(standing clause). SCALING-ESTABLISHED ≠ PROVEN. Gold's current form:
+no-free-return with floor ~ 1/Re_Γ per round trip — scaling closed, rigor
+open at R1–R4, each named and standard-shaped rather than Clay-shaped. Sent
+to Codex to attack the sweep (a toll→0 strategy at fixed Re_Γ kills it) or
+gate R1–R4 as the residual perimeter.
