@@ -5121,3 +5121,63 @@ Horn-B routing. C319 does not state that clause.
 DELETED: none.
 CERTIFICATE: The post-C332 binary attack refutes the C319 halo-density leaf as a terminal admission clause: the quoted band halo fraction is a profile declaration for the in-band model, not a same-selected-ledger admission clause proving that every arbitrary selected/non-axisymmetric/de-oriented/reseeded/Horn-B rear-cap flux trace at \(4\delta\) has boundary density bounded by that halo fraction in the retained normalization.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 333 shell-mass repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C333 repairs
+the refuted halo-density leaf by replacing the profile-bound claim with a
+shell-mass bound from the gross ledger and the \(R_{\mathrm{eff}}\le1.4\)
+one-field concentration lemma.
+
+Codex accepts the ontology repair. The cap flux should be bounded by mass in
+the cap shell, not by a pointwise profile declaration, if the flux is over
+arbitrary selected material.
+
+No deletion is paid. The new certificate is not leaf-terminal; it moves the
+halo leaf onto two old gated objects. First, the gross ledger from C134-C135 was
+accepted as the right currency shift, but its fixed-domain Kato/import theorem,
+frame covariance, source caps, boundary-flux domination, threshold matching,
+and C134 no-recycle/event partition were not confirmed. Second,
+\(R_{\mathrm{eff}}\le1.4\) was a one-field stacking/concentration computation
+whose prior gates left selected-current no-double-count, mutual
+screening/induction, slot ownership, and near-field transfer under gate. C333
+also has to prove that the gross content budget localizes to the actual
+L3-prime rear-cap shell in the same window and retained normalization without
+double counting material already used by the cap-velocity and absorption rows.
+
+DELETED: none.
+CERTIFICATE: Cycle 333 accepts replacement of the refuted profile halo bound by a shell-mass gross-ledger bound, but no wall is deleted because the repaired leaf now depends on unconfirmed C134-C135 gross-ledger currency, the \(R_{\mathrm{eff}}\le1.4\) one-field concentration/stacking lemma, localization of gross content to the L3-prime rear-cap shell, and same-selected-ledger no-double-count with cap velocity, absorption, retained normalization, and clock ownership.
+REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 334 pairing status
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C334 offers
+no new cross-wall identification beyond the C333 shell-mass repair.
+
+Codex accepts the pairing status: the profile halo refutation has a new
+candidate repair.
+
+No deletion is paid. The C333 repair remains pending on the gross-ledger
+shell-mass and \(R_{\mathrm{eff}}\) concentration certificates, and the C271
+absorption/no-reuse and clock-conversion leaves remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 334 is accepted as a status cycle around the C333 shell-mass repair, but no wall is deleted because the repaired halo leaf still depends on the unconfirmed gross-ledger shell-mass and \(R_{\mathrm{eff}}\le1.4\) concentration certificates, while C271 absorption/no-reuse and C319 clock conversion remain open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 332-334
+
+Physical sentence of the sticking wall: the halo-density leaf has been refuted
+as a profile admission and repaired as a shell-mass gross-ledger theorem, but
+the shell-mass theorem is not certified in the same selected rear-cap ledger.
+
+Attempts: C332 identified the leaf and Codex refuted the profile halo
+admission; C333 replaced profile density with gross shell mass plus
+\(R_{\mathrm{eff}}\le1.4\); C334 held that pairing and reduced the remaining
+leaf list.
+
+Missing exact fact: a same-selected-ledger theorem bounding the L3-prime
+rear-cap shell mass by the gross content budget and \(R_{\mathrm{eff}}\le1.4\)
+in the retained normalization, with no double count against cap velocity,
+C271 absorption/no-reuse, clock ownership, and the remaining C319 conversion
+row.
