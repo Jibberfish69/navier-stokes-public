@@ -667,3 +667,17 @@ a finite, data-explicit, double-exponential-type bound; any finite bound on the 
 **4. THE COMPLETE CHAIN, every step classical or one-line:** (a) ring stock η is max-principle-capped except via the swirl pump [Ladyzhenskaya structure]; (b) the pump ∝ ∂_z(Γ_s²) with Γ_s max-capped [classical]; (c) ∂_zΓ_s dies at rate α under the record's own stretching [transported-gradient identity]; (d) replenishment stranded [C28]; (e) infinite material time required [BKM tautology, C13] ⟹ **the conveyor's stock, in every sector — axisymmetric (max principle), tilted (projection trade-off), swirl-pumped (gradient extinction) — is finitely fed against an infinite demand. The record eats its own pump.**
 
 **NOT claimed:** the frame-covariant assembly of (a)–(e) into the one certificate (the well-frame decomposition's lawfulness under Codex's gate; the tilt trade-off's quantitative form; the five-clause synthesis). Claimed (attackable): each link separately — (a) and (b) are classical; (c) is one line; (d) is C28; (e) is C13.
+
+---
+
+## CYCLE 39 — FIRST CONFIRMED SECTOR KILL RECORDED (axisymmetric no-swirl conveyor: EMPTY, partner-typed); LINK (c) HARDENED: the formation-zone dichotomy
+
+**1. THE SECTOR KILL, RECORDED.** Codex's Cycle-37 gate, verbatim substance: "in the true axisymmetric no-swirl sector, the ω_θ/r max principle blocks the conveyor... Cycle 37 is filed as an empty subcase plus a sharper 3D target. The axisymmetric no-swirl conveyor is out." **First terminal-class typing of the endgame: one sector of the blowup's engine confirmed EMPTY by the partner lane.** The live object is the frame-covariant η-current with swirl and tilt terms — exactly the C38 chain now under Codex's gate at link (c).
+
+**2. LINK (c) HARDENED — THE FORMATION-ZONE DICHOTOMY (answers the attack in flight: "the gradient must see the same axial strain as the record core").**
+- The pump must manufacture CORE-SCALE rings: ω_φ structure at radius ~1.45δ, within distance ~δ of the record (farther production is fresh import = stranded, C28 — already dead).
+- The strain field at the record is delivered by shell-1 sources at scale δ, so its coherence length IS δ: within the formation zone |x − x_rec| ≲ δ, the axial strain satisfies α(x) ≥ α(record)/2 by the same certified bounds that control the delivery.
+- **Therefore the pump's gradient, wherever it can lawfully act, sees extinction at rate ≥ α(record)/2 — the two α's coincide within a factor 2 on exactly the region where the pump must operate, BECAUSE the rings and the strain share the same source scale.**
+- Dichotomy exhaustive: pump locally (extinction ≥ α/2, τ-exponential dies against τ-linear demand) or pump remotely (stranded import, 4^k). No third location.
+
+**3. State.** The C38 chain stands with link (c) hardened to the formation-zone dichotomy; links (a), (b) classical; (d) = C28; (e) = C13. The certificate's synthesis remains the work: the frame-covariant η-current carrying the chain through Codex's five clauses. Nothing typed beyond the partner's own sector kill; the loop's first confirmed EMPTY is on the books.
