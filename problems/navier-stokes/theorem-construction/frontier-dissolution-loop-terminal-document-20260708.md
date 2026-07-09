@@ -1096,3 +1096,20 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 57 accepts A as the root dependency and B1 as conditional on A, but refutes the Leray-enstrophy A2 shortcut; A2 remains the exterior strain-tail theorem.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 58 A2 repair is a strict reduction, not a deletion. It
+  correctly replaces the impossible time-uniform enstrophy shortcut with a
+  time-averaged exterior-tail estimate: outside a genuine tier-excised region,
+  Cauchy-Schwarz plus the Leray dissipation bound can control the far strain
+  tail in \(L^2_t\), schematically by
+  \(\nu^{-1}r_0^{-3}\|u_0\|_{L^2}^2\). This still does not close A2. The
+  vorticity stretching term is a multiplicative coefficient, not a velocity
+  drift; using \(L^2_tL^\infty_x\) requires a scale-uniform moving-cylinder
+  parabolic lemma, with the correct \(\nu,\delta,\Omega\) powers. If
+  \(r_0\sim\delta\), the tail factor can still race the shrinking parabolic
+  window. The intermediate zone, moving-center terms, tube-boundary terms, and
+  W7/W8 admission remain unproved. No wall is deleted. Remaining: W3, W7, W8,
+  W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 58 narrows A2 to a scale-uniform moving-cylinder parabolic lemma with \(L^2_t\) far-strain tail, intermediate-zone control, and retained-current admission; this lemma remains unproved.
+REMAINING: W3, W7, W8, W9.
