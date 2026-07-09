@@ -584,3 +584,13 @@ None.
   after a pre-readout parent-carrier map gives bounded Radon-Nikodym domination
   of every selected Door-1 row by \(d\mu_{W8}\), with typed route-out of
   non-announced or singular rows. No W3/W7/W8/W9 wall is deleted.
+- The W3 terminal dissipation modulus obstruction refutes ordinary
+  empty-by-admission from finite dissipation. Finite total \(L^1_{t,x}\)
+  enstrophy/strain dissipation and fixed-window local-energy balances do not
+  prove rung-uniform retained tower payment. The model
+  \(g_N(t)=N{\bf 1}_{[0,1/N]}(t)\) has uniformly finite total mass while
+  violating every fixed interval-rate bound, and the checked moving-cylinder
+  source says local energy controls fixed balances but not the terminal
+  distribution of \(D_u(Q_r^\Phi(a,t))\) across labels, times, and scales. W3
+  remains the terminal moving-dissipation modulus/rate or typed route-out
+  burden.
