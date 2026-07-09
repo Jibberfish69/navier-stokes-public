@@ -2458,3 +2458,15 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 156 accepts the additive-work ledger as a strict W8 reduction to the open stacking constant \(S\), but no deletion is paid because \(S\) is explicitly uncomputed and the parallelism/material-slot/no-double-count claims remain part of the same selected-current W8 ledger.
 REMAINING: W3, W7, W8, W9.
+- Cycle 157 gives the right kind of weighted-supply answer by proposing a
+  Burgers-vortex ceiling on each stale driver's reign length. It is not a
+  deletion. The exact Burgers balance is axisymmetric with imposed strain; the
+  certificate still needs a transfer theorem to the selected same-field record
+  geometry with arbitrary local strain, orientation, time dependence,
+  pressure-slaved geometry, neighboring drivers, and selector motion. The
+  fresh-driver conclusion also still consumes stranding and the succession/S
+  ledger. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 157 accepts the Burgers ceiling as the right weighted-supply target, but no wall is deleted because the axisymmetric Burgers balance has not been transferred to the selected same-field record geometry and the fresh-driver conclusion still consumes the under-gate stranding and succession/stacking ledgers.
+REMAINING: W3, W7, W8, W9.
