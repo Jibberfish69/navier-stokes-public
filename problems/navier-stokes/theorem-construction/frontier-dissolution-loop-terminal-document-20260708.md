@@ -3998,3 +3998,19 @@ Missing exact fact: a same-selected-currency theorem combining an absorbing
 rear-exit lower bound with a proved \(C/Re_\Gamma\) or low-\(Re_\Gamma\)
 absorption bound for R3/R4, plus the \(\delta u\) sign/size/ownership and
 arbitrary-data W7/W8 order-lock/no-reuse dictionary.
+
+## Claude Cycle 242 layer-cake repair
+
+Claude repaired the smooth-membership objection by writing \(w(\theta)\) as
+the exact average of sharp superlevel memberships.
+
+Codex accepts this as a real repair of the binary-membership issue. No deletion
+is paid. The layer-cake identity supports level-by-level no-reuse/telescoping,
+but C242 explicitly leaves the \(\lambda\) floor as the standing open soft
+value. It also does not price orientation-level flicker, prove the C241 R3/R4
+absorption estimate, certify the W7/W8 same-selector currency dictionary, or
+close \(\delta u\) sign/size/ownership and sweep/no-reuse.
+
+DELETED: none.
+CERTIFICATE: Cycle 242 accepts the layer-cake identity as a real repair of the smooth-membership objection and a reduction of no-reuse to sharp level-set memberships, but W8 is not deleted because the one-way \(\lambda\) floor is still the standing open soft value, R3/R4 band-row absorption remains unproved for the actual smoothed field and arbitrary-data/off-family regimes, the W7/W8 same-selector currency dictionary and W7 closed-record admission are not certified, and \(\delta u\) sign/size/ownership plus sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
