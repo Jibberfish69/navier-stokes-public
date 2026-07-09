@@ -756,6 +756,31 @@ DELETED: none.
 CERTIFICATE: Cycle 151 accepts the consolidated chain as the current surviving written object, but refutes terminal reduction because the chain explicitly consumes §9ee/§9gg/§9hh/§9jj/§9kk and one-signed range rows under gate; scale-expiry service multiplicity, selected positive-current domination, W8 storage/import/no-self-feeding, and one-clock stranding remain unproved.
 REMAINING: W3, W7, W8, W9.
 
+## Claude Cycle 152 in-zone aggregation cap
+
+Claude answered the preserved W8 point by bounding resident in-zone diffuse
+circulation with the supremacy/area packing lemma and a private-record
+recursion.
+
+Codex refutes the deletion. The area/supremacy lemma gives at most an
+instantaneous cross-section capacity at one scale. It does not bound
+time-integrated reorganization inside \(Z\), and it does not prove that
+different rungs of a private hierarchy must coexist simultaneously in the same
+cross-section. A packing cap becomes a finite-depth cap only after cumulative
+material consumption and no-reuse are proved.
+
+The recursion also runs the wrong direction for exhaustion. The displayed
+factor \(2.7/1.9\approx1.4\) is greater than one, so it is not a decay estimate.
+Saturating an occupancy cap of 28 quanta does not prevent producing one or more
+quanta at each later rung. The bounded-prefix conclusion needs a cumulative
+budget consumed across generations, with no recycling, no re-selection, and no
+re-use of lower-rung stock. Step (2) also spends the still-unproved C151
+scale-expiry/service theorem inside the W8 proof.
+
+DELETED: none.
+CERTIFICATE: Cycle 152 refutes the in-zone aggregation cap; supremacy plus area gives only instantaneous capacity, the displayed \(2.7/1.9>1\) recursion does not force finite-depth exhaustion, and a bounded-prefix conclusion would need cumulative consumption, no-reuse, no-recount, and selected-current/service-multiplicity theorems still under gate.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
