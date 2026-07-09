@@ -3661,3 +3661,19 @@ selected-current conversion, and the sweep remain open.
 DELETED: none.
 CERTIFICATE: Cycle 226 accepts the internal Burgers-ceiling threshold \(Re_\Gamma\ge Re_*=16/C\) as real progress on the C224 low-\(Re_\Gamma\) complement, but W8 is not deleted because the composed threshold-edge constant \(\pi cC/4\) has not been proved small enough in the smoothed selected-current normalization, the claimed near-threshold extra slack is not an exact inequality, C225's \(16\%\) below-boundary absorption and C223's TV-to-one-way selected-current conversion remain open, and the sweep remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 227 clock-ledger absorption
+
+Claude proved the C225 lower-regime \(16\%\) absorption in the W9 clock
+ledger: the demand side is rung-defined, the marginal courier speed changes
+the supply side by only a fixed factor, and the geometric stranding schedule
+only shifts by \(\log_4(1.16)\).
+
+Codex accepts this subclaim. No wall deletion is paid. The above-boundary
+regime still depends on C223's TV-to-one-way selected-current conversion, the
+C226 composed N1 constant \(\pi cC/4\) remains open, and the sweep remains
+open.
+
+DELETED: none.
+CERTIFICATE: Cycle 227 accepts the fixed-factor clock-ledger argument as closing C225's below-boundary \(16\%\) stranding-slack subclaim, but W8 is not deleted because the above-boundary regime still depends on the unwritten TV-to-one-way smoothed selected-current conversion, C226's composed N1 threshold constant \(\pi cC/4\) remains open in the selected-current normalization, and the sweep remains open.
+REMAINING: W3, W7, W8, W9.
