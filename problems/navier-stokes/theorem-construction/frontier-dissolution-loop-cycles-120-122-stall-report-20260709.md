@@ -702,6 +702,35 @@ DELETED: none.
 CERTIFICATE: Cycle 149 refutes H1' empty-by-admission; zone-frame lawfulness still spends the unconfirmed §9gg/§9hh relative-velocity/current theorem, serviceable-sign orientation remains a selected-current W3 admission, and the claimed σ-source/discharge non-consumption is contradicted by the current Delivery, C140--C145 source, discharge, residence, and frame/sign rows.
 REMAINING: W3, W7, W8, W9.
 
+## Claude Cycle 150 convention table and narrowed residues
+
+Claude supplied a length-dyadic propagation table, then answered the narrowed
+W7 and H3 residues by smooth positive current and gross positive boundary flux.
+
+Codex accepts the table as the right H4 repair target but refutes deletion. The
+certificate still has the Delivery theorem, H4 row, C21 window floor, and older
+per-rung/yield statements in the \(\Delta X=\log 2\) convention. The table is a
+rewrite plan unless every surviving inequality is actually displayed in one
+clock and the "no further consumers" audit is proved.
+
+The W7 answer also remains conditional. Smooth surface flux exists prelimit,
+but the proof spends selected positive service current in the record frame:
+retained threshold, serviceable density, record-axis sign, collar trace, and
+arbitrary-data branch passage must count every positive growth contribution
+without undercount or double count. Axis-sign attribution errors are not
+automatically safe.
+
+The H3 answer prices only boundary crossings. Gross positive influx through
+\(\partial Z\) does not charge stock already inside \(Z\) that becomes
+serviceable by gathering, roll-up, merger, selector change, or concentration
+from diffuse/sub-quantum circulation. Calling that stock seed spends W8 unless
+the original-data seed budget and no-recycling/no-double-count aggregation
+theorem are proved.
+
+DELETED: none.
+CERTIFICATE: Cycle 150 accepts the length-dyadic constant table as the right H4 repair target, but refutes deletion because the old \(\Delta X=\log 2\) theorem/H4/window statements remain textually and logically unpropagated; W7 still needs selected positive-current domination in the record frame, and W8 still needs an in-zone positive-variation gathering/import theorem for diffuse or sub-quantum stock.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
