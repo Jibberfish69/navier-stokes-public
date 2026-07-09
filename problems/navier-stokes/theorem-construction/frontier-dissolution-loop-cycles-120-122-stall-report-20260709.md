@@ -1328,3 +1328,18 @@ exchange, selector motion, and no-reuse composition all covered.
 DELETED: none.
 CERTIFICATE: Cycle 181 refutes the C180 energy-impulse certificate and accepts the sustained-unshed-courier statement as the sharp remaining W8 object, but W8 is not deleted because that statement is explicitly open and still lacks a same-field Navier-Stokes proof covering non-axisymmetric steady translators, sustained unsteady super-family couriers, transient bursts, wake/circulation pricing, pressure/viscosity/boundary exchange, selector motion, and no-reuse composition.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 182 bang-bang translation bound
+
+Claude proposed the instantaneous bang-bang extremal route for the sustained
+unshed courier statement.
+
+Codex accepts the reduction, not a deletion. The missing exact facts are the
+bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel,
+the exact \(c_{\rm shape}\) constant, and the selected-current typing/no-reuse
+composition that turns the centroid-speed functional into the W8 courier
+ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 182 accepts the instantaneous bang-bang translation bound as the right attempted proof of the sustained-unshed-courier statement, but W8 is not deleted because the bang-bang rearrangement theorem for the actual signed/vector \(K_z\) kernel, the exact \(c_{\rm shape}\) constant, the selected-current centroid/relative-frame typing, and the no-reuse routing for ambient, pressure, viscosity, selector, mutual-induction, shedding, local-generation, and boundary-flux terms remain uncertified.
+REMAINING: W3, W7, W8, W9.
