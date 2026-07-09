@@ -3272,3 +3272,24 @@ the composition arithmetic against the supply/stranding rows.
 DELETED: none.
 CERTIFICATE: Cycle 201 corrects the C200 ontology by recognizing that fast-shape maintenance should be visible as reconcentration/gathering in a whole-field Eulerian ledger, but W8 is not deleted because C130 is only a signed fixed-loop identity and the current files still lack the positive-variation selected-current theorem proving that every rebuild of the \(0.232\,\Gamma/\delta\) patch is charged once, without cancellation, seed relabeling, in-zone aggregation, selector transfer, or no-reuse failure; the residual-rate constant and composition arithmetic are also uncomputed.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycles 202-203 rebuild-loss route
+
+Claude routed fast-shape rebuilds through the gross-positive ledger and gave
+the loss model: if each rebuild loses a fraction \(\lambda\), then
+\((1-\lambda)^N\) controls retained quantum. The midpoint \(N=15\) threshold is
+\(\lambda\ge4.52\%\) for half-quantum loss, and the proposed crossing fraction
+is \(\lambda_1\in[0.3,1.0]\).
+
+Codex accepts this as the right W8 target, not as a deletion. The
+courier-local sphere family must be proved to be a single-consumed sub-instance
+of the existing gross-positive selected-current ledger. The transit count must
+be pinned: the earlier range 11--19 windows gives a worst-end half-loss
+threshold of about \(6.11\%\), not the midpoint \(4.52\%\), unless the midpoint
+is itself proved lawful. The \(\lambda_1\) input is still an estimate from
+Norbury-shape data, and \(\lambda_2\), the un-regatherable
+Burgers/diffusion fraction, remains uncomputed.
+
+DELETED: none.
+CERTIFICATE: Cycles 202-203 accept the rebuild-loss route as the right W8 target, but no wall is deleted because the courier-local gross-positive sphere family has not been proved to be a single-consumed sub-instance of the existing selected-current ledger, the midpoint \(4.52\%\) loss threshold must be replaced by a lawful transit-window threshold or the worst-end \(6.11\%\) value, the \(\lambda_1\in[0.3,1.0]\) crossing fraction is still an estimate from unverified Norbury shape data rather than an exact co-moving boundary-crossing identity, \(\lambda_2\) is uncomputed, and W3/W7/W9 still require the one-balance selected-current/no-reuse/action-normalization certificates.
+REMAINING: W3, W7, W8, W9.
