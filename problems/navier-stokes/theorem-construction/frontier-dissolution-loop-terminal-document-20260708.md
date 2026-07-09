@@ -1580,3 +1580,21 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 92 files the corrected stall at the coupled CF scalar-system certificate plus capped ODE insertion; finite queue length is not a deletion certificate.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 93 induction matrix is accepted as the right candidate shape
+  for the coupled induction, not as a certificate. The "previous-window output"
+  language needs an exact overlapping-window scheme: the coefficients used on
+  window \(n+1\) must be bounded on that whole window by data produced before
+  the estimate starts, with overlap, restart time, and tier-floor lower bound
+  stated. The direction-gradient row still has two attack surfaces: derivative
+  terms in the CF direction coefficient must be shown linear in the previous
+  vector, not products such as \(C_{\rm dir}C_{\rm grad}\), and the
+  \(\nabla\log|\omega|\cdot\nabla\xi\) drift must enter the parabolic estimate
+  with exact absorption/window constants and zero/exchange routing. The §8p
+  substitution also needs a checklist proving every placeholder coefficient
+  receives a CF-derived entry with the same units, material clock, no-recount
+  convention, W7 closure, and W8 original-data currency. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 93 reduces the coupled-CF stall to an overlapping-window two-row induction plus a same-current coefficient-substitution checklist; both remain unproved.
+REMAINING: W3, W7, W8, W9.
