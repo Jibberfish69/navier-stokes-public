@@ -1916,3 +1916,16 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 116 files the corrected stall at the shell-import strictness joint; toll-on-arrival absorption or data-controlled windowing for the cutoff/Kato shell row remains unproved, so the top-level bootstrap is not a deletion certificate.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 117 arrival-rate closure is refuted as a deletion
+  certificate. The proposed arrival cap \(N_{\rm arr}\le \tau/4\) is in
+  material time, while \(dX/d\tau\le1\) gives only \(X\le\tau\). That inequality
+  does not allow the replacement \(\tau/4\mapsto X/4\); \(\tau\) can be much
+  larger than \(X\) under waiting, plateau, staging, or low-service material
+  time. The C33 conveyor deficit remains a candidate route only after a
+  service-active clock theorem proves arrivals are capped in the same clock
+  that forces \(X\)-growth, or proves a reverse bound \(\tau\le C X+C_0\). No
+  wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 117 refutes the displayed \(0.82\) strictness margin: \(X\le\tau\) is the wrong direction for absorbing a material-time arrival cap; a service-active clock or reverse material-time bound remains unproved.
+REMAINING: W3, W7, W8, W9.
