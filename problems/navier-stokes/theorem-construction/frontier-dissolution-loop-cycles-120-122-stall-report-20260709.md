@@ -2450,3 +2450,26 @@ conversion and the sweep/no-reuse split remain open.
 DELETED: none.
 CERTIFICATE: Cycle 237 accepts the six-row Reynolds display as a real repair of C235's undisplayed-row objection, but W8 is not deleted because the integral \(w\rho\) balance has not been bridged to the compact-source identity for \(\Delta(w\rho)\) with all product-rule, cutoff, and boundary terms assigned once, the \(\delta u\) contribution inside \(J=u(w\rho)\) still lacks a certified sign/size/ownership bound, R3/R4 still spend winding and band-content estimates, and C223's TV-to-one-way selected-current conversion plus the sweep/no-reuse split remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 238 shared-support certificate
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C238 tries
+to identify W7 cover occupancy and W8 circulation currency as two readouts of
+one boundary-crossing set, but the identification fails as a paid two-are-one
+certificate because shared support is weaker than same selected positive
+current, same quantum, and same no-reuse/order-lock accounting.
+
+Codex accepts the shared-support idea as useful. It is the right whole-field
+direction: payer ownership should be restored by a fixed-region flux law.
+
+No deletion is paid. Gross \(|\omega|\)-flux can cross where \(w=0\), while
+retained occupancy uses \(w|\omega|\). If W8's currency is selected by the same
+\(w\), that is still a theorem to state. Shared support also does not convert
+net or TV crossing into one-way selected current; that is C223. The Norbury
+ratio is in-family only, and smooth-test-object calculus does not discharge
+W7 closed-record admission. C237's product-rule source bridge, \(\delta u\)
+placement, C223, and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 238 accepts shared boundary support as useful whole-field ontology, but refutes the proposed W7/W8 two-are-one identity as stated because gross \(|\omega|\)-flux and retained \(w|\omega|\)-occupancy do not have identical support unless the W8 currency is proved to use the same selector, shared support does not convert net/TV crossing into one-way selected current, the in-family Norbury ratio does not cover arbitrary data or off-family regimes, smooth-test-object calculus does not discharge W7 closed-record admission, and C237's source-bridge plus \(\delta u\), C223, and sweep/no-reuse residues remain open.
+REMAINING: W3, W7, W8, W9.
