@@ -686,3 +686,18 @@ None.
   rung-price summability unproved, so the neck-conversion mechanism is a sharper
   recurrence model rather than W9 zero-surplus terminal closure. No wall is
   deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycles 16-18 log-shell / trichotomy gate accepts the field-view
+  overlap only as a strict common target. Whole-field ownership can replace
+  packet custody only after the selected dangerous record is realized as a
+  common spacetime-current/profile object with signed balance, graph closure,
+  selected payer domination, shift action, terminal-window room, and typed
+  defect routes. Cycle 16's standing/moving partition still needs
+  \(q\)-restriction correction control, branch-boundary/exhaustiveness, and
+  continuous selector/action data. Cycle 17's fixed-\(\Gamma\) computation
+  refutes crude energy payment, while Cycle 18's slow-shell difficulty refutes
+  per-shell-turnover decoherence. The proposed identity between rung-price
+  summability, log-shell coherence, the \(\ell^2\)-vs-\(\ell^1\) dyadic gap, and
+  affine log-tower payment lacks an exact same-field bidirectional certificate.
+  No checked clause carries W3 row admission, W7 graph/Reynolds-defect closure,
+  W8 selected original-data payment, or W9 compact material-time zero-surplus
+  action. No wall is deleted. Remaining: W3, W7, W8, W9.
