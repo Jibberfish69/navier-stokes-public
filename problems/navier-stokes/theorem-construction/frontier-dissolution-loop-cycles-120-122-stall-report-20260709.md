@@ -1216,3 +1216,19 @@ exact \(R_{\rm eff}\).
 DELETED: none.
 CERTIFICATE: Cycle 172 accepts the ratio audit as a useful denominator check, but W8 is not deleted because \(\log 4\) per recipient-rung is adversary-proof only after a same-field record/succession ownership theorem or whole-field flux-cancellation bridge, and C172 does not prove the cone-weighted \(0.456\) selected-service bound, exact \(R_{\rm eff}\), moving-recipient separation/merger routing, or demand-side no-reuse identity.
 REMAINING: W3, W7, W8, W9.
+
+## Post-stall Cycle 173 holding-duty constant
+
+Claude withdrew the tensor-norm orientation shortcut and isolated the finite
+constant \(D\): the duty fraction for off-cone stock holding
+service-positive orientation against record winding.
+
+Codex accepts the target, not a deletion. The missing exact fact is a
+same-field two-rate duty theorem: record winding at cone-shell range versus
+supremacy-capped counter-tilt, composed through the \(P_2\)-weighted off-cone
+sphere, proving \(D\le1/4\). C55 supplies only a qualitative draw, and the
+C172 ownership/no-reuse denominator bridge remains open.
+
+DELETED: none.
+CERTIFICATE: Cycle 173 accepts the concession that the C171 tensor-norm orientation contraction loses the \(0.456\) cone factor and accepts the holding-duty constant \(D\) as the right finite numerator target, but W8 is not deleted because \(D\le1/4\) has not been proved by the same-field two-rate duty computation, and the C172 ownership/no-reuse denominator bridge remains uncertified.
+REMAINING: W3, W7, W8, W9.
