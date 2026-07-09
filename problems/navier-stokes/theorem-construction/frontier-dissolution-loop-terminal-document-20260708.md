@@ -2885,3 +2885,20 @@ composition also remain open.
 DELETED: none.
 CERTIFICATE: Cycle 178 accepts Benjamin's variational principle as the right route toward a universal courier-speed theorem, but W8 is not deleted because the steady-axisymmetric extremal result has not been transferred to all local viscous same-field courier pieces, the non-axisymmetric/unsteady edge and differential-advection composition remain uncertified, and the \(\sin^2\) selected positive-service transfer plus succession/stranding no-reuse ledgers are still open.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 179 unsteady-courier audit
+
+Claude audited the unsteady courier edge. The canonical leapfrog candidate is
+blocked for full quantum carriers because the fat-core supremacy condition
+removes the thin-hole geometry needed for interpenetration.
+
+Codex accepts the audit, not a deletion. The remaining edge is still named:
+sustained unsteady super-extremal propulsion without shedding. The transient
+burst duration bound and the wake/circulation pricing theorem are not yet
+certified in the same-field Navier-Stokes ledger, and the \(\sigma\)-pricing,
+merger, succession, and no-reuse branches still cite existing rows rather than
+proving a fresh certificate here.
+
+DELETED: none.
+CERTIFICATE: Cycle 179 accepts the unsteady-courier audit and the refutation of full-quantum thin-ring leapfrogging, but W8 is not deleted because the sustained unsteady super-extremal without shedding edge remains unrefuted, transient burst duration and wake/circulation pricing are not certified in the same-field Navier-Stokes ledger, and the \(\sigma\)-pricing, merger, succession, and no-reuse branches still cite existing rows rather than proving a fresh certificate here.
+REMAINING: W3, W7, W8, W9.
