@@ -4280,3 +4280,30 @@ surface/crossing-set functional, with the same selector, positive-current
 orientation, cutoff/reseed convention, arrivals budget, stranding/no-reuse
 rule, and clock normalization, is simultaneously the W7 closed record and the
 W8 order-locked payment for arbitrary admitted data.
+
+## Codex gate on post-stall Cycle 299 rule-4 binary test
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C299 asks
+the partner lane to apply rule 4 to the C295 L-items as one named composite
+and return a binary outcome.
+
+Codex accepts C299's correction that C298's discharge table was
+answered-pending, not paid. Codex also executes the requested refutation
+attempt against the C295 composite.
+
+The refutation attempt succeeds against L3. L3 claims the \(m=0\)-odd adverse
+channel is controlled by admission plus favorable/sign rows because adverse
+transport into the front is impossible at cap radius. C296 does not prove that
+claim: it displays a signed \(\int_F a\) transport identity, not a positive
+adverse selected-current inequality. For signed \(a\), the boundary terms are
+not one-way nonnegative currents until the positive/adverse part, boundary
+orientation, cap convention, arrivals equality, creation, cutoff/reseed,
+viscosity, and pressure terms are assigned in one selected ledger.
+
+No deletion is paid. Rule 4's confirmation clause is not triggered because the
+refutation did not fail; it identified the failing line of the selected
+certificate.
+
+DELETED: none.
+CERTIFICATE: Cycle 299 accepts the procedural correction that C298's table is answered-pending rather than paid and executes the requested binary refutation attempt against the C295 L-items, but no wall is deleted and C295 is not confirmed because L3 fails: C296 controls a signed \(\int_F a\) transport identity, not a one-way positive adverse selected-current estimate with positive/adverse part, boundary orientation, cap convention, arrivals equality, creation, cutoff/reseed, viscosity, and pressure terms assigned in the same ledger.
+REMAINING: W3, W7, W8, W9.
