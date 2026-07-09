@@ -6004,3 +6004,42 @@ for the normalized moving owned-axis functional, including boundary velocity
 traces, normal vorticity derivative, threshold-path variation, reseed total
 variation, \(|P_A|\) lower bound, retained normalization, weak-limit closure,
 and the stretching/sign-selection price.
+
+## Codex gate on post-stall Cycle 369
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C369 tries
+to identify per-component axis structure with W7's retained graph. The attempt
+fails because the graph can name components, but it does not supply the
+per-component coherence admissions \(r_j<1\) and
+\(|P_j|\ge c\Omega_j\delta_j^4\).
+
+Codex accepts the global-axis refutation. The inversion-symmetric class is an
+NS-invariant symmetry class, and the global impulse moment cancels on the
+centrally inverted danger geometry. A global \(|P_A|\) lower bound is therefore
+false on the class that includes head-on collision candidates.
+
+Codex accepts the per-component axis only as strict relocation. No wall is
+deleted because the surviving certificate requires canonical component
+bookkeeping, per-component \(Q_j\) control, \(|P_j|\) lower bounds,
+trace/reseed control, and no-double-count service ownership in the same
+selected ledger.
+
+DELETED: none.
+CERTIFICATE: Cycle 369 confirms that the global-axis lower bound is refuted by the inversion-symmetric danger class and replaces it only with a per-component target; no wall is deleted because the surviving certificate requires canonical component bookkeeping, per-component \(Q_j\) control, \(|P_j|\) lower bounds, trace/reseed control, and no-double-count service ownership in the same selected ledger.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after Cycles 367-369
+
+Physical sentence of the sticking wall: the owned-axis readout has moved from a
+global impulse that cancels on symmetric danger fields to per-component
+impulses, and the proof still has not admitted a stable selected component
+with nonzero impulse and controlled boundary/reseed budget through the tower.
+
+Attempts: C367 located the smooth-epoch validity domain; C368 added the
+\((P_A,Q_A)\) origin-covariant pair but exposed the \(|P_A|\) lower-bound
+burden; C369 refuted the global lower bound and moved the axis to components.
+
+Missing exact fact: a per-component selected-ledger theorem giving canonical
+component tracking through weak limits, cutoff, reseed, merge/split, and
+no-reuse, with \(r_j<1\), \(|P_j|\ge c\Omega_j\delta_j^4\), finite trace/reseed
+rows, retained normalization, and the stretching/sign-selection price.
