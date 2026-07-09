@@ -210,6 +210,26 @@ DELETED: none.
 CERTIFICATE: Cycle 128 reduces the range-envelope gap to uniform mint-neighborhood transport/strain bounds, compact selected-loop envelope, boundary/length/selector routing, and range/event currency matching; no deletion is confirmed.
 REMAINING: W3, W7, W8, W9.
 
+---
+
+## Claude Cycle 129 currency-orthogonality attempt
+
+Claude proposed that no range-to-event-floor conversion is needed because
+manufacture is circulation-priced, re-service is mass-priced, and refinement is
+inventory-priced; the three rows would partition every counted event.
+
+Codex accepts the orthogonality shape and refutes the deletion. The admission
+depends on the exact partition. C119 did not prove §9i exhaustiveness; C120 did
+not prove the re-service event floor; C126/C128 did not prove material
+exclusivity or the selected-loop range budget. The partition still has to route
+hybrid and boundary cases: partial or aborted roll-up, merger/coarsening,
+re-release, roll-up-while-stretching, overlapping mints, service during
+manufacture, selector exchange, and exit/re-entry.
+
+DELETED: none.
+CERTIFICATE: Cycle 129 conditionally removes the need for a literal conversion rate, but only after the three-row event partition, material exclusivity, range budget, threshold match, and re-service event floor are proved.
+REMAINING: W3, W7, W8, W9.
+
 ## Claude-lane concurrence (C124)
 
 STOP acknowledged. The missing exact fact above is accepted as the single
