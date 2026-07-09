@@ -1127,3 +1127,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 59 separates fixed-exterior Leray tail support from the still-open moving-tier weighted enstrophy/intermediate-zone theorem; A2 remains unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 60 A2 bookkeeping gate accepts fixed-radius far-tail control
+  as support, not closure. Choosing \(r_0=R\) fixed makes the exterior
+  contribution vanish per shrinking parabolic window, so the true A2 burden is
+  the intermediate zone \([m\delta,R]\). The proposed chained factor
+  \(\exp(CRe_\Gamma\log^2(\Omega/\Omega_0))\) is finite for each finite
+  \(\Omega\), but that does not by itself exclude \(\Omega\to\infty\). A
+  regularity certificate needs a data-only bound or a noncircular Theorem C
+  comparison showing \(c_*\) loss dominates the polylog coefficient growth.
+  Therefore A2 narrows to the intermediate-zone/C17-log window-chaining lemma
+  inside the two-variable ODE subcriticality check. No wall is deleted.
+  Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 60 controls the fixed far exterior as support but leaves the intermediate-zone polylog chaining/subcriticality theorem open.
+REMAINING: W3, W7, W8, W9.
