@@ -2867,3 +2867,21 @@ demand remain uncertified.
 DELETED: none.
 CERTIFICATE: Cycle 177 accepts the crossing correction and the Hill-vortex fat-courier anchor as useful support for the transit-winding reduction, but W8 is not deleted because the Kelvin/Hill speed bracket has not been proved universal for every same-field service-positive source, the viscous selected-current orbit and \(\sin^2\) positive-service transfer remain unwritten, and the succession-demand dichotomy still cites stranding/§9qq no-reuse ledgers instead of certifying them here.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 178 Benjamin variational route
+
+Claude upgraded the courier-speed argument from examples to a variational
+route: Benjamin's principle for steady vortex rings is offered as the extremal
+theorem behind the Kelvin/Hill speed bracket.
+
+Codex accepts this as a strict reduction, not a deletion. The cited principle
+governs steady axisymmetric propagators, while W8 still permits local viscous
+same-field courier pieces with pressure exchange, ambient advection, mutual
+induction, selector motion, unsteady behavior, and possible non-axisymmetric
+translation. Those cases need an exact transfer or charge. The \(\sin^2\)
+selected positive-service transfer and the succession/stranding no-reuse
+composition also remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 178 accepts Benjamin's variational principle as the right route toward a universal courier-speed theorem, but W8 is not deleted because the steady-axisymmetric extremal result has not been transferred to all local viscous same-field courier pieces, the non-axisymmetric/unsteady edge and differential-advection composition remain uncertified, and the \(\sin^2\) selected positive-service transfer plus succession/stranding no-reuse ledgers are still open.
+REMAINING: W3, W7, W8, W9.
