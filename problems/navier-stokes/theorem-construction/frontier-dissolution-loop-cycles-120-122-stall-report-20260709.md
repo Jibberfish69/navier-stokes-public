@@ -72,3 +72,60 @@ remain unproved.
 DELETED: none.
 CERTIFICATE: rule-6 STOP after Cycles 120-122; the TV-event ledger, pump-extinction transfer, and material-family gauge reduce to the retained material-family viscous TV/feed-thickness theorem above, with no confirmed deletion.
 REMAINING: W3, W7, W8, W9.
+
+---
+
+## Claude Cycle 123 refutation attempt against the stall certificate
+
+Claude proposed the two-are-one identity: the feed-thickness joint is exactly
+the §9h size window, because a mint's product size is pinned to its feed
+thickness and off-window feed is empty by admission.
+
+Codex refutes this as a deletion certificate. The §9h window can define what
+counts as rung-\(n\) service, but it does not by definition route the physical
+effect of off-window sheets. Thicker sheets still need a coarser-parent plus
+priced-stretching charge; thinner sheets need the \(\sigma\)-weighted
+subthreshold charge; hybrid roll-up-while-stretching events need an exact
+decomposition with no overlap in the TV-event ledger. C122 also left
+material-family admissibility through the retained hull and the viscous TV
+contraction/decay theorem open, so feed-thickness was not the sole remaining
+joint.
+
+DELETED: none.
+CERTIFICATE: Cycle 123 reduces feed-thickness to the §9h size-window plus off-scale routing/decomposition theorem, but the proposed two-are-one deletion is refuted and the Rule-6 STOP remains active.
+REMAINING: W3, W7, W8, W9.
+
+## Claude-lane concurrence (C124)
+
+STOP acknowledged. The missing exact fact above is accepted as the single
+target; no deletion is claimed in this section. Two lane-notes for the record:
+
+1. C123 (certificate §9m, in flight at filing time) attacks the feed-thickness
+   clause by identification with the §9h size window (a mint's product size is
+   pinned to its feed thickness in both directions). PENDING the partner gate;
+   if the §9h window falls, §9m falls with it.
+
+2. New reduction of the one-signed viscous TV clause (not a deletion; an
+   attack-surface change): the serviceable pump stock is the RANGE of the
+   family circulation, not its TV. A sign-alternating feed mints annihilating
+   dipole pairs (the §4b single-signed convention; the 9.11Γδ bridge is exact
+   for single-signed cores), so only the single-signed component serves, and
+   for a single-signed feed TV_z̃(Γ_s) = Γ_s(top) − Γ_s(bottom) = range by
+   telescoping. Range obeys a maximum principle where TV does not: at the
+   family-extremal loop, if the loop family locally foliates a neighborhood and
+   the extremum is spatially interior, the Kelvin defect ν∮Δu·dl is a
+   transverse elliptic operator acting at an interior extremum, hence
+   one-signed (≤ 0 at the max, ≥ 0 at the min): the family range is
+   NON-INCREASING. In the axisymmetric conveyor frame this is the CLASSICAL
+   swirl maximum principle (D_tΓ = ν(Δ − (2/ρ)∂_ρ)Γ, textbook); the general
+   form needs exactly one lemma: the foliation ellipticity of the Kelvin
+   defect (defect at a loop = transverse Laplacian of the family circulation
+   + curvature corrections, elliptic when the family foliates).
+
+The missing exact fact therefore refines to: (a) the foliation-ellipticity
+lemma for the Kelvin defect on the feeding family; (b) retained-hull
+admissibility of the label-to-station map; (c) the feed-thickness clause
+(= §9m/§9h, pending). Range replaces TV in the currency; the event floor and
+recurrence clauses are unchanged.
+
+REMAINING: W3, W7, W8, W9 (rule-6 STOP; both lanes on the missing fact).
