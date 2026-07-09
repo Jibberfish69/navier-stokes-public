@@ -2961,3 +2961,29 @@ W7/W8 same-selector admission, Horn-B pricing, stranding, TV-to-one-way,
 DELETED: none.
 CERTIFICATE: Cycle 254 accepts the R6 budget-sharing audit as a useful localization of the composed quantitative frontier to an explicit \(Re^\ast \ge K_{\mathrm{total}}(w\text{-parameters})/\mathrm{margin}\) check, but W8 is not deleted because the R6 utilization ceiling, wound-state R6 clock magnitude, \(K_{\mathrm{total}}\), \(w_{\min}\), \(G\), \(\beta\), clock, and Horn-B constants are not evaluated, the displayed threshold is expressly allowed to fail, the listed reserves are not certified inequalities, and W7 closed-record passage, W7/W8 same-selector admission, boundary-complete field payment, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 255 two-route comparison
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C255 tries
+to identify the remaining quantitative burden with either a closed R6 fallback
+or a stock-route de-orientation fraction, but it still does not identify W8
+with W3/W7/W9 because the surviving stock-route constant is unevaluated.
+
+Codex accepts C255 as a useful refutation/reduction. The composed R6 route, as
+priced in C254, misses by roughly an order of magnitude unless unproved
+reserves are invoked. The primary route is therefore the arrivals-stock route,
+with a sharp proposed target \(\sigma_{\mathrm{frac}}\le 0.046\).
+
+No deletion is paid. The new \(\sigma_{\mathrm{frac}}\) constant is not
+evaluated and is not admitted as a new frontier wall under rule 3. The physical
+claim that dispatched couriers arrive oriented is asserted from selection and
+C55 transit maintenance, but no same-field arrivals theorem proves the
+de-orientation fraction of actual arrivals. The budget separation from margin
+to arrivals stock is a plausible reclassification, not a certificate that the
+fresh deviation stock is paid once in the selected ledger. Boundary-complete
+field payment, W7/W8 same-selector admission, Horn-B pricing, stranding,
+TV-to-one-way, \(\delta u\), and sweep/no-reuse remain open.
+
+DELETED: none.
+CERTIFICATE: Cycle 255 accepts the two-route comparison as a useful reduction that refutes the composed R6 fallback as currently priced and localizes the primary stock route to the proposed \(\sigma_{\mathrm{frac}}\le 0.046\) arrivals-orientation inequality, but W8 is not deleted because \(\sigma_{\mathrm{frac}}\) is a new unevaluated class-geometry constant not admitted as a net-negative frontier wall under rule 3, the same-field theorem that dispatched actual arrivals remain oriented is asserted rather than certified, the stock-to-arrivals budget is not yet proved as a one-counted selected-ledger payment, and W7 closed-record passage, W7/W8 same-selector admission, boundary-complete field payment, Horn-B pricing, stranding \(C\), layer-level TV-to-one-way conversion, \(\delta u\) sign/size/ownership, and sweep/no-reuse remain open.
+REMAINING: W3, W7, W8, W9.
