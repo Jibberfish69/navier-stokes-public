@@ -2232,7 +2232,9 @@ v_\lambda(x)=\lambda v(\lambda x),
 both `Hdot^{1/2}` helical norms in `(NIC.169)` are unchanged, while
 `||v_lambda||_2^2=lambda^{-1}||v||_2^2` and
 `||v_lambda||_{Hdot^{3/2}}^2=lambda^2||v||_{Hdot^{3/2}}^2`.
-Thus the participation threshold can recur at smaller scales with summable
-physical energy and compressed time. The estimate proves a strict reduction
-of any Gold counterhistory to a mixed-helicity critical record; it supplies no
-event count, no one-way loss, and no bound on record height.
+Scaled smooth solutions can therefore meet the same participation threshold at
+smaller scales with vanishing physical-energy cost and compressed time. This
+does not construct recurrence inside one Navier--Stokes trajectory; it shows
+that scaling and physical energy do not exclude such recurrence. The estimate
+strictly reduces any Gold counterhistory to mixed-helicity critical records,
+but supplies no event count, no one-way loss, and no bound on record height.
