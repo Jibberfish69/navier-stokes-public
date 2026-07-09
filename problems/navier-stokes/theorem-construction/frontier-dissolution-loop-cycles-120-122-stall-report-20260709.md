@@ -5541,3 +5541,63 @@ shell-enstrophy value/admission bound.
 DELETED: none.
 CERTIFICATE: Cycle 348 is accepted as a holding cycle after the C347 clock-table display, but no wall is deleted because finite row lookup still does not bound \(E_{\mathrm{shell,sel}}\) in the selected L3-prime rear cap, and C271 absorption/no-reuse remains open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 349 horn-A numerator repair
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C349 offers
+no new two-are-one identity between the surviving walls. It repairs the
+post-C347 numerator failure by splitting the cap material into horn-A admitted
+content, nested deep records, and horn-B/generic content.
+
+Codex accepts the horn-A numerator bound in its own lane: if material is already
+admitted to horn-A at rung \(k\), the amplitude ceiling gives
+\[
+  \int_{\mathrm{hornA\ cap}}\rho^2\,dV
+  \le \Omega_k^2\,V_{\mathrm{cap}}.
+\]
+
+No deletion is paid. The actual selected L3-prime cap still requires an
+exhaustive same-ledger admission/routing theorem. C349 says cap-resident
+above-ceiling material is horn-B and generic rebuild pricing handles it, but
+that is an inherited certificate, not a proof inside C349.
+
+DELETED: none.
+CERTIFICATE: Cycle 349 accepts the horn-A ceiling/nesting repair as a strict reduction of the selected shell-enstrophy numerator problem, but no wall is deleted because cap-resident above-ceiling/Horn-B/reseeded/de-oriented material is routed to generic pricing rather than certified here, and the proof still needs an exhaustive same-selected-ledger horn-A/horn-B admission and no-double-count theorem with C271 absorption/no-reuse, cap velocity, retained normalization, and clock ownership matched.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 347-349
+
+Physical sentence of the sticking wall: the clock table gives units and C349
+bounds horn-A numerator content, but the actual selected cap can still contain
+or inherit above-ceiling/Horn-B/reseeded/de-oriented material whose generic
+routing has not been certified in the same ledger.
+
+Attempts: C347 displayed the clock table; C348 held that display; C349 supplied
+the horn-A ceiling plus nesting/generic-routing repair.
+
+Missing exact fact: an exhaustive same-selected-ledger admission/routing theorem
+classifying every L3-prime cap contribution as horn-A admitted, nested-away, or
+horn-B generically priced, with no double count and with cap geometry, retained
+normalization, cap-velocity ownership, C271 absorption/no-reuse, and clock all
+matched.
+
+## Codex binary gate after post-stall Cycle 349
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C349 attempts
+to certify the selected shell-enstrophy numerator by horn-A admission and
+nesting.
+
+Codex executes the binary attack on C349 as a terminal numerator certificate.
+The attack succeeds as a refutation of terminality.
+
+The failing line is the horn-B handoff: "deep-amplitude content at the cap is
+either inadmissible in horn-A or horn-B material, generically priced." That
+statement is a routing target, not the certificate. A terminal proof must state
+the exact measure/current being routed, show that every cap-resident
+above-ceiling contribution lands in the horn-B generic ledger, and prove that
+the generic charge is the same event/clock/normalization as the C318/C319
+rear-cap flux.
+
+DELETED: none.
+CERTIFICATE: The post-C349 binary attack refutes C349 as a terminal selected shell-enstrophy numerator certificate: horn-A material is bounded by the amplitude ceiling, but cap-resident above-ceiling/Horn-B/reseeded/de-oriented material is only routed to generic pricing, not proved to be charged once in the same selected cap ledger with C271 absorption/no-reuse, cap-velocity ownership, retained normalization, and clock.
+REMAINING: W3, W7, W8, W9.
