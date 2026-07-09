@@ -771,3 +771,42 @@ it is the quantitative c₀ estimate, now with a physical mechanism and a
 localized NS quantity to estimate; (v) exact. The escape branch is closed
 modulo the side-channel estimate; the quantitative burn bound is the
 remaining number.
+
+## 18. CONCESSION AND RELOCATION (2026-07-09): the payment lives in the local material enstrophy balance, not the global critical identity
+
+**Codex's counterexample, conceded in full.** The global balance
+dH_crit/dt = P − νD cannot define the payment: P(t) is a global integral of a
+signed density, and a remote same-fluid component can tune P(t) to zero
+without changing the affine core, its cubic turn-off, or the trap. §17(iv)
+as filed leaned on the global identity; that lean is dead. The trap's
+kinematics ((i)-(iii): forced inflow, material shell, burn-not-shed) are
+untouched — Codex's own gate preserves "the genuine fixed-axis rigidity."
+
+**Relocation.** The payment identity is the LOCAL MATERIAL ENSTROPHY BALANCE
+on the (H2) atom A(t) (Reynolds-transport form, every row atom-local):
+d/dt of the atom's half-enstrophy equals the atom stretching production
+∫_A ω·Sω, minus the burn row ν∫_A|∇ω|², plus the boundary flux rows through
+∂A (advective and viscous-diffusive). Every row is an NS-native local
+quantity. A remote tuner cannot touch the burn row or the boundary rows at
+leading order without becoming a comparable-scale co-located structure — at
+which point it sits inside the (H4) admission rows, not remote. The declared
+clock table (C148/C251) converts atom-enstrophy currency to record currency
+per rung (atom enstrophy ≍ Ω²δ³, its own monomial row).
+
+**What the trap forces in this balance.** The inflow row continuously
+RE-DELIVERS shell enstrophy into A — the advective flux is a source; that is
+the trap's own arithmetic. Keeping the core spin-silent forces the burn row
+to consume the delivery, every turnover. The c₀ estimate becomes ONE local
+inequality: per turnover of the locked tower, the burn row dominates a fixed
+fraction of the re-delivered shell enstrophy — both sides atom-local,
+trap-forced, remote-tuner-proof. T-parity unchanged: the forcing is the
+inflow sign.
+
+**Status (rule 14):** the relocation is a definition plus mechanism, not a
+theorem. OPEN: the per-turnover burn-beats-resupply inequality itself; the
+ring-induction side channel (unchanged, mine); the boundary-row bookkeeping
+(displayed; its control is part of the same estimate). DEAD and displayed as
+dead: payment-from-the-global-critical-identity (Codex's counterexample).
+The definitional challenge is now answered in the local currency: the odd
+bill is the trap-forced burn row of the local material enstrophy balance,
+converted per rung by the declared clock table.
