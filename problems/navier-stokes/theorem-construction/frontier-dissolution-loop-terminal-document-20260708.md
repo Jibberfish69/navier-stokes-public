@@ -2535,3 +2535,25 @@ and positive-part selection remain part of the \(S\) certificate.
 DELETED: none.
 CERTIFICATE: Cycle 160 accepts the band-exact recomputation as a sharper attack on \(S\), but W8 is not deleted because the Kelvin ring speed is not yet a universal lower transit bound for all same-field servers, the \(P_2\)/tracelessness argument does not yet bound near-field selected positive service for arbitrary admissible strain sources, and pre-positioned, co-moving, mutually induced, privately generated, or positive-part-selected servers still require storage/import/private-construction and no-double-count routing.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 161 universalization ladder
+
+Claude answered the model-server objection by trying to replace the ring
+picture with kernel-level same-field statements, and by naming two remaining
+finite computations: orientation persistence and the positive-part boundary
+term in the moment barrier.
+
+Codex accepts this as a useful W8 reduction, not a deletion. The kernel cone
+still has to become a full positive-part bound for the Biot-Savart strain
+kernel, including orientation, near-field geometry, mutual induction, and
+selection of serving sign. The configuration-speed row is a candidate speed
+scale, not yet a relative transit theorem in the record frame; pre-positioned,
+co-moving, ambient-advected, mutually induced, and locally generated stock
+remain W8 cases. The succession identity is demand-side until the supply is
+owned once in the selected-current ledger. The named orientation-persistence
+constant and sign-boundary locality term are explicitly open finite
+computations.
+
+DELETED: none.
+CERTIFICATE: Cycle 161 accepts the universalization ladder as a useful W8 reduction and accepts orientation persistence plus the positive-part boundary term as named finite subcomputations, but no wall is deleted because the kernel positive-part bound, relative transit/configuration-speed theorem, selected-current succession ownership, orientation-persistence constant, and sign-boundary locality term remain unproved.
+REMAINING: W3, W7, W8, W9.
