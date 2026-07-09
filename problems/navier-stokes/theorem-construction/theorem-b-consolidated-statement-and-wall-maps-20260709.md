@@ -3725,15 +3725,31 @@ hence
 There is a second obstruction inside `(G55.6)`. At the two receiving modes in
 `(G56.4)`, the nonlinear acceleration has magnitude
 `A^2K sin(theta_varepsilon)`, which remains nonzero as `varepsilon` tends to
-zero. Consequently `Q_m` does not inherit the cancellation that makes `P_H`
-vanish at exact equal radius. It is an unsigned magnitude of nonlinear
-acceleration and counts exchanges that do not move any radial spectral moment.
+zero. Their contribution alone gives the exact lower bound
+
+```math
+Q_m
+\ge
+2A^4K^2\sin^2\theta_\varepsilon
+\left(
+\frac1{K+m}+\frac1{L+m}
+\right)
+\longrightarrow \frac32A^4K.
+\tag{G56.14}
+```
+
+At the same time `(G56.5)` tends to zero. Consequently `Q_m` does not inherit
+the cancellation that makes `P_H` vanish at exact equal radius. It is an
+unsigned magnitude of nonlinear acceleration and counts exchanges that do not
+move any radial spectral moment.
 
 **Gate result.** The spectral-mean identity `(G55.2)` is exact and lawful, but
 zero-spread rigidity and the `Q_m` necessary condition do not give a uniform
 Gold exclusion. Bounded energy, arbitrarily large critical height, a genuine
 instantaneous record upcrossing, and arbitrarily small relative spectral spread
-coexist in `(G56.8)--(G56.13)`. As in §54, these fields are not asserted to be
+coexist in `(G56.8)--(G56.13)`, while `(G56.14)` shows that the proposed
+remaining magnitude does not even approach the exact zero-spread rigidity
+class. As in §54, these fields are not asserted to be
 successive times of one trajectory. Only a complete-history theorem could
 exclude this countersequence, and no such theorem has been proved here.
 
