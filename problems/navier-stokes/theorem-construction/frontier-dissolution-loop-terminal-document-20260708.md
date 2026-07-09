@@ -1974,3 +1974,18 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 120 reduces no-recount to a TV-event Kato balance, but the per-event floor, source/cutoff routing, partial-service weighting, parent-child recurrence, and pump-extinction transfer remain unproved.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 121 pump-extinction transfer is accepted only as the right
+  final place to test Fact 3; it is not certified. The earlier C38/C39 gates
+  left the selected-frame \(\partial_z\Gamma_s\) equation open, including
+  radial/frame mixing, commutators, the \(\rho^{-4}\) geometry weight, local
+  strain coherence, remote import/stranding, transition-zone closure, W7 graph
+  passage, W8 selected currency, and W9 zero-surplus action. The factor
+  \(2\times1/2=1\) must be derived from an actual child-count map and the same
+  pump-decay clock; it is not automatic from scale covariance. The viscous
+  tie-break also needs a parabolic maximum/energy statement for the pump
+  gradient in the same TV-event currency. No wall is deleted. Remaining:
+  W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 121 reduces Fact 3 to the selected-frame pump-gradient PDE, the child-multiplicity versus pump-decay comparison, and the viscous decay estimate in the TV-event ledger; those exact checks remain unproved.
+REMAINING: W3, W7, W8, W9.
