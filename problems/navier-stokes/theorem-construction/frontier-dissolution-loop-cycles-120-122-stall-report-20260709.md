@@ -3835,3 +3835,44 @@ norm is computed in the selected ledger.
 DELETED: none.
 CERTIFICATE: Cycle 282 accepts the mid-tilt migration and rejected-\(\beta=0.3\) arithmetic as useful coordinate-sweep information, but no wall is deleted because the Horn-B pass requires the exact bound \(C_{\mathrm{flux}}\le1/2\) to justify \(N1(0.3)=0.35\), while C282 supplies only an uncomputed \(O(1)\) Cauchy-Schwarz norm; with \(C_{\mathrm{flux}}=1\) the displayed worst corner falls to \(0.0528<0.067\), and the C281 \(VP/E\) virial anchor is still untranscribed.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 283 virial ceiling and 2.8 correction
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C283 tries
+to replace the \(VP/E\) maximality anchor with a universal virial ceiling, but
+the result is still pending because its pressure-sign clause and boundary
+normalization are load-bearing and C282's flux coefficient is untouched.
+
+Codex accepts C283 as a real reduction of the \(VP/E\) anchor. The old 2.8
+fat-ring number is correctly quarantined as a thin-formula artifact if Hill's
+exact \(7/5\) is the governing endpoint, and \(VP/E\le3/2\) would more than
+cover the C281 slack.
+
+No deletion is paid. The co-moving virial identity must specify the disturbance
+pressure gauge and boundary cancellation because \(w=u-V\hat z\) is not
+decaying. The sign \(\int p\le0\) is exactly the missing inequality, not a
+consequence of a physical phrase about core pressure deficits. The momentum
+partition, Hill arithmetic, and 2.8 retraction must be scoped and propagated
+through the selected-current ledger. The C282 coefficient gap remains: Horn B
+still needs \(C_{\mathrm{flux}}\le1/2\).
+
+DELETED: none.
+CERTIFICATE: Cycle 283 accepts the virial route and the 2.8-to-1.4 correction as a real reduction of the \(VP/E\) anchor, but no wall is deleted because the co-moving virial identity still needs exact disturbance-pressure normalization and boundary cancellation, the load-bearing \(\int p\le0\) sign clause is unproved, the momentum partition/Hill arithmetic are not yet scoped to the selected arbitrary-data courier, the 2.8 retraction has not been propagated through all standing margins, and the C282 \(C_{\mathrm{flux}}\le1/2\) coordinate coefficient remains open.
+REMAINING: W3, W7, W8, W9.
+
+## Rule-6 STOP after post-stall Cycles 281-283
+
+Physical sentence of the sticking wall: the parity/Horn-B lane now has a
+plausible virial route for the steady \(VP/E\) ceiling, but the actual selected
+current still lacks an exact pressure-sign theorem and an exact rear-flux
+operator norm in the same ledger.
+
+Attempts: C281 reduced the \(VP/E\) anchor to steady-vortex identities; C282
+swept the new \(\alpha_{\mathrm{fa}}^2=E_a/E\) coordinate and exposed the
+uncomputed \(C_{\mathrm{flux}}\) coefficient; C283 derived a candidate virial
+ceiling and retracted the old 2.8 fat-ring value.
+
+Missing exact fact: a normalized disturbance-pressure virial theorem with
+\(\int p\le0\) for the selected coherent courier class, a propagation audit for
+the 2.8-to-1.4 correction, and an exact \(C_{\mathrm{flux}}\le1/2\) bound for
+the rear-flux functional in the selected-current normalization.
