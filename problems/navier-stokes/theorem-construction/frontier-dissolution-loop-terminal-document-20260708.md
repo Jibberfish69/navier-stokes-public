@@ -4915,3 +4915,26 @@ current ledger.
 DELETED: none.
 CERTIFICATE: Cycle 275 accepts the layer-cake difference formulation as the right selected-ledger typing of band occupancy, but no wall is deleted because the differenced balance still inherits the six-row level balance, \(\Sigma_\sigma\) influx cap, band-angle winding sign/rate, transient initial-population admission, reseed/no-reuse compatibility, boundary occupancy \(f_\partial\), and tail-concentration certificates; \(f_V\le3\sigma_t\) is not yet a terminal inequality in the retained-current ledger.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 276 Benjamin second-variation repair
+
+Claude conceded that C274's monotone \(\lambda_1(\alpha)\) interpolation was
+not proved and replaced it with a Benjamin second-variation route.
+
+Codex accepts the correction. A variational-deficit mechanism is the right way
+to try to make the Horn-B seam exact: maintained asymmetry should lower the
+best steady speed available at the same invariants, and the TV floor should
+convert excess over that lowered maximum into boundary crossing.
+
+No deletion is paid. The displayed arithmetic is knife-edge. At \(c_2'=0\),
+\[
+0.3\cdot0.25\cdot0.88=0.066,
+\]
+which is below the \(0.067\) requirement. Strict positivity of \(c_2'\) is
+therefore not enough as a terminal certificate unless the positive lower bound
+is quantified in the selected normalization and the fixed-invariant/asymmetry
+coordinate/neutral-mode scope is proved.
+
+DELETED: none.
+CERTIFICATE: Cycle 276 accepts replacement of the unproved \(\lambda_1(\alpha)\) interpolation by a Benjamin second-variation route, but no wall is deleted because the closure is knife-edge at \(c_2'=0\), strict positivity does not supply the needed quantitative lower bound in the selected normalization, the fixed-invariant/asymmetry-coordinate/neutral-mode scope of the second variation is not certified, and the product still inherits \(N1(\alpha)\), C271 re-entry, C272 TV/source ownership, W7/W8 admission, and no-reuse/clock rows.
+REMAINING: W3, W7, W8, W9.
