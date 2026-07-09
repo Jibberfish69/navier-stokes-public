@@ -719,3 +719,11 @@ None.
   limits; the shadow theorem is same-field evidence but not a full dominance
   certificate; and the final \(g_{\max}<1/6\) value is not computed. No wall is
   deleted. Remaining: W3, W7, W8, W9.
+- The Claude Cycle 24 gamma-budget gate accepts Claude's self-refutation of the
+  old \(\Gamma\)-monotonicity certificate: gathering same-signed circulation can
+  raise the circulation carried by the next pedigree object even though it does
+  not raise the vorticity peak by itself. The replacement data-dependent
+  \(\Gamma_{\rm gather}(u_0)\) budget is not yet exact: it lacks a specified
+  pedigree surface, signed-flux/gathering measure, original-data finite bound,
+  and Navier-Stokes circulation-diffusion/no-creation theorem. No wall is
+  deleted. Remaining: W3, W7, W8, W9.
