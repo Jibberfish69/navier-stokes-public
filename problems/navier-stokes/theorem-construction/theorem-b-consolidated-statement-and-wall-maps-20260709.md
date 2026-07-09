@@ -4907,3 +4907,54 @@ removes only sign and scalar total-variation defects.
 **Status.** Exact reparametrization and strict localization of the compactness
 burden. No terminal tightness, spatial profile, finite reserve, or Gold
 conclusion is proved.
+
+## 64. AUDIT INSIGHT (Claude, 2026-07-09, goal cleared): §§53-56 and §62 are ONE pincer; §62's floor is the first right-typed object; the tempting Leray kill is the one-log error (retracted)
+
+Reading §§52-63 together (not as separate results) yields three connections
+none of the sections states.
+
+**(1) The pincer.** §§53,54,56 prove the SNAPSHOT has no rigidity (bounded
+energy + unbounded H_crit + real instantaneous upcrossing does not force H2,
+by three exact finite-energy countersequences). §62 proves the TRAJECTORY has
+a signed per-doubling floor j_n ≥ 1/4. These are two halves of ONE object: the
+countersequences survive precisely BECAUSE they are not trajectories — their
+scales are decoupled (Fourier-disjoint in §53/§54, monochromatic in §56), so
+the cross-scale production term u·∇u is switched off; they are the L² analog of
+the restricted-Euler ghost (posed states no evolving history reaches, fact 9).
+§62 is exactly the complete-history object §§53-56 said was required. The
+problem has correctly moved from configuration-space to trajectory-space
+(facts 1, 8, 9). File them as one pincer, not five separate gates.
+
+**(2) §62's floor is the first right-typed object in the session.** Every dead
+lever failed by exactly one of: wrong currency (energy vs critical = the one-
+log gap), T-even magnitude (sign-blind), or vanishing on the counterobject
+(rate-marginal). j_n ≥ 1/4 is clear on all three simultaneously: critical-level
+(right currency), signed production (T-odd, passes the parity filter), and
+non-vanishing on the counterobject — because it is a CONSERVATION-LAW floor
+(the doubling definition + nonnegative dissipation), not a rate estimate. This
+is structurally why it survives where the two-toll sweep (§43) and front ratio
+(§49) died. It should be marked as the load-bearing object.
+
+**(3) RETRACTED KILL (the one-log error, caught before filing).** Tempting:
+couple §62 to Leray — if δ_{s,n} = o(2^{-n}), the one-handed branch of (G62.6)
+(which needs δ_{-,n} > 1/4 - ε/2, order one) is forbidden for large n, forcing
+eventual HELICAL BALANCE. This is FALSE and false in the program's signature
+way: δ_{s,n} are CRITICAL (Ḣ^{3/2}) dissipation masses; Leray bounds only
+ENERGY (Ḣ¹) dissipation; the currencies do not interchange (the one-log wall,
+§54). So Leray does not bound Σδ_{s,n}R_n, and the near-one-handed tower is NOT
+excluded. Recording this explicitly because it is the exact mistake the whole
+program exists to catch, and it is seductive here.
+
+**The correctly-typed next target.** §62 gives ∫_{I_n}[P_H]_+ dt ≥ (1/4)R_n,
+so total positive critical production diverges geometrically along any blowup.
+Paying unbounded production at finite energy requires unbounded cross-scale
+TRANSFER (energy-conserving) — the recurrence question — but now with a SIGNED
+FLOOR attached to each step, which no prior version had. Couple where energy
+LEGITIMATELY enters: §55's mean-frequency law (1/2)ṁ = P_H/M_0 - νW, m =
+M_1/M_0, M_0 datum-bounded. §62 is the per-doubling boundary condition on m;
+§55 is the transition law between records. TARGET: a discrete-time obstruction
+on the sequence m_n — a Liouville for the mean-frequency map — with §62's
+signed floor as forcing and M_0's datum bound as the only global anchor. This
+is NOT the one-log static gap; it is the first target using the spectral-mean
+identity as a TRANSITION, not a snapshot. Open; honestly typed; no closure
+claimed.
