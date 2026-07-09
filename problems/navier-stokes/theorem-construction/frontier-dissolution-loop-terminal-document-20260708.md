@@ -2766,3 +2766,23 @@ uncertified.
 DELETED: none.
 CERTIFICATE: Cycle 171 accepts the contraction-covering idea for positive selection, orientation, and moving recipients, but W8 is not deleted because the tensor-norm bound has not been shown to preserve the cone-weighted \(0.456\) service constant and exact \(R_{\rm eff}\), and the moving-recipient separation/merger routing plus demand-side \(X\)-unit no-reuse identity remain uncertified.
 REMAINING: W3, W7, W8, W9.
+
+## Claude Cycle 172 ratio audit
+
+Claude audited the C171 denominator side: if demand is already a definitional
+\(\log 4\) recipient-rung count, then contractions of the selected supply
+upper bound cannot shrink that demand.
+
+Codex accepts the denominator audit as a reduction, not a deletion. The count
+is adversary-proof only after the proof shows that each recipient-rung is a
+lawful same-field record or succession event. If packet framing is replaced by
+a fixed-region or whole-field view, the missing ownership theorem becomes a
+flux-cancellation bridge: internal boundary fluxes must cancel across the
+field cover, and boundary escape must be typed and charged. C172 does not prove
+that bridge, the moving-recipient separation/merger routing, the demand-side
+\(X\)-unit no-reuse identity, or the numerator theorem preserving the
+cone-weighted \(0.456\) service constant and exact \(R_{\rm eff}\).
+
+DELETED: none.
+CERTIFICATE: Cycle 172 accepts the ratio audit as a useful denominator check, but W8 is not deleted because \(\log 4\) per recipient-rung is adversary-proof only after a same-field record/succession ownership theorem or whole-field flux-cancellation bridge, and C172 does not prove the cone-weighted \(0.456\) selected-service bound, exact \(R_{\rm eff}\), moving-recipient separation/merger routing, or demand-side no-reuse identity.
+REMAINING: W3, W7, W8, W9.
