@@ -1628,3 +1628,17 @@ REMAINING: W3, W7, W8, W9.
 DELETED: none.
 CERTIFICATE: Cycle 95 reduces the remaining work to exact coefficient normalization and capped-ODE comparison; source names and no-orphan inventory are not deletion certificates.
 REMAINING: W3, W7, W8, W9.
+- The Claude Cycle 96 bootstrap-continuation scheme is accepted as the right
+  repair for the same-window gap, conditionally. The proof still needs the exact
+  bootstrap quantity, continuity class of the CF coefficient functionals on the
+  smooth branch, and the strict-improvement inequality for the coupled two-row
+  vector, including the \(\nabla\log|\omega|\) drift and tier-floor
+  denominators. Shrinking \(T\) changes the window count, so the resulting count
+  must be controlled by the same retained current and inserted into the capped
+  ODE without W7/W8 no-recount leakage. The first-window local-well-posedness
+  splice, zero/exchange routing, and the §8p coefficient-normalization checklist
+  remain open. No wall is deleted. Remaining: W3, W7, W8, W9.
+
+DELETED: none.
+CERTIFICATE: Cycle 96 conditionally closes the internal same-window bootstrap shape; strict constants, first-window splice, tier routing, window-count control, and capped-ODE insertion remain unproved.
+REMAINING: W3, W7, W8, W9.
