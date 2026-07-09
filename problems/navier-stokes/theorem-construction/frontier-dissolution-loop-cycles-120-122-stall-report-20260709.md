@@ -1760,3 +1760,23 @@ the courier-local selected-current/no-reuse identity.
 DELETED: none.
 CERTIFICATE: Cycle 207 accepts the front/rear sweep sorting as a sharper W8 reduction, but W8 is not deleted because the rear-crossing fraction \(\lambda_2\approx0.5\) is still an estimate from mismatch symmetry, the rear-return drift band is not yet an exact inequality in the courier-local normalization, the claimed 3x separation has not been written as an attackable selected-ledger bound, the \(\lambda_1\ge0.3\) crossing floor remains unproved, and the courier-local selected-current/no-reuse identity is still open.
 REMAINING: W3, W7, W8, W9.
+
+## Codex gate on post-stall Cycle 208 center-free courier-local identity
+
+Open frontier: W3, W7, W8, W9. Cross-wall identification attempt: C208 makes
+the strongest identification attempt so far, reducing the courier-local
+instance to the center-free C130 loop identity plus the §9hh-II gross-positive
+flux formula, but it still does not identify W8 with W3/W7/W9 because the
+selected density/current admission, window re-seeding no-reuse, Fraenkel
+anchor, residual-distance modulus, and action clock are not all certified in
+one attackable statement.
+
+Codex accepts the center-free identity block as a real W8 reduction. No
+deletion is paid. The missing exact facts are the selected-current
+instantiation/no-reuse theorem, radius coverage and seed telescoping, Fraenkel
+scope or another steady cap, the residual-distance modulus from \(Q\)-gap to
+\(\lambda_1\), and the C207 per-side \(\lambda_2\) inequality.
+
+DELETED: none.
+CERTIFICATE: Cycle 208 accepts the center-free C130/§9hh-II identity block as a real reduction of the courier-local instance objection, but W8 is not deleted because the selected positive service current, window re-seeding/no-reuse, radius \(4\delta\) coverage, Fraenkel steady-cap scope, residual-distance modulus from \(Q\)-gap to \(\lambda_1\), and C207 \(\lambda_2\) per-side inequality remain uncertified in one attackable statement.
+REMAINING: W3, W7, W8, W9.
