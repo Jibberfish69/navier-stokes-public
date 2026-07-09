@@ -648,3 +648,17 @@ None.
   unevaluated on a lawful retained history and has no checked bridge to W3
   row admission, W7 graph closure, W8 selected bill construction, or W9
   path/action.
+- The Claude Cycles 8-10 sigma/profile-topology field audit accepts only strict
+  reductions. The Cycle-8 odd-kernel cancellation is exact for fore-aft even
+  \(Q\), and Cycle-9's tail-exponent ordering is exact for the scalar moving
+  pulse model, but neither proves the relevant \(Q\)-sign and history statement
+  on every lawful retained record. Cycle 10's proposed W9 deletion is circular:
+  the crest-frame profile topology would witness W9 if constructed, but its
+  crest selector, shift action, terminal-window room, and bifurcation/defect
+  routing are exactly W9 content and are not supplied by W3+W7+W8. The Rayleigh
+  L1 argument is axisymmetric-model support, not a general three-dimensional
+  admission certificate. The owner field-view pivot remains a lawful
+  recoordination target only after a common spacetime current/profile object
+  carries signed local balance, nonlinear graph closure, selected payer
+  domination, continuous time-shift action, terminal-window room, and typed
+  boundary/singular failures. No wall is deleted. Remaining: W3, W7, W8, W9.
