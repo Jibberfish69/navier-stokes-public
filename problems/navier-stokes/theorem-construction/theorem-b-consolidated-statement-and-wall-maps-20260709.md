@@ -5690,8 +5690,9 @@ critical-height material record, keeps Euler comparison separate from the
 fixed-viscosity Navier--Stokes object, and reduces route-b endpoint Liouville to
 the installed W8 producer with W9 carrying the compact path input.
 
-The properties passed to the efficient ancient Euler profile in Sections
-65--67 are mutually compatible. On `T^3`, embed the 2D Euler flow with
+The following periodic example was used in the withdrawn horn framing and is
+retained only as a countertest against generic Euler-invariant reasoning. On
+`T^3`, embed the 2D Euler flow with
 
 ```math
 \omega_0

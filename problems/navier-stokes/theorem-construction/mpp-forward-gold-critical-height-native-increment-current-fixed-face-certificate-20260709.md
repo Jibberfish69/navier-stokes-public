@@ -10,6 +10,11 @@ source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-betchov-strain-vorticity-net-vs-rectified-clock-test-20260625.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-fixed-face-constant-axis-localization-rigidity-20260709.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-cubic-turnoff-critical-work-separation-obstruction-20260709.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-record-self-financing-dyadic-countermodel-alignment-tax-reduction-20260704.md
+  - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-critical-height-route-b-to-gate2-wlf60-reduction-20260707.md
+  - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-hhalf-critical-20260528.md
+  - problems/navier-stokes/theorem-construction/r3-cm-contrapositive-fourier-dyadic-20260528.md
+  - problems/navier-stokes/theorem-construction/frontier-dissolution-loop-terminal-document-20260708.md
 completion_truth: >-
   This note derives an exact increment representation of the signed critical
   Hdot1/2 production and an exact weighted Duchon-Robert scale synthesis. It
@@ -4647,9 +4652,9 @@ Navier--Stokes history, and endpoint material-time Liouville was already
 deleted as an independent wall by reduction to W8. The periodic calculation
 below remains only a countertest against generic Euler Liouville language.
 
-The efficient horn also does not close from the inherited Euler properties
-alone. An exact periodic example exhibits all of them. On `T^3`, embed a 2D
-Euler flow with initial vorticity
+The following exact periodic example was used in the withdrawn horn framing.
+It remains a countertest against generic Euler-invariant reasoning only. On
+`T^3`, embed a 2D Euler flow with initial vorticity
 
 ```math
 \omega_0
