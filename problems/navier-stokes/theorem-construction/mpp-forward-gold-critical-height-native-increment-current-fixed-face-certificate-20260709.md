@@ -3051,13 +3051,13 @@ If
 ```
 
 then `(NIC.210)` gives a nonzero relative critical fraction in both helical
-sectors at the terminal time. This is only a global norm lower bound: it does
-not put both signs or their cubic interaction into one profile. The nonzero
-cubic current rules out the explicit vanishing model `(NIC.215)` only in a
-topology that retains `P_H`. What remains unproved is the inverse/profile
-compactness theorem that retains this current and the terminal record property
-in one nonzero Euler profile, followed by a rigidity theorem for that narrower
-profile class.
+sectors at the terminal time. Section 27 proves the stronger inverse theorem:
+after translation and subsequence extraction, one full endpoint profile in
+`Hdot^{1/2} cap Hdot^{3/2}` retains strictly positive `P_H` and is the terminal
+trace of an ancient weak Euler history. What remains unproved is inheritance of
+the terminal record by that profile, continuity of the full cubic current from
+negative times, and a rigidity theorem for the resulting narrower dynamic
+class.
 
 If instead
 
@@ -3090,9 +3090,9 @@ defect/history measure are both open possible mechanisms.
 viscosity--compactness incompatibility. A bounded nonzero critical sequence
 necessarily loses the classical viscous term and can converge only toward
 Euler; the canonical record bounds do not by themselves prevent the limit
-from vanishing. Within this compactness route, the efficient-current branch
-would require current-retaining profile compactness plus a narrow Euler
-rigidity theorem. The zero-efficiency
+from vanishing. Within this compactness route, the efficient-current branch now
+has a full mixed-helicity current-retaining terminal profile, but not profile
+ownership of the record or its history. The zero-efficiency
 branch has no preferred proved closure mechanism: narrow inherited Euler
 rigidity and a nontrivial viscous/history defect are both open. This is a
 checked scaling/compactness obstruction and exact exhaustive case split, not
@@ -3626,3 +3626,207 @@ each doubling. Record-height parametrization removes sign and scalar
 total-variation defects only. It supplies neither terminal-time tightness nor a
 nonzero spatial profile, and summing its unnormalized mass is the original Gold
 problem rather than a finite reserve.
+
+## 27. FIXED EFFICIENCY FORCES A FULL MIXED-HELICITY ENDPOINT PROFILE (NIC.251--NIC.259)
+
+Let
+
+```math
+X:=\dot H^{1/2}(\mathbb R^3)\cap\dot H^{3/2}(\mathbb R^3).
+```
+
+Consider a divergence-free sequence satisfying
+
+```math
+R(v_n)=D(v_n)=1,
+\qquad
+P_H(v_n)\ge\eta_0>0.
+\tag{NIC.251}
+```
+
+The endpoint current prevents both spectral escape and spatial translation
+vanishing.
+
+### 27.1 Uniform spectral retention of the signed cubic
+
+Let `Q_J` be a smooth annular truncation to dyadic indices `[-J,J]`, write
+`w=Q_Jv` and `z=v-w`, and use interpolation to obtain
+
+```math
+\|v\|_{\dot H^1}^2
+\le R(v)^{1/2}D(v)^{1/2}\le1,
+\qquad
+\|z\|_{\dot H^1}^2
+\lesssim2^{-J}(R(v)+D(v)).
+\tag{NIC.252}
+```
+
+For the polarized cubic
+
+```math
+\mathcal T(a,b,c)
+:=\int(a\times\operatorname{curl}b)\cdot\Lambda c\,dx,
+\qquad
+P_H(v)=\mathcal T(v,v,v),
+```
+
+Holder and Sobolev give both derivative placements
+
+```math
+|\mathcal T(a,b,c)|
+\lesssim
+\|a\|_{\dot H^1}\|b\|_{\dot H^1}
+\|c\|_{\dot H^{3/2}},
+```
+
+and
+
+```math
+|\mathcal T(a,b,c)|
+\lesssim
+\|a\|_{\dot H^1}\|b\|_{\dot H^{3/2}}
+\|c\|_{\dot H^1}.
+```
+
+Expanding `v=w+z` therefore yields the uniform signed-current estimate
+
+```math
+\boxed{
+\sup_{R(v),D(v)\le1}
+|P_H(v)-P_H(Q_Jv)|
+\lesssim2^{-J/2}.
+}
+\tag{NIC.253}
+```
+
+For `J=J(eta_0)` large enough,
+
+```math
+P_H(Q_Jv_n)\ge\frac{\eta_0}{2}.
+\tag{NIC.254}
+```
+
+This is a statement about the signed cubic itself. It does not infer a signed
+term from the positive majorant `(NIC.225)`.
+
+### 27.2 Full-current translation profile
+
+Apply translation-profile extraction to `v_n` in `X`. After a subsequence,
+
+```math
+v_n
+=\sum_{\alpha=1}^{A}
+V^\alpha(\,\cdot-x_n^\alpha)+r_n^A,
+\qquad
+|x_n^\alpha-x_n^\beta|\longrightarrow\infty
+\quad(\alpha\ne\beta),
+\tag{NIC.255}
+```
+
+with the two Hilbert norms decoupling:
+
+```math
+\sum_\alpha R(V^\alpha)\le1,
+\qquad
+\sum_\alpha D(V^\alpha)\le1.
+\tag{NIC.256}
+```
+
+For each fixed `J`, distinct translations decouple in the finite-band cubic.
+The exhaustive remainder satisfies
+
+```math
+\lim_{A\to\infty}\limsup_{n\to\infty}
+\|Q_Jr_n^A\|_{L^\infty}=0;
+```
+
+otherwise a further translated weak `X`-profile can be extracted. Hence its
+finite-band cubic vanishes. Taking first `n -> infinity`, then
+`A -> infinity`, and finally `J -> infinity` in `(NIC.253)` gives
+
+```math
+\boxed{
+\lim_{n\to\infty}P_H(v_n)
+=\sum_\alpha P_H(V^\alpha).
+}
+\tag{NIC.257}
+```
+
+The series is absolutely convergent because
+
+```math
+|P_H(V^\alpha)|
+\lesssim R(V^\alpha)^{1/2}D(V^\alpha),
+```
+
+and `(NIC.256)` is summable. The positive-profile currents have total at least
+`eta_0`; the cubic bound and norm orthogonality also give the quantitative
+pigeonhole estimate
+
+```math
+\boxed{
+\text{for some }\alpha_*:
+\qquad
+P_H(V^{\alpha_*})\ge c\eta_0^3>0.
+}
+\tag{NIC.258}
+```
+
+Set `V=V^{alpha_*}`. It is one full divergence-free field, and the pure-helicity
+cancellation `(NIC.156)` implies `V_+` and `V_-` are both nonzero.
+
+### 27.3 Passage along the normalized record histories
+
+Apply the selecting translations `x_n^{alpha_*}` to the complete normalized
+histories from Section 23. The local compactness `(NIC.214)` gives an ancient
+weak Euler solution `U` on `(-infinity,0]` with distributional terminal trace
+
+```math
+\boxed{
+U(0)=V,
+\qquad
+P_H(U(0))=P_H(V)>0,
+\qquad
+R(U(\tau))\le1\quad(\tau\le0).
+}
+\tag{NIC.259}
+```
+
+This excludes a steady Euler terminal profile. It does not give
+`R(U(tau))<=R(V)`, `R(V)=D(V)=1`, or continuity of `P_H(U(tau))` as
+`tau -> 0`; the cubic may be undefined at negative times under only the
+inherited `Hdot^{1/2}` control. The original record belongs to the whole
+normalized field and can split among other profiles and a diffuse remainder.
+The profile `V` is therefore a current-retaining readout, not an independently
+owned record.
+
+### 27.4 Location of the separated-scale counterexample
+
+For the exact family `(NIC.227)--(NIC.233)`, one also has
+
+```math
+R_M=2\left(1+\sqrt{M^2+1}+\sqrt{(M+1)^2+1}\right),
+```
+
+and its amplitude-invariant canonical efficiency is
+
+```math
+\boxed{
+\eta_M:=\frac{P_M}{D_M\sqrt{R_M}}
+=\frac1{2\sqrt2}M^{-9/2}
+\left(1-\frac3M+O(M^{-2})\right).
+}
+```
+
+Thus that family lies entirely in the `eta -> 0` branch. Conversely, the tails
+of the positive majorant `(NIC.225)` show that fixed `eta` forces an
+opposite-helicity interaction with dyadic gap `O(log(1/eta))` and block
+amplitudes bounded below by a positive `c(eta)`; one safe nonoptimized bound is
+`c eta^4/(1+log(1/eta))^2`.
+
+**Result of this section.** Fixed positive canonical efficiency produces a
+full mixed-helicity endpoint profile with strictly positive cubic current and
+an ancient weak Euler history terminating at that profile. The remaining
+efficient-branch theorem is dynamic record inheritance or an equivalent
+ensemble/history rigidity statement. This is a strict theorem, not Gold
+closure.
