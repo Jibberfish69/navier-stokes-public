@@ -1669,6 +1669,71 @@ does not close Gold. It replaces the invalid H2 packet reduction with one
 global field identity and locates the remaining theorem at the signed
 nonlinear-acceleration term in `(NIC.120)`.
 
+### 18.1 The record-to-record mean-frequency map is not a new currency
+
+The exact identity remains useful, but its proposed use as a separate
+record-transition Liouville map collapses back to the two parent balances. At
+first record doublings `M_1(t_n)=2M_1(t_{n-1})`, put
+`m_n=M_1(t_n)/M_0(t_n)`. Energy monotonicity gives
+
+```math
+\boxed{
+\frac{m_n}{m_{n-1}}
+=2\frac{M_0(t_{n-1})}{M_0(t_n)}\ge2.
+}
+\tag{NIC.126a}
+```
+
+Moreover, expansion of `(NIC.121)` gives
+
+```math
+\frac{\mathcal W}{m}
+=\frac{M_3}{M_1}-\frac{M_2}{M_0}.
+\tag{NIC.126b}
+```
+
+Consequently the logarithmic mean equation is exactly
+
+```math
+\boxed{
+\frac12(\log m)'
+=\frac{P_H}{M_1}-\nu\frac{\mathcal W}{m}
+=\frac12(\log M_1)'-\frac12(\log M_0)'.
+}
+\tag{NIC.126c}
+```
+
+The unnormalized integration of `(NIC.120)` does give
+
+```math
+\frac1{m_n}\int_{t_{n-1}}^{t_n}\frac{P_H}{M_0}\,dt
+=\frac12\left(1-\frac{m_{n-1}}{m_n}\right)
++\frac{\nu}{m_n}\int_{t_{n-1}}^{t_n}\mathcal W\,dt
+\ge\frac14.
+\tag{NIC.126d}
+```
+
+This is not an additional transition constraint. On the same first-record
+interval, `m(t)<=m_n`, while the critical balance itself gives
+
+```math
+\int_{t_{n-1}}^{t_n}\frac{[P_H]_+}{M_1}\,dt
+\ge
+\frac1{m_n}\int_{t_{n-1}}^{t_n}\frac{P_H}{M_0}\,dt,
+\qquad
+\int_{t_{n-1}}^{t_n}\frac{P_H}{M_1}\,dt
+=\frac12\log2
++\nu\int_{t_{n-1}}^{t_n}\frac{M_3}{M_1}\,dt.
+\tag{NIC.126e}
+```
+
+Thus the direct signed critical-height floor is already strictly stronger than
+the normalized `1/4` mean-frequency floor. Endpoint information
+`eta_n -> 0` controls neither interval integral in `(NIC.126d)` nor
+`mathcal W`; no datum-bounded summable quantity follows. The spectral-mean
+identity survives, while the proposed separate mean-map Liouville target is
+withdrawn.
+
 ## 19. Near-monochromatic record countersequence: no uniform spectral rigidity
 
 The zero-spread statement in §18 is exact, but it has no uniform extension to
