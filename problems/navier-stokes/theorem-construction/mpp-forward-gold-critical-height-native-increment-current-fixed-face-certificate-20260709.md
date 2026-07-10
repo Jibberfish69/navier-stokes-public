@@ -3792,8 +3792,13 @@ The series is absolutely convergent because
 \lesssim R(V^\alpha)^{1/2}D(V^\alpha),
 ```
 
-and `(NIC.256)` is summable. The positive-profile currents have total at least
-`eta_0`; the cubic bound and norm orthogonality also give the quantitative
+and `(NIC.256)` is summable. In particular,
+
+```math
+\sum_\alpha[P_H(V^\alpha)]_+\ge\ell\ge\eta_0.
+```
+
+The cubic bound and norm orthogonality also give the quantitative
 pigeonhole estimate. Indeed, put
 
 ```math
