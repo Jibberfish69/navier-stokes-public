@@ -25,6 +25,12 @@ manual_ontology_gate_reconciliation:
     This block overrides conflicting generated or historical language below that
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
+  latest_gate_spin:
+    authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+    effect: >-
+      SignedCriticalHeightSignPersistenceOrPeakBound.A is a demoted diagnostic
+      wrapper, not the exact theorem-grade target. The global critical-height
+      bound remains open, and no genuinely smaller theorem was installed.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
