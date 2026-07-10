@@ -7,6 +7,14 @@ For the folder-wide layer map that separates route authority, live frontier,
 modern overlays, sidecars, and stale generated surfaces, see
 [ns-layered-route-graph.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md).
 
+The first ontology-gate spin on 2026-07-10 demoted
+`SignedCriticalHeightSignPersistenceOrPeakBound.A`. The live Gold burden is the
+global critical-height bound itself or a genuinely smaller quantitative theorem
+that implies it. Sign persistence supplies no bound. Positive variation remains
+a lawful stronger sufficient route, and pressure makes no direct contribution
+to the global scalar-multiplier balance. Lower route text retaining the former
+wrapper name is genealogy rather than current theorem authority.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:

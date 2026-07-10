@@ -9,6 +9,15 @@ Mandatory preflight: load `.claude/physical-reasoning-gate.txt` and
 `ontology.md`, cite the exact ontology fact IDs used, and return the required
 physical, mathematical, live-burden, and proposed-delta fields.
 
+First live gate result, 2026-07-10: the global critical height is nonnegative
+and has a signed evolution; pressure makes no direct contribution to its global
+quadratic multiplier balance. `SignedCriticalHeightSignPersistenceOrPeakBound.A`
+is demoted as a theorem target because sign persistence gives no bound and its
+peak-bound branch is the open critical-height bound itself. Positive variation
+remains a lawful stronger sufficient route. All lower statements that call the
+former wrapper a strict reduction or the live theorem are superseded by this
+result; no smaller Gold theorem has yet been installed.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
