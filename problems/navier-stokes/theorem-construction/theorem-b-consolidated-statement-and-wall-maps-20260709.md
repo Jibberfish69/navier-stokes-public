@@ -4524,11 +4524,12 @@ subsequence converges locally to zero. The exact normalization is
 not one Navier--Stokes history; it proves that the normalized bounds alone do
 not supply tightness.
 
-The remaining compactness split is exact. If `liminf eta_n>0`, HMIN
-lower-bounds both global terminal sector norms; it does not retain both signs
-or their cubic interaction in one profile. One still needs an inverse/profile
-theorem within this compactness route that puts the positive current and record property into one nonzero
-Euler profile and a rigidity theorem for that narrow class. If `eta_n -> 0`, then both the
+The remaining compactness split is exact. If `liminf eta_n>0`, Section 65
+produces, after translations, a full terminal profile in
+`Hdot^{1/2} cap Hdot^{3/2}` with strictly positive `P_H`, and lifts it to the
+terminal trace of an ancient weak Euler history. What remains is dynamic record
+inheritance for that profile and a rigidity theorem for the resulting narrow
+class. If `eta_n -> 0`, then both the
 effective viscosity and normalized record derivative vanish; endpoint
 vanishing and frequency dichotomy remain possible, and compactly supported
 steady Euler fields
@@ -4958,3 +4959,110 @@ signed floor as forcing and M_0's datum bound as the only global anchor. This
 is NOT the one-log static gap; it is the first target using the spectral-mean
 identity as a TRANSITION, not a snapshot. Open; honestly typed; no closure
 claimed.
+
+## 65. FIXED EFFICIENCY FORCES A FULL MIXED-HELICITY ENDPOINT PROFILE (2026-07-09)
+
+Let `X=Hdot^{1/2}(R3) cap Hdot^{3/2}(R3)`. If
+
+```math
+R(v_n)=D(v_n)=1,
+\qquad
+P_H(v_n)\ge\eta_0>0,
+\tag{G65.1}
+```
+
+then the signed cubic is uniformly spectrally tight. For a smooth annular
+truncation `Q_J`, interpolation and polarization give
+
+```math
+\|v\|_{\dot H^1}^2\le R(v)^{1/2}D(v)^{1/2},
+\qquad
+\|(I-Q_J)v\|_{\dot H^1}^2
+\lesssim2^{-J}(R(v)+D(v)),
+```
+
+and therefore
+
+```math
+\boxed{
+\sup_{R(v),D(v)\le1}
+|P_H(v)-P_H(Q_Jv)|\lesssim2^{-J/2}.
+}
+\tag{G65.2}
+```
+
+Translation-profile extraction in `X`, finite-band cubic decoupling, and then
+`J -> infinity` give
+
+```math
+\boxed{
+\lim_nP_H(v_n)=\sum_\alpha P_H(V^\alpha),
+\qquad
+\sum_\alpha R(V^\alpha)\le1,
+\qquad
+\sum_\alpha D(V^\alpha)\le1.
+}
+\tag{G65.3}
+```
+
+The current series is absolutely convergent by HMIN. Consequently one full
+profile satisfies
+
+```math
+\boxed{
+P_H(V)\ge c\eta_0^3>0,
+\qquad
+V_+\ne0,
+\qquad
+V_-\ne0.
+}
+\tag{G65.4}
+```
+
+Using the same translations on the normalized trajectories and the local
+compactness in Section 60 yields an ancient weak Euler history `U` with
+
+```math
+\boxed{
+U(0)=V,
+\qquad
+P_H(U(0))>0,
+\qquad
+R(U(\tau))\le1\quad(\tau\le0).
+}
+\tag{G65.5}
+```
+
+The full record does not pass to this profile: neither `R(V)=D(V)=1` nor
+`R(U(tau))<=R(V)` follows, and the inherited regularity does not make
+`P_H(U(tau))` continuous up to zero. The current-bearing profile is one
+same-field translated readout, not an independent record owner.
+
+For the separated-scale family in Section 61,
+
+```math
+R_M=2\left(1+\sqrt{M^2+1}+\sqrt{(M+1)^2+1}\right),
+```
+
+and
+
+```math
+\boxed{
+\eta_M=\frac{P_M}{D_M\sqrt{R_M}}
+=\frac1{2\sqrt2}M^{-9/2}
+\left(1-\frac3M+O(M^{-2})\right).
+}
+\tag{G65.6}
+```
+
+It therefore belongs only to the zero-efficiency branch. Fixed efficiency
+instead forces opposite-helicity blocks within `O(log(1/eta))` dyadic distance
+and with a quantitative nonzero block amplitude.
+
+**Adversarial result.** Positive canonical efficiency rules out frequency and
+translation vanishing and produces a full mixed-helicity current-bearing
+terminal profile.
+
+**Status.** Strict theorem for the efficient-current branch. Dynamic record
+inheritance, terminal current continuity, and narrow rigidity remain open; no
+Gold conclusion is proved.
