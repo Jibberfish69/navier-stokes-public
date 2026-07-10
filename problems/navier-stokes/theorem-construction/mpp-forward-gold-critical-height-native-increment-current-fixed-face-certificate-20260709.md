@@ -3,7 +3,7 @@ theorem_id: forward-gold-critical-height-native-increment-current-fixed-face-cer
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / signed critical height / c0 / Fable fixed face
-status: proved-record-gain-frequency-runaway-and-branch-countermodels; same-trajectory-triad-recurrence-open
+status: record-gain-frequency-estimate-support-only; installed-gold-silver-case-split-restored
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-target1-energy-testform-display-executed-20260705.md
@@ -35,11 +35,14 @@ completion_truth: >-
   vanish in the gain measure and unbounded normalized Hdot3/2 dissipation on
   record contact. Every record doubling also forces at least one eighth of its
   normalized positive gain to an enstrophy-weighted frequency tending to
-  infinity. An exact fixed-gap shell history shows that conservative flux,
-  Leray dissipation, and balanced helicity alone do not contradict this tower;
-  an exact periodic Euler history shows that bounded ancientness and positive
-  terminal current alone do not contradict the efficient branch. Gold remains
-  open at a genuinely Navier--Stokes multi-time phase/triad ancestry theorem.
+  infinity. After authority recovery, that estimate is support inside cases
+  already installed elsewhere: the shell relay duplicates the record
+  self-financing calibration `(RSF.2)--(RSF.4)`, and the standalone ancient
+  Euler profile is quarantined from the critical-height-growing same-history
+  object. In Silver, critical Hdot1/2 and Fourier/dyadic escape already land in
+  the Part/Field CM split. In retained Gold/c0, the governing cases are the
+  two-door payment reduction and the surviving W3/W7/W8/W9 walls. This note
+  creates no new repeated-triad or Euler-rigidity frontier.
 ---
 
 # Native critical increment current on the fixed face
@@ -4358,12 +4361,23 @@ avoiding that branch must realize vanishing efficiency across almost all of
 the gain measure and divergent normalized critical dissipation on record
 contact. This is an exact strict reduction, not Gold closure.
 
-## 30. POSITIVE RECORD GAIN FORCES SPECTRAL-CENTROID ESCAPE (NIC.276--NIC.294)
+## 30. POSITIVE RECORD GAIN FORCES SPECTRAL-CENTROID ESCAPE -- SUPPORT INSIDE THE INSTALLED CASE SPLIT (NIC.276--NIC.294)
+
+**Authority correction (2026-07-10).** The estimate below is valid, but its
+original frontier reading was not. The repo had already classified this
+high-frequency event. In the Gold calibration, the self-financing dyadic relay
+and its surviving signed alignment tax are `(RSF.2)--(RSF.4)` in
+`mpp-forward-gold-record-self-financing-dyadic-countermodel-alignment-tax-reduction-20260704.md`.
+In the Clay-facing Silver lane, `SameLedgerHHalfExtraction.A`,
+`R3HHalfWallToCMFace.A`, and `R3FourierDyadicWallToCMFace.A` send the same
+frequency escape to Pack/Part/Field classification and then to
+`Exit(Q):=not Member(Q)`. The calculation below is a quantitative readout
+inside those installed cases, not a new proof root.
 
 Return to the unscaled solution and put
 
 ```math
-E:=M_0,qquad R:=M_1,qquad K:=M_2,qquad D:=M_3.
+E:=M_0,\qquad R:=M_1,\qquad K:=M_2,\qquad D:=M_3.
 ```
 
 On the first-record doubling interval `I_n=[t_{n-1},t_n]`, define the energy
@@ -4385,7 +4399,7 @@ d\mu_n(t)
 \tag{NIC.277}
 ```
 
-The running-record identity `(NIC.242)` gives
+The running-record identity `(NIC.245)` and its interval mass `(NIC.248)` give
 
 ```math
 \boxed{\mu_n(I_n)=\frac14.}
@@ -4472,7 +4486,8 @@ Thus the threshold in `(NIC.283)` tends to infinity. This is an unconditional
 same-trajectory theorem: at least half of the positive normalized gain in
 every doubling is carried at an enstrophy-weighted mean frequency escaping to
 infinity. In the vanishing-efficiency branch, `(NIC.275)` sharpens the escape
-by an additional inverse-efficiency factor.
+only after an additional gain-set estimate for `K`; by itself `(NIC.275)` is an
+integrated `D` lower bound and does not improve the `D/K` threshold above.
 
 ### 30.1 Exact flux layer-cake gives no second reserve
 
@@ -4603,25 +4618,34 @@ converge to a finite time, and
 ```
 
 uniformly on `I_n`. Splitting every shell energy and current equally between
-the two helical readouts puts the model on the balanced horn of `(NIC.232)`
-and preserves all sector balances.
+the two helical readouts puts the model on the balanced horn of
+`(NIC.236)--(NIC.239)` and preserves all sector balances.
 
 This is a countermodel to the balance/flux method, not a Navier--Stokes
-solution. The currents in `(NIC.289)` are prescribed. They are not realized
-as the simultaneous cubic triad functionals of one evolving divergence-free
-velocity field. What is absent is successive-time compatibility of shared
-triad phases and polarizations with the Leray projection and its slaved
-pressure. Sections 20--22 already show that positive low-efficiency production
-is realizable at one time; only a genuinely multi-time Navier--Stokes
-recurrence obstruction could now exclude the tower.
+solution. More importantly, it is not a new repo case: it is an explicit
+two-shell realization of the already installed record self-financing relay
+`(RSF.2)--(RSF.3)`. The checked Gold consequence there is the signed
+same-packet alignment/backscatter question `(RSF.4)`, subsequently absorbed
+into the retained payment/admission case machinery. The Silver consequence is
+already the Fourier/dyadic Part/Field exit. Generic "multi-time triad
+compatibility" is therefore withdrawn as a new frontier label.
 
-**Result of this section.** The exact theorem `(NIC.283)` proves frequency
-runaway. The shell construction `(NIC.288)--(NIC.294)` proves that energy,
-critical balance, signed conservative fixed-gap flux, Leray dissipation, and
-balanced helical participation do not turn that runaway into a contradiction.
-Gold is reduced to an NS-specific repeated-triad ancestry theorem.
+**Corrected result of this section.** The exact theorem `(NIC.283)` proves a
+gain-weighted frequency-escape estimate. The shell construction
+`(NIC.288)--(NIC.294)` recalibrates the previously installed self-financing
+dyadic case. It creates no independent Gold wall. The governing retained-Gold
+residue remains W3/W7/W8/W9; the governing Silver frequency branch is already
+consumed by the installed Part/Field CM exit.
 
-## 31. THE EFFICIENT EULER HORN NEEDS RECORD ANCESTRY (NIC.295--NIC.299)
+## 31. PERIODIC EULER COUNTERTEST -- LIVE-HORN FRAMING WITHDRAWN (NIC.295--NIC.298)
+
+**Authority correction (2026-07-10).** The ancient-Euler-horn framing is
+withdrawn. The repo explicitly quarantines standalone self-similar, DSS, and
+Euler-profile exclusion from the critical-height-growing material record
+ladder. Route-b is a certified material-time case split on the same irreversible
+Navier--Stokes history, and endpoint material-time Liouville was already
+deleted as an independent wall by reduction to W8. The periodic calculation
+below remains only a countertest against generic Euler Liouville language.
 
 The efficient horn also does not close from the inherited Euler properties
 alone. An exact periodic example exhibits all of them. On `T^3`, embed a 2D
@@ -4675,30 +4699,19 @@ curl-helicity signs. Taking the terminal covector `phi=Lambda U_c(0)` gives
 window.
 
 Thus bounded ancientness, mixed helicity, positive terminal current, Euler
-invariants, and the terminal covector response are compatible. The example is
-periodic and does not decide the extracted `R^3` profile. It does prove that
-the efficient horn needs the ancestry that the present compactness passage
-does not retain. The smallest lawful missing statement is
+invariants, and terminal covector response are compatible on the torus. That
+fact has no authority to create an Euler rigidity requirement for the
+Navier--Stokes proof. The installed route-b fork already types failed
+law/ancestry/cover/tower/selector/window rows as route-outs; on the retained
+compact branch it excludes detector-visible relay, persistent localized affine
+service, and temporal-thin service, then reduces the high-frequency survivor to
+the record-admitted storage matrix and WLF.60/ODP.91. In Silver, the whole-space
+critical-norm/profile/dyadic cases already land in Part/Field.
 
-```math
-\boxed{
-(U,V)\in\mathcal A_{\mathrm{rec}}(\varepsilon)
-\quad\Longrightarrow\quad
-P_H(V)\le0,
-}
-\tag{NIC.299}
-```
-
-where `A_rec(epsilon)` consists only of ancient `R^3` Euler profiles produced
-by translating canonical normalizations at `epsilon`-efficient running-record
-contacts of one fixed Navier--Stokes trajectory. Sections 27--28 give
-`P_H(V)>=c epsilon^3`, so `(NIC.299)` would exclude the horn. No currently
-passed property distinguishes that ancestry class from the broader Euler
-class.
-
-**Completion truth.** The requested exclusion of unbounded first-record
-heights is not proved. What is proved is the unavoidable positive-gain
-frequency runaway `(NIC.283)`. The two natural terminal arguments are now
-decisively separated: the vanishing-efficiency horn needs a multi-time NS
-triad/phase recurrence obstruction, while the efficient horn needs the
-record-ancestry rigidity `(NIC.299)`. Neither theorem is presently available.
+**Completion truth.** The requested Gold peak theorem remains unproved, and
+this certificate does not redefine its frontier. `(NIC.283)` is support. The
+shell and Euler examples are already-classified countertests. The current
+installed retained-Gold residue is W3 `CriticalServicePersistenceFromPayment`,
+W7 `RecordAdmissionClosedness`, W8 `WLF.60 / ODP.91`, and W9
+`MaterialTimeCertificateFlowInvariance`; the Clay-facing Silver Part/Field
+case consumption remains installed separately.

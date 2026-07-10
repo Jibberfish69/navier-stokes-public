@@ -5493,12 +5493,30 @@ a contradiction. BOTH horns terminate on the two standing walls (Euler-limit
 frame-turning sign + one-log dissipation currency); §67's value is the
 intrinsic derivation, not a new escape. Correctly typed; no closure claimed.
 
-## 69. EVERY RECORD DOUBLING FORCES POSITIVE-GAIN FREQUENCY RUNAWAY (2026-07-10)
+### 68.1 Authority correction: the two horns are not new frontier branches
+
+The final frontier reading above is withdrawn after direct-source recovery.
+The high-frequency horn is already the installed Door-1/dyadic case and, in
+Silver, the repaired `Hdot1/2` and Fourier/dyadic Part/Field exit. The
+standalone Euler-profile horn is quarantined by the critical-height-growth
+correction: route-b remains a material-time case split on the same irreversible
+Navier--Stokes history, and its endpoint-Liouville label was already deleted by
+reduction to W8. The current retained-Gold walls are W3, W7, W8, and W9. The
+horn language is support taxonomy only.
+
+## 69. EVERY RECORD DOUBLING FORCES POSITIVE-GAIN FREQUENCY RUNAWAY -- SUPPORT INSIDE INSTALLED CASES (2026-07-10)
+
+**Authority correction.** The estimate below is valid and the original
+frontier claim was not. The shell construction duplicates the installed
+self-financing dyadic calibration `(RSF.2)--(RSF.4)`. In retained Gold, its
+signed content belongs to the established payment/admission cases; in Silver,
+critical `Hdot1/2` and Fourier/dyadic escape already land in Pack/Part/Field and
+then `Exit(Q):=not Member(Q)`. This section creates no new repeated-triad wall.
 
 Assume the first-record tower from Section 62. In original variables write
 
 ```math
-E=M_0,qquad R=M_1,qquad K=M_2,qquad D=M_3,
+E=M_0,\qquad R=M_1,\qquad K=M_2,\qquad D=M_3,
 ```
 
 and set
@@ -5559,8 +5577,9 @@ The intervals are disjoint, `sum_n Delta E_n<=E(0)`, and therefore
 in `(G69.5)` escape to infinity. At least half of the positive normalized gain
 in every doubling is forced to an enstrophy-weighted mean frequency tending to
 infinity. This is unconditional and holds before the efficiency split in
-Section 67. The vanishing-efficiency horn sharpens the escape by an additional
-inverse-efficiency factor.
+Section 67. The integrated `D` divergence in the vanishing-efficiency horn does
+not by itself sharpen this `D/K` threshold; that requires separate control of
+the gain-set `K` spend.
 
 The exact high-pass flux identity does not turn `(G69.5)` into a contradiction.
 For
@@ -5650,18 +5669,26 @@ uniformly. An equal split between helicity signs obeys the Section 62 sector
 identities on their balanced horn.
 
 This is a countermodel to the balance/flux argument, not to Navier--Stokes.
-Its currents are prescribed rather than simultaneously realized by the cubic
-triad functionals of one evolving divergence-free field. The omitted
-information is multi-time compatibility of shared triad phases and
-polarizations with the Leray projection and slaved pressure. Snapshot
-realizability was already proved in Sections 54 and 56. The missing assertion
-must therefore constrain recurrence across successive record intervals.
+It is also not a new repo case. It is an explicit two-shell version of the
+already installed self-financing relay: unsigned viscous accounting cannot
+create the strict margin, and the surviving Gold content is the signed
+same-packet payment/alignment row. The Silver frequency branch is already
+consumed as a Part/Field exit. Generic multi-time phase/triad recurrence is
+withdrawn as an independent frontier label.
 
-**Status.** `(G69.5)` is a proved same-trajectory frequency-runaway theorem.
-`(G69.8)--(G69.12)` are an exact method countermodel. The requested exclusion
-of the record tower is not proved.
+**Corrected status.** `(G69.5)` is a proved same-trajectory support estimate.
+`(G69.8)--(G69.12)` recalibrate an existing method countermodel. The direct
+Gold peak theorem remains open at the installed W3/W7/W8/W9 walls; the
+Clay-facing Silver frequency case is already classified and consumed.
 
-## 70. THE EFFICIENT HORN CANNOT BE CLOSED BY BROAD EULER LIOUVILLE (2026-07-10)
+## 70. PERIODIC EULER COUNTERTEST -- LIVE-HORN FRAMING WITHDRAWN (2026-07-10)
+
+**Authority correction.** This section originally promoted a fresh ancient
+Euler / record-ancestry closure burden. That promotion is withdrawn. The repo
+already quarantines standalone profile exclusion from the growing
+critical-height material record, keeps Euler comparison separate from the
+fixed-viscosity Navier--Stokes object, and reduces route-b endpoint Liouville to
+the installed W8 producer with W9 carrying the compact path input.
 
 The properties passed to the efficient ancient Euler profile in Sections
 65--67 are mutually compatible. On `T^3`, embed the 2D Euler flow with
@@ -5701,30 +5728,20 @@ horizontal mode contains both curl-helicity signs, and the terminal covector
 mixed helicity, positive terminal current, and terminal response do not imply
 rigidity.
 
-The example is periodic, so it does not decide the extracted `R^3` profile.
-It decisively prevents a domain-free or invariant-only Euler Liouville
-argument. Define `A_rec(epsilon)` to consist of the ancient `R^3` Euler
-profiles obtained specifically from `epsilon`-efficient running-record
-contacts of one fixed Navier--Stokes trajectory. The smallest sufficient
-statement is
+The example is periodic and proves only that generic Euler invariants do not
+force terminal-current rigidity. It does not define a Navier--Stokes proof
+branch. The installed route-b cases are: certificate failure routes out;
+otherwise payer non-admission is Gate2, while the admitted compact zero-loss
+branch excludes detector-visible relay, persistent localized affine service,
+and temporal-thin service. Its high-frequency survivor reduces to the
+record-admitted storage matrix and WLF.60/ODP.91. Cycle 10 confirms that
+`RelayEndpointMaterialTimeLiouville.A` is deleted by this W8 reduction.
 
-```math
-\boxed{
-(U,V)\in\mathcal A_{\rm rec}(\varepsilon)
-\quad\Longrightarrow\quad
-P_H(V)\le0.
-}
-\tag{G70.4}
-```
-
-Section 65 gives `P_H(V)>=c epsilon^3`, so `(G70.4)` would exclude the
-efficient horn. The current compactness passage retains only the broad Euler
-properties, not the successive-record ancestry needed to distinguish
-`A_rec(epsilon)`.
-
-**Final proof classification.** The direct pass proves `(G69.5)` and gives
-exact countermodels to both balance-only closures. It does not prove that
-`R(t)` stays bounded or that `T_*=infinity`. The surviving burdens are
-genuinely dynamic: repeated-triad/phase compatibility in the
-vanishing-efficiency horn and record-ancestry terminal-current rigidity in the
-efficient horn.
+**Final corrected classification.** The direct Gold peak theorem remains
+unproved. The new work here adds one quantitative support estimate and no new
+frontier. The installed retained-Gold residue is W3
+`CriticalServicePersistenceFromPayment.A`, W7
+`RecordAdmissionClosedness.A`, W8 `WLF.60 / ODP.91`, and W9
+`MaterialTimeCertificateFlowInvariance.A`. The whole-space critical-norm,
+profile, and dyadic terminal cases are already consumed in the separate Silver
+Part/Field CM route.
