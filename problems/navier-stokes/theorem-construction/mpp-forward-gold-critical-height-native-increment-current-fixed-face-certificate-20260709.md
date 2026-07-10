@@ -3772,14 +3772,14 @@ P_H(V^{\alpha_*})\ge c\eta_0^3>0.
 \tag{NIC.258}
 ```
 
-Set `V=V^{alpha_*}`. It is one full divergence-free field, and the pure-helicity
+Set `V=V^{\alpha_*}`. It is one full divergence-free field, and the pure-helicity
 cancellation `(NIC.156)` implies `V_+` and `V_-` are both nonzero.
 
 ### 27.3 Passage along the normalized record histories
 
-Apply the selecting translations `x_n^{alpha_*}` to the complete normalized
+Apply the selecting translations `x_n^{\alpha_*}` to the complete normalized
 histories from Section 23. The local compactness `(NIC.214)` gives an ancient
-weak Euler solution `U` on `(-infinity,0]` with distributional terminal trace
+weak Euler solution `U` on `(-\infty,0]` with distributional terminal trace
 
 ```math
 \boxed{
