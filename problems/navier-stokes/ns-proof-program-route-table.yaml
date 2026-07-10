@@ -7,6 +7,24 @@ identity:
   purpose: Explicit NS-only table separating proof-program authority, proof mode,
     propagated object, target chain, and bridge requirements so progress in one program
     is not silently treated as closure in another.
+manual_ontology_gate_reconciliation:
+  updated_on: '2026-07-10'
+  status: active-authority-override
+  canonical_ontology: problems/navier-stokes/ontology.md
+  operating_gate: .claude/physical-reasoning-gate.txt
+  feedback_ledger: problems/navier-stokes/ontology-feedback.yaml
+  rule: >-
+    Every program, theorem, currency, model, readout, Gold attempt, and Silver
+    attempt in this table must pass the ontology gate and return the four required
+    feedback fields. Pack is outside the CM object and supplies only Field-window
+    evidence. Silver class exit requires an admitted same-solution Part or Field
+    failure. Gold is defined by a theorem-grade direct same-object consequence,
+    not by one frozen mechanism. Ontology promotion has no MPP theorem status by
+    itself.
+  supersession: >-
+    This block overrides conflicting generated or historical language below that
+    treats Pack as a CM face, gives route interpretations hard-fact status, or
+    counts materialized theorem-facing work as mathematical progress.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
