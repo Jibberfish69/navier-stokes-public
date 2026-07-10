@@ -5054,6 +5054,21 @@ V_-\ne0.
 \tag{G65.4}
 ```
 
+The same estimates give quantitative profile retention:
+
+```math
+\boxed{
+R(V)\ge c\eta_0^6,
+\qquad
+D(V)\ge c\eta_0^3,
+\qquad
+\min_s\|V_s\|_{\dot H^{1/2}}\ge c\eta_0^3.
+}
+```
+
+This is a fixed positive fraction depending on `eta_0`, not ownership of the
+full normalized record.
+
 Using the same translations on the normalized trajectories and the local
 compactness in Section 60 yields an ancient weak Euler history `U` with
 
