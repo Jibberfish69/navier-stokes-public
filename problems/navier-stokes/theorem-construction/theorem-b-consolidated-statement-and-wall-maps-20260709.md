@@ -5005,8 +5005,19 @@ Translation-profile extraction in `X`, finite-band cubic decoupling, and then
 \tag{G65.3}
 ```
 
-The current series is absolutely convergent by HMIN. Consequently one full
-profile satisfies
+The current series is absolutely convergent by HMIN. If
+`p_alpha=[P_H(V^alpha)]_+`, `a_alpha^2=R(V^alpha)+D(V^alpha)`, and
+`m=sup_alpha p_alpha`, then `p_alpha <= C a_alpha^3`,
+`sum_alpha a_alpha^2 <= 2`, and
+
+```math
+2
+\ge C^{-2/3}\sum_{p_\alpha>0}p_\alpha^{2/3}
+\ge C^{-2/3}m^{-1/3}\sum_{p_\alpha>0}p_\alpha
+\ge C^{-2/3}m^{-1/3}\eta_0.
+```
+
+Consequently one full profile satisfies
 
 ```math
 \boxed{
