@@ -3,7 +3,7 @@ theorem_id: forward-gold-critical-height-native-increment-current-fixed-face-cer
 created: 2026-07-09
 problem: navier-stokes
 route: forward-gold / signed critical height / c0 / Fable fixed face
-status: proved-native-current-pair-identity-and-universal-affine-positive-part-floor; record-selected-finite-variation-open
+status: proved-record-gain-frequency-runaway-and-branch-countermodels; same-trajectory-triad-recurrence-open
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-root-payment-physical-spine-20260704.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-target1-energy-testform-display-executed-20260705.md
@@ -28,7 +28,18 @@ completion_truth: >-
   The first missing line is pairwise: pressure and viscosity cancel or dissipate
   only after summing all pairs; neither has the sign needed to forbid repeated
   selected compression of one carrier. Gold remains open at that finite-
-  positive-variation statement.
+  positive-variation statement. Later sections prove the record-doubling
+  current, the positive running-record measure, the fixed-efficiency profile
+  and covector response, and the record-gain efficiency dichotomy. A
+  counterhistory avoiding the fixed-efficiency branch must have efficiency
+  vanish in the gain measure and unbounded normalized Hdot3/2 dissipation on
+  record contact. Every record doubling also forces at least one eighth of its
+  normalized positive gain to an enstrophy-weighted frequency tending to
+  infinity. An exact fixed-gap shell history shows that conservative flux,
+  Leray dissipation, and balanced helicity alone do not contradict this tower;
+  an exact periodic Euler history shows that bounded ancientness and positive
+  terminal current alone do not contradict the efficient branch. Gold remains
+  open at a genuinely Navier--Stokes multi-time phase/triad ancestry theorem.
 ---
 
 # Native critical increment current on the fixed face
@@ -1733,6 +1744,26 @@ the normalized `1/4` mean-frequency floor. Endpoint information
 `mathcal W`; no datum-bounded summable quantity follows. The spectral-mean
 identity survives, while the proposed separate mean-map Liouville target is
 withdrawn.
+
+The collapse holds for every scalar built only from the first two spectral
+moments. With `E=M_0`, `R=M_1`, `A=M_2`, and `C=M_3`, every
+`Phi in C^1((0,infinity)^2)` satisfies
+
+```math
+\boxed{
+\frac d{dt}\Phi(E,R)
+=-2\nu\Phi_E(E,R)A
++2\Phi_R(E,R)(P_H-\nu C).
+}
+\tag{NIC.126f}
+```
+
+This is exactly the `Phi_E`, `Phi_R` recombination of the energy and critical
+balances. Integrating it over a record interval produces only the endpoint
+difference `Phi(E_n,R_n)-Phi(E_{n-1},R_{n-1})`. Any independent transition
+law must therefore use information outside the `(M_0,M_1)` projection, such
+as spectral angle or phase, higher-moment geometry, or compactness of the
+same-trajectory current.
 
 ## 19. Near-monochromatic record countersequence: no uniform spectral rigidity
 
@@ -4213,3 +4244,461 @@ response on the selected ancient Euler profile. Conversion to positive
 running-record gain is reduced to the two displayed angular and record-contact
 clauses. Neither is proved, so this is a strict theorem and obstruction, not
 Gold closure.
+
+## 29. RECORD-GAIN EFFICIENCY DICHOTOMY (NIC.270--NIC.275)
+
+The endpoint efficiency in Section 23 can vanish even though the positive
+running-record measure in Section 26 has fixed mass. Measure efficiency on the
+whole gain event by
+
+```math
+\mathfrak e_n(\tau)
+:=
+\frac{[P_H(v_n(\tau))]_+}
+{D(v_n(\tau))\sqrt{\rho_n(\tau)}}
+\tag{NIC.270}
+```
+
+whenever the denominator is nonzero, and set it to zero elsewhere. On the
+support of `G_n`, one has `rho_n=q_n in [1/2,1]` and
+`P_H(v_n)-nu_nD(v_n)>0`, so the denominator is nonzero. The HMIN estimate
+`(NIC.169)` gives
+
+```math
+0<\mathfrak e_n\le C
+\qquad G_n\text{-almost everywhere}.
+\tag{NIC.271}
+```
+
+After passage to a subsequence, exactly one of the following holds:
+
+```math
+\begin{aligned}
+\text{efficient gain: }&
+\exists\,\varepsilon_0,\gamma>0:\quad
+G_n\{\mathfrak e_n\ge\varepsilon_0\}\ge\gamma,\\
+\text{vanishing-efficiency gain: }&
+\forall\,\varepsilon>0:\quad
+G_n\{\mathfrak e_n\ge\varepsilon\}\longrightarrow0.
+\end{aligned}
+\tag{NIC.272}
+```
+
+In the first branch choose a record-contact time `sigma_n` from the charged
+set. Its original critical height
+
+```math
+S_n:=R(u(\sigma_n))
+=\rho_n(\tau_n)R_n
+\in[R_n/2,R_n]
+\tag{NIC.273}
+```
+
+tends to infinity. Reapply the canonical normalization at `sigma_n`, using
+`D_n^*=D(u(sigma_n))`. The new endpoint fields `w_n` satisfy
+
+```math
+\boxed{
+R(w_n(0))=D(w_n(0))=1,
+\qquad
+P_H(w_n(0))=\mathfrak e_n(\tau_n)\ge\varepsilon_0,
+\qquad
+\nu_n^*=\frac\nu{\sqrt{S_n}}\longrightarrow0.
+}
+\tag{NIC.274}
+```
+
+Record contact gives the full backward record bound at `sigma_n`. The
+interpolation argument from `(NIC.141)` makes the normalized backward interval
+ancient. Sections 27 and 28 therefore apply after recentering: this branch
+produces a full mixed-helicity current-bearing profile and a terminal covector
+response.
+
+In the second branch choose `alpha_n downarrow 0` diagonally so that
+
+```math
+G_n\{\mathfrak e_n>\alpha_n\}\longrightarrow0.
+```
+
+Put
+`A_n={mathfrak e_n<=alpha_n} intersect supp G_n`. Since
+`G_n(A_n)->1/4` and `rho_n<=1`, the exact gain density obeys
+
+```math
+\begin{aligned}
+dG_n
+&=[P_H(v_n)-\nu_nD(v_n)]_+\,d\tau\\
+&\le P_H(v_n)\,d\tau
+=\mathfrak e_nD(v_n)\sqrt{\rho_n}\,d\tau
+\le\alpha_nD(v_n)\,d\tau
+\qquad\text{on }A_n.
+\end{aligned}
+```
+
+Consequently
+
+```math
+\boxed{
+\int_{A_n}D(v_n(\tau))\,d\tau
+\ge\frac{1/4-o(1)}{\alpha_n}
+\longrightarrow\infty.
+}
+\tag{NIC.275}
+```
+
+This is normalized critical `Hdot3/2` dissipation concentrated on the actual
+record-gain event. Multiplication by `nu_n` is uncontrolled, and Leray bounds
+only the lower energy-dissipation currency. Thus `(NIC.275)` is not a
+contradiction.
+
+**Result of this section.** Fixed efficiency at the endpoint is no longer the
+exhaustive compactness test. Fixed efficiency on any persistent part of the
+record-gain measure enters the profile/covector branch. Every counterhistory
+avoiding that branch must realize vanishing efficiency across almost all of
+the gain measure and divergent normalized critical dissipation on record
+contact. This is an exact strict reduction, not Gold closure.
+
+## 30. POSITIVE RECORD GAIN FORCES SPECTRAL-CENTROID ESCAPE (NIC.276--NIC.294)
+
+Return to the unscaled solution and put
+
+```math
+E:=M_0,qquad R:=M_1,qquad K:=M_2,qquad D:=M_3.
+```
+
+On the first-record doubling interval `I_n=[t_{n-1},t_n]`, define the energy
+spent and the positive running-record measure by
+
+```math
+\Delta E_n
+:=E(t_{n-1})-E(t_n)
+=2\nu\int_{I_n}K(t)\,dt,
+\tag{NIC.276}
+```
+
+and
+
+```math
+d\mu_n(t)
+:=\frac1{R_n}\mathbf 1_{\{R=\overline R\}}
+[P_H-\nu D]_+\,dt.
+\tag{NIC.277}
+```
+
+The running-record identity `(NIC.242)` gives
+
+```math
+\boxed{\mu_n(I_n)=\frac14.}
+\tag{NIC.278}
+```
+
+Let
+
+```math
+\kappa(t):=\frac{D(t)}{K(t)}
+```
+
+on the gain support. This is the enstrophy-weighted spectral centroid. Moment
+log-convexity gives
+
+```math
+\frac DK\ge\frac KR\ge\frac R{E(t)}.
+\tag{NIC.279}
+```
+
+Since `R>=R_n/2` on the record-contact part of `I_n`, every point charged by
+`mu_n` satisfies
+
+```math
+\kappa(t)\ge\frac{R_n}{2E(0)}.
+\tag{NIC.280}
+```
+
+There is a second lower scale which detects how little energy the same
+doubling spends. The HMIN estimate supplies a universal `C_H` such that
+
+```math
+P_H\le C_H\sqrt R\,D.
+```
+
+For any `Lambda>0`, using `R<=R_n` throughout `I_n` gives
+
+```math
+\begin{aligned}
+\mu_n\{\kappa<\Lambda\}
+&\le\frac{C_H}{\sqrt{R_n}}
+\int_{I_n\cap\{\kappa<\Lambda\}}D\,dt\\
+&\le\frac{C_H\Lambda}{\sqrt{R_n}}\int_{I_n}K\,dt
+=\frac{C_H\Lambda\Delta E_n}{2\nu\sqrt{R_n}}.
+\end{aligned}
+\tag{NIC.281}
+```
+
+The interval cannot have `Delta E_n=0`, since it contains positive record
+gain. Choose
+
+```math
+\Lambda_n^{\mathrm{spend}}
+:=\frac{\nu\sqrt{R_n}}{4C_H\Delta E_n}.
+\tag{NIC.282}
+```
+
+Equations `(NIC.278)` and `(NIC.281)` then prove
+
+```math
+\boxed{
+\mu_n\left\{
+\frac DK\ge
+\max\left(
+\frac{R_n}{2E(0)},
+\frac{\nu\sqrt{R_n}}{4C_H\Delta E_n}
+\right)
+\right\}
+\ge\frac18.
+}
+\tag{NIC.283}
+```
+
+The intervals are disjoint and the energy identity gives
+
+```math
+\sum_n\Delta E_n\le E(0),
+\qquad
+\Delta E_n\longrightarrow0.
+\tag{NIC.284}
+```
+
+Thus the threshold in `(NIC.283)` tends to infinity. This is an unconditional
+same-trajectory theorem: at least half of the positive normalized gain in
+every doubling is carried at an enstrophy-weighted mean frequency escaping to
+infinity. In the vanishing-efficiency branch, `(NIC.275)` sharpens the escape
+by an additional inverse-efficiency factor.
+
+### 30.1 Exact flux layer-cake gives no second reserve
+
+Let `P_{>=lambda}` be the sharp Fourier high-pass and set
+
+```math
+\Pi(\lambda,t)
+:=-\langle B(u,u),P_{\ge\lambda}u\rangle.
+```
+
+The high-pass energy balance and the layer-cake formula for `Lambda` are
+
+```math
+\frac12\frac d{dt}\|P_{\ge\lambda}u\|_2^2
++\nu\|\nabla P_{\ge\lambda}u\|_2^2
+=\Pi(\lambda,t),
+\qquad
+\Lambda=\int_0^\infty P_{\ge\lambda}\,d\lambda.
+\tag{NIC.285}
+```
+
+Consequently
+
+```math
+\boxed{P_H(t)=\int_0^\infty\Pi(\lambda,t)\,d\lambda.}
+\tag{NIC.286}
+```
+
+Integrating `(NIC.286)` over `I_n` reconstructs exactly
+
+```math
+\int_{I_n}\int_0^\infty\Pi(\lambda,t)\,d\lambda\,dt
+=\frac{R_n}{4}+\nu\int_{I_n}D(t)\,dt.
+\tag{NIC.287}
+```
+
+Thus summing energy flux over cutoffs is the critical-height balance itself.
+Leray controls the energy currency at each fixed cutoff; the `d lambda`
+integration reinstates the missing critical frequency weight. No flux
+double-counting argument creates a datum-bounded reserve.
+
+### 30.2 Fixed-gap shell balances realize the entire runaway pattern
+
+The failure is structural even when the transfer keeps one sign and moves
+only across a fixed scale gap. For every `nu>0`, define
+
+```math
+\lambda_n:=4^n,
+\qquad
+e_n:=2^{-n}.
+```
+
+On `I_n`, only the shells `lambda_n/4` and `lambda_n` are occupied. Let
+`x` run from zero to one according to
+
+```math
+x'=\frac{\nu\lambda_n^2}{4}(1+7x),
+\tag{NIC.288}
+```
+
+and set
+
+```math
+\begin{aligned}
+E_{\mathrm{old}}&=2e_n(1-x),
+&E_{\mathrm{new}}&=e_nx,\\
+F_n^{\mathrm{sh}}&=\frac{\nu\lambda_n^2e_n}{8}(1+15x),
+&T_{\mathrm{old}}&=-F_n^{\mathrm{sh}},
+&T_{\mathrm{new}}&=F_n^{\mathrm{sh}}.
+\end{aligned}
+\tag{NIC.289}
+```
+
+Direct substitution proves the conservative viscous shell laws
+
+```math
+\frac12E_j'+\nu\lambda_j^2E_j=T_j,
+\qquad
+\sum_jT_j=0.
+\tag{NIC.290}
+```
+
+The interval length is
+
+```math
+|I_n|=\frac{4\log8}{7\nu\lambda_n^2},
+\qquad
+\sum_n|I_n|<\infty.
+\tag{NIC.291}
+```
+
+The endpoint of one interval is the initial state of the next because
+`lambda_{n+1}/4=lambda_n` and `2e_{n+1}=e_n`. The shell energy loses exactly
+`e_n` on `I_n`, so
+
+```math
+\nu\int_{I_n}\sum_j\lambda_j^2E_j\,dt=\frac{e_n}{2},
+\qquad
+\sum_n\frac{e_n}{2}<\infty.
+\tag{NIC.292}
+```
+
+Nevertheless, its critical quantities are
+
+```math
+\begin{aligned}
+R_{\mathrm{sh}}
+&=\frac{\lambda_ne_n}{2}(1+x),\\
+D_{\mathrm{sh}}
+&=\frac{\lambda_n^3e_n}{32}(1+31x),\\
+P_{\mathrm{sh}}
+&=\frac{3\nu\lambda_n^3e_n}{32}(1+15x).
+\end{aligned}
+\tag{NIC.293}
+```
+
+Hence `R_sh` rises strictly from `2^{n-1}` to `2^n`, its first-record times
+converge to a finite time, and
+
+```math
+\frac{P_{\mathrm{sh}}}{D_{\mathrm{sh}}}
+=3\nu\frac{1+15x}{1+31x}
+\in\left[\frac32\nu,3\nu\right],
+\qquad
+\frac{P_{\mathrm{sh}}}{D_{\mathrm{sh}}\sqrt{R_{\mathrm{sh}}}}
+\longrightarrow0
+\tag{NIC.294}
+```
+
+uniformly on `I_n`. Splitting every shell energy and current equally between
+the two helical readouts puts the model on the balanced horn of `(NIC.232)`
+and preserves all sector balances.
+
+This is a countermodel to the balance/flux method, not a Navier--Stokes
+solution. The currents in `(NIC.289)` are prescribed. They are not realized
+as the simultaneous cubic triad functionals of one evolving divergence-free
+velocity field. What is absent is successive-time compatibility of shared
+triad phases and polarizations with the Leray projection and its slaved
+pressure. Sections 20--22 already show that positive low-efficiency production
+is realizable at one time; only a genuinely multi-time Navier--Stokes
+recurrence obstruction could now exclude the tower.
+
+**Result of this section.** The exact theorem `(NIC.283)` proves frequency
+runaway. The shell construction `(NIC.288)--(NIC.294)` proves that energy,
+critical balance, signed conservative fixed-gap flux, Leray dissipation, and
+balanced helical participation do not turn that runaway into a contradiction.
+Gold is reduced to an NS-specific repeated-triad ancestry theorem.
+
+## 31. THE EFFICIENT EULER HORN NEEDS RECORD ANCESTRY (NIC.295--NIC.299)
+
+The efficient horn also does not close from the inherited Euler properties
+alone. An exact periodic example exhibits all of them. On `T^3`, embed a 2D
+Euler flow with initial vorticity
+
+```math
+\omega_0
+=2\cos x_1+2\cos2x_2+2\cos(x_1+2x_2).
+\tag{NIC.295}
+```
+
+For `p=(1,0)`, `q=(0,2)`, and `k=(1,2)`, the six coefficients at the signed
+modes are all one. The exact 2D Euler Fourier equation gives
+
+```math
+\dot\omega_p=-\frac1{10},
+\qquad
+\dot\omega_q=\frac85,
+\qquad
+\dot\omega_k=-\frac32,
+\tag{NIC.296}
+```
+
+with the same values at the negative modes. Since
+`R=sum_{m not equal 0}|omega_m|^2/|m|`,
+
+```math
+\boxed{
+R'(0)
+=4\left(-\frac1{10}+\frac45-\frac{3}{2\sqrt5}\right)
+=\frac{14}{5}-\frac6{\sqrt5}>0,
+\qquad
+P_H(0)=\frac75-\frac3{\sqrt5}>0.
+}
+\tag{NIC.297}
+```
+
+Two-dimensional Euler is globally smooth. Its energy `E=29/10` and
+enstrophy `Z=6` are conserved, and
+
+```math
+R(t)\le E^{1/2}Z^{1/2}
+\qquad(t\in\mathbb R).
+\tag{NIC.298}
+```
+
+Amplitude-time scaling `U_c(t,x)=cU(ct,x)` makes `sup_t R(U_c(t))<=1` while
+preserving positive terminal current. Every horizontal Fourier mode has both
+curl-helicity signs. Taking the terminal covector `phi=Lambda U_c(0)` gives
+`L'(0)=P_H(U_c(0))>0`, and smoothness supplies the fixed terminal response
+window.
+
+Thus bounded ancientness, mixed helicity, positive terminal current, Euler
+invariants, and the terminal covector response are compatible. The example is
+periodic and does not decide the extracted `R^3` profile. It does prove that
+the efficient horn needs the ancestry that the present compactness passage
+does not retain. The smallest lawful missing statement is
+
+```math
+\boxed{
+(U,V)\in\mathcal A_{\mathrm{rec}}(\varepsilon)
+\quad\Longrightarrow\quad
+P_H(V)\le0,
+}
+\tag{NIC.299}
+```
+
+where `A_rec(epsilon)` consists only of ancient `R^3` Euler profiles produced
+by translating canonical normalizations at `epsilon`-efficient running-record
+contacts of one fixed Navier--Stokes trajectory. Sections 27--28 give
+`P_H(V)>=c epsilon^3`, so `(NIC.299)` would exclude the horn. No currently
+passed property distinguishes that ancestry class from the broader Euler
+class.
+
+**Completion truth.** The requested exclusion of unbounded first-record
+heights is not proved. What is proved is the unavoidable positive-gain
+frequency runaway `(NIC.283)`. The two natural terminal arguments are now
+decisively separated: the vanishing-efficiency horn needs a multi-time NS
+triad/phase recurrence obstruction, while the efficient horn needs the
+record-ancestry rigidity `(NIC.299)`. Neither theorem is presently available.
