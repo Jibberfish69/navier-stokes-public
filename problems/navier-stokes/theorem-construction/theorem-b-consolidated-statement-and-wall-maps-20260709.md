@@ -5168,3 +5168,122 @@ terminal profile.
 **Status.** Strict theorem for the efficient-current branch. Dynamic record
 inheritance, terminal current continuity, and narrow rigidity remain open; no
 Gold conclusion is proved.
+
+## 66. FIXED EFFICIENCY FORCES A TERMINAL COVECTOR RESPONSE (2026-07-09)
+
+Let `u_n=v_n(0)`, `N=2^K`, `y_{n,K}=P_{<=K}u_n`,
+`phi_{n,K}=Lambda y_{n,K}`, and
+`L_{n,K}(tau)=<v_n(tau),phi_{n,K}>`. The endpoint tail and retained critical
+mass satisfy
+
+```math
+I_{n,K}(0)
+:=-\langle B(u_n,u_n),\phi_{n,K}\rangle
+\ge P_H(u_n)-CN^{-1/2},
+\qquad
+R(y_{n,K})\ge1-CN^{-2}.
+\tag{G66.1}
+```
+
+Section 60 gives
+
+```math
+\|v_n(\tau)-u_n\|_{\dot H^{-1/2}}
+\lesssim|\tau|^{1/2}.
+```
+
+Fractional Leibniz and endpoint `D(u_n)=1` then give, without any interior
+`D(v_n(tau))` bound,
+
+```math
+|I_{n,K}(\tau)-I_{n,K}(0)|
+\lesssim N^2|\tau|^{1/2},
+\qquad
+\nu_n|\langle\Delta v_n(\tau),\phi_{n,K}\rangle|
+\lesssim\nu_nN.
+\tag{G66.2}
+```
+
+For `P_H(u_n)>=eta_0`, choose safely
+`N~eta_0^{-2}`, `delta~eta_0^{10}`, and `nu_n<=c eta_0^3`. Then
+
+```math
+\boxed{
+L_{n,K}'(\tau)\ge\frac{\eta_0}{2}
+\quad(-\delta\le\tau\le0).
+}
+\tag{G66.3}
+```
+
+The global covector can retain remote endpoint profiles, so it is not passed
+unchanged to the selected profile. Using Section 65's full profile `V` and
+`phi_K^V=Lambda P_{<=K}V`, the same argument applied directly to its ancient
+Euler history gives
+
+```math
+\boxed{
+\frac{d}{d\tau}\langle U(\tau),\phi_K^V\rangle
+\ge cP_H(V)\ge c'\eta_0^3
+\quad\text{a.e. on }[-\delta_V(\eta_0),0].
+}
+\tag{G66.4}
+```
+
+The exact conversion boundary is geometric. In `H=Hdot^{1/2}`, set
+
+```math
+R=\|v\|_H^2,
+\quad L=(v,y)_H,
+\quad F=\frac12R',
+\quad a=\frac LR,
+\quad y_\perp=y-av,
+\quad\Omega=(\partial_\tau v,y_\perp)_H.
+```
+
+Then
+
+```math
+\boxed{
+L'=aF+\Omega,
+\qquad
+F=\frac RL(L'-\Omega),
+\qquad
+\Omega=\|y\|_H\sqrt R\,\chi',
+\quad
+\chi=\frac{L}{\|y\|_H\sqrt R}.
+}
+\tag{G66.5}
+```
+
+Therefore the positive running-record measure is exactly
+
+```math
+\boxed{
+dG_n
+=\mathbf1_{\{R=q_n\}}\frac RL[L'-\Omega]_+\,d\tau.
+}
+\tag{G66.6}
+```
+
+A sufficient bridge consists of both
+
+```math
+\Omega_{n,K}\le(1-\kappa)L_{n,K}'
+\quad\text{on record contact},
+\qquad
+\int_{-\delta}^0\mathbf1_{\{R=q_n\}}L_{n,K}'\,d\tau
+\ge\gamma(\eta_0)>0.
+\tag{G66.7}
+```
+
+These imply
+`G_n([-delta,0]) >= (kappa/sqrt2) gamma(eta_0)`. Exact two-dimensional
+Hilbert-space curves separately refute either implication from `L'>0` alone:
+one keeps every time on the running record while angular motion makes radial
+gain arbitrarily small; another has no angular defect while record contact is
+confined to an arbitrarily short terminal layer. These curves are
+functional-geometry countermodels, not Navier--Stokes solutions.
+
+**Status.** The terminal response is a strict same-field theorem. Angular
+capture and positive record-contact time remain independent open clauses, so
+no record ownership or Gold conclusion follows.
