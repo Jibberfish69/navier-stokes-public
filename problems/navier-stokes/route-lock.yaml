@@ -5,6 +5,15 @@ identity:
   artifact_id: route-lock-navier-stokes
   updated_at: '2026-04-09T23:55:00Z'
   generator: chat2-manual-route-lock
+manual_ontology_gate_reconciliation:
+  updated_on: '2026-07-10'
+  status: active-authority-override
+  authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+  effect: >-
+    SignedCriticalHeightSignPersistenceOrPeakBound.A is demoted. The open Gold
+    burden is the global critical-height bound or a genuinely smaller
+    quantitative theorem implying it; no smaller theorem is installed. Lower
+    route snapshots retaining the former wrapper are genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
@@ -122,7 +131,7 @@ current_authority:
   - problems/navier-stokes/theorem-packet.yaml
   - problems/navier-stokes/theorem-repair.yaml
   - problems/navier-stokes/dependency-discharge.yaml
-  installed_root_group_id: gold-l1-signed-height-sign-persistence-wall
+  installed_root_group_id: gold-critical-height-bound-open
   object_law_remains_governing: true
 authority_split_resolution:
   status: resolved-by-no-proof-authority-classification
@@ -389,37 +398,34 @@ proof_program_topology:
   current_role: infrastructure repair; not mathematical progress unless it materializes
     theorem work
 open_root_group:
-  group_id: gold-l1-signed-height-sign-persistence-wall
-  group_label: Gold L1 signed critical-height sign-persistence / peak-height wall.
+  group_id: gold-critical-height-bound-open
+  group_label: Gold global critical-height bound; no smaller theorem installed.
   live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
   top_level_release_blocker: true
   not_single_path: true
   not_single_proof_mode: true
-  dashboard_boundary: 'The installed Clay terminal-witness CM chain remains proof
-    grammar, but it does not close the forward Gold L1 source wall. The current open
-    object is the signed critical-height restart: prove sign persistence with physical
-    cost, or prove peak-height control when the signed rate changes sign. Terminal
-    anti-atom, source-refill, native-reserve, scalar sum displays, and selected positive
-    L1 clipping are readouts or countertests unless they prove that signed-height
-    object.'
+  dashboard_boundary: >-
+    The global critical height is nonnegative and has a signed evolution. Gold
+    remains open at a uniform bound for that height or a genuinely smaller
+    quantitative theorem implying the bound. Positive variation remains a lawful
+    stronger sufficient route. Sign persistence and packet language supply no
+    bound by themselves.
   exact_live_theorem_grade_burden: &1
-    status: gold-l1-open-signed-height-sign-persistence-wall
-    burden_id: gold-l1-signed-height-sign-persistence-wall
-    proof_mode: gold_forward_signed_height_restart
-    target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
-    theorem_grade_statement: Prove the Gold restart from the signed critical-height
-      equation, not from selected positive-part readout. The theorem must control
-      the signed height or prove the physical mechanism that lets one same-fluid packet
-      keep the signed rate positive long enough to raise that height. If the signed
-      rate changes sign, the object is peak height, not total positive variation.
-    active_container: gold-l1-signed-height-sign-persistence-wall
+    status: gold-open-critical-height-bound-no-smaller-theorem-installed
+    burden_id: gold-critical-height-bound-open
+    proof_mode: gold_forward_critical_height_control
+    target_object: global critical-height bound or a genuinely smaller quantitative theorem
+    theorem_grade_statement: >-
+      Prove a uniform global critical-height bound, or prove a genuinely smaller
+      quantitative same-field theorem whose implication to that bound is exact.
+    active_container: gold-critical-height-bound-open
     respawn_cell: theorem-upgrade
     respawn_stage: gold-l1-source-theorem
-    allowed_input_boundary: The signed Navier-Stokes height equation comes first.
-      Dyadic, atom, child, native-reserve, source-refill, terminal anti-atom, Pack
-      anti-concentration, and selected positive L1 statements are typed readouts,
-      countertests, or sufficient-but-unproved entrances unless they prove the signed-height
-      sign-persistence or peak-height theorem.
+    allowed_input_boundary: >-
+      The global Navier--Stokes critical-height balance comes first. Packet,
+      dyadic, atom, reserve, source, and positive-variation statements remain
+      readouts or sufficient routes until a proved bridge yields the uniform
+      bound or a genuinely smaller theorem implying it.
     current_event_local_reduction_20260703: RecordLocalPositiveProductionWitnessCover.A
       is now reconciled with the TFE2748B source wall as the signed-height record-local
       projection of the pre-readout parent active-density/full-exchange source wall.
@@ -431,20 +437,21 @@ open_root_group:
       before selected positive-part readout plus noncircular strict same-parent coupled
       storage for the admitted parent active source. Reset, Schur, return, and superheat
       surfaces are consumer branches after admission, not substitutes for this producer.
-    nearest_wrong_substitution: Treating total positive variation, selected positive-part
-      readout, a scalar selected L1 sum, TFE2748B capacity variation, or a same-parent
-      storage ledger as the primitive physical source object instead of the signed
-      height and its sign mechanism.
+    nearest_wrong_substitution: >-
+      Reinstalling sign persistence as a bound, treating a global balance as a
+      packet mechanism, or renaming the critical-height bound as a smaller theorem.
     accepted_replacement:
-      theorem: SignedCriticalHeightSignPersistenceOrPeakBound.A
+      theorem: none-installed
+      demoted_wrapper: SignedCriticalHeightSignPersistenceOrPeakBound.A
       audit_surfaces:
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-signed-height-restart-after-positive-clipping-demotion-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-summation-type-custody-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-tfe2748-coupled-storage-loop-audit-20260702.md
       - problems/navier-stokes/theorem-construction/mpp-forward-gold-noncircular-same-parent-coupled-storage-proof-pressure-20260702.md
-      anti_smuggling_rule: No generated, manuscript, or theorem-packet surface may
-        call the Gold L1 wall closed or treat positive clipping as primitive until
-        the signed-height sign-persistence or peak-height theorem is proved.
+      anti_smuggling_rule: >-
+        No generated or theorem-facing surface may promote the demoted wrapper,
+        packet language, or positive variation to theorem status without the
+        exact quantitative implication to the global critical-height bound.
   cm_exit_discipline: A theorem surface is live for the CM program only when it is
     generated by negating the installed continuation packet, or when a checked bridge
     lands it in a typed Part or Field obligation. The H^s readout bridge is proof-licensing

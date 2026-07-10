@@ -9,6 +9,15 @@ identity:
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
+manual_ontology_gate_reconciliation:
+  updated_on: '2026-07-10'
+  status: active-authority-override
+  authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+  effect: >-
+    SignedCriticalHeightSignPersistenceOrPeakBound.A is demoted. The open Gold
+    burden is the global critical-height bound or a genuinely smaller
+    quantitative theorem implying it; no smaller theorem is installed. Lower
+    generated occurrences of the former wrapper are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
@@ -20,17 +29,15 @@ source_grounded_chain:
 - TorusGlobalMaterialAtlasTerminalCapture.A
 tentative_extension_chain: []
 remaining_open_obligations:
-- obligation_id: gold-l1-signed-height-sign-persistence-wall
+- obligation_id: gold-critical-height-bound-open
   kind: forward-gold-live-wall
-  label: SignedCriticalHeightSignPersistenceOrPeakBound.A
-  status: gold-l1-open-signed-height-sign-persistence-wall
+  label: global critical-height bound or a genuinely smaller quantitative theorem
+  status: gold-open-no-smaller-theorem-installed
   source_anchor: problems/navier-stokes/target-operating-contract.yaml
-  proof_mode: gold_forward_signed_height_restart
-  meaning: Prove the Gold restart from the signed critical-height equation, not from
-    selected positive-part readout. The theorem must control the signed height or
-    prove the physical mechanism that lets one same-fluid packet keep the signed rate
-    positive long enough to raise that height. If the signed rate changes sign, the
-    object is peak height, not total positive variation.
+  proof_mode: gold_forward_critical_height_control
+  meaning: >-
+    Prove a uniform global critical-height bound, or prove a genuinely smaller
+    quantitative same-field theorem whose implication to that bound is exact.
   blocking: true
   equivalent_forms: &1
   - simultaneous strict coupled active-capacity/full-exchange storage inequality
@@ -38,17 +45,15 @@ remaining_open_obligations:
 remaining_open_obligation_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
-  - obligation_id: gold-l1-signed-height-sign-persistence-wall
+  - obligation_id: gold-critical-height-bound-open
     kind: forward-gold-live-wall
-    label: SignedCriticalHeightSignPersistenceOrPeakBound.A
-    status: gold-l1-open-signed-height-sign-persistence-wall
+    label: global critical-height bound or a genuinely smaller quantitative theorem
+    status: gold-open-no-smaller-theorem-installed
     source_anchor: problems/navier-stokes/target-operating-contract.yaml
-    proof_mode: gold_forward_signed_height_restart
-    meaning: Prove the Gold restart from the signed critical-height equation, not
-      from selected positive-part readout. The theorem must control the signed height
-      or prove the physical mechanism that lets one same-fluid packet keep the signed
-      rate positive long enough to raise that height. If the signed rate changes sign,
-      the object is peak height, not total positive variation.
+    proof_mode: gold_forward_critical_height_control
+    meaning: >-
+      Prove a uniform global critical-height bound, or prove a genuinely smaller
+      quantitative same-field theorem whose implication to that bound is exact.
     blocking: true
     equivalent_forms: *1
   theorem_warrant_obligations: []
@@ -56,17 +61,15 @@ frontier_context:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
-  - obligation_id: gold-l1-signed-height-sign-persistence-wall
+  - obligation_id: gold-critical-height-bound-open
     kind: forward-gold-live-wall
-    label: SignedCriticalHeightSignPersistenceOrPeakBound.A
-    status: gold-l1-open-signed-height-sign-persistence-wall
+    label: global critical-height bound or a genuinely smaller quantitative theorem
+    status: gold-open-no-smaller-theorem-installed
     source_anchor: problems/navier-stokes/target-operating-contract.yaml
-    proof_mode: gold_forward_signed_height_restart
-    meaning: Prove the Gold restart from the signed critical-height equation, not
-      from selected positive-part readout. The theorem must control the signed height
-      or prove the physical mechanism that lets one same-fluid packet keep the signed
-      rate positive long enough to raise that height. If the signed rate changes sign,
-      the object is peak height, not total positive variation.
+    proof_mode: gold_forward_critical_height_control
+    meaning: >-
+      Prove a uniform global critical-height bound, or prove a genuinely smaller
+      quantitative same-field theorem whose implication to that bound is exact.
     blocking: true
     equivalent_forms: *1
   target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml

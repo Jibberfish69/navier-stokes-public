@@ -6,6 +6,15 @@ identity:
   repair_id: theorem-repair-navier-stokes
   generated_at: '2026-06-26T04:54:16Z'
   generator: system/runner/workers/theorem_repair_worker.rb
+manual_ontology_gate_reconciliation:
+  updated_on: '2026-07-10'
+  status: active-authority-override
+  authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+  effect: >-
+    SignedCriticalHeightSignPersistenceOrPeakBound.A is demoted. The open Gold
+    burden is the global critical-height bound or a genuinely smaller
+    quantitative theorem implying it; no smaller theorem is installed. Lower
+    generated occurrences of the former wrapper are genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
@@ -23,7 +32,9 @@ authority_sync_gate:
   - submission-verdict.yaml
   - generated crank/status surfaces
   unresolved_entries:
-  - SignedCriticalHeightSignPersistenceOrPeakBound.A open for Gold L1 source theorem
+  - >-
+    The global critical-height bound, or a genuinely smaller quantitative theorem
+    implying it, remains open; no smaller theorem is installed.
   demoted_gold_context_entries:
   - obligation_id: global-same-packet-full-material-clock
     kind: gold-counterpart-frontier
