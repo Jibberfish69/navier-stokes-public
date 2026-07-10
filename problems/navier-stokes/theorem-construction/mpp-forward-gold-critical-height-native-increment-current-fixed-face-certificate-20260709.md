@@ -3831,7 +3831,22 @@ P_H(V^{\alpha_*})\ge c\eta_0^3>0.
 ```
 
 Set `V=V^{\alpha_*}`. It is one full divergence-free field, and the pure-helicity
-cancellation `(NIC.156)` implies `V_+` and `V_-` are both nonzero.
+cancellation `(NIC.156)` implies `V_+` and `V_-` are both nonzero. In fact,
+HMIN and `R(V),D(V)<=1` give the quantitative retention
+
+```math
+\boxed{
+R(V)\ge c\eta_0^6,
+\qquad
+D(V)\ge c\eta_0^3,
+\qquad
+\min_{s\in\{+,-\}}
+\|V_s\|_{\dot H^{1/2}}\ge c\eta_0^3.
+}
+```
+
+These are positive profile fractions depending on `eta_0`; they do not make
+the profile equal to the full normalized record.
 
 ### 27.3 Passage along the normalized record histories
 
