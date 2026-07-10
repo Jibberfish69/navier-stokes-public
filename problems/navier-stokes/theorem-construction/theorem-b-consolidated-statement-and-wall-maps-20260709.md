@@ -5255,7 +5255,8 @@ F=\frac RL(L'-\Omega),
 \tag{G66.5}
 ```
 
-Therefore the positive running-record measure is exactly
+After shrinking the terminal interval so that `L>0`, the positive
+running-record measure is exactly
 
 ```math
 \boxed{
