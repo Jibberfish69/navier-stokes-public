@@ -1473,7 +1473,7 @@ repair this first failure.
 the one-field norms. The reduction to the aligned recurrent-record class fails
 before the pressure Hessian or Liouville question is reached.
 
-## 17. Record-upcrossing countersequence: NS dynamics does not restore H2 instantaneously
+## 17. Initial-growth countersequence: a local NS derivative test does not restore H2
 
 The preceding obstruction persists after imposing positive Navier--Stokes
 critical-height production. Choose a real divergence-free Schwartz field `U`
@@ -1548,17 +1548,18 @@ and the Navier--Stokes derivative at the initial time satisfies
 \tag{NIC.115}
 ```
 
-Every field therefore begins a genuine record-upcrossing interval. Each
+For each separately initialized field, smoothness and `(NIC.115)` give a short
+interval on which its critical height rises above its own initial value. Each
 frequency shell contributes exactly `c^2H_0`, so its largest fraction of the
-critical record is `1/m`. The fields are complete smooth Navier--Stokes
-initial states; only the claim that they lie on one common blowup trajectory
-is absent.
+critical height is `1/m`.
 
-This proves that bounded energy, arbitrarily large critical height, and the
-instantaneous record-upcrossing condition still do not imply H2. Any theorem
-recovering a fixed-fraction spatial packet must use a genuinely global history
-property beyond the current record condition. The corpus contains no such
-one-field theorem.
+This proves only that bounded energy, arbitrarily large critical height, and
+the local growth inequality `R'(0)>0` do not imply H2. The construction does
+not produce successive records of one Navier--Stokes solution and does not
+realize any parent--child transition in that solution's derivative tower. A
+fixed-fraction packet theorem therefore needs information from the inherited
+one-field history beyond this local derivative test. The corpus contains no
+such theorem.
 
 ## 18. Exact one-field spectral-mean identity and the zero-spread rigidity
 
@@ -1843,7 +1844,7 @@ V=\frac{2}{9}\Delta^2,
 ```
 
 Thus `P_H` is first order in the radial width while `W` is second order. The
-full critical-height record condition is
+local critical-height growth inequality is
 
 ```math
 P_H>\nu M_3
@@ -2692,10 +2693,9 @@ leading term. Near-zero quadratic outputs are also lower order because the
 carrier-zero coefficient vanishes. Thus `(NIC.187)` and `(NIC.190)` are
 full-space sign counterexamples as well.
 
-### 22.4 Failure persists on a strict critical record-growth state
+### 22.4 Failure persists at a state of strict local critical-height growth
 
-The negative sign is not confined to a non-record state. On the normalized
-torus use
+The negative sign can coexist with `R'(0)>0`. On the normalized torus use
 
 ```math
 k=(-3,-3,0),
@@ -2811,10 +2811,9 @@ P_H'(0)
 ```
 
 Thus `P_H` is decreasing at a smooth state where the total critical height is
-strictly increasing. Restricting the candidate arrow to record-growth states
-does not repair its sign.
+strictly increasing. The local restriction `R'(0)>0` does not repair its sign.
 
-This strict record obstruction also transfers to `R^3`. Apply the localization
+This strict local-growth obstruction also transfers to `R^3`. Apply the localization
 in `(NIC.191)` to the finite triad carrier and choose a real nonnegative
 envelope. Carrierwise multiplier expansion gives
 
@@ -2973,7 +2972,8 @@ Define the dimensionless current efficiency
 \tag{NIC.208}
 ```
 
-The critical balance and record-growth condition are then
+The critical balance and the endpoint inequality inherited from first-record
+selection are then
 
 ```math
 \boxed{
@@ -3202,6 +3202,10 @@ rigidity and a nontrivial viscous/history defect are both open. This is a
 checked scaling/compactness obstruction and exact exhaustive case split, not
 Gold closure.
 
+The split is conditional and proves no occurrence of `(NIC.219)`. Although the
+normalized records are sampled from one solution, no theorem here derives a
+zero-efficiency subsequence from the full mixed derivative-tower coupling.
+
 ## 24. The HMIN null form gives weighted cross-scale overlap, not co-scale occupancy
 
 The instantaneous mixed-helicity floor does not force the two helical sectors
@@ -3297,7 +3301,7 @@ This is a weighted interaction statement. The second line of `(NIC.222)`
 allows two high same-sign inputs to produce at a remote low scale occupied by
 the opposite sign.
 
-### 24.1 Exact arbitrarily separated record states
+### 24.1 Exact arbitrarily separated local-growth states
 
 That high--high-to--low possibility occurs in one full velocity field. On the
 normalized torus, fix an integer `M>=2` and set
@@ -3394,7 +3398,7 @@ R'(0)=2\nu D(u_{M,\Gamma})>0.
 The positive sector of this field occupies only unit frequency, while the
 negative sector occupies the two radii near `M`. Once `M` exceeds the fixed
 LP overlap width, no dyadic block contains both sectors. Therefore no
-universal constant `c>0` can make the record condition imply
+universal constant `c>0` can make the local growth inequality imply
 
 ```math
 \exists j:
@@ -3416,18 +3420,27 @@ helical supports remain in disjoint dyadic ranges. Scaling by the actual
 `2 nu D/P_H` then gives `(NIC.232)` exactly for a divergence-free Schwartz
 field with compact Fourier support.
 
+The index `M` changes the initial datum and the amplitude is reset separately
+for each member of the family. These fields are not successive times, scales,
+or rungs inherited from one Navier--Stokes solution. Consequently this family
+does not prove that canonical efficiency tends to zero along a dangerous
+derivative tower.
+
 **Result of this section.** The null form proves the weighted cross-scale
 overlap `(NIC.226)`, consistently with the separate global HMIN participation
 floor. It does not prove co-scale mixed-helicity occupancy. The exact family
 `(NIC.227)--(NIC.233)` shows that amplitude can compensate the geometric
-high--high-to--low kernel at an arbitrarily large spectral gap. This is an
-exact obstruction, not Gold closure and not an event-count theorem.
+high--high-to--low kernel at an arbitrarily large spectral gap in separately
+initialized local-growth states. This is an exact snapshot obstruction, not a
+same-solution record-tower construction, Gold closure, or an event-count
+theorem.
 
 ## 25. RECORD DOUBLING CARRIES A NONZERO PARENT HISTORY CURRENT (NIC.234--NIC.243)
 
-The endpoint efficiency `eta_n` in Section 23 may tend to zero. The same
-trajectory nevertheless carries a fixed normalized amount of net critical
-current across every last doubling interval.
+The inequalities in Section 23 do not exclude a same-solution subsequence with
+`eta_n -> 0`; no such occurrence theorem is proved here. Conditional on that
+branch, the same trajectory nevertheless carries a fixed normalized amount of
+net critical current across every last doubling interval.
 
 Let `t_n` be successive first record times chosen so that
 
@@ -3597,7 +3610,8 @@ parent current at least `1/4`. A nearly one-handed endpoint forces an
 order-one opposite-sector dissipation excess on that same interval. This is a
 strict same-trajectory history reduction. Extraction of a terminal current
 defect still requires bounded variation, terminal tightness, and spatial
-profile retention. No finite reserve and no Gold conclusion follows.
+profile retention. The section neither constructs nor proves a zero-efficiency
+record subsequence. No finite reserve and no Gold conclusion follows.
 
 ## 26. THE POSITIVE RUNNING-RECORD MEASURE AND ITS COMPACTNESS BOUNDARY (NIC.244--NIC.250)
 
@@ -3995,8 +4009,10 @@ and its amplitude-invariant canonical efficiency is
 }
 ```
 
-Thus that family lies entirely in the `eta -> 0` branch. Conversely, the tails
-of the positive majorant `(NIC.225)` show that fixed `eta` forces an
+Thus that separately initialized endpoint family has `eta_M -> 0`. It does not
+realize `eta_n -> 0` at successive first-record times of one Navier--Stokes
+solution and is not an inherited derivative-tower construction. Conversely,
+the tails of the positive majorant `(NIC.225)` show that fixed `eta` forces an
 opposite-helicity interaction with dyadic gap `O(log(1/eta))` and block
 amplitudes bounded below by a positive `c(eta)`; one safe nonoptimized bound is
 `c eta^4/(1+log(1/eta))^2`.

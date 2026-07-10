@@ -3346,7 +3346,8 @@ or history-reserve route.
 
 This correction also exposes an upstream gap in the consolidated theorem. An
 owner-free aligned survivor can be stated using only the actual `S[u]`, actual
-`Hess p[u]`, and instantaneous field-defined record events. No checked result
+`Hess p[u]`, and field-defined running-record events from the same history. No
+checked result
 in this file proves that every one-field history with
 
 ```math
@@ -3430,7 +3431,7 @@ before H3 alignment or theorem-B rigidity is available. The aligned problem
 remains a conditional subclass test; it is not the exhaustive one-fluid
 remainder.
 
-## 54. RECORD UPCROSSING STILL DOES NOT SELECT H2: a lacunary NS initial-state countersequence (2026-07-09)
+## 54. LOCAL INITIAL GROWTH STILL DOES NOT SELECT H2: a lacunary NS initial-state countersequence (2026-07-09)
 
 Let `U` be the divergence-free Schwartz realization from §44 with compact
 annular Fourier support and positive native production
@@ -3478,16 +3479,17 @@ and
 ```
 
 Thus these are legitimate smooth finite-energy NS initial states with
-arbitrarily large critical height and a genuine initial record upcrossing.
+arbitrarily large critical height and strict local growth at the initial time.
 Every dyadic shell contributes the same critical mass, so the largest shell
 fraction is exactly `1/m`. Widely separated centers also prevent a single
 scale-sized spatial ball from collecting the other shells.
 
 The sequence is not claimed to be successive times of one solution. Its
 conclusion is exact and sufficient for the reduction audit: neither the norms
-nor the instantaneous NS record condition produces H2. A new theorem using
-the complete preceding history would be required. None is installed, so the
-route to H3 remains unavailable.
+nor the local inequality `R'(0)>0` produces H2. It says nothing about
+successive records or parent--child transitions in one solution's derivative
+tower. A new theorem using the complete inherited history would be required.
+None is installed, so the route to H3 remains unavailable.
 
 ## 55. GLOBAL SPECTRAL-MEAN IDENTITY: a lawful one-field replacement for H2 (2026-07-09)
 
@@ -3640,7 +3642,7 @@ V=\frac{2}{9}\Delta^2,
 As `varepsilon` tends to zero, `Delta` is asymptotic to
 `(sqrt(3)/2)K varepsilon`. The signed nonlinear production is first order in
 the radial width, while the mean-frequency viscous spread is second order.
-For the critical-height record condition itself,
+For the local critical-height growth inequality,
 
 ```math
 P_H>\nu M_3
@@ -3651,7 +3653,7 @@ A>
 \tag{G56.7}
 ```
 
-so arbitrary amplitude produces a genuine record upcrossing at arbitrarily
+so arbitrary amplitude produces strict local initial growth at arbitrarily
 small relative spectral width.
 
 This torus calculation has a whole-space finite-energy realization. For each
@@ -3745,9 +3747,9 @@ move any radial spectral moment.
 
 **Gate result.** The spectral-mean identity `(G55.2)` is exact and lawful, but
 zero-spread rigidity and the `Q_m` necessary condition do not give a uniform
-Gold exclusion. Bounded energy, arbitrarily large critical height, a genuine
-instantaneous record upcrossing, and arbitrarily small relative spectral spread
-coexist in `(G56.8)--(G56.13)`, while `(G56.14)` shows that the proposed
+Gold exclusion. Bounded energy, arbitrarily large critical height, strict local
+growth `R'(0)>0`, and arbitrarily small relative spectral spread coexist in
+`(G56.8)--(G56.13)`, while `(G56.14)` shows that the proposed
 remaining magnitude does not even approach the exact zero-spread rigidity
 class. As in §54, these fields are not asserted to be
 successive times of one trajectory. Only a complete-history theorem could
@@ -3861,18 +3863,18 @@ not the object. Codex's own framing (a gate, not a blowup) is correct.
 side.** Amplitude A ~ ν/ε gives a fine-scale near-monochromatic burst with
 O(1) critical production and — under NS scaling — arbitrarily small L² cost.
 That is exactly "energy is subcritical relative to critical production": one
-record upcrossing purchased at vanishing energy. §54 computed the SAME fact as
-a general scaling statement (∫νD/|h|⁴ dh log-divergent against Leray); Codex's
-triad is the concrete per-rung WITNESS. Two lanes, opposite directions
+separately initialized local-growth episode at vanishing energy. §54 computed
+the SAME fact as a general scaling statement (∫νD/|h|⁴ dh log-divergent against
+Leray); Codex's triad is a concrete single-scale snapshot witness, not a rung
+inherited from one solution's derivative tower. Two lanes, opposite directions
 (coordinate weight vs spectral construction), one terminal.
 
 **The tower question is the whole gap.** A single triad = one cheap
-upcrossing. Blowup needs infinitely many with Σ(critical production) → ∞ while
-Σ(L² cost) < ∞ (Leray). Per-rung: production O(1), L² cost small — consistent
-with finite energy IFF the logarithm closes. So "can the triad witnesses
-assemble into a finite-energy tower?" = the one-log critical gap = the Clay
-problem. The triad neither closes it (fact 2: not the object) nor is excluded
-by it (each triad is individually lawful and cheap).
+local-growth snapshot. Blowup would require one fixed-viscosity solution whose
+inherited tower realizes infinitely many corresponding transfers while its
+L² cost remains finite. The snapshot scaling does not establish that
+same-solution realization. The triad neither closes the gap nor supplies a
+lawful derivative-tower history.
 
 **Joint terminal (both lanes, cross-confirmed).** Gold's residue is the
 supercriticality itself: energy is one logarithm short of the critical norm,
@@ -4476,7 +4478,7 @@ With
 \tag{G60.8}
 ```
 
-the record balance and HMIN are
+the first-record endpoint balance and HMIN are
 
 ```math
 \boxed{
@@ -4538,6 +4540,11 @@ steady Euler fields
 ancient-Euler Liouville conclusion. A narrower inherited Euler rigidity/UCP
 class and an additional same-trajectory viscous/history defect remain separate
 open possibilities.
+
+The zero-efficiency branch here is conditional. No theorem in this document
+constructs or proves `eta_n -> 0` along successive records of one solution.
+The normalized records come from one field, but no mixed derivative-tower
+recurrence theorem selects that branch.
 
 **Adversarial result.** A bounded critical record normalization cannot retain
 classical viscosity, and the canonical normalized bounds do not force a
@@ -4677,7 +4684,13 @@ Its positive helicity lies at unit scale and its negative helicity lies near
 `M`. Taking `M` beyond the LP overlap width leaves no block containing both
 signs. Narrow compact-Fourier helical packets preserve the strict coefficient
 and the scale separation on `R^3`, after which scaling by the actual
-`2 nu D/P_H` gives the same exact record identity.
+`2 nu D/P_H` gives the same exact local-growth identity.
+
+The parameter `M` changes the datum and the amplitude is reset for every
+member. This family is an endpoint countersequence, not a sequence of inherited
+states or rungs from one Navier--Stokes derivative tower. It therefore does not
+prove that canonical efficiency tends to zero along a dangerous derivative
+tower.
 
 **Adversarial result.** The HMIN null form enforces weighted triadic overlap,
 including high--high-to--low interactions. It does not enforce co-scale
@@ -5220,9 +5233,10 @@ and
 \tag{G65.6}
 ```
 
-It therefore belongs only to the zero-efficiency branch. Fixed efficiency
-instead forces opposite-helicity blocks within `O(log(1/eta))` dyadic distance
-and with a quantitative nonzero block amplitude.
+It is therefore a separately initialized endpoint family with `eta_M -> 0`.
+It does not establish the zero-efficiency branch along successive records of
+one solution. Fixed efficiency instead forces opposite-helicity blocks within
+`O(log(1/eta))` dyadic distance and with a quantitative nonzero block amplitude.
 
 **Adversarial result.** Positive canonical efficiency rules out frequency and
 translation vanishing and produces a full mixed-helicity current-bearing
