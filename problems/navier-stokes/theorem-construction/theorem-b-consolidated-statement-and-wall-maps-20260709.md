@@ -4960,6 +4960,58 @@ is NOT the one-log static gap; it is the first target using the spectral-mean
 identity as a TRANSITION, not a snapshot. Open; honestly typed; no closure
 claimed.
 
+### 64.1 Adversarial correction: the proposed mean-frequency map collapses
+
+At first record doublings, with `m_n=M_1(t_n)/M_0(t_n)`, one has exactly
+
+```math
+\frac{m_n}{m_{n-1}}
+=2\frac{M_0(t_{n-1})}{M_0(t_n)}\ge2,
+\qquad
+\frac{\mathcal W}{m}
+=\frac{M_3}{M_1}-\frac{M_2}{M_0}.
+\tag{G64.1}
+```
+
+Therefore
+
+```math
+\boxed{
+\frac12(\log m)'
+=\frac{P_H}{M_1}-\nu\frac{\mathcal W}{m}
+=\frac12(\log M_1)'-\frac12(\log M_0)'.
+}
+\tag{G64.2}
+```
+
+The apparent transition floor
+
+```math
+\frac1{m_n}\int_{I_n}\frac{P_H}{M_0}\,dt
+=\frac12\left(1-\frac{m_{n-1}}{m_n}\right)
++\frac{\nu}{m_n}\int_{I_n}\mathcal W\,dt
+\ge\frac14
+\tag{G64.3}
+```
+
+is weaker than the parent critical-height identity. Since `m(t)<=m_n` on the
+first-record interval,
+
+```math
+\int_{I_n}\frac{[P_H]_+}{M_1}\,dt
+\ge\frac1{m_n}\int_{I_n}\frac{P_H}{M_0}\,dt,
+\qquad
+\int_{I_n}\frac{P_H}{M_1}\,dt
+=\frac12\log2+\nu\int_{I_n}\frac{M_3}{M_1}\,dt.
+\tag{G64.4}
+```
+
+The mean-frequency identity remains exact, but it supplies no independent
+Liouville map and no datum-bounded sum. Endpoint `eta_n -> 0` gives no control
+of the interval terms. The final target paragraph of Section 64 is therefore
+withdrawn; the zero-efficiency history problem remains open at interval-current
+concentration, not at a separate mean-frequency transition law.
+
 ## 65. FIXED EFFICIENCY FORCES A FULL MIXED-HELICITY ENDPOINT PROFILE (2026-07-09)
 
 Let `X=Hdot^{1/2}(R3) cap Hdot^{3/2}(R3)`. If
