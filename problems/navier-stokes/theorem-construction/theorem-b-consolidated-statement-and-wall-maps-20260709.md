@@ -4991,12 +4991,35 @@ and therefore
 \tag{G65.2}
 ```
 
-Translation-profile extraction in `X`, finite-band cubic decoupling, and then
-`J -> infinity` give
+After taking `P_H(v_n) -> ell >= eta_0`, perform a maximal translation-profile
+extraction in `X`. Its remainder satisfies, for every fixed `J`,
+
+```math
+\lim_{A\to\infty}\limsup_n\|Q_Jr_n^A\|_{L^\infty}=0.
+```
+
+Distinct translations and the remainder therefore decouple in the fixed-band
+cubic `P_J(f):=P_H(Q_Jf)`, giving
+
+```math
+\lim_nP_J(v_n)=\sum_\alpha P_J(V^\alpha).
+```
+
+The uniform truncation estimate gives
+`|ell-lim_n P_J(v_n)| <= C2^{-J/2}`. Moreover,
+
+```math
+|P_J(V^\alpha)|
+\lesssim R(V^\alpha)^{1/2}D(V^\alpha),
+\qquad
+\sum_\alpha R(V^\alpha)^{1/2}D(V^\alpha)\le1.
+```
+
+Dominated convergence as `J -> infinity` now gives
 
 ```math
 \boxed{
-\lim_nP_H(v_n)=\sum_\alpha P_H(V^\alpha),
+\ell=\lim_nP_H(v_n)=\sum_\alpha P_H(V^\alpha),
 \qquad
 \sum_\alpha R(V^\alpha)\le1,
 \qquad
