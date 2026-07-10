@@ -3761,7 +3761,27 @@ The series is absolutely convergent because
 
 and `(NIC.256)` is summable. The positive-profile currents have total at least
 `eta_0`; the cubic bound and norm orthogonality also give the quantitative
-pigeonhole estimate
+pigeonhole estimate. Indeed, put
+
+```math
+p_\alpha=[P_H(V^\alpha)]_+,
+\qquad
+a_\alpha^2=R(V^\alpha)+D(V^\alpha),
+\qquad
+m=\sup_\alpha p_\alpha.
+```
+
+Then `p_alpha <= C a_alpha^3`, `sum_alpha a_alpha^2 <= 2`, and
+
+```math
+2
+\ge \sum_{p_\alpha>0}a_\alpha^2
+\ge C^{-2/3}\sum_{p_\alpha>0}p_\alpha^{2/3}
+\ge C^{-2/3}m^{-1/3}\sum_{p_\alpha>0}p_\alpha
+\ge C^{-2/3}m^{-1/3}\eta_0.
+```
+
+Therefore
 
 ```math
 \boxed{
