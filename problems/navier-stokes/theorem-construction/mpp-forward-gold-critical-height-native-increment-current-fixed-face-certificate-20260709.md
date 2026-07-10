@@ -3711,7 +3711,14 @@ term from the positive majorant `(NIC.225)`.
 
 ### 27.2 Full-current translation profile
 
-Apply translation-profile extraction to `v_n` in `X`. After a subsequence,
+First take a subsequence on which
+
+```math
+P_H(v_n)\longrightarrow\ell\ge\eta_0.
+```
+
+Apply a maximal translation-profile extraction to `v_n` in `X`. After a
+further subsequence,
 
 ```math
 v_n
@@ -3732,8 +3739,8 @@ with the two Hilbert norms decoupling:
 \tag{NIC.256}
 ```
 
-For each fixed `J`, distinct translations decouple in the finite-band cubic.
-The exhaustive remainder satisfies
+The extraction can be diagonalized so that, for every fixed integer `J`, the
+remainder is exhaustive at that band:
 
 ```math
 \lim_{A\to\infty}\limsup_{n\to\infty}
@@ -3741,12 +3748,38 @@ The exhaustive remainder satisfies
 ```
 
 otherwise a further translated weak `X`-profile can be extracted. Hence its
-finite-band cubic vanishes. Taking first `n -> infinity`, then
-`A -> infinity`, and finally `J -> infinity` in `(NIC.253)` gives
+finite-band cubic vanishes. Distinct translations also decouple in the
+finite-band cubic. Thus, with `P_J(f):=P_H(Q_Jf)`, taking first
+`n -> infinity` and then `A -> infinity` gives the exact fixed-band identity
+
+```math
+\lim_{n\to\infty}P_J(v_n)
+=\sum_\alpha P_J(V^\alpha).
+```
+
+The final `J -> infinity` passage does not sum the individual truncation
+errors. Instead, `(NIC.253)` gives
+
+```math
+\left|\ell-\lim_{n\to\infty}P_J(v_n)\right|
+\lesssim2^{-J/2},
+```
+
+while, uniformly in `J`,
+
+```math
+|P_J(V^\alpha)|
+\lesssim R(V^\alpha)^{1/2}D(V^\alpha),
+\qquad
+\sum_\alpha R(V^\alpha)^{1/2}D(V^\alpha)
+\le1.
+```
+
+Dominated convergence in the profile series therefore gives
 
 ```math
 \boxed{
-\lim_{n\to\infty}P_H(v_n)
+\ell=\lim_{n\to\infty}P_H(v_n)
 =\sum_\alpha P_H(V^\alpha).
 }
 \tag{NIC.257}
