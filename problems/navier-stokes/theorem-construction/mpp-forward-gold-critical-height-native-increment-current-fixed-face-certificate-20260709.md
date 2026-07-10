@@ -4154,7 +4154,8 @@ F=\frac{R}{L}(L'-\Omega)\quad(L>0),
 ```
 
 Thus `Omega` is the angular alignment rate toward the terminal covector. For
-the running-record measure of Section 26,
+the running-record measure of Section 26, shrink `delta` if necessary so that
+`L>0` throughout the terminal interval; then
 
 ```math
 \boxed{
