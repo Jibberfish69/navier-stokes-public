@@ -3968,3 +3968,247 @@ an ancient weak Euler history terminating at that profile. The remaining
 efficient-branch theorem is dynamic record inheritance or an equivalent
 ensemble/history rigidity statement. This is a strict theorem, not Gold
 closure.
+
+## 28. FIXED EFFICIENCY FORCES A TERMINAL COVECTOR RESPONSE (NIC.260--NIC.269)
+
+The normalized velocity `v_n` remains the only evolving object. The covector
+below is a terminal readout of that same field: the Leray nonlinearity contains
+the full transport and slaved pressure response, and viscosity remains in the
+normalized equation. Assume along a subsequence that
+
+```math
+P_H(v_n(0))\ge\eta_0>0.
+```
+
+### 28.1 Uniform response on the original normalized histories
+
+Let `N=2^K`, let `P_K=P_{<=K}` be a standard self-adjoint smooth low-pass, and
+write
+
+```math
+u_n=v_n(0),
+\qquad
+\phi_{n,K}=\Lambda P_Ku_n,
+\qquad
+L_{n,K}(\tau)=\langle v_n(\tau),\phi_{n,K}\rangle.
+\tag{NIC.260}
+```
+
+Since `R(u_n)=D(u_n)=1`, interpolation gives
+`||u_n||_{Hdot^1}<=1`, while the high-frequency tail obeys
+
+```math
+\|(I-P_K)u_n\|_{\dot H^1}\lesssim N^{-1/2}.
+```
+
+The polarized cubic estimate from Section 27 therefore gives
+
+```math
+\boxed{
+I_{n,K}(0)
+:=-\langle B(u_n,u_n),\phi_{n,K}\rangle
+\ge P_H(u_n)-CN^{-1/2},
+\qquad
+R(P_Ku_n)\ge1-CN^{-2}.
+}
+\tag{NIC.261}
+```
+
+On a fixed backward interval, `(NIC.211)` and `(NIC.214)` imply, for
+`w_n(\tau)=v_n(\tau)-u_n`,
+
+```math
+\|w_n(\tau)\|_{\dot H^{-3/2}}\lesssim|\tau|,
+\qquad
+\|w_n(\tau)\|_{\dot H^{1/2}}\le2,
+\qquad
+\|w_n(\tau)\|_{\dot H^{-1/2}}
+\lesssim|\tau|^{1/2}.
+\tag{NIC.262}
+```
+
+Expanding
+`B(v_n,v_n)-B(u_n,u_n)=B(w_n,v_n)+B(u_n,w_n)`, integrating the
+derivative onto the fixed divergence-free covector, and using fractional
+Leibniz plus low-pass Bernstein gives
+
+```math
+\|\nabla\phi_{n,K}\|_{L^\infty}
++\|\Lambda^{1/2}\nabla\phi_{n,K}\|_{L^6}
+\lesssim N^2,
+```
+
+and hence
+
+```math
+\boxed{
+|I_{n,K}(\tau)-I_{n,K}(0)|
+\lesssim N^2|\tau|^{1/2}.
+}
+\tag{NIC.263}
+```
+
+No interior `D(v_n(tau))` bound enters this estimate. The normalized viscous
+term satisfies
+
+```math
+\boxed{
+\nu_n|\langle\Delta v_n(\tau),\phi_{n,K}\rangle|
+\lesssim\nu_nN.
+}
+\tag{NIC.264}
+```
+
+Choose `N`, `delta`, and then `n_0` so that
+
+```math
+CN^{-1/2}\le\frac{\eta_0}{4},
+\qquad
+CN^2\sqrt\delta\le\frac{\eta_0}{8},
+\qquad
+C\nu_nN\le\frac{\eta_0}{8}
+\quad(n\ge n_0).
+```
+
+One safe dependence is `N~eta_0^{-2}`, `delta~eta_0^{10}`, and
+`nu_n<=c eta_0^3`. The normalized backward interval eventually contains
+`[-delta,0]`, and the exact NS equation yields
+
+```math
+\boxed{
+L_{n,K}'(\tau)
+=I_{n,K}(\tau)
++\nu_n\langle\Delta v_n(\tau),\phi_{n,K}\rangle
+\ge\frac{\eta_0}{2}
+\quad(-\delta\le\tau\le0).
+}
+\tag{NIC.265}
+```
+
+Thus fixed efficiency produces a genuine, uniformly long terminal directional
+response of the original normalized field.
+
+### 28.2 Lawful passage to the selected Euler profile
+
+The global covectors `phi_{n,K}` can retain remote endpoint profiles, so
+`(NIC.265)` is not assigned directly to the selected profile. Instead use the
+full profile `V` from Section 27, with
+`P_H(V)>=c eta_0^3`, and define
+
+```math
+\phi_K^V=\Lambda P_KV.
+```
+
+Repeating `(NIC.261)--(NIC.264)` directly for the ancient Euler history `U`
+with `U(0)=V` gives numbers `K(eta_0)` and `delta_V(eta_0)>0` such that
+
+```math
+\boxed{
+\frac{d}{d\tau}\langle U(\tau),\phi_K^V\rangle
+\ge cP_H(V)
+\ge c'\eta_0^3
+\quad\text{for a.e. }-\delta_V\le\tau\le0.
+}
+\tag{NIC.266}
+```
+
+This is a retained dynamic response of the selected same-field profile even
+though the full cubic `P_H(U(tau))` need not be defined for negative times.
+
+### 28.3 Exact angular and record-contact boundary
+
+Use the Hilbert space `H=Hdot^{1/2}`. For one normalized history suppress the
+indices and set
+
+```math
+y=P_Ku_n,
+\quad
+R=\|v\|_H^2,
+\quad
+L=(v,y)_H,
+\quad
+F=\frac12R'=P_H-\nu_nD,
+\quad
+a=\frac{L}{R},
+\quad
+y_\perp=y-av,
+\quad
+\Omega=(\partial_\tau v,y_\perp)_H.
+\tag{NIC.267}
+```
+
+These are simultaneous coordinates of the same velocity field. Direct
+differentiation gives the exact identities
+
+```math
+\boxed{
+L'=aF+\Omega,
+\qquad
+F=\frac{R}{L}(L'-\Omega)\quad(L>0),
+\qquad
+\Omega=\|y\|_H\sqrt R\,\chi',
+\quad
+\chi=\frac{L}{\|y\|_H\sqrt R}.
+}
+\tag{NIC.268}
+```
+
+Thus `Omega` is the angular alignment rate toward the terminal covector. For
+the running-record measure of Section 26,
+
+```math
+\boxed{
+dG_n
+=\mathbf1_{\{R=q_n\}}
+\frac{R}{L}[L'-\Omega]_+\,d\tau.
+}
+\tag{NIC.269}
+```
+
+The response `(NIC.265)` alone does not lower-bound `(NIC.269)`. Two exact
+clauses would suffice on a fixed terminal interval:
+
+```math
+\Omega_{n,K}\le(1-\kappa)L_{n,K}'
+\quad\text{on }\{R=q_n\},
+\qquad
+\int_{-\delta}^0
+\mathbf1_{\{R=q_n\}}L_{n,K}'\,d\tau
+\ge\gamma(\eta_0)>0.
+```
+
+Indeed, on the last doubling contact set `R>=1/2` and `L<=sqrt R`, so these
+clauses imply
+
+```math
+G_n([-\delta,0])
+\ge\frac{\kappa}{\sqrt2}\gamma(\eta_0)>0.
+```
+
+Both clauses are independent residuals. The first controls tangential
+critical-current rotation; the second prevents all record contact from
+escaping into an arbitrarily short terminal layer.
+
+Their independence already appears in finite-dimensional Hilbert geometry.
+With `H=R^2`, `y=alpha e_1`,
+
+```math
+x_1(\tau)=\alpha+\frac{\sigma}{\alpha}\tau,
+\qquad
+\|x(\tau)\|^2=1+\gamma\tau,
+```
+
+and `x_2` chosen from the norm constraint, one has `L'=sigma` while every
+time is a record and `G([-delta,0])=gamma delta/2 -> 0` as `gamma -> 0`;
+the angular term absorbs the response. A pure-radial curve with an earlier
+record arbitrarily close to one has `Omega=0` and positive `L'`, while record
+contact occupies only an arbitrarily short terminal layer. These are exact
+functional-geometry countermodels to the inference from the inherited bounds;
+they are not Navier--Stokes solutions.
+
+**Result of this section.** Fixed positive efficiency forces a uniform
+terminal covector response on the original NS histories and a corresponding
+response on the selected ancient Euler profile. Conversion to positive
+running-record gain is reduced to the two displayed angular and record-contact
+clauses. Neither is proved, so this is a strict theorem and obstruction, not
+Gold closure.
