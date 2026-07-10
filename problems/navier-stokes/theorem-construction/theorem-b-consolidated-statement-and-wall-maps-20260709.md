@@ -5028,7 +5028,8 @@ Dominated convergence as `J -> infinity` now gives
 \tag{G65.3}
 ```
 
-The current series is absolutely convergent by HMIN. If
+The current series is absolutely convergent by HMIN, and
+`sum_alpha [P_H(V^alpha)]_+ >= ell >= eta_0`. If
 `p_alpha=[P_H(V^alpha)]_+`, `a_alpha^2=R(V^alpha)+D(V^alpha)`, and
 `m=sup_alpha p_alpha`, then `p_alpha <= C a_alpha^3`,
 `sum_alpha a_alpha^2 <= 2`, and
