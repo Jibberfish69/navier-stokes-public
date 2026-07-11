@@ -3,14 +3,14 @@ theorem_id: forward-gold-c0-two-door-proof-audit-endpoint-gap-20260707
 created: 2026-07-07
 problem: navier-stokes
 route: forward-gold / c_0 / adversarial audit of the two-door retained-tower proof
-status: audit; NOT a refutation of the scaffold — it is sound except one step; that step is the
-  open endpoint-kernel / non-telescoping charge, and it is a magnitude charge on a free mode, so it
-  needs the T-odd transverse-torque sign, not a bill.
-  SEE SECTION 5 (2026-07-08 gate correction) — the §2 concrete escape chain (TD.2) is the frozen
-  on-frame affine ghost, filtered by rules 9-10 (routes out Door A), so the endpoint "gap" as posed
-  is partly a phantom; the sharpened terminal is (TD.7): on every reachable w!=0 chain the present
-  transverse rotation carries a scale-uniform braking sign — physics-settled (c_0>0 is what the
-  fluid does), open only as the paper write-up of that sign.
+status: >-
+  Audit and strict reduction. The bad-packet and finite-atom doors are sound,
+  while the long-chain endpoint remains the open signed retained-history
+  theorem TD.5. Section 5 supersedes the earlier gate claim: TD.2 is a locally
+  admissible Navier--Stokes affine state, and restricted Euler supplies an
+  altered-law comparison evolution from that state. Neither the affine state
+  nor the comparison proves a universal transverse brake, a Part/Field failure,
+  or c_0>0.
 source_refs:
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-vieillefosse-participation-lawfulness-inquiry-20260707.md
   - problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-recent-deformation-lag-repeller-index-20260707.md
@@ -161,50 +161,49 @@ Verdict: not a proof; the cleanest reduction to the one signed theorem. Honest
 prior unchanged — the stall is at the log endpoint, now named to the sign of
 (TD.5) at the collar.
 
-## 5. Gate correction (2026-07-08): the TD.2 escape chain is the frozen on-frame ghost
+## 5. Gate correction: TD.2 state admissibility versus comparison evolution
 
-Physical sentence first. The TD.2 profile is not a candidate fluid event; it is the
-restricted-Euler ghost wearing a finite-segment costume, and admitting it as "a
-lawful finite-segment participant with positive service" is the rule-8/rule-10 slip
-this whole program is built to catch.
+Physical sentence first. The affine TD.2 state is locally realizable inside
+smooth finite-energy divergence-free Navier--Stokes data. Restricted Euler
+supplies a comparison evolution from that geometry by imposing an altered
+pressure closure. The state is therefore admissible; the comparison trajectory
+is not automatically the same Navier--Stokes history.
 
 By this note's own identity (TD.1), `w=0` on the whole segment is *equivalent* to
 `u=Ax` with a single constant `A` there — the pure affine strain. The local jet fixes
 only the trace of the pressure Hessian; its trace-free harmonic completion belongs
-to the surrounding field and cannot be inferred from `w=0`. Rule 10 still filters
-the displayed object: alignment, strain, and vorticity are transported quantities
-set by material history, and no evolving finite-energy viscous field has been shown
-to carry this exactly affine full log-segment as a retained participant. It is a
-frozen local snapshot, not an admitted same-solution history.
+to the surrounding field and cannot be inferred from `w=0`. The finite-energy
+localized affine state is an admitted same-solution initial state. What remains
+unproved is its persistence as an exactly affine full log-segment in one evolving
+Navier--Stokes history.
 
-So the TD.2 object is rejected before same-solution admission. It is a
-model-shadow with no Part/Field or Silver exit weight, and it never enters the
-retained door where the endpoint question is posed. Consequently the
-"un-chargeable endpoint `|a_+|^2`" of §2 belongs only to that shadow; it is not
-retained service.
-The endpoint-charge gap as posed in §2 is, to that extent, a phantom: it was
-manufactured by admitting an inadmissible `w=0` object and then asking who pays for
-it.
+So the TD.2 object has two typed roles. The localized affine state is an
+admitted Navier--Stokes state. Its restricted-Euler continuation is a comparison
+surface showing what the local quadratic strain law does after the nonlocal
+trace-free pressure, spatial-coupling, and viscous rows are removed. That
+comparison has mechanism-discrimination weight and no direct Part/Field or
+Silver exit weight. The endpoint question for Navier--Stokes is whether the
+same solution can retain the affine geometry through material time once the
+whole-field pressure, collar, and viscosity are restored.
 
-What the real object does. A genuine retained forward-arrow chain is not exactly
-affine on any segment: its best-affine jet `A(\rho)` varies with scale — that
-variation is what makes it a nontrivial chain rather than a single jet — so `w\neq0`
-is forced, and the broken exact scale-invariance *is* the forward arrow (the exact
-scale-invariant profile is a reversible fixed point, T-even, no arrow — also
-filtered, by rule 13). On that real chain the anisotropy that does the stretch is the
-same anisotropy that sources the slaved, non-local pressure Hessian (rule 11), and in
-the transported field that Hessian eigenframe rotates off the strain frame (rule 10).
-The transverse brake is therefore **present at every rung** of any admissible chain.
+What the comparison leaves open. A nontrivial retained forward-arrow chain may
+depart from one affine jet across scale and material time. The same anisotropy
+then changes the whole-field pressure source, but neither finite-energy
+localization nor participation alone proves that the pressure Hessian rotates
+off the strain frame with a favorable sign at every rung. Restricted Euler
+shows the runaway comparison when the trace-free nonlocal pressure row is
+removed; exact shear-cell banks show that the full local pressure Hessian can be
+aligned or transverse. The missing statement is the signed retained-history
+theorem (TD.5), not an already-present universal brake.
 
 The honest terminal, both sides held:
 
-- **As physics (admission gate):** there is no admissible fluid on the
-  "retained positive service, brake absent" side. The exactly-affine chain is the
-  frozen on-frame ghost (rules 9-10); the exact scale-invariant cone is a reversible
-  fixed point (rule 13); both are filtered before the endpoint question arises. The
-  present brake is what the object shows at every instant of every reachable chain.
-  By rule 8 the remaining work is a **task**, not a threat: `c_0>0` is what the fluid
-  does.
+- **As physics (admission gate):** the localized affine state is admissible, and
+  restricted Euler gives a comparison evolution from it. The full
+  Navier--Stokes history restores viscosity, the globally slaved pressure, the
+  collar, and material-time evolution. Whether that complete participation law
+  permits a retained positive-service chain with no signed transverse response
+  is open.
 - **As a proof on paper:** the scale-uniform lower bound `\eta>0` on that present
   transverse rotation is exactly the signed profile theorem (TD.5), and by rule 13 no
   magnitude bill can supply it. VPL.234g and the two-door Hodge charge are valid

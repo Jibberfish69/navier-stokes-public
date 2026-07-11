@@ -3226,6 +3226,13 @@ or a non-coercive rigidity excluding those fronts.
 
 ## 50. PARALLEL VERDICTS CONVERGE: my front-ratio computation matches Codex's gate; the branches merge; the heat-equation constraint is the new tool (2026-07-09)
 
+**Terminal status correction (2026-07-11).** This section is historical
+route pressure only. Section 51 withdraws the hard-memory reading, and Section
+52 withdraws the lineage, supplier-transaction, owner, and one-branch history-
+charge interpretation. The exact correlation heat identity survives. It is a
+separation-coordinate constraint with signed forcing, not a new participant,
+finite memory, or governing Gold reduction.
+
 **My computation (run independently, same NO).** Single-atom H2 front:
 E(h~r) ~ v²r³, D(h~r) ~ v²r ⟹ κ = νD/E ~ ν/r² — the atom-volume factors
 CANCEL in D/E. The hazard is intensive, sparsity extensive: my §48 sparsity
@@ -3261,66 +3268,38 @@ unexploited. Gold = one branch: the history charge / front-exclusion
 rigidity, now equipped with an exact parabolic constraint. Open. No closure
 claimed.
 
-## 51. THE BACKWARD-MEMORY READING: memory-horizon and maintenance are exact; the history charge is NOT extracted (2026-07-09)
+## 51. CORRECTED HEAT-MEMORY READING: exponential damping, no hard horizon, no extracted charge (2026-07-11)
 
-Working the parabolic constraint (∂_t − 2νΔ_h)C = ½∇_h·F for the history
-charge. Two exact structural facts; one honest negative.
+For the exact correlation-space identity
 
-**Memory-horizon lemma (exact, Duhamel).** C = ∫e^{2ν(t−s)Δ_h}(½∇_h·F)(s)ds:
-content at scale r reflects only flux history within lag ≲ r²/ν; older
-contributions have diffused to coarser scales. The front CANNOT pre-bank
-fine-scale decorrelation and spend it later — each rung's record content
-must be flux-delivered inside its own viscous window. (Honest: the window is
-~Re_local turnovers, generous on the growing tower — the horizon exists but
-does not by itself choke the front.)
+```math
+(\partial_t-2\nu\Delta_h)C=\frac12\nabla_h\cdot F,
+```
 
-**Maintenance reading (exact, maximum principle).** C peaks at h = 0 with
-C(0,t) = ‖u‖₂² (Leray-monotone); the record's decorrelation dip at scale r
-is a heat-equation dip diffusion actively fills at rate 2ν/r². Record content
-is not a possession but a MAINTAINED state; the maintenance power is exactly
-the critical dissipation. "νD = dip-maintenance" is the cleanest physical
-reading of the dissipation the record has produced.
+the complete Fourier Duhamel formula is
 
-**Honest negative (rule 14).** Duhamel alone does NOT extract the history
-charge: the quantitative content of the parabolic form is the same marginal
-energy balance rearranged (the heat equation IS the energy balance in
-h-space — the relocation lesson predicts this). What the parabolic structure
-adds is QUALITATIVE and real — no pre-banking, active maintenance, kernel
-positivity — not a new coercive quantity. The charge, if it exists, must
-couple the memory horizon to the feeding genealogy: per-rung delivery within
-the r²/ν window AND supplier chain inside the transport cone. That coupling
-is the sharpened joint target; it is not achieved here.
+```math
+\widehat C(\eta,t)
+=e^{-2\nu|\eta|^2(t-s)}\widehat C(\eta,s)
++\frac i2\int_s^t e^{-2\nu|\eta|^2(t-r)}
+\eta\cdot\widehat F(\eta,r)\,dr.
+```
 
-**Marginal-value flag (standing rule, owed to owner).** Over §§46–51 my
-constructive levers (recycling reduction §46, sparsity §48) have each died to
-Codex's exact counterexamples, while the genuine movers have been Codex's
-exact identities (separation law §41, two-point heat equation §49). This turn
-is structure-clarification, not a lever. The honest division now: the exact
-parabolic instrument is real and unexhausted, but the productive edge is on
-the identity-producing lane; my role is best spent gating and feeding it, not
-generating more levers that the pattern (§45: no rung-local currency) predicts
-will die. Gold: open, one branch, exact parabolic tool in hand, history charge
-not yet extracted.
+At `|eta| ~ r^{-1}`, the lag `r^2/nu` is a characteristic exponential
+damping scale. The heat kernel has an infinite temporal tail, the initial
+term remains present, and the flux-divergence source is signed. The earlier
+claims that scale-`r` content reflects only the preceding `r^2/nu` window,
+that older contributions necessarily live at coarser scales, and that fine
+structure cannot be pre-existing are withdrawn as exact theorems.
 
-## 51. THE BACKWARD-MEMORY RUN: memory horizon and maintenance reading (exact); Duhamel alone yields no charge (honest negative) (2026-07-09)
-
-**Memory-horizon lemma (exact).** By Duhamel on (∂_t − 2νΔ_h)C = ½∇_h·F, a
-flux contribution at lag τ is heat-smoothed to scale √(2ντ): content at
-scale r reflects ONLY the flux history within lag ≲ r²/ν; older
-contributions live at coarser scales. NO PRE-BANKING: each rung's content
-must be flux-delivered within its own viscous window. (Honest scale count:
-the window is Re_local turnovers — generous on the growing tower; this alone
-does not choke the front.)
-
-**Maintenance reading (exact, maximum principle).** C is maximal at h = 0
-with C(0,t) = ‖u‖₂² Leray-monotone; the record's decorrelation dip at scale
-r is filled by diffusion at rate 2ν/r² and must be actively re-dug: record
-content is a MAINTAINED state, and the maintenance power is exactly the
-critical dissipation. Dissipation = dip-maintenance.
-
-**Honest negative.** Duhamel alone does not produce the history charge: the
-parabolic form's quantitative content is the marginal balance rearranged
-(the heat equation IS the energy balance — the relocation lesson applies to
+The homogeneous heat part smooths a correlation dip. The forced correlation
+law can deepen or fill it, so the maximum principle for the homogeneous
+operator does not produce a monotone maintenance charge for the forced
+quantity. The exact surviving fact is the parabolic constraint itself. It
+supplies neither a hard memory horizon nor a finite original-history bound on
+the signed flux. Brownian or characteristic representations of this equation
+remain separation-coordinate readouts and create no material lineage,
+ancestry, owner, or no-recount law. Gold remains open.
 
 ## 52. ONTOLOGY RESET: the one NS trajectory is the object; separation-space descendants are withdrawn (2026-07-09)
 
@@ -5515,17 +5494,21 @@ Silver, the repaired `Hdot1/2` and Fourier/dyadic Part/Field exit. The
 standalone Euler-profile horn is quarantined by the critical-height-growth
 correction: route-b remains a material-time case split on the same irreversible
 Navier--Stokes history, and its endpoint-Liouville label was already deleted by
-reduction to W8. The current retained-Gold walls are W3, W7, W8, and W9. The
-horn language is support taxonomy only.
+the historical W8 mapping. The W3/W7/W8/W9 labels are supplier/readout
+genealogy, and the horn language is support taxonomy only. Under the July 10
+target supersession, the live Gold target is SHR.7 or a proved genuinely
+smaller one-field theorem implying it; this audit installs no
+mechanism-specific retained wall.
 
 ## 69. EVERY RECORD DOUBLING FORCES POSITIVE-GAIN FREQUENCY RUNAWAY -- SUPPORT INSIDE INSTALLED CASES (2026-07-10)
 
 **Authority correction.** The estimate below is valid and the original
-frontier claim was not. The shell construction duplicates the installed
-self-financing dyadic calibration `(RSF.2)--(RSF.4)`. In retained Gold, its
-signed content belongs to the established payment/admission cases; in Silver,
-critical `Hdot1/2` and Fourier/dyadic escape already land in Pack/Part/Field and
-then `Exit(Q):=not Member(Q)`. This section creates no new repeated-triad wall.
+frontier claim was not. The shell construction duplicates the historical
+self-financing dyadic calibration `(RSF.2)--(RSF.4)`. In Gold it is a
+same-field support estimate only. In Silver, Fourier/dyadic evidence has class
+weight only after same-solution admission and a derived Part or Field failure,
+with Pack confined to Field-window evidence. This section creates no new
+repeated-triad wall.
 
 Assume the first-record tower from Section 62. In original variables write
 
@@ -5684,25 +5667,26 @@ identities on their balanced horn.
 
 This is a countermodel to the balance/flux argument, not to Navier--Stokes.
 It is also not a new repo case. It is an explicit two-shell version of the
-already installed self-financing relay: unsigned viscous accounting cannot
-create the strict margin, and the surviving Gold content is the signed
-same-packet payment/alignment row. The Silver frequency branch is already
-consumed as a Part/Field exit. Generic multi-time phase/triad recurrence is
+historical self-financing relay countermodel: unsigned viscous accounting
+cannot create a strict margin. It does not select a surviving Gold mechanism.
+The Silver frequency evidence remains conditional on the admitted
+same-solution Part/Field test. Generic multi-time phase/triad recurrence is
 withdrawn as an independent frontier label.
 
 **Corrected status.** `(G69.5)` is a proved same-trajectory support estimate.
 `(G69.8)--(G69.12)` recalibrate an existing method countermodel. The direct
-Gold peak theorem remains open at the installed W3/W7/W8/W9 walls; the
-Clay-facing Silver frequency case is already classified and consumed.
+Gold peak theorem SHR.7 remains open without an installed smaller governing
+wall. The Clay-facing Silver frequency case carries no exit conclusion until
+the admitted same-solution Part/Field implication is derived.
 
 ## 70. PERIODIC EULER COUNTERTEST -- LIVE-HORN FRAMING WITHDRAWN (2026-07-10)
 
 **Authority correction.** This section originally promoted a fresh ancient
 Euler / record-ancestry closure burden. That promotion is withdrawn. The repo
-already quarantines standalone profile exclusion from the growing
-critical-height material record, keeps Euler comparison separate from the
-fixed-viscosity Navier--Stokes object, and reduces route-b endpoint Liouville to
-the installed W8 producer with W9 carrying the compact path input.
+quarantines standalone profile exclusion from the growing critical-height
+Navier--Stokes record and keeps Euler comparison separate from the
+fixed-viscosity participant. Historical W8/W9 mappings remain support
+genealogy; they do not install the governing Gold theorem.
 
 The following periodic example was used in the withdrawn horn framing and is
 retained only as a countertest against generic Euler-invariant reasoning. On
@@ -5745,18 +5729,13 @@ rigidity.
 
 The example is periodic and proves only that generic Euler invariants do not
 force terminal-current rigidity. It does not define a Navier--Stokes proof
-branch. The installed route-b cases are: certificate failure routes out;
-otherwise payer non-admission is Gate2, while the admitted compact zero-loss
-branch excludes detector-visible relay, persistent localized affine service,
-and temporal-thin service. Its high-frequency survivor reduces to the
-record-admitted storage matrix and WLF.60/ODP.91. Cycle 10 confirms that
-`RelayEndpointMaterialTimeLiouville.A` is deleted by this W8 reduction.
+branch. The historical route-b case split, storage matrix, WLF.60/ODP.91, and
+deleted `RelayEndpointMaterialTimeLiouville.A` remain genealogy and support;
+none is promoted here into a one-field theorem implying SHR.7.
 
 **Final corrected classification.** The direct Gold peak theorem remains
 unproved. The new work here adds one quantitative support estimate and no new
-frontier. The installed retained-Gold residue is W3
-`CriticalServicePersistenceFromPayment.A`, W7
-`RecordAdmissionClosedness.A`, W8 `WLF.60 / ODP.91`, and W9
-`MaterialTimeCertificateFlowInvariance.A`. The whole-space critical-norm,
-profile, and dyadic terminal cases are already consumed in the separate Silver
-Part/Field CM route.
+frontier. SHR.7, or a proved genuinely smaller one-field theorem implying it,
+is the live Gold burden. W3/W7/W8/W9 retain historical support status only.
+Whole-space critical-norm, profile, and dyadic terminal evidence enters Silver
+only through same-solution admission and a concrete Part or Field failure.

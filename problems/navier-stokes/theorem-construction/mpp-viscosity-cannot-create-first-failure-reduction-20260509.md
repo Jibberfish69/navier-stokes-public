@@ -89,20 +89,51 @@ The tempting one-line argument is:
 ```
 
 That sentence captures the intended idea, but it is not yet a proof. The exact
-missing estimate is a first-failure exclusion principle:
+reason is participation-wide: viscosity first changes the velocity, and that
+change rebuilds transport, the material map, the nonlocal pressure and pressure
+Hessian, strain, vorticity, circulation, and cross-scale transfer. The
+dissipative sign in the kinetic-energy row supplies no monotone ordering of the
+two complete histories.
+
+On their common smooth interval, with
+
+```math
+w=u^\nu-u^E,\qquad \pi=p^\nu-p^E,
+```
+
+the exact comparison begins with
+
+```math
+(\partial_t+u^\nu\cdot\nabla-\nu\Delta)w
++w\cdot\nabla u^E+\nabla\pi
+=\nu\Delta u^E,
+```
+
+and
+
+```math
+-\Delta\pi
+=\partial_i\partial_j
+\left(u_i^Ew_j+w_i u_j^E+w_iw_j\right).
+```
+
+Thus the exact missing estimate is a first-failure exclusion principle for
+this entire coupled difference history:
 
 ```math
 EulerSmooth(u_0,[0,T])
 +u^\nu\text{ smooth on }[0,\tau)
 \Longrightarrow
-\text{the parabolic term }\nu\Delta u^\nu
-\text{ cannot generate a singularity at }\tau.
+\sup_{0\le t<\tau}\|u^\nu(t)-u^E(t)\|_{H^s}<\infty.
 ```
 
-To discharge it, one must show that every non-viscous contribution at the first
-failure is controlled by the smooth Euler scenario plus the prior smooth
-Navier--Stokes evolution, while the viscous contribution has a sign / smoothing
-effect strong enough to rule out creation of the first failure.
+To discharge it, one must control the complete fixed-\(\nu\) difference through
+the alleged first failure. Small-\(\nu\) inviscid-limit estimates and
+large-\(\nu\) critical small-data estimates cover the two outer regimes. The
+arbitrary fixed-\(\nu\) theorem retains a compact intermediate-viscosity band in
+which the difference field has its own three-dimensional nonlinear
+participation. The first-failure formulation does not reduce that remaining
+mathematics by itself.
 
 ## Clean proof target
 
