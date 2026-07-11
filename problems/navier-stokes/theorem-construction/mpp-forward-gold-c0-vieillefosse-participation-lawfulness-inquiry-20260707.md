@@ -1808,9 +1808,11 @@ The pressure-channel term is also lower semicontinuous, and (VPL.135) gives
 \tag{VPL.143}
 ```
 
-This is consistent with the affine Vieillefosse core: affine pressure is
-isotropic. The contradiction has to come from strict participation, not from
-the affine pressure equation.
+This says that the spatially constant affine source has no selected
+\(\Pi_4\) component. It does not make the affine pressure Hessian isotropic:
+the constant source fixes only its trace and leaves a trace-free harmonic
+quadratic completion. The contradiction has to come from strict participation,
+not from the local affine source equation.
 
 ### 17.3 Boundary equality case
 
@@ -3250,13 +3252,14 @@ in `mpp-forward-gold-c0-axisymmetric-plateau-turnoff-sublemma-20260707.md`.
 
 ## 26. Constructive target: causal-lag commutator sign
 
-The isotropic pressure response in the affine calculation is an artifact of
-the infinite spatially uniform affine jet. For the affine jet,
-\(\partial_i u_j\partial_j u_i\) is constant, so the pressure particular
-solution is quadratic and \(\nabla^2q\) is isotropic. That isotropy records
-spatial uniformity, not physical mildness. A finite-energy flow with a collar,
-turn-off, neighbor eddy, or parent packet gives the pressure source spatial
-structure, and the participation Hessian is anisotropic.
+For the spatially uniform affine jet,
+\(\partial_i u_j\partial_j u_i\) is constant, so one pressure particular
+solution is an isotropic quadratic. The full local pressure is that particular
+solution plus a harmonic quadratic; the affine jet has no declared global
+surface that selects the latter. A finite-energy flow with a collar, turn-off,
+neighbor eddy, or parent packet fixes that harmonic part through the whole
+pressure solve. Its participation Hessian may then be isotropic, co-diagonal
+anisotropic, or transverse.
 
 The live split is therefore not isotropic versus anisotropic. It is aligned
 anisotropy versus transverse anisotropy:

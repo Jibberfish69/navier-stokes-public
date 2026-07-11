@@ -134,19 +134,29 @@ completion_truth: >-
 
 ## 1. The corrected physical split
 
-The isotropic affine pressure response is not the physical endpoint. It is the
-infinite affine-jet artifact. For a spatially constant Vieillefosse strain,
+An affine strain core does not determine its own pressure Hessian. For a
+spatially constant Vieillefosse strain,
 
 ```math
 -\Delta q=\partial_i u_j\partial_j u_i
 \tag{CLS.1}
 ```
 
-has a constant source, hence a quadratic particular solution and an isotropic
-Hessian. That isotropy records absence of spatial structure. A real finite
-energy same-field packet has a collar, turn-off, neighbor eddy, or parent
-field, so the pressure source has structure and the participation Hessian is
-anisotropic.
+has a constant source. It therefore admits the isotropic quadratic particular
+solution, but every local solution has the form
+
+```math
+\nabla^2q=-\frac{\operatorname{tr}(A^2)}3I+\nabla^2h,
+\qquad \Delta h=0.
+\tag{CLS.1a}
+```
+
+The infinite affine jet has no declared decaying or periodic surface that fixes
+the harmonic quadratic part, so calling its pressure Hessian isotropic is not a
+well-posed full-fluid statement. A finite-energy same-field completion has a
+collar, turn-off, neighbor eddy, or parent field; that surrounding field fixes
+the harmonic part. The resulting Hessian may be isotropic, co-diagonal
+anisotropic, or transverse.
 
 The live free state is aligned anisotropy:
 

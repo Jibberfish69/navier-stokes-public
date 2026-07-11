@@ -169,21 +169,19 @@ lawful finite-segment participant with positive service" is the rule-8/rule-10 s
 this whole program is built to catch.
 
 By this note's own identity (TD.1), `w=0` on the whole segment is *equivalent* to
-`u=Ax` with a single constant `A` there — the pure affine strain. That object has no
-transported alignment: its strain eigenframe is fixed, its slaved pressure is the
-isotropic on-frame response (affine pressure is isotropic, VPL.143), and there is no
-eigenframe rotation off the strain frame. Rule 10 filters it: alignment, strain, and
-vorticity are transported quantities set by material history, and no evolving
-finite-energy viscous field produces an exactly-affine full log-segment carried
-forward as a retained participant — that is a frozen snapshot, not a reachable
-history. Rule 9 filters it independently: on-frame aligned means no transverse bite,
-no repeller sign, no Vieillefosse self-stretch — hence no failure event to charge.
+`u=Ax` with a single constant `A` there — the pure affine strain. The local jet fixes
+only the trace of the pressure Hessian; its trace-free harmonic completion belongs
+to the surrounding field and cannot be inferred from `w=0`. Rule 10 still filters
+the displayed object: alignment, strain, and vorticity are transported quantities
+set by material history, and no evolving finite-energy viscous field has been shown
+to carry this exactly affine full log-segment as a retained participant. It is a
+frozen local snapshot, not an admitted same-solution history.
 
-So the TD.2 object exits through **Door A** (not-`Part`, class exit — pressure
-amputated to its on-frame part), the same door as every restricted-Euler
-configuration. It never enters the retained door where the endpoint question is
-posed. Consequently the "un-chargeable endpoint `|a_+|^2`" of §2 is un-chargeable
-*only for the ghost*, and the ghost needs no charge — it is not retained service.
+So the TD.2 object is rejected before same-solution admission. It is a
+model-shadow with no Part/Field or Silver exit weight, and it never enters the
+retained door where the endpoint question is posed. Consequently the
+"un-chargeable endpoint `|a_+|^2`" of §2 belongs only to that shadow; it is not
+retained service.
 The endpoint-charge gap as posed in §2 is, to that extent, a phantom: it was
 manufactured by admitting an inadmissible `w=0` object and then asking who pays for
 it.
