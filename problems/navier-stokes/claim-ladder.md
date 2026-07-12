@@ -137,11 +137,6 @@ selected linear near-null bound, causal bounded fibres, and WLF.60 parent
 mass. No datum-finite transition action or Gold closure is proved. Silver is
 unchanged.
 
-The ancestry, disintegration, fibre, and multiplicity rows in that WLF burden
-are proof coordinates for a chosen domination argument. They do not add events
-to the deterministic fluid and have no physical obstruction weight. The
-localized material repetition of the record-producing pulse remains unproved.
-
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |

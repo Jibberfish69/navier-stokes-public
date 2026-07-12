@@ -530,15 +530,7 @@ density \(K/\pi\) can itself diverge. These bounds supply width and occupancy,
 not the sign of critical production, a source center, or a no-recount law
 along a shrinking sequence.
 
-### F1.10 Material ancestry does not distribute parent mass among later readouts in a selected proof coordinate
-
-This is a measure-theoretic boundary for a chosen charging or domination
-argument, not a physical multiplicity law.  The deterministic velocity field
-has one history.  Different observer-selected readouts of that history may
-overlap under a non-injective ancestry map, but their overlap creates no fluid
-event and carries no obstruction weight.  A bounded-fibre or no-recount theorem
-is relevant only to a proof that tries to dominate those selected readouts by a
-finite parent measure.
+### F1.10 Material ancestry does not distribute parent mass among later readouts
 
 F1.6 gives every specified terminal pair cohort a unique earlier material
 precursor.  It does not bound how many different future-selected cohorts may
