@@ -26,13 +26,15 @@ completion_truth: >-
   this Gold slice must split retained reuse from fresh first entry. Retained reuse is Schur
   current work; fresh first entry requires a native/residence/Hardy-Carleson
   linear service charge, or a theorem proving that all uncharged fresh half-tail
-  windows are forced into motion, return, viscosity, legal, or stop.  The later
-  same-parent pushforward audit reduces that fresh-linear wall to `(WLF.60)':
-  finite parent-weighted first-admission pulse measure from the original coupled
-  packet before selected positive-part readout.  Entropy, Hilbert/BMO, reverse-Holder,
-  and terminal no-atom language are deterministic consumers once that parent
-  active density/root carrier exists; they do not construct the pulse measure
-  by themselves.
+  windows are forced into motion, return, viscosity, legal, or stop.  The Cycle
+  036 audit corrects the later formal pushforward claim.  Before `(WLF.60)'
+  can bound a parent-weighted first-admission pulse measure, the PDE argument
+  must construct a same-history joint incidence/disintegration between actual
+  parent material and later selected reads and prove bounded fibre mass.
+  `(WLF.53)'--`(WLF.54)' give Hilbert projection algebra only; they do not
+  prove `(WLF.55)'--`(WLF.57)'.  Entropy, Hilbert/BMO, reverse-Holder, and
+  terminal no-atom language remain deterministic consumers after both the
+  incidence kernel and the parent mass bound exist.
 ---
 
 # Heat-lag fresh linear service half-tail obstruction
@@ -966,7 +968,7 @@ cannot be recounted, and form the finite raw original-history Bessel measure
 first-admission/root-measure slice is the selected-critical weighted measure
 `(WLF.36f)`, i.e. the selected-critical root upper bound `(WLF.36)`.
 
-## 11. Formal no-recount pushforward theorem
+## 11. Conditional no-recount incidence schema
 
 The parent/child language is now fixed.  The physical event is one
 same-parent pressure-viscosity-incompressibility participation event.  The
@@ -975,9 +977,9 @@ is any later selected readout of that same record.
 
 Let \(\mathcal A_P\) be the stopped set of legitimate first-admission native
 atoms in \(P\).  For \(a\in\mathcal A_P\), let \(F_a\) be the first unspent
-native coordinate `(WLF.36a)`, and let \(\mathcal D(a)\) be the selected
-heat-lag windows whose later readout descends from that first admission.  The
-first-admission map is
+native coordinate `(WLF.36a)`.  The desired historical bridge must first
+construct the selected heat-lag windows \(\mathcal D(a)\) that actually descend
+from that same admission.  Equivalently, it must construct the map
 
 \[
 \pi:\{I:\ I\text{ selected heat-lag readout in }P\}\to\mathcal A_P,
@@ -985,6 +987,12 @@ first-admission map is
 \pi(I)=a .
 \tag{WLF.50}
 \]
+
+Equation `(WLF.50)' is therefore a required ancestry object, not a consequence
+of the raw Hilbert-space admission in `(WLF.36a)'--`(WLF.36e)'.  The material
+flow gives every specified pair cohort a unique precursor, but it does not
+identify WLF detector atoms with those pairs or bound overlap among different
+future-selected reads.
 
 The parent-weighted detector is the detector built before selected positive-part readout:
 
@@ -1036,8 +1044,7 @@ If the second term is nonzero and legal, it is admitted once:
 \tag{WLF.54}
 \]
 
-Every later readout on the same carrier is then retained parent-current work,
-not a fresh source:
+The required same-carrier routing premise is
 
 \[
 J>I,\quad \pi(J)=\pi(I)
@@ -1047,12 +1054,14 @@ J>I,\quad \pi(J)=\pi(I)
 \tag{WLF.55}
 \]
 
-This is the formal no-recount update.  It is exactly the weighted version of the
-Schur/Bessel admission rule: a zero-current channel is fresh once; after
-admission it becomes charged parent current.
+This premise does not follow from `(WLF.54)'.  The orthogonal update says that
+a new detector direction is fresh relative to the earlier detector span.  It
+does not prove that every later read of one physical pulse remains in that
+span, becomes paid motion, or vanishes.
 
-Bounded transit overlap.  For each \(a\in\mathcal A_P\), define
-\(\alpha_I(a)\) by
+The second required premise is domination by a parent measure.  For each
+\(a\in\mathcal A_P\), it asks for \(\alpha_I(a)\) and
+\(d\mu_P^{pw}\) such that
 
 \[
 \omega_I|\Delta_IU_I|
@@ -1065,7 +1074,7 @@ Bounded transit overlap.  For each \(a\in\mathcal A_P\), define
 
 where \(d\mu_P^{pw}\) is the parent-weighted first-admission pulse measure and
 \(dPaid_I\) consists only of retained Schur current, motion, return, viscosity,
-legal, and stop material.  The update `(WLF.54)` gives
+legal, and stop material.  Bounded transit overlap is the additional estimate
 
 \[
 \sum_{I:\pi(I)=a}\alpha_I(a)
@@ -1073,14 +1082,34 @@ legal, and stop material.  The update `(WLF.54)` gives
 \tag{WLF.57}
 \]
 
-Indeed, a selected heat-lag window can use the same admitted pulse in only one
-of two ways.  It is the first readout of \(a\), in which case it consumes the
-parent-weighted atom once, or it is a later readout, in which case `(WLF.55)`
-routes it to retained current or paid exits.  Stopped sibling windows have the
-usual finite retained-atlas overlap, so the multiplicity constant is \(C_N\),
-not a terminal or ratio-dependent quantity.
+Neither `(WLF.55)' nor `(WLF.57)' is proved by the span update.  The exact
+countermodel is
 
-Pushforward estimate.  Summing `(WLF.56)` and using `(WLF.57)` gives
+\[
+\mathcal C_P=\ell^2,
+\qquad
+dK_P=\sum_{n\ge1}\frac1n e_n,
+\qquad
+\Phi_n=e_n,
+\qquad
+\mathcal E_{<n}^P=\operatorname{span}\{e_1,\ldots,e_{n-1}\}.
+\]
+
+Every update `(WLF.53)'--`(WLF.54)' is an exact orthogonal admission and
+\(dK_P\in\ell^2\).  Assigning every \(n\) the same declared parent label
+\(a\) still gives
+
+\[
+\sum_{\pi(n)=a}|\langle dK_P,\Phi_n\rangle|
+=\sum_{n\ge1}\frac1n
+=\infty.
+\]
+
+Thus raw Bessel admission controls square novelty, not same-pulse ancestry or
+linear fibre variation.
+
+Conditional summation.  Once `(WLF.56)' and `(WLF.57)' have been proved on an
+actual same-history incidence object, summing gives
 
 \[
 \sum_{I\subset P}\omega_I|\Delta_IU_I|
@@ -1090,18 +1119,21 @@ C_N\mu_P^{pw}(P)
 \tag{WLF.58}
 \]
 
-Thus the child selected bill is the pushforward of the first-admitted
-parent-weighted pulse measure:
+The correct measure object is a kernel \(\kappa_P(a,dI)\), supported on the
+proved fibre \(\pi^{-1}\{a\}\), and the joint measure
 
 \[
-(\pi_\#^{-1}\mu_P^{pw})(\text{selected child reads})
-\le
-C_N\mu_P^{pw}(P).
+\Gamma_P(da,dI)
+=d\mu_P^{pw}(a)\,\kappa_P(a,dI),
+\qquad
+\int\kappa_P(a,dI)\le C_N.
 \tag{WLF.59}
 \]
 
-There is no second child source in `(WLF.58)`.  The child is only a selected
-readout chart on an already admitted same-parent pulse.
+A many-to-one \(\pi\) has no canonical inverse pushforward of a parent measure.
+The kernel in `(WLF.59)' is the missing disintegration that makes the child
+measure and its bounded multiplicity well defined.  With it, `(WLF.58)' says
+there is no second child source beyond the stated paid rows.
 
 The analytic line needed for this slice is therefore exactly
 
@@ -1115,7 +1147,8 @@ C_N(u_0)\mathcal R(P)
 \tag{WLF.60}
 \]
 
-If `(WLF.60)` holds, `(WLF.58)` gives the weighted heat-lag no-recount estimate
+If the incidence kernel `(WLF.50)'--`(WLF.59)' and the separate mass estimate
+`(WLF.60)' both hold, `(WLF.58)` gives the weighted heat-lag no-recount estimate
 `(PVD.31f)`.  Feeding `(PVD.31f)` into `(PVD.31e)` gives the pressure-tail
 good-lambda recurrence with strict margin, hence `(PVD.29)` and then the
 terminal-uniform service estimate
@@ -1128,15 +1161,14 @@ terminal-uniform service estimate
 \tag{WLF.61}
 \]
 
-This is the formal no-recount pushforward proof.
+This is a conditional no-recount implication.
 
-The proof also identifies the exact non-formal point.  `(WLF.50)`--`(WLF.59)`
-are bookkeeping-free consequences of same-parent admission/update and stopped
-overlap.  The mathematical estimate that still has to come from the original
-coupled row in this slice is `(WLF.60)`: terminal-uniform finiteness of the
-parent-weighted detector measure.  Without `(WLF.60)`, the half-tail
-`(WLF.2)`--`(WLF.9)` remains a countermodel to replacing parent-weighted
-variation by raw Bessel square mass.
+The audit identifies two non-formal points.  First, the original coupled
+history must construct `(WLF.50)', `(WLF.55)'--`(WLF.57)', and the kernel in
+`(WLF.59)' on actual same-event material.  Second, `(WLF.60)' must prove
+terminal-uniform finiteness of the resulting parent-weighted measure.  The
+half-tail `(WLF.2)'--`(WLF.9)' still blocks replacement of either requirement
+by raw Bessel square mass.
 
 ## 10. Entropy/BMO consumer coordinate
 

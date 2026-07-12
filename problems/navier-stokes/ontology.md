@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 035.
+**Current promoted checkpoint:** Cycle 036.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -529,6 +529,59 @@ forces the outer half-height scale \(r_+\to0\), while the allowed radial
 density \(K/\pi\) can itself diverge. These bounds supply width and occupancy,
 not the sign of critical production, a source center, or a no-recount law
 along a shrinking sequence.
+
+### F1.10 Material ancestry does not distribute parent mass among later readouts
+
+F1.6 gives every specified terminal pair cohort a unique earlier material
+precursor.  It does not bound how many different future-selected cohorts may
+overlap or reuse that precursor, and it does not distribute a finite charge
+on one parent event among its later observational readouts.
+
+The measure-theoretic distinction is exact.  A measurable ancestry map
+
+\[
+\pi:\mathcal Y\longrightarrow\mathcal A
+\]
+
+pushes a child measure on \(\mathcal Y\) forward to a parent measure on
+\(\mathcal A\).  A parent measure \(\mu\) does not have a canonical inverse
+pushforward through a many-to-one \(\pi\).  Distributing \(\mu\) among the
+children requires a kernel \(\kappa(a,dI)\), supported on
+\(\pi^{-1}\{a\}\).  Bounded descendant multiplicity is the additional
+estimate
+
+\[
+\int_{\pi^{-1}\{a\}}\kappa(a,dI)\le C
+\qquad\text{for \(\mu\)-almost every }a;
+\]
+
+it is not a consequence of the parent label.
+
+Orthogonal first admission does not supply this missing linear bound.  In
+\(\ell^2\), let
+
+\[
+j=\sum_{n\ge1}\frac1n e_n,
+\qquad
+\Phi_n=e_n,
+\qquad
+\mathcal E_{<n}=\operatorname{span}\{e_1,\ldots,e_{n-1}\}.
+\]
+
+Every \(\Phi_n\) is a new orthogonal direction and
+\(\sum_n|\langle j,\Phi_n\rangle|^2<\infty\), while
+
+\[
+\sum_n|\langle j,\Phi_n\rangle|
+=\sum_n\frac1n
+=\infty.
+\]
+
+Assigning all \(n\) the same parent label changes none of these facts.
+Therefore square/Bessel admission, physical material ancestry, and bounded
+linear readout multiplicity are three different statements.  Any no-recount
+use of a parent measure must construct the same-history descendant kernel and
+prove its fibre bound before positive readout.
 
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
@@ -2656,6 +2709,179 @@ balance quadratic viscosity with an orientation defect tending to zero.
 This varying-data family disproves every datum-independent instantaneous
 spikiness, phase-width, or action-efficiency gap.  It is globally smooth and
 does not construct a fixed-datum terminal history.
+
+### F6.14 Global critical-current agreement acquires three defects on a material cohort
+
+On decaying \(\mathbb R^3\), define the moving material-pair transform
+
+\[
+\mathcal I_tF(a,b)
+=\frac1{2\pi}
+\frac{F(X(a,t),t)-F(X(b,t),t)}
+{|X(a,t)-X(b,t)|^2}.
+\]
+
+Product-volume preservation and the fractional bilinear identity give
+
+\[
+2\mathcal I_t^*\mathcal I_t=\Lambda.
+\]
+
+For the mean-free field \(v\), retain the notation of F6.10--F6.13 and set
+
+\[
+m_H=\frac KR,
+\qquad
+h_t=\mathcal I_t(-\Lambda^{-1}B(v)),
+\qquad
+g_t=\mathcal I_t((\Lambda-m_H)v).
+\]
+
+Energy tangency then gives the exact global identities
+
+\[
+2\iint h_t\cdot g_t\,da\,db=P_H,
+\qquad
+2\iint|h_t|^2\,da\,db=F,
+\qquad
+A_H=2\|\operatorname{proj}_{h_t}g_t\|_2^2.
+\]
+
+There is an exact positive current-state material-pair action before the global
+correlation is summed.
+Define
+
+\[
+d\sigma_B=2|h_t|^2\,da\,db,
+\qquad
+\eta_H=
+\begin{cases}
+\displaystyle\frac{h_t\cdot g_t}{|h_t|^2},&h_t\ne0,\\[1ex]
+0,&h_t=0.
+\end{cases}
+\]
+
+Then
+
+\[
+\sigma_B(\text{all pairs})=F,
+\qquad
+P_H=\int\eta_H\,d\sigma_B.
+\]
+
+The additive pre-correlation pair action
+
+\[
+J_{\rm pair}
+=\int\eta_H^2\,d\sigma_B
+=\iint
+\frac{k_{\rm shape}^2}{2|h_t|^2}\,da\,db,
+\]
+
+with zero integrand where \(h_t=0\), obeys
+
+\[
+A_H\le J_{\rm pair}\le S_H,
+\qquad
+J_{\rm pair}-A_H
+=\int\left(\eta_H-\frac{P_H}{F}\right)^2d\sigma_B.
+\]
+
+For \(F>0\), the density \((P_H/F)^2d\sigma_B\) also integrates exactly to
+\(A_H\); set it to zero when \(F=0\).  It uses the already formed global
+current \(P_H\), so it is a post-correlation redistribution.  The local
+positive current-state object available before that global correlation is
+\(J_{\rm pair}\), which is stronger and has no installed datum-finite time
+bound.  Neither density supplies first-admission ancestry.
+
+The native material-pair current from F1.8 is
+
+\[
+j=-4e\alpha.
+\]
+
+With \(k_{\rm shape}=2h_t\cdot g_t\), the two signed densities have the same
+complete-space integral:
+
+\[
+\iint j\,da\,db
+=\iint k_{\rm shape}\,da\,db
+=P_H.
+\]
+
+This equality is global.  Let \(A\) be a smooth fixed-label pair cohort
+bounded away from the diagonal and, on \(\mathbb R^3\), from infinity, and
+put
+
+\[
+L_{A,t}=2\mathcal I_t^*\mathbf1_A\mathcal I_t.
+\]
+
+Writing
+
+\[
+J_A=\iint_Aj\,da\,db,
+\qquad
+K_A=\iint_Ak_{\rm shape}\,da\,db,
+\]
+
+one has
+
+\[
+\begin{aligned}
+J_A-K_A
+={}&\int_{\partial A}\widetilde Q_{\rm VPI}\cdot N\,dS\\
+&+\langle\Lambda^{-1}B,[L_{A,t},\Lambda]v\rangle\\
+&+m_H\langle\Lambda^{-1}B,(\Lambda-L_{A,t})v\rangle.
+\end{aligned}
+\]
+
+The first row is the material pullback of the pair transport--pressure
+boundary flux.  In current pair variables \((x,y)\), with
+\(c_\Lambda=1/(2\pi^2)\), it is generated by
+
+\[
+Q_{\rm VPI}
+=\left(
+e\,v(x)+c_\Lambda|x-y|^{-4}\delta p\,\delta v,
+e\,v(y)+c_\Lambda|x-y|^{-4}\delta p\,\delta v
+\right).
+\]
+
+The second row is the fractional derivative-placement commutator created by
+cohort localization.  The third is leakage of the globally energy-tangent
+row into the cohort complement.  All three disappear only after the complete
+pair space is restored.  A moving cohort has its additional entry--exit flux.
+For cohorts meeting the diagonal or infinity, the formula is first applied
+with cutoffs and the corresponding flux trace is retained in the limit.  The
+periodic statement uses the periodic fractional kernel, equivalently all
+lattice lifts.
+
+Carrier mass alone cannot control these rows.  On \(\mathbb T^3\), the
+one-shell field
+
+\[
+v=(\sin z,\sin x,\sin y)
+\]
+
+has \(R=K=D\), hence \(m_H=1\) and \(g_t=0\), while
+
+\[
+B=(\sin y\cos z,\sin z\cos x,\sin x\cos y)
+\]
+
+is nonzero.  There are pairs with \(\delta v=0\) and
+\(\delta B\ne0\), so the localized source is not absolutely continuous with
+respect to critical pair mass.  Other cohorts carry nonzero localized source
+rows even though the complete critical production is zero.
+
+Thus native material current and pressure-completed spectral-shape current are
+two exact coordinates of one participant, with equality only after all
+part--whole exchanges are recombined.  A historical Gold incidence law must
+attach actual first-admission ancestors to the signed pair record and control
+the transport--pressure boundary, commutator, complement-leakage, and moving
+selection rows.  Pair mass, pair width, a parent label, or an abstract coupling
+of marginals supplies none of those controls.
 
 ## F7. Anisotropic, directional, relational geometry
 
