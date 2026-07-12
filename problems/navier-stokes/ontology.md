@@ -42,6 +42,12 @@ or commutator terms.
 
 ## F1. Participation: one motion, stress, pressure response, and deformation
 
+At each time, the current participant has one simultaneous
+transport--pressure--viscosity--incompressibility tangent. Current-time language
+belongs to that complete tangent. Pressure is its nonlocal elliptic constraint
+row, while viscosity is its local second-order, scale-selective row. Neither row
+is an independently timed cause.
+
 ### F1.1 One momentum and stress law
 
 With
@@ -790,8 +796,8 @@ The unresolved same-field coupling remains explicit:
 The right-hand stress contains high--high-to-low and cross-scale action. A
 time window with small direct low-pass viscous change becomes an Euler window
 only after this stress is proved negligible or is retained in the comparison
-object. Instantaneous nonlocal pressure is already present in the projected
-response; \(\tau_K\) is a velocity-response bound, not a pressure lag.
+object. The same-time projected response already contains the nonlocal elliptic
+pressure row; \(\tau_K\) is a velocity-response bound, not a pressure-row lag.
 
 ## F3. Heat scaling: criticality and scale-selective viscosity
 
@@ -1211,8 +1217,8 @@ V_r(t)
 
 Thus \(r^2/\nu\) is the characteristic viscous time across distance \(r\).
 It is not a finite propagation time: the heat kernel is nonzero at every
-distance for every positive time, and the slaved pressure response is
-instantaneous and nonlocal.
+distance for every positive time. At each participant time, the pressure row is
+recovered nonlocally from the whole current field by the elliptic constraint.
 
 There are consequently two different rate questions.  For a smooth
 source-centered first response, the core height and the same-material annular
@@ -2115,8 +2121,8 @@ B(v)=\mathbb P((v\cdot\nabla)v),
 \partial_t v+B(v)+\nu\Lambda^2v=0.
 \]
 
-The Leray projection in \(B\) is the instantaneous whole-field pressure
-response required by incompressibility. Introduce
+At each participant time, the Leray projection in \(B\) supplies the
+whole-field elliptic pressure row required by incompressibility. Introduce
 
 \[
 R=\|\Lambda^{1/2}v\|_2^2=2\mathcal H_{1/2},
