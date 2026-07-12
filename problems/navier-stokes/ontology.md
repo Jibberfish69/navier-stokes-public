@@ -3066,10 +3066,11 @@ instantaneous nullity does not license a paid, legal, or stop routing, and a
 selected positive readout does not remove the near-null half-tail.  A bound on
 the full spacetime mass \(\int J_{\rm pair}dt\) remains a valid direct Gold
 criterion, but it is already Gold-strength because \(A_H\le J_{\rm pair}\).
-A WLF bridge must instead retain the first-admission source-to-future-shape
-transition in the full signed parent current, then prove its historical
-ancestry, bounded fibre variation, selected linear bound, and separate
-datum-finite parent mass.  None follows from \(d\lambda_{\rm pair}\).
+A WLF bridge must upgrade F6.18's exact signed Eulerian ancestry into
+first admission by a material parent carrying the full signed current, then
+prove a positive common disintegration, bounded fibre variation, the selected
+linear near-null bound, and separate datum-finite parent mass.  None follows
+from \(d\lambda_{\rm pair}\).
 
 ### F6.16 Normalized viscous age, material dwell, and terminal heat comparison are different facts
 
