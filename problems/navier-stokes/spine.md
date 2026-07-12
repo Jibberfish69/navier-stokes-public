@@ -15,6 +15,15 @@ a lawful stronger sufficient route, and pressure makes no direct contribution
 to the global scalar-multiplier balance. Lower route text retaining the former
 wrapper name is genealogy rather than current theorem authority.
 
+The Cycle 032 ontology spin installs F6.10. The pressure-completed nonlinear
+transport can change critical height only through spectral-shape deformation,
+and \(A_H\) is the exact portion of that direction used by the current. Its
+datum-finite base measure leaves an uncontrolled \(D/K\)-weighted first
+moment. This is a regularity-equivalent criterion rather than Gold closure.
+WLF.60 and ODP.91 remain possible localization suppliers only through an exact
+bridge to that action or directly to critical-height control. Silver is
+unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
@@ -58,7 +67,7 @@ Clean labels:
 ## Route Summary
 
 - Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at the signed critical-height restart recorded in the live authority surfaces. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Honest current status: Gold is open at datum control of the F6.10 current-aligned weighted spectral first moment, an exact localization bridge supplying that control, or another direct critical-height theorem. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
 - Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
 - Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 
@@ -68,7 +77,7 @@ Clean labels:
    The object is the same original smooth Navier-Stokes datum, interval, and theorem burden for both lanes.
 
 2. Run Gold on that object.
-   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. The current Gold live edge is the signed critical-height / peak-height mechanism, not child positive-part selection as a primitive.
+   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact global current-aligned action criterion; its weighted first moment remains uncontrolled. Local owner, first-admission, and order-lock machinery has Gold force only after an exact bridge to that action or directly to the critical-height bound.
 
 3. Run Silver on that object.
    Silver tries to prove that the obstruction-world has no valid inhabitant. In CM terms, the alleged finite-time Clay terminal witness enters the participation-field tree without being assumed to be `Member(Q)`.
