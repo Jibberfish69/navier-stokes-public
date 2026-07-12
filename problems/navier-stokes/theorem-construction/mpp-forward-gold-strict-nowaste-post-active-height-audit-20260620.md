@@ -204,7 +204,7 @@ unweighted critical-action reserve.
 
 ## 5. Pressure and heat memory do not create terminal residence
 
-Pressure is spatially nonlocal and temporally instantaneous:
+At each participant time, pressure is recovered by the spatial elliptic constraint:
 
 ```math
 p(t)=R_iR_j(u_i u_j)(t).

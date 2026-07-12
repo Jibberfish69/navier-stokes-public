@@ -43,7 +43,7 @@ PressureSourceParabolicMemory.A
 TerminalMovingPacketTraceModulus.A.
 ```
 
-## Instantaneous pressure test
+## Same-time participation pressure-row test
 
 The pressure is recovered from velocity by the spatial equation
 

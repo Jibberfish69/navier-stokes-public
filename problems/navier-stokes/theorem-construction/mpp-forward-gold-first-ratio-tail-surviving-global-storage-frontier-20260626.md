@@ -98,7 +98,7 @@ capacity cannot be the Gold storage.
 
 ### Pressure Poisson interaction
 
-Instantaneous pressure ellipticity attaches every affine visit to the same
+Same-time pressure-row ellipticity attaches every affine visit to the same
 incompressible pressure-Hodge law, but time-separated visits have no elliptic
 cross term. Overlapping cross terms are signed and do not become a one-sided
 positive selected-lobe tax after terminal selection.

@@ -273,7 +273,7 @@ The valid Gold reserve cannot be supplied by:
 \quad
 \text{Betchov net balance},
 \quad
-\text{instantaneous pressure Poisson},
+\text{same-time whole-participant Poisson},
 \quad
 \text{complete-frame/Hodge attachment alone},
 \quad

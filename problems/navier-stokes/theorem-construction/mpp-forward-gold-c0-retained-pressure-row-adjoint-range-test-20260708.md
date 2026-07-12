@@ -207,7 +207,7 @@ L_Aj=0,\qquad
 ```
 
 Changing the sign of \(j\) makes the cubic flux positive. This is an
-instantaneous silent pressure-row direction at the linearized retained sphere.
+same-time silent pressure-row direction at the linearized retained sphere.
 It is not yet a Navier-Stokes counterexample: it still has to be checked for
 same-field material-time reachability, viscosity, collar ownership, nonlinear
 source terms, and the parent-row relay.

@@ -66,7 +66,7 @@ pressure-viscosity-incompressibility stopping law.
 The desired estimate says that the coupled stopping jet cannot carry infinite
 positive selected service before \(T_*\).
 
-## 1. Instantaneous pressure-compatible tower
+## 1. Same-time pressure-row-compatible tower
 
 On a stopped root material packet \(P\), write
 
@@ -317,7 +317,7 @@ readout.
 
 ## 3.2. Storage as the moving-frame correction
 
-If pressure is separated once as the instantaneous actuator, the row is
+If pressure is separated once as the same-time elliptic row, the row is
 
 \[
 \mathsf D_{\xi,k+1}
@@ -669,7 +669,7 @@ one-heat-time velocity/shear response is still pending.
 This is the missing \(L^1\) relationship suggested by the physical picture:
 
 \[
-\text{instantaneous pressure-compatible time-rung}
+\text{same-time pressure-row-compatible time-rung}
 \quad+\quad
 \text{coherent material stopping jet}
 \quad\Longrightarrow\quad

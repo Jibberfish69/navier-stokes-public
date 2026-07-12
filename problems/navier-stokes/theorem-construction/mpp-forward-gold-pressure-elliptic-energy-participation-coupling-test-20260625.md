@@ -9,7 +9,7 @@ edge_effect: >-
   multiplier for div_a(A v)=0 and satisfies L_G q=R with G=AA^T. The natural
   elliptic pressure energy has an exact derivative, but that derivative is a
   signed same-material strain/RHS service, not a one-way dissipation. Fixed
-  ellipticity controls instantaneous pressure size and licenses the pressure
+  ellipticity controls same-time pressure-row size and licenses the pressure
   tower readout; it does not control the rectified positive variation of the
   moving pressure-strain pump without the same full material clock.
 parents:
@@ -67,7 +67,7 @@ A_{\ell i}A_{k j}
 This is the pressure/incompressibility coordinate of the same participation
 law.  It is not a separate pressure-only route.
 
-## 1. Instantaneous elliptic pressure energy
+## 1. Same-time participation pressure-row energy
 
 Fix the periodic zero-mean gauge, or the corresponding retained local pressure
 gauge on an annular packet.  Define

@@ -105,7 +105,7 @@ Part/Field translators unless a new reserve is supplied.
 
 ### 4. Pressure/source parabolic memory
 
-Pressure is spatially elliptic and time-slice instantaneous:
+At each participant time, pressure is recovered by the spatial elliptic constraint:
 
 ```math
 p-p_h=R_iR_j(u_i u_j).

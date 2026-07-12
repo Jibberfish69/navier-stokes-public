@@ -147,14 +147,14 @@ while the normalized ancestry count can diverge:
 \sum_k 1=\infty.
 ```
 
-Thus laminarity plus instantaneous pressure attachment still needs a weighted
+Thus laminarity plus same-time whole-participant pressure-row attachment still needs a weighted
 same-history reserve.  The pressure Poisson equation alone does not create it.
 
 ## 4. Exact surviving theorem
 
 The pressure-Hessian-balanced affine tail is not excluded by local strain
 equations, by signed Betchov identities, by global divergence-free matching, or
-by instantaneous pressure Poisson interaction.
+by same-time whole-participant Poisson interaction.
 
 The remaining theorem is the same-history no-Zeno statement for the affine
 half-tail:
@@ -183,7 +183,7 @@ annular turnstile variation that dominates the first ratio moment:
 The global pressure-Poisson interaction route is attachment, not closure.
 
 The live Gold edge remains the original-history affine-tail exclusion, now with
-one more false shortcut removed: instantaneous pressure/Hodge nonlocality does
+one more false shortcut removed: same-time pressure-row/Hodge nonlocality does
 not by itself beat the half-tail.  The proof must use a genuinely time-history
 reserve on the laminar material ancestry, or an equivalent bounded-below
 same-material action storage.

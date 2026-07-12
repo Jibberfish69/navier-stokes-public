@@ -213,7 +213,7 @@ The honest terminal, both sides held:
 
 Endpoint and interior are one response, not two ledgers. On a real chain the handoff
 amplitude at `\rho_+` is carried by the *same* transported rotation that brakes the
-interior — the slaved pressure is one non-local instantaneous response over the whole
+interior — the slaved pressure is one nonlocal elliptic row of the same-time participant over the whole
 segment including its ends. So §2's split into "internal bill" versus "endpoint term"
 is itself an artifact of the frozen (`w=0`, constant-`A`) decomposition; it does not
 survive on an admissible `w\neq0` chain, where there is a single T-odd account. This
