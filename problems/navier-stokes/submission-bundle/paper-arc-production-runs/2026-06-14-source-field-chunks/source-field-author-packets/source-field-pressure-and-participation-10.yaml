@@ -464,8 +464,9 @@ chunk:
     u_*(\\lambda x,\\lambda^2t)\n\\]\n\n\\[\n\\mu_*^{press\\perp src}(B_R\\times[-\\varepsilon,0])\n\\le
     C_R\\varepsilon^\\alpha,\n\\qquad \\alpha>0.\n\\]\n\nSuch a theorem would eliminate
     a terminal pressure atom and could feed a pressure Liouville theorem. This candidate
-    is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous
-    in time, so temporal spread must come from terminal packet dynamics or from a
+    is genuinely new. It requires an elliptic-to-temporal theorem: pressure is
+    recovered elliptically from the same-time participant state, so temporal spread
+    must come from terminal packet dynamics or from a
     material identity, not from Calderon-Zygmund ellipticity alone.\n\nPressure Rigid
     Class Production.A fails from the installed tangent data. The rigid class candidates
     requiring vorticity-free, trace-balanced, critical, Type-I, global-energy, or

@@ -1,6 +1,6 @@
 ---
 theorem_id: forward-gold-pressure-hessian-affine-tail-global-poisson-direct-test-20260626
-status: direct-test-fails-instantaneous-pressure-poisson-does-not-exclude-time-separated-affine-half-tail
+status: direct-test-fails-same-time-participation-poisson-does-not-exclude-time-separated-affine-half-tail
 created: 2026-06-26
 problem: navier-stokes
 route: forward-gold
@@ -99,7 +99,7 @@ This does not close directly for two reasons.
 First, the pressure equation is time-slice elliptic.  Terminal affine packets
 can be arranged as separate heat-window visits along the same material history.
 When two visits are not active at the same time, their pressure sources do not
-interact through the instantaneous Poisson equation.  The pressure field
+interact through the same-time whole-participant Poisson equation.  The pressure field
 attaches each visit to the same coupled law, but it does not remember earlier
 visits as an elliptic cross term.
 

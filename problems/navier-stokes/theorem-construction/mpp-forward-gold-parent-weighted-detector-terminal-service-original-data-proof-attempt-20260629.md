@@ -176,7 +176,8 @@ signed row is
 \tag{ODP.6}
 \]
 
-The pressure part is the instantaneous compatibility actuator, the viscous part
+Inside the same-time participation tangent, pressure is the elliptic
+compatibility row, while the viscous part
 is the local heat/strain descent, and \(\mathsf C_{\xi,k,\lambda}\) is the
 moving-frame derivative: \(A\), \(G\), transported covectors, collar, Hodge, and
 commutator motion.

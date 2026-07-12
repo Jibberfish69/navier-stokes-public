@@ -25,7 +25,7 @@ completion_truth: >-
   multiplier sum_{k>=1} 2^{-3k} = 1/7 — exactly F3's installed pressure
   near/far cube-decay moment, here reconstructed from first principles. The
   far pressure introduces NO new unpriced channel and NO non-quasi-local
-  term: the pressure relation is elliptic/instantaneous (no time-derivative
+  term: the pressure relation is the elliptic row of the same-time participation tangent (no time-derivative
   coupling) and in the local energy inequality the pressure appears ONLY
   paired with u, so p_far is a bounded tail functional of the scaled VELOCITY
   energies A(2^k r), which the ledger already carries at every dyadic scale.
@@ -111,7 +111,7 @@ way, and outside the far-field question.
 
 Three facts, all checked:
 
-1. **No hidden channel.** The pressure relation is elliptic/instantaneous —
+1. **No hidden channel.** The pressure relation is the elliptic row of the same-time participation tangent —
    there is NO time-derivative coupling — and in the local energy inequality
    the far pressure multiplies ONLY `u` (never a non-`u` factor). So
    `P_far` is a bounded tail functional of the scaled VELOCITY energies

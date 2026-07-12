@@ -231,10 +231,10 @@ material-time rotation of the strain frame.
 ## 3. Where the sign is supposed to come from
 
 The local stretch frame is transported and rotated by the same velocity field.
-The pressure Hessian is the instantaneous nonlocal response to the whole field,
-including the field that has just been stretched. In forward material time,
-that response pursues the stretch frame from behind. The lag has a handedness:
-time reversal changes a lag into a lead.
+At each participant time, the pressure Hessian is the nonlocal elliptic row
+forced by the whole current field, including the field that has just been
+stretched. Any handed lag belongs to the material history or source imprint;
+time reversal changes that historical lag into a lead.
 
 This is the physical reason the target is a sign, not a rate. It should survive
 at \(\nu=0\) because the sign is in the pressure-incompressibility coupling and

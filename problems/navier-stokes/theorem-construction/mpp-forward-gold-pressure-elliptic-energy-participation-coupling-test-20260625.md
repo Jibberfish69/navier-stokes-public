@@ -90,8 +90,8 @@ E_p(t)\ge {1\over2}\lambda_G(t)\|\nabla_aq(t)\|_2^2 .
 \tag{PEE.6}
 ```
 
-So fixed-time pressure ellipticity is real: it controls the instantaneous
-pressure tower once the material frame is retained.
+So fixed-time pressure ellipticity is real: it controls the same-time
+pressure-row tower once the material frame is retained.
 
 ## 2. Exact derivative of pressure energy
 

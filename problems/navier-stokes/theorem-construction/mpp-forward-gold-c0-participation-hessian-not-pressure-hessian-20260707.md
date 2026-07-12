@@ -59,8 +59,10 @@ and meaning* of the terminal non-local object; it does not close `c_0`.
 
 Pressure here is not a force. Incompressibility `∇·u = 0` is the demand that every
 part of the fluid move in **coherent participation** with every other part, so the
-single field stays one volume-preserving object; **pressure is the instantaneous,
-non-local multiplier that enforces that demand.** Therefore the second-order term
+single field stays one volume-preserving object. **Its complete participation
+tangent is simultaneous at each time: pressure is the non-local elliptic
+multiplier row that enforces that demand, and viscosity is the local
+scale-selective row.** Therefore the second-order term
 `Hess(q)` in the strain law
 ```math
 D_t S + S^2 + \Omega^2 + \mathrm{Hess}(q) = \nu\Delta S
