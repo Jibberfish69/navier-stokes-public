@@ -3334,6 +3334,13 @@ G(T)
 }
 \]
 
+The inherited term carries the exact terminal-centering mismatch
+
+\[
+\|G^T(s)\|_2^2
+=S_H(s)+(m(s)-m_T)^2R(s).
+\]
+
 Pairing with any terminal covector gives a signed backward detector on the
 same pressure-completed source history.  Every nonzero source-generated
 terminal shape read therefore has nonzero signed incidence at earlier times.
@@ -3378,6 +3385,14 @@ C=N_3-2mN_2+m^2N_1
 \[
 Q=M_5-2mM_4+m^2M_3
 =\frac4{121}(-40107+18010\sqrt5)>0.
+\]
+
+The two signs are certified exactly by
+
+\[
+5(139407)^2-(311569)^2=96316484,
+\qquad
+5(18010)^2-(40107)^2=13229051.
 \]
 
 Consequently
