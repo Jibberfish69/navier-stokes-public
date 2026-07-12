@@ -18,6 +18,17 @@ remains a lawful stronger sufficient route. All lower statements that call the
 former wrapper a strict reduction or the live theorem are superseded by this
 result; no smaller Gold theorem has yet been installed.
 
+Second live gate result, 2026-07-12: ontology F6.10 proves that
+pressure-completed nonlinear transport changes critical height only through the
+spectral-shape direction, and isolates \(A_H\) as the portion actually used by
+the current. Its base measure is datum-finite; its \(D/K\)-weighted first
+moment is exactly the uncontrolled scale-critical action. This is a
+regularity-equivalent global criterion, not a smaller Gold theorem. WLF.60 and
+ODP.91 have Gold force only after an exact bridge to this action or directly to
+critical-height control. Silver is unchanged. This paragraph supersedes lower
+Gold language that treats unsigned spectral spread, a finite unweighted
+measure, or route bookkeeping as control of critical growth.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |

@@ -1568,6 +1568,206 @@ scale. Critical dissipation records the growing cost. This is a varying-data,
 short-history possibility theorem. It does not supply a terminal history for
 one datum and does not defeat a same-history VPI or material restriction.
 
+### F6.10 Critical growth uses the spectral-shape direction actually activated by the same field
+
+On \(\mathbb R^3\), put \(v=u\). On \(\mathbb T^3\), first pass to the
+Galilean frame moving with the conserved spatial mean and let \(v\) denote the
+resulting mean-zero velocity. Define the pressure-completed nonlinear
+transport vector
+
+\[
+B(v)=\mathbb P((v\cdot\nabla)v),
+\qquad
+\partial_t v+B(v)+\nu\Lambda^2v=0.
+\]
+
+The Leray projection in \(B\) is the instantaneous whole-field pressure
+response required by incompressibility. Introduce
+
+\[
+R=\|\Lambda^{1/2}v\|_2^2=2\mathcal H_{1/2},
+\qquad
+K=\|\Lambda v\|_2^2,
+\qquad
+D=\|\Lambda^{3/2}v\|_2^2,
+\]
+
+and
+
+\[
+f=\Lambda^{-1/2}B(v),
+\qquad
+z=\Lambda^{1/2}v,
+\qquad
+g=\Lambda^{3/2}v.
+\]
+
+All quotient-defined quantities below are set to zero at the zero state.
+Otherwise \(R,K,D>0\).
+
+Kinetic-energy conservation by the pressure-completed transport is the exact
+tangency
+
+\[
+\langle f,z\rangle=\langle B(v),v\rangle=0.
+\]
+
+Consequently the only part of the critical radial direction seen by the
+nonlinearity is its component orthogonal to \(z\):
+
+\[
+g_{\mathrm{sh}}
+=g-\frac KRz,
+\qquad
+S_H
+=\|g_{\mathrm{sh}}\|_2^2
+=D-\frac{K^2}{R}
+\ge0.
+\]
+
+Equivalently, for the critical spectral probability measure
+
+\[
+d\mu_H(\xi)
+=\frac{|\xi|\,|\widehat v(\xi)|^2}{R}\,d\xi,
+\]
+
+with the corresponding discrete sum on \(\mathbb T^3\),
+
+\[
+S_H=R\operatorname{Var}_{\mu_H}(|\xi|).
+\]
+
+The exact critical current and the complete critical balance are
+
+\[
+P_H
+=-\langle B(v),\Lambda v\rangle
+=-\langle f,g_{\mathrm{sh}}\rangle,
+\]
+
+\[
+\boxed{
+\mathcal H_{1/2}'
+=-\langle f,g_{\mathrm{sh}}\rangle
+-\nu\left(S_H+\frac{K^2}{R}\right).
+}
+\]
+
+Thus pressure-completed transport can raise the critical height only by acting
+through spectral-shape deformation, while viscosity damps both that deformation
+and the mean radial frequency of the same field. These are terms in one exact
+derivative, not separately owned accounts.
+
+The part of the available shape direction actually used by the nonlinear
+current is
+
+\[
+A_H
+=
+\begin{cases}
+\displaystyle
+\frac{P_H^2}{\|\Lambda^{-1/2}B(v)\|_2^2},
+&B(v)\ne0,\\[1.2ex]
+0,&B(v)=0.
+\end{cases}
+\]
+
+This quotient is exactly a squared projection inside the one field:
+
+\[
+A_H
+=\left\|
+\operatorname{Proj}_{\operatorname{span}\{f\}}g_{\mathrm{sh}}
+\right\|_2^2,
+\qquad
+0\le A_H\le S_H\le D.
+\]
+
+It does not assign separate ownership to its numerator and denominator. The
+current retains its actual, non-free sign:
+
+\[
+P_H
+=\operatorname{sgn}(P_H)
+\|\Lambda^{-1/2}B(v)\|_2\sqrt{A_H}.
+\]
+
+The critical product estimate
+
+\[
+\|\Lambda^{-1/2}B(v)\|_2
+\le C_\Omega\|v\|_3\|\nabla v\|_3
+\le C_\Omega\sqrt{RD}
+\]
+
+therefore gives
+
+\[
+\mathcal H_{1/2}'
+\le
+\frac{C_\Omega^2}{2\nu}\mathcal H_{1/2}A_H.
+\]
+
+For every \(0\le s<t\) in the classical lifespan,
+
+\[
+\mathcal H_{1/2}(t)
+\le
+\mathcal H_{1/2}(s)
+\exp\!\left(
+\frac{C_\Omega^2}{2\nu}
+\int_s^tA_H(\tau)\,d\tau
+\right).
+\]
+
+In particular, every first doubling interval satisfies
+
+\[
+\int_s^tA_H(\tau)\,d\tau
+\ge\frac{2\nu\log2}{C_\Omega^2}.
+\]
+
+This active action has a finite same-history base measure. With zero densities
+at the zero state, define
+
+\[
+d\mu_{\mathrm{cur}}
+=\frac KD A_H\,dt.
+\]
+
+Then
+
+\[
+\mu_{\mathrm{cur}}([0,T])
+\le\int_0^TK(t)\,dt
+\le\frac{\mathcal E_0}{\nu},
+\qquad
+A_H\,dt=\frac DK\,d\mu_{\mathrm{cur}}.
+\]
+
+Here \(D/K\) is the enstrophy-weighted mean frequency. The uncontrolled
+quantity is therefore the first frequency moment of a finite measure supported
+only where the complete nonlinear current uses the available spectral shape.
+Finiteness of the measure does not bound that first moment.
+
+The distinction between available and used shape is exact. A mean-zero
+two-frequency shear \(v=(F(y,t),0,0)\) has \(B(v)=P_H=A_H=0\) while
+\(S_H>0\) whenever both heat modes are present. Thus \(S_H\) alone counts
+passive spectral width and cannot serve as active-current control. Conversely,
+\(S_H=0\) forces \(P_H=A_H=0\); a one-shell state can only decrease its
+critical height instantaneously under viscosity.
+
+The action is scale critical: \(A_H\,dt\) is invariant under the
+Navier--Stokes scaling in F3.1. On a finite candidate terminal interval,
+\(\int A_H\,dt<\infty\) bounds \(\mathcal H_{1/2}\), hence the
+\(L_t^\infty L_x^3\) norm, and the endpoint regularity criterion gives
+continuation. A classical continuation has \(\int A_H\,dt<\infty\) because
+\(A_H\le D\). Universal datum-only finiteness of this action is therefore a
+regularity-equivalent criterion at this scope, not a proved smaller Gold
+theorem. No material carrier, localized Carleson measure, monotone cascade, or
+datum-bound for the weighted first moment follows from this fact.
+
 ## F7. Anisotropic, directional, relational geometry
 
 ### F7.1 Nonzero incompressible strain is necessarily anisotropic
@@ -1777,3 +1977,5 @@ The following are not hard facts and carry no premise weight here:
 - Gregory Seregin, [*Necessary conditions of potential blow up for Navier--Stokes equations*](https://arxiv.org/abs/1101.1869), Theorem 1.1.
 - Hugo Beirão da Veiga and Luigi C. Berselli, [*On the regularizing effect of the vorticity direction in incompressible viscous flows*](https://doi.org/10.57262/die/1356060864), Differential and Integral Equations 15 (2002), equation (2.3).
 - Alexey Cheskidov and Roman Shvydkoy, [*A unified approach to regularity problems for the 3D Navier--Stokes and Euler equations: the use of Kolmogorov's dissipation range*](https://arxiv.org/abs/1102.1944), Theorem 3.1, Corollary 3.3, and Lemma 4.1.
+- Evan Miller, [*Global regularity for solutions of the Navier--Stokes equation sufficiently close to being eigenfunctions of the Laplacian*](https://arxiv.org/abs/2005.14152), Proceedings of the AMS, Series B 8 (2021), 129--144. Its interpolation-deficit criterion supplies the adjacent proved spectral-width/eigenshell comparison; it does not bound the action in F6.10.
+- Luis Escauriaza, Gregory Seregin, and Vladimír Šverák, [*\(L_{3,\infty}\)-solutions of Navier--Stokes equations and backward uniqueness*](https://www.mathnet.ru/eng/rm609), Russian Mathematical Surveys 58 (2003), 211--250.
