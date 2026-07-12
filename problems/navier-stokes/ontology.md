@@ -2,6 +2,8 @@
 
 **Status:** canonical hard-fact ontology.
 
+**Current promoted checkpoint:** Cycle 032.
+
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
 facts promoted into this file carry ontology premise weight. The numbered git
