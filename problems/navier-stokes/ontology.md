@@ -1429,6 +1429,145 @@ surviving statement is integrated signed scale escape; material packet
 identity, monotone cascade direction, and a datum-finite cumulative bound for
 the moving fine current remain open.
 
+### F6.8 Scale-escaping current requires an active same-field tail
+
+For the sharp-cutoff current in F6.4, put
+
+\[
+u_{>R/2}=P_{>R/2}u,
+\qquad
+\tau_R=\|\Lambda^{1/2}u_{>R/2}\|_2,
+\qquad
+K_R=\|\nabla u_{>R/2}\|_2^2,
+\qquad
+D=\|\Lambda^{3/2}u\|_2^2.
+\]
+
+Then
+
+\[
+\boxed{
+|P_{\mathrm{fine}}(R)|
+\le C_\Omega D^{1/2}K_R
+\le C_\Omega\tau_R D
+\le \frac{C_\Omega}{R}D^{3/2}.
+}
+\]
+
+The first estimate is the cancellation left by incompressibility, rather than
+a generic cubic bound. Every complementary triad has two frequency legs above
+\(R/2\). After the transported and tested legs are symmetrized, its multiplier
+contains
+
+\[
+(p\cdot\widehat u(k))(|q|-|p|),
+\qquad k+p+q=0,
+\]
+
+whose size is at most the smallest triad frequency times the largest. The two
+high legs therefore supply \(K_R\), while the remaining leg supplies
+\(D^{1/2}\). Fourier Cauchy--Schwarz and high-frequency support give
+
+\[
+K_R\le\tau_R\|\Lambda^{3/2}u_{>R/2}\|_2,
+\qquad
+\tau_R\le\frac2R\|\Lambda^{3/2}u_{>R/2}\|_2.
+\]
+
+Apply this to the diagonal sequence in F6.7, with
+\(R_n=A_nL_{M_n}\). Its total production satisfies
+
+\[
+(1-\varepsilon_n)J_{M_n}
+\le C_\Omega\int_{I_{M_n}}\tau_{R_n}D\,dt
+\le\frac{C_\Omega}{R_n}
+\int_{I_{M_n}}D^{3/2}\,dt.
+\]
+
+Since \(J_{M_n}\ge\nu\int_{I_{M_n}}D\,dt\), every sufficiently late
+doubling contains a time at which
+
+\[
+\tau_{R_n}\ge c_\Omega(1-\varepsilon_n)\nu.
+\]
+
+Moreover,
+
+\[
+\int_{I_{M_n}}D^{3/2}\,dt
+\ge c_\Omega(1-\varepsilon_n)R_nJ_{M_n}
+\ge c_\Omega(1-\varepsilon_n)
+\frac{A_n\nu^{2/7}}{\mathcal E_0}M_n^{13/7}.
+\]
+
+Thus the escaping interactions carry a quantitatively active critical tail;
+an arbitrarily fine but critically negligible passive tail cannot produce the
+terminal current. The estimate exposes critical dissipation, not a finite
+cumulative upper budget for it.
+
+### F6.9 Fixed energy permits arbitrarily large short-time fine current
+
+There is a smooth anisotropic divergence-free datum \(\phi\) on
+\(\mathbb R^3\), a cutoff \(\rho>0\), and constants \(T,c>0\) such that the
+viscosity-\(\varepsilon\) solutions \(w_\varepsilon\) from \(\phi\) obey
+
+\[
+P_{\mathrm{fine}}(\rho,w_\varepsilon(s))\ge c
+\qquad(0\le s\le T)
+\]
+
+uniformly for all sufficiently small \(\varepsilon\). One explicit seed uses
+the centers \(p=(1,0,0)\), \(q=(0,1,0)\), \(k=p+q\), with central
+coefficients \((0,1,1)\), \((1,0,0)\), and \(-i(1,-1,1)\), respectively,
+plus their reality conjugates. Its central current is strictly positive. Narrow
+smooth Fourier packets followed by Leray projection preserve that sign, and
+uniform local well-posedness and continuous dependence preserve it for the
+displayed short interval.
+
+For fixed \(\nu>0\), the two-parameter field
+
+\[
+u_{\mu,\lambda}(x,t)
+=\mu\lambda\,
+w_{\nu/\mu}(\lambda x,\mu\lambda^2t)
+\]
+
+is an exact fixed-viscosity Navier--Stokes solution. On
+\(0\le t\le T/(\mu\lambda^2)\), its same-field quantities scale as
+
+\[
+\int P_{\mathrm{fine}}(\lambda\rho,u_{\mu,\lambda})\,dt
+\ge c\mu^2,
+\qquad
+\mathcal E(0)=\frac{\mu^2}{\lambda}\mathcal E(\phi),
+\]
+
+\[
+\int H^2\,dt\asymp\frac{\mu^3}{\lambda^2},
+\qquad
+\nu\int K\,dt\asymp\frac{\nu\mu}{\lambda},
+\qquad
+\nu\int D\,dt\asymp\nu\mu.
+\]
+
+Choosing \(\lambda=\mu^2\mathcal E(\phi)/E_*\) fixes the kinetic energy at
+any declared \(E_*>0\). With \(M\asymp\mu^2\), the cutoff and integrated
+fine current are both of order \(M\), while
+
+\[
+\int H^2\,dt\asymp M^{-1/2},
+\qquad
+\nu\int K\,dt\asymp\nu M^{-1/2},
+\qquad
+\nu\int D\,dt\asymp\nu M^{1/2}.
+\]
+
+Hence fixed kinetic energy, its dissipated amount, and the finite \(H^2\)
+occupancy budget permit unbounded signed current at an increasingly fine
+scale. Critical dissipation records the growing cost. This is a varying-data,
+short-history possibility theorem. It does not supply a terminal history for
+one datum and does not defeat a same-history VPI or material restriction.
+
 ## F7. Anisotropic, directional, relational geometry
 
 ### F7.1 Nonzero incompressible strain is necessarily anisotropic
