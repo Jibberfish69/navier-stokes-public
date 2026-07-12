@@ -3422,6 +3422,9 @@ S_H(0)
 =\frac4{11}(2166-965\sqrt5)b^2>0.
 \]
 
+Here \(N_1>0\) follows from \(7^2-5\,3^2=4\), and the last sign follows
+from \(2166^2-5\,965^2=35431\).
+
 By smooth time continuity, the same solution has a positive interval on which
 its critical height rises while both \(S_H\) and \(\sqrt{S_H}\) decrease.
 Spectral shape is therefore a state that the participant can create, retain,
