@@ -2,6 +2,11 @@
 
 **Status:** canonical hard-fact ontology.
 
+**Development authority:** this is the single cumulative ontology. Numbered
+research cycles are evidence and discovery records; only independently checked
+facts promoted into this file carry ontology premise weight. The numbered git
+checkpoint for each cycle is the minimal progress ledger.
+
 **Authority boundary:** this file contains exact identities, exact operator
 properties, or classical proved theorems under the hypotheses stated here. It
 contains no proposed pressure sign, cascade direction, alignment law, packet
@@ -1339,32 +1344,75 @@ P_{\mathrm{fine}}(A L_{M_n},t)\,dt
 }
 \]
 
-More generally, for every \(0<\theta<1\), the same argument gives
+Write the total critical production on one doubling as
+
+\[
+J_M
+=\int_{I_M}P_H(t)\,dt
+=M+\nu\int_{I_M}D(t)\,dt.
+\]
+
+For every \(0<\varepsilon<1\), the same argument applied to the absolute
+integrated low current gives
 
 \[
 \#\left\{
 n:\
-\int_{I_{M_n}}P_{\mathrm{fine}}(A L_{M_n},t)\,dt
-<\theta M_n
+\left|
+\int_{I_{M_n}}P_{\mathrm{low}}(A L_{M_n},t)\,dt
+\right|
+\ge\varepsilon J_{M_n}
 \right\}
-<\frac{A^{7/2}}{2(1-\theta)}.
+\le\frac{A^{7/2}}{2\varepsilon}.
 \]
 
-Diagonalizing \(A=j\) and \(\theta=1-j^{-1}\) supplies history-dependent
+Consequently, for every fixed \(A<\infty\),
+
+\[
+\frac{1}{J_{M_n}}
+\int_{I_{M_n}}P_{\mathrm{fine}}(A L_{M_n},t)\,dt
+\longrightarrow1.
+\]
+
+Diagonalizing \(A=j\) and \(\varepsilon=j^{-1}\) supplies history-dependent
 sequences \(A_n\to\infty\) and \(\varepsilon_n\to0\) such that
 
 \[
-\int_{I_{M_n}}
-P_{\mathrm{fine}}(A_nL_{M_n},t)\,dt
-\ge(1-\varepsilon_n)M_n.
+\left|
+\frac{1}{J_{M_n}}
+\int_{I_{M_n}}P_{\mathrm{fine}}(A_nL_{M_n},t)\,dt-1
+\right|
+<\varepsilon_n.
 \]
 
 Thus the exponent \(6/7\) is sharp for unrelated instantaneous data, as in
 F6.4, while one terminal history forces the net current carrying almost all
-of each late height doubling beyond every fixed multiple of that scale floor.
-Signed cutoff current need not be monotone in the cutoff, so \(A_n\) is
-history-dependent and this theorem supplies no universal escape rate or
-larger fixed power.
+late critical production beyond every fixed multiple of that scale floor.
+
+There is also a universal density statement. Fix \(\alpha,\beta>0\) with
+
+\[
+\frac72\alpha+\beta<1.
+\]
+
+On index blocks \(2^k\le n<2^{k+1}\), put
+\(A_k=2^{\alpha k}\) and \(\varepsilon_k=2^{-\beta k}\). All but
+\(o(2^k)\) levels in each block satisfy
+
+\[
+\left|
+\frac{1}{J_{M_n}}
+\int_{I_{M_n}}P_{\mathrm{fine}}(A_kL_{M_n},t)\,dt-1
+\right|
+<\varepsilon_k.
+\]
+
+Since \(A_k\asymp n^\alpha\asymp
+[\log(M_n/M_0)]^\alpha\), every \(\alpha<2/7\) gives a predetermined
+logarithmic scale gain on a density-one set of terminal doublings. Signed
+cutoff current need not be monotone in the cutoff, so all statements apply at
+their displayed cutoffs. The all-level factor \(A_n\) remains
+history-dependent, and no larger fixed power follows.
 
 For the particular split in F6.6, failure of its \(M/4\) scale-advance bound
 forces at least
