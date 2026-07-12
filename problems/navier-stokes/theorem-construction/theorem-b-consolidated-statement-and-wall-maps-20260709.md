@@ -873,15 +873,19 @@ the atom weight φ_A. Define the axis-deviatoric Riesz readout
 
 **The exact Q-evolution (every term NS-native):**
 
-D_t Q = −2 tr(S³) − (3/2) ω·Sω − 2 tr(SH) + νΔQ − 2ν|∇∇u|²-row,
+D_t Q = −2 tr(S³) − (3/2) ω·Sω − 2 tr(SH) + νΔQ
+− 2ν|∇S|² + ν|∇ω|²,
 
 derived by differentiating Q = ∂_i u_j ∂_j u_i along NS; the cubic split
-uses tr((∇u)³) = tr(S³) + (3/4) ω·Sω exactly.
+uses tr((∇u)³) = tr(S³) + (3/4) ω·Sω exactly. The viscous row is
+signed: equivalently it is −2ν Σ_k tr((∂_k∇u)²), not
+−2ν|∇∇u|².
 
 **The saddle-deepening current (the identity row):**
 
 𝒥_{e,A}(t) := d/dt ∫ φ_A (e·(Hess p)e + Q/3) dx
-= ∫ φ_A 𝒫_e[ −u·∇Q − 2tr(S³) − (3/2)ω·Sω − 2tr(SH) + νΔQ − 2ν|∇∇u|²-row ] dx
+= ∫ φ_A 𝒫_e[ −u·∇Q − 2tr(S³) − (3/2)ω·Sω − 2tr(SH) + νΔQ
+− 2ν|∇S|² + ν|∇ω|² ] dx
   + (φ_A-transport row for the moving atom).
 
 **T-parity table of the source rows (u → −u, t → −t):** −u·∇Q odd;
