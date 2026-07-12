@@ -3566,11 +3566,11 @@ b>\frac{\nu M_3(U_n)}{-N_1(U_n)}.
 
 These are anisotropic, divergence-free, finite-Fourier Navier--Stokes data;
 the pressure response is already contained in \(N_1\).  Their relative shell
-width tends to zero while their critical height initially rises.  Amplitude,
-not a free pressure sign, lets the cubic current beat the quadratic viscous
-drain.  Thus a scale-independent pointwise spikiness or bandwidth gap is
-false.  This is a varying-data instantaneous result and supplies no terminal
-history for one fixed datum.
+width tends to zero while their critical height initially rises.  Large
+amplitude lets the derived cubic current beat the quadratic viscous drain;
+the pressure sign remains fixed by that same field.  Thus a scale-independent
+pointwise spikiness or bandwidth gap is false.  This is a varying-data
+instantaneous result and supplies no terminal history for one fixed datum.
 
 There is a separate proved history-level restriction.  For viscosity one on
 \(\mathbb R^3\), Miller's Laplacian-eigenshell criterion states that a finite

@@ -119,6 +119,22 @@ ancestry into material parent-announced first admission with selected near-null
 control, causal bounded fibres, and datum-finite parent mass. Silver is
 unchanged.
 
+Cycle 040 installs F6.19 and turns the critical height into an exact physical
+rate statement. It is total kinetic energy times the energy-weighted mean
+frequency. Viscosity lowers the energy and biases that mean downward, so the
+height rises exactly when the same pressure-completed nonlinear history lifts
+the mean frequency faster than the viscous depletion rate
+\(2\nu M_2/M_0\). An exact Pell family of anisotropic finite-Fourier triads
+has relative shell width tending to zero while its critical height initially
+rises after amplitude scaling. Thus no pointwise scale-independent spikiness
+or bandwidth floor exists. Miller's proved Laplacian-eigenshell criterion adds
+the fixed-history boundary: finite-time breakdown forces divergent cumulative
+higher-order eigenshell deficit, while supplying no datum-finite bound. The
+physical open question is sustained faster-than-viscous centroid acceleration
+through one fixed terminal history. This is a new coordinate for the existing
+Gold signed-height burden, not a smaller theorem implying closure. Silver is
+unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
