@@ -530,7 +530,15 @@ density \(K/\pi\) can itself diverge. These bounds supply width and occupancy,
 not the sign of critical production, a source center, or a no-recount law
 along a shrinking sequence.
 
-### F1.10 Material ancestry does not distribute parent mass among later readouts
+### F1.10 Material ancestry does not distribute parent mass among later readouts in a selected proof coordinate
+
+This is a measure-theoretic boundary for a chosen charging or domination
+argument, not a physical multiplicity law.  The deterministic velocity field
+has one history.  Different observer-selected readouts of that history may
+overlap under a non-injective ancestry map, but their overlap creates no fluid
+event and carries no obstruction weight.  A bounded-fibre or no-recount theorem
+is relevant only to a proof that tries to dominate those selected readouts by a
+finite parent measure.
 
 F1.6 gives every specified terminal pair cohort a unique earlier material
 precursor.  It does not bound how many different future-selected cohorts may
@@ -3262,10 +3270,149 @@ global correlation is summed and still be available only after the response
 direction has formed.  Only source material whose propagated pairing with
 every later unpaid detector vanishes, or which is already in a proved paid,
 legal, or stop span, is historically shape-null.  Constructing and bounding
-the first nonzero source-to-future-shape incidence remains open.  The example
+the first nonzero material parent-to-future-shape admission remains open.  The example
 does not prove immediate critical-height growth: at \(t=0\), viscosity makes
 \(\mathcal H_{1/2}'=-3\nu/2<0\).  It proves the causal transition and the
 failure of instantaneous null routing.
+
+### F6.18 Spectral shape is a signed same-history state
+
+Retain the mean-free field, pressure-completed transport, and critical-shape
+variables of F6.10.  Write
+
+\[
+m=m_H=\frac KR,
+\qquad
+G=\Lambda^{1/2}(\Lambda-m)v,
+\qquad
+\mathcal S_m=\Lambda^{1/2}(\Lambda-m)B(v).
+\]
+
+The centering gives \(\langle G,\Lambda^{1/2}v\rangle=0\).  Along the one
+Navier--Stokes history, the exact moving-center equation is
+
+\[
+\partial_tG+\nu\Lambda^2G
+=-\mathcal S_m-m'\Lambda^{1/2}v.
+\]
+
+The last term is the connection produced by moving the mean frequency of the
+same field.  It preserves the centering constraint and cancels from the exact
+shape balance:
+
+\[
+\boxed{
+\frac12S_H'
++\nu\|\Lambda G\|_2^2
+=-\langle G,\mathcal S_m\rangle
+=N_3-2mN_2+m^2N_1.
+}
+\]
+
+Thus the source row, heat row, and moving center describe one evolving shape
+state.  The identity controls their signed net effect.  Replacing the signed
+source work by its positive part or total variation discards the cancellation
+and receives no bound from this identity.
+
+The causal ancestry is also exact.  Fix a terminal time \(T\), put
+\(m_T=m(T)\), and set
+
+\[
+G^T(t)=\Lambda^{1/2}(\Lambda-m_T)v(t),
+\qquad
+\mathcal S_T(t)=\Lambda^{1/2}(\Lambda-m_T)B(v(t)).
+\]
+
+For every earlier \(s<T\),
+
+\[
+\boxed{
+G(T)
+=e^{-\nu(T-s)\Lambda^2}G^T(s)
+-\int_s^T e^{-\nu(T-t)\Lambda^2}\mathcal S_T(t)\,dt.
+}
+\]
+
+Pairing with any terminal covector gives a signed backward detector on the
+same pressure-completed source history.  Every nonzero source-generated
+terminal shape read therefore has nonzero signed incidence at earlier times.
+This is detector-relative Eulerian ancestry.  Its terminal center and detector
+are future-fitted, and the formula distributes one terminal read across a
+continuum of earlier source points.  A material parent, a unique first
+admission, a positive common parent measure, and bounded descendant fibres
+require additional theorems; the Duhamel formula supplies none of those
+relations by itself.
+
+Shape variation cannot replace critical-height action.  For the exact
+finite-Fourier datum from F6.12,
+
+\[
+\psi=2\cos x+2\cos2y+2\cos(x+2y),
+\qquad
+U=(\partial_y\psi,-\partial_x\psi,0),
+\qquad
+v_0=bU,
+\]
+
+one has
+
+\[
+\begin{aligned}
+&M_1=18+10\sqrt5,\quad M_2=84,\quad
+M_3=66+50\sqrt5,\quad M_4=380,\quad
+M_5=258+250\sqrt5,\\
+&N_1=28-12\sqrt5>0,\qquad N_2=0,\qquad
+N_3=124-60\sqrt5.
+\end{aligned}
+\]
+
+With \(m=M_2/M_1\), the nonlinear shape production and centered viscous
+shape rate are
+
+\[
+C=N_3-2mN_2+m^2N_1
+=\frac4{121}(311569-139407\sqrt5)<0,
+\]
+
+\[
+Q=M_5-2mM_4+m^2M_3
+=\frac4{121}(-40107+18010\sqrt5)>0.
+\]
+
+Consequently
+
+\[
+\mathcal H_{1/2}'(0)
+=b^2\bigl[bN_1-\nu M_3\bigr]>0
+\]
+
+whenever
+
+\[
+b>\frac{\nu M_3}{N_1}
+=\frac\nu4(303+137\sqrt5),
+\]
+
+whereas
+
+\[
+S_H'(0)=2b^2(bC-\nu Q)<0.
+\]
+
+Moreover
+
+\[
+S_H(0)
+=\frac4{11}(2166-965\sqrt5)b^2>0.
+\]
+
+By smooth time continuity, the same solution has a positive interval on which
+its critical height rises while both \(S_H\) and \(\sqrt{S_H}\) decrease.
+Spectral shape is therefore a state that the participant can create, retain,
+recenter, and consume.  Its positive variation misses lawful critical growth;
+the active signed current in F6.10 still sees that growth.  This is a
+same-fluid pressure-completed Navier--Stokes counterexample, not a reduced
+model or a freely prescribed source history.
 
 ## F7. Anisotropic, directional, relational geometry
 

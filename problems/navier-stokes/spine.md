@@ -103,6 +103,22 @@ bounded fibres, and WLF.60 parent mass. A full datum bound for
 \(J_{\mathrm{pair}}\) is an alternative Gold-strength criterion. Silver is
 unchanged.
 
+Cycle 039 installs F6.18 and types spectral shape as a signed state of the one
+participant. Its exact moving-center equation contains the pressure-completed
+source, heat, and a mean-frequency connection; the connection preserves
+centering and cancels from the shape-energy balance. Terminal recentering gives
+an exact signed Duhamel ancestry for every endpoint shape detector. This proves
+global Eulerian source-to-future-shape attribution, while material parenthood,
+unique first admission, a positive common parent measure, bounded descendant
+fibres, and WLF.60 remain open. The exact F6.12 datum \(v_0=bU\) supplies the
+decisive currency test: above an explicit amplitude threshold, the same smooth
+Navier--Stokes solution has rising critical height while \(S_H\) and
+\(\sqrt{S_H}\) strictly decrease. Positive shape variation is therefore not a
+Gold control. The live WLF burden is narrowed to upgrading signed Eulerian
+ancestry into material parent-announced first admission with selected near-null
+control, causal bounded fibres, and datum-finite parent mass. Silver is
+unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
