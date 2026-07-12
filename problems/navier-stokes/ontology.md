@@ -1789,8 +1789,8 @@ b(\xi)=|\xi|^{-1}|\widehat B(\xi)|^2.
 \]
 
 Both are coordinates of the same simultaneous field; pressure is already
-included in \(B\). Set quotient densities to zero where \(\widehat B=0\).
-On \(\mathbb R^3\), use coarea to define
+included in \(B\). Set every quotient density to zero where its denominator
+vanishes. On \(\mathbb R^3\), use coarea to define
 
 \[
 C(\rho)=\int_{|\xi|=\rho}c(\xi)\,d\sigma_\rho,
@@ -1799,7 +1799,8 @@ C(\rho)=\int_{|\xi|=\rho}c(\xi)\,d\sigma_\rho,
 \]
 
 On \(\mathbb T^3\), the corresponding objects are the sums over each lattice
-shell \(|k|=\rho\), and every radial integral below is read as a sum. Then
+shell \(|k|=\rho\), and every Fourier or radial integral below is read as a
+sum. Then
 
 \[
 P_H=\int_0^\infty C(\rho)\,d\rho,
@@ -1963,8 +1964,8 @@ the viscous term is
 \ge0.
 \]
 
-Viscosity therefore lowers \(\kappa\), strictly unless the velocity spectrum
-lies on one radius. Any upward renewal of this whole-field mean frequency is
+The viscous part therefore lowers \(\kappa\), strictly unless the velocity
+spectrum lies on one radius. Any upward renewal of the full \(\kappa\) is
 created by the simultaneous pressure-completed nonlinear transport.
 
 The radial current profile in F6.11 gives every nonlinear Sobolev moment:
