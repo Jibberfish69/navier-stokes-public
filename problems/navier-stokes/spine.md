@@ -119,6 +119,12 @@ ancestry into material parent-announced first admission with selected near-null
 control, causal bounded fibres, and datum-finite parent mass. Silver is
 unchanged.
 
+Those WLF rows belong to the proposed measure-domination proof. They do not
+describe extra multiplicity in the deterministic fluid and carry no physical
+obstruction weight. F6.18 already gives the one signed Eulerian history; a
+localized material packet repeating a record-producing pulse at every shrinking
+scale remains unproved.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
