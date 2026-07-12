@@ -1429,7 +1429,11 @@ critical balance is \(\mathcal H_{1/2}'=-\nu D_J\), so the same large moment
 destroys rather than feeds the crest.  In the full three-dimensional system,
 nonlinear triads and the slaved pressure response can change modal amplitudes
 and phases; linear heat superposition supplies no strict full-VPI peak
-inequality.
+inequality.  Whenever a full-VPI ripple also lies on a rising critical-height
+record, the joined balance forces the exact instantaneous condition
+\(P_H\ge\nu D\).  Maintaining the coherent ripple then requires the
+pressure-completed nonlinear current of the same field to replenish at least
+the critical viscous moment it creates.
 
 The installed global critical height is a different readout:
 
