@@ -439,6 +439,79 @@ This coordinate is a readout of the one velocity field. Its acceleration
 still depends on the surrounding field through the complete nonlocal VPI
 response.
 
+### F1.9 Critical pair height has unavoidable separation width
+
+On decaying \(\mathbb R^3\), write
+
+\[
+H_{<r}(t)
+=\frac1{4\pi^2}
+\int_{|h|<r}
+\frac{\|u(\cdot+h,t)-u(\cdot,t)\|_2^2}{|h|^4}\,dh,
+\qquad
+H(t)=\mathcal H_{1/2}(t),
+\qquad
+K(t)=\|\nabla u(t)\|_2^2.
+\]
+
+The translation estimate
+
+\[
+\|u(\cdot+h)-u\|_2^2\le |h|^2K
+\]
+
+gives the exact radial-density bound
+
+\[
+H_{<r}\le\frac r\pi K,
+\qquad
+q(r,t):=\frac{dH_{<r}}{dr}
+=\frac1{4\pi^2r^2}
+\int_{S^2}\|u(\cdot+r\theta)-u\|_2^2\,d\theta
+\le\frac K\pi.
+\]
+
+The finite energy \(\mathcal E_0=\frac12\|u_0\|_2^2\) also gives
+
+\[
+H_{>R}(t)\le\frac{8\mathcal E_0}{\pi R}.
+\]
+
+Consequently, whenever \(H,K>0\), at least half of the critical height is
+carried by material pairs whose current separations lie in
+
+\[
+r_-(t)\le |X(a,t)-X(b,t)|\le r_+(t),
+\qquad
+r_-:=\frac{\pi H}{4K},
+\qquad
+r_+:=\frac{32\mathcal E_0}{\pi H}.
+\]
+
+More generally, every radial separation set carrying \(H/2\) has Lebesgue
+width at least \(\pi H/(2K)\). Product-volume preservation makes this a
+statement about one material-pair population throughout the smooth history.
+It is an annulus in pair separation over all centers and directions, not a
+physical collar around one selected source.
+
+The energy identity also yields the fixed-distance spacetime throughput laws
+
+\[
+\nu\int_0^T H_{<r}(t)\,dt
+\le\frac{\mathcal E_0r}{\pi},
+\qquad
+\nu\int_0^T q(r,t)\,dt
+\le\frac{\mathcal E_0}{\pi}
+\quad\text{for a.e. }r.
+\]
+
+Thus finite enstrophy forbids a zero-width atom of critical height at zero
+pair separation at each smooth time. A terminal sequence with \(H\to\infty\)
+forces the outer half-height scale \(r_+\to0\), while the allowed radial
+density \(K/\pi\) can itself diverge. These bounds supply width and occupancy,
+not the sign of critical production, a source center, or a no-recount law
+along a shrinking sequence.
+
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
 ### F2.1 Strain and vorticity are compatible derivatives of one velocity
@@ -1256,6 +1329,125 @@ events; an integrable logarithmic growth clock or a strict response ratio
 already carried by such a measure would suffice.  Establishing that joined
 bound from the original smooth datum is continuation-strength and is not
 asserted here.
+
+### F5.8 Ripple steepness has quadratic viscous cost; coherent height is a separate linear alignment
+
+For every absolutely continuous scalar trace \(f\) on an interval
+\([a,b]\),
+
+\[
+|f(b)-f(a)|^2
+\le (b-a)\int_a^b|f'(s)|^2\,ds.
+\]
+
+Summing this inequality over disjoint neighboring crest--trough intervals of a
+one-dimensional shear profile shows that jumps \(\Delta_j\) across spacings
+\(\ell_j\) force
+
+\[
+\int |F'|^2
+\ge \sum_j\frac{\Delta_j^2}{\ell_j}
+\]
+
+The same chord inequality holds for a general vector field and becomes a
+volumetric lower bound only after integration over a positive-measure family
+of transverse chords.  For comparable amplitude \(A\) and wavelength
+\(\ell\) across such a fixed region, the gradient-energy density is of order
+\(A^2/\ell^2\), and the global viscous expenditure rate is of order
+\(\nu A^2/\ell^2\).  On the declared boundary/decay surfaces,
+\(\|\nabla u\|_2^2=2\|S\|_2^2\), so this aggregate gradient cost is exactly
+the global viscous dissipation row.  It belongs to the Dirichlet form of the
+one incompressible field; individual crests do not own separate viscous
+accounts.
+
+The statement is exact in the anisotropic shear sector.  On \(\mathbb T^3\),
+
+\[
+u(t,x)=F(t,x_2,x_3)e_1,
+\qquad p=\text{constant},
+\]
+
+solves Navier--Stokes precisely when \(F_t=\nu\Delta_{x_2,x_3}F\).  In
+unitary Fourier coordinates,
+
+\[
+F(t,z)=\sum_{k\ne0}a_ke^{-\nu|k|^2t}e^{ik\cdot z},
+\qquad
+\frac12\frac d{dt}\|F\|_2^2
+=-\nu\|\nabla F\|_2^2
+=-\nu\sum_{k\ne0}|k|^2|a_k|^2.
+\]
+
+At a point where the phases align, the visible crest obeys
+
+\[
+|F(t,z_*)|
+\le\sum_{k\ne0}|a_k|e^{-\nu|k|^2t}.
+\]
+
+Two equal frequency-\(k\) contributions of initial amplitude \(A\) therefore
+produce at most \(2Ae^{-\nu|k|^2t}<2A\) after any positive time.  There is no
+scale-independent strict fraction when \(\nu|k|^2t\) is allowed to approach
+zero.  Heat has infinite propagation speed, so this is attenuation over an
+elapsed response time rather than literal finite-speed wave travel.
+
+Quadratic cost alone does not bound constructive pointwise height in three
+dimensions.  Let \(N_j=2^j\), take \(M_j\asymp N_j^2\) transverse Fourier
+modes in a dyadic block with all phases and polarizations aligned at the
+origin, and give each mode amplitude
+
+\[
+a_j=\frac1{jN_j^2}.
+\]
+
+The finite truncations are smooth divergence-free exact shears and satisfy
+
+\[
+\sup_J\|u_J\|_2^2<\infty,
+\qquad
+\sup_J\|\nabla u_J\|_2^2
+\lesssim\sum_{j\ge1}\frac1{j^2}<\infty,
+\qquad
+|u_J(0)|\asymp\sum_{j\le J}\frac1j\longrightarrow\infty.
+\]
+
+The next frequency moment does see the pileup:
+
+\[
+D_J:=\|\Lambda^{3/2}u_J\|_2^2
+\asymp\sum_{j\le J}\frac{N_j}{j^2}
+\longrightarrow\infty.
+\]
+
+Every one of these shears subsequently decays by the heat law.  The family
+proves that finite kinetic energy and finite instantaneous viscous square cost
+do not impose a universal pointwise maximum-spikiness bound across smooth
+data.  It also proves that the inverse-distance critical viscous moment detects
+the maximally coherent ripple missed by the finite raw dissipation budget.  In
+this shear sector the pressure-completed nonlinear production is zero and the
+critical balance is \(\mathcal H_{1/2}'=-\nu D_J\), so the same large moment
+destroys rather than feeds the crest.  In the full three-dimensional system,
+nonlinear triads and the slaved pressure response can change modal amplitudes
+and phases; linear heat superposition supplies no strict full-VPI peak
+inequality.
+
+The installed global critical height is a different readout:
+
+\[
+\mathcal H_{1/2}
+=\frac12\sum_k|k|\,|\widehat u(k)|^2.
+\]
+
+At fixed Fourier magnitudes it is unchanged by phase alignment.  A visible
+constructive spike becomes a critical-height event only when the same-field
+nonlinear current changes the magnitudes or when an exact localized carrier
+bridge proves that the local event raises this global record.  The resulting
+square-versus-linear obstruction has the same algebraic shape as the installed
+WLF half-tail: a finite quadratic reserve need not control a positively
+selected linear sum.  No theorem currently identifies the physical ripple
+amplitudes with the WLF detector carrier, bounds the coherent sum by
+\(A_H\) or \(J_{\rm rad}\), or supplies the required datum-finite no-recount
+measure.
 
 ## F6. Vorticity production and coupled scale interaction
 

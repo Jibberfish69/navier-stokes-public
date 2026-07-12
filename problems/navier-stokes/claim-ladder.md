@@ -42,6 +42,23 @@ bridge. Silver is unchanged. This result supersedes lower Gold language that
 treats a velocity centroid, unsigned spectral spread, finite unweighted mass,
 or route bookkeeping as control of critical growth.
 
+Fourth live gate result, 2026-07-12: Cycle 034 installs ontology F1.9,
+F5.7, and F5.8. Critical pair height has bounded radial density and at least
+half of it occupies a positive-width material-pair separation annulus at every
+smooth time. The exact core--annulus stress identity and the heat clock type
+the source-centered and later/displaced response problems without assigning a
+delay to pressure. Crest--trough steepness has quadratic whole-field viscous
+cost, while coherent pointwise height adds linearly. Exact anisotropic shears
+show both that energy and enstrophy alone cannot bound a coherent crest and
+that the critical viscous moment detects the pileup and damps it when nonlinear
+production is absent. Fourier phase alignment alone leaves the global critical
+height unchanged. Gold therefore needs an exact same-history bridge from local
+coherence to critical production together with a datum-finite
+inverse-distance/no-recount bound, or direct control of \(A_H\),
+\(J_{\mathrm{rad}}\), or critical height. The WLF half-tail is the same
+square-versus-linear obstruction type, not yet the same proved physical
+carrier. Silver is unchanged.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |

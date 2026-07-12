@@ -27,6 +27,19 @@ WLF.60 and ODP.91 remain possible localization suppliers only through an exact
 bridge to \(A_H\), the stronger radial action, or directly to critical-height
 control. Silver is unchanged.
 
+Cycle 034 installs F1.9, F5.7, and F5.8. The core--annulus telescope and heat
+clock type the two response-rate questions inside one VPI history. Critical
+pair height has unavoidable radial separation width, while ripple steepness is
+quadratically viscous and pointwise coherent height is linear. Exact shears
+show that finite energy and enstrophy can miss a large coherent crest, while
+the critical viscous first moment detects and damps that pileup. Phase
+alignment alone does not change global critical height. The ripple and annulus
+picture therefore returns to the existing Gold wall: attach local coherence
+to the signed critical current and pay its inverse-distance first moment on a
+datum-finite same-history no-recount measure. Its square-versus-linear shape
+matches the WLF half-tail algebraically; the carrier bridge remains unproved.
+Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
@@ -70,7 +83,7 @@ Clean labels:
 ## Route Summary
 
 - Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at datum control of the exact F6.10 action \(A_H\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), an exact localization bridge supplying either bound, or another direct critical-height theorem. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Honest current status: Gold is open at datum control of the exact F6.10 action \(A_H\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), a same-history local-coherence/annular-incidence bridge with datum-finite inverse-distance no-recount control, or another direct critical-height theorem. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
 - Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
 - Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 
@@ -80,7 +93,7 @@ Clean labels:
    The object is the same original smooth Navier-Stokes datum, interval, and theorem burden for both lanes.
 
 2. Run Gold on that object.
-   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact coherent action criterion; F6.11 gives a stronger radial-current first moment with finite base mass and terminal frequency escape. Both first moments remain uncontrolled. Local owner, first-admission, and order-lock machinery has Gold force only after an exact bridge to one of those actions or directly to the critical-height bound.
+   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact coherent action criterion; F6.11 gives a stronger radial-current first moment with finite base mass and terminal frequency escape. F1.9 and F5.8 show that pair width and ripple dissipation detect the same inverse-distance pressure without controlling its signed renewal. Both first moments remain uncontrolled. Local owner, first-admission, annular response, and order-lock machinery has Gold force only after an exact bridge to one of those actions or directly to the critical-height bound.
 
 3. Run Silver on that object.
    Silver tries to prove that the obstruction-world has no valid inhabitant. In CM terms, the alleged finite-time Clay terminal witness enters the participation-field tree without being assumed to be `Member(Q)`.
