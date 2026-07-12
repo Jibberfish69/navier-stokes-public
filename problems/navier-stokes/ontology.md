@@ -3538,7 +3538,18 @@ Its three radii are
 \]
 
 so \(\rho_+/\rho_-\to1\) along the infinite Pell sequence.  Direct
-Fourier calculation gives \(N_2(U_n)=0\) and
+Fourier calculation gives the three shell currents
+
+\[
+T_0=-16n^2h,
+\qquad
+T_-=8nh(n+1),
+\qquad
+T_+=8nh(n-1),
+\]
+
+and hence \(N_q(U_n)=\sum_jT_j\rho_j^q\).  In particular,
+\(N_2(U_n)=0\) and
 
 \[
 N_1(U_n)=4hn\,\beta_n,
@@ -3550,7 +3561,19 @@ N_1(U_n)=4hn\,\beta_n,
 =-\frac14+O(n^{-2}).
 \]
 
-Hence \(N_1(U_n)<0\) for all sufficiently large Pell solutions.  For
+In fact \(\beta_n<0\) for every \(n>1\).  The sign reduces to
+
+\[
+(n-1)\rho_+ +(n+1)\rho_-<4n^2,
+\]
+
+whose strict square certificate is
+
+\[
+4(2n^2+1)^2-\rho_+^2\rho_-^2=4n^2>0.
+\]
+
+Hence \(N_1(U_n)<0\) for every nontrivial Pell solution.  For
 \(v_0=-bU_n\),
 
 \[

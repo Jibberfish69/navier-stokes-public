@@ -66,7 +66,8 @@ typed as nonparticipation. The source does not supply that implication.
 
 ## Assumption 2: same-time pressure row kills W8's selected-linear bill
 
-This assumption is false as a proof step. Pressure is instantaneous and slaved
+This assumption is false as a proof step. The complete participation tangent is
+simultaneous at each time, and pressure is its slaved nonlocal elliptic row
 to the current velocity-gradient field. W8 is not a claim that a child event
 creates a second source later. It is the finiteness of the selected-linear
 parent-weighted first-admission bill before the later positive readout can

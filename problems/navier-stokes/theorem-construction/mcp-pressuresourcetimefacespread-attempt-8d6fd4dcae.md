@@ -31,7 +31,7 @@ TemporalNonAtomicSource.A.
 
 ## Test
 
-Pressure recovery is elliptic at each time.  It can see the instantaneous terminal source geometry, while carrying no automatic time-spreading information.  A shrinking terminal layer can produce a nontrivial pressure/eigenframe trace while its time marginal converges to a terminal atom.
+Pressure recovery is elliptic at each participant time.  It can see the same-time terminal source geometry, while carrying no automatic time-spreading information.  A shrinking terminal layer can produce a nontrivial pressure/eigenframe trace while its time marginal converges to a terminal atom.
 
 The installed pressure-Hessian and eigenframe tools control signed near-band sustain.  They do not imply super-`L^1` time integrability of the native positive source measure.
 

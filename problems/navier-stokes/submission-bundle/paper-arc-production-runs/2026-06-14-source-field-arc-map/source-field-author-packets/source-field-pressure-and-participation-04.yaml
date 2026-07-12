@@ -268,7 +268,7 @@ chunk:
       or any equivalent super-\(L^1_t\) source-marginal gain strong enough to rule out
       a terminal atom.
 
-      Pressure recovery is elliptic at each time.  It sees the instantaneous terminal
+      Pressure recovery is elliptic at each participant time.  It sees the same-time terminal
       source geometry, while carrying no automatic time-spreading information.  The
       model concentration
 
@@ -685,7 +685,7 @@ chunk:
     or any equivalent super-\(L^1_t\) source-marginal gain strong enough to rule out
     a terminal atom.
 
-    Pressure recovery is elliptic at each time.  It sees the instantaneous terminal
+    Pressure recovery is elliptic at each participant time.  It sees the same-time terminal
     source geometry, while carrying no automatic time-spreading information.  The
     model concentration
 

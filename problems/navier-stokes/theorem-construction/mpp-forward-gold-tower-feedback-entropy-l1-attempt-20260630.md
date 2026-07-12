@@ -10673,7 +10673,7 @@ Z_P(t)
 \tag{TFE.715}
 \]
 
-The pressure side is the instantaneous compatibility/co-ordination map
+Within the same-time participation tangent, pressure supplies the elliptic compatibility/co-ordination map
 
 \[
 Z_P(t)\longmapsto \mathcal C_P(t)Z_P(t),
@@ -14336,7 +14336,7 @@ Z_{\rm ex}^S,
 where \(Z_{\rm vis}^S\) is the pressure-Hodge/Schur visible carrier,
 \(Z_{\rm sil}^S\) is the boundary-flat pressure-potential bubble carrier, and
 \(Z_{\rm ex}^S\) is the strain, frame, Hessian, and exchange carrier.  This is
-the repo-accurate version of the physical picture: pressure gives instantaneous
+the repo-accurate version of the physical picture: within the same-time participation tangent, pressure supplies
 compatibility, viscosity/heat gives delayed readable velocity and strain, and
 the new velocity/strain/frame state feeds back into the next pressure-compatible
 coordinate.  The parent object is the whole feedback coordinate, not pressure
@@ -14667,7 +14667,7 @@ possibilities.  It is the active count of packet futures still reachable by the
 same coupled pressure-viscosity-incompressibility-velocity history before a
 child clips a positive readout.
 
-Pressure supplies the instantaneous compatibility re-coordination of the whole
+Within the same-time participation tangent, pressure supplies the compatibility re-coordination of the whole
 packet.  Heat/viscosity turns that compatibility change into delayed readable
 velocity/strain and deletes high-frequency futures.  Self-advection moves the
 packet and changes the measuring frame.  The feedback loop is real: after a
@@ -16525,7 +16525,7 @@ dR_P^{paid}+dStop_P,
 \]
 
 The physical story needed to close \(L^1\) is now exact.  The fluid may
-instantaneously re-coordinate pressure compatibility and may delay readable
+re-coordinate pressure compatibility within the same-time participation tangent and may delay readable
 velocity/strain through heat time, but the active state count decreases only if
 the selected density is parent-known, every new selected seed has a
 selected-scale original reserve, and the endpoint trace has enough temporal
@@ -26523,7 +26523,7 @@ physical story is made exact.
 
 ## 154. Affine-balanced branch: root-fixed no-Zeno fork
 
-The affine-balanced branch cannot be killed by instantaneous pressure
+The affine-balanced branch cannot be killed by same-time pressure row
 nonlocality alone.  On each time slice, pressure attaches the affine visit to
 the incompressible packet through
 
@@ -27213,7 +27213,7 @@ not yet give the needed terminal-uniform \(L^1\) control.  They see the pulse
 and locate its parent, but they do not force it to spread in time.
 
 This is exactly where the pressure/heat/viscosity physical story becomes
-load-bearing.  Pressure is elliptic in space and instantaneous in time:
+load-bearing.  At each participant time, pressure is recovered by the spatial elliptic constraint:
 
 \[
 p(t)=R_iR_j(u_i u_j)(t).

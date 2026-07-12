@@ -223,6 +223,6 @@ the station. Since the shear cell has \(u_h(0)=0\) and \(\nabla u_h(0)=0\), the
 producer's local strain, vorticity, and production are unchanged there. The
 cross pressure source \(B:C+C:B\) is a sum of single sine modes, and those modes
 have zero pressure Hessian at the origin. Thus the shear-cell Hessian service is
-additive at instantaneous periodic-cell level; the live pressure branch is now
+additive at same-time periodic-cell level; the live pressure branch is now
 supercritical non-affine/broadband same-fluid transport, the Reynolds-edge
 bridge, Gate-8 no-recount allocation/compensator, or construction.
