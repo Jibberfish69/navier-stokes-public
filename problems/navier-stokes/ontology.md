@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 033.
+**Current promoted checkpoint:** Cycle 034.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -996,6 +996,266 @@ Thus viscosity can temporarily increase the squared relative speed of an
 individual material pair while remaining the global critical sink displayed
 above. Its dissipative sign cannot be assigned pairwise, directionwise, or to
 an independently selected reciprocal cohort.
+
+### F5.7 Finite viscous expenditure has a parabolic distance rate and an uncontrolled inverse-distance moment
+
+Kinetic energy has a balance law, not an independently transported material
+identity.  For a region \(\Omega(t)\) whose boundary has normal speed \(V_n\),
+the stress \(\sigma=-pI+2\nu S\) gives
+
+\[
+\frac d{dt}\int_{\Omega(t)}\frac{|u|^2}{2}\,dx
+=
+\int_{\partial\Omega(t)}u\cdot\sigma n\,dS
++\int_{\partial\Omega(t)}\frac{|u|^2}{2}
+\bigl(V_n-u\cdot n\bigr)\,dS
+-2\nu\int_{\Omega(t)}|S|^2\,dx.
+\]
+
+For a material region the middle term vanishes.  Its kinetic energy can then
+change only through the joined pressure--viscous stress work of the same fluid
+and the positive interior viscous expenditure.  For a shrinking, expanding,
+or otherwise selected region, the middle term records recruitment or
+abandonment by the observational boundary and cannot be called fluid
+transfer.
+
+A source core and its responding annulus are different regions of this one
+event.  Let material volumes \(\Omega_0(t)\subset\Omega_1(t)\) enclose the
+core, let \(A(t)=\Omega_1(t)\setminus\overline{\Omega_0(t)}\), and let
+\(W_j\) be the outward-boundary stress work on \(\Omega_j\).  Integration on
+the annulus gives the exact relay identity
+
+\[
+W_0(I)
+=W_1(I)
+-\bigl(E_A(t_2)-E_A(t_1)\bigr)
+-2\nu\int_I\int_A|S|^2\,dx\,dt.
+\]
+
+Thus energy delivered to the core is not dissipated at the source by
+definition.  It can be supplied through outer stress work or depletion of
+kinetic energy already stored in the annulus, while annular viscosity removes
+part of that relay.  Adding successive annuli adds their dissipation and
+storage changes to the same telescope.  A wider responding field is therefore
+more dissipative only after outer replenishment and annular storage release
+are kept in the same account.  The location of the viscous expenditure is
+determined by the strain field: a flat-core pulse places it mainly in the
+transition annulus, whereas a general vortex or anisotropic packet need not.
+
+The positive irreversible expenditure measure is
+
+\[
+d\mathfrak d_\nu=2\nu|S|^2\,dx\,dt,
+\qquad
+\mathfrak d_\nu(\mathbb R^3\times[0,T])
+=\mathcal E(0)-\mathcal E(T)
+\le\mathcal E_0,
+\]
+
+with the analogous periodic identity.  Viscosity also redistributes kinetic
+energy across a fixed cutoff boundary.  If
+\(\phi_r(x)=\phi((x-x_0)/r)\), with its derivatives supported in a collar
+\(A_r\), the viscous exchange row in the localized energy identity is
+
+\[
+V_r(t)
+=\frac\nu2\int |u|^2\Delta\phi_r\,dx,
+\qquad
+|V_r(t)|
+\le C\frac\nu{r^2}\int_{A_r}|u|^2\,dx.
+\]
+
+Thus \(r^2/\nu\) is the characteristic viscous time across distance \(r\).
+It is not a finite propagation time: the heat kernel is nonzero at every
+distance for every positive time, and the slaved pressure response is
+instantaneous and nonlocal.
+
+There are consequently two different rate questions.  For a smooth
+source-centered first response, the core height and the same-material annular
+stress/strain response begin in one bounded classical record.  For a later or
+displaced concentration, incoming stress work and nonlinear focusing can
+build a new core, and the dangerous question is whether the annular response
+can lag that growth on the shrinking active scale.
+
+The system is unforced.  “Source” or “injection” in this description means the
+first local activation or record of energy already belonging to the declared
+datum-anchored history; it is not an external addition of energy.
+
+This distinction is already visible in the local clock ratio.  Put
+
+\[
+\delta_ru(t)
+=\sup_{|x-y|\le r}|u(x,t)-u(y,t)|,
+\qquad
+\operatorname{Re}_r(t)=\frac{r\,\delta_ru(t)}\nu.
+\]
+
+At every fixed smooth time,
+
+\[
+\operatorname{Re}_r(t)
+\le\frac{r^2}{\nu}\|\nabla u(t)\|_\infty
+\longrightarrow0
+\qquad(r\downarrow0).
+\]
+
+Equivalently, the local turnover clock \(r/\delta_ru\) is longer than the
+viscous clock \(r^2/\nu\) at sufficiently small radii.  This is a clock
+comparison, not a local regularity theorem: the surrounding strain and the
+nonlocal pressure remain in the VPI response.  A later terminal scenario
+represented by this admitted core--annulus mechanism must drive the crossover
+radius where \(\operatorname{Re}_r\) is order one toward zero while preserving
+the corresponding normalized record.  This does not assert that every
+terminal scenario already has that representation.
+
+Normalize one heat-scale region by
+
+\[
+U(y,s)
+=\frac r\nu
+u\!\left(t_0+\frac{r^2}{\nu}s,x_0+ry\right),
+\qquad
+Q(y,s)
+=\frac{r^2}{\nu^2}
+p\!\left(t_0+\frac{r^2}{\nu}s,x_0+ry\right).
+\]
+
+The normalized pair solves the viscosity-one Navier--Stokes system.  On a
+unit normalized interval, the physical storage, integrated interior
+expenditure, and integrated joined boundary work all obey the same exact
+scaling:
+
+\[
+E_r=\nu^2r\,\widetilde E,
+\qquad
+\mathfrak D_r=\nu^2r\,\widetilde{\mathfrak D},
+\qquad
+\mathfrak J_r=\nu^2r\,\widetilde{\mathfrak J}.
+\]
+
+The corresponding power unit is \(\nu^3/r\).  Dividing the physical
+expenditure by \(r\) is therefore the scale-critical valuation of one
+smallest heat step.  Raw expenditure is radius-discounted; critical
+expenditure is its inverse-distance moment.
+
+This distinction is sharp.  On \(\mathbb T^3\), for every integer \(N\),
+
+\[
+u_N(t,x)
+=A e^{-\nu N^2t}\sin(Nx_2)e_1,
+\qquad p_N=0,
+\]
+
+is an exact anisotropic Navier--Stokes shear and
+
+\[
+\mathcal E_N(t)=\mathcal E_N(0)e^{-2\nu N^2t},
+\qquad
+-\mathcal E_N'(0)=2\nu N^2\mathcal E_N(0).
+\]
+
+At fixed initial energy the instantaneous viscous expenditure rate is
+therefore unbounded across smooth data as \(N\to\infty\).  In one heat time
+\((\nu N^2)^{-1}\), the same shear spends the fixed fraction \(1-e^{-2}\).
+It creates no rising critical-height record.
+
+The same inverse-length gap appears in the exact spectral expenditure
+measure.  With the mean-free field \(v\) of F6.10, set
+
+\[
+d\mathfrak d_\nu^{\rm sp}(\rho,t)
+=\nu\rho^2
+\int_{|\xi|=\rho}|\widehat v(\xi,t)|^2\,d\sigma_\rho
+\,d\rho\,dt,
+\]
+
+and read this as a shell sum on \(\mathbb T^3\).  Then
+
+\[
+\int d\mathfrak d_\nu^{\rm sp}
+=\nu\int_0^T K(t)\,dt
+\le\mathcal E_0,
+\qquad
+\int\rho\,d\mathfrak d_\nu^{\rm sp}
+=\nu\int_0^T D(t)\,dt.
+\]
+
+Shellwise Cauchy--Schwarz in F6.11 gives the measure domination
+
+\[
+\nu\,d\mu_{\rm rad}
+\le d\mathfrak d_\nu^{\rm sp}.
+\]
+
+Thus the datum-finite radial current-alignment measure is financed by the raw
+viscous-expenditure measure, while its Gold-relevant action
+\(\nu J_{\rm rad}\,dt=\int\rho\,\nu d\mu_{\rm rad}\) is an
+inverse-distance first moment.  The equality \(\rho=r^{-1}\) here is the
+scale correspondence; it is not an exact localization of a Fourier shell in
+one material region.
+
+First critical-height records have a separate exact, fully joined material
+cost.  With the pair density \(e_{ab}\) from F1.7 and
+
+\[
+d\Pi_t(a,b)=\frac{e_{ab}(t)}{\mathcal H_{1/2}(t)}\,da\,db,
+\qquad
+g_{ab}=-4\alpha_{ab}+2\chi_{ab},
+\]
+
+F1.7--F1.8 give
+
+\[
+\frac d{dt}\log\mathcal H_{1/2}
+=\int g_{ab}\,d\Pi_t.
+\]
+
+Every first doubling interval \(I\) consequently satisfies
+
+\[
+\int_I\int g_{ab}\,d\Pi_t\,dt=\log2,
+\qquad
+\int_I\int[g_{ab}]_+\,d\Pi_t\,dt\ge\log2.
+\]
+
+Here \(g\) contains material compression and the complete nonlocal
+pressure--viscous relative acceleration.  No proved theorem identifies this
+action with the expenditure of a selected material heat cell or bounds it by
+the inverse-distance moment above.
+
+For a geometric scale chain \(r_j=2^{-j}r_0\), both
+\(\sum_jr_j^2/\nu\) and \(\sum_j\nu^2r_j\) are finite, while
+
+\[
+\sum_j\frac1{r_j}\,\nu^2r_j=\infty.
+\]
+
+This is exact scale arithmetic, not the construction of a terminal
+Navier--Stokes history.  It proves that finite time, finite raw energy
+expenditure, literal non-reuse of dissipated energy, and one heat clock per
+scale do not control the normalized number of critical steps.  Gold requires
+two joined scale-uniform facts.  First, the actual core record must be attached
+to the same-history annular stress/strain return before positive selection.
+Second, the response must have a uniform normalized modulus or a strict
+same-carrier annular share between consecutive microscopes.  The minimal
+nonconcentration statement is weaker: same-carrier nested-core tightness; a
+fixed-fraction annular share is one sufficient reverse-doubling route to it,
+not an automatic consequence of finite mass or non-atomicity.  The retained
+material-annulus identity supplies the first fact only after the annular
+record is admitted; it does not prove uniform retention, nested-core
+tightness, the stronger annular-share lower bound, or the inverse-distance
+first-admission moment.
+
+A finite slope at each preterminal time is not enough: a family of smooth
+response curves can concentrate its rise into intervals whose slopes diverge
+as the active radius tends to zero.  Even a fixed normalized heat-time window
+at every geometric scale has summable physical duration.  Excluding Zeno
+therefore requires core-to-annulus incidence, a uniform response modulus, and
+a datum-finite bounded-overlap or no-recount measure for those normalized
+events; an integrable logarithmic growth clock or a strict response ratio
+already carried by such a measure would suffice.  Establishing that joined
+bound from the original smooth datum is continuation-strength and is not
+asserted here.
 
 ## F6. Vorticity production and coupled scale interaction
 
