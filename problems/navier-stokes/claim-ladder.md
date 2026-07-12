@@ -21,13 +21,26 @@ result; no smaller Gold theorem has yet been installed.
 Second live gate result, 2026-07-12: ontology F6.10 proves that
 pressure-completed nonlinear transport changes critical height only through the
 spectral-shape direction, and isolates \(A_H\) as the portion actually used by
-the current. Its base measure is datum-finite; its \(D/K\)-weighted first
-moment is exactly the uncontrolled scale-critical action. This is a
-regularity-equivalent global criterion, not a smaller Gold theorem. WLF.60 and
-ODP.91 have Gold force only after an exact bridge to this action or directly to
-critical-height control. Silver is unchanged. This paragraph supersedes lower
-Gold language that treats unsigned spectral spread, a finite unweighted
-measure, or route bookkeeping as control of critical growth.
+the current. The resulting action is a regularity-equivalent global criterion,
+not a smaller Gold theorem. Cycle 033 corrects the frequency interpretation of
+its first finite-mass factorization: \(D/K\) belongs to the whole velocity
+field and does not locate the current.
+
+Third live gate result, 2026-07-12: ontology F6.11--F6.12 derives the exact
+signed radial current profile of the same pressure-completed transport.
+Within-shell angular rearrangement, between-shell radial counterflow, and the
+coherent net critical current form a proved nested hierarchy. Its radial
+positive action has datum-finite base mass, and an infinite terminal doubling
+ladder forces its first moment beyond every fixed frequency. Viscosity lowers
+the whole-state mean frequency, while explicit smooth same-solution data prove
+that nonlinear mean-frequency renewal and critical-height growth are
+pointwise independent moments of the signed radial profile. Gold remains open
+at datum control of \(A_H\), the stronger radial action \(J_{\mathrm{rad}}\),
+an exact localization bridge supplying one of those bounds, or another direct
+critical-height theorem. WLF.60 and ODP.91 have Gold force only after that
+bridge. Silver is unchanged. This result supersedes lower Gold language that
+treats a velocity centroid, unsigned spectral spread, finite unweighted mass,
+or route bookkeeping as control of critical growth.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
