@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 034.
+**Current promoted checkpoint:** Cycle 035.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -487,6 +487,24 @@ r_-:=\frac{\pi H}{4K},
 \qquad
 r_+:=\frac{32\mathcal E_0}{\pi H}.
 \]
+
+With \(D=\|\Lambda^{3/2}u\|_2^2\), log-convexity and F5.5 give the exact
+global cross-coordinate bounds
+
+\[
+\frac DK
+\ge\frac{K}{2H}
+=\frac{\pi}{8r_-},
+\qquad
+\frac DK
+\ge\frac{H}{\mathcal E_0}
+=\frac{32}{\pi r_+}.
+\]
+
+Thus the whole-field viscous first moment sees at least the inverse of the
+pair-height width.  Both sides are global marginals; this identity does not
+prove that the spectral component paying \(D/K\) is the material-pair carrier
+that raises \(H\).
 
 More generally, every radial separation set carrying \(H/2\) has Lebesgue
 width at least \(\pi H/(2K)\). Product-volume preservation makes this a
@@ -2493,6 +2511,152 @@ controls repeated renewal must use the one field's material-time history or
 additional exact structure; neither the viscous covariance nor velocity
 moments alone supplies it.
 
+### F6.13 A rising critical ripple pays at the heat rate of its pair width, with no uniform efficiency margin
+
+Retain the mean-free variables of F6.10--F6.12 and put
+
+\[
+R=2\mathcal H_{1/2},
+\qquad
+F=\|\Lambda^{-1/2}B(v)\|_2^2.
+\]
+
+At every nonzero rising time, \(R'>0\), the joined critical balance gives
+
+\[
+P_H=\nu D+\frac{R'}2>0.
+\]
+
+The product estimate \(F\le C_\Omega^2RD\), the definition of \(A_H\), and
+the hierarchy in F6.11 therefore give
+
+\[
+D\ge J_{\rm sp}\ge J_{\rm rad}\ge A_H
+\ge
+\frac{(\nu D+R'/2)^2}{C_\Omega^2RD}
+\ge
+\frac{\nu^2D}{C_\Omega^2R}.
+\]
+
+Optimizing the middle expression in \(D\) also yields
+
+\[
+A_H,\ J_{\rm rad},\ J_{\rm sp}
+\ge
+\frac{2\nu}{C_\Omega^2}\frac{R'}R.
+\]
+
+This recovers the fixed \(2\nu\log2/C_\Omega^2\) action quantum on every
+first critical-height doubling.  It does not produce a larger quantum at
+higher records.
+
+The pair-width bridge in F1.9 sharpens the instantaneous rate:
+
+\[
+A_H,\ J_{\rm rad},\ J_{\rm sp}
+\ge
+\frac{1024\nu^2}
+{\pi^2C_\Omega^2r_+^2}
+\qquad\text{whenever }R'>0.
+\]
+
+Thus the coherent action required to maintain a rising ripple grows at least
+like the viscous heat rate of its outer half-height separation scale.  Under
+Navier--Stokes scaling, the rate grows like \(r_+^{-2}\), the heat time shrinks
+like \(r_+^2\), and their product remains scale invariant.
+
+The terminal packing has the same parabolic form.  Under the terminal scope
+of F4.4, let \(M_n=2^nM_0\), let \(I_n\) be the last-doubling intervals of
+F6.5, and set
+
+\[
+r_{+,n}=\frac{32\mathcal E_0}{\pi M_n}.
+\]
+
+Then
+
+\[
+|I_n|
+\le\frac{\pi^2}{4096}\frac{r_{+,n}^2}{\nu},
+\qquad
+\sum_{j\ge n}|I_j|
+\le\frac{\pi^2}{3072}\frac{r_{+,n}^2}{\nu}.
+\]
+
+This is exact time-length packing, not an action upper bound.  On a first
+doubling from \(M\) to \(2M\), with
+\(G=\{t:\mathcal H_{1/2}'(t)>0\}\), one also has
+
+\[
+\int_GD\,dt\ge\frac{\sqrt M}{2C_\Omega},
+\qquad
+\int_GF\,dt\ge\frac{\nu^2\sqrt M}{2C_\Omega}.
+\]
+
+These are growing record charges with no datum-finite upper budget.
+
+Energy tangency makes radial current strictly more informative than global
+coherence at every rising time.  With
+
+\[
+I_j=\int_0^\infty\rho^{-j}\mathcal B(\rho)\,d\rho,
+\qquad I_0=F,
+\]
+
+and the displayed inverse moments finite, the constraint
+\(\int\rho^{-1}C(\rho)\,d\rho=0\) gives
+
+\[
+P_H^2
+\le
+J_{\rm rad}\left(I_0-\frac{I_1^2}{I_2}\right),
+\qquad
+J_{\rm rad}>A_H.
+\]
+
+The strict gap has no uniform factor because the inverse-moment correction is
+state dependent.
+
+This loss of uniform efficiency is sharp.  On the normalized torus, let
+
+\[
+u_{a,\varepsilon}
+=a\bigl(0,2\cos(x+\varepsilon),-2\cos y-2\cos(x+y)\bigr).
+\]
+
+It is an exact smooth triangular Navier--Stokes datum with constant pressure,
+and
+
+\[
+P_H=2(\sqrt2-1)a^3\sin\varepsilon,
+\qquad
+D=4(1+\sqrt2)a^2,
+\]
+
+\[
+J_{\rm rad}=2(1+\sqrt2)a^2\sin^2\varepsilon,
+\qquad
+A_H=
+\frac{2(\sqrt2-1)^2}{1+\sqrt2+1/\sqrt5}
+a^2\sin^2\varepsilon.
+\]
+
+Taking
+
+\[
+a=\frac c{\sin\varepsilon},
+\qquad
+c>2\nu(3+2\sqrt2),
+\]
+
+makes \(\mathcal H_{1/2}'>0\), while \(D\) and the aligned crest
+\(|u_3(0)|=4a\) diverge and \(A_H,J_{\rm rad}\) stay fixed as
+\(\varepsilon\downarrow0\).  The cubic pressure-completed production can
+balance quadratic viscosity with an orientation defect tending to zero.
+This varying-data family disproves every datum-independent instantaneous
+spikiness, phase-width, or action-efficiency gap.  It is globally smooth and
+does not construct a fixed-datum terminal history.
+
 ## F7. Anisotropic, directional, relational geometry
 
 ### F7.1 Nonzero incompressible strain is necessarily anisotropic
@@ -2670,6 +2834,56 @@ activity depend on the component's oriented relation to the rest of the
 field. A null sector is lawful only when the complete Navier--Stokes equation
 proves the corresponding decoupling or invariant subspace; scalar moments and
 same-field membership alone do not prove it.
+
+### F7.8 Local ripple growth and global critical growth are distinct relational events
+
+Fix a unit direction \(e\) and put \(f=e\cdot u\).  Let \(x_+(t)\) and
+\(x_-(t)\) be smooth curves of a local crest and neighboring trough of \(f\).
+At those extrema, \(\nabla f=0\), so transport and the motion of the selected
+extrema make no instantaneous contribution.  The exact amplitude law is
+
+\[
+\frac d{dt}\bigl[f(x_+,t)-f(x_-,t)\bigr]
+=-e\cdot\bigl[\nabla p(x_+,t)-\nabla p(x_-,t)\bigr]
++\nu\bigl[\Delta f(x_+,t)-\Delta f(x_-,t)\bigr].
+\]
+
+The viscous bracket is nonpositive.  A component ripple can grow only when
+the same-field nonlocal pressure-gradient difference overcomes that negative
+curvature.  In particular, a constant-pressure shear cannot increase its
+crest--trough amplitude.
+
+For the kinetic density \(q=|u|^2/2\), at a local maximum,
+
+\[
+\partial_tq
+=-u\cdot\nabla p+\nu\Delta q-\nu|\nabla u|^2
+\le -u\cdot\nabla p-\nu|\nabla u|^2.
+\]
+
+Local kinetic growth likewise requires inward pressure work from the same
+whole-field configuration.
+
+The triangular family in F6.13 separates this local event from global
+critical growth.  Its vertical crest satisfies
+
+\[
+\partial_t(-u_3)(0)=-6\nu a<0
+\]
+
+while \(\mathcal H_{1/2}'>0\).  Replacing \(\varepsilon\) by
+\(-\varepsilon\) leaves every Fourier magnitude, Sobolev moment, vertical
+ripple profile, and velocity value at the crest unchanged, while it reverses
+the sign of \(P_H\).  The sign is selected by the oriented phase of the
+surrounding advecting mode and its unequal-shell relation to the ripple, not by
+the crest height or its local alignment.
+
+Any finite passive vertical ripple depending only on \(x\) can be added to
+this same triangular participant.  It can increase pointwise multiplicity and
+\(D\) while leaving \(B,P_H,A_H\), and \(J_{\rm rad}\) unchanged.  Thus a
+count or height of constructively aligned crests has no production sign until
+the surrounding anisotropic VPI relation and the active current carrier are
+identified.
 
 ## Hard boundary: claims excluded from the ontology
 

@@ -40,6 +40,19 @@ datum-finite same-history no-recount measure. Its square-versus-linear shape
 matches the WLF half-tail algebraically; the carrier bridge remains unproved.
 Silver is unchanged.
 
+Cycle 035 installs F6.13 and F7.8. A rising critical record pays coherent
+action at the heat rate of the outer half-height pair width, and the terminal
+doubling clock shrinks on the matching parabolic scale. Their product remains
+the fixed action quantum, so faster viscous response does not itself stop a
+Zeno ladder. Exact triangular participants then remove every instantaneous
+spikiness shortcut: crest height and all Fourier magnitudes can be held fixed
+while the surrounding advecting orientation reverses the sign of critical
+production; the visible crest may decrease while global critical height
+rises. The remaining Gold object is historical joint incidence before
+readout: attach the material/WLF first-admission carrier to the active radial
+current with bounded overlap, then prove the WLF.60-type datum-finite size
+bound. Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
