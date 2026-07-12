@@ -3009,7 +3009,7 @@ Thus the joined residual is the smallest signed object for the declared
 minimum-shape coordinate; its individual rows are not separate physical
 ledgers.
 
-There is a second, direct route.  The positive spacetime pair-action measure
+There is a second positive coordinate.  The spacetime pair-action measure
 
 \[
 d\lambda_{\rm pair}
@@ -3018,11 +3018,26 @@ d\lambda_{\rm pair}
 \]
 
 has time marginal \(J_{\rm pair}\,dt\).  A causal kernel from fixed
-material-pair events to WLF reads can use this measure without comparing
-\(k_{\rm shape}\) to \(j\).  Such a kernel must be supported on proved
-same-event ancestry, dominate each unpaid child read, and have bounded fibre
-mass.  It also needs a shape-null routing theorem.  Indeed, for the one-shell
-field in F6.14, \(g_0=0\) and
+material-pair events to later shape reads would avoid comparing
+\(k_{\rm shape}\) to \(j\), but the measure is quadratic in the response
+ratio.  The corresponding linear absolute shape-current measure is
+
+\[
+d\lambda_{\rm lin}=|\eta_H|\,d\sigma_B\,dt
+=|k_{\rm shape}|\,da\,db\,dt.
+\]
+
+On \(\{|\eta_H|\ge\delta\}\),
+
+\[
+d\lambda_{\rm lin}\le\delta^{-1}d\lambda_{\rm pair}.
+\]
+
+There is no bounded comparison on the near-null branch
+\(0<|\eta_H|<\delta\).  Routing only the exact zero set therefore does not
+turn the quadratic action into a linear source or detector measure.
+
+For the one-shell field in F6.14, \(g_0=0\) and
 
 \[
 J_{\rm pair}(t)=O(t^2),
@@ -3037,12 +3052,16 @@ while a backward source detector aligned with \(B(v_0)\ne0\) has response
 \]
 
 Arbitrary source work therefore cannot be charged to \(J_{\rm pair}\).
-Unpaid WLF work must first be proved to lie in the shape-changing component;
-the tangential component must be routed to the declared paid, legal, or stop
-rows.  A bound on the full spacetime mass \(\int J_{\rm pair}dt\) is already
-Gold-strength because \(A_H\le J_{\rm pair}\).  The genuinely smaller bridge
-is a parent-announced selected submeasure with shape-null routing, causal
-ancestry, bounded fibres, and its separate datum-finite parent bound.
+F6.17 sharpens the reason: the source that is tangent to the present critical
+height can be the source that creates the next shape direction.  Thus
+instantaneous nullity does not license a paid, legal, or stop routing, and a
+selected positive readout does not remove the near-null half-tail.  A bound on
+the full spacetime mass \(\int J_{\rm pair}dt\) remains a valid direct Gold
+criterion, but it is already Gold-strength because \(A_H\le J_{\rm pair}\).
+A WLF bridge must instead retain the first-admission source-to-future-shape
+transition in the full signed parent current, then prove its historical
+ancestry, bounded fibre variation, selected linear bound, and separate
+datum-finite parent mass.  None follows from \(d\lambda_{\rm pair}\).
 
 ### F6.16 Normalized viscous age, material dwell, and terminal heat comparison are different facts
 
@@ -3157,6 +3176,93 @@ it on the selected window.  The window is chosen from the endpoint and is not
 a material dwell interval.  It gives late Eulerian ancestry, while material
 co-carriage, WLF first admission, bounded descendant multiplicity, and a
 datum-finite parent measure remain separate relations.
+
+### F6.17 A source tangent to the present critical height can create the next spectral shape
+
+Let \(v(t)\) be a smooth mean-free solution and suppose that at one time
+
+\[
+\Lambda v_0=\lambda v_0.
+\]
+
+Then \(m_H(0)=\lambda\), the spectral-shape vector
+
+\[
+G_H=\Lambda^{1/2}(\Lambda-m_H)v
+\]
+
+vanishes, and hence \(S_H(0)=P_H(0)=A_H(0)=J_{\rm pair}(0)=0\).  Put
+\(B_0=B(v_0)\), with the whole-field pressure response already included.
+Energy tangency and the complete Navier--Stokes equation give
+
+\[
+m_H'(0)=0,
+\qquad
+G_H'(0)=-\Lambda^{1/2}(\Lambda-\lambda)B_0,
+\]
+
+and therefore
+
+\[
+S_H''(0)
+=2\|\Lambda^{1/2}(\Lambda-\lambda)B_0\|_2^2,
+\qquad
+P_H'(0)=\langle B_0,(\Lambda-\lambda)B_0\rangle.
+\]
+
+The viscous part of the same equation preserves the original shell at this
+instant and cancels from the transverse derivative.  The pressure-completed
+nonlinear row creates shape precisely when it has off-shell support.  The
+shape creation has no free sign: higher-shell source gives positive critical
+current, lower-shell source gives negative current, and mixed source can
+cancel in \(P_H'\) while still giving \(S_H''>0\).
+
+The exact same-field example
+
+\[
+v_0=(\sin z,\sin x,\sin y),
+\qquad
+B_0=(\sin y\cos z,\sin z\cos x,\sin x\cos y)
+\]
+
+has \(\lambda=1\), \(\Lambda B_0=\sqrt2 B_0\), and, for normalized Haar
+measure on \(\mathbb T^3\), \(\|B_0\|_2^2=3/4\).  As \(t\downarrow0\),
+
+\[
+P_H(t)=\frac34(\sqrt2-1)t+O(t^2),
+\]
+
+and
+
+\[
+S_H(t),\ A_H(t),\ J_{\rm pair}(t)
+=\frac{3\sqrt2}{4}(\sqrt2-1)^2t^2+O(t^3).
+\]
+
+The three quadratic quantities have the same leading coefficient: the new
+shape is asymptotically fully aligned with the source.  Nevertheless,
+
+\[
+\int_0^\tau J_{\rm pair}(t)\,dt=O(\tau^3),
+\]
+
+while the backward source detector with endpoint dual \(-B_0\) reads
+
+\[
+\langle P_{\sqrt2}v(\tau),-B_0\rangle
+=\tau\|B_0\|_2^2+O(\tau^2)>0.
+\]
+
+Thus source admission, linear shape current, and quadratic pair action occur
+at different causal orders.  A positive density may be available before the
+global correlation is summed and still be available only after the response
+direction has formed.  Only source material whose propagated pairing with
+every later unpaid detector vanishes, or which is already in a proved paid,
+legal, or stop span, is historically shape-null.  Constructing and bounding
+the first nonzero source-to-future-shape incidence remains open.  The example
+does not prove immediate critical-height growth: at \(t=0\), viscosity makes
+\(\mathcal H_{1/2}'=-3\nu/2<0\).  It proves the causal transition and the
+failure of instantaneous null routing.
 
 ## F7. Anisotropic, directional, relational geometry
 
