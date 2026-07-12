@@ -81,10 +81,27 @@ material or WLF no-recount history. The four localized current rows are also
 not four independent Gold debts: they are one signed weak residual on the
 native-to-shape conversion route and recombine across internal interfaces. A
 direct \(J_{\mathrm{pair}}\) incidence route bypasses that conversion. Its
-remaining burden is sharper: select the shape-changing parent action before
+proposed remaining burden was to select the shape-changing parent action before
 readout, route the shape-null source component, prove causal same-event fibres
 with bounded multiplicity, and prove the separate WLF.60 parent-size bound.
+Cycle 038 below refutes the instantaneous shape-null routing in that proposal.
 Silver is unchanged.
+
+Cycle 038 installs F6.17 and separates fixed-time correlation order from causal
+time order. For a one-shell state the present critical shape vanishes, but the
+off-shell pressure-completed source creates the next shape direction at first
+order. In the exact datum \(v_0=(\sin z,\sin x,\sin y)\), a WLF backward
+detector sees order-\(\tau\) positive source response while the accumulated
+\(J_{\mathrm{pair}}\) mass is only order \(\tau^3\). The linear pair-current
+density is \(|\eta_H|d\sigma_Bdt\) and the pair-action density is
+\(\eta_H^2d\sigma_Bdt\), so deleting only the exact null leaves the near-null
+ratio \(1/|\eta_H|\). Thus \(J_{\mathrm{pair}}\) is pre-correlation at one
+time but not a universal pre-response source measure. The WLF route remains on
+the full signed historical first-admission current and still needs propagated
+source-to-future-shape incidence, selected linear near-null control, causal
+bounded fibres, and WLF.60 parent mass. A full datum bound for
+\(J_{\mathrm{pair}}\) is an alternative Gold-strength criterion. Silver is
+unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
@@ -129,7 +146,7 @@ Clean labels:
 ## Route Summary
 
 - Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at a parent-announced selected submeasure of \(J_{\mathrm{pair}}\) with shape-null routing, causal same-event fibres, bounded multiplicity, and the separate WLF.60 parent-size bound; datum control of the exact F6.10 action \(A_H\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), or another direct critical-height theorem also closes the lane. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Honest current status: Gold is open at historical selected-linear first admission of the full signed parent source current, propagated source-to-future-shape incidence, selected near-null control, causal bounded fibres, and the separate WLF.60 parent-size bound. Datum control of the exact F6.10 action \(A_H\), \(J_{\mathrm{pair}}\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), or another direct critical-height theorem also closes the lane. Instantaneous shape-null routing and a \(J_{\mathrm{pair}}\)-only WLF parent measure are refuted. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
 - Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
 - Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 

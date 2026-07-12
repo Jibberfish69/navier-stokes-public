@@ -3213,9 +3213,9 @@ P_H'(0)=\langle B_0,(\Lambda-\lambda)B_0\rangle.
 The viscous part of the same equation preserves the original shell at this
 instant and cancels from the transverse derivative.  The pressure-completed
 nonlinear row creates shape precisely when it has off-shell support.  The
-shape creation has no free sign: higher-shell source gives positive critical
-current, lower-shell source gives negative current, and mixed source can
-cancel in \(P_H'\) while still giving \(S_H''>0\).
+shape creation has no free sign: source confined above the original shell gives
+positive critical current, source confined below it gives negative current,
+and mixed source can cancel in \(P_H'\) while still giving \(S_H''>0\).
 
 The exact same-field example
 
@@ -3227,6 +3227,9 @@ B_0=(\sin y\cos z,\sin z\cos x,\sin x\cos y)
 
 has \(\lambda=1\), \(\Lambda B_0=\sqrt2 B_0\), and, for normalized Haar
 measure on \(\mathbb T^3\), \(\|B_0\|_2^2=3/4\).  As \(t\downarrow0\),
+the initial pressure is constant, so this example tests the complete
+pressure-projected nonlinear row without assigning the shape creation to
+pressure alone.  One has
 
 \[
 P_H(t)=\frac34(\sqrt2-1)t+O(t^2),
