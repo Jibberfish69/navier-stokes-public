@@ -1771,7 +1771,7 @@ continuation. A classical continuation has \(\int A_H\,dt<\infty\) because
 \(A_H\le D\). Universal datum-only finiteness of this action is therefore a
 regularity-equivalent criterion at this scope, not a proved smaller Gold
 theorem. No material carrier, localized Carleson measure, monotone cascade, or
-datum-bound for the weighted first moment follows from this fact.
+datum bound for \(\int A_Hdt\) follows from this fact.
 
 ### F6.11 The pressure-completed nonlinear current has an exact angular, radial, and coherent hierarchy
 
@@ -1934,7 +1934,7 @@ the joined pressure--transport--viscosity evolution is
 M_q'=2N_q-2\nu M_{q+2}.
 \]
 
-The enstrophy-weighted mean frequency is
+For \(K>0\), the enstrophy-weighted mean frequency is
 
 \[
 \kappa=\frac DK=\frac{M_3}{M_2}.
@@ -1954,6 +1954,8 @@ For the enstrophy spectral probability measure
 d\varrho_K(\xi)
 =\frac{|\xi|^2|\widehat v(\xi)|^2}{K}\,d\xi,
 \]
+
+with \(\rho=|\xi|\),
 
 the viscous term is
 
@@ -2003,11 +2005,18 @@ Its exact currents are
 N_q(U)=-4+16\,2^q-12(\sqrt5)^q.
 \]
 
-The Fourier supports of \(U\) and \(U(8x,8y,8z)\) have no mixed triads.
+Put \(U_8(x,y,z)=U(8x,8y,z)\). The Fourier supports of \(U\) and \(U_8\)
+have no mixed triads, so for every scalar \(\alpha\),
+
+\[
+N_q(U+\alpha U_8)
+=\left(1+\alpha^3 8^{q+1}\right)N_q(U).
+\]
+
 Consequently
 
 \[
-W=U-\frac14U(8x,8y,8z)
+W=U-\frac14U_8
 \]
 
 has \(P_H=A_H=0\) and \(N_3-\kappa N_2>0\). Multiplying \(W\) by a
@@ -2015,7 +2024,7 @@ sufficiently large amplitude makes \(\kappa'(0)>0\) at any fixed
 \(\nu>0\). Conversely,
 
 \[
-Z=U-\frac1{16}U(8x,8y,8z)
+Z=U-\frac1{16}U_8
 \]
 
 has \(N_3-\kappa N_2=0\) while \(P_H>0\) and \(A_H>0\). These are smooth
