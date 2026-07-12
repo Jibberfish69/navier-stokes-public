@@ -4,7 +4,7 @@
 
 ## 0. The physical sentence first
 
-The record on a material sphere can be shed only by the meridional belt-to-lobes drain, and the whole field's instantaneous incompressible answer to that drain is a pressure pattern in the same aligned sector (filed facts 1–2). The one-sense claim says: the field never pays a packet for donating. When the imprint is being shed (forward arrow), the forced row eats the record; a row that feeds the record is the same motion read backward — gathering — which the viscous history does not run. This note does two things: (i) it states the exact finite form the one-sense claim must take at the atom, and (ii) it records that the relay-endpoint Liouville (route b, Door 2) is a CONSUMER of the per-rung sense plus retention, not a sibling frontier.
+The record on a material sphere can be shed only by the meridional belt-to-lobes drain, and the whole participant's same-time incompressible response to that drain includes a pressure pattern in the same aligned sector (filed facts 1–2). The one-sense claim says: the field never pays a packet for donating. When the imprint is being shed (forward arrow), the forced row eats the record; a row that feeds the record is the same motion read backward — gathering — which the viscous history does not run. This note does two things: (i) it states the exact finite form the one-sense claim must take at the atom, and (ii) it records that the relay-endpoint Liouville (route b, Door 2) is a CONSUMER of the per-rung sense plus retention, not a sibling frontier.
 
 ## 1. The two-functional form of `AlignedRowShedsRecordOneSense.A`
 

@@ -6048,7 +6048,8 @@ parent-known capture of the active direction changes in `(TFE.400)`, before the
 child clips them into positive action.
 
 This also explains why uncoupling pressure and viscosity was the wrong mental
-shape.  Pressure-only language sees the instantaneous re-coordination but misses
+shape. Pressure-only language sees only the elliptic re-coordination row of the
+same-time participation tangent and misses
 the material log-density budget.  Viscosity-only language sees the passive heat
 contraction but misses the selected frame that decides which future state is
 being counted.  The \(L^1\) theorem is the coupled statement
@@ -12724,8 +12725,8 @@ remaining mathematical gap is the coercive supplier
 \]
 
 In physical terms, the missing story is not whether viscosity reaches the whole
-derivative tower or whether pressure alone carries the instantaneous
-compatibility response.  Both are coordinates of the same participation loop:
+derivative tower or whether pressure alone carries the compatibility response.
+Both are simultaneous coordinates of the same participation loop:
 
 \[
 \text{pressure-compatible coordination}

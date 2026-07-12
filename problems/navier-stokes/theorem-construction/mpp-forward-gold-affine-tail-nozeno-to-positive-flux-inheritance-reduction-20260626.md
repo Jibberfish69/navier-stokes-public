@@ -59,8 +59,8 @@ E_{\rm raw}(Q_k)+D_{\rm raw}(Q_k)+R_{\rm collar}(Q_k)\lesssim r_k,
 \sum_k r_k<\infty.
 ```
 
-The pressure Hessian balances the affine strain locally, and instantaneous
-Poisson coupling does not add a one-sided cross-time tax.
+The pressure Hessian balances the affine strain locally, and same-time
+whole-participant Poisson coupling does not add a one-sided cross-time tax.
 
 ## 2. What the installed laminar tax gives
 

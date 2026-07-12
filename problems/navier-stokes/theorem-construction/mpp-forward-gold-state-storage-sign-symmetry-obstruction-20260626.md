@@ -22,7 +22,7 @@ Here `d\Omega_N^{full}` is the rectified positive service of the full transporte
 
 ## 2. Abstract first-order test
 
-Let `Z` denote the instantaneous material-Hodge packet: material metric, pulled-back velocity, pressure/Hodge constraint data, transported collar, and coefficient frame.
+Let `Z` denote the same-time material-Hodge packet: material metric, pulled-back velocity, pressure/Hodge constraint data, transported collar, and coefficient frame.
 
 Let `v` be an admissible same-time participant-tangent direction for the pressure-strain / Hodge-interface motion at `Z`. Let the rectified service density be `q_Z(v)`, with
 

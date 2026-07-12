@@ -337,7 +337,7 @@ overlap pressure row remains \(\beta^{4/5}E_{\rm prod}\). After the
 curvature-subcell and non-affine-threshold checks, the exact-matrix branch is
 now narrowed to supercritical broadband residual, Reynolds-edge bridge, Gate-8
 no-recount allocation/compensator, or construction, not the mean-zero
-pressure-source constraint, instantaneous
-multi-direction pressure algebra, constant-affine producer coupling,
+pressure-source constraint, same-time
+multi-direction pressure-row algebra, constant-affine producer coupling,
 producer-clock direction tracking, generic producer curvature, or static
 finite-energy localization.

@@ -57,8 +57,9 @@ that the pressure-viscosity side and the stopping-derivative side are
 equal-opposite readouts of the same law.  Higher rungs are the time-shape of
 stopping, not a place into which velocity energy drains.
 
-The pressure/incompressibility tower supplies the instantaneous compatible
-whole-field time-jet.  The velocity derivative tower supplies the local material
+The simultaneous participation tangent supplies the compatible whole-field
+time-jet through its pressure/incompressibility and viscous rows. The velocity
+derivative tower supplies the local material
 readout of whether the packet is actually coming to rest.  They are not separate
 mechanisms; they are two projections of the same coupled
 pressure-viscosity-incompressibility stopping law.
