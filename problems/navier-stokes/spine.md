@@ -63,10 +63,11 @@ pair mass alone. More importantly, the formal WLF pushforward did not already
 prove bounded overlap. WLF.50 declares the ancestry map, WLF.55--WLF.57 add
 same-pulse routing and bounded fibre mass, and WLF.59 needs a genuine
 disintegration kernel; Hilbert orthogonal admission proves none of those
-historical clauses. The remaining Gold bridge is therefore an actual joint
+historical clauses. Cycle 036 therefore recorded an actual joint
 material-history/WLF-readout measure controlling the four defect rows and its
 fibre multiplicity. WLF.60 remains the separate original-data bound for the
-resulting parent mass. Silver is unchanged.
+resulting parent mass. Cycle 037 below supersedes the four-row requirement.
+Silver is unchanged.
 
 Cycle 037 installs F6.15 and F6.16 and removes the excess burden in that
 Cycle 036 conclusion. Positive elapsed time gives a strict heat loss whose
@@ -128,7 +129,7 @@ Clean labels:
 ## Route Summary
 
 - Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at datum control of the exact F6.10 action \(A_H\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), a same-history local-coherence/annular-incidence bridge with datum-finite inverse-distance no-recount control, or another direct critical-height theorem. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Honest current status: Gold is open at a parent-announced selected submeasure of \(J_{\mathrm{pair}}\) with shape-null routing, causal same-event fibres, bounded multiplicity, and the separate WLF.60 parent-size bound; datum control of the exact F6.10 action \(A_H\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), or another direct critical-height theorem also closes the lane. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
 - Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
 - Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 
