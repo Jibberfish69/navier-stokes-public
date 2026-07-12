@@ -1087,8 +1087,9 @@ the full positive-selection theorem — asserting it as an inherited step
 assumes Gold. The substitution shows exactly why. Ψ_inert IS the localized
 record growth — that is (H2), a hypothesis, not a payment. Strip it and the
 sign of Ψ reduces to the sign of Ψ_press = −∫_atom w̃ ∂_r p, the SLAVED
-pressure-work row. By fact 4 (pressure instantaneous, nonlocal, NO FREE
-SIGN) this sign is not derivable by algebra from the four-body current; it
+pressure-work row. By fact 4 (the participation tangent is simultaneous at each
+time; pressure is its nonlocal elliptic row with NO FREE SIGN) this sign is not
+derivable by algebra from the four-body current; it
 is the material-time participation sign — the open target the gate itself
 flags as "neither assumed nor denied." Therefore:
 

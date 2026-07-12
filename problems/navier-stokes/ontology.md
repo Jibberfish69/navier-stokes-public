@@ -3567,7 +3567,8 @@ In fact \(\beta_n<0\) for every \(n>1\).  The sign reduces to
 (n-1)\rho_+ +(n+1)\rho_-<4n^2,
 \]
 
-whose strict square certificate is
+After squaring, this reduces to
+\(\rho_+\rho_-<2(2n^2+1)\), whose strict square certificate is
 
 \[
 4(2n^2+1)^2-\rho_+^2\rho_-^2=4n^2>0.

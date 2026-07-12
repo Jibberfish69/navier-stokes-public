@@ -26,7 +26,7 @@ A carrier trace theorem needs additional localization/tether estimates beyond th
 
 ## Attempt 2: same-fluid carrier enforces pressure trace
 
-Same-fluidity licenses the source carrier and parent-child ancestry. It does not make the elliptic pressure kernel local to that carrier. The pressure term sees the whole instantaneous gradient field, including lower/near-band interactions outside the selected positive source packet.
+Same-fluidity licenses the source carrier and parent-child ancestry. It does not make the elliptic pressure kernel local to that carrier. The pressure term sees the whole same-time gradient field, including lower/near-band interactions outside the selected positive source packet.
 
 Therefore same-fluidity gives carrier admissibility, while pressure carrier trace remains a separate theorem.
 

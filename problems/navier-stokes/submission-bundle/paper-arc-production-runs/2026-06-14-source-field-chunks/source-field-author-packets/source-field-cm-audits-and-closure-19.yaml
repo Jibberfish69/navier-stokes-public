@@ -257,7 +257,7 @@ chunk:
       T_y\rho(y)dy\otimes\delta_{s=0}.
       \]
 
-      Calderon-Zygmund bounds control spatial norms at fixed time. They map instantaneous quadratic-gradient data to same-time pressure row/Hessian data.
+      Calderon-Zygmund bounds control spatial norms at fixed time. They map same-time quadratic-gradient data to same-time pressure row/Hessian data.
 
       They do not provide an integration kernel in s, hence they give no modulus for mass in [- ,0].
 
@@ -647,7 +647,7 @@ chunk:
     T_y\rho(y)dy\otimes\delta_{s=0}.
     \]
 
-    Calderon-Zygmund bounds control spatial norms at fixed time. They map instantaneous quadratic-gradient data to same-time pressure row/Hessian data.
+    Calderon-Zygmund bounds control spatial norms at fixed time. They map same-time quadratic-gradient data to same-time pressure row/Hessian data.
 
     They do not provide an integration kernel in s, hence they give no modulus for mass in [- ,0].
 
