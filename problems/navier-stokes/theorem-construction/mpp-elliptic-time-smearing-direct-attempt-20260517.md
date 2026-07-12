@@ -38,7 +38,7 @@ Thus elliptic pressure nonlocality alone preserves the terminal time atom.
 
 ## Attempt 1: Calderon-Zygmund pressure smoothing
 
-Calderon-Zygmund bounds control spatial norms at fixed time. They map instantaneous quadratic-gradient data to instantaneous pressure/Hessian data.
+Calderon-Zygmund bounds control spatial norms at fixed time. They map instantaneous quadratic-gradient data to same-time pressure row/Hessian data.
 
 They do not provide an integration kernel in `s`, hence they give no modulus for mass in `[-\varepsilon,0]`.
 

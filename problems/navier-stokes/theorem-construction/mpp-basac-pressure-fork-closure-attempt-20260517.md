@@ -54,7 +54,7 @@ The installed route gives the tether conditionally through terminal skew/source-
 
 This variant asks pressure sustain to force temporal spread of the native source carrier, thereby killing the terminal time-face atom.
 
-Elliptic pressure coupling is instantaneous in time. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
+At each participant time, pressure enters through the elliptic coupling row. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
 
 Thus this variant returns to
 

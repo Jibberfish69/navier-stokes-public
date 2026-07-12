@@ -546,7 +546,7 @@ its contribution to the pressure source is only
 
 The extra term is an isotropic rotation-gauge source. It supplies no
 \(b\)-linear ownership of the aligned cubic turn-off. More generally, a
-tangential profile can alter the instantaneous pressure source through
+tangential profile can alter the same-time pressure-source row through
 
 ```math
 -2\frac{u_\phi}{R}\partial_R u_\phi

@@ -893,7 +893,7 @@ costs. That is the object to prove impossible or route out.
 
 The cubic-moment turn-off calculation adds one useful check to the Gate-B
 stack. In the aligned poloidal turn-off, a non-solid swirl can cancel the
-instantaneous pressure source. That cancellation is not a new pressure bank.
+same-time pressure-source row. That cancellation is not a new pressure bank.
 It is the same angular-momentum-gradient object already isolated above.
 
 Indeed, with \(u^\theta=\Gamma/r\),

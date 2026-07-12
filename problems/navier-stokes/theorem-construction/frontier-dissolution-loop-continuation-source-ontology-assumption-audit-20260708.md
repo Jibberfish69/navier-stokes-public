@@ -64,7 +64,7 @@ loss in the proof reading of one retained record. To delete W7, the defect
 \(\mu_Q\) must be graph-closed, paid/carried, parent-owned, Field-routed, or
 typed as nonparticipation. The source does not supply that implication.
 
-## Assumption 2: instantaneous pressure kills W8's selected-linear bill
+## Assumption 2: same-time pressure row kills W8's selected-linear bill
 
 This assumption is false as a proof step. Pressure is instantaneous and slaved
 to the current velocity-gradient field. W8 is not a claim that a child event
