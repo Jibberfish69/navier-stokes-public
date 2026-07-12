@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 032.
+**Current promoted checkpoint:** Cycle 033.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -1730,8 +1730,8 @@ In particular, every first doubling interval satisfies
 \ge\frac{2\nu\log2}{C_\Omega^2}.
 \]
 
-This active action has a finite same-history base measure. With zero densities
-at the zero state, define
+This active action has an exact finite-mass time factorization. With zero
+densities at the zero state, define
 
 \[
 d\mu_{\mathrm{cur}}
@@ -1748,10 +1748,13 @@ Then
 A_H\,dt=\frac DK\,d\mu_{\mathrm{cur}}.
 \]
 
-Here \(D/K\) is the enstrophy-weighted mean frequency. The uncontrolled
-quantity is therefore the first frequency moment of a finite measure supported
-only where the complete nonlinear current uses the available spectral shape.
-Finiteness of the measure does not bound that first moment.
+Here \(D/K\) is the enstrophy-weighted mean frequency of the whole velocity
+field. The measure is supported in time only where the complete nonlinear
+current uses the available spectral shape. It does not locate that current in
+frequency: a passive high-frequency component of the same field can raise
+\(D/K\) without contributing to \(P_H\). Thus this factorization alone does
+not turn the finite mass into frequency-local current control. F6.11 gives the
+exact radial-current refinement.
 
 The distinction between available and used shape is exact. A mean-zero
 two-frequency shear \(v=(F(y,t),0,0)\) has \(B(v)=P_H=A_H=0\) while
@@ -1769,6 +1772,260 @@ continuation. A classical continuation has \(\int A_H\,dt<\infty\) because
 regularity-equivalent criterion at this scope, not a proved smaller Gold
 theorem. No material carrier, localized Carleson measure, monotone cascade, or
 datum-bound for the weighted first moment follows from this fact.
+
+### F6.11 The pressure-completed nonlinear current has an exact angular, radial, and coherent hierarchy
+
+Retain the mean-free field \(v\) and the pressure-completed transport \(B(v)\)
+from F6.10. In unitary Fourier coordinates, define the signed modal critical
+current and its nonlinear weight by
+
+\[
+c(\xi)
+=-\operatorname{Re}\!\left(
+\overline{\widehat B(\xi)}\cdot |\xi|\widehat v(\xi)
+\right),
+\qquad
+b(\xi)=|\xi|^{-1}|\widehat B(\xi)|^2.
+\]
+
+Both are coordinates of the same simultaneous field; pressure is already
+included in \(B\). Set quotient densities to zero where \(\widehat B=0\).
+On \(\mathbb R^3\), use coarea to define
+
+\[
+C(\rho)=\int_{|\xi|=\rho}c(\xi)\,d\sigma_\rho,
+\qquad
+\mathcal B(\rho)=\int_{|\xi|=\rho}b(\xi)\,d\sigma_\rho.
+\]
+
+On \(\mathbb T^3\), the corresponding objects are the sums over each lattice
+shell \(|k|=\rho\), and every radial integral below is read as a sum. Then
+
+\[
+P_H=\int_0^\infty C(\rho)\,d\rho,
+\qquad
+\|\Lambda^{-1/2}B\|_2^2
+=\int_0^\infty\mathcal B(\rho)\,d\rho.
+\]
+
+The signed function \(C\) is the exact radial critical-current profile. It
+keeps the anisotropic interaction inside each shell and sums the angular
+directions before any positive readout is taken.
+
+Three nested positive actions distinguish modal angular activity, radial-shell
+activity, and the coherent net critical current:
+
+\[
+J_{\mathrm{sp}}
+=\int_{\mathbb R^3}\frac{c(\xi)^2}{b(\xi)}\,d\xi,
+\qquad
+J_{\mathrm{rad}}
+=\int_0^\infty\frac{C(\rho)^2}{\mathcal B(\rho)}\,d\rho,
+\qquad
+A_H
+=\frac{\left(\int C\right)^2}{\int\mathcal B}.
+\]
+
+They obey the exact hierarchy
+
+\[
+0\le A_H\le J_{\mathrm{rad}}\le J_{\mathrm{sp}}\le D.
+\]
+
+Put \(a(\xi)=c(\xi)/b(\xi)\), let
+\(a_\rho=C(\rho)/\mathcal B(\rho)\), and let
+\(\bar a=P_H/\|\Lambda^{-1/2}B\|_2^2\). Weighted variance gives the exact
+orthogonal decomposition
+
+\[
+\begin{aligned}
+J_{\mathrm{sp}}-A_H
+={}&\int_0^\infty\int_{|\xi|=\rho}
+b(\xi)|a(\xi)-a_\rho|^2\,d\sigma_\rho\,d\rho\\
+&+\int_0^\infty
+\mathcal B(\rho)|a_\rho-\bar a|^2\,d\rho.
+\end{aligned}
+\]
+
+The first term is angular heterogeneity and cancellation within one radius. It
+can be positive while every radial Sobolev norm has zero instantaneous
+nonlinear production. The second is cancellation or unequal response between
+different radii. The remainder \(A_H\) is the globally coherent part that
+appears in the critical-height estimate. An exact equal-shell anisotropic
+triad has \(A_H=S_H=J_{\mathrm{rad}}=0\) and
+\(J_{\mathrm{sp}}>0\), proving that modal activity can be pure angular
+redistribution rather than radial critical growth.
+
+The radial action is the first moment of a datum-finite same-history measure:
+
+\[
+d\mu_{\mathrm{rad}}(\rho,t)
+=\frac{C(\rho,t)^2}{\rho\,\mathcal B(\rho,t)}\,d\rho\,dt,
+\qquad
+J_{\mathrm{rad}}(t)\,dt
+=\int_0^\infty\rho\,d\mu_{\mathrm{rad}}(\rho,t),
+\]
+
+and shellwise Cauchy--Schwarz gives
+
+\[
+\mu_{\mathrm{rad}}([0,T]\times(0,\infty))
+\le\int_0^TK(t)\,dt
+\le\frac{\mathcal E_0}{\nu}.
+\]
+
+Let
+
+\[
+c_*=\frac{2\nu\log2}{C_\Omega^2}.
+\]
+
+If a candidate terminal history has infinitely many disjoint first-doubling
+intervals \(I_n\), F6.10 forces
+
+\[
+\int_{I_n}J_{\mathrm{rad}}(t)\,dt\ge c_*.
+\]
+
+Writing \(m_n=\mu_{\mathrm{rad}}(I_n\times(0,\infty))\), one has
+\(\sum_nm_n\le\mathcal E_0/\nu\), hence \(m_n\to0\), and
+
+\[
+\int_{I_n}\int_{\rho\ge c_*/(2m_n)}
+\rho\,d\mu_{\mathrm{rad}}(\rho,t)
+\ge\frac{c_*}{2}.
+\]
+
+Thus repeated critical-height renewal forces a fixed amount of radial
+current-alignment action beyond arbitrarily large frequencies. Equivalently,
+for every fixed \(L<\infty\), a candidate terminal history obeys
+
+\[
+\int_0^{T_*}\int_{\rho>L}
+\rho\,d\mu_{\mathrm{rad}}(\rho,t)=\infty,
+\]
+
+while the contribution below \(L\) is at most
+\(L\mathcal E_0/\nu\).
+
+The signed physical object remains \(C\), and its sign is never supplied by
+the positive measures above. The normalization in \(\mu_{\mathrm{rad}}\) can
+also retain a strongly aligned receiver when the amplitude of its nonlinear
+forcing is small. Hence \(J_{\mathrm{rad}}\) is a coherence majorant, not a
+signed current magnitude. It is spectral rather than material localization.
+Finiteness of \(\int J_{\mathrm{rad}}dt\) is another
+regularity-equivalent criterion, not a datum bound, a Carleson theorem, or
+Gold closure.
+
+### F6.12 Viscosity lowers the whole-field mean frequency; nonlinear radial moments can renew it independently
+
+For
+
+\[
+M_q=\|\Lambda^{q/2}v\|_2^2,
+\qquad
+N_q=-\langle B(v),\Lambda^qv\rangle,
+\]
+
+the joined pressure--transport--viscosity evolution is
+
+\[
+M_q'=2N_q-2\nu M_{q+2}.
+\]
+
+The enstrophy-weighted mean frequency is
+
+\[
+\kappa=\frac DK=\frac{M_3}{M_2}.
+\]
+
+Its exact derivative is
+
+\[
+\kappa'
+=\frac2K\left(N_3-\kappa N_2\right)
+-\frac{2\nu}{K}\left(M_5-\kappa M_4\right).
+\]
+
+For the enstrophy spectral probability measure
+
+\[
+d\varrho_K(\xi)
+=\frac{|\xi|^2|\widehat v(\xi)|^2}{K}\,d\xi,
+\]
+
+the viscous term is
+
+\[
+\frac{M_5-\kappa M_4}{K}
+=\operatorname{Cov}_{\varrho_K}(\rho,\rho^2)
+=\frac12\mathbb E[(\rho-\rho')^2(\rho+\rho')]
+\ge0.
+\]
+
+Viscosity therefore lowers \(\kappa\), strictly unless the velocity spectrum
+lies on one radius. Any upward renewal of this whole-field mean frequency is
+created by the simultaneous pressure-completed nonlinear transport.
+
+The radial current profile in F6.11 gives every nonlinear Sobolev moment:
+
+\[
+N_q=\int_0^\infty\rho^{q-1}C(\rho)\,d\rho.
+\]
+
+In particular,
+
+\[
+N_0=\int\rho^{-1}C(\rho)\,d\rho=0,
+\qquad
+P_H=N_1=\int C(\rho)\,d\rho,
+\]
+
+whereas mean-frequency renewal uses the centered higher moment
+
+\[
+N_3-\kappa N_2
+=\int_0^\infty\rho(\rho-\kappa)C(\rho)\,d\rho.
+\]
+
+These two responses are algebraically independent. On \(\mathbb T^3\), let
+
+\[
+\psi=2\cos x+2\cos2y+2\cos(x+2y),
+\qquad
+U=(\partial_y\psi,-\partial_x\psi,0).
+\]
+
+Its exact currents are
+
+\[
+N_q(U)=-4+16\,2^q-12(\sqrt5)^q.
+\]
+
+The Fourier supports of \(U\) and \(U(8x,8y,8z)\) have no mixed triads.
+Consequently
+
+\[
+W=U-\frac14U(8x,8y,8z)
+\]
+
+has \(P_H=A_H=0\) and \(N_3-\kappa N_2>0\). Multiplying \(W\) by a
+sufficiently large amplitude makes \(\kappa'(0)>0\) at any fixed
+\(\nu>0\). Conversely,
+
+\[
+Z=U-\frac1{16}U(8x,8y,8z)
+\]
+
+has \(N_3-\kappa N_2=0\) while \(P_H>0\) and \(A_H>0\). These are smooth
+finite-Fourier Navier--Stokes data, so the separation is a same-solution fact,
+not a reduced-model shadow.
+
+Thus \(D/K\) cannot identify the frequencies carrying critical growth, and no
+pointwise centroid law can replace the signed radial current. A relation that
+controls repeated renewal must use the one field's material-time history or
+additional exact structure; neither the viscous covariance nor velocity
+moments alone supplies it.
 
 ## F7. Anisotropic, directional, relational geometry
 
@@ -1980,4 +2237,6 @@ The following are not hard facts and carry no premise weight here:
 - Hugo Beirão da Veiga and Luigi C. Berselli, [*On the regularizing effect of the vorticity direction in incompressible viscous flows*](https://doi.org/10.57262/die/1356060864), Differential and Integral Equations 15 (2002), equation (2.3).
 - Alexey Cheskidov and Roman Shvydkoy, [*A unified approach to regularity problems for the 3D Navier--Stokes and Euler equations: the use of Kolmogorov's dissipation range*](https://arxiv.org/abs/1102.1944), Theorem 3.1, Corollary 3.3, and Lemma 4.1.
 - Evan Miller, [*Global regularity for solutions of the Navier--Stokes equation sufficiently close to being eigenfunctions of the Laplacian*](https://arxiv.org/abs/2005.14152), Proceedings of the AMS, Series B 8 (2021), 129--144. Its interpolation-deficit criterion supplies the adjacent proved spectral-width/eigenshell comparison; it does not bound the action in F6.10.
+- Gaurav Dar, Mahendra K. Verma, and V. Eswaran, [*A new approach to study energy transfer in turbulence*](https://arxiv.org/abs/physics/0006012). Its signed modal and triadic transfers are the classical adjacent coordinates for the signed profile in F6.11; the radial normalization and finite-mass action used here are derived directly above.
+- J. D. Gibbon and Charles R. Doering, [*Intermittency and regularity issues in 3D Navier--Stokes turbulence*](https://arxiv.org/abs/math/0406146), Archive for Rational Mechanics and Analysis 177 (2005), 115--150. Its good/bad interval analysis is an adjacent proved renewal framework; it leaves the number and arrangement of dangerous intervals uncontrolled and supplies no datum bound for F6.10 or F6.11.
 - Luis Escauriaza, Gregory Seregin, and Vladimír Šverák, [*\(L_{3,\infty}\)-solutions of Navier--Stokes equations and backward uniqueness*](https://www.mathnet.ru/eng/rm609), Russian Mathematical Surveys 58 (2003), 211--250.
