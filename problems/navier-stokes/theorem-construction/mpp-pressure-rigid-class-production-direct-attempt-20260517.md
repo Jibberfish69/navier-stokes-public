@@ -86,7 +86,7 @@ The remaining candidate is a temporal-spread class:
 A theorem proving the displayed temporal-spread bound eliminates a terminal
 pressure atom and supplies the temporal input needed by a pressure Liouville
 route. This candidate is genuinely new. It requires an elliptic-to-temporal
-theorem: pressure is instantaneous in time, so temporal spread must come from
+theorem: pressure is recovered elliptically from the same-time participant state, so temporal spread must come from
 terminal packet dynamics or from a material identity, not from
 Calderon-Zygmund ellipticity alone.
 
