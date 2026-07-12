@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 039.
+**Current promoted checkpoint:** Cycle 040.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -3430,6 +3430,172 @@ recenter, and consume.  Its positive variation misses lawful critical growth;
 the active signed current in F6.10 still sees that growth.  This is a
 same-fluid pressure-completed Navier--Stokes counterexample, not a reduced
 model or a freely prescribed source history.
+
+### F6.19 Critical height rises through energy-centroid lift faster than viscous depletion
+
+Let
+
+\[
+E=M_0=\|v\|_2^2,
+\qquad
+d\mu_E(\xi)=\frac{|\widehat v(\xi)|^2}{E}\,d\xi,
+\qquad
+\bar\rho=\mathbb E_{\mu_E}|\xi|=\frac{M_1}{M_0}.
+\]
+
+The critical height is the product
+
+\[
+\mathcal H_{1/2}=\frac12M_1=\frac12E\bar\rho.
+\]
+
+Thus it rises only when the energy-weighted mean frequency rises fast enough
+to outrun the simultaneous loss of kinetic energy.  Since
+
+\[
+E'=-2\nu M_2,
+\qquad
+M_1'=2N_1-2\nu M_3,
+\]
+
+one has the exact centroid equation
+
+\[
+\boxed{
+\bar\rho'
+=\frac{2N_1}{E}
+-2\nu\operatorname{Cov}_{\mu_E}(\rho,\rho^2),
+}
+\]
+
+where
+
+\[
+\operatorname{Cov}_{\mu_E}(\rho,\rho^2)
+=\frac12\mathbb E[(\rho-\widetilde\rho)^2(\rho+\widetilde\rho)]
+\ge0.
+\]
+
+Viscosity therefore lowers this spectral centroid or leaves it fixed.  The
+only upward row is the signed pressure-completed nonlinear current \(N_1\).
+Writing
+
+\[
+\sigma_E^2
+=\operatorname{Var}_{\mu_E}(\rho)
+=\frac{M_2}{E}-\bar\rho^2,
+\]
+
+the product identity gives the exact rising condition
+
+\[
+\boxed{
+\mathcal H_{1/2}'>0
+\quad\Longleftrightarrow\quad
+\frac{\bar\rho'}{\bar\rho}
+>2\nu\frac{M_2}{E}
+=2\nu(\bar\rho^2+\sigma_E^2).
+}
+\]
+
+At an exact shell, energy tangency gives \(N_q=0\) for every \(q\), the heat
+flow preserves that shell, and \(\bar\rho'=0\).  The critical height then
+decreases.  F6.17 supplies the next causal step: off-shell support must first
+be created by the same pressure-completed source before a signed upward
+centroid current can appear.
+
+There is no pointwise lower bandwidth for a rising event.  On the normalized
+torus, choose any Pell pair \((h,n)\) with
+
+\[
+h^2-3n^2=1
+\]
+
+and put
+
+\[
+\begin{aligned}
+k_0&=(2n,0),\\
+k_-&=(-n+1,h),\\
+k_+&=(n+1,h)=k_0+k_-,
+\end{aligned}
+\qquad
+\psi_n=2\sum_{j\in\{0,-,+\}}\cos(k_j\cdot x),
+\]
+
+\[
+U_n=(\partial_y\psi_n,-\partial_x\psi_n,0).
+\]
+
+Its three radii are
+
+\[
+\rho_0=2n,
+\qquad
+\rho_-=\sqrt{4n^2-2n+2},
+\qquad
+\rho_+=\sqrt{4n^2+2n+2},
+\]
+
+so \(\rho_+/\rho_-\to1\) along the infinite Pell sequence.  Direct
+Fourier calculation gives \(N_2(U_n)=0\) and
+
+\[
+N_1(U_n)=4hn\,\beta_n,
+\]
+
+\[
+\beta_n
+=(2n-2)\rho_+ +(2n+2)\rho_- -8n^2
+=-\frac14+O(n^{-2}).
+\]
+
+Hence \(N_1(U_n)<0\) for all sufficiently large Pell solutions.  For
+\(v_0=-bU_n\),
+
+\[
+\mathcal H_{1/2}'(0)
+=b^2\left[-bN_1(U_n)-\nu M_3(U_n)\right]>0
+\]
+
+whenever
+
+\[
+b>\frac{\nu M_3(U_n)}{-N_1(U_n)}.
+\]
+
+These are anisotropic, divergence-free, finite-Fourier Navier--Stokes data;
+the pressure response is already contained in \(N_1\).  Their relative shell
+width tends to zero while their critical height initially rises.  Amplitude,
+not a free pressure sign, lets the cubic current beat the quadratic viscous
+drain.  Thus a scale-independent pointwise spikiness or bandwidth gap is
+false.  This is a varying-data instantaneous result and supplies no terminal
+history for one fixed datum.
+
+There is a separate proved history-level restriction.  For viscosity one on
+\(\mathbb R^3\), Miller's Laplacian-eigenshell criterion states that a finite
+maximal time forces, for \(2\le\alpha\le5/2\) and
+\(p=2/(\alpha-1/2)\),
+
+\[
+\int_0^{T_{\max}}
+\left(
+M_{2\alpha}
+-\frac{M_{2\alpha-2}^2}{M_{2\alpha-4}}
+\right)^{p/2}dt
+=\infty.
+\]
+
+The integrand is the optimally centered
+\(\dot H^{\alpha-2}\) norm of \((\Lambda^2-\lambda)v\).  It measures
+variance of squared frequency, whereas F6.10 measures variance of frequency
+through \(S_H\).  The theorem rules out cumulatively finite high-order
+eigenshell deficit along an actual breakdown history.  It supplies neither a
+pointwise bandwidth floor nor a datum-finite upper bound; finiteness of its
+integral is itself an alternative regularity criterion.  This coordinate
+leaves open whether one fixed history can sustain centroid acceleration above
+the viscous rate through infinitely many critical-height records.  Instantaneous
+spectral width alone does not decide that question.
 
 ## F7. Anisotropic, directional, relational geometry
 

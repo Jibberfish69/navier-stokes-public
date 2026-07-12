@@ -135,7 +135,7 @@ chunk:
       \qquad \alpha>0.
       \]
 
-      Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous in time, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
+      Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is recovered elliptically from the same-time participant state, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
 
       Pressure Rigid Class Production.A fails from the installed tangent data. The rigid class candidates requiring vorticity-free, trace-balanced, critical, Type-I, global-energy, or self-similar structure are unavailable.
 
@@ -531,7 +531,7 @@ chunk:
     \qquad \alpha>0.
     \]
 
-    Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is instantaneous in time, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
+    Such a theorem would eliminate a terminal pressure atom and could feed a pressure Liouville theorem. This candidate is genuinely new. It requires an elliptic-to-temporal theorem: pressure is recovered elliptically from the same-time participant state, so temporal spread must come from terminal packet dynamics or from a material identity, not from Calderon-Zygmund ellipticity alone.
 
     Pressure Rigid Class Production.A fails from the installed tangent data. The rigid class candidates requiring vorticity-free, trace-balanced, critical, Type-I, global-energy, or self-similar structure are unavailable.
 

@@ -136,7 +136,7 @@ chunk:
 
       This variant asks pressure sustain to force temporal spread of the native source carrier, thereby killing the terminal time-face atom.
 
-      Elliptic pressure coupling is instantaneous in time. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
+      At each participant time, pressure enters through the elliptic coupling row. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
 
       This variant asks the pressure quadratic carrier to leave a trace on the native source-current carrier. The algebraic tangent test separates the carriers: a trace-free strain with zero vorticity can carry positive pressure-Hessian sustain while the native vorticity source carrier vanishes.
 
@@ -424,7 +424,7 @@ chunk:
 
     This variant asks pressure sustain to force temporal spread of the native source carrier, thereby killing the terminal time-face atom.
 
-    Elliptic pressure coupling is instantaneous in time. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
+    At each participant time, pressure enters through the elliptic coupling row. It can record a terminal pressure lobe at the same heat-time face as the atom. By itself, it supplies no lower residence time for the native source marginal.
 
     This variant asks the pressure quadratic carrier to leave a trace on the native source-current carrier. The algebraic tangent test separates the carriers: a trace-free strain with zero vorticity can carry positive pressure-Hessian sustain while the native vorticity source carrier vanishes.
 
