@@ -93,6 +93,25 @@ measure/disintegration on actual material-pair history and WLF readouts that
 controls those four defect rows with bounded multiplicity. WLF.60 remains the
 separate datum-finite parent-mass theorem. Silver is unchanged.
 
+Seventh live gate result, 2026-07-12: Cycle 037 installs ontology F6.15 and
+F6.16 and corrects the last Cycle 036 burden. Homogeneous attenuation at scale
+\(\ell\) is governed by \(q=\nu\tau/\ell^2\). An exact fixed-energy
+Navier--Stokes family has genuine positive pressure-completed fine current with
+\(q\to0\), so positive travel or response time does not give a universal
+material dwell floor. Along an assumed unbounded critical record, the
+endpoint-selected window with \(q=c\) nevertheless has a fixed heat gap and
+forces order-\(R\) late Duhamel work plus order-\(\nu R\) fine source action.
+This proves late Eulerian reconstruction, not material dwell or WLF ancestry.
+The localized native-to-shape mismatch is one signed weak residual whose
+internal boundary, commutator, complement, and selector exchanges cancel
+before variation. Those rows belong only to that coordinate-conversion route.
+A direct \(J_{\mathrm{pair}}\) route bypasses them, but the one-shell
+small-time countertest proves that arbitrary source work is not dominated by
+\(J_{\mathrm{pair}}\). Gold is now strictly reduced to a parent-announced
+selected shape-action submeasure with shape-null routing, proved same-event
+ancestry, bounded fibres, and the separate WLF.60 datum-finite parent bound.
+Silver is unchanged.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
