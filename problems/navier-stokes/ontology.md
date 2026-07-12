@@ -3129,6 +3129,7 @@ The following are not hard facts and carry no premise weight here:
 ## Checked repo derivations and audits
 
 - `ontology-participation-deepening-20260711.md`
+- `theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md`, Section 11 Cycle 036 incidence audit
 - `theorem-construction/mpp-forward-gold-incompressible-singular-value-participation-identity-20260625.md`
 - `theorem-construction/mpp-shared-participation-and-tower-coherence-law.md`
 - `theorem-construction/mpp-forward-gold-betchov-strain-vorticity-net-vs-rectified-clock-test-20260625.md`
