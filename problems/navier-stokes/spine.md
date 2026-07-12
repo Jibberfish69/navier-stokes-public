@@ -53,6 +53,21 @@ readout: attach the material/WLF first-admission carrier to the active radial
 current with bounded overlap, then prove the WLF.60-type datum-finite size
 bound. Silver is unchanged.
 
+Cycle 036 installs F1.10 and F6.14 and corrects that last sentence. The exact
+material-pair transform now supplies a positive current-state action
+\(J_{\mathrm{pair}}\) between \(A_H\) and \(S_H\). Localizing the native
+and spectral-shape currents to one material cohort creates four exact rows:
+transport--pressure boundary flux, fractional derivative placement,
+complement leakage, and moving-selection entry--exit. None is controlled by
+pair mass alone. More importantly, the formal WLF pushforward did not already
+prove bounded overlap. WLF.50 declares the ancestry map, WLF.55--WLF.57 add
+same-pulse routing and bounded fibre mass, and WLF.59 needs a genuine
+disintegration kernel; Hilbert orthogonal admission proves none of those
+historical clauses. The remaining Gold bridge is therefore an actual joint
+material-history/WLF-readout measure controlling the four defect rows and its
+fibre multiplicity. WLF.60 remains the separate original-data bound for the
+resulting parent mass. Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:

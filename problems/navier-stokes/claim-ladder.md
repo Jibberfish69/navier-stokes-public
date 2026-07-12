@@ -75,6 +75,24 @@ requires a pre-readout joint incidence measure joining original same-carrier
 material/WLF atoms to the active current marginal, followed by a datum-finite
 WLF.60-type size estimate. Silver is unchanged.
 
+Sixth live gate result, 2026-07-12: Cycle 036 installs ontology F1.10 and
+F6.14. The material-pair transform gives an exact positive current-state
+action \(J_{\mathrm{pair}}\) with
+\(A_H\le J_{\mathrm{pair}}\le S_H\), so the local current marginal no
+longer has to be invented. Native material current and spectral-shape current
+agree only after complete pair-space integration. On an admitted material
+cohort their exact difference is transport--pressure boundary flux, a
+fractional derivative-placement commutator, complement leakage, and any
+moving-selection flux. A one-shell exact Navier--Stokes field has zero global
+shape current but nonzero localized source/current rows, ruling out
+carrier-mass domination. The same audit finds that WLF.50, WLF.55--WLF.57,
+and the inverse-pushforward shorthand in WLF.59 are unproved incidence
+clauses: orthogonal first admission controls square novelty, not same-pulse
+ancestry or bounded linear fibre multiplicity. Gold now requires a joint
+measure/disintegration on actual material-pair history and WLF readouts that
+controls those four defect rows with bounded multiplicity. WLF.60 remains the
+separate datum-finite parent-mass theorem. Silver is unchanged.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |

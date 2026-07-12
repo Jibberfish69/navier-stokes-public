@@ -970,10 +970,11 @@ first-admission/root-measure slice is the selected-critical weighted measure
 
 ## 11. Conditional no-recount incidence schema
 
-The parent/child language is now fixed.  The physical event is one
-same-parent pressure-viscosity-incompressibility participation event.  The
-parent role is the first-admitted original-history pulse record; the child role
-is any later selected readout of that same record.
+The intended parent/child event is one same-parent
+pressure-viscosity-incompressibility participation event.  The parent role is
+the first-admitted original-history pulse record; the child role is a later
+selected readout proved to descend from that same record.  The latter
+same-event relation is part of the bridge audited below.
 
 Let \(\mathcal A_P\) be the stopped set of legitimate first-admission native
 atoms in \(P\).  For \(a\in\mathcal A_P\), let \(F_a\) be the first unspent
@@ -1005,8 +1006,9 @@ The parent-weighted detector is the detector built before selected positive-part
 \]
 
 where \(\mathcal H_I^{*,P}\) is the backward same-parent heat/pressure response
-operator on the original material packet.  Its pairing with the signed parent
-row current \(dK_P\) is the child finite difference:
+operator on the original material packet.  Once that stopped detector has been
+constructed on the declared packet, the conditional pairing with the signed
+parent row current \(dK_P\) is the child finite difference:
 
 \[
 \Delta_IU_I
@@ -1135,7 +1137,8 @@ The kernel in `(WLF.59)' is the missing disintegration that makes the child
 measure and its bounded multiplicity well defined.  With it, `(WLF.58)' says
 there is no second child source beyond the stated paid rows.
 
-The analytic line needed for this slice is therefore exactly
+After the incidence kernel exists, the separate analytic mass line needed for
+this slice is
 
 \[
 \mu_P^{pw}(P)
