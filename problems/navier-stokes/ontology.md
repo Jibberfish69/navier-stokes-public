@@ -1461,6 +1461,11 @@ produce at most \(2Ae^{-\nu|k|^2t}<2A\) after any positive time.  There is no
 scale-independent strict fraction when \(\nu|k|^2t\) is allowed to approach
 zero.  Heat has infinite propagation speed, so this is attenuation over an
 elapsed response time rather than literal finite-speed wave travel.
+The quantifier is essential: positive elapsed time alone gives no uniform
+fraction, whereas a proved lower bound
+\(\nu|k|^2t\ge c_*>0\) gives the uniform homogeneous attenuation factor
+\(e^{-c_*}\).  F6.16 distinguishes such a normalized heat window from a
+physical dwell-time theorem for the nonlinear participant.
 
 Quadratic cost alone does not bound constructive pointwise height in three
 dimensions.  Let \(N_j=2^j\), take \(M_j\asymp N_j^2\) transverse Fourier
@@ -2877,11 +2882,281 @@ rows even though the complete critical production is zero.
 
 Thus native material current and pressure-completed spectral-shape current are
 two exact coordinates of one participant, with equality only after all
-part--whole exchanges are recombined.  A historical Gold incidence law must
-attach actual first-admission ancestors to the signed pair record and control
-the transport--pressure boundary, commutator, complement-leakage, and moving
-selection rows.  Pair mass, pair width, a parent label, or an abstract coupling
-of marginals supplies none of those controls.
+part--whole exchanges are recombined.  A historical Gold incidence law that
+converts localized native current into localized spectral-shape current must
+retain their joined localization residual.  A bridge built directly on the
+positive \(J_{\rm pair}\) measure does not make that coordinate conversion and
+does not inherit those rows automatically.  It must instead prove that every
+unpaid read belongs to the shape-changing component seen by
+\(J_{\rm pair}\), route the shape-null component, and construct actual
+first-admission ancestry, bounded fibre multiplicity, and parent size.  Pair
+mass, pair width, a parent label, or an abstract coupling of marginals supplies
+neither bridge.
+
+### F6.15 The localized current mismatch is one joined signed residual, and its use is route-specific
+
+Fix the minimum-shape coordinate of F6.14 and let \(\mathfrak M\) denote the
+smooth material-pair space.  The localized mismatch defines a finite signed
+measure
+
+\[
+d\mathfrak d_{\rm loc,t}
+=(j-k_{\rm shape})\,da\,db,
+\qquad
+\mathfrak d_{\rm loc,t}(\mathfrak M)=0.
+\]
+
+For a smooth pair selector \(\varphi\), put
+
+\[
+L_{\varphi,t}=2\mathcal I_t^*\varphi\mathcal I_t.
+\]
+
+The F6.14 decomposition can be written as three linear signed functionals:
+
+\[
+\begin{aligned}
+\mathfrak B_t(\varphi)
+&=-\iint \widetilde Q_{\rm VPI}\cdot\nabla_{a,b}\varphi\,da\,db,\\
+\mathfrak C_t(\varphi)
+&=\langle\Lambda^{-1}B,[L_{\varphi,t},\Lambda]v\rangle,\\
+\mathfrak E_t(\varphi)
+&=-m_H\langle\Lambda^{-1}B,L_{\varphi,t}v\rangle,
+\end{aligned}
+\]
+
+and
+
+\[
+\mathfrak d_{\rm loc,t}(\varphi)
+=\mathfrak B_t(\varphi)
++\mathfrak C_t(\varphi)
++\mathfrak E_t(\varphi).
+\]
+
+The complement form in F6.14 is equivalent to the last row because
+\(\langle B,v\rangle=0\).  For every finite partition of unity
+\(\sum_i\varphi_i=1\),
+
+\[
+\sum_i\mathfrak B_t(\varphi_i)
+=\sum_i\mathfrak C_t(\varphi_i)
+=\sum_i\mathfrak E_t(\varphi_i)
+=\sum_i\mathfrak d_{\rm loc,t}(\varphi_i)=0.
+\]
+
+Internal boundary normals, commutators, and complement exchanges therefore
+cancel when the parts are restored.  Charging
+\(|\mathfrak B|+|\mathfrak C|+|\mathfrak E|\) part by part before that
+recombination is a sufficient but generally stronger operation that counts
+the same internal exchange twice.
+
+The weak material history makes the joined object explicit.  Let
+\(\chi_{\rm VPI}=\zeta\cdot a_{\rm rel}/s\), use the zero-safe form at
+\(s=0\), and set
+
+\[
+H_\varphi=\iint\varphi e,
+\qquad
+K_\varphi=\iint\varphi k_{\rm shape}.
+\]
+
+For an adaptive selector \(\varphi_t\),
+
+\[
+\boxed{
+\frac d{dt}H_{\varphi_t}
+=K_{\varphi_t}
++2\iint\varphi_t e\chi_{\rm VPI}
++\mathfrak R_{\varphi_t},
+}
+\]
+
+where
+
+\[
+\mathfrak R_{\varphi_t}
+=\mathfrak d_{\rm loc,t}(\varphi_t)
++\iint(\partial_t\varphi_t)e.
+\]
+
+The last integral is entry--exit for the particular carrier \(e\); it is not
+an independently owned fourth measure.  For a moving partition
+\(\sum_i\varphi_i(t)=1\), one has
+\(\sum_i\mathfrak R_{\varphi_i}=0\).  The exact transform evolution
+
+\[
+\frac d{dt}\mathcal I_tF
+=\mathcal I_t(D_tF)-2\alpha\mathcal I_tF
+\]
+
+shows why differentiating a localized current also brings the full pair
+generator and the selector derivative.  A spacetime incidence measure may use
+the weak law without proving bounded variation of every split row.
+
+The split is tied to the declared coordinate.  Adding a divergence to the
+local shape density shifts mass between the boundary and remainder rows, and
+replacing \(m_H\) by another scalar shifts a zero-total density into the
+leakage row.  The installed choice is distinguished by
+
+\[
+m_H=\frac KR
+=\underset{m\in\mathbb R}{\operatorname{argmin}}
+\|\Lambda^{3/2}v-m\Lambda^{1/2}v\|_2^2.
+\]
+
+Thus the joined residual is the smallest signed object for the declared
+minimum-shape coordinate; its individual rows are not separate physical
+ledgers.
+
+There is a second, direct route.  The positive spacetime pair-action measure
+
+\[
+d\lambda_{\rm pair}
+=\eta_H^2\,d\sigma_B\,dt
+=\frac{k_{\rm shape}^2}{2|h_t|^2}\,da\,db\,dt
+\]
+
+has time marginal \(J_{\rm pair}\,dt\).  A causal kernel from fixed
+material-pair events to WLF reads can use this measure without comparing
+\(k_{\rm shape}\) to \(j\).  Such a kernel must be supported on proved
+same-event ancestry, dominate each unpaid child read, and have bounded fibre
+mass.  It also needs a shape-null routing theorem.  Indeed, for the one-shell
+field in F6.14, \(g_0=0\) and
+
+\[
+J_{\rm pair}(t)=O(t^2),
+\qquad
+\int_0^\tau J_{\rm pair}(t)\,dt=O(\tau^3),
+\]
+
+while a backward source detector aligned with \(B(v_0)\ne0\) has response
+
+\[
+\tau\|B(v_0)\|_2^2+O(\tau^2).
+\]
+
+Arbitrary source work therefore cannot be charged to \(J_{\rm pair}\).
+Unpaid WLF work must first be proved to lie in the shape-changing component;
+the tangential component must be routed to the declared paid, legal, or stop
+rows.  A bound on the full spacetime mass \(\int J_{\rm pair}dt\) is already
+Gold-strength because \(A_H\le J_{\rm pair}\).  The genuinely smaller bridge
+is a parent-announced selected submeasure with shape-null routing, causal
+ancestry, bounded fibres, and its separate datum-finite parent bound.
+
+### F6.16 Normalized viscous age, material dwell, and terminal heat comparison are different facts
+
+For a high-pass field supported on \(|\xi|\ge\lambda=\ell^{-1}\), homogeneous
+viscous inheritance obeys
+
+\[
+\|e^{\nu\tau\Delta}f\|_{\dot H^s}
+\le e^{-\nu\tau\lambda^2}\|f\|_{\dot H^s}.
+\]
+
+Its dimensionless viscous age is
+
+\[
+q=\nu\tau\lambda^2=\frac{\nu\tau}{\ell^2}.
+\]
+
+A scale-uniform homogeneous attenuation gap requires \(q\ge c_*>0\).
+Interpreted as a physical event, this is a retention theorem: the same
+admitted carrier must remain coherent for at least \(c_*\) heat times.  For
+travel across one length at speed \(U\), it is the local-Reynolds condition
+
+\[
+q\sim\frac{\nu}{U\ell}=\operatorname{Re}_\ell^{-1}.
+\]
+
+No such floor holds for every active same-field episode, even at fixed kinetic
+energy.  The exact F6.9 family
+
+\[
+u_{\mu,\lambda}(x,t)
+=\mu\lambda w_{\nu/\mu}(\lambda x,\mu\lambda^2t)
+\]
+
+has positive pressure-completed fine current for a duration
+\(\tau=T/(\mu\lambda^2)\) at scale \(\ell=\lambda^{-1}\), so
+
+\[
+q=\frac{\nu T}{\mu}\longrightarrow0.
+\]
+
+Choosing \(\lambda=\mu^2\mathcal E(\phi)/E_*\) fixes the kinetic energy.
+Thus the one VPI participant can perform genuine nonlinear work on a
+sub-heat interval.  This varying-data family does not rule out a dwell theorem
+for a more narrowly admitted retained carrier in one terminal history.
+
+An assumed unbounded terminal critical record supplies a different fixed gap.
+Let
+
+\[
+R_n=\|\Lambda^{1/2}u(\tau_n)\|_2^2\longrightarrow\infty
+\]
+
+at first-record times, put \(\mathsf E_0=\|u_0\|_2^2\), and choose
+
+\[
+\lambda_n=\frac{R_n}{4\mathsf E_0},
+\qquad
+v_n=P_{\ge\lambda_n}u(\tau_n),
+\qquad
+\theta_n=\frac c{\nu\lambda_n^2},
+\qquad c\ge\frac12.
+\]
+
+For all sufficiently large \(n\), \(\sigma_n=\tau_n-\theta_n>0\).  Energy
+and the record property give
+
+\[
+\|v_n\|_{\dot H^{1/2}}^2\ge\frac{3R_n}{4}.
+\]
+
+With the future-fitted backward heat probe
+
+\[
+w_n(s)=e^{\nu(\tau_n-s)\Delta}v_n,
+\]
+
+the normalized heat age of the comparison window is exactly
+\(\nu\theta_n\lambda_n^2=c\), and
+
+\[
+|\langle u(\sigma_n),\Lambda w_n(\sigma_n)\rangle|
+\le\frac{e^{-c}R_n}{4}.
+\]
+
+The exact same-field Duhamel pairing therefore forces
+
+\[
+\boxed{
+\int_{\sigma_n}^{\tau_n}
+-\langle B(u(s)),\Lambda w_n(s)\rangle\,ds
+\ge c_0R_n,
+\qquad
+c_0=\frac{3-e^{-c}}4>\frac12.
+}
+\]
+
+It also forces the high-frequency source action
+
+\[
+\boxed{
+\int_{\sigma_n}^{\tau_n}
+\|P_{\ge\lambda_n}B(u(s))\|_{\dot H^{-1/2}}^2\,ds
+\ge2\nu c_0^2R_n.
+}
+\]
+
+This is a scale-independent heat-comparison and late-reconstruction theorem:
+homogeneous inheritance cannot account for the endpoint high-frequency state,
+so the same pressure-completed nonlinear history must rebuild or reconfigure
+it on the selected window.  The window is chosen from the endpoint and is not
+a material dwell interval.  It gives late Eulerian ancestry, while material
+co-carriage, WLF first admission, bounded descendant multiplicity, and a
+datum-finite parent measure remain separate relations.
 
 ## F7. Anisotropic, directional, relational geometry
 
