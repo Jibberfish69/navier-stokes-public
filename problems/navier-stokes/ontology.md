@@ -1812,8 +1812,9 @@ D_J:=\|\Lambda^{3/2}u_J\|_2^2
 Every one of these shears subsequently decays by the heat law.  The family
 proves that finite kinetic energy and finite instantaneous viscous square cost
 do not impose a universal pointwise maximum-spikiness bound across smooth
-data.  It also proves that the inverse-distance critical viscous moment detects
-the maximally coherent ripple missed by the finite raw dissipation budget.  In
+data. It also proves that the inverse-distance critical viscous moment detects
+the displayed coherent shear pileup missed by the finite raw dissipation
+budget; it is not a theorem about every spatial ripple. In
 this shear sector the pressure-completed nonlinear production is zero and the
 critical balance is \(\mathcal H_{1/2}'=-\nu D_J\), so the same large moment
 destroys rather than feeds the crest.  In the full three-dimensional system,
@@ -3495,7 +3496,8 @@ This is a scale-independent heat-comparison and late-reconstruction theorem:
 homogeneous inheritance cannot account for the endpoint high-frequency state,
 so the same pressure-completed nonlinear history must rebuild or reconfigure
 it on the selected window.  The window is chosen from the endpoint and is not
-a material dwell interval.  It gives late Eulerian ancestry, while material
+a material dwell interval. It gives terminal-fitted late Eulerian
+reconstruction, while material
 co-carriage, WLF first admission, bounded descendant multiplicity, and a
 datum-finite parent measure remain separate relations.
 
@@ -4134,7 +4136,8 @@ This is a global time--frequency occupancy law for the complete same field.  It
 does not count spatial packets, locate the separated frequencies, or give a
 positive amount of occupancy to each rise.
 
-There is an exact counterfamily to any such event quantum on \(\mathbb R^3\).
+There is an exact counterfamily to event quanta based solely on the raw
+quantities listed below on \(\mathbb R^3\).
 Choose a divergence-free Schwartz field \(\psi\) with
 
 \[
@@ -4531,11 +4534,12 @@ Consequently the complete critical-height balance is
 Critical production is therefore signed work between the changing material
 metric and the pulled-back anisotropic distribution of relative kinetic energy
 across all chords of the same surrounding field. The \(C\)-isotropic part is
-annihilated by volume preservation. This is a joined material VPI statement,
-not a pressure account, a viscosity account, or a spectral-width history. It
-is an instantaneous pullback of a global all-chord tensor, not yet a transport,
-local-collar, or material-ancestry law; the viscous term \(D\) also remains
-global here.
+annihilated by volume preservation. This is an instantaneous kinematic and
+nonlinear identity evaluated on the same VPI solution, not a pressure account,
+a viscosity account, or a spectral-width history. The joined critical balance
+appears only after the global viscous term is restored. The pullback remains a
+global all-chord tensor, not a transport, local-collar, or material-ancestry
+law; the viscous term \(D\) also remains global here.
 
 On every interval \(I=[t_0,t_1]\) with
 \(\mathcal H_{1/2}(t_1)=2\mathcal H_{1/2}(t_0)>0\),
