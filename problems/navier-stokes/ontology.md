@@ -6271,6 +6271,15 @@ polarization change that are invisible to the normalized chord-direction
 distribution.  F7.31 gives the exact covariance, strict periodic witness, and
 the resulting quartic orientation supplier.
 
+Cycle 064 strengthens this strictness on the normalized periodic
+all-lattice-lift surface. Every global fixed-direction field
+\(u(z)=U(k_0\cdot z)\) has the same constant
+\(\Pi=(I+\widehat{k_0}\otimes\widehat{k_0})/4\), even though its scalar
+incidence and chord-amplitude variance can vary with the center. In
+particular, a scalar sinusoidal heat shear has \(v_{\rm amp}>0\) everywhere
+while \(\nabla\Pi=0\). Thus centered amplitude variance remains a one-way
+envelope; it is not the orientation change itself.
+
 Physically, rapid spatial change of the normalized all-chord orientation
 requires gradient-increment mass and directional dispersion in the same
 field. The theorem prices that turning only where the incidence density
