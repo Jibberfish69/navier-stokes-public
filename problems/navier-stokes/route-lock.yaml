@@ -8,15 +8,15 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_readout_bridge_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_frame_all_chord_block_anatomy_ontology_gate_spin
   effect: >-
-    Cycle 058 proves that vorticity and critical work read one trace-free
-    strain through different orientations, with a fixed
-    rate-square-or-positive-residual alternative on every enstrophy doubling.
-    Gold remains open because the residual has no datum budget and the rate
-    action is not placed on the critical-height rising set. No smaller closing
-    theorem or Silver exit is installed. Lower route snapshots remain
-    genealogy only.
+    Cycle 059 resolves that same-strain residual into the complete
+    vorticity-frame orientation normal form, proves its raw datum-finite
+    exposure, and forces combined rate-square/residual-square action on every
+    enstrophy doubling. Gold remains open because selected residual action,
+    square-time control, critical-rise placement, and the weight bridge are
+    missing. No smaller closing theorem or Silver exit is installed. Lower
+    route snapshots remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml

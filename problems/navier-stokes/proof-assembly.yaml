@@ -12,13 +12,14 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_readout_bridge_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_frame_all_chord_block_anatomy_ontology_gate_spin
   effect: >-
-    Cycle 058 installs the exact same-strain readout bridge and the
-    scale-critical rate-square-or-positive-residual action alternative on each
-    enstrophy doubling. Neither branch is datum-controlled or Gold-time placed.
-    No smaller closing theorem, Gold closure, or Silver exit is installed.
-    Lower generated occurrences are genealogy only.
+    Cycle 059 installs the complete vorticity-frame residual anatomy, its raw
+    datum-finite exposure, and the scale-critical combined
+    rate-square/residual-square lower action on each enstrophy doubling.
+    Selected-action, square-time, Gold-time, and weight control remain open. No
+    smaller closing theorem, Gold closure, or Silver exit is installed. Lower
+    generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

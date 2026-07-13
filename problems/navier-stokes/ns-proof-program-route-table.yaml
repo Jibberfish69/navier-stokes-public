@@ -26,13 +26,13 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_readout_bridge_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_frame_all_chord_block_anatomy_ontology_gate_spin
     effect: >-
-      Cycle 058 proves an instantaneous same-strain bridge between vorticity
-      stretching and nonlocal all-chord compression. Every enstrophy doubling
-      forces rate-square or positive strain-readout-residual action, but no
-      datum bound or Gold-time placement is installed. No smaller closing
-      theorem, Gold closure, or Silver Part/Field exit follows.
+      Cycle 059 proves the complete vorticity-frame residual anatomy, its raw
+      datum-finite exposure, and combined rate-square/residual-square lower
+      action on every enstrophy doubling. Selected-action, square-time,
+      Gold-time, and weight control remain open. No smaller closing theorem,
+      Gold closure, or Silver Part/Field exit follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
