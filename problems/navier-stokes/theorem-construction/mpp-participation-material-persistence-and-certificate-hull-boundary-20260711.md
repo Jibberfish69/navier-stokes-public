@@ -424,5 +424,6 @@ ontology remains unchanged in this cycle.
   of W9 is sharpened to explicit moduli. The global critical-height burden is
   unchanged.
 - **Proposed ontology delta:** candidate refinement of F1.3 and candidate
-  refinement of F3.2. The proof supports both candidates. Promotion remains
-  pending under the enforced lifecycle.
+  refinement of F3.2. The proof supports both candidates at the exact scopes
+  stated above; their premise weight depends on mathematical validity and
+  nonredundancy.
