@@ -482,8 +482,9 @@ the complete joined balance gives
 \]
 
 Rise therefore requires positive dual projection of the complete source onto
-the simultaneous \(r_+(t)\) configuration stronger than direct heat. Source magnitude elsewhere or
-with the wrong sign is inert for \(I\). Optimized Young gives
+the simultaneous \(r_+(t)\) configuration stronger than direct heat. A zero
+or nonpositive dual pairing supplies no positive amount to instantaneous
+\(I'\), regardless of source norm. Optimized Young gives
 
 \[
 \sup_{t<T}I(t)

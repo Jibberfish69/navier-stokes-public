@@ -603,8 +603,9 @@ event. That stack is not a Navier--Stokes realization.
 
 The same cycle also identifies the exact source relation. The rate can rise
 only through the positive dual projection of the complete simultaneous VPI
-source onto the already present \(r_+\) pattern; source magnitude elsewhere
-or with the wrong sign does not raise \(I\). A finite
+source onto simultaneous \(r_+(t)\). A source component with zero or
+nonpositive pairing supplies no positive amount to the instantaneous \(I'\)
+balance. A finite
 \(L_t^2\dot H_x^{-1}\) or \(L_t^2L_x^{6/5}\) norm of that complete source is
 a sufficient Gold supplier, but no such datum bound is proved. The remaining
 Gold burden is therefore a one-datum joined-source theorem strong enough to
@@ -6795,7 +6796,8 @@ finite, it is an event-extraction countermodel, not a Gold countermodel.
 The licensed physical conclusion stops here: global concentration of the
 same positive rate field forces a faster direct heat coefficient, and every
 actual rise must overrun that coefficient through the complete simultaneous
-VPI source. F7.21 adds an instantaneous global spatial slice, but neither fact
+VPI source. F7.21 adds an instantaneous global superlevel-measure lower bound,
+but neither fact
 proves a spatial location, nearest crest--trough pair, constructive
 interference, packet, annulus, material persistence, fixed-scale heat-time
 occupancy, bounded overlap, source recurrence, full-participant upper or lower
@@ -6933,7 +6935,7 @@ For a function-valued source, the same sign statement is
 It is a global functional projection, not pointwise eigenframe alignment or a
 source-location theorem. Equal source magnitudes can have opposite effects:
 for fixed smooth compactly supported \(f\),
-\(G_\pm=\pm(-\Delta f)\) have the same \(\dot H^{-1}\) norm and pair
+\(G^{(\pm)}=\pm(-\Delta f)\) have the same \(\dot H^{-1}\) norm and pair
 with \(f\) as \(\pm X\). If \(\psi\) has gradient support disjoint from
 \(f\), then adding \(A(-\Delta\psi)\) makes the source norm arbitrarily large
 without changing its pairing, and \(\psi\) may be placed arbitrarily far from
