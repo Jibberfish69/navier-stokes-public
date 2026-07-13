@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 068.
+**Current promoted checkpoint:** Cycle 069.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -10925,6 +10925,8 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-069-stored-enstrophy-terminal-stretching-breadth-gate-20260713.md`
+- `theorem-construction/codex-goal-ontology-cycle-007-terminal-critical-growth-requires-vortex-stretching-20260711.md`
 - `theorem-construction/codex-goal-ontology-cycle-068-active-all-chord-work-gate-hierarchy-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-067-passive-all-chord-eigenframe-rotation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-066-passive-unequal-heat-rate-material-orientation-reweighting-20260713.md`
