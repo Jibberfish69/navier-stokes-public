@@ -26,19 +26,21 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#passive_unequal_heat_all_chord_material_column_variation_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#passive_all_chord_eigenframe_rotation_ontology_gate_spin
     effect: >-
-      Cycle 066 realizes Cycle 013's unequal-heat scale-direction reweighting
-      in the local all-chord tensor. In an exact passive periodic history Pi
-      changes along a material column while convection, the pressure source
-      and gradient, vortex stretching, r, and P_H vanish. At fixed initial
-      energy and viscosity across smooth periodic data, initial |D_t Pi| is unbounded,
-      although its total selected-column variation is finite and critical
-      height decreases. Thus D_t Pi and its raw rate are not nonlinear or Gold
-      activity. Only an E0-nu initial-time pointwise ceiling for this readout
-      is refuted; per-datum, fixed-positive-time, higher-norm,
-      Gold-rise-restricted, signed-coupled, and bypass control remain open. No
-      strict reduction, Gold closure, or Silver Part/Field exit follows.
+      Cycle 067 proves that unequal passive heat rates can genuinely rotate
+      the local all-chord principal frame along a stationary material line,
+      with a uniform positive principal spectral gap, while convection, the
+      pressure source and gradient, vortex stretching, r, and P_H vanish. At
+      fixed initial energy and viscosity across smooth periodic data, the
+      initial principal-axis angular rate is unbounded, although the total turn
+      is pi/4 and critical height decreases. Thus eigenframe rotation and its
+      raw rate are not nonlinear or Gold activity. Only an E0-nu-positive-gap
+      initial-time angular-rate ceiling is refuted; per-datum,
+      fixed-positive-time, higher-norm, Gold-rise-restricted, active signed
+      S:Pi with local-global cancellation control, and bypass routes remain
+      open. No strict reduction, Gold closure, or Silver Part/Field exit
+      follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
