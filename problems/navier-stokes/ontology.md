@@ -5620,7 +5620,7 @@ have nonzero positive local work and \(I\sim A^2\) while the signed global
 production cancels and critical height decays. Outside \(G\), the displayed
 \(D/K\) bound is false; exact heat shears have \(I=0\) and \(D/K>0\).
 
-### F7.16 Common VPI diffusion is coercive for density-weighted normalized work, not ordinary-volume rate
+### F7.16 The complete normalized-rate equation cancels scalar density drift and leaves a trace-free VPI shape source
 
 Use the Eulerian all-chord tensor from F7.5 and put
 
@@ -5683,9 +5683,57 @@ where
 The \(q\Pi\) and \(g\Pi\) rows cancel pure scalar pair-density motion. The
 remaining source contains the full strain, rotation, instantaneous nonlocal
 pressure, pressure-constrained pair redistribution, and both viscous slots.
-It has no universal sign. The additional drift is produced by normalizing two
-coordinates diffused by the same VPI history; it is not a material velocity
-and is not a compressible-fluid motion.
+It has no universal sign. This quotient form is exact, but its displayed drift
+is not an independently acting physical row. Put
+
+\[
+\mathsf B=S^2+W^2+\nabla^2p,
+\qquad
+a=\nabla\log\tau,
+\qquad
+\mathcal K_\Pi
+=\frac{\mathsf Q-q\Pi}{\tau}
+-\frac{2\nu(\mathsf G_u-g\Pi)}{\tau}.
+\]
+
+Then
+
+\[
+(\mathcal L-2\nu a\cdot\nabla)\Pi=\mathcal K_\Pi,
+\qquad
+\operatorname{tr}\mathsf B
+=\operatorname{tr}\mathcal K_\Pi=0.
+\]
+
+Using \(\mathcal LS=-\mathsf B\) and the product rule gives the equivalent
+fully recombined equation
+
+\[
+\boxed{
+\mathcal Lr=\widetilde{\mathcal F}_r,
+}
+\]
+
+where
+
+\[
+\boxed{
+\widetilde{\mathcal F}_r
+=\mathsf B:\Pi^\circ
+-S:\mathcal K_\Pi
+-2\nu S:(a\cdot\nabla\Pi)
++2\nu\nabla S::\nabla\Pi.
+}
+\]
+
+Equivalently,
+\(\widetilde{\mathcal F}_r=\mathcal F_r+2\nu a\cdot\nabla r\).
+Every displayed source tensor is trace-free. This does not give a sign:
+\(S^2:\Pi\ge(S:\Pi)^2=r^2\), while \(W^2:\Pi\le0\), and the pressure,
+pair-redistribution, and viscous-shape rows remain signed. It says instead
+that scalar pair-density magnitude is not a separate cause. Only the changing
+anisotropic relation between strain and normalized all-chord orientation
+drives \(r\).
 
 The chord formula and Hilbert-space Cauchy--Schwarz give the pointwise Fisher
 bound
@@ -5710,21 +5758,28 @@ The periodic \(L^3\) bound has the inhomogeneous form
 dissipation, not the kinetic-energy budget.
 
 Because the flow map preserves volume, the unweighted rate mass from F7.15
-can be written in Eulerian or material coordinates. Complete-field
-integration gives
+can be written in Eulerian or material coordinates. Complete-field integration
+of the recombined equation gives
 
 \[
 \boxed{
 \frac12I'
 +\nu\int|\nabla r_+|^2\,dx
-=\int r_+\mathcal F_r\,dx
--\nu\int(\Delta\log\tau)r_+^2\,dx.
+=\int r_+\widetilde{\mathcal F}_r\,dx.
 }
 \]
 
-The last term is unsigned. Squaring the positive part removes the nodal
-surface term; it does not create an additional interface charge against a
-short rate burst.
+In the unrecombined quotient form,
+
+\[
+2\nu\int r_+a\cdot\nabla r
+=-\nu\int(\Delta\log\tau)r_+^2.
+\]
+
+The same drift occurs with the opposite sign inside the expanded
+\(\nabla\mathsf T_u\) source. Cycle 048 treated the resulting curvature row
+as a separate obstruction. The complete VPI equation proves that it cancels
+exactly. Squaring the positive part creates no nodal interface charge.
 
 By contrast, the convex perspective
 
@@ -5745,27 +5800,77 @@ J_\tau'
 }
 \]
 
-This is the exact density-weighted viscous coercivity. Its complete source is
-still signed, and no proved lower-density, inverse-\(\tau\), reverse-Hölder,
-or active-set theorem converts it into control of \(I\).
+This is the exact density-weighted perspective identity. Its complete source
+is still signed. F7.17 shows that its weight cannot be removed by any global
+\(\mathbb R^3\) Muckenhoupt or scale-free active-set argument.
 
 A direct conditional supplier follows from the unweighted identity. If
 
 \[
-\Phi(t)=\|\mathbf1_{\{r>0\}}[\mathcal F_r]_+\|_2,
-\qquad
-\beta(t)=\|[-\Delta\log\tau]_+\|_\infty,
+\widetilde\Phi(t)
+=\|\mathbf1_{\{r>0\}}[\widetilde{\mathcal F}_r]_+\|_2,
 \]
 
 then
 
 \[
-(\sqrt I)'\le\Phi+\nu\beta\sqrt I.
+(\sqrt I)'\le\widetilde\Phi.
 \]
 
-Thus \(\Phi,\beta\in L^1_t\), together with F7.11, implies
-\(I\in L^2_t\) and closes critical height. Those source and curvature
-integrability statements are not proved from the datum.
+Thus \(\widetilde\Phi\in L^1_t\), together with F7.11, implies
+
+\[
+\int_0^T I^2dt
+\le\frac{\mathcal E_0}{2\nu}
+\left(\sqrt{I(0)}+\|\widetilde\Phi\|_{L^1(0,T)}\right)^2
+\]
+
+and closes critical height. That source integrability is not proved from the
+datum.
+
+A weaker but still sufficient one-history source theorem would construct
+datum-dependent \(A_0,C_0<\infty\) such that, above a datum-dependent
+threshold,
+
+\[
+\left[\int r_+\widetilde{\mathcal F}_r\,dx\right]_+
+\le A_0I+C_0I^2.
+\]
+
+Indeed, after an integrating factor this gives \(z'\le\widehat C z^2\).
+If \(z(t)=M\), backward comparison gives
+
+\[
+z(t-h)\ge\frac{M}{1+\widehat C Mh}.
+\]
+
+A sequence of unbounded terminal peaks would therefore consume divergent
+\(L^1_t\) mass, contradicting F7.11. Hence the conditional theorem gives
+\(I\in L_t^\infty\cap L_t^2\).
+
+The exponent is decisive. Under Navier--Stokes scaling,
+
+\[
+I_\lambda(t)=\lambda I(\lambda^2t),
+\qquad
+I_\lambda'(t)=\lambda^3I'(\lambda^2t),
+\qquad
+\widetilde\Phi_\lambda(t)
+=\lambda^{5/2}\widetilde\Phi(\lambda^2t).
+\]
+
+A scale-free autonomous estimate for \(I'\) therefore has cubic, not
+quadratic, growth. The exact scalar profile
+
+\[
+y(t)=\frac1{\sqrt{2C(T-t)}}
+\]
+
+satisfies \(y'=Cy^3\) and lies in \(L^1_t\setminus L^2_t\). The needed
+quadratic coefficient must consequently carry an original-datum scale,
+transforming as \(A_0(u_{0,\lambda})=\lambda^2A_0(u_0)\) and
+\(C_0(u_{0,\lambda})=\lambda C_0(u_0)\), or be replaced by an equally strong
+nonlocal recurrence theorem. No such theorem is proved here.
 
 Finally, reuse the exact fixed-energy, fixed-\(\nu\) short-rise family from
 F6.21,
@@ -5800,6 +5905,137 @@ for the Gold supplier and, more generally, every such \(L^p_t\) bound with
 family. It does not refute per-datum finiteness, produce repeated terminal
 bursts in one history, or prove spatial concentration, packet motion,
 viscosity lag, annular travel, carrier persistence, or a Silver exit.
+
+### F7.17 All-chord orientation has a density-weighted turning budget, while its density has nonlocal algebraic tails and no uniform deweighting
+
+At one fixed time, \(\tau=\operatorname{tr}\mathsf T_u\) measures the
+complete-field relative-velocity incidence through each center, and
+\(\Pi=\mathsf T_u/\tau\) is its normalized directional distribution. Neither
+is fluid mass, packet support, or a material direction.
+
+For a nonzero compactly supported field on \(\mathbb R^3\), let
+\(K=\operatorname{supp}u\). If \(z\notin\operatorname{conv}K\), the two
+endpoints of a chord through \(z\) cannot both lie in \(K\). The two endpoint
+changes of variables in F7.5 therefore give the exact formula
+
+\[
+\boxed{
+\mathsf T_u(z)
+=\frac1{\pi^2}\int_{\mathbb R^3}
+\frac{|u(x)|^2}{|x-z|^4}
+\widehat{x-z}\otimes\widehat{x-z}\,dx.
+}
+\]
+
+Consequently,
+
+\[
+\tau(z)\sim\frac{\|u\|_2^2}{\pi^2|z|^4},
+\qquad
+\Pi(z)\longrightarrow\widehat z\otimes\widehat z
+\quad(|z|\to\infty).
+\]
+
+The tail is nonlocal incidence outside the velocity support, not fluid located
+there. Large-ball averages satisfy
+
+\[
+\langle\tau\rangle_{B_R}\gtrsim R^{-3},
+\qquad
+\left\langle\tau^{-1/(p-1)}\right\rangle_{B_R}^{p-1}
+\gtrsim R^4,
+\]
+
+so \(\tau\notin A_p(\mathbb R^3)\) for every \(p>1\). Since
+\(\tau\in L^1\) but has positive mass on a fixed inner ball,
+\(\tau\notin RH_q(\mathbb R^3)\) for every \(q>1\). On a fixed compact set,
+or at a fixed nonconstant time on \(\mathbb T^3\), \(\tau\) has a positive
+minimum and trivial local weight constants; the missing issue is uniform
+control toward a hypothetical terminal time.
+
+The normalized orientation nevertheless has an exact weighted turning law.
+With the chord increment \(w\), chord projection
+\(P=\widehat r\otimes\widehat r\), and the measure from F7.5,
+
+\[
+\partial_k\Pi
+=\frac2\tau\int
+(w\cdot\partial_kw)(P-\Pi)\,d\mu.
+\]
+
+Because \(|P|_F=1\) and the \(|w|^2\)-weighted mean of \(P\) is \(\Pi\),
+Cauchy--Schwarz gives
+
+\[
+\boxed{
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)g
+\le4g,
+\qquad
+\int\tau|\nabla\Pi|_F^2\,dx\le8D.
+}
+\]
+
+Physically, rapid spatial change of the normalized all-chord orientation
+requires gradient-increment mass and directional dispersion in the same
+field. The theorem prices that turning only where the incidence density
+\(\tau\) is present; it supplies no inverse-\(\tau\) control.
+
+That limitation remains on the active set. Choose compact smooth
+divergence-free fields \(V,W\) with a strict rising margin for \(V\) and
+\(r_W\ge c>0\) on an open set \(U\). For \(0<\alpha<1/2\), set
+
+\[
+w_\delta(x)
+=\delta^{1-\alpha}
+W\!\left(\frac{x-L_\delta e_1}{\delta}\right),
+\qquad
+u_\delta=V+w_\delta,
+\qquad
+L_\delta^{-4}=o(\delta^{1-2\alpha}).
+\]
+
+On the translated copy of \(U\), exact scaling and the far-field chord bound
+give
+
+\[
+\tau_{u_\delta}\sim\delta^{1-2\alpha}\tau_W\to0,
+\qquad
+r_{u_\delta}\sim\delta^{-\alpha}r_W\to\infty,
+\]
+
+while the copy's contributions scale as
+
+\[
+E\sim\delta^{5-2\alpha},\quad
+\mathcal H_{1/2}\sim\delta^{4-2\alpha},\quad
+K\sim\delta^{3-2\alpha},\quad
+D\sim\delta^{2-2\alpha},\quad
+P_H\sim\delta^{4-3\alpha}
+\]
+
+and vanish. The strict rising margin therefore persists. On that active set,
+
+\[
+\frac{\int r_+^2}{\int\tau r_+^2}
+\sim
+\frac{\int|\nabla r_+|^2}
+{\int\tau|\nabla r_+|^2}
+\sim\delta^{-1+2\alpha}\longrightarrow\infty.
+\]
+
+Thus no datum-independent active lower-density, inverse-weight, subsetwise
+deweighting, or good-lambda theorem implying such deweighting can control the
+ordinary-volume rate. A separate dilation of one rising seed also refutes a
+datum-independent scale-free whole-field deweighting constant. These are
+varying-data instantaneous counterfamilies. They do not refute a correctly
+scaled datum-dependent inequality or a full-VPI theorem controlling recurrence
+of the joined shape source through one fixed terminal history.
+
+Nothing in this fact proves that the far tail is fluid, that the active copy
+causes the base field's rise, or that any packet, core, annulus, material
+carrier, or recurrence persists. Gold remains open at the one-history
+trace-free source/recurrence law isolated in F7.16. Silver is unchanged.
 
 ## Hard boundary: claims excluded from the ontology
 
