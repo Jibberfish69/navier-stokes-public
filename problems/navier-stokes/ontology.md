@@ -6189,7 +6189,7 @@ viscosity lag, annular travel, carrier persistence, or a Silver exit.
 
 At one fixed time, \(\tau=\operatorname{tr}\mathsf T_u\) measures the
 complete-field relative-velocity incidence through each center, and
-\(\Pi=\mathsf T_u/\tau\) is its normalized directional distribution. Neither
+\(\Pi=\mathsf T_u/\tau\) is its normalized second-moment orientation tensor. Neither
 is fluid mass, packet support, or a material direction.
 
 For a nonzero compactly supported field on \(\mathbb R^3\), let
