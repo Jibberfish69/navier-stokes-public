@@ -290,7 +290,7 @@ Clean labels:
    The object is the same original smooth Navier-Stokes datum, interval, and theorem burden for both lanes.
 
 2. Run Gold on that object.
-   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact coherent action criterion; F6.11 gives a stronger radial-current first moment with finite base mass and terminal frequency escape. F1.9 and F5.8 show that pair width and ripple dissipation detect the same inverse-distance pressure without controlling its signed renewal. Both first moments remain uncontrolled. Local owner, first-admission, annular response, and order-lock machinery has Gold force only after an exact bridge to one of those actions or directly to the critical-height bound.
+   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact coherent action criterion; F6.11 gives a stronger radial-current first moment with finite base mass and terminal frequency escape. F1.9's global pair-separation width and F5.8's physical ripple dissipation separately generate inverse-distance quantities; no theorem places them on the same spatial or material carrier. Their Gold-relevant first moments remain uncontrolled. Local owner, first-admission, annular response, and order-lock machinery has Gold force only after an exact bridge to one of those actions or directly to the critical-height bound.
 
 3. Run Silver on that object.
    Silver tries to prove that the obstruction-world has no valid inhabitant. In CM terms, the alleged finite-time Clay terminal witness enters the participation-field tree without being assumed to be `Member(Q)`.
