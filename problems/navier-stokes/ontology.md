@@ -8660,8 +8660,9 @@ An unbounded dyadic enstrophy ladder therefore forces
 
 even though both \(\int I\,dt\) and \(\int J_{\mathfrak m}\,dt\) are
 datum-finite.  If the rate-square action stays finite, the joined residual
-must become temporally taller and more concentrated: it lies in
-\(L^1_t\setminus L^2_t\).  Its minimum raw first-moment contribution on a
+has an unweighted global coordinate height
+\(J_{\mathfrak m}\in L^1_t\setminus L^2_t\); that height must form taller,
+shorter temporal bursts.  Its minimum raw first-moment contribution on a
 dyadic level can still decay like \(K^{-1}\), so finite energy does not
 exclude the ladder.
 
