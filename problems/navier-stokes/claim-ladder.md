@@ -1399,6 +1399,76 @@ both viscous rows retained, or a direct critical-height theorem. No strict
 Gold reduction, Gold closure, Part/Field failure, class exit or Silver result
 follows.
 
+Thirty-third live gate result, 2026-07-13: Cycle 070 installs F7.37 and closes
+Cycle 069's algebraic weight-and-time bridge question without inventing a
+shared sign. At a nonzero time put
+
+\[
+H=\frac12\|\Lambda^{1/2}v\|_2^2,
+\qquad
+K=\|\omega\|_2^2,
+\qquad
+m_H=\frac K{2H}.
+\]
+
+Center the ratio
+\(
+\chi_{\omega/\tau}=|\omega|^2/\tau
+\)
+by its \(\tau\)-weighted mean \(m_H/2\), and combine that scalar covariance
+with the exact F7.26 orientation residual into the single joined source
+\(\mathcal B_{\omega,\tau}\). Then
+
+\[
+\boxed{
+\mathcal P_\omega
+=m_HP_H+2\mathcal B_{\omega,\tau},
+}
+\]
+
+\[
+\boxed{
+Hm_H'
++\nu\mathcal V_H
+=2\mathcal B_{\omega,\tau},
+\qquad
+\mathcal V_H
+=D_2-m_HD
+=2H\operatorname{Cov}_{\mu_H}(\rho,\rho^2)
+\ge0.
+}
+\]
+
+The common proportional work cancels from \(m_H'\). The critical-weighted
+mean inverse length can rise only when the joined native-weight-and-orientation
+mismatch exceeds the simultaneous adjacent-rung viscous gap.
+
+Since \(H\le E^\circ_0m_H\), terminal unbounded \(H\) forces, on every tail,
+
+\[
+\boxed{
+\int\frac{[\mathcal B_{\omega,\tau}]_+}{H}\,dt=\infty,
+\qquad
+\int\frac{[\mathcal B_{\omega,\tau}]_+}{K}\,dt=\infty.
+}
+\]
+
+The signs are strictly independent in lawful globally regular histories.
+Cycle 068's planar participant has \(H'>0>K'\) and
+\(\mathcal P_\omega=0\). A two-scale 2D3C participant constructed from the
+Cycle-001 datum has \(K'>0>H'\) while \(P_H=0\) at the initial instant. These
+are different periodic histories; no one-history traversal is asserted.
+
+Physically, critical work and vortex stretching read the same strain through
+different global weights and orientations. Their exact discrepancy, not
+either production alone, is what renews \(m_H\). The result proves no
+frequency motion, spatial location, carrier, packet, annulus, propagation,
+cascade, lag, causal order, height/enstrophy interval synchronization,
+datum-finite action bound, strict Gold reduction, Gold closure, Part/Field
+failure, class exit or Silver result. The live quantitative burden is a
+datum-finite bound on the positive joined action, a more primitive exact
+same-history decomposition, or a direct critical-height theorem.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -1415,7 +1485,7 @@ follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F6.22 and F7.16--F7.36 prove that
+  active \(L^2\) concentration control coupling them. F6.22 and F7.16--F7.37 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
