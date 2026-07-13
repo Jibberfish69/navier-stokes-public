@@ -138,9 +138,10 @@ must appear in its annulus.
 The joined VPI response becomes especially explicit in material coordinates.
 F1.11 proves that the pressure elliptic operator and the viscous diffusion
 operator use the same deformation metric \(C^{-1}\). Material compression
-makes diffusion faster in the compressed direction, material expansion makes
-it slower in the expanded direction, and incompressibility prevents all three
-principal response coefficients from becoming slow together. F7.9 then
+raises the principal viscous coefficient in the compressed label direction,
+material expansion lowers it in the expanded direction, and incompressibility
+prevents all three principal viscous coefficients from becoming small
+together. F7.9 then
 identifies critical-height production with signed work between the rate of
 that material metric and the whole-field anisotropic relative-motion tensor.
 This is the exact physical action whose core--collar incidence remains open.
@@ -775,7 +776,8 @@ Then \(\det F=1\), \(\det C=1\), and the complete VPI system pulls back to
 The divergence in the viscous row acts componentwise. The pressure constraint
 and viscous diffusion therefore use the same inverse material metric
 \(C^{-1}\); incompressibility is the same deformation's Piola constraint.
-They are not independently timed responses.
+Their material geometry is not independently assigned. Pressure remains
+instantaneous and elliptic, while viscosity remains parabolic.
 
 If \(s_1,s_2,s_3\) are the singular values of \(F\), the principal
 coefficients of the pulled-back viscous operator are
@@ -788,9 +790,12 @@ coefficients of the pulled-back viscous operator are
 
 Compression strengthens the viscous coefficient in that material direction;
 expansion weakens it. Volume preservation prevents all three coefficients
-from becoming smaller than \(\nu\) simultaneously. A proposed lag mechanism
-must therefore specify the orientation of the active variation relative to
-the evolving material frame. There is no scalar viscosity-delay variable
+from becoming smaller than \(\nu\) simultaneously. These are eigenvalues of
+the label-space principal symbol, not three decoupled heat rates: the frame and
+coefficients vary, their derivatives remain in the divergence-form operator,
+and Eulerian viscosity is still isotropic. A proposed lag mechanism must
+therefore specify the orientation of the active variation relative to the
+evolving material frame. There is no scalar viscosity-delay variable
 independent of that anisotropic deformation.
 
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
@@ -1462,9 +1467,9 @@ determined by the strain field: a flat-core pulse places it mainly in the
 transition annulus, whereas a general vortex or anisotropic packet need not.
 
 Radius alone supplies no increasing annular cost. As an exact scalar
-countertest, among functions on \(r<|x|<R\) taking the boundary values \(A\)
-at \(|x|=r\) and \(0\) at \(|x|=R\), the harmonic radial profile minimizes
-Dirichlet energy and
+countertest, for \(0<r<R\), among \(H^1\) functions on \(r<|x|<R\) with
+constant full-sphere traces \(A\) at \(|x|=r\) and \(0\) at \(|x|=R\), the
+harmonic radial profile minimizes Dirichlet energy and
 
 \[
 \inf\int_{r<|x|<R}|\nabla f|^2\,dx
@@ -4474,7 +4479,7 @@ all-chord relative-energy tensor of F7.5 back to label space:
 Since
 
 \[
-\dot C=2F^TSF,
+\dot C=2F^T(S\circ X)F,
 \qquad
 C^{-1}:\dot C=0,
 \]
@@ -4499,7 +4504,10 @@ Critical production is therefore signed work between the changing material
 metric and the pulled-back anisotropic distribution of relative kinetic energy
 across all chords of the same surrounding field. The \(C\)-isotropic part is
 annihilated by volume preservation. This is a joined material VPI statement,
-not a pressure account, a viscosity account, or a spectral-width history.
+not a pressure account, a viscosity account, or a spectral-width history. It
+is an instantaneous pullback of a global all-chord tensor, not yet a transport,
+local-collar, or material-ancestry law; the viscous term \(D\) also remains
+global here.
 
 On every interval \(I=[t_0,t_1]\) with
 \(\mathcal H_{1/2}(t_1)=2\mathcal H_{1/2}(t_0)>0\),

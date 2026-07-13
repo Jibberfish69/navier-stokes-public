@@ -197,9 +197,11 @@ Cycle 043 returns the program to the physical picture supplied in Cycle 034.
 It installs F1.11 and F7.9 and deepens F5.3. In material coordinates the
 pressure elliptic row and viscous diffusion row use the same inverse
 deformation metric \(C^{-1}\). Its principal viscous coefficients are
-\(\nu s_i^{-2}\), with product \(\nu^3\): compression speeds the response in
-the compressed direction, expansion slows it in the expanded direction, and
-volume preservation forbids all directions from lagging together. The
+\(\nu s_i^{-2}\), with product \(\nu^3\): compression raises the coefficient
+in the compressed label direction, expansion lowers it in the expanded
+direction, and volume preservation forbids all three coefficients from
+becoming small together. These principal-symbol coefficients are not three
+decoupled heat rates; the evolving frame and coefficient derivatives remain. The
 all-chord critical current then has the exact material-work form
 
 \[
