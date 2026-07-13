@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 051.
+**Current promoted checkpoint:** Cycle 052.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -545,6 +545,57 @@ same source. What is not proved is that a dangerous history generates a
 heat-thick event at any spatial scale, or that the datum bounds the positive
 variation remaining after the complete source and direct scalar diffusion are
 recombined.
+
+Cycle 052 resolves the part of the response-speed picture that is licensed
+without inventing a packet or separating viscosity from the VPI participant.
+On decaying \(\mathbb R^3\), let
+
+\[
+I=\|r_+\|_2^2,
+\qquad
+X=\|\nabla r_+\|_2^2,
+\qquad
+\mathcal V_{6,+}
+=\left(\frac{\|r_+\|_2}{\|r_+\|_6}\right)^3.
+\]
+
+The sharp Sobolev inequality forces
+
+\[
+\frac XI
+\ge S_3\mathcal V_{6,+}^{-2/3},
+\qquad
+S_3=3\left(\frac\pi2\right)^{4/3}.
+\]
+
+Thus concentration of the positive compression-rate field makes its direct
+scalar heat coefficient larger: the reciprocal instantaneous clock
+\(I/(\nu X)\) is at most
+\(\mathcal V_{6,+}^{2/3}/(\nu S_3)\). This is the exact global form of the
+physical statement that a more concentrated rate field cannot make its
+direct Laplacian response arbitrarily slow. It is not a finite propagation
+speed and not a decay law for the full VPI evolution.
+
+Writing
+\(N=\int r_+\widetilde{\mathcal F}_r\,dx\), actual rise obeys the joined law
+
+\[
+\frac12(\log I)'+\nu\frac XI=\frac NI.
+\]
+
+Consequently, the same concentration also raises the minimum normalized
+complete-source rate required for growth. The nonlocal pressure, strain,
+rotation, pair-shape, and viscous-reorientation rows remain joined in \(N\);
+only the explicit scalar Laplacian has been read as direct heat. The global
+volume \(\mathcal V_{6,+}\) gives no location, support, thickness, material
+carrier, persistence, or bounded-overlap family. A smooth scalar terminal
+pulse stack proves that even unbounded peaks with finite \(\int I\) and
+finite \(\int X\) need not contain an F7.19 heat-thick event. That stack is
+not a Navier--Stokes realization. The remaining Gold burden is therefore a
+same-history theorem controlling the complete normalized source relative to
+this direct heat rate, or separately extracting and controlling the
+spatially persistent event that the global concentration readout does not
+supply.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
