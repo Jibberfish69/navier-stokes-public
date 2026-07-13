@@ -10688,7 +10688,9 @@ overlap, global positive work, viscous surplus, or a finite height upcrossing
 is itself the sought currency. The next burden is a cumulative same-history
 theorem distinguishing finitely many globally regular planar upcrossings from
 an unbounded terminal ladder, or a direct datum-bound that bypasses that
-comparison.
+comparison. The theorem is periodic and supplies no decaying-\(\mathbb R^3\)
+result. It proves neither that frame motion precedes signed work nor that one
+participant traverses the comparison witnesses.
 
 ## Hard boundary: claims excluded from the ontology
 
