@@ -10522,11 +10522,163 @@ The theorem is periodic and nonlocal. It supplies no decaying \(\mathbb R^3\)
 theorem, localization, packet or annulus carrier, transport of an orientation
 object, propagation or response speed, viscous lag, datum-finite angular
 budget, persistent turning, terminal behavior, strict Gold reduction, Gold
-closure, Part/Field failure, class exit or Silver result. The next lawful
-orientation question is the first exact same-history VPI symmetry break that
-makes \(S:\Pi\ne0\), followed by placement of the signed overlap on an actual
-critical-height rising history. Local signed overlap and global \(P_H\) must be
-kept distinct because either can cancel while the other is nonzero.
+closure, Part/Field failure, class exit or Silver result. F7.36 answers the
+next lawful orientation question: it gives an exact active symmetry break,
+separates local signed overlap from global work, and places viscous surplus on
+an actual rising history. It also proves why that is still not Gold closure:
+the rising history is globally regular.
+
+### F7.36 Active all-chord work has four strict gates, and actual rise can occur without vortex stretching
+
+On normalized periodic \(\mathbb T^3\), retain
+
+\[
+\mathfrak c=-S:\mathsf T_u,
+\qquad
+\tau=\operatorname{tr}\mathsf T_u,
+\qquad
+\Pi=\frac{\mathsf T_u}{\tau},
+\qquad
+r=-S:\Pi.
+\]
+
+Whenever \(\tau>0\), \(\mathfrak c=\tau r\), and the exact critical balance
+is
+
+\[
+\boxed{
+P_H=\int_{\mathbb T^3}\tau r\,dx,
+\qquad
+\mathcal H_{1/2}'=P_H-\nu D,
+\qquad
+D=\|\Lambda^{3/2}u\|_2^2.
+}
+\]
+
+Cycles 067, 015, and the exact two-dimensional triad below make four gates
+strict:
+
+1. the all-chord principal frame can rotate while \(r=P_H=0\);
+2. \(r>0\) can hold at a point while \(P_H=0\) by whole-field cancellation;
+3. \(P_H>0\) can hold while \(P_H\le\nu D\), so height does not rise; and
+4. \(P_H>\nu D\) gives actual critical-height rise.
+
+For the active witness, set
+
+\[
+\psi(x,y)=\cos x+\cos2y+\cos(x+2y),
+\qquad
+\phi=(\psi_y,-\psi_x,0),
+\qquad
+u_0=a\phi.
+\]
+
+This datum is smooth, divergence free, independent of \(z\), and launches a
+globally regular two-dimensional Navier--Stokes history. Its vorticity stays
+normal to the plane while strain has zero third row and column, so
+
+\[
+\boxed{S\omega=0}
+\]
+
+pointwise for the whole history. Exact finite-Fourier calculation at \(t=0\)
+gives
+
+\[
+p_0=\frac{7-3\sqrt5}{2}>0,
+\qquad
+d_0=\frac{33+25\sqrt5}{2},
+\]
+
+\[
+\boxed{
+P_H=a^3p_0,
+\qquad
+D=a^2d_0,
+\qquad
+\mathcal H_{1/2}'=a^2(ap_0-\nu d_0).
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+a>a_*:=\nu\frac{d_0}{p_0}
+=\frac\nu2(303+137\sqrt5)
+}
+\]
+
+gives strict critical-height rise on a nonzero short interval. At the same
+initial instant,
+
+\[
+\boxed{
+\int\tau r\,dx=a^3p_0>\nu a^2d_0.
+}
+\]
+
+The physical event is active, global, and pressure completed. The in-plane
+velocity pattern advects and deforms itself; its strain reads the nonlocal
+all-chord orientation in overlapping tensor directions; the signed relation
+survives cancellation and exceeds simultaneous viscous critical loss.
+Pressure is the forced nonlocal response of that same field and changes its
+future geometry even though it has no direct term in this global
+constant-coefficient balance. Viscosity smooths the same relative-velocity
+structure simultaneously.
+
+The event is not a singularity mechanism. With
+\(E=\frac12\|u\|_2^2\) and
+\(Z=\frac12\|\omega\|_2^2\), two-dimensional energy and enstrophy are
+non-increasing and
+
+\[
+\mathcal H_{1/2}(t)^2\le E(t)Z(t)\le E(0)Z(0).
+\]
+
+A lawful participant can therefore cross upward through critical-height
+levels, even with genuine positive global all-chord work and zero vortex
+stretching, without starting an unbounded ladder.
+
+The sign is relational. Comparing the two forward data \(a\phi\) and
+\(-a\phi\), rather than reversing time, gives
+
+\[
+\mathsf T_{-a\phi}=\mathsf T_{a\phi},
+\qquad
+\tau_{-a\phi}=\tau_{a\phi},
+\qquad
+\Pi_{-a\phi}=\Pi_{a\phi},
+\]
+
+while
+
+\[
+S_{-a\phi}=-S_{a\phi},
+\qquad
+r_{-a\phi}=-r_{a\phi},
+\qquad
+P_H(-a\phi)=-a^3p_0.
+\]
+
+Thus anisotropy, eigenvalues, eigenframe, spatial variation, and quadratic
+state sizes at the compared snapshots do not own a critical-work sign. The
+sign belongs to the simultaneous relation \(-S:\Pi\). Cycle 067 separately
+proves that genuine frame rotation can occur with zero work. The ABC witness
+of Cycle 015 separately proves that a positive local relation can be exactly
+canceled by the rest of the same participant.
+
+This theorem proves no packet, annulus, core, connected carrier, spatial
+focusing, frequency travel, propagation speed, viscous lag, pressure sign,
+material persistence of the positive set, recurrence, no-reuse law, positive
+per-event datum charge, terminal behavior, strict Gold reduction, Gold
+closure, Part/Field failure, class exit, or Silver result. Its exact Gold
+consequence is negative and generative: no one of frame motion, local positive
+overlap, global positive work, viscous surplus, or a finite height upcrossing
+is itself the sought currency. The next burden is a cumulative same-history
+theorem distinguishing finitely many globally regular planar upcrossings from
+an unbounded terminal ladder, or a direct datum-bound that bypasses that
+comparison.
 
 ## Hard boundary: claims excluded from the ontology
 
@@ -10545,6 +10697,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-068-active-all-chord-work-gate-hierarchy-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-067-passive-all-chord-eigenframe-rotation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-066-passive-unequal-heat-rate-material-orientation-reweighting-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-065-passive-multidirectional-all-chord-orientation-variation-20260713.md`
