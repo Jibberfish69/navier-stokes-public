@@ -6052,11 +6052,14 @@ that scalar pair-density magnitude is not a separate cause. Only the changing
 anisotropic relation between strain and normalized all-chord orientation
 drives \(r\).
 
-Cycle 065 makes the word "relation" essential. A passive parallel-column
-heat flow can have spatially varying \(\Pi\) while \(S\) has only
-axial--planar blocks and \(\Pi\) has only axial--axial and planar--planar
-blocks. Then \(S:\Pi=r=0\), every term in the recombined source contracts to
-zero, and the spatial variation is not a driver of normalized compression.
+Cycles 065--066 make the word "relation" essential. A passive
+parallel-column heat flow can have spatially varying \(\Pi\), and unequal
+heat rates can also give \(D_t\Pi\ne0\) along a material column. Throughout
+the class, \(S\) has only axial--planar blocks while \(\Pi\),
+\(D_t\Pi\), and the normalized shape reaction have only axial--axial and
+planar--planar blocks. Thus \(S:\Pi=r=0\), and every contraction driving
+\(r\) vanishes even while the normalized orientation readout changes. The
+changing tensor alone is not a changing work relation.
 
 The chord formula and Hilbert-space Cauchy--Schwarz give the pointwise Fisher
 bound
