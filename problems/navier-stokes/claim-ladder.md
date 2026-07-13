@@ -1029,7 +1029,7 @@ Gold reduction, closure, or Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.30 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.31 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1083,12 +1083,14 @@ Gold reduction, closure, or Silver exit follows.
   distinct canonical integrated threshold \(\ell_\omega\), proves its
   quadratic short-radius vorticity lower-tail bound, and bounds
   \(J_{\omega/\tau}\) by the
-  enstrophy--palinstrophy product \(24\pi\sqrt{KD_2}\). In this
-  F7.17-plus-Cauchy supplier the remaining factor is
-  \(\int g^2/\tau\); another source-weighted replacement may bypass it on one
-  original critical history. The
-  fixed-energy family also rules out an energy--viscosity-only
-  square-rate supplier bound. Older WLF/ODP,
+  enstrophy--palinstrophy product \(24\pi\sqrt{KD_2}\). Cycle 063 proves that
+  the direct remaining Cauchy factor is
+  \(\mathcal Q_\Pi=\int\tau|\nabla\Pi|^4\), and that only centered
+  chord-amplitude/direction covariance changes \(\Pi\) spatially. The raw
+  \(\int g^2/\tau\) perspective is a coarser one-way supplier; an exact
+  heat-decaying shear makes it arbitrarily large at fixed energy across data
+  while \(\mathcal Q_\Pi=0\). No datum-time or Gold-placement theorem for the
+  direct quantity is installed, and another route may bypass it. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
