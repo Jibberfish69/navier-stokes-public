@@ -611,10 +611,15 @@ nonpositive pairing supplies no positive amount to the instantaneous \(I'\)
 balance. A finite
 \(L_t^2\dot H_x^{-1}\) or \(L_t^2L_x^{6/5}\) norm of that complete source is
 a sufficient Gold supplier, but no such datum bound is proved. The remaining
-Gold burden is therefore a one-datum joined-source theorem strong enough to
-control this projection, or a fixed-scale heat-interval integrated-superlevel
-occupancy theorem. Pointwise persistence for a positive heat-time fraction is
-one stronger sufficient route to that occupancy, not the exact requirement.
+Gold burden on this route is therefore a one-datum joined-source theorem strong
+enough to control this projection, or another direct theorem controlling
+\(\int I^2dt\). Separately, the next physical event question is whether one
+fixed scale acquires the F7.19 heat-interval integrated-superlevel occupancy.
+Pointwise persistence for a positive heat-time fraction is one stronger
+sufficient route to that occupancy, not the exact requirement. Event occupancy
+alone is not a Gold discharge: F7.19 gives each admitted event a lower Gold
+action bound, so a separate datum-finite recurrence/no-recount theorem would
+still be required.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
