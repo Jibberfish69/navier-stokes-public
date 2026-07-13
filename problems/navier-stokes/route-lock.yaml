@@ -8,14 +8,14 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_weighted_readout_residual_evolution_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_affine_radius_weight_bridge_ontology_gate_spin
   effect: >-
-    Cycle 060 gives the vorticity-weighted residual one global VPI evolution
-    and refutes energy-only raw weighted-action and bare square-time bounds
-    across data. Gold remains open because normalized residual action,
-    full-datum source control, critical-rise placement, and the weight bridge
-    are missing. No smaller closing theorem or Silver exit is installed. Lower
-    route snapshots remain genealogy only.
+    Cycle 061 makes the native weight gap a same-field inverse affine-scale
+    statement and refutes an energy-only radius floor or linear deweighting.
+    Gold remains open because one-history inverse-scale/source control,
+    normalized residual action, and critical-rise placement are missing. No
+    smaller closing theorem or Silver exit is installed. Lower route snapshots
+    remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml

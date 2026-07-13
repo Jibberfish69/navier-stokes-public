@@ -12,14 +12,14 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_weighted_readout_residual_evolution_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_affine_radius_weight_bridge_ontology_gate_spin
   effect: >-
-    Cycle 060 installs the global weighted-residual VPI evolution and
-    positive-part laws, then refutes energy-only raw weighted-action and bare
-    square-time bounds across data. Normalized-action, full-datum source,
-    Gold-time, and weight control remain open. No smaller closing theorem,
-    Gold closure, or Silver exit is installed. Lower generated occurrences are
-    genealogy only.
+    Cycle 061 installs the conditional affine-radius native-weight bridge and
+    refutes an energy-only radius floor or static linear coefficient. The
+    assembly remains open because one-history inverse-scale/source control,
+    normalized residual action, and Gold-time placement remain open. No
+    smaller closing theorem, Gold closure, or Silver exit is installed. Lower
+    generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

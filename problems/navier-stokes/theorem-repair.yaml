@@ -9,14 +9,15 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_weighted_readout_residual_evolution_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_affine_radius_weight_bridge_ontology_gate_spin
   effect: >-
-    Cycle 060 proves the exact global weighted-residual evolution and
-    positive-part laws, and refutes energy-only raw weighted-action and bare
-    square-time bounds across data. The residual is not an independent
-    currency; normalized-action, full-datum source, G-time, and weight control
-    remain open. No smaller closing theorem, MPP closure, or Silver exit is
-    installed. Lower generated route occurrences remain genealogy only.
+    Cycle 061 proves that the residual's native weight gap is controlled
+    conditionally by the same field's inverse affine-validity radius, and
+    refutes an energy-only radius floor or linear deweighting. The ratio and
+    radius are not independent currencies or carriers; one-history
+    inverse-scale/source control and Gold-time placement remain open. No
+    smaller closing theorem, MPP closure, or Silver exit is installed. Lower
+    generated route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
