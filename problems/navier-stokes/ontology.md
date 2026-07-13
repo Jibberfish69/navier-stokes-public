@@ -7118,6 +7118,31 @@ Fragmentation can increase this interface burden; it does not turn total
 measure into one component or give the threshold parameter a geometric
 radius.
 
+The global Cycle 053 balance is exactly the aggregate of these threshold
+laws. If
+
+\[
+S_a=\int_{\{r>a\}}\widetilde{\mathcal F}_r\,dx,
+\]
+
+then Fubini and coarea give
+
+\[
+\boxed{
+\int_0^\infty H_a\,da=\frac I2,
+\qquad
+\int_0^\infty D_a^{(1)}\,da=X,
+\qquad
+\int_0^\infty S_a\,da=N.
+}
+\]
+
+Integrating \(H_a'+\nu D_a^{(1)}=S_a\) over all thresholds is precisely
+\(I'/2+\nu X=N\). A positive global source projection can therefore be
+concentrated at thresholds other than the one selected by F7.21 while that
+fixed threshold drains. The global pairing is not a fixed-threshold
+replenishment theorem.
+
 The F7.21 slice now gives an exact heat-time alternative. Fix
 \(0<\eta,\vartheta<1\), suppose
 \(\mathcal R_{6,+}(t_0)\ge R_0>0\), and choose \(s\) from F7.21. Set
