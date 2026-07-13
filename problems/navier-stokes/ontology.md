@@ -9119,7 +9119,9 @@ placement, strict Gold reduction, Gold closure, or Silver exit.
 Cycle 061 leaves its uniform-Hessian radius conditional.  The same field's
 second derivative supplies a distinct unconditional integrated certificate.
 On decaying \(\mathbb R^3\), define the weighted curvature surrounding a
-center by
+center as follows.  For the trivial field \(u\equiv0\), set
+\(\chi_{\omega/\tau}=J_{\omega/\tau}=0\); all substantive conclusions below
+are then trivial.  Otherwise \(\tau>0\) at every finite point.  Define
 
 \[
 \mathcal C_R(z)
@@ -9305,9 +9307,9 @@ The radius inputs evolve through the complete derivative tower.  With
 
 Here \(-\Delta p=\operatorname{tr}(A^2)\), so the pressure derivatives are
 the simultaneous forced nonlocal response of the same field.  The strain and
-pressure terms are signed.  Viscosity supplies the derivative-norm sinks
-inside the same equations but gives neither the radius nor the pointwise
-quotient a maximum principle, monotonicity, or persistence law.
+pressure terms are signed.  Viscosity supplies derivative-norm sinks inside
+the same equations, but these equations do not directly yield a maximum
+principle, monotonicity, or persistence law for the radius or quotient.
 
 Under exact Navier--Stokes scaling, \(\ell_\omega\) scales as a length and both
 sides of the mismatch bound have the same homogeneity.  In the fixed-energy,
