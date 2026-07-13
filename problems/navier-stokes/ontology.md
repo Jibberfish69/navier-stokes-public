@@ -9,6 +9,16 @@ research cycles are evidence and discovery records; only independently checked
 facts promoted into this file carry ontology premise weight. The numbered git
 checkpoint for each cycle is the minimal progress ledger.
 
+**Physical-story custody:** a numbered cycle is not complete merely because an
+identity, estimate, counterexample, or coordinate was derived. It must state
+the same-participant physical event before the mathematics, return after the
+mathematics to the exact physical story licensed, and name every spatial,
+material, temporal, or causal translation not proved. A later fact must
+re-audit every earlier picture whose meaning it changes. A cycle lacking that
+return is support, countertest, route obstruction, or consolidation rather
+than ontology development. The complete compact cycle audit lives in
+spine.md.
+
 **Authority boundary:** this file contains exact identities, exact operator
 properties, or classical proved theorems under the hypotheses stated here. It
 contains no proposed pressure sign, cascade direction, alignment law, packet
