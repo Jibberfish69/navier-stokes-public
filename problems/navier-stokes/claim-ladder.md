@@ -340,27 +340,33 @@ upper bound on actual dissipation. The Gold square-rate coordinate instead gives
 \int_{J_j}I(t)^2dt\ge c^4\theta^2\nu^3.
 \]
 
-Thus every heat-thick event has scale-independent Gold visibility. A dyadic
-scalar stack has finite normalized-rate \(L^2\) budget and infinite
-\(\int I^2dt\), so the energy marginal alone cannot forbid a shrinking Zeno
-schedule. The stack is not a Navier--Stokes realization.
+Thus every heat-thick event has an individual scale-independent Gold lower
+bound. Only disjoint heat intervals may be summed without temporal recount.
+A dyadic scalar stack on disjoint intervals has finite normalized-rate
+\(L^2\) budget and infinite \(\int I^2dt\), so the energy marginal alone
+cannot forbid that scalar shrinking schedule. The stack is not a
+Navier--Stokes realization. The radius sum above likewise applies only to
+families with spacetime overlap at most \(M\).
 
 Kato's inequality also proves that direct advection--diffusion cannot create a
-new positive \(r\) maximum; regeneration must enter through the complete
+new positive \(r\) maximum; maximum growth must enter through the complete
 signed VPI source. With \(X=\int|\nabla r_+|^2\) and
-\(N=\int r_+\widetilde{\mathcal F}_r\), its exact positive logarithmic action
+\(N=\int r_+\widetilde{\mathcal F}_r\), the exact net
+source-minus-direct-diffusion positive logarithmic variation
 above \(I_\sharp\) is
 
 \[
 \int_{\{I>I_\sharp\}}\frac{[N-\nu X]_+}{I}\,dt
-=\frac12\operatorname{Var}^+
-\left(\log\frac I{I_\sharp}\right)_+.
+=\frac12\operatorname{Var}^+\!\left(g_\sharp\right),
 \]
 
-A datum bound on this action would close the square-rate supplier, but none is
-proved. Nor is there an active-scale/thickness extraction theorem from large
-\(I\). CKN partial regularity does not supply either missing clause. No Gold
-closure or Silver Part/Field exit follows.
+where \(g_\sharp=(\log(I/I_\sharp))_+\) for \(I>0\) and \(g_\sharp=0\)
+at \(I=0\). Successive doubling upcrossings above \(I_\sharp\) contribute
+\(\tfrac12\log2\), and disjoint upcrossing intervals add without recount.
+A datum bound on this net variation would close the square-rate supplier, but
+none is proved. Nor is there an active-scale/thickness extraction theorem from
+large \(I\). CKN partial regularity does not supply either missing clause. No
+Gold closure or Silver Part/Field exit follows.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -387,9 +393,10 @@ closure or Silver Part/Field exit follows.
   correctly scaled one-datum full-source recurrence or dynamic active-coupling
   theorem. Pointwise large rate does not extract a spatial scale. If
   heat-thick events are independently admitted, finite energy controls their
-  radius-weighted sum but not their unweighted recurrence; the exact
-  full-source logarithmic regeneration action remains unbounded from the
-  datum. The fixed-energy family also rules out any bound using only kinetic
+  radius-weighted sum only under bounded spacetime overlap; individual Gold
+  lower bounds accumulate only on disjoint heat intervals. The exact net
+  source-minus-direct-diffusion logarithmic variation remains unbounded from
+  the datum. The fixed-energy family also rules out any bound using only kinetic
   energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
