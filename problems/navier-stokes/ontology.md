@@ -526,11 +526,12 @@ A pointwise value of \(r_+\) has no intrinsic length: choosing
 \(\ell=\sqrt{\nu/r_+}\) would make \(r_+\ell^2/\nu=1\) tautologically. Suppose
 instead that an independently established scale \(\ell\) carries
 \(r_+\gtrsim\nu/\ell^2\) on comparable spatial volume for one heat-time
-\(\ell^2/\nu\). F7.19 proves that such a heat-thick event contributes only
-order \(\nu^2\ell\) to the datum-finite viscous history but contributes a
+\(\ell^2/\nu\). F7.19 proves that the datum-finite viscous history controls
+only the radius-weighted sum of such events, while every event contributes a
 scale-independent amount of order \(\nu^3\) to the square-rate action
-\(\int I^2dt\). Infinitely many shrinking events can therefore be compatible
-with finite energy while remaining equally visible to the open Gold supplier.
+\(\int I^2dt\). Finite energy therefore does not rule out infinitely many
+shrinking events, while each remains equally visible to the open Gold
+supplier.
 
 The same fact gives the exact regeneration law. Direct advection--diffusion
 transports and smooths \(r_+\) and cannot create a new positive maximum. Any
@@ -6331,8 +6332,9 @@ occupancy bound
 
 Because \(|r|\le|S|\), the same event contributes at least
 \(2c^2\theta\nu^2\ell_j\) to \(2\nu\int|S|^2\). Its datum-finite viscous
-contribution is therefore radius weighted and can be summable along a
-geometrically shrinking sequence.
+budget therefore controls the radius-weighted event sum, not the unweighted
+number of events. This is a lower bound and gives no eventwise upper bound on
+the actual dissipation.
 
 The Gold square-rate coordinate sees a different quantity. Put
 \(I(t)=\int_\Omega r_+(x,t)^2dx\). Every heat-thick event satisfies
