@@ -15,6 +15,68 @@ a lawful stronger sufficient route, and pressure makes no direct contribution
 to the global scalar-multiplier balance. Lower route text retaining the former
 wrapper name is genealogy rather than current theorem authority.
 
+## Physical-story custody for every ontology cycle
+
+A numbered ontology cycle is incomplete until it records all four rows:
+
+1. the same-participant physical event before proof coordinates;
+2. the exact mathematical survivor or countertest and its surface;
+3. the physical story licensed after the mathematics; and
+4. every tempting spatial, material, temporal, or causal translation that the
+   result does not prove.
+
+If a cycle has no licensed new physical consequence, it is typed as support,
+countertest, route obstruction, or consolidation rather than ontology
+development. Every later result must re-audit the earlier pictures whose
+meaning it changes. The table below is the controlling compact audit; the
+older cycle files are evidence, not competing authority.
+
+| Cycle | Licensed physical story and strict boundary |
+|---|---|
+| 001 | Curl flux and enstrophy are two readings of one vorticity tangent. Local magnitude amplification and global enstrophy production do not mean net vector-vorticity birth. |
+| 002 | Critical height is a global all-material-pair readout. The nonlinear row is inward separation current; actual height growth occurs only when it exceeds simultaneous critical viscous loss. Pair space is not a material owner or literal spatial energy transport. |
+| 003 | Incompressibility leaves an instantaneous anisotropic affine angular relation. It proves no persistence, thickness, carrier, or all-scale mechanism. |
+| 004 | One exact viscous participant can revisit pair-distance geometry while its full energy decays. Each datum has finitely many returns; arbitrarily many occur only across data. |
+| 005 | Preloaded invariant shears can accumulate large one-label deformation at fixed energy across different data. This is not a cascade or later nonlinear concentration; initial critical height already diverges across the family. |
+| 006 | Critical transfer and vortex stretching are distinct projections of one tangent. Viscosity dissipates global balances while changing later geometry; it is not a pointwise monotone drain on either projection. |
+| 007 | An assumed unbounded critical-height history must eventually carry unbounded enstrophy and infinite positive aligned-stretch action. No interval-by-interval synchronization or material carrier is proved. |
+| 008 | The aligned stretching rate has one exact local material VPI evolution. A persistent residence mechanism, duration law, and control of the spatially switching supremum remain open. |
+| 009 | The pressure Hessian is an instantaneous whole-field elliptic quadrupole on the declared surface. Its radial integral is not signal travel, an annular relay, a cascade, or material ancestry. |
+| 010 | A singular \(\mathbb R^3\) history cannot retain a vorticity-direction coherence hypothesis already proved to regularize it. Criterion failure is not a proved cause, bulk incoherence, material mechanism, or Silver exit. |
+| 011 | Existing vorticity-direction variation contributes an exact viscous magnitude sink inside vector diffusion. This is not a monotonicity theorem for direction disorder; viscosity may also turn direction. |
+| 012 | Critical production is the global all-chord contraction \(-\int S:\mathsf T_u\). The tensor is nonlocal incidence, not local material energy density; the doubling formula is an identity, not a payment or finite reserve. |
+| 013 | Heat preferentially reweights spectral scale and direction. This proves no Fourier-support migration, spatial narrowing, energy travel through scales, or identification with vorticity direction. |
+| 014 | The full induced derivative of \(C=-S:\mathsf T_u\) is exact. \(C\) is a nonlocal Eulerian readout, not a transported density; only the complete VPI derivative has causal status. |
+| 015 | The positive-part law has an Eulerian sign interface. Its fixed positive set in the ABC test is not a persistent material carrier, and the heat scale is not a hard memory horizon. |
+| 016 | The three pressure-source/compression/rotation regions are an instantaneous algebraic state partition. They are poses, not mechanisms, dwell histories, or independent causes. |
+| 017 | Pressure has internal isotropic, trace-free, and pair-increment slots that recombine inside one VPI tangent. No pressure-only causal route or finite pressure budget follows. |
+| 018 | One exact participant can have large separated pressure action canceled by convection, with viscosity supplying the surviving tangent. Component control is not participant control. |
+| 019 | High critical-height occupancy and uninterrupted-rise duration are global spectral-history bounds. They prove no material motion, localization, renewal obstruction, or carrier. |
+| 020 | A bounded critical terminal normalization drives the transformed viscosity coefficient toward zero while the original participant keeps fixed \(\nu\). An actual Euler limit requires separate compactness, pressure, material-passage, and defect theorems. |
+| 021 | An assumed monotone terminal tail has falling energy, rising global mean frequency, growing derivative action, and net global all-pair compression. This is global anatomy, not a packet, vortex, annulus, or material mechanism. |
+| 022 | Equal-height re-entry is a different later VPI pose with less energy and higher mean frequency. The endpoint Duhamel difference is Eulerian reconstruction, not mode birth, material replacement, or a nonreusable resource. |
+| 023 | Radial and tangential directions are Hilbert-space coordinates relative to a future-fitted endpoint probe. They are not spatial turning, eigenframe rotation, vortex reorientation, or material angular motion. |
+| 024 | Record gain satisfies a measure-theoretic efficiency/action dichotomy. The horns are snapshot classifications, not physical mechanisms; an extracted profile owns neither the record nor the material history. |
+| 025 | A fixed fraction of gain occurs at whole-field \(D/K\) tending upward. This is a global radial pose and proves neither support migration nor that those frequencies, regions, or materials carry \(P_H\). |
+| 026 | A smooth snapshot can have a high shear dominate \(D/K\) and viscous loss while exact triad geometry keeps it out of instantaneous \(P_H\). The future tangent is coupled; no positive-time separation or terminal ladder follows. |
+| 027 | An exact orientation-selected 2D3C null sector belongs to the participant and pays viscous loss while giving zero nonlinear feedback. Rotating wavevector-polarization activates transport and pressure; the family is varying-data and gives no record doubling. |
+| 028 | A terminal-fitted shrinking-window theorem forces a large Eulerian Duhamel component and endpoint-adjoint pairing. It proves no mode birth, material carrier, current co-carriage, disjoint windows, or no-reuse. |
+| 029 | This was the one-master consolidation checkpoint that installed the canonical F1--F7 hierarchy. It is accounting and consolidation, not one new physical discovery. |
+| 030 | In an assumed terminal ladder, nearly all signed critical production escapes every fixed multiple of the moving Fourier cutoff. This is global triadic production beyond cutoffs, not a packet or energy lump travelling to small scales. |
+| 031 | Terminal doublings require a global high-pass \(\dot H^{1/2}\) tail; a separate varying-data scaling family permits arbitrarily large short-time fine current at fixed energy. These are not one participant shrinking through time. |
+| 032 | \(A_H\) is the global Hilbert/Fourier shape direction actually used by critical production. “Shape deformation” here is not spatial or material deformation. |
+| 033 | The radial current profile separates angular cancellation at a common Fourier radius from between-radius current. It identifies no spatial rearrangement, packet cascade, or material transfer. |
+| 034 | The all-center pair-separation distribution, conditional material core--annulus relay, and exact ripple/shear tests are three distinct pictures. Their inverse-distance algebra does not supply a common carrier. |
+| 035 | A rising global record has an action-rate lower bound tied algebraically to the global pair-separation scale; local crest growth has a separate pressure-gradient/curvature law. Neither identifies the other event or a ripple carrier. |
+| 036 | The material-pair transform is an instantaneous current-state coordinate and localization creates exact residuals. The historical joint measure, disintegration, same-event support, and bounded fibre intensity were not constructed. |
+| 037 | A varying-data family refutes universal physical dwell, while a terminal-fitted window forces late Eulerian reconstruction. Neither result proves material dwell, generic ancestry, or WLF first admission. |
+| 038 | A one-shell state can create off-shell global spectral shape at the next Taylor order. This is not a spatial/material causal carrier or immediate height growth. |
+| 039 | Spectral shape has a signed same-history equation and exact terminal-fitted Eulerian Duhamel attribution. Positive variation, material ancestry, and bounded descendant fibres do not follow. |
+| 040 | Critical height is energy times a global mean Fourier radius; rise requires centroid lift faster than viscous depletion. Pell triads refute a relative spectral-bandwidth floor, not spatial spikiness. |
+| 041 | Every rising state has a datum-dependent lower bound on global Fourier-radius variance and a bounded uninterrupted-rise duration. Two shells or a remote tail can realize the variance; no spatial widening or material carrier follows. |
+| 042 | One history has finite rising-frequency occupancy; varying data refute event quanta based only on time, raw energy loss, or fixed subcritical occupancy. Compound fixed-history VPI charges are not refuted. |
+| 043 | Pressure and viscosity share the pulled-back material metric, critical production has an instantaneous global all-chord material-work form, and a material surface has a circulation/area alternative. These are exact coordinates and alternatives, not a response-time, causal-incidence, local core/collar, or Gold theorem. |
+
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
 exact portion used by the coherent current. Cycle 033 installs F6.11--F6.12
