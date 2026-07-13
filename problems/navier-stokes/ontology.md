@@ -476,10 +476,10 @@ amplifier. Incompressibility simultaneously forces the pressure-trace
 subtraction, rotation shares that trace correction, and the nonlocal
 trace-free pressure completion remains signed. If \(\Pi=I/3\), this entire
 local reaction is zero. If \(\Pi\) is compression-aligned so that the variance
-term is small, the forced pressure trace removes at least half of the bare
-\(r^2\) row before the other signed VPI rows are read. Large variance instead
-means strain and all-chord orientation are not acting as one eigen-aligned
-direction.
+term is small, the \(-|S|^2/3\) portion of the forced pressure trace removes
+at least half of the bare \(r^2\) row before the vorticity, trace-free pressure,
+and other signed VPI rows are read. Large variance instead means strain and
+all-chord orientation are not acting as one eigen-aligned direction.
 
 This exact split still does not close the rate. The scale-free Sobolev
 estimate absorbs the cubic reaction only as
@@ -508,8 +508,8 @@ active scale is \(\ell=\delta\), amplitude is
 Their normalized rate is large because a small amplitude changes across an
 even smaller distance; their viscous heat clock is nevertheless faster than
 their strain clock. They refute static incidence-weight inversion but do not
-represent a self-sustaining nonlinear threat. An order-one event at shrinking
-\(\ell\) instead needs \(a\gtrsim\nu/\ell\) and
+represent a self-sustaining nonlinear threat. An order-one scaled-profile
+event at shrinking \(\ell\) instead needs \(a\gtrsim\nu/\ell\) and
 \(r\gtrsim\nu/\ell^2\). Its kinetic energy can still scale like
 \(\nu^2\ell\), so finite energy alone supplies no event quantum. A terminal
 history must therefore repeatedly rebuild order-one-Reynolds compressive
@@ -6180,11 +6180,12 @@ S^2:\Pi-\frac13|S|^2
 \]
 
 When the all-chord orientation is concentrated on a compressive strain
-eigendirection, \(V_{S,\Pi}=0\), so the pressure trace forced by
-incompressibility removes at least half of the bare self-compression reaction.
-This is only the local trace contribution; it gives no favorable sign for the
-nonlocal trace-free pressure, rotation-completed, pair-shape, or viscous-shape
-rows.
+eigendirection, \(V_{S,\Pi}=0\), so the \(-|S|^2/3\) portion of the pressure
+trace forced by incompressibility removes at least half of the bare
+self-compression reaction. The vorticity part of that same trace is included
+in the signed rotation-completed row. This local split gives no favorable sign
+for the nonlocal trace-free pressure, rotation-completed, pair-shape, or
+viscous-shape rows.
 
 On decaying \(\mathbb R^3\), Gagliardo--Nirenberg and Young give, for every
 \(\varepsilon>0\),
@@ -6228,9 +6229,9 @@ terminal recurrence mechanism.
 For a general scaled profile, order-one competition at shrinking \(\ell\)
 requires \(a\ell/\nu\gtrsim1\), equivalently
 \(r\ell^2/\nu\gtrsim1\). The corresponding kinetic-energy scale
-\(a^2\ell^3\gtrsim\nu^2\ell\) still tends to zero with \(\ell\). Finite
-energy therefore does not exclude a sequence of such critical events. This is
-a scaling boundary across admitted profiles, not proof that one history
+\(a^2\ell^3\sim\nu^2\ell\) can still tend to zero when the competition is
+order one. Raw finite-energy counting therefore does not exclude such scales.
+This is a scaling boundary across admitted profiles, not proof that one history
 creates, transports, or repeats them.
 
 The remaining Gold question is an a priori, noncircular, one-datum theorem
