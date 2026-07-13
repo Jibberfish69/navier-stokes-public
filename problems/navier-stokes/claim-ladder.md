@@ -274,6 +274,42 @@ quadratic growth. Scale-free source control is cubic and permits
 equivalent recurrence theorem is proved. Gold and Silver therefore remain
 open at their existing exact burdens.
 
+Thirteenth live gate result, 2026-07-12: Cycle 050 installs F7.18 and opens
+the local reaction without separating its VPI rows. With
+
+\[
+V_{S,\Pi}=S^2:\Pi-r^2\ge0,
+\qquad
+\mathsf H_p^\circ=\nabla^2p-\frac{\Delta p}{3}I,
+\]
+
+the pressure-completed reaction is
+
+\[
+\mathsf B:\Pi
+=r^2+V_{S,\Pi}
+-\frac13|S|^2
+-\frac1{12}|\omega|^2
++\frac14\omega\cdot\Pi\omega
++\mathsf H_p^\circ:\Pi^\circ.
+\]
+
+Thus the bare positive self-compression row is not an independently owned
+amplifier. The pressure trace forced by incompressibility enters in the same
+instant, rotation shares that completion, and the nonlocal trace-free pressure
+and pair/viscous orientation rows remain signed. Isotropic \(\Pi=I/3\) is
+locally null. Compression alignment leaves at most a pressure-reduced
+quadratic row plus strain variance before the other signed rows are read.
+
+Scale-free Sobolev absorption remains cubic and therefore permits the terminal
+spikes isolated in Cycle 049. The Cycle 049 high-rate remote copies also have
+\(\operatorname{Re}_\ell=r\ell^2/\nu\to0\): they are diffusion dominated and
+refute static deweighting, not terminal recurrence. Repeated order-one-Reynolds
+compressive alignment can still have vanishing raw energy per shrinking event,
+so finite energy supplies no event quantum. The live Gold burden is an a
+priori, noncircular, one-datum recurrence or cancellation theorem for the full
+trace-free VPI source. No such theorem, Gold closure, or Silver exit is proved.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -290,11 +326,13 @@ open at their existing exact burdens.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.17 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.18 prove that
   a direct evolution route must control the full trace-free VPI shape source;
-  scalar log-density curvature cancels. Global weight theory and
-  datum-independent static deweighting fail, so the live evolution question
-  is a correctly scaled one-datum source-recurrence or dynamic active-coupling
+  scalar log-density curvature cancels, the local reaction is pressure
+  completed, and scale-free component absorption remains cubic. Global weight
+  theory and datum-independent static deweighting fail; the remote copies that
+  prove the latter are diffusion dominated. The live evolution question is a
+  correctly scaled one-datum full-source recurrence or dynamic active-coupling
   theorem. The fixed-energy family also rules out any bound using only kinetic
   energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
