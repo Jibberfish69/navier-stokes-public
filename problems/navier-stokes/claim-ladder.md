@@ -1579,10 +1579,15 @@ same-history decomposition, or a direct critical-height theorem.
   positive global stretching and normalized alignment on every terminal tail,
   while one fixed state's \(\Sigma_H\) headroom permits only finitely many
   consecutive exact height doublings with zero positive global stretching.
-  The live target is now quantitative: datum-bound that renewal or headroom
-  dynamics, bridge the \(|\omega|^2\)-weighted stretching history to the
-  \(\tau\)-weighted all-chord critical-work history with both viscous rows
-  retained, or bypass the comparison with a direct critical-height theorem.
+  Cycle 070 gives the exact bridge with both viscous rows retained:
+  \(\mathcal P_\omega=m_HP_H+2\mathcal B_{\omega,\tau}\) and
+  \(Hm_H'+\nu\mathcal V_H=2\mathcal B_{\omega,\tau}\), with
+  \(\mathcal V_H\ge0\). It proves that neither event sign controls the other
+  and that terminal unbounded height forces infinite positive joined-mismatch
+  action on every tail. The live target is now quantitative: datum-bound that
+  joined action or expose a more primitive same-history participation event,
+  bound the stretching/headroom dynamics directly, or bypass the comparison
+  with a direct critical-height theorem.
   Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
