@@ -17,10 +17,11 @@ wrapper name is genealogy rather than current theorem authority.
 
 ## Physical-story custody for every ontology cycle
 
-**F1-root rebuild active (2026-07-13):** the former Cycle 001--070 physical
+**F1-root rebuild active (2026-07-13):** the former Cycle 002--070 physical
 rows below are audit targets, not authority. They repeatedly separated the one
 VPI tangent into actors, races, responses, episodes, locations, or carriers
-that their mathematics had not proved. The rebuilt frontier is Cycle 001.
+that their mathematics had not proved. Cycle 001 has been rebuilt and
+independently revalidated; the rebuilt frontier is now Cycle 002.
 Only a row explicitly rewritten and independently revalidated under the F1
 one-tangent rule regains premise weight; later rows remain suspended even when
 their displayed equations are correct.
@@ -41,7 +42,7 @@ older cycle files are evidence, not competing authority.
 
 | Cycle | Same-participant event before coordinates | Exact survivor and surface | Licensed physical readback | Strict non-implications | Type |
 |---|---|---|---|---|---|
-| 001 | One smooth unforced vorticity field changes under transport, stretching, and viscosity. | Curl-flux, material-circulation, and enstrophy identities on decaying \(\mathbb R^3\) or periodic \(\mathbb T^3\). | Curl flux and enstrophy are two readings of one vorticity tangent. | Local magnitude or global enstrophy growth is not net vector-vorticity birth. | Ontology fact. |
+| 001 | One smooth unforced fixed-\(\nu\) field has one VPI tangent; curl, oriented-linear, quadratic, and nonlocal functionals read that same change. | Curl-divergence, material-circulation, enstrophy, and critical-height identities on periodic \(\mathbb T^3\) or sufficiently decaying \(\mathbb R^3\); the separating witness is periodic. | At one instant an exact participant can have zero total oriented vorticity while its global squared-vorticity readout increases. | No separate source or mechanism; no pointwise-zero preservation, critical-height bound, location, carrier, episode, concentration, or causal order. The periodic witness does not settle an \(\mathbb R^3\)-only claim. | F1-derived ontology fact; rebuilt and independently validated. |
 | 002 | One field changes the relative velocities and separations of all material-label pairs. | Euclidean reciprocal-pair representation and critical balance; periodic-kernel counterpart. | Critical height is a positive global pair-coordinate readout; growth requires inward current to exceed simultaneous critical viscous loss. | Pair space stores no physical energy and owns no literal spatial transport. | Ontology fact. |
 | 003 | One incompressible local affine pose has extension and compression at the same instant. | Small-pair affine quadrupole at a differentiability point, decaying-\(\mathbb R^3\) shell/global identity, and periodic countertest. | Incompressibility forces instantaneous anisotropic angular structure. | No persistence, thickness, carrier, or all-scale passage. | Local ontology fact. |
 | 004 | One exact viscous cellular history revisits pair-distance geometry while energy decays. | Periodic cellular solution and return count. | On the selected regular orbit, every fixed family member has finitely many completed circuits; arbitrarily many occur only across data. | No fixed-datum Zeno recurrence or non-dissipative return. | Exact countertest. |
