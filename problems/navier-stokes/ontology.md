@@ -3895,16 +3895,21 @@ energy-interpolation occupancy with \(0<s\le1\) obey
 =O_s(A^{-1}).
 \]
 
-The characteristic spatial scale is \(\ell_A=A^{-2}\), so the normalized
-viscous age also vanishes:
+Every base spatial length in this exact dilation is multiplied by
+\(\ell_A=A^{-2}\), so the corresponding normalized viscous age also vanishes:
 
 \[
 \frac{\nu T_A}{\ell_A^2}=\frac{\nu\tau_0}{A}\longrightarrow0.
 \]
 
-Likewise \(m_H\) scales as \(A^2\), and the event contribution to the
-rising-frequency occupancy is \(O(A^{-3})\).  Critical dissipation has the
-opposite scaling,
+Likewise \(m_H\) scales as \(A^2\), and, with \(G_A\) the rising set of
+\(u_A\),
+
+\[
+\int_{G_A\cap[0,T_A]}m_H(t)\,dt=O(A^{-3}).
+\]
+
+Critical dissipation has the opposite scaling,
 
 \[
 \nu\int_0^{T_A}D(u_A(t))\,dt\asymp\nu A,
