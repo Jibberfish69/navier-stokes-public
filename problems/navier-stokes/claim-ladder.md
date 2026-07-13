@@ -949,8 +949,8 @@ placement, strict Gold reduction, closure, or Silver exit follows.
   weight mismatch forces that radius to shrink, while a fixed-energy
   fixed-viscosity family rules out an energy--viscosity-only radius floor or
   static linear deweighting coefficient. The remaining theorem must control
-  the inverse affine scale, or the equivalent high-
-  \(\chi_{\omega/\tau}\)/\(g\) source correlation, on one original critical
+  a verified affine-validity radius from below, or prove an alternative
+  source-weighted high-\(\chi_{\omega/\tau}\)/\(g\) replacement, on one original critical
   history. The fixed-energy family also rules out an energy--viscosity-only
   square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and

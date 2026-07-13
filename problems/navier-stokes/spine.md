@@ -1211,9 +1211,10 @@ mass, so a finite affine-validity radius is indispensable.  An exact
 fixed-energy fixed-viscosity family scales both
 \(\chi_{\omega/\tau}\) and \(1/R\) by the same factor and rules out replacing
 that radius by an energy--viscosity-only floor or static linear coefficient.
-The missing Gold theorem is now a datum-anchored one-history control of that
-inverse scale or of the equivalent high-\(\chi_{\omega/\tau}\)/\(g\) source
-correlation, plus critical-rise placement.  No persistence, heat-time law,
+The missing Gold theorem is now a datum-anchored one-history lower control of
+a verified affine-validity radius, or an alternative source-weighted
+high-\(\chi_{\omega/\tau}\)/\(g\) replacement, plus critical-rise placement.
+No persistence, heat-time law,
 material carrier, Gold closure, or Silver exit is obtained.
 
 ## Above-Route Gold/Silver Analogy

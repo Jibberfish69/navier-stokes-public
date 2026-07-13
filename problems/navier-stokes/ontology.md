@@ -8893,7 +8893,7 @@ No source sign, maximum principle for \(\mathfrak M\), datum source bound,
 synchronization, response-time law, packet, annulus, material carrier,
 localization, strict Gold reduction, Gold closure, or Silver exit follows.
 
-### F7.29 The vorticity/all-chord weight gap is an inverse affine-validity scale of the same field
+### F7.29 The vorticity/all-chord weight gap is controlled by any verified affine-validity radius of the same field
 
 Cycle 060 exposes two native weights inside one participant.  Vorticity
 selection uses
@@ -8985,9 +8985,9 @@ On decaying \(\mathbb R^3\), the weight gap has a direct spatial meaning.
 At a center \(z\), let
 
 \[
-A=\nabla u(z),
+\mathsf A_z=\nabla u(z),
 \qquad
-H_R(z)=\sup_{x\in B_R(z)}|\nabla^2u(x)|_F.
+\Lambda_R(z)=\sup_{x\in B_R(z)}|\nabla^2u(x)|_F.
 \]
 
 The positive short-chord part of the exact all-chord integral, Taylor's
@@ -8997,17 +8997,17 @@ theorem, and the spherical second moment give
 \boxed{
 \tau(z)
 \ge\frac{R}{3\pi}
-\left(2|A|_F^2-H_R(z)^2R^2\right).
+\left(2|\mathsf A_z|_F^2-\Lambda_R(z)^2R^2\right).
 }
 \]
 
 Consequently,
 
 \[
-RH_R(z)\le|A|_F
+R\Lambda_R(z)\le|\mathsf A_z|_F
 \quad\Longrightarrow\quad
 \boxed{
-\tau(z)\ge\frac{R}{3\pi}|A|_F^2,
+\tau(z)\ge\frac{R}{3\pi}|\mathsf A_z|_F^2,
 \qquad
 \chi_{\omega/\tau}(z)\le\frac{6\pi}{R}.
 }
@@ -9022,7 +9022,7 @@ R^{-1}\mathsf T_{u,<R}
 \frac4{15\pi}\left(|A|_F^2I+2A^TA\right),
 \qquad
 R^{-1}\tau_{<R}
-\longrightarrow\frac4{3\pi}|A|_F^2
+\longrightarrow\frac4{3\pi}|\mathsf A_z|_F^2
 \]
 
 also shows why a finite radius is indispensable.  Infinitesimal chords
@@ -9040,7 +9040,7 @@ weight bridge
 }
 \]
 
-whenever \(RH_R\le|\nabla u(z)|_F\).  Therefore a large
+whenever \(R\Lambda_R\le|\nabla u(z)|_F\).  Therefore a large
 vorticity/all-chord mismatch is not free: it certifies that the same field's
 first jet loses affine validity on a shorter distance.  The burden is handed
 to the next derivative rung, not to a separately owned pressure or viscosity
