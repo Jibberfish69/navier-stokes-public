@@ -204,6 +204,33 @@ histories, and the rising restriction is essential. No packet motion,
 viscosity lag, pressure sign, carrier persistence, MPP closure, or Silver exit
 is proved.
 
+Eleventh live gate result, 2026-07-12: Cycle 048 installs F7.16. With
+\(\Pi=\mathsf T_u/\operatorname{tr}\mathsf T_u\), the normalized rate is
+\(r=-S:\Pi\); pure scalar all-chord density motion cancels from its source.
+The complete quotient law retains the full strain, rotation, pressure,
+pair-redistribution, and viscous rows. Common diffusion has a definite drain
+for
+
+\[
+\int\tau r_+^2
+=\int\frac{(-S:\mathsf T_u)_+^2}{\tau},
+\]
+
+while ordinary-volume \(I=\int r_+^2\) contains the unsigned row
+\(-\nu\int(\Delta\log\tau)r_+^2\). The new Fisher estimate
+\(|\nabla\tau|^2\le4\tau\operatorname{tr}\mathsf G_u\) controls density
+variation only with its natural weight and costs critical dissipation.
+
+The exact fixed-energy, fixed-viscosity short-rise family from F6.21 has
+\(I_A\simeq A^4\) on a rising interval of length \(A^{-5}\), so
+\(\int_GI_A^2dt\gtrsim A^3\). This excludes every energy--viscosity-only proof
+of \(NormalizedPositiveWorkRateSquareIntegrability.A\). It does not refute
+per-datum finiteness or construct recurrent bursts in one terminal history.
+Gold remains open at a one-datum normalized-source/curvature absorption
+theorem, active-set deweighting of the weighted perspective, or another direct
+supplier. No packet, annular, material-compression, viscosity-lag, MPP, or
+Silver conclusion follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -220,7 +247,11 @@ is proved.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. Older WLF/ODP,
+  active \(L^2\) concentration control coupling them. F7.16 proves that a
+  direct evolution route must control the full normalized VPI source and
+  signed log-density curvature, while the clean weighted viscous drain needs
+  an active-set deweighting theorem. It also rules out any bound using only
+  kinetic energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
