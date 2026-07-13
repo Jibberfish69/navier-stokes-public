@@ -1201,6 +1201,82 @@ alternate-route control. The witness is periodic and nonlocal and supplies no
 decaying-\(\mathbb R^3\), localization, packet/annulus-carrier, Part/Field,
 class-exit, strict-reduction, closure, or Silver result.
 
+Thirtieth live gate result, 2026-07-13: Cycle 067 installs F7.35. In the
+same exact passive parallel-column history, move to the common zero-crossing
+material line
+
+\[
+x_2=\frac{\pi}{2m},
+\qquad
+x_3=\frac{\pi}{2n}.
+\]
+
+The line is stationary while its shear gradient is nonzero. Viscous stress
+diffuses axial momentum through the surrounding columns and damps the finer
+transverse corrugation faster. This rotates the local shear-gradient,
+vorticity and strain frames. The complete local all-chord tensor also has a
+surviving mixed planar term:
+
+\[
+\mathsf T_u
+=sI+\alpha e_2\otimes e_2+\beta e_3\otimes e_3
++\gamma(e_2\otimes e_3+e_3\otimes e_2),
+\qquad
+\tau=4s,
+\]
+
+where
+
+\[
+\alpha=\frac{3mA^2}{8}e^{-2\nu m^2t},
+\qquad
+\beta=\frac{3nB^2}{8}e^{-2\nu n^2t},
+\qquad
+\gamma=2b_{m,n}ABe^{-\nu(m^2+n^2)t},
+\qquad
+b_{m,n}>0.
+\]
+
+Consequently,
+
+\[
+\boxed{
+[\Pi,D_t\Pi]
+=-\frac{\nu(n^2-m^2)}{16}\frac{\gamma}{s}
+(e_2\otimes e_3-e_3\otimes e_2)\ne0,
+}
+\]
+
+so the principal eigenspace really rotates rather than merely splitting fixed
+axis weights. If \(mA^2=nB^2\), its principal angle turns through exactly
+\(\pi/4\). With \(m=N,n=2N\) and fixed normalized energy,
+
+\[
+A^2=\frac{8E_0}{3},
+\qquad
+B^2=\frac{4E_0}{3},
+\]
+
+the full principal spectral gap has an \(N\)-independent positive floor while
+
+\[
+\boxed{
+|\phi_N'(0)|=\frac{3\nu N^2}{2\rho_*}\longrightarrow\infty,
+\qquad
+\rho_*=\frac{16b_{1,2}}{3\sqrt2}>0.
+}
+\]
+
+The velocity polarization and wavevectors remain fixed, no Fourier energy
+transfers between modes, pressure stays constant, and
+\(S\omega=S:\Pi=S:D_t\Pi=r=P_H=0\). Thus even genuine uniformly gapped
+eigenframe rotation is not nonlinear interaction, propagation, viscous lag,
+critical work, or Gold rise. The family refutes only an initial-time
+\(E_0,\nu\), positive-gap-floor angular-speed ceiling across smooth periodic
+data. Per-datum, fixed-positive-time, higher-norm, Gold-rise-restricted,
+signed-coupled and alternate routes remain open; no strict reduction, closure,
+Part/Field failure, class exit or Silver result follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -1217,7 +1293,7 @@ class-exit, strict-reduction, closure, or Silver result.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.34 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.35 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1295,7 +1371,16 @@ class-exit, strict-reduction, closure, or Silver result.
   initial pointwise readout rate is unbounded although its total
   selected-column variation is finite. Thus \(D_t\Pi\) and its raw rate are
   not Gold activity; actual rising-history placement and signed strain overlap
-  remain open. Older WLF/ODP,
+  remain open. Cycle 067 proves that the stronger event
+  \([\Pi,D_t\Pi]\ne0\), with a positive principal spectral gap and genuine
+  eigenframe rotation, can still occur in that passive null class. At fixed
+  energy and viscosity its initial angular speed is unbounded across periodic
+  smooth data while the total turn stays \(\pi/4\). Principal-axis rotation
+  is therefore not Gold currency either. The live orientation target is the
+  first exact same-history VPI symmetry break producing signed
+  \(S:\Pi\ne0\), followed by placement of that overlap on an actual
+  critical-height rising history and control of local-versus-global
+  cancellation; another direct theorem may bypass this route. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
