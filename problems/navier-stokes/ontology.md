@@ -7658,14 +7658,17 @@ The alternatives act on the same excess. They do not assign the heat drain
 and source rebuilding to separate owners.
 
 These identities produce an exhaustive value-scale entrance classification.
-Along any unbounded entrance ladder, pass to a subsequence. If
-\(M(f_j)=\infty\) occurs infinitely often, the \(L^6\) tail bound makes the
-infinite weak amplitude a low-threshold phenomenon: branch 4 below holds by
-choosing \(\alpha_j\downarrow0\) with
+Along any unbounded entrance ladder, first pass to a subsequence on which
+either \(\mathcal R_{6,+}\to0\) or
+\(\mathcal R_{6,+}\ge R_0>0\). The former is branch 1 below. On the latter
+subsequence, if \(M(f_j)=\infty\) occurs infinitely often, the \(L^6\) tail
+bound makes the infinite weak amplitude a low-threshold phenomenon: branch 4
+holds by choosing \(\alpha_j\downarrow0\) with
 \(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\) and, by monotone convergence,
 \(E_{\alpha_j/2}(\tau_j)\ge I(\tau_j)/2\). Otherwise take
 \(M(f_j)<\infty\), choose the near-maximizing thresholds above, and pass to a
-further subsequence. Exactly one of the following holds:
+further subsequence according to their extended positive-real limit. Exactly
+one of the following holds:
 
 1. \(\mathcal R_{6,+}\to0\). The direct heat clock collapses and the
    instantaneous joined-source lower bounds above diverge; only the already
