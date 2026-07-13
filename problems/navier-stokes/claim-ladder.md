@@ -875,15 +875,18 @@ and F7.17 yields
 }
 \]
 
-Thus a large weight mismatch forces the same field's first jet to lose affine
-validity on a shorter distance.  A fixed-energy fixed-viscosity family scales
-that distance as \(A^{-2}\) and the mismatch as \(A^2\), ruling out an
+Thus a large weight mismatch forces the stated uniform Hessian certificate to
+fail on a shorter distance.  This is scalar and controls no vorticity
+direction, \(\Pi\)-orientation, alignment, or eigenframe.  A fixed-energy
+fixed-viscosity family scales that distance as \(A^{-2}\) and the mismatch as
+\(A^2\), ruling out an
 energy--viscosity-only radius floor or static linear deweighting coefficient.
 No radius persistence, datum-scaled source/recurrence control, critical-rise
 placement, strict Gold reduction, closure, or Silver exit follows.
 
-Twenty-fifth live gate result, 2026-07-13: Cycle 062 installs F7.30 and makes
-the local radius adaptive and unconditional.  Define
+Twenty-fifth live gate result, 2026-07-13: Cycle 062 installs F7.30 and defines
+a distinct unconditional integrated threshold radius on the instantaneous
+smooth decaying-\(\mathbb R^3\) surface.  Define
 
 \[
 \mathcal C_R(z)
@@ -907,7 +910,8 @@ The integrated short-chord Taylor theorem gives
 }
 \]
 
-Fubini converts the surrounding second-jet bend into the exact field-wide tail
+Fubini converts the weighted surrounding second-jet content into the exact
+field-wide tail
 
 \[
 \boxed{
@@ -927,16 +931,20 @@ J_{\omega/\tau}
 }
 \]
 
-This is the first unconditional control of the Cycle-061 mismatch moment.
-It does not control the orientation-turn term, because that term needs the
-different same-field correlation
+This is the first unconditional control of the Cycle-061 mismatch moment, by
+the enstrophy--palinstrophy product rather than palinstrophy alone.  It does
+not control the orientation-turn term.  In this F7.17-plus-Cauchy supplier the
+remaining factor is
 
 \[
 \int\frac{g^2}{\tau}dx.
 \]
 
-The exact pressure-completed first- and second-jet equations give no radius
-monotonicity or persistence.  No datum time bound for palinstrophy or the new
+The radius certifies only the integrated short-chord norm, not a pointwise
+affine break.  It gives no vorticity-direction, alignment, eigenframe,
+pointwise-vorticity, or matched-localization theorem.  The exact
+pressure-completed first- and second-jet equations give no radius monotonicity
+or persistence.  No datum time bound for palinstrophy or the new
 \(g\)-perspective, Gold-rise placement, strict Gold reduction, closure, or
 Silver exit follows.
 
