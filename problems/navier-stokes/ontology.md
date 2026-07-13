@@ -526,15 +526,15 @@ A pointwise value of \(r_+\) has no intrinsic length: choosing
 \(\ell=\sqrt{\nu/r_+}\) would make \(r_+\ell^2/\nu=1\) tautologically. Suppose
 instead that an independently established scale \(\ell\) carries
 \(r_+\gtrsim\nu/\ell^2\) on spacetime measure comparable to
-\(\ell^3(\ell^2/\nu)\) inside one heat-time interval. F7.19 proves that the
-datum-finite viscous history controls
-only the radius-weighted sum of such events, while every event contributes a
-scale-independent amount of order \(\nu^3\) to the square-rate action
-\(\int I^2dt\). Finite energy therefore does not rule out infinitely many
-shrinking events, while each remains equally visible to the open Gold
-supplier.
+\(\ell^3(\ell^2/\nu)\) inside one heat-time interval. F7.19 proves that, for a
+family with bounded spacetime overlap, the datum-finite viscous history
+controls only its radius-weighted sum. Each individual event has a
+scale-independent lower bound of order \(\nu^3\) in the square-rate action
+\(\int I^2dt\); only events with disjoint heat intervals can be summed there
+without temporal recount. Finite energy therefore does not by itself rule out
+an infinite geometrically shrinking family.
 
-The same fact gives the exact regeneration law. Direct advection--diffusion
+The same fact gives the exact maximum-growth and net-variation laws. Direct advection--diffusion
 transports and smooths \(r_+\) and cannot create a new positive maximum. Any
 increase must come through the complete source
 \(\widetilde{\mathcal F}_r\), which keeps strain, rotation, instantaneous
@@ -542,8 +542,9 @@ nonlocal pressure, pair redistribution, and viscous reorientation joined.
 Thus viscosity has no delayed arrival: its direct Laplacian row acts
 immediately, while its orientation-changing rows remain signed inside the
 same source. What is not proved is that a dangerous history generates a
-heat-thick event at any spatial scale, or that the datum bounds repeated
-positive regeneration of the full source.
+heat-thick event at any spatial scale, or that the datum bounds the positive
+variation remaining after the complete source and direct scalar diffusion are
+recombined.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
@@ -6279,7 +6280,7 @@ weight. Algebraic sign freedom is likewise not a full-source counterexample.
 No Gold closure, Silver exit, packet/core/annulus carrier, viscosity lag, or
 favorable pressure sign is proved.
 
-### F7.19 Spatially licensed heat-thick compression has radius-weighted dissipation, scale-independent square-rate visibility, and full-source regeneration
+### F7.19 Spatially licensed heat-thick compression has radius-weighted dissipation, scale-independent square-rate visibility, and a joined net-growth law
 
 A pointwise normalized rate has no spatial scale of its own. The expression
 \(r_+\ell^2/\nu\) describes a heat-scale competition only after \(\ell\) has
@@ -6352,10 +6353,12 @@ and Cauchy--Schwarz in time gives
 }
 \]
 
-Thus every spatially licensed heat-thick event has scale-independent
-visibility in the exact Gold action. If the \(J_j\) are disjoint, infinitely
-many such events force \(\int I^2dt=\infty\), even though the energy law
-controls the summable radius-weighted quantity \(\sum_j\ell_j\). Smooth scalar
+Thus every spatially licensed heat-thick event has an individual
+scale-independent lower bound in the exact Gold action. Only if the \(J_j\)
+are disjoint may those lower bounds be summed without temporal recount;
+infinitely many such events then force \(\int I^2dt=\infty\). Separately, only
+a family with spacetime overlap at most \(M\) obeys the displayed
+radius-weighted sum law. Smooth scalar
 bump stacks on disjoint heat intervals with \(\ell_j=2^{-j}\) realize
 
 \[
@@ -6395,7 +6398,7 @@ has one sign: viscous reorientation remains inside
 \(\widetilde{\mathcal F}_r\), while only the explicit scalar Laplacian obeys
 the maximum principle.
 
-The same recurrence has an exact global logarithmic coordinate. Let
+The same net growth has an exact global logarithmic coordinate. Let
 
 \[
 X(t)=\int|\nabla r_+|^2dx,
@@ -6419,31 +6422,42 @@ For a fixed threshold \(I_\sharp>0\), define
 \frac{[N-\nu X]_+}{I}\,dt.
 \]
 
+Define
+
+\[
+g_\sharp(t)=
+\begin{cases}
+\left(\log\frac{I(t)}{I_\sharp}\right)_+,&I(t)>0,\\
+0,&I(t)=0.
+\end{cases}
+\]
+
 Since \(N-\nu X=I'/2\),
 
 \[
 \boxed{
 \mathcal A_\sharp
-=\frac12\operatorname{Var}^+
-\left(\log\frac{I}{I_\sharp}\right)_+.
+=\frac12\operatorname{Var}^+g_\sharp.
 }
 \]
 
-Every doubling of \(I\) above the threshold contributes at least
-\(\tfrac12\log2\) to this positive logarithmic variation. A finite
+Every successive upcrossing from a level \(L>I_\sharp\) to \(2L\) contributes
+at least \(\tfrac12\log2\) to this positive logarithmic variation; disjoint
+upcrossing intervals may be summed without recount. A finite
 \(\mathcal A_\sharp\) bounds \(I\); combined with F7.11's finite
 \(\int I\,dt\), it gives \(I\in L^2_t\) and closes the direct critical-height
-supplier. This is an exact restatement of the full-source recurrence burden,
-not a datum estimate for it.
+supplier. This is the net positive variation after the complete signed source
+and direct scalar diffusion are recombined. It is not an independently owned
+full-source amount and not a datum estimate.
 
 The Caffarelli--Kohn--Nirenberg partial-regularity theorem does not supply the
 missing step. Zero one-dimensional parabolic Hausdorff measure of the
-singular set is compatible with infinitely many nested preterminal events
-converging to one point, and it does not extract the required
+singular-set theorem does not exclude infinitely many nested preterminal
+events converging to one point, and it does not extract the required
 strain--all-chord alignment thickness. The open theorem must either bound
-\(\mathcal A_\sharp\) from the original datum or first extract a heat-thick
-same-history event family and then rule out its infinite full-source
-regeneration. No packet, annulus, persistent material carrier, favorable
+\(\mathcal A_\sharp\) from the original datum or first extract a bounded-overlap
+heat-thick same-history event family and then control a disjoint sequence of
+its net positive growth intervals. No packet, annulus, persistent material carrier, favorable
 pressure sign, viscosity lag, response-speed bound, Gold closure, or Silver
 exit follows here.
 
