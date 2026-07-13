@@ -4409,6 +4409,16 @@ This is a global time--frequency occupancy law for the complete same field.  It
 does not count spatial packets, locate the separated frequencies, or give a
 positive amount of occupancy to each rise.
 
+F7.15 later sharpens this result on the same rising set to
+
+\[
+\int_G\frac DK\,dt\le\frac{C\mathcal E_0}{\nu^3}.
+\]
+
+Since \(D/K\ge K/R=m_H\), the Cycle 042 mean-frequency occupancy remains
+correct but is no longer the strongest proved rising-frequency residence law.
+Neither version localizes a packet or material carrier.
+
 There is an exact counterfamily to event quanta based solely on the raw
 quantities listed below on \(\mathbb R^3\).
 Choose a divergence-free Schwartz field \(\psi\) with
