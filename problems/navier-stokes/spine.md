@@ -80,6 +80,7 @@ older cycle files are evidence, not competing authority.
 | 045 | Positive work already forces a same-point compressive gradient. Its normalized rate \(r=w/\operatorname{tr}\mathsf T_u\) has a datum-finite material-volume \(L^2\) budget, while critical growth weights it by the all-chord density. This is a physical rate law, not core localization, critical-gradient-difference incidence, persistence, no-recount, or Gold closure. |
 | 046 | The all-chord density has a sharp \(L^1_tL^{3/2}_x\) fixed-material capacity bound, yet repeated doublings force divergent inverse work-effective volume and harmonic-volume collapse. This is exact material-center concentration, not fluid mass, a shrinking packet/core/annulus, sufficient blowup geometry, or Gold closure. |
 | 047 | During actual rise, finite normalized-work exposure controls \(D/K\), while each doubling requires a fixed scale-critical square-rate action. A terminal ladder must form increasingly high, short work-rate bursts. This is temporal intermittency of a same-field rate, not viscosity lag, packet travel, persistent material ownership, or Gold closure. |
+| 048 | The normalized rate is \(r=-S:\Pi\): pure all-chord density motion cancels, while common VPI diffusion is coercive only after retaining the density weight \(\tau\). Ordinary-volume \(I\) keeps an unsigned normalized-orientation drift. Fixed energy and viscosity permit arbitrarily large single rising \(I^2\) bursts across data, so Gold requires one-datum source/recurrence or active-set deweighting control, not an energy-only estimate. No material compression, packet, annulus, or viscosity lag is proved. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -463,6 +464,46 @@ It is scale critical and one-sided: \(I\le K/2\), while heat shears can have
 and spatial-density suppliers. Neither is proved from the datum. This cycle is
 a proved physical ontology advance and target refinement, not MPP closure.
 Silver is unchanged.
+
+Cycle 048 installs F7.16 and completes the evolution audit demanded by Cycle
+047.  Writing \(\Pi=\mathsf T_u/\operatorname{tr}\mathsf T_u\), the rate is
+
+\[
+r=-S:\Pi.
+\]
+
+The quotient equation cancels pure scalar motion of the all-chord density.
+Its source retains strain, rotation, the instantaneous nonlocal pressure
+response, pressure-constrained pair redistribution, and both viscous tensor
+slots.  The common diffusion has a clean sign for
+
+\[
+\int\tau r_+^2
+=\int\frac{(-S:\mathsf T_u)_+^2}{\tau},
+\]
+
+but not for the ordinary-volume quantity \(I=\int r_+^2\).  The latter has an
+unsigned \(-\nu\int(\Delta\log\tau)r_+^2\) row.  The new Fisher estimate
+
+\[
+|\nabla\tau|^2\le4\tau\operatorname{tr}\mathsf G_u,
+\qquad
+\int|\nabla\sqrt\tau|^2\le2D,
+\]
+
+controls density variation only with its natural weight and costs critical
+dissipation.  No proved theorem deweights the clean viscous term on the active
+set.
+
+The fixed-energy family already used in Cycle 042 now supplies a sharper
+countertest.  At fixed \(\nu\), a single rising burst can have
+\(I_A\simeq A^4\) over time \(A^{-5}\), and hence
+\(\int_GI_A^2dt\gtrsim A^3\).  Therefore
+\(NormalizedPositiveWorkRateSquareIntegrability.A\) has no
+energy--viscosity-only bound.  The family varies the datum and proves no
+failure of per-datum finiteness or recurrence law.  Gold remains open at a
+full-VPI positive-source/curvature absorption theorem, an active-set
+deweighting theorem, or another direct supplier.  Silver is unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
