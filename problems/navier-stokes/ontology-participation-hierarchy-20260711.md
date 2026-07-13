@@ -1793,7 +1793,8 @@ U_A\cdot\nabla h_N
 
 Thus \(u_{A,N}\) is one exact global smooth participant. The high tail changes
 the vertical material velocity while \(z\)-independence prevents that velocity
-from feeding back into the Eulerian tangent. Orthogonality gives, for all
+from feeding back into the nonlinear Eulerian transport/current. Its viscous
+tangent remains nonzero. Orthogonality gives, for all
 \(t\ge0\) and \(q\ge0\),
 
 \[
