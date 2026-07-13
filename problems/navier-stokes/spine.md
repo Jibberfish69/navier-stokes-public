@@ -820,10 +820,13 @@ Moreover,
 so \(G\in L_t^2\dot H_x^{-1}\), or
 \(G\in L_t^2L_x^{6/5}\), is a sufficient square-rate Gold supplier. No datum
 bound for either action is proved, and the condition extracts no location or
-heat-time persistence. The next physical theorem must show whether the actual
-joined VPI source can keep an extracted threshold scale thick for a heat-time
-fraction, or else bound the positive dual action while the selected scales
-change. No favorable pressure sign,
+fixed-scale heat-interval occupancy. The direct Gold theorem is a datum-finite
+bound on the positive dual action, or another bound controlling \(\int I^2dt\).
+The next physical event question is whether the actual joined VPI source
+creates the F7.19 time-integrated superlevel occupancy at one fixed scale while
+the instantaneous selected scales change. That event fact alone would not
+close Gold; it would still need a datum-finite recurrence/no-recount law. No
+favorable pressure sign,
 viscosity lag, full-participant speed band, Gold closure, or Silver exit is
 proved.
 
