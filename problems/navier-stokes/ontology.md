@@ -11058,6 +11058,85 @@ and therefore the exact static recombination
 }
 \]
 
+The part of vorticity-stretch production proportional to critical work
+cancels exactly from the evolution of the critical spectral mean:
+
+\[
+\boxed{
+Hm_H'
++\nu\mathcal V_H
+=2\mathcal B_{\omega,\tau},
+\qquad
+\mathcal V_H:=D_2-m_HD.
+}
+\]
+
+The viscous difference has a forced sign. With
+\(
+d\mu_H=\rho|\widehat v|^2d\kappa/R
+\),
+
+\[
+\boxed{
+\mathcal V_H
+=R\,\operatorname{Cov}_{\mu_H}(\rho,\rho^2)
+=H\,\mathbb E_{\mu_H\otimes\mu_H}
+\left[(\rho-\rho')^2(\rho+\rho')\right]
+\ge0.
+}
+\]
+
+It vanishes exactly when the nonzero critical spectrum lies on one radius.
+Thus the viscous contribution lowers \(m_H\); the joined mismatch must exceed
+that adjacent-rung spectral moment gap for \(m_H\) to rise.
+
+The integrated and logarithmic forms are
+
+\[
+\boxed{
+m_H(t)
++\nu\int_s^t
+\frac{\mathcal V_H(\theta)}{H(\theta)}\,d\theta
+=m_H(s)
++2\int_s^t
+\frac{\mathcal B_{\omega,\tau}(\theta)}{H(\theta)}\,d\theta,
+}
+\]
+
+\[
+\boxed{
+\frac12(\log m_H)'
++\nu\left(\frac{D_2}{K}-\frac{D}{2H}\right)
+=\frac{2\mathcal B_{\omega,\tau}}{K}.
+}
+\]
+
+Since
+
+\[
+H^2\le E^\circ\frac K2=E^\circ Hm_H,
+\qquad
+H\le E^\circ_0m_H,
+\]
+
+an unbounded terminal critical-height history forces, for every \(s<T\),
+
+\[
+\boxed{
+\int_s^T
+\frac{[\mathcal B_{\omega,\tau}(t)]_+}{H(t)}\,dt=\infty,
+\qquad
+\int_s^T
+\frac{[\mathcal B_{\omega,\tau}(t)]_+}{K(t)}\,dt=\infty.
+}
+\]
+
+The two actions are each infinite; they are not equal functionals. At the
+decaying-\(\mathbb R^3\) first-blowup surface of F4.4, finiteness of either
+positive joined action prevents the required terminal \(H\)-divergence. This
+is a sufficient regularity criterion and necessary terminal action, not a
+datum-finite estimate or a strictly smaller Gold theorem.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
