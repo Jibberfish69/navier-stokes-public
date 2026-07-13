@@ -1334,6 +1334,71 @@ what same-history departure from globally regular planar/null-stretching
 behavior is forced by an unbounded terminal height ladder, and can that
 departure be bounded from the datum?
 
+Thirty-second live gate result, 2026-07-13: Cycle 069 installs F6.22 and
+answers the qualitative cumulative question left by Cycle 068. With the
+conserved torus mean removed, or on decaying \(\mathbb R^3\), put
+
+\[
+E^\circ=\frac12\|v\|_2^2,
+\qquad
+H=\frac12\|\Lambda^{1/2}v\|_2^2,
+\qquad
+\mathcal Z=\frac12\|\omega\|_2^2.
+\]
+
+The exact interpolation and enstrophy balances give, for \(s<t\),
+
+\[
+\boxed{
+H(t)^2
+\le
+E^\circ(t)\left(
+\mathcal Z(s)+
+\int_s^t
+\left[\int\omega\cdot S\omega\,dx\right]_+d\tau
+\right).
+}
+\]
+
+Hence an unbounded terminal critical-height ladder forces positive global
+vorticity-stretch production and normalized alignment action to diverge on
+every terminal tail. Stretching confined to an earlier finite interval cannot
+support the ladder.
+
+The exact finite-state headroom is
+
+\[
+\Sigma_H=\frac{E^\circ\mathcal Z}{H^2}
+=\frac{\mathbb E|\xi|^2}{(\mathbb E|\xi|)^2}\ge1.
+\]
+
+If \(H(b)=2H(a)>0\) and the positive part of the global stretching production
+vanishes on \([a,b]\), then
+
+\[
+\boxed{\Sigma_H(b)\le\frac{\Sigma_H(a)}4.}
+\]
+
+Thus one fixed smooth state permits at most
+\(\lfloor\log_4\Sigma_H(a)\rfloor\) consecutive exact height doublings of
+that kind. The count is state dependent. A fixed-energy two-shell passive
+shear makes \(\Sigma_H\) arbitrarily large across data but realizes no such
+doublings; it refutes only an energy-only conversion of this displayed
+headroom bound.
+
+Physically, a finite planar rise may draw down global radial-moment headroom
+while total squared vorticity stays fixed or decreases. A terminal ladder must
+instead renew whole-field anisotropic vorticity--strain production against
+simultaneous viscous destruction on every tail. This proves no spatial
+location, carrier, cascade, rising/enstrophy interval synchronization, or
+full-three-dimensional dependence. Pressure remains the nonlocal same-field
+response shaping the later strain even though it curls out of the enstrophy
+balance. The remaining burden is a datum-finite stretching/headroom bound, a
+same-history bridge to the differently weighted all-chord critical work with
+both viscous rows retained, or a direct critical-height theorem. No strict
+Gold reduction, Gold closure, Part/Field failure, class exit or Silver result
+follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
