@@ -941,6 +941,48 @@ dissipation; the velocity gradient must occupy that dual direction. This fact
 supplies instantaneous response geometry only. It proves no carrier
 persistence, response-time bound, pressure brake, or Gold estimate.
 
+### F1.13 Material anisotropy exactly represents fixed Eulerian isotropy
+
+At a fixed material point and time, take singular directions
+
+\[
+Fe_i=s_i n_i,
+\]
+
+where \(e_i\) is orthonormal in label space and \(n_i\) is orthonormal in
+physical space. The pulled-back velocity and pressure derivatives satisfy
+
+\[
+\partial_{e_i}U=s_i(\nabla u)n_i,
+\qquad
+\partial_{e_i}P=s_i\,n_i\cdot\nabla p.
+\]
+
+Therefore the growing inverse-metric coefficient and the transformed
+derivative compensate exactly:
+
+\[
+s_i^{-2}|\partial_{e_i}U|^2=|(\nabla u)n_i|^2,
+\qquad
+s_i^{-2}|\partial_{e_i}P|^2=|n_i\cdot\nabla p|^2,
+\]
+
+and, after summing the principal directions,
+
+\[
+C^{-1}:\bigl((\nabla_aU)^T\nabla_aU\bigr)=|\nabla u|^2,
+\qquad
+\nabla_aP\cdot C^{-1}\nabla_aP=|\nabla p|^2.
+\]
+
+The anisotropic material coefficients are the exact coordinate expression of
+the physically isotropic Eulerian Laplacian. Compression makes a retained
+label pattern physically finer; it does not increase \(\nu\) or ellipticity as
+an independent force. Faster viscous action occurs only when velocity
+variation is actually retained in the compressed label direction. The same
+coordinate compensation applies to the pressure elliptic form, without giving
+pressure a sign or a dissipative interpretation.
+
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
 ### F2.1 Strain and vorticity are compatible derivatives of one velocity
@@ -4713,23 +4755,23 @@ H=C^{-1/2}\dot C C^{-1/2},
 A=C^{1/2}\Theta C^{1/2}.
 \]
 
-Here (H) is symmetric and trace free, while (A) is positive semidefinite.
-Because (C^{-1}:\dot C=0), the local work density from F7.9 is
+Here \(H\) is symmetric and trace free, while \(A\) is positive semidefinite.
+Because \(C^{-1}:\dot C=0\), the local work density from F7.9 is
 
 \[
 w=-\frac12\dot C:\Theta_C^\circ
   =-\frac12 H:A.
 \]
 
-If (w>0), diagonalize (H) with eigenvalues (h_i) and eigenvectors
-(e_i). Since (a_i=e_i\cdot Ae_i\ge0) and
+If \(w>0\), diagonalize \(H\) with eigenvalues \(h_i\) and eigenvectors
+\(e_i\). Since \(a_i=e_i\cdot Ae_i\ge0\) and
 
 \[
 \sum_i h_i a_i<0,
 \]
 
-there is at least one active direction with (h_i<0) and (a_i>0). Freeze
-the label covector (alpha_i=C^{1/2}e_i) at that instant. Its inverse-metric
+there is at least one active direction with \(h_i<0\) and \(a_i>0\). Freeze
+the label covector \(\alpha_i=C^{1/2}e_i\) at that instant. Its inverse-metric
 symbol from F1.12 then satisfies
 
 \[
@@ -4738,10 +4780,11 @@ symbol from F1.12 then satisfies
 
 Thus positive local critical work cannot occur without activating some
 contracting material direction whose matched dual pressure--viscous symbol is
-instantaneously increasing. This is the exact joined VPI statement. It does
-not say that the velocity gradient occupies that dual direction, that actual
-viscous dissipation increases, that pressure has a favorable sign, or that the
-direction and work persist for positive time.
+instantaneously increasing. This is the exact joined VPI statement. F7.11
+shows that the same direction necessarily carries an instantaneous
+compressive velocity gradient. What does not follow is increasing total or
+critical dissipation, favorable pressure sign, core--collar localization, or
+positive-time persistence.
 
 Principal stretches alone do not detect all of this work. For example, at one
 instant let
@@ -4760,8 +4803,8 @@ b&0&0\\
 \quad z=(1,-1,0),
 \]
 
-with (b>0). The incompressibility condition
-(C^{-1}:\dot C=0) holds, every principal eigenvalue of (C) has zero
+with \(b>0\). The incompressibility condition
+\(C^{-1}:\dot C=0\) holds, every principal eigenvalue of \(C\) has zero
 instantaneous derivative, yet
 
 \[
@@ -4771,10 +4814,11 @@ instantaneous derivative, yet
 This is a pointwise material-metric algebra countertest, not a separately
 constructed Navier--Stokes history. It proves that frame change and
 off-diagonal deformation can carry the work while a principal-stretch account
-misses it. The remaining Gold question is therefore an incidence and
-persistence theorem: do the same fixed-label cores that carry dangerous
-positive work also carry active dual gradients long enough for the joined
-pressure--viscous response to control the record?
+misses it. The remaining Gold question is therefore not instantaneous
+first-gradient incidence. It is whether the nonlocal all-chord weight is
+localized on a same-event core and whether the work, gradient differences,
+and joined pressure--viscous response persist there long enough to control the
+record.
 
 ## Hard boundary: claims excluded from the ontology
 
