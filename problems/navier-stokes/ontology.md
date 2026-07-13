@@ -7623,6 +7623,37 @@ or the fixed-threshold joined law forces a last upcrossing with
 }
 \]
 
+The threshold distribution gives the sharper selector-native form. Writing
+
+\[
+\Psi(\alpha)=\alpha m(\alpha)^{2/3},
+\qquad
+B_\alpha=\alpha^2m(\alpha)
+=\sqrt\alpha\,\Psi(\alpha)^{3/2},
+\]
+
+one has \(E_*\ge B_\alpha/4\). Hence the same two branches give
+
+\[
+\boxed{
+\int_{t_0-h}^{t_0}I(t)^2\,dt
+\ge\frac\vartheta{64}\Psi(\alpha)^3
+}
+\]
+
+or
+
+\[
+\boxed{
+\int q(t)^2\,dt
+\ge\frac\nu4\sqrt\alpha\,\Psi(\alpha)^{3/2}.
+}
+\]
+
+For \(\Psi(\alpha)\ge\eta c_0\nu R_0\), these are exactly the
+scale-independent residence quantum and scale-growing rebuild action of
+F7.22--F7.23.
+
 The alternatives act on the same excess. They do not assign the heat drain
 and source rebuilding to separate owners.
 
@@ -7631,7 +7662,8 @@ Along any unbounded entrance ladder, pass to a subsequence. If
 \(M(f_j)=\infty\) occurs infinitely often, the \(L^6\) tail bound makes the
 infinite weak amplitude a low-threshold phenomenon: branch 4 below holds by
 choosing \(\alpha_j\downarrow0\) with
-\(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\). Otherwise take
+\(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\) and, by monotone convergence,
+\(E_{\alpha_j/2}(\tau_j)\ge I(\tau_j)/2\). Otherwise take
 \(M(f_j)<\infty\), choose the near-maximizing thresholds above, and pass to a
 further subsequence. Exactly one of the following holds:
 
@@ -7659,11 +7691,13 @@ further subsequence. Exactly one of the following holds:
 
    If \(M(f_j)=\infty\), the chosen low thresholds have the still stronger
    property \(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\), and their total volume
-   also diverges. This is a vanishing-rate-threshold,
+   also diverges; the thresholds can simultaneously be chosen so that their
+   half-threshold excess contains at least half of \(I\). This is a
+   vanishing-rate-threshold,
    diverging-total-volume branch. It is a global value-distribution statement,
    not a theorem that one spatial region expands or one material population
-   spreads. The fixed-fraction excess theorem is asserted only in the
-   finite-\(M\) case.
+   spreads. The near-maximizer theorem is asserted only in the finite-\(M\)
+   case; the infinite-\(M\) half-mass choice is noncanonical.
 
 The shrinking-selector entrance proposed after F7.23 is therefore false at
 the level of all installed global coordinates, even with
@@ -7713,6 +7747,9 @@ pulse durations
 the scalar history has finite \(\int I\,dt\) and divergent
 \(\int I^2dt\) in all three cases. Defining its source by
 \(G=(\partial_t-\nu\Delta)f\) makes the scalar threshold identities exact.
+Its pulse duration divided by the selector clock \(1/\alpha_V\) is
+\(V_j^{-2-3\beta}\to0\) throughout the displayed \(\beta\)-range, so none
+of the three branches supplies a positive selector-heat-time dwell fraction.
 
 A separate single-profile heat-clock stack with
 \(I_j=2^j\), \(\mathcal R_{6,+,j}=2^{-j}\), spatial width
