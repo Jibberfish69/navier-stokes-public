@@ -1277,6 +1277,60 @@ data. Per-datum, fixed-positive-time, higher-norm, Gold-rise-restricted,
 signed-coupled and alternate routes remain open; no strict reduction, closure,
 Part/Field failure, class exit or Silver result follows.
 
+Thirty-first live gate result, 2026-07-13: Cycle 068 installs F7.36 and
+closes the question left by Cycle 067 without confusing that closure with
+Gold progress. The passive frame can rotate while \(r=P_H=0\). The exact ABC
+participant then supplies a positive local signed read with
+\(P_H=\int\tau r=0\), so the surrounding field cancels it. The exact
+pure-two-dimensional triad
+
+\[
+\psi=\cos x+\cos2y+\cos(x+2y),
+\qquad
+u_0=a(\psi_y,-\psi_x,0)
+\]
+
+has
+
+\[
+p_0=\frac{7-3\sqrt5}{2},
+\qquad
+d_0=\frac{33+25\sqrt5}{2},
+\]
+
+\[
+\boxed{
+P_H=a^3p_0,
+\qquad
+D=a^2d_0,
+\qquad
+\mathcal H_{1/2}'=a^2(ap_0-\nu d_0).
+}
+\]
+
+Thus positive global work can remain below viscosity, while
+
+\[
+a>\frac\nu2(303+137\sqrt5)
+\]
+
+gives actual critical-height rise on a short interval. The same history is
+globally regular and satisfies \(S\omega=0\) throughout. Reversing the initial
+datum preserves \(\mathsf T_u,\tau,\Pi\), and quadratic state sizes at the
+compared snapshots while reversing \(S,r,P_H\); these are two forward
+histories, not a time-reversal symmetry.
+
+The physical hierarchy is therefore strict: all-chord frame motion, local
+signed overlap, global signed coherence after whole-field cancellation, and
+surplus over simultaneous viscous critical loss are four different events.
+Only the fourth is height rise, and even the fourth is not a singularity
+mechanism or Gold currency. No packet, annulus, carrier, persistent positive
+set, recurrence law, per-event datum charge, terminal mechanism, strict Gold
+reduction, Part/Field failure, class exit or Silver result follows. The live
+question is cumulative: what same-history departure from globally regular
+planar/null-stretching behavior is forced by an unbounded terminal height
+ladder, and can that departure be bounded from the datum?
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -1293,7 +1347,7 @@ Part/Field failure, class exit or Silver result follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.35 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.36 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1376,11 +1430,16 @@ Part/Field failure, class exit or Silver result follows.
   eigenframe rotation, can still occur in that passive null class. At fixed
   energy and viscosity its initial angular speed is unbounded across periodic
   smooth data while the total turn stays \(\pi/4\). Principal-axis rotation
-  is therefore not Gold currency either. The live orientation target is the
-  first exact same-history VPI symmetry break producing signed
-  \(S:\Pi\ne0\), followed by placement of that overlap on an actual
-  critical-height rising history and control of local-versus-global
-  cancellation; another direct theorem may bypass this route. Older WLF/ODP,
+  is therefore not Gold currency either. Cycle 068 supplies the exact active
+  symmetry break and proves four separate gates: frame motion, local signed
+  overlap, survival after global cancellation, and surplus over viscosity.
+  Its pure-two-dimensional participant crosses upward through critical height
+  with \(S\omega=0\) and remains globally regular, so even the fourth gate is
+  event geometry rather than Gold currency. The live target is now cumulative
+  one-history control: identify and datum-bound the departure from the
+  globally regular planar/null-stretching mechanism required by an unbounded
+  terminal ladder, or bypass this comparison with a direct critical-height
+  theorem. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
