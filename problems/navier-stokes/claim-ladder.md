@@ -620,6 +620,61 @@ rate-Reynolds and vanishing-threshold total-volume branches, or bound the
 complete source action directly. No strict Gold reduction, closure, spatial
 expansion theorem, packet/carrier, or Silver exit follows.
 
+Twentieth live gate result, 2026-07-13: Cycle 057 installs F7.25 and proves
+that the vanishing selected rate in Cycle 056 is not a slow or fixed-frequency
+participant state. With
+
+\[
+K=\|\nabla u\|_2^2,
+\qquad
+D_2=\|\Delta u\|_2^2,
+\qquad
+\mathcal E(t)\le\mathcal E_0,
+\]
+
+one has
+
+\[
+K\ge2I,
+\qquad
+D_2\ge\frac{K^2}{2\mathcal E_0}
+\ge\frac{2I^2}{\mathcal E_0}.
+\]
+
+At the increasing cutoff \(R_I^2=I/(2\mathcal E_0)\), at least \(I\) of
+enstrophy and \(3I^2/(2\mathcal E_0)\) of palinstrophy lie above \(R_I\).
+For a last-\(K=L_j/2\) to first-\(K=L_j\) interval \(J_j\), with actual
+kinetic-energy loss \(d_j=\nu\int_{J_j}Kdt\),
+
+\[
+\frac{12\pi^4\nu^3}{L_j^2}
+\le |J_j|
+\le\frac{2d_j}{\nu L_j},
+\qquad
+d_j\ge\frac{8\pi^4\nu^4}{L_j},
+\]
+
+while
+
+\[
+\int_{J_j}D_2dt
+\ge\frac{S_3}{8}
+\left(\frac{\nu L_j^2}{d_j}\right)^{1/3}.
+\]
+
+The disjoint losses satisfy \(d_j\to0\), so late doublings occupy vanishing
+time and lose vanishing raw energy while their palinstrophy and exact signed
+vortex-stretching action diverge. A fixed-energy family of many remote,
+shrinking, individually weaker active cells realizes the Cycle 056
+vanishing-threshold geometry at exact fixed-viscosity initial-snapshot scope;
+its value selector grows while its enstrophy length shrinks. The family varies
+the datum. The live theorem is therefore historical: synchronize and control
+the normalized-rate source and enstrophy--palinstrophy ladders on one original
+VPI history, or prove another datum-finite direct supplier. An \(I\)-entrance
+is not a \(K\)-entrance, the Fourier tail is not located on the rate
+superlevel union, and no packet, material carrier, cascade, Gold closure, or
+Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -636,7 +691,7 @@ expansion theorem, packet/carrier, or Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.24 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.25 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -662,9 +717,15 @@ expansion theorem, packet/carrier, or Silver exit follows.
   new doubled total rate height already forces terminal \(q^2\)-action
   divergence, but refutes universal selector shrinkage and replaces it with
   low-rate-Reynolds, rising-threshold, fixed-threshold, and vanishing-threshold
-  total-volume branches. The open theorem must datum-control the first and
-  fourth branches, bound the complete source action, or bypass them through
-  another direct square-rate theorem. The
+  total-volume branches. Cycle 057 proves that the fourth branch forces a fine
+  global enstrophy/palinstrophy tier and that late enstrophy doublings trade
+  vanishing duration and raw energy loss for diverging palinstrophy and signed
+  same-field stretching action. Exact varying-data initial snapshots realize
+  that branch, so instantaneous VPI structure cannot exclude it. The open
+  theorem must couple the rate-source and enstrophy-palinstrophy ladders on one
+  original history, datum-control the low-rate-Reynolds source branch, bound
+  the complete source or palinstrophy action, or bypass them through another
+  direct square-rate theorem. The
   fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
