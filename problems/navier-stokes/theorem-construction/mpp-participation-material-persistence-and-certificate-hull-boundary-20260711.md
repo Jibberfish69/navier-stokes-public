@@ -25,8 +25,8 @@ completion_truth: >-
   candidate under F1.3. It also isolates the flow-coordinate component of the
   compact certified material-time path hull required by W9. The global critical
   height remains open, W9 retains its certificate-family topology burden, and
-  the canonical ontology bytes remain unchanged pending the hook-governed
-  candidate, validation, promotion, and consumer re-gating transaction.
+  the canonical ontology remains unchanged because these candidates have not
+  been integrated.
 ---
 
 # Participation-rooted material persistence and the certificate-hull boundary
@@ -405,10 +405,9 @@ Proposed canonical text:
 The exact proof is `(MP.19)`–`(MP.23)`. The spatial-modulus countertest is
 `(MP.24)`–`(MP.25)`.
 
-Both deltas remain candidate material. Canonical promotion requires the
-hook-bound exact candidate digest, an accepted independent validation record,
-an explicit promotion transaction, and complete consumer re-gating. The
-canonical ontology bytes remain unchanged in this cycle.
+Both deltas remain candidate material. Canonical integration requires exact
+independent validation and complete consumer re-auditing. The canonical
+ontology remains unchanged in this cycle.
 
 ## 6. Four-field gate return
 
