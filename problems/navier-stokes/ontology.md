@@ -14,6 +14,10 @@ properties, or classical proved theorems under the hypotheses stated here. It
 contains no proposed pressure sign, cascade direction, alignment law, packet
 closure, or regularity conclusion.
 
+The section titled **Physical picture supplied at Cycle 034** is separately
+typed as an open causal synthesis.  It preserves the physical problem that
+generates questions for the hard facts; it carries no premise weight.
+
 **Surface:** unless a narrower scope is stated, let \(u\) be a smooth unforced
 incompressible Navier–Stokes solution with fixed \(\nu>0\) on
 \(\mathbb R^3\) with sufficient decay or on \(\mathbb T^3\) with periodic
@@ -39,6 +43,144 @@ Every parcel, localization, derivative, mode, packet, shell, norm, and readout
 appearing here is constructed from the same solution \((u,p)\), its initial
 datum, or its material flow. Its induced equation may contain coupling, flux,
 or commutator terms.
+
+## Physical picture supplied at Cycle 034 — open causal synthesis
+
+The declared datum contains all of the fluid's initial energy.  In the
+discussion below, a source, pulse, or injection means the first local
+activation or concentration of energy already belonging to that same history.
+It never means an external force.
+
+The picture has four physical branches.
+
+1. **A source-centred first pulse.**  A local velocity crest or vortex core
+   rises inside surrounding fluid.  The core and the responding transition
+   annulus are different regions of one VPI event.  Energy reaching the core is
+   supplied by the joined stress work and storage of the surrounding field,
+   while viscous expenditure occurs where the same field has strain.  For a
+   flat-core pulse that strain is concentrated in the transition annulus; a
+   general anisotropic pulse need not be radial.
+
+2. **A later-time, later-place concentration.**  Transport, strain, and the
+   whole-field pressure response bring already existing motion into a new
+   configuration.  This is not a first-moment injection.  During its positive
+   travel and rearrangement time, viscosity continuously damps gradients and
+   pressure continuously reorients the same field.  A dangerous feedback must
+   repeatedly rebuild inward, coherently aligned pressure-completed work faster
+   than the simultaneous viscous response destroys or de-aligns it.
+
+3. **A maximally rippled field.**  Neighboring crests and troughs owe a
+   quadratic gradient cost to their separation.  Constructively aligned waves
+   can still produce a large pointwise crest while raw energy and enstrophy stay
+   finite, because three-dimensional \(H^1\) control does not bound
+   \(L^\infty\).  Positive heat time attenuates each Fourier contribution, but
+   the attenuation has no uniform scale-independent gap when the elapsed time
+   is allowed to be smaller than the heat time.  Full Navier--Stokes transport
+   and slaved pressure can also replenish or reverse the modal alignment.
+
+4. **The vortex analogue.**  A vortex core grows only through strain generated
+   by the same global vorticity field.  The surrounding response is generally
+   tubular and anisotropic rather than a spherical annulus.  Any radial-growth
+   statement must therefore be proved for an admitted geometry; isotropic
+   language cannot replace the strain--vorticity and pressure-Hessian
+   relations.
+
+The exact first-pulse amplitude laws already show the joined response.  For a
+fixed direction \(e\), let \(f=e\cdot u\), and follow a smooth local crest
+\(x_+(t)\) and neighboring trough \(x_-(t)\).  At their extrema,
+
+\[
+\frac d{dt}\bigl[f(x_+,t)-f(x_-,t)\bigr]
+=
+-e\cdot\bigl[\nabla p(x_+,t)-\nabla p(x_-,t)\bigr]
++\nu\bigl[\Delta f(x_+,t)-\Delta f(x_-,t)\bigr].
+\]
+
+The viscous bracket is nonpositive.  A ripple grows only when the nonlocal
+pressure-gradient difference forced by the whole current field overcomes the
+simultaneous curvature damping.  Likewise, at a local kinetic-energy maximum,
+
+\[
+D_t\frac{|u|^2}{2}
+\le -u\cdot\nabla p-\nu|\nabla u|^2.
+\]
+
+Local kinetic growth requires inward pressure work and pays viscous gradient
+cost in the same record.  For vorticity,
+
+\[
+D_t\frac{|\omega|^2}{2}
+=\omega\cdot S\omega
++\nu\left(\frac12\Delta|\omega|^2-|\nabla\omega|^2\right).
+\]
+
+At a vorticity maximum, stretching by the nonlocally reconstructed strain must
+beat viscous gradient loss.  These are the pulse and vortex versions of one
+physical question.
+
+The core--annulus relay is the material energy identity in F5.7.  For nested
+material regions \(\Omega_0(t)\subset\Omega_1(t)\) and their annulus
+\(A(t)\), it reads
+
+\[
+W_0(I)
+=W_1(I)
+-\bigl(E_A(t_2)-E_A(t_1)\bigr)
+-2\nu\int_I\int_A|S|^2\,dx\,dt.
+\]
+
+Thus central delivery, annular storage, outer stress supply, and annular
+dissipation occur in distinct places while remaining rows of one VPI event.
+This identity does not yet prove that every dangerous concentration admits a
+nested material core--annulus carrier or that a fixed fraction of each record
+must appear in its annulus.
+
+The two response clocks are also exact.  At scale \(r\),
+
+\[
+\tau_\nu(r)=\frac{r^2}{\nu},
+\qquad
+\tau_{\rm turn}(r,t)=\frac r{\delta_ru(t)},
+\qquad
+\operatorname{Re}_r(t)=\frac{r\,\delta_ru(t)}{\nu}.
+\]
+
+At every fixed smooth time, \(\operatorname{Re}_r(t)\to0\) as \(r\downarrow0\):
+below a sufficiently small scale, the viscous clock is faster than the local
+turnover clock.  Smooth initial data therefore begins with a bounded classical
+response.  A terminal scenario must drive its order-one crossover scale toward
+zero through a sequence of later first records.  Finite slope at every
+preterminal time is insufficient; the needed control is uniform along that
+shrinking history.
+
+Critical scaling explains the obstruction.  For a pulse with dimensionless
+amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
+to \(r\),
+
+\[
+E_{\rm core}\sim A^2\nu^2r,
+\qquad
+\mathcal P_\nu\sim\frac{A^2\nu^3}{r},
+\qquad
+\mathcal P_\nu\tau_\nu\sim A^2\nu^2r.
+\]
+
+The annular viscous power grows as \(r\downarrow0\), while its heat time and
+raw energy expenditure shrink.  A geometric chain can therefore have finite
+total time and finite raw expenditure even though its normalized
+inverse-distance charge is non-summable.  This is the precise reason that
+finite energy, one heat time per scale, or literal non-reuse of already
+dissipated energy does not close Gold.
+
+The open causal theorem generated by this picture is a same-event statement:
+attach every admitted first-record gain to its actual material core,
+surrounding anisotropic pressure-source/stress region, and viscous strain
+history; then prove either a uniform normalized response loss or a
+datum-finite, bounded-overlap inverse-distance charge that prevents that same
+participation from financing infinitely many later records.  F1.9's
+pair-separation annulus, F6.13's global action bound, and the spectral
+centroid/width facts F6.19--F6.21 do not provide this attachment.  They are
+global readouts or countertests until such a bridge is proved.
 
 ## F1. Participation: one motion, stress, pressure response, and deformation
 
