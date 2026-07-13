@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 043.
+**Current promoted checkpoint:** Cycle 044.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -177,6 +177,17 @@ response.  A terminal scenario must drive its order-one crossover scale toward
 zero through a sequence of later first records.  Finite slope at every
 preterminal time is insufficient; the needed control is uniform along that
 shrinking history.
+
+Cycle 044 sharpens what “quick response” can mean. A fixed material tangent
+and a fixed label covector have opposite strain-rate laws. When a material
+direction contracts, the inverse metric seen by a matched frozen dual
+covector increases immediately. Pressure and viscosity therefore do not wait
+to acquire the changed material geometry. But this is principal-symbol
+geometry, not a damping theorem: actual dissipation requires the velocity
+gradient to occupy that dual direction, pressure remains signed and nonlocal,
+and frame rotation can produce critical work without changing any principal
+stretch at first order. The physical Gold problem is thus incidence and
+persistence of the dangerous carrier, not a scalar response delay.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
