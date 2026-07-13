@@ -84,6 +84,7 @@ older cycle files are evidence, not competing authority.
 | 049 | Recombine every pressure, strain, rotation, pair, and viscous row before reading ordinary-volume rate. | Clean \((D_t-\nu\Delta)r=\widetilde{\mathcal F}_r\), matrix Fisher law, far-tail theorem, and remote-copy counterfamilies on \(\mathbb R^3\). | Scalar incidence magnitude cancels; only the signed trace-free VPI shape relation drives \(r\), while orientation turning is incidence-weighted. | Static cross-data deweighting fails; no fixed-datum recurrence, packet, annulus, material carrier, viscosity lag, or separate pressure/viscosity control is proved. | Ontology correction and route obstruction. |
 | 050 | Read a high compressive alignment through the complete local strain--rotation--pressure reaction, then separately re-audit the declared scale of the Cycle 049 remote copy. | Exact pressure-completed \(\mathsf B:\Pi\) decomposition, anisotropic null/reduction laws, cubic Sobolev barrier, and remote-copy Reynolds audit. | Incompressibility forces pressure-trace compensation in the same instant; the local \(\mathsf B:\Pi\) reaction is null for isotropic orientation, while the Cycle 049 high-rate copies are diffusion-dominated. | No full-source sign, active-scale extraction, one-history recurrence, local packet/core event, favorable pressure, or closure. | Ontology advance and bare scale-free route obstruction. |
 | 051 | At an independently licensed scale, let positive normalized compression occupy comparable spacetime measure inside one heat-time interval, and ask what can rebuild it. | Bounded-overlap radius occupancy, individual scale-independent \(I^2\) event visibility, disjoint-interval scalar Zeno countermodel, Kato maximum principle, and exact net source-minus-diffusion logarithmic variation. | Direct heat acts immediately and cannot create a new \(r_+\) maximum; finite dissipation controls the radius-weighted sum only under bounded overlap, while each event has an individual fixed Gold lower bound that accumulates only on disjoint heat intervals. | No theorem extracts the scale or event from large \(I\); the scalar stack is not an NS history; no packet, annulus, carrier, viscosity lag, datum net-variation bound, or closure. | Ontology advance, exact Gold diagnostic, and energy-only obstruction. |
+| 052 | The same participant concentrates its positive compression-rate field while the complete VPI source tries to rebuild that field against simultaneous direct heat. | Sharp \(L^2/L^6\) concentration--Rayleigh law, exact joined rise identity, scale-invariant \(\mathcal R_{6,+}\) occupancy, and a scalar no-event-extraction stack on decaying \(\mathbb R^3\). | Smaller global rate-field concentration volume forces a shorter upper direct-heat clock; actual rise requires the complete simultaneous source to overrun that faster clock. | The global norm volume supplies no location, support, thickness, material carrier, persistence, bounded overlap, full-participant response-speed band, or Gold closure; the scalar stack is not an NS history. | Ontology advance, exact Gold diagnostic, and active-scale extraction obstruction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -670,6 +671,85 @@ single singular point and supplies no strain--orientation thickness. The
 remaining theorem must control the joined net variation or extract a
 bounded-overlap event family and control a disjoint recurrence. No active-scale
 extraction, Gold closure, or Silver exit is installed.
+
+Cycle 052 installs F7.20 and gives the exact global answer to the direct-heat
+part of the response-speed question. On decaying \(\mathbb R^3\), set
+
+\[
+I=\|r_+\|_2^2,
+\qquad
+X=\|\nabla r_+\|_2^2,
+\qquad
+\mathcal V_{6,+}
+=\left(\frac{\|r_+\|_2}{\|r_+\|_6}\right)^3.
+\]
+
+Sharp Sobolev gives
+
+\[
+\frac XI\ge S_3\mathcal V_{6,+}^{-2/3},
+\qquad
+\frac I{\nu X}
+\le\frac{\mathcal V_{6,+}^{2/3}}{\nu S_3}.
+\]
+
+The physical readback is exact and limited: when the complete positive
+compression-rate field concentrates globally, it must develop steeper spatial
+variation, so the explicit scalar Laplacian acts with a faster coefficient in
+the half-logarithmic balance. This is not a full-fluid lag law. With
+
+\[
+N=\int r_+\widetilde{\mathcal F}_r\,dx,
+\qquad
+\sigma=\frac NI,
+\]
+
+the joined equation is
+
+\[
+\frac12(\log I)'+\nu\frac XI=\sigma.
+\]
+
+Thus every actual rise requires the complete pressure--strain--rotation--pair--
+viscous-shape source to overrun the simultaneously increasing direct-heat
+rate. Pressure and viscosity have not been assigned separate ownership: the
+explicit scalar Laplacian is the direct heat coordinate, while viscous
+reorientation remains in the same signed source.
+
+The scale-invariant concentration ratio
+
+\[
+\mathcal R_{6,+}
+=\frac{\sqrt I\,\mathcal V_{6,+}^{1/6}}{\nu}
+\]
+
+turns the finite datum budget into
+
+\[
+2\nu^3\int
+\mathcal R_{6,+}^2\mathcal V_{6,+}^{-1/3}dt
+\le\mathcal E_0,
+\]
+
+whereas Gold asks for
+
+\[
+\int I^2dt
+=\nu^4\int
+\mathcal R_{6,+}^4\mathcal V_{6,+}^{-2/3}dt.
+\]
+
+Energy therefore controls the first moment of the exact concentration density,
+while Gold needs its square. A smooth scalar pulse stack can have
+\(I(t_j)\to\infty\), finite \(\int I\), finite \(\int X\), and no F7.19
+heat-thick event. It is not a Navier--Stokes \(r=-S:\Pi\) history, so it proves
+only that the global scalar coordinates cannot perform the missing extraction.
+The new theorem boundary is a one-datum bound on the complete normalized source
+relative to the direct-heat Rayleigh rate, or a separate same-history theorem
+extracting spatial thickness and heat-time persistence with no recount. No
+nearest crest--trough relation, wave interference, packet, annulus, material
+carrier, full-participant response-speed bound, Gold closure, or Silver exit is
+proved.
 
 ## Above-Route Gold/Silver Analogy
 
