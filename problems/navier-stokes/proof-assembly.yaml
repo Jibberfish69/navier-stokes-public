@@ -14,16 +14,18 @@ manual_ontology_gate_reconciliation:
   status: active-authority-override
   authority: problems/navier-stokes/target-operating-contract.yaml#active_all_chord_work_gate_hierarchy_ontology_gate_spin
   effect: >-
-    Cycle 068 proves four strict gates: all-chord frame motion, local signed
-    overlap, global signed work after whole-field cancellation, and surplus
-    over simultaneous viscous critical loss. An exact globally regular
-    two-dimensional participant reaches the fourth gate and rises while
+    Across separate exact smooth periodic histories, Cycle 068 proves an
+    independent frame-motion null test and three nested active gates: local
+    signed overlap, global signed work after whole-field cancellation, and
+    surplus over simultaneous viscous critical loss. A globally regular
+    two-dimensional participant reaches the last active gate and rises while
     S omega=0; velocity reversal preserves its all-chord orientation and
-    quadratic snapshot sizes while reversing signed work. None of these
-    instantaneous events is Gold currency. Cumulative one-history departure
-    from the planar/null-stretching mechanism, or a direct datum-bound, remains
-    open. No strict reduction, Gold closure, or Silver conclusion follows.
-    Lower generated occurrences are genealogy only.
+    quadratic snapshot sizes while reversing signed work. No theorem makes
+    frame motion necessary or has one history traverse all witnesses. None of
+    these instantaneous events is Gold currency. Cumulative one-history
+    departure, or a direct datum-bound, remains open. No decaying-R3 theorem,
+    strict reduction, Gold closure, or Silver conclusion follows. Lower
+    generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

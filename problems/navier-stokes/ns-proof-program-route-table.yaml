@@ -28,16 +28,17 @@ manual_ontology_gate_reconciliation:
   latest_gate_spin:
     authority: problems/navier-stokes/target-operating-contract.yaml#active_all_chord_work_gate_hierarchy_ontology_gate_spin
     effect: >-
-      Cycle 068 proves four strict gates: all-chord frame motion, local signed
-      overlap, global signed work after whole-field cancellation, and surplus
-      over simultaneous viscous critical loss. An exact globally regular
-      two-dimensional participant reaches the fourth gate and rises while
+      Across separate exact smooth periodic histories, Cycle 068 proves an
+      independent frame-motion null test and three nested active gates: local
+      signed overlap, global signed work after whole-field cancellation, and
+      surplus over simultaneous viscous critical loss. A globally regular
+      two-dimensional participant reaches the last active gate and rises while
       S omega=0; velocity reversal preserves its all-chord orientation and
-      quadratic snapshot sizes while reversing signed work. None of these
-      instantaneous events is Gold currency. Cumulative one-history departure
-      from the planar/null-stretching mechanism, or a direct datum-bound,
-      remains open. No strict reduction, Gold closure, or Silver Part/Field
-      exit follows.
+      quadratic snapshot sizes while reversing signed work. No theorem makes
+      frame motion necessary or has one history traverse all witnesses. None
+      of these instantaneous events is Gold currency. Cumulative one-history
+      departure, or a direct datum-bound, remains open. No decaying-R3 theorem,
+      strict reduction, Gold closure, or Silver Part/Field exit follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
