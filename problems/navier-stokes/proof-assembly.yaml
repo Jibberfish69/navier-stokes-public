@@ -15,12 +15,14 @@ manual_ontology_gate_reconciliation:
   authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_affine_break_radius_palinstrophy_tail_ontology_gate_spin
   effect: >-
     On the instantaneous smooth decaying-R3 surface, Cycle 062 installs an
-    unconditional adaptive affine-break radius, its quadratic vorticity tail,
-    and the palinstrophy bound J_{omega/tau}<=24 pi sqrt(K D_2). The assembly
-    remains open because datum-time control of D_2 and G_tau=int g^2/tau,
-    Gold-time placement, and a direct critical-height consequence remain open.
-    No smaller closing theorem, Gold closure, or Silver exit is installed. Lower
-    generated occurrences are genealogy only.
+    unconditional integrated chord-affinity threshold radius, its quadratic
+    vorticity tail, and the enstrophy-palinstrophy bound
+    J_{omega/tau}<=24 pi sqrt(K D_2). The assembly remains open because
+    datum-time control of D_2 and, in this Cauchy supplier,
+    G_tau=int g^2/tau, Gold-time placement, and a direct critical-height
+    consequence remain open. No direction/alignment or matched-localization
+    theorem, smaller closing theorem, Gold closure, or Silver exit is installed.
+    Lower generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
