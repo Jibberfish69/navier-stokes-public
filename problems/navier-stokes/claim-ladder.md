@@ -931,8 +931,9 @@ J_{\omega/\tau}
 }
 \]
 
-This is the first unconditional control of the Cycle-061 mismatch moment, by
-the enstrophy--palinstrophy product rather than palinstrophy alone.  It does
+This is the first unconditional control installed in this route for the
+Cycle-061 mismatch moment, by the enstrophy--palinstrophy product rather than
+palinstrophy alone.  It does
 not control the orientation-turn term.  In this F7.17-plus-Cauchy supplier the
 remaining factor is
 
