@@ -2663,11 +2663,11 @@ nonlinear transfer.
 No universal direction of interscale transfer follows from these identities.
 
 Cycle 068 fixes the physical order inside the critical multiplier balance.
-Motion of a nonlocal orientation frame, positive signed work at one point,
-positive global nonlinear work, and positive net critical-height production
-are four different events. The first two can disappear under contraction or
-spatial cancellation; the third can be smaller than the simultaneous viscous
-row. Only
+Motion of a nonlocal orientation frame is an independent kinematic event: it
+is neither required nor sufficient for signed work. The active chain has three
+nested checks. Positive signed work at one point can cancel over the whole
+field; positive global nonlinear work can remain smaller than the simultaneous
+viscous row; only
 
 \[
 P_H>\nu\|\Lambda^{3/2}u\|_2^2
@@ -5176,14 +5176,17 @@ the same null block. Rotation is therefore not the missing production
 relation. The exact signed simultaneous contraction is still the event that
 matters.
 
-Cycle 068 proves the resulting strict gate order. The ABC participant has
-\(r>0\) at a point but \(P_H=\int\tau r=0\). A pure-two-dimensional triad has
-\(P_H>0\) below the viscous threshold and \(P_H>\nu D\) above it. Reversing
-the triad datum preserves \(\mathsf T_u,\tau,\Pi\), and every quadratic state
-size at the compared initial snapshots, while it reverses \(S,r\), and
-\(P_H\). Hence orientation motion, local signed overlap, global signed
-coherence, and viscous surplus are distinct; the sign belongs to the
-simultaneous strain--all-chord relation, not to \(\Pi\) alone.
+Cycle 068 proves one independent frame-motion null test and the resulting
+strict three-gate active order across different exact histories. The ABC
+participant has \(r>0\) at a point but \(P_H=\int\tau r=0\). A
+pure-two-dimensional triad has \(P_H>0\) below the viscous threshold and
+\(P_H>\nu D\) above it. Reversing the triad datum preserves
+\(\mathsf T_u,\tau,\Pi\), and every quadratic state size at the compared
+initial snapshots, while it reverses \(S,r\), and \(P_H\). Hence local signed
+overlap, global signed coherence, and viscous surplus are distinct active
+gates; the sign belongs to the simultaneous strain--all-chord relation, not to
+\(\Pi\) alone. No theorem says that frame motion precedes them or that one
+participant traverses all of these witnesses.
 
 ### F7.6 Vortex stretching is a nonlocal all-chord orientation relation
 
