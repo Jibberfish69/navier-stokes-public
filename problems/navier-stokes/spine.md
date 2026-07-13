@@ -115,24 +115,27 @@ pair/Fourier coordinates or exact countertests.  They remain true at their
 stated scope, but they do not continue the source-centred pulse,
 later-time/later-place focusing, vortex, or constructive-interference picture
 without a proved spatial/material carrier bridge.  Cycles 036--042 therefore
-record support and route elimination, not continued physical-causal
-development of that picture.
+record global readouts, countertests, support, and route elimination, not
+continued physical-causal development of that picture.
 
 Cycle 034 installs F1.9, F5.7, and F5.8. The core--annulus telescope and heat
 clock type the two response-rate questions inside one VPI history. Critical
 pair height has unavoidable radial separation width, while ripple steepness is
 quadratically viscous and pointwise coherent height is linear. Exact shears
 show that finite energy and enstrophy can miss a large coherent crest, while
-the critical viscous first moment detects and damps that pileup. Phase
-alignment alone does not change global critical height. F1.9's separation
+the critical viscous first moment detects the underlying high-frequency
+amplitude population and damps global critical height; it does not detect phase
+alignment itself or prove damping of the local crest. Phase alignment alone
+does not change global critical height. F1.9's separation
 annulus ranges over all centers and directions; it is not the physical collar
 around the source in F5.7. The spatial ripple/core--annulus picture and the
 global critical-current program therefore remain unbridged. Their
 square-versus-linear expressions are algebraically comparable, but that
 comparison supplies no common carrier. Silver is unchanged.
 
-Cycle 035 installs F6.13 and F7.8. A rising critical record pays coherent
-action at the heat rate associated algebraically with the global outer
+Cycle 035 installs F6.13 and F7.8. A rising critical record requires the
+displayed coherent-action lower bound at the heat rate associated
+algebraically with the global outer
 half-height pair-separation scale, and the terminal doubling clock shrinks on
 the matching parabolic scale. Their product remains the fixed action quantum,
 so this global coordinate does not itself stop a Zeno ladder. Exact triangular
@@ -149,7 +152,10 @@ material-pair transform now supplies a positive current-state action
 and spectral-shape currents to one material cohort creates four exact rows:
 transport--pressure boundary flux, fractional derivative placement,
 complement leakage, and moving-selection entry--exit. None is controlled by
-pair mass alone. More importantly, the formal WLF pushforward did not already
+pair mass alone. Physically, selecting one cohort removes cancellations
+available only to the whole participant. The four rows are joined
+manifestations of boundary/complement exchange and changing observation, not
+four independently owed fluid debts. More importantly, the formal WLF pushforward did not already
 prove bounded overlap. WLF.50 declares the ancestry map, WLF.55--WLF.57 add
 same-pulse routing and bounded fibre mass, and WLF.59 needs a genuine
 disintegration kernel; Hilbert orthogonal admission proves none of those
@@ -1050,9 +1056,10 @@ orientation, not a spatial transverse region, and \(\Pi\) is nonlocal.
 Nothing here proves a collar, vortex annulus, packet, material carrier,
 co-location, causal transfer, pressure sign, entrance synchronization, Gold
 closure, or Silver exit. The next dynamic question is whether the complete
-VPI evolution datum-controls this signed readout residual or forces its late
-positive action onto the same critical-height rising history; it may also be
-bypassed by another direct square-rate theorem.
+VPI evolution controls the positive vorticity-selected residual action or its
+square in time, or forces the needed rate-square action onto the same
+critical-height rising history; it may also be bypassed by another direct
+square-rate theorem.
 
 Cycle 059 resolves the residual's instantaneous orientation anatomy and
 corrects the last sentence's overbroad budget question. Relative to the
