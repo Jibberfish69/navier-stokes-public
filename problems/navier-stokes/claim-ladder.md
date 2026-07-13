@@ -368,6 +368,70 @@ none is proved. Nor is there an active-scale/thickness extraction theorem from
 large \(I\). CKN partial regularity does not supply either missing clause. No
 Gold closure or Silver Part/Field exit follows.
 
+Fifteenth live gate result, 2026-07-12: Cycle 052 installs F7.20 on decaying
+\(\mathbb R^3\). With
+
+\[
+\mathcal V_{6,+}
+=\left(\frac{\|r_+\|_2}{\|r_+\|_6}\right)^3,
+\qquad
+I=\|r_+\|_2^2,
+\qquad
+X=\|\nabla r_+\|_2^2,
+\]
+
+sharp Sobolev gives
+
+\[
+\frac XI\ge S_3\mathcal V_{6,+}^{-2/3},
+\qquad
+\frac I{\nu X}
+\le\frac{\mathcal V_{6,+}^{2/3}}{\nu S_3}.
+\]
+
+This is the exact global physical statement: concentrating the same positive
+compression-rate field forces steeper spatial variation and a faster explicit
+scalar heat coefficient. With
+\(N=\int r_+\widetilde{\mathcal F}_r\,dx\), actual rise requires
+
+\[
+\frac NI>\nu\frac XI
+\ge\nu S_3\mathcal V_{6,+}^{-2/3}.
+\]
+
+The complete pressure--strain--rotation--pair--viscous-shape source remains
+joined in \(N\). The invariant ratio
+
+\[
+\mathcal R_{6,+}
+=\frac{\sqrt I\,\mathcal V_{6,+}^{1/6}}{\nu}
+\]
+
+satisfies
+
+\[
+2\nu^3\int
+\mathcal R_{6,+}^2\mathcal V_{6,+}^{-1/3}dt
+\le\mathcal E_0,
+\]
+
+while Gold requires the square
+
+\[
+\int I^2dt
+=\nu^4\int
+\mathcal R_{6,+}^4\mathcal V_{6,+}^{-2/3}dt.
+\]
+
+A smooth scalar terminal pulse stack has unbounded \(I\) peaks with finite
+\(\int I\), finite \(\int X\), and no F7.19 heat-thick event. It is not a
+Navier--Stokes realization, so it establishes only the scalar extraction
+obstruction. The global norm volume supplies no location, spatial thickness,
+material persistence, bounded overlap, or full-participant response-speed
+bound. Gold remains open at a one-datum complete-source-overrun theorem or a
+separate same-history spatial-thickness and heat-time-persistence theorem. No
+Gold closure or Silver Part/Field exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -384,7 +448,7 @@ Gold closure or Silver Part/Field exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.19 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.20 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -396,7 +460,11 @@ Gold closure or Silver Part/Field exit follows.
   radius-weighted sum only under bounded spacetime overlap; individual Gold
   lower bounds accumulate only on disjoint heat intervals. The exact net
   source-minus-direct-diffusion logarithmic variation remains unbounded from
-  the datum. The fixed-energy family also rules out any bound using only kinetic
+  the datum. On decaying \(\mathbb R^3\), global rate-field concentration
+  forces a faster direct heat coefficient, but its datum-finite invariant
+  occupancy is only first-power while Gold needs the square. The norm volume
+  supplies neither event localization nor heat-time persistence. The
+  fixed-energy family also rules out any bound using only kinetic
   energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
