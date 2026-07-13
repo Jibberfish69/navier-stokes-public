@@ -9380,15 +9380,20 @@ probability
 d\varpi_z=\frac{|w|^2}{\tau(z)}d\eta
 \]
 
-and, \(\varpi_z\)-almost everywhere,
+and set
 
 \[
 \beta_k
 =\frac{w\cdot\partial_kw}{|w|^2}
-=\partial_k\log|w|.
+=\partial_k\log|w|
+\quad\text{on }\{w\ne0\},
+\qquad
+\beta_k=0
+\quad\text{on }\{w=0\}.
 \]
 
-The value on chord zeros is immaterial.  Direct differentiation gives
+The zero-set value does not affect \(\varpi_z\)-integrals.  Direct
+differentiation gives
 
 \[
 \mathbb E_{\varpi_z}\beta_k
@@ -9414,7 +9419,9 @@ b_{\rm amp}
 =\int|\nabla_z|w||^2d\eta
 \]
 
-and the centered amplitude variance
+with the quotient integrand set to zero on \(\{w=0\}\); the last equality is
+the almost-everywhere modulus chain rule.  Define the centered amplitude
+variance
 
 \[
 \boxed{
@@ -9477,8 +9484,9 @@ while
 \]
 
 This replaces \(\mathcal G_\tau=\int g^2/\tau\) as the immediate Cauchy
-burden by the smaller quantity that records actual spatial variation of
-\(\Pi\).  The inequalities are one-way.
+burden by the more direct quantity recording actual spatial variation of
+\(\Pi\).  The inequalities are one-way; no universal numerical ordering
+\(\mathcal Q_\Pi\le\mathcal G_\tau\) is asserted.
 
 The separation is strict inside the exact Navier--Stokes class.  On the
 normalized periodic torus,
@@ -9509,10 +9517,12 @@ g=N^2\tau,
 =4N^4\mathcal H_{1/2}>0.
 \]
 
-At fixed kinetic energy the last quantity grows like \(N^5\), while
-\(\mathcal Q_\Pi\) remains zero.  Hence no reverse inequality, equivalence,
-or positive universal gap is available.  This harmless heat-decaying shear is
-a strictness witness, not a Gold-rise or blowup scenario.
+At fixed initial kinetic energy the last quantity grows like \(N^5\) at
+\(t=0\), while \(\mathcal Q_\Pi\) remains zero.  Hence there is no reverse
+coercive inequality \(\mathcal G_\tau\le C\mathcal Q_\Pi\), no equivalence,
+and no positive universal lower bound for
+\(\mathcal Q_\Pi/\mathcal G_\tau\).  This harmless heat-decaying shear is a
+strictness witness, not a Gold-rise or blowup scenario.
 
 The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
 variation at one time, not a temporal or material rotation.  The probability
