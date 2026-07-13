@@ -1582,6 +1582,76 @@ This fact proves no location, shrinking packet, carrier, persistence,
 recurrence, causal order, pairwise monotonicity, datum-finite action bound,
 Gold closure, or Silver exit.
 
+### F1.16 The infinitesimal critical-pair readout is anisotropic
+
+At one differentiability point of one smooth participant, set
+
+\[
+A=\nabla u=S+W,
+\qquad
+\operatorname{tr}S=0,
+\qquad
+q(\theta)=\theta\cdot A\theta=\theta\cdot S\theta.
+\]
+
+The leading relative velocity of a pair separated by \(r\theta\) is
+\(rA\theta\). Incompressibility gives
+
+\[
+\int_{S^2}q(\theta)\,d\theta=0.
+\]
+
+If \(S\ne0\), the directional separation rate is therefore anisotropic and
+has both signs. The relative-velocity-weighted signed angular coordinate is
+
+\[
+\mathcal I(A)
+=\int_{S^2}|A\theta|^2q(\theta)\,d\theta
+=\frac{8\pi}{15}
+\left(
+\operatorname{tr}(S^3)-\frac14\omega\cdot S\omega
+\right).
+\]
+
+Its gross positive counterpart,
+
+\[
+\mathcal B(A)
+=\int_{S^2}\left[-|A\theta|^2q(\theta)\right]_+\,d\theta,
+\]
+
+obeys the exact floor
+
+\[
+\mathcal B(A)
+\ge
+\frac{8\pi}{15}[-\operatorname{tr}(S^3)]_+.
+\]
+
+Thus the isotropic angular mean contains no infinitesimal critical-pair sign;
+the squared-increment weight selects an anisotropic quadrupole of the same
+velocity gradient. The signed quadrupole may vanish while the gross positive
+functional is strictly positive.
+
+On decaying \(\mathbb R^3\), this algebra is the exact \(r\downarrow0\)
+limit of the Euclidean positive shell readout. Separately, the exact periodic
+history
+
+\[
+u(t)=e^{-\nu t}(\sin x_2,\sin x_1,0)
+\]
+
+has \(\mathcal B(\nabla u(0,t))>0\), zero local signed angular mean at the
+origin, and zero global nonlinear critical-height contribution. Local gross
+positive angular activity is therefore compatible with a globally regular
+participant and need not survive signed or global recombination.
+
+This is an instantaneous local readout of the complete participant, not a
+separate affine fluid or mechanism. It proves no sign of the full VPI tangent
+or \(\mathcal H_{1/2}'\), no pressure or viscosity timing, and no duration,
+radial thickness, location, carrier, recurrence, affine-region realization,
+local-to-global passage, Gold closure, or Silver exit.
+
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
 ### F2.1 Strain and vorticity are compatible derivatives of one velocity
