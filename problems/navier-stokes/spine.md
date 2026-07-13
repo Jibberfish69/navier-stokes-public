@@ -83,7 +83,7 @@ older cycle files are evidence, not competing authority.
 | 048 | Evolve \(r=-S:\Pi\) in quotient coordinates and test energy-only closure. | Exact quotient law, weighted perspective, scalar Fisher bound, and fixed-energy burst no-go. | The normalized rate is a strain--orientation relation. | The weighted survivors prove no ordinary-volume control, packet/core localization, or recurrence; the separate log-density-curvature obstruction was an incomplete grouping superseded by 049. | Partial support and countertest with corrected overread. |
 | 049 | Recombine every pressure, strain, rotation, pair, and viscous row before reading ordinary-volume rate. | Clean \((D_t-\nu\Delta)r=\widetilde{\mathcal F}_r\), matrix Fisher law, far-tail theorem, and remote-copy counterfamilies on \(\mathbb R^3\). | Scalar incidence magnitude cancels; only the signed trace-free VPI shape relation drives \(r\), while orientation turning is incidence-weighted. | Static cross-data deweighting fails; no fixed-datum recurrence, packet, annulus, material carrier, viscosity lag, or separate pressure/viscosity control is proved. | Ontology correction and route obstruction. |
 | 050 | Read a high compressive alignment through the complete local strain--rotation--pressure reaction, then separately re-audit the declared scale of the Cycle 049 remote copy. | Exact pressure-completed \(\mathsf B:\Pi\) decomposition, anisotropic null/reduction laws, cubic Sobolev barrier, and remote-copy Reynolds audit. | Incompressibility forces pressure-trace compensation in the same instant; the local \(\mathsf B:\Pi\) reaction is null for isotropic orientation, while the Cycle 049 high-rate copies are diffusion-dominated. | No full-source sign, active-scale extraction, one-history recurrence, local packet/core event, favorable pressure, or closure. | Ontology advance and bare scale-free route obstruction. |
-| 051 | At an independently licensed scale, let positive normalized compression occupy comparable spacetime measure inside one heat-time interval, and ask what can rebuild it. | Radius-weighted occupancy, scale-independent \(I^2\) event visibility, scalar-budget Zeno countermodel, Kato maximum principle, and exact full-source logarithmic regeneration action. | Direct heat acts immediately and cannot create a new \(r_+\) maximum; finite dissipation controls only the radius-weighted event sum, while each admitted heat-thick event has a fixed Gold square-rate lower bound. | No theorem extracts the scale or event from large \(I\); the scalar stack is not an NS history; no packet, annulus, carrier, viscosity lag, datum recurrence bound, or closure. | Ontology advance, exact Gold diagnostic, and energy-only obstruction. |
+| 051 | At an independently licensed scale, let positive normalized compression occupy comparable spacetime measure inside one heat-time interval, and ask what can rebuild it. | Bounded-overlap radius occupancy, individual scale-independent \(I^2\) event visibility, disjoint-interval scalar Zeno countermodel, Kato maximum principle, and exact net source-minus-diffusion logarithmic variation. | Direct heat acts immediately and cannot create a new \(r_+\) maximum; finite dissipation controls the radius-weighted sum only under bounded overlap, while each event has an individual fixed Gold lower bound that accumulates only on disjoint heat intervals. | No theorem extracts the scale or event from large \(I\); the scalar stack is not an NS history; no packet, annulus, carrier, viscosity lag, datum net-variation bound, or closure. | Ontology advance, exact Gold diagnostic, and energy-only obstruction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -613,7 +613,7 @@ only after a scale \(\ell_j\), a heat interval
 \(|J_j|=\ell_j^2/\nu\), a spacetime region
 \(|E_j|\ge\theta\ell_j^5/\nu\), and the lower rate
 \(r_+\ge c\nu/\ell_j^2\) are independently established from the same field.
-For any family with overlap at most \(M\),
+For any family with spacetime overlap at most \(M\),
 
 \[
 \sum_j\ell_j
@@ -630,11 +630,12 @@ not ruled out by this marginal. By contrast, with \(I=\int r_+^2dx\),
 \int_{J_j}I(t)^2dt\ge c^4\theta^2\nu^3.
 \]
 
-Every heat-thick event is therefore equally visible to the Gold square-rate
-action, independent of its scale. A dyadic scalar bump stack has finite
-\(\int r^2\) and infinite \(\int I^2\), proving that the datum-finite
-rate budget alone cannot forbid recurrence. It is not a Navier--Stokes
-realization.
+Every heat-thick event therefore has the same individual lower bound in the
+Gold square-rate action, independent of its scale. These bounds accumulate
+only for disjoint heat intervals. A dyadic scalar bump stack on disjoint
+intervals has finite \(\int r^2\) and infinite \(\int I^2\), proving that the
+datum-finite rate budget alone cannot forbid such a scalar recurrence. It is
+not a Navier--Stokes realization.
 
 The complete source determines regeneration. Kato's inequality and
 advection--diffusion contractivity give, for \(1\le p\le\infty\),
@@ -650,21 +651,24 @@ Thus direct heat cannot create a new positive maximum, but this is not a sign
 claim for total viscosity: signed viscous reorientation remains inside the
 complete VPI source. With
 \(X=\int|\nabla r_+|^2\) and
-\(N=\int r_+\widetilde{\mathcal F}_r\), the exact recurrence action above
+\(N=\int r_+\widetilde{\mathcal F}_r\), the exact net-growth variation above
 \(I_\sharp\) is
 
 \[
 \int_{\{I>I_\sharp\}}\frac{[N-\nu X]_+}{I}\,dt
 =\frac12\operatorname{Var}^+
-\left(\log\frac I{I_\sharp}\right)_+.
+g_\sharp,
 \]
 
-Every rate doubling contributes \(\tfrac12\log2\). A datum bound on this
-action would bound \(I\) and close the square-rate supplier, but no such bound
-is proved. CKN partial regularity does not rule out nested preterminal events
-converging to a single singular point and supplies no strain--orientation thickness.
-The remaining theorem must control full-source regeneration or extract and
-then forbid an infinite same-history heat-thick recurrence. No active-scale
+where \(g_\sharp=(\log(I/I_\sharp))_+\) for \(I>0\) and \(g_\sharp=0\) at
+\(I=0\). Every successive upcrossing above the threshold contributes
+\(\tfrac12\log2\), and disjoint upcrossing intervals add without recount. A
+datum bound on this net source-minus-direct-diffusion variation would bound
+\(I\) and close the square-rate supplier, but no such bound is proved. CKN
+partial regularity does not rule out nested preterminal events converging to a
+single singular point and supplies no strain--orientation thickness. The
+remaining theorem must control the joined net variation or extract a
+bounded-overlap event family and control a disjoint recurrence. No active-scale
 extraction, Gold closure, or Silver exit is installed.
 
 ## Above-Route Gold/Silver Analogy
