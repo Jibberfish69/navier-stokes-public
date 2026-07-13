@@ -92,6 +92,7 @@ older cycle files are evidence, not competing authority.
 | 057 | In the same finite-energy participant, ask whether an unbounded total normalized-compression rate—especially the vanishing-threshold, diverging-volume branch—can remain a broad slow deformation. | Exact \(I\)-to-enstrophy/palinstrophy and moving-cutoff Fourier bounds; two-sided enstrophy-rise clock; dyadic first-entrance speed, energy-loss, high-tail, palinstrophy, and anisotropic-stretching laws; and a fixed-energy many-remote-cell NS snapshot family on decaying \(\mathbb R^3\). | Weak selected rate values can coexist with an increasingly fine whole-field derivative tier. On one history, every late enstrophy doubling occupies vanishing time and loses vanishing raw kinetic energy, while its integrated squared vorticity-gradient and same-field directional stretching diverge. Each finite level has a real minimum response time, but that minimum collapses quadratically and its minimum energy price is dyadically summable. | An \(I\)-entrance is not synchronized with a \(K\)-entrance. The high Fourier tier is not placed on the rate superlevel union and proves no packet, annulus, connected region, material carrier, ripple, phase coherence, cascade, pressure sign, or separate viscous owner. The many-cell family varies the datum. No datum palinstrophy/source bound, Gold closure, or Silver exit follows. | Ontology advance, exact derivative-tower anatomy, and refutation of an instantaneous VPI exclusion of branch 4 without strict Gold reduction. |
 | 058 | At one point of the same participant, compare the strain read along the vorticity axis with the strain read by the nonlocal all-chord orientation. | Exact normalized-transverse trace identity, signed strain-contracted readout residual, enstrophy-source decomposition, and scale-critical residual-or-rate-square alternative on every \(K\)-doubling interval. | Incompressibility makes positive axial vortex stretch carry mean transverse compression at the same instant. An enstrophy doubling must expose that strain through positive normalized all-chord compression rate or accumulate a positive difference between the actual all-chord reading and the normalized transverse reading, while viscosity retains its palinstrophy cost. | The residual is not an orientation distance, force, owner, evolution law, or Gold currency. Its vorticity-selected positive action has no proved datum bound. Full-interval \(I^2\) is not \(G\)-restricted; the \(\tau\) and \(\lvert\omega\rvert^2\) weights are not compared. No entrance synchronization, localization, annulus, packet, carrier, causal transfer, pressure sign, Gold closure, or Silver exit follows. | Ontology bridge and exact escape-channel anatomy without strict Gold reduction. |
 | 059 | At the same point and instant, resolve how the actual nonlocal all-chord orientation can differ from the incompressibility-forced transverse reading about the vorticity axis, while retaining the same field's viscous direction turn. | Exact axial/cross/transverse vorticity-frame normal form, sharp positive-semidefinite orientation constraints, algebraic cancellation countertest, polar-vorticity law, one-energy raw residual budget, and combined rate-square/residual-square lower action on every \(K\)-doubling interval. | The discrepancy has exactly three orientation coordinates: axial chord incidence, axial--transverse chord covariance, and transverse quadrupole. They cancel inside one signed readout and share one finite raw strain exposure. An unbounded enstrophy ladder nevertheless forces the critical-rate height or the joined residual height to develop non-square-integrable temporal bursts. | The three coordinates are not mechanisms, owners, spatial axes/planes, or three costs; \([\mathfrak m]_+\) is not the sum of their positive parts. The raw budget does not bound vorticity-selected residual action or its square in time. No localization, persistence, causal order, response-time law, weight comparison, Gold closure, or Silver exit follows. | Ontology anatomy and Cycle 058 budget correction; exact square-action obstruction without strict Gold reduction. |
+| 060 | Follow the same participant through time and ask how the vorticity-weighted difference between its nonlocal all-chord strain reading and its vorticity-forced transverse reading can be rebuilt, including through points where vorticity vanishes. | Global smooth trace-free discrepancy tensor \(\mathsf N\), exact recombined VPI laws for \(\mathsf N\) and \(\mathfrak M=S:\mathsf N\), positive-part diffusion/Kato laws, and a fixed-energy fixed-viscosity varying-datum no-go for energy-only raw weighted-action and \(J_{\mathfrak m}\)-square-time bounds. | Where vorticity is absent the axis comparison has no physical referent and its canonical weighted discrepancy vanishes. Where it is present, one simultaneous pressure--strain--vorticity--all-chord source rebuilds the discrepancy against direct diffusion; finite energy limits raw first exposure but not cross-data burst height or frequency. | Bare \(\mathfrak m\) has no canonical global evolution across \(\omega=0\). The source has no sign or datum bound; \(\tau\) and \(\lvert\omega\rvert^2\) turning weights remain unbridged. The counterfamily does not bound or refute the normalized \(K^{-1}\)-weighted action, prove one-history recurrence, localize an event, close Gold, or give Silver exit. | Ontology dynamic fact and energy-only route obstruction without strict Gold reduction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -1124,6 +1125,50 @@ temporal bursts. This remains global orientation-and-time anatomy. It gives no
 spatial axis, plane, tube, annulus, packet, material carrier, dynamic
 synchronization, response-time band, pressure sign, \(\tau\)-to-\(|\omega|^2\)
 bridge, Gold closure, or Silver exit.
+
+Cycle 060 identifies the globally lawful evolving object.  The normalized
+residual \(\mathfrak m\) uses the vorticity direction and therefore has no
+canonical global continuation through \(\omega=0\).  Its vorticity-weighted
+form is instead
+
+\[
+\mathsf N
+=|\omega|^2\Pi
+-\frac12\left(|\omega|^2I-\omega\otimes\omega\right),
+\qquad
+\mathfrak M=S:\mathsf N
+=|\omega|^2\mathfrak m.
+\]
+
+The tensor \(\mathsf N\) is smooth, trace free, and zero at vorticity zeros.
+Using the complete F4.1, F4.5, and F7.16 laws gives exact global equations
+
+\[
+(D_t-\nu\Delta)\mathsf N=\mathcal F_{\mathsf N},
+\qquad
+(D_t-\nu\Delta)\mathfrak M
+=-\mathsf B:\mathsf N
++S:\mathcal F_{\mathsf N}
+-2\nu\nabla S::\nabla\mathsf N.
+\]
+
+The source retains the pressure-completed strain tangent, vorticity
+magnitude/direction change, nonlocal all-chord reorientation, and every
+viscous product gradient.  Multiplication by \([\mathfrak M]_+\) gives a
+global positive-square diffusion identity, and Kato gives the corresponding
+positive-mass upper law.  This is the first exact temporal equation for the
+Cycle-058 numerator \([\mathfrak M]_+=|\omega|^2[\mathfrak m]_+\).
+
+It exposes rather than closes the weight bridge: all-chord turning has the
+native budget \(\int\tau|\nabla\Pi|^2\), whereas the residual selects it with
+\(|\omega|^2\).  A genuine fixed-energy, fixed-viscosity varying-datum family
+also makes \(\int J_{\mathfrak m}^2dt\asymp A^3\) and the raw positive
+weighted action grow like \(A^4\), although
+\(\int J_{\mathfrak m}dt\asymp A^{-1}\).  Energy alone therefore cannot
+control those exposed burst quantities.  The normalized Cycle-058 action
+remains scale invariant in that family and is not refuted.  No full-datum
+source estimate, one-history recurrence theorem, Gold closure, or Silver exit
+is obtained.
 
 ## Above-Route Gold/Silver Analogy
 
