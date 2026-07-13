@@ -828,10 +828,12 @@ coefficients of the pulled-back viscous operator are
 \prod_{i=1}^3\nu s_i^{-2}=\nu^3.
 \]
 
-Compression strengthens the viscous coefficient in that material direction;
-expansion weakens it. Volume preservation prevents all three coefficients
-from becoming smaller than \(\nu\) simultaneously. These are eigenvalues of
-the label-space principal symbol, not three decoupled heat rates: the frame and
+Compression raises the label-space viscous coefficient in that material
+direction; expansion lowers it. Volume preservation prevents all three
+coefficients from becoming smaller than \(\nu\) simultaneously. These are
+coordinate eigenvalues of the pulled-back principal symbol, not three
+decoupled heat rates or a physical strengthening of viscosity: F1.13 records
+the exact compensation by the transformed derivative. The frame and
 coefficients vary, their derivatives remain in the divergence-form operator,
 and Eulerian viscosity is still isotropic. A proposed lag mechanism must
 therefore specify the orientation of the active variation relative to the
