@@ -7358,7 +7358,7 @@ Suppose some \(S>0\), \(\Lambda\ge1\), \(\rho>0\), and interval \(J\) obey
 \qquad
 \left|
 \left\{t\in J:
-\sup_{s\in[S/\Lambda,S]}\Phi(s,t)\ge C_R
+\sup_{s\in[S/\Lambda,S]}\Phi(s,t)>C_R
 \right\}
 \right|
 \ge\rho\frac{S^2}{\nu}.
