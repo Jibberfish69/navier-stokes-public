@@ -28,8 +28,10 @@ field and does not locate the current.
 
 Third live gate result, 2026-07-12: ontology F6.11--F6.12 derives the exact
 signed radial current profile of the same pressure-completed transport.
-Within-shell angular rearrangement, between-shell radial counterflow, and the
-coherent net critical current form a proved nested hierarchy. Its radial
+Angular heterogeneity and cancellation of modal current at a common Fourier
+radius, between-radius radial counterflow, and the coherent net critical
+current form a proved nested hierarchy. This identifies no spatial
+rearrangement or packet cascade. Its radial
 positive action has datum-finite base mass, and an infinite terminal doubling
 ladder forces its first moment beyond every fixed frequency. Viscosity lowers
 the whole-state mean frequency, while explicit smooth same-solution data prove
@@ -45,12 +47,14 @@ or route bookkeeping as control of critical growth.
 Fourth live gate result, 2026-07-12: Cycle 034 installs ontology F1.9,
 F5.7, and F5.8. Critical pair height has bounded radial density and at least
 half of it occupies a positive-width material-pair separation annulus at every
-smooth time. The exact core--annulus stress identity and the heat clock type
+smooth time. That annulus ranges over all centers and directions and is not a
+spatial collar. The exact core--annulus stress identity and the heat clock type
 the source-centered and later/displaced response problems without assigning a
 delay to pressure. Crest--trough steepness has quadratic whole-field viscous
 cost, while coherent pointwise height adds linearly. Exact anisotropic shears
 show both that energy and enstrophy alone cannot bound a coherent crest and
-that the critical viscous moment detects the pileup and damps it when nonlinear
+that the critical viscous moment detects the displayed shear pileup and damps
+it when nonlinear
 production is absent. Fourier phase alignment alone leaves the global critical
 height unchanged. Gold therefore needs an exact same-history bridge from local
 coherence to critical production together with a datum-finite
