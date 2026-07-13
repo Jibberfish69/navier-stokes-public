@@ -4347,9 +4347,10 @@ The inherited term carries the exact terminal-centering mismatch
 =S_H(s)+(m(s)-m_T)^2R(s).
 \]
 
-Pairing with any terminal covector gives a signed backward detector on the
-same pressure-completed source history.  Every nonzero source-generated
-terminal shape read therefore has nonzero signed incidence at earlier times.
+Pairing with any chosen terminal covector gives a signed backward detector on
+the same pressure-completed source history. If that covector has nonzero
+pairing with the source-generated terminal component, the corresponding
+integrated earlier signed pairing is nonzero.
 This is detector-relative Eulerian ancestry.  Its terminal center and detector
 are future-fitted, and the formula distributes one terminal read across a
 continuum of earlier source points.  A material parent, a unique first
