@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 060.
+**Current promoted checkpoint:** Cycle 061.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -8893,6 +8893,213 @@ No source sign, maximum principle for \(\mathfrak M\), datum source bound,
 synchronization, response-time law, packet, annulus, material carrier,
 localization, strict Gold reduction, Gold closure, or Silver exit follows.
 
+### F7.29 The vorticity/all-chord weight gap is an inverse affine-validity scale of the same field
+
+Cycle 060 exposes two native weights inside one participant.  Vorticity
+selection uses
+
+\[
+h=|\omega|^2,
+\]
+
+while normalized all-chord turning is controlled with
+
+\[
+\tau=\operatorname{tr}\mathsf T_u.
+\]
+
+Their exact comparison coordinate is
+
+\[
+\boxed{
+\chi_{\omega/\tau}=\frac{|\omega|^2}{\tau}.
+}
+\]
+
+For every nonconstant smooth field on the all-chord surface, \(\tau>0\) at
+every finite point.  Hence \(\chi_{\omega/\tau}\) is a global smooth
+nonnegative dependent coordinate, zero at vorticity zeros.  It is not a ratio
+of separately owned quantities.  In fact,
+
+\[
+\boxed{
+\int\tau\chi_{\omega/\tau}\,dx=K,
+\qquad
+\int\tau\,dx=4\mathcal H_{1/2},
+\qquad
+\nu\int_0^T\!\int\tau\chi_{\omega/\tau}\,dx\,dt
+\le\mathcal E_0.
+}
+\]
+
+Thus \(\chi_{\omega/\tau}\) is exactly the inverse-length reweighting from
+native all-chord incidence to native vorticity selection.
+
+Let
+
+\[
+\mathcal L=D_t-\nu\Delta,
+\qquad
+\mathcal F_h
+=2\omega\cdot S\omega-2\nu|\nabla\omega|^2,
+\qquad
+\mathcal F_\tau=q-2\nu g.
+\]
+
+The quotient has the exact VPI evolution
+
+\[
+\boxed{
+\left(\mathcal L-2\nu\nabla\log\tau\cdot\nabla\right)
+\chi_{\omega/\tau}
+=\frac{\mathcal F_h-\chi_{\omega/\tau}\mathcal F_\tau}{\tau}.
+}
+\]
+
+The drift is induced by normalization; it is not an independently moving
+material component.  The convex mismatch moment
+
+\[
+J_{\omega/\tau}
+=\int\tau\chi_{\omega/\tau}^2dx
+=\int\frac{|\omega|^4}{\tau}dx
+\ge\frac{K^2}{4\mathcal H_{1/2}}
+\]
+
+obeys
+
+\[
+\boxed{
+J_{\omega/\tau}'
++2\nu\int\tau|\nabla\chi_{\omega/\tau}|^2dx
+=\int\left(
+2\chi_{\omega/\tau}\mathcal F_h
+-\chi_{\omega/\tau}^2\mathcal F_\tau
+\right)dx.
+}
+\]
+
+This source has no universal sign or proved datum upper bound.
+
+On decaying \(\mathbb R^3\), the weight gap has a direct spatial meaning.
+At a center \(z\), let
+
+\[
+A=\nabla u(z),
+\qquad
+H_R(z)=\sup_{x\in B_R(z)}|\nabla^2u(x)|_F.
+\]
+
+The positive short-chord part of the exact all-chord integral, Taylor's
+theorem, and the spherical second moment give
+
+\[
+\boxed{
+\tau(z)
+\ge\frac{R}{3\pi}
+\left(2|A|_F^2-H_R(z)^2R^2\right).
+}
+\]
+
+Consequently,
+
+\[
+RH_R(z)\le|A|_F
+\quad\Longrightarrow\quad
+\boxed{
+\tau(z)\ge\frac{R}{3\pi}|A|_F^2,
+\qquad
+\chi_{\omega/\tau}(z)\le\frac{6\pi}{R}.
+}
+\]
+
+The all-chord quantity remains nonlocal: the proof uses its short-chord
+portion without replacing the complete integral.  The first-order limit
+
+\[
+R^{-1}\mathsf T_{u,<R}
+\longrightarrow
+\frac4{15\pi}\left(|A|_F^2I+2A^TA\right),
+\qquad
+R^{-1}\tau_{<R}
+\longrightarrow\frac4{3\pi}|A|_F^2
+\]
+
+also shows why a finite radius is indispensable.  Infinitesimal chords
+reproduce the local jet but carry only \(O(R)\) of the complete all-separation
+incidence.
+
+Combining the affine-radius bound with F7.17 gives the conditional native
+weight bridge
+
+\[
+\boxed{
+|\omega|^2|\nabla\Pi|_F^2
+\le\frac{24\pi}{R}(1-|\Pi|_F^2)g
+\le\frac{24\pi}{R}g
+}
+\]
+
+whenever \(RH_R\le|\nabla u(z)|_F\).  Therefore a large
+vorticity/all-chord mismatch is not free: it certifies that the same field's
+first jet loses affine validity on a shorter distance.  The burden is handed
+to the next derivative rung, not to a separately owned pressure or viscosity
+mechanism.
+
+Fixed energy and fixed viscosity do not provide a uniform positive radius.
+A genuine compact solenoidal affine-plus-remote datum has
+
+\[
+0<\int|\omega|^2|\nabla\Pi|_F^2dx<\infty,
+\qquad
+0<\int\tau|\nabla\Pi|_F^2dx<\infty.
+\]
+
+For the exact fixed-energy, fixed-target-viscosity family
+
+\[
+u_A(x,t)=A^3v^{\nu/A}(A^2x,A^5t),
+\]
+
+one has
+
+\[
+\chi_{\omega/\tau,A}=A^2\chi_{\omega/\tau},
+\qquad
+\frac{
+\int|\omega_A|^2|\nabla\Pi_A|_F^2dx
+}{
+\int\tau_A|\nabla\Pi_A|_F^2dx
+}
+=A^2
+\frac{
+\int|\omega|^2|\nabla\Pi|_F^2dx
+}{
+\int\tau|\nabla\Pi|_F^2dx
+},
+\qquad
+R_A=A^{-2}R.
+\]
+
+The scaling of \(6\pi/R_A\) exactly matches the scaling of
+\(\chi_{\omega/\tau,A}\).  This refutes every
+\((\mathcal E_0,\nu)\)-only pointwise comparison
+\(|\omega|^2\le C\tau\), every corresponding static or unnormalized
+time-integrated linear deweighting, and an energy-only spacetime upper bound
+for \(J_{\omega/\tau}\) across data.  It does not refute a scale-normalized
+or nonlinear estimate, a theorem using stronger full-datum norms, or a
+source-, recurrence-, or critical-rise-coupled theorem on one original
+history.
+
+The physical return is conditional but exact.  Where the same velocity field
+keeps one affine first-jet pose across \(R\), its own short chords necessarily
+carry enough nonlocal incidence to register its local spin.  If the ratio is
+larger, that pose must break before \(R\).  This is instantaneous geometry,
+not a persistence theorem.  It supplies no material carrier, packet, core,
+annulus, propagation speed, viscous response-time band, pressure sign,
+recurrence, critical-rise placement, strict Gold reduction, Gold closure, or
+Silver exit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -8910,6 +9117,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-061-all-chord-vorticity-affine-radius-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-060-weighted-readout-residual-evolution-20260713.md`
 - `ontology-participation-deepening-20260711.md`
 - `theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md`, Section 11 Cycle 036 incidence audit
