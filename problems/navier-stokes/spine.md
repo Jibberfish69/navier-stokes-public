@@ -997,6 +997,62 @@ one-history theorem coupling the complete normalized-rate source to the
 enstrophy--palinstrophy ladder, or another datum-finite direct bound. No
 packet, material carrier, cascade, Gold closure, or Silver exit is installed.
 
+Cycle 058 makes the first exact same-strain contact between the critical-rate
+and enstrophy ladders. Where \(\omega\ne0\), let
+
+\[
+\Theta_{\omega,\perp}
+=\frac12(I-\xi\otimes\xi),
+\qquad
+\mathfrak m_{\omega,\Pi}
+=S:(\Pi-\Theta_{\omega,\perp}).
+\]
+
+Because \(S\) is trace free,
+
+\[
+r=\frac{\alpha_\omega}{2}-\mathfrak m_{\omega,\Pi},
+\qquad
+Z=2\int|\omega|^2r\,dx
++2\int|\omega|^2\mathfrak m_{\omega,\Pi}\,dx.
+\]
+
+Thus vorticity stretching and critical compression are not separate owners:
+they are different orientation-weighted readings of the same instantaneous
+strain. Incompressibility forces the transverse mean compression paired with
+axial stretch, but the actual nonlocal all-chord orientation need not read
+that transverse mean. The signed contraction
+\(\mathfrak m_{\omega,\Pi}\) is the exact residual.
+
+On every interval \(J\) with \(K(b)=2K(a)>0\),
+
+\[
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}\,dt
+\le
+\frac8{\pi^4\nu^3}\int_JI^2dt
++2\int_J\frac1K\int|\omega|^2
+[\mathfrak m_{\omega,\Pi}]_+\,dx\,dt.
+\]
+
+Consequently an unbounded dyadic enstrophy ladder forces divergence of the
+full-time rate-square action or of the positive readout-residual action. This
+is a scale-critical necessary alternative, not a bound on either action.
+The residual can be large with zero vortex stretching by cancellation with
+negative \(r\), and zero residual does not identify the two orientation
+tensors. Moreover the rate-square term is not restricted to the
+critical-height rising set, and critical work and enstrophy use different
+weights. The planar Cycle 006 separation therefore survives exactly.
+
+The physical return stops there. \(\Theta_{\omega,\perp}\) is a comparison
+orientation, not a spatial transverse region, and \(\Pi\) is nonlocal.
+Nothing here proves a collar, vortex annulus, packet, material carrier,
+co-location, causal transfer, pressure sign, entrance synchronization, Gold
+closure, or Silver exit. The next dynamic question is whether the complete
+VPI evolution datum-controls this signed readout residual or forces its late
+positive action onto the same critical-height rising history; it may also be
+bypassed by another direct square-rate theorem.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
