@@ -450,6 +450,72 @@ integrable terminal spikes. The constants or an equivalent recurrence law
 are not proved. The result describes neither viscosity lag nor packet, wave,
 annular, or persistent-carrier motion.
 
+Cycle 050 opens the complete trace-free source without separating its VPI
+rows. With
+
+\[
+\mathsf H_p^\circ
+=\nabla^2p-\frac{\Delta p}{3}I,
+\qquad
+V_{S,\Pi}=S^2:\Pi-r^2\ge0,
+\]
+
+the local reaction in F7.16 is exactly
+
+\[
+\mathsf B:\Pi
+=r^2+V_{S,\Pi}
+-\frac13|S|^2
+-\frac1{12}|\omega|^2
++\frac14\omega\cdot\Pi\omega
++\mathsf H_p^\circ:\Pi^\circ.
+\]
+
+The apparent \(+r^2\) self-compression is therefore never a separately owned
+amplifier. Incompressibility simultaneously forces the pressure-trace
+subtraction, rotation shares that trace correction, and the nonlocal
+trace-free pressure completion remains signed. If \(\Pi=I/3\), this entire
+local reaction is zero. If \(\Pi\) is compression-aligned so that the variance
+term is small, the forced pressure trace removes at least half of the bare
+\(r^2\) row before the other signed VPI rows are read. Large variance instead
+means strain and all-chord orientation are not acting as one eigen-aligned
+direction.
+
+This exact split still does not close the rate. The scale-free Sobolev
+estimate absorbs the cubic reaction only as
+
+\[
+\int r_+^3
+\le\varepsilon\nu\int|\nabla r_+|^2
++C\varepsilon^{-3}\nu^{-3}I^3,
+\]
+
+which is the terminal-spike exponent already shown insufficient in Cycle 049.
+No component sign can be promoted to a full-source bound.
+
+Cycle 050 also reclassifies the high-rate remote copies from F7.17. Their
+active scale is \(\ell=\delta\), amplitude is
+\(a=\delta^{1-\alpha}\), and
+
+\[
+\operatorname{Re}_\ell
+=\frac{a\ell}{\nu}
+=\frac{r\ell^2}{\nu}
+=\frac{\delta^{2-\alpha}}{\nu}
+\longrightarrow0.
+\]
+
+Their normalized rate is large because a small amplitude changes across an
+even smaller distance; their viscous heat clock is nevertheless faster than
+their strain clock. They refute static incidence-weight inversion but do not
+represent a self-sustaining nonlinear threat. An order-one event at shrinking
+\(\ell\) instead needs \(a\gtrsim\nu/\ell\) and
+\(r\gtrsim\nu/\ell^2\). Its kinetic energy can still scale like
+\(\nu^2\ell\), so finite energy alone supplies no event quantum. A terminal
+history must therefore repeatedly rebuild order-one-Reynolds compressive
+alignment through the surrounding same field. No theorem yet bounds that
+recurrence from the datum.
+
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
 to \(r\),
