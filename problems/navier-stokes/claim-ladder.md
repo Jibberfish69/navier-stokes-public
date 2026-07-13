@@ -1114,6 +1114,88 @@ signed critical work or evidence of Gold rise. This is a passive-geometry
 ontology fact and route obstruction, not a strict Gold reduction, closure, or
 Silver exit.
 
+Twenty-ninth live gate result, 2026-07-13: Cycle 066 installs F7.34. Cycle
+013 already proved the global spectral mechanism: unequal heat rates reweight
+pre-existing scale--direction content. Cycle 066 supplies its exact local
+all-chord and material-column realization. For
+
+\[
+u=e_1\left[
+Ae^{-\nu m^2t}\cos(mx_2)
++Be^{-\nu n^2t}\cos(nx_3)
+\right],
+\qquad 1\le m<n,
+\]
+
+convection, the pressure source and gradient, vortex stretching, \(r\), and
+\(P_H\) vanish. On the material column
+\(x_2=\pi/(2m),x_3=0\), put
+
+\[
+\alpha=\frac{3mA^2}{8}e^{-2\nu m^2t},
+\qquad
+\beta=\frac{nB^2}{8}e^{-2\nu n^2t},
+\qquad
+\theta=\frac{\alpha}{\alpha+\beta}.
+\]
+
+Then
+
+\[
+\boxed{
+\Pi
+=\frac14I
++\frac14\left[
+\theta e_2\otimes e_2
++(1-\theta)e_3\otimes e_3
+\right],
+}
+\]
+
+and
+
+\[
+\boxed{
+\theta'=2\nu(n^2-m^2)\theta(1-\theta),
+\qquad
+D_t\Pi
+=\frac{\theta'}4(e_2\otimes e_2-e_3\otimes e_3)\ne0.
+}
+\]
+
+This is passive weight redistribution in a simultaneously diagonal fixed
+basis, not rotation of a velocity or uniquely defined eigenframe. Moreover,
+
+\[
+\int_0^\infty|D_t\Pi|_Fdt
+=\frac{\sqrt2}{4}(1-\theta(0)).
+\]
+
+With \(3mA^2=nB^2\) and fixed normalized kinetic energy \(E_0\), choose
+
+\[
+A^2=\frac{4E_0n}{n+3m},
+\qquad
+B^2=\frac{12E_0m}{n+3m}.
+\]
+
+Then the total variation is \(\sqrt2/8\), while
+
+\[
+|D_t\Pi(0)|_F
+=\frac{\nu(n^2-m^2)}{4\sqrt2}\longrightarrow\infty.
+\]
+
+The fine mode's kinetic energy and total dissipated energy vanish across the
+family, while its initial viscous energy-loss rate diverges and its heat clock
+shrinks like \(1/(\nu n^2)\). Thus \(D_t\Pi\) and its raw initial rate are
+not nonlinear interaction, propagation speed, signed critical work, or Gold
+rise. The family refutes only an initial-time \(E_0,\nu\)-only pointwise
+ceiling for this normalized nonlocal readout. It does not refute per-datum,
+fixed-positive-time, higher-norm, Gold-rise-restricted, signed-coupled, or
+alternate-route control and gives no strict reduction, closure, or Silver
+exit.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
