@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 067.
+**Current promoted checkpoint:** Cycle 068.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -2662,6 +2662,21 @@ nonlinear transfer.
 
 No universal direction of interscale transfer follows from these identities.
 
+Cycle 068 fixes the physical order inside the critical multiplier balance.
+Motion of a nonlocal orientation frame, positive signed work at one point,
+positive global nonlinear work, and positive net critical-height production
+are four different events. The first two can disappear under contraction or
+spatial cancellation; the third can be smaller than the simultaneous viscous
+row. Only
+
+\[
+P_H>\nu\|\Lambda^{3/2}u\|_2^2
+\]
+
+is actual critical-height rise. Even that inequality is an instantaneous
+event, not a datum-finite Gold bound: F7.36 realizes it inside a globally
+regular two-dimensional participant.
+
 ### F6.4 Rising critical height forces the current-producing scales to escape
 
 Let
@@ -4479,6 +4494,15 @@ the active signed current in F6.10 still sees that growth.  This is a
 same-fluid pressure-completed Navier--Stokes counterexample, not a reduced
 model or a freely prescribed source history.
 
+Cycle 068 places this same participant in the physical all-chord geometry of
+F7.5. After rescaling the displayed datum, its positive global critical
+current is exactly \(\int\tau r\,dx\), it can exceed the simultaneous viscous
+critical loss, and its vorticity is never stretched. Thus neither positive
+spectral-shape variation nor vortex stretching is necessary for a finite
+critical-height upcrossing. The missing Gold object is cumulative control of
+the same-history arrangement of upcrossings, not another instantaneous label
+for this one.
+
 ### F6.19 Critical height rises through energy-centroid lift faster than viscous depletion
 
 Let
@@ -5151,6 +5175,15 @@ by \([\Pi,D_t\Pi]\ne0\) with a uniform principal spectral gap, can remain in
 the same null block. Rotation is therefore not the missing production
 relation. The exact signed simultaneous contraction is still the event that
 matters.
+
+Cycle 068 proves the resulting strict gate order. The ABC participant has
+\(r>0\) at a point but \(P_H=\int\tau r=0\). A pure-two-dimensional triad has
+\(P_H>0\) below the viscous threshold and \(P_H>\nu D\) above it. Reversing
+the triad datum preserves \(\mathsf T_u,\tau,\Pi\), and every quadratic state
+size at the compared initial snapshots, while it reverses \(S,r\), and
+\(P_H\). Hence orientation motion, local signed overlap, global signed
+coherence, and viscous surplus are distinct; the sign belongs to the
+simultaneous strain--all-chord relation, not to \(\Pi\) alone.
 
 ### F7.6 Vortex stretching is a nonlocal all-chord orientation relation
 
