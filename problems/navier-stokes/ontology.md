@@ -1832,6 +1832,13 @@ history exists. The theorem is stated on \(\mathbb R^3\) at the displayed
 datum and energy-solution scope; no periodic or bounded-domain extension is
 asserted here.
 
+F6.22 supplies the exact physical consequence on the smooth preterminal
+history. Full terminal critical-height divergence cannot be supported by
+vorticity stretching confined to an earlier interval: every terminal tail
+must contain infinite positive global stretching and normalized alignment
+action. This is a necessary mechanism filter, not a proof that a singular
+history exists or a datum bound preventing one.
+
 ### F4.5 Vorticity magnitude and direction split one viscous derivative response
 
 On the smooth set where \(\rho=|\omega|>0\), write
@@ -2580,6 +2587,13 @@ The term \(\omega\cdot S\omega\) is three-dimensional local
 vorticity-magnitude amplification or suppression, and its spatial integral is
 global enstrophy production. It is not net vector-vorticity birth and is not,
 by itself, the kinetic-energy flux across a selected scale.
+
+Here “three-dimensional local” names the vorticity-stretching term absent from
+pure two-dimensional planar flow; it does not require dependence on all three
+spatial coordinates. Exact globally regular 2D3C histories can have positive
+global production. F6.22 proves that an unbounded critical-height ladder must
+renew positive production on every terminal tail, while F7.36 proves that a
+finite upcrossing need not contain it.
 
 ### F6.2 Strain and vorticity share one global signed production account
 
@@ -4694,6 +4708,15 @@ integral is itself an alternative regularity criterion.  This coordinate
 leaves open whether one fixed history can sustain centroid acceleration above
 the viscous rate through infinitely many critical-height records.  Instantaneous
 spectral width alone does not decide that question.
+
+F6.22 identifies the exact lower-order headroom that this paragraph leaves
+implicit. The ratio
+\(\Sigma_H=E^\circ\mathcal Z/H^2\) is the squared RMS-to-mean Fourier-radius
+ratio. A finite upcrossing can draw down that global radial-moment headroom
+without increasing enstrophy, but a fixed state supports only finitely many
+consecutive height doublings with zero positive global stretching production.
+This is phase-blind global spectral information and supplies no spatial
+carrier or causal frequency motion.
 
 ### F6.20 Finite energy forces fast centroid lift and absolute off-shell width at every rising time
 
