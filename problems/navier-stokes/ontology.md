@@ -6846,8 +6846,11 @@ c_0=\left(\frac29\right)^{3/4}.
 }
 \]
 
-For every \(0<\eta<1\), some threshold \(\alpha\) approaches the displayed
-supremum. Setting \(s=(\nu/\alpha)^{1/2}\) and
+For every \(0<\eta<1\), if \(M(f)<\infty\) choose \(\alpha\) with
+\(\alpha|\{f>\alpha\}|^{2/3}\ge\eta M(f)\). If \(M(f)=\infty\), choose
+\(\alpha\) so that the same quantity exceeds the finite target
+\(\eta c_0\nu\mathcal R_{6,+}\). Setting
+\(s=(\nu/\alpha)^{1/2}\) and
 
 \[
 E_s(t):=\left\{x:r_+(x,t)>\frac{\nu}{s^2}\right\}
@@ -6893,12 +6896,14 @@ The exact balance and dual estimate are
 \le S_3^{-1/2}\sqrt X\,\|G\|_{6/5}.
 \]
 
-When \(q>0\), the signed dual alignment
+When \(Xq>0\), the signed dual alignment
 
 \[
 a_{-1}:=
 \frac{N}{\sqrt X\,q}\in[-1,1]
 \]
+
+is well defined; set \(a_{-1}=0\) when \(Xq=0\). It
 
 rewrites the joined balance as
 
