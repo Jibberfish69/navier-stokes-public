@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 058.
+**Current promoted checkpoint:** Cycle 059.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -1803,6 +1803,73 @@ is a necessary possible-history fact, not a mechanism proving that such a
 history exists. The theorem is stated on \(\mathbb R^3\) at the displayed
 datum and energy-solution scope; no periodic or bounded-domain extension is
 asserted here.
+
+### F4.5 Vorticity magnitude and direction split one viscous derivative response
+
+On the smooth set where \(\rho=|\omega|>0\), write
+
+\[
+\omega=\rho\xi,
+\qquad
+P_\omega=\xi\otimes\xi,
+\qquad
+Q_\omega=I-P_\omega,
+\]
+
+and define
+
+\[
+\alpha_\omega=\xi\cdot S\xi,
+\qquad
+b=Q_\omega S\xi.
+\]
+
+The parallel and perpendicular projections of the same vorticity equation in
+F4.1 give
+
+\[
+\boxed{
+(D_t-\nu\Delta)\rho
+=\alpha_\omega\rho-\nu\rho|\nabla\xi|^2,
+}
+\]
+
+\[
+\boxed{
+D_t\xi
+=b+2\nu\nabla\log\rho\cdot\nabla\xi
++\nu Q_\omega\Delta\xi.
+}
+\]
+
+Equivalently, \(D_t\xi=b+\nu R_\xi\), where the complete viscous direction
+term \(R_\xi\) is tangent to the unit sphere.  The spatial derivative splits
+orthogonally:
+
+\[
+|\nabla\omega|^2
+=|\nabla\rho|^2+\rho^2|\nabla\xi|^2.
+\]
+
+Consequently the global enstrophy balance can be read as
+
+\[
+\boxed{
+\frac12\frac d{dt}\|\omega\|_2^2
++\nu\int
+\left(|\nabla\rho|^2+\rho^2|\nabla\xi|^2\right)dx
+=\int\alpha_\omega\rho^2dx.
+}
+\]
+
+Thus \(\alpha_\omega\) changes vorticity magnitude, while \(b\) is the
+strain-driven part of the instantaneous vorticity-direction turn. Viscosity
+simultaneously acts on magnitude variation and direction variation; \(b\) is
+not the complete direction law and neither viscous term is a separately owned
+fluid response. Pressure curls out of the vector vorticity equation, but the
+strain and its future direction remain part of the same pressure-completed
+history. At \(\omega=0\), \(\xi\), \(b\), and these polar formulas are
+undefined; the vector equation in F4.1 remains the governing fact.
 
 ## F5. Energy and irreversibility: global dissipation and local exchange
 
@@ -8307,7 +8374,10 @@ positive strain-contracted readout residual. The retained
 
 The residual is not an independent force, owner, conservation law,
 dissipation, orientation distance, or Gold currency. Its positive part
-forgets cancellation with \(r\), and no datum-finite bound on it is proved.
+forgets cancellation with \(r\). No datum-finite bound on the
+vorticity-selected action \(\mathcal M_J\) is proved here; F7.27 records the
+distinct raw unweighted \(L^2_{t,x}\) bound that it does inherit from the one
+strain-dissipation history.
 The \(I^2\) integral above is over the entire enstrophy-doubling interval,
 not the critical-height rising set \(G\) required by F7.15. Critical
 production is weighted by the all-chord density \(\tau\), whereas the source
