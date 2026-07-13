@@ -9114,7 +9114,7 @@ eigenframe control, material carrier, packet, core, annulus, propagation
 speed, viscous response-time band, pressure sign, recurrence, critical-rise
 placement, strict Gold reduction, Gold closure, or Silver exit.
 
-### F7.30 Short integrated chord-affinity radii have a quadratic vorticity tail, and the mismatch moment is enstrophy-palinstrophy-controlled
+### F7.30 The vorticity-square lower tail of the integrated chord-affinity radius is quadratic, and the mismatch moment is enstrophy-palinstrophy-controlled
 
 Cycle 061 leaves its uniform-Hessian radius conditional.  The same field's
 second derivative supplies a distinct unconditional integrated certificate.
@@ -9172,7 +9172,7 @@ R\mathcal C_R(z)\le\pi h(z)
 
 For a smooth decaying field this radius is measurable, positive, and finite on
 \(\{h>0\}\).  The integrated short-chord theorem gives the unconditional
-adaptive bridge
+field-defined threshold bridge
 
 \[
 \boxed{
