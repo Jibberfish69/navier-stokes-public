@@ -2362,8 +2362,9 @@ Moreover,
 
 Thus the escaping interactions carry a quantitatively active critical tail;
 an arbitrarily fine but critically negligible passive tail cannot produce the
-terminal current. The estimate exposes critical dissipation, not a finite
-cumulative upper budget for it.
+terminal current. The high-pass tail is a global Fourier readout; no spatial
+packet, material cohort, or travelling energy lump is identified. The estimate
+exposes critical dissipation, not a finite cumulative upper bound for it.
 
 ### F6.9 Fixed energy permits arbitrarily large short-time fine current
 
@@ -2424,9 +2425,10 @@ fine current are both of order \(M\), while
 
 Hence fixed kinetic energy, its dissipated amount, and the finite \(H^2\)
 occupancy budget permit unbounded signed current at an increasingly fine
-scale. Critical dissipation records the growing cost. This is a varying-data,
+scale. The critical-dissipation quantity grows. This is a varying-data,
 short-history possibility theorem. It does not supply a terminal history for
-one datum and does not defeat a same-history VPI or material restriction.
+one datum, describe one participant shrinking through time, or defeat a
+same-history VPI or material restriction.
 
 ### F6.10 Critical growth uses the spectral-shape direction actually activated by the same field
 
@@ -2484,6 +2486,9 @@ S_H
 =D-\frac{K^2}{R}
 \ge0.
 \]
+
+This “shape direction” is global Hilbert/Fourier geometry. It is not a spatial
+shape deformation, material strain, localized packet, or carrier.
 
 Equivalently, for the critical spectral probability measure
 
