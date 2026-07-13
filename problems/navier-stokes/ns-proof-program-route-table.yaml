@@ -26,13 +26,14 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_affine_radius_weight_bridge_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_affine_break_radius_palinstrophy_tail_ontology_gate_spin
     effect: >-
-      Cycle 061 proves the conditional affine-radius native-weight bridge and
-      refutes an energy-only radius floor or static linear deweighting.
-      One-history affine-radius/source control, normalized residual action, and
-      Gold-time placement remain open. No smaller closing theorem, Gold
-      closure, or Silver Part/Field exit follows.
+      Cycle 062 defines the unconditional adaptive same-field affine-break
+      radius, proves its quadratic vorticity tail, and bounds J_{omega/tau} by
+      24 pi sqrt(K D_2). Datum-time control of D_2 and G_tau=int g^2/tau,
+      Gold-time placement, and a direct critical-height consequence remain
+      open. No smaller closing theorem, Gold closure, or Silver Part/Field exit
+      follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
