@@ -90,7 +90,8 @@ older cycle files are evidence, not competing authority.
 | 055 | Assume the same participant develops a uniform order-one sequence of F7.21 threshold slices with times tending to \(T\) and selectors tending to zero; ask whether their backward heat windows can repeatedly count one episode. | Terminal-interval disjoint-subsequence lemma, residence/rebuild divergence dichotomy, selector-free finite-band dwell theorem, and a short-dwell scalar pulse stack on decaying \(\mathbb R^3\). | Shrinking heat windows approaching one terminal time cannot all reuse one earlier time interval: residence yields divergent Gold action on a disjoint subfamily, while rebuilding yields individually unbounded complete-source dual action. Threshold-band dwell for a positive heat-time fraction is sufficient for an event without any spatial-component persistence. | The uniform order-one shrinking-selector ladder is not extracted from a Gold threat; finite energy gives only an upper dwell bound. No Fourier band, component-size band, packet, material carrier, datum action bound, Gold closure, or Silver exit follows; the scalar stack is not an NS history. | Ontology advance, removal of a conditional no-recount burden, and exact entrance-target refinement. |
 | 056 | Let one participant enter successively larger total squared positive-rate heights and ask which value population carries each entrance and how the joined VPI source creates it. | Disjoint first-entrance \(q^2\)-action law, low-\(\mathcal R_{6,+}\) heat-clock/source bounds, weak-threshold mass-capture theorem, exhaustive four-branch value-scale classification, and two scalar obstruction families on decaying \(\mathbb R^3\). | Every doubled total rate height requires at least \(\nu\) times that height of complete-source dual action. Low rate Reynolds means a faster direct heat clock and a more intense simultaneous source, not viscous lag. With rate Reynolds bounded below, the weak-threshold population can move to higher rate levels, stay in a fixed band, or move to vanishing rate levels with diverging total superlevel volume. | The value-scale branches identify no spatial component, expanding region, packet, material carrier, Fourier migration, pressure sign, or separate viscous cause. Scalar histories prove the global coordinates do not force selector shrinkage but are not NS realizations. No datum source bound, Gold closure, or Silver exit follows. | Ontology advance, exact entrance classification, and refutation of the universal shrinking-selector target without strict Gold reduction. |
 | 057 | In the same finite-energy participant, ask whether an unbounded total normalized-compression rate—especially the vanishing-threshold, diverging-volume branch—can remain a broad slow deformation. | Exact \(I\)-to-enstrophy/palinstrophy and moving-cutoff Fourier bounds; two-sided enstrophy-rise clock; dyadic first-entrance speed, energy-loss, high-tail, palinstrophy, and anisotropic-stretching laws; and a fixed-energy many-remote-cell NS snapshot family on decaying \(\mathbb R^3\). | Weak selected rate values can coexist with an increasingly fine whole-field derivative tier. On one history, every late enstrophy doubling occupies vanishing time and loses vanishing raw kinetic energy, while its integrated squared vorticity-gradient and same-field directional stretching diverge. Each finite level has a real minimum response time, but that minimum collapses quadratically and its minimum energy price is dyadically summable. | An \(I\)-entrance is not synchronized with a \(K\)-entrance. The high Fourier tier is not placed on the rate superlevel union and proves no packet, annulus, connected region, material carrier, ripple, phase coherence, cascade, pressure sign, or separate viscous owner. The many-cell family varies the datum. No datum palinstrophy/source bound, Gold closure, or Silver exit follows. | Ontology advance, exact derivative-tower anatomy, and refutation of an instantaneous VPI exclusion of branch 4 without strict Gold reduction. |
-| 058 | At one point of the same participant, compare the strain read along the vorticity axis with the strain read by the nonlocal all-chord orientation. | Exact normalized-transverse trace identity, signed strain-contracted readout residual, enstrophy-source decomposition, and scale-critical residual-or-rate-square alternative on every \(K\)-doubling interval. | Incompressibility makes positive axial vortex stretch carry mean transverse compression at the same instant. An enstrophy doubling must expose that strain through positive critical compression or accumulate a positive difference between the actual all-chord reading and the normalized transverse reading, while viscosity retains its palinstrophy cost. | The residual is not an orientation distance, force, owner, evolution law, datum budget, or Gold currency. Full-interval \(I^2\) is not \(G\)-restricted; the \(\tau\) and \(|\omega|^2\) weights are not compared. No entrance synchronization, localization, annulus, packet, carrier, causal transfer, pressure sign, Gold closure, or Silver exit follows. | Ontology bridge and exact escape-channel anatomy without strict Gold reduction. |
+| 058 | At one point of the same participant, compare the strain read along the vorticity axis with the strain read by the nonlocal all-chord orientation. | Exact normalized-transverse trace identity, signed strain-contracted readout residual, enstrophy-source decomposition, and scale-critical residual-or-rate-square alternative on every \(K\)-doubling interval. | Incompressibility makes positive axial vortex stretch carry mean transverse compression at the same instant. An enstrophy doubling must expose that strain through positive critical compression or accumulate a positive difference between the actual all-chord reading and the normalized transverse reading, while viscosity retains its palinstrophy cost. | The residual is not an orientation distance, force, owner, evolution law, or Gold currency. Its vorticity-selected positive action has no proved datum bound. Full-interval \(I^2\) is not \(G\)-restricted; the \(\tau\) and \(|\omega|^2\) weights are not compared. No entrance synchronization, localization, annulus, packet, carrier, causal transfer, pressure sign, Gold closure, or Silver exit follows. | Ontology bridge and exact escape-channel anatomy without strict Gold reduction. |
+| 059 | At the same point and instant, resolve how the actual nonlocal all-chord orientation can differ from the incompressibility-forced transverse reading about the vorticity axis, while retaining the same field's viscous direction turn. | Exact axial/cross/transverse vorticity-frame normal form, sharp positive-semidefinite orientation constraints, algebraic cancellation countertest, polar-vorticity law, one-energy raw residual budget, and combined rate-square/residual-square lower action on every \(K\)-doubling interval. | The discrepancy has exactly three orientation coordinates: axial chord incidence, axial--transverse chord covariance, and transverse quadrupole. They cancel inside one signed readout and share one finite raw strain exposure. An unbounded enstrophy ladder nevertheless forces the critical-rate height or the joined residual height to develop non-square-integrable temporal bursts. | The three coordinates are not mechanisms, owners, spatial axes/planes, or three costs; \([\mathfrak m]_+\) is not the sum of their positive parts. The raw budget does not bound vorticity-selected residual action or its square in time. No localization, persistence, causal order, response-time law, weight comparison, Gold closure, or Silver exit follows. | Ontology anatomy and Cycle 058 budget correction; exact square-action obstruction without strict Gold reduction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -1052,6 +1053,67 @@ closure, or Silver exit. The next dynamic question is whether the complete
 VPI evolution datum-controls this signed readout residual or forces its late
 positive action onto the same critical-height rising history; it may also be
 bypassed by another direct square-rate theorem.
+
+Cycle 059 resolves the residual's instantaneous orientation anatomy and
+corrects the last sentence's overbroad budget question. Relative to the
+vorticity axis, the same strain and the normalized nonlocal all-chord tensor
+each split into an axial scalar, a two-component axial--transverse block, and a
+two-component trace-free transverse block. Their exact contraction is
+
+\[
+\mathfrak m_{\omega,\Pi}
+=\frac32\alpha_\omega\pi_\parallel
++2b\cdot\beta_\Pi
++S_\perp^\circ:\Pi_\perp^\circ.
+\]
+
+These are the only three rotation-invariant orientation coordinates about
+\(\xi\). They are not three pieces of fluid or three mechanisms. The first
+records axial chord-direction incidence, the second axial--transverse chord
+covariance, and the third transverse quadrupole. Positive semidefiniteness of
+\(\Pi\) limits their sizes but gives no sign: an explicit positive-definite
+trace-one tensor and trace-free strain family makes any one, any pair, or all
+three cancel. The simultaneous direction law
+
+\[
+D_t\xi=b+\nu R_\xi
+\]
+
+also shows why \(b\) is not an autonomous turning mechanism: it is only the
+strain part of the direction change, with the viscous direction response still
+present in the same participant.
+
+The correction is that the residual does inherit finite raw exposure from the
+single energy history. With
+
+\[
+J_{\mathfrak m}(t)
+=\int_{\{\omega\ne0\}}[\mathfrak m_{\omega,\Pi}]_+^2dx,
+\qquad
+\nu\int_0^T J_{\mathfrak m}dt\le\frac34\mathcal E_0,
+\]
+
+the residual's ordinary-volume spatial \(L^2\) height is integrable in time.
+That is one strain-dissipation consequence, not a new reserve or a bill for
+each block. It does not control either the vorticity-selected residual action
+from Cycle 058 or the square of this height in time. Indeed every enstrophy
+doubling interval obeys
+
+\[
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}dt
+\le\frac{64}{\pi^4\nu^3}
+\int_J\bigl(I^2+J_{\mathfrak m}^2\bigr)dt.
+\]
+
+Therefore an unbounded dyadic enstrophy ladder forces
+\(\int(I^2+J_{\mathfrak m}^2)dt=\infty\), although both first moments are
+datum finite. Physically, finite total raw exposure does not prevent the same
+participant from concentrating that exposure into ever taller, shorter
+temporal bursts. This remains global orientation-and-time anatomy. It gives no
+spatial axis, plane, tube, annulus, packet, material carrier, dynamic
+synchronization, response-time band, pressure sign, \(\tau\)-to-\(|\omega|^2\)
+bridge, Gold closure, or Silver exit.
 
 ## Above-Route Gold/Silver Analogy
 
