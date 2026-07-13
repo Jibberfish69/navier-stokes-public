@@ -595,8 +595,9 @@ Cycle 053 corrects the spatial reading of this result. The pair
 \(\mathcal R_{6,+}\), does force an instantaneous heat-scale superlevel set:
 at every time with \(\mathcal R_{6,+}>0\), some scale \(s\) has
 \(r_+>\nu/s^2\) on total measure at least a universal constant times
-\(\mathcal R_{6,+}^{3/2}s^3\). This is genuine instantaneous spatial
-thickness of the complete rate field. It supplies no location, ball,
+\(\mathcal R_{6,+}^{3/2}s^3\). This is an instantaneous global
+total-superlevel-measure lower bound for the complete rate field. It supplies
+no location, ball,
 connected component, packet, annulus, material carrier, or persistence at one
 scale. In particular, it supplies no fixed-scale heat-interval integrated
 superlevel occupancy. A smooth scalar terminal pulse stack proves that even
@@ -6835,14 +6836,17 @@ The distribution function obeys
 \right\}.
 \]
 
-Splitting the layer-cake formula for \(\|f\|_2^2\) where the two bounds meet
-gives
+When \(0<M(f)<\infty\), splitting the layer-cake formula for \(\|f\|_2^2\)
+where the two bounds meet gives
 
 \[
 \|f\|_2^2
 \le
 \frac92 M(f)^{4/3}\|f\|_6^{2/3}.
 \]
+
+If \(M(f)=\infty\), the lower bound below is immediate; the order-one case
+has \(f\ne0\), hence \(M(f)>0\).
 
 Therefore
 
@@ -6867,7 +6871,7 @@ For every \(0<\eta<1\), if \(M(f)<\infty\) choose \(\alpha\) with
 E_s(t):=\left\{x:r_+(x,t)>\frac{\nu}{s^2}\right\}
 \]
 
-then yields the instantaneous spatial-thickness law
+then yields the instantaneous global total-superlevel-measure law
 
 \[
 \boxed{
@@ -6877,11 +6881,10 @@ then yields the instantaneous spatial-thickness law
 }
 \]
 
-Thus an order-one \(\mathcal R_{6,+}\) cannot be made entirely from a
-measure-zero spike or a norm ratio with no spatial content. At that instant,
-the complete positive compression-rate field occupies order \(s^3\) total
-volume at the heat-scale rate \(\nu/s^2\). The theorem does not place that
-volume in one ball or connected component: \(E_s\) may be arbitrarily
+Thus an order-one \(\mathcal R_{6,+}\) forces, at that instant, total
+superlevel measure at least a universal constant times \(s^3\) at the
+heat-scale rate \(\nu/s^2\). The theorem does not place that set in one ball
+or connected component: \(E_s\) may be arbitrarily
 fragmented, and the selected \(s=s(t)\) may change at every time. A localized
 ball would require an additional non-dichotomy or scale-tightness theorem. An
 F7.19 event at scale \(s\) requires a heat interval \(J\),
@@ -6903,10 +6906,12 @@ Let
 \[
 G=\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r,
 \qquad
-N=\langle f,G\rangle,
-\qquad
-q=\|G\|_{\dot H^{-1}}.
+N=\langle f,G\rangle.
 \]
+
+For the dual formulation below, assume
+\(G(t)\in\dot H^{-1}(\mathbb R^3)\) and put
+\(q=\|G\|_{\dot H^{-1}}<\infty\).
 
 The exact balance and dual estimate are
 
