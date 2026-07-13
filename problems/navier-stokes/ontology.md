@@ -9821,7 +9821,17 @@ S=\frac12(n\otimes a+a\otimes n),
 \boxed{S\omega=0}.
 \]
 
-For a lifted chord \(r=\alpha+bn\), define
+For a lifted chord
+
+\[
+r=\alpha+bn,
+\qquad
+\alpha\in n^\perp,
+\qquad
+b\in\mathbb R,
+\]
+
+define
 
 \[
 \delta_{\alpha,s}f
@@ -9895,7 +9905,7 @@ contraction in the F7.16 pressure-completed normalized-rate source vanishes.
 The spatially varying planar orientation is therefore invisible to critical
 work in this exact class.
 
-The variation is nontrivial. For
+The variation is nontrivial. For \(A\ne0\), let
 
 \[
 u(x,t)=Ae^{-\nu t}e_1(\cos x_2+\cos x_3),
@@ -9947,7 +9957,7 @@ U=e_1(\cos x_2+\cos x_3),
 q_*=\int\tau_U|\nabla\Pi_U|_F^4dx>0,
 \]
 
-and
+and, for \(A\ne0\) and an integer \(N\ge1\),
 
 \[
 u_N(x,t)=Ae^{-\nu N^2t}U(Nx).
