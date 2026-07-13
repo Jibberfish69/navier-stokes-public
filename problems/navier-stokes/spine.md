@@ -74,11 +74,13 @@ pair mass alone. More importantly, the formal WLF pushforward did not already
 prove bounded overlap. WLF.50 declares the ancestry map, WLF.55--WLF.57 add
 same-pulse routing and bounded fibre mass, and WLF.59 needs a genuine
 disintegration kernel; Hilbert orthogonal admission proves none of those
-historical clauses. Cycle 036 therefore recorded an actual joint
-material-history/WLF-readout measure controlling the four defect rows and its
-fibre multiplicity. WLF.60 remains the separate original-data bound for the
-resulting parent mass. Cycle 037 below supersedes the four-row requirement.
-Silver is unchanged.
+historical clauses. Cycle 036 therefore identified, but did not construct, the
+required joint material-history/WLF-readout measure. Same-event support,
+defect control, and bounded fibre multiplicity remain open. WLF.60 is the
+separate original-data bound for the parent mass if that joint measure is
+constructed. Cycle 037 below supersedes only the claim that the four defect
+rows must be paid independently; it does not prove the joint measure. Silver
+is unchanged.
 
 Cycle 037 installs F6.15 and F6.16 and removes the excess burden in that
 Cycle 036 conclusion. Positive elapsed time gives a strict heat loss whose
