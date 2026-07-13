@@ -541,10 +541,10 @@ increase must come through the complete source
 nonlocal pressure, pair redistribution, and viscous reorientation joined.
 Thus viscosity has no delayed arrival: its direct Laplacian row acts
 immediately, while its orientation-changing rows remain signed inside the
-same source. What is not proved is that a dangerous history generates a
-heat-thick event at any spatial scale, or that the datum bounds the positive
-variation remaining after the complete source and direct scalar diffusion are
-recombined.
+same source. What is not proved is that a dangerous history retains an F7.19
+spacetime event at one fixed scale for a positive fraction of its heat time, or
+that the datum bounds the positive variation remaining after the complete
+source and direct scalar diffusion are recombined.
 
 Cycle 052 resolves the part of the response-speed picture that is licensed
 without inventing a packet or separating viscosity from the VPI participant.
@@ -592,7 +592,7 @@ Cycle 053 corrects the spatial reading of this result. The pair
 \((I,\mathcal V_{6,+})\), through the invariant ratio
 \(\mathcal R_{6,+}\), does force an instantaneous heat-scale superlevel set:
 at every time with \(\mathcal R_{6,+}>0\), some scale \(s\) has
-\(r_+>\nu/s^2\) on total measure comparable to
+\(r_+>\nu/s^2\) on total measure at least a universal constant times
 \(\mathcal R_{6,+}^{3/2}s^3\). This is genuine instantaneous spatial
 thickness of the complete rate field. It supplies no location, ball,
 connected component, packet, annulus, material carrier, or persistence at one
@@ -6802,7 +6802,7 @@ occupancy, bounded overlap, source recurrence, full-participant upper or lower
 response speed, favorable pressure sign, viscosity lag, Gold closure, or
 Silver exit.
 
-### F7.21 Order-one norm rate forces an instantaneous heat-scale slice, while continued rise requires signed complete-source projection
+### F7.21 Order-one norm rate forces an instantaneous heat-scale slice, while each rising instant requires signed complete-source projection
 
 This fact is restricted to the same decaying \(\mathbb R^3\) surface as
 F7.20. Put \(f=r_+\) and define its weak-\(L^{3/2}\) amplitude by
@@ -6977,13 +6977,14 @@ exponent is \(4/3\), not \(2\); the \(L_t^2\) criterion is the stronger
 energy-method condition, while the full displayed Gold bound remains
 scale-invariant after multiplication by \(\mathcal E_0\).
 
-The physical conclusion is exact. A large invariant norm rate already has an
-instantaneous spatial footprint somewhere in the complete field. Continued
-growth is not caused by source magnitude alone: the complete simultaneous VPI
-source must project positively onto that same rate configuration strongly
-enough to outrun direct heat. Nothing here proves that one scale or one spatial
-region persists, that a material carrier follows it, that pressure or
-viscosity has a separate favorable sign, that the datum bounds the needed
+The physical conclusion is exact. A large invariant norm rate already forces
+an instantaneous global superlevel set with the stated total-measure lower
+bound; that set may be arbitrarily fragmented. At each rising instant, growth
+is not caused by source magnitude alone: the complete simultaneous VPI source
+must project positively onto the simultaneous \(r_+(t)\) configuration
+strongly enough to outrun direct heat. Nothing here proves that one scale or
+one spatial region persists, that a material carrier follows it, that pressure
+or viscosity has a separate favorable sign, that the datum bounds the needed
 source action, or that Gold or Silver closes.
 
 ## Hard boundary: claims excluded from the ontology
