@@ -6277,6 +6277,173 @@ weight. Algebraic sign freedom is likewise not a full-source counterexample.
 No Gold closure, Silver exit, packet/core/annulus carrier, viscosity lag, or
 favorable pressure sign is proved.
 
+### F7.19 Spatially licensed heat-thick compression has radius-weighted dissipation, scale-independent square-rate visibility, and full-source regeneration
+
+A pointwise normalized rate has no spatial scale of its own. The expression
+\(r_+\ell^2/\nu\) describes a heat-scale competition only after \(\ell\) has
+been independently licensed by the same field. Fix \(c,\theta>0\). Call
+\(E_j\subset\Omega\times J_j\) a heat-thick compression event at scale
+\(\ell_j\) when
+
+\[
+|J_j|=\frac{\ell_j^2}{\nu},
+\qquad
+|E_j|\ge\theta\frac{\ell_j^5}{\nu},
+\qquad
+r_+\ge c\frac{\nu}{\ell_j^2}\quad\hbox{on }E_j.
+\]
+
+This definition permits anisotropic measurable regions. It asserts
+spacetime thickness and normalized compression, not a ball, packet, annulus,
+vortex tube, material carrier, or theorem that such an event occurs.
+
+F7.11 gives
+
+\[
+2\nu\int_0^T\int_\Omega r_+^2\,dx\,dt\le\mathcal E_0.
+\]
+
+If a family of heat-thick events has spacetime overlap multiplicity at most
+\(M\), then
+
+\[
+c^2\theta\nu\sum_j\ell_j
+\le\sum_j\int_{E_j}r_+^2\,dx\,dt
+\le M\frac{\mathcal E_0}{2\nu}.
+\]
+
+Hence the exact radius-weighted occupancy law is
+
+\[
+\boxed{
+\sum_j\ell_j
+\le\frac{M\mathcal E_0}{2c^2\theta\nu^2}.
+}
+\]
+
+At any fixed declared scale, Chebyshev gives the corresponding spacetime
+occupancy bound
+
+\[
+\left|\left\{(x,t):r_+(x,t)\frac{\ell^2}{\nu}\ge c\right\}\right|
+\le\frac{\mathcal E_0\ell^4}{2c^2\nu^3}.
+\]
+
+Because \(|r|\le|S|\), the same event contributes at least
+\(2c^2\theta\nu^2\ell_j\) to \(2\nu\int|S|^2\). Its datum-finite viscous
+contribution is therefore radius weighted and can be summable along a
+geometrically shrinking sequence.
+
+The Gold square-rate coordinate sees a different quantity. Put
+\(I(t)=\int_\Omega r_+(x,t)^2dx\). Every heat-thick event satisfies
+
+\[
+\int_{J_j}I(t)\,dt\ge c^2\theta\nu\ell_j,
+\]
+
+and Cauchy--Schwarz in time gives
+
+\[
+\boxed{
+\int_{J_j}I(t)^2dt\ge c^4\theta^2\nu^3.
+}
+\]
+
+Thus every spatially licensed heat-thick event has scale-independent
+visibility in the exact Gold action. If the \(J_j\) are disjoint, infinitely
+many such events force \(\int I^2dt=\infty\), even though the energy law
+controls the summable radius-weighted quantity \(\sum_j\ell_j\). Smooth scalar
+bump stacks on disjoint heat intervals with \(\ell_j=2^{-j}\) realize
+
+\[
+\int r^2\,dx\,dt\asymp
+\nu\sum_j\ell_j<\infty,
+\qquad
+\int\left(\int r^2dx\right)^2dt
+\asymp\nu^3\sum_j1=\infty.
+\]
+
+This is a countermodel to deduction from the scalar \(L^2\) budget alone. It
+is not a Navier--Stokes velocity, an admissible \(r=-S:\Pi\) history, or an
+actual Zeno construction.
+
+The complete equation in F7.16 also identifies what can regenerate the rate.
+Kato's inequality gives
+
+\[
+(D_t-\nu\Delta)r_+
+\le\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r.
+\]
+
+The divergence-free advection--diffusion propagator is positivity preserving
+and contractive on every \(L^p\), \(1\le p\le\infty\). Therefore
+
+\[
+\|r_+(t)\|_p
+\le\|r_+(s)\|_p
++\int_s^t
+\|\mathbf1_{\{r>0\}}[\widetilde{\mathcal F}_r]_+(\sigma)\|_p\,d\sigma.
+\]
+
+In particular, direct transport and Laplacian smoothing cannot create a new
+positive spatial maximum of \(r\). Any increase of that maximum must be
+supplied by the complete joined source. This does not say that total viscosity
+has one sign: viscous reorientation remains inside
+\(\widetilde{\mathcal F}_r\), while only the explicit scalar Laplacian obeys
+the maximum principle.
+
+The same recurrence has an exact global logarithmic coordinate. Let
+
+\[
+X(t)=\int|\nabla r_+|^2dx,
+\qquad
+N(t)=\int r_+\widetilde{\mathcal F}_r\,dx.
+\]
+
+Where \(I>0\),
+
+\[
+\frac12(\log I)'
++\nu\frac XI
+=\frac NI.
+\]
+
+For a fixed threshold \(I_\sharp>0\), define
+
+\[
+\mathcal A_\sharp
+=\int_{\{I>I_\sharp\}}
+\frac{[N-\nu X]_+}{I}\,dt.
+\]
+
+Since \(N-\nu X=I'/2\),
+
+\[
+\boxed{
+\mathcal A_\sharp
+=\frac12\operatorname{Var}^+
+\left(\log\frac{I}{I_\sharp}\right)_+.
+}
+\]
+
+Every doubling of \(I\) above the threshold contributes at least
+\(\tfrac12\log2\) to this positive logarithmic variation. A finite
+\(\mathcal A_\sharp\) bounds \(I\); combined with F7.11's finite
+\(\int I\,dt\), it gives \(I\in L^2_t\) and closes the direct critical-height
+supplier. This is an exact restatement of the full-source recurrence burden,
+not a datum estimate for it.
+
+The Caffarelli--Kohn--Nirenberg partial-regularity theorem does not supply the
+missing step. Zero one-dimensional parabolic Hausdorff measure of the
+singular set is compatible with infinitely many nested preterminal events
+converging to one point, and it does not extract the required
+strain--all-chord alignment thickness. The open theorem must either bound
+\(\mathcal A_\sharp\) from the original datum or first extract a heat-thick
+same-history event family and then rule out its infinite full-source
+regeneration. No packet, annulus, persistent material carrier, favorable
+pressure sign, viscosity lag, response-speed bound, Gold closure, or Silver
+exit follows here.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -6314,3 +6481,4 @@ The following are not hard facts and carry no premise weight here:
 - Francesca Da Lio, Katarzyna Mazowiecka, and Armin Schikorra, [*A fractional version of Rivière's \(GL(N)\)-gauge*](https://arxiv.org/abs/2101.07151), Appendix C. Its difference-square-function/Triebel--Lizorkin characterization supplies the standard norm equivalence used in F7.12; the pointwise comparison from \(\tau\) and the Navier--Stokes capacity consequence are derived above.
 - J. D. Gibbon and Charles R. Doering, [*Intermittency and regularity issues in 3D Navier--Stokes turbulence*](https://arxiv.org/abs/math/0406146), Archive for Rational Mechanics and Analysis 177 (2005), 115--150. Its good/bad interval analysis is an adjacent proved renewal framework; it leaves the number and arrangement of dangerous intervals uncontrolled and supplies no datum bound for F6.10 or F6.11.
 - Luis Escauriaza, Gregory Seregin, and Vladimír Šverák, [*\(L_{3,\infty}\)-solutions of Navier--Stokes equations and backward uniqueness*](https://www.mathnet.ru/eng/rm609), Russian Mathematical Surveys 58 (2003), 211--250.
+- Luis Caffarelli, Robert Kohn, and Louis Nirenberg, [*Partial regularity of suitable weak solutions of the Navier--Stokes equations*](https://onlinelibrary.wiley.com/doi/10.1002/cpa.3160350604), Communications on Pure and Applied Mathematics 35 (1982), 771--831.
