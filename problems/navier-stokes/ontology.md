@@ -9803,6 +9803,12 @@ Cycle 065 realizes the stronger version of that example exactly. The field
 \(\nabla\Pi\not\equiv0\) and \(\mathcal Q_\Pi>0\), but zero critical
 production and no temporal or material orientation turn.
 
+Cycle 066 shows that unequal radii can also make \(\Pi\) change in material
+time after departure from one lattice line, still with zero nonlinear
+transfer, constant pressure, zero vortex stretching, and zero critical work.
+Departure from one line permits orientation change; it does not make that
+change active.
+
 Because \(\Pi\) is nonlocal, nonzero \(\nabla\Pi\) proves neither pointwise
 gradient rank nor where the departure from global shear geometry occurs. A
 nonzero one-direction field is translation invariant in two directions, so
