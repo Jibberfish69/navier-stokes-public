@@ -93,8 +93,8 @@ older cycle files are evidence, not competing authority.
 | 058 | At one point of the same participant, compare the strain read along the vorticity axis with the strain read by the nonlocal all-chord orientation. | Exact normalized-transverse trace identity, signed strain-contracted readout residual, enstrophy-source decomposition, and scale-critical residual-or-rate-square alternative on every \(K\)-doubling interval. | Incompressibility makes positive axial vortex stretch carry mean transverse compression at the same instant. An enstrophy doubling must expose that strain through positive normalized all-chord compression rate or accumulate a positive difference between the actual all-chord reading and the normalized transverse reading, while viscosity retains its palinstrophy cost. | The residual is not an orientation distance, force, owner, evolution law, or Gold currency. Its vorticity-selected positive action has no proved datum bound. Full-interval \(I^2\) is not \(G\)-restricted; the \(\tau\) and \(\lvert\omega\rvert^2\) weights are not compared. No entrance synchronization, localization, annulus, packet, carrier, causal transfer, pressure sign, Gold closure, or Silver exit follows. | Ontology bridge and exact escape-channel anatomy without strict Gold reduction. |
 | 059 | At the same point and instant, resolve how the actual nonlocal all-chord orientation can differ from the incompressibility-forced transverse reading about the vorticity axis, while retaining the same field's viscous direction turn. | Exact axial/cross/transverse vorticity-frame normal form, sharp positive-semidefinite orientation constraints, algebraic cancellation countertest, polar-vorticity law, one-energy raw residual budget, and combined rate-square/residual-square lower action on every \(K\)-doubling interval. | The discrepancy has exactly three orientation coordinates: axial chord incidence, axial--transverse chord covariance, and transverse quadrupole. They cancel inside one signed readout and share one finite raw strain exposure. An unbounded enstrophy ladder nevertheless forces the critical-rate height or the unweighted global residual-coordinate height to develop non-square-integrable temporal bursts. | The three coordinates are not mechanisms, owners, spatial axes/planes, or three costs; \([\mathfrak m]_+\) is not the sum of their positive parts. The raw \(J_{\mathfrak m}\) height is not itself enstrophy production and its budget does not bound the normalized vorticity-selected residual action. No localization, persistence, causal order, response-time law, weight comparison, Gold closure, or Silver exit follows. | Ontology anatomy and Cycle 058 budget correction; exact square-action obstruction without strict Gold reduction. |
 | 060 | Follow the same participant through time and ask how the vorticity-weighted difference between its nonlocal all-chord strain reading and its vorticity-forced transverse reading can be rebuilt, including through points where vorticity vanishes. | Global smooth trace-free discrepancy tensor \(\mathsf N\), exact recombined VPI laws for \(\mathsf N\) and \(\mathfrak M=S:\mathsf N\), positive-part diffusion/Kato laws, and a fixed-energy fixed-viscosity varying-datum no-go for energy-only raw weighted-action and \(J_{\mathfrak m}\)-square-time bounds. | Where vorticity is absent the axis comparison has no physical referent and its canonical weighted discrepancy vanishes. Where it is present, one simultaneous pressure--strain--vorticity--all-chord source rebuilds the discrepancy against direct diffusion; finite energy limits raw first exposure but not cross-data burst height or frequency. | Bare \(\mathfrak m\) has no canonical global evolution across \(\omega=0\). The source has no sign or datum bound; \(\tau\) and \(\lvert\omega\rvert^2\) turning weights remain unbridged. The counterfamily does not bound or refute the normalized \(K^{-1}\)-weighted action, prove one-history recurrence, localize an event, close Gold, or give Silver exit. | Ontology dynamic fact and energy-only route obstruction without strict Gold reduction. |
-| 061 | At one center of the same field, compare local first-jet spin with the complete nonlocal all-chord incidence and ask whether their native turning weights can separate freely. | Exact \(\chi_{\omega/\tau}=\lvert\omega\rvert^2/\tau\) quotient and perspective laws; decaying-\(\mathbb R^3\) short-chord Taylor bound \(\chi_{\omega/\tau}\le6\pi/R\) whenever the first jet stays affine through \(R\); conditional \(24\pi g/R\) orientation-turn bridge; and a fixed-energy fixed-viscosity varying-datum no-go for an energy-only radius or linear deweighting. | Short chords are already part of the nonlocal readout. If the velocity keeps its affine first-jet pose through \(R\), those chords necessarily register enough incidence to carry its vorticity; a larger mismatch forces that pose to break on a shorter distance and activates the next derivative rung. | The affine-validity radius has no proved datum floor or persistence. It is not a packet, core, annulus, material carrier, propagation distance, viscous lag, or heat-time clock. No source sign, critical-rise placement, recurrence, strict Gold reduction, Gold closure, or Silver exit follows. | Ontology bridge and energy-only static-route obstruction without strict Gold reduction. |
-| 062 | Across the same field, ask how much local spin can be weakly registered by all chords before the surrounding velocity gradient must bend away from its first jet. | Instantaneous smooth decaying-\(\mathbb R^3\) integrated-Taylor lower bound; canonical vorticity-certified radius \(\ell_\omega\); tail \(\int_{\ell_\omega<R}\lvert\omega\rvert^2\le4R^2D_2\); half-enstrophy radius; global \(J_{\omega/\tau}\le24\pi\sqrt{KD_2}\); and exact pressure-completed first/second-jet equations. | Local spin cannot remain weakly represented in the all-chord field without nearby second-jet bending. When \(K,D_2>0\), at least half of total vorticity-square lies at centers whose certified radius is no shorter than \(\sqrt{K/(8D_2)}\); the total mismatch is palinstrophy-controlled. | The radius level sets are not packets, vortices, annuli, connected regions, material carriers, or response fronts. Palinstrophy and \(\int g^2/\tau\) have no datum time budget or Gold-rise placement; no radius persistence, strict Gold reduction, Gold closure, or Silver exit follows. | Ontology derivative-tower fact and exact route refinement without strict Gold reduction. |
+| 061 | At one center of the same field, compare local vorticity magnitude with complete nonlocal scalar all-chord incidence and ask whether their native weights can separate freely. | Exact \(\chi_{\omega/\tau}=\lvert\omega\rvert^2/\tau\) quotient and perspective laws; decaying-\(\mathbb R^3\) short-chord Taylor bound \(\chi_{\omega/\tau}\le6\pi/R\) under the stated uniform Hessian certificate through \(R\); conditional \(24\pi g/R\) orientation-turn supplier; and a fixed-energy fixed-viscosity varying-datum no-go for an energy-only radius or linear deweighting. | Short chords are already part of the nonlocal readout. If the uniform Hessian certificate holds through \(R\), their scalar relative-velocity energy forces enough incidence relative to local vorticity-square; a larger mismatch forces that certificate to fail on a shorter distance. | This scalar theorem controls no vorticity direction, \(\Pi\)-orientation, alignment, or eigenframe. The certified radius has no datum floor or persistence and is not a packet, core, annulus, material carrier, propagation distance, viscous lag, or heat-time clock. No source sign, critical-rise placement, recurrence, strict Gold reduction, Gold closure, or Silver exit follows. | Ontology bridge and energy-only static-route obstruction without strict Gold reduction. |
+| 062 | Across the same field, ask how much vorticity-square can lie where scalar all-chord incidence is weak before weighted second-derivative content is required. | Instantaneous smooth decaying-\(\mathbb R^3\) integrated-Taylor lower bound; vorticity-certified integrated chord-affinity radius \(\ell_\omega\); tail \(\int_{\ell_\omega<R}\lvert\omega\rvert^2\le4R^2D_2\); half-enstrophy radius; global \(J_{\omega/\tau}\le24\pi\sqrt{KD_2}\); and exact pressure-completed first/second-jet equations. | Small scalar all-chord incidence relative to vorticity-square requires weighted \(\lvert\nabla^2u\rvert^2\) content in the surrounding ball. When \(K,D_2>0\), at least half of total vorticity-square lies at centers whose certified integrated radius is no shorter than \(\sqrt{K/(8D_2)}\); the mismatch moment is enstrophy--palinstrophy-controlled. | The radius certifies only the integrated short-chord norm, not a pointwise affine break. It controls no direction, alignment, or eigenframe and gives no pointwise vorticity bound or matched localization of centers with the regions contributing \(D_2\). Its level sets are not packets, vortices, annuli, connected regions, material carriers, or response fronts. No datum time budget, Gold-rise placement, persistence, strict Gold reduction, Gold closure, or Silver exit follows. | Ontology derivative-tower fact and exact route refinement without strict Gold reduction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -1206,20 +1206,21 @@ Together with the F7.17 turning law this gives
 \]
 
 Physically, a large native-weight mismatch certifies that the same velocity
-field loses its first-order affine pose on a shorter distance.  It does not
+field fails the stated uniform Hessian condition on a shorter distance.  It does not
 make the all-chord quantity local: infinitesimal chords carry only \(O(R)\)
 mass, so a finite affine-validity radius is indispensable.  An exact
 fixed-energy fixed-viscosity family scales both
 \(\chi_{\omega/\tau}\) and \(1/R\) by the same factor and rules out replacing
 that radius by an energy--viscosity-only floor or static linear coefficient.
 The missing Gold theorem is now a datum-anchored one-history lower control of
-a verified affine-validity radius, or an alternative source-weighted
-high-\(\chi_{\omega/\tau}\)/\(g\) replacement, plus critical-rise placement.
+the certified uniform-Hessian radius, or an alternative source-weighted
+replacement, plus critical-rise placement.
 No persistence, heat-time law,
 material carrier, Gold closure, or Silver exit is obtained.
 
-Cycle 062 removes the need to posit a radius point by point.  It defines the
-vorticity-certified affine-break radius
+Cycle 062 supplies a distinct integrated certificate, so this mismatch bound
+does not require Cycle 061's pointwise uniform-Hessian radius.  It defines the
+vorticity-certified integrated chord-affinity radius
 
 \[
 \ell_\omega(z)
@@ -1239,16 +1240,18 @@ integrated short-chord remainder gives
 \le\frac{6\pi}{\ell_\omega}.
 \]
 
-Fubini then converts the local bend into a field-wide physical statement:
+Fubini then converts the weighted second-derivative content into a field-wide
+Eulerian statement:
 
 \[
 \int_{\{\ell_\omega<R\}}|\omega|^2dx
 \le4R^2D_2.
 \]
 
-Thus short affine-break radii can carry only a quadratic palinstrophy-limited
-tail of total vorticity-square.  When \(K,D_2>0\), at least half the enstrophy
-lies at centers with radius at least \(\sqrt{K/(8D_2)}\), and layer cake gives
+Thus short integrated chord-affinity radii contain only a quadratic
+palinstrophy-limited tail of total vorticity-square.  When \(K,D_2>0\), at
+least half the enstrophy lies at centers with radius at least
+\(\sqrt{K/(8D_2)}\), and layer cake gives
 
 \[
 J_{\omega/\tau}
@@ -1256,15 +1259,16 @@ J_{\omega/\tau}
 \le24\pi\sqrt{KD_2}.
 \]
 
-Physically, hiding spin from the all-chord readout forces the same velocity
-gradient to bend in the surrounding field.  Palinstrophy is the next rung of
-that same VPI derivative tower, not a separate viscous payment.  The exact
-first- and second-jet equations retain signed strain and forced nonlocal
-pressure derivatives, so the certified radius has no monotonicity or
-persistence law.  The remaining orientation-turn burden is the
-gradient-increment concentration \(\int g^2/\tau\) and its placement on one
-Gold-rising history; Cycle 062 proves no datum time bound, spatial/material
-carrier, Gold closure, or Silver exit.
+Physically, small scalar all-chord incidence relative to vorticity-square
+requires weighted \(|\nabla^2u|^2\) content in the surrounding ball.  The
+mismatch moment is controlled by the enstrophy--palinstrophy product, and
+\(2\nu D_2\) is the standard viscous enstrophy sink inside the same VPI
+history, not a separate payment.  The exact first- and second-jet equations
+give the certified radius no monotonicity or persistence law.  In this
+F7.17-plus-Cauchy supplier the remaining factor is \(\int g^2/\tau\) and its
+placement on one Gold-rising history.  Cycle 062 proves no pointwise
+vorticity bound, matched localization, direction/alignment control, datum time
+bound, spatial/material carrier, Gold closure, or Silver exit.
 
 ## Above-Route Gold/Silver Analogy
 
