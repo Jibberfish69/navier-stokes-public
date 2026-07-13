@@ -4699,6 +4699,79 @@ future phase selection, or controls repeated reuse along a shrinking history.
 That missing incidence theorem is the open
 \(MaterialCriticalWorkCoreCollarIncidence.A\) named above.
 
+### F7.10 Positive local material work activates an increasing dual symbol, not a viscous brake
+
+At a fixed material point and time, write
+
+\[
+H=C^{-1/2}\dot C C^{-1/2},
+\qquad
+A=C^{1/2}\Theta C^{1/2}.
+\]
+
+Here (H) is symmetric and trace free, while (A) is positive semidefinite.
+Because (C^{-1}:\dot C=0), the local work density from F7.9 is
+
+\[
+w=-\frac12\dot C:\Theta_C^\circ
+  =-\frac12 H:A.
+\]
+
+If (w>0), diagonalize (H) with eigenvalues (h_i) and eigenvectors
+(e_i). Since (a_i=e_i\cdot Ae_i\ge0) and
+
+\[
+\sum_i h_i a_i<0,
+\]
+
+there is at least one active direction with (h_i<0) and (a_i>0). Freeze
+the label covector (alpha_i=C^{1/2}e_i) at that instant. Its inverse-metric
+symbol from F1.12 then satisfies
+
+\[
+\frac d{dt}\bigl(\alpha_i\cdot C^{-1}\alpha_i\bigr)=-h_i>0.
+\]
+
+Thus positive local critical work cannot occur without activating some
+contracting material direction whose matched dual pressure--viscous symbol is
+instantaneously increasing. This is the exact joined VPI statement. It does
+not say that the velocity gradient occupies that dual direction, that actual
+viscous dissipation increases, that pressure has a favorable sign, or that the
+direction and work persist for positive time.
+
+Principal stretches alone do not detect all of this work. For example, at one
+instant let
+
+\[
+C=\operatorname{diag}(c,c^{-1},1),
+\qquad
+\dot C=
+\begin{pmatrix}
+0&b&0\\
+b&0&0\\
+0&0&0
+\end{pmatrix},
+\qquad
+\Theta=z\otimes z,
+\quad z=(1,-1,0),
+\]
+
+with (b>0). The incompressibility condition
+(C^{-1}:\dot C=0) holds, every principal eigenvalue of (C) has zero
+instantaneous derivative, yet
+
+\[
+-\frac12\dot C:\Theta=b>0.
+\]
+
+This is a pointwise material-metric algebra countertest, not a separately
+constructed Navier--Stokes history. It proves that frame change and
+off-diagonal deformation can carry the work while a principal-stretch account
+misses it. The remaining Gold question is therefore an incidence and
+persistence theorem: do the same fixed-label cores that carry dangerous
+positive work also carry active dual gradients long enough for the joined
+pressure--viscous response to control the record?
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
