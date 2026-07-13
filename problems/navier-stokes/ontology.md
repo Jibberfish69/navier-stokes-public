@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 050.
+**Current promoted checkpoint:** Cycle 051.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -520,6 +520,28 @@ competition is \(\nu^2\ell\). Thus finite energy supplies no event quantum
 across that admitted profile class. Large \(I\) or terminal growth has not
 been proved to select any such length, profile, or repeated event in one
 history.
+
+Cycle 051 separates a large normalized rate from a spatially licensed event.
+A pointwise value of \(r_+\) has no intrinsic length: choosing
+\(\ell=\sqrt{\nu/r_+}\) would make \(r_+\ell^2/\nu=1\) tautologically. Suppose
+instead that an independently established scale \(\ell\) carries
+\(r_+\gtrsim\nu/\ell^2\) on comparable spatial volume for one heat-time
+\(\ell^2/\nu\). F7.19 proves that such a heat-thick event contributes only
+order \(\nu^2\ell\) to the datum-finite viscous history but contributes a
+scale-independent amount of order \(\nu^3\) to the square-rate action
+\(\int I^2dt\). Infinitely many shrinking events can therefore be compatible
+with finite energy while remaining equally visible to the open Gold supplier.
+
+The same fact gives the exact regeneration law. Direct advection--diffusion
+transports and smooths \(r_+\) and cannot create a new positive maximum. Any
+increase must come through the complete source
+\(\widetilde{\mathcal F}_r\), which keeps strain, rotation, instantaneous
+nonlocal pressure, pair redistribution, and viscous reorientation joined.
+Thus viscosity has no delayed arrival: its direct Laplacian row acts
+immediately, while its orientation-changing rows remain signed inside the
+same source. What is not proved is that a dangerous history generates a
+heat-thick event at any spatial scale, or that the datum bounds repeated
+positive regeneration of the full source.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
