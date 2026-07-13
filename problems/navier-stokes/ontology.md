@@ -11216,6 +11216,27 @@ This is an exact globally regular 2D3C history. At the initial instant
 and \(m_H\) rises while critical height falls. The equality \(P_H=0\) is
 asserted at that instant, not on the whole later interval.
 
+The physical return is global and exact. Critical work and vortex stretching
+read the same strain through different weights and orientations. Their common
+proportional work changes the two heights together and disappears from
+\(m_H'\). The critical-weighted mean inverse length rises only through the one
+joined native-weight-and-orientation mismatch against the simultaneous
+viscous spectral gap. A planar participant can raise \(H\) while enstrophy and
+\(m_H\) fall; a 2D3C participant can raise enstrophy and \(m_H\) while
+critical work vanishes and \(H\) falls. Neither event sign owns the other.
+No single history is asserted to traverse both witnesses.
+
+Every quantity here is global and phase blind. The theorem proves no frequency
+motion, spatial co-location, packet, annulus, vortex core, wave, pulse,
+material carrier, propagation speed, cascade, viscous lag, causal order,
+height/enstrophy interval synchronization, persistence, recurrence, no-reuse
+law, pressure sign, datum-finite mismatch bound, strict Gold reduction, Gold
+closure, Part/Field failure, class exit, or Silver result. The periodic
+witnesses alone refute no decaying-\(\mathbb R^3\)-only inequality. The live
+quantitative burden is a datum-finite bound on the positive joined action, a
+further exact decomposition that exposes a more primitive same-history
+participation event, or a direct critical-height theorem.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -11233,6 +11254,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-070-critical-mean-frequency-participation-recombination-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-069-stored-enstrophy-terminal-stretching-breadth-gate-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-007-terminal-critical-growth-requires-vortex-stretching-20260711.md`
 - `theorem-construction/codex-goal-ontology-cycle-068-active-all-chord-work-gate-hierarchy-20260713.md`
