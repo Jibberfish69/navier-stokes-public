@@ -7248,7 +7248,204 @@ ball, packet, annulus, connected component, material carrier, favorable
 component sign, Gold closure, or Silver exit. The remaining Gold burden is a
 datum-finite bound on the joined source action or another square-rate theorem;
 event or residence alternatives acquire global force only with a proved
-same-history recurrence/no-recount law.
+same-history recurrence/no-recount law for a general interval family. F7.23
+proves that no extra non-recount hypothesis is needed on a terminal ladder
+whose heat windows shrink to the terminal time.
+
+### F7.23 Shrinking terminal heat windows prevent residence recount, while heat-compatible threshold-band dwell is sufficient but not forced
+
+Fix \(0<\eta,\vartheta<1\) and \(R_0>0\), and retain the decaying
+\(\mathbb R^3\) surface of F7.22. Suppose one smooth preterminal history has a
+sequence
+
+\[
+t_j\uparrow T,
+\qquad
+s_j\to0,
+\qquad
+\mathcal R_{6,+}(t_j)\ge R_0,
+\]
+
+where each \(s_j\) is an F7.21 threshold witness. Put
+
+\[
+C_R=(\eta c_0R_0)^{3/2},
+\qquad
+h_j=\frac{s_j^2}{\nu},
+\qquad
+J_j=[t_j-h_j,t_j],
+\]
+
+and take \(j\) late enough that \(J_j\subset(0,T)\). At
+\(a_j=\nu/(2s_j^2)\), F7.22 gives the following alternative. Either
+
+\[
+\left|
+\left\{t\in J_j:E_{a_j}(t)\ge\frac{C_R\nu^2}{8s_j}\right\}
+\right|
+\ge\vartheta h_j,
+\]
+
+and hence
+
+\[
+\int_{J_j}I(t)^2dt
+\ge Q_{\rm res}
+:=\frac{\vartheta C_R^2}{64}\nu^3,
+\]
+
+or there is \(\tau_j\in J_j\) such that
+
+\[
+\int_{\tau_j}^{t_j}q(t)^2dt
+\ge\frac{C_R\nu^3}{4s_j}.
+\]
+
+The terminal interval geometry removes recount from the first branch. Since
+
+\[
+t_j-h_j\longrightarrow T,
+\]
+
+every infinite subfamily of \(J_j\) has an infinite pairwise-disjoint
+subfamily: after choosing one interval, choose the next with left endpoint
+later than the preceding right endpoint. Therefore infinitely many residence
+branches force
+
+\[
+\int_0^T I(t)^2dt=\infty.
+\]
+
+If instead infinitely many rebuild branches occur, no interval selection is
+needed. The lower bound for each individual branch tends to infinity as
+\(s_j\to0\), so
+
+\[
+\int_0^Tq(t)^2dt=\infty.
+\]
+
+Consequently every uniform order-one shrinking-threshold terminal ladder
+obeys the exact dichotomy
+
+\[
+\boxed{
+\int_0^T I(t)^2dt=\infty
+\quad\text{or}\quad
+\int_0^Tq(t)^2dt=\infty.
+}
+\]
+
+This is terminal anatomy, not a regularity theorem: neither action has been
+bounded from the datum. What has been removed is a separate non-recount
+assumption after the uniform shrinking-threshold ladder is admitted. The
+unproved entrance theorem is whether an actual Gold-threatening Navier--Stokes
+history must supply \(\mathcal R_{6,+}\ge R_0\) and F7.21 witnesses
+\(s_j\to0\).
+
+There is also an exact selector-free sufficient condition for a genuine
+F7.19 event. Define
+
+\[
+\Phi(s,t)
+:=s^{-3}
+\left|\left\{x:r_+(x,t)>\frac\nu{s^2}\right\}\right|.
+\]
+
+Suppose some \(S>0\), \(\Lambda\ge1\), \(\rho>0\), and interval \(J\) obey
+
+\[
+|J|=\frac{S^2}{\nu},
+\qquad
+\left|
+\left\{t\in J:
+\sup_{s\in[S/\Lambda,S]}\Phi(s,t)\ge C_R
+\right\}
+\right|
+\ge\rho\frac{S^2}{\nu}.
+\]
+
+At each admitted time, some \(s\in[S/\Lambda,S]\) has
+\(\{r_+>\nu/s^2\}\subset\{r_+>\nu/S^2\}\) and total measure at least
+\(C_R(S/\Lambda)^3\). Hence
+
+\[
+\boxed{
+\int_J
+\left|\left\{x:r_+(x,t)>\frac\nu{S^2}\right\}\right|dt
+\ge\rho C_R\Lambda^{-3}\frac{S^5}{\nu},
+}
+\]
+
+and on the same time set
+
+\[
+\boxed{
+\int_JI(t)^2dt\ge\rho C_R^2\nu^3.
+}
+\]
+
+This is threshold-height coherence over physical time, not persistence of a
+spatial component: the points in the superlevel set may be completely
+different at different times. It is not a Fourier band, packet scale, material
+carrier, or component-size band.
+
+The installed datum budget does not force positive heat-time band dwell. At
+every F7.21 witness with \(\mathcal R_{6,+}\ge R_0\),
+
+\[
+I(t)\ge\frac{C_R\nu^2}{s(t)}.
+\]
+
+Thus F7.11 supplies only
+
+\[
+\int_A\frac{dt}{s(t)}
+\le\frac{\mathcal E_0}{2C_R\nu^3};
+\]
+
+for witnesses in a band with top scale \(S\), this is the upper bound
+
+\[
+|A|\le\frac{\mathcal E_0S}{2C_R\nu^3},
+\]
+
+not a positive fraction of \(S^2/\nu\). If such a band does occupy a fraction
+\(\rho\) of its heat interval, the two inequalities force the datum-sized
+upper scale bound
+
+\[
+S\le\frac{\mathcal E_0}{2\rho C_R\nu^2};
+\]
+
+this restricts an admitted dwell event but does not prove one exists.
+
+A smooth scalar pulse stack makes the obstruction exact. Take
+\(s_j=2^{-j}L\) and scaled profiles of height \(\nu/s_j^2\), spatial size
+\(s_j\), and disjoint late durations
+\(\varepsilon_js_j^2/\nu\), with \(\varepsilon_j=1/j\). Then
+
+\[
+\mathcal R_{6,+}\asymp1,
+\qquad
+\sum_j\int I\,dt
+\asymp\nu\sum_j\varepsilon_js_j<\infty,
+\qquad
+\sum_j\int I^2dt
+\asymp\nu^3\sum_j\varepsilon_j=\infty,
+\]
+
+while every fixed-width logarithmic threshold band occupies only an
+\(O(\varepsilon_j)\) fraction of its heat time. Defining the scalar source from
+the evolution makes the threshold identities exact. This is not a
+Navier--Stokes realization of \(r=-S:\Pi\); it proves that the installed
+global budgets alone do not supply heat-compatible band dwell. In accordance
+with the terminal dichotomy, its short visits require unbounded source action.
+
+No Gold closure or Silver exit follows. The next physical question is the
+entrance question: whether a Gold-threatening same-participant history must
+generate a uniform order-one shrinking-threshold ladder, or whether the
+failure of uniform rate or scale shrinkage has a separate datum-controlled
+consequence.
 
 ## Hard boundary: claims excluded from the ontology
 
