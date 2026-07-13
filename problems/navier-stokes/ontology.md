@@ -2494,8 +2494,9 @@ Every one of these shears subsequently decays by the heat law.  The family
 proves that finite kinetic energy and finite instantaneous viscous square cost
 do not impose a universal pointwise maximum-spikiness bound across smooth
 data. It also proves that the inverse-distance critical viscous moment detects
-the displayed coherent shear pileup missed by the finite raw dissipation
-budget; it is not a theorem about every spatial ripple. In
+the displayed high-frequency amplitude population missed by the finite raw
+dissipation budget. The moment is phase blind; it does not detect constructive
+alignment itself and is not a theorem about every spatial ripple. In
 this shear sector the pressure-completed nonlinear production is zero and the
 critical balance is \(\mathcal H_{1/2}'=-\nu D_J\), so the same large moment
 destroys rather than feeds the crest.  In the full three-dimensional system,
@@ -2503,9 +2504,10 @@ nonlinear triads and the slaved pressure response can change modal amplitudes
 and phases; linear heat superposition supplies no strict full-VPI peak
 inequality.  Whenever a full-VPI ripple also lies on a rising critical-height
 record, the joined balance forces the exact instantaneous condition
-\(P_H\ge\nu D\).  Maintaining the coherent ripple then requires the
-pressure-completed nonlinear current of the same field to replenish at least
-the critical viscous moment it creates.
+\(P_H\ge\nu D\). Maintaining a rising global critical-height record then
+requires the pressure-completed nonlinear current of the same field to
+replenish at least that global critical viscous moment. This does not prove
+replenishment of the local coherent crest.
 
 The installed global critical height is a different readout:
 
@@ -4089,9 +4091,10 @@ q=\nu\tau\lambda^2=\frac{\nu\tau}{\ell^2}.
 \]
 
 A scale-uniform homogeneous attenuation gap requires \(q\ge c_*>0\).
-Interpreted as a physical event, this is a retention theorem: the same
-admitted carrier must remain coherent for at least \(c_*\) heat times.  For
-travel across one length at speed \(U\), it is the local-Reynolds condition
+A physical carrier theorem would additionally have to prove that the same
+admitted carrier remains coherent for at least \(c_*\) heat times; the
+spectral attenuation estimate does not provide that retention. For travel
+across one length at speed \(U\), the comparison is the local-Reynolds condition
 
 \[
 q\sim\frac{\nu}{U\ell}=\operatorname{Re}_\ell^{-1}.
