@@ -2466,21 +2466,18 @@ vorticity-direction coherence criteria at \(\mathbb R^3\) scope and takes
 their terminal contrapositive. It is a hierarchy-verified classical theorem
 extension, not a constitutive root fact and not new Gold progress. Its
 Eulerian-envelope/material-label distinction is a custody boundary rather
-than a promotion candidate. Cycle 010 has not entered the canonical fact store
-or canonical fact store.
+than a promotion candidate. Cycle 010 has not entered the canonical fact store.
 Ontology goal cycle 011 proves the polar-vorticity direction sink, its finite
 \(L^1\)-weighted original-history budget, and the critical-scaling obstruction
 to charging each height record from that budget. It is an independently
 validated causal refinement under F4.1/F5.1/F6.1/F7.2, not a new constitutive
-fact and not Gold progress. It has not entered the canonical fact store or
-canonical fact store.
+fact and not Gold progress. It has not entered the canonical fact store.
 Ontology goal cycle 012 proves that the exact all-separation critical current
 is strain contracted against a positive semidefinite anisotropic pair-
 orientation tensor of the same field. Its full Navier--Stokes balance adds the
 exact viscous surcharge to every height record. It is an independently
 validated causal refinement under F2.1/F5.1/F6.3/F7.1, not a new constitutive
-fact and not Gold progress. It has not entered the canonical fact store or
-canonical fact store.
+fact and not Gold progress. It has not entered the canonical fact store.
 Ontology goal cycle 013 proves that pure viscosity changes the normalized
 critical spectral-direction tensor through scale--direction covariance, whose
 angular sign is free, while its critical-weighted scale moment decreases. An
@@ -2533,8 +2530,7 @@ diverge. The same family has zero Leray-projected nonlinearity, so its positive
 pressure action is canceled exactly by convection. This is an independently
 validated component-identity refinement and route correction under
 F1.2/F3.1/F5.1/F6.3/F7.3 and Cycles 012–017, not a new constitutive fact and
-not Gold progress. It has not entered the canonical fact store or feedback
-ledger.
+not Gold progress. It has not entered the canonical fact store.
 The complete transformation inventory is demoted by its two exact omissions.
 The uniform critical-height Gold bound and Silver's concrete Part/Field
 failure stay open.
