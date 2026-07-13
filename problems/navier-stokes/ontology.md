@@ -5586,7 +5586,7 @@ r=\frac{\mathfrak c}{\tau}=-S:\Pi.
 If \(\tau(z)=0\), the nonnegative all-chord integrand vanishes. Continuity
 and the limit to a chord endpoint then give \(u(z+h)=u(z)\) for every \(h\).
 Thus every nonconstant smooth field has \(\tau(z)>0\) at every finite point;
-the constant mean-free or decaying field is the trivial zero case.
+a constant field has \(\mathcal H_{1/2}=I=0\) and is trivial for these facts.
 
 Let
 
