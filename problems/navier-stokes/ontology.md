@@ -6512,6 +6512,260 @@ its net positive growth intervals. No packet, annulus, persistent material carri
 pressure sign, viscosity lag, response-speed bound, Gold closure, or Silver
 exit follows here.
 
+### F7.20 Global compression-rate concentration shortens the direct heat clock but does not extract a heat-thick event
+
+This fact is restricted to decaying \(\mathbb R^3\), where the homogeneous
+Sobolev inequality has no lower-order constant-mode term. Put
+
+\[
+f=r_+,
+\qquad
+I=\|f\|_2^2,
+\qquad
+X=\|\nabla f\|_2^2,
+\]
+
+and, whenever \(I>0\), define the global rate-field concentration volume and
+length
+
+\[
+\mathcal V_{6,+}
+:=\left(\frac{\|f\|_2}{\|f\|_6}\right)^3,
+\qquad
+\ell_{6,+}:=\mathcal V_{6,+}^{1/3}.
+\]
+
+These are norm ratios of the complete positive compression-rate field. They
+are not a support volume, packet radius, annular width, or material carrier.
+The sharp three-dimensional Sobolev inequality gives
+
+\[
+\boxed{
+X
+\ge S_3\|f\|_6^2
+=S_3 I\mathcal V_{6,+}^{-2/3}
+=\frac{S_3I}{\ell_{6,+}^2},
+\qquad
+S_3=3\left(\frac\pi2\right)^{4/3}.
+}
+\]
+
+Hence the Rayleigh rate and Dirichlet length satisfy
+
+\[
+\lambda_+(t):=\frac XI
+\ge S_3\mathcal V_{6,+}^{-2/3},
+\qquad
+\ell_D:=\sqrt{\frac IX}
+\le\frac{\ell_{6,+}}{\sqrt{S_3}}.
+\]
+
+The reciprocal direct-heat coefficient in the half-logarithmic balance is
+therefore bounded above:
+
+\[
+\boxed{
+\tau_{D,+}:=\frac{I}{\nu X}
+\le\frac{\mathcal V_{6,+}^{2/3}}{\nu S_3}.
+}
+\]
+
+Thus, in the exact global sense stated by this inequality, concentrating
+\(r_+\) forces steeper spatial variation and a faster simultaneous direct
+Laplacian response. There is no lower bound on this clock: \(X/I\) can be
+larger than the Sobolev floor.
+
+The complete VPI source must remain joined. With
+
+\[
+N(t)=\int f\,\widetilde{\mathcal F}_r\,dx,
+\qquad
+\sigma(t)=\frac{N(t)}{I(t)},
+\]
+
+F7.19 gives the exact identity
+
+\[
+\boxed{
+\frac12(\log I)'+\nu\lambda_+=\sigma.
+}
+\]
+
+Consequently, whenever \(I'>0\),
+
+\[
+\boxed{
+\sigma>\nu\lambda_+
+\ge\nu S_3\mathcal V_{6,+}^{-2/3}.
+}
+\]
+
+As the positive rate field concentrates, the full normalized source must
+regenerate it faster than the simultaneously increasing direct-heat rate.
+Here \(N\) still contains the pressure-completed strain, rotation,
+pair-shape, and viscous-reorientation rows of the same participant. Only the
+explicit scalar Laplacian has been read as direct heat. For any interval on
+which \(I>0\),
+
+\[
+\boxed{
+\int_s^t\frac NI\,d\tau
+=\frac12\log\frac{I(t)}{I(s)}
++\nu\int_s^t\lambda_+\,d\tau
+\ge
+\frac12\log\frac{I(t)}{I(s)}
++\nu S_3\int_s^t\mathcal V_{6,+}^{-2/3}\,d\tau.
+}
+\]
+
+This is a required complete-source action, not a datum bound on that action.
+
+The scale-invariant norm rate Reynolds number is
+
+\[
+\mathcal R_{6,+}
+:=\frac{\sqrt{I/\mathcal V_{6,+}}\,\ell_{6,+}^2}{\nu}
+=\frac{\sqrt I\,\mathcal V_{6,+}^{1/6}}{\nu}.
+\]
+
+Under Navier--Stokes scaling,
+
+\[
+I_\lambda=\lambda I,
+\quad
+\mathcal V_{6,+,\lambda}=\lambda^{-3}\mathcal V_{6,+},
+\quad
+X_\lambda=\lambda^3X,
+\quad
+N_\lambda=\lambda^3N,
+\]
+
+so \(\mathcal R_{6,+}\) is invariant and both \(\lambda_+\) and \(\sigma\)
+scale as \(\lambda^2\). Since
+
+\[
+I=\nu^2\mathcal R_{6,+}^2\mathcal V_{6,+}^{-1/3},
+\]
+
+the datum-finite F7.11 budget becomes
+
+\[
+\boxed{
+2\nu^3\int_0^T
+\mathcal R_{6,+}^2\mathcal V_{6,+}^{-1/3}\,dt
+\le\mathcal E_0.
+}
+\]
+
+In particular,
+
+\[
+\left|
+\left\{t:\mathcal R_{6,+}(t)\ge R,
+\ \mathcal V_{6,+}(t)\le v\right\}
+\right|
+\le\frac{\mathcal E_0v^{1/3}}{2\nu^3R^2}.
+\]
+
+The Gold action is the square of the controlled density:
+
+\[
+\boxed{
+\int_0^T I(t)^2dt
+=\nu^4\int_0^T
+\mathcal R_{6,+}^4\mathcal V_{6,+}^{-2/3}\,dt.
+}
+\]
+
+Finite energy controls the first displayed moment, not this square. The same
+separation appears in the bare cubic coordinate:
+
+\[
+\int f^3dx
+\le I^{3/2}\mathcal V_{6,+}^{-1/2}
+\le\frac{\mathcal R_{6,+}}{S_3}\,\nu X.
+\]
+
+Small \(\mathcal R_{6,+}\) therefore absorbs the bare \(r_+^3\) row into
+direct heat, but it supplies no sign or bound for the complete source \(N\).
+
+The global concentration coordinates still do not extract the event in
+F7.19. To see the exact logical boundary, choose nonnegative
+\(\phi\in C_c^\infty(B_1)\), \(\psi\in C_c^\infty(0,1)\), disjoint time
+intervals accumulating at \(T\), and
+
+\[
+q_j=2^{-j},
+\quad
+\ell_j=Lq_j^4,
+\quad
+\rho_j=q_j,
+\quad
+\eta_j=q_j^4,
+\]
+
+\[
+A_j=\rho_j\frac\nu{\ell_j^2},
+\qquad
+\tau_j=\eta_j\frac{\ell_j^2}{\nu},
+\qquad
+f_j(x,t)=A_j
+\phi\!\left(\frac{x-x_j}{\ell_j}\right)
+\psi\!\left(\frac{t-t_j}{\tau_j}\right).
+\]
+
+For \(f=\sum_jf_j\), at pulse peaks
+
+\[
+I_j\asymp\frac{\nu^2}{L}q_j^{-2}\longrightarrow\infty,
+\qquad
+\mathcal V_{6,+,j}\asymp\ell_j^3,
+\qquad
+\mathcal R_{6,+,j}\asymp\rho_j\longrightarrow0,
+\]
+
+while
+
+\[
+\int_0^T I\,dt\asymp\nu L\sum_jq_j^{10}<\infty,
+\qquad
+\int_0^T X\,dt\asymp\frac\nu L\sum_jq_j^2<\infty.
+\]
+
+At the support scale, the compression-to-heat ratio is only \(\rho_j\).
+Any scale \(s\) at which the amplitude reaches \(c\nu/s^2\) must satisfy
+\(s\gtrsim\ell_j/\sqrt{\rho_j}\), but the whole pulse has spacetime measure
+only \(O(\eta_j\ell_j^5/\nu)\), smaller than the F7.19 heat-thickness demand
+by \(O(\eta_j\rho_j^{5/2})\to0\). The relevant geometric tail has total
+measure
+
+\[
+O\!\left(
+\frac{s^5}{\nu}\left(\frac{s}{L}\right)^{13/7}
+\right)
+=o\!\left(\frac{s^5}{\nu}\right),
+\]
+
+so aggregation does not repair the thickness. Defining
+\(F=(\partial_t-\nu\Delta)f\) makes
+
+\[
+\frac12I'+\nu X=\int fF
+\]
+
+exact. This is a smooth scalar terminal countermodel before \(T\), not an
+admissible Navier--Stokes realization of \(r=-S:\Pi\). It proves that large
+\(I\), finite \(\int I\), finite \(\int X\), and the global concentration
+readouts alone do not yield a heat-thick same-history event.
+
+The licensed physical conclusion stops here: global concentration of the
+same positive rate field forces a faster direct heat coefficient, and every
+actual rise must overrun that coefficient through the complete simultaneous
+VPI source. The result proves no spatial location, nearest crest--trough
+pair, constructive interference, packet, annulus, material persistence,
+bounded overlap, source recurrence, full-participant upper or lower response
+speed, favorable pressure sign, viscosity lag, Gold closure, or Silver exit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -6550,3 +6804,4 @@ The following are not hard facts and carry no premise weight here:
 - J. D. Gibbon and Charles R. Doering, [*Intermittency and regularity issues in 3D Navier--Stokes turbulence*](https://arxiv.org/abs/math/0406146), Archive for Rational Mechanics and Analysis 177 (2005), 115--150. Its good/bad interval analysis is an adjacent proved renewal framework; it leaves the number and arrangement of dangerous intervals uncontrolled and supplies no datum bound for F6.10 or F6.11.
 - Luis Escauriaza, Gregory Seregin, and Vladimír Šverák, [*\(L_{3,\infty}\)-solutions of Navier--Stokes equations and backward uniqueness*](https://www.mathnet.ru/eng/rm609), Russian Mathematical Surveys 58 (2003), 211--250.
 - Luis Caffarelli, Robert Kohn, and Louis Nirenberg, [*Partial regularity of suitable weak solutions of the Navier--Stokes equations*](https://onlinelibrary.wiley.com/doi/10.1002/cpa.3160350604), Communications on Pure and Applied Mathematics 35 (1982), 771--831.
+- Giorgio Talenti, [*Best constant in Sobolev inequality*](https://math.jhu.edu/~js/Math646/talenti.sobolev.pdf), Annali di Matematica Pura ed Applicata 110 (1976), 353--372.
