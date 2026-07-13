@@ -6927,11 +6927,13 @@ For a function-valued source, the same sign statement is
 
 It is a global functional projection, not pointwise eigenframe alignment or a
 source-location theorem. Equal source magnitudes can have opposite effects:
-for fixed \(f\), \(G_\pm=\pm(-\Delta f)\) have the same
-\(\dot H^{-1}\) norm and pair with \(f\) as \(\pm X\). An arbitrarily large
-source component with zero pairing may also be translated far from \(f\).
-These scalar tests refute magnitude-only or co-location readings; they are not
-Navier--Stokes realizations.
+for fixed smooth compactly supported \(f\),
+\(G_\pm=\pm(-\Delta f)\) have the same \(\dot H^{-1}\) norm and pair
+with \(f\) as \(\pm X\). If \(\psi\) has gradient support disjoint from
+\(f\), then adding \(A(-\Delta\psi)\) makes the source norm arbitrarily large
+without changing its pairing, and \(\psi\) may be placed arbitrarily far from
+\(f\). These scalar tests refute magnitude-only or co-location readings; they
+are not Navier--Stokes realizations.
 
 The projection gate gives a precise conditional Gold supplier. With
 
@@ -6939,6 +6941,8 @@ The projection gate gives a precise conditional Gold supplier. With
 \alpha_*(t):=
 \frac{[N(t)]_+}{\sqrt{X(t)}},
 \]
+
+where \(\alpha_*=0\) when \(X=0\). Then
 
 optimized Young inequality gives
 
