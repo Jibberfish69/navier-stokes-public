@@ -1189,8 +1189,8 @@ It is the reweighting from all-chord incidence to vorticity selection because
 It also has an exact signed quotient evolution and convex perspective law, so
 it is an evolving coordinate of one VPI history rather than a ratio of two
 owners.  On decaying \(\mathbb R^3\), if the velocity gradient at \(z\)
-remains quantitatively affine through radius \(R\), then the positive
-short-chord portion of the complete all-chord tensor forces
+satisfies the displayed uniform-Hessian condition through radius \(R\), then
+the positive short-chord portion of the complete all-chord tensor forces
 
 \[
 \tau(z)\ge\frac{R}{3\pi}|\nabla u(z)|_F^2,
@@ -1208,7 +1208,7 @@ Together with the F7.17 turning law this gives
 Physically, a large native-weight mismatch certifies that the same velocity
 field fails the stated uniform Hessian condition on a shorter distance.  It does not
 make the all-chord quantity local: infinitesimal chords carry only \(O(R)\)
-mass, so a finite affine-validity radius is indispensable.  An exact
+mass, so a finite uniform-Hessian-certified radius is indispensable.  An exact
 fixed-energy fixed-viscosity family scales both
 \(\chi_{\omega/\tau}\) and \(1/R\) by the same factor and rules out replacing
 that radius by an energy--viscosity-only floor or static linear coefficient.
