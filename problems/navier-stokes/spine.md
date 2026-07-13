@@ -17,6 +17,14 @@ wrapper name is genealogy rather than current theorem authority.
 
 ## Physical-story custody for every ontology cycle
 
+**F1-root rebuild active (2026-07-13):** the former Cycle 001--070 physical
+rows below are audit targets, not authority. They repeatedly separated the one
+VPI tangent into actors, races, responses, episodes, locations, or carriers
+that their mathematics had not proved. The rebuilt frontier is Cycle 001.
+Only a row explicitly rewritten and independently revalidated under the F1
+one-tangent rule regains premise weight; later rows remain suspended even when
+their displayed equations are correct.
+
 A numbered ontology cycle is incomplete until it records all four rows:
 
 1. the same-participant physical event before proof coordinates;
