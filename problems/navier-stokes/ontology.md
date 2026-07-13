@@ -4458,6 +4458,75 @@ count or height of constructively aligned crests has no production sign until
 the surrounding anisotropic VPI relation and the active current carrier are
 identified.
 
+### F7.9 Critical production is signed work in the material deformation metric
+
+Use the volume-preserving material map and metric \(F,C\) from F1.11. Pull the
+all-chord relative-energy tensor of F7.5 back to label space:
+
+\[
+\Theta(a,t)
+=F^{-1}\mathsf T_u(X(a,t),t)F^{-T},
+\qquad
+\Theta_C^\circ
+=\Theta-\frac{C:\Theta}{3}C^{-1}.
+\]
+
+Since
+
+\[
+\dot C=2F^TSF,
+\qquad
+C^{-1}:\dot C=0,
+\]
+
+the exact critical production becomes
+
+\[
+P_H
+=-\int S:\mathsf T_u\,dx
+=-\frac12\int \dot C:\Theta_C^\circ\,da.
+\]
+
+Consequently the complete critical-height balance is
+
+\[
+\mathcal H_{1/2}'
+=-\frac12\int \dot C:\Theta_C^\circ\,da
+-\nu\|\Lambda^{3/2}u\|_2^2.
+\]
+
+Critical production is therefore signed work between the changing material
+metric and the pulled-back anisotropic distribution of relative kinetic energy
+across all chords of the same surrounding field. The \(C\)-isotropic part is
+annihilated by volume preservation. This is a joined material VPI statement,
+not a pressure account, a viscosity account, or a spectral-width history.
+
+On every interval \(I=[t_0,t_1]\) with
+\(\mathcal H_{1/2}(t_1)=2\mathcal H_{1/2}(t_0)>0\),
+
+\[
+\int_I\frac{P_H}{\mathcal H_{1/2}}\,dt
+=\log2
++\nu\int_I
+\frac{\|\Lambda^{3/2}u\|_2^2}{\mathcal H_{1/2}}\,dt.
+\]
+
+In particular,
+
+\[
+\int_I\int
+\frac{\left[-\frac12\dot C:\Theta_C^\circ\right]_+}
+{\mathcal H_{1/2}}\,da\,dt
+\ge\log2.
+\]
+
+This positive material critical-work action is an exact post-readout majorant.
+It is not yet a datum-finite currency: no proved theorem attaches its selected
+positive density to bounded-overlap fixed-label cores and collars, prevents
+future phase selection, or controls repeated reuse along a shrinking history.
+That missing incidence theorem is the open
+\(MaterialCriticalWorkCoreCollarIncidence.A\) named above.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
