@@ -3753,6 +3753,180 @@ parabolic clock.  Gold therefore remains open; the fact is a necessary
 same-history state constraint rather than a regularity theorem.  It derives no
 Part or Field failure, so Silver is unchanged.
 
+### F6.21 Rising-frequency occupancy is datum-finite, while fixed energy permits fixed relative critical gain in vanishing raw cost
+
+Retain the complete pressure-completed variables of F6.10 and the datum bound
+
+\[
+E_0=\|v(0)\|_2^2.
+\]
+
+Let
+
+\[
+G=\{t:R'(t)>0\},
+\qquad
+d\mu_{\rm cur}=\frac KD A_H\,dt.
+\]
+
+On \(G\), the critical balance and product estimate give
+
+\[
+A_H>\frac{\nu^2D}{C_\Omega^2R}.
+\]
+
+The exact finite-mass factorization from F6.10 therefore yields
+
+\[
+\frac{d\mu_{\rm cur}}{dt}
+=\frac KD A_H
+>\frac{\nu^2}{C_\Omega^2}\frac KR
+=\frac{\nu^2}{C_\Omega^2}m_H.
+\]
+
+Since the kinetic-energy identity gives
+
+\[
+\mu_{\rm cur}([0,T])
+\le\int_0^T K(t)\,dt
+\le\frac{E_0}{2\nu},
+\]
+
+every classical interval satisfies the datum-finite rising-frequency
+occupancy law
+
+\[
+\boxed{
+\int_G m_H(t)\,dt
+\le\frac{C_\Omega^2E_0}{2\nu^3}.
+}
+\]
+
+Because the energy centroid obeys \(\bar\rho\le m_H\), the same right-hand
+side bounds \(\int_G\bar\rho\,dt\).  In particular,
+
+\[
+\big|\{t\in G:m_H(t)\ge L\}\big|
+\le\frac{C_\Omega^2E_0}{2\nu^3L}
+\qquad(L>0).
+\]
+
+This is a global time--frequency occupancy law for the complete same field.  It
+does not count spatial packets, locate the separated frequencies, or give a
+positive amount of occupancy to each rise.
+
+There is an exact counterfamily to any such event quantum on \(\mathbb R^3\).
+Choose a divergence-free Schwartz field \(\psi\) with
+
+\[
+P_H(\psi)>0.
+\]
+
+Such fields exist by the anisotropic localized-triad construction used in
+F6.9, with the sign reversed when necessary.  Let \(v^\varepsilon\) be the
+viscosity-\(\varepsilon\) Navier--Stokes solution from \(\psi\), and let
+\(v^0\) be the Euler solution from the same datum.  Standard common-interval
+high-regularity estimates give, for some \(m>5/2\) and \(\tau_0>0\),
+
+\[
+\sup_{0\le\tau\le\tau_0}
+\|v^\varepsilon(\tau)-v^0(\tau)\|_{H^{m-1}}
+\le C\varepsilon.
+\]
+
+Since the Euler critical-height derivative at zero is \(2P_H(\psi)>0\),
+there are fixed \(\tau_0,\delta>0\) such that, for all sufficiently small
+\(\varepsilon\),
+
+\[
+\mathcal H_{1/2}(v^\varepsilon(\tau_0))
+\ge(1+\delta)\mathcal H_{1/2}(\psi).
+\]
+
+Fix \(\nu>0\).  For \(A\) sufficiently large put
+
+\[
+u_A(x,t)=A^3v^{\nu/A}(A^2x,A^5t),
+\qquad
+p_A(x,t)=A^6q^{\nu/A}(A^2x,A^5t).
+\]
+
+Direct substitution shows that every \((u_A,p_A)\) is an exact unforced
+viscosity-\(\nu\) incompressible Navier--Stokes history.  The pressure remains
+the simultaneous nonlocal response of that rescaled velocity field.  With
+
+\[
+\mathcal M_s(u)=\|\Lambda^su\|_2^2,
+\qquad
+T_A=\tau_0A^{-5},
+\]
+
+the exact three-dimensional scalings are
+
+\[
+\|u_A(0)\|_2^2=\|\psi\|_2^2=:E_*,
+\qquad
+\mathcal M_s(u_A(t))
+=A^{4s}\mathcal M_s(v^{\nu/A}(A^5t)),
+\]
+
+and
+
+\[
+\mathcal H_{1/2}(u_A(T_A))
+\ge(1+\delta)\mathcal H_{1/2}(u_A(0)).
+\]
+
+Thus the initial kinetic energy and relative critical-height gain stay fixed
+while \(T_A\to0\).  The physical kinetic-energy loss and every fixed
+energy-interpolation occupancy with \(0<s\le1\) obey
+
+\[
+\frac12\|u_A(0)\|_2^2-rac12\|u_A(T_A)\|_2^2
+=\frac{\nu}{A}\int_0^{\tau_0}K(v^{\nu/A})\,d\tau
+=O(A^{-1}),
+\]
+
+\[
+\int_0^{T_A}\mathcal M_s(u_A(t))^{1/s}\,dt
+=\frac1A\int_0^{\tau_0}
+\mathcal M_s(v^{\nu/A}(\tau))^{1/s}\,d\tau
+=O_s(A^{-1}).
+\]
+
+The characteristic spatial scale is \(\ell_A=A^{-2}\), so the normalized
+viscous age also vanishes:
+
+\[
+\frac{\nu T_A}{\ell_A^2}=\frac{\nu\tau_0}{A}\longrightarrow0.
+\]
+
+Likewise \(m_H\) scales as \(A^2\), and the event contribution to the
+rising-frequency occupancy is \(O(A^{-3})\).  Critical dissipation has the
+opposite scaling,
+
+\[
+\nu\int_0^{T_A}D(u_A(t))\,dt\asymp\nu A,
+\]
+
+with constants fixed by the nonzero seed and common interval.  The fixed
+fractional rise is cheap only in physical time, raw kinetic-energy loss, and
+the subcritical energy-interpolation occupancies.  The scale-critical row
+becomes larger.
+
+This family varies the datum with \(A\) and proves no repeated-event history
+for one datum.  The dilation is exact on decaying \(\mathbb R^3\); a fixed
+normalized torus requires a separate concentration-periodization theorem.  The
+frequency identities make no claim about spatial co-location, annuli, beats,
+or envelopes.
+
+Consequently no positive lower bound depending only on
+\((\nu,E_*,\delta)\) can hold for elapsed time, physical energy loss, or any
+fixed \(0<s\le1\) energy-interpolation occupancy during a fixed relative
+critical-height gain.  Those quantities cannot close Gold.  The same-history
+critical action and material ancestry burdens remain open.  No Part or Field
+failure is derived, so Silver is unchanged.
+
 ## F7. Anisotropic, directional, relational geometry
 
 ### F7.1 Nonzero incompressible strain is necessarily anisotropic
