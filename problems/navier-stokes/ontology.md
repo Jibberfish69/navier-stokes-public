@@ -11137,6 +11137,85 @@ positive joined action prevents the required terminal \(H\)-divergence. This
 is a sufficient regularity criterion and necessary terminal action, not a
 datum-finite estimate or a strictly smaller Gold theorem.
 
+Two globally regular periodic histories make the sign separation strict.
+F7.36's pure two-dimensional participant has
+
+\[
+\mathcal P_\omega=0,
+\qquad
+K'<0,
+\qquad
+P_H>\nu D,
+\qquad
+H'>0.
+\]
+
+There
+\(
+\mathcal B_{\omega,\tau}=-m_HP_H/2<0
+\)
+and \(m_H\) falls while critical height rises.
+
+For the reverse direction, let
+
+\[
+\phi
+=\bigl(2\cos y,\ 2\cos x,\ 2\cos x+2\sin(x+y)\bigr),
+\]
+
+\[
+\phi_N(x,y,z)=\phi(Nx,Ny,z),
+\qquad
+w_N=-\phi+N^{-2/3}\phi_N,
+\qquad
+N\ge3.
+\]
+
+The base and scaled supports have no mixed zero-sum cubic triples. With
+\(
+N_q(f)=-\langle B(f),\Lambda^qf\rangle
+\),
+
+\[
+N_1(w_N)=0,
+\qquad
+N_2(w_N)=2(N-1),
+\]
+
+\[
+\|\Lambda^{3/2}w_N\|_2^2
+=(6+4\sqrt2)(1+N^{5/3}),
+\qquad
+\|\Lambda^2w_N\|_2^2
+=14(1+N^{8/3}).
+\]
+
+The fixed-viscosity datum \(u_0=Aw_N\) therefore obeys
+
+\[
+P_H(0)=0,
+\qquad
+H'(0)<0,
+\]
+
+\[
+\frac12K'(0)
+=2A^3(N-1)-14\nu A^2(1+N^{8/3})>0
+\]
+
+whenever
+
+\[
+A>\frac{7\nu(1+N^{8/3})}{N-1}.
+\]
+
+This is an exact globally regular 2D3C history. At the initial instant
+\(
+\mathcal B_{\omega,\tau}=\mathcal P_\omega/2>0
+\)
+and \(m_H\) rises while critical height falls. The equality \(P_H=0\) is
+asserted at that instant, not on the whole later interval.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
