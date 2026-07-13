@@ -6112,6 +6112,135 @@ causes the base field's rise, or that any packet, core, annulus, material
 carrier, or recurrence persists. Gold remains open at the one-history
 trace-free source/recurrence law isolated in F7.16. Silver is unchanged.
 
+### F7.18 The normalized-compression reaction is pressure-completed, anisotropic, and scale-critically cubic
+
+Retain the complete source notation of F7.16. The pressure Poisson law and the
+skew-gradient identity give
+
+\[
+\Delta p=-|S|^2+\frac12|\omega|^2,
+\qquad
+W^2=\frac14\left(\omega\otimes\omega-|\omega|^2I\right).
+\]
+
+Write
+
+\[
+\mathsf H_p^\circ
+=\nabla^2p-\frac{\Delta p}{3}I,
+\qquad
+V_{S,\Pi}=S^2:\Pi-(S:\Pi)^2.
+\]
+
+Because \(\Pi\) is positive semidefinite with trace one,
+
+\[
+V_{S,\Pi}\ge0,
+\qquad
+r^2=(S:\Pi)^2.
+\]
+
+The complete local strain--rotation--pressure reaction then has the exact
+joined decomposition
+
+\[
+\boxed{
+\mathsf B:\Pi
+=r^2+V_{S,\Pi}
+-\frac13|S|^2
+-\frac1{12}|\omega|^2
++\frac14\omega\cdot\Pi\omega
++\mathsf H_p^\circ:\Pi^\circ.
+}
+\]
+
+The terms on the right are coordinates of one pressure-completed reaction.
+The \(-|S|^2/3+|\omega|^2/6\) portion is the trace of the same instantaneous
+pressure Hessian forced by the current velocity gradient; the trace-free
+completion remains nonlocal and signed. It is not an external pressure bill.
+The raw rotation row satisfies \(W^2:\Pi\le0\), but after its compulsory
+pressure-trace completion the displayed vorticity combination ranges between
+\(-|\omega|^2/12\) and \(|\omega|^2/6\). No separate rotation sign survives.
+
+Two exact anisotropic consequences follow. First, if \(\Pi=I/3\), then
+\(r=0\) and \(\mathsf B:\Pi=\operatorname{tr}\mathsf B/3=0\). The local
+reaction is instantaneously null; the remaining shape equation may still
+create future anisotropy. Second, for trace-free \(S\),
+
+\[
+|S|^2\ge\frac32\|S\|_{\mathrm{op}}^2
+\ge\frac32r^2.
+\]
+
+Hence
+
+\[
+S^2:\Pi-\frac13|S|^2
+\le\frac12r^2+V_{S,\Pi}.
+\]
+
+When the all-chord orientation is concentrated on a compressive strain
+eigendirection, \(V_{S,\Pi}=0\), so the pressure trace forced by
+incompressibility removes at least half of the bare self-compression reaction.
+This is only the local trace contribution; it gives no favorable sign for the
+nonlocal trace-free pressure, rotation-completed, pair-shape, or viscous-shape
+rows.
+
+On decaying \(\mathbb R^3\), Gagliardo--Nirenberg and Young give, for every
+\(\varepsilon>0\),
+
+\[
+\boxed{
+\int r_+^3dx
+\le C I^{3/4}
+\left(\int|\nabla r_+|^2dx\right)^{3/4}
+\le\varepsilon\nu\int|\nabla r_+|^2dx
++C\varepsilon^{-3}\nu^{-3}I^3.
+}
+\]
+
+The torus has the corresponding inhomogeneous lower-order term. Thus even the
+bare positive self-reaction can be absorbed by the clean Laplacian only at
+cubic growth in \(I\). Cycle 049 proves that this exponent permits finite
+\(L^1_t\) terminal spikes. A successful theorem must use cancellation or
+recurrence of the complete VPI source, not estimate the positive component
+rows separately.
+
+Finally, the F7.17 remote-copy family has active length
+\(\ell=\delta\), amplitude \(a=\delta^{1-\alpha}\), and normalized rate
+\(r\sim a/\ell\). Therefore
+
+\[
+\boxed{
+\operatorname{Re}_\ell
+=\frac{a\ell}{\nu}
+=\frac{r\ell^2}{\nu}
+=\frac{\delta^{2-\alpha}}{\nu}\to0.
+}
+\]
+
+Its heat time \(\ell^2/\nu\) is shorter than its strain time \(1/r\).
+The copy's high \(r\) is an exact diffusion-dominated small-amplitude gradient,
+and the separate base field owns the strict global rise. This re-audits F7.17:
+the family refutes datum-independent instantaneous deweighting but supplies no
+terminal recurrence mechanism.
+
+For a general scaled profile, order-one competition at shrinking \(\ell\)
+requires \(a\ell/\nu\gtrsim1\), equivalently
+\(r\ell^2/\nu\gtrsim1\). The corresponding kinetic-energy scale
+\(a^2\ell^3\gtrsim\nu^2\ell\) still tends to zero with \(\ell\). Finite
+energy therefore does not exclude a sequence of such critical events. This is
+a scaling boundary across admitted profiles, not proof that one history
+creates, transports, or repeats them.
+
+The remaining Gold question is an a priori, noncircular, one-datum theorem
+controlling the joined trace-free source or the recurrence of order-one-
+Reynolds compressive alignment. For a globally smooth fixed history, constants
+can always be defined after the fact; such post hoc constants carry no theorem
+weight. Algebraic sign freedom is likewise not a full-source counterexample.
+No Gold closure, Silver exit, packet/core/annulus carrier, viscosity lag, or
+favorable pressure sign is proved.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
