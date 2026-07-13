@@ -5569,6 +5569,187 @@ have nonzero positive local work and \(I\sim A^2\) while the signed global
 production cancels and critical height decays. Outside \(G\), the displayed
 \(D/K\) bound is false; exact heat shears have \(I=0\) and \(D/K>0\).
 
+### F7.16 Common VPI diffusion is coercive for density-weighted normalized work, not ordinary-volume rate
+
+Use the Eulerian all-chord tensor from F7.5 and put
+
+\[
+\mathfrak c=-S:\mathsf T_u,
+\qquad
+\tau=\operatorname{tr}\mathsf T_u,
+\qquad
+\Pi=\frac{\mathsf T_u}{\tau},
+\qquad
+r=\frac{\mathfrak c}{\tau}=-S:\Pi.
+\]
+
+If \(\tau(z)=0\), the nonnegative all-chord integrand vanishes. Continuity
+and the limit to a chord endpoint then give \(u(z+h)=u(z)\) for every \(h\).
+Thus every nonconstant smooth field has \(\tau(z)>0\) at every finite point;
+the constant mean-free or decaying field is the trivial zero case.
+
+Let
+
+\[
+\mathcal L=D_t-\nu\Delta,
+\qquad
+\mathsf Q=\mathsf R_{u,p}+u\cdot\nabla\mathsf T_u,
+\qquad
+q=\operatorname{tr}\mathsf Q,
+\qquad
+g=\operatorname{tr}\mathsf G_u.
+\]
+
+Cycles 013--014 give
+
+\[
+\mathcal L\mathfrak c=\mathcal F_{\mathfrak c},
+\qquad
+\mathcal L\tau=q-2\nu g=:\mathcal F_\tau.
+\]
+
+The quotient rule gives the exact joined equation
+
+\[
+\boxed{
+\left(\mathcal L-2\nu\nabla\log\tau\cdot\nabla\right)r
+=\mathcal F_r,
+}
+\]
+
+where
+
+\[
+\begin{aligned}
+\mathcal F_r
+={}&(S^2+W^2+\nabla^2p):\Pi
+-\frac1\tau S:(\mathsf Q-q\Pi)\\
+&+\frac{2\nu}{\tau}\nabla S::\nabla\mathsf T_u
++\frac{2\nu}{\tau}S:(\mathsf G_u-g\Pi).
+\end{aligned}
+\]
+
+The \(q\Pi\) and \(g\Pi\) rows cancel pure scalar pair-density motion. The
+remaining source contains the full strain, rotation, instantaneous nonlocal
+pressure, pressure-constrained pair redistribution, and both viscous slots.
+It has no universal sign. The additional drift is produced by normalizing two
+coordinates diffused by the same VPI history; it is not a material velocity
+and is not a compressible-fluid motion.
+
+The chord formula and Hilbert-space Cauchy--Schwarz give the pointwise Fisher
+bound
+
+\[
+|\nabla\tau|^2\le4\tau g.
+\]
+
+Consequently, on decaying \(\mathbb R^3\),
+
+\[
+\int|\nabla\sqrt\tau|^2\,dx
+\le\int g\,dx=2D,
+\qquad
+\int\tau|\nabla\log\tau|^2\,dx\le8D,
+\qquad
+\|\tau\|_3\le CD.
+\]
+
+The periodic \(L^3\) bound has the inhomogeneous form
+\(\|\tau\|_3\le C(D+\mathcal H_{1/2})\). These estimates cost critical
+dissipation, not the kinetic-energy budget.
+
+Because the flow map preserves volume, the unweighted rate mass from F7.15
+can be written in Eulerian or material coordinates. Complete-field
+integration gives
+
+\[
+\boxed{
+\frac12I'
++\nu\int|\nabla r_+|^2\,dx
+=\int r_+\mathcal F_r\,dx
+-\nu\int(\Delta\log\tau)r_+^2\,dx.
+}
+\]
+
+The last term is unsigned. Squaring the positive part removes the nodal
+surface term; it does not create an additional interface charge against a
+short rate burst.
+
+By contrast, the convex perspective
+
+\[
+J_\tau
+=\int\tau r_+^2\,dx
+=\int\frac{\mathfrak c_+^2}{\tau}\,dx
+\]
+
+obeys
+
+\[
+\boxed{
+J_\tau'
++2\nu\int\tau|\nabla r_+|^2\,dx
+=\int_{\{r>0\}}
+\left(2r\mathcal F_{\mathfrak c}-r^2\mathcal F_\tau\right)dx.
+}
+\]
+
+This is the exact density-weighted viscous coercivity. Its complete source is
+still signed, and no proved lower-density, inverse-\(\tau\), reverse-Hölder,
+or active-set theorem converts it into control of \(I\).
+
+A direct conditional supplier follows from the unweighted identity. If
+
+\[
+\Phi(t)=\|\mathbf1_{\{r>0\}}[\mathcal F_r]_+\|_2,
+\qquad
+\beta(t)=\|[-\Delta\log\tau]_+\|_\infty,
+\]
+
+then
+
+\[
+(\sqrt I)'\le\Phi+\nu\beta\sqrt I.
+\]
+
+Thus \(\Phi,\beta\in L^1_t\), together with F7.11, implies
+\(I\in L^2_t\) and closes critical height. Those source and curvature
+integrability statements are not proved from the datum.
+
+Finally, reuse the exact fixed-energy, fixed-\(\nu\) short-rise family from
+F6.21,
+
+\[
+u_A(x,t)=A^3v^{\nu/A}(A^2x,A^5t).
+\]
+
+On a uniform base rising interval,
+
+\[
+\tau_A=A^8\tau_v,
+\qquad
+\mathfrak c_A=A^{13}\mathfrak c_v,
+\qquad
+r_A=A^5r_v,
+\qquad
+I_A=A^4I_v.
+\]
+
+After shrinking the base interval, \(P_H>0\) and the smooth inviscid limit
+give a uniform positive lower bound for \(I_v\). Therefore
+
+\[
+\int_{G_A}I_A^p\,dt\gtrsim A^{4p-5};
+\]
+
+in particular \(\int_{G_A}I_A^2dt\to\infty\) while the kinetic energy and
+physical viscosity stay fixed. This refutes every energy--viscosity-only bound
+for the Gold supplier and, more generally, every such \(L^p_t\) bound with
+\(p>5/4\). It is one short initial burst in each member of a varying-datum
+family. It does not refute per-datum finiteness, produce repeated terminal
+bursts in one history, or prove spatial concentration, packet motion,
+viscosity lag, annular travel, carrier persistence, or a Silver exit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
