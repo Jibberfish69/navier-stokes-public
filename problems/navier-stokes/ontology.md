@@ -4822,7 +4822,7 @@ record.
 
 ### F7.11 Normalized positive material-work rate has a datum-finite viscous budget
 
-Use the polar decomposition (F=\mathcal RC^{1/2}). The two tensors in F7.10
+Use the polar decomposition \(F=\mathcal RC^{1/2}\). The two tensors in F7.10
 become
 
 \[
@@ -4838,15 +4838,13 @@ w=-\frac12H_m:A,
 \qquad
 \tau=\operatorname{tr}A=\operatorname{tr}\mathsf T_u(X),
 \qquad
-r_+=
-\begin{cases}
-w_+/\tau,&\tau>0,\\
-0,&\tau=0.
-\end{cases}
+r=\begin{cases}w/\tau,&\tau>0,\\0,&\tau=0,\end{cases}
+\qquad
+r_+=\frac{w_+}{\tau}
 \]
 
-If (H_me_i=h_i e_i), set (n_i=\mathcal Re_i) and
-(a_i=e_i\cdot Ae_i\ge0). Then
+with \(r_+=0\) when \(\tau=0\). If \(H_me_i=h_i e_i\), set
+\(n_i=\mathcal Re_i\) and \(a_i=e_i\cdot Ae_i\ge0\). Then
 
 \[
 (S\circ X)n_i=\frac{h_i}{2}n_i,
@@ -4854,13 +4852,13 @@ If (H_me_i=h_i e_i), set (n_i=\mathcal Re_i) and
 w=-\frac12\sum_i h_i a_i.
 \]
 
-Whenever (w>0),
+Whenever \(w>0\),
 
 \[
 \sum_{h_i<0}(-h_i)a_i\ge2w.
 \]
 
-Since (sum_i a_i=\tau), at least one direction with (a_i>0) satisfies
+Since \(\sum_i a_i=\tau\), at least one direction with \(a_i>0\) satisfies
 
 \[
 -\frac{h_i}{2}\ge\frac w\tau=r_+.
@@ -4878,19 +4876,17 @@ n_i\cdot(\nabla u)n_i
 
 Thus positive critical work does not merely raise a dual symbol. It forces
 instantaneous same-point first-gradient incidence in an active compressive
-direction of the same field. Moreover, with the signed rate
-(r=w/\tau), set to zero when (	au=0), positivity of
-(mathsf T_u) gives
+direction of the same field. Positivity of \(\mathsf T_u\) also gives
 
 \[
 |r|\le\|S\|_{\mathrm{op}}\le|S|.
 \]
 
-The kinetic-energy identity therefore supplies the datum-finite material-volume
-rate budget
+The kinetic-energy identity therefore supplies the datum-finite
+material-volume rate budget
 
 \[
-2\nu\int_0^T\int r_+^2\,da\,dt
+2\nu\int_0^T\int |r|^2\,da\,dt
 \le
 2\nu\int_0^T\int |S|^2\,dx\,dt
 \le\mathcal E_0.
@@ -4904,32 +4900,41 @@ On the other hand,
 P_H=\int w\,da=\int\tau r\,da.
 \]
 
-If (d\mu_t=\tau,da/(4\mathcal H_{1/2})), every critical-height
-doubling interval (I) obeys
+If \(d\mu_t=\tau\,da/(4\mathcal H_{1/2})\), every critical-height
+doubling interval \(I\) obeys
 
 \[
 4\int_I\int r_+\,d\mu_t\,dt\ge\log2.
 \]
 
 This is the exact physical rate law. Finite initial energy controls the square
-of the normalized positive-work rate in ordinary material volume, while
-critical growth samples that rate through the simultaneous nonlocal all-chord
-density (	au). The theorem does not show that (	au) is local energy,
-that it stays on one material core, or that successive (mu_t) select the
-same labels. A terminal history can evade the displayed budget only through
-an unresolved concentration/incidence mechanism: the all-chord weight must
-keep finding the small material-volume sets where (r_+) is effective.
+of the normalized work rate in ordinary material volume, while critical
+growth samples its positive part through the simultaneous nonlocal all-chord
+density \(\tau\). The theorem does not show that \(\tau\) is local energy,
+that it stays on one material core, or that successive \(\mu_t\) select the
+same labels. Along any terminal sequence of doublings, the densities
+\(\mu_t\) must therefore fail a still-unproved uniform comparison with
+ordinary material volume on the sets where \(r_+\) is effective. This is an
+exact concentration/incidence obstruction, not a proved motion or reselection
+law.
 
-There is no universal linear absorption of positive work by viscosity. For the
-exact ABC family (u_A(t)=Ae^{-\nu t}U) from F7.7, the nonempty positive work
-has size (w_+\sim A^3), while both the local mechanical viscous density and
-the unit-shell critical dissipation have size (\nu A^2). Their ratio grows
-like (A/\nu). The surviving coercivity is the normalized quadratic budget
-above, not a scale- or amplitude-independent fraction of (w_+).
+There is no universal linear absorption of positive work by viscosity. On the
+normalized torus, let
+
+\[
+U=(\sin z+\cos y,\ \sin x+\cos z,\ \sin y+\cos x).
+\]
+
+The exact ABC family \(u_A(t)=Ae^{-\nu t}U\), with its corresponding pressure,
+has nonempty positive work of size \(w_+\sim A^3\), while both the local
+mechanical viscous density and the unit-shell critical dissipation have size
+\(\nu A^2\). Their ratio grows like \(A/\nu\). The surviving coercivity is
+the normalized quadratic budget above, not a scale- or amplitude-independent
+fraction of \(w_+\).
 
 The critical dissipation still requires a stronger spatial relation. With
-(G=\nabla_aU\,F^{-1}=\nabla u\circ X), on decaying
-(\mathbb R^3),
+\(G=\nabla_aU\,F^{-1}=\nabla u\circ X\), on decaying
+\(\mathbb R^3\),
 
 \[
 \|\Lambda^{3/2}u\|_2^2
