@@ -12,18 +12,19 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#centered_chord_amplitude_covariance_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
   effect: >-
-    Cycle 063 proves the centered chord-amplitude/direction covariance law and
-    replaces G_tau as the immediate Cycle-062 Cauchy factor by
-    Q_Pi=int tau|grad Pi|^4. Centered amplitude variance and G_tau are only
-    one-way suppliers; an exact periodic heat shear has Q_Pi=0 and arbitrarily
-    large G_tau at fixed initial energy across data at t=0. Cycle 062's integrated-radius and
-    enstrophy-palinstrophy mismatch bounds remain. Datum-time control of D_2
-    and Q_Pi, Gold-time placement, and a direct critical-height consequence
-    remain open; another route may bypass this supplier. No smaller closing
-    theorem, Gold closure, or Silver exit is installed. Lower generated
-    occurrences are genealogy only.
+    Cycle 064 proves the global one-direction periodic null class for Q_Pi:
+    every waveform has constant Pi=(I+n tensor n)/4, while the scalar heat
+    shear can retain positive centered amplitude variance. Departure from one
+    lattice line is therefore necessary but not sufficient for the
+    orientation factor or causal interaction. Cycle 062's integrated-radius
+    and enstrophy-palinstrophy mismatch bounds and Cycle 063's covariance law
+    remain. Datum-time control of D_2 and multidirectional Q_Pi, Gold-time
+    placement, and a direct critical-height consequence remain open; another
+    route may bypass this supplier. No smaller closing theorem, Gold closure,
+    or Silver exit is installed. Lower generated occurrences are genealogy
+    only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

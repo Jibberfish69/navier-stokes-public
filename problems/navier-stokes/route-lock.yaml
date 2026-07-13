@@ -8,15 +8,14 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#centered_chord_amplitude_covariance_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
   effect: >-
-    Cycle 063 identifies centered chord-amplitude/direction covariance as the
-    exact spatial dependency changing normalized all-chord orientation and
-    replaces G_tau as the immediate Cycle-062 factor by
-    Q_Pi=int tau|grad Pi|^4. Centered amplitude variance and G_tau are only
-    one-way suppliers; an exact periodic heat shear has Q_Pi=0 and arbitrarily
-    large G_tau at fixed initial energy across data at t=0. Cycle 062's radius and mismatch
-    bounds remain. Datum-time control of D_2 and Q_Pi, Gold placement, and a
+    Cycle 064 proves that every global one-direction periodic shear has
+    constant Pi=(I+n tensor n)/4 and Q_Pi=0, while centered amplitude variance
+    can be positive. Departure from one lattice line is necessary but not
+    sufficient for orientation variation or nonlinear interaction. Cycle
+    062's radius and mismatch bounds and Cycle 063's covariance law remain.
+    Datum-time control of D_2 and multidirectional Q_Pi, Gold placement, and a
     direct critical-height consequence remain open; another route may bypass
     this supplier. No smaller closing theorem or Silver exit is installed.
     Lower route snapshots remain genealogy only.

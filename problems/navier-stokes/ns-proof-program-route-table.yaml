@@ -26,18 +26,17 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#centered_chord_amplitude_covariance_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
     effect: >-
-      Cycle 063 identifies the exact centered chord-amplitude/direction
-      covariance changing normalized all-chord orientation spatially and
-      replaces G_tau as the immediate Cycle-062 factor by
-      Q_Pi=int tau|grad Pi|^4. Centered amplitude variance and G_tau are only
-      one-way suppliers; an exact periodic heat shear has Q_Pi=0 and
-      arbitrarily large G_tau at fixed initial energy across data at t=0. Cycle 062's radius
-      and mismatch bounds remain. Datum-time control of D_2 and Q_Pi,
-      Gold-time placement, and a direct critical-height consequence remain
-      open; another route may bypass this supplier. No smaller closing theorem,
-      Gold closure, or Silver Part/Field exit follows.
+      Cycle 064 proves Q_Pi=0 on the whole global one-direction periodic shear
+      class, although centered amplitude variance can remain positive. Nonzero
+      grad Pi requires departure from one-line Fourier geometry, not by itself
+      nonlinear interaction or Gold relevance. Cycle 062's radius and mismatch
+      bounds and Cycle 063's covariance law remain. Datum-time control of D_2
+      and multidirectional Q_Pi, Gold-time placement, and a direct
+      critical-height consequence remain open; another route may bypass this
+      supplier. No smaller closing theorem, Gold closure, or Silver Part/Field
+      exit follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion

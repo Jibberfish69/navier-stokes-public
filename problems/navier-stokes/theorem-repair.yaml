@@ -9,19 +9,17 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#centered_chord_amplitude_covariance_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
   effect: >-
-    Cycle 063 re-audits Cycle 062's mismatch estimate. The direct orientation
-    factor is Q_Pi=int tau|grad Pi|^4, and spatial variation appears through
-    centered chord-amplitude/direction covariance; centered amplitude variance and
-    G_tau are coarser one-way suppliers. An exact periodic heat shear has
-    Q_Pi=0 while G_tau is arbitrarily large at fixed initial energy across
-    data at t=0. The
-    Cycle-062 integrated-radius and enstrophy-palinstrophy mismatch bounds
-    remain. Gold still requires datum-time control of D_2 and Q_Pi,
-    critical-rise placement, or another direct theorem. No smaller closing
-    theorem, MPP closure, or Silver exit is installed. Lower generated route
-    occurrences remain genealogy only.
+    Cycle 064 proves that Q_Pi vanishes for every global one-direction
+    periodic shear, although centered amplitude variance can be positive.
+    Nonzero grad Pi therefore requires departure from one-line Fourier
+    geometry, not automatically nonlinear interaction. Cycle 062's
+    integrated-radius and enstrophy-palinstrophy mismatch bounds and Cycle
+    063's covariance law remain. Gold still requires datum-time control of
+    D_2 and multidirectional Q_Pi, critical-rise placement, or another direct
+    theorem. No smaller closing theorem, MPP closure, or Silver exit is
+    installed. Lower generated route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
