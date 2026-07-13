@@ -7324,16 +7324,17 @@ only \(O(\delta^2/\nu)\), an \(O((\delta/s)^2)\) fraction of the putative
 identify a component radius or force heat-time persistence.
 
 No datum-finite bound on the rebuild action is proved. Different heat
-intervals may overlap and repeat the same action, and the theorem supplies no
+intervals may overlap, so their lower bounds add only after disjointness or
+bounded overlap is proved. The theorem supplies no
 ball, packet, annulus, connected component, material carrier, favorable
 component sign, Gold closure, or Silver exit. The remaining Gold burden is a
 datum-finite bound on the joined source action or another square-rate theorem;
-event or residence alternatives acquire global force only with a proved
-same-history recurrence/no-recount law for a general interval family. F7.23
-proves that no extra non-recount hypothesis is needed on a terminal ladder
-whose heat windows shrink to the terminal time.
+event or residence alternatives acquire global force only with proved
+same-history temporal-overlap control for a general interval family. F7.23
+proves that shrinking terminal windows automatically contain a disjoint
+subfamily.
 
-### F7.23 Shrinking terminal heat windows prevent residence recount, while heat-compatible threshold-band dwell is sufficient but not forced
+### F7.23 Shrinking terminal heat windows admit disjoint summation, while heat-compatible threshold-band dwell is sufficient but not forced
 
 Fix \(0<\eta,\vartheta<1\) and \(R_0>0\), and retain the decaying
 \(\mathbb R^3\) surface of F7.22. Suppose one smooth preterminal history has a
@@ -7382,7 +7383,8 @@ or there is \(\tau_j\in J_j\) such that
 \ge\frac{C_R\nu^3}{4s_j}.
 \]
 
-The terminal interval geometry removes recount from the first branch. Since
+The terminal interval geometry supplies disjoint summation in the first
+branch. Since
 
 \[
 t_j-h_j\longrightarrow T,
@@ -7417,7 +7419,7 @@ obeys the exact dichotomy
 \]
 
 This is terminal anatomy, not a regularity theorem: neither action has been
-bounded from the datum. What has been removed is a separate non-recount
+bounded from the datum. What has been removed is a separate temporal-overlap
 assumption after the uniform shrinking-threshold ladder is admitted. The
 unproved entrance theorem is whether an actual Gold-threatening Navier--Stokes
 history must supply \(\mathcal R_{6,+}\ge R_0\) and F7.21 witnesses
