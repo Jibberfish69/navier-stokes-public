@@ -1138,10 +1138,11 @@ prove that the spectral component paying \(D/K\) is the material-pair carrier
 that raises \(H\).
 
 More generally, every radial separation set carrying \(H/2\) has Lebesgue
-width at least \(\pi H/(2K)\). Product-volume preservation makes this a
-statement about one material-pair population throughout the smooth history.
-It is an annulus in pair separation over all centers and directions, not a
-physical collar around one selected source.
+width at least \(\pi H/(2K)\). At each time, product-volume preservation lets
+the current separation-selected set be pulled back to label-pair coordinates.
+It does not retain one fixed selected cohort across times. The set is an
+annulus in pair separation over all centers and directions, not a physical
+collar around one selected source.
 
 The energy identity also yields the fixed-distance spacetime throughput laws
 
@@ -1755,10 +1756,11 @@ D_tS+S^2+W^2+\nabla^2p=\nu\Delta S,
 D_t\omega=S\omega+\nu\Delta\omega.
 \]
 
-Strain directly produces or suppresses vorticity. The nonlocal pressure
-Hessian directly changes the strain evolution, and therefore changes the
-subsequent stretching geometry without any pressure lag. Viscosity diffuses
-both fields.
+Strain amplifies, suppresses, or reorients existing local vorticity through
+\(S\omega\). This is not net vector-vorticity birth, and \(S\omega=0\)
+wherever \(\omega=0\). The nonlocal pressure Hessian directly changes the
+strain evolution, and therefore changes the subsequent stretching geometry
+without any pressure lag. Viscosity diffuses both fields.
 
 ### F4.2 Every higher rung carries the differentiated same law
 
