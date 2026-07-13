@@ -9,18 +9,17 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#passive_multidirectional_all_chord_orientation_variation_ontology_gate_spin
   effect: >-
-    Cycle 064 proves that Q_Pi vanishes for every smooth nonconstant global
-    one-direction periodic shear, although centered amplitude variance can be
-    positive; constant fields have tau=0 and no Pi referent.
-    Nonzero grad Pi therefore requires departure from one-line Fourier
-    geometry, not automatically nonlinear interaction. Cycle 062's
-    integrated-radius and enstrophy-palinstrophy mismatch bounds and Cycle
-    063's covariance law remain. Gold still requires datum-time control of
-    D_2 and multidirectional Q_Pi, critical-rise placement, or another direct
-    theorem. No smaller closing theorem, MPP closure, or Silver exit is
-    installed. Lower generated route occurrences remain genealogy only.
+    Cycle 065 proves that positive grad Pi and Q_Pi can be passive and
+    block-orthogonal to strain, with zero critical work. At fixed initial
+    energy across smooth periodic data, the full spacetime Q_Pi grows like
+    N^3/nu, so no uniform energy-viscosity-only bound exists. This leaves
+    per-datum, higher-norm, Gold-rise-restricted, and signed-coupled control
+    open. Cycles 062--064 remain. Gold still requires actual rising-history
+    placement and signed overlap, or another direct theorem. No smaller
+    closing theorem, MPP closure, or Silver exit is installed. Lower generated
+    route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
