@@ -1,11 +1,11 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** physical-scenario rebuild reset. The F1--F7 seed is the governing
-ontology. Every Cycle 001--070 mathematical result is evidence pending
-revalidation, and every cycle-derived physical interpretation has zero premise
-weight until rebuilt through an actual same-fluid scenario.
+**Status:** F1-root rebuild active. The F1--F7 seed remains the governing
+ontology; every Cycle 001--070 mathematical result is retained only as
+evidence pending revalidation, and every cycle-derived physical
+interpretation has zero premise weight until rebuilt from F1.
 
-**Current promoted checkpoint:** pre-cycle F1--F7 seed. Cycles 001--070 are
+**Current promoted checkpoint:** pre-cycle F1--F7 seed. Cycle promotions are
 suspended.
 
 **Development authority:** this remains the single cumulative ontology.
@@ -33,17 +33,6 @@ not be narrated as actors, opponents, responses, stages, races,
 rebuilding/destruction processes, episodes, locations, or carriers unless an
 exact same-history theorem first proves that structure. Every rebuilt cycle
 must identify and delete the old story that its mathematics does not license.
-
-**Physical-scenario hard requirement:** a rebuilt cycle must begin with one
-concrete smooth fluid configuration or exact history described in ordinary
-physical terms: what neighboring fluid parcels are doing, what geometric
-change is occurring, and what a physical observer could distinguish in that
-same fluid. Naming a functional, projection, coordinate, readout, or
-non-implication is not physical reasoning. The equations must test that
-scenario and then return to say exactly which part of the physical picture
-survives, which part dies, and what new physical question the survivor creates.
-The scenario must still obey F1: pressure, viscosity, transport, and
-incompressibility are simultaneous aspects of one motion, never staged actors.
 
 **Authority boundary:** this file contains exact identities, exact operator
 properties, or classical proved theorems under the hypotheses stated here. It
