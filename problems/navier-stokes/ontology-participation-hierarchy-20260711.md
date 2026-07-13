@@ -1715,9 +1715,10 @@ after the tested instant.
 
 ### Physical reasoning after mathematics
 
-The same participant can have arbitrarily high global centroid and positive
-critical growth while no high-shear frequency appears in the simultaneous
-current triads. The high shear still contributes the dominant viscous loss and
+The varying-data family contains participants with arbitrarily high global
+centroid and positive critical growth while no high-shear frequency appears
+in each participant's simultaneous current triads. The high shear still
+contributes the dominant viscous loss and
 changes the pressure and future geometry. Only the state-only inference from
 the global centroid fails; no positive-time spectral separation or
 record-ladder behavior is claimed.
