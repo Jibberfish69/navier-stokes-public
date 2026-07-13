@@ -85,7 +85,7 @@ older cycle files are evidence, not competing authority.
 | 050 | Read a high compressive alignment through the complete local strain--rotation--pressure reaction, then separately re-audit the declared scale of the Cycle 049 remote copy. | Exact pressure-completed \(\mathsf B:\Pi\) decomposition, anisotropic null/reduction laws, cubic Sobolev barrier, and remote-copy Reynolds audit. | Incompressibility forces pressure-trace compensation in the same instant; the local \(\mathsf B:\Pi\) reaction is null for isotropic orientation, while the Cycle 049 high-rate copies are diffusion-dominated. | No full-source sign, active-scale extraction, one-history recurrence, local packet/core event, favorable pressure, or closure. | Ontology advance and bare scale-free route obstruction. |
 | 051 | At an independently licensed scale, let positive normalized compression occupy comparable spacetime measure inside one heat-time interval, and ask what can rebuild it. | Bounded-overlap radius occupancy, individual scale-independent \(I^2\) event visibility, disjoint-interval scalar Zeno countermodel, Kato maximum principle, and exact net source-minus-diffusion logarithmic variation. | Direct heat acts immediately and cannot create a new \(r_+\) maximum; finite dissipation controls the radius-weighted sum only under bounded overlap, while each event has an individual fixed Gold lower bound that accumulates only on disjoint heat intervals. | No theorem extracts the scale or event from large \(I\); the scalar stack is not an NS history; no packet, annulus, carrier, viscosity lag, datum net-variation bound, or closure. | Ontology advance, exact Gold diagnostic, and energy-only obstruction. |
 | 052 | The same participant concentrates its positive compression-rate field while the complete VPI source tries to rebuild that field against simultaneous direct heat. | Sharp \(L^2/L^6\) concentration--Rayleigh law, exact joined rise identity, scale-invariant \(\mathcal R_{6,+}\) occupancy, and a scalar no-spacetime-event stack on decaying \(\mathbb R^3\). | Smaller global rate-field concentration volume forces a shorter upper direct-heat clock; actual rise requires the complete simultaneous source to overrun that faster clock. Cycle 053 later extracts the instantaneous spatial content that Cycle 052 underread. | The coordinates supply no location, ball, material carrier, fixed-scale heat-time persistence, bounded overlap, full-participant response-speed band, or Gold closure; the scalar stack is not an NS history. | Ontology advance and exact Gold diagnostic, with its spatial underread corrected by 053. |
-| 053 | At a time when the same participant has order-one invariant compression rate, ask what spatial footprint already exists and what the complete simultaneous VPI source must do to keep raising it against direct heat. | Weak-\(L^{3/2}\) layer-cake extraction, exact signed \(\dot H^{-1}\)/\(L^{6/5}\) source projection, magnitude-only scalar countertests, and a conditional \(L_t^2\) Gold supplier on decaying \(\mathbb R^3\). | Some heat scale \(s\) already carries total \(r_+\)-superlevel measure of order \(s^3\); continued rise occurs only through the positive dual projection of the joined source onto that same rate pattern, not through source magnitude elsewhere or with the wrong sign. | The set may be fragmented and the selected scale may change instantly; no ball, packet, annulus, material carrier, fixed-scale heat-time persistence, datum source-action bound, favorable component sign, Gold closure, or Silver exit follows. | Ontology advance, correction of the Cycle 052 spatial picture, and exact conditional Gold supplier. |
+| 053 | At a time when the same participant has order-one invariant compression rate, ask what global superlevel measure already exists and what the complete simultaneous VPI source must do at each rising instant against direct heat. | Weak-\(L^{3/2}\) layer-cake extraction, exact signed \(\dot H^{-1}\)/\(L^{6/5}\) source projection, magnitude-only scalar countertests, and a conditional \(L_t^2\) Gold supplier on decaying \(\mathbb R^3\). | Some heat scale \(s\) carries total \(r_+\)-superlevel measure at least a universal constant times \(\mathcal R_{6,+}^{3/2}s^3\); each rising instant requires positive dual projection of the joined source onto simultaneous \(r_+(t)\), not source magnitude elsewhere or with the wrong sign. | The set may be fragmented and the selected scale may change instantly; no ball, packet, annulus, material carrier, fixed-scale heat-time persistence, datum source-action bound, favorable component sign, Gold closure, or Silver exit follows. | Ontology advance, correction of the Cycle 052 spatial picture, and exact conditional Gold supplier. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -781,8 +781,9 @@ Therefore, for every \(0<\eta<1\), some scale \(s\) satisfies
 \]
 
 The physical readback is not a metaphor: order-one invariant rate means that,
-at that instant, the same rate field occupies order \(s^3\) total volume at
-the heat-scale amplitude \(\nu/s^2\). The set can be disconnected, need not
+at that instant, the same rate field has a superlevel set of total measure at
+least a universal constant times \(s^3\) at the heat-scale amplitude
+\(\nu/s^2\). The set can be disconnected, need not
 lie in one ball, and the selected scale can change with time. Thus the
 remaining event gap is fixed-scale heat-time persistence, not instantaneous
 global thickness.
@@ -819,9 +820,9 @@ so \(G\in L_t^2\dot H_x^{-1}\), or
 \(G\in L_t^2L_x^{6/5}\), is a sufficient square-rate Gold supplier. No datum
 bound for either action is proved, and the condition extracts no location or
 heat-time persistence. The next physical theorem must show whether the actual
-joined VPI source can keep one of the instantaneous slices alive at one scale
-for a heat-time fraction, or else bound the positive dual action needed to
-continually abandon and recreate those slices. No favorable pressure sign,
+joined VPI source can keep an extracted threshold scale thick for a heat-time
+fraction, or else bound the positive dual action while the selected scales
+change. No favorable pressure sign,
 viscosity lag, full-participant speed band, Gold closure, or Silver exit is
 proved.
 
