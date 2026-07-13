@@ -74,11 +74,12 @@ older cycle files are evidence, not competing authority.
 | 039 | Spectral shape has a signed same-history equation and exact terminal-fitted Eulerian Duhamel attribution. Positive variation, material ancestry, and bounded descendant fibres do not follow. |
 | 040 | Critical height is energy times a global mean Fourier radius; rise requires centroid lift faster than viscous depletion. Pell triads refute a relative spectral-bandwidth floor, not spatial spikiness. |
 | 041 | Every rising state has a datum-dependent lower bound on global Fourier-radius variance and a bounded uninterrupted-rise duration. Two shells or a remote tail can realize the variance; no spatial widening or material carrier follows. |
-| 042 | One history has finite rising-frequency occupancy; varying data refute event quanta based only on time, raw energy loss, or fixed subcritical occupancy. Compound fixed-history VPI charges are not refuted. |
+| 042 | One history has finite rising mean-frequency occupancy; Cycle 047 sharpens it to finite \(D/K\) occupancy. Varying data refute event quanta based only on time, raw energy loss, or fixed subcritical occupancy. Compound fixed-history VPI charges are not refuted. |
 | 043 | Pressure and viscosity share the pulled-back material metric, critical production has an instantaneous global all-chord material-work form, and a material surface has a circulation/area alternative. These are exact coordinates and alternatives, not a response-time, causal-incidence, local core/collar, or Gold theorem. |
 | 044 | Positive local material work activates a contracting direction whose matched frozen dual pressure--viscous symbol increases immediately. This is instantaneous joined geometry, not stronger physical viscosity, favorable pressure, persistence, a response-time bound, or Gold control; Cycle 045 corrects its understated first-gradient consequence. |
 | 045 | Positive work already forces a same-point compressive gradient. Its normalized rate \(r=w/\operatorname{tr}\mathsf T_u\) has a datum-finite material-volume \(L^2\) budget, while critical growth weights it by the all-chord density. This is a physical rate law, not core localization, critical-gradient-difference incidence, persistence, no-recount, or Gold closure. |
 | 046 | The all-chord density has a sharp \(L^1_tL^{3/2}_x\) fixed-material capacity bound, yet repeated doublings force divergent inverse work-effective volume and harmonic-volume collapse. This is exact material-center concentration, not fluid mass, a shrinking packet/core/annulus, sufficient blowup geometry, or Gold closure. |
+| 047 | During actual rise, finite normalized-work exposure controls \(D/K\), while each doubling requires a fixed scale-critical square-rate action. A terminal ladder must form increasingly high, short work-rate bursts. This is temporal intermittency of a same-field rate, not viscosity lag, packet travel, persistent material ownership, or Gold closure. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -415,6 +416,53 @@ same-carrier capacity/good-lambda theorem that implies it. The core--collar
 construction is one possible supplier, not the definition of Gold. This is a
 proved ontology advance and a strict target reduction, not proof of the new
 integrability theorem or MPP closure. Silver is unchanged.
+
+Cycle 047 installs F7.14--F7.15 and re-audits Cycle 042. The sign-blind
+density ceiling
+
+\[
+\|\tau\|_2^2\le CKD
+\]
+
+is true but is not the physical mechanism: exact high-frequency heat shears
+make \(KD/\mathcal H_{1/2}^2\) arbitrarily large while
+\(V_{\mathrm{work}}^{-1}=0\). The same ceiling becomes selective only on
+the actual rising set. With
+
+\[
+I(t)=\int r_+^2\,da,
+\]
+
+the joined critical balance forces
+
+\[
+\frac DK\le C\frac I{\nu^2},
+\qquad
+\left(\log\mathcal H_{1/2}\right)'
+\le C\frac{I^2}{\nu^3}.
+\]
+
+Consequently \(\int_GD/K\,dt\le C\mathcal E_0/\nu^3\), sharpening
+Cycle 042's \(K/R\) occupancy. Every doubling also requires a fixed
+\(I^2\) action. Since energy gives only \(\int I\,dt<\infty\), a terminal
+ladder must convert finite normalized-work exposure into increasingly high,
+short rate bursts.
+
+This is the exact temporal version of the response-rate picture. It does not
+say that viscosity waits, that a wave travels, or that one material packet
+repeats. The new direct target
+\(NormalizedPositiveWorkRateSquareIntegrability.A\) asks for
+
+\[
+\int_G\left(\int r_+^2\,da\right)^2dt<\infty.
+\]
+
+It is scale critical and one-sided: \(I\le K/2\), while heat shears can have
+\(I=0<K\). It bypasses rather than proves
+\(WorkEffectiveMaterialVolumeIntegrability.A\); the two are parallel temporal
+and spatial-density suppliers. Neither is proved from the datum. This cycle is
+a proved physical ontology advance and target refinement, not MPP closure.
+Silver is unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
