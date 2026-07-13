@@ -69,7 +69,7 @@ older cycle files are evidence, not competing authority.
 | 034 | Compare a source pulse, later focusing, rippled field, and vortex inside one VPI participant. | All-center pair distribution, conditional material core--annulus relay, and exact ripple/shear laws. | These are distinct admitted pictures with distinct exact equations. | Their shared inverse-distance algebra supplies no common carrier. | Physical synthesis plus ontology facts. |
 | 035 | Let global critical height rise while separately tracking a local crest--trough event. | Global pair-scale action-rate lower bound and local pressure-gradient/curvature amplitude law. | Global rise and local ripple growth are different relational events. | Neither identifies the other or a ripple carrier. | Conditional bound plus exact countertest. |
 | 036 | Express the current state in material-pair coordinates and localize it to a cohort. | Positive \(J_{\rm pair}\), four exact residual rows, and failed automatic disintegration. | Localization exposes joined boundary, leakage, derivative, and selection defects. | No historical measure, same-event support, or bounded fibre intensity. | Coordinate theorem and route obstruction. |
-| 037 | Compare a vanishing-age varying-data event with a terminal-fitted fixed-age window. | No universal dwell counterfamily, late reconstruction theorem, and residual recombination. | Physical dwell and endpoint reconstruction are different questions. | No generic ancestry, WLF first admission, or four independent debts. | Countertest and route correction. |
+| 037 | Compare a vanishing-age varying-data event with a terminal-fitted fixed-age window. | No universal positive normalized heat-age floor for every fine-current episode, late reconstruction theorem, and residual recombination. | Normalized heat age and endpoint reconstruction are different questions. | No physical/material dwell theorem, generic ancestry, WLF first admission, or four independent debts. | Countertest and route correction. |
 | 038 | Start from a one-shell state whose present critical shape is null. | First Taylor-order off-shell source response and near-null ratio obstruction. | The same source can create the next global spectral-shape direction. | No spatial/material carrier or immediate height growth. | Source-response countertest. |
 | 039 | Follow signed spectral shape through one full history and endpoint probe. | Exact shape equation, Duhamel attribution, and positive-variation counterexample. | Spectral shape is a signed same-history state. | No material ancestry, positive common measure, or bounded descendant fibres. | Ontology fact and route obstruction. |
 | 040 | Factor critical height into energy and global mean Fourier radius. | Exact centroid-rate identity and Pell relative-bandwidth counterfamily. | Rise means centroid lift faster than viscous depletion. | Relative bandwidth is not spatial spikiness. | Ontology coordinate and no-go. |
@@ -154,7 +154,9 @@ Cycle 037 installs F6.15 and F6.16 and removes the excess burden in that
 Cycle 036 conclusion. Positive elapsed time gives a strict heat loss whose
 fraction depends on \(q=\nu\tau/\ell^2\); an exact varying-data fixed-energy
 family can carry positive fine current with \(q\to0\), so there is no universal
-physical dwell floor for every active episode. An assumed terminal record has
+positive normalized heat-age floor for every fine-current episode. This is not
+a physical or material dwell theorem because no retained carrier was
+constructed. An assumed terminal record has
 a different exact fact: the endpoint-selected heat window has fixed \(q=c\),
 and homogeneous inheritance leaves a fixed deficit that must be reconstructed
 by late pressure-completed source work. That future-fitted window supplies no
