@@ -10954,6 +10954,110 @@ critical-height theorem. The F7.36 witness itself is periodic and supplies no
 decaying-\(\mathbb R^3\) result. It proves neither that frame motion precedes
 signed work nor that one participant traverses the comparison witnesses.
 
+### F7.37 Vorticity stretching and all-chord critical work differ exactly by one joined native-weight-and-orientation mismatch, and neither event sign controls the other
+
+Let \(u\) be a smooth unforced incompressible Navier--Stokes solution at fixed
+\(\nu>0\) on decaying \(\mathbb R^3\) or normalized periodic
+\(\mathbb T^3\). Remove the conserved torus mean and write
+
+\[
+H=\frac12\|\Lambda^{1/2}v\|_2^2,
+\qquad
+R=2H,
+\qquad
+K=\|\omega\|_2^2,
+\]
+
+\[
+D=\|\Lambda^{3/2}v\|_2^2,
+\qquad
+D_2=\|\nabla\omega\|_2^2,
+\qquad
+m_H=\frac KR=\frac K{2H}.
+\]
+
+The identities below are asserted at nonzero times \(H>0\). At the zero
+mean-free state the original critical-height and enstrophy balances vanish;
+the quotient, probability, and differentiated quantities are not assigned
+values there.
+
+Retain the all-chord density and orientation from F7.11 and F7.16:
+
+\[
+r=-S:\Pi,
+\qquad
+\int\tau\,dx=4H,
+\qquad
+P_H=\int\tau r\,dx,
+\qquad
+H'=P_H-\nu D.
+\]
+
+Retain the global vorticity-stretch production and the F7.26 orientation
+residual:
+
+\[
+\mathcal P_\omega=\int\omega\cdot S\omega\,dx,
+\qquad
+\frac12K'+\nu D_2=\mathcal P_\omega,
+\]
+
+\[
+\mathfrak m_{\omega,\Pi}
+=S:(\Pi-\Theta_{\omega,\perp}),
+\qquad
+\mathcal P_\omega
+=2\int|\omega|^2r\,dx
++2\int|\omega|^2\mathfrak m_{\omega,\Pi}\,dx.
+\]
+
+Here the last weighted product has its canonical zero extension through
+\(\omega=0\). At a nonzero time \(\tau\) is positive at every center: if its
+nonnegative all-chord integral vanished at one center, the mean-free field
+would be spatially constant, contradicting \(H>0\). Define
+
+\[
+\chi_{\omega/\tau}=\frac{|\omega|^2}{\tau},
+\qquad
+\bar\chi
+=\frac{\int\tau\chi_{\omega/\tau}\,dx}{\int\tau\,dx}
+=\frac K{4H}
+=\frac{m_H}{2},
+\]
+
+\[
+\mathcal C_{\chi,r}
+=\int\tau(\chi_{\omega/\tau}-\bar\chi)r\,dx,
+\qquad
+\mathcal R_{\omega,\Pi}
+=\int|\omega|^2\mathfrak m_{\omega,\Pi}\,dx,
+\]
+
+\[
+\boxed{
+\mathcal B_{\omega,\tau}
+:=\mathcal C_{\chi,r}+\mathcal R_{\omega,\Pi}.
+}
+\]
+
+The two displayed summands are exact scalar-weight and orientation
+coordinates. They are not separately owned mechanisms; only their joined
+signed sum enters the participant law. Centering the native weights gives
+
+\[
+\int|\omega|^2r\,dx
+=\mathcal C_{\chi,r}+\frac{m_H}{2}P_H,
+\]
+
+and therefore the exact static recombination
+
+\[
+\boxed{
+\mathcal P_\omega
+=m_HP_H+2\mathcal B_{\omega,\tau}.
+}
+\]
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
