@@ -1014,7 +1014,7 @@ or a packet mechanism.  No datum-time control, Gold-rise placement, strict
 Gold reduction, closure, or Silver exit follows.
 
 Twenty-seventh live gate result, 2026-07-13: Cycle 064 installs F7.32 and
-identifies an exact full null class for the direct orientation quantity. On
+identifies an exact null subclass for the direct orientation quantity. On
 normalized periodic \(\mathbb T^3\), every smooth nonconstant global
 fixed-direction field
 
@@ -1036,10 +1036,12 @@ has
 }
 \]
 
-The gradient-increment tensor has the same normalized shape, so
+For constant profiles, \(\tau=0\) and \(\Pi\) has no referent. The
+gradient-increment tensor for a nonconstant profile has the same normalized shape, so
 \(\mathsf G_u-g\Pi=0\). For an incompressible shear, convection vanishes up
 to uniform translation, pressure is constant, viscosity evolves the waveform
-by heat, and \(S:\Pi=r=P_H=0\). The exact scalar sinusoidal heat shear has
+by heat, and \(S:\Pi=r=P_H=0\). For a coordinate unit normal, the exact
+scalar sinusoidal heat shear has
 
 \[
 v_{\rm amp}=\frac{3a(t)^2N^3}{2(2-\cos(2Nn\cdot z))}>0
@@ -1132,7 +1134,8 @@ strict Gold reduction, closure, or Silver exit.
   heat-decaying shear makes it arbitrarily large at fixed initial energy across
   data at \(t=0\) while \(\mathcal Q_\Pi=0\). No datum-time or Gold-placement theorem for the
   direct quantity is installed. Cycle 064 proves that \(\mathcal Q_\Pi\)
-  vanishes on the entire global one-direction periodic shear class even when
+  vanishes on the entire smooth nonconstant global one-direction periodic
+  shear class even when
   centered amplitude variance is positive; departure from one lattice line is
   necessary but not sufficient for interaction. Another route may bypass the
   orientation quantity. Older WLF/ODP,
