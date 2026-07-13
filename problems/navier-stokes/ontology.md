@@ -711,17 +711,30 @@ The measure-theoretic distinction is exact.  A measurable ancestry map
 
 pushes a child measure on \(\mathcal Y\) forward to a parent measure on
 \(\mathcal A\).  A parent measure \(\mu\) does not have a canonical inverse
-pushforward through a many-to-one \(\pi\).  Distributing \(\mu\) among the
-children requires a kernel \(\kappa(a,dI)\), supported on
-\(\pi^{-1}\{a\}\).  Bounded descendant multiplicity is the additional
-estimate
+pushforward through a many-to-one \(\pi\). To encode the intensity of selected
+child readouts, one must first define a child incidence measure \(\nu\) on
+\(\mathcal Y\). If \(\pi_\#\nu\ll\mu\), its disintegration relative to
+\(\mu\) has the form
 
 \[
-\int_{\pi^{-1}\{a\}}\kappa(a,dI)\le C
-\qquad\text{for \(\mu\)-almost every }a;
+\nu(dI)=\kappa(a,dI)\,\mu(da),
+\qquad
+\operatorname{supp}\kappa(a,\cdot)\subseteq\pi^{-1}\{a\}.
 \]
 
-it is not a consequence of the parent label.
+The actual descendant intensity is
+
+\[
+m(a)
+=\kappa\!\left(a,\pi^{-1}\{a\}\right)
+=\frac{d\pi_\#\nu}{d\mu}(a).
+\]
+
+Bounded descendant multiplicity is the additional estimate \(m(a)\le C\)
+for \(\mu\)-almost every \(a\). It is not a consequence of the parent label.
+If \(\pi_\#\nu=\mu\), then the conditional kernels are probability kernels and
+\(m=1\); that normalized disintegration alone says nothing about the total
+linear readout intensity that had to be placed in \(\nu\).
 
 Orthogonal first admission does not supply this missing linear bound.  In
 \(\ell^2\), let
