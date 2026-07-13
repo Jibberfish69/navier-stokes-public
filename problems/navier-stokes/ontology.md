@@ -4082,6 +4082,11 @@ violate this bound.  F6.9 and F6.16 still rule out a universal normalized
 dwell or attenuation gap.  For one fixed datum, however, any sequence of
 rising times with \(m_H\to\infty\) must also satisfy \(s_H\to\infty\).
 
+This is only growth of a global Fourier-radius standard deviation. Two
+separated shells or a small remote spectral tail can create that variance. It
+proves no spatial widening, co-located ripples, beats, envelopes, annulus, or
+material carrier.
+
 This excludes bounded-absolute-width high-centroid rising histories.  It
 supplies no datum-finite upper bound for \(A_H\), \(J_{\rm pair}\), or
 \(J_{\rm rad}\), and the permitted intervals can shrink on a summable
