@@ -9066,6 +9066,8 @@ one has
 \[
 \chi_{\omega/\tau,A}=A^2\chi_{\omega/\tau},
 \qquad
+J_{\omega/\tau,A}=A^6J_{\omega/\tau},
+\qquad
 \frac{
 \int|\omega_A|^2|\nabla\Pi_A|_F^2dx
 }{
@@ -9079,6 +9081,13 @@ one has
 },
 \qquad
 R_A=A^{-2}R.
+\]
+
+On the corresponding \(A^{-5}\)-length physical intervals,
+
+\[
+\int J_{\omega/\tau,A}(t)dt
+=A\int J_{\omega/\tau}(s)ds.
 \]
 
 The scaling of \(6\pi/R_A\) exactly matches the scaling of
