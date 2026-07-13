@@ -675,6 +675,49 @@ is not a \(K\)-entrance, the Fourier tail is not located on the rate
 superlevel union, and no packet, material carrier, cascade, Gold closure, or
 Silver exit follows.
 
+Twenty-first live gate result, 2026-07-13: Cycle 058 installs F7.26 and gives
+the first exact same-strain bridge between the vorticity-stretching and
+critical-compression readings. With
+
+\[
+\Theta_{\omega,\perp}=\frac12(I-\xi\otimes\xi),
+\qquad
+\mathfrak m_{\omega,\Pi}=S:(\Pi-\Theta_{\omega,\perp}),
+\]
+
+incompressibility gives
+
+\[
+r=\frac{\alpha_\omega}{2}-\mathfrak m_{\omega,\Pi},
+\qquad
+Z=2\int|\omega|^2r\,dx
++2\int|\omega|^2\mathfrak m_{\omega,\Pi}\,dx.
+\]
+
+For every interval \(J\) on which enstrophy doubles,
+
+\[
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}\,dt
+\le
+\frac8{\pi^4\nu^3}\int_JI^2dt
++2\mathcal M_J,
+\qquad
+\mathcal M_J
+=\int_J\frac1K\int|\omega|^2
+[\mathfrak m_{\omega,\Pi}]_+\,dx\,dt.
+\]
+
+Thus every doubling forces a fixed amount of rate-square action or positive
+strain-contracted readout-residual action. This does not synchronize
+\(I\)- and \(K\)-entrances or close Gold: the \(I^2\) action is not restricted
+to the critical-height rising set, the residual has no datum budget or
+independent dynamics, and critical work and enstrophy use different spatial
+weights. The normalized transverse tensor is a comparison orientation, not
+a spatial collar or vortex annulus, and the all-chord orientation is nonlocal.
+No causal transfer, packet, material carrier, pressure sign, Gold closure, or
+Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -691,7 +734,7 @@ Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.25 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.26 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -725,7 +768,14 @@ Silver exit follows.
   theorem must couple the rate-source and enstrophy-palinstrophy ladders on one
   original history, datum-control the low-rate-Reynolds source branch, bound
   the complete source or palinstrophy action, or bypass them through another
-  direct square-rate theorem. The
+  direct square-rate theorem. Cycle 058 proves that vorticity stretching and
+  critical compression read the same trace-free strain through the vorticity
+  axis and the nonlocal all-chord orientation. Every enstrophy doubling now
+  forces full-interval rate-square action or positive strain-contracted
+  readout-residual action. The residual is signed, has no independent budget,
+  and is not an orientation distance or Gold currency; the rate-square action
+  is not restricted to the Gold rising set and the \(\tau\) and
+  \(|\omega|^2\) weights remain unbridged. The
   fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
