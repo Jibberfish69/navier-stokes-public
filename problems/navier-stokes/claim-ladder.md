@@ -711,10 +711,12 @@ For every interval \(J\) on which enstrophy doubles,
 Thus every doubling forces a fixed amount of rate-square action or positive
 strain-contracted readout-residual action. This does not synchronize
 \(I\)- and \(K\)-entrances or close Gold: the \(I^2\) action is not restricted
-to the critical-height rising set, the residual has no datum budget or
-independent dynamics, and critical work and enstrophy use different spatial
-weights. The normalized transverse tensor is a comparison orientation, not
-a spatial collar or vortex annulus, and the all-chord orientation is nonlocal.
+to the critical-height rising set, the vorticity-selected residual action has
+no proved datum bound or independent dynamics, and critical work and enstrophy
+use different spatial weights. Cycle 059 separately proves the raw
+ordinary-volume residual budget. The normalized transverse tensor is a
+comparison orientation, not a spatial collar or vortex annulus, and the
+all-chord orientation is nonlocal.
 No causal transfer, packet, material carrier, pressure sign, Gold closure, or
 Silver exit follows.
 
