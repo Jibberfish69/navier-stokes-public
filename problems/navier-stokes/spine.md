@@ -84,8 +84,8 @@ is unchanged.
 
 Cycle 037 installs F6.15 and F6.16 and removes the excess burden in that
 Cycle 036 conclusion. Positive elapsed time gives a strict heat loss whose
-fraction depends on \(q=\nu\tau/\ell^2\); an exact fixed-energy participant
-can carry positive fine current with \(q\to0\), so there is no universal
+fraction depends on \(q=\nu\tau/\ell^2\); an exact varying-data fixed-energy
+family can carry positive fine current with \(q\to0\), so there is no universal
 physical dwell floor for every active episode. An assumed terminal record has
 a different exact fact: the endpoint-selected heat window has fixed \(q=c\),
 and homogeneous inheritance leaves a fixed deficit that must be reconstructed
