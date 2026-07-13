@@ -1870,6 +1870,18 @@ Consequently the global enstrophy balance can be read as
 }
 \]
 
+Here the polar terms have their canonical weighted extensions across the
+vorticity zero set:
+\(
+\alpha_\omega\rho^2:=\omega\cdot S\omega
+\)
+and
+\(
+\rho^2|\nabla\xi|^2:=|\nabla\omega|^2-|\nabla\rho|^2
+\)
+almost everywhere.  Equivalently, the polar terms may be integrated on
+\(\{\rho>0\}\) and zero-extended almost everywhere in these weighted forms.
+
 Thus \(\alpha_\omega\) changes vorticity magnitude, while \(b\) is the
 strain-driven part of the instantaneous vorticity-direction turn. Viscosity
 simultaneously acts on magnitude variation and direction variation; \(b\) is
@@ -8528,8 +8540,10 @@ r
 
 The coefficient \(3/2\) is the strain gap between axial stretch
 \(\alpha_\omega\) and the incompressibility-forced transverse mean
-\(-\alpha_\omega/2\).  Pure normalized transverse incidence has
-\(\pi_\parallel=0\) and recovers \(r=\alpha_\omega/2\). Isotropic incidence
+\(-\alpha_\omega/2\).  The normalized transverse reference incidence
+\(\Pi=\Theta_{\omega,\perp}\) recovers
+\(r=\alpha_\omega/2\). Merely imposing \(\pi_\parallel=0\) is insufficient:
+it forces \(\beta_\Pi=0\), but a transverse quadrupole may remain. Isotropic incidence
 has \(\pi_\parallel=1/3\), zero cross and quadrupole blocks, and gives
 \(r=0\). Pure axial incidence has \(\pi_\parallel=1\) and gives
 \(r=-\alpha_\omega\).
@@ -8612,8 +8626,9 @@ No unweighted residual direction is asserted on the vorticity zero set: the
 displayed residual integrals use \(\{\omega\ne0\}\), while the source identity
 has its canonical \(|\omega|^2\)-weighted zero extension.
 
-The raw first moment does not control the enstrophy-selected action. Applying
-the F7.25 sharp Sobolev chain separately to \(r_+\) and
+The raw first moment does not control the enstrophy-selected action. On the
+decaying-\(\mathbb R^3\) surface of F7.25, applying its sharp Sobolev chain
+separately to \(r_+\) and
 \([\mathfrak m_{\omega,\Pi}]_+\), and assigning one quarter of the normalized
 viscous term to each, gives on every interval \(J=[a,b]\) with
 \(K(b)=2K(a)>0\),
