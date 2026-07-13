@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 046.
+**Current promoted checkpoint:** Cycle 047.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -281,6 +281,65 @@ cannot prove it: the missing step must couple the positive rate and the
 all-chord density, upgrade the active density from \(L^{3/2}\) to the required
 \(L^2\) concentration control, or obtain the same effect through a
 same-carrier capacity/good-lambda theorem.
+
+Cycle 047 tests the first \(L^2\)-density upgrade and separates its physical
+and nonphysical parts. The valid sign-blind ceiling is
+
+\[
+\|\tau\|_2^2\le CKD,
+\qquad
+V_{\mathrm{work}}^{-1}
+\le C\frac{KD}{\mathcal H_{1/2}^2}.
+\]
+
+It is not the mechanism: an exact high-frequency heat shear has
+\(V_{\mathrm{work}}^{-1}=0\) while the right-hand side grows like \(N^3\).
+The ceiling becomes physically selective only when the same field is actually
+rising. With
+
+\[
+I(t)=\int r_+(a,t)^2\,da,
+\]
+
+the joined critical balance forces, on
+\(G=\{\mathcal H_{1/2}'>0\}\),
+
+\[
+\frac DK\le C\frac I{\nu^2},
+\qquad
+\left(\log\mathcal H_{1/2}\right)'
+\le C\frac{I^2}{\nu^3}.
+\]
+
+Finite initial energy already gives \(\int I\,dt<\infty\). A terminal ladder
+must therefore turn that finite total exposure into nonintegrable square
+bursts:
+
+\[
+I\in L^1(0,T_*),
+\qquad
+I\notin L^2(G),
+\]
+
+with a fixed \(I^2\)-action on every doubling and diverging late peak rates.
+This is the precise physical temporal-intermittency requirement. It does not
+assert viscosity lag, wave collision, packet travel, annular motion, or
+repeated ownership by one material core.
+
+The simplest new direct Gold supplier is
+\(NormalizedPositiveWorkRateSquareIntegrability.A\):
+
+\[
+\int_G
+\left(\int r_+^2\,da\right)^2dt<\infty.
+\]
+
+F7.15 proves that this condition bounds critical height. It is not proved from
+the datum. It bypasses rather than proves
+\(WorkEffectiveMaterialVolumeIntegrability.A\); the latter would follow from
+the stronger \(I\in L^3_t\) estimate through the current ceiling. The two
+targets expose temporal-rate and spatial-density faces of the same remaining
+participation problem.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
