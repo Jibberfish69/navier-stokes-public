@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 053.
+**Current promoted checkpoint:** Cycle 054.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -6814,7 +6814,7 @@ integrated superlevel occupancy, bounded overlap, source recurrence, full-partic
 response speed, favorable pressure sign, viscosity lag, Gold closure, or
 Silver exit.
 
-### F7.21 Order-one norm rate forces an instantaneous heat-scale slice, while each rising instant requires signed complete-source projection
+### F7.21 Order-one norm rate forces an instantaneous threshold slice, while each rising instant requires signed complete-source projection
 
 This fact is restricted to the same decaying \(\mathbb R^3\) surface as
 F7.20. Put \(f=r_+\) and define its weak-\(L^{3/2}\) amplitude by
@@ -6883,10 +6883,14 @@ then yields the instantaneous global total-superlevel-measure law
 
 Thus an order-one \(\mathcal R_{6,+}\) forces, at that instant, total
 superlevel measure at least a universal constant times \(s^3\) at the
-heat-scale rate \(\nu/s^2\). The theorem does not place that set in one ball
-or connected component: \(E_s\) may be arbitrarily
-fragmented, and the selected \(s=s(t)\) may change at every time. A localized
-ball would require an additional non-dichotomy or scale-tightness theorem. An
+threshold \(\nu/s^2\). Here \(s\) is a distributional threshold parameter,
+not the radius or diffusion length of a connected component. The theorem does
+not place that set in one ball or connected component: \(E_s\) may be
+arbitrarily fragmented. Smooth preterminal evolution gives some nonzero
+persistence after lowering the threshold, but no duration comparable to
+\(s^2/\nu\); the near-maximizing selector itself has no proved heat-time
+stability. A localized ball would require an additional non-dichotomy or
+scale-tightness theorem. An
 F7.19 event at scale \(s\) requires a heat interval \(J\),
 \(|J|=s^2/\nu\), with
 
@@ -6900,7 +6904,7 @@ A per-time lower bound of order \(s^3\) on a positive fraction of \(J\) is one
 stronger sufficient route to this integrated occupancy, not a necessary
 condition.
 
-The complete source needed to sustain or rebuild this rate remains joined.
+The fixed-threshold evolution remains joined to the complete source.
 Let
 
 \[
@@ -6938,7 +6942,8 @@ rewrites the joined balance as
 \]
 
 Hence rise is possible only if the complete source has positive projection
-onto the same \(r_+\) pattern and that projection beats direct heat:
+onto the simultaneous \(r_+\) configuration and that projection beats direct
+heat:
 
 \[
 I'>0
@@ -7023,13 +7028,201 @@ scale-invariant after multiplication by \(\mathcal E_0\).
 
 The physical conclusion is exact. A large invariant norm rate already forces
 an instantaneous global superlevel set with the stated total-measure lower
-bound; that set may be arbitrarily fragmented. At each rising instant, growth
-is not caused by source magnitude alone: the complete simultaneous VPI source
-must project positively onto the simultaneous \(r_+(t)\) configuration
-strongly enough to outrun direct heat. Nothing here proves that one scale or
-one spatial region persists, that a material carrier follows it, that pressure
-or viscosity has a separate favorable sign, that the datum bounds the needed
+bound; that set may be arbitrarily fragmented, and \(s\) is not thereby a
+geometric component length. At each rising instant, growth is not caused by
+source magnitude alone: the complete simultaneous VPI source must project
+positively onto the simultaneous \(r_+(t)\) configuration strongly enough to
+outrun direct heat. Nothing here proves quantitative heat-time persistence,
+that one spatial region or material carrier follows it, that pressure or
+viscosity has a separate favorable sign, that the datum bounds the needed
 source action, or that Gold or Silver closes.
+
+### F7.22 Fixed-threshold excess obeys a joined interface law, and an instantaneous slice forces heat-time residence or quantified VPI rebuilding/removal
+
+Retain the smooth decaying \(\mathbb R^3\) surface of F7.21 and the complete
+equation
+
+\[
+(D_t-\nu\Delta)r=\widetilde{\mathcal F}_r.
+\]
+
+For a fixed threshold \(a>0\), put
+
+\[
+H_a=\int(r-a)_+\,dx,
+\qquad
+E_a=\int(r-a)_+^2\,dx,
+\]
+
+\[
+D_a^{(1)}=\int_{\{r=a\}}|\nabla r|\,d\mathcal H^2,
+\qquad
+D_a^{(2)}=\int_{\{r>a\}}|\nabla r|^2\,dx,
+\qquad
+P_a=\int(r-a)_+\widetilde{\mathcal F}_r\,dx.
+\]
+
+Convex-chain calculus, incompressibility, and complete-field integration give,
+for almost every regular threshold and in the corresponding distributional
+form in general,
+
+\[
+\boxed{
+H_a'+\nu D_a^{(1)}
+=\int_{\{r>a\}}\widetilde{\mathcal F}_r\,dx,
+\qquad
+\frac12E_a'+\nu D_a^{(2)}=P_a.
+}
+\]
+
+Thus direct heat drains convex fixed-threshold excess through the complete
+level interface and its interior gradient, while the joined trace-free VPI
+source supplies or removes the same excess. These are not separate ledgers.
+If \(m_a(t)=|\{r(\cdot,t)>a\}|\), then at regular levels
+
+\[
+\partial_tm_a
+=\nu\partial_aD_a^{(1)}
++\int_{\{r=a\}}
+\frac{\widetilde{\mathcal F}_r}{|\nabla r|}\,d\mathcal H^2.
+\]
+
+Raw superlevel volume therefore has no one-sided heat sign: heat can lower a
+peak while enlarging a lower superlevel region. The sign-definite heat terms
+belong to the convex truncations above. Layer cake and coarea give
+
+\[
+H_a=\int_a^\infty m_\lambda\,d\lambda,
+\qquad
+E_a=2\int_a^\infty(\lambda-a)m_\lambda\,d\lambda,
+\]
+
+and, at regular levels,
+
+\[
+-\partial_am_a
+=\int_{\{r=a\}}\frac1{|\nabla r|}\,d\mathcal H^2,
+\]
+
+so Cauchy--Schwarz and the Euclidean isoperimetric inequality yield
+
+\[
+\boxed{
+D_a^{(1)}(-\partial_am_a)
+\ge \operatorname{Per}(\{r>a\})^2
+\ge(36\pi)^{2/3}m_a^{4/3}.
+}
+\]
+
+Fragmentation can increase this interface burden; it does not turn total
+measure into one component or give the threshold parameter a geometric
+radius.
+
+The F7.21 slice now gives an exact heat-time alternative. Fix
+\(0<\eta,\vartheta<1\), suppose
+\(\mathcal R_{6,+}(t_0)\ge R_0>0\), and choose \(s\) from F7.21. Set
+
+\[
+k=\frac\nu{s^2},
+\qquad
+C_R=(\eta c_0R_0)^{3/2},
+\qquad
+a=\frac k2,
+\qquad
+e_*=\frac{C_R\nu^2}{4s}.
+\]
+
+Then
+
+\[
+m_k(t_0)\ge C_Rs^3,
+\qquad
+H_a(t_0)\ge\frac{C_R}{2}\nu s,
+\qquad
+E_a(t_0)\ge e_*.
+\]
+
+Let \(h=s^2/\nu\). On either one-sided heat interval contained in the smooth
+history, if
+
+\[
+|\{t:E_a(t)\ge e_*/2\}|\ge\vartheta h,
+\]
+
+then, because \(I(t)=\int r_+^2dx\ge E_a(t)\),
+
+\[
+\boxed{
+\int I(t)^2dt
+\ge\frac{\vartheta C_R^2}{64}\nu^3.
+}
+\]
+
+This is a scale-independent Gold-action quantum on that interval. If the
+alternative fails on the backward interval \([t_0-h,t_0]\), continuity gives
+a last upcrossing time \(\tau\) with \(E_a(\tau)=e_*/2\), and the exact
+truncation law gives
+
+\[
+\boxed{
+\int_\tau^{t_0}(P_a-\nu D_a^{(2)})\,dt
+\ge\frac{e_*}{4}
+=\frac{C_R\nu^2}{16s}.
+}
+\]
+
+Thus a late slice that did not already reside for a heat-time fraction had to
+be rebuilt by the complete source against simultaneous direct heat. If
+\(G=\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r\in\dot H^{-1}\) and
+\(q=\|G\|_{\dot H^{-1}}\), then
+
+\[
+P_a-\nu D_a^{(2)}
+\le q\sqrt{D_a^{(2)}}-\nu D_a^{(2)}
+\le\frac{q^2}{4\nu},
+\]
+
+and the rebuild branch forces
+
+\[
+\boxed{
+\int_\tau^{t_0}q(t)^2dt
+\ge\nu e_*
+=\frac{C_R\nu^3}{4s}.
+}
+\]
+
+On the forward interval \([t_0,t_0+h]\), failure of residence instead gives a
+first downcrossing and the removal law
+
+\[
+\int_{t_0}^{\tau}(\nu D_a^{(2)}-P_a)\,dt
+\ge\frac{C_R\nu^2}{16s}.
+\]
+
+This is the actual response distinction. Backward from a late high-rate slice,
+the participant either already carried Gold-visible fixed-threshold excess or
+the joined source rebuilt it against direct heat. Forward, it either remains
+Gold-visible or the joined evolution removes it. None of the alternatives
+assigns causal ownership to pressure or viscosity alone.
+
+The parameter \(s\) is still not a component heat length. Smooth scalar data
+made from many disjoint bumps of radius \(\delta\ll s\), height comparable to
+\(\nu/s^2\), and total volume comparable to \(s^3\) have
+\(\mathcal V_{6,+}\asymp s^3\), \(\mathcal R_{6,+}\asymp1\), but
+\(X/I\asymp\delta^{-2}\). Under pure heat their threshold occupancy lasts
+only \(O(\delta^2/\nu)\), an \(O((\delta/s)^2)\) fraction of the putative
+\(s^2/\nu\) clock. This scalar family is not a Navier--Stokes realization of
+\(r=-S:\Pi\); it proves only that total distributional measure does not
+identify a component radius or force heat-time persistence.
+
+No datum-finite bound on the rebuild action is proved. Different heat
+intervals may overlap and repeat the same action, and the theorem supplies no
+ball, packet, annulus, connected component, material carrier, favorable
+component sign, Gold closure, or Silver exit. The remaining Gold burden is a
+datum-finite bound on the joined source action or another square-rate theorem;
+event or residence alternatives acquire global force only with a proved
+same-history recurrence/no-recount law.
 
 ## Hard boundary: claims excluded from the ontology
 
