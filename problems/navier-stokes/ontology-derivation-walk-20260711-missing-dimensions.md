@@ -112,17 +112,17 @@ diffeomorphism and label-persistence sentence.
 **Question.** Can a part of the fluid be an autonomous participant, and what
 must a part carry to be lawful?
 
-**Repo audit.** Already answered by the corrected PD branch and its ledger
-records: the scalar-localizer no-go with Leray repair and pressure collar
+**Repo audit.** Already answered by the corrected PD branch: the
+scalar-localizer no-go with Leray repair and pressure collar
 (PD.11–PD.15, PD.13b), the scalar-view stress-pressure lock (PD.6–PD.8), and
 shared-interface traction-work antisymmetry
 (`20260710-participation-material-interface-work-antisymmetry` with its
-scope correction). The corrected F2 candidate filed this turn carries the
-byte-exact delta; its first validation returned narrowed and the fixed bytes
-are refiled under this walk's turn.
+scope correction). The corrected F2 candidate carries the narrowed exact
+statement.
 
 **Return.** NO NEW FACT beyond the live F2 candidate; the dimension is
-covered once that candidate passes validation and promotion.
+covered by that candidate's exact mathematical statement. Canonical status
+depends on its truth and scope, not on a separate lifecycle or turn sequence.
 
 ## D4. Representation versus model
 
