@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 052.
+**Current promoted checkpoint:** Cycle 053.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -586,17 +586,30 @@ Writing
 Consequently, the same concentration also raises the minimum normalized
 complete-source rate required for growth. The nonlocal pressure, strain,
 rotation, pair-shape, and viscous-reorientation rows remain joined in \(N\);
-only the explicit scalar Laplacian has been read as direct heat. The global
-volume \(\mathcal V_{6,+}\) gives no location, support, thickness, material
-carrier, persistence, or bounded-overlap family. A smooth scalar terminal
-pulse stack proves that even unbounded peaks with order-one
-\(\mathcal R_{6,+}\) and finite \(\int I\), \(\int X\), and \(\int I^2\)
-need not contain an F7.19 heat-thick event. That stack is not a
-Navier--Stokes realization. The remaining Gold burden is therefore a
-same-history theorem controlling the complete normalized source relative to
-this direct heat rate, or separately extracting and controlling the
-spatially persistent event that the global concentration readout does not
-supply.
+only the explicit scalar Laplacian has been read as direct heat.
+
+Cycle 053 corrects the spatial reading of this result. The pair
+\((I,\mathcal V_{6,+})\), through the invariant ratio
+\(\mathcal R_{6,+}\), does force an instantaneous heat-scale superlevel set:
+at every time with \(\mathcal R_{6,+}>0\), some scale \(s\) has
+\(r_+>\nu/s^2\) on total measure comparable to
+\(\mathcal R_{6,+}^{3/2}s^3\). This is genuine instantaneous spatial
+thickness of the complete rate field. It supplies no location, ball,
+connected component, packet, annulus, material carrier, or persistence at one
+scale for one heat time. A smooth scalar terminal pulse stack proves that even
+unbounded peaks with order-one \(\mathcal R_{6,+}\) and finite \(\int I\),
+\(\int X\), and \(\int I^2\) need not contain an F7.19 spacetime heat-thick
+event. That stack is not a Navier--Stokes realization.
+
+The same cycle also identifies the exact source relation. The rate can rise
+only through the positive dual projection of the complete simultaneous VPI
+source onto the already present \(r_+\) pattern; source magnitude elsewhere
+or with the wrong sign does not raise \(I\). A finite
+\(L_t^2\dot H_x^{-1}\) or \(L_t^2L_x^{6/5}\) norm of that complete source is
+a sufficient Gold supplier, but no such datum bound is proved. The remaining
+Gold burden is therefore a one-datum joined-source theorem strong enough to
+control this projection, or a fixed-scale heat-time persistence theorem for
+the instantaneous slices.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
@@ -6513,7 +6526,7 @@ its net positive growth intervals. No packet, annulus, persistent material carri
 pressure sign, viscosity lag, response-speed bound, Gold closure, or Silver
 exit follows here.
 
-### F7.20 Global compression-rate concentration shortens the direct heat clock but does not extract a heat-thick event
+### F7.20 Global compression-rate concentration shortens the direct heat clock but does not extract a spacetime heat-thick event
 
 This fact is restricted to decaying \(\mathbb R^3\), where the homogeneous
 Sobolev inequality has no lower-order constant-mode term. Put
@@ -6693,8 +6706,11 @@ by \(C\int f^3dx\), then this inequality absorbs that contribution when
 or assigning independent ownership to a bare cubic row, and it supplies no
 sign or bound for the complete source \(N\).
 
-The global concentration coordinates still do not extract the event in
-F7.19, even when \(\mathcal R_{6,+}\) stays of order one. To see the exact
+The global concentration coordinates still do not extract the spacetime event
+in F7.19, even when \(\mathcal R_{6,+}\) stays of order one. F7.21 corrects
+the sharper instantaneous statement: \(\mathcal R_{6,+}\) does extract a
+global heat-scale superlevel slice, but it does not keep one scale spatially
+thick for a positive fraction of its heat time. To test that remaining
 logical boundary, fix a reference length \(L\), choose nonnegative spatial
 bumps \(\phi,\psi\in C_c^\infty(\mathbb R^3)\) with disjoint supports, and
 let
@@ -6779,10 +6795,196 @@ finite, it is an event-extraction countermodel, not a Gold countermodel.
 The licensed physical conclusion stops here: global concentration of the
 same positive rate field forces a faster direct heat coefficient, and every
 actual rise must overrun that coefficient through the complete simultaneous
-VPI source. The result proves no spatial location, nearest crest--trough
-pair, constructive interference, packet, annulus, material persistence,
-bounded overlap, source recurrence, full-participant upper or lower response
-speed, favorable pressure sign, viscosity lag, Gold closure, or Silver exit.
+VPI source. F7.21 adds an instantaneous global spatial slice, but neither fact
+proves a spatial location, nearest crest--trough pair, constructive
+interference, packet, annulus, material persistence, fixed-scale heat-time
+occupancy, bounded overlap, source recurrence, full-participant upper or lower
+response speed, favorable pressure sign, viscosity lag, Gold closure, or
+Silver exit.
+
+### F7.21 Order-one norm rate forces an instantaneous heat-scale slice, while continued rise requires signed complete-source projection
+
+This fact is restricted to the same decaying \(\mathbb R^3\) surface as
+F7.20. Put \(f=r_+\) and define its weak-\(L^{3/2}\) amplitude by
+
+\[
+M(f):=
+\sup_{\alpha>0}
+\alpha\,|\{f>\alpha\}|^{2/3}.
+\]
+
+The distribution function obeys
+
+\[
+|\{f>\alpha\}|
+\le
+\min\left\{
+\left(\frac{M(f)}{\alpha}\right)^{3/2},
+\frac{\|f\|_6^6}{\alpha^6}
+\right\}.
+\]
+
+Splitting the layer-cake formula for \(\|f\|_2^2\) where the two bounds meet
+gives
+
+\[
+\|f\|_2^2
+\le
+\frac92 M(f)^{4/3}\|f\|_6^{2/3}.
+\]
+
+Therefore
+
+\[
+\boxed{
+M(f)
+\ge
+c_0\frac{\|f\|_2^{3/2}}{\|f\|_6^{1/2}}
+=c_0\nu\mathcal R_{6,+},
+\qquad
+c_0=\left(\frac29\right)^{3/4}.
+}
+\]
+
+For every \(0<\eta<1\), some threshold \(\alpha\) approaches the displayed
+supremum. Setting \(s=(\nu/\alpha)^{1/2}\) and
+
+\[
+E_s(t):=\left\{x:r_+(x,t)>\frac{\nu}{s^2}\right\}
+\]
+
+then yields the instantaneous spatial-thickness law
+
+\[
+\boxed{
+|E_s(t)|
+\ge
+(\eta c_0\mathcal R_{6,+}(t))^{3/2}s^3.
+}
+\]
+
+Thus an order-one \(\mathcal R_{6,+}\) cannot be made entirely from a
+measure-zero spike or a norm ratio with no spatial content. At that instant,
+the complete positive compression-rate field occupies order \(s^3\) total
+volume at the heat-scale rate \(\nu/s^2\). The theorem does not place that
+volume in one ball or connected component: \(E_s\) may be arbitrarily
+fragmented, and the selected \(s=s(t)\) may change at every time. A localized
+ball would require an additional non-dichotomy or scale-tightness theorem; an
+F7.19 event would require one scale to retain comparable total measure for a
+positive fraction of \(s^2/\nu\).
+
+The complete source needed to sustain or rebuild this rate remains joined.
+Let
+
+\[
+G=\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r,
+\qquad
+N=\langle f,G\rangle,
+\qquad
+q=\|G\|_{\dot H^{-1}}.
+\]
+
+The exact balance and dual estimate are
+
+\[
+\frac12I'+\nu X=N,
+\qquad
+|N|\le \sqrt X\,q
+\le S_3^{-1/2}\sqrt X\,\|G\|_{6/5}.
+\]
+
+When \(q>0\), the signed dual alignment
+
+\[
+a_{-1}:=
+\frac{N}{\sqrt X\,q}\in[-1,1]
+\]
+
+rewrites the joined balance as
+
+\[
+\frac12I'+\nu X=a_{-1}\sqrt X\,q.
+\]
+
+Hence rise is possible only if the complete source has positive projection
+onto the same \(r_+\) pattern and that projection beats direct heat:
+
+\[
+I'>0
+\quad\Longrightarrow\quad
+a_{-1}>0,
+\qquad
+a_{-1}q>\nu\sqrt X
+\ge
+\nu\sqrt{S_3I}\,\mathcal V_{6,+}^{-1/3}.
+\]
+
+For a function-valued source, the same sign statement is
+
+\[
+\int fG_+>\nu X+\int fG_-.
+\]
+
+It is a global functional projection, not pointwise eigenframe alignment or a
+source-location theorem. Equal source magnitudes can have opposite effects:
+for fixed \(f\), \(G_\pm=\pm(-\Delta f)\) have the same
+\(\dot H^{-1}\) norm and pair with \(f\) as \(\pm X\). An arbitrarily large
+source component with zero pairing may also be translated far from \(f\).
+These scalar tests refute magnitude-only or co-location readings; they are not
+Navier--Stokes realizations.
+
+The projection gate gives a precise conditional Gold supplier. With
+
+\[
+\alpha_*(t):=
+\frac{[N(t)]_+}{\sqrt{X(t)}},
+\]
+
+optimized Young inequality gives
+
+\[
+I'
+\le\frac{\alpha_*^2}{2\nu}
+\le\frac{q^2}{2\nu}
+\le\frac{\|G\|_{6/5}^2}{2\nu S_3}.
+\]
+
+Consequently,
+
+\[
+\sup_{t<T}I(t)
+\le
+I(0)+\frac1{2\nu}\int_0^Tq(t)^2dt,
+\]
+
+and F7.11 implies
+
+\[
+\boxed{
+\int_0^T I(t)^2dt
+\le
+\frac{\mathcal E_0}{2\nu}
+\left[
+I(0)+\frac1{2\nu}\int_0^Tq(t)^2dt
+\right].
+}
+\]
+
+Thus \(G\in L_t^2\dot H_x^{-1}\), or more strongly
+\(G\in L_t^2L_x^{6/5}\), closes the square-rate supplier. These are
+sufficient conditions, not datum consequences. Their norm-critical time
+exponent is \(4/3\), not \(2\); the \(L_t^2\) criterion is the stronger
+energy-method condition, while the full displayed Gold bound remains
+scale-invariant after multiplication by \(\mathcal E_0\).
+
+The physical conclusion is exact. A large invariant norm rate already has an
+instantaneous spatial footprint somewhere in the complete field. Continued
+growth is not caused by source magnitude alone: the complete simultaneous VPI
+source must project positively onto that same rate configuration strongly
+enough to outrun direct heat. Nothing here proves that one scale or one spatial
+region persists, that a material carrier follows it, that pressure or
+viscosity has a separate favorable sign, that the datum bounds the needed
+source action, or that Gold or Silver closes.
 
 ## Hard boundary: claims excluded from the ontology
 
