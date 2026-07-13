@@ -1088,8 +1088,8 @@ Gold reduction, closure, or Silver exit follows.
   \(\mathcal Q_\Pi=\int\tau|\nabla\Pi|^4\), and that only centered
   chord-amplitude/direction covariance changes \(\Pi\) spatially. The raw
   \(\int g^2/\tau\) perspective is a coarser one-way supplier; an exact
-  heat-decaying shear makes it arbitrarily large at fixed energy across data
-  while \(\mathcal Q_\Pi=0\). No datum-time or Gold-placement theorem for the
+  heat-decaying shear makes it arbitrarily large at fixed initial energy across
+  data at \(t=0\) while \(\mathcal Q_\Pi=0\). No datum-time or Gold-placement theorem for the
   direct quantity is installed, and another route may bypass it. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct

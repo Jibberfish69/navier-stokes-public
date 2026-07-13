@@ -15,7 +15,8 @@ manual_ontology_gate_reconciliation:
     factor is Q_Pi=int tau|grad Pi|^4, and spatial variation appears through
     centered chord-amplitude/direction covariance; centered amplitude variance and
     G_tau are coarser one-way suppliers. An exact periodic heat shear has
-    Q_Pi=0 while G_tau is arbitrarily large at fixed energy across data. The
+    Q_Pi=0 while G_tau is arbitrarily large at fixed initial energy across
+    data at t=0. The
     Cycle-062 integrated-radius and enstrophy-palinstrophy mismatch bounds
     remain. Gold still requires datum-time control of D_2 and Q_Pi,
     critical-rise placement, or another direct theorem. No smaller closing
