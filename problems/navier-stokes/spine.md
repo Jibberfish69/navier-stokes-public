@@ -135,6 +135,29 @@ through one fixed terminal history. This is a new coordinate for the existing
 Gold signed-height burden, not a smaller theorem implying closure. Silver is
 unchanged.
 
+Cycle 041 installs F6.20 and resolves the bandwidth quantifier left by Cycle
+040. A universal relative bandwidth or attenuation gap is false. For one
+fixed finite-energy participant, however, every rising critical-height state
+obeys the exact datum-dependent absolute-width floor
+
+\[
+\frac{S_H}{R}
+>
+\frac{\nu^2m_H^2}{C_\Omega^2R-\nu^2}
+>
+\frac{\nu^2m_H}{C_\Omega^2E_0},
+\qquad m_H=\frac KR.
+\]
+
+The same event forces the energy centroid to grow at least at its viscous
+Riccati rate, so an uninterrupted rising interval has an upper heat-scale
+duration. Thus a fixed history cannot combine rising height, unbounded mean
+frequency, and bounded absolute spectral width. Relative width may still
+vanish as the critical height grows, the event can occur on summable
+parabolic intervals, and the global width does not locate the signed current
+or its material carrier. This is a necessary same-history state constraint;
+it supplies no datum-finite action bound or Gold closure. Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
@@ -178,7 +201,7 @@ Clean labels:
 ## Route Summary
 
 - Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at the material parent-announced upgrade of F6.18's exact signed Eulerian ancestry: first admission of the full signed source current, a positive common disintegration, selected near-null control, causal bounded fibres, and the separate WLF.60 parent-size bound. Datum control of the exact F6.10 action \(A_H\), \(J_{\mathrm{pair}}\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), sustained fixed-history control of F6.19's faster-than-viscous energy-centroid acceleration, or another direct critical-height theorem also closes the lane. Instantaneous shape-null routing, a \(J_{\mathrm{pair}}\)-only WLF parent measure, positive shape variation, and a pointwise scale-independent bandwidth floor are refuted. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
+- Honest current status: Gold is open at the material parent-announced upgrade of F6.18's exact signed Eulerian ancestry: first admission of the full signed source current, a positive common disintegration, selected near-null control, causal bounded fibres, and the separate WLF.60 parent-size bound. Datum control of the exact F6.10 action \(A_H\), \(J_{\mathrm{pair}}\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), sustained fixed-history control of F6.19's faster-than-viscous energy-centroid acceleration, or another direct critical-height theorem also closes the lane. F6.20 now excludes bounded-absolute-width high-centroid rising histories but leaves relatively narrowing, absolutely widening spectra on summable parabolic intervals. Instantaneous shape-null routing, a \(J_{\mathrm{pair}}\)-only WLF parent measure, positive shape variation, and a universal scale-independent bandwidth floor are refuted. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
 - Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
 - Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
 
