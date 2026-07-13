@@ -12,11 +12,9 @@ manual_ontology_gate_reconciliation:
   status: active-authority-override
   canonical_ontology: problems/navier-stokes/ontology.md
   operating_gate: .claude/physical-reasoning-gate.txt
-  feedback_ledger: problems/navier-stokes/ontology-feedback.yaml
   rule: >-
     Every program, theorem, currency, model, readout, Gold attempt, and Silver
-    attempt in this table must pass the ontology gate and return the four required
-    feedback fields. Pack is outside the CM object and supplies only Field-window
+    attempt in this table must pass the ontology gate. Pack is outside the CM object and supplies only Field-window
     evidence. Silver class exit requires an admitted same-solution Part or Field
     failure. Gold is defined by a theorem-grade direct same-object consequence,
     not by one frozen mechanism. Ontology promotion has no MPP theorem status by

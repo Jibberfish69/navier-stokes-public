@@ -6,8 +6,8 @@ lane. Silver is the obstruction-exclusion / CM class-exit lane. They attach to
 the same Navier-Stokes object and carry independent completion burdens.
 
 Mandatory preflight: load `.claude/physical-reasoning-gate.txt` and
-`ontology.md`, cite the exact ontology fact IDs used, and return the required
-physical, mathematical, live-burden, and proposed-delta fields.
+`ontology.md`, cite the exact ontology fact IDs used, and state each physical
+and mathematical conclusion at its proved scope.
 
 First live gate result, 2026-07-10: the global critical height is nonnegative
 and has a signed evolution; pressure makes no direct contribution to its global
