@@ -25,9 +25,10 @@ the exact proved statement to be integrated into `ontology.md`.
 - **Canonical** means an installed F1–F7 fact.
 - **Hierarchy-verified** means the stated derivation or counterexample has been
   checked at its stated scope and may direct future questions. It remains
-  noncanonical until the promotion process succeeds.
-- **Candidate** means the exact source exists but its canonical candidate has
-  not completed independent validation and consumer re-gating.
+  noncanonical until its exact proved statement is integrated into
+  `ontology.md`.
+- **Candidate** means the exact source exists but the claim is not established
+  at its exact scope and integrated into `ontology.md`.
 - **Boundary** means a counterexample or scope failure blocks a stronger claim.
 - **Open** means no premise weight.
 - **Proof grammar** means a rule about how a theorem test is interpreted, not a
