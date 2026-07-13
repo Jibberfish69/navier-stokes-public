@@ -78,6 +78,7 @@ older cycle files are evidence, not competing authority.
 | 043 | Pressure and viscosity share the pulled-back material metric, critical production has an instantaneous global all-chord material-work form, and a material surface has a circulation/area alternative. These are exact coordinates and alternatives, not a response-time, causal-incidence, local core/collar, or Gold theorem. |
 | 044 | Positive local material work activates a contracting direction whose matched frozen dual pressure--viscous symbol increases immediately. This is instantaneous joined geometry, not stronger physical viscosity, favorable pressure, persistence, a response-time bound, or Gold control; Cycle 045 corrects its understated first-gradient consequence. |
 | 045 | Positive work already forces a same-point compressive gradient. Its normalized rate \(r=w/\operatorname{tr}\mathsf T_u\) has a datum-finite material-volume \(L^2\) budget, while critical growth weights it by the all-chord density. This is a physical rate law, not core localization, critical-gradient-difference incidence, persistence, no-recount, or Gold closure. |
+| 046 | The all-chord density has a sharp \(L^1_tL^{3/2}_x\) fixed-material capacity bound, yet repeated doublings force divergent inverse work-effective volume and harmonic-volume collapse. This is exact material-center concentration, not fluid mass, a shrinking packet/core/annulus, sufficient blowup geometry, or Gold closure. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -365,6 +366,55 @@ a quantitative interval. The ABC amplitude family refutes a universal linear
 work-to-viscosity fraction, so the normalized quadratic law is the surviving
 form. This is physical ontology and a sharper Gold reduction, not MPP
 progress. Silver is unchanged.
+
+Cycle 046 installs F7.12--F7.13. The nonlocal all-chord density has the
+scale-critical energy-level capacity law
+
+\[
+\nu\int_0^T\|\tau(t)\|_{3/2}\,dt\le C\mathcal E_0,
+\qquad
+\nu\int_0^T\int_A\tau(X(a,t),t)\,da\,dt
+\le C\mathcal E_0|A|^{1/3}
+\]
+
+for every fixed material label set \(A\). Hence the density cannot remain on
+one arbitrarily small fixed material set for a long interval. The estimate
+does not close the work product: \(r\in L^2\) and
+\(\tau\in L^{3/2}\) do not pair, and \(3/2\) is the strongest generic
+energy-scaling exponent.
+
+The positive-work concentration is measured exactly by
+
+\[
+V_{\mathrm{work}}
+=
+\frac{(4\mathcal H_{1/2})^2}
+{\displaystyle\int_{\{r>0\}}\tau^2\,da}.
+\]
+
+For \(N\) disjoint doublings,
+
+\[
+\int_G\frac{dt}{V_{\mathrm{work}}(t)}
+\ge
+\frac{\nu(\log2)^2}{8\mathcal E_0}N^2.
+\]
+
+Thus a terminal doubling ladder forces the harmonic work-effective volume to
+collapse. This is the exact physically licensed packing statement: a
+nonlocal all-chord density participating in positive work becomes
+increasingly concentrated over material centers. It does not identify fluid
+mass, packet support, a source radius, a collar, or a transported shrinking
+core. Exact concentrated heat shears show that small effective volume without
+positive work is harmless.
+
+Finiteness of the inverse-volume action is a direct critical-height
+continuation criterion. The new smaller Gold target is therefore
+\(WorkEffectiveMaterialVolumeIntegrability.A\), or any coupled
+same-carrier capacity/good-lambda theorem that implies it. The core--collar
+construction is one possible supplier, not the definition of Gold. This is a
+proved ontology advance and a strict target reduction, not proof of the new
+integrability theorem or MPP closure. Silver is unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
