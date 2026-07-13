@@ -541,10 +541,12 @@ increase must come through the complete source
 nonlocal pressure, pair redistribution, and viscous reorientation joined.
 Thus viscosity has no delayed arrival: its direct Laplacian row acts
 immediately, while its orientation-changing rows remain signed inside the
-same source. What is not proved is that a dangerous history retains an F7.19
-spacetime event at one fixed scale for a positive fraction of its heat time, or
-that the datum bounds the positive variation remaining after the complete
-source and direct scalar diffusion are recombined.
+same source. What is not proved is that a dangerous history contains an F7.19
+event at one fixed scale \(s\): on a heat interval \(J\) of length
+\(s^2/\nu\), the time-integrated measure of
+\(\{r_+>c\nu/s^2\}\) must reach order \(s^5/\nu\). Nor is it proved that the
+datum bounds the positive variation remaining after the complete source and
+direct scalar diffusion are recombined.
 
 Cycle 052 resolves the part of the response-speed picture that is licensed
 without inventing a packet or separating viscosity from the VPI participant.
@@ -596,7 +598,8 @@ at every time with \(\mathcal R_{6,+}>0\), some scale \(s\) has
 \(\mathcal R_{6,+}^{3/2}s^3\). This is genuine instantaneous spatial
 thickness of the complete rate field. It supplies no location, ball,
 connected component, packet, annulus, material carrier, or persistence at one
-scale for one heat time. A smooth scalar terminal pulse stack proves that even
+scale. In particular, it supplies no fixed-scale heat-interval integrated
+superlevel occupancy. A smooth scalar terminal pulse stack proves that even
 unbounded peaks with order-one \(\mathcal R_{6,+}\) and finite \(\int I\),
 \(\int X\), and \(\int I^2\) need not contain an F7.19 spacetime heat-thick
 event. That stack is not a Navier--Stokes realization.
@@ -609,8 +612,9 @@ balance. A finite
 \(L_t^2\dot H_x^{-1}\) or \(L_t^2L_x^{6/5}\) norm of that complete source is
 a sufficient Gold supplier, but no such datum bound is proved. The remaining
 Gold burden is therefore a one-datum joined-source theorem strong enough to
-control this projection, or a fixed-scale heat-time persistence theorem for
-the instantaneous slices.
+control this projection, or a fixed-scale heat-interval integrated-superlevel
+occupancy theorem. Pointwise persistence for a positive heat-time fraction is
+one stronger sufficient route to that occupancy, not the exact requirement.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
@@ -6710,9 +6714,9 @@ sign or bound for the complete source \(N\).
 The global concentration coordinates still do not extract the spacetime event
 in F7.19, even when \(\mathcal R_{6,+}\) stays of order one. F7.21 corrects
 the sharper instantaneous statement: \(\mathcal R_{6,+}\) does extract a
-global heat-scale superlevel slice, but it does not keep one scale spatially
-thick for a positive fraction of its heat time. To test that remaining
-logical boundary, fix a reference length \(L\), choose nonnegative spatial
+global heat-scale superlevel slice, but it does not supply the time-integrated
+superlevel occupancy required on one fixed heat interval. To test that
+remaining logical boundary, fix a reference length \(L\), choose nonnegative spatial
 bumps \(\phi,\psi\in C_c^\infty(\mathbb R^3)\) with disjoint supports, and
 let
 
@@ -6799,8 +6803,8 @@ actual rise must overrun that coefficient through the complete simultaneous
 VPI source. F7.21 adds an instantaneous global superlevel-measure lower bound,
 but neither fact
 proves a spatial location, nearest crest--trough pair, constructive
-interference, packet, annulus, material persistence, fixed-scale heat-time
-occupancy, bounded overlap, source recurrence, full-participant upper or lower
+interference, packet, annulus, material persistence, fixed-scale heat-interval
+integrated superlevel occupancy, bounded overlap, source recurrence, full-participant upper or lower
 response speed, favorable pressure sign, viscosity lag, Gold closure, or
 Silver exit.
 
@@ -6874,9 +6878,19 @@ the complete positive compression-rate field occupies order \(s^3\) total
 volume at the heat-scale rate \(\nu/s^2\). The theorem does not place that
 volume in one ball or connected component: \(E_s\) may be arbitrarily
 fragmented, and the selected \(s=s(t)\) may change at every time. A localized
-ball would require an additional non-dichotomy or scale-tightness theorem; an
-F7.19 event would require one scale to retain comparable total measure for a
-positive fraction of \(s^2/\nu\).
+ball would require an additional non-dichotomy or scale-tightness theorem. An
+F7.19 event at scale \(s\) requires a heat interval \(J\),
+\(|J|=s^2/\nu\), with
+
+\[
+\int_J
+\left|\left\{x:r_+(x,t)>\frac{c\nu}{s^2}\right\}\right|dt
+\ge\theta\frac{s^5}{\nu}.
+\]
+
+A per-time lower bound of order \(s^3\) on a positive fraction of \(J\) is one
+stronger sufficient route to this integrated occupancy, not a necessary
+condition.
 
 The complete source needed to sustain or rebuild this rate remains joined.
 Let
