@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 066.
+**Current promoted checkpoint:** Cycle 067.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -1692,6 +1692,14 @@ scale selection by the isotropic Laplacian, not a propagation speed,
 scale-independent viscosity-response clock, nonlinear transfer, or creation
 of the fine scale after the datum.
 
+Cycle 067 makes the anisotropic consequence sharper. Unequal damping of two
+pre-existing nonparallel corrugations can rotate the local shear-gradient,
+vorticity and strain frames and the principal axis of the nonlocal all-chord
+tensor. The Laplacian has not acquired a preferred direction: the rotation is
+the changing ratio of two already anisotropic components with different
+frequencies. In the exact witness there is still no mode transfer, pressure
+action, vortex stretching, critical work or critical-height rise.
+
 Every standard \(L^2\)-orthogonal, divergence-free, energy-preserving
 Fourier–Galerkin truncation is a finite-dimensional energy-bounded system and
 is globally regular. No one fixed cutoff blows up. An approximation-based
@@ -1902,6 +1910,14 @@ fluid response. Pressure curls out of the vector vorticity equation, but the
 strain and its future direction remain part of the same pressure-completed
 history. At \(\omega=0\), \(\xi\), \(b\), and these polar formulas are
 undefined; the vector equation in F4.1 remains the governing fact.
+
+Cycle 067 supplies an exact strictness witness. In a passive periodic
+parallel-column heat flow, \(S\omega=0\), so
+\(\alpha_\omega=b=0\), while unequal damping of two transverse frequencies
+still gives \(D_t\xi\ne0\) on a stationary material line. The turn is carried
+entirely by the complete viscous direction response in this class. It is not
+vortex stretching, pressure-driven turning, nonlinear transfer, or
+amplification.
 
 ## F5. Energy and irreversibility: global dissipation and local exchange
 
@@ -5130,6 +5146,12 @@ rates can give \(D_t\Pi\ne0\) along a material column while
 \(\Pi\) is critical production unless the simultaneous strain reads it
 through the signed contraction.
 
+Cycle 067 shows that even genuine principal-axis rotation of \(\Pi\), proved
+by \([\Pi,D_t\Pi]\ne0\) with a uniform principal spectral gap, can remain in
+the same null block. Rotation is therefore not the missing production
+relation. The exact signed simultaneous contraction is still the event that
+matters.
+
 ### F7.6 Vortex stretching is a nonlocal all-chord orientation relation
 
 On decaying \(\mathbb R^3\), where \(\omega(x)\ne0\), put
@@ -5188,14 +5210,16 @@ field. A null sector is lawful only when the complete Navier--Stokes equation
 proves the corresponding decoupling or invariant subspace; scalar moments and
 same-field membership alone do not prove it.
 
-Cycles 065--066 give a complete all-chord version. In the exact parallel-column
+Cycles 065--067 give a complete all-chord version. In the exact parallel-column
 class \(u=nf(x_\perp,t)\), two transverse dependence directions can make
 \(\nabla\Pi\not\equiv0\) and \(\mathcal Q_\Pi>0\), yet the full VPI equation
 still has constant pressure, zero nonlinear transport, zero vortex stretching,
 and zero critical production because the orientation and strain blocks are
 orthogonal. If the two transverse patterns have unequal heat rates, the same
 null sector can also have \(D_t\Pi\ne0\): the normalized orientation readout
-evolves without becoming visible to critical work.
+evolves without becoming visible to critical work. At another material line,
+its principal axis can genuinely rotate with a positive spectral gap while
+the same null contractions persist.
 
 ### F7.8 Local ripple growth and global critical growth are distinct relational events
 
@@ -6052,14 +6076,16 @@ that scalar pair-density magnitude is not a separate cause. Only the changing
 anisotropic relation between strain and normalized all-chord orientation
 drives \(r\).
 
-Cycles 065--066 make the word "relation" essential. A passive
+Cycles 065--067 make the word "relation" essential. A passive
 parallel-column heat flow can have spatially varying \(\Pi\), and unequal
 heat rates can also give \(D_t\Pi\ne0\) along a material column. Throughout
 the class, \(S\) has only axial--planar blocks while \(\Pi\),
 \(D_t\Pi\), and the normalized shape reaction have only axial--axial and
 planar--planar blocks. Thus \(S:\Pi=r=0\), and every contraction driving
-\(r\) vanishes even while the normalized orientation readout changes. The
-changing tensor alone is not a changing work relation.
+\(r\) vanishes even while the normalized orientation readout changes. Cycle
+067 proves that this remains true when the principal eigenspace itself turns
+with a uniform gap. The changing tensor or frame alone is not a changing work
+relation.
 
 The chord formula and Hilbert-space Cauchy--Schwarz give the pointwise Fisher
 bound
@@ -6329,14 +6355,17 @@ particular, a scalar sinusoidal heat shear has \(v_{\rm amp}>0\) everywhere
 while \(\nabla\Pi=0\). Thus centered amplitude variance remains a one-way
 envelope; it is not the orientation change itself.
 
-Cycles 065--066 make the remaining limitation strict in both directions. An
+Cycles 065--067 make the remaining limitation strict in both directions. An
 equal-shell passive two-direction heat flow has
 \(\nabla\Pi\not\equiv0\), \(\mathcal Q_\Pi>0\), and \(D_t\Pi=0\).
 Unequal heat rates can instead give \(D_t\Pi\ne0\) along a material column
 while convection, the pressure source, vortex stretching, and critical
 production still vanish. The displayed \(\tau|\nabla\Pi|^2\) law is a
 spatial-variation budget only. It neither controls temporal/material change
-nor distinguishes passive from active temporal change.
+nor distinguishes passive from active temporal change. Cycle 067 further
+shows that a genuine, uniformly gapped principal-axis rotation can occur in
+that passive null class. The spatial turning budget does not become a
+material angular-speed bound.
 
 Physically, rapid spatial change of the normalized all-chord orientation
 requires gradient-increment mass and directional dispersion in the same
@@ -9617,6 +9646,12 @@ That change is scale-selective temporal reweighting, not the spatial
 covariance identity above. Neither coordinate change has interaction or Gold
 weight by itself.
 
+Cycle 067 supplies the noncommuting case: at a different material line the
+same passive two-frequency class has \([\Pi,D_t\Pi]\ne0\) and a genuinely
+rotating principal eigenspace with a positive gap. This still does not turn
+the spatial covariance identity into critical work or give
+\(\mathcal Q_\Pi\) an angular or causal interpretation.
+
 The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
 variation at one time, not a temporal or material rotation.  The probability
 \(\varpi_z\) is a normalized chord-parameter readout, not fluid mass or a
@@ -9808,6 +9843,11 @@ time after departure from one lattice line, still with zero nonlinear
 transfer, constant pressure, zero vortex stretching, and zero critical work.
 Departure from one line permits orientation change; it does not make that
 change active.
+
+Cycle 067 proves that the permitted change can include genuine principal-axis
+rotation rather than fixed-axis weight splitting. Even that stronger event is
+passive in the exact parallel-column class and remains invisible to the signed
+critical contraction.
 
 Because \(\Pi\) is nonlocal, nonzero \(\nabla\Pi\) proves neither pointwise
 gradient rank nor where the departure from global shear geometry occurs. A
@@ -10047,6 +10087,11 @@ F7.34 shows that the equal-shell stationarity \(D_t\Pi=0\) is not
 class-wide. Unequal heat rates can change \(\Pi\) along a material column
 while every block-orthogonal null conclusion above remains exact.
 
+F7.35 shows that fixed-axis reweighting is not the only possible material
+change in this class. At a different column the mixed all-chord term survives,
+and unequal heat rates rotate the principal eigenspace while the same null
+conclusions remain exact.
+
 ### F7.34 Unequal passive heat rates can change normalized all-chord orientation along one material column
 
 This is the local all-chord and material-column realization of the
@@ -10216,6 +10261,219 @@ control. The theorem is periodic, nonlocal, globally smooth, and
 decreasing-height; it supplies no decaying-\(\mathbb R^3\) theorem,
 localization, packet or annulus carrier, strict Gold reduction, Gold closure,
 Part/Field failure, class exit, or Silver result.
+
+F7.35 supplies a separate exact column on which eigenframe rotation does
+occur. That later fact does not weaken the statement here: \(D_t\Pi\ne0\)
+alone still does not decide whether the change is eigenvalue reweighting or
+eigenspace rotation, and neither kind has critical-work force without the
+signed simultaneous strain relation.
+
+### F7.35 Unequal passive heat rates can rotate a uniformly gapped local all-chord principal frame
+
+This is a possible-history fact about one exact fixed-viscosity participant,
+not a general claim that viscosity rotates every anisotropic flow. On
+normalized periodic \(\mathbb T^3\), let
+
+\[
+u(x,t)=e_1\left[
+Ae^{-\nu m^2t}\cos(mx_2)
++Be^{-\nu n^2t}\cos(nx_3)
+\right],
+\qquad 1\le m<n,quad AB\ne0.
+\]
+
+The participant consists of parallel axial-velocity columns. At the common
+zero-crossing line
+
+\[
+x_2=\frac{\pi}{2m},
+\qquad
+x_3=\frac{\pi}{2n},
+\]
+
+the velocity is zero for all time, so the line is material and stationary,
+while
+
+\[
+\nabla_\perp u_1
+=-mAe^{-\nu m^2t}e_2-nBe^{-\nu n^2t}e_3\ne0.
+\]
+
+Viscous stress diffuses axial momentum between neighboring columns and damps
+the finer transverse corrugation faster. The direction of this local shear
+gradient, and hence the vorticity direction and strain frame, turns. Yet the
+complete VPI geometry gives
+
+\[
+(u\cdot\nabla)u=0,
+\qquad
+\nabla p=0,
+\qquad
+S\omega=0,
+\qquad
+\boxed{S:\Pi=S:D_t\Pi=r=P_H=0.}
+\]
+
+Thus material elements can shear and their derivative frame can turn without
+vortex stretching, pressure action, nonlinear transfer, critical work or
+critical-height rise.
+
+For \(k=me_2\), \(l=ne_3\), put
+
+\[
+b_{m,n}
+=\frac{mn}{4\sqrt{m^2+n^2}}
++\frac{mn}{2}\int_0^1
+\frac{\vartheta(1-\vartheta)}
+{\sqrt{m^2(1-\vartheta)^2+n^2\vartheta^2}},d\vartheta
+>0.
+\]
+
+At the selected line define
+
+\[
+\alpha=\frac{3mA^2}{8}e^{-2\nu m^2t},
+\qquad
+\beta=\frac{3nB^2}{8}e^{-2\nu n^2t},
+\qquad
+\gamma=2b_{m,n}ABe^{-\nu(m^2+n^2)t},
+\qquad
+s=\alpha+\beta.
+\]
+
+The complete all-lattice tensor is
+
+\[
+\boxed{
+\mathsf T_u
+=sI+\alpha e_2\otimes e_2+\beta e_3\otimes e_3
++\gamma(e_2\otimes e_3+e_3\otimes e_2),
+\qquad
+\tau=4s,
+}
+\]
+
+and
+
+\[
+\boxed{
+\Pi
+=\frac14I+\frac1{4s}\left[
+\alpha e_2\otimes e_2+\beta e_3\otimes e_3
++\gamma(e_2\otimes e_3+e_3\otimes e_2)
+\right].
+}
+\]
+
+All mixed diagonal terms vanish by parity; the nonzero \(23\) term is the
+surviving mixed chord relation. Since \(D_t=\partial_t\) on this line, exact
+differentiation yields
+
+\[
+\boxed{
+[\Pi,D_t\Pi]
+=-\frac{\nu(n^2-m^2)}{16}
+\frac{\gamma}{s}
+(e_2\otimes e_3-e_3\otimes e_2)\ne0.
+}
+\]
+
+The noncommutation proves that the tensor does not merely change eigenvalues
+in one fixed basis. If \(\phi\) is the larger planar eigenvector angle,
+
+\[
+\phi
+=\frac12\operatorname{atan2}(2\gamma,\alpha-\beta),
+\qquad
+\boxed{
+\phi'
+=-\nu(n^2-m^2)
+\frac{\gamma(\alpha+\beta)}
+{(\alpha-\beta)^2+4\gamma^2}.
+}
+\]
+
+Under the equal initial pure-mode weight condition \(mA^2=nB^2\), define
+
+\[
+\rho_{m,n}=\frac{16b_{m,n}}{3\sqrt{mn}}>0,
+\qquad
+x=\nu(n^2-m^2)t.
+\]
+
+For \(AB>0\),
+
+\[
+\phi(t)=\frac12\arctan\left(\frac{\rho_{m,n}}{\sinh x}\right),
+\qquad
+\boxed{\int_0^\infty|\phi'(t)|dt=\frac\pi4.}
+\]
+
+The principal axis turns monotonically from \((e_2+e_3)/\sqrt2\) toward
+\(e_2\). This is a principal axis of the normalized nonlocal all-chord
+readout, not a particle, packet, vortex tube, velocity vector or material
+director rotating through \(\phi\).
+
+The angular rate can be arbitrarily large without an eigenvalue collision.
+Choose \(m=N\), \(n=2N\), fixed normalized kinetic energy \(E_0>0\), and
+
+\[
+A^2=\frac{8E_0}{3},
+\qquad
+B^2=\frac{4E_0}{3}.
+\]
+
+Homogeneity gives
+
+\[
+b_{N,2N}=Nb_{1,2},
+\qquad
+\rho_*:=\frac{16b_{1,2}}{3\sqrt2}>0,
+\]
+
+independent of \(N\). The full principal spectral gap satisfies
+
+\[
+\boxed{
+\operatorname{gap}(\lambda_+)
+\ge\frac14\min\{1,\rho_*\}>0,
+}
+\]
+
+whereas
+
+\[
+\boxed{
+|\phi_N'(0)|
+=\frac{3\nu N^2}{2\rho_*}
+\longrightarrow\infty.
+}
+\]
+
+Therefore no finite uniform initial-time principal-axis angular-speed ceiling
+depending only on \(E_0,\nu\) and this positive gap floor holds across smooth
+periodic data. Each history is globally smooth, its critical height decreases,
+and the total rotation is only \(\pi/4\); the large rate is compressed into the
+scale-dependent heat time \(1/(\nu N^2)\).
+
+The physical conclusion is strict. Isotropic viscosity can change anisotropic
+frames because it damps pre-existing scales at different rates; it has not
+acquired an independent direction or become separately owned from the same VPI
+history. There is no Fourier transfer, new frequency, velocity turn,
+pressure-driven turn, vortex stretching, amplification or Gold rise. The
+varying-data family refutes only an \(E_0,\nu\), gap-floor-only initial-time
+ceiling. It does not refute per-datum, fixed-positive-time, higher-norm,
+Gold-rise-restricted, signed-coupled or alternate-route control.
+
+The theorem is periodic and nonlocal. It supplies no decaying \(\mathbb R^3\)
+theorem, localization, packet or annulus carrier, transport of an orientation
+object, propagation or response speed, viscous lag, datum-finite angular
+budget, persistent turning, terminal behavior, strict Gold reduction, Gold
+closure, Part/Field failure, class exit or Silver result. The next lawful
+orientation question is the first exact same-history VPI symmetry break that
+makes \(S:\Pi\ne0\), followed by placement of the signed overlap on an actual
+critical-height rising history. Local signed overlap and global \(P_H\) must be
+kept distinct because either can cancel while the other is nonzero.
 
 ## Hard boundary: claims excluded from the ontology
 
