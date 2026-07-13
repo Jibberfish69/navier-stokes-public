@@ -2139,8 +2139,8 @@ or otherwise selected region, the middle term records recruitment or
 abandonment by the observational boundary and cannot be called fluid
 transfer.
 
-A source core and its responding annulus are different regions of this one
-event.  Let material volumes \(\Omega_0(t)\subset\Omega_1(t)\) enclose the
+For an admitted source-core/annulus picture, the two are different regions of
+one event. Let material volumes \(\Omega_0(t)\subset\Omega_1(t)\) enclose the
 core, let \(A(t)=\Omega_1(t)\setminus\overline{\Omega_0(t)}\), and let
 \(W_j\) be the outward-boundary stress work on \(\Omega_j\).  Integration on
 the annulus gives the exact relay identity
