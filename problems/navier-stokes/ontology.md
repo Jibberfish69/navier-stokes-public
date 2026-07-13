@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 040.
+**Current promoted checkpoint:** Cycle 041.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -3620,6 +3620,138 @@ integral is itself an alternative regularity criterion.  This coordinate
 leaves open whether one fixed history can sustain centroid acceleration above
 the viscous rate through infinitely many critical-height records.  Instantaneous
 spectral width alone does not decide that question.
+
+### F6.20 Finite energy forces fast centroid lift and absolute off-shell width at every rising time
+
+Retain the complete pressure-completed variables of F6.10 and put
+
+\[
+m_H=\frac KR,
+\qquad
+s_H^2=\frac{S_H}{R}
+=\operatorname{Var}_{\mu_H}(\rho).
+\]
+
+Here (m_H) and (s_H) are respectively the mean and standard deviation of
+frequency under the critical spectral probability measure.  At a time when
+the critical height strictly rises,
+
+\[
+R'=2(P_H-\nu D)>0,
+\]
+
+so (P_H>\nu D).  The exact current projection and product estimate give
+
+\[
+P_H^2
+\le
+\|\Lambda^{-1/2}B(v)\|_2^2S_H
+\le C_\Omega^2RDS_H.
+\]
+
+Since (D=R(m_H^2+s_H^2)), every rising state therefore obeys the sharp
+state inequality supplied by these inputs,
+
+\[
+\boxed{
+s_H^2
+>
+\frac{\nu^2m_H^2}{C_\Omega^2R-\nu^2}.
+}
+\]
+
+In particular (C_\Omega^2R>\nu^2): below this critical-height threshold,
+the pressure-completed nonlinear current cannot beat viscosity.  Moment
+log-convexity gives
+
+\[
+DR\ge K^2,
+\qquad
+R^2\le EK,
+\qquad
+E(t)=\|v(t)\|_2^2\le E_0=\|v(0)\|_2^2.
+\]
+
+Hence the normalized current-activated shape component and the full critical
+spectral variance satisfy
+
+\[
+\boxed{
+\frac{S_H}{R}
+\ge\frac{A_H}{R}
+>
+\frac{\nu^2D}{C_\Omega^2R^2}
+\ge
+\frac{\nu^2m_H}{C_\Omega^2E(t)}
+\ge
+\frac{\nu^2m_H}{C_\Omega^2E_0}.
+}
+\]
+
+Since the energy centroid of F6.19 obeys
+
+\[
+\bar\rho=\frac RE\le\frac KR=m_H,
+\]
+
+one also has (s_H^2>\nu^2\bar\rho/(C_\Omega^2E_0)).  Thus a fixed
+finite-energy participant cannot raise its critical height at arbitrarily
+large mean frequency while its complete critical spectrum retains bounded
+absolute width.  This does not identify which frequencies or material
+cohorts carry the signed current; F7.7 supplies exact same-field null sectors
+that prevent that inference.
+
+The simultaneous rate is also exact.  F6.19 and moment convexity give
+
+\[
+R'\ge0
+\quad\Longrightarrow\quad
+\frac{\bar\rho'}{\bar\rho}
+\ge2\nu\frac{M_2}{E}
+\ge2\nu\bar\rho^2.
+\]
+
+On every connected interval ([a,b]) on which (R) is nondecreasing,
+
+\[
+\bar\rho(b)^{-2}
+\le
+\bar\rho(a)^{-2}-4\nu(b-a),
+\qquad
+b-a\le\frac1{4\nu\bar\rho(a)^2}.
+\]
+
+This is an upper bound on the duration of uninterrupted rise, not a material
+dwell-time lower bound or a finite propagation speed.  If (R(b)=2R(a)),
+the endpoint product identity is
+
+\[
+\frac{\bar\rho(b)}{\bar\rho(a)}
+=2\frac{E(a)}{E(b)}\ge2.
+\]
+
+The new width floor is datum- and state-dependent.  Its relative form
+
+\[
+\frac{s_H^2}{m_H^2}
+>
+\frac{\nu^2}{C_\Omega^2R-\nu^2}
+\ge0
+\]
+
+has no universal positive lower constant as (R) ranges over large data.
+The Pell and triangular counterfamilies in F6.19 and F6.13 reach narrow
+relative width by increasing their energy and critical height; they do not
+violate this bound.  F6.9 and F6.16 still rule out a universal normalized
+dwell or attenuation gap.  For one fixed datum, however, any sequence of
+rising times with (m_H\to\infty) must also satisfy (s_H\to\infty).
+
+This excludes bounded-absolute-width high-centroid rising histories.  It
+supplies no datum-finite upper bound for (A_H), (J_{\rm pair}), or
+(J_{\rm rad}), and the permitted intervals can shrink on a summable
+parabolic clock.  Gold therefore remains open; the fact is a necessary
+same-history state constraint rather than a regularity theorem.  It derives no
+Part or Field failure, so Silver is unchanged.
 
 ## F7. Anisotropic, directional, relational geometry
 
