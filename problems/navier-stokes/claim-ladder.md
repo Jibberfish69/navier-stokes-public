@@ -1320,16 +1320,19 @@ datum preserves \(\mathsf T_u,\tau,\Pi\), and quadratic state sizes at the
 compared snapshots while reversing \(S,r,P_H\); these are two forward
 histories, not a time-reversal symmetry.
 
-The physical hierarchy is therefore strict: all-chord frame motion, local
-signed overlap, global signed coherence after whole-field cancellation, and
-surplus over simultaneous viscous critical loss are four different events.
-Only the fourth is height rise, and even the fourth is not a singularity
-mechanism or Gold currency. No packet, annulus, carrier, persistent positive
-set, recurrence law, per-event datum charge, terminal mechanism, strict Gold
-reduction, Part/Field failure, class exit or Silver result follows. The live
-question is cumulative: what same-history departure from globally regular
-planar/null-stretching behavior is forced by an unbounded terminal height
-ladder, and can that departure be bounded from the datum?
+The proved structure is one independent null comparison plus a strict active
+chain. Frame motion can occur with zero work and is neither proved necessary
+nor prior to signed work. Across separate exact histories, local signed
+overlap can cancel globally, positive global work can remain below viscosity,
+and surplus over simultaneous viscous loss is actual height rise. No single
+history is asserted to traverse all witnesses. Even the last active gate is
+not a singularity mechanism or Gold currency. No packet, annulus, carrier,
+persistent positive set, recurrence law, per-event datum charge, terminal
+mechanism, decaying-\(\mathbb R^3\) theorem, strict Gold reduction, Part/Field
+failure, class exit or Silver result follows. The live question is cumulative:
+what same-history departure from globally regular planar/null-stretching
+behavior is forced by an unbounded terminal height ladder, and can that
+departure be bounded from the datum?
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -1430,12 +1433,13 @@ ladder, and can that departure be bounded from the datum?
   eigenframe rotation, can still occur in that passive null class. At fixed
   energy and viscosity its initial angular speed is unbounded across periodic
   smooth data while the total turn stays \(\pi/4\). Principal-axis rotation
-  is therefore not Gold currency either. Cycle 068 supplies the exact active
-  symmetry break and proves four separate gates: frame motion, local signed
+  is therefore not Gold currency either. Cycle 068 supplies a separate exact
+  active symmetry break and proves three nested active gates: local signed
   overlap, survival after global cancellation, and surplus over viscosity.
+  Frame motion is an independent null comparison, not a required first gate.
   Its pure-two-dimensional participant crosses upward through critical height
-  with \(S\omega=0\) and remains globally regular, so even the fourth gate is
-  event geometry rather than Gold currency. The live target is now cumulative
+  with \(S\omega=0\) and remains globally regular, so even the last active
+  gate is event geometry rather than Gold currency. The live target is now cumulative
   one-history control: identify and datum-bound the departure from the
   globally regular planar/null-stretching mechanism required by an unbounded
   terminal ladder, or bypass this comparison with a direct critical-height
