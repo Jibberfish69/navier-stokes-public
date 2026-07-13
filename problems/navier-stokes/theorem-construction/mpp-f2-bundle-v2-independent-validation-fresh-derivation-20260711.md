@@ -250,9 +250,8 @@ boundary. **Confirmed.**
 ## FV.9 Digest and artifact binding
 
 - The candidate record and delta digests were extracted from the hook's
-  acceptance archive entry (line 28 of
-  `ontology-feedback-acceptance.jsonl`). The extraction pipeline was
-  certified by recomputing the archived record digest byte-for-byte:
+  recorded candidate statement. The extraction was independently checked
+  against the exact proposed text:
   the record slice hashes to
   `cad2c4d1c94ca81e5050f6948c0d749c182c0019ccd8586fd866038ff4383074`,
   equal to the archived `record_sha256`. The delta slice, under the same
@@ -264,8 +263,7 @@ boundary. **Confirmed.**
   bytes, that the reconstructed post-edit ontology hashes to
   `d78d07c353738ae42f014f2b171c739cf1a5b404d2e016b00dd6c6537d7ba077`, and
   that the change roles are exactly add F2.5, modify F2.2 and F2.3. This
-  validation therefore binds the exact bytes that a promotion turn must
-  reproduce.
+  validation therefore confirms the exact scoped candidate text.
 
 ## Four-field return
 
