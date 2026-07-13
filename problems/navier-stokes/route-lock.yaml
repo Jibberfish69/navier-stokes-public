@@ -12,11 +12,12 @@ manual_ontology_gate_reconciliation:
   effect: >-
     On the instantaneous smooth decaying-R3 surface, Cycle 062 supplies an
     unconditional integrated same-field chord-affinity threshold radius, proves
-    its quadratic vorticity tail, and bounds J_{omega/tau} by the
-    enstrophy-palinstrophy product 24 pi sqrt(K D_2). Gold remains open because
-    datum-time control of D_2 and, in this Cauchy supplier,
+    its quadratic short-radius vorticity lower-tail bound, and bounds
+    J_{omega/tau} by the enstrophy-palinstrophy product 24 pi sqrt(K D_2).
+    This Cauchy supplier still lacks datum-time control of D_2 and
     G_tau=int g^2/tau, critical-rise placement, and a direct critical-height
-    consequence are missing. No direction/alignment or matched-localization
+    consequence; another direct theorem may bypass it. No direction/alignment
+    or matched-localization
     theorem, smaller closing theorem, or Silver exit is installed. Lower route
     snapshots remain genealogy only.
 governing_object_law:
