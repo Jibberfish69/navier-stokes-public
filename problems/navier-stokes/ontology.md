@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 055.
+**Current promoted checkpoint:** Cycle 056.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -7446,6 +7446,279 @@ entrance question: whether a Gold-threatening same-participant history must
 generate a uniform order-one shrinking-threshold ladder, or whether the
 failure of uniform rate or scale shrinkage has a separate datum-controlled
 consequence.
+
+### F7.24 Unbounded rate action has four value-scale entrance geometries, and every new total height requires joined source action
+
+Retain the smooth decaying \(\mathbb R^3\) surface and notation of
+F7.20--F7.23. The physical event is one participant developing successively
+larger values of
+
+\[
+I(t)=\int r_+(x,t)^2\,dx
+\]
+
+before a terminal time. This is growth of the total squared positive
+normalized compression rate. It does not by itself say that the pointwise
+rate height increases, that one spatial region grows, or that one material
+carrier persists.
+
+First, every new total height has an exact joined-source entrance cost. Let
+\(L_j=2^jL_0\), let \(\tau_j\) be the first time that
+\(I(\tau_j)=L_j\), and let \(a_j\) be the last preceding time at which
+\(I(a_j)=L_{j-1}\). If \(I\) is unbounded as \(t\uparrow T\), then
+\(\tau_j\uparrow T\), the intervals \([a_j,\tau_j]\) have disjoint
+interiors, and the F7.21 dual estimate gives
+
+\[
+\boxed{
+\int_{a_j}^{\tau_j}q(t)^2\,dt
+\ge 2\nu(L_j-L_{j-1})
+=\nu L_j.
+}
+\]
+
+Consequently every terminal tail obeys
+
+\[
+\boxed{
+\int_s^Tq(t)^2\,dt=\infty
+\qquad (s<T).
+}
+\]
+
+This is the quantified contrapositive of the F7.21 \(L_t^2\dot H_x^{-1}\)
+source criterion. It is not a datum upper bound and therefore does not close
+Gold.
+
+At a differentiable first entrance \(\tau_j\), one has \(I'\ge0\). Using
+the exact identity
+
+\[
+\mathcal V_{6,+}^{-1/3}
+=\frac{I}{\nu^2\mathcal R_{6,+}^2}
+\]
+
+in the F7.20 Sobolev law gives
+
+\[
+\boxed{
+\frac XI
+\ge\frac{S_3I^2}{\nu^4\mathcal R_{6,+}^4},
+\qquad
+\tau_{D,+}
+\le\frac{\nu^3\mathcal R_{6,+}^4}{S_3I^2},
+}
+\]
+
+and the joined balance and duality give
+
+\[
+\boxed{
+\frac NI
+\ge\frac{S_3I^2}{\nu^3\mathcal R_{6,+}^4},
+\qquad
+q^2
+\ge\frac{S_3I^3}{\nu^2\mathcal R_{6,+}^4}.
+}
+\]
+
+On each entrance interval the exact normalized source action is
+
+\[
+\boxed{
+\int_{a_j}^{\tau_j}\frac NI\,dt
+=\frac12\log2+\nu\int_{a_j}^{\tau_j}\frac XI\,dt
+\ge\frac12\log2+
+\frac{S_3}{\nu^3}
+\int_{a_j}^{\tau_j}\frac{I^2}{\mathcal R_{6,+}^4}\,dt.
+}
+\]
+
+Thus \(\mathcal R_{6,+}\to0\) at entrance is not a slow-viscosity or lag
+branch. The norm volume collapses, the direct scalar heat clock becomes
+shorter, and the simultaneous complete VPI source magnitude required at the
+entrance becomes larger. An isolated small value of \(\mathcal R_{6,+}\)
+has no proved duration, so it supplies no stronger integrated contradiction
+than the terminal \(q^2\)-divergence above.
+
+There is also a canonical value-threshold reading that captures a fixed
+fraction of the whole \(I\)-population. Put
+
+\[
+m(\alpha)=|\{f>\alpha\}|,
+\qquad
+M(f)=\sup_{\alpha>0}\alpha m(\alpha)^{2/3},
+\qquad f=r_+(t),
+\]
+
+and choose any \(0<\eta<1\) and any \(\eta\)-near-maximizing threshold
+\(\alpha\) satisfying
+
+\[
+\alpha m(\alpha)^{2/3}\ge\eta M(f).
+\]
+
+Let \(b=\alpha/2\) and \(E_b=\int(f-b)_+^2\). Since
+\(m(\lambda)\le(M/\lambda)^{3/2}\), splitting below and above \(b\) gives
+
+\[
+I\le2E_b+6M^{3/2}b^{1/2}.
+\]
+
+Near maximality gives
+
+\[
+E_b\ge b^2m(\alpha)
+\ge\frac{\eta^{3/2}}4M^{3/2}\alpha^{1/2}.
+\]
+
+Therefore, with
+
+\[
+C_\eta=2+12\sqrt2\,\eta^{-3/2},
+\]
+
+one has the scale-free mass-capture law
+
+\[
+\boxed{
+E_{\alpha/2}(t)\ge\frac{I(t)}{C_\eta}.
+}
+\]
+
+This sharpens the meaning of the F7.21 selector: a near-maximizing weak-
+\(L^{3/2}\) threshold is not a component size, but the excess above half of
+that value threshold contains a definite fraction of the complete squared
+rate population, including any higher-rate tail.
+
+For a backward interval of threshold time \(h=1/\alpha\) contained in the
+smooth history, write \(E_*=E_{\alpha/2}(t_0)\). For any
+\(0<\vartheta<1\), either
+
+\[
+\left|\{t\in[t_0-h,t_0]:E_{\alpha/2}(t)\ge E_*/2\}\right|
+\ge\frac\vartheta\alpha
+\]
+
+and
+
+\[
+\boxed{
+\int_{t_0-h}^{t_0}I(t)^2\,dt
+\ge\frac{\vartheta I(t_0)^2}
+{4C_\eta^2\alpha},
+}
+\]
+
+or the fixed-threshold joined law forces a last upcrossing with
+
+\[
+\boxed{
+\int q(t)^2\,dt
+\ge\nu E_*
+\ge\frac{\nu I(t_0)}{C_\eta}.
+}
+\]
+
+The alternatives act on the same excess. They do not assign the heat drain
+and source rebuilding to separate owners.
+
+These identities produce an exhaustive value-scale entrance classification.
+Along any unbounded entrance ladder, pass to a subsequence. Either
+
+1. \(\mathcal R_{6,+}\to0\). The direct heat clock collapses and the
+   instantaneous joined-source lower bounds above diverge; only the already
+   necessary terminal \(q^2\)-action failure follows after integration.
+2. \(\mathcal R_{6,+}\ge R_0>0\) and the near-maximizing thresholds satisfy
+   \(\alpha_j\to\infty\). Equivalently
+   \(s_j=(\nu/\alpha_j)^{1/2}\to0\), so F7.23 applies and its fixed residence
+   quantum or scale-growing rebuild alternative is available.
+3. \(\mathcal R_{6,+}\ge R_0>0\) and
+   \(0<\alpha_-\le\alpha_j\le\alpha_+<\infty\). Then the one fixed excess
+   \(E_{\alpha_-/2}(\tau_j)\ge I(\tau_j)/C_\eta\) is unbounded, and its
+   joined evolution forces \(\int_0^Tq^2dt=\infty\) without a heat-window
+   selection argument.
+4. \(\mathcal R_{6,+}\ge R_0>0\) and \(\alpha_j\to0\). Since
+   \(M(f_j)\ge c_0\nu R_0\), the near-maximizing population obeys
+
+   \[
+   m_j(\alpha_j)
+   \ge\left(\frac{\eta c_0\nu R_0}{\alpha_j}\right)^{3/2}
+   \longrightarrow\infty.
+   \]
+
+   This is a vanishing-rate-threshold, diverging-total-volume branch. It is a
+   global value-distribution statement, not a theorem that one spatial region
+   expands or one material population spreads.
+
+The shrinking-selector entrance proposed after F7.23 is therefore false at
+the level of all installed global coordinates, even with
+\(\mathcal R_{6,+}\asymp1\). To see this, fix \(L\), let \(V\to\infty\),
+and use two disjoint smooth scalar populations. Give the first height
+
+\[
+a_V=\frac\nu{L^2}V^\beta
+\quad\hbox{on volume }L^3V,
+\]
+
+and the second height
+
+\[
+B_V=\frac\nu{L^2}V^{3\beta+19/6}
+\quad\hbox{on volume }L^3V^{-10}.
+\]
+
+For \(-1/4\le\beta\le1/4\),
+
+\[
+I_V\asymp\frac{\nu^2}{L}V^{1+2\beta},
+\qquad
+\mathcal R_{6,+}(f_V)\asymp1,
+\qquad
+M(f_V)\asymp\nu V^{\beta+2/3},
+\]
+
+while the second population contributes only
+\(\asymp\nu V^{3\beta-7/2}\) to \(M\). Every fixed-\(\eta\)
+near-maximizing selector consequently has
+
+\[
+\alpha_V\asymp a_V,
+\qquad
+s_V\asymp LV^{-\beta/2}.
+\]
+
+The choices \(\beta=1/4,0,-1/4\) realize respectively shrinking, fixed,
+and diverging selector parameters. With \(V_j=2^j\) and disjoint terminal
+pulse durations
+
+\[
+\tau_j=\frac{L^2}{\nu}V_j^{-2(1+2\beta)},
+\]
+
+the scalar history has finite \(\int I\,dt\) and divergent
+\(\int I^2dt\) in all three cases. Defining its source by
+\(G=(\partial_t-\nu\Delta)f\) makes the scalar threshold identities exact.
+
+A separate single-profile heat-clock stack with
+\(I_j=2^j\), \(\mathcal R_{6,+,j}=2^{-j}\), spatial width
+\(\delta_j\asymp\nu^2\mathcal R_{6,+,j}^2/I_j\), and duration
+\(\delta_j^2/\nu\) has finite \(\int I\), finite \(\int I^2\), and finite
+\(\int q^{4/3}\), but divergent \(\int q^2\asymp\nu\sum_jI_j\). It shows
+why the uniform \(R_0\) in F7.23 is load-bearing for a fixed residence
+quantum and why the low-\(\mathcal R_{6,+}\) branch supplies no stronger
+integrated penalty from the installed identities.
+
+Both constructions are smooth scalar identity-level countertests, not
+Navier--Stokes realizations of \(r=-S:\Pi\). They license no expanding NS
+region, packet, component radius, Fourier-scale motion, material carrier,
+pressure sign, viscosity lag, or Silver exit. The new physical fact is the
+four-way value-scale anatomy and the joined source cost of every total-height
+entrance. The remaining Gold question is no longer a universal shrinking-
+selector entrance theorem. It is whether the same VPI structure either rules
+out the vanishing-threshold total-volume branch and controls the low-rate-
+Reynolds source concentration, or supplies a datum-finite bound on the joined
+source action by another mechanism.
 
 ## Hard boundary: claims excluded from the ontology
 
