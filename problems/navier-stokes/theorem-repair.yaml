@@ -9,21 +9,18 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#passive_all_chord_eigenframe_rotation_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#active_all_chord_work_gate_hierarchy_ontology_gate_spin
   effect: >-
-    Cycle 067 proves that unequal passive heat rates can genuinely rotate the
-    local all-chord principal frame along a stationary material line, with a
-    uniform positive principal spectral gap, while convection, the pressure
-    source and gradient, vortex stretching, r, and P_H vanish. At fixed initial
-    energy and viscosity across smooth periodic data, the initial
-    principal-axis angular rate is unbounded, although the total turn is pi/4
-    and critical height decreases. Thus eigenframe rotation and its raw rate
-    are not nonlinear or Gold activity. Only an E0-nu-positive-gap
-    initial-time angular-rate ceiling is refuted; per-datum,
-    fixed-positive-time, higher-norm, Gold-rise-restricted, active signed S:Pi
-    with local-global cancellation control, and bypass routes remain open. No
-    strict reduction, Gold closure, or Silver conclusion follows. Lower
-    generated route occurrences remain genealogy only.
+    Cycle 068 proves four strict gates: all-chord frame motion, local signed
+    overlap, global signed work after whole-field cancellation, and surplus
+    over simultaneous viscous critical loss. An exact globally regular
+    two-dimensional participant reaches the fourth gate and rises while
+    S omega=0; velocity reversal preserves its all-chord orientation and
+    quadratic snapshot sizes while reversing signed work. None of these
+    instantaneous events is Gold currency. Cumulative one-history departure
+    from the planar/null-stretching mechanism, or a direct datum-bound, remains
+    open. No strict reduction, Gold closure, or Silver conclusion follows.
+    Lower generated route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
