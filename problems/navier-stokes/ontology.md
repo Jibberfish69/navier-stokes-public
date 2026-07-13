@@ -5106,6 +5106,12 @@ one packet, nor one scale owns the production sign. On \(\mathbb T^3\), the
 same identity uses the periodic fractional kernel, equivalently all lattice
 lifts.
 
+Cycle 065 supplies a strict periodic null geometry: \(\mathsf T_u\) and
+\(\Pi\) can be anisotropic and spatially varying while their block structure
+is pointwise orthogonal to the simultaneous strain, so
+\(S:\mathsf T_u=S:\Pi=P_H=0\). Orientation variation is therefore not the
+production relation unless the same strain actually reads it.
+
 ### F7.6 Vortex stretching is a nonlocal all-chord orientation relation
 
 On decaying \(\mathbb R^3\), where \(\omega(x)\ne0\), put
@@ -5163,6 +5169,13 @@ activity depend on the component's oriented relation to the rest of the
 field. A null sector is lawful only when the complete Navier--Stokes equation
 proves the corresponding decoupling or invariant subspace; scalar moments and
 same-field membership alone do not prove it.
+
+Cycle 065 gives a complete all-chord version. In the exact parallel-column
+class \(u=nf(x_\perp,t)\), two transverse dependence directions can make
+\(\nabla\Pi\not\equiv0\) and \(\mathcal Q_\Pi>0\), yet the full VPI equation
+still has constant pressure, zero nonlinear transport, zero vortex stretching,
+and zero critical production because the orientation and strain blocks are
+orthogonal.
 
 ### F7.8 Local ripple growth and global critical growth are distinct relational events
 
@@ -5717,6 +5730,13 @@ counterclass. Its complete all-chord tensor is
 orthogonal to both \(I\) and \(n\otimes n\). Hence \(r=P_H=0\) regardless of
 how concentrated \(\tau\) becomes. The harmlessness comes from this exact
 joined geometry, not from isotropy, small incidence, or weak gradients.
+
+Cycle 065 supplies a stronger harmless overcount on the periodic surface. A
+fixed-energy varying-data family of passive parallel-column heat histories
+has \(P_H=0\) while the full spacetime \(\mathcal Q_\Pi\) grows like
+\(N^3/\nu\). This rules out only an unconditional energy--viscosity-only
+bound for that orientation supplier; it does not touch a Gold-rise-restricted
+or signed-coupled theorem.
 
 ### F7.14 The sign-blind \(L^2\) density ceiling costs a mixed derivative and can overcount harmless flow
 
