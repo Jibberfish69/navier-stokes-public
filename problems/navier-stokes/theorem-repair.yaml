@@ -11,12 +11,13 @@ manual_ontology_gate_reconciliation:
   status: active-authority-override
   authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_affine_break_radius_palinstrophy_tail_ontology_gate_spin
   effect: >-
-    Cycle 062 replaces the conditional radius by an unconditional adaptive
-    same-field affine-break radius, proves its quadratic vorticity tail, and
-    bounds J_{omega/tau} by 24 pi sqrt(K D_2). Gold still requires datum-time
-    control of D_2 and G_tau=int g^2/tau, critical-rise placement, or another
-    direct theorem. No smaller closing theorem, MPP closure, or Silver exit is
-    installed. Lower generated route occurrences remain genealogy only.
+    On the instantaneous smooth decaying-R3 surface, Cycle 062 replaces the
+    conditional radius by an unconditional adaptive same-field affine-break
+    radius, proves its quadratic vorticity tail, and bounds J_{omega/tau} by
+    24 pi sqrt(K D_2). Gold still requires datum-time control of D_2 and
+    G_tau=int g^2/tau, critical-rise placement, or another direct theorem. No
+    smaller closing theorem, MPP closure, or Silver exit is installed. Lower
+    generated route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false

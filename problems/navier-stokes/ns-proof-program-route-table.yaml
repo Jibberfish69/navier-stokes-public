@@ -28,8 +28,9 @@ manual_ontology_gate_reconciliation:
   latest_gate_spin:
     authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_affine_break_radius_palinstrophy_tail_ontology_gate_spin
     effect: >-
-      Cycle 062 defines the unconditional adaptive same-field affine-break
-      radius, proves its quadratic vorticity tail, and bounds J_{omega/tau} by
+      On the instantaneous smooth decaying-R3 surface, Cycle 062 defines the
+      unconditional adaptive same-field affine-break radius, proves its
+      quadratic vorticity tail, and bounds J_{omega/tau} by
       24 pi sqrt(K D_2). Datum-time control of D_2 and G_tau=int g^2/tau,
       Gold-time placement, and a direct critical-height consequence remain
       open. No smaller closing theorem, Gold closure, or Silver Part/Field exit
