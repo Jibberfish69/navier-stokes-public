@@ -1,11 +1,11 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycles 001--003
-are the governing ontology. Every Cycle 004--070 mathematical result is retained
-only as evidence pending revalidation, and every unrebuilt cycle-derived
-physical interpretation has zero premise weight.
+**Status:** physical-scenario rebuild reset. The F1--F7 seed is the governing
+ontology. Every Cycle 001--070 mathematical result is evidence pending
+revalidation, and every cycle-derived physical interpretation has zero premise
+weight until rebuilt through an actual same-fluid scenario.
 
-**Current promoted checkpoint:** rebuilt Cycle 003. Cycles 004--070 remain
+**Current promoted checkpoint:** pre-cycle F1--F7 seed. Cycles 001--070 are
 suspended.
 
 **Development authority:** this remains the single cumulative ontology.
@@ -33,6 +33,17 @@ not be narrated as actors, opponents, responses, stages, races,
 rebuilding/destruction processes, episodes, locations, or carriers unless an
 exact same-history theorem first proves that structure. Every rebuilt cycle
 must identify and delete the old story that its mathematics does not license.
+
+**Physical-scenario hard requirement:** a rebuilt cycle must begin with one
+concrete smooth fluid configuration or exact history described in ordinary
+physical terms: what neighboring fluid parcels are doing, what geometric
+change is occurring, and what a physical observer could distinguish in that
+same fluid. Naming a functional, projection, coordinate, readout, or
+non-implication is not physical reasoning. The equations must test that
+scenario and then return to say exactly which part of the physical picture
+survives, which part dies, and what new physical question the survivor creates.
+The scenario must still obey F1: pressure, viscosity, transport, and
+incompressibility are simultaneous aspects of one motion, never staged actors.
 
 **Authority boundary:** this file contains exact identities, exact operator
 properties, or classical proved theorems under the hypotheses stated here. It
@@ -1450,6 +1461,9 @@ pressure a sign or a dissipative interpretation.
 
 ### F1.14 One VPI tangent has inequivalent curl readouts
 
+**Second-rebuild status:** suspended; zero premise weight until Cycle 001 is
+rebuilt through a concrete same-fluid scenario.
+
 For one smooth unforced fixed-\(\nu\) history, set
 
 \[
@@ -1515,6 +1529,9 @@ exit. The periodic witness does not by itself refute a statement restricted
 to decaying \(\mathbb R^3\).
 
 ### F1.15 Critical height is a complete all-pair relation
+
+**Second-rebuild status:** suspended; zero premise weight until Cycle 002 is
+rebuilt through a concrete same-fluid scenario.
 
 On decaying \(\mathbb R^3\), let \(X(a,t)\) be the material map of the one
 smooth fixed-\(\nu\) participant and define
@@ -1583,6 +1600,9 @@ recurrence, causal order, pairwise monotonicity, datum-finite action bound,
 Gold closure, or Silver exit.
 
 ### F1.16 The infinitesimal critical-pair readout is anisotropic
+
+**Second-rebuild status:** suspended; zero premise weight until Cycle 003 is
+rebuilt through a concrete same-fluid scenario.
 
 At one differentiability point of one smooth participant, set
 
