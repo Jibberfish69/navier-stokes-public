@@ -5274,6 +5274,185 @@ have arbitrarily small \(V_{\mathrm{eff}}\) while
 therefore necessary for repeated blowup-scale growth but is not a blowup
 mechanism, a Silver exit, or a sufficient condition.
 
+### F7.14 The sign-blind \(L^2\) density ceiling costs a mixed derivative and can overcount harmless flow
+
+F7.12 at exponent \(4\), the critical embedding
+
+\[
+\dot F^{5/4}_{2,2}
+\hookrightarrow
+\dot F^{1/2}_{4,2},
+\]
+
+and Fourier log-convexity give
+
+\[
+\|\tau\|_2
+\le C\|\Lambda^{5/4}u\|_2^2
+\le C\sqrt{KD}.
+\]
+
+Consequently,
+
+\[
+V_{\mathrm{work}}^{-1}
+\le
+V_{\mathrm{eff}}^{-1}
+=\frac{\|\tau\|_2^2}{16\mathcal H_{1/2}^2}
+\le C\frac{KD}{\mathcal H_{1/2}^2}.
+\]
+
+With \(R=2\mathcal H_{1/2}\),
+
+\[
+m_H=\frac KR,
+\qquad
+s_H^2=\frac DR-m_H^2,
+\]
+
+the final quantity is
+
+\[
+\frac{KD}{\mathcal H_{1/2}^2}
+=4m_H(m_H^2+s_H^2).
+\]
+
+Thus integrability of this mixed critical spectral moment on rising times is
+a sufficient supplier for F7.13. It is not supplied by finite energy.
+
+The ceiling is deliberately sign blind. On the normalized torus,
+
+\[
+u_N(t,y)
+=Ae^{-\nu N^2t}(\cos Ny,0,\sin Ny)
+\]
+
+is an exact heat shear with constant pressure and zero transport. Its
+all-chord trace is spatially constant,
+\(V_{\mathrm{eff}}=|\mathbb T^3|\), and
+\(V_{\mathrm{work}}^{-1}=0\), while
+
+\[
+\frac{KD}{\mathcal H_{1/2}^2}=4N^3.
+\]
+
+The majorant can therefore overcount a harmless same-field state by an
+arbitrarily large factor. It is a valid proof ceiling and a frequency
+obstruction, not the physical concentration mechanism or the preferred Gold
+target.
+
+### F7.15 Critical rise converts finite normalized-work exposure into temporal rate intermittency
+
+Define the instantaneous positive normalized-work-rate mass
+
+\[
+I(t)=\int r_+(a,t)^2\,da.
+\]
+
+F7.11 gives
+
+\[
+2\nu\int_0^T I(t)\,dt\le\mathcal E_0,
+\qquad
+I(t)\le\int|S|^2\,dx=\frac12K(t).
+\]
+
+On the rising set
+
+\[
+G=\{t:\mathcal H_{1/2}'(t)>0\},
+\]
+
+the full critical balance, not a separate viscosity argument, gives
+
+\[
+\nu D<P_H
+\le\int\tau r_+\,da
+\le\|\tau\|_2\sqrt I
+\le C\sqrt{KDI}.
+\]
+
+Hence
+
+\[
+\frac DK\le C\frac I{\nu^2}.
+\]
+
+Since \(K^2\le RD\), one also has
+
+\[
+\frac KR\le\frac DK\le C\frac I{\nu^2},
+\qquad
+\frac DR\le C\frac{I^2}{\nu^4}.
+\]
+
+The larger rising-frequency ratio therefore has the datum-finite occupancy
+
+\[
+\int_G\frac DK\,dt
+\le\frac{C\mathcal E_0}{\nu^3}.
+\]
+
+This sharpens F6.21 and proves that high-frequency critical rise cannot occupy
+long physical time.
+
+The same inequalities give the direct logarithmic growth bound
+
+\[
+\left(\frac d{dt}\log\mathcal H_{1/2}\right)_+
+\le C\frac{I(t)^2}{\nu^3}.
+\]
+
+Therefore
+
+\[
+\int_G I(t)^2\,dt<\infty
+\]
+
+is a scale-critical critical-height continuation criterion. Every disjoint
+critical-height doubling interval \(I_j\) must satisfy
+
+\[
+\int_{I_j\cap G}I(t)^2\,dt\ge c\nu^3.
+\]
+
+A finite-time terminal ladder must consequently obey
+
+\[
+I\in L^1(0,T_*),
+\qquad
+I\notin L^2(G),
+\]
+
+and, because the \(L^1\) masses of disjoint late doubling intervals tend to
+zero,
+
+\[
+\operatorname*{ess\,sup}_{I_j\cap G}I(t)\longrightarrow\infty.
+\]
+
+Repeated critical growth therefore requires increasingly high and short
+bursts of the ordinary-material-volume total of the squared normalized
+positive work rate. This is the exact temporal-intermittency statement
+licensed by the same VPI history. It is not a pressure lag, packet collision,
+shrinking core, annular travel, or proof that one material carrier persists
+between bursts.
+
+The effective-volume consequence is
+
+\[
+V_{\mathrm{work}}^{-1}
+\le C\frac{I^3}{\nu^6}.
+\]
+
+Finite \(\int I^2dt\) closes critical height directly but does not prove
+\(WorkEffectiveMaterialVolumeIntegrability.A\), which this upper bound would
+obtain only from \(I\in L^3_t\). The two conditions are parallel Gold
+suppliers. Large \(I\) is also not sufficient for growth: exact ABC histories
+have nonzero positive local work and \(I\sim A^2\) while the signed global
+production cancels and critical height decays. Outside \(G\), the displayed
+\(D/K\) bound is false; exact heat shears have \(I=0\) and \(D/K>0\).
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
