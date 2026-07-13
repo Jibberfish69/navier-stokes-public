@@ -14,7 +14,7 @@ manual_ontology_gate_reconciliation:
     the local all-chord tensor. In an exact passive periodic history Pi changes
     along a material column while convection, the pressure source and gradient,
     vortex stretching, r, and P_H vanish. At fixed initial energy and
-    viscosity across smooth data, initial |D_t Pi| is unbounded, although its
+    viscosity across smooth periodic data, initial |D_t Pi| is unbounded, although its
     total selected-column variation is finite and critical height decreases.
     Thus D_t Pi and its raw rate are not nonlinear or Gold activity. Only an
     E0-nu initial-time pointwise ceiling for this readout is refuted;
