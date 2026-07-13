@@ -9,14 +9,14 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#rate_enstrophy_palinstrophy_response_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_readout_bridge_ontology_gate_spin
   effect: >-
-    Cycle 057 proves the fine derivative-tier and enstrophy-doubling response
-    forced by unbounded rate mass. The vanishing-threshold branch survives
-    instantaneous VPI and finite-energy testing, while each one-history
-    enstrophy doubling has diverging palinstrophy/stretching action without a
-    datum upper bound. No smaller closing theorem, MPP closure, or Silver exit
-    is installed. Lower generated route occurrences remain genealogy only.
+    Cycle 058 proves the exact same-strain readout bridge and a scale-critical
+    rate-square-or-positive-residual alternative on every enstrophy doubling.
+    The residual is not an independent currency and neither branch has the
+    datum/G-time control needed for Gold. No smaller closing theorem, MPP
+    closure, or Silver exit is installed. Lower generated route occurrences
+    remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
