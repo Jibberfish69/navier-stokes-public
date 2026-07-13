@@ -175,8 +175,9 @@ positive normalized heat-age floor for every fine-current episode. This is not
 a physical or material dwell theorem because no retained carrier was
 constructed. An assumed terminal record has
 a different exact fact: the endpoint-selected heat window has fixed \(q=c\),
-and homogeneous inheritance leaves a fixed deficit that must be reconstructed
-by late pressure-completed source work. That future-fitted window supplies no
+and homogeneous inheritance leaves a fixed deficit represented by a large
+late projected source response in the endpoint-adjoint pairing. That
+future-fitted window supplies no
 material or WLF no-recount history. The four localized current rows are also
 not four independent Gold debts: they are one signed weak residual on the
 native-to-shape conversion route and recombine across internal interfaces. A
