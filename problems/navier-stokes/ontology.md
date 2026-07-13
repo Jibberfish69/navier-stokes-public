@@ -7989,8 +7989,9 @@ d_j\ge\frac{8\pi^4\nu^4}{L_j}.
 
 Because the intervals are disjoint, \(\sum_jd_j\le\mathcal E_0\), so
 \(d_j\to0\) and \(|J_j|\to0\). The unavoidable energy price decreases at
-least on the summable dyadic scale \(L_j^{-1}\); finite kinetic energy does
-not contradict infinitely many such levels.
+late levels, while the proved minimum price is only of summable dyadic order
+\(L_j^{-1}\). Finite kinetic energy does not contradict infinitely many such
+levels.
 
 The higher derivative rung behaves oppositely. Put
 \(A_j^{(2)}=\int_{J_j}D_2\,dt\). The exact source identity and Holder give
@@ -8156,6 +8157,8 @@ The following are not hard facts and carry no premise weight here:
 - `theorem-construction/mpp-forward-gold-circulation-impulse-coercion-direct-test-20260620.md`
 - `theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md`
 - `theorem-construction/mpp-forward-gold-rigorous-quartic-far-strain-lemma-20260705.md`
+- `theorem-construction/high-frequency-enstrophy-to-h1-lemma.md`
+- `theorem-construction/mpp-forward-gold-enstrophy-ode-no-hidden-full-clock-producer-20260625.md`
 - `ontology-participation-hierarchy-20260711.md`, Cycles 025--027
 - `theorem-construction/codex-goal-ontology-cycle-027-anisotropic-passive-high-centroid-positive-time-no-go-20260711.md`
 - Gregory Seregin, [*Necessary conditions of potential blow up for Navier--Stokes equations*](https://arxiv.org/abs/1101.1869), Theorem 1.1.
