@@ -30,10 +30,11 @@ manual_ontology_gate_reconciliation:
     effect: >-
       On the instantaneous smooth decaying-R3 surface, Cycle 062 defines the
       unconditional integrated same-field chord-affinity threshold radius,
-      proves its quadratic vorticity tail, and bounds J_{omega/tau} by the
-      enstrophy-palinstrophy product 24 pi sqrt(K D_2). Datum-time control of
-      D_2 and, in this Cauchy supplier, G_tau=int g^2/tau, Gold-time placement,
-      and a direct critical-height consequence remain open. No
+      proves its quadratic short-radius vorticity lower-tail bound, and bounds
+      J_{omega/tau} by the enstrophy-palinstrophy product 24 pi sqrt(K D_2).
+      This Cauchy supplier still lacks datum-time control of D_2,
+      G_tau=int g^2/tau, Gold-time placement, and a direct critical-height
+      consequence; another direct theorem may bypass it. No
       direction/alignment or matched-localization theorem, smaller closing
       theorem, Gold closure, or Silver Part/Field exit follows.
 primary_objective:

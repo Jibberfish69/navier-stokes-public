@@ -1017,7 +1017,8 @@ Silver exit follows.
   fixed-energy fixed-viscosity family rules out an energy--viscosity-only
   radius floor or static linear deweighting coefficient. Cycle 062 supplies a
   distinct canonical integrated threshold \(\ell_\omega\), proves its
-  quadratic vorticity tail, and bounds \(J_{\omega/\tau}\) by the
+  quadratic short-radius vorticity lower-tail bound, and bounds
+  \(J_{\omega/\tau}\) by the
   enstrophy--palinstrophy product \(24\pi\sqrt{KD_2}\). In this
   F7.17-plus-Cauchy supplier the remaining factor is
   \(\int g^2/\tau\); another source-weighted replacement may bypass it on one
