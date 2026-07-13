@@ -157,6 +157,54 @@ point-field quantities. Their majorants sit one rung up; whether the Gram's
 rank structure converts them into a G-restricted payment is the open
 computation.
 
+## VIIIa. Addendum — the H^{−3/2}-normalized action threshold (new, unconditional)
+
+Define the profile-normalized Gold action
+
+  𝒩(T) = ∫₀^T I(t)² / 𝓗_{1/2}(t)^{3/2} dt.
+
+**Theorem (explicit continuation threshold).** Let u be smooth on [0,T) at
+the decaying-ℝ³ scope with u₀ ≠ 0, and let C be the absolute constant in
+F7.15's logarithmic bound (d/dt log 𝓗_{1/2})₊ ≤ C I²/ν³. If
+
+  𝒩(T) < (2ν³ / 3C) · 𝓗_{1/2}(0)^{−3/2},
+
+then
+
+  sup_{[0,T)} 𝓗_{1/2}
+  ≤ [ 𝓗_{1/2}(0)^{−3/2} − (3C/2ν³)𝒩(T) ]^{−2/3} < ∞,
+
+and the solution continues past T. Equivalently: **every finite-time blowup
+must spend normalized action at least (2ν³/3C)·𝓗_{1/2}(0)^{−3/2}.**
+
+*Proof.* Where H′ > 0, F7.15 gives (log H)′ ≤ (C/ν³)I² = (C/ν³)H^{3/2}·(I²/H^{3/2});
+where H′ ≤ 0, (log H)′ ≤ 0. In both cases
+
+  d/dt (H^{−3/2}) = −(3/2)H^{−3/2}(log H)′ ≥ −(3C/2ν³)·I²/H^{3/2}.
+
+Integrating from 0 to t gives H^{−3/2}(t) ≥ H₀^{−3/2} − (3C/2ν³)𝒩(t). Under
+the hypothesis the right side stays positive, giving the displayed sup bound;
+bounded critical height gives continuation via the endpoint criterion as in
+F6.10. H > 0 throughout by backward uniqueness for nonzero data. ∎
+
+**Weight-exponent scan (why 3/2 is the profile weight).** For
+𝒩_β = ∫ I²/H^β dt: at β = 0 every dyadic doubling costs ≥ (ν³/C)log 2
+independently of level, so blowup forces 𝒩₀ = ∞ — this is exactly F7.15's
+criterion. For any β > 0 the per-doubling cost at level L decays like
+L^{−β} and the dyadic sum converges, so only a finite threshold survives; the
+exponent β = 3/2 is distinguished as the one whose threshold constant is the
+pure datum ray H₀^{−3/2} matching the Φ* profile of Section V, and at which
+the short-rise counterfamily spends order Hψ^{−3/2} ≫ threshold while
+remaining smooth — the criterion is sufficient, not necessary, as it must be.
+
+This is, to my knowledge, the first *explicit-threshold* (rather than
+finiteness-type) continuation criterion in this coordinate family: a single
+quantitative action quantum for the whole history rather than per doubling.
+It does not close Gold: nothing bounds 𝒩 from the datum. Its value is that
+the pair-pair Gram program now has a sharp, minimal target: produce any
+datum-controlled upper bound on 𝒩 — the weakest object in the family that
+still pays the burden — rather than on the unweighted ∫I².
+
 ## VIII. Four-field return (gate Section IV)
 
 1. **Physical verdict:** OPEN. Nothing here decides the physical question;
