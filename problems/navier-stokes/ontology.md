@@ -10138,10 +10138,11 @@ change in this class. At a different column the mixed all-chord term survives,
 and unequal heat rates rotate the principal eigenspace while the same null
 conclusions remain exact.
 
-F7.36 leaves the passive class and proves the exact next boundary. Frame
-motion is Gate 0 only. Active critical work begins when the simultaneous
-strain contracts the all-chord tensor with a sign, and local sign, global
-survival, and surplus over viscosity must then be checked separately.
+F7.36 leaves the passive class in a separate exact witness and proves the next
+boundary. Frame motion is an independent null comparison, not Gate 0 of a
+necessary chain. Active critical work begins when the simultaneous strain
+contracts the all-chord tensor with a sign, and local sign, global survival,
+and surplus over viscosity must then be checked separately.
 
 ### F7.34 Unequal passive heat rates can change normalized all-chord orientation along one material column
 
@@ -10531,7 +10532,7 @@ separates local signed overlap from global work, and places viscous surplus on
 an actual rising history. It also proves why that is still not Gold closure:
 the rising history is globally regular.
 
-### F7.36 Active all-chord work has four strict gates, and actual rise can occur without vortex stretching
+### F7.36 Frame motion is independent of three strict active all-chord gates, and actual rise can occur without vortex stretching
 
 On normalized periodic \(\mathbb T^3\), retain
 
@@ -10558,13 +10559,19 @@ D=\|\Lambda^{3/2}u\|_2^2.
 }
 \]
 
-Cycles 067, 015, and the exact two-dimensional triad below make four gates
-strict:
+Different exact periodic histories make one independent null comparison and
+three nested active gates strict:
 
-1. the all-chord principal frame can rotate while \(r=P_H=0\);
-2. \(r>0\) can hold at a point while \(P_H=0\) by whole-field cancellation;
-3. \(P_H>0\) can hold while \(P_H\le\nu D\), so height does not rise; and
-4. \(P_H>\nu D\) gives actual critical-height rise.
+- independent null comparison: the all-chord principal frame can rotate while
+  \(r=P_H=0\);
+- active Gate 1: \(r>0\) can hold at a point while \(P_H=0\) by whole-field
+  cancellation;
+- active Gate 2: \(P_H>0\) can hold while \(P_H\le\nu D\), so height does not
+  rise; and
+- active Gate 3: \(P_H>\nu D\) gives actual critical-height rise.
+
+Frame motion is not a necessary precursor to Gate 1, and no single history is
+asserted to traverse all displayed witnesses.
 
 For the active witness, set
 
