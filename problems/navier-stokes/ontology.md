@@ -10492,6 +10492,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-067-passive-all-chord-eigenframe-rotation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-066-passive-unequal-heat-rate-material-orientation-reweighting-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-065-passive-multidirectional-all-chord-orientation-variation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-064-one-direction-shear-universal-all-chord-orientation-null-class-20260713.md`
