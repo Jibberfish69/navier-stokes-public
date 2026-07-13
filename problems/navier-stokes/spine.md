@@ -880,7 +880,7 @@ favorable pressure sign,
 viscosity lag, full-participant speed band, Gold closure, or Silver exit is
 proved.
 
-Cycle 055 removes the separate no-recount hypothesis for a terminal shrinking
+Cycle 055 proves the temporal summation step for a terminal shrinking
 threshold ladder. If \(t_j\uparrow T\), \(s_j\to0\), and
 \(\mathcal R_{6,+}(t_j)\ge R_0\), then the backward heat windows
 \(J_j=[t_j-s_j^2/\nu,t_j]\) have a pairwise-disjoint subsequence. Applying
@@ -892,11 +892,11 @@ Cycle 054 on each window gives
 \int_0^Tq^2dt=\infty.
 \]
 
-Residence cannot be recounted because the windows themselves shrink into the
-terminal time; rebuilding cannot be recounted because its individual lower
-bound grows like \(s_j^{-1}\). This is not Gold closure: neither action has a
-datum upper bound, and no theorem yet extracts the uniform order-one
-shrinking-threshold ladder from a Gold-threatening NS history.
+The residence lower bounds add on the pairwise-disjoint subfamily. In the
+rebuild branch, each individual lower bound grows like \(s_j^{-1}\), so no
+interval summation is needed. This is not Gold closure: neither action has a
+datum upper bound, and no theorem yet extracts the uniform order-one shrinking-
+threshold ladder from a Gold-threatening NS history.
 
 The same cycle gives the exact sufficient physical-time alternative. If, on
 one interval of length \(S^2/\nu\), a positive fraction of times has a
