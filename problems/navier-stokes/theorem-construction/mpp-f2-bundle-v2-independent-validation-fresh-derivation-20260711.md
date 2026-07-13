@@ -277,6 +277,6 @@ boundary. **Confirmed.**
   archived fresh fact sections is re-derived above at its stated scope.
 - **Live-burden effect: SUPPORT ONLY.** No critical-height bound and no
   Part/Field failure is produced; the Gold and Silver burdens are unchanged.
-- **Proposed ontology delta: NO CHANGE** in this record; the validated
-  candidate's disposition advances to confirmed, and promotion remains a
-  separate explicit later turn under gate VI.
+- **Proposed ontology delta: NO CHANGE** in this record. The candidate is
+  independently confirmed, but canonical integration is not performed in this
+  note.
