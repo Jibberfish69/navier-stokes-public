@@ -3882,7 +3882,7 @@ while \(T_A\to0\).  The physical kinetic-energy loss and every fixed
 energy-interpolation occupancy with \(0<s\le1\) obey
 
 \[
-\frac12\|u_A(0)\|_2^2-rac12\|u_A(T_A)\|_2^2
+\frac12\|u_A(0)\|_2^2-\frac12\|u_A(T_A)\|_2^2
 =\frac{\nu}{A}\int_0^{\tau_0}K(v^{\nu/A})\,d\tau
 =O(A^{-1}),
 \]
@@ -3911,8 +3911,8 @@ opposite scaling,
 
 with constants fixed by the nonzero seed and common interval.  The fixed
 fractional rise is cheap only in physical time, raw kinetic-energy loss, and
-the subcritical energy-interpolation occupancies.  The scale-critical row
-becomes larger.
+the subcritical energy-interpolation occupancies.  The critical-height
+dissipation row becomes larger.
 
 This family varies the datum with \(A\) and proves no repeated-event history
 for one datum.  The dilation is exact on decaying \(\mathbb R^3\); a fixed
