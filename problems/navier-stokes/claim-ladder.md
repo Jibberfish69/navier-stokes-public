@@ -536,9 +536,10 @@ isoperimetry give
 
 If F7.21 selects \(k=\nu/s^2\) at a late time with
 \(\mathcal R_{6,+}\ge R_0\), the half-threshold excess contains
-\(e_*\asymp_{R_0}\nu^2/s\). On the preceding heat interval, either it remains
-above \(e_*/2\) for a fixed time fraction and contributes
-\(\int I^2dt\gtrsim_{R_0}\nu^3\), or the complete source rebuilds it against
+\(e_*\asymp_{R_0,\eta}\nu^2/s\). On the preceding heat interval, either it is
+above \(e_*/2\) on a set of times of measure at least \(\vartheta s^2/\nu\)
+and contributes \(\int I^2dt\gtrsim_{R_0,\eta,\vartheta}\nu^3\), or the
+complete source rebuilds it against
 direct heat with net action \(\gtrsim_{R_0}\nu^2/s\) and
 \(\int q^2dt\gtrsim_{R_0}\nu^3/s\). Forward, the corresponding alternative is
 residence or joined removal. A fragmented scalar pure-heat family shows why
