@@ -7351,7 +7351,7 @@ F7.19 event. Define
 \left|\left\{x:r_+(x,t)>\frac\nu{s^2}\right\}\right|.
 \]
 
-Suppose some \(S>0\), \(\Lambda\ge1\), \(\rho>0\), and interval \(J\) obey
+Suppose some \(S>0\), \(\Lambda\ge1\), \(0<\rho\le1\), and interval \(J\) obey
 
 \[
 |J|=\frac{S^2}{\nu},
