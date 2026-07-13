@@ -57,16 +57,16 @@ older cycle files are evidence, not competing authority.
 | 022 | The same irreversible history returns to an equal critical height. | Equal-height energy/frequency comparison and endpoint Duhamel difference. | Re-entry is a different later VPI pose with less energy and higher mean radius. | No mode birth, material replacement, or nonreusable resource. | Same-history ontology fact. |
 | 023 | Probe a future-fitted endpoint by radial and tangential Hilbert coordinates. | Exact transformed-history decomposition and functional countermodels. | The coordinates separate response directions relative to the probe. | No spatial turning, eigenframe rotation, vortex reorientation, or material angular motion. | Coordinate anatomy and countertest. |
 | 024 | Assume an unbounded normalized record history and classify its gain snapshots. | Measure-theoretic efficiency/action dichotomy on that conditional history. | One horn has efficient gain; the other has large action. | Horns are not mechanisms and extracted profiles own no material history. | Conditional dichotomy. |
-| 025 | In an assumed terminal gain history, track the full-field \(D/K\) pose. | Fixed-fraction gain on states with increasing \(D/K\). | A global radial frequency pose accompanies part of the gain. | No support migration or identification of the frequencies, regions, or materials carrying \(P_H\). | Conditional global anatomy. |
+| 025 | In an assumed terminal gain history, track the full-field \(D/K\) pose. | Fixed-fraction gain on states where \(D/K\) exceeds thresholds tending to infinity. | A global radial frequency pose accompanies part of the gain. | No time monotonicity, support migration, or identification of the frequencies, regions, or materials carrying \(P_H\). | Conditional global anatomy. |
 | 026 | Add a high shear to one smooth snapshot while preserving the complete field. | Exact triad geometry separates large \(D/K\) and viscous loss from instantaneous \(P_H\). | A derivative-heavy sector can be instantaneously inactive in critical production. | No positive-time decoupling or terminal ladder. | Snapshot countertest. |
 | 027 | Put an orientation-selected 2D3C sector inside one exact participant. | Invariant null-sector solution and rotated wavevector--polarization comparison. | The null sector dissipates while giving zero nonlinear feedback; rotation activates transport and pressure. | Varying-data family; no doubling or terminal recurrence. | Ontology fact and countertest. |
 | 028 | Fit a shrinking endpoint window to an assumed terminal history. | Large Eulerian Duhamel component and endpoint-adjoint pairing. | Late source work must reconstruct the endpoint-selected deficit. | No mode birth, material carrier, co-carriage, disjointness, or no-reuse. | Conditional endpoint theorem. |
 | 029 | Consolidate all proved survivors under participation. | Canonical F1--F7 hierarchy and source reconciliation. | One ontology now controls later theorem admission. | No new physical theorem or MPP progress. | Consolidation. |
-| 030 | Assume a terminal doubling ladder and follow signed critical production past moving cutoffs. | Escape beyond every fixed multiple of the global Fourier cutoff. | Terminal production becomes globally high-frequency relative to that cutoff. | No packet or energy lump travels to small physical scales. | Conditional terminal anatomy. |
+| 030 | Assume a terminal doubling ladder and follow signed critical production past moving cutoffs. | Time-integrated signed current escapes beyond every fixed cutoff multiple on late last-doubling intervals. | The late integrated production becomes globally high-frequency relative to that cutoff. | No instantaneous migration, packet, or energy lump travels to small physical scales. | Conditional terminal anatomy. |
 | 031 | Compare terminal high-pass necessity with a separate exact scaled family. | High-pass \(\dot H^{1/2}\) tail requirement plus fixed-energy short-time fine-current counterfamily. | The two surfaces separate one-history necessity from cross-data possibility. | Not one participant shrinking through time. | Conditional theorem plus varying-data no-go. |
 | 032 | Resolve the global critical tangent into the Hilbert shape direction it actually uses. | Exact \(A_H\) coherent-current factorization. | \(A_H\) is the used global Fourier-shape direction. | “Shape” is not spatial or material deformation. | Ontology coordinate. |
 | 033 | Radially disintegrate the same global critical current. | Exact radial current profile and angular/radial/coherent action hierarchy. | Angular cancellation at one radius differs from current between radii. | No spatial rearrangement, packet cascade, or material transfer. | Ontology coordinate. |
-| 034 | Compare a source pulse, later focusing, rippled field, and vortex inside one VPI participant. | All-center pair distribution, conditional material core--annulus relay, and exact ripple/shear laws. | These are distinct admitted pictures with distinct exact equations. | Their shared inverse-distance algebra supplies no common carrier. | Physical synthesis plus ontology facts. |
+| 034 | Compare a source pulse, later focusing, rippled field, and vortex inside one VPI participant. | All-center pair distribution, conditional material core--annulus relay, and exact ripple/shear laws. | These are distinct candidate pictures whose exact laws apply on their stated admitted surfaces. | No dangerous history is proved to realize a carrier, and their shared inverse-distance algebra supplies no common one. | Physical synthesis plus ontology facts. |
 | 035 | Let global critical height rise while separately tracking a local crest--trough event. | Global pair-scale action-rate lower bound and local pressure-gradient/curvature amplitude law. | Global rise and local ripple growth are different relational events. | Neither identifies the other or a ripple carrier. | Conditional bound plus exact countertest. |
 | 036 | Express the current state in material-pair coordinates and localize it to a cohort. | Positive \(J_{\rm pair}\), four exact residual rows, and failed automatic disintegration. | Localization exposes joined boundary, leakage, derivative, and selection defects. | No historical measure, same-event support, or bounded fibre intensity. | Coordinate theorem and route obstruction. |
 | 037 | Compare a vanishing-age varying-data event with a terminal-fitted fixed-age window. | No universal positive normalized heat-age floor for every fine-current episode, late reconstruction theorem, and residual recombination. | Normalized heat age and endpoint reconstruction are different questions. | No physical/material dwell theorem, generic ancestry, WLF first admission, or four independent debts. | Countertest and route correction. |
@@ -75,12 +75,12 @@ older cycle files are evidence, not competing authority.
 | 040 | Factor critical height into energy and global mean Fourier radius. | Exact centroid-rate identity and Pell relative-bandwidth counterfamily. | Rise means centroid lift faster than viscous depletion. | Relative bandwidth is not spatial spikiness. | Ontology coordinate and no-go. |
 | 041 | At an actual rising time, compare mean radius, absolute variance, and duration. | Datum-dependent absolute-width floor and upper uninterrupted-rise duration. | A fixed finite-energy history cannot rise at unbounded mean radius with bounded absolute spectral width. | Two shells or a remote tail suffice; no spatial widening or carrier. | Necessary same-history constraint. |
 | 042 | Integrate the rising mean-radius pose through one history, then test event quanta across data. | Finite rising occupancy and exact fixed-energy short-rise family. | One history has finite occupancy; time, raw loss, and subcritical occupancy have no universal per-gain quantum. | No spatial localization or fixed-history compound-charge no-go. | Ontology fact and varying-data countertest. |
-| 043 | Pull pressure, viscosity, and all-chord work into the same material deformation geometry. | Shared \(C^{-1}\) metric, exact material-work identity, and circulation/area alternative. | Pressure and viscosity respond through one deformed coordinate geometry; material work is signed and anisotropic. | No response-time, core/collar incidence, favorable sign, or Gold theorem. | Ontology advance and target refinement. |
+| 043 | Pull pressure, viscosity, and all-chord work into the same material deformation geometry. | Shared \(C^{-1}\) metric, exact material-work identity, and circulation/area alternative. | The pulled-back pressure and viscous operators use the same material metric; material work is signed and anisotropic. | No strengthened physical response, response-time, core/collar incidence, favorable sign, or Gold theorem. | Ontology advance and target refinement. |
 | 044 | At positive local material work, compare tangent contraction with the matched frozen dual symbol. | Tangent--dual reciprocity and positive-work direction theorem; shear/off-diagonal countertests. | A contracting direction and increasing dual coefficient appear simultaneously. | No stronger physical viscosity, favorable pressure, persistence, or response-time bound. | Ontology fact, later corrected by 045. |
 | 045 | Re-read positive work in physical gradients of the same field. | Metric cancellation, compressive-gradient bound, and datum-finite \(L^2\) normalized-rate budget. | Positive work already contains a same-point compressive gradient; critical growth samples its rate through all-chord incidence. | No core localization, critical-difference incidence, persistence, no-recount, or closure. | Ontology advance and target refinement. |
 | 046 | Test whether the nonlocal all-chord density can remain on one small material-label set. | Sharp \(L^1_tL^{3/2}_x\) capacity and inverse work-effective-volume doubling law. | Repeated growth forces concentration over material centers in the exact harmonic-volume coordinate. | Not fluid mass, shrinking packet/core/annulus, or sufficient blowup geometry. | Ontology advance and strict target reduction. |
-| 047 | During actual rise, compare finite normalized-rate exposure with critical viscous frequency. | \(D/K\) occupancy, \(I^2\) growth bound, and fixed action per doubling. | A terminal ladder needs increasingly high, short same-field rate bursts. | No viscosity lag, packet travel, persistent owner, or closure. | Ontology advance and direct target. |
-| 048 | Evolve \(r=-S:\Pi\) in quotient coordinates and test energy-only closure. | Exact quotient law, weighted perspective, scalar Fisher bound, and fixed-energy burst no-go. | The normalized rate is a strain--orientation relation. | Its separate log-density-curvature obstruction was an incomplete grouping and is superseded by 049. | Partial theorem plus corrected overread. |
+| 047 | During actual rise, compare finite normalized-rate exposure with critical viscous frequency. | \(D/K\) occupancy, \(I^2\) growth bound, and fixed action per doubling. | A terminal ladder needs increasingly high, short bursts of the global scalar \(I(t)=\int r_+^2da\). | No local physical work burst, viscosity lag, packet travel, persistent owner, or closure. | Ontology advance and direct target. |
+| 048 | Evolve \(r=-S:\Pi\) in quotient coordinates and test energy-only closure. | Exact quotient law, weighted perspective, scalar Fisher bound, and fixed-energy burst no-go. | The normalized rate is a strain--orientation relation. | The weighted survivors prove no ordinary-volume control, packet/core localization, or recurrence; the separate log-density-curvature obstruction was an incomplete grouping superseded by 049. | Partial support and countertest with corrected overread. |
 | 049 | Recombine every pressure, strain, rotation, pair, and viscous row before reading ordinary-volume rate. | Clean \((D_t-\nu\Delta)r=\widetilde{\mathcal F}_r\), matrix Fisher law, far-tail theorem, and remote-copy counterfamilies on \(\mathbb R^3\). | Scalar incidence magnitude cancels; only the signed trace-free VPI shape relation drives \(r\), while orientation turning is incidence-weighted. | Static cross-data deweighting fails; no fixed-datum recurrence, packet, annulus, material carrier, viscosity lag, or separate pressure/viscosity control is proved. | Ontology correction and route obstruction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
@@ -96,9 +96,10 @@ bridge to \(A_H\), the stronger radial action, or directly to critical-height
 control. Silver is unchanged.
 
 The physical-custody audit of Cycles 034--042 changes how the next paragraphs
-are read.  F5.7 is the direct physical mechanism: one source core, responding
-material annulus, joined pressure--viscous stress work, annular storage, and
-annular strain loss in one VPI relay.  F5.8 and F7.8 give direct ripple and
+are read. F5.7 is the exact relay identity for an admitted material
+core--annulus mechanism: one source core, responding material annulus, joined
+pressure--viscous stress work, annular storage, and annular strain loss in one
+VPI relay. F5.8 and F7.8 give direct ripple and
 crest--trough facts.  F1.9, F6.13, and F6.17--F6.21 are global
 pair/Fourier coordinates or exact countertests.  They remain true at their
 stated scope, but they do not continue the source-centred pulse,
@@ -370,7 +371,7 @@ critical gradient differences on one core--collar event, and retain them for
 a quantitative interval. The ABC amplitude family refutes a universal linear
 work-to-viscosity fraction, so the normalized quadratic law is the surviving
 form. This is physical ontology and a sharper Gold reduction, not MPP
-progress. Silver is unchanged.
+closure. Silver is unchanged.
 
 Cycle 046 installs F7.12--F7.13. The nonlocal all-chord density has the
 scale-critical energy-level capacity law
@@ -382,9 +383,10 @@ scale-critical energy-level capacity law
 \le C\mathcal E_0|A|^{1/3}
 \]
 
-for every fixed material label set \(A\). Hence the density cannot remain on
-one arbitrarily small fixed material set for a long interval. The estimate
-does not close the work product: \(r\in L^2\) and
+for every fixed material label set \(A\). Hence the density cannot carry a
+fixed positive spacetime amount on one arbitrarily small fixed label set. The
+estimate does not prohibit low-amplitude persistence and does not close the
+work product: \(r\in L^2\) and
 \(\tau\in L^{3/2}\) do not pair, and \(3/2\) is the strongest generic
 energy-scaling exponent.
 
