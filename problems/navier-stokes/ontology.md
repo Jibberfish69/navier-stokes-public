@@ -10935,12 +10935,16 @@ per-event datum charge, terminal behavior, strict Gold reduction, Gold
 closure, Part/Field failure, class exit, or Silver result. Its exact Gold
 consequence is negative and generative: no one of frame motion, local positive
 overlap, global positive work, viscous surplus, or a finite height upcrossing
-is itself the sought currency. The next burden is a cumulative same-history
-theorem distinguishing finitely many globally regular planar upcrossings from
-an unbounded terminal ladder, or a direct datum-bound that bypasses that
-comparison. The theorem is periodic and supplies no decaying-\(\mathbb R^3\)
-result. It proves neither that frame motion precedes signed work nor that one
-participant traverses the comparison witnesses.
+is itself the sought currency. F6.22 answers the qualitative cumulative
+question: an unbounded ladder must renew positive vorticity-stretch action on
+every terminal tail, whereas a fixed state's radial-moment headroom permits
+only finitely many consecutive height doublings with zero positive global
+stretch production. The remaining burden is quantitative: bound that renewal
+from the datum, bridge it to the differently weighted critical-work history
+with both viscous rows retained, or bypass it with a direct critical-height
+theorem. The F7.36 witness itself is periodic and supplies no
+decaying-\(\mathbb R^3\) result. It proves neither that frame motion precedes
+signed work nor that one participant traverses the comparison witnesses.
 
 ## Hard boundary: claims excluded from the ontology
 
