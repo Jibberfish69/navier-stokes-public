@@ -482,7 +482,7 @@ the complete joined balance gives
 \]
 
 Rise therefore requires positive dual projection of the complete source onto
-the same rate pattern stronger than direct heat. Source magnitude elsewhere or
+the simultaneous \(r_+(t)\) configuration stronger than direct heat. Source magnitude elsewhere or
 with the wrong sign is inert for \(I\). Optimized Young gives
 
 \[
