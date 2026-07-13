@@ -741,9 +741,11 @@ whereas Gold asks for
 
 Energy therefore controls the first moment of the exact concentration density,
 while Gold needs its square. A smooth scalar pulse stack can have
-\(I(t_j)\to\infty\), finite \(\int I\), finite \(\int X\), and no F7.19
-heat-thick event. It is not a Navier--Stokes \(r=-S:\Pi\) history, so it proves
-only that the global scalar coordinates cannot perform the missing extraction.
+\(I(t_j)\to\infty\), order-one \(\mathcal R_{6,+}\), finite \(\int I\),
+finite \(\int X\), finite \(\int I^2\), and no F7.19 heat-thick event. It is
+not a Navier--Stokes \(r=-S:\Pi\) history, so it proves only that the global
+scalar coordinates cannot perform the missing extraction; it is not a Gold
+countermodel.
 The new theorem boundary is a one-datum bound on the complete normalized source
 relative to the direct-heat Rayleigh rate, or a separate same-history theorem
 extracting spatial thickness and heat-time persistence with no recount. No

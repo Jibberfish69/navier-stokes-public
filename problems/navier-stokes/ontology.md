@@ -589,9 +589,10 @@ rotation, pair-shape, and viscous-reorientation rows remain joined in \(N\);
 only the explicit scalar Laplacian has been read as direct heat. The global
 volume \(\mathcal V_{6,+}\) gives no location, support, thickness, material
 carrier, persistence, or bounded-overlap family. A smooth scalar terminal
-pulse stack proves that even unbounded peaks with finite \(\int I\) and
-finite \(\int X\) need not contain an F7.19 heat-thick event. That stack is
-not a Navier--Stokes realization. The remaining Gold burden is therefore a
+pulse stack proves that even unbounded peaks with order-one
+\(\mathcal R_{6,+}\) and finite \(\int I\), \(\int X\), and \(\int I^2\)
+need not contain an F7.19 heat-thick event. That stack is not a
+Navier--Stokes realization. The remaining Gold burden is therefore a
 same-history theorem controlling the complete normalized source relative to
 this direct heat rate, or separately extracting and controlling the
 spatially persistent event that the global concentration readout does not

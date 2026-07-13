@@ -423,10 +423,11 @@ while Gold requires the square
 \mathcal R_{6,+}^4\mathcal V_{6,+}^{-2/3}dt.
 \]
 
-A smooth scalar terminal pulse stack has unbounded \(I\) peaks with finite
-\(\int I\), finite \(\int X\), and no F7.19 heat-thick event. It is not a
-Navier--Stokes realization, so it establishes only the scalar extraction
-obstruction. The global norm volume supplies no location, spatial thickness,
+A smooth scalar terminal pulse stack has unbounded \(I\) peaks, order-one
+\(\mathcal R_{6,+}\), finite \(\int I\), finite \(\int X\), finite
+\(\int I^2\), and no F7.19 heat-thick event. It is not a Navier--Stokes
+realization, so it establishes only the scalar extraction obstruction, not a
+Gold countermodel. The global norm volume supplies no location, spatial thickness,
 material persistence, bounded overlap, or full-participant response-speed
 bound. Gold remains open at a one-datum complete-source-overrun theorem or a
 separate same-history spatial-thickness and heat-time-persistence theorem. No
