@@ -538,15 +538,44 @@ If F7.21 selects \(k=\nu/s^2\) at a late time with
 \(\mathcal R_{6,+}\ge R_0\), the half-threshold excess contains
 \(e_*\asymp_{R_0,\eta}\nu^2/s\). On the preceding heat interval, either it is
 above \(e_*/2\) on a set of times of measure at least \(\vartheta s^2/\nu\)
-and contributes \(\int I^2dt\gtrsim_{R_0,\eta,\vartheta}\nu^3\), or the
-complete source rebuilds it against
-direct heat with net action \(\gtrsim_{R_0}\nu^2/s\) and
-\(\int q^2dt\gtrsim_{R_0}\nu^3/s\). Forward, the corresponding alternative is
-residence or joined removal. A fragmented scalar pure-heat family shows why
+and contributes \(\int I^2dt\ge\vartheta C_R^2\nu^3/64\), or the
+complete source rebuilds it against direct heat with net action at least
+\(C_R\nu^2/(16s)\) and \(\int q^2dt\ge C_R\nu^3/(4s)\). Forward, the
+corresponding alternative is residence or a quantified downcrossing and
+partial joined removal. A fragmented scalar pure-heat family shows why
 \(s\) is not a component clock: total volume \(s^3\) can be split into
 \(\delta\)-pieces that drain in \(\delta^2/\nu\ll s^2/\nu\). It is not an NS
 history. No datum source-action bound, non-overlap, recurrence law, strict Gold
 reduction, Gold closure, or Silver exit follows.
+
+Eighteenth live gate result, 2026-07-12: Cycle 055 installs F7.23. If one
+history has \(t_j\uparrow T\), F7.21 witnesses \(s_j\to0\), and
+\(\mathcal R_{6,+}(t_j)\ge R_0\), then the backward heat windows
+\(J_j=[t_j-s_j^2/\nu,t_j]\) have an infinite disjoint subfamily. Cycle 054
+therefore gives the exact terminal alternative
+
+\[
+\int_0^TI^2dt=\infty
+\quad\text{or}\quad
+\int_0^Tq^2dt=\infty.
+\]
+
+Residence branches sum on disjoint windows; rebuild branches need no
+disjointness because their individual lower bounds grow like \(s_j^{-1}\).
+Thus no separate no-recount theorem is needed after the uniform shrinking
+threshold ladder is admitted.
+
+The same cycle proves that a positive heat-time fraction of threshold witnesses
+inside \([S/\Lambda,S]\) gives one fixed-threshold F7.19 event and
+\(\int I^2dt\ge\rho C_R^2\nu^3\), even if the spatial points change
+completely. Finite energy supplies only an upper band-dwell bound, not
+existence. A smooth scalar dyadic pulse stack has finite \(\int I\), divergent
+\(\int I^2\), and vanishing heat-time dwell fractions, so the installed global
+budgets do not prove the entrance theorem; it is not an NS history. The open
+burden is whether a Gold-threatening NS history forces the uniform order-one
+shrinking-selector ladder, or whether failure of that entrance has a separate
+datum-controlled consequence. No strict Gold reduction, closure, or Silver
+exit follows.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -564,7 +593,7 @@ reduction, Gold closure, or Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.22 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.23 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -585,8 +614,11 @@ reduction, Gold closure, or Silver exit follows.
   rising instant requires positive dual projection of the complete source; its
   \(L_t^2\dot H^{-1}\) or \(L_t^2L^{6/5}\) control is sufficient for Gold but
   is not datum-bounded. No datum bound controls the scale-growing rebuild
-  branch, and event alternatives remain support without a separate
-  recurrence/non-overlap law. The fixed-energy family also rules
+  branch. Cycle 055 removes recurrence/non-overlap after a uniform
+  shrinking-threshold terminal ladder is admitted, forcing divergent \(I^2\)
+  or \(q^2\) action. The open entrance theorem must force that ladder from a
+  Gold threat, or turn its failure into a datum-controlled consequence. The
+  fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
