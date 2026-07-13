@@ -5806,8 +5806,9 @@ J_\tau'
 \]
 
 This is the exact density-weighted perspective identity. Its complete source
-is still signed. F7.17 shows that its weight cannot be removed by any global
-\(\mathbb R^3\) Muckenhoupt or scale-free active-set argument.
+is still signed. F7.17 shows that its weight cannot be removed by global
+\(\mathbb R^3\) Muckenhoupt theory or a datum-independent instantaneous
+comparison of the displayed weighted and unweighted active integrals.
 
 A direct conditional supplier follows from the unweighted identity. If
 
@@ -5834,8 +5835,8 @@ and closes critical height. That source integrability is not proved from the
 datum.
 
 A weaker but still sufficient one-history source theorem would construct
-datum-dependent \(A_0,C_0<\infty\) such that, above a datum-dependent
-threshold,
+finite, a priori, noncircular datum-dependent \(A_0,C_0\) such that, above a
+datum-dependent threshold,
 
 \[
 \left[\int r_+\widetilde{\mathcal F}_r\,dx\right]_+
@@ -5843,7 +5844,8 @@ threshold,
 \]
 
 Indeed, after an integrating factor this gives \(z'\le\widehat C z^2\).
-If \(z(t)=M\), backward comparison gives
+If \(z(t)=M\), backward comparison gives, until the transformed threshold is
+reached,
 
 \[
 z(t-h)\ge\frac{M}{1+\widehat C Mh}.
@@ -6029,13 +6031,14 @@ and vanish. The strict rising margin therefore persists. On that active set,
 \sim\delta^{-1+2\alpha}\longrightarrow\infty.
 \]
 
-Thus no datum-independent active lower-density, inverse-weight, subsetwise
-deweighting, or good-lambda theorem implying such deweighting can control the
-ordinary-volume rate. A separate dilation of one rising seed also refutes a
-datum-independent scale-free whole-field deweighting constant. These are
-varying-data instantaneous counterfamilies. They do not refute a correctly
-scaled datum-dependent inequality or a full-VPI theorem controlling recurrence
-of the joined shape source through one fixed terminal history.
+Thus no datum-independent instantaneous active lower-density, inverse-weight,
+or subsetwise comparison of these weighted and unweighted integrals can
+control the ordinary-volume rate. A separate dilation of one rising seed also
+refutes a datum-independent scale-free whole-field deweighting constant. These
+are varying-data instantaneous counterfamilies. They do not refute a
+datum-scaled, time-integrated, source-coupled, or recurrence-aware good-lambda
+law, or another full-VPI theorem controlling the joined shape source through
+one fixed terminal history.
 
 Nothing in this fact proves that the far tail is fluid, that the active copy
 causes the base field's rise, or that any packet, core, annulus, material

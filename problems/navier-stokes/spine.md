@@ -511,7 +511,7 @@ canceled. Physically, \(r\) changes through the anisotropic relation of strain
 to the normalized all-chord orientation, not because the amount \(\tau\)
 independently grows, thins, or curves.
 
-The same chord structure proves the sharp turning law
+The same chord structure proves the exact turning law
 
 \[
 \tau|\nabla\Pi|_F^2
