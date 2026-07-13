@@ -770,6 +770,67 @@ orientation anatomy, not Gold closure: it supplies no localization,
 same-history \(G\)-placement, \(\tau\)-to-\(|\omega|^2\) comparison, dynamic
 control of the joined residual, strict smaller theorem, or Silver exit.
 
+Twenty-third live gate result, 2026-07-13: Cycle 060 installs F7.28 and gives
+the joined residual its first global same-history evolution.  The bare
+\(\mathfrak m_{\omega,\Pi}\) loses its vorticity-axis referent at
+\(\omega=0\).  The canonical object is the smooth trace-free weighted tensor
+
+\[
+\mathsf N_{\omega,\Pi}
+=|\omega|^2\Pi
+-\frac12\left(|\omega|^2I-\omega\otimes\omega\right),
+\qquad
+\mathfrak M_{\omega,\Pi}=S:\mathsf N_{\omega,\Pi}.
+\]
+
+It satisfies
+
+\[
+(D_t-\nu\Delta)\mathsf N_{\omega,\Pi}
+=\mathcal F_{\mathsf N},
+\]
+
+where \(\mathcal F_{\mathsf N}\) contains the complete vorticity and F7.16
+all-chord orientation tangents, and
+
+\[
+\boxed{
+(D_t-\nu\Delta)\mathfrak M_{\omega,\Pi}
+=-\mathsf B:\mathsf N_{\omega,\Pi}
++S:\mathcal F_{\mathsf N}
+-2\nu\nabla S::\nabla\mathsf N_{\omega,\Pi}.
+}
+\]
+
+The positive part has exact global \(L^2\) diffusion and Kato \(L^1\) laws,
+with
+
+\[
+[\mathfrak M_{\omega,\Pi}]_+
+=|\omega|^2[\mathfrak m_{\omega,\Pi}]_+.
+\]
+
+Thus Cycle 058's numerator is a lawful global evolving scalar, not three
+blockwise mechanisms.  The equation exposes the remaining cross-weight:
+all-chord turning is controlled natively with \(\tau\), while this residual
+selects it with \(|\omega|^2\).
+
+A genuine fixed-energy fixed-viscosity varying-datum family proves
+
+\[
+\int J_{\mathfrak m}dt\asymp A^{-1},
+\qquad
+\int J_{\mathfrak m}^2dt\asymp A^3,
+\qquad
+\int\|[\mathfrak M]_+\|_1dt\asymp A^4.
+\]
+
+Energy alone therefore cannot bound the raw square-time or raw weighted
+action.  The normalized Cycle-058 action remains scale invariant in this
+family and is not refuted.  No full-datum source estimate, one-history
+recurrence, \(G\)-placement, weight bridge, strict Gold reduction, closure, or
+Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -786,7 +847,7 @@ control of the joined residual, strict smaller theorem, or Silver exit.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.27 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.28 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
