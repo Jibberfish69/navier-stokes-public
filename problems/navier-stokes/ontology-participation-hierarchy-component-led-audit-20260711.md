@@ -2406,31 +2406,31 @@ Ontology goal cycle 001 is a hierarchy-verified semantic and causal refinement
 joining F2.1, F4.1, F5.3, and F6.1. It distinguishes source-free signed vector
 vorticity from genuine enstrophy production, corrects one superseded draft
 sign, and proves that the signed account supplies no Gold critical-height
-control. It has not entered the canonical fact store or feedback ledger.
+control. It has not entered the canonical fact store.
 Ontology goal cycle 002 is a hierarchy-verified causal/provenance refinement
 joining material deformation, viscous pulled-back vorticity, and the global
 critical-height readout through an exact all-label-pair formula. It proves that
 pressure cancellation and viscous sign occur only after the full pair sum and
 that localized parts do not own additive height. It adds no canonical fact ID
-and has not entered the feedback ledger.
+and has not entered the canonical fact store.
 Ontology goal cycle 003 proves the small-pair anisotropic angular law and its
 spin-robust positive-current floor. It is a candidate negative refinement of
 F6.3 and F7.1 with no new fact ID: local positive strain self-amplification
 cannot be gross-current silent, while persistence, all-scale passage, and
-finite Gold storage remain open. It has not entered the feedback ledger.
+finite Gold storage remain open. It has not entered the canonical fact store.
 Ontology goal cycle 004 proves that strict viscous energy loss permits
 arbitrarily many finite material-pair contraction–expansion circuits across
 exact smooth positive-viscosity participants, while every fixed member of the
 family has a finite viscous material clock and strictly decreasing critical
 height. It is a candidate negative refinement under F1.3/F5.1 with no new fact
-ID and has not entered the feedback ledger.
+ID and has not entered the canonical fact store.
 Ontology goal cycle 005 proves on one fixed torus that equal kinetic energy and
 equal total viscous loss do not uniformly bound pointwise accumulated material
 strain or deformation. Its exact multiscale shears grow like
 \(\sqrt{\log N}\), while every positive transverse Sobolev regularity controls
 the same clock and the counterfamily's initial critical height diverges. It is
 a candidate negative refinement under F1.3/F3.2/F3.3/F5.1 with no new fact ID
-and has not entered the feedback ledger.
+and has not entered the canonical fact store.
 Ontology goal cycle 006 proves in both directions that local
 vorticity-aligned stretch, global enstrophy production, and nonlinear critical
 transfer are distinct. It also proves the scale-critical aligned envelope and
@@ -2459,35 +2459,35 @@ refinement of F2.1/F4.1/F7.2/F7.3 and gives no a priori estimate.
 Ontology goal cycle 009 rewrites the trace-free \(\mathbb R^3\) pressure
 curvature as the independently validated \(P_2\) quadrupole over logarithmic
 physical distance. It is a provenance annotation under cycle 008 and F7.3,
-not a new fact ID or promotion transaction. None of cycles 006--009 has
-entered the canonical fact store or feedback ledger.
+not a new fact ID. None of cycles 006--009 has
+entered the canonical fact store.
 Ontology goal cycle 010 imports the exact high-vorticity near-pair
 vorticity-direction coherence criteria at \(\mathbb R^3\) scope and takes
 their terminal contrapositive. It is a hierarchy-verified classical theorem
 extension, not a constitutive root fact and not new Gold progress. Its
 Eulerian-envelope/material-label distinction is a custody boundary rather
 than a promotion candidate. Cycle 010 has not entered the canonical fact store
-or feedback ledger.
+or canonical fact store.
 Ontology goal cycle 011 proves the polar-vorticity direction sink, its finite
 \(L^1\)-weighted original-history budget, and the critical-scaling obstruction
 to charging each height record from that budget. It is an independently
 validated causal refinement under F4.1/F5.1/F6.1/F7.2, not a new constitutive
 fact and not Gold progress. It has not entered the canonical fact store or
-feedback ledger.
+canonical fact store.
 Ontology goal cycle 012 proves that the exact all-separation critical current
 is strain contracted against a positive semidefinite anisotropic pair-
 orientation tensor of the same field. Its full Navier--Stokes balance adds the
 exact viscous surcharge to every height record. It is an independently
 validated causal refinement under F2.1/F5.1/F6.3/F7.1, not a new constitutive
 fact and not Gold progress. It has not entered the canonical fact store or
-feedback ledger.
+canonical fact store.
 Ontology goal cycle 013 proves that pure viscosity changes the normalized
 critical spectral-direction tensor through scale--direction covariance, whose
 angular sign is free, while its critical-weighted scale moment decreases. An
 exact pressure-free shear can become more or less spectrally anisotropic while
 its critical height decreases. This is an independently validated negative
 refinement under F2.2/F3.3/F5.1/F7.1, not a new constitutive fact and not Gold
-progress. It has not entered the canonical fact store or feedback ledger.
+progress. It has not entered the canonical fact store.
 Ontology goal cycle 014 derives the full fixed-viscosity material evolution
 of the critical pair–strain contraction. It proves that viscosity changes
 both the strain and pair slots and that its direct effect on positive critical
@@ -2496,7 +2496,7 @@ It also gives exact smooth histories with both signs of the complete
 production derivative on growth intervals. This is an independently
 validated causal refinement under F2.1/F3.3/F5.1/F6.3/F7.1 and an
 instantaneous-route obstruction, not a new constitutive fact and not Gold
-progress. It has not entered the canonical fact store or feedback ledger.
+progress. It has not entered the canonical fact store.
 Ontology goal cycle 015 proves the positive-region pair–strain inequality,
 the exact Kato nodal-interface law, a smooth lifetime-residence counterexample,
 and the record-contact lower bound for the self-strain row. It also proves
@@ -2504,14 +2504,14 @@ that unbounded critical height requires infinite positive action of the full
 recombined VPI source. This is an independently validated causal refinement
 under F2.1/F3.3/F5.1/F6.3/F7.1 and a time-propagation route obstruction, not a
 new constitutive fact and not Gold progress. It has not entered the canonical
-fact store or feedback ledger.
+fact store.
 Ontology goal cycle 016 proves an exact pointwise trichotomy and record-contact
 alternatives: positive pair compression is quantitatively pressure-source
 dominated, vorticity compressing, or rotationally braked. Exact points of one
 globally smooth ABC participant realize all three regions. This is an
 independently validated instantaneous algebraic recombination under F2.1/F4.1/F6.1/F7.1 and
 Cycles 012–015, not a new constitutive fact and not Gold progress. It has not
-entered the canonical fact store or feedback ledger.
+entered the canonical fact store.
 Ontology goal cycle 017 proves the complete dual-slot pressure formula for the
 pair–strain evolution, finite spacetime \(L^1\) mass of the raw pressure
 source, the direct weak-\(L^1\) distribution estimate for its trace-free
@@ -2524,7 +2524,7 @@ validated derived refinement under F1.2/F4.1/F5.1/F6.2/F7.3 and Cycles
 008–016, not a new constitutive fact and not Gold progress. Cycle 016's branch
 thresholds, pigeonhole constants, and brake-or-compensation record alternative
 remain proof-coordinate route support rather than durable ontology facts.
-Cycle 017 has not entered the canonical fact store or feedback ledger.
+Cycle 017 has not entered the canonical fact store.
 Ontology goal cycle 018 recovers the already installed div–curl Hardy theorem
 and upgrades the trace-free pressure curvature to strong spacetime \(L^1\).
 It proves an exact fixed-energy, fixed-torus Navier–Stokes family for which
