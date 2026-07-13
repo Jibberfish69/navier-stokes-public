@@ -88,11 +88,13 @@ shape current but nonzero localized source/current rows, ruling out
 carrier-mass domination. The same audit finds that WLF.50, WLF.55--WLF.57,
 and the inverse-pushforward shorthand in WLF.59 are unproved incidence
 clauses: orthogonal first admission controls square novelty, not same-pulse
-ancestry or bounded linear fibre multiplicity. Cycle 036 therefore recorded a joint
-measure/disintegration on actual material-pair history and WLF readouts that
-controls those four defect rows with bounded multiplicity. WLF.60 remains the
-separate datum-finite parent-mass theorem. Cycle 037 below supersedes the
-four-row requirement. Silver is unchanged.
+ancestry or bounded linear fibre multiplicity. Cycle 036 therefore identified,
+but did not construct, the required joint measure/disintegration on actual
+material-pair history and WLF readouts. Same-event support, defect control, and
+bounded fibre multiplicity remain open. WLF.60 is the separate datum-finite
+parent-mass theorem if that measure is constructed. Cycle 037 below supersedes
+only the claim that the four defect rows must be paid independently; it does
+not prove the joint measure. Silver is unchanged.
 
 Seventh live gate result, 2026-07-12: Cycle 037 installs ontology F6.15 and
 F6.16 and corrects the last Cycle 036 burden. Homogeneous attenuation at scale
