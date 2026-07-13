@@ -6686,67 +6686,82 @@ separation appears in the bare cubic coordinate:
 \le\frac{\mathcal R_{6,+}}{S_3}\,\nu X.
 \]
 
-Small \(\mathcal R_{6,+}\) therefore absorbs the bare \(r_+^3\) row into
-direct heat, but it supplies no sign or bound for the complete source \(N\).
+If a contribution to the already joined source has first been lawfully bounded
+by \(C\int f^3dx\), then this inequality absorbs that contribution when
+\(C\mathcal R_{6,+}<S_3\). The inequality itself does not license separating
+or assigning independent ownership to a bare cubic row, and it supplies no
+sign or bound for the complete source \(N\).
 
 The global concentration coordinates still do not extract the event in
-F7.19. To see the exact logical boundary, choose nonnegative
-\(\phi\in C_c^\infty(B_1)\), \(\psi\in C_c^\infty(0,1)\), disjoint time
-intervals accumulating at \(T\), and
+F7.19, even when \(\mathcal R_{6,+}\) stays of order one. To see the exact
+logical boundary, fix a reference length \(L\), choose nonnegative spatial
+bumps \(\phi,\psi\in C_c^\infty(\mathbb R^3)\) with disjoint supports, and
+let
 
 \[
-q_j=2^{-j},
-\quad
-\ell_j=Lq_j^4,
-\quad
-\rho_j=q_j,
-\quad
-\eta_j=q_j^4,
+g_\varepsilon(x)
+=\phi\!\left(\frac{x}{L}\right)
++\varepsilon^{-1/3}
+\psi\!\left(\frac{x-x_0}{L\varepsilon^{1/3}}\right),
+\qquad
+b_\varepsilon
+=\frac\nu{L^2}\varepsilon^{-1/12}.
 \]
 
+Choose a geometric sequence \(\varepsilon_j\downarrow0\), smooth time bumps
+\(\chi_j\) on disjoint intervals accumulating at \(T\), with
+
 \[
-A_j=\rho_j\frac\nu{\ell_j^2},
+\tau_j=\frac{L^2}{\nu}\varepsilon_j^{2/3},
 \qquad
-\tau_j=\eta_j\frac{\ell_j^2}{\nu},
-\qquad
-f_j(x,t)=A_j
-\phi\!\left(\frac{x-x_j}{\ell_j}\right)
-\psi\!\left(\frac{t-t_j}{\tau_j}\right).
+f(x,t)=\sum_j
+b_{\varepsilon_j}g_{\varepsilon_j}(x)
+\chi_j(t).
 \]
 
-For \(f=\sum_jf_j\), at pulse peaks
+At pulse peaks,
 
 \[
-I_j\asymp\frac{\nu^2}{L}q_j^{-2}\longrightarrow\infty,
+I_j\asymp\frac{\nu^2}{L}\varepsilon_j^{-1/6}
+\longrightarrow\infty,
 \qquad
-\mathcal V_{6,+,j}\asymp\ell_j^3,
+\mathcal V_{6,+,j}\asymp L^3\varepsilon_j^{1/2},
 \qquad
-\mathcal R_{6,+,j}\asymp\rho_j\longrightarrow0,
+\mathcal R_{6,+,j}\asymp1,
+\qquad
+X_j\asymp\frac{\nu^2}{L^3}\varepsilon_j^{-1/2},
 \]
 
 while
 
 \[
-\int_0^T I\,dt\asymp\nu L\sum_jq_j^{10}<\infty,
+\int_0^T I\,dt\asymp\nu L\sum_j\varepsilon_j^{1/2}<\infty,
 \qquad
-\int_0^T X\,dt\asymp\frac\nu L\sum_jq_j^2<\infty.
+\int_0^T X\,dt\asymp\frac\nu L\sum_j\varepsilon_j^{1/6}<\infty,
+\qquad
+\int_0^T I^2dt\asymp\nu^3\sum_j\varepsilon_j^{1/3}<\infty.
 \]
 
-At the support scale, the compression-to-heat ratio is only \(\rho_j\).
-Any scale \(s\) at which the amplitude reaches \(c\nu/s^2\) must satisfy
-\(s\gtrsim\ell_j/\sqrt{\rho_j}\), but the whole pulse has spacetime measure
-only \(O(\eta_j\ell_j^5/\nu)\), smaller than the F7.19 heat-thickness demand
-by \(O(\eta_j\rho_j^{5/2})\to0\). The relevant geometric tail has total
-measure
+The order-one global ratio is split between a low-amplitude fixed-volume
+background and a much smaller high-amplitude spike. For a threshold
+\(c\nu/s^2\) and \(0<s\le L\), the complete geometric tail of qualified
+spike regions has spacetime measure at most a constant times
 
 \[
-O\!\left(
-\frac{s^5}{\nu}\left(\frac{s}{L}\right)^{13/7}
-\right)
-=o\!\left(\frac{s^5}{\nu}\right),
+\frac{s^5}{\nu}\left(\frac{s}{L}\right)^3,
 \]
 
-so aggregation does not repair the thickness. Defining
+and the qualified background regions contribute at most a constant times
+
+\[
+\frac{s^5}{\nu}\left(\frac{s}{L}\right)^{11}.
+\]
+
+For \(s\ge L\), the total spacetime support of the entire stack can be made
+smaller than \(\theta L^5/\nu\). Starting the sequence sufficiently deep,
+depending only on \(c,\theta,\phi,\psi\), therefore makes the qualified measure
+smaller than \(\theta s^5/\nu\) at every scale. Hence no F7.19 heat-thick
+event is present. Defining
 \(F=(\partial_t-\nu\Delta)f\) makes
 
 \[
@@ -6755,8 +6770,10 @@ so aggregation does not repair the thickness. Defining
 
 exact. This is a smooth scalar terminal countermodel before \(T\), not an
 admissible Navier--Stokes realization of \(r=-S:\Pi\). It proves that large
-\(I\), finite \(\int I\), finite \(\int X\), and the global concentration
-readouts alone do not yield a heat-thick same-history event.
+\(I\), order-one \(\mathcal R_{6,+}\), finite \(\int I\), finite
+\(\int X\), finite \(\int I^2\), and the global concentration readouts alone
+do not yield a heat-thick same-history event. Because its Gold action is
+finite, it is an event-extraction countermodel, not a Gold countermodel.
 
 The licensed physical conclusion stops here: global concentration of the
 same positive rate field forces a faster direct heat coefficient, and every
