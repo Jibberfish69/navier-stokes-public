@@ -1263,8 +1263,8 @@ Physically, small scalar all-chord incidence relative to vorticity-square
 requires weighted \(|\nabla^2u|^2\) content in the surrounding ball.  The
 mismatch moment is controlled by the enstrophy--palinstrophy product, and
 \(2\nu D_2\) is the standard viscous enstrophy sink inside the same VPI
-history, not a separate payment.  The exact first- and second-jet equations
-give the certified radius no monotonicity or persistence law.  In this
+history, not a separate payment.  The exact first- and second-jet equations do
+not directly yield a monotonicity or persistence law for the radius.  In this
 F7.17-plus-Cauchy supplier the remaining factor is \(\int g^2/\tau\) and its
 placement on one Gold-rising history.  Cycle 062 proves no pointwise
 vorticity bound, matched localization, direction/alignment control, datum time
