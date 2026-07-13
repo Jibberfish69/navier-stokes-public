@@ -8378,6 +8378,7 @@ forgets cancellation with \(r\). No datum-finite bound on the
 vorticity-selected action \(\mathcal M_J\) is proved here; F7.27 records the
 distinct raw unweighted \(L^2_{t,x}\) bound that it does inherit from the one
 strain-dissipation history.
+
 The \(I^2\) integral above is over the entire enstrophy-doubling interval,
 not the critical-height rising set \(G\) required by F7.15. Critical
 production is weighted by the all-chord density \(\tau\), whereas the source
@@ -8571,7 +8572,7 @@ one has
 
 \[
 J_{\mathfrak m}(t)
-:=\int[\mathfrak m_{\omega,\Pi}]_+^2dx
+:=\int_{\{\omega\ne0\}}[\mathfrak m_{\omega,\Pi}]_+^2dx
 \le\frac32\int|S|^2dx
 =\frac34K(t).
 \]
@@ -8591,6 +8592,9 @@ Each of the three residual terms separately inherits an unweighted
 constants are \(3\mathcal E_0/4\), \(\mathcal E_0/4\), and
 \(\mathcal E_0/4\) after multiplication by \(\nu\).  These are corollaries
 of one energy record, not three additive ledgers or three physical costs.
+No unweighted residual direction is asserted on the vorticity zero set: the
+displayed residual integrals use \(\{\omega\ne0\}\), while the source identity
+has its canonical \(|\omega|^2\)-weighted zero extension.
 
 The raw first moment does not control the enstrophy-selected action. Applying
 the F7.25 sharp Sobolev chain separately to \(r_+\) and
