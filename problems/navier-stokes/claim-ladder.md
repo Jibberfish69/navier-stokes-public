@@ -1073,7 +1073,7 @@ has zero convection, spatially constant pressure, zero vortex stretching, and
 \boxed{
 \mathsf T_u=3\mathsf A_f+\rho_fn\otimes n,
 \qquad
-\Pi=\frac34\mathsf M_f+rac14n\otimes n.
+\Pi=\frac34\mathsf M_f+\frac14n\otimes n.
 }
 \]
 
