@@ -425,13 +425,77 @@ while Gold requires the square
 
 A smooth scalar terminal pulse stack has unbounded \(I\) peaks, order-one
 \(\mathcal R_{6,+}\), finite \(\int I\), finite \(\int X\), finite
-\(\int I^2\), and no F7.19 heat-thick event. It is not a Navier--Stokes
-realization, so it establishes only the scalar extraction obstruction, not a
-Gold countermodel. The global norm volume supplies no location, spatial thickness,
-material persistence, bounded overlap, or full-participant response-speed
-bound. Gold remains open at a one-datum complete-source-overrun theorem or a
-separate same-history spatial-thickness and heat-time-persistence theorem. No
-Gold closure or Silver Part/Field exit follows.
+\(\int I^2\), and no F7.19 spacetime heat-thick event. It is not a
+Navier--Stokes realization, so it establishes only the fixed-scale temporal
+extraction obstruction, not a Gold countermodel. Cycle 053 corrects the
+stronger Cycle 052 spatial underread: the invariant norm ratio does force an
+instantaneous global heat-scale slice. It supplies no location, ball, material
+carrier, heat-time persistence, bounded overlap, or full-participant
+response-speed bound.
+
+Sixteenth live gate result, 2026-07-12: Cycle 053 installs F7.21 and proves the
+instantaneous spatial content of \(\mathcal R_{6,+}\). For \(f=r_+\), put
+
+\[
+M(f)=\sup_{\alpha>0}\alpha|\{f>\alpha\}|^{2/3}.
+\]
+
+Layer cake gives
+
+\[
+M(f)
+\ge
+\left(\frac29\right)^{3/4}
+\frac{\|f\|_2^{3/2}}{\|f\|_6^{1/2}}
+=
+\left(\frac29\right)^{3/4}\nu\mathcal R_{6,+}.
+\]
+
+Hence, for every \(0<\eta<1\), some scale \(s\) satisfies
+
+\[
+\left|\left\{x:r_+(x,t)>\frac\nu{s^2}\right\}\right|
+\ge
+\left[\eta\left(\frac29\right)^{3/4}
+\mathcal R_{6,+}(t)\right]^{3/2}s^3.
+\]
+
+This is total instantaneous measure; the set may be disconnected and the
+selected scale may change immediately. It is not a packet or a spacetime
+event. With
+
+\[
+G=\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r,
+\qquad
+N=\langle r_+,G\rangle,
+\qquad
+q=\|G\|_{\dot H^{-1}},
+\]
+
+the complete joined balance gives
+
+\[
+\frac12I'+\nu X=N,
+\qquad
+|N|\le\sqrt X\,q
+\le S_3^{-1/2}\sqrt X\,\|G\|_{6/5}.
+\]
+
+Rise therefore requires positive dual projection of the complete source onto
+the same rate pattern stronger than direct heat. Source magnitude elsewhere or
+with the wrong sign is inert for \(I\). Optimized Young gives
+
+\[
+\sup_{t<T}I(t)
+\le I(0)+\frac1{2\nu}\int_0^Tq(t)^2dt.
+\]
+
+Thus \(G\in L_t^2\dot H_x^{-1}\), or
+\(G\in L_t^2L_x^{6/5}\), is a sufficient square-rate Gold supplier. No datum
+bound on that source action is proved. Gold remains open at a datum-finite
+positive complete-source action theorem or a same-history fixed-scale
+heat-time-persistence theorem. No Gold closure or Silver Part/Field exit
+follows.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -449,7 +513,7 @@ Gold closure or Silver Part/Field exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.20 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.21 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -463,8 +527,11 @@ Gold closure or Silver Part/Field exit follows.
   source-minus-direct-diffusion logarithmic variation remains unbounded from
   the datum. On decaying \(\mathbb R^3\), global rate-field concentration
   forces a faster direct heat coefficient, but its datum-finite invariant
-  occupancy is only first-power while Gold needs the square. The norm volume
-  supplies neither event localization nor heat-time persistence. The
+  occupancy is only first-power while Gold needs the square. The norm ratio
+  does extract an instantaneous global heat-scale superlevel slice, but not a
+  ball, carrier, or fixed-scale heat-time persistence. Continued rise requires
+  positive dual projection of the complete source; its \(L_t^2\dot H^{-1}\)
+  or \(L_t^2L^{6/5}\) control is sufficient for Gold but is not datum-bounded. The
   fixed-energy family also rules out any bound using only kinetic
   energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
