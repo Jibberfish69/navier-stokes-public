@@ -7541,8 +7541,8 @@ entrance becomes larger. An isolated small value of \(\mathcal R_{6,+}\)
 has no proved duration, so it supplies no stronger integrated contradiction
 than the terminal \(q^2\)-divergence above.
 
-There is also a canonical value-threshold reading that captures a fixed
-fraction of the whole \(I\)-population. Put
+When \(0<M(f)<\infty\), there is also a canonical value-threshold reading
+that captures a fixed fraction of the whole \(I\)-population. Put
 
 \[
 m(\alpha)=|\{f>\alpha\}|,
@@ -7624,7 +7624,13 @@ The alternatives act on the same excess. They do not assign the heat drain
 and source rebuilding to separate owners.
 
 These identities produce an exhaustive value-scale entrance classification.
-Along any unbounded entrance ladder, pass to a subsequence. Either
+Along any unbounded entrance ladder, pass to a subsequence. If
+\(M(f_j)=\infty\) occurs infinitely often, the \(L^6\) tail bound makes the
+infinite weak amplitude a low-threshold phenomenon: branch 4 below holds by
+choosing \(\alpha_j\downarrow0\) with
+\(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\). Otherwise take
+\(M(f_j)<\infty\), choose the near-maximizing thresholds above, and pass to a
+further subsequence. Exactly one of the following holds:
 
 1. \(\mathcal R_{6,+}\to0\). The direct heat clock collapses and the
    instantaneous joined-source lower bounds above diverge; only the already
@@ -7638,7 +7644,8 @@ Along any unbounded entrance ladder, pass to a subsequence. Either
    \(E_{\alpha_-/2}(\tau_j)\ge I(\tau_j)/C_\eta\) is unbounded, and its
    joined evolution forces \(\int_0^Tq^2dt=\infty\) without a heat-window
    selection argument.
-4. \(\mathcal R_{6,+}\ge R_0>0\) and \(\alpha_j\to0\). Since
+4. \(\mathcal R_{6,+}\ge R_0>0\) and the selected weak threshold tends to
+   zero. In the finite-\(M\) case, since
    \(M(f_j)\ge c_0\nu R_0\), the near-maximizing population obeys
 
    \[
@@ -7647,9 +7654,13 @@ Along any unbounded entrance ladder, pass to a subsequence. Either
    \longrightarrow\infty.
    \]
 
-   This is a vanishing-rate-threshold, diverging-total-volume branch. It is a
-   global value-distribution statement, not a theorem that one spatial region
-   expands or one material population spreads.
+   If \(M(f_j)=\infty\), the chosen low thresholds have the still stronger
+   property \(\alpha_jm_j(\alpha_j)^{2/3}\to\infty\), and their total volume
+   also diverges. This is a vanishing-rate-threshold,
+   diverging-total-volume branch. It is a global value-distribution statement,
+   not a theorem that one spatial region expands or one material population
+   spreads. The fixed-fraction excess theorem is asserted only in the
+   finite-\(M\) case.
 
 The shrinking-selector entrance proposed after F7.23 is therefore false at
 the level of all installed global coordinates, even with
