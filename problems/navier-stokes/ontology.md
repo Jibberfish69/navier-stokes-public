@@ -65,9 +65,10 @@ The picture has four physical branches.
 
 1. **A source-centred first pulse.**  A local velocity crest or vortex core
    rises inside surrounding fluid.  The core and the responding transition
-   annulus are different regions of one VPI event.  Energy reaching the core is
-   supplied by the joined stress work and storage of the surrounding field,
-   while viscous expenditure occurs where the same field has strain.  For a
+   annulus are different regions of one VPI event. Energy reaching the core is
+   accounted for by outer stress work, annular storage change, and annular
+   dissipation in the surrounding same field, while viscous expenditure occurs
+   where that field has strain. For a
    flat-core pulse that strain is concentrated in the transition annulus; a
    general anisotropic pulse need not be radial.
 
@@ -2076,8 +2077,8 @@ Shellwise Cauchy--Schwarz in F6.11 gives the measure domination
 \le d\mathfrak d_\nu^{\rm sp}.
 \]
 
-Thus the datum-finite radial current-alignment measure is financed by the raw
-viscous-expenditure measure, while its Gold-relevant action
+Thus the datum-finite radial current-alignment measure is measure-dominated by
+the raw viscous-expenditure measure, while its Gold-relevant action
 \(\nu J_{\rm rad}\,dt=\int\rho\,\nu d\mu_{\rm rad}\) is an
 inverse-distance first moment.  The equality \(\rho=r^{-1}\) here is the
 scale correspondence; it is not an exact localization of a Fourier shell in
@@ -4181,7 +4182,7 @@ from \(2166^2-5\,965^2=35431\).
 By smooth time continuity, the same solution has a positive interval on which
 its critical height rises while both \(S_H\) and \(\sqrt{S_H}\) decrease.
 Spectral shape is therefore a state that the participant can create, retain,
-recenter, and consume.  Its positive variation misses lawful critical growth;
+recenter, and decrease. Its positive variation misses lawful critical growth;
 the active signed current in F6.10 still sees that growth.  This is a
 same-fluid pressure-completed Navier--Stokes counterexample, not a reduced
 model or a freely prescribed source history.
