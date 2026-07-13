@@ -657,11 +657,11 @@ complete VPI source. With
 \[
 \int_{\{I>I_\sharp\}}\frac{[N-\nu X]_+}{I}\,dt
 =\frac12\operatorname{Var}^+
-g_\sharp,
+\!\left(g_\sharp\right),
 \]
 
 where \(g_\sharp=(\log(I/I_\sharp))_+\) for \(I>0\) and \(g_\sharp=0\) at
-\(I=0\). Every successive upcrossing above the threshold contributes
+\(I=0\). Every successive doubling upcrossing above the threshold contributes
 \(\tfrac12\log2\), and disjoint upcrossing intervals add without recount. A
 datum bound on this net source-minus-direct-diffusion variation would bound
 \(I\) and close the square-rate supplier, but no such bound is proved. CKN
