@@ -332,8 +332,9 @@ then every overlap-\(M\) family obeys
 \le\frac{M\mathcal E_0}{2c^2\theta\nu^2}.
 \]
 
-This is the exact finite-energy response: the event's viscous contribution is
-radius weighted. The Gold square-rate coordinate instead gives
+This is the exact finite-energy response: the viscous budget controls the
+radius-weighted event sum, not the unweighted number. It gives no eventwise
+upper bound on actual dissipation. The Gold square-rate coordinate instead gives
 
 \[
 \int_{J_j}I(t)^2dt\ge c^4\theta^2\nu^3.
