@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 047.
+**Current promoted checkpoint:** Cycle 048.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -340,6 +340,63 @@ the datum. It bypasses rather than proves
 the stronger \(I\in L^3_t\) estimate through the current ceiling. The two
 targets expose temporal-rate and spatial-density faces of the same remaining
 participation problem.
+
+Cycle 048 derives the complete evolution of that normalized rate.  In
+Eulerian coordinates put
+
+\[
+\mathfrak c=-S:\mathsf T_u,
+\qquad
+\tau=\operatorname{tr}\mathsf T_u,
+\qquad
+\Pi=\frac{\mathsf T_u}{\tau}.
+\]
+
+For every nonconstant smooth field, \(\tau>0\), and
+
+\[
+r=\frac{\mathfrak c}{\tau}=-S:\Pi.
+\]
+
+Thus the normalized rate is not amplified by loss of pair-density mass alone:
+it is the relation between strain and the normalized anisotropic orientation
+of the same all-chord field.  Pure scalar motion of \(\tau\) cancels from the
+source equation.  Common diffusion is sign-definite only for the weighted
+perspective
+
+\[
+\int\tau r_+^2\,dx
+=\int\frac{\mathfrak c_+^2}{\tau}\,dx,
+\]
+
+where it dissipates \(2\nu\int\tau|\nabla r_+|^2\).  The Gold quantity
+\(I=\int r_+^2\,dx\), however, is measured in ordinary material volume. Its
+exact evolution contains the unsigned curvature of the simultaneous
+all-chord density. The pointwise Fisher bound
+
+\[
+|\nabla\tau|^2
+\le4\tau\operatorname{tr}\mathsf G_u
+\]
+
+controls that variation only with the \(\tau\) weight and costs the already
+critical dissipation \(D\).  It therefore supplies no hidden unweighted brake
+and no \(L^2_t\) bound for \(I\).
+
+The fixed-energy short-rise family from F6.21 makes the boundary decisive.
+At fixed physical viscosity and fixed kinetic energy it can form a single
+rising burst of height \(I_A\simeq A^4\) and duration \(A^{-5}\), so
+
+\[
+\int_G I_A^2\,dt\gtrsim A^3\longrightarrow\infty.
+\]
+
+No bound depending only on \(\mathcal E_0\) and \(\nu\) can prove the new
+Gold supplier.  This varying-datum family does not refute finiteness for one
+fixed datum and does not construct recurrent terminal bursts.  A successful
+theorem must use the full normalized VPI source and its one-history recurrence,
+or prove an active-set deweighting theorem for \(\tau\).  The result describes
+neither viscosity lag nor packet, wave, annular, or persistent-carrier motion.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
