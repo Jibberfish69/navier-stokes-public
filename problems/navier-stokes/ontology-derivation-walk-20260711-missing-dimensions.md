@@ -73,7 +73,7 @@ branching.
 
 **Return.** CANDIDATE EXTENSION under F1 (new fact, "one datum owns one
 smooth history and one maximal lifespan"), derivation MD.1–MD.2, with the
-existence input typed proved-in-literature pending the gate-VI primary-source
+existence input typed proved-in-literature pending an independent primary-source
 check.
 
 ## D2. Material persistence
@@ -274,8 +274,8 @@ proof-grammar rule is never physics.
   candidate refinement of F1.3 (persistence), candidate extension under F3
   (lawful transformations and time parity), candidate extensions under F4
   (terminal-history exclusions); no change for D3, D4, D7 beyond the live F2
-  candidate. All candidates await gate-VI byte-exact candidacy, independent
-  validation, and promotion; none carries premise weight here.
+  candidate. All candidates await exact proof, scope audit, and canonical
+  integration; none carries premise weight here.
 
 ## Post-walk truth-audit correction
 
