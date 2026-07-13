@@ -8,18 +8,16 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#passive_multidirectional_all_chord_orientation_variation_ontology_gate_spin
   effect: >-
-    Cycle 064 proves that every smooth nonconstant global one-direction
-    periodic shear has constant Pi=(I+n tensor n)/4 and Q_Pi=0, while centered
-    amplitude variance can be positive; constant fields have tau=0 and no Pi
-    referent. Departure from one lattice line is necessary for nonzero grad Pi
-    but does not by itself establish nonlinear interaction. Cycle
-    062's radius and mismatch bounds and Cycle 063's covariance law remain.
-    Datum-time control of D_2 and multidirectional Q_Pi, Gold placement, and a
-    direct critical-height consequence remain open; another route may bypass
-    this supplier. No smaller closing theorem or Silver exit is installed.
-    Lower route snapshots remain genealogy only.
+    Cycle 065 proves that positive grad Pi and Q_Pi can occur in passive
+    periodic heat with zero critical work. Its fixed-energy varying-data
+    dilation rules out a uniform energy-viscosity-only full-spacetime Q_Pi
+    bound, but not per-datum, higher-norm, Gold-rise-restricted, or
+    signed-coupled control. Cycles 062--064 remain. Gold still needs actual
+    rising-history placement and signed strain overlap, or another direct
+    theorem. No smaller closing theorem or Silver exit is installed. Lower
+    route snapshots remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
