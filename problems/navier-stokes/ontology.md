@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 063.
+**Current promoted checkpoint:** Cycle 064.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -5710,6 +5710,13 @@ have arbitrarily small \(V_{\mathrm{eff}}\) while
 \(w=r=P_H=0\) and remain globally smooth. Effective-volume collapse is
 therefore necessary for repeated blowup-scale growth but is not a blowup
 mechanism, a Silver exit, or a sufficient condition.
+
+Cycle 064 gives the exact local reason for the periodic one-direction shear
+counterclass. Its complete all-chord tensor is
+\(\mathsf T_u=\tau(I+n\otimes n)/4\), while incompressible shear strain is
+orthogonal to both \(I\) and \(n\otimes n\). Hence \(r=P_H=0\) regardless of
+how concentrated \(\tau\) becomes. The harmlessness comes from this exact
+joined geometry, not from isotropy, small incidence, or weak gradients.
 
 ### F7.14 The sign-blind \(L^2\) density ceiling costs a mixed derivative and can overcount harmless flow
 
