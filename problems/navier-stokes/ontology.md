@@ -498,23 +498,28 @@ active scale is \(\ell=\delta\), amplitude is
 \(a=\delta^{1-\alpha}\), and
 
 \[
-\operatorname{Re}_\ell
-=\frac{a\ell}{\nu}
-=\frac{r\ell^2}{\nu}
+\operatorname{Re}^{(a)}_\ell
+:=\frac{a\ell}{\nu}
 =\frac{\delta^{2-\alpha}}{\nu}
+\longrightarrow0,
+\qquad
+\frac{r\ell^2}{\nu}
+\asymp\frac{\delta^{2-\alpha}}{\nu}
 \longrightarrow0.
 \]
 
 Their normalized rate is large because a small amplitude changes across an
 even smaller distance; their viscous heat clock is nevertheless faster than
 their strain clock. They refute static incidence-weight inversion but do not
-represent a self-sustaining nonlinear threat. An order-one scaled-profile
-event at shrinking \(\ell\) instead needs \(a\gtrsim\nu/\ell\) and
-\(r\gtrsim\nu/\ell^2\). Its kinetic energy can still scale like
-\(\nu^2\ell\), so finite energy alone supplies no event quantum. A terminal
-history must therefore repeatedly rebuild order-one-Reynolds compressive
-alignment through the surrounding same field. No theorem yet bounds that
-recurrence from the datum.
+represent a self-sustaining nonlinear threat. For a fixed scaled profile,
+amplitude-level nonlinear--viscous competition requires
+\(a\ell/\nu\gtrsim1\). If that profile also has a nondegenerate normalized
+compressive alignment \(r\asymp a/\ell\), then
+\(r\ell^2/\nu\asymp a\ell/\nu\), and its kinetic-energy scale at marginal
+competition is \(\nu^2\ell\). Thus finite energy supplies no event quantum
+across that admitted profile class. Large \(I\) or terminal growth has not
+been proved to select any such length, profile, or repeated event in one
+history.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
@@ -6203,9 +6208,10 @@ On decaying \(\mathbb R^3\), Gagliardo--Nirenberg and Young give, for every
 The torus has the corresponding inhomogeneous lower-order term. Thus even the
 bare positive self-reaction can be absorbed by the clean Laplacian only at
 cubic growth in \(I\). Cycle 049 proves that this exponent permits finite
-\(L^1_t\) terminal spikes. A successful theorem must use cancellation or
-recurrence of the complete VPI source, not estimate the positive component
-rows separately.
+\(L^1_t\) terminal spikes. Bare scale-free estimation of the positive
+component rows therefore does not close the rate. A successful theorem must
+control the complete VPI source, possibly through a proved datum-scaled or
+source-coupled component estimate.
 
 Finally, the F7.17 remote-copy family has active length
 \(\ell=\delta\), amplitude \(a=\delta^{1-\alpha}\), and normalized rate
@@ -6213,10 +6219,12 @@ Finally, the F7.17 remote-copy family has active length
 
 \[
 \boxed{
-\operatorname{Re}_\ell
-=\frac{a\ell}{\nu}
-=\frac{r\ell^2}{\nu}
-=\frac{\delta^{2-\alpha}}{\nu}\to0.
+\operatorname{Re}^{(a)}_\ell
+:=\frac{a\ell}{\nu}
+=\frac{\delta^{2-\alpha}}{\nu}\to0,
+\qquad
+\frac{r\ell^2}{\nu}
+\asymp\frac{\delta^{2-\alpha}}{\nu}\to0.
 }
 \]
 
@@ -6226,17 +6234,22 @@ and the separate base field owns the strict global rise. This re-audits F7.17:
 the family refutes datum-independent instantaneous deweighting but supplies no
 terminal recurrence mechanism.
 
-For a general scaled profile, order-one competition at shrinking \(\ell\)
-requires \(a\ell/\nu\gtrsim1\), equivalently
-\(r\ell^2/\nu\gtrsim1\). The corresponding kinetic-energy scale
-\(a^2\ell^3\sim\nu^2\ell\) can still tend to zero when the competition is
-order one. Raw finite-energy counting therefore does not exclude such scales.
-This is a scaling boundary across admitted profiles, not proof that one history
-creates, transports, or repeats them.
+For a fixed scaled profile, amplitude-level nonlinear--viscous competition at
+shrinking \(\ell\) requires \(a\ell/\nu\gtrsim1\). If the same profile also
+has nondegenerate normalized compressive alignment
+\(r\asymp a/\ell\), then
+\(r\ell^2/\nu\asymp a\ell/\nu\). At marginal competition the corresponding
+kinetic-energy scale \(a^2\ell^3\sim\nu^2\ell\) can still tend to zero. Raw
+finite-energy counting therefore gives no event quantum across that admitted
+profile class. This does not prove that large \(I\), critical-height growth,
+or one terminal history creates, localizes, transports, or repeats such a
+profile.
 
 The remaining Gold question is an a priori, noncircular, one-datum theorem
-controlling the joined trace-free source or the recurrence of order-one-
-Reynolds compressive alignment. For a globally smooth fixed history, constants
+controlling the joined trace-free source. A recurrence theorem for
+order-one-Reynolds compressive alignment is only one possible route after a
+same-history active-scale extraction theorem is proved. For a globally smooth
+fixed history, constants
 can always be defined after the fact; such post hoc constants carry no theorem
 weight. Algebraic sign freedom is likewise not a full-source counterexample.
 No Gold closure, Silver exit, packet/core/annulus carrier, viscosity lag, or
