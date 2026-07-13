@@ -1724,9 +1724,9 @@ the global centroid fails; no positive-time spectral separation or
 record-ladder behavior is claimed.
 
 **Status:** independently validated exact negative fact at smooth periodic,
-varying-data snapshot scope; no canonical promotion in this cycle. It is
-nonredundant with NIC.227--NIC.233 because those remote modes participate in
-the current-producing resonant triad. Detailed audit:
+varying-data snapshot scope. It is nonredundant with NIC.227--NIC.233 because
+those remote modes participate in the current-producing resonant triad.
+Detailed audit:
 theorem-construction/codex-goal-ontology-cycle-026-instantaneous-centroid-current-co-carriage-no-go-20260711.md.
 Gold receives a route obstruction only; Silver is unchanged.
 
@@ -1880,8 +1880,8 @@ material coordinate and pays viscous loss; its lack of nonlinear feedback is
 proved by the complete tangent.
 
 **Status:** independently validated nonredundant negative physical fact and
-candidate F2/F7 refinement; no canonical promotion in this cycle. Detailed
-audit:
+candidate F2/F7 refinement. Canonical status depends on exact integration and
+consistency with affected consumers. Detailed audit:
 theorem-construction/codex-goal-ontology-cycle-027-anisotropic-passive-high-centroid-positive-time-no-go-20260711.md.
 Gold receives a decisive obstruction to participation-only positive-time
 co-carriage; Silver is unchanged.
