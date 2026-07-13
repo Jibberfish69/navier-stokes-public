@@ -64,10 +64,14 @@ The picture has four physical branches.
 2. **A later-time, later-place concentration.**  Transport, strain, and the
    whole-field pressure response bring already existing motion into a new
    configuration.  This is not a first-moment injection.  During its positive
-   travel and rearrangement time, viscosity continuously damps gradients and
-   pressure continuously reorients the same field.  A dangerous feedback must
+   travel and rearrangement time, the viscous row acts continuously and
+   dissipates the global Dirichlet/energy account, while local gradients or
+   pair amplitudes need not decrease monotonically. Pressure continuously
+   supplies the simultaneous nonlocal acceleration and may reorient the same
+   field; it has no universal reorientation sign. A dangerous feedback must
    repeatedly rebuild inward, coherently aligned pressure-completed work faster
-   than the simultaneous viscous response destroys or de-aligns it.
+   than the simultaneous viscous response dissipates or de-aligns that
+   configuration.
 
 3. **A maximally rippled field.**  Neighboring crests and troughs owe a
    quadratic gradient cost to their separation.  Constructively aligned waves
@@ -1836,9 +1840,10 @@ measure.
 =\int\omega\cdot S\omega\,dx.
 \]
 
-The term \(\omega\cdot S\omega\) is three-dimensional vorticity or enstrophy
-production. It is not, by itself, the kinetic-energy flux across a selected
-scale.
+The term \(\omega\cdot S\omega\) is three-dimensional local
+vorticity-magnitude amplification or suppression, and its spatial integral is
+global enstrophy production. It is not net vector-vorticity birth and is not,
+by itself, the kinetic-energy flux across a selected scale.
 
 ### F6.2 Strain and vorticity share one global signed production account
 
@@ -2866,7 +2871,7 @@ controls repeated renewal must use the one field's material-time history or
 additional exact structure; neither the viscous covariance nor velocity
 moments alone supplies it.
 
-### F6.13 A rising critical ripple pays at the heat rate of its pair width, with no uniform efficiency margin
+### F6.13 A rising critical record has a global pair-separation heat-rate lower bound, with no uniform efficiency margin
 
 Retain the mean-free variables of F6.10--F6.12 and put
 
@@ -2915,10 +2920,13 @@ A_H,\ J_{\rm rad},\ J_{\rm sp}
 \qquad\text{whenever }R'>0.
 \]
 
-Thus the coherent action required to maintain a rising ripple grows at least
-like the viscous heat rate of its outer half-height separation scale.  Under
-Navier--Stokes scaling, the rate grows like \(r_+^{-2}\), the heat time shrinks
-like \(r_+^2\), and their product remains scale invariant.
+Thus the global coherent-action readout required at a rising time grows at
+least like the viscous heat rate associated algebraically with the outer
+half-height scale of the all-center pair-separation distribution. This
+\(r_+\) is not a spatial collar, a localized ripple width, or a material
+carrier. Under Navier--Stokes scaling, the rate grows like \(r_+^{-2}\), the
+corresponding heat scale shrinks like \(r_+^2\), and their product remains
+scale invariant.
 
 The terminal packing has the same parabolic form.  Under the terminal scope
 of F4.4, let \(M_n=2^nM_0\), let \(I_n\) be the last-doubling intervals of
@@ -3009,8 +3017,11 @@ makes \(\mathcal H_{1/2}'>0\), while \(D\) and the aligned crest
 \(\varepsilon\downarrow0\).  The cubic pressure-completed production can
 balance quadratic viscosity with an orientation defect tending to zero.
 This varying-data family disproves every datum-independent instantaneous
-spikiness, phase-width, or action-efficiency gap.  It is globally smooth and
-does not construct a fixed-datum terminal history.
+action-efficiency gap based on these global quantities. Its diverging aligned
+crest is a separate pointwise countertest; no theorem identifies that crest
+with \(r_+\), the critical-current carrier, or a general spatial spikiness
+law. The family is globally smooth and does not construct a fixed-datum
+terminal history.
 
 ### F6.14 Global critical-current agreement acquires three defects on a material cohort
 
