@@ -494,9 +494,10 @@ or nonpositive dual pairing supplies no positive amount to instantaneous
 Thus \(G\in L_t^2\dot H_x^{-1}\), or
 \(G\in L_t^2L_x^{6/5}\), is a sufficient square-rate Gold supplier. No datum
 bound on that source action is proved. Gold remains open at a datum-finite
-positive complete-source action theorem or a same-history fixed-scale
-heat-time-persistence theorem. No Gold closure or Silver Part/Field exit
-follows.
+positive complete-source action theorem or another direct square-rate theorem.
+Fixed-scale heat-interval integrated event occupancy remains ontology support
+until a separate datum-finite recurrence/no-recount theorem gives it Gold
+force. No Gold closure or Silver Part/Field exit follows.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -530,11 +531,12 @@ follows.
   forces a faster direct heat coefficient, but its datum-finite invariant
   occupancy is only first-power while Gold needs the square. The norm ratio
   does extract an instantaneous global heat-scale superlevel slice, but not a
-  ball, carrier, or fixed-scale heat-time persistence. Continued rise requires
-  positive dual projection of the complete source; its \(L_t^2\dot H^{-1}\)
-  or \(L_t^2L^{6/5}\) control is sufficient for Gold but is not datum-bounded. The
-  fixed-energy family also rules out any bound using only kinetic
-  energy and viscosity. Older WLF/ODP,
+  ball, carrier, or fixed-scale heat-interval integrated occupancy. Each rising
+  instant requires positive dual projection of the complete source; its
+  \(L_t^2\dot H^{-1}\) or \(L_t^2L^{6/5}\) control is sufficient for Gold but
+  is not datum-bounded. Event occupancy remains support without a separate
+  datum-finite recurrence/no-recount law. The fixed-energy family also rules
+  out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
