@@ -10279,7 +10279,7 @@ u(x,t)=e_1\left[
 Ae^{-\nu m^2t}\cos(mx_2)
 +Be^{-\nu n^2t}\cos(nx_3)
 \right],
-\qquad 1\le m<n,quad AB\ne0.
+\qquad 1\le m<n,\quad AB\ne0.
 \]
 
 The participant consists of parallel axial-velocity columns. At the common
@@ -10325,7 +10325,7 @@ b_{m,n}
 =\frac{mn}{4\sqrt{m^2+n^2}}
 +\frac{mn}{2}\int_0^1
 \frac{\vartheta(1-\vartheta)}
-{\sqrt{m^2(1-\vartheta)^2+n^2\vartheta^2}},d\vartheta
+{\sqrt{m^2(1-\vartheta)^2+n^2\vartheta^2}}\,d\vartheta
 >0.
 \]
 
