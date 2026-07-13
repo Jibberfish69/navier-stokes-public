@@ -158,6 +158,28 @@ parabolic intervals, and the global width does not locate the signed current
 or its material carrier. This is a necessary same-history state constraint;
 it supplies no datum-finite action bound or Gold closure. Silver is unchanged.
 
+Cycle 042 installs F6.21. On the rising set \(G=\{R'>0\}\), the exact
+current measure gives
+
+\[
+\int_G m_H(t)\,dt
+\le\frac{C_\Omega^2E_0}{2\nu^3}.
+\]
+
+This is a finite total time--frequency occupancy for one datum-anchored
+history. It gives no positive amount to each rise. An exact decaying-
+\(\mathbb R^3\) family at fixed viscosity and fixed initial kinetic energy
+realizes a fixed relative critical-height gain over times
+\(T_A=\tau_0A^{-5}\), while its physical kinetic-energy loss and every fixed
+\(0<s\le1\) energy-interpolation occupancy are \(O_s(A^{-1})\). Its
+normalized viscous age is \(O(A^{-1})\), whereas the critical-height
+dissipation row grows like \(A\). Thus elapsed time, raw energy loss, and
+fixed subcritical Sobolev occupancy cannot supply a universal positive cost
+per gain. The result is a frequency-space statement and makes no spatial
+localization claim. Gold remains open at same-history scale-critical action,
+material ancestry and no-reuse, WLF.60, or another direct regularity theorem.
+Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
