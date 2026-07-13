@@ -61,16 +61,19 @@ carrier. Silver is unchanged.
 
 Fifth live gate result, 2026-07-12: Cycle 035 installs ontology F6.13 and
 F7.8. A rising critical record forces coherent action at least on the viscous
-heat-rate scale of its outer half-height pair width, while terminal doubling
-intervals shrink on the matching parabolic time scale. The scale product is
-the already-installed fixed action quantum, so the faster owed rate supplies
-no stronger cumulative budget. Exact globally smooth triangular data have an
+heat-rate scale associated algebraically with its global outer half-height
+pair-separation scale, while terminal doubling intervals shrink on the
+corresponding parabolic scale. That scale is not a localized ripple width or
+material collar. The scale product is the already-installed fixed action
+quantum, so the faster rate supplies no stronger cumulative budget. Exact
+globally smooth triangular data have an
 arbitrarily high aligned crest and arbitrarily large critical viscous moment
 with rising global critical height while \(A_H\) and \(J_{\mathrm{rad}}\)
 remain fixed. The same crest and Fourier magnitudes carry opposite
 \(P_H\) signs when only the surrounding advecting phase reverses, and the
-visible crest can decrease while global critical height rises. Gold therefore
-cannot be a state-local maximum-spikiness or phase-efficiency theorem. It
+visible crest can decrease while global critical height rises. Crest count or
+height and phase efficiency therefore cannot by themselves close Gold; this
+does not prove or refute a general spatial maximum-spikiness theorem. Gold
 requires a pre-readout joint incidence measure joining original same-carrier
 material/WLF atoms to the active current marginal, followed by a datum-finite
 WLF.60-type size estimate. Silver is unchanged.
