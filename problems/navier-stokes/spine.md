@@ -89,6 +89,7 @@ older cycle files are evidence, not competing authority.
 | 054 | Start from the actual threshold population supplied by Cycle 053 and ask how that same population can reside, be rebuilt, or be partially removed under the joined VPI evolution. | Exact fixed-threshold convex-truncation/interface laws, coarea--isoperimetric interface bound, heat-time residence-or-response alternative, and fragmented pure-heat scalar countertest on decaying \(\mathbb R^3\). | Direct heat drains \(H_a\) through the level interface and \(E_a\) through its interior gradient while the complete trace-free source acts on the same excess. Backward from a late slice, either the excess is Gold-visible on a set of times of prescribed heat-time measure or the joined source rebuilds it against heat with the proved lower actions. The scalar countertest shows that fragmentation can shorten component clocks. | The selector \(s\) is not a component diffusion radius; raw superlevel volume has no heat sign. The interface-product theorem alone does not say fragmentation raises either factor. No datum source bound, recurrence law, packet, annulus, material carrier, Gold closure, or Silver exit follows. | Ontology advance, exact Gold anatomy, and target refinement without strict reduction. |
 | 055 | Assume the same participant develops a uniform order-one sequence of F7.21 threshold slices with times tending to \(T\) and selectors tending to zero; ask whether their backward heat windows can repeatedly count one episode. | Terminal-interval disjoint-subsequence lemma, residence/rebuild divergence dichotomy, selector-free finite-band dwell theorem, and a short-dwell scalar pulse stack on decaying \(\mathbb R^3\). | Shrinking heat windows approaching one terminal time cannot all reuse one earlier time interval: residence yields divergent Gold action on a disjoint subfamily, while rebuilding yields individually unbounded complete-source dual action. Threshold-band dwell for a positive heat-time fraction is sufficient for an event without any spatial-component persistence. | The uniform order-one shrinking-selector ladder is not extracted from a Gold threat; finite energy gives only an upper dwell bound. No Fourier band, component-size band, packet, material carrier, datum action bound, Gold closure, or Silver exit follows; the scalar stack is not an NS history. | Ontology advance, removal of a conditional no-recount burden, and exact entrance-target refinement. |
 | 056 | Let one participant enter successively larger total squared positive-rate heights and ask which value population carries each entrance and how the joined VPI source creates it. | Disjoint first-entrance \(q^2\)-action law, low-\(\mathcal R_{6,+}\) heat-clock/source bounds, weak-threshold mass-capture theorem, exhaustive four-branch value-scale classification, and two scalar obstruction families on decaying \(\mathbb R^3\). | Every doubled total rate height requires at least \(\nu\) times that height of complete-source dual action. Low rate Reynolds means a faster direct heat clock and a more intense simultaneous source, not viscous lag. With rate Reynolds bounded below, the weak-threshold population can move to higher rate levels, stay in a fixed band, or move to vanishing rate levels with diverging total superlevel volume. | The value-scale branches identify no spatial component, expanding region, packet, material carrier, Fourier migration, pressure sign, or separate viscous cause. Scalar histories prove the global coordinates do not force selector shrinkage but are not NS realizations. No datum source bound, Gold closure, or Silver exit follows. | Ontology advance, exact entrance classification, and refutation of the universal shrinking-selector target without strict Gold reduction. |
+| 057 | In the same finite-energy participant, ask whether an unbounded total normalized-compression rate—especially the vanishing-threshold, diverging-volume branch—can remain a broad slow deformation. | Exact \(I\)-to-enstrophy/palinstrophy and moving-cutoff Fourier bounds; two-sided enstrophy-rise clock; dyadic first-entrance speed, energy-loss, high-tail, palinstrophy, and anisotropic-stretching laws; and a fixed-energy many-remote-cell NS snapshot family on decaying \(\mathbb R^3\). | Weak selected rate values can coexist with an increasingly fine whole-field derivative tier. On one history, every late enstrophy doubling occupies vanishing time and loses vanishing raw kinetic energy, while its integrated squared vorticity-gradient and same-field directional stretching diverge. Each finite level has a real minimum response time, but that minimum collapses quadratically and its minimum energy price is dyadically summable. | An \(I\)-entrance is not synchronized with a \(K\)-entrance. The high Fourier tier is not placed on the rate superlevel union and proves no packet, annulus, connected region, material carrier, ripple, phase coherence, cascade, pressure sign, or separate viscous owner. The many-cell family varies the datum. No datum palinstrophy/source bound, Gold closure, or Silver exit follows. | Ontology advance, exact derivative-tower anatomy, and refutation of an instantaneous VPI exclusion of branch 4 without strict Gold reduction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -929,6 +930,71 @@ structure to exclude or control the vanishing-threshold total-volume branch
 and the low-rate-Reynolds source concentration, or else bound the complete
 source action directly. No spatial expansion, component, packet, carrier,
 Gold closure, or Silver exit is proved.
+
+Cycle 057 proves that the vanishing-threshold branch is weak only in its
+selected value coordinate, not in the whole participant's derivative tower.
+For
+
+\[
+K=\|\nabla u\|_2^2,
+\qquad
+D_2=\|\Delta u\|_2^2,
+\]
+
+the same field obeys
+
+\[
+K\ge2I,
+\qquad
+D_2\ge\frac{K^2}{2\mathcal E_0}
+\ge\frac{2I^2}{\mathcal E_0}.
+\]
+
+Thus unbounded \(I\) forces a global enstrophy tier above Fourier radii of
+order \((I/\mathcal E_0)^{1/2}\), and its direct enstrophy heat clock is at
+most \(\mathcal E_0/(\nu I)\). The branch-4 half-threshold union itself
+carries a fixed fraction of the diverging ordinary gradient-square, but no
+theorem co-locates that union with the Fourier tail.
+
+The separate enstrophy first-entrance ladder supplies the physical response
+law. If \(J_j\) takes \(K\) from \(L_j/2\) to \(L_j\) and
+\(d_j=\nu\int_{J_j}Kdt\) is its actual kinetic-energy loss, then
+
+\[
+\frac{12\pi^4\nu^3}{L_j^2}
+\le |J_j|
+\le\frac{2d_j}{\nu L_j},
+\qquad
+d_j\ge\frac{8\pi^4\nu^4}{L_j}.
+\]
+
+The disjoint losses sum to at most \(\mathcal E_0\), so the late intervals
+and their raw energy losses vanish. In the same joined enstrophy balance,
+
+\[
+\int_{J_j}D_2dt
+\ge\frac{S_3}{8}
+\left(\frac{\nu L_j^2}{d_j}\right)^{1/3}
+\longrightarrow\infty,
+\]
+
+and the signed vortex-stretching action equals
+\(L_j/4+\nu\int_{J_j}D_2dt\). This is increasingly violent derivative-tier
+churn with decreasing base-energy loss, not an extra energy account. The
+minimum response time collapses like \(L_j^{-2}\), so its dyadic sum is
+finite; finite energy and the classical enstrophy speed limit do not exclude
+a terminal Zeno ladder.
+
+A fixed-energy family of many remote, shrinking, individually weaker active
+cells realizes the branch-4 value geometry at exact fixed-viscosity initial-
+snapshot scope: \(\alpha_\ell\asymp\ell^{1/2}\to0\), total active measure
+\(\asymp\ell^{-3}\), \(I_\ell\asymp K_\ell\asymp\ell^{-2}\), and
+\(D_{2,\ell}\asymp\ell^{-4}\). Its value selector grows while its true
+enstrophy length shrinks. The family varies the datum, so it rules out only an
+instantaneous finite-energy/VPI exclusion. The live Gold burden is now a
+one-history theorem coupling the complete normalized-rate source to the
+enstrophy--palinstrophy ladder, or another datum-finite direct bound. No
+packet, material carrier, cascade, Gold closure, or Silver exit is installed.
 
 ## Above-Route Gold/Silver Analogy
 
