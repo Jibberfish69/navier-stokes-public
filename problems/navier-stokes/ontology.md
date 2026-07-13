@@ -8396,6 +8396,255 @@ ownership. Pressure does not enter this instantaneous trace identity; it
 remains the nonlocal same-field response governing the evolution of
 \(S\), \(\omega\), and \(\Pi\). Gold and Silver remain open.
 
+### F7.27 The readout residual has exactly three vorticity-frame orientation sectors and finite raw exposure
+
+Retain the surface and notation of F4.5 and F7.26.  On \(\{\omega\ne0\}\),
+put
+
+\[
+P_\omega=\xi\otimes\xi,
+\qquad
+Q_\omega=I-P_\omega,
+\qquad
+\pi_\parallel=\xi\cdot\Pi\xi,
+\qquad
+\beta_\Pi=Q_\omega\Pi\xi,
+\]
+
+and define the transverse trace-free blocks
+
+\[
+S_\perp^\circ
+=Q_\omega SQ_\omega+\frac{\alpha_\omega}{2}Q_\omega,
+\qquad
+\Pi_\perp^\circ
+=Q_\omega\Pi Q_\omega
+-\frac{1-\pi_\parallel}{2}Q_\omega.
+\]
+
+The same strain and all-chord orientation have the exact decompositions
+
+\[
+S
+=\alpha_\omega P_\omega
++\xi\otimes b+b\otimes\xi
+-\frac{\alpha_\omega}{2}Q_\omega
++S_\perp^\circ,
+\]
+
+\[
+\Pi
+=\pi_\parallel P_\omega
++\xi\otimes\beta_\Pi+\beta_\Pi\otimes\xi
++\frac{1-\pi_\parallel}{2}Q_\omega
++\Pi_\perp^\circ.
+\]
+
+These are the complete rotation-invariant blocks about the vorticity axis:
+one axial scalar, one two-component cross covariance, and one two-component
+transverse quadrupole.  There is no fourth orientation block.
+
+The blocks have a precise nonlocal meaning.  At a fixed center, normalize the
+positive all-chord measure in F7.5 so that
+\(\Pi=\int n\otimes n\,d\gamma\), where \(n\) is the chord direction. Then
+
+\[
+\pi_\parallel
+=\int(n\cdot\xi)^2d\gamma,
+\qquad
+\beta_\Pi
+=\int(n\cdot\xi)Q_\omega n\,d\gamma,
+\]
+
+\[
+\Pi_\perp^\circ
+=\int\left[
+Q_\omega n\otimes Q_\omega n
+-\frac{|Q_\omega n|^2}{2}Q_\omega
+\right]d\gamma.
+\]
+
+Thus \(\pi_\parallel\) is an orientation-space axial second moment,
+\(\beta_\Pi\) is an axial--transverse chord covariance, and
+\(\Pi_\perp^\circ\) is a transverse orientation quadrupole.  They are not
+fluid mass, energy located on an axis, a unique tilted carrier, or a spatial
+transverse region.
+
+Positive semidefiniteness and \(\operatorname{tr}\Pi=1\) give the sharp
+abstract tensor constraints
+
+\[
+\boxed{
+0\le\pi_\parallel\le1,
+\qquad
+|\beta_\Pi|^2
+\le\pi_\parallel(1-\pi_\parallel),
+\qquad
+|\Pi_\perp^\circ|_F
+\le\frac{1-\pi_\parallel}{\sqrt2}.
+}
+\]
+
+In particular, a cross covariance requires simultaneous axial and transverse
+orientation variance.  The Cycle 058 residual now has the exact exhaustive
+form
+
+\[
+\boxed{
+\mathfrak m_{\omega,\Pi}
+=\frac32\alpha_\omega\pi_\parallel
++2b\cdot\beta_\Pi
++S_\perp^\circ:\Pi_\perp^\circ,
+}
+\]
+
+and hence
+
+\[
+\boxed{
+r
+=\frac{1-3\pi_\parallel}{2}\alpha_\omega
+-2b\cdot\beta_\Pi
+-S_\perp^\circ:\Pi_\perp^\circ.
+}
+\]
+
+The coefficient \(3/2\) is the strain gap between axial stretch
+\(\alpha_\omega\) and the incompressibility-forced transverse mean
+\(-\alpha_\omega/2\).  Pure normalized transverse incidence has
+\(\pi_\parallel=0\) and recovers \(r=\alpha_\omega/2\). Isotropic incidence
+has \(\pi_\parallel=1/3\), zero cross and quadrupole blocks, and gives
+\(r=0\). Pure axial incidence has \(\pi_\parallel=1\) and gives
+\(r=-\alpha_\omega\).
+
+The middle block has an exact local dynamic meaning but not autonomous
+ownership.  F4.5 gives
+
+\[
+D_t\xi=b+\nu R_\xi.
+\]
+
+Thus \(b\) is only the strain-driven part of the vorticity-direction turn;
+the simultaneous viscous direction response remains in \(R_\xi\).  The
+blocks of \(\Pi\) evolve only through the complete pressure--pair--viscous
+orientation law of F7.16.
+
+No component sign follows.  For example, with \(\xi=e_3\), the strictly
+positive trace-one tensor
+
+\[
+\Pi_*
+=\begin{pmatrix}
+5/12&0&1/12\\
+0&1/4&0\\
+1/12&0&1/3
+\end{pmatrix}
+\]
+
+and the trace-free strain family
+
+\[
+S_{\alpha,\beta,t}
+=\begin{pmatrix}
+-\alpha/2+t&0&\beta\\
+0&-\alpha/2-t&0\\
+\beta&0&\alpha
+\end{pmatrix}
+\]
+
+make the three displayed residual terms respectively
+\(\alpha/2\), \(\beta/6\), and \(t/6\).  Each can act alone, and any pair or
+all three can cancel.  This is an algebraic PSD tensor countertest, not a
+claim that the prescribed \(\Pi_*\) and first jet are jointly realized by one
+complete Navier--Stokes snapshot.
+
+The same kinetic-energy history nevertheless gives a real raw bound. Since
+
+\[
+|S|^2
+=\frac32\alpha_\omega^2+2|b|^2+|S_\perp^\circ|^2,
+\qquad
+|\Pi-\Theta_{\omega,\perp}|_F^2\le\frac32,
+\]
+
+one has
+
+\[
+J_{\mathfrak m}(t)
+:=\int[\mathfrak m_{\omega,\Pi}]_+^2dx
+\le\frac32\int|S|^2dx
+=\frac34K(t).
+\]
+
+The single energy identity therefore yields
+
+\[
+\boxed{
+\nu\int_0^T J_{\mathfrak m}(t)dt
+\le\frac34\bigl(\mathcal E_0-\mathcal E(T)\bigr)
+\le\frac34\mathcal E_0.
+}
+\]
+
+Each of the three residual terms separately inherits an unweighted
+\(L^2_{t,x}\) estimate from that same strain dissipation: the corresponding
+constants are \(3\mathcal E_0/4\), \(\mathcal E_0/4\), and
+\(\mathcal E_0/4\) after multiplication by \(\nu\).  These are corollaries
+of one energy record, not three additive ledgers or three physical costs.
+
+The raw first moment does not control the enstrophy-selected action. Applying
+the F7.25 sharp Sobolev chain separately to \(r_+\) and
+\([\mathfrak m_{\omega,\Pi}]_+\), and assigning one quarter of the normalized
+viscous term to each, gives on every interval \(J=[a,b]\) with
+\(K(b)=2K(a)>0\),
+
+\[
+\boxed{
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}dt
+\le
+\frac{64}{\pi^4\nu^3}
+\int_J\left(I^2+J_{\mathfrak m}^2\right)dt.
+}
+\]
+
+Consequently
+
+\[
+\boxed{
+\int_J\left(I^2+J_{\mathfrak m}^2\right)dt
+\ge\frac{\pi^4\nu^3\log2}{128}.
+}
+\]
+
+An unbounded dyadic enstrophy ladder therefore forces
+
+\[
+\int_0^{T_*}\left(I^2+J_{\mathfrak m}^2\right)dt=\infty,
+\]
+
+even though both \(\int I\,dt\) and \(\int J_{\mathfrak m}\,dt\) are
+datum-finite.  If the rate-square action stays finite, the joined residual
+must become temporally taller and more concentrated: it lies in
+\(L^1_t\setminus L^2_t\).  Its minimum raw first-moment contribution on a
+dyadic level can still decay like \(K^{-1}\), so finite energy does not
+exclude the ladder.
+
+This corrects the broad Cycle 058 phrase that the residual had no datum
+budget. It has finite raw ordinary-volume square exposure. What remains
+uncontrolled is its positive vorticity-selected action and the square in time
+of its spatial \(L^2\) height. Splitting
+\([\mathfrak m_{\omega,\Pi}]_+\) into the positive parts of its three
+sectors is only an analytic overestimate: it destroys their exact
+cancellation and does not create three payments.
+
+The conclusion is instantaneous orientation anatomy plus a global temporal
+necessity.  It proves no spatial axis, plane, tube, vortex annulus, collar,
+packet, material carrier, persistence, causal transfer, response time,
+alignment law, pressure sign, \(\tau\)-to-\(|\omega|^2\) comparison,
+\(I\)-to-\(K\) entrance synchronization, cascade, datum square-action bound,
+Gold closure, or Silver exit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
