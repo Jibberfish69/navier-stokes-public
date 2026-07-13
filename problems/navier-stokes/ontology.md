@@ -6955,11 +6955,20 @@ It is a global functional projection, not pointwise eigenframe alignment or a
 source-location theorem. Equal source magnitudes can have opposite effects:
 for fixed smooth compactly supported \(f\),
 \(G^{(\pm)}=\pm(-\Delta f)\) have the same \(\dot H^{-1}\) norm and pair
-with \(f\) as \(\pm X\). If \(\psi\) has gradient support disjoint from
-\(f\), then adding \(A(-\Delta\psi)\) makes the source norm arbitrarily large
-without changing its pairing, and \(\psi\) may be placed arbitrarily far from
-\(f\). These scalar tests refute magnitude-only or co-location readings; they
-are not Navier--Stokes realizations.
+with \(f\) as \(\pm X\). For an active-set-compatible kernel test, choose
+nonzero \(\phi_1,\phi_2\in C_c^\infty(\{f>0\})\) with
+\(\int f\phi_2\ne0\), put
+
+\[
+K=\phi_1-
+\frac{\int f\phi_1}{\int f\phi_2}\phi_2,
+\]
+
+and choose the bumps so that \(K\ne0\). Then \(\langle f,K\rangle=0\), while
+\(\|G+AK\|_{\dot H^{-1}}\to\infty\) as \(|A|\to\infty\) without changing
+\(\langle f,G+AK\rangle\). These scalar tests refute magnitude-only readings;
+they are not Navier--Stokes realizations. The global duality law itself gives
+no pointwise source location or co-location theorem.
 
 The projection gate gives a precise conditional Gold supplier. With
 
