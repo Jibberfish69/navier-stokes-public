@@ -9847,6 +9847,8 @@ Then \(\operatorname{tr}\mathsf A_f=\rho_f>0\) and
 \]
 
 where \(\mathsf M_f=\mathsf A_f/\rho_f\) is a trace-one planar tensor.
+For constant \(f\), \(\mathsf T_u=\tau=0\), \(\Pi\) has no physical
+referent, and \(\mathcal Q_\Pi\) is set to zero separately.
 Thus the axial eigenblock is fixed:
 
 \[
@@ -9959,10 +9961,10 @@ production, and decreasing critical height.
 
 The physical conclusion is exact. Non-collinear Fourier support,
 \(\nabla\Pi\ne0\), and \(\mathcal Q_\Pi>0\) do not by themselves imply
-nonlinear interaction, pressure activity, vortex stretching, critical work,
+nonlinear interaction, a nonconstant pressure response, vortex stretching, critical work,
 Gold rise, or temporal/material orientation turn. \(\mathcal Q_\Pi\) remains
-a valid sufficient factor in F7.31, but it cannot by itself be identified
-with nonlinear Gold action.
+a valid sufficient factor in F7.31, but it is not itself signed critical work
+or evidence of Gold rise.
 
 The high-frequency family varies the datum and never enters the rising set.
 It does not refute per-datum control, Gold-rise-restricted control, or a
