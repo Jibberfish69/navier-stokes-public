@@ -8909,6 +8909,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-060-weighted-readout-residual-evolution-20260713.md`
 - `ontology-participation-deepening-20260711.md`
 - `theorem-construction/mpp-forward-gold-heat-lag-fresh-linear-service-half-tail-obstruction-20260629.md`, Section 11 Cycle 036 incidence audit
 - `theorem-construction/mpp-forward-gold-incompressible-singular-value-participation-identity-20260625.md`
