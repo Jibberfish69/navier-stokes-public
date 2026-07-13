@@ -900,6 +900,36 @@ dyadic pulse stack has finite \(\int I\), divergent \(\int I^2\), and
 vanishing heat-time dwell fractions, proving that the global budgets alone do
 not supply the entrance theorem; it is not an NS history.
 
+Cycle 056 refutes that entrance theorem and replaces it with an exhaustive
+same-history value-scale classification. If \(I\) enters the doubled levels
+\(L_j\), the disjoint entrance intervals obey
+
+\[
+\int q^2dt\ge\nu L_j.
+\]
+
+At a first entrance, \(\mathcal R_{6,+}\to0\) makes the direct heat clock
+collapse like \(\nu^3\mathcal R_{6,+}^4/I^2\) and forces the simultaneous
+source magnitude to grow at least like
+\(I^{3/2}/(\nu\mathcal R_{6,+}^2)\). This is faster joined response, not
+viscous lag, but it yields no datum upper bound.
+
+For any weak-\(L^{3/2}\) threshold within a fixed fraction of its maximum,
+the excess above half that threshold contains a universal fraction of all of
+\(I\). After separating the low-\(\mathcal R_{6,+}\) branch, every
+order-one-rate entrance subsequence has exactly three extended value-scale
+possibilities: the threshold tends to infinity, stays in a fixed positive
+band, or tends to zero. The first enters Cycle 055; the second makes one fixed
+threshold excess unbounded; the third forces total superlevel volume at a
+vanishing threshold to diverge. Two smooth scalar families show that the
+installed global coordinates permit all branches, including fixed and
+diverging selectors with finite \(\int I\) and divergent \(\int I^2\).
+They are not NS histories. The next theorem must use additional same-VPI
+structure to exclude or control the vanishing-threshold total-volume branch
+and the low-rate-Reynolds source concentration, or else bound the complete
+source action directly. No spatial expansion, component, packet, carrier,
+Gold closure, or Silver exit is proved.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
