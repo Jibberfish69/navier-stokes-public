@@ -9044,9 +9044,11 @@ weight bridge
 
 whenever \(R\Lambda_R\le|\nabla u(z)|_F\).  Therefore a large
 vorticity/all-chord mismatch is not free: it certifies that the same field's
-first jet loses affine validity on a shorter distance.  The burden is handed
-to the next derivative rung, not to a separately owned pressure or viscosity
-mechanism.
+uniform Hessian certificate fails on a shorter distance.  This is a scalar
+comparison between \(|\omega|^2\) and \(\tau\); it does not read vorticity
+direction, \(\Pi\)-orientation, strain--vorticity alignment, or eigenframe
+geometry.  The burden is handed to the next derivative rung, not to a
+separately owned pressure or viscosity mechanism.
 
 Fixed energy and fixed viscosity do not provide a uniform positive radius.
 A genuine compact solenoidal affine-plus-remote datum has
@@ -9103,13 +9105,14 @@ source-, recurrence-, or critical-rise-coupled theorem on one original
 history.
 
 The physical return is conditional but exact.  Where the same velocity field
-keeps one affine first-jet pose across \(R\), its own short chords necessarily
-carry enough nonlocal incidence to register its local spin.  If the ratio is
-larger, that pose must break before \(R\).  This is instantaneous geometry,
-not a persistence theorem.  It supplies no material carrier, packet, core,
-annulus, propagation speed, viscous response-time band, pressure sign,
-recurrence, critical-rise placement, strict Gold reduction, Gold closure, or
-Silver exit.
+obeys the uniform Hessian certificate across \(R\), the scalar energy of its
+own short chords forces enough nonlocal incidence relative to local
+vorticity-square.  If the ratio is larger, that certificate fails before
+\(R\).  This is instantaneous scalar geometry, not a persistence or
+directional theorem.  It supplies no vorticity-direction, alignment, or
+eigenframe control, material carrier, packet, core, annulus, propagation
+speed, viscous response-time band, pressure sign, recurrence, critical-rise
+placement, strict Gold reduction, Gold closure, or Silver exit.
 
 ### F7.30 Short affine-break radii have a quadratic vorticity tail, and the mismatch moment is palinstrophy-controlled
 
