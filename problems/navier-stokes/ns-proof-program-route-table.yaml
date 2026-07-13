@@ -26,16 +26,19 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#passive_multidirectional_all_chord_orientation_variation_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#passive_unequal_heat_all_chord_material_column_variation_ontology_gate_spin
     effect: >-
-      Cycle 065 proves that positive grad Pi and Q_Pi can be passive,
-      block-orthogonal to strain, and unrelated to Gold rise. At fixed initial
-      energy across periodic data, the full spacetime Q_Pi grows like N^3/nu,
-      excluding a uniform energy-viscosity-only bound but not per-datum,
-      higher-norm, Gold-rise-restricted, or signed-coupled control. Cycles
-      062--064 remain. Gold still needs actual rising-history placement and
-      signed strain overlap, or another direct theorem. No smaller closing
-      theorem, Gold closure, or Silver Part/Field exit follows.
+      Cycle 066 realizes Cycle 013's unequal-heat scale-direction reweighting
+      in the local all-chord tensor. In an exact passive periodic history Pi
+      changes along a material column while convection, the pressure source
+      and gradient, vortex stretching, r, and P_H vanish. At fixed initial
+      energy and viscosity across smooth data, initial |D_t Pi| is unbounded,
+      although its total selected-column variation is finite and critical
+      height decreases. Thus D_t Pi and its raw rate are not nonlinear or Gold
+      activity. Only an E0-nu initial-time pointwise ceiling for this readout
+      is refuted; per-datum, fixed-positive-time, higher-norm,
+      Gold-rise-restricted, signed-coupled, and bypass control remain open. No
+      strict reduction, Gold closure, or Silver Part/Field exit follows.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion

@@ -12,17 +12,20 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#passive_multidirectional_all_chord_orientation_variation_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#passive_unequal_heat_all_chord_material_column_variation_ontology_gate_spin
   effect: >-
-    Cycle 065 proves a passive periodic class with positive grad Pi and Q_Pi,
-    zero critical work, and D_t Pi=0. At fixed initial energy across data, its
-    full spacetime Q_Pi grows like N^3/nu. Thus no uniform
-    energy-viscosity-only bound exists, while per-datum, higher-norm,
-    Gold-rise-restricted, and signed-coupled control remain open. Cycles
-    062--064 remain. Gold still needs actual rising-history placement and
-    signed strain overlap, or another direct theorem. No smaller closing
-    theorem, Gold closure, or Silver exit is installed. Lower generated
-    occurrences are genealogy only.
+    Cycle 066 realizes Cycle 013's unequal-heat scale-direction reweighting in
+    the local all-chord tensor. In an exact passive periodic history Pi changes
+    along a material column while convection, the pressure source and gradient,
+    vortex stretching, r, and P_H vanish. At fixed initial energy and
+    viscosity across smooth data, initial |D_t Pi| is unbounded, although its
+    total selected-column variation is finite and critical height decreases.
+    Thus D_t Pi and its raw rate are not nonlinear or Gold activity. Only an
+    E0-nu initial-time pointwise ceiling for this readout is refuted;
+    per-datum, fixed-positive-time, higher-norm, Gold-rise-restricted,
+    signed-coupled, and bypass control remain open. No strict reduction, Gold
+    closure, or Silver conclusion follows. Lower generated occurrences are
+    genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
