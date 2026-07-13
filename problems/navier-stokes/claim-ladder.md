@@ -577,6 +577,48 @@ shrinking-selector ladder, or whether failure of that entrance has a separate
 datum-controlled consequence. No strict Gold reduction, closure, or Silver
 exit follows.
 
+Nineteenth live gate result, 2026-07-13: Cycle 056 installs F7.24 and refutes
+the proposed universal shrinking-selector entrance. If \(I\) first enters the
+doubled levels \(L_j\), the disjoint entrance intervals obey
+
+\[
+\int q^2dt\ge\nu L_j.
+\]
+
+Thus every terminal tail of an unbounded-\(I\) history has infinite complete-
+source dual action. At a first entrance,
+
+\[
+\frac XI\ge\frac{S_3I^2}{\nu^4\mathcal R_{6,+}^4},
+\qquad
+\tau_{D,+}\le
+\frac{\nu^3\mathcal R_{6,+}^4}{S_3I^2},
+\qquad
+q^2\ge\frac{S_3I^3}{\nu^2\mathcal R_{6,+}^4}.
+\]
+
+Low \(\mathcal R_{6,+}\) therefore means faster direct heat and a more
+intense joined rebuilding source, not viscous lag. For finite weak amplitude
+\(M\), any threshold \(\alpha\) satisfying
+\(\alpha|\{r_+>\alpha\}|^{2/3}\ge\eta M\) has
+
+\[
+\int(r_+-\alpha/2)_+^2
+\ge\frac{\eta^{3/2}}{16}I.
+\]
+
+After subselection, every unbounded entrance is one of four value-scale
+geometries: \(\mathcal R_{6,+}\to0\), an order-one-rate threshold tending to
+infinity, one staying in a fixed positive band, or one tending to zero with
+diverging total superlevel volume. Infinite \(M\) belongs to the last branch
+as an extreme low-threshold tail and does not receive the fixed-fraction
+excess claim. Two smooth scalar families realize the allowed selector
+behaviors under the installed global identities; they are not NS histories.
+The next theorem must use additional same-VPI structure to control the low-
+rate-Reynolds and vanishing-threshold total-volume branches, or bound the
+complete source action directly. No strict Gold reduction, closure, spatial
+expansion theorem, packet/carrier, or Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -593,7 +635,7 @@ exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.23 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.24 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -615,9 +657,13 @@ exit follows.
   \(L_t^2\dot H^{-1}\) or \(L_t^2L^{6/5}\) control is sufficient for Gold but
   is not datum-bounded. No datum bound controls the scale-growing rebuild
   branch. Cycle 055 removes recurrence/non-overlap after a uniform
-  shrinking-threshold terminal ladder is admitted, forcing divergent \(I^2\)
-  or \(q^2\) action. The open entrance theorem must force that ladder from a
-  Gold threat, or turn its failure into a datum-controlled consequence. The
+  shrinking-threshold terminal ladder is admitted. Cycle 056 proves that every
+  new doubled total rate height already forces terminal \(q^2\)-action
+  divergence, but refutes universal selector shrinkage and replaces it with
+  low-rate-Reynolds, rising-threshold, fixed-threshold, and vanishing-threshold
+  total-volume branches. The open theorem must datum-control the first and
+  fourth branches, bound the complete source action, or bypass them through
+  another direct square-rate theorem. The
   fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
