@@ -9204,7 +9204,7 @@ quadratic tail
 }
 \]
 
-In particular, with
+In particular, when \(K,D_2>0\), with
 
 \[
 R_{1/2}=\sqrt{\frac{K}{8D_2}},
@@ -9223,8 +9223,8 @@ one has
 }
 \]
 
-Thus, at every instant, at least half of the total vorticity-square lies at
-centers whose certified first-jet radius is no shorter than
+Thus, at every instant with \(K,D_2>0\), at least half of the total
+vorticity-square lies at centers whose certified first-jet radius is no shorter than
 \(\sqrt{K/(8D_2)}\).  This is an Eulerian population statement, not a
 two-sided radius comparison or a connected or materially persistent region.
 
