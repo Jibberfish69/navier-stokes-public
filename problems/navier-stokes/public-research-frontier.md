@@ -1,6 +1,6 @@
 # Public Research Frontier
 
-Updated: 2026-05-18
+Updated: 2026-07-12 (single addition in section 3; last full sweep 2026-05-18)
 
 Purpose: record the current live public Navier-Stokes research frontier relevant to this lane.
 This is a live support surface, not the proof-bearing authority corpus.
@@ -67,6 +67,10 @@ It is intentionally frontier-focused rather than an exhaustive all-time bibliogr
 - Tobias Barker, Henry Popkin, "Quantitative estimates for the forced Navier-Stokes equations and applications," arXiv:2602.09951, submitted 2026-02-10.
   Link: [arXiv:2602.09951](https://arxiv.org/abs/2602.09951)
   Why it matters: current strongest public quantitative continuation / localisation / forced-Carleman machinery.
+
+- Runlong Yu, "Critical Ledgers and Scale-Defect Cascades for Navier-Stokes," arXiv:2606.13887, submitted 2026-06-11.
+  Link: [arXiv:2606.13887](https://arxiv.org/abs/2606.13887)
+  Why it matters: finite-scale supply-tax reduction for suitable weak solutions along admissible parabolic window chains, built from standard CKN reservoir quantities, the local energy inequality, pressure decay, interpolation, and elementary discrete summation. Its supply/tax/leakage accounting vocabulary is adjacent to the lane's ledger language, but it proves none of the lane's signed native-versus-shape cohort structure, first-admission ancestry, bounded fibre multiplicity, or datum-finite parent size, and it explicitly disclaims any regularity conclusion. Import as finite-scale machinery and benchmark support only; its non-regularity posture keeps it outside the claimed-proof quarantine bucket.
 
 ## 4. Axisymmetric singularity lab and geometric exclusion lane
 
