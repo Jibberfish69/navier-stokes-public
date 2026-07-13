@@ -525,8 +525,9 @@ Cycle 051 separates a large normalized rate from a spatially licensed event.
 A pointwise value of \(r_+\) has no intrinsic length: choosing
 \(\ell=\sqrt{\nu/r_+}\) would make \(r_+\ell^2/\nu=1\) tautologically. Suppose
 instead that an independently established scale \(\ell\) carries
-\(r_+\gtrsim\nu/\ell^2\) on comparable spatial volume for one heat-time
-\(\ell^2/\nu\). F7.19 proves that the datum-finite viscous history controls
+\(r_+\gtrsim\nu/\ell^2\) on spacetime measure comparable to
+\(\ell^3(\ell^2/\nu)\) inside one heat-time interval. F7.19 proves that the
+datum-finite viscous history controls
 only the radius-weighted sum of such events, while every event contributes a
 scale-independent amount of order \(\nu^3\) to the square-rate action
 \(\int I^2dt\). Finite energy therefore does not rule out infinitely many
