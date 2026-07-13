@@ -2517,7 +2517,7 @@ Ontology goal cycle 016 proves an exact pointwise trichotomy and record-contact
 alternatives: positive pair compression is quantitatively pressure-source
 dominated, vorticity compressing, or rotationally braked. Exact points of one
 globally smooth ABC participant realize all three regions. This is an
-independently validated causal recombination under F2.1/F4.1/F6.1/F7.1 and
+independently validated instantaneous algebraic recombination under F2.1/F4.1/F6.1/F7.1 and
 Cycles 012–015, not a new constitutive fact and not Gold progress. It has not
 entered the canonical fact store or feedback ledger.
 Ontology goal cycle 017 proves the complete dual-slot pressure formula for the
@@ -2539,7 +2539,7 @@ It proves an exact fixed-energy, fixed-torus Navier–Stokes family for which
 both pressure slots are positive and their action-to-curvature-mass ratios
 diverge. The same family has zero Leray-projected nonlinearity, so its positive
 pressure action is canceled exactly by convection. This is an independently
-validated causal refinement and route correction under
+validated component-identity refinement and route correction under
 F1.2/F3.1/F5.1/F6.3/F7.3 and Cycles 012–017, not a new constitutive fact and
 not Gold progress. It has not entered the canonical fact store or feedback
 ledger.
