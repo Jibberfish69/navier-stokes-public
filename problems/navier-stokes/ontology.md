@@ -7559,10 +7559,13 @@ and choose any \(0<\eta<1\) and any \(\eta\)-near-maximizing threshold
 \]
 
 Let \(b=\alpha/2\) and \(E_b=\int(f-b)_+^2\). Since
-\(m(\lambda)\le(M/\lambda)^{3/2}\), splitting below and above \(b\) gives
+\(m(\lambda)\le(M/\lambda)^{3/2}\), splitting at \(\alpha\) gives
 
 \[
-I\le2E_b+6M^{3/2}b^{1/2}.
+\int_{f\le\alpha}f^2
+\le4M^{3/2}\alpha^{1/2}-\alpha^2m(\alpha),
+\qquad
+\int_{f>\alpha}f^2\le4E_b.
 \]
 
 Near maximality gives
@@ -7575,7 +7578,7 @@ E_b\ge b^2m(\alpha)
 Therefore, with
 
 \[
-C_\eta=2+12\sqrt2\,\eta^{-3/2},
+C_\eta=16\eta^{-3/2},
 \]
 
 one has the scale-free mass-capture law
