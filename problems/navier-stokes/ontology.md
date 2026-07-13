@@ -3834,7 +3834,8 @@ high-regularity estimates give, for some \(m>5/2\) and \(\tau_0>0\),
 \le C\varepsilon.
 \]
 
-Since the Euler critical-height derivative at zero is \(2P_H(\psi)>0\),
+Since \(R'(0)=2P_H(\psi)>0\) for the Euler solution, equivalently
+\(\mathcal H_{1/2}'(0)=P_H(\psi)>0\),
 there are fixed \(\tau_0,\delta>0\) such that, for all sufficiently small
 \(\varepsilon\),
 
