@@ -208,28 +208,71 @@ Eleventh live gate result, 2026-07-12: Cycle 048 installs F7.16. With
 \(\Pi=\mathsf T_u/\operatorname{tr}\mathsf T_u\), the normalized rate is
 \(r=-S:\Pi\); pure scalar all-chord density motion cancels from its source.
 The complete quotient law retains the full strain, rotation, pressure,
-pair-redistribution, and viscous rows. Common diffusion has a definite drain
-for
+pair-redistribution, and viscous rows. It also gives the weighted perspective
 
 \[
 \int\tau r_+^2
 =\int\frac{(-S:\mathsf T_u)_+^2}{\tau},
 \]
 
-while ordinary-volume \(I=\int r_+^2\) contains the unsigned row
-\(-\nu\int(\Delta\log\tau)r_+^2\). The new Fisher estimate
-\(|\nabla\tau|^2\le4\tau\operatorname{tr}\mathsf G_u\) controls density
-variation only with its natural weight and costs critical dissipation.
+and the Fisher estimate
+\(|\nabla\tau|^2\le4\tau\operatorname{tr}\mathsf G_u\). Its claim that
+ordinary-volume \(I=\int r_+^2\) retained an independent unsigned
+\(-\nu\int(\Delta\log\tau)r_+^2\) obstruction is superseded by Cycle 049:
+that row cancels against the scalar-density drift hidden in the expanded full
+source.
 
 The exact fixed-energy, fixed-viscosity short-rise family from F6.21 has
 \(I_A\simeq A^4\) on a rising interval of length \(A^{-5}\), so
 \(\int_GI_A^2dt\gtrsim A^3\). This excludes every energy--viscosity-only proof
 of \(NormalizedPositiveWorkRateSquareIntegrability.A\). It does not refute
 per-datum finiteness or construct recurrent bursts in one terminal history.
-Gold remains open at a one-datum normalized-source/curvature absorption
-theorem, active-set deweighting of the weighted perspective, or another direct
-supplier. No packet, annular, material-compression, viscosity-lag, MPP, or
-Silver conclusion follows.
+No packet, annular, material-compression, viscosity-lag, MPP, or Silver
+conclusion follows.
+
+Twelfth live gate result, 2026-07-12: Cycle 049 corrects F7.16 and installs
+F7.17. With the complete VPI source recombined,
+
+\[
+(D_t-\nu\Delta)r=\widetilde{\mathcal F}_r,
+\qquad
+\frac12I'+\nu\int|\nabla r_+|^2
+=\int r_+\widetilde{\mathcal F}_r.
+\]
+
+The source is trace-free and anisotropic: it is the joined relation of strain,
+rotation, instantaneous nonlocal pressure, pair redistribution, and viscous
+shape change with normalized all-chord orientation. Scalar density magnitude
+is not an independent cause or obstruction.
+
+The exact orientation Fisher law is
+
+\[
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)\operatorname{tr}\mathsf G_u,
+\qquad
+\int\tau|\nabla\Pi|_F^2\le8D.
+\]
+
+For compact fields on \(\mathbb R^3\), the exact nonlocal tail
+\(\tau(z)\sim\|u\|_2^2|z|^{-4}\) excludes every global \(A_p\) and
+reverse-Hölder class. Rising remote-copy families also exclude uniform active
+lower density and datum-independent static deweighting, even on regions where
+\(r_+\to\infty\). These varying-data tests do not refute a correctly scaled
+one-datum recurrence law.
+
+A datum-dependent quadratic source bound
+
+\[
+\left[\int r_+\widetilde{\mathcal F}_r\right]_+
+\le A_0I+C_0I^2
+\]
+
+would close because the existing \(L^1_t\) budget forbids unbounded peaks under
+quadratic growth. Scale-free source control is cubic and permits
+\(L^1_t\setminus L^2_t\) terminal spikes. No such datum-dependent source or
+equivalent recurrence theorem is proved. Gold and Silver therefore remain
+open at their existing exact burdens.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
@@ -247,11 +290,13 @@ Silver conclusion follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16 proves that a
-  direct evolution route must control the full normalized VPI source and
-  signed log-density curvature, while the clean weighted viscous drain needs
-  an active-set deweighting theorem. It also rules out any bound using only
-  kinetic energy and viscosity. Older WLF/ODP,
+  active \(L^2\) concentration control coupling them. F7.16--F7.17 prove that
+  a direct evolution route must control the full trace-free VPI shape source;
+  scalar log-density curvature cancels. Global weight theory and
+  datum-independent static deweighting fail, so the live evolution question
+  is a correctly scaled one-datum source-recurrence or dynamic active-coupling
+  theorem. The fixed-energy family also rules out any bound using only kinetic
+  energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
