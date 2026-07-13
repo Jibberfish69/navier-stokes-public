@@ -1,11 +1,11 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** F1-root rebuild active. The F1--F7 seed remains the governing
-ontology; every Cycle 001--070 mathematical result is retained only as
-evidence pending revalidation, and every cycle-derived physical
-interpretation has zero premise weight until rebuilt from F1.
+**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycle 001 are
+the governing ontology. Every Cycle 002--070 mathematical result is retained
+only as evidence pending revalidation, and every unrebuilt cycle-derived
+physical interpretation has zero premise weight.
 
-**Current promoted checkpoint:** pre-cycle F1--F7 seed. Cycle promotions are
+**Current promoted checkpoint:** rebuilt Cycle 001. Cycles 002--070 remain
 suspended.
 
 **Development authority:** this remains the single cumulative ontology.
@@ -1447,6 +1447,72 @@ an independent force. Faster viscous action occurs only when velocity
 variation is actually retained in the compressed label direction. The same
 coordinate compensation applies to the pressure elliptic form, without giving
 pressure a sign or a dissipative interpretation.
+
+### F1.14 One VPI tangent has inequivalent curl readouts
+
+For one smooth unforced fixed-\(\nu\) history, set
+
+\[
+\mathfrak T_{\mathrm{VPI}}[u]
+=-(u\cdot\nabla)u-\nabla p[u]+\nu\Delta u
+=\partial_tu,
+\qquad \omega=\nabla\times u.
+\]
+
+Taking curl is one exact coordinate projection of this tangent. On periodic
+\(\mathbb T^3\), or on \(\mathbb R^3\) with enough decay and integrability,
+
+\[
+\partial_t\omega_i
++\partial_j\!\left(
+u_j\omega_i-u_i\omega_j-\nu\partial_j\omega_i
+\right)=0,
+\]
+
+while pairing the same curl tangent with \(\omega\) gives
+
+\[
+\frac12\frac d{dt}\|\omega\|_2^2
+=\int \omega\cdot S\omega\,dx
+-\nu\|\nabla\omega\|_2^2.
+\]
+
+The pressure gradient remains a constitutive coordinate of the VPI tangent;
+its annihilation by curl is a property of the projection, not pressure's
+absence from the participant. The signed linear curl integral, material
+circulation, quadratic enstrophy, and
+
+\[
+\mathcal H_{1/2}
+=\frac12\|\Lambda^{1/2}u\|_2^2
+=\frac12\|\Lambda^{-1/2}\omega\|_2^2
+\]
+
+are therefore inequivalent functionals of one field change. The linear
+oriented reading cancels opposite orientations; the quadratic and nonlocal
+readings do not.
+
+This distinction occurs in an exact participant. On \(\mathbb T^3\), the
+2D3C datum
+
+\[
+u_0=A\bigl(2\cos y,\,2\cos x,\,2\cos x+2\sin(x+y)\bigr)
+\]
+
+has zero total vector vorticity, while its exact smooth history satisfies
+
+\[
+\frac12\frac d{dt}\fint_{\mathbb T^3}|\omega(t)|^2\,dx\Big|_{t=0}
+=2A^3-14\nu A^2>0
+\qquad(A>7\nu).
+\]
+
+Thus, at one instant, the same fluid can have zero total oriented vorticity
+while its global squared-vorticity readout increases. This proves readout
+non-equivalence only. It proves no separate source or mechanism, no location,
+carrier, episode, spatial concentration, causal order, Gold bound, or Silver
+exit. The periodic witness does not by itself refute a statement restricted
+to decaying \(\mathbb R^3\).
 
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
