@@ -76,7 +76,8 @@ older cycle files are evidence, not competing authority.
 | 041 | Every rising state has a datum-dependent lower bound on global Fourier-radius variance and a bounded uninterrupted-rise duration. Two shells or a remote tail can realize the variance; no spatial widening or material carrier follows. |
 | 042 | One history has finite rising-frequency occupancy; varying data refute event quanta based only on time, raw energy loss, or fixed subcritical occupancy. Compound fixed-history VPI charges are not refuted. |
 | 043 | Pressure and viscosity share the pulled-back material metric, critical production has an instantaneous global all-chord material-work form, and a material surface has a circulation/area alternative. These are exact coordinates and alternatives, not a response-time, causal-incidence, local core/collar, or Gold theorem. |
-| 044 | Positive local material work activates a contracting direction whose matched frozen dual pressure--viscous symbol increases immediately. This is instantaneous joined geometry, not actual dissipation, favorable pressure, carrier incidence, persistence, a response-time bound, or Gold control. |
+| 044 | Positive local material work activates a contracting direction whose matched frozen dual pressure--viscous symbol increases immediately. This is instantaneous joined geometry, not stronger physical viscosity, favorable pressure, persistence, a response-time bound, or Gold control; Cycle 045 corrects its understated first-gradient consequence. |
+| 045 | Positive work already forces a same-point compressive gradient. Its normalized rate \(r=w/\operatorname{tr}\mathsf T_u\) has a datum-finite material-volume \(L^2\) budget, while critical growth weights it by the all-chord density. This is a physical rate law, not core localization, critical-gradient-difference incidence, persistence, no-recount, or Gold closure. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -315,14 +316,55 @@ That exact reciprocity is not the desired brake. The torus shear in F1.12 has
 an increasingly anisotropic material metric while pressure stays constant and
 global dissipation falls. The pointwise algebra countertest in F7.10 has
 positive work carried by off-diagonal deformation while all principal
-stretches have zero instantaneous derivative. Hence neither an increasing
-symbol nor the principal stretches determine actual gradient incidence,
-pressure sign, dissipation, frame persistence, or a response-time bound. The
-physical burden inside \(MaterialCriticalWorkCoreCollarIncidence.A\) is now
-sharper: the dangerous fixed-label carrier must be shown to occupy the active
-dual directions, and that incidence must persist long enough for the joined
-pressure--viscous response to control the record. This is a proved ontology
-refinement and Gold-target sharpening, not MPP progress. Silver is unchanged.
+stretches have zero instantaneous derivative. Cycle 045 corrects the excess
+boundary stated here: positive work does determine an instantaneous
+compressive first gradient. What remains undetermined is physical
+strengthening, critical gradient differences, pressure sign, localization,
+frame persistence, and a response-time bound.
+
+Cycle 045 installs F1.13 and F7.11. The singular-value factors in the pulled-
+back pressure and viscous quadratic forms cancel exactly against the
+transformed derivatives:
+
+\[
+s_i^{-2}|\partial_{e_i}U|^2=|(\nabla u)n_i|^2.
+\]
+
+Material anisotropy is therefore the coordinate expression of fixed Eulerian
+isotropy, not an extra viscous force. If
+\(w=-\frac12H_m:A>0\) and
+\(\tau=\operatorname{tr}\mathsf T_u\), some active compressive strain
+direction satisfies
+
+\[
+|(\nabla u)n|^2\ge\left(\frac w\tau\right)^2.
+\]
+
+The normalized signed work rate \(r=w/\tau\) then has the exact
+same-participant budget
+
+\[
+2\nu\int_0^T\int |r|^2\,da\,dt\le\mathcal E_0,
+\]
+
+whereas every critical-height doubling requires
+
+\[
+4\int_I\int r_+\,d\mu_t\,dt\ge\log2,
+\qquad
+d\mu_t=\frac{\tau\,da}{4\mathcal H_{1/2}}.
+\]
+
+This is the first datum-finite physical rate law produced by the
+material-work picture. It does not close Gold because energy controls the
+rate against ordinary material volume while critical growth samples it through
+the nonlocal all-chord density. The exact remaining incidence problem is to
+control that density relative to material volume, localize the work and
+critical gradient differences on one core--collar event, and retain them for
+a quantitative interval. The ABC amplitude family refutes a universal linear
+work-to-viscosity fraction, so the normalized quadratic law is the surviving
+form. This is physical ontology and a sharper Gold reduction, not MPP
+progress. Silver is unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
