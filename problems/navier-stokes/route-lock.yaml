@@ -8,14 +8,13 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-12'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#threshold_interface_residence_response_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#terminal_threshold_ladder_no_recount_ontology_gate_spin
   effect: >-
-    Cycle 054 proves the fixed-threshold interface law and a heat-time
-    residence-or-joined-response alternative. The Cycle 053 selector is not a
-    component heat length. Gold remains open at datum-finite positive
-    complete-source action or another direct square-rate theorem; summing event
-    alternatives also needs recurrence/non-overlap. No smaller closing theorem
-    or Silver exit is installed. Lower route snapshots remain genealogy only.
+    Cycle 055 proves terminal shrinking-window non-recount after a uniform
+    order-one shrinking-threshold ladder is admitted. Gold remains open at the
+    ladder entrance plus a datum action bound, or another direct square-rate
+    theorem. No smaller closing theorem or Silver exit is installed. Lower
+    route snapshots remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
