@@ -5034,6 +5034,222 @@ critical-height gain.  Those quantities cannot close Gold.  The same-history
 critical action and material ancestry burdens remain open.  No Part or Field
 failure is derived, so Silver is unchanged.
 
+### F6.22 Stored enstrophy permits only finitely many consecutive critical-height doublings without positive global vortex-stretch production, while a terminal ladder renews that production on every tail
+
+Let \(0<T<\infty\), and let \(u\) be a smooth unforced incompressible
+Navier--Stokes solution at fixed \(\nu>0\) on decaying \(\mathbb R^3\) or
+normalized periodic \(\mathbb T^3\). On the torus remove the conserved spatial
+mean and put \(v=u-\fint u\,dx\); on \(\mathbb R^3\), put \(v=u\). Define
+
+\[
+E^\circ=\frac12\|v\|_2^2,
+\qquad
+H=\frac12\|\Lambda^{1/2}v\|_2^2,
+\qquad
+\mathcal Z=\frac12\|\omega\|_2^2,
+\]
+
+\[
+\mathcal P_\omega=\int\omega\cdot S\omega\,dx,
+\qquad
+\mathcal D_\omega=\|\nabla\omega\|_2^2.
+\]
+
+The mean-free kinetic energy is non-increasing. Fourier interpolation and the
+exact enstrophy balance give
+
+\[
+\boxed{H(t)^2\le E^\circ(t)\mathcal Z(t),}
+\]
+
+\[
+\boxed{
+\mathcal Z'(t)+\nu\mathcal D_\omega(t)
+=\mathcal P_\omega(t).
+}
+\]
+
+Consequently, for \(s<t<T\),
+
+\[
+\boxed{
+H(t)^2
+\le
+E^\circ(t)\left(
+\mathcal Z(s)+\int_s^t[\mathcal P_\omega(\tau)]_+\,d\tau
+\right),
+}
+\]
+
+and, when \(E^\circ(t)>0\),
+
+\[
+\boxed{
+\int_s^t[\mathcal P_\omega(\tau)]_+\,d\tau
+\ge
+\left[
+\frac{H(t)^2}{E^\circ(t)}-\mathcal Z(s)
+\right]_+.
+}
+\]
+
+This is the exact stored-enstrophy threshold. A finite critical-height
+upcrossing may rearrange derivative strength already present in the same field.
+Once \(H(t)^2/E^\circ(t)\) exceeds the earlier enstrophy, however, the
+participant must have accumulated positive global vortex-stretch production
+after that earlier time. The inequality identifies neither a first event time
+nor a spatial location.
+
+Define
+
+\[
+\mathcal A_\omega(t)
+=
+\operatorname*{ess\,sup}_{|\omega(\cdot,t)|>0}
+\left[
+\frac{\omega\cdot S\omega}{|\omega|^2}
+\right]_+,
+\]
+
+with value zero when the set is empty. If \(\mathcal Z(s)=0\), the mean-free
+periodic or finite-energy decaying field has zero gradient and cannot begin an
+unbounded critical-height tail. Otherwise,
+
+\[
+\mathcal P_\omega(t)
+\le2\mathcal A_\omega(t)\mathcal Z(t),
+\]
+
+and
+
+\[
+\boxed{
+H(t)
+\le
+\sqrt{E^\circ(t)\mathcal Z(s)}
+\exp\!\left(\int_s^t\mathcal A_\omega(\tau)\,d\tau\right).
+}
+\]
+
+It follows that \(\sup_{t<T}H(t)=\infty\) forces, for every \(s<T\),
+
+\[
+\boxed{
+\int_s^T[\mathcal P_\omega(t)]_+\,dt=\infty,
+\qquad
+\int_s^T\mathcal A_\omega(t)\,dt=\infty,
+}
+\]
+
+and
+
+\[
+\boxed{
+\int_s^T\int[\omega\cdot S\omega]_+\,dx\,dt=\infty.
+}
+\]
+
+The three displayed quantities are each infinite; they are not equal
+functionals. Positive stretching confined to an earlier interval cannot
+sustain an unbounded terminal ladder. At the \(\mathbb R^3\) first-blowup
+scope of F4.4, the full terminal critical-height divergence activates this
+implication.
+
+For \(H>0\), the exact finite-state headroom readout is
+
+\[
+\boxed{
+\Sigma_H=\frac{E^\circ\mathcal Z}{H^2}\ge1.
+}
+\]
+
+If \(d\mu_E\) is the kinetic-energy probability distribution over Fourier
+frequency, using Lebesgue measure on \(\mathbb R^3\) and counting measure on
+the periodic lattice, then
+
+\[
+\boxed{
+\Sigma_H
+=\frac{\mathbb E_{\mu_E}|\xi|^2}
+{\left(\mathbb E_{\mu_E}|\xi|\right)^2}
+=1+
+\frac{\operatorname{Var}_{\mu_E}(|\xi|)}
+{\left(\mathbb E_{\mu_E}|\xi|\right)^2}.
+}
+\]
+
+Thus \(\Sigma_H\) is dimensionless global radial spectral headroom. It is not
+a spatial width, packet width, annulus, location, or causal transfer
+mechanism.
+
+If \(H(b)=2H(a)>0\), then
+
+\[
+\boxed{
+\int_a^b[\mathcal P_\omega(t)]_+\,dt
+\ge
+\frac{H(a)^2}{E^\circ(a)}
+\left[
+4\frac{E^\circ(a)}{E^\circ(b)}-\Sigma_H(a)
+\right]_+
+\ge
+\frac{H(a)^2}{E^\circ(a)}[4-\Sigma_H(a)]_+.
+}
+\]
+
+If the positive global production on that interval vanishes, then
+
+\[
+\boxed{
+\Sigma_H(b)
+\le
+\frac{E^\circ(b)}{E^\circ(a)}
+\frac{\Sigma_H(a)}4
+\le\frac{\Sigma_H(a)}4.
+}
+\]
+
+Starting from one smooth state, there are therefore at most
+\(\lfloor\log_4\Sigma_H(a)\rfloor\) consecutive exact critical-height
+doublings with zero positive global \(\mathcal P_\omega\)-action.
+
+This count is state dependent. Fixed-energy smooth periodic two-shell
+parallel shears can have \(\Sigma_H\to\infty\), zero nonlinearity,
+\(\mathcal P_\omega=0\), and exact heat evolution. They do not realize height
+doublings. They prove only that the displayed \(\Sigma_H\)-based count cannot
+be converted into an energy-only bound; they do not rule out a different
+datum theorem controlling realized intervals.
+
+The physical return is global but genuine. A finite planar upcrossing may draw
+down global radial-moment headroom while total squared vorticity stays fixed or
+decreases. An unbounded ladder cannot remain there: on every terminal tail,
+extending strain directions must act on vorticity strongly enough that
+positive whole-field stretching production repeatedly exceeds simultaneous
+viscous destruction. This is an anisotropic vorticity-stretch event absent
+from pure two-dimensional planar flow; it is not a theorem of full
+three-dimensional spatial dependence. Pressure curls out of the vorticity
+equation but remains the forced nonlocal same-field response shaping the later
+strain geometry.
+
+The exact F7.36 countertest remains decisive: critical height can rise in a
+globally regular planar history with
+\(S\omega=\mathcal P_\omega=\mathcal A_\omega=0\). Conversely, Cycle 001
+gives globally regular 2D3C enstrophy growth with positive
+\(\mathcal P_\omega\). Positive stretching is therefore neither necessary for
+each finite upcrossing nor sufficient for breakdown. No theorem synchronizes
+height-rising intervals with enstrophy-record intervals.
+
+This fact proves no packet, annulus, vortex core, connected region, material
+carrier, spatial focusing, frequency travel, cascade, propagation speed,
+viscous lag, pressure sign, co-location, persistence, recurrence, no-reuse
+law, universal per-event datum charge, datum-finite stretching bound, strict
+Gold reduction, Gold closure, Part/Field failure, class exit, or Silver
+result. The remaining bridge must couple cumulative
+\(|\omega|^2\)-weighted stretching to simultaneous \(\tau\)-weighted
+all-chord critical work with both viscous rows retained, bound the terminal
+stretching/headroom dynamics directly from the datum, or bypass them with a
+direct critical-height theorem.
+
 ## F7. Anisotropic, directional, relational geometry
 
 ### F7.1 Nonzero incompressible strain is necessarily anisotropic
