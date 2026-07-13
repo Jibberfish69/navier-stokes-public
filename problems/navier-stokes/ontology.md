@@ -6329,16 +6329,18 @@ particular, a scalar sinusoidal heat shear has \(v_{\rm amp}>0\) everywhere
 while \(\nabla\Pi=0\). Thus centered amplitude variance remains a one-way
 envelope; it is not the orientation change itself.
 
-Cycle 065 makes the remaining limitation strict. An exact passive
-two-direction heat flow has \(\nabla\Pi\not\equiv0\) and
-\(\mathcal Q_\Pi>0\), while convection, the pressure source, vortex
-stretching, and critical production all vanish and \(D_t\Pi=0\). Thus the
-weighted spatial orientation budget does not by itself measure temporal
-turning or nonlinear activity.
+Cycles 065--066 make the remaining limitation strict in both directions. An
+equal-shell passive two-direction heat flow has
+\(\nabla\Pi\not\equiv0\), \(\mathcal Q_\Pi>0\), and \(D_t\Pi=0\).
+Unequal heat rates can instead give \(D_t\Pi\ne0\) along a material column
+while convection, the pressure source, vortex stretching, and critical
+production still vanish. The displayed \(\tau|\nabla\Pi|^2\) law is a
+spatial-variation budget only. It neither controls temporal/material change
+nor distinguishes passive from active temporal change.
 
 Physically, rapid spatial change of the normalized all-chord orientation
 requires gradient-increment mass and directional dispersion in the same
-field. The theorem prices that turning only where the incidence density
+field. The theorem prices that spatial variation only where the incidence density
 \(\tau\) is present; it supplies no inverse-\(\tau\) control.
 
 That limitation remains on the active set. Choose compact smooth
@@ -9608,6 +9610,12 @@ the parallel-column heat class it produces \(\nabla\Pi\not\equiv0\) while
 \(S:\Pi=0\) and \(D_t\Pi=0\). The covariance identifies how the orientation
 tensor changes across centers; it is not by itself a cause of interaction,
 critical work, or temporal turning.
+
+Cycle 066 supplies the complementary local material fact. Unequal heat rates
+can change \(\Pi\) along a material column while \(S:\Pi=r=P_H=0\).
+That change is scale-selective temporal reweighting, not the spatial
+covariance identity above. Neither coordinate change has interaction or Gold
+weight by itself.
 
 The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
 variation at one time, not a temporal or material rotation.  The probability
