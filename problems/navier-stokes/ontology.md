@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 065.
+**Current promoted checkpoint:** Cycle 066.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -1679,6 +1679,18 @@ t_{\mathrm{heat}}\sim\frac{r^2}{\nu}.
 
 Growth of high frequencies must be supplied by the same-field nonlinear
 interaction against this quadratic damping.
+
+Cycle 013 proves the complementary passive fact: when distinct pre-existing
+directions occupy distinct frequency radii, heat damping reweights their
+normalized directional incidence even though no mode changes wavevector.
+Cycle 066 realizes the same mechanism in the local all-chord tensor along one
+material column. At fixed kinetic energy, a fine mode can carry vanishing
+energy but equal local all-chord weight, lose that energy at an unbounded
+initial rate across smooth data, and disappear on the scale-dependent heat
+clock \(1/(\nu n^2)\). Its total dissipated energy still vanishes. This is
+scale selection by the isotropic Laplacian, not a propagation speed,
+scale-independent viscosity-response clock, nonlinear transfer, or creation
+of the fine scale after the datum.
 
 Every standard \(L^2\)-orthogonal, divergence-free, energy-preserving
 Fourier–Galerkin truncation is a finite-dimensional energy-bounded system and
@@ -5112,6 +5124,12 @@ is pointwise orthogonal to the simultaneous strain, so
 \(S:\mathsf T_u=S:\Pi=P_H=0\). Orientation variation is therefore not the
 production relation unless the same strain actually reads it.
 
+Cycle 066 makes the separation strict in material time. Unequal passive heat
+rates can give \(D_t\Pi\ne0\) along a material column while
+\(S:\Pi=r=P_H=0\). Neither spatial variation nor material-time change of
+\(\Pi\) is critical production unless the simultaneous strain reads it
+through the signed contraction.
+
 ### F7.6 Vortex stretching is a nonlocal all-chord orientation relation
 
 On decaying \(\mathbb R^3\), where \(\omega(x)\ne0\), put
@@ -5170,12 +5188,14 @@ field. A null sector is lawful only when the complete Navier--Stokes equation
 proves the corresponding decoupling or invariant subspace; scalar moments and
 same-field membership alone do not prove it.
 
-Cycle 065 gives a complete all-chord version. In the exact parallel-column
+Cycles 065--066 give a complete all-chord version. In the exact parallel-column
 class \(u=nf(x_\perp,t)\), two transverse dependence directions can make
 \(\nabla\Pi\not\equiv0\) and \(\mathcal Q_\Pi>0\), yet the full VPI equation
 still has constant pressure, zero nonlinear transport, zero vortex stretching,
 and zero critical production because the orientation and strain blocks are
-orthogonal.
+orthogonal. If the two transverse patterns have unequal heat rates, the same
+null sector can also have \(D_t\Pi\ne0\): the normalized orientation readout
+evolves without becoming visible to critical work.
 
 ### F7.8 Local ripple growth and global critical growth are distinct relational events
 
@@ -10023,6 +10043,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-066-passive-unequal-heat-rate-material-orientation-reweighting-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-065-passive-multidirectional-all-chord-orientation-variation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-064-one-direction-shear-universal-all-chord-orientation-null-class-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-063-centered-chord-amplitude-covariance-20260713.md`
