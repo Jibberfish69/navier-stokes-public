@@ -30,7 +30,7 @@ manual_ontology_gate_reconciliation:
     effect: >-
       Cycle 061 proves the conditional affine-radius native-weight bridge and
       refutes an energy-only radius floor or static linear deweighting.
-      One-history inverse-scale/source control, normalized residual action, and
+      One-history affine-radius/source control, normalized residual action, and
       Gold-time placement remain open. No smaller closing theorem, Gold
       closure, or Silver Part/Field exit follows.
 primary_objective:

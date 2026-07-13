@@ -9019,7 +9019,9 @@ portion without replacing the complete integral.  The first-order limit
 \[
 R^{-1}\mathsf T_{u,<R}
 \longrightarrow
-\frac4{15\pi}\left(|A|_F^2I+2A^TA\right),
+\frac4{15\pi}\left(
+|\mathsf A_z|_F^2I+2\mathsf A_z^T\mathsf A_z
+\right),
 \qquad
 R^{-1}\tau_{<R}
 \longrightarrow\frac4{3\pi}|\mathsf A_z|_F^2
