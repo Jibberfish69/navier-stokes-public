@@ -1,11 +1,11 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycle 001 are
-the governing ontology. Every Cycle 002--070 mathematical result is retained
+**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycles 001--002
+are the governing ontology. Every Cycle 003--070 mathematical result is retained
 only as evidence pending revalidation, and every unrebuilt cycle-derived
 physical interpretation has zero premise weight.
 
-**Current promoted checkpoint:** rebuilt Cycle 001. Cycles 002--070 remain
+**Current promoted checkpoint:** rebuilt Cycle 002. Cycles 003--070 remain
 suspended.
 
 **Development authority:** this remains the single cumulative ontology.
@@ -1562,7 +1562,7 @@ Therefore every rising instant has the exact global relational sign
 
 \[
 \iint e_{ab}\alpha_{ab}\,da\,db
-<-\frac{\nu}{4}\|\Lambda^{3/2}u\|_2^2<0.
+<-\frac{\nu}{4}\|\Lambda^{3/2}u\|_2^2\le0.
 \]
 
 Equivalently, the \(e\)-weighted mean logarithmic separation rate is negative.
