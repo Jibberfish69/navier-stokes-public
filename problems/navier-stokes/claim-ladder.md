@@ -831,6 +831,57 @@ family and is not refuted.  No full-datum source estimate, one-history
 recurrence, \(G\)-placement, weight bridge, strict Gold reduction, closure, or
 Silver exit follows.
 
+Twenty-fourth live gate result, 2026-07-13: Cycle 061 installs F7.29 and gives
+the exposed vorticity/all-chord weight gap an exact same-field meaning.  Put
+
+\[
+\chi_{\omega/\tau}=\frac{|\omega|^2}{\tau}.
+\]
+
+Then
+
+\[
+\int\tau\chi_{\omega/\tau}\,dx=K,
+\qquad
+\int\tau\,dx=4\mathcal H_{1/2},
+\]
+
+and \(\chi_{\omega/\tau}\) obeys an exact signed quotient evolution and
+convex perspective law.  It is the reweighting from all-chord incidence to
+vorticity selection, not a ratio of separate physical owners.
+
+On decaying \(\mathbb R^3\), if
+
+\[
+R\sup_{B_R(z)}|\nabla^2u|_F\le|\nabla u(z)|_F,
+\]
+
+then the positive short-chord portion of the full nonlocal tensor gives
+
+\[
+\boxed{
+\tau(z)\ge\frac{R}{3\pi}|\nabla u(z)|_F^2,
+\qquad
+\chi_{\omega/\tau}(z)\le\frac{6\pi}{R},
+}
+\]
+
+and F7.17 yields
+
+\[
+\boxed{
+|\omega|^2|\nabla\Pi|_F^2
+\le\frac{24\pi}{R}g.
+}
+\]
+
+Thus a large weight mismatch forces the same field's first jet to lose affine
+validity on a shorter distance.  A fixed-energy fixed-viscosity family scales
+that distance as \(A^{-2}\) and the mismatch as \(A^2\), ruling out an
+energy--viscosity-only radius floor or static linear deweighting coefficient.
+No radius persistence, datum-scaled source/recurrence control, critical-rise
+placement, strict Gold reduction, closure, or Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -847,7 +898,7 @@ Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.28 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.29 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -892,9 +943,16 @@ Silver exit follows.
   and the square in time of that raw height remain uncontrolled; an unbounded
   enstrophy ladder forces divergence of the combined rate-square/residual-square
   action. Neither term is restricted to the Gold rising set and the \(\tau\)
-  and \(|\omega|^2\) weights remain unbridged. The
-  fixed-energy family also rules
-  out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
+  and \(|\omega|^2\) weights are bridged only conditionally through the
+  actual local affine-validity radius. Cycle 060 gives the canonical weighted
+  residual its global VPI evolution. Cycle 061 proves that a large native
+  weight mismatch forces that radius to shrink, while a fixed-energy
+  fixed-viscosity family rules out an energy--viscosity-only radius floor or
+  static linear deweighting coefficient. The remaining theorem must control
+  the inverse affine scale, or the equivalent high-
+  \(\chi_{\omega/\tau}\)/\(g\) source correlation, on one original critical
+  history. The fixed-energy family also rules out an energy--viscosity-only
+  square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
