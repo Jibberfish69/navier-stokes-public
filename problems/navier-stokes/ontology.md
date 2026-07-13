@@ -9224,9 +9224,9 @@ one has
 \]
 
 Thus, at every instant, at least half of the total vorticity-square lies at
-centers whose certified first-jet radius is comparable to the global
-enstrophy length \(\sqrt{K/D_2}\).  This is an Eulerian population statement,
-not a connected or materially persistent region.
+centers whose certified first-jet radius is no shorter than
+\(\sqrt{K/(8D_2)}\).  This is an Eulerian population statement, not a
+two-sided radius comparison or a connected or materially persistent region.
 
 The whole inverse-radius distribution obeys, for \(0<\alpha<2\),
 
