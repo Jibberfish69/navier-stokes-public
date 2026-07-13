@@ -486,7 +486,9 @@ and spatial-density suppliers. Neither is proved from the datum. This cycle is
 a proved physical ontology advance and target refinement, not MPP closure.
 Silver is unchanged.
 
-Cycle 048 first derived the quotient evolution demanded by Cycle 047. Writing
+Cycle 048 asked whether the same participant's normalized compression changes
+through scalar all-chord density or through the joined strain--orientation
+relation. It first derived the quotient evolution demanded by Cycle 047. Writing
 \(\Pi=\mathsf T_u/\operatorname{tr}\mathsf T_u\), the rate is
 
 \[
