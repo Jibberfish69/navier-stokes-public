@@ -8893,7 +8893,7 @@ No source sign, maximum principle for \(\mathfrak M\), datum source bound,
 synchronization, response-time law, packet, annulus, material carrier,
 localization, strict Gold reduction, Gold closure, or Silver exit follows.
 
-### F7.29 The vorticity/all-chord weight gap is controlled by any verified affine-validity radius of the same field
+### F7.29 The vorticity/all-chord weight gap is controlled by any verified uniform-Hessian radius of the same field
 
 Cycle 060 exposes two native weights inside one participant.  Vorticity
 selection uses
