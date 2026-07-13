@@ -87,6 +87,7 @@ older cycle files are evidence, not competing authority.
 | 052 | The same participant concentrates its positive compression-rate field while the complete VPI source tries to rebuild that field against simultaneous direct heat. | Sharp \(L^2/L^6\) concentration--Rayleigh law, exact joined rise identity, scale-invariant \(\mathcal R_{6,+}\) occupancy, and a scalar no-spacetime-event stack on decaying \(\mathbb R^3\). | Smaller global rate-field concentration volume forces a shorter upper direct-heat clock; actual rise requires the complete simultaneous source to overrun that faster clock. Cycle 053 later extracts the instantaneous total-superlevel content that Cycle 052 underread. | The coordinates supply no location, ball, material carrier, fixed-scale heat-interval integrated occupancy, bounded overlap, full-participant response-speed band, or Gold closure; the scalar stack is not an NS history. | Ontology advance and exact Gold diagnostic, with its total-superlevel underread corrected by 053. |
 | 053 | At a time when the same participant has order-one invariant compression rate, ask what global superlevel measure already exists and what the complete simultaneous VPI source must do at each rising instant against direct heat. | Weak-\(L^{3/2}\) layer-cake extraction, exact signed \(\dot H^{-1}\)/\(L^{6/5}\) source projection, magnitude-only scalar countertests, and a conditional \(L_t^2\) Gold supplier on decaying \(\mathbb R^3\). | Some threshold parameter \(s\) gives total \(r_+\)-superlevel measure at least a universal constant times \(\mathcal R_{6,+}^{3/2}s^3\); each rising instant requires positive dual projection of the joined source onto simultaneous \(r_+(t)\). A zero or nonpositive dual pairing supplies no positive amount to instantaneous \(I'\). | The set may be fragmented and \(s\) is not a component radius; smoothness gives some lowered-threshold persistence but no duration comparable to \(s^2/\nu\). No ball, packet, annulus, material carrier, datum source-action bound, favorable component sign, Gold closure, or Silver exit follows. Event occupancy alone is not a Gold discharge. | Ontology advance, correction of the Cycle 052 total-superlevel picture, and exact conditional Gold supplier. |
 | 054 | Start from the actual threshold population supplied by Cycle 053 and ask how that same population can reside, be rebuilt, or be partially removed under the joined VPI evolution. | Exact fixed-threshold convex-truncation/interface laws, coarea--isoperimetric interface bound, heat-time residence-or-response alternative, and fragmented pure-heat scalar countertest on decaying \(\mathbb R^3\). | Direct heat drains \(H_a\) through the level interface and \(E_a\) through its interior gradient while the complete trace-free source acts on the same excess. Backward from a late slice, either the excess is Gold-visible on a set of times of prescribed heat-time measure or the joined source rebuilds it against heat with the proved lower actions. The scalar countertest shows that fragmentation can shorten component clocks. | The selector \(s\) is not a component diffusion radius; raw superlevel volume has no heat sign. The interface-product theorem alone does not say fragmentation raises either factor. No datum source bound, recurrence law, packet, annulus, material carrier, Gold closure, or Silver exit follows. | Ontology advance, exact Gold anatomy, and target refinement without strict reduction. |
+| 055 | Assume the same participant develops a uniform order-one sequence of F7.21 threshold slices with times tending to \(T\) and selectors tending to zero; ask whether their backward heat windows can repeatedly count one episode. | Terminal-interval disjoint-subsequence lemma, residence/rebuild divergence dichotomy, selector-free finite-band dwell theorem, and a short-dwell scalar pulse stack on decaying \(\mathbb R^3\). | Shrinking heat windows approaching one terminal time cannot all reuse one earlier time interval: residence yields divergent Gold action on a disjoint subfamily, while rebuilding yields individually unbounded complete-source dual action. Threshold-band dwell for a positive heat-time fraction is sufficient for an event without any spatial-component persistence. | The uniform order-one shrinking-selector ladder is not extracted from a Gold threat; finite energy gives only an upper dwell bound. No Fourier band, component-size band, packet, material carrier, datum action bound, Gold closure, or Silver exit follows; the scalar stack is not an NS history. | Ontology advance, removal of a conditional no-recount burden, and exact entrance-target refinement. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -868,6 +869,35 @@ alternatives are summed. Event occupancy alone would not close Gold. No
 favorable pressure sign,
 viscosity lag, full-participant speed band, Gold closure, or Silver exit is
 proved.
+
+Cycle 055 removes the separate no-recount hypothesis for a terminal shrinking
+threshold ladder. If \(t_j\uparrow T\), \(s_j\to0\), and
+\(\mathcal R_{6,+}(t_j)\ge R_0\), then the backward heat windows
+\(J_j=[t_j-s_j^2/\nu,t_j]\) have a pairwise-disjoint subsequence. Applying
+Cycle 054 on each window gives
+
+\[
+\int_0^TI^2dt=\infty
+\quad\text{or}\quad
+\int_0^Tq^2dt=\infty.
+\]
+
+Residence cannot be recounted because the windows themselves shrink into the
+terminal time; rebuilding cannot be recounted because its individual lower
+bound grows like \(s_j^{-1}\). This is not Gold closure: neither action has a
+datum upper bound, and no theorem yet extracts the uniform order-one
+shrinking-threshold ladder from a Gold-threatening NS history.
+
+The same cycle gives the exact sufficient physical-time alternative. If, on
+one interval of length \(S^2/\nu\), a positive fraction of times has a
+threshold witness in \([S/\Lambda,S]\), then the fixed threshold
+\(\nu/S^2\) has F7.19 spacetime occupancy and contributes a fixed Gold-action
+quantum. The spatial points may change completely; this is coherence of
+threshold height over time, not a packet, material carrier, Fourier band, or
+component-size band. F7.11 gives only an upper dwell bound. A smooth scalar
+dyadic pulse stack has finite \(\int I\), divergent \(\int I^2\), and
+vanishing heat-time dwell fractions, proving that the global budgets alone do
+not supply the entrance theorem; it is not an NS history.
 
 ## Above-Route Gold/Silver Analogy
 
