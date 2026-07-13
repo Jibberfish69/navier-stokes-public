@@ -6272,7 +6272,7 @@ distribution.  F7.31 gives the exact covariance, strict periodic witness, and
 the resulting quartic orientation supplier.
 
 Cycle 064 strengthens this strictness on the normalized periodic
-all-lattice-lift surface. Every global fixed-direction field
+all-lattice-lift surface. Every smooth nonconstant global fixed-direction field
 \(u(z)=U(k_0\cdot z)\) has the same constant
 \(\Pi=(I+\widehat{k_0}\otimes\widehat{k_0})/4\), even though its scalar
 incidence and chord-amplitude variance can vary with the center. In
@@ -9541,7 +9541,8 @@ and no positive universal lower bound for
 strictness witness, not a Gold-rise or blowup scenario.
 
 Cycle 064 shows that center-independent chord magnitude is sufficient but not
-necessary for this nullity. Every global fixed-direction periodic field has
+necessary for this nullity. Every smooth nonconstant global fixed-direction
+periodic field has
 constant \(\Pi\); the scalar sinusoidal heat shear has
 \(v_{\rm amp}>0\) while \(\nabla\Pi=0\). Thus the covariance law, rather than
 amplitude variance alone, is the exact orientation dependency.
@@ -9563,7 +9564,7 @@ persistence, recurrence, response-time law, critical-rise placement, direct
 critical-height consequence, strict Gold reduction, Gold closure, Part/Field
 failure, class exit, or Silver result.
 
-### F7.32 Every global fixed-direction periodic shear has one universal constant all-chord orientation
+### F7.32 Every smooth nonconstant global fixed-spatial-direction periodic shear has one universal constant all-chord orientation
 
 Work on normalized periodic \(\mathbb T^3\) with the all-lattice-lift
 definition from F7.5. Fix \(k_0\in\mathbb Z^3\setminus\{0\}\), put
@@ -9579,7 +9580,8 @@ the two transverse chord directions gives
 \[
 \int_{n^\perp}
 \frac{(an+q)\otimes(an+q)}{(a^2+|q|^2)^3}\,dq
-=\frac{\pi}{4a^2}(I+n\otimes n).
+=\frac{\pi}{4a^2}(I+n\otimes n),
+\qquad a\ne0.
 \]
 
 Consequently
@@ -9664,8 +9666,8 @@ is absent up to uniform translation, pressure is spatially constant, and
 viscosity dissipates the transverse waveform while the normalized all-chord
 orientation remains fixed.
 
-The centered-variance envelope can nevertheless be strictly positive. For
-the exact scalar heat shear
+The centered-variance envelope can nevertheless be strictly positive. Let
+\(n\) be a coordinate unit normal. For the exact scalar heat shear
 
 \[
 u_N(z,t)=a(t)e\cos(Nn\cdot z),
@@ -9696,8 +9698,15 @@ v_{\rm amp}
 
 So centered chord-amplitude variation can be present while its covariance
 with chord spatial direction cancels across the complete transverse family.
-There is no reverse coercive inequality bounding this centered variance by
-\(\mathcal Q_\Pi\).
+Consequently neither
+
+\[
+v_{\rm amp}\lesssim\tau|\nabla\Pi|_F^2
+\quad\text{nor}\quad
+\int\frac{v_{\rm amp}^2}{\tau}\,dx\lesssim\mathcal Q_\Pi
+\]
+
+can hold universally.
 
 The physical content is the complete fixed-layer geometry. Every layer has
 the same normal \(n\), and all transverse lifts of a given layer separation
