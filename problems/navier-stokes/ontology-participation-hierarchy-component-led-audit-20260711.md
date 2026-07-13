@@ -1991,7 +1991,7 @@ and spatial branch switching remain able to redistribute or cancel these
 instantaneous relations.
 
 **Hierarchy result.** [Cycle 016](theorem-construction/codex-goal-ontology-cycle-016-pressure-source-vorticity-compression-rotational-brake-20260711.md)
-is an **independently validated exact causal recombination** under
+is an **independently validated exact instantaneous algebraic recombination** under
 F2.1/F4.1/F6.1/F7.1 and Cycles 012–015. It adds a new necessary physical
 trichotomy and record alternatives, with no dwell estimate, finite action,
 Gold closure, Silver Part/Field failure, or canonical fact ID.
@@ -2113,7 +2113,7 @@ material-time correlation of those same-pressure rows, rather than unlimited
 scalar source mass.
 
 **Hierarchy result.** [Cycle 017](theorem-construction/codex-goal-ontology-cycle-017-full-pressure-compensation-source-budget-branch-recurrence-20260711.md)
-is an **independently validated exact causal refinement and route
+is an **independently validated exact component-identity refinement and route
 obstruction** under F1.2/F4.1/F5.1/F6.2/F7.3 and Cycles 008–016. Its finite
 source budget, complete dual-slot pressure formula, signed selector evolution,
 and smooth sign/dwell/recurrence counterfamilies are new at their stated
