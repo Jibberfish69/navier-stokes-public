@@ -760,7 +760,7 @@ material compression, complete VPI activation, or both. This causal
 alternative supplies no datum-finite upper budget for either mechanism and no
 license to sum overlapping future-selected cohorts.
 
-### F1.8 Critical height is reciprocal-pair kinetic energy
+### F1.8 Critical height has a reciprocal-pair quadratic representation
 
 On decaying \(\mathbb R^3\), define the Kelvin-inverted separation and its
 Householder reflection by
@@ -793,9 +793,10 @@ Product-volume preservation therefore gives the exact geometric identity
 |\dot Y_{ab}(t)|^2\,da\,db.
 \]
 
-The critical height is the \(L^2\) kinetic energy of material-pair motion in
-reciprocal-separation geometry. Radial compression and angular turning are
-both present in this one speed.
+This identity makes critical height the squared \(L^2\) norm of
+reciprocal-separation velocity in a derived pair coordinate. It is not
+physical kinetic energy stored in or transported by pairs. Radial compression
+and angular turning are both present in this one coordinate speed.
 
 With
 
@@ -4797,6 +4798,10 @@ It is symmetric and positive semidefinite, and
 \int\operatorname{tr}\mathsf T_u\,dz
 =4\mathcal H_{1/2}.
 \]
+
+The tensor \(\mathsf T_u(z)\) is nonlocal all-chord incidence through \(z\),
+not local material energy density, fluid mass, or an independently transported
+field.
 
 The exact nonlinear critical current from F5.6 is
 
