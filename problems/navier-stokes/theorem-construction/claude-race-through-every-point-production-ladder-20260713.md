@@ -109,6 +109,48 @@ entire unpaid content of positive production into the single new object 𝒞.
   production at fine scales — it says coarse production must be accompanied
   by finer-scale domino correlation, never the reverse.
 
+## VIa. Addendum — the exact signed band-transfer law (conservation of current down the ladder)
+
+Define the curvature density q_xy = |Δ²u|²/(4π²r⁴) ≥ 0 (so the defect
+identity reads e_xy = ⅛(e_xm + e_my) − q_xy), and the signed current
+j = −4eα. Substituting the exact defect identity and the exact mean (L2)
+into j_xy = −4e_xy α_xy and expanding:
+
+  j_xy = (1/16)(j_xm + j_my) − ¼(e_xm α_my + e_my α_xm) + 4 q_xy α_xy.
+
+Band-integrating (midpoint Jacobian 8, both halves) with
+J(ρ) = ∬_{band ρ} j, the signed domino
+X(ρ/2) = 2∬_{ρ/2 ≤ |x−m| < ρ} e_xm α_{m,2m−x} dx dm, and the
+curvature–compression correlation Q(ρ) = 4∬_{band ρ} q_xy α_xy dx dy:
+
+  **J(ρ) − J(ρ/2) = Q(ρ) − X(ρ/2).**
+
+The critical current is *exactly conserved* from band to band except for two
+signed correlation terms: the coarse-scale curvature–compression correlation
+Q, and the signed adjacent-segment transfer X. Telescoping with
+J(ρ2^{−n}) → 0 at fixed smooth time:
+
+  J(ρ) = Σ_{k≥0} Q(ρ2^{−k}) − Σ_{k≥1} X(ρ2^{−k}),
+  P_H = Σ_bands J(band).
+
+Two structural consequences, both exact:
+
+1. **Production cascades conservatively.** No separation band creates or
+   destroys signed current on its own; every source is either
+   second-difference correlation (Q — precisely the object that the viscous
+   row damps, since Σ_k ρ_k^{−2}∬_{band k} q ≍ D by the second-difference
+   characterization of Ḣ^{3/2}) or adjacent-segment transfer (X).
+2. **The unpaid object sharpens.** The positive-part telescope of Section IV
+   overcounts by discarding cancellation; the signed law replaces the domino
+   correlation 𝒞 by the signed X, and Cauchy–Schwarz on Q gives
+   |Q(ρ)| ≤ 4(∬_{band}q)^{1/2}(∬_{band} q α²)^{1/2} with the first factor
+   band-paid by ρ²·(band piece of D). The whole remaining burden is now the
+   signed pair (Q, X) — with Q viscosity-adjacent by construction.
+
+Scope and honesty: exact identities at the smooth decaying-ℝ³ scope; no
+datum bound on ΣX or Σ∬qα² is proved; no sign is asserted for either
+correlation; no closure follows.
+
 ## VII. Four-field return
 
 1. **Physical verdict:** OPEN. The ladder constrains the anatomy of positive
