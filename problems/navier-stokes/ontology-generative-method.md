@@ -2,8 +2,7 @@
 
 **Type:** operating method (choice tier). Sharpens gate section V
 (GENERATE ONTOLOGY FROM MATHEMATICS). Not a second ontology; carries no
-premise weight. Canonical facts remain in `ontology.md`; attempt records in
-`ontology-feedback.yaml`.
+premise weight. Canonical facts remain in `ontology.md`.
 
 **Origin:** 2026-07-10 typing audit of the F6.3 multiplier promotion, which
 was proved but redundant as physics — a recombination of installed
@@ -60,13 +59,12 @@ For every generated question, record the parent fact chain, its native
 mathematical signature, the decisive participant-side and counterfactual-side
 test, and one status: installed fact, audited proved survivor, counterexample
 boundary, open frontier, or proof grammar. An audited survivor may guide this
-method, but carries no canonical premise weight until the separate promotion
-procedure succeeds.
+method, but carries no canonical premise weight until its exact proved
+statement is integrated into `ontology.md`.
 
 The current audited map is
 `ontology-participation-hierarchy-20260711.md`. It is a question and status
-map, not a replacement for `ontology.md` or for any candidate record in the
-feedback ledger.
+map, not a replacement for `ontology.md`.
 
 Installed deleted-freedom examples:
 
@@ -117,9 +115,9 @@ Installed deleted-freedom examples:
      opposite-helicity Beltrami modes do this for F5.4. If neither test
      distinguishes the participant, file the statement as generic calculus or
      provenance rather than ontology growth.
-5. **RECORD.** Every candidate, promoted or not, returns through the gate's
-   four fields into `ontology-feedback.yaml`, with the dependency node and
-   the witness (or its absence) stated.
+5. **RECORD.** Every candidate, integrated or not, is recorded in the
+   controlling spine with its dependency node and the witness (or its absence)
+   stated.
 
 ## Where the walk points
 

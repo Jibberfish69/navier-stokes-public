@@ -3,10 +3,7 @@
 Date: 2026-07-12.
 
 **Record status:** pre-candidate working note. OPEN CANDIDATE — carries no
-ontology premise weight. The ontology-feedback hook was not activated this
-session (owner-directed); no `ontology-feedback.yaml` record exists for this
-candidate, and the gate-VI candidate/validation/promotion choreography has not
-started. This file is discovery evidence only.
+ontology premise weight. This file is discovery evidence only.
 
 **Provenance:** proposed by Claude in-session 2026-07-12; owner audit the same
 day verified the kernel reduction, the rigorous lower bound \(1/5\), and the
@@ -165,9 +162,7 @@ automatically carries proportional longitudinal quadratic capacity; no
 additional theorem is needed for that capacity, while its sign and activation
 remain fully open.
 
-## Outstanding before gate-VI candidacy
+## Outstanding before canonical integration
 
 1. Certified global-maximum proof for \(s_*\) (one-variable, mechanizable).
-2. Hook-owned candidate record with digests, on a turn where the hook is
-   activated.
-3. Independent re-derivation of the kernels and the \((0,4]\) interval check.
+2. Independent re-derivation of the kernels and the \((0,4]\) interval check.
