@@ -8619,6 +8619,13 @@ source can synchronize and repeatedly create the required rate and
 enstrophy ladders from one original datum, or whether a datum-finite joined
 source--palinstrophy law forbids that terminal recombination.
 
+F6.22 sharpens the historical statement without synchronizing the two
+ladders. An unbounded critical-height history forces positive global
+vorticity-stretch production and normalized alignment action to diverge on
+every terminal tail. The theorem still does not place a height-rising interval
+inside an enstrophy-record interval, and its state-dependent
+\(\Sigma_H\)-headroom count has no energy-only uniform ceiling.
+
 ### F7.26 Vortex stretching and critical compression read the same incompressible strain through different orientations
 
 Retain the smooth surfaces above. On the set where \(\omega\ne0\), put
@@ -8817,8 +8824,12 @@ pointwise while \(P_H>\nu D\) and critical height rises. Thus a finite
 upcrossing does not require positive vorticity-alignment action. This does not
 contradict the terminal requirement that a genuine finite breakdown
 accumulate infinite positive alignment action: an unbounded terminal ladder
-must eventually leave the globally regular planar/null-stretching mechanism,
-but no theorem here locates or prices that departure.
+must eventually leave the globally regular planar/null-stretching mechanism.
+F6.22 now gives the exact global threshold and every-tail stretching
+requirement for that departure. It still supplies no spatial location,
+datum-finite bound, or synchronization between the
+\(|\omega|^2\)-weighted enstrophy intervals here and the
+\(\tau\)-weighted critical-height rising set.
 
 Because \(\Pi\) is nonlocal, none of these identities places transverse
 compression in a spatial collar, vortex annulus, packet, connected region, or
