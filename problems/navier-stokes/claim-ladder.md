@@ -1415,7 +1415,7 @@ follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.36 prove that
+  active \(L^2\) concentration control coupling them. F6.22 and F7.16--F7.36 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1504,11 +1504,16 @@ follows.
   Frame motion is an independent null comparison, not a required first gate.
   Its pure-two-dimensional participant crosses upward through critical height
   with \(S\omega=0\) and remains globally regular, so even the last active
-  gate is event geometry rather than Gold currency. The live target is now cumulative
-  one-history control: identify and datum-bound the departure from the
-  globally regular planar/null-stretching mechanism required by an unbounded
-  terminal ladder, or bypass this comparison with a direct critical-height
-  theorem. Older WLF/ODP,
+  gate is event geometry rather than Gold currency. Cycle 069 proves the
+  cumulative qualitative departure: an unbounded height ladder renews
+  positive global stretching and normalized alignment on every terminal tail,
+  while one fixed state's \(\Sigma_H\) headroom permits only finitely many
+  consecutive exact height doublings with zero positive global stretching.
+  The live target is now quantitative: datum-bound that renewal or headroom
+  dynamics, bridge the \(|\omega|^2\)-weighted stretching history to the
+  \(\tau\)-weighted all-chord critical-work history with both viscous rows
+  retained, or bypass the comparison with a direct critical-height theorem.
+  Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
