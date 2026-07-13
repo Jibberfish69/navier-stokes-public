@@ -12,14 +12,13 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#rate_enstrophy_palinstrophy_response_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_all_chord_readout_bridge_ontology_gate_spin
   effect: >-
-    Cycle 057 installs the fine global derivative-tier and enstrophy-doubling
-    response law for unbounded rate mass. The vanishing-threshold branch has an
-    exact varying-data initial-snapshot realization, while one-history
-    palinstrophy/stretching action has no datum upper bound. No smaller closing
-    theorem, Gold closure, or Silver exit is installed. Lower generated
-    occurrences are genealogy only.
+    Cycle 058 installs the exact same-strain readout bridge and the
+    scale-critical rate-square-or-positive-residual action alternative on each
+    enstrophy doubling. Neither branch is datum-controlled or Gold-time placed.
+    No smaller closing theorem, Gold closure, or Silver exit is installed.
+    Lower generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
