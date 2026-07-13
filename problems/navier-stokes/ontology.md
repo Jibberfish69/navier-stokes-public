@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 059.
+**Current promoted checkpoint:** Cycle 060.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -8679,6 +8679,218 @@ packet, material carrier, persistence, causal transfer, response time,
 alignment law, pressure sign, \(\tau\)-to-\(|\omega|^2\) comparison,
 \(I\)-to-\(K\) entrance synchronization, cascade, datum square-action bound,
 Gold closure, or Silver exit.
+
+### F7.28 The vorticity-weighted readout residual has one smooth global VPI evolution
+
+Cycle 059 leaves a dynamic question.  The same strain is read through the
+vorticity-defined transverse orientation and the nonlocal all-chord
+orientation.  How can their signed discrepancy be rebuilt through time by the
+actual fixed-viscosity participant?
+
+The bare residual \(\mathfrak m_{\omega,\Pi}\) is defined only where
+\(\omega\ne0\), because its reference orientation uses the vorticity axis.
+Put
+
+\[
+h=|\omega|^2,
+\qquad
+\mathsf N_{\omega,\Pi}
+=h\Pi-\frac12\left(hI-\omega\otimes\omega\right),
+\]
+
+and
+
+\[
+\boxed{
+\mathfrak M_{\omega,\Pi}
+=S:\mathsf N_{\omega,\Pi}
+=hS:\Pi+\frac12\omega\cdot S\omega.
+}
+\]
+
+For every nonconstant smooth field on the F7.16 surface,
+\(\mathsf N_{\omega,\Pi}\) is a globally defined smooth symmetric trace-free
+tensor.  It vanishes where \(\omega=0\), while on \(\{\omega\ne0\}\),
+
+\[
+\mathsf N_{\omega,\Pi}
+=h(\Pi-\Theta_{\omega,\perp}),
+\qquad
+[\mathfrak M_{\omega,\Pi}]_+
+=h[\mathfrak m_{\omega,\Pi}]_+.
+\]
+
+Thus \([\mathfrak M]_+\) is exactly the numerator of the positive
+vorticity-selected residual action in F7.26.  The weight is the vorticity
+already carried by the enstrophy source, not a second owner or a chosen
+payment.
+
+Let
+
+\[
+\mathcal L=D_t-\nu\Delta,
+\qquad
+\mathsf B=S^2+W^2+\nabla^2p,
+\qquad
+a=\nabla\log\tau,
+\]
+
+and retain F7.16's exact law
+
+\[
+\mathcal L\Pi
+=\mathcal K_\Pi+2\nu(a\cdot\nabla)\Pi.
+\]
+
+The first-rung equations give
+
+\[
+\mathcal LS=-\mathsf B,
+\qquad
+\mathcal L\omega=S\omega,
+\qquad
+\mathcal Lh
+=2\omega\cdot S\omega-2\nu|\nabla\omega|^2.
+\]
+
+The complete weighted orientation law is
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal L\mathsf N_{\omega,\Pi}
+={}&(\mathcal Lh)\left(\Pi-\frac12I\right)
++h\mathcal K_\Pi
++2\nu h(a\cdot\nabla)\Pi
+-2\nu\nabla h\cdot\nabla\Pi\\
+&+\frac12\left[(S\omega)\otimes\omega
++\omega\otimes(S\omega)\right]
+-\nu\sum_k\partial_k\omega\otimes\partial_k\omega
+=:\mathcal F_{\mathsf N}.
+\end{aligned}
+}
+\]
+
+Its trace vanishes only after the scalar, magnitude, and directional rows are
+recombined.  The exact global scalar equation is
+
+\[
+\boxed{
+\mathcal L\mathfrak M_{\omega,\Pi}
+=-\mathsf B:\mathsf N_{\omega,\Pi}
++S:\mathcal F_{\mathsf N}
+-2\nu\nabla S::\nabla\mathsf N_{\omega,\Pi}
+=:\mathcal F_{\mathfrak M}.
+}
+\]
+
+The displayed source is one VPI tangent.  It simultaneously contains the
+pressure-completed change of strain, the change of vorticity magnitude and
+direction, the pressure-constrained nonlocal all-chord reorientation, and the
+product-gradient terms forced by the same Laplacian.  None of those rows has
+an autonomous sign or mechanism status.
+
+On decaying \(\mathbb R^3\), or on \(\mathbb T^3\), the positive weighted
+residual obeys
+
+\[
+\boxed{
+\frac12\frac d{dt}\|[\mathfrak M]_+\|_2^2
++\nu\|\nabla[\mathfrak M]_+\|_2^2
+=\int[\mathfrak M]_+\mathcal F_{\mathfrak M}\,dx,
+}
+\]
+
+and Kato's inequality gives
+
+\[
+\boxed{
+\frac d{dt}\|[\mathfrak M]_+\|_1
+\le
+\int_{\{\mathfrak M>0\}}[\mathcal F_{\mathfrak M}]_+dx.
+}
+\]
+
+These are global equations with no vorticity-zero interface term.  The
+corresponding equation for bare \(\mathfrak m\) is only local on smooth
+components of \(\{\omega\ne0\}\); an arbitrary zero extension does not
+inherit a global energy identity.
+
+The exact source also exposes the unresolved native-weight mismatch.  F7.17
+controls
+
+\[
+\int\tau|\nabla\Pi|_F^2dx\le8D,
+\]
+
+whereas F4.5 places vorticity-direction variation under
+\(|\omega|^2\).  The equation for \(\mathsf N\) needs all-chord turning and
+its cross-gradients under the vorticity weight.  No theorem here compares
+\(\tau\) with \(|\omega|^2\), deweights the F7.17 estimate, or proves a
+replacement cancellation.
+
+Energy alone cannot supply the missing temporal bounds.  There is a real
+divergence-free Schwartz datum \(\phi\) for which
+\(J_{\mathfrak m}(\phi)>0\): keep a prescribed nonzero-vorticity trace-free
+affine jet near the origin and add a large narrow remote solenoidal bump whose
+actual all-chord tensor supplies axial incidence there.  Let
+\(v^\varepsilon\) be the common local viscosity-\(\varepsilon\) histories
+from this datum.  For fixed target \(\nu>0\),
+
+\[
+u_A(x,t)=A^3v^{\nu/A}(A^2x,A^5t)
+\]
+
+is an exact viscosity-\(\nu\) Navier--Stokes family with fixed initial kinetic
+energy.  On a uniform base interval,
+
+\[
+\mathfrak m_A=A^5\mathfrak m_v,
+\qquad
+J_{\mathfrak m,A}=A^4J_{\mathfrak m,v},
+\qquad
+\mathfrak M_A=A^{15}\mathfrak M_v.
+\]
+
+Consequently, on the physical interval \([0,s_0A^{-5}]\),
+
+\[
+\boxed{
+\int J_{\mathfrak m,A}dt\asymp A^{-1},
+\qquad
+\int J_{\mathfrak m,A}^2dt\asymp A^3,
+\qquad
+\int\|[\mathfrak M_A]_+\|_1dt\asymp A^4.
+}
+\]
+
+Thus fixed viscosity and fixed initial kinetic energy bound the raw first
+exposure of \(J_{\mathfrak m}\), but do not bound its square-time or the raw
+positive weighted action across data.  The normalized F7.26 action
+
+\[
+\mathcal M_J
+=\int_JK(t)^{-1}\|[\mathfrak M(t)]_+\|_1dt
+\]
+
+is scale invariant in this family because \(K_A=A^4K_v\); the family does
+not refute a bound for \(\mathcal M_J\).  It also does not refute a theorem
+depending on a stronger full-datum norm or produce repeated bursts in one
+datum-anchored history.
+
+The physical return is exact.  Where vorticity vanishes, the vorticity-axis
+comparison ceases to exist and its canonical weighted discrepancy vanishes.
+Where vorticity is present, the discrepancy can be rebuilt only by the
+complete simultaneous VPI source above, against direct diffusion of its
+spatial gradients.  Cycle 059's \(J_{\mathfrak m}\)-bursts are therefore
+unweighted global coordinate-height bursts, not by themselves enstrophy
+production, spatially localized events, or the normalized Gold-facing
+residual action.
+
+No source sign, maximum principle for \(\mathfrak M\), datum source bound,
+\(\tau\)-to-\(|\omega|^2\) comparison, critical-rise placement, entrance
+synchronization, response-time law, packet, annulus, material carrier,
+localization, strict Gold reduction, Gold closure, or Silver exit follows.
 
 ## Hard boundary: claims excluded from the ontology
 
