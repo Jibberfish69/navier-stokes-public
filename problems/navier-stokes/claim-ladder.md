@@ -1212,7 +1212,7 @@ exit.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.33 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.34 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1284,7 +1284,13 @@ exit.
   spacetime \(\mathcal Q_\Pi\) grow like \(N^3/\nu\), so no unconditional
   energy--viscosity-only bound exists. The open route must use actual
   Gold-rise placement and signed strain overlap, stronger datum information,
-  or another direct same-field theorem. Older WLF/ODP,
+  or another direct same-field theorem. Cycle 066 proves that unequal passive
+  heat rates can make \(\Pi\) change along a material column while
+  \(r=P_H=0\). At fixed energy and viscosity across periodic smooth data, its
+  initial pointwise readout rate is unbounded although its total
+  selected-column variation is finite. Thus \(D_t\Pi\) and its raw rate are
+  not Gold activity; actual rising-history placement and signed strain overlap
+  remain open. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
