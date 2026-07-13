@@ -611,8 +611,9 @@ After subselection, every unbounded entrance is one of four value-scale
 geometries: \(\mathcal R_{6,+}\to0\), an order-one-rate threshold tending to
 infinity, one staying in a fixed positive band, or one tending to zero with
 diverging total superlevel volume. Infinite \(M\) belongs to the last branch
-as an extreme low-threshold tail and does not receive the fixed-fraction
-excess claim. Two smooth scalar families realize the allowed selector
+as an extreme low-threshold tail; it has no canonical near-maximizer, although
+low thresholds can be chosen with excess at least \(I/2\). Two smooth scalar
+families realize the allowed selector
 behaviors under the installed global identities; they are not NS histories.
 The next theorem must use additional same-VPI structure to control the low-
 rate-Reynolds and vanishing-threshold total-volume branches, or bound the
