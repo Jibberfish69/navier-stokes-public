@@ -178,6 +178,32 @@ supplier, not the definition of Gold. Small effective volume alone is harmless
 in exact heat shears and is not a blowup mechanism or Silver exit. Silver is
 unchanged.
 
+Tenth live gate result, 2026-07-12: Cycle 047 installs F7.14--F7.15 and
+re-audits Cycle 042. The sign-blind ceiling
+\(\|\operatorname{tr}\mathsf T_u\|_2^2\le CKD\) is valid but can overcount an
+exact harmless heat shear by \(N^3\). On the actual rising set, however, the
+same critical balance absorbs \(D\) and proves, for
+\(I(t)=\int r_+^2\,da\),
+
+\[
+\frac DK\le C\frac I{\nu^2},
+\qquad
+\left(\log\mathcal H_{1/2}\right)'
+\le C\frac{I^2}{\nu^3}.
+\]
+
+Thus \(\int_GD/K\,dt\le C\mathcal E_0/\nu^3\), sharpening F6.21, and every
+doubling requires a fixed scale-critical \(I^2\) action. Finite energy controls
+only \(\int I\,dt\), so a terminal ladder requires increasingly high, short
+rate bursts. The new direct target is
+\(NormalizedPositiveWorkRateSquareIntegrability.A\). It bypasses rather than
+proves \(WorkEffectiveMaterialVolumeIntegrability.A\); the latter would need
+the stronger \(I\in L^3_t\) estimate through the current volume ceiling. Both
+remain unproved. Large \(I\) is not sufficient for growth in exact ABC
+histories, and the rising restriction is essential. No packet motion,
+viscosity lag, pressure sign, carrier persistence, MPP closure, or Silver exit
+is proved.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -188,9 +214,10 @@ unchanged.
 
 ## Lowest Safe Claim
 
-- The current direct Gold edge is
-  \(WorkEffectiveMaterialVolumeIntegrability.A\) from F7.13, or an equivalent
-  coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
+- The current direct Gold edges are
+  \(NormalizedPositiveWorkRateSquareIntegrability.A\) from F7.15 and the
+  parallel \(WorkEffectiveMaterialVolumeIntegrability.A\) from F7.13, or an
+  equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
   active \(L^2\) concentration control coupling them. Older WLF/ODP,
