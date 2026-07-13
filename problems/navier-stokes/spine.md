@@ -27,31 +27,42 @@ WLF.60 and ODP.91 remain possible localization suppliers only through an exact
 bridge to \(A_H\), the stronger radial action, or directly to critical-height
 control. Silver is unchanged.
 
+The physical-custody audit of Cycles 034--042 changes how the next paragraphs
+are read.  F5.7 is the direct physical mechanism: one source core, responding
+material annulus, joined pressure--viscous stress work, annular storage, and
+annular strain loss in one VPI relay.  F5.8 and F7.8 give direct ripple and
+crest--trough facts.  F1.9, F6.13, and F6.17--F6.21 are global
+pair/Fourier coordinates or exact countertests.  They remain true at their
+stated scope, but they do not continue the source-centred pulse,
+later-time/later-place focusing, vortex, or constructive-interference picture
+without a proved spatial/material carrier bridge.  Cycles 036--042 therefore
+record support and route elimination, not continued physical-causal
+development of that picture.
+
 Cycle 034 installs F1.9, F5.7, and F5.8. The core--annulus telescope and heat
 clock type the two response-rate questions inside one VPI history. Critical
 pair height has unavoidable radial separation width, while ripple steepness is
 quadratically viscous and pointwise coherent height is linear. Exact shears
 show that finite energy and enstrophy can miss a large coherent crest, while
 the critical viscous first moment detects and damps that pileup. Phase
-alignment alone does not change global critical height. The ripple and annulus
-picture therefore returns to the existing Gold wall: attach local coherence
-to the signed critical current and pay its inverse-distance first moment on a
-datum-finite same-history no-recount measure. Its square-versus-linear shape
-matches the WLF half-tail algebraically; the carrier bridge remains unproved.
-Silver is unchanged.
+alignment alone does not change global critical height. F1.9's separation
+annulus ranges over all centers and directions; it is not the physical collar
+around the source in F5.7. The spatial ripple/core--annulus picture and the
+global critical-current program therefore remain unbridged. Their
+square-versus-linear expressions are algebraically comparable, but that
+comparison supplies no common carrier. Silver is unchanged.
 
 Cycle 035 installs F6.13 and F7.8. A rising critical record pays coherent
-action at the heat rate of the outer half-height pair width, and the terminal
-doubling clock shrinks on the matching parabolic scale. Their product remains
-the fixed action quantum, so faster viscous response does not itself stop a
-Zeno ladder. Exact triangular participants then remove every instantaneous
-spikiness shortcut: crest height and all Fourier magnitudes can be held fixed
-while the surrounding advecting orientation reverses the sign of critical
-production; the visible crest may decrease while global critical height
-rises. The remaining Gold object is historical joint incidence before
-readout: attach the material/WLF first-admission carrier to the active radial
-current with bounded overlap, then prove the WLF.60-type datum-finite size
-bound. Silver is unchanged.
+action at the heat rate associated algebraically with the global outer
+half-height pair-separation scale, and the terminal doubling clock shrinks on
+the matching parabolic scale. Their product remains the fixed action quantum,
+so this global coordinate does not itself stop a Zeno ladder. Exact triangular
+participants then remove an instantaneous shortcut: crest height and all
+Fourier magnitudes can be held fixed while the surrounding advecting
+orientation reverses the sign of critical production; the visible crest may
+decrease while global critical height rises. This does not refute a general
+spatial spikiness law and does not identify the crest as the critical-current
+carrier. Silver is unchanged.
 
 Cycle 036 installs F1.10 and F6.14 and corrects that last sentence. The exact
 material-pair transform now supplies a positive current-state action
@@ -87,8 +98,9 @@ with bounded multiplicity, and prove the separate WLF.60 parent-size bound.
 Cycle 038 below refutes the instantaneous shape-null routing in that proposal.
 Silver is unchanged.
 
-Cycle 038 installs F6.17 and separates fixed-time correlation order from causal
-time order. For a one-shell state the present critical shape vanishes, but the
+Cycle 038 installs F6.17 and separates fixed-time correlation order from the
+next time order in the global spectral-shape equation. For a one-shell state
+the present critical shape vanishes, but the
 off-shell pressure-completed source creates the next shape direction at first
 order. In the exact datum \(v_0=(\sin z,\sin x,\sin y)\), a WLF backward
 detector sees order-\(\tau\) positive source response while the accumulated
@@ -107,8 +119,8 @@ Cycle 039 installs F6.18 and types spectral shape as a signed state of the one
 participant. Its exact moving-center equation contains the pressure-completed
 source, heat, and a mean-frequency connection; the connection preserves
 centering and cancels from the shape-energy balance. Terminal recentering gives
-an exact signed Duhamel ancestry for every endpoint shape detector. This proves
-global Eulerian source-to-future-shape attribution, while material parenthood,
+an exact signed Duhamel decomposition for every endpoint shape detector. This
+proves terminal-fitted Eulerian detector attribution, while material parenthood,
 unique first admission, a positive common parent measure, bounded descendant
 fibres, and WLF.60 remain open. The exact F6.12 datum \(v_0=bU\) supplies the
 decisive currency test: above an explicit amplitude threshold, the same smooth
@@ -119,19 +131,20 @@ ancestry into material parent-announced first admission with selected near-null
 control, causal bounded fibres, and datum-finite parent mass. Silver is
 unchanged.
 
-Cycle 040 installs F6.19 and turns the critical height into an exact physical
-rate statement. It is total kinetic energy times the energy-weighted mean
+Cycle 040 installs F6.19 and turns the critical height into an exact global
+Fourier-moment rate identity. It is total kinetic energy times the
+energy-weighted mean
 frequency. Viscosity lowers the energy and biases that mean downward, so the
 height rises exactly when the same pressure-completed nonlinear history lifts
 the mean frequency faster than the viscous depletion rate
 \(2\nu M_2/M_0\). An exact Pell family of anisotropic finite-Fourier triads
 has relative shell width tending to zero while its critical height initially
-rises after amplitude scaling. Thus no pointwise scale-independent spikiness
-or bandwidth floor exists. Miller's proved Laplacian-eigenshell criterion adds
+rises after amplitude scaling. Thus no universal relative spectral-bandwidth
+floor exists. Miller's proved Laplacian-eigenshell criterion adds
 the fixed-history boundary: finite-time breakdown forces divergent cumulative
 higher-order eigenshell deficit, while supplying no datum-finite bound. The
-physical open question is sustained faster-than-viscous centroid acceleration
-through one fixed terminal history. This is a new coordinate for the existing
+remaining Fourier question is sustained faster-than-viscous centroid
+acceleration through one fixed terminal history. This is a new coordinate for the existing
 Gold signed-height burden, not a smaller theorem implying closure. Silver is
 unchanged.
 
