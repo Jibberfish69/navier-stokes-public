@@ -76,6 +76,7 @@ older cycle files are evidence, not competing authority.
 | 041 | Every rising state has a datum-dependent lower bound on global Fourier-radius variance and a bounded uninterrupted-rise duration. Two shells or a remote tail can realize the variance; no spatial widening or material carrier follows. |
 | 042 | One history has finite rising-frequency occupancy; varying data refute event quanta based only on time, raw energy loss, or fixed subcritical occupancy. Compound fixed-history VPI charges are not refuted. |
 | 043 | Pressure and viscosity share the pulled-back material metric, critical production has an instantaneous global all-chord material-work form, and a material surface has a circulation/area alternative. These are exact coordinates and alternatives, not a response-time, causal-incidence, local core/collar, or Gold theorem. |
+| 044 | Positive local material work activates a contracting direction whose matched frozen dual pressure--viscous symbol increases immediately. This is instantaneous joined geometry, not actual dissipation, favorable pressure, carrier incidence, persistence, a response-time bound, or Gold control. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -299,6 +300,29 @@ and attach each core to the exact stress--storage--dissipation relay. The
 datum-finite parent-mass or inverse-distance no-recount theorem remains a
 separate next burden. This cycle is ontology and strict target refinement, not
 MPP closure. Silver is unchanged.
+
+Cycle 044 installs F1.12 and F7.10 and answers the first part of the proposed
+participation-response-rate picture. For every fixed material tangent and
+label covector, deformation of physical length and deformation of dual
+resolution have opposite strain rates. The pressure elliptic symbol and the
+viscous principal symbol therefore acquire the changed inverse material metric
+at the same instant; there is no separate scalar lag between deformation and
+those coefficients. Moreover, positive local material work forces at least
+one active contracting direction whose matched frozen dual symbol is
+increasing.
+
+That exact reciprocity is not the desired brake. The torus shear in F1.12 has
+an increasingly anisotropic material metric while pressure stays constant and
+global dissipation falls. The pointwise algebra countertest in F7.10 has
+positive work carried by off-diagonal deformation while all principal
+stretches have zero instantaneous derivative. Hence neither an increasing
+symbol nor the principal stretches determine actual gradient incidence,
+pressure sign, dissipation, frame persistence, or a response-time bound. The
+physical burden inside \(MaterialCriticalWorkCoreCollarIncidence.A\) is now
+sharper: the dangerous fixed-label carrier must be shown to occupy the active
+dual directions, and that incidence must persist long enough for the joined
+pressure--viscous response to control the record. This is a proved ontology
+refinement and Gold-target sharpening, not MPP progress. Silver is unchanged.
 
 ## Above-Route Gold/Silver Analogy
 
