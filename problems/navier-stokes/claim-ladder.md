@@ -147,6 +147,37 @@ selected linear near-null bound, causal bounded fibres, and WLF.60 parent
 mass. No datum-finite transition action or Gold closure is proved. Silver is
 unchanged.
 
+Ninth live gate result, 2026-07-12: Cycles 043--046 return the route to the
+same-participant material picture and supersede the older statement that no
+smaller Gold theorem has been installed. F1.11--F1.13 prove that pressure and
+viscosity share the pulled-back material metric while its anisotropic
+coefficients exactly compensate the transformed derivatives; material
+compression does not increase physical viscosity. F7.9--F7.11 rewrite
+critical production as material-metric work and prove that its normalized rate
+\(r=w/\operatorname{tr}\mathsf T_u\) has a datum-finite material-volume
+\(L^2\) budget. F7.12 adds the sharp energy-level
+\(L^1_tL^{3/2}_x\) fixed-material capacity of the all-chord density. These two
+marginals do not pair. F7.13 defines the positive-work effective volume
+
+\[
+V_{\mathrm{work}}
+=
+\frac{(4\mathcal H_{1/2})^2}
+{\displaystyle\int_{\{r>0\}}
+(\operatorname{tr}\mathsf T_u)^2\,da}
+\]
+
+and proves that \(N\) disjoint doublings force at least
+\(\nu(\log2)^2N^2/(8\mathcal E_0)\) of its inverse action. Finiteness of that
+inverse action is a direct critical-height continuation criterion. Gold is
+therefore strictly reduced to
+\(WorkEffectiveMaterialVolumeIntegrability.A\), an equivalent coupled
+positive-rate/all-chord-density capacity theorem, or any other direct
+critical-height route. A material core--collar construction is one possible
+supplier, not the definition of Gold. Small effective volume alone is harmless
+in exact heat shears and is not a blowup mechanism or Silver exit. Silver is
+unchanged.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -157,6 +188,16 @@ unchanged.
 
 ## Lowest Safe Claim
 
+- The current direct Gold edge is
+  \(WorkEffectiveMaterialVolumeIntegrability.A\) from F7.13, or an equivalent
+  coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
+  datum-finite \(L^2\) normalized work rate and F7.12 supplies the
+  scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
+  active \(L^2\) concentration control coupling them. Older WLF/ODP,
+  first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
+  \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
+  Gold-strength routes, not the sole current burden. No MPP closure or Silver
+  Part/Field failure is installed.
 - The current cross-lane physical consolidation surface is `theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md`. It is not proof closure; it is the active map saying every Gold, Silver, c0, radiodrome, B3, tower, and commutator surface must be read on one same-fluid fixed-viscosity incompressible pressure-constrained history. Its phrase “participation Hessian” and its cost language are route interpretations, not hard ontology facts. The hard pressure facts are the gauge-scoped nonlocal elliptic response and the absence of a freely assignable sign or alignment. Radiodrome/pursuit-lag, the moving low-high driver, and the WLF/ODP early row remain coordinates or proof candidates until their exact same-field bridges are proved or they yield a typed Part/Field failure; Pack supplies only outside-CM Field-window evidence.
 - Navier-Stokes global regularity is presented through a dual Gold/Silver route on the same theorem object. Gold must prove the desired regularity world directly. Silver requires terminal-witness admission followed by a derived Part or Field failure that supports `Exit(Q):=not Member(Q)`. An outside-CM participation or packet-window audit remains diagnostic until it yields that admitted same-solution Part/Field failure.
 - The current Gold burden is the historical selected-linear first-admission owner-and-incidence law: before selected readout, the same signed-height record work must retain the full signed parent source current and identify the first nonzero propagated source-to-future-shape event. Instantaneous \(J_{\mathrm{pair}}\)-nullity does not route a source, and \(d\lambda_{\rm pair}=\eta_H^2d\sigma_Bdt\) cannot by itself dominate the linear near-null bill. Causal same-event fibres, bounded multiplicity, selected linear near-null control, and the WLF.60 datum-finite parent-size theorem remain distinct proof clauses. A native-current localization uses the joined F6.15 signed residual after internal parent/child interfaces recombine; the four split rows are not separate debts. A direct datum bound on \(A_H\), \(J_{\mathrm{pair}}\), or \(J_{\mathrm{rad}}\) remains an alternative Gold-strength route. After pre-return address admission/lift exists, the owner map is formal; after the address/boundary and selected-critical root-payment faces are finite measures on the same parent-known event space and Borel key, compatibility is formal. After the WLF/ODP merge, the remaining construction is the common keyed event space, finite local address/custody charges for that key, and one shared same-carrier active/root source measure whose early-row reading is WLF.60 / ODP.91. The current lower object is one pre-readout same-parent active state/root currency/record-storage package. Fresh innovation, selected-generator coercivity, positive critical transfer, native birth, full-exchange action, and WLF.60's heat-lag first-admission row are coordinates of one original-history selected-critical source measure. WLF.60 tests that this measure lands on the order-locked full-packet selected carrier for the lower fresh source and upper selected positive queue, with same-packet order-lock overlap and selected-overrun tail control on that carrier. The c0 shrink map lowers the old mismatch gate: finite mismatch is paid, identified, or charged; the unadmitted survivor is `TerminalZenoVisibleReadoutPayment.A`, then `TerminalFullPacketNoResiduePayment.A` / `TerminalSameCarrierCriticalAntiAtom.A` for \(D_Q=(S,\Pi_Q\nabla^2p)\), then `RootFixedTerminalUniformL1FullPacketServiceStorage.A`, then `ParentActiveTowerTailAndAffineQuotientDepletion.A` / `ParentActiveCapacityThreeToothSource.A`, then `CurrentRecordSquarePacking.A` + `EndpointThreadedNativeNoResidue.A` plus `PersistentRootAffineQuotientReturnPayment.A` / `SelectedGeneratorStorageCoercivity.A`, and now below that wrapper to `StrictOriginalLedgerGeneratorStorage.A` / `FullExchangeCriticalDepletionStorage.A` opened as a record-admitted active-critical/full-exchange/active-transit coupled matrix with feedback spectral radius below one, or the isolated WLF.60 / WLF.36 / ODP.91 early-row measure on the order-locked carrier. The matrix gap is a sufficient direct original-data face theorem, not a lower physical source beneath the retained-Perron reduction; below that reduction the same-fluid burden is three-measure admission for the surviving moving low-high driver or a direct face proof that makes the feedback subcritical. The identity branch still needs same-carrier selected overrun tail UI. Repeated-core record/return and shrinking-core reset are branch tests of `OriginalHistoryRecordResetRootPayment.A`, the selected-critical face of `ParentKnownPreReadoutActiveStateCapacityOrPaidBoundary.A`: inherited no-reset reuse needs primitive signed-channel visibility, signed stopped-PLS lift, stopped potential-average or positive second-order exactness, and negative-return/no-free-oscillation charge, with primitive visibility conditional on stopped selector aperture/common selector refinement and otherwise paid rotation, while genuine child freshness needs critical weighted reset-current/Carleson charge from the same original NS history. Duhamel-Hodge pullback, endpoint admission, retained heat gap, active-density/log-carrier language, component compactness, and TFE2748B reserve wording are support unless they build that direct subcritical matrix face, admitted moving-driver channel, or typed route-out before readout. Status: exact route obstruction and corrected open burden toward `SignedCriticalHeightSignPersistenceOrPeakBound.A`, with original-data proof still open.
