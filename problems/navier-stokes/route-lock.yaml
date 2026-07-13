@@ -8,18 +8,18 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#stored_enstrophy_terminal_stretching_breadth_gate_ontology_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#critical_mean_frequency_participation_recombination_ontology_spin
   effect: >-
-    Cycle 069 proves the stored-enstrophy threshold,
-    every-terminal-tail renewal of positive global vorticity-stretch and
-    normalized alignment action, and the state-dependent Sigma_H breadth gate.
-    At a fixed state only finitely many consecutive exact critical-height
-    doublings can occur with zero positive global stretching action, but this
-    bound is not energy-uniform across data. The theorem is global and
-    phase-blind: it supplies no spatial carrier, causal transfer story, or
-    synchronization between rising-height and enstrophy-record intervals. A
-    datum-finite stretching/headroom bound, a same-history bridge to
-    tau-weighted all-chord work retaining both viscous losses, or a direct
+    Cycle 070 proves that global vortex-stretch production and all-chord
+    critical work differ exactly by one joined native-weight-and-orientation
+    mismatch after the current critical spectral mean is inserted. The same
+    identity retains both viscous rows and their gap is nonnegative. Unbounded
+    terminal critical height forces positive joined-mismatch action normalized
+    by H and K to diverge on every tail. Separate globally regular periodic
+    histories prove two-way event-sign independence. The theorem is global and
+    phase-blind: it supplies no frequency motion, spatial carrier, causal
+    transfer, interval synchronization, or datum bound. A datum-finite
+    joined-action bound, a more primitive participation law, or a direct
     critical-height theorem remains open. No strict reduction, Gold closure,
     or Silver conclusion follows. Lower route snapshots remain genealogy only.
 governing_object_law:
