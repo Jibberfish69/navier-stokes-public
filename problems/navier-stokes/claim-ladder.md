@@ -1013,6 +1013,47 @@ not temporal or material turning, a viscosity-response rate, energy transfer,
 or a packet mechanism.  No datum-time control, Gold-rise placement, strict
 Gold reduction, closure, or Silver exit follows.
 
+Twenty-seventh live gate result, 2026-07-13: Cycle 064 installs F7.32 and
+identifies an exact full null class for the direct orientation quantity. On
+normalized periodic \(\mathbb T^3\), every smooth nonconstant global
+fixed-direction field
+
+\[
+u(z)=U(k_0\cdot z),
+\qquad
+n=\widehat{k_0},
+\]
+
+has
+
+\[
+\boxed{
+\mathsf T_u=\sigma_U(I+n\otimes n),
+\qquad
+\Pi=\frac{I+n\otimes n}{4},
+\qquad
+\nabla\Pi=\mathcal Q_\Pi=0.
+}
+\]
+
+The gradient-increment tensor has the same normalized shape, so
+\(\mathsf G_u-g\Pi=0\). For an incompressible shear, convection vanishes up
+to uniform translation, pressure is constant, viscosity evolves the waveform
+by heat, and \(S:\Pi=r=P_H=0\). The exact scalar sinusoidal heat shear has
+
+\[
+v_{\rm amp}=\frac{3a(t)^2N^3}{2(2-\cos(2Nn\cdot z))}>0
+\]
+
+while \(\nabla\Pi=0\), so even the centered amplitude variance is only a
+one-way envelope. Physically, all transverse lifts of one fixed layer
+separation enter in the immutable anisotropic proportions
+\(1/2,1/4,1/4\). Nonzero \(\nabla\Pi\) therefore rules out global
+one-direction shear geometry, but non-collinear dependence alone does not
+prove nonlinear interaction, critical growth, or Gold relevance. This is a
+periodic exact-null theorem and route countertest, not a datum-time bound,
+strict Gold reduction, closure, or Silver exit.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -1029,7 +1070,7 @@ Gold reduction, closure, or Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.31 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.32 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1090,7 +1131,11 @@ Gold reduction, closure, or Silver exit follows.
   \(\int g^2/\tau\) perspective is a coarser one-way supplier; an exact
   heat-decaying shear makes it arbitrarily large at fixed initial energy across
   data at \(t=0\) while \(\mathcal Q_\Pi=0\). No datum-time or Gold-placement theorem for the
-  direct quantity is installed, and another route may bypass it. Older WLF/ODP,
+  direct quantity is installed. Cycle 064 proves that \(\mathcal Q_\Pi\)
+  vanishes on the entire global one-direction periodic shear class even when
+  centered amplitude variance is positive; departure from one lattice line is
+  necessary but not sufficient for interaction. Another route may bypass the
+  orientation quantity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
