@@ -1163,8 +1163,11 @@ D_t\Pi
 }
 \]
 
-This is passive weight redistribution in a simultaneously diagonal fixed
-basis, not rotation of a velocity or uniquely defined eigenframe. Moreover,
+Viscous stress diffuses axial momentum through the same cross-column
+participant, and its nonzero shear still deforms material. The null statement
+is the signed critical contraction. The normalized readout undergoes passive
+weight redistribution in a simultaneously diagonal fixed basis, not rotation
+of a velocity or uniquely defined eigenframe. Moreover,
 
 \[
 \int_0^\infty|D_t\Pi|_Fdt
@@ -1189,12 +1192,14 @@ Then the total variation is \(\sqrt2/8\), while
 The fine mode's kinetic energy and total dissipated energy vanish across the
 family, while its initial viscous energy-loss rate diverges and its heat clock
 shrinks like \(1/(\nu n^2)\). Thus \(D_t\Pi\) and its raw initial rate are
-not nonlinear interaction, propagation speed, signed critical work, or Gold
-rise. The family refutes only an initial-time \(E_0,\nu\)-only pointwise
+not nonlinear interaction, eigenframe rotation, material-deformation or
+kinetic-energy-loss rate, propagation speed, a scale-independent response
+clock, viscous lag, signed critical work, or Gold rise. The family refutes only an initial-time \(E_0,\nu\)-only pointwise
 ceiling for this normalized nonlocal readout. It does not refute per-datum,
 fixed-positive-time, higher-norm, Gold-rise-restricted, signed-coupled, or
-alternate-route control and gives no strict reduction, closure, or Silver
-exit.
+alternate-route control. The witness is periodic and nonlocal and supplies no
+decaying-\(\mathbb R^3\), localization, packet/annulus-carrier, Part/Field,
+class-exit, strict-reduction, closure, or Silver result.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
