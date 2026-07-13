@@ -1056,6 +1056,64 @@ prove nonlinear interaction, critical growth, or Gold relevance. This is a
 periodic exact-null theorem and route countertest, not a datum-time bound,
 strict Gold reduction, closure, or Silver exit.
 
+Twenty-eighth live gate result, 2026-07-13: Cycle 065 installs F7.33 and
+proves that positive spatial all-chord orientation variation can be exact
+passive Navier--Stokes geometry. On normalized periodic \(\mathbb T^3\), the
+parallel-column class
+
+\[
+u=n f(x_\perp,t),
+\qquad
+\partial_tf=\nu\Delta_\perp f,
+\]
+
+has zero convection, spatially constant pressure, zero vortex stretching, and
+
+\[
+\boxed{
+\mathsf T_u=3\mathsf A_f+\rho_fn\otimes n,
+\qquad
+\Pi=\frac34\mathsf M_f+rac14n\otimes n.
+}
+\]
+
+The strain has only axial--planar cross blocks, while \(\Pi\) has only
+axial--axial and planar--planar blocks. Hence
+
+\[
+\boxed{
+S:\Pi=r=P_H=0.
+}
+\]
+
+Nevertheless the exact same-shell heat field
+
+\[
+u=Ae^{-\nu t}e_1(\cos x_2+\cos x_3)
+\]
+
+has \(\nabla\Pi\not\equiv0\), \(\mathcal Q_\Pi>0\), and
+\(D_t\Pi=0\). For \(u_N=Ae^{-\nu N^2t}U(Nx)\) at fixed initial kinetic
+energy,
+
+\[
+\boxed{
+\mathcal Q_{\Pi,N}(t)=A^2e^{-2\nu N^2t}N^5q_*,
+\qquad
+\int_0^\infty\mathcal Q_{\Pi,N}dt
+=\frac{A^2q_*}{2\nu}N^3.
+}
+\]
+
+Thus no finite uniform bound depending only on initial kinetic energy and
+viscosity controls the full spacetime \(\mathcal Q_\Pi\) across data. The
+family is periodic, globally smooth, and decreasing-height; it does not refute
+per-datum, higher-datum-norm, or Gold-rise-restricted control.
+Non-collinearity, \(\nabla\Pi\), and \(\mathcal Q_\Pi\) are not themselves
+signed critical work or evidence of Gold rise. This is a passive-geometry
+ontology fact and route obstruction, not a strict Gold reduction, closure, or
+Silver exit.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -1072,7 +1130,7 @@ strict Gold reduction, closure, or Silver exit.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.32 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.33 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -1138,7 +1196,13 @@ strict Gold reduction, closure, or Silver exit.
   shear class even when
   centered amplitude variance is positive; departure from one lattice line is
   necessary but not sufficient for interaction. Another route may bypass the
-  orientation quantity. Older WLF/ODP,
+  orientation quantity. Cycle 065 proves the insufficiency by an exact passive
+  two-direction heat history with \(\mathcal Q_\Pi>0\), \(D_t\Pi=0\), and
+  zero critical work. Its fixed-energy varying-data dilation makes the full
+  spacetime \(\mathcal Q_\Pi\) grow like \(N^3/\nu\), so no unconditional
+  energy--viscosity-only bound exists. The open route must use actual
+  Gold-rise placement and signed strain overlap, stronger datum information,
+  or another direct same-field theorem. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
   Gold-strength routes, not the sole current burden. No MPP closure or Silver
