@@ -297,16 +297,19 @@ the pressure-completed reaction is
 Thus the bare positive self-compression row is not an independently owned
 amplifier. The pressure trace forced by incompressibility enters in the same
 instant, rotation shares that completion, and the nonlocal trace-free pressure
-and pair/viscous orientation rows remain signed. Isotropic \(\Pi=I/3\) is
-locally null. Compression alignment leaves at most a pressure-reduced
+and pair/viscous orientation rows remain signed. For isotropic \(\Pi=I/3\),
+the local \(\mathsf B:\Pi\) reaction is null. Compression alignment leaves at most a pressure-reduced
 quadratic row plus strain variance before the other signed rows are read.
 
 Scale-free Sobolev absorption remains cubic and therefore permits the terminal
 spikes isolated in Cycle 049. The Cycle 049 high-rate remote copies also have
-\(\operatorname{Re}_\ell=r\ell^2/\nu\to0\): they are diffusion dominated and
-refute static deweighting, not terminal recurrence. Repeated order-one-Reynolds
-compressive alignment can still have vanishing raw energy per shrinking event,
-so finite energy supplies no event quantum. The live Gold burden is an a
+\(a\ell/\nu\to0\), with \(r\ell^2/\nu\) comparable to the same vanishing
+quantity: they are diffusion dominated and refute static deweighting, not
+terminal recurrence. A fixed scaled-profile class with both marginal
+amplitude Reynolds number and nondegenerate compressive alignment can have
+vanishing raw energy per shrinking profile, so finite energy supplies no
+cross-profile event quantum. No theorem extracts or repeats such profiles
+from large \(I\). The live Gold burden is an a
 priori, noncircular, one-datum recurrence or cancellation theorem for the full
 trace-free VPI source. No such theorem, Gold closure, or Silver exit is proved.
 
