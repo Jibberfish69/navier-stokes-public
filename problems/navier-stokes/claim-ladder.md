@@ -430,7 +430,7 @@ Navier--Stokes realization, so it establishes only the fixed-scale temporal
 extraction obstruction, not a Gold countermodel. Cycle 053 corrects the
 stronger Cycle 052 spatial underread: the invariant norm ratio does force an
 instantaneous global heat-scale slice. It supplies no location, ball, material
-carrier, heat-time persistence, bounded overlap, or full-participant
+carrier, fixed-scale heat-interval integrated occupancy, bounded overlap, or full-participant
 response-speed bound.
 
 Sixteenth live gate result, 2026-07-12: Cycle 053 installs F7.21 and proves the
