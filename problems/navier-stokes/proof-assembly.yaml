@@ -10,14 +10,16 @@ identity:
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
 manual_ontology_gate_reconciliation:
-  updated_on: '2026-07-10'
+  updated_on: '2026-07-12'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#rate_field_concentration_direct_heat_clock_ontology_gate_spin
   effect: >-
-    SignedCriticalHeightSignPersistenceOrPeakBound.A is demoted. The open Gold
-    burden is the global critical-height bound or a genuinely smaller
-    quantitative theorem implying it; no smaller theorem is installed. Lower
-    generated occurrences of the former wrapper are genealogy only.
+    Cycle 052 installs a global concentration-dependent direct heat clock and
+    complete-source rise threshold on decaying R3. It proves no event
+    localization, persistence, bounded overlap, smaller closing theorem, Gold
+    closure, or Silver exit. The live assembly burden is complete-source
+    overrun control or same-history spatial-thickness and heat-time-persistence
+    extraction; lower generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

@@ -8,7 +8,7 @@ identity:
     propagated object, target chain, and bridge requirements so progress in one program
     is not silently treated as closure in another.
 manual_ontology_gate_reconciliation:
-  updated_on: '2026-07-10'
+  updated_on: '2026-07-12'
   status: active-authority-override
   canonical_ontology: problems/navier-stokes/ontology.md
   operating_gate: .claude/physical-reasoning-gate.txt
@@ -26,11 +26,13 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#signed_height_first_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#rate_field_concentration_direct_heat_clock_ontology_gate_spin
     effect: >-
-      SignedCriticalHeightSignPersistenceOrPeakBound.A is a demoted diagnostic
-      wrapper, not the exact theorem-grade target. The global critical-height
-      bound remains open, and no genuinely smaller theorem was installed.
+      Cycle 052 proves a global concentration-dependent direct heat clock and
+      exact complete-source rise threshold on decaying R3. The scale-invariant
+      occupancy is controlled only to first power while Gold needs its square;
+      no spatially persistent event is extracted. No smaller closing theorem,
+      Gold closure, or Silver Part/Field exit is installed.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
