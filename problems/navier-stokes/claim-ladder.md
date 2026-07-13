@@ -86,8 +86,9 @@ longer has to be invented. Native material current and spectral-shape current
 agree only after complete pair-space integration. On an admitted material
 cohort their exact difference is transport--pressure boundary flux, a
 fractional derivative-placement commutator, complement leakage, and any
-moving-selection flux. A one-shell exact Navier--Stokes field has zero global
-shape current but nonzero localized source/current rows, ruling out
+moving-selection flux. A one-shell initial state of an exact Navier--Stokes
+history has zero global shape current but nonzero localized source/current
+rows, ruling out
 carrier-mass domination. The same audit finds that WLF.50, WLF.55--WLF.57,
 and the inverse-pushforward shorthand in WLF.59 are unproved incidence
 clauses: orthogonal first admission controls square novelty, not same-pulse
