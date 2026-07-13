@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 069.
+**Current promoted checkpoint:** Cycle 070.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -3641,6 +3641,13 @@ controls repeated renewal must use the one field's material-time history or
 additional exact structure; neither the viscous covariance nor velocity
 moments alone supplies it.
 
+F7.37 supplies the corresponding exact law for the different critical
+spectral mean \(m_H=K/(2\mathcal H_{1/2})\). It recombines the enstrophy and
+critical-height balances through one joined native-weight-and-orientation
+mismatch while retaining both adjacent viscous rows. This does not identify
+\(m_H\) with the enstrophy-weighted mean \(\kappa=D/K\), and it supplies no
+datum bound for either mean.
+
 ### F6.13 A rising critical record has a global pair-separation heat-rate lower bound, with no uniform efficiency margin
 
 Retain the mean-free variables of F6.10--F6.12 and put
@@ -5267,11 +5274,11 @@ carrier, spatial focusing, frequency travel, cascade, propagation speed,
 viscous lag, pressure sign, co-location, persistence, recurrence, no-reuse
 law, universal per-event datum charge, datum-finite stretching bound, strict
 Gold reduction, Gold closure, Part/Field failure, class exit, or Silver
-result. The remaining bridge must couple cumulative
-\(|\omega|^2\)-weighted stretching to simultaneous \(\tau\)-weighted
-all-chord critical work with both viscous rows retained, bound the terminal
-stretching/headroom dynamics directly from the datum, or bypass them with a
-direct critical-height theorem.
+result. F7.37 supplies the exact algebraic bridge to simultaneous
+\(\tau\)-weighted all-chord critical work with both viscous rows retained and
+proves that neither event sign controls the other. The remaining burden is a
+datum-finite bound on its joined mismatch action, a direct bound on the
+terminal stretching/headroom dynamics, or a direct critical-height theorem.
 
 ## F7. Anisotropic, directional, relational geometry
 
@@ -10939,10 +10946,11 @@ is itself the sought currency. F6.22 answers the qualitative cumulative
 question: an unbounded ladder must renew positive vorticity-stretch action on
 every terminal tail, whereas a fixed state's radial-moment headroom permits
 only finitely many consecutive height doublings with zero positive global
-stretch production. The remaining burden is quantitative: bound that renewal
-from the datum, bridge it to the differently weighted critical-work history
-with both viscous rows retained, or bypass it with a direct critical-height
-theorem. The F7.36 witness itself is periodic and supplies no
+stretch production. F7.37 now gives the exact joined bridge to the differently
+weighted critical-work history with both viscous rows retained and proves a
+terminal joined-mismatch action divergence. The remaining burden is
+quantitative: bound that action from the datum or bypass it with a direct
+critical-height theorem. The F7.36 witness itself is periodic and supplies no
 decaying-\(\mathbb R^3\) result. It proves neither that frame motion precedes
 signed work nor that one participant traverses the comparison witnesses.
 
