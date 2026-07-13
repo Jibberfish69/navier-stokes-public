@@ -2,9 +2,9 @@
 
 **Type:** walk record and candidate queue under
 `ontology-generative-method.md`. No premise weight. Nothing here is
-installed in `ontology.md`; every candidate awaits the gate VI promotion
-test (exact statement at scope, primary-source check, structural
-falsification, independent verification, consumer re-gate).
+installed in `ontology.md`; every candidate still requires an exact statement
+at scope, primary-source check, structural falsification, independent
+verification, and consumer re-audit.
 
 **Surface:** smooth unforced incompressible Navier–Stokes, fixed ν>0, on
 decaying ℝ³ or 𝕋³, gauge-fixed pressure, as declared in `ontology.md`.
@@ -140,8 +140,8 @@ Every non-installed item above is one of:
 - an exact identity verified in this walk (Riesz slaving; Hessian CZ
   split; planar `Sω ≡ 0`; trace-free eigenvalue split; Newton/Betchov
   restatement), or
-- a named classical theorem awaiting the independent primary-source check
-  required by gate VI before promotion.
+- a named classical theorem awaiting an independent primary-source check
+  before canonical integration.
 
 No signed, directional, or mechanism claim is made anywhere in this walk
 beyond what the cited theorems prove.
