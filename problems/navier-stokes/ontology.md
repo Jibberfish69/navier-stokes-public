@@ -9540,6 +9540,12 @@ and no positive universal lower bound for
 \(\mathcal Q_\Pi/\mathcal G_\tau\).  This harmless heat-decaying shear is a
 strictness witness, not a Gold-rise or blowup scenario.
 
+Cycle 064 shows that center-independent chord magnitude is sufficient but not
+necessary for this nullity. Every global fixed-direction periodic field has
+constant \(\Pi\); the scalar sinusoidal heat shear has
+\(v_{\rm amp}>0\) while \(\nabla\Pi=0\). Thus the covariance law, rather than
+amplitude variance alone, is the exact orientation dependency.
+
 The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
 variation at one time, not a temporal or material rotation.  The probability
 \(\varpi_z\) is a normalized chord-parameter readout, not fluid mass or a
@@ -9556,6 +9562,171 @@ localization, packet, core, annulus, connected region, material carrier,
 persistence, recurrence, response-time law, critical-rise placement, direct
 critical-height consequence, strict Gold reduction, Gold closure, Part/Field
 failure, class exit, or Silver result.
+
+### F7.32 Every global fixed-direction periodic shear has one universal constant all-chord orientation
+
+Work on normalized periodic \(\mathbb T^3\) with the all-lattice-lift
+definition from F7.5. Fix \(k_0\in\mathbb Z^3\setminus\{0\}\), put
+\(\kappa=|k_0|\), \(n=\widehat{k_0}\), and let
+
+\[
+u(z)=U(k_0\cdot z)
+\]
+
+for a smooth nonconstant periodic vector profile. Complete integration over
+the two transverse chord directions gives
+
+\[
+\int_{n^\perp}
+\frac{(an+q)\otimes(an+q)}{(a^2+|q|^2)^3}\,dq
+=\frac{\pi}{4a^2}(I+n\otimes n).
+\]
+
+Consequently
+
+\[
+\boxed{
+\mathsf T_u(z)=\sigma_U(k_0\cdot z)(I+n\otimes n),
+\qquad
+\tau=4\sigma_U,
+\qquad
+\Pi=\frac{I+n\otimes n}{4},
+}
+\]
+
+where
+
+\[
+\sigma_U(y)
+=\frac{\kappa}{4\pi}
+\int_0^1\int_{\mathbb R}
+\frac{|U(y+(1-s)b)-U(y-sb)|^2}{b^2}\,db\,ds>0.
+\]
+
+Thus
+
+\[
+\boxed{
+\nabla\Pi=0,
+\qquad
+\mathcal Q_\Pi=0.
+}
+\]
+
+The eigenvalue along the layer normal is \(1/2\); the two transverse
+eigenvalues are \(1/4\). The universal tensor is anisotropic, not isotropic.
+For a constant profile, \(\mathsf T_u=\tau=0\), \(\Pi\) has no physical
+referent, and the weighted quantities are set to zero separately.
+
+The complete gradient-increment tensor has the same shape:
+
+\[
+\mathsf G_u=\gamma_U(I+n\otimes n),
+\qquad
+g=4\gamma_U,
+\qquad
+\boxed{\mathsf G_u-g\Pi=0},
+\]
+
+with
+
+\[
+\gamma_U(y)
+=\frac{\kappa^3}{4\pi}
+\int_0^1\int_{\mathbb R}
+\frac{|U'(y+(1-s)b)-U'(y-sb)|^2}{b^2}\,db\,ds.
+\]
+
+If the field is incompressible, then \(k_0\cdot U'=0\) and
+\(k_0\cdot U=c\). In the mean-zero or Galilean frame \(c=0\),
+
+\[
+(u\cdot\nabla)u=0,
+\qquad
+-\Delta p=\operatorname{tr}\!\bigl((\nabla u)^2\bigr)=0,
+\qquad
+\partial_tU=\nu\kappa^2U''.
+\]
+
+For
+\(S=(U'\otimes k_0+k_0\otimes U')/2\), incompressibility also gives
+
+\[
+\boxed{
+S:\mathsf T_u=S:\Pi=0,
+\qquad
+\mathfrak c=r=P_H=0.
+}
+\]
+
+This is an exact invariant globally smooth Navier--Stokes class: convection
+is absent up to uniform translation, pressure is spatially constant, and
+viscosity dissipates the transverse waveform while the normalized all-chord
+orientation remains fixed.
+
+The centered-variance envelope can nevertheless be strictly positive. For
+the exact scalar heat shear
+
+\[
+u_N(z,t)=a(t)e\cos(Nn\cdot z),
+\qquad
+a(t)=Ae^{-\nu N^2t},
+\qquad
+e\perp n,
+\]
+
+put \(c_N=\cos(2Nn\cdot z)\). Direct evaluation gives
+
+\[
+\tau=\frac{a^2N}{2}(2-c_N),
+\qquad
+g=b_{\rm amp}=\frac{a^2N^3}{2}(2+c_N),
+\]
+
+and
+
+\[
+\boxed{
+v_{\rm amp}
+=\frac{3a^2N^3}{2(2-c_N)}>0,
+\qquad
+\nabla\Pi=\mathcal Q_\Pi=0.
+}
+\]
+
+So centered chord-amplitude variation can be present while its covariance
+with chord spatial direction cancels across the complete transverse family.
+There is no reverse coercive inequality bounding this centered variance by
+\(\mathcal Q_\Pi\).
+
+The physical content is the complete fixed-layer geometry. Every layer has
+the same normal \(n\), and all transverse lifts of a given layer separation
+enter in the fixed proportions \(1/2,1/4,1/4\). Waveform, frequency,
+incidence, and velocity polarization can change without changing those
+normalized spatial-direction proportions. Therefore
+
+\[
+\nabla\Pi\ne0
+\quad\Longrightarrow\quad
+u\text{ is not globally representable as }U(k_0\cdot x)
+\text{ for one fixed }k_0.
+\]
+
+Equivalently on this periodic surface, nonzero \(\nabla\Pi\) requires nonzero
+Fourier support outside every single lattice line. That is only geometric
+permission, not causal interaction: for example
+\(u=e_3f(x_1,x_2,t)\) with \(f\) solving two-dimensional heat can have
+non-collinear Fourier support while retaining zero nonlinearity and constant
+pressure.
+
+Because \(\Pi\) is nonlocal, nonzero \(\nabla\Pi\) proves neither pointwise
+gradient rank nor where the departure from global shear geometry occurs. A
+nonzero one-direction field is translation invariant in two directions, so
+this exact class is not finite-energy decaying \(\mathbb R^3\) data. The fact
+supplies no near-shear stability, localization, packet, annulus, material
+carrier, temporal turning, propagation or response speed, viscous lag,
+datum-time bound, critical-rise placement, strict Gold reduction, Gold
+closure, Part/Field failure, class exit, or Silver result.
 
 ## Hard boundary: claims excluded from the ontology
 
@@ -9574,6 +9745,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-064-one-direction-shear-universal-all-chord-orientation-null-class-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-063-centered-chord-amplitude-covariance-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-062-affine-break-radius-vorticity-tail-palinstrophy-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-061-all-chord-vorticity-affine-radius-bridge-20260713.md`
