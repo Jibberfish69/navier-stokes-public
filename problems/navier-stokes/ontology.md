@@ -10069,8 +10069,8 @@ spatially constant pressure, zero vortex stretching, and
 \boxed{S:\Pi=r=P_H=0.}
 \]
 
-The shear strain is generally nonzero and viscosity diffuses axial momentum
-between neighboring columns. The null statement is specifically that the
+The shear strain is generally nonzero, material elements still deform, and
+viscosity diffuses axial momentum between neighboring columns. The null statement is specifically that the
 all-chord orientation block and its material change are contraction-orthogonal
 to that strain.
 
@@ -10195,7 +10195,7 @@ fine mode's energy is
 its initial viscous energy-loss rate is
 
 \[
-\frac{\nu n^2B^2}{2}longrightarrow\infty,
+\frac{\nu n^2B^2}{2}\longrightarrow\infty,
 \]
 
 and its total dissipated energy equals its vanishing initial energy. The fine
@@ -10207,7 +10207,8 @@ The physical conclusion is strict. Material change of the normalized
 nonlocal all-chord tensor does not by itself imply eigenframe rotation,
 nonlinear interaction, a nonconstant pressure response, vortex stretching,
 signed critical work, Gold rise, propagation, a scale-independent viscosity
-response clock, or viscous lag. The varying-data family refutes only a finite
+response clock, or viscous lag. \(D_t\Pi\) is neither the material-deformation
+rate nor the kinetic-energy-loss rate. The varying-data family refutes only a finite
 uniform initial-time pointwise bound for \(|D_t\Pi|\) depending on
 \(E_0,\nu\). It does not refute per-datum, fixed-positive-time,
 higher-datum-norm, Gold-rise-restricted, signed-coupled, or alternate-route
