@@ -1,13 +1,19 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** canonical hard-fact ontology.
+**Status:** F1-root rebuild active. The F1--F7 seed remains the governing
+ontology; every Cycle 001--070 mathematical result is retained only as
+evidence pending revalidation, and every cycle-derived physical
+interpretation has zero premise weight until rebuilt from F1.
 
-**Current promoted checkpoint:** Cycle 070.
+**Current promoted checkpoint:** pre-cycle F1--F7 seed. Cycle promotions are
+suspended.
 
-**Development authority:** this is the single cumulative ontology. Numbered
-research cycles are evidence and discovery records; only independently checked
-facts promoted into this file carry ontology premise weight. The numbered git
-checkpoint for each cycle is the minimal progress ledger.
+**Development authority:** this remains the single cumulative ontology.
+Numbered research cycles are evidence and discovery records. During the
+current rebuild, installed status does not grant premise weight: each
+mathematical survivor and each physical return must be revalidated from the
+one F1 tangent before promotion is restored. The numbered git checkpoint for
+each rebuilt cycle is the minimal progress ledger.
 
 **Physical-story custody:** a numbered cycle is not complete merely because an
 identity, estimate, counterexample, or coordinate was derived. It must state
@@ -19,14 +25,24 @@ return is support, countertest, route obstruction, or consolidation rather
 than ontology development. The complete compact cycle audit lives in
 spine.md.
 
+**F1 rebuild veto:** the physical premise is one inseparable
+transport--pressure--viscosity--incompressibility tangent. Transport,
+pressure, viscosity, incompressibility, strain, vorticity, and every derived
+readout may be separated only as exact coordinates of that tangent. They may
+not be narrated as actors, opponents, responses, stages, races,
+rebuilding/destruction processes, episodes, locations, or carriers unless an
+exact same-history theorem first proves that structure. Every rebuilt cycle
+must identify and delete the old story that its mathematics does not license.
+
 **Authority boundary:** this file contains exact identities, exact operator
 properties, or classical proved theorems under the hypotheses stated here. It
 contains no proposed pressure sign, cascade direction, alignment law, packet
 closure, or regularity conclusion.
 
-The section titled **Physical picture supplied at Cycle 034** is separately
-typed as an open causal synthesis.  It preserves the physical problem that
-generates questions for the hard facts; it carries no premise weight.
+The section titled **Withdrawn Cycle 034 physical picture** is retained
+temporarily as the explicit audit target. It has zero premise weight and zero
+question-generating authority. Its pulse, branch, race, episode, and carrier
+language violates F1 unless separately proved.
 
 **Surface:** unless a narrower scope is stated, let \(u\) be a smooth unforced
 incompressible Navier–Stokes solution with fixed \(\nu>0\) on
@@ -54,7 +70,13 @@ appearing here is constructed from the same solution \((u,p)\), its initial
 datum, or its material flow. Its induced equation may contain coupling, flux,
 or commutator terms.
 
-## Physical picture supplied at Cycle 034 — open causal synthesis
+## Withdrawn Cycle 034 physical picture — invalid as an ontology generator
+
+**Withdrawn during the F1-root rebuild:** the material below separated the one
+VPI tangent into causal actors and then used unproved pulses, races, repeated
+episodes, locations, and carriers to generate later questions. It is retained
+only so the rebuild can name exactly what each mathematical theorem does and
+does not recover. Nothing in this section may be used as a premise.
 
 The declared datum contains all of the fluid's initial energy.  In the
 discussion below, a source, pulse, or injection means the first local
