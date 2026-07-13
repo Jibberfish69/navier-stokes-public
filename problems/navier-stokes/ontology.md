@@ -2152,15 +2152,17 @@ W_0(I)
 -2\nu\int_I\int_A|S|^2\,dx\,dt.
 \]
 
-Thus energy delivered to the core is not dissipated at the source by
-definition.  It can be supplied through outer stress work or depletion of
-kinetic energy already stored in the annulus, while annular viscosity removes
-part of that relay.  Adding successive annuli adds their dissipation and
-storage changes to the same telescope.  A wider responding field is therefore
-more dissipative only after outer replenishment and annular storage release
-are kept in the same account.  The location of the viscous expenditure is
-determined by the strain field: a flat-core pulse places it mainly in the
-transition annulus, whereas a general vortex or anisotropic packet need not.
+The relay identity governs the boundary stress work delivered to the core; it
+does not remove viscous expenditure inside the core. The core balance still
+contains \(2\nu\int_I\int_{\Omega_0}|S|^2\). Outer stress work or depletion
+of kinetic energy already stored in the annulus can supply the core
+boundary-work row, while annular viscosity removes part of that relay. Adding
+successive annuli adds their dissipation and storage changes to the same
+telescope. A wider responding field is therefore more dissipative only after
+outer replenishment and annular storage release are kept in the same account.
+The location of every viscous expenditure is determined by the strain field:
+an admitted flat-core pulse may place most of it in the transition annulus,
+whereas a general vortex or anisotropic event need not.
 
 Radius alone supplies no increasing annular cost. As an exact scalar
 countertest, for \(0<r<R\), among \(H^1\) functions on \(r<|x|<R\) with
