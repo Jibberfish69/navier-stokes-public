@@ -313,6 +313,54 @@ from large \(I\). The live Gold burden is an a
 priori, noncircular, one-datum recurrence or cancellation theorem for the full
 trace-free VPI source. No such theorem, Gold closure, or Silver exit is proved.
 
+Fourteenth live gate result, 2026-07-12: Cycle 051 installs F7.19. A
+pointwise value of \(r_+\) does not determine a spatial scale. If an
+independently licensed event satisfies
+
+\[
+|J_j|=\frac{\ell_j^2}{\nu},
+\qquad
+|E_j|\ge\theta\frac{\ell_j^5}{\nu},
+\qquad
+r_+\ge c\frac{\nu}{\ell_j^2}\quad\hbox{on }E_j,
+\]
+
+then every overlap-\(M\) family obeys
+
+\[
+\sum_j\ell_j
+\le\frac{M\mathcal E_0}{2c^2\theta\nu^2}.
+\]
+
+This is the exact finite-energy response: the event's viscous contribution is
+radius weighted. The Gold square-rate coordinate instead gives
+
+\[
+\int_{J_j}I(t)^2dt\ge c^4\theta^2\nu^3.
+\]
+
+Thus every heat-thick event has scale-independent Gold visibility. A dyadic
+scalar stack has finite normalized-rate \(L^2\) budget and infinite
+\(\int I^2dt\), so the energy marginal alone cannot forbid a shrinking Zeno
+schedule. The stack is not a Navier--Stokes realization.
+
+Kato's inequality also proves that direct advection--diffusion cannot create a
+new positive \(r\) maximum; regeneration must enter through the complete
+signed VPI source. With \(X=\int|\nabla r_+|^2\) and
+\(N=\int r_+\widetilde{\mathcal F}_r\), its exact positive logarithmic action
+above \(I_\sharp\) is
+
+\[
+\int_{\{I>I_\sharp\}}\frac{[N-\nu X]_+}{I}\,dt
+=\frac12\operatorname{Var}^+
+\left(\log\frac I{I_\sharp}\right)_+.
+\]
+
+A datum bound on this action would close the square-rate supplier, but none is
+proved. Nor is there an active-scale/thickness extraction theorem from large
+\(I\). CKN partial regularity does not supply either missing clause. No Gold
+closure or Silver Part/Field exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -329,14 +377,18 @@ trace-free VPI source. No such theorem, Gold closure, or Silver exit is proved.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.18 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.19 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
   theory and datum-independent static deweighting fail; the remote copies that
   prove the latter are diffusion dominated. The live evolution question is a
   correctly scaled one-datum full-source recurrence or dynamic active-coupling
-  theorem. The fixed-energy family also rules out any bound using only kinetic
+  theorem. Pointwise large rate does not extract a spatial scale. If
+  heat-thick events are independently admitted, finite energy controls their
+  radius-weighted sum but not their unweighted recurrence; the exact
+  full-source logarithmic regeneration action remains unbounded from the
+  datum. The fixed-energy family also rules out any bound using only kinetic
   energy and viscosity. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
