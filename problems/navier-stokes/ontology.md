@@ -3822,11 +3822,21 @@ Choose a divergence-free Schwartz field \(\psi\) with
 P_H(\psi)>0.
 \]
 
-Such fields exist by the anisotropic localized-triad construction used in
-F6.9, with the sign reversed when necessary.  Let \(v^\varepsilon\) be the
-viscosity-\(\varepsilon\) Navier--Stokes solution from \(\psi\), and let
-\(v^0\) be the Euler solution from the same datum.  Standard common-interval
-high-regularity estimates give, for some \(m>5/2\) and \(\tau_0>0\),
+For the three exact centers and coefficients displayed in F6.9, direct
+convolution gives
+
+\[
+P_H=2(\sqrt2-1)>0
+\]
+
+under that coefficient normalization.  Replacing the six point masses by
+sufficiently narrow smooth Fourier packets supported away from zero, followed
+by Leray projection and the reality reflection, produces a real
+divergence-free Schwartz field and preserves the strict sign.  Let
+\(v^\varepsilon\) be the viscosity-\(\varepsilon\) Navier--Stokes solution
+from this \(\psi\), and let \(v^0\) be the Euler solution from the same datum.
+Standard common-interval high-regularity estimates give, for some sufficiently
+large \(m\) and \(\tau_0>0\),
 
 \[
 \sup_{0\le\tau\le\tau_0}
@@ -3878,7 +3888,8 @@ and
 \ge(1+\delta)\mathcal H_{1/2}(u_A(0)).
 \]
 
-Thus the initial kinetic energy and relative critical-height gain stay fixed
+Thus the initial physical kinetic energy \(E_*/2\) and a positive fractional
+critical-height gain stay fixed
 while \(T_A\to0\).  The physical kinetic-energy loss and every fixed
 energy-interpolation occupancy with \(0<s\le1\) obey
 
