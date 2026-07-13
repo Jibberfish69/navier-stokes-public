@@ -29,8 +29,8 @@ this note; the proof role is independent validation of an ontology candidate.
 **Independence discipline.** The witnesses below were re-derived in this
 session from the equations alone, with coefficient choices deliberately
 different from the archived PD-branch witnesses, so the confirmation does not
-reuse the candidate author's computations. The digest binding was performed
-against the hook's acceptance archive, not against the candidate's prose.
+reuse the candidate author's computations. Text integrity was checked against
+the exact archived candidate text, not a prose summary.
 
 ## FV.1 View-stress lock (validates the F2.2 addition)
 
@@ -247,19 +247,18 @@ boundary. **Confirmed.**
   named; distinct-data typing; no Gold/Silver inference): each checked
   present in the archived fresh section bytes. **All discharged.**
 
-## FV.9 Digest and artifact binding
+## FV.9 Candidate text integrity
 
-- The candidate record and delta digests were extracted from the hook's
-  recorded candidate statement. The extraction was independently checked
+- The candidate record and delta digests were extracted from the archived
+  candidate statement. The extraction was independently checked
   against the exact proposed text:
   the record slice hashes to
   `cad2c4d1c94ca81e5050f6948c0d749c182c0019ccd8586fd866038ff4383074`,
   equal to the archived `record_sha256`. The delta slice, under the same
   certified pipeline, hashes to
   `1feda82c1efd8cdbec76c34bee637a0edabc25251a3557c039e36b5e877d2a89`.
-- The hook's acceptance-time mechanized candidate-artifact check
-  (`candidate_artifact_errors` against the live canonical base) already
-  verified that each declared section digest hashes its archived section
+- A mechanized reconstruction check against the live canonical base verified
+  that each declared section digest hashes its archived section
   bytes, that the reconstructed post-edit ontology hashes to
   `d78d07c353738ae42f014f2b171c739cf1a5b404d2e016b00dd6c6537d7ba077`, and
   that the change roles are exactly add F2.5, modify F2.2 and F2.3. This
