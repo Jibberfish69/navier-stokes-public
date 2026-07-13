@@ -607,8 +607,8 @@ event. That stack is not a Navier--Stokes realization.
 
 The same cycle also identifies the exact source relation. The rate can rise
 only through the positive dual projection of the complete simultaneous VPI
-source onto simultaneous \(r_+(t)\). A source component with zero or
-nonpositive pairing supplies no positive amount to the instantaneous \(I'\)
+source onto simultaneous \(r_+(t)\). If the complete-source pairing is zero or
+nonpositive, it supplies no positive amount to the instantaneous \(I'\)
 balance. A finite
 \(L_t^2\dot H_x^{-1}\) or \(L_t^2L_x^{6/5}\) norm of that complete source is
 a sufficient Gold supplier, but no such datum bound is proved. The remaining
