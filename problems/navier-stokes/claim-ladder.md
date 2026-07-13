@@ -916,8 +916,8 @@ Fubini converts the surrounding second-jet bend into the exact field-wide tail
 }
 \]
 
-Therefore at least half the enstrophy lies at centers with radius at least
-\(\sqrt{K/(8D_2)}\), and
+Therefore, when \(K,D_2>0\), at least half the enstrophy lies at centers with
+radius at least \(\sqrt{K/(8D_2)}\), and
 
 \[
 \boxed{
