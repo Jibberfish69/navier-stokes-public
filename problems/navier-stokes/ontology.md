@@ -3566,15 +3566,16 @@ while the backward source detector with endpoint dual \(-B_0\) reads
 \]
 
 Thus source admission, linear shape current, and quadratic pair action occur
-at different causal orders.  A positive density may be available before the
+at different Taylor orders. A positive density may be available before the
 global correlation is summed and still be available only after the response
 direction has formed.  Only a source component whose propagated pairing with
 every later unpaid detector vanishes, or which is already in a proved paid,
 legal, or stop span, is historically shape-null.  Constructing and bounding
 the first nonzero material parent-to-future-shape admission remains open.  The example
 does not prove immediate critical-height growth: at \(t=0\), viscosity makes
-\(\mathcal H_{1/2}'=-3\nu/2<0\).  It proves the causal transition and the
-failure of instantaneous null routing.
+\(\mathcal H_{1/2}'=-3\nu/2<0\). It proves next-order global spectral-shape
+creation and the failure of instantaneous null routing; it does not prove a
+spatial or material causal carrier.
 
 ### F6.18 Spectral shape is a signed same-history state
 
@@ -3615,7 +3616,8 @@ state.  The identity controls their signed net effect.  Replacing the signed
 source work by its positive part or total variation discards the cancellation
 and receives no bound from this identity.
 
-The causal ancestry is also exact.  Fix a terminal time \(T\), put
+The terminal-fitted Eulerian Duhamel attribution is also exact. Fix a terminal
+time \(T\), put
 \(m_T=m(T)\), and set
 
 \[
@@ -3802,9 +3804,10 @@ the product identity gives the exact rising condition
 
 At an exact shell, energy tangency gives \(N_q=0\) for every \(q\), the heat
 flow preserves that shell, and \(\bar\rho'=0\).  The critical height then
-decreases.  F6.17 supplies the next causal step: off-shell support must first
-be created by the same pressure-completed source before a signed upward
-centroid current can appear.
+decreases. F6.17 supplies the next Taylor-order spectral-shape fact: off-shell
+support can be created by the same pressure-completed source before a signed
+upward centroid current appears. This is not a spatial transport or material
+ancestry statement.
 
 There is no pointwise lower bandwidth for a rising event.  On the normalized
 torus, choose any Pell pair \((h,n)\) with
@@ -3894,9 +3897,10 @@ These are anisotropic, divergence-free, finite-Fourier Navier--Stokes data;
 the pressure response is already contained in \(N_1\).  Their relative shell
 width tends to zero while their critical height initially rises.  Large
 amplitude lets the derived cubic current beat the quadratic viscous drain;
-the pressure sign remains fixed by that same field.  Thus a scale-independent
-pointwise spikiness or bandwidth gap is false.  This is a varying-data
-instantaneous result and supplies no terminal history for one fixed datum.
+the pressure sign remains fixed by that same field. Thus a scale-independent
+relative spectral-bandwidth floor is false. This says nothing by itself about
+pointwise spatial spikiness. It is a varying-data instantaneous result and
+supplies no terminal history for one fixed datum.
 
 There is a separate proved history-level restriction.  For viscosity one on
 \(\mathbb R^3\), Miller's Laplacian-eigenshell criterion states that a finite
