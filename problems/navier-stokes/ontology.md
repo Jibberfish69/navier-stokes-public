@@ -9120,8 +9120,9 @@ Cycle 061 leaves its uniform-Hessian radius conditional.  The same field's
 second derivative supplies a distinct unconditional integrated certificate.
 On decaying \(\mathbb R^3\), define the weighted curvature surrounding a
 center as follows.  For the trivial field \(u\equiv0\), set
-\(\chi_{\omega/\tau}=J_{\omega/\tau}=0\); all substantive conclusions below
-are then trivial.  Otherwise \(\tau>0\) at every finite point.  Define
+\(\chi_{\omega/\tau}=J_{\omega/\tau}=\mathcal G_\tau=0\); all substantive
+conclusions below are then trivial.  Otherwise \(\tau>0\) at every finite
+point.  Define
 
 \[
 \mathcal C_R(z)
@@ -9143,7 +9144,7 @@ integrated Taylor remainder give
 }
 \]
 
-Equivalently, for
+Equivalently, where \(|\mathsf A_z|_F>0\), for
 
 \[
 x_R(z)=\frac{R\mathcal C_R(z)}{8\pi|\mathsf A_z|_F^2}<1,
@@ -9182,11 +9183,12 @@ field-defined threshold bridge
 }
 \]
 
-Operationally, this radius is the largest scale at which the stated weighted
+On \(\{h>0\}\), this radius is the largest scale at which the stated weighted
 integrated-curvature threshold holds.  It certifies domination of the affine
-term only in the short-chord Hilbert norm used above.  It is not a pointwise
-or uniform first-jet validity distance, material radius, support radius,
-vortex core, or propagation length.
+term only in the short-chord Hilbert norm used above.  On \(\{h=0\}\), the
+value \(+\infty\) is only a harmless vorticity-measure convention.  The radius
+is not a pointwise or uniform first-jet validity distance, material radius,
+support radius, vortex core, or propagation length.
 
 Retain F7.25's enstrophy and palinstrophy
 
