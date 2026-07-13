@@ -882,6 +882,64 @@ energy--viscosity-only radius floor or static linear deweighting coefficient.
 No radius persistence, datum-scaled source/recurrence control, critical-rise
 placement, strict Gold reduction, closure, or Silver exit follows.
 
+Twenty-fifth live gate result, 2026-07-13: Cycle 062 installs F7.30 and makes
+the local radius adaptive and unconditional.  Define
+
+\[
+\mathcal C_R(z)
+=\int_{B_R(z)}
+\frac{|\nabla^2u(x)|_F^2}{|x-z|^2}dx
+\]
+
+and, on \(\{|\omega|>0\}\),
+
+\[
+\ell_\omega(z)
+=\sup\{R>0:R\mathcal C_R(z)\le\pi|\omega(z)|^2\}.
+\]
+
+The integrated short-chord Taylor theorem gives
+
+\[
+\boxed{
+\frac{|\omega|^2}{\tau}
+\le\frac{6\pi}{\ell_\omega}.
+}
+\]
+
+Fubini converts the surrounding second-jet bend into the exact field-wide tail
+
+\[
+\boxed{
+\int_{\{\ell_\omega<R\}}|\omega|^2dx
+\le4R^2D_2.
+}
+\]
+
+Therefore at least half the enstrophy lies at centers with radius at least
+\(\sqrt{K/(8D_2)}\), and
+
+\[
+\boxed{
+J_{\omega/\tau}
+=\int\frac{|\omega|^4}{\tau}dx
+\le24\pi\sqrt{KD_2}.
+}
+\]
+
+This is the first unconditional control of the Cycle-061 mismatch moment.
+It does not control the orientation-turn term, because that term needs the
+different same-field correlation
+
+\[
+\int\frac{g^2}{\tau}dx.
+\]
+
+The exact pressure-completed first- and second-jet equations give no radius
+monotonicity or persistence.  No datum time bound for palinstrophy or the new
+\(g\)-perspective, Gold-rise placement, strict Gold reduction, closure, or
+Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -898,7 +956,7 @@ placement, strict Gold reduction, closure, or Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.29 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.30 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -943,15 +1001,18 @@ placement, strict Gold reduction, closure, or Silver exit follows.
   and the square in time of that raw height remain uncontrolled; an unbounded
   enstrophy ladder forces divergence of the combined rate-square/residual-square
   action. Neither term is restricted to the Gold rising set and the \(\tau\)
-  and \(|\omega|^2\) weights are bridged only conditionally through the
+  and \(|\omega|^2\) weights first meet conditionally through the
   actual local affine-validity radius. Cycle 060 gives the canonical weighted
   residual its global VPI evolution. Cycle 061 proves that a large native
   weight mismatch forces that radius to shrink, while a fixed-energy
   fixed-viscosity family rules out an energy--viscosity-only radius floor or
-  static linear deweighting coefficient. The remaining theorem must control
-  a verified affine-validity radius from below, or prove an alternative
-  source-weighted high-\(\chi_{\omega/\tau}\)/\(g\) replacement, on one original critical
-  history. The fixed-energy family also rules out an energy--viscosity-only
+  static linear deweighting coefficient. Cycle 062 replaces the hypothesized
+  radius by the canonical adaptive \(\ell_\omega\), proves its quadratic
+  vorticity tail, and bounds \(J_{\omega/\tau}\) by \(24\pi\sqrt{KD_2}\).
+  The remaining theorem must control the distinct
+  \(g\)-weighted concentration \(\int g^2/\tau\), or prove another
+  source-weighted replacement, on one original critical history. The
+  fixed-energy family also rules out an energy--viscosity-only
   square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
