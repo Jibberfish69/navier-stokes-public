@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 064.
+**Current promoted checkpoint:** Cycle 065.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -6012,6 +6012,12 @@ that scalar pair-density magnitude is not a separate cause. Only the changing
 anisotropic relation between strain and normalized all-chord orientation
 drives \(r\).
 
+Cycle 065 makes the word "relation" essential. A passive parallel-column
+heat flow can have spatially varying \(\Pi\) while \(S\) has only
+axial--planar blocks and \(\Pi\) has only axial--axial and planar--planar
+blocks. Then \(S:\Pi=r=0\), every term in the recombined source contracts to
+zero, and the spatial variation is not a driver of normalized compression.
+
 The chord formula and Hilbert-space Cauchy--Schwarz give the pointwise Fisher
 bound
 
@@ -6279,6 +6285,13 @@ incidence and chord-amplitude variance can vary with the center. In
 particular, a scalar sinusoidal heat shear has \(v_{\rm amp}>0\) everywhere
 while \(\nabla\Pi=0\). Thus centered amplitude variance remains a one-way
 envelope; it is not the orientation change itself.
+
+Cycle 065 makes the remaining limitation strict. An exact passive
+two-direction heat flow has \(\nabla\Pi\not\equiv0\) and
+\(\mathcal Q_\Pi>0\), while convection, the pressure source, vortex
+stretching, and critical production all vanish and \(D_t\Pi=0\). Thus the
+weighted spatial orientation budget does not by itself measure temporal
+turning or nonlinear activity.
 
 Physically, rapid spatial change of the normalized all-chord orientation
 requires gradient-increment mass and directional dispersion in the same
@@ -9547,6 +9560,12 @@ constant \(\Pi\); the scalar sinusoidal heat shear has
 \(v_{\rm amp}>0\) while \(\nabla\Pi=0\). Thus the covariance law, rather than
 amplitude variance alone, is the exact orientation dependency.
 
+Cycle 065 shows that this exact spatial covariance can itself be passive. In
+the parallel-column heat class it produces \(\nabla\Pi\not\equiv0\) while
+\(S:\Pi=0\) and \(D_t\Pi=0\). The covariance identifies how the orientation
+tensor changes across centers; it is not by itself a cause of interaction,
+critical work, or temporal turning.
+
 The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
 variation at one time, not a temporal or material rotation.  The probability
 \(\varpi_z\) is a normalized chord-parameter readout, not fluid mass or a
@@ -9728,6 +9747,11 @@ permission, not causal interaction: for example
 non-collinear Fourier support while retaining zero nonlinearity and constant
 pressure.
 
+Cycle 065 realizes the stronger version of that example exactly. The field
+\(u=Ae^{-\nu t}e_1(\cos x_2+\cos x_3)\) has
+\(\nabla\Pi\not\equiv0\) and \(\mathcal Q_\Pi>0\), but zero critical
+production and no temporal or material orientation turn.
+
 Because \(\Pi\) is nonlocal, nonzero \(\nabla\Pi\) proves neither pointwise
 gradient rank nor where the departure from global shear geometry occurs. A
 nonzero one-direction field is translation invariant in two directions, so
@@ -9736,6 +9760,219 @@ supplies no near-shear stability, localization, packet, annulus, material
 carrier, temporal turning, propagation or response speed, viscous lag,
 datum-time bound, critical-rise placement, strict Gold reduction, Gold
 closure, Part/Field failure, class exit, or Silver result.
+
+### F7.33 Spatially varying all-chord orientation can be exact passive fixed-polarization heat geometry
+
+On normalized periodic \(\mathbb T^3\), fix a coordinate unit lattice
+direction \(n\) and let
+
+\[
+u(x,t)=n f(x_\perp,t),
+\qquad
+x_\perp\in n^\perp,
+\]
+
+where \(f\) is smooth, periodic, and nonconstant. This is a field of parallel
+columns whose speeds vary across the transverse plane. Directly,
+
+\[
+\nabla\cdot u=0,
+\qquad
+(u\cdot\nabla)u=0,
+\qquad
+(\nabla u)^2=0,
+\]
+
+so pressure is spatially constant and
+
+\[
+\boxed{
+\partial_tf=\nu\Delta_\perp f.
+}
+\]
+
+With \(a=\nabla_\perp f\),
+
+\[
+S=\frac12(n\otimes a+a\otimes n),
+\qquad
+\omega=a\times n,
+\qquad
+\boxed{S\omega=0}.
+\]
+
+For a lifted chord \(r=\alpha+bn\), define
+
+\[
+\delta_{\alpha,s}f
+=f(x_\perp+(1-s)\alpha)-f(x_\perp-s\alpha).
+\]
+
+The exact axial kernel reduction is
+
+\[
+\int_{\mathbb R}
+\frac{(\alpha+bn)\otimes(\alpha+bn)}
+{(|\alpha|^2+b^2)^3}\,db
+=\frac{\pi}{8|\alpha|^3}
+\left(3\widehat\alpha\otimes\widehat\alpha+n\otimes n\right),
+\qquad \alpha\ne0.
+\]
+
+Put
+
+\[
+\rho_f
+=\frac1{8\pi}\int_0^1\int_{\mathbb R^2}
+\frac{|\delta_{\alpha,s}f|^2}{|\alpha|^3}\,d\alpha\,ds,
+\]
+
+\[
+\mathsf A_f
+=\frac1{8\pi}\int_0^1\int_{\mathbb R^2}
+\frac{|\delta_{\alpha,s}f|^2}{|\alpha|^3}
+\widehat\alpha\otimes\widehat\alpha\,d\alpha\,ds.
+\]
+
+Then \(\operatorname{tr}\mathsf A_f=\rho_f>0\) and
+
+\[
+\boxed{
+\mathsf T_u=3\mathsf A_f+\rho_f n\otimes n,
+\qquad
+\tau=4\rho_f,
+\qquad
+\Pi=\frac34\mathsf M_f+\frac14n\otimes n,
+}
+\]
+
+where \(\mathsf M_f=\mathsf A_f/\rho_f\) is a trace-one planar tensor.
+Thus the axial eigenblock is fixed:
+
+\[
+\Pi n=\frac14n,
+\qquad
+P_{n^\perp}\Pi n=0,
+\qquad
+\operatorname{tr}(P_{n^\perp}\Pi)=\frac34.
+\]
+
+All spatial variation of \(\Pi\) lies in the planar block. The strain has
+only axial--planar cross blocks, so the two tensors are exactly orthogonal:
+
+\[
+\boxed{
+S:\mathsf T_u=S:\Pi=S:\partial_j\Pi=0,
+\qquad
+\mathfrak c=r=P_H=0.
+}
+\]
+
+Also \(S^2+W^2=0\), the pressure Hessian is zero, and every remaining block
+contraction in the F7.16 pressure-completed normalized-rate source vanishes.
+The spatially varying planar orientation is therefore invisible to critical
+work in this exact class.
+
+The variation is nontrivial. For
+
+\[
+u(x,t)=Ae^{-\nu t}e_1(\cos x_2+\cos x_3),
+\]
+
+the Cycle-015 bilinear all-chord multiplier gives
+
+\[
+[\mathsf T_u(x,t)]_{23}
+=2bA^2e^{-2\nu t}\sin x_2\sin x_3,
+\]
+
+where
+
+\[
+b
+=\frac{3\sqrt2\log(1+\sqrt2)+2\sqrt2-2}{16}>0.
+\]
+
+Since \(\tau>0\),
+
+\[
+\boxed{
+\nabla\Pi\not\equiv0,
+\qquad
+\mathcal Q_\Pi=\int\tau|\nabla\Pi|_F^4dx>0.
+}
+\]
+
+Both modes lie on the same unit shell, so \(\mathsf T_u\) and \(\tau\)
+share the factor \(A^2e^{-2\nu t}\). Hence
+
+\[
+\boxed{
+\Pi(x,t)=\Pi_U(x),
+\qquad
+D_t\Pi=0.
+}
+\]
+
+This is spatial center-to-center variation without temporal or material
+orientation turning.
+
+The separation is unbounded across fixed-energy smooth data. Set
+
+\[
+U=e_1(\cos x_2+\cos x_3),
+\qquad
+q_*=\int\tau_U|\nabla\Pi_U|_F^4dx>0,
+\]
+
+and
+
+\[
+u_N(x,t)=Ae^{-\nu N^2t}U(Nx).
+\]
+
+Then
+
+\[
+\tau_N=A^2e^{-2\nu N^2t}N\tau_U(Nx),
+\qquad
+\Pi_N=\Pi_U(Nx),
+\]
+
+so
+
+\[
+\boxed{
+\mathcal Q_{\Pi,N}(t)
+=A^2e^{-2\nu N^2t}N^5q_*,
+\qquad
+\int_0^\infty\mathcal Q_{\Pi,N}(t)\,dt
+=\frac{A^2q_*}{2\nu}N^3.
+}
+\]
+
+Initial kinetic energy is independent of \(N\). Therefore no bound depending
+only on initial kinetic energy and viscosity controls the unconditional
+spacetime integral of \(\mathcal Q_\Pi\). Each member is globally smooth,
+has zero convection, constant pressure, zero vortex stretching, zero critical
+production, and decreasing critical height.
+
+The physical conclusion is exact. Non-collinear Fourier support,
+\(\nabla\Pi\ne0\), and \(\mathcal Q_\Pi>0\) do not by themselves imply
+nonlinear interaction, pressure activity, vortex stretching, critical work,
+Gold rise, or temporal/material orientation turn. \(\mathcal Q_\Pi\) remains
+a valid sufficient factor in F7.31, but it cannot by itself be identified
+with nonlinear Gold action.
+
+The high-frequency family varies the datum and never enters the rising set.
+It does not refute per-datum control, Gold-rise-restricted control, or a
+different theorem coupling orientation to signed strain overlap. The result
+is periodic and nonlocal and supplies no location, packet, annulus, connected
+region, material carrier, propagation or response speed, viscous lag,
+near-passive stability, datum-time Gold bound, critical-rise placement,
+strict Gold reduction, Gold closure, Part/Field failure, class exit, or
+Silver result. A nonzero parallel-column field is translation invariant
+along \(n\) and is not finite-energy decaying \(\mathbb R^3\) data.
 
 ## Hard boundary: claims excluded from the ontology
 
@@ -9754,6 +9991,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-065-passive-multidirectional-all-chord-orientation-variation-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-064-one-direction-shear-universal-all-chord-orientation-null-class-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-063-centered-chord-amplitude-covariance-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-062-affine-break-radius-vorticity-tail-palinstrophy-bridge-20260713.md`
