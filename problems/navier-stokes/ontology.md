@@ -2239,13 +2239,12 @@ At every fixed smooth time,
 \]
 
 Equivalently, the local turnover clock \(r/\delta_ru\) is longer than the
-viscous clock \(r^2/\nu\) at sufficiently small radii.  This is a clock
+viscous clock \(r^2/\nu\) at sufficiently small radii. This is a clock
 comparison, not a local regularity theorem: the surrounding strain and the
-nonlocal pressure remain in the VPI response.  A later terminal scenario
-represented by this admitted core--annulus mechanism must drive the crossover
-radius where \(\operatorname{Re}_r\) is order one toward zero while preserving
-the corresponding normalized record.  This does not assert that every
-terminal scenario already has that representation.
+nonlocal pressure remain in the VPI response. To turn this fixed-time
+comparison into a terminal core--annulus theorem, one must separately prove
+that the admitted mechanism produces order-one crossover records and that
+their radii tend to zero.
 
 Normalize one heat-scale region by
 
