@@ -429,9 +429,10 @@ A smooth scalar terminal pulse stack has unbounded \(I\) peaks, order-one
 Navier--Stokes realization, so it establishes only the fixed-scale temporal
 extraction obstruction, not a Gold countermodel. Cycle 053 corrects the
 stronger Cycle 052 spatial underread: the invariant norm ratio does force an
-instantaneous global heat-scale slice. It supplies no location, ball, material
-carrier, fixed-scale heat-interval integrated occupancy, bounded overlap, or full-participant
-response-speed bound.
+instantaneous global threshold slice. The selector is not a component radius
+or diffusion length. It supplies no location, ball, material carrier,
+fixed-scale heat-interval integrated occupancy, bounded overlap, or
+full-participant response-speed bound.
 
 Sixteenth live gate result, 2026-07-12: Cycle 053 installs F7.21 and proves the
 instantaneous spatial content of \(\mathcal R_{6,+}\). For \(f=r_+\), put
@@ -460,9 +461,10 @@ Hence, for every \(0<\eta<1\), some scale \(s\) satisfies
 \mathcal R_{6,+}(t)\right]^{3/2}s^3.
 \]
 
-This is total instantaneous measure; the set may be disconnected and the
-selected scale may change immediately. It is not a packet or a spacetime
-event. With
+This is total instantaneous measure; the set may be disconnected and \(s\) is
+a threshold parameter, not a component heat length. Smoothness gives some
+lowered-threshold persistence but no duration comparable to \(s^2/\nu\). It is
+not a packet or a spacetime event. With
 
 \[
 G=\mathbf1_{\{r>0\}}\widetilde{\mathcal F}_r,
@@ -499,6 +501,52 @@ Fixed-scale heat-interval integrated event occupancy remains ontology support
 until a separate datum-finite recurrence/no-recount theorem gives it Gold
 force. No Gold closure or Silver Part/Field exit follows.
 
+Seventeenth live gate result, 2026-07-12: Cycle 054 installs F7.22 and resolves
+the fixed-threshold evolution without separating the VPI participant. For
+\(a>0\), put
+
+\[
+H_a=\int(r-a)_+dx,
+\qquad
+E_a=\int(r-a)_+^2dx.
+\]
+
+The complete equation gives
+
+\[
+H_a'+\nu\int_{r=a}|\nabla r|\,d\mathcal H^2
+=\int_{r>a}\widetilde{\mathcal F}_r\,dx,
+\]
+
+\[
+\frac12E_a'+\nu\int_{r>a}|\nabla r|^2dx
+=\int(r-a)_+\widetilde{\mathcal F}_r\,dx.
+\]
+
+These threshold laws integrate over \(a\) to the Cycle 053 global identity
+\(I'/2+\nu X=N\). Consequently a positive all-threshold source projection
+does not prove replenishment at the selected threshold. Coarea and
+isoperimetry give
+
+\[
+\left(\int_{r=a}|\nabla r|\,d\mathcal H^2\right)
+(-\partial_a|\{r>a\}|)
+\ge(36\pi)^{2/3}|\{r>a\}|^{4/3}.
+\]
+
+If F7.21 selects \(k=\nu/s^2\) at a late time with
+\(\mathcal R_{6,+}\ge R_0\), the half-threshold excess contains
+\(e_*\asymp_{R_0}\nu^2/s\). On the preceding heat interval, either it remains
+above \(e_*/2\) for a fixed time fraction and contributes
+\(\int I^2dt\gtrsim_{R_0}\nu^3\), or the complete source rebuilds it against
+direct heat with net action \(\gtrsim_{R_0}\nu^2/s\) and
+\(\int q^2dt\gtrsim_{R_0}\nu^3/s\). Forward, the corresponding alternative is
+residence or joined removal. A fragmented scalar pure-heat family shows why
+\(s\) is not a component clock: total volume \(s^3\) can be split into
+\(\delta\)-pieces that drain in \(\delta^2/\nu\ll s^2/\nu\). It is not an NS
+history. No datum source-action bound, non-overlap, recurrence law, strict Gold
+reduction, Gold closure, or Silver exit follows.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -515,7 +563,7 @@ force. No Gold closure or Silver Part/Field exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.21 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.22 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -530,12 +578,14 @@ force. No Gold closure or Silver Part/Field exit follows.
   the datum. On decaying \(\mathbb R^3\), global rate-field concentration
   forces a faster direct heat coefficient, but its datum-finite invariant
   occupancy is only first-power while Gold needs the square. The norm ratio
-  does extract an instantaneous global heat-scale superlevel slice, but not a
-  ball, carrier, or fixed-scale heat-interval integrated occupancy. Each rising
-  instant requires positive dual projection of the complete source; its
+  does extract an instantaneous global threshold slice, but the selector is
+  not a component heat length. F7.22 gives the exact fixed-threshold
+  interface law and heat-time residence-or-joined-response alternative. Each
+  rising instant requires positive dual projection of the complete source; its
   \(L_t^2\dot H^{-1}\) or \(L_t^2L^{6/5}\) control is sufficient for Gold but
-  is not datum-bounded. Event occupancy remains support without a separate
-  datum-finite recurrence/no-recount law. The fixed-energy family also rules
+  is not datum-bounded. No datum bound controls the scale-growing rebuild
+  branch, and event alternatives remain support without a separate
+  recurrence/non-overlap law. The fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
   \(J_{\mathrm{rad}}\) targets remain alternative suppliers or direct
