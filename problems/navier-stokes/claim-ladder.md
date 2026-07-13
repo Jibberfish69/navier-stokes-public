@@ -718,6 +718,56 @@ a spatial collar or vortex annulus, and the all-chord orientation is nonlocal.
 No causal transfer, packet, material carrier, pressure sign, Gold closure, or
 Silver exit follows.
 
+Twenty-second live gate result, 2026-07-13: Cycle 059 installs F4.5 and F7.27,
+resolves the Cycle 058 residual into the complete vorticity-frame orientation
+normal form, and corrects its raw-budget status. On \(\{\omega\ne0\}\),
+
+\[
+\mathfrak m_{\omega,\Pi}
+=\frac32\alpha_\omega\pi_\parallel
++2b\cdot\beta_\Pi
++S_\perp^\circ:\Pi_\perp^\circ.
+\]
+
+The three terms are the axial chord-direction second moment, the
+axial--transverse chord covariance, and the transverse quadrupole contracted
+against the corresponding strain blocks. They exhaust the orientation tensor
+about the vorticity axis, but they are not three mechanisms or three costs and
+have no individual sign. The vorticity direction itself obeys the joined law
+\(D_t\xi=b+\nu R_\xi\), so \(b\) is only the strain part of its turn.
+
+Contrary to the broad Cycle 058 wording, the residual has a datum-finite raw
+ordinary-volume exposure. If
+
+\[
+J_{\mathfrak m}(t)
+=\int_{\{\omega\ne0\}}[\mathfrak m_{\omega,\Pi}]_+^2dx,
+\]
+
+then
+
+\[
+J_{\mathfrak m}\le\frac34K,
+\qquad
+\nu\int_0^T J_{\mathfrak m}dt\le\frac34\mathcal E_0.
+\]
+
+That first-moment budget does not bound the vorticity-selected residual action
+or its square in time. Every enstrophy doubling interval instead satisfies
+
+\[
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}dt
+\le\frac{64}{\pi^4\nu^3}
+\int_J\bigl(I^2+J_{\mathfrak m}^2\bigr)dt,
+\]
+
+so an unbounded dyadic ladder forces divergence of the combined square action
+although both raw first moments are datum finite. This is exact temporal and
+orientation anatomy, not Gold closure: it supplies no localization,
+same-history \(G\)-placement, \(\tau\)-to-\(|\omega|^2\) comparison, dynamic
+control of the joined residual, strict smaller theorem, or Silver exit.
+
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
 | 1 | Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | `submission-bundle/submission-synopsis.md`, `live-theorem-edge.yaml`, `target-operating-contract.yaml` | active CM contrapositive entry | fixes the manuscript opening on the terminal witness, not on periodic route history |
@@ -734,7 +784,7 @@ Silver exit follows.
   equivalent coupled positive-rate/all-chord-density capacity theorem. F7.11 supplies the
   datum-finite \(L^2\) normalized work rate and F7.12 supplies the
   scale-critical \(L^1_tL^{3/2}_x\) density capacity; the unproved step is the
-  active \(L^2\) concentration control coupling them. F7.16--F7.26 prove that
+  active \(L^2\) concentration control coupling them. F7.16--F7.27 prove that
   a direct evolution route must control the full trace-free VPI shape source;
   scalar log-density curvature cancels, the local reaction is pressure
   completed, and scale-free component absorption remains cubic. Global weight
@@ -772,10 +822,14 @@ Silver exit follows.
   critical compression read the same trace-free strain through the vorticity
   axis and the nonlocal all-chord orientation. Every enstrophy doubling now
   forces full-interval rate-square action or positive strain-contracted
-  readout-residual action. The residual is signed, has no independent budget,
-  and is not an orientation distance or Gold currency; the rate-square action
-  is not restricted to the Gold rising set and the \(\tau\) and
-  \(|\omega|^2\) weights remain unbridged. The
+  readout-residual action. Cycle 059 proves that the residual has exactly three
+  vorticity-frame orientation coordinates and that its raw ordinary-volume
+  spatial \(L^2\) height has a datum-finite first moment. The coordinates are
+  not separate mechanisms or payments. The vorticity-selected residual action
+  and the square in time of that raw height remain uncontrolled; an unbounded
+  enstrophy ladder forces divergence of the combined rate-square/residual-square
+  action. Neither term is restricted to the Gold rising set and the \(\tau\)
+  and \(|\omega|^2\) weights remain unbridged. The
   fixed-energy family also rules
   out an energy--viscosity-only square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
