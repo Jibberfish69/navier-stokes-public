@@ -274,10 +274,11 @@ P_H=-\frac12\int\dot C:\Theta_C^\circ\,da,
 \mathcal H_{1/2}'=P_H-\nu D.
 \]
 
-Every critical-height doubling therefore carries at least \(\log2\) of
-positive normalized material critical-work action. This is an exact physical
-same-participant action, but its selected positive density is not
-datum-finite and has no proved fixed-label core--collar carrier.
+Every critical-height doubling therefore gives at least \(\log2\) in the
+global label-space positive-part majorant of the material-metric work. This is
+an exact same-participant identity, but its selected positive density is not
+local core--collar work, is not datum-finite, and has no proved fixed-label
+carrier.
 
 The vortex branch acquires a separate exact alternative. If a material
 spanning surface contracts while retaining a fixed fraction of its initial

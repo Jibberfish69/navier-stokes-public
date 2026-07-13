@@ -4575,7 +4575,7 @@ In particular,
 \ge\log2.
 \]
 
-This positive material critical-work action is an exact post-readout majorant.
+This global label-space positive-part majorant of material-metric work is exact.
 It is not yet a datum-finite currency: no proved theorem attaches its selected
 positive density to bounded-overlap fixed-label cores and collars, prevents
 future phase selection, or controls repeated reuse along a shrinking history.
