@@ -17,8 +17,8 @@ weight.
 the seven-dimension completion walk in
 `ontology-derivation-walk-20260711-missing-dimensions.md`; the latter remains
 the detailed candidate record. A later hierarchy status overrides an earlier
-candidate's status only for this map. Canonical promotion still requires the
-separate ledger validation and promotion transaction.
+candidate's status only for this map. Canonical premise weight still requires
+the exact proved statement to be integrated into `ontology.md`.
 
 ## Status vocabulary
 
@@ -220,19 +220,12 @@ view cannot keep one row and discard the other. A spatial scalar cut also
 requires its Leray repair and pressure-collar/commutator terms.
 
 **Hierarchy result.** **Hierarchy-verified** as a dependent-view rule. The
-correctly scoped F2.2/F2.3/F2.5 bundle is now a **candidate with a confirmed
-ledger-owned independent validation**:
-`20260711-f2-candidate-v2-independent-validation-confirmed` (2026-07-11, a
-distinct hook turn) confirmed
-`20260711-participation-pressure-graph-f2-ontology-candidate-v2` by fresh
-derivation with independent witnesses and bound digests
-(`cad2c4d1…3074` record, `1feda82c…2a89` delta, after-hash
-`d78d07c3…a077`); see
+correctly scoped F2.2/F2.3/F2.5 bundle was independently confirmed by fresh
+derivation with independent witnesses; see
 `theorem-construction/mpp-f2-bundle-v2-independent-validation-fresh-derivation-20260711.md`.
 The earlier Codex artifact check (`F2_V2_ARTIFACT_OK`) and PD re-derivations
-remain corroborating evidence. Canonical promotion still requires its own
-explicit later turn reproducing the validated bytes with complete consumer
-re-gating; the candidate carries no premise weight until then.
+remain corroborating evidence. The candidate carries no premise weight until
+its exact scoped statement is integrated and its consumers are re-audited.
 Shared-interface stress-work antisymmetry remains a separately proved
 candidate refinement of F5.2.
 
@@ -2398,13 +2391,12 @@ The direct authority surfaces contain no closed theorem answering those three
 questions. They are the unresolved causal surfaces produced by using the
 hierarchy on SHR.7.
 
-## Promotion ledger
+## Canonical status
 
-The hierarchy admits only the scoped survivors above. The F2 bundle now holds
-a confirmed independent validation and awaits only its explicit promotion
-turn; the smooth-history F1 extension, the F1.3 persistence refinement, and
-the \(\mathbb R^3\) endpoint remain candidates for their own candidate,
-validation, and promotion transactions.
+The hierarchy admits only the scoped survivors above. The F2 bundle has an
+independent confirmation but is not yet integrated; the smooth-history F1
+extension, the F1.3 persistence refinement, and the \(\mathbb R^3\) endpoint
+also remain candidates.
 The material-vorticity cycle is a hierarchy-verified F4.1 refinement with
 F5.3 as its integrated reading, and the pressure-Hessian cycle is a
 hierarchy-verified F7.3 refinement with an F4.1 cross-reference. Both now
