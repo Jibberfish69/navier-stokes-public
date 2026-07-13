@@ -9114,11 +9114,12 @@ eigenframe control, material carrier, packet, core, annulus, propagation
 speed, viscous response-time band, pressure sign, recurrence, critical-rise
 placement, strict Gold reduction, Gold closure, or Silver exit.
 
-### F7.30 Short affine-break radii have a quadratic vorticity tail, and the mismatch moment is palinstrophy-controlled
+### F7.30 Short integrated chord-affinity radii have a quadratic vorticity tail, and the mismatch moment is enstrophy-palinstrophy-controlled
 
-Cycle 061 leaves its affine-validity radius conditional.  The same field's
-second derivative supplies an unconditional adaptive version.  On decaying
-\(\mathbb R^3\), define the weighted curvature surrounding a center by
+Cycle 061 leaves its uniform-Hessian radius conditional.  The same field's
+second derivative supplies a distinct unconditional integrated certificate.
+On decaying \(\mathbb R^3\), define the weighted curvature surrounding a
+center by
 
 \[
 \mathcal C_R(z)
@@ -9155,7 +9156,7 @@ one has
 \]
 
 Put \(h=|\omega|^2\).  Set \(\ell_\omega=+\infty\) where \(h=0\), and on
-\(\{h>0\}\) define the vorticity-certified affine-break radius
+\(\{h>0\}\) define the vorticity-certified integrated chord-affinity radius
 
 \[
 \boxed{
@@ -9179,9 +9180,11 @@ adaptive bridge
 }
 \]
 
-The radius is an Eulerian first-jet validity distance certified by the
-surrounding second jet.  It is not a material radius, support radius, vortex
-core, or propagation length.
+Operationally, this radius is the largest scale at which the stated weighted
+integrated-curvature threshold holds.  It certifies domination of the affine
+term only in the short-chord Hilbert norm used above.  It is not a pointwise
+or uniform first-jet validity distance, material radius, support radius,
+vortex core, or propagation length.
 
 Retain F7.25's enstrophy and palinstrophy
 
@@ -9197,7 +9200,7 @@ Fubini gives
 \int\mathcal C_R(z)dz=4\pi RD_2.
 \]
 
-Consequently the vorticity at centers with short certified radius has the
+Consequently vorticity-square at centers with short certified radius has the
 quadratic tail
 
 \[
@@ -9227,9 +9230,10 @@ one has
 \]
 
 Thus, at every instant with \(K,D_2>0\), at least half of the total
-vorticity-square lies at centers whose certified first-jet radius is no shorter than
-\(\sqrt{K/(8D_2)}\).  This is an Eulerian population statement, not a
-two-sided radius comparison or a connected or materially persistent region.
+vorticity-square lies at centers whose certified integrated chord-affinity
+radius is no shorter than \(\sqrt{K/(8D_2)}\).  This is an Eulerian population
+statement, not a two-sided radius comparison or a connected or materially
+persistent region.
 
 The whole inverse-radius distribution obeys, for \(0<\alpha<2\),
 
@@ -9253,8 +9257,10 @@ J_{\omega/\tau}
 
 The simple constant is not optimal within the same integrated-Taylor method;
 retaining its exact kernel gives \(27\sqrt3\pi/4\) in place of \(24\pi\).
-The physical content is the same: weak all-chord registration of local spin
-requires actual bending in the next derivative rung.
+The physical content is scalar: small all-chord incidence relative to local
+vorticity-square requires weighted \(|\nabla^2u|^2\) content in the surrounding
+ball.  It does not read vorticity direction, \(\Pi\)-orientation, anisotropic
+alignment, or eigenframe geometry.
 
 This does not yet control the Cycle-060 orientation-turn term.  F7.17 and
 Cauchy--Schwarz give
@@ -9269,9 +9275,11 @@ Cauchy--Schwarz give
 }
 \]
 
-The surviving bridge is therefore the concentration of gradient-increment
-bending \(g\) relative to all-chord incidence \(\tau\), not an unconstrained
-\(|\omega|^2/\tau\) ratio.  No datum bound for \(\int g^2/\tau\) is proved.
+For this F7.17-plus-Cauchy route, the remaining factor is therefore the
+concentration of squared gradient-increment variation \(g^2\) relative to
+all-chord incidence \(\tau\), not an unconstrained \(|\omega|^2/\tau\) ratio.
+No datum bound for \(\int g^2/\tau\) is proved, and no claim is made that this
+is the unique necessary route to Gold.
 
 The radius inputs evolve through the complete derivative tower.  With
 \(\mathcal L=D_t-\nu\Delta\),
@@ -9307,12 +9315,16 @@ fixed-viscosity Cycle-061 family,
 \(\ell_{\omega,A}=A^{-2}\ell_\omega\) and both sides scale as \(A^6\).
 Thus the theorem survives the family that refutes an energy-only radius floor.
 
-The physical return is instantaneous and exact.  Local vorticity cannot stay
-weakly represented in the all-chord field unless the same velocity gradient
-bends nearby, and the amount of vorticity occupying short bend radii is
-limited by simultaneous palinstrophy.  Palinstrophy is the second derivative
-rung and the viscous term in the same enstrophy history, not a separately
-owned payment.  Nothing here supplies a time integral of \(D_2\) or
+The physical return is instantaneous and exact.  Small scalar all-chord
+incidence relative to local vorticity-square requires weighted
+\(|\nabla^2u|^2\) content in the surrounding ball, and the vorticity-square on
+short integrated chord-affinity radii is bounded by \(4R^2D_2\).  The mismatch
+moment is controlled by the enstrophy--palinstrophy product
+\(24\pi\sqrt{KD_2}\).  Palinstrophy is the next derivative rung in the same
+history, and \(2\nu D_2\) is the standard viscous enstrophy sink, not a
+separately owned payment.  Nothing here supplies a pointwise vorticity bound,
+matched localization of the centers and the regions contributing \(D_2\),
+vorticity-direction or alignment control, a time integral of \(D_2\) or
 \(g^2/\tau\), spatial co-location with critical production, radius renewal,
 critical-rise placement, a packet, annulus, material carrier, viscous
 response-time law, strict Gold reduction, Gold closure, or Silver exit.
