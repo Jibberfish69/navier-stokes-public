@@ -63,14 +63,15 @@ It never means an external force.
 
 The picture has four physical branches.
 
-1. **A source-centred first pulse.**  A local velocity crest or vortex core
-   rises inside surrounding fluid.  The core and the responding transition
-   annulus are different regions of one VPI event. Energy reaching the core is
-   accounted for by outer stress work, annular storage change, and annular
-   dissipation in the surrounding same field, while viscous expenditure occurs
-   where that field has strain. For a
-   flat-core pulse that strain is concentrated in the transition annulus; a
-   general anisotropic pulse need not be radial.
+1. **A source-centred first pulse.**  If a dangerous concentration admits
+   nested material core and transition-annulus regions, those regions belong
+   to one VPI event. Energy reaching the core is then accounted for by outer
+   stress work, annular storage change, and annular dissipation in the
+   surrounding same field, while viscous expenditure occurs where that field
+   has strain. For an admitted flat-core pulse that strain is concentrated in
+   the transition annulus; a general anisotropic pulse need not be radial. The
+   existence of this nested carrier is an open premise, not a consequence of
+   the energy identity.
 
 2. **A later-time, later-place concentration.**  Transport, strain, and the
    whole-field pressure response bring already existing motion into a new
@@ -81,8 +82,9 @@ The picture has four physical branches.
    supplies the simultaneous nonlocal acceleration and may reorient the same
    field; it has no universal reorientation sign. A dangerous feedback must
    repeatedly rebuild inward, coherently aligned pressure-completed work faster
-   than the simultaneous viscous response dissipates or de-aligns that
-   configuration.
+   than the explicit direct-heat row removes its gradients. Pressure and
+   viscous reorientation remain signed parts of the joined source; neither is
+   assigned a universal de-aligning sign.
 
 3. **A maximally rippled field.**  Neighboring crests and troughs owe a
    quadratic gradient cost to their separation.  Constructively aligned waves
@@ -93,12 +95,14 @@ The picture has four physical branches.
    is allowed to be smaller than the heat time.  Full Navier--Stokes transport
    and slaved pressure can also replenish or reverse the modal alignment.
 
-4. **The vortex analogue.**  A vortex core grows only through strain generated
-   by the same global vorticity field.  The surrounding response is generally
-   tubular and anisotropic rather than a spherical annulus.  Any radial-growth
-   statement must therefore be proved for an admitted geometry; isotropic
-   language cannot replace the strain--vorticity and pressure-Hessian
-   relations.
+4. **The vortex analogue.**  At a local maximum of vorticity magnitude, growth
+   requires stretching by strain reconstructed from the same global vorticity
+   field to beat viscous gradient loss. Away from a magnitude maximum,
+   diffusion can redistribute vorticity and locally increase it. The
+   surrounding response is generally tubular and anisotropic rather than a
+   spherical annulus. Any radial-growth statement must therefore be proved for
+   an admitted geometry; isotropic language cannot replace the
+   strain--vorticity and pressure-Hessian relations.
 
 The exact first-pulse amplitude laws already show the joined response.  For a
 fixed direction \(e\), let \(f=e\cdot u\), and follow a smooth local crest
@@ -175,10 +179,12 @@ The two response clocks are also exact.  At scale \(r\),
 At every fixed smooth time, \(\operatorname{Re}_r(t)\to0\) as \(r\downarrow0\):
 below a sufficiently small scale, the viscous clock is faster than the local
 turnover clock.  Smooth initial data therefore begins with a bounded classical
-response.  A terminal scenario must drive its order-one crossover scale toward
-zero through a sequence of later first records.  Finite slope at every
-preterminal time is insufficient; the needed control is uniform along that
-shrinking history.
+response. This fixed-time fact does not extract an order-one crossover scale
+from a terminal threat. If a terminal mechanism is to outrun direct heat in
+this turnover comparison, a separate same-history theorem must first produce
+such crossover records and show their scales tend to zero. Finite slope at
+every preterminal time is insufficient; uniform control or extraction along
+the terminal history remains open.
 
 Cycle 044 sharpens what “quick response” can mean. A fixed material tangent
 and a fixed label covector have opposite strain-rate laws. When a material
@@ -237,9 +243,9 @@ so every fixed material label set \(A\) obeys
 \le C\mathcal E_0|A|^{1/3}.
 \]
 
-The density therefore cannot remain on one arbitrarily small fixed material
-set for a long time. This is the sharp energy-scaling capacity law. It still
-misses the product that raises critical height: \(r\) is controlled in
+The density therefore cannot carry a fixed positive spacetime amount on an
+arbitrarily small fixed material-label set. This is the sharp energy-scaling
+capacity law. It still misses the product that raises critical height: \(r\) is controlled in
 \(L^2\), whereas \(\tau\) is controlled only in \(L^{3/2}\), and those spatial
 exponents do not pair.
 
@@ -570,8 +576,8 @@ The sharp Sobolev inequality forces
 S_3=3\left(\frac\pi2\right)^{4/3}.
 \]
 
-Thus concentration of the positive compression-rate field makes its direct
-scalar heat coefficient larger: the reciprocal instantaneous clock
+Thus concentration of the positive compression-rate field raises its
+normalized direct-heat rate \(\nu X/I\): the reciprocal instantaneous clock
 \(I/(\nu X)\) is at most
 \(\mathcal V_{6,+}^{2/3}/(\nu S_3)\). This is the exact global form of the
 physical statement that a more concentrated rate field cannot make its
@@ -8169,7 +8175,8 @@ s_\ell=\left(\frac\nu{\alpha_\ell}\right)^{1/2}
 \ell_K\asymp\ell\to0.
 \]
 
-Each \(u_\ell\) is a smooth compactly supported divergence-free datum for a
+Across this varying-data snapshot family, each \(u_\ell\) is a smooth
+compactly supported divergence-free datum for a
 local fixed-viscosity Navier--Stokes history, with its pressure and all-chord
 orientation determined by that complete datum. This varying-data family
 proves that finite energy, incompressibility, nonlocal pressure completion,
