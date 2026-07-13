@@ -26,13 +26,14 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#unbounded_rate_entrance_geometry_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#rate_enstrophy_palinstrophy_response_ontology_gate_spin
     effect: >-
-      Cycle 056 refutes universal shrinking-selector entrance and proves the
-      exhaustive low-R, rising-, fixed-, or vanishing-threshold split. Every
-      doubled total rate entrance forces complete-source q^2 action, but no
-      datum upper bound is proved. No smaller closing theorem, Gold closure, or
-      Silver Part/Field exit is installed.
+      Cycle 057 proves the fine global enstrophy/palinstrophy tier and
+      shrinking-time, shrinking-energy-loss, diverging higher-rung action
+      forced by unbounded rate mass. Exact varying-data initial snapshots
+      realize the vanishing-threshold branch, leaving a one-history joined
+      source-palinstrophy theorem or datum action bound open. No smaller
+      closing theorem, Gold closure, or Silver Part/Field exit is installed.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion

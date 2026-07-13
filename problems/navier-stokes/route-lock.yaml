@@ -8,14 +8,16 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#unbounded_rate_entrance_geometry_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#rate_enstrophy_palinstrophy_response_ontology_gate_spin
   effect: >-
-    Cycle 056 refutes universal shrinking-selector entrance and proves four
-    value-scale entrance geometries with a joined q^2 source cost for every new
-    total rate height. Gold remains open at datum control of the low-R and
-    vanishing-threshold branches, a datum complete-source bound, or another
-    direct square-rate theorem. No smaller closing theorem or Silver exit is
-    installed. Lower route snapshots remain genealogy only.
+    Cycle 057 proves the global fine-derivative tier and the shrinking-time,
+    shrinking-energy-loss, diverging-palinstrophy/stretching law behind
+    unbounded rate mass. Instantaneous VPI structure does not exclude the
+    vanishing-threshold branch. Gold remains open at a one-history joined
+    source-palinstrophy theorem, datum action bound, control of the low-R
+    source branch, or another direct square-rate theorem. No smaller closing
+    theorem or Silver exit is installed. Lower route snapshots remain
+    genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml
