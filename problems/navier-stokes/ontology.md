@@ -1,11 +1,11 @@
 # Navier–Stokes Physical Ontology
 
-**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycles 001--002
-are the governing ontology. Every Cycle 003--070 mathematical result is retained
+**Status:** F1-root rebuild active. The F1--F7 seed and rebuilt Cycles 001--003
+are the governing ontology. Every Cycle 004--070 mathematical result is retained
 only as evidence pending revalidation, and every unrebuilt cycle-derived
 physical interpretation has zero premise weight.
 
-**Current promoted checkpoint:** rebuilt Cycle 002. Cycles 003--070 remain
+**Current promoted checkpoint:** rebuilt Cycle 003. Cycles 004--070 remain
 suspended.
 
 **Development authority:** this remains the single cumulative ontology.
