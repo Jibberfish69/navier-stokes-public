@@ -4820,6 +4820,128 @@ localized on a same-event core and whether the work, gradient differences,
 and joined pressure--viscous response persist there long enough to control the
 record.
 
+### F7.11 Normalized positive material-work rate has a datum-finite viscous budget
+
+Use the polar decomposition (F=\mathcal RC^{1/2}). The two tensors in F7.10
+become
+
+\[
+H_m=C^{-1/2}\dot C C^{-1/2}=2\mathcal R^T(S\circ X)\mathcal R,
+\qquad
+A=C^{1/2}\Theta C^{1/2}=\mathcal R^T\mathsf T_u(X)\mathcal R.
+\]
+
+Put
+
+\[
+w=-\frac12H_m:A,
+\qquad
+\tau=\operatorname{tr}A=\operatorname{tr}\mathsf T_u(X),
+\qquad
+r_+=
+\begin{cases}
+w_+/\tau,&\tau>0,\\
+0,&\tau=0.
+\end{cases}
+\]
+
+If (H_me_i=h_i e_i), set (n_i=\mathcal Re_i) and
+(a_i=e_i\cdot Ae_i\ge0). Then
+
+\[
+(S\circ X)n_i=\frac{h_i}{2}n_i,
+\qquad
+w=-\frac12\sum_i h_i a_i.
+\]
+
+Whenever (w>0),
+
+\[
+\sum_{h_i<0}(-h_i)a_i\ge2w.
+\]
+
+Since (sum_i a_i=\tau), at least one direction with (a_i>0) satisfies
+
+\[
+-\frac{h_i}{2}\ge\frac w\tau=r_+.
+\]
+
+That same physical direction carries an actual compressive velocity gradient:
+
+\[
+n_i\cdot(\nabla u)n_i
+=n_i\cdot S n_i
+=\frac{h_i}{2},
+\qquad
+|(\nabla u)n_i|^2\ge r_+^2.
+\]
+
+Thus positive critical work does not merely raise a dual symbol. It forces
+instantaneous same-point first-gradient incidence in an active compressive
+direction of the same field. Moreover, with the signed rate
+(r=w/\tau), set to zero when (	au=0), positivity of
+(mathsf T_u) gives
+
+\[
+|r|\le\|S\|_{\mathrm{op}}\le|S|.
+\]
+
+The kinetic-energy identity therefore supplies the datum-finite material-volume
+rate budget
+
+\[
+2\nu\int_0^T\int r_+^2\,da\,dt
+\le
+2\nu\int_0^T\int |S|^2\,dx\,dt
+\le\mathcal E_0.
+\]
+
+On the other hand,
+
+\[
+\int\tau\,da=4\mathcal H_{1/2},
+\qquad
+P_H=\int w\,da=\int\tau r\,da.
+\]
+
+If (d\mu_t=\tau,da/(4\mathcal H_{1/2})), every critical-height
+doubling interval (I) obeys
+
+\[
+4\int_I\int r_+\,d\mu_t\,dt\ge\log2.
+\]
+
+This is the exact physical rate law. Finite initial energy controls the square
+of the normalized positive-work rate in ordinary material volume, while
+critical growth samples that rate through the simultaneous nonlocal all-chord
+density (	au). The theorem does not show that (	au) is local energy,
+that it stays on one material core, or that successive (mu_t) select the
+same labels. A terminal history can evade the displayed budget only through
+an unresolved concentration/incidence mechanism: the all-chord weight must
+keep finding the small material-volume sets where (r_+) is effective.
+
+There is no universal linear absorption of positive work by viscosity. For the
+exact ABC family (u_A(t)=Ae^{-\nu t}U) from F7.7, the nonempty positive work
+has size (w_+\sim A^3), while both the local mechanical viscous density and
+the unit-shell critical dissipation have size (\nu A^2). Their ratio grows
+like (A/\nu). The surviving coercivity is the normalized quadratic budget
+above, not a scale- or amplitude-independent fraction of (w_+).
+
+The critical dissipation still requires a stronger spatial relation. With
+(G=\nabla_aU\,F^{-1}=\nabla u\circ X), on decaying
+(\mathbb R^3),
+
+\[
+\|\Lambda^{3/2}u\|_2^2
+=\frac1{2\pi^2}\iint
+\frac{|G(a)-G(b)|^2}{|X(a)-X(b)|^4}\,da\,db.
+\]
+
+F7.11 proves a local first gradient, not gradient differences on the same
+all-chord carrier, positive-time persistence, bounded overlap, or a
+datum-finite no-recount law. Those are the remaining physical clauses of the
+Gold incidence theorem.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
