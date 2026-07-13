@@ -12,8 +12,8 @@ manual_ontology_gate_reconciliation:
   authority: problems/navier-stokes/target-operating-contract.yaml#instantaneous_rate_slice_complete_source_projection_ontology_gate_spin
   effect: >-
     Cycle 053 proves that order-one invariant r_+ rate on decaying R3 already
-    has an instantaneous global heat-scale superlevel slice and that continued
-    rise requires positive dual projection of the complete simultaneous VPI
+    has an instantaneous global heat-scale superlevel slice and that each
+    rising instant requires positive dual projection of the complete simultaneous VPI
     source stronger than direct heat. L2_t dot-H^-1_x or L2_t L6/5_x source
     control is sufficient for the square-rate supplier, but no datum bound is
     proved. No one-ball localization, fixed-scale heat-interval integrated
