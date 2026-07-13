@@ -8568,6 +8568,16 @@ unchanged: when \(\alpha_\omega=0\), the two terms can cancel under the
 vorticity weight while the differently weighted global critical production
 is positive.
 
+Cycle 068 strengthens that separation from a snapshot identity to an exact
+short-time physical event. Above its explicit amplitude threshold, the
+globally regular pure-two-dimensional triad satisfies \(S\omega=0\)
+pointwise while \(P_H>\nu D\) and critical height rises. Thus a finite
+upcrossing does not require positive vorticity-alignment action. This does not
+contradict the terminal requirement that a genuine finite breakdown
+accumulate infinite positive alignment action: an unbounded terminal ladder
+must eventually leave the globally regular planar/null-stretching mechanism,
+but no theorem here locates or prices that departure.
+
 Because \(\Pi\) is nonlocal, none of these identities places transverse
 compression in a spatial collar, vortex annulus, packet, connected region, or
 material carrier. They prove no causal transfer from stretching to critical
@@ -10125,6 +10135,11 @@ change in this class. At a different column the mixed all-chord term survives,
 and unequal heat rates rotate the principal eigenspace while the same null
 conclusions remain exact.
 
+F7.36 leaves the passive class and proves the exact next boundary. Frame
+motion is Gate 0 only. Active critical work begins when the simultaneous
+strain contracts the all-chord tensor with a sign, and local sign, global
+survival, and surplus over viscosity must then be checked separately.
+
 ### F7.34 Unequal passive heat rates can change normalized all-chord orientation along one material column
 
 This is the local all-chord and material-column realization of the
@@ -10300,6 +10315,11 @@ occur. That later fact does not weaken the statement here: \(D_t\Pi\ne0\)
 alone still does not decide whether the change is eigenvalue reweighting or
 eigenspace rotation, and neither kind has critical-work force without the
 signed simultaneous strain relation.
+
+F7.36 supplies that active signed relation in a separate globally regular
+two-dimensional participant. It does not promote the passive rate here into
+Gold currency; it proves instead that signed overlap and viscous surplus are
+new gates not contained in \(D_t\Pi\).
 
 ### F7.35 Unequal passive heat rates can rotate a uniformly gapped local all-chord principal frame
 
