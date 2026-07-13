@@ -8,14 +8,13 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_frame_all_chord_block_anatomy_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_weighted_readout_residual_evolution_ontology_gate_spin
   effect: >-
-    Cycle 059 resolves that same-strain residual into the complete
-    vorticity-frame orientation normal form, proves its raw datum-finite
-    exposure, and forces combined rate-square/residual-square action on every
-    enstrophy doubling. Gold remains open because selected residual action,
-    square-time control, critical-rise placement, and the weight bridge are
-    missing. No smaller closing theorem or Silver exit is installed. Lower
+    Cycle 060 gives the vorticity-weighted residual one global VPI evolution
+    and refutes energy-only raw weighted-action and bare square-time bounds
+    across data. Gold remains open because normalized residual action,
+    full-datum source control, critical-rise placement, and the weight bridge
+    are missing. No smaller closing theorem or Silver exit is installed. Lower
     route snapshots remain genealogy only.
 governing_object_law:
   status: active
