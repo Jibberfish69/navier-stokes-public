@@ -1514,6 +1514,74 @@ carrier, episode, spatial concentration, causal order, Gold bound, or Silver
 exit. The periodic witness does not by itself refute a statement restricted
 to decaying \(\mathbb R^3\).
 
+### F1.15 Critical height is a complete all-pair relation
+
+On decaying \(\mathbb R^3\), let \(X(a,t)\) be the material map of the one
+smooth fixed-\(\nu\) participant and define
+
+\[
+R_{ab}=X(a,t)-X(b,t),
+\qquad
+V_{ab}=u(X(a,t),t)-u(X(b,t),t),
+\]
+
+\[
+e_{ab}=\frac1{4\pi^2}\frac{|V_{ab}|^2}{|R_{ab}|^4},
+\qquad
+\alpha_{ab}
+=\frac{V_{ab}\cdot R_{ab}}{|R_{ab}|^2}
+=\frac d{dt}\log|R_{ab}|.
+\]
+
+Incompressibility preserves product-label measure, so the complete
+critical-height state is
+
+\[
+\mathcal H_{1/2}(t)=\iint e_{ab}(t)\,da\,db.
+\]
+
+Its joined pair tangent is
+
+\[
+\dot e_{ab}
+=-4e_{ab}\alpha_{ab}
++\frac1{2\pi^2}|R_{ab}|^{-4}
+V_{ab}\cdot\delta_{ab}(D_tu),
+\]
+
+where \(D_tu=-\nabla p+\nu\Delta u\) is the material acceleration coordinate
+of the same VPI tangent. After the complete all-pair recombination,
+
+\[
+\mathcal H_{1/2}'
+=-4\iint e_{ab}\alpha_{ab}\,da\,db
+-\nu\|\Lambda^{3/2}u\|_2^2.
+\]
+
+Therefore every rising instant has the exact global relational sign
+
+\[
+\iint e_{ab}\alpha_{ab}\,da\,db
+<-\frac{\nu}{4}\|\Lambda^{3/2}u\|_2^2<0.
+\]
+
+Equivalently, the \(e\)-weighted mean logarithmic separation rate is negative.
+This is one complete-functional statement; it does not say every pair
+contracts or that energy moves through pair space.
+
+A partition of the material labels produces within-part and cross-part pairs.
+No label, pair, packet, or region owns an additive critical height unless a
+theorem reconstructs or controls all cross terms and localization
+commutators. Exact periodic participants also give both signs to the raw
+pairwise pressure and viscous factors, so complete-field pressure
+orthogonality and viscous dissipation supply no pairwise sign. The periodic
+critical-height counterpart uses the periodic all-lifts kernel; the Euclidean
+\(|R|^{-4}\) formula is not a global fixed-torus formula.
+
+This fact proves no location, shrinking packet, carrier, persistence,
+recurrence, causal order, pairwise monotonicity, datum-finite action bound,
+Gold closure, or Silver exit.
+
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
 ### F2.1 Strain and vorticity are compatible derivatives of one velocity
