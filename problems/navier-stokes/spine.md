@@ -193,6 +193,46 @@ localization claim. Gold remains open at same-history scale-critical action,
 material ancestry and no-reuse, WLF.60, or another direct regularity theorem.
 Silver is unchanged.
 
+Cycle 043 returns the program to the physical picture supplied in Cycle 034.
+It installs F1.11 and F7.9 and deepens F5.3. In material coordinates the
+pressure elliptic row and viscous diffusion row use the same inverse
+deformation metric \(C^{-1}\). Its principal viscous coefficients are
+\(\nu s_i^{-2}\), with product \(\nu^3\): compression speeds the response in
+the compressed direction, expansion slows it in the expanded direction, and
+volume preservation forbids all directions from lagging together. The
+all-chord critical current then has the exact material-work form
+
+\[
+P_H=-\frac12\int\dot C:\Theta_C^\circ\,da,
+\qquad
+\mathcal H_{1/2}'=P_H-\nu D.
+\]
+
+Every critical-height doubling therefore carries at least \(\log2\) of
+positive normalized material critical-work action. This is an exact physical
+same-participant action, but its selected positive density is not
+datum-finite and has no proved fixed-label core--collar carrier.
+
+The vortex branch acquires a separate exact alternative. If a material
+spanning surface contracts while retaining a fixed fraction of its initial
+circulation, its surface vorticity square integral grows at least like the
+inverse area. Otherwise the exact record is a large signed viscous circulation
+change. That signed change is not a positive dissipation reserve. The scalar
+spherical condenser countertest also corrects the naive annulus intuition:
+holding the inner height fixed while moving the zero boundary outward
+decreases, rather than increases, the minimum Dirichlet cost. More radius
+costs more only after comparable participation through the added region is
+proved.
+
+The first physically faithful smaller Gold target is now
+\(MaterialCriticalWorkCoreCollarIncidence.A\): from entry-time data on each
+first doubling, capture the signed material work by bounded-overlap,
+fixed-label, deformation-adapted cores and collars, with a strict remainder,
+and attach each core to the exact stress--storage--dissipation relay. The
+datum-finite parent-mass or inverse-distance no-recount theorem remains a
+separate next burden. This cycle is ontology and strict target refinement, not
+MPP closure. Silver is unchanged.
+
 ## Above-Route Gold/Silver Analogy
 
 Within the analogy, Gold is tautology-style propagation:
