@@ -1009,17 +1009,18 @@ Silver exit follows.
   and the square in time of that raw height remain uncontrolled; an unbounded
   enstrophy ladder forces divergence of the combined rate-square/residual-square
   action. Neither term is restricted to the Gold rising set and the \(\tau\)
-  and \(|\omega|^2\) weights first meet conditionally through the
-  actual local affine-validity radius. Cycle 060 gives the canonical weighted
-  residual its global VPI evolution. Cycle 061 proves that a large native
-  weight mismatch forces that radius to shrink, while a fixed-energy
-  fixed-viscosity family rules out an energy--viscosity-only radius floor or
-  static linear deweighting coefficient. Cycle 062 replaces the hypothesized
-  radius by the canonical adaptive \(\ell_\omega\), proves its quadratic
-  vorticity tail, and bounds \(J_{\omega/\tau}\) by \(24\pi\sqrt{KD_2}\).
-  The remaining theorem must control the distinct
-  \(g\)-weighted concentration \(\int g^2/\tau\), or prove another
-  source-weighted replacement, on one original critical history. The
+  and \(|\omega|^2\) weights first meet conditionally through a uniform-Hessian
+  radius. Cycle 060 gives the canonical weighted residual its global VPI
+  evolution. Cycle 061 proves that a large native weight mismatch forces that
+  certificate to fail before a correspondingly long radius, while a
+  fixed-energy fixed-viscosity family rules out an energy--viscosity-only
+  radius floor or static linear deweighting coefficient. Cycle 062 supplies a
+  distinct canonical integrated threshold \(\ell_\omega\), proves its
+  quadratic vorticity tail, and bounds \(J_{\omega/\tau}\) by the
+  enstrophy--palinstrophy product \(24\pi\sqrt{KD_2}\). In this
+  F7.17-plus-Cauchy supplier the remaining factor is
+  \(\int g^2/\tau\); another source-weighted replacement may bypass it on one
+  original critical history. The
   fixed-energy family also rules out an energy--viscosity-only
   square-rate supplier bound. Older WLF/ODP,
   first-admission, core--collar, \(A_H\), \(J_{\mathrm{pair}}\), and
