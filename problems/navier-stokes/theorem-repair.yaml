@@ -9,14 +9,16 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-12'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#rate_field_concentration_direct_heat_clock_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#instantaneous_rate_slice_complete_source_projection_ontology_gate_spin
   effect: >-
-    Cycle 052 proves a global concentration-dependent direct heat clock on
-    decaying R3 and requires the complete simultaneous VPI source to overrun
-    that rate during rise. The datum controls only the first concentration
-    moment; Gold needs its square. No event location, thickness, persistence,
-    bounded overlap, smaller closing theorem, MPP closure, or Silver exit is
-    installed. Lower generated route occurrences remain genealogy only.
+    Cycle 053 proves that order-one invariant r_+ rate on decaying R3 already
+    has an instantaneous global heat-scale superlevel slice and that continued
+    rise requires positive dual projection of the complete simultaneous VPI
+    source stronger than direct heat. L2_t H^-1_x or L2_t L6/5_x source
+    control is sufficient for the square-rate supplier, but no datum bound is
+    proved. No one-ball localization, fixed-scale heat-time persistence,
+    smaller closing theorem, MPP closure, or Silver exit is installed. Lower
+    generated route occurrences remain genealogy only.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false

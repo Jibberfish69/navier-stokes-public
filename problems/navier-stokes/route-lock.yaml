@@ -8,14 +8,15 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-12'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#rate_field_concentration_direct_heat_clock_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#instantaneous_rate_slice_complete_source_projection_ontology_gate_spin
   effect: >-
-    Cycle 052 proves only a global concentration-dependent direct heat clock
-    and complete-source rise threshold on decaying R3. The concentration
-    volume is not a packet, support, carrier, or persistence theorem. Gold
-    remains open at complete-source control or same-history event extraction;
-    no smaller closing theorem or Silver exit is installed. Lower route
-    snapshots remain genealogy only.
+    Cycle 053 proves that order-one invariant r_+ rate on decaying R3 has an
+    instantaneous global heat-scale superlevel slice and that rise requires
+    positive dual projection of the complete source stronger than direct heat.
+    Total superlevel measure is not a packet, ball, carrier, or persistence
+    theorem. Gold remains open at datum-finite positive source action or
+    fixed-scale heat-time persistence; no smaller closing theorem or Silver
+    exit is installed. Lower route snapshots remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml

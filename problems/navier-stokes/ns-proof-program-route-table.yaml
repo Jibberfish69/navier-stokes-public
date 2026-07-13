@@ -26,12 +26,13 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#rate_field_concentration_direct_heat_clock_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#instantaneous_rate_slice_complete_source_projection_ontology_gate_spin
     effect: >-
-      Cycle 052 proves a global concentration-dependent direct heat clock and
-      exact complete-source rise threshold on decaying R3. The scale-invariant
-      occupancy is controlled only to first power while Gold needs its square;
-      no spatially persistent event is extracted. No smaller closing theorem,
+      Cycle 053 proves an instantaneous global heat-scale r_+ slice and exact
+      signed complete-source projection threshold on decaying R3. The slice may
+      be fragmented and scale-changing. L2_t H^-1_x or L2_t L6/5_x complete
+      source control is a sufficient Gold supplier, but no datum bound or
+      fixed-scale heat-time persistence is proved. No smaller closing theorem,
       Gold closure, or Silver Part/Field exit is installed.
 primary_objective:
   status: dual-gold-silver-same-object-required
