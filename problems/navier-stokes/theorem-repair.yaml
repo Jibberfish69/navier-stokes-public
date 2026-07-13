@@ -9,17 +9,16 @@ identity:
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#vorticity_affine_break_radius_palinstrophy_tail_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#centered_chord_amplitude_covariance_ontology_gate_spin
   effect: >-
-    On the instantaneous smooth decaying-R3 surface, Cycle 062 replaces the
-    need for the conditional radius in this mismatch estimate by supplying a
-    distinct unconditional integrated chord-affinity threshold radius, proves
-    its quadratic short-radius vorticity lower-tail bound, and bounds
-    J_{omega/tau} by the
-    enstrophy-palinstrophy product 24 pi sqrt(K D_2). Gold still requires
-    datum-time control of D_2 and, in this Cauchy supplier,
-    G_tau=int g^2/tau, critical-rise placement, or another direct theorem. No
-    direction/alignment or matched-localization theorem, smaller closing
+    Cycle 063 re-audits Cycle 062's mismatch estimate. The direct orientation
+    factor is Q_Pi=int tau|grad Pi|^4, generated spatially only by centered
+    chord-amplitude/direction covariance; centered amplitude variance and
+    G_tau are coarser one-way suppliers. An exact periodic heat shear has
+    Q_Pi=0 while G_tau is arbitrarily large at fixed energy across data. The
+    Cycle-062 integrated-radius and enstrophy-palinstrophy mismatch bounds
+    remain. Gold still requires datum-time control of D_2 and Q_Pi,
+    critical-rise placement, or another direct theorem. No smaller closing
     theorem, MPP closure, or Silver exit is installed. Lower generated route
     occurrences remain genealogy only.
 authority_sync_gate:
