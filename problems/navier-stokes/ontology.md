@@ -10043,6 +10043,179 @@ strict Gold reduction, Gold closure, Part/Field failure, class exit, or
 Silver result. A nonzero parallel-column field is translation invariant
 along \(n\) and is not finite-energy decaying \(\mathbb R^3\) data.
 
+F7.34 shows that the equal-shell stationarity \(D_t\Pi=0\) is not
+class-wide. Unequal heat rates can change \(\Pi\) along a material column
+while every block-orthogonal null conclusion above remains exact.
+
+### F7.34 Unequal passive heat rates can change normalized all-chord orientation along one material column
+
+This is the local all-chord and material-column realization of the
+scale--direction reweighting already proved globally in Cycle 013, not a new
+heat mechanism. On normalized periodic \(\mathbb T^3\), fix integers
+\(1\le m<n\), \(A B\ne0\), and let
+
+\[
+u(x,t)
+=e_1\left[
+Ae^{-\nu m^2t}\cos(mx_2)
++Be^{-\nu n^2t}\cos(nx_3)
+\right].
+\]
+
+This exact parallel-column Navier--Stokes history has zero convection,
+spatially constant pressure, zero vortex stretching, and
+
+\[
+\boxed{S:\Pi=r=P_H=0.}
+\]
+
+The shear strain is generally nonzero and viscosity diffuses axial momentum
+between neighboring columns. The null statement is specifically that the
+all-chord orientation block and its material change are contraction-orthogonal
+to that strain.
+
+On the material column
+
+\[
+x_2=\frac{\pi}{2m},
+\qquad
+x_3=0,
+\]
+
+every mixed contribution to the complete all-lattice tensor vanishes by an
+absolutely convergent parity cancellation. Put
+
+\[
+\alpha(t)=\frac{3mA^2}{8}e^{-2\nu m^2t},
+\qquad
+\beta(t)=\frac{nB^2}{8}e^{-2\nu n^2t},
+\qquad
+\theta(t)=\frac{\alpha}{\alpha+\beta}.
+\]
+
+Then
+
+\[
+\boxed{
+\mathsf T_u
+=\alpha(I+e_2\otimes e_2)
++\beta(I+e_3\otimes e_3),
+\qquad
+\tau=4(\alpha+\beta),
+}
+\]
+
+and
+
+\[
+\boxed{
+\Pi
+=\frac14I
++\frac14\left[
+\theta e_2\otimes e_2
++(1-\theta)e_3\otimes e_3
+\right].
+}
+\]
+
+The material particle remains on the same transverse column and \(\Pi\) is
+independent of \(x_1\), so \(D_t\Pi=\partial_t\Pi\). Exact differentiation
+gives
+
+\[
+\theta'
+=2\nu(n^2-m^2)\theta(1-\theta)>0,
+\]
+
+\[
+\boxed{
+D_t\Pi
+=\frac{\nu(n^2-m^2)}2
+\theta(1-\theta)
+(e_2\otimes e_2-e_3\otimes e_3)
+\ne0,
+}
+\]
+
+and
+
+\[
+\boxed{
+|D_t\Pi|_F
+=\frac{\nu(n^2-m^2)}{\sqrt2}\theta(1-\theta),
+\qquad
+S:D_t\Pi=0.
+}
+\]
+
+The tensor family is simultaneously diagonal in the fixed coordinate basis.
+Away from an eigenvalue degeneracy its eigendirections are fixed; at a
+degeneracy the subsequent splitting does not rotate a uniquely defined prior
+frame. The velocity direction also remains \(e_1\). This is normalized
+incidence-weight redistribution, not rotation of a fluid direction.
+
+The total selected-column variation is finite:
+
+\[
+\boxed{
+\int_0^\infty|D_t\Pi|_Fdt
+=\frac{\sqrt2}{4}(1-\theta(0))
+<\frac{\sqrt2}{4}.
+}
+\]
+
+If \(3mA^2=nB^2\), then \(\theta(0)=1/2\) and
+
+\[
+\boxed{
+|D_t\Pi(0)|_F
+=\frac{\nu(n^2-m^2)}{4\sqrt2},
+\qquad
+\int_0^\infty|D_t\Pi|_Fdt
+=\frac{\sqrt2}{8}.
+}
+\]
+
+At fixed normalized kinetic energy \(E_0>0\), choose
+
+\[
+A^2=\frac{4E_0n}{n+3m},
+\qquad
+B^2=\frac{12E_0m}{n+3m}.
+\]
+
+Holding \(m\) fixed and letting \(n\to\infty\) makes the initial pointwise
+readout rate unbounded while its total variation stays \(\sqrt2/8\). The
+fine mode's energy is
+
+\[
+\frac{B^2}{4}=\frac{3E_0m}{n+3m}\longrightarrow0,
+\]
+
+its initial viscous energy-loss rate is
+
+\[
+\frac{\nu n^2B^2}{2}longrightarrow\infty,
+\]
+
+and its total dissipated energy equals its vanishing initial energy. The fine
+pattern was already present in the datum. The exact VPI law smooths it on the
+scale-dependent heat clock \(1/(\nu n^2)\); no Fourier energy transfers to
+the coarse mode.
+
+The physical conclusion is strict. Material change of the normalized
+nonlocal all-chord tensor does not by itself imply eigenframe rotation,
+nonlinear interaction, a nonconstant pressure response, vortex stretching,
+signed critical work, Gold rise, propagation, a scale-independent viscosity
+response clock, or viscous lag. The varying-data family refutes only a finite
+uniform initial-time pointwise bound for \(|D_t\Pi|\) depending on
+\(E_0,\nu\). It does not refute per-datum, fixed-positive-time,
+higher-datum-norm, Gold-rise-restricted, signed-coupled, or alternate-route
+control. The theorem is periodic, nonlocal, globally smooth, and
+decreasing-height; it supplies no decaying-\(\mathbb R^3\) theorem,
+localization, packet or annulus carrier, strict Gold reduction, Gold closure,
+Part/Field failure, class exit, or Silver result.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
