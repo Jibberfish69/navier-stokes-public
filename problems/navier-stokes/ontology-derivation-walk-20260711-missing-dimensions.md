@@ -122,7 +122,7 @@ statement.
 
 **Return.** NO NEW FACT beyond the live F2 candidate; the dimension is
 covered by that candidate's exact mathematical statement. Canonical status
-depends on its truth and scope, not on a separate lifecycle or turn sequence.
+depends on its truth, exact scope, and nonredundancy.
 
 ## D4. Representation versus model
 
