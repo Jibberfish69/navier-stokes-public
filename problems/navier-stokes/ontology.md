@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 048.
+**Current promoted checkpoint:** Cycle 049.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -341,7 +341,7 @@ the stronger \(I\in L^3_t\) estimate through the current ceiling. The two
 targets expose temporal-rate and spatial-density faces of the same remaining
 participation problem.
 
-Cycle 048 derives the complete evolution of that normalized rate.  In
+Cycle 049 re-audits the normalized-rate evolution derived in Cycle 048. In
 Eulerian coordinates put
 
 \[
@@ -360,28 +360,64 @@ r=\frac{\mathfrak c}{\tau}=-S:\Pi.
 
 Thus the normalized rate is not amplified by loss of pair-density mass alone:
 it is the relation between strain and the normalized anisotropic orientation
-of the same all-chord field.  Pure scalar motion of \(\tau\) cancels from the
-source equation.  Common diffusion is sign-definite only for the weighted
-perspective
+of the same all-chord field. Cycle 048 left an unsigned
+\(-\Delta\log\tau\) row in the ordinary-volume energy identity. That row is
+not a separate physical obstruction. Expanding
+\(\nabla\mathsf T_u=\Pi\otimes\nabla\tau+\tau\nabla\Pi\) inside the complete
+VPI source produces the equal and opposite scalar-density drift. After the
+source is recombined, the exact equation is
+
+\[
+(D_t-\nu\Delta)r=\widetilde{\mathcal F}_r,
+\qquad
+\frac12 I'+\nu\int|\nabla r_+|^2
+=\int r_+\widetilde{\mathcal F}_r.
+\]
+
+Every row of \(\widetilde{\mathcal F}_r\) is a trace-free orientation or
+shape relation: strain and rotation, the simultaneous nonlocal pressure
+Hessian, pressure-constrained pair redistribution, or relative viscous
+reorientation. Scalar pair-density magnitude neither creates nor brakes the
+normalized rate independently. This is one joined VPI shape equation, not a
+separation of pressure, viscosity, and incompressibility.
+
+The weighted perspective remains exact:
 
 \[
 \int\tau r_+^2\,dx
 =\int\frac{\mathfrak c_+^2}{\tau}\,dx,
 \]
 
-where it dissipates \(2\nu\int\tau|\nabla r_+|^2\).  The Gold quantity
-\(I=\int r_+^2\,dx\), however, is measured in ordinary material volume. Its
-exact evolution contains the unsigned curvature of the simultaneous
-all-chord density. The pointwise Fisher bound
+where it dissipates \(2\nu\int\tau|\nabla r_+|^2\). The scalar and matrix
+Fisher bounds
 
 \[
 |\nabla\tau|^2
-\le4\tau\operatorname{tr}\mathsf G_u
+\le4\tau\operatorname{tr}\mathsf G_u,
+\qquad
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)\operatorname{tr}\mathsf G_u
 \]
 
-controls that variation only with the \(\tau\) weight and costs the already
-critical dissipation \(D\).  It therefore supplies no hidden unweighted brake
-and no \(L^2_t\) bound for \(I\).
+control density and orientation variation only with the \(\tau\) weight and
+cost the already critical dissipation \(D\). On \(\mathbb R^3\), a compact
+nonzero field has the exact far-field law
+
+\[
+\mathsf T_u(z)
+=\frac1{\pi^2}\int
+\frac{|u(x)|^2}{|x-z|^4}
+\widehat{x-z}\otimes\widehat{x-z}\,dx
+\]
+
+outside the convex hull of its support. Hence
+\(\tau(z)\sim\|u\|_2^2|z|^{-4}\), and \(\tau\) belongs to no global
+Muckenhoupt \(A_p\) or reverse-Hölder \(RH_q\) class. Exact remote-copy
+families go further: one can retain a strict rising VPI participant while a
+fine active region has \(r_+\to\infty\), \(\tau\to0\), and vanishing global
+energy and derivative contributions. Thus no datum-independent lower-density,
+inverse-\(\tau\), subsetwise deweighting, or scale-free whole-field
+deweighting theorem can be the missing brake.
 
 The fixed-energy short-rise family from F6.21 makes the boundary decisive.
 At fixed physical viscosity and fixed kinetic energy it can form a single
@@ -392,11 +428,26 @@ rising burst of height \(I_A\simeq A^4\) and duration \(A^{-5}\), so
 \]
 
 No bound depending only on \(\mathcal E_0\) and \(\nu\) can prove the new
-Gold supplier.  This varying-datum family does not refute finiteness for one
-fixed datum and does not construct recurrent terminal bursts.  A successful
-theorem must use the full normalized VPI source and its one-history recurrence,
-or prove an active-set deweighting theorem for \(\tau\).  The result describes
-neither viscosity lag nor packet, wave, annular, or persistent-carrier motion.
+Gold supplier. The remote-copy and short-rise families vary the datum. They do
+not refute finiteness for one fixed datum and do not construct recurrent
+terminal bursts.
+
+The remaining direct physical question is therefore anisotropic and
+one-historical: can the same original datum control the repeated positive
+alignment of strain with the changing normalized all-chord orientation? A
+sufficient source theorem would construct datum-dependent constants with
+
+\[
+\left[\int r_+\widetilde{\mathcal F}_r\,dx\right]_+
+\le A_0(u_0,\nu)I+C_0(u_0,\nu)I^2.
+\]
+
+Together with the datum-finite \(\int I\,dt\), that quadratic growth law would
+forbid unbounded terminal peaks and give \(I\in L_t^\infty\cap L_t^2\). A
+scale-free local source law instead has cubic growth, and cubic growth permits
+integrable terminal spikes. The constants or an equivalent recurrence law
+are not proved. The result describes neither viscosity lag nor packet, wave,
+annular, or persistent-carrier motion.
 
 Critical scaling explains the obstruction.  For a pulse with dimensionless
 amplitude \(A\), speed \(U\sim A\nu/r\), and transition thickness comparable
