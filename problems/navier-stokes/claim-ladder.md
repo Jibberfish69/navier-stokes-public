@@ -933,21 +933,85 @@ J_{\omega/\tau}
 
 This is the first unconditional control installed in this route for the
 Cycle-061 mismatch moment, by the enstrophy--palinstrophy product rather than
-palinstrophy alone.  It does
-not control the orientation-turn term.  In this F7.17-plus-Cauchy supplier the
-remaining factor is
+palinstrophy alone.  It does not control the spatial orientation term.  Cycle
+063 re-audits its direct Cauchy factor as
 
 \[
-\int\frac{g^2}{\tau}dx.
+\mathcal Q_\Pi=\int\tau|\nabla\Pi|_F^4dx,
 \]
+
+with \(\int g^2/\tau\) only a coarser sufficient supplier.
 
 The radius certifies only the integrated short-chord norm, not a pointwise
 affine break.  It gives no vorticity-direction, alignment, eigenframe,
 pointwise-vorticity, or matched-localization theorem.  The exact
 pressure-completed first- and second-jet equations do not directly yield
-radius monotonicity or persistence.  No datum time bound for palinstrophy or the new
-\(g\)-perspective, Gold-rise placement, strict Gold reduction, closure, or
+radius monotonicity or persistence.  No datum time bound for palinstrophy or
+\(\mathcal Q_\Pi\), Gold-rise placement, strict Gold reduction, closure, or
 Silver exit follows.
+
+Twenty-sixth live gate result, 2026-07-13: Cycle 063 installs F7.31 and
+identifies the exact part of chord-gradient response that changes normalized
+all-chord spatial orientation.  With
+
+\[
+d\varpi_z=\frac{|w|^2}{\tau}d\eta,
+\qquad
+\beta_k=\frac{w\cdot\partial_kw}{|w|^2},
+\]
+
+one has
+
+\[
+\boxed{
+\partial_k\Pi
+=2\operatorname{Cov}_{\varpi_z}(\beta_k,P).
+}
+\]
+
+For
+
+\[
+v_{\rm amp}
+=\tau\sum_k\operatorname{Var}_{\varpi_z}(\beta_k)
+=b_{\rm amp}-\frac{|\nabla\tau|^2}{4\tau},
+\]
+
+the sharpened law is
+
+\[
+\boxed{
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)v_{\rm amp}
+\le4v_{\rm amp}\le4g.
+}
+\]
+
+Thus common chord-amplitude change cancels from \(\Pi\), and
+velocity-increment polarization may rotate at fixed magnitude without changing
+the chord-direction distribution.  The exact periodic heat shear
+
+\[
+u_N=Ae^{-\nu N^2t}(\cos Nx_2,0,\sin Nx_2)
+\]
+
+proves the separation sharply: \(v_{\rm amp}=\nabla\Pi=\mathcal Q_\Pi=0\),
+while \(g=N^2\tau\) and
+\(\mathcal G_\tau=4N^4\mathcal H_{1/2}>0\).  Consequently
+
+\[
+\boxed{
+\int|\omega|^2|\nabla\Pi|_F^2dx
+\le J_{\omega/\tau}^{1/2}\mathcal Q_\Pi^{1/2}
+\le2\sqrt{6\pi}(KD_2)^{1/4}\mathcal Q_\Pi^{1/2},
+}
+\]
+
+and \(\mathcal Q_\Pi\le16\int v_{\rm amp}^2/\tau\le16\mathcal G_\tau\)
+only in the forward direction.  This is an instantaneous spatial covariance,
+not temporal or material turning, a viscosity-response rate, energy transfer,
+or a packet mechanism.  No datum-time control, Gold-rise placement, strict
+Gold reduction, closure, or Silver exit follows.
 
 | Order | Claim | Source Anchor | Status | Job |
 | --- | --- | --- | --- | --- |
