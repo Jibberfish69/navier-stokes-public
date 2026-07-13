@@ -943,8 +943,8 @@ remaining factor is
 The radius certifies only the integrated short-chord norm, not a pointwise
 affine break.  It gives no vorticity-direction, alignment, eigenframe,
 pointwise-vorticity, or matched-localization theorem.  The exact
-pressure-completed first- and second-jet equations give no radius monotonicity
-or persistence.  No datum time bound for palinstrophy or the new
+pressure-completed first- and second-jet equations do not directly yield
+radius monotonicity or persistence.  No datum time bound for palinstrophy or the new
 \(g\)-perspective, Gold-rise placement, strict Gold reduction, closure, or
 Silver exit follows.
 
