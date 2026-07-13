@@ -9357,9 +9357,179 @@ history, and \(2\nu D_2\) is the standard viscous enstrophy sink, not a
 separately owned payment.  Nothing here supplies a pointwise vorticity bound,
 matched localization of the centers and the regions contributing \(D_2\),
 vorticity-direction or alignment control, a time integral of \(D_2\) or
-\(g^2/\tau\), spatial co-location with critical production, radius renewal,
-critical-rise placement, a packet, annulus, material carrier, viscous
-response-time law, strict Gold reduction, Gold closure, or Silver exit.
+\(\mathcal Q_\Pi\), spatial co-location with critical production, radius
+renewal, critical-rise placement, a packet, annulus, material carrier,
+viscous response-time law, strict Gold reduction, Gold closure, or Silver
+exit.  F7.31 shows that \(g^2/\tau\) is only a coarser sufficient supplier for
+\(\mathcal Q_\Pi\).
+
+### F7.31 The spatial variation of normalized all-chord orientation is exactly a centered chord-amplitude/direction covariance
+
+At one instant on the decaying-\(\mathbb R^3\) all-chord surface, retain the
+F7.5 chord increment \(w\), chord-direction projection
+\(P=\widehat r\otimes\widehat r\), and measure
+
+\[
+d\eta=\frac1{\pi^2}\frac{dr\,ds}{|r|^4}.
+\]
+
+For a nontrivial field, \(\tau>0\) at finite centers.  Define the chord
+probability
+
+\[
+d\varpi_z=\frac{|w|^2}{\tau(z)}d\eta
+\]
+
+and, \(\varpi_z\)-almost everywhere,
+
+\[
+\beta_k
+=\frac{w\cdot\partial_kw}{|w|^2}
+=\partial_k\log|w|.
+\]
+
+The value on chord zeros is immaterial.  Direct differentiation gives
+
+\[
+\mathbb E_{\varpi_z}\beta_k
+=\frac{\partial_k\tau}{2\tau},
+\qquad
+\boxed{
+\partial_k\Pi
+=2\operatorname{Cov}_{\varpi_z}(\beta_k,P).
+}
+\]
+
+Thus neighboring centers have different normalized all-chord orientation
+only when scalar chord-amplitude response covaries with chord spatial
+direction.  A common amplitude factor cancels in the normalization, and a
+rotation of the velocity-increment vector at fixed magnitude is invisible
+because \(\Pi\) uses \(|w|^2\), not the velocity polarization.
+
+Define
+
+\[
+b_{\rm amp}
+=\sum_k\int\frac{(w\cdot\partial_kw)^2}{|w|^2}d\eta
+=\int|\nabla_z|w||^2d\eta
+\]
+
+and the centered amplitude variance
+
+\[
+\boxed{
+v_{\rm amp}
+=\tau\sum_k\operatorname{Var}_{\varpi_z}(\beta_k)
+=b_{\rm amp}-\frac{|\nabla\tau|^2}{4\tau}.
+}
+\]
+
+Since \(b_{\rm amp}\le g\),
+
+\[
+0\le v_{\rm amp}
+\le g-\frac{|\nabla\tau|^2}{4\tau}
+\le g.
+\]
+
+Moreover \(|P|_F=1\) gives
+\(\mathbb E_{\varpi_z}|P-\Pi|_F^2=1-|\Pi|_F^2\), and covariance
+Cauchy--Schwarz sharpens F7.17 to
+
+\[
+\boxed{
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)v_{\rm amp}
+\le4v_{\rm amp}
+\le4g.
+}
+\]
+
+For the Cycle-060 vorticity-weighted spatial-orientation term, put
+
+\[
+\mathcal T_{\omega,\Pi}
+=\int|\omega|^2|\nabla\Pi|_F^2dx,
+\qquad
+\mathcal Q_\Pi
+=\int\tau|\nabla\Pi|_F^4dx.
+\]
+
+Then the actual Cauchy factorization is
+
+\[
+\boxed{
+\mathcal T_{\omega,\Pi}
+\le J_{\omega/\tau}^{1/2}\mathcal Q_\Pi^{1/2}
+\le2\sqrt{6\pi}(KD_2)^{1/4}\mathcal Q_\Pi^{1/2},
+}
+\]
+
+while
+
+\[
+\boxed{
+\mathcal Q_\Pi
+\le16\int(1-|\Pi|_F^2)^2\frac{v_{\rm amp}^2}{\tau}dx
+\le16\int\frac{v_{\rm amp}^2}{\tau}dx
+\le16\mathcal G_\tau.
+}
+\]
+
+This replaces \(\mathcal G_\tau=\int g^2/\tau\) as the immediate Cauchy
+burden by the smaller quantity that records actual spatial variation of
+\(\Pi\).  The inequalities are one-way.
+
+The separation is strict inside the exact Navier--Stokes class.  On the
+normalized periodic torus,
+
+\[
+u_N(x,t)
+=Ae^{-\nu N^2t}(\cos Nx_2,0,\sin Nx_2)
+\]
+
+is divergence free, has zero nonlinear term, constant pressure, and decays by
+heat.  Every lifted chord has center-independent magnitude, so
+
+\[
+v_{\rm amp}=0,
+\qquad
+\nabla\Pi=0,
+\qquad
+\mathcal Q_\Pi=0.
+\]
+
+Its velocity-increment polarization nevertheless rotates with the center and
+
+\[
+g=N^2\tau,
+\qquad
+\mathcal G_\tau
+=N^4\int\tau dx
+=4N^4\mathcal H_{1/2}>0.
+\]
+
+At fixed kinetic energy the last quantity grows like \(N^5\), while
+\(\mathcal Q_\Pi\) remains zero.  Hence no reverse inequality, equivalence,
+or positive universal gap is available.  This harmless heat-decaying shear is
+a strictness witness, not a Gold-rise or blowup scenario.
+
+The physical scope is exact.  \(\nabla\Pi\) is a spatial center-to-center
+variation at one time, not a temporal or material rotation.  The probability
+\(\varpi_z\) is a normalized chord-parameter readout, not fluid mass or a
+population of independently existing chords.  The score \(\beta\) is a
+spatial derivative of relative-velocity magnitude, not an amplitude growth
+rate, propagation speed, viscous lag, or energy-transfer rate.  The
+projection \(P\) is chord spatial direction, not velocity-increment
+polarization, vorticity direction, strain eigenframe, or pressure-source
+eigenframe.
+
+No datum-time bound for \(\mathcal Q_\Pi\) or the centered variance integral
+is proved.  The theorem supplies no pointwise vorticity bound, matched
+localization, packet, core, annulus, connected region, material carrier,
+persistence, recurrence, response-time law, critical-rise placement, direct
+critical-height consequence, strict Gold reduction, Gold closure, Part/Field
+failure, class exit, or Silver result.
 
 ## Hard boundary: claims excluded from the ontology
 
@@ -9378,6 +9548,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-063-centered-chord-amplitude-covariance-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-062-affine-break-radius-vorticity-tail-palinstrophy-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-061-all-chord-vorticity-affine-radius-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-060-weighted-readout-residual-evolution-20260713.md`
