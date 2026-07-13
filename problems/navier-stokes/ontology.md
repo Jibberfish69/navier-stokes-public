@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 061.
+**Current promoted checkpoint:** Cycle 062.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -9111,6 +9111,209 @@ annulus, propagation speed, viscous response-time band, pressure sign,
 recurrence, critical-rise placement, strict Gold reduction, Gold closure, or
 Silver exit.
 
+### F7.30 Short affine-break radii have a quadratic vorticity tail, and the mismatch moment is palinstrophy-controlled
+
+Cycle 061 leaves its affine-validity radius conditional.  The same field's
+second derivative supplies an unconditional adaptive version.  On decaying
+\(\mathbb R^3\), define the weighted curvature surrounding a center by
+
+\[
+\mathcal C_R(z)
+=\int_{B_R(z)}
+\frac{|\nabla^2u(x)|_F^2}{|x-z|^2}\,dx.
+\]
+
+With \(\mathsf A_z=\nabla u(z)\), the exact short-chord affine term and the
+integrated Taylor remainder give
+
+\[
+\boxed{
+\tau(z)
+\ge
+\left[
+\sqrt{\frac{4R}{3\pi}}|\mathsf A_z|_F
+-\sqrt{\frac{R^2\mathcal C_R(z)}{6\pi^2}}
+\right]_+^2.
+}
+\]
+
+Equivalently, for
+
+\[
+x_R(z)=\frac{R\mathcal C_R(z)}{8\pi|\mathsf A_z|_F^2}<1,
+\]
+
+one has
+
+\[
+\tau(z)
+\ge\frac{4R}{3\pi}|\mathsf A_z|_F^2
+\left(1-\sqrt{x_R(z)}\right)^2.
+\]
+
+Put \(h=|\omega|^2\).  Set \(\ell_\omega=+\infty\) where \(h=0\), and on
+\(\{h>0\}\) define the vorticity-certified affine-break radius
+
+\[
+\boxed{
+\ell_\omega(z)
+=\sup\left\{
+R>0:
+R\mathcal C_R(z)\le\pi h(z)
+\right\}.
+}
+\]
+
+For a smooth decaying field this radius is measurable, positive, and finite on
+\(\{h>0\}\).  The integrated short-chord theorem gives the unconditional
+adaptive bridge
+
+\[
+\boxed{
+\chi_{\omega/\tau}(z)
+=\frac{|\omega(z)|^2}{\tau(z)}
+\le\frac{6\pi}{\ell_\omega(z)}.
+}
+\]
+
+The radius is an Eulerian first-jet validity distance certified by the
+surrounding second jet.  It is not a material radius, support radius, vortex
+core, or propagation length.
+
+Retain F7.25's enstrophy and palinstrophy
+
+\[
+K=\|\omega\|_2^2,
+\qquad
+D_2=\|\nabla\omega\|_2^2=\|\nabla^2u\|_2^2.
+\]
+
+Fubini gives
+
+\[
+\int\mathcal C_R(z)dz=4\pi RD_2.
+\]
+
+Consequently the vorticity at centers with short certified radius has the
+quadratic tail
+
+\[
+\boxed{
+\int_{\{\ell_\omega<R\}}|\omega|^2dx
+\le4R^2D_2.
+}
+\]
+
+In particular, with
+
+\[
+R_{1/2}=\sqrt{\frac{K}{8D_2}},
+\]
+
+one has
+
+\[
+\boxed{
+\int_{\{\ell_\omega\ge R_{1/2}\}}|\omega|^2dx
+\ge\frac K2,
+\qquad
+\chi_{\omega/\tau}
+\le12\sqrt2\,\pi\sqrt{\frac{D_2}{K}}
+\quad\text{there}.
+}
+\]
+
+Thus, at every instant, at least half of the total vorticity-square lies at
+centers whose certified first-jet radius is comparable to the global
+enstrophy length \(\sqrt{K/D_2}\).  This is an Eulerian population statement,
+not a connected or materially persistent region.
+
+The whole inverse-radius distribution obeys, for \(0<\alpha<2\),
+
+\[
+\int |\omega|^2\ell_\omega^{-\alpha}dx
+\le
+\frac{2^{\alpha+1}}{2-\alpha}
+K^{1-\alpha/2}D_2^{\alpha/2}.
+\]
+
+At \(\alpha=1\), Cycle 061's mismatch moment therefore has the unconditional
+upper bound
+
+\[
+\boxed{
+J_{\omega/\tau}
+=\int\frac{|\omega|^4}{\tau}dx
+\le24\pi\sqrt{KD_2}.
+}
+\]
+
+The simple constant is not optimal within the same integrated-Taylor method;
+retaining its exact kernel gives \(27\sqrt3\pi/4\) in place of \(24\pi\).
+The physical content is the same: weak all-chord registration of local spin
+requires actual bending in the next derivative rung.
+
+This does not yet control the Cycle-060 orientation-turn term.  F7.17 and
+Cauchy--Schwarz give
+
+\[
+\boxed{
+\int|\omega|^2|\nabla\Pi|_F^2dx
+\le4J_{\omega/\tau}^{1/2}
+\left(\int\frac{g^2}{\tau}dx\right)^{1/2}
+\le8\sqrt{6\pi}(KD_2)^{1/4}
+\left(\int\frac{g^2}{\tau}dx\right)^{1/2}.
+}
+\]
+
+The surviving bridge is therefore the concentration of gradient-increment
+bending \(g\) relative to all-chord incidence \(\tau\), not an unconstrained
+\(|\omega|^2/\tau\) ratio.  No datum bound for \(\int g^2/\tau\) is proved.
+
+The radius inputs evolve through the complete derivative tower.  With
+\(\mathcal L=D_t-\nu\Delta\),
+\(A_{ij}=\partial_ju_i\), and
+\(B_{ijk}=\partial_j\partial_ku_i\),
+
+\[
+\boxed{
+\mathcal LA_{ij}
+=-A_{i\ell}A_{\ell j}-\partial_i\partial_jp,
+}
+\]
+
+\[
+\boxed{
+\mathcal LB_{ijk}
+=-A_{i\ell}B_{\ell jk}
+-A_{\ell j}B_{i\ell k}
+-A_{\ell k}B_{ij\ell}
+-\partial_i\partial_j\partial_kp.
+}
+\]
+
+Here \(-\Delta p=\operatorname{tr}(A^2)\), so the pressure derivatives are
+the simultaneous forced nonlocal response of the same field.  The strain and
+pressure terms are signed.  Viscosity supplies the derivative-norm sinks
+inside the same equations but gives neither the radius nor the pointwise
+quotient a maximum principle, monotonicity, or persistence law.
+
+Under exact Navier--Stokes scaling, \(\ell_\omega\) scales as a length and both
+sides of the mismatch bound have the same homogeneity.  In the fixed-energy,
+fixed-viscosity Cycle-061 family,
+\(\ell_{\omega,A}=A^{-2}\ell_\omega\) and both sides scale as \(A^6\).
+Thus the theorem survives the family that refutes an energy-only radius floor.
+
+The physical return is instantaneous and exact.  Local vorticity cannot stay
+weakly represented in the all-chord field unless the same velocity gradient
+bends nearby, and the amount of vorticity occupying short bend radii is
+limited by simultaneous palinstrophy.  Palinstrophy is the second derivative
+rung and the viscous term in the same enstrophy history, not a separately
+owned payment.  Nothing here supplies a time integral of \(D_2\) or
+\(g^2/\tau\), spatial co-location with critical production, radius renewal,
+critical-rise placement, a packet, annulus, material carrier, viscous
+response-time law, strict Gold reduction, Gold closure, or Silver exit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -9128,6 +9331,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-062-affine-break-radius-vorticity-tail-palinstrophy-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-061-all-chord-vorticity-affine-radius-bridge-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-060-weighted-readout-residual-evolution-20260713.md`
 - `ontology-participation-deepening-20260711.md`
