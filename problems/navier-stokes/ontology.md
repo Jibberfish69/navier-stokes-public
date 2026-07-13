@@ -6720,8 +6720,9 @@ sign or bound for the complete source \(N\).
 The global concentration coordinates still do not extract the spacetime event
 in F7.19, even when \(\mathcal R_{6,+}\) stays of order one. F7.21 corrects
 the sharper instantaneous statement: \(\mathcal R_{6,+}\) does extract a
-global heat-scale superlevel slice, but it does not supply the time-integrated
-superlevel occupancy required on one fixed heat interval. To test that
+global threshold superlevel slice, but its selector is not a component heat
+length and it does not supply the time-integrated superlevel occupancy required
+on one fixed heat interval. To test that
 remaining logical boundary, fix a reference length \(L\), choose nonnegative spatial
 bumps \(\phi,\psi\in C_c^\infty(\mathbb R^3)\) with disjoint supports, and
 let
