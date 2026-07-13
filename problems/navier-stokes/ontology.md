@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 062.
+**Current promoted checkpoint:** Cycle 063.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -6248,6 +6248,22 @@ Cauchy--Schwarz gives
 }
 \]
 
+Cycle 063 sharpens the first row.  With the \(|w|^2\)-weighted chord
+probability, spatial variation of \(\Pi\) is exactly a centered covariance
+between chord-amplitude response and chord direction.  If \(v_{\rm amp}\)
+denotes the resulting centered amplitude variance, then
+
+\[
+\tau|\nabla\Pi|_F^2
+\le4(1-|\Pi|_F^2)v_{\rm amp}
+\le4v_{\rm amp}\le4g.
+\]
+
+The raw \(g\) also counts common amplitude change and velocity-increment
+polarization change that are invisible to the normalized chord-direction
+distribution.  F7.31 gives the exact covariance, strict periodic witness, and
+the resulting quartic orientation supplier.
+
 Physically, rapid spatial change of the normalized all-chord orientation
 requires gradient-increment mass and directional dispersion in the same
 field. The theorem prices that turning only where the incidence density
@@ -9266,24 +9282,36 @@ vorticity-square requires weighted \(|\nabla^2u|^2\) content in the surrounding
 ball.  It does not read vorticity direction, \(\Pi\)-orientation, anisotropic
 alignment, or eigenframe geometry.
 
-This does not yet control the Cycle-060 orientation-turn term.  F7.17 and
-Cauchy--Schwarz give
+This does not yet control the Cycle-060 spatial orientation term.  Define its
+direct quartic supplier
+
+\[
+\mathcal Q_\Pi=\int\tau|\nabla\Pi|_F^4dx.
+\]
+
+Cauchy--Schwarz gives
 
 \[
 \boxed{
 \int|\omega|^2|\nabla\Pi|_F^2dx
-\le4J_{\omega/\tau}^{1/2}
-\left(\int\frac{g^2}{\tau}dx\right)^{1/2}
-\le8\sqrt{6\pi}(KD_2)^{1/4}
-\left(\int\frac{g^2}{\tau}dx\right)^{1/2}.
+\le J_{\omega/\tau}^{1/2}\mathcal Q_\Pi^{1/2}
+\le2\sqrt{6\pi}(KD_2)^{1/4}\mathcal Q_\Pi^{1/2}.
 }
 \]
 
-For this F7.17-plus-Cauchy route, the remaining factor is therefore the
-concentration of squared gradient-increment variation \(g^2\) relative to
-all-chord incidence \(\tau\), not an unconstrained \(|\omega|^2/\tau\) ratio.
-No datum bound for \(\int g^2/\tau\) is proved, and no claim is made that this
-is the unique necessary route to Gold.
+F7.31 proves the one-way supplier chain
+
+\[
+\mathcal Q_\Pi
+\le16\int(1-|\Pi|_F^2)^2\frac{v_{\rm amp}^2}{\tau}dx
+\le16\int\frac{v_{\rm amp}^2}{\tau}dx
+\le16\int\frac{g^2}{\tau}dx.
+\]
+
+Thus \(\int g^2/\tau\) is only a coarse sufficient supplier, not the immediate
+orientation quantity or a physical mechanism.  No datum-time bound for
+\(\mathcal Q_\Pi\) or the centered variance integral is proved, and no claim
+is made that this is the unique necessary route to Gold.
 
 The radius inputs evolve through the complete derivative tower.  With
 \(\mathcal L=D_t-\nu\Delta\),
