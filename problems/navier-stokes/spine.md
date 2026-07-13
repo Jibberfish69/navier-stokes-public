@@ -745,7 +745,8 @@ while Gold needs its square. A smooth scalar pulse stack can have
 \(I(t_j)\to\infty\), order-one \(\mathcal R_{6,+}\), finite \(\int I\),
 finite \(\int X\), finite \(\int I^2\), and no F7.19 spacetime heat-thick
 event. It is not a Navier--Stokes \(r=-S:\Pi\) history, so it proves only that
-the global scalar coordinates cannot supply fixed-scale heat-time persistence;
+the global scalar coordinates cannot supply fixed-scale heat-interval
+integrated superlevel occupancy;
 it is not a Gold countermodel. Cycle 053 corrects Cycle 052's stronger spatial
 underread: the same coordinates do force an instantaneous global superlevel
 slice. They still prove no location, ball, material carrier, or temporal
@@ -785,8 +786,9 @@ at that instant, the same rate field has a superlevel set of total measure at
 least a universal constant times \(s^3\) at the heat-scale amplitude
 \(\nu/s^2\). The set can be disconnected, need not
 lie in one ball, and the selected scale can change with time. Thus the
-remaining event gap is fixed-scale heat-time persistence, not instantaneous
-global thickness.
+remaining event gap is fixed-scale heat-interval integrated superlevel
+occupancy, not instantaneous global measure. A positive heat-time fraction of
+pointwise thickness is one stronger sufficient route, not a necessary one.
 
 The same cycle keeps the sustaining mechanism inside participation. With
 
