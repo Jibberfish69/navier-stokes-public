@@ -3847,8 +3847,8 @@ travel across one length at speed \(U\), it is the local-Reynolds condition
 q\sim\frac{\nu}{U\ell}=\operatorname{Re}_\ell^{-1}.
 \]
 
-No such floor holds for every active same-field episode, even at fixed kinetic
-energy.  The exact F6.9 family
+No universal positive \(q\) floor holds for every positive fine-current
+episode, even at fixed kinetic energy. The exact F6.9 family
 
 \[
 u_{\mu,\lambda}(x,t)
