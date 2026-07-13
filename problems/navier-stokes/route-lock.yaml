@@ -6,15 +6,16 @@ identity:
   updated_at: '2026-04-09T23:55:00Z'
   generator: chat2-manual-route-lock
 manual_ontology_gate_reconciliation:
-  updated_on: '2026-07-12'
+  updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#terminal_threshold_ladder_no_recount_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#unbounded_rate_entrance_geometry_ontology_gate_spin
   effect: >-
-    Cycle 055 proves terminal shrinking-window non-recount after a uniform
-    order-one shrinking-threshold ladder is admitted. Gold remains open at the
-    ladder entrance plus a datum action bound, or another direct square-rate
-    theorem. No smaller closing theorem or Silver exit is installed. Lower
-    route snapshots remain genealogy only.
+    Cycle 056 refutes universal shrinking-selector entrance and proves four
+    value-scale entrance geometries with a joined q^2 source cost for every new
+    total rate height. Gold remains open at datum control of the low-R and
+    vanishing-threshold branches, a datum complete-source bound, or another
+    direct square-rate theorem. No smaller closing theorem or Silver exit is
+    installed. Lower route snapshots remain genealogy only.
 governing_object_law:
   status: active
   route_table: problems/navier-stokes/ns-proof-program-route-table.yaml

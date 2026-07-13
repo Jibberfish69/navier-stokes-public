@@ -10,15 +10,15 @@ identity:
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
 manual_ontology_gate_reconciliation:
-  updated_on: '2026-07-12'
+  updated_on: '2026-07-13'
   status: active-authority-override
-  authority: problems/navier-stokes/target-operating-contract.yaml#terminal_threshold_ladder_no_recount_ontology_gate_spin
+  authority: problems/navier-stokes/target-operating-contract.yaml#unbounded_rate_entrance_geometry_ontology_gate_spin
   effect: >-
-    Cycle 055 proves terminal shrinking-window non-recount after a uniform
-    order-one shrinking-threshold ladder is admitted. It forces divergent I^2
-    or q^2 action but proves neither the ladder entrance nor a datum upper bound.
-    No smaller closing theorem, Gold closure, or Silver exit is installed. Lower
-    generated occurrences are genealogy only.
+    Cycle 056 refutes universal shrinking-selector entrance and installs the
+    exhaustive low-R, rising-, fixed-, or vanishing-threshold classification.
+    Every doubled total rate entrance forces terminal q^2 action, but no datum
+    upper bound follows. No smaller closing theorem, Gold closure, or Silver
+    exit is installed. Lower generated occurrences are genealogy only.
 theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
   GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
   PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A

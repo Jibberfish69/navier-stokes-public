@@ -8,7 +8,7 @@ identity:
     propagated object, target chain, and bridge requirements so progress in one program
     is not silently treated as closure in another.
 manual_ontology_gate_reconciliation:
-  updated_on: '2026-07-12'
+  updated_on: '2026-07-13'
   status: active-authority-override
   canonical_ontology: problems/navier-stokes/ontology.md
   operating_gate: .claude/physical-reasoning-gate.txt
@@ -26,13 +26,13 @@ manual_ontology_gate_reconciliation:
     treats Pack as a CM face, gives route interpretations hard-fact status, or
     counts materialized theorem-facing work as mathematical progress.
   latest_gate_spin:
-    authority: problems/navier-stokes/target-operating-contract.yaml#terminal_threshold_ladder_no_recount_ontology_gate_spin
+    authority: problems/navier-stokes/target-operating-contract.yaml#unbounded_rate_entrance_geometry_ontology_gate_spin
     effect: >-
-      Cycle 055 proves terminal shrinking-window non-recount after a uniform
-      order-one shrinking-threshold ladder is admitted. Residence forces
-      divergent I^2 action or rebuilding forces divergent q^2 action. The
-      ladder entrance and datum action bounds remain open. No smaller closing
-      theorem, Gold closure, or Silver Part/Field exit is installed.
+      Cycle 056 refutes universal shrinking-selector entrance and proves the
+      exhaustive low-R, rising-, fixed-, or vanishing-threshold split. Every
+      doubled total rate entrance forces complete-source q^2 action, but no
+      datum upper bound is proved. No smaller closing theorem, Gold closure, or
+      Silver Part/Field exit is installed.
 primary_objective:
   status: dual-gold-silver-same-object-required
   proof_polarity: complementary_gold_direct_and_silver_obstruction_exclusion
