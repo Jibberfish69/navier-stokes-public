@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 057.
+**Current promoted checkpoint:** Cycle 058.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -8129,6 +8129,202 @@ follows. The remaining Gold question is historical: whether the complete VPI
 source can synchronize and repeatedly create the required rate and
 enstrophy ladders from one original datum, or whether a datum-finite joined
 source--palinstrophy law forbids that terminal recombination.
+
+### F7.26 Vortex stretching and critical compression read the same incompressible strain through different orientations
+
+Retain the smooth surfaces above. On the set where \(\omega\ne0\), put
+
+\[
+\xi=\frac{\omega}{|\omega|},
+\qquad
+P_\omega=\xi\otimes\xi,
+\qquad
+\Theta_{\omega,\perp}=\frac12(I-P_\omega).
+\]
+
+Here \(P_\omega\) is the orthogonal projector onto the vorticity direction.
+The tensor \(\Theta_{\omega,\perp}\) is the trace-one normalized orientation
+of its transverse plane; it is not itself a projector. Let \(\Pi\) be the
+actual normalized all-chord orientation from F7.16, and retain
+
+\[
+r=-S:\Pi,
+\qquad
+\alpha_\omega=\xi\cdot S\xi.
+\]
+
+Incompressibility gives \(\operatorname{tr}S=0\), hence the exact
+same-point identity
+
+\[
+S:\Theta_{\omega,\perp}
+=-\frac{\alpha_\omega}{2}.
+\]
+
+Define the signed strain-contracted readout residual
+
+\[
+\mathfrak m_{\omega,\Pi}
+=S:(\Pi-\Theta_{\omega,\perp}).
+\]
+
+Then, on \(\{\omega\ne0\}\),
+
+\[
+\boxed{
+r=\frac{\alpha_\omega}{2}-\mathfrak m_{\omega,\Pi},
+\qquad
+\alpha_\omega=2r+2\mathfrak m_{\omega,\Pi}.
+}
+\]
+
+For a direction-independent statement at vorticity zeros, define the weighted
+residual
+
+\[
+\mathfrak M_{\omega,\Pi}
+:=|\omega|^2\mathfrak m_{\omega,\Pi}
+=|\omega|^2S:\Pi+\frac12\omega\cdot S\omega,
+\]
+
+with value zero where \(\omega=0\). The enstrophy source therefore has the
+exact decomposition
+
+\[
+\boxed{
+Z=\int\omega\cdot S\omega\,dx
+=2\int|\omega|^2r\,dx
++2\int\mathfrak M_{\omega,\Pi}\,dx.
+}
+\]
+
+This is the precise instantaneous contact between F7.5 and F7.6. Vorticity
+reads strain along \(\xi\). Incompressibility forces the mean transverse
+strain to be \(-\alpha_\omega/2\). Critical work reads the same strain
+through the nonlocal all-chord orientation \(\Pi\). Thus positive
+\(\alpha_\omega\) forces at least one of \(r_+\) or
+\([\mathfrak m_{\omega,\Pi}]_+\) to be positive at that point. It does not
+force the critical readout itself to be positive.
+
+The residual is a signed difference of two strain readings, not a tensor
+distance. Algebraically, for
+\(\xi=e_3\) and
+\(S=\operatorname{diag}(-1/2,-1/2,1)\),
+
+\[
+\begin{array}{c|ccc}
+\Pi & \alpha_\omega & r & \mathfrak m_{\omega,\Pi}\\ \hline
+\Theta_{\omega,\perp} & 1 & 1/2 & 0\\
+I/3 & 1 & 0 & 1/2\\
+P_\omega & 1 & -1 & 3/2.
+\end{array}
+\]
+
+Also, with
+\(S=\operatorname{diag}(-M,M,0)\) and
+\(\Pi=e_2\otimes e_2\), one has
+\(\alpha_\omega=0\), \(r=-M\), and
+\(\mathfrak m_{\omega,\Pi}=M\). Hence the positive residual can be large
+while the stretching source is zero, through cancellation with negative
+\(r\). Conversely, \(\mathfrak m_{\omega,\Pi}=0\) says only that the two
+orientations give the same contraction against this \(S\); it does not imply
+\(\Pi=\Theta_{\omega,\perp}\). These are pointwise tensor countertests, not
+claims that an arbitrary prescribed triple \((S,\omega,\Pi)\) is realized by
+one Navier--Stokes snapshot.
+
+On decaying \(\mathbb R^3\), the identity gives a scale-critical historical
+alternative. Retain
+
+\[
+I=\int r_+^2dx,
+\qquad
+K=\int|\omega|^2dx,
+\qquad
+D_2=\int|\nabla\omega|^2dx,
+\qquad
+S_3=3\left(\frac\pi2\right)^{4/3}.
+\]
+
+For any smooth interval \(J=[a,b]\) with \(K(b)=2K(a)>0\), define
+
+\[
+\mathcal M_J
+=\int_J\frac1{K(t)}
+\int|\omega|^2[\mathfrak m_{\omega,\Pi}]_+\,dx\,dt.
+\]
+
+Hölder, Kato, interpolation, and the sharp scalar Sobolev inequality give
+
+\[
+\frac2K\int|\omega|^2r_+dx
+\le
+2S_3^{-3/4}I^{1/2}
+\left(\frac{D_2}{K}\right)^{3/4}
+\le
+\frac\nu2\frac{D_2}{K}
++\frac8{\pi^4\nu^3}I^2.
+\]
+
+Dividing the exact enstrophy balance by \(K\), integrating over \(J\), and
+using the positive parts only for the resulting upper bound yields
+
+\[
+\boxed{
+\frac12\log2
++\frac\nu2\int_J\frac{D_2}{K}\,dt
+\le
+\frac8{\pi^4\nu^3}\int_J I^2dt
++2\mathcal M_J.
+}
+\]
+
+In particular, every enstrophy doubling obeys the nonexclusive alternative
+
+\[
+\boxed{
+\int_J I^2dt
+\ge\frac{\pi^4\nu^3\log2}{32}
+\quad\text{or}\quad
+\mathcal M_J\ge\frac{\log2}{8}.
+}
+\]
+
+For the disjoint dyadic first-entrance intervals of F7.25, unbounded
+enstrophy therefore forces
+
+\[
+\int_0^{T_*}I(t)^2dt=\infty
+\quad\text{or}\quad
+\sum_j\mathcal M_{J_j}=\infty.
+\]
+
+This sharpens the Cycle 057 physical picture without identifying its two
+ladders. During an enstrophy doubling, the participant cannot stretch its
+vorticity while remaining invisible to both readings of the same strain: it
+must accumulate either squared positive all-chord compression rate or
+positive strain-contracted readout residual. The retained
+\(\nu\int D_2/K\) term records the simultaneous viscous derivative cost.
+
+The residual is not an independent force, owner, conservation law,
+dissipation, orientation distance, or Gold currency. Its positive part
+forgets cancellation with \(r\), and no datum-finite bound on it is proved.
+The \(I^2\) integral above is over the entire enstrophy-doubling interval,
+not the critical-height rising set \(G\) required by F7.15. Critical
+production is weighted by the all-chord density \(\tau\), whereas the source
+identity here is weighted by \(|\omega|^2\); no comparison of those weights
+is supplied. The exact planar separation in Cycle 006 is therefore
+unchanged: when \(\alpha_\omega=0\), the two terms can cancel under the
+vorticity weight while the differently weighted global critical production
+is positive.
+
+Because \(\Pi\) is nonlocal, none of these identities places transverse
+compression in a spatial collar, vortex annulus, packet, connected region, or
+material carrier. They prove no causal transfer from stretching to critical
+work, no \(I\)-to-\(K\) entrance synchronization, persistence, cascade,
+frequency migration, pressure sign, pressure lag, or separate viscous
+ownership. Pressure does not enter this instantaneous trace identity; it
+remains the nonlocal same-field response governing the evolution of
+\(S\), \(\omega\), and \(\Pi\). Gold and Silver remain open.
 
 ## Hard boundary: claims excluded from the ontology
 
