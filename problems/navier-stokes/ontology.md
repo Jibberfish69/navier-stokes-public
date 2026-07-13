@@ -2,7 +2,7 @@
 
 **Status:** canonical hard-fact ontology.
 
-**Current promoted checkpoint:** Cycle 041.
+**Current promoted checkpoint:** Cycle 042.
 
 **Development authority:** this is the single cumulative ontology. Numbered
 research cycles are evidence and discovery records; only independently checked
@@ -3632,7 +3632,7 @@ s_H^2=\frac{S_H}{R}
 =\operatorname{Var}_{\mu_H}(\rho).
 \]
 
-Here (m_H) and (s_H) are respectively the mean and standard deviation of
+Here \(m_H\) and \(s_H\) are respectively the mean and standard deviation of
 frequency under the critical spectral probability measure.  At a time when
 the critical height strictly rises,
 
@@ -3640,7 +3640,7 @@ the critical height strictly rises,
 R'=2(P_H-\nu D)>0,
 \]
 
-so (P_H>\nu D).  The exact current projection and product estimate give
+so \(P_H>\nu D\).  The exact current projection and product estimate give
 
 \[
 P_H^2
@@ -3649,7 +3649,7 @@ P_H^2
 \le C_\Omega^2RDS_H.
 \]
 
-Since (D=R(m_H^2+s_H^2)), every rising state therefore obeys the sharp
+Since \(D=R(m_H^2+s_H^2)\), every rising state therefore obeys the sharp
 state inequality supplied by these inputs,
 
 \[
@@ -3660,7 +3660,7 @@ s_H^2
 }
 \]
 
-In particular (C_\Omega^2R>\nu^2): below this critical-height threshold,
+In particular \(C_\Omega^2R>\nu^2\): below this critical-height threshold,
 the pressure-completed nonlinear current cannot beat viscosity.  Moment
 log-convexity gives
 
@@ -3694,7 +3694,7 @@ Since the energy centroid of F6.19 obeys
 \bar\rho=\frac RE\le\frac KR=m_H,
 \]
 
-one also has (s_H^2>\nu^2\bar\rho/(C_\Omega^2E_0)).  Thus a fixed
+one also has \(s_H^2>\nu^2\bar\rho/(C_\Omega^2E_0)\).  Thus a fixed
 finite-energy participant cannot raise its critical height at arbitrarily
 large mean frequency while its complete critical spectrum retains bounded
 absolute width.  This does not identify which frequencies or material
@@ -3711,7 +3711,7 @@ R'\ge0
 \ge2\nu\bar\rho^2.
 \]
 
-On every connected interval ([a,b]) on which (R) is nondecreasing,
+On every connected interval \([a,b]\) on which \(R\) is nondecreasing,
 
 \[
 \bar\rho(b)^{-2}
@@ -3722,7 +3722,7 @@ b-a\le\frac1{4\nu\bar\rho(a)^2}.
 \]
 
 This is an upper bound on the duration of uninterrupted rise, not a material
-dwell-time lower bound or a finite propagation speed.  If (R(b)=2R(a)),
+dwell-time lower bound or a finite propagation speed.  If \(R(b)=2R(a)\),
 the endpoint product identity is
 
 \[
@@ -3739,16 +3739,16 @@ The new width floor is datum- and state-dependent.  Its relative form
 \ge0
 \]
 
-has no universal positive lower constant as (R) ranges over large data.
+has no universal positive lower constant as \(R\) ranges over large data.
 The Pell and triangular counterfamilies in F6.19 and F6.13 reach narrow
 relative width by increasing their energy and critical height; they do not
 violate this bound.  F6.9 and F6.16 still rule out a universal normalized
 dwell or attenuation gap.  For one fixed datum, however, any sequence of
-rising times with (m_H\to\infty) must also satisfy (s_H\to\infty).
+rising times with \(m_H\to\infty\) must also satisfy \(s_H\to\infty\).
 
 This excludes bounded-absolute-width high-centroid rising histories.  It
-supplies no datum-finite upper bound for (A_H), (J_{\rm pair}), or
-(J_{\rm rad}), and the permitted intervals can shrink on a summable
+supplies no datum-finite upper bound for \(A_H\), \(J_{\rm pair}\), or
+\(J_{\rm rad}\), and the permitted intervals can shrink on a summable
 parabolic clock.  Gold therefore remains open; the fact is a necessary
 same-history state constraint rather than a regularity theorem.  It derives no
 Part or Field failure, so Silver is unchanged.
