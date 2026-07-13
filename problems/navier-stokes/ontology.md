@@ -8818,11 +8818,14 @@ strain-dissipation history.
 The \(I^2\) integral above is over the entire enstrophy-doubling interval,
 not the critical-height rising set \(G\) required by F7.15. Critical
 production is weighted by the all-chord density \(\tau\), whereas the source
-identity here is weighted by \(|\omega|^2\); no comparison of those weights
-is supplied. The exact planar separation in Cycle 006 is therefore
-unchanged: when \(\alpha_\omega=0\), the two terms can cancel under the
-vorticity weight while the differently weighted global critical production
-is positive.
+identity here is weighted by \(|\omega|^2\). F7.26 alone supplies no
+coercive or datum-finite comparison between those weights. F7.37 now gives
+their exact centered native-weight-and-orientation recombination with both
+viscous rows retained, but it still supplies no interval synchronization,
+localization, or datum bound. The exact planar separation in Cycle 006 is
+therefore unchanged: when \(\alpha_\omega=0\), the two terms can cancel under
+the vorticity weight while the differently weighted global critical
+production is positive.
 
 Cycle 068 strengthens that separation from a snapshot identity to an exact
 short-time physical event. Above its explicit amplitude threshold, the
@@ -8833,9 +8836,10 @@ contradict the terminal requirement that a genuine finite breakdown
 accumulate infinite positive alignment action: an unbounded terminal ladder
 must eventually leave the globally regular planar/null-stretching mechanism.
 F6.22 now gives the exact global threshold and every-tail stretching
-requirement for that departure. It still supplies no spatial location,
-datum-finite bound, or synchronization between the
-\(|\omega|^2\)-weighted enstrophy intervals here and the
+requirement for that departure, while F7.37 gives the exact joined
+native-weight source and its terminal positive-action requirement. Neither
+supplies a spatial location, datum-finite bound, or synchronization between
+the \(|\omega|^2\)-weighted enstrophy intervals here and the
 \(\tau\)-weighted critical-height rising set.
 
 Because \(\Pi\) is nonlocal, none of these identities places transverse
