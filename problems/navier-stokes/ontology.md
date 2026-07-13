@@ -4982,6 +4982,228 @@ all-chord carrier, positive-time persistence, bounded overlap, or a
 datum-finite no-recount law. Those are the remaining physical clauses of the
 Gold incidence theorem.
 
+### F7.12 The all-chord density has a sharp energy-level material-capacity bound
+
+On decaying \(\mathbb R^3\), define the fractional difference square function
+
+\[
+\mathcal D_{1/2,2}u(z)^2
+=\int_{\mathbb R^3}
+\frac{|u(z+h)-u(z)|^2}{|h|^4}\,dh.
+\]
+
+For \(\tau=\operatorname{tr}\mathsf T_u\), insert \(u(z)\) between the two
+endpoints in F7.5 and use the two changes of variables
+\(h=(1-s)r\) and \(h=-sr\). This gives the pointwise estimate
+
+\[
+\tau(z)\le\frac2{\pi^2}\mathcal D_{1/2,2}u(z)^2.
+\]
+
+The difference characterization of Triebel--Lizorkin spaces and the critical
+Sobolev embedding
+
+\[
+\dot F^1_{2,2}(\mathbb R^3)
+\hookrightarrow
+\dot F^{1/2}_{3,2}(\mathbb R^3)
+\]
+
+then yield
+
+\[
+\|\tau(t)\|_{L^{3/2}}
+\le C\|\mathcal D_{1/2,2}u(t)\|_{L^3}^2
+\le C\|\nabla u(t)\|_2^2.
+\]
+
+Consequently,
+
+\[
+\nu\int_0^T\|\tau(t)\|_{L^{3/2}}\,dt
+\le C\mathcal E_0.
+\]
+
+The periodic statement uses the all-lattice-lift fractional kernel. Because
+the material map preserves volume, every fixed label set \(A\) satisfies
+
+\[
+\nu\int_0^T\int_A\tau(X(a,t),t)\,da\,dt
+\le C\mathcal E_0|A|^{1/3}.
+\]
+
+At one time, if a set \(E\) carries an \(\alpha\)-fraction of the total
+all-chord density, then
+
+\[
+|E|
+\ge
+\alpha^3
+\left(
+\frac{\|\tau\|_1}{\|\tau\|_{3/2}}
+\right)^3.
+\]
+
+This is a genuine material-capacity law: the simultaneous all-chord density
+cannot remain concentrated on one arbitrarily small fixed material set for a
+long interval without using the finite viscous energy budget. The exponent
+\(3/2\) is exactly energy- and Navier--Stokes-scaling critical.
+
+It does not pair with F7.11 strongly enough to control critical production.
+Energy gives \(r\in L^2_{t,a}\), whereas F7.12 gives only
+\(\tau\in L^1_tL^{3/2}_a\). Controlling
+\(\int r\tau\) by spatial Hölder at this exponent would require \(r\in L^3\),
+not \(L^2\). The fact also gives no time-uniform density bound, moving-set
+control, positive-work sign, or persistence. A generic energy-level upgrade
+to \(L^1_tL^q_x\) with \(q>3/2\) is scaling-incompatible.
+
+### F7.13 Repeated critical growth forces collapse of work-effective material-center volume
+
+Retain \(\tau,r\) from F7.11 and put
+
+\[
+M(t)=\int\tau\,da=4\mathcal H_{1/2}(t),
+\qquad
+\rho(a,t)=\frac{\tau(a,t)}{M(t)}.
+\]
+
+Thus \(d\mu_t=\rho\,da\) is a probability measure. Define
+
+\[
+\Omega_+(t)=\{a:r(a,t)>0\}
+\]
+
+and the work-effective material-center volume
+
+\[
+V_{\mathrm{work}}(t)
+=
+\frac{M(t)^2}
+{\displaystyle\int_{\Omega_+(t)}\tau(a,t)^2\,da}
+=
+\frac1{\displaystyle\int_{\Omega_+(t)}\rho(a,t)^2\,da},
+\]
+
+with \(V_{\mathrm{work}}=\infty\) when the denominator vanishes. The
+sign-blind effective volume is
+
+\[
+V_{\mathrm{eff}}(t)
+=\frac{M(t)^2}{\int\tau^2\,da}
+\le V_{\mathrm{work}}(t).
+\]
+
+Cauchy--Schwarz gives the exact spatial coupling
+
+\[
+\int r_+\,d\mu_t
+\le
+\|r_+(t)\|_{L^2(da)}
+V_{\mathrm{work}}(t)^{-1/2}.
+\]
+
+Let \(G=\{t:\mathcal H_{1/2}'(t)>0\}\). For \(s<t\), the critical balance
+and F7.11 imply
+
+\[
+\log\frac{\mathcal H_{1/2}(t)}{\mathcal H_{1/2}(s)}
+\le
+4
+\left(
+\int_{[s,t]\cap G}\int r_+^2\,da\,dt
+\right)^{1/2}
+\left(
+\int_{[s,t]\cap G}\frac{dt}{V_{\mathrm{work}}(t)}
+\right)^{1/2},
+\]
+
+and therefore
+
+\[
+\mathcal H_{1/2}(t)
+\le
+\mathcal H_{1/2}(s)
+\exp\!\left[
+4\sqrt{\frac{\mathcal E(s)}{2\nu}}
+\left(
+\int_{[s,t]\cap G}\frac{dt}{V_{\mathrm{work}}(t)}
+\right)^{1/2}
+\right].
+\]
+
+Hence
+
+\[
+\int_{[s,T_*)\cap G}\frac{dt}{V_{\mathrm{work}}(t)}<\infty
+\]
+
+is a direct critical-height continuation criterion. The stronger sign-blind
+condition \(\int_s^{T_*}V_{\mathrm{eff}}^{-1}\,dt<\infty\) also suffices.
+
+For disjoint first-doubling intervals \(I_j\), set
+
+\[
+A_j=\int_{I_j\cap G}\int r_+^2\,da\,dt,
+\qquad
+C_j=\int_{I_j\cap G}\frac{dt}{V_{\mathrm{work}}(t)}.
+\]
+
+Every doubling forces
+
+\[
+A_jC_j\ge\frac{(\log2)^2}{16}.
+\]
+
+For \(N\) doublings,
+
+\[
+\sum_{j=1}^NC_j
+\ge
+\frac{\nu(\log2)^2}{8\mathcal E_0}N^2.
+\]
+
+Thus finite-time unbounded critical height requires
+
+\[
+\int_{[0,T_*)\cap G}\frac{dt}{V_{\mathrm{work}}(t)}=\infty.
+\]
+
+Since \(\sum_jA_j<\infty\), one has \(A_j\to0\), \(C_j\to\infty\), and the
+harmonic work-effective volume on the \(j\)-th rising part obeys
+
+\[
+\overline V_{\mathrm{work},j}^{\,\mathrm{harm}}
+:=
+\frac{|I_j\cap G|}{C_j}
+\le
+\frac{16A_j|I_j\cap G|}{(\log2)^2}
+\longrightarrow0.
+\]
+
+Under Navier--Stokes scaling on \(\mathbb R^3\),
+
+\[
+\tau_\lambda=\lambda^3\tau,
+\qquad
+r_\lambda=\lambda^2r,
+\qquad
+V_{\mathrm{work},\lambda}=\lambda^{-3}V_{\mathrm{work}}.
+\]
+
+The product of the rate action and inverse-volume action is scale invariant,
+as is the displayed \(N^2\) lower bound after the energy scaling is included.
+
+This volume is an effective volume of the nonlocal all-chord density indexed
+by material centers. It is not fluid mass, packet volume, support volume,
+annular width, or a transported energy core. Density concentration can make
+it small without support contraction. Smooth fixed-energy rescalings can make
+\(V_{\mathrm{eff}}(0)\) arbitrarily small across data, so no energy-only
+pointwise lower bound exists. Conversely, concentrated exact heat shears can
+have arbitrarily small \(V_{\mathrm{eff}}\) while
+\(w=r=P_H=0\) and remain globally smooth. Effective-volume collapse is
+therefore necessary for repeated blowup-scale growth but is not a blowup
+mechanism, a Silver exit, or a sufficient condition.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
