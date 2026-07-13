@@ -836,6 +836,107 @@ therefore specify the orientation of the active variation relative to the
 evolving material frame. There is no scalar viscosity-delay variable
 independent of that anisotropic deformation.
 
+### F1.12 Material tangent and dual resolution have opposite strain rates, not response coercivity
+
+Retain the smooth material deformation \(F,C\) from F1.11. For a fixed label
+tangent \(b\) and fixed label covector \(\alpha\), put
+
+\[
+\ell=Fb,
+\qquad
+k=F^{-T}\alpha.
+\]
+
+Then
+
+\[
+\frac d{dt}|\ell|^2=2\ell\cdot(S\circ X)\ell,
+\qquad
+\frac d{dt}|k|^2=-2k\cdot(S\circ X)k,
+\qquad
+\ell\cdot k=b\cdot\alpha.
+\]
+
+Equivalently,
+
+\[
+\frac d{dt}C^{-1}
+=-C^{-1}\dot C\,C^{-1}
+=-2F^{-1}(S\circ X)F^{-T}.
+\]
+
+Thus the squared symbol seen by a frozen label covector,
+
+\[
+m_\alpha=\alpha\cdot C^{-1}\alpha=|F^{-T}\alpha|^2,
+\]
+
+obeys
+
+\[
+\dot m_\alpha
+=-(C^{-1}\alpha)\cdot\dot C(C^{-1}\alpha)
+=-2(F^{-T}\alpha)\cdot(S\circ X)(F^{-T}\alpha).
+\]
+
+The pulled-back pressure elliptic symbol is \(m_\alpha\), and the viscous
+principal symbol is \(\nu m_\alpha\). Contraction in the current physical
+covector direction therefore increases both coefficients instantaneously;
+extension decreases them. At a fixed time, if \(q_i\) is a right singular
+direction of \(F\) with stretch \(s_i\),
+
+\[
+|Fq_i|^2=s_i^2,
+\qquad
+|F^{-T}q_i|^2=s_i^{-2},
+\qquad
+|Fq_i|^2\,\nu|F^{-T}q_i|^2=\nu.
+\]
+
+These are tangent--cotangent metric identities, not decoupled directional
+heat equations. When the singular frame rotates, a direction principal at one
+time need not remain principal. The pressure source can be written in the same
+material geometry as
+
+\[
+\left(|S|^2-\frac12|\omega|^2\right)\!\circ X
+=\frac14\operatorname{tr}\!\left[(C^{-1}\dot C)^2\right]
+-\frac12|\omega\circ X|^2,
+\]
+
+but the shared elliptic coefficient gives no monotone pressure amplitude,
+gradient, or sign.
+
+The limits are realized by an exact finite-energy torus participant. For
+
+\[
+u(t,x,y,z)
+=Ae^{-\nu k^2t}\sin(ky)e_1,
+\qquad p=0,
+\]
+
+the material deformation is a nontrivial shear,
+
+\[
+F=
+\begin{pmatrix}
+1&\gamma(a_2,t)&0\\
+0&1&0\\
+0&0&1
+\end{pmatrix},
+\qquad
+\gamma
+=\frac{A}{\nu k}
+\left(1-e^{-\nu k^2t}\right)\cos(ka_2).
+\]
+
+Its material metric becomes anisotropic while pressure remains constant and
+the global viscous dissipation rate decreases exponentially. Increasing an
+inverse-metric coefficient therefore does not imply increasing actual
+dissipation; the velocity gradient must occupy that dual direction. This fact
+supplies instantaneous response geometry only. It proves no carrier
+persistence, response-time bound, pressure brake, or Gold estimate.
+
 ## F2. One-field coherence: exact compatibility and nonlocal reconstruction
 
 ### F2.1 Strain and vorticity are compatible derivatives of one velocity
