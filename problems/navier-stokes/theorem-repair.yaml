@@ -11,8 +11,9 @@ manual_ontology_gate_reconciliation:
   status: active-authority-override
   authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
   effect: >-
-    Cycle 064 proves that Q_Pi vanishes for every global one-direction
-    periodic shear, although centered amplitude variance can be positive.
+    Cycle 064 proves that Q_Pi vanishes for every smooth nonconstant global
+    one-direction periodic shear, although centered amplitude variance can be
+    positive; constant fields have tau=0 and no Pi referent.
     Nonzero grad Pi therefore requires departure from one-line Fourier
     geometry, not automatically nonlinear interaction. Cycle 062's
     integrated-radius and enstrophy-palinstrophy mismatch bounds and Cycle

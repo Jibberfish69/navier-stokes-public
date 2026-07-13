@@ -14,8 +14,9 @@ manual_ontology_gate_reconciliation:
   status: active-authority-override
   authority: problems/navier-stokes/target-operating-contract.yaml#one_direction_shear_universal_all_chord_orientation_null_class_ontology_gate_spin
   effect: >-
-    Cycle 064 proves the global one-direction periodic null class for Q_Pi:
-    every waveform has constant Pi=(I+n tensor n)/4, while the scalar heat
+    Cycle 064 proves an exact smooth nonconstant global one-direction periodic
+    null subclass for Q_Pi: every waveform has constant
+    Pi=(I+n tensor n)/4, constant fields have tau=0 and no Pi referent, while the scalar heat
     shear can retain positive centered amplitude variance. Departure from one
     lattice line is therefore necessary but not sufficient for the
     orientation factor or causal interaction. Cycle 062's integrated-radius
