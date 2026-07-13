@@ -7462,8 +7462,8 @@ normalized compression rate. It does not by itself say that the pointwise
 rate height increases, that one spatial region grows, or that one material
 carrier persists.
 
-First, every new total height has an exact joined-source entrance cost. Let
-\(L_j=2^jL_0\), let \(\tau_j\) be the first time that
+First, every new total height has an exact joined-source entrance cost. Choose
+\(L_0>I(0)\), let \(L_j=2^jL_0\), and let \(\tau_j\) be the first time that
 \(I(\tau_j)=L_j\), and let \(a_j\) be the last preceding time at which
 \(I(a_j)=L_{j-1}\). If \(I\) is unbounded as \(t\uparrow T\), then
 \(\tau_j\uparrow T\), the intervals \([a_j,\tau_j]\) have disjoint
