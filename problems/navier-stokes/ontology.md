@@ -1222,6 +1222,71 @@ not be conserved; vorticity and material shape evolve under their respective
 equations, while Fourier support is a global Eulerian property rather than a
 material invariant.
 
+This gives an exact vortex-core alternative without treating circulation as a
+conserved budget. Let \(C(t)=\partial\Sigma(t)\) be a smooth contractible
+material loop and its advected smooth spanning surface, and write
+
+\[
+\Gamma(t)=\oint_{C(t)}u\cdot d\ell
+=\int_{\Sigma(t)}\omega\cdot n\,dA,
+\qquad
+A_\Sigma(t)=|\Sigma(t)|.
+\]
+
+Stokes and Cauchy--Schwarz give
+
+\[
+\int_{\Sigma(t)}|\omega|^2\,dA
+\ge\frac{|\Gamma(t)|^2}{A_\Sigma(t)},
+\qquad
+\|\omega(t)\|_{L^\infty(\Sigma(t))}
+\ge\frac{|\Gamma(t)|}{A_\Sigma(t)}.
+\]
+
+The surface area and circulation obey
+
+\[
+A_\Sigma'(t)
+=-\int_{\Sigma(t)}n\cdot Sn\,dA,
+\qquad
+\Gamma'(t)=\nu\oint_{C(t)}\Delta u\cdot d\ell.
+\]
+
+Thus, whenever \(\Gamma\ne0\),
+
+\[
+\frac d{dt}\log\frac{\Gamma^2}{A_\Sigma}
+=\frac{2\nu}{\Gamma}\oint_C\Delta u\cdot d\ell
++\frac1{A_\Sigma}\int_\Sigma n\cdot Sn\,dA.
+\]
+
+For \(t_0<t_1\) and \(0<\theta<1\), either
+
+\[
+|\Gamma(t_1)|\ge\theta|\Gamma(t_0)|
+\quad\Longrightarrow\quad
+\int_{\Sigma(t_1)}|\omega|^2\,dA
+\ge\frac{\theta^2|\Gamma(t_0)|^2}{A_\Sigma(t_1)},
+\]
+
+or
+
+\[
+\left|
+\nu\int_{t_0}^{t_1}\oint_{C(t)}\Delta u\cdot d\ell\,dt
+\right|
+\ge(1-\theta)|\Gamma(t_0)|.
+\]
+
+An anisotropically contracting material cross-section therefore either retains
+circulation and forces surface vorticity concentration, or records an
+accumulated signed viscous circulation change. The latter is not a positive
+dissipation payment and has no datum-finite reserve supplied by the energy
+identity. No theorem here says that every critical-height or blowup candidate
+admits such a material surface. Pressure has no separate closed-loop term
+because its gradient integrates to zero, but it remains part of the same VPI
+history determining \(S\), \(u\), and the future material geometry.
+
 ### F5.4 Helicity has no universal monotone sign
 
 When the integral is defined and boundary terms vanish,
@@ -1395,6 +1460,23 @@ more dissipative only after outer replenishment and annular storage release
 are kept in the same account.  The location of the viscous expenditure is
 determined by the strain field: a flat-core pulse places it mainly in the
 transition annulus, whereas a general vortex or anisotropic packet need not.
+
+Radius alone supplies no increasing annular cost. As an exact scalar
+countertest, among functions on \(r<|x|<R\) taking the boundary values \(A\)
+at \(|x|=r\) and \(0\) at \(|x|=R\), the harmonic radial profile minimizes
+Dirichlet energy and
+
+\[
+\inf\int_{r<|x|<R}|\nabla f|^2\,dx
+=4\pi A^2\frac{rR}{R-r}.
+\]
+
+For fixed \(A,r\), this quantity decreases to \(4\pi A^2r\) as \(R\) grows.
+Thus “more surrounding fluid” becomes a larger storage or dissipation burden
+only when the same event is proved to retain comparable amplitude, strain, or
+stress work through that added region. The scalar condenser is not itself a
+divergence-free Navier--Stokes pulse; it refutes only the geometric
+radius-implies-cost inference.
 
 The positive irreversible expenditure measure is
 
