@@ -82,7 +82,7 @@ older cycle files are evidence, not competing authority.
 | 047 | During actual rise, compare finite normalized-rate exposure with critical viscous frequency. | \(D/K\) occupancy, \(I^2\) growth bound, and fixed action per doubling. | A terminal ladder needs increasingly high, short bursts of the global scalar \(I(t)=\int r_+^2da\). | No local physical work burst, viscosity lag, packet travel, persistent owner, or closure. | Ontology advance and direct target. |
 | 048 | Evolve \(r=-S:\Pi\) in quotient coordinates and test energy-only closure. | Exact quotient law, weighted perspective, scalar Fisher bound, and fixed-energy burst no-go. | The normalized rate is a strain--orientation relation. | The weighted survivors prove no ordinary-volume control, packet/core localization, or recurrence; the separate log-density-curvature obstruction was an incomplete grouping superseded by 049. | Partial support and countertest with corrected overread. |
 | 049 | Recombine every pressure, strain, rotation, pair, and viscous row before reading ordinary-volume rate. | Clean \((D_t-\nu\Delta)r=\widetilde{\mathcal F}_r\), matrix Fisher law, far-tail theorem, and remote-copy counterfamilies on \(\mathbb R^3\). | Scalar incidence magnitude cancels; only the signed trace-free VPI shape relation drives \(r\), while orientation turning is incidence-weighted. | Static cross-data deweighting fails; no fixed-datum recurrence, packet, annulus, material carrier, viscosity lag, or separate pressure/viscosity control is proved. | Ontology correction and route obstruction. |
-| 050 | Read a high compressive alignment through the complete local strain--rotation--pressure reaction and its spatial scale. | Exact pressure-completed \(\mathsf B:\Pi\) decomposition, anisotropic null/reduction laws, cubic Sobolev barrier, and remote-copy Reynolds audit. | Incompressibility forces pressure-trace compensation in the same instant; isotropic orientation is locally null, while the Cycle 049 high-rate copies are diffusion-dominated. | No full-source sign, one-history recurrence, local packet/core event, favorable pressure, or closure. | Ontology advance and component-route obstruction. |
+| 050 | Read a high compressive alignment through the complete local strain--rotation--pressure reaction, then separately re-audit the declared scale of the Cycle 049 remote copy. | Exact pressure-completed \(\mathsf B:\Pi\) decomposition, anisotropic null/reduction laws, cubic Sobolev barrier, and remote-copy Reynolds audit. | Incompressibility forces pressure-trace compensation in the same instant; the local \(\mathsf B:\Pi\) reaction is null for isotropic orientation, while the Cycle 049 high-rate copies are diffusion-dominated. | No full-source sign, active-scale extraction, one-history recurrence, local packet/core event, favorable pressure, or closure. | Ontology advance and bare scale-free route obstruction. |
 
 Cycle 032 installs F6.10: pressure-completed nonlinear transport can change
 critical height only through spectral-shape deformation, and \(A_H\) is the
@@ -581,24 +581,30 @@ The scale-free estimate still stops at
 +C\varepsilon^{-3}\nu^{-3}I^3.
 \]
 
-That cubic exponent permits the terminal spikes isolated in Cycle 049, so
-componentwise reaction estimates cannot supply the datum-dependent quadratic
-source theorem. The Cycle 049 high-rate remote copy also has
+That cubic exponent permits the terminal spikes isolated in Cycle 049, so the
+bare scale-free self-reaction estimate cannot supply the datum-dependent
+quadratic source theorem. A datum-scaled or source-coupled component estimate
+is not excluded. The Cycle 049 high-rate remote copy instead has
 
 \[
-\operatorname{Re}_\ell
-=\frac{r\ell^2}{\nu}
-=\frac{\delta^{2-\alpha}}{\nu}\to0.
+\operatorname{Re}^{(a)}_\ell
+:=\frac{a\ell}{\nu}
+=\frac{\delta^{2-\alpha}}{\nu}\to0,
+\qquad
+\frac{r\ell^2}{\nu}
+\asymp\frac{\delta^{2-\alpha}}{\nu}\to0.
 \]
 
 Its high normalized rate is a diffusion-dominated small-amplitude gradient,
 not the cause of the base participant's strict rise and not a model of
-self-sustaining terminal recurrence. Order-one competition at shrinking scale
-can still carry raw kinetic energy of order \(\nu^2\ell\), so finite energy
-alone gives no event quantum. The remaining physical burden is an a priori,
-noncircular, one-datum recurrence law for the complete trace-free VPI source
-or for order-one-Reynolds compressive alignment. This cycle proves no such
-law, no Gold closure, and no Silver exit.
+self-sustaining terminal recurrence. Within a fixed scaled-profile class,
+amplitude-level order-one competition together with nondegenerate compressive
+alignment can still carry raw kinetic energy of order \(\nu^2\ell\), so
+finite energy gives no event quantum across that class. No theorem extracts
+such a scale or profile from large \(I\). The remaining physical burden is an
+a priori, noncircular, one-datum recurrence or cancellation law for the
+complete trace-free VPI source. This cycle proves no such law, no Gold closure,
+and no Silver exit.
 
 ## Above-Route Gold/Silver Analogy
 
