@@ -14276,7 +14276,8 @@ Its exact law is
 \]
 
 On a constant-rank stratum, the kernel--kernel block of \(D_tP\) vanishes,
-so the tangential square-root derivative is finite and
+so the tangential square-root derivative is pointwise finite and, whenever
+the displayed pairing is integrable,
 
 \[
 \boxed{
@@ -14325,7 +14326,8 @@ G_Q^\sharp
 =P^{1/2}(P^{1/2}QP^{1/2})^{\dagger1/2}P^{1/2}.
 \]
 
-Then the complete rank-two Bures chain rule is finite:
+Then, under the same integrability qualification, the complete rank-two
+Bures chain rule is finite:
 
 \[
 \boxed{
