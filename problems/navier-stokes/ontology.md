@@ -16838,6 +16838,173 @@ coercive resource is the all-intermediate continuation moment \(A\); the
 remaining mathematical object is its explicitly displayed localization
 commutator, with no component of the same fluid omitted.
 
+### F7.65 A nonnegative center probe has an exact signed commutator, while the ultraviolet trace is recovered by finite moving apertures
+
+For a complete chord with
+
+\[
+\gamma(\theta)=n\cdot u(y+\theta\rho n),
+\qquad
+v=\gamma(1)-\gamma(0),
+\]
+
+let \(w\ge0\) be a center weight and put
+
+\[
+\overline w=\int_0^1w(\theta)d\theta,
+\qquad
+f_w(\rho)=\int f_c(z,\rho)w(z)dz.
+\]
+
+With
+
+\[
+\widetilde\gamma(\theta)
+=\gamma(\theta)-\gamma(0)-\theta v,
+\]
+
+the weighted radial work has the exact decomposition
+
+\[
+\boxed{
+f_w=-\mathcal D_w+\mathfrak C_w,
+}
+\]
+
+\[
+\mathcal D_w
+=\int\frac m\rho\overline w\,v^2dy\,d\sigma\ge0,
+\]
+
+\[
+\boxed{
+\mathfrak C_w
+=\int\frac m\rho v
+\int_0^1w_\theta\widetilde\gamma d\theta
+\,dy\,d\sigma.
+}
+\]
+
+Endpoint Poincare and Cauchy--Young give the positive majorant
+
+\[
+f_w
+\le-\frac12\mathcal D_w+\frac12\mathcal C_w,
+\]
+
+\[
+\mathcal C_w
+=\frac1{\pi^2}
+\int\frac{m}{\rho\overline w}
+\left(\int_0^1|w_\theta|^2d\theta\right)
+\left(\int_0^1|\gamma_\theta|^2d\theta\right)
+dy\,d\sigma.
+\]
+
+Here \(\mathfrak C_w\) is the exact signed commutator;
+\(\mathcal C_w\) is only its generally nonsharp positive majorization.
+
+The auxiliary active VPI weight
+
+\[
+w=\frac{r_+}{\tau}
+\]
+
+is a completed marginal of the Gold Fisher row.  Since
+\(\int\eta ds=r\),
+
+\[
+\boxed{
+\tau\nabla\left(\frac{r_+}{\tau}\right)
+=\mathbf1_{\{r>0\}}
+\int
+(\nabla\eta-\eta\nabla\log\tau)ds,
+}
+\]
+
+and hence
+
+\[
+\tau^2
+\left|\nabla\left(\frac{r_+}{\tau}\right)\right|^2
+\le
+\mathbf1_{\{r>0\}}
+\int
+\frac{|\nabla\eta-\eta\nabla\log\tau|^2}{\omega}ds.
+\]
+
+This nonnegative probe is not the complete signed Gold-fiber radial
+multiplier
+
+\[
+\psi
+=\partial_s\left(\frac{\eta}{\tau\omega}\right)
+-4\frac{\eta}{\tau\omega}.
+\]
+
+Under the instantaneous algebraic test \(u\mapsto\lambda u\), \(\lambda>0\),
+the active-probe square and its majorant scale like \(\lambda^3\), whereas
+the simpler \(r_+\) and participation-Fisher heat rows scale like
+\(\lambda^2\).  This forbids an amplitude-independent direct absorption of
+that majorant, but it is not by itself a temporal or cross-data obstruction.
+
+The short-chord continuation moment has the exact ultraviolet trace
+
+\[
+\frac{A(\rho)}\rho\longrightarrow A_0,
+\]
+
+\[
+A_0
+=\frac1{\pi^2}
+\int\int_{S^2}
+(n^TSn)^2|\nabla u\,n|^2d\sigma\,dx,
+\]
+
+and
+
+\[
+\boxed{
+\frac{\mathcal P_\omega^2}{K}
+\le\int|S|^2|\omega|^2dx
+\le\frac{105\pi}{4}A_0.
+}
+\]
+
+Although the single scale-independent extra weight \(1/\rho\) makes
+\(\int A(\rho)d\rho/\rho^2\) diverge whenever \(A_0>0\), finite apertures
+recover the endpoint:
+
+\[
+\boxed{
+A_{0,\varepsilon}
+=\frac1\varepsilon
+\int_0^\varepsilon\frac{A(\rho)}\rho d\rho
+\longrightarrow A_0.
+}
+\]
+
+For a moving aperture,
+
+\[
+\boxed{
+\frac d{dt}A_{0,\varepsilon(t)}
+=\frac1\varepsilon
+\int_0^\varepsilon
+\partial_t\left(\frac A\rho\right)d\rho
++\frac{\varepsilon'}\varepsilon
+\left[
+\frac{A(\varepsilon,t)}\varepsilon
+-A_{0,\varepsilon}(t)
+\right].
+}
+\]
+
+Thus ultraviolet extraction is lawful without an infinite static action,
+but a shrinking aperture retains its exact scale-shape charge.  Center
+localization and ultraviolet extraction are two different operations on the
+same all-field current and must not be conflated.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
