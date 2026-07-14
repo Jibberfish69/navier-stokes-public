@@ -116,11 +116,11 @@ class OntologyContractChecker
     return unless legacy
 
     expected = snapshot_fact_records
-    actual = legacy.lines.filter_map do |line|
+    actual = legacy.lines.each_with_object([]) do |line, records|
       match = LEGACY_ENTRY.match(line.chomp)
       next unless match
 
-      {
+      records << {
         anchor: match[1],
         id: match[3],
         title: match[2],
@@ -145,13 +145,13 @@ class OntologyContractChecker
 
   def snapshot_fact_records
     detail_path = @contract.dig("surfaces", "frozen_detailed_snapshot")
-    @snapshot.lines.filter_map do |line|
+    @snapshot.lines.each_with_object([]) do |line, records|
       match = FACT_HEADING.match(line.chomp)
       next unless match
 
       title = "#{match[1]} #{match[2]}"
       anchor = github_slug(title)
-      {
+      records << {
         anchor: anchor,
         id: match[1],
         title: title,
@@ -229,10 +229,11 @@ class OntologyContractChecker
     end
 
     available = @map.scan(/<a id="([^"]+)"><\/a>/).flatten
-    available.concat(@map.lines.filter_map do |line|
+    heading_anchors = @map.lines.each_with_object([]) do |line, anchors|
       next unless line.match?(/^\#{1,6} /)
-      github_slug(line.sub(/^\#{1,6}\s+/, "").strip)
-    end)
+      anchors << github_slug(line.sub(/^\#{1,6}\s+/, "").strip)
+    end
+    available.concat(heading_anchors)
     referenced = @target.scan(%r{problems/navier-stokes/ontology\.md#([a-z0-9_-]+)}).flatten.uniq
     unresolved = referenced - available.uniq
     errors << "unresolved ontology anchors in target operating contract: #{unresolved.join(', ')}" unless unresolved.empty?
