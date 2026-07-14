@@ -19309,6 +19309,278 @@ perfect compensator is the unbounded pair-volume weight, while the
 datum-finite viscous payment controls only quadratic logarithmic
 deformation.
 
+### F7.75 Convex compression invariants have radial degree at least four, and the complete dynamic response factors into contractive shape and scalar compression free energy
+
+Restrict the centered incidence tangent to its exact compression subflow
+
+\[
+\partial_tY+\partial_\rho(\rho\alpha Y)=-4\alpha Y,
+\]
+
+with \(\alpha=\alpha(t)\) along the characteristic, and put
+
+\[
+\lambda(t)=\exp\!\left(\int\alpha\,dt\right).
+\]
+
+Then
+
+\[
+(\partial_t+\alpha\rho\partial_\rho)Y=-5\alpha Y,
+\]
+
+so
+
+\[
+\boxed{
+Y(t,\lambda r)=\lambda^{-5}Y_0(r),
+\qquad
+Y(t,\rho)d\rho=\lambda^{-4}Y_0(r)dr.
+}
+\]
+
+The fifth power is density scaling relative to \(d\rho\); the transported
+measure retains the quartic compression of F7.72 and F7.74.
+
+A local functional
+
+\[
+\mathcal E_L[Y]=\int_0^\infty L(\rho,Y(\rho))d\rho
+\]
+
+is invariant under every such dilation precisely when
+
+\[
+\lambda L(\lambda\rho,\lambda^{-5}y)=L(\rho,y).
+\]
+
+The complete solution is
+
+\[
+\boxed{
+L(\rho,y)=\rho^{-1}\Phi(\rho^5y),
+}
+\]
+
+hence
+
+\[
+\boxed{
+\mathcal E_\Phi[Y]
+=\int_0^\infty
+\Phi(\rho^5Y(\rho))\frac{d\rho}{\rho}.
+}
+\]
+
+If \(\Phi\) is \(p\)-homogeneous, then
+
+\[
+\mathcal E_\Phi[Y]
+=\int_0^\infty\rho^{5p-1}\Phi(Y)d\rho.
+\]
+
+For a nonzero nonnegative convex \(\Phi\) with \(\Phi(0)=0\), convexity at
+\(0<c<1\) gives
+
+\[
+\Phi(cy)\le c\Phi(y).
+\]
+
+Therefore nonzero \(p\)-homogeneity requires
+
+\[
+\boxed{p\ge1,\qquad 5p-1\ge4.}
+\]
+
+Every norm, trace perspective, or one-homogeneous matrix/operator entropy
+has radial degree four exactly.  A zero-radial-weight invariant would
+require \(p=1/5\), which the same convexity inequality forces to vanish.
+
+If \(\Phi\) is linearly coercive,
+
+\[
+\Phi(q)\ge c\|q\|,
+\]
+
+then
+
+\[
+\boxed{
+\mathcal E_\Phi[Y]
+\ge c\int_0^\infty\rho^4\|Y(\rho)\|d\rho.
+}
+\]
+
+The matrix multiplier equation has the same central character:
+
+\[
+\rho\partial_\rho\mathsf P=4\mathsf P,
+\qquad
+\boxed{\mathsf P(\rho)=\rho^4\mathsf P_0.}
+\]
+
+Internal norm-preserving operator transport commutes with this factor.
+Canceling it in a non-isometric representation merely places inverse
+fourth-power growth into that representation's operator norm.
+
+The separation from all lower moments is exact.  Choose a normalized
+log-radius bump
+
+\[
+B_R(\rho)
+=\rho^{-1}\varphi\!\left(\log\frac\rho R\right),
+\qquad
+\int B_Rd\rho=1,
+\]
+
+and, for \(0\le k<4\), set
+
+\[
+Y_L=L^{-k}v(B_L-B_1).
+\]
+
+Then
+
+\[
+\int Y_Ld\rho=0,
+\qquad
+\|Y_L\|_{\rm TV}=2L^{-k}\|v\|,
+\]
+
+and
+
+\[
+\boxed{
+\int\rho^jY_Ld\rho
+=c_jL^{-k}(L^j-1)v.
+}
+\]
+
+Every moment \(j\le k\) stays bounded while the fourth moment grows like
+\(L^{4-k}\).  Identical angular and operator labels on the two bumps show
+that finitely many matrix moments do not change this conclusion.
+
+The exact dynamic response nevertheless has a useful factorization.  For
+the complete incidence diffusion \(\Omega_q\), define
+
+\[
+K_{t,T}
+=\exp\!\left(-4\int_t^T\alpha(q,\Omega_q)dq\right)
+=\left(\frac{\rho_t}{\rho_T}\right)^4
+\]
+
+and
+
+\[
+U_{t,T}g_T
+=\mathbb E_{t,\Omega}[K_{t,T}g_T(\Omega_T)].
+\]
+
+Let
+
+\[
+\boxed{
+Z_{t,T}=U_{t,T}1,
+\qquad
+P^Z_{t,T}(d\Omega_T)
+=\frac{K_{t,T}}{Z_{t,T}}P_{t,T}(d\Omega_T).
+}
+\]
+
+Then
+
+\[
+\boxed{
+U_{t,T}g_T
+=Z_{t,T}h_{t,T},
+\qquad
+h_{t,T}=P^Z_{t,T}g_T.
+}
+\]
+
+The normalized shape response is a probability-kernel contraction:
+
+\[
+\|h_{t,T}\|_\infty\le\|g_T\|_\infty,
+\]
+
+and for every convex or operator-convex \(\Phi\),
+
+\[
+\boxed{
+\Phi(h_{t,T})
+\preceq P^Z_{t,T}\Phi(g_T).
+}
+\]
+
+All critical amplitude is isolated in \(Z\).  With
+
+\[
+\ell=\log Z,
+\]
+
+the exact logarithmic equation is
+
+\[
+\boxed{
+\mathscr D\ell+\nu|\nabla_z\ell|^2=4\alpha,
+\qquad
+\ell(T)=0.
+}
+\]
+
+Its Gibbs--Girsanov representation is
+
+\[
+\boxed{
+\ell(t,\Omega)
+=\sup_\beta\mathbb E^\beta_{t,\Omega}\!\left[
+-4\int_t^T\alpha\,dq
+-\frac1{4\nu}\int_t^T|\beta_q|^2dq
+\right].
+}
+\]
+
+Transport, pressure-constrained center flux, radial motion, turning, and
+heat remain in the baseline incidence paths.  Viscosity supplies the
+relative-entropy cost for biasing the center Brownian path toward
+compression.
+
+Finally, the complete affine source \(Q_\sigma\) enters by adjoint Duhamel:
+
+\[
+\boxed{
+\begin{aligned}
+\langle g_T,\sigma_T\rangle
+={}&\langle Z_{t,T}h_{t,T},\sigma_t\rangle\\
+&+\int_t^T
+\langle Z_{s,T}h_{s,T},Q_\sigma(s)\rangle ds.
+\end{aligned}
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+\begin{aligned}
+|\langle g_T,\sigma_T\rangle|
+\le\|g_T\|_\infty\biggl[
+&\int Z_{t,T}d|\sigma_t|\\
+&+\int_t^T\int Z_{s,T}d|Q_\sigma(s)|ds
+\biggr].
+\end{aligned}
+}
+\]
+
+This is the complete amplitude--shape history state.  Convex normalized
+shape contracts; the scalar partition \(Z\) carries all fourth-power
+compression; and transverse residual created by the joined source enters
+with the same future partition weight.  Hence nonlinear or operator
+lifting does not erase the critical character, but it does isolate its
+entire history into one scalar path free energy and one \(Z\)-weighted
+immigration response.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -19326,6 +19598,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-108-convex-compression-classification-doob-amplitude-shape-response-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-107-full-incidence-jacobian-quartic-pair-volume-renyi-anisotropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-106-dyadic-operator-information-center-conditioning-phase-commutator-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-105-critical-incidence-dynamic-adjoint-quartic-compression-20260714.md`
