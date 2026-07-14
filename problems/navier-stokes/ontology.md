@@ -16192,6 +16192,223 @@ not jointly convex at vanishing participation.  The positive extensive heat,
 the intensive Gold tether, and the participation-gradient rebuilding are
 therefore three inseparable readings of the same all-field relation.
 
+### F7.62 The complete critical-envelope current has finite square-root-remaining positive action
+
+Let
+
+\[
+A=-\Delta,
+\qquad
+B=\mathbb P(u\cdot\nabla u),
+\qquad
+F_R(A)=\frac8{\pi R}W(RA^{1/2}).
+\]
+
+The critical log-chord stock, its complete nonlinear current, and its
+simultaneous heat are
+
+\[
+Z_4(R)=\langle u,F_Ru\rangle,
+\qquad
+\widehat{\mathcal J}_R=-2\langle B,F_Ru\rangle,
+\qquad
+Q_R=\langle Au,F_Ru\rangle,
+\]
+
+with the exact tangent
+
+\[
+\boxed{
+\partial_tZ_4(R)
+=\widehat{\mathcal J}_R-2\nu Q_R.
+}
+\]
+
+Pressure remains inside the Leray-projected nonlinearity \(B\).  Energy
+tangency centers the current:
+
+\[
+\widehat{\mathcal J}_R
+=-2\left\langle
+B,\left(F_R-\frac{Q_R}{K}\right)u
+\right\rangle.
+\]
+
+For
+
+\[
+\Theta_R
+=\left\langle
+Au,\left(F_R-\frac{Q_R}{K}\right)^2u
+\right\rangle,
+\qquad
+f_R^\sharp=\frac{8W_\sharp}{\pi R},
+\]
+
+one has
+
+\[
+|\widehat{\mathcal J}_R|
+\le\frac4{\sqrt3\pi}\sqrt{HK\Theta_R},
+\]
+
+\[
+\Theta_R
+\le Q_R\left(f_R^\sharp-\frac{Q_R}{K}\right).
+\]
+
+Thus, with
+
+\[
+x_R=\frac{Q_R}{Kf_R^\sharp},
+\qquad
+\chi=\frac{2\sqrt H}{\sqrt3\pi\nu},
+\]
+
+\[
+\boxed{
+[\widehat{\mathcal J}_R-2\nu Q_R]_+
+\le
+2\nu Kf_R^\sharp
+\left[\chi\sqrt{x_R(1-x_R)}-x_R\right]_+.
+}
+\]
+
+The complete current and the simultaneous heat therefore lie on one
+state-dependent ellipse; they have not been bounded separately.
+
+The normalized stock \(p(R)=Z_4(R)/H\) is the multiplicative convolution in
+F7.59.  If \(\ell_\kappa\) is the width of any fixed interval carrying half
+the kernel mass, then
+
+\[
+L=\ell_\kappa
++\log\left(\frac{8\mathcal EK}{H^2}\right)
+\]
+
+satisfies
+
+\[
+\boxed{
+\frac{\mathscr M}{H}
+\ge\frac1{4L},
+\qquad
+\mathscr M=\max_RZ_4(R).
+}
+\]
+
+At every optimizer \(R_*\),
+
+\[
+\mathscr M\le\frac4{15\pi}KR_*,
+\]
+
+so
+
+\[
+\boxed{
+f_{R_*}^\sharp
+\le
+\frac{128W_\sharp}{15\pi^2}\frac KH\,L.
+}
+\]
+
+Consequently the complete positive optimizer current obeys
+
+\[
+\boxed{
+\mathcal N_*
+:=
+\sup_{R\in\operatorname{Argmax}Z_4}
+[\widehat{\mathcal J}_R-2\nu Q_R]_+
+\le
+\frac{256W_\sharp}{45\pi^4}
+\frac{K^2}{\nu}L.
+}
+\]
+
+Optimizer stationarity supplies a second all-field constraint.  With
+\(z=R_*r\) and the \(z\)-weighted critical probability
+
+\[
+d\lambda(z)
+=\frac{z\,d\mu_H(z)}{\int z\,d\mu_H},
+\]
+
+\[
+\int\kappa'(z)d\lambda(z)=0,
+\qquad
+x_{R_*}
+=\frac{\int W(z)d\lambda(z)}{W_\sharp}.
+\]
+
+Since \(\kappa'>0\) near zero while \(W\) is strictly positive away from
+zero, there is a universal \(\theta_\kappa>0\) such that
+
+\[
+x_{R_*}\ge\theta_\kappa.
+\]
+
+The current--heat ellipse then gives a universal threshold
+
+\[
+\boxed{
+\mathcal N_*>0
+\quad\Longrightarrow\quad
+H>h_\kappa\nu^2,
+\qquad
+h_\kappa
+=\frac{3\pi^2}{4}
+\frac{\theta_\kappa}{1-\theta_\kappa}.
+}
+\]
+
+Positive rebuilding cannot be sustained by an arbitrarily weak optimizer:
+stationarity forces a fixed simultaneous heat fraction.
+
+Finally let
+
+\[
+a(t)=2\nu\int_t^TI(\sigma)d\sigma,
+\qquad
+-da=2\nu I\,dt,
+\]
+
+and suppose on the reciprocal corridor
+
+\[
+\frac{aI}{\nu^4}\le b_+,
+\qquad
+\frac KI\le k_+.
+\]
+
+Then every positive episode is paid by the same one-way history:
+
+\[
+\boxed{
+\begin{aligned}
+\int_{t_0}^{T}\sqrt a\,\mathcal N_*dt
+\le{}&
+\frac{256W_\sharp}{45\pi^4}
+b_+k_+^2\nu^2\sqrt{a(t_0)}\\
+&\times
+\left[
+\ell_\kappa
++\log\left(
+1+\frac{8\mathcal E_0b_+k_+}
+{h_\kappa^2a(t_0)}
+\right)
++2
+\right].
+\end{aligned}
+}
+\]
+
+The result counts neither records nor packets.  All centers and scales
+supply the log-width, pressure-completed transport supplies the current,
+optimizer stationarity supplies the heat fraction, and the exact
+remaining-expenditure derivative orders every renewed positive episode.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
