@@ -20482,7 +20482,7 @@ Therefore the dynamic dyadic contribution is
 }
 \]
 
-Moving \(L\) off (C_j^Z\) differentiates \(\Phi_G\), recreating active
+Moving \(L\) off \(C_j^Z\) differentiates \(\Phi_G\), recreating active
 selector motion together with strain, slaved pressure, transport, turning,
 and heat.  It does not turn the static phase estimate into temporal Gold
 control.  The exact complete state is therefore
@@ -20520,7 +20520,7 @@ d\Theta_t^\eta
 }
 \]
 
-Adjoin an active/inactive mode (e\in\{0,1\}\) and put
+Adjoin an active/inactive mode \(e\in\{0,1\}\) and put
 
 \[
 d\widehat\mu_t^\eta
@@ -20553,8 +20553,8 @@ J^-=\Lambda(d\eta)_-
 \]
 
 are restart and shutdown traffic.  Their difference telescopes and their sum
-counts cycle activity.  A completed (0\to1\to0\) cycle returns every state
-entropy to its initial value while increasing (J^++J^-\).  A finite-rate
+counts cycle activity.  A completed \(0\to1\to0\) cycle returns every state
+entropy to its initial value while increasing \(J^++J^-\).  A finite-rate
 two-mode Markov entropy likewise controls irreversible net current, not
 arbitrarily large reversible traffic; a hard switch is singular relative to
 such a reference.  The observational selector has no independent physical
@@ -20595,7 +20595,7 @@ The signed center phase is its off-diagonal entry:
 \right].
 \]
 
-For a (C^2\) convex Gram entropy,
+For a \(C^2\) convex Gram entropy,
 
 \[
 \mathcal L\Psi(G_j)
@@ -20615,7 +20615,7 @@ Cancellation for every complete source tangent forces
 Y_jD\Psi=0,
 \]
 
-and therefore (D\Psi=0\) at rank-two states.  The only source-free local
+and therefore \(D\Psi=0\) at rank-two states.  The only source-free local
 Gram entropy is constant.  Log determinant is also singular on the affine
 rank-deficient states, and normalized correlation entropy does not see
 completed phase cycles.
@@ -20645,7 +20645,7 @@ integration by parts gives, for every BV selector,
 }
 \]
 
-The atomic term (-\int aB_jd\eta\) is the exact phase restart work.  Thus
+The atomic term \(-\int aB_jd\eta\) is the exact phase restart work.  Thus
 moving the derivative off the phase recreates the temporal edge current and
 the full evolving Gold cotangent; it does not make the static phase payment a
 dynamic one.
@@ -20672,8 +20672,8 @@ then
 \]
 
 does not recover \(\int(h_e)_+d\sigma_e\) or its primitive negative
-counterlegs.  Nor does the sign of a birth source (Q_\sigma\) determine the
-sign of its future contribution (-G_\eta Q_\sigma\), since (G_\eta\) depends
+counterlegs.  Nor does the sign of a birth source \(Q_\sigma\) determine the
+sign of its future contribution \(-G_\eta Q_\sigma\), since \(G_\eta\) depends
 on the future selector and quartic path response.
 
 Therefore the temporal edge packet does not prove the older
@@ -20781,8 +20781,8 @@ F_S(\mathsf K)
 {2\tau\operatorname{tr}\mathsf K},
 \]
 
-write (d=\operatorname{tr}\mathsf K\),
-\(\mathsf R=\mathsf K/d\), and (y=-S:\mathsf R\).  Its gradient and
+write \(d=\operatorname{tr}\mathsf K\),
+\(\mathsf R=\mathsf K/d\), and \(y=-S:\mathsf R\).  Its gradient and
 Hessian are
 
 \[
@@ -20877,12 +20877,12 @@ then
 \boxed{P-B^TG^\dagger B\succeq0.}
 \]
 
-The Gold source is a cotangent-weighted off-diagonal reading of (B\).  The
+The Gold source is a cotangent-weighted off-diagonal reading of \(B\).  The
 new positive diagonal is precisely source innovation not predicted by the
 slope increment, including \(|\delta\mathfrak q_j|^2\) with slaved pressure
 inside \(\mathfrak q_j\).
 
-If (L\mathfrak q_j=\mathfrak r_j\), the block material law is
+If \(L\mathfrak q_j=\mathfrak r_j\), the block material law is
 
 \[
 \boxed{
