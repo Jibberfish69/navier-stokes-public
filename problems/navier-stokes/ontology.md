@@ -24832,22 +24832,21 @@ c_\rho=P_n^\perp g_\rho,
 \end{aligned}
 \]
 
-Commuting \(\partial_\rho\) through the joined connection yields
+Because
+
+\[
+\Theta=4H\frac{r_+}{\tau}h(z,n)
+\]
+
+is independent of the radial coordinate, commuting \(\partial_\rho\)
+through the joined connection yields
 
 \[
 \boxed{
-\begin{aligned}
 \partial_\rho Z_\Gamma
-={}&
-\left(
-D_{\rm pair}+\frac12\kappa_\Gamma
--\frac{R_\Gamma'}{R_\Gamma}
-\right)\partial_\rho\Theta\\
-&+b_\rho\cdot\nabla_z\Theta
-+(\alpha+\rho\alpha_\rho)\partial_\rho\Theta
+=b_\rho\cdot\nabla_z\Theta
 +c_\rho\cdot\nabla_n\Theta
 +\frac12\kappa_{\Gamma,\rho}\Theta.
-\end{aligned}
 }
 \]
 
