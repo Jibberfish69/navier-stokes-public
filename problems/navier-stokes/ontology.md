@@ -18863,6 +18863,7 @@ with
 \qquad
 \sum_j\chi_j\le\frac{4\log3}{3\pi}K.
 }
+\]
 
 These are genuine datum-finite operator productions of the complete
 subchord law.  They do not, however, equal the evolution of the adaptive
@@ -18951,6 +18952,7 @@ but
 \boxed{
 \sum_j\mathbb E(\zeta_j)_+=\infty.
 }
+\]
 
 Finite smooth chord profiles approximate every finite truncation.  The
 local failure also occurs on a smooth viscous shear.  For
