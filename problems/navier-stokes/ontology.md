@@ -11601,6 +11601,60 @@ paid; an infinite Gold history can persist only by continuous scale migration,
 which is the same contraction/rebuilding row \(\beta\) measured by the
 all-field clock above.
 
+The master chord law gives the corresponding statement without a Fourier
+selector.  For fixed \(R>0\), put
+
+\[
+\mathcal C_R=\int_0^R\rho^4M(\rho)d\rho,
+\qquad
+\mathcal G_R=\int_0^R\rho^4G_\Delta(\rho)d\rho,
+\qquad
+\mathcal J_R=-R^4F(R).
+\]
+
+Then
+
+\[
+\mathcal C_R'=\mathcal J_R-2\nu\mathcal G_R.
+\]
+
+The global increment bounds give
+
+\[
+\mathcal C_R(t)\le\frac{32}{3\pi}\mathcal E_0R^3,
+\qquad
+2\nu\int_0^T\mathcal G_Rdt
+\le\frac{32}{3\pi}\mathcal E_0R^3.
+\]
+
+If \(\mathcal R_R\) is the full contact set of the running maximum of
+\(\mathcal C_R\), including plateaux, the exact envelope identity yields
+
+\[
+\boxed{
+\int_{\mathcal R_R}[\mathcal J_R]_+dt
+\le\frac{64}{3\pi}\mathcal E_0R^3.
+}
+\]
+
+Thus inward all-point incidence flux is datum-finite at every fixed chord
+length as well.  For a moving length \(R(t)\), the exact law is
+
+\[
+\boxed{
+\begin{aligned}
+\frac d{dt}\int_0^{R(t)}\rho^4M(\rho,t)d\rho
+={}&-R^4F(R,t)
+-2\nu\int_0^R\rho^4G_\Delta(\rho,t)d\rho\\
+&+R'R^4M(R,t),
+\end{aligned}
+}
+\]
+
+with every \(R\) on the right evaluated at \(R(t)\).  When the selected chord
+length shrinks, the final row is negative: the same inward VPI flux must pay
+both the viscous square and the stock removed by scale migration.
+
 Finally, the quadratic chord entropy is forced.  For a convex scalar
 \(\Psi(V)\), the pressure bulk after center integration is
 
