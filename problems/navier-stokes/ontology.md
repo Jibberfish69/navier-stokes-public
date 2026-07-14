@@ -256,4 +256,3 @@ None. A future card may be added only under the canonical write contract after
 the exact claim is proved at its stated scope, its same-participant meaning and
 non-implications are written, affected consumers are re-audited, and an
 existing card cannot be consolidated instead.
-
