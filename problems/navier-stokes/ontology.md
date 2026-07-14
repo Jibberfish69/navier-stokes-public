@@ -26290,6 +26290,131 @@ planes of the same all-field tangent.  Keeping the signed current is exact;
 turning it into a positive estimate necessarily advances one rung in that
 same material hierarchy.
 
+### F7.115 The common critical current is the radial boundary flux of a positive two-copy cocycle and the base mean of the base--active score flag
+
+Let \(\mathfrak M\), \(\mathfrak F\), and \(\mathfrak G\) be the
+all-intermediate velocity-cocycle stock, radial current, and heat.  They obey
+
+\[
+\partial_t\mathfrak M
++\rho^{-4}\partial_\rho(\rho^4\mathfrak F)
+=-2\nu\mathfrak G,
+\]
+
+with
+
+\[
+\int\mathfrak M=4H,
+\qquad
+\int\mathfrak G=2D,
+\qquad
+\int\rho^{-4}\partial_\rho(\rho^4\mathfrak F)=-4P_H.
+\]
+
+On two independent all-field copies, the positive density
+\(\mathfrak M_1\mathfrak M_2/32\) has heat
+
+\[
+\frac\nu{16}left(
+\mathfrak G_1\mathfrak M_2
++\mathfrak M_1\mathfrak G_2
+\right)
+\]
+
+and signed radial boundary current.  Its integrated identity is
+
+\[
+\boxed{
+\frac12(H^2)'+\nu HD=HP_H.
+}
+\]
+
+The same positive two-copy bulk controls the instantaneous Gold lower target:
+
+\[
+\boxed{
+I^2\le\frac19K^2\le\frac29HD.
+}
+\]
+
+Thus \(HP_H\) is not an external source; it is the historical radial
+boundary of the present positive upper/lower object.
+
+Scalar weights preserve that boundary:
+
+\[
+\left(\frac{\mathfrak aH^2}{2}\right)'
++\nu\mathfrak aHD+\nu IH^2
+=\mathfrak aHP_H,
+\]
+
+\[
+\left(\frac{BH^2}{2}\right)'
++\nu BHD+\frac{\mathfrak a}{2}H^2
+=BHP_H.
+\]
+
+At the collar scale,
+
+\[
+B[HP_H]_+
+\le
+\varepsilon\frac{B^{5/3}}I H^2P_H^2
++\frac1{4\varepsilon}B^{1/3}I.
+\]
+
+The tail pays the second term; the first is the common-mode current square,
+not the centered mixed curvature of F7.109.
+
+The exact Gold-target escort score is
+
+\[
+\widehat\chi_I
+=\chi-\frac{I'}{2I},
+\]
+
+and it expands as
+
+\[
+\boxed{
+\widehat\chi_I
+=\frac12\left(\frac{H'}H-\frac{I'}I\right)
++D_{\rm pair}\log\left[\frac{r_+}{\tau}h\right]
+-2\alpha,
+}
+\]
+
+or, using the critical-height and VPI balances,
+
+\[
+\boxed{
+\widehat\chi_I
+=\frac{P_H}{2H}-\frac NI
+-\frac{\nu D}{2H}+\frac{\nu X}{I}
++D_{\rm pair}\log\left[\frac{r_+}{\tau}h\right]
+-2\alpha.
+}
+\]
+
+The common height current, active VPI source, both heat rows, endpoint
+compression, and local active-shape motion are therefore one base--active
+relative-score flag.  The active Hellinger score alone is centered, whereas
+
+\[
+\frac{P_H}{H}=-4\mathbb E_{p_H}\alpha
+\]
+
+is a base-incidence mean.  Recovering that mean from the active likelihood
+requires inverse likelihood and the inactive base sector; forward active
+entropy does not supply it.
+
+Trying to match the common \(H'\) coefficient adaptively forces a weight
+whose logarithmic derivative contains both \(H'/H\) and the complete
+acceleration-stock derivative.  The same current and source hierarchy then
+re-enter through the weight.  Hence the centered transverse deformation and
+common radial transport are complementary historical coordinates of the
+same VPI field, not mutually substitutable scalar laws.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26307,6 +26432,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-149-two-copy-common-mode-current-base-active-relative-score-flag-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-148-transverse-ejection-radial-material-jerk-diagonal-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-147-present-cocycle-upper-lower-trace-critical-collar-source-jet-necessity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-146-complete-pair-phase-liouville-cancellation-finite-active-escort-score-20260714.md
