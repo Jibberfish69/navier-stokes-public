@@ -25333,6 +25333,367 @@ direction.  Velocity-ray homothety, forced acceleration-chord ejection, and
 source-Gram curvature are successive readings of one all-field material
 chain.
 
+### F7.108 The fractional double tail and Gold-target escort are the lower and upper halves of one collar law
+
+Fix a finite smooth horizon \([t_0,T]\), and retain the Gold target
+
+\[
+I(t)=\int_{\mathbb R^3}r_+(x,t)^2\,dx,
+\qquad
+\frac12I'+\nu X=N.
+\]
+
+Define its remaining expenditure and its remaining first moment by
+
+\[
+\mathfrak a(t)=2\nu\int_t^T I(s)\,ds,
+\qquad
+B(t)=\int_t^T\mathfrak a(s)\,ds.
+\]
+
+Then
+
+\[
+B'=-\mathfrak a,
+\qquad
+B''=2\nu I,
+\qquad
+B(T)=B'(T)=0.
+\]
+
+For every \(0<q<1\), one integration by parts gives the exact
+fractional-tail identity
+
+\[
+\boxed{
+2\nu\int_{t_0}^TB^qI\,dt
++q\int_{t_0}^TB^{q-1}\mathfrak a^2\,dt
+=B(t_0)^q\mathfrak a(t_0).
+}
+\]
+
+At the physical collar exponent \(q=1/3\),
+
+\[
+\boxed{
+2\nu\int_{t_0}^TB^{1/3}I\,dt
++\frac13\int_{t_0}^T\frac{\mathfrak a^2}{B^{2/3}}\,dt
+=B(t_0)^{1/3}\mathfrak a(t_0).
+}
+\]
+
+Consequently, for every real rebuilding rate \(A\) and every
+\(\varepsilon>0\),
+
+\[
+\boxed{
+B[A]_+
+\le
+\varepsilon\frac{B^{5/3}}I A^2
++\frac1{4\varepsilon}B^{1/3}I.
+}
+\]
+
+The exponents are forced: the product of the source weight
+\(B^{5/3}/I\) and the trough weight \(B^{1/3}I\) is \(B^2\).  Thus the
+present-target lower payment and the history-tangent upper payment are
+Young-dual rows of the same renewal current.
+
+For the complete active incidence population, put
+
+\[
+M=\frac{\Theta^2}{4\pi^2H},
+\qquad
+\widehat M_I=\frac MI.
+\]
+
+This absorbs the apparent participation leverage \(R_\Gamma/I\) into the
+population itself:
+
+\[
+\boxed{
+B^{5/3}\widehat M_I
+=\frac{B^{5/3}}I M.
+}
+\]
+
+The price of this normalization is not an independent estimate.  It is
+exactly the original VPI material score
+
+\[
+\boxed{
+\frac{I'}I=2\frac{N-\nu X}{I},
+\qquad
+D_{\rm pair}\widehat M_I
+=\frac1I D_{\rm pair}M-\frac{I'}I\widehat M_I.
+}
+\]
+
+Let \(j=\delta\mathbf a/\rho\) be the acceleration chord and
+\(\phi=\delta F_{\mathbf a}/\rho\) its next joined source.  With
+\(\gamma=B^{5/3}\), the exact target-normalized first-jet entropy is
+
+\[
+\boxed{
+\begin{aligned}
+\frac12\left(\gamma\int\widehat M_I|j|^2d\Omega\right)'
+&+12\nu\gamma\int\widehat M_I|j_\rho|^2d\Omega
++\frac{5\mathfrak a}{6B}\gamma
+  \int\widehat M_I|j|^2d\Omega\\
+&+\gamma\int\left[
+2\alpha\widehat M_I
+-\frac12(D_{\rm pair}\widehat M_I
++\nu\Delta_z\widehat M_I)
+\right]|j|^2d\Omega\\
+&=\gamma\int\widehat M_Ij\cdot\phi\,d\Omega
++12\nu\gamma\mathfrak C_{\widehat M_I}[j],
+\end{aligned}
+}
+\]
+
+where
+
+\[
+\mathfrak C_{\widehat M_I}[j]
+=\int\widehat M_I|j_\rho|^2d\Omega
+-\frac1{12}\int\widehat M_I|\nabla_zj|^2d\Omega.
+\]
+
+Hence the lower Gold normalization and the complete source upper tangent
+live in one equation.  In particular, the positive radial heat occurs at
+exactly the collar-source weight
+
+\[
+12\nu\frac{B^{5/3}}I\int M|j_\rho|^2d\Omega.
+\]
+
+### F7.109 The complete source collar is the radial Dirichlet energy of one temporal Hellinger score
+
+On a positive smooth active interval, write
+
+\[
+d\Gamma=\frac{m}{4H}d\Omega,
+\qquad
+R_\Gamma^2=\int\Theta^2d\Gamma,
+\]
+
+and define the unit signed half-density and centered temporal score
+
+\[
+\boxed{
+\mathfrak h_\Gamma
+=\sqrt{\frac{m}{4H}}\frac{\Theta}{R_\Gamma},
+\qquad
+\int\mathfrak h_\Gamma^2d\Omega=1,
+}
+\]
+
+\[
+\boxed{
+\Sigma
+=2\left(
+\frac{\mathcal T_\Gamma}{\Theta}
+-\frac{R_\Gamma'}{R_\Gamma}
+\right).
+}
+\]
+
+If
+
+\[
+Z_\Gamma
+=\mathcal T_\Gamma
+-\frac{R_\Gamma'}{R_\Gamma}\Theta,
+\qquad
+W=\sqrt{\frac{m}{4H}}Z_\Gamma,
+\]
+
+then
+
+\[
+\boxed{
+W=\frac{R_\Gamma}{2}\mathfrak h_\Gamma\Sigma.
+}
+\]
+
+The temporal Fisher action is exactly the turning of the full incidence ray:
+
+\[
+\boxed{
+\int\mathfrak h_\Gamma^2\Sigma^2d\Omega
+=\frac{4\mathcal K_\Gamma}{R_\Gamma}.
+}
+\]
+
+More importantly, the entire radial source collar is one scalar mixed
+derivative:
+
+\[
+\boxed{
+\mathcal N_\rho
+:=\int|\partial_\rho W|^2d\Omega
+=\frac{R_\Gamma^2}{4}
+\left\|\partial_\rho(
+\mathfrak h_\Gamma\Sigma)
+\right\|_{L^2(d\Omega)}^2.
+}
+\]
+
+Thus
+
+\[
+\boxed{
+\frac{B^{5/3}}I\mathcal N_\rho
+=\frac{B^{5/3}R_\Gamma^2}{4I}
+\left\|\partial_\rho(
+\mathfrak h_\Gamma\Sigma)
+\right\|_2^2.
+}
+\]
+
+This is the scalar all-field upper object paired with the lower Gold
+target in F7.108.  Its product rule
+
+\[
+\partial_\rho(\mathfrak h_\Gamma\Sigma)
+=\mathfrak h_\Gamma\partial_\rho\Sigma
++\Sigma\partial_\rho\mathfrak h_\Gamma
+\]
+
+keeps source variation and motion of the incidence population inseparable.
+Equivalently, since \(\Theta\) itself is independent of \(\rho\),
+
+\[
+\boxed{
+\sqrt{\frac{m}{4H}}Y_\rho
+=\frac{R_\Gamma}{2}
+\partial_\rho(\mathfrak h_\Gamma\Sigma),
+}
+\]
+
+where
+
+\[
+Y_\rho
+=[\partial_\rho,\nabla_t^\Gamma]\Theta
++\frac{g\cdot g_\rho}{|g|^2}Z_\Gamma.
+\]
+
+The commutator expands into center translation, angular motion, radial
+position, scale-shape score, acceleration chords, pressure, viscosity, and
+normalization.  Those are coordinate rows of this one mixed curvature; none
+is an independently acting mechanism.  Exact homothetic heat chords can make
+the axial and geometric rows cancel, while affine strain can have nonzero
+angular geometry and zero \(\mathcal N_\rho\).  The full scalar derivative,
+not any isolated row, is therefore the invariant upper object.
+
+### F7.110 Escort motion completes the radial commutator into a center carré and leaves a sharp angular half-gap
+
+Let
+
+\[
+w=\frac{\Theta}{2\pi\sqrt H},
+\qquad
+M=w^2,
+\qquad
+w_\rho=0,
+\]
+
+and for a physical chord field \(q\) define
+
+\[
+\mathfrak D_{\rm ch}[q]
+=\int|q_\rho|^2d\Omega
+-\frac1{12}\int|\nabla_zq|^2d\Omega.
+\]
+
+The active radial/center heat defect satisfies the exact multiplier identity
+
+\[
+\boxed{
+\begin{aligned}
+\mathfrak C_M[j]
+:={}&\int M|j_\rho|^2d\Omega
+-\frac1{12}\int M|\nabla_zj|^2d\Omega\\
+={}&\mathfrak D_{\rm ch}[wj]
+-\frac1{24}\int\Delta_zM\,|j|^2d\Omega
++\frac1{12}\int|\nabla_zw|^2|j|^2d\Omega.
+\end{aligned}
+}
+\]
+
+Put
+
+\[
+\chi
+=\frac{\mathcal T_\Gamma}{\Theta}
+-\frac{g\cdot j}{|g|^2}.
+\]
+
+The escort equation gives
+
+\[
+D_{\rm pair}M=2M(\chi+2\alpha),
+\qquad
+2\alpha M-\frac12D_{\rm pair}M=-M\chi.
+\]
+
+When these identities are inserted into the first-jet entropy, its two
+Laplacian-multiplier terms cancel.  With
+
+\[
+E_M=\int M|j|^2d\Omega,
+\qquad
+q_\beta=\frac{5\mathfrak a}{3B}
++\frac{R_\Gamma'}{R_\Gamma},
+\]
+
+one obtains the exact positive completion
+
+\[
+\boxed{
+\begin{aligned}
+\frac12(\beta E_M)'
++\frac{\beta q_\beta}{2}E_M
++\nu\beta\int|\nabla_z(wj)|^2d\Omega
+={}&\beta\int Mj\cdot\phi\,d\Omega\\
+&+\beta\int(
+M\chi+\nu|\nabla_zw|^2
+)|j|^2d\Omega.
+\end{aligned}
+}
+\]
+
+The signed radial/center commutator is therefore not a free source.  Escort
+transport, escort diffusion, and the chord-channel defect recombine into the
+positive center carré of the same weighted acceleration chord.  The remaining
+rows are the next joined source, the relative material score, and the spatial
+Fisher potential of the same escort.
+
+For a frozen active center
+
+\[
+M=C(n^TSn)^2,
+\qquad
+\operatorname{tr}S=0,
+\]
+
+the principal angular part obeys the sharp two-sided half-gap
+
+\[
+\boxed{
+\frac1{24}\int M|\nabla_zj|^2d\Omega
+\le
+\int M|j_\rho|^2d\Omega
+\le
+\frac18\int M|\nabla_zj|^2d\Omega.
+}
+\]
+
+Thus frozen angular anisotropy cannot erase radial heat; the genuinely
+all-field first jet left by this comparison is the center-to-center variation
+of the escort itself.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -25350,6 +25711,10 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-144-escort-commutator-carre-angular-half-gap-center-first-jet-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-143-radial-temporal-hellinger-score-scalar-all-field-law-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-142-gold-target-normalized-source-escort-vpi-recombination-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-141-fractional-double-tail-collar-entropy-participation-leverage-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-140-active-escort-mixed-source-current-hankel-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-139-active-escort-acceleration-chord-first-jet-entropy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-138-all-radius-source-first-jet-upper-lower-bridge-20260714.md
