@@ -17408,6 +17408,270 @@ covariance is cubic under amplitude scaling.  The additional tier is created
 inside the same fluid object by intense parent participation and variation of
 the selector through the chord.  It is not an independently owned source.
 
+### F7.68 The active incidence has datum-finite Jordan action, while its normalized radial source is a centered shape covariance
+
+For the self-consistent active selector
+
+\[
+w=\frac{r_+}{\tau},
+\qquad
+d\chi_z=\frac{m}{\tau}d\rho\,d\sigma\,d\theta,
+\]
+
+the VPI fixed-point condition \(r=\mathbb E_{\chi_z}h\) gives the measure
+pushforward
+
+\[
+\boxed{
+Z_\#(w h\,d\mu)=r_+^2dz.
+}
+\]
+
+Equivalently, for every bounded center test \(\varphi\),
+
+\[
+\int\varphi(Z)wh\,d\mu
+=\int\varphi(z)r_+^2dz.
+\]
+
+In particular,
+
+\[
+\boxed{
+\int wh\,d\mu=I,
+\qquad
+P_Z(h-r)=0,
+\qquad
+\int w(h-r)d\mu=0.
+}
+\]
+
+The scale-resolved selected work
+
+\[
+\mathscr I(s)=\int wq\,dz
+\]
+
+and chord-radius density
+
+\[
+j_w(\rho)
+=\int m_C\overline w_C\beta_wdC_\rho
+\]
+
+obey
+
+\[
+\int\mathscr I(s)ds
+=\int_0^\infty j_w(\rho)d\rho
+=I.
+\]
+
+More strongly, the total variation of the selected compression is paid.
+Define
+
+\[
+\mathcal V_w
+=\int w|h|d\mu
+=\int r_+\mathbb E_{\chi_z}|h|dz.
+\]
+
+Since
+
+\[
+r_+\le\mathbb E_{\chi_z}|h|
+\le\|S\|_{\rm op},
+\]
+
+\[
+\boxed{
+\mathcal V_w\le\int|S|^2dz=\frac K2,
+\qquad
+2\nu\int_0^T\mathcal V_wdt\le\mathcal E_0.
+}
+\]
+
+Both signs are therefore paid separately, and
+
+\[
+\boxed{
+\int\!\!\int|wq|dz\,ds
+\le\mathcal V_w,
+\qquad
+\int_0^\infty|j_w(\rho)|d\rho
+\le\mathcal V_w.
+}
+\]
+
+For
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+e(t)=\nu\int_t^TK(q)dq,
+\]
+
+\[
+\boxed{
+a'=-2\nu\int wh\,d\mu,
+\qquad
+\int_t^TaI\,dq=\frac{a(t)^2}{4\nu},
+}
+\]
+
+and, since \(a\le e\),
+
+\[
+\boxed{
+\int_t^Ta\mathcal V_wdq
+\le\frac{e(t)^2}{4\nu}
+\le\frac{\mathcal E_0^2}{4\nu}.
+}
+\]
+
+This is a datum-finite remaining-expenditure-weighted Jordan action of the
+complete active incidence.
+
+The actual scalar VPI source must retain all normalized rows.  With
+
+\[
+\mathbf B=S^2+W^2+\nabla^2p,
+\qquad
+\alpha=\frac{v_\rho}{\rho},
+\]
+
+and the Cycle 089 fluxes, the source in
+
+\[
+\frac12I'+\nu X=N
+\]
+
+is
+
+\[
+\boxed{
+\begin{aligned}
+N={}&
+\int \Gamma\cdot\nabla[w(h-r)]
++\int wm\,\mathbf B:n\otimes n\\
+&+\int wm\,\dot n\cdot\nabla_{S^2}h\\
+&-2\nu\int w\left[
+\nabla h\cdot\nabla m
++(h-r)g
+-m\nabla\log\tau\cdot\nabla r
+\right]
++N_{\rm rad}.
+\end{aligned}
+}
+\]
+
+All integrals are over the complete incidence variables.  The pressure
+Hessian is in \(\mathbf B\), the pressure increment is in \(\Gamma\), and
+center transport, angular turning, both heat slots, participation
+normalization, and radial motion remain one tangent.
+
+The direct remaining-expenditure Gold marginal is
+
+\[
+\boxed{
+(aI)'
++2\nu I^2
++2\nu aX
+=2aN.
+}
+\]
+
+The radial row is not the raw Cycle 100 flux.  Critical homogeneity and trace
+normalization give
+
+\[
+\boxed{
+N_{\rm rad}
+=-4\int w\alpha(h-r)m
+=-4\int r_+
+\operatorname{Cov}_{\chi_z}(\alpha,h)dz.
+}
+\]
+
+Put
+
+\[
+\widehat h=h-r,
+\qquad
+\widehat\alpha
+=\alpha-\mathbb E_{\chi_z}\alpha.
+\]
+
+Then
+
+\[
+\boxed{
+\begin{aligned}
+N_{\rm rad}
+=\int r_+\bigl[
+&\mathbb E_{\chi_z}
+(\widehat\alpha-\widehat h)^2\\
+&-\mathbb E_{\chi_z}
+(\widehat\alpha+\widehat h)^2
+\bigr]dz.
+\end{aligned}
+}
+\]
+
+Thus positive radial rebuilding is excess anti-alignment between endpoint
+log-radius motion and unresolved compression fluctuation.  It obeys
+
+\[
+\boxed{
+[N_{\rm rad}]_+
+\le4\int r_+
+\sqrt{
+\operatorname{Var}_{\chi_z}(\alpha)
+\operatorname{Var}_{\chi_z}(h)}dz,
+}
+\]
+
+\[
+\boxed{
+\frac{N_{\rm rad}^2}{16I}
+\le\int
+\operatorname{Var}_{\chi_z}(\alpha)
+\operatorname{Var}_{\chi_z}(h)dz,
+\qquad
+\operatorname{Var}_{\chi_z}(h)
+\le|S|^2-r^2.
+}
+\]
+
+In chord-tilted coordinates,
+
+\[
+\delta_w
+=\frac{\overline{w(h-r)}_C}{\overline w_C}
+\]
+
+has zero completed active mean and
+
+\[
+\boxed{
+N_{\rm rad}
+=\int m_C\overline w_C
+\left[
+(\delta_w-\alpha_C)^2
+-(\delta_w+\alpha_C)^2
+\right]dC.
+}
+\]
+
+The finite Jordan action pays the zero-order selected compression.  The
+radial source contains one additional centered log-radius-motion factor and
+is cubic rather than quadratic under amplitude scaling.  Exact incidence
+tables with the same active center means and the same \(I\) give both signs
+of this covariance; when \(h-r=0\), trace normalization cancels a positive
+raw radial phase current exactly.  Hence the self-consistent payment and the
+normalized radial covariance are distinct rows of the same all-field law,
+not interchangeable scalar conditions.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -17425,6 +17689,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-101-active-incidence-jordan-action-normalized-radial-covariance-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-100-incidence-projection-phase-alignment-scalar-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-099-all-intermediate-subchord-cocycle-gold-endpoint-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-098-gold-center-weight-commutator-derivative-tier-ultraviolet-boundary-20260714.md`
