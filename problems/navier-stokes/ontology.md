@@ -22067,6 +22067,154 @@ point--whole-field tether.  Remaining-expenditure weighting retains the
 Fisher row, the drain \(2\nu I\mathcal G_V\ge\nu I^3/2\), and the same joined
 source \(\mathfrak a\mathcal R_V\).
 
+### F7.90 The active Pearson norm has the Gold-critical square root and one full-incidence source cotangent
+
+Put
+
+\[
+f=r_+,
+\qquad
+p_H=\frac\tau{4H},
+\qquad
+\mathcal G_V=\frac14\int\frac{f^4}{p_H}dx,
+\qquad
+\mathcal Z_V=\sqrt{\mathcal G_V}\ge\frac I2.
+\]
+
+The perspective Fisher row and the nodal selector heat complete exactly:
+
+\[
+\boxed{
+\mathcal G_V'+\mathcal V_{\rm rel}=\mathcal S_{\rm rel},
+}
+\]
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal V_{\rm rel}
+={}&\frac\nu2\int p_H
+\left|\nabla\left(\frac{f^2}{p_H}\right)\right|^2dx
++\nu\int\frac{f^2}{p_H}|\nabla f|^2dx\\
+={}&\nu\int_{\{f>0\}}\frac{f^4}{p_H}
+\left[
+3\left|\nabla\log f-\frac13\nabla\log\tau\right|^2
++\frac16|\nabla\log\tau|^2
+\right]dx\ge0,
+\end{aligned}
+}
+\]
+
+\[
+\boxed{
+\mathcal S_{\rm rel}
+=\int_{\{f>0\}}\frac{f^4}{p_H}
+\left[
+\frac{\widetilde{\mathcal F}_r}{f}
+-\frac14\left(
+\frac{\mathcal F_\tau}{\tau}-\frac{H'}H
+\right)
+\right]dx.
+}
+\]
+
+Thus sharpening of the active rate, mismatch with the complete chord field,
+and formation of a chord-population trough are one positive viscous square.
+The pressure-completed source remains one joined strain--rotation--pressure--
+pair-redistribution--heat-shape cotangent.
+
+For \(a'= -2\nu I\), the exact scale-critical law is
+
+\[
+\boxed{
+(a\mathcal Z_V)'
++2\nu I\mathcal Z_V
++\frac{a\mathcal V_{\rm rel}}{2\mathcal Z_V}
+=\frac{a\mathcal S_{\rm rel}}{2\mathcal Z_V},
+}
+\]
+
+with
+
+\[
+2\nu I\mathcal Z_V\ge\nu I^2.
+\]
+
+The square root is forced: among powers
+\(a\mathcal G_V^\alpha\), Navier--Stokes scaling is critical only at
+\(\alpha=1/2\), and a universal depletion based on
+\(\mathcal G_V\ge I^2/4\) requires growth at least like \(\sqrt{\mathcal G_V}\).
+Equivalently,
+
+\[
+2\mathcal Z_V
+=I\sqrt{1+\chi^2(p_I\Vert p_H)}.
+\]
+
+On the complete chord probability
+
+\[
+d\Gamma=\frac{m}{4H}d\Omega,
+\qquad
+\Theta=4H\frac{r_+}{\tau}h,
+\qquad
+h=-S:n\otimes n,
+\]
+
+signed VPI completion gives
+
+\[
+\boxed{
+P_Z\Theta=\frac{r_+^2}{p_H},
+\qquad
+\mathcal G_V=\frac14\|P_Z\Theta\|_{L^2(\Gamma)}^2.
+}
+\]
+
+The unresolved full-fiber part is the nonnegative Pythagorean remainder
+
+\[
+\frac14\|(I-P_Z)\Theta\|_{L^2(\Gamma)}^2
+=H\int\frac{r_+^2}{\tau}
+\operatorname{Var}_{\chi_z}(h)dx.
+\]
+
+Finally, with
+
+\[
+\psi=\frac{r_+^2}{\sqrt{p_H}},
+\qquad
+\widehat{\mathscr S}_V
+=\frac{2r_+\widetilde{\mathcal F}_r}{\sqrt{p_H}}
+-\frac{r_+^2R_{p_H}}{2p_H^{3/2}},
+\]
+
+one has
+
+\[
+\boxed{
+\frac{\mathcal S_{\rm rel}}{2\mathcal Z_V}
+=\frac12\left\langle
+\frac\psi{\|\psi\|_2},
+\widehat{\mathscr S}_V
+\right\rangle.
+}
+\]
+
+The remaining-expenditure-weighted positive curvature is therefore the
+positive unit-cotangent motion of the complete relative VPI source, not a
+separate scalar source hypothesis.  The actual energy stock gives the
+parallel one-way law
+
+\[
+(\mathcal E\mathcal Z_V)'
++\nu K\mathcal Z_V
++\frac{\mathcal E\mathcal V_{\rm rel}}{2\mathcal Z_V}
+=\frac{\mathcal E\mathcal S_{\rm rel}}{2\mathcal Z_V},
+\qquad
+\nu K\mathcal Z_V\ge\frac{3\nu}{2}I^2.
+\]
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22085,6 +22233,7 @@ The following are not hard facts and carry no premise weight here:
 ## Checked repo derivations and audits
 
 - theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-123-active-pearson-square-root-gold-transform-full-incidence-cotangent-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-121-tau-normalized-source-block-whole-field-gold-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-120-projective-angular-entropy-whole-field-trace-gold-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
