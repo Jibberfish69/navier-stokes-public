@@ -23068,6 +23068,117 @@ failure of persistence is
 The full incidence ray is therefore the scalable tether: every center and
 every chord is one coordinate of it, and every pair law is its marginal.
 
+### F7.97 Fine-chord polynomial rigidity excludes every nonzero active full-incidence eigenray
+
+Assume on a positive active interval that
+
+\[
+\nabla_t^\Gamma\Theta=\lambda_\Gamma(t)\Theta.
+\]
+
+At an active center put
+
+\[
+A=\nabla u,
+\quad
+S=\operatorname{sym}A,
+\quad
+\mathsf B=\nabla(-\nabla p+\nu\Delta u),
+\quad
+\mathsf C=A^TA,
+\quad
+\mathsf D=\operatorname{sym}(A^T\mathsf B).
+\]
+
+For \(q_M(n)=n^TMn\) and
+\(\alpha=q_S(n)\), the fine connection and chord turning are
+
+\[
+\kappa_0
+=-\frac{H'}H
++2\frac{q_{\mathsf D}}{q_{\mathsf C}}
+-4\alpha,
+\]
+
+\[
+D_{\rm f}\alpha
+=q_{\operatorname{sym}\mathsf B}
++q_{\mathsf C}
+-2\alpha^2.
+\]
+
+Since the fine amplitude is
+\(\Theta=-c_a\alpha\), the scalar eigenray gives
+
+\[
+\boxed{
+q_{\mathsf K}
+-\eta\alpha
++4\alpha^2
+-\alpha\frac{q_{\mathsf D}}{q_{\mathsf C}}
+=0,
+\qquad
+\mathsf K
+=\nabla^2p-\nu\Delta S-\mathsf C.
+}
+\]
+
+On the zero cone \(q_S=0\), this forces \(q_{\mathsf K}=0\), hence
+
+\[
+\mathsf K=\beta S.
+\]
+
+Substitution and homogenization give
+
+\[
+\boxed{
+q_0q_{\mathsf D}
+=\left[(\beta-\eta)q_0+4q_S\right]q_{\mathsf C}.
+}
+\]
+
+Because \(q_0=|n|^2\) is irreducible and coprime to the bracket, polynomial
+divisibility forces
+
+\[
+\boxed{
+A^TA=cI,
+\qquad
+\mathsf D=c(\beta-\eta)I+4cS.
+}
+\]
+
+Material differentiation, using \(D_tA=\mathsf B-A^2\), yields
+
+\[
+\boxed{
+D_t(A^TA)
+=2c(\beta-\eta)I+6cS.
+}
+\]
+
+Persistence of \(A^TA=cI\) makes the left side scalar.  At an active center
+\(c>0\), so the trace-free part forces \(S=0\).  Then
+\(h=-S:n\otimes n=0\) and \(\Theta=0\), a contradiction.
+
+Therefore
+
+\[
+\boxed{
+\nabla_t^\Gamma\Theta=\lambda_\Gamma(t)\Theta
+\text{ on an interval}
+\quad\Longrightarrow\quad
+\Theta=0.
+}
+\]
+
+Every nonzero active interval has genuine full-incidence turning on a
+subset.  The result is local and uses no finite-energy hypothesis.  It is
+not a uniform gap: smooth null activations can approach a radial ray, so the
+unavoidable turning must still be treated through the double-tail temporal
+renewal law.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -23085,6 +23196,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-130-fine-chord-polynomial-rigidity-no-active-full-incidence-eigenray-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-129-full-incidence-hilbert-ray-double-tail-renewal-eigenray-dichotomy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-128-full-incidence-residual-perspective-conditional-fisher-affine-birth-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-127-double-tail-remaining-expenditure-radial-jordan-curvature-20260714.md
