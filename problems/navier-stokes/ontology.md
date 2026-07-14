@@ -22969,6 +22969,26 @@ R_\Gamma''
 
 The moving-projection terms in the center and fiber laws are
 equal-and-opposite and cancel before this full polar decomposition.
+Because \(\Theta\) contains \(r_+\) linearly, selector activations are read
+through Hilbert-radius regularization: a one-sided slope jump is a
+curvature atom or an endpoint charge, not a classical second derivative.
+
+The full turning splits exactly into center ambient turning, fiber ambient
+turning, and relative center/fiber radial-rate turning:
+
+\[
+\begin{aligned}
+\mathcal K_\Gamma
+=\frac1{R_\Gamma}\Bigg[
+&\|P_{e_Z}^\perp(Y_Z-\dot PV_\perp)\|_\Gamma^2\\
+&+\|P_{e_F}^\perp(Y_F+\dot PU)\|_\Gamma^2\\
+&+\frac{(R_F\alpha_Z-R_Z\alpha_F)^2}{R_\Gamma^2}
+\Bigg].
+\end{aligned}
+\]
+
+Thus the moving projection can cancel or create projected turning; no
+universal ordering between center, fiber, and full-ray curvature exists.
 
 With the unique double-tail weight \(B''=2\nu I\),
 
