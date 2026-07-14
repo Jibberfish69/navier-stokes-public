@@ -20501,6 +20501,214 @@ middle coordinates retain the signed all-scale slope/source telescope, and
 Any scalar law is a marginal of this joined state and must preserve the
 signed telescope until after the complete Gold contraction.
 
+### F7.79 Temporal renewal is a covariant path-edge activity, and local mode or phase-Gram entropy cannot pay completed cycles
+
+Define the survival-weighted Feynman--Kac path kernel
+
+\[
+\Lambda_{t,s}
+=\frac{a(s)}{a(t)}Z_{t,s}P^Z_{t,s}.
+\]
+
+If \(\nabla_s^K\) is the forward covariant derivative of the full kernel,
+then the signed Doob--Jordan occupation of F7.76 is exactly
+
+\[
+\boxed{
+d\Theta_t^\eta
+=-\nabla_s^K[\eta(s)\Lambda_{t,s}].
+}
+\]
+
+Adjoin an active/inactive mode (e\in\{0,1\}\) and put
+
+\[
+d\widehat\mu_t^\eta
+=\Lambda_{t,s}
+[(1-\eta)\delta_0+\eta\delta_1].
+\]
+
+Its mode-edge current is
+
+\[
+\boxed{dJ_t^\eta=\Lambda_{t,s}d\eta(s),}
+\]
+
+and the complete continuity law is
+
+\[
+\boxed{
+\nabla_s^K\widehat\mu_t^\eta
+=-\kappa\widehat\mu_t^\eta ds
++(\delta_1-\delta_0)dJ_t^\eta.
+}
+\]
+
+The positive and negative Jordan components
+
+\[
+J^+=\Lambda(d\eta)_+,
+\qquad
+J^-=\Lambda(d\eta)_-
+\]
+
+are restart and shutdown traffic.  Their difference telescopes and their sum
+counts cycle activity.  A completed (0\to1\to0\) cycle returns every state
+entropy to its initial value while increasing (J^++J^-\).  A finite-rate
+two-mode Markov entropy likewise controls irreversible net current, not
+arbitrarily large reversible traffic; a hard switch is singular relative to
+such a reference.  The observational selector has no independent physical
+transition-rate law.
+
+The material phase Gram lift has the same boundary.  With
+
+\[
+Y_j=[g_j,\Delta_j],
+\qquad
+Q_j=[\mathfrak q_j,\delta\mathfrak q_j],
+\qquad
+G_j=\pi^{-2}Y_j^TY_j,
+\]
+
+one has
+
+\[
+\boxed{
+\mathcal LG_j
+=\pi^{-2}
+\left[
+Q_j^TY_j+Y_j^TQ_j
+-2\nu\sum_k(\partial_kY_j)^T\partial_kY_j
+\right].
+}
+\]
+
+The signed center phase is its off-diagonal entry:
+
+\[
+\mathcal L\zeta_j
+=\frac2{\pi^2}
+\left[
+\mathfrak q_j\cdot\Delta_j
++g_j\cdot\delta\mathfrak q_j
+-2\nu\nabla g_j:\nabla\Delta_j
+\right].
+\]
+
+For a (C^2\) convex Gram entropy,
+
+\[
+\mathcal L\Psi(G_j)
+=D\Psi:\mathcal LG_j
+-\nu D^2\Psi[\nabla G_j,\nabla G_j].
+\]
+
+Its complete source row is
+
+\[
+\frac2{\pi^2}(Y_jD\Psi):Q_j.
+\]
+
+Cancellation for every complete source tangent forces
+
+\[
+Y_jD\Psi=0,
+\]
+
+and therefore (D\Psi=0\) at rank-two states.  The only source-free local
+Gram entropy is constant.  Log determinant is also singular on the affine
+rank-deficient states, and normalized correlation entropy does not see
+completed phase cycles.
+
+Retain
+
+\[
+\Phi_G=\frac{r_+}{\tau}(S+rI),
+\qquad
+B_j=\langle\Phi_G,C_j^Z\rangle.
+\]
+
+If \(\mathcal L^\sharp\) is the weak complete cotangent generator, material
+integration by parts gives, for every BV selector,
+
+\[
+\boxed{
+\begin{aligned}
+\int a\eta
+\langle\Phi_G,\mathcal LC_j^Z\rangle dt
+={}&[a\eta B_j]
++2\nu\int\eta I B_jdt\\
+&-\int aB_jd\eta
+-\int a\eta
+\langle\mathcal L^\sharp\Phi_G,C_j^Z\rangle dt.
+\end{aligned}
+}
+\]
+
+The atomic term (-\int aB_jd\eta\) is the exact phase restart work.  Thus
+moving the derivative off the phase recreates the temporal edge current and
+the full evolving Gold cotangent; it does not make the static phase payment a
+dynamic one.
+
+The edge current has an automatic Hahn split
+
+\[
+d\mu_{\rm edge}^J=\Lambda d\eta,
+\qquad
+d\mu_{\rm edge}^{A,N}=\Lambda(d\eta)_{\pm}.
+\]
+
+This is the split of restart versus shutdown *after* aggregate Gold selection.
+If a raw complete source is
+
+\[
+N=\int h_e d\sigma_e,
+\]
+
+then
+
+\[
+\left[\int h_e d\sigma_e\right]_+
+\]
+
+does not recover \(\int(h_e)_+d\sigma_e\) or its primitive negative
+counterlegs.  Nor does the sign of a birth source (Q_\sigma\) determine the
+sign of its future contribution (-G_\eta Q_\sigma\), since (G_\eta\) depends
+on the future selector and quartic path response.
+
+Therefore the temporal edge packet does not prove the older
+`FullTowerPositiveChannelThreeMeasureAdmission.A`: it lacks the primitive
+parent-known channel/chart/projector/stopped-line/face label before summation
+and clipping.  It does have one exact downstream use.  If raw labeled packets
+are first admitted, positivity and linearity give
+
+\[
+\boxed{
+\Lambda_\#\mu_e^J
+=\Lambda_\#\mu_e^A-\Lambda_\#\mu_e^N,
+}
+\]
+
+with the label retained.  The Doob--Jordan law then propagates those signs and
+adds the temporal no-recount coordinate.
+
+The exact renewal state is therefore
+
+\[
+\boxed{
+(\Lambda;
+\widehat\mu^\eta,J^+,J^-;
+G_j,Q_j;
+\Phi_G,C_j^Z;
+\mathfrak B_b).
+}
+\]
+
+Renewal is a covariant activity current, not a state-entropy production.
+Avoiding its unlimited rectification requires either the full Gold/source
+activity itself, a signed monotone-record law, or a raw pre-readout channel
+law; another endpoint entropy cannot supply it.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -20518,6 +20726,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-112-covariant-renewal-edge-current-phase-gram-entropy-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-111-quartic-jordan-pullback-pair-gramian-dynamic-center-phase-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-110-pair-phase-convex-entropy-pressure-flux-uniqueness-reflection-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-109-positive-rebuilding-multiple-exercise-doob-jordan-occupation-20260714.md`
