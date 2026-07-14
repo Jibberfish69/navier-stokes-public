@@ -26791,6 +26791,107 @@ retain radial crossing as well as the ultraviolet trace; the moving
 radial-position tensor is the continuation of the same all-field chord
 object.
 
+### F7.119 A participating HJB ruler cancels radial renewal and carries a datum-finite Fisher entropy
+
+Choose a positive finite-mass ruler density \(\varpi=e^{2s}\) whose logarithm
+satisfies the complete pair-phase law
+
+\[
+\boxed{
+D_{\rm pair}s+2\nu|\nabla_zs|^2=\alpha.
+}
+\]
+
+Since \(\operatorname{div}_\Omega V_{\rm pair}=-2\alpha\),
+
+\[
+\boxed{
+\partial_t\varpi
++\operatorname{div}_\Omega(V_{\rm pair}\varpi)
+=-\nu\frac{|\nabla_z\varpi|^2}{\varpi},
+}
+\]
+
+and therefore
+
+\[
+\boxed{
+\int\varpi(t)d\Omega
++\nu\int_{t_0}^t\!\int
+\frac{|\nabla_z\varpi|^2}{\varpi}d\Omega ds
+=\int\varpi_0d\Omega.
+}
+\]
+
+This is a datum-finite one-way entropy of the all-field ruler itself.  Set
+
+\[
+\ell=B^{1/3}e^s,
+\qquad
+k=\log\frac\ell\rho.
+\]
+
+Then
+
+\[
+\boxed{
+D_{\rm pair}k+2\nu|\nabla_zk|^2
+=-\frac{\mathfrak a}{3B}.
+}
+\]
+
+Equivalently, the bounded collar participation
+
+\[
+C=\frac{\ell^2}{\rho^2+\ell^2}
+\]
+
+obeys the pointwise one-way law
+
+\[
+\boxed{
+D_{\rm pair}C
++\frac{2\mathfrak a}{3B}C(1-C)
++\nu\frac{|\nabla_zC|^2}{C(1-C)}=0.
+}
+\]
+
+Thus local strain moves the physical chord and its ruler together and drops
+out of their relative evolution.  The relative collar cannot rebuild along
+the complete material pair flow: it must decrease through the
+remaining-expenditure clock and viscous Fisher production.
+
+For
+
+\[
+R=\rho^2C,
+\qquad
+Z_f=Rq_f,
+\]
+
+the exact finite chord entropy is
+
+\[
+\boxed{
+\begin{aligned}
+\frac12\frac d{dt}\|Z_f\|_2^2
+&+\nu\|\nabla_zZ_f\|_2^2
++\frac{2\mathfrak a}{3B}
+\int(1-C)|Z_f|^2d\Omega\\
+&+\nu\int
+\frac{|\nabla_zC|^2}{C(1-C)}|Z_f|^2d\Omega
+=\langle Z_f,R\Phi_f\rangle.
+\end{aligned}
+}
+\]
+
+The signed Cycle-152 radial current has disappeared.  Every term on the left
+is positive and datum-finite for a homogeneous chord.  For the actual fluid,
+the sole remaining transfer is the explicitly retained next joined source
+chord \(R\Phi_f\).  Hence radial renewal itself now has the requested
+one-way entropy law; the continuing upper/lower problem is active Gold
+coverage relative to this finite ruler, not an unpriced radial flux.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26808,6 +26909,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-153-participating-hjb-radial-ruler-datum-finite-fisher-entropy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-152-finite-all-radius-b-collar-native-radial-current-tail-clock-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-151-gold-frame-hjb-physical-chord-hardy-flag-covariant-deformation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-150-viscous-terminal-heat-clock-infinite-source-tower-absorption-20260714.md
