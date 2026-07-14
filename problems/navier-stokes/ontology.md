@@ -13364,7 +13364,7 @@ source.  The retained remaining-expenditure and defect-expenditure
 identities do not by themselves turn this law into datum-finite positive
 variation.
 
-### F7.47 The joined vorticity--chord mismatch is one tensor difference; exact dynamic entropy laws require full-rank regularization
+### F7.47 The joined vorticity--chord mismatch is one tensor difference; separated entropy-production laws require full-rank regularization
 
 Define the two normalized matrix-valued geometries
 
@@ -13492,6 +13492,29 @@ D(e^{\sigma\Delta}P\|e^{\sigma\Delta}Q)=+\infty.
 \]
 
 The unregularized Fisher and source rows are therefore not separately finite.
+This singularity belongs to the split, not to the constant-rank material
+tangent.  On every rank-two stratum,
+
+\[
+\boxed{
+\xi\cdot D_tP\,\xi
+=\xi\cdot(\nu\Delta P+\Sigma_P)\xi=0.
+}
+\]
+
+Hence, under the corresponding integrability hypotheses,
+
+\[
+\boxed{
+D(P\|Q)'
+=\int D_tP:(\log_{\rm supp}P-\log Q)dx
+-\int\mathcal T_Q(P):D_tQ\,dx
+}
+\]
+
+is a finite complete unregularized chain rule.  It has no separately
+nonnegative Fisher production.  Rank changes remain full-rank regularized or
+stratified.
 
 With
 
@@ -13588,7 +13611,10 @@ D_B^2(e^{\sigma\Delta}Q,e^{\sigma\Delta}P)=+\infty.
 \]
 
 The Bures value is therefore finite at the singular state, but its separated
-heat production is not.  For every differentiable fixed-\(\varepsilon\)
+heat production is not.  On a constant rank-two stratum the complete
+material Bures chain rule is finite because the axial rows cancel before
+pairing; vorticity-zero rank changes still require \(P_\varepsilon\) or a
+stratified limit.  For every differentiable fixed-\(\varepsilon\)
 entropy balance
 
 \[
@@ -13619,8 +13645,9 @@ For the actual singular state the static bounds remain exact:
 They do not require an unregularized derivative.  The fixed-\(\varepsilon\)
 right side is the signed complete tangent, not the positive joined action.
 Thus a support-admissible stock, the useful joined coordinate, a finite
-unregularized production law, and a bounded symmetric stock do not coexist in
-these candidates because of the exact directional rank geometry of one fluid.
+sign-definite unregularized production law, and a bounded symmetric stock do
+not coexist in these candidates because of the exact directional rank
+geometry of one fluid.  F7.52 gives the complete-tangent classification.
 
 ### F7.48 The global inverse energy-mean frequency separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
 
