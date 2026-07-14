@@ -12955,6 +12955,713 @@ thick-aperture type-I renewal under the simultaneous material evolution of
 its center field, direction determinant, vorticity geometry, and active VPI
 selector.
 
+### F7.45 Reciprocal-storage renewal forces a positive-density broad two-population spectrum and an asymptotically full adjacent-rung viscous surplus
+
+Retain the intrinsic participant
+
+\[
+I(U)=1,
+\qquad
+h=H_U,
+\qquad
+k=K_U,
+\qquad
+d=\|\Lambda^{3/2}U\|_2^2,
+\qquad
+d_2=\|\Lambda^2U\|_2^2.
+\]
+
+If
+
+\[
+w(r)=\int_{|\eta|=r}|\widehat U(\eta)|^2d\sigma_r,
+\qquad
+d\mu_h(r)=\frac{rw(r)}{2h}dr,
+\qquad
+m=\mathbb E_{\mu_h}r=\frac{k}{2h},
+\]
+
+define the adjacent spectral breadth
+
+\[
+\boxed{
+\mathfrak B
+=\frac{\mathbb E_{\mu_h}r^3}
+{(\mathbb E_{\mu_h}r)^3}
+=\frac{4h^2d_2}{k^3}
+\ge1.
+}
+\]
+
+For a nonzero decaying \(L^2(\mathbb R^3)\) field the inequality is strict,
+because exact equality would place the Fourier support on a measure-zero
+sphere.  The adjacent-rung viscous surplus satisfies
+
+\[
+\boxed{
+\mathcal V=d_2-md
+=h\iint(r-r')^2(r+r')\,d\mu_h(r)d\mu_h(r')
+\ge d_2(1-\mathfrak B^{-1/2}).
+}
+\]
+
+The breadth has a direct two-population meaning.  With
+
+\[
+d\mu_2(r)=\frac{r^4w(r)}{d_2}dr,
+\]
+
+every \(0<\alpha,\delta<1\) obeys
+
+\[
+\boxed{
+\mu_h\!\left([0,m/\alpha]\right)\ge1-\alpha,
+\qquad
+\mu_2\!\left(
+\left[\sqrt{\delta d_2/k},\infty\right)
+\right)\ge1-\delta,
+}
+\]
+
+and the two quantile radii have ratio
+
+\[
+\boxed{
+\frac{r_+}{r_-}
+=\alpha\sqrt{\delta\mathfrak B}.
+}
+\]
+
+This proves spectral diameter, not population of every intervening octave.
+
+The history law is stronger than the static moment inequality.  The exact
+reciprocal-storage tangent is
+
+\[
+\boxed{
+(bk)_s=b(j-2d_2)-2k,
+\qquad
+|j|\le A_*k^{3/4}d_2^{3/4},
+\qquad
+A_*=\frac4{\pi3^{3/4}}.
+}
+\]
+
+At every actual maintenance or renewal time,
+
+\[
+(bk)_s\ge0,
+\]
+
+one therefore has
+
+\[
+\boxed{
+d_2\ge
+\left(\frac2{A_*b}\right)^{4/3}k^{1/3},
+\qquad
+d_2<
+\left(\frac{A_*}{2}\right)^4k^3,
+\qquad
+bk^2\ge16\pi^4.
+}
+\]
+
+Consequently,
+
+\[
+\boxed{
+\mathfrak B
+\ge
+3\,2^{2/3}\pi^{4/3}
+\frac{h^2}{b^{4/3}k^{8/3}}.
+}
+\]
+
+If \(b\) and \(k\) stay in compact positive ranges while \(h\to\infty\),
+every such renewal has \(\mathfrak B\to\infty\) and
+\(\mathcal V/d_2\to1\).  The half-population quantiles are separated by
+
+\[
+\boxed{
+\frac{r_+}{r_-}
+\ge
+\frac{\sqrt3\,\pi^{2/3}}{2^{7/6}}
+\frac{h}{b^{2/3}k^{4/3}}.
+}
+\]
+
+This broad geometry is not confined to isolated instants.  Suppose on an
+infinite intrinsic tail
+
+\[
+0<b_-\le b\le b_+,
+\qquad
+0<k_-\le k\le k_+,
+\qquad
+h(s)\to\infty.
+\]
+
+Put \(F=bk\) and
+
+\[
+\mathcal G=\{F_s\ge-k_-\},
+\qquad
+M=\frac{b_+k_+^3}{8\pi^4}.
+\]
+
+On \(\mathcal G\),
+
+\[
+d_2\ge
+\left(\frac1{A_*b}\right)^{4/3}k^{1/3},
+\]
+
+while \(F_s\le M\) globally.  Boundedness of \(F\) therefore gives
+
+\[
+\boxed{
+|\mathcal G\cap[S,L]|
+\ge
+\frac{k_-(L-S)-(b_+k_+-b_-k_-)}
+{M+k_-}.
+}
+\]
+
+Thus \(\mathcal G\) has positive lower density on every long intrinsic tail,
+and for a sufficiently late tail
+
+\[
+\boxed{
+\int_{\mathcal G}\mathcal V\,ds=\infty.
+}
+\]
+
+The same complete source that forces this unweighted breadth action also
+gives its precise datum-finite physical weighting.  On the renewal set,
+
+\[
+\boxed{
+\int\ell\mathcal V\,ds
+\le
+\frac{16k_+^2}{27\pi^4}\frac{\mathcal E_0}{\nu^2},
+\qquad
+\ell\,ds=\frac{R_a}{2}d\tau.
+}
+\]
+
+Energy therefore pays the broad renewal on linear remaining radius.  It does
+not convert that payment into a finite count on logarithmic radius.
+
+Finally, the aperture law and spectral breadth are one geometry:
+
+\[
+\boxed{
+(k-3)k^{3/2}\sqrt{\mathfrak B}>2c_{\rm ap}.
+}
+\]
+
+A nearly one-radius spectrum must have a quantitatively thick VPI
+directional/sign defect; approaching the VPI equality face forces broad
+critical and palinstrophy populations.  The spatial dilation family
+
+\[
+U_\varepsilon(y)
+=\sqrt{\varepsilon/I(U_0)}\,U_0(\varepsilon y)
+\]
+
+keeps \(I=1\), \(k\), and \(\mathfrak B\) fixed while
+\(h\asymp\varepsilon^{-1}\) and \(d_2\asymp\varepsilon^2\).  It is the exact
+static countertest to a universal breadth floor.  It cannot renew reciprocal
+storage: its cubic source is \(O(\varepsilon^{3/2})\), so the fixed
+\(-2k\) row in \((bk)_s\) strictly drains it.
+
+### F7.46 Active aperture entropy is the complete centered cotangent of the \((S,\Pi)\) tangent, and Gold dilation cancels from that entropy exactly
+
+Let
+
+\[
+f=r_+,
+\qquad
+\rho=f^2,
+\qquad
+H_\phi=\frac1I\int\rho\,\phi(\Pi)dx,
+\qquad
+h_\phi=\phi(\Pi)-H_\phi,
+\]
+
+and define
+
+\[
+G_\phi(S,\Pi)=(-S:\Pi)_+^2h_\phi.
+\]
+
+For
+
+\[
+\mathbf B=S^2+W^2+\nabla^2p,
+\qquad
+a=\nabla\log\tau,
+\]
+
+the complete pressure-slaved material tangent is
+
+\[
+(D_t-\nu\Delta)S=-\mathbf B,
+\qquad
+(D_t-\nu\Delta)\Pi
+=\mathcal K_\Pi+2\nu a\cdot\nabla\Pi.
+\]
+
+On \(\{r>0\}\),
+
+\[
+D_SG_\phi=-2rh_\phi\Pi,
+\qquad
+D_\Pi G_\phi=r^2D\phi-2rh_\phi S.
+\]
+
+For a variation \((A,Q)\), with
+
+\[
+\dot r=-(A:\Pi+S:Q),
+\]
+
+the exact joint Hessian is
+
+\[
+\boxed{
+D^2G_\phi[(A,Q)]
+=2h_\phi\dot r^{\,2}
+-4rh_\phi A:Q
++4r\dot r\,D\phi:Q
++r^2D^2\phi[Q,Q].
+}
+\]
+
+The selector \(r_+^2\) produces no nodal delta charge.  Since
+\(\int G_\phi=0\), applying the full tangent and integrating gives
+
+\[
+\boxed{
+\begin{aligned}
+I H_\phi'
+=\int\Big[&
+-D_SG_\phi:\mathbf B
++D_\Pi G_\phi:\mathcal K_\Pi\\
+&+2\nu\sum_j a_jD_\Pi G_\phi:\partial_j\Pi
+-\nu\sum_j
+D^2G_\phi[(\partial_jS,\partial_j\Pi)]
+\Big]dx.
+\end{aligned}
+}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\begin{aligned}
+H_\phi'={}&
+\mathbb E_{\mu_+}
+\left[D\phi:\mathcal K_\Pi
+-\nu D^2\phi[\nabla\Pi,\nabla\Pi]\right]\\
+&+\frac2I\int h_\phi
+\left(f\widetilde{\mathcal F}_r-\nu|\nabla f|^2\right)dx\\
+&+\frac{2\nu}{I}
+\int(\rho a-\nabla\rho)\cdot\nabla\phi\,dx.
+\end{aligned}
+}
+\]
+
+In Gold variables, \(\int r_+^2=1\).  If
+
+\[
+\eta=r_+\widetilde{\mathcal F}_r-|\nabla r_+|^2,
+\qquad
+q=-\beta,
+\]
+
+then
+
+\[
+\int\eta=\frac q2
+\]
+
+and the full reselection row is
+
+\[
+\boxed{
+2\int h_\phi\eta
+=2\int\phi(\Pi)
+\left(\eta-\frac q2r_+^2\right).
+}
+\]
+
+The measure in parentheses has zero mass.  The Gold contraction rate fixes
+total active rebuilding, but active centering removes it from aperture
+reallocation.  This is why a scalar \(q\)-entropy cannot price the complete
+directional history.
+
+For
+
+\[
+\phi_A=\log\frac6{1-|\Pi|^2},
+\qquad
+\phi_D=-\frac23\log\det\Pi,
+\]
+
+the shape Hessians are nonnegative:
+
+\[
+\boxed{
+D^2\phi_A[Q,Q]
+=\frac{2|Q|^2}{A_\Pi}
++\frac{4(\Pi:Q)^2}{A_\Pi^2},
+\qquad
+D^2\phi_D[Q,Q]
+=\frac23\operatorname{tr}
+(\Pi^{-1}Q\Pi^{-1}Q).
+}
+\]
+
+Their shape-only Fisher rows are dissipative.  The complete active-weighted
+viscous Hessian is nevertheless signed: already
+
+\[
+D^2G_\phi[(A,0)]
+=2h_\phi(A:\Pi)^2
+\]
+
+changes sign across the actively selected field.  The mixed strain--shape
+rows are signed as well.  Therefore convex shape entropy is not a Lyapunov
+functional after the same active selector is evolved.
+
+The exact product laws
+
+\[
+(bH_\phi)_s=b(H_\phi)_s+(qb-2)H_\phi,
+\]
+
+\[
+(cH_\phi)_s=c(H_\phi)_s+(qc-g)H_\phi
+\]
+
+contain no cancellation with the centered cotangent source.  Remaining
+expenditure and defect expenditure do not turn this law into datum-finite
+positive variation.
+
+### F7.47 The joined vorticity--chord mismatch is one tensor difference, but the finite relative entropies have the wrong sign or erase that difference
+
+Define the two normalized matrix-valued geometries
+
+\[
+\boxed{
+Q=\frac{\tau\Pi}{4H},
+\qquad
+P=\frac{|\omega|^2\Theta_{\omega,\perp}}K,
+\qquad
+\int\operatorname{tr}Q
+=\int\operatorname{tr}P=1.
+}
+\]
+
+They are two simultaneous readings of the same field.  The all-chord tensor
+is strictly positive in every direction, while the vorticity tensor is rank
+two and has the vorticity-axis kernel.  Direct recombination of the native
+weight and orientation residuals gives
+
+\[
+\boxed{
+\mathcal B_{\omega,\tau}
+=K\int S:(Q-P)dx.
+}
+\]
+
+Let
+
+\[
+\mathcal LQ
+=\frac{\mathsf F_c}{4H}-\frac{H'}H Q,
+\qquad
+\mathcal LP
+=\frac{\mathsf F_\omega}{K}-\frac{K'}K P,
+\qquad
+\mathcal L=D_t-\nu\Delta,
+\]
+
+where \(\mathsf F_c\) and \(\mathsf F_\omega\) retain the complete
+pressure--pair--stretching--viscous tangents.
+
+The support-admissible forward Umegaki entropy
+
+\[
+D_f=D(P\|Q)
+\]
+
+has a nonnegative common-heat Fisher row and the exact balance
+
+\[
+\boxed{
+D_f'+\nu\mathfrak F_{\rm KM}
+=-\frac{4\mathcal B_{\omega,\tau}}K
++2\nu\delta_H
++\mathcal R_f^{\rm raw},
+\qquad
+\delta_H=\frac{D_2}{K}-\frac{D}{2H}\ge0.
+}
+\]
+
+It therefore carries the joined mismatch with the opposite sign.  Since
+
+\[
+(\log m_H)'+2\nu\delta_H
+=\frac{4\mathcal B_{\omega,\tau}}K,
+\]
+
+the exact recombination is
+
+\[
+\boxed{
+(\log m_H+D_f)'
++\nu\mathfrak F_{\rm KM}
+=\mathcal R_f^{\rm raw}.
+}
+\]
+
+Both the joined mismatch and the adjacent spectral gap cancel, leaving the
+signed complete scored source.
+
+The reverse entropy has the useful formal sign,
+
+\[
+D(Q\|P)'
++\nu\mathfrak F_{\rm KM}^{\rm rev}
+=\frac{4\mathcal B_{\omega,\tau}}K
+-2\nu\delta_H
++\mathcal R_r^{\rm raw},
+\]
+
+but
+
+\[
+\boxed{D(Q\|P)=+\infty.}
+\]
+
+The first argument assigns positive directional mass to the vorticity axis,
+while the second assigns zero.  Matrix Jeffreys and ordinary log-determinant
+divergences fail at the same axial kernel.
+
+The symmetric Bures divergence is finite and bounded:
+
+\[
+\boxed{
+0\le D_B^2(Q,P)=2-2\Phi\le2.
+}
+\]
+
+Its normalization derivative contains
+
+\[
+-\left(\frac{H'}H+\frac{K'}K\right)(1-\Phi),
+\]
+
+the sum of the growth rates rather than the difference carrying
+\(\mathcal B_{\omega,\tau}\).  Symmetry avoids support infinity by erasing
+the required sign.  For every differentiable entropy balance
+
+\[
+D'+\nu\mathfrak F_D=\mathcal R_D,
+\]
+
+remaining expenditure gives only
+
+\[
+\boxed{
+(aD)'
++\nu a\mathfrak F_D
++2\nu I D
+=a\mathcal R_D.
+}
+\]
+
+For Bures, \(aD_B^2\le2\mathcal E_0\) and the extra \(ID_B^2\) row is
+datum-finite, but the right side is the signed complete tangent, not the
+positive joined action.  Thus finite support direction, the useful joined
+sign, and a bounded symmetric stock are separated by the exact directional
+rank geometry of one fluid.
+
+### F7.48 The energy-bearing all-field length separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
+
+Define the physical energy-centroid length and its span over the remaining
+VPI radius by
+
+\[
+L_E=\frac{\mathcal E}{H},
+\qquad
+\boxed{
+\Xi_E=\frac{L_E}{R_a}
+=\frac{\mathcal E}{R_aH}
+=\frac{E_U}{bH_U}.
+}
+\]
+
+Since
+
+\[
+H^2\le\frac{\mathcal EK}{2},
+\qquad
+\frac{aK}{\nu^4}=bk,
+\]
+
+one obtains
+
+\[
+\boxed{
+\Xi_E\ge\frac{2H_U}{bk}.
+}
+\]
+
+Thus a bounded reciprocal corridor \(bk\le y_+\) with
+\(H_U\to\infty\) necessarily spans an energy-bearing physical length
+increasingly larger than the remaining-expenditure radius.  This is the
+all-field continuation that a point--point description misses.
+
+The complete material tangent of that span is
+
+\[
+\boxed{
+(\log\Xi_E)'
+=-\frac{\nu K}{\mathcal E}
++\frac{2\nu I}{a}
+-\frac{P_H-\nu D}{H}.
+}
+\]
+
+In intrinsic and log-radius time,
+
+\[
+\boxed{
+(\log\Xi_E)_s
+=\frac2b-\frac{k}{E_U}
+-\frac{H_{U,s}}{H_U},
+}
+\]
+
+\[
+\boxed{
+(\log\Xi_E)_\tau
+=1-\frac{bk}{2E_U}
+-(\log H_U)_\tau.
+}
+\]
+
+Interpolation gives
+
+\[
+0\le\frac{bk}{2E_U}
+\le\frac{bk^2}{4H_U^2}.
+\]
+
+Hence bounded \(b,k\) and \(H_U\to\infty\) make direct kinetic-energy loss
+a vanishing fraction of each new unit of log-radius contraction.  The unit
+rate appears as critical-height growth, all-field span growth, or both.
+
+Write
+
+\[
+y=bk=\frac{aK}{\nu^4}.
+\]
+
+Its exact log-radius law is
+
+\[
+\boxed{
+y_\tau+y
+=\frac{b^2}{2}(j-2d_2)
+=:\mathscr R_K.
+}
+\]
+
+If
+
+\[
+0<b_-\le b\le b_+,
+\qquad
+3\le k\le k_+,
+\qquad
+0<y_-\le y\le y_+,
+\]
+
+then
+
+\[
+\mathscr R_K\le
+R_*:=\frac{b_+^2k_+^3}{16\pi^4},
+\]
+
+and
+
+\[
+\int_0^L\mathscr R_Kd\tau
+\ge y_-L-y_+.
+\]
+
+Therefore the maintenance set
+
+\[
+\mathcal M_L
+=\{\mathscr R_K\ge y_-/2\}
+\]
+
+satisfies
+
+\[
+\boxed{
+|\mathcal M_L|
+\ge
+\frac{(y_-/2)L-y_+}{R_*}.
+}
+\]
+
+On this positive-density set, the same source forces the fixed window
+
+\[
+\boxed{
+\left(
+\frac{y_-}{A_*b_+^2k_+^{3/4}}
+\right)^{4/3}
+\le d_2
+<
+\left(\frac{A_*}{2}\right)^4k_+^3.
+}
+\]
+
+Consequently, along \(H_U\to\infty\),
+
+\[
+\mathfrak B\gtrsim H_U^2,
+\qquad
+\mathcal V\ge d_*/2
+\]
+
+at all sufficiently late maintenance times.
+
+The complete joined tangent on those same times is
+
+\[
+\boxed{
+2\mathcal B_{\omega,\tau}
+=\mathcal V
++\frac{\mathscr R_K}{b^2}
+-\frac{y}{b^2}(\log H_U)_\tau.
+}
+\]
+
+Thus the fixed palinstrophy tier is not a separately owned viscous
+mechanism.  It is simultaneous with storage replenishment, critical-height
+growth, and the vorticity--chord mismatch.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
