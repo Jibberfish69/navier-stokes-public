@@ -22349,7 +22349,7 @@ Cycle 107's endpoint cocycle gives
 }
 \]
 
-Its square-root pullback is an (L^2)-isometry.  The associated
+Its square-root pullback is an \(L^2\)-isometry.  The associated
 metric-compatible derivative has score
 
 \[
@@ -22378,7 +22378,7 @@ V_\perp=Q_t\Theta
 \mathcal R_{\rm fib}=\frac14\|V_\perp\|_\Gamma^2.
 \]
 
-For the covariant projection derivative (\dot P),
+For the covariant projection derivative \(\dot P\),
 
 \[
 P\dot PP=Q\dot PQ=0.
@@ -22432,8 +22432,8 @@ Y_{Z,{\rm eff}}=P\mathscr S_\Theta+\dot PV_\perp;
 
 the bare projected source is not the complete all-field tangent.
 
-Cycle 120's harmonic uses uniform (S^2) measure.  The native incidence
-fiber uses (d\chi_z=(m/\tau)d\rho d\sigma d\theta), and generally
+Cycle 120's harmonic uses uniform \(S^2\) measure.  The native incidence
+fiber uses \(d\chi_z=(m/\tau)d\rho d\sigma d\theta\), and generally
 
 \[
 \mathbb E_{\chi_z}[\mathcal H_3\cdot Mn]\ne0.
@@ -22467,7 +22467,7 @@ D\mathcal G_V[\mathscr X_E]
 =4c_*\varepsilon^3+O(\varepsilon^4),
 \]
 
-with (c_*>0).  Amplitude scaling then gives
+with \(c_*>0\).  Amplitude scaling then gives
 
 \[
 \frac{[\mathcal S_{\rm rel}]_+}{\mathcal V_{\rm rel}}
