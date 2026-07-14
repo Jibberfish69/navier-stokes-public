@@ -21738,9 +21738,11 @@ This rigidity applies to coherent no-surplus saturation, not to the weaker
 product balance \(\mathcal S_Y=\nu\mathcal D_Y\).  Nonzero smooth ratio-one
 states exist by amplitude scaling of a positive-current Schwartz datum, but
 they lie strictly inside the Schur cone and therefore carry positive
-transverse all-field source innovation.  Every complete all-radius
-no-surplus Gold record leaves radial pair heat, angular/source-radius
-innovation, or both; it cannot be a costless rank-one pulse.
+fine-chord source innovation.  Any no-surplus equality additionally carried
+by the direct re-rooted radius field leaves radial pair heat,
+angular/source-radius innovation, or both.  This is conditional rigidity of
+the direct-radius state; Cycles 117--118 do not yet turn it into a finite
+total-time payment for every fixed-parent conditioned pulse.
 
 ### F7.87 Projective angular innovation is datum finite, and the whole-field trace lifts it to Gold strength
 
