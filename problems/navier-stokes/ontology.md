@@ -23139,7 +23139,7 @@ It holds polynomially in every direction, including \(q_{\mathsf C}=0\).
 Rearranging it as
 
 \[
-q_0\!left[q_{\mathsf C}(q_{\mathsf K}-\eta q_S)
+q_0\!\left[q_{\mathsf C}(q_{\mathsf K}-\eta q_S)
 -q_Sq_{\mathsf D}\right]
 =-4q_S^2q_{\mathsf C}
 \]
