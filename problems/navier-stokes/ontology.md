@@ -26892,6 +26892,226 @@ chord \(R\Phi_f\).  Hence radial renewal itself now has the requested
 one-way entropy law; the continuing upper/lower problem is active Gold
 coverage relative to this finite ruler, not an unpriced radial flux.
 
+### F7.120 The remaining-expenditure mass lift cancels inside its induced joined source and leaves an off-diagonal coverage--score flag
+
+Let
+
+\[
+h=\mathfrak h_\Gamma,
+\qquad
+\int h^2d\Omega=1,
+\qquad
+(D_{\rm pair}-\alpha)h=\frac12\Sigma h,
+\qquad
+\int\Sigma h^2d\Omega=0.
+\]
+
+For the participating HJB ruler of F7.119 write
+
+\[
+R=\rho^2C,
+\qquad
+\vartheta=1-C,
+\qquad
+\gamma=\frac{2\mathfrak a}{3B},
+\]
+
+\[
+\Pi_R=-d_R,
+\qquad
+d_R=\gamma\vartheta
++4\nu C\vartheta|\nabla_zs|^2,
+\]
+
+\[
+D_{\rm pair}\log R=2\alpha-\delta_R,
+\qquad
+\delta_R=\gamma\vartheta
++4\nu\vartheta|\nabla_zs|^2.
+\]
+
+Completed incidence obeys
+
+\[
+\boxed{
+h=\frac{\pi\sqrt{mI}}{R_\Gamma}W_I.
+}
+\]
+
+The (+I'/(2I)) in the metric-incidence factor cancels the
+(-I'/(2I)) in (W_I), giving the centered law above.  Thus normalized
+full-incidence coverage does not retain the Gold mass rate.
+
+Restore that rate by
+
+\[
+G=\frac{\sqrt I,h}{R},
+\qquad
+RG=\sqrt I,h,
+\qquad
+\|RG\|_2^2=I.
+\]
+
+With
+
+\[
+\Phi_q=(D_{\rm pair}-\nu\Delta_z+\alpha)q,
+\]
+
+one has
+
+\[
+\boxed{
+\Phi_G
+=\left[
+\frac12\Sigma
++\frac{N-\nu X}{I}
++\delta_R
+\right]G
+-\nu\Delta_zG.
+}
+\]
+
+Consequently,
+
+\[
+\boxed{
+\frac12I'
++\nu I\|\nabla_zh\|_2^2
++I\int d_Rh^2d\Omega
+=\langle\sqrt I,h,R\Phi_G\rangle.
+}
+\]
+
+Now form the only scalar tail lift whose mass contains the desired Gold
+depletion,
+
+\[
+F=\sqrt{\mathfrak a},G
+=\frac{\sqrt{\mathfrak a I},h}{R}.
+\]
+
+It satisfies
+
+\[
+\boxed{
+\Phi_F
+=\sqrt{\mathfrak a}\,\Phi_G
+-\frac{\nu I}{\sqrt{\mathfrak a}}G.
+}
+\]
+
+Hence
+
+\[
+\boxed{
+\begin{aligned}
+\frac12(\mathfrak a I)'
+&+\nu\mathfrak a I\|\nabla_zh\|_2^2
++\mathfrak a I\int d_Rh^2d\Omega\\
+&=\langle\sqrt{\mathfrak a I},h,R\Phi_F\rangle,
+\end{aligned}
+}
+\]
+
+but also
+
+\[
+\boxed{
+\langle\sqrt{\mathfrak a I},h,R\Phi_F\rangle
+=\mathfrak a
+\langle\sqrt I,h,R\Phi_G\rangle
+-\nu I^2.
+}
+\]
+
+Since
+
+\[
+\frac12(\mathfrak a I)'
+=\mathfrak a(N-\nu X)-\nu I^2,
+\]
+
+the apparent Gold drain is reproduced with exactly the same coefficient
+inside the induced complete source.  The lift therefore creates no new
+entropy production.  This cancellation retains the full joined tangent;
+it is not obtained by separating viscosity from pressure, transport, or
+incidence motion.
+
+Every scalar Young completion returns
+
+\[
+\boxed{
+\frac{\mathfrak a^2[N-\nu X]_+^2}{2\nu I^2}
+=\frac{\mathfrak a^2(I'_+)^2}{8\nu I^2},
+}
+\]
+
+the same remaining-expenditure-weighted positive curvature being sought.
+The marginal history
+
+\[
+I=c(T-t)^{-1/2},
+\qquad
+\mathfrak a=4\nu c(T-t)^{1/2}
+\]
+
+has constant (mathfrak a I), satisfies
+
+\[
+\frac{I'}{2I}=\frac{\nu I}{\mathfrak a},
+\]
+
+and has infinite (int I^2dt).  It is not asserted to be a
+Navier--Stokes realization; it proves that the scalar lift and clock laws
+do not exclude the Gold divergence.
+
+The surviving all-field coordinate is off diagonal.  With (p=h^2),
+
+\[
+\partial_tp+\operatorname{div}_\Omega(V_{\rm pair}p)=\Sigma p,
+\]
+
+whereas
+
+\[
+\partial_t\zeta_{\rm rul}
++\operatorname{div}_\Omega(V_{\rm pair}\zeta_{\rm rul})
+=-4\nu|\nabla_zs|^2\zeta_{\rm rul}.
+\]
+
+Their exact relative entropy is
+
+\[
+\boxed{
+\frac d{dt}
+\int p\log\frac p{\zeta_{\rm rul}}d\Omega
+=\int p\Sigma\log\frac p{\zeta_{\rm rul}}d\Omega
++4\nu\int p|\nabla_zs|^2d\Omega.
+}
+\]
+
+The ruler entropy controls the same Fisher density with weight
+(zeta_{\rm rul}), not with active weight (p).  The next lawful object is
+therefore the coverage--score--second-tangent flag
+
+\[
+\left(
+\log\frac p{\zeta_{\rm rul}},
+\Sigma,
+\nabla_zs,
+(\nabla_t^\Gamma)^2\Theta
+\right).
+\]
+
+The exact proof-method consequence is a compactness--rigidity test: an
+infinite-Gold history would have to yield intrinsic-time translates on
+which coverage resetting and transverse turning vanish; a sufficiently
+strong all-field compactness theorem would then produce a nonzero material
+eigenray, which F7.97 excludes.  Whether the installed datum-finite
+productions supply that compactness is the next same-fluid relation to
+decide; another scalar tail weight cannot.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26909,6 +27129,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-154-remaining-expenditure-mass-lift-source-cancellation-off-diagonal-coverage-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-153-participating-hjb-radial-ruler-datum-finite-fisher-entropy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-152-finite-all-radius-b-collar-native-radial-current-tail-clock-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-151-gold-frame-hjb-physical-chord-hardy-flag-covariant-deformation-20260714.md
