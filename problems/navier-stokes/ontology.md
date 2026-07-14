@@ -21535,6 +21535,111 @@ rank-one equality states.  Every surviving ratio-one record packet must carry
 nonzero pair heat and nonzero source magnitude in this phase-locked relation;
 full-pair heat zero would force the trivial field.
 
+### F7.85 Coherent zero surplus has zero first tangent but a positive covariant second tangent
+
+Retain the complete generator and source tower
+
+\[
+L=D_{\rm pair}-\nu\Delta_z,
+\qquad
+Lg=\mathfrak q,
+\qquad
+L\mathfrak q=\mathfrak r.
+\]
+
+For
+
+\[
+G=\mathbb E|g|^2,
+\quad
+B=\mathbb E(g\cdot\mathfrak q),
+\quad
+P=\mathbb E|\mathfrak q|^2,
+\quad
+\delta_\angle=\sqrt{GP}-\varepsilon B,
+\]
+
+the exact first tangent contains the next pressure-completed works and all
+three center-heat rows.  On the nonzero equality face
+
+\[
+\mathfrak q=\lambda g,
+\qquad
+\lambda=\varepsilon\sqrt{P/G},
+\]
+
+every first-order source and heat term cancels:
+
+\[
+\boxed{L\delta_\angle=0.}
+\]
+
+The equality face is nevertheless not automatically invariant.  With
+
+\[
+\Pi_g^\perp v
+=v-g\frac{\mathbb E(g\cdot v)}G,
+\]
+
+its exact covariant second departure is
+
+\[
+\boxed{
+L^2\delta_\angle
+=\frac1{|\lambda|}
+\mathbb E\left|
+\Pi_g^\perp
+\left(\mathfrak r+2\nu\nabla\lambda\cdot\nabla g\right)
+\right|^2.
+}
+\]
+
+Thus a persistent scalar equality ray must satisfy
+
+\[
+\mathfrak r
+=(L\lambda+\lambda^2)g
+-2\nu\nabla\lambda\cdot\nabla g.
+\]
+
+If \(U_G\) is the moving orthogonal polar factor of the Gold cotangent and
+\(U_G\mathfrak q=\alpha g\), the complete transverse residual is
+
+\[
+\begin{aligned}
+\mathcal R_{G,\perp}
+=\Pi_g^\perp\big[
+&U_G\mathfrak r+(LU_G)\mathfrak q
+-2\nu\nabla U_G:\nabla\mathfrak q\\
+&-\alpha\mathfrak q
++2\nu\nabla\alpha\cdot\nabla g
+\big],
+\end{aligned}
+\]
+
+and
+
+\[
+\boxed{L^2\delta_G=\alpha^{-1}\mathbb E|\mathcal R_{G,\perp}|^2.}
+\]
+
+Adjacent-scale coherence has the same quadratic geometry.  For
+\(h_j=y_{j+1}-y_j\) and
+\(\mathfrak B_j=d_{j+1}h_j^2/(2\tau)\),
+
+\[
+\boxed{
+D_{\rm pair}^2\mathfrak B_j\big|_{h_j=0}
+=\frac{d_{j+1}}\tau(D_{\rm pair}h_j)^2.
+}
+\]
+
+Consequently instantaneous source--heat matching moves only along the current
+ray.  Persistent zero surplus requires the next joined source, the Gold
+cotangent angular velocity, and every adjacent scale shape to remain on one
+heat-covariant rank-one ray.  Any new all-field direction creates a strictly
+positive canonical phase deficit.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21552,6 +21657,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-118-canonical-phase-second-tangent-covariant-rank-one-invariance-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-117-first-record-normalization-absolute-null-rigidity-coherent-zero-surplus-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-116-global-vpi-participation-angles-record-envelope-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-115-critical-chord-envelope-product-gold-heat-bridge-20260714.md
