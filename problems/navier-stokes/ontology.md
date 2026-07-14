@@ -15801,6 +15801,174 @@ negative powers lose datum boundedness.  The scalar choice is therefore
 fully classified: it is a lawful readout of the all-field VPI tangent, but
 not its autonomous entropy-production owner.
 
+### F7.60 The canonical scalar joins the maximizing chord to its ultraviolet boundary
+
+Retain the four simultaneous tangents
+
+\[
+\mathscr M'=\widehat{\mathcal J}_*-2\nu Q_*,
+\qquad
+H'=P_H-\nu D,
+\]
+
+\[
+Hm'+\nu\mathcal V_H=2\mathcal B_{\omega,\tau},
+\qquad
+a'=-2\nu I,
+\]
+
+with the exact source bridge
+
+\[
+\mathcal P_\omega=mP_H+2\mathcal B_{\omega,\tau}.
+\]
+
+For any \(C^1\) state function \(F(\mathscr M,H,m,a)\), the full chain rule is
+
+\[
+\begin{aligned}
+F'
+&+\nu\left[
+2F_{\mathscr M}Q_*
++\frac{F_m}{H}\mathcal V_H
++F_HD
++2F_aI
+\right]\\
+&=
+F_{\mathscr M}\widehat{\mathcal J}_*
++\frac{F_m}{H}\mathcal P_\omega
++\left(F_H-\frac mH F_m\right)P_H.
+\end{aligned}
+\]
+
+A separately exposed critical-height current disappears exactly when
+
+\[
+HF_H=mF_m.
+\]
+
+The complete \(C^1\) solution is
+
+\[
+\boxed{
+F(\mathscr M,H,m,a)=\Psi(\mathscr M,x,a),
+\qquad
+x=Hm=\frac K2.
+}
+\]
+
+Consequently the canonical all-field scalar law is
+
+\[
+\boxed{
+\Psi'
++\nu\left(
+2\Psi_{\mathscr M}Q_*
++\Psi_xD_2
++2\Psi_aI
+\right)
+=
+\Psi_{\mathscr M}\widehat{\mathcal J}_*
++\Psi_x\mathcal P_\omega.
+}
+\]
+
+The two source coordinates are evaluations of one complete chord current:
+
+\[
+\widehat{\mathcal J}_*
+=\frac{\mathcal J_{R_*}}{R_*^4},
+\qquad
+\mathcal P_\omega
+=\frac{15\pi}{8}
+\lim_{R\downarrow0}\frac{\mathcal J_R}{R^5}.
+\]
+
+Their positive stocks and heat rows have the same endpoint:
+
+\[
+\frac{\mathcal C_R}{R^5}
+\longrightarrow\frac{4}{15\pi}K,
+\qquad
+\frac{\mathcal G_R}{R^5}
+\longrightarrow\frac{4}{15\pi}D_2.
+\]
+
+Thus \(x=K/2\) is not an appended enstrophy scalar; it is the ultraviolet
+boundary of the same positive chord stock whose finite-radius maximum is
+\(\mathscr M\).
+
+For
+
+\[
+\mathscr S
+=\frac{c_*}{2}\log\frac{\mathscr M}{\mathscr M_0}
++\log\frac{x}{x_0},
+\]
+
+the two heat mechanisms have one sign in one source law:
+
+\[
+\boxed{
+\mathscr S'
++\nu\left(
+c_*\frac{Q_*}{\mathscr M}
++\frac{2D_2}{K}
+\right)
+=
+\frac{c_*}{2}\frac{\widehat{\mathcal J}_*}{\mathscr M}
++\frac{2\mathcal P_\omega}{K}.
+}
+\]
+
+The F7.58 heat-gap law yields
+
+\[
+\boxed{
+c_*\frac{Q_*}{\mathscr M}
++\frac{2D_2}{K}
+\ge
+c_0m^2+\frac DH.
+}
+\]
+
+The remaining-expenditure row has also been completely classified.  For
+
+\[
+\mathscr F=a^\alpha\mathscr M^\beta x^\delta,
+\]
+
+\[
+\boxed{
+\frac{\mathscr F'}{\mathscr F}
++\nu\left(
+2\beta\frac{Q_*}{\mathscr M}
++\delta\frac{D_2}{x}
++2\alpha\frac Ia
+\right)
+=
+\beta\frac{\widehat{\mathcal J}_*}{\mathscr M}
++\delta\frac{\mathcal P_\omega}{x}.
+}
+\]
+
+In the fixed-datum critical corridor, retaining the terminal stock requires
+
+\[
+\alpha=\frac\beta2+\delta,
+\]
+
+whereas exact Navier--Stokes scale neutrality requires
+
+\[
+\alpha=\delta.
+\]
+
+Both can hold only when \(\beta=0\), which removes the finite-radius chord
+envelope and its heat row.  No other \(C^1\) scalar can cancel the
+remaining-expenditure term: in the general law it is exactly
+\(2\nu\Psi_aI\), so cancellation forces \(\Psi_a=0\).
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -15818,6 +15986,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-093-canonical-envelope-ultraviolet-joined-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-092-critical-log-chord-replicator-entropy-translation-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-091-critical-log-chord-envelope-heat-gap-uncertainty-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-090-eigenshell-all-point-heat-curvature-complete-source-law-20260714.md`
