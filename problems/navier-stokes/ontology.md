@@ -26601,6 +26601,117 @@ continuation action.  The heat clock genuinely closes the infinite pure
 successor shift; what remains is the same moving all-field connection, not a
 deeper uniterated source.
 
+### F7.117 The Gold-frame potential is the HJB connection of one finite physical chord Hardy flag
+
+Let
+
+\[
+W_I=\sqrt{\widehat M_I},
+\qquad
+\Pi_I=\chi-\frac{I'}{2I}
++\nu|\nabla_z\log W_I|^2.
+\]
+
+Because \(D_{\rm pair}\log\rho=\alpha\) and \(\nabla_z\rho=0\),
+
+\[
+\boxed{
+\Pi_I
+=D_{\rm pair}\log\frac{W_I}{\rho^2}
++\nu\left|\nabla_z\log\frac{W_I}{\rho^2}\right|^2.
+}
+\]
+
+This scalar gauge is singular only off the physical chord range.  For
+
+\[
+q_f=\frac{f(x)-f(y)}\rho,
+\qquad
+Z_f=\rho^2q_f=\rho[f(x)-f(y)],
+\qquad
+\mathcal H_\rho^-=\partial_\rho-\frac2\rho,
+\]
+
+one has
+
+\[
+Z_f=\rho^2\partial_nf+O(\rho^3),
+\qquad
+\mathcal H_\rho^-Z_f=\rho^2q_{f,\rho},
+\]
+
+and the exact finite isometries
+
+\[
+\boxed{
+\int\frac{W_I^2}{\rho^4}|Z_f|^2d\Omega
+=\int W_I^2|q_f|^2d\Omega,
+}
+\]
+
+\[
+\boxed{
+\int\frac{W_I^2}{\rho^4}|\mathcal H_\rho^-Z_f|^2d\Omega
+=\int W_I^2|q_{f,\rho}|^2d\Omega.
+}
+\]
+
+The fine flux vanishes and the lower trace is controlled by the same stock
+and collar:
+
+\[
+\boxed{
+\|W_I\partial_nf\|_{L^2(z,n,\theta)}^2
+\le2
+\left(\int\frac{W_I^2}{\rho^4}|Z_f|^2\right)^{1/2}
+\left(\int\frac{W_I^2}{\rho^4}
+|\mathcal H_\rho^-Z_f|^2\right)^{1/2}.
+}
+\]
+
+Moreover,
+
+\[
+(D_{\rm pair}-\alpha-\nu\Delta_z)Z_f=\rho^2\Phi_f,
+\]
+
+so on the physical chord bundle the active escort conjugation is
+
+\[
+\boxed{
+(\mathcal H_I-\Pi_I)
+\left(\frac{W_I}{\rho^2}Z\right)
+=\frac{W_I}{\rho^2}
+(D_{\rm pair}-\alpha-\nu\Delta_z)Z.
+}
+\]
+
+The renormalized radial Plancherel laws remain exactly the \(H^{1/2}\) and
+\(H^{3/2}\) tiers.  The unweighted clean flag is not finite at large radius,
+so the active weight cannot be discarded.  Full coordinate covariantization
+leaves the symmetric block
+
+\[
+\boxed{
+\mathfrak R_I=
+\begin{pmatrix}
+\Pi_I&\frac12B_I^T\\
+\frac12B_I&\Pi_I\,\mathrm{Id}-S_I
+\end{pmatrix},
+\quad
+S_I=\operatorname{sym}\nabla V_I,
+\quad
+B_I=\nabla\Pi_I-\frac12\nabla\operatorname{div}V_I.
+}
+\]
+
+Thus the original upper/lower split is one same-object statement: the lower
+law reads the affine fine trace of the physical flag, while the upper law
+must read its radial and material tangent.  Homothetic contact can kill the
+present residual without killing that tangent; moving radial position,
+angular shape, normalization, and active-metric deformation are precisely
+the transverse ejection unseen by a scalar ultraviolet \(aK\) law.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26618,6 +26729,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-151-gold-frame-hjb-physical-chord-hardy-flag-covariant-deformation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-150-viscous-terminal-heat-clock-infinite-source-tower-absorption-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-149-two-copy-common-mode-current-base-active-relative-score-flag-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-148-transverse-ejection-radial-material-jerk-diagonal-20260714.md
