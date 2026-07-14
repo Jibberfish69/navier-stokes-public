@@ -22916,6 +22916,137 @@ Therefore the full incidence vector \(\Theta\), together with its
 metric-compatible material tangent, is the minimal lawful next state.
 Center and fiber are its projections, not separate entropy accounts.
 
+### F7.96 The full incidence Hilbert ray carries the complete Gold renewal curvature
+
+Define
+
+\[
+R_\Gamma:=\|\Theta\|_{L^2(\Gamma)},
+\qquad
+E_\Gamma=\frac{\Theta}{R_\Gamma}.
+\]
+
+The center--fiber Pythagorean law gives
+
+\[
+\boxed{
+R_\Gamma^2
+=R^2+4\mathcal R_{\rm fib},
+\qquad
+R_\Gamma\ge R\ge I.
+}
+\]
+
+Let
+
+\[
+\mathcal T_\Gamma=\nabla_t^\Gamma\Theta,
+\qquad
+\mathcal A_\Gamma=(\nabla_t^\Gamma)^2\Theta.
+\]
+
+Metric compatibility yields
+
+\[
+\boxed{
+R_\Gamma'
+=\langle E_\Gamma,\mathcal T_\Gamma\rangle_\Gamma,
+\qquad
+R_\Gamma''
+=\langle E_\Gamma,\mathcal A_\Gamma\rangle_\Gamma
++\mathcal K_\Gamma,
+}
+\]
+
+\[
+\boxed{
+\mathcal K_\Gamma
+=\frac1{R_\Gamma}
+\|P_{E_\Gamma}^\perp\mathcal T_\Gamma\|_\Gamma^2
+\ge0.
+}
+\]
+
+The moving-projection terms in the center and fiber laws are
+equal-and-opposite and cancel before this full polar decomposition.
+
+With the unique double-tail weight \(B''=2\nu I\),
+
+\[
+W_{B,\Gamma}
+=BR_\Gamma'+aR_\Gamma
+\]
+
+obeys
+
+\[
+\boxed{
+W_{B,\Gamma}'
+=B\left[
+\langle E_\Gamma,\mathcal A_\Gamma\rangle_\Gamma
++\mathcal K_\Gamma
+\right]
+-2\nu IR_\Gamma.
+}
+\]
+
+The sharp outward-renewal identity is
+
+\[
+\boxed{
+\begin{aligned}
+&2\nu\int_{t_0}^TI^2dt
++2\nu\int_{t_0}^TI(R_\Gamma-I)dt\\
+&\quad+\int_{t_0}^Ta[R_\Gamma']_-dt
++\int_{\{R_\Gamma'>0\}}B[R_\Gamma'']_-dt\\
+&=
+a(t_0)R_\Gamma(t_0)
++B(t_0)[R_\Gamma'(t_0)]_+\\
+&\quad+\int_{\{R_\Gamma'>0\}}B[R_\Gamma'']_+dt.
+\end{aligned}
+}
+\]
+
+Thus the complete every-point/every-chord renewal action is
+
+\[
+\boxed{
+\mathfrak C^\uparrow_{B,\Gamma}
+=\int_{\{R_\Gamma'>0\}}B
+\left[
+\langle E_\Gamma,\mathcal A_\Gamma\rangle_\Gamma
++\mathcal K_\Gamma
+\right]_+dt.
+}
+\]
+
+All center--fiber transfer, affine birth, carrier reselection, pressure,
+transport, turning, compression, and heat lie inside the one bracket.
+
+Finally,
+
+\[
+\mathcal K_\Gamma=0
+\quad\Longleftrightarrow\quad
+\mathcal T_\Gamma=\lambda_\Gamma(t)\Theta.
+\]
+
+This is true full-incidence homothety:
+\(\nabla_t^\Gamma E_\Gamma=0\).  It is stronger than radial motion of the
+center projection, which can hide fiber reorganization or projection
+rotation.  Exact homothety cannot create a nonzero ray from zero; affine
+source birth begins transversely.  At a nonzero eigenray contact, the first
+failure of persistence is
+
+\[
+\delta_\Gamma''
+=\frac1{|\lambda_\Gamma|}
+\|P_{E_\Gamma}^\perp\mathcal A_\Gamma\|_\Gamma^2.
+\]
+
+The full incidence ray is therefore the scalable tether: every center and
+every chord is one coordinate of it, and every pair law is its marginal.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22933,6 +23064,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-129-full-incidence-hilbert-ray-double-tail-renewal-eigenray-dichotomy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-128-full-incidence-residual-perspective-conditional-fisher-affine-birth-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-127-double-tail-remaining-expenditure-radial-jordan-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-126-active-hilbert-material-ray-curvature-wronskian-20260714.md
