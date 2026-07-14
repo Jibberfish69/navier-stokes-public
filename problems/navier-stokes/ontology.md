@@ -26793,7 +26793,7 @@ object.
 
 ### F7.119 A participating HJB ruler cancels radial renewal and carries a datum-finite Fisher entropy
 
-Choose a positive finite-mass ruler density \(\varpi=e^{2s}\) whose logarithm
+Choose a positive finite-mass ruler density \(\zeta_{\rm rul}=e^{2s}\) whose logarithm
 satisfies the complete pair-phase law
 
 \[
@@ -26806,9 +26806,9 @@ Since \(\operatorname{div}_\Omega V_{\rm pair}=-2\alpha\),
 
 \[
 \boxed{
-\partial_t\varpi
-+\operatorname{div}_\Omega(V_{\rm pair}\varpi)
-=-\nu\frac{|\nabla_z\varpi|^2}{\varpi},
+\partial_t\zeta_{\rm rul}
++\operatorname{div}_\Omega(V_{\rm pair}\zeta_{\rm rul})
+=-\nu\frac{|\nabla_z\zeta_{\rm rul}|^2}{\zeta_{\rm rul}},
 }
 \]
 
@@ -26816,10 +26816,10 @@ and therefore
 
 \[
 \boxed{
-\int\varpi(t)d\Omega
+\int\zeta_{\rm rul}(t)d\Omega
 +\nu\int_{t_0}^t\!\int
-\frac{|\nabla_z\varpi|^2}{\varpi}d\Omega ds
-=\int\varpi_0d\Omega.
+\frac{|\nabla_z\zeta_{\rm rul}|^2}{\zeta_{\rm rul}}d\Omega ds
+=\int\zeta_{{\rm rul},0}d\Omega.
 }
 \]
 
