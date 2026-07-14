@@ -19885,6 +19885,316 @@ quartic amplitude, normalized shape, all source immigration, and every
 temporal restart.  Removing any coordinate reproduces one of the exact
 cancellations above.
 
+### F7.77 The only convex pair entropy with both positive center heat and exact slaved-pressure flux is the quadratic critical mass
+
+In preserved Cartesian pair coordinates, put
+
+\[
+\zeta=\frac{u(x)-u(y)}{|x-y|^2},
+\qquad
+q=|\zeta|^2,
+\qquad
+d\Pi=\frac1{\pi^2}dz\,dR\,d\theta.
+\]
+
+Then \(d\mu=q\,d\Pi\).  With
+
+\[
+\mathfrak p=\frac{\delta\nabla p}{\rho^2},
+\]
+
+and
+
+\[
+\mathcal L
+=\partial_t+W_\theta\cdot\nabla_z
++V\cdot\nabla_R-\nu\Delta_z,
+\]
+
+the complete pair-phase tangent is
+
+\[
+\boxed{
+\mathcal L\zeta=-\mathfrak p-2\alpha\zeta,
+}
+\]
+
+\[
+\boxed{
+\mathcal Lq
+=-2\zeta\cdot\mathfrak p
+-4\alpha q
+-2\nu|\nabla_z\zeta|^2.
+}
+\]
+
+The determinant-one pair flow contains all radial and angular motion:
+
+\[
+\nabla_z\cdot W_\theta
++\rho^{-2}\partial_\rho(\rho^3\alpha)
++\operatorname{div}_{S^2}\dot n=0.
+\]
+
+For every \(C^2\) vector entropy \(\Psi\), after removal of the explicit
+spatial and radial boundary fluxes,
+
+\[
+\boxed{
+\begin{aligned}
+\frac d{dt}\int\Psi(\zeta)d\Pi
+&+\nu\int\sum_j
+D^2\Psi(\zeta)
+[\partial_{z_j}\zeta,\partial_{z_j}\zeta]d\Pi\\
+&=-\int D\Psi(\zeta)\cdot\mathfrak p\,d\Pi
+-2\int\alpha D\Psi(\zeta)\cdot\zeta\,d\Pi.
+\end{aligned}
+}
+\]
+
+The boundary fluxes vanish for smooth decaying data when \(\Psi\) grows
+strictly below \(|\zeta|^3\).
+
+The quadratic mass is exactly critical height:
+
+\[
+\boxed{
+M=\int q\,d\Pi=4H.
+}
+\]
+
+Moreover,
+
+\[
+\int\zeta\cdot\mathfrak p\,d\Pi=0,
+\qquad
+\int|\nabla_z\zeta|^2d\Pi
+=2\|\Lambda^{3/2}u\|_2^2,
+\]
+
+and therefore
+
+\[
+\boxed{
+M'
+=4P_H-4\nu\|\Lambda^{3/2}u\|_2^2,
+\qquad
+P_H=-\int\alpha q\,d\Pi.
+}
+\]
+
+The raw logarithmic entropy \(q\log(q/q_*)\) is not globally convex as a
+function of the physical vector \(\zeta\).  Its tangential and radial
+Hessian eigenvalues are
+
+\[
+2\left(1+\log\frac q{q_*}\right),
+\qquad
+2\left(3+\log\frac q{q_*}\right).
+\]
+
+A finite globally convex replacement is
+
+\[
+\boxed{
+\Psi_*(\zeta)
+=(q+q_*)\log\left(1+\frac q{q_*}\right)-q.
+}
+\]
+
+Writing
+
+\[
+\ell_*=\log\left(1+\frac q{q_*}\right),
+\]
+
+one has
+
+\[
+D^2\Psi_*
+=2\ell_*I+\frac{4\zeta\otimes\zeta}{q+q_*}
+\succeq0
+\]
+
+and
+
+\[
+\boxed{
+\mathcal E_*'+\nu\mathfrak F_*
+=-4\int\alpha q\ell_*d\Pi
+-2\int\ell_*\zeta\cdot\mathfrak p\,d\Pi,
+}
+\]
+
+where
+
+\[
+\boxed{
+\mathfrak F_*
+=\int\left[
+2\ell_*|\nabla_z\zeta|^2
++\frac{|\nabla_zq|^2}{q+q_*}
+\right]d\Pi\ge0.
+}
+\]
+
+Thus genuine positive viscous Fisher production exists.  Nonlinearity in
+the entropy, however, creates the bulk pressure term
+
+\[
+\int
+\frac{\delta p}{\rho^2}
+\operatorname{div}_zD\Psi(\zeta)d\Pi.
+\]
+
+Requiring this to vanish for every trace-free increment gradient forces
+
+\[
+D^2\Psi(\zeta):A=0
+\quad\hbox{for every trace-free }A.
+\]
+
+Hence
+
+\[
+D^2\Psi=cI
+\]
+
+with constant \(c\), and, up to affine null terms,
+
+\[
+\boxed{
+\Psi(\zeta)=\frac c2|\zeta|^2.
+}
+\]
+
+The quadratic critical-height mass is the unique globally convex pair
+entropy possessing both sign-definite center heat and exact slaved-pressure
+flux cancellation.
+
+Normalizing
+
+\[
+p=\frac qM
+\]
+
+does not retain common growth.  With
+
+\[
+g
+=-4\alpha
+-2\frac{\zeta\cdot\mathfrak p}{q}
+-2\nu\frac{|\nabla_z\zeta|^2}{q},
+\]
+
+one has
+
+\[
+\mathcal Lp=p(g-\bar g),
+\qquad
+\boxed{\bar g=\frac{M'}M=\frac{H'}H.}
+\]
+
+Consequently
+
+\[
+\boxed{
+\frac d{dt}\int p\log\frac p{p_*}d\Pi
++\nu\int\frac{|\nabla_zp|^2}{p}d\Pi
+=\operatorname{Cov}_p
+\left(g,\log\frac p{p_*}\right).
+}
+\]
+
+Every normalized Rényi entropy subtracts the same \(\bar g\).  Shape
+entropy therefore measures differential pair reselection, not common
+all-field rebuilding.
+
+Homogeneous vector entropies
+
+\[
+\Psi_\gamma=\frac1\gamma|\zeta|^\gamma
+\]
+
+have finite pair stock only for
+
+\[
+\boxed{\frac32<\gamma<3.}
+\]
+
+At \(\gamma=3\), the diagonal behavior
+
+\[
+\zeta(z,\rho n)\sim\frac{\nabla u(z)n}{\rho}
+\]
+
+gives
+
+\[
+\int_{|R|<\varepsilon}|\zeta|^3dR
+\sim
+\int_0^\varepsilon\frac{d\rho}{\rho}
+=\infty.
+\]
+
+The cubic amplitude entropy needed to match positive cubic compression is
+exactly the ultraviolet-divergent endpoint.  A putative radial Fisher term
+is even more singular:
+
+\[
+\int\frac{|\nabla_Rq|^2}{q}d\Pi
+\sim
+\int_0^\varepsilon\frac{d\rho}{\rho^2}
+=\infty.
+\]
+
+Finally, the exact viscous shear
+
+\[
+u_A=(Ae^{-\nu k^2t}\sin(kx_2),0,0)
+\]
+
+has a pair reflection \(R_1\mapsto-R_1\) satisfying
+
+\[
+\zeta^+=\zeta^-,
+\qquad
+q^+=q^-,
+\qquad
+\alpha^\pm=\pm\alpha.
+\]
+
+The reflection leaves every radial scalar/vector entropy, pressure, heat,
+and Fisher production unchanged, but
+
+\[
+\boxed{
+[-4\alpha^+q]_+
++[-4\alpha^-q]_+
+=4|\alpha|q>0.
+}
+\]
+
+At amplitude \(A\),
+
+\[
+\mathcal C_+\sim A^3,
+\qquad
+\nu\mathfrak F_*\sim\nu A^2\log A.
+\]
+
+Thus no universal instantaneous Fisher domination of positive compression
+is possible.  The exact \(2D3C\) example of Cycle 014 also has
+\(H'(0)>0\) at sufficiently large amplitude, and the normalized entropy
+removes that genuine growth as \(\bar g=H'/H\).
+
+The scalar entropy classification is therefore complete: nonlinear convex
+entropy supplies positive heat but creates a signed pressure bulk
+commutator; exact pressure flux returns the quadratic mass; normalization
+deletes common growth; reflected all-pair directions cancel signed
+compression but retain its positive part; and the amplitude exponent that
+could dominate that positive part is diagonal-divergent.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
