@@ -24889,6 +24889,264 @@ The original split is consequently one same-fluid law:
 }
 \]
 
+### F7.106 The Gold-active acceleration chord has an exact first-jet entropy
+
+For any smooth vector field \(f\), define its complete chord slope and
+material heat source by
+
+\[
+q_f=\frac{f(x)-f(y)}{\rho},
+\qquad
+F_f=(D_t-\nu\Delta)f.
+\]
+
+The full endpoint-pair generator satisfies
+
+\[
+\boxed{
+(D_{\rm pair}-\nu\Delta_z)q_f
+=\frac{\delta F_f}{\rho}
+-\alpha q_f.
+}
+\]
+
+Its radial commutator is
+
+\[
+\boxed{
+\begin{aligned}
+(D_{\rm pair}-\nu\Delta_z)q_{f,\rho}
+={}&
+\left(\frac{\delta F_f}{\rho}\right)_\rho
+-\alpha_\rho q_f
+-(2\alpha+\rho\alpha_\rho)q_{f,\rho}\\
+&-b_\rho\cdot\nabla_zq_f
+-c_\rho\cdot\nabla_nq_f.
+\end{aligned}
+}
+\]
+
+Take
+
+\[
+\mathbf a=D_tu=-\nabla p+\nu\Delta u,
+\qquad
+j=\frac{\delta\mathbf a}{\rho},
+\qquad
+\phi=\frac{\delta F_{\mathbf a}}{\rho},
+\]
+
+where
+
+\[
+\boxed{
+\begin{aligned}
+F_{\mathbf a}
+={}&-\nabla D_tp
++(\nabla u)^T\nabla p\\
+&-\nu(\Delta u\cdot\nabla)u
+-2\nu\sum_k(\partial_ku\cdot\nabla)\partial_ku.
+\end{aligned}
+}
+\]
+
+The pressure source remains elliptically slaved:
+
+\[
+\boxed{
+\begin{aligned}
+-\Delta D_tp
+={}&
+2\operatorname{tr}((\nabla u)(\nabla\mathbf a))
+-2\operatorname{tr}((\nabla u)^3)\\
+&-(\Delta u)\cdot\nabla p
+-2\sum_k(\partial_ku\cdot\nabla)\partial_kp.
+\end{aligned}
+}
+\]
+
+Thus \(\phi\) is the next pressure--transport--viscous tangent of the same
+solution, not external forcing.
+
+For the uniform full-pair measure,
+
+\[
+\frac12\mathcal J_{\mathbf a}'
++\nu\mathcal X_{\mathbf a}
++2\mathcal A_{\mathbf a}
+=\mathcal F_{\mathbf a},
+\]
+
+where
+
+\[
+\mathcal J_{\mathbf a}
+=\frac1{\pi^2}\int|j|^2d\Omega,
+\quad
+\mathcal X_{\mathbf a}
+=\frac1{\pi^2}\int|\nabla_zj|^2d\Omega,
+\]
+
+\[
+\mathcal A_{\mathbf a}
+=\frac1{\pi^2}\int\alpha|j|^2d\Omega,
+\quad
+\mathcal F_{\mathbf a}
+=\frac1{\pi^2}\int j\cdot\phi\,d\Omega.
+\]
+
+The universal chord identity gives
+
+\[
+\boxed{
+\mathcal N_{\mathbf a}
+:=\frac1{\pi^2}\int|j_\rho|^2d\Omega
+=\frac1{12}\mathcal X_{\mathbf a}
+=\frac16\|\Lambda^{3/2}\mathbf a\|_2^2.
+}
+\]
+
+Moreover,
+
+\[
+\boxed{
+\mathcal N_{\mathbf a}
+=\frac16\|\Lambda^{3/2}\nabla p\|_2^2
++\frac{\nu^2}{6}\|\Lambda^{7/2}u\|_2^2.
+}
+\]
+
+Hence
+
+\[
+\boxed{
+\frac12\mathcal J_{\mathbf a}'
++12\nu\mathcal N_{\mathbf a}
++2\mathcal A_{\mathbf a}
+=\mathcal F_{\mathbf a}.
+}
+\]
+
+With
+
+\[
+\mathfrak a=-B',
+\qquad
+\beta=\frac{B^{5/3}}{R_\Gamma},
+\qquad
+-\frac{\beta'}{\beta}
+=\frac{5\mathfrak a}{3B}
++\frac{R_\Gamma'}{R_\Gamma},
+\]
+
+the positive radial heat acquires exactly the Cycle 138 collar weight.
+
+The actual Gold collar uses the active escort
+
+\[
+\boxed{
+M=\frac{\Theta^2}{4\pi^2H}.
+}
+\]
+
+Its exact weighted entropy is
+
+\[
+\boxed{
+\begin{aligned}
+\frac12\left(\beta\int M|j|^2d\Omega\right)'
++12\nu\beta\int M|j_\rho|^2d\Omega
+{}&+\frac{\beta}{2}
+\left(
+\frac{5\mathfrak a}{3B}
++\frac{R_\Gamma'}{R_\Gamma}
+\right)
+\int M|j|^2d\Omega\\
+{}+\beta\int
+\left[
+2\alpha M
+-\frac12(D_{\rm pair}M+\nu\Delta_zM)
+\right]|j|^2d\Omega
+{}&=
+\beta\int Mj\cdot\phi\,d\Omega
++12\nu\beta\mathfrak C_M[j],
+\end{aligned}
+}
+\]
+
+where the active radial/center heat commutator is
+
+\[
+\boxed{
+\mathfrak C_M[j]
+=\int M|j_\rho|^2d\Omega
+-\frac1{12}\int M|\nabla_zj|^2d\Omega.
+}
+\]
+
+It vanishes for constant \(M\); its signed value is exactly the effect of
+moving the active incidence population across the otherwise isotropic
+radial/center heat identity.
+
+Finally, the Cycle 138 collar splits exactly as
+
+\[
+\boxed{
+Y_\rho
+=\partial_\rho Z_\Gamma
++\frac{g\cdot g_\rho}{|g|^2}Z_\Gamma
+=\Theta\frac{g\cdot j_\rho}{|g|^2}
++\mathcal L_\rho,
+}
+\]
+
+with
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal L_\rho
+={}&b_\rho\cdot\nabla_z\Theta
++c_\rho\cdot\nabla_n\Theta\\
+&+\Theta\left[
+\frac{g_\rho\cdot j}{|g|^2}
+-2\frac{(g\cdot j)(g\cdot g_\rho)}{|g|^4}
+-2\alpha_\rho
+\right]
++\frac{g\cdot g_\rho}{|g|^2}Z_\Gamma.
+\end{aligned}
+}
+\]
+
+Therefore
+
+\[
+\mathcal N_\rho
+=\int\frac{m}{4H}
+\left|
+\Theta\frac{g\cdot j_\rho}{|g|^2}
++\mathcal L_\rho
+\right|^2d\Omega,
+\]
+
+and its axial source square obeys
+
+\[
+\boxed{
+\int\frac{m}{4H}
+\left|
+\Theta\frac{g\cdot j_\rho}{|g|^2}
+\right|^2d\Omega
+\le
+\int M|j_\rho|^2d\Omega.
+}
+\]
+
+The upper-law object has thus resolved into a positive active acceleration
+heat, the exact escort commutator \(\mathfrak C_M[j]\), and the explicit
+moving-geometry block \(\mathcal L_\rho\).  These are simultaneous rows of
+the same all-field material tangent.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -24906,6 +25164,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-139-active-escort-acceleration-chord-first-jet-entropy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-138-all-radius-source-first-jet-upper-lower-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-137-degree-three-covariant-cancellation-passive-active-separation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-136-double-tail-temporal-renewal-likelihood-near-ray-axial-restarts-20260714.md
