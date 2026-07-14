@@ -15969,6 +15969,229 @@ envelope and its heat row.  No other \(C^1\) scalar can cancel the
 remaining-expenditure term: in the general law it is exactly
 \(2\nu\Psi_aI\), so cancellation forces \(\Psi_a=0\).
 
+### F7.61 The absolute signed log-fiber contains the Gold depletion and its forced participation curvature
+
+For the complete signed chord-work density \(c(z,\rho)\) in F7.57, introduce
+absolute logarithmic radius and its extensive signed fiber
+
+\[
+s=\log\frac{\rho}{\ell_0},
+\qquad
+q(z,s)=\rho c(z,\rho).
+\]
+
+With
+
+\[
+\widetilde J=\rho J_c,
+\qquad
+\widetilde Q=\rho Q_c-4f_c,
+\]
+
+the exact all-field product law is
+
+\[
+\boxed{
+D_tq+\nabla_z\cdot\widetilde J+\partial_sf_c
+=\nu\Delta_zq+\widetilde Q,
+}
+\]
+
+and its completed signed endpoint remains
+
+\[
+\boxed{
+\int_{\mathbb R}q(z,s)\,ds=\tau(z)r(z).
+}
+\]
+
+Here \(\widetilde Q\) still contains the pressure-completed tensor
+\(S^2+W^2+\nabla^2p\), center transport, radial transport, angular turning,
+and the chord heat cofactor.  None is an independent source.
+
+For a fixed admissible log-radius probability \(\omega\) and a positive
+\(C^2\) weight \(B(\tau)\), define
+
+\[
+\mathcal H_{B,\omega}
+=\frac12\iint B(\tau)\frac{q^2}{\omega}\,ds\,dz.
+\]
+
+Its exact complete tangent is
+
+\[
+\boxed{
+\mathcal H_{B,\omega}'
++\nu\mathcal D_{B,\omega}
+=\mathcal R_{B,\omega},
+}
+\]
+
+where
+
+\[
+\mathcal D_{B,\omega}
+=\iint\frac1\omega\left[
+B|\nabla q|^2
++2B'q\nabla q\cdot\nabla\tau
++\frac12B''q^2|\nabla\tau|^2
+\right]ds\,dz,
+\]
+
+and \(\mathcal R_{B,\omega}\) is the simultaneous pairing with
+\(\widetilde J,f_c,\widetilde Q\), and
+\((D_t-\nu\Delta)\tau\).  The completed endpoint gives
+
+\[
+\boxed{
+\mathcal H_{B,\omega}
+\ge\frac12\int B(\tau)\tau^2r^2\,dz.
+}
+\]
+
+The heat quadratic is nonnegative for every signed fiber exactly when
+
+\[
+\boxed{
+BB''\ge2(B')^2,
+\qquad\text{equivalently}\qquad
+\left(\frac1B\right)''\le0.
+}
+\]
+
+For \(B=\tau^{-\beta}\),
+
+\[
+\mathcal D_{\beta,\omega}
+=\iint\frac{\tau^{-\beta}}{\omega}
+\left[
+\left|\nabla q-\beta q\nabla\log\tau\right|^2
++\frac{\beta(1-\beta)}2q^2|\nabla\log\tau|^2
+\right]ds\,dz.
+\]
+
+Thus universal positive center heat holds exactly for
+\(0\le\beta\le1\).  The Gold normalization is \(\beta=2\).  Writing
+\(\eta=q/\tau\),
+
+\[
+\mathcal H_{2,\omega}
+=\frac12\iint\frac{\eta^2}{\omega}\,ds\,dz
+\ge\frac12\int r^2dz
+\ge\frac12I,
+\]
+
+while
+
+\[
+\mathcal D_{2,\omega}
+=\mathcal P_{2,\omega}-\mathcal G_{2,\omega},
+\]
+
+\[
+\mathcal P_{2,\omega}
+=\iint\frac{
+\left|\nabla\eta-\eta\nabla\log\tau\right|^2}{\omega}\,ds\,dz,
+\qquad
+\mathcal G_{2,\omega}
+=\iint\frac{\eta^2|\nabla\log\tau|^2}{\omega}\,ds\,dz.
+\]
+
+After the forced participation-gradient curvature is kept with the complete
+source,
+
+\[
+\mathcal S_{2,\omega}
+=\mathcal R_{2,\omega}+\nu\mathcal G_{2,\omega},
+\]
+
+the Gold fiber obeys
+
+\[
+\boxed{
+\mathcal H_{2,\omega}'
++\nu\mathcal P_{2,\omega}
+=\mathcal S_{2,\omega}.
+}
+\]
+
+Multiplying by the exact remaining expenditure
+\(a'= -2\nu I\) gives
+
+\[
+\boxed{
+(a\mathcal H_{2,\omega})'
++\nu a\mathcal P_{2,\omega}
++2\nu I\mathcal H_{2,\omega}
+=a\mathcal S_{2,\omega},
+}
+\]
+
+with
+
+\[
+\boxed{
+2\nu I\mathcal H_{2,\omega}\ge\nu I^2.
+}
+\]
+
+Consequently
+
+\[
+\boxed{
+\begin{aligned}
+\nu\int_{t_0}^{t_1}I^2dt
++\nu\int_{t_0}^{t_1}a\mathcal P_{2,\omega}dt
+\le{}&
+a(t_0)\mathcal H_{2,\omega}(t_0)\\
+&+\int_{t_0}^{t_1}a[\mathcal S_{2,\omega}]_+dt.
+\end{aligned}
+}
+\]
+
+This is the first exact all-field law in the ontology whose one-way
+remaining-expenditure row directly contains the Gold action.
+
+The heat-sign boundary is structural, not an artifact of the quadratic
+choice.  If a finite jointly convex local density \(F(q,\tau)\) satisfies
+\(F(0,0)=0\), then
+
+\[
+F(\varepsilon r,\varepsilon)\le\varepsilon F(r,1).
+\]
+
+It therefore cannot uniformly dominate
+\((q/\tau)^2=r^2\) as \(\varepsilon\downarrow0\).  Extensive perspectives
+\(\tau\Phi(q/\tau)\) have positive heat and control \(\tau r^2\); intensive
+Gold densities \(\Phi(q/\tau)\) control \(r^2\) and necessarily retain signed
+participation curvature.
+
+The actual conditional fiber confirms the same division.  With
+
+\[
+d=\rho\int m\,d\sigma d\theta,
+\qquad
+w=\frac d\tau,
+\qquad
+\bar h=\frac qd,
+\]
+
+\[
+\boxed{
+\frac12I
+\le
+\mathcal H_{\rm cond}
+:=\frac12\iint w\bar h^2\,ds\,dz
+\le
+\frac12\int|S|^2dz.
+}
+\]
+
+This conditional occupancy is energy-finite but zero-homogeneous and hence
+not jointly convex at vanishing participation.  The positive extensive heat,
+the intensive Gold tether, and the participation-gradient rebuilding are
+therefore three inseparable readings of the same all-field relation.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -15986,6 +16209,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-094-log-fiber-gold-entropy-heat-convexity-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-093-canonical-envelope-ultraviolet-joined-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-092-critical-log-chord-replicator-entropy-translation-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-091-critical-log-chord-envelope-heat-gap-uncertainty-20260714.md`
