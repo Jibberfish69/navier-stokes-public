@@ -17921,6 +17921,299 @@ critical centered radial drift into a positive Gold entropy.  The next
 lawful object must be history-level or dynamically adjoint rather than a
 second local scalar primitive.
 
+### F7.70 The bounded conditional stock contains Gold depletion, but its moving projections do not cancel against the ultraviolet scalar
+
+Retain
+
+\[
+f=r_+,
+\qquad
+\chi=\frac m\tau,
+\qquad
+w=\frac f\tau,
+\qquad
+\lambda=wm=f\chi.
+\]
+
+If \(L=D_t-\nu\Delta_z\), \(Lf=F_f\), \(L\tau=F_\tau\), and \(U_m\)
+is the complete incidence-mass source, then
+
+\[
+\boxed{
+\left(L-2\nu\nabla\log\tau\cdot\nabla\right)\chi
+=\frac{U_m-\chi F_\tau}{\tau}
+=:\mathcal K_\chi,
+}
+\]
+
+\[
+\boxed{
+L\lambda
+=\chi F_f+f\mathcal K_\chi
+-2\nu\tau\nabla w\cdot\nabla\chi.
+}
+\]
+
+In complete chord coordinates this is
+
+\[
+\boxed{
+L\lambda
++\nabla_z\cdot(w\Gamma)
++\partial_\rho(v_\rho\lambda)
++\operatorname{div}_{S^2}(\dot n\lambda)
+=\mathcal S_\lambda,
+}
+\]
+
+where
+
+\[
+\mathcal S_\lambda
+=m\frac{F_f-wF_\tau}{\tau}
++\Gamma\cdot\nabla w
+-2\nu\tau\nabla w\cdot\nabla\chi
+-2\nu wg-4\alpha\lambda.
+\]
+
+The center-only active multiplication leaves the conditional fiber
+unchanged:
+
+\[
+\boxed{
+\frac{\lambda(z,\cdot)}{\int\lambda(z,\cdot)}=\chi_z,
+\qquad
+\int m\Phi\!\left(\frac\lambda m\right)d\Omega
+=\int\tau\Phi(w)dz.
+}
+\]
+
+Thus a relative entropy of \(\lambda\) against \(m\) collapses to the
+center and cannot read the radial phase covariance.
+
+For
+
+\[
+x=h-r,
+\qquad
+b=\alpha,
+\qquad
+k_\pm=x\mp b,
+\qquad
+Q_\pm=\int\lambda k_\pm^2,
+\]
+
+the normalized radial source has the exact positive-square representation
+
+\[
+\boxed{
+Q_+-Q_-=N_{\rm rad},
+\qquad
+Q_++Q_-=2\int\lambda(x^2+b^2)\ge|N_{\rm rad}|.
+}
+\]
+
+With
+
+\[
+\mathcal P=\frac{2\delta p}{\pi^2\rho^2}V,
+\]
+
+\[
+F_x
+=\mathbf B:n\otimes n-\widetilde{\mathcal F}_r
++(W_\theta-u)\cdot\nabla x
++\dot n\cdot\nabla_{S^2}h,
+\]
+
+\[
+F_b
+=|\dot n|^2-b^2
+-\frac1\rho n\cdot\nabla\delta p,
+\]
+
+the two squares obey
+
+\[
+\boxed{
+\begin{aligned}
+Q_\pm'={}&
+\int k_\pm^2\mathcal S_\lambda
++2\int\lambda k_\pm(F_x\mp F_b)\\
+&+2\int wk_\pm\mathcal P\cdot\nabla k_\pm
+-2\nu\int\lambda|\nabla k_\pm|^2\\
+&-4\nu\int k_\pm\nabla\lambda\cdot\nabla k_\pm.
+\end{aligned}
+}
+\]
+
+Their difference is the exact material tangent of \(N_{\rm rad}\).  The
+radial homogeneity and chord acceleration together already contribute
+
+\[
+\boxed{-5\int\lambda(h-r)\alpha^2}
+\]
+
+before pressure, turning, and the remaining normalized source are counted.
+Differentiation therefore raises the tier rather than producing a sign.
+
+The simultaneous product-diffusion block is
+
+\[
+\begin{aligned}
+-4\nu\int\bigl[
+&\lambda(|\nabla x|^2+|\nabla b|^2)
++\nabla\lambda\cdot\nabla(x^2+b^2)
+\bigr]\\
+=-4\nu\int\lambda\bigl[
+&|\nabla x+x\nabla\log\lambda|^2
++|\nabla b+b\nabla\log\lambda|^2
+\bigr]\\
+&+4\nu\int(x^2+b^2)
+\frac{|\nabla\lambda|^2}{\lambda}.
+\end{aligned}
+\]
+
+The negative squares and positive selector-Fisher remainder are two pieces
+of one viscous product rule.  There is no radial or angular diffusion in the
+incidence law, so its center Fisher term supplies no conditional Poincare
+control of \(\operatorname{Cov}_{\chi_z}(\alpha,h)\).
+
+The exact heat-eigenflow scaling separates the zero-order and radial-square
+tiers.  For
+
+\[
+u_{A,N}=Ae^{-\nu N^2t}U(Nx)
+\]
+
+with \(Q_{+,U}+Q_{-,U}>0\),
+
+\[
+\boxed{
+\int_0^\infty a\mathcal V_wdt
+=\frac{A^4I_U\mathcal V_{w,U}}{4\nu},
+\qquad
+\int_0^\infty a(Q_++Q_-)dt
+=\frac{A^5NI_U(Q_{+,U}+Q_{-,U})}{5\nu}.
+}
+\]
+
+At fixed kinetic energy the first action is frequency-independent while the
+second grows linearly with frequency.
+
+There is nevertheless a bounded adaptive stock which contains the Gold
+depletion.  Let \(\mathsf K(z,s)\) be the scale-resolved chord tensor and put
+
+\[
+d=\operatorname{tr}\mathsf K,
+\quad
+q=-S:\mathsf K,
+\quad
+p=\frac d\tau,
+\quad
+\mathsf R_s=\frac{\mathsf K}{d},
+\quad
+y=\frac qd=-S:\mathsf R_s.
+\]
+
+Then \(\int pds=1\), \(r=\int pyds\), and
+
+\[
+\boxed{
+\mathcal H_{\rm cond}
+=\frac12\iint py^2dsdz,
+\qquad
+\frac I2\le\mathcal H_{\rm cond}\le\frac K4.
+}
+\]
+
+If \(\mathsf U\) is the complete tangent source of \(\mathsf K\), define
+
+\[
+u_s=\operatorname{tr}\mathsf U,
+\quad
+\mathcal K_p=\frac{u_s-pF_\tau}{\tau},
+\quad
+\mathscr R_s=\frac{\mathsf U-\mathsf R_su_s}{d},
+\]
+
+\[
+\mathcal K_y
+=\mathbf B:\mathsf R_s
+-S:\mathscr R_s
++\frac{2\nu}{d}\nabla S::\nabla\mathsf K.
+\]
+
+The complete adaptive law is
+
+\[
+\boxed{
+\mathcal H_{\rm cond}'
++\nu D_{\rm cond}
+=\mathcal R_{\rm cond},
+}
+\]
+
+\[
+D_{\rm cond}=\iint p|\nabla y|^2,
+\]
+
+\[
+\boxed{
+\mathcal R_{\rm cond}
+=\iint\left[
+\frac12y^2\mathcal K_p+py\mathcal K_y
+\right]
++\nu\iint\nabla\log\tau\cdot\nabla(py^2).
+}
+\]
+
+Hence
+
+\[
+\boxed{
+(a\mathcal H_{\rm cond})'
++2\nu I\mathcal H_{\rm cond}
++\nu aD_{\rm cond}
+=a\mathcal R_{\rm cond},
+}
+\]
+
+and \(2\nu I\mathcal H_{\rm cond}\ge\nu I^2\).
+
+This bounded stock does not cancel against the ultraviolet scalar.  For
+constants \(A,B\),
+
+\[
+\boxed{
+\begin{aligned}
+[a(AK+B\mathcal H_{\rm cond})]'
+&+2\nu I(AK+B\mathcal H_{\rm cond})
++B\nu aD_{\rm cond}\\
+&=a\left[
+2A(\mathcal P_\omega-\nu D_2)
++B\mathcal R_{\rm cond}
+\right].
+\end{aligned}
+}
+\]
+
+No nonzero \(B\) cancels the zero-mean radial-position row
+\(\frac B2\iint y^2\mathcal K_p\) or the scale-shape row
+\(-B\iint pyS:\mathscr R_s\).  Tensorially, the adaptive pressure source
+contracts \(\mathbf B\) against
+
+\[
+\left(\int p\,\mathsf R_s\otimes\mathsf R_sds\right)S,
+\]
+
+whereas the enstrophy source contracts against \(S\).  The adaptive
+fourth-order operator is not a universal scalar multiple of the identity.
+Thus the bounded Gold-depletion stock is real, but its complete source is
+the material evolution of the radial-position and scale-shape projection.
+That projection, rather than another fixed scalar combination, is the
+lawful next all-field object.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -17938,6 +18231,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-103-active-incidence-square-adaptive-projection-no-scalar-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-102-active-residual-cotangent-mellin-selector-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-101-active-incidence-jordan-action-normalized-radial-covariance-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-100-incidence-projection-phase-alignment-scalar-law-20260714.md`
