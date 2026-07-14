@@ -22769,6 +22769,153 @@ exactly matching \(\nu\int I_A^2dt_A\).  The first-tail weight \(a\) is
 overstrong for curvature.  The double tail is the unique critical
 material-time coordinate for the infinite-pulse question.
 
+### F7.95 The full-incidence residual has conditional Fisher production and affine source birth
+
+Let
+
+\[
+q_\Gamma=\frac{m}{4H},
+\qquad
+s=\frac{r_+}{\tau}(h-r)m,
+\qquad
+v=\frac{s}{q_\Gamma}
+=4H\frac{r_+}{\tau}(h-r)=V_\perp.
+\]
+
+Then
+
+\[
+\mathcal R_{\rm fib}
+=\frac14\int q_\Gamma v^2d\Omega.
+\]
+
+With the common conservative full-incidence operator retained,
+
+\[
+\mathfrak L^*q_\Gamma=\mathcal Q_\Gamma,
+\qquad
+\mathfrak L^*s=\mathcal Q_s,
+\]
+
+\[
+\mathcal Q_\Gamma
+=-\frac{\nu}{2H}g_0
+-4\alpha q_\Gamma
+-\frac{H'}Hq_\Gamma,
+\qquad
+\mathcal Q_s=Q_\sigma-4\alpha s.
+\]
+
+The exact residual perspective law is
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal R_{\rm fib}'
++\frac{\nu}{2}\int q_\Gamma|\nabla v|^2
+={}&
+\frac12\int vQ_\sigma
+-\int\alpha q_\Gamma v^2\\
+&+\frac{\nu}{8H}\int v^2g_0
++\frac{H'}H\mathcal R_{\rm fib}.
+\end{aligned}
+}
+\]
+
+Viscosity therefore supplies both negative relative-amplitude smoothing and
+positive carrier depletion/reselection.  The signed center--fiber transfer
+appears as \(-\mathfrak T_{Z\perp}\) here and
+\(+\mathfrak T_{Z\perp}\) in the center law; it cancels only in the full
+incidence vector.
+
+For the actual conditional chord probability \(\chi=m/\tau\),
+
+\[
+\boxed{
+\frac1\tau\int g_0d\omega
+=\frac14|\nabla\log\tau|^2
++\frac14\mathbb E_\chi|\nabla\log\chi|^2
++\mathbb E_\chi|\nabla\widehat{\delta u}|^2.
+}
+\]
+
+The center scalar sees only the mean trace score.  Internal conditional
+Fisher variance and increment-polarization heat remain in the fiber.
+
+The mutual information of center and chord fiber obeys
+
+\[
+\boxed{
+\mathscr I_\Gamma'
++\nu\mathscr F_\chi
+=\int
+\log\frac{q_\Gamma}{p_H\bar q_\Gamma}
+\mathscr A_\Gamma\,d\Omega,
+\qquad
+\mathscr F_\chi
+=\int q_\Gamma|\nabla\log\chi|^2d\Omega.
+}
+\]
+
+Every pressure-flux, radial, angular, compression, chord-killing, and
+normalization row remains in the single source pairing.
+
+For an exact frequency-\(N\) Beltrami heat history, the normalized incidence
+law is stationary while
+
+\[
+\mathscr F_{\chi,A,N}=N^2\mathscr F_{\chi,U}.
+\]
+
+Hence
+
+\[
+\mathscr I_\Gamma'=0,
+\qquad
+\int\log\frac{q_\Gamma}{p_H\bar q_\Gamma}
+\mathscr A_\Gamma
+=\nu\mathscr F_\chi.
+\]
+
+The joined normalized source rebuilds every unit of conditional Fisher
+production even during pure heat decay.
+
+At a smooth residual zero with \(q_\Gamma>0\) and \(Q_\sigma\ne0\),
+
+\[
+\mathcal R_{\rm fib}'=0,
+\qquad
+\boxed{
+\mathcal R_{\rm fib}''
+=\frac12\int\frac{|Q_\sigma|^2}{q_\Gamma}d\Omega.
+}
+\]
+
+Thus the affine full source creates a new transverse Hilbert direction
+without prior residual stock.
+
+Every convex residual perspective
+\(\mathcal E_\Phi=\int q_\Gamma\Phi(v)\) satisfies
+
+\[
+\boxed{
+\mathcal E_\Phi'
++\nu\int q_\Gamma\Phi''(v)|\nabla v|^2
+=\int\Phi'(v)\mathcal Q_s
++\int[\Phi-v\Phi']\mathcal Q_\Gamma.
+}
+\]
+
+Linear-growth entropies remain at the datum-finite Jordan tier but lose
+quadratic coercivity.  Uniformly convex entropies see the quadratic fiber
+motion, but exact frequency scaling places their stock and production above
+the kinetic-energy tier.  A state-local entropy minimized at zero is also
+blind to affine source birth at first order.
+
+Therefore the full incidence vector \(\Theta\), together with its
+metric-compatible material tangent, is the minimal lawful next state.
+Center and fiber are its projections, not separate entropy accounts.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22786,6 +22933,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-128-full-incidence-residual-perspective-conditional-fisher-affine-birth-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-127-double-tail-remaining-expenditure-radial-jordan-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-126-active-hilbert-material-ray-curvature-wronskian-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-125-moving-full-incidence-projection-anisotropic-fiber-exchange-20260714.md
