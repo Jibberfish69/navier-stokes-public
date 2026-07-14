@@ -20195,6 +20195,312 @@ deletes common growth; reflected all-pair directions cancel signed
 compression but retain its positive part; and the amplitude exponent that
 could dominate that positive part is diagonal-divergent.
 
+### F7.78 The quartic Jordan history and static center phase are datum-paid, while Gold contracts the material phase with its active strain cotangent
+
+Let \(\Xi_{t,s}\) be the endpoint-pair flow and
+
+\[
+A_{t,s}
+=\frac{|V_t|^2}{|V_s|^2}
+\left(\frac{\rho_s}{\rho_t}\right)^4.
+\]
+
+The full incidence Jacobian of F7.74 gives
+
+\[
+\Xi_{t,s}^*d\mu_t=A_{t,s}d\mu_s.
+\]
+
+For the active density
+
+\[
+w=\frac{r_+}{\tau},
+\qquad
+h=-S:n\otimes n,
+\]
+
+both the signed marginal and its Jordan variation are therefore exact
+integrals on any earlier complete field:
+
+\[
+I(t)
+=\int_{\Omega_s}(w_th_t)\circ\Xi_{t,s}
+A_{t,s}d\mu_s,
+\]
+
+\[
+\mathcal V_w(t)
+=\int_{\Omega_s}(w_t|h_t|)\circ\Xi_{t,s}
+A_{t,s}d\mu_s.
+\]
+
+Writing
+
+\[
+e(s)=\mathcal E(s)-\mathcal E(T),
+\qquad
+a(t)=2\nu\int_t^TI(q)dq,
+\]
+
+the exact history payments are
+
+\[
+\boxed{
+2\nu\int_s^T\int_{\Omega_s}
+(w_t|h_t|)\circ\Xi_{t,s}A_{t,s}d\mu_sdt
+\le e(s)
+}
+\]
+
+and
+
+\[
+\boxed{
+\int_s^Ta(t)\int_{\Omega_s}
+(w_t|h_t|)\circ\Xi_{t,s}A_{t,s}d\mu_sdt
+\le\frac{e(s)^2}{4\nu}.
+}
+\]
+
+Thus the quartic compression Jacobian is already inside a datum-finite
+all-field history; it is not appended after a pairwise estimate.
+
+The actual delivery of viscosity through this moving pair geometry is also
+exact.  In Cartesian pair coordinates \(Q=(z,R)\), let
+
+\[
+B=(W_\theta,V),
+\qquad
+P_z=\begin{pmatrix}I_3&0\\0&0\end{pmatrix},
+\qquad
+\mathcal F=D_Q\Xi_{t,s}.
+\]
+
+Then
+
+\[
+\partial_t\widetilde V
++E_z\mathcal F^{-T}\nabla_Q\widetilde p
+=\nu\operatorname{Div}_Q
+(\mathcal C\nabla_Q\widetilde V),
+\qquad
+\mathcal C=\mathcal F^{-1}P_z\mathcal F^{-T}.
+\]
+
+The cumulative heat metric
+
+\[
+\mathbf Q_{t,s}=2\nu\int_s^t\mathcal C(q)dq
+\]
+
+is increasing.  Its shorted radial covariance satisfies
+
+\[
+\boxed{
+\mathbf S_R'
+=2\nu
+\begin{pmatrix}
+-\mathbf Q_{zz}^{-1}\mathbf Q_{zR}\\I
+\end{pmatrix}^{T}
+\mathcal C
+\begin{pmatrix}
+-\mathbf Q_{zz}^{-1}\mathbf Q_{zR}\\I
+\end{pmatrix}
+\succeq0
+}
+\]
+
+and, for \(\delta=t-s\),
+
+\[
+\boxed{
+\mathbf S_R
+=\frac{\nu\delta^3}{6}
+(\nabla_zV)(\nabla_zV)^T+O(\delta^4).
+}
+\]
+
+Heat reaches chord separation through endpoint nonaffinity
+\(\nabla_zV=\nabla u(x)-\nabla u(y)\).  Affine compression has zero radial
+Gramian, so material compression and high Eulerian frequency are joined
+coordinates, not synonyms.
+
+The higher-frequency penalty becomes quantitative in the dyadic
+all-intermediate slope filtration.  If
+
+\[
+g(\theta)=\nabla u(y+\theta Rn)n,
+\qquad
+\Delta_j=\mathbb E_{j+1}g-\mathbb E_jg,
+\]
+
+then
+
+\[
+\frac{4^j}{R^2}
+\int\frac{|\Delta_j|^2}{\pi^2}
+\le\frac{D_2}{15\pi},
+\qquad
+\lim_{j\to\infty}
+\frac{4^j}{R^2}
+\int\frac{|\Delta_j|^2}{\pi^2}
+=\frac{D_2}{20\pi}.
+\]
+
+For the physical-center phase commutator,
+
+\[
+\sum_{j\ge J}\|C_j^Z\|_{L_z^1S^1}
+\le\frac{8}{3\pi\sqrt5}\,r_J\sqrt{KD_2},
+\qquad r_J=R2^{-J},
+\]
+
+whereas
+
+\[
+\sum_{j<J}\|C_j^Z\|_{L_z^1S^1}
+\le\frac8{3\pi}\sqrt J\,K.
+\]
+
+Choosing the split with the remaining-expenditure radius
+
+\[
+R_a=\frac a{\nu^2},
+\qquad
+J(t)=\left\lceil
+\log_2\frac{a(t_0)/\nu^2}{R_a(t)}
+\right\rceil
+\]
+
+gives, for every \(\varepsilon>0\),
+
+\[
+\boxed{
+\begin{aligned}
+\int_{t_0}^Ta
+\sum_j\|C_j^Z\|_{L_z^1S^1}dt
+\le{}&
+\varepsilon\int_{t_0}^Ta\nu D_2dt\\
+&+\frac{8R_0^2e(t_0)^2}
+{45\pi^2\varepsilon\nu^2}
++\frac{8a(t_0)e(t_0)}{3\pi\nu},
+\end{aligned}
+}
+\]
+
+where \(R_0=a(t_0)/\nu^2\).  The Cycle 106 static \(1/j\) escape is
+therefore eliminated once palinstrophy and the one-way remaining radius are
+kept in the same field history.
+
+Gold, however, acts on the material reorganization of that phase.  At fixed
+dyadic radii,
+
+\[
+X_{j+1}^Z=X_j^Z+D_j^Z+C_j^Z,
+\qquad
+X_j^Z=\frac{\mathsf K(z,s_j)}{r_j}.
+\]
+
+With \(L=D_{\rm pair}-\nu\Delta_z\) and
+\(\mathsf U=L\mathsf K\),
+
+\[
+\boxed{
+\frac{\mathsf U(z,s_{j+1})}{r_{j+1}}
+-\frac{\mathsf U(z,s_j)}{r_j}
+=LD_j^Z+LC_j^Z.
+}
+\]
+
+The full pressure-completed slope source is
+
+\[
+\mathfrak q
+=\left[
+-A^2-\nabla^2p
++(W_\theta-u(x_\theta))\cdot\nabla A
+\right]n+A\dot n,
+\qquad A=\nabla u(x_\theta),
+\]
+
+so \(Lg=\mathfrak q\).  Writing
+\(\mathfrak q_j=\mathbb E_j\mathfrak q\), one has
+
+\[
+L\varepsilon_j
+=\frac2{\pi^2}
+\left[
+\Delta_j\cdot\delta\mathfrak q_j
+-\nu|\nabla\Delta_j|^2
+\right]
+\]
+
+and
+
+\[
+\boxed{
+L\zeta_j
+=\frac2{\pi^2}
+\left[
+\mathfrak q_j\cdot\Delta_j
++g_j\cdot\delta\mathfrak q_j
+-2\nu\nabla g_j:\nabla\Delta_j
+\right].
+}
+\]
+
+The heat rows telescope only before rectification:
+
+\[
+\boxed{
+-2\nu|\nabla\Delta_j|^2
+-4\nu\nabla g_j:\nabla\Delta_j
+=-2\nu
+(|\nabla g_{j+1}|^2-|\nabla g_j|^2).
+}
+\]
+
+Finally, a scale-tensor source \(Z\) changes the full Gold source by
+
+\[
+\boxed{
+\delta N[Z]
+=-\int\frac{r_+}{\tau}(S+rI):\bar Z\,dz,
+\qquad
+\bar Z=\int Z(s)ds.
+}
+\]
+
+Therefore the dynamic dyadic contribution is
+
+\[
+\boxed{
+\delta N_j
+=-\int
+\underbrace{\frac{r_+}{\tau}(S+rI)}_{\Phi_G}
+:LC_j^Z\,dz.
+}
+\]
+
+Moving \(L\) off (C_j^Z\) differentiates \(\Phi_G\), recreating active
+selector motion together with strain, slaved pressure, transport, turning,
+and heat.  It does not turn the static phase estimate into temporal Gold
+control.  The exact complete state is therefore
+
+\[
+\boxed{
+(\mathcal F,\mathbf Q;
+g_j,\mathfrak q_j,\Delta_j;
+\Phi_G;V,\delta p).
+}
+\]
+
+The first two coordinates retain deformation and actual heat delivery, the
+middle coordinates retain the signed all-scale slope/source telescope, and
+\(\Phi_G\) is the active cotangent converting that tangent into Gold work.
+Any scalar law is a marginal of this joined state and must preserve the
+signed telescope until after the complete Gold contraction.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -20212,6 +20518,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-111-quartic-jordan-pullback-pair-gramian-dynamic-center-phase-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-110-pair-phase-convex-entropy-pressure-flux-uniqueness-reflection-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-109-positive-rebuilding-multiple-exercise-doob-jordan-occupation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-108-convex-compression-classification-doob-amplitude-shape-response-20260714.md`
