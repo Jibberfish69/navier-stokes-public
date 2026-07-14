@@ -14124,6 +14124,363 @@ therefore cannot recount the initial reserve: the complete inward current at
 a moving record must pay the envelope rise, the gradient-increment heat
 square, and the incidence physically removed by selector contraction.
 
+### F7.52 Complete material matrix entropies are finite on rank strata, but none supplies a positive joined-action charge
+
+Retain
+
+\[
+P=\frac{\mathsf J_\omega}{K},
+\qquad
+Q=\frac{\mathsf T_u}{4H},
+\qquad
+U=\frac{D_t\mathsf J_\omega}{K},
+\qquad
+V=\frac{D_t\mathsf T_u}{4H},
+\]
+
+\[
+a_K=\frac{K'}K,
+\qquad
+a_H=\frac{H'}H,
+\qquad
+\Delta=a_K-a_H
+=\frac{4\mathcal B_{\omega,\tau}}K-2\nu\delta_H.
+\]
+
+The exact unsplit normalized tangents are
+
+\[
+\boxed{
+D_tP=U-a_KP,
+\qquad
+D_tQ=V-a_HQ.
+}
+\]
+
+On \(\{h>0\}\),
+
+\[
+P=\frac p2(I-\xi\otimes\xi)
+\quad\Longrightarrow\quad
+\boxed{\xi\cdot D_tP\,\xi=0.}
+\]
+
+Thus the common-heat axial filling and its opposite complete-source row in
+F7.47 cancel before an entropy score is applied.  For
+
+\[
+P_\varepsilon
+=\alpha_\varepsilon(P+\varepsilon Q),
+\qquad
+\alpha_\varepsilon=(1+\varepsilon)^{-1},
+\]
+
+the exact rank-stratified tangent is
+
+\[
+\boxed{
+D_tP_\varepsilon
+=\alpha_\varepsilon(U+\varepsilon V)
+-a_KP_\varepsilon
++\alpha_\varepsilon\varepsilon\Delta Q.
+}
+\]
+
+For
+
+\[
+M_\varepsilon=\frac{P_\varepsilon+Q}{2},
+\qquad
+\mathcal J_\varepsilon
+=\frac12D(P_\varepsilon\|M_\varepsilon)
++\frac12D(Q\|M_\varepsilon),
+\]
+
+put
+
+\[
+L_P=\log P_\varepsilon-\log M_\varepsilon,
+\qquad
+L_Q=\log Q-\log M_\varepsilon,
+\]
+
+\[
+J_P=\int\operatorname{tr}(P_\varepsilon L_P)dx,
+\qquad
+J_Q=\int\operatorname{tr}(QL_Q)dx.
+\]
+
+Then
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal J_\varepsilon'
+={}&\frac{\alpha_\varepsilon}{2}
+\int(U+\varepsilon V):L_Pdx
++\frac12\int V:L_Qdx\\
+&-\frac{a_K+a_H}{2}\mathcal J_\varepsilon
+-\frac\Delta4(J_P-J_Q)
++\frac{\alpha_\varepsilon\varepsilon\Delta}{2}
+\int Q:L_Pdx.
+\end{aligned}
+}
+\]
+
+Here \(0\le\mathcal J_\varepsilon\le\log2\), and the last term is
+\(O(\varepsilon|\log\varepsilon|)\) at the axial defect.  The surviving
+coefficient \(J_P-J_Q\) changes sign.  On two equal atoms,
+
+\[
+P_i=\frac{p_i}{2}\operatorname{diag}(1,1,0),
+\qquad
+Q_i=\frac{q_i}{3}I,
+\]
+
+it equals \(-0.0263372542\) for
+\(p=(0.5,0.5),q=(0.99,0.01)\), and \(+0.1467783649\) for
+\(p=(0.99,0.01),q=(0.5,0.5)\).  These witnesses classify the matrix
+coefficient; they are not independently prescribed fluid snapshots.
+
+For Hellinger, let \(\mathcal S_A[X]\) solve
+
+\[
+A^{1/2}\mathcal S_A[X]+\mathcal S_A[X]A^{1/2}=X,
+\]
+
+and put
+
+\[
+D_{H,\varepsilon}^2
+=2-2\int\operatorname{tr}(P_\varepsilon^{1/2}Q^{1/2})dx,
+\]
+
+\[
+G_P^H=I-2\mathcal S_{P_\varepsilon}(Q^{1/2}),
+\qquad
+G_Q^H=I-2\mathcal S_Q(P_\varepsilon^{1/2}).
+\]
+
+Its exact law is
+
+\[
+\boxed{
+\begin{aligned}
+(D_{H,\varepsilon}^2)'
+={}&\alpha_\varepsilon\int G_P^H:(U+\varepsilon V)dx
++\int G_Q^H:Vdx\\
+&-(a_K+a_H)(1-\Psi_\varepsilon)
++\alpha_\varepsilon\varepsilon\Delta\int G_P^H:Qdx.
+\end{aligned}
+}
+\]
+
+On a constant-rank stratum, the kernel--kernel block of \(D_tP\) vanishes,
+so the tangential square-root derivative is finite and
+
+\[
+\boxed{
+(D_H^2)'
+=-2\int\operatorname{tr}
+\left[\mathcal S_P^\sharp(D_tP)Q^{1/2}
++P^{1/2}\mathcal S_Q(D_tQ)\right]dx.
+}
+\]
+
+For Bures, with
+
+\[
+D_{B,\varepsilon}^2=2-2\Phi_\varepsilon,
+\qquad
+A_\varepsilon=I-T_{Q\to P_\varepsilon},
+\qquad
+C_\varepsilon=I-T_{P_\varepsilon\to Q},
+\]
+
+the corresponding exact law is
+
+\[
+\boxed{
+\begin{aligned}
+(D_{B,\varepsilon}^2)'
+={}&\alpha_\varepsilon\int C_\varepsilon:(U+\varepsilon V)dx
++\int A_\varepsilon:Vdx\\
+&-(a_K+a_H)(1-\Phi_\varepsilon)
++\alpha_\varepsilon\varepsilon\Delta
+\int C_\varepsilon:Qdx.
+\end{aligned}
+}
+\]
+
+The last Hellinger and Bures counterterms are order \(\sqrt\varepsilon\) at
+a regular axial defect.  Define
+
+\[
+G_P^\sharp
+=Q^{1/2}(Q^{1/2}PQ^{1/2})^{\dagger1/2}Q^{1/2},
+\]
+
+\[
+G_Q^\sharp
+=P^{1/2}(P^{1/2}QP^{1/2})^{\dagger1/2}P^{1/2}.
+\]
+
+Then the complete rank-two Bures chain rule is finite:
+
+\[
+\boxed{
+(D_B^2)'
+=\int(I-G_P^\sharp):D_tPdx
++\int(I-G_Q^\sharp):D_tQdx.
+}
+\]
+
+These finite complete derivatives do not retain the nonnegative separated
+heat-production row.  Rank-changing vorticity-zero events remain
+\(\varepsilon\)-regularized or stratified.
+
+A bounded overlap that is regular through \(P=0\) is
+
+\[
+\mathcal O=2\int\frac{P:Q}{p+q}dx,
+\qquad
+p=\operatorname{tr}P,
+\qquad
+q=\operatorname{tr}Q.
+\]
+
+It obeys \(0\le\mathcal O\le1\) and
+
+\[
+\boxed{
+\mathcal O'
+=2\int\left[
+\frac{D_tP:Q+P:D_tQ}{p+q}
+-\frac{(P:Q)(\operatorname{tr}D_tP+operatorname{tr}D_tQ)}
+{(p+q)^2}
+\right]dx.
+}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\mathcal O'
+=\mathcal R_{\mathcal O}
+-\frac{a_K+a_H}{2}\mathcal O
+-\Delta\Xi,
+\qquad
+\Xi=\int\frac{(P:Q)(q-p)}{(p+q)^2}dx.
+}
+\]
+
+Here \(|\Xi|\le\mathcal O/2\).  The same two-atom family gives
+\(\Xi=+0.0332774605\) and \(-0.0332774605\) after exchanging the trace
+profiles, while \(\Xi=0\) when \(p=q\) pointwise.
+
+The reverse divergence has an exact renormalized support law.  On a rank-two
+stratum write
+
+\[
+\Pi=\xi\otimes\xi,
+\qquad
+R=I-\Pi,
+\qquad
+P=aR,
+\qquad
+Q=\begin{pmatrix}A&b\\b^T&c\end{pmatrix}_{R\oplus\Pi},
+\]
+
+with \(c=\Pi:Q\), \(w=R:Q\), and
+\(\kappa=\int cdx\).  Then
+
+\[
+\boxed{
+D(Q\|P_\varepsilon)
+=\kappa\log\frac1\varepsilon
++D_{\rm ren}+o(1),
+}
+\]
+
+\[
+D_{\rm ren}
+=\int\left[
+\operatorname{tr}(Q\log Q)-w\log a-c\log c
+\right]dx.
+\]
+
+The mass-corrected finite part
+
+\[
+\boxed{
+\widehat D=D_{\rm ren}+\kappa
+=D(Q\|RQR+c\Pi)+D_{\rm gen}(RQR\|P)\ge0
+}
+\]
+
+has the complete chain rule
+
+\[
+\boxed{
+\widehat D'
+=\int\left[
+D_tQ:\bigl(\log Q-(\log a)R-(\log c)\Pi\bigr)
++\log\frac ac\,Q:D_t\Pi
+-w\frac{D_ta}{a}
+\right]dx.
+}
+\]
+
+Its aperture coefficient also differentiates as one complete relation:
+
+\[
+\boxed{
+D(Q\|P_\varepsilon)'
+=\kappa'\log\frac1\varepsilon
++D_{\rm ren}'+o(1),
+\qquad
+\kappa'=\int(\Pi:D_tQ+Q:D_t\Pi)dx.
+}
+\]
+
+The first term in \(\kappa'\) is change of axial chord mass; the second is
+motion of the vorticity-axis aperture through the same chord tensor.  Their
+sum has no sign.  At \(P=0\) the kernel is three-dimensional and the leading
+coefficient is \(\operatorname{tr}Q\), so rank changes require the full
+kernel projection and a stratified limit.
+
+Finally, for
+
+\[
+\mathfrak a(t)=2\nu\int_t^T I(s)ds,
+\qquad
+\mathfrak a'=-2\nu I,
+\]
+
+every differentiable candidate obeys
+
+\[
+(\mathfrak aD)'+2\nu ID=\mathfrak aD'.
+\]
+
+The uniform level bounds give datum-finite \(I\)-weighted occupancy, for
+example
+
+\[
+\int2\nu I\mathcal J\,dt\le\mathcal E_0\log2,
+\qquad
+\int2\nu ID_B^2dt\le2\mathcal E_0,
+\]
+
+but the right sides retain signed complete scores.  Jensen--Shannon and the
+bounded overlap retain \(\Delta\) only through sign-changing coefficients;
+Hellinger and Bures retain the normalization sum; the nonnegative
+renormalized reverse stock is unbounded and has signed aperture evolution;
+forward Umegaki retains the fixed \(-\Delta\) coordinate but is unbounded and
+has a signed complete score.  None of these complete state entropies gives a
+sign-definite, datum-finite production for positive joined action.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -14141,6 +14498,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-085-complete-material-matrix-entropy-rank-stratification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-083-monotone-moving-chord-record-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-082-critical-mean-joined-entropy-gold-mass-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-081-remaining-radius-energy-span-reciprocal-renewal-density-20260714.md`
