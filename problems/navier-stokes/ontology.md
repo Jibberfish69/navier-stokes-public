@@ -24269,6 +24269,209 @@ The resulting all-field trichotomy is
 
 All three branches are marginals of the same endpoint-pair connection.
 
+### F7.103 The double-tail carrier has an exact temporal renewal likelihood
+
+On a positive smooth active interval define the joined outward-curvature
+density
+
+\[
+\mathfrak r_{\rm ren}
+=\mathbf1_{\{R_\Gamma'>0\}}
+\left[
+\langle E_\Gamma,\mathcal A_\Gamma\rangle_\Gamma
++\mathcal K_\Gamma
+\right]_+
+=\mathbf1_{\{R_\Gamma'>0\}}[R_\Gamma'']_+.
+\]
+
+Relative to the angular carrier, define
+
+\[
+\boxed{
+\Lambda_{\rm ren}
+:=\frac{\mathfrak r_{\rm ren}}
+{\mathcal D_{\rm ang}}.
+}
+\]
+
+At whole-ray activation, retain the positive singular curvature mass
+
+\[
+\mathfrak C_{\rm act}
+=\left\langle
+B,(dR_\Gamma')_{{\rm act},+}
+\right\rangle.
+\]
+
+Then
+
+\[
+\boxed{
+\mathfrak C^\uparrow_{B,\Gamma}
+=\int B\mathcal D_{\rm ang}
+\Lambda_{\rm ren}dt
++\mathfrak C_{\rm act}.
+}
+\]
+
+If
+
+\[
+M_B=\int B\mathcal D_{\rm ang}dt
+\]
+
+is finite and nonzero, the temporal probability
+
+\[
+d\mu_B=\frac{B\mathcal D_{\rm ang}}{M_B}dt
+\]
+
+gives
+
+\[
+\boxed{
+\mathfrak C^\uparrow_{B,\Gamma}
+=M_B\mathbb E_{\mu_B}\Lambda_{\rm ren}
++\mathfrak C_{\rm act}.
+}
+\]
+
+Thus outward renewal is the first temporal-severity moment of the
+double-tail angular measure.
+
+Hellinger turning has the separate likelihood
+
+\[
+\boxed{
+\Lambda_{\rm turn}
+=\frac{\mathcal K_\Gamma}{\mathcal D_{\rm ang}}
+=\frac{
+R_\Gamma\mathfrak F_{\rm FR}^+
+}{4\mathcal D_{\rm ang}},
+}
+\]
+
+so
+
+\[
+\int B\mathcal K_\Gamma dt
+=M_B\mathbb E_{\mu_B}\Lambda_{\rm turn}.
+\]
+
+The axial term prevents identification of these likelihoods:
+
+\[
+\langle E_\Gamma,\mathcal A_\Gamma\rangle_\Gamma
+=R_\Gamma''-\mathcal K_\Gamma.
+\]
+
+Combining with the spatial severity factorization gives
+
+\[
+\boxed{
+\mathfrak C^\uparrow_{B,\Gamma}
+=\int
+B\,
+\mathfrak A_{\rm ang}\,
+\Lambda_{\rm sev}^{\rm ang}\,
+\Lambda_{\rm ren}\,dt
++\mathfrak C_{\rm act}.
+}
+\]
+
+The four factors are remaining history, paid angular-action mass, spatial
+slope severity against every chord trough, and temporal restart severity.
+
+The carrier mass controls only occupancy:
+
+\[
+\boxed{
+\int B\mathcal D_{\rm ang}dt
+\ge\frac3{175}\int BR_\Gamma^2dt.
+}
+\]
+
+It contains no temporal derivative of \(R_\Gamma\).
+
+An exact near-ray history separates all three temporal quantities.  Take
+
+\[
+e_n=2^{-n},
+\qquad
+\delta_n=2^{-5n},
+\qquad
+I=J=R_\Gamma
+=\sum_n\frac{e_n}{\delta_n}\phi_n,
+\]
+
+with the terminal supports packed on their own \(\delta_n\)-scale.  Set
+
+\[
+p_G=p_H,
+\qquad
+\vartheta_{\rm ang}=\frac{12}{175},
+\qquad
+\mathcal D_{\rm ang}
+=\frac3{175}R_\Gamma^2.
+\]
+
+In a two-dimensional Hilbert plane let
+
+\[
+\Theta
+=R_\Gamma(\cos\vartheta,\sin\vartheta)
+\]
+
+and turn pulse \(n\) through
+\(q_n=2^{-2n}\).  Then
+
+\[
+\mathcal K_\Gamma
+=R_\Gamma(\vartheta')^2>0
+\]
+
+on every active interval, while the tangent angle from radial tends to zero.
+The joined radial bracket remains exactly \(R_\Gamma''\).  Direct pulse
+calculation gives
+
+\[
+\boxed{
+\sum_n\int B\mathcal D_{\rm ang}<\infty,
+\qquad
+\sum_n\int B\mathcal K_\Gamma<\infty,
+\qquad
+\sum_n\int_{\{R_\Gamma'>0\}}
+B[R_\Gamma'']_+=\infty.
+}
+\]
+
+This is an abstract exact realization of the scalar, polar, Hellinger,
+Wronskian, tail, and qualitative no-eigenray identities; Cycle 135 supplies
+the extra NS source-departure/radial-collar law it omits.
+
+Under fixed-energy short-rise scaling,
+
+\[
+\mathcal D_{\rm ang}\sim\lambda^8,
+\qquad
+\mathcal K_\Gamma\sim R_\Gamma''\sim\lambda^{14}.
+\]
+
+Therefore
+
+\[
+\boxed{
+\Lambda_{\rm turn}\sim\lambda^6,
+\qquad
+\Lambda_{\rm ren}\sim\lambda^6.
+}
+\]
+
+The temporal likelihood is exactly the six-power difference between
+spatial Gold occupancy and source-level restart.  Cycle 135 identifies that
+tier as present turning, transverse next-source departure, or radial-collar
+variation.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -24286,6 +24489,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-136-double-tail-temporal-renewal-likelihood-near-ray-axial-restarts-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-135-quantitative-near-eigenray-fine-source-departure-radial-trace-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-134-complete-severity-likelihood-angular-recombination-double-tail-criticality-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-133-full-incidence-escort-hellinger-temporal-carre-du-champ-20260714.md
