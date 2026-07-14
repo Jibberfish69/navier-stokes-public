@@ -25694,6 +25694,391 @@ Thus frozen angular anisotropy cannot erase radial heat; the genuinely
 all-field first jet left by this comparison is the center-to-center variation
 of the escort itself.
 
+### F7.111 The target-weighted radial score has an exact curvature current and a two-thirds tail production
+
+Let
+
+\[
+h=\mathfrak h_\Gamma,
+\qquad
+v=\frac12h\Sigma,
+\qquad
+k=\partial_\rho v,
+\qquad
+\Lambda=\frac{B^{5/3}R_\Gamma^2}{I}.
+\]
+
+The moving incidence tangent is conjugate to the fixed-measure half-density
+derivative
+
+\[
+\mathscr D_{1/2}=D_{\rm pair}-\alpha:
+\qquad
+\sqrt{\frac m{4H}}\nabla_t^\Gamma F
+=\mathscr D_{1/2}\left(\sqrt{\frac m{4H}}F\right).
+\]
+
+Consequently,
+
+\[
+\boxed{
+\mathscr D_{1/2}h=v,
+\qquad
+\mathscr D_{1/2}v=a_2,
+}
+\]
+
+where, with \(\lambda=R_\Gamma'/R_\Gamma\),
+
+\[
+a_2
+=\frac{\sqrt{m/(4H)}}{R_\Gamma}
+\left[
+\mathcal A_\Gamma
+-(\lambda'+\lambda^2)\Theta
+-2\lambda Z_\Gamma
+\right].
+\]
+
+All pressure, heat, transport, and incidence motion remain joined inside
+\(\mathcal A_\Gamma\).  If
+
+\[
+\mathscr C_\rho
+:=[\partial_\rho,\mathscr D_{1/2}]
+=b_\rho\cdot\nabla_z
++(\alpha+\rho\alpha_\rho)\partial_\rho
++c_\rho\cdot\nabla_n-\alpha_\rho,
+\]
+
+then
+
+\[
+\boxed{
+\mathscr D_{1/2}k
+=\partial_\rho a_2-\mathscr C_\rho v.
+}
+\]
+
+Since \(\mathcal N_\rho=R_\Gamma^2\|k\|_2^2\), this is the direct
+material evolution of the Gold-target source square.  Put
+
+\[
+q_\Lambda=-\frac{\Lambda'}\Lambda
+=\frac{5\mathfrak a}{3B}
+-\left(\log\frac{R_\Gamma^2}{I}\right)'.
+\]
+
+Then
+
+\[
+\boxed{
+\frac12(\Lambda\|k\|_2^2)'
++\frac{q_\Lambda}{2}\Lambda\|k\|_2^2
+=\Lambda\left\langle
+k,\partial_\rho a_2-\mathscr C_\rho v
+\right\rangle.
+}
+\]
+
+The sharper curvature primitive uses
+
+\[
+q_\rho=\partial_\rho h,
+\quad
+Q=\|q_\rho\|_2^2,
+\quad
+J=\langle q_\rho,k\rangle,
+\quad
+G=\langle q_\rho,\mathscr C_\rho h\rangle,
+\]
+
+\[
+G_1
+=\langle\mathscr C_\rho h,k\rangle
+-\langle q_\rho,partial_\rho a_2-\mathscr C_\rho v\rangle.
+\]
+
+The exact first-jet relations are
+
+\[
+Q'=2(J-G),
+\qquad
+J'=\|k\|_2^2-G_1.
+\]
+
+With
+
+\[
+\mathscr S_*
+=\Lambda\left(J+\frac{q_\Lambda}{2}Q\right),
+\]
+
+they give
+
+\[
+\boxed{
+\Lambda\|k\|_2^2
+=\mathscr S_*'
++\frac\Lambda2(q_\Lambda^2-q_\Lambda')Q
++\Lambda(q_\Lambda G+G_1).
+}
+\]
+
+Write
+
+\[
+q_B=\frac{5\mathfrak a}{3B},
+\qquad
+r=\left(\log\frac{R_\Gamma^2}{I}\right)',
+\qquad
+q_\Lambda=q_B-r,
+\]
+
+and define
+
+\[
+\boxed{
+\mathcal T_{2/3}
+=2\nu B^{2/3}I
++\frac23\frac{\mathfrak a^2}{B^{1/3}}
+=-\left(B^{2/3}\mathfrak a\right)'.
+}
+\]
+
+Because
+
+\[
+q_B^2-q_B'
+=\frac53\frac{\mathcal T_{2/3}}{B^{5/3}},
+\]
+
+the complete identity is
+
+\[
+\boxed{
+\begin{aligned}
+\frac{B^{5/3}}I\mathcal N_\rho
+={}&\mathscr S_*'
++\frac56\frac{R_\Gamma^2}{I}Q\,\mathcal T_{2/3}\\
+&+\frac\Lambda2(r^2+r'-2q_Br)Q
++\Lambda[(q_B-r)G+G_1].
+\end{aligned}
+}
+\]
+
+Thus \(q=2/3\) is the exact material-evolution partner of the
+\(B^{5/3}\) upper source weight, while the \(q=1/3\) member in F7.108 is
+its lower Young-dual trough.  Moreover,
+
+\[
+r^2+r'-2q_Br
+=\frac{L_{\rm part}''-2q_BL_{\rm part}'}{L_{\rm part}},
+\qquad
+L_{\rm part}=\frac{R_\Gamma^2}{I},
+\]
+
+so the remaining scalar coefficient is exactly the tail-covariant second
+curvature of participation leverage.
+
+Unit-ray geometry gives
+
+\[
+\boxed{
+a_2=-\frac{\mathcal K_\Gamma}{R_\Gamma}h+b_2,
+\qquad
+b_2\perp h.
+}
+\]
+
+Hence the identity contains the positive diagonal
+
+\[
+\Lambda\frac{\mathcal K_\Gamma}{R_\Gamma}
+\|\partial_\rho h\|_2^2,
+\]
+
+and leaves one signed transverse-jerk/incidence-basis work.  At homothetic
+contact \(v=k=0\),
+
+\[
+\boxed{
+\mathscr D_{1/2}k=\partial_\rho b_2.
+}
+\]
+
+Thus instantaneous homothety does not persist unless the same joined
+transverse second tangent also vanishes.  This is the exact next-instant
+ejection unseen by a state-only ultraviolet diagonal.
+
+### F7.112 Complete endpoint-pair phase volume is Liouville-conservative and the finite active escort creates the Gold score
+
+Let
+
+\[
+x=z+(1-\theta)R,
+\qquad
+y=z-\theta R,
+\]
+
+\[
+V=u(x)-u(y),
+\qquad
+b=\theta u(x)+(1-\theta)u(y),
+\]
+
+and
+
+\[
+\mathbf a=D_tu=-\nabla p+\nu\Delta u,
+\qquad
+\mathcal A=\mathbf a(x)-\mathbf a(y).
+\]
+
+The relative-velocity graph
+
+\[
+F(t,z,R,\theta,v)=\delta(v-V)
+\]
+
+obeys the distributional Liouville equation
+
+\[
+\boxed{
+\partial_tF
++\nabla_z\cdot(bF)
++\nabla_R\cdot(vF)
++\nabla_v\cdot(\mathcal AF)=0.
+}
+\]
+
+Its phase velocity is exactly incompressible:
+
+\[
+\nabla_z\cdot b
++\nabla_R\cdot v
++\nabla_v\cdot\mathcal A=0.
+\]
+
+Thus every admissible convex Casimir of a smooth phase density transported
+by this velocity is conserved.  Pressure and viscosity occur together in
+the relative-velocity flux \(\mathcal A\).
+
+In polar relative-position and slope coordinates
+
+\[
+R=\rho n,
+\qquad
+V=\rho g,
+\]
+
+the invariant phase volume is
+
+\[
+d\Lambda_g
+=\rho^5\,dz\,d\rho\,d\sigma(n)\,d\theta\,dg.
+\]
+
+The radial, angular, and slope divergences cancel exactly:
+
+\[
+\boxed{
+6\alpha-2\alpha-4\alpha=0.
+}
+\]
+
+If viscosity is algebraically split and
+
+\[
+Q_{ab}=\sum_i\partial_{z_i}V_a\partial_{z_i}V_b,
+\]
+
+then the graph distribution satisfies
+
+\[
+\boxed{
+(\Delta_zV)\cdot\nabla_vF
+=-\Delta_zF+Q:\nabla_{vv}F.
+}
+\]
+
+The apparent positive center Fisher production is paired with an equal
+vertical anti-Fisher production because
+
+\[
+\partial_{z_i}F
+=-(\partial_{z_i}V)\cdot\nabla_vF.
+\]
+
+There is therefore no hidden positive Gold entropy production in complete
+unweighted phase volume.
+
+The finite incidence measure is instead
+
+\[
+p_\Gamma=\frac{|g|^2}{4\pi^2H},
+\qquad
+d\Gamma=p_\Gamma d\Omega,
+\]
+
+and it obeys
+
+\[
+\boxed{
+\partial_tp_\Gamma
++\operatorname{div}_\Omega(V_{\rm pair}p_\Gamma)
+=\kappa_\Gamma p_\Gamma,
+}
+\]
+
+where
+
+\[
+\boxed{
+\kappa_\Gamma
+=-\frac{H'}H
++2\frac{g\cdot j}{|g|^2}
+-4\alpha,
+\qquad
+\int\kappa_\Gamma d\Gamma=0.
+}
+\]
+
+The active escort
+
+\[
+d\mu_\Theta
+=\frac{\Theta^2}{R_\Gamma^2}d\Gamma
+\]
+
+then satisfies
+
+\[
+\boxed{
+\partial_t\mu_\Theta
++\operatorname{div}_\Omega(V_{\rm pair}\mu_\Theta)
+=\Sigma\mu_\Theta,
+}
+\]
+
+with
+
+\[
+\int\Sigma d\mu_\Theta=0,
+\qquad
+\boxed{
+\int\Sigma^2d\mu_\Theta
+=\frac{4\mathcal K_\Gamma}{R_\Gamma}.
+}
+\]
+
+The Gold Fisher square is therefore the path carré of a finite sourced
+escort, not the entropy drop of the invariant complete phase volume.  The
+lower law sees the transverse square after active projection.  The upper law
+is the off-diagonal phase deformation, including
+\(\nabla\delta(D_tu)\), that moves that projection.  They are two readings
+of the same incompressible phase shear.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -25711,6 +26096,8 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-146-complete-pair-phase-liouville-cancellation-finite-active-escort-score-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-145-target-weighted-radial-score-curvature-fractional-tail-current-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-144-escort-commutator-carre-angular-half-gap-center-first-jet-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-143-radial-temporal-hellinger-score-scalar-all-field-law-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-142-gold-target-normalized-source-escort-vpi-recombination-20260714.md
