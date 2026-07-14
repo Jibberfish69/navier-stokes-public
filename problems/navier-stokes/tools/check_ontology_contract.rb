@@ -41,6 +41,7 @@ class OntologyContractChecker
     check_legacy_catalog
     check_post_cutover_cards
     check_target_contract
+    check_consumer_anchors
     errors
   rescue Psych::SyntaxError => e
     errors << "invalid YAML: #{e.message.lines.first.strip}"
@@ -228,15 +229,45 @@ class OntologyContractChecker
       errors << "target operating contract has wrong #{key}" unless gate[key] == expected
     end
 
-    available = @map.scan(/<a id="([^"]+)"><\/a>/).flatten
-    heading_anchors = @map.lines.each_with_object([]) do |line, anchors|
+    referenced = @target.scan(%r{problems/navier-stokes/ontology\.md#([a-z0-9_-]+)}).flatten.uniq
+    unresolved = referenced - available_anchors
+    errors << "unresolved ontology anchors in target operating contract: #{unresolved.join(', ')}" unless unresolved.empty?
+  end
+
+  def check_consumer_anchors
+    scan = @contract.dig("validation", "consumer_anchor_scan")
+    extensions = scan.fetch("extensions")
+    excluded = scan.fetch("excluded_prefixes")
+    available = available_anchors
+    unresolved = []
+
+    scan.fetch("roots").each do |root_path|
+      root = absolute(root_path)
+      pattern = root.join("**", "*.{#{extensions.join(',')}}").to_s
+      Dir.glob(pattern).sort.each do |path_string|
+        path = Pathname(path_string)
+        relative_path = relative(path)
+        next if excluded.any? { |prefix| relative_path.start_with?(prefix) }
+
+        content = path.read
+        content.scan(%r{(?:problems/navier-stokes/)?ontology\.md#([a-z0-9_-]+)}).flatten.uniq.each do |anchor|
+          unresolved << "#{relative_path}##{anchor}" unless available.include?(anchor)
+        end
+      end
+    end
+
+    unless unresolved.empty?
+      errors << "unresolved lane-local ontology anchors: #{unresolved.sort.join(', ')}"
+    end
+  end
+
+  def available_anchors
+    anchors = @map.scan(/<a id="([^"]+)"><\/a>/).flatten
+    @map.lines.each do |line|
       next unless line.match?(/^\#{1,6} /)
       anchors << github_slug(line.sub(/^\#{1,6}\s+/, "").strip)
     end
-    available.concat(heading_anchors)
-    referenced = @target.scan(%r{problems/navier-stokes/ontology\.md#([a-z0-9_-]+)}).flatten.uniq
-    unresolved = referenced - available.uniq
-    errors << "unresolved ontology anchors in target operating contract: #{unresolved.join(', ')}" unless unresolved.empty?
+    anchors.uniq
   end
 
   def relative(path)
