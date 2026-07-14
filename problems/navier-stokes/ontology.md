@@ -21723,6 +21723,107 @@ transverse all-field source innovation.  Every complete all-radius
 no-surplus Gold record leaves radial pair heat, angular/source-radius
 innovation, or both; it cannot be a costless rank-one pulse.
 
+### F7.87 Projective angular innovation is datum finite, and the whole-field trace lifts it to Gold strength
+
+Let
+
+\[
+\mathcal H_3(n)
+=(n\cdot Sn)An-\frac25ASn
+\]
+
+be the irreducible degree-three part of the infinitesimal complete VPI source,
+and put
+
+\[
+d_{\rm harm}=\mathbb E_{S^2}|\mathcal H_3|^2.
+\]
+
+Then
+
+\[
+d_{\rm harm}
+=\frac2{105}|S|^2|A|^2
++\frac4{175}|AS|^2
+\ge\frac{16}{525}|S|^4.
+\]
+
+With \(G_0=\mathbb E|An|^2=|A|^2/3\), the projective innovation rate obeys
+
+\[
+\boxed{
+\frac2{35}|S|^2
+\le\frac{d_{\rm harm}}{G_0}
+\le\frac{22}{175}|S|^2.
+}
+\]
+
+Consequently its all-center action is datum finite:
+
+\[
+\boxed{
+\nu\int_{t_0}^{T}\int
+\frac{d_{\rm harm}}{G_0}dxdt
+\le\frac{11}{175}\mathcal E_0.
+}
+\]
+
+Now retain the complete chord trace \(\tau=\operatorname{tr}\mathsf T_u\),
+whose whole-field marginal is \(\int\tau dx=4H\).  Since
+\(r_+^2\le2|S|^2/3\),
+
+\[
+d_{\rm harm}\ge\frac{12}{175}r_+^4.
+\]
+
+Therefore the point--whole-field carrier
+
+\[
+\mathcal D_{\rm ang}
+=H\int\frac{d_{\rm harm}}\tau dx
+\]
+
+satisfies
+
+\[
+\boxed{
+\mathcal D_{\rm ang}\ge\frac3{175}I^2.
+}
+\]
+
+Writing
+
+\[
+p_I=\frac{r_+^2}{I},
+\qquad
+p_H=\frac\tau{4H},
+\]
+
+gives the stronger participation-divergence form
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+\ge\frac3{175}I^2
+\left[1+\chi^2(p_I\Vert p_H)\right].
+}
+\]
+
+The carrier factors exactly as
+
+\[
+\mathcal D_{\rm ang}
+=H\int
+\frac{G_0}{\tau}
+\frac{d_{\rm harm}}{G_0}dx.
+\]
+
+The first factor is local frequency severity per unit complete chord
+population; the second is the datum-finite projective angular entropy.  The
+global factor \(H\) tethers every local point through the whole field.  The
+construction scales like \(I^2\) under Navier--Stokes scaling and grows like
+\(N^2\) under disjoint replication, unlike any merely local Schur defect.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21740,6 +21841,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-120-projective-angular-entropy-whole-field-trace-gold-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-118-canonical-phase-second-tangent-covariant-rank-one-invariance-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-117-first-record-normalization-absolute-null-rigidity-coherent-zero-surplus-20260714.md
