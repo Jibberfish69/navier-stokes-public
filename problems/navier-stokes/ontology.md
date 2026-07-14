@@ -24025,6 +24025,250 @@ are related by
 
 They are spatial and temporal marginals of the same all-field VPI event.
 
+### F7.102 Fine-chord eigenray contact forces quantitative transverse source departure
+
+Let
+
+\[
+\lambda_*=\frac{
+\langle\Theta,\mathcal T_\Gamma\rangle_\Gamma
+}{R_\Gamma^2},
+\qquad
+Z_\Gamma
+=\mathcal T_\Gamma-\lambda_*\Theta.
+\]
+
+Then
+
+\[
+\boxed{
+\|Z_\Gamma\|_\Gamma^2
+=R_\Gamma\mathcal K_\Gamma.
+}
+\]
+
+At an active fine chord, put
+
+\[
+c_a=4H\frac{r_+}{\tau},
+\]
+
+\[
+F
+=q_{\mathsf K}-\eta q_S+4q_S^2
+-q_S\frac{q_{\mathsf D}}{q_{\mathsf C}},
+\qquad
+Z_0=c_aF,
+\]
+
+and clear the incidence denominator:
+
+\[
+\boxed{
+\mathcal P
+=q_0q_{\mathsf C}(q_{\mathsf K}-\eta q_S)
++4q_S^2q_{\mathsf C}
+-q_0q_Sq_{\mathsf D}.
+}
+\]
+
+On \(S^2\),
+
+\[
+\mathcal P
+=q_{\mathsf C}F
+=\frac{q_{\mathsf C}}{c_a}Z_0.
+\]
+
+Write
+
+\[
+\mathsf C=A^TA=cI+\mathsf C_0,
+\qquad
+c=\frac{|A|^2}{3},
+\qquad
+\operatorname{tr}\mathsf C_0=0.
+\]
+
+The top spherical harmonic is
+
+\[
+\boxed{
+\Pi_6\mathcal P
+=4\Pi_6(q_S^2q_{\mathsf C_0}).
+}
+\]
+
+The map
+\(\mathsf C_0\mapsto\Pi_6(q_S^2q_{\mathsf C_0})\) has trivial kernel for
+every nonzero trace-free \(S\): a zero top harmonic would make the prime
+\(q_0\) divide \(q_S^2q_{\mathsf C_0}\), hence divide
+\(q_{\mathsf C_0}\), forcing \(\mathsf C_0=0\).  Compactness gives
+\(\gamma_6>0\) such that
+
+\[
+\boxed{
+\|\mathcal P\|_{L^2(S^2)}
+\ge4\gamma_6|S|^2|\mathsf C_0|.
+}
+\]
+
+For the actual fine-incidence trace
+
+\[
+\mathscr T_0(z)
+=\lim_{\ell\downarrow0}
+\frac1\ell
+\int_0^\ell\!\int|Z_\Gamma|^2\,\frac{d\Gamma}{dz},
+\]
+
+one has
+
+\[
+\boxed{
+\mathscr T_0
+=\frac{c_a^2}{4\pi^2H}
+\int q_{\mathsf C}F^2d\sigma
+\ge
+\frac{4\gamma_6^2}{\pi^2}
+\frac{c_a^2}{H\|\mathsf C\|_{\rm op}}
+|S|^4|\mathsf C_0|^2.
+}
+\]
+
+This includes rank-deficient \(A\); no division by a null incidence
+direction is used.
+
+At an exact instantaneous contact \(\mathcal P=0\), the lower harmonics give
+
+\[
+\mathsf C=cI,
+\qquad
+\mathsf K=\beta S,
+\qquad
+\mathsf D=c(\beta-\eta)I+4cS.
+\]
+
+The general slope-metric evolution is
+
+\[
+D_t\mathsf C
+=2\mathsf D-A^T\mathsf C-\mathsf C A,
+\]
+
+so at contact
+
+\[
+\boxed{
+D_t\mathsf C_0=6cS.
+}
+\]
+
+Differentiating the top harmonic with the actual fine material--angular
+generator gives
+
+\[
+\boxed{
+\Pi_6D_{\rm f}\mathcal P
+=24c\,\Pi_6(q_S^3).
+}
+\]
+
+Primality of \(q_0\) also shows
+\(\Pi_6(q_S^3)\ne0\) for nonzero trace-free \(S\).  Thus there is a universal
+\(\gamma_3>0\) with
+
+\[
+\boxed{
+\|D_{\rm f}\mathcal P\|_2
+\ge24\gamma_3c|S|^3>0.
+}
+\]
+
+An active full ray can touch the radial manifold instantaneously, but its
+complete next source leaves that manifold transversely.
+
+If
+
+\[
+\mathcal Y_\Gamma=\nabla_t^\Gamma Z_\Gamma,
+\]
+
+then at contact
+
+\[
+D_{\rm f}\mathcal P
+=\frac{q_{\mathsf C}}{c_a}
+(\mathcal Y_\Gamma)_0.
+\]
+
+Its fine trace therefore obeys
+
+\[
+\boxed{
+\lim_{\ell\downarrow0}
+\frac1\ell
+\int_0^\ell\!\int|\mathcal Y_\Gamma|^2
+\frac{d\Gamma}{dz}
+\ge
+\frac{144\gamma_3^2}{\pi^2}
+\frac{c_a^2c^2}
+{H\|\mathsf C\|_{\rm op}}
+|S|^6.
+}
+\]
+
+The stable near-contact form says that, with nondegenerate strain fraction
+and bounded normalized lower harmonics,
+
+\[
+\frac{\|D_{\rm f}\mathcal P\|_2}{|A|^5}
++C\frac{\|\mathcal P\|_2}{|A|^4}
+\ge c>0.
+\]
+
+Thus a near-radial interval pays complete fine-source variation in the
+natural strain clock \(|A|dt\).
+
+Continuation through all radii is governed by the exact endpoint trace
+estimate.  For
+
+\[
+g(\rho)
+=\sqrt{\frac{m}{4H}}\,Z_\Gamma,
+\]
+
+\[
+\boxed{
+|g(0)|^2
+\le
+\frac2\ell\int_0^\ell|g|^2d\rho
++2\ell\int_0^\ell|\partial_\rho g|^2d\rho.
+}
+\]
+
+Hence the forced fine departure must either occupy ambient incidence
+turning or be compressed into a collar with growing radial residual
+variation.  Existing center-gradient Fisher squares and carrier heat are
+not algebraically this radial source derivative.
+
+The resulting all-field trichotomy is
+
+\[
+\boxed{
+\begin{cases}
+\mathcal P\ne0:
+&\text{the full tangent already turns},\\
+\mathcal P=0,\ S\ne0:
+&\text{the next complete source departs at rate }c|S|^3,\\
+\rho\text{-collar concentration}:
+&\partial_\rho(\sqrt m\,Z_\Gamma)\text{ grows}.
+\end{cases}
+}
+\]
+
+All three branches are marginals of the same endpoint-pair connection.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -24042,6 +24286,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-135-quantitative-near-eigenray-fine-source-departure-radial-trace-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-134-complete-severity-likelihood-angular-recombination-double-tail-criticality-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-133-full-incidence-escort-hellinger-temporal-carre-du-champ-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-132-full-incidence-radius-angular-severity-leverage-renewal-concentration-20260714.md
