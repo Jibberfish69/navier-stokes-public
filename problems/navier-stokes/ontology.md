@@ -16755,8 +16755,17 @@ P_H(t)^2
 }
 \]
 
-For a fixed log reference, the signed current barycenter has the exact
-entropy-production law
+At the critical radial weight, the same square is a positive curvature row:
+
+\[
+\boxed{
+P_H'
+=4\int_{\mathbb R}A(s,t)ds
++\int_0^\infty\overline Q_c(\rho,t)d\rho.
+}
+\]
+
+For a fixed log reference, the signed current barycenter equivalently obeys
 
 \[
 \boxed{
@@ -16765,6 +16774,11 @@ entropy-production law
 =\int sS_Q\,ds.
 }
 \]
+
+Since \(S_Q=\rho\overline Q_c+4A\), the homogeneity source on the right
+contains the same square.  The stock is signed and the complete shape source
+can rebuild it; this identity does not turn \(A\) into an autonomous entropy
+reserve.
 
 The transfer of this square to local Gold work is determined exactly.  Put
 
