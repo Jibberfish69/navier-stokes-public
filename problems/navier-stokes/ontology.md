@@ -18731,6 +18731,267 @@ selector is not a dynamically closed all-field tether: the same fluid
 tangent amplifies its exact cotangent under compression and creates new
 residual transverse to the old scalar measure.
 
+### F7.73 Dyadic continuation produces datum-finite operator information, but physical-center conditioning restores an unsummable first-order phase commutator
+
+For a parent chord (C=(y,\rho,n)), let
+
+\[
+g(\theta)=\nabla u(y+\theta\rho n)n,
+\qquad
+g_j=\mathbb E(g\mid\mathcal D_j),
+\qquad
+\Delta_j=g_{j+1}-g_j,
+\]
+
+where (\mathcal D_j) is the dyadic filtration of all intermediate points.
+The full directional refinement variance is
+
+\[
+\boxed{
+\mathsf V_j(C)
+=\frac1{\pi^2}
+\mathbb E_\theta(\Delta_j\otimes\Delta_j)
+\succeq0.
+}
+\]
+
+Martingale orthogonality gives
+
+\[
+\sum_j\mathsf V_j(C)
+=\frac1{\pi^2}\left[
+\mathbb E(g\otimes g)
+-\mathbb Eg\otimes\mathbb Eg
+\right],
+\]
+
+and its longitudinal contraction is
+
+\[
+n\cdot\sum_j\mathsf V_jn
+=\frac1{\pi^2}\operatorname{Var}_C(h).
+\]
+
+After integration over all parent positions and directions, let
+
+\[
+X_j=\mathbf M(2^{-j}\rho),
+\qquad
+D_j=X_{j+1}-X_j.
+\]
+
+Then
+
+\[
+\boxed{
+D_j\succeq0,
+\qquad
+\sum_{j\in\mathbb Z}\operatorname{tr}D_j
+=\frac4{3\pi}K.
+}
+\]
+
+For
+
+\[
+\mathcal B(X)=\frac{\|X\|_F^2}{2\operatorname{tr}X},
+\]
+
+put
+
+\[
+\mathcal J_j
+=\mathcal B(X_j)+\mathcal B(D_j)-\mathcal B(X_{j+1}).
+\]
+
+Writing (\kappa_j=\operatorname{tr}X_j),
+(\delta_j=\operatorname{tr}D_j),
+(\mathsf R_j=X_j/\kappa_j), and
+(\widehat{\mathsf R}_j=D_j/\delta_j), one obtains
+
+\[
+\boxed{
+\mathcal J_j
+=\frac{\kappa_j\delta_j}
+{2(\kappa_j+\delta_j)}
+\|\mathsf R_j-\widehat{\mathsf R}_j\|_F^2,
+\qquad
+0\le\mathcal J_j\le\delta_j.
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+\nu\int_{t_0}^{t_1}\sum_j\mathcal J_jdt
+\le\frac4{3\pi}
+[\mathcal E(t_0)-\mathcal E(t_1)]
+\le\frac4{3\pi}\mathcal E_0.
+}
+\]
+
+It also has the remaining-expenditure bound
+
+\[
+\int_{t_0}^Ta\sum_j\mathcal J_jdt
+\le\frac{2e(t_0)^2}{3\pi\nu}.
+\]
+
+The homogeneous angular entropy
+
+\[
+\mathcal S(X)
+=-\operatorname{tr}\left[
+X\log\frac X{\operatorname{tr}X}
+\right]
+\]
+
+gives the second positive information
+
+\[
+\chi_j
+=\mathcal S(X_{j+1})-
+\mathcal S(X_j)-\mathcal S(D_j),
+\]
+
+with
+
+\[
+\boxed{
+\chi_j\ge0,
+\qquad
+\sum_j\chi_j\le\frac{4\log3}{3\pi}K.
+}
+
+These are genuine datum-finite operator productions of the complete
+subchord law.  They do not, however, equal the evolution of the adaptive
+physical-center fiber.  Pointwise before child-label averaging,
+
+\[
+\boxed{
+m_{j+1}=m_j+\varepsilon_j+\zeta_j,
+}
+\]
+
+where
+
+\[
+\varepsilon_j=\frac{|\Delta_j|^2}{\pi^2}\ge0,
+\qquad
+\zeta_j=\frac{2g_j\cdot\Delta_j}{\pi^2},
+\qquad
+\mathbb E(\zeta_j\mid\mathcal D_j)=0.
+\]
+
+Let (\mathcal T_Z) retain the common physical field point
+(Z=y+\theta\rho n).  At child radius (\rho_j),
+
+\[
+X_j^Z
+=\mathcal T_Z(n\otimes n\,m_j)
+=\frac{\mathsf K(z,s_j)}{\rho_j}.
+\]
+
+The actual update is
+
+\[
+\boxed{
+X_{j+1}^Z
+=X_j^Z+D_j^Z+C_j^Z,
+}
+\]
+
+where
+
+\[
+D_j^Z
+=\mathcal T_Z(n\otimes n\,\varepsilon_j)
+\succeq0,
+\qquad
+C_j^Z
+=\mathcal T_Z(n\otimes n\,\zeta_j)
+\]
+
+and only
+
+\[
+\int C_j^Zdz=0.
+\]
+
+The sharp local estimate is
+
+\[
+\boxed{
+\|C_j^Z\|_{S^1}
+\le2\sqrt{
+(\mathcal T_Zm_j)(\mathcal T_Z\varepsilon_j)
+}.
+}
+\]
+
+It is first order in the new slope increment, whereas the paid refinement
+is second order.  The separation is sharp.  For
+
+\[
+g_0=a>0,
+\qquad
+g_{j+1}=g_j+\frac{r_{j+1}}{j+1}
+\]
+
+with independent Rademacher signs,
+
+\[
+\sum_j\mathbb E\varepsilon_j<\infty,
+\]
+
+but
+
+\[
+\boxed{
+\sum_j\mathbb E(\zeta_j)_+=\infty.
+}
+
+Finite smooth chord profiles approximate every finite truncation.  The
+local failure also occurs on a smooth viscous shear.  For
+
+\[
+u=Ae^{-\nu N^2t}\sin(Nx_2)e_1,
+\]
+
+at a shear trough the center-conditioned incidence satisfies
+
+\[
+\int_0^1m(z,\rho,n,\theta)d\theta
+\sim
+\frac{A^2e^{-2\nu N^2t}N^4\rho^2n_2^4}
+{12\pi^2}.
+\]
+
+Its half-scale value is one quarter of its parent value and its local
+(\mathsf K) value is one eighth, although global position integration
+restores (D_j\succeq0).  A compactly supported divergence-free extension
+which agrees with the shear on a ball supplies the same instantaneous local
+failure inside a finite-energy (\mathbb R^3) Navier--Stokes history.
+
+Finally, exact heat-shear scaling separates the two tiers.  At fixed
+kinetic energy, the remaining-weighted dyadic information is
+frequency-neutral, while the positive adaptive projection Hessian
+
+\[
+\mathcal Q_{\rm proj}
+=\iint\left[
+\frac{\mathcal K_p^2}{p}
++p\|\dot{\mathsf R}\|_F^2
+\right]
+\]
+
+has remaining-weighted action proportional to (N^2) for a moving
+two-mode base.  Therefore the datum-finite subchord operator entropy cannot
+control the adaptive center-conditioned source.  The exact loss is the
+noncommutation of child-label averaging with retention of the field point:
+the discarded cross term returns as signed linear phase work.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -18748,6 +19009,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-106-dyadic-operator-information-center-conditioning-phase-commutator-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-105-critical-incidence-dynamic-adjoint-quartic-compression-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-104-adaptive-projection-operator-covariance-vertical-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-103-active-incidence-square-adaptive-projection-no-scalar-cancellation-20260714.md`
