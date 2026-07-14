@@ -19049,6 +19049,9 @@ Therefore the complete endpoint-pair map obeys
 }
 \]
 
+This is F1.5 in the \(\theta\)-gauged center--chord coordinates required by
+the incidence law.
+
 Passing from Cartesian \(R\) to \((\rho,n)\) gives
 
 \[
