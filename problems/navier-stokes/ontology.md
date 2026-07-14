@@ -21640,6 +21640,86 @@ cotangent angular velocity, and every adjacent scale shape to remain on one
 heat-covariant rank-one ray.  Any new all-field direction creates a strictly
 positive canonical phase deficit.
 
+### F7.86 Active strain forces angular source innovation that slaved pressure cannot cancel
+
+At a physical center put
+
+\[
+A=\nabla u,
+\qquad
+S=\frac12(A+A^T),
+\qquad
+H=\nabla^2p.
+\]
+
+In the infinitesimal-chord limit, the complete Cycle 111 slope/source block is
+
+\[
+\boxed{
+g_0(n)=An,
+\qquad
+\mathfrak q_0(n)=-Hn-(n\cdot Sn)An.
+}
+\]
+
+The \(-A^2n\) term cancels exactly against the chord-turning contribution
+\(A\dot n\).  Thus pressure, transport, and turning have already been
+recombined before the source is tested.
+
+For normalized spherical average and
+
+\[
+G_0=\mathbb E|g_0|^2,
+\quad
+B_0=\mathbb E(g_0\cdot\mathfrak q_0),
+\quad
+P_0=\mathbb E|\mathfrak q_0|^2,
+\]
+
+the exact angular least-squares calculation gives
+
+\[
+\boxed{
+P_0-\frac{B_0^2}{G_0}
+\ge
+\frac2{105}|S|^2|A|^2
++\frac4{175}|AS|^2
+\ge\frac2{105}|S|^4.
+}
+\]
+
+The uncancellable term is the degree-three angular harmonic
+\((n\cdot Sn)An\).  Slaved pressure contributes only the degree-one function
+\(-Hn\).  Hence full-angular rank-one source alignment forces \(S=0\), while
+every Gold-active center has \(S\ne0\).  Dyadic conditional convergence then
+rules out Schur equality at every active scale.
+
+The same positive event is the initial curvature of the quartic angular
+deformation entropy:
+
+\[
+\left.\mathfrak R_{4/3}''(F(t))\right|_{t=s}
+=\frac8{15}|S|^2,
+\]
+
+so
+
+\[
+P_0-\frac{B_0^2}{G_0}
+\ge
+\frac{|A|^2}{28}
+\left.\mathfrak R_{4/3}''(F(t))\right|_{t=s}
++\frac4{175}|AS|^2.
+\]
+
+This rigidity applies to coherent no-surplus saturation, not to the weaker
+product balance \(\mathcal S_Y=\nu\mathcal D_Y\).  Nonzero smooth ratio-one
+states exist by amplitude scaling of a positive-current Schwartz datum, but
+they lie strictly inside the Schur cone and therefore carry positive
+transverse all-field source innovation.  Every active Gold record leaves
+radial pair heat, angular source innovation, or both; it cannot be a costless
+rank-one pulse.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21657,6 +21737,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-118-canonical-phase-second-tangent-covariant-rank-one-invariance-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-117-first-record-normalization-absolute-null-rigidity-coherent-zero-surplus-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-116-global-vpi-participation-angles-record-envelope-tether-20260714.md
