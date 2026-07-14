@@ -22633,6 +22633,113 @@ of the next full pressure--transport--viscosity tangent.  Material
 homothety does not make the joined source rows vanish; it states that their
 complete material sum is radial.
 
+### F7.94 The Gold action is the double-tail Jordan curvature of the complete VPI radius
+
+For a classical interval \([t_0,T]\), define
+
+\[
+a(t)=2\nu\int_t^TI(s)\,ds,
+\qquad
+\boxed{
+B(t)=\int_t^Ta(s)\,ds
+=2\nu\int_t^T(s-t)I(s)\,ds.
+}
+\]
+
+Then
+
+\[
+B(T)=B'(T)=0,
+\qquad
+B'=-a,
+\qquad
+B''=2\nu I.
+\]
+
+The terminal conditions make \(B\) the unique weight that converts radial
+curvature into the Gold depletion.  With
+\(R=2\mathcal Z_V\ge I\), two integrations by parts give
+
+\[
+\boxed{
+\begin{aligned}
+&2\nu\int_{t_0}^TI^2dt
++2\nu\int_{t_0}^TI(R-I)dt\\
+&\quad+B(t_0)[R'(t_0)]_-
++\int_{t_0}^TB[R'']_-dt\\
+&=
+a(t_0)R(t_0)
++B(t_0)[R'(t_0)]_+
++\int_{t_0}^TB[R'']_+dt.
+\end{aligned}
+}
+\]
+
+Thus every infinite-Gold history must have infinite double-tail-weighted
+positive variation of the complete radial velocity.
+
+Cycle 126 supplies the exact curvature
+
+\[
+\boxed{
+R''=\langle e_V,\mathcal A_V\rangle+\mathcal K_V,
+\qquad
+\mathcal K_V=R\operatorname{Var}_{\mu_V}(\Gamma_V).
+}
+\]
+
+Hence the native all-field curvature action is
+
+\[
+\boxed{
+\mathfrak C_{B,V}
+=\int_{t_0}^TB
+\left[
+\langle e_V,\mathcal A_V\rangle+\mathcal K_V
+\right]_+dt.
+}
+\]
+
+The axial next tangent and positive material turning are joined before the
+positive part is taken.  A turning square canceled by axial deceleration
+does not rebuild the radius; a homothetic ray can rebuild through axial
+curvature with zero turning.
+
+In score coordinates,
+
+\[
+R''
+=R\left[
+\sigma_V^2
++\mathbb E_{\mu_V}(D_t\Gamma_V)
++2\operatorname{Var}_{\mu_V}(\Gamma_V)
+\right].
+\]
+
+Therefore each renewed maximal pulse rebuilds outward radial velocity by
+coherent growth, axial score acceleration, point--whole-field temporal
+Fisher curvature, or their joined action.
+
+Under fixed-energy short-rise scaling,
+
+\[
+B_A\sim A^{-6},
+\qquad
+R_A''\sim A^{14},
+\qquad
+dt_A\sim A^{-5},
+\]
+
+so
+
+\[
+\int B_A[R_A'']_+dt_A\sim A^3,
+\]
+
+exactly matching \(\nu\int I_A^2dt_A\).  The first-tail weight \(a\) is
+overstrong for curvature.  The double tail is the unique critical
+material-time coordinate for the infinite-pulse question.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22650,6 +22757,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-127-double-tail-remaining-expenditure-radial-jordan-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-126-active-hilbert-material-ray-curvature-wronskian-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-125-moving-full-incidence-projection-anisotropic-fiber-exchange-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
