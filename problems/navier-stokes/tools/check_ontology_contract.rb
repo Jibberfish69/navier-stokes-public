@@ -84,7 +84,7 @@ class OntologyContractChecker
       errors << "ontology map contains an append-only source ledger"
     end
 
-    cycle_headings = @map.lines.grep(/^#{2,} .*Cycle [0-9]{3}/)
+    cycle_headings = @map.lines.grep(/^\#{2,} .*Cycle [0-9]{3}/)
     errors << "ontology map contains numbered-cycle headings" unless cycle_headings.empty?
   end
 
@@ -230,8 +230,8 @@ class OntologyContractChecker
 
     available = @map.scan(/<a id="([^"]+)"><\/a>/).flatten
     available.concat(@map.lines.filter_map do |line|
-      next unless line.match?(/^#{1,6} /)
-      github_slug(line.sub(/^#{1,6}\s+/, "").strip)
+      next unless line.match?(/^\#{1,6} /)
+      github_slug(line.sub(/^\#{1,6}\s+/, "").strip)
     end)
     referenced = @target.scan(%r{problems/navier-stokes/ontology\.md#([a-z0-9_-]+)}).flatten.uniq
     unresolved = referenced - available.uniq
