@@ -21845,6 +21845,84 @@ global factor \(H\) tethers every local point through the whole field.  The
 construction scales like \(I^2\) under Navier--Stokes scaling and grows like
 \(N^2\) under disjoint replication, unlike any merely local Schur defect.
 
+### F7.88 The inverse-trace Gold carrier is the Schur diagonal of a covariantly normalized VPI block
+
+Normalize the infinitesimal slope by the complete chord trace,
+
+\[
+\widetilde g=\tau^{-1/2}g,
+\qquad
+\mathcal L=D_t-\nu\Delta_z.
+\]
+
+Using \(\mathcal Lg=\mathfrak q\) and
+\(\mathcal L\tau=\mathcal F_\tau\), the exact normalized source is
+
+\[
+\begin{aligned}
+\widetilde{\mathfrak q}
+:=\mathcal L\widetilde g
+={}&\tau^{-1/2}\mathfrak q
+-\frac{\mathcal F_\tau}{2\tau^{3/2}}g
+-\frac{3\nu|\nabla\tau|^2}{4\tau^{5/2}}g\\
+&+\nu\tau^{-3/2}\nabla\tau\cdot\nabla g.
+\end{aligned}
+\]
+
+Every trace/heat connection is linear in the angular direction.  Therefore
+the degree-three harmonic survives, and for every direction-independent
+Gold regression \(L_G\),
+
+\[
+\boxed{
+\inf_{L_G}
+\mathbb E|\widetilde{\mathfrak q}-L_G\widetilde g|^2
+\ge\frac{d_{\rm harm}}\tau.
+}
+\]
+
+Consequently
+
+\[
+\boxed{
+H\int
+\inf_{L_G}
+\mathbb E|\widetilde{\mathfrak q}-L_G\widetilde g|^2dx
+\ge\mathcal D_{\rm ang}
+\ge\frac3{175}I^2.
+}
+\]
+
+With
+
+\[
+\widetilde G=\mathbb E|\widetilde g|^2,
+\quad
+\widetilde B=\mathbb E(widetilde g\cdot
+\widetilde{\mathfrak q}),
+\quad
+\widetilde P=\mathbb E|\widetilde{\mathfrak q}|^2,
+\quad
+\widetilde C=\mathbb E(widetilde g\cdot
+\mathcal L\widetilde{\mathfrak q}),
+\]
+
+the exact moment tangent is
+
+\[
+\mathcal L\widetilde B
+=\widetilde P+\widetilde C
+-2\nu\mathbb E(
+\nabla\widetilde g:\nabla\widetilde{\mathfrak q}).
+\]
+
+Thus the inverse-trace carrier is genuine positive curvature of the complete
+normalized slope/source block.  Its remaining-expenditure-weighted tangent
+also retains the next pressure-completed source, the heat cross-row,
+\(H'/H\), and boundary work.  It is not an automatic subtraction from the
+Cycle 115 scalar source: nonzero smooth ratio-one states can have both
+\(\mathcal S_Y=\nu\mathcal D_Y\) and \(\mathcal D_{\rm ang}>0\).
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21862,6 +21940,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-121-tau-normalized-source-block-whole-field-gold-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-120-projective-angular-entropy-whole-field-trace-gold-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-118-canonical-phase-second-tangent-covariant-rank-one-invariance-20260714.md
