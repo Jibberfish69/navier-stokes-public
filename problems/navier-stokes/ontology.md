@@ -13137,12 +13137,13 @@ and for a sufficiently late tail
 }
 \]
 
-The same complete source that forces this unweighted breadth action also
-gives its precise datum-finite physical weighting.  On the renewal set,
+The same complete source that forces this unweighted adjacent-gap action also
+gives its precise linear-radius energy weighting.  On the non-fast-drain set
+\(\mathcal G\), and conditional on the retained upper bound \(k\le k_+\),
 
 \[
 \boxed{
-\int\ell\mathcal V\,ds
+\int_{\mathcal G}\ell\mathcal V\,ds
 \le
 \frac{16k_+^2}{27\pi^4}\frac{\mathcal E_0}{\nu^2},
 \qquad
@@ -13150,7 +13151,9 @@ gives its precise datum-finite physical weighting.  On the renewal set,
 }
 \]
 
-Energy therefore pays the broad renewal on linear remaining radius.  It does
+This action is finite for the same history once \(k_+\) is retained, but it is
+not datum-finite unless \(k_+\) is itself controlled by the datum.  Energy
+therefore pays the adjacent spectral gap on linear remaining radius; it does
 not convert that payment into a finite count on logarithmic radius.
 
 Finally, the aperture law and spectral breadth are one geometry:
@@ -13163,11 +13166,12 @@ Finally, the aperture law and spectral breadth are one geometry:
 
 A nearly one-radius spectrum must have a quantitatively thick VPI
 directional/sign defect; approaching the VPI equality face forces broad
-critical and palinstrophy populations.  The spatial dilation family
+critical and palinstrophy populations.  The spatial scaling family
 
 \[
 U_\varepsilon(y)
-=\sqrt{\varepsilon/I(U_0)}\,U_0(\varepsilon y)
+=\sqrt{\varepsilon/I(U_0)}\,U_0(\varepsilon y),
+\qquad I(U_0)>0,
 \]
 
 keeps \(I=1\), \(k\), and \(\mathfrak B\) fixed while
@@ -13538,6 +13542,14 @@ The complete material tangent of that span is
 }
 \]
 
+Define the log-radius clock
+
+\[
+\vartheta=-\log\frac{R_a}{R_a(t_0)},
+\qquad
+\vartheta_s=\frac2b.
+\]
+
 In intrinsic and log-radius time,
 
 \[
@@ -13679,6 +13691,10 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-081-remaining-radius-energy-span-reciprocal-renewal-density-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-080-vorticity-chord-relative-entropy-sign-classification-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-079-active-aperture-entropy-complete-cotangent-law-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-078-thick-type-i-spectral-breadth-two-population-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-077-thin-aperture-drain-thick-type-i-isolation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-076-defect-expenditure-radius-critical-price-reciprocal-null-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-075-full-tensor-aperture-gap-palinstrophy-20260714.md`
