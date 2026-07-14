@@ -16,14 +16,23 @@ manual_ontology_gate_reconciliation:
     mismatch after the current critical spectral mean is inserted. The same
     identity retains both viscous rows and their gap is nonnegative. Unbounded
     terminal critical height forces positive joined-mismatch action normalized
-    by H and K to diverge on every tail. Separate globally regular periodic
-    histories prove two-way event-sign independence. The theorem is global and
-    phase-blind: it supplies no frequency motion, spatial carrier, causal
-    transfer, interval synchronization, or datum bound. A datum-finite
-    joined-action bound, a more primitive participation law, or a direct
-    critical-height theorem remains open. No strict reduction, Gold closure,
-    or Silver conclusion follows. Lower generated route occurrences remain
-    genealogy only.
+    by H and K to diverge on every tail. Periodic comparison witnesses prove
+    two-way event-sign independence only under the 2D3C quarantine. The theorem
+    is global and phase-blind: it supplies no frequency motion, spatial carrier,
+    causal transfer, interval synchronization, datum bound, or live 2D3C
+    participant. A datum-finite joined-action bound, a more primitive
+    participation law, or a direct critical-height theorem remains open. No
+    strict reduction, Gold closure, or Silver conclusion follows. Lower
+    generated route occurrences remain genealogy only.
+periodic_2d3c_quarantine_20260714:
+  authority: problems/navier-stokes/target-operating-contract.yaml#periodic_2d3c_surface_quarantine
+  effect: >-
+    Every 2D3C mention on this surface or any downstream source is
+    comparison-only unless a fresh same-fluid bridge theorem is proved from the
+    F1 participation root and all affected consumers are re-audited. It cannot
+    be used as a live Clay datum, same-fluid participant, carrier, terminal
+    mechanism, restarter, persistence/location evidence, Gold progress, Silver
+    exit, or ontology premise weight.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
   all_discharged: false
