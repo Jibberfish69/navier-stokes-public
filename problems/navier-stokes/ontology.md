@@ -13600,9 +13600,9 @@ For the actual singular state the static bounds remain exact:
 
 They do not require an unregularized derivative.  The fixed-\(\varepsilon\)
 right side is the signed complete tangent, not the positive joined action.
-Thus finite support direction, useful normalization coordinate, finite dynamic
-production, and bounded symmetric stock are separated by the exact
-directional rank geometry of one fluid.
+Thus a support-admissible stock, the useful joined coordinate, a finite
+unregularized production law, and a bounded symmetric stock do not coexist in
+these candidates because of the exact directional rank geometry of one fluid.
 
 ### F7.48 The global inverse energy-mean frequency separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
 
