@@ -26415,6 +26415,167 @@ re-enter through the weight.  Hence the centered transverse deformation and
 common radial transport are complementary historical coordinates of the
 same VPI field, not mutually substitutable scalar laws.
 
+### F7.116 The viscous terminal clock absorbs the entire pure source-successor tower with a strict one-third number gap
+
+Define the joined parabolic source chain
+
+\[
+f_0=D_tu,
+\qquad
+f_{r+1}=(D_t-\nu\Delta)f_r,
+\qquad
+j_r=\frac{\delta f_r}{\rho},
+\qquad
+\widetilde j_r=\nu^{-r}j_r.
+\]
+
+Every rung obeys
+
+\[
+\boxed{
+(D_{\rm pair}-\nu\Delta_z)\widetilde j_r
+=\nu\widetilde j_{r+1}-\alpha\widetilde j_r.
+}
+\]
+
+Let
+
+\[
+\ell_\nu(t)=\nu(T-t),
+\qquad
+w_r=B^{5/3}\frac{\ell_\nu^{2r}}{(r!)^2},
+\qquad
+X_r=\sqrt{w_r}\,\widetilde j_r.
+\]
+
+The complete next-source chain is
+
+\[
+\nu\sum_{r\ge0}w_r
+\langle\widetilde j_r,widetilde j_{r+1}\rangle
+=\sum_{r\ge0}
+\frac{r+1}{T-t}\langle X_r,X_{r+1}\rangle.
+\]
+
+Weight differentiation supplies
+
+\[
+\sum_{r\ge0}left(
+\frac{5\mathfrak a}{6B}
++\frac r{T-t}
+\right)\|X_r\|_2^2.
+\]
+
+Because \(\mathfrak a\) is nonincreasing,
+
+\[
+B(t)\le\mathfrak a(t)(T-t),
+\qquad
+\frac{\mathfrak a}{B}\ge\frac1{T-t}.
+\]
+
+The Jacobi-chain estimate
+
+\[
+\sum_{r\ge0}(r+1)langle X_r,X_{r+1}\rangle
+\le
+\sum_{r\ge0}\left(r+\frac12\right)\|X_r\|_2^2
+\]
+
+therefore gives the exact strict absorption
+
+\[
+\boxed{
+\begin{aligned}
+&\sum_{r\ge0}\left(
+\frac{5\mathfrak a}{6B}
++\frac r{T-t}
+\right)\|X_r\|_2^2\\
+&\qquad
+-\sum_{r\ge0}\frac{r+1}{T-t}
+\langle X_r,X_{r+1}\rangle
+\ge
+\frac1{3(T-t)}
+\sum_{r\ge0}\|X_r\|_2^2.
+\end{aligned}
+}
+\]
+
+This is the exact higher-frequency/trough law.  The viscous terminal clock
+supplies the level number \(r\); the double tail supplies the missing
+five-sixths at the base and leaves a one-third gap.
+
+With \(W_I=\sqrt{\widehat M_I}\), the completed summed escort energy obeys
+
+\[
+\boxed{
+\begin{aligned}
+\frac12\mathscr E'
+&+\nu\sum_{r\ge0}w_r
+\|\nabla_z(W_I\widetilde j_r)\|_2^2
++\frac{\mathscr E}{3(T-t)}\\
+&\le
+\sum_{r\ge0}w_r\int
+\left[
+\widehat M_I\left(
+\chi-\frac{I'}{2I}
+\right)
++\nu|\nabla_zW_I|^2
+\right]
+|\widetilde j_r|^2d\Omega.
+\end{aligned}
+}
+\]
+
+Thus every pure successor has been paid.  The remaining potential is exactly
+
+\[
+\boxed{
+\Pi_I
+=\chi-\frac{I'}{2I}
++\nu|\nabla_z\log W_I|^2,
+}
+\]
+
+the moving base--active incidence connection from F7.115, together with its
+spatial Fisher potential.
+
+The factorial exponent is sharp.  Replacing \((r!)^{-2}\) by
+\((r!)^{-2s}\) makes the successor coefficient grow like \(r^s/(T-t)\),
+while scale-critical damping grows only as \(r/(T-t)\).  Hence \(s=1\) is
+the unique critical tower: \(s>1\) cannot absorb the successor, and
+\(s<1\) requires ultra-analytic data.  A radius
+\(c\nu(T-t)\) closes the high levels only for \(c\ge1\), which is terminal
+analytic radius rather than arbitrary smoothness.
+
+Finite truncation does not change the conclusion.  For the full jet
+evolution \(Y'=\mathbb A(t)Y\), any positive exact completion of the target
+must solve
+
+\[
+G'+\mathbb A^*G+G\mathbb A=-2\Lambda P^*P,
+\qquad
+G(T)=0,
+\]
+
+whose positive solution is
+
+\[
+G(t)=2\int_t^TU(s,t)^*\Lambda(s)P^*PU(s,t)ds.
+\]
+
+Its value is
+
+\[
+\frac12\langle Y(t),G(t)Y(t)\rangle
+=\int_t^T\Lambda(s)\|k_1(s)\|_2^2ds.
+\]
+
+Thus finite continued squares and analytic restarts reconstruct the omitted
+continuation action.  The heat clock genuinely closes the infinite pure
+successor shift; what remains is the same moving all-field connection, not a
+deeper uniterated source.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26432,6 +26593,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-150-viscous-terminal-heat-clock-infinite-source-tower-absorption-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-149-two-copy-common-mode-current-base-active-relative-score-flag-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-148-transverse-ejection-radial-material-jerk-diagonal-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-147-present-cocycle-upper-lower-trace-critical-collar-source-jet-necessity-20260714.md
