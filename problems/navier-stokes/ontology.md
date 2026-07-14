@@ -22675,8 +22675,26 @@ a(t_0)R(t_0)
 }
 \]
 
+The sharper outward-renewal identity is
+
+\[
+\boxed{
+\begin{aligned}
+&2\nu\int_{t_0}^TI^2dt
++2\nu\int_{t_0}^TI(R-I)dt\\
+&\quad+\int_{t_0}^Ta[R']_-dt
++\int_{\{R'>0\}}B[R'']_-dt\\
+&=
+a(t_0)R(t_0)
++B(t_0)[R'(t_0)]_+
++\int_{\{R'>0\}}B[R'']_+dt.
+\end{aligned}
+}
+\]
+
 Thus every infinite-Gold history must have infinite double-tail-weighted
-positive variation of the complete radial velocity.
+positive variation of the complete radial velocity while \(R'>0\).
+Descending convex heat rays receive no false renewal charge.
 
 Cycle 126 supplies the exact curvature
 
@@ -22692,8 +22710,8 @@ Hence the native all-field curvature action is
 
 \[
 \boxed{
-\mathfrak C_{B,V}
-=\int_{t_0}^TB
+\mathfrak C^\uparrow_{B,V}
+=\int_{\{R'>0\}}B
 \left[
 \langle e_V,\mathcal A_V\rangle+\mathcal K_V
 \right]_+dt.
@@ -22704,6 +22722,17 @@ The axial next tangent and positive material turning are joined before the
 positive part is taken.  A turning square canceled by axial deceleration
 does not rebuild the radius; a homothetic ray can rebuild through axial
 curvature with zero turning.
+
+More precisely, with
+\(q_V=\langle e_V,\mathcal A_V\rangle\) and
+\(k_V=\mathcal K_V\ge0\),
+
+\[
+[q_V+k_V]_+
+=(q_V)_+ +\bigl(k_V-(q_V)_-\bigr)_+.
+\]
+
+Turning is charged only after simultaneous axial deceleration is exhausted.
 
 In score coordinates,
 
@@ -22733,7 +22762,7 @@ dt_A\sim A^{-5},
 so
 
 \[
-\int B_A[R_A'']_+dt_A\sim A^3,
+\int_{\{R_A'>0\}}B_A[R_A'']_+dt_A\sim A^3,
 \]
 
 exactly matching \(\nu\int I_A^2dt_A\).  The first-tail weight \(a\) is
