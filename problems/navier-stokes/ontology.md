@@ -20787,7 +20787,7 @@ Hessian are
 
 \[
 D_{\mathsf K}F_S
-=-\frac y\tau S-rac{y^2}{2\tau}I
+=-\frac y\tau S-\frac{y^2}{2\tau}I
 \]
 
 and
