@@ -11263,6 +11263,365 @@ quantitative burden is a datum-finite bound on the positive joined action, a
 further exact decomposition that exposes a more primitive same-history
 participation event, or a direct critical-height theorem.
 
+### F7.38 The complete chord cocycle has an intrinsic Gold clock, and fixed-scale record rebuilding has datum-finite entropy production
+
+For every ordered pair and every point on its chord, put
+
+\[
+x=z+(1-\theta)R,
+\qquad
+y=z-\theta R,
+\qquad
+V(t,z,R,\theta)=u(x,t)-u(y,t).
+\]
+
+This is one signed coboundary field, not a collection of independently posed
+pairs:
+
+\[
+V_{xy}+V_{yz}=V_{xz},
+\qquad
+V_{yx}=-V_{xy}.
+\]
+
+With
+
+\[
+W_\theta=\theta u(x)+(1-\theta)u(y),
+\qquad
+\delta p=p(x)-p(y),
+\]
+
+the exact same-fluid law is
+
+\[
+\boxed{
+(\partial_t+W_\theta\cdot\nabla_z+V\cdot\nabla_R)V
++\nabla_z\delta p
+=\nu\Delta_zV.
+}
+\]
+
+Write \(R=\rho n\) and define, relative to
+\(dz\,d\rho\,d\sigma(n)\,d\theta\),
+
+\[
+m(t,z,\rho,n,\theta)
+=\frac{|V(t,z,\rho n,\theta)|^2}{\pi^2\rho^2}.
+\]
+
+The local all-chord tensor is exactly its second angular moment:
+
+\[
+\mathsf T_u(z)
+=\int_0^1\int_0^\infty\int_{S^2}
+n\otimes n\,m\,d\sigma(n)\,d\rho\,d\theta.
+\]
+
+Thus every point--point relation is a fibre of one all-center,
+all-separation, all-direction, all-intermediate-point field, and
+\(\mathsf T_u,\tau,\Pi,r\) are its marginals.  Set
+
+\[
+v_\rho=n\cdot V,
+\qquad
+\dot n=\frac{(I-n\otimes n)V}{\rho},
+\qquad
+\alpha=\frac{v_\rho}{\rho}.
+\]
+
+The scale-resolved VPI law is
+
+\[
+\boxed{
+\begin{aligned}
+\partial_tm
+&+\nabla_z\cdot\left(
+W_\theta m+\frac{2\delta p}{\pi^2\rho^2}V
+\right)
++\partial_\rho(v_\rho m)
++\operatorname{div}_{S^2}(\dot n\,m)\\
+&=\nu\Delta_zm
+-\frac{2\nu}{\pi^2\rho^2}|\nabla_zV|^2
+-4\alpha m.
+\end{aligned}
+}
+\]
+
+The last radial row recombines with the radial flux as
+
+\[
+\partial_\rho(v_\rho m)+4\alpha m
+=\rho^{-4}\partial_\rho(\rho^4v_\rho m).
+\]
+
+Pressure is a center flux, chord turning is the spherical flux, relative
+motion is the radial flux, and viscosity is center diffusion plus the one
+nonnegative gradient-increment square
+
+\[
+|\nabla_zV|^2=|\nabla u(x)-\nabla u(y)|^2.
+\]
+
+After integration in \(z,n,\theta\), put
+
+\[
+M(\rho)=\int m,
+\qquad
+F(\rho)=\int v_\rho m,
+\qquad
+G_\Delta(\rho)
+=\frac1{\pi^2\rho^2}\int|\nabla_zV|^2.
+\]
+
+Then
+
+\[
+\partial_tM+\rho^{-4}\partial_\rho(\rho^4F)
+=-2\nu G_\Delta,
+\]
+
+\[
+\int M\,d\rho=4H,
+\qquad
+P_H=-\int\frac F\rho\,d\rho,
+\qquad
+\int G_\Delta\,d\rho=2D.
+\]
+
+This is the all-field conservation--dissipation law beneath the critical
+balance.  Its viscous production has the exact amplitude--polarization split
+
+\[
+2\nu|\nabla_zV|^2
+=\frac\nu2|V|^2|\nabla_z\log|V|^2|^2
++2\nu|V|^2|\nabla_z\widehat V|^2.
+\]
+
+Now retain the F7.16 rate mass
+
+\[
+I=\int r_+^2dx
+\]
+
+and, wherever \(I>0\), introduce the intrinsic variables
+
+\[
+\ell=\frac{\nu^2}{I},
+\qquad
+y=\frac x\ell,
+\qquad
+U=\frac\ell\nu u,
+\qquad
+\frac{ds}{dt}=\frac\nu{\ell^2}=\frac{I^2}{\nu^3}.
+\]
+
+Then \(I(U)=1\), and the exact Gold horizon is
+
+\[
+\boxed{
+S_*-s_0=\frac1{\nu^3}\int_{t_0}^T I(t)^2dt.
+}
+\]
+
+With
+
+\[
+\beta=\partial_s\log\ell,
+\qquad
+x_U=\frac{\nu^4X}{I^3},
+\qquad
+n_U=\frac{\nu^3N}{I^3},
+\]
+
+the rescaled equation and the normalized VPI balance are
+
+\[
+U_s+U\cdot\nabla U+\nabla P
+=\Delta U+\beta(U+y\cdot\nabla U),
+\qquad
+\boxed{\beta=2(x_U-n_U)}.
+\]
+
+Thus \(\beta<0\) is not an added dilation mechanism.  It is the global
+readout that the complete joined source is rebuilding the VPI rate faster
+than its simultaneous viscous square.
+
+For
+
+\[
+a(t)=2\nu\int_t^T I(q)dq,
+\qquad
+b(s)=\frac{a(t)I(t)}{\nu^4},
+\]
+
+one has the exact all-future law
+
+\[
+\boxed{
+b(s)=\frac2{\ell(s)}\int_s^{S_*}\ell(q)dq,
+\qquad
+b_s+\beta b=-2.
+}
+\]
+
+If
+
+\[
+\mathscr A_I(t)=2\nu\int_0^tI(q)dq,
+\]
+
+then
+
+\[
+\mathscr A_I''=4\nu(N-\nu X)
+\]
+
+and the remaining-expenditure-weighted positive curvature is exactly
+
+\[
+\boxed{
+\frac1{\nu^5}\int a[\mathscr A_I'']_+dt
+=2\int b[-\beta]_+ds
+=4\int b[n_U-x_U]_+ds.
+}
+\]
+
+Consequently
+
+\[
+\boxed{
+\begin{aligned}
+\int_{t_0}^{t_1}I^2dt
+\le{}&\frac{a(t_0)I(t_0)-a(t_1)I(t_1)}{2\nu}\\
+&+\frac1{4\nu^2}
+\int_{t_0}^{t_1}a[\mathscr A_I'']_+dt.
+\end{aligned}
+}
+\]
+
+The rebuilding sign for the remaining tail itself is \([-a'']_+\), since
+\(a''=-\mathscr A_I''\).
+
+There is also a datum-finite record theorem for every fixed bounded spectral
+participation observable.  Let
+
+\[
+e(\rho,t)
+=\frac12\int_{|\xi|=\rho}|\widehat u(\xi,t)|^2d\sigma_\rho,
+\qquad
+\mathcal E=\int e,
+\]
+
+and let \(\Pi_{\rm rad}\) be the complete Leray-projected radial flux, so
+
+\[
+\partial_te+\partial_\rho\Pi_{\rm rad}
+=-2\nu\rho^2e.
+\]
+
+For bounded nondecreasing \(\phi\), \(b_\phi=\sup\phi\), set
+
+\[
+d\mu_t=\frac e{\mathcal E}d\rho,
+\qquad
+\eta_\phi=\int\phi\,d\mu_t,
+\qquad
+F_\phi=\int\phi'(\rho)\Pi_{\rm rad}(\rho)d\rho.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal E\eta_\phi'
++2\nu\mathcal E\operatorname{Cov}_{\mu_t}(\phi(\rho),\rho^2)
+=F_\phi,
+}
+\]
+
+where
+
+\[
+\operatorname{Cov}_{\mu_t}(\phi,\rho^2)
+=\frac12\iint
+[\phi(\rho)-\phi(\sigma)](\rho^2-\sigma^2)
+d\mu_t(\rho)d\mu_t(\sigma)\ge0.
+\]
+
+This is the exact higher-frequency-against-trough penalty.  If
+
+\[
+M_\phi(t)=\sup_{q\le t}\eta_\phi(q),
+\qquad
+\mathcal C_\phi=\{\eta_\phi=M_\phi\},
+\]
+
+including record-maintenance plateaux, then
+
+\[
+\boxed{
+\int_{\mathcal C_\phi}[F_\phi]_+dt
+\le\int_0^\infty(b_\phi-\phi(\rho))e(\rho,0)d\rho.
+}
+\]
+
+In particular, for \(\phi=\mathbf1_{\{\rho>\kappa\}}\),
+
+\[
+\boxed{
+\int_{\mathcal C_\kappa}\Pi_{\rm rad}(\kappa,t)dt
+\le\int_0^\kappa e(\rho,0)d\rho.
+}
+\]
+
+The complete positive flux used to build or maintain a record at one fixed
+cut is therefore datum-finite.  The scale-unbounded critical centroid instead
+obeys
+
+\[
+\mathcal E\left(\frac H{\mathcal E}\right)'
++2\nu\mathcal E\operatorname{Cov}_{\mu_t}(\rho,\rho^2)
+=P_H
+=\int_0^\infty\Pi_{\rm rad}(\kappa)d\kappa.
+\]
+
+Its spectral weight \(\phi(\rho)=\rho\) has no finite ceiling.  Fixed-cut
+record bounds cannot be summed over an unbounded continuum without recounting
+the same low-frequency energy.  A moving cut has the exact additional row
+
+\[
+\mathcal E q_{\kappa(t)}'
++2\nu\mathcal E\operatorname{Cov}
+=\Pi_{\rm rad}(\kappa(t),t)-\dot\kappa(t)e(\kappa(t),t).
+\]
+
+This identifies the physical event sharply: recurrence at each fixed scale is
+paid; an infinite Gold history can persist only by continuous scale migration,
+which is the same contraction/rebuilding row \(\beta\) measured by the
+all-field clock above.
+
+Finally, the quadratic chord entropy is forced.  For a convex scalar
+\(\Psi(V)\), the pressure bulk after center integration is
+
+\[
+\omega(\rho)\delta p\,D^2\Psi(V):\nabla_zV.
+\]
+
+It vanishes for every lawful incompressible field only if
+
+\[
+D^2\Psi=cI,
+\]
+
+with constant \(c\).  Hence the even convex pressure-compatible entropies are
+affine functions of \(|V|^2\).  At constant radial weight this is kinetic
+energy and is infrared-infinite as a raw pair integral on \(\mathbb R^3\); at
+the finite Gold weight the radial deformation term is necessarily the signed
+VPI work.  No autonomous convex entropy of the unsigned Gram field can remove
+the joined source.  The signed cocycle, its slaved pressure, its radial
+transport, and its viscous square must remain one object.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -11280,6 +11639,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-071-intrinsic-gold-clock-complete-chord-record-law-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-070-critical-mean-frequency-participation-recombination-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-069-stored-enstrophy-terminal-stretching-breadth-gate-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-007-terminal-critical-growth-requires-vortex-stretching-20260711.md`
