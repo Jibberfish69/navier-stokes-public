@@ -2,7 +2,7 @@
 version: 1
 artifact_id: periodic-2d3c-surface-quarantine-20260714
 problem_id: navier-stokes
-generated_at: '2026-07-14T23:11:45Z'
+generated_at: '2026-07-14T23:13:34Z'
 generator: problems/navier-stokes/tools/build_periodic_2d3c_surface_quarantine.rb
 status: active-hard-quarantine-no-build-authority
 scan_scope: problems/navier-stokes/** text surfaces
@@ -19,7 +19,7 @@ summary_by_class:
   comparison-only-periodic-countertest: 30
   cycle001-periodic-datum-flag: 3
   f1-14-to-f1-16-candidate-turn-rebuild-flag: 6
-  false-live-scenario-build-surface: 34
+  false-live-scenario-build-surface: 31
 summary_by_scope:
   direct-authority: 6
   frozen-archive: 1
@@ -151,14 +151,14 @@ entries:
     - line: 35
       pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
       excerpt: normalized by H and K to diverge on every tail. Periodic comparison
-    - line: 47
+    - line: 48
       pattern: comparison[- ]only
       excerpt: comparison-only unless a fresh same-fluid bridge theorem is proved
         from
-    - line: 3738
+    - line: 3739
       pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
       excerpt: On the active periodic T^3 surface, a finite maximal classical time
-    - line: 4709
+    - line: 4710
       pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
       excerpt: 'role: "runs the periodic Navier-Stokes contrapositive CM witness split
         through the historical source-accounting roots and records the exact blockers:
@@ -168,30 +168,22 @@ entries:
     - line: 36
       pattern: "\\b2D3C\\b"
       excerpt: witnesses prove two-way event-sign independence only under the 2D3C
-    - line: 39
-      pattern: "\\b2D3C\\b"
-      excerpt: synchronization, datum bound, or live 2D3C participant. A datum-finite
-    - line: 46
+    - line: 47
       pattern: "\\b2D3C\\b"
       excerpt: Every 2D3C mention on this surface or any downstream source is
-    false_live_scenario_build_language:
-    - line: 39
-      pattern: 2D3C.*participant
-      excerpt: synchronization, datum bound, or live 2D3C participant. A datum-finite
     authority_quarantine_overlay:
-    - line: 43
+    - line: 44
       pattern: 2D3C.*quarantine
       excerpt: 'periodic_2d3c_quarantine_20260714:'
-    - line: 44
+    - line: 45
       pattern: 2D3C.*quarantine
       excerpt: 'authority: problems/navier-stokes/target-operating-contract.yaml#periodic_2d3c_surface_quarantine'
   quarantine_classes:
   - 2d3c-direct-surface
   - authority-quarantine-overlay
   - comparison-only-periodic-countertest
-  - false-live-scenario-build-surface
   authority_overlay: true
-  flagged_downstream_of_false_live_scenario: true
+  flagged_downstream_of_false_live_scenario: false
   live_clay_authority: no-proof-authority
   allowed_use: periodic comparison/countertest only at exact proved hypotheses
   forbidden_build_use: true
@@ -677,31 +669,31 @@ entries:
     - line: 35
       pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
       excerpt: normalized by H and K to diverge on every tail. Periodic comparison
-    - line: 47
+    - line: 48
       pattern: comparison[- ]only
       excerpt: comparison-only unless a fresh same-fluid bridge theorem is proved
         from
-    - line: 1673
+    - line: 1674
       pattern: countertest
       excerpt: transport coupling; half-tail and first-ratio sums are Littlewood-Paley
         bookkeeping/countertests;
-    - line: 2124
+    - line: 2125
       pattern: countertest
       excerpt: countertests, or sufficient-but-unproved entrances unless they prove
         the signed-height
-    - line: 2460
+    - line: 2461
       pattern: comparison[- ]only
       excerpt: 'promotion_gate: comparison only unless a separate transfer theorem
         is proved'
-    - line: 2519
+    - line: 2520
       pattern: countertest
       excerpt: selected positive L1 clipping are readouts or countertests unless they
         prove
-    - line: 5019
+    - line: 5020
       pattern: countertest
       excerpt: TFE2001-TFE2003. The dyadic layer-cake half-tail TFE2004-TFE2006 is
         only a countertest
-    - line: 5042
+    - line: 5043
       pattern: countertest
       excerpt: a category error TFE2036. The half-tail remains only a countertest
         for a wrong
@@ -709,30 +701,22 @@ entries:
     - line: 36
       pattern: "\\b2D3C\\b"
       excerpt: witnesses prove two-way event-sign independence only under the 2D3C
-    - line: 39
-      pattern: "\\b2D3C\\b"
-      excerpt: synchronization, datum bound, or live 2D3C participant. A datum-finite
-    - line: 46
+    - line: 47
       pattern: "\\b2D3C\\b"
       excerpt: Every 2D3C mention on this surface or any downstream source is
-    false_live_scenario_build_language:
-    - line: 39
-      pattern: 2D3C.*participant
-      excerpt: synchronization, datum bound, or live 2D3C participant. A datum-finite
     authority_quarantine_overlay:
-    - line: 43
+    - line: 44
       pattern: 2D3C.*quarantine
       excerpt: 'periodic_2d3c_quarantine_20260714:'
-    - line: 44
+    - line: 45
       pattern: 2D3C.*quarantine
       excerpt: 'authority: problems/navier-stokes/target-operating-contract.yaml#periodic_2d3c_surface_quarantine'
   quarantine_classes:
   - 2d3c-direct-surface
   - authority-quarantine-overlay
   - comparison-only-periodic-countertest
-  - false-live-scenario-build-surface
   authority_overlay: true
-  flagged_downstream_of_false_live_scenario: true
+  flagged_downstream_of_false_live_scenario: false
   live_clay_authority: no-proof-authority
   allowed_use: periodic comparison/countertest only at exact proved hypotheses
   forbidden_build_use: true
@@ -945,10 +929,6 @@ entries:
       pattern: "\\b2D3C\\b"
       excerpt: 2D3C scenario is demoted to provenance or comparison-only support until
         it
-    - line: 83
-      pattern: "\\b2D3C\\b"
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
     - line: 267
       pattern: "\\b2D3C\\b"
       excerpt: periodic 2D3C comparison class under the 2D3C quarantine, local-extremum
@@ -992,6 +972,9 @@ entries:
       pattern: comparison[- ]only
       excerpt: 2D3C scenario is demoted to provenance or comparison-only support until
         it
+    - line: 83
+      pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
+      excerpt: that periodic object participant status, same-history witness status,
     - line: 267
       pattern: periodic.*(?:witness|countertest|comparison|counterfamily|class)
       excerpt: periodic 2D3C comparison class under the 2D3C quarantine, local-extremum
@@ -1008,9 +991,6 @@ entries:
     - line: 445
       pattern: countertest
       excerpt: pointwise off-diagonal countertest has positive work with zero principal
-    - line: 475
-      pattern: countertest
-      excerpt: checked separately. The exact ABC family countertests any amplitude-
     candidate_turn_f1_dependency_markers:
     - line: 69
       pattern: F1\.14
@@ -1020,33 +1000,11 @@ entries:
       pattern: F1\.16
       excerpt: "- basis for F1.14-F1.16-style candidate-turn ontology promotion without
         full"
-    false_live_scenario_build_language:
-    - line: 83
-      pattern: 2D3C.*participant
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
-    - line: 83
-      pattern: 2D3C.*history
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
-    - line: 83
-      pattern: 2D3C.*same[- ]history
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
-    - line: 83
-      pattern: 2D3C.*restarter
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
-    - line: 83
-      pattern: 2D3C.*carrier
-      excerpt: 2D3C object a participant, same-history witness, restarter, active
-        carrier,
   quarantine_classes:
   - 2d3c-direct-surface
   - authority-quarantine-overlay
   - comparison-only-periodic-countertest
   - f1-14-to-f1-16-candidate-turn-rebuild-flag
-  - false-live-scenario-build-surface
   authority_overlay: true
   flagged_downstream_of_false_live_scenario: true
   live_clay_authority: no-proof-authority
