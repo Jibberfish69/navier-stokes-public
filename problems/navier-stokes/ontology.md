@@ -26079,6 +26079,109 @@ is the off-diagonal phase deformation, including
 \(\nabla\delta(D_tu)\), that moves that projection.  They are two readings
 of the same incompressible phase shear.
 
+### F7.113 The present velocity cocycle has a static all-field upper/lower trace, but critical temporal payment forces the mixed source jet
+
+At each center let
+
+\[
+g=\frac{\delta u}{\rho},
+\qquad
+T_z=\int|g|^2=\pi^2\tau(z),
+\qquad
+N_z=\int|\partial_\rho g|^2,
+\]
+
+and
+
+\[
+Q_z=\int_{S^2\times(0,1)}|\nabla u(z)n|^2
+=\frac{4\pi}{3}|\nabla u(z)|^2.
+\]
+
+The half-line trace gives
+
+\[
+Q_z\le2\sqrt{T_zN_z},
+\qquad
+\frac{|\nabla u|^4}{\tau}\le\frac94N_z.
+\]
+
+Together with
+
+\[
+d_{\rm harm}\le\frac{22}{525}|\nabla u|^4,
+\qquad
+\frac1{\pi^2}\int N_zdz=\frac16D,
+\]
+
+this yields the exact present-field upper/lower trace
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+\le\frac{11\pi^2}{700}HD,
+\qquad
+I^2\le\frac{11\pi^2}{12}HD.
+}
+\]
+
+The time law of the upper quantity is
+
+\[
+\boxed{
+\frac12(H^2)'+\nu HD=HP_H.
+}
+\]
+
+Thus the present all-field trace does not itself pay the history: its exact
+evolution restores the complete cubic joined current \(HP_H\).
+
+For the critical collar
+
+\[
+\ell=B^{1/3},
+\qquad
+q=\frac{\mathfrak a}{\rho}\phi(\rho/\ell),
+\]
+
+the all-radius adjoint law contains radial-current coefficient
+
+\[
+s\phi'(s)-5\phi(s).
+\]
+
+Eliminating that current forces \(\phi=Cs^5\), which replaces the Gold
+stock by the non-finite moment
+
+\[
+\ell^{-5}\int\rho^4\mathfrak m\,d\rho.
+\]
+
+Any cutoff restores the same current at its transition.  Direct attachment
+of \(B^{5/3}/I\) to the velocity-cocycle heat would instead require a
+\(\rho^{-6}\) multiplier; because
+
+\[
+\mathfrak m,\mathfrak g=O(\rho^2),
+\qquad
+\mathfrak f=O(\rho^3)
+\]
+
+at the origin, its stock, heat, and radial boundary diverge.  The regular
+critical six-power compensator is precisely
+
+\[
+\boxed{
+|\partial_\rho(\mathfrak h_\Gamma\Sigma)|^2.
+}
+\]
+
+Hence a present-state scalar cocycle can supply the lower-to-upper static
+trace, but the material-time upper law necessarily retains either the
+complete cubic current or the mixed radial--material source first jet.  This
+is the exact mathematical distinction between the lower instantaneous
+diagonal and the upper next-tangent geometry.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26096,6 +26199,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-147-present-cocycle-upper-lower-trace-critical-collar-source-jet-necessity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-146-complete-pair-phase-liouville-cancellation-finite-active-escort-score-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-145-target-weighted-radial-score-curvature-fractional-tail-current-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-144-escort-commutator-carre-angular-half-gap-center-first-jet-20260714.md
