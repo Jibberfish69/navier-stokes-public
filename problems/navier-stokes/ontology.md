@@ -12725,6 +12725,236 @@ information is the simultaneous realization of center transport, chord
 directions, pressure-completed aperture source, vorticity geometry, and active
 reselection by one signed cocycle.
 
+### F7.44 Thin-aperture contraction strictly drains \(aK/\nu^4\), while its complement is the quantitatively thick type-I whole-source channel
+
+Retain
+
+\[
+g=k-3,
+\qquad
+c_{\rm ap}=\frac{18\sqrt3}{625\pi},
+\qquad
+A_*=\frac4{\pi3^{3/4}},
+\]
+
+so that
+
+\[
+gH_U\sqrt{d_2}>c_{\rm ap},
+\qquad
+|j|\le A_*k^{3/4}d_2^{3/4}.
+\]
+
+The exact aperture/source threshold is
+
+\[
+\boxed{
+B_{\rm ap}=\frac{4c_{\rm ap}}{A_*^2}
+=\frac{81\pi}{1250}.
+}
+\]
+
+On a contraction time \(\beta=-q\le0\), if
+
+\[
+gH_Uk^{3/2}<B_{\rm ap},
+\]
+
+then aperture coercivity forces
+
+\[
+\sqrt{d_2}>A_*^2k^{3/2}/4,
+\qquad
+|j|<2d_2.
+\]
+
+The exact normalized enstrophy and remaining-tail laws therefore give
+
+\[
+\boxed{
+k_s+qk=j-2d_2<0,
+\qquad
+(bk)_s=b(j-2d_2)-2k<-2k.
+}
+\]
+
+Thus the whole pressure-completed source cannot maintain or rebuild
+normalized enstrophy on the thin-aperture contraction face.  For every
+connected interval \(J=[a,c]\) contained in that face,
+
+\[
+\boxed{
+\int_Jqds<\log\frac{k(a)}{k(c)}
+\le\log\frac{k(a)}3,
+}
+\]
+
+\[
+\boxed{
+b(c)k(c)+2\int_Jkds<b(a)k(a),
+\qquad
+|J|<\frac{b(a)k(a)}6,
+}
+\]
+
+and
+
+\[
+\boxed{
+\int_Jbqds
+<b(a)\left(\frac{k(a)}3-1\right).
+}
+\]
+
+At every contraction time with \(k_s\ge0\), one must therefore have
+
+\[
+\boxed{
+(k-3)H_Uk^{3/2}\ge\frac{81\pi}{1250}.
+}
+\]
+
+The complementary whole-source channel is also exact.  Optimizing the same
+sharp source estimate against palinstrophy gives
+
+\[
+\boxed{
+j-2d_2\le\frac{k^3}{8\pi^4},
+}
+\]
+
+and hence
+
+\[
+\boxed{
+k_s+qk\le\frac{k^3}{8\pi^4},
+\qquad
+q\le-(\log k)_s+\frac{k^2}{8\pi^4},
+\qquad
+(bk)_s+2k\le\frac{bk^3}{8\pi^4}.
+}
+\]
+
+Thus contraction not paid by thin-face storage drain can only use the
+classical high-enstrophy whole-source channel.
+
+The aperture wall also forces the adjacent-rung viscous gap.  Put
+
+\[
+D=\|\Lambda^{3/2}U\|_2^2,
+\qquad
+m=k/(2H_U),
+\qquad
+\mathcal V=d_2-mD.
+\]
+
+Since \(D\le\sqrt{kd_2}\),
+
+\[
+\boxed{
+\mathcal V
+\ge d_2\left[
+1-\frac{k^{3/2}(k-3)}{2c_{\rm ap}}
+\right].
+}
+\]
+
+On \(k-3\le c_{\rm ap}/k^{3/2}\), this becomes
+
+\[
+\boxed{
+\mathcal V\ge d_2/2
+>\frac{c_{\rm ap}^2}{2H_U^2(k-3)^2}.
+}
+\]
+
+The normalized critical-mean equation retains the moving-scale drift:
+
+\[
+\boxed{
+H_U(m_s-\beta m)+\mathcal V=2\mathcal B,
+}
+\]
+
+where \(\mathcal B\) is the joined native-weight/orientation source of F7.37.
+Therefore on a contraction interval
+
+\[
+\boxed{
+2\int\frac{[\mathcal B]_+}{H_U}ds
+\ge\Delta m+int qm\,ds+int\frac{\mathcal V}{H_U}ds.
+}
+\]
+
+The contraction term is an additional positive charge.  In integrating-factor
+form,
+
+\[
+\boxed{
+\Delta(m/\ell)
++\int\frac{\mathcal V}{H_U\ell}ds
+=2\int\frac{\mathcal B}{H_U\ell}ds.
+}
+\]
+
+On a thin-aperture contraction time with simultaneous critical rise
+\(H_{U,s}\ge0\), the static recombination implies
+\(2\mathcal B<\mathcal V\), and hence
+
+\[
+\boxed{(m/\ell)_s<0.}
+\]
+
+The physical critical mean frequency therefore decreases on every such
+episode.  Since \(H_{\rm phys}\le\mathcal E_0(m/\ell)\), all positive
+physical-mean renewal needed by an unbounded height history must occur on an
+expanding trough, a non-rising preparation interval, or the quantitatively
+thick aperture face.
+
+There is also an exact datum-finite future-reorganization entropy.  Let
+
+\[
+L(s)=\int_s^{S_*}\ell(q)dq=R_a(s)/2,
+\qquad
+d\pi_s(q)=\frac{\ell(q)\mathbf1_{q\ge s}}{L(s)}dq.
+\]
+
+Then
+
+\[
+\rho=\mathbb E_{\pi_s}k=3+2z,
+\qquad
+\rho_\tau=\rho-k.
+\]
+
+For every bounded \(f\),
+
+\[
+\boxed{
+\mathscr V_f=L\operatorname{Var}_{\pi_s}(f(k)),
+\qquad
+-(\mathscr V_f)_s
+=\ell(s)\left[f(k(s))-\mathbb E_{\pi_s}f(k)\right]^2,
+}
+\]
+
+with
+
+\[
+0\le\mathscr V_f
+\le\frac{\mathcal E_0}{3\nu^2}\operatorname{osc}(f)^2.
+\]
+
+This sums fixed-amplitude normalized-enstrophy reorganization on linear
+remaining radius.  The Cycle-076 reciprocal history survives only on the
+thick type-I complement, where \(bk=aK/\nu^4\) is held constant and its
+linear-radius reorganization is summable while its logarithmic repetition is
+not.  The unresolved physical distinction is no longer a scalar pulse count:
+it is whether one signed pressure-completed cocycle can realize infinite
+thick-aperture type-I renewal under the simultaneous material evolution of
+its center field, direction determinant, vorticity geometry, and active VPI
+selector.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -12742,6 +12972,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-077-thin-aperture-drain-thick-type-i-isolation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-076-defect-expenditure-radius-critical-price-reciprocal-null-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-075-full-tensor-aperture-gap-palinstrophy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-074-critical-tent-adjoint-radial-counterflow-20260714.md`
