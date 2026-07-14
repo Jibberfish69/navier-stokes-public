@@ -12511,6 +12511,220 @@ weight \(r_+^2/I\) can rebuild it.  This is why the static aperture floor is a
 genuine all-field payment but cannot be separated from the complete temporal
 VPI source.
 
+### F7.43 The \(K-3I\) expenditure is a second one-way radius, whose datum-finite aperture measure sees linear scale while Gold sees a critical price on logarithmic scale
+
+Fix a smooth endpoint \(T\), retain
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+R_a=a/\nu^2,
+\]
+
+and define
+
+\[
+\boxed{
+C(t)
+=\mathcal E(t)-\mathcal E(T)-\frac32a(t)
+=\nu\int_t^T(K-3I)(q)dq\ge0,
+\qquad
+R_c=C/\nu^2.
+}
+\]
+
+These are two one-way radii of the same fixed-viscosity history:
+
+\[
+\boxed{
+R_a'=-2I/\nu,
+\qquad
+R_c'=-(K-3I)/\nu,
+\qquad
+\frac{dR_c}{dR_a}=\frac{k-3}{2}.
+}
+\]
+
+In Gold variables, put
+
+\[
+g=k-3,
+\qquad
+c=CI/\nu^4,
+\qquad
+z=c/b=C/a=R_c/R_a.
+\]
+
+Then
+
+\[
+\boxed{
+c_s+\beta c=-g,
+\qquad
+c(s)=\ell(s)^{-1}\int_s^{S_*}\ell(q)g(q)dq,
+}
+\]
+
+and, for \(\tau=-\log(R_a/R_a(s_0))\),
+
+\[
+\boxed{
+z_\tau=z-g/2,
+\qquad
+z(\tau)=\frac12e^\tau
+\int_\tau^\infty e^{-\sigma}g(\sigma)d\sigma.
+}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\int_{\tau_0}^\infty R_a(\tau)g(\tau)d\tau
+=2R_c(\tau_0).
+}
+\]
+
+Thus finite energy supplies an exact exponentially weighted future defect
+mean.  Combining F7.42's aperture wall
+
+\[
+gH_U\sqrt{d_2}>c_{\rm ap},
+\qquad
+c_{\rm ap}=18\sqrt3/(625\pi),
+\]
+
+with the radius slope defines the datum-finite positive measure
+
+\[
+\boxed{
+d\mu_C=\frac{-dR_a}{H_U\sqrt{d_2}}
+\le\frac2{c_{\rm ap}}(-dR_c),
+\qquad
+\mu_C([t_0,T))
+\le\frac{2R_c(t_0)}{c_{\rm ap}}.
+}
+\]
+
+On contraction times let \(q=-\beta\) and \(\chi=qb^2\).  The severe Gold
+action is exactly
+
+\[
+\boxed{
+\frac12\int_{\{\chi>1\}}\chi d\tau
+=\frac12\int_{\{\chi>1\}}
+\mathfrak P_Cd\mu_C,
+\qquad
+\mathfrak P_C
+=\frac{\chi H_U\sqrt{d_2}}{R_a}.
+}
+\]
+
+The all-field aperture therefore funds the measure, while the conversion from
+linear to logarithmic radius appears as the critical price.  For every
+\(P>0\),
+
+\[
+\frac12\int_{\{\chi>1\}}\chi d\tau
+\le\frac{PR_c(t_0)}{c_{\rm ap}}
++\frac12\int_{\{\chi>1,\ \mathfrak P_C>P\}}
+\mathfrak P_Cd\mu_C.
+\]
+
+The complete forced scalar makes the same split without separating sources.
+With \(x_U,n_U,j,d_2\) as in F7.38,
+
+\[
+\boxed{
+\frac92\chi+(bg)_\tau+bg+b^2(d_2+6x_U)
+=\frac{b^2}{2}(j+12n_U).
+}
+\]
+
+The aperture wall adds the simultaneous coercive load
+
+\[
+\boxed{
+bg+b^2d_2
+\ge3\,2^{-2/3}c_{\rm ap}^{2/3}
+b^{4/3}H_U^{-2/3}.
+}
+\]
+
+The sharp whole-source estimate
+
+\[
+|j|\le\frac4{\pi3^{3/4}}k^{3/4}d_2^{3/4}
+\]
+
+and the enstrophy law give, on contraction times,
+
+\[
+\boxed{
+\chi+2b(\log k)_\tau+2b^2d_2/k=b^2j/k,
+}
+\]
+
+and hence
+
+\[
+\boxed{
+\chi+2b(\log k)_\tau+b^2d_2/k
+\le b^2k^2/\pi^4.
+}
+\]
+
+The temporal derivative has an exact reciprocal null.  At the scalar
+consistency level, take a smooth Cycle-073 history with
+\(0<b_-\le b\le b_+\), choose \(\kappa>3b_+\) and
+\(\kappa^2\ge27\pi^4b_+\), and set
+
+\[
+\boxed{
+k=\kappa/b,
+\qquad
+d_2=k^3/(27\pi^4),
+\qquad
+H_U=\sqrt{27}\pi^2/2,
+\qquad
+j=2d_2+2k/b.
+}
+\]
+
+It satisfies the exact \(b\)- and \(k\)-laws, the sharp source bound, spectral
+moment interpolation, aperture coercivity, the \(C,c,z\) tail laws, and finite
+physical energy loss.  Nevertheless,
+
+\[
+bk=\kappa,
+\qquad
+\chi+2b(\log k)_\tau=2b,
+\]
+
+and the Cycle-073 pulse train retains
+
+\[
+\int\chi d\tau=\infty,
+\qquad
+\int I^2dt=\infty.
+\]
+
+This scalar history is not asserted to be a Navier--Stokes or signed-cocycle
+realization.  It identifies the surviving scale relation exactly:
+
+\[
+\boxed{bk=aK/\nu^4.}
+\]
+
+Thus \(bk\asymp1\) is the Leray/type-I relation
+\(aK\asymp\nu^4\), for which
+\(a\asymp\sqrt{T-t}\) and \(I,K\asymp(T-t)^{-1/2}\) when \(b\) stays
+bounded above and below.  The scalar and radial laws cannot distinguish this
+reciprocal counterflow from a lawful material history.  The distinguishing
+information is the simultaneous realization of center transport, chord
+directions, pressure-completed aperture source, vorticity geometry, and active
+reselection by one signed cocycle.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -12528,6 +12742,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-076-defect-expenditure-radius-critical-price-reciprocal-null-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-075-full-tensor-aperture-gap-palinstrophy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-074-critical-tent-adjoint-radial-counterflow-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-073-log-radius-severity-two-time-entropy-trilemma-20260714.md`
