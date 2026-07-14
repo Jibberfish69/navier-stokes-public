@@ -18994,6 +18994,321 @@ control the adaptive center-conditioned source.  The exact loss is the
 noncommutation of child-label averaging with retention of the field point:
 the discarded cross term returns as signed linear phase work.
 
+### F7.74 The full all-endpoint incidence Jacobian is quartic, and angular completion makes its anisotropy a positive Rényi concentration
+
+Fix \(0<\theta<1\) and write every endpoint pair as
+
+\[
+y=z-\theta R,
+\qquad
+x=z+(1-\theta)R,
+\qquad
+R=\rho n.
+\]
+
+Transport both endpoints by the same material flow.  Then
+
+\[
+\dot z
+=(1-\theta)u(y)+\theta u(x),
+\qquad
+\dot R=V:=u(x)-u(y),
+\]
+
+so
+
+\[
+\dot\rho=\rho\alpha,
+\qquad
+\dot n=\frac{(I-n\otimes n)V}{\rho}.
+\]
+
+With \(A_x=\nabla u(x)\) and \(A_y=\nabla u(y)\), the exact
+six-dimensional deformation generator in \((z,R)\) is
+
+\[
+\begin{pmatrix}
+\theta A_x+(1-\theta)A_y&
+\theta(1-\theta)(A_x-A_y)\\
+A_x-A_y&
+(1-\theta)A_x+\theta A_y
+\end{pmatrix}.
+\]
+
+Its trace is
+
+\[
+\operatorname{tr}A_x+\operatorname{tr}A_y=0.
+\]
+
+Therefore the complete endpoint-pair map obeys
+
+\[
+\boxed{
+\det D_{(z,R)}(z_t,R_t)=1.
+}
+\]
+
+Passing from Cartesian \(R\) to \((\rho,n)\) gives
+
+\[
+\boxed{
+J_{z,\rho,n}(t,s)
+=\left(\frac{\rho_s}{\rho_t}\right)^2.
+}
+\]
+
+Equivalently, the joined center, radial, and angular velocities satisfy
+
+\[
+\boxed{
+\nabla_z\cdot W_\theta
++\partial_\rho(\rho\alpha)
++\operatorname{div}_{S^2}\dot n
+=-2\alpha.
+}
+\]
+
+The center divergence is part of this identity and need not vanish
+separately.
+
+For the critical VPI incidence
+
+\[
+d\mu
+=m\,dz\,d\rho\,d\sigma(n)\,d\theta,
+\qquad
+m=\frac{|V|^2}{\pi^2\rho^2},
+\]
+
+the complete material pullback is
+
+\[
+\boxed{
+\Xi_{t,s}^{*}d\mu_t
+=\frac{|V_t|^2}{|V_s|^2}
+\left(\frac{\rho_s}{\rho_t}\right)^4d\mu_s.
+}
+\]
+
+Two inverse-length powers come from the complete polar/angular Jacobian and
+two from the critical incidence kernel.  Without division by a possibly
+zero initial increment,
+
+\[
+\Xi_{t,s}^{*}d\mu_t
+=\frac{|V_t|^2\rho_s^2}{\pi^2\rho_t^4}
+\,dz_s\,d\rho_s\,d\sigma(n_s)\,d\theta.
+\]
+
+The logarithmic joined law is
+
+\[
+\boxed{
+\frac d{dt}\log(mJ)
+=2\frac{
+V\cdot[-\delta\nabla p+\nu\,\delta\Delta u]
+}{|V|^2}
+-4\alpha.
+}
+\]
+
+Thus pressure and heat evolve the endpoint-increment amplitude while the
+quartic term is the full incidence geometry.  No component has been
+removed, and no Navier--Stokes identity forces the amplitude factor to
+cancel the geometric factor.
+
+There is one exact compensator:
+
+\[
+\boxed{
+\frac{\rho^4}{|V|^2}\,d\mu
+=\frac1{\pi^2}\,dz\,dR\,d\theta.
+}
+\]
+
+The right side is Cartesian pair volume and is preserved by the
+determinant-one endpoint map.  Hence the unbounded fourth Mellin cotangent
+of F7.72 is precisely incompressible pair phase volume expressed through
+the positive critical VPI incidence.
+
+For infinitesimal chords, let
+
+\[
+F=D\Phi_{t,s},
+\qquad
+\det F=1,
+\qquad
+\lambda(n)=|Fn|.
+\]
+
+Then
+
+\[
+\rho_t=\lambda\rho_s,
+\qquad
+J_{S^2}(n)=\lambda^{-3},
+\qquad
+J_{\rho,n}=\lambda^{-2}.
+\]
+
+The sphere map has degree one, so
+
+\[
+\frac1{4\pi}\int_{S^2}\lambda^{-3}d\sigma=1.
+\]
+
+The quartic incidence factor is therefore
+
+\[
+\boxed{
+\begin{aligned}
+\mathfrak R_{4/3}(F)
+&:=\frac1{4\pi}\int_{S^2}\lambda^{-4}d\sigma\\
+&=\frac1{4\pi}\int_{S^2}J_{S^2}^{4/3}d\sigma
+\ge1.
+\end{aligned}
+}
+\]
+
+Equality holds only for orthogonal \(F\).  Angular completion does not
+cancel compression: it converts volume-preserving anisotropy into a
+positive Rényi-\(4/3\) concentration.  At the identity,
+
+\[
+\boxed{
+\left.\frac{d^2}{dt^2}
+\mathfrak R_{4/3}(F(t))
+\right|_{t=s}
+=\frac8{15}|S(s)|^2.
+}
+\]
+
+Finite energy pays a different, quadratic deformation action.  Along a
+material path and transported direction,
+
+\[
+\log\lambda(a,n)
+=\int_s^t n_q\cdot S(q,\Phi_{q,s}(a))n_q\,dq.
+\]
+
+Therefore
+
+\[
+\boxed{
+\int_{\mathbb R^3}\int_{S^2}
+|\log\lambda|^2d\sigma\,da
+\le
+\frac{2\pi(t-s)\mathcal E_0}{\nu}.
+}
+\]
+
+The exact VPI cotangent reads
+
+\[
+\lambda^{-4}=e^{-4\log\lambda}.
+\]
+
+Thus the same all-field deformation variable displays the precise gap:
+energy controls quadratic logarithmic distortion, whereas the critical
+positive incidence reads an exponential compression moment.
+
+Two complete same-equation tests preserve the fourth power.  The affine
+solution
+
+\[
+u=A(t)x,
+\qquad
+A=\operatorname{diag}\left(-q,\frac q2,\frac q2\right),
+\qquad
+q=(c-t)^{-1},
+\]
+
+with
+
+\[
+p=-\frac12x\cdot(A'+A^2)x
+\]
+
+has, along an \(e_1\)-chord,
+
+\[
+\frac{\rho_t}{\rho_s}=\frac{c-t}{c-s},
+\qquad
+V_t=V_s,
+\]
+
+and hence
+
+\[
+\boxed{
+\frac{\Xi_{t,s}^{*}d\mu_t}{d\mu_s}
+=\left(\frac{c-s}{c-t}\right)^4.
+}
+\]
+
+At the same time,
+
+\[
+\mathbf B=S^2+W^2+\nabla^2p=-A',
+\qquad
+\operatorname{tr}\mathbf B=0.
+\]
+
+The affine field is not finite-energy on \(\mathbb R^3\), but it proves the
+local equation-level compatibility of trace-free pressure completion with
+full quartic amplification.
+
+The exact viscous Taylor--Green solution
+
+\[
+u=Ae^{-2\nu t}
+(\sin x\cos y,-\cos x\sin y,0),
+\]
+
+\[
+p=\frac{A^2e^{-4\nu t}}4(\cos2x+\cos2y)
+\]
+
+gives, for a chord from the fixed origin to a material point on the positive
+\(y\)-axis,
+
+\[
+\frac{\Xi_{t,0}^{*}d\mu_t}{d\mu_0}
+=e^{-4\nu t}
+\left(\frac{\sin q(t)}{\sin q_0}\right)^2
+\left(\frac{q_0}{q(t)}\right)^4.
+\]
+
+As \(q_0\downarrow0\), this tends to
+
+\[
+\boxed{
+\exp\!\left[
+-4\nu t+\frac{A(1-e^{-2\nu t})}{\nu}
+\right].
+}
+\]
+
+At the origin,
+
+\[
+\boxed{S^2+\nabla^2p=0.}
+\]
+
+Thus active viscosity, nontrivial slaved pressure, angular completion, and
+even exact local pressure--strain cancellation coexist with the full
+incidence amplification.
+
+The complete physical law is now explicit.  Incompressibility preserves
+signed Cartesian pair volume.  VPI reads that volume through the positive
+critical weight \(|V|^2/\rho^2\).  Under anisotropic deformation, expansion
+and compression cancel only in logarithmic volume; positive convex
+fourth-power incidence cannot cancel direction by direction.  Its exact
+perfect compensator is the unbounded pair-volume weight, while the
+datum-finite viscous payment controls only quadratic logarithmic
+deformation.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -19011,6 +19326,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-107-full-incidence-jacobian-quartic-pair-volume-renyi-anisotropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-106-dyadic-operator-information-center-conditioning-phase-commutator-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-105-critical-incidence-dynamic-adjoint-quartic-compression-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-104-adaptive-projection-operator-covariance-vertical-cancellation-20260714.md`
