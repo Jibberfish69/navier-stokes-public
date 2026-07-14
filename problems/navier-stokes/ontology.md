@@ -13146,7 +13146,7 @@ gives its precise datum-finite physical weighting.  On the renewal set,
 \le
 \frac{16k_+^2}{27\pi^4}\frac{\mathcal E_0}{\nu^2},
 \qquad
-\ell\,ds=\frac{R_a}{2}d\tau.
+\ell\,ds=\frac{R_a}{2}d\vartheta,
 }
 \]
 
@@ -13491,10 +13491,10 @@ positive joined action.  Thus finite support direction, the useful joined
 sign, and a bounded symmetric stock are separated by the exact directional
 rank geometry of one fluid.
 
-### F7.48 The energy-bearing all-field length separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
+### F7.48 The global inverse energy-mean frequency separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
 
-Define the physical energy-centroid length and its span over the remaining
-VPI radius by
+Define the global inverse energy-mean spectral frequency and its ratio to the
+remaining VPI radius by
 
 \[
 L_E=\frac{\mathcal E}{H},
@@ -13523,9 +13523,9 @@ one obtains
 \]
 
 Thus a bounded reciprocal corridor \(bk\le y_+\) with
-\(H_U\to\infty\) necessarily spans an energy-bearing physical length
-increasingly larger than the remaining-expenditure radius.  This is the
-all-field continuation that a point--point description misses.
+\(H_U\to\infty\) forces separation of two global spectral length coordinates
+of the same complete field.  It does not assert a localized core radius,
+spatial extent, or separation of material regions.
 
 The complete material tangent of that span is
 
@@ -13550,9 +13550,9 @@ In intrinsic and log-radius time,
 
 \[
 \boxed{
-(\log\Xi_E)_\tau
+(\log\Xi_E)_\vartheta
 =1-\frac{bk}{2E_U}
--(\log H_U)_\tau.
+-(\log H_U)_\vartheta.
 }
 \]
 
@@ -13577,7 +13577,7 @@ Its exact log-radius law is
 
 \[
 \boxed{
-y_\tau+y
+y_\vartheta+y
 =\frac{b^2}{2}(j-2d_2)
 =:\mathscr R_K.
 }
@@ -13603,7 +13603,7 @@ R_*:=\frac{b_+^2k_+^3}{16\pi^4},
 and
 
 \[
-\int_0^L\mathscr R_Kd\tau
+\int_0^L\mathscr R_Kd\vartheta
 \ge y_-L-y_+.
 \]
 
@@ -13654,7 +13654,7 @@ The complete joined tangent on those same times is
 2\mathcal B_{\omega,\tau}
 =\mathcal V
 +\frac{\mathscr R_K}{b^2}
--\frac{y}{b^2}(\log H_U)_\tau.
+-\frac{y}{b^2}(\log H_U)_\vartheta.
 }
 \]
 
