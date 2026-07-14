@@ -24472,6 +24472,152 @@ spatial Gold occupancy and source-level restart.  Cycle 135 identifies that
 tier as present turning, transverse next-source departure, or radial-collar
 variation.
 
+### F7.104 The degree-three angular square cancels exactly inside its complete covariant tangent
+
+At one center put
+
+\[
+g(n)=An,
+\qquad
+\pi=p_H=\frac{\tau}{4H},
+\qquad
+\bar g=\frac{g}{\sqrt\pi}.
+\]
+
+For the complete fine center--angular generator \(\mathcal L_0\), its
+degree-three source direction is
+
+\[
+\boxed{
+q_3=Q_3(\mathcal L_0\bar g)
+=-\frac{\mathcal H_3}{\sqrt\pi}.
+}
+\]
+
+The present normalized slope has degree one, whereas \(q_3\) has degree
+three.  Hence
+
+\[
+\langle\bar g,q_3\rangle_{S^2}=0,
+\qquad
+\|q_3\|_{S^2}^2
+=\frac{d_{\rm harm}}{\pi}
+=\Xi_{\rm ang}.
+\]
+
+The moving uniform sphere obeys
+
+\[
+\operatorname{div}_{S^2}\dot n=-3\alpha,
+\qquad
+\alpha=n\cdot Sn.
+\]
+
+Spatial differentiation preserves angular degree, so the degree-one/
+degree-three heat cross-row vanishes:
+
+\[
+\mathcal X_3
+=2\nu\mathbb E_{S^2}
+(\nabla\bar g:\nabla q_3)
+=0.
+\]
+
+The decomposition
+
+\[
+\alpha g
+=\mathcal H_3+\frac25ASn
+\]
+
+gives the angular-population flux
+
+\[
+\mathcal F_3
+=-3\mathbb E_{S^2}
+(\alpha\bar g\cdot q_3)
+=3\Xi_{\rm ang}.
+\]
+
+Differentiating the identically zero cross-current with the complete
+generator therefore yields
+
+\[
+0
+=\underbrace{\Xi_{\rm ang}}_{\text{new transverse square}}
++\underbrace{\mathcal N_3}_{\text{next joined source work}}
+-\underbrace{\mathcal X_3}_{\text{spatial heat cross}}
++\underbrace{\mathcal F_3}_{\text{angular population flux}},
+\]
+
+and consequently
+
+\[
+\boxed{
+\Xi_{\rm ang}-4\Xi_{\rm ang}+3\Xi_{\rm ang}=0.
+}
+\]
+
+After the common center and trace normalization, the same exact sector of
+the Cycle 134 block is
+
+\[
+\boxed{
+P_3=\mathcal D_{\rm ang},
+\qquad
+N_3=-4\mathcal D_{\rm ang},
+\qquad
+X_3=0,
+\qquad
+F_{1,3}=3\mathcal D_{\rm ang}.
+}
+\]
+
+Thus multiplication by any nonnegative time weight, including the
+double-tail weight \(B\), preserves the cancellation.  The positive angular
+square is genuine curvature, but it is not a scalar entropy production
+separable from the next source and moving angular population.  The surviving
+positive object is variation of the complete source direction, equivalently
+the all-radius source-departure first jet.
+
+There is also an exact same-fluid periodic stress test.  In the invariant
+2D3C class
+
+\[
+u=(0,f(t,x),W(t,x,y)),
+\qquad
+f_t=\nu f_{xx},
+\qquad
+W_t+fW_y=\nu(W_{xx}+W_{yy}),
+\]
+
+add to a fixed active base the vertical heat shear
+
+\[
+h_N=(0,0,\delta e^{-\nu N^2t}\cos Nx).
+\]
+
+All cross-transport rows vanish, so the sum is one exact global smooth
+Navier--Stokes history.  Its initial kinetic energy is independent of
+\(N\); on the early heat interval,
+
+\[
+\mathcal D_{{\rm ang},N}\gtrsim\delta^4N^4,
+\]
+
+while a later active interval of the same base supplies a uniform positive
+double tail.  Therefore the periodic analogue satisfies
+
+\[
+\int B_N\mathcal D_{{\rm ang},N}dt
+\gtrsim\frac{\delta^4}{\nu}N^2.
+\]
+
+This stress test is retained only at periodic scope; it is not an
+\(\mathbb R^3\)-specific counterexample.  It proves that kinetic energy alone
+does not primitive the severity-weighted angular square even when passive
+high frequency and later active tail belong to one exact fluid history.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -24489,6 +24635,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-137-degree-three-covariant-cancellation-passive-active-separation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-136-double-tail-temporal-renewal-likelihood-near-ray-axial-restarts-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-135-quantitative-near-eigenray-fine-source-departure-radial-trace-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-134-complete-severity-likelihood-angular-recombination-double-tail-criticality-20260714.md
