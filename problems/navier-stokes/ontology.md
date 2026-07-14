@@ -23196,6 +23196,176 @@ not a uniform gap: smooth null activations can approach a radial ray, so the
 unavoidable turning must still be treated through the double-tail temporal
 renewal law.
 
+### F7.98 The remaining-expenditure first jet is the exact full-incidence renewal current
+
+Let
+
+\[
+X=\Theta,
+\qquad
+V=\nabla_t^\Gamma\Theta,
+\qquad
+A=(\nabla_t^\Gamma)^2\Theta,
+\qquad
+R=\|X\|_\Gamma,
+\qquad
+E=\frac XR.
+\]
+
+With
+
+\[
+V_\perp=V-\langle E,V\rangle_\Gamma E,
+\qquad
+\mathcal K_\Gamma=\frac{\|V_\perp\|_\Gamma^2}{R},
+\]
+
+metric compatibility gives
+
+\[
+\boxed{
+\|V\|_\Gamma^2=(R')^2+R\mathcal K_\Gamma,
+\qquad
+R''=\langle E,A\rangle_\Gamma+\mathcal K_\Gamma.
+}
+\]
+
+For the unique double-tail weight \(B'=-a\), \(B''=2\nu I\), define the
+full vector Wronskian
+
+\[
+\boxed{
+\mathbb W_{B,\Gamma}
+=BV-B'X
+=BV+aX.
+}
+\]
+
+Then
+
+\[
+\boxed{
+\nabla_t^\Gamma\mathbb W_{B,\Gamma}
+=BA-2\nu IX.
+}
+\]
+
+Its radial current
+
+\[
+w_{B,\Gamma}
+=\langle E,\mathbb W_{B,\Gamma}\rangle_\Gamma
+=BR'+aR
+\]
+
+obeys
+
+\[
+\boxed{
+w_{B,\Gamma}'=BR''-2\nu IR,
+\qquad
+B\,dR'=dw_{B,\Gamma}+2\nu IR\,dt.
+}
+\]
+
+The full current splits exactly as
+
+\[
+\boxed{
+\|\mathbb W_{B,\Gamma}\|_\Gamma^2
+=w_{B,\Gamma}^2+B^2R\mathcal K_\Gamma.
+}
+\]
+
+For every BV time selector \(\zeta\),
+
+\[
+\boxed{
+\int\zeta B
+\left(\langle E,A\rangle_\Gamma+\mathcal K_\Gamma\right)dt
+=[\zeta BR']-\int R'\,d(\zeta B).
+}
+\]
+
+Indeed,
+
+\[
+\langle E,A\rangle_\Gamma
+=\frac d{dt}\langle E,V\rangle_\Gamma
+-\langle\nabla_t^\Gamma E,V\rangle_\Gamma,
+\qquad
+\langle\nabla_t^\Gamma E,V\rangle_\Gamma
+=\mathcal K_\Gamma.
+\]
+
+Thus moving the cotangent with the complete incidence ray cancels the
+explicit positive turning square exactly.  For an outward-curvature
+selector, the remaining Stieltjes term is supported on every start, stop,
+and renewal of the selected episode.
+
+The equivalent current law is
+
+\[
+\boxed{
+\int\zeta BR''dt
+=2\nu\int\zeta IRdt
++[\zeta w_{B,\Gamma}]
+-\int w_{B,\Gamma}\,d\zeta.
+}
+\]
+
+No center or fiber term has been omitted: projection exchange is already
+internal to \(V\), while pressure, transport, viscosity, chord turning, and
+trace normalization are joined in \(\nabla_t^\Gamma\).
+
+A radial state entropy \(\phi(R)\) has
+
+\[
+\frac{d^2}{dt^2}\phi(R)
+=\phi''(R)(R')^2
++\frac{\phi'(R)}R\|V_\perp\|_\Gamma^2
++\phi'(R)\langle E,A\rangle_\Gamma.
+\]
+
+Uniform coercivity on the whole tangent requires
+\(\phi''\ge c\) and \(\phi'/R\ge c\), hence
+\(\phi(R)\ge cR^2/2\ge cI^2/2\).  The state stock is already Gold tier.
+The natural critical tangent density
+
+\[
+B\frac{\|V\|_\Gamma^2}{R}
+\]
+
+diverges logarithmically at the lawful affine activation
+\(X=(t-t_0)V_0+O((t-t_0)^2)\), and high-frequency Beltrami heat makes it
+unbounded at fixed energy.  The exact quadratic perspective,
+
+\[
+\frac12\left(\frac{R^2}{B}\right)''
+=\frac{\|\mathbb W_{B,\Gamma}\|_\Gamma^2}{B^3}
++\frac{\langle X,A\rangle_\Gamma}{B}
+-\frac{B''R^2}{2B^2},
+\]
+
+retains the axial next tangent and is terminal-singular at \(B(T)=0\).
+
+The smallest surviving temporal object is therefore the phase-space
+current
+
+\[
+\boxed{
+\mathcal J_{B,\Gamma}
+=\bigl(\Theta,\mathbb W_{B,\Gamma}\bigr),
+\qquad
+B\,dR_\Gamma'
+=dw_{B,\Gamma}+2\nu IR_\Gamma\,dt.
+}
+\]
+
+Its radial projection is the signed multiple-renewal current and its
+transverse component is \(BV_\perp\); both belong to the same full VPI
+first jet.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -23213,6 +23383,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-131-full-incidence-remaining-expenditure-first-jet-adaptive-cotangent-cancellation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-130-fine-chord-polynomial-rigidity-no-active-full-incidence-eigenray-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-129-full-incidence-hilbert-ray-double-tail-renewal-eigenray-dichotomy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-128-full-incidence-residual-perspective-conditional-fisher-affine-birth-20260714.md
