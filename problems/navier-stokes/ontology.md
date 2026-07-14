@@ -22633,7 +22633,7 @@ of the next full pressure--transport--viscosity tangent.  Material
 homothety does not make the joined source rows vanish; it states that their
 complete material sum is radial.
 
-### F7.94 The Gold action is the double-tail Jordan curvature of the complete VPI radius
+### F7.94 The Gold action is the double-tail Jordan curvature of the VPI center radius
 
 For a classical interval \([t_0,T]\), define
 
@@ -22693,7 +22693,7 @@ a(t_0)R(t_0)
 \]
 
 Thus every infinite-Gold history must have infinite double-tail-weighted
-positive variation of the complete radial velocity while \(R'>0\).
+positive variation of the complete-source center velocity while \(R'>0\).
 Descending convex heat rays receive no false renewal charge.
 
 Cycle 126 supplies the exact curvature
