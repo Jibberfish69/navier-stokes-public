@@ -22002,7 +22002,7 @@ The Gold-active scalar is instead
 }
 \]
 
-where \(p_I=r_+^2/I\).  With
+where \(p_I=r_+^2/I\).
 
 The angular carrier splits exactly into its minimal active core and a passive
 remainder:
