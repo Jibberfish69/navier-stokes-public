@@ -22564,6 +22564,9 @@ one has
 }
 \]
 
+The projection norm is the nodal-safe form; the variance form is interpreted
+by quotient regularization on the positive support.
+
 The global \(I'/I\) and \(H'/H\) rates cancel from the variance.  Moreover,
 
 \[
@@ -22615,7 +22618,8 @@ Persistence of such a common-score pulse requires
 \mathcal A_V=(\lambda'+\lambda^2)\psi.
 \]
 
-At a nonzero equality contact, the first departure from that radial ray is
+At an equality contact with \(\lambda\ne0\), the first departure from that
+radial ray is
 
 \[
 \delta_{\rm rad}''
@@ -22625,7 +22629,9 @@ At a nonzero equality contact, the first departure from that radial ray is
 
 Hence a rebuilding pulse is either homothetic across the complete all-field
 escort or produces strict positive curvature through the transverse part
-of the next full pressure--transport--viscosity tangent.
+of the next full pressure--transport--viscosity tangent.  Material
+homothety does not make the joined source rows vanish; it states that their
+complete material sum is radial.
 
 ## Hard boundary: claims excluded from the ontology
 
