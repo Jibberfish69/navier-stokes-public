@@ -13364,7 +13364,7 @@ source.  The retained remaining-expenditure and defect-expenditure
 identities do not by themselves turn this law into datum-finite positive
 variation.
 
-### F7.47 The joined vorticity--chord mismatch is one tensor difference, but the finite relative entropies have the wrong sign or erase that difference
+### F7.47 The joined vorticity--chord mismatch is one tensor difference; exact dynamic entropy laws require full-rank regularization
 
 Define the two normalized matrix-valued geometries
 
@@ -13406,56 +13406,103 @@ Let
 where \(\mathsf F_c\) and \(\mathsf F_\omega\) retain the complete
 pressure--pair--stretching--viscous tangents.
 
-The support-admissible forward Umegaki entropy
-
-\[
-D_f=D(P\|Q)
-\]
-
-has a nonnegative common-heat Fisher row and the exact balance
+The forward Umegaki stock \(D(P\|Q)\) is support-admissible, but its
+heat/source splitting meets the moving axial kernel.  For \(\varepsilon>0\),
+define
 
 \[
 \boxed{
-D_f'+\nu\mathfrak F_{\rm KM}
-=-\frac{4\mathcal B_{\omega,\tau}}K
-+2\nu\delta_H
-+\mathcal R_f^{\rm raw},
+P_\varepsilon=\frac{P+\varepsilon Q}{1+\varepsilon},
 \qquad
-\delta_H=\frac{D_2}{K}-\frac{D}{2H}\ge0.
+\Sigma_{P_\varepsilon}
+=\frac{\Sigma_P+\varepsilon\Sigma_Q}{1+\varepsilon}.
 }
 \]
 
-It therefore carries the joined mismatch with the opposite sign.  Since
+Regularizing the state requires this regularized complete tangent.  The exact
+finite-\(\varepsilon\) forward law is
+
+\[
+\boxed{
+\begin{aligned}
+D(P_\varepsilon\|Q)'
++\nu\mathfrak F_{{\rm KM},\varepsilon}
+={}&\int\operatorname{tr}
+\left[\Sigma_{P_\varepsilon}
+(\log P_\varepsilon-\log Q)\right]dx\\
+&-\int\operatorname{tr}
+\left[\mathcal T_Q(P_\varepsilon)\Sigma_Q\right]dx.
+\end{aligned}
+}
+\]
+
+Using
 
 \[
 (\log m_H)'+2\nu\delta_H
 =\frac{4\mathcal B_{\omega,\tau}}K,
+\qquad
+\delta_H=\frac{D_2}{K}-\frac{D}{2H}\ge0,
 \]
 
-the exact recombination is
+its normalization decomposition exposes
+\(-4\mathcal B_{\omega,\tau}/K+2\nu\delta_H\).  This is a coordinate, not a
+sign for the total derivative: the complete regularized remainder is signed
+and contains an explicit \(O(\varepsilon)\) joined row.  At fixed
+\(\varepsilon\), recombination with \(\log m_H\) cancels only that displayed
+coordinate:
 
 \[
 \boxed{
-(\log m_H+D_f)'
-+\nu\mathfrak F_{\rm KM}
-=\mathcal R_f^{\rm raw}.
+(\log m_H+D(P_\varepsilon\|Q))'
++\nu\mathfrak F_{{\rm KM},\varepsilon}
+=\mathcal R_{f,\varepsilon}^{\rm raw}.
 }
 \]
 
-Both the joined mismatch and the adjacent spectral gap cancel, leaving the
-signed complete scored source.
-
-The reverse entropy has the useful formal sign,
+There is generally no finite termwise limit.  On \(\{h>0\}\), with
+\(p=h/K\),
 
 \[
-D(Q\|P)'
-+\nu\mathfrak F_{\rm KM}^{\rm rev}
-=\frac{4\mathcal B_{\omega,\tau}}K
--2\nu\delta_H
-+\mathcal R_r^{\rm raw},
+\boxed{
+\xi\cdot(\Delta P)\xi=p|\nabla\xi|^2,
+\qquad
+\xi\cdot\Sigma_P\xi=-\nu p|\nabla\xi|^2.
+}
 \]
 
-but
+Thus heat fills the axial kernel and the complete source cancels that filling
+to preserve the rank-two vorticity tensor.  If \(p|\nabla\xi|^2>0\) on a set
+of positive measure, then
+
+\[
+\boxed{
+-\left.\frac d{d\sigma}\right|_{0+}
+D(e^{\sigma\Delta}P\|e^{\sigma\Delta}Q)=+\infty.
+}
+\]
+
+The unregularized Fisher and source rows are therefore not separately finite.
+
+The exact finite-\(\varepsilon\) reverse law is
+
+\[
+\boxed{
+\begin{aligned}
+D(Q\|P_\varepsilon)'
++\nu\mathfrak F_{{\rm KM},\varepsilon}^{\rm rev}
+={}&\int\operatorname{tr}
+\left[\Sigma_Q(\log Q-\log P_\varepsilon)\right]dx\\
+&-\int\operatorname{tr}
+\left[\mathcal T_{P_\varepsilon}(Q)
+\Sigma_{P_\varepsilon}\right]dx.
+\end{aligned}
+}
+\]
+
+Its normalization decomposition exposes the positive joined coordinate
+\(4\mathcal B_{\omega,\tau}/K-2\nu\delta_H\), but its complete remainder is
+signed and the unregularized stock obeys
 
 \[
 \boxed{D(Q\|P)=+\infty.}
@@ -13463,7 +13510,8 @@ but
 
 The first argument assigns positive directional mass to the vorticity axis,
 while the second assigns zero.  Matrix Jeffreys and ordinary log-determinant
-divergences fail at the same axial kernel.
+divergences fail at the same axial kernel.  Hence the positive coordinate does
+not survive as a finite reverse-entropy production identity.
 
 The symmetric Bures divergence is finite and bounded:
 
