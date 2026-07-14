@@ -19,6 +19,14 @@ authority:
   governing_status: f1-root-rebuild-active
   current_promoted_checkpoint: pre-cycle-f1-f7-seed
   legacy_catalog_effect: address-preservation-only
+  active_quarantines:
+    periodic_2d3c_surface_quarantine:
+      authority: problems/navier-stokes/target-operating-contract.yaml#periodic_2d3c_surface_quarantine
+      index: problems/navier-stokes/periodic-2d3c-surface-quarantine-20260714.yaml
+      rule: >-
+        2D3C surfaces are comparison-only periodic countertests unless a fresh
+        same-fluid bridge theorem is proved from the F1 participation root and
+        every affected consumer is re-audited.
   premise_weight_rule: >-
     A catalog entry or cycle result has no premise weight merely because it is
     listed. Exact proof at stated scope, same-participant revalidation, and

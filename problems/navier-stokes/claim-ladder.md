@@ -1453,11 +1453,14 @@ Since \(H\le E^\circ_0m_H\), terminal unbounded \(H\) forces, on every tail,
 }
 \]
 
-The signs are strictly independent in lawful globally regular histories.
+The signs are strictly independent in lawful comparison histories.
 Cycle 068's planar participant has \(H'>0>K'\) and
-\(\mathcal P_\omega=0\). A two-scale 2D3C participant constructed from the
-Cycle-001 datum has \(K'>0>H'\) while \(P_H=0\) at the initial instant. These
-are different periodic histories; no one-history traversal is asserted.
+\(\mathcal P_\omega=0\). A two-scale periodic 2D3C comparison witness
+constructed from the Cycle-001 datum has \(K'>0>H'\) while \(P_H=0\) at the
+initial instant. This 2D3C surface is quarantined: it is not a live Clay
+participant, same-fluid bridge, carrier, recurrence, location, or buildable
+premise. These are different periodic comparison histories; no one-history
+traversal is asserted.
 
 Physically, critical work and vortex stretching read the same strain through
 different global weights and orientations. Their exact discrepancy, not

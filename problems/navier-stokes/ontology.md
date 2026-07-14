@@ -47,6 +47,13 @@ The withdrawn Cycle 034 physical picture remains visible only in the
 [frozen detail](ontology-archive/ontology-detailed-through-cycle-154-20260714.md#withdrawn-cycle-034-physical-picture--invalid-as-an-ontology-generator).
 It has zero premise weight and no question-generating authority.
 
+The periodic `2D3C` datum is also quarantined. It may be used only as an exact
+periodic comparison witness or countertest; it is not admitted as the live Clay
+fluid, a same-fluid participant, a carrier, a restarter, persistence/location
+evidence, or premise weight for Gold, Silver, CM, F1, or VPI work. The active
+index is
+[periodic-2d3c-surface-quarantine-20260714.yaml](periodic-2d3c-surface-quarantine-20260714.yaml).
+
 ## How to use this map
 
 1. Start with participation and the relevant F1--F7 family.
