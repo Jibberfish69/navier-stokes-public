@@ -26354,6 +26354,31 @@ Scalar weights preserve that boundary:
 =BHP_H.
 \]
 
+Using \(I^2\le2HD/9\) and the positive troughs gives the sharp reductions
+
+\[
+\boxed{
+\left(\frac{\mathfrak aH^2}{2}\right)'
++\frac{9\nu}{2}\mathfrak aI^2
+\le
+\frac{\mathfrak a^2[P_H]_+^2}{4\nu I},
+}
+\]
+
+\[
+\boxed{
+\left(\frac{BH^2}{2}\right)'
++\frac{9\nu}{2}BI^2
+\le
+\frac{B^2[P_H]_+^2}{2\mathfrak a}.
+}
+\]
+
+Since \(P_H^2\le4H\mathcal A\), where \(\mathcal A\) is the second
+radial-current moment, positive-current control restores \(\mathcal A\) and
+its full mixed evolution \(Q_t-\partial_sA=S_Q\).  It does not terminate in
+a scalar tail payment.
+
 At the collar scale,
 
 \[
