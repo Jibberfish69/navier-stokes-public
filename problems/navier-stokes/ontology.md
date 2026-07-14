@@ -25147,6 +25147,192 @@ heat, the exact escort commutator \(\mathfrak C_M[j]\), and the explicit
 moving-geometry block \(\mathcal L_\rho\).  These are simultaneous rows of
 the same all-field material tangent.
 
+### F7.107 The active escort has an exact mixed-source current and source Gram curvature
+
+Retain
+
+\[
+j=\frac{\delta(D_tu)}{\rho},
+\qquad
+\phi=\frac{\delta F_{\mathbf a}}{\rho},
+\qquad
+F_{\mathbf a}=(D_t-\nu\Delta)(D_tu),
+\]
+
+and define the next joined source
+
+\[
+\psi
+=\frac{\delta[(D_t-\nu\Delta)F_{\mathbf a}]}{\rho}.
+\]
+
+The same full pair generator gives
+
+\[
+(D_{\rm pair}-\nu\Delta_z)j=\phi-\alpha j,
+\qquad
+(D_{\rm pair}-\nu\Delta_z)\phi=\psi-\alpha\phi.
+\]
+
+Their local mixed product satisfies
+
+\[
+\boxed{
+\begin{aligned}
+(D_{\rm pair}-\nu\Delta_z)(j\cdot\phi)
+={}&
+|\phi|^2+j\cdot\psi
+-2\alpha j\cdot\phi\\
+&-2\nu\nabla_zj:\nabla_z\phi.
+\end{aligned}
+}
+\]
+
+For the active escort
+
+\[
+M=\frac{\Theta^2}{4\pi^2H},
+\]
+
+put
+
+\[
+\mathcal J_M=\int M|j|^2d\Omega,
+\qquad
+\mathcal C_M=\int Mj\cdot\phi\,d\Omega,
+\qquad
+\mathcal F_M=\int M|\phi|^2d\Omega.
+\]
+
+Then
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal C_M'
+{}&+2\nu\int M\nabla_zj:\nabla_z\phi\,d\Omega\\
+{}&+\int
+\left[
+4\alpha M-(D_{\rm pair}M+\nu\Delta_zM)
+\right]
+j\cdot\phi\,d\Omega\\
+{}&=
+\mathcal F_M
++\int Mj\cdot\psi\,d\Omega.
+\end{aligned}
+}
+\]
+
+Thus the source work in the active acceleration entropy is itself the
+derivative of a complete material current.  Its derivative retains the
+positive next-source square, next pressure-slaved source, heat cross-current,
+pair compression, and escort motion.
+
+With
+
+\[
+\beta=\frac{B^{5/3}}{R_\Gamma},
+\qquad
+\mathcal P_\beta(t)=\int_t^T\beta(s)\,ds,
+\]
+
+one has
+
+\[
+\boxed{
+\int_{t_0}^T\beta\mathcal C_Mdt
+=\mathcal P_\beta(t_0)\mathcal C_M(t_0)
++\int_{t_0}^T\mathcal P_\beta\mathcal C_M'dt.
+}
+\]
+
+If the active first-jet entropy is written
+
+\[
+\frac12(\beta\mathcal J_M)'
++\mathcal D_{j,M}
+=\beta\mathcal C_M,
+\]
+
+where \(\mathcal D_{j,M}\) is its entire joined heat, tail, compression,
+escort, and commutator block, then the augmented stock
+
+\[
+\boxed{
+\mathscr E_1
+=\frac12\beta\mathcal J_M
++\mathcal P_\beta\mathcal C_M
+}
+\]
+
+obeys
+
+\[
+\boxed{
+\mathscr E_1'
++\mathcal D_{j,M}
+=\mathcal P_\beta\mathcal C_M'.
+}
+\]
+
+The first source work is therefore transferred exactly into the next source
+Gramian rather than estimated separately.
+
+The two-level source Gram matrix is
+
+\[
+\boxed{
+\mathsf G_M
+=
+\begin{pmatrix}
+\mathcal J_M&\mathcal C_M\\
+\mathcal C_M&\mathcal F_M
+\end{pmatrix}
+\succeq0.
+}
+\]
+
+On \(\{\mathcal J_M>0\}\), set
+
+\[
+\lambda_{\mathbf a}
+=\frac{\mathcal C_M}{\mathcal J_M}.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal F_M
+=\lambda_{\mathbf a}^2\mathcal J_M
++\mathcal K_{\mathbf a,M},
+}
+\]
+
+where
+
+\[
+\boxed{
+\mathcal K_{\mathbf a,M}
+=\int M|\phi-\lambda_{\mathbf a}j|^2d\Omega
+=\mathcal F_M-\frac{\mathcal C_M^2}{\mathcal J_M}
+\ge0.
+}
+\]
+
+Equivalently,
+
+\[
+\det\mathsf G_M
+=\mathcal J_M\mathcal K_{\mathbf a,M}.
+\]
+
+The positive next-source square is therefore radial amplification of the
+complete acceleration chord plus transverse turning of its source
+direction.  Velocity-ray homothety, forced acceleration-chord ejection, and
+source-Gram curvature are successive readings of one all-field material
+chain.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -25164,6 +25350,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-140-active-escort-mixed-source-current-hankel-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-139-active-escort-acceleration-chord-first-jet-entropy-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-138-all-radius-source-first-jet-upper-lower-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-137-degree-three-covariant-cancellation-passive-active-separation-20260714.md
