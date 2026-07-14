@@ -22004,6 +22004,27 @@ The Gold-active scalar is instead
 
 where \(p_I=r_+^2/I\).  With
 
+The angular carrier splits exactly into its minimal active core and a passive
+remainder:
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+=\frac{12}{175}\mathcal G_V+\mathcal R_{\rm pass},
+\qquad
+\mathcal R_{\rm pass}
+=H\int\frac{d_{\rm harm}-\frac{12}{175}r_+^4}{\tau}dx\ge0.
+}
+\]
+
+The active core obeys
+\((12/175)\mathcal G_V\ge(3/175)I^2\).  Exact heat shears have
+\(\mathcal G_V=0\) and
+\(\mathcal R_{\rm pass}=\mathcal D_{\rm ang}\), so the surplus is real
+same-fluid angular geometry but owns no Gold rebuilding.
+
+With
+
 \[
 \varrho=r_+^2,
 \qquad
