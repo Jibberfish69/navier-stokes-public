@@ -12329,6 +12329,188 @@ distinguishes the fluid from this counterflow must therefore use that retained
 all-field geometry, not another radial cutoff, shell ledger, or scalar
 entropy.
 
+### F7.42 The full all-chord tensor has a strict aperture, and near saturation of \(K\ge3I\) forces a scale-invariant palinstrophy or aperture-entropy charge
+
+For a smooth nonzero decaying incompressible field, put
+
+\[
+\mathcal C_R(z)
+=\int_{B_R(z)}\frac{|\nabla^2u(x)|^2}{|x-z|^2}dx
+\]
+
+and define, with \(\sup\varnothing=0\),
+
+\[
+\ell_A(z)=\sup\left\{R>0:
+R\mathcal C_R(z)\le\frac{2\pi}{5}|\nabla u(z)|^2
+\right\}.
+\]
+
+The integrated short-chord Taylor estimate and the exact fourth angular
+moment give the matrix floor
+
+\[
+\boxed{
+\mathsf T_u(z)\succeq
+\frac{\ell_A(z)|\nabla u(z)|^2}{15\pi}I.
+}
+\]
+
+Independently, \(\mathsf T_u(z)\succ0\) at every finite center.  Vanishing in
+one direction would force every chord off the corresponding plane to have
+zero velocity increment, hence force a spatially constant field; decay would
+make it zero.  Thus the full all-field cocycle has a strict directional
+aperture that is absent from its radial marginal.
+
+The centers with short certified aperture radius obey
+
+\[
+\boxed{
+\int_{\{\ell_A<R\}}|\nabla u|^2dx<10R^2D_2,
+\qquad
+\int_{\{\ell_A<R\}}r_+^2dx<\frac{20}{3}R^2D_2.
+}
+\]
+
+On \(\{\ell_A\ge R\}\), write
+
+\[
+\Pi\succeq a_RI,
+\qquad
+a_R=\frac{R|\nabla u|^2}{15\pi\tau}.
+\]
+
+Decomposing \(\Pi=a_RI+(1-3a_R)Q\) with \(Q\succeq0\),
+\(\operatorname{tr}Q=1\), forces
+
+\[
+d:=\frac{|S|^2}{3}-\frac{r^2}{2}
+\ge\frac{3R}{10\pi\tau}r^4.
+\]
+
+Complete-field integration, \(\int\tau=4H\), and the short-radius tail give
+
+\[
+\boxed{
+D_{\rm mis}
+>\frac{3R}{40\pi H}
+\left(I-\frac{20}{3}R^2D_2\right)_+^2.
+}
+\]
+
+In the Gold normalization \(I(U)=1\), let
+
+\[
+H_U=H/\nu^2,
+\qquad
+k=K/I,
+\qquad
+d_2=\nu^4D_2/I^3.
+\]
+
+Since
+
+\[
+k-3=3I_-/I+6D_{\rm mis}/I,
+\]
+
+optimizing the preceding inequality in \(R\sqrt{d_2}\) yields
+
+\[
+\boxed{
+(k-3)H_U\sqrt{d_2}
+>c_{\rm ap},
+\qquad
+c_{\rm ap}=\frac{18\sqrt3}{625\pi}.
+}
+\]
+
+Thus the equality face \(k=3\) is inaccessible to a nonzero normalized
+decaying field.  Approaching it requires
+
+\[
+d_2>rac{c_{\rm ap}^2}{H_U^2(k-3)^2}.
+\]
+
+The same gap controls an active directional entropy.  Put
+
+\[
+A_\Pi=1-|\Pi|^2,
+\qquad
+q_\Pi=|\Pi^\circ|^2,
+\qquad
+h=\frac23(k-3),
+\qquad
+d\mu_+=r_+^2dx/I.
+\]
+
+On \(q_\Pi>0\), the orthogonal decomposition
+
+\[
+S_\perp=S+\frac r{q_\Pi}\Pi^\circ,
+\qquad
+d=\frac13|S_\perp|^2+rac{A_\Pi}{2q_\Pi}r^2
+\]
+
+gives
+
+\[
+\mathbb E_{\mu_+}A_\Pi\le h/3.
+\]
+
+Maclaurin and Jensen then imply
+
+\[
+\boxed{
+\mathbb E_{\mu_+}\log\frac6{A_\Pi}
+\ge\log\frac{18}{h},
+\qquad
+\mathbb E_{\mu_+}\left[-\frac23\log\det\Pi\right]
+\ge\mathbb E_{\mu_+}\log\frac6{A_\Pi}.
+}
+\]
+
+Any same-history sequence with \(k-3\to0\) therefore has unbounded active
+aperture entropy.  Its exact pressure-completed evolution retains the source
+that can rebuild it.  With
+
+\[
+\mathcal L_\tau
+=D_t-\nu\Delta-2\nu\nabla\log\tau\cdot\nabla,
+\qquad
+\mathcal L_\tau\Pi=\mathcal K_\Pi,
+\]
+
+one has
+
+\[
+\boxed{
+\mathcal L_\tau\log\frac6{A_\Pi}
+=\frac{2\Pi:\mathcal K_\Pi}{A_\Pi}
+-\nu\left(
+\frac{2|\nabla\Pi|^2}{A_\Pi}
++\frac{|\nabla A_\Pi|^2}{A_\Pi^2}
+\right),
+}
+\]
+
+and
+
+\[
+\boxed{
+\mathcal L_\tau\left[-\frac23\log\det\Pi\right]
+=-\frac23\operatorname{tr}(\Pi^{-1}\mathcal K_\Pi)
+-\frac{2\nu}{3}
+\sum_j|\Pi^{-1/2}(\partial_j\Pi)\Pi^{-1/2}|^2.
+}
+\]
+
+The Fisher terms oppose aperture collapse.  The signed shape source
+\(\mathcal K_\Pi\), including slaved pressure, and the evolution of the active
+weight \(r_+^2/I\) can rebuild it.  This is why the static aperture floor is a
+genuine all-field payment but cannot be separated from the complete temporal
+VPI source.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -12346,6 +12528,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-075-full-tensor-aperture-gap-palinstrophy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-074-critical-tent-adjoint-radial-counterflow-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-073-log-radius-severity-two-time-entropy-trilemma-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-072-remaining-radius-homogeneity-contraction-fisher-law-20260714.md`
