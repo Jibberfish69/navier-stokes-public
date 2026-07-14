@@ -22478,6 +22478,155 @@ Thus the present relative heat square cannot universally absorb the joined
 source.  The lawful next object is the full material turning of the active
 Hilbert ray, with the pressure--transport--viscosity tangent left intact.
 
+### F7.93 The active Hilbert ray has exact material Fisher curvature
+
+Put
+
+\[
+q=p_H,\qquad
+f=r_+,\qquad
+\psi=\frac{f^2}{\sqrt q},
+\qquad
+R=\|\psi\|_2=2\mathcal Z_V,
+\qquad
+e_V=\frac\psi R.
+\]
+
+The generator tangent is
+
+\[
+\mathcal Q_V
+:=(D_t-\nu\Delta)\psi
+=\widehat{\mathscr S}_V+\mathcal C_{\nu,V},
+\]
+
+\[
+\mathcal C_{\nu,V}
+=-\frac{2\nu|\nabla f|^2}{\sqrt q}
++\frac{\nu\nabla(f^2)\cdot\nabla q}{q^{3/2}}
+-\frac{3\nu f^2|\nabla q|^2}{4q^{5/2}}.
+\]
+
+The complete material tangent is
+
+\[
+\boxed{
+\mathcal T_V:=D_t\psi
+=\frac{2fD_tr}{\sqrt q}
+-\frac{f^2D_tq}{2q^{3/2}}
+=\widehat{\mathscr S}_V
++\frac{2\nu f\Delta r}{\sqrt q}
+-\frac{\nu f^2\Delta q}{2q^{3/2}}.
+}
+\]
+
+The quotient-gradient and nodal heat rows cancel only in this recombined
+material form.  The radial law is
+
+\[
+\boxed{
+R'
+=\langle e_V,\widehat{\mathscr S}_V\rangle
+-\frac{2\mathcal V_{\rm rel}}R.
+}
+\]
+
+The all-field unit ray obeys
+
+\[
+\boxed{
+D_te_V
+=\frac1R P_V^\perp\mathcal T_V
+=\frac1R P_V^\perp\mathcal Q_V
++\nu\left(\Delta e_V+\|\nabla e_V\|_2^2e_V\right).
+}
+\]
+
+With \(d\mu_V=e_V^2dx\) and
+
+\[
+\Gamma_V
+=\frac{\mathcal T_V}{\psi}
+=2\frac{D_tr}{f}
+-\frac12\frac{D_tq}{q},
+\qquad
+\sigma_V=\frac{R'}R=\mathbb E_{\mu_V}\Gamma_V,
+\]
+
+one has
+
+\[
+\boxed{
+\mathcal K_V
+:=R\|D_te_V\|_2^2
+=\frac1R\|P_V^\perp\mathcal T_V\|_2^2
+=R\operatorname{Var}_{\mu_V}(\Gamma_V).
+}
+\]
+
+The global \(I'/I\) and \(H'/H\) rates cancel from the variance.  Moreover,
+
+\[
+D_t\mu_V=2\mu_V(\Gamma_V-\sigma_V),
+\qquad
+\int|D_t\log\mu_V|^2d\mu_V
+=\frac{4\mathcal K_V}{R}.
+\]
+
+Thus \(\mathcal K_V\) is the exact temporal Fisher curvature of
+point--whole-field redistribution.
+
+For \(\mathcal A_V=D_t\mathcal T_V\), the exact polar acceleration law is
+
+\[
+\boxed{
+R''=\langle e_V,\mathcal A_V\rangle+\mathcal K_V.
+}
+\]
+
+The second tangent retains the differentiated joined source, both heat
+derivatives, the biharmonic rows, and the transport--heat commutators.  If
+\(a'=-2\nu I\), its remaining-expenditure Wronskian is
+
+\[
+W_a=aR'-a'R=aR'+2\nu IR,
+\]
+
+\[
+\boxed{
+a\mathcal K_V
+=W_a'
+-a\langle e_V,\mathcal A_V\rangle
+-2\nu I'R.
+}
+\]
+
+Finally,
+
+\[
+\mathcal K_V=0
+\quad\Longleftrightarrow\quad
+\mathcal T_V=\lambda(t)\psi.
+\]
+
+Persistence of such a common-score pulse requires
+
+\[
+\mathcal A_V=(\lambda'+\lambda^2)\psi.
+\]
+
+At a nonzero equality contact, the first departure from that radial ray is
+
+\[
+\delta_{\rm rad}''
+=\frac1{|\lambda|}
+\|P_V^\perp\mathcal A_V\|_2^2.
+\]
+
+Hence a rebuilding pulse is either homothetic across the complete all-field
+escort or produces strict positive curvature through the transverse part
+of the next full pressure--transport--viscosity tangent.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22495,6 +22644,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-126-active-hilbert-material-ray-curvature-wronskian-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-125-moving-full-incidence-projection-anisotropic-fiber-exchange-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-123-active-pearson-square-root-gold-transform-full-incidence-cotangent-20260714.md
