@@ -1,0 +1,127 @@
+---
+version: 1
+contract_id: ns-ontology-write-contract-v1
+status: active
+updated_at: '2026-07-14'
+purpose: >-
+  Keep ontology.md a compact, navigable authority map while preserving exact
+  mathematics in source artifacts and preventing numbered research cycles from
+  turning the map back into an append-only derivation ledger.
+
+surfaces:
+  canonical_map: problems/navier-stokes/ontology.md
+  frozen_detailed_snapshot: problems/navier-stokes/ontology-archive/ontology-detailed-through-cycle-154-20260714.md
+  derivation_root: problems/navier-stokes/theorem-construction
+  target_operating_contract: problems/navier-stokes/target-operating-contract.yaml
+
+authority:
+  root: participation
+  governing_status: f1-root-rebuild-active
+  current_promoted_checkpoint: pre-cycle-f1-f7-seed
+  legacy_catalog_effect: address-preservation-only
+  premise_weight_rule: >-
+    A catalog entry or cycle result has no premise weight merely because it is
+    listed. Exact proof at stated scope, same-participant revalidation, and
+    affected-consumer re-audit are required before a post-cutover card is
+    promoted.
+  theorem_progress_boundary: >-
+    Ontology promotion is not Gold or Silver proof progress unless it proves the
+    live target or a genuinely smaller noncircular theorem.
+
+map_limits:
+  max_lines: 900
+  max_bytes: 75000
+  max_post_cutover_card_lines: 18
+  display_math_allowed: false
+  append_only_source_ledger_allowed: false
+
+legacy_catalog:
+  start_marker: '<!-- ontology-legacy-catalog:start -->'
+  end_marker: '<!-- ontology-legacy-catalog:end -->'
+  expected_fact_headings: 178
+  source_sha256_before_banner: 123a956b5a5331f10d594da90c4b0d0bcc8d6eaa8d948bc6245986abc4b83ce3
+  snapshot_sha256: 75431fe528440a8353bae5f0c3f238b003d3063ce3387edc0d138772a2f95ef7
+  banner_inserted_after_line: 1
+  banner_inserted_line_count: 5
+  mutation_policy: frozen
+
+post_cutover_cards:
+  section_heading: '## Promoted ontology cards after 2026-07-14'
+  heading_pattern: '^### F[1-7]\.[0-9]+ '
+  required_fields:
+    - Claim
+    - Scope
+    - Same-participant meaning
+    - Source
+    - Status
+    - Does not imply
+    - Consumers re-audited
+  allowed_statuses:
+    - proved-exact-identity
+    - proved-exact-operator-property
+    - classical-proved-theorem
+  id_rule: >-
+    The F-family identifier names an independent durable fact, not a cycle
+    number. Refine or replace an existing card when the new result has the same
+    mathematical role; add a new identifier only for a logically independent
+    fact. A new F-family requires an explicit target-operating-contract change.
+
+write_rules:
+  - id: derivations-stay-in-source
+    rule: >-
+      Full calculations, proof attempts, counterexamples, failed routes,
+      research-cycle narratives, and source inventories live under
+      theorem-construction or another named source surface, never inline in the
+      canonical map.
+  - id: candidates-never-enter-map
+    rule: >-
+      Candidates, route observations, support, probes, anatomy, generated
+      summaries, and physical stories without a same-history bridge do not enter
+      ontology.md.
+  - id: consolidate-before-append
+    rule: >-
+      Before adding a card, search for the existing fact with the same role.
+      Tighten, replace, or supersede that card instead of appending a nearby
+      formulation. Preserve its stable address whenever its logical identity is
+      unchanged.
+  - id: one-short-card-per-independent-fact
+    rule: >-
+      A promoted fact receives one card containing the exact claim, hypotheses,
+      same-participant meaning, direct source, honest status, non-implications,
+      and affected consumers. The source carries the proof.
+  - id: no-cycle-ledger
+    rule: >-
+      Cycle numbers, completion counters, chronological receipts, and cumulative
+      source lists are not ontology structure. They remain in their source notes
+      or git history.
+  - id: re-audit-before-promotion
+    rule: >-
+      Promotion requires checking every ontology card and theorem consumer whose
+      meaning, hypothesis, status, or route use changes. Unknown coverage is an
+      incomplete promotion.
+  - id: preserve-proof-boundaries
+    rule: >-
+      Every card and write decision must keep proof, strict reduction, checked
+      obstruction, failed attempt, support, runtime work, Gold, and Silver
+      separate.
+
+write_sequence:
+  - prove the exact mathematical claim in a named source artifact
+  - state the one-participant physical meaning and explicit non-implications
+  - classify proof status without translating support into theorem progress
+  - search for an existing card to consolidate or supersede
+  - re-audit every affected consumer and record those paths in the card
+  - add or edit one compact card in ontology.md
+  - run the validation command and resolve every failure before completion
+
+validation:
+  command: ruby problems/navier-stokes/tools/check_ontology_contract.rb
+  regression_test: ruby problems/navier-stokes/tools/check_ontology_contract_test.rb
+  fail_closed_on:
+    - map size cap exceeded
+    - frozen snapshot changed or source bytes lost
+    - legacy fact address missing or renamed
+    - unresolved target-operating-contract ontology anchor
+    - post-cutover card missing a required field
+    - post-cutover card status outside the allowed proved classes
+    - display mathematics or append-only source ledger added to the map
