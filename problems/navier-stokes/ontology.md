@@ -23366,6 +23366,226 @@ Its radial projection is the signed multiple-renewal current and its
 transverse component is \(BV_\perp\); both belong to the same full VPI
 first jet.
 
+### F7.99 The angular carrier controls the full incidence radius and factors through exact severity
+
+The full radius has the center--conditional representation
+
+\[
+\boxed{
+R_\Gamma^2
+=4H\int\frac{r_+^2}{\tau}
+\mathbb E_{\chi_z}h^2\,dz.
+}
+\]
+
+Since \(\mathbb E_{\chi_z}h=r\), Jensen gives
+
+\[
+R_\Gamma^2
+\ge4H\int\frac{r_+^4}{\tau}dz
+=I^2\left[1+\chi^2(p_I\Vert p_H)\right].
+\]
+
+Conversely,
+
+\[
+\mathbb E_{\chi_z}h^2
+\le\|S\|_{\rm op}^2
+\le\frac23|S|^2,
+\qquad
+r_+^2\le\frac23|S|^2,
+\]
+
+so
+
+\[
+R_\Gamma^2
+\le\frac{16}{9}H\int\frac{|S|^4}{\tau}dz.
+\]
+
+Combining this with
+
+\[
+d_{\rm harm}\ge\frac{16}{525}|S|^4
+\]
+
+gives the full-radius carrier law
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+\ge\frac3{175}R_\Gamma^2
+\ge\frac3{175}I^2
+\left[1+\chi^2(p_I\Vert p_H)\right].
+}
+\]
+
+This does not compare the uniform harmonic measure with the native
+anisotropic conditional fiber; the common bridge is \(|S|^4\).
+
+Let
+
+\[
+\mathfrak A_{\rm ang}=\int\eta_{\rm ang}dx,
+\qquad
+d\mu_{\rm ang}
+=\frac{\eta_{\rm ang}}{\mathfrak A_{\rm ang}}dx,
+\]
+
+and define
+
+\[
+\boxed{
+\Lambda_{\rm sev}
+=H\int\frac{G_0}{\tau}d\mu_{\rm ang}.
+}
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+=\mathfrak A_{\rm ang}\Lambda_{\rm sev},
+\qquad
+R_\Gamma^2
+\le\frac{175}{3}
+\mathfrak A_{\rm ang}\Lambda_{\rm sev}.
+}
+\]
+
+The energy identity pays
+
+\[
+\nu\int\mathfrak A_{\rm ang}dt
+\le\frac{11}{175}\mathcal E_0.
+\]
+
+Thus \(\Lambda_{\rm sev}\) is the exact severity observable under the paid
+projective-action measure.  It averages the infinitesimal slope burden
+\(HG_0/\tau\) precisely where irreducible angular source innovation is
+occurring.
+
+The tail implications stop at the exact convolution
+
+\[
+a(t)\le\frac{70\nu}{3}
+\int_t^T\mathfrak A_{\rm ang}(s)ds,
+\]
+
+\[
+B(t)\le\frac{70\nu}{3}
+\int_t^T(s-t)\mathfrak A_{\rm ang}(s)ds,
+\]
+
+and, for \(c\ge0\),
+
+\[
+\boxed{
+\int Bc
+\le\frac{70\nu}{3}
+\int\mathfrak A_{\rm ang}(s)
+\left[\int^{s}(s-t)c(t)dt\right]ds.
+}
+\]
+
+On every outward component \(J\), with
+\(y=R_\Gamma'>0\) and zero endpoint traces,
+
+\[
+\boxed{
+\int_JB[y']_+
+=\int_Jay+\int_JB[y']_-.
+}
+\]
+
+Hence deceleration can be followed by newly charged acceleration; record
+radius does not prevent renewed crossings of radial-speed levels.
+
+The scalar inference has an exact smooth concentration countermodel.  Take
+disjoint bumps accumulating at \(T\), with
+
+\[
+e_n=2^{-n},
+\qquad
+\delta_n=2^{-5n},
+\qquad
+M_n=e_n/\delta_n=2^{4n},
+\]
+
+and set
+
+\[
+I=R_\Gamma
+=\sum_nM_n\phi\left(\frac{t-t_n}{\delta_n}\right),
+\qquad
+K=3I,
+\qquad
+\mathfrak A_{\rm ang}=\frac K{35},
+\qquad
+\mathcal D_{\rm ang}=\frac3{175}R_\Gamma^2.
+\]
+
+Then
+
+\[
+\int I<\infty,
+\qquad
+\nu\int\mathfrak A_{\rm ang}<\infty,
+\]
+
+and all scalar carrier, tail, polar, and Wronskian identities hold on the
+abstract fixed Hilbert ray \(\Theta=R_\Gamma e_0\).  Yet each convex rising
+portion satisfies
+
+\[
+B\gtrsim\nu e_n\delta_n,
+\qquad
+R_\Gamma''\gtrsim e_n/\delta_n^3,
+\]
+
+so
+
+\[
+\boxed{
+\int B[R_\Gamma'']_+
+\gtrsim\nu\sum_n\frac{e_n^2}{\delta_n}
+=\nu\sum_n2^{3n}
+=\infty.
+}
+\]
+
+The charged portions can be placed above all previous radius records.  This
+is not an NS realization: Cycle 130 excludes its persistent fixed-ray
+geometry.  It proves exactly that the scalar carrier, energy payment,
+double tail, polar law, Wronskian law, and record restriction do not contain
+the quantitative PDE rigidity.
+
+Under the fixed-energy short-rise scaling,
+
+\[
+\mathfrak A_{\rm ang}dt\sim\lambda^{-1},
+\qquad
+\Lambda_{\rm sev}\sim\lambda^4,
+\qquad
+\int B[R_\Gamma'']_+dt\sim\lambda^3.
+\]
+
+The same event therefore has two joint coordinates:
+
+\[
+\boxed{
+\text{spatial severity } \Lambda_{\rm sev}
+\quad\text{and}\quad
+\text{temporal renewal current }
+\mathcal J_{B,\Gamma}.
+}
+\]
+
+Any scalar consequence must be a marginal of their complete VPI evolution;
+neither coordinate may be replaced by a separate viscosity-only or
+pressure-only estimate.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -23383,6 +23603,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-132-full-incidence-radius-angular-severity-leverage-renewal-concentration-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-131-full-incidence-remaining-expenditure-first-jet-adaptive-cotangent-cancellation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-130-fine-chord-polynomial-rigidity-no-active-full-incidence-eigenray-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-129-full-incidence-hilbert-ray-double-tail-renewal-eigenray-dichotomy-20260714.md
