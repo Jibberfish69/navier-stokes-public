@@ -12429,7 +12429,7 @@ Thus the equality face \(k=3\) is inaccessible to a nonzero normalized
 decaying field.  Approaching it requires
 
 \[
-d_2>rac{c_{\rm ap}^2}{H_U^2(k-3)^2}.
+d_2>\frac{c_{\rm ap}^2}{H_U^2(k-3)^2}.
 \]
 
 The same gap controls an active directional entropy.  Put
@@ -12449,7 +12449,7 @@ On \(q_\Pi>0\), the orthogonal decomposition
 \[
 S_\perp=S+\frac r{q_\Pi}\Pi^\circ,
 \qquad
-d=\frac13|S_\perp|^2+rac{A_\Pi}{2q_\Pi}r^2
+d=\frac13|S_\perp|^2+\frac{A_\Pi}{2q_\Pi}r^2
 \]
 
 gives
@@ -13436,6 +13436,15 @@ D(P_\varepsilon\|Q)'
 }
 \]
 
+Here
+
+\[
+\mathfrak F_{{\rm KM},\varepsilon}
+:=-\left.\frac d{d\sigma}\right|_{0+}
+D(e^{\sigma\Delta}P_\varepsilon
+\|e^{\sigma\Delta}Q)\ge0.
+\]
+
 Using
 
 \[
@@ -13530,7 +13539,7 @@ The symmetric Bures divergence is finite and bounded:
 \]
 
 For \(P_\varepsilon\), let
-\(D_{B,\varepsilon}^2=D_B^2(Q,P_\varepsilon)\), with Bures transport maps
+\(D_{B,\varepsilon}^2=D_B^2(Q,P_\varepsilon)=2-2\Phi_\varepsilon\), with Bures transport maps
 \(T_{Q\to P_\varepsilon}\) and \(T_{P_\varepsilon\to Q}\).  The exact
 finite-\(\varepsilon\) complete-tangent law is
 
@@ -13544,6 +13553,14 @@ finite-\(\varepsilon\) complete-tangent law is
 :\Sigma_{P_\varepsilon}\,dx.
 \end{aligned}
 }
+\]
+
+Here
+
+\[
+\mathfrak F_{B,\varepsilon}
+:=-\left.\frac d{d\sigma}\right|_{0+}
+D_B^2(e^{\sigma\Delta}Q,e^{\sigma\Delta}P_\varepsilon)\ge0.
 \]
 
 Its normalization block is exactly
