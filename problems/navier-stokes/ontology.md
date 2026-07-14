@@ -16566,6 +16566,264 @@ remaining Gold-scale rebuilding is a center- and radius-dependent
 signed-fiber motion inside those marginals, not an unpaid component of
 pressure, viscosity, or either canonical current trace.
 
+### F7.64 The recombined Gold fiber exposes an all-intermediate-point current square and one exact localization commutator
+
+Define the absolute log-radius tensor fiber
+
+\[
+\mathsf K(z,s)
+=\rho\int n\otimes n\,m\,d\sigma d\theta,
+\qquad
+d=\operatorname{tr}\mathsf K,
+\qquad
+q=-S:\mathsf K.
+\]
+
+Then
+
+\[
+\tau=\int d\,ds,
+\qquad
+\mathsf P=\frac{\mathsf K}{\tau},
+\qquad
+\eta=\frac q\tau=-S:\mathsf P,
+\]
+
+\[
+\int\mathsf P\,ds=\Pi,
+\qquad
+\int\eta\,ds=r.
+\]
+
+With the center, radial, turning, and chord-heat tensor fluxes
+\(\mathsf J,\mathsf F,\mathsf A,\mathsf G\), the complete scale-resolved
+law is
+
+\[
+\boxed{
+\mathcal L\mathsf K
+=
+-\nabla_z\cdot\mathsf J
+-\partial_s\mathsf F
++\mathsf A
+-4\mathsf F
+-2\nu\mathsf G
+=:\mathsf U.
+}
+\]
+
+If
+
+\[
+F_\tau
+=\operatorname{tr}\int\mathsf U\,ds,
+\qquad
+\mathscr K
+=\frac{\mathsf U-\mathsf P F_\tau}{\tau},
+\]
+
+then
+
+\[
+\boxed{
+\left(
+\mathcal L
+-2\nu\nabla\log\tau\cdot\nabla
+\right)\mathsf P
+=\mathscr K,
+\qquad
+\int\operatorname{tr}\mathscr K\,ds=0.
+}
+\]
+
+Every center-position, radial-position, angular-shape, and heat-shape row of
+\(\mathscr K\) has zero completed trace.  With
+
+\[
+\mathbf B=S^2+W^2+\nabla^2p,
+\]
+
+the normalized signed fiber obeys
+
+\[
+\mathcal L\eta
+=
+\mathbf B:\mathsf P^\circ
+-S:\mathscr K^\circ
+-2\nu S:
+\left(\nabla\log\tau\cdot\nabla\mathsf P\right)
++2\nu\nabla S::\nabla\mathsf P.
+\]
+
+In the Gold quadratic law, the derivative of the normalized fiber cancels
+exactly.  The fully recombined source is
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal S_{2,\omega}
+={}&
+\iint\frac{\eta}{\omega}
+\left[
+\mathbf B:\mathsf P^\circ
+-S:\mathscr K^\circ
++\frac{2\nu}{\tau}\nabla S::\nabla\mathsf K
+\right]ds\,dz\\
+&+\nu\iint
+\frac{\eta^2|\nabla\log\tau|^2}{\omega}
+\,ds\,dz.
+\end{aligned}
+}
+\]
+
+Thus scalar-density drift is not an independent cause.  A positive
+participation-gradient curvature genuinely survives with the simultaneous
+trace-free shape source.  The Fisher inequality
+
+\[
+|\nabla\log\tau|^2
+\le\frac{4}{\tau}
+\operatorname{tr}\int\mathsf G\,ds
+\]
+
+shows that the scalar heat-normalization rows reinforce this curvature; the
+pressure, strain, center, radial, turning, and unnormalized heat-shape
+contractions remain signed.
+
+The radial row has a stronger global continuation law.  For endpoints
+
+\[
+x=y+\rho n
+\]
+
+and
+
+\[
+\gamma(\theta)=n\cdot u(y+\theta\rho n),
+\qquad
+v_\rho=\gamma(1)-\gamma(0),
+\]
+
+\[
+\boxed{
+\int_0^1h(y+\theta\rho n,n)d\theta
+=-\frac{v_\rho}{\rho}.
+}
+\]
+
+Radial pair contraction is therefore the marginal of strain through every
+intermediate point on the same chord.
+
+Define the center-integrated log-scale density, current, and positive second
+current moment
+
+\[
+\overline d(s)=\rho M(\rho),
+\qquad
+Q(s)=-F(\rho),
+\]
+
+\[
+\boxed{
+A(s)
+:=-\int f_c(z,\rho)dz
+=\frac1\rho\int v_\rho^2m\,dy\,d\sigma(n)
+\ge0.
+}
+\]
+
+They obey
+
+\[
+\boxed{
+\overline d_t-\partial_sQ
+=4Q-2\nu\overline g,
+\qquad
+Q_t-\partial_sA=S_Q.
+}
+\]
+
+Thus \((\overline d,Q,A)\) are the zeroth, first, and second radial-current
+moments of one complete all-chord field.  Cauchy--Schwarz gives
+
+\[
+\boxed{
+Q(s,t)^2\le\overline d(s,t)A(s,t),
+\qquad
+P_H(t)^2
+\le4H(t)\int_{\mathbb R}A(s,t)ds.
+}
+\]
+
+For a fixed log reference, the signed current barycenter has the exact
+entropy-production law
+
+\[
+\boxed{
+\left(\int sQ\,ds\right)'
++\int A\,ds
+=\int sS_Q\,ds.
+}
+\]
+
+The transfer of this square to local Gold work is determined exactly.  Put
+
+\[
+\widetilde\gamma(\theta)
+=\gamma(\theta)-\gamma(0)-\theta v_\rho.
+\]
+
+For every smooth center multiplier \(\psi\),
+
+\[
+\boxed{
+\begin{aligned}
+\int f_c(z,\rho)\psi(z)dz
+={}&
+-\int\frac{v_\rho^2m}{\rho}
+\left(\int_0^1\psi(y+\theta\rho n)d\theta\right)
+dy\,d\sigma\\
+&+
+\int v_\rho m
+\int_0^1\widetilde\gamma(\theta)
+n\cdot\nabla\psi(y+\theta\rho n)d\theta
+\,dy\,d\sigma.
+\end{aligned}
+}
+\]
+
+The first term is the continued negative square.  The second is the exact
+center-position commutator.  It vanishes for a center-constant multiplier.
+For the Gold fiber,
+
+\[
+\psi
+=
+\partial_s\left(\frac{\eta}{\tau\omega}\right)
+-4\frac{\eta}{\tau\omega},
+\]
+
+so the multiplier is signed and center dependent.  The commutator is
+therefore the exact price of localizing the complete current square to the
+point-field Gold relation.
+
+Finally,
+
+\[
+\boxed{
+\int_{t_0}^{t_1}
+a[\mathcal S_{2,\omega}]_+dt
+\ge
+\nu\int_{t_0}^{t_1}I^2dt
+-a(t_0)\mathcal H_{2,\omega}(t_0).
+}
+\]
+
+The positive Gold-fiber source already carries the Gold action.  The new
+coercive resource is the all-intermediate continuation moment \(A\); the
+remaining mathematical object is its explicitly displayed localization
+commutator, with no component of the same fluid omitted.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -16583,6 +16841,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-097-recombined-gold-fiber-continuation-moment-commutator-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-096-canonical-joined-source-remaining-positive-variation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-095-critical-envelope-complete-current-remaining-weight-absorption-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-094-log-fiber-gold-entropy-heat-convexity-classification-20260714.md`
