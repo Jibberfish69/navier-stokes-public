@@ -20970,6 +20970,168 @@ The signed scale telescope must remain intact until this phase is contracted
 with the complete Gold record; phase-even scalar entropies cannot pay its
 positive angular occupation.
 
+### F7.81 The monotone all-field record removes pulse traffic and leaves one critical scale--time covariance
+
+Let
+
+\[
+I=\int r_+^2dx,
+\qquad
+\frac12I'+\nu X=N,
+\qquad
+\overline I(t)=\sup_{q\le t}I(q).
+\]
+
+The running maximum has the exact Stieltjes law
+
+\[
+\boxed{
+d\overline I
+=2\mathbf1_{\{I=\overline I\}}[N-\nu X]_+dt.
+}
+\]
+
+Thus every positive episode below an old maximum disappears.  At positive
+records,
+
+\[
+\boxed{
+\frac12\log\frac{\overline I(t_1)}{\overline I(t_0)}
+=\int_{\{I=\overline I\}\cap[t_0,t_1]}
+\frac{[N-\nu X]_+}{I}dt.
+}
+\]
+
+With
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+\mathcal C_I=\int a\,d\overline I,
+\]
+
+Stieltjes integration gives
+
+\[
+\boxed{
+\mathcal C_I[t_0,t_1]
+=[a\overline I]_{t_0}^{t_1}
++2\nu\int_{t_0}^{t_1}I\overline I\,dt.
+}
+\]
+
+In particular, at \(a(T)=0\),
+
+\[
+\boxed{
+2\nu\int_{t_0}^TI^2dt
+\le a(t_0)\overline I(t_0)+\mathcal C_I[t_0,T].
+}
+\]
+
+The record charge is exactly strong enough to contain Gold action.  In the
+intrinsic variables
+
+\[
+\ell=\nu^2/I,
+\qquad
+ds/dt=I^2/\nu^3,
+\qquad
+\beta=\partial_s\log\ell,
+\qquad
+b=aI/\nu^4,
+\]
+
+it is
+
+\[
+\boxed{
+\frac{\mathcal C_I}{\nu^4}
+=\int b\,d\log\overline I
+=\int_{\{I=\overline I\}}b[-\beta]_+ds
+=2\int_{\{I=\overline I\}}b[n_U-x_U]_+ds.
+}
+\]
+
+For successive first-record doublings
+\(I(t_n)=M_n\), \(I(t_{n+1})=2M_n\),
+
+\[
+\boxed{
+a(t_{n+1})M_n
+\le\int_{(t_n,t_{n+1}]}a\,d\overline I
+\le a(t_n)M_n.
+}
+\]
+
+Hence the surviving history coordinate is equivalently
+
+\[
+a\,d\overline I
+\quad\longleftrightarrow\quad
+b\,d\log\overline I
+\quad\longleftrightarrow\quad
+\{a(t_n)M_n\}.
+\]
+
+The drain law \(b_s+\beta b=-2\) does not sum this covariance by itself:
+contraction can keep \(b_n\) order one while physical time shrinks.  A smooth
+scalar bump train with heights \(2^n\) and widths \(4^{-n}\) realizes this
+arithmetic with finite \(\int I\) and infinite \(\int I^2\).  It is not a
+Navier--Stokes realization; it falsifies only the scalar inference from
+\(a'=-2\nu I\).
+
+The adaptive all-field stocks of F7.71 satisfy
+
+\[
+\mathcal H'+\nu D_H=\mathcal R_H,
+\qquad
+\mathcal H_0'+\nu D_0=\mathcal R_0,
+\qquad
+\frac I2\le\mathcal H_0\le\mathcal H.
+\]
+
+Their running records obey the same law, and for
+\(f=\mathcal H,\mathcal H_0\),
+
+\[
+\boxed{
+\int a\,d\overline f
+=[a\overline f]+2\nu\int I\overline f\,dt,
+\qquad
+\nu\int I^2dt
+\le a(t_0)\overline f(t_0)+\int a\,d\overline f.
+}
+\]
+
+For \(I\) and \(\mathcal H_0\), the Gold cotangent is common to every dyadic
+scale, so the signed interior telescope collapses exactly to its ultraviolet
+and infrared boundaries.  For the adaptive stock \(\mathcal H\), discrete
+integration by parts leaves
+
+\[
+\boxed{
+\Omega_{\rm rec}
+=\int a\,\mathbf1_{\{\mathcal H=\overline{\mathcal H}\}}
+\sum_j\langle\Psi_j-\Psi_{j-1},V_j\rangle dt.
+}
+\]
+
+Its leading tensor is the mixed Hessian
+\(D^2F_S[\Delta\mathsf K,L\Delta\mathsf K]\), the signed canonical-angle
+current.  Convexity pays only the diagonal; completing the square imports the
+source-innovation diagonal.  The record operation therefore removes
+observational restart/shutdown traffic while preserving the actual phase
+between slope and the complete pressure-retaining source.
+
+Affine incidence, Taylor--Green small chords, and Navier--Stokes scaling give
+the sharp boundaries.  Affine compression can be interior-covariance-null;
+small-chord active compression can precede radial heat delivery; and
+\(\int a\,d\overline I\) is scale invariant.  The lawful record state must
+therefore retain the common-cotangent boundary, the adaptive canonical angle,
+the source-innovation Schur complement, and the all-field deformation/heat
+Gramian as inseparable coordinates of one VPI tangent.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -20987,6 +21149,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-114-monotone-gold-record-scale-time-covariance-20260714.md
 - `theorem-construction/codex-goal-ontology-cycle-113-slope-source-block-bregman-mixed-hessian-canonical-angle-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-112-covariant-renewal-edge-current-phase-gram-entropy-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-111-quartic-jordan-pullback-pair-gramian-dynamic-center-phase-20260714.md`
