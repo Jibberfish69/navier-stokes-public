@@ -15086,6 +15086,7 @@ then its mixed-stock records obey
 \boxed{
 \int[G_\lambda]_+dt\le\frac{2\mathcal E_0}{\lambda}.
 }
+\]
 
 But
 
