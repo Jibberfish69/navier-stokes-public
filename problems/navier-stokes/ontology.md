@@ -18537,7 +18537,7 @@ d\sigma
 dz\,d\rho\,d\sigma(n)\,d\theta
 \]
 
-be the centered active incidence of F7.69.  On (m>0), write
+be the centered active incidence of F7.69.  On \(m>0\), write
 
 \[
 b_z=u+\frac{\Gamma}{m},
@@ -18555,7 +18555,7 @@ and
 +\nu\Delta_z.
 \]
 
-The quotient in (b_z) only abbreviates the completed flux
+The quotient in \(b_z\) only abbreviates the completed flux
 (w(h-r)\Gamma); no value outside the incidence support is required.  The
 complete conservative tangent is
 
@@ -18571,7 +18571,7 @@ complete conservative tangent is
 }
 \]
 
-For (H_\phi=\langle\phi,\sigma\rangle), integration by parts gives
+For \(H_\phi=\langle\phi,\sigma\rangle\), integration by parts gives
 
 \[
 \boxed{
@@ -18584,7 +18584,7 @@ H_\phi'
 }
 \]
 
-where (N_{\rm rad}=-4\langle\alpha,\sigma\rangle).  Hence the unique
+where \(N_{\rm rad}=-4\langle\alpha,\sigma\rangle\).  Hence the unique
 scalar dynamic adjoint which removes the critical radial commutator is
 
 \[
@@ -18653,7 +18653,7 @@ does remove the potential:
 \boxed{\mathscr Dq=0.}
 \]
 
-But because (\langle1,\sigma\rangle=0), its dual stock is
+But because \(\langle1,\sigma\rangle=0\), its dual stock is
 
 \[
 H_\phi=\langle\rho^4q,\sigma\rangle,
@@ -18706,11 +18706,11 @@ while
 
 Pressure-Hessian forcing, angular turning, center flux, and the heat slots
 can therefore create centered residual at a zero of the present residual.
-No regular scalar potential (V) can satisfy (Q_\sigma=V\sigma) for the
+No regular scalar potential \(V\) can satisfy \(Q_\sigma=V\sigma\) for the
 complete VPI tangent.  Indeed, identical scalar residual state
-(\sigma=0), including every moment of that state, can have different
+\(\sigma=0\), including every moment of that state, can have different
 instantaneous source.  Closing the source requires the upstream joined
-variables, not more moments of (\sigma) alone.
+variables, not more moments of \(\sigma\) alone.
 
 Finally, the adjoint does not preserve a bounded log-radius slope.  Exact
 differentiation gives
@@ -18733,7 +18733,7 @@ residual transverse to the old scalar measure.
 
 ### F7.73 Dyadic continuation produces datum-finite operator information, but physical-center conditioning restores an unsummable first-order phase commutator
 
-For a parent chord (C=(y,\rho,n)), let
+For a parent chord \(C=(y,\rho,n)\), let
 
 \[
 g(\theta)=\nabla u(y+\theta\rho n)n,
@@ -18743,7 +18743,7 @@ g_j=\mathbb E(g\mid\mathcal D_j),
 \Delta_j=g_{j+1}-g_j,
 \]
 
-where (\mathcal D_j) is the dyadic filtration of all intermediate points.
+where \(\mathcal D_j\) is the dyadic filtration of all intermediate points.
 The full directional refinement variance is
 
 \[
@@ -18804,10 +18804,10 @@ put
 =\mathcal B(X_j)+\mathcal B(D_j)-\mathcal B(X_{j+1}).
 \]
 
-Writing (\kappa_j=\operatorname{tr}X_j),
-(\delta_j=\operatorname{tr}D_j),
-(\mathsf R_j=X_j/\kappa_j), and
-(\widehat{\mathsf R}_j=D_j/\delta_j), one obtains
+Writing \(\kappa_j=\operatorname{tr}X_j\),
+\(\delta_j=\operatorname{tr}D_j\),
+\(\mathsf R_j=X_j/\kappa_j\), and
+\(\widehat{\mathsf R}_j=D_j/\delta_j\), one obtains
 
 \[
 \boxed{
@@ -18885,8 +18885,8 @@ where
 \mathbb E(\zeta_j\mid\mathcal D_j)=0.
 \]
 
-Let (\mathcal T_Z) retain the common physical field point
-(Z=y+\theta\rho n).  At child radius (\rho_j),
+Let \(\mathcal T_Z\) retain the common physical field point
+\(Z=y+\theta\rho n\).  At child radius \(\rho_j\),
 
 \[
 X_j^Z
@@ -18971,10 +18971,10 @@ at a shear trough the center-conditioned incidence satisfies
 \]
 
 Its half-scale value is one quarter of its parent value and its local
-(\mathsf K) value is one eighth, although global position integration
-restores (D_j\succeq0).  A compactly supported divergence-free extension
+\(\mathsf K\) value is one eighth, although global position integration
+restores \(D_j\succeq0\).  A compactly supported divergence-free extension
 which agrees with the shear on a ball supplies the same instantaneous local
-failure inside a finite-energy (\mathbb R^3) Navier--Stokes history.
+failure inside a finite-energy \(\mathbb R^3\) Navier--Stokes history.
 
 Finally, exact heat-shear scaling separates the two tiers.  At fixed
 kinetic energy, the remaining-weighted dyadic information is
