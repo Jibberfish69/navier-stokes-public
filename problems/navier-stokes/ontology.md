@@ -21258,6 +21258,34 @@ Both source readings retain the Leray-projected nonlinearity and its slaved
 pressure.  No selected point, pair, shell, packet, or separately acting
 viscosity enters the bridge.
 
+The remaining-expenditure and product-record laws are
+
+\[
+\boxed{
+(aH\mathscr M)'
++\nu a(\mathscr M D+2HQ_*)
++2\nu IH\mathscr M
+=a(\mathscr M P_H+H\widehat{\mathcal J}_*),
+}
+\]
+
+\[
+\boxed{
+\int_{\{H\mathscr M=\overline{H\mathscr M}\}}
+(\mathscr M P_H+H\widehat{\mathcal J}_*)dt
+=\Delta\overline{H\mathscr M}
++\nu\int_{\{H\mathscr M=\overline{H\mathscr M}\}}
+(\mathscr M D+2HQ_*)dt.
+}
+\]
+
+The first controls only the \(a\)-weighted Gold square; the second is a lower
+service identity whose heat already contains that square.  Neither can be
+renamed as an unweighted datum reserve.  What has been proved is sharper
+physically: any unbounded Gold history must supply infinite positive source
+action into this exact same-fluid product, even if the source merely maintains
+the product against heat rather than making its record rise.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
