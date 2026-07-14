@@ -15136,8 +15136,8 @@ The following are not hard facts and carry no premise weight here:
 - `theorem-construction/codex-goal-ontology-cycle-088-all-chord-mellin-boundary-joined-source-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-087-active-center-chord-entropy-fiber-collapse-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-086-critical-mean-triad-transfer-moving-stock-trichotomy-20260714.md`
-- `theorem-construction/codex-goal-ontology-cycle-084-centered-eigenshell-source-renewal-defect-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-085-complete-material-matrix-entropy-rank-stratification-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-084-centered-eigenshell-source-renewal-defect-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-083-monotone-moving-chord-record-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-082-critical-mean-joined-entropy-gold-mass-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-081-remaining-radius-energy-span-reciprocal-renewal-density-20260714.md`
