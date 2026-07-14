@@ -13965,6 +13965,17 @@ At the first passage to \(M(L)\), the joined entropy law yields
 }
 \]
 
+Equivalently,
+
+\[
+G(L)\le
+\frac{2\mathcal E_0R_{a0}\rho_H(0)^2}{3\nu^2}
+\exp\left(
+2\int_0^L\frac{2b}{k}
+[\mathcal B_{\omega,\tau}]_+d\vartheta
+\right).
+\]
+
 Thus divergent Gold mass forces unbounded physical mean frequency and
 infinitely many record doublings, each carrying at least \(\log2\) of positive
 joined action in Gold measure.
