@@ -11903,6 +11903,282 @@ two-time fate of the same signed cocycle incidence: present contraction paired
 with its later all-field transport, pressure redistribution, and Fisher loss,
 not another cutoff, independent pulse count, or viscosity-only ledger.
 
+### F7.40 Log-radius severity exposes the fast-contraction moment, while every lawful generic two-time entropy is dilation-blind, nonpositive, or singular
+
+Let
+
+\[
+q=[-\beta]_+,
+\qquad
+\tau=-\log\frac{R_a}{R_a(s_0)},
+\qquad
+\chi=qb^2.
+\]
+
+Since \((R_a)_s/R_a=-2/b\), the exact log-radius laws are
+
+\[
+\boxed{
+\tau_s=\frac2b,
+\qquad
+b_\tau=\frac\chi2-b,
+\qquad
+\beta=-\frac\chi{b^2},
+\qquad
+bq\,ds=\frac\chi2d\tau.
+}
+\]
+
+Thus the remaining-expenditure-weighted positive curvature is the first
+\(\tau\)-moment of the dimensionless contraction severity:
+
+\[
+\boxed{
+\int b[-\beta]_+ds
+=\frac12\int_{\{\beta<0\}}\chi\,d\tau.
+}
+\]
+
+For the triangular intrinsic chord observable from F7.39, a fixed radius
+\(R\) obeys
+
+\[
+\partial_s\mathcal A_R-\beta\mathcal J_R+2\mathcal V_R
+=\mathcal S_R.
+\]
+
+Along a moving radius,
+
+\[
+\boxed{
+\frac d{ds}\mathcal A_R
+-\left(\beta+\frac{R_s}{R}\right)\mathcal J_R
++2\mathcal V_R=\mathcal S_R.
+}
+\]
+
+At \(R=b\), the physical remaining-radius selector gives
+
+\[
+\boxed{
+\mathcal A_{b,\tau}+\mathcal J_b+b\mathcal V_b
+=\frac b2\mathcal S_b.
+}
+\]
+
+If \(\mathcal P_b=q\mathcal J_b+2\mathcal V_b\) is the fixed-cutoff
+contraction payment, then
+
+\[
+\boxed{
+\frac b2\mathcal P_b
+=\frac b2\mathcal S_b-\mathcal A_{b,\tau}
++\frac{b_\tau}{b}\mathcal J_b
+\ge\frac6{7\pi}\min\{\chi,\chi^{1/3}\}.
+}
+\]
+
+The threshold \(\chi=1\) separates the linearly paid and cube-root-paid
+contraction regimes. The threshold \(\chi=2b\) is where \(b_\tau\) changes
+sign, separating drain from positive relative-radius record growth. All four
+regions follow from the complete moving-selector identity; none is an
+independently counted pulse class.
+
+The distinction between the first and cube-root moments is exact. Choose
+\(\phi\in C_c^\infty(0,1)\), \(\phi\ge0\), \(\int\phi=1\), and
+\(\varepsilon_n=2^{-3n}\). Starting each pulse with \(b=1/2\), take
+
+\[
+\chi(\tau)=\frac{c_n}{\varepsilon_n}
+\phi\left(\frac{\tau-T_n}{\varepsilon_n}\right)
+\]
+
+with \(c_n\to1\) chosen so that \(b_\tau+b=\chi/2\) ends the pulse at
+\(b=1\). Set \(\chi=0\) for the following \(\log2\) units of \(\tau\),
+returning \(b\) to \(1/2\), and repeat. The resulting positive \(b\) and
+\(\chi\) are smooth and satisfy
+
+\[
+\boxed{
+\int_0^\infty\chi\,d\tau=\infty,
+\qquad
+\int_0^\infty\min\{\chi,\chi^{1/3}\}\,d\tau<\infty.
+}
+\]
+
+With
+
+\[
+R_a=R_0e^{-\tau},
+\qquad
+\ell=R_a/b,
+\qquad
+ds/d\tau=b/2,
+\]
+
+this scalar history satisfies exactly
+
+\[
+\beta=(\log\ell)_s=-\chi/b^2,
+\quad
+b_s+\beta b=-2,
+\quad
+(R_a)_s=-2\ell,
+\quad
+b=\frac2\ell\int_s^\infty\ell(q)dq.
+\]
+
+Returning to physical time gives finite \(\int I\,dt\) but infinite
+\(\int I^2dt\). This is not asserted to be a Navier--Stokes or realizable
+chord history. It proves exactly that the tail/clock identities plus the
+instantaneous incidence--Fisher floor do not themselves impose temporal
+anti-concentration on severe episodes.
+
+The fixed physical record laws do not add that constraint. For
+
+\[
+C_r=\int_0^r\rho^4M\,d\rho,
+\quad
+G_r=\int_0^r\rho^4G_\Delta\,d\rho,
+\quad
+J_r=-r^4F(r),
+\]
+
+and
+
+\[
+K_L(r)=4r^{-5}-3L^{-1}r^{-4}>0,
+\]
+
+the triangular critical rows are the exact positive superpositions
+
+\[
+\boxed{
+A_L=\int_0^LK_L(r)C_rdr,
+\quad
+V_L=\int_0^LK_L(r)G_rdr,
+\quad
+S_L=\int_0^LK_L(r)J_rdr.
+}
+\]
+
+Cycle 071 gives only
+
+\[
+\mu_r:=\int_{\mathcal R_r}[J_r]_+dt
+\le C\mathcal E_0r^3.
+\]
+
+The critical superposition would require
+
+\[
+C\mathcal E_0L\int_0^LK_L(r)r^3dr,
+\]
+
+which diverges at zero. The per-scale capacities can form a finite geometric
+sum while their scale-normalized charges remain order one at infinitely many
+radii.
+
+There is also an exact two-time entropy classification. In intrinsic
+variables, the complete signed chord equation is
+
+\[
+\boxed{
+[\partial_s+(W-\beta z)\cdot\nabla_z
++(V-\beta R)\cdot\nabla_R]V+\nabla_z\delta P
+=\Delta_zV+\beta V.
+}
+\]
+
+For \(m=|V|^2/(\pi^2\rho^2)\), it has the positive conditional form
+
+\[
+\boxed{
+\begin{aligned}
+m_s
+&+\nabla_z\cdot[(W-\beta z+c_p)m]
++\partial_\rho[(v_\rho-\beta\rho)m]
++\operatorname{div}_{S^2}(\dot n\,m)\\
+&=\Delta_zm-\Gamma m,
+\end{aligned}
+}
+\]
+
+where
+
+\[
+c_p=2\delta P\,V/|V|^2,
+\qquad
+\Gamma=2|\nabla_zV|^2/|V|^2+4\alpha,
+\]
+
+with the products extended across \(V=0\). The coefficients retain the
+signed cocycle and slaved pressure and are not autonomous functions of
+\(m\).
+
+If two colored incidences \(f,g\) evolve by this same operator and \(h\ge0\)
+solves its backward adjoint, their weighted Jensen--Shannon entropy satisfies
+
+\[
+\boxed{
+\frac d{ds}\mathscr J_h
+=-\int h\frac{fg}{f+g}
+\left|\nabla_z\log\frac fg\right|^2dX.
+}
+\]
+
+All common center flux, radial transport, direction turning, pressure drift,
+killing, and dilation cancel. A constant color split
+\(f=\lambda m\), \(g=(1-\lambda)m\) has zero production for every
+\(\beta\). Likewise, the lawful self-image satisfies
+
+\[
+\mathsf P_{s,t}m(s)=m(t),
+\qquad
+D(m(t)\|\mathsf P_{s,t}m(s))=0.
+\]
+
+Thus a positive co-moving self-history entropy is exactly dilation-blind.
+Removing the backward adjoint returns the signed radial VPI action itself.
+
+For the signed cocycle, a critical cross-energy pairing retains the pressure
+term
+
+\[
+\int\frac{\delta P\,\operatorname{div}_zY}{\pi^2|R|^4}.
+\]
+
+The positive passive propagator does not preserve
+\(\operatorname{div}_zY=0\), because coefficient gradients regenerate it.
+Leray projection cancels pressure but is nonlocal and not positivity
+preserving. Signed pressure cancellation and a positive entropy propagator
+therefore cannot be imposed simultaneously.
+
+Finally, intrinsic viscosity corresponds to synchronous endpoint diffusion:
+the center coordinate has quadratic variation while radial and angular chord
+motion do not. Literal forward and time-reversed path laws are mutually
+singular whenever \(V-\beta R\) or \(\dot n\) is nonzero, so their relative
+entropy is \(+\infty\). Reversing those deterministic kinematics as part of
+the protocol makes their contribution zero. A finite radial reversal cost
+arises only after the arbitrary off-cocycle extension
+
+\[
+D_c=\Delta_x+\Delta_y+2c\nabla_x\cdot\nabla_y
+=\frac{1+c}{2}\Delta_C+2(1-c)\Delta_R.
+\]
+
+Although every \(D_c\) agrees on a lawful increment, its separate Fisher
+sink depends on \(c\). The manufactured radial entropy diverges as
+\(c\uparrow1\), and its dilation moment requires
+\(\int\rho^2M(\rho)d\rho=\infty\) for every nonzero decaying field.
+
+The physical conclusion is exact. The dangerous event is concentration of
+\(\chi\) per logarithmic descent of the one-way radius. Instantaneous VPI
+coercivity, fixed-radius records, co-moving positive entropies, signed passive
+pairings, and path reversal each expose a true row but none can be substituted
+for the pressure-completed temporal geometry connecting severe contractions
+across shrinking radii in the one signed cocycle.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -11920,6 +12196,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-073-log-radius-severity-two-time-entropy-trilemma-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-072-remaining-radius-homogeneity-contraction-fisher-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-071-intrinsic-gold-clock-complete-chord-record-law-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-070-critical-mean-frequency-participation-recombination-20260713.md`
