@@ -19584,6 +19584,307 @@ lifting does not erase the critical character, but it does isolate its
 entire history into one scalar path free energy and one \(Z\)-weighted
 immigration response.
 
+### F7.76 The positive rebuilding selector is an unlimited-exercise Doob--Jordan occupation, and every renewed episode is exact temporal restart work
+
+For predictable \(0\le\eta\le1\),
+
+\[
+\int a[N_{\rm rad}]_+dt
+=\sup_\eta\int a\eta N_{\rm rad}dt,
+\qquad
+N_{\rm rad}=-4\langle\alpha,\sigma\rangle.
+\]
+
+Define the forced complete critical adjoint
+
+\[
+G_\eta(t)
+=\int_t^T
+U_{t,s}(4a(s)\eta(s)\alpha(s))ds.
+\]
+
+Then
+
+\[
+(\mathscr D-4\alpha)G_\eta=-4a\eta\alpha,
+\qquad
+G_\eta(T)=0,
+\]
+
+and exact source duality gives
+
+\[
+\boxed{
+\int_{t_0}^Ta\eta N_{\rm rad}dt
+=-\langle G_\eta(t_0),\sigma_{t_0}\rangle
+-\int_{t_0}^T
+\langle G_\eta,Q_\sigma\rangle dt.
+}
+\]
+
+All pressure, transport, turning, participation, and heat births remain in
+\(Q_\sigma\).  With the algebraic decomposition
+
+\[
+N=N_\perp+N_{\rm rad},
+\]
+
+the full positive source action is
+
+\[
+\boxed{
+\begin{aligned}
+\int a[N]_+dt
+=\sup_\eta\biggl[
+&\int a\eta N_\perp dt
+-\langle G_\eta(t_0),\sigma_{t_0}\rangle\\
+&-\int\langle G_\eta,Q_\sigma\rangle dt
+\biggr].
+\end{aligned}
+}
+\]
+
+No row is separately signed or estimated.
+
+The Doob factorization gives
+
+\[
+G_\eta(t)
+=4\int_t^Ta(s)\eta(s)
+Z_{t,s}P^Z_{t,s}\alpha(s)ds
+=-\int_t^Ta(s)\eta(s)d_sZ_{t,s}.
+\]
+
+The remaining expenditure has hazard
+
+\[
+\kappa(t)=\frac{2\nu I(t)}{a(t)},
+\]
+
+and exact survival law
+
+\[
+S_t(s)=\frac{a(s)}{a(t)}
+=\exp\!\left(-\int_t^s\kappa(q)dq\right).
+\]
+
+For a bounded-variation selector,
+
+\[
+\boxed{
+\begin{aligned}
+\frac{G_\eta(t)}{a(t)}
+={}&\eta(t)
+-\int_t^T\kappa(s)S_t(s)Z_{t,s}\eta(s)ds\\
+&+\int_{(t,T]}S_t(s)Z_{t,s}d\eta(s).
+\end{aligned}
+}
+\]
+
+Define the signed expenditure-horizon measure
+
+\[
+\boxed{
+d\vartheta_t^\eta(s)
+=S_t(s)
+\left[\kappa(s)\eta(s)ds-d\eta(s)\right].
+}
+\]
+
+It satisfies
+
+\[
+\vartheta_t^\eta((t,T])=\eta(t),
+\qquad
+\frac{G_\eta(t)}{a(t)}
+=\eta(t)-\int Z_{t,s}d\vartheta_t^\eta(s).
+\]
+
+If \(\eta\) is nonincreasing, then
+
+\[
+d\vartheta_t^\eta\ge0,
+\]
+
+so ordinary one-stop probability entropy applies.  Every restart
+\(0\to1\) at \(s\) contributes the negative atom
+
+\[
+\boxed{
+-\frac{a(s)}{a(t)}\delta_s.
+}
+\]
+
+For a binary selector,
+
+\[
+\boxed{
+\|\vartheta_t^\eta\|_{\rm TV}
+=\eta(t)
++2\sum_{\text{restarts }s}\frac{a(s)}{a(t)}.
+}
+\]
+
+Thus the exact selector \(1_{\{N>0\}}\) is an unlimited multiple-exercise
+control.  Infinite renewed positive episodes are precisely infinite
+remaining-weighted Jordan variation of this signed horizon measure.
+
+For \(\eta\equiv1\),
+
+\[
+\pi_t(ds)
+=\kappa(s)S_t(s)ds
+=\frac{2\nu I(s)}{a(t)}ds
+\]
+
+is a probability measure.  Define
+
+\[
+\mathcal Z_a(t,\Omega)
+=\int_t^TZ_{t,s}(\Omega)\pi_t(ds).
+\]
+
+Then
+
+\[
+\boxed{
+G_1(t)=a(t)[1-\mathcal Z_a(t)].
+}
+\]
+
+The joint expenditure-time/path tilt is
+
+\[
+d\Pi_t^a
+=\frac{K_{t,s}}{\mathcal Z_a(t)}
+\pi_t(ds)P_{t,s}(d\Omega_s)
+=\frac{Z_{t,s}}{\mathcal Z_a(t)}
+\pi_t(ds)P^Z_{t,s}(d\Omega_s).
+\]
+
+Its entropy decomposes as
+
+\[
+\boxed{
+\begin{aligned}
+\operatorname{Ent}(\Pi_t^a\mid\pi_tP)
+={}&
+\operatorname{Ent}(\widehat\pi_t\mid\pi_t)\\
+&+\int\widehat\pi_t(ds)\,
+\nu\mathbb E^Z
+\int_t^s|\nabla_z\ell_{q,s}|^2dq.
+\end{aligned}
+}
+\]
+
+and
+
+\[
+\boxed{
+\log\mathcal Z_a
+=-4\mathbb E_{\Pi_t^a}\int_t^S\alpha(q)dq
+-\operatorname{Ent}(\Pi_t^a\mid\pi_tP).
+}
+\]
+
+This entropy taxes selection of atypical center paths and expenditure
+horizons.  It does not tax compression coherent across the baseline paths.
+The affine test of F7.74 has
+
+\[
+Z_{t,s}
+=\left(\frac{c-t}{c-s}\right)^4,
+\qquad
+\nabla_z\ell=0,
+\qquad
+P^Z=P,
+\]
+
+so quartic amplification can coexist with zero path-relative entropy.
+
+Centering also gives only a compatibility identity.  Since
+
+\[
+\langle1,\sigma\rangle=0,
+\qquad
+\langle1,Q_\sigma\rangle=-N_{\rm rad},
+\]
+
+writing \(G_\eta=a\eta+\widetilde G_\eta\) makes the constant vanish against
+\(\sigma\) and reappear against \(Q_\sigma\) as the whole action itself:
+
+\[
+\langle\widetilde G_\eta(t_0),\sigma_{t_0}\rangle
++\int\langle\widetilde G_\eta,Q_\sigma\rangle dt=0.
+\]
+
+The scalar Gold balance exposes the same restart coordinate directly:
+
+\[
+\boxed{
+\begin{aligned}
+\int_{t_0}^Ta\eta Ndt
+={}&\nu\int_{t_0}^T\eta I^2dt
++\nu\int_{t_0}^Ta\eta Xdt\\
+&-\frac12a(t_0)\eta(t_0)I(t_0)
+-\frac12\int_{(t_0,T]}aI\,d\eta.
+\end{aligned}
+}
+\]
+
+The Stieltjes term is exact temporal restart work.  Assuming bounded
+selector variation assumes the finite-renewal conclusion.
+
+Finally, under Navier--Stokes scaling,
+
+\[
+I_\lambda=\lambda I,
+\qquad
+N_\lambda=\lambda^3N,
+\qquad
+a_\lambda=\lambda^{-1}a,
+\]
+
+so
+
+\[
+\boxed{
+\int a_\lambda[N_\lambda]_+dt
+=\int a[N]_+dt.
+}
+\]
+
+The action is critical, whereas
+
+\[
+\int a_\lambda\mathcal V_{w,\lambda}dt
+=\lambda^{-2}\int a\mathcal V_wdt.
+\]
+
+The complete surviving state is therefore the signed Doob--Jordan
+immigration occupation
+
+\[
+\boxed{
+d\Theta_t^\eta(s,d\Omega_s)
+=Z_{t,s}P^Z_{t,s}(d\Omega_s)
+d\vartheta_t^\eta(s)
+}
+\]
+
+together with the initial/source birth measure
+
+\[
+d\mathfrak B_b
+=\delta_{t_0}(db)d\sigma_{t_0}
++db\,dQ_\sigma(b).
+\]
+
+It retains birth time, expenditure horizon, every complete incidence path,
+quartic amplitude, normalized shape, all source immigration, and every
+temporal restart.  Removing any coordinate reproduces one of the exact
+cancellations above.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
