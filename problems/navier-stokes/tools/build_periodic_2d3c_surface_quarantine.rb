@@ -80,6 +80,13 @@ CATEGORY_PATTERNS = {
   ]
 }.freeze
 
+ANCHOR_CATEGORIES = %w[
+  direct_2d3c_mention
+  cycle001_periodic_datum_markers
+  candidate_turn_f1_dependency_markers
+  authority_quarantine_overlay
+].freeze
+
 CLASS_BY_CATEGORY = {
   "direct_2d3c_mention" => "2d3c-direct-surface",
   "periodic_comparison_markers" => "comparison-only-periodic-countertest",
@@ -143,6 +150,7 @@ Find.find(NS_ROOT.to_s) do |candidate|
   end
 
   next if matched_categories.empty?
+  next unless (matched_categories.keys & ANCHOR_CATEGORIES).any?
 
   quarantine_classes = matched_categories.keys.map { |category| CLASS_BY_CATEGORY.fetch(category) }.uniq.sort
   authority_overlay = DIRECT_AUTHORITY_PATHS.include?(relative)
