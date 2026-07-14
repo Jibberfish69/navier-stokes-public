@@ -13539,9 +13539,10 @@ The symmetric Bures divergence is finite and bounded:
 \]
 
 For \(P_\varepsilon\), let
-\(D_{B,\varepsilon}^2=D_B^2(Q,P_\varepsilon)=2-2\Phi_\varepsilon\), with Bures transport maps
-\(T_{Q\to P_\varepsilon}\) and \(T_{P_\varepsilon\to Q}\).  The exact
-finite-\(\varepsilon\) complete-tangent law is
+\(D_{B,\varepsilon}^2=D_B^2(Q,P_\varepsilon)=2-2\Phi_\varepsilon\), with
+Bures transport maps \(T_{Q\to P_\varepsilon}\) and
+\(T_{P_\varepsilon\to Q}\).  The exact finite-\(\varepsilon\)
+complete-tangent law is
 
 \[
 \boxed{
