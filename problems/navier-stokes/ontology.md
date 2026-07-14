@@ -13292,20 +13292,28 @@ then
 \int\eta=\frac q2
 \]
 
+and therefore
+
+\[
+d\sigma_{\rm reb}=2\eta\,dy,
+\qquad
+\sigma_{\rm reb}(\mathbb R^3)=q.
+\]
+
 and the full reselection row is
 
 \[
 \boxed{
 2\int h_\phi\eta
-=2\int\phi(\Pi)
-\left(\eta-\frac q2r_+^2\right).
+=\int\phi(\Pi)
+\left(d\sigma_{\rm reb}-q r_+^2dy\right).
 }
 \]
 
-The measure in parentheses has zero mass.  The Gold contraction rate fixes
-total active rebuilding, but active centering removes it from aperture
-reallocation.  This is why a scalar \(q\)-entropy cannot price the complete
-directional history.
+The centered measure in parentheses has zero mass.  The Gold contraction
+rate is the total mass of the signed rebuilding measure \(d\sigma_{\rm reb}\),
+but active centering removes that mass from aperture reallocation.  This is
+why a scalar \(q\)-entropy cannot price the complete directional history.
 
 For
 
@@ -13351,9 +13359,10 @@ The exact product laws
 (cH_\phi)_s=c(H_\phi)_s+(qc-g)H_\phi
 \]
 
-contain no cancellation with the centered cotangent source.  Remaining
-expenditure and defect expenditure do not turn this law into datum-finite
-positive variation.
+contain no algebraically forced cancellation with the centered cotangent
+source.  The retained remaining-expenditure and defect-expenditure
+identities do not by themselves turn this law into datum-finite positive
+variation.
 
 ### F7.47 The joined vorticity--chord mismatch is one tensor difference, but the finite relative entropies have the wrong sign or erase that difference
 
