@@ -23586,6 +23586,197 @@ Any scalar consequence must be a marginal of their complete VPI evolution;
 neither coordinate may be replaced by a separate viscosity-only or
 pressure-only estimate.
 
+### F7.100 The full-incidence escort carries the exact temporal Hellinger metric
+
+Let
+
+\[
+R=R_\Gamma=\|\Theta\|_\Gamma,
+\qquad
+E=\frac{\Theta}{R},
+\qquad
+V_E=\nabla_t^\Gamma E
+=\frac1R P_E^\perp\mathcal T_\Gamma.
+\]
+
+The normalized full-incidence escort is
+
+\[
+\boxed{
+d\mu_\Theta=E^2d\Gamma.
+}
+\]
+
+After pullback by the unitary endpoint-pair cocycle, its likelihood score is
+
+\[
+\Sigma_\Theta
+=2\left(
+\frac{\mathcal T_\Gamma}{\Theta}
+-\frac{R'}R
+\right).
+\]
+
+Therefore
+
+\[
+\boxed{
+\mathfrak F_{\rm FR}^+
+=\int\Sigma_\Theta^2d\mu_\Theta
+=4\|V_E\|_\Gamma^2
+=\frac{4\mathcal K_\Gamma}{R}.
+}
+\]
+
+With raw chordal Hellinger distance,
+
+\[
+d_{\rm H}^2(
+\Xi_{t+h,t}^*\mu_{\Theta,t+h},
+\mu_{\Theta,t})
+=\frac{\mathcal K_\Gamma}{R}h^2+o(h^2).
+\]
+
+The rank-one projector
+
+\[
+\mathsf P_\Theta=E\otimes E
+\]
+
+retains signed coherence and has the same pure-state Fisher information
+\(4\mathcal K_\Gamma/R\).
+
+At nodal subsets of a nonzero ray, Hellinger regularization gives
+
+\[
+\mathfrak F_{\rm FR}^+
+=4\left[
+\int_{\{\Theta\ne0\}}
+\left(
+\frac{\mathcal T_\Gamma}{\Theta}-\frac{R'}R
+\right)^2d\mu_\Theta
++\frac1{R^2}
+\int_{\{\Theta=0\}}|\mathcal T_\Gamma|^2d\Gamma
+\right].
+\]
+
+Thus affine source birth on a zero-amplitude subset is retained.  If the
+entire ray satisfies \(\Theta=0\), the escort is undefined; its nondivided
+birth remains the one-sided radius atom and
+\(\mathbb W_{B,\Gamma}=B\mathcal T_\Gamma\).
+
+The double-tail turning term is exactly
+
+\[
+\boxed{
+B\mathcal K_\Gamma
+=\frac{BR}{4}\mathfrak F_{\rm FR}^+.
+}
+\]
+
+Hence
+
+\[
+\boxed{
+\mathfrak C^\uparrow_{B,\Gamma}
+=\int_{\{R'>0\}}
+B\left[
+\langle E,\mathcal A_\Gamma\rangle_\Gamma
++\frac R4\mathfrak F_{\rm FR}^+
+\right]_+dt.
+}
+\]
+
+Axial acceleration and temporal Fisher turning remain joined before
+positivity.
+
+The complete backward incidence generator has principal form
+
+\[
+L_t
+=b_z\cdot\nabla_z
++\alpha\partial_{\log\rho}
++\dot n\cdot\nabla_{S^2}
++\nu\Delta_z.
+\]
+
+Its scalar carré du champ is
+
+\[
+\boxed{
+\Gamma_L(F,G)
+=\nu\nabla_zF\cdot\nabla_zG.
+}
+\]
+
+Radial and angular coordinates are transported to first order.  For every
+positive scalar Doob factor \(h\),
+
+\[
+L^hF
+=LF+2\nu\nabla_z\log h\cdot\nabla_zF,
+\qquad
+\boxed{\Gamma_{L^h}=\Gamma_L.}
+\]
+
+Thus scalar Doob normalization cannot create angular diffusion or remove
+the additive transverse source.  Its perspective laws always have the form
+
+\[
+\frac d{dt}\int q\Phi(s/q)
++\nu\int q\Phi''(s/q)|\nabla_z(s/q)|^2
+=\text{joined source pairings}.
+\]
+
+The angular Gold carrier
+
+\[
+\mathcal D_{\rm ang}
+=H\int\frac{G_0}{\tau}\eta_{\rm ang}dx
+\]
+
+is squared source innovation with the extra all-field severity factor
+\(HG_0/\tau\); probability normalization removes precisely that factor.
+
+Endpoint entropy cannot pay the temporal metric.  The positive two-state
+loop
+
+\[
+p_N(t)
+=\left(
+\frac12+\varepsilon\sin2\pi Nt,\,
+\frac12-\varepsilon\sin2\pi Nt
+\right)
+\]
+
+returns to its initial probability, but
+
+\[
+\int_0^1\sum_i\frac{\dot p_{N,i}^2}{p_{N,i}}dt
+\ge8\pi^2\varepsilon^2N^2.
+\]
+
+Thus a normalized all-field pattern can execute arbitrarily large
+Hellinger path action with no endpoint entropy change.  Cycle 128's
+Beltrami heat history supplies the same-fluid counterpart: its normalized
+conditional incidence entropy is stationary while the complete source
+pairing rebuilds its positive Fisher term exactly.
+
+The complete temporal cone is therefore
+
+\[
+\boxed{
+\text{radius }R_\Gamma
+\;+\;
+\text{escort }\mu_\Theta
+\;+\;
+\text{first jet }\mathbb W_{B,\Gamma}.
+}
+\]
+
+The escort is the normalized directional marginal of the full first jet,
+not a replacement for its amplitude or renewal current.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -23603,6 +23794,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-133-full-incidence-escort-hellinger-temporal-carre-du-champ-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-132-full-incidence-radius-angular-severity-leverage-renewal-concentration-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-131-full-incidence-remaining-expenditure-first-jet-adaptive-cotangent-cancellation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-130-fine-chord-polynomial-rigidity-no-active-full-incidence-eigenray-20260714.md
