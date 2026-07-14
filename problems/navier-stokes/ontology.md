@@ -13521,21 +13521,55 @@ The symmetric Bures divergence is finite and bounded:
 }
 \]
 
-Its normalization derivative contains
+For \(P_\varepsilon\), let
+\(D_{B,\varepsilon}^2=D_B^2(Q,P_\varepsilon)\), with Bures transport maps
+\(T_{Q\to P_\varepsilon}\) and \(T_{P_\varepsilon\to Q}\).  The exact
+finite-\(\varepsilon\) complete-tangent law is
 
 \[
--\left(\frac{H'}H+\frac{K'}K\right)(1-\Phi),
+\boxed{
+\begin{aligned}
+(D_{B,\varepsilon}^2)'
++\nu\mathfrak F_{B,\varepsilon}
+={}&\int(I-T_{Q\to P_\varepsilon}):\Sigma_Q\,dx\\
+&+\int(I-T_{P_\varepsilon\to Q})
+:\Sigma_{P_\varepsilon}\,dx.
+\end{aligned}
+}
 \]
 
-the sum of the growth rates rather than the difference carrying
-\(\mathcal B_{\omega,\tau}\).  Symmetry avoids support infinity by erasing
-the required sign.  For every differentiable entropy balance
+Its normalization block is exactly
+
+\[
+-\left(\frac{H'}H+\frac{K'}K\right)(1-\Phi_\varepsilon)
++\frac{\varepsilon}{1+\varepsilon}
+\left(\frac{K'}K-\frac{H'}H\right)
+\int(I-T_{P_\varepsilon\to Q}):Q\,dx.
+\]
+
+Thus symmetry removes the unweighted growth-rate difference from the
+normalization row, not from the complete source.  The signed scored tangents
+may still retain joined dependence.  At \(\varepsilon=0\),
+\(T_{P\to Q}\) is undefined, and the axial kernel filling above creates an
+order-\(\sqrt\sigma\) fidelity gain.  Under the same positive-measure
+condition,
+
+\[
+\boxed{
+-\left.\frac d{d\sigma}\right|_{0+}
+D_B^2(e^{\sigma\Delta}Q,e^{\sigma\Delta}P)=+\infty.
+}
+\]
+
+The Bures value is therefore finite at the singular state, but its separated
+heat production is not.  For every differentiable fixed-\(\varepsilon\)
+entropy balance
 
 \[
 D'+\nu\mathfrak F_D=\mathcal R_D,
 \]
 
-remaining expenditure gives only
+remaining expenditure gives
 
 \[
 \boxed{
@@ -13546,11 +13580,21 @@ remaining expenditure gives only
 }
 \]
 
-For Bures, \(aD_B^2\le2\mathcal E_0\) and the extra \(ID_B^2\) row is
-datum-finite, but the right side is the signed complete tangent, not the
-positive joined action.  Thus finite support direction, the useful joined
-sign, and a bounded symmetric stock are separated by the exact directional
-rank geometry of one fluid.
+For the actual singular state the static bounds remain exact:
+
+\[
+\boxed{
+0\le aD_B^2\le2\mathcal E_0,
+\qquad
+\int_0^T2\nu I D_B^2dt\le2\mathcal E_0.
+}
+\]
+
+They do not require an unregularized derivative.  The fixed-\(\varepsilon\)
+right side is the signed complete tangent, not the positive joined action.
+Thus finite support direction, useful normalization coordinate, finite dynamic
+production, and bounded symmetric stock are separated by the exact
+directional rank geometry of one fluid.
 
 ### F7.48 The global inverse energy-mean frequency separates from the remaining VPI radius, and reciprocal maintenance has a fixed log-radius density
 
