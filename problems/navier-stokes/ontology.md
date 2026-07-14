@@ -15116,6 +15116,317 @@ zero-heat-scale boundary and the signed critical subtraction.  The Gold
 source is thus located at the ultraviolet boundary of the complete all-chord
 continuum, not in a missing pair or an omitted intermediate radius.
 
+### F7.56 The lawful scale-resolved active object is a signed cumulative work profile
+
+Let
+
+\[
+h(z,n)=-S(z):n\otimes n,
+\qquad
+c(z,\rho)=\int h,m\,d\sigma(n)d\theta.
+\]
+
+With
+
+\[
+\Gamma=(W_\theta-u(z))m
++\frac{2\delta p}{\pi^2\rho^2}V,
+\qquad
+g=\frac{|\nabla_zV|^2}{\pi^2\rho^2},
+\]
+
+the complete pre-scalarized source is
+
+\[
+\boxed{
+\mathcal Q_{\rm fib}
+=m\mathbf B:n\otimes n
++\Gamma\cdot\nabla h
++m\dot n\cdot\nabla_{S^2}h
+-2\nu(\nabla h\cdot\nabla m+h g).
+}
+\]
+
+Defining
+
+\[
+J_c=\int h\Gamma d\sigma d\theta,
+\qquad
+f_c=\int hv_\rho m d\sigma d\theta,
+\qquad
+Q_c=\int\mathcal Q_{\rm fib}d\sigma d\theta,
+\]
+
+the exact signed profile law is
+
+\[
+\boxed{
+D_tc+\nabla_z\cdot J_c
++\rho^{-4}\partial_\rho(\rho^4f_c)
+=\nu\Delta_zc+Q_c.
+}
+\]
+
+For
+
+\[
+C_z(R)=\int_0^Rc(z,\rho)d\rho,
+\]
+
+one obtains
+
+\[
+\boxed{
+\begin{aligned}
+D_tC_z(R)+\nabla_z\cdot J_C(R)
+={}&\nu\Delta_zC_z(R)+Q_C(R)\\
+&-f_c(R)-4\int_0^R\frac{f_c(\rho)}\rho d\rho.
+\end{aligned}
+}
+\]
+
+At the completed endpoint,
+
+\[
+\boxed{
+r=\frac{C_z(\infty)}\tau,
+\qquad
+r_+^2
+=\left[\frac{C_z(\infty)}\tau\right]_+^2.
+}
+\]
+
+Thus the positive part remains after the complete signed radial and angular
+integration.
+
+For convex \(\Phi\), put
+
+\[
+\bar c_R=\frac{C_z(R)}R,
+\]
+
+\[
+\mathcal V_{\Phi,R}
+=\int_z\left[
+\int_0^R\Phi(c)d\rho-R\Phi(\bar c_R)
+\right]dz.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal V_{\Phi,R}\ge0,
+\qquad
+\partial_R\mathcal V_{\Phi,R}
+=\int_zD_\Phi(c(R),\bar c_R)dz\ge0.
+}
+\]
+
+Its exact temporal law is
+
+\[
+\boxed{
+\begin{aligned}
+\frac d{dt}\mathcal V_{\Phi,R}
++\nu\mathfrak D_{\Phi,R}
+={}&\int\nabla G_\Phi\cdot J_c
++\int G_\Phi Q_c\\
+&-\int_zG_\Phi(R)f_c(R)\\
+&+\int f_c
+\left[\Phi''(c)\partial_\rho c
+-\frac{4G_\Phi}\rho\right],
+\end{aligned}
+}
+\]
+
+where \(G_\Phi=\Phi'(c)-\Phi'(\bar c_R)\).  For
+\(\Phi(s)=s^2/2\),
+
+\[
+\boxed{
+\mathfrak D_{2,R}
+=\int_z\int_0^R
+|\nabla_z(c-\bar c_R)|^2d\rho dz\ge0.
+}
+\]
+
+The radial Bregman increment and quadratic center heat are genuine positive
+rows.  The remaining center flux, radial current, complete source, and
+viscous cofactor are signed.  An exact heat shear has \(c\equiv0\) at every
+radius.  For frequency-\(N\) ABC heat histories, the
+remaining-expenditure-weighted quadratic heat scales like \(N^5\) while
+kinetic energy is fixed, so it has no energy-only reserve; the exact solution
+supplies equally scaled signed source terms.  The endpoint relation, not the
+positive Bregman row alone, remains the VPI object.
+
+### F7.57 The forced eigenshell defect is an all-point Gaussian chord curvature
+
+Let
+
+\[
+A=-\Delta,
+\qquad
+M=\|u\|_2^2,
+\qquad
+K=\|A^{1/2}u\|_2^2,
+\qquad
+D_2=\|Au\|_2^2,
+\]
+
+\[
+\lambda=\frac KM,
+\qquad
+\Delta_{\rm sh}=D_2-\frac{K^2}M.
+\]
+
+The all-point Lagrange tensor
+
+\[
+\mathfrak W_u(x,y)
+=u(x)\otimes Au(y)-Au(x)\otimes u(y)
+\]
+
+gives
+
+\[
+\boxed{
+\Delta_{\rm sh}
+=\frac1{2M}
+\iint|\mathfrak W_u(x,y)|_F^2dxdy.
+}
+\]
+
+Every point is therefore tethered to every point through the simultaneous
+pair \((u,Au)\).  No point pair owns the defect independently.
+
+For
+
+\[
+Z(\sigma)=\langle u,e^{-\sigma A}u\rangle,
+\qquad
+\mathcal C(\sigma)=M-Z(\sigma),
+\]
+
+one has
+
+\[
+\mathcal C(\sigma)
+=\frac12\iint
+G_\sigma(x-y)|u(x)-u(y)|^2dxdy
+\]
+
+and
+
+\[
+\boxed{
+\lambda=-\partial_\sigma\log Z(0),
+\qquad
+\Delta_{\rm sh}
+=Z(0)\partial_\sigma^2\log Z(0).
+}
+\]
+
+The VPI tensor is the Mellin average of the same Gaussian chord curve:
+
+\[
+\boxed{
+\mathsf T_u(z)
+=\frac1{2\sqrt\pi}
+\int_0^\infty\sigma^{-3/2}
+\mathsf C_u(z,\sigma)d\sigma,
+}
+\]
+
+\[
+\boxed{
+4H
+=\frac1{\sqrt\pi}
+\int_0^\infty\sigma^{-3/2}\mathcal C(\sigma)d\sigma.
+}
+\]
+
+With
+
+\[
+\mathcal N(\sigma)
+=-2\langle\mathbb P(u\cdot\nabla u),e^{-\sigma A}u\rangle,
+\]
+
+the complete heat-scale law is
+
+\[
+\boxed{Z_t=\mathcal N+2\nu Z_\sigma.}
+\]
+
+Energy tangency gives \(\mathcal N(0)=0\), while
+
+\[
+\boxed{
+P_H
+=-\frac1{4\sqrt\pi}
+\int_0^\infty\sigma^{-3/2}\mathcal N(\sigma)d\sigma,
+\qquad
+\mathcal J_\omega=-\mathcal N_\sigma(0).
+}
+\]
+
+The defect tangent is
+
+\[
+\boxed{
+\Delta_{\rm sh}'
+=-2\langle B,(A-\lambda)^2u\rangle
+-2\nu\|A^{1/2}(A-\lambda)u\|_2^2.
+}
+\]
+
+The energy-mean squared frequency obeys
+
+\[
+\boxed{
+\lambda'
+=\frac{\mathcal J_\omega}{M}
+-\frac{2\nu}{M}\Delta_{\rm sh}.
+}
+\]
+
+Pure heat therefore has the exact entropy
+
+\[
+2\nu\int_0^T\frac{\Delta_{\rm sh}}Mdt
+=\lambda(0)-\lambda(T),
+\]
+
+but the complete source adds
+
+\[
+\int_0^T\frac{\mathcal J_\omega}{M}dt.
+\]
+
+On positive enstrophy surplus, the complete source reverses the heat entropy:
+
+\[
+\lambda'
+=\frac{\mathcal J_\omega-2\nu D_2}{M}
++2\nu\lambda^2>0.
+\]
+
+The scale-critical action
+
+\[
+\int\Delta_{\rm sh}^{2/3}dt
+\]
+
+is invariant under Navier--Stokes scaling, while kinetic energy is not.
+Explicit three-mode fields with positive \(P_H\) and positive
+\(\mathcal J_\omega\) give opposite signs for
+\(-2\langle B,(A-\lambda)^2u\rangle\).  A multiscale pure heat shear with
+fixed initial \(H\) has \(\int\Delta_{\rm sh}^{2/3}dt\gtrsim N^{1/3}\).
+Thus the all-point defect is real and compulsory on renewal, but its endpoint
+curvature is itself reorganized by the complete source rather than furnished
+with an energy-only temporal reserve.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -15133,6 +15444,8 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-090-eigenshell-all-point-heat-curvature-complete-source-law-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-089-signed-cumulative-chord-work-bregman-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-088-all-chord-mellin-boundary-joined-source-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-087-active-center-chord-entropy-fiber-collapse-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-086-critical-mean-triad-transfer-moving-stock-trichotomy-20260714.md`
