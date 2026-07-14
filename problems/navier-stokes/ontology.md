@@ -14358,7 +14358,7 @@ It obeys \(0\le\mathcal O\le1\) and
 \mathcal O'
 =2\int\left[
 \frac{D_tP:Q+P:D_tQ}{p+q}
--\frac{(P:Q)(\operatorname{tr}D_tP+operatorname{tr}D_tQ)}
+-\frac{(P:Q)(\operatorname{tr}D_tP+\operatorname{tr}D_tQ)}
 {(p+q)^2}
 \right]dx.
 }
@@ -14434,7 +14434,8 @@ D_tQ:\bigl(\log Q-(\log a)R-(\log c)\Pi\bigr)
 }
 \]
 
-Its aperture coefficient also differentiates as one complete relation:
+Pointwise on a constant-rank \(C^1\) stratum, its aperture coefficient also
+differentiates as one complete relation:
 
 \[
 \boxed{
@@ -14445,6 +14446,10 @@ D(Q\|P_\varepsilon)'
 \kappa'=\int(\Pi:D_tQ+Q:D_t\Pi)dx.
 }
 \]
+
+The spatially integrated derivative expansion requires a dominated \(C^1\)
+constant-rank asymptotic; value-level \(o(1)\) and pairing integrability alone
+do not justify integration of the differentiated remainder.
 
 The first term in \(\kappa'\) is change of axial chord mass; the second is
 motion of the vorticity-axis aperture through the same chord tensor.  Their
