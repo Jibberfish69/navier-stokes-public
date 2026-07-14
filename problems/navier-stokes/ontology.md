@@ -21688,6 +21688,21 @@ P_0-\frac{B_0^2}{G_0}
 }
 \]
 
+More strongly, for every direction-independent linear Gold regression
+\(L_G\),
+
+\[
+\inf_{L_G}
+\mathbb E|\mathfrak q_0-L_Gg_0|^2
+\ge
+\frac2{105}|S|^2|A|^2
++\frac4{175}|AS|^2.
+\]
+
+Thus the same obstruction applies to a center/scale Gold polar factor fixed
+across the angular fiber.  A direction-dependent polar choice would discard
+the common all-field cotangent.
+
 The uncancellable term is the degree-three angular harmonic
 \((n\cdot Sn)An\).  Slaved pressure contributes only the degree-one function
 \(-Hn\).  Hence full-angular rank-one source alignment forces \(S=0\), while
