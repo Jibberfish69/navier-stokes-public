@@ -21132,6 +21132,132 @@ therefore retain the common-cotangent boundary, the adaptive canonical angle,
 the source-innovation Schur complement, and the all-field deformation/heat
 Gramian as inseparable coordinates of one VPI tangent.
 
+### F7.82 The critical chord-envelope product carries the Gold square as simultaneous all-field heat
+
+On decaying \(\mathbb R^3\), let
+
+\[
+H=\frac12\|\Lambda^{1/2}u\|_2^2,
+\qquad
+\mathscr M=\max_{R>0}Z_4(R),
+\qquad
+d\mu_H(r)=\frac{re(r)}H\,dr.
+\]
+
+With
+
+\[
+m=\mathbb E_{\mu_H}r=\frac K{2H},
+\qquad
+d=\mathbb E_{\mu_H}r^2=\frac D{2H},
+\]
+
+and
+
+\[
+g(z)=\frac{16}{\pi}\kappa(z),
+\qquad
+\gamma=\min_{1\le z\le2}g(z)>0,
+\]
+
+the complete chord representation is
+
+\[
+\frac{\mathscr M}{H}
+=\sup_{R>0}\int g(Rr)d\mu_H(r).
+\]
+
+For dyadic masses
+
+\[
+p_j=\mu_H([2^j,2^{j+1})),
+\qquad
+p_\infty=\sup_jp_j,
+\]
+
+positivity of \(g\) gives
+
+\[
+\frac{\mathscr M}{H}\ge\gamma p_\infty.
+\]
+
+The geometric layer-cake inequality
+
+\[
+\left(\sum_j2^jq_j\right)^2
+\le4\sum_j4^jq_j,
+\qquad
+q_j=p_j/p_\infty\le1,
+\]
+
+gives
+
+\[
+m^2\le16p_\infty d.
+\]
+
+Consequently,
+
+\[
+\boxed{
+\mathscr M D
+\ge\frac{\gamma}{8}H^2m^2
+=\frac{\gamma}{32}K^2
+\ge\frac{9\gamma}{32}I^2.
+}
+\]
+
+This is the exact all-field peak--trough recombination.  Concentration of the
+critical population raises the positive log-chord envelope; separation across
+octaves raises its second spectral moment.  Their product cannot evade the
+Gold square.
+
+For a Danskin-active maximizing radius, put
+
+\[
+\widehat{\mathcal J}_*
+=\mathcal J_{R_*}/R_*^4,
+\qquad
+Q_*=\mathcal G_{R_*}/R_*^4.
+\]
+
+The two exact tangents
+
+\[
+H'+\nu D=P_H,
+\qquad
+\mathscr M'+2\nu Q_*=\widehat{\mathcal J}_*
+\]
+
+give the product law
+
+\[
+\boxed{
+(H\mathscr M)'
++\nu\left(\mathscr M D+2H Q_*\right)
+=\mathscr M P_H+H\widehat{\mathcal J}_*.
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+\frac{9\gamma\nu}{32}\int_{t_0}^{t_1}I^2dt
+\le
+H(t_0)\mathscr M(t_0)
++\int_{t_0}^{t_1}
+[\mathscr M P_H+H\widehat{\mathcal J}_*]_+dt.
+}
+\]
+
+Every Gold unit is thus simultaneous heat of one positive complete-field
+product state.  An infinite Gold history must continually rebuild that same
+state through the joined critical-continuum and maximizing-chord currents.
+Both source readings retain the Leray-projected nonlinearity and its slaved
+pressure.  No selected point, pair, shell, packet, or separately acting
+viscosity enters the bridge.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21149,6 +21275,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-115-critical-chord-envelope-product-gold-heat-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-114-monotone-gold-record-scale-time-covariance-20260714.md
 - `theorem-construction/codex-goal-ontology-cycle-113-slope-source-block-bregman-mixed-hessian-canonical-angle-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-112-covariant-renewal-edge-current-phase-gram-entropy-classification-20260714.md`
