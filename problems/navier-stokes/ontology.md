@@ -13897,17 +13897,99 @@ one has
 }
 \]
 
+Equivalently, the Gold measure is
+
+\[
+\boxed{
+dG=b\,d\vartheta
+=2\,ds
+=\frac{2}{\nu^3}I(t)^2dt,
+}
+\]
+
+and the joined law reads
+
+\[
+\boxed{
+d\log\rho_H
++\frac{\mathcal V}{k}dG
+=\frac{2\mathcal B_{\omega,\tau}}{k}dG.
+}
+\]
+
 Hence infinite Gold action is infinite total reciprocal-participation mass
 across logarithmic loss of remaining VPI radius.  Since \(k>3\), it also
 forces \(\int y\,d\vartheta=\infty\), and the storage law gives infinite
 cumulative replenishment by the complete vortex-stretching-minus-palinstrophy
-row.  In the bounded reciprocal terminal corridor of F7.48, the
+row.
+
+This already has an unconditional record consequence.  Interpolation and
+finite energy give
+
+\[
+\rho_H^2\ge\frac{K}{2\mathcal E_0}
+=\frac{\nu^2bk}{2\mathcal E_0R_a}
+>\frac{3\nu^2b}{2\mathcal E_0R_a}.
+\]
+
+With \(R_a=R_{a0}e^{-\vartheta}\), put
+
+\[
+G(L)=\int_0^Lb\,d\vartheta,
+\qquad
+M(L)=\sup_{0\le\vartheta\le L}\rho_H(\vartheta).
+\]
+
+Then
+
+\[
+\boxed{
+G(L)\le
+\frac{2\mathcal E_0R_{a0}}{3\nu^2}M(L)^2.
+}
+\]
+
+At the first passage to \(M(L)\), the joined entropy law yields
+
+\[
+\boxed{
+\begin{aligned}
+\int_0^L\frac{2b}{k}
+[\mathcal B_{\omega,\tau}]_+d\vartheta
+&\ge\left[\log\frac{M(L)}{\rho_H(0)}\right]_+\\
+&\ge\frac12\left[
+\log\frac{3\nu^2G(L)}
+{2\mathcal E_0R_{a0}\rho_H(0)^2}
+\right]_+.
+\end{aligned}
+}
+\]
+
+Thus divergent Gold mass forces unbounded physical mean frequency and
+infinitely many record doublings, each carrying at least \(\log2\) of positive
+joined action in Gold measure.
+
+In the bounded reciprocal terminal corridor of F7.48, the
 positive-density maintenance set has \(\mathcal V\ge d_*/2\), so
 
 \[
 \int\frac b k\mathcal V\,d\vartheta=\infty,
 \qquad
 \int\frac b k[\mathcal B_{\omega,\tau}]_+\,d\vartheta=\infty.
+\]
+
+In fact, with
+
+\[
+c_{\rm corr}
+=\frac{b_-d_*y_-}{4k_+b_+R_*},
+\]
+
+the corridor density estimate gives
+
+\[
+\int_0^L\frac b k\mathcal V\,d\vartheta
+\ge c_{\rm corr}G(L)-C_{\rm corr}.
 \]
 
 The infinitely renewed object is therefore not a sequence of scalar pulses:
