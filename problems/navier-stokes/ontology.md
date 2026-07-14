@@ -15428,6 +15428,379 @@ Thus the all-point defect is real and compulsory on renewal, but its endpoint
 curvature is itself reorganized by the complete source rather than furnished
 with an energy-only temporal reserve.
 
+### F7.58 Critical log-chord normalization removes subrecord shrinkage and forces a heat-gap alternative
+
+For the complete subradius incidence stock, heat, and inward current, put
+
+\[
+\mathcal C_R=\int_0^R\rho^4M(\rho,t)d\rho,
+\qquad
+\mathcal G_R=\int_0^R\rho^4G_\Delta(\rho,t)d\rho,
+\qquad
+\mathcal J_R=-R^4F(R,t).
+\]
+
+Their exact tangent is
+
+\[
+\mathcal C_R'=\mathcal J_R-2\nu\mathcal G_R.
+\]
+
+The scale-critical stock is
+
+\[
+\boxed{
+Z_4(R,t)=\frac{\mathcal C_R(t)}{R^4},
+\qquad
+\int_0^\infty Z_4(R,t)\frac{dR}{R}=H(t).
+}
+\]
+
+Thus (Z_4,dR/R) is a positive all-chord decomposition of the critical
+height after all centers, directions, intermediate points, and subradius
+separations have been integrated.
+
+With
+
+\[
+W(z)=\frac13-\frac{\sin z-z\cos z}{z^3},
+\qquad
+\kappa(z)=\frac{W(z)}z,
+\qquad
+d\mu_H(r)=\frac{re(r)}H\,dr,
+\]
+
+one has
+
+\[
+\boxed{
+Z_4(R)=\frac{16}{\pi}H
+\int_0^\infty\kappa(Rr)d\mu_H(r).
+}
+\]
+
+The endpoint estimates
+
+\[
+Z_4(R)\le\frac{4}{15\pi}KR,
+\qquad
+Z_4(R)\le\frac{32}{3\pi}\frac{\mathcal E}{R}
+\]
+
+show that
+
+\[
+\mathscr M(t):=\max_{R>0}Z_4(R,t)
+\]
+
+is attained at an interior radius for every nonzero field.  If
+
+\[
+c_*:=\frac{16}{\pi}\sup_{z>0}\kappa(z)
+=0.388287\ldots,
+\]
+
+then
+
+\[
+\boxed{
+\mathscr M\le c_*H
+\le\frac{c_*}{\sqrt2}\sqrt{\mathcal EK}.
+}
+\]
+
+Every maximizer (R_*) obeys
+
+\[
+\boxed{R_*^5M(R_*,t)=4\mathcal C_{R_*}(t).}
+\]
+
+Consequently its selector motion cancels exactly.  Danskin's theorem gives
+
+\[
+\boxed{
+D_+\mathscr M
+=\max_{R\in\operatorname{Argmax}Z_4}
+\left[
+\frac{\mathcal J_R}{R^4}
+-2\nu\frac{\mathcal G_R}{R^4}
+\right].
+}
+\]
+
+If a fraction (delta) of the critical probability lies in
+
+\[
+(1-\varepsilon)m\le r\le(1+\varepsilon)m,
+\qquad
+m=\frac K{2H},
+\]
+
+then evaluation at (R\asymp m^{-1}) gives
+
+\[
+\boxed{\mathscr M\ge c_{\varepsilon,\delta}H.}
+\]
+
+The (H/m^4) loss of the unnormalized moving chord stock is therefore
+removed exactly.
+
+The maximizer heat is
+
+\[
+Q(R)=\frac{\mathcal G_R}{R^4}
+=\frac{16}{\pi}H
+\int r^2\kappa(Rr)d\mu_H(r).
+\]
+
+For every maximizing radius, the same critical population satisfies the
+universal uncertainty law
+
+\[
+\boxed{
+Q(R_*)+\frac{\mathcal V_H}{m}
+\ge c_0Hm^2,
+\qquad
+c_0=\frac1{10\sqrt{10}}.
+}
+\]
+
+Indeed, mass away from (m) gives
+
+\[
+\mathcal V_H
+\ge H\bigl(2\operatorname{Var}_{\mu_H}r\bigr)^{3/2},
+\]
+
+while concentration near (m), maximality against a trial radius, and
+positivity of (kappa) give (Q(R_*)\gtrsim Hm^2).  Moving the maximizing
+scale cannot make both heat rows small.
+
+On the running record set of (mathscr M), with a tangent-active maximizer,
+
+\[
+\boxed{
+\int\frac{\mathcal J_{R_*}}{R_*^4}dt
+=\Delta\overline{\mathscr M}
++2\nu\int Q(R_*)dt.
+}
+\]
+
+For the remaining expenditure
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+a'=-2\nu I,
+\]
+
+the exact weighted tangent is
+
+\[
+\boxed{
+(a^\alpha\mathscr M)'
++2\nu a^\alpha Q(R_*)
++2\alpha\nu I a^{\alpha-1}\mathscr M
+=a^\alpha\frac{\mathcal J_{R_*}}{R_*^4}.
+}
+\]
+
+In a bounded reciprocal corridor,
+
+\[
+\mathscr M\lesssim a^{-1/2}.
+\]
+
+Every (alpha>1/2) therefore gives a finite weighted record-rise row and
+erases the terminal critical signal.  At the exact endpoint
+(alpha=1/2), the depletion charge can be
+
+\[
+\frac12\int\mathscr M a^{-1/2}(-da)
+\asymp\int\frac{-da}{a}.
+\]
+
+The normalized stock has removed scale selection and absolute subrecord
+shrinkage.  The logarithmic endpoint that remains is the actual critical
+history, not an omitted point or radius.
+
+### F7.59 The normalized log-chord scalar is a signed replicator, not an autonomous entropy
+
+Normalize the positive density in F7.58 by
+
+\[
+p(R,t)=\frac{Z_4(R,t)}{H(t)},
+\qquad
+\int_0^\infty p(R,t)\frac{dR}{R}=1.
+\]
+
+Define the simultaneous source and viscous scores
+
+\[
+\gamma_J=\frac{\mathcal J_R}{\mathcal C_R},
+\qquad
+\gamma_\nu=\frac{2\nu\mathcal G_R}{\mathcal C_R}.
+\]
+
+The complete Mellin identities give
+
+\[
+\mathbb E_p\gamma_J=\frac{P_H}{H},
+\qquad
+\mathbb E_p\gamma_\nu=\frac{\nu D}{H}.
+\]
+
+Hence the exact normalized law is
+
+\[
+\boxed{
+p_t=p\left[
+(\gamma_J-\gamma_\nu)
+-\mathbb E_p(\gamma_J-\gamma_\nu)
+\right].
+}
+\]
+
+For Shannon entropy,
+
+\[
+\boxed{
+\mathscr S_t
+=-\operatorname{Cov}_p(\log p,\gamma_J)
++\operatorname{Cov}_p(\log p,\gamma_\nu).
+}
+\]
+
+For Renyi entropy, with escort
+
+\[
+p_\alpha=\frac{p^\alpha}{\int p^\alpha dR/R},
+\]
+
+one has
+
+\[
+\boxed{
+(\mathscr S_\alpha)_t
+=\frac\alpha{1-\alpha}
+\left{
+[\mathbb E_{p_\alpha}-\mathbb E_p]\gamma_J
+-[\mathbb E_{p_\alpha}-\mathbb E_p]\gamma_\nu
+\right\}.
+}
+\]
+
+Every fixed-reference Bregman divergence obeys the analogous exact law
+
+\[
+\boxed{
+(\mathscr B_\Phi)_t
+=\operatorname{Cov}_p
+(\Phi'(p)-\Phi'(\pi),\gamma_J)
+-\operatorname{Cov}_p
+(\Phi'(p)-\Phi'(\pi),\gamma_\nu).
+}
+\]
+
+Viscosity is therefore scale-selective killing after normalization, not
+diffusion in (log R).  Its entropy covariance has both signs for smooth
+divergence-free multiscale states.
+
+With
+
+\[
+\Psi(z)=\frac{16}{\pi}\frac{W(z)}z,
+\]
+
+the density is the positive multiplicative convolution
+
+\[
+\boxed{
+p(R)=\int\Psi(Rr)d\mu_H(r),
+\qquad
+\int\Psi(z)\frac{dz}{z}=1.
+}
+\]
+
+Thus
+
+\[
+\|p\|_{L^q(dR/R)}
+\le\|\Psi\|_{L^q(dz/z)},
+\qquad q\ge1.
+\]
+
+The scalar has a universal finite shape capacity, but it has discarded
+center, direction, phase, and signed-fiber coordinates.  Those remain in
+(gamma_J).
+
+Under exact Navier--Stokes scaling
+
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\]
+
+one has
+
+\[
+\mathcal E_\lambda=\lambda^{-1}\mathcal E,
+\quad
+H_\lambda=H,
+\quad
+K_\lambda=\lambda K,
+\quad
+a_\lambda=\lambda^{-1}a,
+\quad
+(aK)_\lambda=aK,
+\]
+
+and
+
+\[
+\boxed{p_\lambda(R,t)=p(\lambda R,\lambda^2t).}
+\]
+
+This is rigid translation in logarithmic scale.  Intrinsic shape entropies
+are exactly invariant and cannot count octave migration.  A fixed-reference
+divergence detects the translation but grows like (|\log\lambda|) while
+kinetic energy decreases and (aK) stays invariant; bounded divergences
+saturate.
+
+More generally, with
+
+\[
+\vartheta=-\log(a/a_0),
+\qquad
+y=\frac{aK}{\nu^4},
+\qquad
+y_\vartheta+y=\mathscr R_K,
+\qquad
+\varepsilon_E=-(\log\mathcal E)_\vartheta,
+\]
+
+every monomially weighted readout
+
+\[
+\mathscr W=a^ry^s\mathcal E^q
+\]
+
+satisfies
+
+\[
+\boxed{
+(\mathscr W\mathscr D)_\vartheta
++(r+s+q\varepsilon_E)\mathscr W\mathscr D
+=\mathscr W\mathscr D_\vartheta
++s\frac{\mathscr R_K}{y}\mathscr W\mathscr D.
+}
+\]
+
+Positive powers of (a) are summable and discount the infinite terminal
+history; the critical exponent (r=0) leaves only the renewed storage (y);
+negative powers lose datum boundedness.  The scalar choice is therefore
+fully classified: it is a lawful readout of the all-field VPI tangent, but
+not its autonomous entropy-production owner.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -15445,6 +15818,8 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-092-critical-log-chord-replicator-entropy-translation-classification-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-091-critical-log-chord-envelope-heat-gap-uncertainty-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-090-eigenshell-all-point-heat-curvature-complete-source-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-089-signed-cumulative-chord-work-bregman-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-088-all-chord-mellin-boundary-joined-source-law-20260714.md`
