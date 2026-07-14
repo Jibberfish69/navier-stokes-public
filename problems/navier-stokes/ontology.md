@@ -21691,8 +21691,11 @@ P_0-\frac{B_0^2}{G_0}
 The uncancellable term is the degree-three angular harmonic
 \((n\cdot Sn)An\).  Slaved pressure contributes only the degree-one function
 \(-Hn\).  Hence full-angular rank-one source alignment forces \(S=0\), while
-every Gold-active center has \(S\ne0\).  Dyadic conditional convergence then
-rules out Schur equality at every active scale.
+every Gold-active center has \(S\ne0\).  The conclusion passes to the
+infinitesimal block when coherent equality is retained on actual re-rooted
+chord sources with \(\rho\downarrow0\).  Fixed-parent dyadic conditioning
+alone does not change radius and supplies no such passage; omitting that
+child-radius source commutator would omit part of the complete VPI source.
 
 The same positive event is the initial curvature of the quartic angular
 deformation entropy:
@@ -21716,9 +21719,9 @@ This rigidity applies to coherent no-surplus saturation, not to the weaker
 product balance \(\mathcal S_Y=\nu\mathcal D_Y\).  Nonzero smooth ratio-one
 states exist by amplitude scaling of a positive-current Schwartz datum, but
 they lie strictly inside the Schur cone and therefore carry positive
-transverse all-field source innovation.  Every active Gold record leaves
-radial pair heat, angular source innovation, or both; it cannot be a costless
-rank-one pulse.
+transverse all-field source innovation.  Every complete all-radius
+no-surplus Gold record leaves radial pair heat, angular/source-radius
+innovation, or both; it cannot be a costless rank-one pulse.
 
 ## Hard boundary: claims excluded from the ontology
 
