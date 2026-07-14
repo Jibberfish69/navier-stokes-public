@@ -21440,6 +21440,101 @@ therefore retain the signed canonical phase \(\chi_G\), the next
 pressure-completed source, and the deformation/heat Gramian together with
 \(\Theta_V\) and \(\Theta_Y\).
 
+### F7.84 First-record normalization separates absolute-null rigidity from coherent zero surplus
+
+For first record doublings \(M_n\to2M_n\), let \(J_n\) be the interval from
+the last \(I=M_n\) to the first \(I=2M_n\).  The exact unit service is
+
+\[
+\boxed{
+d\mathfrak R_n
+=\frac{d\log\overline I_n}{\log2}
+=\frac{2}{\log2}
+\mathbf1_{\{I=\overline I_n\}}
+\frac{[N-\nu X]_+}{I}dt,
+\qquad
+\mathfrak R_n(J_n)=1.
+}
+\]
+
+With the record scale \(\ell_n=\nu^2/M_n\), this measure is exactly invariant
+under Navier--Stokes scaling.  The normalized energy payment is
+
+\[
+\widehat e_n
+=\frac{M_n}{\nu^4}e(J_n).
+\]
+
+Consequently, \(\sum_ne(J_n)\le\mathcal E_0\) does not force
+\(\widehat e_n\to0\): a fixed critical payment costs only
+\(e(J_n)\asymp M_n^{-1}\), and those raw costs are summable.
+
+There is a genuine absolute-null theorem.  The shorted pair Gramian has the
+short-time expansion
+
+\[
+\boxed{
+\mathbf S_R
+=\frac{\nu\delta^3}{6}
+[\nabla u(x)-\nabla u(y)]
+[\nabla u(x)-\nabla u(y)]^T
++O(\delta^4).
+}
+\]
+
+If it vanishes on every compact pair set and every sufficiently short
+interval, then \(\nabla u(x)=\nabla u(y)\) for almost every pair.  A
+finite-energy field with spatially constant gradient is zero.  Equivalently,
+quartic angular deformation equality on every short interval forces
+orthogonal deformation, \(S=0\), and then \(u=0\).  Thus
+
+\[
+\boxed{
+\text{complete full-pair absolute null}
+\Longrightarrow u=0
+\Longrightarrow I=0.
+}
+\]
+
+Critical rescaling does not automatically retain the global hypotheses:
+
+\[
+\|U_n\|_2^2
+=\frac{M_n}{\nu^4}\|u\|_2^2,
+\qquad
+\frac{\rho^4}{|V|^2}d\mu
+=\frac1{\pi^2}dz\,dR\,d\theta.
+\]
+
+Global energy and the full-pair-volume compensator can escape while a local
+affine core remains.
+
+The zero-surplus face is therefore not absolute zero.  With slope/source block
+
+\[
+\mathbb X
+=\begin{pmatrix}G&B\\B^T&P\end{pmatrix},
+\]
+
+its coherent equalities are
+
+\[
+\boxed{
+P-B^TG^\dagger B=0,
+\qquad
+\sqrt{GP}-\varepsilon_GB=0,
+\qquad
+y_{j+1}-y_j=0.
+}
+\]
+
+They say that source innovation transverse to slope vanishes, the
+pressure-completed source is perfectly Gold-aligned with the slope, and the
+Gold projection is coherent across adjacent scales.  These are nonzero
+rank-one equality states.  Every surviving ratio-one record packet must carry
+nonzero pair heat and nonzero source magnitude in this phase-locked relation;
+full-pair heat zero would force the trivial field.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21457,6 +21552,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-117-first-record-normalization-absolute-null-rigidity-coherent-zero-surplus-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-116-global-vpi-participation-angles-record-envelope-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-115-critical-chord-envelope-product-gold-heat-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-114-monotone-gold-record-scale-time-covariance-20260714.md
