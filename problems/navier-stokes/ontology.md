@@ -12882,7 +12882,7 @@ Therefore on a contraction interval
 \[
 \boxed{
 2\int\frac{[\mathcal B]_+}{H_U}ds
-\ge\Delta m+int qm\,ds+int\frac{\mathcal V}{H_U}ds.
+\ge\Delta m+\int qm\,ds+\int\frac{\mathcal V}{H_U}ds.
 }
 \]
 
