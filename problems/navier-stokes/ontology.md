@@ -21940,6 +21940,112 @@ the angular flux, \(H'/H\), and boundary work.  It is not an automatic subtracti
 Cycle 115 scalar source: nonzero smooth ratio-one states can have both
 \(\mathcal S_Y=\nu\mathcal D_Y\) and \(\mathcal D_{\rm ang}>0\).
 
+### F7.89 The angular carrier has a signed perspective tangent, while the active Pearson stock is the exact scalar Gold law
+
+For
+
+\[
+h(n)=(n\cdot Sn)An-\frac25ASn,
+\qquad
+d_{\rm harm}=\mathbb E|h|^2,
+\]
+
+the exact material source is
+
+\[
+R_h
+=\mathscr H(-A^2-\nabla^2p,S)
++\mathscr H(A,-S^2-W^2-\nabla^2p)
+-2\nu\sum_j
+\mathscr H(\partial_jA,\partial_jS),
+\]
+
+and
+
+\[
+(D_t-\nu\Delta)d_{\rm harm}
+=2\mathbb E(h\cdot R_h)-2\nu\mathbb E|\nabla h|^2.
+\]
+
+With \(p_H=\tau/(4H)\), the whole-field angular carrier obeys the exact
+perspective law
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal D_{\rm ang}'
+&+\frac\nu2\int p_H
+\mathbb E\left|\nabla\left(\frac h{p_H}\right)\right|^2dx\\
+&=\frac14\int\mathbb E\left[
+2\frac h{p_H}\cdot R_h
+-\left|\frac h{p_H}\right|^2R_{p_H}
+\right]dx.
+\end{aligned}
+}
+\]
+
+The right side is signed.  Exact passive heat shears have \(r=I=0\) while
+\(\int\mathcal D_{\rm ang}dt\) grows like \(N^2\) at fixed kinetic energy.
+The decaying fixed-energy short-rise scaling gives growth like \(A^3\).
+Hence \(\mathcal D_{\rm ang}\) is Gold-coercive curvature, not an
+\((\mathcal E_0,\nu)\)-funded entropy action.
+
+The Gold-active scalar is instead
+
+\[
+\boxed{
+\mathcal G_V
+=H\int\frac{r_+^4}{\tau}dx
+=\frac{I^2}{4}
+\left[1+\chi^2(p_I\Vert p_H)\right]
+\ge\frac14I^2,
+}
+\]
+
+where \(p_I=r_+^2/I\).  With
+
+\[
+\varrho=r_+^2,
+\qquad
+F_\varrho
+=2r_+\widetilde{\mathcal F}_r
+-2\nu\mathbf1_{\{r>0\}}|\nabla r|^2,
+\]
+
+its exact scalar law is
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal G_V'
+&+\frac\nu2\int p_H
+\left|\nabla\left(\frac\varrho{p_H}\right)\right|^2dx\\
+&=\frac14\int\left[
+2\frac\varrho{p_H}F_\varrho
+-\left(\frac\varrho{p_H}\right)^2R_{p_H}
+\right]dx
+=:\mathcal R_V.
+\end{aligned}
+}
+\]
+
+Equivalently,
+
+\[
+\mathcal R_V
+=\mathcal G_V
+\mathbb E_{\mu_V}(2\gamma_\varrho-\gamma_H),
+\qquad
+d\mu_V=\frac{\varrho^2/p_H}{4\mathcal G_V}dx.
+\]
+
+This scalar is derived from the complete field: its numerator is the positive
+VPI density formed after the signed chord average, and its denominator is the
+whole-field chord density.  It therefore preserves the VPI ordering and
+point--whole-field tether.  Remaining-expenditure weighting retains the
+Fisher row, the drain \(2\nu I\mathcal G_V\ge\nu I^3/2\), and the same joined
+source \(\mathfrak a\mathcal R_V\).
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21957,6 +22063,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-121-tau-normalized-source-block-whole-field-gold-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-120-projective-angular-entropy-whole-field-trace-gold-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
