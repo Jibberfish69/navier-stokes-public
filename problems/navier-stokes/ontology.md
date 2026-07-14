@@ -26182,6 +26182,114 @@ complete cubic current or the mixed radial--material source first jet.  This
 is the exact mathematical distinction between the lower instantaneous
 diagonal and the upper next-tangent geometry.
 
+### F7.114 The transverse-ejection current is paid by its covariant primitive, while positive replacement exposes the radial material-jerk diagonal
+
+Retain
+
+\[
+q=\partial_\rho h,
+\qquad
+k=\partial_\rho v,
+\qquad
+F=\|v\|_2^2,
+\qquad
+L=\partial_\rho b_2-\mathscr C_\rho v.
+\]
+
+The radial first-jet system is
+
+\[
+\mathscr D_{1/2}q=k-\mathscr C_\rho h,
+\qquad
+\mathscr D_{1/2}k=-Fq+L.
+\]
+
+Consequently, with \(J=\langle q,k\rangle\),
+
+\[
+\boxed{
+\langle q,L\rangle
+=J'-\|k\|_2^2
++\langle\mathscr C_\rho h,k\rangle
++F\|q\|_2^2.
+}
+\]
+
+Thus the odd axial jerk work is already the cross-current whose derivative
+produces the positive radial--temporal collar.  Its sharp completion is
+
+\[
+\boxed{
+F\|q\|_2^2-\langle q,L\rangle
+=\frac1{4F}\|L-2Fq\|_2^2
+-\frac1{4F}\|L\|_2^2
+}
+\]
+
+when \(F>0\).  Therefore any positive-only replacement requires the next
+diagonal \(\|L\|_2^2/F\).  The Gram determinant of \((q,L)\) controls only
+the part of \(L\) perpendicular to \(q\); it deletes the signed axial
+coefficient and cannot replace the current.
+
+In fluid coordinates, with
+
+\[
+\mathbf a=D_tu,
+\qquad
+j=\frac{\delta\mathbf a}{\rho},
+\qquad
+\phi=\frac{\delta[(D_t-\nu\Delta)\mathbf a]}{\rho},
+\]
+
+the next joined material chord is
+
+\[
+\boxed{
+\ell
+:=\frac{\delta(D_t\mathbf a)}{\rho}
+=\phi+\nu\Delta_zj
+=D_{\rm pair}j+\alpha j.
+}
+\]
+
+The radial derivative of the corresponding centered metric score contains
+the top diagonal
+
+\[
+\boxed{
+\frac{B^{5/3}}I
+\int M|\ell_\rho|^2d\Omega.
+}
+\]
+
+This is not Cycle 140's
+\(\inf_c\int M|\phi-cj|^2\): that Gramian projects the parabolic source
+transverse to \(j\), while the ejection law contracts the full material
+jerk with \(g\), centers it in the active population, and differentiates it
+radially.  Scaling and frozen radial oscillations distinguish the two
+planes.
+
+At homothetic contact \(v=k=F=0\),
+
+\[
+k(t_0+s)
+=s\,\partial_\rho b_2(t_0)+O(s^2),
+\]
+
+\[
+\boxed{
+\mathcal N_\rho(t_0+s)
+=R_\Gamma(t_0)^2s^2
+\|\partial_\rho b_2(t_0)\|_2^2
++O(s^3).
+}
+\]
+
+The preceding source Gramian and the radial material jerk are consecutive
+planes of the same all-field tangent.  Keeping the signed current is exact;
+turning it into a positive estimate necessarily advances one rung in that
+same material hierarchy.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26199,6 +26307,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-148-transverse-ejection-radial-material-jerk-diagonal-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-147-present-cocycle-upper-lower-trace-critical-collar-source-jet-necessity-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-146-complete-pair-phase-liouville-cancellation-finite-active-escort-score-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-145-target-weighted-radial-score-curvature-fractional-tail-current-20260714.md
