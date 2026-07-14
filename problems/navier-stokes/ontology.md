@@ -15456,7 +15456,7 @@ Z_4(R,t)=\frac{\mathcal C_R(t)}{R^4},
 }
 \]
 
-Thus (Z_4,dR/R) is a positive all-chord decomposition of the critical
+Thus \((Z_4,dR/R)\) is a positive all-chord decomposition of the critical
 height after all centers, directions, intermediate points, and subradius
 separations have been integrated.
 
@@ -15509,7 +15509,7 @@ then
 }
 \]
 
-Every maximizer (R_*) obeys
+Every maximizer \(R_*\) obeys
 
 \[
 \boxed{R_*^5M(R_*,t)=4\mathcal C_{R_*}(t).}
@@ -15528,7 +15528,7 @@ D_+\mathscr M
 }
 \]
 
-If a fraction (delta) of the critical probability lies in
+If a fraction \(\delta\) of the critical probability lies in
 
 \[
 (1-\varepsilon)m\le r\le(1+\varepsilon)m,
@@ -15536,13 +15536,13 @@ If a fraction (delta) of the critical probability lies in
 m=\frac K{2H},
 \]
 
-then evaluation at (R\asymp m^{-1}) gives
+then evaluation at \(R\asymp m^{-1}\) gives
 
 \[
 \boxed{\mathscr M\ge c_{\varepsilon,\delta}H.}
 \]
 
-The (H/m^4) loss of the unnormalized moving chord stock is therefore
+The \(H/m^4\) loss of the unnormalized moving chord stock is therefore
 removed exactly.
 
 The maximizer heat is
@@ -15565,18 +15565,18 @@ c_0=\frac1{10\sqrt{10}}.
 }
 \]
 
-Indeed, mass away from (m) gives
+Indeed, mass away from \(m\) gives
 
 \[
 \mathcal V_H
 \ge H\bigl(2\operatorname{Var}_{\mu_H}r\bigr)^{3/2},
 \]
 
-while concentration near (m), maximality against a trial radius, and
-positivity of (kappa) give (Q(R_*)\gtrsim Hm^2).  Moving the maximizing
+while concentration near \(m\), maximality against a trial radius, and
+positivity of \(\kappa\) give \(Q(R_*)\gtrsim Hm^2\).  Moving the maximizing
 scale cannot make both heat rows small.
 
-On the running record set of (mathscr M), with a tangent-active maximizer,
+On the running record set of \(\mathscr M\), with a tangent-active maximizer,
 
 \[
 \boxed{
@@ -15611,9 +15611,9 @@ In a bounded reciprocal corridor,
 \mathscr M\lesssim a^{-1/2}.
 \]
 
-Every (alpha>1/2) therefore gives a finite weighted record-rise row and
+Every \(\alpha>1/2\) therefore gives a finite weighted record-rise row and
 erases the terminal critical signal.  At the exact endpoint
-(alpha=1/2), the depletion charge can be
+\(\alpha=1/2\), the depletion charge can be
 
 \[
 \frac12\int\mathscr M a^{-1/2}(-da)
@@ -15703,7 +15703,7 @@ Every fixed-reference Bregman divergence obeys the analogous exact law
 \]
 
 Viscosity is therefore scale-selective killing after normalization, not
-diffusion in (log R).  Its entropy covariance has both signs for smooth
+diffusion in \(\log R\).  Its entropy covariance has both signs for smooth
 divergence-free multiscale states.
 
 With
@@ -15732,7 +15732,7 @@ Thus
 
 The scalar has a universal finite shape capacity, but it has discarded
 center, direction, phase, and signed-fiber coordinates.  Those remain in
-(gamma_J).
+\(\gamma_J\).
 
 Under exact Navier--Stokes scaling
 
@@ -15762,8 +15762,8 @@ and
 
 This is rigid translation in logarithmic scale.  Intrinsic shape entropies
 are exactly invariant and cannot count octave migration.  A fixed-reference
-divergence detects the translation but grows like (|\log\lambda|) while
-kinetic energy decreases and (aK) stays invariant; bounded divergences
+divergence detects the translation but grows like \(|\log\lambda|\) while
+kinetic energy decreases and \(aK\) stays invariant; bounded divergences
 saturate.
 
 More generally, with
@@ -15795,8 +15795,8 @@ satisfies
 }
 \]
 
-Positive powers of (a) are summable and discount the infinite terminal
-history; the critical exponent (r=0) leaves only the renewed storage (y);
+Positive powers of \(a\) are summable and discount the infinite terminal
+history; the critical exponent \(r=0\) leaves only the renewed storage \(y\);
 negative powers lose datum boundedness.  The scalar choice is therefore
 fully classified: it is a lawful readout of the all-field VPI tangent, but
 not its autonomous entropy-production owner.
