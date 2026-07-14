@@ -23108,7 +23108,8 @@ D_{\rm f}\alpha
 \]
 
 Since the fine amplitude is
-\(\Theta=-c_a\alpha\), the scalar eigenray gives
+\(\Theta=-c_a\alpha\), the scalar eigenray gives on
+\(q_{\mathsf C}>0\)
 
 \[
 \boxed{
@@ -23123,33 +23124,49 @@ q_{\mathsf K}
 }
 \]
 
-On the zero cone \(q_S=0\), this forces \(q_{\mathsf K}=0\), hence
-
-\[
-\mathsf K=\beta S.
-\]
-
-Substitution and homogenization give
+Clear the incidence denominator before taking any angular zero set and
+homogenize.  The resulting identity is
 
 \[
 \boxed{
-q_0q_{\mathsf D}
-=\left[(\beta-\eta)q_0+4q_S\right]q_{\mathsf C}.
+q_0q_{\mathsf C}(q_{\mathsf K}-\eta q_S)
++4q_S^2q_{\mathsf C}
+-q_0q_Sq_{\mathsf D}=0.
 }
 \]
 
-Because \(q_0=|n|^2\) is irreducible and coprime to the bracket, polynomial
-divisibility forces
+It holds polynomially in every direction, including \(q_{\mathsf C}=0\).
+Rearranging it as
+
+\[
+q_0\!left[q_{\mathsf C}(q_{\mathsf K}-\eta q_S)
+-q_Sq_{\mathsf D}\right]
+=-4q_S^2q_{\mathsf C}
+\]
+
+and using that \(q_0=|n|^2\) is prime while the active trace-free
+\(q_S\) is not its multiple, polynomial divisibility first forces
 
 \[
 \boxed{
 A^TA=cI,
+\qquad c>0.
+}
+\]
+
+Now \(q_{\mathsf C}=cq_0\) is positive in every nonzero direction.  The
+complete zero cone \(q_S=0\) therefore gives \(q_{\mathsf K}=0\), and the
+quadratic-cone lemma yields
+
+\[
+\boxed{
+\mathsf K=\beta S,
 \qquad
 \mathsf D=c(\beta-\eta)I+4cS.
 }
 \]
 
-Material differentiation, using \(D_tA=\mathsf B-A^2\), yields
+Material differentiation, using \(D_tA=\mathsf B-A^2\), then yields
 
 \[
 \boxed{
