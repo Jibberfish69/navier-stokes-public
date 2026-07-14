@@ -26712,6 +26712,85 @@ present residual without killing that tangent; moving radial position,
 angular shape, normalization, and active-metric deformation are precisely
 the transverse ejection unseen by a scalar ultraviolet \(aK\) law.
 
+### F7.118 Finite all-radius confinement turns the Gold-frame gauge into a native moving-collar current plus a positive tail clock
+
+For
+
+\[
+R_\ell(\rho)=\frac{\rho^2\ell^2}{\rho^2+\ell^2},
+\qquad
+Z_{\ell,f}=R_\ell\frac{f(x)-f(y)}\rho,
+\]
+
+the physical chord flag is finite at both radial ends and obeys
+
+\[
+\boxed{
+\|Z_{\ell,f}\|_2^2
+\le\frac{4\pi}{15}\ell^5\|\nabla f\|_2^2
++16\pi\ell^3\|f\|_2^2.
+}
+\]
+
+At \(\ell=B^{1/3}\), this is precisely a \(B^{5/3}\) high-gradient stock
+plus a \(B\) low-frequency stock.  Its covariant radial derivative preserves
+the active collar:
+
+\[
+\mathcal H_{\rho,\ell}^-
+=\partial_\rho-\partial_\rho\log R_\ell,
+\qquad
+\boxed{
+\frac{W_I}{R_\ell}
+\mathcal H_{\rho,\ell}^-Z_{\ell,f}
+=W_Iq_{f,\rho}.
+}
+\]
+
+With
+
+\[
+\vartheta_\ell=\frac{\rho^2}{\rho^2+\ell^2},
+\]
+
+the complete material law is
+
+\[
+\boxed{
+(D_{\rm pair}-\alpha-\nu\Delta_z)Z_{\ell,f}
+=R_\ell\Phi_f
++2\vartheta_\ell
+\left(\frac{\ell'}\ell-\alpha\right)Z_{\ell,f}.
+}
+\]
+
+Therefore, at the critical collar,
+
+\[
+\boxed{
+\Gamma_B
+=-\frac{2\mathfrak a}{3B}\vartheta_B
+-2\vartheta_B\alpha.
+}
+\]
+
+The first term is strictly favorable remaining-expenditure damping.  The
+second is not a new source: since
+
+\[
+\rho\alpha\frac{\partial_\rho C_\ell}{C_\ell}
+=-2\vartheta_\ell\alpha,
+\qquad
+C_\ell=\frac{\ell^2}{\rho^2+\ell^2},
+\]
+
+it is exactly the native radial flux through the moving collar.  It cancels
+inside the unreduced local radial conservation law and survives only when
+that law is compressed to one finite global stock.  Thus the upper law must
+retain radial crossing as well as the ultraviolet trace; the moving
+radial-position tensor is the continuation of the same all-field chord
+object.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -26729,6 +26808,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-152-finite-all-radius-b-collar-native-radial-current-tail-clock-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-151-gold-frame-hjb-physical-chord-hardy-flag-covariant-deformation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-150-viscous-terminal-heat-clock-infinite-source-tower-absorption-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-149-two-copy-common-mode-current-base-active-relative-score-flag-20260714.md
