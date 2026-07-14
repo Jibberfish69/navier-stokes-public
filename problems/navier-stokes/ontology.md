@@ -17005,6 +17005,231 @@ but a shrinking aperture retains its exact scale-shape charge.  Center
 localization and ultraviolet extraction are two different operations on the
 same all-field current and must not be conflated.
 
+### F7.66 The all-intermediate subchord cocycle has a datum-finite enstrophy endpoint and carries the Gold action
+
+For every \(0<\theta<1\), write
+
+\[
+y=z-\theta\rho n,
+\qquad
+x=z+(1-\theta)\rho n,
+\]
+
+\[
+A=u(z)-u(y),
+\qquad
+B=u(x)-u(z),
+\qquad
+V=A+B,
+\]
+
+and define the affine interpolation residual
+
+\[
+C=(1-\theta)A-\theta B.
+\]
+
+The two child incidences are pulled back in the endpoint gauges belonging to
+the same intermediate point:
+
+\[
+m_A=m(z,\theta\rho,n,1),
+\qquad
+m_B=m(z,(1-\theta)\rho,n,0),
+\]
+
+while \(m_P=m(z,\rho,n,\theta)\).  The velocity cocycle gives
+
+\[
+\boxed{
+\mathfrak m
+:=\theta m_A+(1-\theta)m_B-m_P
+=\frac{|C|^2}
+{\pi^2\theta(1-\theta)\rho^2}
+\ge0.
+}
+\]
+
+With
+
+\[
+\pi_c
+=p(z)-[(1-\theta)p(y)+\theta p(x)],
+\]
+
+the exact complete evolution is
+
+\[
+\boxed{
+\partial_t\mathfrak m
++\nabla_z\cdot\mathfrak J_z
++\rho^{-4}\partial_\rho(\rho^4\mathfrak f)
++\operatorname{div}_{S^2}\mathfrak j
+=\nu\Delta_z\mathfrak m-2\nu\mathfrak g,
+}
+\]
+
+where
+
+\[
+\boxed{
+\mathfrak J_z
+=u(z)\mathfrak m
++Cm_P
++\frac{2\pi_cC}
+{\pi^2\theta(1-\theta)\rho^2},
+}
+\]
+
+\[
+\boxed{
+\mathfrak f
+=(n\cdot A)m_A
++(n\cdot B)m_B
+-(n\cdot V)m_P,
+}
+\]
+
+\[
+\mathfrak j
+=\frac{I-n\otimes n}{\rho}
+(Am_A+Bm_B-Vm_P),
+\]
+
+\[
+\boxed{
+\mathfrak g
+=\frac{|\nabla_zC|^2}
+{\pi^2\theta(1-\theta)\rho^2}
+\ge0.
+}
+\]
+
+Thus center transport, radial motion, angular turning, slaved pressure, and
+viscous heat are rows of one cocycle tangent.  The point--point law appears
+only after the complete intermediate-point coordinate is marginalized.
+
+The all-intermediate marginals are
+
+\[
+\mathfrak M(\rho)
+=\frac2{\rho^2}\int_0^\rho sM(s)ds-M(\rho),
+\]
+
+\[
+\mathfrak F(\rho)
+=\frac2\rho\int_0^\rho F(s)ds-F(\rho),
+\]
+
+\[
+\mathfrak G(\rho)
+=\frac2{\rho^2}\int_0^\rho sG_\Delta(s)ds-G_\Delta(\rho).
+\]
+
+At the midpoint,
+
+\[
+\mathfrak M_{1/2}(\rho)=M(\rho/2)-M(\rho)\ge0,
+\]
+
+and for every base radius \(R>0\),
+
+\[
+\boxed{
+\sum_{j\in\mathbb Z}
+\mathfrak M_{1/2}(2^jR)
+=M(0)-M(\infty)
+=\frac4{3\pi}K.
+}
+\]
+
+Consequently the kinetic-energy identity gives the datum-finite
+all-refinement expenditure
+
+\[
+\boxed{
+\nu\int_{t_0}^{t_1}
+\sum_{j\in\mathbb Z}
+\mathfrak M_{1/2}(2^jR,t)dt
+\le\frac4{3\pi}\mathcal E_0.
+}
+\]
+
+Affine cancellation also makes the critical logarithmic endpoint finite:
+
+\[
+\boxed{
+\int_0^\infty\mathfrak M(\rho)\frac{d\rho}\rho
+=\frac2{3\pi}K,
+\qquad
+\int_0^\infty\mathfrak G(\rho)\frac{d\rho}\rho
+=\frac2{3\pi}D_2.
+}
+\]
+
+Since
+
+\[
+\lim_{\rho\downarrow0}\frac{F(\rho)}\rho
+=-\frac8{15\pi}\mathcal P_\omega,
+\]
+
+the current endpoint is
+
+\[
+\boxed{
+-5\int_0^\infty
+\frac{\mathfrak F(\rho)}{\rho^2}d\rho
+=\frac4{3\pi}\mathcal P_\omega.
+}
+\]
+
+The logarithmically weighted all-intermediate law is therefore exactly
+
+\[
+\boxed{
+\frac12K'+\nu D_2=\mathcal P_\omega.
+}
+\]
+
+With the remaining VPI expenditure
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+a'=-2\nu I,
+\]
+
+this becomes
+
+\[
+\boxed{
+(aK)'+2\nu IK
+=2a(\mathcal P_\omega-\nu D_2).
+}
+\]
+
+The VPI geometry \(K\ge3I\) then gives
+
+\[
+\boxed{
+6\nu\int_{t_0}^{t_1}I^2dt
++a(t_1)K(t_1)
+\le
+a(t_0)K(t_0)
++2\int_{t_0}^{t_1}
+a[\mathcal P_\omega-\nu D_2]_+dt.
+}
+\]
+
+Thus the Gold action is already a depletion row of the complete
+all-intermediate cocycle.  Its positive rebuilding channel is the same
+cubic radial current \(\mathfrak f\).  The positive cocycle stock and heat
+are even under instantaneous velocity reversal, while \(\mathfrak f\) is
+odd; its sign is the phase relation between the affine parent slope and the
+subchord slope variance, not a sign inherited from viscosity or pressure in
+isolation.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
