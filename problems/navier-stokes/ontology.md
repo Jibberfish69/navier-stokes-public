@@ -13484,7 +13484,15 @@ D(e^{\sigma\Delta}P\|e^{\sigma\Delta}Q)=+\infty.
 
 The unregularized Fisher and source rows are therefore not separately finite.
 
-The exact finite-\(\varepsilon\) reverse law is
+With
+
+\[
+\mathfrak F_{{\rm KM},\varepsilon}^{\rm rev}
+:=-\left.\frac d{d\sigma}\right|_{0+}
+D(e^{\sigma\Delta}Q\|e^{\sigma\Delta}P_\varepsilon)\ge0,
+\]
+
+the exact finite-\(\varepsilon\) reverse law is
 
 \[
 \boxed{
@@ -13775,6 +13783,204 @@ Thus the fixed palinstrophy tier is not a separately owned viscous
 mechanism.  It is simultaneous with storage replenishment, critical-height
 growth, and the vorticity--chord mismatch.
 
+### F7.49 The physical critical mean obeys one joined entropy law, and the Gold action is exactly log-radius participation mass
+
+Retain
+
+\[
+y=bk,
+\qquad
+\Xi_E=\frac{E_U}{bH_U},
+\qquad
+\rho_H=\frac K{2H}.
+\]
+
+Substituting the span tangent
+
+\[
+(\log\Xi_E)_\vartheta
+=1-\frac{y}{2E_U}-(\log H_U)_\vartheta
+\]
+
+and the storage law
+
+\[
+y_\vartheta+y=\mathscr R_K
+\]
+
+into F7.48's complete joined tangent gives
+
+\[
+\boxed{
+(\log(y\Xi_E))_\vartheta
++\frac b k\mathcal V
++\frac{y}{2E_U}
+=\frac{2b}{k}\mathcal B_{\omega,\tau}.
+}
+\]
+
+But
+
+\[
+y\Xi_E=\frac{\mathcal EK}{\nu^2H},
+\qquad
+(\log\mathcal E)_\vartheta=-\frac{y}{2E_U}.
+\]
+
+Therefore the energy row cancels inside the same physical frequency
+coordinate and leaves
+
+\[
+\boxed{
+(\log\rho_H)_\vartheta
++\frac b k\mathcal V
+=\frac{2b}{k}\mathcal B_{\omega,\tau}.
+}
+\]
+
+This is a scalar marginal of the all-field relation, not a scalar mechanism.
+Indeed, with \(m=\ell\rho_H=k/(2H_U)\) and
+\(\beta=(\log\ell)_s\), the complete identity
+
+\[
+H_U(m_s-\beta m)+\mathcal V=2\mathcal B_{\omega,\tau}
+\]
+
+returns the boxed law directly.  Integrated over a classical log-radius
+interval,
+
+\[
+\boxed{
+\log\frac{\rho_H(\vartheta_1)}{\rho_H(\vartheta_0)}
++\int_{\vartheta_0}^{\vartheta_1}\frac b k\mathcal V\,d\vartheta
+=2\int_{\vartheta_0}^{\vartheta_1}
+\frac b k\mathcal B_{\omega,\tau}\,d\vartheta.
+}
+\]
+
+Thus a positive physical mean-frequency episode pays both its rise and the
+simultaneous adjacent-rung heat gap through the one joined source.
+
+The same clock identifies the Gold action exactly.  Since
+
+\[
+\vartheta_t=\frac{2I}{\nu R_a},
+\qquad
+b=\frac{R_aI}{\nu^2},
+\]
+
+one has
+
+\[
+\boxed{
+\int_{t_0}^{T}I(t)^2\,dt
+=\frac{\nu^3}{2}
+\int_{\vartheta(t_0)}^{\vartheta(T)}b(\vartheta)\,d\vartheta.
+}
+\]
+
+Hence infinite Gold action is infinite total reciprocal-participation mass
+across logarithmic loss of remaining VPI radius.  Since \(k>3\), it also
+forces \(\int y\,d\vartheta=\infty\), and the storage law gives infinite
+cumulative replenishment by the complete vortex-stretching-minus-palinstrophy
+row.  In the bounded reciprocal terminal corridor of F7.48, the
+positive-density maintenance set has \(\mathcal V\ge d_*/2\), so
+
+\[
+\int\frac b k\mathcal V\,d\vartheta=\infty,
+\qquad
+\int\frac b k[\mathcal B_{\omega,\tau}]_+\,d\vartheta=\infty.
+\]
+
+The infinitely renewed object is therefore not a sequence of scalar pulses:
+it is infinite positive joined action simultaneously paying physical
+mean-frequency rise and a broad adjacent spectral heat gap.
+
+### F7.50 Every monotone shrinking chord selector has datum-finite complete record flux
+
+For the scale-resolved chord density of F7.38, retain
+
+\[
+\partial_tM+\rho^{-4}\partial_\rho(\rho^4F)
+=-2\nu G_\Delta.
+\]
+
+Let \(R(t)>0\) be absolutely continuous and nonincreasing.  Define
+
+\[
+\mathcal C(t)=\int_0^{R(t)}\rho^4M(\rho,t)d\rho,
+\qquad
+\mathcal G(t)=\int_0^{R(t)}\rho^4G_\Delta(\rho,t)d\rho,
+\]
+
+\[
+\mathcal J(t)=-R(t)^4F(R(t),t).
+\]
+
+The moving complete-incidence law is
+
+\[
+\boxed{
+\mathcal C'
+=\mathcal J-2\nu\mathcal G+R'R^4M(R,t).
+}
+\]
+
+Put
+
+\[
+\overline{\mathcal C}(t)=\sup_{t_0\le q\le t}\mathcal C(q),
+\qquad
+\mathcal R_{R(\cdot)}
+=\{\mathcal C=\overline{\mathcal C}\}.
+\]
+
+On the full moving contact set, including maintenance plateaux,
+
+\[
+\mathcal J
+=\mathcal C'+2\nu\mathcal G-R'R^4M(R,t)\ge0.
+\]
+
+The universal all-chord bounds
+
+\[
+M(\rho,t)\le\frac{32}{\pi}\frac{\mathcal E(t)}{\rho^2},
+\qquad
+G_\Delta(\rho,t)\le\frac{16}{\pi}\frac{K(t)}{\rho^2}
+\]
+
+pay all three record rows:
+
+\[
+\overline{\mathcal C}(t_1)-\overline{\mathcal C}(t_0)
+\le\frac{32}{3\pi}\mathcal E_0R_0^3,
+\]
+
+\[
+2\nu\int\mathcal G\,dt
+\le\frac{32}{3\pi}\mathcal E_0R_0^3,
+\qquad
+\int(-R')R^4M(R,t)dt
+\le\frac{32}{3\pi}\mathcal E_0R_0^3.
+\]
+
+Consequently,
+
+\[
+\boxed{
+\int_{\mathcal R_{R(\cdot)}}
+[\mathcal J(t)]_+dt
+\le\frac{32}{\pi}\mathcal E_0R_0^3.
+}
+\]
+
+This includes every selector \(R(t)=\lambda R_a(t)\).  Continuous migration
+through an uncountable family of progressively finer physical chord radii
+therefore cannot recount the initial reserve: the complete inward current at
+a moving record must pay the envelope rise, the gradient-increment heat
+square, and the incidence physically removed by selector contraction.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -13792,6 +13998,8 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-083-monotone-moving-chord-record-entropy-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-082-critical-mean-joined-entropy-gold-mass-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-081-remaining-radius-energy-span-reciprocal-renewal-density-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-080-vorticity-chord-relative-entropy-sign-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-079-active-aperture-entropy-complete-cotangent-law-20260714.md`
