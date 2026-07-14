@@ -11676,6 +11676,233 @@ VPI work.  No autonomous convex entropy of the unsigned Gram field can remove
 the joined source.  The signed cocycle, its slaved pressure, its radial
 transport, and its viscous square must remain one object.
 
+### F7.39 Remaining expenditure is a one-way chord radius, and intrinsic contraction has a joined incidence--Fisher floor
+
+Retain the complete signed chord cocycle and intrinsic variables of F7.38.
+The remaining VPI expenditure defines the physical length
+
+\[
+R_a(t)=\frac{a(t)}{\nu^2}
+=\frac2\nu\int_t^T I(q)\,dq.
+\]
+
+It obeys
+
+\[
+\boxed{
+R_a'(t)=-\frac{2I(t)}\nu,
+\qquad
+\int_{t_0}^{t_1}I(t)^2dt
+=\frac{\nu^2}{4}\int_{t_0}^{t_1}|R_a'(t)|^2dt.
+}
+\]
+
+Thus finite VPI expenditure is finite distance travelled by \(R_a\), while
+the Gold supplier is its squared-speed action. In Gold variables,
+
+\[
+R_a=\ell b,
+\qquad
+(R_a)_s=-2\ell,
+\qquad
+b_s+\beta b=-2.
+\]
+
+The physical remaining radius never rebuilds. Rebuilding of \(b=R_a/\ell\)
+is relative contraction of the instantaneous VPI length.
+
+With \(\rho=\ell r\), normalize the radial marginals by
+
+\[
+\mathcal M=\frac\ell{\nu^2}M(\ell r,t),
+\quad
+\mathcal F=\frac{\ell^2}{\nu^3}F(\ell r,t),
+\quad
+\mathcal G=\frac{\ell^3}{\nu^2}G_\Delta(\ell r,t).
+\]
+
+The complete all-field law becomes
+
+\[
+\boxed{
+\mathcal M_s-\beta\partial_r(r\mathcal M)
++r^{-4}\partial_r(r^4\mathcal F)=-2\mathcal G.
+}
+\]
+
+For every admissible \(w=w(b,r)\), with endpoint fluxes retained or
+vanishing as appropriate,
+
+\[
+\boxed{
+\begin{aligned}
+\left(\int w\mathcal M\,dr\right)_s
+={}&-\beta\int(rw_r+bw_b)\mathcal M\,dr
+-2\int w_b\mathcal M\,dr\\
+&+\int\left(w_r-\frac{4w}{r}\right)\mathcal F\,dr
+-2\int w\mathcal G\,dr.
+\end{aligned}
+}
+\]
+
+Intrinsic contraction therefore couples to joint Euler homogeneity in
+\((b,r)\), not to an independently chosen pair statistic.
+
+For \(w=(1-r)_+\), put
+
+\[
+\mathcal A=\int_0^1(1-r)\mathcal M\,dr,
+\quad
+\mathcal J=\int_0^1r\mathcal M\,dr,
+\quad
+\mathcal V=\int_0^1(1-r)\mathcal G\,dr,
+\]
+
+\[
+\mathcal S=-\int_0^1\left(\frac4r-3\right)\mathcal F\,dr.
+\]
+
+Then
+
+\[
+\boxed{\mathcal A_s-\beta\mathcal J+2\mathcal V=\mathcal S.}
+\]
+
+The exact Fourier--chord formulas and
+\(1-\sin z/z\ge z^2/7\) on \([0,1]\) give, for
+\(\alpha=[-\beta]_+\),
+
+\[
+\boxed{
+\alpha\mathcal J+2\mathcal V
+\ge\frac4{7\pi}\min\{\alpha,\alpha^{1/3}\}K_U
+\ge\frac{12}{7\pi}\min\{\alpha,\alpha^{1/3}\}.
+}
+\]
+
+The last inequality uses \(I(U)=1\) and \(K_U\ge3\). At a fixed intrinsic
+radius \(R\),
+
+\[
+\alpha\mathcal J_R+2\mathcal V_R
+\ge\frac{12}{7\pi}
+\min\{\alpha R,\alpha^{1/3}R^{-1/3}\}.
+\]
+
+Moving incidence to shorter chords can therefore make \(\mathcal J\) small
+only by increasing the simultaneous gradient-increment Fisher row. The two
+rows cannot be separated. Indeed, normalized concentrations
+
+\[
+U_\kappa(y)=\sqrt{\frac\kappa{I(U_0)}}U_0(\kappa y)
+\]
+
+retain \(I(U_\kappa)=1\) and fixed \(K(U_\kappa)\) while
+\(\mathcal J_\kappa\to0\); \(\mathcal V\) is what preserves the joined
+floor.
+
+There is a complementary homogeneity rigidity. Let
+
+\[
+W_{R_a}(\rho)=R_a\Phi(\rho/R_a),
+\qquad
+C_\Phi=\int_0^\infty\Phi(z)z^{-2}dz<\infty.
+\]
+
+Then the increment envelope gives
+
+\[
+\mathscr E_\Phi
+:=\int W_{R_a}M\,d\rho
+=a\int\Phi(r/b)\mathcal M(r)dr
+\le\frac{32}{\pi}C_\Phi\mathcal E_0.
+\]
+
+Writing \(z=r/b\), its exact evolution is
+
+\[
+\boxed{
+\begin{aligned}
+(\mathscr E_\Phi)_s
+=\frac ab\Bigg\{
+&2\int(z\Phi'-\Phi)\mathcal M\,dr
++\int\left(\Phi'-\frac{4\Phi}{z}\right)\mathcal F\,dr\\
+&-2b\int\Phi\mathcal G\,dr
+\Bigg\}.
+\end{aligned}
+}
+\]
+
+The \(\beta\)-term cancels identically. Every instantaneous moving-chord
+entropy with a kinetic-energy ceiling rides \(R_a=\ell b\) and is blind to
+relative dilation. Multiplication by \(b^p\) produces the contraction charge
+\(p\mathscr E_{p,\Phi}[-\beta]_+\), but its only energy envelope is
+proportional to \(b^p\). Matching \(b[-\beta]_+\) requires \(p=1\) and a
+lower bound \(\mathscr E_{1,\Phi}\gtrsim b\), which the normalized
+concentration family rules out for every localized kernel.
+
+The first scalar scale-position coordinate with unit dilation is logarithmic.
+With
+
+\[
+\mathcal C=\int\mathcal M\,dr=\frac{4H}{\nu^2},
+\qquad
+\overline L=\mathcal C^{-1}\int\log r\,\mathcal M(r)dr,
+\]
+
+one has
+
+\[
+\boxed{
+\begin{aligned}
+\overline L_s=-\beta+\frac1{\mathcal C}\Bigg{
+&\int[1-4(\log r-\overline L)]\frac{\mathcal F}{r}dr\\
+&-2\int(\log r-\overline L)\mathcal G\,dr
+\Bigg\}.
+\end{aligned}
+}
+\]
+
+It is scale-unbounded and its joined flux--viscosity row is signed. More
+generally, a scalar \(\Psi(b,\overline L)\) carrying coefficient \(b\)
+against \(-\beta\) must satisfy
+
+\[
+b\Psi_b+\Psi_{\overline L}=b,
+\]
+
+and hence
+
+\[
+\boxed{\Psi=b+\Gamma(\overline L-\log b).}
+\]
+
+It is the original \(b\) plus a dilation-invariant shape readout. At the
+zero-chord edge,
+
+\[
+\mathcal M(0)=\frac{4k}{3\pi},
+\qquad
+(bk)_s+2k+2bd_2=bj.
+\]
+
+Adding a constant \(c\) gives
+
+\[
+[b(k+c)]_s+2(k+c)+2b(d_2+cx_U)=b(j+2cn_U),
+\]
+
+whose shape-adjoint cancellation forces \(c=6\), exactly as in F7.38.
+
+The physical conclusion is sharp. Intrinsic contraction always pays through
+the joined incidence--Fisher row, and high-frequency escape strengthens that
+payment. But every datum-finite instantaneous scalar erases relative
+contraction by homogeneity, while every dilation-sensitive scalar returns the
+same critical joined current. The lawful continuation is therefore the
+two-time fate of the same signed cocycle incidence: present contraction paired
+with its later all-field transport, pressure redistribution, and Fisher loss,
+not another cutoff, independent pulse count, or viscosity-only ledger.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -11693,6 +11920,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-072-remaining-radius-homogeneity-contraction-fisher-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-071-intrinsic-gold-clock-complete-chord-record-law-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-070-critical-mean-frequency-participation-recombination-20260713.md`
 - `theorem-construction/codex-goal-ontology-cycle-069-stored-enstrophy-terminal-stretching-breadth-gate-20260713.md`
