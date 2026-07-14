@@ -17672,6 +17672,255 @@ raw radial phase current exactly.  Hence the self-consistent payment and the
 normalized radial covariance are distinct rows of the same all-field law,
 not interchangeable scalar conditions.
 
+### F7.69 The centered active residual has a sharp Jordan reserve, while its Gold cotangent and radial adjoint are rigid
+
+Let
+
+\[
+\xi=h-r,
+\qquad
+w=\frac{r_+}{\tau},
+\qquad
+d\sigma=w\xi m\,d\Omega.
+\]
+
+The active residual is centered at every field point:
+
+\[
+\int\xi m\,d\rho\,d\sigma d\theta=0.
+\]
+
+Its total variation has the sharp pointwise estimate
+
+\[
+r_+\mathbb E_{\chi_z}|h-r|
+\le r_+\sqrt{\mathbb E_{\chi_z}h^2-r^2}
+\le\frac12\|S\|_{\rm op}^2
+\le\frac13|S|^2.
+\]
+
+Consequently
+
+\[
+\boxed{
+\mathcal R_w:=\|\sigma\|_{\rm TV}\le\frac K6,
+\qquad
+2\nu\int_0^T\mathcal R_wdt
+\le\frac{\mathcal E_0}{3}.
+}
+\]
+
+If
+
+\[
+a(t)=2\nu\int_t^TI(q)dq,
+\qquad
+e(t)=\nu\int_t^TK(q)dq,
+\]
+
+then
+
+\[
+\boxed{
+\int_t^Ta\mathcal R_wdq
+\le\frac{e(t)^2}{12\nu}.
+}
+\]
+
+Thus the centered, not merely uncentered, zero-order active incidence has a
+datum-finite remaining-expenditure-weighted Jordan action.
+
+The complete Gold cotangent is rigid.  At one active center put
+
+\[
+\tau=\int m,
+\qquad
+s=\int hm,
+\qquad
+r=\frac s\tau,
+\qquad
+G=\frac12\left(\frac{s_+}{\tau}\right)^2.
+\]
+
+Then
+
+\[
+\boxed{
+DG[\delta m,\delta h]
+=w\int m\delta h
++w\int(h-r)\delta m.
+}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\mathcal G
+=\frac12\int_{\{r>0\}}
+\frac{h^2-(h-r)^2}{\tau}\,d\mu
+=\frac I2,
+\qquad
+N=\mathcal G'+\nu X.
+}
+\]
+
+Any instantaneous \(C^1\) incidence-local stock required to reproduce the
+complete joined source for all completed-incidence tangents must annihilate
+the vertical kernel of \((m,h)\mapsto(\tau,s)\), factor through
+\((\tau,s)\), and satisfy
+
+\[
+F_s=\frac{s_+}{\tau^2},
+\qquad
+F_\tau=-\frac{s_+^2}{\tau^3}.
+\]
+
+Therefore
+
+\[
+\boxed{
+F=\frac12\left(\frac{s_+}{\tau}\right)^2+\text{constant}.
+}
+\]
+
+The conditional variance in the Pythagorean representation cancels rather
+than furnishing a second positive reserve.  A fiber entropy necessarily has
+its own signed vertical-source rows.
+
+The centered residual has the exact complete tangent
+
+\[
+\boxed{
+\begin{aligned}
+D_t\sigma
+&+\nabla_z\cdot(w\xi\Gamma)
++\partial_\rho(v_\rho\sigma)
++\operatorname{div}_{S^2}(\dot n\sigma)\\
+&=\nu\Delta_z\sigma+Q_\sigma-4\alpha\sigma,
+\end{aligned}
+}
+\]
+
+where, with
+
+\[
+\mathcal A_\xi
+=\mathbf B:n\otimes n-\widetilde{\mathcal F}_r,
+\]
+
+\[
+\begin{aligned}
+Q_\xi={}&m\left[
+\mathcal A_\xi+\dot n\cdot\nabla_{S^2}h
+\right]
++\Gamma\cdot\nabla\xi\\
+&-2\nu\left(\nabla\xi\cdot\nabla m+\xi g\right),
+\end{aligned}
+\]
+
+\[
+Q_\sigma
+=wQ_\xi
++\xi m(D_t-\nu\Delta)w
++\xi\Gamma\cdot\nabla w
+-2\nu\nabla w\cdot\nabla(\xi m).
+\]
+
+This keeps pressure increment, pressure Hessian, center transport, angular
+turning, radial motion, normalization, and both heat slots in one tangent.
+After center and direction integration, set
+
+\[
+\Sigma(\rho)=\int\sigma,
+\qquad
+\mathcal A(\rho)=\int\alpha\sigma,
+\qquad
+\mathcal Q(\rho)=\int Q_\sigma.
+\]
+
+Then
+
+\[
+\boxed{
+\partial_t\Sigma+\partial_\rho(\rho\mathcal A)
+=\mathcal Q-4\mathcal A.
+}
+\]
+
+For
+
+\[
+S_{k,R}=\int_0^R\rho^k\Sigma d\rho,
+\quad
+C_{k,R}=\int_0^R\rho^k\mathcal A d\rho,
+\quad
+Q_{k,R}=\int_0^R\rho^k\mathcal Qd\rho,
+\]
+
+every absolutely continuous moving radius obeys
+
+\[
+\boxed{
+S_{k,R}'+(4-k)C_{k,R}
+=Q_{k,R}+R^k\bigl(R'\Sigma(R)-R\mathcal A(R)\bigr).
+}
+\]
+
+At the completed endpoint, \(S_{0,\infty}=0\), so
+
+\[
+\boxed{
+N_{\rm rad}=-4C_{0,\infty}=-Q_{0,\infty}.
+}
+\]
+
+At \(k=4\) the radial covariance disappears, but the fourth Mellin stock is
+generally unbounded.
+
+For a bounded log-radius selector
+
+\[
+\psi_R(\rho)=\psi\!\left(\log\frac\rho R\right),
+\]
+
+the selector row at \(R_a=a/\nu^2\) satisfies
+
+\[
+\boxed{
+a\left|\int(\partial_t\psi_{R_a})d\sigma\right|
+\le\frac\nu3IK
+\|\partial_{\log\rho}\psi_{R_a}\|_\infty.
+}
+\]
+
+The motion of the physical remaining radius is therefore strictly below the
+simultaneous \(2\nu IK\) cocycle depletion for a unit-slope selector.  But
+comparison with the full radial covariance leaves
+
+\[
+\boxed{
+\mathcal C_\psi
+=\int_0^\infty\mathcal A(\rho)
+\bigl[\rho\psi_\rho+4(1-\psi)\bigr]d\rho.
+}
+\]
+
+This commutator vanishes for every centered tangent only when
+
+\[
+\rho\psi_\rho+4(1-\psi)=0,
+\qquad
+\boxed{\psi=1+C\rho^4.}
+\]
+
+Boundedness on \((0,\infty)\) forces \(C=0\).  The resulting constant stock
+vanishes by centering; the nontrivial exact adjoint is the unbounded fourth
+Mellin moment.  Hence no bounded instantaneous aperture converts the
+critical centered radial drift into a positive Gold entropy.  The next
+lawful object must be history-level or dynamically adjoint rather than a
+second local scalar primitive.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -17689,6 +17938,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-102-active-residual-cotangent-mellin-selector-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-101-active-incidence-jordan-action-normalized-radial-covariance-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-100-incidence-projection-phase-alignment-scalar-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-099-all-intermediate-subchord-cocycle-gold-endpoint-20260714.md`
