@@ -14680,6 +14680,442 @@ forward Umegaki retains the fixed \(-\Delta\) coordinate but is unbounded and
 has a signed complete score.  None of these complete state entropies gives a
 sign-definite, datum-finite production for positive joined action.
 
+### F7.53 Critical-mean transfer has a heat-gap or scale-decayed-record payment, with a signed subrecord branch
+
+For the physical radial energy density \(e(r,t)\), let
+
+\[
+\partial_te+\partial_r\Pi_{\rm rad}=-2\nu r^2e,
+\qquad
+\int T(r)dr=0,
+\qquad
+\Pi_{\rm rad}(r)=\int_r^\infty T(q)dq.
+\]
+
+With
+
+\[
+H=\int re(r)dr,
+\qquad
+K=2\int r^2e(r)dr,
+\qquad
+m=\rho_H=\frac K{2H},
+\]
+
+the joined source is the complete pressure-projected transfer centered
+against its simultaneous critical mean:
+
+\[
+\boxed{
+2\mathcal B_{\omega,\tau}
+=\int r(r-m)T(r)dr
+=\int(2r-m)\Pi_{\rm rad}(r)dr.
+}
+\]
+
+For
+
+\[
+d\mu_H(r)=\frac{re(r)}H\,dr,
+\]
+
+the adjacent-rung heat gap obeys
+
+\[
+\boxed{
+\mathcal V_H
+=H\mathbb E_{\mu_H\otimes\mu_H}
+[(r-r')^2(r+r')]
+\ge H(2\operatorname{Var}_{\mu_H}r)^{3/2}.
+}
+\]
+
+Thus, if less than \(\delta\) of \(\mu_H\) lies in
+\([(1-\varepsilon)m,(1+\varepsilon)m]\), then
+
+\[
+\boxed{
+\mathcal V_H
+\ge2^{3/2}(1-\delta)^{3/2}\varepsilon^3Hm^3.
+}
+\]
+
+For the running record \(\kappa(t)=\sup_{q\le t}m(q)\), \(\alpha>0\),
+and bounded nonnegative nondecreasing \(\phi\), put
+
+\[
+Z_{\alpha,\phi}
+=\kappa^{-\alpha}\int\phi(r/\kappa)e(r)dr.
+\]
+
+Its exact tangent is
+
+\[
+\boxed{
+Z_{\alpha,\phi}'
+=\mathcal F_{\alpha,\phi}
+-\mathcal H_{\alpha,\phi}
+-\mathcal S_{\alpha,\phi},
+}
+\]
+
+where
+
+\[
+\mathcal F_{\alpha,\phi}
+=\kappa^{-\alpha-1}\int\phi'(r/\kappa)\Pi_{\rm rad}(r)dr,
+\]
+
+\[
+\mathcal H_{\alpha,\phi}
+=2\nu\kappa^{-\alpha}\int r^2\phi(r/\kappa)e(r)dr\ge0,
+\]
+
+\[
+\mathcal S_{\alpha,\phi}
+=\frac{\kappa'}{\kappa^{\alpha+1}}
+\int[\alpha\phi(z)+z\phi'(z)]e(r)dr\ge0.
+\]
+
+On records of \(Z_{\alpha,\phi}\),
+
+\[
+\boxed{
+\int[\mathcal F_{\alpha,\phi}]_+dt
+\le\mathcal E_0\kappa_0^{-\alpha}
+\left[
+2\|\phi\|_\infty
++\frac{\sup_z(\alpha\phi+z\phi')}{\alpha}
+\right].
+}
+\]
+
+At \(\alpha=0\), the selector row becomes
+\(\mathcal E_0\int d\log\kappa\).  Positive scale decay therefore has a
+datum-finite record reserve; the scale-critical selector keeps the full
+octave count.
+
+Cycle 083's moving chord current is
+
+\[
+\mathcal J_R
+=\frac{16}{\pi}R^3
+\int\frac{j_2(Rr)}r\Pi_{\rm rad}(r)dr.
+\]
+
+At \(R=c/m\), near-mean critical mass gives only
+
+\[
+\mathcal C_{c/m}\gtrsim_{c,\varepsilon}
+\delta\frac H{m^4},
+\]
+
+which can decrease.  The exact same-field anatomy is therefore: critical
+separation pays \(\mathcal V_H\); contact with a scale-decayed moving stock
+pays datum-finite record flux; or normalized near-mean participation remains
+subrecord while its absolute incidence shrinks.  The last branch retains the
+signed centered transfer and cannot be replaced by a one-radius positive
+current.
+
+### F7.54 Positive active-center entropy erases the internal signed chord fiber
+
+Let
+
+\[
+f=r_+,
+\qquad
+p=\frac{f^2}{I},
+\qquad
+q=\frac\tau{4H},
+\qquad
+\eta=f\widetilde{\mathcal F}_r-\nu|\nabla f|^2.
+\]
+
+The two complete normalized center tangents are
+
+\[
+\boxed{
+\mathcal Lp=d\Sigma_I
+:=\frac{2\eta}{I}-\frac{I'}I,p,
+\qquad
+\int d\Sigma_I=0,
+}
+\]
+
+\[
+\boxed{
+\mathcal Lq=d\Sigma_H
+:=\frac{\mathcal F_\tau}{4H}-\frac{H'}H,q,
+\qquad
+\int d\Sigma_H=0.
+}
+\]
+
+For every convex \(C^2\) function \(\Phi\), with \(h=p/q\),
+
+\[
+\boxed{
+\frac d{dt}\int q\Phi(h)dx
++\nu\int q\Phi''(h)|\nabla h|^2dx
+=\int\Phi'(h)d\Sigma_I
++\int[\Phi(h)-h\Phi'(h)]d\Sigma_H.
+}
+\]
+
+In particular, forward KL satisfies
+
+\[
+\boxed{
+\mathscr D'+\nu\mathscr F
+=\operatorname{Cov}_p
+\left(\gamma_I,\log\frac pq\right)
++(\mathbb E_q-\mathbb E_p)\gamma_H,
+}
+\]
+
+where \(\gamma_I=2\eta/f^2\) and
+\(\gamma_H=\mathcal F_\tau/\tau\).  The total rate \(I'/I\) is centered
+out exactly.
+
+The bounded triangular discrimination
+
+\[
+\Delta_\triangle=\int\frac{(p-q)^2}{p+q}dx
+\]
+
+has the finite law
+
+\[
+\boxed{
+\begin{aligned}
+\Delta_\triangle'
+&+8\nu\int\frac{|q\nabla p-p\nabla q|^2}{(p+q)^3}dx\\
+&=\int\left(1-\frac4{(1+h)^2}\right)d\Sigma_I
++\int\frac{1+2h-3h^2}{(1+h)^2}d\Sigma_H.
+\end{aligned}
+}
+\]
+
+Let
+
+\[
+d\Gamma=\frac{m}{4H}\,dz,d\rho,d\sigma,d\theta,
+\qquad
+d\chi_z=\frac m\tau\,d\rho,d\sigma,d\theta,
+\qquad
+d\Gamma_I=p(z)dz\,d\chi_z.
+\]
+
+Then
+
+\[
+\boxed{
+\frac{d\Gamma_I}{d\Gamma}=\frac pq,
+\qquad
+D_\Phi(\Gamma_I\|\Gamma)=D_\Phi(p\|q).
+}
+\]
+
+Every positive divergence of the faithful lift therefore deletes the internal
+\((\rho,n,\theta)\) location of the chord action.  This is forced by the VPI
+ordering.  With
+
+\[
+a_z(\rho,n,\theta)=-S(z):n\otimes n,
+\]
+
+one has
+
+\[
+\boxed{
+r(z)=\mathbb E_{\chi_z}a_z,
+\qquad
+p(z)\propto[\mathbb E_{\chi_z}a_z]_+^2.
+}
+\]
+
+Taking \((a_z)_+\) before the expectation reverses this order and overcounts
+signed cancellation.  An exact nonconstant heat shear has
+\(r=0\) while \((a_z)_+\not\equiv0\), so such a pre-positive chord entropy
+charges a VPI-null fluid.
+
+Remaining-expenditure weighting does not restore the lost scale.  Exact
+frequency-\(N\) ABC heat histories have fixed energy and fixed normalized
+center entropy, while
+
+\[
+\int_0^\infty I_{A,N}^2dt
+=\frac{A^4N^2I_U^2}{4\nu}.
+\]
+
+The exact fixed-energy critical-rise dilation has base center-entropy
+variation but Gold action scaling like \(A^3\).  The lawful scale-resolved
+object preserving the VPI order is therefore signed:
+
+\[
+\boxed{
+c(z,\rho)
+=\int[-S(z):n\otimes n]m(z,\rho,n,\theta)d\sigma d\theta,
+}
+\]
+
+\[
+\boxed{
+C_z(R)=\int_0^Rc(z,\rho)d\rho,
+\qquad
+r_+^2
+=\left[\frac{C_z(\infty)}{\tau(z)}\right]_+^2.
+}
+\]
+
+### F7.55 The complete joined source is the ultraviolet boundary minus the critical mean of one invertible chord current
+
+For the Cycle-083 stock and current,
+
+\[
+\mathcal C_R
+=\frac{16}{\pi}R^3\int W(Rr)e(r)dr,
+\qquad
+\mathcal J_R
+=\frac{16}{\pi}R^3\int\frac{j_2(Rr)}r\Pi(r)dr.
+\]
+
+The current transform is invertible:
+
+\[
+\boxed{
+\Pi(r)
+=\frac{r^3}{8}\int_0^\infty
+\frac{\mathcal J_R}{R}j_2(Rr)dR.
+}
+\]
+
+Its Mellin transforms satisfy
+
+\[
+\mathfrak C(q)=d_C(q)\int r^{q-4}e(r)dr,
+\qquad
+\mathfrak J(q)=d_J(q)\int r^{q-5}\Pi(r)dr,
+\]
+
+with
+
+\[
+d_C(q)
+=\frac{2^{7-q}}{\sqrt\pi}
+\frac{\Gamma(3-q/2)}
+{(q-1)(q-4)\Gamma((q-1)/2)},
+\]
+
+\[
+d_J(q)
+=\frac{2^{6-q}}{\sqrt\pi}
+\frac{\Gamma(3-q/2)}{\Gamma((q+1)/2)}.
+\]
+
+The critical moment and adjacent residues are
+
+\[
+\boxed{
+\mathfrak C(5)=H,
+\qquad
+\mathfrak J(5)=P_H,
+}
+\]
+
+\[
+\boxed{
+\lim_{q\uparrow6}(6-q)\mathfrak C(q)
+=\frac{4}{15\pi}K,
+\qquad
+\lim_{q\uparrow6}(6-q)\mathfrak J(q)
+=\frac{8}{15\pi}\mathcal P_\omega.
+}
+\]
+
+Equivalently,
+
+\[
+\boxed{
+P_H=\int_0^\infty\frac{\mathcal J_R}{R^5}dR,
+\qquad
+\mathcal P_\omega
+=\frac{15\pi}{8}
+\lim_{R\downarrow0}\frac{\mathcal J_R}{R^5}.
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+2\mathcal B_{\omega,\tau}
+=\frac{15\pi}{8}
+\lim_{R\downarrow0}\frac{\mathcal J_R}{R^5}
+-m\int_0^\infty\frac{\mathcal J_R}{R^5}dR.
+}
+\]
+
+The all-scale relationship is complete: vortex stretching is its ultraviolet
+boundary current, while critical work is its finite continuum mean.
+
+Every positive scale mixture with
+
+\[
+A_w=\int_0^\infty w(R)R^3dR<\infty
+\]
+
+has the record payment
+
+\[
+\boxed{
+\int_{\mathcal R_w}[\mathcal J_w]_+dt
+\le\frac{64}{3\pi}\mathcal E_0A_w.
+}
+\]
+
+Gaussian mixing removes every Bessel zero.  If
+
+\[
+G_\lambda=\int_0^\infty re^{-\lambda r^2}\Pi(r)dr,
+\]
+
+then its mixed-stock records obey
+
+\[
+\boxed{
+\int[G_\lambda]_+dt\le\frac{2\mathcal E_0}{\lambda}.
+}
+
+But
+
+\[
+\boxed{
+\frac{\mathcal P_\omega}{2}=G_0,
+\qquad
+P_H=\frac1{\sqrt\pi}
+\int_0^\infty\lambda^{-1/2}G_\lambda d\lambda,
+}
+\]
+
+so
+
+\[
+\boxed{
+2\mathcal B_{\omega,\tau}
+=2G_0
+-\frac m{\sqrt\pi}
+\int_0^\infty\lambda^{-1/2}G_\lambda d\lambda.
+}
+\]
+
+The fixed-heat-scale reserve diverges like \(1/\lambda\) at the boundary
+needed for vortex stretching.  Completely monotone positive mixtures cannot
+absorb the sign-changing kernel \(2r-m\): exact recovery requires both the
+zero-heat-scale boundary and the signed critical subtraction.  The Gold
+source is thus located at the ultraviolet boundary of the complete all-chord
+continuum, not in a missing pair or an omitted intermediate radius.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
