@@ -23035,7 +23035,8 @@ This is true full-incidence homothety:
 \(\nabla_t^\Gamma E_\Gamma=0\).  It is stronger than radial motion of the
 center projection, which can hide fiber reorganization or projection
 rotation.  Exact homothety cannot create a nonzero ray from zero; affine
-source birth begins transversely.  At a nonzero eigenray contact, the first
+source birth is an inhomogeneous creation event before any radial direction
+exists.  At a nonzero eigenray contact, the first
 failure of persistence is
 
 \[
