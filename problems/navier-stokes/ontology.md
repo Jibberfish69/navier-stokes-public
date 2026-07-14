@@ -21910,19 +21910,33 @@ With
 \mathcal L_0\widetilde{\mathfrak q}),
 \]
 
-the exact moment tangent is
+the exact moment tangent under the current uniform spherical trace is
 
 \[
-\mathcal L_0\widetilde B
+=(D_t-\nu\Delta_z)\widetilde B
 =\widetilde P+\widetilde C
 -2\nu\mathbb E(
-\nabla\widetilde g:\nabla\widetilde{\mathfrak q}).
+\nabla\widetilde g:\nabla\widetilde{\mathfrak q})
++\mathcal A_B,
 \]
+
+where
+
+\[
+\mathcal A_B
+=-\mathbb E(\dot n_0\cdot\nabla_{S^2}
+(\widetilde g\cdot\widetilde{\mathfrak q}))
+=-3\mathbb E[(n\cdot Sn)
+\widetilde g\cdot\widetilde{\mathfrak q}]
+\]
+
+is the retained angular flux.  It is required because the uniform spherical
+trace is not invariant under chord turning.
 
 Thus the inverse-trace carrier is genuine positive curvature of the complete
 normalized slope/source block.  Its remaining-expenditure-weighted tangent
 also retains the next pressure-completed source, the heat cross-row,
-\(H'/H\), and boundary work.  It is not an automatic subtraction from the
+the angular flux, \(H'/H\), and boundary work.  It is not an automatic subtraction from the
 Cycle 115 scalar source: nonzero smooth ratio-one states can have both
 \(\mathcal S_Y=\nu\mathcal D_Y\) and \(\mathcal D_{\rm ang}>0\).
 
