@@ -24618,6 +24618,278 @@ This stress test is retained only at periodic scope; it is not an
 does not primitive the severity-weighted angular square even when passive
 high frequency and later active tail belong to one exact fluid history.
 
+### F7.105 The all-radius source first jet is the common upper--lower bridge
+
+Use complete incidence coordinates
+
+\[
+x=z+(1-\theta)\rho n,
+\qquad
+y=z-\theta\rho n,
+\qquad
+g=\frac{u(x)-u(y)}{\rho},
+\qquad
+m=\frac{|g|^2}{\pi^2},
+\]
+
+and
+
+\[
+d\Gamma=\frac{m}{4H}\,d\Omega,
+\qquad
+d\Omega=dz\,d\rho\,d\sigma(n)\,d\theta.
+\]
+
+For the active full-incidence amplitude, let
+
+\[
+Z_\Gamma
+=\mathcal T_\Gamma-\frac{R_\Gamma'}{R_\Gamma}\Theta
+\]
+
+be the best transverse residual, so
+
+\[
+\|Z_\Gamma\|_\Gamma^2
+=R_\Gamma\mathcal K_\Gamma.
+\]
+
+Absorb the moving incidence density:
+
+\[
+W=\sqrt{\frac{m}{4H}}\,Z_\Gamma.
+\]
+
+Define the fine trace and its radial first-jet heat by
+
+\[
+\mathscr T_0
+=\int|W(z,0,n,\theta)|^2\,dz\,d\sigma\,d\theta,
+\qquad
+\mathcal N_\rho
+=\int|\partial_\rho W|^2\,d\Omega.
+\]
+
+The exact half-line trace estimate gives
+
+\[
+\boxed{
+\mathscr T_0
+\le
+2\sqrt{
+R_\Gamma\mathcal K_\Gamma\mathcal N_\rho
+}.
+}
+\]
+
+The remaining double tail has Navier--Stokes scaling
+
+\[
+B_\lambda(t)=\lambda^{-3}B(\lambda^2t).
+\]
+
+Consequently
+
+\[
+\boxed{
+\ell_B=B^{1/3}
+}
+\]
+
+is the intrinsic physical collar length selected by the same future
+expenditure that weights Gold renewal.  Multiplication of the trace
+estimate by \(B^{4/3}/R_\Gamma\) gives
+
+\[
+\boxed{
+\frac{B^{4/3}}{R_\Gamma}\mathscr T_0
+\le
+B\mathcal K_\Gamma
++\frac{B^{5/3}}{R_\Gamma}\mathcal N_\rho.
+}
+\]
+
+More generally, for any complete tangent \(Q_\Gamma\), with
+\(W_Q=\sqrt{m/(4H)}Q_\Gamma\),
+
+\[
+\boxed{
+\frac{B^{4/3}}{R_\Gamma}\mathscr T_0[Q]
+\le
+\frac{B}{R_\Gamma}\|Q_\Gamma\|_\Gamma^2
++\frac{B^{5/3}}{R_\Gamma}\mathcal N_\rho[Q].
+}
+\]
+
+Away from homothetic contact take \(Q_\Gamma=Z_\Gamma\).  At exact contact
+take
+
+\[
+Q_\Gamma
+=\mathcal Y_\Gamma
+=\nabla_t^\Gamma Z_\Gamma,
+\]
+
+whose fine trace is strictly positive under nonzero active strain by
+F7.102.  The lower and upper laws therefore read the same object at
+successive material levels.
+
+The present velocity slope has the exact radial derivative
+
+\[
+\partial_\rho g
+=\frac{
+(1-\theta)\nabla u(x)n
++\theta\nabla u(y)n-g
+}{\rho}.
+\]
+
+With
+
+\[
+g_0
+=\frac{|\nabla_z\delta u|^2}{\pi^2\rho^2},
+\qquad
+D=\|\Lambda^{3/2}u\|_2^2,
+\]
+
+Plancherel gives
+
+\[
+\boxed{
+\frac1{\pi^2}\int|\partial_\rho g|^2d\Omega
+=\frac16D
+=\frac1{12}\int g_0\,d\Omega.
+}
+\]
+
+Thus raw radial nonaffinity of the present velocity chord is already a
+fixed part of the complete critical chord heat.  It is not the new source
+coordinate.
+
+Put
+
+\[
+a=D_tu=-\nabla p+\nu\Delta u,
+\qquad
+j=\frac{a(x)-a(y)}{\rho}.
+\]
+
+The endpoint-pair generator and incidence connection are
+
+\[
+D_{\rm pair}
+=\partial_t+b\cdot\nabla_z
++\rho\alpha\partial_\rho
++c\cdot\nabla_n,
+\]
+
+\[
+b=(1-\theta)u(y)+\theta u(x),
+\qquad
+\alpha=n\cdot g,
+\qquad
+c=P_n^\perp g,
+\]
+
+\[
+\nabla_t^\Gamma
+=D_{\rm pair}+\frac12\kappa_\Gamma,
+\qquad
+\kappa_\Gamma
+=-\frac{H'}H
++2\frac{g\cdot j}{|g|^2}
+-4\alpha.
+\]
+
+Their radial first jets are
+
+\[
+j_\rho
+=\frac{
+(1-\theta)\nabla a(x)n
++\theta\nabla a(y)n-j
+}{\rho},
+\]
+
+\[
+b_\rho
+=\theta(1-\theta)
+[\nabla u(x)-\nabla u(y)]n,
+\qquad
+\alpha_\rho=n\cdot g_\rho,
+\qquad
+c_\rho=P_n^\perp g_\rho,
+\]
+
+\[
+\begin{aligned}
+\kappa_{\Gamma,\rho}
+={}&
+2\frac{g_\rho\cdot j+g\cdot j_\rho}{|g|^2}
+-4\frac{(g\cdot j)(g\cdot g_\rho)}{|g|^4}
+-4n\cdot g_\rho.
+\end{aligned}
+\]
+
+Commuting \(\partial_\rho\) through the joined connection yields
+
+\[
+\boxed{
+\begin{aligned}
+\partial_\rho Z_\Gamma
+={}&
+\left(
+D_{\rm pair}+\frac12\kappa_\Gamma
+-\frac{R_\Gamma'}{R_\Gamma}
+\right)\partial_\rho\Theta\\
+&+b_\rho\cdot\nabla_z\Theta
++(\alpha+\rho\alpha_\rho)\partial_\rho\Theta
++c_\rho\cdot\nabla_n\Theta
++\frac12\kappa_{\Gamma,\rho}\Theta.
+\end{aligned}
+}
+\]
+
+Therefore
+
+\[
+\boxed{
+\mathcal N_\rho
+=\int\frac{m}{4H}
+\left|
+\partial_\rho Z_\Gamma
++\frac{g\cdot g_\rho}{|g|^2}Z_\Gamma
+\right|^2d\Omega.
+}
+\]
+
+Since
+
+\[
+\nabla a=-\nabla^2p+\nu\nabla\Delta u,
+\]
+
+the collar first jet contains the simultaneous radial-position and
+scale-shape motion of the slaved pressure and viscous acceleration, together
+with center, angular, normalization, and selector motion.  This is precisely
+the coordinate absent from a scalar \(aK\) law.
+
+The original split is consequently one same-fluid law:
+
+\[
+\boxed{
+\begin{aligned}
+\text{present all-field geometry}
+&\Longrightarrow
+\text{Gold-strength lower coercivity},\\
+\text{complete material first jet of that geometry}
+&\Longrightarrow
+\text{the matching history upper coordinate}.
+\end{aligned}
+}
+\]
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -24635,6 +24907,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-138-all-radius-source-first-jet-upper-lower-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-137-degree-three-covariant-cancellation-passive-active-separation-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-136-double-tail-temporal-renewal-likelihood-near-ray-axial-restarts-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-135-quantitative-near-eigenray-fine-source-departure-radial-trace-20260714.md
