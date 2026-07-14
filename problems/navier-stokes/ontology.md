@@ -13292,7 +13292,7 @@ then
 \int\eta=\frac q2
 \]
 
-and therefore
+Therefore
 
 \[
 d\sigma_{\rm reb}=2\eta\,dy,
@@ -13300,7 +13300,7 @@ d\sigma_{\rm reb}=2\eta\,dy,
 \sigma_{\rm reb}(\mathbb R^3)=q.
 \]
 
-and the full reselection row is
+The full reselection row is
 
 \[
 \boxed{
