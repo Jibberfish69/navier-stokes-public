@@ -31,7 +31,7 @@ datum-anchored fluid history obeying the same
 transport--pressure--viscosity--incompressibility law.**
 
 Every parcel, localization, derivative, mode, packet, shell, norm, and readout
-is constructed from the same fixed-viscosity solution ((u,p)), its initial
+is constructed from the same fixed-viscosity solution \(u,p\), its initial
 datum, or its material flow. Pressure, viscosity, vorticity, strain, and
 component calculations are coordinates or subordinate evidence, not separate
 physical participants.
@@ -798,4 +798,3 @@ None. A future card may be added only under the canonical write contract after
 the exact claim is proved at its stated scope, its same-participant meaning and
 non-implications are written, affected consumers are re-audited, and an
 existing card cannot be consolidated instead.
-
