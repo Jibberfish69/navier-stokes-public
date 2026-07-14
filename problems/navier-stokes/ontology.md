@@ -20212,6 +20212,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-110-pair-phase-convex-entropy-pressure-flux-uniqueness-reflection-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-109-positive-rebuilding-multiple-exercise-doob-jordan-occupation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-108-convex-compression-classification-doob-amplitude-shape-response-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-107-full-incidence-jacobian-quartic-pair-volume-renyi-anisotropy-20260714.md`
