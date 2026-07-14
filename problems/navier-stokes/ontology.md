@@ -16409,6 +16409,163 @@ supply the log-width, pressure-completed transport supplies the current,
 optimizer stationarity supplies the heat fraction, and the exact
 remaining-expenditure derivative orders every renewed positive episode.
 
+### F7.63 The canonical finite-radius-to-ultraviolet source has datum-finite remaining-weighted positive variation
+
+For the canonical joined state in F7.60, set
+
+\[
+E_*=\widehat{\mathcal J}_*-2\nu Q_*=\mathscr M',
+\qquad
+E_\omega=\mathcal P_\omega-\nu D_2=\frac12K'.
+\]
+
+Its exact net-current law is
+
+\[
+\boxed{
+\mathscr S'
+=\frac{c_*}{2}\frac{E_*}{\mathscr M}
++2\frac{E_\omega}{K}.
+}
+\]
+
+F7.62 gives, on every positive finite-radius episode,
+
+\[
+\mathscr M\ge\frac{h_\kappa\nu^2}{4L},
+\qquad
+[E_*]_+
+\le C_\kappa\frac{K^2}{\nu}L,
+\qquad
+C_\kappa=\frac{256W_\sharp}{45\pi^4}.
+\]
+
+Therefore
+
+\[
+\boxed{
+\frac{c_*}{2}\frac{[E_*]_+}{\mathscr M}
+\le
+\frac{2c_*C_\kappa}{h_\kappa}
+\frac{K^2}{\nu^3}L^2.
+}
+\]
+
+At the ultraviolet endpoint, energy tangency centers the complete source
+against its best Laplacian eigenshell.  With
+
+\[
+\delta_{\rm sh}
+=1-\frac{K^2}{2\mathcal E D_2}
+\in[0,1],
+\]
+
+\[
+\boxed{
+[E_\omega]_+
+\le
+\frac{\delta_{\rm sh}^2K^3}{16\pi^4\nu^3}
+\le
+\frac{K^3}{16\pi^4\nu^3}.
+}
+\]
+
+On the reciprocal corridor,
+
+\[
+\frac{aI}{\nu^4}\le b_+,
+\qquad
+\frac KI\le k_+,
+\qquad
+-da=2\nu I\,dt,
+\]
+
+every nonnegative \(F(a)\) obeys
+
+\[
+\int a\frac{K^2}{\nu^3}F(a)dt
+\le
+\frac{b_+k_+^2}{2}
+\int_0^{a(t_0)}F(a)da.
+\]
+
+Let
+
+\[
+\Lambda_\kappa
+=\ell_\kappa
++\log\left(
+1+\frac{8b_+k_+}{h_\kappa^2}
+\right).
+\]
+
+Since \(a(t_0)\le\mathcal E_0\) and the logarithmic width in F7.62 satisfies
+
+\[
+\int_0^{a(t_0)}L(a)^2da
+\le
+\mathcal E_0
+\left(
+\Lambda_\kappa^2+2\Lambda_\kappa+2
+\right),
+\]
+
+the complete canonical positive variation is datum finite:
+
+\[
+\boxed{
+\begin{aligned}
+\int_{t_0}^{T}a[\mathscr S']_+dt
+\le{}&
+b_+k_+^2\mathcal E_0
+\biggl[
+\frac{c_*C_\kappa}{h_\kappa}
+\left(
+\Lambda_\kappa^2+2\Lambda_\kappa+2
+\right)\\
+&\hspace{42mm}
++\frac1{16\pi^4}
+\biggr].
+\end{aligned}
+}
+\]
+
+This pays every relative positive rebuilding episode at both ends of the
+canonical scalar current.
+
+The exact information left outside those two traces is the conditional
+signed fiber.  At fixed \(\tau\) and completed endpoint, the perturbation
+
+\[
+q_\lambda=q_0+\lambda\tau\omega\phi,
+\qquad
+\int\omega\phi\,ds=0,
+\]
+
+preserves
+
+\[
+\int q_\lambda ds=\tau r,
+\]
+
+but changes the Gold fiber by
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal H_{2,\omega}(q_\lambda)
+={}&\mathcal H_{2,\omega}(q_0)
++\lambda\int\frac{q_0}{\tau}\phi\,ds\\
+&+\frac{\lambda^2}{2}\int\omega\phi^2ds.
+\end{aligned}
+}
+\]
+
+Thus F7.63 exhausts the finite-radius and ultraviolet scalar source.  Any
+remaining Gold-scale rebuilding is a center- and radius-dependent
+signed-fiber motion inside those marginals, not an unpaid component of
+pressure, viscosity, or either canonical current trace.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -16426,6 +16583,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-096-canonical-joined-source-remaining-positive-variation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-095-critical-envelope-complete-current-remaining-weight-absorption-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-094-log-fiber-gold-entropy-heat-convexity-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-093-canonical-envelope-ultraviolet-joined-entropy-20260714.md`
