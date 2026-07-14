@@ -123,11 +123,22 @@ write_sequence:
 validation:
   command: ruby problems/navier-stokes/tools/check_ontology_contract.rb
   regression_test: ruby problems/navier-stokes/tools/check_ontology_contract_test.rb
+  consumer_anchor_scan:
+    roots:
+      - problems/navier-stokes
+    extensions:
+      - md
+      - yaml
+      - yml
+      - json
+    excluded_prefixes:
+      - problems/navier-stokes/ontology-archive/
   fail_closed_on:
     - map size cap exceeded
     - frozen snapshot changed or source bytes lost
     - legacy fact address missing or renamed
     - unresolved target-operating-contract ontology anchor
+    - unresolved lane-local ontology anchor
     - post-cutover card missing a required field
     - post-cutover card status outside the allowed proved classes
     - display mathematics or append-only source ledger added to the map
