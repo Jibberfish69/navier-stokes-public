@@ -16426,6 +16426,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-095-critical-envelope-complete-current-remaining-weight-absorption-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-094-log-fiber-gold-entropy-heat-convexity-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-093-canonical-envelope-ultraviolet-joined-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-092-critical-log-chord-replicator-entropy-translation-classification-20260714.md`
