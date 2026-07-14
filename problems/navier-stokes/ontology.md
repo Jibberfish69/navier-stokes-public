@@ -20709,6 +20709,267 @@ Avoiding its unlimited rectification requires either the full Gold/source
 activity itself, a signed monotone-record law, or a raw pre-readout channel
 law; another endpoint entropy cannot supply it.
 
+### F7.80 The signed scale/source telescope lifts to a positive slope--source block, while Gold remains its canonical-angle current
+
+Let
+
+\[
+Lg_j=\mathfrak q_j,
+\qquad
+L=D_{\rm pair}-\nu\Delta_z,
+\]
+
+and put
+
+\[
+m_j=\frac{|g_j|^2}{\pi^2},
+\quad
+\beta_j=\frac{2g_j\cdot\mathfrak q_j}{\pi^2},
+\quad
+p_j=\frac{|\nabla g_j|^2}{\pi^2}.
+\]
+
+Then
+
+\[
+\boxed{
+\beta_{j+1}-\beta_j
+=L(m_{j+1}-m_j)+2\nu(p_{j+1}-p_j).
+}
+\]
+
+Hence the complete signed scale sum is the endpoint law
+
+\[
+\boxed{
+\beta_L-\beta_J
+=L(m_L-m_J)+2\nu(p_L-p_J).
+}
+\]
+
+The higher-frequency heat row is paid as a signed Fisher difference; taking
+positive parts rung by rung destroys this telescope.
+
+If
+
+\[
+V_{j+1}-V_j=L(D_j^Z+C_j^Z)
+\]
+
+and \(\Psi_j\) is the adaptive Gold cotangent, summation by parts gives
+
+\[
+\boxed{
+\begin{aligned}
+\sum_{j=J}^{L-1}
+\langle\Psi_j,L(D_j^Z+C_j^Z)\rangle
+={}&\langle\Psi_{L-1},V_L\rangle
+-\langle\Psi_J,V_J\rangle\\
+&-\sum_{j=J+1}^{L-1}
+\langle\Psi_j-\Psi_{j-1},V_j\rangle.
+\end{aligned}
+}
+\]
+
+The final sum is the exact scale--time cotangent/source covariance.
+
+For the convex Gold perspective
+
+\[
+F_S(\mathsf K)
+=\frac{(-S:\mathsf K)^2}
+{2\tau\operatorname{tr}\mathsf K},
+\]
+
+write (d=\operatorname{tr}\mathsf K\),
+\(\mathsf R=\mathsf K/d\), and (y=-S:\mathsf R\).  Its gradient and
+Hessian are
+
+\[
+D_{\mathsf K}F_S
+=-\frac y\tau S-rac{y^2}{2\tau}I
+\]
+
+and
+
+\[
+\boxed{
+D_{\mathsf K}^2F_S[A,B]
+=\frac{((S+yI):A)((S+yI):B)}{\tau d}.
+}
+\]
+
+For adjacent scale tensors the directed Bregman stock is exactly
+
+\[
+\boxed{
+\mathfrak B_j
+=\frac{d_{j+1}}{2\tau}(y_{j+1}-y_j)^2\ge0.
+}
+\]
+
+It is a genuine fixed-time scale-angle square and vanishes whenever
+
+\[
+\mathsf K_{j+1}=c\mathsf K_j,
+\qquad c>0.
+\]
+
+Its complete material tangent contains, at leading order,
+
+\[
+\boxed{
+D_{mathsf K}^2F_S
+[\Delta\mathsf K,L\Delta\mathsf K].
+}
+\]
+
+With \(\Delta\mathsf K=D_j^Z+C_j^Z\), this contains the dynamic center phase
+\(LC_j^Z\).  Convexity controls only
+\(D^2F_S[\Delta\mathsf K,\Delta\mathsf K]\), not the mixed material value.
+Scale summation and remaining-expenditure weighting leave the same signed
+covariance, and the Bregman stock has no lower bound by the Gold rate.
+
+Completing the mixed square reveals the exact higher diagonal.  Put
+
+\[
+Z_j=\begin{pmatrix}g_j\\\mathfrak q_j\end{pmatrix},
+\qquad
+\delta Z_j
+=\begin{pmatrix}\Delta_j\\\delta\mathfrak q_j\end{pmatrix}.
+\]
+
+The center-pushed block Gram tensor
+
+\[
+\mathbb X_j^Z
+=\pi^{-2}\mathcal T_Z
+[n\otimes n\otimes Z_jZ_j^T]
+\]
+
+obeys
+
+\[
+\boxed{
+\mathbb X_{j+1}^Z
+=\mathbb X_j^Z+\mathbb D_j^Z+\mathbb C_j^Z,
+}
+\]
+
+where
+
+\[
+\mathbb D_j^Z
+=\pi^{-2}\mathcal T_Z
+[n\otimes n\otimes\delta Z_j\delta Z_j^T]\succeq0
+\]
+
+and the signed block phase \(\mathbb C_j^Z\) integrates to zero over all
+physical centers.  If
+
+\[
+\mathbb X=\begin{pmatrix}G&B\\B^T&P\end{pmatrix},
+\]
+
+then
+
+\[
+\boxed{P-B^TG^\dagger B\succeq0.}
+\]
+
+The Gold source is a cotangent-weighted off-diagonal reading of (B\).  The
+new positive diagonal is precisely source innovation not predicted by the
+slope increment, including \(|\delta\mathfrak q_j|^2\) with slaved pressure
+inside \(\mathfrak q_j\).
+
+If (L\mathfrak q_j=\mathfrak r_j\), the block material law is
+
+\[
+\boxed{
+L\mathbb X_j
+=2\mathbb E(R_j\odot Z_j)
+-2\nu\mathbb E(\nabla Z_j\otimes\nabla Z_j),
+\qquad
+R_j=\begin{pmatrix}\mathfrak q_j\\\mathfrak r_j\end{pmatrix}.
+}
+\]
+
+Trace retains the signed next work \(\mathfrak q\cdot\mathfrak r\).  For
+\(M=\varepsilon I+\mathbb X\),
+
+\[
+\begin{aligned}
+L\log\det M
+={}&2\operatorname{tr}
+[M^{-1}\mathbb E(R\odot Z)]\\
+&-2\nu\operatorname{tr}
+[M^{-1}\mathbb E(\nabla Z\otimes\nabla Z)]\\
+&+\nu\sum_k\operatorname{tr}
+[(M^{-1}\partial_k\mathbb X)^2].
+\end{aligned}
+\]
+
+The work term is signed and the viscous terms have no fixed combined sign.
+The positive refinement log determinant imports the un-paid source-square
+diagonal; evolving that diagonal begins the next derivative block.
+
+Normalize the off-diagonal by
+
+\[
+\mathcal C=G^{-1/2}BP^{-1/2}=U\Sigma V^T.
+\]
+
+Schur and determinant entropies see only \(\Sigma^2\).  They are unchanged by
+
+\[
+B\mapsto-B,
+\]
+
+which reverses Gold work.  Atomically that work is
+
+\[
+\boxed{
+W_G
+=\frac{2\ell}{\pi^2\tau}
+\left(yh-\frac{y^2}{2}\right)
+|g|\,|\mathfrak q|
+\cos\vartheta_{g,\mathfrak q},
+\qquad
+h=-S:n\otimes n.
+}
+\]
+
+The surviving sign coordinate is
+
+\[
+\boxed{
+\chi_G
+=\operatorname{sgn}
+\left(yh-\frac{y^2}{2}\right)
+\cos\vartheta_{g,\mathfrak q}.
+}
+\]
+
+Thus source magnitude and higher-frequency penalty occupy the positive block
+diagonals, while positive rebuilding is repeated rotation of their canonical
+phase through the moving Gold half-space.  Its angular velocity is driven by
+the next pressure-completed source, heat, and cotangent rotation.  The complete
+state is
+
+\[
+\boxed{
+(\Phi_G;
+g_j,\mathfrak q_j,\Delta_j,\delta\mathfrak q_j;
+\mathbb X_j^Z,\mathbb D_j^Z,\mathbb C_j^Z;
+\chi_G,\mathfrak r_j;
+\mathcal F,\mathbf Q).
+}
+\]
+
+The signed scale telescope must remain intact until this phase is contracted
+with the complete Gold record; phase-even scalar entropies cannot pay its
+positive angular occupation.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -20726,6 +20987,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-113-slope-source-block-bregman-mixed-hessian-canonical-angle-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-112-covariant-renewal-edge-current-phase-gram-entropy-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-111-quartic-jordan-pullback-pair-gramian-dynamic-center-phase-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-110-pair-phase-convex-entropy-pressure-flux-uniqueness-reflection-20260714.md`
