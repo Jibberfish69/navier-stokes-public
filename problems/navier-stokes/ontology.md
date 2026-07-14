@@ -17230,6 +17230,183 @@ odd; its sign is the phase relation between the affine parent slope and the
 subchord slope variance, not a sign inherited from viscosity or pressure in
 isolation.
 
+### F7.67 The point-field and chord-field projections obey one phase-alignment scalar law
+
+On the complete incidence space
+
+\[
+\Omega=(y,\rho,n,\theta),
+\qquad
+Z=y+\theta\rho n,
+\qquad
+d\mu=m_Cdy\,d\rho\,d\sigma\,d\theta,
+\]
+
+put
+
+\[
+h=-n^TS(Z)n.
+\]
+
+Let \(P_Z\) and \(P_C\) be conditional expectation onto the center and
+complete-chord variables.  Then
+
+\[
+\boxed{
+P_Zh=r(Z),
+\qquad
+P_Ch=-\alpha_C,
+\qquad
+\alpha_C=\frac{n\cdot V_C}{\rho}.
+}
+\]
+
+These two marginals have norms
+
+\[
+\|P_Zh\|_\mu^2=\int\tau r^2dz,
+\qquad
+\|P_Ch\|_\mu^2=\int A(s)ds,
+\]
+
+and share the same signed current:
+
+\[
+\boxed{
+\int h\,d\mu
+=\int\tau r\,dz
+=P_H
+=\int(-\alpha_C)m_CdC.
+}
+\]
+
+Their exact compatibility defect is
+
+\[
+\boxed{
+\begin{aligned}
+\|P_Zh-P_Ch\|_\mu^2
+={}&\frac12\int m_C
+\iint[r(Z_\theta)-r(Z_{\theta'})]^2
+d\theta d\theta'\,dC\\
+&+\int m_C(\overline r_C+\alpha_C)^2dC,
+\end{aligned}
+}
+\]
+
+where \(\overline r_C=\int_0^1r(Z_\theta)d\theta\).  The first square is
+variation of the point-field VPI rate through every chord point; the second
+compares its chord mean with endpoint contraction.
+
+For a nonnegative center selector \(w\), define
+
+\[
+\overline w_C=\int_0^1w(Z_\theta)d\theta,
+\qquad
+\beta_w(C)
+=\frac{\int_0^1w(Z_\theta)h(Z_\theta,n)d\theta}
+{\overline w_C}.
+\]
+
+The localized radial work has the exact scalar form
+
+\[
+\boxed{
+f_w
+=\frac14\int m_C\rho\overline w_C
+\left[
+(\beta_w+\alpha_C)^2
+-(\beta_w-\alpha_C)^2
+\right]dC.
+}
+\]
+
+The positive square is phase alignment of endpoint contraction with
+selector-weighted compression through the complete chord; the negative
+square is their mismatch.  A center-constant selector gives
+\(\beta_w=-\alpha_C\), so its positive square vanishes identically.
+
+Equivalently, with
+
+\[
+c_C=\operatorname{Cov}_C(w,h),
+\]
+
+\[
+\boxed{
+\begin{aligned}
+f_w
+={}&-\int m_C\rho\overline w_C
+\left(
+\alpha_C-\frac{c_C}{2\overline w_C}
+\right)^2dC\\
+&+\frac14\int
+\frac{m_C\rho}{\overline w_C}c_C^2dC,
+\end{aligned}
+}
+\]
+
+and hence
+
+\[
+\boxed{
+[f_w]_+
+\le\frac14
+\int\frac{m_C\rho}{\overline w_C}
+\operatorname{Var}_C(w)
+\operatorname{Var}_C(h)dC.
+}
+\]
+
+The subchord cocycle pays one exact component of this law.  For the dyadic
+longitudinal midpoint defects \(d_J^\parallel\),
+
+\[
+\boxed{
+\operatorname{Var}_C(h)
+=\pi^2\sum_{j\ge0}
+\sum_{J\in\mathcal D_j}|J|d_J^\parallel,
+}
+\]
+
+and therefore
+
+\[
+\boxed{
+\nu\int_{t_0}^{t_1}
+\int\operatorname{Var}_C(h)dy\,d\sigma\,dt
+\le\frac{4\pi}{3}\mathcal E_0.
+}
+\]
+
+The localized alignment row also carries the parent incidence \(m_C\) and
+the selector factor
+\(\operatorname{Var}_C(w)/\overline w_C\).  This is an exact tier change.
+Indeed, with
+
+\[
+g(\theta)=\nabla u(Z_\theta)n,
+\qquad
+s=\int_0^1g(\theta)d\theta=\frac{V_C}{\rho},
+\]
+
+\[
+\boxed{
+m_C\operatorname{Var}_C(h)
+\le\frac1{2\pi^2}
+\left[
+\int_0^1|\nabla u(Z_\theta)n|^4d\theta
+-\left|\frac{V_C}{\rho}\right|^4
+\right].
+}
+\]
+
+Thus the datum-finite subchord entropy is a quadratic refinement gap, the
+incidence-weighted projection defect is quartic, and the active-selector
+covariance is cubic under amplitude scaling.  The additional tier is created
+inside the same fluid object by intense parent participation and variation of
+the selector through the chord.  It is not an independently owned source.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -17247,6 +17424,9 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-100-incidence-projection-phase-alignment-scalar-law-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-099-all-intermediate-subchord-cocycle-gold-endpoint-20260714.md`
+- `theorem-construction/codex-goal-ontology-cycle-098-gold-center-weight-commutator-derivative-tier-ultraviolet-boundary-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-097-recombined-gold-fiber-continuation-moment-commutator-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-096-canonical-joined-source-remaining-positive-variation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-095-critical-envelope-complete-current-remaining-weight-absorption-20260714.md`
