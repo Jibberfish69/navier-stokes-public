@@ -21286,6 +21286,160 @@ physically: any unbounded Gold history must supply infinite positive source
 action into this exact same-fluid product, even if the source merely maintains
 the product against heat rather than making its record rise.
 
+### F7.83 Two global participation angles factor every Gold record through the whole field
+
+Let
+
+\[
+K=2\int|S|^2dx,
+\qquad
+d\mu_S=\frac{2|S|^2}{K}dx,
+\qquad
+\zeta=\sqrt{\frac32}\frac{-S:\Pi}{|S|}.
+\]
+
+Since \(|\zeta|\le1\), the whole-field VPI participation fraction
+
+\[
+\wp_V=\int(\zeta_+)^2d\mu_S=\frac{3I}{K}
+\]
+
+defines an angle \(\wp_V=\cos^2\Theta_V\).  Then
+
+\[
+\boxed{
+I=\frac K3\cos^2\Theta_V,
+\qquad
+\sin^2\Theta_V
+=\frac{3I_-+6D_{\rm mis}}K.
+}
+\]
+
+Thus the angle contains both wrong-sign participation and directional
+mismatch.  With
+
+\[
+R=N-\nu X=\frac12I',
+\qquad
+E=\mathcal P_\omega-\nu D_2=\frac12K',
+\]
+
+its exact tangent is
+
+\[
+\boxed{
+R
+=\frac{\cos^2\Theta_V}{3}E
+-\frac K6\sin(2\Theta_V)\Theta_V'.
+}
+\]
+
+At every rising \(I\)-record, either the complete enstrophy tangent supplies
+at least half of \(R\), or closure of the all-field VPI angle supplies at
+least half.
+
+The historical envelope is stronger than the instantaneous split.  Since
+\(\overline I\le\overline K/3\), every decreasing \(a\ge0\) satisfies
+
+\[
+\boxed{
+\int a\,d\overline I
+\le
+\frac13\int a\,d\overline K
++a(t_0)
+\left(
+\frac{\overline K(t_0)}3-\overline I(t_0)
+\right).
+}
+\]
+
+Later VPI-angle catch-up to an older enstrophy record is read at a smaller
+remaining-expenditure weight.
+
+On the thin-aperture contraction face
+
+\[
+3^{5/2}H_U
+\frac{\sin^2\Theta_V}{\cos^5\Theta_V}
+<B_{\rm ap},
+\]
+
+the complete enstrophy is strictly falling.  A rising \(I\)-record there is
+pure angle closure.  Every connected intrinsic interval \(J=[s_a,s_c]\) on
+that face obeys
+
+\[
+\boxed{
+\frac1{\nu^4}\int_Ja\,d\overline I
+<b(s_a)\tan^2\Theta_V(s_a).
+}
+\]
+
+Uninterrupted thin-face closure therefore consumes only its entrance
+headroom; repetition requires reopening on the thick face.
+
+The product heat supplies a second global factorization.  With
+
+\[
+\mathcal D_Y=\mathscr M D+2HQ_*,
+\qquad
+c_Y=\frac{9\gamma}{32},
+\]
+
+define
+
+\[
+\wp_Y=\frac{c_YI^2}{\mathcal D_Y}
+=\cos^2\Theta_Y.
+\]
+
+Then
+
+\[
+\boxed{
+I=\sqrt{\frac{\mathcal D_Y}{c_Y}}\cos\Theta_Y,
+\qquad
+\frac{I'}I
+=\frac12\frac{\mathcal D_Y'}{\mathcal D_Y}
+-\tan\Theta_Y\Theta_Y'.
+}
+\]
+
+Every rising \(I\)-record therefore forces definite growth of the complete
+product heat or definite closure of its Gold-occupation angle.  The full heat
+tangent is
+
+\[
+\boxed{
+\mathcal D_Y'
+=D\widehat{\mathcal J}_*
++2Q_*P_H
++\mathscr M D'
++2HQ_*'
+-4\nu DQ_*.
+}
+\]
+
+On the record set the two factorizations coincide:
+
+\[
+\boxed{
+d\log\overline I
+=d\log K-2\tan\Theta_Vd\Theta_V
+=\frac12d\log\mathcal D_Y-\tan\Theta_Yd\Theta_Y.
+}
+\]
+
+Bounded angles do not imply bounded angle variation.  An exact
+scalar-consistency construction can keep \(I,K,\mathcal D_Y\) on increasing
+records, \(a'=-2\nu I\), \(b\) constant, and the energy tail finite while a
+bounded participation fraction oscillates with infinite positive variation.
+Likewise, reflecting the slope/source block reverses Gold work while
+preserving every phase-even angle stock.  The lawful all-field record must
+therefore retain the signed canonical phase \(\chi_G\), the next
+pressure-completed source, and the deformation/heat Gramian together with
+\(\Theta_V\) and \(\Theta_Y\).
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -21303,6 +21457,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-116-global-vpi-participation-angles-record-envelope-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-115-critical-chord-envelope-product-gold-heat-bridge-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-114-monotone-gold-record-scale-time-covariance-20260714.md
 - `theorem-construction/codex-goal-ontology-cycle-113-slope-source-block-bregman-mixed-hessian-canonical-angle-20260714.md`
