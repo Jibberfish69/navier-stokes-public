@@ -22320,6 +22320,164 @@ power retains that rate.  The complete positive curvature must therefore be
 handled in the full source direction rather than by another normalized
 scalar entropy.
 
+### F7.92 The full-incidence center is a moving projection with signed fiber exchange
+
+Let
+
+\[
+d\Gamma_t=\frac{m_t}{4H_t}d\Omega
+=p_H(z,t)\,dz\,d\chi_{z,t},
+\qquad P_t=P_Z,
+\qquad Q_t=1-P_t,
+\]
+
+and retain the signed-first incidence amplitude
+
+\[
+\Theta=4H\frac{r_+}{\tau}h,
+\qquad h=-S:n\otimes n.
+\]
+
+Cycle 107's endpoint cocycle gives
+
+\[
+\boxed{
+\Xi_{t,s}^*d\Gamma_t
+=\frac{H_s}{H_t}
+\frac{|\delta u_t|^2}{|\delta u_s|^2}
+\left(\frac{\rho_s}{\rho_t}\right)^4d\Gamma_s.
+}
+\]
+
+Its square-root pullback is an (L^2)-isometry.  The associated
+metric-compatible derivative has score
+
+\[
+\kappa_\Gamma
+=-\frac{H'}H
++2\frac{\delta u\cdot\delta(-\nabla p+\nu\Delta u)}
+{|\delta u|^2}
+-4\alpha.
+\]
+
+Thus trace normalization, slaved-pressure increment, viscosity, and
+quartic chord compression are one full-incidence connection.
+
+Conditional projection gives
+
+\[
+U=P_t\Theta=\frac{r_+^2}{p_H},
+\qquad
+V_\perp=Q_t\Theta
+=4H\frac{r_+}{\tau}(h-r),
+\]
+
+\[
+\mathcal G_V=\frac14\|U\|_\Gamma^2,
+\qquad
+\mathcal R_{\rm fib}=\frac14\|V_\perp\|_\Gamma^2.
+\]
+
+For the covariant projection derivative (\dot P),
+
+\[
+P\dot PP=Q\dot PQ=0.
+\]
+
+Consequently, with
+
+\[
+\mathfrak T_{Z\perp}
+=\frac12\langle U,\dot PV_\perp\rangle_\Gamma
+=\frac12\langle V_\perp,\dot PU\rangle_\Gamma,
+\]
+
+the exact exchange law is
+
+\[
+\boxed{
+\mathcal G_V'
+=\frac12\langle U,P\nabla_t^\Gamma\Theta\rangle_\Gamma
++\mathfrak T_{Z\perp},
+}
+\]
+
+\[
+\boxed{
+\mathcal R_{\rm fib}'
+=\frac12\langle V_\perp,Q\nabla_t^\Gamma\Theta\rangle_\Gamma
+-\mathfrak T_{Z\perp}.
+}
+\]
+
+The transfer is equal-and-opposite but signed, so current fiber variance is
+not a monotone reserve for center rebuilding.
+
+The center itself obeys the nodal-complete equation
+
+\[
+\boxed{
+(\mathcal L-2\nu\nabla\log\tau\cdot\nabla)U
+=\frac{2r_+\widetilde{\mathcal F}_r}{p_H}
+-\frac{2\nu|\nabla r_+|^2}{p_H}
+-\frac{r_+^2R_{p_H}}{p_H^2}.
+}
+\]
+
+Its effective source contains the moving-projection row
+
+\[
+Y_{Z,{\rm eff}}=P\mathscr S_\Theta+\dot PV_\perp;
+\]
+
+the bare projected source is not the complete all-field tangent.
+
+Cycle 120's harmonic uses uniform (S^2) measure.  The native incidence
+fiber uses (d\chi_z=(m/\tau)d\rho d\sigma d\theta), and generally
+
+\[
+\mathbb E_{\chi_z}[\mathcal H_3\cdot Mn]\ne0.
+\]
+
+The lawful lift therefore satisfies
+
+\[
+\|Q_ZY_{\mathcal H}\|_\Gamma^2
+=H\int\frac{\operatorname{Var}_{\chi_z}(\mathcal H_3)}{\tau}dz,
+\]
+
+not Cycle 120's uniform-sphere carrier.  No universal comparison exists.
+Moreover, a radial source addition leaves the harmonic fixed while changing
+the radial Gold cotangent.  Hence the datum-finite angular action cannot be
+used as payment for that radial action.
+
+Finally, Cycle 14's smooth 2D3C family
+
+\[
+u_\varepsilon=u_*-\varepsilon
+\mathbb P(u_*\cdot\nabla u_*)
+\]
+
+has
+
+\[
+\mathcal G_V=c_*\varepsilon^4+O(\varepsilon^5),
+\qquad
+D\mathcal G_V[\mathscr X_E]
+=4c_*\varepsilon^3+O(\varepsilon^4),
+\]
+
+with (c_*>0).  Amplitude scaling then gives
+
+\[
+\frac{[\mathcal S_{\rm rel}]_+}{\mathcal V_{\rm rel}}
+\to\infty.
+\]
+
+Thus the present relative heat square cannot universally absorb the joined
+source.  The lawful next object is the full material turning of the active
+Hilbert ray, with the pressure--transport--viscosity tangent left intact.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22337,6 +22495,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-125-moving-full-incidence-projection-anisotropic-fiber-exchange-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-123-active-pearson-square-root-gold-transform-full-incidence-cotangent-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-124-pearson-amplitude-shape-factorization-scalar-renormalization-classification-20260714.md
