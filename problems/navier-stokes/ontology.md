@@ -22215,6 +22215,111 @@ parallel one-way law
 \nu K\mathcal Z_V\ge\frac{3\nu}{2}I^2.
 \]
 
+### F7.91 Pearson amplitude--shape factorization classifies every scalar renormalization
+
+With
+
+\[
+h=\frac{p_I}{p_H},
+\qquad
+C_V=\int p_Hh^2dx
+=1+\chi^2(p_I\Vert p_H)
+=\frac{4\mathcal G_V}{I^2},
+\]
+
+put
+
+\[
+\gamma_\rho=\frac{F_\varrho}{\varrho},
+\qquad
+\gamma_\tau=\frac{\mathcal F_\tau}{\tau},
+\qquad
+d\mu_V=\frac{p_Hh^2}{C_V}dx.
+\]
+
+The complete source rate is
+
+\[
+\frac{\mathcal R_V}{\mathcal G_V}
+=2\mathbb E_{\mu_V}\gamma_\rho
+-\left(\mathbb E_{\mu_V}-\mathbb E_{p_H}\right)\gamma_\tau.
+\]
+
+The normalized Pearson shape obeys
+
+\[
+\boxed{
+C_V'+\mathcal P_\chi=\mathcal J_V,
+}
+\]
+
+\[
+\mathcal P_\chi=2\nu\int p_H|\nabla h|^2dx,
+\qquad
+\mathcal J_V
+=2\operatorname{Cov}_{p_I}(h,\gamma_\rho)
+-\operatorname{Cov}_{p_H}(h^2,\gamma_\tau).
+\]
+
+Equivalently,
+
+\[
+\boxed{
+\mathcal R_V
+=2\frac{I'}I\mathcal G_V
++\frac{I^2}{4}\mathcal J_V.
+}
+\]
+
+Thus common active growth and point--whole-field reallocation are the two
+exact scalar marginals of the same joined tangent.
+
+For any positive \(\Phi(I)\), with
+\(Y_\Phi=\mathcal G_V/\Phi(I)\) and
+\(\kappa=I\Phi'/\Phi\),
+
+\[
+\boxed{
+Y_\Phi'
++\frac{Y_\Phi}{C_V}\mathcal P_\chi
+=Y_\Phi\left[
+(2-\kappa)\frac{I'}I
++\frac{\mathcal J_V}{C_V}
+\right].
+}
+\]
+
+Canceling \(I'/I\) for every history forces \(\Phi=cI^2\), which leaves a
+shape-only stock and an \(O(I)\) remaining-expenditure drain.  The
+Gold-strength one-power stock
+
+\[
+P_V=\frac{4\mathcal G_V}{I}=IC_V\ge I
+\]
+
+instead obeys
+
+\[
+\boxed{
+\begin{aligned}
+(aP_V)'
+&+2\nu aI\int p_H|\nabla h|^2dx
++2\nu IP_V\\
+&=aP_V\left[
+\mathbb E_{\mu_V}(2\gamma_\rho-\gamma_H)
+-\frac{I'}I
+\right],
+\end{aligned}
+}
+\]
+
+and \(2\nu IP_V\ge2\nu I^2\).  More generally, every critical contraction
+\(Q_\theta=IC_V^\theta\) retains the exact common-amplitude rate
+\(I'/I\).  Removing that rate removes the Gold power; retaining the Gold
+power retains that rate.  The complete positive curvature must therefore be
+handled in the full source direction rather than by another normalized
+scalar entropy.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -22234,6 +22339,7 @@ The following are not hard facts and carry no premise weight here:
 
 - theorem-construction/codex-goal-ontology-cycle-122-angular-carrier-perspective-tangent-active-pearson-gold-law-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-123-active-pearson-square-root-gold-transform-full-incidence-cotangent-20260714.md
+- theorem-construction/codex-goal-ontology-cycle-124-pearson-amplitude-shape-factorization-scalar-renormalization-classification-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-121-tau-normalized-source-block-whole-field-gold-curvature-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-120-projective-angular-entropy-whole-field-trace-gold-tether-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-119-infinitesimal-angular-source-innovation-pressure-rigidity-20260714.md
