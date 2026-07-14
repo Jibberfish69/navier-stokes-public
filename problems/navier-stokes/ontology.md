@@ -14005,7 +14005,9 @@ For the scale-resolved chord density of F7.38, retain
 =-2\nu G_\Delta.
 \]
 
-Let \(R(t)>0\) be absolutely continuous and nonincreasing.  Define
+Let \(R(t)>0\) be absolutely continuous and nonincreasing on a compact
+classical interval, with the standard zero-radius and moving-boundary traces.
+Define
 
 \[
 \mathcal C(t)=\int_0^{R(t)}\rho^4M(\rho,t)d\rho,
@@ -14035,7 +14037,8 @@ Put
 =\{\mathcal C=\overline{\mathcal C}\}.
 \]
 
-On the full moving contact set, including maintenance plateaux,
+For almost every time on the full moving contact set, including maintenance
+plateaux,
 
 \[
 \mathcal J
@@ -14075,7 +14078,9 @@ Consequently,
 }
 \]
 
-This includes every selector \(R(t)=\lambda R_a(t)\).  Continuous migration
+This includes every selector \(R(t)=\lambda R_a(t)\) on compact intervals
+where \(R_a>0\); if \(R_a>0\) for every \(t<T\), the terminal statement
+follows by monotone convergence.  Continuous migration
 through an uncountable family of progressively finer physical chord radii
 therefore cannot recount the initial reserve: the complete inward current at
 a moving record must pay the envelope rise, the gradient-increment heat
