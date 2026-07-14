@@ -18123,7 +18123,7 @@ Then \(\int pds=1\), \(r=\int pyds\), and
 \mathcal H_{\rm cond}
 =\frac12\iint py^2dsdz,
 \qquad
-\frac I2\le\mathcal H_{\rm cond}\le\frac K4.
+\frac I2\le\mathcal H_{\rm cond}\le\frac K6.
 }
 \]
 
