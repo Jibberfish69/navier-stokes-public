@@ -21852,16 +21852,19 @@ Normalize the infinitesimal slope by the complete chord trace,
 \[
 \widetilde g=\tau^{-1/2}g,
 \qquad
-\mathcal L=D_t-\nu\Delta_z.
+\mathcal L_0
+=D_t+\dot n_0\cdot\nabla_{S^2}-\nu\Delta_z,
+\qquad
+\dot n_0=(I-n\otimes n)An.
 \]
 
-Using \(\mathcal Lg=\mathfrak q\) and
-\(\mathcal L\tau=\mathcal F_\tau\), the exact normalized source is
+Using \(\mathcal L_0g=\mathfrak q\) and
+\(\mathcal L_0\tau=\mathcal F_\tau\), the exact normalized source is
 
 \[
 \begin{aligned}
 \widetilde{\mathfrak q}
-:=\mathcal L\widetilde g
+:=\mathcal L_0\widetilde g
 ={}&\tau^{-1/2}\mathfrak q
 -\frac{\mathcal F_\tau}{2\tau^{3/2}}g
 -\frac{3\nu|\nabla\tau|^2}{4\tau^{5/2}}g\\
@@ -21898,19 +21901,19 @@ With
 \[
 \widetilde G=\mathbb E|\widetilde g|^2,
 \quad
-\widetilde B=\mathbb E(widetilde g\cdot
+\widetilde B=\mathbb E(\widetilde g\cdot
 \widetilde{\mathfrak q}),
 \quad
 \widetilde P=\mathbb E|\widetilde{\mathfrak q}|^2,
 \quad
-\widetilde C=\mathbb E(widetilde g\cdot
-\mathcal L\widetilde{\mathfrak q}),
+\widetilde C=\mathbb E(\widetilde g\cdot
+\mathcal L_0\widetilde{\mathfrak q}),
 \]
 
 the exact moment tangent is
 
 \[
-\mathcal L\widetilde B
+\mathcal L_0\widetilde B
 =\widetilde P+\widetilde C
 -2\nu\mathbb E(
 \nabla\widetilde g:\nabla\widetilde{\mathfrak q}).
