@@ -63,6 +63,16 @@ class OntologyContractCheckerTest < Minitest::Test
     end
   end
 
+  def test_rejects_an_unresolved_lane_consumer_anchor
+    with_fixture_root do |root|
+      path = root.join("problems/navier-stokes/theorem-construction/bad-link.md")
+      FileUtils.mkdir_p(path.dirname)
+      path.write("See problems/navier-stokes/ontology.md#missing-fact.\n")
+      errors = OntologyContractChecker.new(root: root).run
+      assert errors.any? { |error| error.include?("unresolved lane-local ontology anchors") }
+    end
+  end
+
   private
 
   def with_fixture_root
