@@ -17308,16 +17308,17 @@ For a nonnegative center selector \(w\), define
 {\overline w_C}.
 \]
 
-The localized radial work has the exact scalar form
+At fixed \(\rho\), write \(dC_\rho=dy\,d\sigma(n)\).  The localized radial
+work has the exact scalar form
 
 \[
 \boxed{
-f_w
+f_w(\rho)
 =\frac14\int m_C\rho\overline w_C
 \left[
 (\beta_w+\alpha_C)^2
 -(\beta_w-\alpha_C)^2
-\right]dC.
+\right]dC_\rho.
 }
 \]
 
@@ -17335,13 +17336,13 @@ c_C=\operatorname{Cov}_C(w,h),
 \[
 \boxed{
 \begin{aligned}
-f_w
+f_w(\rho)
 ={}&-\int m_C\rho\overline w_C
 \left(
 \alpha_C-\frac{c_C}{2\overline w_C}
-\right)^2dC\\
+\right)^2dC_\rho\\
 &+\frac14\int
-\frac{m_C\rho}{\overline w_C}c_C^2dC,
+\frac{m_C\rho}{\overline w_C}c_C^2dC_\rho,
 \end{aligned}
 }
 \]
@@ -17350,11 +17351,11 @@ and hence
 
 \[
 \boxed{
-[f_w]_+
+[f_w(\rho)]_+
 \le\frac14
 \int\frac{m_C\rho}{\overline w_C}
 \operatorname{Var}_C(w)
-\operatorname{Var}_C(h)dC.
+\operatorname{Var}_C(h)dC_\rho.
 }
 \]
 
