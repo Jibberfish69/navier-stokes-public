@@ -14124,6 +14124,198 @@ therefore cannot recount the initial reserve: the complete inward current at
 a moving record must pay the envelope rise, the gradient-increment heat
 square, and the incidence physically removed by selector contraction.
 
+### F7.51 Reciprocal renewal forces a centered all-field eigenshell defect
+
+In the intrinsic normalization of F7.45, retain
+
+\[
+2E_U=\|U\|_2^2,
+\qquad
+k=\|\Lambda U\|_2^2,
+\qquad
+d_2=\|\Lambda^2U\|_2^2,
+\]
+
+and let
+
+\[
+B_U=\mathbb P(U\cdot\nabla U),
+\qquad
+j=-2\langle B_U,\Lambda^2U\rangle.
+\]
+
+The complete pressure-projected nonlinearity is tangent to the kinetic-energy
+sphere:
+
+\[
+\boxed{\langle B_U,U\rangle=0.}
+\]
+
+Define its best Laplacian eigenshell and the corresponding absolute and
+relative defects by
+
+\[
+\lambda_*:=\frac{k}{2E_U},
+\]
+
+\[
+\boxed{
+\Delta_{\rm sh}
+:=\| (\Lambda^2-\lambda_*)U\|_2^2
+=d_2-\frac{k^2}{2E_U}
+=\min_{\lambda\in\mathbb R}
+\|(\Lambda^2-\lambda)U\|_2^2,
+}
+\]
+
+\[
+\boxed{
+\delta_{\rm sh}
+:=\frac{\Delta_{\rm sh}}{d_2}
+=1-\frac{k^2}{2E_Ud_2}.
+}
+\]
+
+For the complete energy probability
+
+\[
+d\mu_E(\eta)
+=\frac{|\widehat U(\eta)|^2}{2E_U}\,d\eta,
+\]
+
+this is exactly
+
+\[
+\boxed{
+\lambda_*=\mathbb E_{\mu_E}|\eta|^2,
+\qquad
+\Delta_{\rm sh}
+=2E_U\operatorname{Var}_{\mu_E}(|\eta|^2).
+}
+\]
+
+Energy tangency centers the entire enstrophy source on the same defect:
+
+\[
+\boxed{
+j=-2\langle B_U,(\Lambda^2-\lambda_*)U\rangle.
+}
+\]
+
+Using the same sharp Sobolev constant as the whole-source estimate gives
+
+\[
+\boxed{
+|j|
+\le A_*k^{3/4}d_2^{1/4}\Delta_{\rm sh}^{1/2}
+=A_*k^{3/4}d_2^{3/4}\delta_{\rm sh}^{1/2},
+\qquad
+A_*:=\frac4{\pi3^{3/4}}.
+}
+\]
+
+Optimization over the simultaneous palinstrophy therefore yields
+
+\[
+\boxed{
+j-2d_2
+\le\frac{\delta_{\rm sh}^2k^3}{8\pi^4}.
+}
+\]
+
+More strongly, whenever the exact reciprocal-storage tangent requires
+
+\[
+b(j-2d_2)\ge\gamma k,
+\qquad \gamma>0,
+\]
+
+the same field must satisfy
+
+\[
+\boxed{
+\delta_{\rm sh}
+\ge\frac{2\sqrt2\pi^2\sqrt\gamma}{k\sqrt b},
+\qquad
+\Delta_{\rm sh}
+\ge\sqrt2\pi^2\gamma^{3/2}b^{-3/2}.
+}
+\]
+
+At exact maintenance, \((bk)_s\ge0\), one has \(\gamma=2\), and hence
+
+\[
+\delta_{\rm sh}\ge\frac{4\pi^2}{k\sqrt b},
+\qquad
+\Delta_{\rm sh}\ge4\pi^2b^{-3/2},
+\qquad
+bk^2\ge16\pi^4.
+\]
+
+On F7.45's non-fast-drain set
+
+\[
+\mathcal G=\{(bk)_s\ge-k_-\},
+\]
+
+one has \(\gamma=1\).  Since that set has fixed positive lower density on a
+bounded reciprocal tail, a fixed positive fraction of the same intrinsic
+history carries a uniform off-shell defect.
+
+The charge is exactly scale critical.  With F7.49's Gold measure
+
+\[
+dG=b\,d\vartheta=2\,ds
+=\frac{2}{\nu^3}I^2dt,
+\]
+
+the defect law becomes
+
+\[
+\boxed{
+\Delta_{\rm sh}^{2/3}dG
+\ge2^{1/3}\pi^{4/3}\gamma\,d\vartheta.
+}
+\]
+
+In physical variables,
+
+\[
+\Delta_{\rm sh}^{\rm phys}
+=\min_\lambda\|(\Lambda^2-\lambda)u\|_2^2
+=\nu^2\ell^{-3}\Delta_{\rm sh},
+\]
+
+so
+
+\[
+\boxed{
+(\Delta_{\rm sh}^{\rm phys})^{2/3}dt
+=\frac{\nu^{1/3}}2\Delta_{\rm sh}^{2/3}dG.
+}
+\]
+
+In particular, on \(\mathcal G\),
+
+\[
+(\Delta_{\rm sh}^{\rm phys})^{2/3}dt
+\ge2^{-2/3}\pi^{4/3}\nu^{1/3}d\vartheta.
+\]
+
+This removes the scalar single-shell escape in F7.49.  If
+\(\Delta_{\rm sh}=0\), then energy tangency forces \(j=0\), and the exact
+storage law gives
+
+\[
+\boxed{(bk)_s=-2bd_2-2k<0.}
+\]
+
+Thus reciprocal rebuilding cannot be performed by a coherently translating
+single shell.  The same complete field must continually split away from its
+own instantaneous best eigenshell before its joined source can beat the
+palinstrophy created by that split.  The defect is a spectral marginal of the
+complete signed velocity field, not a separately evolving packet.
+
 ### F7.52 Complete material matrix entropies are finite on rank strata, but none supplies a positive joined-action charge
 
 Retain
@@ -14505,6 +14697,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-084-centered-eigenshell-source-renewal-defect-law-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-085-complete-material-matrix-entropy-rank-stratification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-083-monotone-moving-chord-record-entropy-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-082-critical-mean-joined-entropy-gold-mass-law-20260714.md`
