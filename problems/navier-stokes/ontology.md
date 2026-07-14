@@ -18214,6 +18214,319 @@ the material evolution of the radial-position and scale-shape projection.
 That projection, rather than another fixed scalar combination, is the
 lawful next all-field object.
 
+### F7.71 The adaptive projection covariance is bounded, but exact vertical cancellation spends the whole variance
+
+Let
+
+\[
+\mathcal D_\tau
+=D_t-\nu\Delta_z
+-2\nu\nabla\log\tau\cdot\nabla,
+\qquad
+\mathcal D_d
+=D_t-\nu\Delta_z
+-2\nu\nabla\log d\cdot\nabla.
+\]
+
+For the scale-resolved chord tensor \(\mathsf K\), put
+
+\[
+d=\operatorname{tr}\mathsf K,
+\qquad
+p=\frac d\tau,
+\qquad
+\mathsf R=\frac{\mathsf K}{d}.
+\]
+
+If \(\mathsf U\) is its complete pressure--transport--turning--heat source,
+define
+
+\[
+u=\operatorname{tr}\mathsf U,
+\qquad
+\mathcal K_p=\frac{u-pF_\tau}{\tau},
+\qquad
+\dot{\mathsf R}=\frac{\mathsf U-\mathsf R u}{d}.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal D_\tau p=\mathcal K_p,
+\qquad
+\mathcal D_d\mathsf R=\dot{\mathsf R},
+\qquad
+\int\mathcal K_pds=0,
+\qquad
+\operatorname{tr}\dot{\mathsf R}=0.
+}
+\]
+
+For every \(C^2\) tensor function \(\Phi\),
+
+\[
+\boxed{
+\mathcal D_\tau[p\Phi(\mathsf R)]
+=\mathcal K_p\Phi
++pD\Phi[\dot{\mathsf R}]
+-\nu pD^2\Phi[\nabla\mathsf R,\nabla\mathsf R].
+}
+\]
+
+Define
+
+\[
+\Pi=\int p\mathsf Rds,
+\qquad
+\mathsf A=\int p\mathsf R\otimes\mathsf Rds,
+\]
+
+\[
+\mathsf C
+=\mathsf A-\Pi\otimes\Pi
+=\int p(\mathsf R-\Pi)^{\otimes2}ds
+\succeq0.
+\]
+
+With
+
+\[
+\mathsf M=\int(\mathsf R\mathcal K_p+p\dot{\mathsf R})ds,
+\]
+
+\[
+\begin{aligned}
+\mathsf T_A=\int\bigl[
+&\mathcal K_p\mathsf R\otimes\mathsf R\\
+&+p(\dot{\mathsf R}\otimes\mathsf R
++\mathsf R\otimes\dot{\mathsf R})
+\bigr]ds,
+\end{aligned}
+\]
+
+\[
+\mathsf G_R
+=\sum_j\int p\,
+\partial_j\mathsf R\otimes\partial_j\mathsf Rds,
+\]
+
+the first two moments obey
+
+\[
+\boxed{
+\mathcal D_\tau\Pi=\mathsf M,
+\qquad
+\mathcal D_\tau\mathsf A
+=\mathsf T_A-2\nu\mathsf G_R.
+}
+\]
+
+Writing \(\delta\mathsf R=\mathsf R-\Pi\), put
+
+\[
+\begin{aligned}
+\mathsf T_C=\int\bigl[
+&\mathcal K_p\delta\mathsf R
+\otimes\delta\mathsf R\\
+&+p(\dot{\mathsf R}\otimes\delta\mathsf R
++\delta\mathsf R\otimes\dot{\mathsf R})
+\bigr]ds,
+\end{aligned}
+\]
+
+\[
+\mathsf G_\Pi
+=\sum_j\partial_j\Pi\otimes\partial_j\Pi.
+\]
+
+Then
+
+\[
+\boxed{
+\mathcal D_\tau\mathsf C
+=\mathsf T_C
+-2\nu(\mathsf G_R-\mathsf G_\Pi).
+}
+\]
+
+Both Fisher tensors are positive, but their difference has no sign.  Fixed
+weights with oppositely varying shapes make it positive; fixed shapes with
+spatially varying weights give \(\mathsf G_R=0\) and
+\(\mathsf G_\Pi>0\).  The same center heat can dissipate conditional shape
+variance or create it by mixing and radial-position reselection.
+
+As operators on symmetric matrices,
+
+\[
+\boxed{
+0\preceq\mathsf A\preceq\mathrm{Id},
+\qquad
+\operatorname{Tr}_{\rm op}\mathsf A\le1.
+}
+\]
+
+On trace-free symmetric matrices the sharp bounds are
+
+\[
+\boxed{
+\mathsf A\preceq\frac23\mathrm{Id},
+\qquad
+\mathsf C\preceq\frac12\mathrm{Id},
+\qquad
+\operatorname{Tr}_{\rm op}\mathsf C\le\frac23.
+}
+\]
+
+For
+
+\[
+y=-S:\mathsf R,
+\qquad
+r=-S:\Pi,
+\]
+
+define
+
+\[
+\mathcal H
+=\frac12\int S:\mathsf A:Sdz
+=\frac12\iint py^2dsdz,
+\]
+
+\[
+\mathcal V
+=\frac12\int S:\mathsf C:Sdz
+=\frac12\iint p(y-r)^2dsdz,
+\]
+
+\[
+\mathcal H_0
+=\mathcal H-\mathcal V
+=\frac12\int r^2dz.
+\]
+
+The sharp capacities are
+
+\[
+\boxed{
+\frac I2\le\mathcal H_0\le\mathcal H\le\frac K6,
+\qquad
+0\le\mathcal V\le\frac K8.
+}
+\]
+
+Let \(D_H=\iint p|\nabla y|^2\),
+\(D_0=\int|\nabla r|^2\), and let \(\mathcal R_H\),
+\(\mathcal R_0\) be the complete source contractions of the second and
+first moments.  Their exact laws are
+
+\[
+\mathcal H'+\nu D_H=\mathcal R_H,
+\qquad
+\mathcal H_0'+\nu D_0=\mathcal R_0,
+\]
+
+and hence
+
+\[
+\boxed{
+\mathcal V'+\nu(D_H-D_0)
+=\mathcal R_H-\mathcal R_0.
+}
+\]
+
+In operator form,
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal R_H-\mathcal R_0
+=\int\biggl[
+&-\mathbf B:\mathsf C S
++\frac12S:\mathsf T_C:S\\
+&+2\nu\int p(y-r)d^{-1}
+\nabla S::\nabla\mathsf Kds
+\biggr]dz\\
+&+2\nu\int\nabla\log\tau\cdot\nabla vdz,
+\end{aligned}
+}
+\]
+
+where \(v=\frac12S:\mathsf C:S\).  All radial-position and scale-shape
+motion is centered; pressure Hessian remains in \(\mathbf B\), and the
+pressure-constrained incidence tangent remains in \(\mathsf T_C\).
+
+With \(a'=-2\nu I\),
+
+\[
+\boxed{
+(a\mathcal V)'
++2\nu I\mathcal V
++\nu a(D_H-D_0)
+=a(\mathcal R_H-\mathcal R_0).
+}
+\]
+
+Subtracting this law from the \(a\mathcal H\) law cancels every centered
+moving-projection row and gives
+
+\[
+\boxed{
+(a\mathcal H_0)'
++2\nu I\mathcal H_0
++\nu aD_0
+=a\mathcal R_0,
+\qquad
+2\nu I\mathcal H_0\ge\nu I^2.
+}
+\]
+
+This cancellation is unique.  In a two-atom fiber take
+
+\[
+p_1=p_2=\frac12,
+\quad
+\Pi=\frac13I,
+\quad
+\mathsf R_{1,2}=\Pi\pm\mathsf D,
+\]
+
+and the mean-preserving shape tangent
+
+\[
+\dot{\mathsf R}_{1,2}=\pm\mathsf T,
+\qquad
+\mathcal K_p=0.
+\]
+
+Then \(\mathsf M=0\) while
+
+\[
+\mathsf T_C
+=\mathsf T\otimes\mathsf D
++\mathsf D\otimes\mathsf T.
+\]
+
+Choosing \(\mathsf T=\pm\mathsf D\) makes
+
+\[
+\frac12S:\mathsf T_C:S
+=\pm(S:\mathsf D)^2.
+\]
+
+For \(\mathcal H+c\mathcal V\), cancellation for both signs forces
+
+\[
+\boxed{c=-1.}
+\]
+
+No nonnegative coefficient works.  More generally, cancellation of every
+vertical covariance tangent forces subtraction of the full variance, up to
+a function of the mean.  The operator lift therefore exposes all internal
+scale-shape reorganization, but exact instantaneous cancellation spends
+that whole positive covariance and returns the mean Gold law.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -18231,6 +18544,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-104-adaptive-projection-operator-covariance-vertical-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-103-active-incidence-square-adaptive-projection-no-scalar-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-102-active-residual-cotangent-mellin-selector-classification-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-101-active-incidence-jordan-action-normalized-radial-covariance-20260714.md`
