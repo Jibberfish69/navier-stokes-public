@@ -21913,7 +21913,7 @@ With
 the exact moment tangent under the current uniform spherical trace is
 
 \[
-=(D_t-\nu\Delta_z)\widetilde B
+(D_t-\nu\Delta_z)\widetilde B
 =\widetilde P+\widetilde C
 -2\nu\mathbb E(
 \nabla\widetilde g:\nabla\widetilde{\mathfrak q})
