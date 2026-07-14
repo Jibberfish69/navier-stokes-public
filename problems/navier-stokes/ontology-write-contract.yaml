@@ -29,8 +29,8 @@ authority:
     live target or a genuinely smaller noncircular theorem.
 
 map_limits:
-  max_lines: 900
-  max_bytes: 75000
+  max_lines: 700
+  max_bytes: 85000
   max_post_cutover_card_lines: 18
   display_math_allowed: false
   append_only_source_ledger_allowed: false
@@ -44,6 +44,7 @@ legacy_catalog:
   banner_inserted_after_line: 1
   banner_inserted_line_count: 5
   mutation_policy: frozen
+  entry_format: one-line-address-with-explicit-legacy-anchor-and-detail-link
 
 post_cutover_cards:
   section_heading: '## Promoted ontology cards after 2026-07-14'
@@ -60,6 +61,11 @@ post_cutover_cards:
     - proved-exact-identity
     - proved-exact-operator-property
     - classical-proved-theorem
+  existing_fact_rule: >-
+    If a result tightens or revalidates a pre-cutover fact without changing its
+    logical identity, keep the legacy anchor, update the direct source and
+    affected theorem authority, and revise the catalog title only when the old
+    title is false. Do not create a duplicate post-cutover card for the same ID.
   id_rule: >-
     The F-family identifier names an independent durable fact, not a cycle
     number. Refine or replace an existing card when the new result has the same
