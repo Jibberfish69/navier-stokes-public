@@ -18527,6 +18527,210 @@ a function of the mean.  The operator lift therefore exposes all internal
 scale-shape reorganization, but exact instantaneous cancellation spends
 that whole positive covariance and returns the mean Gold law.
 
+### F7.72 The dynamically exact scalar incidence cotangent is amplified by fourth-power chord compression, while the joined source creates residual transverse to its present measure
+
+Let
+
+\[
+d\sigma
+=\frac{r_+}{\tau}(h-r)m\,
+dz\,d\rho\,d\sigma(n)\,d\theta
+\]
+
+be the centered active incidence of F7.69.  On (m>0), write
+
+\[
+b_z=u+\frac{\Gamma}{m},
+\qquad
+s=\log\rho,
+\]
+
+and
+
+\[
+\mathscr D
+=\partial_t+b_z\cdot\nabla_z
++\alpha\partial_s
++\dot n\cdot\nabla_{S^2}
++\nu\Delta_z.
+\]
+
+The quotient in (b_z) only abbreviates the completed flux
+(w(h-r)\Gamma); no value outside the incidence support is required.  The
+complete conservative tangent is
+
+\[
+\boxed{
+\begin{aligned}
+\partial_t\sigma
+&+\nabla_z\cdot(b_z\sigma)
++\partial_\rho(\rho\alpha\sigma)
++\operatorname{div}_{S^2}(\dot n\,\sigma)\\
+&=\nu\Delta_z\sigma+Q_\sigma-4\alpha\sigma.
+\end{aligned}
+}
+\]
+
+For (H_\phi=\langle\phi,\sigma\rangle), integration by parts gives
+
+\[
+\boxed{
+H_\phi'
+=N_{\rm rad}
++\langle\phi,Q_\sigma\rangle
++\left\langle
+\mathscr D\phi+4\alpha(1-\phi),\sigma
+\right\rangle,
+}
+\]
+
+where (N_{\rm rad}=-4\langle\alpha,\sigma\rangle).  Hence the unique
+scalar dynamic adjoint which removes the critical radial commutator is
+
+\[
+\boxed{
+(\mathscr D-4\alpha)g=0,
+\qquad g=\phi-1.
+}
+\]
+
+Along the full incidence diffusion,
+
+\[
+\boxed{
+g(t,\Omega)
+=\mathbb E_{t,\Omega}\!\left[
+g(t_1,\Omega_{t_1})
+\left(\frac{\rho(t)}{\rho(t_1)}\right)^4
+\right].
+}
+\]
+
+In particular,
+
+\[
+\|g(t)\|_\infty
+\le
+\|g(t_1)\|_\infty
+\exp\!\left(
+4\int_t^{t_1}\|\alpha_-(q)\|_\infty dq
+\right).
+\]
+
+The exact nonconstant cotangent is amplified by fourth-power chord
+compression.  Center-volume preservation does not cancel this radial
+factor; both already occur in the same conservative incidence law.
+
+For the physical remaining radius
+
+\[
+R_a=\frac a{\nu^2},
+\qquad
+\zeta=\log\frac\rho{R_a},
+\]
+
+the adjoint becomes
+
+\[
+\left[
+\partial_t+b_z\cdot\nabla_z
++\left(\alpha-\frac{R_a'}{R_a}\right)\partial_\zeta
++\dot n\cdot\nabla_{S^2}
++\nu\Delta_z-4\alpha
+\right]g=0.
+\]
+
+Thus the moving aperture translates log radius but leaves the critical
+potential unchanged.  The conjugation
+
+\[
+g=\rho^4q
+\]
+
+does remove the potential:
+
+\[
+\boxed{\mathscr Dq=0.}
+\]
+
+But because (\langle1,\sigma\rangle=0), its dual stock is
+
+\[
+H_\phi=\langle\rho^4q,\sigma\rangle,
+\]
+
+and therefore requires the uncontrolled fourth Mellin reserve
+
+\[
+\int\rho^4|\sigma|d\Omega.
+\]
+
+The dynamic amplification and the static bounded-selector equation
+
+\[
+\rho\psi_\rho+4(1-\psi)=0,
+\qquad
+\psi=1+C\rho^4,
+\]
+
+are the same critical homogeneity in dual form.
+
+The complete source supplies a separate affine action.  With
+
+\[
+Q_\sigma
+=wQ_\xi
++\xi m(D_t-\nu\Delta)w
++\xi\Gamma\cdot\nabla w
+-2\nu\nabla w\cdot\nabla(\xi m),
+\]
+
+one can have
+
+\[
+\sigma=0
+\quad\hbox{at}\quad
+\xi=h-r=0,
+\]
+
+while
+
+\[
+\boxed{
+\left.Q_\sigma\right|_{\xi=0}
+=w\left.Q_\xi\right|_{\xi=0}
+-2\nu\nabla w\cdot\nabla(\xi m)
+\ne0.
+}
+\]
+
+Pressure-Hessian forcing, angular turning, center flux, and the heat slots
+can therefore create centered residual at a zero of the present residual.
+No regular scalar potential (V) can satisfy (Q_\sigma=V\sigma) for the
+complete VPI tangent.  Indeed, identical scalar residual state
+(\sigma=0), including every moment of that state, can have different
+instantaneous source.  Closing the source requires the upstream joined
+variables, not more moments of (\sigma) alone.
+
+Finally, the adjoint does not preserve a bounded log-radius slope.  Exact
+differentiation gives
+
+\[
+\begin{aligned}
+(\mathscr D-4\alpha)\partial_sg
+={}&-(\partial_sb_z)\cdot\nabla_zg
+-(\partial_s\alpha)\partial_sg\\
+&-(\partial_s\dot n)\cdot\nabla_{S^2}g
++4(\partial_s\alpha)g.
+\end{aligned}
+\]
+
+Thus chord-scale variation of the completed pressure flux, log-radius
+velocity, and turning field rebuilds the selector slope.  A bounded scalar
+selector is not a dynamically closed all-field tether: the same fluid
+tangent amplifies its exact cotangent under compression and creates new
+residual transverse to the old scalar measure.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -18544,6 +18748,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- `theorem-construction/codex-goal-ontology-cycle-105-critical-incidence-dynamic-adjoint-quartic-compression-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-104-adaptive-projection-operator-covariance-vertical-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-103-active-incidence-square-adaptive-projection-no-scalar-cancellation-20260714.md`
 - `theorem-construction/codex-goal-ontology-cycle-102-active-residual-cotangent-mellin-selector-classification-20260714.md`
