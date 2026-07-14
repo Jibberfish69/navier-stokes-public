@@ -21693,9 +21693,13 @@ The uncancellable term is the degree-three angular harmonic
 \(-Hn\).  Hence full-angular rank-one source alignment forces \(S=0\), while
 every Gold-active center has \(S\ne0\).  The conclusion passes to the
 infinitesimal block when coherent equality is retained on actual re-rooted
-chord sources with \(\rho\downarrow0\).  Fixed-parent dyadic conditioning
-alone does not change radius and supplies no such passage; omitting that
-child-radius source commutator would omit part of the complete VPI source.
+chord sources with \(\rho\downarrow0\).  Cycles 117--118 do not yet supply
+that re-rooted hypothesis: fixed-parent dyadic conditioning does not change
+radius, its martingale limit is the source of that parent, and the static
+child pushforward has no proved dynamic source analogue.  The active
+insertion is the center-only weight \(w=r_+/\tau\) after the uniform angular
+trace block is formed.  Identifying the abstract scalar Schur equality with
+the infinitesimal block without this direct-radius bridge is not licensed.
 
 The same positive event is the initial curvature of the quartic angular
 deformation entropy:
