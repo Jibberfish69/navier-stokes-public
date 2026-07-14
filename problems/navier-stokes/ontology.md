@@ -23777,6 +23777,254 @@ The complete temporal cone is therefore
 The escort is the normalized directional marginal of the full first jet,
 not a replacement for its amplitude or renewal current.
 
+### F7.101 The complete severity likelihood recombines with angular innovation
+
+At a fine chord, put
+
+\[
+A=\nabla u,
+\qquad
+S=\operatorname{sym}A,
+\qquad
+\mathsf C=A^TA,
+\qquad
+G=G_0=\frac13|A|^2.
+\]
+
+The complete moving-direction slope/source law gives
+
+\[
+\boxed{
+(D_t-\nu\Delta)G
++\frac{2\nu}{3}|\nabla A|^2
+=-\frac23\left[
+S:\nabla^2p+\operatorname{tr}(S A^TA)
+\right].
+}
+\]
+
+Equivalently, with \(\omega=\nabla\times u\),
+
+\[
+\operatorname{tr}(S A^TA)
+=\operatorname{tr}S^3-\frac14\omega\cdot S\omega.
+\]
+
+All pressure, material-gradient transport, chord turning, vorticity--strain,
+and viscosity rows have been joined before this scalar moment.  After
+spatial integration the pressure redistribution vanishes, and
+
+\[
+\boxed{
+J(t):=\int Gdx=\frac13K(t)
+=-\frac{\mathcal E'(t)}{3\nu}.
+}
+\]
+
+Thus kinetic energy pays \(\int Jdt\), the \(L^1\) mass of its instantaneous
+expenditure rate.
+
+Let
+
+\[
+d=d_{\rm harm},
+\qquad
+\eta=\frac dG,
+\qquad
+\pi=p_H=\frac{\tau}{4H},
+\]
+
+and define the local severity likelihood
+
+\[
+\boxed{
+\mathscr L_{\rm sev}
+=\frac G\pi
+=4H\frac G\tau.
+}
+\]
+
+If \(\mathcal L=D_t-\nu\Delta\),
+\(\mathcal LG=F_G\), \(\mathcal Ld=F_d\), and
+\(\mathcal L\pi=R_\pi\), then
+
+\[
+\left(
+\mathcal L-2\nu\nabla\log G\cdot\nabla
+\right)\eta
+=\frac{F_d}{G}-\eta\frac{F_G}{G},
+\]
+
+\[
+\left(
+\mathcal L-2\nu\nabla\log\pi\cdot\nabla
+\right)\mathscr L_{\rm sev}
+=\mathscr L_{\rm sev}
+\left(
+\frac{F_G}{G}-\frac{R_\pi}{\pi}
+\right).
+\]
+
+Their product
+
+\[
+\boxed{
+\Xi_{\rm ang}
+:=\mathscr L_{\rm sev}\eta
+=\frac d\pi
+}
+\]
+
+has the recombined law
+
+\[
+\boxed{
+\left(
+\mathcal L-2\nu\nabla\log\pi\cdot\nabla
+\right)\Xi_{\rm ang}
+=\frac{F_d}{\pi}
+-\Xi_{\rm ang}\frac{R_\pi}{\pi}.
+}
+\]
+
+The severity/innovation cross-connection cancels only after the two rows
+are recombined.  Their Gold marginal is
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+=\frac14\int\Xi_{\rm ang}dx.
+}
+\]
+
+It obeys the exact vector-perspective balance
+
+\[
+\boxed{
+\begin{aligned}
+\mathcal D_{\rm ang}'
+&+\frac\nu2\int\pi\,
+\mathbb E\left|\nabla\frac h\pi\right|^2dx\\
+&=\frac14\int\mathbb E\left[
+2\frac h\pi\cdot R_h
+-\left|\frac h\pi\right|^2R_\pi
+\right]dx.
+\end{aligned}
+}
+\]
+
+The positive center-Fisher square and the joined harmonic-source/carrier
+work remain in one law.
+
+Define
+
+\[
+p_G=\frac GJ,
+\qquad
+\vartheta_{\rm ang}=\frac d{G^2},
+\qquad
+\mathcal C_{\rm ang}
+=\int\vartheta_{\rm ang}
+\frac{p_G^2}{p_H}dx.
+\]
+
+Then
+
+\[
+0\le\vartheta_{\rm ang}\le\frac{66}{175},
+\]
+
+and the amplitude/shape factorization is
+
+\[
+\boxed{
+\mathcal D_{\rm ang}
+=\frac{J^2}{4}\mathcal C_{\rm ang}
+=\frac{\mathcal C_{\rm ang}}{36\nu^2}
+|\mathcal E'|^2.
+}
+\]
+
+The Gold carrier is therefore the square of the simultaneous kinetic-energy
+expenditure rate multiplied by the complete strain-angle and participation
+shape factor.
+
+For the Beltrami heat family
+\(u_{\mathcal A,N}=\mathcal A e^{-\nu N^2t}U(Nx)\),
+
+\[
+\int\mathcal D_{\rm ang}dt
+=\frac{\mathcal A^4N^2D_U}{4\nu},
+\qquad
+\int a\mathcal D_{\rm ang}dt
+=\frac{\mathcal A^6I_UD_U}{6\nu}N^2,
+\]
+
+while the double tail gives
+
+\[
+\boxed{
+\int B\mathcal D_{\rm ang}dt
+=\frac{\mathcal A^6I_UD_U}{12\nu^2}.
+}
+\]
+
+Thus \(B\) exactly neutralizes the high-frequency concentration.  Under NS
+scaling,
+
+\[
+\int B_\lambda
+(\mathcal D_{\rm ang})_\lambda dt
+=\lambda^{-3}\int B\mathcal D_{\rm ang}dt,
+\]
+
+the scale of \(\mathcal E_0^3/\nu^2\); disjoint replication is cubic as
+well.
+
+The complete \(B\)-weighted block remains exact.  With the Cycle 121
+notation
+
+\[
+Z'=h_HZ+C-V+F_0,
+\qquad
+C'=h_HC+P+N-X+F_1,
+\qquad
+P\ge\mathcal D_{\rm ang},
+\]
+
+twice integrating by parts gives
+
+\[
+\boxed{
+\begin{aligned}
+\int BP
+={}&[BC]+[aZ]+2\nu\int IZ\\
+&-\int ah_HZ+\int aV-\int aF_0\\
+&-\int Bh_HC-\int BN+\int BX-\int BF_1.
+\end{aligned}
+}
+\]
+
+This is the complete double-tail severity current: positive source
+curvature, next source, heat cross-row, trace rate, angular flux, occupation,
+and boundary terms retain their actual joined signs.
+
+The local likelihood, its paid-action average, and the full temporal current
+are related by
+
+\[
+\boxed{
+\Lambda_{\rm sev}^{\rm ang}
+=\frac{\mathcal D_{\rm ang}}{\mathfrak A_{\rm ang}}
+=\frac14\mathbb E_{\mu_{\rm ang}}\mathscr L_{\rm sev},
+\qquad
+\mathcal J_{B,\Gamma}
+=(\Theta,\mathbb W_{B,\Gamma}).
+}
+\]
+
+They are spatial and temporal marginals of the same all-field VPI event.
+
 ## Hard boundary: claims excluded from the ontology
 
 The following are not hard facts and carry no premise weight here:
@@ -23794,6 +24042,7 @@ The following are not hard facts and carry no premise weight here:
 
 ## Checked repo derivations and audits
 
+- theorem-construction/codex-goal-ontology-cycle-134-complete-severity-likelihood-angular-recombination-double-tail-criticality-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-133-full-incidence-escort-hellinger-temporal-carre-du-champ-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-132-full-incidence-radius-angular-severity-leverage-renewal-concentration-20260714.md
 - theorem-construction/codex-goal-ontology-cycle-131-full-incidence-remaining-expenditure-first-jet-adaptive-cotangent-cancellation-20260714.md
