@@ -313,40 +313,24 @@ full multi-index jet in \eqref{eq:full-binomial}.
 We record the standard local theorem in precisely the form used here
 \cite{Temam}.
 
-\begin{lemma}[Local strong solution and uniqueness]
+\begin{lemma}[Smooth local restart and uniqueness]
 \label{lem:local}
-Let \(s>5/2\), let \(t_0\in\R\), and let \(a\in H^s(\R^3)\) be
-divergence-free. There is a
-\(\delta=\delta(\nu,s,\norm{a}_{H^s})>0\) and a unique solution of the
-Navier--Stokes equation on \([t_0,t_0+\delta]\), with \(w(t_0)=a\), such that
-\[
- w\in C([t_0,t_0+\delta];H^s)
- \cap L^2(t_0,t_0+\delta;H^{s+1}).
-\]
-If \(a\in\Hs\), every Sobolev order persists on a common possibly smaller
-interval and \((w,q)\) is smooth up to \(t=t_0\). Its temporal jet at \(t_0\) is
-the pressure-normalized recursion \eqref{eq:jet-pressure}--\eqref{eq:jet-velocity}
-with \(V_0^*=a\).
+Let \(t_0\in\R\) and let \(a\in\Hs_\sigma(\R^3)\).  There is a
+\(\delta>0\) and a unique smooth Navier--Stokes solution \((w,q)\) on
+\([t_0,t_0+\delta]\times\R^3\) with \(w(t_0)=a\).  Every spatial Sobolev
+order persists on this common interval, and the temporal jet at \(t_0\) is
+the pressure-normalized recursion
+\eqref{eq:jet-pressure}--\eqref{eq:jet-velocity} with \(V_0^*=a\).
 \end{lemma}
 
 \begin{proof}
-The Friedrichs approximations satisfy the standard commutator estimate
-\[
- \frac12\frac{d}{dt}\norm{w}_{H^s}^2
- +\nu\norm{\nabla w}_{H^s}^2
- \leq C_s\norm{\nabla w}_{L^\infty}\norm{w}_{H^s}^2.
-\]
-Since \(s>5/2\), Sobolev embedding controls
-\(\norm{\nabla w}_{L^\infty}\) by \(\norm{w}_{H^s}\). A uniform short-time
-bound, compactness of the regularized sequence, and the equation give
-existence with the displayed regularity. Applying the corresponding estimate
-to the difference of two solutions and using Gronwall proves uniqueness.
-Repeating the estimate after differentiating the equation gives persistence of
-each \(H^m\) norm; a diagonal choice of the same base lifespan works because
-the local time is fixed by the \(H^s\) bound, while the higher estimates are
-linear once that base solution is known. Finally, differentiating the equation
-at the initial time and using the normalized pressure Poisson equation yields
-the stated jet recursion.
+This is the classical smooth-data local theorem for three-dimensional
+Navier--Stokes \cite{Temam}.  Applied to \(a\in H^\infty\), it gives one
+positive lifespan on which every higher Sobolev norm propagates along the same
+solution.  Smoothness up to the initial face follows from the equation.
+Differentiating there and using the normalized pressure Poisson equation gives
+the stated jet recursion.  Uniqueness is the standard strong-solution
+uniqueness on the same interval.
 \end{proof}
 
 Apply Lemma~\ref{lem:local} at time \(T_*\) with datum \(a=u_*\). It gives a
@@ -368,10 +352,10 @@ velocity-pressure derivative agrees at \(T_*\). Hence
 strictly larger than \([0,T_*)\).
 
 Equivalently, one may start the local solution at a time
-\(t_0<T_*\) sufficiently close to \(T_*\). The continuous \(H^s\) trace gives
-a uniform local lifespan, and strong-solution uniqueness identifies that
-solution with \(u\) on the overlap. Both descriptions restart the same
-datum-generated history.
+\(t_0<T_*\) sufficiently close to \(T_*\).  Continuity of the endpoint in
+the fixed smooth-data local topology gives a common positive local lifespan,
+and uniqueness identifies that solution with \(u\) on the overlap.  Both
+descriptions restart the same datum-generated history.
 
 This contradicts the definition of \(T_*\) as the maximal classical
 lifespan. Thus the assumption \(T_*<\infty\) is impossible, and

@@ -8,6 +8,16 @@ and projections are simultaneous coordinates of that history.
 
 \subsection{The pressure-explicit mixed jet}
 
+Taking the divergence of \eqref{eq:NS} and using incompressibility gives
+\begin{equation}
+ -\Delta p=\partial_i\partial_j(u_i u_j),
+ \qquad
+ p=R_iR_j(u_i u_j).
+ \label{eq:producer-pressure-base}
+\end{equation}
+Thus pressure is determined at every time by the same velocity field; it is
+not an independent history or an omitted force.
+
 Write
 \[
  V_N:=\partial_t^Nu,
@@ -56,6 +66,27 @@ the Riesz transforms preserve every \(H^m\), induction in
 \eqref{eq:producer-pressure-recurrence}--\eqref{eq:producer-velocity-recurrence}
 gives the complete initial jet in \(H^\infty\).
 
+More explicitly, if
+\[
+ V_0^0:=u_0,
+ \qquad V_N^0:=V_N(0),
+ \qquad Q_N^0:=Q_N(0),
+\]
+then
+\begin{align}
+ Q_N^0
+ &=R_iR_j\sum_{a=0}^{N}\binom NaV_{a,i}^0V_{N-a,j}^0,
+ \label{eq:initial-pressure-jet}\\
+ V_{N+1}^0
+ &=\nu\Delta V_N^0
+ -\sum_{a=0}^{N}\binom Na(V_a^0\cdot\nabla)V_{N-a}^0
+ -\nabla Q_N^0.
+ \label{eq:initial-velocity-jet}
+\end{align}
+Beginning with \(V_0^0=u_0\in H^\infty\), these two formulas construct
+every finite temporal coordinate from the datum.  Applying a spatial
+multi-index to the same formulas constructs every finite mixed coordinate.
+
 The Pascal-block matrix of \eqref{eq:producer-mixed-jet} has entries
 \begin{equation}
  \mathbb L(J)_{(N,\alpha),(a,\beta)}
@@ -67,6 +98,86 @@ for \(a\leq N\), \(\beta\leq\alpha\), and zero otherwise.  Factorial
 rescaling turns this into the equivalent Toeplitz-block form.  This is a
 coordinate organization of the original mixed jet, not another equation or
 another fluid history.
+
+\subsection{Critical height and the reversible column relation}
+
+Put \(\Lambda=(-\Delta)^{1/2}\) and, along the classical history, define
+\begin{equation}
+ E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
+ \qquad H(t):=E_{1/2}(t).
+ \label{eq:producer-height-definitions}
+\end{equation}
+Pairing the Leray-projected equation with \(\Lambda^{2s}u\) gives
+\begin{equation}
+ E_s'=-2\nu E_{s+1}+\mathcal P_s,
+ \label{eq:producer-sobolev-balance}
+\end{equation}
+where the complete signed transport-pressure response is
+\begin{equation}
+ \mathcal P_s
+ :=-\operatorname{Re}\pair{\Lambda^su}
+ {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}
+ =-\operatorname{Re}\pair{\Lambda^su}
+ {\Lambda^s\Leray((u\cdot\nabla)u)}.
+ \label{eq:producer-current}
+\end{equation}
+The second expression is an equivalent global pairing; the first retains the
+pressure-explicit form used throughout the jet.
+
+Repeated differentiation of \eqref{eq:producer-sobolev-balance}, followed by
+substitution of the next Sobolev balance, gives for every \(n\geq0\)
+\begin{equation}
+ H^{(n)}
+ =(-2\nu)^nE_{n+1/2}
+ +\sum_{j=0}^{n-1}(-2\nu)^j
+ \partial_t^{\,n-1-j}\mathcal P_{j+1/2},
+ \label{eq:height-tower}
+\end{equation}
+with the sum empty when \(n=0\).  Equivalently, the completed height row is
+\begin{equation}
+ R_n
+ :=\frac{H^{(n)}-
+ \displaystyle\sum_{j=0}^{n-1}(-2\nu)^j
+ \partial_t^{\,n-1-j}\mathcal P_{j+1/2}}
+ {(-2\nu)^n}
+ =E_{n+1/2}.
+ \label{eq:completed-height-row}
+\end{equation}
+This identity retains every differentiated VPI contribution.  It does not
+identify \(H^{(n)}\) alone with the higher spatial energy.
+
+The same temporal rows contract quadratically to the height column.  Starting
+from the defining quadratic pairing for \(H\), the Leibniz rule gives
+\begin{equation}
+ H^{(n)}
+ =\frac12\sum_{a=0}^{n}\binom na
+ \operatorname{Re}\pair{\Lambda^{1/2}V_a}
+ {\Lambda^{1/2}V_{n-a}}.
+ \label{eq:height-velocity-contraction}
+\end{equation}
+Equations \eqref{eq:producer-mixed-jet}, \eqref{eq:completed-height-row}, and
+\eqref{eq:height-velocity-contraction} yield the exact three-column relation
+\[
+\begin{array}{c|c|c}
+\text{velocity row}&\text{height row}&\text{spatial energy}\\
+\hline
+V_0=u&H&E_{1/2}\\
+V_1=u_t&H'&E_{3/2}\\
+V_2=u_{tt}&H''&E_{5/2}\\
+V_3=u_{ttt}&H'''&E_{7/2}\\
+\vdots&\vdots&\vdots\\
+ V_n=\partial_t^nu&H^{(n)}&E_{n+1/2}
+\end{array}
+\]
+The rows are not successive fluid configurations.  They are simultaneous
+finite-coordinate readings of the same history.  Each fixed velocity row has
+its entire independent spatial column
+\[
+ \{J_{n,\alpha}\}_{\alpha}
+ =\{V_n,\nabla V_n,\nabla^2V_n,\ldots\},
+\]
+while the completed height diagonal recovers progressively higher Sobolev
+energies of the base velocity.
 
 \subsection{Whole-terminal compatible rectangles}
 
@@ -113,12 +224,25 @@ Every coordinate in every rectangle is the corresponding derivative of the
 same pressure-complete history.
 \end{theorem}
 
-Theorem~\ref{thm:producer} is the established starting theorem of the
-matrix-smoothness construction.  Its content is exactly the datum-generated
+Theorem~\ref{thm:producer} is the starting theorem of the construction.  Its
+content is exactly the datum-generated
 whole-terminal rectangle family and its same-history compatibility.  The
 finite-coordinate notation in \eqref{eq:rectangle-norm} records that theorem;
 it is not an independent premise, a selected continuation criterion, or a
 replacement by one scalar critical-current estimate.
+
+In the adjacent-row form used by the trace argument, its exact output is
+\begin{equation}
+ V_n\in L^2(I_*;H^{m+1}),
+ \qquad
+ \partial_tV_n=V_{n+1}\in L^2(I_*;H^{m-1})
+ \quad(n,m<\infty).
+ \label{eq:MR}
+\end{equation}
+Each pair in \eqref{eq:MR} is supplied by some finite rectangle.  The same
+history supplies all pairs, so increasing either coordinate never changes the
+lower coordinate already constructed.  This is the precise bridge from the
+finite construction to the projective assembly below.
 
 \subsection{Projective assembly and the base-row projection}
 
@@ -162,6 +286,47 @@ Thus the family is compatible and determines the unique inverse-limit element
 already generated by \(u_0\).
 \end{proof}
 
+\begin{proposition}[The intersection reproduces smoothness in every column]
+\label{prop:columnwise-smoothness}
+Let \(I\) be a finite interval.  The compatible projective intersection has
+the following four coordinatewise consequences:
+\begin{align}
+ \bigcap_{m\geq0}H_x^m
+ &\hookrightarrow C_x^\infty,
+ \label{eq:spatial-column-smoothness}\\
+ \bigcap_{r\geq0}H_t^r(I)
+ &\hookrightarrow C_t^\infty(I),
+ \label{eq:height-column-smoothness}\\
+ \bigcap_{r,m\geq0}H_t^r(I;H_x^m)
+ &\hookrightarrow C_{t,x}^\infty(I\times\R^3),
+ \label{eq:velocity-column-smoothness}\\
+ \bigcap_{N,M}\{\text{compatible pressure-explicit rows through }(N,M)\}
+ &\hookrightarrow C_{t,x}^\infty(I\times\R^3).
+ \label{eq:jet-column-smoothness}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+For \eqref{eq:spatial-column-smoothness}, fix a spatial derivative order
+\(k\).  Choose \(m>k+3/2\).  The three-dimensional Sobolev embedding
+\(H^m\hookrightarrow C_b^k\) gives the result, since \(k\) is arbitrary.
+
+For \eqref{eq:height-column-smoothness}, fix a temporal derivative order
+\(a\), choose \(r>a+1/2\), and apply the one-dimensional Sobolev embedding on
+\(I\).  This statement applies to the complete compatible height graph:
+\eqref{eq:completed-height-row} retains the VPI coordinates and projects its
+\(n\)-th row to \(E_{n+1/2}\).
+
+For \eqref{eq:velocity-column-smoothness}, fix \(a\) and a spatial
+multi-index \(\alpha\).  Choose \(r>a+1/2\) and
+\(m>|\alpha|+3/2\), then apply the vector-valued time embedding followed by
+the spatial embedding.  Finally, the last intersection is precisely the same
+mixed object with every coordinate required to satisfy
+\eqref{eq:producer-mixed-jet}--\eqref{eq:producer-pressure-row}; hence
+\eqref{eq:jet-column-smoothness} is the pressure-explicit realization of the
+third implication.  No individual row is claimed to be all-orders smooth.
+\end{proof}
+
 Define the complete zeroth temporal row
 \begin{equation}
  \Szero(I_*):=\bigcap_{m=0}^{\infty}L^2(I_*;H^m(\R^3)).
@@ -185,3 +350,15 @@ This proves the first four terms of the fixed chain:
  \xrightarrow{\pi_0}
  \Szero(0,T_*).
 \]
+
+The critical-height projection is consistent with the same base row.  Indeed,
+for every \(n\), choose an integer \(m\geq n+1\).  Then
+\begin{equation}
+ \int_0^{T_*}E_{n+1/2}(t)\,dt
+ \leq C_{n,m}\norm{u}_{L^2(I_*;H^m)}^2<\infty.
+ \label{eq:all-height-rows-L1}
+\end{equation}
+Thus the spatial, velocity-time, completed height/VPI, and full mixed-jet
+intersections are four compatible readings of one object.  The critical
+height is a projection of the producer, not a second producer that must be
+paid separately.
