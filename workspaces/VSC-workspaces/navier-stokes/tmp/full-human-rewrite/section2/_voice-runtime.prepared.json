@@ -1,0 +1,115 @@
+{
+  "runtime_version": "4.0",
+  "mode": "edit",
+  "task": {
+    "task_id": "task-a2d0926e0178411b",
+    "request": "Rewrite Section 2 in temporary files only, preserving the fixed historical discovery order and handing the settled whole-terminal compatible-rectangle theorem to Section 3 without re-proving it.",
+    "writing_form": "reader-facing mathematical proof paper",
+    "writing_job": "rebuild Section 2 as a historical mathematical discovery sequence",
+    "domain": "three-dimensional incompressible Navier--Stokes regularity",
+    "audience": "mathematically informed reader who has completed Section 1",
+    "purpose": "let the reader derive the mixed tower, intersections, finite rectangles, compatibility, and exact terminal question before Section 3",
+    "reader_start": "The reader has one fixed fluid, the VPI discipline, the derivative-tower intuition, and a finite-time singularity threat.",
+    "reader_end": "The reader knows exactly what each finite compatible pressure-complete rectangle contains and can distinguish strict-subinterval finiteness from whole-terminal control.",
+    "live_pressure": "Every formal object must be earned from the previous calculation; index roadmaps, generic definitions, and status prose are excluded.",
+    "structure_scope": "section",
+    "field_sources": {
+      "writing_form": "unknown",
+      "writing_job": "unknown",
+      "domain": "unknown",
+      "audience": "unknown",
+      "purpose": "unknown",
+      "reader_start": "unknown",
+      "reader_end": "unknown",
+      "live_pressure": "unknown"
+    },
+    "selection_state": "user_fixed",
+    "user_owned_move": "Preserve the supplied historical order from critical height through terminal-quantifier handoff.",
+    "input": {
+      "kind": "inline",
+      "path": null,
+      "text": "Critical height and finite-endpoint Zeno pressure; FTOC response escalation; material and Eulerian distinction; pressure-complete mixed recurrence; explicit critical-height derivative rows; coordinatewise Sobolev intersections; concrete finite rectangle; general rectangles; concrete then general compatibility; terminal quantifier handoff.",
+      "sha256": "c3129e0a72a96bde5f80e395d944d1cad3e8718be0445c395ee463ac40d153e6"
+    },
+    "content_items": [
+      {
+        "content_id": "live-input",
+        "text": "Critical height and finite-endpoint Zeno pressure; FTOC response escalation; material and Eulerian distinction; pressure-complete mixed recurrence; explicit critical-height derivative rows; coordinatewise Sobolev intersections; concrete finite rectangle; general rectangles; concrete then general compatibility; terminal quantifier handoff.",
+        "sha256": "c3129e0a72a96bde5f80e395d944d1cad3e8718be0445c395ee463ac40d153e6",
+        "start": 0,
+        "end": 340,
+        "status": "instruction",
+        "source": "live_input"
+      }
+    ],
+    "constraints": {
+      "required": [],
+      "forbidden": [],
+      "protected_order": [],
+      "protected_distinctions": []
+    },
+    "write_authorized": true,
+    "structure_change_approved": true,
+    "authorized_target": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/tmp/full-human-rewrite/section2",
+    "prior_context": {
+      "kind": "context",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section1-Introduction/1.9-OneFluidOneCoherentFieldAndTheVPILaw.tex",
+      "text": "% !TeX root = ../navier-stokes-manuscript.tex\n% ============================================================\n% 1.9 One Fluid, One Coherent Field, and the VPI Law\n% ============================================================\n\\subsection{One Fluid, One Coherent Field, and the VPI Law}\\label{sub:OneFluidOneCoherentFieldAndTheVPILaw}\n\nThe fluid in the problem statement is one velocity field under one simultaneous constraint.\nEvery point and packet is a local portion of that field.\nEvery derivative rung records another way that same portion responds.\nThe pressure at the point is fixed through the configuration of the whole field, and viscosity relates the point to the spatial curvature in its immediate neighbourhood.\nThese relations together are the one-fluid object.\n\nWe use \\emph{VPI} as shorthand for the joined action of viscosity, pressure, and incompressibility in the velocity law.\nThe VPI law is the coupled system\n\\[\n  D_tu=-\\nabla p+\\nu\\Delta u,\n  \\qquad\n  \\nabla\\cdot u=0,\n  \\qquad\n  -\\Delta p=\\partial_i\\partial_j(u_i u_j).\n\\]\nThe first relation gives the material response.\nThe second states the local volume constraint.\nThe third is the elliptic pressure closure forced by that constraint.\nThe pressure equation is derived from the first two relations, so it records their coupling rather than adding a separate fluid property.\n\nThis law contains two different spatial reaches at once.\nTransport and viscosity are expressed through derivatives at a location.\nPressure is obtained by solving an elliptic equation across the domain.\nFor a sufficiently decaying field on \\(\\mathbb R^3\\), the latter relation can be written with Riesz transforms as\n\\[\n  p(x)\n  =\n  R_iR_j(u_i u_j)(x),\n\\]\nup to the usual pressure normalization.\nEquivalently, the distributional Hessian of the Newtonian kernel contains both its principal-value kernel and the corresponding local term; the Riesz-transform notation keeps that full identity intact.\nThe periodic problem has the corresponding mean-zero Green kernel.\nA change far from \\(x\\) can alter the pressure response at \\(x\\), even though the viscous term at \\(x\\) reads local curvature.\n\n\\divider{Carrying VPI Through the Tower}\n\nThe older and stronger meaning of the VPI law is a mathematical discipline.\nViscosity, pressure, and incompressibility must stay attached to the same transport row whenever the equation is differentiated, estimated, localized, or tested for failure.\nAn estimate may isolate one term without turning it into an independent evolution.\n\nThe \\(n\\)-th temporal row can be collected into the residual triple\n\\[\n  \\mathscr R_n[u,p]\n  :=\n  \\left(\n    \\mathfrak D_n[u,p],\n    \\nabla\\cdot V_n,\n    -\\Delta P_n\n    -\n    \\partial_i\\partial_j\n    \\sum_{k=0}^{n}\n    \\binom{n}{k}\n    V_{k,i}V_{n-k,j}\n  \\right),\n\\]\nwhere \\(\\mathfrak D_n\\) is the differentiated momentum residual and \\(V_n=\\partial_t^nu\\), \\(P_n=\\partial_t^np\\).\nFor a smooth participating Navier--Stokes field,\n\\[\n  \\mathscr R_n[u,p]=(0,0,0)\n  \\qquad\n  \\text{for every }n\\geq0,\n\\]\nand the same vanishing holds after the spatial differentiations needed to read the mixed tower.\nThe triple makes the participation test explicit.\nA local momentum identity with the wrong divergence or pressure closure is incomplete, just as a pressure or viscous estimate detached from the velocity row is incomplete.\n\nThis point also fixes the role of a large or vanishing scalar quantity.\nA large velocity gradient, a zero acceleration, or a growing Sobolev norm may warn that a particular tower rung is under stress.\nThe readout becomes a class-exit witness only when it identifies a failure of the joined field relation at the regularity being claimed.\nThe VPI discipline carries the original fluid properties through the calculation until that failure is either found or excluded.\n\n\\divider{A Graph of One Field}\n\nGraph language can make the participation geometry visible, provided that the graph keeps the global pressure relation.\nCover the domain by overlapping patches \\(\\{B_a\\}_{a\\in\\mathcal V}\\).\nFor finite derivative depths \\(N\\) and \\(M\\), attach to each vertex \\(a\\) the local record\n\\[\n  J_a^{N,M}\n  :=\n  \\left\\{\n    \\left.\n    \\partial_t^n\\partial_x^\\alpha u\n    \\right|_{B_a}\n    :\n    0\\leq n\\leq N,\\ \n    |\\alpha|\\leq M\n  \\right\\}.\n\\]\nThe vertices are local windows into the fluid, and \\(J_a^{N,M}\\) is the portion of the derivative tower visible on the \\(a\\)-th patch.\n\nDefine a local edge whenever two patches overlap,\n\\[\n  \\mathcal E_{\\mathrm{loc}}\n  :=\n  \\left\\{\n    (a,b):\n    B_a\\cap B_b\\neq\\varnothing\n  \\right\\}.\n\\]\nAlong such an edge, the two local records must agree on their overlap,\n\\[\n  \\left.\n  J_a^{N,M}\n  \\right|_{B_a\\cap B_b}\n  =\n  \\left.\n  J_b^{N,M}\n  \\right|_{B_a\\cap B_b}.\n\\]\nThese edges represent the compatibility needed for one velocity field and the local spatial coupling read by transport and viscosity.\n\nPressure requires a second relation.\nLet \\(\\mathcal E_p\\) connect patches whose velocity values are coupled by the Green kernel of the pressure equation.\nIn a discrete or patchwise approximation, this relation takes the form\n\\[\n  p_a\n  =\n  \\sum_{b\\in\\mathcal V}\n  W_{ab}^{ij}\n  (u_i u_j)_b,\n\\]\nwhere \\(W_{ab}^{ij}\\) is the patchwise representation of the pressure kernel.\nThe matrix \\(W\\) is generally dense, so distant vertices remain related.\nThe exact continuum equation remains the governing object; the graph is a representation of its local and nonlocal dependencies.\n\nAt any finite depth, the resulting participation graph may be written as\n\\[\n  \\mathcal G_{N,M}\n  =\n  \\left(\n    \\mathcal V,\n    \\mathcal E_{\\mathrm{loc}},\n    \\mathcal E_p,\n    \\{J_a^{N,M}\\}_{a\\in\\mathcal V}\n  \\right).\n\\]\nIt represents one coherent field only when three conditions hold together.\nOverlapping records agree, every local record satisfies the required differentiated momentum and divergence rows, and every pressure value comes from the same global pressure solve.\nA nearest-neighbour graph can capture overlap and local derivatives.\nIt cannot carry incompressible pressure by itself.\n\nThe physical picture is now complete.\nOne portion of the fluid changes through the velocity field that surrounds it, through viscous curvature nearby, and through the pressure constraint imposed by the whole incompressible field.\nIts acceleration, jerk, and higher derivatives are successive expressions of that same response.\nRestart at a regular time takes a new slice through the object without creating a new object.\nDead, Jump, and Blown identify ways in which a proposed endpoint can lose lawful response, compatible field value, or finite tower control.\n\nVPI is the rule that keeps all of these statements about the same fluid.\nGold asks for control strong enough to keep the complete participant smooth.\nSilver asks whether any nonsmooth proposal can still satisfy the complete participation law.\nThe two routes meet at the same class boundary because there has only ever been one fixed-viscosity, pressure-coupled, incompressible field.\n",
+      "sha256": "622f6e5dbcd7763516df34bdb094dcc0515020ffe7c13deb587a0b5068cf29a2"
+    },
+    "next_context": {
+      "kind": "context",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section3-CompatibleIntersectionClosure/index.tex",
+      "text": "% !TeX root = ../navier-stokes-manuscript.tex\n% ============================================================\n% Section 3 -- The Compatible Intersection at the Terminal Time\n% ============================================================\n\n\\section{The Compatible Intersection at the Terminal Time}\\label{sec:TheCompatibleIntersectionAtTheTerminalTime}\n\nThe tower places every temporal rung beside every spatial row opened by the same pressure-complete history.\nThe datum-generated producer places every finite rectangle across the whole alleged terminal interval.\nCompatibility keeps their shared coordinates identical, so the rectangles form one projective family.\nTheir intersection reaches one smooth endpoint.\nThe pressure-explicit recurrence identifies the terminal jet there, and local uniqueness restarts the original history.\n\n\\input{Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.2-ProjectiveIntersectionAndTheCompleteSpatialRow.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.3-TheAdjacentCriticalBlock.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.4-TheCommonEndpointAndThePressureCompleteJet.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.5-SameHistoryRestart.tex}\n",
+      "sha256": "2a8e9ec14a1f1ba333d2e048d42760b70b4ffef08433b4732ee2b093512977f8"
+    }
+  },
+  "task_sha256": "d45095171d0c1b47a2337bbac2053911175a6cc37ace5bd602aa689975b4f9b5",
+  "prediction_sha256": null,
+  "evidence_snapshot": {
+    "registry_path": "/dev/null",
+    "registry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate_evidence": [],
+    "selection_status": "no_applicable_evidence",
+    "selected_evidence_ids": []
+  },
+  "prediction": {
+    "field_resolutions": [],
+    "reader_start": "",
+    "live_pressure": "",
+    "candidate_moves": [],
+    "chosen_move_id": null,
+    "choice_reason": "",
+    "rejected_move_ids": [],
+    "evidence_dispositions": [],
+    "uncertainties": [],
+    "authorial_commitment": {
+      "work_target": "",
+      "strongest_move_reason": "",
+      "intellectual_gain": "",
+      "reader_gain": "",
+      "delivery": "unresolved",
+      "structural_commitment": {
+        "scope": "section",
+        "decision_origin": "unresolved",
+        "voice_attribution": "unresolved",
+        "artifact_disposition": "unresolved",
+        "inherited_reader_state": "",
+        "section_job": "",
+        "outgoing_reader_need": "",
+        "gap_decision": "unresolved",
+        "gap_payment": "",
+        "new_section_job": "",
+        "enrichment_reason": "",
+        "enrichments": []
+      }
+    }
+  },
+  "readiness": {
+    "status": "needs_prediction",
+    "blocked_reasons": [
+      "Resolve provisional task interpretations and preserve the user-owned move."
+    ]
+  }
+}
+
