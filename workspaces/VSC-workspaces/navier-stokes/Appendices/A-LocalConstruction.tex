@@ -2,8 +2,8 @@
 \subsection{The local construction behind the maximal history}
 \label{app:LocalConstruction}
 
-The same local theorem first constructs the maximal history and later extends it from a smooth terminal value.
-The existence time depends only on the fixed viscosity and the \(H^3\) size of the datum, while higher Sobolev orders persist on that base interval.
+Local existence and restart use one construction.
+Its lifespan depends only on the fixed viscosity and the \(H^3\) size of the datum; once that interval is fixed, every higher Sobolev order already present in the datum persists on it.
 
 For real \(s\), write
 \[
@@ -90,8 +90,9 @@ frequency truncations shows that \(v\) has a unique representative in
   \qquad
   \partial_t v\in L^2_tH^2_x.
 \]
-Its three components are the middle trace, the parabolic gain, and the
-equation's time row of one closed estimate.
+The parabolic gain \(v\in L^2_tH^4_x\) and the equation row
+\(v_t\in L^2_tH^2_x\) meet at the continuous \(H^3\) trace needed to carry the
+initial value.
 
 \divider{The shifted linear estimate}
 
@@ -142,7 +143,7 @@ inequality yields
     \norm{a}_{H^3}+\norm{F}_{L^2(J_\delta;H^2)}
   \right).
 \]
-Since \(z_t=\nu\Delta z+F\), the equation supplies the remaining row:
+Since \(z_t=\nu\Delta z+F\), the same estimate also controls the time derivative:
 \begin{equation}
   \norm{z}_{C(J_\delta;H^3)}
   +\norm{z}_{L^2(J_\delta;H^4)}
