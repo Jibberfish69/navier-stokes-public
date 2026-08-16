@@ -5,8 +5,7 @@
 
 \subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
 
-The spatial column discovered inside critical height has no final finite rung.
-Yet any particular derivative asks for only a finite amount of that column.
+The critical-height calculation reaches spatial energies of arbitrarily high order, but any one derivative request stops at a finite order.
 Suppose, for example, that one wants \(\partial_x^\alpha u\) to be continuous for every \(\lvert\alpha\rvert\le k\).
 In three dimensions, the Sobolev embedding
 \[
@@ -88,7 +87,7 @@ Then
   C^q\bigl(\overline I;C^k(\R^3)\bigr).
 \]
 
-This repeated finite choice determines the whole velocity target:
+To satisfy every finite time--space request on the same velocity, take the intersection of these finite Sobolev memberships:
 \[
   \mathscr V_\infty(I)
   :=
@@ -96,7 +95,7 @@ This repeated finite choice determines the whole velocity target:
   \bigcap_{m=0}^{\infty}
   H^r\bigl(I;H^m(\R^3)\bigr).
 \]
-Its meaning is
+Membership means
 \[
   u\in\mathscr V_\infty(I)
   \quad\Longleftrightarrow\quad
@@ -115,31 +114,29 @@ The embeddings above then give
   C^\infty\bigl(\overline I\times\R^3\bigr).
 \]
 
-The complete intersection also fixes the logical place of critical height.
-Choose a temporal index above \(1/2\) and a spatial index above \(3/2\).
-The resulting continuous Sobolev trace contains both
+Choose temporal and spatial indices large enough to give a continuous trace above the critical levels.
+That trace contains both
 \[
   u(t)\in H^{1/2}(\R^3)
   \qquad\text{and}\qquad
   u(t)\in H^{3/2}(\R^3)
 \]
 at each time in the closed interval.
-Only after those rows are supplied do the critical readouts
+The critical quantities are then defined on the closed interval by
 \[
   H(t)=\frac12\norm{\Lambda^{1/2}u(t)}_2^2,
   \qquad
   E_{3/2}(t)=\frac12\norm{\Lambda^{3/2}u(t)}_2^2
 \]
-become available.
-Critical height motivated the search for the column, while the all-row velocity intersection supplies the critical coordinates used at the endpoint.
+The calculation of critical height led to these spatial levels; the intersection is what controls them at the endpoint.
 
-The velocity intersection does not contain pressure as one of its elements.
-Pressure remains attached through the original recurrence,
+Pressure is not an element of the velocity intersection.
+It is recovered at every finite depth from the original recurrence
 \[
   Q_n=\partial_t^np,
 \]
 the differentiated momentum equation, incompressibility, and the pressure Poisson equation at every finite depth.
-Those relations keep the velocity intersection pressure-complete without confusing the pressure jet reconstructed from (u) with membership in the velocity space itself.
+The differentiated momentum equation, incompressibility, and the pressure Poisson equation then recover the pressure jet from \(u\) without treating pressure as an element of the velocity space.
 
-The intersection ranges over every finite temporal--spatial pair, while any one estimate controls a finite block.
-The adjacent energy levels around a common time trace determine the shape of that block.
+Each estimate will control one finite block of this intersection.
+The two Sobolev levels needed to produce a common time trace determine the upper and lower edges of that block.
