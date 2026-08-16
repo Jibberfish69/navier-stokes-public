@@ -145,7 +145,8 @@ This is the estimate needed to return from the global critical-height obstructio
 
 \subsection{The two vortex readings}\label{sub:ClosingCriticalHeightZenoAndTheVortex}
 
-Return first to a core made from the same material labels.
+There were two possible meanings of the narrowing core in Section~2.  Take them one at
+a time.  First suppose the core continues to contain the same material labels.
 If \(X(a,t)\) and \(X(b,t)\) are two trajectories in that core, then
 \[
   \frac d{dt}|X(a,t)-X(b,t)|
@@ -163,9 +164,12 @@ The finite action in \eqref{eq:FiniteLipschitzVorticityStrainAction} gives
   >0
 \end{equation}
 for every \(t\leq T_*\).
-A persistent material core containing two labels with positive initial separation cannot collapse those labels to one point in finite time.
+A material core begins with distinct particles.  Inequality
+\eqref{eq:BodyMaterialCoreLowerBound} says those particles are still distinct at
+(T_*).  The drawn radius may shrink, but it cannot represent the collapse of that
+same labelled core to one point.
 
-Perfect centring does not open a loophole.
+Keep this first reading and now put the vortex exactly on its centreline.
 The finite coordinate \((r,m)=(0,3)\) in \eqref{eq:BodyUniformMixedSobolevCoordinate} gives
 \begin{equation}\label{eq:BodyUniformLipschitzBound}
   L_*:=\sup_{0\leq t\leq T_*}\norm{\nabla u(t)}_\infty<\infty.
@@ -185,9 +189,12 @@ The constant vector \(u(t,x_c)\) integrates to zero around the closed curve, so
   \qquad(r\downarrow0).
 \end{equation}
 The relative tangential speed is \(O(r)\), and the circulation is \(O(r^2)\).
-Exact balance at the centre does not preserve nonzero circulation at zero radius.
+Thus perfect centring changes neither conclusion.  If the radius tends to zero while
+the velocity remains Lipschitz, the relative tangential speed is (O(r)) and the
+circulation is (O(r^2)); no nonzero circulation survives at the limiting point.
 
-Now take the second reading, in which the visible core recruits new material as earlier labels leave it.
+The second reading lets the visible core recruit new material as earlier labels leave
+it.
 Particle separation no longer follows the changing membership of that core, so the test moves to the whole-field high-frequency tail.
 For \(s>1/2\) and \(K\geq1\), define
 \[
@@ -209,9 +216,11 @@ The coordinate \(M_{0,m}<\infty\) and the continuous embedding \(H^m\hookrightar
 \end{equation}
 Even when material is continually recruited, the complete velocity field cannot retain a fixed amount of critical content beyond every frequency.
 
-These conclusions do not use wobble, fragmentation, or broken symmetry.
-Persistent labels retain positive separation, exact centring carries vanishing circulation into a vanishing radius, and recruitment leaves a uniformly vanishing whole-field critical tail.
-The perfectly balanced vortex has no remaining route to a singular zero-scale concentration at \(T_*\).
+This is why the two readings had to be separated.  Particle separation closes the
+persistent core, while the Fourier tail closes the recruited one.  Neither estimate
+needs wobble, fragmentation, buckling, or lost symmetry to rescue the flow.  Even the
+perfectly balanced stretching picture cannot carry singular critical content into zero
+scale at (T_*).
 
 \subsection{No finite singular time}\label{sub:NoFiniteSingularTime}
 
