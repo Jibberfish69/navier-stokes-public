@@ -1,0 +1,238 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.7 Singularity and the Derivative Tower
+% ============================================================
+\subsection{Singularity and the Derivative Tower}\label{sub:SingularityAndTheDerivativeTower}
+
+The vortex sheet broke at the first thing we looked at: velocity had two values across one surface.
+A singularity does not have to announce itself that low.
+One parcel may keep a finite velocity while the way that velocity is changing loses finite control.
+To see that failure, we have to follow the response of the same parcel as far upward as the equation carries it.
+
+Let \(X(a,t)\) be the trajectory of material label \(a\), and write
+\[
+  \dot X(a,t)=u(X(a,t),t),
+  \qquad
+  U(a,t):=u(X(a,t),t).
+\]
+The curve \(U(a,\cdot)\) is the velocity experienced by that parcel.
+When this velocity changes, its first change is acceleration.
+When the acceleration changes, its next change is jerk.
+Each further change is a higher response of the same moving matter.
+
+For this carried sequence, set
+\[
+  A_r(a,t)
+  :=
+  \frac{d^r}{dt^r}U(a,t),
+  \qquad
+  r=0,1,2,\ldots.
+\]
+On every classical interval,
+\[
+  A_r(a,t)
+  =
+  A_r(a,t_0)
+  +
+  \int_{t_0}^{t}A_{r+1}(a,s)\,ds.
+\]
+This elementary identity gives the response sequence its finite-time force.
+If one rung \(A_r\) escapes every finite bound as \(t\uparrow T<\infty\), the rung \(A_{r+1}\) cannot stay bounded on the remaining interval, because a bounded integrand can change \(A_r\) by only a finite amount.
+Applying the same observation again carries the loss of boundedness into every higher material response for as long as those derivatives exist.
+Once a rung is genuinely running away at a finite time, the rung above cannot remain still and bounded while producing that change.
+
+The first of these responses is already inside the Navier--Stokes equation.
+With
+\[
+  D_t:=\partial_t+u\cdot\nabla,
+\]
+the chain rule along the trajectory gives
+\[
+  A_1(a,t)
+  =
+  D_tu(X(a,t),t)
+  =
+  \bigl(-\nabla p+\nu\Delta u\bigr)(X(a,t),t).
+\]
+Acceleration is the pressure and viscous response of the field occupied by the parcel.
+Its jerk is found by differentiating the same equality along the same path:
+\[
+  A_2(a,t)
+  =
+  D_t^2u(X(a,t),t)
+  =
+  D_t\bigl(-\nabla p+\nu\Delta u\bigr)(X(a,t),t).
+\]
+Higher material differentiation keeps reopening the pressure, viscosity, transport, and spatial variation that generated the response below it.
+
+This carried acceleration must be kept distinct from the time derivative seen at one fixed coordinate.
+Write
+\[
+  V_n:=\partial_t^n u,
+  \qquad
+  Q_n:=\partial_t^n p.
+\]
+Then
+\[
+  A_1
+  =
+  V_1+(V_0\cdot\nabla)V_0
+\]
+along the parcel, so \(V_1\) supplies the Eulerian part of material acceleration and transport supplies the other part.
+The material jerk contains the next Eulerian time derivative together with the ways the parcel moves through a changing field:
+\[
+  D_t^2u
+  =
+  V_2
+  +2(V_0\cdot\nabla)V_1
+  +(V_1\cdot\nabla)V_0
+  +(V_0\cdot\nabla)\bigl((V_0\cdot\nabla)V_0\bigr).
+\]
+Material response and fixed-coordinate response are two readings of one field, joined by \(D_t=\partial_t+u\cdot\nabla\).
+
+\divider{The Temporal Rungs}
+
+The first four fixed-coordinate time derivatives show how the equation organizes those readings.
+The original momentum equation gives
+\[
+  V_1
+  =
+  \nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0.
+\]
+This \(V_1\) is the velocity change at fixed \(x\), and adding transport recovers material acceleration.
+Differentiate once in time while holding \(x\) fixed.
+The derivative can land on either velocity in the nonlinear product, giving
+\[
+  V_2
+  =
+  \nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1.
+\]
+Differentiate again, and the middle allocation appears twice:
+\[
+  V_3
+  =
+  \nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2.
+\]
+The fourth rung exposes the next Pascal row:
+\[
+  \begin{aligned}
+  V_4
+  ={}&
+  \nu\Delta V_3
+  -(V_3\cdot\nabla)V_0
+  -3(V_2\cdot\nabla)V_1\\
+  &-3(V_1\cdot\nabla)V_2
+  -(V_0\cdot\nabla)V_3
+  -\nabla Q_3.
+  \end{aligned}
+\]
+The coefficients count the ways the time derivatives can divide between the transporting and transported copies of velocity.
+At arbitrary order the same product rule reads
+\[
+  V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (V_k\cdot\nabla)V_{n-k}
+  +
+  \nabla Q_n
+  =
+  \nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\]
+Each \(V_{n+1}\) is tied to lower time rows through transport, to spatial curvature through viscosity, and to pressure at the same time order.
+The recurrence is an identity on the classical solution, and every row derives from that shared evolution.
+
+\divider{Pressure and the Spatial Rungs}
+
+Pressure and spatial derivatives have entered every temporal row from the beginning.
+Taking the divergence of the original momentum equation gives
+\[
+  -\Delta p
+  =
+  \partial_i\partial_j(u_i u_j),
+\]
+where repeated spatial indices are summed.
+After \(n\) time derivatives,
+\[
+  -\Delta Q_n
+  =
+  \partial_i\partial_j
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  V_{k,i}V_{n-k,j}.
+\]
+The whole-space decay normalization fixes the spatial constant left open by the elliptic equation.
+Each pressure row is generated by the velocity rows across the field, so a pressure response at one parcel can depend on velocity far from that parcel.
+
+Spatial differentiation opens the momentum equation in a second direction.
+One derivative in \(x_\ell\) gives
+\[
+  \begin{aligned}
+  \partial_t(\partial_\ell u)
+  &+
+  (u\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_\ell u)\cdot\nabla)u
+  +
+  \nabla(\partial_\ell p)\\
+  &=
+  \nu\Delta(\partial_\ell u).
+  \end{aligned}
+\]
+The added transport term records the fact that the transporting velocity also varies across neighbouring positions.
+A second spatial derivative gives both cross allocations:
+\[
+  \begin{aligned}
+  \partial_t(\partial_{\ell m}u)
+  &+
+  (u\cdot\nabla)(\partial_{\ell m}u)
+  +
+  ((\partial_\ell u)\cdot\nabla)(\partial_m u)\\
+  &+
+  ((\partial_m u)\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_{\ell m}u)\cdot\nabla)u
+  +
+  \nabla(\partial_{\ell m}p)\\
+  &=
+  \nu\Delta(\partial_{\ell m}u).
+  \end{aligned}
+\]
+Every further temporal or spatial differentiation repeats this nesting and creates the corresponding mixed response row.
+
+Using a multi-index \(\alpha\), write
+\[
+  J_{n,\alpha}(x,t)
+  :=
+  \partial_t^n\partial_x^\alpha u(x,t),
+\]
+and collect the velocity readings at that spacetime point as
+\[
+  \mathcal J^\infty u(x,t)
+  :=
+  \bigl(
+    J_{n,\alpha}(x,t)
+  \bigr)_{n\geq0,\,\alpha\in\mathbb N_0^3}.
+\]
+This is the derivative tower.
+Its rungs are simultaneous readings of one velocity field, its material acceleration and jerk are combinations of those readings along a trajectory, and its pressure rows remain attached through the Poisson equation and incompressibility.
+
+The tower can contain lawful zeroes.
+The zero solution has every rung equal to zero, a smooth steady flow has \(V_n=0\) for all \(n\geq1\), and a changing response can pass through zero at an instant.
+The equation decides whether a zero or nonzero value fits the surrounding field.
+The finite-time escalation above begins only when a particular material rung actually escapes every finite bound.
+
+A finite terminal velocity leaves all of these higher readings unsettled.
+Smooth arrival requires each finite temporal, spatial, and mixed rung to extend with one finite value compatible with the equations.
+The board-like jump is the lowest visible failure of that requirement; the opened tower shows where less visible failures can occur.

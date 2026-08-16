@@ -1,0 +1,133 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
+
+The Zeno schedule leaves open the only question that matters dynamically: can one solution perform all of those changes before the available time runs out?
+A scale can shrink on paper without any fluid moving through the intervening states.
+The Navier--Stokes field has no such freedom.
+Every finer state must be reached from the state already present, and a finite endpoint shortens the time in which that response can occur.
+
+Follow a particle of the same fluid.
+Let \(X(a,t)\) solve
+\[
+  \frac{d}{dt}X(a,t)=u(X(a,t),t),
+  \qquad
+  X(a,0)=a,
+\]
+and write
+\[
+  D_t:=\partial_t+u\cdot\nabla
+\]
+for differentiation along that path.
+Velocity, acceleration, and jerk are the first three rungs of one material response:
+\[
+  A_0(a,t):=u(X(a,t),t),
+  \qquad
+  A_1(a,t):=D_tu(X(a,t),t),
+  \qquad
+  A_2(a,t):=D_t^2u(X(a,t),t).
+\]
+More generally, set
+\[
+  A_r(a,t):=D_t^r u(X(a,t),t).
+\]
+The rungs are not independent because
+\[
+  \frac{d}{dt}A_r(a,t)=A_{r+1}(a,t).
+\]
+On each compact subinterval of \([0,T_*)\), classicality makes \(A_r(a,\cdot)\) absolutely continuous and gives
+\[
+  A_r(a,t)-A_r(a,s)
+  =
+  \int_s^t A_{r+1}(a,\tau)\,d\tau
+\]
+for \(0\le s<t<T_*\).
+Consequently,
+\[
+  \lvert A_r(a,t)-A_r(a,s)\rvert
+  \le
+  \int_s^t \lvert A_{r+1}(a,\tau)\rvert\,d\tau.
+\]
+If \(A_r(a,t)\) is unbounded as \(t\uparrow T_*\), then
+\[
+  \int_0^{T_*}\lvert A_{r+1}(a,\tau)\rvert\,d\tau
+  =
+  \infty,
+\]
+and the finite length of \([0,T_*)\) forces
+\[
+  \sup_{0<t<T_*}\lvert A_{r+1}(a,t)\rvert
+  =
+  \infty.
+\]
+The escape of one material response forces escalation in the response immediately above it.
+
+This statement is conditional, and that condition matters.
+It does not say that every solution climbs the ladder, that any rung is monotone, or that every response is nonzero.
+A steady solution can remain steady, and the zero solution can keep every rung equal to zero.
+The ladder describes what finite-time escape would force inside the one fluid if escape occurred.
+
+The same dependence appears before choosing a particle, but its functional setting must stay fixed throughout the implication.
+Fix one Banach space \(B\), retain the Eulerian rows
+\[
+  V_n(t):=\partial_t^n u(\cdot,t),
+\]
+and suppose that \(V_n:[0,T)\to B\) is absolutely continuous on every compact subinterval, with Bochner derivative \(V_{n+1}\).
+For \(0\le s<t<T<T_*\), the Banach-valued fundamental theorem of calculus gives
+\[
+  V_n(t)-V_n(s)
+  =
+  \int_s^t V_{n+1}(\tau)\,d\tau
+\]
+and
+\[
+  \lVert V_n(t)-V_n(s)\rVert_B
+  \le
+  \int_s^t \lVert V_{n+1}(\tau)\rVert_B\,d\tau.
+\]
+If
+\[
+  \sup_{0<t<T_*}\lVert V_n(t)\rVert_B
+  =
+  \infty,
+\]
+then the finiteness of \(\lVert V_n(0)\rVert_B\) forces
+\[
+  \int_0^{T_*}\lVert V_{n+1}(\tau)\rVert_B\,d\tau
+  =
+  \infty.
+\]
+Because \(T_*<\infty\), this in turn forces
+\[
+  \sup_{0<t<T_*}\lVert V_{n+1}(t)\rVert_B
+  =
+  \infty.
+\]
+The implication can be iterated upward only while the same fixed space \(B\), absolute continuity, and Bochner-derivative identity hold at every successive row.
+That is the precise Eulerian form of finite-time response escalation.
+
+Material and Eulerian responses still cannot be identified.
+Already the material acceleration is
+\[
+  D_tu
+  =
+  \partial_tu+(u\cdot\nabla)u,
+\]
+and the material jerk expands to
+\[
+  D_t^2u
+  =
+  \partial_t^2u
+  +2(u\cdot\nabla)\partial_tu
+  +(\partial_tu\cdot\nabla)u
+  +(u\cdot\nabla)\bigl((u\cdot\nabla)u\bigr).
+\]
+One step up in material response has already mixed a new time derivative with new spatial derivatives and nonlinear products of lower rows.
+The particle picture exposes the escalation, while the equation decides how its pieces are coupled.
+
+A single ladder indexed only by time can no longer hold what the fluid is doing.
+The response has one index for temporal depth and another for spatial depth, and pressure enters as soon as the equation is used to relate them.
+The next object must record that full mixed response without splitting it into separate derivative stories.
