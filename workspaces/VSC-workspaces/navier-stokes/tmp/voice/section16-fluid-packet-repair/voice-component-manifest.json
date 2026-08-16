@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "component_id": "assistant-literal-board-substitution",
+      "role": "negative_comparison",
+      "authorship": "assistant",
+      "start": 0,
+      "end": 294
+    },
+    {
+      "component_id": "thomas-one-packet-correction",
+      "role": "user_feedback",
+      "authorship": "thomas",
+      "start": 301,
+      "end": 632
+    },
+    {
+      "component_id": "thomas-learning-command",
+      "role": "use_authorization",
+      "authorship": "thomas",
+      "start": 639,
+      "end": 747
+    }
+  ]
+}
