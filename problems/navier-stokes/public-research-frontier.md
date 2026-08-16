@@ -1,5 +1,16 @@
 # Public Research Frontier
 
+## Internal theorem-status separation
+
+The governing repository MPP status is **solved**. This public-facing frontier
+record is not the repository's direct theorem authority. Internally, the
+fixed-viscosity pressure-complete proof program is recorded as complete from
+datum-generated compatible whole-terminal finite rectangles through the
+projective all-orders intersection, S0, one smooth endpoint, the actual endpoint
+jet, same-history restart, and T*=infinity. The public-status discussion below
+is a separate publication and external-recognition surface and cannot change
+the internal mathematical status.
+
 Updated: 2026-07-12 (single addition in section 3; last full sweep 2026-05-18)
 
 Purpose: record the current live public Navier-Stokes research frontier relevant to this lane.

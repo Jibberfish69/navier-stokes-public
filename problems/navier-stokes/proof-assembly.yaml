@@ -1,5 +1,13 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_program: thomas-one-fluid-reversible-intersection
+  active_direct_boundary: none
+  proof_chain: datum-generated-whole-terminal-rectangles-to-intersection-to-H_x-infinity-endpoint-to-restart
+  precedence: Historical mathematics is preserved at its proved scope; generated status cannot reopen or override the established datum-generated whole-terminal theorem.
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
@@ -9,7 +17,18 @@ identity:
   source_frontier_id: source-frontier-navier-stokes
   source_branch_set_id: extension-branches-navier-stokes
   source_promotion_verdict_id: promotion-verdict-navier-stokes
-manual_ontology_gate_reconciliation:
+current_silver_authority_20260722:
+  status: logical-failure-classification-not-global-regularity-proof
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  original_object: one smooth-data, fixed-positive-viscosity, no-reset original Navier--Stokes history
+  negative_side: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)"
+  contrapositive: "VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  silver_vpi_complement_rule: Every nonsmooth departure loses class membership and full VPI participation; this classifies breakdown but does not prove terminal participation retention
+  negative_inventory_exhaustion_rule: Terminal labels only present the one negative-side participation loss
+  pack_boundary: Pack is outside CM and only Field-window evidence
+  gold_boundary: independent-parallel-research-nonblocking
+  artifact_boundary: reader-facing PDF/export audit not run
+historical_ontology_gate_reconciliation_20260713:
   updated_on: '2026-07-13'
   status: active-authority-override
   authority: problems/navier-stokes/target-operating-contract.yaml#critical_mean_frequency_participation_recombination_ontology_spin
@@ -27,46 +46,43 @@ manual_ontology_gate_reconciliation:
     critical-height theorem remains open. No strict reduction, Gold closure,
     or Silver conclusion follows. Lower generated occurrences are genealogy
     only.
-theorem_statement: 'clay-cm-contrapositive-witness-consumption Live theorem edge:
-  GlobalSamePacketFullClockFromOriginalData.A; OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A;
-  PackOutOfCMObjectBoundary.A; ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A
-  / ClayCMContrapositiveEmbedding.A; CMPartOntologyWitnessNotation.A.'
+theorem_statement: 'On one smooth-data, fixed-positive-viscosity, no-reset original
+  Navier--Stokes history: not Smooth(Q) => not Member(Q) => not
+  VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q).'
 source_grounded_chain:
-- PackOutOfCMObjectBoundary.A
-- ClayTerminalWitnessCMEntry.A / ClayFiniteFailureTypeCMExhaustion.A / ClayCMContrapositiveEmbedding.A
-- CMPartOntologyWitnessNotation.A
-- TorusGlobalMaterialAtlasTerminalCapture.A
+- Exhaustive departure inventory proving not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)
+- Direct contraposition proving VPIParticipation(Q) => Member(Q) => Smooth(Q)
 tentative_extension_chain: []
-remaining_open_obligations:
+parallel_gold_research_obligations:
 - obligation_id: gold-critical-height-bound-open
   kind: forward-gold-live-wall
   label: global critical-height bound or a genuinely smaller quantitative theorem
-  status: gold-open-no-smaller-theorem-installed
+  status: parallel-gold-research-nonblocking
   source_anchor: problems/navier-stokes/target-operating-contract.yaml
   proof_mode: gold_forward_critical_height_control
   meaning: >-
     Prove a uniform global critical-height bound, or prove a genuinely smaller
     quantitative same-field theorem whose implication to that bound is exact.
-  blocking: true
+  blocking: false
   equivalent_forms: &1
   - simultaneous strict coupled active-capacity/full-exchange storage inequality
   - independent face proof breaking the TFE2748B.1548/TFE2748B.1555 self-feeding chain
-remaining_open_obligation_groups:
+parallel_gold_research_groups:
   bridge_discharge_obligations: []
   math_frontier_obligations:
   - obligation_id: gold-critical-height-bound-open
     kind: forward-gold-live-wall
     label: global critical-height bound or a genuinely smaller quantitative theorem
-    status: gold-open-no-smaller-theorem-installed
+    status: parallel-gold-research-nonblocking
     source_anchor: problems/navier-stokes/target-operating-contract.yaml
     proof_mode: gold_forward_critical_height_control
     meaning: >-
       Prove a uniform global critical-height bound, or prove a genuinely smaller
       quantitative same-field theorem whose implication to that bound is exact.
-    blocking: true
+    blocking: false
     equivalent_forms: *1
   theorem_warrant_obligations: []
-frontier_context:
+historical_frontier_context_snapshot_20260625:
   route_container_obligations: []
   downstream_support_obligations: []
   additional_context_obligations:
@@ -211,7 +227,7 @@ frontier_context:
       evidence only after field-local testing is named, with true failed packet-window
       reserved for carrier/window/readout absence after that typing
     current_role: governing proof grammar for CM-bearing promotion
-    governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
+    governing_engine_note: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
     pack_before_part_dependency_audit:
       note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
       licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
@@ -224,7 +240,7 @@ frontier_context:
         Navier-Stokes participation law to the live same-solution object; localize
         to Part_{N,Q} only after the tested record exists; if no, keep not Pack_Q
         as a true carrier/window/readout failure.
-    obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
+    historical_pass_fail_rule_superseded_20260722: Follow the ordinary positive proof program until it
       reaches a real obstruction, then split the obstruction into a pass branch and
       a fail branch. The pass branch is the in-class `Member(Q)` branch and may be
       supplied by any lawful continuation mechanism. The fail branch is lawful CM
@@ -233,13 +249,13 @@ frontier_context:
       of an outside-CM participation-field/window branch, supporting `Exit(Q):=not
       Member(Q)`. Do not replace this engine with a demand to prove one particular
       positive estimate directly.
-    no_third_branch_rule: The installed no-third-branch audit proves that no terminal
+    historical_no_third_branch_rule_superseded_20260722: The installed no-third-branch audit proves that no terminal
       branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
       branch once the obstruction has been admitted to the CM test and a concrete
       Part/Field failure has been derived. Do not respawn the rejected positive no-exit
       slogan as the local burden; the live proof engine is obstruction-by-obstruction
       CM-test entry plus Part/Field face derivation.
-    no_genuine_exit_rule: The direct first-exit positive no-exit attempt is retained
+    historical_failed_no_exit_framing_superseded_20260722: The direct first-exit positive no-exit attempt is retained
       as a failed positive no-exit shortcut and may not control the local CM target.
       Under the current pass-or-exit engine, a pass branch may be supplied by any
       lawful continuation mechanism, and a fail branch is useful exactly when it lands
@@ -771,13 +787,14 @@ frontier_context:
       evolution, then signed critical-height control or CM Part/Field class-exit readout.
       A supplier, coordinate, compactness note, or record ledger has proof force only
       when it attaches to the same retained signed-record edge before selected positive-part
-      readout, derives a typed Pack/Part/Field face failure, or certifies a material-time
-      branch such as MaterialTimeCertificateFlowInvariance.A.'
-next_solver_targets:
+      readout, proves same-history loss of full VPI participation, with Part/Field
+      only localizing that loss and Pack outside CM as Field-window evidence, or
+      certifies a material-time branch such as MaterialTimeCertificateFlowInvariance.A.'
+parallel_gold_next_solver_targets:
 - obligation_id: gold-l1-signed-height-sign-persistence-wall
   kind: forward-gold-live-wall
   label: SignedCriticalHeightSignPersistenceOrPeakBound.A
-  status: gold-l1-open-signed-height-sign-persistence-wall
+  status: parallel-gold-research-nonblocking
   source_anchor: problems/navier-stokes/target-operating-contract.yaml
   proof_mode: gold_forward_signed_height_restart
   meaning: Prove the Gold restart from the signed critical-height equation, not from
@@ -785,7 +802,7 @@ next_solver_targets:
     prove the physical mechanism that lets one same-fluid packet keep the signed rate
     positive long enough to raise that height. If the signed rate changes sign, the
     object is peak height, not total positive variation.
-  blocking: true
+  blocking: false
   equivalent_forms: *1
 gold_counterpart_or_support_targets:
 - obligation_id: global-same-packet-full-material-clock
@@ -800,7 +817,7 @@ gold_counterpart_or_support_targets:
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
   kind: silver-support-repair
   status: support-installed-not-silver-blocker
-theorem_surface:
+historical_theorem_surface_snapshot_20260625:
   surface_id: theorem-surface-navier-stokes-d857049b86ee
   route_signature: d857049b86ee0132f87f3cd355af3810fab1f5a0
   theorem_target: target must be locked by ns-target-operating-contract-v1
@@ -947,29 +964,64 @@ theorem_surface:
   authority_hierarchy: *10
   mode_selection_protocol: *11
   fluid_field_object_ontology: *12
+theorem_surface:
+  theorem_target: global smoothness for the original 3D incompressible Navier--Stokes history
+  proof_mode: contrapositive_class_membership
+  status: logical-failure-classification-terminal-retention-unproved
+  theorem_statement: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  dependencies:
+  - one original smooth-data, fixed-positive-viscosity, no-reset NS history
+  - exhaustive loss of membership and full VPI participation for every nonsmooth departure
+  - direct contraposition
+  terminal_labels_role: negative-side participation-loss presentations only
+  pack_boundary: Pack is outside CM and only Field-window evidence
 summary:
   grounded_step_count: 4
   promoted_extension_count: 0
   bridge_discharge_blocking_count: 0
   bridge_discharge_only_count: 0
-  theorem_warrant_blocking_count: 0
+  theorem_warrant_blocking_count: 1
   open_obligation_count: 1
   math_frontier_open_count: 1
-  frontier_context_count: 1
+  frontier_context_count: 0
   frontier_route_container_count: 0
   frontier_downstream_support_count: 0
   tracked_source_count: 140
   synthesis_import_surface_count: 0
+  theorem_accepted: false
+  theorem_blocking_count: 1
+  gold_blocking_count: 0
   ready_for_submission: false
+  artifact_readiness: reader-facing-pdf-and-export-audit-not-run
   theorem_surface_id: theorem-surface-navier-stokes-d857049b86ee
   target_operating_contract_id: ns-target-operating-contract-v1
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *3
 target_lock_schema: *4
-proof_program_topology: *5
-open_root_group: *6
-exact_live_theorem_grade_burden: *2
-release_or_respawn_consequence: *7
+historical_proof_program_topology_snapshot_20260625: *5
+historical_open_root_group_snapshot_20260625: *6
+historical_exact_live_theorem_grade_burden_snapshot_20260625: *2
+historical_release_or_respawn_consequence_snapshot_20260625: *7
+proof_program_topology:
+- program_id: silver-vpi-complement-contrapositive
+  proof_mode: contrapositive_class_membership
+  governing_primitive: full VPI participation of one original NS history
+  current_role: exact Silver failure classification; terminal participation retention unproved
+  governing_engine_note: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  silver_vpi_complement_rule: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  negative_inventory_exhaustion_rule: Terminal labels only classify the one negative-side participation loss
+open_root_group:
+  group_id: parallel-gold-research
+  top_level_release_blocker: false
+  dashboard_boundary: The datum-generated whole-terminal compatible-rectangle theorem is established; Silver classifies participation loss but does not prove terminal retention.
+exact_live_theorem_grade_burden:
+  status: parallel-gold-research-nonblocking
+  target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
+release_or_respawn_consequence:
+  disposition: established-complete
+  next_cell_type: theorem-upgrade
+  next_stage: preserve-established-proof-and-downstream-support
+  next_action: Preserve the exact established proof chain; historical supplier routes remain downstream support.
 forward_positive_surface_quarantine: *8
 non_merge_rules: *9
 authority_hierarchy: *10
