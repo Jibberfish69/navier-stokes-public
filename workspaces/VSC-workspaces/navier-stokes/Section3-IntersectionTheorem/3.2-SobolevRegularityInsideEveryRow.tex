@@ -1,8 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The same spatial ladder inside every response}\label{sub:SobolevRegularityInsideEveryCompletedRow}
 
-Fix one temporal response \(V_r\).  It is itself a velocity-like field driven by all
-the lower responses that produced it.  For \(r=1\), the differentiated equation reads
+Fix one temporal response \(V_r\).  Its differentiated equation couples
+\(V_0,\ldots,V_r\) with the pressure row \(Q_r\), while the Laplacian acts linearly
+on that same \(V_r\).  For \(r=1\), the equation reads
 \[
   V_2
   +(V_1\cdot\nabla)V_0
@@ -49,17 +50,17 @@ The finite coordinates we now need can be seen before we claim any of them are b
 
 \begin{center}
 \captionsetup{hypcap=false}
-\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the finite coordinate \(\norm{V_r}_{H^m}\); temporal order runs downward and spatial height runs across.}
+\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the time-dependent coordinate \(\norm{V_r(t)}_{H^m}\); temporal order runs downward and spatial height runs across, and the rectangle estimate will make each selected finite coordinate uniform through the terminal time.}
 \label{tab:MixedDerivativeGrid}
 \renewcommand{\arraystretch}{1.4}
 \begin{tabular}{@{}c c c c c c@{}}
 \toprule
 & \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
 \midrule
-\(V_0=u\) & \(\norm{V_0}_{H^0}\) & \(\norm{V_0}_{H^1}\) & \(\norm{V_0}_{H^2}\) & \(\norm{V_0}_{H^3}\) & \(\cdots\) \\
-\(V_1=u_t\) & \(\norm{V_1}_{H^0}\) & \(\norm{V_1}_{H^1}\) & \(\norm{V_1}_{H^2}\) & \(\norm{V_1}_{H^3}\) & \(\cdots\) \\
-\(V_2=u_{tt}\) & \(\norm{V_2}_{H^0}\) & \(\norm{V_2}_{H^1}\) & \(\norm{V_2}_{H^2}\) & \(\norm{V_2}_{H^3}\) & \(\cdots\) \\
-\(V_3=u_{ttt}\) & \(\norm{V_3}_{H^0}\) & \(\norm{V_3}_{H^1}\) & \(\norm{V_3}_{H^2}\) & \(\norm{V_3}_{H^3}\) & \(\cdots\) \\
+\(V_0=u\) & \(\norm{V_0(t)}_{H^0}\) & \(\norm{V_0(t)}_{H^1}\) & \(\norm{V_0(t)}_{H^2}\) & \(\norm{V_0(t)}_{H^3}\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\norm{V_1(t)}_{H^0}\) & \(\norm{V_1(t)}_{H^1}\) & \(\norm{V_1(t)}_{H^2}\) & \(\norm{V_1(t)}_{H^3}\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\norm{V_2(t)}_{H^0}\) & \(\norm{V_2(t)}_{H^1}\) & \(\norm{V_2(t)}_{H^2}\) & \(\norm{V_2(t)}_{H^3}\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\norm{V_3(t)}_{H^0}\) & \(\norm{V_3(t)}_{H^1}\) & \(\norm{V_3(t)}_{H^2}\) & \(\norm{V_3(t)}_{H^3}\) & \(\cdots\) \\
 \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
 \bottomrule
 \end{tabular}
