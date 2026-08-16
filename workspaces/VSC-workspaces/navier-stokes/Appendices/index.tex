@@ -1,7 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \section{Local Construction and Classical Estimates}\label{app:LocalConstructionAndClassicalEstimates}
 
-The local theorem and the classical continuation estimates are collected here after the main argument has identified the critical-height obstruction.
+The main argument uses local theory twice: first to construct the maximal history, and then to continue it from a smooth terminal value.  We prove the required local theorem here and then set out the classical estimates that locate the finite-endpoint obstruction.
 
 \input{Appendices/A-LocalConstruction.tex}
 \input{Section1-Introduction/1.2-HistoricalEstimates.tex}
@@ -9,7 +9,7 @@ The local theorem and the classical continuation estimates are collected here af
 \clearpage
 \section{Derivative and Finite-Record Calculus}\label{app:DerivativeAndFiniteRecordCalculus}\label{sec:FromCriticalHeightToCompatibleFiniteViews}
 
-This appendix carries the expanded critical-height calculation, fixed-space escalation argument, pressure-complete recurrences, Sobolev intersections, and finite-rectangle calculus used in the body.
+The critical-height calculation begins with one scalar quantity and ends with the full time--space derivative array.  The steps between them are given here: finite-time escalation in one fixed space, the pressure-complete recurrences, the Sobolev intersections, and the adjacent rectangles cut from those derivatives.
 
 \input{Section2-ProofProgram/2.1-CriticalHeightAtAFiniteEndpoint.tex}
 \input{Section2-ProofProgram/2.2-FiniteTimeResponseEscalation.tex}
@@ -21,7 +21,7 @@ This appendix carries the expanded critical-height calculation, fixed-space esca
 \clearpage
 \section{Compatible Terminal Assembly}\label{app:CompatibleTerminalAssembly}\label{sec:TheCompatibleIntersectionAtTheTerminalTime}
 
-This appendix gives the formal restriction maps, projective assembly, adjacent trace proof, common endpoint, complete endpoint jet, and smooth gluing at the terminal slice.
+Every whole-terminal rectangle contains derivatives of the same velocity and normalized pressure.  The restriction maps make that agreement exact; the adjacent trace then produces one endpoint, the differentiated equation produces its complete jet, and local uniqueness joins the restarted solution to the history on the left.
 
 \input{Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex}
 \input{Section3-CompatibleIntersectionClosure/3.2-ProjectiveIntersectionAndTheCompleteSpatialRow.tex}
