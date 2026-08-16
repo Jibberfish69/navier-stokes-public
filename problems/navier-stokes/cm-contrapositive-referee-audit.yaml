@@ -1,35 +1,49 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
 identity:
   problem_id: navier-stokes
   artifact_id: cm-contrapositive-referee-audit-navier-stokes
   generated_at: '2026-06-07T20:10:59Z'
   generator: codex/referee-sweep-current-state
-  audit_scope: Navier-Stokes CM contrapositive proof inclusion and readiness gate
+  audit_scope: Navier-Stokes CM contrapositive failure-classification audit; not an MPP readiness gate
+manual_silver_vpi_contrapositive_audit_20260722:
+  status: logical-classification-terminal-participation-retention-unproved
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  correction: >-
+    The exhaustive terminal inventory proves
+    not Smooth(Q)=>not Member(Q)=>not VPIParticipation(Q). Its contrapositive is
+    VPIParticipation(Q)=>Member(Q)=>Smooth(Q). Full VPI participation is the law
+    of the original same-history fluid, not mere distributional solvability.
+  supersession: >-
+    This correction removes the duplicate genuine-exit theorem. The Silver
+    inventory and MemberSmooth/WitnessFace bridge govern failure classification;
+    they do not establish terminal participation retention.
+  global_regularity_boundary: none; the direct datum-generated compatible-intersection proof is established complete, while Silver remains a downstream classification
 status:
-  audit_status: passed-current-finite-obstruction-inventory-gate
+  audit_status: classification-passed-terminal-retention-unproved
   pass: true
   release_eligible: false
   clay_ready: false
   clay_statement_b_ready: false
   whole_space_statement_a_ready: false
-  superseded_by:
-  - problems/navier-stokes/theorem-construction/mpp-finite-obstruction-inventory-finality-attempt-20260609.md
-  - problems/navier-stokes/theorem-construction/mpp-public-finality-first-exit-pack-wall-reentry-20260609.md
-  - problems/navier-stokes/theorem-construction/mpp-external-terminal-time-thickness-mechanism-search-reentry-20260609.md
-  current_blocker:
+  superseded_by: []
+  current_blocker: none
   accepted_replacement:
-    patch: CMContrapositiveRefereeInventoryPatch.A
-    theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
+    patch: SilverVPIComplementContrapositive
+    theorem: SilverVPIComplementContrapositive
     replaces: release-exactness-and-manuscript-refresh
     single_gate_paths:
       gate_model: one referee gate with Gold and Silver acceptance paths
       gate_id: release-exactness-and-manuscript-refresh
-      accepted_resolution: CMContrapositiveRefereeInventoryPatch.A
+      accepted_resolution: SilverVPIComplementContrapositive
       accepted_path: Silver
-      anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
-        CM contrapositive replacement. It records accepted_path only; Gold is not
-        the only acceptance mode.
+      correction_rule: The inventory exhausts nonsmooth departures into loss of
+        membership and full VPI participation; contraposition gives smoothness.
       gold:
         path_role: forward-positive acceptance path
         status: audited-to-terminal-time-face-new-production-obstruction
@@ -39,34 +53,32 @@ status:
         - problems/navier-stokes/theorem-construction/mpp-terminal-new-production-gold-direct-attempt-20260614.md
         - problems/navier-stokes/theorem-construction/mpp-terminal-zeno-refill-forward-positive-bottleneck-20260611.md
       silver:
-        path_role: CM contrapositive acceptance path
-        status: accepted-official-referee-resolution
-        route_object: ExhaustiveContrapositiveFiniteBreakdownExclusion.A through Part/Field
+        path_role: CM contrapositive classification path
+        status: classification-valid-terminal-retention-unproved
+        route_object: SilverVPIComplementContrapositive on the original VPI history
         evidence:
+        - problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
         - problems/navier-stokes/theorem-construction/mcp-exhaustivecontrapositivefinitebreakdownexclusion-a-noncircularfinitebreakdownexclusion-a-clayclosingbridgewithoutforwardsmuggling-a-54137e3d64.md
         - problems/navier-stokes/theorem-construction/mcp-terminalwitnessinventoryaudit-a-exhaustivecontrapositivefinitebreakdownexclusion-a-refereeinventoryreconciliation-a-0145d6f85e.md
         - problems/navier-stokes/theorem-construction/mcp-cmcontrapositiverefereeinventorypatchattempt-a-cmcontrapositiverefereeinventorypatch-a-exhaustivecontrapositivefinitebreakdownexclusion-a-0cd1ff03d3.md
-    reason: The CM contrapositive excludes an alleged finite-time Clay breakdown by
-      admitting the terminal witness to the CM test and exhausting every admissible
-      branch as admissibility failure, continuation/readout recovery, or a concrete
-      Part/Field failure supporting Exit(Q):=not Member(Q). A Part/Field failure is
-      the contradiction mechanism, not a surviving Clay breakdown classification.
+    reason: The CM inventory exhausts nonsmooth terminal presentations into
+      Exit(Q):=not Member(Q) and loss of full VPI participation. Its
+      contrapositive applies to a retained full participant, but this audit does
+      not prove that the original history retains full participation at T_*.
   resolved_gap:
     superseded_source: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
     correction: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
-    resolution: 'The old generic demand to prove Exit(Q) inadmissible was the wrong
-      local target. The finite-obstruction inventory gate is locally passed only in
-      this sense: each proof-bearing terminal obstruction must enter the CM test and
-      land in Part or Field, while non-proof rows are recorded as support with no
-      proof force. This local inventory pass is not release readiness after the pulling-teeth
-      exactness reread; exactness rework and Clay finality remain separate decision-bearing
-      blockers.'
+    resolution: 'The exhaustive negative inventory proves not Smooth(Q)=>not
+      Member(Q)=>not VPIParticipation(Q), and direct contraposition proves smoothness
+      for a full VPI participant. It does not prove terminal retention for the
+      original maximal history.'
 audit_law:
-  governing_program: Exit(Q):=not Member(Q) through Part/Field witnesses.
-  positive_to_cm_ultimatum: Any unfinished positive proof surface must either convert
-    into CM-test admission plus a concrete Part/Field failure, be positively solved,
-    be recorded as support/quarantine/obsolete/moot/logically unreachable with no
-    proof force, or be flagged as a genuine unresolved logical burden.
+  governing_program: not Smooth(Q)=>not Member(Q)=>not VPIParticipation(Q), directly contrapositively VPIParticipation(Q)=>Member(Q)=>Smooth(Q).
+  global_regularity_boundary: Terminal full-participation retention or an equivalent noncircular terminal exclusion remains unproved.
+  positive_to_cm_ultimatum: Positive proof surfaces remain in parallel nonblocking Gold
+    or support. They enter Silver only when they classify an actual same-history loss
+    of full VPI participation; Part or Field may localize class exit, while Pack stays
+    outside CM as Field-window evidence.
   no_forcing_rule: A surviving positive requirement may not be forced into CM language.
     If it is an authentic logical problem, it blocks Clay readiness.
 classification_summary:
@@ -94,8 +106,11 @@ classification_summary:
   support_repair_separated_from_theorem_progress_20260527: true
   clay_counterexample_exclusion_bridge_demoted_as_wrong_local_target: true
   finite_terminal_obstruction_inventory_covered: true
-  r3_cm_part_field_question_branch_closed: true
+  r3_cm_part_field_question_branch_closed: false
   clay_closing_bridge_open: true
+  silver_terminal_classification_installed: true
+  silver_vpi_contrapositive_installed: true
+  silver_participation_contrapositive_composition_closed: false
 working_pass_results:
 - id: comprehensive-cm-switch-and-generated-overlay-sweep
   status: completed
@@ -271,18 +286,13 @@ required_next_audit:
 pass: true
 release_eligible: false
 clay_ready: false
-blockers:
-- navier-stokes-exactness-rework-active
-blocking_findings: []
-open_logical_burdens:
-- The finite-obstruction inventory pass is the accepted Silver CM consumption route
-  when every promoted finite terminal row has CM-test entry plus admissibility failure,
-  continuation/readout recovery, or concrete Part/Field failure. It is not blocked
-  by a generic demand to prove that Part/Field failure cannot itself be finite breakdown.
-- The pulling-teeth exactness reread remains active until every decision-bearing live
-  proof surface is reworked or stripped of proof force.
+blockers: []
+nonblocking_findings:
+- Silver alone does not prove terminal full-participation retention for the original
+  maximal history; the direct compatible-intersection proof is established independently.
+open_logical_burdens: []
 passed: true
-reconciled_by: problems/navier-stokes/theorem-construction/mcp-cmcontrapositiverefereeinventorypatchattempt-a-cmcontrapositiverefereeinventorypatch-a-exhaustivecontrapositivefinitebreakdownexclusion-a-0cd1ff03d3.md
+reconciled_by: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
 accepted_replacement:
   patch: CMContrapositiveRefereeInventoryPatch.A
   theorem: ExhaustiveContrapositiveFiniteBreakdownExclusion.A
@@ -292,9 +302,8 @@ accepted_replacement:
     gate_id: release-exactness-and-manuscript-refresh
     accepted_resolution: CMContrapositiveRefereeInventoryPatch.A
     accepted_path: Silver
-    anti_smuggling_rule: The gate accepts either Gold proof or the Silver exhaustive
-      CM contrapositive replacement. It records accepted_path only; Gold is not the
-      only acceptance mode.
+    correction_rule: The branch inventory proves the negative side of the direct
+      VPI contrapositive; no further terminal theorem is required.
     gold:
       path_role: forward-positive acceptance path
       status: audited-to-terminal-time-face-new-production-obstruction
@@ -322,13 +331,4 @@ accepted_replacement:
     reduce
   - positive-radius nonsingular branch -> ordinary Part/Field chain or continuation/readout
     recovery
-superseded_readiness_candidates:
-- candidate_id: clay-counterexample-gap-audit:finite-breakdown-exclusion-open
-  kind: superseded_wrong_silver_target
-  surface: problems/navier-stokes/theorem-construction/mpp-clay-counterexample-exclusion-gap-audit-20260601.md
-  evidence: The old generic bridge demand treated a concrete CM Part/Field failure
-    as a leftover finite-breakdown branch. The 2026-06-19 correction rejects that
-    as the Silver target.
-  required_action: Only reopen Silver when a concrete promoted finite-breakdown row
-    enters the CM test and still neither continues nor lands in a real Part/Field
-    Part/Field failure.
+reopened_readiness_candidates: []

@@ -36,7 +36,7 @@ branch_pool:
   label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
     same-material service at continuation depth; formalize only a genuinely new non-equivalent
     Gold mechanism'
-  status: hard-boundary-open
+  status: historical-context-only
   origin_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
   origin_kind: blocked-frontier
   parent_obligation_id: ContinuationStrengthMaterialClockAtDepth.A
@@ -46,7 +46,7 @@ branch_pool:
   root_target_label: Hold the continuation-strength material clock as the current
     hard boundary and formalize only a new non-equivalent Gold mechanism candidate.
   source_class: continuation-strength-hard-boundary
-  source_status: hard-boundary-open
+  source_status: historical-context-only
   branch_type: route-mutation
   pursuit_mode: independent
   candidate_claim: Hold the continuation-strength material clock as the current hard
@@ -100,32 +100,32 @@ candidate_archive:
   label: 'ContinuationStrengthMaterialClockAtDepth.A: hard boundary for finite total
     same-material service at continuation depth; formalize only a genuinely new non-equivalent
     Gold mechanism'
-  status: hard-boundary-open
+  status: historical-context-only
   promoted_into_branch_pool: true
 - origin_obligation_id: global-same-packet-full-material-clock
   origin_kind: live-theorem-frontier
   label: GlobalSamePacketFullClockFromOriginalData.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: false
 - origin_obligation_id: original-smooth-data-material-history-no-finite-breakdown
   origin_kind: live-theorem-frontier
   label: OriginalSmoothDataMaterialHistoryNoFiniteBreakdown.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: false
 - origin_obligation_id: pack-out-of-cm-smoothness-certification-audit
   origin_kind: live-theorem-frontier
   label: PackOutOfCMSmoothnessCertification.A / OriginalParticipationBeforePackLicensing.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: false
 - origin_obligation_id: r3-whole-space-cm-completion
   origin_kind: live-theorem-frontier
   label: R3ExteriorDyadicSurvivorMaterialClockExclusion.A / R3.WholeSpaceHsTailCompletion.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: false
 - origin_obligation_id: scale-uniform-annular-supplier-goal-resolution
   origin_kind: live-theorem-frontier
   label: ScaleUniformAnnularSupplierGoalResolution.A / AnnularLimitCMFaceLanding.A
-  status: frontier-open
+  status: historical-context-only
   promoted_into_branch_pool: false
 selected_branch: *1
 summary:
@@ -136,4 +136,21 @@ summary:
   - creative-branch-navier-stokes-1
   selected_branch_id: creative-branch-navier-stokes-1
   selected_next_cell_type: object-formalization
-  intervention_needed: true
+  intervention_needed: false
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
+  stale_surface_status: historical-context-only
+current_authority_status:
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-08-06T14:56:50Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
+  authority_summary:
+    authority_mode: direct-live-surfaces
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
+  controlling_surfaces:
+  - problems/navier-stokes/live-theorem-edge.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/theorem-packet.yaml

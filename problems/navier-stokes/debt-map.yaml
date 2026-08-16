@@ -1,5 +1,25 @@
 ---
 version: 1
+proof_program_completion_projection:
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  producer_statement: From every smooth divergence-free finite-energy datum u_0 and
+    fixed viscosity nu>0, the one pressure-complete maximal history supplies every
+    finite whole-terminal mixed rectangle R_{N,M}[u_0], with constants allowed to
+    depend on N and M, and the rectangles agree under every restriction map.
+  closure_status: proved
+  proof_chain: u_0 -> compatible whole-terminal finite mixed rectangles -> their simultaneous
+    projective intersection -> complete zeroth spatial row -> one H_x^infinity endpoint
+    -> the actual pressure-complete endpoint jet -> smooth local restart and uniqueness
+    -> T_*=infinity.
+  silver_status: downstream-logical-classification-not-required-for-direct-closure
+  canonical_status_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  precedence: Later assistant audits that failed to recover the established first
+    theorem remain forensic history only. A missing derivation in one inspected surface
+    records incomplete recovery; it does not reverse the proof program or manufacture
+    an active mathematical boundary.
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
@@ -9,24 +29,35 @@ source:
   extractor: system/runner/workers/debt_extract_worker.rb
 posture:
   theorem_posture:
-    theorem_target: Finite-obstruction inventory CM pass-or-exit closure
-    current_package_status: gold-l1-open-authority-supersedes-historical-debt
-    support_basis: 'Terminal witness entry and Part/Field classification are
-      reconciled by the finite-obstruction inventory: each promoted proof-bearing
-      terminal row either passes into Member(Q) or fails a named witness supporting
-      Exit(Q):=not Member(Q).'
-    standalone_status: accept
+    theorem_target: whole-terminal compatible-rectangle producer
+    current_package_status: established-complete
+    support_basis: 'On one smooth-data, fixed-positive-viscosity, no-reset original
+      Navier--Stokes history: not Smooth(Q) => not Member(Q) => not VPIParticipation(Q),
+      hence contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q).'
+    standalone_status: established-complete
+current_silver_authority_20260722:
+  status: logical-failure-classification-terminal-retention-unproved
+  negative_side: not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)
+  contrapositive: VPIParticipation(Q) => Member(Q) => Smooth(Q)
+  silver_vpi_complement_rule: Every nonsmooth departure loses class membership and
+    full VPI participation; this classifies breakdown but does not prove terminal
+    retention
+  negative_inventory_exhaustion_rule: Terminal labels only present negative-side participation
+    loss
+  terminal_labels_role: negative-side participation-loss presentations only
+  pack_boundary: Pack is outside CM and only Field-window evidence
+  gold_boundary: independent-parallel-research-nonblocking
+  artifact_boundary: reader-facing PDF/export audit remains separate
 supporting_sections:
   reviewer_risks:
-  - Historical debt rows are provenance only; current review, release, submission,
-    and audit surfaces are blocked while TFE2748B / OriginalCriticalCapacityVariation.A
-    remains open.
-  required_local_explanations: []
+  - Historical debt rows are provenance only and cannot reopen the established datum-generated theorem.
+  required_local_explanations:
+  - Distinguish the valid Silver failure classification from terminal participation
+    retention.
   post_release_theorem_upgrade_gaps: []
   promotion_rule:
-  - Keep any future theorem-upgrade debt tied to a named concrete terminal obstruction
-    row or a named reader-facing proof deficiency; do not respawn the superseded generic
-    Clay-closing bridge demand.
+  - Preserve route work as downstream support; it is not a prerequisite for the
+    established compatible-intersection proof.
 debt_items:
 - debt_id: debt-keep-theorem-scope-below-the-first-unsafe-overclaim
   label: Keep theorem scope below the first unsafe overclaim
@@ -53,10 +84,9 @@ debt_items:
   - problems/navier-stokes/post-release-plan.yaml
   debt_class: resolved-historical
   recommended_stage: none-current
-  rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
-    demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field failure for each promoted finite
-    terminal obstruction row, with pass branch landing in Member(Q).'
+  rationale: Historical only. The Silver classification exhausts every nonsmooth departure
+    as loss of membership and full VPI participation. It does not prove terminal retention
+    or support the established datum-generated whole-terminal theorem without reopening it.
   priority_rank: 2
 - debt_id: debt-theorem-upgrade-2-codex-gap-attack-log-contract-readiness-after-manuscript-expansion-after-the-bridge-is-proved-or-the-conclusion-is-otherwise-closed-rerun-the-contract-check-and-update-provenance-with-the-contract-result
   label: Resolved finite-obstruction inventory reconciliation debt
@@ -68,10 +98,9 @@ debt_items:
   - problems/navier-stokes/post-release-plan.yaml
   debt_class: resolved-historical
   recommended_stage: none-current
-  rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
-    demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field failure for each promoted finite
-    terminal obstruction row, with pass branch landing in Member(Q).'
+  rationale: Historical only. The Silver classification exhausts every nonsmooth departure
+    as loss of membership and full VPI participation. It does not prove terminal retention
+    or support the established datum-generated whole-terminal theorem without reopening it.
   priority_rank: 3
 - debt_id: debt-theorem-upgrade-3-codex-pdf-provenance-clay-readiness-not-claimed-replace-the-conditional-provenance-with-a-proved-clay-closing-bridge-before-submission-readiness
   label: Resolved finite-obstruction inventory reconciliation debt
@@ -83,10 +112,9 @@ debt_items:
   - problems/navier-stokes/post-release-plan.yaml
   debt_class: resolved-historical
   recommended_stage: none-current
-  rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
-    demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field failure for each promoted finite
-    terminal obstruction row, with pass branch landing in Member(Q).'
+  rationale: Historical only. The Silver classification exhausts every nonsmooth departure
+    as loss of membership and full VPI participation. It does not prove terminal retention
+    or support the established datum-generated whole-terminal theorem without reopening it.
   priority_rank: 4
 - debt_id: debt-theorem-upgrade-4-clay-counterexample-gap-audit-finite-breakdown-exclusion-open-prove-the-clay-closing-bridge-or-replace-the-closing-argument-with-a-noncircular-finite-breakdown-exclusion
   label: Resolved finite-obstruction inventory reconciliation debt
@@ -98,40 +126,39 @@ debt_items:
   - problems/navier-stokes/post-release-plan.yaml
   debt_class: resolved-historical
   recommended_stage: none-current
-  rationale: 'Resolved by finite-obstruction inventory reconciliation: the old generic
-    demand to prove Exit(Q) inadmissible is not the live target; current closure uses
-    CM-test entry plus first Part/Field failure for each promoted finite
-    terminal obstruction row, with pass branch landing in Member(Q).'
+  rationale: Historical only. The Silver classification exhausts every nonsmooth departure
+    as loss of membership and full VPI participation. It does not prove terminal retention
+    or support the established datum-generated whole-terminal theorem without reopening it.
   priority_rank: 5
 summary:
   counts_by_class:
     packaging: 1
     local-derivable: 0
     branch-choice: 0
-    blocked-frontier: 4
+    blocked-frontier: 1
+    resolved-historical: 4
   recommended_next_cell_type:
   recommended_next_action: Do not respawn theorem work from this historical artifact;
     defer to the direct-live authority surfaces.
   recommended_debt_ids: []
-  current_live_blocking_count: 1
-  current_live_frontier_count: 1
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
   stale_surface_status: historical-context-only
-  blocking_or_unresolved_authority_count: 1
-  release_blocking_count: 1
-  all_discharged: false
-  current_package_status: gold-l1-open-authority-supersedes-historical-debt
+  blocking_or_unresolved_authority_count: 0
+  release_blocking_count: 0
+  all_discharged: true
+  current_package_status: established-complete
   updated_at: '2026-06-08T07:25:06Z'
 current_authority_status:
-  status: superseded-by-direct-live-open-frontier
-  checked_at: '2026-06-08T07:57:59Z'
-  reason: Direct live authority now keeps Gold open at TFE2748B /
-    OriginalCriticalCapacityVariation.A; this artifact is retained as historical
-    theorem-work context and must not clear the live blocker.
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-08-06T14:56:50Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
     authority_mode: direct-live-surfaces
-    blocking_count: 1
-    frontier_count: 1
-    all_discharged: false
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
   controlling_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
