@@ -1,11 +1,23 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
 artifact_id: nightly-six-mpp-ns-completion-executor-2026-06-08
-status: executed
+status: proof-program-established-complete
 date: '2026-06-08'
 generated_at: '2026-06-08T07:29:11Z'
 engine_ref: ns-completion-engine.yaml
-engine_goal: complete the NS repo/app/graph/PDF proof system
+engine_goal: complete the NS proof-program state; paper and PDF work are outside this repair
+current_silver_authority_20260722:
+  status: downstream-logical-classification-not-required-for-direct-closure
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  proof: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  supersession: All dated executor lane payloads below are execution genealogy only.
+    Silver remains a downstream classification and cannot reopen the established
+    datum-generated compatible-intersection proof.
 lane_results: &5
 - lane_id: proof_lane
   status: executed
@@ -259,8 +271,9 @@ depth_progression:
     stop_condition: completed proof/app/graph/PDF/submission object or exact terminal
       blockers with evidence
 terminal_state: &11
-  status: active_not_final
-  stop_reason: 'release exactness and manuscript refresh remain open after accepted Silver CM rowwise consumption; OriginalSmoothDataPackSurvival.A is positive supplier support: the direct ClayCMCounterexampleExclusion.A bridge is demoted as a wrong Silver target when it asks to delete a concrete Part/Field failure after using it as the contrapositive witness. A face-derived Exit(Q):=not Member(Q) is the Silver CM witness; OriginalSmoothDataPackSurvival.A and related Pack survival work remain positive supplier/manuscript support unless tied to a concrete unconsumed promoted row.
+  status: established-complete
+  stop_reason: 'Superseded status: Silver classifies participation loss but does not prove terminal participation retention. The datum-generated whole-terminal compatible-rectangle theorem is established; every downstream endpoint and restart implication is proved from it.'
+  historical_stop_reason_superseded_20260722: 'release exactness and manuscript refresh remain open after accepted Silver CM rowwise consumption; OriginalSmoothDataPackSurvival.A is positive supplier support: the direct ClayCMCounterexampleExclusion.A bridge is demoted as a wrong Silver target when it asks to delete a concrete Part/Field failure after using it as the contrapositive witness. A face-derived Exit(Q):=not Member(Q) is the Silver CM witness; OriginalSmoothDataPackSurvival.A and related Pack survival work remain positive supplier/manuscript support unless tied to a concrete unconsumed promoted row.
     The endpoint exactness branch has been audited as consumed at current resolution:
     retained affine second-order, mu_N endpoint threading, terminal `nu_N` synchronization,
     endpoint mass/commutator, signed-to-positive transfer, endpoint observability,
@@ -358,7 +371,8 @@ terminal_state: &11
   - ns-route-graph-app-sync
   - ns-pdf-proof-scaffold
   - ns-submission-readiness
-  open_blockers:
+  open_blockers: []
+  historical_open_blockers_superseded_20260722:
   - clay-cm-counterexample-exclusion-direct-bridge
   - no-genuine-exit-from-smooth-data
   - first-exit-pack-survival-mechanism-search

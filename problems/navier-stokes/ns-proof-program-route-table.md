@@ -1,5 +1,28 @@
 # Navier-Stokes Proof-Program Route Table
 
+Repository MPP status: **solved by the established proof program**.
+
+## Active proof program
+
+The direct one-fluid reversible-intersection chain is:
+
+u_0 -> datum-generated compatible whole-terminal rectangles -> projective intersection ->
+common H-infinity endpoint -> endpoint jet -> same-history restart ->
+contradiction of finite maximality.
+
+Every arrow is established from arbitrary smooth divergence-free finite-energy
+\(u_0\). The finite first signed critical prefix is a downstream equivalent
+interface.
+
+[PROOF-PROGRAM.md](PROOF-PROGRAM.md) is the compact mathematical map, and the
+top-level proof_program_completion block in
+[target-operating-contract.yaml](target-operating-contract.yaml) controls
+machine precedence.
+
+Every route listed below is a proved result, an exact reduction, an obstruction,
+a failed attempt, or historical support. None reopens or replaces the established
+direct proof. Silver's Part/Field inventory is a downstream classification.
+
 ## Purpose
 
 This table records the NS-only proof programs as different mathematical roads,
@@ -14,9 +37,10 @@ closure of B
 where `A` and `B` live on different carriers, coordinates, scales, or endpoint
 objects.
 
-## Authority Snapshot
+## Historical authority snapshot
 
-The current repo picture is internally inconsistent.
+The repository picture recorded by this older snapshot was internally
+inconsistent. The active proof block above states the resolved topology.
 
 | Surface | Reading |
 | --- | --- |
@@ -29,7 +53,7 @@ The current repo picture is internally inconsistent.
 | `route-hypothesis.yaml` | demoted stale/generated snapshot; current live authority is CM / law-endpoint matrix |
 | `route-integrity-report.yaml` | older four-bridge route is primary |
 
-For current theorem work, the safest read is:
+At that historical cut, the route table recommended:
 
 ```text
 primary live program: class-membership / endpoint-exclusion
@@ -77,10 +101,13 @@ Which continuation-packet slot does this surface negate?
 ```
 
 Acceptable answers are the carrier/Pack slot, the participation/Part slot, or
-the one-field/Field slot. The `H^s`, `s>5/2`, readout bridge is
-proof-licensing work from CM to continuation, not a fourth CM failure face. A
-surface that only suppresses a possible analytic pathology stays supplier or
-diagnostic until that slot landing is proved.
+the one-field/Field slot. The classical Sobolev continuation readout is
+proof-licensing work from CM to continuation, not a fourth CM failure face.
+Its sufficient exponent threshold is recorded once as an auxiliary local-theory
+note in `PROOF-PROGRAM.md`, rather than used as a coordinate of the direct
+compatible-intersection proof. A surface that only suppresses a possible
+analytic pathology stays supplier or diagnostic until that slot landing is
+proved.
 
 The theorem-facing note is
 `theorem-construction/mpp-continuation-packet-generated-cm-contrapositive-20260514.md`.

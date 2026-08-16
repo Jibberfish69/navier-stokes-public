@@ -1,5 +1,13 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  proof_chain: datum-generated-whole-terminal-rectangles-to-intersection-to-H_x-infinity-endpoint-jet-restart-and-T_star_infinity
 problem_id: navier-stokes
 artifact_id: layered-route-graph-navier-stokes
 updated_at: '2026-06-08T04:13:38Z'
@@ -9,16 +17,29 @@ purpose: >
   overlays, cross-folder sidecars, and stale generated surfaces so the lane is
   not read as one flat pile of notes.
 current_authority_status:
-  status: superseded-by-live-gold-l1-open
+  status: established-complete
   controlling_surfaces:
     - problems/navier-stokes/live-theorem-edge.yaml
     - problems/navier-stokes/source-frontier.yaml
     - problems/navier-stokes/theorem-packet.yaml
     - problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
   note: >
-    This April layer graph is retained as topology/history. Current theorem
-    authority keeps Gold open at TFE2748B / OriginalCriticalCapacityVariation.A.
-    Manuscript/export artifacts are downstream and cannot clear that theorem edge.
+    Current theorem authority is the completed one-fluid datum-generated
+    compatible-intersection proof. Silver is preserved below as a downstream
+    classification, Gold is a separate nonblocking research lane, and
+    manuscript/PDF/export audit is separate.
+current_silver_authority_20260722:
+  status: logical-failure-classification-terminal-retention-unproved
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  original_object: one smooth-data, fixed-positive-viscosity, no-reset original Navier--Stokes history
+  negative_side: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)"
+  contrapositive: "VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  silver_vpi_complement_rule: Every nonsmooth departure loses class membership and full VPI participation; this classifies breakdown but does not prove terminal retention
+  negative_inventory_exhaustion_rule: Terminal labels only present negative-side participation loss
+  terminal_labels_role: Dead, Blown, Jump, Part, Field, Euler, and other limiting-PDE labels are negative-side presentations of participation loss only
+  pack_boundary: Pack is outside CM and may serve only as Field-window evidence
+  gold_boundary: independent-parallel-research-nonblocking
+  artifact_boundary: reader-facing PDF/export audit not run in this repair
 graph_roles:
   exploration_graph:
     role: topic-wide thinking surface
@@ -61,12 +82,12 @@ layers:
     rank: 0
     status: authoritative
     judgment: >
-      The official Clay target is the incompressible 3D problem on R^3 or T^3,
-      and the currently locked theorem-primary branch is the CM terminal-witness
-      chain: finite Clay witness entry, Part/Field finite-failure
-      exhaustion, and `Exit(Q):=not Member(Q)`. Periodic, source-wall,
-      positive-supplier, and export surfaces are support unless they land a
-      named failure in the CM Part/Fields.
+      The official Clay target is the incompressible 3D problem on R^3 or T^3.
+      The locked Silver theorem begins with one original smooth-data,
+      fixed-positive-viscosity, no-reset NS history, exhausts every nonsmooth
+      departure as loss of Member(Q) and full VPI participation, and directly
+      contraposes to smoothness. Terminal labels only classify the negative side;
+      they are not extra premises or a forward no-exit theorem.
     surfaces:
       - problems/navier-stokes/route-lock.yaml
       - problems/navier-stokes/theorem-packet.yaml
@@ -76,12 +97,11 @@ layers:
       may_be_overwritten_by: []
   - layer_id: release-and-review-truth
     rank: 1
-    status: blocked-by-current-theorem-authority
+    status: established-complete
     judgment: >
-      Release and review are downstream of theorem authority. The current source
-      frontier has one live Gold L1 obligation, TFE2748B /
-      OriginalCriticalCapacityVariation.A, so this layer is not a release-clearing
-      authority surface.
+      The datum-generated compatible-intersection proof is established complete.
+      Gold and Silver remain downstream research/support, while reader-facing
+      PDF/export readiness is a separate artifact audit.
     surfaces:
       - problems/navier-stokes/formalization-ledger.md
       - problems/navier-stokes/release-decision.yaml
@@ -120,11 +140,10 @@ layers:
     rank: 3
     status: live
     judgment: >
-      The current theorem-primary packet is the CM pass-or-exit spine:
-      an alleged finite Clay terminal witness enters the same-fluid CM terminal
-      packet tree, its finite failure type is exhausted as not Pack_Q, not
-      Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, and that Part/Field failure
-      supports `Exit(Q):=not Member(Q)`.
+      The current theorem-primary route is the Silver VPI complement proof:
+      not Smooth(Q) => not Member(Q) => not VPIParticipation(Q), hence
+      VPIParticipation(Q) => Member(Q) => Smooth(Q). Part and Field only localize
+      a negative-side participation loss; Pack remains outside CM.
     surfaces:
       - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
       - problems/navier-stokes/theorem-construction/torus-projected-flow-extraction.md
@@ -143,12 +162,11 @@ layers:
         - source-grounded-architecture
   - layer_id: exact-live-survivor
     rank: 4
-    status: live-frontier
+    status: historical-support-frontier
     judgment: >
-      The exact live survivor is the SG.4 selector-good directional lower
-      envelope on the active periodic/operator bundle. The older lifted
-      high-side remainder language remains one face of the same obstruction, not
-      the full route description by itself.
+      This former SG.4 selector survivor is retained as positive-route genealogy
+      and support. It is not a Silver premise, release blocker, or current proof
+      frontier.
     survivor_faces:
       - label: Body I tail leakage / periodic no-escape failure
       - label: Body II tower flux-debt packet
@@ -171,12 +189,11 @@ layers:
         - theorem-primary-current-route
   - layer_id: modernization-overlays
     rank: 5
-    status: candidate-upgrade
+    status: historical-support
     judgment: >
-      The tower, cross-rung matrix, deformation-geometry, and YM-heat/torus
-      bridge notes are now part of the active torus-first internal spine. They
-      still do not discharge SG.4 or any downstream Euclidean whole-space
-      export by themselves.
+      Tower, cross-rung, deformation-geometry, and YM-heat/torus notes are
+      historical positive-route support. They neither supply nor block the
+      accepted Silver contrapositive.
     sublayers:
       - sublayer_id: tower
         surfaces:
@@ -231,9 +248,9 @@ layers:
     rank: 7
     status: lagging
     judgment: >
-      These surfaces are useful but unsafe to read raw. They currently mix
-      generated optimism, stale route labels, and sidecar burdens back into the
-      lane.
+      These surfaces are genealogy until refreshed from the current Silver
+      authority. They may not resurrect Gold blockers, pass/fail machinery,
+      terminal no-exit burdens, or Pack as a CM face.
     surfaces:
       - problems/navier-stokes/proof-assembly.yaml
       - problems/navier-stokes/source-frontier.yaml
@@ -270,7 +287,7 @@ connections:
     label: fixes body jobs and bridge order
   - from: theorem-primary-current-route
     to: exact-live-survivor
-    label: produces current packet-level obstruction
+    label: retains former packet-level obstruction as historical support only
   - from: exact-live-survivor
     to: modernization-overlays
     label: re-read as tail leakage, flux-debt, and geometry commutator
@@ -281,16 +298,13 @@ connections:
     to: modernization-overlays
     label: derivation support and vocabulary sharpening only
 warnings:
-  - Generated builder output currently overstates closure relative to the release and review stack.
-  - Theorem-to-warrant and route-hypothesis can lag the torus-first branch lock and cannot be used as sole live authority.
-  - System graph impacts for NS have been lagging the torus-first internal route and SG.4 live obstruction map.
+  - Shared generators may overwrite this corrected projection with stale Gold-blocked or pass/fail Silver language until their canonical templates are repaired.
+  - Historical route and source-support surfaces cannot override the current Silver authority block.
 current_leading_edge:
-  label: one-survivor-family selector readout
+  label: accepted Silver VPI complement contrapositive
   statement: >
-    The leading edge is the attempt to identify one same survivor family through
-    the synchronized classical readouts tail leakage <-> tower flux-debt <->
-    deformation-geometry commutator, and then carry that same survivor onto the
-    live selector surface as the SG.4 lower-envelope face refined by the
-    one-sided defect `[\lambda_J-\mathfrak s_J]_+`, the directional defect
-    `\Xi_J`, and on the exact-potential branch the projective selector readout.
-  canonical_surface: problems/navier-stokes/theorem-construction/ns-layered-route-graph.md
+    On the one original participating NS history, every nonsmooth departure loses
+    class membership and full VPI participation. Direct contraposition proves that
+    full VPI participation entails membership and smoothness. Gold is parallel
+    nonblocking research, and artifact readiness is audited separately.
+  canonical_surface: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md

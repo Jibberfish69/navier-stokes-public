@@ -3,6 +3,11 @@ version: 1
 artifact_id: non-euler-cm-contrapositive-proof-certificates-20260514
 based_on: non-euler-failure-face-diagnostic-map-20260514.yaml
 theorem: AllNonEulerCMContrapositiveClosure.A
+current_silver_authority_override_20260722:
+  status: historical-support-only
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  proof: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  boundary: This dated artifact is retained as negative-inventory or provenance evidence only. Its older pass/no-exit/Pack-as-CM/open-burden/status language has no live authority; Pack remains outside CM and Gold is independent and nonblocking.
 scope:
   included_non_euler_text_surfaces: 1944
   excluded_euler_related_surfaces: 71
