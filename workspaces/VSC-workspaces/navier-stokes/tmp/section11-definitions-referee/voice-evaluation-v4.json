@@ -1,0 +1,30 @@
+{
+  "task_id": "task-7376d56318ba3c7e",
+  "task_sha256": "b5c33045d5b3140bb889beb23aecd9fdc113e464af3fba0fcc476c5cfb426897",
+  "prediction_sha256": "62de15551df5230af806c921bd9809be8f242db091c5095587d8081ea78e61a5",
+  "candidate_sha256": "0876abf575eab1717e88150774a5b54943df4ed6dd3b008c64144d4b95af9dd8",
+  "selected_move_id": "user-fixed-definitions-hierarchy",
+  "producer_id": "section11-definitions-producer-v4",
+  "evaluator_id": "section11-math-voice-reader-referee-v4",
+  "dimensions": {
+    "task_fidelity": {"status": "pass", "evidence": "The candidate repairs only the live Definitions block, preserves the required Smoothness, Continuation, Regularity order, and adds no later failure taxonomy or proof machinery."},
+    "work_advancement": {"status": "pass", "evidence": "The three terms now form a usable hierarchy and give the following historical section an exact continuation problem to inherit."},
+    "structural_meshing": {"status": "pass", "evidence": "The block begins from the two spatial domains already introduced and ends at the finite-time continuation pressure used by Section 1.2."},
+    "bridge_quality": {"status": "pass", "evidence": "Smoothness supplies the target class, continuation turns it into a time-endpoint question, and regularity places both classical and norm-based controls in one framework."},
+    "enrichment_control": {"status": "pass", "evidence": "Pressure normalization, endpoint extension, and the Sobolev distinction are included only where they prevent a mathematical ambiguity in the definitions."},
+    "intellectual_value": {"status": "pass", "evidence": "The reader can distinguish continuity, finite classical regularity, smoothness, continuation, and endpoint loss instead of receiving three floating labels."},
+    "authorial_completion": {"status": "pass", "evidence": "Every definition is applied to the Clay demand before the block closes, and the endpoint-loss paragraph states both unbounded growth and bounded nonconvergence."},
+    "thought_selection": {"status": "pass", "evidence": "The candidate retains only concepts needed to understand the regularity requirement and its failure at a finite endpoint."},
+    "connection": {"status": "pass", "evidence": "Each sentence changes the object already in view, with no closing paragraph asked to rescue the first reason the definitions matter."},
+    "development": {"status": "pass", "evidence": "The movement proceeds from the full C-infinity requirement to extension past T, then locates continuity and smoothness within the wider idea of regularity before stating failure."},
+    "expression": {"status": "pass", "evidence": "The prose is direct, causal, and mathematically ordinary, without report voice, sterile placeholders, or slogan endings."},
+    "nuance": {"status": "pass", "evidence": "Regularity is not reduced to the C-k scale, pressure agreement is gauge-aware, and loss of endpoint regularity is not equated only with blow-up."},
+    "understanding": {"status": "pass", "evidence": "The definitions correctly separate a property of a solution from extension in time and identify C-zero and C-infinity as levels on the classical scale."},
+    "authorship": {"status": "pass", "evidence": "An independent voice referee passed the final candidate; the judgment is bounded to this block and does not claim Thomas has personally approved it."},
+    "reader_continuity": {"status": "pass", "evidence": "The final continuation pressure meets the next subsection's opening claim that local smooth solutions must be restarted through every finite time."},
+    "deeper_connections_and_thoughts": {"status": "pass", "evidence": "The block connects classical endpoint extension to the wider Sobolev and mixed-norm controls that the historical discussion will introduce next without disclosing those results."},
+    "sample_content_leakage": {"status": "pass", "evidence": "No Silver argument, later taxonomy, or copied anchor language appears in the candidate."},
+    "confidence_calibration": {"status": "pass", "evidence": "The candidate passed separate mathematical and voice referee checks, while final personal approval remains Thomas's judgment."}
+  },
+  "verdict": "pass"
+}

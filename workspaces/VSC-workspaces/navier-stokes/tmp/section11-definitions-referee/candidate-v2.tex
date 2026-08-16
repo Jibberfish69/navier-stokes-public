@@ -1,0 +1,37 @@
+\divider{Definitions}
+
+Let \(\Omega\) denote either of the spatial domains introduced above.
+
+\begin{definition}[Smoothness]\label{def:Smoothness}
+A velocity\textendash pressure pair \((u,p)\) is smooth through a finite time \(T>0\) when
+\[
+  u\in C^\infty\!\left(\Omega\times[0,T];\mathbb R^3\right),
+  \qquad
+  p\in C^\infty\!\left(\Omega\times[0,T]\right).
+\]
+Equivalently, every mixed spatial and temporal derivative of finite order exists in the interior and extends continuously through \(T\).
+The pair is smooth for all time when it is smooth through every finite \(T>0\).
+\end{definition}
+
+\begin{definition}[Continuation]\label{def:Continuation}
+Suppose \((u,p)\) solves the Navier--Stokes equations on \(\Omega\times[0,T)\).
+A continuation past \(T\) in a regularity class \(X\) is a pair \((\widetilde u,\widetilde p)\) that solves the same equations with the same viscosity on \(\Omega\times[0,T+\varepsilon)\) for some \(\varepsilon>0\), belongs to \(X\) there, and agrees with \((u,p)\) on \(\Omega\times[0,T)\).
+The pressure normalization is held fixed when the two pairs are compared.
+For the Clay problem, \(X=C^\infty\), so the continuation must remain smooth on the larger interval.
+\end{definition}
+
+\begin{definition}[Regularity]\label{def:Regularity}
+Regularity is the general term for the function-space control available for a solution.
+In the classical scale, \((u,p)\) has \(C^k\) regularity through \(T\) when every mixed spatial and temporal derivative of total order at most \(k\) exists in the interior and extends continuously through \(T\).
+Thus \(C^0\) is continuity, and \(C^k\) requires continuous derivatives through total order \(k\).
+Smoothness is the all-orders case, \(C^\infty\).
+Sobolev and mixed space\textendash time bounds are other forms of regularity, measured by norms rather than by a pointwise derivative count.
+\end{definition}
+
+Regularity names the kind and degree of control available for the solution.
+Smoothness selects the all-orders classical class \(C^\infty\), and continuation asks whether the Navier--Stokes solution can be extended past \(T\) while remaining in that class.
+The Clay problem requires this past every finite \(T\).
+
+At a finite endpoint \(T\), \(C^k\) regularity is lost when at least one required mixed derivative does not extend continuously to \(\Omega\times\{T\}\).
+Near a finite spatial point, this may happen through unbounded growth or through bounded oscillation with no continuous limit.
+A failure at any finite order prevents continuation in \(C^\infty\).
