@@ -241,21 +241,18 @@ For every \(t\geq0\),
 
 \begin{proof}
 Assume that \(T_*<\infty\).
-The whole-terminal estimate gives every finite rectangle, and \eqref{eq:BodyProducedMixedIntersection} assembles their common coordinates.
-Applying \eqref{eq:BodyUniformMixedSobolevCoordinate} with \(r=0\) gives one terminal velocity
-\begin{equation}\label{eq:BodyCommonSmoothEndpoint}
-  u_*:=u(T_*)
-  \in\bigcap_{m=0}^{\infty}H^m(\R^3)
-  =\Hinfty(\R^3).
-\end{equation}
-The traces at different Sobolev heights are limits of the same function and agree under the natural embeddings.
+Equation \eqref{eq:EndpointCriterionFromLowRectangle} bounds (u) in the exact
+(L^3) endpoint norm that \eqref{eq:FiniteTimeLThreeEscape} forces to diverge.  This
+contradiction rules out a finite maximal time.
 
-The normalized pressure recurrence and the differentiated momentum recurrence determine the complete left endpoint jet from \(u_*\).
-Local well-posedness starting from \(u_*\) produces a smooth solution on \([T_*,T_*+\delta]\), and uniqueness joins it to the original solution across the endpoint \parencite{Kato1984}.
-Appendix~\ref{app:CompatibleTerminalAssembly} gives the trace compatibility, pressure-jet passage, and smooth gluing in full.
-The joined solution exists beyond \(T_*\), contradicting maximality.
+The full intersection also produces a common (H^\infty) terminal velocity and a
+pressure-complete endpoint jet, from which local uniqueness restarts the same classical
+history.  Appendix~\ref{app:CompatibleTerminalAssembly} carries that stronger endpoint
+construction, including trace compatibility and smooth gluing.  It reaches the same
+conclusion without asking the reader to carry that technical assembly through the
+physical argument in the body.
 
-Thus \(T_*=\infty\), which proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement \eqref{eq:GlobalTimeTarget}.
+Hence \(T_*=\infty\), which proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement \eqref{eq:GlobalTimeTarget}.
 The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite interval of the global solution and gives \eqref{eq:GlobalEnergyConclusion}, completing \eqref{eq:WholeSpaceRegularityTarget}.
 \end{proof}
 
