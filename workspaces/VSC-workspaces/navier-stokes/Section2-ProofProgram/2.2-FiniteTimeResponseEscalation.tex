@@ -5,14 +5,12 @@
 
 \subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
 
-The Zeno schedule leaves open the only question that matters dynamically: can one solution perform all of those changes before the available time runs out?
-A scale can shrink on paper without any fluid moving through the intervening states.
-The Navier--Stokes field has no such freedom.
-Every finer state must be reached from the state already present, and a finite endpoint shortens the time in which that response can occur.
+The Zeno schedule becomes a dynamical problem only when one solution has to produce each stage from the stage before it.
+If infinitely many such changes occur before \(T_*\), the time available for the successive responses shrinks with the scale.
 
 Along one flow line, define \(A_r=D_t^ru(X,t)\); then \(dA_r/dt=A_{r+1}\).
-Its fundamental-theorem identity gives the conditional mechanism needed here: if \(A_r\) escapes by \(T_*\), then \(A_{r+1}\) cannot remain integrable along that path.
-This does not make any rung monotone or nonzero; it states what finite-time escape would require inside the same fluid.
+If \(A_{r+1}\) were integrable up to \(T_*\), the fundamental theorem of calculus would give \(A_r\) a finite terminal value.
+Thus escape of \(A_r\) forces nonintegrability of \(A_{r+1}\) along that path, without requiring either quantity to be monotone or nonzero.
 
 The same dependence appears before choosing a particle, but its functional setting must stay fixed throughout the implication.
 Fix one Banach space \(B\), retain the Eulerian rows
@@ -50,9 +48,9 @@ Because \(T_*<\infty\), this in turn forces
   =
   \infty.
 \]
-The implication can be iterated upward only while the same fixed space \(B\), absolute continuity, and Bochner-derivative identity hold at every successive row.
-That is the precise Eulerian form of finite-time response escalation.
+This iteration is valid only while the same fixed space \(B\), absolute continuity, and the Bochner-derivative identity hold at every successive row.
+That is the precise Eulerian statement of finite-time response escalation.
 
-The material and Eulerian ladders are not identical: already at first order, \eqref{eq:MaterialAccelerationBody} adds the transport derivative, and each further material derivative mixes temporal and spatial derivatives with nonlinear products.
-The particle picture supplies the escalation, but the equation must keep the temporal, spatial, and pressure pieces coupled.
-A single time index can no longer hold the response, so the next object must retain the full mixed jet.
+The material and Eulerian ladders are not identical.
+Already at first order, \eqref{eq:MaterialAccelerationBody} adds the transport derivative, and every further material derivative produces nonlinear products of temporal and spatial derivatives.
+To keep those products and the pressure response explicit, we now differentiate the Eulerian equation in both time and space.
