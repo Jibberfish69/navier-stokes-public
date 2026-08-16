@@ -1,0 +1,145 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.5 Simultaneous Sobolev Intersections
+% ============================================================
+
+\subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
+
+The spatial column discovered inside critical height has no final finite rung.
+Yet any particular derivative asks for only a finite amount of that column.
+Suppose, for example, that one wants \(\partial_x^\alpha u\) to be continuous for every \(\lvert\alpha\rvert\le k\).
+In three dimensions, the Sobolev embedding
+\[
+  H^m(\R^3)
+  \hookrightarrow
+  C^k(\R^3)
+\]
+holds whenever
+\[
+  m>k+\frac32.
+\]
+One requested spatial order \(k\) comes from one finite height \(m\) above its embedding threshold.
+As \(k\) ranges through all finite orders, no last \(m\) can be chosen, but no infinite-order norm is required either.
+The exact spatial object is the coordinatewise intersection
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3),
+\]
+whose membership means that every finite Sobolev norm is finite on the same field.
+For each fixed \(k\), one of those finite memberships yields the desired \(C^k\) control, so
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+
+Finite-time response asks for the same construction in the temporal direction.
+Let \(I=(0,T)\) with \(T<T_*\), and let \(X\) be a Hilbert space.
+The vector-valued embedding
+\[
+  H^r(I;X)
+  \hookrightarrow
+  C^q(\overline I;X)
+\]
+holds whenever
+\[
+  r>q+\frac12.
+\]
+One requested time derivative of order \(q\) comes from one finite temporal height \(r\).
+Allowing every finite request gives
+\[
+  \bigcap_{r=0}^{\infty}H^r(I;X)
+  \hookrightarrow
+  C^\infty(\overline I;X).
+\]
+The time intersection is again coordinatewise: each \(q\) chooses its own finite \(r\).
+
+The mixed jet requires these choices at the same time.
+Ask for one concrete coordinate,
+\[
+  \partial_t^2\partial_x^\alpha u,
+  \qquad
+  \lvert\alpha\rvert\le4.
+\]
+The single finite membership
+\[
+  u\in H^3\bigl(I;H^6(\R^3)\bigr)
+\]
+places that coordinate in
+\[
+  C^2\bigl(\overline I;C^4(\R^3)\bigr),
+\]
+because
+\[
+  3>2+\frac12,
+  \qquad
+  6>4+\frac32.
+\]
+Nothing special happened at the pair \((2,4)\).
+For arbitrary finite temporal and spatial orders \(q\) and \(k\), choose finite indices satisfying
+\[
+  r>q+\frac12,
+  \qquad
+  m>k+\frac32.
+\]
+Then
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+
+This repeated finite choice determines the whole velocity target:
+\[
+  \mathscr V_\infty(I)
+  :=
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr).
+\]
+Its meaning is
+\[
+  u\in\mathscr V_\infty(I)
+  \quad\Longleftrightarrow\quad
+  \norm{u}_{H^r(I;H^m)}
+  <
+  \infty
+  \quad
+  \text{for every finite pair }(r,m).
+\]
+The constant may depend on \(r\) and \(m\).
+Intersection membership asserts all finite coordinates on the same \(u\); it does not assert one constant uniform across derivative orders.
+The embeddings above then give
+\[
+  \mathscr V_\infty(I)
+  \hookrightarrow
+  C^\infty\bigl(\overline I\times\R^3\bigr).
+\]
+
+The complete intersection also fixes the logical place of critical height.
+Choose a temporal index above \(1/2\) and a spatial index above \(3/2\).
+The resulting continuous Sobolev trace contains both
+\[
+  u(t)\in H^{1/2}(\R^3)
+  \qquad\text{and}\qquad
+  u(t)\in H^{3/2}(\R^3)
+\]
+at each time in the closed interval.
+Only after those rows are supplied do the critical readouts
+\[
+  H(t)=\frac12\norm{\Lambda^{1/2}u(t)}_2^2,
+  \qquad
+  E_{3/2}(t)=\frac12\norm{\Lambda^{3/2}u(t)}_2^2
+\]
+become available.
+Critical height motivated the search for the column, while the all-row velocity intersection supplies the critical coordinates used at the endpoint.
+
+The velocity intersection does not contain pressure as one of its elements.
+Pressure remains attached through the original recurrence,
+\[
+  Q_n=\partial_t^np,
+\]
+the differentiated momentum equation, incompressibility, and the pressure Poisson equation at every finite depth.
+Those relations keep the velocity intersection pressure-complete without confusing the pressure jet reconstructed from (u) with membership in the velocity space itself.
+
+The intersection ranges over every finite temporal--spatial pair, while any one estimate controls a finite block.
+The adjacent energy levels around a common time trace determine the shape of that block.

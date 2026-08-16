@@ -1,0 +1,58 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
+
+The Zeno schedule leaves open the only question that matters dynamically: can one solution perform all of those changes before the available time runs out?
+A scale can shrink on paper without any fluid moving through the intervening states.
+The Navier--Stokes field has no such freedom.
+Every finer state must be reached from the state already present, and a finite endpoint shortens the time in which that response can occur.
+
+Along one flow line, define \(A_r=D_t^ru(X,t)\); then \(dA_r/dt=A_{r+1}\).
+Its fundamental-theorem identity gives the conditional mechanism needed here: if \(A_r\) escapes by \(T_*\), then \(A_{r+1}\) cannot remain integrable along that path.
+This does not make any rung monotone or nonzero; it states what finite-time escape would require inside the same fluid.
+
+The same dependence appears before choosing a particle, but its functional setting must stay fixed throughout the implication.
+Fix one Banach space \(B\), retain the Eulerian rows
+\[
+  V_n(t):=\partial_t^n u(\cdot,t),
+\]
+and suppose that \(V_n:[0,T_*)\to B\) is locally absolutely continuous, with Bochner derivative \(V_{n+1}\).
+For \(0\le s<t<T<T_*\), the Banach-valued fundamental theorem of calculus gives
+\[
+  V_n(t)-V_n(s)
+  =
+  \int_s^t V_{n+1}(\tau)\,d\tau
+\]
+and
+\[
+  \lVert V_n(t)-V_n(s)\rVert_B
+  \le
+  \int_s^t \lVert V_{n+1}(\tau)\rVert_B\,d\tau.
+\]
+If
+\[
+  \sup_{0<t<T_*}\lVert V_n(t)\rVert_B
+  =
+  \infty,
+\]
+then the finiteness of \(\lVert V_n(0)\rVert_B\) forces
+\[
+  \int_0^{T_*}\lVert V_{n+1}(\tau)\rVert_B\,d\tau
+  =
+  \infty.
+\]
+Because \(T_*<\infty\), this in turn forces
+\[
+  \sup_{0<t<T_*}\lVert V_{n+1}(t)\rVert_B
+  =
+  \infty.
+\]
+The implication can be iterated upward only while the same fixed space \(B\), absolute continuity, and Bochner-derivative identity hold at every successive row.
+That is the precise Eulerian form of finite-time response escalation.
+
+The material and Eulerian ladders are not identical: already at first order, \eqref{eq:MaterialAccelerationBody} adds the transport derivative, and each further material derivative mixes temporal and spatial derivatives with nonlinear products.
+The particle picture supplies the escalation, but the equation must keep the temporal, spatial, and pressure pieces coupled.
+A single time index can no longer hold the response, so the next object must retain the full mixed jet.

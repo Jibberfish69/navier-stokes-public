@@ -1,0 +1,94 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Critical Height at a Finite Endpoint
+% ============================================================
+
+\subsection{Critical Height at a Finite Endpoint}\label{sub:CriticalHeightAtAFiniteEndpoint}
+
+A finite maximal time leaves a scale-critical concentration to examine: the field can remain smooth at every earlier time while activity concentrates at smaller scales before the endpoint.
+Fix a rapidly decaying datum \(u_0\) on \(\R^3\), a viscosity \(\nu>0\), and the maximal classical solution \((u,p)\) they generate on \([0,T_*)\).
+Suppose \(T_*<\infty\) so that we can follow that threat all the way to its alleged endpoint.
+
+Kinetic energy stays bounded along the classical interval, but a fixed amount of energy is not equally visible at every scale.
+The Navier--Stokes scaling shows the difference.
+For every \(\lambda>0\), the rescaled fields
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t)
+\]
+solve the same equation with the same viscosity on the rescaled time interval.
+Length has been divided by \(\lambda\), time by \(\lambda^2\), and velocity has been multiplied by \(\lambda\).
+The two spatial derivatives in viscosity and the one time derivative in acceleration are already setting the pace.
+
+Let \(\Lambda=(-\Delta)^{1/2}\), and measure a spatial Sobolev height by
+\[
+  \norm{v}_{\dot H^s}^2
+  :=
+  \int_{\R^3}
+  |\xi|^{2s}|\widehat v(\xi)|^2
+  \,d\xi.
+\]
+The Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}
+  \widehat u(\xi/\lambda,\lambda^2t).
+\]
+Putting this into the Sobolev norm and changing variables from \(\xi\) to \(\eta=\xi/\lambda\) gives
+\begin{align*}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  &={}
+  \int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
+  \,d\xi
+  \\
+  &={}
+  \lambda^{2s-1}
+  \int_{\R^3}
+  |\eta|^{2s}
+  \left|\widehat u(\eta,\lambda^2t)\right|^2
+  \,d\eta.
+\end{align*}
+Hence
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}
+  =
+  \lambda^{s-1/2}
+  \norm{u(\lambda^2t)}_{\dot H^s}.
+\]
+Every Sobolev height tilts under the compression except \(s=1/2\).
+At that height the power of \(\lambda\) vanishes, so define
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+This is the critical height: exact rescaling can move a smooth configuration to a finer length and a shorter time without changing the value of \(H\).
+
+The kinetic-energy scale moves in the other direction.
+Putting \(s=0\) in the same calculation gives
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}
+  \norm{u(\lambda^2t)}_2^2.
+\]
+A finer rescaled structure can carry less \(L^2\) energy while standing at the same critical height.
+That is the opening left by the ordinary energy estimate: it can keep the total energy finite while the scale at which the fluid is changing continues to fall.
+
+The finite parabolic schedule already developed in \cref{sub:HistoricalEstimates} shows that progressively smaller scale durations can fit before one finite time.
+At the critical height just derived, that schedule remains dimensionally possible while the \(L^2\) contribution shrinks, but it does not show that the equation generates the successive states.
+The actual fluid would still have to create each finer state from the state before it while transport, pressure, incompressibility, and viscosity all continue to act.
+
+Critical height sees what can survive the loss of scale.
+It still says nothing about how rapidly the field must change to pass through infinitely many regular states before \(T_*\).
+Finite time turns that missing speed into a relation between one response and the response immediately above it.
