@@ -22,7 +22,7 @@ At fixed spatial coordinates, write
   Q_n:=\partial_t^np,
   \qquad n\in\Nzero.
 \end{equation}
-The exact statement is the Banach-valued Taylor formula.
+At arbitrary order, the same integration is the Banach-valued Taylor formula.
 
 \begin{lemma}[Repeated finite-time integration]\label{lem:RepeatedFiniteTimeIntegration}
 Let \(n\geq1\), and let \(f:[0,T_*)\to X\) have the derivatives required by the integral Taylor formula in a Banach space \(X\).
@@ -52,12 +52,12 @@ The escape in \eqref{eq:FiniteTimeLThreeEscape} can now happen only if, for each
   \sup_{0<t<T_*}\norm{V_n(t)}_3=\infty.
 \end{equation}
 For each finite \(n\), the row \(V_n\) is unbounded in \(L^3\).
-The lemma does not synchronize the time, place, or rate of those escapes; it rules out boundedness separately in every fixed row.
+Each order may escape at a different time, place, and rate; the lemma rules out boundedness separately in every fixed row.
 The Tower is
 \[
   u,\quad u_t,\quad u_{tt},\quad u_{ttt},\quad\ldots.
 \]
-These rows are tempting to call acceleration, jerk, and so on, but a moving fluid particle experiences something different.
+The first two rows invite the physical words acceleration and jerk, but a moving fluid particle experiences something different.
 If \(X(a,t)\) is the trajectory beginning at the material label \(a\), then
 \begin{equation}\label{eq:ParticleTrajectory}
   \frac d{dt}X(a,t)=u(X(a,t),t),
@@ -74,8 +74,8 @@ Along that trajectory, the equation gives
 \begin{equation}\label{eq:MaterialAccelerationEquationBody}
   D_tu=-\nabla p+\nu\Delta u.
 \end{equation}
-Applying \(D_t=\partial_t+u\cdot\nabla\) once more differentiates both \(-\nabla p+\nu\Delta u\) and the velocity that transports it.
-Time and space are already mixed in the physical response.
+Applying \(D_t=\partial_t+u\cdot\nabla\) once more produces \((\partial_t+u\cdot\nabla)(-\nabla p+\nu\Delta u)\).
+The material response already combines time derivatives with spatial derivatives of pressure and velocity.
 
 To keep temporal and spatial indices separate, return to a fixed spatial point.
 At order zero,
@@ -115,5 +115,5 @@ Time differentiation gives
   Q_n
   =R_iR_j\sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
 \end{equation}
-The recurrence shows why the Tower cannot remain temporal: \(\Delta V_n\) contributes two spatial derivatives, while pressure is rebuilt from products of the same rows.
-Differentiate these equations in space and the other direction appears.
+Each temporal row already contains the spatial direction: \(\Delta V_n\) contributes two spatial derivatives, while pressure is rebuilt from products of the same rows.
+The mixed jet comes from differentiating these equations in space.

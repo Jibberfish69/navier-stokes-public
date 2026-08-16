@@ -1,8 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The pressure-complete mixed jet}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-The Laplacian in \eqref{eq:BodyTemporalVelocityRecurrence} already puts spatial derivatives inside every temporal row.
-Differentiate that same row in space.
+Keep temporal order and spatial order independent.
 For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
 \begin{equation}\label{eq:BodyMixedJetDefinition}
   J_{n,\alpha}
@@ -56,9 +55,8 @@ The complete mixed jet is the family
   \right\}
 \]
 together with the recurrences and divergence relations above.
-Thus \(\mathcal J[u_0]\) is one family of finite derivatives of one pair \((u,p)\), joined by the recurrences above.
+This is one family containing every finite derivative of one pair \((u,p)\).
 At \(t=0\), those recurrences determine every finite row from \(u_0\); Appendix~\ref{app:DerivativeAndFiniteRecordCalculus} writes that initialization in full.
 
-The next issue is control.
-The indices locate every finite derivative, but the critical-height balance tells us which spatial Sobolev energies viscosity supplies as \(t\uparrow T_*\).
-Return to that balance and differentiate it in time.
+The indices now locate every finite derivative.
+The critical-height balance tells us which spatial Sobolev energies viscosity supplies as \(t\uparrow T_*\), so return to that balance and differentiate it in time.
