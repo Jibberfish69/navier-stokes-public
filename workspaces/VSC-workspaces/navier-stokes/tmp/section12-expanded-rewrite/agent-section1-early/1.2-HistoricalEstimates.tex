@@ -1,0 +1,271 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.2 Historical Background
+% ============================================================
+\subsection{Historical Background}\label{sub:HistoricalEstimates}
+
+A smooth local solution gives a genuine Navier--Stokes fluid for a short time, while the Clay problem asks whether that same solution can cross every finite time.
+The history of the problem can be read as a sequence of attempts to close that gap.
+Each major estimate controls one feature of the motion, reveals what remains free to concentrate, and leaves a sharper version of the continuation question behind it.
+The order below follows that tightening of the problem, with publication dates serving as secondary orientation.
+
+\divider{Leray's Global Energy Control}
+
+The first decisive calculation asks what the equations preserve before any derivative is placed under pointwise control.
+For a smooth solution, take the spatial inner product of the momentum equation with \(u\).
+Incompressibility turns the transport term into a spatial divergence and makes the pressure term orthogonal to the velocity, while integration by parts turns viscosity into dissipation.
+The result is
+\[
+  \lVert u(t)\rVert_{L^2}^{2}
+  +2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^{2}\,ds
+  =
+  \lVert u_0\rVert_{L^2}^{2}.
+\]
+The velocity stays bounded in \(L^2\) at each time, and viscosity pays for the total \(L^2\) gradient cost accumulated over the interval.
+
+Leray used regularized equations, compactness, and weak lower semicontinuity to carry the corresponding inequality into a global weak solution \parencite{Leray1934}.
+On every finite interval, a Leray solution satisfies
+\[
+  u\in L^\infty(0,T;L^2(\Omega))
+  \cap
+  L^2(0,T;H^1(\Omega)).
+\]
+This is genuine global existence in the energy class.
+It does not settle the Clay problem because smoothness and uniqueness are not known for arbitrary three-dimensional Leray solutions.
+
+The two terms in the estimate also carry different information in time.
+The \(L^2\) size of \(u\) is bounded at every instant, whereas the \(L^2\) size of \(\nabla u\) is controlled only after time integration.
+A function can have finite area under its graph and still form arbitrarily tall peaks on arbitrarily short intervals.
+The energy inequality leaves open the possibility that derivative activity concentrates near a finite time even though the total kinetic energy remains finite.
+
+\divider{Enstrophy and Vortex Stretching}
+
+For a divergence-free field on \(\mathbb R^3\) with sufficient decay, or on \(\mathbb T^3\),
+\[
+  \lVert\nabla u\rVert_{L^2}^{2}
+  =
+  \lVert\omega\rVert_{L^2}^{2},
+  \qquad
+  \omega:=\nabla\times u.
+\]
+The quantity \(\lVert\omega\rVert_{L^2}^{2}\) is the enstrophy, so Leray's estimate controls the area under the enstrophy curve without controlling its height.
+
+The vorticity equation shows why this distinction becomes serious in three dimensions:
+\[
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =
+  (\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+Transport moves vorticity with the fluid, and viscosity diffuses sharp spatial variation.
+The remaining term, \((\omega\cdot\nabla)u\), stretches and tilts vorticity through the surrounding velocity gradient.
+Its contribution to the enstrophy balance is
+\[
+  \frac12\frac{d}{dt}\lVert\omega\rVert_{L^2}^{2}
+  +\nu\lVert\nabla\omega\rVert_{L^2}^{2}
+  =
+  \int_\Omega (\omega\cdot\nabla)u\cdot\omega\,dx.
+\]
+The stretching integral has no fixed sign.
+Viscosity continues to oppose spatial concentration, while the energy estimate alone gives no pointwise-in-time comparison proving that diffusion always defeats stretching.
+
+This is the first clear shape of the three-dimensional obstruction.
+The velocity cannot escape the global energy bound, yet the derivatives that determine classical smoothness may rise through narrow peaks that the energy balance does not see individually.
+This leaves a precise question: how much derivative control would be enough to continue the smooth solution?
+
+\divider{Sobolev Regularity and Continuation}
+
+Sobolev spaces answer that question by measuring velocity and spatial derivatives in one norm.
+For an integer \(m\geq0\),
+\[
+  H^m(\Omega)
+  =
+  \left\{
+    v:
+    \partial^\alpha v\in L^2(\Omega)
+    \text{ for every }|\alpha|\leq m
+  \right\},
+\]
+with the usual weak interpretation of the derivatives and the Fourier definition for fractional orders.
+An \(L^p\) norm records the spatial size and concentration of the function itself, while an \(H^m\) norm also records its variation through order \(m\).
+
+Sobolev embedding converts sufficiently high \(L^2\)-derivative control into ordinary continuous derivatives.
+In three dimensions \parencite[Theorem~7.28]{Cerda2010},
+\[
+  H^s(\Omega)\hookrightarrow C^k(\Omega)
+  \qquad
+  \text{whenever}
+  \qquad
+  s>k+\frac32.
+\]
+One \(H^s\) bound buys only finitely many continuous derivatives.
+For example, \(s>5/2\) gives
+\[
+  H^s(\Omega)\hookrightarrow W^{1,\infty}(\Omega),
+\]
+so the velocity and its first spatial derivative are bounded and continuous.
+
+The threshold \(s>5/2\) is useful because the Lipschitz norm of \(u\) controls the way transport amplifies every higher derivative already present in the smooth datum.
+For each fixed finite \(m\geq s\), the standard differentiated estimate has the form
+\[
+  \frac12\frac{d}{dt}\lVert u\rVert_{H^m}^{2}
+  +\nu\lVert\nabla u\rVert_{H^m}^{2}
+  \leq
+  C_m\lVert\nabla u\rVert_{L^\infty}\lVert u\rVert_{H^m}^{2}.
+\]
+Once \(\lVert\nabla u\rVert_{L^\infty}\) is integrable in time, Gronwall's inequality propagates every fixed finite Sobolev order from the smooth initial datum.
+The constant may depend on \(m\), which is enough because smoothness asks for every finite order separately and imposes no one numerical bound across the infinite family.
+Applying Sobolev embedding at successively higher orders then recovers every continuous spatial derivative.
+
+The pressure follows from the velocity through the elliptic relation
+\[
+  -\Delta p
+  =
+  \sum_{i,j=1}^{3}\partial_i\partial_j(u_i u_j),
+\]
+with zero mean on the torus or the usual decay normalization on \(\mathbb R^3\).
+Once all spatial derivatives of \(u\) and \(p\) are controlled, the momentum equation
+\[
+  \partial_tu
+  =
+  \nu\Delta u-(u\cdot\nabla)u-\nabla p
+\]
+recovers the first time derivative.
+Repeatedly differentiating the pressure relation and the momentum equation then recovers every finite mixed spatial and temporal derivative.
+This is the continuation argument from a strong Sobolev bound to the \(C^\infty\) velocity--pressure pair required by the problem.
+
+The local theories of Fujita--Kato and Kato supply the restart mechanism behind this argument \parencite{FujitaKato1964,Kato1984}.
+Suppose a smooth solution exists on \([0,T)\) and, for one \(s>5/2\),
+\[
+  \sup_{0\leq t<T}\lVert u(t)\rVert_{H^s}\leq M.
+\]
+Choose an actual time \(t_0<T\) close to \(T\).
+Local theory restarted from \(u(t_0)\) has a lifespan bounded below in terms of \(s\), \(M\), and \(\nu\), so a sufficiently late choice of \(t_0\) produces a solution beyond \(T\).
+Uniqueness identifies the restarted solution with the original one on their overlap.
+Thus a finite maximal smooth time \(T_*\) would force every continuation-grade \(H^s\) norm to become unbounded as \(t\uparrow T_*\).
+
+This criterion identifies the exact kind of estimate that would close the problem.
+The energy inequality supplies
+\[
+  u\in L^\infty_tL^2_x\cap L^2_tH^1_x,
+\]
+while continuation asks for pointwise-in-time control at a substantially stronger derivative level.
+The distance between those two statements is the analytic room in which a finite-time singularity could still hide.
+
+\divider{Partial Regularity and the Shape of a Singular Set}
+
+Continuation theory describes what must diverge along a maximal classical solution, while the global weak theory asks where regularity can fail after that classical description is no longer available.
+Caffarelli, Kohn, and Nirenberg studied suitable weak solutions through the local energy inequality on shrinking parabolic cylinders \parencite{CaffarelliKohnNirenberg1982}.
+For \(z_0=(x_0,t_0)\), write
+\[
+  Q_r(z_0)
+  :=
+  B_r(x_0)\times(t_0-r^2,t_0).
+\]
+Their epsilon-regularity mechanism says that sufficiently small scale-invariant velocity and pressure quantities on \(Q_r(z_0)\) force regularity on a smaller cylinder.
+
+At a singular point, the contrapositive applies at every sufficiently small scale.
+Every shrinking cylinder centred there must retain a definite amount of scale-invariant concentration, because one cylinder below the threshold would already make the point regular.
+A covering argument then confines the possible singular set to a set of zero one-dimensional parabolic Hausdorff measure.
+This is an exceptionally small set, yet even one singular point would defeat global smoothness.
+
+Partial regularity changes the picture of failure.
+A counterexample cannot be a diffuse loss of control spread harmlessly across the fluid.
+It must concentrate velocity and pressure through every smaller parabolic neighbourhood of at least one spacetime point.
+That conclusion creates the need for criteria that measure spatial intensity and temporal persistence together.
+
+\divider{Scale-Critical Continuation Criteria}
+
+The Ladyzhenskaya--Prodi--Serrin criteria provide that joint measurement \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
+They give regularity through \(T\) whenever
+\[
+  u\in L^p(0,T;L^q(\Omega)),
+  \qquad
+  \frac{2}{p}+\frac{3}{q}\leq1,
+  \qquad
+  q>3.
+\]
+The exponent \(q\) measures the spatial intensity of a concentration, and \(p\) measures how long that intensity can persist.
+
+At one derivative, interpolation and Young's inequality lead to
+\[
+  \frac{d}{dt}\lVert\nabla u\rVert_{L^2}^{2}
+  +\nu\lVert\Delta u\rVert_{L^2}^{2}
+  \leq
+  C_{\nu,q}
+  \lVert u\rVert_{L^q}^{\frac{2q}{q-3}}
+  \lVert\nabla u\rVert_{L^2}^{2}.
+\]
+The mixed-norm condition makes the coefficient on the right integrable in time, so Gronwall's inequality keeps the enstrophy finite and continuation crosses \(T\).
+At the equality
+\[
+  \frac{2}{p}+\frac{3}{q}=1,
+\]
+the criterion is invariant under the Navier--Stokes scaling
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t).
+\]
+These critical exponents match exactly the balance between stronger spatial concentration and shorter parabolic duration.
+
+The direct estimate above covers every \(q>3\) and degenerates as \(q\downarrow3\).
+The endpoint \(q=3\) is especially important because
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3}.
+\]
+Magnifying a suspected singularity to unit scale does not weaken the norm used to measure it.
+
+Escauriaza, Seregin, and \v{S}ver{\'a}k proved that boundedness in \(L^\infty_tL^3_x\) still excludes a finite singular time \parencite{EscauriazaSereginSverak2003}.
+Their proof assumes a first singular time, rescales around the concentration, extracts a nontrivial ancient limiting solution, and uses backward uniqueness and unique continuation to force that limit to vanish.
+The contradiction shows that
+\[
+  u\in L^\infty(0,T;L^3(\mathbb R^3))
+\]
+is sufficient for regularity through \(T\).
+
+Seregin subsequently showed, for the smooth compactly supported data in his whole-space result, that a finite maximal time forces full divergence of the critical norm \parencite{Seregin2012}:
+\[
+  \lim_{t\uparrow T_*}\lVert u(t)\rVert_{L^3(\mathbb R^3)}
+  =
+  \infty.
+\]
+The critical norm cannot spike along a thin sequence of times and repeatedly return below a fixed level.
+Every finite level must eventually be left behind as the alleged endpoint approaches.
+
+Tao later quantified part of this conclusion \parencite{Tao2021Quantitative}.
+Along infinitely many times approaching a finite maximal time, the \(L^3\) norm must exceed a positive power of a triple logarithm of the inverse time remaining.
+This rate is weak compared with a power law, yet it proves that a finite-time singularity would require a genuine cascade through successively smaller scales.
+
+\divider{Where the Problem Sits Today}
+
+The established theory entering this paper replaces an undefined breakdown with a sharply constrained alternative.
+If \(T_*<\infty\), the kinetic energy remains bounded, while continuation-grade Sobolev norms and the critical \(L^3\) norm must diverge.
+Any singular point must retain scale-invariant concentration in every sufficiently small parabolic cylinder around it.
+The concentration may accelerate through shorter and shorter time intervals, because parabolic scale reduction also shortens the available time scale.
+
+The basic scaling already explains why the global energy estimate cannot rule this out.
+At corresponding times,
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3},
+  \qquad
+  \lVert u_\lambda(t)\rVert_{L^2}^{2}
+  =
+  \lambda^{-1}\lVert u(\lambda^2t)\rVert_{L^2}^{2}.
+\]
+Compression to a shorter length scale preserves the critical \(L^3\) size while reducing the \(L^2\) energy seen at that scale.
+A scale-independent ceiling on the critical norm cannot be read directly from the global energy bound.
+
+A simple frequency-doubling picture makes the remaining timing problem visible.
+If an active frequency doubles at each stage, its spatial scale halves and its parabolic time scale quarters.
+The resulting durations form a convergent geometric series, so positive duration at every stage still leaves room for infinitely many stages before one finite time.
+This is the Zeno-cascade picture behind the endpoint threat.
+It is a heuristic picture of the allowed timing, not a construction of a Navier--Stokes singularity.
+
+The public frontier has isolated the exact burden.
+Known theory says what must diverge, how concentrated the divergence must become, and which bounds would exclude it.
+It does not derive from arbitrary smooth data, fixed viscosity, and the equations a continuation-grade bound that remains finite all the way to every candidate endpoint.
+That is the direct estimate a Gold-standard proof would have to supply.

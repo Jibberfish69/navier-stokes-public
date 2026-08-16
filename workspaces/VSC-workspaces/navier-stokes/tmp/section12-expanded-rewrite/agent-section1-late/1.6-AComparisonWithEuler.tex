@@ -1,0 +1,91 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.6 A Comparison with Euler
+% ============================================================
+\subsection{A Comparison with Euler}\label{sub:AComparisonWithEuler}
+
+Participation becomes visible at the boundary between Navier--Stokes and Euler.
+The two equations share transport, pressure, and incompressibility,
+\[
+  \partial_tu+(u\cdot\nabla)u+\nabla p=0,
+  \qquad
+  \nabla\cdot u=0,
+\]
+while Euler has no viscous term joining tangential motion across neighbouring layers.
+Removing one property from the same physical scene gives a clean test of what that property was doing.
+
+Imagine two rigid boards touching along a flat face and sliding past one another.
+Their normal velocities agree because neither board passes through the other.
+Their tangential velocities may differ abruptly at the interface.
+An inviscid fluid can support the corresponding idealised slip as a weak vortex sheet.
+
+Let the interface be
+\[
+  \Sigma=\{x_3=0\},
+\]
+and choose two constants \(U_-\neq U_+\).
+Define the stationary velocity and pressure by
+\[
+  u(x)=
+  \begin{cases}
+    U_-e_1, & x_3<0,\\
+    U_+e_1, & x_3>0,
+  \end{cases}
+  \qquad
+  p(x)=p_0.
+\]
+The jump \( [u]=(U_+-U_-)e_1 \) is tangent to \(\Sigma\), whose unit normal is \(e_3\).
+Consequently, the distributional divergence has no sheet contribution because
+\[
+  [u]\cdot e_3=0.
+\]
+The momentum equation is equally transparent in divergence form.
+Since
+\[
+  (u\otimes u)e_3=u(u\cdot e_3)=0
+\]
+on both sides of the interface, the normal momentum flux has no jump, and the constant pressure contributes no distributional force.
+The field is a stationary weak solution of the incompressible Euler equations.
+
+The loss of smoothness remains fully visible.
+Writing \(\delta_\Sigma\) for surface measure on the interface, the vorticity is
+\[
+  \nabla\times u
+  =
+  (U_+-U_-)e_2\,\delta_\Sigma.
+\]
+The fluid has concentrated all of its shear into a sheet.
+Euler permits that sheet because no term in its momentum law requires tangential momentum to diffuse across \(\Sigma\).
+
+Fixed positive viscosity reads the same interface differently.
+In distributions,
+\[
+  \Delta u
+  =
+  (U_+-U_-)e_1\,\delta'_\Sigma,
+\]
+where \(\delta'_\Sigma\) is the normal derivative of the sheet measure.
+The stationary transport term still vanishes, while \(\nu\Delta u\) does not.
+No pressure can quietly absorb this defect, because the curl of \(\nu\Delta u\) is nonzero whereas the curl of every pressure gradient is zero.
+Thus the same discontinuous sheet cannot satisfy the fixed-\(\nu\) Navier--Stokes law.
+
+The comparison now has the exact class-membership form
+\[
+  \begin{gathered}
+  \text{tangential velocity jump}
+  \Longrightarrow
+  \text{weak Euler vortex sheet},\\
+  \text{same sheet with }\nu>0
+  \Longrightarrow
+  \text{failure of fixed-viscosity participation}
+  \Longrightarrow
+  \operatorname{Exit}(Q).
+  \end{gathered}
+\]
+This chain belongs to the planar slip model.
+It does not say that every nonsmooth scenario is an Euler solution, and the infinite planar sheet is not a finite-energy whole-space counterexample to the Millennium problem.
+Its job is local and decisive: the model preserves the shared inviscid rules while exposing exactly why a tangential jump lies outside the fixed-viscosity class.
+
+The velocity jump is the easiest failure to see because it occurs on the lowest rung.
+A more subtle endpoint may leave \(u\) finite and continuous while a spatial derivative, an acceleration, or a still higher response loses compatibility.
+The class test must follow the equation above velocity itself.
