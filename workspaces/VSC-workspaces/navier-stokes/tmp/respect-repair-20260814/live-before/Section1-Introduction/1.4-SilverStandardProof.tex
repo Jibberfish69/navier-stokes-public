@@ -1,0 +1,31 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.4 Silver Standard Proof
+% ============================================================
+\subsection{Silver Standard Proof}\label{sub:SilverStandardProof}
+
+Looking for the missing estimates to satisfy the Gold-standard requirements is really difficult.
+No one's been able to do it in almost a hundred years, and once you dig your teeth into the problem, it becomes tempting to find any other way of proving smoothness.
+
+Assume you already solved the problem using the Gold standard method.
+
+That would mean smoothness itself is a property of the Navier-Stokes equations.
+If smoothness is a property of the fluid itself, then it must've come from the only other properties in the fluid; velocity, pressure, viscosity, incompressibility, and non-linear transport, all acting in unison to keep the fluid smooth.
+Which means any hypothetical “blow-up” scenario (or any case that breaks smoothness) should not be reachable from those equations, and any imagined blow-up scenario must not be describing the same fluid from the original problem statement.
+If every possible loss of smoothness stops satisfying the original problem, or stops being about the same fluid, then none of those scenarios are valid Navier-Stokes counterexamples.
+If there are no valid counterexamples, then the fluid must be smooth.
+
+\[
+  \begin{gathered}
+  \text{If Navier--Stokes}\Longrightarrow\text{smooth},
+  \\
+  \text{then not smooth}\Longrightarrow\text{not Navier--Stokes}.
+  \end{gathered}
+\]
+
+The Silver Standard proof is a proof by contrapositive.
+Proving that every non-smooth outcome cannot be reached from the original Navier-Stokes equations, proves that the original equations always produce a smooth fluid.
+The beauty of the Silver proof method is that it no longer asks \textit{“how is the fluid smooth?”}, it only asks \textit{“is it smooth?”}; which reveals why the Gold proof method is so hard — Gold requires an explanation of mechanism (and hence the reason for the podium-titles).
+So the upside here, for Silver, is that the burden now shifts away from trying to find missing estimates.
+The downside is exhaustively handling every non-smooth outcome.
+Coming up with a principle that handles every case is the key to simplifying that burden.
