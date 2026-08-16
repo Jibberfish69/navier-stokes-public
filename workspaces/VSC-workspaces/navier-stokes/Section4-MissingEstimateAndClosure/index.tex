@@ -262,8 +262,27 @@ Starting from \(u_*\), \Cref{lem:SmoothLocalRestart} produces a smooth solution 
 Both one-sided jets are generated from \(u_*\) by the same pressure-normalized recurrences, and strong uniqueness joins the two pieces into one classical history beyond \(T_*\).
 This contradicts maximality.
 
-Hence \(T_*=\infty\), which proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement \eqref{eq:GlobalTimeTarget}.
-The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite interval of the global solution and gives \eqref{eq:GlobalEnergyConclusion}, completing \eqref{eq:WholeSpaceRegularityTarget}.
+Hence \(T_*=\infty\).  Every finite interval now lies inside the maximal
+classical history, and the normalized pressure formula gives
+\[
+  u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr).
+\]
+This proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement
+\eqref{eq:GlobalTimeTarget}.
+
+The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite
+interval of this global solution and gives \eqref{eq:GlobalEnergyConclusion}.
+In particular,
+\[
+  \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx
+  \leq
+  \int_{\R^3}|u_0(x)|^2\,dx
+  <\infty,
+\]
+where the last finiteness is the \(m=0\) case of
+\eqref{eq:FeffermanDatumSobolevRows}.  Global smoothness of \(u,p\) and the
+uniform kinetic-energy bound are exactly the two conclusions stated in
+\eqref{eq:WholeSpaceRegularityTarget}.
 \end{proof}
 
 \clearpage
