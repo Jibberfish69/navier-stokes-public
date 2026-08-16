@@ -3,7 +3,7 @@
 This note records the exact monograph-V6 source surfaces that matter most for
 the Navier-Stokes four-bridge program.
 
-## Direct Proof Boundary
+## Historical route-local boundary (downstream support)
 
 The authoritative proof-bearing source for Navier-Stokes remains the legacy NS
 TeX/PDF corpus under:

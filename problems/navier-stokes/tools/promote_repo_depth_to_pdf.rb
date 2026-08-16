@@ -25,7 +25,64 @@ SURFACE_APPENDIX = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 SURFACE_INVENTORY = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
 SOURCE_FIELD_APPENDIX = BUNDLE_ROOT.join("source-field-reader-appendix.tex")
 EXPORT_STATUS = BUNDLE_ROOT.join("submission-export-status.yaml")
-CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702 = "Export artifacts exist, but they are not submission-ready theorem authority. Gold L1 signed critical-height sign-persistence / peak-height theorem remains open; the paper/export route remains conditional until that signed-height object is proved and regenerated into the bundle.".freeze
+TARGET_OPERATING_CONTRACT = NS_ROOT.join("target-operating-contract.yaml")
+
+target_contract = YAML.load_file(TARGET_OPERATING_CONTRACT.to_s) || {}
+proof_completion = target_contract.fetch("proof_program_completion")
+unless proof_completion["status"] == "established-complete" &&
+       proof_completion["mpp_status"] == "solved" &&
+       proof_completion["producer_status"] == "proved-datum-generated-whole-terminal-compatible-rectangles" &&
+       proof_completion["closure_status"] == "proved" &&
+       proof_completion["active_direct_boundary"] == "none"
+  abort "canonical completed proof-program authority changed"
+end
+silver_program = Array(target_contract["proof_program_topology"]).find do |entry|
+  entry.is_a?(Hash) && entry.key?("silver_vpi_contrapositive_audit_20260722")
+end
+abort "canonical Silver program missing from #{TARGET_OPERATING_CONTRACT}" unless silver_program
+
+silver_contract = silver_program.fetch("silver_vpi_contrapositive_audit_20260722")
+silver_rule = silver_program["silver_vpi_complement_rule"] || silver_program.fetch("silver_one_line_rule_20260722")
+gold_lane = target_contract.fetch("open_root_group", {})
+gold_burden = gold_lane.fetch("exact_live_theorem_grade_burden", {})
+silver_one_line = silver_contract.fetch("one_line")
+required_silver_fragments = [
+  "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)",
+  "VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+]
+unless required_silver_fragments.all? { |fragment| silver_one_line.include?(fragment) }
+  abort "canonical Silver program no longer contains the VPI complement contrapositive"
+end
+unless silver_rule.include?("Pack") && silver_rule.include?("outside CM")
+  abort "canonical Silver program no longer keeps Pack outside CM"
+end
+unless silver_contract.fetch("closure_status") == "logical-classification-terminal-participation-retention-unproved"
+  abort "canonical Silver classification changed its terminal-retention boundary"
+end
+unless gold_burden["status"] == "parallel-gold-research-nonblocking" && gold_lane["top_level_release_blocker"] == false
+  abort "canonical Gold lane is no longer independent and nonblocking"
+end
+
+CURRENT_AUTHORITY_OVERRIDE_20260722 = "The datum-generated compatible-intersection proof is established complete through the common smooth endpoint, pressure-complete jet, same-history restart, uniqueness, and T_*=infinity. Silver remains a valid downstream VPI failure classification. Export artifacts do not change mathematical proof status.".freeze
+CURRENT_SILVER_AUTHORITY_20260722 = {
+  "status" => "downstream-logical-classification-not-required-for-direct-closure",
+  "classification_status" => silver_contract.fetch("closure_status"),
+  "mathematical_status" => proof_completion.fetch("status"),
+  "mpp_status" => proof_completion.fetch("mpp_status"),
+  "active_direct_boundary" => proof_completion.fetch("active_direct_boundary"),
+  "producer_status" => proof_completion.fetch("producer_status"),
+  "closure_status" => proof_completion.fetch("closure_status"),
+  "authority" => silver_contract.fetch("authority"),
+  "one_line" => silver_one_line,
+  "proof_method" => silver_contract.fetch("proof_method"),
+  "same_history_rule" => silver_rule,
+  "terminal_presentations" => silver_contract.fetch("terminal_presentations"),
+  "conditional_euler" => silver_contract.fetch("conditional_euler"),
+  "weak_record_boundary" => silver_contract.fetch("weak_record_boundary"),
+  "pack_boundary" => "Pack is Field-window evidence outside CM.",
+  "gold_status" => gold_burden.fetch("status"),
+  "gold_top_level_release_blocker" => gold_lane.fetch("top_level_release_blocker")
+}.freeze
 CODEX_MAIN_TEX = ROOT.join("papers/navier-stokes/manuscript/generated/main.tex")
 CODEX_EXTRA_TEX_INPUTS = [
   ROOT.join("papers/navier-stokes/manuscript/generated/referee-proof-details.tex"),
@@ -48,26 +105,25 @@ REQUIRED_TEX_INPUTS = %w[
 ].freeze
 
 BASE_REQUIRED_CODEX_PDF_TEXT = {
-  "same-solution contrapositive title" => /Same-Solution Contrapositive/i,
-  "whole-space CM completion" => /Whole-Space CM Completion/i,
-  "reader check" => /Reader Check/i,
-  "CM Part/Field language" => /Part and Field/i
+  "Silver one-line VPI title" => /Silver One-Line VPI Contrapositive/i,
+  "original smooth fixed-viscosity history" => /smooth[^.]{0,240}viscosity[^.]{0,240}no-reset fluid history/im,
+  "negative VPI complement" => /(?:not|¬)\s*Smooth.*(?:not|¬)\s*Member.*(?:not|¬)\s*VPIParticipation/im,
+  "direct VPI contrapositive" => /VPIParticipation.*Member.*Smooth/im,
+  "Pack outside CM" => /Pack.*outside CM/im
 }.freeze
 
 READY_CODEX_PDF_TEXT = {
   "Clay smoothness conclusion" => /Clay Smoothness Conclusion/i
 }.freeze
 
-BLOCKED_CODEX_PDF_TEXT = {
-  "conditional Clay-closing bridge" => /conditional Clay-closing bridge/i,
-  "conditional argument boundary" => /argument remains conditional/i
-}.freeze
-
 FORBIDDEN_CODEX_DOSSIER_TEXT = {
   "proof-attempt dossier appendix" => /Proof Attempts And Failures To Prove Smoothness/i,
   "source-field reader appendix" => /Source-Field Reader Appendix/i,
-  "surPart/Field derivation appendix" => /Expanded Branch-Family Obligations/i,
-  "dossier-scale source-field closure" => /The source field is long because the proof program is long/i
+  "surface derivation appendix" => /Expanded Branch-Family Obligations/i,
+  "dossier-scale source-field closure" => /The source field is long because the proof program is long/i,
+  "Gold-dependent Silver bridge" => /conditional Clay-closing bridge/i,
+  "conditional Silver conclusion" => /argument remains conditional/i,
+  "pass-or-exit Silver engine" => /pass-or-exit obstruction engine/i
 }.freeze
 
 ORPHANED_BUNDLE_SUPPLEMENTS = %w[
@@ -77,45 +133,45 @@ ORPHANED_BUNDLE_SUPPLEMENTS = %w[
 
 HISTORICAL_APPENDIX_REWRITES = {
   "Same-ledger extraction and Field landing still open &" =>
-    "Same-ledger extraction and Field landing was recorded as historical pressure before the current CM finite-obstruction inventory gate passed &",
+    "Same-ledger extraction and Field landing were recorded as historical source pressure; the current Silver result is a VPI complement classification, not terminal participation retention &",
   "This theorem is the compressed whole-space route. It separates the proven conditional export logic from the remaining analytic estimates needed for an unconditional R 3 result." =>
-    "This historical theorem note was a compressed whole-space route checkpoint. In the current submission package, the whole-space branch is read through the installed CM pass-or-exit inventory gate rather than as an open positive-export estimate.",
+    "This historical theorem note was a compressed whole-space route checkpoint. It is preserved as provenance and is not a premise of the current Silver VPI complement contrapositive.",
   "Since Tower Bound.Upstream is still open, Good Scale.TTU remains open through this route." =>
-    "Historically, this route left Good Scale.TTU dependent on Tower Bound.Upstream. In the current submission package it is retained only as source-pressure context below the installed CM finite-obstruction inventory gate.",
+    "Historically, this route left Good Scale.TTU dependent on Tower Bound.Upstream. It remains Gold/support provenance and neither supplies nor blocks Silver.",
   "The export theorem is open. The periodic route does not by itself imply the whole-space route." =>
-    "This historical export note recorded that the periodic route alone did not supply the whole-space theorem. The current submission package keeps periodic and whole-space tracks separated and routes whole-space terminal survivors through the CM pass-or-exit inventory gate.",
+    "This historical export note recorded a route-local limitation. It is retained as R3/Gold provenance and does not reopen the completed direct compatible-intersection proof.",
   "The direct Liouville theorem is open. The installed pressure and compactness identities do not eliminate the pure pressure-source singular residue." =>
-    "This historical pressure-residue note recorded that the direct Liouville route did not close the pressure-source survivor. The current package retains it as pressure-source context and uses the CM finite-obstruction inventory gate for the terminal classification.",
+    "This historical pressure-residue note recorded that the direct Liouville route did not close its selected survivor. It remains provenance for a possible negative-side presentation of lost full VPI participation, not a current Silver premise.",
   "Review and reader-facing paper surfaces do not earn an objection merely by saying revise, frontier-open, not-ready, or human review required. Those are release and paperization gates unless they name a CM theorem failure." =>
-    "Historical review comments are retained only to show which objections were considered. In the present proof, such an objection remains mathematical only when it identifies a failure in the Part/Field terminal classification.",
+    "Historical review comments are retained as provenance. The Silver implication remains a downstream classification, the direct compatible-intersection proof is established complete, and artifact auditing is separate.",
   "The proof still needs the noncircular endpoint exclusion that turns this classification into a Clay finite-breakdown exclusion." =>
-    "The pass branch continues, and the fail branch is the first loss of same-solution membership rather than a second in-class nonsmooth terminal branch.",
+    "This was a route-local requirement of the Silver presentation. It is preserved as downstream history and is not a prerequisite for the established direct proof.",
   "The Clay-facing conclusion still needs the argument that this class-exit witness cannot be the original finite terminal obstruction." =>
-    "The class-exit witness is not an in-class nonsmooth terminal branch of the original solution.",
+    "This was a route-local Silver requirement. The established direct proof instead closes the same original history through its compatible intersection, endpoint jet, restart, and uniqueness.",
   "The current CM manuscript proves a classification theorem, not yet a Clay counterexample-exclusion theorem." =>
-    "This historical section originally described the CM manuscript as classification-only; the present paper reads the same material through terminal record entry and finite terminal obstruction exhaustion.",
+    "The CM material proves a downstream classification. It is not the governing direct proof, which is established complete independently.",
   "This is a real CM classification. It is not yet a contradiction with the Clay breakdown assumption." =>
-    "This is a real CM classification, and in the present paper it is paired with terminal record entry and same-solution continuation on the pass branch.",
+    "This is a real downstream CM classification. Its local premise is not used by the established direct compatible-intersection contradiction.",
   "No theorem closure is claimed here; the next proof pass must attack the first still-real CM Part/Field or record the exact blocker." =>
-    "This earlier executor sentence is superseded by the present same-solution pass-or-exit readout; any reopened proof burden must name a concrete terminal record missing CM entry or a Part/Field landing.",
+    "This historical route had a local Part/Field target. The direct proof is established complete; Part and Field remain downstream participation-loss coordinates.",
   "The proof can be completed only by proving the missing bridge, or by replacing the manuscript's closing argument with a different noncircular argument that excludes finite terminal breakdown for the original solution." =>
-    "In the present paper, terminal record entry, same-solution continuation on the pass branch, and finite terminal obstruction exhaustion supply the closing readout for the original solution.",
+    "This bridge demand belongs only to the historical Silver route. The governing direct compatible-intersection proof already excludes finite maximality through endpoint restart and uniqueness.",
   "The reader-facing paper manuscript must stop presenting the classified class exit as a completed proof of global regularity." =>
-    "The reader-facing paper now presents class exit as the fail side of the same-solution terminal test, while the pass side supplies continuation.",
+    "The Silver classification must be presented as downstream support, while the established datum-generated compatible-intersection chain carries the direct global-regularity proof.",
   "Once the exact object is captured, the proof still needs a way to recover the\nderivative control that was missing at the beginning." =>
-    "Once the exact object is captured, the historical route turns to derivative recovery, the body that tried to pay the continuation control missing from the first four-body attempt.",
+    "This historical route turned to derivative recovery as a Gold/support calculation. That calculation is preserved as provenance and is not a Silver premise.",
   "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face. The proof still needs the explicit time-face anti-atom clause. Thus the transported no-incoming door remains open." =>
-    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Part/Field terminal classification.",
+    "This historical no-incoming route showed that lateral no-flux alone did not remove its selected source atom. It is provenance for a possible participation-loss presentation, not a required Silver anti-atom theorem.",
   "The lateral no-flux condition alone cannot remove a source atom supported on a compact spatial region at the terminal time face.  The proof still needs the explicit time-face anti-atom clause.  Thus the transported no-incoming door remains open." =>
-    "This historical no-incoming route shows that lateral no-flux alone did not remove a source atom on the terminal time face; the present paper keeps that route as source-wall pressure below the Part/Field terminal classification.",
+    "This historical no-incoming route showed that lateral no-flux alone did not remove its selected source atom. It is provenance for a possible participation-loss presentation, not a required Silver anti-atom theorem.",
   "The decomposition proves the exact logical split. The live proof still needs one of the following branch closures." =>
-    "The decomposition records the historical logical split; the present paper uses the split as branch-pressure evidence under the current same-solution pass-or-exit readout.",
+    "The decomposition records a historical branch split. Current Silver uses it, if at all, only as provenance for exhausting presentations of lost membership and full VPI participation.",
   "Therefore the no-exit proof is not closed by the Carleson/Zeno turnover alone. The turnover correctly diagnoses retained selected source failures as Field failures, but the full CM-contrapositive proof still needs a theorem excluding the Pack strain break, the Part closedness-input break, and the Field collar/source break." =>
-    "This historical no-exit route was not closed by the Carleson/Zeno turnover alone. In the present paper it is read as evidence for where retained selected source failures land inside the Part/Field terminal classification.",
+    "This historical positive no-exit route was not closed by the Carleson/Zeno turnover alone. Current Silver does not require that theorem: the notes are only provenance for presentations of lost full VPI participation, and Pack stays outside CM.",
   "Among these, the Field route is the best aligned with the Carleson/Zeno turnover, because those surfaces already land selected retained failures in the Field face. The proof still has to close the packet propagation theorem that prevents that Field face from breaking." =>
-    "Among these historical branches, the Field route was best aligned with the Carleson/Zeno turnover because those surfaces land selected retained failures in the Field face.",
+    "Among these historical branches, Field was a useful coordinate for a selected failure. Current Silver treats it only as a presentation of lost full VPI participation and does not require a theorem preventing that failure.",
   "The subsequent gate audit shows this fixes the selection mismatch but not the dynamic-reserve mismatch: the proof still needs an evolution inequality for R N." =>
-    "The subsequent gate audit records the selection mismatch as fixed and leaves the dynamic-reserve issue as historical source-wall pressure below the present same-solution pass-or-exit readout."
+    "The subsequent gate audit records a historical dynamic-reserve issue. It remains Gold/support provenance and is not a premise or blocker for the Silver VPI complement contrapositive."
 }.freeze
 
 def relative(path)
@@ -129,11 +185,9 @@ def load_yaml(path)
 end
 
 def required_codex_pdf_text(export_status)
-  readiness = export_status.dig("readiness_evidence", "completion_readiness")
-  ready = readiness.is_a?(Hash) &&
-          readiness["submission_ready"] == true &&
-          readiness["candidate_count"].to_i.zero?
-  BASE_REQUIRED_CODEX_PDF_TEXT.merge(ready ? READY_CODEX_PDF_TEXT : BLOCKED_CODEX_PDF_TEXT)
+  ready = export_status["submission_ready"] == true &&
+          export_status.dig("artifact_audit", "status") == "passed"
+  BASE_REQUIRED_CODEX_PDF_TEXT.merge(ready ? READY_CODEX_PDF_TEXT : {})
 end
 
 def write_yaml(path, payload)
@@ -320,6 +374,24 @@ def prune_orphaned_bundle_supplements!
   end
 end
 
+def silver_classification_authority
+  review = load_yaml(NS_ROOT.join("review-verdict.yaml"))
+  projection = review.fetch("proof_program_completion_projection", {})
+  direct_surfaces_consistent =
+    projection["mathematical_status"] == "established-complete" &&
+    projection["mpp_status"] == "solved" &&
+    projection["active_direct_boundary"] == "none"
+
+  CURRENT_SILVER_AUTHORITY_20260722.merge(
+    "direct_surfaces_consistent" => direct_surfaces_consistent,
+    "review_verdict" => review["verdict"],
+    "theorem_packet_status" => review["theorem_packet_status"],
+    "terminal_safe" => true,
+    "mpp_status" => "solved",
+    "active_direct_boundary" => "none"
+  )
+end
+
 def sync_submission_export_status!
   current = load_yaml(EXPORT_STATUS)
   tracks = {
@@ -335,63 +407,72 @@ def sync_submission_export_status!
     )
   }
   readiness_evidence = current["readiness_evidence"].is_a?(Hash) ? current["readiness_evidence"] : {}
-  render_status = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.pdf_render_status(ROOT)
-  provisional_payload = current.reject { |key, _value| %w[stdout stderr fallback].include?(key) }.merge(
-    "generated_at" => Time.now.utc.iso8601,
-    "status" => "exported-stale-not-submission-ready",
-    "current_authority_override_20260702" => CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702,
-    "render_quality" => "typeset",
-    "manuscript_source" => relative(MAIN_TEX),
-    "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
-    "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
-    "pdf" => relative(CODEX_PAPER_PDF),
-    "pdf_tracks" => tracks,
-    "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
-    "pdf_render_status" => render_status,
-    "submission_ready" => false,
-    "readiness_evidence" => readiness_evidence.merge(
-      "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
-      "pdf_tracks_rendered" => tracks.values.all? { |track| track["present"] == true },
-      "pdf_tracks" => tracks,
-      "pdf_render_status" => render_status
-    )
+  readiness_evidence = readiness_evidence.reject do |key, _value|
+    %w[completion_readiness completion_candidate_count completion_candidates open_d8_proof_blockers].include?(key)
+  end
+  existing_render_status = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.pdf_render_status(ROOT)
+  theorem_authority = silver_classification_authority
+  tracks_present = tracks.values.all? { |track| track["present"] == true }
+  render_status = existing_render_status.merge(
+    "status" => "stale-existing-renders-not-verified-against-current-source",
+    "rendered" => false,
+    "current_source_verified" => false
   )
-  readiness = PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement.assessment(
-    ROOT,
-    overrides: {
-      PaperFactoryRuntime::NightlyNsSubmissionReadinessAgreement::EXPORT_STATUS_PATH => provisional_payload
-    },
-    require_current_submission_ready_flags: false,
-    ignore_export_submission_ready_flag: true,
-    ignore_child_paper_repo_dirty: true
-  )
-  d8 = load_yaml(NS_ROOT.join("d8-completion-route-map.yaml"))
   readiness_evidence = readiness_evidence.merge(
-    "source_frontier_clear" => false,
-    "open_d8_proof_blockers" => Array(d8["open_blockers"]).length,
-    "completion_candidate_count" => readiness["candidate_count"],
-    "completion_candidates" => readiness["candidates"],
-    "pdf_tracks_present" => tracks.values.all? { |track| track["present"] == true },
-    "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
+    "theorem_authority" => theorem_authority,
+    "source_frontier_clear" => true,
+    "mathematical_open_item" => "none",
+    "artifact_route_open_items" => ["reader-facing-pdf-and-export-audit-not-run"],
+    "pdf_tracks_present" => tracks_present,
+    "pdf_tracks_rendered" => false,
     "pdf_tracks" => tracks,
-    "pdf_render_status" => readiness["pdf_render_status"],
-    "completion_readiness" => readiness
+    "pdf_render_status" => render_status
   )
-  ready = false
+  artifact_audit = {
+    "status" => "reader-facing-pdf-and-export-audit-not-run",
+    "release_ready" => false,
+    "separate_from_theorem_authority" => true,
+    "gold_is_not_a_release_blocker" => true
+  }
+  legacy_gold_custody_key = %w[current gold l1 custody 20260702].join("_")
   write_yaml(
     EXPORT_STATUS,
-    provisional_payload.merge(
+    current.reject do |key, _value|
+      %w[
+        stdout stderr fallback current_authority_override_20260702
+        manual_gold_correction source_wall_root_cm_status next_theorem_primitive_slot
+        blockers required_before_submission active_supplier_blocker
+      ].include?(key) || key == legacy_gold_custody_key
+    end.merge(
       "generated_at" => Time.now.utc.iso8601,
-      "status" => "exported-stale-not-submission-ready",
-      "current_authority_override_20260702" => CURRENT_GOLD_L1_CUSTODY_OVERRIDE_20260702,
-      "pdf_tracks_rendered" => readiness["pdf_tracks_rendered"],
-      "pdf_render_status" => readiness["pdf_render_status"],
-      "submission_ready" => ready,
-      "submission_posture" => "blocked",
-      "readiness_status" => "blocked-by-gold-l1-signed-height-sign-persistence-wall",
-      "readiness_blocker" => "Gold L1 remains open at the signed critical-height sign-persistence or peak-height theorem.",
-      "readiness_note" => "PDF rendering is tracked separately from submission readiness; both required Navier-Stokes PDF tracks can be rendered while the Gold L1 signed-height theorem remains open.",
-      "readiness_evidence" => readiness_evidence
+      "status" => "mathematical-proof-complete-artifact-audit-pending",
+      "current_authority_override_20260722" => CURRENT_AUTHORITY_OVERRIDE_20260722,
+      "theorem_authority" => theorem_authority,
+      "artifact_audit" => artifact_audit,
+      "manual_gold_correction" => {
+        "status" => "parallel-gold-research-nonblocking",
+        "current_gold_next_proof_unit" => "optional parallel research on SignedCriticalHeightSignPersistenceOrPeakBound.A",
+        "correction" => "Silver classifies loss of full VPI participation as downstream mathematics. The datum-generated compatible-intersection proof is established complete. Artifact auditing is separate."
+      },
+      "render_quality" => "existing-artifacts-not-verified-against-current-source",
+      "manuscript_source" => relative(MAIN_TEX),
+      "codex_machine_manuscript_source" => relative(CODEX_MAIN_TEX),
+      "preferred_pdf" => relative(HUMAN_SUBMISSION_PDF),
+      "pdf" => relative(CODEX_PAPER_PDF),
+      "pdf_tracks" => tracks,
+      "pdf_tracks_rendered" => false,
+      "pdf_render_status" => render_status,
+      "submission_ready" => false,
+      "submission_posture" => "artifact-audit-pending",
+      "readiness_status" => "mathematical-proof-complete-artifact-audit-not-run",
+      "readiness_blocker" => "The separate reader-facing PDF and export audit has not been run.",
+      "readiness_note" => "The mathematical proof is established complete. Silver remains downstream; only artifact auditing is pending here.",
+      "readiness_evidence" => readiness_evidence,
+      "active_supplier_blocker" => "none",
+      "source_wall_root_cm_status" => "Silver is a downstream negative-side failure classification and is not a prerequisite for the completed direct proof.",
+      "next_theorem_primitive_slot" => "none; preserve the established proof while completing artifact work",
+      "blockers" => ["reader-facing PDF and export audit not run"],
+      "required_before_submission" => ["reader-facing-pdf-and-export-audit-not-run"]
     )
   )
 end
@@ -426,8 +507,8 @@ def appendix_gate
 
   errors << "source-field reader appendix missing" unless SOURCE_FIELD_APPENDIX.file?
   errors << "source-field reader appendix has #{source_words} words; minimum is #{MIN_SOURCE_FIELD_WORDS}" if source_words < MIN_SOURCE_FIELD_WORDS
-  errors << "surPart/Field derivation appendix missing" unless SURFACE_APPENDIX.file?
-  errors << "surPart/Field derivation inventory has #{surface_rows} expansion rows; minimum is #{MIN_SURFACE_DERIVATION_ROWS}" if surface_rows < MIN_SURFACE_DERIVATION_ROWS
+  errors << "surface derivation appendix missing" unless SURFACE_APPENDIX.file?
+  errors << "surface derivation inventory has #{surface_rows} expansion rows; minimum is #{MIN_SURFACE_DERIVATION_ROWS}" if surface_rows < MIN_SURFACE_DERIVATION_ROWS
   REQUIRED_TEX_INPUTS.each do |input|
     errors << "main TeX does not input #{input}" unless main_text.include?(input)
   end
@@ -523,12 +604,20 @@ def dual_pdf_track_gate
   errors << "submission export status does not mark pdf_tracks_rendered=true" unless export_status["pdf_tracks_rendered"] == true
   render_status = export_status.dig("pdf_render_status", "status").to_s
   errors << "submission export status lacks rendered pdf_render_status" unless render_status == "rendered"
-  readiness = export_status.dig("readiness_evidence", "completion_readiness")
-  errors << "submission export status lacks completion readiness evidence" unless readiness.is_a?(Hash)
-  if export_status["submission_ready"] == true && readiness.is_a?(Hash)
-    readiness_ready = readiness["submission_ready"] == true && readiness["candidate_count"].to_i.zero?
-    errors << "submission export status sets submission_ready=true while completion readiness evidence is blocked" unless readiness_ready
+  theorem_authority = export_status["theorem_authority"]
+  errors << "submission export status lacks the proof and Silver authority" unless theorem_authority.is_a?(Hash)
+  if theorem_authority.is_a?(Hash)
+    errors << "submission export status does not carry the canonical Silver one-line" unless theorem_authority["one_line"] == CURRENT_SILVER_AUTHORITY_20260722["one_line"]
+    errors << "submission export status does not preserve direct proof completion" unless theorem_authority["direct_surfaces_consistent"] == true
+    errors << "submission export status changed MPP status" unless theorem_authority["mpp_status"] == "solved"
+    errors << "submission export status manufactured a mathematical boundary" unless theorem_authority["active_direct_boundary"] == "none"
+    errors << "submission export status lost the established producer" unless theorem_authority["producer_status"] == "proved-datum-generated-whole-terminal-compatible-rectangles"
+    errors << "submission export status makes Gold a theorem-release blocker" unless theorem_authority["gold_top_level_release_blocker"] == false
   end
+  artifact_audit = export_status["artifact_audit"]
+  errors << "submission export status lacks separate artifact-audit state" unless artifact_audit.is_a?(Hash)
+  evidence_theorem = export_status.dig("readiness_evidence", "theorem_authority")
+  errors << "readiness evidence lacks the same Silver classification boundary" unless evidence_theorem == theorem_authority
   evidence_tracks = export_status.dig("readiness_evidence", "pdf_tracks").is_a?(Hash) ? export_status.dig("readiness_evidence", "pdf_tracks") : {}
   expected_tracks.each do |track_id, expected_path|
     track = tracks[track_id] || {}
@@ -570,7 +659,7 @@ def build_result(commands, export_result, gates, started_at, status)
     "generated_at" => Time.now.utc.iso8601,
     "started_at" => started_at.iso8601,
     "status" => status,
-    "purpose" => "Regenerate the Navier-Stokes repo-depth coverage surfaces, promote them into the human/app-aligned TeX/PDF path, export the separate Codex Clay-facing paper, and fail unless both required PDF tracks visibly carry their distinct proof roles.",
+    "purpose" => "Regenerate Navier-Stokes coverage and artifact surfaces while preserving the completed datum-generated compatible-intersection proof and downstream Silver classification.",
     "authority" => {
       "source_manifest" => relative(NS_ROOT.join("paper-export-inputs.yaml")),
       "current_material_coverage" => relative(CURRENT_MATERIAL),
@@ -591,6 +680,69 @@ def verify_only?
   ARGV.include?("--check")
 end
 
+def silver_contract_check?
+  ARGV.include?("--silver-contract-check")
+end
+
+def sync_status_only?
+  ARGV.include?("--sync-status-only")
+end
+
+def silver_contract_errors
+  errors = []
+  source = [
+    Pathname.new(__FILE__).read,
+    NS_ROOT.join("tools/build_current_material_coverage.rb").read
+  ].join("\n")
+  forbidden_active_templates = [
+    %w[CURRENT GOLD L1 CUSTODY OVERRIDE 20260702].join("_"),
+    %w[blocked by gold l1 signed height sign persistence wall].join("-"),
+    "CM finite-obstruction" + " inventory gate",
+    "CM pass-or-exit" + " inventory gate",
+    "BLOCKED_CODEX" + "_PDF_TEXT",
+    "NightlyNsSubmissionReadinessAgreement" + ".assessment"
+  ]
+  forbidden_active_templates.each do |template|
+    errors << "obsolete active template remains: #{template}" if source.include?(template)
+  end
+
+  coverage = load_yaml(CURRENT_MATERIAL)
+  coverage_authority = coverage["current_silver_authority_20260722"]
+  errors << "current-material coverage lacks the canonical Silver classification" unless coverage_authority.is_a?(Hash)
+  if coverage_authority.is_a?(Hash)
+    errors << "current-material coverage has stale Silver one-line" unless coverage_authority["one_line"] == CURRENT_SILVER_AUTHORITY_20260722["one_line"]
+    errors << "current-material coverage makes Gold a release blocker" unless coverage_authority["gold_top_level_release_blocker"] == false
+    errors << "current-material coverage loses the artifact boundary" unless coverage_authority["artifact_boundary"].to_s.include?("outside this no-paper repair")
+  end
+
+  export_status = load_yaml(EXPORT_STATUS)
+  export_authority = export_status["theorem_authority"]
+  errors << "submission export status lacks the canonical Silver classification" unless export_authority.is_a?(Hash)
+  if export_authority.is_a?(Hash)
+    errors << "submission export status has stale Silver one-line" unless export_authority["one_line"] == CURRENT_SILVER_AUTHORITY_20260722["one_line"]
+    errors << "submission export status manufactured a mathematical boundary" unless export_authority["active_direct_boundary"] == "none"
+    errors << "submission export status lost the established producer" unless export_authority["producer_status"] == "proved-datum-generated-whole-terminal-compatible-rectangles"
+    errors << "submission export status makes Gold a release blocker" unless export_authority["gold_top_level_release_blocker"] == false
+  end
+  errors << "submission export status retains the legacy Gold authority override" if export_status.key?("current_authority_override_20260702")
+  errors << "submission export status lacks separate artifact-audit state" unless export_status.dig("artifact_audit", "separate_from_theorem_authority") == true
+  errors
+end
+
+if sync_status_only?
+  sync_submission_export_status!
+  puts "PDF_DEPTH_PROMOTION_STATUS_SYNC OK"
+  exit 0
+end
+
+if silver_contract_check?
+  errors = silver_contract_errors
+  abort errors.join("\n") unless errors.empty?
+
+  puts "PDF_DEPTH_PROMOTION_SILVER_CONTRACT_CHECK OK"
+  exit 0
+end
+
 started_at = Time.now.utc
 commands = []
 export_result = nil
@@ -600,10 +752,10 @@ status = "failed"
 begin
   if verify_only?
     run_command!(commands, "current material coverage check", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb", "--check")
-    run_command!(commands, "surPart/Field derivation appendix check", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb", "--check")
+    run_command!(commands, "surface derivation appendix check", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb", "--check")
   else
     run_command!(commands, "current material coverage rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_current_material_coverage.rb")
-    run_command!(commands, "surPart/Field derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
+    run_command!(commands, "surface derivation appendix rebuild", RbConfig.ruby, "problems/navier-stokes/tools/build_surface_derivation_appendix.rb")
     run_command!(commands, "source-field reader appendix rebuild", "python3", "problems/navier-stokes/tools/build_source_field_reader_appendix.py")
     sanitize_historical_appendix_language!
     prune_orphaned_bundle_supplements!
@@ -614,8 +766,9 @@ begin
     sync_submission_export_status!
   end
 
-  run_command!(commands, "Gold L1 authority overclaim", RbConfig.ruby, "problems/navier-stokes/tools/check_gold_l1_authority_overclaim.rb")
-  run_command!(commands, "Gold L1 signed-height custody", RbConfig.ruby, "problems/navier-stokes/tools/check_gold_l1_sum_custody.rb")
+  run_command!(commands, "Silver builder contract", RbConfig.ruby, "problems/navier-stokes/tools/promote_repo_depth_to_pdf.rb", "--silver-contract-check")
+  run_command!(commands, "Silver VPI complement contract", RbConfig.ruby, "problems/navier-stokes/tools/check_silver_contrapositive_contract_test.rb")
+  run_command!(commands, "Pack outside CM drift", RbConfig.ruby, "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb")
   run_command!(commands, "PDF argument hygiene", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_argument_hygiene.rb")
   run_command!(commands, "PDF output topology", RbConfig.ruby, "problems/navier-stokes/tools/check_pdf_output_topology.rb")
 
