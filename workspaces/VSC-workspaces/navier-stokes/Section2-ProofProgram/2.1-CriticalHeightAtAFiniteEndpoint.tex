@@ -5,9 +5,9 @@
 
 \subsection{Critical Height at a Finite Endpoint}\label{sub:CriticalHeightAtAFiniteEndpoint}
 
-A finite maximal time leaves a scale-critical concentration to examine: the field can remain smooth at every earlier time while activity concentrates at smaller scales before the endpoint.
 Fix a rapidly decaying datum \(u_0\) on \(\R^3\), a viscosity \(\nu>0\), and the maximal classical solution \((u,p)\) they generate on \([0,T_*)\).
-Suppose \(T_*<\infty\) so that we can follow that threat all the way to its alleged endpoint.
+Suppose \(T_*<\infty\).
+The field is smooth at every earlier time, so any concentration has to be followed through smaller scales as \(t\) approaches that endpoint.
 
 Kinetic energy stays bounded along the classical interval, but a fixed amount of energy is not equally visible at every scale.
 The Navier--Stokes scaling shows the difference.
@@ -23,7 +23,7 @@ For every \(\lambda>0\), the rescaled fields
 \]
 solve the same equation with the same viscosity on the rescaled time interval.
 Length has been divided by \(\lambda\), time by \(\lambda^2\), and velocity has been multiplied by \(\lambda\).
-The two spatial derivatives in viscosity and the one time derivative in acceleration are already setting the pace.
+This is the parabolic relation already present in the equation: one time derivative and the two spatial derivatives in viscosity acquire the same factor under rescaling.
 
 Let \(\Lambda=(-\Delta)^{1/2}\), and measure a spatial Sobolev height by
 \[
@@ -85,10 +85,10 @@ Putting \(s=0\) in the same calculation gives
 A finer rescaled structure can carry less \(L^2\) energy while standing at the same critical height.
 That is the opening left by the ordinary energy estimate: it can keep the total energy finite while the scale at which the fluid is changing continues to fall.
 
-The finite parabolic schedule already developed in \cref{sub:HistoricalEstimates} shows that progressively smaller scale durations can fit before one finite time.
-At the critical height just derived, that schedule remains dimensionally possible while the \(L^2\) contribution shrinks, but it does not show that the equation generates the successive states.
-The actual fluid would still have to create each finer state from the state before it while transport, pressure, incompressibility, and viscosity all continue to act.
+The finite parabolic schedule in \cref{sub:HistoricalEstimates} shows that progressively smaller scale durations can fit before one finite time.
+At the height just derived, each finer copy can keep the same value of \(H\) while its \(L^2\) contribution shrinks.
+Scaling alone does not make the actual fluid pass through those copies.
+The equation would have to generate each finer state from the state before it while transport, pressure, incompressibility, and viscosity all continue to act.
 
-Critical height sees what can survive the loss of scale.
-It still says nothing about how rapidly the field must change to pass through infinitely many regular states before \(T_*\).
-Finite time turns that missing speed into a relation between one response and the response immediately above it.
+The scale has now been fixed.
+The finite endpoint asks how fast the field can move through an unbounded sequence of regular states, which is a question about one time response and the response immediately above it.
