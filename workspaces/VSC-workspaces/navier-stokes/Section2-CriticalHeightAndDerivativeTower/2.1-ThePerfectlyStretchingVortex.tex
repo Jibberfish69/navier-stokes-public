@@ -1,0 +1,70 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The perfectly balanced rip-cord vortex}\label{sub:ThePerfectlyBalancedRipCordVortex}
+
+Picture one smooth vortex held exactly on its axis.
+The surrounding fluid pulls it lengthwise.
+Incompressibility makes that extension narrow the cross-section at the same time, so the spiral around the centre winds tighter and the velocity changes more sharply across the core.
+Now remove the ordinary ways that this alignment can be lost: no wobble, no buckling, no fragmentation, and no off-centre drift.
+Each narrower state becomes the starting state for the next stretch.
+The question is whether the same fluid can complete infinitely many such tightenings before one finite time.
+
+This is the perfectly balanced rip-cord vortex.
+It is not asserted to be an exact special solution.
+It is the hardest clean version of the stretching picture: the geometry is kept favourable to concentration, and the fixed-viscosity equation is left responsible for stopping it.
+
+\begin{center}
+\captionsetup{hypcap=false}
+\begin{tikzpicture}[
+  >=stealth,
+  logic/.style={draw=black!55,rounded corners=2pt,fill=black!3,
+    align=center,text width=3.05cm,minimum height=1.25cm,font=\small},
+  note/.style={align=center,font=\small}
+]
+  \draw[blue!70!black,thick,domain=-1.1:1.1,samples=90]
+    plot ({-3.7+0.78*cos(560*\x)},{1.05*\x+2.4});
+  \draw[blue!35!black,thick] (-4.48,2.4) arc[start angle=180,end angle=540,x radius=.78,y radius=.24];
+  \draw[->,very thick,black!65] (-3.7,3.6)--(-3.7,4.45);
+  \draw[->,very thick,black!65] (-3.7,1.2)--(-3.7,.35);
+  \node[note] at (-3.7,-.05) {one smooth core\\radius \(r_0\)};
+
+  \draw[->,very thick,black!65] (-1.7,2.4)--(1.15,2.4)
+    node[midway,above,note] {stretch and narrow};
+
+  \draw[blue!70!black,thick,domain=-1.35:1.35,samples=120]
+    plot ({3.2+0.40*cos(820*\x)},{1.28*\x+2.4});
+  \draw[blue!35!black,thick] (2.80,2.4) arc[start angle=180,end angle=540,x radius=.40,y radius=.13];
+  \draw[->,very thick,black!65] (3.2,4.15)--(3.2,4.85);
+  \draw[->,very thick,black!65] (3.2,.65)--(3.2,-.05);
+  \node[note] at (3.2,-.45) {same history, tighter winding\\radius \(r_1<r_0\)};
+
+  \node[logic] (a) at (-5.25,-2.1) {finite last time\\\(T_*<\infty\)};
+  \node[logic] (b) at (-1.75,-2.1) {global critical-norm\\escape};
+  \node[logic] (c) at (1.75,-2.1) {critical height\\\(H(t)\) unbounded};
+  \node[logic] (d) at (5.25,-2.1) {infinitely many first passages\\\(t_k\uparrow T_*\)};
+  \draw[->,thick] (a)--(b);
+  \draw[->,thick] (b)--(c);
+  \draw[->,thick] (c)--(d);
+\end{tikzpicture}
+\captionof{figure}{The balanced narrowing scene and the global chain it motivates. The drawing does not assign the singular escape to the depicted centre; each implication below concerns the complete velocity field.}
+\label{fig:BalancedVortexCriticalRoute}
+\end{center}
+
+The competition inside the drawing is the vorticity equation \eqref{eq:VorticityEquation}:
+\[
+  D_t\omega=S\omega+\nu\Delta\omega.
+\]
+The term \(S\omega\) can amplify vorticity aligned with an expanding strain direction.
+The Laplacian acts on the spatial curvature created by the tightening.
+Pressure does not appear after curl is taken, but it still shapes the velocity and strain that enforce incompressibility around the core.
+Stretching, transverse contraction, pressure response, and diffusion are simultaneous actions of one fluid.
+
+The vortex becomes a singularity scenario only when the whole solution loses continuation control.
+At the critical endpoint, the theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a bounded \(L^\infty_tL^3_x\) norm would carry the solution regularly through \(T_*\) \parencite{EscauriazaSereginSverak2003}.
+Hence a finite maximal time forces
+\begin{equation}\label{eq:FiniteTimeLThreeEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
+\end{equation}
+A radius alone cannot distinguish genuine growth from a change of scale.
+The narrowing now needs a quantity unchanged by Navier--Stokes rescaling and strong enough to feel the global escape in \eqref{eq:FiniteTimeLThreeEscape}.
