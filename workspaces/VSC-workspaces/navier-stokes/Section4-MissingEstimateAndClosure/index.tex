@@ -1,27 +1,44 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \clearpage
-\section{The Estimates and Global Smoothness}\label{sec:TheMissingEstimateAndGlobalSmoothness}
+\section{The Missing Estimates and Global Smoothness}\label{sec:TheMissingEstimateAndGlobalSmoothness}
 
-\subsection{Every finite estimate is a coordinate}\label{sub:FromFiniteRectanglesToClassicalEstimates}
+\subsection{The first coordinate already closes the endpoint}\label{sub:FromFiniteRectanglesToClassicalEstimates}
 
-Fix a temporal order \(r\in\Nzero\) and a spatial order \(m\in\Nzero\).
-Choose one rectangle with \(N\geq r\) and middle height \(M=m\).
-Its adjacent rows give
+Start with the velocity row that opened the singularity argument.  Choose
+\((N,M)=(0,1)\) in \eqref{eq:BodyWholeTerminalAdjacentRows}.  Then
+\[
+  u\in L^2(I_*;H^2),
+  \qquad
+  u_t\in L^2(I_*;L^2).
+\]
+The adjacent trace identity carries these two rows into the missing middle space:
+\[
+  u\in C([0,T_*];H^1).
+\]
+Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\),
+\begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
+  \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
+\end{equation}
+But \eqref{eq:FiniteTimeLThreeEscape} said that a finite maximal time forces this very
+norm to escape.  The lowest critical rectangle already puts the singularity and the
+estimate on the same velocity, in the same norm, over the same terminal interval.
+
+Now read an arbitrary coordinate.  Fix (r,m\in\Nzero), choose (N\geq r), and
+take the rectangle of middle height (M=m).  Its adjacent rows give
 \[
   V_r\in L^2(I_*;H^{m+1}),
   \qquad
-  \partial_tV_r=V_{r+1}\in L^2(I_*;H^{m-1}).
+  V_{r+1}=\partial_tV_r\in L^2(I_*;H^{m-1}).
 \]
-The trace identity \eqref{eq:BodyAdjacentTraceIdentity} gives
+The same trace calculation gives
 \begin{equation}\label{eq:BodyUniformMixedSobolevCoordinate}
   \boxed{
-  M_{r,m}
-  :=\sup_{0\leq t\leq T_*}
+  \sup_{0\leq t\leq T_*}
   \norm{\partial_t^ru(t)}_{H^m}
   <\infty.}
 \end{equation}
-The pair \((r,m)\) was arbitrary.
-Every fixed temporal response is uniformly controlled through \(T_*\) in every selected finite Sobolev space.
+Nothing in this step couples (r) to (m).  We may choose any finite temporal
+response and then ask for any finite spatial height inside that same row.
 
 That one statement generates the ordinary finite-order estimates.
 Let \(k\in\Nzero\), let \(2\leq p\leq\infty\), and choose an integer \(m\) with
@@ -33,7 +50,7 @@ Spatial Sobolev embedding gives
   \norm{\nabla^k\partial_t^ru(t)}_{L^p}
   \leq C_{k,m,p}\norm{\partial_t^ru(t)}_{H^m}.
 \end{equation}
-Using \eqref{eq:BodyUniformMixedSobolevCoordinate},
+Combining this with \eqref{eq:BodyUniformMixedSobolevCoordinate},
 \begin{equation}\label{eq:MasterUniformMixedEstimate}
   \nabla^k\partial_t^ru
   \in L^\infty(I_*;L^p(\R^3)).
@@ -44,23 +61,12 @@ Since \(T_*\) is finite under the standing contradiction hypothesis,
   \in L^q(I_*;L^p(\R^3))
   \qquad(1\leq q\leq\infty).
 \end{equation}
-Each requested norm uses one finite rectangle and its own finite constant.
-No sum over all derivative orders and no common analytic radius is being asserted.
-
-The reversal from Section~3 is now an estimate rather than a pattern in an identity.
-For any fixed temporal row \(V_r\), the singularity argument gave
-\[
-  \sup_{0<t<T_*}\norm{V_r(t)}_3=\infty.
-\]
-The coordinate \((r,m)=(r,1)\) gives instead
-\[
-  \sup_{0\leq t\leq T_*}\norm{V_r(t)}_3
-  \leq C M_{r,1}<\infty.
-\]
-The temporal and spatial directions have not been identified with one another.
-They are controlled simultaneously inside the same history, and the same row cannot satisfy both conclusions.
-
-The lowest rectangles now return the argument to the critical height and the vortex that opened the Tower.
+Each requested norm is a finite projection of the intersection and has its own finite
+constant.  We are not summing all derivative orders or claiming one analytic radius.
+What matters here is simpler: for each fixed (r), the singularity asks (V_r) to
+escape in (L^3), while the coordinate ((r,1)) places that same (V_r) continuously
+in (H^1\hookrightarrow L^3).  The two independent directions of the grid have met
+inside one response row, and they give opposite conclusions.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
