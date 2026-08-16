@@ -1,19 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 
 We prove global existence and smoothness for the unforced three-dimensional incompressible Navier--Stokes equations on \(\R^3\), for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity.
-Assume that the maximal classical time \(T_*\) is finite.
-The energy identity keeps kinetic energy bounded, but endpoint continuation forces the critical \(L^3\) norm and the scale-invariant height
-\[
-  H(t)=\frac12\|\Lambda^{1/2}u(t)\|_2^2
-\]
-past every finite bound.
-In the perfectly stretching vortex picture, the fluid would have to pass through infinitely many doubled critical-height levels before that one last time.
-Repeated integration then forces every fixed temporal derivative of the velocity to become unbounded in the same critical space.
-
-Differentiating the equation generates the full temporal and spatial derivative Tower together with its pressure response.
-In every temporal row, the viscous Laplacian contributes two further spatial derivatives, and the critical-height identities expose successively higher Sobolev energies.
-A datum-generated estimate controls every finite adjacent rectangle of the Tower uniformly on \((0,T_*)\).
-Every larger rectangle restricts to the same derivatives in the smaller ones, so all of them belong to one intersection for the original velocity and pressure.
-The lowest rectangles bound the critical norm, critical height, stretching action, and high-frequency tail, while the full intersection gives one terminal velocity in \(H^\infty\).
-Local well-posedness and uniqueness continue that same history beyond its supposed last time, contradicting maximality.
-Thus \(T_*=\infty\); velocity and normalized pressure remain smooth for all time, and kinetic energy stays bounded by its initial value.
+Fix such a datum \(u_0\), and let \((u,p)\) be its pressure-normalized maximal classical solution on \([0,T_*)\).
+If \(T_*<\infty\), the central estimate controls every prescribed finite adjacent rectangle of temporal and spatial derivatives of this same solution on the whole interval \((0,T_*)\); the pressure recurrence supplies the corresponding normalized pressure rows.
+Larger rectangles restrict to identical coordinates in smaller ones, so the finite blocks assemble into one datum-specific compatible intersection.
+That intersection gives a common terminal velocity in \(H^\infty\) and the complete pressure-normalized endpoint jet.
+Local well-posedness and uniqueness then continue the same history through \(T_*\), contradicting maximality.
+Thus \(T_*=\infty\); velocity and normalized pressure remain smooth for all time, and the energy identity keeps kinetic energy bounded by its initial value.

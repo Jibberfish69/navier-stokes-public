@@ -43,6 +43,14 @@ The complete spatial row and the finiteness of \(T_*\) yield
   <\infty.
 \end{align*}
 The momentum equation then places \(u_t\) in \(L^1(I_*;H^m)\).
+More concretely, for \(0\leq s<t<T_*\),
+\[
+  \norm{u(t)-u(s)}_{H^m}
+  \leq
+  \nu(t-s)^{1/2}\norm{u}_{L^2((s,t);H^{m+2})}
+  +C_m\norm{u}_{L^2((s,t);H^{m+2})}^{2}.
+\]
+Both terms tend to zero as \(s,t\uparrow T_*\), so the same velocity is Cauchy in \(H^m\) and reaches one endpoint there.
 The inclusion \(L^2(I_*;H^m)\subset L^1(I_*;H^m)\) places \(u\) in the Bochner space \(W^{1,1}(I_*;H^m)\).
 The Bochner fundamental theorem of calculus supplies the continuous representative in \eqref{eq:SectionThreeWOneOneEndpoint}.
 \end{proof}
@@ -102,4 +110,6 @@ The arbitrariness of \(m\) gives the identities in \(\Hinfty\).
 Spatial differentiation then identifies every mixed coordinate \(\partial_t^N\partial_x^\alpha u\) at the terminal face.
 \end{proof}
 
+The pressure limit has no new additive constant to choose at \(T_*\).
+The decaying Riesz formula fixes \(Q_N(t)\) for every \(t<T_*\), and passage to the limit preserves that normalization.
 Hence every left limit \(\partial_t^N\partial_x^\alpha u(T_*)\) is exactly the derivative obtained by inserting \(u_*\) into the pressure-normalized Navier--Stokes recurrences.

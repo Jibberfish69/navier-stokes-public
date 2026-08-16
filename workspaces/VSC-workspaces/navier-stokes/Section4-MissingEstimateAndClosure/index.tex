@@ -255,14 +255,12 @@ For every \(t\geq0\),
 
 \begin{proof}
 Assume that \(T_*<\infty\).
-Equation \eqref{eq:EndpointCriterionFromLowRectangle} bounds \(u\) in the exact
-\(L^3\) endpoint norm that \eqref{eq:FiniteTimeLThreeEscape} forces to diverge.  This
-contradiction rules out a finite maximal time.
-
-The compatible traces also give \(u_*\in H^\infty\); the differentiated recurrence
-determines its normalized pressure-complete endpoint jet.  Appendix~\ref{app:CompatibleTerminalAssembly}
-proves that these traces agree and that local uniqueness glues the restarted solution
-to the original classical history.
+\Cref{thm:BodyWholeTerminalRectangleTheorem} supplies every finite pressure-complete rectangle on \(I_*\).
+Equation \eqref{eq:DatumSpecificCompatibleIntersection} assembles their shared coordinates into \(\cI[u_0]\), and \Cref{prop:BodyCompatibleProjectiveAssembly} gives its complete spatial row \eqref{eq:CompleteSpatialRow}.
+\Cref{lem:CompleteSpatialRowEndpoint} carries the same velocity to a common endpoint \(u_*\in\Hinfty\), while \Cref{prop:PressureCompleteEndpointJet} carries every temporal row and its normalized pressure response to that terminal face.
+Starting from \(u_*\), \Cref{lem:SmoothLocalRestart} produces a smooth solution on the right of \(T_*\).
+Both one-sided jets are generated from \(u_*\) by the same pressure-normalized recurrences, and strong uniqueness joins the two pieces into one classical history beyond \(T_*\).
+This contradicts maximality.
 
 Hence \(T_*=\infty\), which proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement \eqref{eq:GlobalTimeTarget}.
 The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite interval of the global solution and gives \eqref{eq:GlobalEnergyConclusion}, completing \eqref{eq:WholeSpaceRegularityTarget}.

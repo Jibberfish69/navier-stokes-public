@@ -64,13 +64,13 @@ If \(X(a,t)\) is the trajectory beginning at the material label \(a\), then
   \qquad
   X(a,0)=a,
 \end{equation}
-and
+The velocity seen by that moving particle changes according to
 \begin{equation}\label{eq:MaterialAccelerationBody}
   \frac d{dt}u(X(a,t),t)
   =\partial_tu+(u\cdot\nabla)u
   =:D_tu.
 \end{equation}
-Along that trajectory, the equation gives
+The equation gives that material acceleration as
 \begin{equation}\label{eq:MaterialAccelerationEquationBody}
   D_tu=-\nabla p+\nu\Delta u.
 \end{equation}
@@ -90,9 +90,10 @@ Even a spatial derivative changes when it passes through \(D_t\):
   [D_t,\partial_\ell]f
   =-(\partial_\ell u\cdot\nabla)f.
 \]
-Powers of \(D_t\) continually mix the two derivative directions.
+The material and fixed-position descriptions are two readings of the same history.
+The particle view records what the moving fluid experiences; the fixed-position rows keep temporal order separate from the spatial derivatives entering that experience.
 
-To keep temporal and spatial indices separate, return to a fixed spatial point.
+At a fixed spatial point, the first row is
 At order zero,
 \begin{equation}\label{eq:BodyFirstTemporalVelocityRow}
   V_1+(V_0\cdot\nabla)V_0+\nabla Q_0
@@ -131,4 +132,5 @@ Time differentiation gives
   =R_iR_j\sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
 \end{equation}
 Each temporal row already contains the spatial direction: \(\Delta V_n\) contributes two spatial derivatives, while pressure is rebuilt from products of the same rows.
-The mixed jet comes from differentiating these equations in space.
+The temporal index alone cannot say which spatial derivative inside that response is being used.
+The recurrence has forced a second coordinate, obtained by differentiating these equations in space.

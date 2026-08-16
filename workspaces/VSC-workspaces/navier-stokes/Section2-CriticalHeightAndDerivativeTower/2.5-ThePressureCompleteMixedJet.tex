@@ -1,7 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The pressure-complete mixed jet}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-Keep temporal order and spatial order independent.
+Give the spatial direction its own index.
 For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
 \begin{equation}\label{eq:BodyMixedJetDefinition}
   J_{n,\alpha}
@@ -10,8 +10,8 @@ For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
   \Pi_{n,\alpha}
   :=\partial_t^n\partial_x^\alpha p.
 \end{equation}
-The two indices remain independent.
-Increasing \(n\) follows the fixed-coordinate response in time, while increasing \(|\alpha|\) resolves finer spatial structure inside that chosen response.
+Here \(n\) follows the fixed-coordinate response in time, while \(\alpha\) identifies one spatial derivative inside that response.
+Neither index can replace the other.
 
 Apply \(\partial_x^\alpha\) to the temporal recurrence \eqref{eq:BodyTemporalVelocityRecurrence}.
 For \(\beta\leq\alpha\), write
@@ -58,5 +58,6 @@ together with the recurrences and divergence relations above.
 This is one family containing every finite derivative of one pair \((u,p)\).
 At \(t=0\), those recurrences determine every finite row from \(u_0\).
 
-The indices now locate every finite derivative.
+The mixed jet has separated the two derivative directions without separating the history.
+Its indices now locate every finite derivative.
 The critical-height balance tells us which spatial Sobolev energies viscosity supplies as \(t\uparrow T_*\), so return to that balance and differentiate it in time.

@@ -28,7 +28,12 @@ For the unforced equation, the velocity and pressure satisfy
 \qquad\text{on }\R^3.
 \end{equation}
 The nonlinear term transports velocity through its own field, pressure enforces the divergence constraint across that field, and viscosity diffuses spatial variation.
-We take the pressure with its decaying whole-space normalization.
+Taking the divergence of \eqref{eq:NavierStokesSystem} gives
+\begin{equation}\label{eq:OpeningPressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j).
+\end{equation}
+The decaying whole-space normalization fixes the pressure once the velocity is fixed.
+Transport, incompressibility, pressure, and viscosity consequently determine one velocity--pressure history from \(u_0\).
 The target is the existence of this one pair for every \(t\geq0\), with
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
@@ -43,3 +48,4 @@ We will prove that no such finite endpoint exists:
 \begin{equation}\label{eq:GlobalTimeTarget}
   T_*=\infty.
 \end{equation}
+The proof follows this same history toward a hypothetical finite endpoint and asks what it would have to do before the remaining time runs out.
