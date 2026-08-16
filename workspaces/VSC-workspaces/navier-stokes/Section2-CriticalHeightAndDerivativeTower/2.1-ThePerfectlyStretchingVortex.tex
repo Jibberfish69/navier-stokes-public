@@ -1,20 +1,37 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The perfectly stretching vortex}\label{sub:ThePerfectlyStretchingVortex}
 
-Take one smooth vortex and stretch it along its axis.
-The fluid is incompressible, so the lengthening contracts the cross-section at the same time.
-The rotation is packed into a smaller radius, the winding tightens, and the velocity changes more sharply across the core.
-The next stretch begins from that thinner vortex, with the steeper variation already in place.
+Take one smooth vortex and stretch it along its axis.  Incompressibility will
+not let the vortex gain length without losing cross-sectional area, so the core
+narrows as it lengthens.  Its rotation is then carried through a smaller radius;
+the winding tightens and the velocity changes more sharply across the core.
+The next stretch does not begin from the original vortex.  It inherits the
+thinner radius and the steeper variation left by the one before it.
 
-Now assume that its axis stays aligned with the expanding strain direction and that the core remains centred and coherent from one stretch to the next.
-This is the perfectly stretching vortex.
-It is a thought experiment that isolates the geometry most favourable to repeated concentration; the equations below carry every exact implication.
+Keep the axis aligned with the expanding direction of the strain and keep the
+core centred as this process repeats.  This idealized motion is the perfectly
+stretching vortex: every geometric advantage is given to stretching, and none
+is lost to wobble or misalignment.  The picture tells us what to investigate;
+only the equations will decide what the motion can actually sustain.
 
-Before going any further, we have to decide what the word \emph{core} is following.
-It may contain the same material particles throughout the narrowing, or it may be a visible region that recruits new particles while earlier ones leave.
-The first reading concerns the separation of fixed fluid labels.
-The second concerns concentration in the complete velocity field.
-The drawing is identical in both readings, but the mathematical claims differ.
+Now suppose, for contradiction, that the maximal classical solution has a
+finite last time.  Write
+\[
+  T_*<\infty,
+  \qquad
+  I_*:=(0,T_*).
+\]
+The solution is smooth on every closed interval contained in \(I_*\).  Whatever
+prevents continuation must therefore occur in the approach
+\(t\uparrow T_*\), precisely where the repeated narrowing would have to
+accumulate.
+
+The word \emph{core} hides a choice that cannot be postponed.  It may follow
+the same material particles throughout the narrowing, or it may name a visible
+region that recruits new particles as earlier ones leave.  In the first reading
+we must track the separation of fixed fluid labels.  In the second we must
+track concentration in the complete velocity field.  The same drawing suggests
+both stories, but they make different mathematical claims.
 
 \begin{center}
 \captionsetup{hypcap=false}
@@ -62,22 +79,31 @@ Taking the curl of \eqref{eq:NavierStokesSystem} and using incompressibility giv
   :=\partial_t\omega+(u\cdot\nabla)\omega
   =S\omega+\nu\Delta\omega.
 \end{equation}
-The strain term \(S\omega\) amplifies vorticity when the vortex aligns with an expanding strain direction.
-Incompressibility supplies the transverse contraction.
-The Laplacian acts on the curvature created as the core narrows.
-Curl removes pressure from this equation, while pressure continues to determine the velocity and strain needed to keep the motion divergence free.
-Stretching, narrowing, pressure response, and diffusion all happen together in this one vortex.
+The alignment in our thought experiment makes \(S\omega\) amplify the
+vorticity.  Incompressibility supplies the transverse contraction, while the
+Laplacian acts on the sharper curvature created by that contraction.  Taking
+the curl has removed pressure from the displayed equation, not from the fluid:
+pressure still helps determine the divergence-free velocity and strain that do
+the stretching.  Amplification and diffusion are therefore acting on the same
+narrowing vortex at the same time.
 
-The drawing makes concentration visible, but a finite \(T_*\) is a statement about the whole solution.
-Escauriaza, Seregin, and \v{S}ver\'ak proved that a bounded \(L^\infty_tL^3_x\) norm carries the solution regularly through the endpoint \parencite{EscauriazaSereginSverak2003}.
-Since \(T_*\) is assumed finite and maximal,
+The drawing is local, whereas a finite maximal time concerns the whole
+solution.  The bridge is the endpoint theorem of Escauriaza, Seregin, and
+\v{S}ver\'ak: a bounded \(L^\infty_tL^3_x\) norm carries a solution regularly
+through the endpoint \parencite{EscauriazaSereginSverak2003}.  Our assumed
+finite maximal time must therefore force
 \begin{equation}\label{eq:FiniteTimeLThreeEscape}
   T_*<\infty
   \quad\Longrightarrow\quad
   \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
 \end{equation}
-Here velocity blow-up means that the global \(L^3\) norm escapes every finite bound.
-The criterion is global and leaves the pointwise amplitude at the centre drawn in \cref{fig:BalancedVortexCriticalRoute} open.
+This is the precise velocity escape used in the paper: the global \(L^3\)
+norm exceeds every finite bound.  It does not say that the pointwise velocity
+must diverge at the centre drawn in
+\cref{fig:BalancedVortexCriticalRoute}; the criterion deliberately leaves that
+location open.
 
-The radius in the drawing can shrink even when we have only rescaled the same profile.
-To separate a change of scale from genuine growth, we need a scale-invariant quantity whose divergence follows from \eqref{eq:FiniteTimeLThreeEscape}.
+A shrinking radius by itself proves too little, because a rescaled copy of one
+fixed profile also looks thinner.  We need a quantity that does not change
+under that rescaling but is nevertheless forced to grow along the actual
+history.  That quantity is the critical height.
