@@ -87,8 +87,9 @@ For each finite \(N,M\),
 \tag{PP.7}
 \]
 
-No common analytic radius or infinite norm sum is required. If \(N'\le N\) and
-\(M'\le M\), restriction forgets higher temporal
+The construction uses this compatible family of finite coordinates rather than a
+common analytic radius or an infinite norm sum. If \(N'\le N\) and \(M'\le M\),
+restriction forgets higher temporal
 coordinates and uses the continuous Sobolev embeddings, with
 
 \[
