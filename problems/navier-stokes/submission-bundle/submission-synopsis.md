@@ -1,26 +1,32 @@
 # Submission Synopsis
 
-This synopsis records the current CM-contrapositive route, not a closed proof of
-Navier--Stokes global regularity. The checked open Gold ingredient is the
-signed critical-height sign-persistence or peak-height theorem
-for the original parent packet before child clipping.
+The Silver proof keeps one smooth-data, fixed-positive-viscosity, no-reset
+Navier--Stokes fluid history as its object. Full VPI participation means the
+same history retains transport, simultaneous nonlocal pressure response,
+viscosity, incompressibility, material ancestry, and coherent field
+participation; it is stronger than mere distributional solvability.
 
-The proof has four steps.
+The exhaustive departure inventory proves
 
-First, follow the ordinary positive Navier--Stokes proof program until it reaches
-a genuine same-solution obstruction. Split that obstruction into a pass branch
-and a fail branch.
+```text
+not Smooth(Q) => not Member(Q) => not VPIParticipation(Q).
+```
 
-Second, read the pass branch as a lawful `Member(Q)` continuation branch. The
-member branch supplies the usual smooth continuation readout.
+Dead, Blown, Jump, Part failure, Field failure, and any conditionally selected
+other PDE are presentations of that one loss of participation. Euler is used
+only forward from the original Navier--Stokes history when the limiting
+circumstance has zero effective viscosity and no Reynolds, forcing, pressure,
+incompressibility, or ancestry defect. Pack is outside CM and is only
+Field-window evidence.
 
-Third, admit the fail branch to the same-fluid CM terminal participation-field tree. The
-finite terminal witness is exhausted as loss of Pack, loss of Part, or loss of
-every positive Field scale.
+Therefore, directly by contraposition,
 
-Fourth, embed the derived Part/Field failure as `Exit(Q):=not Member(Q)` and apply the
-no-third-branch law. The terminal nonsmooth branch has no legal in-class
-continuation status, while the pass branch continues smoothly.
+```text
+VPIParticipation(Q) => Member(Q) => Smooth(Q).
+```
 
-The route remains blocked until that signed-height sign-persistence or peak-height theorem is proved
-and the downstream CM branch argument is regenerated from the proved input.
+This is the closed Silver proof of smoothness. The signed critical-height
+sign-persistence or peak-height theorem remains open only in the separate Gold
+forward-positive research lane; it is neither a premise nor a blocker for
+Silver. Reader-facing PDF and export readiness are separate artifact audits and
+are not asserted by this synopsis.

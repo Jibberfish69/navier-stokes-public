@@ -1,5 +1,13 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: conditional-endpoint-closure-complete-producer-unproved
+  mpp_status: not-solved
+  active_direct_program: thomas-one-fluid-reversible-intersection
+  active_direct_boundary: whole-terminal-producer-unproved
+  conditional_chain: whole-terminal-producer-to-intersection-to-H_x-infinity-endpoint-to-restart
+  precedence: Historical mathematics is preserved at its proved scope; generated status cannot discharge the whole-terminal producer.
 problem_id: navier-stokes
 display_name: Navier-Stokes Global Regularity
 generated_at: '2026-06-07T17:29:01Z'
