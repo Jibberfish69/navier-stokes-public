@@ -261,7 +261,9 @@ The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite interval
 
 \subsection{A finite sum across infinitely many scales}\label{sub:AFiniteSumAcrossScales}
 
-The rectangle \(\cR_{0,2}\) controls one finite Sobolev row, yet that row sums the vorticity carried by every dyadic scale.
+Fix any finite \(T>0\).  The global solution is classical on \([0,T]\), so its finite
+block \(\cR_{0,2}[u_0;T]\) controls one Sobolev row strongly enough to sum the
+vorticity carried by every dyadic scale.
 Let \((\Delta_j)_{j\geq-1}\) be an inhomogeneous Littlewood--Paley decomposition \parencite[Chapter~2]{BahouriCheminDanchin2011}.
 For \(j\geq0\), the block \(\Delta_j\omega\) is concentrated near wavelength \(2^{-j}\), and \(\norm{\Delta_j\omega}_\infty\) measures the strongest rotation present in that band.
 Define
@@ -289,37 +291,36 @@ The low block \(\Delta_{-1}\omega\) is controlled by \(\norm{\omega}_2\), so
   \norm{\omega}_{B^0_{\infty,1}}
   \leq C\norm{u}_{H^3}.
 \end{equation}
-Since \(\cR_{0,2}\) gives \(u\in L^2(I_*;H^3)\), Cauchy--Schwarz in time yields
+Since \(\cR_{0,2}[u_0;T]\) gives \(u\in L^2(0,T;H^3)\), Cauchy--Schwarz in time yields
 \begin{equation}\label{eq:FiniteDyadicVorticityAction}
   \sum_{j\geq-1}
-  \int_0^{T_*}\norm{\Delta_j\omega(t)}_\infty\,dt
-  =\int_0^{T_*}\norm{\omega(t)}_{B^0_{\infty,1}}\,dt
+  \int_0^{T}\norm{\Delta_j\omega(t)}_\infty\,dt
+  =\int_0^{T}\norm{\omega(t)}_{B^0_{\infty,1}}\,dt
   <\infty.
 \end{equation}
 What has been made finite is the sum across all shells, not the number of shells that
 may become active.  A recruited core can hand activity from one scale to the next, but
 the time-integrated shell suprema cannot build a nonsummable cascade before a finite
-time.  The same low rectangle supplies \(L^2_tH^3_x\) for this shell action and
-\(C_tH^2_x\) for the uniform critical-tail estimate
-\eqref{eq:BodyUniformUltravioletVanishing}.  This is still a finite-order consequence:
+time.  On every chosen \([0,T]\), the same low rectangle supplies \(L^2_tH^3_x\) for
+this shell action and \(C_tH^2_x\) for uniform decay of the critical Fourier tail.
+This is still a finite-order consequence:
 it does not assert an analytic radius or a weighted sum over every derivative order.
 
 \subsection{Three classical criteria inside one low rectangle}\label{sub:ClassicalCriteriaInsideFiniteRectangles}
 
-The \(L^3\) endpoint first entered as a necessary escape.
-If \(T_*\) were finite, \eqref{eq:FiniteTimeLThreeEscape} would force \(\norm{u(t)}_3\) to become unbounded along the terminal approach.
-The rectangle \(\cR_{0,1}\) returns to that same norm from the other direction.
-Its adjacent pair gives \(u\in C([0,T_*];H^1)\), and hence
+The \(L^3\) endpoint first entered as the escape forced by a finite last time.  Now fix
+any finite \(T>0\).  The block \(\cR_{0,1}[u_0;T]\) returns to that same norm from the
+other direction.  Its adjacent pair gives \(u\in C([0,T];H^1)\), and hence
 \[
-  \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
+  \sup_{0\leq t\leq T}\norm{u(t)}_3<\infty.
 \]
 Thus \(\cR_{0,1}\) supplies the hypothesis of the Escauriaza--Seregin--\v{S}ver\'ak endpoint continuation theorem \parencite{EscauriazaSereginSverak2003}.
 The norm that defined the singular threat is already bounded by the first critical rectangle.
 
 The upper edge of the same rectangle gives a different historical reading:
 \[
-  u\in L^2(I_*;H^2)
-  \hookrightarrow L^2(I_*;L^\infty).
+  u\in L^2(0,T;H^2)
+  \hookrightarrow L^2(0,T;L^\infty).
 \]
 This is the endpoint pair \((p,q)=(2,\infty)\) on the Ladyzhenskaya--Prodi--Serrin line \(2/p+3/q=1\) \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
 The endpoint theorem and the Serrin condition do different jobs for the reader.  The
@@ -327,10 +328,10 @@ first meets the exact \(L^3\) norm that defined the terminal threat.  The second
 that the same rectangle also lands on the classical scale-balanced integrability line.
 
 There is a third reading closer to the vortex itself.  From
-\(u\in L^2(I_*;H^2)\),
+\(u\in L^2(0,T;H^2)\),
 \[
-  \nabla u\in L^2(I_*;H^1)
-  \hookrightarrow L^2(I_*;L^3),
+  \nabla u\in L^2(0,T;H^1)
+  \hookrightarrow L^2(0,T;L^3),
 \]
 which supplies the gradient criterion of Beir\~ao da Veiga
 \parencite{BeiraoDaVeiga1995}.  The rectangle that blocks velocity escape also
