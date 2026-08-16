@@ -85,47 +85,47 @@ Bibliography                                                                    
 
 
                                                    ii
-1     The Regularity Problem
+1    The Regularity Problem
 Fefferman’s whole-space problem fixes ν > 0, starts from a smooth divergence-free velocity
 u0 on R3 whose derivatives decay faster than every power at infinity, and asks whether the
 Navier–Stokes evolution from that datum stays smooth for all time (Fefferman 2000). In the
 notation used here,
-                               n                                o
-                      Sσ := a ∈ S (R3 ; R3 ) : ∇ · a = 0 ,             u0 ∈ Sσ ,
+                              n                                o
+                     Sσ := a ∈ S (R3 ; R3 ) : ∇ · a = 0 ,             u0 ∈ Sσ ,
 
 where S is the Schwartz class. For the unforced equation, the velocity and pressure satisfy
 
-                           ∂t u + (u · ∇)u + ∇p = ν∆u,
-                                           ∇ · u = 0,               on R3 .                 (1.1)
-                                          u(·, 0) = u0
+                          ∂t u + (u · ∇)u + ∇p = ν∆u,
+                                          ∇ · u = 0,               on R3 .               (1.1)
+                                         u(·, 0) = u0
 
 The nonlinear term transports velocity through its own field, pressure enforces the divergence
-constraint across that field, and viscosity diffuses spatial variation. We take the pressure with
-its decaying whole-space normalization. The problem is to prove that this one pair exists for
+constraint across that field, and viscosity diffuses spatial variation. We take the pressure
+with its decaying whole-space normalization. The target is the existence of this one pair for
 every t ≥ 0, with
-                                                          Z
-                               ∞    3
-                    u, p ∈ C       R × [0, ∞) ,       sup        |u(x, t)|2 dx < ∞.         (1.2)
-                                                      t≥0   R3
+                                                         Z
+                              ∞    3
+                   u, p ∈ C       R × [0, ∞) ,       sup        |u(x, t)|2 dx < ∞.       (1.2)
+                                                     t≥0   R3
 
 
    Classical local theory gives a unique classical solution on a nonzero interval (Fujita and
 Kato 1964; Kato 1984). Let [0, T∗ ), with 0 < T∗ ≤ ∞, be its maximal classical interval. The
 global conclusion above is exactly the statement
 
-                                             T∗ = ∞.                                        (1.3)
+                                            T∗ = ∞.                                      (1.3)
 
 
 
 
-                                                  1
+                                                 1
 2     Critical Height and the Derivative Tower
 Assume the opposite. Let the maximal classical history have a finite last time and write
 
                                   T∗ < ∞,      I∗ := (0, T∗ ).
 
-The solution is smooth on every closed subinterval of I∗ , so every possible loss of smoothness
-is confined to the approach t ↑ T∗ . Begin with a vortex that remains in the geometry most
+The history remains smooth on every closed subinterval of I∗ ; any breakdown has been pushed
+entirely into the approach t ↑ T∗ . Now take a vortex that remains in the geometry most
 favourable to stretching.
 
 2.1    The perfectly stretching vortex
