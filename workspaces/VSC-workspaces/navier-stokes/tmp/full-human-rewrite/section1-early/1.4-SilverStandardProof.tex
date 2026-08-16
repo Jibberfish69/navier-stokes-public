@@ -1,0 +1,45 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 1.4 Silver Standard Proof
+% ============================================================
+\subsection{Silver Standard Proof}\label{sub:SilverStandardProof}
+
+Finding an estimate strong enough to finish the Gold-standard proof is genuinely difficult.
+No one has closed that estimate for arbitrary smooth three-dimensional data, and once you dig your teeth into the problem, it becomes tempting to look for another way of proving smoothness.
+
+Assume, for a moment, that the problem has already been solved by the Gold-standard method.
+
+That would mean every fluid produced by the original Navier--Stokes problem remains smooth.
+Its velocity, pressure, viscosity, incompressibility, and nonlinear transport would all remain in force throughout the evolution.
+Now imagine a blow-up scenario, or any other outcome that breaks smoothness.
+Under the Gold assumption, that outcome cannot be reached while every requirement of the original problem remains intact.
+At least one requirement must have been lost, ignored, or replaced along the way.
+The resulting nonsmooth object would no longer describe the same fluid that began from \(u_0\).
+
+So in short, the idea becomes:
+
+If the original Navier--Stokes equations always produce a smooth fluid, then a nonsmooth outcome cannot be a result of those same equations.
+
+In symbols,
+\[
+  \text{Navier--Stokes}
+  \Longrightarrow
+  \text{smooth}
+\]
+has the contrapositive
+\[
+  \text{not smooth}
+  \Longrightarrow
+  \text{not Navier--Stokes}.
+\]
+
+The Gold assumption revealed the second implication.
+A Silver proof has to establish it directly by showing that every alleged nonsmooth outcome loses at least one requirement of the original fluid.
+That is why the Silver Standard is a proof by contrapositive.
+
+The beauty of the Silver method is the question it lets us ask: is this nonsmooth object still Navier--Stokes?
+Gold searches for the estimate that keeps the solution smooth through every finite time.
+Silver tests every nonsmooth proposal against the properties that define the original fluid.
+Its advantage is a simpler question.
+Its difficulty is the number of possible nonsmooth outcomes that question appears to create.
+A single principle that reaches every case would make the Silver method usable.
