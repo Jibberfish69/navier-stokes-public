@@ -1,0 +1,88 @@
+{
+  "task_id": "task-415b609bcdc201a0",
+  "task_sha256": "68531a90f58eadc2f200b24657f6ba6ec7bb3318792fb1cb4f545f05646a82de",
+  "prediction_sha256": "9221c4b8f8410ac7caf7c1d77ffcd911b33035dd1904c89a21fdfca9dedd345b",
+  "candidate_sha256": "936451e9a6b0aa13588993210cb69465095179744bc4ed13e54ef2dfc38bf351",
+  "selected_move_id": "follow-one-parcel-to-the-tower",
+  "producer_id": "codex-root-section17-rewrite",
+  "evaluator_id": "section17-math-reader-and-render-audits",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate replaces the failed Section 1.7 body and preserves the fixed heading, label, one-fluid object, and settled proof custody."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The live manuscript now contains the requested parcel-to-acceleration-to-jerk movement and a compiled PDF rather than an audit or proposal."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The opening spends Section 1.6's hidden-higher-failure pressure and the close supplies the tower directly to Section 1.8's endpoint tests."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The kinematic example creates the need for the actual momentum equation, and the first two Eulerian rows create the need for the mixed tower."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "The only new example is explicitly kinematic and confined to distinguishing finite velocity and acceleration from divergent jerk."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The section now explains why a finite carried velocity leaves higher regularity unsettled and why pressure and spatial response remain coupled."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The exact section body was rewritten, the stale Section 2.3 handoff was corrected, and source, mathematics, compilation, and rendered pages were checked."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected movement follows one parcel and defers the full recurrence, pressure hierarchy, and spatial-row bookkeeping to their later formal role."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each equation answers a pressure created by the preceding physical consequence rather than appearing as a survey item."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Velocity, acceleration, jerk, material versus Eulerian differentiation, and the mixed tower are developed in causal order with a bounded endpoint handoff."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose uses direct physical subjects, ordinary mathematical language, one sentence per source line, and no formula-management dividers or prohibited contrast scaffolds."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The candidate states that the example is not a constructed Navier--Stokes solution, permits lawful zero responses, and avoids treating a local failed rung as a complete continuation criterion."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The candidate correctly distinguishes material derivatives along a trajectory from fixed-coordinate derivatives and states the commutation used only on the classical interval."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The candidate realizes the user-owned thought movement and uses the Silver sample only as bounded movement evidence; Thomas's voice approval is not claimed."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The reader moves from a hidden finite-time failure through the same equation into one simultaneous derivative tower, then immediately into the three endpoint requirements."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The section connects the parcel's carried responses to the Eulerian mixed jet without importing Section 2's systematic proof machinery."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate uses only live manuscript content and the user-owned movement; no quarantined sample phrasing was copied."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Mathematical, structural, and visual properties were checked; final voice fidelity remains Thomas's judgment."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The same material parcel and velocity field remain the subject throughout; X, U, D_t, V_n, Q_n, and J-infinity are defined at first use and each relation carries the reader into the next object."
+    }
+  },
+  "verdict": "pass"
+}
