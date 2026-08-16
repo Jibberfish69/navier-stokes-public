@@ -23,8 +23,8 @@ But \eqref{eq:FiniteTimeLThreeEscape} said that a finite maximal time forces thi
 norm to escape.  The lowest critical rectangle already puts the singularity and the
 estimate on the same velocity, in the same norm, over the same terminal interval.
 
-Now read an arbitrary coordinate.  Fix (r,m\in\Nzero), choose (N\geq r), and
-take the rectangle of middle height (M=m).  Its adjacent rows give
+Now read an arbitrary coordinate.  Fix \(r,m\in\Nzero\), choose \(N\geq r\), and
+take the rectangle of middle height \(M=m\).  Its adjacent rows give
 \[
   V_r\in L^2(I_*;H^{m+1}),
   \qquad
@@ -37,7 +37,7 @@ The same trace calculation gives
   \norm{\partial_t^ru(t)}_{H^m}
   <\infty.}
 \end{equation}
-Nothing in this step couples (r) to (m).  We may choose any finite temporal
+Nothing in this step couples \(r\) to \(m\).  We may choose any finite temporal
 response and then ask for any finite spatial height inside that same row.
 
 That one statement generates the ordinary finite-order estimates.
@@ -63,15 +63,15 @@ Since \(T_*\) is finite under the standing contradiction hypothesis,
 \end{equation}
 Each requested norm is a finite projection of the intersection and has its own finite
 constant.  We are not summing all derivative orders or claiming one analytic radius.
-What matters here is simpler: for each fixed (r), the singularity asks (V_r) to
-escape in (L^3), while the coordinate ((r,1)) places that same (V_r) continuously
-in (H^1\hookrightarrow L^3).  The two independent directions of the grid have met
+What matters here is simpler: for each fixed \(r\), the singularity asks \(V_r\) to
+escape in \(L^3\), while the coordinate \((r,1)\) places that same \(V_r\) continuously
+in \(H^1\hookrightarrow L^3\).  The two independent directions of the grid have met
 inside one response row, and they give opposite conclusions.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
-The same (H^1) trace does more than block the (L^3) escape.  Since
-(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2), it puts a finite roof over the entire
+The same \(H^1\) trace does more than block the \(L^3\) escape.  Since
+\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), it puts a finite roof over the entire
 first-passage construction:
 \begin{equation}\label{eq:BodyCriticalHeightRoof}
   H_{\max}
@@ -124,13 +124,13 @@ shows that the signed critical production is integrable on the whole candidate i
 The height can rise and fall sharply, but it cannot accumulate an infinite net rise before \(T_*\).
 
 The vortex sees the same rectangle in a more physical norm.  In three dimensions,
-(H^3\hookrightarrow W^{1,\infty}), and hence
+\(H^3\hookrightarrow W^{1,\infty}\), and hence
 \[
   \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt
   \leq
   T_*^{1/2}\norm{u}_{L^2(I_*;H^3)}<\infty.
 \]
-Since (\omega=\nabla\times u) and (S=\tfrac12(\nabla u+\nabla u^{\mathsf T})),
+Since \(\omega=\nabla\times u\) and \(S=\tfrac12(\nabla u+\nabla u^{\mathsf T})\),
 we obtain the full finite stretching action
 \begin{equation}\label{eq:FiniteLipschitzVorticityStrainAction}
   \int_0^{T_*}
@@ -166,7 +166,7 @@ The finite action in \eqref{eq:FiniteLipschitzVorticityStrainAction} gives
 for every \(t\leq T_*\).
 A material core begins with distinct particles.  Inequality
 \eqref{eq:BodyMaterialCoreLowerBound} says those particles are still distinct at
-(T_*).  The drawn radius may shrink, but it cannot represent the collapse of that
+\(T_*\).  The drawn radius may shrink, but it cannot represent the collapse of that
 same labelled core to one point.
 
 Keep this first reading and now put the vortex exactly on its centreline.
@@ -188,10 +188,9 @@ The constant vector \(u(t,x_c)\) integrates to zero around the closed curve, so
   \longrightarrow0
   \qquad(r\downarrow0).
 \end{equation}
-The relative tangential speed is \(O(r)\), and the circulation is \(O(r^2)\).
 Thus perfect centring changes neither conclusion.  If the radius tends to zero while
-the velocity remains Lipschitz, the relative tangential speed is (O(r)) and the
-circulation is (O(r^2)); no nonzero circulation survives at the limiting point.
+the velocity remains Lipschitz, the relative tangential speed is \(O(r)\) and the
+circulation is \(O(r^2)\); no nonzero circulation survives at the limiting point.
 
 The second reading lets the visible core recruit new material as earlier labels leave
 it.
@@ -209,7 +208,8 @@ Then
   \frac12K^{1-2s}\norm{u(t)}_{\dot H^s}^2.
 \end{equation}
 Choose an integer \(m\geq s\).
-The coordinate \(M_{0,m}<\infty\) and the continuous embedding \(H^m\hookrightarrow\dot H^s\) give
+Equation \eqref{eq:BodyUniformMixedSobolevCoordinate} with \(r=0\), together with
+\(H^m\hookrightarrow\dot H^s\), gives
 \begin{equation}\label{eq:BodyUniformUltravioletVanishing}
   \lim_{K\to\infty}
   \sup_{0\leq t\leq T_*}H_{>K}(t)=0.
@@ -220,7 +220,7 @@ This is why the two readings had to be separated.  Particle separation closes th
 persistent core, while the Fourier tail closes the recruited one.  Neither estimate
 needs wobble, fragmentation, buckling, or lost symmetry to rescue the flow.  Even the
 perfectly balanced stretching picture cannot carry singular critical content into zero
-scale at (T_*).
+scale at \(T_*\).
 
 \subsection{No finite singular time}\label{sub:NoFiniteSingularTime}
 
@@ -241,11 +241,11 @@ For every \(t\geq0\),
 
 \begin{proof}
 Assume that \(T_*<\infty\).
-Equation \eqref{eq:EndpointCriterionFromLowRectangle} bounds (u) in the exact
-(L^3) endpoint norm that \eqref{eq:FiniteTimeLThreeEscape} forces to diverge.  This
+Equation \eqref{eq:EndpointCriterionFromLowRectangle} bounds \(u\) in the exact
+\(L^3\) endpoint norm that \eqref{eq:FiniteTimeLThreeEscape} forces to diverge.  This
 contradiction rules out a finite maximal time.
 
-The full intersection also produces a common (H^\infty) terminal velocity and a
+The full intersection also produces a common \(H^\infty\) terminal velocity and a
 pressure-complete endpoint jet, from which local uniqueness restarts the same classical
 history.  Appendix~\ref{app:CompatibleTerminalAssembly} carries that stronger endpoint
 construction, including trace compatibility and smooth gluing.  It reaches the same
@@ -299,8 +299,8 @@ Since \(\cR_{0,2}\) gives \(u\in L^2(I_*;H^3)\), Cauchy--Schwarz in time yields
 What has been made finite is the sum across all shells, not the number of shells that
 may become active.  A recruited core can hand activity from one scale to the next, but
 the time-integrated shell suprema cannot build a nonsummable cascade before a finite
-time.  The same low rectangle supplies (L^2_tH^3_x) for this shell action and
-(C_tH^2_x) for the uniform critical-tail estimate
+time.  The same low rectangle supplies \(L^2_tH^3_x\) for this shell action and
+\(C_tH^2_x\) for the uniform critical-tail estimate
 \eqref{eq:BodyUniformUltravioletVanishing}.  This is still a finite-order consequence:
 it does not assert an analytic radius or a weighted sum over every derivative order.
 
@@ -323,11 +323,11 @@ The upper edge of the same rectangle gives a different historical reading:
 \]
 This is the endpoint pair \((p,q)=(2,\infty)\) on the Ladyzhenskaya--Prodi--Serrin line \(2/p+3/q=1\) \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
 The endpoint theorem and the Serrin condition do different jobs for the reader.  The
-first meets the exact (L^3) norm that defined the terminal threat.  The second shows
+first meets the exact \(L^3\) norm that defined the terminal threat.  The second shows
 that the same rectangle also lands on the classical scale-balanced integrability line.
 
 There is a third reading closer to the vortex itself.  From
-(u\in L^2(I_*;H^2)),
+\(u\in L^2(I_*;H^2)\),
 \[
   \nabla u\in L^2(I_*;H^1)
   \hookrightarrow L^2(I_*;L^3),
@@ -370,8 +370,8 @@ Their temporal recurrences are
   \label{eq:EulerTemporalRecurrenceComparison}
 \end{align}
 Both equations retain the differentiated transport and the nonlocal pressure response.
-Only Navier--Stokes keeps the term (\nu\Delta V_n^{\mathrm{NS}}), the linear path
-from temporal row (n) to two additional spatial derivatives of that same response.
+Only Navier--Stokes keeps the term \(\nu\Delta V_n^{\mathrm{NS}}\), the linear path
+from temporal row \(n\) to two additional spatial derivatives of that same response.
 
 For the two separate histories, set
 \[
