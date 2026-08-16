@@ -49,10 +49,19 @@ It is the hardest clean version of the stretching picture: the geometry is kept 
 \label{fig:BalancedVortexCriticalRoute}
 \end{center}
 
-The competition inside the drawing is the vorticity equation \eqref{eq:VorticityEquation}:
+Set
 \[
-  D_t\omega=S\omega+\nu\Delta\omega.
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
 \]
+Taking the curl of \eqref{eq:NavierStokesSystem} and using incompressibility
+gives the exact competition inside the drawing:
+\begin{equation}\label{eq:VorticityEquation}
+  D_t\omega
+  :=\partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
 The term \(S\omega\) can amplify vorticity aligned with an expanding strain direction.
 The Laplacian acts on the spatial curvature created by the tightening.
 Pressure does not appear after curl is taken, but it still shapes the velocity and strain that enforce incompressibility around the core.

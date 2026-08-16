@@ -28,6 +28,19 @@ Narrowing gives neither nonlinear deformation nor viscous smoothing a scaling ad
 They meet again at each finer scale with the same relative homogeneity.
 This is the critical balance behind the perfectly centred picture.
 
+The basic energy law controls the same history at a lower spatial level.
+Pairing \eqref{eq:NavierStokesSystem} with \(u\), incompressibility removes
+transport and pressure, and integration by parts turns viscosity into
+dissipation:
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+Kinetic energy stays finite, and one spatial derivative is square-integrable
+after integration in time. Neither bound controls the gradient at each
+instant.
+
 The familiar norms move in different directions under the same rescaling:
 \begin{equation}\label{eq:BodyScalingNormComparison}
   \begin{aligned}
