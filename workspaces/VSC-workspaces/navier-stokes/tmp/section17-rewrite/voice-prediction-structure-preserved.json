@@ -1,0 +1,291 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "mathematical monograph exposition",
+      "reason": "The live target is a TeX subsection in the human proof manuscript."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "follow one material parcel from finite velocity through acceleration and jerk, then make each settled temporal, pressure, spatial, and mixed row arise as a consequence of the same equation",
+      "reason": "This resolves the user's purpose from the live section, surrounding reader state, and recorded user-owned movement."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional incompressible Navier--Stokes regularity",
+      "reason": "The governing manuscript and equations fix the domain."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "mathematically literate reader approaching the proof program",
+      "reason": "The surrounding introduction builds the reader into later formal sections."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "realize the settled full derivative-tower structure as a causal discovery rather than a static catalogue",
+      "reason": "The user's correction identifies failure of purpose and voice, and the first divergence is the shift from jerk to catalogue."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "The reader has seen a visible Euler velocity jump and knows that a smoother failure can hide above the velocity.",
+      "reason": "This is the exact state created by the closing paragraph of Section 1.6."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "The reader sees the settled temporal, pressure, spatial, and mixed rows as one coupled tower and needs to distinguish how its endpoint can be Dead, Jump, or Blown.",
+      "reason": "This is the exact state required by the opening of Section 1.8."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "A finite parcel velocity can conceal a failed higher response, but every formal row must be earned by following that physical difficulty through the same equation.",
+      "reason": "This states the live reader failure found at the 1.6-to-1.7 joint."
+    }
+  ],
+  "reader_start": "The reader has seen a visible Euler velocity jump and knows that a smoother failure can hide above the velocity.",
+  "live_pressure": "A finite parcel velocity can conceal a failed higher response, but every formal row must be earned by following that physical difficulty through the same equation.",
+  "candidate_moves": [
+    {
+      "move_id": "follow-one-parcel-to-the-tower",
+      "move": {
+        "selection": "Follow one moving fluid from velocity to acceleration to jerk, use the same equation to expose the next response, and let the reader discover that the object is the tower.",
+        "connection": "the finite-time profile creates the need for the actual equation; material acceleration creates jerk; the material-Eulerian distinction creates the temporal rows; their operators force pressure and spatial rows to stay attached",
+        "development": "carry the one-parcel consequence through both approved dividers, let V1 through V4 expose the Pascal recurrence, then let pressure and spatial differentiation complete the settled mixed tower without changing the section organization",
+        "expression": "use concrete physical subjects and causal sentences so each preserved display answers a pressure created by the preceding consequence"
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader discovers the full settled temporal, pressure, spatial, and mixed tower as the joined response of one velocity field rather than receiving a static inventory.",
+      "next_possibility": "The endpoint can now be distinguished by whether that joined tower is Dead, Jump, or Blown.",
+      "content_basis": [
+        "live-input"
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "The finite terminal velocity must become a felt obstacle before acceleration, jerk, or the tower is named."
+        },
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Section 1.7 must spend Section 1.6's hidden-higher-failure pressure instead of repeating it."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The requested velocity-to-acceleration-to-jerk movement needs its full causal sequence before formal compression."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The actual parcel, trajectory, velocity, pressure, viscosity, and derivatives must carry the explanation."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The derivative tower should be named only after the reader sees why the responses remain attached."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user-owned order runs from physical response into the equation and only then into the tower."
+        },
+        {
+          "record_id": "decision-generate-expression-from-thought-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Silver supplies a bounded movement pattern rather than phrases to imitate."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Ordinary causal language should precede the mixed-jet notation."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Each paragraph must leave the reader able to see a new response of the same fluid."
+        },
+        {
+          "record_id": "decision-keep-example-inside-idea-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The kinematic profile has one bounded job: separate finite lower response from failed jerk without posing as a solution."
+        },
+        {
+          "record_id": "decision-repair-exact-referent-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The repair is confined to Section 1.7 and its exact reader handoff."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The reader should discover the coupled responses before receiving the derivative-tower name."
+        },
+        {
+          "record_id": "decision-preserve-local-movement-role-001",
+          "source_move_id": "preserve-local-movement-and-role",
+          "relation": "supports",
+          "applicability_reason": "Section 1.7 must perform its full approved derivative-tower job while preserving the distinct proof role of Section 2."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The prose can carry the discovery without synthetic reader questions."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Every sentence must state a complete physical or mathematical consequence instead of managing formulas."
+        }
+      ],
+      "risks": [
+        "The kinematic profile could be mistaken for a constructed Navier--Stokes singularity.",
+        "The Eulerian rows could be mistaken for the material responses rather than the fixed-coordinate derivatives composing them.",
+        "The formal sequence could revert to catalogue prose if a display appears without an earned causal question.",
+        "The endpoint language could overstate pointwise jet behavior as a complete continuation criterion."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "follow-one-parcel-to-the-tower",
+  "choice_reason": "This is the user-owned causal movement the earlier draft abandoned, and it can be realized without changing the approved subsection organization or moving any settled formal component.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "used",
+      "reason": "The hidden singularity must be felt before the tower is named."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "used",
+      "reason": "The opening must advance the pressure inherited from Section 1.6."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "used",
+      "reason": "The same-parcel consequence chain is the section's governing movement."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "used",
+      "reason": "The paragraph subjects are the parcel, field, pressure, viscosity, and derivatives."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "used",
+      "reason": "The tower name follows the physical and mathematical need."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "used",
+      "reason": "The requested order is protected."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "used",
+      "reason": "Expression will arise from this causal movement rather than copied anchor wording."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "used",
+      "reason": "Plain response language carries the section before notation."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "used",
+      "reason": "Every paragraph has a distinct reader change."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "used",
+      "reason": "The finite-time profile is tightly bounded and caveated."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "used",
+      "reason": "The edit targets Section 1.7 rather than a generic rewrite."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This turn repairs the manuscript and does not update the reusable voice faculty."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "used",
+      "reason": "The tower is revealed after its mechanism."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "used",
+      "reason": "The full settled Section 1.7 structure is retained and developed in its local causal role."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "used",
+      "reason": "The movement remains declarative."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "Formula-management fragments are removed."
+    }
+  ],
+  "uncertainties": [
+    "Thomas alone can judge whether the realized prose now carries his voice; the available evidence can only constrain the attempt."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete replacement of the body of Section 1.7 within its approved heading, label, two dividers, and settled formal sequence.",
+    "strongest_move_reason": "Following one parcel makes the hidden higher-order failure concrete and forces every preserved formal row from the same equation.",
+    "intellectual_gain": "The reader sees how a finite carried velocity can leave jerk unsettled and why the Navier--Stokes law joins material response to Eulerian time, space, pressure, and viscosity.",
+    "reader_gain": "The full derivative tower becomes one simultaneous response object whose endpoint can now be classified.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader has seen a visible Euler velocity jump and knows that a subtler failure can hide above it.",
+      "section_job": "Make the hidden higher failure intuitive through one parcel, then causally realize the complete approved temporal, pressure, spatial, and mixed tower.",
+      "outgoing_reader_need": "Distinguish whether the joined tower is Dead, Jump, or Blown at the endpoint.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Rewrite the connective thought movement inside the approved organization so every settled display is caused by the one-parcel difficulty and the same equation.",
+      "new_section_job": "",
+      "enrichment_reason": "One bounded finite-time profile gives the reader a concrete higher-response failure before the settled recurrence is unfolded.",
+      "enrichments": [
+        {
+          "detail": "A kinematic parcel velocity approaching finite U star with vanishing acceleration and divergent jerk.",
+          "reader_value": "It makes the hidden singularity possible to picture without claiming a Navier--Stokes construction.",
+          "placement": "Immediately after fixing the moving parcel and before invoking the momentum equation.",
+          "restraint": "State explicitly that it is kinematic and draw only the lower-does-not-control-higher conclusion."
+        }
+      ]
+    }
+  }
+}
