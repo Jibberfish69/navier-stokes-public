@@ -1,6 +1,6 @@
 # Navier-Stokes PDF Rebuild Workplan: Branch Sections To CM-Exit Resolution
 
-Status: active working plan.
+Status: historical workplan superseded for proof authority on 2026-07-22.
 Date created: 2026-05-30.
 Source: Thomas Birnie corrected authorial direction.
 Target artifact: final Clay-facing Navier-Stokes PDF / TeX manuscript.
@@ -9,7 +9,11 @@ Target artifact: final Clay-facing Navier-Stokes PDF / TeX manuscript.
 
 The paper should be rebuilt around independent branch sections rather than strict chronology. The historical development matters, but the main ordering should serve mathematical readability.
 
-The governing proof method is the CM-exit contrapositive program. The four-body route is a motivating example and diagnostic exercise showing how positive-forward smoothness attempts generate persistent terminal obstruction objects.
+The current governing proof is the one-fluid VPI complement implication
+`not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)` and its direct
+contrapositive. This dated plan is retained only as manuscript-development
+history; its CM-exit/pass/no-third ordering is not a live proof plan. Pack stays
+outside CM and Gold remains independent and nonblocking.
 
 The appendix source `proof-attempt-failure-appendix.tex` is a compressed source reservoir. It should be mined, verified, curated, and rewritten into human-authored sections.
 
