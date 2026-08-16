@@ -78,9 +78,9 @@ Because \(\nu>0\) is fixed, the highest spatial energy can be isolated:
   }{(-2\nu)^n}}
   \qquad(n\geq1).
 \end{equation}
-The denominator is the point.  Viscosity supplies a signed, nonzero coefficient for
-the new top energy at every finite order.  The numerator is equally important: it
-still contains the derivative of \(H\) and the complete chain of transfer terms.
+Since \(\nu>0\), the coefficient \((-2\nu)^n\) is nonzero, and the row can be
+solved for its top spatial energy.  The numerator still contains the derivative of
+\(H\) and the complete chain of transfer terms.
 Equation \eqref{eq:BodyCompletedCriticalRow} isolates the higher Sobolev height; it
 does not bound it for free.
 
@@ -115,7 +115,14 @@ But now the reversal is visible.  A finite singular time asks every fixed respon
 \(V_n\) to lose \(L^3\) control.  The \(n\)-th completed scalar row points at the same
 time toward \(E_{n+1/2}\), hence toward \(n+\tfrac12\) spatial derivatives of the
 velocity.  If those heights can be controlled, then for any prescribed \(k\), choosing
-\(n>k+1\) gives
+\(n>k+1\) first gives
+\[
+  \norm{u(t)}_{H^{n+1/2}}
+  \lesssim
+  \norm{u(t)}_2+\norm{\Lambda^{n+1/2}u(t)}_2.
+\]
+The energy identity controls the low-frequency term, while \(E_{n+1/2}\) controls the
+homogeneous term.  We may then use
 \[
   H^{n+1/2}(\R^3)\hookrightarrow C_b^k(\R^3).
 \]
