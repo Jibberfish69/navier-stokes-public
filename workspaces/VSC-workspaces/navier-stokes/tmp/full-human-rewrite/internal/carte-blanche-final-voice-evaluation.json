@@ -1,0 +1,88 @@
+{
+  "task_id": "task-5c284218163eb0ca",
+  "task_sha256": "b8e2829d170fe5213e2a2278f0821e6860bb3dc07deed751608987796e09670f",
+  "prediction_sha256": "df8a3f204953786106c1393811cc37bbe1207b0e9eaf67f09e40f33b6810c081",
+  "candidate_sha256": "0a356fe337ab26e99bf9aa0c660231226fb7f39f5d555ee9412a5c71992d06ff",
+  "selected_move_id": "realize-user-fixed-whole-manuscript",
+  "producer_id": "codex-root-carte-blanche-rewrite",
+  "evaluator_id": "independent-current-source-math-voice-layout-audits",
+  "dimensions": {
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The rewrite holds the same pressure-normalized maximal velocity-pressure history, the perfectly balanced vortex scene, and every user-specified section beat without replacing them by a proxy."
+    },
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The five body sections and four appendices match the user-fixed causal architecture and quarantine."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The rewrite now carries the balanced vortex through critical height, Zeno, the mixed tower, intersection, and global continuation."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Each main section inherits the preceding reader pressure and hands one earned mathematical object forward."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The current source explicitly bridges scalar height derivatives to velocity rows and then to adjacent rectangles."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Finite sums, historical criteria, and Euler comparison remain consequences after the main closure rather than displacing it."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The temporal escalation and viscosity-driven spatial ascent are developed as opposing consequences of the same singularity premise."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The current source, compilation, mathematics, voice flow, and page layout have all received final rereads."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The paper preserves Thomas's supplied physical-to-formal discovery order."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "The vortex generates the critical-scale problem, which generates the Tower, which generates the mixed intersection."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The physical scene, first-passage Zeno construction, Sobolev readout, and closure are developed rather than summarized."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The body uses direct mathematical subjects and removes proof-program narration and assistant-facing stage directions."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The text keeps limsup distinct from full limits, scalar height rows distinct from velocity rows, and two material vortex readings distinct."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The argument preserves one fluid history and the different roles of transport, pressure, incompressibility, and viscosity."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The selected architecture and movement are user-owned; the final realization follows the live writing evidence without claiming external validation."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The reader reaches each formal object only after the physical or analytic pressure requiring it has been established."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The finite shell sum, embedded classical criteria, and Euler contrast are developed as consequences of the completed intersection."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate is the exact live manuscript root and imports no unrelated sample prose."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The runtime records a bounded voice judgment; mathematical and publication acceptance are not inferred from it."
+    }
+  },
+  "verdict": "pass"
+}
