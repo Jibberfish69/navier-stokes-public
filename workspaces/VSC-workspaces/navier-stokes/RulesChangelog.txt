@@ -1,0 +1,39 @@
+2026-08-07
+- Created the standalone human-submission workspace by adapting the monograph-V6 authoring architecture.
+- Locked the initial manuscript hierarchy to the sections and subsection titles visible in the copied PDF.
+- Separated the immutable copied PDF from editable TeX source and forced build output into .latexmk-out.
+- Established local authority, naming, numbering, writing, audit, archive, report, and tool boundaries.
+- Replaced the hidden-output/static-root PDF split with one live root `navier-stokes-manuscript.pdf`, archived the copied snapshot, and renamed the canonical TeX root and printed title accordingly.
+
+2026-08-08
+- Expanded the manuscript map through Thomas's explicit Section 3 carte blanche.
+- Added the compatible-intersection closure in the order fixed by `problems/navier-stokes/target-operating-contract.yaml` and `problems/navier-stokes/PROOF-PROGRAM.md`.
+- Corrected equation numbering to the Section.Subsection.Item convention already owned by `ProjectInstructions/Format.txt`.
+
+2026-08-09
+- Promoted the complete handwritten Section 1.3, `Silver Standard Proof`, as the workspace's first Thomas-authorized writing and reasoning anchor.
+- Recorded its complete authorial evidence: candid conversational tone, reader-led thought experiment, causal carry-through, staged compression from ordinary language into formal logic, and an honest landing on the changed burden.
+- Explicitly excluded the assistant-written Section 1.2 Gold prose from Thomas-voice evidence.
+- Regenerated `ProjectInstructions/writing-anchors-snippets.txt` from the promoted Silver anchor.
+- Inserted `Definition of and Departures from Smoothness` as Section 1.2 by Thomas's explicit instruction and renumbered the existing Section 1.2--1.7 units as Section 1.3--1.8 without changing their prose.
+- Updated the current manuscript map, the Silver-anchor source pointers, and the VPI-Law's manual reference to the Gold Standard Proof.
+
+2026-08-10
+- Defined smoothness in Section 1.2 for the velocity and pressure pair, then distinguished discontinuity, loss of differentiability, and unbounded growth.
+- Moved the Dead, Jump, and Blown working pictures from the former Section 1.7 into Section 1.2, preserving that Dead is not a failure by itself.
+- Removed the separate Modes of Smoothness Failure subsection, renumbered VPI-Law from Section 1.8 to Section 1.7, and aligned the Section 1 map.
+
+2026-08-12
+- Made equation numbers navigational: a display or row is numbered only when later reasoning cross-references its exact mathematical content as an independent dependency.
+- Required semantic equation labels and cross-references for every number, one number per cited mathematical object, and unnumbered local calculations and uncited formal-environment displays.
+- Added Section 1.5, `Generalizing Non-smooth Outcomes`, after the Silver Standard Proof and restored the Dead, Jump, and Blown material from the historical live manuscript sources `Section1-Introduction/1.5-VelocityFailures.tex` and `Section1-Introduction/1.6-CoherentFieldParticipation.tex`.
+- Preserved the corrected repo meaning from `problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-source-locked-note.md` and `problems/navier-stokes/theorem-construction/mpp-pack-part-field-ontological-collapse-question-20260517.md`: Dead is velocity-tower nonparticipation and a kind of Jump, not raw zero velocity.
+- Renumbered the former Sections 1.5--1.7 as Sections 1.6--1.8 and aligned the Section 1 input order and current manuscript map.
+- Removed Section 1.5, `Generalizing Non-smooth Outcomes`, by Thomas's explicit instruction, including its Dead, Jump, and Blown prose.
+- Renumbered the former Sections 1.6--1.8 back to Sections 1.5--1.7 and realigned the Section 1 input order and current manuscript map.
+
+2026-08-13
+- Rebuilt Section 1 under Thomas's explicit reorganization approval as the causal sequence from the formal problem and historical frontier through Gold, Silver, class membership, participation, Euler comparison, the derivative tower, Dead/Jump/Blown with restart, and the one-fluid VPI law.
+- Joined class membership and participation where they perform one argumentative movement, while keeping the Euler comparison, derivative tower, failure pictures, and final coherent-field account developed as distinct reader-facing units.
+- Rebuilt Section 2 in the historical discovery order from critical height through finite-time response, the pressure-complete mixed jet, the critical Sobolev column, simultaneous intersections, finite adjacent rectangles, and compatible whole-terminal views.
+- Preserved the established datum-generated compatible-intersection theorem and left its projective assembly, endpoint trace, restart identity, uniqueness, and global closure in Section 3.
