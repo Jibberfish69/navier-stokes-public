@@ -69,7 +69,12 @@ The problem asks for velocity and pressure fields satisfying
 \end{aligned}
 \qquad\text{on }\R^3.
 \end{equation}
-We use the decaying whole-space normalization for the pressure.  The required
+Taking the divergence of \eqref{eq:NavierStokesSystem} gives
+\begin{equation}\label{eq:OpeningPressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j).
+\end{equation}
+The decaying whole-space normalization consequently fixes the pressure once
+the velocity is fixed.  The required
 conclusion is
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
