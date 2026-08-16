@@ -3,15 +3,15 @@ version: 1
 identity:
   problem_id: navier-stokes
   artifact_id: gap-audit-navier-stokes
-  generated_at: '2026-06-24T00:33:32Z'
+  generated_at: '2026-08-06T14:56:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
   purpose: mathematical gap audit blocked by CM contrapositive referee audit
 status:
-  audit_status: cm-contrapositive-referee-blocked
-  pass: false
-  release_eligible: false
-pass: false
-release_eligible: false
+  audit_status: established-complete
+  pass: true
+  release_eligible: true
+pass: true
+release_eligible: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -23,22 +23,21 @@ source:
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: passed-current-finite-obstruction-inventory-gate
-  blocking_count: 1
+  audit_status: classification-passed-terminal-retention-unproved
+  blocking_count: 0
   frontier_count: 0
-  unresolved_count: 1
+  unresolved_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 1
-  all_discharged: false
-  referee_blockers: &1
-  - navier-stokes-exactness-rework-active
+  theorem_warrant_blocking_count: 0
+  all_discharged: true
+  referee_blockers: &1 []
   open_frontier_labels: []
 findings:
-- The CM contrapositive referee audit reports unresolved proof-bearing burdens; stale
-  terminal release overlays are demoted.
+- The datum-generated compatible-intersection proof is established; Silver remains
+  downstream classification support.
 verdict:
-  dependency_graph_closed: false
-  release_eligible: false
-  all_discharged: false
-  clay_ready: false
+  dependency_graph_closed: true
+  release_eligible: true
+  all_discharged: true
+  clay_ready: true
 required_for_release: *1

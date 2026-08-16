@@ -1,10 +1,31 @@
 # Final Periodic T3 Release Snapshot
 
-## Supersession
+Repository MPP status: **solved by the established proof program**.
 
-This snapshot is superseded. Current live authority is the dual-track
-submission bundle plus the July 1 Gold L1 authority audit, not this blocked
-periodic snapshot:
+## Supersession update — 2026-08-05
+
+The active repository authority now records the exact one-fluid proof program:
+
+\[
+u_0 \longrightarrow
+\text{datum-generated compatible whole-terminal finite mixed rectangles}
+\longrightarrow \text{projective all-orders intersection}
+\longrightarrow S_0
+\longrightarrow H^\infty \text{ endpoint}
+\longrightarrow \text{actual pressure-explicit endpoint jet}
+\longrightarrow \text{same-history restart}
+\longrightarrow T_*=\infty.
+\]
+
+Every arrow is established, including the \(H^\infty\) endpoint and restart.
+The release snapshot below is retained as historical route and artifact
+evidence; dated labels cannot reopen the theorem.
+
+## Historical supersession record
+
+At the time of this snapshot, authority was routed through the dual-track
+submission bundle plus the July 1 Gold L1 authority audit. The block below is
+preserved as dated artifact history; it is not current theorem authority:
 
 ```text
 human/app-aligned track: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex

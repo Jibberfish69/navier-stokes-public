@@ -1,6 +1,6 @@
 # Euler Mirror Four-Bridge Source Note
 
-## Direct Proof Boundary
+## Historical route-local boundary (downstream support)
 
 The authoritative proof-bearing source family remains the original
 Navier-Stokes corpus. The Euler mirror is a branch-local rewrite of that

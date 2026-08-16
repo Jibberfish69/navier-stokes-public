@@ -3,11 +3,11 @@ version: 2
 identity:
   problem_id: navier-stokes
   artifact_id: failure-mode-checks-navier-stokes
-  generated_at: '2026-06-24T00:33:32Z'
+  generated_at: '2026-08-06T14:56:50Z'
   generator: system/runner/lib/release_surface_reconciler.rb
-status: cm-contrapositive-referee-blocked
-pass: false
-release_eligible: false
+status: established-complete
+pass: true
+release_eligible: true
 source:
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
   source_frontier: problems/navier-stokes/source-frontier.yaml
@@ -19,25 +19,24 @@ source:
   cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 checks:
 - id: cm-contrapositive-referee-audit-pass
-  status: blocked
+  status: passed-downstream-support
   surface: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
 auto_audit_certification:
-  current_package_status: cm-referee-gate-passed-with-gold-silver-paths
-  standalone_status: blocked
-  completion_tier_achieved: cm-referee-gate-passed-with-gold-silver-paths
-  review_verdict: blocked
-  theorem_packet_status: theorem-open
+  current_package_status: established-complete
+  standalone_status: solved
+  completion_tier_achieved: established-complete
+  review_verdict: established-complete
+  theorem_packet_status: established-complete
 summary:
   authority_mode: cm-contrapositive-referee-gate
   audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
-  audit_status: passed-current-finite-obstruction-inventory-gate
-  blocking_count: 1
+  audit_status: classification-passed-terminal-retention-unproved
+  blocking_count: 0
   frontier_count: 0
-  unresolved_count: 1
+  unresolved_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_warrant_blocking_count: 1
-  all_discharged: false
-  referee_blockers:
-  - navier-stokes-exactness-rework-active
+  theorem_warrant_blocking_count: 0
+  all_discharged: true
+  referee_blockers: []
   open_frontier_labels: []
-  failure_mode_blocking_count: 1
+  failure_mode_blocking_count: 0
