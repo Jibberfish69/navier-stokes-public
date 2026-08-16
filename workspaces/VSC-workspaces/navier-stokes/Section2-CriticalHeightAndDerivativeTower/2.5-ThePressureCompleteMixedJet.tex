@@ -59,25 +59,14 @@ This is one family containing every finite derivative of one pair \((u,p)\).
 
 Now the datum condition from Section~1 enters the Tower.
 Equation \eqref{eq:FeffermanDatumSobolevRows} gives
-\[
-  V_0(0)=u_0\in H_\sigma^m(\R^3)
-  \qquad\text{for every finite }m.
-\]
-Suppose the rows \(V_0(0),\ldots,V_n(0)\) belong to every finite Sobolev
-space.  Evaluating \eqref{eq:BodyTemporalPressureRecurrence} at \(t=0\), using
-finite-order Sobolev multiplication and the boundedness of the Riesz
-transforms, gives \(Q_n(0)\in H^m\) for every finite \(m\).  Solving
-\eqref{eq:BodyTemporalVelocityRecurrence} for the next row gives
-\[
-  V_{n+1}(0)
-  =\nu\Delta V_n(0)
-  -\sum_{a=0}^{n}\binom{n}{a}
-    \bigl(V_a(0)\cdot\nabla\bigr)V_{n-a}(0)
-  -\nabla Q_n(0),
-\]
-\Needspace{12\baselineskip}
-so \(V_{n+1}(0)\in H_\sigma^m\) at every finite height as well.  Induction in
-\(n\), followed by spatial differentiation, yields the complete initial jet
+\(V_0(0)=u_0\in H_\sigma^m(\R^3)\) for every finite \(m\).
+Suppose \(V_0(0),\ldots,V_n(0)\) belong to every finite Sobolev space.
+The pressure recurrence \eqref{eq:BodyTemporalPressureRecurrence}, finite-order
+Sobolev multiplication, and the boundedness of the Riesz transforms give
+\(Q_n(0)\in H^m\) for every finite \(m\).  Solving
+\eqref{eq:BodyTemporalVelocityRecurrence} for \(V_{n+1}(0)\) then puts that
+row in every \(H_\sigma^m\) as well.  Induction in \(n\), followed by spatial
+differentiation, yields the complete initial jet
 \begin{equation}\label{eq:BodyInitialPressureCompleteMixedJet}
   J_{n,\alpha}(0)\in H_\sigma^m(\R^3),
   \qquad
