@@ -3,19 +3,31 @@
 The paper uses a small number of project names.  Each name is tied to a proof role.
 
 \begin{description}
-\item[\(\Owork\).] The working same-solution Navier--Stokes class object.  It keeps the datum, equation, pressure law, viscosity, incompressibility constraint, and preterminal branch together.
-\item[\(\Member(Q;\Owork)\).] The class-membership predicate for a selected terminal record \(Q\).  It means that \(Q\) carries the same pressure-viscosity-incompressibility participation law of \(\Owork\), with the relevant readout paired to it when the pass branch is used for continuation.
+\item[\(\Owork\).] The one no-reset Navier--Stokes history issuing from the original smooth datum at fixed positive viscosity.  Its transport, simultaneous nonlocal pressure response, viscosity, incompressibility, material ancestry, and coherent field participation remain one object.
+\item[\(\operatorname{VPIParticipation}(Q)\).] Full participation of that same history through the record \(Q\); this is stronger than merely satisfying a distributional Navier--Stokes equation.
+\item[\(\Member(Q;\Owork)\).] The class-membership predicate for \(Q\) in that original fully participating history.
 \item[\(\Exit(Q;\Owork)\).] The class-exit conclusion.  It means
 \[
   \Exit(Q;\Owork):=\neg\Member(Q;\Owork).
 \]
-\item[\(\Pack_Q\).] The carrier-window support predicate.  It asks whether the selected record still has a positive same-fluid carrier or packet.  By itself it records admission support, not the class-exit conclusion.
-\item[\(\Part_{N,Q}\).] The Part witness.  It asks whether the same pressure-viscosity-incompressibility law still participates on the derivative tower being tested.
-\item[\(\Field_{N,r,Q}\).] The Field witness.  It asks whether a positive-scale coherent velocity-field readout survives at scale \(r\).
-\item[\(Q_{\mathrm{ann}}\).] A selected annular residual terminal witness.  It is admitted to the CM test only after the positive-radius annular residue has been tied to the same original Navier--Stokes branch.
-\item[Gold route.] The forward-positive proof route.  It tries to control the original solution directly.
-\item[Silver route.] The CM contrapositive route.  It classifies a selected same-solution terminal record after a forward obstruction has survived.
-\item[Annular witness.] The positive-radius terminal residue surrounding a proposed endpoint.  It is the live boundary because a radius-zero point alone does not carry the full singularity claim.
+\item[\(\Pack_Q\).] Field-window evidence outside CM.  It is neither a CM face nor a premise of the Silver implication.
+\item[\(\Part_{N,Q}\).] A negative-side presentation of lost participation on a tested local or derivative record.
+\item[\(\Field_{N,r,Q}\).] A negative-side presentation of lost coherent field participation at scale \(r\).
+\item[Dead, Blown, Jump.] Mechanism labels for negative-side participation loss; they do not name additional proof branches.
+\item[Conditional other-PDE identification.] A limiting failure of the original Navier--Stokes history may be identified with another PDE only when every defect needed for that identification vanishes.  Euler requires zero effective viscosity and no Reynolds, forcing, pressure, incompressibility, or ancestry defect.
+\item[Gold route.] The independent forward-positive research route.  Its open estimates neither prove nor block Silver.
+\item[Silver route.] The exhaustive implication
+\[
+  \neg\operatorname{Smooth}(Q)
+  \Longrightarrow \neg\Member(Q;\Owork)
+  \Longrightarrow \neg\operatorname{VPIParticipation}(Q),
+\]
+and its direct contrapositive
+\[
+  \operatorname{VPIParticipation}(Q)
+  \Longrightarrow \Member(Q;\Owork)
+  \Longrightarrow \operatorname{Smooth}(Q).
+\]
 \end{description}
 
-These names are proof objects.  A branch, comparison packet, Euler boundary, source-reserve estimate, or positive-forward estimate note enters the paper only when it pays one of these roles: same-solution admission support, Part or Field failure, member readout, exit conclusion, gold obstruction, silver landing, context, obsolete route, or open continuation.
+Part, Field, Dead, Blown, Jump, and a conditionally identified other PDE classify the single negative side.  Pack, packets, annuli, source reserves, and positive-forward estimates are evidence or independent Gold material; none supplies a positive no-exit theorem or a fully participating nonsmooth exception to Silver.

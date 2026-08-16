@@ -104,9 +104,9 @@ Three failure modes dominate this branch.
       packet carrier at the terminal scale. This is carrier-window support outside the exit conclusion.
 \item \textbf{Participation failure.} The selected object fails to carry the same
       pressure-viscosity participation law. This is a Part-side obstruction.
-\item \textbf{Readout failure.} The selected object has no positive-scale field
-      readout strong enough to give continuation. This is a Field-side
-      obstruction.
+\item \textbf{Field failure.} The selected object has no coherent positive-
+      scale field realization.  Since that realization belongs to full VPI
+      participation, this is Field-side nonparticipation.
 \end{enumerate}
 
 \begin{proposition}[Compactness object routing]
@@ -118,7 +118,7 @@ has one of the following proof roles:
 \item \(\Member(Q;\Owork)\): \(Q\) retains carrier, participation, field readout, and continuation readout.
 \item Carrier-window support outside the exit conclusion: \(Q\) has no positive same-fluid carrier.
 \item \(\neg\Part_{N,Q}\): \(Q\) has carrier without same pressure-viscosity participation.
-\item \(\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has carrier and participation without positive-scale coherent field readout.
+\item \(\forall r>0\,\neg\Field_{N,r,Q}\): \(Q\) has lost coherent-field participation.
 \end{enumerate}
 \end{proposition}
 
@@ -130,8 +130,8 @@ belongs to the member branch.
 If the carrier is absent, the compactness object records carrier-window support outside the exit conclusion.
 If the carrier survives and the pressure-viscosity law fails to participate on
 the same record, the object is Part-side.
-If carrier and participation survive while every positive-scale field readout
-fails, the object is Field-side.
+If every positive-scale coherent field realization fails, the object has lost
+full VPI participation through Field.
 These are exactly the witnesses used by the same-solution CM theorem.
 \end{proof}
 

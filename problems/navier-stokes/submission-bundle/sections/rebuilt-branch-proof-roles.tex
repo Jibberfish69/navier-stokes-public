@@ -1,7 +1,10 @@
 \section{How Branch Families Pay the CM Proof}
 \label{sec:branch-proof-roles}
 
-The forward branches are useful because they tell the paper what the terminal object might be.  They are not independent endings of the proof.  After a branch has located a possible terminal object, the manuscript asks one common question: can that object still be read as the same Navier--Stokes solution record?
+Silver starts with the one smooth-data, fixed-viscosity Navier--Stokes history.
+Forward branches may illustrate how a departure appears, but they neither
+start nor end the proof.  The common question is whether the same object still
+has full VPI participation.
 
 The answer is recorded through the same five outcomes used in the main proof:
 \[
@@ -12,12 +15,15 @@ The answer is recorded through the same five outcomes used in the main proof:
 \text{carrier-window support} & \text{same-solution admission support outside the exit conclusion},\\[1mm]
 \text{Part failure} & \neg\Part_{N,Q},\\[1mm]
 \text{Field failure} &
-  \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
+  \forall r>0\,\neg\Field_{N,r,Q},\\[1mm]
 \text{context} &
   \text{a real estimate whose selected record or face payment is still unwritten.}
 \end{array}
 \]
-This is the proof map the reader needs.  A forward argument may pay a source term, rule out a donor refill, locate a terminal atom, or sharpen an endpoint readout.  It becomes proof text only at the line where it names \(Q\), names the class data carried by \(Q\), and supplies either carrier-window admission support, a Part/Field face payment, or the member readout.
+Part and Field are two presentations of the same conclusion:
+\(\neg\operatorname{VPIParticipation}(Q)\).  Pack remains carrier-window
+evidence outside CM.  Forward calculations are examples or support until they
+are tied to this same history.
 
 \begin{center}
 \small
@@ -32,10 +38,14 @@ Compactness & Extract a terminal object from the preterminal branch & Detached o
 Recovery/surface fidelity & Convert terminal control into continuation & Recovery available on the wrong surface or wrong object & Supplies member readout on the same object; otherwise leaves a Part/Field failure or context boundary\\
 Lower-prefix/upper-tail & Collapse split survivor families & Split terminal family & Tests each surviving family as its own same-solution witness\\
 Kernelized lifted band & Use scale separation to gain decay & Half-derivative lower-shell remainder & Stays with the selected witness until it becomes a face payment or readout payment\\
-Shell gain/half derivative & Use active-window smallness to pay lower strain & Active-window coefficient gap & Tests Field coherence after Pack and Part have survived on the selected record\\
-Annular-limit witness & Control the residual scale-critical load on shrinking positive-radius annuli & Terminal residual pulse surrounding a radius-zero endpoint & Gold seeks direct annular control; silver classifies the admitted pulse by Part or Field\\
+Shell gain/half derivative & Use active-window smallness to pay lower strain & Active-window coefficient gap & Tests whether Field coherence, hence full participation, is lost\\
+Annular-limit witness & Control the residual scale-critical load on shrinking positive-radius annuli & Terminal residual pulse surrounding a radius-zero endpoint & One possible Part- or Field-side presentation of lost participation; Gold is separate\\
 \hline
 \end{tabular}
 \end{center}
 
-The annular-limit row is the live boundary for the current forward branch.  The radius-zero point by itself is a point-object reading.  The singularity claim is carried by the surrounding positive-radius fields.  Gold closes that boundary by proving scale-uniform annular control.  Silver closes it only after the annular residue has been admitted as the same-solution terminal witness and the page shows the resulting Part or Field failure.  Until that line is written, the annular material remains an open forward obstruction with a precise CM counterpart.
+The annular-limit row is one possible departure presentation.  The
+radius-zero point alone is not the fluid object; the surrounding positive-
+radius fields remain tied to the original history.  If they lose Part or
+Field, they lose full participation.  Gold may separately seek direct annular
+control, but that open estimate does not block Silver.
