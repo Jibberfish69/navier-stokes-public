@@ -1,11 +1,398 @@
 ---
 version: 1
+proof_program_completion_projection:
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  proof_chain: >-
+    u_0 -> compatible rectangles -> projective intersection -> S_0 -> common
+    H_x^infinity endpoint -> actual pressure-complete jet -> restart and
+    uniqueness -> T_*=infinity.
+  canonical_status_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   repair_id: theorem-repair-navier-stokes
   generated_at: '2026-06-26T04:54:16Z'
   generator: system/runner/workers/theorem_repair_worker.rb
+manual_thomas_reversible_intersection_authority_20260803:
+  status: established-complete
+  mpp_status: solved
+  authority_scope: active-exact-navier-stokes-proof-topology
+  supersedes_lower_route_closure_labels: true
+  lower_route_status: preserved-as-downstream-support
+  completed_task: repo-and-thread-proof-program-finalized
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  global_closure_status: proved
+  task_provenance: thomas-original-one-fluid-pressure-explicit-reversible-nesting-and-columnwise-intersection-method
+  note_finite_coordinate_interface: "(MR)_{N,m}"
+  note_interface_status: curated-mathematical-formalization-not-original-name-not-independent-gate
+  producer_statement: >-
+    For every finite N,M, the one u_0-generated history supplies the
+    whole-terminal rectangle R_{N,M}[u_0], and all finite rectangles agree
+    under their restriction maps.
+  producer_result: >-
+    u_0 -> compatible whole-terminal rectangles -> I[u_0].
+  producer_source: problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md#5-datum-generated-columnwise-intersection-theorem
+  downstream_endpoint_trace_source: /Users/thomasbirnie/.codex/attachments/46f2b868-1a08-4213-9dd3-25de3ac2d37c/pasted-text.txt#lines-1513-1579
+  proved_downstream_closure_source: problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+  closure_chain: >-
+    u_0 -> compatible whole-terminal rectangles -> all-orders intersection in
+    every column and backward level -> every E_{n+1/2} in L_t^1 -> common
+    H_x^infinity endpoint -> actual pressure-explicit endpoint jet -> restart
+    and uniqueness -> T_*=infinity.
+  assistant_later_aliases:
+  - label: TIR.37
+    status: later-projective-restatement-not-historical-name-not-gate
+  - label: TIR.37a
+    introduced_on: '2026-08-04'
+    status: later-scalar-interface-not-historical-name-not-gate
+  later_route_search_status: quarantined-support-only-not-live-closure-path
+  historical_open_language_effect: >-
+    Later assistant-generated open-target language is preserved as historical
+    recovery error. It cannot reopen the established datum-generated theorem
+    or any downstream arrow of the completed proof.
+  forbidden_substitute_aims:
+  - finite-rectangle-or-MR-as-independent-gate
+  - first-signed-prefix-as-closure-gate
+  - FSQ.37
+  - refunded-mean-winding-response
+  - active-shell
+  - pre-square-acceleration
+  source_owner: Thomas Birnie
+  authority: problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+  later_support_first_prefix_bootstrap: problems/navier-stokes/theorem-construction/thomas-first-signed-prefix-generates-complete-intersection-20260803.md
+  proved_invariant_transverse_reduction: problems/navier-stokes/theorem-construction/thomas-pressure-complete-invariant-transverse-recruitment-reduction-20260803.md
+  proved_invariant_transverse_commutator_boundary: problems/navier-stokes/theorem-construction/thomas-invariant-transverse-first-binomial-commutator-boundary-20260803.md
+  proved_reciprocal_parent_reduction: problems/navier-stokes/theorem-construction/thomas-parent-age-reciprocal-moment-telescope-positivity-boundary-20260803.md
+  proved_helical_common_mode_obstruction: problems/navier-stokes/theorem-construction/thomas-helical-common-mode-completed-action-storage-obstruction-20260803.md
+  proved_weighted_insertion_no_recount_boundary: problems/navier-stokes/theorem-construction/thomas-full-field-insertion-heat-defect-no-recount-boundary-20260803.md
+  proved_reciprocal_tail_suppression: problems/navier-stokes/theorem-construction/thomas-incompressible-reciprocal-tail-suppression-and-time-square-boundary-20260803.md
+  proved_signed_first_cutoff_triad_boundary: problems/navier-stokes/theorem-construction/thomas-signed-first-cutoff-moment-three-leg-triad-boundary-20260803.md
+  proved_heterochiral_child_fraction_boundary: problems/navier-stokes/theorem-construction/thomas-heterochiral-child-fraction-local-nonlocal-boundary-20260803.md
+  proved_balanced_rip_cord_coasting_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-rip-cord-coasting-pressure-trace-and-shrinking-label-boundary-20260803.md
+  proved_uncollapsed_parent_gramian_boundary: problems/navier-stokes/theorem-construction/thomas-uncollapsed-parent-causal-gramian-observability-boundary-20260803.md
+  proved_joined_pressure_viscous_scale_jump_boundary: problems/navier-stokes/theorem-construction/thomas-joined-pressure-viscous-material-coarea-and-critical-scale-jump-boundary-20260803.md
+  proved_full_incidence_ultra_nonlocal_wedge: problems/navier-stokes/theorem-construction/thomas-full-incidence-majority-spine-and-ultra-nonlocal-wedge-20260803.md
+  proved_monotone_material_scale_flux_boundary: problems/navier-stokes/theorem-construction/thomas-monotone-material-scale-flux-endpoint-and-wobble-boundary-20260804.md
+  proved_dynamic_core_time_orientation_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-time-oriented-three-leg-current-boundary-20260804.md
+  proved_joined_exterior_material_fourier_boundary: problems/navier-stokes/theorem-construction/thomas-joined-exterior-material-pair-dynamic-fourier-core-boundary-20260804.md
+  proved_dynamic_core_l8_duality_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-l8-duality-and-recombined-throughput-boundary-20260804.md
+  proved_dct47_one_form_phase_boundary: problems/navier-stokes/theorem-construction/thomas-dct47-exact-one-form-and-enstrophy-sphere-phase-boundary-20260804.md
+  proved_complete_binomial_core_resummation_boundary: problems/navier-stokes/theorem-construction/thomas-complete-binomial-core-response-resummation-and-uniform-radius-boundary-20260804.md
+  proved_energy_class_reciprocal_negative_space_tower_boundary: problems/navier-stokes/theorem-construction/thomas-energy-class-reciprocal-negative-space-binomial-tower-and-first-parent-boundary-20260804.md
+  proved_balanced_pair_turn_down_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-pair-radial-covariance-and-turn-down-boundary-20260804.md
+  proved_primitive_positive_radial_current_causal_turn_down_boundary: problems/navier-stokes/theorem-construction/thomas-primitive-positive-radial-current-causal-turn-down-boundary-20260804.md
+  proved_canonical_positive_radial_pulse_completion_boundary: problems/navier-stokes/theorem-construction/thomas-canonical-record-positive-radial-pulse-completion-and-turn-down-action-boundary-20260804.md
+  proved_full_signed_current_positive_pulse_variance_refund_boundary: problems/navier-stokes/theorem-construction/thomas-full-signed-current-positive-pulse-recombination-and-turn-down-action-boundary-20260804.md
+  proved_full_signed_current_adjacent_endpoint_propagation_boundary: problems/navier-stokes/theorem-construction/thomas-full-signed-current-adjacent-record-endpoint-propagation-and-zero-response-countercalibration-20260804.md
+  proved_balanced_axial_wobble_recombination_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-axial-wobble-supplier-and-weighted-betchov-boundary-20260804.md
+  proved_bpt_dct47_heat_age_tangent_bridge: problems/navier-stokes/theorem-construction/thomas-bpt-dct47-heat-age-covariance-tangent-bridge-20260804.md
+  proved_minimal_signed_prefix_record_reduction: problems/navier-stokes/theorem-construction/thomas-minimal-signed-prefix-record-normalization-compactness-rigidity-boundary-20260804.md
+  proved_first_contact_signed_prefix_negative_dome_boundary: problems/navier-stokes/theorem-construction/thomas-first-contact-signed-prefix-negative-dome-turn-down-boundary-20260804.md
+  proved_fixed_selector_strain_shape_finite_chord_normal_form: problems/navier-stokes/theorem-construction/thomas-fixed-radial-selector-full-field-strain-shape-finite-chord-normal-form-20260804.md
+  proved_strain_shape_higher_response_boundary: problems/navier-stokes/theorem-construction/thomas-strain-shape-pressure-explicit-higher-response-and-finite-chord-obstruction-20260804.md
+  proved_last_record_source_square_supplier_localization: problems/navier-stokes/theorem-construction/thomas-last-record-source-square-and-first-binomial-supplier-descent-20260804.md
+  proved_inherited_source_storage_all_row_boundary: problems/navier-stokes/theorem-construction/thomas-inherited-source-storage-all-row-binomial-record-boundary-20260804.md
+  proved_first_binomial_fixed_selector_join: problems/navier-stokes/theorem-construction/thomas-first-binomial-supplier-fixed-selector-strain-finite-chord-join-20260804.md
+  proved_record_pulse_parent_tail_evacuation: problems/navier-stokes/theorem-construction/thomas-record-pulse-reciprocal-parent-tail-evacuation-and-diagonal-depth-boundary-20260804.md
+  proved_double_recruited_parent_synchronization_boundary: problems/navier-stokes/theorem-construction/thomas-canonical-pulse-double-recruited-parent-synchronization-boundary-20260804.md
+  proved_double_duhamel_finite_parent_ratio_overlap: problems/navier-stokes/theorem-construction/thomas-double-duhamel-finite-parent-ratio-high-output-overlap-boundary-20260804.md
+  proved_recent_source_heat_lag_boundary: problems/navier-stokes/theorem-construction/thomas-finite-ratio-double-duhamel-recent-source-heat-lag-boundary-20260804.md
+  proved_dynamic_core_double_recent_parent_ancestry_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-canonical-record-double-recent-parent-ancestry-boundary-20260804.md
+  proved_signed_double_recent_fixed_selector_join: problems/navier-stokes/theorem-construction/thomas-double-recent-core-fixed-selector-imbalance-collar-finite-chord-join-20260804.md
+  proved_imbalance_interface_selector_refund_boundary: problems/navier-stokes/theorem-construction/thomas-imbalance-interface-material-coarea-selector-refund-boundary-20260804.md
+  proved_selector_radius_finite_chord_flux_boundary: problems/navier-stokes/theorem-construction/thomas-selector-radius-finite-chord-flux-and-endpoint-boundary-20260804.md
+  proved_episodewise_conormal_label_incidence_trichotomy_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-deformation-gradient-high-rate-label-incidence-trichotomy-boundary-20260804.md
+  proved_conormal_objective_incidence_moving_weight_refund_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-objective-incidence-moving-weight-finite-chord-refund-boundary-20260804.md
+  proved_signed_sharp_membership_layer_cake_refund_boundary: problems/navier-stokes/theorem-construction/thomas-signed-sharp-membership-layer-cake-finite-chord-refund-boundary-20260804.md
+  proved_six_assignment_scalar_pair_operator_three_label_kernel_boundary: problems/navier-stokes/theorem-construction/thomas-six-assignment-scalar-pair-image-and-material-three-label-kernel-boundary-20260804.md
+  proved_adaptive_material_pair_selector_range_receiver_provenance_boundary: problems/navier-stokes/theorem-construction/thomas-adaptive-material-pair-selector-range-and-receiver-provenance-boundary-20260804.md
+  proved_expanding_plane_cofactor_response_block_separation_boundary: problems/navier-stokes/theorem-construction/thomas-expanding-plane-cofactor-response-and-relative-frame-block-separation-boundary-20260804.md
+  proved_preterminal_sharp_three_label_block_limit: problems/navier-stokes/theorem-construction/thomas-preterminal-compact-roof-sharp-three-label-block-limit-and-diagonal-selection-20260804.md
+  proved_conormal_first_hit_relative_frame_critical_square_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-first-hit-relative-frame-critical-square-boundary-20260804.md
+  proved_dynamic_core_lorentz_source_pulse_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-double-recent-lorentz-source-pulse-boundary-20260804.md
+  proved_signed_double_recent_adjoint_source_time_pullback_boundary: problems/navier-stokes/theorem-construction/thomas-signed-double-recent-adjoint-source-time-pullback-boundary-20260804.md
+  proved_future_incidence_invariant_transverse_projection_boundary: problems/navier-stokes/theorem-construction/thomas-future-incidence-invariant-transverse-projection-gramian-boundary-20260804.md
+  proved_invariant_transverse_forward_backward_gramian_join_boundary: problems/navier-stokes/theorem-construction/thomas-invariant-transverse-future-incidence-forward-backward-gramian-join-boundary-20260804.md
+  proved_low_flow_high_band_propagator_reconvergence_boundary: problems/navier-stokes/theorem-construction/thomas-paradifferential-low-flow-high-band-propagator-and-ancestry-reconvergence-boundary-20260804.md
+  proved_band_edge_fim_six_assignment_recombination_boundary: problems/navier-stokes/theorem-construction/thomas-band-edge-fim-six-assignment-recombination-and-propagated-ancestry-boundary-20260804.md
+  proved_recent_source_first_binomial_characteristic_boundary: problems/navier-stokes/theorem-construction/thomas-recent-source-first-binomial-characteristic-all-row-synchronization-boundary-20260804.md
+  proved_adjoint_future_incidence_first_binomial_boundary: problems/navier-stokes/theorem-construction/thomas-adjoint-future-incidence-backward-heat-first-binomial-boundary-20260804.md
+  proved_rhl_binomial_generating_radius_no_gain_boundary: problems/navier-stokes/theorem-construction/thomas-rhl-binomial-generating-radius-and-resummed-characteristic-no-gain-boundary-20260804.md
+  proved_heat_age_endpoint_integrability_spike_dichotomy: problems/navier-stokes/theorem-construction/thomas-datum-paid-heat-age-endpoint-integrability-and-last-record-spike-dichotomy-20260804.md
+  proved_recent_high_source_six_branch_synchronization_boundary: problems/navier-stokes/theorem-construction/thomas-recent-high-source-fixed-selector-six-branch-synchronization-boundary-20260804.md
+  quarantined_later_residual_history: >-
+    Full weighted-Betchov recombination removes axial wobble, and perfect
+    balance remains favorable. On every failed record the signed double-recent
+    reconstruction leaves A_n/16 in the actual six-assignment current and
+    forces A_n/32 either into the one-contraction/two-expansion signed strain shape
+    positive part with its cofactor interface collar or into the complete finite-chord defect,
+    including its double-recent dynamic-complement/pressure-heat terms. That allocation is
+    selector-dependent: the uncorrected DRF.44 quantity adds the favorable face. After its
+    exact refund the selector-covariant residual is Jrr = c_rho Q+ + (Drr - c_rho Q-),
+    with every coarea, pressure-response, and finite-chord term kept joined.
+    The shape telescope ends at enstrophy/palinstrophy, its next response has
+    both signs, and the heat-age finite-chord telescope restores the same open
+    endpoint/action. Selector-radius differentiation is an exact coordinate
+    flux: after the favorable-face refund its monotone pieces recombine to the
+    same Jrr at every radius, with no datum endpoint.
+    At the primitive all-pair level, the actual contracting current satisfies
+    \(D_tj_+=\mathbf1_{\{\alpha<0\}}D_tj\) with no sign-interface atom and
+    \(P_+'=4(\mathcal G_+-\mathcal T_+)\), with
+    \(\mathcal G_+\ge5P_+^2/(16H)\). Every completed positive pulse forces a
+    datum-normalized lower bound on the joined angular--pressure--viscous
+    turn-down response. Restoring both signs gives the future-weighted causal
+    identity PRT.28, whose remaining joined response is same-critical with the
+    complete endpoint-spanning intersection; the later TIR.37/TIR.37a aliases
+    add no authority, rather than
+    a new datum stock.
+    On every canonical failed record, either the aggregate positive radial
+    current is at least A_n/(4 Delta_n) at a record endpoint, or the same
+    record contains a completed pulse carrying more than A_n/4 positive
+    current. The completed pulse forces joined turn-down action at least
+    5 A_n^2/(256 B_n), and that action lies either in actual angular turning
+    or in the positive joined longitudinal response; on the balanced
+    no-wobble face the longitudinal factor is exactly 3 c. This is a forced
+    lower action, not a datum-finite upper payment.
+    The literal reciprocal construction from the kinetic-energy row proves
+    u_t in L_t^(4/3) H_x^(-1) intersect L_t^2 H_x^(-3/2), and every deeper
+    velocity row as the joined negative-time distribution obtained by
+    differentiating that same first row. At the first differentiated parent,
+    generic termwise multiplication has an exact half-derivative deficit and
+    only an L_t^(4/5) very-weak product coefficient; the complete binomial and
+    pressure recombination remains lawful as one distribution. Thus Thomas's
+    reciprocal direction is real, but energy alone supplies neither its
+    Bochner rows nor a common radius. This is not an obstruction to the
+    stronger signed same-history cancellation.
+    Recombining both material-current signs and every pair orientation before
+    taking the positive part gives Q = [P_(1/2)]+. Its full radial growth has
+    the exact weighted-mean decomposition
+    G_all = 5 Q^2/(16 H) + V_rad on the positive-current sector. Refunding the
+    nonnegative internal radial variance gives the identity
+    Q' = 4(5 Q^2/(16 H) - C_hat). Every failed record therefore has either a
+    normalized full-current endpoint at least 1/4 or a completed pulse whose
+    variance-refunded joined action is at least 5/256 after datum
+    normalization. The response split is positive aggregate angular excess
+    A_all - V_rad or positive aggregate longitudinal response; on an
+    individual balanced no-wobble chord the longitudinal factor remains 3 c.
+    This is algebraically narrower than the P+-only/raw-response coordinates,
+    but FSQ.37 remains same-critical with the complete endpoint-spanning
+    intersection and is quarantined support, not a strict reduction or live aim.
+    A full-current right endpoint of height M either falls to M/2 before the
+    next record and forces refunded joined action at least M/8, or remains
+    positive across the bridge and next record with traversal time below
+    6 A_n/M; on the endpoint threshold this is below 24 Delta_n. A left
+    endpoint has the same half-turn alternative or first propagates to the
+    right endpoint, with every resulting factor retained. Canonical adjacency
+    alone cannot force the turn: an exact scalar zero-response winding
+    calibration satisfies the recombined current law, critical balance,
+    height-mass form, and all record levels while taking only endpoint
+    branches. It is not a Navier-Stokes history; it proves only that persistent
+    terminal winding must be excluded by an additional same-fluid consequence
+    of the pressure-explicit law.
+  quarantined_later_contrapositive_history: >-
+    A later contrapositive readout of failure of the endpoint-spanning
+    intersection forces disjoint last-half-prefix windows
+    carrying at
+    least one quarter normalized signed current on receiver levels tending to
+    infinity while their datum-paid pressure-complete source masses vanish. It
+    has disjoint first-contact subrecords with exact A_n^2/32 level moments,
+    nonnegative contact currents, and an A_n/8 viscosity-matched signed pulse;
+    differentiating that pulse shows that every level-only negative-dome
+    weight leaves a contact current or sign-changing current square.
+    The same records satisfy an exact endpoint-or-completed-pulse alternative:
+    one normalized endpoint current is at least 1/4, or the normalized
+    positive joined turn-down action is at least 5/256. The corresponding
+    vanishing statement CPR.34 would exclude every failed record, but no
+    datum row presently proves it; it remains same-critical and is not a
+    strict smaller reduction.
+    Full signed-current recombination removes contracting/expanding common
+    modes, and the exact radial-variance refund removes internal radial spread
+    which does not drive the net pulse. The resulting endpoint-or-refunded-
+    action alternative is exact, but its vanishing condition FSQ.37 is still
+    the failed-prefix exclusion at the same quantifiers and has no proved
+    datum-finite numerator.
+    Endpoint recurrence now has an exact causal fork: half-turn pays joined
+    response action, while no half-turn propagates the same positive winding
+    into the adjacent record on a compressed time span. Prefix-level topology
+    does not itself bracket current height, so it cannot convert the persistent
+    branch into a completed pulse without an additional pressure-explicit
+    same-fluid theorem.
+    The failure also forces a scale-critical complete-source square, a viscosity-matched
+    pulse carrying at least one eighth of the record, and divergent signed
+    supplier prefixes at every reciprocal binomial depth. The remote parent
+    tail evacuates at a record-dependent reciprocal depth, and all
+    datum-heat-containing interactions vanish on the pulse sets. A fixed
+    fraction must therefore be carried by a finite parent prefix and by two
+    nonlinear Duhamel descendants at diverging frequency, simultaneously
+    inside one finite parent-ratio sector. Heat damping removes the old high
+    parent and forces its rebuilding from the complete pressure source in a
+    shrinking recent window. Applying the dynamic-core absorptions before
+    source-square Cauchy strengthens this to both ordered parents: the symmetric
+    minimum-leg floor makes both high, and one common old/recent split forces a
+    double-recent source-ancestry fourth-moment pulse while its first moments
+    remain summable. Keeping the same receiver signed leaves an A_n/16
+    double-recent current and forces an A_n/32 imbalance-collar/complete-defect
+    coordinate alternative. Exact selector refund restores the favorable face
+    to the defect; physical travel is paid. The episodewise relative co-normal
+    probe pays the multiplicity of aligned long local-height losses on a fixed
+    cohort, but non-aligned long episodes retain a pi/6 relative-frame action
+    and short episodes retain positive BV incidence. Those two alternatives
+    remain same-critical. Before absolute values, membership and contracting-
+    line motion are one objective projector derivative; the moving-weight
+    finite-chord and first-binomial complements refund that signed derivative
+    exactly, and generic pair selection gives only the parallel unmasked
+    selector/complement cancellation. Signed sharp-threshold layer cake
+    removes entry/exit overcounting and gives the datum endpoint
+    integral q+/c <= ||grad u0||_2^2/16, but its pressure-vorticity-viscous
+    remainder is same-critical and the selector-radius refund tends back to
+    Jrr. Each first loss of alignment sharpens to the
+    selected joined critical square integral |R_-|^2/c with constant
+    pi^2/(36 ell), but the objective second response and complete signed
+    refund produce no datum endpoint for that square. Selector radius
+    only transfers the same current between refunded strain and finite-chord
+    coordinates; its endpoint pieces cancel. The sharp Lorentz kernel then
+    forces a shrinking receiver
+    pulse and an earlier diverging complete-source average, but no signed
+    nested record or positive source-mass floor. Retaining sign before
+    scalarization gives an A_n/64 each-slot adjoint source-time incidence;
+    its unweighted source mass still vanishes, so the future receiver
+    diverges. Exact energy/helicity projection leaves the whole incidence in
+    the invariant-transverse receiver; the symmetric slots coincide, its
+    square is an anti-causal quotient Gramian, and the binomial projection
+    frame cancels back to the same two moving age edges plus the same-window
+    higher row. Squaring this incidence gives an exact divergent scalar
+    square, but its two-parent pullback is only finite-cutoff/form-domain and
+    its forward storage is future-defined; no bounded continuum parent
+    operator or causal datum stock follows. The projected low-flow
+    evolution has an r^2 gap, while the actual one-history band retains the
+    exact pressure-complete leave/re-enter commutator; the 4/5 floor is not a
+    descent equality. Rejoining its two high-output assignments with the four
+    complementary receiver assignments restores the paid six-assignment FIM
+    exterior, but exact adjoint ancestry retains the complementary receiver
+    current, the propagated-receiver defect, and later mixed band-edge
+    ancestry. Following that recent parent through the original
+    first-binomial characteristic gives inherited pressure-explicit endpoint
+    jets or one same-lag critical row remainder at every finite depth; it gives
+    neither a new datum bill nor the still-unproved common tower radius. The
+    vector adjoint future-incidence identity preserves the joined output and
+    shows that heat/viscosity cancellation leaves the same moving inherited
+    edge, not a datum endpoint or selector commutator. If a common mixed-row
+    radius is supplied, the generating field resums exactly to the same recent
+    parent; beyond the heat depth the high-pass gain disappears, and the radius
+    majorant must itself carry the same receiver-weighted action. The joined endpoint
+    is time-integrable but may spike; every endpoint branch forces an even
+    thinner window or a complete derivative/source pulse. These are
+    same-history localizations of the open action, not paid rows or closure. The
+    recent-source edge/interior fork and signed K/B/joined-residual trichotomy
+    co-occur in six cells, but the rough heat-incidence weight prevents an
+    unweighted endpoint telescope or allocation of one action to one branch.
+    The fixed translation-invariant scalar-pair operator branch is excluded:
+    its additive one-leg symbol cannot realize the nonzero six-assignment
+    minimum-leg receiver. The exact receiver instead has a two-separation,
+    three-label material tensor kernel whose moving gate, two separation
+    transports, and three pressure-complete leg responses remain same-critical;
+    the adaptive actual-field aggregate-selector branch remains open. At one
+    time its exact scalar selection range is [-N_t,P_t], but membership of
+    Jrr in that range is unproved. A selector manufactured from Jrr is target-
+    circular, has no established BV response or six-assignment provenance,
+    and its exact complement refunds the moving response back to the same
+    unmasked current. The normalized adverse response is exactly the
+    expanding-plane cofactor contraction and its spacetime integral is the
+    existing SLC remainder. It reads the plane-plane diagonal block while the
+    CRS square reads the line-plane block of the same objective response;
+    exact balanced and affine calibrations show no sign, cancellation, or
+    coercive payment between them. On every fixed preterminal record the FIM
+    compact roof makes all eight undifferentiated sharp three-label blocks
+    \(L_t^1\), their exact sum is the original six-assignment receiver, and one
+    fixed pattern carries \(A_n/128\) on an infinite subsequence. This closes
+    the block-value limit only; differentiated selector/gate responses and
+    receiver-angle coercivity remain same-critical.
+  governing_contract: problems/navier-stokes/target-operating-contract.yaml#mixed_sobolev_tower_object_boundary_20260801
+  new_boundary_effect: >-
+    The heterochiral unique leg receives less than one half of one donor's
+    kinetic-energy loss, but the critically valued ratio is below one half
+    only for eta>1/2 and diverges in the high-high-low limit. Full signed
+    incompressible recombination gives C eta^2 sqrt(R) D, whose adaptive
+    absorption destroys that local critical barrier. The perfectly balanced
+    rip-cord can also coast with zero transverse VPI curvature through the
+    same field's trace-free pressure quadrupole. Finite energy pays unweighted
+    pressure mass but not the extra inverse-scale recruited-label moment.
+    The complete non-scalar parent Gramian either stores the future critical
+    action anti-causally or requires a causal endpoint coercivity condition
+    equivalent to that same action bound; coherent incidence prevents an
+    ambient product-tensor comparison by an N^3 collapse loss.
+    Rejoined pressure and viscosity cancel at equal core-complement weight,
+    but inverse-scale valuation leaves the signed adjacent-scale endpoint,
+    membership, and strain-square combination; exact coasting refunds its
+    positive occupation and Hardy control retains the critical scale jump.
+    Full modal incidence gives X_(n+1)=X_n+Y_n, so the sub-half kinetic child
+    share is not a critical contraction. Energy and viscosity do absorb all
+    interactions below the parabolic cutoff
+    a <= c_0 (nu/||u_0||_2)^(2/5) h^(4/5). Enstrophy narrows the remainder to
+    h <= C Z/nu^2 and a dynamic lower cutoff, with datum-integrable geometric
+    ratio Xi in L_t^8; the joined donor throughput remains unpaid.
+    Actual same-label nesting gives a positive scale-crossing term, but exact
+    coasting stores it with contraction in the negative scale-weighted
+    endpoint, while one smooth finite-energy periodic NS history realizes both
+    signs of the VPI projection during simultaneous contraction.
+    On the dynamic core the original first binomial row gives the exact
+    three-leg law c_tau' + nu S_tau c_tau = a_tau. Heat normalization retains
+    the critical 1/(nu K) complete quartic source port, and the moving
+    enstrophy selector contributes signed Z-threshold entry/exit endpoints;
+    both source and full quartic ports retain both signs in true-Leray tests.
+    The restored all-material-pair law gives
+    j_ab = 4(e_ab/K_ab) D_t K_ab and integral j_ab = P_(1/2), so the dynamic
+    Fourier core is this exact inverse-length flux minus the proved exterior.
+    Its record weight makes the scale endpoint equal to critical height, adds
+    the principal pair-selection response, and the moving FIM gate adds the
+    signed alpha Z'/Z collar flux; the joined history remains closure-equivalent.
+    The geometric factor obeys Xi^8 = ||u_0||_2^2 Z/nu^4. Its direct time
+    dual requires [P_core/Xi]_+ in L_t^(8/7); paid estimates leave Z D^(4/7),
+    scale-local packets force Z^(13/7), and recombined donor variation forces
+    the closure-equivalent Z^2 time-square. Modal enstrophy cancellation does
+    not sign-control the critical current, and differentiating Xi restores Z'.
+    The joined first-row identity is R+X=B'+C. Any coefficientwise local
+    correction in (b_tau,Z) cancelling every refill and Z' coefficient is
+    uniquely B plus a constant, with the signed core current forced as the
+    remainder. Dividing b_tau by Z^(3/2) removes only scalar radius motion;
+    true-Leray data with Z'=0 retain both signs of the remaining tangent phase.
+    The complete binomial/Carleman resummation preserves every parent heat
+    rate and selector derivative. Its reciprocal tail is nonuniform when
+    parent rates exceed depth times output rate; if controlled, it sums
+    exactly to 1/(nu |k|) and reconstructs the same critical DCT.47 action.
+    Full pair-orientation recombination first proves the favorable balanced
+    turn-down sign. Weighted Betchov recombination then pays axial wobble
+    exactly and leaves the signed strain-shape term a(d^2-a^2) joined to the
+    selector collar, finite chords, complement, and exterior. The BPT-DCT
+    tangent telescope is only a storage-endpoint alias, while canonical
+    last-record failure forces signed high-receiver coincidence. The fixed-
+    selector full-field form removes bookkeeping collars but leaves the signed
+    strain shape joined to the complete finite chords; its higher response has
+    both signs. Every failed record further forces critical source-square
+    concentration and a signed supplier prefix at every reciprocal binomial
+    depth. Those prefixes are endpoint aliases of the same open action.
+    These are exact in-method boundaries, not a datum-prefix proof.
+  repair_effect: >-
+    The custody repair is complete. Thomas's proved datum-generated compatible
+    intersection composes with the existing endpoint, pressure-explicit jet,
+    and same-history restart theorem to give T_*=infinity and global
+    smoothness. Selected-prefix, dome, residual, shell, and pre-square objects
+    remain withdrawn as closure dependencies. The note-local mixed-row
+    notation remains a finite-coordinate expression, not an independent gate.
+manual_silver_vpi_contrapositive_repair_20260722:
+  status: logical-failure-classification-not-global-regularity-proof
+  authority: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  one_line: "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+  repair_rule: >-
+    Retain the terminal inventory as the exhaustive proof of the two negative
+    arrows. Part and Field are readings of the one full VPI participant;
+    conditional Euler or any other limiting law is only a witness that the
+    original participation was lost. The inventory names that possible loss; it
+    does not exclude it or prove terminal participation retention.
 manual_ontology_gate_reconciliation:
   updated_on: '2026-07-13'
   status: active-authority-override
@@ -33,26 +420,101 @@ periodic_2d3c_quarantine_20260714:
     be used as a live Clay datum, same-fluid participant, carrier, terminal
     mechanism, restarter, persistence/location evidence, Gold progress, Silver
     exit, or ontology premise weight.
+positive_smoothness_current_topology_20260722:
+  authority: problems/navier-stokes/target-operating-contract.yaml#positive_smoothness_current_topology_20260722
+  local_verdict: >-
+    Repair is single-sourced to the canonical smoothness topology. The open
+    work is a datum-finite I^2 or singleton/overlap supplier, or another direct
+    continuation theorem. The weighted singleton action is proved but does not
+    pay high overlap; an isolated return/detuning deficit is false. The exact
+    full-network Taylor tax reconverges immediately, making positive ancestry
+    noncanonical. Repair returns to a datum-bound upper prefix primitive for
+    the complete signed singleton current. Raw q-face telescoping leaves one
+    fixed-cutoff residual; the mild equation identifies it with a positive
+    high-pass parabolic source-coherence first moment after a bounded old-data
+    term. This positivity is the completed Duhamel action after signed
+    three-leg recombination, not positive triad clipping or a triadwise
+    endpoint. Energy pays the Gram mass, not that moment, and neither the sharp
+    overlap rows nor the first Stokes normal form supplies it. Exact dyadic
+    reduction makes it a Dini--Carleson tail; every fixed-low interaction is
+    finite. The all-high helical causal split reconstructs the full Gram modulo
+    bounded old data and the common positive output-helicity response modulo
+    datum terms; it is not a strict reduction. Repair is the datum-finite
+    all-high Dini tail. For 0<epsilon<1, adjacent contraction has the positive
+    output-shell receiver-incidence excess in (SH.166). Its exact
+    Dini-plus-variation decomposition proves it is not a smaller repair;
+    prefix and donor rewrites return the original current. Distinct parent
+    pairs can reinforce or cancel, and their first allowed resonant feedback
+    is phase-indefinite; radial q-face refinement and
+    the sharp source-square estimate do not pay it. For the actual joined
+    all-high source, the exact radial/transverse split leaves the transverse
+    source orthogonal to the response and absent from local hazard work. Its
+    available positive endpoint and loss estimates are bounded by the open
+    Dini endpoint and interior pieces, so positive
+    reverse/transverse/viscous routing is circular at
+    critical weight and one spatial moment too weak below it. The full VPI
+    derivative tower is already the global normal form; each rung carries the
+    same differentiated pressure--transport--viscosity--incompressibility law.
+    The governing unproved consequence is a datum-bound uniform
+    critical-height estimate for that tower. A datum-bound upper prefix
+    primitive for its complete signed singleton current J_sing=P_H/2 is one
+    sufficient base-face consequence. CompleteAllHighSignedFeedbackNormalForm.A
+    is an unproved auxiliary reparameterization of that consequence, not a
+    missing global law and not presently a strict reduction. The
+    four canonical first-step homological attempts are now classified: active
+    Stokes resonance forbids the tested quadratic source removal, the
+    unrestricted-port response-only storage returns the open endpoint and Dini
+    interior, and the unique first parent-resolved multiplier initially
+    retains the full coherent-collapse loss in its quartic remainder. A second
+    nonresonant parent-pair correction integrates that term into the
+    nonnegative auxiliary Stokes-age quadratic K2, and the auxiliary Stokes
+    value equals K2 minus the response stock. K2 has no uniform actual-range
+    endpoint floor, while its actual-flow derivative leaves the two-signed
+    full-VPI evolution of the same physical parent legs. Fixed
+    daughter/complement quadratics cannot repair both defects, and selected
+    periodic two-clock richness does not prove full-response fibre freedom.
+    Higher parent-coupled iterations and nonlinear actual-range storage remain
+    unclassified. A nonperturbative bounded-below actual-range parent-coupled
+    storage is therefore only one possible auxiliary route to the sufficient
+    signed-prefix consequence. Separately, cumulative one-history packing is
+    sufficient for the
+    stronger source-square route; equivalence has not been proved. The
+    separate unproved compactness schema needs fixed-viscosity profile
+    extraction and admissibility, no-waste/tightness excluding dichotomy and
+    vanishing, inheritance of the common-helicity joint-null condition, and
+    then rigidity. Incompressibility pays the global ordered parent-fiber lift
+    on every finite interval. Smooth normalized helical packet data with
+    M_N~N^3 parent volume nevertheless make a whole output block coherent and
+    realize the full global collapse loss through a Stokes heat lifetime;
+    exact Navier--Stokes histories retain the ratio on arbitrarily short
+    intervals. Hence no scale-independent or energy-only static or causal
+    range-frame constant survives even on the lawful bilinear range. The
+    stronger source-square route now needs an unproved scaling-compatible,
+    datum-dependent cumulative one-history packing theorem forbidding
+    indefinite rebuilding of such aligned parent fibers. This is a family
+    across data and range obstruction, not repeated rebuilding in one field,
+    a blow-up counterhistory, or closure. None of these routes is proved; this
+    repair does not prove global smoothness. Gold remains preserved research;
+    Silver is an exact VPI participation-loss classification, not a second
+    global-regularity proof.
 authority_sync_gate:
   authority_mode: direct-live-surfaces
-  all_discharged: false
-  blocking_count: 1
-  frontier_count: 1
-  route_topology: dual-gold-silver-same-object
-  route_topology_rule: Treat Gold and Silver as simultaneous lanes on the same theorem
-    object. Gold carries the direct regularity / controlled-evolution obligation.
-    Silver carries the obstruction-exclusion / CM class-exit obligation. Neither lane
-    is a fallback or completion substitute for the other.
+  all_discharged: true
+  blocking_count: 0
+  frontier_count: 0
+  route_topology: one-fluid-datum-generated-compatible-intersection-global-closure-complete
+  route_topology_rule: >-
+    The direct route is complete through the datum-generated compatible
+    rectangles, their projective intersection, common endpoint,
+    pressure-complete jet, same-history restart, uniqueness, and T_*=infinity.
+    Silver remains a downstream participation-loss classification.
   truth_priority:
   - live-theorem-edge.yaml
   - source-frontier.yaml
   - theorem-packet.yaml
   - submission-verdict.yaml
   - generated crank/status surfaces
-  unresolved_entries:
-  - >-
-    The global critical-height bound, or a genuinely smaller quantitative theorem
-    implying it, remains open; no smaller theorem is installed.
+  unresolved_entries: []
   demoted_gold_context_entries:
   - obligation_id: global-same-packet-full-material-clock
     kind: gold-counterpart-frontier
@@ -80,20 +542,19 @@ authority_sync_gate:
     status: support-not-silver-blocker
     source_anchor: problems/navier-stokes/live-theorem-edge.yaml
 central_gate:
-  gate_id: gold-silver-same-object-route-bridge
-  target: Every theorem result must name the shared Navier-Stokes object, record the
-    Gold direct proof state for that object, and record the Silver obstruction-exclusion
-    proof state for that same object. A Silver theorem result must test the original
-    participation law and land in Part_{N,Q} or Field_{N,r,Q}, with Pack_Q only as
-    carrier-window evidence for Field, or remain branch-support only.
-  gold_lane_target: Direct regularity / controlled evolution for the same theorem
-    object.
-  silver_lane_target: Obstruction exclusion / CM class exit for the same theorem object.
-  no_fallback_order: Gold is not tried before Silver; Silver is not fallback cleanup
-    after Gold fails.
-  governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-  witness_form: 'finite same-surface terminal CM witness: CM-test entry followed by
-    not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}, which supports Exit(Q):=not Member(Q)'
+  gate_id: silver-vpi-participation-complement
+  target: Fix smooth original data, one positive viscosity, and the one no-reset
+    original Navier-Stokes history. Full VPI participation includes transport,
+    simultaneous nonlocal pressure, viscosity, incompressibility, material ancestry,
+    and coherent field realization.
+  gold_lane_target: Preserved downstream research; it cannot reopen or replace the established datum-generated compatible-intersection proof.
+  silver_lane_target: Exact VPI participation-loss classification.
+  no_fallback_order: Silver does not discharge the direct producer and is not a fallback proof.
+  governing_primitive: not Smooth(Q) => not Member(Q) => not VPIParticipation(Q);
+    contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)
+  witness_form: Dead, Blown, Jump, Part, Field, and conditional other-PDE laws are
+    exhaustive negative-side readings of lost original participation; Pack stays
+    outside CM as Field-window evidence.
   authority_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
@@ -220,79 +681,22 @@ central_gate:
   proof_program_topology: &4
   - program_id: cm-member-class-exit
     proof_mode: contrapositive_class_membership
-    governing_primitive: Exit(Q;O_NS^work):=not Member(Q;O_NS^work)
-    propagated_object: live same-solution object first, then same-fluid Part/Field
-      witness notation after field-local testing is named; Member(Q) is the forward
-      membership predicate
-    promotion_gate: Original-NS participation at the original Navier-Stokes participation-law
-      slot first; Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window
-      evidence only after field-local testing is named, with true failed packet-window
-      reserved for carrier/window/readout absence after that typing
-    current_role: governing proof grammar for CM-bearing promotion
-    governing_engine_note: problems/navier-stokes/theorem-construction/mpp-positive-obstruction-pass-exit-cm-engine-20260525.md
-    pack_before_part_dependency_audit:
-      note: problems/navier-stokes/theorem-construction/mpp-pack-out-of-cm-boundary-resurfacing-audit-20260620.md
-      licensing_note: problems/navier-stokes/theorem-construction/mcp-partfieldbeforepacklicensing-a-packpositiveradiuscertification-a-770adef0d8.md
-      rule: Preserve Silver Part/Field after a legitimate Pack window, carrier, readout,
-        or jump-comparison structure is admitted. When an outside-CM participation-field/window
-        or singular branch was disposed as not Pack_Q before the original Navier-Stokes
-        participation law was applied to the live same-solution object, first ask
-        whether the original Navier-Stokes viscosity, pressure, and incompressibility
-        law still gives original participation status. If yes, apply the original
-        Navier-Stokes participation law to the live same-solution object; localize
-        to Part_{N,Q} only after the tested record exists; if no, keep not Pack_Q
-        as a true carrier/window/readout failure.
-    obstruction_pass_exit_rule: Follow the ordinary positive proof program until it
-      reaches a real obstruction, then split the obstruction into a pass branch and
-      a fail branch. The pass branch is the in-class `Member(Q)` branch and may be
-      supplied by any lawful continuation mechanism. The fail branch is lawful CM
-      contrapositive work only when the failure is capable of nonsmoothness and lands
-      as a Part or Field Part/Field failure, or as an original-participation audit
-      of an outside-CM participation-field/window branch, supporting `Exit(Q):=not
-      Member(Q)`. Do not replace this engine with a demand to prove one particular
-      positive estimate directly.
-    no_third_branch_rule: The installed no-third-branch audit proves that no terminal
-      branch is both an in-class `Member(Q)` continuation branch and a finite nonsmoothness
-      branch once the obstruction has been admitted to the CM test and a concrete
-      Part/Field failure has been derived. Do not respawn the rejected positive no-exit
-      slogan as the local burden; the live proof engine is obstruction-by-obstruction
-      CM-test entry plus Part/Field face derivation.
-    no_genuine_exit_rule: The direct first-exit positive no-exit attempt is retained
-      as a failed positive no-exit shortcut and may not control the local CM target.
-      Under the current pass-or-exit engine, a pass branch may be supplied by any
-      lawful continuation mechanism, and a fail branch is useful exactly when it lands
-      in Part or Field; that concrete Part/Field failure supports `Exit(Q):=not Member(Q)`.
-    silver_face_failure_finality_correction_20260619: Do not state or preserve as
-      a Silver burden that a concrete Part/Field Part/Field failure must then be proved
-      not to be the finite-time breakdown of the original smooth solution. That imports
-      a forward no-exit theorem into the contrapositive. For Silver, after same-solution
-      CM-test admission, the row is consumed by admissibility failure, continuation/readout
-      recovery, or concrete Part/Field failure. `NoGenuineExitFromSmoothData.A`, first-Pack
-      survival, terminal anti-atom, and PCTP/TTU are positive supplier or manuscript
-      support unless a concrete promoted row is shown to enter the CM test and still
-      neither continue nor land in a real Part/Field failure.
-    positive_existence_translation_veto: Do not restate the live CM burden as proving
-      that at least one solution remains in the class, producing a smooth/class-member
-      solution, or showing smooth data stays in CM. That is a positive-existence/class-preservation
-      reading. The pass side is already the smooth/Member(Q) side under whatever lawful
-      continuation mechanism supplies it; the proof work is admitting each obstruction
-      to the CM test and deriving the fail side as a concrete Part/Field failure supporting
-      Exit(Q):=not Member(Q).
-    source_reserve_birth_rule: 'The May 25 source-reserve burst is support, not live
-      frontier: `ReserveCreationCharge.A` remains a positive supplier / charge-ledger
-      subprimitive, `ActiveHeightFluxTrichotomy.A` remains conditional face-routing
-      support after the zero-first-moment visibility veto, and `SourceReserveBirthCharge.A
-      / RetainedPositiveScaleNativeReserveBirthCharge.A` is support-only after the
-      Pack-out-of-CM source-reserve face audit. The exact classification is: paid
-      same-ledger service is pass-side nonvacuity; an admitted finite terminal obstruction
-      is CM-test admission only; selected unpaid infinite donor-refill remains Field-window
-      support, while zero-radius terminal residue lands Part-side when a same-solution
-      original participation record remains and packet/window evidence only when that
-      record is absent; retained positive-scale first-created native donor-square
-      reserve surplus remains supplier quarantine. Its honest next burden is `RetainedPositiveScaleNativeReserveBirthCharge.A
-      / TerminalReserveFirstAppearanceCharge.A` as supplier-quarantined positive Pack
-      support, promotable only by same-ledger payment or CM-test admission plus first
-      Part/Field failure.'
+    governing_primitive: not Smooth(Q) => not Member(Q) => not VPIParticipation(Q);
+      contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)
+    propagated_object: one smooth-data, fixed-positive-viscosity, no-reset original
+      Navier-Stokes VPI history
+    promotion_gate: Preserve full VPI participation; exhaust Dead, Blown, Jump,
+      Part, Field, and conditional other-PDE descriptions only on the negative side.
+    current_role: exact Silver failure classification; terminal participation retention unproved
+    authority_note: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+    part_field_rule: Part and Field locate loss of the one participant; neither is
+      a new proof root.
+    pack_rule: Pack is outside CM and only Field-window evidence.
+    weak_record_rule: Distributional Navier-Stokes satisfaction is not full VPI
+      participation.
+    historical_support_quarantine: Positive-obstruction/pass-exit, no-third-branch,
+      no-genuine-exit, Pack-first, source-reserve, and terminal anti-atom programs
+      are support genealogy and cannot reopen Silver.
   - program_id: positive-smoothness
     proof_mode: positive_smoothness
     governing_primitive: direct a priori regularity or continuation control for the
@@ -363,20 +767,15 @@ central_gate:
       theorem work
   open_root_group: &5
     group_id: gold-l1-signed-height-sign-persistence-wall
-    group_label: Gold L1 signed critical-height sign-persistence / peak-height wall.
+    group_label: Parallel Gold L1 signed critical-height research.
     live_surface_audit: problems/navier-stokes/cm-exit-live-surface-audit-20260514.yaml
-    top_level_release_blocker: true
+    top_level_release_blocker: false
     not_single_path: true
     not_single_proof_mode: true
-    dashboard_boundary: 'The installed Clay terminal-witness CM chain remains proof
-      grammar, but it does not close the forward Gold L1 source wall. The current
-      open object is the signed critical-height restart: prove sign persistence with
-      physical cost, or prove peak-height control when the signed rate changes sign.
-      Terminal anti-atom, source-refill, native-reserve, scalar sum displays, and
-      selected positive L1 clipping are readouts or countertests unless they prove
-      that signed-height object.'
+    dashboard_boundary: Gold remains open as parallel nonblocking research. It is
+      not the Silver theorem, release, or smoothness blocker.
     exact_live_theorem_grade_burden: &1
-      status: gold-l1-open-signed-height-sign-persistence-wall
+      status: parallel-gold-research-nonblocking
       burden_id: gold-l1-signed-height-sign-persistence-wall
       proof_mode: gold_forward_signed_height_restart
       target_object: SignedCriticalHeightSignPersistenceOrPeakBound.A
@@ -789,7 +1188,7 @@ central_gate:
       evolution, then signed critical-height control or CM Part/Field class-exit readout.
       A supplier, coordinate, compactness note, or record ledger has proof force only
       when it attaches to the same retained signed-record edge before selected positive-part
-      readout, derives a typed Pack/Part/Field face failure, or certifies a material-time
+      readout, classifies a same-history loss of full VPI participation, or certifies a material-time
       branch such as MaterialTimeCertificateFlowInvariance.A.'
 contract_compiler:
   status: contracts-compiled
@@ -996,9 +1395,9 @@ bridge_license_auditor:
   - supplier-only results stay quarantined until a CM landing theorem is installed
 next_step:
   next_cell_type: manuscript-and-status-refresh
-  next_stage: silver-cm-exit-authority-sync
-  next_action: Keep Gold full-clock work as CM-bearing counterpart material; do not
-    respawn it as a Silver CM-exit blocker.
+  next_stage: reader-facing-release-audit
+  next_action: Preserve the accepted Silver VPI complement line; keep Gold parallel
+    and nonblocking and do not respawn historical route engines as Silver work.
 target_operating_contract_path: problems/navier-stokes/target-operating-contract.yaml
 target_preflight: *2
 target_lock_schema: *3

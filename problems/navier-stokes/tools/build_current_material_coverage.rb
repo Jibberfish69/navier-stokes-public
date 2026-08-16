@@ -9,12 +9,15 @@ require "yaml"
 ROOT = Pathname.new(__dir__).join("../../..").expand_path
 NS_ROOT = ROOT.join("problems/navier-stokes")
 OUTPUT_PATH = NS_ROOT.join("submission-bundle/current-material-coverage.yaml")
+TARGET_OPERATING_CONTRACT = NS_ROOT.join("target-operating-contract.yaml")
 
 CHECKABLE_EXTENSIONS = %w[
   .md .yaml .yml .tex .rb .py .txt .json .jsonl
 ].freeze
 
 DIRECT_LIVE_AUTHORITY = %w[
+  problems/navier-stokes/PROOF-PROGRAM.md
+  problems/navier-stokes/proof-program-surface-registry.yaml
   problems/navier-stokes/live-theorem-edge.yaml
   problems/navier-stokes/source-frontier.yaml
   problems/navier-stokes/theorem-packet.yaml
@@ -32,19 +35,74 @@ COVERAGE_SELF_SURFACES = %w[
   problems/navier-stokes/tools/build_current_material_coverage.rb
 ].freeze
 
-CURRENT_AUTHORITY_OVERRIDE_20260702 = "This inventory is provenance/coverage bookkeeping only. Filenames or rows that mention native-reserve, source-refill, Pack anti-concentration, closed periodic branches, or older Gold suppliers are not current theorem authority. The current Gold L1 source wall is the signed critical-height sign-persistence / peak-height theorem from the Navier-Stokes equation; sums are typed readouts only.".freeze
-CURRENT_GOLD_L1_CUSTODY_20260702 = {
-  "status" => "gold-l1-open-signed-height-sign-persistence-wall",
-  "physical_object_first" => "original parent packet before child clipping",
-  "current_wall" => "signed critical-height sign-persistence / peak-height theorem",
-  "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
-  "forbidden_promotion" => "inventory rows, filenames, source-refill, native-reserve, terminal anti-atom, or Pack anti-concentration displays cannot close Gold L1 unless they prove the signed-height object"
+target_contract = YAML.load_file(TARGET_OPERATING_CONTRACT.to_s) || {}
+proof_completion = target_contract.fetch("proof_program_completion")
+unless proof_completion["status"] == "established-complete" &&
+       proof_completion["mpp_status"] == "solved" &&
+       proof_completion["producer_status"] == "proved-datum-generated-whole-terminal-compatible-rectangles" &&
+       proof_completion["closure_status"] == "proved" &&
+       proof_completion["active_direct_boundary"] == "none"
+  abort "canonical completed proof-program authority changed"
+end
+silver_program = Array(target_contract["proof_program_topology"]).find do |entry|
+  entry.is_a?(Hash) && entry.key?("silver_vpi_contrapositive_audit_20260722")
+end
+abort "canonical Silver program missing from #{TARGET_OPERATING_CONTRACT}" unless silver_program
+
+silver_contract = silver_program.fetch("silver_vpi_contrapositive_audit_20260722")
+silver_rule = silver_program["silver_vpi_complement_rule"] || silver_program.fetch("silver_one_line_rule_20260722")
+gold_lane = target_contract.fetch("open_root_group", {})
+gold_burden = gold_lane.fetch("exact_live_theorem_grade_burden", {})
+silver_one_line = silver_contract.fetch("one_line")
+required_silver_fragments = [
+  "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)",
+  "VPIParticipation(Q) => Member(Q) => Smooth(Q)"
+]
+unless required_silver_fragments.all? { |fragment| silver_one_line.include?(fragment) }
+  abort "canonical Silver program no longer contains the VPI complement contrapositive"
+end
+unless silver_rule.include?("Pack") && silver_rule.include?("outside CM")
+  abort "canonical Silver program no longer keeps Pack outside CM"
+end
+unless silver_contract.fetch("closure_status") == "logical-classification-terminal-participation-retention-unproved"
+  abort "canonical Silver classification changed its terminal-retention boundary"
+end
+unless gold_burden["status"] == "parallel-gold-research-nonblocking" && gold_lane["top_level_release_blocker"] == false
+  abort "canonical Gold lane is no longer independent and nonblocking"
+end
+
+CURRENT_AUTHORITY_OVERRIDE_20260722 = "This inventory is provenance and coverage bookkeeping only. The direct datum-generated compatible-intersection proof is established complete: compatible whole-terminal rectangles, projective intersection, common smooth endpoint, pressure-complete jet, restart, uniqueness, and T_*=infinity. Silver remains an exact downstream participation-loss classification; Pack remains Field-window evidence outside CM.".freeze
+GOLD_L1_CUSTODY_PROVENANCE_20260702 = {
+  "current_authority_override_20260702" => "The 2026-07-02 Gold custody audits remain historical downstream support under the completed direct proof.",
+  "inventory_role" => "provenance/coverage bookkeeping only",
+  "historical_sufficient_route" => "signed critical-height sign-persistence / peak-height theorem",
+  "current_interpretation" => "Preserve the sum and coupled-storage custody constraints without creating a second live theorem obligation."
+}.freeze
+CURRENT_SILVER_AUTHORITY_20260722 = {
+  "status" => "downstream-logical-classification-not-required-for-direct-closure",
+  "classification_status" => silver_contract.fetch("closure_status"),
+  "mathematical_status" => proof_completion.fetch("status"),
+  "mpp_status" => proof_completion.fetch("mpp_status"),
+  "active_direct_boundary" => proof_completion.fetch("active_direct_boundary"),
+  "producer_status" => proof_completion.fetch("producer_status"),
+  "closure_status" => proof_completion.fetch("closure_status"),
+  "authority" => silver_contract.fetch("authority"),
+  "one_line" => silver_one_line,
+  "proof_method" => silver_contract.fetch("proof_method"),
+  "same_history_rule" => silver_rule,
+  "terminal_presentations" => silver_contract.fetch("terminal_presentations"),
+  "conditional_euler" => silver_contract.fetch("conditional_euler"),
+  "weak_record_boundary" => silver_contract.fetch("weak_record_boundary"),
+  "pack_boundary" => "Pack is Field-window evidence outside CM.",
+  "gold_status" => gold_burden.fetch("status"),
+  "gold_top_level_release_blocker" => gold_lane.fetch("top_level_release_blocker"),
+  "artifact_boundary" => "Paper and PDF work is separate from mathematical proof status and outside this no-paper repair."
 }.freeze
 
 FAMILIES = [
   {
     "id" => "basac_pressure_zeno_source_residue_family",
-    "paper_representation" => "Represented by the source-wall, Zeno, signed-current/no-free-sink, retained amplitude, pressure/source-residue, and Field-certification terminal atom discussions. These notes are supplier, diagnostic, Pack-zero-radius, Part/source-residue, or retained Field/readout support according to first-face order; they do not add a fourth primitive face.",
+    "paper_representation" => "Historical source-wall, Zeno, signed-current, retained-amplitude, pressure/source-residue, and terminal-atom notes are preserved as provenance and negative-side presentation support. Any lawful use must reduce the alleged departure to loss of membership and full VPI participation on the same original history. Part and Field may locate that one loss; Pack remains Field-window evidence outside CM and never becomes an extra Silver premise.",
     "files" => %w[
       theorem-construction/mpp-basac-uniform-integrability-rigid-subclass-attempt-20260517.md
       theorem-construction/mpp-pure-pressure-sustain-residue-liouville-required-20260517.md
@@ -91,7 +149,7 @@ FAMILIES = [
   },
   {
     "id" => "late_l3_duhamel_translator_notes",
-    "paper_representation" => "Represented by the local critical translator and same-ledger heat ancestor discussion. The role is branch-local CM landing support, not generic public-critical-class closure.",
+    "paper_representation" => "The local critical translator and same-ledger heat-ancestor notes are preserved as branch-local support for identifying a presentation of lost full VPI participation. They are not independent Silver premises or generic critical-class closure.",
     "files" => %w[
       theorem-construction/mpp-terminal-leray-independent-gates-direct-attempt-20260517.md
       theorem-construction/mpp-terminal-leray-commutator-legal-l3-proof-20260522.md
@@ -100,7 +158,7 @@ FAMILIES = [
   },
   {
     "id" => "late_cm_direction_or_same_ledger_notes",
-    "paper_representation" => "Represented by the same-ledger rule, Clay witness entry, terminal Part/Field exhaustion, and the statement that preterminal reflection is an invalid bridge with no proof force.",
+    "paper_representation" => "The same-ledger, witness-entry, terminal Part/Field, and preterminal-reflection notes are retained as provenance for the negative inventory. The exhaustive implication and its direct contrapositive classify full VPI participation; they do not prove terminal retention of that participation or supply a separate no-exit theorem.",
     "files" => %w[
       theorem-construction/mpp-clay-solution-cm-exit-inadmissibility-20260523.md
       theorem-construction/mpp-clay-admissible-breakdown-cm-lawfulness-test-20260524.md
@@ -116,7 +174,7 @@ FAMILIES = [
   },
   {
     "id" => "cm_class_law_completion_and_adversarial_audits",
-    "paper_representation" => "Represented by the class-law closure, O_pass/O_fail obstruction split, source-reserve root CM Part/Field-consumption, surface-field completion audit, and the uniform two-sided obstruction lemma. The Clay-facing proof uses the pass-or-exit obstruction engine: the pass side supplies local non-vacuity by the simplest lawful smooth/Member(Q) witness, while the fail side closes only after CM-test entry and a concrete Part/Field failure. The 2026-05-28 critical H^{1/2} route notes are represented here as conditional CM class-exit/Field landing support; they do not by themselves certify a new export theorem. Stale positive-bootstrap, positive no-exit, and forward no-free-sink objections do not become CM-merited objections unless they attack terminal CM entry, Part/Field exhaustion, or exhibit a genuine in-class nonsmooth third branch.",
+    "paper_representation" => "These class-law, pass/fail, no-third-branch, source-reserve, Part/Field, surface-field, and critical H^{1/2} notes are historical provenance beneath the current Silver classification. They may help exhaust how an alleged nonsmooth departure loses membership and full VPI participation, but no pass-or-exit engine, positive witness, no-third theorem, no-exit theorem, or Gold estimate proves terminal retention. Dead, Blown, Jump, Part, Field, Reynolds/pressure/coherence defects, and a conditionally selected other PDE are presentations of the one negative-side participation loss; Pack remains outside CM.",
     "files" => %w[
       theorem-construction/mcp-mpp-ttu-a-1ddd943b9d.md
       theorem-construction/mpp-nightly-terminal-cm-witness-red-team-20260524.md
@@ -156,7 +214,7 @@ FAMILIES = [
   },
   {
     "id" => "local_energy_elliptic_formalization_support",
-    "paper_representation" => "Represented as support/diagnostic machinery under source-wall, Zeno, and surface-classification support. These files do not supply independent Part/Field authority.",
+    "paper_representation" => "These local-energy and elliptic formalization files are preserved as diagnostic provenance. They may help recognize a negative-side loss of full VPI participation, but they do not supply independent Silver, Part, or Field authority.",
     "files" => %w[
       theorem-construction/mpp-elliptic-time-smearing-direct-attempt-20260517.md
       theorem-construction/mpp-local-energy-trace-anti-atom-direct-attempt-20260517.md
@@ -165,7 +223,7 @@ FAMILIES = [
   },
   {
     "id" => "r3_export_critical_wall_notes",
-    "paper_representation" => "Represented as whole-space export and critical-wall support. These notes classify R3 continuation criteria through the same Part/Field grammar, while the reader-facing periodic proof spine remains governed by the T3 terminal witness. A future R3 localization and tightness theorem is the required export bridge.",
+    "paper_representation" => "These whole-space and critical-wall notes are retained as R3 comparison and Gold-support provenance. Silver remains the same one-history VPI complement contrapositive; no R3 localization, tightness, continuation estimate, or Gold theorem is a Silver premise. Any Part or Field language here is only a presentation of negative-side nonparticipation, with Pack outside CM.",
     "files" => %w[
       theorem-construction/r3-cm-contrapositive-sobolev-hs-energy-20260528.md
       theorem-construction/r3-cm-contrapositive-vorticity-bkm-strain-20260528.md
@@ -183,7 +241,7 @@ FAMILIES = [
   },
   {
     "id" => "euler_mirror_current_exclusions",
-    "paper_representation" => "Explicitly excluded from the non-Euler CM paper and represented only as Euler-mirror comparison support: periodic/global weak branch, smooth-layer-to-slip-sheet limits, boundary/axisymmetric Chen-Hou blowup imports, no-boundary Euler class boundaries, and shared Pack/non-one-field grammar notes do not promote into the Navier-Stokes CM proof spine.",
+    "paper_representation" => "Euler-mirror files are comparison provenance only and never a backward premise for Navier--Stokes smoothness. The proof begins with the original fixed-positive-viscosity Navier--Stokes history. Euler is selected forward from that same history only when effective viscosity and all Reynolds, forcing, pressure, incompressibility, and ancestry defects vanish; imported Euler branches do not promote into Silver. Pack remains outside CM.",
     "files" => %w[
       euler-mirror/theorem-construction/boundary-axisymmetric-smooth-data-euler-blowup-import-20260524.md
       euler-mirror/theorem-construction/global-periodic-same-datum-weak-branch-euler-import-20260524.md
@@ -212,7 +270,7 @@ FAMILIES = [
   },
   {
     "id" => "human_app_aligned_branch_material",
-    "paper_representation" => "Late-May branch rebuild notes, rebuilt section files, and R3/critical-carrier support notes route through the human/app-aligned submission track as branch-support and CM-face material. The Codex-structured papers track may consume this material as source, but the two PDF tracks remain separate required Clay-facing edges.",
+    "paper_representation" => "Late-May branch rebuild notes, rebuilt sections, and R3/critical-carrier notes are manuscript provenance and negative-side presentation support. They do not replace the one-line Silver classification or prove terminal participation retention. Human/app-aligned and Codex-structured PDF tracks are separate artifact surfaces outside this proof-program repair.",
     "files" => %w[
       submission-bundle/human-author-chronological-cm-exit-manuscript-architecture-20260530.md
       submission-bundle/pdf-rebuild-branch-inventory-20260530.md
@@ -236,7 +294,7 @@ FAMILIES = [
   },
   {
     "id" => "june_2026_active_cm_completion_notes",
-    "paper_representation" => "June 2026 theorem notes are represented as the current CM inventory-gate record. They sharpen Clay counterexample exclusion, Pack_Q reader certification, retained pressure/finite-energy obstruction placement, averaged Jump_avg and receiver readout issues, RSCB/SCF_avg Part/Field landing, Field-to-Part collapse, and the no-proof-force classification of generic Part/Field no-exit blockers. Current proof-facing use is the finite-obstruction inventory criterion: named promoted rows need same-witness CM entry plus Part/Field face certification, while generic support rows stay support-only.",
+    "paper_representation" => "June 2026 inventory, pressure, Jump, receiver, RSCB/SCF, Part, Field, and no-exit notes are retained as historical provenance for exhausting presentations of participation loss. The governing proof-facing use is only the negative implication not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); Part and Field locate that loss, Pack is Field-window evidence outside CM, and generic rows remain support-only.",
     "files" => %w[
       theorem-construction/mpp-nightly-20260602-clay-counterexample-exclusion-pressure-note.md
       theorem-construction/mpp-clay-counterexample-exclusion-target-correction-20260603.md
@@ -272,7 +330,7 @@ FAMILIES = [
   },
   {
     "id" => "d8_route_app_graph_pdf_sync_surfaces",
-    "paper_representation" => "D8 route maps and executor sync payloads are represented as app/graph/PDF coordination material. They expose the route, graph, MCP, manuscript, and submission surfaces from the finite-obstruction inventory gate; theorem authority remains in the referenced theorem notes and referee audit.",
+    "paper_representation" => "D8 route maps and executor sync payloads are app, graph, manuscript, and submission coordination provenance. They have no independent proof force and must inherit the canonical Silver VPI complement contrapositive from the direct authority surfaces.",
     "files" => %w[
       d8-completion-route-map.yaml
       ns-logical-tree-bridge-reconciliation-20260607.yaml
@@ -286,7 +344,7 @@ FAMILIES = [
   },
   {
     "id" => "dual_pdf_submission_independent_surfaces",
-    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+    "paper_representation" => "Submission executor scaffolds, boundary records, and submission-sync ledgers are PDF/manuscript provenance only. They may record distinct artifact outputs, but theorem authority remains the canonical Silver VPI complement contrapositive; PDF and export readiness are audited separately, and Gold remains independent nonblocking research.",
     "files" => %w[
       submission-bundle/ns-completion-executor-proof-scaffold-20260607-iteration-2.md
       submission-bundle/ns-completion-executor-proof-scaffold-20260607.md
@@ -310,6 +368,13 @@ FAMILIES = [
       tools/check_pdf_argument_hygiene.rb
       tools/check_pdf_output_topology.rb
       tools/promote_repo_depth_to_pdf.rb
+    ]
+  },
+  {
+    "id" => "quarantined_codex_reversible_intersection_draft",
+    "paper_representation" => "The Codex-created reversible-intersection bundle is retained only as forensic provenance. It has no theorem-authority, manuscript-baseline, source, or referee-audit role and cannot validate any generated artifact.",
+    "files" => %w[
+      quarantine/codex-reversible-intersection-draft-20260816/QUARANTINE.md
     ]
   }
 ].freeze
@@ -394,19 +459,19 @@ end
 
 add_dynamic_family.call(
   "current_theorem_creation_candidate_notes",
-  "Current theorem-creation candidate notes are represented by the representation rule as candidate support, pressure tests, or support-only positive-forward attempts. They have no downstream proof force unless a downstream audit lands the exact same witness in Pack_Q, Part_{N,Q}, Field_{N,r,Q}, membership readout, terminal packet capture, or the terminal CM entry/exhaustion/embedding chain.",
+  "Current theorem-creation candidate notes are support, pressure tests, or positive-forward attempts with no independent Silver closure force. They may only help classify a concrete nonsmooth presentation as loss of membership and full VPI participation on the same original history; they do not prove terminal retention. Pack remains outside CM.",
   %r{\Atheorem-construction/.*-theorem-creation-\d{8}\.md\z}
 )
 
 add_dynamic_family.call(
   "current_executor_route_app_graph_pdf_sync_surfaces",
-  "Current executor route-sync and proof-lane files are represented as app, graph, MCP, and theorem-frontier coordination material. They may name the next CM Part/Field to attack, but theorem authority remains in the cited proof notes, direct live edge, source frontier, and Part/Field referee audit.",
+  "Current executor route-sync and proof-lane files are app, graph, MCP, and theorem-frontier coordination provenance. They must inherit the established direct compatible-intersection proof and preserve Silver as a downstream classification.",
   %r{\A(?:(?:ns-completion-executor-route-sync|ns-completion-route-sync-payload)-\d{8}(?:-iteration-\d+)?\.yaml|theorem-construction/ns-completion-executor-proof-(?:blocker|frontier)-\d{8}(?:-iteration-\d+)?\.md)\z}
 )
 
 add_dynamic_family.call(
   "current_executor_dual_pdf_submission_independent_surfaces",
-  "Current executor submission-boundary, proof-scaffold, and submission-sync files are represented as independent PDF manuscript surfaces and provenance material. They record the preferred human/app-aligned PDF and the Codex-structured papers PDF as separate required outputs; route-state data is source context for each paper separately while proof authority remains in the finite-obstruction inventory gate and manuscript/PDF quality checks.",
+  "Current executor submission, proof-scaffold, and submission-sync files are PDF/manuscript provenance. They may track distinct artifact outputs, but they must preserve the established whole-terminal producer and completed endpoint/restart closure.",
   %r{\Asubmission-bundle/ns-completion-(?:executor-proof-scaffold|executor-submission-boundary|submission-sync)-\d{8}(?:-iteration-\d+)?\.(?:md|yaml)\z}
 )
 
@@ -424,7 +489,7 @@ add_dynamic_family.call(
 
 add_dynamic_family.call(
   "current_paper_arc_production_support",
-  "Paper-arc production runs, author packs, prompts, critic reports, verifier files, certified/integrated snapshots, and next-author targets are generated authoring support. They are intentionally classified as support residue with no independent proof authority; proof force must appear in the direct manuscript, theorem notes, source frontier, or Part/Field audit.",
+  "Paper-arc production runs, author packs, prompts, critic reports, verifier files, snapshots, and next-author targets are authoring support with no independent proof authority. Any proof-facing summary must inherit the completed datum-generated compatible-intersection proof from direct authority.",
   %r{\Asubmission-bundle/paper-arc-production-runs/}
 )
 
@@ -436,13 +501,31 @@ add_dynamic_family.call(
 
 add_dynamic_family.call(
   "current_thread_trajectory_support",
-  "Thread trajectory files preserve active thread, goal-loop, and routing state. They can identify the live working lane and required rehydration surfaces, but they do not create theorem authority; proof force remains in the direct live edge, theorem notes, source frontier, manuscript, and referee/audit surfaces.",
+  "Thread trajectory files preserve active thread, goal-loop, and routing state. They can identify the live working lane and required rehydration surfaces, but they do not create theorem authority; direct mathematics and its quantified estimates decide proof force.",
   %r{\Athread-trajectories/}
 )
 
 add_dynamic_family.call(
+  "current_ontology_provenance",
+  "Ontology, ontology-derivation, participation-hierarchy, and archived ontology files preserve the one-fluid vocabulary and its development. They do not independently prove terminal participation retention; proof-facing consumers must preserve the one-history classification boundary and keep Pack outside CM.",
+  %r{\Aontology(?:-archive/|[-.]|\.md)}
+)
+
+add_dynamic_family.call(
+  "current_external_paper_provenance",
+  "External-paper drafts are comparison and writing provenance with no independent Navier--Stokes theorem authority. They may not replace the original fixed-viscosity history, the exhaustive VPI complement, or its direct contrapositive.",
+  %r{\Aexternal-paper/}
+)
+
+add_dynamic_family.call(
+  "current_periodic_comparison_quarantine",
+  "Periodic 2D3C quarantine records are comparison-control provenance. They cannot supply a live Silver premise or replace the same original Navier--Stokes participant; Gold remains independent and nonblocking.",
+  %r{\Aperiodic-2d3c-surface-quarantine-\d{8}\.yaml\z}
+)
+
+add_dynamic_family.call(
   "current_theorem_construction_remainder",
-  "Current theorem-construction files outside the direct live authority, source-artifact set, non-Euler sweep, and forward-positive quarantine are theorem-attempt or audit remainder. They are preserved as active research support with no downstream proof force until an exact statement with hypotheses is promoted into the direct live surfaces or certified by the Part/Field referee audit.",
+  "Current theorem-construction files outside direct live authority are theorem-attempt or audit provenance. They carry no independent authority to reopen the established whole-terminal producer; terminal labels and Part/Field rows remain downstream negative-side presentations of lost full participation, with Pack outside CM.",
   %r{\Atheorem-construction/}
 )
 
@@ -476,9 +559,10 @@ payload = {
   "problem_id" => "navier-stokes",
   "generated_at" => Time.now.utc.iso8601,
   "generator" => "problems/navier-stokes/tools/build_current_material_coverage.rb",
-  "purpose" => "Record how the current Navier-Stokes repo material is represented by the submission paper without requiring every build, runtime, or provenance file to appear as main-text proof prose.",
-  "current_authority_override_20260702" => CURRENT_AUTHORITY_OVERRIDE_20260702,
-  "current_gold_l1_custody_20260702" => CURRENT_GOLD_L1_CUSTODY_20260702,
+  "purpose" => "Record how the current Navier-Stokes repo material is classified without assigning proof authority to coverage bookkeeping.",
+  "current_authority_override_20260722" => CURRENT_AUTHORITY_OVERRIDE_20260722,
+  "gold_l1_custody_provenance_20260702" => GOLD_L1_CUSTODY_PROVENANCE_20260702,
+  "current_silver_authority_20260722" => CURRENT_SILVER_AUTHORITY_20260722,
   "inventory" => {
     "total_files_under_problem" => all_files.length,
     "text_or_checkable_files" => checkable_files.length,

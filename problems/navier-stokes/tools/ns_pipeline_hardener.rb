@@ -34,6 +34,7 @@ THEOREM_REPAIR_PATH = PROBLEM_ROOT.join("theorem-repair.yaml").freeze
 NS_ROUTE_TABLE_PATH = PROBLEM_ROOT.join("ns-proof-program-route-table.yaml").freeze
 THEOREM_CRANK_PATH = PROBLEM_ROOT.join("theorem-crank.yaml").freeze
 TARGET_OPERATING_CONTRACT_PATH = PROBLEM_ROOT.join("target-operating-contract.yaml").freeze
+PROOF_PROGRAM_SURFACE_REGISTRY_PATH = PROBLEM_ROOT.join("proof-program-surface-registry.yaml").freeze
 FORWARD_POSITIVE_QUARANTINE_INDEX_PATH = PROBLEM_ROOT.join("forward-positive-proof-surface-quarantine-20260523.yaml").freeze
 REVIEW_VERDICT_PATH = PROBLEM_ROOT.join("review-verdict.yaml").freeze
 RELEASE_DECISION_PATH = PROBLEM_ROOT.join("release-decision.yaml").freeze
@@ -56,6 +57,8 @@ SHADOW_PAPER_PUBLISHER_PATH = ROOT.join("system/runner/bin/publish_shadow_paper_
 CURRENT_GRADIENT_CONTROL_SURFACE = "problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
 
 TARGET_OPERATING_CONTRACT = YAML.load_file(TARGET_OPERATING_CONTRACT_PATH.to_s).freeze
+NS_PROOF_PROGRAM_COMPLETION = TARGET_OPERATING_CONTRACT.fetch("proof_program_completion").freeze
+NS_PROOF_PROGRAM_SURFACE_REGISTRY = YAML.load_file(PROOF_PROGRAM_SURFACE_REGISTRY_PATH.to_s).freeze
 FORWARD_POSITIVE_SURFACE_QUARANTINE = TARGET_OPERATING_CONTRACT.fetch("forward_positive_surface_quarantine").freeze
 FORWARD_POSITIVE_QUARANTINE_INDEX = (
   FORWARD_POSITIVE_QUARANTINE_INDEX_PATH.exist? ? YAML.load_file(FORWARD_POSITIVE_QUARANTINE_INDEX_PATH.to_s) : {}
@@ -70,6 +73,10 @@ FORWARD_POSITIVE_QUARANTINE_SUMMARY = FORWARD_POSITIVE_SURFACE_QUARANTINE.merge(
 NS_TARGET_PREFLIGHT = TARGET_OPERATING_CONTRACT.fetch("target_preflight").freeze
 NS_TARGET_LOCK_SCHEMA = TARGET_OPERATING_CONTRACT.fetch("target_lock_schema").freeze
 NS_PROOF_PROGRAM_TOPOLOGY = TARGET_OPERATING_CONTRACT.fetch("proof_program_topology").freeze
+SILVER_VPI_PROGRAM = NS_PROOF_PROGRAM_TOPOLOGY.find do |entry|
+  entry["program_id"] == "cm-member-class-exit"
+end.freeze
+SILVER_VPI_CONTRAPOSITIVE_AUDIT = SILVER_VPI_PROGRAM&.fetch("silver_vpi_contrapositive_audit_20260722", nil)&.freeze
 NS_FLUID_FIELD_OBJECT_ONTOLOGY = TARGET_OPERATING_CONTRACT.fetch("fluid_field_object_ontology").freeze
 OPEN_ROOT_GROUP = TARGET_OPERATING_CONTRACT.fetch("open_root_group").freeze
 OPEN_ROOT_PRESENTATIONS = OPEN_ROOT_GROUP.fetch("diagnostic_presentations_pending_cm_exit_landing").freeze
@@ -87,6 +94,9 @@ CURRENT_SOURCE_WALL_ROOT_SUMMARY = [
   "The Pack-out-of-CM boundary audit keeps outside-CM participation-field/window failure disposal from becoming terminal until the original NS participation law has been tested.",
   "The forward-positive quarantine index keeps #{FORWARD_POSITIVE_QUARANTINE_SUMMARY.fetch("entry_count")} scanned surfaces out of CM authority unless a named bridge lands the exact result in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent."
 ].compact.join(" ").freeze
+# The constants below this comment belong to the disabled pre-completion
+# generator retained for historical reproducibility. They are not current
+# theorem status and cannot be emitted while legacy_refresh! remains disabled.
 CURRENT_THEOREM_STATUS = CURRENT_EXACT_LIVE_THEOREM_GRADE_BURDEN.fetch("status").freeze
 CURRENT_PACKAGE_STATUS = "gold-l1-open-signed-height-sign-persistence-wall"
 CURRENT_GOLD_L1_SIGNED_HEIGHT_WALL = "signed critical-height sign-persistence or peak-height theorem from the Navier-Stokes equation"
@@ -129,6 +139,81 @@ ROUTE_SLOT_SOURCE_ANCHOR = {
 }.freeze
 TERMINAL_PROMOTION_OBLIGATION_ID = "debt-theorem-upgrade-1-periodic-clay-terminal-promotion-bridge-prove-that-the-installed-theorem-2-1-class-membership-warrant-eliminates-every-first-finite-classical-endpoint-for-arbitrary-smooth-divergence-free-zero-mean-data-on-t-3"
 TERMINAL_PROMOTION_LABEL = "Periodic Clay terminal-promotion bridge: prove that the installed Theorem 2.1 class-membership warrant eliminates every first finite classical endpoint for arbitrary smooth divergence-free zero-mean data on T^3."
+
+SILVER_VPI_REQUIRED_ONE_LINE = "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q); contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)".freeze
+SILVER_VPI_REQUIRED_PRESENTATIONS = [
+  "Dead",
+  "Blown",
+  "Jump",
+  "Part or Field failure",
+  "a conditional limiting PDE that witnesses loss of the original VPI law"
+].freeze
+
+def silver_vpi_classification_installed?
+  audit = SILVER_VPI_CONTRAPOSITIVE_AUDIT
+  audit.is_a?(Hash) &&
+    audit["closure_status"] == "logical-classification-terminal-participation-retention-unproved"
+end
+
+def validate_completed_proof_program_contract!
+  completion = NS_PROOF_PROGRAM_COMPLETION
+  expected_authority =
+    "problems/navier-stokes/theorem-construction/" \
+    "thomas-one-fluid-reversible-intersection-proof-spine-20260803.md"
+
+  expected_status = "established-complete"
+  expected_producer = "proved-datum-generated-whole-terminal-compatible-rectangles"
+  expected_closure = "proved"
+
+  raise "Navier-Stokes proof-program completion changed" unless completion["status"] == expected_status
+  raise "Navier-Stokes MPP status changed" unless completion["mpp_status"] == "solved"
+  raise "Navier-Stokes MPP proof direction changed" unless completion["solution_direction"] == "affirmative-global-regularity-proof"
+  raise "Navier-Stokes datum-generated producer changed" unless completion["producer_status"] == expected_producer
+  raise "Navier-Stokes global closure status changed" unless completion["closure_status"] == expected_closure
+  raise "Navier-Stokes proof authority changed" unless completion["theorem_authority"] == expected_authority
+  raise "paper scope entered the proof-program repair" unless completion["artifact_boundary"].to_s.include?("outside this no-paper repository repair")
+  raise "historical labels may not override the proof" unless completion["historical_surface_rule"].to_s.include?("do not override the established direct proof")
+  raise "proof-program surface registry changed" unless completion["surface_registry"] == "problems/navier-stokes/proof-program-surface-registry.yaml"
+
+  policy = NS_PROOF_PROGRAM_SURFACE_REGISTRY.fetch("authority_policy")
+  raise "surface registry MPP status changed" unless NS_PROOF_PROGRAM_SURFACE_REGISTRY["mpp_status"] == "solved"
+  raise "surface registry mathematical status changed" unless NS_PROOF_PROGRAM_SURFACE_REGISTRY["mathematical_status"] == expected_status
+  raise "status projection policy changed" unless policy["status_fields_project_the_governing_proof_but_do_not_replace_it"] == true
+  raise "direct mathematics must outrank generated status" unless policy["direct_mathematics_outranks_generated_status"] == true
+  raise "partial recovery may not reopen the first theorem" unless policy["established_starting_theorem_is_not_reopened_by_partial_recovery"] == true
+
+  NS_PROOF_PROGRAM_SURFACE_REGISTRY.fetch("current_projection_surfaces").each do |relative_path|
+    path = ROOT.join(relative_path)
+    raise "missing current projection surface: #{relative_path}" unless path.file?
+
+    projection = YAML.load_file(path.to_s).fetch("proof_program_completion_projection")
+    raise "current projection changed mathematical completion: #{relative_path}" unless projection["mathematical_status"] == expected_status
+    raise "current projection changed MPP status: #{relative_path}" unless projection["mpp_status"] == "solved"
+    raise "current projection manufactured a direct boundary: #{relative_path}" unless projection["active_direct_boundary"] == "none"
+  end
+
+  true
+end
+
+def validate_silver_vpi_contrapositive_contract!
+  audit = SILVER_VPI_CONTRAPOSITIVE_AUDIT
+  raise "missing canonical Silver VPI contrapositive audit" unless audit.is_a?(Hash)
+  raise "canonical Silver VPI one-line changed" unless audit["one_line"] == SILVER_VPI_REQUIRED_ONE_LINE
+  unless audit["closure_status"] == "logical-classification-terminal-participation-retention-unproved"
+    raise "canonical Silver audit changed its terminal-retention boundary"
+  end
+
+  missing_presentations = SILVER_VPI_REQUIRED_PRESENTATIONS - Array(audit["terminal_presentations"])
+  raise "canonical Silver VPI exhaustion is incomplete: #{missing_presentations.join(', ')}" unless missing_presentations.empty?
+  raise "canonical Silver audit must keep weak equation records below full VPI participation" unless audit["weak_record_boundary"].to_s.include?("not full VPI participation")
+  raise "canonical Silver audit must keep Euler conditional and forward-derived" unless audit["conditional_euler"].to_s.include?("effective viscosity vanishes")
+  raise "Pack may not enter the Silver one-line" if audit["one_line"].to_s.match?(/Pack/i)
+  unless SILVER_VPI_PROGRAM["current_role"].to_s.include?("downstream")
+    raise "Silver classification lost its downstream role"
+  end
+
+  true
+end
 
 def utc_now
   Time.now.utc.iso8601
@@ -1893,7 +1978,9 @@ def sanitize_campaign_status(campaign)
   campaign
 end
 
-def refresh!
+def legacy_refresh!
+  raise "legacy status-writing refresh is disabled; the completed proof program and downstream Silver classification are authoritative"
+
   @cm_referee_audit = sanitize_cm_referee_audit(load_yaml(CM_REFEREE_AUDIT_PATH))
   route_lock = sanitize_route_lock(load_yaml(ROUTE_LOCK_PATH))
   slot_doc = load_yaml(SLOT_MAP_PATH)
@@ -1960,12 +2047,24 @@ def refresh!
   "REFRESH_OK_DIRECT_LIVE"
 end
 
+def refresh!
+  validate_completed_proof_program_contract!
+  validate_silver_vpi_contrapositive_contract!
+  raise "canonical Silver VPI classification boundary changed" unless silver_vpi_classification_installed?
+
+  "REFRESH_PRESERVED_NS_PROOF_PROGRAM_COMPLETION_AND_SILVER_CLASSIFICATION"
+end
+
 command = ARGV[0] || "refresh"
 
 case command
 when "refresh"
   puts(refresh!)
+when "check"
+  validate_completed_proof_program_contract!
+  validate_silver_vpi_contrapositive_contract!
+  puts("NS_PROOF_PROGRAM_COMPLETE_AND_SILVER_DOWNSTREAM_OK")
 else
-  warn("usage: ruby ns_pipeline_hardener.rb [refresh]")
+  warn("usage: ruby ns_pipeline_hardener.rb [refresh|check]")
   exit 1
 end

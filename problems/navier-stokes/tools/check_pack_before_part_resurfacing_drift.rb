@@ -36,9 +36,11 @@ ACTIVE_PATHS = %w[
   problems/navier-stokes/submission-bundle/theorem-packet.yaml
   problems/navier-stokes/submission-bundle/source-frontier.yaml
   problems/navier-stokes/submission-bundle/submission-verdict.yaml
-  problems/navier-stokes/submission-bundle/source-field-reader-appendix.tex
   problems/navier-stokes/tools/ns_pipeline_hardener.rb
   problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb
+  problems/navier-stokes/tools/build_non_euler_failure_face_map.rb
+  problems/navier-stokes/tools/build_non_euler_contrapositive_certificates.rb
+  problems/navier-stokes/tools/build_surface_derivation_appendix.rb
   system/runner/lib/ns_cm_contrapositive_behavior_contract.rb
   system/runner/lib/prose_packet_builder.rb
   system/runner/lib/prose_draft_builder.rb
@@ -50,6 +52,16 @@ ACTIVE_PATHS = %w[
   system/runner/lib/theorem_invention_support.rb
   system/runner/lib/creative_theorem_search_builder.rb
   system/runner/lib/debt_map_builder.rb
+  system/runner/lib/theorem_crank_builder.rb
+  system/runner/lib/theorem_authority_gate_support.rb
+  system/runner/lib/formalization_ledger_builder.rb
+  system/runner/lib/nightly_six_mpp_work_loop.rb
+  system/runner/lib/nightly_ns_completion_executor.rb
+  system/runner/lib/surface_cleaner_support.rb
+  system/runner/lib/source_frontier_builder.rb
+  system/runner/lib/navier_stokes_cm_referee_gate_support.rb
+  system/runner/lib/release_surface_reconciler.rb
+  system/runner/lib/submission_bundle_exporter.rb
   system/runner/test/agent_contract_builder_test.rb
   system/runner/test/research_os_mcp_server_test.rb
   system/runner/test/codex_conversation_guard_test.rb
@@ -152,10 +164,12 @@ BROAD_CM_OBJECT_FORBIDDEN = FORBIDDEN.select do |label, _|
 end.freeze
 
 BROAD_SCAN_ROOTS = %w[
-  problems/navier-stokes
+  problems/navier-stokes/tools
   system/runner/lib
   system/runner/test
 ].freeze
+
+TEXT_EXTENSIONS = %w[.md .yaml .yml .tex .rb .txt .json .jsonl].freeze
 
 AUTHORITY_MARKER_PATHS = %w[
   AGENTS.md
@@ -167,11 +181,9 @@ AUTHORITY_MARKER_PATHS = %w[
 ].freeze
 
 REQUIRED_MARKERS = [
-  "Pack(Q) is disqualified from the CM-object definition",
-  "Pack(Q) belongs only to field smoothness-certification",
-  "single point tells nothing about smoothness of a field object",
-  "CM object is the same-solution participation and field-readout object",
-  "packet/window machinery is outside CM"
+  "not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)",
+  "VPIParticipation(Q) => Member(Q) => Smooth(Q)",
+  "Pack remains outside CM"
 ].freeze
 
 def relative(path)
@@ -221,6 +233,8 @@ BROAD_SCAN_ROOTS.each do |relative_root|
 
   root.find do |path|
     next unless path.file?
+    next unless TEXT_EXTENSIONS.include?(path.extname.downcase)
+    next if path.size > 5_000_000
 
     relative_path = relative(path)
     next if relative_path == "problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb"

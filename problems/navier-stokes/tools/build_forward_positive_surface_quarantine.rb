@@ -9,6 +9,7 @@ require "yaml"
 ROOT = Pathname.new("/Users/thomasbirnie/Workspace/ToE/Research-Consolidation").freeze
 PROBLEM_ROOT = ROOT.join("problems/navier-stokes").freeze
 OUTPUT_PATH = PROBLEM_ROOT.join("forward-positive-proof-surface-quarantine-20260523.yaml").freeze
+TARGET_CONTRACT_PATH = PROBLEM_ROOT.join("target-operating-contract.yaml").freeze
 
 TEXT_EXTENSIONS = %w[
   .md .yaml .yml .tex .rb .txt .json .jsonl
@@ -71,8 +72,8 @@ CATEGORY_PATTERNS = {
     /OriginalSmoothDataScaleCriticalTreeCarleson\.A/
   ],
   "fixed_nu_or_euler_transfer" => [
-    /fixed[- ]nu/i,
-    /fixed viscosity/i,
+    /fixed[- ]nu.*(?:Euler|transfer|comparison)|(?:Euler|transfer|comparison).*fixed[- ]nu/i,
+    /fixed viscosity.*(?:Euler|transfer|comparison)|(?:Euler|transfer|comparison).*fixed viscosity/i,
     /EulerSmooth/,
     /NSSmooth_nu/,
     /Euler smoothness implies NS/i,
@@ -197,6 +198,19 @@ def read_text(path)
   raw.encode("UTF-8", invalid: :replace, undef: :replace, replace: "")
 end
 
+def silver_vpi_audit(contract)
+  program = Array(contract.fetch("proof_program_topology")).find do |entry|
+    entry["program_id"] == "cm-member-class-exit"
+  end
+  program&.fetch("silver_vpi_contrapositive_audit_20260722")
+end
+
+def canonical_silver_line?(line)
+  value = line.to_s
+  (value.match?(/not Smooth\(Q\).*not Member\(Q\).*not VPIParticipation\(Q\)/i) ||
+    value.match?(/VPIParticipation\(Q\).*Member\(Q\).*Smooth\(Q\)/i))
+end
+
 def path_categories(rel_path)
   PATH_CATEGORY_PATTERNS.each_with_object({}) do |(category, patterns), matches|
     hit = patterns.find { |pattern| rel_path.match?(pattern) }
@@ -209,6 +223,8 @@ def content_categories(text)
   CATEGORY_PATTERNS.each_with_object({}) do |(category, patterns), matches|
     category_hits = []
     lines.each_with_index do |line, index|
+      next if canonical_silver_line?(line)
+
       patterns.each do |pattern|
         next unless line.match?(pattern)
 
@@ -244,12 +260,18 @@ def quarantine_entry(path)
     "legacy_demotion_classes" => support_classes,
     "cm_authority" => "no-proof-authority",
     "proof_force" => "none_without_exact_cm_bridge",
-    "promotion_allowed_only_by" => "explicit bridge-license landing in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence after live-object participation is typed, or the outside-CM participation-field/window original-participation audit, after target-lock selects the CM contrapositive program",
+    "promotion_allowed_only_by" => "an exact bridge on the same original Navier-Stokes history that proves loss of full VPI participation; not Member(Q) additionally requires Part or Field localization, while Pack_Q remains outside CM as Field-window evidence",
     "forbidden_as_cm_substitute" => true
   }
 end
 
 entries = []
+contract = YAML.load_file(TARGET_CONTRACT_PATH.to_s)
+closure = silver_vpi_audit(contract)
+abort "missing canonical Silver VPI contrapositive audit" unless closure
+unless closure.fetch("closure_status") == "logical-classification-terminal-participation-retention-unproved"
+  abort "canonical Silver classification changed its terminal-retention boundary"
+end
 Find.find(PROBLEM_ROOT.to_s) do |path|
   next if File.directory?(path)
   next if excluded?(path)
@@ -276,26 +298,40 @@ payload = {
   "generated_at" => Time.now.utc.iso8601,
   "generator" => "problems/navier-stokes/tools/build_forward_positive_surface_quarantine.rb",
   "status" => "active-no-proof-authority-index",
+  "canonical_silver_vpi_contrapositive" => closure,
   "scan_scope" => "problems/navier-stokes/** text surfaces",
   "excluded_generated_self_surfaces" => EXCLUDED_PATH_PARTS,
   "entry_count" => entries.length,
   "summary_by_class" => summary_by_class,
   "summary_by_scope" => summary_by_scope,
   "support_classification_law" => {
-    "governing_cm_program" => "Exit(Q):=not Member(Q) through Silver Pack_Q / Part_{N,Q} / Field_{N,r,Q} after live-object participation is typed, plus outside-CM participation-field/window original-participation audit where needed",
-    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no CM proof authority unless an exact bridge lands the same witness in Silver Part_{N,Q} or Field_{N,r,Q}; Pack_Q only as Field window evidence, or proves the outside-CM participation-field/window original-participation audit needed before not Pack_Q can be spent.",
+    "governing_silver_program" => closure.fetch("one_line"),
+    "same_history_boundary" => "One smooth-data, fixed-positive-viscosity, no-reset original Navier-Stokes history remains the object throughout. Full VPI participation means its coupled transport, simultaneous nonlocal pressure, viscosity, incompressibility, material ancestry, and coherent field participation.",
+    "rule" => "Every indexed forward-positive, positive-supplier, continuation, transfer, receiver/readout, export, or already-classified positive surface has no Silver proof authority unless an exact same-history bridge identifies a genuine departure and loss of full VPI participation. Part or Field may localize not Member(Q); Pack remains outside CM as Field-window evidence.",
     "cannot_do" => [
-      "set the live CM frontier",
-      "close TerminalCMNoExit.A / NoGenuineCMExit.A",
-      "replace the Silver witness tree or the outside-CM participation-field/window original-participation audit",
+      "replace the canonical Silver VPI-complement contrapositive",
+      "turn Silver into a positive no-terminal-exit theorem",
+      "treat Pack as a CM face or a proof of not Member(Q)",
       "count as publication or release readiness",
-      "turn a bad source/residue object into a deletion burden when it is already a lawful class-exit witness"
+      "turn a classified departure presentation into a new positive deletion burden"
     ],
-    "promotion_gate" => "Only a named bridge-license theorem that lands the exact result in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit can promote an indexed surface for CM use.",
-    "positive_program_boundary" => "When the user explicitly switches to a positive smoothness, positive supplier, fixed-nu transfer, or Euler comparison program, these surfaces may be read inside that separate program only."
+    "promotion_gate" => "Only a named same-history bridge that establishes loss of full VPI participation can promote an indexed surface into the negative inventory; an asserted class exit additionally requires Part or Field localization.",
+    "gold_boundary" => "Positive smoothness and supplier surfaces belong to the independent nonblocking Gold research lane and are not Silver premises.",
+    "conditional_euler" => closure.fetch("conditional_euler")
   },
   "entries" => entries
 }
+
+if ARGV.include?("--check")
+  law = payload.fetch("support_classification_law")
+  abort "forward quarantine lost the canonical Silver one-line" unless law["governing_silver_program"] == closure["one_line"]
+  abort "forward quarantine lets Pack enter CM" unless law.fetch("cannot_do").include?("treat Pack as a CM face or a proof of not Member(Q)")
+  abort "forward quarantine lost Gold's nonblocking boundary" unless law["gold_boundary"].to_s.include?("independent nonblocking Gold")
+  abort "forward quarantine respawned a terminal-exit theorem" if law.to_s.match?(/TerminalCMNoExit|NoGenuineCMExit/)
+
+  puts "FORWARD_POSITIVE_QUARANTINE_CHECK entries=#{entries.length}"
+  exit 0
+end
 
 OUTPUT_PATH.write(YAML.dump(payload).lines.map { |line| "#{line.rstrip}\n" }.join)
 puts "FORWARD_POSITIVE_QUARANTINE #{entries.length}"

@@ -14,14 +14,14 @@ QUARANTINE_PATH = NS_ROOT.join("forward-positive-proof-surface-quarantine-202605
 COVERAGE_PATH = BUNDLE_ROOT.join("current-material-coverage.yaml")
 APPENDIX_PATH = BUNDLE_ROOT.join("surface-derivation-appendix.tex")
 INVENTORY_PATH = BUNDLE_ROOT.join("surface-derivation-inventory.yaml")
+TARGET_CONTRACT_PATH = NS_ROOT.join("target-operating-contract.yaml")
 
-CURRENT_AUTHORITY_OVERRIDE_20260702 = "This derivation inventory is not a closure surface. Historical theorem names and generated rows are provenance unless reconciled with the current Gold L1 custody audits. The current open wall is the signed critical-height sign-persistence / peak-height theorem from the Navier-Stokes equation; untyped sums and linear TFE2748B storage chains do not prove it.".freeze
-CURRENT_GOLD_L1_CUSTODY_20260702 = {
-  "status" => "gold-l1-open-signed-height-sign-persistence-wall",
-  "physical_object_first" => "original parent packet before child clipping",
-  "current_wall" => "signed critical-height sign-persistence / peak-height theorem",
-  "sum_custody" => "child, atom, shell, dyadic, packet-label, and point-sample sums are typed readouts/bookkeeping only",
-  "forbidden_promotion" => "appendix rows, family headings, terminal anti-atom faces, source-refill displays, or linear TFE2748B chains cannot close Gold L1 unless they prove the signed-height object"
+CURRENT_AUTHORITY_OVERRIDE_20260722 = "This derivation inventory preserves the Silver negative-side classification as downstream mathematics. The governing datum-generated compatible-intersection proof is established complete through the common endpoint, pressure-complete jet, same-history restart, uniqueness, and T_*=infinity. Historical theorem names and generated rows remain provenance and cannot reopen that proof.".freeze
+GOLD_L1_CUSTODY_PROVENANCE_20260702 = {
+  "current_authority_override_20260702" => "The 2026-07-02 Gold custody audits remain preserved historical support.",
+  "inventory_role" => "not a closure surface",
+  "historical_sufficient_route" => "signed critical-height sign-persistence / peak-height theorem",
+  "current_interpretation" => "The audits prevent sum and coupled-storage drift; they remain downstream support for the established direct proof."
 }.freeze
 
 def load_yaml(path)
@@ -34,6 +34,13 @@ end
 
 def deep_copy(value)
   Marshal.load(Marshal.dump(value))
+end
+
+def silver_vpi_audit(contract)
+  program = Array(contract.fetch("proof_program_topology")).find do |entry|
+    entry["program_id"] == "cm-member-class-exit"
+  end
+  program&.fetch("silver_vpi_contrapositive_audit_20260722")
 end
 
 def latex_escape(value)
@@ -78,7 +85,7 @@ end
 
 def cm_role_phrase(role)
   {
-    pack: "carrier-window support obligations",
+    pack_window: "outside-CM carrier-window participation-loss presentations",
     part: "Part-face terminal obligations",
     field: "Field-face terminal obligations",
     finite_disjunction: "finite Part/Field disjunction obligations",
@@ -92,6 +99,7 @@ def cm_rule_phrase(rule)
     "direct_face_failure" => "direct Part/Field failure",
     "finite_face_disjunction" => "finite face disjunction",
     "selected_retained_field_failure" => "retained field failure after the other faces have been removed",
+    "outside_cm_field_window_participation_loss" => "outside-CM carrier/window presentation of lost full VPI participation",
     "authority_inheritance_no_independent_failure" => "authority inheritance with no new terminal face",
     "no_selected_cm_failure_without_bridge" => "support retained outside the CM conclusion until a bridge supplies a face"
   }.fetch(rule.to_s, prose_label(rule))
@@ -144,7 +152,7 @@ def face_role(entry)
   return :finite_disjunction if rule == "finite_face_disjunction"
   return :inherited if rule == "authority_inheritance_no_independent_failure"
   return :support_boundary if rule == "no_selected_cm_failure_without_bridge"
-  return :pack if face_breaks.any? { |face| face.include?("Pack") }
+  return :pack_window if rule == "outside_cm_field_window_participation_loss" || face_breaks.any? { |face| face.include?("Pack") }
   return :part if face_breaks.any? { |face| face.include?("Part") }
   return :field if face_breaks.any? { |face| face.include?("Field") }
   return :field if rule == "selected_retained_field_failure"
@@ -155,41 +163,41 @@ end
 def cm_claim_and_proof(label, role)
   branch = label
   case role
-  when :pack
+  when :pack_window
     [
-      "#{branch} records carrier-window support outside the CM-exit conclusion until the original participation law is tested.",
-      "A member branch must first carry \\(Q\\) by a positive same-fluid packet, but carrier loss is not itself a Part or Field face. The Pack-out-of-CM audited order records carrier-window evidence and then asks whether the selected original Navier--Stokes record admits the participation-law test. Only after carrier admission and original-participation typing can the branch be spent through Part or Field as \\(\\Exit(Q;\\Owork)\\).",
-      "On the page, this keeps carrier loss from being mistaken for a fourth CM face. The proof is not claiming a new smooth solution and is not spending raw \\(\\neg\\Pack_Q\\) as class exit. It is recording the admission boundary that must be crossed before the Part/Field witness tree carries proof force."
+      "#{branch} presents loss of full VPI participation through carrier or Field-window failure.",
+      "The original smooth-data, fixed-viscosity Navier--Stokes history remains the object. If its carrier, ancestry, or coherent field window fails, that same history no longer has full VPI participation. Pack records this outside CM; it is not a third CM face and does not by itself assert \\(\\neg\\operatorname{Member}(Q)\\).",
+      "This group contributes to the exhaustive implication \\(\\neg\\operatorname{Smooth}(Q)\\Rightarrow\\neg\\operatorname{VPIParticipation}(Q)\\). Any class-exit wording still has to be localized through Part or Field."
     ]
   when :part
     [
-      "#{branch} keeps the carrier but gives \\(\\neg\\Part_{N,Q}\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "Here the carrier question has already passed for the purpose of the split. The branch still has to participate in the same pressure-viscosity tower as the original Navier--Stokes solution. The selected failure breaks that tower, so the first surviving lost requirement is \\(\\Part_{N,Q}\\). The Part/Field failure embeds as class exit.",
-      "The reader-facing point is that this is a same-solution participation test. The same-fluid carrier is still present. The branch no longer participates in the Navier--Stokes pressure-viscosity tower that the member branch needs. The obligation therefore closes by loss of participation."
+      "#{branch} gives \\(\\neg\\Part_{N,Q}\\), hence \\(\\neg\\operatorname{Member}(Q)\\Rightarrow\\neg\\operatorname{VPIParticipation}(Q)\\).",
+      "This is a failure of transport, simultaneous nonlocal pressure, viscosity, incompressibility, or material ancestry in the same original Navier--Stokes history. Part merely localizes that one loss; it does not create a separate fluid object.",
+      "The group is one presentation on the negative side of the Silver implication, not a positive terminal-exclusion theorem."
     ]
   when :field
     [
-      "#{branch} keeps carrier and participation but gives \\(\\forall r>0\\,\\neg\\Field_{N,r,Q}\\), hence \\(\\Exit(Q;\\Owork)\\).",
-      "This branch is read after carrier and participation have survived for the case split. The remaining continuation requirement is a positive-scale coherent field readout. The terminal branch has no such scale at any \\(r>0\\), so the Field face fails and the failure embeds as \\(\\Exit(Q;\\Owork)\\).",
-      "This is the last face of the witness tree, so the page has to make the order visible. The branch has already survived the packet and participation questions; what remains is the absence of any positive scale on which the field can be read coherently. The conclusion is Field-face exit, not a generic statement that the solution looks bad."
+      "#{branch} gives terminal Field failure, hence \\(\\neg\\operatorname{Member}(Q)\\Rightarrow\\neg\\operatorname{VPIParticipation}(Q)\\).",
+      "A terminal loss of coherent surrounding-field participation is itself loss of full VPI participation by the same original history. Field is the local presentation of that loss, not a retained singular participant and not an additional PDE solution.",
+      "The group belongs to the exhaustive negative inventory used by direct contraposition."
     ]
   when :finite_disjunction
     [
-      "#{branch} gives a finite disjunction of Part and Field losses, hence \\(\\Exit(Q;\\Owork)\\).",
-      "The terminal branch presents finitely many same-solution alternatives. Each alternative is tested in Pack-out-of-CM audited order. A finite disjunction of Part and Field losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit conclusion.",
-      "This keeps the reader from seeing the alternatives as an open cloud of cases. There are only finitely many branch options here, and each option pays one of the same three witness costs. Once the finite list is exhausted, there is no remaining terminal branch outside the pass-or-exit law."
+      "#{branch} gives a finite disjunction of negative-side presentations, each ending in loss of full VPI participation.",
+      "Part and Field localize \\(\\neg\\operatorname{Member}(Q)\\); Pack remains outside CM as Field-window evidence. Dead, Blown, Jump, and any conditional limiting-PDE label name mechanisms for the same loss rather than extra terminal branches.",
+      "Exhausting the listed presentations supplies \\(\\neg\\operatorname{Smooth}(Q)\\Rightarrow\\neg\\operatorname{Member}(Q)\\Rightarrow\\neg\\operatorname{VPIParticipation}(Q)\\)."
     ]
   when :inherited
     [
-      "#{branch} introduces no independent terminal alternative outside the installed Part/Field exhaustion.",
-      "The branch carries already established CM content. Its mathematical force is inherited from the terminal packet capture and face-exhaustion theorems. Since it supplies no new selected nonsmooth packet, it contributes no extra continuation requirement and no fourth branch.",
-      "For the reader, the point is restraint. This entry explains why already-paid proof work is not being reread as a new terminal branch. It belongs in the manuscript because it preserves the closed branch count and prevents a hidden fourth alternative from being smuggled back into the argument."
+      "#{branch} inherits the installed VPI-complement classification and adds no new departure mechanism.",
+      "The branch is a carrier of already established negative-side content. It does not create a new participant, a forward terminal burden, or a Gold dependency.",
+      "Its role is provenance only; the one-line Silver contrapositive remains a classification and does not prove terminal participation retention."
     ]
   else
     [
-      "#{branch} has no CM conclusion until it selects a same-fluid terminal packet.",
-      "A support branch can strengthen the positive pass side, sharpen a pressure test, or prepare a later terminal witness. It cannot assert \\(\\Member(Q;\\Owork)\\) or \\(\\Exit(Q;\\Owork)\\) by itself. Its proof role is to feed a later Part and Field, membership-readout, or no-third-branch hinge.",
-      "This is included so the reader can see the boundary of the proof claim. The material may be useful, but it has not yet selected the same-fluid terminal packet that the CM test consumes. Until that selection is made, the branch remains support for the argument rather than an independent class conclusion."
+      "#{branch} has no Silver consequence until it identifies a departure of the same original Navier--Stokes history.",
+      "Support cannot assert class exit or smoothness by itself. It enters only by proving loss of full VPI participation and, where \\(\\neg\\operatorname{Member}(Q)\\) is claimed, by localizing that loss through Part or Field.",
+      "This boundary prevents estimates, labels, and generated rows from replacing the exhaustive negative-side proof."
     ]
   end
 end
@@ -209,33 +217,33 @@ def support_claim_and_proof(label, role)
   case role
   when :comparison
     [
-      "#{support} enters the Navier--Stokes class proof only after it selects an exact same-fluid Navier--Stokes packet.",
-      "Comparison information may locate an analogous obstruction or exclude a misleading branch shape. The CM proof still acts on the Navier--Stokes packet itself. Once that packet is selected, the same Part and Field decision tree applies; before selection, the comparison statement remains hinge support.",
-      "The reader-facing role is to keep comparison from becoming authority by accident. The comparison can show why a branch is worth testing, but the Clay-facing proof is charged to the Navier--Stokes packet and its own witnesses. This paragraph therefore marks the exact point where comparison stops and same-fluid proof begins."
+      "#{support} may classify a departure only after it is derived forward from the same original Navier--Stokes history.",
+      "Euler is permitted only when effective viscosity and every Reynolds, forcing, pressure, incompressibility, and ancestry defect vanish. The limiting PDE then names the same departure presentation; the proof never starts from Euler and transfers smoothness backward.",
+      "The comparison has no authority unless it preserves the original history and proves loss of its full VPI participation."
     ]
   when :readout
     [
-      "#{support} has proof force through membership readout or through a Field-face loss.",
-      "A readout statement is downstream of the carrier and participation requirements. When the readout remains bounded on a positive scale, it supports the pass-side continuation norm. When every positive-scale readout fails, it supplies \\(\\forall r>0\\,\\neg\\Field_{N,r,Q}\\) and the fail side exits the class.",
-      "This tells the reader how to read endpoint material without turning it into a separate proof program. A good readout supports the member branch; a failed readout, after carrier and participation have survived, identifies the Field face. The obligation is therefore placed where the paper decides between positive-scale readability and field exit."
+      "#{support} has Silver force only when it records Field failure or another loss of full VPI participation in the same history.",
+      "A bounded readout is not a separate Silver premise. A terminal failed readout may localize Field loss, and that Field loss is loss of full VPI participation rather than a surviving singular participant.",
+      "The readout therefore classifies the negative side; it does not replace the one-line contrapositive."
     ]
   when :positive_supplier
     [
-      "#{support} strengthens the pass branch or selects the fail branch that the CM test later consumes.",
-      "A positive supplier estimate can pay a source term, preserve a packet, or narrow the terminal pressure. The CM proof uses that work at the hinge where the branch becomes a selected same-solution packet. After selection, failure is decided by Part or Field.",
-      "The reader-facing role is to show why forward estimates are present without letting them replace the contrapositive proof. They can pay costs on the pass side or select the branch that the fail side tests. Once the selected packet is on the page, the CM witness tree carries the final burden."
+      "#{support} belongs to the independent nonblocking Gold lane unless it classifies a same-history VPI participation loss.",
+      "Positive estimates are not premises of Silver and cannot replace its contrapositive with a forward terminal proof. Only their exact negative-side departure consequence, if proved, enters this inventory.",
+      "Gold may remain open as downstream research, but it is not required for the established direct global-regularity proof."
     ]
   when :downstream
     [
-      "#{support} contributes only through a named proof hinge: terminal packet capture, membership readout, class exit, or no-third-branch exclusion.",
-      "A downstream statement carries no separate continuation requirement. Its mathematical value is measured by whether it verifies one of the hinges already used by the proof spine. If it does, the hinge supplies the proof force; if it does not, it remains outside the terminal branch law.",
-      "This keeps the manuscript from making the reader trust a downstream label as though it were a theorem. The page has to show which hinge is being paid and what that hinge already proves. Anything that does not pay one of those hinges remains outside the terminal proof claim."
+      "#{support} contributes only through a named same-history participation-loss classification.",
+      "A downstream label has no independent theorem force. It must identify which element of full VPI participation fails and, for a class-exit assertion, how Part or Field localizes \\(\\neg\\operatorname{Member}(Q)\\).",
+      "Anything else remains provenance outside the Silver classification."
     ]
   else
     [
-      "#{support} is admissible as support only after it names the witness it affects.",
-      "The working class object has exactly three requirements before membership readout: carrier, participation, and field. A support statement that names none of them supplies no terminal class conclusion. Once it names one, the corresponding Part/Field proof pattern decides its role.",
-      "The reader-facing role is to keep support material honest. The manuscript can use the material only after it says whether it affects the packet, the participation tower, or the field readout. That named face is what connects the material to the pass-or-exit proof rather than to a vague promise of progress."
+      "#{support} is admissible only after it names the same original history and the full-participation component that fails.",
+      "A support statement with no such loss supplies no negative-side conclusion. Pack remains outside CM; Part and Field localize class membership without splitting the fluid into separate mechanisms.",
+      "This keeps support material subordinate to the exhaustive VPI-complement implication."
     ]
   end
 end
@@ -244,37 +252,37 @@ FAMILY_EXPANSIONS = {
   "basac_pressure_zeno_source_residue_family" => [
     "Source-reserve family",
     "This branch family is tested by source survival, zero-radius refinement, signed-current/no-free-sink pressure, retained amplitude, and terminal atom mechanisms.",
-    "The proof first asks whether a positive same-fluid packet carries the source residue. Carrier loss remains carrier-window support until the original participation law is typed. A surviving carrier then asks whether the pressure-viscosity tower remains the same; failure gives \\(\\neg\\Part_{N,Q}\\). Surviving participation finally asks for a positive-scale coherent field readout; failure at every scale gives the Field face."
+    "Every terminal mechanism is applied to the same original Navier--Stokes history. Loss of the coupled pressure-viscosity participation gives Part failure; loss of coherent surrounding-field participation gives Field failure; carrier/window loss is outside-CM Field-window evidence. Each realized departure loses full VPI participation."
   ],
   "late_l3_duhamel_translator_notes" => [
     "Local translator family",
     "This family tests local critical translation as a same-solution packet question.",
-    "The translator has proof force only when it preserves the same Navier--Stokes pressure-viscosity participation on the transported packet. Loss of that participation is a Part-side failure; a surviving translator then moves to Field readout."
+    "The translator has proof force only on the same Navier--Stokes history. Loss of its pressure-viscosity participation is Part-side; loss of surrounding-field coherence is Field-side; either loses full VPI participation."
   ],
   "late_cm_direction_or_same_ledger_notes" => [
     "Same-ledger family",
     "This family asks whether the terminal branch is still charged to the same witness record.",
-    "A terminal item on the same ledger enters the Field-certification test. A preterminal reflection or unpaid imported branch has no member conclusion until it supplies the same witness record, the same carrier, and the same participation tower."
+    "A terminal item must remain the same material/all-field record. An imported or reset branch has no Silver force because it is not the original no-reset history."
   ],
   "cm_class_law_completion_and_adversarial_audits" => [
     "Class-law family",
-    "This family tests the pass-or-exit law against possible reopening branches.",
-    "A reopening branch must either be an in-class nonsmooth third branch or break terminal CM entry, finite Part/Field exhaustion, or class-exit embedding. Every other challenge is absorbed by the installed pass branch, fail branch, or no-third-branch law."
+    "This family checks the exhaustive negative-side inventory.",
+    "A claimed extra departure must preserve full VPI participation while being nonsmooth to escape the contrapositive. Dead, Blown, Jump, Part, Field, and conditional limiting-PDE presentations instead reduce to lost participation."
   ],
   "local_energy_elliptic_formalization_support" => [
     "Local energy and elliptic family",
     "This family supplies analytic support for source-wall and classification tests.",
-    "Local energy and elliptic control matter when they select the terminal packet, verify pressure participation, or read out a positive field scale. The support is then consumed by Part and Field, or membership readout."
+    "Local energy and elliptic control matter only when they classify which component of the same history's full VPI participation fails. Positive estimates remain Gold support."
   ],
   "euler_mirror_current_exclusions" => [
     "Comparison-boundary family",
-    "This family marks comparison branches that need an exact Navier--Stokes packet before entering the CM proof.",
-    "The comparison may reveal a useful branch shape. The proof uses it only after the Navier--Stokes witness record, carrier, participation, and field readout are stated for the same solution."
+    "This family marks conditional limiting-PDE presentations derived from the original Navier--Stokes history.",
+    "Euler is used only if the canonical zero-defect conditions hold. Otherwise the remaining defect itself identifies loss of full VPI participation or routes to another limiting PDE."
   ],
   "current_theorem_creation_candidate_notes" => [
     "Candidate-branch family",
     "This family contains candidate pressure tests and route probes.",
-    "A candidate becomes proof material only when it names a terminal packet and a witness. The face then routes through Part and Field, membership readout, terminal capture, or no-third-branch exclusion."
+    "A candidate becomes proof material only when it names the same original history and proves which aspect of full VPI participation fails. Part and Field may localize class exit; Pack cannot become a CM face."
   ]
 }.freeze
 
@@ -307,7 +315,14 @@ end
 def face_summary(entries)
   labels = entries.map do |entry|
     faces = Array(entry["cm_part_field_question_breaks"]).map(&:to_s).reject(&:empty?)
-    faces.empty? ? "no independent Part/Field face" : faces_tex(faces.sort)
+    cm_faces = faces.reject { |face| face.match?(/Pack/i) }
+    if cm_faces.empty? && faces.any? { |face| face.match?(/Pack/i) }
+      "outside-CM Field-window evidence"
+    elsif cm_faces.empty?
+      "no independent Part/Field face"
+    else
+      faces_tex(cm_faces.sort)
+    end
   end
   counts = labels.map(&:strip).reject(&:empty?).group_by(&:itself).transform_values(&:length)
   return "no independent Part/Field face" if counts.empty?
@@ -323,6 +338,20 @@ now = Time.now.utc.iso8601
 certificate = load_yaml(CERTIFICATE_PATH)
 quarantine = load_yaml(QUARANTINE_PATH)
 coverage = load_yaml(COVERAGE_PATH)
+target_contract = load_yaml(TARGET_CONTRACT_PATH)
+completion = target_contract.fetch("proof_program_completion")
+unless completion["status"] == "established-complete" &&
+       completion["mpp_status"] == "solved" &&
+       completion["producer_status"] == "proved-datum-generated-whole-terminal-compatible-rectangles" &&
+       completion["closure_status"] == "proved" &&
+       completion["active_direct_boundary"] == "none"
+  abort "canonical completed proof-program authority changed"
+end
+closure = silver_vpi_audit(target_contract)
+abort "missing canonical Silver VPI contrapositive audit" unless closure
+unless closure.fetch("closure_status") == "logical-classification-terminal-participation-retention-unproved"
+  abort "canonical Silver classification changed its terminal-retention boundary"
+end
 
 certificate_entries = Array(certificate["certificates"])
 quarantine_entries = Array(quarantine["entries"])
@@ -336,9 +365,12 @@ inventory = {
   "problem_id" => "navier-stokes",
   "generated_at" => now,
   "generator" => "problems/navier-stokes/tools/build_surface_derivation_appendix.rb",
-  "purpose" => "Keep every relevant Navier-Stokes proof surface in an internal derivation inventory while the Clay-facing PDF receives only mathematical branch arguments.",
-  "current_authority_override_20260702" => CURRENT_AUTHORITY_OVERRIDE_20260702,
-  "current_gold_l1_custody_20260702" => CURRENT_GOLD_L1_CUSTODY_20260702,
+  "purpose" => "Group every relevant Navier-Stokes surface under the completed direct proof while preserving the Silver VPI-complement classification as downstream mathematics.",
+  "proof_program_completion" => completion,
+  "current_authority_override_20260722" => CURRENT_AUTHORITY_OVERRIDE_20260722,
+  "gold_l1_custody_provenance_20260702" => GOLD_L1_CUSTODY_PROVENANCE_20260702,
+  "canonical_silver_vpi_contrapositive" => closure,
+  "gold_lane_boundary" => "Gold is a downstream support/research lane and is not required for the established direct compatible-intersection closure.",
   "sources" => {
     "certificates" => CERTIFICATE_PATH.relative_path_from(ROOT).to_s,
     "forward_positive_quarantine" => QUARANTINE_PATH.relative_path_from(ROOT).to_s,
@@ -394,18 +426,18 @@ tex << "% Internal source names stay in surface-derivation-inventory.yaml."
 tex << "% The visible content below is mathematical branch expansion only."
 tex << ""
 tex << "\\clearpage"
-tex << "\\section{Expanded CM Branch Obligations}"
+tex << "\\section{Silver VPI-Complement Classification}"
 tex << ""
-tex << "This appendix expands the source field into class-membership obligations. Each numbered obligation names the terminal mechanism, the CM requirement being tested, and the proof role it plays in the pass-or-exit engine. The full source inventory is kept outside the reader-facing paper."
+tex << "For one smooth-data, fixed-positive-viscosity, no-reset original Navier--Stokes history, the negative implication and its direct contrapositive are valid: \\(\\neg\\operatorname{Smooth}(Q)\\Rightarrow\\neg\\operatorname{Member}(Q)\\Rightarrow\\neg\\operatorname{VPIParticipation}(Q)\\), hence \\(\\operatorname{VPIParticipation}(Q)\\Rightarrow\\operatorname{Member}(Q)\\Rightarrow\\operatorname{Smooth}(Q)\\). The grouped rows classify departure presentations. They do not prove that the candidate terminal object retains full VPI participation, so they do not establish global regularity."
 tex << ""
 
 certificate_groups = certificate_entries.group_by { |entry| face_role(entry) }
 
 certificate_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_index do |(role, rows), group_index|
-  tex << "\\subsection{CM proof role #{group_index + 1}: #{latex_escape(cm_role_phrase(role))}}"
-  tex << "This proof role accounts for #{rows.length} branch obligation#{rows.length == 1 ? '' : 's'} with one mathematical CM job. The proof rules represented here are #{count_summary(rows.map { |entry| cm_rule_phrase(entry["proof_rule"]) })}. The tested requirements are #{face_summary(rows)}. The terminal mechanisms represented here are #{count_summary(rows.map { |entry| entry["selected_failure_type"] })}."
+  tex << "\\subsection{Negative-side presentation #{group_index + 1}: #{latex_escape(cm_role_phrase(role))}}"
+  tex << "This group accounts for #{rows.length} classified surface#{rows.length == 1 ? '' : 's'}. The rules represented here are #{count_summary(rows.map { |entry| cm_rule_phrase(entry["proof_rule"]) })}. The Part/Field localizations are #{face_summary(rows)}. The departure mechanisms represented here are #{count_summary(rows.map { |entry| entry["selected_failure_type"] })}."
   tex << ""
-  claim, proof, reader_role = cm_claim_and_proof("CM proof role #{group_index + 1}", role)
+  claim, proof, reader_role = cm_claim_and_proof("Negative-side presentation #{group_index + 1}", role)
   tex << "\\paragraph{Family inventory role.}"
   tex << "\\emph{Inventory statement.} #{claim}"
   tex << ""
@@ -419,7 +451,7 @@ tex << ""
 
 tex << "\\section{Expanded Forward-Support Obligations}"
 tex << ""
-tex << "Forward-positive material enters the paper only after it is rewritten as support for a class-membership hinge. Each obligation below records the support role without letting forward progress substitute for the CM conclusion."
+tex << "Forward-positive and negative-side participation materials are preserved as downstream support. The direct datum-generated compatible-intersection proof is already established complete and does not depend on these auxiliary routes."
 tex << ""
 
 support_groups = quarantine_entries.group_by { |entry| support_role(entry) }
@@ -427,7 +459,7 @@ support_groups = quarantine_entries.group_by { |entry| support_role(entry) }
 support_groups.sort_by { |role, rows| [role.to_s, -rows.length] }.each_with_index do |(role, rows), group_index|
   classes = rows.flat_map { |entry| Array(entry["support_classes"] || entry["demotion_classes"]).map(&:to_s) }.uniq.sort
   tex << "\\subsection{Support proof role #{group_index + 1}: #{latex_escape(support_class_heading(classes))}}"
-  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter a CM hinge only through a Field-certification admission, a receiver/readout bridge, or a same-branch transfer license."
+  tex << "This proof role accounts for #{rows.length} support obligation#{rows.length == 1 ? '' : 's'} with one mathematical support job. The support classes represented here are #{count_summary(rows.map { |entry| support_class_phrase(entry["support_classes"] || entry["demotion_classes"]) })}. The support may enter Silver only through an exact same-history participation-loss bridge; Part or Field is additionally required when it asserts class exit."
   tex << ""
   claim, proof, reader_role = support_claim_and_proof("Support proof role #{group_index + 1}", role)
   tex << "\\paragraph{Family support role.}"
@@ -458,6 +490,23 @@ end
 
 appendix_text = "#{tex.join("\n").rstrip}\n"
 
+if ARGV.include?("--check-inventory-only")
+  unless INVENTORY_PATH.exist?
+    abort "surface-derivation inventory is missing; rerun #{__FILE__} --inventory-only"
+  end
+
+  existing_inventory = load_yaml(INVENTORY_PATH)
+  comparable_existing = deep_copy(existing_inventory)
+  comparable_expected = deep_copy(inventory)
+  comparable_existing["generated_at"] = comparable_expected["generated_at"]
+  unless comparable_existing == comparable_expected
+    abort "surface-derivation inventory is stale; rerun #{__FILE__} --inventory-only"
+  end
+
+  puts "SURFACE_DERIVATION_INVENTORY_CHECK certificates=#{certificate_entries.length} quarantine=#{quarantine_entries.length} current_material=#{coverage_families.sum { |family| Array(family["files"]).length }}"
+  exit 0
+end
+
 if ARGV.include?("--check")
   unless APPENDIX_PATH.exist?
     abort "surface-derivation appendix is missing; rerun #{__FILE__}"
@@ -478,6 +527,12 @@ if ARGV.include?("--check")
   end
 
   puts "SURFACE_DERIVATION_APPENDIX_CHECK certificates=#{certificate_entries.length} quarantine=#{quarantine_entries.length} current_material=#{coverage_families.sum { |family| Array(family["files"]).length }}"
+  exit 0
+end
+
+if ARGV.include?("--inventory-only")
+  write_yaml(INVENTORY_PATH, inventory)
+  puts "SURFACE_DERIVATION_INVENTORY certificates=#{certificate_entries.length} quarantine=#{quarantine_entries.length} current_material=#{coverage_families.sum { |family| Array(family["files"]).length }}"
   exit 0
 end
 

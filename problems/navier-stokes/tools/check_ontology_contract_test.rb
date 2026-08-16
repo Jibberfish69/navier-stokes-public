@@ -16,9 +16,28 @@ class OntologyContractCheckerTest < Minitest::Test
     problems/navier-stokes/ontology-archive/ontology-detailed-through-cycle-154-20260714.md
     problems/navier-stokes/target-operating-contract.yaml
   ].freeze
+  DIRECT_CURRENT_SURFACES = %w[
+    problems/navier-stokes/live-theorem-edge.yaml
+    problems/navier-stokes/source-frontier.yaml
+    problems/navier-stokes/theorem-packet.yaml
+    problems/navier-stokes/theorem-repair.yaml
+    problems/navier-stokes/dependency-discharge.yaml
+    problems/navier-stokes/review-verdict.yaml
+  ].freeze
+  CURRENT_TOPOLOGY_AUTHORITY =
+    "problems/navier-stokes/target-operating-contract.yaml#positive_smoothness_current_topology_20260722"
+  DUPLICATED_CURRENT_UPDATE = /^\s*(?:current_)?(?:q_envelope_chord_envelope|helical_kernel_singleton_current|five_mode_triangular_successor_relay)_update_20260722:/
 
   def test_live_contract_passes
     assert_empty OntologyContractChecker.new(root: ROOT).run
+  end
+
+  def test_direct_surfaces_point_to_the_canonical_smoothness_topology
+    DIRECT_CURRENT_SURFACES.each do |relative|
+      content = ROOT.join(relative).read
+      assert_includes content, CURRENT_TOPOLOGY_AUTHORITY, relative
+      refute_match DUPLICATED_CURRENT_UPDATE, content, relative
+    end
   end
 
   def test_rejects_map_growth_past_the_cap
@@ -53,13 +72,11 @@ class OntologyContractCheckerTest < Minitest::Test
   def test_rejects_an_incomplete_post_cutover_card
     with_fixture_root do |root|
       path = root.join("problems/navier-stokes/ontology.md")
-      content = path.read.sub(
-        "None. A future card may be added",
-        "### F7.121 Incomplete card\n\n- **Claim:** only one field\n\nA future card may be added"
-      )
+      content = path.read
+      content << "\n### F7.999 Incomplete card\n\n- **Claim:** only one field\n"
       path.write(content)
       errors = OntologyContractChecker.new(root: root).run
-      assert errors.any? { |error| error.include?("F7.121 is missing Scope") }
+      assert errors.any? { |error| error.include?("F7.999 is missing Scope") }
     end
   end
 

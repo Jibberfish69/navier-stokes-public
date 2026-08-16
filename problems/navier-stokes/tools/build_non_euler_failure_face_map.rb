@@ -8,13 +8,14 @@ ROOT = Pathname.new(__dir__).join("../../..").expand_path
 NS_ROOT = ROOT.join("problems/navier-stokes")
 INDEX_PATH = NS_ROOT.join("non-euler-surface-face-sweep-index-20260514.yaml")
 OUT_PATH = NS_ROOT.join("non-euler-failure-face-diagnostic-map-20260514.yaml")
+TARGET_CONTRACT_PATH = NS_ROOT.join("target-operating-contract.yaml")
 
 FACE_RULES = {
   "Pack_or_Pack_bridge" => {
-    "diagnostic_status" => "face_landing",
+    "diagnostic_status" => "vpi_participation_loss_presentation",
     "selected_failure_type" => "carrier, cover, packing, retained packet admission, or Pack bridge failure",
-    "cm_part_field_question_breaks" => ["Pack_Q"],
-    "retention_rule" => "No Pack retention is assumed. This row is itself a Pack-exit diagnostic."
+    "cm_part_field_question_breaks" => [],
+    "retention_rule" => "Pack is outside CM. Carrier/window loss presents loss of full VPI participation and may be Field-window evidence, but it is not an independent CM face and does not by itself assert not Member(Q)."
   },
   "Part_or_Part_bridge" => {
     "diagnostic_status" => "face_landing",
@@ -35,16 +36,16 @@ FACE_RULES = {
     "retention_rule" => "Field landing applies to the selected retained branch after legal-loss, readout-loss, non-selected, Pack, and Part alternatives are removed; the positive supplier theorem remains separate."
   },
   "Zeno_Field_diagnostic_or_supplier" => {
-    "diagnostic_status" => "selected_failure_field_landing",
+    "diagnostic_status" => "typed_subset_landing",
     "selected_failure_type" => "Zeno terminal atom, zero heat-time residue, or terminal source-residue failure",
-    "cm_part_field_question_breaks" => ["Field_{N,r,Q}"],
-    "retention_rule" => "A Zeno atom is not a fourth face. Once selected and retained, it is a Field source-residue exit."
+    "cm_part_field_question_breaks" => ["Part_{N,Q}", "Field_{N,r,Q}"],
+    "retention_rule" => "A Zeno label is not a fourth face. Apply the original Navier-Stokes participation law to the same history: a surviving original participation record is Part-side; a separately licensed retained positive-window readout may be Field-side; absent carrier/window is only outside-CM Field-window evidence. Every terminal subcase loses full VPI participation."
   },
   "typed_subset_Pack_Part_Field_Zeno" => {
     "diagnostic_status" => "typed_subset_landing",
     "selected_failure_type" => "branch-local first failure routed by the surface's trichotomy or boundary lemma",
-    "cm_part_field_question_breaks" => ["Pack_Q", "Part_{N,Q}", "Field_{N,r,Q}"],
-    "retention_rule" => "This row does not choose one face globally. The local branch chooses Part and Field, or a Zeno atom that then lands in Field."
+    "cm_part_field_question_breaks" => ["Part_{N,Q}", "Field_{N,r,Q}"],
+    "retention_rule" => "This row does not choose one face globally. Part and Field localize class exit; Pack is outside CM and records only Field-window evidence. Dead, Blown, Jump, and Zeno labels are presentations of the same loss of full VPI participation, not extra faces."
   },
   "supplier_readout_support" => {
     "diagnostic_status" => "support_quarantine",
@@ -136,7 +137,20 @@ def summarize_entry(entry)
   )
 end
 
+def silver_vpi_audit(contract)
+  program = Array(contract.fetch("proof_program_topology")).find do |entry|
+    entry["program_id"] == "cm-member-class-exit"
+  end
+  program&.fetch("silver_vpi_contrapositive_audit_20260722")
+end
+
 index = YAML.load_file(INDEX_PATH.to_s)
+contract = YAML.load_file(TARGET_CONTRACT_PATH.to_s)
+closure = silver_vpi_audit(contract)
+abort "missing canonical Silver VPI contrapositive audit" unless closure
+unless closure.fetch("closure_status") == "logical-classification-terminal-participation-retention-unproved"
+  abort "canonical Silver classification changed its terminal-retention boundary"
+end
 entries = index.fetch("entries")
 mapped_entries = entries.map { |entry| summarize_entry(entry) }
 
@@ -158,16 +172,18 @@ output = {
   "artifact_id" => "non-euler-ns-failure-face-diagnostic-map-20260514",
   "based_on" => INDEX_PATH.relative_path_from(NS_ROOT).to_s,
   "theorem" => "AllNonEulerNSFailureFaceDiagnostic.A",
+  "canonical_silver_vpi_contrapositive" => closure,
   "claim_boundary" => {
-    "row_level_only" => "This map sorts selected failures for CM contrapositive use; it does not prove OriginalSmoothData=>any positive supplier theorem.",
+    "row_level_only" => "This map exhaustively sorts negative-side presentations for the canonical Silver implication not Smooth(Q) => not Member(Q) => not VPIParticipation(Q). It neither requires nor supplies a positive Gold estimate.",
     "cm_part_field_questions_only" => "The only CM witnesses are Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence; source-wall and readout notes are support unless the selected retained branch lands in one of those faces.",
-    "euler_mirror_quarantine" => "Euler-mirror, fixed-nu Euler-to-NS transfer, and Euler-class comparison surfaces stay outside this non-Euler Navier-Stokes pass."
+    "euler_mirror_quarantine" => "Euler appears only conditionally after the original fixed-viscosity Navier-Stokes history reaches a limit in which effective viscosity and every Reynolds, forcing, pressure, incompressibility, and ancestry defect vanish. Euler-to-Navier-Stokes transfer is not used."
   },
   "method" => {
-    "rule" => "For each non-Euler NS surface, keep the CM participation-field record fixed, identify the selected failure type, and record which Part/Field face that failure can break.",
+    "rule" => "Keep one smooth-data, fixed-positive-viscosity, no-reset original Navier-Stokes history fixed. For each departure presentation, identify the loss of full VPI participation and record Part or Field only when it localizes not Member(Q).",
     "no_global_pack_part_retention" => "Pack and Part are not kept alive by default. They are retained only locally when the surface's own Part/Field alternatives have been discharged or inherited from a selected branch.",
-    "zeno_rule" => "Zeno is not a fourth face; a selected retained Zeno atom lands in Field.",
-    "support_rule" => "Supplier, readout, export, manuscript, generated, source-history, runtime, and governance surfaces are quarantined unless a named theorem promotes them into Part or Field; Member is reached only after the triadic CM witness."
+    "zeno_rule" => "Zeno is not a fourth face. Its same-history mechanism is typed through original participation and any licensed Field readout; every terminal subcase is a presentation of lost full VPI participation.",
+    "support_rule" => "Supplier, readout, export, manuscript, generated, source-history, runtime, and governance surfaces are quarantined unless they classify a real same-history departure. Pack remains outside CM; Part and Field only localize the one VPI participation loss.",
+    "contrapositive" => closure.fetch("one_line")
   },
   "scope" => {
     "included_non_euler_text_surfaces" => index.dig("scope", "included_count"),
@@ -178,6 +194,21 @@ output = {
   "entries" => mapped_entries
 }
 output["recent_update"] = index.fetch("recent_update") if index.key?("recent_update")
+
+if ARGV.include?("--check")
+  all_breaks = mapped_entries.flat_map do |entry|
+    Array(entry.dig("failure_face_diagnostic", "cm_part_field_question_breaks"))
+  end
+  abort "Pack resurfaced as a CM face" if all_breaks.any? { |face| face.to_s.include?("Pack") }
+
+  pack_rows = mapped_entries.select { |entry| entry["face_sort"] == "Pack_or_Pack_bridge" }
+  unless pack_rows.all? { |entry| entry.dig("failure_face_diagnostic", "diagnostic_status") == "vpi_participation_loss_presentation" }
+    abort "Pack rows do not preserve the outside-CM VPI participation-loss boundary"
+  end
+
+  puts "NON_EULER_FAILURE_FACE_MAP_CHECK entries=#{mapped_entries.length}"
+  exit 0
+end
 
 OUT_PATH.write(output.to_yaml)
 puts "wrote #{OUT_PATH.relative_path_from(ROOT)}"
