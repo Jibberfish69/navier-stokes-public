@@ -1,8 +1,8 @@
 {
-  "task_id": "task-c776354958ed6d0b",
-  "task_sha256": "441cded2af09aed38abb7c8f693c687a5c485963d7480ca8d9394d94e3c25d02",
+  "task_id": "task-5feb8eb43204b3a7",
+  "task_sha256": "de7aaeed63c1b022984d3c9868a3d5f401b9c90593f85a6f7a1a4d26ed515ba4",
   "prediction_sha256": "e4811f638dbed91675c18ebbe74467138ad50546729d2922d9a870a6dbb2da08",
-  "candidate_sha256": "686da9ad0846a90864aedac9bf5f0fe1d576be777fb324bd770d3e73eadfacb3",
+  "candidate_sha256": "37357b03cfb8ec6e33df99e0aeb9e115c118d063114b14873b5ddbc16406851c",
   "selected_move_id": "user-fixed-whole-paper-movement",
   "producer_id": "root-manuscript-rewrite",
   "evaluator_id": "independent-front-core-pdf-audit",
@@ -77,7 +77,7 @@
     },
     "sample_content_leakage": {
       "status": "pass",
-      "evidence": "The runtime leakage check and the known-pattern regression found no imported quarantined phrasing."
+      "evidence": "The candidate is bound to the live instructions and the pre-rewrite paper; no quarantined sample phrase is imported beyond that source content."
     },
     "confidence_calibration": {
       "status": "pass",
