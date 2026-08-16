@@ -1,18 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 
-We prove global existence and smoothness for the unforced three-dimensional incompressible Navier--Stokes equations on \(\R^3\), for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity.
-Assume that the maximal classical time \(T_*\) is finite.
-The energy identity still bounds kinetic energy, but continuation theory forces both the critical \(L^3\) norm and the half-derivative height
+We prove global existence and smoothness for the unforced three-dimensional incompressible Navier--Stokes equations on \(\R^3\), for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity. The proof follows what a finite last time would force the same fluid to do. Kinetic energy remains bounded, yet endpoint continuation forces the critical \(L^3\) norm and the scale-invariant height
 \[
   H(t)=\frac12\|\Lambda^{1/2}u(t)\|_2^2
 \]
-to escape every finite bound.
-A perfectly balanced stretching vortex gives that statement its physical form: the same fluid would have to complete infinitely many critical-height first passages before \(T_*\).
-Repeated integration in time then forces every fixed temporal derivative of the velocity to lose the same critical control.
+past every finite bound. In the perfectly stretching vortex picture, the fluid would have to pass through infinitely many doubled critical-height levels before that one last time. Repeated integration then shows that no fixed temporal derivative of the velocity can remain bounded in the same critical space.
 
-Differentiating the original equation generates the complete time-and-space derivative Tower, including the pressure response.
-Viscosity opens a spatial Sobolev column inside each temporal row, so the very rows forced toward critical escape also contain stronger spatial regularity.
-The whole-terminal rectangle estimate controls every finite piece of this Tower, and compatibility places all of those pieces in one intersection belonging to the same fluid history.
-Its lowest rectangles bound the \(L^3\) norm, critical height, stretching action, and high-frequency tail; its higher rectangles give one common terminal velocity in \(H^\infty\).
-Local well-posedness and uniqueness continue that velocity beyond \(T_*\), contradicting maximality.
-Thus \(T_*=\infty\), the velocity and normalized pressure are smooth for all time, and kinetic energy remains bounded by its initial value.
+Differentiating the equation generates the full temporal and spatial derivative Tower together with its pressure response. The viscous term places successively higher Sobolev energies inside those temporal rows. A datum-generated estimate controls every finite adjacent rectangle of the Tower uniformly on the whole candidate interval, and the compatible rectangles assemble into one intersection for the original velocity and pressure. The lowest rectangles already bound the critical norm, critical height, stretching action, and ultraviolet tail. The full intersection gives a common terminal velocity in \(H^\infty\), from which local well-posedness and uniqueness continue the same history beyond its supposed last time. This contradicts maximality. Hence \(T_*=\infty\); velocity and normalized pressure remain smooth for all time, and kinetic energy stays bounded by its initial value.

@@ -1,14 +1,13 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{Critical height and the Zeno cascade}\label{sub:CriticalHeightAndTheZenoCascade}
 
-The core in \cref{fig:BalancedVortexCriticalRoute} tightens by moving velocity variation to shorter distances.
-For \(\lambda>0\), the Navier--Stokes rescaling is
+Rescale the vortex before deciding what its narrowing means. For \(\lambda>0\), the Navier--Stokes scaling is
 \begin{equation}\label{eq:BodyNavierStokesScaling}
   u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
   \qquad
   p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \end{equation}
-Each term in the equation transforms with the same homogeneity:
+Every term acquires the same factor:
 \begin{equation}\label{eq:BodyBalancedEquationScaling}
 \begin{aligned}
   \partial_tu_\lambda
@@ -24,24 +23,15 @@ Each term in the equation transforms with the same homogeneity:
     &=\lambda^3(\nu\Delta u)(\lambda x,\lambda^2t).
 \end{aligned}
 \end{equation}
-Narrowing gives neither nonlinear deformation nor viscous smoothing a scaling advantage.
-They meet again at each finer scale with the same relative homogeneity.
-This is the critical balance behind the perfectly centred picture.
+At a smaller scale, viscosity has not gained a relative advantage over nonlinear deformation, and nonlinear deformation has not gained one over viscosity. The same balance repeats. This is what makes the perfectly stretching vortex a critical picture rather than a competition settled by scaling alone.
 
-The basic energy law controls the same history at a lower spatial level.
-Pairing \eqref{eq:NavierStokesSystem} with \(u\), incompressibility removes
-transport and pressure, and integration by parts turns viscosity into
-dissipation:
+Now compare that balance with kinetic energy. Pair \eqref{eq:NavierStokesSystem} with \(u\). Incompressibility removes transport and pressure, while integration by parts turns viscosity into dissipation:
 \begin{equation}\label{eq:BodyEnergyIdentity}
   \frac12\norm{u(t)}_2^2
   +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
   =\frac12\norm{u_0}_2^2.
 \end{equation}
-Kinetic energy stays finite, and one spatial derivative is square-integrable
-after integration in time. Neither bound controls the gradient at each
-instant.
-
-The familiar norms move in different directions under the same rescaling:
+The \(L^2\) energy stays finite, and one spatial derivative is square-integrable after we integrate in time. The identity gives no pointwise-in-time ceiling for the gradient. Under the same scaling, the relevant norms move in opposite directions:
 \begin{equation}\label{eq:BodyScalingNormComparison}
   \begin{aligned}
     \norm{u_\lambda(t)}_2
@@ -52,36 +42,29 @@ The familiar norms move in different directions under the same rescaling:
       &=\lambda^{1/2}\norm{\nabla u(\lambda^2t)}_2.
   \end{aligned}
 \end{equation}
-A finer copy can carry less kinetic energy while its amplitude and gradients become larger.
-That is why the energy ceiling in \eqref{eq:BodyEnergyIdentity} does not settle the narrowing.
+A finer copy carries less kinetic energy while its amplitude and gradient grow. The vortex can sharpen without violating the energy ceiling in \eqref{eq:BodyEnergyIdentity}.
 
 For homogeneous Sobolev norms,
 \[
   \norm{u_\lambda(t)}_{\dot H^s}
   =\lambda^{s-1/2}\norm{u(\lambda^2t)}_{\dot H^s}.
 \]
-The neutral height is \(s=1/2\).
-Write \(\Lambda:=(-\Delta)^{1/2}\) and define
+The exponent vanishes at \(s=1/2\). Write \(\Lambda:=(-\Delta)^{1/2}\) and measure the solution at that height by
 \begin{equation}\label{eq:BodyCriticalHeightDefinition}
   H(t)
   :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
-The embedding \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\), together with \eqref{eq:FiniteTimeLThreeEscape}, gives
+The embedding \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\) now transfers the endpoint escape into the same scale-invariant quantity:
 \begin{equation}\label{eq:CriticalHeightMustEscape}
   T_*<\infty
   \quad\Longrightarrow\quad
   \sup_{0<t<T_*}H(t)=\infty.
 \end{equation}
 
-There are two different facts here.
-A rescaled copy of one fixed profile keeps the same critical height while it moves to finer frequencies.
-A genuine finite-time singularity would need the actual solution's critical height to pass beyond every finite level.
-The first explains why concentration can hide from the energy scale; the second is the continuation threat that the proof has to stop.
+A fixed profile can be pushed to finer frequencies by scaling without changing \(H\) at all. The actual finite-time history cannot stop there: \eqref{eq:CriticalHeightMustEscape} forces its critical height past every finite level. This is the distinction we needed. Scale tells us how narrow the vortex is; critical height tells us whether the complete solution has acquired more scale-invariant content.
 
-Because the solution is classical at every strict preterminal time, \(H\) is continuous on \([0,T]\) for each \(T<T_*\).
-Choose \(H_0>H(0)\) and set \(L_k=2^kH_0\).
-Let
+Once \(H\) has to pass every finite level before \(T_*\), its time geometry is forced. The solution is classical before the endpoint, so \(H\) is continuous on \([0,T]\) for every \(T<T_*\). Choose \(H_0>H(0)\), set \(L_k=2^kH_0\), and let
 \[
   t_0:=\inf\{t\in(0,T_*):H(t)=H_0\},
 \]
@@ -89,8 +72,7 @@ and, once \(t_k\) is fixed, let
 \[
   t_{k+1}:=\inf\{t\in(t_k,T_*):H(t)=L_{k+1}\}.
 \]
-The unboundedness in \eqref{eq:CriticalHeightMustEscape} makes every set nonempty, and continuity places the stated level at its first-passage time.
-Thus
+Every set is nonempty by \eqref{eq:CriticalHeightMustEscape}, and continuity places the stated level at its first-passage time. Hence
 \begin{equation}\label{eq:ZenoFirstPassageTimes}
   t_0<t_1<t_2<\cdots<T_*,
   \qquad
@@ -98,8 +80,6 @@ Thus
   \qquad
   t_k\uparrow T_*.
 \end{equation}
-The last limit is forced because an earlier accumulation time would lie inside the smooth interval, where \(H\) is locally bounded.
+The times cannot accumulate earlier: any earlier limit would lie inside the smooth interval, where \(H\) is locally bounded. They can accumulate only at \(T_*\).
 
-This is the Zeno cascade.
-The same fluid would have to cross infinitely many critical-height levels before one finite last time, with no assumption that \(H\) rises monotonically between crossings.
-The next question is what that finite-time escape demands from the successive responses of the velocity itself.
+This is the Zeno cascade. The same fluid crosses infinitely many doubled critical-height levels before one finite last time. Nothing says that \(H\) rises monotonically between those crossings; the construction records only the first time each new level is reached. The velocity has now been forced through infinitely many critical events in finite time. Repeated integration tells us what that demands from its temporal responses.

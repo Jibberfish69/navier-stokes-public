@@ -1,12 +1,5 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-The three-dimensional Navier--Stokes regularity problem asks whether a
-smooth solution can lose its smoothness in finite time. Fix smooth,
-divergence-free, finite-energy initial data \(u_0\), fix \(\nu>0\), and let
-\((u,p)\) be the corresponding maximal classical solution on \([0,T_*)\).
-We want to prove that \(T_*\) cannot be finite.
-
-In the whole-space formulation the external force is zero and \(u_0\) belongs
-to the divergence-free Schwartz class \parencite{Fefferman2000}:
+Fix \(\nu>0\) and a smooth divergence-free velocity \(u_0\) on \(\R^3\) whose derivatives decay faster than every power at infinity. Fefferman's whole-space problem asks whether the Navier--Stokes evolution from this datum stays smooth for all time \parencite{Fefferman2000}. In the notation used here,
 \[
   \Ssigma
   :=
@@ -17,8 +10,7 @@ to the divergence-free Schwartz class \parencite{Fefferman2000}:
   \qquad
   u_0\in\Ssigma,
 \]
-where \(\mathscr S\) denotes the Schwartz class. The velocity and pressure
-satisfy
+where \(\mathscr S\) is the Schwartz class. With no external force, the velocity and pressure satisfy
 \begin{equation}\label{eq:NavierStokesSystem}
 \begin{aligned}
   \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
@@ -29,15 +21,14 @@ satisfy
 \end{aligned}
 \qquad\text{on }\R^3.
 \end{equation}
-The required global conclusion is
+We take the pressure with its decaying whole-space normalization. The problem is to produce this one pair for every \(t\geq0\), with
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
 
-Classical local theory supplies the maximal history named above, with
-\(0<T_*\leq\infty\) \parencite{FujitaKato1964,Kato1984}. The task is to prove
+Classical local theory already gives one solution on a nonzero interval. Continue it for as long as it remains classical and call that interval \([0,T_*)\), where \(0<T_*\leq\infty\) \parencite{FujitaKato1964,Kato1984}. The entire regularity problem is now concentrated in one statement:
 \begin{equation}\label{eq:GlobalTimeTarget}
   T_*=\infty.
 \end{equation}
