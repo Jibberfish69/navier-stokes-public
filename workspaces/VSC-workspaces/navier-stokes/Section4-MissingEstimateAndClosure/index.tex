@@ -119,10 +119,10 @@ Also \(E_{3/2}\in L^1(I_*)\), so the first completed row
 \[
   \mathcal P_{1/2}=H'+2\nu E_{3/2}
 \]
-shows that the signed critical production is integrable on the whole candidate interval.
+shows that the signed critical production is integrable on \(I_*\).
 The height can rise and fall sharply, but it cannot accumulate an infinite net rise before \(T_*\).
 
-The vortex sees the same rectangle in a more physical norm.  In three dimensions,
+The same rectangle also gives the physical control needed for the vortex.  In three dimensions,
 \(H^3\hookrightarrow W^{1,\infty}\), and hence
 \[
   \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt
@@ -145,7 +145,7 @@ we obtain the full finite stretching action
 
 There were two possible meanings of the narrowing core in Section~2.  Take them one at
 a time.  First suppose the core continues to contain the same material labels.
-If \(X(a,t)\) and \(X(b,t)\) are two trajectories in that core, then
+If \(X(a,t)\) and \(X(b,t)\) are two trajectories in that core, then, for \(t<T_*\),
 \[
   \frac d{dt}|X(a,t)-X(b,t)|
   \geq
@@ -161,11 +161,15 @@ The finite action in \eqref{eq:FiniteLipschitzVorticityStrainAction} gives
   \right)
   >0
 \end{equation}
-for every \(t\leq T_*\).
-A material core begins with distinct particles.  Inequality
-\eqref{eq:BodyMaterialCoreLowerBound} says those particles are still distinct at
-\(T_*\).  The drawn radius may shrink, but it cannot represent the collapse of that
-same labelled core to one point.
+The same \(L^2(I_*;H^3)\) row gives \(u\in L^1(I_*;L^\infty)\), so each trajectory
+extends continuously to \(T_*\).  Passing to the limit above gives
+\[
+  |X(a,T_*)-X(b,T_*)|
+  \geq |a-b|\exp\!\left(-\int_0^{T_*}\norm{\nabla u(s)}_\infty\,ds\right)>0.
+\]
+A material core begins with distinct particles, and those particles remain distinct at
+the terminal time.  The drawn radius may shrink, but it cannot represent the collapse of
+that same labelled core to one point.
 
 Keep this first reading and now put the vortex exactly on its centreline.
 The finite coordinate \((r,m)=(0,3)\) in \eqref{eq:BodyUniformMixedSobolevCoordinate} gives
@@ -215,10 +219,9 @@ Equation \eqref{eq:BodyUniformMixedSobolevCoordinate} with \(r=0\), together wit
 Even when material is continually recruited, the complete velocity field cannot retain a fixed amount of critical content beyond every frequency.
 
 The two meanings of the core now have separate conclusions.  Fixed material labels
-retain positive separation, and a core with changing membership sits inside a
-whole-field critical tail that vanishes uniformly at high frequency.  Neither estimate
-uses wobble, fragmentation, buckling, or lost symmetry.  The perfectly stretching
-vortex cannot carry singular critical content into zero scale at \(T_*\).
+retain positive separation at \(T_*\).  Changing membership cannot preserve a nonzero
+whole-field critical tail beyond every frequency.  The perfectly stretching vortex
+reaches zero scale in neither of the two singular senses posed in Section~2.
 
 \subsection{No finite singular time}\label{sub:NoFiniteSingularTime}
 
@@ -322,7 +325,7 @@ The upper edge of the same rectangle gives a different historical reading:
   u\in L^2(0,T;H^2)
   \hookrightarrow L^2(0,T;L^\infty).
 \]
-This is the endpoint pair \((p,q)=(2,\infty)\) on the Ladyzhenskaya--Prodi--Serrin line \(2/p+3/q=1\) \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
+This is the endpoint pair \((q,p)=(2,\infty)\) on the Ladyzhenskaya--Prodi--Serrin line \(2/q+3/p=1\) \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
 The first meets the exact \(L^3\) norm that defined the terminal threat.  The second
 places the same velocity on the classical scale-balanced integrability line.
 
@@ -397,9 +400,10 @@ Then
 For Navier--Stokes, repeated differentiation and division by \((-2\nu)^n\) isolate \(E_{n+1/2}^{\mathrm{NS}}\) in \eqref{eq:BodyCompletedCriticalRow}.
 Euler retains the nonlinear mixing of time and space, but it has no signed coercive rung that isolates the next Sobolev height in this way.
 
-If an Euler history were already known to lie in an all-orders compatible
-intersection, that container would still be powerful.
-It would imply every fixed Sobolev bound and, in particular, the Beale--Kato--Majda condition \(\int_0^T\|\omega^{\mathrm E}(t)\|_\infty\,dt<\infty\) \parencite{BealeKatoMajda1984}.
+An Euler history lying in an all-orders compatible intersection would satisfy every
+fixed Sobolev bound and, in particular, the Beale--Kato--Majda condition
+\(\int_0^T\|\omega^{\mathrm E}(t)\|_\infty\,dt<\infty\)
+\parencite{BealeKatoMajda1984}.
 The fixed-viscosity theorem used here does not supply that Euler intersection, and its constants are not claimed to remain bounded as \(\nu\downarrow0\).
 This is the exact boundary of the method.  Euler keeps the mixed jet and all of its
 nonlinear coupling.  What it loses is the signed viscous rung that lets the completed
