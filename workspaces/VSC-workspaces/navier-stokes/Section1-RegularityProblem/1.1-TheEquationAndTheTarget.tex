@@ -1,22 +1,64 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-The three-dimensional Navier--Stokes regularity problem asks whether a smooth velocity can lose its smoothness in finite time.
-Fefferman's whole-space problem fixes \(\nu>0\), starts from a smooth divergence-free
-velocity \(u_0\) on \(\R^3\) whose derivatives decay faster than every power at
-infinity, and asks whether the Navier--Stokes evolution from that datum stays smooth
-for all time \parencite{Fefferman2000}.
-In the notation used here,
-\[
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth
+solution can lose its smoothness in finite time.  Fix smooth, divergence-free,
+finite-energy initial data \(u_0\), fix \(\nu>0\), and let \((u,p)\) be the
+corresponding maximal classical solution on \([0,T_*)\), whose local existence
+and uniqueness follow from classical theory
+\parencite{FujitaKato1964,Kato1984}.  We want to prove that \(T_*\) cannot be
+finite.  In symbols,
+\begin{equation}\label{eq:GlobalTimeTarget}
+  T_*=\infty.
+\end{equation}
+
+Fefferman's formulation of the whole-space Millennium Prize Problem takes
+\(u_0\) to be smooth and divergence-free and imposes a decay estimate on every
+spatial derivative at every polynomial order \parencite{Fefferman2000}.  We
+write this class as
+\begin{equation}\label{eq:FeffermanDatumClass}
   \Ssigma
   :=
   \left\{
-    a\in\mathscr S(\R^3;\R^3):
-    \nabla\cdot a=0
-  \right\},
-  \qquad
-  u_0\in\Ssigma,
+  a\in C^\infty(\R^3;\R^3):
+  \begin{array}{l}
+    \nabla\cdot a=0,\\[0.3em]
+    \forall\alpha\in\Nzero^3\;
+    \forall K\in\Nzero\;
+    \exists C_{\alpha,K}<\infty\;
+    \forall x\in\R^3,\\[0.3em]
+    |\partial_x^\alpha a(x)|
+    \leq C_{\alpha,K}(1+|x|)^{-K}
+  \end{array}
+  \right\}.
+\end{equation}
+Here \(\alpha\) is a spatial multi-index and \(K\) is any prescribed polynomial
+decay order.  The constant \(C_{\alpha,K}\) may change when either one changes.
+Because the estimate holds for every \(K\), the field and each of its spatial
+derivatives decay faster than every polynomial power.
+
+For finite \(m\in\Nzero\), write
+\begin{equation}\label{eq:DivergenceFreeSobolevClass}
+  H_\sigma^m(\R^3)
+  :=
+  \left\{
+    v\in H^m(\R^3;\R^3):\nabla\cdot v=0
+  \right\}.
+\end{equation}
+Fix \(m\) and choose an integer \(K>3/2\).  For every
+\(|\alpha|\leq m\), the decay estimate gives
+\[
+  \norm{\partial_x^\alpha u_0}_2^2
+  \leq
+  C_{\alpha,K}^2
+  \int_{\R^3}(1+|x|)^{-2K}\,dx
+  <\infty.
 \]
-where \(\mathscr S\) is the Schwartz class.
-For the unforced equation, the velocity and pressure satisfy
+Summing over the finitely many multi-indices with \(|\alpha|\leq m\) gives
+\begin{equation}\label{eq:FeffermanDatumSobolevRows}
+  \Ssigma\subset H_\sigma^m(\R^3)
+  \qquad\text{for every finite }m.
+\end{equation}
+
+The problem asks for velocity and pressure fields satisfying
 \begin{equation}\label{eq:NavierStokesSystem}
 \begin{aligned}
   \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
@@ -27,25 +69,14 @@ For the unforced equation, the velocity and pressure satisfy
 \end{aligned}
 \qquad\text{on }\R^3.
 \end{equation}
-The nonlinear term transports velocity through its own field, pressure enforces the divergence constraint across that field, and viscosity diffuses spatial variation.
-Taking the divergence of \eqref{eq:NavierStokesSystem} gives
-\begin{equation}\label{eq:OpeningPressureNormalization}
-  -\Delta p=\partial_i\partial_j(u_i u_j).
-\end{equation}
-The decaying whole-space normalization fixes the pressure once the velocity is fixed.
-Transport, incompressibility, pressure, and viscosity consequently determine one velocity--pressure history from \(u_0\).
-The target is the existence of this one pair for every \(t\geq0\), with
+We use the decaying whole-space normalization for the pressure.  The required
+conclusion is
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
-
-Classical local theory gives a unique classical solution on a nonzero interval \parencite{FujitaKato1964,Kato1984}.
-Let \([0,T_*)\), with \(0<T_*\leq\infty\), be its maximal classical interval.
-If \(T_*<\infty\), the pair remains smooth at every earlier time; breakdown means that this same history cannot be continued through \(T_*\).
-We will prove that no such finite endpoint exists:
-\begin{equation}\label{eq:GlobalTimeTarget}
-  T_*=\infty.
-\end{equation}
-The proof follows this same history toward a hypothetical finite endpoint and asks what it would have to do before the remaining time runs out.
+Smoothness here includes the endpoint of every finite interval.  It is stronger
+than being smooth on every shorter interval \([0,T]\) with \(T<T_*\), because a
+derivative can remain finite on each such interval and still have no finite
+trace at \(T_*\).
