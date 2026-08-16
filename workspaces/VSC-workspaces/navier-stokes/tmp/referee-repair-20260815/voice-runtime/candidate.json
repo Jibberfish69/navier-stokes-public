@@ -1,0 +1,18 @@
+{
+  "text": "For every smooth, rapidly decaying, divergence-free initial velocity on \\(\\R^3\\) and every viscosity \\(\\nu>0\\), we prove that the corresponding pressure-normalized classical Navier--Stokes history exists smoothly for all time.\nThe argument follows this one maximal history rather than separate estimates of unrelated fields.\nIts first input is the datum-generated whole-terminal compatible-rectangle theorem \\parencite[Section~5]{Birnie2026ReversibleIntersection}: for each finite temporal depth \\(N\\) and spatial depth \\(M\\), the theorem controls the adjacent Sobolev rows required by the Hilbert-scale trace across every cutoff \\(T<T_*\\), with constants allowed to depend on \\(N\\) and \\(M\\), and makes the finite records agree under restriction.\nTheir projective intersection gives the complete spatial row for the same velocity without requiring one constant uniform in derivative order.\nThe adjacent traces then determine a common endpoint \\(u_*\\in\\bigcap_{m=0}^{\\infty}H^m(\\R^3)\\).\nThe normalized pressure recurrence determines the complete endpoint jet.\nLocal well-posedness from \\(u_*\\), together with uniqueness, extends the same history past any alleged finite \\(T_*\\).\nHence \\(T_*=\\infty\\), and the normalized velocity and pressure are smooth on every finite time interval.\n",
+  "sha256": "d4c88917eae89a97422994b28fcf5e5a3407e295662938a5363af4a68f2afabf",
+  "selected_move_id": "exact-one-fluid-closure-spine",
+  "prediction_sha256": "67b5895eb670bee370ad855cc3b042c87648fc7f67f6c224d4c286850545d924",
+  "producer_id": "root-abstract-author",
+  "content_provenance": [
+    {
+      "start": 0,
+      "end": 1284,
+      "candidate_text": "For every smooth, rapidly decaying, divergence-free initial velocity on \\(\\R^3\\) and every viscosity \\(\\nu>0\\), we prove that the corresponding pressure-normalized classical Navier--Stokes history exists smoothly for all time.\nThe argument follows this one maximal history rather than separate estimates of unrelated fields.\nIts first input is the datum-generated whole-terminal compatible-rectangle theorem \\parencite[Section~5]{Birnie2026ReversibleIntersection}: for each finite temporal depth \\(N\\) and spatial depth \\(M\\), the theorem controls the adjacent Sobolev rows required by the Hilbert-scale trace across every cutoff \\(T<T_*\\), with constants allowed to depend on \\(N\\) and \\(M\\), and makes the finite records agree under restriction.\nTheir projective intersection gives the complete spatial row for the same velocity without requiring one constant uniform in derivative order.\nThe adjacent traces then determine a common endpoint \\(u_*\\in\\bigcap_{m=0}^{\\infty}H^m(\\R^3)\\).\nThe normalized pressure recurrence determines the complete endpoint jet.\nLocal well-posedness from \\(u_*\\), together with uniqueness, extends the same history past any alleged finite \\(T_*\\).\nHence \\(T_*=\\infty\\), and the normalized velocity and pressure are smooth on every finite time interval.\n",
+      "content_ids": [
+        "live-input"
+      ],
+      "kind": "inference"
+    }
+  ]
+}
