@@ -414,7 +414,7 @@ side contains ∆Jn,α , and the elliptic equation determines the nonlocal press
 
 together with the recurrences and divergence relations above. This is one family containing
 every finite derivative of one pair (u, p). At t = 0, those recurrences determine every finite
-row from u0 ; Appendix B writes that initialization in full.
+row from u0 .
     The indices now locate every finite derivative. The critical-height balance tells us which
 spatial Sobolev energies viscosity supplies as t ↑ T∗ , so return to that balance and differentiate
 it in time.
@@ -449,10 +449,11 @@ Across one Zeno first-passage interval,
                                      P1/2 (t) dt = Lk + 2ν                     E3/2 (t) dt.          (3.1.3)
                              tk                                        tk
 
-So the transfer has to pay twice: it has to raise the critical height by Lk , and it has to replace
-everything viscosity removes while that rise occurs. Shortening the crossing interval does not
-erase either payment; it asks the transfer to make both of them faster.
-   Differentiate once more and use (3.1.1) at height s = 23 :
+The identity records two simultaneous contributionsRon every first-passage interval. The net
+                                                       t
+rise is Lk , while viscosity removes an additional 2ν tkk+1 E3/2 (t) dt. Shortening the crossing
+interval changes neither term; it concentrates the required transfer into less time.
+    Differentiate once more and use (3.1.1) at height s = 23 :
                                   H ′′ = ∂t P1/2 − 2νP3/2 + (2ν)2 E5/2 .                             (3.1.4)
 The next derivative gives
                        H ′′′ = ∂t2 P1/2 − 2ν∂t P3/2 + (2ν)2 P5/2 − (2ν)3 E7/2 .                      (3.1.5)
@@ -554,7 +555,7 @@ So there is not one spatial ladder attached only to u. There is a separate ladde
 another inside utt , and another inside every fixed Vr . Temporal order selects the response;
 spatial order asks how finely that response is resolved. The equation keeps those directions
 distinct while viscosity connects each row to its own next spatial height.
-    The finite coordinates we now need can be seen before we claim any of them are bounded:
+    Lay the two independent directions out before placing bounds on them:
 
 Table 3.2.1: The mixed grid the estimate has to fill. Each entry is the time-dependent
 coordinate ∥Vr (t)∥H m ; temporal order runs downward and spatial height runs across, and the
@@ -783,10 +784,10 @@ Also E3/2 ∈ L1 (I∗ ), so the first completed row
 
                                               P1/2 = H ′ + 2νE3/2
 
-shows that the signed critical production is integrable on the whole candidate interval. The
-height can rise and fall sharply, but it cannot accumulate an infinite net rise before T∗ .
-    The vortex sees the same rectangle in a more physical norm. In three dimensions,
-H 3 ,→ W 1,∞ , and hence
+shows that the signed critical production is integrable on I∗ . The height can rise and fall
+sharply, but it cannot accumulate an infinite net rise before T∗ .
+   The same rectangle also gives the physical control needed for the vortex. In three
+dimensions, H 3 ,→ W 1,∞ , and hence
                               Z T∗
                                      ∥∇u(t)∥∞ dt ≤ T∗1/2 ∥u∥L2 (I∗ ;H 3 ) < ∞.
                                0
@@ -796,8 +797,6 @@ Since ω = ∇ × u and S = 21 (∇u + ∇uT ), we obtain the full finite stretc
                                    (∥∇u(t)∥∞ + ∥ω(t)∥∞ + ∥S(t)∥∞ ) dt < ∞.                             (4.2.5)
                           0
 
-The two meanings of the narrowing core can now be tested against this finite action.
-
 
 
 
@@ -805,34 +804,37 @@ The two meanings of the narrowing core can now be tested against this finite act
 4.3    The two vortex readings
 There were two possible meanings of the narrowing core in Section 2. Take them one at a
 time. First suppose the core continues to contain the same material labels. If X(a, t) and
-X(b, t) are two trajectories in that core, then
-
-                   d
-                      |X(a, t) − X(b, t)| ≥ − ∥∇u(t)∥∞ |X(a, t) − X(b, t)|.
-                   dt
+X(b, t) are two trajectories in that core, then, for t < T∗ ,
+                    d
+                       |X(a, t) − X(b, t)| ≥ − ∥∇u(t)∥∞ |X(a, t) − X(b, t)|.
+                    dt
 The finite action in (4.2.5) gives
                                                                  Z t                  
-                  |X(a, t) − X(b, t)| ≥ |a − b| exp −                   ∥∇u(s)∥∞ ds > 0    (4.3.1)
+                   |X(a, t) − X(b, t)| ≥ |a − b| exp −                  ∥∇u(s)∥∞ ds > 0        (4.3.1)
                                                                    0
 
-for every t ≤ T∗ . A material core begins with distinct particles. Inequality (4.3.1) says those
-particles are still distinct at T∗ . The drawn radius may shrink, but it cannot represent the
-collapse of that same labelled core to one point.
-    Keep this first reading and now put the vortex exactly on its centreline. The finite
+The same L2 (I∗ ; H 3 ) row gives u ∈ L1 (I∗ ; L∞ ), so each trajectory extends continuously to T∗ .
+Passing to the limit above gives
+                                                                  Z T∗                     !
+                |X(a, T∗ ) − X(b, T∗ )| ≥ |a − b| exp −                  ∥∇u(s)∥∞ ds > 0.
+                                                                   0
+
+A material core begins with distinct particles, and those particles remain distinct at the
+terminal time. The drawn radius may shrink, but it cannot represent the collapse of that
+same labelled core to one point.
+   Keep this first reading and now put the vortex exactly on its centreline. The finite
 coordinate (r, m) = (0, 3) in (4.1.2) gives
 
-                                        L∗ := sup ∥∇u(t)∥∞ < ∞.                            (4.3.2)
+                                        L∗ := sup ∥∇u(t)∥∞ < ∞.                                (4.3.2)
                                                 0≤t≤T∗
-
 
 At a chosen centre xc (t),
                                        |u(t, x) − u(t, xc )| ≤ L∗ |x − xc |.
 Let Cr (t) be a circle of radius r in a cross-section normal to the vortex axis. The constant
 vector u(t, xc ) integrates to zero around the closed curve, so
-                         I
-                                      u(t, x) · dℓ ≤ 2πL∗ r2 −→ 0           (r ↓ 0).       (4.3.3)
+                          I
+                                      u(t, x) · dℓ ≤ 2πL∗ r2 −→ 0           (r ↓ 0).           (4.3.3)
                              Cr (t)
-
 
 Thus perfect centring changes neither conclusion. If the radius tends to zero while the velocity
 remains Lipschitz, the relative tangential speed is O(r) and the circulation is O(r2 ); no
@@ -845,36 +847,34 @@ to the whole-field high-frequency tail. For s > 1/2 and K ≥ 1, define
                                                    2 |ξ|>K
 Then
                                                  1
-                                        H>K (t) ≤ K 1−2s ∥u(t)∥2Ḣ s .                     (4.3.4)
+                                        H>K (t) ≤ K 1−2s ∥u(t)∥2Ḣ s .                         (4.3.4)
                                                  2
-Choose an integer m ≥ s. Equation (4.1.2) with r = 0, together with H m ,→ Ḣ s , gives
-
-                                            lim    sup H>K (t) = 0.                        (4.3.5)
-                                           K→∞ 0≤t≤T∗
-
-
-
-
                                                          16
-Even when material is continually recruited, the complete velocity field cannot retain a fixed
+Choose an integer m ≥ s. Equation (4.1.2) with r = 0, together with H m ,→ Ḣ s , gives
+
+                                   lim   sup H>K (t) = 0.                              (4.3.5)
+                                  K→∞ 0≤t≤T∗
+
+
+Even when material is continually recruited, the complete velocity field cannot retain a fixed
 amount of critical content beyond every frequency.
     The two meanings of the core now have separate conclusions. Fixed material labels retain
-positive separation, and a core with changing membership sits inside a whole-field critical
-tail that vanishes uniformly at high frequency. Neither estimate uses wobble, fragmentation,
-buckling, or lost symmetry. The perfectly stretching vortex cannot carry singular critical
-content into zero scale at T∗ .
+positive separation at T∗ . Changing membership cannot preserve a nonzero whole-field critical
+tail beyond every frequency. The perfectly stretching vortex reaches zero scale in neither of
+the two singular senses posed in Section 2.
 
 4.4    No finite singular time
 Theorem 4.4.1 (Whole-space existence and smoothness). For every ν > 0 and every
 u0 ∈ Sσ , the maximal classical solution of (1.1) satisfies
-                                                                
+                                                               
                            T∗ = ∞,       u, p ∈ C ∞ R3 × [0, ∞) .                      (4.4.1)
 
 For every t ≥ 0,
-                          1              Z t
-                                                           1
-                            ∥u(t)∥22 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                  (4.4.2)
-                          2               0                2
+                          1             Z t
+                                                          1
+                                  2
+                            ∥u(t)∥2 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                   (4.4.2)
+                          2              0                2
 Proof. Assume that T∗ < ∞. Equation (4.1.1) bounds u in the exact L3 endpoint norm that
 (2.1.2) forces to diverge. This contradiction rules out a finite maximal time.
     The compatible traces also give u∗ ∈ H ∞ ; the differentiated recurrence determines its
@@ -887,7 +887,7 @@ that local uniqueness glues the restarted solution to the original classical his
 
 
 
-                                              17
+                                             17
 5     Further Consequences and the Euler Boundary
 5.1    A finite sum across infinitely many scales
 Fix any finite T > 0. The global solution is classical on [0, T ], so its finite block R0,2 [u0 ; T ]
@@ -948,11 +948,10 @@ threat is already bounded by the first critical rectangle.
 
                                u ∈ L2 (0, T ; H 2 ) ,→ L2 (0, T ; L∞ ).
 
-This is the endpoint pair (p, q) = (2, ∞) on the Ladyzhenskaya–Prodi–Serrin line 2/p+3/q = 1
-(Prodi 1959; Serrin 1962; Serrin 1963; Ladyzhenskaya 1967). The endpoint theorem and the
-Serrin condition do different jobs for the reader. The first meets the exact L3 norm that
-defined the terminal threat. The second shows that the same rectangle also lands on the
-classical scale-balanced integrability line.
+This is the endpoint pair (q, p) = (2, ∞) on the Ladyzhenskaya–Prodi–Serrin line 2/q+3/p = 1
+(Prodi 1959; Serrin 1962; Serrin 1963; Ladyzhenskaya 1967). The first meets the exact L3
+norm that defined the terminal threat. The second places the same velocity on the classical
+scale-balanced integrability line.
     There is a third reading closer to the vortex itself. From u ∈ L2 (0, T ; H 2 ),
 
                                ∇u ∈ L2 (0, T ; H 1 ) ,→ L2 (0, T ; L3 ),
@@ -967,6 +966,7 @@ chosen [0, T ] gives, for finite r, k ∈ N0 , 2 ≤ p ≤ ∞, and 1 ≤ q ≤ 
 
 after choosing a finite Sobolev height m > k + 23 − p3 .
 
+
 5.3    Why the Euler Tower is different
 Now remove viscosity and watch exactly which part of the argument disappears. The mixed
 derivative jet can still be written for Euler; the spatial ascent that drives this paper cannot.
@@ -978,11 +978,10 @@ To keep the two histories distinct, write
 and define VnE , QEn from a separate Euler solution. Their temporal recurrences are
                                n
                                        !
-                                     n
-                        NS
+                        NS           n                            NS
                                        (VaNS · ∇)Vn−a
                                                    NS
-                                                      + ∇QNS      NS
+                                                      + ∇QNS
                                X
                       Vn+1 +                              n = ν∆Vn ,                     (5.3.1)
                                a=0   a
@@ -1013,19 +1012,19 @@ spatial derivatives of that same response.
                                                    ,    (EsE )′ = PsE .                 (5.3.3)
 
 For Navier–Stokes, repeated differentiation and division by (−2ν)n isolate En+1/2
-                                                                              NS
+                                                                               NS
                                                                                     in (3.1.7).
 Euler retains the nonlinear mixing of time and space, but it has no signed coercive rung that
 isolates the next Sobolev height in this way.
-    If an Euler history were already known to lie in an all-orders compatible intersection,
-that container would still be powerful. It would
-                                              RT
-                                                  imply every fixed Sobolev bound and, in
-particular, the Beale–Kato–Majda condition 0 ∥ω E (t)∥∞ dt < ∞ (Beale, Kato, and Majda
-1984). The fixed-viscosity theorem used here does not supply that Euler intersection, and its
-constants are not claimed to remain bounded as ν ↓ 0. This is the exact boundary of the
-method. Euler keeps the mixed jet and all of its nonlinear coupling. What it loses is the
-signed viscous rung that lets the completed row isolate the next Sobolev height.
+    An Euler history lying in an all-orders compatible intersection would  satisfy every fixed
+Sobolev bound and, in particular, the Beale–Kato–Majda condition 0T ∥ω E (t)∥∞ dt < ∞
+                                                                        R
+
+(Beale, Kato, and Majda 1984). The fixed-viscosity theorem used here does not supply that
+Euler intersection, and its constants are not claimed to remain bounded as ν ↓ 0. This is the
+exact boundary of the method. Euler keeps the mixed jet and all of its nonlinear coupling.
+What it loses is the signed viscous rung that lets the completed row isolate the next Sobolev
+height.
 
 
 
@@ -2084,7 +2083,6 @@ finite N, M , one has
                                 RN,M (u; T ) < ∞.                              (C.1.6)
 If N ′ ≤ N , M ′ ≤ M , and T ′ ≤ T , restriction of the larger rectangle gives the smaller
 rectangle.
-
 Proof. The closed interval [0, T ] lies inside the classical lifespan. Smooth-data persistence
 gives ∂tn u ∈ C([0, T ]; H q (R3 )) for every finite temporal order n and every finite Sobolev order
 q. Compactness of [0, T ] makes each of these norms bounded. In particular,
@@ -2092,22 +2090,21 @@ q. Compactness of [0, T ] makes each of these norms bounded. In particular,
                           ∥∂tn u∥2L2 (0,T ;H q ) ≤ T sup ∥∂tn u(t)∥2H q < ∞.
                                                         0≤t≤T
 
-
 Choosing the spatial orders in (C.1.5) proves (C.1.6). Restriction preserves the solution and
 every one of its derivatives, so every shared coordinate agrees.
     The strict-subinterval lemma stops at T < T∗ , and its bound may grow as T ↑ T∗ . The
-estimate from Section 4 removes that cutoff dependence after N and M have been fixed. To
-state the agreement between different finite depths, define, for N ′ ≤ N and M ′ ≤ M , the
-terminal bonding map
-                              N ′ ,M ′ ;I∗ : XN,M (I∗ ) −→ XN ′ ,M ′ (I∗ )
-                             ρN,M   ;I∗
+whole-terminal estimate in Theorem 3.4.1 supplies a bound independent of the cutoff after N
+and M have been fixed. To state the agreement between different finite depths, define, for
+N ′ ≤ N and M ′ ≤ M , the terminal bonding map
+
+                               N ′ ,M ′ ;I∗ : XN,M (I∗ ) −→ XN ′ ,M ′ (I∗ )
+                              ρN,M   ;I∗
 
 
 by forgetting the higher rows, applying the Sobolev embeddings to every retained velocity
 and pressure row, and recomputing the scalar adjacent-row norm on I∗ . Forgetting in two
 stages gives the same result as forgetting directly, and leaving the depths unchanged gives
 the identity map.
-
 Theorem C.1.2 (Datum-generated whole-terminal estimate in rectangle form). For every
 finite N, M ∈ N0 , the same datum-generated pressure-complete history satisfies
                                   N
@@ -2116,13 +2113,12 @@ finite N, M ∈ N0 , the same datum-generated pressure-complete history satisfie
                RN,M (u; I∗ ) :=
                                   n=0
                                       N
-                                                                                               (C.1.7)
-                                                    2
-                                             ∂tn+1 u 2
+                                                                                                      (C.1.7)
+                                                       2
+                                             ∂tn+1 u
                                       X
-                                  +                                ≤ CN,M (u0 , ν, T∗ ) < ∞.
-                                                    L (I ;H M −1 )
-                                                            ∗
+                                  +                                       ≤ CN,M (u0 , ν, T∗ ) < ∞.
+                                                       L2 (I∗ ;H M −1 )
                                       n=0
 
 The constant may depend on the finite coordinate (N, M ). The bound supplies the whole-
@@ -2131,15 +2127,14 @@ terminal record
 obtained from the same velocity and normalized pressure rows on I∗ . If N ′ ≤ N and M ′ ≤ M ,
 the terminal restriction map forgets the higher temporal coordinates, applies the continuous
 Sobolev embeddings, and satisfies
-                                                             
+                                                               
                                   ρN,M   ;I∗
-                                   N ′ ,M ′ ;I∗ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                  (C.1.8)
+                                   N ′ ,M ′ ;I∗ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                         (C.1.8)
 
 Every shared coordinate is the corresponding distributional derivative of the same u, and
 every pressure row uses the normalization in (C.1.2).
 
-
-                                                         42
+                                                           42
 Remark C.1.3 (Coordinate realization of the whole-terminal estimate). Fix N, M . For every
 0 ≤ n ≤ N , Theorem 3.4.1 gives Vn ∈ L2 (I∗ ; H M +1 ) and Vn+1 ∈ L2 (I∗ ; H M −1 ), all from
 the same pressure-complete history. Adding those finitely many squared norms gives the
