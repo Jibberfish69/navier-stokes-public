@@ -246,9 +246,9 @@ That forced rate is extremely slow compared with any power law, so much faster c
 
 \divider{What the Classical Estimates Leave Open}
 
-Taken on their own, the classical estimates put any finite maximal time in a narrow but still inhabited gap.
-Kinetic energy stays bounded, every continuation-grade Sobolev norm loses finite control, the critical \(L^3\) norm diverges, and every singular point retains scale-invariant concentration at arbitrarily small parabolic scales.
-None of those statements prevents the concentration itself.
+At a finite maximal time, kinetic energy stays bounded while every continuation-grade Sobolev norm and the critical \(L^3\) norm lose finite control.
+A singular point must also retain scale-invariant concentration at arbitrarily small parabolic scales.
+These are necessary descriptions of the concentration; none supplies the terminal-uniform estimate that would stop it.
 
 The reason can be seen directly from scaling:
 \[
@@ -264,13 +264,14 @@ The reason can be seen directly from scaling:
 Moving a structure to a shorter length scale preserves its critical \(L^3\) reading while reducing the \(L^2\) energy carried by the rescaled piece.
 The global energy ceiling cannot become a scale-independent ceiling on that critical concentration.
 
-Time also contracts with scale.
-If a schematic cascade halves its active length at each stage, its parabolic durations are proportional to
+Scaling also fixes the time available at each stage.
+If the active length is halved repeatedly, the corresponding parabolic durations are proportional to
 \[
   1,\ \frac14,\ \frac1{16},\ \ldots,
 \]
-and these durations fit inside a finite total time.
-This is the Zeno-cascade picture: successively smaller and faster activity is not excluded by the known estimates simply because each stage consumes less time.
-It describes room left open by the estimates and does not construct a singular Navier--Stokes fluid.
+and the entire schedule fits inside a finite total time.
+The classical estimates above do not exclude this schedule: each finer stage can occupy less time while retaining critical size.
+This is the precise role of the Zeno picture here.
+It records the timing left open by the estimates; it does not construct a singular Navier--Stokes fluid.
 
-The classical estimates identify both the continuation-grade norm and the scale-critical behavior forced by a finite endpoint, but they do not supply terminal-uniform control of that norm.
+The estimate still missing from the classical picture is a terminal-uniform bound in one continuation-grade norm.
