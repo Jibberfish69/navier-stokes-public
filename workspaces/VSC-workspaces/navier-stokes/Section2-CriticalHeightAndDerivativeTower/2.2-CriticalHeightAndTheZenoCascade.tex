@@ -23,8 +23,8 @@ Every term acquires the same factor:
     &=\lambda^3(\nu\Delta u)(\lambda x,\lambda^2t).
 \end{aligned}
 \end{equation}
-All four terms scale by \(\lambda^3\).
-Shrinking the scale does not change the size of nonlinear deformation relative to viscous diffusion, so scaling alone cannot decide which controls the evolution.
+All four terms scale by \(\lambda^3\), keeping nonlinear deformation and viscous diffusion at the same relative size.
+Scaling alone leaves the evolution undecided.
 
 Now compare that balance with kinetic energy.
 Pair \eqref{eq:NavierStokesSystem} with \(u\).
@@ -35,7 +35,7 @@ Incompressibility removes transport and pressure, while integration by parts tur
   =\frac12\norm{u_0}_2^2.
 \end{equation}
 The \(L^2\) energy stays finite, and one spatial derivative is square-integrable after we integrate in time.
-The identity gives no pointwise-in-time ceiling for the gradient.
+A square-integrable time integral still allows the gradient to grow along selected times.
 Under the same scaling, the relevant norms move in opposite directions:
 \begin{equation}\label{eq:BodyScalingNormComparison}
   \begin{aligned}
@@ -48,7 +48,7 @@ Under the same scaling, the relevant norms move in opposite directions:
   \end{aligned}
 \end{equation}
 A finer copy carries less kinetic energy while its amplitude and gradient grow.
-The vortex can sharpen without violating the energy ceiling in \eqref{eq:BodyEnergyIdentity}.
+The rescaled copy sharpens while still satisfying the energy ceiling in \eqref{eq:BodyEnergyIdentity}.
 
 For homogeneous Sobolev norms,
 \[
@@ -91,11 +91,10 @@ Every set is nonempty by \eqref{eq:CriticalHeightMustEscape}, and continuity pla
   \qquad
   t_k\uparrow T_*.
 \end{equation}
-The times cannot accumulate earlier: any earlier limit would lie inside the smooth interval, where \(H\) is locally bounded.
-They can accumulate only at \(T_*\).
+Any accumulation time must be \(T_*\): an earlier limit would lie inside the smooth interval, where \(H\) is locally bounded.
 
 This is the Zeno cascade.
 The same fluid crosses infinitely many doubled critical-height levels before one finite last time.
-Nothing says that \(H\) rises monotonically between those crossings; the construction records only the first time each new level is reached.
+Between those crossings, \(H\) may rise or fall; the construction records only the first time each new level is reached.
 The same finite endpoint also forces \(\norm{u(t)}_3\) to be unbounded.
-Repeated integration shows why that escape cannot stop at \(u\).
+Repeated integration carries that escape through every fixed temporal row.

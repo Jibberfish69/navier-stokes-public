@@ -8,13 +8,13 @@ The next stretch begins from that thinner vortex, with the steeper variation alr
 
 Now assume that its axis stays aligned with the expanding strain direction and that the core remains centred and coherent from one stretch to the next.
 This is the perfectly stretching vortex.
-It is a thought experiment that isolates the geometry most favourable to repeated concentration, not a claimed exact special solution.
+It is a thought experiment that isolates the geometry most favourable to repeated concentration; the equations below carry every exact implication.
 
 Before going any further, we have to decide what the word \emph{core} is following.
 It may contain the same material particles throughout the narrowing, or it may be a visible region that recruits new particles while earlier ones leave.
 The first reading concerns the separation of fixed fluid labels.
 The second concerns concentration in the complete velocity field.
-The drawing looks the same either way, but the mathematics does not.
+The drawing is identical in both readings, but the mathematical claims differ.
 
 \begin{center}
 \captionsetup{hypcap=false}
@@ -49,7 +49,7 @@ The drawing looks the same either way, but the mathematics does not.
   \draw[->,thick] (b)--(c);
   \draw[->,thick] (c)--(d);
 \end{tikzpicture}
-\captionof{figure}{One vortex stretching and narrowing inside the same fluid history. The implication chain beneath the drawing concerns the complete velocity field and does not place the global singular escape at the drawn centre.}
+\captionof{figure}{One vortex stretching and narrowing inside the same fluid history. The implication chain beneath the drawing is global and leaves the location of any singular escape unspecified.}
 \label{fig:BalancedVortexCriticalRoute}
 \end{center}
 
@@ -65,7 +65,7 @@ Taking the curl of \eqref{eq:NavierStokesSystem} and using incompressibility giv
 The strain term \(S\omega\) amplifies vorticity when the vortex aligns with an expanding strain direction.
 Incompressibility supplies the transverse contraction.
 The Laplacian acts on the curvature created as the core narrows.
-Pressure disappears from the curl equation, but not from the fluid: it still determines the velocity and strain needed to keep the motion divergence free.
+Curl removes pressure from this equation, while pressure continues to determine the velocity and strain needed to keep the motion divergence free.
 Stretching, narrowing, pressure response, and diffusion all happen together in this one vortex.
 
 The drawing makes concentration visible, but a finite \(T_*\) is a statement about the whole solution.
@@ -77,7 +77,7 @@ Since \(T_*\) is assumed finite and maximal,
   \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
 \end{equation}
 Here velocity blow-up means that the global \(L^3\) norm escapes every finite bound.
-It does not assert that the velocity amplitude diverges at the centre drawn in \cref{fig:BalancedVortexCriticalRoute}.
+The criterion is global and leaves the pointwise amplitude at the centre drawn in \cref{fig:BalancedVortexCriticalRoute} open.
 
 The radius in the drawing can shrink even when we have only rescaled the same profile.
 To separate a change of scale from genuine growth, we need a scale-invariant quantity whose divergence follows from \eqref{eq:FiniteTimeLThreeEscape}.
