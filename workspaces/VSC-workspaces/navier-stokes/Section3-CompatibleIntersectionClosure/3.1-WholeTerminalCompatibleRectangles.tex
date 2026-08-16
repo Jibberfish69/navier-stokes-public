@@ -81,9 +81,9 @@ Choosing the spatial orders in \eqref{eq:SectionThreeRectangleNorm} proves \eqre
 Restriction preserves the solution and every one of its derivatives, so every shared coordinate agrees.
 \end{proof}
 
-The lemma identifies every finite coordinate before the terminal time, while its bound may depend on the chosen \(T\).
-In the rectangle coordinates of this appendix, the whole-terminal estimate from Section~\ref{sec:TheMissingEstimateAndGlobalSmoothness} reads as follows.
-For \(N'\leq N\) and \(M'\leq M\), define the terminal bonding map
+The strict-subinterval lemma stops at \(T<T_*\), and its bound may grow as \(T\uparrow T_*\).
+The estimate from Section~\ref{sec:TheMissingEstimateAndGlobalSmoothness} removes that cutoff dependence after \(N\) and \(M\) have been fixed.
+To state the agreement between different finite depths, define, for \(N'\leq N\) and \(M'\leq M\), the terminal bonding map
 \[
   \rho_{N',M';I_*}^{N,M;I_*}:
   \mathscr X_{N,M}(I_*)
@@ -91,7 +91,7 @@ For \(N'\leq N\) and \(M'\leq M\), define the terminal bonding map
   \mathscr X_{N',M'}(I_*)
 \]
 by forgetting the higher rows, applying the Sobolev embeddings to every retained velocity and pressure row, and recomputing the scalar adjacent-row norm on \(I_*\).
-These maps have the same identity and composition laws as their strict-cutoff counterparts.
+Forgetting in two stages gives the same result as forgetting directly, and leaving the depths unchanged gives the identity map.
 
 \begin{theorem}[Datum-generated whole-terminal estimate in rectangle form]\label{thm:WholeTerminalCompatibleRectangleEstimate}
 For every finite \(N,M\in\Nzero\), the same datum-generated pressure-complete history satisfies
@@ -126,8 +126,9 @@ Every shared coordinate is the corresponding distributional derivative of the sa
 \end{theorem}
 
 \begin{remark}[Coordinate realization of the whole-terminal estimate]
-For every finite pair \((n,m)\), Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem} gives \(V_n\in L^2(I_*;H^{m+1})\) and \(V_{n+1}\in L^2(I_*;H^{m-1})\), with every row belonging to the same pressure-complete history.
-Fix \(N,M\), take \(m=M\), and add the finitely many squared norms for \(0\leq n\leq N\).
+Fix \(N,M\).
+For every \(0\leq n\leq N\), Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem} gives \(V_n\in L^2(I_*;H^{M+1})\) and \(V_{n+1}\in L^2(I_*;H^{M-1})\), all from the same pressure-complete history.
+Adding those finitely many squared norms gives the velocity part of \eqref{eq:WholeTerminalRectangleBound}.
 Riesz-transform boundedness, the Sobolev product estimate, and Cauchy--Schwarz in time give, for \(0\leq n\leq N\),
 \[
   \norm{Q_n}_{L^1(I_*;H^M)}
@@ -137,8 +138,8 @@ Riesz-transform boundedness, the Sobolev product estimate, and Cauchy--Schwarz i
   \norm{V_{n-a}}_{L^2(I_*;H^{M+1})}
   <\infty.
 \]
-The resulting whole-terminal sum is exactly \eqref{eq:WholeTerminalRectangleBound} in the present coordinates.
-Forgetting higher temporal rows or lowering the spatial index preserves every shared distributional derivative and every pressure row, which yields \eqref{eq:WholeTerminalRectangleCompatibility}.
+The pressure estimate completes \eqref{eq:WholeTerminalRectangleBound}.
+Forgetting higher temporal rows or lowering the spatial index leaves every shared distributional derivative and pressure row unchanged, which gives \eqref{eq:WholeTerminalRectangleCompatibility}.
 \end{remark}
 
 Conversely, the finite-rectangle form recovers the adjacent rows coordinate by coordinate.
@@ -158,5 +159,5 @@ The two terms indexed by \(n\) in the whole-terminal sum \eqref{eq:WholeTerminal
 The derivative identity and compatibility are part of the same-history record in \eqref{eq:WholeTerminalRectangleCompatibility}.
 \end{proof}
 
-The strict-subinterval lemma identifies the same coordinates before terminal time, and the whole-terminal estimate places each fixed rectangle across \(I_*\).
-Compatibility makes their complete family one projective system.
+The strict and whole-terminal rectangles use the same distributional derivatives of \((u,p)\).
+Equation \eqref{eq:WholeTerminalRectangleCompatibility} makes the full family compatible under every decrease of \(N\) or \(M\).
