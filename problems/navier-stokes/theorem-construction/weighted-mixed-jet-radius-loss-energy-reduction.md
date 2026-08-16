@@ -87,12 +87,43 @@ C_s\,c_{m,\alpha}.
 ```
 
 Apply `\Lambda^s` to `(4)` and pair with `\Lambda^s J_{m,\alpha}`.
-Because `\nabla\cdot J_{m,\alpha}=0`, the base transport term drops:
+The commuting principal part of the base transport term drops because
+`\nabla\cdot u=0`, but the Sobolev commutator remains:
 
 ```math
-\langle \Lambda^s((u\cdot\nabla)J_{m,\alpha}),\Lambda^s J_{m,\alpha}\rangle
-=0,
+\begin{aligned}
+&\langle \Lambda^s((u\cdot\nabla)J_{m,\alpha}),
+                 \Lambda^s J_{m,\alpha}\rangle\\
+&\qquad=
+\langle [\Lambda^s,u\cdot\nabla]J_{m,\alpha},
+        \Lambda^sJ_{m,\alpha}\rangle,
+\end{aligned}
 \tag{6}
+```
+
+For `s>5/2`, the Kato--Ponce commutator estimate and Sobolev embedding give
+
+```math
+\begin{aligned}
+\|[\Lambda^s,u\cdot\nabla]J_{m,\alpha}\|_2
+&\le C_s\Big(
+\|\nabla u\|_\infty\|J_{m,\alpha}\|_{H^s}
++\|u\|_{H^s}\|\nabla J_{m,\alpha}\|_\infty
+\Big)\\
+&\le C_s\,a_{0,0}\,a_{m,\alpha}.
+\end{aligned}
+\tag{6a}
+```
+
+Consequently,
+
+```math
+\left|
+\langle [\Lambda^s,u\cdot\nabla]J_{m,\alpha},
+        \Lambda^sJ_{m,\alpha}\rangle
+\right|
+\le C_s\,a_{0,0}\,a_{m,\alpha}^2.
+\tag{6b}
 ```
 
 and the pressure term also drops:
@@ -109,6 +140,8 @@ So
 +
 \nu d_{m,\alpha}^2
 =
+-\langle [\Lambda^s,u\cdot\nabla]J_{m,\alpha},
+        \Lambda^sJ_{m,\alpha}\rangle
 -\langle \Lambda^s \widetilde T_{m,\alpha},\Lambda^s J_{m,\alpha}\rangle.
 \tag{8}
 ```
@@ -158,12 +191,16 @@ Hence
 +
 \frac{3\nu}{4}d_{m,\alpha}^2
 \le
-C_{s,\nu}\big(a_{m,\alpha}^2+c_{m,\alpha}^2\big).
+C_{s,\nu}\Big(
+(1+a_{0,0})a_{m,\alpha}^2+c_{m,\alpha}^2
+\Big).
 }
 \tag{12}
 ```
 
-This is the exact rung-level energy inequality needed for the weighted tower.
+This is the corrected rung-level energy inequality. The base transport
+cancellation is exact in `L^2`, but at positive Sobolev order its commutator is
+part of the live one-field nonlinear flux.
 
 ## Squared factorial-weight energies
 
@@ -284,7 +321,14 @@ w_{m,\alpha}(\tau,r)^2\,c_{m,\alpha}^2
 ## Whole-tower energy inequality
 
 Multiply `(12)` by `w_{m,\alpha}(\tau,r)^2` and sum over all rungs.
-Using `(23)`,
+Using `(23)` and
+
+```math
+a_{0,0}\le\mathfrak A_s(\tau,r)
+\le 1+\mathfrak A_s(\tau,r)^2,
+```
+
+the commutator is retained and the same qualitative whole-tower bound becomes
 
 ```math
 \boxed{
@@ -301,7 +345,10 @@ This is the first genuine whole-tower energy law on the mixed-jet route.
 
 It is not yet closed, because the coefficient still contains the `\ell^1`
 weighted norm `\mathfrak A_s`.
-But it is an exact reduction of the tower to a scale-of-spaces energy problem.
+The coefficient contains both the off-diagonal binomial convolution and the
+base-advection Sobolev commutator. Thus this is a valid reduction of the tower
+to a scale-of-spaces energy problem, not an exact cancellation of the complete
+transport term.
 
 ## Radius-loss comparison
 

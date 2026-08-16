@@ -262,15 +262,93 @@ They are exactly the terms needed for the infinite tower to close.
 
 Without the full binomial spread, the generating law `(14)` would fail.
 
+## Exact anti-diagonal cancellation across all time rows
+
+The rowwise test against \(V_n\) is not the only exact pairing. Define
+
+```math
+b(f,g,h):=\langle(f\cdot\nabla)g,h\rangle_{L^2},
+```
+
+so that incompressibility of \(f\) gives
+
+```math
+b(f,g,h)=-b(f,h,g).
+```
+
+Fix \(n\ge0\). Pair the level-\(a\) equation `(2)` with
+
+```math
+\binom na V_{n-a}
+```
+
+and sum over \(0\le a\le n\). Introduce the anti-diagonal forms
+
+```math
+Q_n
+:=\frac12\sum_{a=0}^n\binom na
+\langle V_a,V_{n-a}\rangle_{L^2},
+\qquad
+R_n
+:=\sum_{a=0}^n\binom na
+\langle\nabla V_a,\nabla V_{n-a}\rangle_{L^2}.
+\tag{15}
+```
+
+The time terms sum to \(Q_n'\), every pressure pairing vanishes, and the full
+nonlinear contribution is
+
+```math
+\sum_{i+j+k=n}\frac{n!}{i!j!k!}\,b(V_i,V_j,V_k).
+\tag{16}
+```
+
+For each fixed \(i\), the terms indexed by \((i,j,k)\) and \((i,k,j)\) cancel.
+The diagonal \(j=k\) terms vanish by the same skew symmetry. Hence the entire
+multinomial sum in `(16)` is zero and
+
+```math
+\boxed{Q_n'+\nu R_n=0\qquad(n\ge0).}
+\tag{17}
+```
+
+This is a genuine across-order annihilation of the complete binomial transport
+sum. It is also exactly the \(n\)-th time derivative of the base energy law,
+because
+
+```math
+Q_n=\frac{d^n}{dt^n}\frac12\|u\|_2^2,
+\qquad
+R_n=\frac{d^n}{dt^n}\|\nabla u\|_2^2.
+\tag{18}
+```
+
+The cancellation is not a positive tower estimate. Already
+
+```math
+Q_2=\langle u,u_{tt}\rangle+\|u_t\|_2^2,
+```
+
+so the positive central row is inseparable from an indefinite cross face. The
+identity corrects the claim that no cross-order cancellation exists, but it
+does not by itself prove endpoint-spanning membership in the complete
+coordinatewise mixed intersection.
+
 ## Exact lane meaning
 
-The live mathematical burden is therefore not:
+The first-complete-spatial-row closure does not require this anti-diagonal
+family to become positive. Once
+\(\mathscr S_0(I)=\bigcap_ML_t^2H_x^M\) is present, the complete
+pressure-transport interaction is \(L_t^1H_x^M\), the velocity is
+\(C_tH_x^M\), and the original recurrence generates every temporal row.
+
+For this optional time-order packaging route, the question is not:
 
 ```math
 \text{does one derivative level dominate the next by itself?}
 ```
 
-It is:
+Its remaining internal question is:
 
 ```math
 \boxed{
@@ -286,7 +364,8 @@ Equivalently:
 }
 ```
 
-That is the brute-force time-order version of the route.
+That is the brute-force time-order version of this optional route, not an
+extra global-smoothness payment after \(\mathscr S_0(I)\).
 
 The next refinement of this same route is recorded in
 `jet-substitution-and-exponential-closure-note.md`, where the lower-order

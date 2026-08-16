@@ -213,10 +213,12 @@ So the downward feed is:
 - the top rung donates one derivative to dissipation,
 - the lower/split factors remain as coefficients.
 
-There is **not yet** any proved nonlinear downward telescoping across different
-rungs.
+There is **not yet** any proved coercive nonlinear downward telescoping across
+the general mixed rungs. The pure-time tower does have the exact anti-diagonal
+cancellation recorded in `time-order-cross-balance-note.md`; its quadratic
+form is indefinite and therefore does not supply a positive downward estimate.
 
-## Same-rung pair symmetrization does not become across-rung cancellation
+## Same-rung pair symmetrization is not the whole cancellation picture
 
 Within one rung, complementary split pairs reorganize as
 
@@ -236,14 +238,45 @@ J_{m-a,\alpha-\beta}\otimes J_{a,\beta}
 
 That is a real structural gain.
 
-But at present there is no theorem showing that when one sums over different
-rungs `(m,\alpha)`, these symmetric tensors telescope away.
+For the pure-time slice, pairing every level \(a\) with the complementary level
+\(n-a\), weighting by \(\binom na\), and summing produces exact cancellation
+of the full multinomial transport term. In the notation of the cross-balance note,
 
-So the honest statement is:
+```math
+Q_n'+\nu R_n=0.
+```
+
+That identity is the \(n\)-th time derivative of the base energy law. Its forms
+\(Q_n\) and \(R_n\) contain indefinite cross faces; for example,
+
+```math
+Q_2=\langle u,u_{tt}\rangle+\|u_t\|_2^2.
+```
+
+Thus exact cross-rung annihilation exists, but no theorem presently turns it
+into a positive coordinatewise estimate for the general mixed tower.
+
+That lack of a positive anti-diagonal form is not a smoothness-closure
+requirement. Once the complete first spatial row
+
+```math
+\mathscr S_0(I)=\bigcap_{M\ge0}L_t^2(I;H_x^M)
+```
+
+is present, its deeper coordinates give
+
+```math
+\|\mathbb P\nabla\cdot(u\otimes u)\|_{H^M}
+\le C_M\|u\|_{H^{M+2}}^2\in L_t^1.
+```
+
+Hence \(u_t\in L_t^1H_x^M\), \(u\in C_tH_x^M\) for every \(M\), and the
+pressure-explicit recurrence generates all temporal rows. The exact statement
+is therefore:
 
 ```math
 \boxed{
-\text{the known pre-weight gain is same-rung symmetrization, not proved cross-rung annihilation.}
+\text{the cancellation forms may be noncoercive, while the complete first spatial row still generates the full mixed tower.}
 }
 \tag{14}
 ```
@@ -278,7 +311,8 @@ This gives the rest of the picture:
 3. as `N` grows, the number of split channels grows;
 4. low orders remain present in every high order through endpoint and interior
    coefficients;
-5. there is not yet a proved cross-order telescoping law across `N`.
+5. there is not yet a proved positive, coercive cross-order telescoping law
+   across `N`.
 
 So the tower behaves like an infinite lower-triangular feed network with one
 downward damping channel.
@@ -301,18 +335,19 @@ The exact “deeper into the tower” picture is therefore:
 
 ```math
 \boxed{
-\text{the only presently exact downward mechanism is viscous extraction of one top-rung gradient.}
+\text{the only presently positive downward mechanism is viscous extraction of one top-rung gradient.}
 }
 \tag{17}
 ```
 
-So what remains unknown is not whether there is interaction across rungs.
-There is interaction everywhere.
-What remains unknown is:
+Interaction occurs across all rungs. A positive cross-order telescoping law
+would be one route for producing the first complete spatial row from lower
+data, but it is not another theorem after that row is present. The exact
+boundary of this bookkeeping route is:
 
 ```math
 \boxed{
-\text{whether the coefficient remainder created by that upward feed admits a true cross-rung cancellation, telescoping law, or globally summable closure.}
+\text{cross-rung coercivity concerns production of }\mathscr S_0,\text{ not propagation from }\mathscr S_0\text{ to smoothness.}
 }
 \tag{18}
 ```
@@ -335,7 +370,7 @@ remainder across the whole infinite feed network.
 
 ## Limitation
 
-This note does **not** prove a cross-rung telescoping identity.
+This note does **not** prove a coercive cross-rung telescoping estimate.
 
 It proves only the exact qualitative geometry of the tower:
 
@@ -347,7 +382,7 @@ It proves only the exact qualitative geometry of the tower:
 
 ```math
 \boxed{
-\text{upward feed is ubiquitous, downward damping is viscous, and a global cancellation law is still missing.}
+\text{upward feed is ubiquitous and downward damping is viscous; once }\mathscr S_0\text{ is supplied, no global cancellation sum is needed for restart.}
 }
 \tag{19}
 ```
