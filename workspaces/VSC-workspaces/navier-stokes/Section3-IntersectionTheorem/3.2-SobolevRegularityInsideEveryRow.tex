@@ -1,8 +1,8 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The same spatial ladder inside every response}\label{sub:SobolevRegularityInsideEveryCompletedRow}
 
-Fix one temporal response (V_r).  It is itself a velocity-like field driven by all
-the lower responses that produced it.  For (r=1), the differentiated equation reads
+Fix one temporal response \(V_r\).  It is itself a velocity-like field driven by all
+the lower responses that produced it.  For \(r=1\), the differentiated equation reads
 \[
   V_2
   +(V_1\cdot\nabla)V_0
@@ -11,8 +11,8 @@ the lower responses that produced it.  For (r=1), the differentiated equation re
   =\nu\Delta V_1.
 \]
 The transport has split into two terms, the pressure has differentiated with it, and
-the same Laplacian still acts linearly on (V_1).  Pairing this equation at spatial
-height (s) gives the same balance we found for (u).
+the same Laplacian still acts linearly on \(V_1\).  Pairing this equation at spatial
+height \(s\) gives the same balance we found for \(u\).
 
 At arbitrary temporal order, set
 \begin{align*}
@@ -31,7 +31,7 @@ The recurrence \eqref{eq:BodyTemporalVelocityRecurrence} gives
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
 \end{equation}
-Starting from (s=\tfrac12) and repeating the critical-height calculation yields
+Starting from \(s=\tfrac12\) and repeating the critical-height calculation yields
 \begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
   \partial_t^nE_{r,1/2}
   =(-2\nu)^nE_{r,n+1/2}
@@ -39,8 +39,8 @@ Starting from (s=\tfrac12) and repeating the critical-height calculation yields
   (-2\nu)^j
   \partial_t^{\,n-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-So there is not one spatial ladder attached only to (u).  There is a separate ladder
-inside (u_t), another inside (u_{tt}), and another inside every fixed (V_r).
+So there is not one spatial ladder attached only to \(u\).  There is a separate ladder
+inside \(u_t\), another inside \(u_{tt}\), and another inside every fixed \(V_r\).
 Temporal order selects the response; spatial order asks how finely that response is
 resolved.  The equation keeps those directions distinct while viscosity connects each
 row to its own next spatial height.
@@ -49,38 +49,37 @@ The finite coordinates we now need can be seen before we claim any of them are b
 
 \begin{center}
 \captionsetup{hypcap=false}
-\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the finite coordinate (
-\norm{V_r}_{H^m}); temporal order runs downward and spatial height runs across.}
+\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the finite coordinate \(\norm{V_r}_{H^m}\); temporal order runs downward and spatial height runs across.}
 \label{tab:MixedDerivativeGrid}
 \renewcommand{\arraystretch}{1.4}
 \begin{tabular}{@{}c c c c c c@{}}
 \toprule
-& (H^0_x) & (H^1_x) & (H^2_x) & (H^3_x) & (\cdots) \\
+& \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
 \midrule
-(V_0=u) & (\norm{V_0}_{H^0}) & (\norm{V_0}_{H^1}) & (\norm{V_0}_{H^2}) & (\norm{V_0}_{H^3}) & (\cdots) \\
-(V_1=u_t) & (\norm{V_1}_{H^0}) & (\norm{V_1}_{H^1}) & (\norm{V_1}_{H^2}) & (\norm{V_1}_{H^3}) & (\cdots) \\
-(V_2=u_{tt}) & (\norm{V_2}_{H^0}) & (\norm{V_2}_{H^1}) & (\norm{V_2}_{H^2}) & (\norm{V_2}_{H^3}) & (\cdots) \\
-(V_3=u_{ttt}) & (\norm{V_3}_{H^0}) & (\norm{V_3}_{H^1}) & (\norm{V_3}_{H^2}) & (\norm{V_3}_{H^3}) & (\cdots) \\
-(\vdots) & (\vdots) & (\vdots) & (\vdots) & (\vdots) & (\ddots) \\
+\(V_0=u\) & \(\norm{V_0}_{H^0}\) & \(\norm{V_0}_{H^1}\) & \(\norm{V_0}_{H^2}\) & \(\norm{V_0}_{H^3}\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\norm{V_1}_{H^0}\) & \(\norm{V_1}_{H^1}\) & \(\norm{V_1}_{H^2}\) & \(\norm{V_1}_{H^3}\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\norm{V_2}_{H^0}\) & \(\norm{V_2}_{H^1}\) & \(\norm{V_2}_{H^2}\) & \(\norm{V_2}_{H^3}\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\norm{V_3}_{H^0}\) & \(\norm{V_3}_{H^1}\) & \(\norm{V_3}_{H^2}\) & \(\norm{V_3}_{H^3}\) & \(\cdots\) \\
+\(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Now fix one row (V_r) and return to the singularity.  Repeated integration in time
+Now fix one row \(V_r\) and return to the singularity.  Repeated integration in time
 showed that a finite terminal time would force
 \[
   \sup_{0<t<T_*}\norm{V_r(t)}_3=\infty.
 \]
 To stop that escape, it is enough to place the same row in
-(C([0,T_*];H^1)), because (H^1(\R^3)\hookrightarrow L^3(\R^3)).  But a terminal
-trace cannot be read from one space-time norm alone.  For (V_r) to arrive
-continuously in (H^1), the natural pair is
+\(C([0,T_*];H^1)\), because \(H^1(\R^3)\hookrightarrow L^3(\R^3)\).  But a terminal
+trace cannot be read from one space-time norm alone.  For \(V_r\) to arrive
+continuously in \(H^1\), the natural pair is
 \[
   V_r\in L^2(I_*;H^2),
   \qquad
   V_{r+1}=\partial_tV_r\in L^2(I_*;L^2).
 \]
-More generally, an (H^m) trace asks for
+More generally, an \(H^m\) trace asks for
 \[
   V_r\in L^2(I_*;H^{m+1}),
   \qquad
