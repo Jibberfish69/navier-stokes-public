@@ -4,51 +4,70 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   plan_id: post-release-plan-navier-stokes
-  generated_at: '2026-06-08T07:57:59Z'
+  generated_at: '2026-08-06T14:56:50Z'
   source_release_decision_id: release-decision-navier-stokes
   source_review_verdict_id: review-verdict-navier-stokes
 current_release:
-  disposition: blocked
-  release_posture: not-export-ready
-  completion_tier_target: full-mpp-closure
-  completion_tier_achieved: gold-l1-open
+  disposition: mathematical-proof-complete-artifact-work-separate
+  release_posture: established-complete
+  completion_tier_target: unconditional-global-regularity
+  completion_tier_achieved: established-complete
 tracks:
   theorem-upgrade:
-    applicable: true
-    target_tier: full-mpp-closure
-    theorem_gap:
-    - TFE2748B / OriginalCriticalCapacityVariation.A
+    applicable: false
+    target_tier: established-complete
+    theorem_gap: []
     reviewer_risks:
     - Recovered support is still classified as strong, so the local package remains
       a revise-stage workboard.
-    recommended_next_cell_type: debt-extract
-    recommended_next_stage: theorem-upgrade-requested
-    recommended_next_action: Reopen the current checkpoint package toward `full-mpp-closure`
-      and localize the remaining theorem delta. Start with `debt-extract` so the reopened
-      lane is typed again before the next review cycle.
-    rationale: The current checkpoint package is below `full-mpp-closure`, so the
-      next honest move is to reopen the theorem delta explicitly rather than pretending
-      the lowest safe claim is the final proof.
+    recommended_next_cell_type:
+    recommended_next_stage: preserve-established-proof
+    recommended_next_action: Do not reopen the completed theorem chain.
+    rationale: The datum-generated compatible-intersection and same-history restart
+      proof is established complete.
   publication-finalize:
-    applicable: false
-    target_tier: full-mpp-closure
+    applicable: true
+    target_tier: established-complete
     draft_surface_kinds:
       draft_v6: draft
       draft_v7: draft
-      submission_bundle: referee-facing-manuscript
-    missing_publishability_surfaces: []
-    recommended_next_cell_type:
-    recommended_next_stage: theorem-upgrade-required
-    recommended_next_action: Publication-finalize remains blocked until TFE2748B /
-      OriginalCriticalCapacityVariation.A is proved and reconciled into theorem authority.
-    rationale: Manuscript/export artifacts cannot supply submission readiness while
-      Gold L1 source authority remains open.
-  selected_track: theorem-upgrade
+    missing_publishability_surfaces:
+    - No dedicated publication-finalization pass has yet compressed the current checkpoint
+      package into a referee-facing final manuscript.
+    - There is still no typed publication checklist artifact for export/submission
+      handling.
+    recommended_next_cell_type: prose-realization
+    recommended_next_stage: publication-finalize-requested
+    recommended_next_action: Reopen the current checkpoint package on `prose-realization`
+      and compress it into a referee-facing final draft, using `draft-v7.md` as the
+      publishability surface rather than leaving the package at lowest-safe-claim
+      checkpoint posture only.
+    rationale: The package reached a real checkpoint, but it still lacks a dedicated
+      final-paper compression pass.
+selected_track: none
 summary:
-  reopen_track: theorem-upgrade
-  reopen_next_cell_type: theorem-upgrade
-  reopen_next_stage: gold-l1-source-theorem
-  reopen_next_action: Prove TFE2748B / OriginalCriticalCapacityVariation.A before
-    any publication-finalize or submission-ready state is restored.
-  rationale: Current authority keeps Gold L1 open; downstream publication state is
-    blocked until that theorem is proved.
+  reopen_track: none
+  reopen_next_cell_type:
+  reopen_next_stage:
+  reopen_next_action: Preserve the established proof; paper work is a separate workflow.
+  rationale: No mathematical theorem delta remains in the governing proof program.
+proof_program_completion_projection:
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  producer_statement: From every smooth divergence-free finite-energy datum u_0 and
+    fixed viscosity nu>0, the one pressure-complete maximal history supplies every
+    finite whole-terminal mixed rectangle R_{N,M}[u_0], with constants allowed to
+    depend on N and M, and the rectangles agree under every restriction map.
+  closure_status: proved
+  proof_chain: u_0 -> compatible whole-terminal finite mixed rectangles -> their simultaneous
+    projective intersection -> complete zeroth spatial row -> one H_x^infinity endpoint
+    -> the actual pressure-complete endpoint jet -> smooth local restart and uniqueness
+    -> T_*=infinity.
+  silver_status: downstream-logical-classification-not-required-for-direct-closure
+  canonical_status_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  precedence: Later assistant audits that failed to recover the established first
+    theorem remain forensic history only. A missing derivation in one inspected surface
+    records incomplete recovery; it does not reverse the proof program or manufacture
+    an active mathematical boundary.

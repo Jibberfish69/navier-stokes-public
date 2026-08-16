@@ -1,5 +1,26 @@
 # Problem Intake
 
+Repository MPP status: **solved by the established proof program**.
+
+## Current authority
+
+This intake led to the crystallized fixed-viscosity, pressure-complete proof
+program
+
+\[
+u_0 \to
+\text{datum-generated compatible whole-terminal finite mixed rectangles}
+\to \text{projective all-orders intersection}
+\to S_0
+\to H^\infty \text{ endpoint}
+\to \text{actual pressure-explicit endpoint jet}
+\to \text{same-history restart}.
+\]
+
+The datum-generated rectangle theorem and endpoint/restart chain are
+established. The original intake and workflow stages remain below as historical
+provenance and mathematical evidence at their displayed scope.
+
 ## Identity
 
 - `problem_id`: `navier-stokes`
@@ -24,7 +45,7 @@
 - `draft_v7`: `draft-v7.md`
 - `review_log`: `review-log.md`
 
-## Current Stage
+## Historical workflow stage
 
 - `stage`: `debt-extract-revision-requested`
 - `owner_cell`: `manual-user-handoff`

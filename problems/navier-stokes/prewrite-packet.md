@@ -1,50 +1,51 @@
+# Silver VPI-Complement Prewrite Packet
+
+This packet supersedes lower bad-terminal-entry, Pack-admission, pass/fail, and
+no-third-branch planning. The governing line is `not Smooth(Q) => not
+Member(Q) => not VPIParticipation(Q)`, hence contrapositively
+`VPIParticipation(Q) => Member(Q) => Smooth(Q)` on the one original smooth-data,
+fixed-viscosity, no-reset history. Gold is parallel and nonblocking.
+
 ## Target Block
 - `file:` /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/draft-v6.md
 - `span:` whole document
 - `mode:` Authorial Draft
-- `user_intent:` Turn the grounded Navier-Stokes Global Regularity workboard into honest prose that explains the live route without claiming theorem settlement that the package does not yet earn.
-- `fixed_constraints:` Open from the CM contrapositive class-exit proof program, not from the older torus-first periodic bridge story. | Keep `Member(Q)` as the downstream class-membership predicate and `Exit(Q):=not Member(Q)` as the class-exit conclusion supported by typed Part/Field failure or original-participation audit. | Treat periodic, `Q(t)`, scale-barrier, heat-continuation, source-wall, and positive-supplier language as support or history unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit. | The pass branch is the lawful smooth continuation branch; the fail branch is admitted to the CM terminal packet tree and exhausted as a witness failure after any outside-CM participation-field/window failure branch has passed the original-participation check.
+- `user_intent:` State the closed Silver one-line VPI-complement proof plainly and keep Gold and artifact readiness separate.
+- `fixed_constraints:` Start with one smooth datum and its same fixed-viscosity no-reset Navier--Stokes history. | Full VPI participation is stronger than distributional solvability. | Exhaust Dead, Blown, Jump, Part, Field, and conditional other-PDE presentations into loss of full participation and membership. | Contrapose directly. | Pack remains Field-window evidence outside CM. | Gold is not a premise or blocker.
 
 ## Section Job
-- `job_statement:` Open the Navier-Stokes manuscript from the CM contrapositive class-exit proof: finite Clay terminal witness, CM participation-field entry, Silver Part/Field exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
-- `why_here:` Recent submission surfaces identify the proof-bearing opening as the CM contrapositive class-exit program, so prose must no longer regenerate the older torus-first periodic four-bridge story.
-- `formal_boundary:` This pass may use periodic or source-history material only as quarantined support after the CM proof object is fixed; it must not make torus-first, `Q(t)`, or periodic-opening prose the manuscript entry.
+- `job_statement:` Open with the exhaustive participation-complement implication and its direct contrapositive on the original history.
+- `why_here:` This is the accepted Silver proof and prevents positive no-exit or Gold machinery from replacing it.
+- `formal_boundary:` Periodic, source-history, packet, Part/Field, Euler, and Gold material may only explain the negative-side inventory or remain quarantined support.
 
 ## Claim Ladder
-- `claim:` Start with the alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes datum.
-  `warrant:` The current submission synopsis opens the proof from a finite terminal witness, not from a torus-first route preface.
-  `handoff:` The witness is then tested in the same-fluid CM participation-field tree.
-- `claim:` The witness enters the canonical CM terminal packet tree rather than being assumed to be a class member.
-  `warrant:` Live authority names `ClayTerminalWitnessCMEntry.A` as the entry theorem.
-  `handoff:` Entry makes Silver Part/Field plus the outside-CM participation-field/window original-participation audit the next typed failure analysis.
-- `claim:` After Pack admission, the finite failure type is exhausted as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before the Field smoothness-certification question is live, a failed packet-window candidate first tests the original NS participation law.
-  `warrant:` Live authority names `ClayFiniteFailureTypeCMExhaustion.A` together with `PackOutOfCMSmoothnessCertification.A`.
-  `handoff:` The exhausted Part/Field failure or original-participation-audited failure supports the class-exit conclusion.
-- `claim:` The derived typed failure embeds as `Exit(Q):=not Member(Q)` inside the CM contrapositive program.
-  `warrant:` Live authority names `ClayCMContrapositiveEmbedding.A`; the submission surface states that the pass branch remains the lawful smooth continuation branch.
-  `handoff:` This is the manuscript opening and the safe claim boundary.
+- `claim:` Fix the one original smooth-data, fixed-viscosity, no-reset VPI history.
+  `warrant:` This is the same fluid object throughout Silver.
+  `handoff:` Exhaust every departure from smoothness on that object.
+- `claim:` Every nonsmooth departure loses membership and full VPI participation.
+  `warrant:` Dead, Blown, Jump, Part, Field, and conditionally selected other PDEs exhaust the negative presentations.
+  `handoff:` Apply contraposition.
+- `claim:` The full VPI participant is a member and smooth.
+  `warrant:` This is the direct contrapositive of the exhaustive implication.
+  `handoff:` Keep Gold and artifact audits separate.
 
 ## Paragraph Movement Map
 - `role:` orient
-  `core_move:` Name the proof program directly as CM contrapositive class exit from an alleged finite Clay terminal witness.
-  `must_keep:` finite-time Clay terminal witness from the same original smooth Navier-Stokes datum | CM contrapositive class-exit program | `Exit(Q):=not Member(Q)`
-  `avoid:` torus-first opening | `Q(t)` opening | periodic branch as first story
-- `role:` entry
-  `core_move:` Send the terminal witness into the same-fluid CM participation-field tree without calling it a class member.
-  `must_keep:` ClayTerminalWitnessCMEntry.A | canonical CM terminal packet tree | same-fluid witness
-  `avoid:` blunt not-CM converse | class-member assumption for the bad witness
+  `core_move:` Fix the original smooth-data, fixed-viscosity, no-reset VPI history.
+  `must_keep:` one fluid object | full VPI participation | original smooth datum
+  `avoid:` bad-terminal-object opening | Gold-first opening
 - `role:` exhaustion
-  `core_move:` Exhaust the finite failure type through Silver Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence after live-object participation is typed, while resurfacing outside-CM participation-field/window failure candidates under the original participation law first.
-  `must_keep:` Field-window evidence only | not Part_{N,Q} | forall r>0 not Field_{N,r,Q} | outside-CM participation-field/window original-participation audit
-  `avoid:` fourth residue face | source-wall supplier promotion
-- `role:` embedding
-  `core_move:` Embed the derived Part/Field failure as class exit while preserving the pass branch as the lawful smooth continuation branch.
-  `must_keep:` ClayCMContrapositiveEmbedding.A | `Member(Q)` downstream | no legal in-class nonsmooth third branch
-  `avoid:` positive no-exit rewrite | periodic bridge as the conclusion
+  `core_move:` Reduce every nonsmooth departure to loss of full participation and membership.
+  `must_keep:` Dead | Blown | Jump | Part | Field | conditional other PDE | Pack outside CM
+  `avoid:` separate terminal theorem | fully participating weak-record escape
+- `role:` contraposition
+  `core_move:` State that the full VPI participant is a member and smooth.
+  `must_keep:` direct contrapositive | Gold independent and nonblocking
+  `avoid:` positive no-exit rewrite | pass/fail engine
 
 ## Lexicon Lock
-- `must_use:` CM contrapositive class-exit | finite Clay terminal witness | same-fluid CM terminal participation-field tree | Silver Pack_Q | Part_{N,Q} | Field_{N,r,Q} | outside-CM participation-field/window original-participation audit | `Exit(Q):=not Member(Q)` | pass branch | fail branch
-- `must_not_substitute:` torus-first periodic route for CM class-exit proof | `Q(t)` bridge opening for terminal witness entry | positive smoothness supplier for Silver Part/Field exhaustion | source-wall diagnostics for the governing CM primitive | Pack-created participation for the original NS participation law
+- `must_use:` one original VPI history | participation complement | direct contrapositive | `VPIParticipation(Q) => Member(Q) => Smooth(Q)`
+- `must_not_substitute:` Gold estimate | no-genuine-exit theorem | Pack-as-CM | pass/fail engine | weak solvability for full participation
 - `deferred_terms:` torus-first opening | `Q(t)` bridge opening | periodic story as manuscript entry
 - `tone_keys:` direct | technical | scope-honest | reader-forward | non-triumphal | object-specific
 
@@ -59,15 +60,15 @@
 - `crossref_plan:` keep section titles stable and preserve the lowest safe claim / first unsafe overclaim distinction in prose; no live `\cref` surface yet
 
 ## Risks and Countermoves
-- `risk:` The prose opens from the old periodic four-bridge story before the CM witness object exists.
-  `countermove:` Start the first paragraph with the alleged finite Clay terminal witness and `Exit(Q):=not Member(Q)`.
-- `risk:` The bad terminal object is accidentally called `Member(Q)` or treated as a smooth branch.
-  `countermove:` Say it is CM-test-admissible and then sort its first Part/Field failure.
+- `risk:` The prose starts from a bad terminal object or a Gold obstruction.
+  `countermove:` Start from the original smooth-data VPI history and state the exhaustive complement.
+- `risk:` Weak fixed-viscosity solvability is mistaken for full VPI participation.
+  `countermove:` Name transport, simultaneous pressure, viscosity, incompressibility, ancestry, and coherent-field participation.
 - `risk:` Source-wall, positive-supplier, periodic, or `Q(t)` material respawns as authority.
-  `countermove:` Keep it quarantined unless the sentence names a checked Silver Part/Field landing or the outside-CM participation-field/window original-participation audit.
+  `countermove:` Keep it quarantined as Gold/support or negative-side classification only.
 
 ## Draft Acceptance Test
-- `pass_if:` the packet and draft open from the CM contrapositive class-exit program, name Silver Part/Field witness exhaustion after live-object participation is typed, resurface outside-CM participation-field/window failure candidates under the original participation law, and treat periodic / `Q(t)` material only as non-opening support
-- `fail_if:` the draft opens with torus-first periodic scope, `Q(t)`, scale-barrier / compactness / heat-continuation bridge prose, or any wording that replaces `Exit(Q):=not Member(Q)` with the older periodic story
+- `pass_if:` the draft states the exact negative implication and its direct contrapositive on the same original history, keeps Pack outside CM, and keeps Gold/PDF work separate
+- `fail_if:` the draft requires Gold, Pack admission, a pass/fail engine, a no-genuine-exit theorem, or an extra fully participating weak-record branch
 
 <!-- generated_at: 2026-06-08T06:16:19Z -->

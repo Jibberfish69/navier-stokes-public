@@ -1,5 +1,14 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_boundary: none
+  preservation_rule: >-
+    This dated visual branch audit preserves route-local endpoint and supplier
+    judgments as historical topology. None overrides or reopens the completed
+    datum-generated compatible-intersection proof.
 artifact_id: ns-visual-branch-depth-audit-20260531
 generated_at: '2026-05-31T00:00:00Z'
 purpose: >-

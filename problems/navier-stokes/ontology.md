@@ -36,6 +36,18 @@ datum, or its material flow. Pressure, viscosity, vorticity, strain, and
 component calculations are coordinates or subordinate evidence, not separate
 physical participants.
 
+## Silver consequence of the participation root
+
+For one smooth-data, fixed-positive-viscosity, no-reset original history, full
+VPI participation retains transport, simultaneous nonlocal pressure response,
+viscosity, incompressibility, material ancestry, and coherent field
+participation. Silver exhausts the complement as `not Smooth(Q) => not
+Member(Q) => not VPIParticipation(Q)` and contraposes directly to
+`VPIParticipation(Q) => Member(Q) => Smooth(Q)`. Dead, Blown, Jump, Part,
+Field, and a defect-free conditional other-PDE identification only present
+participation loss. Pack is Field-window evidence outside CM; Gold is
+independent and nonblocking.
+
 ## Authority boundary
 
 This map routes exact identities, exact operator properties, and classical
@@ -259,7 +271,47 @@ claim.
 
 ## Promoted ontology cards after 2026-07-14
 
-None. A future card may be added only under the canonical write contract after
-the exact claim is proved at its stated scope, its same-participant meaning and
-non-implications are written, affected consumers are re-audited, and an
-existing card cannot be consolidated instead.
+### F7.121 Sharp critical q-windows and the complete chord envelope are equivalent
+- **Claim:** For every fixed \(q>1\), the largest critical q-window \(M_q=\sup_K K\int_K^{qK}e(k)\,dk\) and the complete chord envelope \(\mathscr M=\sup_R Z_4(R)\) bound each other by positive constants depending only on \(q\).
+- **Scope:** One smooth decaying finite-energy velocity field on \(\mathbb R^3\), at each classical time, with the Cycle 115 positive chord kernel and the radial kinetic-energy density.
+- **Same-participant meaning:** The sharp Fourier window and the smoothed all-chord population are two readings of the same velocity field; neither is a separate carrier, reserve, or source.
+- **Source:** [q-envelope/chord-envelope equivalence and terminal ancestry](theorem-construction/mpp-vpi-q-envelope-chord-envelope-equivalence-and-terminal-ancestry-20260722.md).
+- **Status:** proved-exact-operator-property
+- **Does not imply:** No datum bound, signed-current contraction, critical-height bound, endpoint continuation, Gold closure, or Silver Part/Field failure follows.
+- **Consumers re-audited:** Direct authority and the moving-band construction; Gold stays independently open and nonblocking, while Silver remains closed by the VPI-complement contrapositive.
+
+### F7.122 The oriented efficiency needed for critical growth vanishes as the q-envelope grows
+- **Claim:** If \(|P_H|\le C_q\sqrt{M_q}M_3\), \(\eta_q=P_H/(C_q\sqrt{M_q}M_3)\), and \(\rho_q=C_q\sqrt{M_q}/(2\nu)\), then \(|\eta_q|\le1\), \(H'=2\nu M_3(\rho_q\eta_q-1)\), and every rising time has \(\eta_q>1/\rho_q=2\nu/(C_q\sqrt{M_q})\).
+- **Scope:** One smooth decaying fixed-viscosity field after the proved q-adic donor--receiver and common-face cancellations.
+- **Same-participant meaning:** \(\eta_q\) is the complete same-field all-high orientation efficiency, not a second source, selected packet, or independent phase.
+- **Source:** [all-high signed-current efficiency and un-parking regate](theorem-construction/mpp-vpi-all-high-signed-current-efficiency-and-unparking-regate-20260722.md).
+- **Status:** proved-exact-identity
+- **Does not imply:** Phase motion or unsigned participation gives no signed contraction, datum payment, continuation, or Gold closure; it neither supplies nor reopens the independent Silver proof.
+- **Consumers re-audited:** Direct authority plus q/chord, moving-band, source-curvature, and relay consumers; Gold stays independently open and Silver remains closed.
+
+### F7.123 Homochiral envelope motion is internal, while critical work is singleton-helicity acquisition
+- **Claim:** Homochiral work vanishes; heterochiral work gives \(\mathfrak J_{\rm sing}=P_H/2\). Its adjusted prefix is \(\int(|\xi|-K)_+d\mu_T\), while energy pays Gram mass, not the Dini moment \(\sum_j\lambda_jA_j\). Defect, prefix, donor, and \(Q=H+M+U\) identities return the current, full Gram, and output-helicity response. Radial faces cancel only at equal radii. Matched parents reinforce or cancel; profiles matching all radial rows, leading sources/Stokes histories, and leading Gram can reverse curvature or sixth-order feedback. For the actual joined-source radial/transverse split, \(\operatorname{Re}(z_j,\tau_j)=0\): transverse is absent from local hazard work, and positive endpoint/loss estimates are bounded by the open Dini pieces. The nonalias target is `CompleteAllHighSignedFeedbackNormalForm.A`; a compactness schema needs fixed-viscosity profile extraction/admissibility, no-waste/tightness, joint-null inheritance, and rigidity. Incompressibility pays the global ordered parent-fiber density and causal lift on every finite interval, but coherent parent integration loses volume. Smooth normalized helical packet data with \(M_N\asymp N^3\) parent volume make a whole output block coherent and realize the full global loss through a Stokes heat lifetime; exact Navier--Stokes histories retain it on arbitrarily short intervals. This rules out scale-independent or energy-only static/causal range-frame bounds. The source-square route therefore needs unproved scaling-compatible, datum-dependent cumulative one-history packing against indefinite rebuilding.
+- **Scope:** One smooth decaying fixed-viscosity \(\mathbb R^3\) field; finite Fourier and scalar q-ledger objects are comparison-only.
+- **Same-participant meaning:** q, helical rows, \(w\), Gram, and all-high source read one field.
+- **Source:** [homochiral envelope kernel and singleton-helicity current](theorem-construction/mpp-vpi-homochiral-envelope-kernel-and-singleton-helicity-current-20260722.md).
+- **Status:** proved-exact-identity
+- **Does not imply:** The comparison family varies data and proves neither one-history rebuilding, continuation, global smoothness, nor Gold closure. Silver is unchanged.
+- **Consumers re-audited:** Consolidated authority and q/singleton consumers; Gold stays open and Silver unchanged.
+
+### F7.124 The exact five-mode Leray relay serves its successor completely before return
+- **Claim:** The true-Leray five-mode ansatz obeys \(a'=bd,b'=-ad,c'=-d,d'=2c\) and transfers all predecessor-pair energy to its successor before catalyst return; the serviced pair does not feed back on the catalyst oscillator. Thus isolated return/detuning supplies no universal strict deficit.
+- **Scope:** One real periodic ten-mode Galerkin field with exact convolution and Leray projection; high-Reynolds comparison is across data.
+- **Same-participant meaning:** The same \(k\)-coefficient is first the \(q+r\) daughter and then the \(p+k=\ell\) advecting leg.
+- **Source:** [five-mode triangular successor-relay countertest](theorem-construction/mpp-vpi-five-mode-triangular-successor-relay-countertest-20260722.md).
+- **Status:** proved-exact-identity
+- **Does not imply:** Omitted-network coercivity remains possible; there is no full-PDE counterexample, continuation, or Gold closure, and this comparison does not supply or reopen Silver.
+- **Consumers re-audited:** Consolidated direct authority and MF.35--MF.39 reject the isolated supplier; Gold stays independently open and Silver remains closed.
+
+### F7.125 Full-network completion branches, reconverges, and taxes a selected relay while total critical height rises
+- **Claim:** The full Euler Taylor jet of MF.35 generates three equal first-order daughters, then three corners and six outer pairs. The omitted daughters reconverge into the parent and selected receiver; versus the isolated relay, the three-corner tax is \(25t^6+O(t^8)\), while \(H_F=6+12(\sqrt2-1)t^2+O(t^4)\) rises, so the tax pays no fixed local fraction of the singleton current.
+- **Scope:** One local smooth full periodic Euler field with every Fourier output retained at each displayed order; comparison-only for decaying \(\mathbb R^3\).
+- **Same-participant meaning:** Branches merge into the same Fourier coefficients before energy, sign, or positivity is read.
+- **Source:** [full-network three-arm relay Taylor tax](theorem-construction/mpp-vpi-full-network-three-arm-relay-taylor-tax-20260722.md).
+- **Status:** proved-exact-identity
+- **Does not imply:** Literal no-reconvergence is false and positive ancestry is noncanonical; no signed-current bound, continuation, or Gold closure is proved, and this comparison does not supply or reopen Silver.
+- **Consumers re-audited:** Consolidated authority and moving-front consumers collapse pathwise no-recount back into the signed singleton supplier; Gold stays independently open and Silver remains closed.

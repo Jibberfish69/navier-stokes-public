@@ -2,13 +2,28 @@
 version: 1
 problem_id: navier-stokes
 records:
+- obligation_id: silver-vpi-participation-complement-contrapositive
+  status: not-discharged-silver-classification-only
+  evidence_path: problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md
+  evidence_sha1: 469d62e68db8cdbf3684b46a215b4c3c5d057852
+  evidence_kind: direct-live-authority-silver-vpi-complement
+  accepted_at: '2026-07-22T00:00:00Z'
+  updated_at: '2026-07-22T00:00:00Z'
+  proof_object: one smooth-data fixed-positive-viscosity no-reset original NS VPI
+    history
+  proof_line: not Smooth(Q) => not Member(Q) => not VPIParticipation(Q);
+    contrapositively VPIParticipation(Q) => Member(Q) => Smooth(Q)
+  pack_boundary: Pack is outside CM and only Field-window evidence.
+  gold_relation: parallel-open-research-nonblocking
 - obligation_id: cm-witness-bridge-installed-membersmooth-a-gives-forall-n-cm-witness-smoothness-and-witnessface-a-gives-nonsmooth-not-pack-or-not-part-or-not-field
-  status: discharged
+  status: historical-quarantined-superseded
   evidence_path: problems/navier-stokes/theorem-construction/mpp-live-edge-obligation-evidence-20260504.md
   evidence_sha1: 30d76762ba694b1968899df02cc005624a944281
-  evidence_kind: direct-live-authority-fallback-discharge
+  evidence_kind: historical-support-not-current-silver-authority
   accepted_at: '2026-05-04T20:58:00Z'
-  updated_at: '2026-05-04T20:58:00Z'
+  updated_at: '2026-07-22T00:00:00Z'
 summary:
   accepted_count: 1
-  updated_at: '2026-05-04T20:58:00Z'
+  historical_quarantined_count: 1
+  open_silver_count: 0
+  updated_at: '2026-07-22T00:00:00Z'

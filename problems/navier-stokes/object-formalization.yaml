@@ -1,5 +1,13 @@
 ---
 version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_program: thomas-one-fluid-reversible-intersection
+  active_direct_boundary: none
+  proof_chain: datum-generated-whole-terminal-rectangles-to-intersection-to-H_x-infinity-endpoint-to-restart
+  precedence: Historical mathematics is preserved at its proved scope; generated status cannot reopen or override the established datum-generated whole-terminal theorem.
 identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity

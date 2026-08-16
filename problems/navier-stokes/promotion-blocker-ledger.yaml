@@ -10,10 +10,10 @@ source_reads:
   theorem_authority_frontier:
     path: problems/navier-stokes/source-frontier.yaml
     total_obligations: 27
-    blocking_count: 1
+    blocking_count: 0
     bridge_pending_count: 0
-    unresolved_count: 1
-    all_discharged: false
+    unresolved_count: 0
+    all_discharged: true
   cm_convergence_atlas:
     path: problems/navier-stokes/cm-convergence-atlas.yaml
     status: historical-context-only
@@ -46,8 +46,7 @@ source_reads:
   assumption_ledger:
     path: problems/navier-stokes/assumption-ledger.yaml
     status: local-theorem-program-closed
-promotion_packet_blockers:
-- SignedCriticalHeightSignPersistenceOrPeakBound.A open for Gold L1 source theorem
+promotion_packet_blockers: []
 proof_obligation_blockers: []
 branch_terminal_blockers: []
 resolved_blockers:
@@ -57,8 +56,7 @@ resolved_blockers:
 - lower-carrier-receiver-wall
 - collar-to-jump-converse-pivot
 - h1-h2-h6-endpoint-upgrade
-remaining_release_gates:
-- TFE2748B / OriginalCriticalCapacityVariation.A
+remaining_release_gates: []
 sourcepulse_may2_reduction:
   exact_surviving_burden: CM witness bridge installed by `MemberSmooth.A / WitnessFace.A`;
     SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional
@@ -94,29 +92,28 @@ claim_boundary:
     closure as branch-native `Jump_avg` elimination, whole-space R^3 closure, or final
     release approval.
 current_authority_status:
-  status: superseded-by-direct-live-open-frontier
-  checked_at: '2026-06-08T07:57:59Z'
-  reason: Direct live authority now keeps Gold open at TFE2748B /
-    OriginalCriticalCapacityVariation.A; this artifact is retained as historical
-    theorem-work context and must not clear the live blocker.
+  status: superseded-by-direct-live-clearance
+  checked_at: '2026-08-06T14:56:50Z'
+  reason: Direct live authority reports no open theorem frontier; this artifact is
+    retained as historical theorem-work context and must not respawn a live blocker.
   authority_summary:
     authority_mode: direct-live-surfaces
-    blocking_count: 1
-    frontier_count: 1
-    all_discharged: false
+    blocking_count: 0
+    frontier_count: 0
+    all_discharged: true
   controlling_surfaces:
   - problems/navier-stokes/live-theorem-edge.yaml
   - problems/navier-stokes/source-frontier.yaml
   - problems/navier-stokes/theorem-packet.yaml
 summary:
-  current_live_blocking_count: 1
-  current_live_frontier_count: 1
+  current_live_blocking_count: 0
+  current_live_frontier_count: 0
   stale_surface_status: historical-context-only
 historical_promotion_packet_blockers: []
 historical_proof_obligation_blockers: []
 historical_branch_terminal_blockers: []
 historical_remaining_release_gates: []
-historical_promotion_packet_blockers_count: 0
+historical_promotion_packet_blockers_count: 1
 historical_proof_obligation_blockers_count: 0
 historical_branch_terminal_blockers_count: 0
-historical_remaining_release_gates_count: 0
+historical_remaining_release_gates_count: 1

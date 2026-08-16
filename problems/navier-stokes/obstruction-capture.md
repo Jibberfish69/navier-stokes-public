@@ -7,17 +7,18 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 - `problem_id`: `navier-stokes`
 - `display_name`: `Navier-Stokes Global Regularity`
 - `date_opened`: `2026-03-11`
-- `status`: `cm-contrapositive-class-exit manuscript-opening-authority`
+- `status`: `silver-one-line-vpi-contrapositive-closed`
 
 ## One-Sentence Thesis
 
-- The current manuscript opens from the CM contrapositive class-exit program: an alleged finite-time Clay terminal witness from the same original smooth datum enters the same-fluid CM terminal participation-field tree. After Pack admission, Silver exhausts its finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; before the Field smoothness-certification question is live, a failed packet-window candidate first tests the original NS participation law. The derived typed failure supports `Exit(Q):=not Member(Q)`.
+- On one smooth-data, fixed-positive-viscosity, no-reset original Navier--Stokes history, the exhaustive inventory proves `not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)`, so directly by contraposition `VPIParticipation(Q) => Member(Q) => Smooth(Q)`.
 
-## The Real Obstruction
+## The Governing Proof
 
-- The live obstruction is an alleged finite Clay terminal witness from the original smooth Navier-Stokes datum.
-- The pressure point is whether that terminal witness can remain a lawful in-class nonsmooth continuation branch.
-- The CM answer is to admit Pack-carried witness material to the same-fluid terminal packet tree and sort its first Part/Field failure, while outside-CM participation-field/window singular material is first checked for the original NS participation law.
+- Start with the original smooth datum and keep one continuing fluid history.
+- Full VPI participation includes transport, simultaneous nonlocal pressure response, viscosity, incompressibility, material ancestry, and coherent-field participation; it is stronger than a weak equation record.
+- Dead, Blown, Jump, Part, Field, and any conditionally selected other PDE exhaust presentations of departure and all reduce to loss of that one participation law and membership.
+- Contraposition leaves the original full VPI participant in the class and smooth. Pack remains Field-window evidence outside CM.
 
 ## Why Prior Attempts Fail
 
@@ -27,32 +28,23 @@ Use this file to preserve the recovered obstruction-to-proof path for the 3D Nav
 
 ## The Crossing Move
 
-- Start with the alleged finite-time Clay terminal witness from the same original smooth datum.
-- Enter that witness into the canonical same-fluid CM terminal participation-field tree.
-- Exhaust field-local finite failure type as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; for any outside-CM participation-field/window failure candidate, first test the original NS participation law.
-- Embed the derived Part/Field failure as `Exit(Q):=not Member(Q)` while preserving the pass branch as the lawful smooth continuation branch.
+- Prove the exhaustive negative implication on the same original history.
+- Apply its direct contrapositive.
+- Use Part/Field, Euler, and other terminal presentations only to exhaust the negative side, never as extra roots or Gold prerequisites.
 
 ## Core Mechanism
 
-- The theorem-bearing engine is the CM terminal witness chain:
-  1. terminal witness entry,
-  2. finite Silver Part/Field failure-type exhaustion after live-object participation is typed,
-  3. outside-CM participation-field/window original-participation audit where a failed packet-window branch still has original NS participation status,
-  4. contrapositive embedding as `Exit(Q):=not Member(Q)`,
-  5. no legal in-class nonsmooth third branch between pass and fail.
-
-- The live manuscript burden is to keep that chain as the opening authority.
-- The live support burden is to quarantine periodic, `Q(t)`, source-wall, and positive-supplier surfaces unless they land in a typed witness.
+- The theorem-bearing engine is the VPI participation complement and direct contraposition.
+- Part and Field localize the one participation loss; Pack is not a CM face.
+- Gold, periodic, `Q(t)`, source-wall, packet, and positive-supplier surfaces are independent research or support and cannot reopen Silver.
 
 ## Plain Path
 
-1. Start with a same-datum finite Clay terminal witness.
-2. Treat it as CM-test-admissible, not as already `Member(Q)`.
-3. Run terminal witness entry into the same-fluid CM participation-field tree.
-4. Exhaust the field-local failure through Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence, and resurface any outside-CM participation-field/window failure candidate under the original participation law first.
-5. Read the derived Part/Field failure as `Exit(Q):=not Member(Q)`.
-6. Keep the pass branch as smooth continuation and the fail branch as outside-class.
-7. Reject any opening that begins with torus-first, `Q(t)`, or periodic route history before the CM witness object has landed.
+1. Start with the original smooth-data, fixed-viscosity VPI history.
+2. Keep that one object under its full participation law.
+3. Exhaust all nonsmooth departures as nonparticipation and nonmembership.
+4. Contrapose to the smooth participating member.
+5. Keep Gold and packet/readout history outside this proof line.
 
 ## Live Branches
 
@@ -102,13 +94,14 @@ Reason it is quarantined:
 
 ## Output Target
 
-- For this phase, the output is a CM contrapositive class-exit manuscript surface.
-- The runner must open from terminal witness entry, Silver Part/Field exhaustion after live-object participation is typed, outside-CM participation-field/window original-participation audit where needed, and `Exit(Q):=not Member(Q)`.
+- The output is a Silver VPI-complement proof surface carrying the exact implication and contrapositive.
+- The runner must preserve the datum-generated whole-terminal rectangle theorem
+  as established and keep Silver as a downstream classification.
 
 ## Instructions to Codex
 
 - Keep the regularized branch archived as a diagnostic failure branch.
-- Keep `Q(t)` and periodic material quarantined as support unless a checked bridge lands it in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
-- Preserve the CM contrapositive class-exit architecture as the manuscript opening.
+- Keep `Q(t)` and periodic material quarantined as support.
+- Preserve the one-line VPI-complement contrapositive as the manuscript opening.
 - Keep export and source-history material explicitly downstream.
 - Do not promote archived provenance above theorem authority.
