@@ -80,16 +80,15 @@ whole-terminal mixed rectangle
 \tag{PP.6}
 \]
 
-Whole-terminal finiteness is asserted directly at every finite coordinate:
+For each finite \(N,M\),
 
 \[
-\mathfrak R_{N,M}(u)<\infty
-\qquad\text{for every finite }N,M.
+\sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
 \tag{PP.7}
 \]
 
-No norm uniform in \(N,M\), common analytic radius, or infinite norm sum is
-required. If \(N'\le N\) and \(M'\le M\), restriction forgets higher temporal
+No common analytic radius or infinite norm sum is required. If \(N'\le N\) and
+\(M'\le M\), restriction forgets higher temporal
 coordinates and uses the continuous Sobolev embeddings, with
 
 \[
