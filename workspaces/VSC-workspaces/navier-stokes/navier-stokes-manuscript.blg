@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'navier-stokes-manuscript.blg'
-[42] biber-darwin:342> INFO - === Sat Aug 15, 2026, 17:00:28
-[54] Biber.pm:421> INFO - Reading 'navier-stokes-manuscript.bcf'
-[106] Biber.pm:1002> INFO - Found 15 citekeys in bib section 0
-[115] Biber.pm:4487> INFO - Processing section 0
-[121] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
-[124] bibtex.pm:1713> INFO - LaTeX decoding ...
-[137] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[224] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[225] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[225] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[225] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[238] bbl.pm:676> INFO - Writing 'navier-stokes-manuscript.bbl' with encoding 'UTF-8'
-[243] bbl.pm:779> INFO - Output to navier-stokes-manuscript.bbl
+[127] biber-darwin:342> INFO - === Sun Aug 16, 2026, 16:03:55
+[162] Biber.pm:421> INFO - Reading 'navier-stokes-manuscript.bcf'
+[309] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
+[347] Biber.pm:4487> INFO - Processing section 0
+[364] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
+[369] bibtex.pm:1713> INFO - LaTeX decoding ...
+[405] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[664] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[664] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[766] bbl.pm:676> INFO - Writing 'navier-stokes-manuscript.bbl' with encoding 'UTF-8'
+[795] bbl.pm:779> INFO - Output to navier-stokes-manuscript.bbl
