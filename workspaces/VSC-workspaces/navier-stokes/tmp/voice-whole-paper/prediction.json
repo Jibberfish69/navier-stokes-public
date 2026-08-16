@@ -41,7 +41,7 @@
           "thought": "state the whole-space target and finite alternative without consuming later machinery",
           "connection": "the finite alternative creates the singularity question",
           "reader_start": "the reader knows the Navier-Stokes equations but has not yet seen this proof or its physical motivation",
-          "reader_end": "the reader knows the exact target and the only contrary case",
+        "reader_end": "the reader knows the exact target and sees a finite last time as the only contrary case",
           "content_basis": [
             "live-input"
           ]
@@ -50,8 +50,8 @@
           "step_id": "movement-step-2",
           "thought": "develop the perfectly stretching vortex into critical escape, critical height, Zeno first passages, and the temporal Tower",
           "connection": "finite-time escape makes bounded response derivatives impossible",
-          "reader_start": "the reader sees a finite last time but not what the same fluid would have to do",
-          "reader_end": "the reader has earned the temporal and mixed derivative objects",
+        "reader_start": "the reader knows the exact target and sees a finite last time as the only contrary case",
+        "reader_end": "the reader has followed the vortex through critical height, Zeno first passages, and the mixed derivative jet",
           "content_basis": [
             "live-input"
           ]
@@ -60,8 +60,8 @@
           "step_id": "movement-step-3",
           "thought": "read viscosity and Sobolev regularity across the same temporal rows, then form rectangles and their intersection",
           "connection": "the spatial ascent reverses the concentration picture and identifies the estimate the proof needs",
-          "reader_start": "the reader has the mixed jet but not its simultaneous spatial meaning",
-          "reader_end": "the reader sees why finite compatible rectangles are the proof's natural units",
+        "reader_start": "the reader has followed the vortex through critical height, Zeno first passages, and the mixed derivative jet",
+        "reader_end": "the reader sees the temporal-spatial reversal and why finite compatible rectangles are the proof's natural units",
           "content_basis": [
             "live-input"
           ]
@@ -70,8 +70,8 @@
           "step_id": "movement-step-4",
           "thought": "project the intersection back onto the critical-height and vortex threats, then continue the common endpoint",
           "connection": "the estimates block the exact escapes that motivated the Tower",
-          "reader_start": "the reader has the intersection theorem but still needs to see it solve the original problem",
-          "reader_end": "the reader has followed the contradiction of finite maximality",
+        "reader_start": "the reader sees the temporal-spatial reversal and why finite compatible rectangles are the proof's natural units",
+        "reader_end": "the reader has followed the rectangle estimates back to the original singularity threat and through the contradiction of finite maximality",
           "content_basis": [
             "live-input"
           ]
@@ -80,8 +80,8 @@
           "step_id": "movement-step-5",
           "thought": "develop the dyadic, classical-endpoint, and Euler consequences from the specific coordinates already earned",
           "connection": "each consequence reveals a distinct meaning of the same finite rectangles",
-          "reader_start": "the principal theorem is closed",
-          "reader_end": "the reader has followed why each object is introduced, how the intersection closes the singularity routes, and where the technical endpoint assembly lives",
+        "reader_start": "the reader has followed the rectangle estimates back to the original singularity threat and through the contradiction of finite maximality",
+        "reader_end": "the reader understands the dyadic, endpoint, and Euler consequences of the same finite-coordinate theorem",
           "content_basis": [
             "live-input"
           ]
@@ -90,7 +90,7 @@
           "step_id": "movement-step-6",
           "thought": "keep construction, compatibility, pressure-jet, and gluing details readable but quarantined in appendices",
           "connection": "the appendix supplies full technical payment without interrupting the body's causal line",
-          "reader_start": "the reader needs auditability without losing the proof movement",
+        "reader_start": "the reader understands the dyadic, endpoint, and Euler consequences of the same finite-coordinate theorem",
           "reader_end": "the reader can verify every technical assembly step separately",
           "content_basis": [
             "live-input"
