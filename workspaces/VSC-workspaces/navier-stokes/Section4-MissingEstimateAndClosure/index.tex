@@ -40,8 +40,7 @@ The same trace calculation gives
 Nothing in this step couples \(r\) to \(m\).  We may choose any finite temporal
 response and then ask for any finite spatial height inside that same row.
 
-That one statement generates the ordinary finite-order estimates.
-Let \(k\in\Nzero\), let \(2\leq p\leq\infty\), and choose an integer \(m\) with
+Given \(k\in\Nzero\) and \(2\leq p\leq\infty\), choose an integer \(m\) with
 \begin{equation}\label{eq:SobolevProjectionThreshold}
   m>k+\frac32-\frac3p.
 \end{equation}
@@ -61,8 +60,8 @@ Since \(T_*\) is finite under the standing contradiction hypothesis,
   \in L^q(I_*;L^p(\R^3))
   \qquad(1\leq q\leq\infty).
 \end{equation}
-Each requested norm is a finite projection of the intersection and has its own finite
-constant.  We are not summing all derivative orders or claiming one analytic radius.
+Each requested norm uses one finite rectangle and has its own finite constant.  No sum
+over all derivative orders or common analytic radius is used here.
 Fix \(r\).  The singularity asks \(V_r\) to
 escape in \(L^3\), while the coordinate \((r,1)\) places that same \(V_r\) continuously
 in \(H^1\hookrightarrow L^3\).  The two independent directions of the grid have met
@@ -216,11 +215,11 @@ Equation \eqref{eq:BodyUniformMixedSobolevCoordinate} with \(r=0\), together wit
 \end{equation}
 Even when material is continually recruited, the complete velocity field cannot retain a fixed amount of critical content beyond every frequency.
 
-This is why the two readings had to be separated.  Particle separation closes the
-persistent core, while the Fourier tail closes the recruited one.  Neither estimate
-needs wobble, fragmentation, buckling, or lost symmetry to rescue the flow.  Even the
-perfectly balanced stretching picture cannot carry singular critical content into zero
-scale at \(T_*\).
+The two meanings of the core now have separate conclusions.  Fixed material labels
+retain positive separation, and a core with changing membership sits inside a
+whole-field critical tail that vanishes uniformly at high frequency.  Neither estimate
+uses wobble, fragmentation, buckling, or lost symmetry.  The perfectly stretching
+vortex cannot carry singular critical content into zero scale at \(T_*\).
 
 \subsection{No finite singular time}\label{sub:NoFiniteSingularTime}
 
@@ -245,11 +244,10 @@ Equation \eqref{eq:EndpointCriterionFromLowRectangle} bounds \(u\) in the exact
 \(L^3\) endpoint norm that \eqref{eq:FiniteTimeLThreeEscape} forces to diverge.  This
 contradiction rules out a finite maximal time.
 
-The full intersection also produces a common \(H^\infty\) terminal velocity and a
-pressure-complete endpoint jet, from which local uniqueness restarts the same classical
-history.  Appendix~\ref{app:CompatibleTerminalAssembly} carries that stronger endpoint
-construction, including trace compatibility and smooth gluing, and reaches the same
-continuation conclusion.
+The compatible traces also give \(u_*\in H^\infty\); the differentiated recurrence
+determines its normalized pressure-complete endpoint jet.  Appendix~\ref{app:CompatibleTerminalAssembly}
+proves that these traces agree and that local uniqueness glues the restarted solution
+to the original classical history.
 
 Hence \(T_*=\infty\), which proves \eqref{eq:BodyGlobalSmoothnessConclusion} and the time requirement \eqref{eq:GlobalTimeTarget}.
 The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite interval of the global solution and gives \eqref{eq:GlobalEnergyConclusion}, completing \eqref{eq:WholeSpaceRegularityTarget}.
@@ -285,6 +283,10 @@ Insert \(2^{3j/2}=2^{-j/2}2^{2j}\), sum, and use Cauchy--Schwarz in the shell in
   &\leq C\norm{\omega}_{H^2}
   \leq C\norm{u}_{H^3}.
 \end{align*}
+Bernstein costs \(3/2\) derivatives in each high-frequency shell.  The \(H^2\)
+vorticity weight supplies two derivatives, leaving the factor \(2^{-j/2}\); its square
+is summable.  That spare half derivative is what turns one finite Sobolev row into an
+\(\ell^1\) sum across all dyadic shells.
 The low block \(\Delta_{-1}\omega\) is controlled by \(\norm{\omega}_2\), so
 \begin{equation}\label{eq:VorticityBesovFromHThree}
   \norm{\omega}_{B^0_{\infty,1}}
@@ -336,8 +338,14 @@ which supplies the gradient criterion of Beir\~ao da Veiga
 \parencite{BeiraoDaVeiga1995}.  The rectangle that blocks velocity escape also
 controls the shear responsible for vortex stretching.  Together, the three criteria
 read velocity escape, scale-balanced integrability, and vortex-producing shear from the
-same low finite block.  Larger finite-order criteria follow from
-\eqref{eq:MasterFiniteTimeMixedEstimate} in exactly the same way.
+same low finite block.  Repeating the finite-coordinate calculation on the chosen
+\([0,T]\) gives, for finite \(r,k\in\Nzero\), \(2\leq p\leq\infty\), and
+\(1\leq q\leq\infty\),
+\[
+  \nabla^k\partial_t^ru\in L^q(0,T;L^p(\R^3)),
+\]
+after choosing a finite Sobolev height
+\(m>k+\tfrac32-\tfrac3p\).
 
 \subsection{Why the Euler Tower is different}\label{sub:WhyTheEulerTowerIsDifferent}
 
