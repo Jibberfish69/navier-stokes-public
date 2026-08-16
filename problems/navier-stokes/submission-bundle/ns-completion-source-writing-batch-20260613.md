@@ -1,5 +1,13 @@
 # NS completion executor source-writing batch 2026-06-13
 
+> Historical batch log only. Its open-Silver, pass-or-exit, annular-payment, and
+> PDF-finality statements are superseded by the 2026-07-22 one-fluid VPI
+> complement proof:
+> `not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)`, directly
+> contrapositively `VPIParticipation(Q) => Member(Q) => Smooth(Q)`. Gold is
+> independent and nonblocking; current PDF/export audit is a separate artifact
+> task.
+
 This lane consumed ns-human-pdf-source-writing-batch from ns-completion-engine.yaml.
 
 The primary object is the problems/** human PDF source, not a proof-note queue or a finality gate. The lane reads the existing TeX/source architecture, selects a multi-section writing batch, writes around the installed formal derivations in plain textbook-grade prose, and records a targeted changed-section PDF check instead of spending a full CMI-finality reread on every small edit.

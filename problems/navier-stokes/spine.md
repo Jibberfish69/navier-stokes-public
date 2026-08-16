@@ -1,19 +1,56 @@
 # Navier-Stokes Global Regularity Spine
 
-Use this file as the single route surface for Navier-Stokes.
-It preserves the recovered live branch without letting modified-equation successes masquerade as a Clay result and without letting later lane summaries outrank the original source stack.
+Repository MPP status: **solved by the established proof program**.
+
+Thomas Birnie's one-fluid reversible-intersection method is crystallized into
+one established datum-to-global-regularity proof. The
+compact proof and source map are in
+[PROOF-PROGRAM.md](PROOF-PROGRAM.md); the full authority is
+[the one-fluid proof spine](theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md).
+
+## Active proof chain
+
+u_0 -> datum-generated compatible whole-terminal rectangles -> projective
+all-orders intersection -> complete zeroth spatial row -> common H-infinity
+endpoint -> pressure-explicit endpoint jet -> same-history restart ->
+contradiction of finite maximality.
+
+Every finite rectangle is generated on the whole terminal interval and the
+family is compatible. The first signed critical prefix is a downstream
+equivalent readout. Every arrow in the displayed chain is established.
+
+Every object in that line belongs to one smooth-data, fixed-viscosity,
+pressure-complete history. The rectangle constants may depend on each finite
+temporal and spatial order. The spaces are intersected; no all-order sum,
+uniform radius, selected critical row, signed prefix, dome, shell, or route
+label replaces the proof object.
+
+The target operating contract records this topology. Status fields cannot
+replace or reopen the derivation. The Silver/VPI contrapositive and later Gold
+work remain preserved as downstream support at their exact mathematical scope.
+
+## Historical route archive
+
+The material below preserves the repository's earlier route topology and
+physical-ontology work. Its local claims retain their displayed hypotheses,
+proofs, and boundaries.
+
+Archived route status at the time recorded Silver as closed by the exhaustive
+VPI-complement contrapositive. The current audit preserves that inventory as a
+classification and rejects it as a global-regularity discharge.
 
 For the folder-wide layer map that separates route authority, live frontier,
 modern overlays, sidecars, and stale generated surfaces, see
 [ns-layered-route-graph.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-layered-route-graph.md).
 
 The first ontology-gate spin on 2026-07-10 demoted
-`SignedCriticalHeightSignPersistenceOrPeakBound.A`. The live Gold burden is the
+`SignedCriticalHeightSignPersistenceOrPeakBound.A`. The independent Gold burden is the
 global critical-height bound itself or a genuinely smaller quantitative theorem
 that implies it. Sign persistence supplies no bound. Positive variation remains
 a lawful stronger sufficient route, and pressure makes no direct contribution
 to the global scalar-multiplier balance. Lower route text retaining the former
-wrapper name is genealogy rather than current theorem authority.
+wrapper name is genealogy rather than current theorem authority and is not a
+Silver premise or release blocker.
 
 ## Physical-story custody for every ontology cycle
 
@@ -123,7 +160,7 @@ terminal frequency escape but leave the first radial moment uncontrolled.
 This remains a regularity-equivalent criterion rather than Gold closure.
 WLF.60 and ODP.91 remain possible localization suppliers only through an exact
 bridge to \(A_H\), the stronger radial action, or directly to critical-height
-control. Silver is unchanged.
+control. Silver remains independently closed.
 
 The physical-custody audit of Cycles 034--042 changes how the next paragraphs
 are read. F5.7 is the exact relay identity for an admitted material
@@ -151,7 +188,7 @@ annulus ranges over all centers and directions; it is not the physical collar
 around the source in F5.7. The spatial ripple/core--annulus picture and the
 global critical-current program therefore remain unbridged. Their
 square-versus-linear expressions are algebraically comparable, but that
-comparison supplies no common carrier. Silver is unchanged.
+comparison supplies no common carrier. Silver remains independently closed.
 
 Cycle 035 installs F6.13 and F7.8. A rising critical record requires the
 displayed coherent-action lower bound at the heat rate associated
@@ -164,7 +201,7 @@ Fourier magnitudes can be held fixed while the surrounding advecting
 orientation reverses the sign of critical production; the visible crest may
 decrease while global critical height rises. This does not refute a general
 spatial spikiness law and does not identify the crest as the critical-current
-carrier. Silver is unchanged.
+carrier. Silver remains independently closed.
 
 Cycle 036 installs F1.10 and F6.14 and corrects that last sentence. The exact
 material-pair transform now supplies a positive current-state action
@@ -206,7 +243,7 @@ proposed remaining burden was to select the shape-changing parent action before
 readout, route the shape-null source component, prove causal same-event fibres
 with bounded multiplicity, and prove the separate WLF.60 parent-size bound.
 Cycle 038 below refutes the instantaneous shape-null routing in that proposal.
-Silver is unchanged.
+Silver remains independently closed.
 
 Cycle 038 installs F6.17 and separates fixed-time correlation order from the
 next time order in the global spectral-shape equation. For a one-shell state
@@ -279,7 +316,7 @@ frequency, and bounded absolute spectral width. Relative width may still
 vanish as the critical height grows, the event can occur on summable
 parabolic intervals, and the global width does not locate the signed current
 or its material carrier. This is a necessary same-history state constraint;
-it supplies no datum-finite action bound or Gold closure. Silver is unchanged.
+it supplies no datum-finite action bound or Gold closure. Silver remains independently closed.
 
 Cycle 042 installs F6.21. On the rising set \(G=\{R'>0\}\), the exact
 current measure gives
@@ -301,7 +338,7 @@ fixed subcritical Sobolev occupancy cannot supply a universal positive cost
 per gain. The result is a frequency-space statement and makes no spatial
 localization claim. Gold remains open at same-history scale-critical action,
 material ancestry and no-reuse, WLF.60, or another direct regularity theorem.
-Silver is unchanged.
+Silver remains independently closed.
 
 Cycle 043 returns the program to the physical picture supplied in Cycle 034.
 It installs F1.11 and F7.9 and deepens F5.3. In material coordinates the
@@ -344,7 +381,7 @@ fixed-label, deformation-adapted cores and collars, with a strict remainder,
 and attach each core to the exact stress--storage--dissipation relay. The
 datum-finite parent-mass or inverse-distance no-recount theorem remains a
 separate next burden. This cycle is ontology and strict target refinement, not
-MPP closure. Silver is unchanged.
+MPP closure. Silver remains independently closed.
 
 Cycle 044 installs F1.12 and F7.10 and answers the first part of the proposed
 participation-response-rate picture. For every fixed material tangent and
@@ -408,7 +445,7 @@ critical gradient differences on one core--collar event, and retain them for
 a quantitative interval. The ABC amplitude family refutes a universal linear
 work-to-viscosity fraction, so the normalized quadratic law is the surviving
 form. This is physical ontology and a sharper Gold reduction, not MPP
-closure. Silver is unchanged.
+closure. Silver remains independently closed.
 
 Cycle 046 installs F7.12--F7.13. The nonlocal all-chord density has the
 scale-critical energy-level capacity law
@@ -458,7 +495,7 @@ continuation criterion. The new smaller Gold target is therefore
 same-carrier capacity/good-lambda theorem that implies it. The core--collar
 construction is one possible supplier, not the definition of Gold. This is a
 proved ontology advance and a strict target reduction, not proof of the new
-integrability theorem or MPP closure. Silver is unchanged.
+integrability theorem or MPP closure. Silver remains independently closed.
 
 Cycle 047 installs F7.14--F7.15 and re-audits Cycle 042. The sign-blind
 density ceiling
@@ -505,7 +542,7 @@ It is scale critical and one-sided: \(I\le K/2\), while heat shears can have
 \(WorkEffectiveMaterialVolumeIntegrability.A\); the two are parallel temporal
 and spatial-density suppliers. Neither is proved from the datum. This cycle is
 a proved physical ontology advance and target refinement, not MPP closure.
-Silver is unchanged.
+Silver remains independently closed.
 
 Cycle 048 asked whether the same participant's normalized compression changes
 through scalar all-chord density or through the joined strain--orientation
@@ -1291,105 +1328,82 @@ while \(\mathcal Q_\Pi=0\).  No pointwise vorticity bound, matched
 localization, direction/alignment theorem, datum-time bound, spatial/material
 carrier, Gold-rise placement, Gold closure, or Silver exit follows.
 
-## Above-Route Gold/Silver Analogy
+## Silver VPI-Complement Contrapositive
 
-Within the analogy, Gold is tautology-style propagation:
-
-\[
-\forall u_0\in X,\quad \text{regularity/controlled evolution holds}.
-\]
-
-Every admissible starting case satisfies the forward claim:
+Silver starts with one smooth-data, fixed-positive-viscosity, no-reset original
+Navier--Stokes history and keeps that fluid object under full transport,
+simultaneous nonlocal pressure response, viscosity, incompressibility, material
+ancestry, and coherent field participation. Its exhaustive negative-side
+theorem is
 
 \[
-\text{all valid inputs propagate regularity}.
+\neg\operatorname{Smooth}(Q)
+\Longrightarrow\neg\operatorname{Member}(Q)
+\Longrightarrow\neg\operatorname{VPIParticipation}(Q).
 \]
 
-Silver is unsatisfiability-style obstruction exclusion:
+Dead, Blown, Jump, Part, and Field are presentations of the one participation
+loss. Another PDE is such a presentation only when it is reached from the
+original Navier--Stokes history and all defects needed for the identification
+vanish; Euler requires zero effective viscosity and no Reynolds, forcing,
+pressure, incompressibility, or ancestry defect. Therefore, directly by
+contraposition,
 
 \[
-\nexists w,\quad \text{admissible blowup witness } w \text{ exists},
+\operatorname{VPIParticipation}(Q)
+\Longrightarrow\operatorname{Member}(Q)
+\Longrightarrow\operatorname{Smooth}(Q).
 \]
 
-equivalently,
-
-\[
-\forall w,\quad \text{candidate blowup witness } w \text{ fails admissibility}.
-\]
-
-Silver says:
-
-\[
-\text{the counterexample space is empty}.
-\]
-
-Gold proves the desired world directly. Silver proves the obstruction-world has
-no valid inhabitant.
-
-Clean labels:
-
-- Gold = tautology-style propagation.
-- Silver = unsatisfiability-style obstruction exclusion.
+Pack is Field-window evidence outside CM. Gold is a separate forward-positive
+research lane; it is not run before Silver and its open estimate does not block
+this proof.
 
 ## Route Summary
 
-- Working target: each live Navier-Stokes theorem object is carried through two simultaneous lanes on the same object: Gold direct regularity / controlled evolution, and Silver obstruction exclusion / CM class exit.
-- Honest current status: Gold is open at the material parent-announced upgrade of F6.18's exact signed Eulerian ancestry: first admission of the full signed source current, a positive common disintegration, selected near-null control, causal bounded fibres, and the separate WLF.60 parent-size bound. Datum control of the exact F6.10 action \(A_H\), \(J_{\mathrm{pair}}\), the stronger F6.11 radial action \(J_{\mathrm{rad}}\), sustained fixed-history control of F6.19's faster-than-viscous energy-centroid acceleration, or another direct critical-height theorem also closes the lane. F6.20 excludes a sequence of rising states with unbounded mean frequency and bounded absolute Fourier variance; it establishes no moving or spatially widening spectrum. Instantaneous spectral shape-null routing, a \(J_{\mathrm{pair}}\)-only WLF parent measure, positive shape variation, and a universal relative spectral-bandwidth floor are refuted. Silver keeps the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain as its own obstruction-exclusion lane. Neither lane is a fallback, status substitute, or cleanup surface for the other.
-- Decisive frontier: preserve the same-object pairing. A theorem surface should say what the Gold proof must still prove for that object and what the Silver proof must still prove or has proved for that same object.
-- Frozen architecture note: periodic, Euclidean, `Q(t)`, source-wall, positive-supplier, and export history is support unless a checked bridge places it into the Gold direct proof of the shared object or the Silver obstruction-exclusion proof of the shared object.
+- Silver status: closed by the displayed VPI-complement implication and direct contraposition on the original history.
+- Gold status: independently open at its forward-positive signed-height suppliers; those suppliers neither prove nor block Silver.
+- Periodic, Euclidean, `Q(t)`, source-wall, packet, positive-supplier, and export history is support. Part and Field only locate a negative-side participation loss; Pack remains outside CM.
 
 ## Spine
 
-1. Fix the shared theorem object first.
-   The object is the same original smooth Navier-Stokes datum, interval, and theorem burden for both lanes.
-
-2. Run Gold on that object.
-   Gold tries to prove the desired regularity world directly by controlling the same-fluid evolution. F6.10 gives the exact coherent action criterion; F6.11 gives a stronger radial-current first moment with finite base mass and terminal frequency escape. F1.9's global pair-separation width and F5.8's physical ripple dissipation separately generate inverse-distance quantities; no theorem places them on the same spatial or material carrier. Their Gold-relevant first moments remain uncontrolled. Local owner, first-admission, annular response, and order-lock machinery has Gold force only after an exact bridge to one of those actions or directly to the critical-height bound.
-
-3. Run Silver on that object.
-   Silver tries to prove that the obstruction-world has no valid inhabitant. In CM terms, the alleged finite-time Clay terminal witness enters the participation-field tree without being assumed to be `Member(Q)`.
-
-4. Exhaust the Silver finite failure type.
-   After lawful admission, the Silver terminal object lands as not Part_{N,Q}, or forall r>0 not Field_{N,r,Q}; outside-CM participation-field/window failure candidates first test the original NS participation law through viscosity, pressure, and incompressibility.
-
-5. Embed the Silver Part/Field failure.
-   The derived Part/Field failure supports `Exit(Q):=not Member(Q)`.
-
-6. Keep lane statuses separate.
-   A Gold obstruction does not make Silver a fallback, and a Silver face landing does not close Gold. The pass branch remains lawful smooth continuation; the fail branch has no legal in-class nonsmooth continuation status.
-
-7. Quarantine old openings.
-   Periodic, `Q(t)`, source-wall, and positive-supplier material may support the proof only after a checked bridge lands the exact claim in the Gold lane or in Silver Pack_Q, Part_{N,Q}, Field_{N,r,Q}, or the outside-CM participation-field/window original-participation audit.
+1. Fix the original smooth datum, viscosity, and no-reset Navier--Stokes history.
+2. Keep the one fluid object under full transport, pressure, viscosity, incompressibility, ancestry, and coherent-field participation.
+3. Exhaust every possible nonsmooth departure as loss of that participation and therefore loss of membership.
+4. Contrapose: the full VPI participant is a member and smooth.
+5. Keep Gold and all packet/readout machinery separate as parallel research or negative-side support.
 
 ## Completion Condition
 
-- A serious manuscript opening exists only when:
-  - the same Navier-Stokes object is named before lane-specific machinery,
-  - the Gold direct proof obligation on that object is explicit,
-  - the Silver obstruction-exclusion obligation on that object is explicit,
-  - Gold and Silver are not ordered as attempt/fallback,
-  - CM-test admissibility is separated from `Member(Q)` inside the Silver lane,
-  - Part_{N,Q} and Field_{N,r,Q}; Pack_Q only as Field window evidence are the Silver witnesses after live-object participation is typed,
-  - outside-CM participation-field/window failure candidates have been tested for the original NS participation law,
-  - `Exit(Q):=not Member(Q)` is the Silver class-exit conclusion,
-  - no periodic, `Q(t)`, source-wall, positive-supplier, or export surface is doing hidden opening work.
+- The manuscript states the one-line implication and its contrapositive without a Gold prerequisite, positive no-exit theorem, Pack-as-CM face, or extra fully participating singular branch.
+- Part/Field and other-PDE material appears only as exhaustive negative-side classification.
+- Artifact/PDF readiness is audited separately from Silver theorem closure.
 
-## Current Exact Burdens
+## Independent Gold Research Burdens (Nonblocking for Silver)
 
-- Current same-fluid consolidation map: [theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md) is the active cross-lane physical map. It is strict consolidation only: it hardens the reading that Gold, Silver, c0, radiodrome, B3, tower, and commutator surfaces all concern one same-fluid fixed-viscosity incompressible pressure-constrained history. The nonlocal pressure term is the participation Hessian: the cost of keeping an accelerating concentration coherent in the one incompressible field. Radiodrome/pursuit-lag, the moving low-high driver, and the WLF/ODP early row are coordinates of that same participation deficit until paid as same-edge bill currency before selected positive-part readout or routed through a typed Pack/Part/Field / certified material-time branch.
+Everything in this section is Gold research, genealogy, or negative-side
+classification support. None is an additional premise of the closed Silver
+VPI-complement contrapositive.
+
+Legacy three-face and terminal-witness route-out vocabulary inside the retained
+genealogy is superseded. Read it only as Part/Field localization of
+negative-side full VPI participation loss. Pack itself remains Field-window
+evidence outside CM.
+
+- Current same-fluid consolidation map: [theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-ns-same-fluid-physical-ontology-consolidation-20260707.md) is the active cross-lane physical map. It is strict consolidation only: it hardens the reading that Gold, Silver, c0, radiodrome, B3, tower, and commutator surfaces all concern one same-fluid fixed-viscosity incompressible pressure-constrained history. The nonlocal pressure term is the participation Hessian: the cost of keeping an accelerating concentration coherent in the one incompressible field. Radiodrome/pursuit-lag, the moving low-high driver, and the WLF/ODP early row are coordinates of that same participation deficit until paid as same-edge bill currency before selected positive-part readout or classified as full VPI nonparticipation, with Part/Field only locating the loss and Pack remaining outside CM.
 - Gold physical story: the live object is one original smooth Navier-Stokes field and one signed critical-height record upcrossing. The installed identity is the record-net work law
   \[
   \int_a^b P(t)\,dt = H(b)-H(a)+\nu\int_a^bD(t)\,dt,
   \]
   and the open question is where that same record work lived in the original parent packet before selected readout.
 - Gold current strict reduction: construct, before selected readout, one parent-known owner-and-charge law for the same signed-height record event. After pre-return address admission/lift exists, the owner map is formal; after the address/boundary and selected-critical root-payment faces are finite measures on the same parent-known event space and Borel key, compatibility is formal. After the WLF/ODP merge, the proof-sized burden is smaller: construct that common keyed event space, finite local address/custody charges for that key, and one shared same-carrier active/root payment whose early-row reading is WLF.60 / ODP.91. This is the current reduced route to `SignedCriticalHeightSignPersistenceOrPeakBound.A`.
-- Gold open proof-sized object: derive \(\Gamma_{\rm pre}\) from the original pressure-viscosity-incompressibility-velocity history of the same packet. The current lower reading is stopped address admission/lift, finite same-event first-boundary charge, selected-critical root payment, address/root/record compatibility on the same primitive event, and one pre-readout same-parent active state/root currency/record-storage package. Fresh innovation, selected-generator coercivity, positive critical transfer, native birth, full-exchange action, and WLF.60's heat-lag first-admission row are coordinates of one original-history selected-critical payment. WLF.60 is the early-row test that this currency lands on the order-locked full-packet selected carrier for the lower fresh source and upper selected positive queue; the same-packet order-lock overlap and selected overrun tail must be paid there. Primitive same-packet ownership and raw same-carrier words are support until the carrier is selected from the recombined full packet before positive-part extraction. The c0 shrink map now lowers installed finite-graph mismatch to `TerminalZenoVisibleReadoutPayment.A`, then through `TerminalFullPacketNoResiduePayment.A` / `TerminalSameCarrierCriticalAntiAtom.A` for the full selected packet \(D_Q=(S,\Pi_Q\nabla^2p)\), then through `RootFixedTerminalUniformL1FullPacketServiceStorage.A`, then through `ParentActiveTowerTailAndAffineQuotientDepletion.A` / `ParentActiveCapacityThreeToothSource.A`, then below that container to `CurrentRecordSquarePacking.A` + `EndpointThreadedNativeNoResidue.A` plus `PersistentRootAffineQuotientReturnPayment.A` / `SelectedGeneratorStorageCoercivity.A`, and now below the selected-generator/root-geometry wrapper to `StrictOriginalLedgerGeneratorStorage.A` / `FullExchangeCriticalDepletionStorage.A` opened as a record-admitted active-critical/full-exchange/active-transit coupled matrix with feedback spectral radius below one, or the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the order-locked carrier. The matrix branch is further typed as record-feeding Perron-class exclusion; retained Perron four-body coercivity reduces its surviving positive-edge case to `FullTowerPositiveChannelThreeMeasureAdmission.A`, which in turn requires the pre-envelope `SignedSmoothSamePacketCommutatorCoercivity.A` line rather than the unsigned \(\Theta_N\) envelope or a pure local \(X_{comm}\) primitive. A direct matrix-gap proof remains sufficient only as an original-data face theorem that makes the feedback subcritical; it is not a lower physical source beneath the admitted-edge channel problem. The graph-compatible pressure/collar surfaces shrink that pre-envelope line below generic non-affine pressure-viscous wording: relative Schur/interface/legal bookkeeping pays the pressure/operator-collar normal defect, while tangent graph motion is the moving low-high pressure/strain pump / stopped free-material graph driver. The strict high-ratio half-barrier / weight-beating tail is the ratio-tail readout of that same driver: raw heat/viscous residence gives only the zeroth moment, while finite pump work asks for the first ratio moment, and the half-tail `nu_l=2^-l/(l+1)` passes installed support while failing selected action. That first-ratio wall is a bill currency for the original epsilon extraction \(B(W)\ge\varepsilon R(W)\), not a replacement definition of \(c_0\); the stronger compactness route is ParentOwnedPositiveRecordBillCurrency.A, with Gate 3/4 record-passage failures read as escape modes of the same missing same-edge pre-readout bill ownership; alignment-lag/pursuit-lag wording must either prove that ownership/compactness passage for \(B\to0, R=1\), or pay this same moving-driver/no-free-upward-transfer bill. Broad mismatch, profile Liouville, raw freshness, affine martingale/storage labels, radiodrome, Rellich language, full-packet no-residue labels, root-fixed terminal storage, the parent-active three-tooth container, Duhamel-Hodge pullback, endpoint admission, retained heat gap, active-density/log-carrier language, component compactness, Perron normal forms, theta envelopes, pressure/collar normal-defect language, local finite-depth storage, and TFE2748B reserve wording are coordinates unless they prove that direct original-data subcritical matrix face, full-tower three-measure admission for the moving low-high driver, pre-envelope signed commutator coercivity, global original-history no-free-upward-transfer, same-carrier overrun tail UI, theta-payer/pre-readout admission with the signed carrier retained, or a typed CM route-out. Repeated-core record/return, stopped potential-average, negative-return/no-free-oscillation, and shrinking-core reset are consumer projections of `OriginalHistorySelectedPotentialAmplificationBV.A`, equivalently the stopped testing/root-generator producer `MaterialAdjointAccretiveTestingData.A / StoppedAdjointTestingEnergyCarleson.A => SelectedGeneratorStorageCoercivity.A => StoppedPredictableRootGeometryCompensator.A`. Current sources have not built that direct subcritical matrix face, three-measure admission for the moving low-high driver, signed commutator, no-free-upward-transfer law, parent reset/return payment, stopped testing/root-generator producer, or WLF/ODP early-row payment from arbitrary original data.
-- c0 physical split: the strict retained-positive participation branch is separated from the Gold original-data owner-and-charge problem. The corrected retained-branch object is VPI non-separability: pressure is a row of the retained record, not a separable bill charged to Vieillefosse service. [theorem-construction/mpp-forward-gold-c0-nonseparable-pressure-row-correction-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-nonseparable-pressure-row-correction-20260708.md) records the correction; [theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md) now states the endpoint trichotomy as own pressure row persists, parent-row relay, or not Part. The fixed-sphere computation [theorem-construction/mpp-forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708.md) is support: it proves row visibility at the affine sphere, not \(c_0\). The finite extension is [theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md): retained \(w=q+\eta\) now reduces to combined-row persistence. The same note proves `AffineFullMaterialFrameRowCertificate.A`: every affine skew frame motion is seen by the pressure row plus the same-record spin and strain-pattern turnover rows. The retained-row passage proof attempt is now [theorem-construction/mpp-forward-gold-c0-retained-row-passage-graph-closedness-obstruction-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-row-passage-graph-closedness-obstruction-20260708.md): the exact-cone pressure row and affine rigid-frame nulls are consumer-paid after material stationarity, and the missing theorem is `RetainedVPIRecordGraphClosednessOrTypedRouteOut.A`. A zero-row-defect retained sequence must either pass the pressure source, material-frame rows, and positive VPI record through the critical limit, or expose the lost row as payment, parent/source relay, Field/nonparticipation, or Pack/Part/Field route-out. The live retained-branch burdens are `RetainedFullMaterialFrameRowAdmission.A`, `RetainedCombinedRowAdjointRangePersistence.A`, `NoSilentPressureRowDropping.A` / `ZPF.21a`, and `RelayEndpointMaterialTimeLiouville.A`, plus arbitrary-original-data admission into the retained branch or a typed CM route-out. Conditional strict accounting remains support after those row/relay lines are supplied.
-- Owned half-tail CM terminal route-out: [theorem-construction/mpp-forward-gold-c0-owned-half-tail-clay-cm-consumption-20260707.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-clay-cm-consumption-20260707.md) installs the CM-use bridge for the remaining owned fresh half-tail. Once the owned same-edge half-tail is lowered to a terminal source-curve atom and promoted as the terminal obstruction of a Clay-admissible finite breakdown, same-witness CM admission is supplied by the Clay terminal witness / canonical packet-capture surfaces, and the atom routes to `not Part_{N,Q}` or `forall r>0 not Field_{N,r,Q}`. This completes the CM terminal route-out branch only; it does not prove WLF.60 / ODP.91, `ParentOwnedPositiveRecordBillCurrency.A`, or the forward-Gold bill theorem from arbitrary original data.
-- Return-fibre before-clipping admission direct test: [theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md) turns the selected-return part of the first-ratio bill wall into a concrete admission test. If every retained selected return interval is already a bounded-overlap fibre of the parent active measure before clipping, with inverse-weight mass dominated by the same before-clipping selected density, the existing inverse-weight and entropy reductions give the bill branch. Failure routes to same-edge custody/legal/stop, recount/finite-menu failure, active-density comparison failure, full-exchange source failure, terminal no-residue failure, or the installed Clay CM Part/Field route-out after same-witness admission. This is still strict reduction: the before-clipping parent active-density/full-exchange construction from arbitrary original data remains open.
-- Full-tower positive-channel same-carrier/log-carrier route-out: [theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-log-carrier-routeout-proof-pass-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-log-carrier-routeout-proof-pass-20260707.md) completes the current formal branch test for `FullTowerPositiveChannelThreeMeasureAdmission.A`. A parent-known raw signed tower-record event owns \((\mu^A,\mu^N,\mu^J)\) by Hahn-Jordan on the same event carrier. A selected positive-baseline child becomes spendable bill only when it is also a before-clipping parent-root log-carrier with stopped BMO/full-exchange/no-residue/return-fibre admission; the log-carrier part is an exact Radon-Nikodym chain rule on the same parent active fibre. Zero-baseline child mass is native first-entry material, paid by entry/full-exchange packing or routed through terminal no-residue / same-witness CM as Part/Field after admission. This is still strict reduction: WLF.60/ODP.91 or the equivalent active-transit/full-exchange storage on the same order-locked carrier remains open from arbitrary original data.
-- Owned half-tail Bill-face classification: [theorem-construction/mpp-forward-gold-c0-owned-half-tail-bill-face-classification-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-bill-face-classification-20260707.md) classifies the last owned same-edge no-recount half-tail as a first-ratio Bill-face debt certificate on the same carrier. Finite first-ratio demand is paid Bill; infinite demand is unpaid Bill, not an untyped survivor and not Pack/Part/Field without a separate same-witness CM, participation, or field mechanism. This completes the current route taxonomy only; WLF.60/ODP.91 or the active-transit/full-exchange matrix remains open from arbitrary original data.
-- First-ratio Bill finiteness or typed exit: [theorem-construction/mpp-forward-gold-c0-first-ratio-bill-finiteness-or-typed-exit-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-bill-finiteness-or-typed-exit-20260707.md) gives the exact conditional proof of \(B_{fr}<\infty\) on the same order-locked carrier. The stopped affine-transition route is `PredictableWeightedStoppedAffineTransitionMartingale.A + PersistentAffineQuotientRecordReturnProducer.A + same-carrier residual routing => B_fr < infinity or legal/stop/typed exit`; the direct route is the record-admitted `StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A` matrix with feedback spectral radius below one. Failure of carrier, stopping, selector, chart, residual, or post-hoc primitive-channel clauses routes to custody/legal/stop/service; retained infinite Bill becomes Part/Field only after same-witness terminal/participation/field admission. This is conditional proof and strict reduction: the original-data producer remains open.
+- Gold open proof-sized object: derive \(\Gamma_{\rm pre}\) from the original pressure-viscosity-incompressibility-velocity history of the same packet. The current lower reading is stopped address admission/lift, finite same-event first-boundary charge, selected-critical root payment, address/root/record compatibility on the same primitive event, and one pre-readout same-parent active state/root currency/record-storage package. Fresh innovation, selected-generator coercivity, positive critical transfer, native birth, full-exchange action, and WLF.60's heat-lag first-admission row are coordinates of one original-history selected-critical payment. WLF.60 is the early-row test that this currency lands on the order-locked full-packet selected carrier for the lower fresh source and upper selected positive queue; the same-packet order-lock overlap and selected overrun tail must be paid there. Primitive same-packet ownership and raw same-carrier words are support until the carrier is selected from the recombined full packet before positive-part extraction. The c0 shrink map now lowers installed finite-graph mismatch to `TerminalZenoVisibleReadoutPayment.A`, then through `TerminalFullPacketNoResiduePayment.A` / `TerminalSameCarrierCriticalAntiAtom.A` for the full selected packet \(D_Q=(S,\Pi_Q\nabla^2p)\), then through `RootFixedTerminalUniformL1FullPacketServiceStorage.A`, then through `ParentActiveTowerTailAndAffineQuotientDepletion.A` / `ParentActiveCapacityThreeToothSource.A`, then below that container to `CurrentRecordSquarePacking.A` + `EndpointThreadedNativeNoResidue.A` plus `PersistentRootAffineQuotientReturnPayment.A` / `SelectedGeneratorStorageCoercivity.A`, and now below the selected-generator/root-geometry wrapper to `StrictOriginalLedgerGeneratorStorage.A` / `FullExchangeCriticalDepletionStorage.A` opened as a record-admitted active-critical/full-exchange/active-transit coupled matrix with feedback spectral radius below one, or the isolated WLF.60 / WLF.36 / ODP.91 early-row payment on the order-locked carrier. The matrix branch is further typed as record-feeding Perron-class exclusion; retained Perron four-body coercivity reduces its surviving positive-edge case to `FullTowerPositiveChannelThreeMeasureAdmission.A`, which in turn requires the pre-envelope `SignedSmoothSamePacketCommutatorCoercivity.A` line rather than the unsigned \(\Theta_N\) envelope or a pure local \(X_{comm}\) primitive. A direct matrix-gap proof remains sufficient only as an original-data face theorem that makes the feedback subcritical; it is not a lower physical source beneath the admitted-edge channel problem. The graph-compatible pressure/collar surfaces shrink that pre-envelope line below generic non-affine pressure-viscous wording: relative Schur/interface/legal bookkeeping pays the pressure/operator-collar normal defect, while tangent graph motion is the moving low-high pressure/strain pump / stopped free-material graph driver. The strict high-ratio half-barrier / weight-beating tail is the ratio-tail readout of that same driver: raw heat/viscous residence gives only the zeroth moment, while finite pump work asks for the first ratio moment, and the half-tail `nu_l=2^-l/(l+1)` passes installed support while failing selected action. That first-ratio wall is a bill currency for the original epsilon extraction \(B(W)\ge\varepsilon R(W)\), not a replacement definition of \(c_0\); the stronger compactness route is ParentOwnedPositiveRecordBillCurrency.A, with Gate 3/4 record-passage failures read as escape modes of the same missing same-edge pre-readout bill ownership; alignment-lag/pursuit-lag wording must either prove that ownership/compactness passage for \(B\to0, R=1\), or pay this same moving-driver/no-free-upward-transfer bill. Broad mismatch, profile Liouville, raw freshness, affine martingale/storage labels, radiodrome, Rellich language, full-packet no-residue labels, root-fixed terminal storage, the parent-active three-tooth container, Duhamel-Hodge pullback, endpoint admission, retained heat gap, active-density/log-carrier language, component compactness, Perron normal forms, theta envelopes, pressure/collar normal-defect language, local finite-depth storage, and TFE2748B reserve wording are coordinates unless they prove that direct original-data subcritical matrix face, full-tower three-measure admission for the moving low-high driver, pre-envelope signed commutator coercivity, global original-history no-free-upward-transfer, same-carrier overrun tail UI, theta-payer/pre-readout admission with the signed carrier retained, or a negative-side full-participation-loss presentation. Repeated-core record/return, stopped potential-average, negative-return/no-free-oscillation, and shrinking-core reset are consumer projections of `OriginalHistorySelectedPotentialAmplificationBV.A`, equivalently the stopped testing/root-generator producer `MaterialAdjointAccretiveTestingData.A / StoppedAdjointTestingEnergyCarleson.A => SelectedGeneratorStorageCoercivity.A => StoppedPredictableRootGeometryCompensator.A`. Current sources have not built that direct subcritical matrix face, three-measure admission for the moving low-high driver, signed commutator, no-free-upward-transfer law, parent reset/return payment, stopped testing/root-generator producer, or WLF/ODP early-row payment from arbitrary original data.
+- c0 physical split: the strict retained-positive participation branch is separated from the Gold original-data owner-and-charge problem. The corrected retained-branch object is VPI non-separability: pressure is a row of the retained record, not a separable bill charged to Vieillefosse service. [theorem-construction/mpp-forward-gold-c0-nonseparable-pressure-row-correction-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-nonseparable-pressure-row-correction-20260708.md) records the correction; [theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-long-chain-endpoint-handoff-live-edge-20260708.md) now states the endpoint trichotomy as own pressure row persists, parent-row relay, or not Part. The fixed-sphere computation [theorem-construction/mpp-forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-fixed-sphere-odd-pressure-current-nullspace-test-20260708.md) is support: it proves row visibility at the affine sphere, not \(c_0\). The finite extension is [theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-pressure-row-adjoint-range-test-20260708.md): retained \(w=q+\eta\) now reduces to combined-row persistence. The same note proves `AffineFullMaterialFrameRowCertificate.A`: every affine skew frame motion is seen by the pressure row plus the same-record spin and strain-pattern turnover rows. The retained-row passage proof attempt is now [theorem-construction/mpp-forward-gold-c0-retained-row-passage-graph-closedness-obstruction-20260708.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-retained-row-passage-graph-closedness-obstruction-20260708.md): the exact-cone pressure row and affine rigid-frame nulls are consumer-paid after material stationarity, and the missing theorem is `RetainedVPIRecordGraphClosednessOrTypedRouteOut.A`. A zero-row-defect retained sequence must either pass the pressure source, material-frame rows, and positive VPI record through the critical limit, or expose the lost row as payment, parent/source relay, Field/nonparticipation, or a Part/Field presentation of VPI nonparticipation. The live retained-branch burdens are `RetainedFullMaterialFrameRowAdmission.A`, `RetainedCombinedRowAdjointRangePersistence.A`, `NoSilentPressureRowDropping.A` / `ZPF.21a`, and `RelayEndpointMaterialTimeLiouville.A`, plus arbitrary-original-data admission into the retained branch or a negative-side participation-loss presentation. Conditional strict accounting remains support after those row/relay lines are supplied.
+- Owned half-tail negative-side classification support: [theorem-construction/mpp-forward-gold-c0-owned-half-tail-clay-cm-consumption-20260707.md](/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-clay-cm-consumption-20260707.md) installs the negative-side classification record for the remaining owned fresh half-tail. Once the owned same-edge half-tail is lowered to a terminal source-curve atom and promoted as the terminal obstruction of a Clay-admissible finite breakdown, same-history VPI audit admission is supplied by the Clay terminal witness / canonical packet-capture surfaces, and the atom routes to `not Part_{N,Q}` or `forall r>0 not Field_{N,r,Q}`. This completes the negative-side participation-loss classification branch only; it does not prove WLF.60 / ODP.91, `ParentOwnedPositiveRecordBillCurrency.A`, or the forward-Gold bill theorem from arbitrary original data.
+- Return-fibre before-clipping admission direct test: [theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-return-fibre-before-clipping-admission-direct-test-20260707.md) turns the selected-return part of the first-ratio bill wall into a concrete admission test. If every retained selected return interval is already a bounded-overlap fibre of the parent active measure before clipping, with inverse-weight mass dominated by the same before-clipping selected density, the existing inverse-weight and entropy reductions give the bill branch. Failure routes to same-edge custody/legal/stop, recount/finite-menu failure, active-density comparison failure, full-exchange source failure, terminal no-residue failure, or the installed Part/Field localization of full VPI nonparticipation after a same-history participation audit. This is still strict reduction: the before-clipping parent active-density/full-exchange construction from arbitrary original data remains open.
+- Full-tower positive-channel same-carrier/log-carrier route-out: [theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-log-carrier-routeout-proof-pass-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-full-tower-positive-channel-log-carrier-routeout-proof-pass-20260707.md) completes the current formal branch test for `FullTowerPositiveChannelThreeMeasureAdmission.A`. A parent-known raw signed tower-record event owns \((\mu^A,\mu^N,\mu^J)\) by Hahn-Jordan on the same event carrier. A selected positive-baseline child becomes spendable bill only when it is also a before-clipping parent-root log-carrier with stopped BMO/full-exchange/no-residue/return-fibre admission; the log-carrier part is an exact Radon-Nikodym chain rule on the same parent active fibre. Zero-baseline child mass is native first-entry material, paid by entry/full-exchange packing or routed through terminal no-residue / Part/Field localization of full VPI nonparticipation after a same-history participation audit. This is still strict reduction: WLF.60/ODP.91 or the equivalent active-transit/full-exchange storage on the same order-locked carrier remains open from arbitrary original data.
+- Owned half-tail Bill-face classification: [theorem-construction/mpp-forward-gold-c0-owned-half-tail-bill-face-classification-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-owned-half-tail-bill-face-classification-20260707.md) classifies the last owned same-edge no-recount half-tail as a first-ratio Bill-face debt certificate on the same carrier. Finite first-ratio demand is paid Bill; infinite demand is unpaid Bill, not an untyped survivor and not a participation loss without a separate same-history VPI mechanism; Pack remains outside CM. This completes the current route taxonomy only; WLF.60/ODP.91 or the active-transit/full-exchange matrix remains open from arbitrary original data.
+- First-ratio Bill finiteness or typed exit: [theorem-construction/mpp-forward-gold-c0-first-ratio-bill-finiteness-or-typed-exit-20260707.md](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/theorem-construction/mpp-forward-gold-c0-first-ratio-bill-finiteness-or-typed-exit-20260707.md) gives the exact conditional proof of \(B_{fr}<\infty\) on the same order-locked carrier. The stopped affine-transition route is `PredictableWeightedStoppedAffineTransitionMartingale.A + PersistentAffineQuotientRecordReturnProducer.A + same-carrier residual routing => B_fr < infinity or legal/stop/typed exit`; the direct route is the record-admitted `StrictOriginalLedgerGeneratorStorage.A / FullExchangeCriticalDepletionStorage.A` matrix with feedback spectral radius below one. Failure of carrier, stopping, selector, chart, residual, or post-hoc primitive-channel clauses routes to custody/legal/stop/service; retained infinite Bill becomes Part/Field only after same-witness terminal/participation/field admission. This is a conditional proof and strict reduction inside the auxiliary Gold route: its local original-data producer remains open without reopening the established direct compatible-intersection proof.
 - Same-edge half-barrier correction: the newest direct proof pass sharpens the repeated-core input from stopped potential-average consumer language to the original-history producer `SameEdgePotentialRecordRootBound.A`, together with `SameEdgePrimitiveSignedScalePotentialLift.A` and `SameEdgeNegativeScaleReturnCharge.A`. The other branch is `SameEdgeEscapingCoreCapacityPacking.A`; together these four open PDE inputs imply `OriginalHistorySameEdgeStrictHalfBarrierOrTypedExit.A` as a strict reduction, not c0 closure.
 - Gold transition-derivative collapse: the repeated-core return charge and shrinking-core reset charge both consume `OriginalHistoryTransitionDerivativeCarleson.A`; that transition derivative is the projection \(G_P^{tr}=\Pi_P^{tr}G_P^{root}\) of the original parent root generator. Stopped accretive testing, native-birth packing, positive critical transfer, and dyadic no-free-upcascade are coordinates only until they build the same record-admitted `StrictOriginalLedgerGeneratorStorage.A` / `FullExchangeCriticalDepletionStorage.A` carrier before readout.
 - Gold compactness/no-arbitrage form: the current lower proof route for the record-admitted carrier is `RecordAdmittedFullExchangeCriticalCompactness.A + ZeroCostRecordCriticalNoArbitrageRigidity.A + RecordAdmissionClosedness.A =>` record-admitted `SameParentCriticalDepletionNoZeno.A`. `SameEdgeNoDetachmentModulus.A` is the physical custody condition: the retained signed-height edge must stay parent-addressed, chart-licensed, paid, and admitted through the compactness limit. That condition is now split into selector label modulus / finite parent-known menu before stopped-score support, low-pass spatial Bernstein plus chart-payer temporal admission/bill-currency plus higher-projector service for exact-projector chart license, the existing selected-critical full-packet payment, and admitted-face lower semicontinuity. These are simultaneous coordinates of one retained edge before readout, not detachable support facts. Inside the selector split, material selector motion is only a same-local-jet/material-cotangent pass case, tie/drift is post-hoc label-switch charge, and the order-lock partner gap is the selected-density half-tail / retained full-packet overlap payment in another coordinate. Heat-scale return is not a sibling producer: endpoint UI/no-free Zeno, Body-IV material-record retention, heat-scale return terminal AC, metric stretch, and same-carrier unweighted strain-action reserve are readouts of one `UniformSameMaterialTerminalClock.A`, whose current c0 representative is the moving low-high pressure/strain pump / stopped primitive PLS strict half-barrier after `RetainedRecordEdgePrimitivePLSDriverAdmission.A`. The admission bridge itself now collapses: pressure-active/silent service returns to the detector-silent strict half-barrier, common-selector refinement returns to parent-announced selector capture, primitive-channel compatibility returns to selector/projector angle-lock-or-paid-rotation, and paid rotation consumes the pre-entrance selected-critical fresh-source / scale-memory payment. The nonduplicate entrance producers are selector capture, retained exact-projector chart-payer temporal admission into bill-currency, and pre-readout selected-critical original-history payment now read as moving low-high driver three-measure admission or a direct original-data subcritical active/root face. In WLF/ODP coordinates, same-parent origin/no-recount/raw Bessel/local first-admission support still leaves the persistent affine quotient `ODP.160` / `ODP.125` on the order-locked full-packet selected carrier, whose immediate proof object is `PredictableActiveWeightTransitionCarleson.A + StoppedAffineTransitionLiftedMartingaleDifference.A` before scalar positive readout; downstream record-admitted active/full-exchange storage is not an entrance payment. The chart-payer row is not removed by the detector-silent collapse, because it keeps the pressure/root read attached to the same edge before record readout.
@@ -1402,7 +1416,7 @@ Clean labels:
 - Gold no-Zeno branch: the state-deletion law is now read as record-admitted `SameParentCriticalDepletionNoZeno.A` / `SameParentCriticalGoodLambdaTail.A`. The good-lambda summation is a consumer after \(\theta<1/2\) and weighted-summable paid errors are proved. The old root-fixed affine/faster-than-heat wording has been lowered to the parent-known full-exchange critical ledger / strict parent-measured tail-storage law, `FullExchangeCriticalDepletionStorage.A` / `TFE2426` or `TFE2470`. The TFE2748B audit opens that ledger into one simultaneous active-critical/full-exchange/active-transit coupled storage matrix: critical source storage, finite capacitary excess, parent active-potential capacity, and active-transit/full-exchange storage are coordinate readings of the same object, with proof requiring feedback spectral radius below one or the isolated WLF.60 / ODP.91 original-data early-row face. Duhamel-Hodge pullback, early-fibre admission, retained heat gap, bounded retained pullback, transition-derivative, selected-meter/testing defect, compactness wrappers, and component rigidity are support or coordinate projections unless they construct that record-admitted original-data matrix with the signed-height record edge still admitted before readout.
 - Absorbed or demoted Gold surfaces: positive-part selection, selected `L^1` counting, freestanding active capacity, detached root payment, storage after choosing a payer, raw capacity, raw atomization, scalar BV, chamber-level return, fixed-chart formulas, primitive material channelization, raw active-state first address, stopped common-selector admission, pre-return face-address ownership, same-face return budget, return first-face address, finite return multiplicity, selected-return no-duplication, full-output Schur, selected-density/log-density, order-lock, four-body, and detached parent active-potential/full-exchange estimates are support, strict reductions, or checked obstructions unless they attach to the same pre-readout signed-height record packet.
 - Primitive descent status: the lower labels now test one event-ownership and pre-readout boundary-charge problem, not sibling frontiers. A primitive signed-channel event must have same-material carrier support, a stopped common-selector chamber, chart/projector and detector/channel ownership, a pre-return face trace, and the same selected-root payment key before same-face return or selected-return no-duplication is allowed to count. Carrier escape, coordinate failure, first-difference overlap, pre-return address change, and parent-currency off-face service are five readings of the same first-boundary charge inside \(\Gamma_{\rm pre}^{addr}\); the off-face reading currently lands on the active-potential/full-exchange storage wall, not a separate boundary theorem.
-- Silver status: unchanged by this Gold consolidation. Silver remains the same-object obstruction-exclusion lane through the terminal-witness / Part-Field / `Exit(Q):=not Member(Q)` chain, with Gold openness and Silver face landings kept separate.
+- Silver status: closed independently of this Gold consolidation by `not Smooth(Q) => not Member(Q) => not VPIParticipation(Q)` and direct contraposition. Part/Field landings only present the negative-side participation loss; `Exit(Q):=not Member(Q)` alone is not the proof.
 - Legacy sidecar hygiene: periodic, `Q(t)`, monotone-functional, cascade-localization, source-wall, positive-supplier, export, ontic, Marvin, Hodge, and projected-flow material is support unless a checked bridge lands the exact claim in this Gold package or in the Silver witness tree.
 
 ## Do Not Collapse

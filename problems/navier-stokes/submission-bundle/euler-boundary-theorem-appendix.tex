@@ -1,125 +1,40 @@
-\section{Selected-Packet Euler Boundary Theorem}
+\section{Euler and Other PDEs as Departure Readings}
 
-This appendix records the only Euler material used by the Navier--Stokes
-submission.  Euler enters as a boundary reading of the same selected terminal
-packet after the Navier--Stokes class test has already named the packet and its
-first Part or Field face.  Its proof role is comparison after the
-selected packet has already been typed.
+Euler is not a second Silver root and is never used by starting from Euler and
+working backward.  Begin with the same smooth-data, fixed-viscosity
+Navier--Stokes history and carry that object to the candidate departure.  The
+only Silver question is whether the object has left its original full VPI
+participation.
 
-\begin{definition}[Base Euler boundary reading]
-For a selected terminal packet \(Q\), write
+If the forward limit from Navier--Stokes actually removes the viscous term and
+leaves no Reynolds stress, forcing, source, pressure, incompressibility,
+compactness, or ancestry defect, then that same departure is governed by
+Euler.  If one of those residuals survives, the honest limiting equation is
+the corresponding Euler--Reynolds, Navier--Stokes--Reynolds, forced, or defect
+law.  If the viscous coefficient remains positive and the entire same-history
+VPI structure remains intact, no Euler departure has occurred.
+
+These alternatives do not enlarge the logic of Silver.  Each successful
+law-identification theorem says only how the original participation was lost.
+Together with Dead, Blown, Jump, Part, and Field, they exhaust the negative
+side
 \[
-  \Member_E(Q):=\mathrm{EVol}_Q(u)\wedge \mathrm{EMom}_Q(u,p).
+  \neg\operatorname{Smooth}(Q)
+  \Longrightarrow
+  \neg\Member(Q)
+  \Longrightarrow
+  \neg\operatorname{VPIParticipation}(Q).
 \]
-Here \(\mathrm{EVol}_Q\) means incompressible flux-volume readability on
-\(Q\), and \(\mathrm{EMom}_Q\) means weak inviscid momentum-pressure
-readability on the same packet.  This base Euler reading consists of that
-volume-momentum pair; fixed-viscosity Navier--Stokes participation and
-positive-scale Navier--Stokes Field coherence are stronger predicates.
-\end{definition}
-
-\begin{definition}[Clean selected-packet Euler boundary]
-A selected Navier--Stokes terminal packet \(Q\) is in the clean Euler boundary
-case at depth \(N\) when:
-\begin{enumerate}
-\item \(Q\) is the exact packet already selected by the Navier--Stokes terminal
-      claim.
-\item \(Q\) retains enough carrier information to give the flux-volume
-      reading \(\mathrm{EVol}_Q\).
-\item \(\mathrm{EVol}_Q(u)\wedge\mathrm{EMom}_Q(u,p)\) holds on \(Q\).
-\item The Navier--Stokes failure under discussion is exactly loss of
-      fixed-viscosity participation or loss of positive-scale one-field
-      coherence.  Reynolds stress, source measure, pressure-source residue,
-      concentration residue, oscillation defect, and compactness gap payments
-      have all been settled on the same packet.
-\end{enumerate}
-\end{definition}
-
-\begin{theorem}[Clean Part face has an Euler boundary reading]
-Assume \(Q\) is in the clean Euler boundary case and the first
-Navier--Stokes face lost after Pack is
+The Silver conclusion is its contrapositive:
 \[
-  \neg\Part_{N,Q}.
+  \operatorname{VPIParticipation}(Q)
+  \Longrightarrow
+  \Member(Q)
+  \Longrightarrow
+  \operatorname{Smooth}(Q).
 \]
-Then the selected packet gives the Navier--Stokes class-exit conclusion
-\[
-  \Exit(Q;\Owork)
-\]
-through the Part face, and the same packet has the base Euler reading
-\[
-  \Member_E(Q).
-\]
-\end{theorem}
 
-\begin{proof}
-The Navier--Stokes conclusion is the Pack-out-of-CM audited CM conclusion on the selected
-record.  Pack has survived, and \(\neg\Part_{N,Q}\) says that the packet no
-longer carries the same differentiated pressure-viscosity-incompressibility
-participation law through depth \(N\).  Since that participation law is one
-requirement in \(\Member(Q;\Owork)\), the first failed face yields
-\(\Exit(Q;\Owork)\).
-
-The Euler conclusion is separate and weaker.  The clean boundary hypotheses
-state that the same selected packet still has the incompressible volume reading
-and weak inviscid momentum-pressure reading.  That conjunction is exactly
-\(\Member_E(Q)\).  This records the clean Part-side case where a
-Navier--Stokes exit also has a base Euler boundary reading.
-\end{proof}
-
-\begin{theorem}[Clean Field face has an Euler boundary reading]
-Assume \(Q\) is in the clean Euler boundary case, \(\Pack_Q\) and
-\(\Part_{N,Q}\) survive for the branch split, and the first remaining
-Navier--Stokes face lost is
-\[
-  \Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}.
-\]
-Then the selected packet gives \(\Exit(Q;\Owork)\) through the Field face,
-and the same packet has the base Euler reading \(\Member_E(Q)\).
-\end{theorem}
-
-\begin{proof}
-After Pack and Part survive, the remaining Navier--Stokes membership
-requirement is a positive-scale coherent Field record.  The hypothesis
-\(\forall r>0\,\neg\Field_{N,r,Q}\) removes every positive-scale
-Navier--Stokes Field record on \(Q\).  That is the first failed face of
-\(\Member(Q;\Owork)\), so it yields \(\Exit(Q;\Owork)\).
-
-The base Euler reading requires the flux-volume and inviscid momentum-pressure
-readings already included in the clean boundary hypotheses.  Hence the same
-packet may leave the fixed-viscosity Navier--Stokes class through Field while
-still having the base Euler boundary reading.
-\end{proof}
-
-\begin{center}
-\small
-\setlength{\tabcolsep}{2.5pt}
-\renewcommand{\arraystretch}{1.16}
-\begin{tabular}{L{0.30\linewidth}L{0.30\linewidth}L{0.30\linewidth}}
-\textbf{Terminal surface} & \textbf{Navier--Stokes role} & \textbf{Euler role}\\
-\hline
-Clean Part face after carrier-window support is present & \(\neg\Part_{N,Q}\) &
-base boundary reading \(\Member_E(Q)\)\\
-Clean Field face after Pack and Part survive &
-\(\Part_{N,Q}\wedge\forall r>0\,\neg\Field_{N,r,Q}\) &
-base boundary reading \(\Member_E(Q)\)\\
-Pack failure, detached ancestry, raw source residue, pressure-source residue,
-Reynolds-stress limit, or oscillation defect & first repair is still native
-Part/Field payment & native CM role until the same packet is cleanly typed\\
-Smooth-side comparison & intuition or boundary comparison &
-smooth-side comparison context\\
-\end{tabular}
-\end{center}
-
-The table keeps endpoint names tied to their selected-packet proof role.  An
-Euler boundary branch has three payments: the same packet has already been
-selected inside the Navier--Stokes terminal test, the Navier--Stokes face is
-Part or Field in the clean sense above, and the base Euler volume-momentum
-reading is still present.
-
-\begin{corollary}[Euler retention rule]
-The manuscript may keep Euler material in two roles.  The first role is the
-selected-packet boundary reading proved above.  The second role is smooth-side
-comparison, used only as context for explaining why the fixed-viscosity
-Navier--Stokes class is stricter than the base inviscid boundary reading.  All
-Euler material in this manuscript serves one of those two comparison roles.
-\end{corollary}
+A weak record that merely satisfies Navier--Stokes distributionally is not by
+that fact a full VPI participant: full participation retains the same material
+history and coherent field realization as well as the equation.  Hence weak
+fixed-viscosity solvability creates no additional nonsmooth-participant branch.
