@@ -70,25 +70,9 @@ inside one response row, and they give opposite conclusions.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
-The first rectangle that reaches the critical endpoint is \(\cR_{0,1}\).
-It gives
-\begin{equation}\label{eq:LowRectangleZeroOne}
-  u\in L^2(I_*;H^2),
-  \qquad
-  u_t\in L^2(I_*;L^2),
-  \qquad
-  u\in C([0,T_*];H^1).
-\end{equation}
-Hence
-\begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
-  \sup_{0\leq t\leq T_*}\norm{u(t)}_3
-  \leq C\sup_{0\leq t\leq T_*}\norm{u(t)}_{H^1}
-  <\infty.
-\end{equation}
-This is the same \(L^3\) norm that a finite maximal time forced to escape in \eqref{eq:FiniteTimeLThreeEscape}.
-The lowest critical projection of the intersection already blocks that escape.
-
-It also gives the critical height a finite roof:
+The same (H^1) trace does more than block the (L^3) escape.  Since
+(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2), it puts a finite roof over the entire
+first-passage construction:
 \begin{equation}\label{eq:BodyCriticalHeightRoof}
   H_{\max}
   :=\sup_{0\leq t\leq T_*}H(t)
@@ -109,7 +93,8 @@ If \(N_{\mathrm{levels}}\) denotes the number reached, then
 No estimate on the duration of an individual crossing is needed.
 The infinite Zeno ladder fails because the height cannot cross beyond a finite roof.
 
-The next low rectangle, \(\cR_{0,2}\), records the critical-height dynamics as well as its ceiling:
+The next low rectangle, \(\cR_{0,2}\), controls how the height moves beneath that
+roof:
 \begin{equation}\label{eq:LowRectangleZeroTwo}
   u\in L^2(I_*;H^3),
   \qquad
@@ -117,13 +102,20 @@ The next low rectangle, \(\cR_{0,2}\), records the critical-height dynamics as w
   \qquad
   u\in C([0,T_*];H^2).
 \end{equation}
-The first two memberships give
+Indeed,
 \[
   H'(t)
   =\operatorname{Re}
-  \pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2}
-  \in L^1(I_*).
+  \pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2},
 \]
+and Cauchy--Schwarz in time gives
+\begin{equation}\label{eq:CriticalHeightTotalVariationBound}
+  \int_0^{T_*}|H'(t)|\,dt
+  \leq
+  \norm{\Lambda^{1/2}u}_{L^2_tL^2_x}
+  \norm{\Lambda^{1/2}u_t}_{L^2_tL^2_x}
+  <\infty.
+\end{equation}
 Also \(E_{3/2}\in L^1(I_*)\), so the first completed row
 \[
   \mathcal P_{1/2}=H'+2\nu E_{3/2}
@@ -131,7 +123,15 @@ Also \(E_{3/2}\in L^1(I_*)\), so the first completed row
 shows that the signed critical production is integrable on the whole candidate interval.
 The height can rise and fall sharply, but it cannot accumulate an infinite net rise before \(T_*\).
 
-Sobolev embedding gives the finite stretching action
+The vortex sees the same rectangle in a more physical norm.  In three dimensions,
+(H^3\hookrightarrow W^{1,\infty}), and hence
+\[
+  \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt
+  \leq
+  T_*^{1/2}\norm{u}_{L^2(I_*;H^3)}<\infty.
+\]
+Since (\omega=\nabla\times u) and (S=\tfrac12(\nabla u+\nabla u^{\mathsf T})),
+we obtain the full finite stretching action
 \begin{equation}\label{eq:FiniteLipschitzVorticityStrainAction}
   \int_0^{T_*}
   \left(
