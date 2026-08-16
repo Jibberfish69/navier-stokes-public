@@ -1,0 +1,123 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 3.3 The Critical Height at the Terminal Face
+% ============================================================
+\subsection{The Critical Height at the Terminal Face}\label{sub:TheCriticalHeightAtTheTerminalFace}
+
+A finite singular endpoint would have to break the joined derivative structure of this same field.
+The first concrete terminal readout is the critical height carried by the adjacent spatial rows.
+The adjacent trace mechanism carries that readout to \(T_*\).
+
+\begin{lemma}[Adjacent Hilbert-scale trace]\label{lem:AdjacentHilbertScaleTrace}
+Let \(s\in\R\), and let \(v\) satisfy
+\[
+  v\in L^2(I_*;H^{s+1}),
+  \qquad
+  v_t\in L^2(I_*;H^{s-1}).
+\]
+Then \(v\) has a unique representative in \(C([0,T_*];H^s)\).
+For \(0\leq a\leq b\leq T_*\), this representative satisfies
+\begin{equation}\label{eq:AdjacentHilbertScaleEstimate}
+  \left|
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(a,b;H^{s-1})}
+  \norm{v}_{L^2(a,b;H^{s+1})}.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Put \(A=(1-\Delta)^{1/2}\).
+Time mollification and Fourier truncation first give, for smooth approximants,
+\begin{equation}\label{eq:AdjacentHilbertScaleIdentity}
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  =
+  2\operatorname{Re}\int_a^b
+  \pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}
+  \,dt.
+\end{equation}
+Cauchy's inequality gives \eqref{eq:AdjacentHilbertScaleEstimate} for the approximants.
+The two assumed \(L^2\) norms let the approximants converge in the right side of \eqref{eq:AdjacentHilbertScaleIdentity}.
+The resulting identity makes the \(H^s\) norm continuous, while the same approximation gives weak \(H^s\) continuity.
+Weak continuity together with norm continuity gives strong \(H^s\) continuity.
+Two continuous representatives that agree almost everywhere agree everywhere, which proves uniqueness.
+\end{proof}
+
+The critical readout uses only the rectangle \(\cR_{0,2}[u_0]\).
+That rectangle supplies \(u\in L^2(I_*;H^3)\) and \(u_t\in L^2(I_*;H^1)\), hence
+\begin{equation}\label{eq:SectionThreeCriticalAdjacentPair}
+  u\in L^2(I_*;H^{5/2}),
+  \qquad
+  u_t\in L^2(I_*;H^{1/2}).
+\end{equation}
+The fractional pair follows from the continuous inhomogeneous Sobolev embeddings, so no fractional-index rectangle is being assumed.
+Applying the adjacent trace lemma with \(s=3/2\) gives
+\begin{equation}\label{eq:SectionThreeCriticalVelocityTrace}
+  u\in C([0,T_*];H^{3/2}).
+\end{equation}
+
+Let \(H(t)=E_{1/2}(t)\), with \(E_s\) defined in \eqref{eq:SectionThreeSpatialEnergy}.
+The homogeneous identity needed here follows directly on the critical pair.
+Apply time mollification together with Fourier multipliers that truncate to
+\(\varepsilon\leq|\xi|\leq R\).
+For the resulting smooth, frequency-localized functions, differentiation and Plancherel's theorem give
+\[
+  \frac{1}{2}\norm{\Lambda^{3/2}u(b)}_{L^2}^{2}
+  -\frac{1}{2}\norm{\Lambda^{3/2}u(a)}_{L^2}^{2}
+  =
+  \operatorname{Re}\int_a^b
+  \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
+  \,dt.
+\]
+The two memberships in \eqref{eq:SectionThreeCriticalAdjacentPair} give convergence of the integral by Cauchy's inequality.
+The continuity in \eqref{eq:SectionThreeCriticalVelocityTrace} gives convergence of the endpoint terms as \(\varepsilon\downarrow0\), \(R\uparrow\infty\), and the time mollifier is removed.
+Consequently, for \(0\leq a\leq b\leq T_*\),
+\[
+  E_{3/2}(b)-E_{3/2}(a)
+  =
+  \operatorname{Re}\int_a^b
+  \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
+  \,dt.
+\]
+The pair in \eqref{eq:SectionThreeCriticalAdjacentPair} places the integrand in \(L^1(I_*)\).
+Equation \eqref{eq:SectionThreeAllSpatialEnergies} supplies \(E_{3/2}\in L^1(I_*)\).
+Thus
+\begin{equation}\label{eq:SectionThreeCriticalEnergyRegularity}
+  E_{3/2}\in W^{1,1}(I_*)\cap L^1(I_*)
+  \subset L^\infty(I_*).
+\end{equation}
+
+The stronger integer rows \(u,u_t\in L^2(I_*;H^1)\) give
+\begin{equation}\label{eq:SectionThreeCriticalHeightDerivative}
+  H'(t)
+  =\pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2}
+  \in L^1(I_*).
+\end{equation}
+The pressure-explicit critical production current is
+\[
+  \mathcal P_{1/2}
+  :=
+  -\operatorname{Re}
+  \pair{\Lambda^{1/2}u}
+  {\Lambda^{1/2}\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+Pairing the original equation with \(\Lambda u\) yields the exact balance
+\[
+  H'=-2\nu E_{3/2}+\mathcal P_{1/2}.
+\]
+Equations \eqref{eq:SectionThreeCriticalEnergyRegularity} and \eqref{eq:SectionThreeCriticalHeightDerivative} now give
+\[
+  H\in W^{1,1}(I_*),
+  \qquad
+  E_{3/2}\in L^\infty(I_*)\cap L^1(I_*),
+  \qquad
+  \mathcal P_{1/2}\in L^1(I_*).
+\]
+Thus the critical height and the \(E_{3/2}\) energy both reach the terminal face with continuous representatives.
+The pressure-explicit production current remains an integrable time-current.
+No endpoint value is assigned to that current.
+This single rectangle settles the critical readout.
+The whole tower supplies the further endpoint needed for restart.

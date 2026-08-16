@@ -1,0 +1,85 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 3.2 The Compatible Intersection
+% ============================================================
+\subsection{The Compatible Intersection}\label{sub:TheCompatibleIntersection}
+
+For each finite pair \((N,M)\), the whole-terminal estimate gives one rectangle on \(I_*\).
+A larger rectangle already contains every coordinate of a smaller one.
+All rectangles are made from distributional derivatives of the same \(u\), so their shared coordinates agree before any limit is taken.
+This compatibility is the formal passage from the tower to the intersection.
+Order the finite pairs \((N,M)\) coordinatewise and use the whole-terminal bonding maps from \eqref{eq:WholeTerminalRectangleCompatibility}.
+Their inverse-limit record set is
+\[
+  \mathscr X_\infty(I_*)
+  :=
+  \varprojlim_{N,M}\mathscr X_{N,M}(I_*).
+\]
+A family \((\mathbf R_{N,M})_{N,M}\) belongs to this set exactly when \(\mathbf R_{N,M}\in\mathscr X_{N,M}(I_*)\) for every finite pair and
+\[
+  \rho_{N',M';I_*}^{N,M;I_*}(\mathbf R_{N,M})
+  =\mathbf R_{N',M'}
+\]
+whenever \(N'\leq N\) and \(M'\leq M\).
+
+\begin{proposition}[Compatible projective assembly]\label{prop:CompatibleProjectiveAssembly}
+The terminal rectangles determine the datum-specific inverse-limit element
+\[
+  \cI[u_0]
+  :=
+  \bigl(\cR_{N,M}[u_0]\bigr)_{N,M}.
+\]
+This family belongs to \(\mathscr X_\infty(I_*)\).
+Its velocity realization is the same distribution \(u\) in every coordinate and satisfies
+\begin{equation}\label{eq:SectionThreeMixedAmbientSpace}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I_*;H^m(\R^3)).
+\end{equation}
+Every coordinate projection commutes with every restriction map.
+\end{proposition}
+
+\begin{proof}
+Fix finite \(r,m\in\Nzero\).
+Choose \(N\geq r\) and \(M\geq m\).
+The rectangle \(\cR_{N,M}[u_0]\) supplies
+\[
+  \partial_t^n u\in L^2(I_*;H^{M+1})
+  \hookrightarrow L^2(I_*;H^m)
+  \qquad(0\leq n\leq r).
+\]
+These are the distributional time derivatives of the same velocity field, so \(u\in H^r(I_*;H^m)\).
+The arbitrariness of \(r\) and \(m\) gives \eqref{eq:SectionThreeMixedAmbientSpace}.
+Equation \eqref{eq:WholeTerminalRectangleCompatibility} makes every lower record the projection of every larger record.
+The compatible family thus determines one inverse-limit element with no representative choices to reconcile.
+\end{proof}
+
+Taking the zeroth temporal projection means retaining \(u\) itself while allowing the spatial depth to range through every finite order.
+Define
+\begin{equation}\label{eq:SectionThreeCompleteSpatialRow}
+  \Szero(I_*)
+  :=\bigcap_{m=0}^{\infty}L^2(I_*;H^m(\R^3)).
+\end{equation}
+For each \(m\), the projection selects the velocity coordinate of \(\cR_{0,m}[u_0]\).
+Compatibility says that all of these coordinates are the same \(u\), viewed in different Sobolev spaces.
+Consequently,
+\[
+  \pi_0\bigl(\cI[u_0]\bigr)
+  =u\in\Szero(I_*).
+\]
+
+This projection also contains every finite spatial energy read by the tower.
+For \(\Lambda=(-\Delta)^{1/2}\) and \(s\geq0\), set
+\begin{equation}\label{eq:SectionThreeSpatialEnergy}
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2.
+\end{equation}
+Choosing an integer \(m\geq s\) in \eqref{eq:SectionThreeCompleteSpatialRow} gives
+\begin{equation}\label{eq:SectionThreeAllSpatialEnergies}
+  \int_0^{T_*}E_s(t)\,dt
+  \leq
+  C_{s,m}\norm{u}_{L^2(I_*;H^m)}^2
+  <\infty.
+\end{equation}
+Nothing here sums the Sobolev norms over all orders.
+The construction asks for a finite constant \(C_{N,M}\) only after a finite coordinate has been selected.
