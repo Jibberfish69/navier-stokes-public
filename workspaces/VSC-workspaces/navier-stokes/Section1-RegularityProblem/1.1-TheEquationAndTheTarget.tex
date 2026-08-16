@@ -1,18 +1,18 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-The three-dimensional Navier--Stokes regularity problem asks whether a smooth
-solution can lose its smoothness in finite time.  Fix smooth, divergence-free,
-finite-energy initial data \(u_0\), fix \(\nu>0\), and let \((u,p)\) be the
-corresponding maximal classical solution on \([0,T_*)\)
-\parencite{FujitaKato1964,Kato1984}.  We want to prove that \(T_*\) cannot be
-finite:
+Local theory already gives the motion a beginning.  Fix a smooth,
+divergence-free, finite-energy velocity \(u_0\) and a viscosity \(\nu>0\).
+There is then a unique maximal classical velocity--pressure pair \((u,p)\) on
+an interval \([0,T_*)\) \parencite{FujitaKato1964,Kato1984}.  The regularity
+problem asks whether this interval can have a finite right endpoint.  We shall
+prove that it cannot:
 \begin{equation}\label{eq:GlobalTimeTarget}
   T_*=\infty.
 \end{equation}
 
-Fefferman's formulation of the whole-space Millennium Prize Problem takes
-\(u_0\) to be smooth and divergence-free and imposes a decay estimate on every
-spatial derivative at every polynomial order \parencite{Fefferman2000}.  We
-write this class as
+Fefferman's whole-space formulation rules out any difficulty coming from rough
+initial data or a slowly decaying tail.  Every spatial derivative of \(u_0\)
+must decay faster than every polynomial power \parencite{Fefferman2000}.  Write
+the resulting divergence-free class as
 \begin{equation}\label{eq:FeffermanDatumClass}
   \Ssigma
   :=
@@ -29,11 +29,12 @@ write this class as
   \end{array}
   \right\}.
 \end{equation}
-We take \(u_0\in\Ssigma\).
-Here \(\alpha\) is a spatial multi-index and \(K\) is any prescribed polynomial
-decay order.  The constant \(C_{\alpha,K}\) may change when either one changes.
-Because the estimate holds for every \(K\), the field and each of its spatial
-derivatives decay faster than every polynomial power.
+We take \(u_0\in\Ssigma\).  The quantifiers in
+\eqref{eq:FeffermanDatumClass} matter.  After a spatial derivative \(\alpha\)
+has been chosen, any polynomial decay order \(K\) may be demanded; only the
+constant \(C_{\alpha,K}\) is allowed to change.  Thus the datum arrives with
+every finite derivative and with more decay than any one later estimate will
+need.
 
 For finite \(m\in\Nzero\), write
 \begin{equation}\label{eq:DivergenceFreeSobolevClass}
@@ -43,8 +44,9 @@ For finite \(m\in\Nzero\), write
     v\in H^m(\R^3;\R^3):\nabla\cdot v=0
   \right\}.
 \end{equation}
-Fix \(m\) and choose an integer \(K>3/2\).  For every
-\(|\alpha|\leq m\), the decay estimate gives
+This pointwise condition immediately supplies every finite Sobolev row.  Fix
+\(m\), choose an integer \(K>3/2\), and apply the decay estimate to each
+\(|\alpha|\leq m\):
 \[
   \norm{\partial_x^\alpha u_0}_2^2
   \leq
@@ -52,13 +54,13 @@ Fix \(m\) and choose an integer \(K>3/2\).  For every
   \int_{\R^3}(1+|x|)^{-2K}\,dx
   <\infty.
 \]
-Summing over the finitely many multi-indices with \(|\alpha|\leq m\) gives
+There are only finitely many such multi-indices, so summing gives
 \begin{equation}\label{eq:FeffermanDatumSobolevRows}
   \Ssigma\subset H_\sigma^m(\R^3)
   \qquad\text{for every finite }m.
 \end{equation}
 
-The problem asks for velocity and pressure fields satisfying
+The equation must carry this all-orders datum through time:
 \begin{equation}\label{eq:NavierStokesSystem}
   \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
   \qquad
@@ -67,19 +69,20 @@ The problem asks for velocity and pressure fields satisfying
   u(\cdot,0)=u_0
   \quad\text{on }\R^3.
 \end{equation}
-Taking the divergence of \eqref{eq:NavierStokesSystem} gives
+Incompressibility also fixes the pressure once the velocity is known.  Taking
+the divergence of \eqref{eq:NavierStokesSystem} gives
 \begin{equation}\label{eq:OpeningPressureNormalization}
   -\Delta p=\partial_i\partial_j(u_i u_j).
 \end{equation}
-The decaying whole-space normalization consequently fixes the pressure once
-the velocity is fixed.  The required
-conclusion is
+and the decaying whole-space normalization selects the unique pressure in this
+class.  The required conclusion is therefore the global smoothness of the
+entire pair, together with the finite-energy bound:
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
-Smoothness here includes the endpoint of every finite interval.  It is stronger
-than being smooth on every shorter interval \([0,T]\) with \(T<T_*\), because a
-derivative can remain finite on each such interval and still have no finite
-trace at \(T_*\).
+The endpoint is the whole issue.  Classicality already makes every derivative
+finite on each shorter interval \([0,T]\) with \(T<T_*\).  Those bounds may
+still deteriorate as \(T\uparrow T_*\), leaving no finite trace at the last
+time.  Global regularity requires estimates that survive that approach.
