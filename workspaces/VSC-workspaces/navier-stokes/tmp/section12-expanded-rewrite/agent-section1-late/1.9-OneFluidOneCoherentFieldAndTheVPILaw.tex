@@ -1,0 +1,163 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.9 One Fluid, One Coherent Field, and the VPI Law
+% ============================================================
+\subsection{One Fluid, One Coherent Field, and the VPI Law}\label{sub:OneFluidOneCoherentFieldAndTheVPILaw}
+
+The fluid in the problem statement is one velocity field under one simultaneous constraint.
+Every point and packet is a local portion of that field.
+Every derivative rung records another way that same portion responds.
+The pressure at the point is fixed through the configuration of the whole field, and viscosity relates the point to the spatial curvature in its immediate neighbourhood.
+These relations together are the one-fluid object.
+
+We use \emph{VPI} as shorthand for the joined action of viscosity, pressure, and incompressibility in the velocity law.
+The VPI law is the coupled system
+\[
+  D_tu=-\nabla p+\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0,
+  \qquad
+  -\Delta p=\partial_i\partial_j(u_i u_j).
+\]
+The first relation gives the material response.
+The second states the local volume constraint.
+The third is the elliptic pressure closure forced by that constraint.
+The pressure equation is derived from the first two relations, so it records their coupling and adds no separate fluid property.
+
+This law contains two different spatial reaches at once.
+Transport and viscosity are expressed through derivatives at a location.
+Pressure is obtained by solving an elliptic equation across the domain.
+For a sufficiently decaying field on \(\mathbb R^3\), the latter relation can be written schematically as
+\[
+  p(x)
+  =
+  \operatorname{p.v.}
+  \int_{\mathbb R^3}
+  K_{ij}(x-y)u_i(y)u_j(y)\,dy,
+  \qquad
+  K_{ij}
+  =
+  \partial_i\partial_j
+  \frac{1}{4\pi|\cdot|},
+\]
+up to the usual pressure normalisation.
+The periodic problem has the corresponding mean-zero Green kernel.
+A change far from \(x\) can alter the pressure response at \(x\), even though the viscous term at \(x\) reads local curvature.
+
+\divider{Carrying VPI Through the Tower}
+
+The older and stronger meaning of the VPI law is a mathematical discipline.
+Viscosity, pressure, and incompressibility must stay attached to the same transport row whenever the equation is differentiated, estimated, localised, or tested for failure.
+Isolating one term in an estimate does not give that term an independent evolution.
+
+The \(n\)-th temporal row can be collected into the residual triple
+\[
+  \mathscr R_n[u,p]
+  :=
+  \left(
+    \mathfrak D_n[u,p],
+    \nabla\cdot V_n,
+    -\Delta P_n
+    -
+    \partial_i\partial_j
+    \sum_{k=0}^{n}
+    \binom{n}{k}
+    V_{k,i}V_{n-k,j}
+  \right),
+\]
+where \(\mathfrak D_n\) is the differentiated momentum residual and \(V_n=\partial_t^nu\), \(P_n=\partial_t^np\).
+For a smooth participating Navier--Stokes field,
+\[
+  \mathscr R_n[u,p]=(0,0,0)
+  \qquad
+  \text{for every }n\geq0,
+\]
+and the same vanishing holds after the spatial differentiations needed to read the mixed tower.
+The triple makes the participation test explicit.
+A local momentum identity with the wrong divergence or pressure closure is incomplete, just as a pressure or viscous estimate detached from the velocity row is incomplete.
+
+This point also fixes the role of a large or vanishing scalar quantity.
+A large velocity gradient, a zero acceleration, or a growing Sobolev norm may warn that a particular tower rung is under stress.
+The readout becomes a class-exit witness only when it identifies a failure of the joined field relation at the regularity being claimed.
+The VPI discipline carries the original fluid properties through the calculation until that failure is either found or excluded.
+
+\divider{A Graph of One Field}
+
+Graph language can make the participation geometry visible, provided that the graph keeps the global pressure relation.
+Cover the domain by overlapping patches \(\{B_a\}_{a\in\mathcal V}\).
+For finite derivative depths \(N\) and \(M\), attach to each vertex \(a\) the local record
+\[
+  J_a^{N,M}
+  :=
+  \left\{
+    \left.
+    \partial_t^n\partial_x^\alpha u
+    \right|_{B_a}
+    :
+    0\leq n\leq N,\ 
+    |\alpha|\leq M
+  \right\}.
+\]
+The vertices are local windows into the fluid, and \(J_a^{N,M}\) is the portion of the derivative tower visible on the \(a\)-th patch.
+
+Define a local edge whenever two patches overlap,
+\[
+  \mathcal E_{\mathrm{loc}}
+  :=
+  \left\{
+    (a,b):
+    B_a\cap B_b\neq\varnothing
+  \right\}.
+\]
+Along such an edge, the two local records must agree on their overlap,
+\[
+  \left.
+  J_a^{N,M}
+  \right|_{B_a\cap B_b}
+  =
+  \left.
+  J_b^{N,M}
+  \right|_{B_a\cap B_b}.
+\]
+These edges represent the compatibility needed for one velocity field and the local spatial coupling read by transport and viscosity.
+
+Pressure requires a second relation.
+Let \(\mathcal E_p\) connect patches whose velocity values are coupled by the Green kernel of the pressure equation.
+In a discrete or patchwise approximation, this relation takes the form
+\[
+  p_a
+  =
+  \sum_{b\in\mathcal V}
+  W_{ab}^{ij}
+  (u_i u_j)_b,
+\]
+where \(W_{ab}^{ij}\) is the patchwise representation of the pressure kernel.
+The matrix \(W\) is generally dense, so distant vertices remain related.
+The exact continuum equation remains the governing object; the graph is a representation of its local and nonlocal dependencies.
+
+At any finite depth, the resulting participation graph may be written as
+\[
+  \mathcal G_{N,M}
+  =
+  \left(
+    \mathcal V,
+    \mathcal E_{\mathrm{loc}},
+    \mathcal E_p,
+    \{J_a^{N,M}\}_{a\in\mathcal V}
+  \right).
+\]
+It represents one coherent field only when three conditions hold together.
+Overlapping records agree, every local record satisfies the required differentiated momentum and divergence rows, and every pressure value comes from the same global pressure solve.
+A nearest-neighbour graph can capture overlap and local derivatives.
+It cannot carry incompressible pressure by itself.
+
+The physical picture is now complete.
+One portion of the fluid changes through the velocity field that surrounds it, through viscous curvature nearby, and through the pressure constraint imposed by the whole incompressible field.
+Its acceleration, jerk, and higher derivatives are successive expressions of that same response.
+Restart at a regular time takes a new slice through the object without creating a new object.
+Dead, Jump, and Blown identify ways in which a proposed endpoint can lose lawful response, compatible field value, or finite tower control.
+
+VPI is the rule that keeps all of these statements about the same fluid.
+Gold asks for control strong enough to keep the complete participant smooth.
+Silver asks whether any nonsmooth proposal can still satisfy the complete participation law.
+The two routes meet at the same class boundary because there has only ever been one fixed-viscosity, pressure-coupled, incompressible field.
