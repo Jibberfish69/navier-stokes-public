@@ -1,4 +1,5 @@
 % !TeX root = ../navier-stokes-manuscript.tex
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth velocity can lose its smoothness in finite time.
 Fefferman's whole-space problem fixes \(\nu>0\), starts from a smooth divergence-free
 velocity \(u_0\) on \(\R^3\) whose derivatives decay faster than every power at
 infinity, and asks whether the Navier--Stokes evolution from that datum stays smooth
@@ -37,7 +38,8 @@ The target is the existence of this one pair for every \(t\geq0\), with
 
 Classical local theory gives a unique classical solution on a nonzero interval \parencite{FujitaKato1964,Kato1984}.
 Let \([0,T_*)\), with \(0<T_*\leq\infty\), be its maximal classical interval.
-The global conclusion above is exactly the statement
+If \(T_*<\infty\), the pair remains smooth at every earlier time; breakdown means that this same history cannot be continued through \(T_*\).
+We will prove that no such finite endpoint exists:
 \begin{equation}\label{eq:GlobalTimeTarget}
   T_*=\infty.
 \end{equation}

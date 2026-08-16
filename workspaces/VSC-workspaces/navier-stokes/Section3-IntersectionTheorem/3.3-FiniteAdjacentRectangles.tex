@@ -94,6 +94,11 @@ For any strict cutoff \(T<T_*\), classical smoothness makes every fixed block fi
   \mathfrak R_{N,M}(u;T)<\infty
   \qquad\text{for finite }N,M.
 \end{equation}
-Terminal information asks for one stronger statement.  Once \(N\) and \(M\) have
-been chosen, \(\mathfrak R_{N,M}(u;T)\) has to remain bounded over every
-\(0<T<T_*\).  This is the estimate that carries a finite rectangle to \(T_*\).
+That statement holds for every strict cutoff and still does not give a bound that survives the approach to \(T_*\):
+\[
+  \forall T<T_*,\quad \mathfrak R_{N,M}(u;T)<\infty
+  \quad\not\Longrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\]
+Reaching \(T_*\) requires the quantity on the right to be finite after \(N\) and \(M\) have been chosen.
+That cutoff-independent bound is what carries the rectangle to the endpoint.

@@ -76,6 +76,21 @@ Along that trajectory, the equation gives
 \end{equation}
 Applying \(D_t=\partial_t+u\cdot\nabla\) once more produces \((\partial_t+u\cdot\nabla)(-\nabla p+\nu\Delta u)\).
 The material response already combines time derivatives with spatial derivatives of pressure and velocity.
+Expanding that second material derivative shows the mixing directly:
+\[
+  \begin{aligned}
+  D_t^2u
+  ={}&V_2+(V_1\cdot\nabla)V_0+2(V_0\cdot\nabla)V_1
+  \\
+  &+(V_0\cdot\nabla)\bigl((V_0\cdot\nabla)V_0\bigr).
+  \end{aligned}
+\]
+Even a spatial derivative changes when it passes through \(D_t\):
+\[
+  [D_t,\partial_\ell]f
+  =-(\partial_\ell u\cdot\nabla)f.
+\]
+Powers of \(D_t\) continually mix the two derivative directions.
 
 To keep temporal and spatial indices separate, return to a fixed spatial point.
 At order zero,

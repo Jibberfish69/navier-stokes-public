@@ -81,6 +81,16 @@ Choosing the spatial orders in \eqref{eq:SectionThreeRectangleNorm} proves \eqre
 Restriction preserves the solution and every one of its derivatives, so every shared coordinate agrees.
 \end{proof}
 
+The gap between a strict cutoff and the whole terminal interval is already visible in one scalar function.
+If \(f(t)=(T_*-t)^{-1/2}\), then
+\[
+  f\in L^2(0,T)\quad\text{for every }T<T_*,
+  \qquad
+  f\notin L^2(I_*).
+\]
+This function models only the quantifier and is not a Navier--Stokes history.
+It shows why smoothness on every strict subinterval cannot supply a whole-terminal bound.
+
 The strict-subinterval lemma stops at \(T<T_*\), and its bound may grow as \(T\uparrow T_*\).
 The whole-terminal estimate in Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem}
 supplies a bound independent of the cutoff after \(N\) and \(M\) have been fixed.
@@ -124,6 +134,12 @@ If \(N'\leq N\) and \(M'\leq M\), the terminal restriction map forgets the highe
 \end{equation}
 Every shared coordinate is the corresponding distributional derivative of the same \(u\), and every pressure row uses the normalization in \eqref{eq:SectionThreePressureNormalization}.
 \end{theorem}
+
+Take the rectangle \((N,M)=(2,3)\).
+Its velocity coordinates are \(V_0,V_1,V_2\) in \(L^2(I_*;H^4)\) and \(V_1,V_2,V_3\) in \(L^2(I_*;H^2)\), together with the pressure rows \(Q_0,Q_1,Q_2\) in \(L^1(I_*;H^3)\).
+Restricting this rectangle to \((1,2)\) drops \(V_3\) and \(Q_2\), views \(V_0,V_1\) in \(L^2(I_*;H^3)\) and \(V_1,V_2\) in \(L^2(I_*;H^1)\), and views \(Q_0,Q_1\) in \(L^1(I_*;H^2)\).
+Every retained coordinate is the same distributional derivative, now read in a weaker Sobolev space.
+This is compatibility; the scalar example above concerns the separate question of whether any one coordinate stays finite on the whole terminal interval.
 
 \begin{remark}[Coordinate realization of the whole-terminal estimate]
 Fix \(N,M\).

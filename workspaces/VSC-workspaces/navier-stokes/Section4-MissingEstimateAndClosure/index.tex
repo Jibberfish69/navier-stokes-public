@@ -60,6 +60,19 @@ Since \(T_*\) is finite under the standing contradiction hypothesis,
   \in L^q(I_*;L^p(\R^3))
   \qquad(1\leq q\leq\infty).
 \end{equation}
+The pressure is carried by these same finite coordinates.
+For fixed \(r,m\in\Nzero\), the normalized pressure formula \eqref{eq:BodyTemporalPressureRecurrence} contains a finite sum of products of the rows \(V_0,\ldots,V_r\).
+The adjacent traces place those rows continuously in every finite Sobolev space, so Sobolev multiplication and the Riesz-transform bounds give
+\begin{equation}\label{eq:MasterPressureSobolevCoordinate}
+  \partial_t^rp=Q_r
+  \in C([0,T_*];H^m(\R^3)).
+\end{equation}
+For finite \(k\), \(2\leq p\leq\infty\), and \(1\leq q\leq\infty\), choose \(m>k+\tfrac32-\tfrac3p\).
+The same spatial embedding and the finiteness of \(T_*\) then give
+\begin{equation}\label{eq:MasterFiniteTimePressureEstimate}
+  \nabla^k\partial_t^rp
+  \in L^q(I_*;L^p(\R^3)).
+\end{equation}
 Each requested norm uses one finite rectangle, and the compatible intersection keeps
 these finite coordinates together without replacing them by an all-orders sum.
 Fix \(r\).  The singularity asks \(V_r\) to
