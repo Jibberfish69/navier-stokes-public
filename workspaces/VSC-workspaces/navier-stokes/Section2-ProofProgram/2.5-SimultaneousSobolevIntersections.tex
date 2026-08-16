@@ -131,12 +131,13 @@ The critical quantities are then defined on the closed interval by
 The calculation of critical height led to these spatial levels; the intersection is what controls them at the endpoint.
 
 Pressure is not an element of the velocity intersection.
-It is recovered at every finite depth from the original recurrence
+Write
 \[
   Q_n=\partial_t^np,
 \]
-the differentiated momentum equation, incompressibility, and the pressure Poisson equation at every finite depth.
-The differentiated momentum equation, incompressibility, and the pressure Poisson equation then recover the pressure jet from \(u\) without treating pressure as an element of the velocity space.
+at every finite depth.
+The pressure Poisson equation recovers each \(Q_n\) from the velocity rows, while the differentiated momentum equation keeps \(\nabla Q_n\) coupled to \(V_{n+1}\), viscosity, and transport.
+Thus the pressure jet is recovered from \(u\) without treating pressure as an element of the velocity space.
 
 Each estimate will control one finite block of this intersection.
 The two Sobolev levels needed to produce a common time trace determine the upper and lower edges of that block.
