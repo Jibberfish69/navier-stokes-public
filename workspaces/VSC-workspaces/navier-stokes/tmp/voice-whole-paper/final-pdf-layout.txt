@@ -583,7 +583,7 @@ arrive continuously in H 1 , the natural pair is
                                                          10
 More generally, an H m trace asks for
 
-                          Vr ∈ L2 (I∗ ; H m+1 ),           Vr+1 ∈ L2 (I∗ ; H m−1 ).
+                         Vr ∈ L2 (I∗ ; H m+1 ),           Vr+1 ∈ L2 (I∗ ; H m−1 ).
 
 The two rows meet at the missing middle height. That adjacent pair is the first finite piece
 of the grid with enough information to survive the terminal time.
@@ -591,57 +591,62 @@ of the grid with enough information to survive the terminal time.
 3.3     Why the finite pieces are rectangles
 Take the adjacent pair we just found and calculate what it does. Let A = (1 − ∆)1/2 . For a
 smooth Hilbert-valued function v and 0 ≤ a < b ≤ T ,
-                                                      Z bD                                E
-                ∥v(b)∥2H M − ∥v(a)∥2H M = 2 Re                AM −1 vt (t), AM +1 v(t)             dt.   (3.3.1)
-                                                       a                                      L2
+                                                     Z bD                                E
+                ∥v(b)∥2H M − ∥v(a)∥2H M = 2 Re               AM −1 vt (t), AM +1 v(t)             dt.   (3.3.1)
+                                                      a                                      L2
 
 Cauchy–Schwarz now places the change of the middle norm between its two adjacent space-
 time rows:
                ∥v(b)∥2H M − ∥v(a)∥2H M ≤ 2 ∥vt ∥L2 (a,b;H M −1 ) ∥v∥L2 (a,b;H M +1 ) .
 Consequently,
-                          v ∈ L2 (0, T ; H M +1 ),          vt ∈ L2 (0, T ; H M −1 )                     (3.3.2)
+                         v ∈ L2 (0, T ; H M +1 ),          vt ∈ L2 (0, T ; H M −1 )                     (3.3.2)
 gives
-                                         v ∈ C([0, T ]; H M ).                                           (3.3.3)
+                                        v ∈ C([0, T ]; H M ).                                           (3.3.3)
 Time mollification and Fourier truncation justify (3.3.1) for the pair in (3.3.2); weak H M
 continuity together with continuity of the norm gives the strong representative.
    For M = 2, the pair is already concrete:
 
-             u ∈ L2 (0, T ; H 3 ),     ut ∈ L2 (0, T ; H 1 )         =⇒         u ∈ C([0, T ]; H 2 ).    (3.3.4)
+            u ∈ L2 (0, T ; H 3 ),     ut ∈ L2 (0, T ; H 1 )         =⇒         u ∈ C([0, T ]; H 2 ).    (3.3.4)
 
 The upper row reaches one derivative above the desired endpoint space. The next temporal
 row reaches one derivative below it. Their pairing carries u through the middle.
     Apply this to v = Vn , with vt = Vn+1 . If we want the first N + 1 temporal responses to
 arrive in H M , the required finite block is
-                                               N
-                                                      ∥Vn ∥2L2 (0,T ;H M +1 )
-                                               X
-                            RN,M (u; T ) :=
-                                               n=0
-                                                     N
-                                                                                                         (3.3.5)
-                                                           ∥Vn+1 ∥2L2 (0,T ;H M −1 ) .
-                                                     X
-                                               +
-                                                     n=0
+                                              N
+                                                     ∥Vn ∥2L2 (0,T ;H M +1 )
+                                              X
+                           RN,M (u; T ) :=
+                                              n=0
+                                                    N
+                                                                                                        (3.3.5)
+                                                          ∥Vn+1 ∥2L2 (0,T ;H M −1 ) .
+                                                    X
+                                              +
+                                                    n=0
 
 For M = 0, the lower edge is read in H −1 . Temporal depth N and spatial height M remain
 independent.
-   For example, (N, M ) = (1, 2) contains two overlapping trace pairs:
+
+
+
+
+                                                     11
+   For example, (N, M ) = (1, 2) contains two overlapping trace pairs:
 
 Table 3.3.1: The rectangle R1,2 . The row V1 is shared: it is the time derivative used to trace
 V0 , and it is also the next response whose own trace is paired with V2 .
+                       temporal row         one step above           one step below
 
-                                                      11
-                       temporal row          one step above              one step below
-
-                           n=0               V0 = u ∈ L2 H 3            V1 = ut ∈ L2 H 1
-                           n=1               V1 = ut ∈ L2 H 3           V2 = utt ∈ L2 H 1
+                           n=0              V0 = u ∈ L2 H 3         V1 = ut ∈ L2 H 1
+                           n=1              V1 = ut ∈ L2 H 3        V2 = utt ∈ L2 H 1
 
    Write RN,M [u0 ; T ] for this finite pressure-complete block of the mixed jet: the velocity co-
 ordinates measured by (3.3.5), together with the corresponding Qn -coordinates reconstructed
 by (2.4.3). Every entry is still a derivative of the one history generated from u0 .
    For any strict cutoff T < T∗ , classical smoothness makes every fixed block finite:
-                                  RN,M (u; T ) < ∞              for finite N, M.                         (3.3.6)
+
+                                  RN,M (u; T ) < ∞          for finite N, M.                 (3.3.6)
+
 That is not enough. The norm may grow without bound as T ↑ T∗ . Once N and M have
 been chosen, the same constant has to control (3.3.5) for every strict cutoff. This is the
 estimate that turns a finite rectangle into terminal information.
@@ -650,52 +655,60 @@ estimate that turns a finite rectangle into terminal information.
 Theorem 3.4.1 (Datum-generated whole-terminal rectangles). Let u0 ∈ Sσ , let ν > 0, and
 let (u, p) be the maximal classical solution generated by (u0 , ν) on [0, T∗ ). If T∗ < ∞, then
 for every finite N, M ∈ N0 ,
-                              sup RN,M (u; T ) ≤ CN,M (u0 , ν, T∗ ) < ∞.                                 (3.4.1)
+
+                             sup RN,M (u; T ) ≤ CN,M (u0 , ν, T∗ ) < ∞.                      (3.4.1)
                            0<T <T∗
 
 The constant may depend on the selected depths N and M , but not on the cutoff T . The
 associated pressure rows are generated by (2.3.11) and use the fixed decaying normalization.
    Fix N and M . The integrands in (3.3.5) are nonnegative, so monotone convergence as
 T ↑ T∗ gives
-        Vn ∈ L2 (I∗ ; H M +1 ),        Vn+1 = ∂t Vn ∈ L2 (I∗ ; H M −1 ),               0 ≤ n ≤ N.        (3.4.2)
+
+        Vn ∈ L2 (I∗ ; H M +1 ),        Vn+1 = ∂t Vn ∈ L2 (I∗ ; H M −1 ),        0 ≤ n ≤ N.   (3.4.2)
+
 The pressure recurrence, Riesz-transform bounds, and finite-order Sobolev products give the
 corresponding finite pressure coordinates
-                                   Qn ∈ L1 (I∗ ; H M ),             0 ≤ n ≤ N.                           (3.4.3)
+
+                                   Qn ∈ L1 (I∗ ; H M ),        0 ≤ n ≤ N.                    (3.4.3)
+
     Choose a larger pair (N, M ) and then forget its higher rows or lower its Sobolev height.
 The derivatives that remain are literally the derivatives already present in the smaller block.
 If N ′ ≤ N and M ′ ≤ M , denote this restriction by ρN,M
                                                       N ′ ,M ′ . Then
 
+
                                      ρN,M
-                                      N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                             (3.4.4)
-This ordinary overlap is what lets all finite blocks be read at once:
+                                      N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                 (3.4.4)
+
+                                                      12
+This ordinary overlap is what lets all finite blocks be read at once:
                                        
-               I[u0 ] := RN,M [u0 ]                   ,        ρN,M
-                                                                N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].   (3.4.5)
+                 I[u0 ] := RN,M [u0 ]                 ,         ρN,M
+                                                                 N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].   (3.4.5)
                                             N,M ∈N0
+
 
 There is no new field at the intersection. Given any finite temporal order and any finite
 spatial height, choose one rectangle large enough to contain them. A still larger rectangle
 returns the same coordinate of the same u.
 
-                                                          12
-Proposition 3.4.2 (The mixed intersection). The velocity component of I[u0 ] satisfies
-                                         ∞   ∞
-                                                  H r (I∗ ; H m (R3 )).
-                                         \   \
-                                   u∈                                                    (3.4.6)
-                                        r=0 m=0
+Proposition 3.4.2 (The mixed intersection). The velocity component of I[u0 ] satisfies
+                                             ∞   ∞
+                                                          H r (I∗ ; H m (R3 )).
+                                             \   \
+                                    u∈                                                                    (3.4.6)
+                                             r=0 m=0
 
 In particular,
-                                             ∞
-                                                 L2 (I∗ ; H m (R3 )).
-                                             \
-                                      u∈                                                 (3.4.7)
-                                           m=0
+                                                 ∞
+                                                      L2 (I∗ ; H m (R3 )).
+                                                 \
+                                       u∈                                                                 (3.4.7)
+                                               m=0
 
 Proof. Fix finite r, m, and choose N ≥ r and M ≥ m. The upper edges of that rectangle give
 
-                     ∂tn u ∈ L2 (I∗ ; H M +1 ) ,→ L2 (I∗ ; H m )        (0 ≤ n ≤ r).
+                      ∂tn u ∈ L2 (I∗ ; H M +1 ) ,→ L2 (I∗ ; H m )              (0 ≤ n ≤ r).
 
 These are the distributional time derivatives of the same velocity field, so u ∈ H r (I∗ ; H m ).
 Since r and m were arbitrary, all finite coordinates belong to the intersection. Taking r = 0
@@ -704,7 +717,7 @@ gives (3.4.7).
 
 
 
-                                                    13
+                                                           13
 4     The Missing Estimates and Global Smoothness
 4.1     The first coordinate already closes the endpoint
 Start with the velocity row that opened the singularity argument. Choose (N, M ) = (0, 1) in
