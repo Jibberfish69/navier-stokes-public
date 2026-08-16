@@ -2,7 +2,7 @@
   "task_id": "task-5feb8eb43204b3a7",
   "task_sha256": "de7aaeed63c1b022984d3c9868a3d5f401b9c90593f85a6f7a1a4d26ed515ba4",
   "prediction_sha256": "e4811f638dbed91675c18ebbe74467138ad50546729d2922d9a870a6dbb2da08",
-  "candidate_sha256": "37357b03cfb8ec6e33df99e0aeb9e115c118d063114b14873b5ddbc16406851c",
+  "candidate_sha256": "137f72adb9cf80e8952042fa0c559d0a200df7a1bbe7529e6204f3ec23a1088a",
   "selected_move_id": "user-fixed-whole-paper-movement",
   "producer_id": "root-manuscript-rewrite",
   "evaluator_id": "independent-front-core-pdf-audit",
