@@ -1,11 +1,20 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The perfectly stretching vortex}\label{sub:ThePerfectlyBalancedRipCordVortex}
 
-Take one smooth vortex and stretch it along its axis. The fluid is incompressible, so the lengthening cannot happen alone: the cross-section narrows at the same time. The rotation is now packed into a smaller radius, the winding tightens, and the velocity changes more sharply as we move across the core. Stretch it again and the same thing happens again. Each stretch hands the next one a thinner vortex with steeper variation already in place.
+Take one smooth vortex and stretch it along its axis.
+The fluid is incompressible, so the lengthening contracts the cross-section at the same time.
+The rotation is packed into a smaller radius, the winding tightens, and the velocity changes more sharply across the core.
+The next stretch begins from that thinner vortex, with the steeper variation already in place.
 
-Keep the vortex perfectly centred while this happens. Let no wobble carry it off axis, no buckling fold it away from the stretching direction, and no fragmentation break the core before the next stretch. This is the perfectly stretching vortex. It is a thought experiment, not a claim that we have written down an exact special solution. Its purpose is to give concentration every geometric advantage and leave the Navier--Stokes equation itself responsible for what happens next.
+Now assume that its axis stays aligned with the expanding strain direction and that the core remains centred and coherent from one stretch to the next.
+This is the perfectly stretching vortex.
+It is a thought experiment that isolates the geometry most favourable to repeated concentration, not a claimed exact special solution.
 
-The word \emph{core} has two possible meanings here, and they cannot be mixed. The core may contain the same material particles throughout the narrowing. Or it may be a visible region that keeps recruiting new particles while earlier ones leave. The first reading is about the separation of fixed fluid labels. The second is about concentration in the complete velocity field. Both can look like the same tightening vortex, so we will carry both readings and close them separately.
+The picture forces one distinction before we use it.
+The \emph{core} may contain the same material particles throughout the narrowing, or it may be a visible region that recruits new particles while earlier ones leave.
+The first reading concerns the separation of fixed fluid labels.
+The second concerns concentration in the complete velocity field.
+The drawing looks the same either way, but the mathematics does not.
 
 \begin{center}
 \captionsetup{hypcap=false}
@@ -40,27 +49,35 @@ The word \emph{core} has two possible meanings here, and they cannot be mixed. T
   \draw[->,thick] (b)--(c);
   \draw[->,thick] (c)--(d);
 \end{tikzpicture}
-\captionof{figure}{One vortex stretching and narrowing inside the same fluid history. The chain beneath the drawing concerns the complete velocity field; it does not place the global singular escape at the drawn centre.}
+\captionof{figure}{One vortex stretching and narrowing inside the same fluid history. The implication chain beneath the drawing concerns the complete velocity field and does not place the global singular escape at the drawn centre.}
 \label{fig:BalancedVortexCriticalRoute}
 \end{center}
 
 \Needspace{7\baselineskip}
-The curl of the equation puts the competition inside this picture into one line. Write \(\omega:=\nabla\times u\) and
+Write \(\omega:=\nabla\times u\) and
 \(S:=\tfrac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr)\).
-then incompressibility gives
+Taking the curl of \eqref{eq:NavierStokesSystem} and using incompressibility gives
 \begin{equation}\label{eq:VorticityEquation}
   D_t\omega
   :=\partial_t\omega+(u\cdot\nabla)\omega
   =S\omega+\nu\Delta\omega.
 \end{equation}
-The strain term \(S\omega\) amplifies vorticity when the vortex aligns with an expanding strain direction. Incompressibility supplies the transverse contraction. The Laplacian acts on the curvature created as the core narrows. Pressure disappears from the curl equation, but not from the fluid: it still determines the velocity and strain needed to keep the motion divergence free. Stretching, narrowing, pressure response, and diffusion all happen together in this one vortex.
+The strain term \(S\omega\) amplifies vorticity when the vortex aligns with an expanding strain direction.
+Incompressibility supplies the transverse contraction.
+The Laplacian acts on the curvature created as the core narrows.
+Pressure disappears from the curl equation, but not from the fluid: it still determines the velocity and strain needed to keep the motion divergence free.
+Stretching, narrowing, pressure response, and diffusion all happen together in this one vortex.
 
-The drawing makes a singularity imaginable, but a finite \(T_*\) is a statement about the whole solution. Escauriaza, Seregin, and \v{S}ver\'ak proved that a bounded \(L^\infty_tL^3_x\) norm carries the solution regularly through the endpoint \parencite{EscauriazaSereginSverak2003}. Our assumption \(T_*<\infty\) gives the opposite conclusion:
+The drawing makes concentration visible, but a finite \(T_*\) is a statement about the whole solution.
+Escauriaza, Seregin, and \v{S}ver\'ak proved that a bounded \(L^\infty_tL^3_x\) norm carries the solution regularly through the endpoint \parencite{EscauriazaSereginSverak2003}.
+Since \(T_*\) is assumed finite and maximal,
 \begin{equation}\label{eq:FiniteTimeLThreeEscape}
   T_*<\infty
   \quad\Longrightarrow\quad
   \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
 \end{equation}
-This is the velocity blow-up used in the paper: the global \(L^3\) norm escapes every finite bound. It does not assert that the velocity amplitude diverges at the centre drawn in \cref{fig:BalancedVortexCriticalRoute}.
+Here velocity blow-up means that the global \(L^3\) norm escapes every finite bound.
+It does not assert that the velocity amplitude diverges at the centre drawn in \cref{fig:BalancedVortexCriticalRoute}.
 
-The radius in the drawing can shrink even when we have only rescaled the same profile. To separate a change of scale from genuine growth, we need a quantity that the Navier--Stokes rescaling leaves unchanged and that still feels the global escape in \eqref{eq:FiniteTimeLThreeEscape}.
+The radius in the drawing can shrink even when we have only rescaled the same profile.
+To separate a change of scale from genuine growth, we need a scale-invariant quantity whose divergence follows from \eqref{eq:FiniteTimeLThreeEscape}.

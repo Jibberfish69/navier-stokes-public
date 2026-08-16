@@ -1,5 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-Fix \(\nu>0\) and a smooth divergence-free velocity \(u_0\) on \(\R^3\) whose derivatives decay faster than every power at infinity. Fefferman's whole-space problem asks whether the Navier--Stokes evolution from this datum stays smooth for all time \parencite{Fefferman2000}. In the notation used here,
+Fix \(\nu>0\) and a smooth divergence-free velocity \(u_0\) on \(\R^3\) whose derivatives decay faster than every power at infinity.
+Fefferman's whole-space problem asks whether the Navier--Stokes evolution from this datum stays smooth for all time \parencite{Fefferman2000}.
+In the notation used here,
 \[
   \Ssigma
   :=
@@ -10,7 +12,8 @@ Fix \(\nu>0\) and a smooth divergence-free velocity \(u_0\) on \(\R^3\) whose de
   \qquad
   u_0\in\Ssigma,
 \]
-where \(\mathscr S\) is the Schwartz class. With no external force, the velocity and pressure satisfy
+where \(\mathscr S\) is the Schwartz class.
+With no external force, the velocity and pressure satisfy
 \begin{equation}\label{eq:NavierStokesSystem}
 \begin{aligned}
   \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
@@ -21,14 +24,18 @@ where \(\mathscr S\) is the Schwartz class. With no external force, the velocity
 \end{aligned}
 \qquad\text{on }\R^3.
 \end{equation}
-We take the pressure with its decaying whole-space normalization. The problem is to produce this one pair for every \(t\geq0\), with
+The nonlinear term transports velocity through its own field, pressure enforces the divergence constraint across that field, and viscosity diffuses spatial variation.
+We take the pressure with its decaying whole-space normalization.
+The problem is to prove that this one pair exists for every \(t\geq0\), with
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
 
-Classical local theory already gives one solution on a nonzero interval. Continue it for as long as it remains classical and call that interval \([0,T_*)\), where \(0<T_*\leq\infty\) \parencite{FujitaKato1964,Kato1984}. The entire regularity problem is now concentrated in one statement:
+Classical local theory gives a unique classical solution on a nonzero interval \parencite{FujitaKato1964,Kato1984}.
+Let \([0,T_*)\), with \(0<T_*\leq\infty\), be its maximal classical interval.
+The global conclusion above is exactly the statement
 \begin{equation}\label{eq:GlobalTimeTarget}
   T_*=\infty.
 \end{equation}

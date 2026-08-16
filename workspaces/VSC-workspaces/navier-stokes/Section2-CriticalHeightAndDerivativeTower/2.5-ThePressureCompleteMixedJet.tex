@@ -1,7 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The pressure-complete mixed jet}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-There is no separate spatial history to add to the temporal Tower. Differentiate the same rows in space. For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
+The Laplacian in \eqref{eq:BodyTemporalVelocityRecurrence} already puts spatial derivatives inside every temporal row.
+Differentiate that same row in space.
+For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
 \begin{equation}\label{eq:BodyMixedJetDefinition}
   J_{n,\alpha}
   :=\partial_t^n\partial_x^\alpha u,
@@ -9,7 +11,8 @@ There is no separate spatial history to add to the temporal Tower. Differentiate
   \Pi_{n,\alpha}
   :=\partial_t^n\partial_x^\alpha p.
 \end{equation}
-The two indices remain independent. Increasing \(n\) follows the fixed-coordinate response in time. Increasing \(|\alpha|\) resolves finer spatial structure inside that chosen response.
+The two indices remain independent.
+Increasing \(n\) follows the fixed-coordinate response in time, while increasing \(|\alpha|\) resolves finer spatial structure inside that chosen response.
 
 Apply \(\partial_x^\alpha\) to the temporal recurrence \eqref{eq:BodyTemporalVelocityRecurrence}.
 For \(\beta\leq\alpha\), write
@@ -39,7 +42,10 @@ The pressure coordinate is fixed by the same velocity rows:
   =\partial_x^\alpha\partial_i\partial_j
   \sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
 \end{equation}
-The Riesz normalization in \eqref{eq:PressureNormalization} chooses the pressure row in the decaying whole-space class. Every term still belongs to the original history. The binomial coefficients record how time and space derivatives divide between the transporting and transported factors; viscosity reaches two spatial derivatives above the present coordinate; pressure returns the nonlocal response imposed by incompressibility.
+The Riesz normalization in \eqref{eq:PressureNormalization} chooses the pressure row in the decaying whole-space class.
+Every term still belongs to the original history.
+The binomial coefficients count how the time and space derivatives divide between the transporting and transported factors.
+The right side contains \(\Delta J_{n,\alpha}\), and the elliptic equation determines the nonlocal pressure coordinate \(\Pi_{n,\alpha}\).
 
 The complete mixed jet is the family
 \[
@@ -49,6 +55,10 @@ The complete mixed jet is the family
     n\in\Nzero,\ \alpha\in\Nzero^3
   \right\}
 \]
-together with the recurrences and divergence relations above. These are derivatives of one \((u,p)\), not an infinite norm and not a collection of independently chosen fields. At \(t=0\), the same recurrences determine every finite row from \(u_0\); Appendix~\ref{app:DerivativeAndFiniteRecordCalculus} writes that initialization in full.
+together with the recurrences and divergence relations above.
+Thus \(\mathcal J[u_0]\) is one family of finite derivatives of one pair \((u,p)\), joined by the recurrences above.
+At \(t=0\), those recurrences determine every finite row from \(u_0\); Appendix~\ref{app:DerivativeAndFiniteRecordCalculus} writes that initialization in full.
 
-The indices now tell us where every finite derivative sits. They do not yet tell us which of those coordinates the equation can control as \(t\uparrow T_*\). For that, return to critical height and differentiate its viscous balance.
+The next issue is control.
+The indices locate every finite derivative, but the critical-height balance tells us which spatial Sobolev energies viscosity supplies as \(t\uparrow T_*\).
+Return to that balance and differentiate it in time.

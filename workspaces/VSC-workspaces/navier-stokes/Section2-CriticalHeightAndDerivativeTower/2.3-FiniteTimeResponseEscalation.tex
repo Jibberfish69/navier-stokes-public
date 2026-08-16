@@ -1,24 +1,28 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{Why finite-time escape opens the temporal Tower}\label{sub:BodyFiniteTimeResponseEscalation}
 
-Suppose \(\norm{u(t)}_3\) escapes before \(T_*\). If \(u_t\) stayed uniformly bounded in \(L^3\), then
+Suppose \(\norm{u(t)}_3\) escapes before \(T_*\).
+If \(u_t\) stayed uniformly bounded in \(L^3\), then
 \[
   u(t)=u_0+\int_0^t u_t(s)\,ds
 \]
-would keep the velocity bounded on that finite interval. If \(u_{tt}\) stayed bounded, one integration would give
+would keep the velocity bounded on that finite interval.
+If \(u_{tt}\) stayed bounded, one integration would give
 \[
   u_t(t)=u_t(0)+\int_0^t u_{tt}(s)\,ds
 \]
-and the first integral would again bound \(u\). Nothing changes at a higher fixed order: integrate down the derivative chain finitely many times and the velocity remains bounded.
+and the first integral would again bound \(u\).
+At any higher fixed order, integrating down the derivative chain finitely many times gives the same conclusion.
 
-This is why the singularity itself opens a temporal Tower. At fixed spatial coordinates, write
+This is why the singularity itself opens a temporal Tower.
+At fixed spatial coordinates, write
 \begin{equation}\label{eq:TemporalTowerDefinitionBody}
   V_n:=\partial_t^nu,
   \qquad
   Q_n:=\partial_t^np,
   \qquad n\in\Nzero.
 \end{equation}
-The whole argument is the Banach-valued Taylor formula.
+The exact statement is the Banach-valued Taylor formula.
 
 \begin{lemma}[Repeated finite-time integration]\label{lem:RepeatedFiniteTimeIntegration}
 Let \(n\geq1\), and let \(f:[0,T_*)\to X\) have the derivatives required by the integral Taylor formula in a Banach space \(X\).
@@ -41,15 +45,20 @@ The integral Taylor formula gives
 Taking the \(X\)-norm and bounding the integral by its essential supremum gives \eqref{eq:RepeatedFiniteTimeBound}.
 \end{proof}
 
-Apply the lemma with \(f=u\) and \(X=L^3(\R^3)\). The smooth datum supplies every finite initial time derivative, and \(T_*<\infty\) keeps every polynomial factor finite. The escape in \eqref{eq:FiniteTimeLThreeEscape} can now happen only if, for each fixed \(n\),
+Apply the lemma with \(f=u\) and \(X=L^3(\R^3)\).
+The smooth datum supplies every finite initial time derivative, and \(T_*<\infty\) keeps every polynomial factor finite.
+The escape in \eqref{eq:FiniteTimeLThreeEscape} can now happen only if, for each fixed \(n\),
 \begin{equation}\label{eq:TemporalTowerMustEscape}
   \sup_{0<t<T_*}\norm{V_n(t)}_3=\infty.
 \end{equation}
-This conclusion is separate at every finite order. It gives no common blow-up point, rate, or sequence. It says exactly that no selected temporal response can stay bounded in the same critical space while the velocity escapes before a finite time. The Tower is
+For each finite \(n\), the row \(V_n\) is unbounded in \(L^3\).
+The lemma does not synchronize the time, place, or rate of those escapes; it rules out boundedness separately in every fixed row.
+The Tower is
 \[
   u,\quad u_t,\quad u_{tt},\quad u_{ttt},\quad\ldots.
 \]
-Acceleration and jerk help us feel the escalation, but a particle moving with the fluid does not experience \(u_t,u_{tt},\ldots\) alone. If \(X(a,t)\) is the trajectory beginning at the material label \(a\), then
+These rows are tempting to call acceleration, jerk, and so on, but a moving fluid particle experiences something different.
+If \(X(a,t)\) is the trajectory beginning at the material label \(a\), then
 \begin{equation}\label{eq:ParticleTrajectory}
   \frac d{dt}X(a,t)=u(X(a,t),t),
   \qquad
@@ -65,9 +74,11 @@ Along that trajectory, the equation gives
 \begin{equation}\label{eq:MaterialAccelerationEquationBody}
   D_tu=-\nabla p+\nu\Delta u.
 \end{equation}
-One more material derivative differentiates pressure and curvature while also differentiating the moving frame through which the particle sees them. Time and space are already mixed in the physical response.
+Applying \(D_t=\partial_t+u\cdot\nabla\) once more differentiates both \(-\nabla p+\nu\Delta u\) and the velocity that transports it.
+Time and space are already mixed in the physical response.
 
-The fixed-coordinate rows let us keep that mixture in one frame. At order zero,
+To keep temporal and spatial indices separate, return to a fixed spatial point.
+At order zero,
 \begin{equation}\label{eq:BodyFirstTemporalVelocityRow}
   V_1+(V_0\cdot\nabla)V_0+\nabla Q_0
   =\nu\Delta V_0.
@@ -80,7 +91,10 @@ Differentiating once gives
   +\nabla Q_1
   =\nu\Delta V_1.
 \end{equation}
-The first nonlinear term changes the velocity doing the carrying. The second changes the response carried through the existing flow. On the right, viscosity acts two spatial derivatives above the current row. After \(n\) differentiations, the same division is
+The first nonlinear term changes the velocity doing the carrying.
+The second changes the response carried through the existing flow.
+The right side contains two additional spatial derivatives of the current row.
+After \(n\) differentiations, the same division is
 \begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
   V_{n+1}
   +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
@@ -101,4 +115,5 @@ Time differentiation gives
   Q_n
   =R_iR_j\sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
 \end{equation}
-Every temporal step keeps all transport splits, reconstructs the pressure they create, and carries the viscous Laplacian with it. The singularity gave us the temporal direction. Spatial differentiation of these same rows gives the other direction.
+The recurrence shows why the Tower cannot remain temporal: \(\Delta V_n\) contributes two spatial derivatives, while pressure is rebuilt from products of the same rows.
+Differentiate these equations in space and the other direction appears.
