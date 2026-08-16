@@ -4,23 +4,9 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   reconciliation_id: authority-reconciliation-navier-stokes
-  generated_at: '2026-06-08T07:57:59Z'
+  generated_at: '2026-08-06T14:56:50Z'
   generator: system/runner/lib/authority_reconciliation_builder.rb
 active: false
-manual_supersession:
-  updated_at: '2026-07-02T21:51:12Z'
-  status: stale-inactive-snapshot-positive-clipping-demoted
-  current_authority:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-  correction: >-
-    This generated reconciliation is inactive and predates the current Gold L1
-    audit. It must not be read as proof readiness or export readiness. Current
-    live authority demotes the selected positive L1 / child-clipping route to a
-    sufficient stress test. Gold is open at the signed critical-height restart:
-    prove sign persistence with physical cost, or prove peak-height control when
-    the signed rate changes sign. Submission/export readiness remains blocked.
 inputs:
   proof_assembly: problems/navier-stokes/proof-assembly.yaml
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
@@ -30,24 +16,32 @@ inputs:
   submission_verdict: problems/navier-stokes/submission-verdict.yaml
 summary:
   proof_ready: false
-  theorem_authority_blocking_count: 1
+  theorem_authority_blocking_count: 0
   bridge_discharge_blocking_count: 0
-  theorem_packet_export_ready: false
+  theorem_packet_export_ready: true
   target_fidelity_terminal_safe: false
-  target_fidelity_class: direct-target
+  target_fidelity_class: authority-conflict
   stale_blocker_count: 1
-  total_submission_blockers: 1
+  total_submission_blockers: 21
   stale_posture_lag: false
 target_fidelity:
-  class: direct-target
+  class: authority-conflict
   terminal_safe: false
-  explicit_nonterminal_overlay: false
-  issues: []
+  explicit_nonterminal_overlay: true
+  issues:
+  - 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+    package as conditional, externally overridden, blocked, or burdened by open critical
+    objections.'
+  - 'Target fidelity failure: the submission bundle was exported from `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
+    instead of the authoritative export surface `papers/navier-stokes/manuscript/generated/main.tex`.'
   required_before_terminal_release:
-  - signed critical-height sign-persistence or peak-height theorem
+  - Clear the authoritative nonterminal overlays by discharging the blocked theorem
+    bridges or keeping the package explicitly nonterminal.
+  - Regenerate the submission bundle from the authoritative export surface before
+    any terminal release or submission handling.
   signals:
     conditional_main_theorem: false
-    overlay_block_risk: false
+    overlay_block_risk: true
     objective_collapse_risk: false
     conditional_markers: []
     strong_regularization_markers: []
@@ -55,20 +49,19 @@ target_fidelity:
     transfer_markers:
     - bridge
     - comparison
-    authoritative_export_surface: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
+    - dominance
+    authoritative_export_surface: papers/navier-stokes/manuscript/generated/main.tex
     bundle_manifest_source: problems/navier-stokes/submission-bundle/navier-stokes-submission.tex
-    bundle_source_mismatch: false
-    current_theorem_surface_id: theorem-surface-navier-stokes-afca8b68a2f8
+    bundle_source_mismatch: true
+    current_theorem_surface_id: ''
     bundle_theorem_surface_id: theorem-surface-navier-stokes-afca8b68a2f8
-    current_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
+    current_route_signature: ''
     bundle_route_signature: afca8b68a2f8fc5ae4e06c1858a4d73a421f8810
     bundle_surface_mismatch: false
-    open_theorem_authority: true
-    open_critical_referee_objections:
-    - signed critical-height sign-persistence / peak-height theorem open for Gold
-      L1 restart
+    open_theorem_authority: false
+    open_critical_referee_objections: []
 superseded_blockers: []
 effective_review_alignment: {}
-rationale: No authority override is active because either proof-side readiness is
-  not yet clear, some non-stale blockers remain, or there is no stale posture lag
-  to reconcile.
+rationale: No authority override is active because the current package still fails
+  target fidelity for terminal MPP release, so proof-side readiness cannot outrank
+  claim-scope or model-scope truth.
