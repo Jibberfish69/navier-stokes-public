@@ -116,6 +116,37 @@ The same identity can be solved for that height:
 Controlling the critical response and every retained transfer term at depth \(n\) controls the spatial energy at height \(n+\tfrac12\).
 The identity exposes the height; control of the response and transfer terms must still be supplied.
 
+The mixed recurrence extends this ascent from \(u=V_0\) to every temporal row.
+Fix \(V_r\) and define
+\begin{align*}
+  E_{r,s}
+  &:=\frac12\norm{\Lambda^sV_r}_2^2,
+  \\
+  \mathcal P_{r,s}
+  &:=-\operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left(
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right)}_{L^2}.
+\end{align*}
+Pairing the \(r\)-th equation in \eqref{eq:BodyTemporalVelocityRecurrence} with \(\Lambda^{2s}V_r\) gives
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+For a fixed row \(r\), the calculation repeats to every finite ascent depth \(k\geq1\):
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^kE_{r,1/2}
+  =(-2\nu)^kE_{r,k+1/2}
+  +\sum_{j=0}^{k-1}
+  (-2\nu)^j
+  \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+The left side is a scalar quadratic readout involving \(V_r,\ldots,V_{r+k}\), distinct from any single response row.
+There is one spatial ascent inside \(V_0\), another inside \(V_1\), and another inside every finite response \(V_r\).
+The row index \(r\) and the spatial ascent depth \(k\) remain independent.
+
+The base row \(r=0\) displays the time--space match most clearly:
 \Needspace{18\baselineskip}
 \begin{center}
 \captionsetup{hypcap=false}
@@ -142,36 +173,7 @@ At the same order, the completed height identity exposes a higher spatial energy
 This is the reversal: once its finite response and transfer terms are controlled, every temporal step reaches one higher spatial height.
 The result remains a diagonal of exposed coordinates; regularity begins only after those coordinates are controlled.
 
-The mixed recurrence opens the rest of the grid.
-Fix a temporal row \(V_r\) and define
-\begin{align*}
-  E_{r,s}
-  &:=\frac12\norm{\Lambda^sV_r}_2^2,
-  \\
-  \mathcal P_{r,s}
-  &:=-\operatorname{Re}
-  \pair{\Lambda^sV_r}
-  {\Lambda^s\!\left(
-    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
-    +\nabla Q_r
-  \right)}_{L^2}.
-\end{align*}
-Pairing the \(r\)-th equation in \eqref{eq:BodyTemporalVelocityRecurrence} with \(\Lambda^{2s}V_r\) gives
-\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
-  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
-\end{equation}
-The same calculation now repeats inside that row.
-For \(k\geq1\),
-\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
-  \partial_t^kE_{r,1/2}
-  =(-2\nu)^kE_{r,k+1/2}
-  +\sum_{j=0}^{k-1}
-  (-2\nu)^j
-  \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
-\end{equation}
-There is one spatial ascent inside \(V_0\), another inside \(V_1\), and another inside every finite response \(V_r\).
-The row index \(r\) and the spatial height are independent.
-The diagonal found above is the first visible slice of a two-dimensional grid:
+The full family of rows opens that diagonal into a two-dimensional grid:
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
