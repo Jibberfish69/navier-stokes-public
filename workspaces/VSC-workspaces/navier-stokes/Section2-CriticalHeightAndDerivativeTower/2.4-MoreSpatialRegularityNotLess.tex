@@ -123,7 +123,7 @@ The three entries on one rung are distinct but connected: \(V_n\) is the Euleria
 \captionof{table}{The first time--space rungs of the critical-height calculation.}
 \label{tab:BodyTemporalSpatialDiscovery}
 \small
-\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraystretch}{1.2}
 \begin{tabular}{@{}c c c c@{}}
 \toprule
 order & Eulerian response & critical response & spatial height \\
@@ -138,30 +138,14 @@ order & Eulerian response & critical response & spatial height \\
 \end{center}
 
 Whenever the Zeno route keeps a nontrivial change alive, the temporal column asks for a larger response.
-The matched spatial column moves the other way through the Sobolev scale:
-\[
-  E_{1/2},\ E_{3/2},\ E_{5/2},\ E_{7/2},\ldots
-\]
-A singularity makes us expect less spatial regularity.
-The equation is exposing more, not less.
+The matched spatial column moves the other way through the Sobolev scale, through
+\(E_{1/2},E_{3/2},E_{5/2},E_{7/2},\ldots\): more spatial regularity, not less.
 
 That is not regularity yet.
 The transfer terms still have to be controlled, and one diagonal inside \(u\) does not fill the whole time--space Tower.
 
 Every temporal response needs its own spatial ladder.
-For \(r\in\Nzero\), set
-\begin{align*}
-  E_{r,s}
-  &:=\frac12\norm{\Lambda^sV_r}_2^2,
-  \\
-  \mathcal P_{r,s}
-  &:=-\operatorname{Re}
-  \pair{\Lambda^sV_r}
-  {\Lambda^s\!\left(
-    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
-    +\nabla Q_r
-  \right)}_{L^2}.
-\end{align*}
+For \(r\in\Nzero\), let \(E_{r,s}:=\tfrac12\norm{\Lambda^sV_r}_2^2\), and let \(\mathcal P_{r,s}\) denote the complete transport--pressure transfer in the \(r\)-th recurrence.
 Pairing the \(r\)-th temporal equation with \(\Lambda^{2s}V_r\) gives
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
@@ -178,6 +162,7 @@ The temporal index \(r\) chooses the response, and the spatial index \(k\) choos
 They are independent coordinates of the mixed jet.
 
 Together they form the grid
+{\small
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
@@ -189,6 +174,7 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
 \end{array}
 \]
+}
 Moving down selects a later temporal response, while moving across selects a higher Sobolev height inside that response.
 Controlling every finite coordinate would place the solution in the mixed intersection
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
@@ -199,8 +185,5 @@ Controlling every finite coordinate would place the solution in the mixed inters
 \end{equation}
 
 A proof can only pay for a finite part of that grid at a time.
-For fixed temporal depth \(N\) and spatial depth \(M\), the rows through \(N\) and the columns through \(M\) form one finite rectangle.
-Every finite coordinate in the intersection belongs to one of them.
-
-That is the object the next section has to control.
-The vortex turned concentration into the critical-height problem; the Tower has turned that problem into one concrete demand: every finite rectangle, for every finite \(N\) and \(M\).
+For fixed \(N\) and \(M\), the first \(N\) temporal rows and first \(M\) spatial columns form one finite rectangle, and every finite coordinate belongs to one.
+The next section has to control every such rectangle.
