@@ -1,0 +1,134 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Velocity, acceleration, jerk}\label{sub:BodyFiniteTimeResponseEscalation}
+
+Acceleration is already in the \NavierStokes{} equation:
+\begin{equation}\label{eq:MaterialAccelerationEquationBody}
+  D_tu
+  :=\partial_tu+(u\cdot\nabla)u
+  =-\nabla p+\nu\Delta u.
+\end{equation}
+Jerk differentiates that response once more.
+Because the material derivative itself contains transport, the next response already mixes time differentiation with spatial variation, pressure, and viscosity.
+
+To expose the temporal rows at a fixed position, set
+\begin{equation}\label{eq:TemporalTowerDefinitionBody}
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np,
+  \qquad
+  n\in\Nzero.
+\end{equation}
+Thus \(D_tu=V_1+(V_0\cdot\nabla)V_0\); \(V_1\) is not the material acceleration.
+Solving for \(V_1\) and differentiating at fixed \(x\) gives
+\[
+\begin{aligned}
+  V_1={}&
+  \nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0,
+  \\
+  V_2={}&
+  \nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1,
+  \\
+  V_3={}&
+  \nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2,
+  \\
+  V_4={}&
+  \nu\Delta V_3
+  -(V_3\cdot\nabla)V_0
+  -3(V_2\cdot\nabla)V_1
+  -3(V_1\cdot\nabla)V_2
+  -(V_0\cdot\nabla)V_3
+  -\nabla Q_3.
+\end{aligned}
+\]
+The coefficients are the binomial coefficients generated when the time derivatives split between the transporting and transported velocities.
+At order \(n\),
+\begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
+  V_{n+1}
+  +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =\nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\end{equation}
+
+Pressure advances through the same rows.
+With the decaying whole-space normalization,
+\begin{equation}\label{eq:PressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j),
+  \qquad
+  p=R_iR_j(u_i u_j),
+\end{equation}
+and hence
+\begin{equation}\label{eq:BodyTemporalPressureRecurrence}
+  Q_n
+  =R_iR_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+The smooth datum and these two recurrences generate every finite initial temporal row.
+Repeated integration can now make the Zeno demand exact: if one fixed \(V_n\) remained uniformly bounded in \(L^3\) on the finite interval, then the lower rows and finally \(u\) would remain uniformly bounded there as well.
+Thus
+\begin{equation}\label{eq:TemporalTowerMustEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{V_n(t)}_3=\infty
+  \qquad
+  \text{for every fixed }n\in\Nzero.
+\end{equation}
+Different rows may lose control at different rates and in different regions.
+
+The recurrence does not remain a temporal calculation.
+Every row contains \(\Delta V_n\), spatial differentiation inside transport, and a pressure row reconstructed from the spatial field.
+For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), set
+\begin{equation}\label{eq:BodyMixedJetDefinition}
+  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p.
+\end{equation}
+Applying \(\partial_x^\alpha\) to \eqref{eq:BodyTemporalVelocityRecurrence} gives
+\begin{align}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha}
+  \notag\\
+  &=
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+  \label{eq:BodyMixedJetRecurrence}
+\end{align}
+The pressure coordinate satisfies
+\begin{equation}\label{eq:BodyMixedPressureRecurrence}
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_x^\alpha\partial_i\partial_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+Since \(u_0\in\mathscr S_\sigma(\R^3)\), finite-order Sobolev multiplication and boundedness of the Riesz transforms close the induction at \(t=0\):
+\begin{equation}\label{eq:BodyInitialPressureCompleteMixedJet}
+  J_{n,\alpha}(0)\in H_\sigma^m(\R^3),
+  \qquad
+  \Pi_{n,\alpha}(0)\in H^m(\R^3)
+\end{equation}
+for every finite \(n\), \(\alpha\), and \(m\).
+This initializes the Tower; it does not control it near \(T_*\).
+
+The object forced by the singularity is now visible.
+Moving downward increases temporal response order.
+Moving across increases spatial derivative order.
+The derivative Tower is a time--space grid.
