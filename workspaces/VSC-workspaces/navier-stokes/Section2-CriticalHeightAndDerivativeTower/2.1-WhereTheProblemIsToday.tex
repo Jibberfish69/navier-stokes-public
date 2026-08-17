@@ -1,14 +1,11 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{The critical balance}\label{sub:ThePerfectlyStretchingVortex}
+\subsection{The critical-height problem}\label{sub:ThePerfectlyStretchingVortex}
 
-Here is the regularity problem in one pass.
-Vortex stretching sharpens the velocity field, while viscosity smooths the gradients that sharpening creates.
-At critical height, rescaling gives stretching and viscosity the same weight.
-The unresolved case is a vortex that stays aligned with the extensional strain as it stretches, so every sharper state remains positioned for the next stretch.
-Scaling tells us exactly what this balance permits: kinetic energy can decrease while the critical quantity stays unchanged, the heat clock runs faster, and the gradients grow.
-Repeated as an uninterrupted sequence, the shorter clock is the Zeno cascade and the growing gradients are the singularity.
-The singularity then forces us to ask what velocity, acceleration, jerk, and every later response must do.
-That is the route into the derivative Tower.
+The hard case begins where vortex stretching and viscosity scale exactly alike.
+Take a vortex whose vorticity remains aligned with a positive extensional direction of the strain.
+The strain amplifies the vorticity, incompressibility contracts the transverse scale of the stretched region, and viscosity acts on the sharper gradients created by that contraction.
+Real vortices can bend, wobble, fragment, or lose the alignment that feeds the stretch.
+The case the proof has to cover is the one that keeps the alignment and continues to concentrate.
 
 Write
 \[
@@ -21,18 +18,19 @@ Taking the curl of Navier--Stokes gives
   \partial_t\omega+(u\cdot\nabla)\omega
   =S\omega+\nu\Delta\omega.
 \end{equation}
-When \(\omega\) remains aligned with an extensional direction of \(S\), the term \(S\omega\) amplifies the vorticity.
-The resulting concentration steepens the field, so the Laplacian acts on increasingly sharp gradients at the same time.
-Ordinary motion breaks this exact alignment through bending, wobble, or fragmentation; the perfectly stretching case removes those exits and keeps the alignment through the next round.
-The matching is a scaling balance: stretching and diffusion retain the same weight under every change of scale.
+When \(\omega\) points along an eigenvector of \(S\) with positive eigenvalue, \(S\omega\) strengthens it.
+For an aligned filamentary vortex, that extension is accompanied by transverse contraction.
+If \(\ell\) denotes the active transverse length, the next sharper configuration replaces \(\ell\) by \(\ell/\lambda\) for some \(\lambda>1\).
+The immediate issue is whether this change of scale favors the stretching term or the viscous term.
 
-For \(\lambda>0\), that change of scale is
+Navier--Stokes answers through its natural rescaling:
 \[
   u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
   \qquad
   p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \]
-Every term in the velocity equation acquires the same factor:
+The spatial argument \(\lambda x\) contracts every length by \(\lambda^{-1}\).
+At the same time,
 \[
 \begin{aligned}
   \partial_tu_\lambda
@@ -48,16 +46,17 @@ Every term in the velocity equation acquires the same factor:
   &=\lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
 \end{aligned}
 \]
-This is why the balance survives the rescaling.
-The equation sees a shorter length, a faster time, and a larger velocity as another configuration of the same scale.
+The nonlinear stretching and viscous response carry the same factor \(\lambda^3\).
+Concentration gives neither term a scaling advantage.
+That equality of scale weight is the critical balance.
 
-The Sobolev exponent at which the size of the velocity also survives is determined by the same calculation.
+The corresponding Sobolev height follows from the same rescaling.
 Since
 \[
   \widehat{u_\lambda}(\xi,t)
   =\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),
 \]
-changing variables \(\eta=\xi/\lambda\) gives
+the change of variables \(\eta=\xi/\lambda\) gives
 \begin{align*}
   \norm{u_\lambda(t)}_{\dot H^s}^2
   &=
@@ -73,29 +72,28 @@ changing variables \(\eta=\xi/\lambda\) gives
   \left|\widehat u(\eta,\lambda^2t)\right|^2
   \,d\eta.
 \end{align*}
-Thus
+Hence
 \[
   \norm{u_\lambda(t)}_{\dot H^s}
   =\lambda^{s-1/2}\norm{u(\lambda^2t)}_{\dot H^s}.
 \]
-There is one invariant exponent: \(s=\tfrac12\).
-With \(\Lambda:=(-\Delta)^{1/2}\), define
+The exponent vanishes only at \(s=\tfrac12\).
+With \(\Lambda:=(-\Delta)^{1/2}\), set
 \begin{equation}\label{eq:BodyCriticalHeightDefinition}
   H(t)
   :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
-This is the critical height.
-A rescaled copy preserves \(H\) while its length shortens.
+This is the critical height: a rescaled configuration can move to a shorter length while keeping exactly the same value of \(H\).
 
-Kinetic energy does move.
-Putting \(s=0\) in the same scaling law gives
+The kinetic energy sits below this height.
+At \(s=0\),
 \[
   \norm{u_\lambda(t)}_2^2
   =\lambda^{-1}\norm{u(\lambda^2t)}_2^2.
 \]
-The ordinary energy identity follows by pairing Navier--Stokes with \(u\).
-Incompressibility removes the transport and pressure pairings, while integration by parts gives the viscous sign:
+The energy identity itself comes from pairing Navier--Stokes with \(u\).
+Incompressibility cancels the transport and pressure pairings, and integration by parts supplies the viscous sign:
 \[
   \frac12\frac{d}{dt}\norm{u(t)}_2^2
   +\nu\norm{\nabla u(t)}_2^2
@@ -107,56 +105,60 @@ After integration in time,
   +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
   =\frac12\norm{u_0}_2^2.
 \end{equation}
-This law keeps the total kinetic energy finite.
-The law leaves concentration at critical height open: the rescaled structure carries only \(\lambda^{-1}\) of the kinetic energy while carrying exactly the same \(\dot H^{1/2}\) size.
-The energy estimate sits below the scale on which the danger is unchanged.
+This law controls the total kinetic energy.
+Under concentration, however, the rescaled configuration carries \(\lambda^{-1}\) of that energy and the same critical height.
+An energy bound can hold across an arbitrarily concentrated scale family because the quantity it controls becomes smaller precisely where \(H\) remains unchanged.
+That is why the energy law leaves the critical-height problem open.
 
-Now the clock changes.
-A feature of length \(\ell\) is smoothed by \(\nu\Delta\) on the heat time
-\[
-  \delta t_\ell\asymp\frac{\ell^2}{\nu}.
-\]
-The rescaling divides \(\ell\) by \(\lambda\), so it divides this time by \(\lambda^2\).
-If a perfectly stretching sequence moves through lengths
+Once energy leaves this concentration open, the next issue is how much time viscosity has to act at the new scale.
+A structure of length \(\ell\) has the linear viscous smoothing time
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \delta t_{\mathrm{heat}}(\ell)\asymp\frac{\ell^2}{\nu}.
+\end{equation}
+This is the response time of \(\nu\Delta\) at scale \(\ell\); the nonlinear evolution still has to produce the next structure.
+Replacing \(\ell\) by \(\ell/\lambda\) divides the heat time by \(\lambda^2\), exactly the time factor already present in \(u_\lambda(x,t)\).
+
+Prescribe a geometric scale family
 \[
   \ell_k=\rho^k\ell_0,
-  \qquad 0<\rho<1,
+  \qquad 0<\rho<1.
 \]
-then its heat-clock intervals have the scale
+If the comparison constants in \eqref{eq:BodyHeatComparisonTime} are uniform across this family, then
 \[
-  \delta t_k\asymp\frac{\ell_0^2}{\nu}\rho^{2k},
+  \delta t_{k}^{\mathrm{heat}}
+  \asymp\frac{\ell_0^2}{\nu}\rho^{2k},
   \qquad
-  \sum_{k=0}^{\infty}\delta t_k
+  \sum_{k=0}^{\infty}\delta t_k^{\mathrm{heat}}
   \asymp
   \frac{\ell_0^2}{\nu}\frac{1}{1-\rho^2}.
 \]
-That convergent clock is the Zeno direction.
-Each new scale has less time in which to be produced from the scale before it.
+The sum is finite.
+This is the Zeno comparison clock: smaller spatial scales come with a summable sequence of viscous response times.
 
-The spatial consequence is simultaneous.
-Differentiating the rescaled velocity gives
+The same rescaling sharpens every spatial derivative.
+For \(m\in\Nzero\),
 \[
   \nabla^m u_\lambda(x,t)
-  =\lambda^{m+1}(\nabla^m u)(\lambda x,\lambda^2t),
-  \qquad m\in\Nzero.
+  =\lambda^{m+1}(\nabla^m u)(\lambda x,\lambda^2t).
 \]
-In particular, the same step that divides the heat time by \(\lambda^2\) multiplies the velocity gradient by \(\lambda^2\).
-Repeated concentration sends the clock downward and the gradients upward.
-The limiting spatial picture is a singularity at the vortex centre.
+In particular, one scale step multiplies the velocity gradient by \(\lambda^2\) while dividing the heat-comparison time by \(\lambda^2\).
+Across the rescaled family, the clock runs downward as the gradients run upward.
+The limiting comparison profile is the singularity direction carried by the stretching vortex.
 
-Scaling supplies the route as a model.
-The actual fluid still has to generate each successive state, and the scale invariance of the comparison leaves \(H(t)\) free to change.
-If \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\) and set
+The evolving solution becomes a Zeno cascade only by realizing that comparison family.
+It has to generate the successive scales \(\ell_k\), make the transitions on intervals tied to those scales, and accumulate the transition times at a common limit \(\tau\).
+Critical-height growth can be recorded independently.
+If \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\) and define
 \[
   L_k:=2^kH_0,
   \qquad
   t_k:=\inf\{t>0:H(t)=L_k\}.
 \]
-Continuity orders the first crossings \(t_0<t_1<t_2<\cdots\), while \(H\) may rise and fall between them.
-The height ladder records the growth of the actual solution, while the heat clock records the scale compression that makes progressively shorter crossings possible.
-A genuine Zeno cascade would have to realize both.
+Continuity gives \(t_0<t_1<t_2<\cdots\).
+These first passages record what the actual solution does in the critical norm; the lengths \(\ell_k\) and heat times \(\delta t_k^{\mathrm{heat}}\) record the scale comparison.
+A realized critical-height Zeno route requires a bridge between them, together with \(t_k\uparrow\tau\).
 
-That last demand turns the spatial picture into a temporal one.
-Every sharper state must be generated from the preceding state in less time.
-Those changes require active higher responses.
-The singularity question has become a question about acceleration, jerk, and the entire temporal Tower.
+That requirement is the pivot into the derivative Tower.
+A cascade is a sequence of changes made by the one evolving velocity field, not a collection of rescaled pictures.
+If distinguishable velocity states are produced across intervals that shrink to zero, the time response has to grow.
+Acceleration, jerk, and the later temporal responses enter because they are what generate those changes.
