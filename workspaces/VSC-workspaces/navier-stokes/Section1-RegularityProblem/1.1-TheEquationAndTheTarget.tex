@@ -1,18 +1,6 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-The three-dimensional Navier--Stokes regularity problem asks whether a smooth
-solution can lose its smoothness in finite time.  Fix smooth, divergence-free,
-finite-energy initial data \(u_0\), fix \(\nu>0\), and let \((u,p)\) be the
-corresponding maximal classical solution on \([0,T_*)\)
-\parencite{FujitaKato1964,Kato1984}.  We want to prove that \(T_*\) cannot be
-finite:
-\begin{equation}\label{eq:GlobalTimeTarget}
-  T_*=\infty.
-\end{equation}
-
-Fefferman's formulation of the whole-space Millennium Prize Problem takes
-\(u_0\) to be smooth and divergence-free and imposes a decay estimate on every
-spatial derivative at every polynomial order \parencite{Fefferman2000}.  We
-write this class as
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth solution can lose its smoothness in finite time.
+Fefferman formulates the whole-space problem for initial velocities in the class \(\Ssigma\) \parencite{Fefferman2000}:
 \begin{equation}\label{eq:FeffermanDatumClass}
   \Ssigma
   :=
@@ -29,57 +17,27 @@ write this class as
   \end{array}
   \right\}.
 \end{equation}
-We take \(u_0\in\Ssigma\).
-Here \(\alpha\) is a spatial multi-index and \(K\) is any prescribed polynomial
-decay order.  The constant \(C_{\alpha,K}\) may change when either one changes.
-Because the estimate holds for every \(K\), the field and each of its spatial
-derivatives decay faster than every polynomial power.
+We fix \(u_0\in\Ssigma\) and a viscosity \(\nu>0\).
+Here \(\alpha\) is a spatial multi-index, \(K\) is the chosen decay order, and \(C_{\alpha,K}\) may depend on both.
+Since the estimate is available for every \(K\), each spatial derivative of \(u_0\) decays faster than any polynomial.
+Taking \(\alpha=0\) and \(K>3/2\) gives \(u_0\in L^2(\R^3)\), so the datum has finite kinetic energy.
 
-For finite \(m\in\Nzero\), write
-\begin{equation}\label{eq:DivergenceFreeSobolevClass}
-  H_\sigma^m(\R^3)
-  :=
-  \left\{
-    v\in H^m(\R^3;\R^3):\nabla\cdot v=0
-  \right\}.
-\end{equation}
-Fix \(m\) and choose an integer \(K>3/2\).  For every
-\(|\alpha|\leq m\), the decay estimate gives
-\[
-  \norm{\partial_x^\alpha u_0}_2^2
-  \leq
-  C_{\alpha,K}^2
-  \int_{\R^3}(1+|x|)^{-2K}\,dx
-  <\infty.
-\]
-Summing over the finitely many multi-indices with \(|\alpha|\leq m\) gives
-\begin{equation}\label{eq:FeffermanDatumSobolevRows}
-  \Ssigma\subset H_\sigma^m(\R^3)
-  \qquad\text{for every finite }m.
-\end{equation}
-
-The problem asks for velocity and pressure fields satisfying
+The velocity \(u\) and pressure \(p\) must satisfy
 \begin{equation}\label{eq:NavierStokesSystem}
   \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
   \qquad
   \nabla\cdot u=0,
   \qquad
   u(\cdot,0)=u_0
-  \quad\text{on }\R^3.
+  \quad\text{on }\R^3\times(0,\infty).
 \end{equation}
-Taking the divergence of \eqref{eq:NavierStokesSystem} gives
-\begin{equation}\label{eq:OpeningPressureNormalization}
-  -\Delta p=\partial_i\partial_j(u_i u_j).
-\end{equation}
-The decaying whole-space normalization consequently fixes the pressure once
-the velocity is fixed.  The required
-conclusion is
+The required conclusion is that, for every \(u_0\in\Ssigma\) and every \(\nu>0\), such fields exist for all nonnegative time and satisfy
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
-Smoothness here includes the endpoint of every finite interval.  It is stronger
-than being smooth on every shorter interval \([0,T]\) with \(T<T_*\), because a
-derivative can remain finite on each such interval and still have no finite
-trace at \(T_*\).
+Smoothness in \eqref{eq:WholeSpaceRegularityTarget} means that every spatial and temporal derivative of both fields exists and is continuous for all \(t\geq0\).
+Regularity is the assertion that this smoothness persists throughout the evolution.
+A continuation past a finite time \(T\) is a smooth solution on \([0,T+\varepsilon)\), for some \(\varepsilon>0\), whose velocity agrees with the original one on \([0,T]\) and which solves the same initial-value problem.
+Finite-time loss of regularity means that no such continuation exists for some finite \(T\).
