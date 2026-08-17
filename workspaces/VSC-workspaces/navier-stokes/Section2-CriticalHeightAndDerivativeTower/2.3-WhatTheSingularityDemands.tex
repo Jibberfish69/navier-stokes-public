@@ -1,0 +1,164 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{What the singularity demands}\label{sub:BodyFiniteTimeResponseEscalation}
+
+The singularity cannot simply appear at \(\tau\).
+The velocity has to reach every preceding state, and the intervals available for those changes are collapsing.
+Navier--Stokes already tells us how to read the first response.
+
+Along a particle path \(X'(t)=u(X(t),t)\),
+\[
+  \frac{d}{dt}u(X(t),t)
+  =D_tu(X(t),t),
+  \qquad
+  D_tu:=\partial_tu+(u\cdot\nabla)u.
+\]
+The momentum equation is therefore an equation for the material acceleration:
+\begin{equation}\label{eq:MaterialAccelerationEquationBody}
+  D_tu=-\nabla p+\nu\Delta u.
+\end{equation}
+Applying \(D_t\) again produces the material jerk, but it also differentiates the path and the transport field.
+To see the temporal responses that repeat inside this calculation, hold the spatial coordinate fixed and write
+\begin{equation}\label{eq:TemporalTowerDefinitionBody}
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np,
+  \qquad
+  n\in\Nzero.
+\end{equation}
+Material acceleration and the first Eulerian row are related by
+\[
+  D_tu=V_1+(V_0\cdot\nabla)V_0.
+\]
+They are not the same object.
+The rows \(V_0,V_1,V_2,\ldots\) are the fixed-position responses that repeated time differentiation of the equation actually generates.
+
+Now take one of those rows on an interval \([s,t]\).
+Absolute continuity in a fixed Banach space \(B\) gives
+\[
+  V_n(t)-V_n(s)
+  =\int_s^tV_{n+1}(\tau)\,d\tau,
+\]
+and therefore
+\begin{equation}\label{eq:BodyResponseEscalation}
+  \operatorname*{ess\,sup}_{s<\tau<t}
+  \norm{V_{n+1}(\tau)}_B
+  \geq
+  \frac{\norm{V_n(t)-V_n(s)}_B}{t-s}.
+\end{equation}
+If the interval shrinks while \(V_n\) still makes a definite change, the next response must grow.
+More precisely, if
+\[
+  t_k-s_k\longrightarrow0,
+  \qquad
+  \norm{V_n(t_k)-V_n(s_k)}_B\geq c_n>0,
+\]
+then \(V_{n+1}\) becomes unbounded along those intervals.
+The condition has to be paid at every rung: the next derivative is forced only when the current response continues to carry a nontrivial change.
+
+This is the exact content behind the velocity--acceleration--jerk picture.
+Velocity changing across a collapsing interval forces a large first response.
+If that response must change again across the next collapsing interval, jerk has to lead it.
+If the jerk must change, the next derivative has to lead the jerk.
+None of the later responses can stagnate while it is still being asked to produce the next state of the cascade.
+
+The equation now builds the Tower for us.
+At the first row,
+\[
+  V_1
+  =\nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0.
+\]
+Differentiate once.
+The time derivative can land on either copy of the velocity in the transport term:
+\[
+  V_2
+  =\nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1.
+\]
+Differentiate again, and the middle placement appears twice:
+\[
+  V_3
+  =\nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2.
+\]
+At order \(n\), the binomial coefficients count every way the time derivatives can divide between the transporting velocity and the velocity being transported:
+\begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
+  V_{n+1}
+  +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =\nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\end{equation}
+The temporal Tower is not an extra construction placed on top of Navier--Stokes.
+It is what Navier--Stokes becomes when the singularity question makes us follow every later response.
+
+Pressure follows the same differentiation.
+Taking the divergence of the original equation gives
+\begin{equation}\label{eq:PressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j),
+  \qquad
+  p=R_iR_j(u_i u_j),
+\end{equation}
+where decay at spatial infinity fixes the additive constant.
+At temporal order \(n\),
+\begin{equation}\label{eq:BodyTemporalPressureRecurrence}
+  Q_n
+  =R_iR_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+The velocity rows determine \(Q_n\), and \(\nabla Q_n\) returns immediately in the equation for \(V_{n+1}\).
+Pressure is present at every rung.
+
+The calculation also refuses to remain temporal.
+Viscosity contributes \(\Delta V_n\); transport differentiates in space; pressure is reconstructed from spatial singular integrals of the same velocity products.
+Following those derivatives introduces the mixed coordinates
+\begin{equation}\label{eq:BodyMixedJetDefinition}
+  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p,
+  \qquad
+  \alpha\in\Nzero^3.
+\end{equation}
+One spatial derivative already splits the transport again:
+\[
+  \partial_\ell\bigl((V_a\cdot\nabla)V_{n-a}\bigr)
+  =((\partial_\ell V_a)\cdot\nabla)V_{n-a}
+  +(V_a\cdot\nabla)\partial_\ell V_{n-a}.
+\]
+For a general multi-index \(\alpha\), Leibniz's rule gives
+\begin{align}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha}
+  \notag\\
+  &=
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+  \label{eq:BodyMixedJetRecurrence}
+\end{align}
+The pressure coordinates satisfy
+\begin{equation}\label{eq:BodyMixedPressureRecurrence}
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_x^\alpha\partial_i\partial_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+
+The attempted singularity has produced a two-directional object.
+Moving down changes the temporal response; moving across resolves that response more finely in space; and the equation couples both directions in every row.
+The surprise is what viscosity makes visible along the spatial direction.
