@@ -10,8 +10,7 @@ With
 \]
 the vorticity equation is
 \begin{equation}\label{eq:VorticityEquation}
-  D_t\omega
-  :=\partial_t\omega+(u\cdot\nabla)\omega
+  \partial_t\omega+(u\cdot\nabla)\omega
   =S\omega+\nu\Delta\omega.
 \end{equation}
 The stretching term amplifies vorticity under persistent extensional alignment; the same concentration sharpens the gradients on which diffusion acts.
@@ -47,6 +46,19 @@ The energy law acts below that height:
 It keeps the kinetic energy finite and controls one spatial derivative after integration in time.
 It does not prevent concentration from passing into shorter scales while the critical height rises.
 
+If \(H\) is unbounded before a finite candidate time \(\tau\), choose \(H_0>H(0)\), set \(L_k:=2^kH_0\), and let \(t_k\) be the first passage through \(L_k\) after \(t_{k-1}\).
+Continuity gives
+\[
+  t_0<t_1<t_2<\cdots<\tau,
+  \qquad
+  H(t_k)=2^kH_0,
+  \qquad
+  t_k\uparrow\tau.
+\]
+The height need not be monotone between passages.
+The Zeno demand is that every finite critical level be crossed before the same finite time.
+
+A finite singular time forces exactly that demand.
 Suppose the maximal classical solution has a finite last time \(T_*<\infty\).
 The endpoint criterion of Escauriaza, Seregin, and \v{S}ver\'ak says that a uniform \(L^3\) bound would continue the solution through \(T_*\) \parencite{EscauriazaSereginSverak2003}.
 Hence
@@ -61,9 +73,7 @@ Since \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\), finite maximality also fo
   \quad\Longrightarrow\quad
   \sup_{0<t<T_*}H(t)=\infty.
 \end{equation}
-
-Choose \(H_0>H(0)\), set \(L_k:=2^kH_0\), and let \(t_k\) be the first time after \(t_{k-1}\) at which \(H\) reaches \(L_k\), beginning with the first passage through \(H_0\).
-Continuity of \(H\) before \(T_*\) gives
+Thus \(\tau=T_*\), and the first passages satisfy
 \begin{equation}\label{eq:ZenoFirstPassageTimes}
   t_0<t_1<t_2<\cdots<T_*,
   \qquad
@@ -71,8 +81,6 @@ Continuity of \(H\) before \(T_*\) gives
   \qquad
   t_k\uparrow T_*.
 \end{equation}
-The height need not be monotone between these passages.
-The conclusion is sharper: every finite critical level has to be crossed before the same finite time.
 
 This is the Zeno form of the singularity problem.
 The remaining time collapses while the required critical-height response keeps increasing.
