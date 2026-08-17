@@ -69,6 +69,16 @@
 - handoff: Section 3 turns this discovered shape into the stated whole-terminal estimate and its intersection.
 
 ## Paragraph Movement Map
+- role: Causal section movement from physical concentration to the finite intersection object.
+- reader_in: Section 1 has left a finite-time concentration schedule open, but the reader has not yet followed one motion through the analytic consequences.
+- pressure: Critical height, Zeno, temporal response, spatial regularity, and rectangles remain separate topics instead of one discovery.
+- core_move: Keep the perfectly stretching vortex in view through critical escape, let finite-time escape generate the temporal Tower, derive the pressure-complete mixed jet, and place its temporal and spatial directions together until the intersection and finite rectangle become unavoidable.
+- hinge_question: How can the same escalation that demands higher temporal blow-up also open more spatial regularity?
+- reader_out: The reader sees the mixed Tower as a two-directional object whose spatial intersections point to smoothness and whose finite rectangles are the exact units Section 3 controls.
+- next_need: Prove whole-terminal compatible control for every chosen finite rectangle.
+- must_keep: Thomas's physical entry and sequence; pressure; Eulerian/material distinction; downstream labels; no bound inferred from recurrence alone.
+- avoid: Rejected assistant openings; generic definitions; one-history administration; scalar reconstruction; theorem-status narration; duplication of Section 3's completed derivation.
+
 1.
 - inherited_pressure: Section 1 ends with a concentration schedule left open by classical estimates.
 - sentence_job: Put a whirlpool with a tail in the reader's mind without textbook definition or hedging.
