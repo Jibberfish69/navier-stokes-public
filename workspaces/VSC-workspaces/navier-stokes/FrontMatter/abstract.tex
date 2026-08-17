@@ -1,9 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 
-We prove global existence and smoothness for the unforced three-dimensional incompressible Navier--Stokes equations on \(\R^3\), for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity.
-Fix such a datum \(u_0\), and let \((u,p)\) be its pressure-normalized maximal classical solution on \([0,T_*)\).
-If \(T_*<\infty\), the central estimate controls every prescribed finite adjacent rectangle of temporal and spatial derivatives of this same solution on the whole interval \((0,T_*)\); the pressure recurrence supplies the corresponding normalized pressure rows.
-Larger rectangles restrict to identical coordinates in smaller ones, so the finite blocks assemble into one datum-specific compatible intersection.
-That intersection gives a common terminal velocity in \(H^\infty\) and the complete pressure-normalized endpoint jet.
-Local well-posedness and uniqueness then continue the same history through \(T_*\), contradicting maximality.
-Thus \(T_*=\infty\); velocity and normalized pressure remain smooth for all time, and the energy identity keeps kinetic energy bounded by its initial value.
+We prove that, for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity \(u_0\) on \(\R^3\), the maximal classical solution of the unforced three-dimensional incompressible Navier--Stokes equations is global, with velocity and pressure smooth for all time.
+If its lifespan ended at a finite \(T_*\), every fixed finite block of temporal and spatial derivatives of that same solution would remain uniformly controlled over all cutoffs \(T<T_*\).
+The equation supplies the time regularity needed to extend the solution to \(T_*\) in every finite Sobolev space; compatibility on overlaps identifies these extensions with one terminal velocity \(u_*\in H^\infty\).
+Local well-posedness continues the original solution from \(u_*\) beyond \(T_*\), contradicting maximality.
+The global solution obeys the energy identity, so its kinetic energy never exceeds its initial value.
