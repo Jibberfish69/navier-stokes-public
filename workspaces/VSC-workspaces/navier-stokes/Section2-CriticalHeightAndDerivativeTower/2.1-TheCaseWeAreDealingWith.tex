@@ -14,6 +14,8 @@ Nature does not hand us a vortex that stretches perfectly forever.
 That is the point of the case.
 To concentrate without being diverted, the fluid would have to arrive again and again at the balance that preserves the stretch while viscosity acts on the sharpening it creates.
 
+\input{Section2-CriticalHeightAndDerivativeTower/figures/PerfectlyStretchingVortex.tex}
+
 Write
 \[
   \omega:=\nabla\times u,
@@ -35,46 +37,6 @@ The word \emph{core} in the picture can be read in two ways.
 It may follow a fixed set of fluid labels as they move apart, or it may mark the visible high-vorticity region while particles enter and leave it.
 The drawing supports either physical reading.
 The argument below uses only statements about the complete velocity field, so it does not ask the drawing to decide between them.
-
-\begin{center}
-\captionsetup{hypcap=false}
-\begin{tikzpicture}[
-  >=stealth,
-  logic/.style={draw=black!55,rounded corners=2pt,fill=black!3,
-    align=center,text width=3.0cm,minimum height=1.2cm,font=\small},
-  note/.style={align=center,font=\small}
-]
-  \draw[blue!70!black,thick,domain=-1.1:1.1,samples=90]
-    plot ({-3.7+0.78*cos(560*\x)},{1.05*\x+2.4});
-  \draw[blue!35!black,thick]
-    (-4.48,2.4) arc[start angle=180,end angle=540,x radius=.78,y radius=.24];
-  \draw[->,very thick,black!65] (-3.7,3.6)--(-3.7,4.45);
-  \draw[->,very thick,black!65] (-3.7,1.2)--(-3.7,.35);
-  \node[note] at (-3.7,-.05) {whirlpool with a tail\\radius \(r_0\)};
-
-  \draw[->,very thick,black!65]
-    (-1.7,2.4)--(1.15,2.4)
-    node[midway,above,note] {stretch and narrow};
-
-  \draw[blue!70!black,thick,domain=-1.35:1.35,samples=120]
-    plot ({3.2+0.40*cos(820*\x)},{1.28*\x+2.4});
-  \draw[blue!35!black,thick]
-    (2.80,2.4) arc[start angle=180,end angle=540,x radius=.40,y radius=.13];
-  \draw[->,very thick,black!65] (3.2,4.15)--(3.2,4.85);
-  \draw[->,very thick,black!65] (3.2,.65)--(3.2,-.05);
-  \node[note] at (3.2,-.45) {same fluid, tighter winding\\radius \(r_1<r_0\)};
-
-  \node[logic] (a) at (-5.25,-2.1) {possible finite\\singularity};
-  \node[logic] (b) at (-1.75,-2.1) {global \(L^3\)\\escape};
-  \node[logic] (c) at (1.75,-2.1) {critical height\\\(H(t)\) unbounded};
-  \node[logic] (d) at (5.25,-2.1) {Zeno first passages\\\(t_k\uparrow T_*\)};
-  \draw[->,thick] (a)--(b);
-  \draw[->,thick] (b)--(c);
-  \draw[->,thick] (c)--(d);
-\end{tikzpicture}
-\captionof{figure}{The perfectly stretching vortex keeps one physical danger in view while the implication chain below it moves to global quantities.}
-\label{fig:BalancedVortexCriticalRoute}
-\end{center}
 
 \Needspace{7\baselineskip}
 In the picture, the striking feature is not that a particle has already acquired infinite speed.
@@ -110,7 +72,7 @@ For \(\lambda>0\), set
   p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \]
 Time change, transport, pressure, and viscosity all acquire the same factor \(\lambda^3\).
-Moving to a smaller Navier--Stokes scale does not make diffusion disappear or make transport disappear; it preserves their relative strength.
+Moving to a smaller \NavierStokes{} scale does not make diffusion disappear or make transport disappear; it preserves their relative strength.
 At the same time,
 \[
   \norm{u_\lambda(t)}_{\dot H^s}
@@ -136,9 +98,13 @@ Rescaling a fixed profile leaves its critical height unchanged.
 Equation \eqref{eq:CriticalHeightMustEscape} says something stronger: the critical height of the evolving solution itself crosses every finite level.
 
 Because the solution is classical before \(T_*\), \(H\) is continuous on every closed subinterval of \([0,T_*)\).
-Choose \(H_0>H(0)\), set \(L_k:=2^kH_0\), and let \(t_k\) be the first time after \(t_{k-1}\) at which \(H\) reaches \(L_k\), beginning with
+Choose \(H_0>H(0)\), set \(L_k:=2^kH_0\), and define the first-passage times by
 \[
+  \begin{aligned}
   t_0:=\inf\{t\in(0,T_*):H(t)=H_0\}.
+  \qquad
+  t_{k+1}:=\inf\{t\in(t_k,T_*):H(t)=L_{k+1}\}.
+  \end{aligned}
 \]
 Every such time exists by \eqref{eq:CriticalHeightMustEscape}, and
 \begin{equation}\label{eq:ZenoFirstPassageTimes}
@@ -153,6 +119,6 @@ Between two first passages the height may rise, fall, and rise again; the constr
 
 This is the Zeno cascade.
 The perfectly stretching picture has now become an exact demand on the full field: the same fluid would have to reach infinitely many new critical-height levels before one finite time.
-The vortex does not only have to become thinner.
+Becoming thinner is only one part of the demand.
 Its velocity has to change quickly enough to keep meeting the next level, its acceleration has to change quickly enough to produce that response, and its jerk has to change quickly enough to produce the next one.
 The singularity has opened a Tower.
