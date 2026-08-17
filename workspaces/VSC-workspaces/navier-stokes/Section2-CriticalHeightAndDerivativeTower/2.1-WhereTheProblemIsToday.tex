@@ -1,7 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{Where the Problem Is Today}\label{sub:ThePerfectlyStretchingVortex}
 
-The regularity problem lives in one exact balance.  A vortex remains aligned with a positive extensional direction of the strain.  The strain amplifies its vorticity; incompressibility contracts the cross-section of the material filament; and that contraction sharpens precisely the gradients on which viscosity acts.  Bending, wobble, loss of alignment, or fragmentation would break the repetition.  The hard case gives us none of those exits: the vortex stretches, narrows, and remains aligned to stretch again.
+The hard case developed here is a vortex that remains aligned with a positive extensional direction of the strain.  The strain amplifies its vorticity; incompressibility contracts the cross-section of the material filament; and that contraction sharpens precisely the gradients on which viscosity acts.  Bending, wobble, loss of alignment, or fragmentation would break the repetition.  The case we are testing gives us none of those exits: the vortex stretches, narrows, and remains aligned to stretch again.
 
 Let
 \[
@@ -44,7 +44,7 @@ The vortex variables make the physical consequence even sharper:
   \qquad
   S_\lambda(x,t)=\lambda^2S(\lambda x,\lambda^2t).
 \]
-Both \(S_\lambda\omega_\lambda\) and \(\nu\Delta\omega_\lambda\) acquire the factor \(\lambda^4\).  Scaling does not show that the alignment persists.  It shows that, if the aligned vortex does persist to a smaller scale, viscosity gains no relative advantage there: stretching and diffusion return with the same homogeneity.  That is the critical balance.
+Both \(S_\lambda\omega_\lambda\) and \(\nu\Delta\omega_\lambda\) acquire the factor \(\lambda^4\).  Scaling does not show that the alignment persists, nor does it equate the magnitudes of the two terms.  It shows that, if the aligned vortex does persist to a smaller scale, scale alone gives viscosity no relative advantage: stretching and diffusion carry the same homogeneity.  That is the critical balance.
 
 A balance that survives concentration needs a quantity capable of seeing the concentrated profile as the same size.  The homogeneous Sobolev scale tells us exactly where that happens.  Since
 \[
@@ -75,7 +75,7 @@ There is one exponent, and only one, at which the scale factor disappears: \(s=\
   :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
-This is the critical height.  The vortex can tighten to a shorter length without making this measurement smaller.  The danger has changed scale, but \(H\) still sees the same danger.
+This is the critical height.  Concentrating a profile by the Navier--Stokes rescaling does not make this measurement smaller.  The danger has changed scale, but \(H\) assigns the rescaled profile the same size.
 
 Kinetic energy sees something else.  Pairing Navier--Stokes with \(u\) removes the transport and pressure terms by incompressibility, while integration by parts fixes the viscous sign.  Hence
 \[
@@ -94,7 +94,7 @@ This law is exact, but it lives below the critical scale.  At \(s=0\), the same 
   \norm{u_\lambda(t)}_2^2
   =\lambda^{-1}\norm{u(\lambda^2t)}_2^2.
 \]
-Every time the vortex tightens by \(\lambda\), its kinetic energy can fall by \(\lambda^{-1}\) while its critical height remains unchanged and its gradients sharpen.  Nothing in that motion violates the energy law.  In fact, the energy bound becomes easier to satisfy along the very concentration we need it to exclude.  This is why the problem sits at critical height: ordinary energy gets smaller while the scale-invariant danger survives.
+Under the concentration being tested, kinetic energy acquires the factor \(\lambda^{-1}\) while critical height stays invariant and gradients acquire positive powers of \(\lambda\).  The rescaled profile therefore fits more easily inside the energy bound even as its critical-scale gradient danger sharpens.  The energy law does not rule out that route.  This is why the problem sits at critical height: ordinary energy gets smaller while the scale-invariant danger survives.
 
 The smaller state still has to be produced.  At length \(\ell\), the Laplacian contributes \(\ell^{-2}\), so viscosity changes a structure at the rate \(\nu/\ell^2\).  Its natural response time is the reciprocal:
 \begin{equation}\label{eq:BodyHeatComparisonTime}
