@@ -1,25 +1,15 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The case we are dealing with}\label{sub:ThePerfectlyStretchingVortex}
 
-The regularity problem comes down to a vortex that can keep stretching without ever giving viscosity an advantage.
-Its vorticity stays aligned with a positive extensional direction of the strain.
-The strain strengthens the vorticity, incompressibility contracts the cross-section of the material filament, and the gradients sharpen as the filament narrows.
-Bending, wobble, loss of alignment, and fragmentation can all interrupt that motion.
-The case we have to deal with is the one that holds the alignment and keeps stretching anyway.
+The case we are dealing with is a vortex that keeps stretching at the exact balance between strain and viscosity.
+Its vorticity stays aligned with a positive extensional direction of the strain, so the strain amplifies it while incompressibility contracts the cross-section of the material filament.
+The vortex narrows, its gradients sharpen, and viscosity acts on those same gradients.
+Bending, wobble, loss of alignment, and fragmentation would interrupt the motion.
+Set them aside.
+The hard case is the vortex that stays in the stretch.
 
-Viscosity acts on exactly what the stretching makes worse: the gradients.
-The first question is whether narrowing the vortex moves the balance toward viscosity.
-The natural scaling leaves it exactly where it was.
-Vortex stretching and viscous diffusion acquire the same power of scale, so the vortex can become narrower without moving below the balance between them.
-
-The rest of the problem is already visible in that one fact.
-We need a measure of concentration that stays unchanged when the scale shrinks; that is the critical height.
-Energy falls while that height stays fixed.
-The viscous clock shortens.
-If the evolution keeps realizing smaller scales, the clock can become Zeno and the gradients can become singular.
-Then each shorter passage has to be produced by acceleration, jerk, and every later temporal response.
-Differentiating those responses pulls higher spatial derivatives into the same structure.
-This is where the Derivative Tower and its intersection come from.
+The question is immediate: does a smaller vortex give viscosity an advantage?
+The Navier--Stokes scaling says that the balance survives.
 
 Here is the balance itself.
 Write
