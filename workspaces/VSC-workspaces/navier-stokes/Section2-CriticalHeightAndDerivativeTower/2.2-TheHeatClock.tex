@@ -1,8 +1,8 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The heat clock}\label{sub:BodyHeatClock}
 
-The scaling calculation tells us that a smaller vortex can remain just as critical.
-It does not tell us how much time the fluid has to make the next smaller state.
+Every contraction has to happen while viscosity is already acting on the vortex.
+That gives the smaller scale a shorter clock.
 
 A structure of width \(\ell\) is carried by frequencies of order \(|\xi|\sim\ell^{-1}\).
 Under the linear heat flow, those frequencies decay according to
@@ -16,10 +16,11 @@ At scale \(\ell\), this gives
   \delta t_{\mathrm{heat}}(\ell)
   \asymp\frac{\ell^2}{\nu}.
 \end{equation}
-This is the heat clock.
 When the vortex narrows from \(\ell\) to \(\ell/\lambda\), its viscous response time shrinks by \(\lambda^{-2}\).
+Halving the width quarters the clock.
+The same scaling that preserves the critical balance is compressing the time available for the next stage.
 
-Now repeat the contraction at a fixed ratio:
+After repeated contractions at a fixed ratio,
 \[
   \ell_k=\rho^k\ell_0,
   \qquad
@@ -41,27 +42,29 @@ and the whole sequence satisfies
   \frac{\ell_0^2}{\nu(1-\rho^2)}
   <\infty.
 \]
-Every new scale comes with less time than the one before it, and all of those comparison times fit inside one bounded interval.
-That is the Zeno possibility.
+The sum converges.
+So an infinite sequence of smaller scales does not require an infinite amount of time; every stage can fit inside a shorter interval than the one before it.
+That is the opening left by the heat clock.
 
-The geometric series by itself is only a clock.
-The fluid still has to use those shrinking intervals to reach more dangerous states.
-An exact rescaled copy leaves \(H\) unchanged, so contraction alone cannot produce critical-height blow-up.
-A realized cascade needs both parts at once: the active length must fall while the critical height rises.
+But scale collapse by itself is not yet a singularity.
+An exact rescaled copy leaves \(H\) unchanged, while
+\(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\) and bounded critical \(L^3\) control rules out singularity \parencite{EscauriazaSereginSverak2003}.
+The actual route would have to strengthen while it concentrates: the active length must fall while the critical height rises.
 
-Choose \(H_0>H(0)\) and set
+Let \(H_0>H(0)\) and set
 \[
   L_k:=2^kH_0.
 \]
-Whenever the level is reached, let
+For every level the solution reaches, let
 \[
   t_k:=\inf\{t>0:H(t)=L_k\}.
 \]
-If arbitrarily high levels are reached, continuity orders the first passages:
+Along a singular route, arbitrarily high levels are reached and continuity orders the first passages:
 \[
   t_0<t_1<t_2<\cdots.
 \]
-Suppose the \(k\)-th passage occurs at the active length \(\ell_k=\rho^k\ell_0\), and suppose the next passage is completed within a fixed multiple of the heat time:
+The Zeno question is whether the passage from \(L_k\) to \(L_{k+1}\) can occur on the heat clock of the active scale.
+If the \(k\)-th passage occurs at \(\ell_k=\rho^k\ell_0\) and the next passage is completed within a fixed multiple of that heat time, then
 \[
   0<t_{k+1}-t_k
   \leq
@@ -76,7 +79,7 @@ Then
   t_k\uparrow\tau
 \]
 for some \(\tau<\infty\).
-The fluid is now crossing higher critical levels while the active scale and the interval available for each crossing collapse together.
+The crossings accumulate while the critical height climbs and the active scale collapses.
 This is the Zeno cascade attached to critical height.
 
 The same rescaling sharpens spatial derivatives:
@@ -86,10 +89,28 @@ The same rescaling sharpens spatial derivatives:
   \qquad
   m\in\Nzero.
 \]
-At the \(k\)-th active scale, \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\), so the first gradient carries the factor \(\lambda_k^2\).
-If the normalized gradients of the realized states remain nonzero, the physical gradients diverge as \(k\to\infty\).
-The scale is collapsing, the crossings are accelerating, and the gradients are sharpening without bound.
-Their limit is the singularity described by the critical-height vortex.
+At the \(k\)-th active scale, let \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\) and write the vortex in normalized coordinates as
+\[
+  u\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
+  =\lambda_k U_k(y),
+  \qquad y\in B_1.
+\]
+Then
+\[
+  \nabla_xu\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
+  =\lambda_k^2\nabla_yU_k(y).
+\]
+If the normalized vortex profiles do not flatten,
+\[
+  \inf_k\norm{\nabla U_k}_{L^\infty(B_1)}\geq c>0,
+\]
+then
+\[
+  \norm{\nabla u(t_k)}_{L^\infty}
+  \geq c\lambda_k^2
+  \longrightarrow\infty.
+\]
+The Zeno route has now reached its spatial consequence: the scale collapses while critical height and the physical gradients escape every finite bound.
 
-Between one crossing and the next, the velocity still has to make a real change.
-Once those intervals collapse, that change becomes a demand on acceleration, jerk, and every later response.
+What does the fluid have to do in time to cross those levels on intervals that keep collapsing?
+It has to keep changing faster.
