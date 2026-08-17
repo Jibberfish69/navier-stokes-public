@@ -26,7 +26,7 @@ To keep the particle response and the fixed-position calculation distinct, set
   n\in\Nzero.
 \end{equation}
 Here \(V_0\) is velocity, \(V_1\) is the Eulerian part of acceleration, and \(V_2\) is the second fixed-position response associated with the jerk calculation.
-The short-interval pressure behind these rows follows from one integral identity.
+The shrinking intervals make the size of the next Eulerian response exact.
 Let \(B\) be a fixed Banach space.
 Whenever \(V_n\) is absolutely continuous from \([s,t]\) into \(B\),
 \[
@@ -120,6 +120,7 @@ Applying \(\partial_t^n\) produces the same binomial split:
 The velocity rows determine \(Q_n\) at the same temporal depth, and \(\nabla Q_n\) returns to \eqref{eq:BodyTemporalVelocityRecurrence} as part of the next response.
 The Tower is pressure-complete at every rung.
 
+\Needspace{10\baselineskip}
 The recurrence also reveals the spatial structure inside the temporal Tower.
 The viscous term contains \(\Delta V_n\), transport contains one spatial derivative, and pressure is reconstructed nonlocally from spatial derivatives of products of the velocity rows.
 Expose those derivatives by setting

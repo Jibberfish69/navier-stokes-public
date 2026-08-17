@@ -42,10 +42,11 @@ Leibniz's rule gives
 \begin{equation}\label{eq:BodyHeightDerivativeTemporalContraction}
   H^{(n)}(t)
   =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
   \pair{\Lambda^{1/2}V_a(t)}
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
-Thus \(H^{(n)}\) is built from the first \(n\) Eulerian response rows.
+Thus \(H^{(n)}\) is built from the rows \(V_0,\ldots,V_n\).
 It remains a scalar quadratic functional of those rows, distinct from \(V_n\).
 This is the bridge that lets the temporal Tower be read at critical height.
 
@@ -67,14 +68,14 @@ Retain the complete transport--pressure term as
   {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
 \]
 The exact energy row is
-\begin{equation}\label{eq:BodyCriticalEnergyBalancePreview}
+\begin{equation}\label{eq:BodyCriticalEnergyBalance}
   E_s'=\mathcal P_s-2\nu E_{s+1}.
 \end{equation}
 At the critical height, one temporal derivative exposes the next spatial height:
 \[
   H'=\mathcal P_{1/2}-2\nu E_{3/2}.
 \]
-Differentiate once more and use \eqref{eq:BodyCriticalEnergyBalancePreview} at \(s=\tfrac32\):
+Differentiate once more and use \eqref{eq:BodyCriticalEnergyBalance} at \(s=\tfrac32\):
 \begin{align*}
   H''
   &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
@@ -93,7 +94,7 @@ The next derivative uses the row at \(s=\tfrac52\):
 \]
 Every earlier transfer remains in the next row, and each differentiation adds one higher viscous energy.
 Induction gives, for \(n\geq1\),
-\begin{equation}\label{eq:BodyCriticalHeightSpatialAscentPreview}
+\begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
   H^{(n)}
   =(-2\nu)^nE_{n+1/2}
   +\sum_{j=0}^{n-1}
@@ -101,8 +102,8 @@ Induction gives, for \(n\geq1\),
   \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
 \end{equation}
 Because \(\nu>0\), the coefficient of the top spatial energy is nonzero at every order.
-The same identity can be read as
-\[
+The same identity can be solved for that height:
+\begin{equation}\label{eq:BodyCompletedCriticalRow}
   E_{n+1/2}
   =(-2\nu)^{-n}
   \left(
@@ -111,9 +112,9 @@ The same identity can be read as
       (-2\nu)^j
       \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
   \right).
-\]
+\end{equation}
 Controlling the critical response and every retained transfer term at depth \(n\) controls the spatial energy at height \(n+\tfrac12\).
-The identities locate that control; the rectangle estimate in the next section supplies it.
+The identity exposes the height; it does not supply that control by itself.
 
 \Needspace{18\baselineskip}
 \begin{center}
@@ -135,31 +136,42 @@ order & Eulerian response & critical response & spatial height exposed \\
 \end{tabularx}
 \end{center}
 
-This is where the reversal appears.
-The singularity route asks the velocity field to make increasingly sharp changes across increasingly short intervals.
+The singularity route asks for sharper changes across shorter intervals.
 The temporal Tower measures those responses.
-At the same order, viscosity places a still higher spatial energy in the completed height row.
-Once the finite response and transfer terms are controlled, moving deeper in time produces control farther across the Sobolev scale.
-The result is increasing spatial regularity at increasing temporal depth.
-The singularity pressure and the viscous ascent are balanced and opposing: one sharpens toward loss of regularity, while the other reaches higher Sobolev spaces.
+At the same order, the completed height identity exposes a higher spatial energy.
+This is the reversal: once its finite response and transfer terms are controlled, the equation yields more spatial regularity, not less.
+For now that is one diagonal of exposed coordinates, not a regularity conclusion.
 
-Each completed row reaches one finite spatial height.
-All finite heights at one temporal order form the rowwise target
-\[
-  V_r\in\bigcap_{m=0}^{\infty}L^2(I;H^m(\R^3)),
-\]
-on a common time interval \(I\).
-Requiring the same at every finite temporal depth gives
-\begin{equation}\label{eq:BodyDesiredMixedIntersection}
-  u\in
-  \bigcap_{r=0}^{\infty}
-  \bigcap_{m=0}^{\infty}
-  H^r(I;H^m(\R^3)).
+The mixed recurrence opens the rest of the grid.
+Fix a temporal row \(V_r\) and define
+\begin{align*}
+  E_{r,s}
+  &:=\frac12\norm{\Lambda^sV_r}_2^2,
+  \\
+  \mathcal P_{r,s}
+  &:=-\operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left(
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right)}_{L^2}.
+\end{align*}
+Pairing the \(r\)-th equation in \eqref{eq:BodyTemporalVelocityRecurrence} with \(\Lambda^{2s}V_r\) gives
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
 \end{equation}
-This intersection asks for every finite coordinate while keeping the temporal and spatial orders independent.
-Each row carries one finite height at a time; the all-orders regularity belongs to their intersection.
-
-The geometry is a grid:
+The same calculation now repeats inside that row.
+For \(k\geq1\),
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^kE_{r,1/2}
+  =(-2\nu)^kE_{r,k+1/2}
+  +\sum_{j=0}^{k-1}
+  (-2\nu)^j
+  \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+There is one spatial ascent inside \(V_0\), another inside \(V_1\), and another inside every finite response \(V_r\).
+The row index \(r\) and the spatial height are independent.
+The diagonal found above is the first visible slice of a two-dimensional grid:
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
@@ -172,23 +184,15 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \end{array}
 \]
 Moving down selects a later response; moving across asks for a higher Sobolev height inside that response.
-Fixing a temporal depth and a spatial height cuts out a finite rectangle.
-Larger cutoffs retain every coordinate in the smaller block and add the next rows or columns.
 
-The initial datum supplies the lower edge of every such finite block.
-Because \(u_0\in\Ssigma\), \(V_0(0)\) belongs to every finite Sobolev space.
-Assume the velocity rows through \(V_n(0)\) have this property and fix a target order \(m\).
-Sobolev multiplication at a sufficiently high finite order and the Riesz-transform formula \eqref{eq:BodyTemporalPressureRecurrence} give \(Q_n(0)\in H^{m+1}\).
-The recurrence \eqref{eq:BodyTemporalVelocityRecurrence} then uses \(V_n(0)\in H^{m+2}\), the finite transport products, and \(\nabla Q_n(0)\in H^m\) to place \(V_{n+1}(0)\) in \(H^m\).
-Induction yields
-\begin{equation}\label{eq:BodyInitialPressureCompleteMixedJet}
-  J_{n,\alpha}(0)\in H_\sigma^m(\R^3),
-  \qquad
-  \Pi_{n,\alpha}(0)\in H^m(\R^3)
+One diagonal coordinate is not smoothness, and one finite row is not smoothness.
+The target is every chosen finite spatial coordinate inside every chosen finite temporal response:
+\begin{equation}\label{eq:BodyDesiredMixedIntersection}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I;H^m(\R^3)).
 \end{equation}
-for every finite \(n\), \(\alpha\), and \(m\).
-This gives the finite coordinates at the initial edge.
-
-What remains is their common control over the interval.
-The scaling diagonal and completed height rows have shown which coordinates matter; the established datum-generated theorem now supplies their finite rectangle bounds and their compatible assembly.
-The next section turns that theorem into the spatial regularity predicted by the reversal.
+That is the intersection already embedded in the mixed Tower.
+Fixing finite cutoffs \(N\) and \(M\) selects a finite rectangle of the grid; increasing either cutoff adds the next rows or columns without changing the coordinates already selected.
+Section~\ref{sec:TheIntersectionInsideTheTower} turns that geometric rectangle into an adjacent trace block and applies the datum-generated estimate that fills it.
