@@ -1,0 +1,32 @@
+{
+  "task_id":"task-ed614047711944a5",
+  "task_sha256":"60c3cd3ab52cd9954ffe377416eeeefc6c2a5a25c645ea55ec2c5b641bbc5ba5",
+  "prediction_sha256":"a45613b42321d8ea8fc4c37500ef622b0259357e22853be5a05b66823df088b5",
+  "candidate_sha256":"bf1c23cb62ce93c7b87766648c340a3087d29c87fec95480a433af18030b1a50",
+  "selected_move_id":"causal-proof-bearing-rebuild",
+  "producer_id":"codex-root",
+  "evaluator_id":"codex-root-source-check",
+  "dimensions":{
+    "task_fidelity":{"status":"pass","evidence":"The candidate gives one exact whole-paper proposal and explicitly records that no manuscript edit was made."},
+    "work_advancement":{"status":"pass","evidence":"It selects a complete replacement architecture and identifies what stays, moves, and is removed."},
+    "structural_meshing":{"status":"pass","evidence":"Section 1 earns the finite history, the live Section 2 discovers the grid, Section 3 pays and closes it, and consequences follow."},
+    "bridge_quality":{"status":"pass","evidence":"The outgoing need from Section 2 is the exact whole-terminal estimate that opens Section 3."},
+    "enrichment_control":{"status":"pass","evidence":"Added details are limited to exact quantifiers, dependency order, and source movements."},
+    "intellectual_value":{"status":"pass","evidence":"The proposal turns body and appendices from parallel retellings into one proof-bearing sequence."},
+    "authorial_completion":{"status":"pass","evidence":"The candidate makes the structural judgment without returning internal choices to the user."},
+    "thought_selection":{"status":"pass","evidence":"It selects proof burden allocation as the dominant issue and keeps layout secondary."},
+    "direct_object_fidelity":{"status":"pass","evidence":"It holds the live VSC manuscript and one pressure-normalized Navier-Stokes history throughout."},
+    "connection":{"status":"pass","evidence":"Each section is connected by the mathematical need produced by the preceding one."},
+    "development":{"status":"pass","evidence":"The proposal develops the architecture, central theorem placement, appendix reduction, and front matter."},
+    "development_sufficiency":{"status":"pass","evidence":"Every major manuscript surface receives a concrete disposition."},
+    "expression":{"status":"pass","evidence":"The response leads with the outcome, uses exact mathematics where decisive, and avoids framework narration."},
+    "nuance":{"status":"pass","evidence":"It separates manuscript self-containment from settled theorem status and source state from PDF snapshot state."},
+    "understanding":{"status":"pass","evidence":"The exact same-history proof order and the distinction between material and Eulerian derivatives are preserved."},
+    "authorship":{"status":"uncertain","evidence":"The structural choice is source-grounded, but Thomas has not approved its voice or map."},
+    "reader_continuity":{"status":"pass","evidence":"The plan tracks what the reader knows and needs at each movement."},
+    "deeper_connections_and_thoughts":{"status":"pass","evidence":"It connects the physical vortex story to the formal rectangle payment without converting either into a competing route."},
+    "sample_content_leakage":{"status":"pass","evidence":"No content from unrelated writing samples appears in the candidate."},
+    "confidence_calibration":{"status":"pass","evidence":"The response identifies the proposal boundary and the current source/PDF drift."}
+  },
+  "verdict":"pass"
+}
