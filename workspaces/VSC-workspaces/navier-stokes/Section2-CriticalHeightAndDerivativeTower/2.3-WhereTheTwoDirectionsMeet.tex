@@ -65,9 +65,9 @@ Its spatial coordinates run through
   V_r\in H^2,\quad
   \ldots.
 \]
-If that row can be placed at every finite Sobolev level, then the spaces meet as an intersection:
+At any time for which that row can be placed at every finite Sobolev level, the spaces meet as an intersection:
 \[
-  V_r
+  V_r(t)
   \in
   \bigcap_{m=0}^{\infty}H^m(\R^3)
   =
@@ -78,6 +78,7 @@ If that row can be placed at every finite Sobolev level, then the spaces meet as
 The spaces intersect.
 Their norms are not summed, and no single constant is asked to control all orders at once.
 The same intersection-to-smoothness implication is available separately in every temporal row.
+This is the spatial meaning of the intersection, not yet a conclusion at \(T_*\).
 
 Lay those rows beneath one another and the full shape appears:
 \[
@@ -97,12 +98,8 @@ Their meeting is already present in every entry of the pressure-complete mixed j
 
 An estimate cannot take the infinite diagram as one indivisible object.
 Choose a finite temporal depth \(N\) and a finite spatial depth \(M\).
-The rows \(0,\ldots,N\) and columns \(0,\ldots,M\) cut out a finite rectangle.
-A larger choice simply carries the same grid farther downward or farther across.
-
-The right statement is finite at every stage.
-For each chosen \(N\) and \(M\), control that rectangle through the entire approach to \(T_*\); allow its constant to depend on \(N\) and \(M\); then let the compatible family range over all finite choices.
-Section~3 proves that whole-terminal rectangle estimate, completes the spatial ascent inside every temporal row, and takes the resulting intersection.
+The corresponding finite cut has the shape of a rectangle.
+Section~3 builds the exact rectangle with the adjacent rows and pressure relations needed by the equation, controls it through the finite endpoint, and takes the resulting intersection.
 
 The perfectly stretching vortex began with a motion that seemed able to press energy into smaller regions while its responses accelerated toward one finite time.
 Following that motion opened the temporal Tower.
