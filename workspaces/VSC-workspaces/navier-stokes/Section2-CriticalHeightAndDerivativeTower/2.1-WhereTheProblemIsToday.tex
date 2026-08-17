@@ -3,10 +3,10 @@
 
 Here is the regularity problem in one pass.
 Vortex stretching sharpens the velocity field, while viscosity smooths the gradients that sharpening creates.
-At critical height, rescaling gives neither mechanism an advantage.
+At critical height, rescaling gives stretching and viscosity the same weight.
 The unresolved case is a vortex that stays aligned with the extensional strain as it stretches, so every sharper state remains positioned for the next stretch.
 Scaling tells us exactly what this balance permits: kinetic energy can decrease while the critical quantity stays unchanged, the heat clock runs faster, and the gradients grow.
-Repeated without interruption, the shorter clock is the Zeno cascade and the growing gradients are the singularity.
+Repeated as an uninterrupted sequence, the shorter clock is the Zeno cascade and the growing gradients are the singularity.
 The singularity then forces us to ask what velocity, acceleration, jerk, and every later response must do.
 That is the route into the derivative Tower.
 
@@ -24,8 +24,7 @@ Taking the curl of Navier--Stokes gives
 When \(\omega\) remains aligned with an extensional direction of \(S\), the term \(S\omega\) amplifies the vorticity.
 The resulting concentration steepens the field, so the Laplacian acts on increasingly sharp gradients at the same time.
 Ordinary motion breaks this exact alignment through bending, wobble, or fragmentation; the perfectly stretching case removes those exits and keeps the alignment through the next round.
-It is not a pointwise cancellation \(S\omega+\nu\Delta\omega=0\).
-It is the limiting regime in which stretching and diffusion remain matched under every change of scale.
+The matching is a scaling balance: stretching and diffusion retain the same weight under every change of scale.
 
 For \(\lambda>0\), that change of scale is
 \[
@@ -87,7 +86,7 @@ With \(\Lambda:=(-\Delta)^{1/2}\), define
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
 This is the critical height.
-A rescaled copy can move to a shorter length without moving up or down in \(H\).
+A rescaled copy preserves \(H\) while its length shortens.
 
 Kinetic energy does move.
 Putting \(s=0\) in the same scaling law gives
@@ -109,7 +108,7 @@ After integration in time,
   =\frac12\norm{u_0}_2^2.
 \end{equation}
 This law keeps the total kinetic energy finite.
-It cannot rule out concentration at critical height, because the rescaled structure carries only \(\lambda^{-1}\) of the kinetic energy while carrying exactly the same \(\dot H^{1/2}\) size.
+The law leaves concentration at critical height open: the rescaled structure carries only \(\lambda^{-1}\) of the kinetic energy while carrying exactly the same \(\dot H^{1/2}\) size.
 The energy estimate sits below the scale on which the danger is unchanged.
 
 Now the clock changes.
@@ -145,19 +144,19 @@ In particular, the same step that divides the heat time by \(\lambda^2\) multipl
 Repeated concentration sends the clock downward and the gradients upward.
 The limiting spatial picture is a singularity at the vortex centre.
 
-Scaling identifies this route; it does not assert that the fluid actually follows it.
-The actual critical height need not stay constant simply because a rescaled comparison does.
+Scaling supplies the route as a model.
+The actual fluid still has to generate each successive state, and the scale invariance of the comparison leaves \(H(t)\) free to change.
 If \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\) and set
 \[
   L_k:=2^kH_0,
   \qquad
   t_k:=\inf\{t>0:H(t)=L_k\}.
 \]
-Continuity orders the first crossings \(t_0<t_1<t_2<\cdots\); no monotonicity between them is required.
+Continuity orders the first crossings \(t_0<t_1<t_2<\cdots\), while \(H\) may rise and fall between them.
 The height ladder records the growth of the actual solution, while the heat clock records the scale compression that makes progressively shorter crossings possible.
 A genuine Zeno cascade would have to realize both.
 
 That last demand turns the spatial picture into a temporal one.
 Every sharper state must be generated from the preceding state in less time.
-Velocity cannot make those changes while its higher responses remain passive.
+Those changes require active higher responses.
 The singularity question has become a question about acceleration, jerk, and the entire temporal Tower.
