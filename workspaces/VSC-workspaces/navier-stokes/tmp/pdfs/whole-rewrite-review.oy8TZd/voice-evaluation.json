@@ -2,7 +2,7 @@
   "task_id":"task-ed614047711944a5",
   "task_sha256":"60c3cd3ab52cd9954ffe377416eeeefc6c2a5a25c645ea55ec2c5b641bbc5ba5",
   "prediction_sha256":"a45613b42321d8ea8fc4c37500ef622b0259357e22853be5a05b66823df088b5",
-  "candidate_sha256":"26e7b664d41993e5217e145d80e9c8a080a0e4a95e9901f7f60d2545d52bf533",
+  "candidate_sha256":"edd43693204f3fb0d7b9d8519d06064e938e770910835664581ebf45551e8fb4",
   "selected_move_id":"causal-proof-bearing-rebuild",
   "producer_id":"codex-root",
   "evaluator_id":"codex-root-source-check",
