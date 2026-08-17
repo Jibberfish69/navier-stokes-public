@@ -1,38 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{Velocity, acceleration, jerk}\label{sub:BodyFiniteTimeResponseEscalation}
 
-The shrinking heat clock tells us what the next derivative has to do.
-Let \(B\) be a fixed Banach space and write
-\[
-  V_n(t):=\partial_t^nu(\cdot,t).
-\]
-Whenever \(V_n\) is absolutely continuous as a \(B\)-valued function,
-\[
-  V_n(t)-V_n(s)
-  =\int_s^tV_{n+1}(\tau)\,d\tau,
-\]
-and hence
-\begin{equation}\label{eq:BodyResponseEscalation}
-  \operatorname*{ess\,sup}_{s<\tau<t}\norm{V_{n+1}(\tau)}_B
-  \geq
-  \frac{\norm{V_n(t)-V_n(s)}_B}{t-s}.
-\end{equation}
-This is the missing temporal side of the Zeno picture.
-If the fluid has to produce a comparable change in \(V_n\) across successively shorter intervals, \(V_{n+1}\) must become successively larger.
-The heat clock passes the same demand from velocity to its first response, from that response to the next, and onward through every finite temporal order.
-
-For a moving fluid particle, the first response is the material acceleration
-\[
-  D_tu:=\partial_tu+(u\cdot\nabla)u.
-\]
-The Navier--Stokes equation already contains it:
-\begin{equation}\label{eq:MaterialAccelerationEquationBody}
-  D_tu=-\nabla p+\nu\Delta u.
-\end{equation}
-Acceleration is the combined pressure and viscous response of the velocity field after transport has been included.
-Jerk differentiates this response again, so it differentiates transport, pressure, and viscosity together.
-
-To keep particle and field derivatives distinct, write
+A Zeno cascade has to be produced by the time evolution.
+The shorter its transition intervals become, the larger the responses producing those transitions have to be.
+Set
 \begin{equation}\label{eq:TemporalTowerDefinitionBody}
   V_n:=\partial_t^nu,
   \qquad
@@ -40,14 +11,56 @@ To keep particle and field derivatives distinct, write
   \qquad
   n\in\Nzero.
 \end{equation}
-Then \(V_1\) is the Eulerian time response at fixed \(x\), while the material acceleration is \(D_tu=V_1+(V_0\cdot\nabla)V_0\).
-Solving Navier--Stokes for that first response gives
+Let \(B\) be a fixed Banach space.
+Whenever \(V_n\) is absolutely continuous from \([s,t]\) into \(B\),
+\[
+  V_n(t)-V_n(s)
+  =\int_s^tV_{n+1}(\tau)\,d\tau,
+\]
+so
+\begin{equation}\label{eq:BodyResponseEscalation}
+  \operatorname*{ess\,sup}_{s<\tau<t}\norm{V_{n+1}(\tau)}_B
+  \geq
+  \frac{\norm{V_n(t)-V_n(s)}_B}{t-s}.
+\end{equation}
+Suppose a sequence of intervals \([s_k,t_k]\) satisfies
+\[
+  t_k-s_k\longrightarrow0,
+  \qquad
+  \norm{V_n(t_k)-V_n(s_k)}_B\geq c_n>0.
+\]
+Then \eqref{eq:BodyResponseEscalation} forces the \((n+1)\)-st response to diverge along those intervals.
+The conclusion is conditional at each rung: the estimate converts an actual increment of \(V_n\) into a lower bound for \(V_{n+1}\).
+At the first rung, distinguishable velocity states produced on the shrinking Zeno intervals force a large first response.
+The same implication is available again whenever that first response makes distinguishable changes on a still shorter interval, and so on through every finite order.
+This is the precise temporal pressure behind the acceleration--jerk picture.
+
+For a fluid particle following \(X'(t)=u(X(t),t)\),
+\[
+  \frac{d}{dt}u(X(t),t)
+  =D_tu(X(t),t),
+  \qquad
+  D_tu:=\partial_tu+(u\cdot\nabla)u.
+\]
+The Navier--Stokes equation already gives this material acceleration:
+\begin{equation}\label{eq:MaterialAccelerationEquationBody}
+  D_tu=-\nabla p+\nu\Delta u.
+\end{equation}
+Its next material response \(D_t(D_tu)\) is the jerk.
+For the Tower we keep the Eulerian rows \(V_n=\partial_t^nu\), evaluated at fixed \(x\), because each differentiation then exposes exactly how transport, pressure, and viscosity create the next response.
+The first row is
 \[
   V_1
   =\nu\Delta V_0-(V_0\cdot\nabla)V_0-\nabla Q_0.
 \]
-Differentiate once in time.
-The derivative can fall on either factor in transport, which gives
+Thus material acceleration and the first Eulerian row are related by
+\[
+  D_tu=V_1+(V_0\cdot\nabla)V_0,
+\]
+while \(V_1\) itself remains the object that enters the fixed-point time tower.
+
+Differentiate the first row once.
+The time derivative can land on either velocity in the transport term:
 \[
   V_2
   =\nu\Delta V_1
@@ -55,7 +68,7 @@ The derivative can fall on either factor in transport, which gives
   -(V_0\cdot\nabla)V_1
   -\nabla Q_1.
 \]
-Differentiate again and the two transport placements split once more:
+Differentiate again and those placements split once more:
 \[
 \begin{aligned}
   V_3={}&
@@ -74,8 +87,8 @@ Differentiate again and the two transport placements split once more:
   -\nabla Q_3.
 \end{aligned}
 \]
-The binomial coefficients count the ways the time derivatives can divide between the transporting velocity and the velocity being transported.
-At arbitrary order the same product rule gives
+The coefficients count the ways the time derivatives divide between the transporting velocity and the velocity being transported.
+At order \(n\), the product rule gives
 \begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
   V_{n+1}
   +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
@@ -84,29 +97,30 @@ At arbitrary order the same product rule gives
   \qquad
   \nabla\cdot V_n=0.
 \end{equation}
-This is the temporal Tower in the equation itself.
-Every new response contains all earlier transport splits, the next pressure response, and the Laplacian of the row immediately below it.
+This is the temporal Tower inside the equation.
+The \((n+1)\)-st response is built from every transport split among the earlier rows, the pressure response at depth \(n\), and two spatial derivatives of \(V_n\).
 
-Pressure advances through those same rows.
-Taking the divergence of the original equation and using \(\nabla\cdot u=0\) gives
+Pressure advances through the same temporal rows.
+Taking the divergence of the original momentum equation and using \(\nabla\cdot u=0\) gives
 \begin{equation}\label{eq:PressureNormalization}
   -\Delta p=\partial_i\partial_j(u_i u_j),
   \qquad
   p=R_iR_j(u_i u_j),
 \end{equation}
 where decay at spatial infinity fixes the additive constant.
-Applying \(\partial_t^n\) and using the same binomial split gives
+Applying \(\partial_t^n\) produces the same binomial split:
 \begin{equation}\label{eq:BodyTemporalPressureRecurrence}
   Q_n
   =R_iR_j
   \sum_{a=0}^{n}\binom{n}{a}
   (V_a)_i(V_{n-a})_j.
 \end{equation}
-The pressure row is reconstructed from the velocity rows at the same temporal depth, then returns to the momentum recurrence through \(\nabla Q_n\).
+The velocity rows determine \(Q_n\) at the same temporal depth, and \(\nabla Q_n\) returns to \eqref{eq:BodyTemporalVelocityRecurrence} as part of the next response.
+The Tower is pressure-complete at every rung.
 
-The Tower now opens horizontally as well.
-Each row in \eqref{eq:BodyTemporalVelocityRecurrence} already contains two additional spatial derivatives through \(\Delta V_n\), one spatial derivative inside transport, and the nonlocal spatial reconstruction of pressure.
-To expose those derivatives, set
+The recurrence also reveals why a temporal tower cannot stay purely temporal.
+The viscous term contains \(\Delta V_n\), transport contains one spatial derivative, and pressure is reconstructed nonlocally from spatial derivatives of products of the velocity rows.
+Expose those derivatives by setting
 \begin{equation}\label{eq:BodyMixedJetDefinition}
   J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
   \qquad
@@ -120,8 +134,8 @@ For one spatial derivative,
   =((\partial_\ell V_a)\cdot\nabla)V_{n-a}
   +(V_a\cdot\nabla)\partial_\ell V_{n-a}.
 \]
-At multi-index \(\alpha\), every spatial derivative divides between the two factors just as the time derivatives did.
-Applying \(\partial_x^\alpha\) to the temporal recurrence gives
+At a multi-index \(\alpha\), each spatial derivative divides between the two factors just as the time derivatives do.
+Applying \(\partial_x^\alpha\) to \eqref{eq:BodyTemporalVelocityRecurrence} gives
 \begin{align}
   J_{n+1,\alpha}
   &+
@@ -138,7 +152,7 @@ Applying \(\partial_x^\alpha\) to the temporal recurrence gives
   \nabla\cdot J_{n,\alpha}=0.
   \label{eq:BodyMixedJetRecurrence}
 \end{align}
-The pressure coordinate satisfies
+The pressure coordinates satisfy
 \begin{equation}\label{eq:BodyMixedPressureRecurrence}
   -\Delta\Pi_{n,\alpha}
   =
@@ -147,17 +161,6 @@ The pressure coordinate satisfies
   (V_a)_i(V_{n-a})_j.
 \end{equation}
 
-The initial datum supplies the bottom edge of this entire construction.
-Because \(u_0\in\Ssigma\), the formula for \(Q_0(0)\) places the first pressure row in every finite Sobolev space, and the formula for \(V_1(0)\) does the same for the next velocity row.
-If \(V_0(0),\ldots,V_n(0)\) are known in every finite Sobolev space, \eqref{eq:BodyTemporalPressureRecurrence} gives the same property for \(Q_n(0)\), and \eqref{eq:BodyTemporalVelocityRecurrence} then gives it for \(V_{n+1}(0)\).
-Induction yields
-\begin{equation}\label{eq:BodyInitialPressureCompleteMixedJet}
-  J_{n,\alpha}(0)\in H_\sigma^m(\R^3),
-  \qquad
-  \Pi_{n,\alpha}(0)\in H^m(\R^3)
-\end{equation}
-for every finite \(n\), \(\alpha\), and \(m\).
-
-The temporal Tower has now opened a spatial direction inside every row.
-The recurrence has established the time--space coupling.
-We can now ask what that coupling does at the critical height where the vortex problem began.
+The one temporal index has now become a two-dimensional mixed jet.
+Moving down changes the temporal response; moving across differentiates that same response in space.
+Critical scaling will tell us where these two directions line up, and the height equation will show what viscosity places on that diagonal.
