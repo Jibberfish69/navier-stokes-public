@@ -32,7 +32,7 @@ The spatial energy at height \(n+\tfrac12\) carries exactly the same factor,
 \end{equation}
 This is a scale match, not an identification of objects.  The temporal response \(V_n\), the scalar derivative \(H^{(n)}\), and the spatial energy \(E_{n+1/2}\) remain distinct.  What scaling has told us is where to look: the \(n\)-th response of critical height and the Sobolev height \(n+\tfrac12\) occupy the same rung.
 
-The differentiated equation explains why that spatial height actually appears.  Because
+The scale match still leaves three different objects on the rung.  The scalar response \(H^{(n)}\) is built from the temporal rows.  Because
 \[
   H(t)=\frac12\pair{\Lambda^{1/2}V_0(t)}{\Lambda^{1/2}V_0(t)}_{L^2},
 \]
@@ -44,7 +44,7 @@ Leibniz's rule gives
   \pair{\Lambda^{1/2}V_a(t)}
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
-Thus \(H^{(n)}\) contracts together all temporal rows from \(V_0\) through \(V_n\).  It is the scalar readout of those rows at critical height.
+Thus \(H^{(n)}\) contracts together all temporal rows from \(V_0\) through \(V_n\).  It is the scalar readout of those rows at critical height.  The corresponding spatial height enters when that critical energy is differentiated through Navier--Stokes.
 
 Applying \(\Lambda^s\) to the momentum equation and pairing with \(\Lambda^su\) removes the global pressure pairing by incompressibility, while viscosity gives
 \[
@@ -129,7 +129,7 @@ Because \(\nu>0\), the coefficient of the top spatial energy never vanishes.  So
       \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
   \right).
 \end{equation}
-The conditional is exact: control \(H^{(n)}\) and every retained transfer term at depth \(n\), and the spatial energy \(E_{n+1/2}\) is controlled.  Scaling chose the diagonal; the differentiated equation supplied the terms that must be estimated on it.
+The conditional is exact: control \(H^{(n)}\) and every retained transfer term at depth \(n\), and the spatial energy \(E_{n+1/2}\) is controlled.
 
 The same ascent repeats inside every temporal row.  For a fixed response \(V_r\), define
 \begin{align*}
@@ -156,7 +156,7 @@ After any finite ascent depth \(k\geq1\),
   (-2\nu)^j
   \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-The scalar on the left involves \(V_r,\ldots,V_{r+k}\); it is not any one of those responses.  The important point is that the spatial ascent repeats inside every finite \(V_r\).  Temporal depth and spatial height have become independent coordinates.
+The scalar on the left involves \(V_r,\ldots,V_{r+k}\); it is not any one of those responses.  Because the spatial ascent repeats inside every finite \(V_r\), temporal depth and spatial height have become independent coordinates.
 
 The one scaling diagonal has opened into the full mixed grid:
 \[
@@ -177,6 +177,4 @@ Moving down selects a later temporal response.  Moving across selects a higher S
   \bigcap_{m=0}^{\infty}
   H^r(I;H^m(\R^3)).
 \end{equation}
-This is the intersection inside the Tower.  It is where the escalating temporal responses and the ascending spatial energies have to meet.
-
 No finite estimate can pay the entire intersection in one move.  But every coordinate in it lies inside some finite cut.  A temporal depth \(N\) and a spatial height \(M\) cut out the rows \(0,\ldots,N\) and columns \(0,\ldots,M\); increasing either cutoff preserves every coordinate already paid.  The Tower began by asking what a Zeno singularity would require from responses that keep carrying nontrivial changes.  Differentiating Navier--Stokes turns that conditional temporal question into a two-dimensional demand: every finite temporal depth at every finite spatial height.  The rectangle is that demand in the finite form an estimate can actually control.
