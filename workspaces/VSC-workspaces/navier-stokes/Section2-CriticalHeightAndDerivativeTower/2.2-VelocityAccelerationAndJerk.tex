@@ -1,0 +1,172 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Velocity, acceleration, jerk}\label{sub:BodyFiniteTimeResponseEscalation}
+
+The words acceleration and jerk belong first to a moving particle.
+If \(X(a,t)\) is the trajectory of the particle labelled by \(a\), then
+\begin{equation}\label{eq:ParticleTrajectory}
+  \frac d{dt}X(a,t)=u(X(a,t),t),
+  \qquad
+  X(a,0)=a.
+\end{equation}
+The acceleration carried by that particle is
+\begin{equation}\label{eq:MaterialAccelerationBody}
+  \frac d{dt}u(X(a,t),t)
+  =\partial_tu+(u\cdot\nabla)u
+  =:D_tu.
+\end{equation}
+Navier--Stokes gives it directly:
+\begin{equation}\label{eq:MaterialAccelerationEquationBody}
+  D_tu=-\nabla p+\nu\Delta u.
+\end{equation}
+Its jerk is \(D_t^2u=D_t(-\nabla p+\nu\Delta u)\).
+The material response already mixes time change, motion through spatial variation, nonlocal pressure, and viscous curvature.
+
+To see which part changes at each fixed position, write
+\begin{equation}\label{eq:TemporalTowerDefinitionBody}
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np,
+  \qquad
+  n\in\Nzero.
+\end{equation}
+Thus \(V_1\) is not the material acceleration.
+It is the fixed-position time change which, together with \((u\cdot\nabla)u\), makes \(D_tu\).
+The physical words make the response demand intelligible; the rows \(V_n\) keep temporal order separate enough to calculate.
+
+The first row is already inside the equation.
+Solving for it and differentiating successively gives
+\[
+\begin{aligned}
+  V_1={}&
+  \nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0,
+  \\
+  V_2={}&
+  \nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1,
+  \\
+  V_3={}&
+  \nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2,
+  \\
+  V_4={}&
+  \nu\Delta V_3
+  -(V_3\cdot\nabla)V_0
+  -3(V_2\cdot\nabla)V_1
+  -3(V_1\cdot\nabla)V_2
+  -(V_0\cdot\nabla)V_3
+  -\nabla Q_3.
+\end{aligned}
+\]
+The coefficients \(1,1\), then \(1,2,1\), then \(1,3,3,1\), count the ways the time derivatives split between the transporting and transported velocities.
+The first four responses have exposed the binomial pattern.
+At arbitrary order it is
+\begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
+  V_{n+1}
+  +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =\nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\end{equation}
+
+Pressure advances with the same rows.
+The decaying whole-space normalization is
+\begin{equation}\label{eq:PressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j),
+  \qquad
+  p=R_iR_j(u_i u_j).
+\end{equation}
+After \(n\) time derivatives,
+\begin{equation}\label{eq:BodyTemporalPressureRecurrence}
+  Q_n
+  =R_iR_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+The pressure row is rebuilt from the same velocity rows that created it.
+Nothing in the temporal sequence is closed without the spatial derivatives already present in transport, pressure, and \(\Delta V_n\).
+
+Give that second direction its own index.
+For \(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
+\begin{equation}\label{eq:BodyMixedJetDefinition}
+  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p.
+\end{equation}
+Applying \(\partial_x^\alpha\) to \eqref{eq:BodyTemporalVelocityRecurrence} gives
+\begin{align}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha}
+  \notag\\
+  &=
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+  \label{eq:BodyMixedJetRecurrence}
+\end{align}
+The corresponding pressure coordinate satisfies
+\begin{equation}\label{eq:BodyMixedPressureRecurrence}
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_x^\alpha\partial_i\partial_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+Time and space are now independent indices of the pressure-complete mixed jet.
+The recurrence tells us how its coordinates are coupled; it does not yet bound them near \(T_*\).
+
+Before using arbitrarily high time rows, their initial values have to exist.
+The datum gives \(V_0(0)=u_0\in H_\sigma^m(\R^3)\) for every finite \(m\).
+Suppose \(V_0(0),\ldots,V_n(0)\) belong to every finite Sobolev space.
+The pressure recurrence, finite-order Sobolev multiplication, and boundedness of the Riesz transforms place \(Q_n(0)\) in every \(H^m\).
+Solving \eqref{eq:BodyTemporalVelocityRecurrence} for \(V_{n+1}(0)\) gives the same conclusion for the next velocity row.
+Induction in \(n\), followed by spatial differentiation, yields
+\begin{equation}\label{eq:BodyInitialPressureCompleteMixedJet}
+  J_{n,\alpha}(0)\in H_\sigma^m(\R^3),
+  \qquad
+  \Pi_{n,\alpha}(0)\in H^m(\R^3)
+\end{equation}
+for every finite \(n\), \(\alpha\), and \(m\).
+The datum generates every finite initial coordinate.
+This is initialization, not terminal control.
+
+Now return to the finite-time escape.
+For any fixed \(n\geq1\), repeated integration gives the Banach-valued Taylor formula
+\[
+  u(t)
+  =
+  \sum_{j=0}^{n-1}\frac{t^j}{j!}V_j(0)
+  +\frac1{(n-1)!}
+  \int_0^t(t-s)^{n-1}V_n(s)\,ds.
+\]
+Every initial term is finite in \(L^3\) by \eqref{eq:BodyInitialPressureCompleteMixedJet}.
+If \(V_n\) stayed uniformly bounded in \(L^3\) on the finite interval, the integral would keep \(u\) uniformly bounded there as well.
+That contradicts \eqref{eq:FiniteTimeLThreeEscape}.
+Consequently, for every fixed \(n\in\Nzero\),
+\begin{equation}\label{eq:TemporalTowerMustEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{V_n(t)}_3=\infty.
+\end{equation}
+Different rows may escape at different times, places, and rates.
+The conclusion is separate at each finite order.
+
+The singularity has now pushed downward through
+\[
+  u,\quad u_t,\quad u_{tt},\quad u_{ttt},\quad\ldots.
+\]
+But every line of \eqref{eq:BodyTemporalVelocityRecurrence} also points sideways through \(\Delta V_n\), the spatial derivatives in transport, and the reconstructed pressure.
+What looked like a one-directional Tower is a grid.
