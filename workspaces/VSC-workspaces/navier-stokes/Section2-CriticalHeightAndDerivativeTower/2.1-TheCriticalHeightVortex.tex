@@ -1,18 +1,19 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The balance at critical height}\label{sub:ThePerfectlyStretchingVortex}
 
-The obvious place to put your hope is viscosity.
-The nonlinear term can stretch and concentrate the fluid, but viscosity is already there to smooth out the velocity differences that concentration creates.
-So the direct idea is to show that, before those differences become singular, the viscous term takes over.
-The obstruction appears when a vortex can make both sides stronger at once.
+Viscosity is supposed to save the fluid.
+It smooths velocity differences, and it acts harder as those differences are packed into less space.
+So the most direct way to solve the problem is to prove that anything trying to become singular eventually makes viscosity strong enough to stop it.
 
-Stretch a vortex along its axis.
-Incompressibility narrows its cross-section, so the velocity changes across that cross-section are packed into less space and the gradients become steeper.
-Viscosity acts more strongly on those gradients.
-The stretching also becomes stronger because the vorticity and strain have concentrated with them.
-A bend, a wobble, or a loss of alignment can interrupt the repetition; the case that keeps the problem open is the vortex that remains aligned and stretches again.
+The problem is that a vortex can make the stretching stronger at the same time.
+As the vortex stretches along its axis, incompressibility squeezes its cross-section.
+The velocity turns across a thinner region, the gradients become steeper, and viscosity has more to work with.
+But the same motion also intensifies the vorticity and the strain doing the stretching.
+The vortex is strengthening the mechanism that sharpens it at the same time as the mechanism that smooths it.
+A bend, a wobble, or a loss of alignment can break that repetition.
+The motion we need to understand is the one that does not: the vortex remains aligned and stretches again.
 
-Write
+Let
 \[
   \omega:=\nabla\times u,
   \qquad
@@ -25,10 +26,9 @@ Taking the curl of Navier--Stokes gives
 \end{equation}
 When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) amplifies the vorticity.
 The same extension narrows the vortex and steepens the gradients seen by \(\nu\Delta\omega\).
-The question is whether that narrowing gives viscosity any relative advantage.
+The smaller vortex now poses one exact question: did viscosity gain anything from the contraction?
 
-Suppose one stretch replaces a characteristic length \(\ell\) by \(\ell/\lambda\), where \(\lambda>1\).
-The corresponding Navier--Stokes rescaling is
+To compare the same normalized profile at the shorter length \(\ell/\lambda\), where \(\lambda>1\), use the Navier--Stokes rescaling
 \[
   u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
   \qquad
@@ -64,10 +64,11 @@ and therefore
   =\lambda^4\nu(\Delta\omega)(\lambda x,\lambda^2t).
 \]
 Both sides of the contest strengthen by the same power of \(\lambda\).
-Scaling does not guarantee that the alignment persists, but it answers the question we asked: if the aligned vortex tightens and stretches again, going smaller does not improve viscosity's position.
+This is a comparison between a profile and its exact rescaling, not a claim that the evolution must reproduce that profile.
+What it establishes is the obstruction: if the vortex does reproduce the same normalized geometry, going smaller gives viscosity no relative advantage.
 
-This is where critical height enters.
-If the vortex reproduces the same contest at a smaller scale, its measurement cannot shrink merely because the vortex did.
+So what quantity can see that balance?
+It has to give the smaller vortex the same size, because the contest inside the vortex has not changed.
 For a homogeneous Sobolev norm,
 \[
   \widehat{u_\lambda}(\xi,t)
@@ -101,9 +102,11 @@ With \(\Lambda:=(-\Delta)^{1/2}\), define
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
 This is the critical height.
-Below \(\dot H^{1/2}\), concentration makes the norm smaller; above it, concentration makes the norm larger; at \(\dot H^{1/2}\), the smaller vortex has exactly the same size.
+Below \(\dot H^{1/2}\), concentration makes the norm smaller.
+Above it, concentration makes the norm larger.
+At \(\dot H^{1/2}\), the smaller vortex has exactly the same size.
 
-Now compare that with the estimate supplied by kinetic energy.
+Kinetic energy gives a completely different reading of the same contraction.
 Pairing Navier--Stokes with \(u\), using incompressibility to remove transport and pressure, and integrating the viscous term by parts gives
 \begin{equation}\label{eq:BodyEnergyIdentity}
   \frac12\norm{u(t)}_2^2
@@ -118,8 +121,8 @@ Under the same concentration,
   H_\lambda(t)=H(\lambda^2t).
 \]
 Kinetic energy falls by \(\lambda^{-1}\) while critical height does not fall at all.
-The vortex becomes cheaper in the quantity controlled by the energy law without becoming smaller in the quantity that measures the critical concentration.
-That is why the energy law leaves this case open.
+The vortex becomes cheaper in the quantity controlled by the energy law without becoming any smaller at the height where stretching and viscosity remain equally matched.
+The estimate can stay finite by losing track of where the concentration went.
 
-The balance can survive one change of scale.
-The next question is how quickly the next scale can be produced.
+Nothing in the energy law prevents another contraction.
+Whether the vortex can keep repeating it now depends on time.
