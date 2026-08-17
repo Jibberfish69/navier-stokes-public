@@ -14,7 +14,7 @@ The main weakness is not typography or lack of explanation. It is the allocation
 
 2. **The dangerous history opens two directions**
 
-   Preserve the current three-part Section 2: the perfectly stretching vortex and full-field \(L^3\) threat; velocity, material acceleration and jerk versus \(V_n=\partial_t^n u\); then the meeting of temporal order and spatial Sobolev order in finite rectangles.
+   Preserve the current three-part Section 2: the perfectly stretching vortex and full-field \(L^3\) threat; the field \(u\), material acceleration and jerk versus \(V_n=\partial_t^n u\); then the meeting of temporal order and spatial Sobolev order in finite rectangles.
 
    I would make only targeted repairs here: define the multi-index binomial and Riesz transforms at first use; keep \(D_tu\) distinct from \(V_1\); and distinguish the row-wise spatial intersection \(\bigcap_m H^m_x\) from the later space-time projective intersection. Section 2 should end on one exact need: for each finite \(N,M\), control that rectangle uniformly through the entire approach to \(T_*\).
 
