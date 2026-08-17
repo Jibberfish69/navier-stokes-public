@@ -2,8 +2,14 @@
 \subsection{Velocity, acceleration, jerk}\label{sub:BodyFiniteTimeResponseEscalation}
 
 The field has to make the shrinking passages from the previous section.
-A shorter interval creates a larger temporal response when a definite change survives across it.
-To write that statement at a fixed spatial point, set
+The scale does not simply become smaller; the velocity has to move from one state to the next.
+When a definite change is made in less time, the next temporal response grows.
+Carry the same demand upward: a nontrivial change in the first response over a shorter interval makes the second response grow, and the implication repeats at every later rung.
+This is the sense in which a Zeno singularity would have to be led by acceleration, then jerk, and then the later responses.
+The condition matters at every step: the shrinking interval magnifies a change that the cascade actually carries.
+
+Now write that statement at a fixed spatial point.
+Set
 \begin{equation}\label{eq:TemporalTowerDefinitionBody}
   V_n:=\partial_t^nu,
   \qquad
@@ -30,12 +36,6 @@ If a sequence of intervals \([s_k,t_k]\) satisfies
   \norm{V_n(t_k)-V_n(s_k)}_B\geq c_n>0,
 \]
 then the \((n+1)\)-st response diverges along those intervals.
-
-This is the exact content behind the movement from velocity to acceleration, from acceleration to jerk, and then upward through the later responses.
-A velocity change across a shrinking interval forces a large \(V_1\).
-A nontrivial change in \(V_1\) forces a large \(V_2\).
-The implication continues one rung at a time, with its own nontrivial increment at every rung.
-The shrinking clock magnifies each increment carried by the cascade.
 
 Now return to Navier--Stokes.
 The first physical response is already in the equation.
