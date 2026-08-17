@@ -2,7 +2,8 @@
 \subsection{Velocity, acceleration, jerk}\label{sub:BodyFiniteTimeResponseEscalation}
 
 A singularity built from those shrinking passages has to be produced by the time evolution.
-When each passage retains a definite change in velocity, a shorter interval requires a larger response.
+The size of the resulting temporal response depends on the change in velocity, not on the interval length alone.
+When a passage retains a definite velocity change, a shorter interval requires a larger response.
 For a fluid particle following \(X'(t)=u(X(t),t)\), that first response is
 \[
   \frac{d}{dt}u(X(t),t)
@@ -46,7 +47,7 @@ Suppose a sequence of intervals \([s_k,t_k]\) satisfies
   \norm{V_n(t_k)-V_n(s_k)}_B\geq c_n>0.
 \]
 Then \eqref{eq:BodyResponseEscalation} forces the \((n+1)\)-st response to diverge along those intervals.
-At \(n=0\), the nontrivial velocity changes in the realized Zeno route force a large \(V_1\).
+At \(n=0\), any Zeno passage that also retains a nontrivial velocity change forces a large \(V_1\).
 At each later rung, the same implication applies when the preceding response retains a nontrivial increment.
 The estimate supplies exactly this conditional escalation.
 
