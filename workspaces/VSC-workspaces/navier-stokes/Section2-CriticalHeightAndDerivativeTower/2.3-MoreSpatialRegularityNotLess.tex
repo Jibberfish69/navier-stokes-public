@@ -1,5 +1,5 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
+\subsection{The spatial ascent inside the Tower}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
 The mixed recurrence gives the argument two independent directions.
 Critical scaling shows where they line up.
@@ -46,7 +46,7 @@ Leibniz's rule gives
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
 Thus \(H^{(n)}\) is built from the first \(n\) Eulerian response rows.
-It remains a scalar quadratic functional of those rows, not another name for \(V_n\).
+It remains a scalar quadratic functional of those rows, distinct from \(V_n\).
 This is the bridge that lets the temporal Tower be read at critical height.
 
 Navier--Stokes places the higher spatial energy on the other side of that bridge.
@@ -100,7 +100,7 @@ Induction gives, for \(n\geq1\),
   (-2\nu)^j
   \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
 \end{equation}
-Because \(\nu>0\), the coefficient of the top spatial energy never vanishes.
+Because \(\nu>0\), the coefficient of the top spatial energy is nonzero at every order.
 The same identity can be read as
 \[
   E_{n+1/2}
@@ -139,8 +139,9 @@ This is where the reversal appears.
 The singularity route asks the velocity field to make increasingly sharp changes across increasingly short intervals.
 The temporal Tower measures those responses.
 At the same order, viscosity places a still higher spatial energy in the completed height row.
-Once the finite response and transfer terms are controlled, moving deeper in time produces control farther across the Sobolev scale: more spatial regularity, not less.
-The singularity pressure and the viscous ascent are balanced and opposing rather than complementary and self-feeding.
+Once the finite response and transfer terms are controlled, moving deeper in time produces control farther across the Sobolev scale.
+The result is increasing spatial regularity at increasing temporal depth.
+The singularity pressure and the viscous ascent are balanced and opposing: one sharpens toward loss of regularity, while the other reaches higher Sobolev spaces.
 
 Each completed row reaches one finite spatial height.
 All finite heights at one temporal order form the rowwise target
@@ -156,7 +157,7 @@ Requiring the same at every finite temporal depth gives
   H^r(I;H^m(\R^3)).
 \end{equation}
 This intersection asks for every finite coordinate while keeping the temporal and spatial orders independent.
-No single row has to carry an all-orders norm by itself.
+Each row carries one finite height at a time; the all-orders regularity belongs to their intersection.
 
 The geometry is a grid:
 \[
