@@ -28,7 +28,7 @@ The distinction is exact.  Material acceleration is not \(V_1\); rather,
 \]
 Thus \(V_1\) is the fixed-position time response inside acceleration, and \(V_2\) is the next fixed-position response that enters the jerk calculation.
 
-At fixed \(x\), the velocity--acceleration--jerk relation is an exact difference-quotient statement.  Let \(B\) be a fixed Banach space.  Whenever \(V_n\) is absolutely continuous from \([s,t]\) into \(B\),
+At fixed \(x\), the velocity--acceleration--jerk relation is an exact difference-quotient statement.  In a fixed Banach space \(B\), absolute continuity of \(V_n:[s,t]\to B\) gives
 \[
   V_n(t)-V_n(s)
   =\int_s^tV_{n+1}(\tau)\,d\tau,
@@ -79,7 +79,7 @@ After another derivative, the two placements split again:
   -\nabla Q_3.
 \end{aligned}
 \]
-The coefficients are not decoration.  They count every way the time derivatives can divide between the velocity doing the transporting and the velocity being transported.  At depth \(n\), all of those divisions close into one recurrence:
+The binomial coefficients count every way the time derivatives can divide between the velocity doing the transporting and the velocity being transported.  At depth \(n\), all of those divisions close into one recurrence:
 \begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
   V_{n+1}
   +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
@@ -90,7 +90,7 @@ The coefficients are not decoration.  They count every way the time derivatives 
 \end{equation}
 This is the temporal Tower inside the equation.  Its next row contains every transport split among the earlier responses, two new spatial derivatives through viscosity, and the pressure response at the same depth.
 
-Pressure has not disappeared into a forcing term; it is determined by the same rows and returns at every rung.  Taking the divergence of the momentum equation and using \(\nabla\cdot u=0\) gives
+Pressure is determined by the same rows and returns at every rung.  Taking the divergence of the momentum equation and using \(\nabla\cdot u=0\) gives
 \begin{equation}\label{eq:PressureNormalization}
   -\Delta p=\partial_i\partial_j(u_i u_j),
   \qquad
