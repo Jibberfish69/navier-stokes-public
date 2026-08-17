@@ -1,12 +1,11 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-Nothing in the temporal argument looked like regularity.
-A nontrivial change squeezed into a shorter interval produces a larger response, and repeating that demand looks like a ladder away from smoothness.
-Now use the viscous term that has been present in every row.
-Each temporal row contains \(\nu\Delta V_n\), so the same climb through time also reaches farther into space.
+Up to this point, every new rung looked worse.
+A nontrivial change squeezed into a shorter interval produces a larger response, so the temporal Tower seems to run straight toward singularity.
+But viscosity has been present in every row, and every Laplacian reaches farther into space.
+At critical height, those two counts line up.
 
-Critical scaling tells us exactly where the two counts line up.
 For
 \[
   E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
@@ -32,17 +31,16 @@ The spatial energy at height \(n+\tfrac12\) has the same scale factor:
   E_{n+1/2,\lambda}(t)
   =\lambda^{2n}E_{n+1/2}(\lambda^2t).
 \end{equation}
-This does not make \(H^{(n)}\) and \(E_{n+1/2}\) the same object.
-It identifies the diagonal on which the equation can connect them.
+The equal scale weight does not make \(H^{(n)}\) and \(E_{n+1/2}\) the same object.
+It identifies the spatial height that can appear in the \(n\)-th completed row.
 
-Apply \(\Lambda^s\) to Navier--Stokes and pair the result with \(\Lambda^su\).
-The viscous contribution is
+Applying \(\Lambda^s\) to Navier--Stokes and pairing the result with \(\Lambda^su\) gives the viscous contribution
 \[
   \nu\pair{\Lambda^su}{\Lambda^s\Delta u}_{L^2}
   =-\nu\norm{\Lambda^{s+1}u}_2^2
   =-2\nu E_{s+1}.
 \]
-Keep the complete transport--pressure transfer in
+The complete transport--pressure transfer is
 \[
   \mathcal P_s
   :=-
@@ -99,7 +97,7 @@ Because \(\nu>0\), the top spatial energy can be isolated:
   \right).
 \end{equation}
 The identity exposes the higher Sobolev energy.
-It does not bound that energy until \(H^{(n)}\) and every transfer term beside it have also been controlled.
+It does not control that energy until \(H^{(n)}\) and every transfer term beside it have also been controlled.
 
 The temporal Tower enters through \(H^{(n)}\) itself.
 Since
@@ -117,16 +115,16 @@ Leibniz's rule gives
   \pair{\Lambda^{1/2}V_a(t)}
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
-The three entries on one rung are now distinct and connected: \(V_n\) is the Eulerian response, \(H^{(n)}\) contracts the temporal rows at critical height, and \(E_{n+1/2}\) is the spatial energy exposed through viscosity.
+The three entries on one rung are distinct but connected: \(V_n\) is the Eulerian response, \(H^{(n)}\) contracts the temporal rows at critical height, and \(E_{n+1/2}\) is the spatial energy exposed through viscosity.
 
-\Needspace{18\baselineskip}
+\Needspace{10\baselineskip}
 \begin{center}
 \captionsetup{hypcap=false}
 \captionof{table}{The first time--space rungs of the critical-height calculation.}
 \label{tab:BodyTemporalSpatialDiscovery}
 \small
 \renewcommand{\arraystretch}{1.4}
-\begin{tabularx}{\textwidth}{@{}c c c c@{}}
+\begin{tabular}{@{}c c c c@{}}
 \toprule
 order & Eulerian response & critical response & spatial height \\
 \midrule
@@ -136,17 +134,22 @@ order & Eulerian response & critical response & spatial height \\
 \(3\) & \(V_3=u_{ttt}\) & \(H'''\) & \(E_{7/2}\) \\
 \(n\) & \(V_n=\partial_t^nu\) & \(H^{(n)}\) & \(E_{n+1/2}\) \\
 \bottomrule
-\end{tabularx}
+\end{tabular}
 \end{center}
 
-Read the rows in the order we found them.
-The possible singularity asks for larger temporal responses whenever a nontrivial change is compressed into a shorter interval.
-The differentiated equation does not send those orders toward weaker spatial spaces.
-It reaches \(E_{3/2},E_{5/2},E_{7/2},\ldots\): more spatial regularity, not less.
+Whenever the Zeno route keeps a nontrivial change alive, the temporal column asks for a larger response.
+The matched spatial column moves the other way through the Sobolev scale:
+\[
+  E_{1/2},\ E_{3/2},\ E_{5/2},\ E_{7/2},\ldots
+\]
+A singularity makes us expect less spatial regularity.
+The equation is exposing more, not less.
 
-One diagonal is not smoothness.
-The same spatial ascent has to be available inside every temporal response, not only inside \(V_0=u\).
-Fix \(r\in\Nzero\) and set
+That is not regularity yet.
+The transfer terms still have to be controlled, and one diagonal inside \(u\) does not fill the whole time--space Tower.
+
+Every temporal response needs its own spatial ladder.
+For \(r\in\Nzero\), set
 \begin{align*}
   E_{r,s}
   &:=\frac12\norm{\Lambda^sV_r}_2^2,
@@ -171,10 +174,10 @@ After any finite ascent depth \(k\geq1\),
   (-2\nu)^j
   \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-The temporal index \(r\) chooses the response, and the spatial index \(k\) chooses how high we climb inside that response.
+The temporal index \(r\) chooses the response, and the spatial index \(k\) chooses the height inside that response.
 They are independent coordinates of the mixed jet.
 
-Lay those coordinates out together:
+Together they form the grid
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
@@ -186,9 +189,8 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
 \end{array}
 \]
-Moving down selects a later temporal response.
-Moving across selects a higher Sobolev height inside that response.
-Smoothness requires every finite coordinate in both directions:
+Moving down selects a later temporal response, while moving across selects a higher Sobolev height inside that response.
+Controlling every finite coordinate would place the solution in the mixed intersection
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
@@ -196,9 +198,9 @@ Smoothness requires every finite coordinate in both directions:
   H^r(I;H^m(\R^3)).
 \end{equation}
 
-No finite estimate can control the entire intersection in one step.
-Choose a temporal depth \(N\) and a spatial depth \(M\).
-The rows through \(N\) and the columns through \(M\) cut out one finite rectangle, and every coordinate in the intersection belongs to some such rectangle.
+A proof can only pay for a finite part of that grid at a time.
+For fixed temporal depth \(N\) and spatial depth \(M\), the rows through \(N\) and the columns through \(M\) form one finite rectangle.
+Every finite coordinate in the intersection belongs to one of them.
 
-The vortex began as the sharpest way concentration could preserve the critical balance.
-Following it through the heat clock and the response Tower has turned the possible singularity into a concrete finite target: control every chosen rectangle, for every finite \(N\) and \(M\).
+That is the object the next section has to control.
+The vortex turned concentration into the critical-height problem; the Tower has turned that problem into one concrete demand: every finite rectangle, for every finite \(N\) and \(M\).
