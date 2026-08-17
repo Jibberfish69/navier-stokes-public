@@ -1,0 +1,194 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The case we are dealing with}\label{sub:ThePerfectlyStretchingVortex}
+
+The regularity problem comes down to a vortex that can keep stretching without ever giving viscosity an advantage.
+Its vorticity stays aligned with a positive extensional direction of the strain.
+The strain strengthens the vorticity, incompressibility contracts the cross-section of the material filament, and the gradients sharpen as the filament narrows.
+Bending, wobble, loss of alignment, and fragmentation can all interrupt that motion.
+The case we have to deal with is the one that holds the alignment and keeps stretching anyway.
+
+Viscosity acts on exactly what the stretching makes worse: the gradients.
+The first question is whether narrowing the vortex moves the balance toward viscosity.
+The natural scaling leaves it exactly where it was.
+Vortex stretching and viscous diffusion acquire the same power of scale, so the vortex can become narrower without moving below the balance between them.
+
+The rest of the problem is already visible in that one fact.
+We need a measure of concentration that stays unchanged when the scale shrinks; that is the critical height.
+Energy falls while that height stays fixed.
+The viscous clock shortens.
+If the evolution keeps realizing smaller scales, the clock can become Zeno and the gradients can become singular.
+Then each shorter passage has to be produced by acceleration, jerk, and every later temporal response.
+Differentiating those responses pulls higher spatial derivatives into the same structure.
+This is where the Derivative Tower and its intersection come from.
+
+Here is the balance itself.
+Write
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of Navier--Stokes gives
+\begin{equation}\label{eq:VorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+When \(\omega\) points along an eigenvector of \(S\) with positive eigenvalue, \(S\omega\) amplifies it.
+For an aligned material filament, that extension contracts the cross-sectional area and concentrates the vorticity.
+The term \(\nu\Delta\omega\) diffuses the gradients created by the same concentration.
+
+Now shrink the full profile.
+To ask what scale alone does to the contest, replace a characteristic length \(\ell\) by \(\ell/\lambda\), with \(\lambda>1\), through the Navier--Stokes rescaling
+\[
+  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Every term in the momentum equation then acquires the same factor:
+\[
+\begin{aligned}
+  \partial_tu_\lambda
+  &=\lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  &
+  (u_\lambda\cdot\nabla)u_\lambda
+  &=\lambda^3((u\cdot\nabla)u)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda
+  &=\lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  &
+  \nu\Delta u_\lambda
+  &=\lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+The vortex equation says the same thing in the variables of the physical picture:
+\[
+  \omega_\lambda(x,t)=\lambda^2\omega(\lambda x,\lambda^2t),
+  \qquad
+  S_\lambda(x,t)=\lambda^2S(\lambda x,\lambda^2t).
+\]
+Both \(S_\lambda\omega_\lambda\) and \(\nu\Delta\omega_\lambda\) carry the factor \(\lambda^4\).
+Going to a smaller scale preserves their relative weight.
+That is the critical balance.
+
+To turn that balance into a height, we need a norm that assigns the same size to the original profile and its concentrated rescaling.
+Since
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),
+\]
+the change of variables \(\eta=\xi/\lambda\) gives
+\begin{align*}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  &=
+  \int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
+  \,d\xi
+  \\
+  &=
+  \lambda^{2s-1}
+  \int_{\R^3}
+  |\eta|^{2s}
+  \left|\widehat u(\eta,\lambda^2t)\right|^2
+  \,d\eta.
+\end{align*}
+Hence
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}
+  =\lambda^{s-1/2}\norm{u(\lambda^2t)}_{\dot H^s}.
+\]
+There is exactly one exponent at which the scale factor disappears: \(s=\tfrac12\).
+With \(\Lambda:=(-\Delta)^{1/2}\), set
+\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+  H(t)
+  :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\end{equation}
+This is the critical height.
+The profile can move to a shorter length while keeping the same value of \(H\).
+
+Now put kinetic energy beside it.
+At \(s=0\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =\lambda^{-1}\norm{u(\lambda^2t)}_2^2.
+\]
+The energy identity comes from pairing Navier--Stokes with \(u\): incompressibility removes the transport and pressure pairings, while integration by parts gives the viscous sign.
+Thus
+\[
+  \frac12\frac{d}{dt}\norm{u(t)}_2^2
+  +\nu\norm{\nabla u(t)}_2^2
+  =0,
+\]
+and after integration in time,
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+The law controls total kinetic energy.
+Under the concentration we are testing, that energy is multiplied by \(\lambda^{-1}\) while the critical height is unchanged.
+The bound gets easier to satisfy as the vortex narrows.
+This is why energy leaves the regularity problem open: it controls a quantity that becomes smaller along the very concentration that \(H\) continues to see.
+
+The scale can shrink while remaining inside the energy bound.
+What matters next is the time available at that scale.
+A structure of length \(\ell\) has the linear viscous smoothing time
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \delta t_{\mathrm{heat}}(\ell)\asymp\frac{\ell^2}{\nu}.
+\end{equation}
+Replacing \(\ell\) by \(\ell/\lambda\) divides this time by \(\lambda^2\), exactly the time compression in \(u_\lambda(x,t)\).
+
+Take a geometric scale family
+\[
+  \ell_k=\rho^k\ell_0,
+  \qquad 0<\rho<1.
+\]
+With scale-uniform comparison constants,
+\[
+  \delta t_k^{\mathrm{heat}}
+  \asymp\frac{\ell_0^2}{\nu}\rho^{2k},
+  \qquad
+  \sum_{k=0}^{\infty}\delta t_k^{\mathrm{heat}}
+  \asymp
+  \frac{\ell_0^2}{\nu}\frac{1}{1-\rho^2}<\infty.
+\]
+So far this is a comparison clock.
+The solution supplies a cascade when it actually produces the smaller states on that clock.
+
+Critical-height first passages make that requirement explicit.
+Suppose \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\), and define
+\[
+  L_k:=2^kH_0,
+  \qquad
+  t_k:=\inf\{t>0:H(t)=L_k\}.
+\]
+Continuity gives \(t_0<t_1<t_2<\cdots\).
+Suppose also that the \(k\)-th passage is carried by an active length \(\ell_k=\rho^k\ell_0\) and obeys the uniform comparison
+\[
+  0<t_{k+1}-t_k
+  \leq C\,\delta t_k^{\mathrm{heat}}
+  \asymp C\frac{\ell_0^2}{\nu}\rho^{2k}.
+\]
+Then
+\[
+  \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
+  \qquad
+  t_k\uparrow\tau<\infty.
+\]
+Now the comparison clock has become the Zeno route in the evolving solution: the critical height crosses every chosen level while the active scale and the time between passages both collapse.
+
+The same route sharpens the spatial profile.
+For every \(m\in\Nzero\),
+\[
+  \nabla^m u_\lambda(x,t)
+  =\lambda^{m+1}(\nabla^m u)(\lambda x,\lambda^2t).
+\]
+At the \(k\)-th scale, let \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\).
+The gradient carries the factor \(\lambda_k^2\).
+If the realized states retain a nonzero scale-normalized gradient profile, their gradients diverge while the passage times converge to \(\tau\).
+That limiting gradient failure is the singularity direction of the perfectly stretching vortex.
+
+The field still has to make every one of those passages.
+A shorter interval magnifies the temporal response whenever a definite change survives across it.
+This is where velocity, acceleration, jerk, and the later responses enter.
