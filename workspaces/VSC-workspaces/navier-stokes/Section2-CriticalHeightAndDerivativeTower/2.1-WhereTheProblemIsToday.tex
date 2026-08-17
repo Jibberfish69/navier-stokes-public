@@ -1,0 +1,81 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Where the problem is today}\label{sub:ThePerfectlyStretchingVortex}
+
+The problem at critical height is the perfectly stretching vortex: its vorticity remains aligned with an extensional direction of the strain while viscosity acts on the gradients that the stretching creates.
+With
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+\]
+the vorticity equation is
+\begin{equation}\label{eq:VorticityEquation}
+  D_t\omega
+  :=\partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The stretching term amplifies vorticity under persistent extensional alignment; the same concentration sharpens the gradients on which diffusion acts.
+In generic motion the alignment changes.
+The perfectly stretching case is the limiting one in which it does not: every sharper state remains positioned for the next stretch while diffusion acts on the field produced by the last one.
+
+That stretching--diffusion balance is critical under the Navier--Stokes scaling.
+For \(\lambda>0\), the rescaling
+\[
+  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t)
+\]
+preserves the equation, and
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}
+  =\lambda^{s-1/2}\norm{u(\lambda^2t)}_{\dot H^s}.
+\]
+The invariant exponent is \(s=\tfrac12\).
+With \(\Lambda:=(-\Delta)^{1/2}\), define the critical height
+\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+  H(t)
+  :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\end{equation}
+
+The energy law acts below that height:
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+It keeps the kinetic energy finite and controls one spatial derivative after integration in time.
+It does not prevent concentration from passing into shorter scales while the critical height rises.
+
+Suppose the maximal classical solution has a finite last time \(T_*<\infty\).
+The endpoint criterion of Escauriaza, Seregin, and \v{S}ver\'ak says that a uniform \(L^3\) bound would continue the solution through \(T_*\) \parencite{EscauriazaSereginSverak2003}.
+Hence
+\begin{equation}\label{eq:FiniteTimeLThreeEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
+\end{equation}
+Since \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\), finite maximality also forces
+\begin{equation}\label{eq:CriticalHeightMustEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}H(t)=\infty.
+\end{equation}
+
+Choose \(H_0>H(0)\), set \(L_k:=2^kH_0\), and let \(t_k\) be the first time after \(t_{k-1}\) at which \(H\) reaches \(L_k\), beginning with the first passage through \(H_0\).
+Continuity of \(H\) before \(T_*\) gives
+\begin{equation}\label{eq:ZenoFirstPassageTimes}
+  t_0<t_1<t_2<\cdots<T_*,
+  \qquad
+  H(t_k)=2^kH_0,
+  \qquad
+  t_k\uparrow T_*.
+\end{equation}
+The height need not be monotone between these passages.
+The conclusion is sharper: every finite critical level has to be crossed before the same finite time.
+
+This is the Zeno form of the singularity problem.
+The remaining time collapses while the required critical-height response keeps increasing.
+If the velocity reaches that loss of control at \(T_*\), no fixed temporal response can remain uniformly bounded behind it; repeated integration would keep every lower response, and finally \(u\), bounded on the finite interval.
+Velocity, acceleration, jerk, and the later responses have to be considered together.
+The singularity has become a derivative Tower.
