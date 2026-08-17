@@ -16,7 +16,7 @@ Taking the curl of Navier--Stokes puts the two sides of that motion in the same 
 \end{equation}
 When \(\omega\) points along an eigenvector of \(S\) with positive eigenvalue, \(S\omega\) amplifies it.  The corresponding extension contracts the filament's cross-section and concentrates the vorticity.  Viscosity responds through \(\nu\Delta\omega\), diffusing the gradients created by that same concentration.  The question is whether this contest changes when the concentration moves to a smaller scale.
 
-Going to a smaller scale might have broken that balance by giving viscosity a relative advantage.  Navier--Stokes does not give it one.  Replace a characteristic length \(\ell\) by \(\ell/\lambda\), with \(\lambda>1\), through
+Going to a smaller scale might have broken that balance by giving viscosity a relative advantage.  Navier--Stokes does not give it one.  The rescaling that replaces a characteristic length \(\ell\) by \(\ell/\lambda\), with \(\lambda>1\), is
 \[
   u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
   \qquad
@@ -46,7 +46,10 @@ The vortex variables make the physical consequence even sharper:
 \]
 Both \(S_\lambda\omega_\lambda\) and \(\nu\Delta\omega_\lambda\) acquire the factor \(\lambda^4\).  Scaling does not show that the alignment persists, nor does it equate the magnitudes of the two terms.  It shows that, if the aligned vortex does persist to a smaller scale, scale alone gives viscosity no relative advantage: stretching and diffusion carry the same homogeneity.  That is the critical balance.
 
-If the aligned vortex reproduces the same contest at smaller scales, its measurement cannot shrink merely because the vortex does.  The homogeneous Sobolev scale tells us which measurement has that property.  Since
+If the aligned vortex reproduces the same contest at smaller scales, its measurement cannot shrink merely because the vortex does.  The homogeneous Sobolev scale tells us which measurement has that property.
+
+\Needspace{11\baselineskip}
+Since
 \[
   \widehat{u_\lambda}(\xi,t)
   =\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),
