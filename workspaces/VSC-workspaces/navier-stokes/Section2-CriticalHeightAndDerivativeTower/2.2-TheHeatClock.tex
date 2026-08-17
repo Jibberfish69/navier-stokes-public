@@ -1,0 +1,91 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The heat clock}\label{sub:BodyHeatClock}
+
+Making the vortex smaller is only half of the proposed motion.
+The smaller state still has to be produced.
+
+At length \(\ell\), the Laplacian contributes a factor of order \(\ell^{-2}\).
+Viscosity therefore acts at the rate \(\nu/\ell^2\), and the corresponding response time is
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \delta t_{\mathrm{heat}}(\ell)
+  \asymp\frac{\ell^2}{\nu}.
+\end{equation}
+This is the heat clock.
+It is the temporal half of the same scaling that preserved critical height: replacing \(\ell\) by \(\ell/\lambda\) replaces the clock by \(\lambda^{-2}\delta t_{\mathrm{heat}}(\ell)\).
+The concentrated state is harder in space and faster in time.
+
+Now let the active length contract geometrically,
+\[
+  \ell_k=\rho^k\ell_0,
+  \qquad
+  0<\rho<1.
+\]
+The heat times then satisfy
+\[
+  \delta t_k^{\mathrm{heat}}
+  \asymp
+  \frac{\ell_0^2}{\nu}\rho^{2k},
+\]
+so
+\[
+  \sum_{k=0}^{\infty}\delta t_k^{\mathrm{heat}}
+  \asymp
+  \frac{\ell_0^2}{\nu}
+  \sum_{k=0}^{\infty}\rho^{2k}
+  =
+  \frac{\ell_0^2}{\nu(1-\rho^2)}
+  <\infty.
+\]
+Infinitely many comparison intervals fit inside a finite amount of heat time.
+That is the opening for a Zeno cascade.
+
+The geometric sum is not yet a cascade made by the fluid.
+It tells us how quickly each scale can respond; the solution still has to pass through the corresponding states.
+There is another important distinction here: an exact rescaled copy leaves \(H\) unchanged.
+The critical-height blow-up branch must therefore do more than replay one normalized profile at smaller scales.
+It must climb through the critical levels while the active scale contracts.
+
+Choose \(H_0>H(0)\), set
+\[
+  L_k:=2^kH_0,
+\]
+and, whenever the level is reached, let
+\[
+  t_k:=\inf\{t>0:H(t)=L_k\}.
+\]
+Continuity orders the first passages:
+\[
+  t_0<t_1<t_2<\cdots.
+\]
+Suppose these passages continue to arbitrarily high levels, the \(k\)-th passage is carried at an active length \(\ell_k=\rho^k\ell_0\), and the time required for the next passage obeys the scale-uniform comparison
+\[
+  0<t_{k+1}-t_k
+  \leq
+  C\frac{\ell_k^2}{\nu}
+  =
+  C\frac{\ell_0^2}{\nu}\rho^{2k}.
+\]
+Then
+\[
+  \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
+  \qquad
+  t_k\uparrow\tau
+\]
+for some \(\tau<\infty\).
+The heat clock and the critical-height clock have become the same event: the field crosses higher levels while its active scale and the time between successive passages both collapse.
+That is the Zeno route.
+
+The same contraction has an opposite effect on spatial derivatives.
+For every \(m\in\Nzero\),
+\[
+  \nabla^m u_\lambda(x,t)
+  =\lambda^{m+1}(\nabla^m u)(\lambda x,\lambda^2t).
+\]
+At the \(k\)-th active scale, \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\), so the first gradient carries the factor \(\lambda_k^2\).
+If the realized states retain a nonzero gradient after normalization to the active scale, their physical gradients diverge as \(k\to\infty\).
+The times converge while the gradients move the other way.
+That limiting motion is the singularity direction of the critical-height vortex.
+
+The vortex has now turned a spatial concentration problem into a temporal one.
+Between \(t_k\) and \(t_{k+1}\), the velocity must keep producing distinguishable states across intervals that are disappearing.
+The next object is forced by that demand.
