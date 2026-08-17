@@ -14,7 +14,7 @@ and the momentum equation gives
 \begin{equation}\label{eq:MaterialAccelerationEquationBody}
   D_tu=-\nabla p+\nu\Delta u.
 \end{equation}
-Applying \(D_t\) again produces the material jerk.  But repeated material differentiation also keeps differentiating the particle path and the transport field.  The clean way to expose the response hierarchy is to hold the spatial coordinate fixed and separate its Eulerian rows:
+Applying \(D_t\) again produces the material jerk.  Repeated material differentiation also keeps differentiating the particle path and the transport field.  Holding the spatial coordinate fixed separates the Eulerian rows inside those material responses:
 \begin{equation}\label{eq:TemporalTowerDefinitionBody}
   V_n:=\partial_t^nu,
   \qquad
@@ -28,7 +28,7 @@ The distinction is exact.  Material acceleration is not \(V_1\); rather,
 \]
 Thus \(V_1\) is the fixed-position time response inside acceleration, and \(V_2\) is the next fixed-position response that enters the jerk calculation.
 
-The velocity--acceleration--jerk pressure can now be stated without metaphor.  Let \(B\) be a fixed Banach space.  Whenever \(V_n\) is absolutely continuous from \([s,t]\) into \(B\),
+At fixed \(x\), the velocity--acceleration--jerk relation is an exact difference-quotient statement.  Let \(B\) be a fixed Banach space.  Whenever \(V_n\) is absolutely continuous from \([s,t]\) into \(B\),
 \[
   V_n(t)-V_n(s)
   =\int_s^tV_{n+1}(\tau)\,d\tau,
@@ -52,7 +52,7 @@ Navier--Stokes generates those rows from the start.  Solving the momentum equati
   V_1
   =\nu\Delta V_0-(V_0\cdot\nabla)V_0-\nabla Q_0.
 \]
-Differentiate once and the time derivative can land on either velocity in the transport term:
+After one derivative, the time derivative can land on either velocity in the transport term:
 \[
   V_2
   =\nu\Delta V_1
@@ -60,7 +60,7 @@ Differentiate once and the time derivative can land on either velocity in the tr
   -(V_0\cdot\nabla)V_1
   -\nabla Q_1.
 \]
-Differentiate again and the two placements split again:
+After another derivative, the two placements split again:
 \[
 \begin{aligned}
   V_3={}&
@@ -105,7 +105,7 @@ where decay at spatial infinity fixes the additive constant.  After \(n\) time d
 \end{equation}
 The velocity rows determine \(Q_n\); its gradient then returns through \eqref{eq:BodyTemporalVelocityRecurrence} as part of \(V_{n+1}\).  Every rung is pressure-complete.
 
-At this point the Tower refuses to remain temporal.  Viscosity places \(\Delta V_n\) in every row, transport adds a spatial derivative, and pressure is recovered through spatial singular integrals of velocity products.  Differentiating in time has already opened a spatial direction.  Following that direction to arbitrary depth requires the mixed coordinates
+Each temporal row already contains spatial differentiation.  Viscosity contributes \(\Delta V_n\), transport contributes another spatial derivative, and pressure returns through spatial singular integrals of velocity products.  Following those derivatives to arbitrary order gives the mixed coordinates
 \begin{equation}\label{eq:BodyMixedJetDefinition}
   J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
   \qquad
