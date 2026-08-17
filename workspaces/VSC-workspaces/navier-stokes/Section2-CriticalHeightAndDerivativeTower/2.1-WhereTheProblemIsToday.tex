@@ -3,7 +3,7 @@
 
 The hard case begins where vortex stretching and viscosity scale exactly alike.
 Take a vortex whose vorticity remains aligned with a positive extensional direction of the strain.
-The strain amplifies the vorticity, incompressibility contracts the transverse scale of the stretched region, and viscosity acts on the sharper gradients created by that contraction.
+The strain amplifies the vorticity, incompressibility contracts the cross-sectional area of the stretched material filament, and viscosity acts on the sharper gradients created by that concentration.
 Real vortices can bend, wobble, fragment, or lose the alignment that feeds the stretch.
 The case the proof has to cover is the one that keeps the alignment and continues to concentrate.
 
@@ -19,9 +19,10 @@ Taking the curl of Navier--Stokes gives
   =S\omega+\nu\Delta\omega.
 \end{equation}
 When \(\omega\) points along an eigenvector of \(S\) with positive eigenvalue, \(S\omega\) strengthens it.
-For an aligned filamentary vortex, that extension is accompanied by transverse contraction.
-If \(\ell\) denotes the active transverse length, the next sharper configuration replaces \(\ell\) by \(\ell/\lambda\) for some \(\lambda>1\).
-The immediate issue is whether this change of scale favors the stretching term or the viscous term.
+For an aligned material filament, that extension is accompanied by contraction of its cross-sectional area.
+This is the physical concentration supplied by the vortex.
+To measure it with one length, compare full profiles under an isotropic contraction that replaces a characteristic scale \(\ell\) by \(\ell/\lambda\), with \(\lambda>1\).
+The immediate issue is how stretching and viscosity change under that comparison.
 
 Navier--Stokes answers through its natural rescaling:
 \[
@@ -46,8 +47,15 @@ At the same time,
   &=\lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
 \end{aligned}
 \]
-The nonlinear stretching and viscous response carry the same factor \(\lambda^3\).
-Concentration preserves their relative scaling.
+The nonlinear transport and viscous response carry the same factor \(\lambda^3\).
+The vortex equation makes the stretching comparison equally explicit:
+\[
+  \omega_\lambda(x,t)=\lambda^2\omega(\lambda x,\lambda^2t),
+  \qquad
+  S_\lambda(x,t)=\lambda^2S(\lambda x,\lambda^2t),
+\]
+and hence both \(S_\lambda\omega_\lambda\) and \(\nu\Delta\omega_\lambda\) carry the factor \(\lambda^4\).
+Concentration preserves the relative scaling of vortex stretching and viscosity.
 That equality of scale weight is the critical balance.
 
 The corresponding Sobolev height follows from the same rescaling.
@@ -108,7 +116,7 @@ After integration in time,
 This law controls the total kinetic energy.
 Under concentration, however, the rescaled configuration carries \(\lambda^{-1}\) of that energy and the same critical height.
 An energy bound can hold across an arbitrarily concentrated scale family because the quantity it controls becomes smaller precisely where \(H\) remains unchanged.
-That is why the energy law leaves the critical-height problem open.
+The energy identity controls an exponent below critical height and leaves \(H\) uncontrolled.
 
 Once energy leaves this concentration open, the next issue is how much time viscosity has to act at the new scale.
 A structure of length \(\ell\) has the linear viscous smoothing time
@@ -135,6 +143,7 @@ If the comparison constants in \eqref{eq:BodyHeatComparisonTime} are uniform acr
 The sum is finite.
 This is the Zeno comparison clock: smaller spatial scales come with a summable sequence of viscous response times.
 
+\Needspace{8\baselineskip}
 The same rescaling sharpens every spatial derivative.
 For \(m\in\Nzero\),
 \[
@@ -143,11 +152,8 @@ For \(m\in\Nzero\),
 \]
 In particular, one scale step multiplies the velocity gradient by \(\lambda^2\) while dividing the heat-comparison time by \(\lambda^2\).
 Across the rescaled family, the clock runs downward as the gradients run upward.
-The limiting comparison profile is the singularity direction carried by the stretching vortex.
 
-The evolving solution becomes a Zeno cascade only by realizing that comparison family.
-It has to generate the successive scales \(\ell_k\), make the transitions on intervals tied to those scales, and accumulate the transition times at a common limit \(\tau\).
-Critical-height growth can be recorded independently.
+Critical-height first passages let us state what realization by the evolving solution would mean.
 If \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\) and define
 \[
   L_k:=2^kH_0,
@@ -155,10 +161,27 @@ If \(H\) crosses arbitrarily large levels, choose \(H_0>H(0)\) and define
   t_k:=\inf\{t>0:H(t)=L_k\}.
 \]
 Continuity gives \(t_0<t_1<t_2<\cdots\).
-These first passages record what the actual solution does in the critical norm; the lengths \(\ell_k\) and heat times \(\delta t_k^{\mathrm{heat}}\) record the scale comparison.
-A realized critical-height Zeno route requires a bridge between them, together with \(t_k\uparrow\tau\).
+Suppose the \(k\)-th passage is carried by an active length \(\ell_k=\rho^k\ell_0\) and its transition interval obeys the scale-uniform comparison
+\[
+  0<t_{k+1}-t_k
+  \leq C\,\delta t_k^{\mathrm{heat}}
+  \asymp C\frac{\ell_0^2}{\nu}\rho^{2k}.
+\]
+Then
+\[
+  \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
+  \qquad
+  t_k\uparrow\tau<\infty.
+\]
+This is the realized critical-height Zeno route: the critical norm crosses every level while the active scale and the time between passages both collapse.
 
-That requirement is the pivot into the derivative Tower.
-A cascade consists of changes made by the one evolving velocity field; rescaled pictures supply the comparison family.
-If distinguishable velocity states are produced across intervals that shrink to zero, the time response has to grow.
-Acceleration, jerk, and the later temporal responses enter because they are what generate those changes.
+The singularity is the spatial limit of that route.
+At the \(k\)-th scale, write \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\).
+The derivative law assigns the factor \(\lambda_k^2\) to \(\nabla u\).
+If the realized states retain a nonzero scale-normalized gradient profile, their gradients diverge as \(k\to\infty\) and the passages accumulate at \(\tau\).
+That is the singularity direction of the perfectly stretching vortex.
+
+The singularity now forces the temporal question.
+Every sharper state has to be produced from the preceding state across the shrinking intervals \([t_k,t_{k+1}]\).
+Distinguishable changes on those intervals require a growing time response.
+Acceleration, jerk, and the later temporal responses enter because they generate the passage from one state to the next.
