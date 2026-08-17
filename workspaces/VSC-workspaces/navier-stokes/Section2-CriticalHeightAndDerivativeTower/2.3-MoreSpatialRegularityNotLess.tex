@@ -1,0 +1,208 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
+
+Now put the two directions beside each other.
+The heat clock has already shown that one time derivative costs two powers of scale.
+At critical height, moving one full Sobolev step upward in the quadratic spatial energy costs the same two powers.
+Set
+\[
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
+  \qquad
+  E_{s,\lambda}(t):=\frac12\norm{\Lambda^su_\lambda(t)}_2^2,
+  \qquad
+  H=E_{1/2}.
+\]
+The scaling calculation from the stretching vortex gives
+\begin{equation}\label{eq:BodySpatialEnergyScaling}
+  E_{s,\lambda}(t)
+  =\lambda^{2s-1}E_s(\lambda^2t).
+\end{equation}
+At \(s=\tfrac12\),
+\[
+  H_\lambda(t):=E_{1/2,\lambda}(t)=H(\lambda^2t).
+\]
+Differentiating \(n\) times in \(t\) gives
+\begin{equation}\label{eq:BodyCriticalHeightTemporalScaling}
+  H_\lambda^{(n)}(t)
+  =\lambda^{2n}H^{(n)}(\lambda^2t).
+\end{equation}
+At the spatial height \(s=n+\tfrac12\), equation \eqref{eq:BodySpatialEnergyScaling} gives
+\begin{equation}\label{eq:BodySpatialHeightScalingDiagonal}
+  E_{n+1/2,\lambda}(t)
+  =\lambda^{2n}E_{n+1/2}(\lambda^2t).
+\end{equation}
+The \(n\)-th temporal response of critical height and the spatial energy at height \(n+\tfrac12\) have the same scale weight.
+This is the time--space match hidden in the heat clock.
+
+Scaling tells us which spatial height belongs beside each temporal order.
+The differentiated equation tells us why that height is present.
+Since
+\[
+  H(t)=\frac12\pair{\Lambda^{1/2}V_0(t)}{\Lambda^{1/2}V_0(t)}_{L^2},
+\]
+Leibniz's rule gives
+\begin{equation}\label{eq:BodyHeightDerivativeTemporalContraction}
+  H^{(n)}(t)
+  =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
+  \pair{\Lambda^{1/2}V_a(t)}
+       {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
+\end{equation}
+Thus \(H^{(n)}\) contracts together the temporal rows \(V_0,\ldots,V_n\).
+It is a scalar response built from those rows, distinct from every individual \(V_n\).
+
+Now apply \(\Lambda^s\) to the momentum equation and pair with \(\Lambda^su\).
+The time derivative gives \(E_s'\), while viscosity gives
+\[
+  \nu\pair{\Lambda^su}{\Lambda^s\Delta u}_{L^2}
+  =-\nu\norm{\Lambda^{s+1}u}_2^2
+  =-2\nu E_{s+1}.
+\]
+Incompressibility cancels the global pressure pairing after integration by parts.
+Keep the complete transport--pressure transfer in
+\[
+  \mathcal P_s
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+The exact energy row is
+\begin{equation}\label{eq:BodyCriticalEnergyBalance}
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\end{equation}
+
+Start at critical height.
+One time derivative brings in the next spatial energy:
+\[
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+Differentiate once more and use \eqref{eq:BodyCriticalEnergyBalance} at \(s=\tfrac32\):
+\begin{align*}
+  H''
+  &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
+  \\
+  &=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2}.
+\end{align*}
+The next derivative reaches the row at \(s=\tfrac52\):
+\[
+  H'''
+  =\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\]
+Every derivative retains the earlier transport--pressure transfers and adds one higher viscous energy.
+
+\Needspace{18\baselineskip}
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The first time--space rungs.  The critical response and the spatial height in the final two columns have the same scale weight, while \(V_n\), \(H^{(n)}\), and \(E_{n+1/2}\) remain distinct objects.}
+\label{tab:BodyTemporalSpatialDiscovery}
+\small
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{@{}c c c c@{}}
+\toprule
+order & Eulerian response & critical response & spatial height exposed \\
+\midrule
+\(0\) & \(V_0=u\) & \(H=E_{1/2}\) & \(E_{1/2}\) \\
+\(1\) & \(V_1=u_t\) & \(H'\) & \(E_{3/2}\) \\
+\(2\) & \(V_2=u_{tt}\) & \(H''\) & \(E_{5/2}\) \\
+\(3\) & \(V_3=u_{ttt}\) & \(H'''\) & \(E_{7/2}\) \\
+\(n\) & \(V_n=\partial_t^nu\) & \(H^{(n)}\) & \(E_{n+1/2}\) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+A singularity would drive the temporal responses upward while spatial regularity deteriorates.
+The table points in the other direction: each temporal order reaches a higher spatial energy.
+More spatial regularity, not less.
+
+The first rungs also show the complete pattern.
+Induction gives, for \(n\geq1\),
+\begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
+  H^{(n)}
+  =(-2\nu)^nE_{n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\end{equation}
+Because \(\nu>0\), the coefficient of the top spatial energy is nonzero at every order.
+Solving for that height gives
+\begin{equation}\label{eq:BodyCompletedCriticalRow}
+  E_{n+1/2}
+  =(-2\nu)^{-n}
+  \left(
+    H^{(n)}
+    -\sum_{j=0}^{n-1}
+      (-2\nu)^j
+      \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  \right).
+\end{equation}
+At this stage, \emph{reaches} has an exact meaning.
+The identity exposes the higher spatial coordinate and names the response and transfer terms whose control would determine it.
+The estimate that supplies that control comes later.
+
+Now return to the mixed jet.
+The calculation above used \(V_0=u\), but the differentiated Navier--Stokes equation has the same viscous structure in every temporal row.
+Fix \(V_r\) and define
+\begin{align*}
+  E_{r,s}
+  &:=\frac12\norm{\Lambda^sV_r}_2^2,
+  \\
+  \mathcal P_{r,s}
+  &:=-\operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left(
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right)}_{L^2}.
+\end{align*}
+Pairing the \(r\)-th equation in \eqref{eq:BodyTemporalVelocityRecurrence} with \(\Lambda^{2s}V_r\) gives
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+For a fixed row \(r\), the same calculation repeats to every finite ascent depth \(k\geq1\):
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^kE_{r,1/2}
+  =(-2\nu)^kE_{r,k+1/2}
+  +\sum_{j=0}^{k-1}
+  (-2\nu)^j
+  \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+The left side is a scalar quadratic readout involving \(V_r,\ldots,V_{r+k}\), distinct from any single response row.
+There is one spatial ascent inside \(V_0\), another inside \(V_1\), and another inside every finite \(V_r\).
+Temporal depth and spatial height are independent choices.
+
+The diagonal has now opened into a grid:
+\[
+\begin{array}{c|ccccc}
+ & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
+\hline
+V_0=u      & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_1=u_t    & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_2=u_{tt} & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
+\vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
+\end{array}
+\]
+Moving down selects a later temporal response.
+Moving across selects a higher Sobolev height inside that response.
+
+This is where the intersection comes from.
+No single diagonal coordinate gives smoothness, and no single row contains every order by itself.
+On a time interval \(I\), the full target is
+\begin{equation}\label{eq:BodyDesiredMixedIntersection}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I;H^m(\R^3)).
+\end{equation}
+Every finite temporal response at every finite spatial height has to meet in that intersection.
+
+An estimate can pay for finitely many coordinates at a time.
+Choose a finite temporal depth \(N\) and a finite spatial height \(M\); that choice cuts a rectangle out of the mixed grid.
+Increasing either cutoff enlarges the rectangle while keeping its earlier coordinates.
+Section~\ref{sec:TheIntersectionInsideTheTower} turns this geometric rectangle into the exact adjacent trace block and applies the datum-generated estimate that fills it.
