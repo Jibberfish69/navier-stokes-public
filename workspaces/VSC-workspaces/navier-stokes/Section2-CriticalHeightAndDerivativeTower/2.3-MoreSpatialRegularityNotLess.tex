@@ -114,7 +114,7 @@ The same identity can be solved for that height:
   \right).
 \end{equation}
 Controlling the critical response and every retained transfer term at depth \(n\) controls the spatial energy at height \(n+\tfrac12\).
-The identity exposes the height; it does not supply that control by itself.
+The identity exposes the height; control of the response and transfer terms must still be supplied.
 
 \Needspace{18\baselineskip}
 \begin{center}
@@ -139,8 +139,8 @@ order & Eulerian response & critical response & spatial height exposed \\
 The singularity route asks for sharper changes across shorter intervals.
 The temporal Tower measures those responses.
 At the same order, the completed height identity exposes a higher spatial energy.
-This is the reversal: once its finite response and transfer terms are controlled, the equation yields more spatial regularity, not less.
-For now that is one diagonal of exposed coordinates, not a regularity conclusion.
+This is the reversal: once its finite response and transfer terms are controlled, every temporal step reaches one higher spatial height.
+The result remains a diagonal of exposed coordinates; regularity begins only after those coordinates are controlled.
 
 The mixed recurrence opens the rest of the grid.
 Fix a temporal row \(V_r\) and define
@@ -185,8 +185,7 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \]
 Moving down selects a later response; moving across asks for a higher Sobolev height inside that response.
 
-One diagonal coordinate is not smoothness, and one finite row is not smoothness.
-The target is every chosen finite spatial coordinate inside every chosen finite temporal response:
+Smoothness requires the entire grid: every chosen finite spatial coordinate inside every chosen finite temporal response.
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
@@ -194,5 +193,5 @@ The target is every chosen finite spatial coordinate inside every chosen finite 
   H^r(I;H^m(\R^3)).
 \end{equation}
 That is the intersection already embedded in the mixed Tower.
-Fixing finite cutoffs \(N\) and \(M\) selects a finite rectangle of the grid; increasing either cutoff adds the next rows or columns without changing the coordinates already selected.
+Fixing finite cutoffs \(N\) and \(M\) selects a finite rectangle of the grid; increasing either cutoff adds the next rows or columns and preserves every coordinate already selected.
 Section~\ref{sec:TheIntersectionInsideTheTower} turns that geometric rectangle into an adjacent trace block and applies the datum-generated estimate that fills it.
