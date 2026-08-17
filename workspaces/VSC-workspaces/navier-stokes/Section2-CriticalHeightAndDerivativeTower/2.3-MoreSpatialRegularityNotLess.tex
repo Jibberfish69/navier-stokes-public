@@ -1,7 +1,7 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-Critical scaling puts the two directions of the mixed jet on the same ruler.  One time derivative carries two powers of scale.  One full Sobolev step in a quadratic spatial energy carries the same two powers.  That means every temporal response has a spatial height sitting beside it.
+Critical scaling assigns the same homogeneity to one time derivative and one full Sobolev step in a quadratic spatial energy.  Consequently the \(n\)-th temporal order has a spatial counterpart at height \(n+\tfrac12\).
 
 For
 \[
@@ -46,13 +46,14 @@ Leibniz's rule gives
 \end{equation}
 Thus \(H^{(n)}\) contracts together all temporal rows from \(V_0\) through \(V_n\).  It is the scalar readout of those rows at critical height.
 
-Apply \(\Lambda^s\) to the momentum equation and pair with \(\Lambda^su\).  Incompressibility removes the global pressure pairing after integration by parts, while viscosity gives
+Applying \(\Lambda^s\) to the momentum equation and pairing with \(\Lambda^su\) removes the global pressure pairing by incompressibility, while viscosity gives
 \[
   \nu\pair{\Lambda^su}{\Lambda^s\Delta u}_{L^2}
   =-\nu\norm{\Lambda^{s+1}u}_2^2
   =-2\nu E_{s+1}.
 \]
-Keep the complete transport--pressure transfer in
+\Needspace{8\baselineskip}
+Define the complete transport--pressure transfer by
 \[
   \mathcal P_s
   :=-
@@ -107,7 +108,7 @@ order & Eulerian response & critical response & spatial height exposed \\
 \end{tabularx}
 \end{center}
 
-Read the table from the singularity side and the temporal responses are supposed to become more violent as the Zeno intervals collapse.  Read the same rungs through viscosity and every response reaches a higher Sobolev energy.  If a singularity were simply destroying regularity rung by rung, we would expect the opposite.  The equation exposes more spatial regularity, not less.
+Along the Zeno route, later temporal responses must grow whenever they continue to carry nontrivial changes across collapsing intervals.  In the differentiated equation, those same temporal orders expose successively higher Sobolev energies.  That reversal is the point: worse temporal response appears beside more spatial regularity, not less.
 
 Exposure is not yet control.  The transfer terms still have to be paid, and the exact dependence is visible in the general row.  For every \(n\geq1\), induction gives
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
@@ -130,7 +131,7 @@ Because \(\nu>0\), the coefficient of the top spatial energy never vanishes.  So
 \end{equation}
 The conditional is exact: control \(H^{(n)}\) and every retained transfer term at depth \(n\), and the spatial energy \(E_{n+1/2}\) is controlled.  Scaling chose the diagonal; the differentiated equation supplied the terms that must be estimated on it.
 
-Nothing in this ascent belongs only to the first temporal row.  Fix any response \(V_r\) and set
+The same ascent repeats inside every temporal row.  For a fixed response \(V_r\), define
 \begin{align*}
   E_{r,s}
   &:=\frac12\norm{\Lambda^sV_r}_2^2,
@@ -157,7 +158,7 @@ After any finite ascent depth \(k\geq1\),
 \end{equation}
 The scalar on the left involves \(V_r,\ldots,V_{r+k}\); it is not any one of those responses.  The important point is that the spatial ascent repeats inside every finite \(V_r\).  Temporal depth and spatial height have become independent coordinates.
 
-The one scaling diagonal has therefore opened into the full mixed grid:
+The one scaling diagonal has opened into the full mixed grid:
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
@@ -178,4 +179,4 @@ Moving down selects a later temporal response.  Moving across selects a higher S
 \end{equation}
 This is the intersection inside the Tower.  It is where the escalating temporal responses and the ascending spatial energies have to meet.
 
-No finite estimate can pay the entire intersection in one move.  But every coordinate in it lies inside some finite cut.  Choose a temporal depth \(N\) and a spatial height \(M\); the rows \(0,\ldots,N\) and columns \(0,\ldots,M\) form a rectangle, and increasing either cutoff preserves every coordinate already paid.  The Tower began as the temporal cost of a Zeno singularity.  Once Navier--Stokes is allowed to finish the calculation, that cost becomes a two-dimensional demand: every finite temporal depth at every finite spatial height.  The rectangle is that demand in the finite form an estimate can actually control.
+No finite estimate can pay the entire intersection in one move.  But every coordinate in it lies inside some finite cut.  A temporal depth \(N\) and a spatial height \(M\) cut out the rows \(0,\ldots,N\) and columns \(0,\ldots,M\); increasing either cutoff preserves every coordinate already paid.  The Tower began as the temporal cost of a Zeno singularity.  Once Navier--Stokes is allowed to finish the calculation, that cost becomes a two-dimensional demand: every finite temporal depth at every finite spatial height.  The rectangle is that demand in the finite form an estimate can actually control.
