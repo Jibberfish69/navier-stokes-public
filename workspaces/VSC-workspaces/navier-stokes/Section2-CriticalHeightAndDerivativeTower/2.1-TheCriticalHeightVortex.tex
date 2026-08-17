@@ -1,0 +1,125 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The balance at critical height}\label{sub:ThePerfectlyStretchingVortex}
+
+The obvious place to put your hope is viscosity.
+The nonlinear term can stretch and concentrate the fluid, but viscosity is already there to smooth out the velocity differences that concentration creates.
+So the direct idea is to show that, before those differences become singular, the viscous term takes over.
+The obstruction appears when a vortex can make both sides stronger at once.
+
+Stretch a vortex along its axis.
+Incompressibility narrows its cross-section, so the velocity changes across that cross-section are packed into less space and the gradients become steeper.
+Viscosity acts more strongly on those gradients.
+The stretching also becomes stronger because the vorticity and strain have concentrated with them.
+A bend, a wobble, or a loss of alignment can interrupt the repetition; the case that keeps the problem open is the vortex that remains aligned and stretches again.
+
+Write
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of Navier--Stokes gives
+\begin{equation}\label{eq:VorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) amplifies the vorticity.
+The same extension narrows the vortex and steepens the gradients seen by \(\nu\Delta\omega\).
+The question is whether that narrowing gives viscosity any relative advantage.
+
+Suppose one stretch replaces a characteristic length \(\ell\) by \(\ell/\lambda\), where \(\lambda>1\).
+The corresponding Navier--Stokes rescaling is
+\[
+  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Each term in the momentum equation acquires the same factor:
+\[
+\begin{aligned}
+  &\partial_tu_\lambda
+  +(u_\lambda\cdot\nabla)u_\lambda
+  +\nabla p_\lambda
+  -\nu\Delta u_\lambda
+  \\
+  &\qquad=
+  \lambda^3
+  \bigl[
+    \partial_tu+(u\cdot\nabla)u+\nabla p-\nu\Delta u
+  \bigr](\lambda x,\lambda^2t).
+\end{aligned}
+\]
+For the vortex variables,
+\[
+  \omega_\lambda(x,t)=\lambda^2\omega(\lambda x,\lambda^2t),
+  \qquad
+  S_\lambda(x,t)=\lambda^2S(\lambda x,\lambda^2t),
+\]
+and therefore
+\[
+  S_\lambda\omega_\lambda
+  =\lambda^4(S\omega)(\lambda x,\lambda^2t),
+  \qquad
+  \nu\Delta\omega_\lambda
+  =\lambda^4\nu(\Delta\omega)(\lambda x,\lambda^2t).
+\]
+Both sides of the contest strengthen by the same power of \(\lambda\).
+Scaling does not guarantee that the alignment persists, but it answers the question we asked: if the aligned vortex tightens and stretches again, going smaller does not improve viscosity's position.
+
+This is where critical height enters.
+If the vortex reproduces the same contest at a smaller scale, its measurement cannot shrink merely because the vortex did.
+For a homogeneous Sobolev norm,
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t).
+\]
+With \(\eta=\xi/\lambda\),
+\begin{align*}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  &=\int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
+  \,d\xi
+  \\
+  &=\lambda^{2s-1}
+  \int_{\R^3}
+  |\eta|^{2s}
+  \left|\widehat u(\eta,\lambda^2t)\right|^2
+  \,d\eta
+  \\
+  &=\lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\end{align*}
+The exponent vanishes at one height:
+\[
+  s=\frac12.
+\]
+With \(\Lambda:=(-\Delta)^{1/2}\), define
+\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+  H(t)
+  :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\end{equation}
+This is the critical height.
+Below \(\dot H^{1/2}\), concentration makes the norm smaller; above it, concentration makes the norm larger; at \(\dot H^{1/2}\), the smaller vortex has exactly the same size.
+
+Now compare that with the estimate supplied by kinetic energy.
+Pairing Navier--Stokes with \(u\), using incompressibility to remove transport and pressure, and integrating the viscous term by parts gives
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+Under the same concentration,
+\[
+  \norm{u_\lambda(t)}_2^2
+  =\lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t).
+\]
+Kinetic energy falls by \(\lambda^{-1}\) while critical height does not fall at all.
+The vortex becomes cheaper in the quantity controlled by the energy law without becoming smaller in the quantity that measures the critical concentration.
+That is why the energy law leaves this case open.
+
+The balance can survive one change of scale.
+The next question is how quickly the next scale can be produced.
