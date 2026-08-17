@@ -1,0 +1,79 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
+
+The two directions make opposite predictions.
+Under a finite singular time, every fixed temporal row loses \(L^3\) control by \eqref{eq:TemporalTowerMustEscape}.
+Viscosity points across those rows toward higher spatial order.
+
+Critical height records the same opposition.
+For
+\[
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
+  \qquad
+  H=E_{1/2},
+\]
+one differentiation gives
+\[
+  H'
+  =
+  \mathcal P_{1/2}-2\nu E_{3/2},
+\]
+where \(\mathcal P_{1/2}\) contains the full nonlinear and pressure transfer.
+Differentiating again exposes \(E_{5/2}\) as the new highest viscous energy; the next derivative exposes \(E_{7/2}\).
+Each step downward in temporal order opens another step upward in spatial regularity while retaining the earlier transfer terms.
+
+\Needspace{17\baselineskip}
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{Temporal escalation and the spatial height exposed at the same order.}
+\label{tab:BodyTemporalSpatialDiscovery}
+\small
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{@{}c c c c@{}}
+\toprule
+order & temporal response & critical-height response & spatial height exposed \\
+\midrule
+\(0\) & \(V_0=u\) & \(H=E_{1/2}\) & \(E_{1/2}\) \\
+\(1\) & \(V_1=u_t\) & \(H'\) & \(E_{3/2}\) \\
+\(2\) & \(V_2=u_{tt}\) & \(H''\) & \(E_{5/2}\) \\
+\(3\) & \(V_3=u_{ttt}\) & \(H'''\) & \(E_{7/2}\) \\
+\(n\) & \(V_n=\partial_t^nu\) & \(H^{(n)}\) & \(E_{n+1/2}\) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The table matches orders; it does not identify \(V_n\) with the scalar quantity \(H^{(n)}\).
+Nor does the appearance of \(E_{n+1/2}\) prove that it is bounded.
+It reveals the reversal inside the equation.
+The singularity requires increasingly violent temporal response, while viscosity exposes increasingly high spatial regularity.
+A singularity would suggest less spatial regularity as the temporal order rises.
+The Tower produces more.
+
+For any fixed temporal row \(V_r\), complete finite-order spatial control would place that row in
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  =H^\infty(\R^3)
+  \subset C^\infty(\R^3).
+\]
+The spaces intersect; their norms are not summed, and the constants at different orders need not agree.
+The same implication is available separately in every temporal row.
+
+Lay the rows beneath one another:
+\[
+\begin{array}{c|ccccc}
+ & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
+\hline
+V_0=u      & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_1=u_t    & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_2=u_{tt} & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
+\vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
+\end{array}
+\]
+The downward coordinate is temporal order; the across coordinate is spatial regularity.
+Their intersection is already present in each coordinate of the pressure-complete mixed jet.
+
+No estimate controls the infinite grid in one step.
+Fixing finite temporal depth \(N\) and finite spatial depth \(M\) cuts out a rectangle.
+The exact \NavierStokes{} rectangle includes the adjacent rows and pressure relations required by the recurrence.
+Those finite rectangles are the objects the next section controls.
