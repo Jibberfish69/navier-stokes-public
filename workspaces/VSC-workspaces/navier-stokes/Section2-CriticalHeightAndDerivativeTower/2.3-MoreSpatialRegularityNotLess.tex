@@ -1,42 +1,38 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-Now put the two directions beside each other.
-The heat clock has already shown that one time derivative costs two powers of scale.
-At critical height, moving one full Sobolev step upward in the quadratic spatial energy costs the same two powers.
-Set
+Critical scaling puts the two directions of the mixed jet on the same ruler.  One time derivative carries two powers of scale.  One full Sobolev step in a quadratic spatial energy carries the same two powers.  That means every temporal response has a spatial height sitting beside it.
+
+For
 \[
   E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
   \qquad
   E_{s,\lambda}(t):=\frac12\norm{\Lambda^su_\lambda(t)}_2^2,
   \qquad
-  H=E_{1/2}.
+  H=E_{1/2},
 \]
-The scaling calculation from the stretching vortex gives
+the scaling calculation from the stretching vortex gives
 \begin{equation}\label{eq:BodySpatialEnergyScaling}
   E_{s,\lambda}(t)
   =\lambda^{2s-1}E_s(\lambda^2t).
 \end{equation}
-At \(s=\tfrac12\),
+At critical height the spatial factor disappears, so
 \[
-  H_\lambda(t):=E_{1/2,\lambda}(t)=H(\lambda^2t).
+  H_\lambda(t)=H(\lambda^2t).
 \]
-Differentiating \(n\) times in \(t\) gives
+Differentiating \(n\) times in time introduces \(\lambda^{2n}\):
 \begin{equation}\label{eq:BodyCriticalHeightTemporalScaling}
   H_\lambda^{(n)}(t)
   =\lambda^{2n}H^{(n)}(\lambda^2t).
 \end{equation}
-At the spatial height \(s=n+\tfrac12\), equation \eqref{eq:BodySpatialEnergyScaling} gives
+The spatial energy at height \(n+\tfrac12\) carries exactly the same factor,
 \begin{equation}\label{eq:BodySpatialHeightScalingDiagonal}
   E_{n+1/2,\lambda}(t)
   =\lambda^{2n}E_{n+1/2}(\lambda^2t).
 \end{equation}
-The \(n\)-th temporal response of critical height and the spatial energy at height \(n+\tfrac12\) have the same scale weight.
-This is the time--space match hidden in the heat clock.
+This is a scale match, not an identification of objects.  The temporal response \(V_n\), the scalar derivative \(H^{(n)}\), and the spatial energy \(E_{n+1/2}\) remain distinct.  What scaling has told us is where to look: the \(n\)-th response of critical height and the Sobolev height \(n+\tfrac12\) occupy the same rung.
 
-Scaling tells us which spatial height belongs beside each temporal order.
-The differentiated equation tells us why that height is present.
-Since
+The differentiated equation explains why that spatial height actually appears.  Because
 \[
   H(t)=\frac12\pair{\Lambda^{1/2}V_0(t)}{\Lambda^{1/2}V_0(t)}_{L^2},
 \]
@@ -48,17 +44,14 @@ Leibniz's rule gives
   \pair{\Lambda^{1/2}V_a(t)}
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
-Thus \(H^{(n)}\) contracts together the temporal rows \(V_0,\ldots,V_n\).
-It is a scalar response built from those rows, distinct from every individual \(V_n\).
+Thus \(H^{(n)}\) contracts together all temporal rows from \(V_0\) through \(V_n\).  It is the scalar readout of those rows at critical height.
 
-Now apply \(\Lambda^s\) to the momentum equation and pair with \(\Lambda^su\).
-The time derivative gives \(E_s'\), while viscosity gives
+Apply \(\Lambda^s\) to the momentum equation and pair with \(\Lambda^su\).  Incompressibility removes the global pressure pairing after integration by parts, while viscosity gives
 \[
   \nu\pair{\Lambda^su}{\Lambda^s\Delta u}_{L^2}
   =-\nu\norm{\Lambda^{s+1}u}_2^2
   =-2\nu E_{s+1}.
 \]
-Incompressibility cancels the global pressure pairing after integration by parts.
 Keep the complete transport--pressure transfer in
 \[
   \mathcal P_s
@@ -67,17 +60,15 @@ Keep the complete transport--pressure transfer in
   \pair{\Lambda^su}
   {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
 \]
-The exact energy row is
+The exact energy row is therefore
 \begin{equation}\label{eq:BodyCriticalEnergyBalance}
   E_s'=\mathcal P_s-2\nu E_{s+1}.
 \end{equation}
-
-Start at critical height.
-One time derivative brings in the next spatial energy:
+Every time derivative of a spatial energy exposes the next Sobolev height through the viscous term.  Starting at \(H=E_{1/2}\), the first rung is
 \[
   H'=\mathcal P_{1/2}-2\nu E_{3/2}.
 \]
-Differentiate once more and use \eqref{eq:BodyCriticalEnergyBalance} at \(s=\tfrac32\):
+Differentiating once more and using the same identity at \(s=\tfrac32\) gives
 \begin{align*}
   H''
   &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
@@ -86,7 +77,7 @@ Differentiate once more and use \eqref{eq:BodyCriticalEnergyBalance} at \(s=\tfr
   -2\nu\mathcal P_{3/2}
   +(2\nu)^2E_{5/2}.
 \end{align*}
-The next derivative reaches the row at \(s=\tfrac52\):
+The next derivative reaches one height farther:
 \[
   H'''
   =\partial_t^2\mathcal P_{1/2}
@@ -94,7 +85,7 @@ The next derivative reaches the row at \(s=\tfrac52\):
   +(2\nu)^2\mathcal P_{5/2}
   -(2\nu)^3E_{7/2}.
 \]
-Every derivative retains the earlier transport--pressure transfers and adds one higher viscous energy.
+The transfer terms remain, and each new response adds one higher viscous energy.
 
 \Needspace{18\baselineskip}
 \begin{center}
@@ -116,13 +107,9 @@ order & Eulerian response & critical response & spatial height exposed \\
 \end{tabularx}
 \end{center}
 
-The two directions now oppose one another.
-The Zeno singularity picture asks for worse behavior in time; the energy rows point upward in space.
-Once the critical response and its transfer terms are controlled, the same rung controls a higher Sobolev energy.
-More spatial regularity, not less.
+Read the table from the singularity side and the temporal responses are supposed to become more violent as the Zeno intervals collapse.  Read the same rungs through viscosity and every response reaches a higher Sobolev energy.  If a singularity were simply destroying regularity rung by rung, we would expect the opposite.  The equation exposes more spatial regularity, not less.
 
-The first rungs also show the complete pattern.
-Induction gives, for \(n\geq1\),
+Exposure is not yet control.  The transfer terms still have to be paid, and the exact dependence is visible in the general row.  For every \(n\geq1\), induction gives
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
   H^{(n)}
   =(-2\nu)^nE_{n+1/2}
@@ -130,8 +117,7 @@ Induction gives, for \(n\geq1\),
   (-2\nu)^j
   \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
 \end{equation}
-Because \(\nu>0\), the coefficient of the top spatial energy is nonzero at every order.
-Solving for that height gives
+Because \(\nu>0\), the coefficient of the top spatial energy never vanishes.  Solving for that height gives
 \begin{equation}\label{eq:BodyCompletedCriticalRow}
   E_{n+1/2}
   =(-2\nu)^{-n}
@@ -142,9 +128,9 @@ Solving for that height gives
       \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
   \right).
 \end{equation}
-Equation~\eqref{eq:BodyCompletedCriticalRow} gives the exact conditional: control \(H^{(n)}\) and every retained transfer term at depth \(n\), and \(E_{n+1/2}\) is controlled.
-The differentiated Navier--Stokes equation carries the same viscous structure in every temporal row, so the calculation continues inside the mixed jet.
-Fix \(V_r\) and define
+The conditional is exact: control \(H^{(n)}\) and every retained transfer term at depth \(n\), and the spatial energy \(E_{n+1/2}\) is controlled.  Scaling chose the diagonal; the differentiated equation supplied the terms that must be estimated on it.
+
+Nothing in this ascent belongs only to the first temporal row.  Fix any response \(V_r\) and set
 \begin{align*}
   E_{r,s}
   &:=\frac12\norm{\Lambda^sV_r}_2^2,
@@ -157,11 +143,11 @@ Fix \(V_r\) and define
     +\nabla Q_r
   \right)}_{L^2}.
 \end{align*}
-Pairing the \(r\)-th equation in \eqref{eq:BodyTemporalVelocityRecurrence} with \(\Lambda^{2s}V_r\) gives
+Pairing the \(r\)-th temporal equation with \(\Lambda^{2s}V_r\) repeats the same spatial movement:
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
 \end{equation}
-For a fixed row \(r\), the same calculation repeats to every finite ascent depth \(k\geq1\):
+After any finite ascent depth \(k\geq1\),
 \begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
   \partial_t^kE_{r,1/2}
   =(-2\nu)^kE_{r,k+1/2}
@@ -169,11 +155,9 @@ For a fixed row \(r\), the same calculation repeats to every finite ascent depth
   (-2\nu)^j
   \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-The left side is a scalar quadratic readout involving \(V_r,\ldots,V_{r+k}\), distinct from any single response row.
-There is one spatial ascent inside \(V_0\), another inside \(V_1\), and another inside every finite \(V_r\).
-Temporal depth and spatial height are independent choices.
+The scalar on the left involves \(V_r,\ldots,V_{r+k}\); it is not any one of those responses.  The important point is that the spatial ascent repeats inside every finite \(V_r\).  Temporal depth and spatial height have become independent coordinates.
 
-The diagonal has now opened into a grid:
+The one scaling diagonal has therefore opened into the full mixed grid:
 \[
 \begin{array}{c|ccccc}
  & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
@@ -185,21 +169,13 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
 \end{array}
 \]
-Moving down selects a later temporal response.
-Moving across selects a higher Sobolev height inside that response.
-
-This is where the intersection comes from.
-No single diagonal coordinate gives smoothness, and no single row contains every order by itself.
-On a time interval \(I\), the full target is
+Moving down selects a later temporal response.  Moving across selects a higher Sobolev height inside that response.  One diagonal coordinate is not smoothness, and one row is not the Tower.  Smoothness asks for every finite coordinate to belong to the same mixed object.  On a time interval \(I\), that target is
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
   \bigcap_{m=0}^{\infty}
   H^r(I;H^m(\R^3)).
 \end{equation}
-Every finite temporal response at every finite spatial height has to meet in that intersection.
+This is the intersection inside the Tower.  It is where the escalating temporal responses and the ascending spatial energies have to meet.
 
-An estimate can pay for finitely many coordinates at a time.
-Choose a finite temporal depth \(N\) and a finite spatial height \(M\); that choice cuts a rectangle out of the mixed grid.
-Increasing either cutoff enlarges the rectangle while keeping its earlier coordinates.
-Section~\ref{sec:TheIntersectionInsideTheTower} turns this geometric rectangle into the exact adjacent trace block and applies the datum-generated estimate that fills it.
+No finite estimate can pay the entire intersection in one move.  But every coordinate in it lies inside some finite cut.  Choose a temporal depth \(N\) and a spatial height \(M\); the rows \(0,\ldots,N\) and columns \(0,\ldots,M\) form a rectangle, and increasing either cutoff preserves every coordinate already paid.  The Tower began as the temporal cost of a Zeno singularity.  Once Navier--Stokes is allowed to finish the calculation, that cost becomes a two-dimensional demand: every finite temporal depth at every finite spatial height.  The rectangle is that demand in the finite form an estimate can actually control.
