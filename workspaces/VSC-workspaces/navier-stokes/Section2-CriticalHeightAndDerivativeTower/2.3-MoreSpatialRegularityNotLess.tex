@@ -6,25 +6,27 @@ For
 \[
   E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
   \qquad
+  E_{s,\lambda}(t):=\frac12\norm{\Lambda^su_\lambda(t)}_2^2,
+  \qquad
   H=E_{1/2},
 \]
 the calculation in the opening gives
 \[
-  E_s[u_\lambda](t)
+  E_{s,\lambda}(t)
   =\lambda^{2s-1}E_s[u](\lambda^2t).
 \]
 At critical height the spatial factor vanishes, so
 \[
-  H[u_\lambda](t)=H[u](\lambda^2t).
+  H_\lambda(t):=E_{1/2,\lambda}(t)=H(\lambda^2t).
 \]
 Differentiate this identity \(n\) times in \(t\):
 \begin{equation}\label{eq:BodyCriticalHeightTemporalScaling}
-  \frac{d^n}{dt^n}H[u_\lambda](t)
-  =\lambda^{2n}H^{(n)}[u](\lambda^2t).
+  H_\lambda^{(n)}(t)
+  =\lambda^{2n}H^{(n)}(\lambda^2t).
 \end{equation}
 Now set \(s=n+\tfrac12\) in the spatial scaling law:
 \begin{equation}\label{eq:BodySpatialHeightScalingDiagonal}
-  E_{n+1/2}[u_\lambda](t)
+  E_{n+1/2,\lambda}(t)
   =\lambda^{2n}E_{n+1/2}[u](\lambda^2t).
 \end{equation}
 The \(n\)-th temporal derivative of critical height and the spatial energy at height \(n+\tfrac12\) carry exactly the same scaling weight.
@@ -72,7 +74,7 @@ The next derivative uses the row at \(s=\tfrac52\) and gives
   +(2\nu)^2\mathcal P_{5/2}
   -(2\nu)^3E_{7/2}.
 \]
-Nothing from the earlier rows has been discarded.
+Every earlier transfer remains in the row.
 Each differentiation retains the full transfer already present and adds one higher viscous energy.
 Induction gives, for \(n\geq1\),
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscentPreview}
@@ -84,7 +86,7 @@ Induction gives, for \(n\geq1\),
 \end{equation}
 The coefficient of the top spatial energy is nonzero because \(\nu>0\).
 The formula can isolate \(E_{n+1/2}\) once the derivative of \(H\) and the transfer terms are controlled.
-Its appearance is not yet that control.
+The formula identifies the term that the rectangle estimates must control.
 
 \Needspace{18\baselineskip}
 \begin{center}
@@ -113,7 +115,7 @@ One direction predicts increasing temporal instability; the other exposes more s
 They are balanced and opposing rather than complementary and self-feeding.
 
 The distinction between exposure and control now matters.
-No single finite row says that the velocity is smooth to every spatial order.
+Each finite row reaches a finite spatial order.
 For one fixed response \(V_r\), spatial smoothness means that all of its finite Sobolev memberships hold together:
 \[
   V_r(t)\in\bigcap_{m=0}^{\infty}H^m(\R^3).
@@ -124,8 +126,8 @@ The same requirement at every finite temporal order gives the mixed intersection
   \bigcap_{m=0}^{\infty}
   H_t^rH_x^m.
 \]
-This notation does not sum derivative orders and does not ask for one constant uniform in \(r\) and \(m\).
-It says that every chosen finite time--space coordinate is controlled on the same solution.
+The intersection keeps derivative orders and their constants separate.
+Membership would say that every chosen finite time--space coordinate is controlled on the same solution.
 
 The geometry is easiest to see before the estimates are imposed:
 \[
