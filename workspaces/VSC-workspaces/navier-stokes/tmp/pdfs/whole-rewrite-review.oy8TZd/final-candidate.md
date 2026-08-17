@@ -1,6 +1,6 @@
 I’d rebuild it as a leaner, harder proof paper: three proof sections and one short consequences section. I would not rewrite the new Section 2 again. It is now the strongest part of the manuscript and gives the paper its physical and causal spine.
 
-The main weakness is not typography or lack of explanation. It is the allocation of proof burden. [The body states the datum-generated whole-terminal rectangle theorem](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section3-IntersectionTheorem/3.4-TheIntersectionTheorem.tex:4) and then spends it, while the PDF never displays the proof-bearing datum-to-estimate derivation. [Appendix C cites the body theorem and restates the same estimate](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex:94). The compatible-intersection theorem remains settled; this is a reader-facing self-containment defect in the manuscript.
+The main weakness is not typography or lack of explanation. It is the allocation of proof burden. The body states the datum-generated whole-terminal rectangle theorem and then spends it, while the PDF never displays the proof-bearing datum-to-estimate derivation. Appendix C cites the body theorem and restates the same estimate. The compatible-intersection theorem remains settled; this is a reader-facing self-containment defect in the manuscript.
 
 ## The paper I would make
 
@@ -14,7 +14,7 @@ The main weakness is not typography or lack of explanation. It is the allocation
 
 2. **The dangerous history opens two directions**
 
-   Preserve the [current three-part Section 2](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section2-CriticalHeightAndDerivativeTower/index.tex:1): the perfectly stretching vortex and full-field \(L^3\) threat; the field \(u\), material acceleration and jerk versus \(V_n=\partial_t^n u\); then the meeting of temporal order and spatial Sobolev order in finite rectangles.
+   Preserve the current three-part Section 2: the perfectly stretching vortex and full-field \(L^3\) threat; the field \(u\), material acceleration and jerk versus \(V_n=\partial_t^n u\); then the meeting of temporal order and spatial Sobolev order in finite rectangles.
 
    I would make only targeted repairs here: define the multi-index binomial and Riesz transforms at first use; keep \(D_tu\) distinct from \(V_1\); and distinguish the row-wise spatial intersection \(\bigcap_m H^m_x\) from the later space-time projective intersection. Section 2 should end on one exact need: for each finite \(N,M\), control that rectangle uniformly through the entire approach to \(T_*\).
 
@@ -47,7 +47,7 @@ The main weakness is not typography or lack of explanation. It is the allocation
 
 I would also retitle the paper around its contribution, for example *Global Regularity for Three-Dimensional Navier–Stokes via Datum-Generated Compatible Intersections*. The abstract should name the exact uniform rectangle estimate rather than say that a “central estimate controls every prescribed rectangle,” then give the four-step closure in one sentence: compatibility, endpoint, pressure jet, restart.
 
-Visually, the [current 54-page PDF](/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/navier-stokes-manuscript.pdf) is already clean and readable. Its overlong contents page, dense abstract, sparse transition pages, and heavy back half are symptoms of duplicated argument, not a design problem. Rebuilding the movement above would fix the page balance without adding filler.
+Visually, the current 54-page PDF is already clean and readable. Its overlong contents page, dense abstract, sparse transition pages, and heavy back half are symptoms of duplicated argument, not a design problem. Rebuilding the movement above would fix the page balance without adding filler.
 
 The resulting spine is simple: Clay target → one maximal history → actual singular danger → temporal/spatial discovery → datum-generated whole-terminal rectangles → compatible intersection → endpoint and pressure jet → same-history restart → global smoothness. That is the rewrite I would stand behind.
 
