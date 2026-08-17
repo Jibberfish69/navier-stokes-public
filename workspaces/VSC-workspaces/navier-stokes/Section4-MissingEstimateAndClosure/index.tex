@@ -19,9 +19,18 @@ Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\),
 \begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
   \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
 \end{equation}
-But \eqref{eq:FiniteTimeLThreeEscape} said that a finite maximal time forces this very
-norm to escape.  The lowest critical rectangle already puts the singularity and the
-estimate on the same velocity, in the same norm, over the same terminal interval.
+This is where the finite maximal-time criterion finally enters.
+The endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a uniform
+\(L^3\) bound continues the solution through \(T_*\)
+\parencite{EscauriazaSereginSverak2003}.  Under the standing contradiction hypothesis,
+\begin{equation}\label{eq:FiniteTimeLThreeEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
+\end{equation}
+Equation \eqref{eq:EndpointCriterionFromLowRectangle} gives the opposite conclusion.
+The lowest critical rectangle already puts the singularity and the estimate on the
+same velocity, in the same norm, over the same terminal interval.
 
 Now read an arbitrary coordinate.  Fix \(r,m\in\Nzero\), choose \(N\geq r\), and
 take the rectangle of middle height \(M=m\).  Its adjacent rows give
