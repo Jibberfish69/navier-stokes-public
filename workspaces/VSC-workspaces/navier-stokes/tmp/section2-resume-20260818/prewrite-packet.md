@@ -42,9 +42,9 @@
 - reader_in: A cold mathematical reader entering Section 2 directly.
 - pressure: The reader does not yet know which three-dimensional motion makes concentration self-reinforcing.
 - core_move: Begin with a rotating region, let strain lengthen it, and let incompressibility narrow it until a stretching vortex has been earned.
+- hinge_question: n/a
 - reader_out: The reader sees how one rotating region becomes a thinner and stronger stretching vortex.
 - next_need: Explain what viscosity is doing during the same narrowing.
-- hinge_question: n/a
 - must_keep: One fluid; axial stretch; transverse narrowing; alignment as the condition for repetition.
 - avoid: Starting with a ready-made vortex, a smoothness primer, or a contest between detached agents.
 - partition_question: n/a
@@ -58,9 +58,9 @@
 - reader_in: The reader holds a thinner, stronger vortex but has not yet seen the simultaneous viscous consequence.
 - pressure: Narrowing increases spatial variation at the same time that aligned strain amplifies vorticity.
 - core_move: Use the vorticity equation to state the already-visible physical relation exactly.
+- hinge_question: n/a
 - reader_out: The reader sees \(S\omega\) and \(\nu\Delta\omega\) as two terms responding to one contraction.
 - next_need: Compare their relative change under a smaller width.
-- hinge_question: n/a
 - must_keep: Vorticity and strain definitions; aligned extensional direction; viscous Laplacian; no claim that a real evolution reproduces an exact scaled profile.
 - avoid: Anthropomorphic battle language, proof-status commentary, or premature critical-height notation.
 - partition_question: n/a
@@ -74,9 +74,9 @@
 - reader_in: The reader sees both terms strengthen inside the same concentrating motion.
 - pressure: Their physical increase alone does not decide whether contraction favours smoothing or further stretching.
 - core_move: State that the relative gain remains open until the width is changed and the terms are rescaled.
+- hinge_question: n/a
 - reader_out: The reader needs the Navier--Stokes rescaling to settle the comparison.
 - next_need: Apply \(u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t)\) and compare the vorticity terms.
-- hinge_question: n/a
 - must_keep: A declarative landing; scaling as a consequence, not a roadmap announcement.
 - avoid: Mentioning critical height, heat clock, Zeno, singularity, or the Tower before the scaling calculation has produced them.
 - partition_question: n/a
@@ -142,4 +142,4 @@
 ## Draft Acceptance Test
 - pass_if: A cold reader can explain how the vortex arises, why it can repeat when aligned, why viscosity is already active, and why scale is the unresolved comparison; every sentence remains inside that thought; the passage is independent of Section 1 and sounds like a serious direct speaker rather than formal setup prose.
 - fail_if: The passage assumes the vortex, teaches a generic regularity lesson, treats stretching and viscosity as separate actors, advertises later beats, inherits Section 1's register, or reaches scaling through a roadmap sentence instead of a physical consequence.
-- closing_deletion_test: Deleting the final scaling landing must leave an obvious unresolved comparison between the two terms; if the passage reads complete without that landing, the preceding motion has not earned the next calculation.
+- closing_deletion_test: pass -- deleting the final scaling landing leaves an obvious unresolved comparison between the two terms, while every earlier sentence retains its local physical purpose.
