@@ -10,7 +10,7 @@ If the two mechanisms strengthen together, going to a smaller scale settles noth
 In three dimensions, vortex stretching puts this balance into an actual motion.
 Take a material tube through a region where the vorticity is concentrated.
 The tube follows fluid particles; because viscosity diffuses vorticity across particle labels, it should not be identified with a material vortex core for later times.
-Incompressibility preserves the volume of that material tube, so a segment that lengthens must lose transverse cross-sectional area.
+Incompressibility preserves the volume of that material tube, so a segment that lengthens must lose average transverse cross-sectional area.
 The velocity then turns across a thinner region and its transverse gradients can become steeper.
 Viscosity sees those steeper gradients immediately.
 At the same time, positive extensional strain aligned with the vorticity amplifies the vorticity carried through the region.
@@ -34,6 +34,12 @@ Taking the curl of Navier--Stokes gives
   =S\omega+\nu\Delta\omega.
 \end{equation}
 The left side is the material rate of change of vorticity.
+Taking the scalar product with \(\omega\) gives the pointwise balance
+\[
+  \frac12(\partial_t+u\cdot\nabla)|\omega|^2
+  =\omega\cdot S\omega
+  +\nu\,\omega\cdot\Delta\omega.
+\]
 When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) is the part that amplifies it.
 The viscous term responds to the spatial variation of that vorticity.
 Alignment can be lost, the extensional strain can weaken, and diffusion can erase the concentrated core.
