@@ -37,6 +37,13 @@ class ProofCustodyReconciliationTest < Minitest::Test
 
     historical = reconciliation.fetch("historical_scalar_route")
     governing = reconciliation.fetch("governing_rectangle_route")
+    symbols = reconciliation.fetch("symbols")
+    balance = reconciliation.fetch("critical_balance_discharge")
+
+    assert_includes symbols.fetch("D"), "maximal pressure-complete history"
+    assert_includes symbols.fetch("R"), "sup_{0<T<T_*} R_{N,M}(u;T)<infinity"
+    assert_includes symbols.fetch("R"), "no common constant"
+    assert_includes symbols.fetch("I"), "projective compatible intersection I[u_0]"
 
     assert_equal ["P -> I", "I -> P", "I -> C"], historical.fetch("valid_implications")
     assert_equal "P <-> I", historical.fetch("equivalence")
@@ -50,6 +57,12 @@ class ProofCustodyReconciliationTest < Minitest::Test
     assert_includes governing.fetch("circularity_rule"), "does not use P -> I"
     assert_equal "D -> R -> I -> P",
                  reconciliation.dig("tir37a_classification", "discharge_path")
+    assert_includes balance.fetch("identity"), "2 nu int_0^t E_{3/2}(s) ds"
+    assert_equal [
+      "sup_{t<T_*} E_{1/2}(t) < infinity",
+      "int_0^{T_*} E_{3/2}(s) ds < infinity"
+    ], balance.fetch("intersection_inputs")
+    assert_equal "P", balance.fetch("conclusion")
   end
 
   def test_proof_sources_carry_the_equivalence_old_target_and_new_factorization
