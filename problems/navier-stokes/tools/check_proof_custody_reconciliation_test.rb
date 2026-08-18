@@ -24,12 +24,6 @@ class ProofCustodyReconciliationTest < Minitest::Test
     "thomas-one-fluid-reversible-intersection-proof-spine-20260803.md"
   )
 
-  HISTORICAL_STATUS_PATTERN = Regexp.new(
-    "(?:TIR\\.37a.{0,160}(?:open|not proved|unproved|remaining|no datum-finite|not closed)|" \
-      "(?:open|not proved|unproved|remaining|no datum-finite|not closed).{0,160}TIR\\.37a)",
-    Regexp::IGNORECASE | Regexp::MULTILINE
-  )
-
   FAILED_AUTHORITY_SELECTION = {
     "selected_authority" => "repo theorem-construction TIR.37a historical surface",
     "surface_role" => "current proof truth",
@@ -48,6 +42,9 @@ class ProofCustodyReconciliationTest < Minitest::Test
     assert_equal "P <-> I", historical.fetch("equivalence")
     assert_equal "D -> P", historical.fetch("former_direct_datum_target")
     assert_equal "D -> R -> I", governing.fetch("producer_factorization")
+    assert_equal ["D -> R", "R -> I"], governing.fetch("producer_dependencies")
+    assert_equal "P -> I", governing.fetch("excluded_producer_dependency")
+    refute_includes governing.fetch("producer_dependencies"), "P -> I"
     assert_equal ["I -> P", "I -> C"], governing.fetch("downstream_implications")
     assert_equal "D -> R -> I -> {P,C}", governing.fetch("complete_composition")
     assert_includes governing.fetch("circularity_rule"), "does not use P -> I"
@@ -70,18 +67,37 @@ class ProofCustodyReconciliationTest < Minitest::Test
     assert_includes spine, "It is not a separate datum-side payment or closure prerequisite."
   end
 
-  def test_every_august_3_4_tir37a_open_status_surface_is_classified
-    registry_paths = classification.fetch("historical_route_local_open_status_surfaces").sort
-    scanned_paths = Dir.glob(File.join(NS_ROOT, "theorem-construction", "*2026080[34].md"))
-      .select { |path| File.read(path).match?(HISTORICAL_STATUS_PATTERN) }
-      .map { |path| relative_path(path) }
-      .sort
+  def test_every_august_3_4_marker_surface_receives_exactly_one_class
+    selector = classification.fetch("historical_marker_surface_selector")
+    matched_paths = selector_matches(selector)
+    exceptions = selector.fetch("exceptions")
+    exception_paths = exceptions.map { |entry| entry.fetch("path") }
 
-    assert_equal scanned_paths, registry_paths
-    registry_paths.each do |path|
-      assert File.file?(File.join(REPO_ROOT, path)), "missing historical surface: #{path}"
-      refute_includes registry.fetch("direct_authority_surfaces"), path
+    assert_equal exception_paths.uniq, exception_paths
+    assert_equal selector.fetch("verified_match_count_at_reconciliation"), matched_paths.length
+    assert_equal 67, matched_paths.length
+    assert_empty exception_paths - matched_paths
+
+    assignments = matched_paths.to_h do |path|
+      matching = exceptions.select { |entry| entry.fetch("path") == path }
+      assert_operator matching.length, :<=, 1, "multiple classes for #{path}"
+      assigned = matching.first&.fetch("classification") || selector.fetch("default_classification")
+      [path, assigned]
     end
+
+    assert_equal matched_paths.length, assignments.length
+    assert_equal 65,
+                 assignments.count { |_path, assigned| assigned == selector.fetch("default_classification") }
+    assert_equal classification.dig("historical_scalar_equivalence_surface", "current_classification"),
+                 assignments.fetch(BPF_PATH.delete_prefix("#{REPO_ROOT}/"))
+    assert_equal "governing-proof-bearing-source",
+                 assignments.fetch(SPINE_PATH.delete_prefix("#{REPO_ROOT}/"))
+
+    default_paths = assignments.select do |_path, assigned|
+      assigned == selector.fetch("default_classification")
+    end.keys
+    assert_empty default_paths & registry.fetch("direct_authority_surfaces")
+    assert_equal "none", selector.fetch("default_current_authority_effect")
   end
 
   def test_history_is_preserved_while_its_current_status_effect_is_zero
@@ -117,6 +133,46 @@ class ProofCustodyReconciliationTest < Minitest::Test
     assert_equal "proved", projected.fetch("global_closure_status")
     assert_includes projected.dig("proof_program_completion_projection", "precedence"),
                     "D -> R -> I -> P"
+    assert_equal contract.dig("proof_program_completion", "historical_surface_rule"),
+                 projected.dig("proof_program_completion_projection", "precedence")
+    assert_equal contract.dig(
+      "proof_program_completion",
+      "tir37a_custody_reconciliation_20260818"
+    ), PaperFactoryRuntime::NavierStokesProofProgramAuthority
+      .completion(REPO_ROOT)
+      .fetch("tir37a_custody_reconciliation_20260818")
+  end
+
+  def test_projection_is_lifecycle_scoped_and_preserves_historical_nested_status
+    payload = {
+      "mpp_status" => "open",
+      "producer_status" => "unproved-direct-prefix",
+      "active_direct_boundary" => "TIR.37a",
+      "historical_route" => {
+        "mpp_status" => "open-at-capture",
+        "active_direct_boundary" => "TIR.37a"
+      }
+    }
+    registered = File.join(REPO_ROOT, registry.fetch("current_projection_surfaces").first)
+
+    projected = PaperFactoryRuntime::NavierStokesProofProgramAuthority
+      .apply_to_generated_surface(REPO_ROOT, registered, payload)
+
+    assert_equal "solved", projected.fetch("mpp_status")
+    assert_equal "proved-datum-generated-whole-terminal-compatible-rectangles",
+                 projected.fetch("producer_status")
+    assert_equal "none", projected.fetch("active_direct_boundary")
+    assert_equal payload.fetch("historical_route"), projected.fetch("historical_route")
+
+    historical_path = selector_matches(
+      classification.fetch("historical_marker_surface_selector")
+    ).find do |path|
+      !classification.dig("historical_marker_surface_selector", "exceptions")
+        .any? { |entry| entry.fetch("path") == path }
+    end
+    untouched = PaperFactoryRuntime::NavierStokesProofProgramAuthority
+      .apply_to_generated_surface(REPO_ROOT, File.join(REPO_ROOT, historical_path), payload)
+    assert_equal payload, untouched
   end
 
   def test_conversation_guard_blocks_the_observed_unaudited_authority_selection
@@ -148,6 +204,23 @@ class ProofCustodyReconciliationTest < Minitest::Test
     end
   end
 
+
+  def test_supersession_chronology_has_one_governing_stage
+    chronology = contract.dig(
+      "proof_program_completion",
+      "tir37a_custody_reconciliation_20260818",
+      "supersession_chronology"
+    )
+
+    assert_equal [
+      "august-3-4-route-local-construction",
+      "august-6-governing-proof-authority",
+      "august-15-corrected-custody-audit"
+    ], chronology.map { |entry| entry.fetch("stage") }
+    assert_equal ["none", "governing", "custody-confirmation-not-a-new-theorem-source"],
+                 chronology.map { |entry| entry.fetch("current_authority_effect") }
+  end
+
   private
 
   def contract
@@ -164,5 +237,20 @@ class ProofCustodyReconciliationTest < Minitest::Test
 
   def relative_path(path)
     path.delete_prefix("#{REPO_ROOT}/")
+  end
+
+  def selector_matches(selector)
+    root = File.join(REPO_ROOT, selector.fetch("root"))
+    suffixes = selector.fetch("filename_suffixes")
+    markers = selector.fetch("content_markers")
+
+    Dir.glob(File.join(root, "*.md"))
+      .select { |path| suffixes.any? { |suffix| path.end_with?(suffix) } }
+      .select do |path|
+        content = File.read(path)
+        markers.any? { |marker| content.include?(marker) }
+      end
+      .map { |path| relative_path(path) }
+      .sort
   end
 end
