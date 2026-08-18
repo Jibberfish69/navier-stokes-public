@@ -1,10 +1,10 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{More spatial regularity, not less}\label{sub:ThePressureCompleteMixedDerivativeTower}
 
-Up to this point, every new rung looked worse.
-A nontrivial change squeezed into a shorter interval produces a larger response, so the temporal Tower seems to run straight toward singularity.
-But viscosity has been present in every row, and every Laplacian reaches farther into space.
-At critical height, those two counts line up.
+Read only in time, every new rung looks worse.
+A nontrivial change squeezed into a shorter interval produces a larger response, and the temporal Tower appears to run straight toward singularity.
+The same rows carry a different count in space.
+Viscosity inserts a Laplacian every time the equation is used, and at critical height the temporal and spatial scale weights line up.
 
 For
 \[
@@ -31,8 +31,8 @@ The spatial energy at height \(n+\tfrac12\) has the same scale factor:
   E_{n+1/2,\lambda}(t)
   =\lambda^{2n}E_{n+1/2}(\lambda^2t).
 \end{equation}
-The equal scale weight does not make \(H^{(n)}\) and \(E_{n+1/2}\) the same object.
-It tells us which spatial height to test against the \(n\)-th temporal response.
+Equal scale weight does not identify \(H^{(n)}\) with \(E_{n+1/2}\).
+It selects the spatial height that belongs beside the \(n\)-th temporal response.
 
 Applying \(\Lambda^s\) to Navier--Stokes and pairing the result with \(\Lambda^su\) gives the viscous contribution
 \[
@@ -40,7 +40,7 @@ Applying \(\Lambda^s\) to Navier--Stokes and pairing the result with \(\Lambda^s
   =-\nu\norm{\Lambda^{s+1}u}_2^2
   =-2\nu E_{s+1}.
 \]
-The complete transport--pressure transfer is
+Keep everything outside the viscous term in the complete transport--pressure transfer
 \[
   \mathcal P_s
   :=-
@@ -53,7 +53,7 @@ The exact spatial-energy row is
   E_s'=\mathcal P_s-2\nu E_{s+1}.
 \end{equation}
 
-At critical height, the first derivative already contains the next spatial energy:
+At critical height, the first time derivative already reaches the next spatial energy:
 \[
   H'=\mathcal P_{1/2}-2\nu E_{3/2}.
 \]
@@ -76,7 +76,7 @@ The third derivative reaches one height farther:
   +(2\nu)^2\mathcal P_{5/2}
   -(2\nu)^3E_{7/2}.
 \]
-Every differentiation keeps the transfer terms already produced and adds one higher viscous energy.
+Each differentiation keeps the transfer terms already produced and adds one higher viscous energy.
 For \(n\geq1\), induction gives
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
   H^{(n)}
@@ -96,8 +96,8 @@ Because \(\nu>0\), the top spatial energy can be isolated:
       \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
   \right).
 \end{equation}
-The identity exposes the higher Sobolev energy.
-It does not control that energy until \(H^{(n)}\) and every transfer term beside it have also been controlled.
+The identity exposes the higher Sobolev energy and isolates it algebraically.
+It gives no bound until \(H^{(n)}\) and every transfer term beside it have also been controlled.
 
 The temporal Tower enters through \(H^{(n)}\) itself.
 Since
@@ -115,7 +115,8 @@ Leibniz's rule gives
   \pair{\Lambda^{1/2}V_a(t)}
        {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
 \end{equation}
-The three entries on one rung are distinct but connected: \(V_n\) is the Eulerian response, \(H^{(n)}\) contracts the temporal rows at critical height, and \(E_{n+1/2}\) is the spatial energy exposed through viscosity.
+The three entries on one rung remain different objects.
+The field response is \(V_n\), the critical response \(H^{(n)}\) contracts the temporal rows, and viscosity exposes the spatial energy \(E_{n+1/2}\).
 
 \Needspace{10\baselineskip}
 \begin{center}
@@ -138,11 +139,11 @@ order & Eulerian response & critical response & spatial height \\
 \end{center}
 
 Whenever the Zeno route keeps a nontrivial change alive, the temporal column asks for a larger response.
-The matched spatial column moves the other way through the Sobolev scale, through
+The matched spatial column climbs the Sobolev scale through
 \(E_{1/2},E_{3/2},E_{5/2},E_{7/2},\ldots\): more spatial regularity, not less.
 
-That is not regularity yet.
-The transfer terms still have to be controlled, and one diagonal inside \(u\) does not fill the whole time--space Tower.
+This is still an exposed ladder, not a regularity estimate.
+The transfer terms remain unpaid, and one diagonal inside the velocity row does not fill the whole time--space Tower.
 
 Every temporal response needs its own spatial ladder.
 For \(r\in\Nzero\), let \(E_{r,s}:=\tfrac12\norm{\Lambda^sV_r}_2^2\), and let \(\mathcal P_{r,s}\) denote the complete transport--pressure transfer in the \(r\)-th recurrence.
@@ -158,8 +159,8 @@ After any finite ascent depth \(k\geq1\),
   (-2\nu)^j
   \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-The temporal index \(r\) chooses the response, and the spatial index \(k\) chooses the height inside that response.
-They are independent coordinates of the mixed jet.
+The temporal index \(r\) chooses the response, while the spatial index \(k\) chooses the height inside that response.
+They are independent coordinates of the same mixed jet.
 
 Together they form the grid
 {\small
@@ -176,7 +177,7 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \]
 }
 Moving down selects a later temporal response, while moving across selects a higher Sobolev height inside that response.
-Controlling every finite coordinate would place the solution in the mixed intersection
+Controlling every coordinate would place the solution in the mixed intersection
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
@@ -184,6 +185,7 @@ Controlling every finite coordinate would place the solution in the mixed inters
   H^r(I;H^m(\R^3)).
 \end{equation}
 
-A proof can only pay for a finite part of that grid at a time.
-For fixed \(N\) and \(M\), the rows through \(N\) and columns through \(M\) form one finite rectangle, and every finite coordinate belongs to one.
-The next section has to control every such rectangle.
+No finite estimate can cover this infinite grid at once.
+For fixed \(N\) and \(M\), the rows through \(N\) and columns through \(M\) form one finite rectangle, and every coordinate belongs to some such rectangle.
+The question has now changed form.
+Instead of controlling the infinite intersection directly, the next section has to control every finite rectangle in a way that agrees on all overlaps.
