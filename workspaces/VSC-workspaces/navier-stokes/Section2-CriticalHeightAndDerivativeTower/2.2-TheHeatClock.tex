@@ -1,8 +1,9 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The heat clock}\label{sub:BodyHeatClock}
 
-Every contraction has to happen while viscosity is already acting on the vortex.
-That gives the smaller scale a shorter clock.
+The same rescaling that shortened the vortex also changed its clock.
+This temporal factor matters because viscosity is already acting while any further concentration takes place.
+At a smaller scale it acts faster.
 
 A structure of width \(\ell\) is carried by frequencies of order \(|\xi|\sim\ell^{-1}\).
 Under the linear heat flow, those frequencies decay according to
@@ -10,17 +11,21 @@ Under the linear heat flow, those frequencies decay according to
   \widehat v(\xi,t+\delta t)
   =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
 \]
-Viscosity makes an order-one change when \(\nu|\xi|^2\delta t\) is of order one.
+The heat multiplier makes an order-one change when \(\nu|\xi|^2\delta t\) is of order one.
 At scale \(\ell\), this gives
 \begin{equation}\label{eq:BodyHeatComparisonTime}
   \delta t_{\mathrm{heat}}(\ell)
   \asymp\frac{\ell^2}{\nu}.
 \end{equation}
-When the vortex narrows from \(\ell\) to \(\ell/\lambda\), its viscous response time shrinks by \(\lambda^{-2}\).
-Halving the width quarters the clock.
-The same scaling that preserves the critical balance is compressing the time available for the next stage.
+When the active length changes from \(\ell\) to \(\ell/\lambda\), this viscous comparison time shrinks by \(\lambda^{-2}\).
+Halving the length quarters the heat clock.
+This is the temporal part of the same Navier--Stokes scaling that preserved the critical spatial balance.
 
-After repeated contractions at a fixed ratio,
+The heat clock is not yet the duration of an actual vortex contraction.
+It is the time on which diffusion at that scale produces an order-one response.
+Any proposed cascade has to create its next stage while this faster response is already under way.
+
+To see what the shrinking clocks permit, suppose only as a scale comparison that the active lengths form the geometric sequence
 \[
   \ell_k=\rho^k\ell_0,
   \qquad
@@ -42,26 +47,30 @@ and the whole sequence satisfies
   \frac{\ell_0^2}{\nu(1-\rho^2)}
   <\infty.
 \]
-Each contraction leaves only \(\rho^2\) of the previous heat clock, so the schedule accelerates at every stage and still fits inside a bounded interval.
+Each scale carries only \(\rho^2\) of the previous heat clock, and the comparison clocks have a finite total.
+This calculation does not show that Navier--Stokes realizes the contractions or completes them on those clocks.
+It shows why diffusion supplies no scale-independent minimum waiting time that would rule out an accelerating cascade by timing alone.
 
-But scale collapse by itself is not yet a singularity.
+Scale collapse by itself is not yet a singularity.
 An exact rescaled copy leaves \(H\) unchanged, while
 \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\) and bounded critical \(L^3\) control rules out singularity \parencite{EscauriazaSereginSverak2003}.
-The actual route would have to strengthen while it concentrates: the active length must fall while the critical height rises.
+An actual singular route must strengthen while it concentrates: the active length must fall while the critical height rises.
+The embedding and the critical \(L^3\) criterion mean that such a route must cross arbitrarily high values of \(H\).
 
 Let \(H_0>H(0)\) and set
 \[
   L_k:=2^kH_0.
 \]
-For every level the solution reaches, let
+For each level that the solution reaches, let
 \[
   t_k:=\inf\{t>0:H(t)=L_k\}.
 \]
-Along a singular route, arbitrarily high levels are reached and continuity orders the first passages:
+Continuity orders these first passages:
 \[
   t_0<t_1<t_2<\cdots.
 \]
-The Zeno question is whether the passage from \(L_k\) to \(L_{k+1}\) can occur on the heat clock of the active scale.
+Now the heat clock can be posed as a dynamical question.
+Can the passage from \(L_k\) to \(L_{k+1}\) occur on the viscous response time of the active scale?
 If the \(k\)-th passage occurs at \(\ell_k=\rho^k\ell_0\) and the next passage is completed within a fixed multiple of that heat time, then
 \[
   0<t_{k+1}-t_k
@@ -77,8 +86,8 @@ Then
   t_k\uparrow\tau
 \]
 for some \(\tau<\infty\).
-The crossings accumulate while the critical height climbs and the active scale collapses.
-This is the Zeno cascade attached to critical height.
+Under this hypothesis, the crossings accumulate while the critical height climbs and the active scale collapses.
+That conditional accumulation is the Zeno cascade attached to critical height.
 
 The same rescaling sharpens spatial derivatives:
 \[
@@ -87,18 +96,20 @@ The same rescaling sharpens spatial derivatives:
   \qquad
   m\in\Nzero.
 \]
-At the \(k\)-th active scale, let \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\) and write the vortex in normalized coordinates as
+At the \(k\)-th active scale, let \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\).
+If a localized active core can be centred at \(x_k\), define its normalized profile by
 \[
   u\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
   =\lambda_k U_k(y),
   \qquad y\in B_1.
 \]
-Then
+This is a change of coordinates at each passage, not an assertion that the profiles \(U_k\) agree.
+It gives
 \[
   \nabla_xu\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
   =\lambda_k^2\nabla_yU_k(y).
 \]
-If the normalized vortex profiles do not flatten,
+If these normalized profiles do not flatten,
 \[
   \inf_k\norm{\nabla U_k}_{L^\infty(B_1)}\geq c>0,
 \]
@@ -108,6 +119,6 @@ then
   \geq c\lambda_k^2
   \longrightarrow\infty.
 \]
-The Zeno route has now reached its spatial consequence: the scale collapses while critical height and the physical gradients escape every finite bound.
+Under the scale, timing, and non-flattening hypotheses, the Zeno route has its spatial consequence: the active length collapses while critical height and the physical gradients escape every finite bound.
 
 Crossing higher critical levels on those collapsing clocks forces the velocity field to keep changing faster.
