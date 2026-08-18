@@ -1,0 +1,93 @@
+{
+  "task_id": "task-8c3100efabc2aeac",
+  "task_sha256": "28831a8ea806d801b30a955fa25e6850c316ed2539b4c2b6944ad08849d3898b",
+  "prediction_sha256": "720c80bb2650fb733da53790a7886dea7f23bcb180e963fe3323683fb0d8c2c6",
+  "candidate_sha256": "f3be30d12416a58536fa79a93798e78b886020e175fe24b496103c8f7e3498e2",
+  "selected_move_id": "independent-motion-first-opening",
+  "producer_id": "section2-cold-open-producer-v3",
+  "evaluator_id": "section2-cold-open-reader-audit-v3",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate opens Section 2 independently in the reader-facing lane and stops at the full rescaling comparison."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "It supplies a complete new opening candidate instead of another plan, beat map, or behavior report."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The final normalized-profile sentence feeds directly into the live rescaling formula without relying on Section 1 or spending later Section 2 results."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "One material tube carries axial extension, cross-sectional contraction, conditional rotational gain, simultaneous viscosity, and the need for full rescaling."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "The draft adds only the physical distinctions required to earn the existing vorticity and scaling formulas."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The reader sees why incompressibility, aligned strain, and viscosity belong to one coupled motion and why geometry alone leaves the relative scale unresolved."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The local thought reaches the exact next act: rescale amplitude, time, and width for one normalized profile."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "It realizes the user-fixed independent cold-reader to vortex-stretching to scaling movement and withholds critical height and every later beat."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The same material tube and the same vorticity remain the object through every physical and formal sentence."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each consequence changes the same tube and creates the need for the next statement rather than serving a topic checklist."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The vortex is earned from rotating particles, axial lengthening, incompressible area loss, and conditional continued gain before notation names it."
+    },
+    "development_sufficiency": {
+      "status": "pass",
+      "evidence": "A cold mathematical reader can reconstruct the dangerous motion, the governing conditional, both equation terms, and the exact scope of scaling."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose uses direct invitation, ordinary causal language, purposeful repetition, and exact notation after the physical thought is established."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "Net intensification and continuation remain conditional, cross-sectional area replaces uniform transverse narrowing, and scaling is limited to a normalized-profile homogeneity test."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The candidate correctly reads material transport, positive extensional alignment, strain amplification, viscous diffusion, and full Navier--Stokes rescaling."
+    },
+    "authorship": {
+      "status": "uncertain",
+      "evidence": "The draft uses approved Thomas-authorship decisions, but Thomas has not judged this exact wording and no voice acceptance is claimed."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The reader moves from rotation with no vortex name to one coupled stretching tube and then to the normalized-profile scaling test."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The passage connects volume-preserving geometry to the two simultaneous vorticity contributions without turning them into separate physical agents."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate copies no phrase sequence or subject matter from the voice anchor; its content is confined to the live Section 2 object."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Mechanical and causal checks are separated from Thomas's still-unrecorded judgment of the voice."
+    }
+  },
+  "verdict": "pass"
+}
+
