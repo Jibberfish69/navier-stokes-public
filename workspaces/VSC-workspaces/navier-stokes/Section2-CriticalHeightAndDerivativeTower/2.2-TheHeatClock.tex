@@ -1,12 +1,10 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The heat clock}\label{sub:BodyHeatClock}
 
-The same rescaling that shortened the vortex also changed its clock.
-This temporal factor matters because viscosity is already acting while any further concentration takes place.
-At a smaller scale it acts faster.
-
-Let \(v_t=\nu\Delta v\), and suppose its Fourier mass is localized at frequencies \(|\xi|\simeq\ell^{-1}\).
-Under this linear heat flow,
+Viscosity has no single clock.
+It responds to each active length on that length's own time.
+To isolate that time, let \(v_t=\nu\Delta v\) and suppose the Fourier mass of \(v\) is localized in a fixed band \(|\xi|\simeq\ell^{-1}\).
+Under this linear heat flow, each such frequency decays according to
 \[
   \widehat v(\xi,t+\delta t)
   =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
@@ -17,9 +15,10 @@ At scale \(\ell\), this gives
   \delta t_{\mathrm{heat}}(\ell)
   \asymp\frac{\ell^2}{\nu}.
 \end{equation}
-When the active length changes from \(\ell\) to \(\ell/\lambda\), this viscous comparison time shrinks by \(\lambda^{-2}\).
-Halving the length quarters the heat clock.
-This is the temporal part of the same Navier--Stokes scaling that preserved the critical spatial balance.
+The comparison constants depend on the fixed localization band, not on \(\ell\).
+If the active length changes from \(\ell\) to \(\ell/\lambda\), the viscous response time is divided by \(\lambda^2\).
+Halving the length quarters the clock.
+This is the temporal side of the same scaling that kept stretching and viscosity level in space.
 
 The heat clock is not yet the duration of an actual vortex contraction.
 It is the time on which diffusion at that scale produces an order-one response.
@@ -81,8 +80,9 @@ If one constant \(C\), independent of \(k\), bounds completion of the next passa
   =
   C\frac{\ell_0^2}{\nu}\rho^{2k}.
 \]
-Then the first-passage times are Cauchy.
-Since \(H\) stays finite on every compact subinterval of \([0,\tau)\), their only possible limit is \(\tau\), and
+The first-passage times are then Cauchy.
+Their limit cannot lie below \(\tau\), because \(H(t_k)=L_k\to\infty\) while \(H\) is finite and continuous on every compact subinterval of \([0,\tau)\).
+Their only possible limit is \(\tau\), and
 \[
   \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
   \qquad
