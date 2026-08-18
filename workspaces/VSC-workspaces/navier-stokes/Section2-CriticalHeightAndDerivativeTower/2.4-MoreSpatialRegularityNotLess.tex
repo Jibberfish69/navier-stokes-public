@@ -190,8 +190,9 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \]
 }
 The bullets mark formal coordinates of the mixed jet, not bounds already proved for them.
-Moving down selects a later temporal response, while moving across selects a higher Sobolev height inside that response.
-For the fixed classical interval \(I=(0,T)\), controlling every coordinate would place the solution in the mixed intersection
+Moving down chooses a later Eulerian response, and moving across chooses a higher Sobolev height inside that response.
+Fix \(T<T_*\) and set \(I=(0,T)\).
+Control of every coordinate on this strict classical interval would place the velocity in the mixed intersection
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
@@ -199,6 +200,9 @@ For the fixed classical interval \(I=(0,T)\), controlling every coordinate would
   H^r(I;H^m(\R^3)).
 \end{equation}
 
-Every finite choice of temporal depth and spatial height cuts one rectangle from this grid.
-For fixed \(N\) and \(M\), the rows through \(N\) and columns through \(M\) form that rectangle, and every coordinate belongs to some finite choice.
-The infinite intersection can be recovered only if those rectangles stay bounded through the terminal interval and agree on every overlap.
+The infinite grid is reached through finite rectangles.
+For fixed \(N\) and \(M\), the rows through \(N\) and columns through \(M\) form one finite block, and every coordinate lies in some such block.
+Classicality makes each finite rectangle finite at every strict cutoff \(T<T_*\).
+That gives a bound after \(T\) is fixed, not one bound valid for all \(T<T_*\).
+The remaining burden is to control each finite rectangle uniformly as \(T\uparrow T_*\), with bounds that agree wherever the rectangles overlap.
+Section~\ref{sec:TheIntersectionInsideTheTower} takes up that finite-rectangle problem.
