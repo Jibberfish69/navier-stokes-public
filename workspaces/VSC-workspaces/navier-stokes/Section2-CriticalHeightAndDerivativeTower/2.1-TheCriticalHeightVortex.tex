@@ -1,17 +1,22 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{The balance at critical height}\label{sub:ThePerfectlyStretchingVortex}
 
-Viscosity is supposed to save the fluid.
-It smooths velocity differences, and it acts harder as those differences are packed into less space.
-So the most direct way to solve the problem is to prove that anything trying to become singular eventually makes viscosity strong enough to stop it.
+Viscosity never stops smoothing the velocity.
+The difficulty is that the fluid can keep making its velocity differences steeper on the same scales where that smoothing becomes stronger.
+The regularity problem lives in this competition.
+If shrinking the active scale eventually gave viscosity an advantage, then concentration would carry its own obstruction.
+If the two mechanisms strengthen together, going to a smaller scale settles nothing.
 
-The problem is that a vortex can make the stretching stronger at the same time.
-As the vortex stretches along its axis, incompressibility squeezes its cross-section.
-The velocity turns across a thinner region, the gradients become steeper, and viscosity has more to work with.
-But the same motion also intensifies the vorticity and the strain doing the stretching.
-The vortex is strengthening the mechanism that sharpens it at the same time as the mechanism that smooths it.
-A bend, a wobble, or a loss of alignment can break that repetition.
-The motion we need to understand is the one that does not: the vortex remains aligned and stretches again.
+In three dimensions, vortex stretching puts this balance into an actual motion.
+Take a material tube through a region where the vorticity is concentrated.
+Incompressibility preserves the volume of that material tube, so a segment that lengthens must lose transverse cross-sectional area.
+The velocity then turns across a thinner region and its transverse gradients can become steeper.
+Viscosity sees those steeper gradients immediately.
+At the same time, positive extensional strain aligned with the vorticity amplifies the vorticity carried through the region.
+
+None of this says that the alignment will survive, that the strain will keep its sign, or that one contraction will reproduce another.
+Those are dynamical questions.
+It identifies the dangerous case: enough aligned extension persists for the vortex to sharpen while viscosity is already acting on the same shrinking structure.
 
 Let
 \[
@@ -24,12 +29,16 @@ Taking the curl of Navier--Stokes gives
   \partial_t\omega+(u\cdot\nabla)\omega
   =S\omega+\nu\Delta\omega.
 \end{equation}
-When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) amplifies the vorticity.
-The same extension narrows the vortex and steepens the gradients seen by \(\nu\Delta\omega\).
-Going smaller only helps if viscosity gains on the stretching.
-Scaling tells us whether it does.
+The left side is the material rate of change of vorticity.
+When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) is the part that amplifies it.
+The viscous term responds to the spatial variation of that vorticity.
+Alignment can be lost, the extensional strain can weaken, and diffusion can erase the concentrated core.
+The unresolved possibility is that the positive extension survives long enough for the core to sharpen again.
+Before asking whether the evolution can realize that motion, we can ask the narrower question that scaling answers exactly: does smaller scale by itself give viscosity any advantage over stretching?
 
-To compare the same normalized profile at the shorter length \(\ell/\lambda\), where \(\lambda>1\), use the Navier--Stokes rescaling
+This comparison does not change the width while leaving the rest of the vortex fixed.
+It takes one dimensionless profile and applies the full Navier--Stokes rescaling, changing its width, amplitude, and clock together.
+For \(\lambda>1\), set
 \[
   u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
   \qquad
@@ -64,11 +73,12 @@ and therefore
   \nu\Delta\omega_\lambda
   =\lambda^4\nu(\Delta\omega)(\lambda x,\lambda^2t).
 \]
-Both sides of the contest strengthen by the same power of \(\lambda\).
-Scaling does not say the evolution will reproduce an exact rescaled profile.
-It says that, if it does, viscosity gains no ground as the vortex gets smaller.
+Both sides of the vorticity balance strengthen by the same power of \(\lambda\).
+This is a homogeneity statement, not a recurrence theorem for the actual flow.
+It says that contraction alone gives neither term a relative gain when the same normalized profile is viewed at a smaller scale.
 
-Because neither side gains on the other under contraction, the quantity measuring this contest must give the smaller vortex the same size.
+The next question is how to measure a velocity field without mistaking a smaller copy for a weaker one.
+The scale-invariant Sobolev norm supplies that measurement.
 For a homogeneous Sobolev norm,
 \[
   \widehat{u_\lambda}(\xi,t)
@@ -91,7 +101,7 @@ With \(\eta=\xi/\lambda\),
   &=\lambda^{2s-1}
   \norm{u(\lambda^2t)}_{\dot H^s}^2.
 \end{align*}
-The exponent vanishes at one height:
+The scaling exponent vanishes at one and only one height:
 \[
   s=\frac12.
 \]
@@ -101,12 +111,12 @@ With \(\Lambda:=(-\Delta)^{1/2}\), define
   :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
   =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
 \end{equation}
-This is the critical height.
+We call this the critical height.
 Below \(\dot H^{1/2}\), concentration makes the norm smaller.
 Above it, concentration makes the norm larger.
 At \(\dot H^{1/2}\), the smaller vortex has exactly the same size.
 
-Kinetic energy gives a completely different reading of the same contraction.
+Kinetic energy reads the same contraction below critical height.
 Pairing Navier--Stokes with \(u\), using incompressibility to remove transport and pressure, and integrating the viscous term by parts gives
 \begin{equation}\label{eq:BodyEnergyIdentity}
   \frac12\norm{u(t)}_2^2
@@ -120,9 +130,9 @@ Under the same concentration,
   \qquad
   H_\lambda(t)=H(\lambda^2t).
 \]
-Kinetic energy falls by \(\lambda^{-1}\) while critical height does not fall at all.
-The vortex becomes cheaper in the quantity controlled by the energy law without becoming any smaller at the height where stretching and viscosity remain equally matched.
-The estimate can stay finite by losing track of where the concentration went.
+Kinetic energy falls by \(\lambda^{-1}\), while critical height does not fall at all.
+The concentrated profile becomes cheaper in the quantity controlled by the energy law without becoming smaller in the scale-invariant quantity.
+The energy identity can consequently remain valid through a sequence of increasingly concentrated profiles and still give no scale-independent bound on their critical height.
 
-The energy ceiling by itself therefore gives no scale-independent bound on the next critical concentration.
-Whether the vortex can actually repeat the move now depends on how much time viscosity has to dissipate it.
+Scale has left stretching and viscosity level, and energy has failed to distinguish the smaller critical profile from the original one.
+The comparison now has to move into time: how quickly does viscosity respond when the active length shrinks?
