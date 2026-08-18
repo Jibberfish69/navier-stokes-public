@@ -1,0 +1,26 @@
+A three-dimensional fluid can stretch its own rotation.
+Take a region where nearby fluid rotates around a common axis.
+If the velocity field lengthens that region along the axis, incompressibility forces its cross-section to narrow.
+When the rotation remains aligned with the extensional direction, the strain amplifies the vorticity as the region narrows.
+If that alignment survives, the thinner and stronger region can be stretched again.
+That is the vortex we have to deal with: the motion can repeat.
+
+The equation keeps the stretching and the viscous response inside that one motion.
+Let
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of Navier--Stokes gives
+\begin{equation}\label{eq:VorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The left side follows the vorticity with the moving fluid.
+The term \(S\omega\) is the aligned stretch we just described.
+The term \(\nu\Delta\omega\) is the viscous response to the spatial profile being sharpened as the vortex narrows.
+The contraction changes both terms at once.
+
+At a smaller width, the decisive comparison is the relative scale of \(S\omega\) and \(\nu\Delta\omega\).
+The Navier--Stokes rescaling computes it.
