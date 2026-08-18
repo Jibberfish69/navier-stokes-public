@@ -1,16 +1,15 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \subsection{Velocity, acceleration, and the Tower}\label{sub:BodyFiniteTimeResponseEscalation}
 
-The Zeno route asks the velocity field to complete nontrivial changes on shorter and shorter clocks.
-A fixed change in velocity completed in half the time requires twice the rate of change.
-Along a fluid particle, that rate is acceleration.
-If the acceleration then makes a fixed change on the next shorter clock, its own rate of change has to grow.
-Along the particle this next quantity is material jerk, \(D_t(D_tu)\).
-This is the beginning of the response Tower: velocity, acceleration, jerk, and every later response the motion continues to activate.
+A shorter clock creates a larger response only if the motion still makes a definite change.
+If the velocity completes the same nontrivial change in half the time, its rate of change must double somewhere on that interval.
+Along a fluid particle, this rate is acceleration.
+If that acceleration completes a definite change on the next shorter clock, its material rate of change---material jerk---has to grow in turn.
+Repeating the demand begins a response Tower through velocity, acceleration, jerk, and every later response that the motion continues to activate.
 
-The word \emph{continues} carries the burden.
-A short interval forces no large derivative when the quantity has stopped changing.
-The Zeno clocks supply the shrinking denominators, while a derivative cascade also needs a nontrivial increment on every rung.
+The definite change carries as much weight as the shorter interval.
+A quantity that has stopped changing can sit on an arbitrarily short interval with a small derivative.
+The Zeno clocks supply shrinking denominators, and the dynamics would still have to supply a nontrivial increment on every rung.
 
 Along a particle path \(X'(t)=u(X(t),t)\),
 \[
@@ -159,6 +158,6 @@ The pressure coordinates satisfy
   (V_a)_i(V_{n-a})_j.
 \end{equation}
 
-We followed the responses that an accelerating concentration would need and found more structure than a list of time derivatives.
-Every temporal rung contains coupled spatial derivatives, with pressure tied to the same velocity rows.
-The apparent route into faster temporal change has exposed a second direction of higher spatial order.
+The accelerating route led into time, and the equation has opened spatial derivatives inside every temporal rung.
+Pressure stays tied to the same rows throughout.
+The next count is the spatial height carried by each rung.
