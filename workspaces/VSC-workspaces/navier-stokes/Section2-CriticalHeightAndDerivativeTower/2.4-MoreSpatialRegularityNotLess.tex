@@ -49,6 +49,8 @@ Keep everything outside the viscous term in the complete transport--pressure tra
   \pair{\Lambda^su}
   {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
 \]
+The global pressure pairing vanishes against the divergence-free velocity.
+It is retained inside \(\mathcal P_s\) so that the row remains pressure-complete before that cancellation is used.
 The exact spatial-energy row is
 \begin{equation}\label{eq:BodyCriticalEnergyBalance}
   E_s'=\mathcal P_s-2\nu E_{s+1}.
@@ -140,14 +142,24 @@ order & Eulerian response & critical response & spatial height \\
 \end{center}
 
 Whenever the Zeno route keeps a nontrivial change alive, the temporal column asks for a larger response.
-The matched spatial column climbs the Sobolev scale through
-\(E_{1/2},E_{3/2},E_{5/2},E_{7/2},\ldots\): more spatial regularity, not less.
+The matched spatial column exposes higher orders in the Sobolev scale through
+\(E_{1/2},E_{3/2},E_{5/2},E_{7/2},\ldots\).
 
 This is still an exposed ladder, not a regularity estimate.
 The transfer terms remain unpaid, and one diagonal inside the velocity row does not fill the whole time--space Tower.
 
 Every temporal response needs its own spatial ladder.
-For \(r\in\Nzero\), let \(E_{r,s}:=\tfrac12\norm{\Lambda^sV_r}_2^2\), and let \(\mathcal P_{r,s}\) denote the complete transport--pressure transfer in the \(r\)-th recurrence.
+For \(r\in\Nzero\), let \(E_{r,s}:=\tfrac12\norm{\Lambda^sV_r}_2^2\), and define the complete transport--pressure transfer in the \(r\)-th recurrence by
+\[
+  \mathcal P_{r,s}
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left[
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right]}_{L^2}.
+\]
 Pairing the \(r\)-th temporal equation with \(\Lambda^{2s}V_r\) gives
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
@@ -178,7 +190,7 @@ V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
 \]
 }
 Moving down selects a later temporal response, while moving across selects a higher Sobolev height inside that response.
-Controlling every coordinate would place the solution in the mixed intersection
+For the fixed classical interval \(I=(0,T)\), controlling every coordinate would place the solution in the mixed intersection
 \begin{equation}\label{eq:BodyDesiredMixedIntersection}
   u\in
   \bigcap_{r=0}^{\infty}
