@@ -56,6 +56,7 @@ An exact rescaled copy leaves \(H\) unchanged, while
 \(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\) and bounded critical \(L^3\) control rules out singularity \parencite{EscauriazaSereginSverak2003}.
 An actual singular route must strengthen while it concentrates: the active length must fall while the critical height rises.
 The embedding and the critical \(L^3\) criterion mean that such a route must cross arbitrarily high values of \(H\).
+Suppose this happens along a classical interval \([0,\tau)\), with \(H(t)\) unbounded as \(t\uparrow\tau\).
 
 Let \(H_0>H(0)\) and set
 \[
@@ -63,7 +64,7 @@ Let \(H_0>H(0)\) and set
 \]
 For each level that the solution reaches, let
 \[
-  t_k:=\inf\{t>0:H(t)=L_k\}.
+  t_k:=\inf\{t\in(0,\tau):H(t)=L_k\}.
 \]
 Continuity orders these first passages:
 \[
@@ -79,13 +80,13 @@ If the \(k\)-th passage occurs at \(\ell_k=\rho^k\ell_0\) and the next passage i
   =
   C\frac{\ell_0^2}{\nu}\rho^{2k}.
 \]
-Then
+Then the first-passage times are Cauchy.
+Since \(H\) stays finite on every compact subinterval of \([0,\tau)\), their only possible limit is \(\tau\), and
 \[
   \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
   \qquad
-  t_k\uparrow\tau
+  t_k\uparrow\tau<\infty.
 \]
-for some \(\tau<\infty\).
 Under this hypothesis, the crossings accumulate while the critical height climbs and the active scale collapses.
 That conditional accumulation is the Zeno cascade attached to critical height.
 
@@ -121,4 +122,4 @@ then
 \]
 Under the scale, timing, and non-flattening hypotheses, the Zeno route has its spatial consequence: the active length collapses while critical height and the physical gradients escape every finite bound.
 
-Crossing higher critical levels on those collapsing clocks forces the velocity field to keep changing faster.
+Crossing higher critical levels on those collapsing clocks turns the question from the size of the velocity to the rate at which the field is changing.
