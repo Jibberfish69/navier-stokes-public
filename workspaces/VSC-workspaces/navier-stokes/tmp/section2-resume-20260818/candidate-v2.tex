@@ -1,0 +1,26 @@
+A three-dimensional fluid can stretch its own rotation.
+Follow a small group of the same fluid particles as they rotate around a common axis.
+If the velocity field lengthens this material region along the axis, incompressibility forces the area of its cross-section to decrease.
+When the rotation remains aligned with the extensional direction, the strain contributes positive amplification to the vorticity as the cross-section contracts.
+The dangerous case is the one in which that geometry persists and the amplification survives the viscous response.
+Then the next stretch would begin from a smaller cross-section and higher vorticity.
+The problem is to decide whether the equation allows that repetition.
+
+The rotation is measured by vorticity \(\omega\), and the deformation by the symmetric strain \(S\):
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of \NavierStokes{} gives
+\begin{equation}\label{eq:VorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The left side follows the vorticity with the moving fluid.
+The term \(S\omega\) is the aligned stretching contribution just described.
+The term \(\nu\Delta\omega\) is viscous diffusion acting on the same spatial profile.
+Both contributions act on the same vorticity during the same evolution.
+
+At a smaller width, the next exact comparison is how \(S\omega\) and \(\nu\Delta\omega\) scale for one fixed normalized profile.
+This isolates their homogeneities without assuming that the evolving vortex reproduces the profile or that scaling by itself decides the motion.
