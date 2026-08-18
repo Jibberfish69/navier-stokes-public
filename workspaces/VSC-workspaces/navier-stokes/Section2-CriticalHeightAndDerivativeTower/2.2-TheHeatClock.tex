@@ -5,8 +5,8 @@ The same rescaling that shortened the vortex also changed its clock.
 This temporal factor matters because viscosity is already acting while any further concentration takes place.
 At a smaller scale it acts faster.
 
-A structure of width \(\ell\) is carried by frequencies of order \(|\xi|\sim\ell^{-1}\).
-Under the linear heat flow, those frequencies decay according to
+Let \(v_t=\nu\Delta v\), and suppose its Fourier mass is localized at frequencies \(|\xi|\simeq\ell^{-1}\).
+Under this linear heat flow,
 \[
   \widehat v(\xi,t+\delta t)
   =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
@@ -25,13 +25,13 @@ The heat clock is not yet the duration of an actual vortex contraction.
 It is the time on which diffusion at that scale produces an order-one response.
 Any proposed cascade has to create its next stage while this faster response is already under way.
 
-To see what the shrinking clocks permit, suppose only as a scale comparison that the active lengths form the geometric sequence
+To see what the shrinking clocks permit, prescribe only as a scale comparison the geometric sequence
 \[
   \ell_k=\rho^k\ell_0,
   \qquad
   0<\rho<1.
 \]
-The heat time attached to the \(k\)-th scale is
+With comparison constants independent of \(k\), the heat time attached to the \(k\)-th scale is
 \[
   \delta t_k^{\mathrm{heat}}
   \asymp
@@ -72,7 +72,8 @@ Continuity orders these first passages:
 \]
 Now the heat clock can be posed as a dynamical question.
 Can the passage from \(L_k\) to \(L_{k+1}\) occur on the viscous response time of the active scale?
-If the \(k\)-th passage occurs at \(\ell_k=\rho^k\ell_0\) and the next passage is completed within a fixed multiple of that heat time, then
+Suppose the solution has an active length \(\ell(t_k)=\ell_k=\rho^k\ell_0\) at each first passage.
+If one constant \(C\), independent of \(k\), bounds completion of the next passage by the corresponding heat time, then
 \[
   0<t_{k+1}-t_k
   \leq
@@ -100,15 +101,16 @@ The same rescaling sharpens spatial derivatives:
 At the \(k\)-th active scale, let \(\lambda_k:=\ell_0/\ell_k=\rho^{-k}\).
 If a localized active core can be centred at \(x_k\), define its normalized profile by
 \[
-  u\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
+  u\!\left(x_k+\ell_k y,t_k\right)
   =\lambda_k U_k(y),
   \qquad y\in B_1.
 \]
 This is a change of coordinates at each passage, not an assertion that the profiles \(U_k\) agree.
 It gives
 \[
-  \nabla_xu\!\left(x_k+\frac{y}{\lambda_k},t_k\right)
-  =\lambda_k^2\nabla_yU_k(y).
+  \nabla_xu\!\left(x_k+\ell_k y,t_k\right)
+  =\frac{\lambda_k}{\ell_k}\nabla_yU_k(y)
+  =\frac{\lambda_k^2}{\ell_0}\nabla_yU_k(y).
 \]
 If these normalized profiles do not flatten,
 \[
@@ -117,9 +119,18 @@ If these normalized profiles do not flatten,
 then
 \[
   \norm{\nabla u(t_k)}_{L^\infty}
-  \geq c\lambda_k^2
+  \geq \frac{c}{\ell_0}\lambda_k^2
   \longrightarrow\infty.
 \]
 Under the scale, timing, and non-flattening hypotheses, the Zeno route has its spatial consequence: the active length collapses while critical height and the physical gradients escape every finite bound.
 
-Crossing higher critical levels on those collapsing clocks turns the question from the size of the velocity to the rate at which the field is changing.
+The level crossings also give an exact increment in the critical norm:
+\[
+  \norm{u(t_{k+1})-u(t_k)}_{\dot H^{1/2}}
+  \geq
+  \left|\sqrt{2L_{k+1}}-\sqrt{2L_k}\right|
+  =
+  (\sqrt2-1)\sqrt{2L_k}.
+\]
+Applying \eqref{eq:BodyResponseEscalation} with \(B=\dot H^{1/2}\) then forces a large first Eulerian response \(u_t\) on any passage whose duration collapses.
+The next question is whether later responses are activated in the same way.
