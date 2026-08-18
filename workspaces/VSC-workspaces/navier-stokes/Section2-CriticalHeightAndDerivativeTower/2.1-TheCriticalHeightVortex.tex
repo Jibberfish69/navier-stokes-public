@@ -19,6 +19,9 @@ None of this says that the alignment will survive, that the strain will keep its
 Those are dynamical questions.
 It identifies the dangerous case: enough aligned extension persists for the vortex to sharpen while viscosity is already acting on the same shrinking structure.
 
+Fix any compact interval on which the solution remains classical.
+Every curl, differentiation, and integration by parts below is made on that interval.
+
 Let
 \[
   \omega:=\nabla\times u,
@@ -45,6 +48,7 @@ For \(\lambda>1\), set
   \qquad
   p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \]
+This produces a rescaled solution with rescaled initial data; it is not a claim that \(u_\lambda\) is a later state of the original history.
 Each term in the momentum equation acquires the same factor:
 \[
 \begin{aligned}
@@ -102,7 +106,7 @@ With \(\eta=\xi/\lambda\),
   &=\lambda^{2s-1}
   \norm{u(\lambda^2t)}_{\dot H^s}^2.
 \end{align*}
-The scaling exponent vanishes at one and only one height:
+Within the homogeneous \(L^2\)-Sobolev scale, the exponent vanishes at one and only one height:
 \[
   s=\frac12.
 \]
@@ -133,7 +137,9 @@ Under the same concentration,
 \]
 Kinetic energy falls by \(\lambda^{-1}\), while critical height does not fall at all.
 The concentrated profile becomes cheaper in the quantity controlled by the energy law without becoming smaller in the scale-invariant quantity.
-The energy identity can consequently remain valid through a sequence of increasingly concentrated profiles and still give no scale-independent bound on their critical height.
+This exact calculation compares fully rescaled solutions with rescaled data.
+For a concentrated core inside one larger flow, the surrounding field and pressure still have to be carried with it.
+Even so, the energy identity gives no scale-independent critical-height bound that would exclude such concentration by energy alone.
 
 Scale has left stretching and viscosity level, and energy has failed to distinguish the smaller critical profile from the original one.
 The comparison now has to move into time: how quickly does viscosity respond when the active length shrinks?
