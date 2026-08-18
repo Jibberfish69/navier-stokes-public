@@ -1,12 +1,13 @@
 A three-dimensional fluid can stretch its own rotation.
-Follow a small group of the same fluid particles as they rotate around a common axis.
-If the velocity field lengthens this material region along the axis, incompressibility forces the area of its cross-section to decrease.
+Follow a thin tube made from the same fluid particles as they move.
+Let those particles rotate around the tube's axis.
+If the velocity field lengthens the tube along that axis, incompressibility forces the area of its cross-section to decrease.
 When the rotation stays pointed along the direction of the pull, that pull feeds the rotation as the cross-section contracts.
 The dangerous case is the one in which this alignment persists and the rotation keeps intensifying while viscosity acts on the same material region.
 The same particles would then be carried into an ever thinner rotating tube.
 The problem is to decide whether the equation allows that coupled motion to continue.
 
-The equation measures the rotation by vorticity \(\omega\) and the pull by the symmetric strain \(S\):
+The equation measures the rotation by vorticity \(\omega\), and it records the pull inside the symmetric strain \(S\):
 \[
   \omega:=\nabla\times u,
   \qquad
@@ -18,7 +19,7 @@ Taking the curl of \NavierStokes{} gives
   =S\omega+\nu\Delta\omega.
 \end{equation}
 The left side follows the vorticity with the moving fluid.
-The term \(S\omega\) is the part that feeds an aligned rotation.
+When \(\omega\) points along a positive extensional direction of \(S\), the term \(S\omega\) is the part that feeds the rotation.
 The term \(\nu\Delta\omega\) is viscosity acting on the same spatial profile.
 Both happen at the same time to the same vorticity.
 
