@@ -5,6 +5,14 @@ $out2_dir = '.';
 
 $makeindex = 'makeindex -c %O -o %D %S';
 
+my $source_format_guard = 'ruby tools/check_no_box_formatting.rb';
+my $paragraph_spacing_guard = 'ruby tools/check_no_manual_paragraph_spacing.rb';
+my $appendix_derivation_guard = 'ruby tools/check_appendix_derivation_references.rb';
+my $source_guards = "$source_format_guard && $paragraph_spacing_guard && $appendix_derivation_guard";
+$pdflatex = "$source_guards && pdflatex %O %S";
+$lualatex = "$source_guards && lualatex %O %S";
+$xelatex = "$source_guards && xelatex %O %S";
+
 use Cwd qw(abs_path);
 
 my $cache_root = '.cache';

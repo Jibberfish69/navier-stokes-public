@@ -1,7 +1,24 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 
-We prove that, for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity \(u_0\) on \(\R^3\), the maximal classical solution of the unforced three-dimensional incompressible Navier--Stokes equations is global, with velocity and pressure smooth for all time.
-If its lifespan ended at a finite \(T_*\), every fixed finite block of temporal and spatial derivatives of that same solution would remain uniformly controlled over all cutoffs \(T<T_*\).
-At each spatial order, the equation also controls the time derivative, so the same solution approaches a single terminal velocity \(u_*\in H^\infty\) as \(t\uparrow T_*\).
-Local well-posedness continues the original solution from \(u_*\) beyond \(T_*\), contradicting maximality.
-The global solution obeys the energy identity, which bounds kinetic energy by its initial value.
+We prove that for every fixed viscosity \(\nu>0\) and every divergence-free initial datum \(u_0\in\mathscr S(\R^3;\R^3)\), the maximal classical solution of the unforced three-dimensional incompressible Navier--Stokes equations is global, with velocity and pressure smooth on \(\R^3\times[0,\infty)\).
+
+Write \([0,T_*)\) for the maximal classical lifespan and suppose that \(T_*<\infty\).
+The central datum-generated estimate is uniform up to \(T_*\): for every finite \(N,M\in\Nzero\),
+\[
+  \sum_{n=0}^{N}
+  \left(
+    \|\partial_t^n u\|_{L^2(0,T_*;H^{M+1})}^{2}
+    +
+    \|\partial_t^{n+1}u\|_{L^2(0,T_*;H^{M-1})}^{2}
+  \right)
+  <\infty.
+\]
+At \((N,M)=(0,1)\), the Hilbert-space trace theorem gives \(u\in C([0,T_*];H^1(\R^3))\).
+Sobolev embedding then gives \(u\in L^\infty(0,T_*;L^3(\R^3))\).
+The Escauriaza--Seregin--\v{S}ver\'ak endpoint criterion makes this bound incompatible with a finite maximal time.
+
+Under the same finite-time hypothesis, the finite-order velocity and normalized-pressure families agree on overlaps, and their compatible intersection gives the stronger endpoint statement: \(u(t)\to u_*\) in every \(H^m(\R^3)\) as \(t\uparrow T_*\), for one divergence-free \(u_*\in\bigcap_{m<\infty}H^m(\R^3)\).
+At \(T_*\), the differentiated equations recover every velocity derivative and the corresponding pressure derivatives under the fixed decaying normalization.
+Local well-posedness and uniqueness then restart the same solution from \(u_*\).
+The \(L^3\) contradiction and the smooth restart both rule out a finite \(T_*\), so \(T_*=\infty\).
+The global kinetic-energy identity gives \(\|u(t)\|_2\leq\|u_0\|_2\) for every \(t\geq0\).

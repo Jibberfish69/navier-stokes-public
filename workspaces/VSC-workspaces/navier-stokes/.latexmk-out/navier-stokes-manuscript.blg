@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is '.latexmk-out/navier-stokes-manuscript.blg'
-[83] biber-darwin:342> INFO - === Mon Aug 17, 2026, 15:04:00
-[106] Biber.pm:421> INFO - Reading '.latexmk-out/navier-stokes-manuscript.bcf'
-[220] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
-[237] Biber.pm:4487> INFO - Processing section 0
-[247] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
-[254] bibtex.pm:1713> INFO - LaTeX decoding ...
-[279] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
-[991] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[991] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[991] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[992] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1262] bbl.pm:676> INFO - Writing '.latexmk-out/navier-stokes-manuscript.bbl' with encoding 'UTF-8'
-[1287] bbl.pm:779> INFO - Output to .latexmk-out/navier-stokes-manuscript.bbl
+[1] Config.pm:331> INFO - Logfile is '.latexmk-out/navier-stokes-manuscript.blg'
+[99] biber-darwin:342> INFO - === Thu Aug 20, 2026, 21:00:20
+[126] Biber.pm:421> INFO - Reading '.latexmk-out/navier-stokes-manuscript.bcf'
+[225] Biber.pm:1002> INFO - Found 17 citekeys in bib section 0
+[244] Biber.pm:4487> INFO - Processing section 0
+[254] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
+[256] bibtex.pm:1713> INFO - LaTeX decoding ...
+[281] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[431] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[431] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[431] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[454] bbl.pm:676> INFO - Writing '.latexmk-out/navier-stokes-manuscript.bbl' with encoding 'UTF-8'
+[463] bbl.pm:779> INFO - Output to .latexmk-out/navier-stokes-manuscript.bbl

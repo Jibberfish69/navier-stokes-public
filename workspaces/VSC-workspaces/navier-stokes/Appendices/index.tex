@@ -1,15 +1,20 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \section{Local Construction and Classical Estimates}\label{app:LocalConstructionAndClassicalEstimates}
 
-The main argument uses local theory twice: first to construct the maximal history, and then to continue it from a smooth terminal value.  We prove the required local theorem here and then set out the classical estimates that locate the finite-endpoint obstruction.
+A maximal history is not merely a chain of short solutions; its last time must
+be tied to a norm that the equation can test.  The local construction makes that
+link, and the classical estimates show why finite kinetic energy alone cannot
+keep the history smooth.
 
 \input{Appendices/A-LocalConstruction.tex}
 \input{Section1-Introduction/1.2-HistoricalEstimates.tex}
 
-\clearpage
 \section{Derivative and Finite-Record Calculus}\label{app:DerivativeAndFiniteRecordCalculus}\label{sec:FromCriticalHeightToCompatibleFiniteViews}
 
-If one response becomes unbounded before a finite time, its next time derivative cannot remain integrable in the same fixed space.  Applying that fact to Navier--Stokes produces temporal rows containing transport, pressure, and viscosity.  Spatial differentiation opens the corresponding columns, and adjacent Sobolev pairs give those rows a common time trace.
+Strict classicality gives every derivative before \(T_*\), but it does not tell
+us which finite part of that information can survive uniformly as the cutoff
+approaches the endpoint.  The calculus here turns the derivative family into
+finite records so the terminal estimate has a precise object to keep bounded.
 
 \input{Section2-ProofProgram/2.1-CriticalHeightAtAFiniteEndpoint.tex}
 \input{Section2-ProofProgram/2.2-FiniteTimeResponseEscalation.tex}
@@ -18,10 +23,12 @@ If one response becomes unbounded before a finite time, its next time derivative
 \input{Section2-ProofProgram/2.5-SimultaneousSobolevIntersections.tex}
 \input{Section2-ProofProgram/2.6-FiniteAdjacentRectangles.tex}
 
-\clearpage
 \section{Compatible Terminal Assembly}\label{app:CompatibleTerminalAssembly}\label{sec:TheCompatibleIntersectionAtTheTerminalTime}
 
-Every whole-terminal rectangle contains derivatives of the same velocity and normalized pressure.  The restriction maps make that agreement exact; the adjacent trace then produces one endpoint, the differentiated equation produces its complete jet, and local uniqueness joins the restarted solution to the history on the left.
+A bound for every finite record is still not a terminal solution.  Because the
+records are obtained separately, their shared coordinates must remain the same
+as the rectangle and cutoff change; otherwise their limits need not belong to
+one history.
 
 \input{Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex}
 \input{Section3-CompatibleIntersectionClosure/3.2-ProjectiveIntersectionAndTheCompleteSpatialRow.tex}
