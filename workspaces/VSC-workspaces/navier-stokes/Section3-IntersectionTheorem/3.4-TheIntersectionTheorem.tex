@@ -80,8 +80,9 @@ while
 \end{equation}
 Thus \(D_*<\infty\) also gives \(u_t\in L^2(I_*;L^2)\), which completes
 \eqref{eq:BodyFirstWholeTerminalRectangle}.  In the other direction, the
-\(L^2H^2\) row in that rectangle immediately gives \(D_*<\infty\).  Using the
-energy identity in \Cref{prop:ClassicalKineticEnergyIdentity} for the lower
+cutoff-uniform \(L^2H^2\) row and monotone convergence give
+\(u\in L^2(I_*;H^2)\), hence \(D_*<\infty\).  Using the energy identity in
+\Cref{prop:ClassicalKineticEnergyIdentity} for the lower
 Sobolev pieces, we have reached the exact equivalence
 \begin{equation}\label{eq:BodyFirstRectangleCriticalDissipationEquivalence}
   D_*<\infty
@@ -106,7 +107,7 @@ bounded \(H\); the same equality then makes the prefix finite.  Therefore
   \quad\Longleftrightarrow\quad
   \sup_{0<T<T_*}\mathfrak R_{0,1}(u;T)<\infty.
 \end{equation}
-The signed-prefix route is thus another exact reading of the first rectangle;
+The signed-prefix statement is thus another exact reading of the first rectangle;
 it is not a smaller estimate that produces the rectangle for free.
 
 The kinetic-energy identity in \Cref{prop:ClassicalKineticEnergyIdentity}
@@ -185,7 +186,7 @@ This literal overlap lets the finite blocks be read as one compatible family:
   =\cR_{N',M'}[u_0].
 \end{equation}
 The intersection creates no new field.
-Given any finite temporal order and spatial height, choose one rectangle large enough to contain that coordinate; every larger rectangle returns the same coordinate of the same \(u\).
+Given any finite temporal order and spatial height, choose one rectangle large enough to contain that derivative; every larger rectangle returns the same derivative of the same \(u\).
 
 \begin{proposition}[The mixed intersection]\label[proposition]{prop:BodyCompatibleProjectiveAssembly}
 The velocity component of \(\cI[u_0]\) satisfies
@@ -210,5 +211,5 @@ The upper edge of this one rectangle gives
   \qquad(0\leq n\leq r).
 \]
 These are the distributional time derivatives of the same velocity field, hence \(u\in H^r(I_*;H^m)\).
-Because \(r\) and \(m\) were arbitrary, every finite coordinate belongs to the intersection; \(r=0\) gives \eqref{eq:CompleteSpatialRow}.
+Because \(r\) and \(m\) were arbitrary, every finite derivative belongs to the intersection; \(r=0\) gives \eqref{eq:CompleteSpatialRow}.
 \end{proof}
