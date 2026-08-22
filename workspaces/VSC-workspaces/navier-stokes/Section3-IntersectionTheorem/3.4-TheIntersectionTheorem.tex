@@ -21,19 +21,105 @@ Every rectangle belongs to the same history, and larger rectangles return the id
 Everything before this theorem identifies the rectangle on each strict
 subinterval.  That is not yet the estimate in
 \eqref{eq:BodyWholeTerminalRectangleEstimate}.  Classical smoothness allows the
-norm to grow each time the cutoff moves closer to \(T_*\).  The producer proof
-has to begin with \((u_0,\nu)\), keep \((N,M)\) fixed, and derive one bound that
-does not move with the cutoff.
+norm to grow each time the cutoff moves closer to \(T_*\).  To see exactly what
+is missing, begin with the first rectangle.  At \((N,M)=(0,1)\), it asks for
+\begin{equation}\label{eq:BodyFirstWholeTerminalRectangle}
+  u\in L^2(I_*;H^2),
+  \qquad
+  u_t\in L^2(I_*;L^2).
+\end{equation}
 
-That derivation is the load-bearing payment of the paper.  The proof source
-currently attached to this manuscript states the datum-generated theorem but
-does not display the calculation that produces even its first rectangle.  The
-terminal argument in \Cref{thm:WholeTerminalCompatibleRectangleEstimate}
-starts from \eqref{eq:BodyWholeTerminalRectangleEstimate}; it realizes the
-assumed rows on \(I_*\) and cannot serve as their producer.  Until the missing
-datum-to-rectangle calculation is inserted here, every conclusion below that
-uses \Cref{thm:BodyWholeTerminalRectangleTheorem} remains conditional on this
-one theorem.
+Which part of the equation could produce these two rows?  Set
+\begin{equation}\label{eq:BodyEnstrophyDissipationQuantities}
+  Z(t):=\norm{\Lambda u(t)}_2^2=\norm{\omega(t)}_2^2,
+  \quad
+  Y(t):=\norm{\Lambda^2u(t)}_2^2=\norm{\nabla\omega(t)}_2^2,
+  \quad
+  D(t):=\norm{\Lambda^{3/2}u(t)}_2^2.
+\end{equation}
+The enstrophy balance \eqref{eq:BodyEnstrophyBalance} contains the stretching
+term that must be controlled.  Since \(\nabla u\) is recovered from \(\omega\)
+by Riesz transforms, Sobolev embedding gives
+\begin{align}
+  \left|\int_{\R^3}\omega\cdot S\omega\,dx\right|
+  &\leq
+  \norm{\omega}_2\norm{\omega}_3\norm{S}_6
+  \notag\\
+  &\leq C Z^{1/2}D^{1/2}Y^{1/2}.
+  \label{eq:BodyFirstRectangleStretchingEstimate}
+\end{align}
+Young's inequality then turns the enstrophy identity into
+\begin{equation}\label{eq:BodyEnstrophyFromCriticalDissipation}
+  Z'(t)+\nu Y(t)
+  \leq C\nu^{-1}D(t)Z(t).
+\end{equation}
+The coefficient multiplying \(Z\) has now been isolated.  If
+\begin{equation}\label{eq:BodyCriticalDissipationInterface}
+  D_*:=\int_0^{T_*}D(t)\,dt
+  =\int_0^{T_*}\norm{\Lambda^{3/2}u(t)}_2^2\,dt
+  <\infty,
+\end{equation}
+then Gronwall gives
+\begin{equation}\label{eq:BodyEnstrophyAndHtwoFromDissipation}
+  \sup_{0<t<T_*}Z(t)+\int_0^{T_*}Y(t)\,dt<\infty.
+\end{equation}
+The first term supplies \(u\in L^\infty(I_*;H^1)\), and the second, together
+with the kinetic-energy row, supplies \(u\in L^2(I_*;H^2)\).  Applying the
+Leray projection to the momentum equation gives
+\[
+  u_t=\nu\Delta u-\Leray\bigl((u\cdot\nabla)u\bigr),
+\]
+while
+\begin{equation}\label{eq:BodyNonlinearityFromCriticalDissipation}
+  \norm{\Leray((u\cdot\nabla)u)}_2^2
+  \leq C\norm{u}_6^2\norm{\nabla u}_3^2
+  \leq C ZD.
+\end{equation}
+Thus \(D_*<\infty\) also gives \(u_t\in L^2(I_*;L^2)\), which completes
+\eqref{eq:BodyFirstWholeTerminalRectangle}.  In the other direction, the
+\(L^2H^2\) row in that rectangle immediately gives \(D_*<\infty\).  Using the
+energy identity for the lower Sobolev pieces, we have reached the exact
+equivalence
+\begin{equation}\label{eq:BodyFirstRectangleCriticalDissipationEquivalence}
+  D_*<\infty
+  \quad\Longleftrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{0,1}(u;T)<\infty.
+\end{equation}
+
+The critical-height balance gives the same interface in its original
+coordinates.  Because \(D=2E_{3/2}\), integrating
+\eqref{eq:BodyFirstCriticalRow} yields
+\begin{equation}\label{eq:BodyCriticalPrefixIdentity}
+  H(t)+\nu\int_0^tD(s)\,ds
+  =H(0)+\int_0^t\mathcal P_{1/2}(s)\,ds.
+\end{equation}
+Since \(H\geq0\), an upper bound for the signed production prefix pays for
+\(D_*\).  Conversely, \(D_*<\infty\) gives the first rectangle, hence a bounded
+\(H\), and the same identity bounds the prefix.  Therefore
+\begin{equation}\label{eq:BodyFirstRectangleSignedPrefixEquivalence}
+  \sup_{0<t<T_*}\int_0^t\mathcal P_{1/2}(s)\,ds<\infty
+  \quad\Longleftrightarrow\quad
+  D_*<\infty
+  \quad\Longleftrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{0,1}(u;T)<\infty.
+\end{equation}
+The signed-prefix route is thus another exact reading of the first rectangle;
+it is not a smaller estimate that produces the rectangle for free.
+
+The kinetic-energy identity supplies only
+\(\int_0^{T_*}Z(t)\,dt<\infty\).  Interpolating
+\(D\leq Z^{1/2}Y^{1/2}\) in
+\eqref{eq:BodyFirstRectangleStretchingEstimate} shows the gap directly:
+\begin{equation}\label{eq:BodyCubicEnstrophyObstruction}
+  Z'(t)+\nu Y(t)
+  \leq C\nu^{-3}Z(t)^3.
+\end{equation}
+Control of \(\int Z\) does not control \(\int Z^3\) or \(\sup Z\).  No
+calculation in this manuscript bounds either of the equivalent quantities in
+\eqref{eq:BodyFirstRectangleSignedPrefixEquivalence} from an arbitrary pair
+\((u_0,\nu)\).  This is the first unresolved estimate.  The intersection and
+endpoint argument below begin from
+\eqref{eq:BodyWholeTerminalRectangleEstimate}; they do not produce it.
 
 \Needspace{7\baselineskip}
 Fix \(N\) and \(M\).
