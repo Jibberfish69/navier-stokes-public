@@ -22,20 +22,16 @@
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{etoolbox}
+\usepackage{indentfirst}
+\newcommand{\UseManuscriptParagraphSpacing}{%
+  \setlength{\parskip}{0.5\baselineskip}%
+}
+\UseManuscriptParagraphSpacing
 \usepackage{titlesec}
 \usepackage{needspace}
 \usepackage{csquotes}
 \usepackage{xparse}
-\titleformat{\section}
-  {\normalfont\Large\bfseries\raggedright}
-  {\thesection}
-  {1em}
-  {}
-\titleformat{\subsection}
-  {\normalfont\large\bfseries\raggedright}
-  {\thesubsection}
-  {1em}
-  {}
+\usepackage{tocloft}
 
 % ===== Links and references: load in this order =====
 \usepackage[hidelinks]{hyperref}
@@ -55,5 +51,4 @@
 
 % ===== Page and contents layout =====
 \usepackage[letterpaper,margin=1in]{geometry}
-\usepackage{tocloft}
 \setcounter{tocdepth}{2}

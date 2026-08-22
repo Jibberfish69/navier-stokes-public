@@ -3,13 +3,31 @@
 % macros.tex -- project-wide semantic commands
 % ============================================================
 
+% Centralized heading sizes, copied from monograph-V6.
+\newcommand{\HeadingSizeSection}{\fontsize{15pt}{18.5pt}\selectfont}
+\newcommand{\HeadingSizeSubsection}{\fontsize{13.5pt}{16.5pt}\selectfont}
+\newcommand{\HeadingSizeSubsubsection}{\fontsize{13pt}{15.5pt}\selectfont}
+\newcommand{\HeadingSizeDivider}{\fontsize{13pt}{15pt}\selectfont}
+
+\titleformat{\section}[block]{\bfseries\HeadingSizeSection}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\bfseries\HeadingSizeSubsection}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}[block]{\bfseries\HeadingSizeSubsubsection}{\thesubsubsection}{1em}{}
+
+% Semantic page rhythm: a major thought boundary adds one full visual pause
+% beyond the ordinary paragraph gap, while dense display rows receive clear
+% extra leading only when the display requests it.
+\newlength{\MajorThoughtExtraSeparation}
+\setlength{\MajorThoughtExtraSeparation}{1.00\baselineskip}
+\newcommand{\MajorThoughtBreak}{\par\addvspace{\MajorThoughtExtraSeparation}}
+\newcommand{\UseReadableDisplayRows}{\setlength{\jot}{6pt}}
+
 % Unnumbered mini-heading inside a manuscript unit.
 \newcommand{\DividerPreSkip}{1.5\baselineskip}
 \newcommand{\DividerPostSkip}{0.5\baselineskip}
 \newcommand{\divider}[1]{%
   \par\Needspace{6\baselineskip}%
   \vspace{\DividerPreSkip}%
-  {\noindent\large\textbf{#1}\par}%
+  {\noindent{\HeadingSizeDivider\textbf{#1}}\par}%
   \vspace{\DividerPostSkip}%
 }
 
