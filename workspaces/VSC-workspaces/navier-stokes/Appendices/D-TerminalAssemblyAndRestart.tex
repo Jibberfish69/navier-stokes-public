@@ -98,7 +98,8 @@ everywhere by continuity.  Their terminal values are one element of
 \(\bigcap_mH^m\); divergence and finite energy pass to the limit.
 \end{proof}
 
-Applying the adjacent trace to every temporal coordinate gives
+Assume \Cref{thm:BodyWholeTerminalRectangleTheorem}.  Applying the adjacent
+trace to every temporal coordinate gives
 \begin{equation}\label{eq:SectionThreeVelocityJetTraces}
   V_N^*:=\lim_{t\uparrow T_*}\partial_t^Nu(t)
   \in\Hinfty(\R^3),
@@ -106,7 +107,9 @@ Applying the adjacent trace to every temporal coordinate gives
 \end{equation}
 
 \begin{proposition}[Pressure-complete endpoint jet]\label[proposition]{prop:PressureCompleteEndpointJet}
-The endpoint \(u_*\) determines one sequence
+Assume \Cref{thm:BodyWholeTerminalRectangleTheorem}, and let \(u_*\) be the
+terminal value furnished by \Cref{lem:CompleteSpatialRowEndpoint}.  Then \(u_*\)
+determines one sequence
 \((V_N^*,Q_N^*)_{N\geq0}\subset\Hinfty\times\Hinfty\) by
 \begin{align}
   V_0^*&=u_*,\notag\\
