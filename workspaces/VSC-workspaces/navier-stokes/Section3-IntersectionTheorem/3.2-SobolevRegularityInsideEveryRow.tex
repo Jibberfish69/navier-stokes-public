@@ -1,38 +1,28 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{The same spatial ladder inside every response}\label{sub:SobolevRegularityInsideEveryCompletedRow}
+\subsection{The two-dimensional derivative grid}\label{sub:SobolevRegularityInsideEveryCompletedRow}
 
-Fix one temporal response \(V_r\).  Its differentiated equation couples
-\(V_0,\ldots,V_r\) with the pressure row \(Q_r\), while the Laplacian acts linearly
-on that same \(V_r\).  For \(r=1\), the equation reads
+Fix \(r\in\Nzero\).  The scalar energy of the response \(V_r\) at spatial
+height \(s\) is
 \[
-  V_2
-  +(V_1\cdot\nabla)V_0
-  +(V_0\cdot\nabla)V_1
-  +\nabla Q_1
-  =\nu\Delta V_1.
+  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2.
 \]
-The transport has split into two terms, the pressure has differentiated with it, and
-the same Laplacian still acts linearly on \(V_1\).  Pairing this equation at spatial
-height \(s\) gives the same balance we found for \(u\).
-
-At arbitrary temporal order, set
-\begin{align*}
-  E_{r,s}
-  &:=\frac12\norm{\Lambda^sV_r}_2^2,
-  \\
+The transfer paired with that response is
+\[
   \mathcal P_{r,s}
-  &:=-\operatorname{Re}
+  :=-
+  \operatorname{Re}
   \pair{\Lambda^sV_r}
-  {\Lambda^s\!\left(
+  {\Lambda^s\!\left[
     \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
     +\nabla Q_r
-  \right)}_{L^2}.
-\end{align*}
-The recurrence \eqref{eq:BodyTemporalVelocityRecurrence} gives
+  \right]}_{L^2}.
+\]
+Pairing the \(r\)-th differentiated momentum equation at this height produces
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
 \end{equation}
-Starting from \(s=\tfrac12\) and repeating the critical-height calculation yields
+Beginning at \(s=\tfrac12\) and repeating the induction proved in
+\Cref{prop:CriticalHeightSpatialAscent} gives the completed row
 \begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
   \partial_t^nE_{r,1/2}
   =(-2\nu)^nE_{r,n+1/2}
@@ -40,51 +30,57 @@ Starting from \(s=\tfrac12\) and repeating the critical-height calculation yield
   (-2\nu)^j
   \partial_t^{\,n-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-So there is not one spatial ladder attached only to \(u\).  There is a separate ladder
-inside \(u_t\), another inside \(u_{tt}\), and another inside every fixed \(V_r\).
-Temporal order selects the response; spatial order asks how finely that response is
-resolved.  The equation keeps those directions distinct while viscosity connects each
-row to its own next spatial height.
-
-Lay the two independent directions out before placing bounds on them:
+There is a spatial ladder inside \(u\), another inside \(u_t\), another
+inside \(u_{tt}\), and one inside every finite response.  Moving down changes
+the temporal response.  Moving across changes the spatial height.
 
 \begin{center}
 \captionsetup{hypcap=false}
-\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the time-dependent coordinate \(\norm{V_r(t)}_{H^m}\); temporal order runs downward and spatial height runs across, and the rectangle estimate will make each selected finite coordinate uniform through the terminal time.}
+\captionof{table}{The mixed derivative grid.  Each entry is a coordinate of \(u\); no entry is yet an endpoint estimate.}
 \label{tab:MixedDerivativeGrid}
-\renewcommand{\arraystretch}{1.4}
+\renewcommand{\arraystretch}{1.35}
 \begin{tabular}{@{}c c c c c c@{}}
 \toprule
 & \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
 \midrule
-\(V_0=u\) & \(\norm{V_0(t)}_{H^0}\) & \(\norm{V_0(t)}_{H^1}\) & \(\norm{V_0(t)}_{H^2}\) & \(\norm{V_0(t)}_{H^3}\) & \(\cdots\) \\
-\(V_1=u_t\) & \(\norm{V_1(t)}_{H^0}\) & \(\norm{V_1(t)}_{H^1}\) & \(\norm{V_1(t)}_{H^2}\) & \(\norm{V_1(t)}_{H^3}\) & \(\cdots\) \\
-\(V_2=u_{tt}\) & \(\norm{V_2(t)}_{H^0}\) & \(\norm{V_2(t)}_{H^1}\) & \(\norm{V_2(t)}_{H^2}\) & \(\norm{V_2(t)}_{H^3}\) & \(\cdots\) \\
-\(V_3=u_{ttt}\) & \(\norm{V_3(t)}_{H^0}\) & \(\norm{V_3(t)}_{H^1}\) & \(\norm{V_3(t)}_{H^2}\) & \(\norm{V_3(t)}_{H^3}\) & \(\cdots\) \\
+\(V_0=u\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
 \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
 \bottomrule
 \end{tabular}
 \end{center}
 
-Now fix one row \(V_r\) and return to the singularity.  Repeated integration in time
-showed that a finite terminal time would force
+The point of the grid is not to add its rows into an infinite norm.  Take one
+finite request: \(q\) time derivatives and \(k\) spatial derivatives.  Choose
+finite indices
 \[
-  \sup_{0<t<T_*}\norm{V_r(t)}_3=\infty.
-\]
-To stop that escape, it is enough to place the same row in
-\(C([0,T_*];H^1)\), because \(H^1(\R^3)\hookrightarrow L^3(\R^3)\).  But a terminal
-trace cannot be read from one space-time norm alone.  For \(V_r\) to arrive
-continuously in \(H^1\), the natural pair is
-\[
-  V_r\in L^2(I_*;H^2),
+  r>q+\frac12,
   \qquad
-  V_{r+1}=\partial_tV_r\in L^2(I_*;L^2).
+  m>k+\frac32.
 \]
-More generally, an \(H^m\) trace asks for
+The vector-valued time embedding followed by the three-dimensional spatial
+embedding \parencite[Theorem~7.28]{Cerda2010} reads
 \[
-  V_r\in L^2(I_*;H^{m+1}),
-  \qquad
-  V_{r+1}\in L^2(I_*;H^{m-1}).
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
 \]
-The two rows meet at the missing middle height.  That adjacent pair is the first finite
-piece of the grid with enough information to survive the terminal time.
+Every finite request has a finite coordinate above its thresholds.  Collecting
+all of them on the fluid gives
+\begin{equation}\label{eq:BodyFormalMixedIntersection}
+  \mathscr V_\infty(I)
+  :=\bigcap_{r=0}^{\infty}\bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow C^\infty(\overline I\times\R^3).
+\end{equation}
+The constants may depend on the selected \((r,m)\).  Smoothness asks that
+every finite coordinate exist; it does not ask for one constant uniform over
+the entire grid.
+
+The remaining issue is time.  A dot in the grid can be finite on every strict
+subinterval and still diverge as the endpoint is approached.  To carry a
+spatial coordinate to one time slice, we have to place it beside the temporal
+response directly below it.  Those adjacent pairs determine the finite
+rectangles.
