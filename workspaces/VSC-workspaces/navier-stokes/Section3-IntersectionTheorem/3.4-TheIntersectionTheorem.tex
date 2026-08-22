@@ -121,6 +121,27 @@ calculation in this manuscript bounds either of the equivalent quantities in
 endpoint argument below begin from
 \eqref{eq:BodyWholeTerminalRectangleEstimate}; they do not produce it.
 
+The size of this first gap is visible from what the first rectangle would do.
+The adjacent trace lemma turns \eqref{eq:BodyFirstWholeTerminalRectangle} into
+\[
+  u\in C([0,T_*];H^1).
+\]
+Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\), it follows that
+\begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
+  \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
+\end{equation}
+But the endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak gives the
+opposite conclusion at a finite maximal time
+\parencite{EscauriazaSereginSverak2003}:
+\begin{equation}\label{eq:FiniteTimeLThreeEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
+\end{equation}
+Thus the first rectangle already rules out the alleged last time.  The larger
+intersection is not needed to repeat that contradiction; it is what carries
+every finite response and spatial derivative to one common terminal datum.
+
 \Needspace{7\baselineskip}
 Fix \(N\) and \(M\).
 Every term in \eqref{eq:BodyRectangleNorm} is an integral of a nonnegative squared norm.
