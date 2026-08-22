@@ -103,44 +103,8 @@ The velocity rows determine \(Q_n\); its gradient returns to
 \eqref{eq:BodyTemporalVelocityRecurrence} as part of the next response.  Every
 rung retains transport, pressure, viscosity, and incompressibility.
 
-Now look at what the recurrence asks us to carry.  The next temporal response
-contains \(\Delta V_n\).  Transport differentiates products of the earlier
-responses.  Pressure is recovered from spatial derivatives of those products.
-Climbing in time has already opened a spatial direction inside every rung.
-
-To record that direction, let
-\begin{equation}\label{eq:BodyMixedJetDefinition}
-  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
-  \qquad
-  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p,
-  \qquad
-  \alpha\in\Nzero^3.
-\end{equation}
-The temporal and spatial product rules give
-\begin{align}
-  J_{n+1,\alpha}
-  &+
-  \sum_{a=0}^{n}
-  \sum_{\beta\leq\alpha}
-  \binom{n}{a}\binom{\alpha}{\beta}
-  (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}
-  +\nabla\Pi_{n,\alpha}
-  \notag\\
-  &=\nu\Delta J_{n,\alpha},
-  \qquad
-  \nabla\cdot J_{n,\alpha}=0.
-  \label{eq:BodyMixedJetRecurrence}
-\end{align}
-The matching pressure coordinate is fixed by
-\begin{equation}\label{eq:BodyMixedPressureRecurrence}
-  -\Delta\Pi_{n,\alpha}
-  =\partial_x^\alpha\partial_i\partial_j
-  \sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
-\end{equation}
-
-This is the first reversal in the argument.  We entered the Tower because a
-singularity would require the fluid to respond faster and faster.  But every
-new response is generated through spatial derivatives, and viscosity places
-two more spatial derivatives of the current response directly in the row.
-The route toward faster temporal change is pointing upward in spatial order.
-We now return to the critical height and ask exactly how far upward it points.
+The Tower is now fixed by the original equation: velocity generates
+acceleration, acceleration generates jerk, and every later response retains
+transport, pressure, incompressibility, and viscosity.  One question has been
+left inside the recurrence.  Each rung contains \(\nu\Delta V_n\).  As the
+responses climb in time, what does that Laplacian force us to carry in space?
