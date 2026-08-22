@@ -115,37 +115,6 @@
       \verb 10.1007/BF01212349
       \endverb
     \endentry
-    \entry{BeiraoDaVeiga1995}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7816116cb4ef523ebc89e67767801217}{%
-           family={Beirão\bibnamedelimb da\bibnamedelima Veiga},
-           familyi={B\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim V\bibinitperiod},
-           given={Hugo},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7816116cb4ef523ebc89e67767801217}
-      \strng{fullhash}{7816116cb4ef523ebc89e67767801217}
-      \strng{fullhashraw}{7816116cb4ef523ebc89e67767801217}
-      \strng{bibnamehash}{7816116cb4ef523ebc89e67767801217}
-      \strng{authorbibnamehash}{7816116cb4ef523ebc89e67767801217}
-      \strng{authornamehash}{7816116cb4ef523ebc89e67767801217}
-      \strng{authorfullhash}{7816116cb4ef523ebc89e67767801217}
-      \strng{authorfullhashraw}{7816116cb4ef523ebc89e67767801217}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Chinese Annals of Mathematics, Series B}
-      \field{number}{4}
-      \field{title}{A New Regularity Class for the {Navier--Stokes} Equations in {$\mathbb{R}^n$}}
-      \field{volume}{16}
-      \field{year}{1995}
-      \field{pages}{407\bibrangedash 412}
-      \range{pages}{6}
-    \endentry
     \entry{CaffarelliKohnNirenberg1982}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3991522afc177c36148555b3758df0e0}{%
