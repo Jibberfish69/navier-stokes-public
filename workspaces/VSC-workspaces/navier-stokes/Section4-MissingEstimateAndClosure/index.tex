@@ -189,7 +189,7 @@ and the vortex geometry.
 
 Once the \(H^1\) trace reaches the terminal face, the critical height cannot keep
 climbing underneath it.  Indeed,
-\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), and therefore
+\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), so
 \begin{equation}\label{eq:BodyCriticalHeightRoof}
   H_{\max}
   :=\sup_{0\leq t\leq T_*}H(t)
@@ -271,8 +271,8 @@ For a vortex, the decisive entry in \(\cR_{0,2}\) is
   \leq
   T_*^{1/2}\norm{u}_{L^2(I_*;H^3)}<\infty.
 \]
-Both vorticity and strain are parts of this gradient.  The time available to
-rotate, stretch, and contract the core is therefore finite in the precise sense
+Both vorticity and strain are parts of this gradient.  Their accumulated action
+before \(T_*\) is finite in the precise sense
 \begin{equation}\label{eq:FiniteLipschitzVorticityStrainAction}
   \int_0^{T_*}
   \left(
@@ -320,7 +320,7 @@ has a limit at \(T_*\).  Letting \(t\uparrow T_*\) preserves the lower bound:
   |X(a,T_*)-X(b,T_*)|
   \geq |a-b|\exp\!\left(-\int_0^{T_*}\norm{\nabla u(s)}_\infty\,ds\right)>0.
 \]
-Distinct labels therefore remain spatially distinct at the terminal time.
+Distinct labels remain spatially distinct at the terminal time.
 If a drawn core collapses to one point, it cannot still contain exactly the
 material core with which it began.
 
@@ -329,7 +329,7 @@ picture.  The finite coordinate \((r,m)=(0,3)\) gives
 \begin{equation}\label{eq:BodyUniformLipschitzBound}
   L_*:=\sup_{0\leq t\leq T_*}\norm{\nabla u(t)}_\infty<\infty.
 \end{equation}
-Relative velocity at any chosen centre \(x_c(t)\) therefore obeys
+Relative velocity at any chosen centre \(x_c(t)\) obeys
 \[
   |u(t,x)-u(t,x_c)|\leq L_*|x-x_c|.
 \]
@@ -510,10 +510,9 @@ Differentiating the spatial meaning of the same upper edge gives
   \hookrightarrow L^2(0,T;L^3),
 \]
 the gradient criterion of Beir\~ao da Veiga
-\parencite{BeiraoDaVeiga1995}.  The three historical criteria are therefore not
-three extra assumptions: velocity at the critical endpoint, scale-balanced
-velocity integrability, and the shear that stretches vorticity are three
-projections of \(\cR_{0,1}\).
+\parencite{BeiraoDaVeiga1995}.  Velocity at the critical endpoint,
+scale-balanced velocity integrability, and the shear that stretches vorticity
+are three projections of \(\cR_{0,1}\), rather than three extra assumptions.
 
 Higher finite coordinates repeat the same calculation without changing its
 logic.  For finite \(r,k\in\Nzero\), \(2\leq p\leq\infty\), and
