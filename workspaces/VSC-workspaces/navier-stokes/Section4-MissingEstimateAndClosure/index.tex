@@ -97,7 +97,7 @@ particular,
   \int_{\R^3}|u_0(x)|^2\,dx
   <\infty.
 \]
-The rapid decay of \(u_0\) pays the last finiteness.  This is the smooth global
+The rapid decay of \(u_0\) gives the last finiteness.  This is the smooth global
 history with uniformly bounded kinetic energy required in
 \eqref{eq:WholeSpaceRegularityTarget}.
 \end{proof}
@@ -154,7 +154,7 @@ The two adjacent rows now contain both factors in the derivative
   =\operatorname{Re}
   \pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2},
 \]
-and Cauchy--Schwarz pays its total variation:
+and Cauchy--Schwarz bounds its total variation:
 \begin{equation}\label{eq:CriticalHeightTotalVariationBound}
   \int_0^{T_*}|H'(t)|\,dt
   \leq
@@ -162,27 +162,6 @@ and Cauchy--Schwarz pays its total variation:
   \norm{\Lambda^{1/2}u_t}_{L^2_tL^2_x}
   <\infty.
 \end{equation}
-The same rectangle has \(E_{3/2}\in L^1(I_*)\).  Hence the completed critical row
-\[
-  \mathcal P_{1/2}=H'+2\nu E_{3/2}
-\]
-puts the signed production in \(L^1(I_*)\), and integration records exactly how
-much of it has accumulated:
-\begin{equation}\label{eq:BodySignedCriticalPrefix}
-  \int_0^t\mathcal P_{1/2}(s)\,ds
-  =H(t)-H(0)+2\nu\int_0^tE_{3/2}(s)\,ds.
-\end{equation}
-The two terms on the right are already finite, so
-\begin{equation}\label{eq:BodySignedCriticalPrefixBound}
-  A_*(T_*)
-  :=\sup_{0<t<T_*}\int_0^t\mathcal P_{1/2}(s)\,ds
-  <\infty.
-\end{equation}
-Thus the signed prefix is read off after the rectangle has been built; it is not
-an upstream estimate from which the rectangle was obtained.
-Sharp rises and falls remain possible, but their net signed accumulation cannot
-diverge before \(T_*\).
-
 For a vortex, the decisive entry in \(\cR_{0,2}\) is
 \(u\in L^2(I_*;H^3)\).  In three dimensions
 \(H^3\hookrightarrow W^{1,\infty}\), whence
