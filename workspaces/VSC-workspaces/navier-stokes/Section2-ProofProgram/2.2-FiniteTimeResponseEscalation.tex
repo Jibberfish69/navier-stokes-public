@@ -3,54 +3,51 @@
 % 2.2 Finite-Time Response Escalation
 % ============================================================
 
-\subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
+\subsection{What finite time implies after one response escapes}\label{sub:FiniteTimeResponseEscalation}
 
-The Zeno schedule becomes a dynamical problem only when one solution has to produce each stage from the stage before it.
-If infinitely many such changes occur before \(T_*\), the time available for the successive responses shrinks with the scale.
+The equation supplies the temporal rows; finite time supplies the implication
+between two adjacent rows.  If one response has no finite roof while the next is
+integrable, the fundamental theorem of calculus would nevertheless give the
+first a terminal limit.  The following argument records that contradiction.  It
+propagates escape through rows already known to exist and creates none of them.
 
-Along one flow line, define \(A_r=D_t^ru(X,t)\); then \(dA_r/dt=A_{r+1}\).
-If \(A_{r+1}\) were integrable up to \(T_*\), the fundamental theorem of calculus would give \(A_r\) a finite terminal value.
-Thus escape of \(A_r\) forces nonintegrability of \(A_{r+1}\) along that path, without requiring either quantity to be monotone or nonzero.
-
-The same dependence appears before choosing a particle, but its functional setting must stay fixed throughout the implication.
-Fix one Banach space \(B\), retain the Eulerian rows
+Use one fixed Banach space \(B\) throughout and write the Eulerian rows as
 \[
   V_n(t):=\partial_t^n u(\cdot,t),
 \]
-and suppose that \(V_n:[0,T_*)\to B\) is locally absolutely continuous, with Bochner derivative \(V_{n+1}\).
-For \(0\le s<t<T<T_*\), the Banach-valued fundamental theorem of calculus gives
+Assume \(V_n:[0,T_*)\to B\) is locally absolutely continuous and has Bochner
+derivative \(V_{n+1}\).  For \(0\le s<t<T<T_*\),
 \[
   V_n(t)-V_n(s)
   =
   \int_s^t V_{n+1}(\tau)\,d\tau
 \]
-and
+and therefore
 \[
   \lVert V_n(t)-V_n(s)\rVert_B
   \le
   \int_s^t \lVert V_{n+1}(\tau)\rVert_B\,d\tau.
 \]
-If
+Suppose
 \[
   \sup_{0<t<T_*}\lVert V_n(t)\rVert_B
   =
   \infty,
 \]
-then the finiteness of \(\lVert V_n(0)\rVert_B\) forces
+Since \(\lVert V_n(0)\rVert_B\) is finite, the integral on the right cannot
+remain finite; hence
 \[
   \int_0^{T_*}\lVert V_{n+1}(\tau)\rVert_B\,d\tau
   =
   \infty.
 \]
-Because \(T_*<\infty\), this in turn forces
+The interval itself is finite, so an \(L^1\) divergence forces
 \[
   \sup_{0<t<T_*}\lVert V_{n+1}(t)\rVert_B
   =
   \infty.
 \]
-This iteration is valid only while the same fixed space \(B\), absolute continuity, and the Bochner-derivative identity hold at every successive row.
-That is the precise Eulerian statement of finite-time response escalation.
-
-The material and Eulerian ladders are not identical.
-Already at first order, \eqref{eq:MaterialAccelerationEquationBody} adds the transport derivative, and every further material derivative produces nonlinear products of temporal and spatial derivatives.
-Those products and the pressure response become explicit when the Eulerian equation is differentiated in both time and space.
+Iteration is licensed only when every successive pair has this same fixed
+space, local absolute continuity, and Bochner-derivative identity.  Under those
+hypotheses, finite time turns escape of one temporal response into escape of the
+next.

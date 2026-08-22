@@ -5,17 +5,18 @@
 
 \subsection{The Pressure-Complete Mixed Jet}\label{sub:ThePressureCompleteMixedJet}
 
-At temporal order \(n\), the recurrences \eqref{eq:BodyTemporalVelocityRecurrence} and \eqref{eq:BodyTemporalPressureRecurrence} contain \(V_{n+1}\), \(\nu\Delta V_n\), every binomial split of the transport term, and the normalized pressure row \(Q_n\).
-To see the spatial derivatives already present in that equation, begin with one derivative of a transport factor.
-Differentiate one transport factor in the coordinate direction \(x_\ell\):
+At temporal order \(n\), the equation keeps four pieces together:
+\(V_{n+1}\), \(\nu\Delta V_n\), every temporal split of transport, and the
+normalized pressure row \(Q_n\).  A single spatial derivative already shows
+how this row widens:
 \[
   \partial_\ell\bigl((V_a\cdot\nabla)V_{n-a}\bigr)
   =
   ((\partial_\ell V_a)\cdot\nabla)V_{n-a}
   +(V_a\cdot\nabla)\partial_\ell V_{n-a}.
 \]
-At higher spatial order, every derivative divides between the two factors.
-For \(\alpha\in\Nzero^3\), write the corresponding velocity and pressure derivatives as
+At multi-index order \(\alpha\), every derivative must be distributed between
+the transporting and transported factors.  Denote the resulting coordinates by
 \[
   J_{n,\alpha}
   :=
@@ -25,13 +26,13 @@ For \(\alpha\in\Nzero^3\), write the corresponding velocity and pressure derivat
   :=
   \partial_t^n\partial_x^\alpha p,
 \]
-and for \(\beta\le\alpha\), set
+and use
 \[
   \binom{\alpha}{\beta}
   :=
   \prod_{k=1}^{3}\binom{\alpha_k}{\beta_k}.
 \]
-The simultaneous temporal and spatial product rules give
+The two Leibniz rules then give the complete transport split
 \[
   \partial_t^n\partial_x^\alpha\bigl((u\cdot\nabla)u\bigr)
   =
@@ -42,7 +43,7 @@ The simultaneous temporal and spatial product rules give
   (J_{a,\beta}\cdot\nabla)
   J_{n-a,\alpha-\beta}.
 \]
-Substitution into the equation exposes the full mixed recurrence:
+Substitution keeps that split beside viscosity and pressure:
 \begin{align*}
   J_{n+1,\alpha}
   &+
@@ -59,7 +60,7 @@ Substitution into the equation exposes the full mixed recurrence:
   \qquad
   \nabla\cdot J_{n,\alpha}=0.
 \end{align*}
-Its pressure coordinates satisfy
+Taking divergence supplies the corresponding pressure row:
 \[
   -\Delta\Pi_{n,\alpha}
   =
@@ -72,8 +73,11 @@ Its pressure coordinates satisfy
   (J_{n-a,\alpha-\beta})_j.
 \]
 
-Every \(J_{n,\alpha}\) and \(\Pi_{n,\alpha}\) above is a derivative of the original pressure-complete solution.
-A finite rectangle selects a finite range of \(n\) and \(\alpha\) from this one derivative family; it does not introduce a second solution.
+Every displayed coordinate is a derivative of the original pressure-complete
+pair.  A finite rectangle will retain only finitely many of them, but it never
+changes the underlying solution.
 
-The viscous term explains why moving upward in \(n\) also reaches farther into the spatial derivatives: \(J_{n+1,\alpha}\) is coupled to \(\Delta J_{n,\alpha}\).
-The critical-height calculation now isolates that spatial gain without discarding the nonlinear and pressure terms beside it.
+The viscous coupling links the next temporal row to two additional spatial
+derivatives of the present row.  The critical-height energy calculation isolates
+that ascent while preserving the transport and pressure terms that travel with
+it.

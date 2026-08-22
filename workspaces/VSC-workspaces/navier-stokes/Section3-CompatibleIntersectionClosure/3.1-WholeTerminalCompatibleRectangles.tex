@@ -4,11 +4,10 @@
 % ============================================================
 \subsection{The Terminal Quantifier}\label{sub:TheTerminalQuantifier}
 
-Keep the rapid-decay datum \(u_0\), the same viscosity \(\nu>0\), and the maximal classical velocity and pressure history \((u,p)\) that they generate.
-Let its maximal lifespan be \([0,T_*)\), suppose for contradiction that \(T_*<\infty\), and write \(I_*=(0,T_*)\).
-Every derivative introduced below is a coordinate of this one history.
-The datum is smooth and divergence-free, so it belongs to every finite solenoidal Sobolev space.
-Write
+Fix again the rapid-decay datum \(u_0\), the viscosity \(\nu>0\), and their
+single maximal normalized history \((u,p)\).  Suppose its maximal time is
+finite and write \(I_*=(0,T_*)\).  Every coordinate below is a derivative of
+this history.  The datum belongs to the smooth solenoidal class
 \begin{equation}\label{eq:SectionThreeSmoothSolenoidalClass}
   \Hinfty_\sigma(\R^3)
   :=
@@ -18,14 +17,15 @@ Write
   \right\}.
 \end{equation}
 
-Because the history decays at spatial infinity, the whole-space normalization fixes pressure from the same velocity field.
-If \(R_j=\partial_j(-\Delta)^{-1/2}\) denotes the \(j\)-th Riesz transform, then
+Spatial decay fixes pressure from the velocity without an additive constant.
+With \(R_j=\partial_j(-\Delta)^{-1/2}\),
 \begin{equation}\label{eq:SectionThreePressureNormalization}
   -\Delta p=\partial_i\partial_j(u_i u_j),
   \qquad
   p=R_iR_j(u_i u_j).
 \end{equation}
-For \(V_n=\partial_t^n u\) and \(Q_n=\partial_t^n p\), direct differentiation of the original equation gives
+Direct time differentiation, with \(V_n=\partial_t^nu\) and
+\(Q_n=\partial_t^np\), gives
 \begin{align}
   Q_n
   &=R_iR_j\sum_{a=0}^{n}\binom{n}{a}V_{a,i}V_{n-a,j},
@@ -36,11 +36,12 @@ For \(V_n=\partial_t^n u\) and \(Q_n=\partial_t^n p\), direct differentiation of
   -\nabla Q_n.
   \label{eq:SectionThreeVelocityRecurrence}
 \end{align}
-The binomial sum retains every way that the time derivatives divide across the transported and transporting velocity factors.
-At every temporal depth, transport, pressure, viscosity, and incompressibility remain joined inside the same evolution.
+Every division of the time derivatives between the two transport factors remains
+in the binomial sum.  Thus each temporal row still contains the full transport,
+pressure, viscosity, and divergence-free evolution.
 
-To inspect a finite part of the tower, choose independent temporal and spatial depths \(N\) and \(M\).
-For finite \(N,M\in\Nzero\) and \(0<T<T_*\), define the adjacent-row rectangle norm
+Choose finite temporal depth \(N\), spatial height \(M\), and a strict cutoff
+\(T<T_*\).  The adjacent-row norm is
 \begin{equation}\label{eq:SectionThreeRectangleNorm}
 \begin{aligned}
   \mathfrak R_{N,M}(u;T)
@@ -53,23 +54,25 @@ For finite \(N,M\in\Nzero\) and \(0<T<T_*\), define the adjacent-row rectangle n
   \norm{\partial_t^{n+1}u}_{L^2(0,T;H^{M-1})}^{2}.
 \end{aligned}
 \end{equation}
-Negative Sobolev indices are understood in the inhomogeneous Bessel-potential scale.
-The finite record \(\cR_{N,M}[u_0;T]\) consists of these velocity rows together with the pressure rows and differentiated equations that identify them as derivatives of the same history.
-Classical smoothness already gives every such record after a strict terminal time \(T<T_*\) has been fixed.
+When \(M=0\), interpret the lower row in the inhomogeneous Bessel-potential
+space \(H^{-1}\).  The record \(\cR_{N,M}[u_0;T]\) retains these velocity norms,
+their normalized pressure rows, and the equations that identify all entries as
+coordinates of \((u,p)\).  Smoothness pays every finite record once \(T<T_*\)
+has been fixed.
 
 \begin{lemma}[Rectangles on strict classical subintervals]\label{lem:StrictSubintervalRectangles}
-For every \(T<T_*\) and every finite \(N,M\), one has
+For each strict cutoff \(T<T_*\) and each finite pair \(N,M\),
 \begin{equation}\label{eq:AppendixStrictSubintervalRectangleBound}
   \mathfrak R_{N,M}(u;T)<\infty.
 \end{equation}
-If \(N'\leq N\), \(M'\leq M\), and \(T'\leq T\), restriction of the larger rectangle gives the smaller rectangle.
+If \(N'\leq N\), \(M'\leq M\), and \(T'\leq T\), forgetting the excess
+coordinates and restricting time produces the smaller record.
 \end{lemma}
 
 \begin{proof}
-The closed interval \([0,T]\) lies inside the classical lifespan.
-Smooth-data persistence gives \(\partial_t^n u\in C([0,T];H^q(\R^3))\) for every finite temporal order \(n\) and every finite Sobolev order \(q\).
-Compactness of \([0,T]\) makes each of these norms bounded.
-In particular,
+The closed interval \([0,T]\) stays strictly inside the classical lifespan.
+Persistence puts every fixed \(\partial_t^nu\) continuously in every fixed
+\(H^q\) there, and compactness bounds that coordinate.  Hence
 \[
   \norm{\partial_t^n u}_{L^2(0,T;H^q)}^2
   \leq
@@ -77,37 +80,40 @@ In particular,
   \norm{\partial_t^n u(t)}_{H^q}^{2}
   <\infty.
 \]
-Choosing the spatial orders in \eqref{eq:SectionThreeRectangleNorm} proves \eqref{eq:AppendixStrictSubintervalRectangleBound}.
-Restriction preserves the solution and every one of its derivatives, so every shared coordinate agrees.
+Apply this inequality to the finitely many orders in
+\eqref{eq:SectionThreeRectangleNorm}.  Restriction changes neither the solution
+nor its derivatives, which also proves compatibility.
 \end{proof}
 
-The gap between a strict cutoff and the whole terminal interval is already visible in one scalar function.
-If \(f(t)=(T_*-t)^{-1/2}\), then
+Strict-cutoff finiteness is not terminal control.  The scalar function
+\(f(t)=(T_*-t)^{-1/2}\) already separates the two quantifiers:
 \[
   f\in L^2(0,T)\quad\text{for every }T<T_*,
   \qquad
   f\notin L^2(I_*).
 \]
-This function models only the quantifier and is not a Navier--Stokes history.
-It shows why smoothness on every strict subinterval cannot supply a whole-terminal bound.
+This is not a fluid model; it only shows that every strict interval may be
+finite while the terminal integral diverges.
 
-The strict-subinterval lemma stops at \(T<T_*\), and its bound may grow as \(T\uparrow T_*\).
-The whole-terminal estimate in Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem}
-supplies a bound independent of the cutoff after \(N\) and \(M\) have been fixed.
-To state the agreement between different finite depths, define, for \(N'\leq N\) and \(M'\leq M\), the terminal bonding map
+The preceding lemma permits exactly that growth.  The producer theorem
+\ref{thm:BodyWholeTerminalRectangleTheorem} supplies the missing fact: after a
+finite \((N,M)\) is chosen, its bound is independent of the cutoff.  For
+\(N'\leq N\) and \(M'\leq M\), define the terminal bonding map
 \[
   \rho_{N',M';I_*}^{N,M;I_*}:
   \mathscr X_{N,M}(I_*)
   \longrightarrow
   \mathscr X_{N',M'}(I_*)
 \]
-by forgetting the higher rows, applying the Sobolev embeddings to every retained velocity and pressure row, and recomputing the scalar adjacent-row norm on \(I_*\).
-Forgetting in two stages gives the same result as forgetting directly, and leaving the depths unchanged gives the identity map.
+by dropping the higher rows, embedding the retained velocity and pressure
+coordinates into the lower spaces, and recomputing the adjacent-row norm on
+\(I_*\).  Direct restriction and restriction in stages agree, while an unchanged
+pair gives the identity.
 
 \Needspace{22\baselineskip}
 \begin{proposition}[Terminal realization of the rectangle estimate]\label[proposition]{thm:WholeTerminalCompatibleRectangleEstimate}
-Assume the whole-terminal estimate in Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem}.
-For every finite \(N,M\in\Nzero\), the same datum-generated pressure-complete history satisfies
+Assume Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem}.  For every finite
+\(N,M\), the datum-generated pressure-complete history satisfies
 \begin{equation}\label{eq:WholeTerminalRectangleBound}
 \begin{aligned}
   \mathfrak R_{N,M}(u;I_*)
@@ -121,32 +127,47 @@ For every finite \(N,M\in\Nzero\), the same datum-generated pressure-complete hi
   <\infty.
 \end{aligned}
 \end{equation}
-This finite norm supplies the whole-terminal record
+The same coordinates therefore define a record on all of \(I_*\):
 \[
   \cR_{N,M}[u_0]
   \in
   \mathscr X_{N,M}(I_*),
 \]
-obtained from the same velocity and normalized pressure rows on \(I_*\).
-If \(N'\leq N\) and \(M'\leq M\), the terminal restriction map forgets the higher temporal coordinates, applies the continuous Sobolev embeddings, and satisfies
+For every lower pair \((N',M')\), its terminal restriction satisfies
 \begin{equation}\label{eq:WholeTerminalRectangleCompatibility}
   \rho_{N',M';I_*}^{N,M;I_*}
   \bigl(\cR_{N,M}[u_0]\bigr)
   =\cR_{N',M'}[u_0].
 \end{equation}
-Every shared coordinate is the corresponding distributional derivative of the same \(u\), and every pressure row uses the normalization in \eqref{eq:SectionThreePressureNormalization}.
+All shared entries are the same distributional derivatives of \(u\), and all
+pressure entries retain the normalization
+\eqref{eq:SectionThreePressureNormalization}.
 \end{proposition}
 
 \begin{proof}
-Fix \(N,M\).
-For every \(0\leq n\leq N\), Theorem~\ref{thm:BodyWholeTerminalRectangleTheorem} and monotone convergence give
+Fix the pair \((N,M)\) and, for \(0\leq n\leq N\), set
+\[
+  f_n^+(t):=\norm{V_n(t)}_{H^{M+1}}^2,
+  \qquad
+  f_n^-(t):=\norm{V_{n+1}(t)}_{H^{M-1}}^2.
+\]
+The functions are nonnegative and \((0,T)\) increases to \(I_*\).  Monotone
+convergence gives, for either sign,
+\[
+  \int_{I_*}f_n^\sigma(t)\,dt
+  =
+  \lim_{T\uparrow T_*}\int_0^T f_n^\sigma(t)\,dt.
+\]
+Each strict integral is one nonnegative term in the producer bound.  Its limit
+is therefore finite, and
 \[
   V_n\in L^2(I_*;H^{M+1}),
   \qquad
   V_{n+1}\in L^2(I_*;H^{M-1}).
 \]
-Adding these finitely many squared norms gives the velocity part of \eqref{eq:WholeTerminalRectangleBound}.
-Riesz-transform boundedness, the Sobolev product estimate, and Cauchy--Schwarz in time give, for \(0\leq n\leq N\),
+Summing the finitely many limits gives
+\eqref{eq:WholeTerminalRectangleBound}.  The Riesz formula, Sobolev
+multiplication, and Cauchy--Schwarz in time also give
 \[
   \norm{Q_n}_{L^1(I_*;H^M)}
   \leq
@@ -155,32 +176,38 @@ Riesz-transform boundedness, the Sobolev product estimate, and Cauchy--Schwarz i
   \norm{V_{n-a}}_{L^2(I_*;H^{M+1})}
   <\infty.
 \]
-This completes the pressure component of the record.
-Forgetting higher temporal rows or lowering the spatial index leaves every shared distributional derivative and normalized pressure row unchanged, which gives \eqref{eq:WholeTerminalRectangleCompatibility}.
+Thus the pressure rows belong to the terminal record.  Dropping higher rows or
+lowering the spatial height changes no shared derivative or normalized
+pressure, proving \eqref{eq:WholeTerminalRectangleCompatibility}.
 \end{proof}
 
-Take the rectangle \((N,M)=(2,3)\).
-Its velocity coordinates are \(V_0,V_1,V_2\) in \(L^2(I_*;H^4)\) and \(V_1,V_2,V_3\) in \(L^2(I_*;H^2)\), together with the pressure rows \(Q_0,Q_1,Q_2\) in \(L^1(I_*;H^3)\).
-Restricting this rectangle to \((1,2)\) drops \(V_3\) and \(Q_2\), views \(V_0,V_1\) in \(L^2(I_*;H^3)\) and \(V_1,V_2\) in \(L^2(I_*;H^1)\), and views \(Q_0,Q_1\) in \(L^1(I_*;H^2)\).
-Every retained coordinate is the same distributional derivative, now read in a weaker Sobolev space.
-This is compatibility; the scalar example above concerns the separate question of whether any one coordinate stays finite on the whole terminal interval.
+For example, \((N,M)=(2,3)\) retains \(V_0,V_1,V_2\) in
+\(L^2(I_*;H^4)\), \(V_1,V_2,V_3\) in \(L^2(I_*;H^2)\), and
+\(Q_0,Q_1,Q_2\) in \(L^1(I_*;H^3)\).  Restriction to \((1,2)\) drops
+\(V_3,Q_2\) and reads the remaining coordinates in the corresponding lower
+spaces.  Nothing is recomputed: each retained distribution is the same one.
+Compatibility concerns this identity; terminal boundedness was the separate
+quantifier paid by the producer theorem.
 
-The finite-rectangle form also recovers the adjacent rows coordinate by coordinate.
+Each finite coordinate can now be read through its adjacent pair.
 \begin{proposition}[Adjacent-row recovery]\label{prop:AdjacentRowRecovery}
-The whole-terminal estimate gives, for every finite \(n,m\in\Nzero\),
+For every finite \(n,m\), the producer estimate gives
 \begin{equation}\label{eq:WholeTerminalAdjacentRows}
   V_n\in L^2(I_*;H^{m+1}),
   \qquad
   \partial_tV_n=V_{n+1}\in L^2(I_*;H^{m-1}).
 \end{equation}
-Each finite pair has its own constant.
+The bound may depend on the chosen pair.
 \end{proposition}
 
 \begin{proof}
-Fix \(n\) and \(m\), and choose the rectangle with \(N=n\) and \(M=m\).
-The two terms indexed by \(n\) in the whole-terminal sum \eqref{eq:WholeTerminalRectangleBound} are finite, which gives the memberships in \eqref{eq:WholeTerminalAdjacentRows}.
-Every row in \eqref{eq:WholeTerminalAdjacentRows} is an actual derivative of \(u\), and \eqref{eq:WholeTerminalRectangleCompatibility} preserves that identity under restriction.
+Choose \((N,M)=(n,m)\).  The two terms indexed by \(n\) in
+\eqref{eq:WholeTerminalRectangleBound} are precisely the displayed adjacent
+rows.  They are actual derivatives of \(u\), and restriction preserves that
+identity.
 \end{proof}
 
-The strict and whole-terminal rectangles use the same distributional derivatives of \((u,p)\).
-Equation \eqref{eq:WholeTerminalRectangleCompatibility} makes the full family compatible under every decrease of \(N\) or \(M\).
+The strict and terminal records have always referred to the same derivatives of
+\((u,p)\).  What has changed is the interval on which their norms are finite;
+\eqref{eq:WholeTerminalRectangleCompatibility} now makes the terminal family
+compatible under every decrease of either cutoff.
