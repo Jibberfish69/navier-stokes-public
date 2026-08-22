@@ -253,24 +253,25 @@ terminal trace puts \(u\) in \(C([0,T_*];H^m)\) at every finite height.  Choose
 \(p=R_iR_j(u_i u_j)\) gives the common ceiling
 \begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
   K_*
-  :=\sup_{0\leq t\leq T}
+  :=\sup_{0\leq t\leq T_*}
   \left(
     \norm{u(t)}_{L^\infty}
     +\norm{p(t)}_{L^\infty}
   \right)
   <\infty.
 \end{equation}
-Now place a backward parabolic cylinder at any point of the terminal face:
+Now choose (z_*=(x_*,T_*)) on the terminal face and place a backward
+parabolic cylinder there:
 \[
-  Q_\rho(z_0)
-  =B_\rho(x_0)\times(t_0-\rho^2,t_0)
+  Q_\rho(z_*)
+  =B_\rho(x_*)\times(T_*-\rho^2,T_*)
   \subset\R^3\times(0,T_*].
 \]
 Its spatial volume and time length contribute \(\rho^5\).  Dividing by the
 critical factor \(\rho^2\) still leaves three powers of the radius:
 \begin{equation}\label{eq:VanishingLocalScaleInvariantContent}
   \rho^{-2}
-  \iint_{Q_\rho(z_0)}
+  \iint_{Q_\rho(z_*)}
   \left(|u|^3+|p|^{3/2}\right)\,dx\,dt
   \leq
   C\rho^3\left(K_*^3+K_*^{3/2}\right)
