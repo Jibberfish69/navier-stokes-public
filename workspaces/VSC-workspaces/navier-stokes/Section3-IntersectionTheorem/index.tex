@@ -2,12 +2,21 @@
 \clearpage
 \section{The Intersection Inside the Tower}\label{sec:TheIntersectionInsideTheTower}
 
-Section~\ref{sec:CriticalHeightAndDerivativeTower} did not discover one
-privileged Sobolev estimate.  It discovered two directions inside the equation.
-Temporal order moves through the responses \(V_0,V_1,V_2,\ldots\); spatial
-order moves through the Sobolev column carried by each response.  We now make
-that relation exact, identify the finite pieces that possess time traces, and
-assemble those pieces without changing their shared coordinates.
+The Tower was built because a finite-time singularity would have to force the
+same velocity through faster and faster responses.  But the equation that
+generates the next response also contains \(\nu\Delta V_n\).  Before the Tower
+can be read as a march toward roughness, we have to ask what that Laplacian has
+been doing to its spatial side.
+
+Put the two directions beside each other.  Time runs down through
+\(V_0,V_1,V_2,\ldots\); space runs across the Sobolev heights carried by each
+response.  If the two directions were cooperating in a singularity, climbing
+in time should cost spatial regularity.  The viscous row exposes the opposite
+relation.  Each new temporal response opens a higher spatial energy.  We make
+that reversal exact, lay the resulting coordinates into one table, and then
+ask which finite pieces can reach a common time slice.  Those pieces are the
+rectangles, and their compatible intersection is where the table becomes
+smoothness.
 
 \input{Section3-IntersectionTheorem/3.1-TheViscosityDrivenSpatialAscent.tex}
 \input{Section3-IntersectionTheorem/3.2-SobolevRegularityInsideEveryRow.tex}
