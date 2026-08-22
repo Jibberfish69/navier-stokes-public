@@ -2,22 +2,28 @@
 \subsection{Velocity, acceleration, jerk, and the Tower}\label{sub:BodyFiniteTimeResponseEscalation}
 
 The Zeno picture compresses space and time together.  A smaller width is not
-reached by naming a later scale; the velocity has to change enough to produce
-it during the shorter interval available.  For any spatial norm \(X\) in
-which the response is classical,
+reached by naming a later scale; the velocity has to move through the change
+during the shorter interval available.  Let \(X\) be a spatial Banach space in
+which the classical responses are defined on every strict subinterval.  For
+each \(n\geq0\),
 \begin{equation}\label{eq:BodyResponseIncrement}
-  \norm{u(t_1)-u(t_0)}_X
+  \norm{\partial_t^nu(t_1)-\partial_t^nu(t_0)}_X
   \leq
-  \int_{t_0}^{t_1}\norm{\partial_tu(s)}_X\,ds.
+  \int_{t_0}^{t_1}\norm{\partial_t^{n+1}u(s)}_X\,ds.
 \end{equation}
-An unbounded sequence of velocity changes inside a finite accumulated time
-cannot be produced by finite accumulated acceleration.  This is not a claim
-that acceleration has one sign.  It is the causal statement that the change
-in velocity has to be carried by its time derivative.
-
-Apply the same statement to acceleration.  If acceleration is itself forced
-through unbounded changes, then its time derivative---jerk---must carry those
-changes.  The question repeats:
+If \(\partial_t^{n+1}u\) stayed uniformly bounded before a finite \(T_*\),
+this inequality would keep \(\partial_t^nu\) uniformly bounded as well.
+Reading that implication upward, any escape of \(u\) in \(X\) forces every
+finite temporal response to lose uniform control in the same space:
+\begin{equation}\label{eq:BodyConditionalTemporalEscape}
+  \sup_{0<t<T_*}\norm{u(t)}_X=\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{\partial_t^nu(t)}_X=\infty
+  \quad\text{for every finite }n.
+\end{equation}
+This is a necessary consequence of a proposed escape, not a proof that the
+escape occurs.  It tells us why the temporal responses have to be examined
+together:
 \[
   u,
   \qquad
