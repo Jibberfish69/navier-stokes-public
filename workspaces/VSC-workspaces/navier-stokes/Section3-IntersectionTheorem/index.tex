@@ -1,9 +1,15 @@
 % !TeX root = ../navier-stokes-manuscript.tex
 \clearpage
-\section{From Finite Traces to One Terminal History}\label{sec:TheIntersectionInsideTheTower}
+\section{The Intersection Inside the Tower}\label{sec:TheIntersectionInsideTheTower}
 
-The terminal problem is to carry one finite rectangle to the boundary without
-changing any coordinate it shares with a larger one.
+Section~\ref{sec:CriticalHeightAndDerivativeTower} did not discover one
+privileged Sobolev estimate.  It discovered two directions inside the equation.
+Temporal order moves through the responses \(V_0,V_1,V_2,\ldots\); spatial
+order moves through the Sobolev column carried by each response.  We now make
+that relation exact, identify the finite pieces that possess time traces, and
+assemble those pieces without changing their shared coordinates.
 
+\input{Section3-IntersectionTheorem/3.1-TheViscosityDrivenSpatialAscent.tex}
+\input{Section3-IntersectionTheorem/3.2-SobolevRegularityInsideEveryRow.tex}
 \input{Section3-IntersectionTheorem/3.3-FiniteAdjacentRectangles.tex}
 \input{Section3-IntersectionTheorem/3.4-TheIntersectionTheorem.tex}
