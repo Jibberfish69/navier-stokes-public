@@ -31,7 +31,11 @@ Beginning at \(s=\tfrac12\) and repeating the same induction gives the completed
 \end{equation}
 There is a spatial ladder inside \(u\), another inside \(u_t\), another
 inside \(u_{tt}\), and one inside every finite response.  Moving down changes
-the temporal response.  Moving across changes the spatial height.
+the temporal response.  Moving across changes the spatial height.  On a fixed
+strict interval \(I=(0,T)\), \(T<T_*\), classical smoothness makes every
+finite entry in this grid finite.  The identities above explain how the
+entries are coupled; they do not give one bound that survives as
+\(T\uparrow T_*\).
 
 The point of the grid is not to add its rows into an infinite norm.  Take one
 finite request: \(q\) time derivatives and \(k\) spatial derivatives.  Choose
@@ -48,20 +52,20 @@ embedding \parencite[Theorem~7.28]{Cerda2010} reads
   \hookrightarrow
   C^q\bigl(\overline I;C^k(\R^3)\bigr).
 \]
-Every finite request has a finite coordinate above its thresholds.  Collecting
-all of them on the fluid gives
+Every finite request can be met by choosing finite indices above its two
+thresholds.  On the fixed strict interval this gives
 \begin{equation}\label{eq:BodyFormalMixedIntersection}
   \mathscr V_\infty(I)
   :=\bigcap_{r=0}^{\infty}\bigcap_{m=0}^{\infty}
   H^r\bigl(I;H^m(\R^3)\bigr)
   \hookrightarrow C^\infty(\overline I\times\R^3).
 \end{equation}
-The constants may depend on the selected \((r,m)\).  Smoothness asks that
-every finite coordinate exist; it does not ask for one constant uniform over
-the entire grid.
+The constants may depend on the selected \((r,m)\).  Smoothness asks for each
+finite derivative in turn; it does not ask for one constant uniform over the
+entire grid.
 
 The remaining issue is time.  A dot in the grid can be finite on every strict
 subinterval and still diverge as the endpoint is approached.  To carry a
-spatial coordinate to one time slice, we have to place it beside the temporal
+spatial derivative to one time slice, we have to place it beside the temporal
 response directly below it.  Those adjacent pairs determine the finite
 rectangles.
