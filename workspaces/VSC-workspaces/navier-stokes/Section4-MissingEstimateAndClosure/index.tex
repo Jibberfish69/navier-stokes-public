@@ -501,19 +501,17 @@ by \((-2\nu)^n\), isolates \(E_{n+1/2}^{\mathrm{NS}}\) in
 \eqref{eq:BodyCompletedCriticalRow}.  The Euler row still mixes time and space
 nonlinearly, but no signed coercive term singles out the next spatial height.
 
-If an Euler history were independently known to lie in the analogous
-all-orders intersection, then every fixed Sobolev norm would be controlled and
-in particular it would satisfy the Beale--Kato--Majda condition
+An Euler history independently placed in the analogous intersection would
+satisfy every fixed Sobolev bound and hence the Beale--Kato--Majda condition
 \(\int_0^T\|\omega^{\mathrm E}(t)\|_\infty\,dt<\infty\)
-\parencite{BealeKatoMajda1984}.  The present theorem supplies no such Euler
-intersection, and none of its constants is asserted to remain bounded as
-\(\nu\downarrow0\).
+\parencite{BealeKatoMajda1984}.  Nothing here supplies that intersection or
+controls its constants as \(\nu\downarrow0\).
 
-That is where the argument ends.  Euler keeps the jet, transport, pressure, and
-their nonlinear coupling; it loses the viscous rung that converts temporal
-response into a separately controllable spatial ascent.  At every fixed
-\(\nu>0\), that ascent exposes the finite rectangles.  What is still absent is
-the datum-to-terminal calculation that prevents a chosen rectangle from growing
-as the last time is approached.  Conditional on that calculation, the resulting
-Navier--Stokes history has every finite mixed coordinate on each finite interval
-while its kinetic energy remains uniformly bounded for all time.
+Euler keeps the jet, transport, pressure, and their nonlinear coupling, but it
+loses the viscous rung that turns temporal response into spatial ascent.  For
+fixed \(\nu>0\), the Navier--Stokes ascent exposes finite rectangles; the still
+missing datum-to-terminal calculation is what would keep each one finite at a
+last time.  Conditional on that calculation, the mixed intersection and the
+kinetic-energy identity proved in
+\Cref{prop:ClassicalKineticEnergyIdentity} give the global history described
+above.
