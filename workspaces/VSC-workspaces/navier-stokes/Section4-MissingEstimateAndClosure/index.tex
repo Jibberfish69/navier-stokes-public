@@ -364,7 +364,7 @@ For every \(s>1/2\), the tail satisfies
   \frac12K^{1-2s}\norm{u(t)}_{\dot H^s}^2.
 \end{equation}
 Choose one integer \(m\geq s\).  The compatible assembly and adjacent trace
-proved in \Cref{prop:CompatibleProjectiveAssembly,lem:AdjacentHilbertScaleTrace},
+proved in \Cref{prop:BodyCompatibleProjectiveAssembly,lem:AdjacentHilbertScaleTrace},
 followed by \(H^m\hookrightarrow\dot H^s\), make the estimate uniform in time
 and force
 \begin{equation}\label{eq:BodyUniformUltravioletVanishing}
@@ -377,15 +377,61 @@ The two readings fail for different reasons: fixed labels cannot collapse and
 their centred circulation vanishes; changing labels cannot sustain the required
 ultraviolet critical tail.
 
+\subsection{The singularity conditions fail at both scales}\label{sub:TheLocalSingularityPictureCloses}
+
+The first rectangle already reaches the global signature of a singular time.
+The endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a finite
+maximal time forces the critical \(L^3\) norm to escape, as recorded in
+\eqref{eq:FiniteTimeLThreeEscape}.  The same velocity has the opposite bound in
+\eqref{eq:EndpointCriterionFromLowRectangle}.  A finite terminal time cannot
+satisfy both statements.
+
+The local signature disappears from the same intersection.  Fix a finite
+\(T>0\).  The mixed velocity bounds and the normalized pressure recurrence give
+two finite coordinates with the common ceiling
+\begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
+  K_T
+  :=\sup_{0\leq t\leq T}
+  \left(
+    \norm{u(t)}_{L^\infty}
+    +\norm{p(t)}_{L^\infty}
+  \right)
+  <\infty.
+\end{equation}
+Now place a parabolic cylinder around any point of the history:
+\[
+  Q_\rho(z_0)
+  =B_\rho(x_0)\times(t_0-\rho^2,t_0)
+  \subset\R^3\times(0,T].
+\]
+Its spatial volume and time length contribute \(\rho^5\).  Dividing by the
+critical factor \(\rho^2\) still leaves three powers of the radius:
+\begin{equation}\label{eq:VanishingLocalScaleInvariantContent}
+  \rho^{-2}
+  \iint_{Q_\rho(z_0)}
+  \left(|u|^3+|p|^{3/2}\right)\,dx\,dt
+  \leq
+  C\rho^3\left(K_T^3+K_T^{3/2}\right)
+  \longrightarrow0
+  \qquad(\rho\downarrow0).
+\end{equation}
+A Caffarelli--Kohn--Nirenberg singular point would require a positive
+scale-invariant amount of velocity-pressure content to survive along shrinking
+cylinders \parencite{CaffarelliKohnNirenberg1982}.  Here that content vanishes.
+
+This is the return promised by the vortex picture.  The alleged endpoint has
+become a smooth time slice.  The critical height has a finite roof, so the Zeno
+ladder has only finitely many levels.  The stretching action is integrable, a
+material core cannot collapse its labels, and the local velocity-pressure
+content loses the mass a singular point would need at every smaller scale.
+
 \clearpage
 \section{Further Consequences and the Euler Boundary}\label{sec:FurtherConsequencesAndEulerBoundary}
 
-The endpoint contradiction used only the first adjacent pair.  The next few
-coordinates reveal what that closure means inside the same global fluid: its
-vorticity cannot accumulate a nonsummable finite-time scale cascade, the
-classical continuation criteria become projections of one rectangle, and the
-local singularity content disappears.  The final comparison removes viscosity
-and shows which step then fails.
+The four-part argument is complete once the intersection has returned to the
+critical height, the Zeno ladder, and the singularity conditions.  Two further
+projections remain useful.  One adds the vorticity across all dyadic scales;
+the other removes viscosity and shows which rung of the Tower then disappears.
 
 \subsection{A finite sum across infinitely many scales}\label{sub:AFiniteSumAcrossScales}
 
@@ -476,55 +522,6 @@ logic.  For finite \(r,k\in\Nzero\), \(2\leq p\leq\infty\), and
 \[
   \nabla^k\partial_t^ru\in L^q(0,T;L^p(\R^3)).
 \]
-
-\subsection{The local singularity picture closes as well}\label{sub:TheLocalSingularityPictureCloses}
-
-The classical obstruction also had a local face.  A singular point would force
-the critical \(L^3\) norm to escape globally while retaining a definite
-scale-invariant amount of velocity and pressure in arbitrarily small parabolic
-cylinders.  The rectangle bounds make both requirements fail on the same
-history.
-
-Fix a finite \(T>0\).  The assembly and normalized endpoint-jet estimates in
-\Cref{prop:CompatibleProjectiveAssembly,prop:PressureCompleteEndpointJet} give
-two finite mixed coordinates with the common bound
-\begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
-  K_T
-  :=\sup_{0\leq t\leq T}
-  \left(
-    \norm{u(t)}_{L^\infty}
-    +\norm{p(t)}_{L^\infty}
-  \right)
-  <\infty.
-\end{equation}
-Inside any parabolic cylinder
-\[
-  Q_\rho(z_0)
-  =B_\rho(x_0)\times(t_0-\rho^2,t_0)
-  \subset\R^3\times(0,T],
-\]
-the volume and time length contribute \(\rho^5\).  After the scale-invariant
-normalization by \(\rho^{-2}\), the bounded fields therefore give
-\begin{equation}\label{eq:VanishingLocalScaleInvariantContent}
-  \rho^{-2}
-  \iint_{Q_\rho(z_0)}
-  \left(|u|^3+|p|^{3/2}\right)\,dx\,dt
-  \leq
-  C\rho^3\left(K_T^3+K_T^{3/2}\right)
-  \longrightarrow0
-  \qquad(\rho\downarrow0).
-\end{equation}
-The normalized content tends to zero, whereas a Caffarelli--Kohn--Nirenberg
-singular point would require a positive amount to persist.  Simultaneously,
-\eqref{eq:EndpointCriterionFromLowRectangle} blocks the critical \(L^3\)
-escape.  For compactly supported data, the same bound also excludes the
-terminal divergence and quantitative lower-rate alternatives in Seregin's and
-Tao's results \parencite{Seregin2012,Tao2021Quantitative}.
-
-Nothing was added to the solution after the global theorem.  These are finite
-views of the rectangles that already closed the endpoint.  The conclusion is
-correspondingly finite-coordinate: it makes no uniform-in-time assertion about
-all higher Sobolev norms, no analytic-radius claim, and no all-orders estimate.
 
 \Needspace{8\baselineskip}
 \subsection{Why the Euler Tower is different}\label{sub:WhyTheEulerTowerIsDifferent}
