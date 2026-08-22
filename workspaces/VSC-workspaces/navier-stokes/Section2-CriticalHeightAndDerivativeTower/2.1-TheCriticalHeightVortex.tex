@@ -1,150 +1,391 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{The balance at critical height}\label{sub:ThePerfectlyStretchingVortex}
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
 
-The first hope is that viscosity wins.
-It keeps smoothing the velocity, so if that smoothing ever pulls ahead of the nonlinear motion, the sharpening has nowhere left to go.
-But going to a smaller scale can strengthen both sides at once.
-Viscosity can keep working harder without ever pulling ahead.
+\subsection{A narrowing vortex against viscosity}\label{sub:ThePerfectlyStretchingVortex}
 
-In three dimensions, vortex stretching is the motion that can keep the nonlinear side of that balance alive.
-Take a material tube through a region where the vorticity is concentrated.
-The tube follows fluid particles; because viscosity diffuses vorticity across particle labels, it should not be identified with a material vortex core for later times.
-Incompressibility preserves the volume of that material tube, so a segment that lengthens must lose average transverse cross-sectional area.
-The velocity then turns across a thinner region and its transverse gradients can become steeper.
-Viscosity sees those steeper gradients immediately.
-At the same time, positive extensional strain aligned with the vorticity amplifies the vorticity carried through the region.
-
-None of this says that the alignment will survive, that the strain will keep its sign, or that one contraction will reproduce another.
-Those are dynamical questions.
-It identifies the dangerous case: enough aligned extension persists for the vortex to sharpen while viscosity is already acting on the same shrinking structure.
-
-Fix any compact interval on which the solution remains classical.
-Every curl, differentiation, and integration by parts below is made on that interval.
-
-Let
+Follow one rotating structure inside the maximal velocity field \(u\).  Its
+motion is still governed by the complete momentum equation
+\[
+  \partial_t u+(u\cdot\nabla)u=-\nabla p+\nu\Delta u.
+\]
+Transport carries the rotating fluid through its own spatial variation.  To see
+whether that motion sharpens rather than merely relocates the structure, read
+rotation and strain together.  Define
 \[
   \omega:=\nabla\times u,
   \qquad
   S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
 \]
-Taking the curl of Navier--Stokes gives
-\begin{equation}\label{eq:VorticityEquation}
+The vector \(\omega\) records local rotation, while \(S\) records how the surrounding velocity extends and contracts it.
+When \(\omega\) aligns with an extensional direction of \(S\),
+\[
+  \omega\cdot S\omega>0,
+\]
+and the same strain amplifies the rotation.
+
+That axial extension cannot occur alone.  Incompressibility requires
+\[
+  \operatorname{tr}S=\nabla\cdot u=0,
+\]
+so extension in one direction is paid for by contraction across the transverse section.
+If the structure has width \(\ell\) and carries a velocity change \(\Delta U\) across it, then
+\[
+  |\nabla u|\sim\frac{\Delta U}{\ell}.
+\]
+The gradient grows only if \(\Delta U\) survives the loss of width.
+This is the first place where the same object matters: a narrowing sketch is harmless unless the actual velocity field keeps a nontrivial change across it.
+
+Kinetic energy does not prevent that possibility.
+It measures
+\[
+  \int_{\R^3}|u(x,t)|^2\,dx,
+\]
+whereas the gradient compares the velocity change with the distance over which it occurs.
+A structure can occupy less and less volume, carrying finite or even vanishing energy, while the ratio \(\Delta U/\ell\) diverges.
+
+The equation must now decide whether the rotating structure can sustain this narrowing.
+Taking the curl removes the pressure gradient because
+\[
+  \nabla\times\nabla p
+  =0,
+\]
+and gives
+\[
   \partial_t\omega+(u\cdot\nabla)\omega
+  =
+  (\omega\cdot\nabla)u+\nu\Delta\omega
   =S\omega+\nu\Delta\omega.
-\end{equation}
-The left side is the material rate of change of vorticity.
-Taking the scalar product with \(\omega\) gives the pointwise balance
+\]
+The two terms on the right act simultaneously on the same vorticity: \(S\omega\) amplifies it through strain, while \(\nu\Delta\omega\) diffuses its spatial variation.
+Their pointwise competition appears after pairing with \(\omega\):
 \[
   \frac12(\partial_t+u\cdot\nabla)|\omega|^2
-  =\omega\cdot S\omega
-  +\nu\,\omega\cdot\Delta\omega.
+  =
+  \omega\cdot S\omega
+  +
+  \nu\,\omega\cdot\Delta\omega.
 \]
-When \(\omega\) is aligned with a positive extensional direction of \(S\), the term \(S\omega\) is the part that amplifies it.
-The viscous term responds to the spatial variation of that vorticity.
-Alignment can be lost, the extensional strain can weaken, and diffusion can erase the concentrated core.
-The unresolved possibility is that the positive extension survives long enough for the core to sharpen again.
-Before asking whether the evolution can realize that motion, we can ask the narrower question that scaling answers exactly: does smaller scale by itself give viscosity any advantage over stretching?
-
-This comparison cannot be made by squeezing the width and holding everything else fixed.
-The full Navier--Stokes rescaling changes the width, amplitude, and clock together.
-For \(\lambda>1\), set
+Aligned extension makes the first term positive.
+The viscous term separates into a flux and a negative gradient contribution,
 \[
-  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
-  \qquad
-  p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+  \nu\,\omega\cdot\Delta\omega
+  =
+  \frac{\nu}{2}\Delta|\omega|^2
+  -
+  \nu|\nabla\omega|^2.
 \]
-This produces a rescaled solution with rescaled initial data.
-It does not assert that \(u_\lambda\) is a later state of the original history.
-Each term in the momentum equation acquires the same factor:
+After integration over \(\R^3\), incompressibility removes transport and decay removes the Laplacian flux:
+\[
+  \frac12\frac{d}{dt}\norm{\omega(t)}_2^2
+  +
+  \nu\norm{\nabla\omega(t)}_2^2
+  =
+  \int_{\R^3}\omega\cdot S\omega\,dx.
+\]
+The balance is exact, but it has not chosen a winner.
+When strain carries the rotation into a smaller width, stretching and diffusion both change with that width.
+The next step is forced by this unresolved dependence: the entire coupled equation has to be compared across scale.
+
+\divider{\NavierStokes{} Scaling}
+
+Shrinking \(\ell\) by itself would change the object we are comparing.
+The \NavierStokes{} equations tie width to velocity, pressure, and time, so a lawful scale change moves all four together.
+For \(\lambda>0\), define
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+Substitution shows that every term acquires the same factor:
 \[
 \begin{aligned}
-  &\partial_tu_\lambda
-  +(u_\lambda\cdot\nabla)u_\lambda
-  +\nabla p_\lambda
-  -\nu\Delta u_\lambda
+  \partial_t u_\lambda(x,t)
+  &=
+  \lambda^3(\partial_t u)(\lambda x,\lambda^2t),
+  &
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
   \\
-  &\qquad=
-  \lambda^3
-  \bigl[
-    \partial_tu+(u\cdot\nabla)u+\nabla p-\nu\Delta u
-  \bigr](\lambda x,\lambda^2t).
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  &
+  \Delta u_\lambda(x,t)
+  &=
+  \lambda^3(\Delta u)(\lambda x,\lambda^2t).
 \end{aligned}
 \]
-For the vortex variables,
+Thus the rescaled field obeys the same balance, with
 \[
-  \omega_\lambda(x,t)=\lambda^2\omega(\lambda x,\lambda^2t),
+  x\mapsto\lambda^{-1}x,
   \qquad
-  S_\lambda(x,t)=\lambda^2S(\lambda x,\lambda^2t),
-\]
-so
-\[
-  S_\lambda\omega_\lambda
-  =\lambda^4(S\omega)(\lambda x,\lambda^2t),
+  u\mapsto\lambda u,
   \qquad
-  \nu\Delta\omega_\lambda
-  =\lambda^4\nu(\Delta\omega)(\lambda x,\lambda^2t).
+  p\mapsto\lambda^2p,
+  \qquad
+  t\mapsto\lambda^{-2}t.
 \]
-Both sides of the vorticity balance strengthen by the same power of \(\lambda\).
-This is a homogeneity statement, not a recurrence theorem for the actual flow.
-It says that contraction alone gives neither term a relative gain when the same normalized profile is viewed at a smaller scale.
+Moving to a smaller scale amplifies transport and viscosity by the same amount.
+The equation therefore gives viscosity no automatic advantage merely because the structure is narrower.
+This comparison relates rescaled solutions; it does not yet prove that one fixed fluid actually travels through those scales.
 
-The next question is how to measure a velocity field without mistaking a smaller copy for a weaker one.
-The scale-invariant Sobolev norm supplies that measurement.
-For a homogeneous Sobolev norm,
+\divider{Critical Height}
+
+We now need a quantity that reads the rescaled structure with the same size before and after this change.
+The homogeneous Sobolev scale finds that height.
+Let \(\Lambda:=(-\Delta)^{1/2}\).
+For every \(s\in\R\) for which the homogeneous norm is finite,
 \[
-  \widehat{u_\lambda}(\xi,t)
-  =\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t).
+  \Lambda^s u_\lambda(x,t)
+  =
+  \lambda^{1+s}(\Lambda^s u)(\lambda x,\lambda^2t).
 \]
-With \(\eta=\xi/\lambda\),
-\begin{align*}
-  \norm{u_\lambda(t)}_{\dot H^s}^2
-  &=\int_{\R^3}
-  |\xi|^{2s}\lambda^{-4}
-  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
-  \,d\xi
-  \\
-  &=\lambda^{2s-1}
-  \int_{\R^3}
-  |\eta|^{2s}
-  \left|\widehat u(\eta,\lambda^2t)\right|^2
-  \,d\eta
-  \\
-  &=\lambda^{2s-1}
-  \norm{u(\lambda^2t)}_{\dot H^s}^2.
-\end{align*}
-Within the homogeneous \(L^2\)-Sobolev scale, the exponent vanishes at one and only one height:
+Squaring and changing variables from \(x\) to \(y=\lambda x\) gives
 \[
+\begin{aligned}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  &=
+  \int_{\R^3}
+  \lambda^{2+2s}
+  \bigl|(\Lambda^s u)(\lambda x,\lambda^2t)\bigr|^2
+  \,dx
+  \\
+  &=
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\end{aligned}
+\]
+The scale factor disappears exactly when
+\[
+  2s-1=0,
+  \qquad
   s=\frac12.
 \]
-With \(\Lambda:=(-\Delta)^{1/2}\), define
-\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+Define the resulting critical height by
+\[
   H(t)
-  :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
-  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
-\end{equation}
-We call this the critical height.
-Below \(\dot H^{1/2}\), concentration makes the norm smaller.
-Above it, concentration makes the norm larger.
-At \(\dot H^{1/2}\), the smaller vortex has exactly the same size.
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
 
-Kinetic energy reads the same contraction below critical height.
-Pairing Navier--Stokes with \(u\), using incompressibility to remove transport and pressure, and integrating the viscous term by parts gives
+The energy law sits below this invariant level:
 \begin{equation}\label{eq:BodyEnergyIdentity}
   \frac12\norm{u(t)}_2^2
-  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
-  =\frac12\norm{u_0}_2^2.
+  +
+  \nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =
+  \frac12\norm{u_0}_2^2.
 \end{equation}
-Under the same concentration,
+Writing \(H_\lambda\) for the critical height of \(u_\lambda\), compare energy, critical height, and the first spatial derivative:
 \[
   \norm{u_\lambda(t)}_2^2
-  =\lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
   \qquad
-  H_\lambda(t)=H(\lambda^2t).
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
 \]
-The kinetic energy falls by \(\lambda^{-1}\), while the critical height stays fixed.
-A thinner rescaled profile can cost less energy and still retain its full critical size.
-This compares solutions with rescaled data, not repeated cores inside one history; a core in the original flow must still carry its surrounding field and pressure.
-Even with that distinction, the energy identity alone places no scale-independent ceiling on \(H\).
+As the structure is compressed, its energy reading falls, its critical height stays fixed, and its first-derivative reading rises.
+This explains why finite energy can coexist with a sharpening flow: energy loses sight of the structure before the derivative does, while \(H\) continues to see it at full strength.
 
-Scale has left stretching and viscosity level, and energy has failed to distinguish the smaller critical profile from the original one.
-The comparison now has to move into time: how quickly does viscosity respond when the active length shrinks?
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Scale invariance has chosen the right gauge, but it has not said whether that gauge rises or falls along the actual history.
+Apply \(\Lambda^{1/2}\) to the momentum equation and pair with \(\Lambda^{1/2}u\).
+Keep transport and pressure together in the signed production
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)+\nabla p(t)\bigr)}_{L^2}.
+\]
+The global pressure pairing vanishes after incompressibility is used, and viscosity contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\).
+Hence
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+The sign of \(\mathcal P_{1/2}\) is not prescribed.  Positive production raises
+\(H\) only after it exceeds the viscous term beside it.
+The original physical competition has now reached the one height that concentration cannot scale away.
+
+\divider{The Heat Clock}
+
+Scale does not hand viscosity the victory, but viscosity still assigns a clock to every width the flow reaches.
+The linear heat equation makes that clock exact.
+If \(v_t=\nu\Delta v\), then
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure of width \(r\) lives near frequency \(|\xi|\simeq r^{-1}\).
+Its Fourier amplitude changes by order one once \(\nu|\xi|^2\delta t\) is of order one, so its viscous comparison time is
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \tau_\nu(r)
+  \asymp
+  \frac{r^2}{\nu}.
+\end{equation}
+Halve the width and the time available to diffuse it falls by a factor of four.
+Near a proposed terminal time \(T_*\), the width whose heat clock matches the time remaining is
+\[
+  r_\nu(t)
+  \asymp
+  \sqrt{\nu(T_*-t)}.
+\]
+This clock begins only after the nonlinear evolution has actually created and occupied the width.
+The danger is therefore not a small scale by itself; it is a history able to reach the next small scale before the current clock runs out.
+
+\divider{When the heat clocks fit before one time}
+
+For geometrically shrinking widths, set
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu}.
+\]
+Using \eqref{eq:BodyHeatComparisonTime},
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The clocks form a convergent series.  This is the Zeno arithmetic: infinitely
+many scale changes can fit before one finite time.
+
+For the Zeno picture to become a fluid singularity, one velocity history must form widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+\]
+with \(t_{n+1}-t_n\) following a summable schedule comparable to \(\tau_n\).
+Each transition must occur while viscosity is already acting on the scale just formed.
+The series proves only that the schedule fits; the coupled \NavierStokes{} evolution must still realize every step in the same fluid.
+
+We do not need to assume that the fluid repeats one geometric profile.
+If the maximal time were finite, the endpoint \(L^3\) criterion of Escauriaza, Seregin, and \v{S}ver\'ak would force \parencite{EscauriazaSereginSverak2003}
+\[
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \limsup_{t\uparrow T_*}\norm{u(t)}_{L^3}=\infty.
+\]
+But \(u=\Lambda^{-1/2}\Lambda^{1/2}u\), so the Hardy--Littlewood--Sobolev inequality gives \parencite[Theorem~4.3]{LiebLoss2001}
+\[
+  \norm{u(t)}_{L^3}
+  \leq
+  C\norm{u(t)}_{\dot H^{1/2}}
+  =
+  C\sqrt{2H(t)}.
+\]
+The critical height must therefore escape along some sequence \(t_n\uparrow T_*\):
+\[
+  H(t_n)\longrightarrow\infty.
+\]
+Plancherel and Cauchy--Schwarz then compare that escape with the first global derivative:
+\[
+\begin{aligned}
+  2H(t)
+  &=
+  \norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \int_{\R^3}|\xi|\,|\widehat u(\xi,t)|^2\,d\xi
+  \\
+  &\leq
+  \left(\int_{\R^3}|\widehat u(\xi,t)|^2\,d\xi\right)^{1/2}
+  \left(\int_{\R^3}|\xi|^2|\widehat u(\xi,t)|^2\,d\xi\right)^{1/2}
+  \\
+  &=
+  \norm{u(t)}_2\norm{\nabla u(t)}_2.
+\end{aligned}
+\]
+The zero datum produces the zero solution and cannot lie on a finite-endpoint branch, so \(\norm{u_0}_2>0\) there.
+Using the energy ceiling from \Cref{prop:ClassicalKineticEnergyIdentity} in the
+last inequality gives
+\[
+  \norm{\nabla u(t_n)}_2
+  \geq
+  \frac{2H(t_n)}{\norm{u_0}_2}
+  \longrightarrow
+  \infty.
+\]
+Thus any finite last time forces both critical height and the global \(L^2\) gradient to become unbounded along a terminal sequence.
+It does not require the pointwise velocity amplitude \(\norm{u(t)}_{L^\infty}\) to diverge.
+
+One fixed-profile model shows how different readings of concentration can separate.
+Choose a nonzero divergence-free profile \(\phi\in\Ssigma\) and set
+\[
+  u_\ell(x)
+  :=
+  \ell^{-1}\phi\!\left(\frac{x}{\ell}\right).
+\]
+Its amplitude, gradient, clock, and energy obey
+\[
+\begin{aligned}
+  U_\ell
+  :=
+  \norm{u_\ell}_{L^\infty}
+  &\sim
+  \ell^{-1}
+  \longrightarrow
+  \infty,
+  &
+  \norm{\nabla u_\ell}_{L^\infty}
+  &\sim
+  \ell^{-2}
+  \longrightarrow
+  \infty,
+  \\
+  \tau_\ell
+  &\asymp
+  \frac{\ell^2}{\nu}
+  \longrightarrow
+  0,
+  &
+  E_\ell
+  :=
+  \frac12\norm{u_\ell}_2^2
+  &\sim
+  U_\ell^2\ell^3
+  \sim
+  \ell
+  \longrightarrow
+  0.
+\end{aligned}
+\]
+Here amplitude and gradient diverge while the energy carried by the profile vanishes, yet
+\[
+  \frac12\norm{u_\ell}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\phi}_{\dot H^{1/2}}^2,
+\]
+so critical height remains fixed.
+This spike is an image of what scaling permits, not the general endpoint route above, where \(H(t_n)\) itself must diverge.
+
+Both pictures return us to the same dynamical burden: one velocity history must move through sharper states on shorter clocks as \(t\uparrow T_*\).
+Once the remaining time collapses, the next question is unavoidable: what must happen to the successive time responses of that same field?

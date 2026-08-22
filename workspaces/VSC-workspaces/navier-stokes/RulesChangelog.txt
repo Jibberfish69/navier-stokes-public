@@ -37,3 +37,27 @@
 - Joined class membership and participation where they perform one argumentative movement, while keeping the Euler comparison, derivative tower, failure pictures, and final coherent-field account developed as distinct reader-facing units.
 - Rebuilt Section 2 in the historical discovery order from critical height through finite-time response, the pressure-complete mixed jet, the critical Sobolev column, simultaneous intersections, finite adjacent rectangles, and compatible whole-terminal views.
 - Preserved the established datum-generated compatible-intersection theorem and left its projective assembly, endpoint trace, restart identity, uniqueness, and global closure in Section 3.
+
+2026-08-18
+- Made `ProjectInstructions/Format.txt` the canonical owner of the prohibition on visible box and frame formatting throughout manuscript source.
+- Added a focused build-time source check and regression coverage so the canonical LaTeX build rejects prohibited formatting constructs.
+- Replaced the current framed emphasis with unframed displays or centred italic prose without changing the underlying mathematical or prose content.
+
+2026-08-19
+- Required every compressed body use of an internally derived mathematical result to cross-reference, in the same sentence, the exact proof-bearing appendix result.
+- Added a focused build-time source check and regression coverage for this body-to-appendix derivation-reference rule.
+- Promoted the appendix kinetic-energy calculation to a numbered proposition and connected every active body shorthand use of that identity to its proof.
+- Established one manuscript-wide block-paragraph rhythm: one intentional blank source line now produces a restrained vertical gap with no first-line indent.
+- Prevented a displayed equation from stranding the final one-line continuation of its prose paragraph at the top of the next page.
+- Prohibited local prose-spacing commands and connected the rule to a focused build-time source check.
+2026-08-20
+- Removed the unauthorized paragraph-heading layer and restored the pre-layout Section 2.1 prose-and-equation sequence without changing any approved section, subsection, or divider title.
+- Replaced the claimed V6 spacing hybrid with monograph-V6's actual 12-point paragraph and display rhythm, heading sizes, divider type, and list-aware formal-environment spacing.
+- Reversed layout-only prose rewrites, mathematical regroupings, page-boundary changes, and bibliography forcing that were outside the typography request.
+- Retained the indented V6 paragraph shape while adding a visible quarter-baseline gap between prose paragraphs at Thomas's direction.
+
+2026-08-21
+- Demoted the former handwritten Silver passage from active representative anchor to historical secondary evidence after Thomas placed it outside the current manuscript's custody and identified it as an imperfect voice example.
+- Preserved its promotion hash, authorship record, authorization history, and 1.3-to-1.4 source history without treating the absent live file or surviving copies as the promoted bytes.
+- Regenerated the writing-anchor excerpt surface to zero active anchors and promoted no replacement.
+- Replaced page 1's uniform minimum cadence with full-baseline semantic thought boundaries and open row leading inside equations (1.1) and (1.2); page 1 now ends on the completed Sobolev thought, while the local target and Section 2 compose the continuation page without changing any word, formula, number, or section order.

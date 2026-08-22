@@ -4,93 +4,105 @@
 % ============================================================
 \subsection{The Classical Estimates Before Closure}\label{sub:HistoricalEstimates}
 
-Local theory gives the smooth fluid a beginning, so the first serious question is what the equations preserve after that beginning.
-The first answer is kinetic energy, and almost every later regularity result can be read as an attempt to recover the derivative control that energy leaves behind.
+The local theorem has launched a smooth fluid.  To keep it alive, we must know
+which part of that smoothness survives for as long as the solution exists.
+Kinetic energy survives globally, but at a derivative level too low to restart
+the classical history.  The classical theory measures the exact distance
+between those two facts.
 
-\divider{Energy and the First Uncontrolled Derivative}
+\divider{Energy reaches the endpoint before the gradient does}
 
-For a smooth solution, multiply the momentum equation by \(u\) and integrate over space.
-Incompressibility removes nonlinear transport from the total energy because
+\begin{proposition}[Classical kinetic-energy identity]\label[proposition]{prop:ClassicalKineticEnergyIdentity}
+Let \((u,p)\) be a sufficiently decaying smooth solution of
+\eqref{eq:NavierStokesSystem}.  At every time in its interval of existence,
+\begin{equation}\label{eq:AppendixKineticEnergyIdentity}
+  \lVert u(t)\rVert_{L^2}^2
+  +
+  2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^2\,ds
+  =
+  \lVert u_0\rVert_{L^2}^2.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Pair the momentum equation with \(u\) in space.  The transport term carries
+energy through the fluid but cannot change its total amount:
 \[
   \int_{\mathbb R^3}(u\cdot\nabla)u\cdot u\,dx
   =
   \frac12\int_{\mathbb R^3}u\cdot\nabla|u|^2\,dx
   =0.
 \]
-It removes the pressure contribution for the same divergence-free reason:
+Pressure also does no total work, since
 \[
   \int_{\mathbb R^3}\nabla p\cdot u\,dx
   =
   -\int_{\mathbb R^3}p\,\nabla\cdot u\,dx
   =0.
 \]
-Viscosity is the surviving term, and integration by parts gives
+The viscous term alone has a sign, and integration by parts gives
 \[
   \nu\int_{\mathbb R^3}\Delta u\cdot u\,dx
   =
   -\nu\lVert\nabla u\rVert_{L^2}^2.
 \]
-The resulting identity is
-\[
-  \lVert u(t)\rVert_{L^2}^2
-  +
-  2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^2\,ds
-  =
-  \lVert u_0\rVert_{L^2}^2.
-\]
-The velocity has an \(L^2\) ceiling at every time, and viscosity pays for the squared \(L^2\) gradient after it is accumulated in time.
+Time integration is exactly \eqref{eq:AppendixKineticEnergyIdentity}.\qedhere
+\end{proof}
+Thus the velocity has a pointwise-in-time \(L^2\) ceiling, while the gradient is
+paid only after its square has been accumulated over time.
 
-Leray found a way to keep this estimate when smoothness is no longer assumed.
-Regularization, compactness, and the energy inequality produce a global weak solution satisfying \parencite{Leray1934}
+Leray’s construction preserves precisely this information without assuming the
+solution remains smooth.  Regularization and compactness produce a global weak
+solution with \parencite{Leray1934}
 \[
   u\in
   L^\infty(0,T;L^2(\mathbb R^3))
   \cap
   L^2(0,T;H^1(\mathbb R^3))
 \]
-on every finite interval.
-This is genuine global existence at the energy level; the energy inequality alone does not settle uniqueness or spontaneous regularity for arbitrary three-dimensional Leray solutions.
+on each finite interval.  The weak history is global, but this estimate by
+itself neither makes arbitrary three-dimensional Leray solutions unique nor
+returns the missing smoothness.
 
-The Sobolev embedding
+The spatial half of the energy class improves through
 \[
   H^1(\mathbb R^3)\hookrightarrow L^6(\mathbb R^3)
 \]
-turns Leray's spatial derivative into
+and therefore
 \[
   u\in L^2(0,T;L^6(\mathbb R^3)).
 \]
-That extra integrability is immediately spent on the nonlinear transport.
-For example,
+The nonlinear term consumes that gain immediately:
 \[
   \lVert(u\cdot\nabla)u\rVert_{L^{3/2}}
   \leq
   \lVert u\rVert_{L^6}
   \lVert\nabla u\rVert_{L^2},
 \]
-so the transport term is integrable in time with values in \(L^{3/2}\).
-This is strong enough to keep the equation meaningful in the weak construction.
-It still supplies no time-uniform ceiling on \(\lVert\nabla u(t)\rVert_{L^2}\), because a sequence of higher and shorter peaks can have a finite squared time integral.
+so transport lies in \(L^1_tL^{3/2}_x\), enough for the weak equation to make
+sense.  It does not bound \(\lVert\nabla u(t)\rVert_2\) at each time.  Taller
+peaks can occupy shorter intervals and still leave the squared time integral
+finite.
 
-Vorticity shows why that opening is specifically dangerous in three dimensions.
-Set
+In three dimensions, that missing instantaneous gradient is exactly where a
+vortex can amplify itself.  Put
 \[
   \omega:=\nabla\times u.
 \]
-For the divergence-free decaying fields considered here,
+For the divergence-free decaying fields at hand,
 \[
   \lVert\nabla u\rVert_{L^2}^2
   =
   \lVert\omega\rVert_{L^2}^2,
 \]
-so the dissipated gradient is also the enstrophy.
-Taking the curl of the momentum equation gives
+so the time-integrated gradient payment is the time-integrated enstrophy.
+Taking curl reveals its evolution:
 \[
   \partial_t\omega+(u\cdot\nabla)\omega
   =
   (\omega\cdot\nabla)u+\nu\Delta\omega.
 \]
-The new term \((\omega\cdot\nabla)u\) stretches and tilts vorticity with the velocity gradient generated by the same flow.
-Its energy balance is
+The same velocity gradient that the energy estimate controls only in time now
+stretches and tilts \(\omega\).  Pairing this equation with \(\omega\) gives
 \[
   \frac12\frac{d}{dt}\lVert\omega\rVert_{L^2}^2
   +
@@ -98,21 +110,22 @@ Its energy balance is
   =
   \int_{\mathbb R^3}(\omega\cdot\nabla)u\cdot\omega\,dx.
 \]
-The stretching integral has no fixed sign, and the energy identity does not force it to remain below viscous dissipation at each time.
-The first estimate reaches the whole time interval at a level below the derivative control needed to restart the smooth solution.
+Nothing fixes the sign of the stretching integral, and kinetic energy does not
+force it below dissipation at each instant.  The global estimate has therefore
+reached the whole interval without reaching the derivative height required for
+a classical restart.
 
-\divider{What Is Strong Enough to Continue the Solution}
+\divider{The derivative height that buys another interval}
 
-The natural way to ask for several derivative levels at once is a Sobolev norm.
-For an integer \(m\geq0\), write
+For an integer \(m\geq0\), collect the first \(m\) spatial derivative levels in
 \[
   \lVert u\rVert_{H^m}^2
   :=
   \sum_{|\alpha|\leq m}
   \lVert\partial^\alpha u\rVert_{L^2}^2,
 \]
-with the usual Fourier definition when the order is fractional.
-In three dimensions, Sobolev embedding gives \parencite[Theorem~7.28]{Cerda2010}
+and use the Fourier definition at fractional order.  In three dimensions,
+Sobolev embedding gives \parencite[Theorem~7.28]{Cerda2010}
 \[
   H^s(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3)
   \qquad
@@ -126,17 +139,19 @@ In particular,
   \qquad\Longrightarrow\qquad
   H^s(\mathbb R^3)\hookrightarrow W^{1,\infty}(\mathbb R^3).
 \]
-This is the first level at which one Sobolev norm directly controls the pointwise velocity gradient that multiplies every higher differentiated energy estimate.
+Above \(5/2\), one Sobolev norm controls the pointwise gradient that multiplies
+every differentiated energy row.
 
-Suppose a smooth solution on \([0,T)\) satisfies
+Suppose, then, that on \([0,T)\)
 \[
   \sup_{0\leq t<T}\lVert u(t)\rVert_{H^s}
   \leq M
   \qquad
   \text{for some }s>\frac52.
 \]
-For each fixed finite \(m\geq s\), differentiate the equation spatially through order \(m\), pair with the corresponding derivative of \(u\), and sum the resulting identities.
-The product rule and incompressibility give the standard estimate
+At any fixed finite height \(m\geq s\), differentiate the equation, pair each
+row with the matching derivative of \(u\), and sum.  Incompressibility cancels
+the top transport term, leaving
 \[
   \frac12\frac{d}{dt}\lVert u\rVert_{H^m}^2
   +
@@ -145,33 +160,36 @@ The product rule and incompressibility give the standard estimate
   C_m\lVert\nabla u\rVert_{L^\infty}
   \lVert u\rVert_{H^m}^2.
 \]
-The assumed \(H^s\) ceiling controls the coefficient on the right, and Gronwall's inequality propagates the chosen \(H^m\) norm from the smooth datum.
-The constant may depend on \(m\), because smoothness asks for every finite order in turn rather than one constant for the entire infinite collection.
+The assumed \(H^s\) roof bounds the coefficient, so Gronwall carries this
+chosen \(H^m\) norm to time \(T\).  Its constant may depend on \(m\): smoothness
+requires each finite height, not one uniform constant for infinitely many
+heights.
 
-Pressure does not add an independent unknown at the next stage.
-Taking the divergence of the momentum equation gives
+Once the velocity derivatives are present, pressure is forced by them.  Taking
+divergence gives
 \[
   -\Delta p
   =
   \sum_{i,j=1}^3\partial_i\partial_j(u_i u_j),
 \]
-with decay fixing the pressure normalization.
-Once the spatial derivatives of \(u\) are controlled, this elliptic relation recovers the corresponding spatial derivatives of \(p\), and
+with spatial decay fixing its additive constant.  The elliptic relation returns
+the matching spatial derivatives of \(p\); the momentum equation then returns
 \[
   \partial_tu
   =
   \nu\Delta u-(u\cdot\nabla)u-\nabla p
 \]
-then recovers the first time derivative.
-Repeating the same two operations recovers each higher mixed spatial and temporal derivative.
-One uniform Sobolev bound above \(5/2\) has enough leverage to return the complete smooth velocity--pressure pair.
+Repeating pressure recovery and the momentum equation produces every fixed
+mixed derivative.  One time-uniform Sobolev roof above \(5/2\) therefore
+recovers the full smooth velocity--pressure pair.
 
-It also gives the missing time needed to cross an endpoint.
-Local well-posedness in \(H^s\) supplies a positive lifespan determined by \(s\), \(\nu\), and the size of the initial \(H^s\) norm \parencite{FujitaKato1964,Kato1984}.
-Choose \(t_0<T\), regard \(u(\cdot,t_0)\) as a fresh initial slice, and restart the local theory from that slice.
-If \(\lVert u(\cdot,t_0)\rVert_{H^s}\leq M\) uniformly, the restarted lifespans have a common positive lower bound, so a sufficiently late \(t_0\) carries the same solution past \(T\).
-Uniqueness on the overlap joins the restarted piece to the original motion.
-Hence a finite maximal time forces
+That roof also provides time.  Local well-posedness in \(H^s\) has a lifespan
+controlled by \(s\), \(\nu\), and the initial \(H^s\) size
+\parencite{FujitaKato1964,Kato1984}.  Restart at a late slice
+\(u(\cdot,t_0)\).  If all such slices remain below \(M\), their lifespans share
+a positive lower bound; choosing \(t_0\) close enough to \(T\) crosses it.
+Uniqueness joins the restart to the original history.  Consequently, a finite
+maximal time can occur only if
 \[
   \limsup_{t\uparrow T_*}
   \lVert u(t)\rVert_{H^s}
@@ -179,12 +197,13 @@ Hence a finite maximal time forces
   \qquad
   \text{for every }s>\frac52.
 \]
-The distance from Leray's estimate to continuation is now exact: time-integrated \(H^1\) control must somehow become time-uniform control at a Sobolev level above \(5/2\).
+The unpaid distance is now explicit: the energy class gives time-integrated
+\(H^1\), while continuation needs time-uniform control above \(H^{5/2}\).
 
-\divider{Critical Scale and Singular Concentration}
+\divider{The scale on which concentration can hide}
 
-The equations themselves show where such a conversion can lose information.
-If \((u,p)\) is a solution, then
+The Navier--Stokes scaling explains why energy cannot simply be upgraded to the
+missing roof.  From any solution \((u,p)\), form
 \[
   u_\lambda(x,t)
   :=
@@ -194,63 +213,75 @@ If \((u,p)\) is a solution, then
   :=
   \lambda^2p(\lambda x,\lambda^2t)
 \]
-has the same equation at a different spatial and temporal scale.
-A quantity left unchanged by this transformation sees an intensifying structure with the same strength no matter how small that structure becomes.
+which solves the same equation after space and time are contracted together.
+Any invariant norm sees the rescaled structure at the same size even while its
+physical width tends to zero.
 
-The Ladyzhenskaya--Prodi--Serrin criteria locate exactly this balance between spatial intensity and temporal persistence \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
-They give regularity through \(T\) when
+The Ladyzhenskaya--Prodi--Serrin line balances the strength of that spatial
+concentration against the time for which it persists
+\parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.  A solution
+continues through \(T\) if
 \[
-  u\in L^p(0,T;L^q(\mathbb R^3)),
+  u\in L^q(0,T;L^p(\mathbb R^3)),
   \qquad
-  \frac{2}{p}+\frac{3}{q}\leq1,
+  \frac{2}{q}+\frac{3}{p}\leq1,
   \qquad
-  q>3.
+  p>3.
 \]
-The spatial exponent measures how tightly velocity may concentrate, and the time exponent measures how long that concentration may persist.
-Equality in the exponent relation is unchanged by Navier--Stokes scaling.
+At equality, spatial intensity and temporal duration change by inverse factors
+under the Navier--Stokes scaling; the norm is critical.
 
-The spatial endpoint of this family is \(L^\infty_tL^3_x\), because
+The limiting spatial member is \(L^\infty_tL^3_x\), since
 \[
   \lVert u_\lambda(t)\rVert_{L^3}
   =
   \lVert u(\lambda^2t)\rVert_{L^3}.
 \]
-Escauriaza, Seregin, and \v{S}ver{\'a}k proved that
+Escauriaza, Seregin, and \v{S}ver{\'a}k showed that even this endpoint condition
 \[
   u\in L^\infty(0,T;L^3(\mathbb R^3))
 \]
-still carries a solution regularly through \(T\) \parencite{EscauriazaSereginSverak2003}.
-Their rescaling argument turns a first singularity into an ancient limiting solution and uses backward uniqueness to rule that limit out.
-Thus a finite endpoint cannot hide behind a bounded critical \(L^3\) norm.
+continues the solution through \(T\)
+\parencite{EscauriazaSereginSverak2003}.  Their argument rescales a first
+singularity into an ancient limit and eliminates it by backward uniqueness.
+Hence a finite last time must make the critical \(L^3\) norm escape.
 
-The local theory of singular concentration reaches a complementary conclusion.
-For \(z_0=(x_0,t_0)\), write the parabolic cylinder
+The same threat has a local description.  Around
+\(z_0=(x_0,t_0)\), use the parabolic cylinder
 \[
   Q_r(z_0)
   :=
   B_r(x_0)\times(t_0-r^2,t_0).
 \]
-Caffarelli, Kohn, and Nirenberg proved that sufficiently small scale-invariant velocity and pressure quantities on \(Q_r(z_0)\) force regularity on a smaller cylinder \parencite{CaffarelliKohnNirenberg1982}.
-A singular point must retain a definite scale-invariant concentration in every sufficiently small parabolic neighbourhood.
-Their covering argument confines the possible singular set to zero one-dimensional parabolic Hausdorff measure, but a single point would still end global smoothness.
+Caffarelli, Kohn, and Nirenberg proved that small scale-invariant velocity and
+pressure content on \(Q_r(z_0)\) makes a smaller cylinder regular
+\parencite{CaffarelliKohnNirenberg1982}.  A singular point must therefore retain
+a definite amount of that content at every sufficiently small scale.  Their
+covering argument makes the possible singular set small in parabolic Hausdorff
+measure, but one surviving point is enough to destroy global smoothness.
 
-The endpoint result also has a direct blow-up consequence.
-For the smooth compactly supported whole-space data in Seregin's theorem, a finite maximal time satisfies \parencite{Seregin2012}
+For smooth compactly supported whole-space data, Seregin sharpens the endpoint
+statement to actual divergence along the terminal approach
+\parencite{Seregin2012}:
 \[
   \lim_{t\uparrow T_*}
   \lVert u(t)\rVert_{L^3(\mathbb R^3)}
   =\infty.
 \]
-Tao's quantitative refinement forces at least a positive power of a triple logarithm of the inverse time remaining along infinitely many times approaching the endpoint \parencite{Tao2021Quantitative}.
-That forced rate is extremely slow compared with any power law, so much faster concentration remains compatible with all known critical lower bounds.
+Tao’s quantitative refinement forces a positive power of a triple logarithm of
+the inverse time remaining along a sequence of terminal times
+\parencite{Tao2021Quantitative}.  This lower rate is far slower than any power
+law; the classical results still permit much faster concentration.
 
-\divider{What the Classical Estimates Leave Open}
+\divider{The one estimate still absent}
 
-At a finite maximal time, kinetic energy stays bounded while every continuation-grade Sobolev norm and the critical \(L^3\) norm lose finite control.
-A singular point must also retain scale-invariant concentration at arbitrarily small parabolic scales.
-These are necessary descriptions of the concentration; none supplies the terminal-uniform estimate that would stop it.
+If the maximal time were finite, kinetic energy would remain bounded while the
+critical \(L^3\) norm and every continuation-grade Sobolev norm escaped.
+Locally, some parabolic cylinders would retain nonzero scale-invariant content
+at arbitrarily small radii.  These results describe what a singularity must do;
+they do not give the terminal-uniform estimate that prevents it.
 
-The reason can be seen directly from scaling:
+The mismatch with energy is visible in the two scaling laws
 \[
   \lVert u_\lambda(t)\rVert_{L^3}
   =
@@ -261,17 +292,19 @@ The reason can be seen directly from scaling:
   \lambda^{-1}
   \lVert u(\lambda^2t)\rVert_{L^2}^2.
 \]
-Moving a structure to a shorter length scale preserves its critical \(L^3\) reading while reducing the \(L^2\) energy carried by the rescaled piece.
-The global energy ceiling cannot become a scale-independent ceiling on that critical concentration.
+A shorter structure retains its critical \(L^3\) size while carrying less
+\(L^2\) energy.  A global kinetic-energy ceiling therefore cannot become a
+scale-independent ceiling on the critical concentration.
 
-Scaling also fixes the time available at each stage.
-If the active length is halved repeatedly, the corresponding parabolic durations are proportional to
+The same scaling shortens the clock.  Repeatedly halving the active width gives
+parabolic durations proportional to
 \[
   1,\ \frac14,\ \frac1{16},\ \ldots,
 \]
-and the entire schedule fits inside a finite total time.
-The classical estimates above do not exclude this schedule: each finer stage can occupy less time while retaining critical size.
-This is the precise role of the Zeno picture here.
-It records the timing left open by the estimates; it does not construct a singular Navier--Stokes fluid.
+whose sum is finite.  Each stage can retain critical size while occupying less
+time, and none of the estimates above forbids that arithmetic.  This is all the
+Zeno schedule asserts: it exposes an available timing, not a constructed
+singular Navier--Stokes history.
 
-The estimate still missing from the classical picture is a terminal-uniform bound in one continuation-grade norm.
+Closure therefore asks for one terminal-uniform continuation-grade norm on the
+actual maximal history.

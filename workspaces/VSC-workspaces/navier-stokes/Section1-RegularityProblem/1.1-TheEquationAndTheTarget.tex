@@ -1,43 +1,76 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-The three-dimensional Navier--Stokes regularity problem asks whether a smooth solution can lose its smoothness in finite time.
-Fefferman formulates the whole-space problem for initial velocities in the class \(\Ssigma\) \parencite{Fefferman2000}:
+A smooth fluid can only fail globally by reaching a last smooth time.
+The problem is to understand whether the same three-dimensional velocity field can keep concentrating fast enough to create such an endpoint while viscosity is already diffusing the gradients it produces.
+That field and its pressure satisfy
+\begin{equation}\label{eq:NavierStokesSystem}
+  \UseReadableDisplayRows
+  \begin{gathered}
+    \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0
+    \quad\text{on }\R^3\times(0,\infty),
+    \\
+    u(\cdot,0)=u_0
+    \quad\text{on }\R^3.
+  \end{gathered}
+\end{equation}
+Here \(u\) is the velocity, \(p\) is the pressure required by incompressibility, and the viscosity \(\nu>0\) stays fixed throughout the argument.
+\MajorThoughtBreak
+Fefferman's whole-space problem begins with a smooth divergence-free velocity whose spatial derivatives decay faster than every algebraic power \parencite{Fefferman2000}.
+Write this datum class as
 \begin{equation}\label{eq:FeffermanDatumClass}
-  \Ssigma
-  :=
-  \left\{
-  a\in C^\infty(\R^3;\R^3):
-  \begin{array}{l}
-    \nabla\cdot a=0,\\[0.3em]
+  \UseReadableDisplayRows
+  \begin{gathered}
+    \Ssigma
+    :=
+    \mathscr S(\R^3;\R^3)\cap\ker(\nabla\cdot),
+    \qquad
+    u_0\in\Ssigma,
+    \\
     \forall\alpha\in\Nzero^3\;
     \forall K\in\Nzero\;
     \exists C_{\alpha,K}<\infty\;
-    \forall x\in\R^3,\\[0.3em]
-    |\partial_x^\alpha a(x)|
-    \leq C_{\alpha,K}(1+|x|)^{-K}
-  \end{array}
-  \right\}.
+    \forall x\in\R^3,
+    \qquad
+    |\partial_x^\alpha u_0(x)|
+    \leq
+    C_{\alpha,K}(1+|x|)^{-K}.
+  \end{gathered}
 \end{equation}
-We fix \(u_0\in\Ssigma\) and a viscosity \(\nu>0\).
-Here \(\alpha\) is a spatial multi-index, \(K\) is the chosen decay order, and \(C_{\alpha,K}\) may depend on both.
-Since the estimate is available for every \(K\), each spatial derivative of \(u_0\) decays faster than any polynomial.
-Taking \(\alpha=0\) and \(K>3/2\) gives \(u_0\in L^2(\R^3)\), so the datum has finite kinetic energy.
-
-The velocity \(u\) and pressure \(p\) must satisfy
-\begin{equation}\label{eq:NavierStokesSystem}
-  \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
-  \qquad
-  \nabla\cdot u=0,
-  \qquad
-  u(\cdot,0)=u_0
-  \quad\text{on }\R^3\times(0,\infty).
-\end{equation}
-The required conclusion is that, for every \(u_0\in\Ssigma\) and every \(\nu>0\), such fields exist for all nonnegative time and satisfy
+The multi-index \(\alpha\) chooses a spatial derivative, and \(K\) chooses how much algebraic decay to demand.
+For the fixed datum, \(C_{\alpha,K}\) may depend on those choices but never on \(x\).
+\MajorThoughtBreak
+For finite \(m\in\Nzero\), write
+\[
+  H^m_\sigma(\R^3)
+  :=
+  H^m(\R^3;\R^3)\cap\ker(\nabla\cdot).
+\]
+This rapid decay already places the datum at every finite Sobolev height.
+Indeed, fix \(K>3/2\).  For every \(|\alpha|\leq m\), \eqref{eq:FeffermanDatumClass} gives
+\[
+  \norm{\partial_x^\alpha u_0}_2^2
+  \leq
+  C_{\alpha,K}^2
+  \int_{\R^3}(1+|x|)^{-2K}\,dx
+  <
+  \infty.
+\]
+Only finitely many multi-indices occur below a fixed height \(m\), so \(u_0\in H^m_\sigma(\R^3)\) for every finite \(m\).
+The case \(m=0\) says that the initial kinetic energy is finite.
+\MajorThoughtBreak
+\Needspace{18\baselineskip}
+Now fix one such \(u_0\) and one viscosity \(\nu>0\).
+Local theory produces a classical velocity--pressure history, and uniqueness joins every local piece into one maximal smooth interval \([0,T_*)\), where \(T_*\in(0,\infty]\).
+\MajorThoughtBreak
+The whole-space claim concerns this same history:
 \begin{equation}\label{eq:WholeSpaceRegularityTarget}
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
   \qquad
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
 \end{equation}
-Smoothness in \eqref{eq:WholeSpaceRegularityTarget} means that every spatial and temporal derivative of both fields exists and is continuous for all \(t\geq0\).
-Regularity is the assertion that this smoothness persists throughout the evolution.
-A continuation past a finite time \(T\) extends the original velocity to \([0,T+\varepsilon)\), for some \(\varepsilon>0\), while solving the same initial-value problem there.
-Finite-time loss of regularity occurs when this smooth extension fails at some finite \(T\).
+Energy is not the unresolved part.  \Cref{prop:ClassicalKineticEnergyIdentity} gives \(\norm{u(t)}_2\leq\norm{u_0}_2\) for every \(0\leq t<T_*\).
+What remains is to prevent the smooth history from ending while that energy stays finite:
+\[
+  T_*=\infty.
+\]
