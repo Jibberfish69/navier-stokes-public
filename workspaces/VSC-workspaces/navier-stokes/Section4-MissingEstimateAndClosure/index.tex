@@ -102,42 +102,8 @@ history with uniformly bounded kinetic energy required in
 \eqref{eq:WholeSpaceRegularityTarget}.
 \end{proof}
 
-The theorem uses the whole intersection because that is the object the Tower
-produced.  Its lowest rectangle is a projection of the same estimate, and it
-already reaches the classical obstruction that a finite last time would have
-to cross.
-
-\subsection{The first rectangle seen from the endpoint}\label{sub:FromFiniteRectanglesToClassicalEstimates}
-
-Choose the first rectangle, \((N,M)=(0,1)\).
-Its adjacent rows are
-\[
-  u\in L^2(I_*;H^2),
-  \qquad
-  u_t\in L^2(I_*;L^2).
-\]
-Their trace lands in the space between them:
-\[
-  u\in C([0,T_*];H^1).
-\]
-Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\), this gives
-\begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
-  \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
-\end{equation}
-But the endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a finite maximal time forces the opposite behaviour \parencite{EscauriazaSereginSverak2003}:
-\begin{equation}\label{eq:FiniteTimeLThreeEscape}
-  T_*<\infty
-  \quad\Longrightarrow\quad
-  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
-\end{equation}
-The rectangle bounds the same velocity in the same norm on the same terminal interval.
-The two conclusions cannot coexist, so this first coordinate already contradicts a finite \(T_*\).
-
-The full intersection keeps every higher response available, but the physical
-return does not need an inventory of them.  The first rectangle has already
-reached the critical velocity norm.  The next one reaches the motion of the
-critical height and the gradient that stretches the vortex.  Those are the two
-coordinates we now follow.
+The endpoint contradiction is complete.  The higher rectangles now let us
+return to the critical height and to the gradient that stretches the vortex.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
@@ -337,14 +303,6 @@ vanishes, while a changing-membership model cannot preserve a fixed critical
 tail arbitrarily far into the ultraviolet.
 
 \subsection{The singularity conditions fail at both scales}\label{sub:TheLocalSingularityPictureCloses}
-
-The first rectangle already reaches the global signature of a singular time.
-The endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a finite
-maximal time forces the critical \(L^3\) norm to escape
-\parencite{EscauriazaSereginSverak2003}, as recorded in
-\eqref{eq:FiniteTimeLThreeEscape}.  The same velocity has the opposite bound in
-\eqref{eq:EndpointCriterionFromLowRectangle}.  A finite terminal time cannot
-satisfy both statements.
 
 The local signature disappears from the same intersection.  Fix a finite
 \(T>0\).  The Sobolev persistence proved in
