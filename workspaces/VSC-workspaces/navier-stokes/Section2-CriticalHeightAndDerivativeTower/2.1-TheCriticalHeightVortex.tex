@@ -36,16 +36,6 @@ across a width \(\ell\), then
 The regularity problem is already visible in this ratio.  The amount of
 velocity may stay finite while the distance over which it changes collapses.
 
-Kinetic energy is allowed to miss that event.  Its exact balance is
-\begin{equation}\label{eq:BodyEnergyIdentity}
-  \frac12\norm{u(t)}_2^2
-  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
-  =\frac12\norm{u_0}_2^2.
-\end{equation}
-The first term measures velocity over volume.  It does not retain the width
-across which that velocity changes.  A narrowing region can carry less and
-less kinetic energy while its gradients become steeper.
-
 Viscosity cannot be discussed apart from that narrowing.  Pair
 \eqref{eq:BodyVorticityEquation} with \(\omega\).  The pointwise form is
 \[
@@ -124,6 +114,17 @@ power of \(\lambda\); the first derivative sits above it and gains one:
 This is why finite energy can remain calm while a derivative sharpens.  The
 critical height occupies the point between those two readings where the
 concentration is still fully visible.
+
+Now return to the kinetic-energy identity:
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+The first term measures velocity over volume, one full scaling level below
+\(H\).  It does not retain the width across which that velocity changes.  A
+narrowing region can lose kinetic energy while its gradients rise and its
+critical height remains visible.
 
 One rescaled profile makes the separation concrete.  For a nonzero
 divergence-free \(\phi\in\Ssigma\), set
