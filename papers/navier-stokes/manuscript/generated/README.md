@@ -2,4 +2,4 @@
 
 This subtree is machine-owned.
 
-Its purpose is to hold generated manuscript-facing imports that the paper workspace can consume without turning the paper plane into theorem authority.
+Its purpose is to hold generated manuscript-facing imports that the paper workspace can consume without turning the manuscript surface into theorem authority.

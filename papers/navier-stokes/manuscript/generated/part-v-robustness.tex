@@ -1,0 +1,1972 @@
+\part{Independent uses of the mechanism}
+
+\section{What must survive when the equation changes}
+
+The three-dimensional proof does more than produce a terminal bound.  The
+datum supplies finite spatial rows of one history; the differentiated
+equation generates its temporal and pressure rows; restriction keeps the
+overlaps equal; the intersection produces one endpoint; and uniqueness lets
+that endpoint restart the evolution.  A genuinely different
+three-dimensional producer can preserve those later steps while changing the
+estimate that begins them.
+
+Axisymmetric flow without swirl provides the first test.  The physical
+vorticity is stretched, but the relative vorticity
+\(\omega^\theta/r\) obeys a scalar parabolic law whose maximum principle
+controls the stretching coefficient on every finite horizon.  That
+datum-side coefficient produces every spatial row, after which the complete
+mixed jet, pressure jet, compatible rectangles, endpoint, and restart follow
+from the same finite mechanism used in the main proof.  The result is
+classical at the level of global smoothness; the work below strengthens it
+into a quantitative realization of the complete proof engine.
+
+The later tests change the equation itself.  In viscous--resistive MHD, the
+producer must control a coupled velocity and magnetic field while pressure
+keeps the difference of their stresses.  Critical hyperdissipation replaces
+the adjacent integer Sobolev rows by a fractional Gelfand triple.  The
+Navier--Stokes--Voigt equation moves elliptic regularization onto the time
+derivative, with the striking consequence that temporal height no longer
+increases datum depth.  Each problem is carried from its own datum estimate
+through the complete mixed and pressure jets, a common endpoint, and an
+explicit same-history restart.  The comparison is made by the proofs, not by
+an analogy among their names.
+
+\section{Three-dimensional axisymmetric flow without swirl}
+\label{sec:axisymmetric-application}
+
+The next problem restores three-dimensional vortex stretching.  It does not
+remove the nonlinearity or pressure, and it permits arbitrarily large smooth
+data.  Instead, axial symmetry exposes the precise part of vorticity that the
+stretching cannot amplify: the angular vorticity divided by its distance from
+the axis.  This scalar becomes the producer for the complete mixed jet.
+
+Write cylindrical coordinates as \((r,\theta,z)\).  A smooth axisymmetric
+velocity without swirl has the form
+\begin{equation}
+ u=u^r(r,z,t)e_r+u^z(r,z,t)e_z,
+ \qquad
+ \omega:=\nabla\times u=\omega^\theta(r,z,t)e_\theta.
+ \label{eq:axisymmetric-form}
+\end{equation}
+Let \(u_0\in\SSigma(\R^3)\) have this form.  Rotational invariance and local
+uniqueness preserve the class on the maximal classical interval.  Smoothness
+at the axis gives \(\omega^\theta=O(r)\), so
+\begin{equation}
+\eta:=\frac{\omega^\theta}{r}
+\label{eq:axisymmetric-relative-vorticity}
+\end{equation}
+extends smoothly across \(r=0\).
+Write \(T_{\max}^{\rm axi}\) for the maximal time in this invariant class.
+
+\begin{theorem}[Quantitative axisymmetric no-swirl jet]
+\label{thm:quantitative-axisymmetric-jet}
+Fix \(p>3\).  Every Schwartz, divergence-free, axisymmetric datum without
+swirl generates a unique global smooth no-swirl solution.  For every finite
+\(T>0\), every \(n,r,N,M\in\Nzero\), and every
+\(q,m\in\mathbb N\) with \(q,m\ge3\), the solution
+obeys the datum-side
+spatial, Lipschitz, dissipation, velocity-row, pressure-row, rectangle,
+endpoint, frequency-tail, and restart estimates
+\eqref{eq:axisymmetric-spatial-envelope-bound}--
+\eqref{eq:axisymmetric-dissipation-bound},
+\eqref{eq:axisymmetric-row-bound},
+\eqref{eq:axisymmetric-pressure-bound},
+\eqref{eq:axisymmetric-rectangle-bound}, and
+\eqref{eq:axisymmetric-endpoint-modulus}--
+\eqref{eq:axisymmetric-restart}.
+\end{theorem}
+
+\begin{proof}
+Directly taking the curl of Navier--Stokes
+gives
+\begin{align}
+ \partial_t\eta+u^r\partial_r\eta+u^z\partial_z\eta
+ &=\nu\left(
+  \partial_r^2+\frac3r\partial_r+\partial_z^2
+ \right)\eta,
+ \label{eq:axisymmetric-eta-equation}\\
+ \partial_t\omega^\theta+u^r\partial_r\omega^\theta
+ +u^z\partial_z\omega^\theta
+ -\nu\left(\Delta-\frac1{r^2}\right)\omega^\theta
+ &=\frac{u^r}{r}\omega^\theta.
+ \label{eq:axisymmetric-vorticity-equation}
+\end{align}
+These are the classical no-swirl equations.
+\bibref{HmidiRousset}\bibref{GallaySverak}
+
+The extra radial term in \eqref{eq:axisymmetric-eta-equation} has the good
+axis sign.  Multiplying by \(|\eta|^{a-2}\eta\), integrating with the
+three-dimensional measure \(r\,dr\,d\theta\,dz\), and integrating at \(r=0\)
+produces the boundary contribution
+\begin{equation}
+ -\frac{4\pi\nu}{a}\int_{\R}|\eta(0,z,t)|^a\,dz,
+ \label{eq:axisymmetric-axis-dissipation}
+\end{equation}
+in addition to the nonpositive bulk dissipation.  Approximation at
+\(a=1\) and the maximum principle then give
+\begin{equation}
+ \norm{\eta(t)}_{L^a(\R^3)}
+ \le\norm{\eta_0}_{L^a(\R^3)}
+ \qquad(1\le a\le\infty).
+ \label{eq:axisymmetric-eta-producer}
+\end{equation}
+This scalar producer remains viscous, and the radial diffusion records the
+geometry of the axis.
+
+To see what \eqref{eq:axisymmetric-eta-producer} buys, fix \(p>3\).  The
+axisymmetric Biot--Savart kernel satisfies
+\begin{equation}
+ \left|\frac{u^r(x,t)}{r}\right|
+ \le C\int_{\R^3}\frac{|\eta(y,t)|}{|x-y|^2}\,dy.
+ \label{eq:axisymmetric-biotsavart-pointwise}
+\end{equation}
+\bibref{HmidiRousset}\bibref{GallaySverak}
+Split the integral at a radius \(R>0\).  H\"older's inequality near the
+origin and Cauchy--Schwarz outside it give
+\begin{equation}
+ \norm{u^r(t)/r}_\infty
+ \le C_p\left(
+ R^{1-3/p}\norm{\eta(t)}_p
+ +R^{-1/2}\norm{\eta(t)}_2
+ \right).
+ \label{eq:axisymmetric-biotsavart-split}
+\end{equation}
+Optimizing in \(R\) and using
+\eqref{eq:axisymmetric-eta-producer} yields
+\begin{equation}
+ \norm{u^r(t)/r}_\infty
+ \le K_p[u_0],
+ \qquad
+ K_p[u_0]
+ :=C_p\norm{\eta_0}_2^{\alpha_p}
+       \norm{\eta_0}_p^{1-\alpha_p},
+ \label{eq:axisymmetric-stretching-coefficient}
+\end{equation}
+where
+\begin{equation}
+ \alpha_p:=\frac{2(p-3)}{3(p-2)}.
+ \label{eq:axisymmetric-interpolation-exponent}
+\end{equation}
+The exponent is forced by balancing the powers
+\(R^{1-3/p}\) and \(R^{-1/2}\).  The maximum principle applied to
+\eqref{eq:axisymmetric-vorticity-equation} now gives
+\begin{equation}
+ \norm{\omega(t)}_\infty
+ \le W_0e^{K_p[u_0]t},
+ \qquad W_0:=\norm{\omega_0}_\infty.
+ \label{eq:axisymmetric-vorticity-envelope}
+\end{equation}
+Thus the genuine three-dimensional stretching coefficient is finite on every
+finite horizon and is expressed entirely by the datum.
+
+\subsection{The spatial producer at every order}
+
+Fix an integer \(q\ge3\).  A dyadic decomposition proves the logarithmic
+gradient estimate
+\begin{equation}
+ \norm{\nabla u}_\infty
+ \le C_q\left[
+  1+\norm{u_0}_2
+  +\norm\omega_\infty
+   \log\!\left(e+\norm u_{H^q}\right)
+ \right].
+ \label{eq:axisymmetric-log-gradient}
+\end{equation}
+Indeed, the negative dyadic shells are bounded by the energy norm
+\(\norm{u(t)}_2\le\norm{u_0}_2\).  Each of the first \(J\) nonnegative
+shells is bounded by the frequency-localized Biot--Savart multiplier times
+\(\norm\omega_\infty\).  The high shells satisfy
+\[
+ \sum_{j>J}\norm{P_j\nabla u}_\infty
+ \le C_q2^{-J(q-5/2)}\norm u_{H^q}.
+\]
+Choosing \(J\) from \(e+\norm u_{H^q}\) gives
+\eqref{eq:axisymmetric-log-gradient}.  This is the usual
+Beale--Kato--Majda logarithm, derived here at the exact order used below.
+\bibref{BKM}
+
+The complete \(H^q\) energy row gives
+\begin{equation}
+ \frac d{dt}\norm{u(t)}_{H^q}
+ \le C_q\norm{\nabla u(t)}_\infty\norm{u(t)}_{H^q}.
+ \label{eq:axisymmetric-high-energy}
+\end{equation}
+Put
+\[
+ L_0:=1+\norm{u_0}_2,
+ \qquad
+ \Psi_K(T):=
+ \begin{cases}
+  (e^{KT}-1)/K,&K>0,\\
+  T,&K=0,
+ \end{cases}
+\]
+\begin{equation}
+ A_p(T):=W_0\Psi_{K_p[u_0]}(T),
+ \qquad
+ Y_{q,0}:=\log\!\left(e+\norm{u_0}_{H^q}\right).
+ \label{eq:axisymmetric-envelope-data}
+\end{equation}
+For
+\(Y_q(t):=\log(e+\norm{u(t)}_{H^q})\), equations
+\eqref{eq:axisymmetric-vorticity-envelope}--
+\eqref{eq:axisymmetric-high-energy} give
+\[
+ Y_q'(t)
+ \le C_q\left(L_0+W_0e^{K_p[u_0]t}Y_q(t)\right).
+\]
+Gronwall's inequality yields the completely datum-side quantities
+\begin{equation}
+ \overline Y_q(T)
+ :=\bigl(Y_{q,0}+C_qL_0T\bigr)e^{C_qA_p(T)},
+ \qquad
+ \mathsf S_q^{\rm axi}(T):=e^{\overline Y_q(T)},
+ \label{eq:axisymmetric-spatial-envelope}
+\end{equation}
+and the bounds
+\begin{align}
+ \sup_{0\le t\le T}\norm{u(t)}_{H^q}
+ &\le\mathsf S_q^{\rm axi}(T),
+ \label{eq:axisymmetric-spatial-envelope-bound}\\
+ \int_0^T\norm{\nabla u(t)}_\infty\,dt
+ &\le\mathsf J_q^{\rm axi}(T)
+ :=C_q\left[L_0T+A_p(T)\overline Y_q(T)\right].
+ \label{eq:axisymmetric-lipschitz-action}
+\end{align}
+No norm of the evolved solution remains on either right-hand side.
+
+The dissipative companion is also explicit.  The squared high-order energy
+row and \eqref{eq:axisymmetric-lipschitz-action} give
+\begin{equation}
+ \int_0^T\norm{u(t)}_{H^{q+1}}^2\,dt
+ \le\mathsf D_q^{\rm axi}(T)^2,
+ \label{eq:axisymmetric-dissipation-bound}
+\end{equation}
+where, after enlarging the norm-equivalence constant \(C_q\), one may take
+\begin{equation}
+ \mathsf D_q^{\rm axi}(T)^2
+ :=C_q\left[
+ T\norm{u_0}_2^2
+ +\frac{\norm{u_0}_{H^q}^2
+        +2C_q\mathsf S_q^{\rm axi}(T)^2
+          \mathsf J_q^{\rm axi}(T)}{\nu}
+ \right].
+ \label{eq:axisymmetric-dissipation-envelope}
+\end{equation}
+
+\subsection{The axisymmetric mixed and pressure jets}
+
+The producer has now paid all spatial orders.  The rest of the construction
+returns to the original three-dimensional equation.  Put
+\(V_n:=\partial_t^nu\), set \(\sigma_r:=\max\{2,r+1\}\), and define
+\begin{equation}
+ \mathsf U_{0,r}^{\rm axi}(T)
+ :=\mathsf S_{\max\{3,r\}}^{\rm axi}(T).
+ \label{eq:axisymmetric-row-base}
+\end{equation}
+With the product constants from \eqref{eq:row-product-constant}, define
+\begin{equation}
+ \mathsf U_{n+1,r}^{\rm axi}(T)
+ :=\nu\mathsf U_{n,r+2}^{\rm axi}(T)
+ +A_r\sum_{a=0}^{n}\binom na
+ \mathsf U_{a,\sigma_r}^{\rm axi}(T)
+ \mathsf U_{n-a,\sigma_r}^{\rm axi}(T).
+ \label{eq:axisymmetric-row-recursion}
+\end{equation}
+The projected momentum recurrence gives
+\begin{equation}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^r}
+ \le\mathsf U_{n,r}^{\rm axi}(T).
+ \label{eq:axisymmetric-row-bound}
+\end{equation}
+For the natural negative row, put
+\begin{equation}
+ \mathsf U_{n+1,-1}^{\rm axi}(T)
+ :=\nu\mathsf U_{n,1}^{\rm axi}(T)
+ +A_{-1}\sum_{a=0}^{n}\binom na
+ \mathsf U_{a,1}^{\rm axi}(T)
+ \mathsf U_{n-a,1}^{\rm axi}(T).
+ \label{eq:axisymmetric-negative-row}
+\end{equation}
+
+The normalized pressure rows are
+\begin{equation}
+ Q_n:=\partial_t^np
+ =R_iR_j\sum_{a=0}^{n}\binom na
+  (V_a)_i(V_{n-a})_j.
+ \label{eq:axisymmetric-pressure-formula}
+\end{equation}
+Accordingly, they obey
+\begin{equation}
+ \mathsf Q_{n,r}^{\rm axi}(T)
+ :=A_r\sum_{a=0}^{n}\binom na
+ \mathsf U_{a,\sigma_r}^{\rm axi}(T)
+ \mathsf U_{n-a,\sigma_r}^{\rm axi}(T),
+ \label{eq:axisymmetric-pressure-envelope}
+\end{equation}
+and hence
+\begin{equation}
+ \sup_{0\le t\le T}\norm{\partial_t^np(t)}_{H^r}
+ \le\mathsf Q_{n,r}^{\rm axi}(T).
+ \label{eq:axisymmetric-pressure-bound}
+\end{equation}
+For every \(N,M\in\Nzero\), define
+\begin{equation}
+ \mathfrak R_{N,M}^{\rm axi}(T)
+ :=T\sum_{n=0}^{N}\left[
+  \bigl(\mathsf U_{n,M+1}^{\rm axi}(T)\bigr)^2
+  +\bigl(\mathsf U_{n+1,M-1}^{\rm axi}(T)\bigr)^2
+ \right],
+ \label{eq:axisymmetric-rectangle-envelope}
+\end{equation}
+using \eqref{eq:axisymmetric-negative-row} when \(M=0\).  Measure the actual
+axisymmetric history by
+\[
+ \mathcal N_{N,M}^{\rm axi}(u;T)
+ :=\sum_{n=0}^{N}\norm{V_n}_{L^2(0,T;H^{M+1})}^2
+   +\sum_{n=0}^{N}\norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+\]
+It satisfies
+\begin{equation}
+ \mathcal N_{N,M}^{\rm axi}(u;T)
+ \le\mathfrak R_{N,M}^{\rm axi}(T).
+ \label{eq:axisymmetric-rectangle-bound}
+\end{equation}
+Expanding this finite recursion uses datum derivatives through order at most
+\(\max\{3,M+2N+1\}\), together with \(\eta_0\) in the two displayed
+Lebesgue spaces.
+
+Every rectangle is a restriction of the same axisymmetric velocity and
+normalized pressure.  At a chosen horizon, the endpoint moduli are
+\begin{align}
+ \norm{V_n(t)-V_n(T)}_{H^m}
+ &\le(T-t)\mathsf U_{n+1,m}^{\rm axi}(T),
+ \label{eq:axisymmetric-endpoint-modulus}\\
+ \norm{Q_n(t)-Q_n(T)}_{H^r}
+ &\le(T-t)\mathsf Q_{n+1,r}^{\rm axi}(T).
+ \label{eq:axisymmetric-pressure-modulus}
+\end{align}
+The critical frequency tail has the explicit form
+\begin{equation}
+ \sup_{0\le t\le T}H_{>K}(t)
+ \le\frac12K^{1-2m}\mathsf S_m^{\rm axi}(T)^2,
+ \qquad m\ge3, K\ge1.
+ \label{eq:axisymmetric-tail}
+\end{equation}
+
+For every \(0<T<T_{\max}^{\rm axi}\), the local \(H^3\) construction and
+\eqref{eq:axisymmetric-spatial-envelope-bound} give a same-history restart of
+length
+\begin{equation}
+ \delta_T^{\rm axi}
+ \ge\min\left\{1,
+ c_\nu\bigl(1+\mathsf S_3^{\rm axi}(T)\bigr)^{-2}
+ \right\}.
+ \label{eq:axisymmetric-restart}
+\end{equation}
+
+If \(T_{\max}^{\rm axi}\) were finite, apply
+the estimates first on \([0,\tau]\), \(\tau<T_{\max}^{\rm axi}\), with the
+right sides evaluated at \(T_{\max}^{\rm axi}\), and then let
+\(\tau\uparrow T_{\max}^{\rm axi}\).  The compatible
+rectangles give one \(H^\infty\) endpoint and the complete pressure jet.  At
+that endpoint the limiting rows obey
+\[
+ V_{n+1,*}
+ =\nu\Delta V_{n,*}
+  -\sum_{a=0}^{n}\binom na
+   \PP(V_{a,*}\cdot\nabla V_{n-a,*}),
+\]
+together with the normalized limit of
+\eqref{eq:axisymmetric-pressure-formula}.  The local theorem restarts it for
+the positive time supplied by \eqref{eq:axisymmetric-restart} with
+\(T=T_{\max}^{\rm axi}\).
+The adjacent-row trace proof, the normalized pressure recurrence, and the
+local \(H^3\) construction now apply directly to these axisymmetric
+rectangles.  The right local jet agrees inductively with the left endpoint
+jet, the joined curve is smooth through \(T_{\max}^{\rm axi}\), and uniqueness thereafter
+preserves axial symmetry and zero swirl.  Finite maximality is impossible.
+This recovers global smoothness for every Schwartz axisymmetric no-swirl datum
+in the stated class, now with an explicit mixed jet, pressure jet, frequency
+tail, endpoint modulus, and restart time.  The global regularity of this class
+is classical; the result here is its complete realization through the paper's
+quantitative producer--intersection mechanism.
+\end{proof}
+
+\section{A coupled three-dimensional fluid and magnetic field}
+\label{sec:mhd-application}
+
+The previous application still evolved one vector field.  A stronger test is
+to let a second divergence-free field enter the transport itself.  In
+Alfv\'enic units, viscous--resistive incompressible magnetohydrodynamics on
+\(\R^3\) reads
+\begin{align}
+ \partial_tu-\nu\Delta u+(u\cdot\nabla)u-(b\cdot\nabla)b
+ +\nabla\Pi&=0,
+ \label{eq:mhd-momentum}\\
+ \partial_tb-\eta\Delta b+(u\cdot\nabla)b-(b\cdot\nabla)u&=0,
+ \label{eq:mhd-induction}\\
+ \nabla\cdot u=\nabla\cdot b&=0.
+ \label{eq:mhd-divergence}
+\end{align}
+Here \(\nu,\eta>0\), and
+\(\Pi=p+|b|^2/2\) is total pressure.  The magnetic field can transfer
+energy to the velocity and take it back.  The producer must control that
+exchange as one coupled state; the endpoint must carry two compatible jets;
+and the pressure must retain the difference between their quadratic
+stresses.
+
+Let \(\dot\Delta_j\) be homogeneous Littlewood--Paley blocks and write
+\begin{equation}
+ \norm f_{\dot B^s_{2,1}}
+ :=\sum_{j\in\mathbb Z}2^{js}\norm{\dot\Delta_jf}_2.
+ \label{eq:mhd-besov-norm}
+\end{equation}
+For a time norm with a tilde, the time norm is taken inside this dyadic sum.
+Schwartz data satisfy the usual homogeneous low-frequency normalization.
+The critical small-data theory in these spaces is classical.
+\bibref{MiaoYuan}
+
+\begin{theorem}[Quantitative coupled MHD jet]
+\label{thm:quantitative-mhd-jet}
+Let \(u_0,b_0\in\mathcal S(\R^3)\) be divergence free and put
+\begin{equation}
+ \mu:=\min\{\nu,\eta\},
+ \qquad
+ A_0:=\norm{u_0}_{\dot B^{1/2}_{2,1}}
+      +\norm{b_0}_{\dot B^{1/2}_{2,1}}.
+ \label{eq:mhd-data-size}
+\end{equation}
+There are fixed dyadic constants \(c_h,C_B>0\) such that, if
+\begin{equation}
+ A_0\le\varepsilon_{\rm MHD}\mu,
+ \qquad
+ \varepsilon_{\rm MHD}:=\frac{c_h}{4C_B},
+ \label{eq:mhd-smallness}
+\end{equation}
+then \eqref{eq:mhd-momentum}--\eqref{eq:mhd-divergence} has a unique global
+smooth solution.  Every finite spatial and temporal order obeys the explicit
+coupled producer, velocity, magnetic, total-pressure, mechanical-pressure,
+rectangle, endpoint, tail, datum-depth, and restart estimates
+\eqref{eq:mhd-critical-producer}--\eqref{eq:mhd-restart} below.
+\end{theorem}
+
+\begin{proof}
+The first cancellation already shows why \((u,b)\) must be kept together.
+Pair \eqref{eq:mhd-momentum} with \(u\), pair
+\eqref{eq:mhd-induction} with \(b\), and add.  Incompressibility removes
+the two terms transported by \(u\), while integration by parts gives
+\[
+ -\pair{b\cdot\nabla b}{u}
+ -\pair{b\cdot\nabla u}{b}=0.
+\]
+Thus
+\begin{equation}
+ \frac12\frac d{dt}
+ \left(\norm u_2^2+\norm b_2^2\right)
+ +\nu\norm{\nabla u}_2^2+\eta\norm{\nabla b}_2^2=0.
+ \label{eq:mhd-energy}
+\end{equation}
+
+The energy identity alone does not control the Lipschitz action needed by
+the high Sobolev rows.  The critical Besov producer does.  For a finite
+horizon define
+\begin{align}
+ \mathcal A(T)
+ &:=\norm u_{\widetilde L^\infty(0,T;\dot B^{1/2}_{2,1})}
+   +\norm b_{\widetilde L^\infty(0,T;\dot B^{1/2}_{2,1})},
+ \label{eq:mhd-critical-size}\\
+ \mathcal D(T)
+ &:=\nu\norm u_{L^1(0,T;\dot B^{5/2}_{2,1})}
+   +\eta\norm b_{L^1(0,T;\dot B^{5/2}_{2,1})}.
+ \label{eq:mhd-critical-dissipation}
+\end{align}
+The product estimate that bears the weight is
+\begin{equation}
+ \norm{f\cdot\nabla g}_{\dot B^{1/2}_{2,1}}
+ \le C_B\norm f_{\dot B^{1/2}_{2,1}}
+          \norm g_{\dot B^{5/2}_{2,1}}.
+ \label{eq:mhd-critical-product}
+\end{equation}
+To see the derivative count, decompose
+\[
+ f\cdot\nabla g
+ =T_f(\nabla g)+T_{\nabla g}f+R(f,\nabla g).
+\]
+The three paraproduct bounds, together with
+\(\dot B^{3/2}_{2,1}\hookrightarrow L^\infty\), give
+\eqref{eq:mhd-critical-product}; the endpoint summation is paid by the
+Littlewood--Paley \(\ell^1\) index.
+\bibref{BCD}
+
+Apply the dyadic heat estimate to the projected momentum equation and the
+induction equation.  Summing over \(j\) and using
+\eqref{eq:mhd-critical-product} gives
+\begin{equation}
+ \mathcal A(T)+c_h\mathcal D(T)
+ \le A_0+\frac{C_B}{\mu}\mathcal A(T)\mathcal D(T).
+ \label{eq:mhd-bootstrap-inequality}
+\end{equation}
+On an interval where \(\mathcal A(T)\le2A_0\), the smallness assumption
+\eqref{eq:mhd-smallness} absorbs the last term and improves the bound.
+Continuity closes the bootstrap:
+\begin{equation}
+ \mathcal A(T)+\frac{c_h}{2}\mathcal D(T)
+ \le A_0
+ \qquad(T<T_{\max}).
+ \label{eq:mhd-critical-producer}
+\end{equation}
+If \(C_E\) is the embedding constant in
+\(\norm{\nabla f}_\infty\le C_E\norm f_{\dot B^{5/2}_{2,1}}\), then
+\begin{equation}
+ \int_0^T\left(\norm{\nabla u(t)}_\infty
+                  +\norm{\nabla b(t)}_\infty\right)dt
+ \le J_0:=\frac{2C_EA_0}{c_h\mu}.
+ \label{eq:mhd-lipschitz-action}
+\end{equation}
+The right side no longer depends on the horizon.
+
+Fix an integer \(q\ge3\) and set
+\begin{equation}
+ Z_q(t):=\norm{u(t)}_{H^q}^2+\norm{b(t)}_{H^q}^2,
+ \qquad
+ L(t):=\norm{\nabla u(t)}_\infty+\norm{\nabla b(t)}_\infty.
+ \label{eq:mhd-high-variables}
+\end{equation}
+After \(\partial^\gamma\), \(|\gamma|\le q\), the leading
+\(u\)-transport terms vanish.  The two leading \(b\)-terms cancel against
+each other just as they did in \eqref{eq:mhd-energy}.  Every remaining term
+is a commutator, and
+\begin{equation}
+ \norm{[\partial^\gamma,f\cdot\nabla]g}_2
+ \le C_q\left(
+  \norm{\nabla f}_\infty\norm g_{H^q}
+  +\norm f_{H^q}\norm{\nabla g}_\infty
+ \right).
+ \label{eq:mhd-commutator}
+\end{equation}
+Summing the two equations gives
+\begin{equation}
+ \frac12Z_q'(t)
+ +\nu\norm{\nabla u}_{H^q}^2
+ +\eta\norm{\nabla b}_{H^q}^2
+ \le C_qL(t)Z_q(t).
+ \label{eq:mhd-high-energy}
+\end{equation}
+Define
+\begin{equation}
+ \mathsf S_q^{\rm MHD}
+ :=Z_q(0)^{1/2}e^{C_qJ_0}.
+ \label{eq:mhd-spatial-envelope}
+\end{equation}
+After enlarging \(C_q\) to absorb the harmless factor from
+\eqref{eq:mhd-high-energy}, one obtains
+\begin{equation}
+ \sup_{0\le t\le T}Z_q(t)^{1/2}
+ \le\mathsf S_q^{\rm MHD}.
+ \label{eq:mhd-spatial-bound}
+\end{equation}
+The integrated companion is
+\begin{equation}
+ \bigl(\mathsf D_q^{\rm MHD}(T)\bigr)^2
+ :=T\bigl(\mathsf S_q^{\rm MHD}\bigr)^2
+ +\frac{\frac12Z_q(0)+C_qJ_0(\mathsf S_q^{\rm MHD})^2}{\mu},
+ \label{eq:mhd-dissipation-envelope}
+\end{equation}
+for which
+\begin{equation}
+ \norm u_{L^2(0,T;H^{q+1})}^2
+ +\norm b_{L^2(0,T;H^{q+1})}^2
+ \le\bigl(\mathsf D_q^{\rm MHD}(T)\bigr)^2.
+ \label{eq:mhd-dissipation-bound}
+\end{equation}
+The bound \eqref{eq:mhd-spatial-bound}, first at one \(q>5/2\) and then at
+every finite \(q\), prevents finite-time loss of the classical coupled
+solution.
+
+\subsection{The coupled mixed jet}
+
+Write
+\begin{equation}
+ V_n:=\partial_t^nu,
+ \qquad W_n:=\partial_t^nb.
+ \label{eq:mhd-row-notation}
+\end{equation}
+Differentiating the projected equations gives
+\begin{align}
+ V_{n+1}
+ &={}\nu\Delta V_n
+ -\sum_{a=0}^n\binom na\PP\left[
+   (V_a\cdot\nabla)V_{n-a}
+   -(W_a\cdot\nabla)W_{n-a}
+ \right],
+ \label{eq:mhd-velocity-recurrence}\\
+ W_{n+1}
+ &={}\eta\Delta W_n
+ -\sum_{a=0}^n\binom na\left[
+   (V_a\cdot\nabla)W_{n-a}
+   -(W_a\cdot\nabla)V_{n-a}
+ \right].
+ \label{eq:mhd-magnetic-recurrence}
+\end{align}
+For \(r\ge0\), let \(\sigma_r:=\max\{2,r+1\}\) and fix \(A_r\) so that
+\begin{equation}
+ \norm{\PP(f\cdot\nabla g)}_{H^r}
+ +\norm{f\cdot\nabla g}_{H^r}
+ \le A_r\norm f_{H^{\sigma_r}}\norm g_{H^{\sigma_r}}.
+ \label{eq:mhd-row-product}
+\end{equation}
+Set
+\begin{equation}
+ \mathsf U_{0,r}^{\rm MHD}
+ =\mathsf B_{0,r}^{\rm MHD}
+ :=\mathsf S_{\max\{3,r\}}^{\rm MHD}.
+ \label{eq:mhd-row-base}
+\end{equation}
+Define the two finite recursions
+\begin{align}
+ \mathsf U_{n+1,r}^{\rm MHD}
+ &:={}\nu\mathsf U_{n,r+2}^{\rm MHD}
+ +A_r\sum_{a=0}^n\binom na\left(
+  \mathsf U_{a,\sigma_r}^{\rm MHD}
+  \mathsf U_{n-a,\sigma_r}^{\rm MHD}
+  +\mathsf B_{a,\sigma_r}^{\rm MHD}
+  \mathsf B_{n-a,\sigma_r}^{\rm MHD}
+ \right),
+ \label{eq:mhd-velocity-envelope}\\
+ \mathsf B_{n+1,r}^{\rm MHD}
+ &:={}\eta\mathsf B_{n,r+2}^{\rm MHD}
+ +A_r\sum_{a=0}^n\binom na\left(
+  \mathsf U_{a,\sigma_r}^{\rm MHD}
+  \mathsf B_{n-a,\sigma_r}^{\rm MHD}
+  +\mathsf B_{a,\sigma_r}^{\rm MHD}
+  \mathsf U_{n-a,\sigma_r}^{\rm MHD}
+ \right).
+ \label{eq:mhd-magnetic-envelope}
+\end{align}
+They give
+\begin{align}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^r}
+ &\le\mathsf U_{n,r}^{\rm MHD},
+ \label{eq:mhd-velocity-bound}\\
+ \sup_{0\le t\le T}\norm{W_n(t)}_{H^r}
+ &\le\mathsf B_{n,r}^{\rm MHD}.
+ \label{eq:mhd-magnetic-bound}
+\end{align}
+At the natural negative row, fix \(A_{-1}\) so that
+\begin{equation}
+ \norm{\PP(f\cdot\nabla g)}_{H^{-1}}
+ +\norm{f\cdot\nabla g}_{H^{-1}}
+ \le A_{-1}\norm f_{H^1}\norm g_{H^1},
+ \label{eq:mhd-negative-product}
+\end{equation}
+for the divergence-free factors used here, because
+\(f\cdot\nabla g=\nabla\cdot(f\otimes g)\),
+\(\norm{f\otimes g}_2\le\norm f_4\norm g_4\), and \(\PP\) is bounded on
+\(H^{-1}\).  Put
+\begin{equation}
+ \mathsf U_{0,-1}^{\rm MHD}
+ =\mathsf B_{0,-1}^{\rm MHD}:=\mathsf S_3^{\rm MHD}
+ \label{eq:mhd-negative-base}
+\end{equation}
+and define
+\begin{align}
+ \mathsf U_{n+1,-1}^{\rm MHD}
+ &:={}\nu\mathsf U_{n,1}^{\rm MHD}
+ +A_{-1}\sum_{a=0}^n\binom na\left(
+  \mathsf U_{a,1}^{\rm MHD}\mathsf U_{n-a,1}^{\rm MHD}
+  +\mathsf B_{a,1}^{\rm MHD}\mathsf B_{n-a,1}^{\rm MHD}
+ \right),
+ \label{eq:mhd-negative-velocity-envelope}\\
+ \mathsf B_{n+1,-1}^{\rm MHD}
+ &:={}\eta\mathsf B_{n,1}^{\rm MHD}
+ +A_{-1}\sum_{a=0}^n\binom na\left(
+  \mathsf U_{a,1}^{\rm MHD}\mathsf B_{n-a,1}^{\rm MHD}
+  +\mathsf B_{a,1}^{\rm MHD}\mathsf U_{n-a,1}^{\rm MHD}
+ \right).
+ \label{eq:mhd-negative-magnetic-envelope}
+\end{align}
+Equations \eqref{eq:mhd-velocity-recurrence}--
+\eqref{eq:mhd-negative-product} give
+\begin{equation}
+ \sup_{0\le t\le T}
+ \left(\norm{V_n(t)}_{H^{-1}}+\norm{W_n(t)}_{H^{-1}}\right)
+ \le\mathsf U_{n,-1}^{\rm MHD}+\mathsf B_{n,-1}^{\rm MHD}.
+ \label{eq:mhd-negative-bound}
+\end{equation}
+This supplies the lower side of the \(M=0\) rectangle with the projected
+transport term retained.
+
+\subsection{Both pressures and every finite rectangle}
+
+The normalized total pressure is
+\begin{equation}
+ \Pi=R_iR_j(u_i u_j-b_i b_j).
+ \label{eq:mhd-total-pressure}
+\end{equation}
+For \(Q_n:=\partial_t^n\Pi\),
+\begin{equation}
+ Q_n=R_iR_j\sum_{a=0}^n\binom na\left[
+  (V_a)_i(V_{n-a})_j-(W_a)_i(W_{n-a})_j
+ \right].
+ \label{eq:mhd-total-pressure-recurrence}
+\end{equation}
+Let
+\begin{equation}
+ \tau_0:=1,\qquad \tau_1:=2,\qquad \tau_r:=r\quad(r\ge2),
+ \label{eq:mhd-pressure-indices}
+\end{equation}
+and fix \(P_r\) so that
+\begin{equation}
+ \norm{R_iR_j(f_i g_j)}_{H^r}+\norm{f_i g_j}_{H^r}
+ \le P_r\norm f_{H^{\tau_r}}\norm g_{H^{\tau_r}}.
+ \label{eq:mhd-pressure-product}
+\end{equation}
+Then
+\begin{equation}
+ \mathsf Q_{n,r}^{\rm MHD}
+ :=P_r\sum_{a=0}^n\binom na\left(
+  \mathsf U_{a,\tau_r}^{\rm MHD}
+  \mathsf U_{n-a,\tau_r}^{\rm MHD}
+  +\mathsf B_{a,\tau_r}^{\rm MHD}
+  \mathsf B_{n-a,\tau_r}^{\rm MHD}
+ \right)
+ \label{eq:mhd-total-pressure-envelope}
+\end{equation}
+obeys
+\begin{equation}
+ \sup_{0\le t\le T}\norm{Q_n(t)}_{H^r}
+ \le\mathsf Q_{n,r}^{\rm MHD}.
+ \label{eq:mhd-total-pressure-bound}
+\end{equation}
+The mechanical pressure is not discarded.  Since
+\(p=\Pi-|b|^2/2\), its row is
+\begin{equation}
+ \partial_t^np
+ =Q_n-\frac12\sum_{a=0}^n\binom na W_a\cdot W_{n-a},
+ \label{eq:mhd-mechanical-pressure-recurrence}
+\end{equation}
+Define its explicit companion envelope by
+\begin{equation}
+ \mathsf P_{n,r}^{\rm mech}(T)
+ :=\mathsf Q_{n,r}^{\rm MHD}
+ +\frac{P_r}{2}\sum_{a=0}^n\binom na
+  \mathsf B_{a,\tau_r}^{\rm MHD}
+  \mathsf B_{n-a,\tau_r}^{\rm MHD}.
+ \label{eq:mhd-mechanical-pressure-envelope}
+\end{equation}
+Then
+\begin{equation}
+ \sup_{0\le t\le T}\norm{\partial_t^np(t)}_{H^r}
+ \le\mathsf P_{n,r}^{\rm mech}(T).
+ \label{eq:mhd-mechanical-pressure-bound}
+\end{equation}
+
+For \(N,M\in\Nzero\), define
+\begin{align}
+ \mathcal N_{N,M}^{\rm MHD}(u,b;T)
+ :=\sum_{n=0}^N\bigl[
+ &\norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\norm{W_n}_{L^2(0,T;H^{M+1})}^2
+ \notag\\
+ &+\norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2
+ +\norm{W_{n+1}}_{L^2(0,T;H^{M-1})}^2
+ \bigr].
+ \label{eq:mhd-rectangle-norm}
+\end{align}
+The uniform rows give the datum-side enclosure
+\begin{align}
+ \mathcal N_{N,M}^{\rm MHD}(u,b;T)
+ &\le\mathfrak R_{N,M}^{\rm MHD}(T),
+ \label{eq:mhd-rectangle-bound}\\
+ \mathfrak R_{N,M}^{\rm MHD}(T)
+ :=T\sum_{n=0}^N\bigl[
+ &(\mathsf U_{n,M+1}^{\rm MHD})^2
+ +(\mathsf B_{n,M+1}^{\rm MHD})^2
+ \notag\\
+ &+(\mathsf U_{n+1,M-1}^{\rm MHD})^2
+ +(\mathsf B_{n+1,M-1}^{\rm MHD})^2
+ \bigr].
+ \label{eq:mhd-rectangle-envelope}
+\end{align}
+The negative rows just defined are used when \(M=0\).  The pressure companion
+is
+\begin{equation}
+ \sum_{n=0}^N\left[
+  \norm{Q_n}_{L^2(0,T;H^M)}^2
+  +\norm{\partial_t^np}_{L^2(0,T;H^M)}^2
+ \right]
+ \le T\sum_{n=0}^N\left[
+  (\mathsf Q_{n,M}^{\rm MHD})^2
+  +(\mathsf P_{n,M}^{\rm mech}(T))^2
+ \right].
+ \label{eq:mhd-pressure-rectangle}
+\end{equation}
+Every rectangle is a restriction of the same coupled history, so all
+overlaps agree without choosing either field again.
+
+The velocity and magnetic row \((n,r)\) reads the data through no order above
+\begin{equation}
+ d_{n,r}^{u,b}:=\max\{3,r+2n\}.
+ \label{eq:mhd-field-ledger}
+\end{equation}
+The total or mechanical pressure row reads no higher than
+\begin{equation}
+ d_{n,r}^{p}:=\max\{3,\tau_r+2n\},
+ \label{eq:mhd-pressure-ledger}
+\end{equation}
+and the rectangle \((N,M)\) reads no higher than
+\begin{equation}
+ d_{N,M}^{\rm rect}:=\max\{3,M+2N+1\}.
+ \label{eq:mhd-rectangle-ledger}
+\end{equation}
+
+\subsection{Coupled endpoint and restart}
+
+For every \(n,m\in\Nzero\), Banach-valued integration gives
+\begin{align}
+ \norm{V_n(t)-V_n(T)}_{H^m}
+ &\le(T-t)\mathsf U_{n+1,m}^{\rm MHD},
+ \label{eq:mhd-velocity-endpoint}\\
+ \norm{W_n(t)-W_n(T)}_{H^m}
+ &\le(T-t)\mathsf B_{n+1,m}^{\rm MHD},
+ \label{eq:mhd-magnetic-endpoint}\\
+ \norm{Q_n(t)-Q_n(T)}_{H^m}
+ &\le(T-t)\mathsf Q_{n+1,m}^{\rm MHD},
+ \label{eq:mhd-pressure-endpoint}\\
+ \norm{\partial_t^np(t)-\partial_t^np(T)}_{H^m}
+ &\le(T-t)\mathsf P_{n+1,m}^{\rm mech}(T).
+ \label{eq:mhd-mechanical-pressure-endpoint}
+\end{align}
+The two field moduli read the data through no order above
+\begin{equation}
+ \max\{3,m+2n+2\}.
+ \label{eq:mhd-field-endpoint-ledger}
+\end{equation}
+The datum depth of both pressure moduli is at most
+\begin{equation}
+ \max\{3,\tau_m+2n+2\}.
+ \label{eq:mhd-pressure-endpoint-ledger}
+\end{equation}
+
+For every temporal row define the coupled critical height and its
+high-frequency tail by
+\begin{align}
+ \mathcal H_n^{\rm MHD}(t)
+ :=\frac12\int_{\R^3}|\xi|
+ \left(|\widehat V_n(\xi,t)|^2+|\widehat W_n(\xi,t)|^2\right)d\xi,
+ \label{eq:mhd-critical-height}\\
+ \mathcal H_{n,>K}^{\rm MHD}(t)
+ :=\frac12\int_{|\xi|>K}|\xi|
+ \left(|\widehat V_n|^2+|\widehat W_n|^2\right)d\xi.
+ \label{eq:mhd-critical-tail}
+\end{align}
+Thus \(\mathcal H_0^{\rm MHD}\) is the base coupled height.  The row
+envelopes give
+\begin{align}
+ \sup_{0\le t\le T}\mathcal H_n^{\rm MHD}(t)
+ &\le\frac12\left[
+  (\mathsf U_{n,1}^{\rm MHD})^2
+  +(\mathsf B_{n,1}^{\rm MHD})^2
+ \right],
+ \label{eq:mhd-critical-height-bound}\\
+ \sup_{0\le t\le T}\mathcal H_{n,>K}^{\rm MHD}(t)
+ &\le\frac12K^{1-2m}\left[
+  (\mathsf U_{n,m}^{\rm MHD})^2
+  +(\mathsf B_{n,m}^{\rm MHD})^2
+ \right],
+ \qquad m\ge3,\ K\ge1.
+ \label{eq:mhd-frequency-tail}
+\end{align}
+
+It remains to cross a hypothetical finite terminal time with the coupled
+state.  Use the linear constant \(C_{\rm lin}\) from
+\eqref{eq:explicit-linear-local-constant} and define
+\begin{equation}
+ C_{\rm sys}(\nu,\eta)
+ :=\max\{C_{\rm lin}(\nu),C_{\rm lin}(\eta)\}.
+ \label{eq:mhd-linear-constant}
+\end{equation}
+Let \(C_{\rm quad}^{\rm MHD}\) be a fixed dimension-dependent constant for
+the sum of the four \(H^3\)-based quadratic estimates in
+\eqref{eq:mhd-momentum} and \eqref{eq:mhd-induction}, and set
+\begin{equation}
+ c_{\nu,\eta}^{\rm MHD}
+ :=\left[
+  8C_{\rm quad}^{\rm MHD}C_{\rm sys}(\nu,\eta)^2
+ \right]^{-2}.
+ \label{eq:mhd-restart-constant}
+\end{equation}
+For data \((a,c)\in H^3_\sigma\times H^3_\sigma\), define the paired mild
+map
+\begin{align}
+ \Phi_u(w,h)(t)
+ &:={}e^{\nu t\Delta}a
+ -\int_0^t e^{\nu(t-s)\Delta}\PP\left[
+  (w\cdot\nabla)w-(h\cdot\nabla)h
+ \right](s)\,ds,
+ \notag\\
+ \Phi_b(w,h)(t)
+ &:={}e^{\eta t\Delta}c
+ -\int_0^t e^{\eta(t-s)\Delta}\left[
+  (w\cdot\nabla)h-(h\cdot\nabla)w
+ \right](s)\,ds.
+ \label{eq:mhd-mild-map}
+\end{align}
+Equip \(X_\delta\times X_\delta\), with \(X_\delta\) from
+Appendix~\ref{app:local-theory}, with the sum norm, and write
+\(A=\norm a_{H^3}+\norm c_{H^3}\).  The two linear estimates and the four
+quadratic products give
+\begin{align}
+ \norm{(\Phi_u,\Phi_b)(w,h)}_{X_\delta\times X_\delta}
+ &\le C_{\rm sys}A
+ +C_{\rm sys}C_{\rm quad}^{\rm MHD}\delta^{1/2}
+  \norm{(w,h)}_{X_\delta\times X_\delta}^2,
+ \label{eq:mhd-map-bound}\\
+ \norm{(\Phi_u,\Phi_b)(w,h)-(\Phi_u,\Phi_b)(v,k)}_{X_\delta\times X_\delta}
+ &\le C_{\rm sys}C_{\rm quad}^{\rm MHD}\delta^{1/2}
+ \left(\norm{(w,h)}_{X_\delta\times X_\delta}
+       +\norm{(v,k)}_{X_\delta\times X_\delta}\right)
+ \notag\\
+ &\hspace{7em}\cdot
+ \norm{(w-v,h-k)}_{X_\delta\times X_\delta}.
+ \label{eq:mhd-map-difference}
+\end{align}
+Taking \(R=2C_{\rm sys}A\) and
+\(4C_{\rm sys}C_{\rm quad}^{\rm MHD}\delta^{1/2}R\le1\) makes the
+radius-\(R\) ball invariant and the map contractive.  Banach's theorem gives
+\begin{equation}
+ \delta(\nu,\eta,a,c)
+ \ge\min\left\{1,
+ c_{\nu,\eta}^{\rm MHD}
+ \bigl(1+\norm a_{H^3}+\norm c_{H^3}\bigr)^{-2}
+ \right\}.
+ \label{eq:mhd-local-lifespan}
+\end{equation}
+At the common endpoint,
+\(\norm{u(T)}_{H^3}+\norm{b(T)}_{H^3}
+ \le\sqrt2\mathsf S_3^{\rm MHD}\).  Hence the same-history restart obeys
+\begin{equation}
+ \delta_T^{\rm MHD}
+ \ge\min\left\{1,
+ c_{\nu,\eta}^{\rm MHD}
+ \bigl(1+\sqrt2\mathsf S_3^{\rm MHD}\bigr)^{-2}
+ \right\}.
+ \label{eq:mhd-restart}
+\end{equation}
+Suppose instead that the maximal smooth MHD time \(T_{\max}\) were finite.
+Apply the estimates above on \([0,\tau]\), \(\tau<T_{\max}\).  Their uniform
+right sides are independent of \(\tau\), and every integrated right side is
+bounded by the same expression with \(T_{\max}\) in place of \(\tau\).
+Monotone convergence gives every coupled rectangle on
+\((0,T_{\max})\).  The endpoint moduli then produce one pair
+\((u_*,b_*)\in H^\infty_\sigma\times H^\infty_\sigma\) and both normalized
+pressure jets at \(T_{\max}\).  In particular,
+\(\norm{u_*}_{H^3}+\norm{b_*}_{H^3}\le\sqrt2\mathsf S_3^{\rm MHD}\), so
+\eqref{eq:mhd-restart} continues the pair beyond \(T_{\max}\).  Local
+uniqueness identifies the new branch with the old one on their overlap.
+Passing to the limit in \eqref{eq:mhd-velocity-recurrence} and
+\eqref{eq:mhd-magnetic-recurrence} identifies every right row with its left
+endpoint row.  The joined coupled history is smooth, contradicting finite
+maximality.  This proves the theorem under the stated critical datum
+condition.
+\end{proof}
+
+\section{Critical hyperdissipation in three dimensions}
+\label{sec:hyperdissipative-application}
+
+The axisymmetric argument changed the geometry seen by the stretching term
+while leaving the Laplacian untouched.  We now keep unrestricted
+three-dimensional transport and change the dissipation instead.  Consider
+\begin{equation}
+ \partial_tu+(u\cdot\nabla)u+\nabla p
+ +\nu\Lambda^{2\alpha}u=0,
+ \qquad \nabla\cdot u=0,
+ \qquad \Lambda:=(-\Delta)^{1/2},
+ \label{eq:hyper-system}
+\end{equation}
+on \(\R^3\), with \(\alpha\ge5/4\).  At the borderline value, the basic
+energy dissipation carries exactly the spatial integrability needed to pay
+the differentiated transport term.  Once that payment is made, the rest of
+the proof can be read from the equation: the fractional operator changes the
+width of each spatial rectangle, but it does not change compatibility,
+pressure normalization, endpoint formation, or same-history restart.
+The classical global regularity range begins at this exponent.
+\bibref{TaoHyper}
+
+\begin{theorem}[Quantitative hyperdissipative jet]
+\label{thm:quantitative-hyperdissipative-jet}
+Let \(\nu>0\), \(\alpha\ge5/4\), and
+\(u_0\in\SSigma(\R^3)\).  Equation~\eqref{eq:hyper-system} has a unique
+global smooth solution with normalized pressure
+ \(p=R_iR_j(u_i u_j)\).  For every finite horizon \(T\), every finite
+ temporal order, and every nonnegative real spatial order, its spatial rows, mixed
+velocity and pressure rows, compatible fractional rectangles, endpoint
+moduli, frequency tails, datum-depth ledger, and restart lifespan obey the
+explicit estimates \eqref{eq:hyper-spatial-bound}--
+\eqref{eq:hyper-restart-datum} below.
+\end{theorem}
+
+\begin{proof}
+Put \(M_0:=\norm{u_0}_2\).  Pairing
+\eqref{eq:hyper-system} with \(u\) gives
+\begin{equation}
+ \sup_{t\ge0}\norm{u(t)}_2\le M_0,
+ \qquad
+ \int_0^T\norm{\Lambda^\alpha u(t)}_2^2\,dt
+ \le\frac{M_0^2}{2\nu}.
+ \label{eq:hyper-base-energy}
+\end{equation}
+The transport term has vanished from this row, but it returns as soon as a
+spatial derivative is applied.  The exponent \(5/4\) appears when we ask
+whether the one integral in \eqref{eq:hyper-base-energy} is enough to absorb
+that return at every order.
+
+Choose the finite exponent
+\begin{equation}
+ q_\alpha:=
+ \begin{cases}
+  6/(3-2\alpha),&5/4\le\alpha<3/2,\\
+  6,&\alpha\ge3/2,
+ \end{cases}
+ \qquad
+ \vartheta_\alpha
+ :=\frac3\alpha\left(\frac12-\frac1{q_\alpha}\right).
+ \label{eq:hyper-q-choice}
+\end{equation}
+Then
+\begin{equation}
+ \frac3{q_\alpha}\le\alpha-1,
+ \qquad 0<\vartheta_\alpha\le1.
+ \label{eq:hyper-q-properties}
+\end{equation}
+The Gagliardo--Nirenberg inequality and
+\eqref{eq:hyper-base-energy} first give
+\begin{equation}
+ \norm{u(t)}_{q_\alpha}
+ \le G_\alpha M_0^{1-\vartheta_\alpha}
+       \norm{\Lambda^\alpha u(t)}_2^{\vartheta_\alpha}.
+ \label{eq:hyper-low-frequency-interpolation}
+\end{equation}
+Squaring, applying H\"older in time with exponents
+\(1/\vartheta_\alpha\) and \(1/(1-\vartheta_\alpha)\), and then using
+\eqref{eq:hyper-base-energy} yield the datum-side action
+\begin{align}
+ \int_0^T\norm{u(t)}_{q_\alpha}^2\,dt
+ &\le\mathcal A_\alpha(M_0,\nu,T),
+ \label{eq:hyper-lq-action}\\
+ \mathcal A_\alpha(M_0,\nu,T)
+ &:=G_\alpha^2M_0^2(2\nu)^{-\vartheta_\alpha}
+       T^{1-\vartheta_\alpha}.
+ \label{eq:hyper-lq-action-definition}
+\end{align}
+
+Fix \(s\ge\alpha-1\) and set \(r=s+1-\alpha\).  Moving \(\alpha\)
+derivatives from the transport term onto the tested velocity gives
+\begin{equation}
+ \left|\pair{\Lambda^s\PP(u\cdot\nabla u)}{\Lambda^su}\right|
+ \le
+ \norm{\Lambda^r(u\otimes u)}_2
+ \norm{\Lambda^{s+\alpha}u}_2.
+ \label{eq:hyper-derivative-transfer}
+\end{equation}
+If \(p_\alpha=2q_\alpha/(q_\alpha-2)\), fractional Leibniz and homogeneous
+Sobolev embedding give
+\begin{align}
+ \norm{\Lambda^r(u\otimes u)}_2
+ &\le C_{\alpha,s}\norm u_{q_\alpha}
+             \norm{\Lambda^ru}_{p_\alpha}
+ \notag\\
+ &\le C_{\alpha,s}\norm u_{q_\alpha}
+             \norm{\Lambda^{r+3/q_\alpha}u}_2
+ \le C_{\alpha,s}\norm u_{q_\alpha}\norm u_{H^s}.
+ \label{eq:hyper-fractional-product}
+\end{align}
+The last inequality is exactly
+\(r+3/q_\alpha\le s\), which is the first relation in
+\eqref{eq:hyper-q-properties}.  Define
+\begin{equation}
+ X_s(t):=M_0^2+\norm{\Lambda^su(t)}_2^2,
+ \qquad
+ Y_s(t):=\norm{\Lambda^{s+\alpha}u(t)}_2.
+ \label{eq:hyper-spatial-variables}
+\end{equation}
+Young's inequality now turns
+\eqref{eq:hyper-derivative-transfer}--
+\eqref{eq:hyper-fractional-product} into
+\begin{equation}
+ X_s'(t)+\nu Y_s(t)^2
+ \le\frac{C_{\alpha,s}}{\nu}
+       \norm{u(t)}_{q_\alpha}^2X_s(t).
+ \label{eq:hyper-spatial-row}
+\end{equation}
+Set
+\begin{equation}
+ \Gamma_{\alpha,s}(T)
+ :=\frac{C_{\alpha,s}}{\nu}
+       \mathcal A_\alpha(M_0,\nu,T).
+ \label{eq:hyper-spatial-exponent}
+\end{equation}
+Gronwall's inequality, followed once by the integrating-factor form of
+\eqref{eq:hyper-spatial-row}, gives
+\begin{align}
+ \sup_{0\le t\le T}X_s(t)
+ &\le X_s(0)e^{\Gamma_{\alpha,s}(T)},
+ \label{eq:hyper-spatial-row-sup}\\
+ \int_0^TY_s(t)^2\,dt
+ &\le\frac{X_s(0)}{\nu}e^{\Gamma_{\alpha,s}(T)}.
+ \label{eq:hyper-spatial-row-dissipation}
+\end{align}
+At \(\alpha=5/4\), one has \(q_\alpha=12\) and
+\(\vartheta_\alpha=1\).  The derivative count in
+\eqref{eq:hyper-fractional-product} becomes
+\[
+ s+1-\alpha+\frac3{q_\alpha}=s,
+\]
+and the exponent reduces to
+\begin{equation}
+ \Gamma_{5/4,s}(T)
+ =\frac{C_sG_{5/4}^2M_0^2}{2\nu^2}.
+ \label{eq:hyper-critical-exponent}
+\end{equation}
+No derivative and no time integrability remain unpaid at the critical
+exponent.
+
+For any requested real \(r\ge0\), put
+\begin{equation}
+ \bar s_r:=\max\{r,\alpha-1\},
+ \qquad
+ \kappa_{r,\alpha}
+ :=\sup_{\rho\ge0}
+ \frac{(1+\rho^2)^r}{1+\rho^{2\bar s_r}}<\infty,
+ \qquad
+ \mathsf S_r^\alpha(T)
+ :=\kappa_{r,\alpha}^{1/2}X_{\bar s_r}(0)^{1/2}
+    e^{\Gamma_{\alpha,\bar s_r}(T)/2}.
+ \label{eq:hyper-spatial-envelope}
+\end{equation}
+Indeed,
+\[
+ \norm{u(t)}_{H^r}^2
+ \le\kappa_{r,\alpha}\left(
+  \norm{u(t)}_2^2+\norm{\Lambda^{\bar s_r}u(t)}_2^2
+ \right)
+ \le\kappa_{r,\alpha}X_{\bar s_r}(t).
+\]
+Thus
+\begin{equation}
+ \sup_{0\le t\le T}\norm{u(t)}_{H^r}
+ \le\mathsf S_r^\alpha(T).
+ \label{eq:hyper-spatial-bound}
+\end{equation}
+For the integrated row, let
+\begin{equation}
+ s_r^-:=\max\{\alpha-1,r-\alpha\}
+ \label{eq:hyper-integrated-index}
+\end{equation}
+and define
+\begin{equation}
+ \bigl(\mathsf D_{0,r}^\alpha(T)\bigr)^2
+ :=C_{\alpha,r}\left[
+ TM_0^2+
+ \frac{X_{s_r^-}(0)}{\nu}
+ e^{\Gamma_{\alpha,s_r^-}(T)}
+ \right].
+ \label{eq:hyper-integrated-base}
+\end{equation}
+Since \(s_r^-+\alpha\ge r\), equations
+\eqref{eq:hyper-base-energy} and
+\eqref{eq:hyper-spatial-row-dissipation} give
+\begin{equation}
+ \norm u_{L^2(0,T;H^r)}
+ \le\mathsf D_{0,r}^\alpha(T).
+ \label{eq:hyper-integrated-base-bound}
+\end{equation}
+Choosing one \(s>\max\{5/2,\alpha-1\}\) in
+\eqref{eq:hyper-spatial-row-sup} prevents a finite-time loss of the local
+classical solution.  This already proves global smoothness.  We keep going
+because the stronger conclusion is the complete quantitative jet.
+
+\subsection{The fractional mixed and pressure jets}
+
+Let \(V_n:=\partial_t^nu\) and \(Q_n:=\partial_t^np\).  Differentiating
+\eqref{eq:hyper-system} and then applying \(\PP\) gives
+\begin{equation}
+ V_{n+1}
+ =-\nu\Lambda^{2\alpha}V_n
+ -\sum_{a=0}^n\binom na
+   \PP(V_a\cdot\nabla V_{n-a}).
+ \label{eq:hyper-velocity-recurrence}
+\end{equation}
+Taking divergence before projection fixes every pressure row:
+\begin{equation}
+ Q_n
+ =R_iR_j\sum_{a=0}^n\binom na
+   (V_a)_i(V_{n-a})_j.
+ \label{eq:hyper-pressure-recurrence}
+\end{equation}
+For real \(r\ge0\), let \(\sigma_r:=\max\{2,r+1\}\), and enlarge the
+fixed constant \(A_r\) so that
+\begin{equation}
+ \norm{\PP(f\cdot\nabla g)}_{H^r}
+ +\norm{R_iR_j(f_i g_j)}_{H^r}
+ \le A_r\norm f_{H^{\sigma_r}}\norm g_{H^{\sigma_r}}.
+ \label{eq:hyper-row-product}
+\end{equation}
+Starting from
+\begin{equation}
+ \mathsf V_{0,r}^\alpha(T):=\mathsf S_r^\alpha(T),
+ \label{eq:hyper-row-base}
+\end{equation}
+define
+\begin{equation}
+ \mathsf V_{n+1,r}^\alpha(T)
+ :=\nu\mathsf V_{n,r+2\alpha}^\alpha(T)
+ +A_r\sum_{a=0}^n\binom na
+   \mathsf V_{a,\sigma_r}^\alpha(T)
+   \mathsf V_{n-a,\sigma_r}^\alpha(T),
+ \label{eq:hyper-row-recursion}
+\end{equation}
+and
+\begin{equation}
+ \mathsf Q_{n,r}^\alpha(T)
+ :=A_r\sum_{a=0}^n\binom na
+   \mathsf V_{a,\sigma_r}^\alpha(T)
+   \mathsf V_{n-a,\sigma_r}^\alpha(T).
+ \label{eq:hyper-pressure-envelope}
+\end{equation}
+Induction through \eqref{eq:hyper-velocity-recurrence} and
+\eqref{eq:hyper-pressure-recurrence} proves
+\begin{align}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^r}
+ &\le\mathsf V_{n,r}^\alpha(T),
+ \label{eq:hyper-row-bound}\\
+ \sup_{0\le t\le T}\norm{Q_n(t)}_{H^r}
+ &\le\mathsf Q_{n,r}^\alpha(T).
+ \label{eq:hyper-pressure-bound}
+\end{align}
+
+The integrated recursion begins with
+\eqref{eq:hyper-integrated-base}.  Define
+\begin{equation}
+ \mathsf D_{n+1,r}^\alpha(T)
+ :=\nu\mathsf D_{n,r+2\alpha}^\alpha(T)
+ +A_r\sum_{a=0}^n\binom na
+   \mathsf V_{a,\sigma_r}^\alpha(T)
+   \mathsf D_{n-a,\sigma_r}^\alpha(T).
+ \label{eq:hyper-integrated-recursion}
+\end{equation}
+The same product estimate, with one factor in \(L_t^\infty\) and the other
+in \(L_t^2\), gives
+\begin{equation}
+ \norm{V_n}_{L^2(0,T;H^r)}
+ \le\mathsf D_{n,r}^\alpha(T).
+ \label{eq:hyper-integrated-row-bound}
+\end{equation}
+The corresponding pressure row is
+\begin{equation}
+ \norm{Q_n}_{L^2(0,T;H^r)}
+ \le\mathsf Q_{n,r}^{\alpha,(2)}(T)
+ :=A_r\sum_{a=0}^n\binom na
+   \mathsf V_{a,\sigma_r}^\alpha(T)
+   \mathsf D_{n-a,\sigma_r}^\alpha(T).
+ \label{eq:hyper-integrated-pressure}
+\end{equation}
+
+\subsection{Fractional rectangles and their common endpoint}
+
+The dissipation selects the Gelfand triple
+\begin{equation}
+ H^{M+\alpha}_\sigma(\R^3)
+ \hookrightarrow H^M_\sigma(\R^3)
+ \hookrightarrow H^{M-\alpha}_\sigma(\R^3),
+ \qquad M\ge0.
+ \label{eq:hyper-gelfand-triple}
+\end{equation}
+For \(N\in\Nzero\) and real \(M\ge0\), define
+\begin{equation}
+ \mathcal N_{N,M}^\alpha(u;T)
+ :=\sum_{n=0}^N\left[
+  \norm{V_n}_{L^2(0,T;H^{M+\alpha})}^2
+  +\norm{V_{n+1}}_{L^2(0,T;H^{M-\alpha})}^2
+ \right].
+ \label{eq:hyper-rectangle-norm}
+\end{equation}
+Write \(x_+:=\max\{x,0\}\).  Since \(H^0\hookrightarrow H^r\) for
+\(r<0\), \eqref{eq:hyper-integrated-row-bound} gives
+\begin{align}
+ \mathcal N_{N,M}^\alpha(u;T)
+ &\le\mathfrak R_{N,M}^\alpha(T),
+ \label{eq:hyper-rectangle-bound}\\
+ \mathfrak R_{N,M}^\alpha(T)
+ &:=\sum_{n=0}^N\left[
+  \bigl(\mathsf D_{n,M+\alpha}^\alpha(T)\bigr)^2
+  +\bigl(\mathsf D_{n+1,(M-\alpha)_+}^\alpha(T)\bigr)^2
+ \right].
+ \label{eq:hyper-rectangle-envelope}
+\end{align}
+
+The pressure also fits the upper side of the rectangle.  The real-order
+product theorem gives
+\begin{equation}
+ \norm{fg}_{H^M}
+ \le C_{\alpha,M}
+ \norm f_{H^{M+\alpha}}\norm g_{H^{M+\alpha}},
+ \label{eq:hyper-rectangle-product}
+\end{equation}
+because \(M<2(M+\alpha)-3/2\).  Hence
+\begin{equation}
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ \le C_{\alpha,M}\sum_{a=0}^n\binom na
+ \mathsf D_{a,M+\alpha}^\alpha(T)
+ \mathsf D_{n-a,M+\alpha}^\alpha(T).
+ \label{eq:hyper-rectangle-pressure}
+\end{equation}
+The differentiated transport term lies in
+\(L^1(0,T;H^{M-\alpha})\) because
+\begin{equation}
+ \norm{\PP(V_a\cdot\nabla V_b)}_{H^{M-\alpha}}
+ \le C_{\alpha,M}
+ \norm{V_a}_{H^{M+\alpha}}
+ \norm{V_b}_{H^{M+\alpha}}.
+ \label{eq:hyper-lower-transport}
+\end{equation}
+The remaining lower-row terms obey
+\begin{equation}
+ \norm{\Lambda^{2\alpha}V_n}_{H^{M-\alpha}}
+ \le\norm{V_n}_{H^{M+\alpha}},
+ \qquad
+ \norm{\nabla Q_n}_{H^{M-\alpha}}
+ \le\norm{Q_n}_{H^M}.
+ \label{eq:hyper-lower-linear-pressure}
+\end{equation}
+Thus every term in the differentiated momentum equation occupies the lower member of
+\eqref{eq:hyper-gelfand-triple}.
+
+On the Fourier side the pivot factorization is exact:
+\begin{equation}
+ \langle\xi\rangle^{2M}
+ =\langle\xi\rangle^{M-\alpha}
+  \langle\xi\rangle^{M+\alpha}.
+ \label{eq:hyper-pivot-factorization}
+\end{equation}
+Apply this identity first to smooth temporal cutoffs and then pass by density.
+For \(0\le s<t\le T\), the adjacent-row identity gives
+\begin{equation}
+ \left|
+  \norm{V_n(t)}_{H^M}^2-\norm{V_n(s)}_{H^M}^2
+ \right|
+ \le2\norm{V_n}_{L^2(s,t;H^{M+\alpha})}
+       \norm{V_{n+1}}_{L^2(s,t;H^{M-\alpha})}.
+ \label{eq:hyper-adjacent-trace}
+\end{equation}
+It follows that \(V_n\in C([0,T];H^M)\) for each finite pair \((n,M)\).
+Every rectangle is cut from the same velocity and the same Riesz-normalized
+pressure, so deleting higher rows or lowering the Sobolev order leaves its
+overlap unchanged.  Their intersection is one mixed jet.
+
+The uniform next row sharpens the trace to the endpoint moduli
+\begin{align}
+ \norm{V_n(t)-V_n(T)}_{H^r}
+ &\le(T-t)\mathsf V_{n+1,r}^\alpha(T),
+ \label{eq:hyper-endpoint-modulus}\\
+ \norm{Q_n(t)-Q_n(T)}_{H^r}
+ &\le(T-t)\mathsf Q_{n+1,r}^\alpha(T).
+ \label{eq:hyper-pressure-endpoint-modulus}
+\end{align}
+If \(s>k+3/2-3/b\), \(2\le b\le\infty\), and
+\(1\le a\le\infty\), Sobolev embedding also gives
+\begin{align}
+ \norm{\nabla^kV_n}_{L^a(0,T;L^b)}
+ &\le C_{s,k,b}T^{1/a}\mathsf V_{n,s}^\alpha(T),
+ \label{eq:hyper-mixed-norm}\\
+ \norm{\nabla^kQ_n}_{L^a(0,T;L^b)}
+ &\le C_{s,k,b}T^{1/a}\mathsf Q_{n,s}^\alpha(T),
+ \label{eq:hyper-pressure-mixed-norm}
+\end{align}
+where \(T^{1/\infty}=1\).  Define the sharp high-frequency multiplier by
+\begin{equation}
+ \widehat{P_{>K}f}(\xi)
+ :=\mathbf1_{\{|\xi|>K\}}\widehat f(\xi).
+ \label{eq:hyper-tail-projector}
+\end{equation}
+For \(K\ge1\) and \(s>k\),
+\begin{align}
+ \sup_{0\le t\le T}
+ \norm{P_{>K}\nabla^kV_n(t)}_2
+ &\le K^{k-s}\mathsf V_{n,s}^\alpha(T),
+ \label{eq:hyper-frequency-tail}\\
+ \sup_{0\le t\le T}
+ \norm{P_{>K}\nabla^kQ_n(t)}_2
+ &\le K^{k-s}\mathsf Q_{n,s}^\alpha(T).
+ \label{eq:hyper-pressure-frequency-tail}
+\end{align}
+
+The datum order stays finite at every requested coordinate.  In real-order
+notation the velocity row \((n,r)\) reads \(u_0\) no higher than
+\begin{equation}
+ d_{n,r}^{u,\alpha}
+ :=\max\{\alpha-1,r+2\alpha n\},
+ \label{eq:hyper-velocity-ledger}
+\end{equation}
+and the pressure row no higher than
+\begin{equation}
+ d_{n,r}^{p,\alpha}
+ :=\max\{\alpha-1,\sigma_r+2\alpha n\}.
+ \label{eq:hyper-pressure-ledger}
+\end{equation}
+The rectangle \((N,M)\) reads no higher than
+\begin{equation}
+ d_{N,M}^{\rm rect,\alpha}
+ :=\max\left\{
+  \alpha-1,
+  M+\alpha+2\alpha N,
+  (M-\alpha)_++2\alpha(N+1)
+ \right\}.
+ \label{eq:hyper-rectangle-ledger}
+\end{equation}
+Taking ceilings converts these values into a classical integer-derivative
+ledger.
+
+\subsection{The fractional restart}
+
+Fix \(s_R>3/2\), \(s_R\ge\alpha-1\), and put
+\(v=u(T)\), \(M_R=\norm v_{H^{s_R}}\).  The fractional heat semigroup
+satisfies
+\begin{equation}
+ \norm{\Lambda e^{-\nu t\Lambda^{2\alpha}}F}_{H^{s_R}}
+ \le c_\alpha(\nu t)^{-1/(2\alpha)}\norm F_{H^{s_R}},
+ \qquad c_\alpha=(2\alpha e)^{-1/(2\alpha)}.
+ \label{eq:hyper-semigroup}
+\end{equation}
+The operator in the mild equation consequently satisfies
+\begin{equation}
+ \norm{e^{-\nu t\Lambda^{2\alpha}}\PP\nabla\cdot F}_{H^{s_R}}
+ \le C_{\PP}c_\alpha(\nu t)^{-1/(2\alpha)}
+       \norm F_{H^{s_R}}.
+ \label{eq:hyper-mild-operator}
+\end{equation}
+Since \(H^{s_R}\) is an algebra, the mild bilinear map on
+\(C([0,\delta];H^{s_R})\) has norm at most
+\begin{equation}
+ K_{\alpha,s_R}\nu^{-1/(2\alpha)}
+ \delta^{1-1/(2\alpha)},
+ \qquad
+ K_{\alpha,s_R}
+ :=\frac{C_{s_R}c_\alpha}{1-1/(2\alpha)}.
+ \label{eq:hyper-bilinear-constant}
+\end{equation}
+Here \(C_{s_R}\) includes \(C_{\PP}\) and the \(H^{s_R}\)-algebra
+constant.
+The ball of radius \(2M_R\) is invariant and contractive when
+\begin{equation}
+ 8K_{\alpha,s_R}\nu^{-1/(2\alpha)}
+ \delta^{1-1/(2\alpha)}M_R\le1.
+ \label{eq:hyper-contraction-condition}
+\end{equation}
+For \(M_R>0\), the resulting lifespan is
+\begin{equation}
+ \delta_T^\alpha
+ \ge c_{\alpha,s_R}
+ \nu^{1/(2\alpha-1)}
+ M_R^{-2\alpha/(2\alpha-1)},
+ \qquad
+ c_{\alpha,s_R}:=(8K_{\alpha,s_R})^{-2\alpha/(2\alpha-1)}.
+ \label{eq:hyper-restart}
+\end{equation}
+Using \(M_R\le\mathsf S_{s_R}^\alpha(T)\) makes the restart entirely
+datum-side:
+\begin{equation}
+ \delta_T^\alpha
+ \ge c_{\alpha,s_R}
+ \nu^{1/(2\alpha-1)}
+ \bigl(\mathsf S_{s_R}^\alpha(T)\bigr)^{-2\alpha/(2\alpha-1)}.
+ \label{eq:hyper-restart-datum}
+\end{equation}
+For zero endpoint data the zero solution is global.  Otherwise the local
+solution from \(v\) agrees with the old history wherever both exist.  To make
+the terminal passage explicit, suppose a maximal time \(T_{\max}<\infty\)
+existed and apply every estimate above on \([0,\tau]\),
+\(\tau<T_{\max}\).  Each right side is bounded by the same nondecreasing
+envelope evaluated at \(T_{\max}\).  Monotone convergence supplies every
+fractional rectangle on \((0,T_{\max})\), while
+\eqref{eq:hyper-pivot-factorization} and
+\eqref{eq:hyper-adjacent-trace} give one common \(H^\infty\) endpoint.
+The uniform next-row bounds identify the complete left jet there.  Inserting
+that endpoint into \eqref{eq:hyper-restart-datum} gives a positive interval
+crossing \(T_{\max}\), and uniqueness glues it to the same solution.  Finite
+maximality is impossible.  At \(\alpha=5/4\), the lower bound has the
+concrete form
+\[
+ \delta_T^{5/4}
+ \ge c_{5/4,s_R}\nu^{2/3}
+ \bigl(\mathsf S_{s_R}^{5/4}(T)\bigr)^{-5/3}.
+\]
+This completes the hyperdissipative application.
+\end{proof}
+
+\section{Elliptic regularization of the time derivative}
+\label{sec:voigt-application}
+
+The last change acts in a different place.  Hyperdissipation strengthens the
+operator applied to \(u\); the Navier--Stokes--Voigt equation places an
+elliptic operator on \(u_t\).  Work on the three-dimensional torus
+\(\mathbb T^3=(\R/2\pi\mathbb Z)^3\) with mean-zero divergence-free fields,
+and set
+\begin{equation}
+ A:=-\PP\Delta,
+ \qquad G_\ell:=(I+\ell^2A)^{-1},
+ \qquad B(v,w):=\PP\nabla\cdot(v\otimes w).
+ \label{eq:voigt-operators}
+\end{equation}
+For \(\ell,\nu>0\), the projected equation is
+\begin{equation}
+ (I+\ell^2A)u_t+\nu Au+B(u,u)=0,
+ \qquad u(0)=u_0.
+ \label{eq:voigt-system}
+\end{equation}
+The inverse \(G_\ell\) cancels the two derivatives in the viscous term and
+gains one derivative over transport.  Temporal differentiation now costs no
+additional spatial order.  That change is visible not just in existence, but
+in the exact datum ledger of the entire mixed jet.  Global well-posedness and
+long-time dynamics for this model are classical.
+\bibref{KalantarovTiti}
+
+\begin{theorem}[Quantitative Navier--Stokes--Voigt jet]
+\label{thm:quantitative-voigt-jet}
+Fix \(\ell,\nu>0\).  Every mean-zero
+\(u_0\in H^\infty_\sigma(\mathbb T^3)\) generates a unique global smooth
+solution of \eqref{eq:voigt-system}.  For every \(T>0\), every
+\(n,r,N,M\in\Nzero\), every \(m\in\mathbb N\) with \(m\ge2\), and every
+\(K\ge1\), the spatial
+producer, mixed
+velocity rows, pressure rows, compatible rectangles, filtered critical
+height, frequency tails, endpoint moduli, restart lifespan, and time
+analyticity radius obey \eqref{eq:voigt-spatial-bound}--
+\eqref{eq:voigt-analytic-radius} below.  The datum order of a velocity or
+pressure row is independent of its temporal height.
+\end{theorem}
+
+\begin{proof}
+Write
+\begin{equation}
+ |v|_s:=\norm{A^{s/2}v}_2\quad(s\in\mathbb R),
+ \qquad
+ E_q(t):=|u(t)|_{q-1}^2+\ell^2|u(t)|_q^2
+ \quad(q\ge1).
+ \label{eq:voigt-energy-level}
+\end{equation}
+Throughout this section the mean-zero space \(H^q_\sigma(\mathbb T^3)\) is
+equipped with the \(A\)-scale norm \(|\cdot|_q\).  Poincar\'e's inequality
+makes it equivalent to the usual inhomogeneous Sobolev norm, while this choice
+keeps every displayed constant tied to the equation's own Fourier multiplier.
+Pairing \eqref{eq:voigt-system} with \(u\) gives the exact modified energy
+identity
+\begin{equation}
+ E_1(t)+2\nu\int_0^t|u(s)|_1^2\,ds=E_1(0).
+ \label{eq:voigt-base-energy}
+\end{equation}
+Put \(K_1:=E_1(0)\).  At the next order, pairing with \(Au\) gives
+\[
+ \frac12E_2'(t)+\nu|u|_2^2=-\pair{B(u,u)}{Au}.
+\]
+The three-dimensional interpolation estimate
+\begin{equation}
+ |\pair{B(u,u)}{Au}|
+ \le C\norm u_6\norm{\nabla u}_3|u|_2
+ \le C|u|_1^{3/2}|u|_2^{3/2}
+ \label{eq:voigt-second-row-product}
+\end{equation}
+and Young's inequality yield
+\begin{equation}
+ E_2'(t)+\nu|u|_2^2
+ \le C_2\nu^{-3}\ell^{-6}K_1^3.
+ \label{eq:voigt-second-row}
+\end{equation}
+Define
+\begin{equation}
+ K_2(T):=E_2(0)+C_2\nu^{-3}\ell^{-6}K_1^3T.
+ \label{eq:voigt-K2}
+\end{equation}
+
+For every integer \(q\ge3\), pair the equation with \(A^{q-1}u\).  The
+periodic Sobolev algebra estimate gives
+\begin{equation}
+ |B(u,u)|_{q-2}\le C_q|u|_{q-1}^2.
+ \label{eq:voigt-high-product}
+\end{equation}
+Hence
+\begin{align}
+ |\pair{B(u,u)}{A^{q-1}u}|
+ &\le C_q|u|_{q-1}^2|u|_q
+ \notag\\
+ &\le\frac\nu2|u|_q^2+C_q\nu^{-1}|u|_{q-1}^4.
+ \label{eq:voigt-high-row-estimate}
+\end{align}
+Starting from \eqref{eq:voigt-K2}, define recursively
+\begin{equation}
+ K_q(T):=E_q(0)+C_q\nu^{-1}\ell^{-4}
+ \int_0^T K_{q-1}(t)^2\,dt
+ \qquad(q\ge3).
+ \label{eq:voigt-Kq}
+\end{equation}
+Induction gives
+\begin{align}
+ \sup_{0\le t\le T}E_q(t)&\le K_q(T),
+ \label{eq:voigt-energy-envelope}\\
+ \nu\int_0^T|u(t)|_q^2\,dt&\le K_q(T)
+ \qquad(q\ge2),
+ \label{eq:voigt-dissipation-envelope}
+\end{align}
+while \eqref{eq:voigt-base-energy} gives
+\(\int_0^T|u|_1^2\le K_1/(2\nu)\).  In particular,
+\begin{equation}
+ \sup_{0\le t\le T}|u(t)|_q
+ \le\ell^{-1}K_q(T)^{1/2}.
+ \label{eq:voigt-spatial-bound}
+\end{equation}
+Every \(K_q\) is a computable nondecreasing polynomial in \(T\), with
+\begin{equation}
+ \deg K_q\le 2^{q-1}-1\qquad(q\ge2).
+ \label{eq:voigt-polynomial-degree}
+\end{equation}
+Its datum dependence enters only through
+\(E_j(0)=|u_0|_{j-1}^2+\ell^2|u_0|_j^2\), \(j\le q\).
+
+The base phase space already explains globality.  The Fourier multipliers
+satisfy
+\begin{equation}
+ \norm{G_\ell Av}_{H^1}\le\ell^{-2}\norm v_{H^1},
+ \qquad
+ \norm{G_\ell B(v,w)}_{H^1}
+ \le C\ell^{-2}\norm v_{H^1}\norm w_{H^1}.
+ \label{eq:voigt-H1-vector-field}
+\end{equation}
+Thus \eqref{eq:voigt-system} is an ordinary differential equation on
+\(H^1_\sigma\).  Its local solution can end only if the \(H^1\) norm becomes
+unbounded, and \eqref{eq:voigt-base-energy} prevents that.  The higher
+polynomials then propagate every smooth datum order globally.
+
+\subsection{A mixed jet with no temporal derivative loss}
+
+Let \(V_n:=\partial_t^nu\).  Applying \(G_\ell\) after differentiating
+\eqref{eq:voigt-system} gives
+\begin{equation}
+ V_{n+1}
+ =-\nu G_\ell AV_n
+ -G_\ell\sum_{a=0}^n\binom na B(V_a,V_{n-a}).
+ \label{eq:voigt-row-recurrence}
+\end{equation}
+For \(r\in\Nzero\), put \(\sigma_r:=\max\{2,r-1\}\).  The same multipliers and
+Sobolev multiplication give
+\begin{align}
+ |G_\ell Av|_r&\le\ell^{-2}|v|_r,
+ \label{eq:voigt-linear-multiplier}\\
+ |G_\ell B(v,w)|_r
+ &\le C_r\ell^{-2}|v|_{\sigma_r}|w|_{\sigma_r}.
+ \label{eq:voigt-bilinear-multiplier}
+\end{align}
+Define the spatial base values
+\begin{equation}
+ S_0^{\rm V}(T):=K_1^{1/2},
+ \qquad
+ S_r^{\rm V}(T):=\ell^{-1}K_r(T)^{1/2}\quad(r\ge1),
+ \label{eq:voigt-spatial-base}
+\end{equation}
+and set \(U_{0,r}^{\rm V}:=S_r^{\rm V}\).  The row recursion is
+\begin{equation}
+ U_{n+1,r}^{\rm V}(T)
+ :=\ell^{-2}\left[
+  \nu U_{n,r}^{\rm V}(T)
+  +C_r\sum_{a=0}^n\binom na
+    U_{a,\sigma_r}^{\rm V}(T)
+    U_{n-a,\sigma_r}^{\rm V}(T)
+ \right].
+ \label{eq:voigt-uniform-recursion}
+\end{equation}
+It follows that
+\begin{equation}
+ \sup_{0\le t\le T}|V_n(t)|_r
+ \le U_{n,r}^{\rm V}(T).
+ \label{eq:voigt-uniform-row}
+\end{equation}
+Unlike the Laplacian and fractional recursions, the right side of
+\eqref{eq:voigt-uniform-recursion} never asks for a higher spatial order of
+\(V_n\).  Consequently,
+\begin{equation}
+ U_{n,r}^{\rm V}(T)
+ \text{ reads }u_0\text{ only through }H^{\max\{2,r\}},
+ \label{eq:voigt-row-ledger}
+\end{equation}
+independently of \(n\).
+
+The integrated rows are just as explicit.  Put
+\begin{align}
+ D_{0,0}^{\rm V}(T)&:=T^{1/2}S_0^{\rm V}(T),
+ \notag\\
+ D_{0,1}^{\rm V}(T)&:=\left(\frac{K_1}{2\nu}\right)^{1/2},
+ \notag\\
+ D_{0,r}^{\rm V}(T)&:=\left(\frac{K_r(T)}{\nu}\right)^{1/2}
+ \quad(r\ge2).
+ \label{eq:voigt-integrated-base}
+\end{align}
+Define
+\begin{equation}
+ D_{n+1,r}^{\rm V}(T)
+ :=\ell^{-2}\left[
+  \nu D_{n,r}^{\rm V}(T)
+  +C_r\sum_{a=0}^n\binom na
+    U_{a,\sigma_r}^{\rm V}(T)
+    D_{n-a,\sigma_r}^{\rm V}(T)
+ \right].
+ \label{eq:voigt-integrated-recursion}
+\end{equation}
+Taking one factor in \(L_t^\infty\) and the other in \(L_t^2\) gives
+\begin{equation}
+ \norm{V_n}_{L^2(0,T;H^r)}
+ \le 2^{r_+/2}D_{n,r}^{\rm V}(T),
+ \qquad r_+:=\max\{r,0\}.
+ \label{eq:voigt-integrated-row}
+\end{equation}
+
+For the lower side of the \(M=0\) rectangle, set
+\begin{equation}
+ \sigma_{-1}:=2,
+ \quad U_{0,-1}^{\rm V}:=S_0^{\rm V},
+ \quad D_{0,-1}^{\rm V}:=T^{1/2}S_0^{\rm V},
+ \label{eq:voigt-negative-base}
+\end{equation}
+and extend \eqref{eq:voigt-uniform-recursion} and
+\eqref{eq:voigt-integrated-recursion} to \(r=-1\) using
+\begin{equation}
+ |G_\ell Av|_{-1}\le\ell^{-2}|v|_{-1},
+ \qquad
+ |G_\ell B(v,w)|_{-1}
+ \le C\ell^{-2}|v|_2|w|_2.
+ \label{eq:voigt-negative-multipliers}
+\end{equation}
+
+\subsection{Pressure, rectangles, and the filtered critical height}
+
+Restoring pressure gives
+\begin{equation}
+ (I-\ell^2\Delta)u_t-\nu\Delta u
+ +(u\cdot\nabla)u+\nabla p=0.
+ \label{eq:voigt-unprojected}
+\end{equation}
+The filtered time derivative remains divergence free, so
+\begin{equation}
+ Q_n:=\partial_t^np
+ =R_iR_j\sum_{a=0}^n\binom na(V_a)_i(V_{n-a})_j.
+ \label{eq:voigt-pressure-recurrence}
+\end{equation}
+With \(\tau_r:=\max\{2,r\}\), define
+\begin{align}
+ P_{n,r}^{\rm V}(T)
+ &:=C_r\sum_{a=0}^n\binom na
+  U_{a,\tau_r}^{\rm V}(T)U_{n-a,\tau_r}^{\rm V}(T),
+ \label{eq:voigt-pressure-envelope}\\
+ \Pi_{n,r}^{\rm V}(T)
+ &:=C_r\sum_{a=0}^n\binom na
+  U_{a,\tau_r}^{\rm V}(T)D_{n-a,\tau_r}^{\rm V}(T).
+ \label{eq:voigt-integrated-pressure-envelope}
+\end{align}
+Then
+\begin{align}
+ \sup_{0\le t\le T}\norm{Q_n(t)}_{H^r}
+ &\le P_{n,r}^{\rm V}(T),
+ \label{eq:voigt-pressure-bound}\\
+ \norm{Q_n}_{L^2(0,T;H^r)}
+ &\le\Pi_{n,r}^{\rm V}(T).
+ \label{eq:voigt-integrated-pressure-bound}
+\end{align}
+The pressure row reads no datum order above \(\max\{2,r\}\), again
+independently of \(n\).
+
+For \(N,M\in\Nzero\), let
+\begin{equation}
+ \mathcal N_{N,M}^{\rm V}(u;T)
+ :=\sum_{n=0}^N\left[
+  \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+  +\norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2
+ \right].
+ \label{eq:voigt-rectangle-norm}
+\end{equation}
+Equations \eqref{eq:voigt-integrated-row}--
+\eqref{eq:voigt-negative-multipliers} give
+\begin{align}
+ \mathcal N_{N,M}^{\rm V}(u;T)
+ &\le\mathfrak R_{N,M}^{\rm V}(T),
+ \label{eq:voigt-rectangle-bound}\\
+ \mathfrak R_{N,M}^{\rm V}(T)
+ &:=\sum_{n=0}^N\left[
+  2^{M+1}(D_{n,M+1}^{\rm V}(T))^2
+  +2^{(M-1)_+}(D_{n+1,M-1}^{\rm V}(T))^2
+ \right].
+ \label{eq:voigt-rectangle-envelope}
+\end{align}
+The complete rectangle reads \(u_0\) only through
+\begin{equation}
+ H^{\max\{2,M+1\}},
+ \label{eq:voigt-rectangle-ledger}
+\end{equation}
+independently of \(N\).  Compatibility is exact because every row and every
+pressure is a restriction of one periodic solution.
+
+The natural critical quantity for this equation includes its time filter:
+\begin{equation}
+ \mathcal H^{\rm V}(t)
+ :=\frac12\left(|u(t)|_{1/2}^2+\ell^2|u(t)|_{3/2}^2\right).
+ \label{eq:voigt-filtered-critical-height}
+\end{equation}
+Poincar\'e monotonicity and the first two energy envelopes give
+\begin{equation}
+ \sup_{0\le t\le T}\mathcal H^{\rm V}(t)
+ \le\frac12\left(\ell^{-2}K_1+K_2(T)\right).
+ \label{eq:voigt-filtered-critical-height-bound}
+\end{equation}
+Define the ordinary kinetic high-frequency tail by
+\begin{equation}
+ H_{>K}^{\rm V}(t)
+ :=\frac12\sum_{|k|>K}|k|\,|\widehat u(k,t)|^2.
+ \label{eq:voigt-frequency-tail-definition}
+\end{equation}
+Then
+\begin{equation}
+ \sup_{0\le t\le T}H_{>K}^{\rm V}(t)
+ \le\frac12K^{1-2m}(S_m^{\rm V}(T))^2,
+ \qquad m\in\mathbb N,\ m\ge2,\ K\ge1.
+ \label{eq:voigt-frequency-tail}
+\end{equation}
+
+\subsection{Endpoint, restart, and time analyticity}
+
+The uniform next row gives
+\begin{align}
+ |V_n(T)-V_n(t)|_r
+ &\le(T-t)U_{n+1,r}^{\rm V}(T),
+ \label{eq:voigt-endpoint-modulus}\\
+ \norm{Q_n(T)-Q_n(t)}_{H^r}
+ &\le(T-t)P_{n+1,r}^{\rm V}(T).
+ \label{eq:voigt-pressure-endpoint-modulus}
+\end{align}
+Every finite rectangle reaches the same \(H^\infty\) endpoint and the same
+normalized pressure jet.
+
+On an \(H^1\) ball of radius \(R\), the vector field in
+\eqref{eq:voigt-H1-vector-field} has Lipschitz constant at most
+\(C\ell^{-2}(\nu+R)\).  Picard iteration, with the torus and Poincar\'e
+constants absorbed into \(c_{\rm V},C_{\rm V}\), gives
+\begin{equation}
+ \delta(w)
+ \ge c_{\rm V}\min\left\{1,
+ \frac{\ell^2}{\nu+1+\norm w_{H^1}}
+ \right\}.
+ \label{eq:voigt-local-lifespan}
+\end{equation}
+Since \(\norm{u(T)}_{H^1}\le C_{\rm V}\ell^{-1}K_1^{1/2}\),
+\begin{equation}
+ \delta_T^{\rm V}
+ \ge c_{\rm V}\min\left\{1,
+ \frac{\ell^2}{\nu+1+C_{\rm V}\ell^{-1}K_1^{1/2}}
+ \right\}.
+ \label{eq:voigt-restart}
+\end{equation}
+The bound does not deteriorate with the horizon.  It crosses any alleged
+finite maximal time, and uniqueness glues the restarted curve to the old
+history.  Induction through \eqref{eq:voigt-row-recurrence} identifies the
+entire right jet with the left endpoint jet.
+
+The lossless recursion gives one further quantitative consequence.  At
+\(r=2\), set
+\begin{equation}
+ R_T:=S_2^{\rm V}(T),
+ \qquad
+ L_T:=\ell^{-2}\bigl(\nu+C_2R_T\bigr).
+ \label{eq:voigt-analytic-constants}
+\end{equation}
+Since
+\begin{equation}
+ \sum_{a=0}^n\binom na a!(n-a)!=(n+1)n!,
+ \label{eq:voigt-binomial-factorial}
+\end{equation}
+induction in \eqref{eq:voigt-uniform-recursion} gives
+\begin{equation}
+ U_{n,2}^{\rm V}(T)\le n!R_TL_T^n.
+ \label{eq:voigt-factorial-row}
+\end{equation}
+Taylor's formula with integral remainder and
+\eqref{eq:voigt-factorial-row} give, whenever the segment from \(t\) to
+\(t+h\) lies in \([0,T]\),
+\begin{equation}
+ \norm{
+ u(t+h)-\sum_{j=0}^{N}\frac{h^j}{j!}V_j(t)
+ }_{H^2}
+ \le 2R_T(L_T|h|)^{N+1}.
+ \label{eq:voigt-taylor-remainder}
+\end{equation}
+Hence the solution is real-time analytic as an \(H^2_\sigma\)-valued curve
+with radius at least
+\begin{equation}
+ \rho_T^{\rm V}
+ \ge\frac1{L_T}
+ =\frac{\ell^2}{\nu+C_2\ell^{-1}K_2(T)^{1/2}}.
+ \label{eq:voigt-analytic-radius}
+\end{equation}
+The analytic-ODE continuation supplies the same radius at interval endpoints.
+The pressure recurrence has the same radius because its binomial sum is
+bounded by \(C(n+1)!R_T^2L_T^n\).  This completes an all-data global
+three-dimensional application in which the full temporal tower requires no
+increase in datum depth.
+\end{proof}
+
+\section{What the applications have tested}
+\label{sec:application-comparison}
+
+The common construction has now survived four distinct changes to the
+equation.  What remained fixed was not a particular estimate.  In each case a
+datum-side producer first controlled every requested finite spatial row; the
+actual differentiated equation then generated the temporal and pressure
+rows; those rows agreed under restriction; their common endpoint satisfied
+the limiting recurrence; and a quantitative local theorem restarted the same
+history.  The table records the part that genuinely changed.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}
+>{\raggedright\arraybackslash}p{0.20\textwidth}
+>{\raggedright\arraybackslash}p{0.30\textwidth}
+>{\raggedright\arraybackslash}p{0.19\textwidth}
+>{\raggedright\arraybackslash}p{0.22\textwidth}@{}}
+\toprule
+Equation & Datum-side producer & Cost of one time row & Quantitative conclusion \\
+\midrule
+Axisymmetric no swirl
+& Maximum principle for \(\omega^\theta/r\), followed by the stretching and logarithmic gradient bounds
+& Two spatial derivatives
+& All smooth data on \(\R^3\); complete jet and restart \\
+Viscous--resistive MHD
+& Small critical Besov norm and integrable coupled Lipschitz action
+& Two spatial derivatives in both fields
+& Small critical data on \(\R^3\); both field jets and both pressure conventions \\
+Hyperdissipative flow
+& Kinetic energy plus the sharp fractional product estimate
+& \(2\alpha\) spatial derivatives
+& All smooth data on \(\R^3\) for \(\alpha\ge5/4\); real-order rectangles \\
+Navier--Stokes--Voigt
+& Filtered energy hierarchy \(E_q\)
+& No increase in spatial order
+& All smooth periodic data; complete jet, restart, and time-analyticity radius \\
+\bottomrule
+\end{tabular}
+\caption{The producer changes; finite compatibility, endpoint formation, and restart do not.}
+\label{tab:application-comparison}
+\end{table}
+
+The applications reach farther than four global-existence statements.  They
+show which parts of the proof are geometric, which depend on the order of
+dissipation, which survive coupling, and which improve when the time
+derivative is elliptically filtered.  In every case the output remains a
+finite datum-resolved computation at each requested coordinate rather than an
+unquantified appeal to smoothness.

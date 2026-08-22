@@ -1,0 +1,1196 @@
+\part{The finite maximal-time problem}
+
+\section{The whole-space problem and its first possible singular time}
+\label{sec:whole-space-problem}
+
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth
+solution can lose its smoothness in finite time.  Fix smooth,
+divergence-free, finite-energy initial data \(u_0\), fix \(\nu>0\), and let
+\((u,p)\) be the corresponding maximal classical solution on \([0,T_*)\).
+We want to prove that \(T_*\) cannot be finite.
+
+Fefferman's formulation of the whole-space Millennium Prize Problem takes
+\(u_0\) to be smooth and divergence-free and imposes a decay estimate on every
+spatial derivative at every polynomial order.  We write this class as
+\begin{equation*}
+ \SSigma(\R^3)
+ :=\left\{a\in C^\infty(\R^3;\R^3):
+ \begin{array}{l}
+ \nabla\cdot a=0,\\[-2pt]
+ \forall\alpha\in\Nzero^3\ \forall K\in\Nzero\
+ \exists C_{\alpha,K}<\infty\ \forall x\in\R^3,\\[-2pt]
+ |\partial_x^\alpha a(x)|
+ \le C_{\alpha,K}(1+|x|)^{-K}
+ \end{array}\right\}.
+\end{equation*}
+Here \(H^m_\sigma(\R^3):=\{v\in H^m(\R^3;\R^3):\nabla\cdot v=0\}\).  In
+particular, \(\SSigma(\R^3)\subset H^m_\sigma(\R^3)\) for every finite \(m\).
+The problem asks for velocity and pressure fields satisfying
+\begin{equation}
+ \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+ \qquad
+ \nabla\cdot u=0,
+ \qquad
+ u(0)=u_0,
+ \label{eq:NS}
+\end{equation}
+with
+\[
+ u,p\in C^\infty(\R^3\times[0,\infty))
+\]
+and a kinetic-energy bound uniform in time\bibref{Fefferman}.  Smoothness here
+includes the endpoint of every finite interval.  It is stronger than being
+smooth on \(\R^3\times(0,T)\) for every \(T<T_*\), because a derivative can
+remain finite on every shorter interval and still have no finite trace at
+\(T_*\).
+
+The velocity determines the normalized pressure.  Taking the divergence of
+the momentum equation and using \(\partial_i u_i=0\) gives
+\begin{align*}
+ -\Delta p
+ &=\partial_i\bigl(u_j\partial_j u_i\bigr)
+   =\partial_i\partial_j(u_i u_j).
+\end{align*}
+On \(\R^3\) we select the Riesz-transform normalization
+\begin{equation}
+ p=R_iR_j(u_i u_j),
+ \qquad
+ R_i:=\partial_i(-\Delta)^{-1/2}.
+ \label{eq:pressure}
+\end{equation}
+This removes the additive function of time left by \(\nabla p\) in
+\eqref{eq:NS}.  It also fixes an identity that will survive every later
+spatial and temporal differentiation.  Pressure is never supplied as an
+independent field after the velocity has been chosen.
+
+\subsection{Smoothness, regularity, and continuation}
+
+Three related words will be used throughout the proof, and they should not be
+asked to do the same job.  A velocity--pressure pair is \emph{smooth through}
+a finite time \(T\) when
+\begin{equation*}
+ u,p\in C^\infty(\R^3\times[0,T]).
+\end{equation*}
+Equivalently, every mixed spatial and temporal derivative of finite order
+exists on the open spacetime region and extends continuously to both temporal
+faces.  Smoothness for all time means smoothness through every finite \(T\).
+
+\emph{Regularity} describes the kind and degree of control presently known.
+A Sobolev statement such as \(u(t)\in H^m\), a mixed-norm statement such as
+\(u\in L^p_tL^q_x\), and a pointwise statement such as
+\(u\in C^k\) are different regularity claims.  None may be silently replaced
+by another without the embedding, trace, or equation that connects them.
+
+Suppose a normalized pair \((u,p)\) solves \eqref{eq:NS} on
+\([0,T)\).  A \emph{continuation through} \(T\) is a normalized solution of
+the same zero-force, fixed-viscosity problem on \([0,T+\varepsilon)\), for
+some \(\varepsilon>0\), which agrees with \((u,p)\) before \(T\).  The Clay
+problem requires a smooth continuation through every finite time.  A finite
+quantity is not enough by itself: a required derivative can remain
+finite on every strict subinterval and still fail to approach one value at the
+endpoint.
+
+\Needspace{18\baselineskip}
+\subsection{Local existence and the maximal history}
+
+An \(H^3\) datum generates a unique pressure-normalized strong solution for a
+time depending only on \(\nu\) and its \(H^3\) norm.  Every higher integer
+Sobolev order already present in the datum persists on that same interval,
+and a finite maximal lifespan forces the \(H^3\) norm to escape.  These are
+the local facts used at both ends of the proof\bibref{FujitaKato,Kato}; the
+proposition states them together, and Appendix~\ref{app:local-theory} gives
+the construction in the form required below.
+
+The precise statement is the following.
+
+\begin{proposition}[Maximal history and blow-up alternative]
+\label{prop:maximal-history}
+Let \(t_0\ge0\) and \(a\in H^3_\sigma(\R^3)\).  There is a time
+\(\delta=\delta(\nu,\norm{a}_{H^3})>0\) and a unique pressure-normalized
+solution \((w,q)\) of \eqref{eq:NS} in the class
+\begin{equation}
+ \begin{aligned}
+ w&\in C([t_0,t_0+\delta];H^3_\sigma)
+      \cap L^2(t_0,t_0+\delta;H^4),\\
+ w_t&\in L^2(t_0,t_0+\delta;H^2),
+ \qquad
+ q=R_iR_j(w_iw_j).
+ \end{aligned}
+ \label{eq:local-base-class}
+\end{equation}
+with \(w(t_0)=a\).  If \(a\in H^m_\sigma\) for an integer \(m>3\), then, on
+the same interval,
+\begin{equation*}
+ w\in C([t_0,t_0+\delta];H^m_\sigma)
+   \cap L^2(t_0,t_0+\delta;H^{m+1}),
+ \qquad
+ w_t\in L^2(t_0,t_0+\delta;H^{m-1}).
+\end{equation*}
+Compatible local solutions in these strong classes join by
+uniqueness into one maximal solution on \([t_0,T_{\max})\).  If
+\(T_{\max}<\infty\), then
+\begin{equation*}
+ \limsup_{t\uparrow T_{\max}}\norm{w(t)}_{H^3}=\infty.
+\end{equation*}
+\end{proposition}
+
+Suppose instead that
+\(\norm{w(t)}_{H^3}\le M\) for all \(t<T_{\max}\).  The local construction
+then supplies the same positive lifespan
+\(\delta(\nu,M)\) whenever it is restarted from any time \(t<T_{\max}\).
+Choose
+\(t>T_{\max}-\tfrac12\delta(\nu,M)\).  The restarted solution crosses
+\(T_{\max}\), and uniqueness identifies it with \(w\) on the overlap.  This
+extends the maximal solution.  The extension uses the actual value of the
+same solution at a late time; it does not select a new terminal datum.
+
+\Needspace{11\baselineskip}
+For \(u_0\in\SSigma(\R^3)\), Proposition~\ref{prop:maximal-history} produces
+a smooth normalized solution on a short interval.  Repeated application and
+uniqueness produce one maximal pair \((u,p)\) on \([0,T_*)\).  Every finite
+spatial order present at time zero persists on each compact subinterval
+\([0,T]\subset[0,T_*)\).  Equation~\eqref{eq:NS} and the pressure identity
+then recover all finite temporal derivatives there.  Thus no regularity is
+missing before \(T_*\).  The unresolved distinction is between bounds on
+every fixed \([0,T]\), whose constants may diverge as \(T\uparrow T_*\), and
+one bound that survives on the full candidate interval \((0,T_*)\).
+Proposition~\ref{prop:maximal-history} makes that distinction exact: a
+whole-terminal \(H^3\) bound supplies a uniform restart time and excludes
+finite maximality.
+
+The global assertion is the following.
+
+\begin{theorem}[Whole-space existence and smoothness]
+\label{thm:main}
+For every \(\nu>0\) and every \(u_0\in\SSigma(\R^3)\), the unforced
+three-dimensional incompressible Navier--Stokes equations have a global
+pressure-normalized classical solution satisfying
+\[
+ u,p\in C^\infty(\R^3\times[0,\infty)).
+\]
+For every \(t\ge0\), this solution obeys
+\[
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(\tau)}_2^2\,d\tau
+ =\frac12\norm{u_0}_2^2,
+\]
+and in particular
+\begin{equation}
+ \sup_{t\ge0}\int_{\R^3}|u(x,t)|^2\,dx
+ \le \norm{u_0}_2^2<\infty.
+ \label{eq:uniform-kinetic-energy}
+\end{equation}
+\end{theorem}
+
+The energy identity will give the uniform kinetic-energy bound in
+Theorem~\ref{thm:main}.  Its harder conclusion begins one derivative higher.
+Even if the continuation-grade \(H^3\) norm escapes, the kinetic energy and an
+integrated first derivative remain controlled for the entire proposed branch.
+Those are the first quantities that do not end when the classical restart norm
+does.  We derive them next and ask how much of the original evolution they
+still identify.
+
+\section{The first global control: energy and weak continuation}
+\label{sec:energy-weak}
+
+Pair the momentum equation with \(u\) and integrate over \(\R^3\).  The
+transport, pressure, and viscous terms have three distinct forms, so we record
+the three integrations separately:
+\begin{align*}
+ \int_{\R^3}(u\cdot\nabla)u\cdot u\,dx
+ &=\frac12\int_{\R^3}u\cdot\nabla|u|^2\,dx
+ =-\frac12\int_{\R^3}(\nabla\cdot u)|u|^2\,dx=0,\\
+ \int_{\R^3}\nabla p\cdot u\,dx
+ &=-\int_{\R^3}p\,\nabla\cdot u\,dx=0,\\
+ \int_{\R^3}\Delta u\cdot u\,dx
+ &=-\int_{\R^3}|\nabla u|^2\,dx.
+\end{align*}
+The decay inherited on compact time intervals justifies the integrations;
+the same calculation follows by cutoff and density at finite energy.  Hence
+\begin{equation*}
+ \frac12\frac d{dt}\norm{u(t)}_2^2
+ +\nu\norm{\nabla u(t)}_2^2=0.
+\end{equation*}
+Integrating from \(0\) to \(t<T_*\) gives the exact energy identity
+\begin{equation}
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(\tau)}_2^2\,d\tau
+ =\frac12\norm{u_0}_2^2.
+ \label{eq:energy}
+\end{equation}
+
+The two controls in \eqref{eq:energy} have different strengths in time.  The
+velocity has a pointwise-in-time \(L^2\) ceiling.  Its first spatial derivative
+is controlled only after integration over the interval:
+\begin{equation}
+ \sup_{0\le t<T_*}\norm{u(t)}_2^2\le\norm{u_0}_2^2,
+ \qquad
+ \int_0^{T_*}\norm{\nabla u(t)}_2^2\,dt
+ \le\frac{\norm{u_0}_2^2}{2\nu}
+ \quad(T_*<\infty).
+ \label{eq:energy-class-controls}
+\end{equation}
+A finite integral permits high values on intervals whose lengths shrink fast
+enough.  The energy law rules out loss of total kinetic energy control, but it
+does not place an instantaneous ceiling on the derivative that controls
+classical continuation.
+
+\subsection{What global weak existence does and does not continue}
+
+Leray used the bounds in \eqref{eq:energy-class-controls} to construct a
+global weak solution.  For the same datum \(u_0\), there is a Leray--Hopf pair
+\((U,P)\) on every finite time interval with
+\begin{equation*}
+ U\in L^\infty(0,T;L^2_\sigma)
+    \cap L^2(0,T;H^1_\sigma),
+\end{equation*}
+which solves \eqref{eq:NS} in distributions and satisfies the energy
+inequality\bibref{Leray}.
+
+Before \(T_*\), this weak solution is the classical solution already fixed
+above.  To see the identification directly, fix \(T<T_*\), set \(z=U-u\),
+and subtract the two equations.  Using
+\[
+ (U\cdot\nabla)U-(u\cdot\nabla)u
+ =(U\cdot\nabla)z+(z\cdot\nabla)u,
+\]
+pair the difference equation with \(z\).  The first transport term cancels
+because \(\nabla\cdot U=0\), and the pressure difference cancels because
+\(\nabla\cdot z=0\).  The remaining nonlinear term satisfies
+\[
+ \left|\int_{\R^3}(z\cdot\nabla)u\cdot z\,dx\right|
+ \le \norm{\nabla u}_\infty\norm{z}_2^2.
+\]
+The difference energy inequality is
+\begin{align*}
+ \frac12\norm{z(t)}_2^2
+ +\nu\int_0^t\norm{\nabla z(s)}_2^2\,ds
+ &\le
+ \int_0^t\norm{\nabla u(s)}_\infty\norm{z(s)}_2^2\,ds.
+\end{align*}
+The classical solution belongs to \(C([0,T];H^3)\).  The embedding
+\(H^3(\R^3)\hookrightarrow W^{1,\infty}(\R^3)\), proved in
+Appendix~\ref{app:analytic-framework} at
+\eqref{eq:appendix-spatial-embedding}, gives
+\(\norm{\nabla u}_\infty\in L^1(0,T)\).  Since \(z(0)=0\), Gronwall's
+inequality gives \(z=0\) on \([0,T]\)\bibref{Prodi,SerrinIVP}.  As \(T<T_*\)
+was arbitrary,
+\begin{equation}
+ U=u\quad\hbox{almost everywhere on }\R^3\times(0,T_*).
+ \label{eq:weak-strong-identification}
+\end{equation}
+
+Thus a finite \(T_*\) would not prevent a Leray--Hopf continuation from
+existing.  That continuation agrees with the fixed classical solution before
+\(T_*\), but uniqueness beyond the endpoint has not been established.  The
+loss at \(T_*\) would be the loss of a smooth state that identifies one unique
+classical continuation, not the disappearance of every distributional
+solution.  The next estimate asks where the first classical derivative can
+escape while the energy law remains intact.
+
+\section{The three-dimensional obstruction in the first derivative}
+\label{sec:enstrophy}
+
+The kinetic-energy identity does not expose the mechanism that makes the
+three-dimensional problem difficult.  The first derivative does.  Define the
+vorticity
+\[
+ \omega:=\nabla\times u.
+\]
+For a decaying vector field,
+\[
+ \int_{\R^3}|\nabla u|^2\,dx
+ =\int_{\R^3}\bigl(|\nabla\times u|^2+|\nabla\cdot u|^2\bigr)\,dx,
+\]
+so incompressibility gives
+\begin{equation*}
+ \norm{\nabla u}_2^2=\norm{\omega}_2^2.
+\end{equation*}
+The dissipation in the kinetic-energy law is exactly the time-integrated
+enstrophy.
+
+Taking the curl of the momentum equation removes the pressure gradient.  The
+transport term does not pass through the curl unchanged.  In index notation,
+using \(\partial_j u_j=0\),
+\[
+ \nabla\times\bigl((u\cdot\nabla)u\bigr)
+ =(u\cdot\nabla)\omega-(\omega\cdot\nabla)u.
+\]
+The vorticity consequently satisfies
+\begin{equation}
+ \partial_t\omega+(u\cdot\nabla)\omega
+ =(\omega\cdot\nabla)u+\nu\Delta\omega.
+ \label{eq:vorticity}
+\end{equation}
+Transport carries vorticity through the velocity field, viscosity diffuses
+its spatial variation, and \((\omega\cdot\nabla)u\) changes vorticity through
+the velocity gradient already present in that field.
+
+Write
+\[
+ S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+ \qquad
+ A:=\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr).
+\]
+Pairing \eqref{eq:vorticity} with \(\omega\) cancels transport and integrates
+the Laplacian by parts:
+\[
+ \frac12\frac d{dt}\norm{\omega}_2^2
+ +\nu\norm{\nabla\omega}_2^2
+ =\int_{\R^3}\bigl((\omega\cdot\nabla)u\bigr)\cdot\omega\,dx.
+\]
+Since \((A\omega)\cdot\omega=0\), this is
+\begin{equation*}
+ \frac12\frac d{dt}\norm{\omega}_2^2
+ +\nu\norm{\nabla\omega}_2^2
+ =\int_{\R^3}(S\omega)\cdot\omega\,dx.
+\end{equation*}
+The right-hand side has no fixed sign.  The strain may shorten vorticity in
+one region and lengthen it in another, with both actions constrained by the
+same divergence-free velocity.  This fully three-dimensional stretching term
+prevents the enstrophy balance from inheriting the monotonic form of the
+kinetic-energy balance.
+
+The absence of an explicit pressure term from \eqref{eq:vorticity} does not
+turn this into a local scalar equation.  Since \(\nabla\cdot u=0\),
+\[
+ -\Delta u=\nabla\times\omega,
+ \qquad
+ \partial_k u_j
+ =\partial_k(-\Delta)^{-1}(\nabla\times\omega)_j.
+\]
+Thus every component of \(\nabla u\) is an order-zero singular-integral
+transform of \(\omega\); the required multiplier bounds are
+\eqref{eq:appendix-riesz-multiplier-bounds}.  The normalized pressure is recovered
+from \(u\) by \eqref{eq:pressure}.  Stretching, transport,
+viscous diffusion, pressure response, and incompressibility remain parts of
+the same evolving field.  The point of the vorticity equation is narrower:
+it locates the sign-indefinite derivative production that the total energy
+balance cannot see.
+
+\subsection{The first differentiated estimate}
+
+Set
+\[
+ Y(t):=\norm{\nabla u(t)}_2^2.
+\]
+Pair \eqref{eq:NS} with \(-\Delta u\).  The pressure vanishes because
+\(\nabla\cdot\Delta u=0\), and integration by parts in the time and viscous
+terms gives
+\begin{equation}
+ \frac12Y'(t)+\nu\norm{\Delta u(t)}_2^2
+ =\int_{\R^3}(u\cdot\nabla)u\cdot\Delta u\,dx.
+ \label{eq:first-differentiated-energy}
+\end{equation}
+The transport term now survives.  Hölder's inequality with exponents
+\((6,3,2)\), followed by the homogeneous Sobolev and interpolation estimates
+proved in \eqref{eq:appendix-homogeneous-Sobolev-interpolation}, gives the
+classical enstrophy estimate:
+\begin{align*}
+ \left|\int_{\R^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
+ &\le \norm{u}_6\norm{\nabla u}_3\norm{\Delta u}_2\\
+ &\le C\norm{\nabla u}_2
+          \bigl(\norm{\nabla u}_2^{1/2}
+                \norm{\nabla u}_6^{1/2}\bigr)
+          \norm{\Delta u}_2\\
+ &\le C\norm{\nabla u}_2^{3/2}
+          \norm{\Delta u}_2^{3/2}.
+\end{align*}
+Young's inequality, with the viscosity retained in the absorbing term, yields
+\[
+ C\norm{\nabla u}_2^{3/2}\norm{\Delta u}_2^{3/2}
+ \le \frac{\nu}{2}\norm{\Delta u}_2^2
+      +C\nu^{-3}\norm{\nabla u}_2^6.
+\]
+Substitution in \eqref{eq:first-differentiated-energy} gives
+\begin{equation}
+ Y'(t)+\nu\norm{\Delta u(t)}_2^2
+ \le C\nu^{-3}Y(t)^3.
+ \label{eq:enstrophy-obstruction}
+\end{equation}
+
+The energy identity controls \(\int_0^T Y(t)\,dt\).  The next estimate asks
+for \(\int_0^T Y(t)^3\,dt\).  These are genuinely different demands.  A
+nonnegative function can have finite integral while its cube has infinite
+integral, and the energy identity contains no additional time information
+that excludes that pattern.  This observation does not assert that a
+Navier--Stokes solution can realize an arbitrary spike.  It identifies the
+exact point at which the basic estimate stops: the available \(L^1_t\) control
+of \(Y\) cannot be inserted into the cubic term of
+\eqref{eq:enstrophy-obstruction}.
+
+\Needspace{9\baselineskip}
+The same differential inequality forces a minimum growth rate on any branch
+where enstrophy becomes unbounded.  A nonzero decaying incompressible solution
+has \(Y(t)>0\) along such a branch.  If \(Y(t_0)=0\), then \(u(t_0)=0\), and
+forward uniqueness forces \(u(t)=0\) for every \(t\ge t_0\), excluding any
+later blow-up.  Dropping the nonnegative viscous term from
+\eqref{eq:enstrophy-obstruction} and differentiating \(Y^{-2}\) gives
+\[
+ \frac d{dt}Y^{-2}
+ =-2Y^{-3}Y'
+ \ge -2C\nu^{-3}.
+\]
+Assume \(T_*<\infty\) and choose \(s_j\uparrow T_*\) with
+\(Y(s_j)\to\infty\).  Integration from \(t\) to \(s_j\) gives
+\[
+ Y(t)^{-2}
+ \le Y(s_j)^{-2}+2C\nu^{-3}(s_j-t).
+\]
+Letting \(j\to\infty\) yields
+\begin{equation}
+ T_*<\infty\ \hbox{and}\
+ \limsup_{t\uparrow T_*}Y(t)=\infty
+ \quad\Longrightarrow\quad
+ Y(t)\ge
+ \frac{\nu^{3/2}}{\sqrt{2C}}\,(T_*-t)^{-1/2}.
+ \label{eq:leray-enstrophy-rate}
+\end{equation}
+The rate in \eqref{eq:leray-enstrophy-rate} is unbounded and still integrable
+at \(T_*\).  It can fit inside the dissipation budget only because the time
+available above each higher level contracts.  The first differentiated
+estimate has consequently exposed a possible terminal geometry: increasing
+derivative intensity supported on shrinking time intervals.  Since \(Y(t)\)
+is integrated over all of \(\R^3\), it says nothing yet about where that
+intensity sits or what remains when the surrounding spacetime region is
+magnified.
+
+\subsection{From shrinking time to shrinking spacetime}
+\label{sec:CKN}
+
+\Needspace{10\baselineskip}
+That missing spatial information is exactly what the local energy inequality
+was built to retain.  Caffarelli, Kohn, and Nirenberg inserted a nonnegative
+spacetime cutoff into the Leray energy argument, keeping both the energy
+inside a shrinking region and the flux through its boundary.  The Leray pair
+fixed in Section~\ref{sec:energy-weak} may be chosen suitable; it retains the
+same normalized pressure and still satisfies
+\eqref{eq:weak-strong-identification} before \(T_*\).  This pair \((U,P)\)
+satisfies, for every nonnegative
+\(\phi\in C_c^\infty(\R^3\times[0,T))\) and almost every \(t\in(0,T)\),
+\begin{equation}
+\begin{aligned}
+ \frac12\int_{\R^3}|U(t)|^2\phi(t)\,dx
+ &+\nu\int_0^t\int_{\R^3}|\nabla U|^2\phi\,dx\,ds\\
+ &\le \frac12\int_{\R^3}|u_0|^2\phi(0)\,dx\\
+ &\quad+\frac12\int_0^t\int_{\R^3}
+ |U|^2(\partial_s\phi+\nu\Delta\phi)\,dx\,ds\\
+ &\quad+\int_0^t\int_{\R^3}
+ \left(\frac12|U|^2+P\right)U\cdot\nabla\phi\,dx\,ds.
+\end{aligned}
+\label{eq:local-energy-inequality}
+\end{equation}
+Unlike the total energy law, \eqref{eq:local-energy-inequality} retains the
+flux through the region selected by \(\phi\).  It is designed to detect a
+point around which energy and dissipation keep concentrating as the region
+shrinks.
+
+For \(z_0=(x_0,t_0)\), write
+\[
+ Q_r(z_0):=B_r(x_0)\times(t_0-r^2,t_0).
+\]
+Under the Navier--Stokes scaling
+\[
+ U_\lambda(x,t)=\lambda U(\lambda x,\lambda^2t),
+ \qquad
+ P_\lambda(x,t)=\lambda^2P(\lambda x,\lambda^2t),
+\]
+a spatial length \(r\) is paired with a time length \(r^2\).  If
+\(z_0^\lambda=(x_0/\lambda,t_0/\lambda^2)\), then the change of variables
+\(y=\lambda x\), \(s=\lambda^2t\) gives
+\[
+ \frac{1}{r/\lambda}
+ \int_{Q_{r/\lambda}(z_0^\lambda)}|\nabla U_\lambda|^2\,dx\,dt
+ =\frac1r\int_{Q_r(z_0)}|\nabla U|^2\,dy\,ds.
+\]
+Thus the scaled dissipation used below is genuinely dimensionless.  In the
+Caffarelli--Kohn--Nirenberg terminology, \(z_0\) is a regular point when \(U\)
+is essentially bounded on a spacetime neighbourhood of \(z_0\).  Their
+epsilon-regularity theorem gives a constant
+\(\varepsilon_{\mathrm{CKN}}(\nu)>0\) such that\bibref{CKN}
+\begin{equation}
+ \limsup_{r\downarrow0}\frac1r
+ \int_{Q_r(z_0)}|\nabla U|^2\,dx\,dt
+ <\varepsilon_{\mathrm{CKN}}(\nu)
+ \quad\Longrightarrow\quad
+ z_0\ \hbox{is a regular point}.
+ \label{eq:CKN-epsilon}
+\end{equation}
+At a singular point the contrapositive of \eqref{eq:CKN-epsilon} gives
+\[
+ \limsup_{r\downarrow0}\frac1r
+ \int_{Q_r(z_0)}|\nabla U|^2\,dx\,dt
+ \ge\varepsilon_{\mathrm{CKN}}(\nu).
+\]
+Thus the scale-invariant dissipation reaches the threshold along arbitrarily
+small cylinders.  The limsup statement does not assert the same lower bound
+at every small radius.
+
+\Needspace{7\baselineskip}
+The covering argument turns this scale-by-scale lower concentration into a
+geometric restriction.  If \(\mathcal S(U)\) denotes the set of singular
+spacetime points of a suitable weak solution, then
+\begin{equation*}
+ \mathcal P^1\bigl(\mathcal S(U)\bigr)=0,
+\end{equation*}
+where \(\mathcal P^1\) is one-dimensional parabolic Hausdorff
+measure\bibref{CKN}.  This is far stronger than an almost-everywhere statement.
+A possible singular set cannot contain a parabolic curve segment, a positive
+time interval, or any set carrying positive one-dimensional parabolic
+measure.
+
+Caffarelli--Kohn--Nirenberg have now reduced a possible failure from diffuse
+loss of control to scale-invariant concentration near a very small singular
+set.  That geometric restriction still leaves an isolated singular point
+available, and it still supplies no whole-space state at \(T_*\).  On
+\(\R^3\), concentration may also move through space, so regularity in each
+fixed neighbourhood does not by itself bound a global Sobolev norm.  The
+analysis has reached a precise divide: local concentration describes how failure
+would appear, while continuation requires a global quantity strong enough to
+propagate the complete spatial state.
+
+\section{What would be strong enough to continue the solution}
+\label{sec:high-order-continuation}
+
+Proposition~\ref{prop:maximal-history} already names one such state: a bounded
+\(H^3\) norm crosses the proposed endpoint.  Differentiating the equation
+shows something stronger.  Once one lower-order transport coefficient is
+integrable, every fixed Sobolev order propagates on the same interval.  Let
+\(m\ge3\) be an integer and apply \(\partial^\alpha\) to \eqref{eq:NS} for
+\(|\alpha|\le m\):
+\[
+ \partial_t\partial^\alpha u
+ +(u\cdot\nabla)\partial^\alpha u
+ +[\partial^\alpha,u\cdot\nabla]u
+ +\nabla\partial^\alpha p
+ =\nu\Delta\partial^\alpha u.
+\]
+Pair with \(\partial^\alpha u\) and integrate.  The undifferentiated transport
+coefficient still cancels,
+\[
+ \int_{\R^3}(u\cdot\nabla)\partial^\alpha u
+             \cdot\partial^\alpha u\,dx=0,
+\]
+and the pressure cancels because
+\(\nabla\cdot\partial^\alpha u=0\).  The commutator contains all the product
+terms in which at least one derivative lands on the transport field:
+\[
+ [\partial^\alpha,u\cdot\nabla]u
+ =\sum_{\substack{0<\beta\le\alpha}}
+   \binom{\alpha}{\beta}
+   \bigl(\partial^\beta u\cdot\nabla\bigr)
+   \partial^{\alpha-\beta}u.
+\]
+The integer-order commutator estimate
+\eqref{eq:appendix-commutator} gives
+\[
+ \sum_{|\alpha|\le m}
+ \left|
+  \pair{[\partial^\alpha,u\cdot\nabla]u}{\partial^\alpha u}
+ \right|
+ \le C_m\norm{\nabla u}_\infty\norm{u}_{H^m}^2.
+\]
+Summing over \(|\alpha|\le m\) produces
+\begin{equation}
+ \frac12\frac d{dt}\norm{u(t)}_{H^m}^2
+ +\nu\norm{\nabla u(t)}_{H^m}^2
+ \le
+ C_m\norm{\nabla u(t)}_\infty\norm{u(t)}_{H^m}^2.
+ \label{eq:high-order-continuation}
+\end{equation}
+
+Gronwall's inequality now states the continuation mechanism in one line:
+\begin{equation}
+ \norm{u(t)}_{H^m}^2
+ \le \norm{u_0}_{H^m}^2
+ \exp\left(
+  2C_m\int_0^t\norm{\nabla u(s)}_\infty\,ds
+ \right),
+ \qquad 0\le t<T_*.
+ \label{eq:high-order-gronwall}
+\end{equation}
+The factor \(\norm{u_0}_{H^m}\) is finite at every fixed order because
+\(u_0\in\SSigma\).  The constant may depend on \(m\); smoothness does not
+require one constant uniform over all derivative orders.  What must be common
+to every row is the same finite time interval and the same integral
+\[
+ \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt.
+\]
+If this integral is finite, \eqref{eq:high-order-gronwall} bounds every fixed
+\(H^m\) norm up to \(T_*\), beginning with \(H^3\).  Proposition
+\ref{prop:maximal-history} then continues the solution.  Hence
+\begin{equation}
+ T_*<\infty
+ \quad\Longrightarrow\quad
+ \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt=\infty.
+ \label{eq:lipschitz-blowup-criterion}
+\end{equation}
+
+A single uniform Sobolev bound above the Lipschitz threshold also closes the
+argument.  If \(s>5/2\) and
+\[
+ \sup_{t<T_*}\norm{u(t)}_{H^s}<\infty,
+\]
+then \(H^s(\R^3)\hookrightarrow W^{1,\infty}(\R^3)\).  The finite length of
+\((0,T_*)\) makes the coefficient in
+\eqref{eq:high-order-continuation} integrable, all higher orders propagate,
+and Proposition~\ref{prop:maximal-history} restarts the solution.  Thus every
+finite maximal time
+must force every continuation-grade Sobolev norm to escape.
+
+The calculation has isolated one coefficient that carries the entire spatial
+ladder.  To see how far the energy class lies from paying it, first observe
+that energy already reaches the spatial exponent that will become critical,
+but with the wrong time control.  Sobolev embedding and interpolation
+give
+\begin{equation*}
+ \norm{u(t)}_3
+ \le \norm{u(t)}_2^{1/2}\norm{u(t)}_6^{1/2}
+ \le C\norm{u(t)}_2^{1/2}\norm{\nabla u(t)}_2^{1/2}.
+\end{equation*}
+Raising to the fourth power, integrating in time, and using
+\eqref{eq:energy} yields
+\begin{equation*}
+ u\in L^4(0,T_*;L^3(\R^3))
+ \qquad (T_*<\infty).
+\end{equation*}
+Energy already reaches the spatial exponent \(3\), but only after time
+integration.  The scale-balanced criteria distinguish exactly how much
+stronger the temporal control must be.
+
+\subsection{Scale-balanced continuation and the critical endpoint}
+\label{sec:LPS}
+
+Ladyzhenskaya, Prodi, and Serrin found the first scale-balanced way to obtain
+that control.  Their mixed space--time conditions trade spatial intensity
+against the length of time for which that intensity persists
+\bibref{Prodi,SerrinIVP,Ladyzhenskaya,Serrin}.  The first differentiated
+estimate determines the trade, so its exponents are derived before the
+criterion is stated.
+
+Fix \(q>3\) and choose \(r=2q/(q-2)\), so
+\[
+ \frac1q+\frac1r+\frac12=1.
+\]
+\Needspace{10\baselineskip}
+Hölder's inequality and the interpolation formula in
+\eqref{eq:appendix-homogeneous-Sobolev-interpolation} give
+\begin{align*}
+ \left|\int_{\R^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
+ &\le \norm{u}_q\norm{\nabla u}_r\norm{\Delta u}_2,\\
+ \norm{\nabla u}_r
+ &\le C\norm{\nabla u}_2^{1-3/q}
+          \norm{\nabla u}_6^{3/q}\\
+ &\le C\norm{\nabla u}_2^{1-3/q}
+          \norm{\Delta u}_2^{3/q}.
+\end{align*}
+Thus
+\[
+ \left|\int_{\R^3}(u\cdot\nabla)u\cdot\Delta u\,dx\right|
+ \le
+ C\norm{u}_q
+ \norm{\nabla u}_2^{1-3/q}
+ \norm{\Delta u}_2^{1+3/q}.
+\]
+Young's inequality uses the exponent \(2/(1+3/q)\) on the last factor and
+its conjugate \(2/(1-3/q)=2q/(q-3)\) on the remaining product.  It follows
+that
+\begin{equation}
+ \frac d{dt}\norm{\nabla u}_2^2
+ +\nu\norm{\Delta u}_2^2
+ \le
+ C_{\nu,q}\norm{u}_q^{\,2q/(q-3)}
+ \norm{\nabla u}_2^2.
+ \label{eq:LPS-differential}
+\end{equation}
+The exponent is not chosen for appearance.  It is exactly the time exponent
+that makes the coefficient in \eqref{eq:LPS-differential} integrable on the
+critical line.
+
+\begin{proposition}[Ladyzhenskaya--Prodi--Serrin continuation criterion]
+\label{prop:LPS}
+Let \((u,p)\) be the maximal solution supplied by
+Proposition~\ref{prop:maximal-history}, and let \(T\le T_*\).
+If
+\begin{equation*}
+ u\in L^p(0,T;L^q(\R^3)),
+ \qquad
+ \frac2p+\frac3q\le1,
+ \qquad
+ q>3,
+\end{equation*}
+then \(u\) remains regular through \(T\).  The endpoint
+\((p,q)=(2,\infty)\) is included.
+\end{proposition}
+
+The proposition is the classical Ladyzhenskaya--Prodi--Serrin continuation
+theorem\bibref{Ladyzhenskaya,Prodi,Serrin}.  The calculation above explains
+its critical exponent in the present notation: \(2/p+3/q\le1\) gives
+\(p\ge2q/(q-3)\), so on a finite interval the coefficient
+\(\norm{u}_q^{2q/(q-3)}\) in \eqref{eq:LPS-differential} is integrable.
+Gronwall bounds enstrophy and the integrated \(H^2\) dissipation; the cited
+theorem supplies continuation and weak--strong uniqueness through the
+terminal time.
+
+The continuation criterion also determines when the lower rate
+\eqref{eq:leray-enstrophy-rate} applies.  If
+\(\sup_{t<T_*}\norm{\nabla u(t)}_2<\infty\), Sobolev embedding gives
+\[
+ \sup_{t<T_*}\norm{u(t)}_6<\infty.
+\]
+Since \(T_*<\infty\), this places \(u\) in \(L^4(0,T_*;L^6)\), and
+\[
+ \frac24+\frac36=1.
+\]
+Proposition~\ref{prop:LPS} would continue the solution.  A finite maximal time
+must consequently have unbounded enstrophy, so the Leray lower rate applies.
+
+\subsection{Why the endpoint is critical}
+
+The Navier--Stokes scaling is
+\begin{equation}
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad
+ p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+ \label{eq:NS-scaling}
+\end{equation}
+At corresponding times and intervals,
+\[
+ \norm{u_\lambda}_{L^p_tL^q_x}
+ =\lambda^{\,1-2/p-3/q}\norm{u}_{L^p_tL^q_x}.
+\]
+The equality \(2/p+3/q=1\) is precisely the scale-invariant line.  The
+spatial exponent \(q\) measures the intensity of concentration, while the
+temporal exponent \(p\) measures how long that intensity persists.  The
+\Needspace{5\baselineskip}
+Leray energy controls
+\[
+ u\in L^\infty_tL^2_x\cap L^2_tL^6_x,
+\]
+and both pairs have \(2/p+3/q=3/2\), above the continuation line.  Scaling
+expresses the same gap seen in the enstrophy calculation: the global energy
+class does not forbid activity that becomes stronger as its scale contracts.
+
+As \(q\downarrow3\), the exponent \(2q/(q-3)\) in
+\eqref{eq:LPS-differential} diverges.  The direct Gronwall calculation reaches
+every \(q>3\) and stops at
+\[
+ u\in L^\infty(0,T;L^3(\R^3)).
+\]
+The norm is exactly invariant under \eqref{eq:NS-scaling}:
+\[
+ \norm{u_\lambda(t)}_3
+ =\norm{u(\lambda^2t)}_3.
+\]
+At the same time,
+\[
+ \norm{u_\lambda(t)}_2^2
+ =\lambda^{-1}\norm{u(\lambda^2t)}_2^2.
+\]
+Concentration to a shorter spatial scale preserves the \(L^3\) size while it
+reduces the amount seen by the \(L^2\) energy.  This is why the endpoint cannot
+be obtained by interpolating the energy law alone.
+
+\subsection{Escauriaza--Seregin--\v{S}ver\'ak}
+
+Escauriaza, Seregin, and \v{S}ver\'ak proved that boundedness at the missing
+endpoint is still enough for regularity\bibref{ESS}.  In the continuation form
+used here, their theorem states that a suitable Leray--Hopf solution on
+\(\R^3\times(0,T)\) satisfying
+\[
+ U\in L^\infty(0,T;L^3(\R^3))
+\]
+is regular through \(T\).  The proof cannot follow
+\eqref{eq:LPS-differential}, whose exponent has become infinite.  It rescales
+around a presumed concentration, passes to a nontrivial ancient limiting
+solution, and uses backward uniqueness for vorticity together with unique
+continuation to rule out that limit.
+
+Its implication for the fixed maximal history is exact.  Suppose
+\[
+ \limsup_{t\uparrow T_*}\norm{u(t)}_3<\infty.
+\]
+The finite limsup bounds \(\norm{u(t)}_3\) on some terminal interval.  On the
+earlier compact interval the classical solution is continuous into \(H^3\)
+and hence bounded in \(L^3\).  Thus
+\[
+ u\in L^\infty(0,T_*;L^3).
+\]
+By \eqref{eq:weak-strong-identification}, the suitable Leray--Hopf solution
+\(U\) has the same membership and agrees with \(u\) before \(T_*\).  The
+endpoint theorem makes \(U\) regular through \(T_*\), and weak--strong
+uniqueness gives a classical continuation of \(u\).  Maximality rules this
+out.  We have proved the necessary condition
+\begin{equation}
+ T_*<\infty
+ \quad\Longrightarrow\quad
+ \limsup_{t\uparrow T_*}\norm{u(t)}_{L^3}=\infty.
+ \label{eq:ESS-blowup}
+\end{equation}
+
+The conclusion says that the critical norm crosses arbitrarily high levels
+along times approaching \(T_*\).  By itself it allows a sequence of high peaks
+separated by returns below a fixed level.  That distinction matters for any
+argument that needs a full terminal limit rather than a selected sequence.
+
+\subsection{Seregin's terminal divergence and Tao's quantitative rate}
+
+Seregin closed the difference between a limsup and a limit in the smooth,
+compactly supported, divergence-free whole-space class stated in his theorem.
+For a solution in that class, if \(T_*<\infty\), then
+\begin{equation}
+ \lim_{t\uparrow T_*}\norm{u(t)}_{L^3}=\infty.
+ \label{eq:seregin-L3-divergence}
+\end{equation}
+Equivalently, for every \(M<\infty\) there is a time \(t_M<T_*\) such that
+\(\norm{u(t)}_3>M\) for every \(t\in(t_M,T_*)\)\bibref{Seregin2012}.
+A finite singular branch cannot keep returning to a
+fixed bounded \(L^3\) level.
+
+Compactly supported smooth data form a proper subfamily of the class
+\(\SSigma(\R^3)\) fixed in the opening.  Within that subfamily, Seregin's
+theorem replaces arbitrarily late peaks by permanent terminal escape.  For
+the full class, the all-data endpoint condition \eqref{eq:ESS-blowup} remains
+the available conclusion.
+
+The homogeneous Sobolev norm
+\[
+ \norm{u}_{\dot H^{1/2}}
+ =\norm{\Lambda^{1/2}u}_2
+\]
+has the same scaling as \(L^3\), and the Sobolev embedding
+\(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\) places it at the same
+critical height.  In the same compact-data setting, Seregin proved the direct
+terminal condition
+\begin{equation}
+ T_*<\infty
+ \quad\Longrightarrow\quad
+ \lim_{t\uparrow T_*}\norm{u(t)}_{\dot H^{1/2}}=\infty.
+ \label{eq:seregin-critical-divergence}
+\end{equation}
+This is a statement about the whole terminal approach, not a
+subsequence\bibref{SereginCritical}.
+
+These theorems specify that the critical norm must diverge, but a qualitative
+limit does not say how rapidly it must do so.  Tao quantified the endpoint
+argument by replacing its compactness and uniqueness steps with explicit
+estimates.  The change of variables
+\[
+ v(x,s)=\nu^{-1}u(x,s/\nu),
+ \qquad q(x,s)=\nu^{-2}p(x,s/\nu),
+ \qquad S_*=\nu T_*,
+\]
+converts the viscosity-\(\nu\) equation into the viscosity-one equation.
+A further Navier--Stokes scaling normalizes \(S_*\) to one without changing
+the \(L^3\) norm.  Applied after these two normalizations, Tao's estimate gives
+an absolute \(c>0\) such that
+\[
+ \limsup_{t\uparrow T_*}
+ \frac{\nu^{-1}\norm{u(t)}_3}
+ {\left(\log\log\log\left(1000+
+   \dfrac{T_*}{T_*-t}\right)\right)^c}
+ =\infty.
+\]
+The time ratio and the normalized amplitude are dimensionless
+\bibref{Tao2021Quantitative}.  Since
+\(\dot H^{1/2}(\R^3)\hookrightarrow L^3(\R^3)\), the same lower-rate
+conclusion transfers, up to the Sobolev constant, to excursions of the
+critical Sobolev norm.  The estimate is slow, but it makes the shrinking-time
+picture quantitative: as the remaining time collapses, critical escape cannot
+stay below every power of this triple logarithm along all terminal sequences.
+
+\Needspace{12\baselineskip}
+\section{The question left by the classical theory}
+\label{sec:classical-question}
+
+The historical picture is now tight enough to state the remaining problem.
+Energy allows increasing derivative intensity only by concentrating it into
+less time.  Caffarelli--Kohn--Nirenberg retain scale-invariant activity near
+any singular point.  ESS and Tao force arbitrarily late critical excursions;
+Seregin forces permanent terminal escape in his compact-data class.  Each
+result describes what a finite singular branch would have to do.  None gives
+the upper estimate that would stop it.  The missing statement must be generated
+by \(u_0\), \(\nu\), and the coupled equation, and its constant must remain
+finite all the way to \(T_*\).
+
+Continuation now has two distinct burdens.  Following the solution forward,
+one needs an estimate strong enough to prevent its \(H^3\) restart norm from
+escaping before \(T_*\).  At the endpoint, any proposed limits for the velocity
+and its required derivatives must agree wherever they overlap and must still
+satisfy the original momentum and normalized pressure laws.  We call the
+forward estimate Gold and the endpoint test Silver.  Both belong to the same
+regularity claim.
+
+\subsection{Gold: direct continuation control}
+\label{sec:gold-standard}
+
+Fix one exponent \(s_0>5/2\).  A decisive estimate would have the form
+\begin{equation}
+ \sup_{0\le t<\min\{T,T_*\}}\norm{u(t)}_{H^{s_0}}
+ \le C_{s_0}(u_0,\nu,T)<\infty
+ \qquad\text{for every finite }T>0.
+ \label{eq:gold-estimate}
+\end{equation}
+The constant may depend on the finite time and on the chosen Sobolev order.
+It must be generated by \(u_0\), \(\nu\), and the equation; the finiteness of
+the norm on the left cannot reappear as an assumption hidden inside the
+constant.  Estimate~\eqref{eq:gold-estimate} is the \emph{Gold Standard}.
+
+The threshold \(s_0>5/2\) makes the estimate continuation-grade because
+\begin{equation*}
+ H^{s_0}(\R^3)\hookrightarrow W^{1,\infty}(\R^3).
+\end{equation*}
+For every finite \(T\), it follows that
+\begin{equation*}
+ \int_0^{\min\{T,T_*\}}\norm{\nabla u(t)}_\infty\,dt<\infty.
+\end{equation*}
+Equation~\eqref{eq:high-order-gronwall} then propagates every fixed finite
+Sobolev order present in \(u_0\).  The bound may change with the order.  What
+smoothness needs is one finite bound at every requested order on the same time
+interval, not one numerical constant for the infinite family.
+
+Once the spatial orders are available, pressure follows from
+\eqref{eq:pressure}, and the momentum equation gives
+\begin{equation*}
+ u_t=\nu\Delta u-(u\cdot\nabla)u-\nabla p,
+\end{equation*}
+so repeated differentiation recovers every finite mixed velocity--pressure
+derivative.  If \(T_*<\infty\), take \(T=T_*\) in
+\eqref{eq:gold-estimate}.  The propagated \(H^3\) bound gives every sufficiently
+late slice the same positive local lifespan.  One such restart crosses
+\(T_*\), and uniqueness identifies it with the original solution on the
+overlap.  Thus the estimate alone forces \(T_*=\infty\).
+
+Gold has now reduced the global problem to one forward task: derive
+whole-terminal continuation control from the coupled equation without assuming
+the norm being controlled.  The same implication can also be read from its
+other end.
+
+\subsection{Silver: testing the endpoint against the original problem}
+\label{sec:silver-standard}
+
+Silver begins by defining admissibility without placing smoothness inside the
+definition.  A candidate terminal description consists of the fixed classical
+pair on \([0,T_*)\) together with proposed endpoint distributions.  Call that
+description admissible when it extends the same datum, the same positive
+viscosity, zero forcing, incompressibility, the momentum equation, the
+normalized pressure, and finite energy through \(T_*\), while agreeing with
+the classical pair before the endpoint.  The target implication says that
+every admissible description is smooth.  Its contrapositive says that a
+genuinely nonsmooth candidate must fail at least one of those original
+requirements.  This is the Silver reading.
+
+The definition has not yet supplied a test.  Endpoint values alone cannot say
+whether the momentum and pressure laws still hold.  We must first see how the
+equation acts on the moving fluid, and then distinguish the ways that action
+could fail at a terminal time.
+
+\subsection{The equation acting on the fluid}
+\label{sec:membership-participation}
+
+The equations show how those requirements act in the motion.  Let \(X(a,t)\)
+be the trajectory issuing from \(a\):
+\begin{equation*}
+ \dot X(a,t)=u(t,X(a,t)),
+ \qquad X(a,0)=a.
+\end{equation*}
+The derivative seen while following the fluid is
+\begin{equation*}
+ D_t:=\partial_t+u\cdot\nabla.
+\end{equation*}
+The momentum equation becomes the material acceleration law
+\begin{equation*}
+ D_tu=-\nabla p+\nu\Delta u.
+\end{equation*}
+The velocity of a moving particle changes through the pressure and viscous
+response of the field that contains it.  This is not an additional condition
+placed on the motion; it is what the momentum equation says the motion is.
+
+The two terms on the right form one stress divergence.  With
+\begin{equation*}
+ S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+\end{equation*}
+incompressibility gives
+\begin{equation*}
+ \nabla\cdot(2\nu S)
+ =\nu\Delta u+\nu\nabla(\nabla\cdot u)
+ =\nu\Delta u.
+\end{equation*}
+Consequently,
+\begin{equation*}
+ D_tu=\nabla\cdot(-pI+2\nu S).
+\end{equation*}
+The same transported velocity supplies both the local viscous curvature and
+the velocity products from which pressure is recovered.
+
+Jacobi's formula shows what incompressibility preserves along this motion:
+\begin{equation*}
+ \frac d{dt}\det\nabla_aX(a,t)
+ =\bigl(\nabla\cdot u\bigr)(t,X(a,t))
+  \det\nabla_aX(a,t)=0.
+\end{equation*}
+\Needspace{12\baselineskip}
+Material volume is preserved, while \eqref{eq:pressure} reconstructs pressure
+from the velocity over the whole field.  The equation joins three
+scales of one event: transport follows the moving particle, viscosity reads
+local spatial curvature, and pressure enforces the global incompressibility
+constraint.  A candidate endpoint cannot be tested by its velocity value
+alone; it must retain this response relation.  We use
+\emph{viscosity--pressure--incompressibility response}, abbreviated VPI, for
+this joined action on the transported velocity.  VPI is shorthand for the
+original momentum, pressure, and divergence equations acting together; it is
+not an extra equation.  Removing viscosity while leaving transport, pressure,
+and incompressibility in place makes the first possible loss visible.
+
+\Needspace{14\baselineskip}
+\subsection{A tangential slip sheet at the inviscid boundary}
+\label{sec:euler-slip}
+
+Euler retains incompressibility, nonlinear transport, and pressure but removes
+the viscous term that reads tangential curvature.  Across the interface
+\(\{y=0\}\), fix constants \(a\ne b\) and define
+\begin{equation}
+ u(x,y,z,t)=
+ \begin{cases}
+  (a,0,0),&y>0,\\
+  (b,0,0),&y<0,
+ \end{cases}
+ \qquad p(x,y,z,t)=p_0,
+ \label{eq:euler-slip-sheet}
+\end{equation}
+where \(p_0\) is constant.  Both one-sided velocities are finite.  Their
+normal components agree, while their tangential components do not.
+
+Let \(n=(0,1,0)\).  Since
+\begin{equation*}
+ [u\cdot n]=0,
+\end{equation*}
+the distributional divergence has no sheet contribution.  In conservative
+form, the possible interface defect in the Euler momentum law is
+\begin{equation*}
+ [(u\otimes u+pI)n]
+ =[u(u\cdot n)+pn]
+ =[p]n=0.
+\end{equation*}
+Together with \(u_t=0\), this proves that
+\eqref{eq:euler-slip-sheet} is a stationary weak Euler solution.
+
+The same field fails the fixed-viscosity equation.  Writing
+\begin{equation*}
+ u_1=b+(a-b)H(y),
+\end{equation*}
+gives
+\begin{equation*}
+ \partial_yu_1=(a-b)\delta_{y=0},
+ \qquad
+ \partial_{yy}u_1=(a-b)\delta'_{y=0}.
+\end{equation*}
+The viscous term \(\nu\Delta u\) contains the nonzero distribution
+\(\nu(a-b)\delta'_{y=0}e_1\).  The stationary transport term supplies no
+matching distribution.  Pressure cannot absorb it either: the curl of this
+viscous defect is nonzero, whereas the curl of every pressure gradient is
+zero.  The sheet lies on the Euler side of the fixed-viscosity
+boundary.
+
+This infinite sheet is not a finite-energy endpoint generated by the datum in
+the main theorem.  Its role is narrower: it isolates the difference between
+two finite one-sided values and one compatible viscous state.  Euler admits
+the two tangential traces, while fixed positive viscosity detects their
+distributional curvature and rejects the sheet.  A terminal failure could
+postpone the same incompatibility to a gradient, acceleration, or higher
+derivative even when \(u\) itself has one limit.  The endpoint argument must
+produce one trace at every required finite order; finite readings along
+separate approaches do not join themselves.
+
+\Needspace{8\baselineskip}
+\subsection{What can be lost at the endpoint}
+\label{sec:failure-lenses}
+
+The slip sheet and the classical continuation criteria leave three possible
+endpoint failures.  A
+continuation-grade quantity can become unbounded (\emph{Blown}); finite
+one-sided readings can fail to join (\emph{Jump}); or the limiting values can
+cease to satisfy the pressure--viscosity response (\emph{Dead}).  These are
+three obligations of one terminal state---finiteness, compatibility, and the
+original equation---not three separate solutions.
+
+\paragraph{Dead.}
+A Dead state has lost lawful response.  It is not a zero velocity or a zero
+derivative: the zero solution, a stagnation point, and a steady flow can all
+satisfy Navier--Stokes exactly.  At the base rung the test is
+\begin{equation*}
+ D_tu+\nabla p-\nu\Delta u=0.
+\end{equation*}
+If a proposed endpoint assigns a material acceleration that does not equal the
+limiting pressure--viscosity response of its surrounding field, that endpoint
+is Dead at the base rung.  The same mismatch can occur higher when a temporal
+row no longer answers the transport, diffusion, and pressure terms obtained by
+differentiating the equation.  Excluding Dead requires more than a
+terminal velocity: the endpoint rows and pressure must satisfy the complete
+differentiated law and generate the same local restart.
+
+\paragraph{Jump.}
+A Jump is an incompatibility between limiting values of the velocity or of a
+finite derivative across a point, interface, or time.  The tangential slip
+sheet \eqref{eq:euler-slip-sheet} is the interface example.  At a terminal
+time, the same issue can occur when two regular approaches assign different
+limits to one spatial or temporal derivative.  Both limits may be finite.
+Separate bounds do not make them equal.  Excluding Jump requires a topology in
+which the evolving derivative has one continuous representative and hence one
+terminal value.  Part~II will derive that topology from the equation's
+parabolic separation between one time derivative and two spatial derivatives.
+
+\paragraph{Blown.}
+A Blown state has an unbounded velocity, spatial derivative, temporal
+response, pressure response, or other finite-depth tower readout.  The velocity
+itself need not diverge.  The energy identity can remain intact while
+enstrophy or a stronger continuation norm escapes.  Excluding Blown requires a
+whole-terminal finite bound for every fixed temporal row and every fixed
+spatial order needed by smoothness.  The constants may depend on those finite
+orders; no norm uniform over the infinite tower is required.
+
+Restart gives these failures their practical significance.  At every regular
+time \(t_0<T_*\), the value \(u(t_0)\) is admissible initial data for the local
+construction in Proposition~\ref{prop:maximal-history}.  A continuation-grade
+bound gives a positive lifespan depending only on that bound and \(\nu\).  A
+late enough slice then generates a solution beyond the candidate endpoint.
+Regularity is not a list of finite quantities.  It is enough coherent state
+to let the same equation run again.
+
+\Needspace{12\baselineskip}
+\section{What a finite-time singularity demands from the response}
+\label{sec:singularity-tower-preview}
+
+Dead, Jump, and Blown say what a successful endpoint argument must exclude.
+They do not yet identify the response that could carry a loss toward that
+endpoint.  A finite singular time need not send the velocity itself to
+infinity: the energy can remain bounded while a spatial derivative, a pressure
+response, or another continuation-grade quantity escapes.  To follow that
+change, we return to the acceleration law of the moving fluid.
+
+Along one trajectory, set
+\begin{equation*}
+ A_j(t,a):=D_t^ju(t,X(a,t)).
+\end{equation*}
+Since differentiation along \(X\) is \(D_t\), the fundamental theorem of
+calculus gives, for every \(j\ge0\),
+\begin{equation*}
+ A_j(t,a)-A_j(r,a)
+ =\int_r^t A_{j+1}(s,a)\,ds.
+\end{equation*}
+If the carried velocity escapes before a finite time, its acceleration must
+accumulate without a finite \(L^1\) bound.  If the acceleration escapes, its
+material jerk must carry that change.  The same implication repeats through
+\begin{equation*}
+ u,\qquad D_tu,\qquad D_t^2u,\qquad D_t^3u,\quad\ldots.
+\end{equation*}
+
+This is the physical reason to look beyond velocity, but it is not yet a
+whole-field estimate.  A Sobolev norm measures the entire velocity field at
+one time; its growth does not select a particle whose velocity or acceleration
+diverges.  Spatial redistribution can enlarge that norm while every proposed
+trajectory remains the wrong witness.  The next calculation must begin from
+the critical quantity that the classical theory already forces to escape,
+identify the fixed-coordinate response carrying its change, and retain the
+transport, viscosity, and normalized pressure terms created in passing from
+the moving fluid to the whole field.
