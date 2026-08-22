@@ -82,24 +82,3 @@ smooth on every shorter interval \([0,T]\), \(T<T_*\), while one of its
 derivatives grows without a finite trace as \(t\uparrow T_*\).  Interior
 smoothness and arrival at the endpoint are different statements.  The proof
 has to carry the derivatives to that face or show that the face cannot exist.
-
-There is one global estimate available before we do any of that.  Pairing
-\eqref{eq:NavierStokesSystem} with \(u\) makes transport and pressure disappear
-from the total kinetic-energy balance, while viscosity keeps its sign.  The
-calculation in \Cref{prop:ClassicalKineticEnergyIdentity} gives
-\begin{equation}\label{eq:OpeningEnergyIdentity}
-  \frac12\norm{u(t)}_2^2
-  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
-  =\frac12\norm{u_0}_2^2.
-\end{equation}
-This controls the amount of velocity at each time and the accumulated gradient
-over time.  It does not control the gradient at each time.  A steeper and
-steeper change can live on shorter and shorter intervals while the integral in
-\eqref{eq:OpeningEnergyIdentity} remains finite.
-
-That is the opening left by the classical estimate.  The energy of the fluid
-can stay calm while its motion is being pressed across a narrowing distance.
-In three dimensions, vortex stretching is the part of the equation that can
-attempt exactly that.  We follow that attempt next, from the geometry of the
-vortex to the scale on which energy stops seeing it, and then to the temporal
-responses the fluid would need in order to complete the concentration.
