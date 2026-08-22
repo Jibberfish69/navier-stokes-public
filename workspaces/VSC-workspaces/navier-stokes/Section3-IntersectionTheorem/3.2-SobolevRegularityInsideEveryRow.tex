@@ -1,5 +1,5 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{The two-dimensional derivative grid}\label{sub:SobolevRegularityInsideEveryCompletedRow}
+\subsection{The full grid and its intersection}\label{sub:SobolevRegularityInsideEveryCompletedRow}
 
 Fix \(r\in\Nzero\).  The scalar energy of the response \(V_r\) at spatial
 height \(s\) is
@@ -32,24 +32,6 @@ Beginning at \(s=\tfrac12\) and repeating the same induction gives the completed
 There is a spatial ladder inside \(u\), another inside \(u_t\), another
 inside \(u_{tt}\), and one inside every finite response.  Moving down changes
 the temporal response.  Moving across changes the spatial height.
-
-\begin{center}
-\captionsetup{hypcap=false}
-\captionof{table}{The mixed derivative grid.  Each entry is a coordinate of \(u\); no entry is yet an endpoint estimate.}
-\label{tab:MixedDerivativeGrid}
-\renewcommand{\arraystretch}{1.35}
-\begin{tabular}{@{}c c c c c c@{}}
-\toprule
-& \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
-\midrule
-\(V_0=u\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
-\(V_1=u_t\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
-\(V_2=u_{tt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
-\(V_3=u_{ttt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
-\(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
-\bottomrule
-\end{tabular}
-\end{center}
 
 The point of the grid is not to add its rows into an infinite norm.  Take one
 finite request: \(q\) time derivatives and \(k\) spatial derivatives.  Choose
