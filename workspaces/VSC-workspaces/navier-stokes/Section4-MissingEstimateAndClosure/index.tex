@@ -2,22 +2,20 @@
 \clearpage
 \section{The Missing Estimate and Global Smoothness}\label{sec:TheMissingEstimateAndGlobalSmoothness}
 
-The Tower has reached the place where a smooth solution can still disappear.
-Every finite rectangle exists on every shorter interval, and every overlap
-contains the same derivatives of the same fluid.  Neither fact carries those
-norms to \(T_*\).  If the cutoff-dependent bounds rise without limit, the
-intersection never reaches the terminal face and there is no datum from which
-to restart.
+The question now is whether a rectangle that is finite before every cutoff is
+still finite when those cutoffs fill the whole interval.  These are different
+statements.  Classical smoothness gives
+\(\mathfrak R_{N,M}(u;T)<\infty\) after one \(T<T_*\) has been fixed.  It does
+not give one bound while \(T\) moves all the way to \(T_*\).
 
-This is why the order of the quantifiers in
-\eqref{eq:BodyWholeTerminalRectangleEstimate} matters.  We fix one finite
-rectangle first and then move the cutoff.  Its bound may know \(u_0\), \(\nu\),
-\(T_*\), \(N\), and \(M\).  It cannot know how close \(T\) is to \(T_*\).
-Once that estimate is paid, the compatible rectangles become one mixed
+This is the missing estimate.  Fix one finite rectangle first, then move the
+cutoff.  Its bound may depend on \(u_0\), \(\nu\), \(T_*\), \(N\), and \(M\),
+but it cannot deteriorate with the distance still left to the alleged last
+time.  Once that payment is made, the rectangles meet in one mixed
 intersection, the intersection reaches one smooth terminal datum, and the same
-Navier--Stokes history restarts from it.  We follow that complete argument
-before returning to the critical height, the Zeno ladder, and the narrowing
-vortex that forced us to build the Tower.
+Navier--Stokes solution restarts from it.  We carry that argument through and
+then return to the critical height, the Zeno ladder, and the narrowing vortex
+that forced the Tower to appear.
 
 \input{Section3-IntersectionTheorem/3.4-TheIntersectionTheorem.tex}
 
