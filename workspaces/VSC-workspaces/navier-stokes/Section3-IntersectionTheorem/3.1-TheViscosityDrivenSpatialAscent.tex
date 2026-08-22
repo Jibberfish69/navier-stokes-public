@@ -39,7 +39,10 @@ The next two rows make the triangular structure explicit:
 \end{align}
 Every lower transfer survives while the top spatial energy rises by one.
 
-The complete identity is
+The complete identity is the triangular row that keeps every lower transfer
+while exposing one new spatial height.
+\begin{proposition}[Critical-height spatial ascent]\label[proposition]{prop:CriticalHeightSpatialAscent}
+For every integer \(n\geq1\),
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
   H^{(n)}
   =(-2\nu)^nE_{n+1/2}
@@ -48,8 +51,15 @@ The complete identity is
   \partial_t^{\,n-1-j}\mathcal P_{j+1/2},
   \qquad n\geq1.
 \end{equation}
-Its induction from \eqref{eq:BodyFullSpatialEnergyBalance} is proved in
-\Cref{prop:CriticalHeightSpatialAscent}.  Solving the triangular row for its
+\end{proposition}
+\begin{proof}
+The critical balance \eqref{eq:BodyFirstCriticalRow} is the case \(n=1\).
+Assume the identity at order \(n\), differentiate it, and apply
+\eqref{eq:BodyFullSpatialEnergyBalance} at height \(n+\tfrac12\).  The new
+transfer extends the sum by one term, while the viscous contribution becomes
+\((-2\nu)^{n+1}E_{n+3/2}\).  This is the row at order \(n+1\).
+\end{proof}
+Solving the triangular row for its
 top coordinate gives
 \begin{equation}\label{eq:BodyCompletedCriticalRow}
   E_{n+1/2}
