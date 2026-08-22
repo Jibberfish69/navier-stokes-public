@@ -36,7 +36,14 @@ Write
   Q_n:=\partial_t^np,
   \qquad n\in\Nzero.
 \end{equation}
-These are the velocity, acceleration, jerk, and higher responses of the fluid.
+These are the velocity, temporal acceleration, temporal jerk, and higher
+Eulerian responses of the fluid.  The material acceleration is the full
+combination
+\[
+  D_tu=\partial_tu+(u\cdot\nabla)u;
+\]
+the Tower follows \(\partial_t^nu\) at fixed spatial position and keeps the
+transport term inside the recurrence below.
 The Tower is not an extra model placed beside Navier--Stokes.  The original
 equation generates every rung.
 
