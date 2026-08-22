@@ -4,79 +4,80 @@
 % ============================================================
 \subsection{The Compatible Intersection}\label{sub:TheCompatibleIntersection}
 
-For each finite pair \((N,M)\), the whole-terminal estimate gives one rectangle on \(I_*\).
-If \(N\) or \(M\) is increased, the larger rectangle contains every derivative in the smaller one, and each shared entry is the same distributional derivative of \(u\).
-Order the finite pairs coordinatewise and use the bonding maps from \eqref{eq:WholeTerminalRectangleCompatibility}.
-The compatible families form
+Every finite pair now has a terminal record.  Enlarging either cutoff retains
+the lower record verbatim inside the larger one, because shared entries are the
+same distributional derivatives of \(u\).  Order finite pairs coordinatewise
+and assemble them with the bonding maps into
 \[
   \mathscr X_\infty(I_*)
   :=
   \varprojlim_{N,M}\mathscr X_{N,M}(I_*).
 \]
-A family \((\mathbf R_{N,M})_{N,M}\) belongs to this set exactly when \(\mathbf R_{N,M}\in\mathscr X_{N,M}(I_*)\) for every finite pair and
+A family belongs to this inverse limit precisely when every finite coordinate
+is an admissible record and
 \[
   \rho_{N',M';I_*}^{N,M;I_*}(\mathbf R_{N,M})
   =\mathbf R_{N',M'}
 \]
-whenever \(N'\leq N\) and \(M'\leq M\).
+for every lower pair \((N',M')\).
 
 \begin{proposition}[Compatible projective assembly]\label{prop:CompatibleProjectiveAssembly}
-The terminal rectangles determine the datum-specific inverse-limit element
+The datum-generated rectangles define
 \[
   \cI[u_0]
   :=
   \bigl(\cR_{N,M}[u_0]\bigr)_{N,M}.
 \]
-This family belongs to \(\mathscr X_\infty(I_*)\).
-Its velocity realization is the same distribution \(u\) in every coordinate and satisfies
+This family lies in \(\mathscr X_\infty(I_*)\).  Its velocity coordinate is the
+same distribution \(u\) throughout and obeys
 \begin{equation}\label{eq:SectionThreeMixedAmbientSpace}
   u\in
   \bigcap_{r=0}^{\infty}
   \bigcap_{m=0}^{\infty}
   H^r(I_*;H^m(\R^3)).
 \end{equation}
-Every coordinate projection commutes with every restriction map.
+Coordinate projections commute with all bonding maps.
 \end{proposition}
 
 \begin{proof}
-Fix finite \(r,m\in\Nzero\).
-Choose \(N\geq r\) and \(M\geq m\).
-The rectangle \(\cR_{N,M}[u_0]\) contains
+Given finite \(r,m\), choose \(N\geq r\) and \(M\geq m\).  That rectangle
+contains
 \[
   \partial_t^n u\in L^2(I_*;H^{M+1})
   \hookrightarrow L^2(I_*;H^m)
   \qquad(0\leq n\leq r).
 \]
-These are the distributional time derivatives of the same velocity field, so \(u\in H^r(I_*;H^m)\).
-The arbitrariness of \(r\) and \(m\) gives \eqref{eq:SectionThreeMixedAmbientSpace}.
-Equation \eqref{eq:WholeTerminalRectangleCompatibility} makes every lower record the projection of every larger record.
-The compatible family thus determines one inverse-limit element with no representative choices to reconcile.
+Because these are the distributional time derivatives of one velocity,
+\(u\in H^r(I_*;H^m)\).  The pair was arbitrary, proving
+\eqref{eq:SectionThreeMixedAmbientSpace}.  Compatibility makes each lower
+record the literal projection of every larger one, so no representatives have
+to be selected or reconciled.
 \end{proof}
 
-Taking the zeroth temporal projection means retaining \(u\) itself while allowing the spatial depth to range through every finite order.
-Define
+Project now to the zeroth temporal row while allowing every finite spatial
+height:
 \begin{equation}\label{eq:SectionThreeCompleteSpatialRow}
   \Szero(I_*)
   :=\bigcap_{m=0}^{\infty}L^2(I_*;H^m(\R^3)).
 \end{equation}
-For each \(m\), the projection selects the velocity coordinate of \(\cR_{0,m}[u_0]\).
-Compatibility says that all of these coordinates are the same \(u\), viewed in different Sobolev spaces.
-Consequently,
+Each \(\cR_{0,m}[u_0]\) supplies one coordinate, and compatibility identifies
+them all with the same \(u\).  Hence
 \[
   \pi_0\bigl(\cI[u_0]\bigr)
   =u\in\Szero(I_*).
 \]
 
-This projection also contains every finite spatial energy read by the tower.
-For \(\Lambda=(-\Delta)^{1/2}\) and \(s\geq0\), set
+Every finite spatial energy used in the derivative ascent is a coordinate of
+this row.  For \(s\geq0\), set
 \begin{equation}\label{eq:SectionThreeSpatialEnergy}
   E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2.
 \end{equation}
-Choosing an integer \(m\geq s\) in \eqref{eq:SectionThreeCompleteSpatialRow} gives
+Choose one integer \(m\geq s\).  Its coordinate gives
 \begin{equation}\label{eq:SectionThreeAllSpatialEnergies}
   \int_0^{T_*}E_s(t)\,dt
   \leq
   C_{s,m}\norm{u}_{L^2(I_*;H^m)}^2
   <\infty.
 \end{equation}
-The intersection keeps these finite Sobolev norms as separate coordinates of the same \(u\).
+Each finite energy is therefore integrable on \(I_*\), with its own bound and
+the same underlying velocity.

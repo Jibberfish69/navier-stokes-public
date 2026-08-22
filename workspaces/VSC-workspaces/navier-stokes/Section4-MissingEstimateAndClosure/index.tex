@@ -2,121 +2,131 @@
 \clearpage
 \section{From the Intersection to Global Smoothness}\label{sec:TheMissingEstimateAndGlobalSmoothness}
 
+The compatible family now reaches the alleged terminal face.  Test its lowest
+adjacent pair first.  If that pair controls the critical \(L^3\) norm, the
+last-time branch ends immediately.  The full family remains useful for a
+stronger reason: it identifies the terminal datum and every response needed to
+restart the same history.  We keep these two closures distinct below.
+
 \subsection{The first coordinate already closes the endpoint}\label{sub:FromFiniteRectanglesToClassicalEstimates}
 
-Start with the velocity row that opened the singularity argument.  Choose
-\((N,M)=(0,1)\) in \eqref{eq:BodyWholeTerminalAdjacentRows}.  Then
+Choose the first rectangle, \((N,M)=(0,1)\).
+Its adjacent rows are
 \[
   u\in L^2(I_*;H^2),
   \qquad
   u_t\in L^2(I_*;L^2).
 \]
-The adjacent trace identity carries these two rows into the missing middle space:
+Their trace lands in the space between them:
 \[
   u\in C([0,T_*];H^1).
 \]
-Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\),
+Since \(H^1(\R^3)\hookrightarrow L^3(\R^3)\), this gives
 \begin{equation}\label{eq:EndpointCriterionFromLowRectangle}
   \sup_{0\leq t\leq T_*}\norm{u(t)}_3<\infty.
 \end{equation}
-This is where the finite maximal-time criterion finally enters.
-The endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a uniform
-\(L^3\) bound continues the solution through \(T_*\)
-\parencite{EscauriazaSereginSverak2003}.  Under the standing contradiction hypothesis,
+But the endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a finite maximal time forces the opposite behaviour \parencite{EscauriazaSereginSverak2003}:
 \begin{equation}\label{eq:FiniteTimeLThreeEscape}
   T_*<\infty
   \quad\Longrightarrow\quad
   \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
 \end{equation}
-Equation \eqref{eq:EndpointCriterionFromLowRectangle} gives the opposite conclusion.
-The lowest critical rectangle already puts the singularity and the estimate on the
-same velocity, in the same norm, over the same terminal interval.
+The rectangle bounds the same velocity in the same norm on the same terminal interval.
+The two conclusions cannot coexist, so this first coordinate already contradicts a finite \(T_*\).
 
-Now read an arbitrary coordinate.  Fix \(r,m\in\Nzero\), choose \(N\geq r\), and
-take the rectangle of middle height \(M=m\).  Its adjacent rows give
+The other coordinates are not needed to obtain the contradiction, but each one
+answers a finite request about the same terminal history.  Fix
+\(r,m\in\Nzero\), choose \(N\geq r\), and take middle height \(M=m\).  Then
 \[
   V_r\in L^2(I_*;H^{m+1}),
   \qquad
   V_{r+1}=\partial_tV_r\in L^2(I_*;H^{m-1}).
 \]
-The same trace calculation gives
+\Cref{lem:AdjacentHilbertScaleTrace} gives
 \begin{equation}\label{eq:BodyUniformMixedSobolevCoordinate}
-  \boxed{
   \sup_{0\leq t\leq T_*}
   \norm{\partial_t^ru(t)}_{H^m}
-  <\infty.}
+  <\infty.
 \end{equation}
-Nothing in this step couples \(r\) to \(m\).  We may choose any finite temporal
-response and then ask for any finite spatial height inside that same row.
+The choice of temporal response \(r\) has imposed no ceiling on the spatial
+height \(m\).
 
-Given \(k\in\Nzero\) and \(2\leq p\leq\infty\), choose an integer \(m\) with
+Given \(k\in\Nzero\) and \(2\leq p\leq\infty\), choose \(m\) above the embedding threshold
 \begin{equation}\label{eq:SobolevProjectionThreshold}
   m>k+\frac32-\frac3p.
 \end{equation}
-Spatial Sobolev embedding gives
+The spatial Sobolev embedding \parencite[Theorem~7.28]{Cerda2010} gives
 \begin{equation}\label{eq:MasterSpatialProjection}
   \norm{\nabla^k\partial_t^ru(t)}_{L^p}
   \leq C_{k,m,p}\norm{\partial_t^ru(t)}_{H^m}.
 \end{equation}
-Combining this with \eqref{eq:BodyUniformMixedSobolevCoordinate},
+Combining this with \eqref{eq:BodyUniformMixedSobolevCoordinate} yields
 \begin{equation}\label{eq:MasterUniformMixedEstimate}
   \nabla^k\partial_t^ru
   \in L^\infty(I_*;L^p(\R^3)).
 \end{equation}
-Since \(T_*\) is finite under the standing contradiction hypothesis,
+On the finite interval \(I_*\), this also gives
 \begin{equation}\label{eq:MasterFiniteTimeMixedEstimate}
   \nabla^k\partial_t^ru
   \in L^q(I_*;L^p(\R^3))
   \qquad(1\leq q\leq\infty).
 \end{equation}
-The pressure is carried by these same finite coordinates.
-For fixed \(r,m\in\Nzero\), the normalized pressure formula \eqref{eq:BodyTemporalPressureRecurrence} contains a finite sum of products of the rows \(V_0,\ldots,V_r\).
-The adjacent traces place those rows continuously in every finite Sobolev space, so Sobolev multiplication and the Riesz-transform bounds give
+Pressure is not appended afterwards.  At order \(r\),
+\eqref{eq:BodyTemporalPressureRecurrence} is a finite sum of products of
+\(V_0,\ldots,V_r\); the endpoint-jet argument in
+\Cref{prop:PressureCompleteEndpointJet} uses the same traces, Sobolev
+multiplication, and Riesz bounds to give
 \begin{equation}\label{eq:MasterPressureSobolevCoordinate}
   \partial_t^rp=Q_r
   \in C([0,T_*];H^m(\R^3)).
 \end{equation}
-For finite \(k\), \(2\leq p\leq\infty\), and \(1\leq q\leq\infty\), choose \(m>k+\tfrac32-\tfrac3p\).
-The same spatial embedding and the finiteness of \(T_*\) then give
+Choosing \(m>k+\tfrac32-\tfrac3p\) in the pressure coordinate furnished by
+\Cref{prop:PressureCompleteEndpointJet} and using the same embedding gives
 \begin{equation}\label{eq:MasterFiniteTimePressureEstimate}
   \nabla^k\partial_t^rp
   \in L^q(I_*;L^p(\R^3)).
 \end{equation}
-Each requested norm uses one finite rectangle, and the compatible intersection keeps
-these finite coordinates together without replacing them by an all-orders sum.
-The contradiction already occurs in the base row: the continuation criterion requires
-\(V_0=u\) to escape in \(L^3\), while the coordinate \((0,1)\) places that same
-velocity continuously in \(H^1\hookrightarrow L^3\).
-The temporal and spatial directions have met inside the row that carries the original
-singularity question, and they give opposite conclusions.
+Every requested norm uses a finite rectangle of its own; no all-orders constant
+or infinite sum has entered.  In particular, the coordinates needed to read
+the critical height and vortex geometry below are finite consequences of the
+same terminal family.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
-The same \(H^1\) trace does more than block the \(L^3\) escape.  Since
-\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), it puts a finite roof over the entire
-first-passage construction:
+Once the \(H^1\) trace reaches the terminal face, the critical height cannot keep
+climbing underneath it.  Indeed,
+\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), and therefore
 \begin{equation}\label{eq:BodyCriticalHeightRoof}
   H_{\max}
   :=\sup_{0\leq t\leq T_*}H(t)
   \leq\frac12\sup_{0\leq t\leq T_*}\norm{u(t)}_{H^1}^2
   <\infty.
 \end{equation}
-Only finitely many of the first-passage levels \(L_k=2^kH_0\) fit below this roof.
-If \(N_{\mathrm{levels}}\) denotes the number reached, then
+Start at any positive height \(H_0\), double it successively by
+\(L_k:=2^kH_0\), and count the levels the same history actually reaches:
+\[
+  N_{\mathrm{levels}}
+  :=
+  \#\bigl\{k\in\Nzero:\text{there is a }t\in[0,T_*]\text{ with }H(t)=L_k\bigr\}.
+\]
+The roof leaves room for only finitely many such doublings:
 \begin{equation}\label{eq:BodyFiniteZenoOctaveCount}
   N_{\mathrm{levels}}
   \leq
   \begin{cases}
-    0,&H_{\max}<H_0,\\[0.25em]
+    0,&H_{\max}<H_0,\\
     1+\left\lfloor\log_2(H_{\max}/H_0)\right\rfloor,
       &H_{\max}\geq H_0.
   \end{cases}
 \end{equation}
-No estimate on the duration of an individual crossing is needed.
-The infinite Zeno ladder fails because the height cannot cross beyond a finite roof.
+This conclusion never asks how quickly one level is crossed.
+The summable heat clocks from Section~\ref{sec:CriticalHeightAndDerivativeTower} cannot
+assemble an infinite ladder because the height itself runs out of levels.
+A width might still shrink while the height stays bounded, so the geometric
+picture has one more question to answer.
 
-The next low rectangle, \(\cR_{0,2}\), controls how the height moves beneath that
-roof:
+The next rectangle, \(\cR_{0,2}\), follows the motion below the roof rather than
+only its maximum:
 \begin{equation}\label{eq:LowRectangleZeroTwo}
   u\in L^2(I_*;H^3),
   \qquad
@@ -124,13 +134,13 @@ roof:
   \qquad
   u\in C([0,T_*];H^2).
 \end{equation}
-Indeed,
+The two adjacent rows now contain both factors in the derivative
 \[
   H'(t)
   =\operatorname{Re}
   \pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2},
 \]
-and Cauchy--Schwarz in time gives
+and Cauchy--Schwarz pays its total variation:
 \begin{equation}\label{eq:CriticalHeightTotalVariationBound}
   \int_0^{T_*}|H'(t)|\,dt
   \leq
@@ -138,22 +148,37 @@ and Cauchy--Schwarz in time gives
   \norm{\Lambda^{1/2}u_t}_{L^2_tL^2_x}
   <\infty.
 \end{equation}
-Also \(E_{3/2}\in L^1(I_*)\), so the first completed row
+The same rectangle has \(E_{3/2}\in L^1(I_*)\).  Hence the completed critical row
 \[
   \mathcal P_{1/2}=H'+2\nu E_{3/2}
 \]
-shows that the signed critical production is integrable on \(I_*\).
-The height can rise and fall sharply, but it cannot accumulate an infinite net rise before \(T_*\).
+puts the signed production in \(L^1(I_*)\), and integration records exactly how
+much of it has accumulated:
+\begin{equation}\label{eq:BodySignedCriticalPrefix}
+  \int_0^t\mathcal P_{1/2}(s)\,ds
+  =H(t)-H(0)+2\nu\int_0^tE_{3/2}(s)\,ds.
+\end{equation}
+The two terms on the right are already finite, so
+\begin{equation}\label{eq:BodySignedCriticalPrefixBound}
+  A_*(T_*)
+  :=\sup_{0<t<T_*}\int_0^t\mathcal P_{1/2}(s)\,ds
+  <\infty.
+\end{equation}
+Thus the signed prefix is read off after the rectangle has been built; it is not
+an upstream estimate from which the rectangle was obtained.
+Sharp rises and falls remain possible, but their net signed accumulation cannot
+diverge before \(T_*\).
 
-The same rectangle also gives the physical control needed for the vortex.  In three dimensions,
-\(H^3\hookrightarrow W^{1,\infty}\), and hence
+For a vortex, the decisive entry in \(\cR_{0,2}\) is
+\(u\in L^2(I_*;H^3)\).  In three dimensions
+\(H^3\hookrightarrow W^{1,\infty}\), whence
 \[
   \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt
   \leq
   T_*^{1/2}\norm{u}_{L^2(I_*;H^3)}<\infty.
 \]
-Since \(\omega=\nabla\times u\) and \(S=\tfrac12(\nabla u+\nabla u^{\mathsf T})\),
-we obtain the full finite stretching action
+Both vorticity and strain are parts of this gradient.  The time available to
+rotate, stretch, and contract the core is therefore finite in the precise sense
 \begin{equation}\label{eq:FiniteLipschitzVorticityStrainAction}
   \int_0^{T_*}
   \left(
@@ -166,18 +191,26 @@ we obtain the full finite stretching action
 
 \subsection{The two vortex readings}\label{sub:ClosingCriticalHeightZenoAndTheVortex}
 
-The mixed intersection lets us test two distinct readings of a narrowing core.
-They are not an exhaustive classification of singular geometry.
-They isolate two different claims a vortex picture can make: either the visible core follows fixed material labels, or its membership changes as the concentration moves through the fluid.
+What does a narrowing core mean for the fluid inside it?
+There are two answers to separate.  The first follows the same material
+particles.  The second allows the visible concentration to replace its
+particles as it moves.  Neither exhausts singular geometry, but each makes a
+different claim that the rectangle bounds can test.
 
-Begin with fixed material labels.
-If \(X(a,t)\) and \(X(b,t)\) are two trajectories in that core, then, for \(t<T_*\),
+Follow the fixed labels first.
+Let \(X(a,t)\) solve
+\[
+  \partial_tX(a,t)=u(X(a,t),t),
+  \qquad
+  X(a,0)=a.
+\]
+Two such trajectories satisfy
 \[
   \frac d{dt}|X(a,t)-X(b,t)|
   \geq
-  -\norm{\nabla u(t)}_\infty|X(a,t)-X(b,t)|.
+  -\norm{\nabla u(t)}_\infty|X(a,t)-X(b,t)|,
 \]
-The finite action in \eqref{eq:FiniteLipschitzVorticityStrainAction} gives
+and the finite Lipschitz action integrates this differential inequality to
 \begin{equation}\label{eq:BodyMaterialCoreLowerBound}
   |X(a,t)-X(b,t)|
   \geq
@@ -187,27 +220,27 @@ The finite action in \eqref{eq:FiniteLipschitzVorticityStrainAction} gives
   \right)
   >0
 \end{equation}
-The same \(L^2(I_*;H^3)\) row gives \(u\in L^1(I_*;L^\infty)\), so each trajectory
-extends continuously to \(T_*\).  Passing to the limit above gives
+Because the same row also puts \(u\) in \(L^1(I_*;L^\infty)\), every trajectory
+has a limit at \(T_*\).  Letting \(t\uparrow T_*\) preserves the lower bound:
 \[
   |X(a,T_*)-X(b,T_*)|
   \geq |a-b|\exp\!\left(-\int_0^{T_*}\norm{\nabla u(s)}_\infty\,ds\right)>0.
 \]
-A material core begins with distinct particles, and those particles remain distinct at
-the terminal time.  The drawn radius may shrink, but it cannot represent the collapse of
-that same labelled core to one point.
+Distinct labels therefore remain spatially distinct at the terminal time.
+If a drawn core collapses to one point, it cannot still contain exactly the
+material core with which it began.
 
-Keep this first reading and now put the vortex exactly on its centreline.
-The finite coordinate \((r,m)=(0,3)\) in \eqref{eq:BodyUniformMixedSobolevCoordinate} gives
+Even perfect centring cannot rescue a nonzero circulation from this fixed-label
+picture.  The finite coordinate \((r,m)=(0,3)\) gives
 \begin{equation}\label{eq:BodyUniformLipschitzBound}
   L_*:=\sup_{0\leq t\leq T_*}\norm{\nabla u(t)}_\infty<\infty.
 \end{equation}
-At a chosen centre \(x_c(t)\),
+Relative velocity at any chosen centre \(x_c(t)\) therefore obeys
 \[
   |u(t,x)-u(t,x_c)|\leq L_*|x-x_c|.
 \]
-Let \(C_r(t)\) be a circle of radius \(r\) in a cross-section normal to the vortex axis.
-The constant vector \(u(t,x_c)\) integrates to zero around the closed curve, so
+Around a circular cross-section \(C_r(t)\), the constant centre velocity
+integrates to zero.  What remains is bounded by its Lipschitz variation:
 \begin{equation}\label{eq:BodyCenteredCirculationBound}
   \left|
     \oint_{C_r(t)}u(t,x)\cdot d\ell
@@ -216,40 +249,47 @@ The constant vector \(u(t,x_c)\) integrates to zero around the closed curve, so
   \longrightarrow0
   \qquad(r\downarrow0).
 \end{equation}
-Perfect centring does not evade the Lipschitz bound.  If the radius tends to zero while
-the velocity remains Lipschitz, the relative tangential speed is \(O(r)\) and the
-circulation is \(O(r^2)\); no nonzero circulation survives at the limiting point.
+As \(r\) shrinks, the tangential velocity relative to the centre is \(O(r)\)
+and the circuit has length \(O(r)\).  Their product is \(O(r^2)\), so this
+centred material core cannot carry a nonzero limiting circulation.
 
-The second reading lets the visible core recruit new material as earlier labels leave
-it.
-Particle separation no longer follows the changing membership of that core, so the test moves to the whole-field high-frequency tail.
+Now let membership change.  Particle separation no longer tracks the visible
+core, but repeated recruitment would have to keep transferring critical content
+to ever smaller wavelengths.  That claim belongs to the high-frequency tail of
+the whole velocity field.
 For \(s>1/2\) and \(K\geq1\), define
 \[
   H_{>K}(t)
   :=\frac12\int_{|\xi|>K}
   |\xi|\,|\widehat u(t,\xi)|^2\,d\xi.
 \]
-Then
+For every \(s>1/2\), the tail satisfies
 \begin{equation}\label{eq:BodyUltravioletCriticalTail}
   H_{>K}(t)
   \leq
   \frac12K^{1-2s}\norm{u(t)}_{\dot H^s}^2.
 \end{equation}
-Choose an integer \(m\geq s\).
-Equation \eqref{eq:BodyUniformMixedSobolevCoordinate} with \(r=0\), together with
-\(H^m\hookrightarrow\dot H^s\), gives
+Choose one integer \(m\geq s\).  The compatible assembly and adjacent trace
+proved in \Cref{prop:CompatibleProjectiveAssembly,lem:AdjacentHilbertScaleTrace},
+followed by \(H^m\hookrightarrow\dot H^s\), make the estimate uniform in time
+and force
 \begin{equation}\label{eq:BodyUniformUltravioletVanishing}
   \lim_{K\to\infty}
   \sup_{0\leq t\leq T_*}H_{>K}(t)=0.
 \end{equation}
-Even when material is continually recruited, the complete velocity field cannot retain a fixed amount of critical content beyond every frequency.
+Recruitment may move activity between scales, but it cannot leave a fixed amount
+of critical height beyond every cutoff.
+The two readings fail for different reasons: fixed labels cannot collapse and
+their centred circulation vanishes; changing labels cannot sustain the required
+ultraviolet critical tail.
 
-These two readings now have separate conclusions.
-Fixed material labels retain positive separation at \(T_*\), and a centred radius carries vanishing circulation as it shrinks.
-Changing membership cannot preserve a nonzero whole-field critical tail beyond every frequency.
+The first rectangle has already excluded a finite \(T_*\) through the
+Escauriaza--Seregin--\v{S}ver\'ak criterion.  The whole intersection proves more:
+it constructs the common terminal datum and its complete normalized jet, then
+restarts the actual history.  The main theorem records that stronger closure.
 
 \Needspace{39\baselineskip}
-\subsection{No finite singular time}\label{sub:NoFiniteSingularTime}
+\subsection{The endpoint-and-restart closure}\label{sub:NoFiniteSingularTime}
 
 \begin{theorem}[Whole-space existence and smoothness]\label{thm:MainGlobalRegularity}
 For every \(\nu>0\) and every \(u_0\in\Ssigma\), the maximal classical solution of \eqref{eq:NavierStokesSystem} satisfies
@@ -267,59 +307,109 @@ For every \(t\geq0\),
 \end{theorem}
 
 \begin{proof}
-Assume that \(T_*<\infty\). The \(L^3\) argument above already closes this branch; the complete intersection reaches the same contradiction through a common endpoint and restart.
-\Cref{thm:BodyWholeTerminalRectangleTheorem} supplies every finite pressure-complete rectangle on \(I_*\).
-Equation \eqref{eq:DatumSpecificCompatibleIntersection} assembles their shared coordinates into \(\cI[u_0]\), and \Cref{prop:BodyCompatibleProjectiveAssembly} gives its complete spatial row \eqref{eq:CompleteSpatialRow}.
-\Cref{lem:CompleteSpatialRowEndpoint} carries the same velocity to a common endpoint \(u_*\in\Hinfty\), while \Cref{prop:PressureCompleteEndpointJet} carries every temporal row and its normalized pressure response to that terminal face.
-Starting from \(u_*\), \Cref{lem:SmoothLocalRestart} produces a smooth solution on the right of \(T_*\).
-Both one-sided jets are generated from \(u_*\) by the same pressure-normalized recurrences, and strong uniqueness joins the two pieces into one classical history beyond \(T_*\).
-This contradicts maximality.
+Suppose the maximal history ends at some finite \(T_*\).
+For each finite pair \((N,M)\),
+\Cref{thm:BodyWholeTerminalRectangleTheorem} carries its pressure-complete
+rectangle all the way across \(I_*\).  Whenever two rectangles overlap,
+\eqref{eq:BodyRectangleRestrictionCompatibility} says that they contain the
+same derivatives of the same history.  Their compatible union is therefore
+\[
+  u\in\bigcap_{r,m<\infty}H^r(I_*;H^m(\R^3)).
+\]
 
-Hence \(T_*=\infty\).  Every finite interval now lies inside the maximal
-classical history, so \(u\) is smooth there; the normalized pressure formula
-gives the same conclusion for \(p\).  Thus
+Now hold one spatial height \(m\) fixed.  The temporal row \(r=1\) puts
+\(u\) in \(H^1(I_*;H^m)\), so the actual history has an \(H^m\) limit as
+\(t\uparrow T_*\).  A higher spatial row cannot produce a different limit:
+after embedding it into \(H^m\), both limits come from the same \(u(t)\).
+All finite heights consequently meet at one divergence-free endpoint
+\begin{equation}\label{eq:BodyCommonSmoothEndpoint}
+  u_*:=\lim_{t\uparrow T_*}u(t)
+  \in\Hinfty_\sigma(\R^3)
+  \subset\bigcap_{m<\infty}H^m(\R^3).
+\end{equation}
+This is the endpoint furnished by \Cref{lem:CompleteSpatialRowEndpoint}.
+
+The terminal face must also remember how the history arrives there.  Given
+finite \(N\) and \(m\), the row \(r=N+1\) places
+\(V_N=\partial_t^Nu\) in \(H^1(I_*;H^m)\); it therefore has a trace
+\(V_N^*\), and the spatial compatibility puts that trace in \(\Hinfty\).
+The normalized pressure recurrence and the velocity recurrence survive the
+limit:
+\begin{align*}
+  Q_N^*
+  &=R_iR_j\sum_{a=0}^{N}\binom{N}{a}V_{a,i}^*V_{N-a,j}^*,
+  \\
+  V_{N+1}^*
+  &=\nu\Delta V_N^*
+  -\sum_{a=0}^{N}\binom{N}{a}(V_a^*\cdot\nabla)V_{N-a}^*
+  -\nabla Q_N^*.
+\end{align*}
+The traces are therefore not an arbitrary formal jet.  They are exactly the
+velocity and Riesz-normalized pressure responses generated by \(u_*\), as
+\Cref{prop:PressureCompleteEndpointJet} records.
+
+Use \(u_*\) as initial data at time \(T_*\).  The smooth local construction in
+\Cref{lem:SmoothLocalRestart} gives a right-hand history on
+\([T_*,T_*+\delta]\).  Its recurrence begins from the same datum and the same
+pressure normalization, so its entire jet agrees with the left-hand traces.
+The join is smooth.  Strong uniqueness then makes the joined solution the
+continuation of the history generated by \(u_0\), contradicting the definition
+of \(T_*\).
+
+Hence \(T_*=\infty\), and the normalized pair is smooth on every finite time
+interval.  Equivalently,
 \[
   u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr).
 \]
-This proves \eqref{eq:BodyGlobalSmoothnessConclusion}.
-
-The energy identity \eqref{eq:BodyEnergyIdentity} holds on every finite
-interval of this global solution and gives \eqref{eq:GlobalEnergyConclusion}.
-In particular,
+The kinetic-energy identity, first proved in
+\Cref{prop:ClassicalKineticEnergyIdentity}, now holds on every initial segment
+of this global history.  It gives \eqref{eq:GlobalEnergyConclusion} and in
+particular
 \[
   \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx
   \leq
   \int_{\R^3}|u_0(x)|^2\,dx
   <\infty,
 \]
-where the last finiteness follows from the rapid decay in
-\eqref{eq:FeffermanDatumClass}.  Global smoothness of \(u,p\) and the
-uniform kinetic-energy bound are exactly the two conclusions stated in
+where the last finiteness follows from the rapid decay of the datum.  This is precisely
+the smooth global history with uniformly bounded kinetic energy required in
 \eqref{eq:WholeSpaceRegularityTarget}.
 \end{proof}
 
 \clearpage
 \section{Further Consequences and the Euler Boundary}\label{sec:FurtherConsequencesAndEulerBoundary}
 
+The endpoint contradiction used only the first adjacent pair.  The next few
+coordinates reveal what that closure means inside the same global fluid: its
+vorticity cannot accumulate a nonsummable finite-time scale cascade, the
+classical continuation criteria become projections of one rectangle, and the
+local singularity content disappears.  The final comparison removes viscosity
+and shows which step then fails.
+
 \subsection{A finite sum across infinitely many scales}\label{sub:AFiniteSumAcrossScales}
 
-The finite-time contradiction is already complete at the \((N,M)=(0,1)\) rectangle, where the \(L^3\) escape is blocked.
-The next spatial row is not needed for closure; it reveals how much vorticity the same global history can carry across all scales.
-Fix \(T>0\).
-On \([0,T]\), the block \(\cR_{0,2}[u_0;T]\) gives \(u\in L^2(0,T;H^3)\), which is strong enough to sum the vorticity carried by every dyadic scale.
-Let \((\Delta_j)_{j\geq-1}\) be an inhomogeneous Littlewood--Paley decomposition \parencite[Chapter~2]{BahouriCheminDanchin2011}.
-For \(j\geq0\), the block \(\Delta_j\omega\) is concentrated near wavelength \(2^{-j}\), and \(\norm{\Delta_j\omega}_\infty\) measures the strongest rotation present in that band.
-Define
+Fix a finite \(T>0\).  On \([0,T]\), the next spatial row
+\(\cR_{0,2}[u_0;T]\) puts \(u\) in \(L^2_tH^3_x\).  That one extra row is
+enough to add the vorticity from every dyadic wavelength rather than inspect
+the shells one at a time.
+
+Let \((\Delta_j)_{j\geq-1}\) be an inhomogeneous Littlewood--Paley
+decomposition \parencite[Chapter~2]{BahouriCheminDanchin2011}.  At high
+frequency, \(\Delta_j\omega\) sees wavelengths of order \(2^{-j}\), while its
+\(L^\infty\) norm records the largest rotation in that shell.  Define
 \[
   \norm{\omega}_{B^0_{\infty,1}}
   :=\sum_{j\geq-1}\norm{\Delta_j\omega}_\infty.
 \]
-Bernstein's inequality gives, for \(j\geq0\),
+Bernstein's inequality costs three halves of a derivative in passing from
+\(L^2\) to \(L^\infty\):
 \[
   \norm{\Delta_j\omega}_\infty
   \leq C2^{3j/2}\norm{\Delta_j\omega}_2.
 \]
-Insert \(2^{3j/2}=2^{-j/2}2^{2j}\), sum, and use Cauchy--Schwarz in the shell index:
+The \(H^2\) weight of \(\omega\) supplies two derivatives.  Splitting
+\(2^{3j/2}=2^{-j/2}2^{2j}\) exposes the spare half derivative, and
+Cauchy--Schwarz sums it:
 \begin{align*}
   \sum_{j\geq0}\norm{\Delta_j\omega}_\infty
   &\leq
@@ -329,82 +419,124 @@ Insert \(2^{3j/2}=2^{-j/2}2^{2j}\), sum, and use Cauchy--Schwarz in the shell in
   &\leq C\norm{\omega}_{H^2}
   \leq C\norm{u}_{H^3}.
 \end{align*}
-Bernstein costs \(3/2\) derivatives in each high-frequency shell.  The \(H^2\)
-vorticity weight supplies two derivatives, leaving the factor \(2^{-j/2}\); its square
-is summable.  That spare half derivative is what turns one finite Sobolev row into an
-\(\ell^1\) sum across all dyadic shells.
-The low block \(\Delta_{-1}\omega\) is controlled by \(\norm{\omega}_2\), so
+The low shell is controlled directly by \(\norm{\omega}_2\).  Thus one finite
+Sobolev coordinate pays the full \(\ell^1\) shell sum:
 \begin{equation}\label{eq:VorticityBesovFromHThree}
   \norm{\omega}_{B^0_{\infty,1}}
   \leq C\norm{u}_{H^3}.
 \end{equation}
-Since \(\cR_{0,2}[u_0;T]\) gives \(u\in L^2(0,T;H^3)\), Cauchy--Schwarz in time yields
+Cauchy--Schwarz in time now turns the \(L^2_tH^3_x\) row into
 \begin{equation}\label{eq:FiniteDyadicVorticityAction}
   \sum_{j\geq-1}
   \int_0^{T}\norm{\Delta_j\omega(t)}_\infty\,dt
   =\int_0^{T}\norm{\omega(t)}_{B^0_{\infty,1}}\,dt
   <\infty.
 \end{equation}
-What has been made finite is the sum across all shells, not the number of shells that
-may become active.  A recruited core can hand activity from one scale to the next, but
-the time-integrated shell suprema cannot build a nonsummable cascade before a finite
-time.  On every chosen \([0,T]\), the same low rectangle supplies \(L^2_tH^3_x\) for
-this shell action and \(C_tH^2_x\) for uniform decay of the critical Fourier tail.
-This is still a finite-order consequence:
-it does not assert an analytic radius or a weighted sum over every derivative order.
+Infinitely many shells may still become active.  What cannot happen before this
+finite \(T\) is a nonsummable succession of their time-integrated peaks.
+The conclusion consumes only \(\cR_{0,2}\): it asserts neither an analytic
+radius nor a weighted estimate over all derivative orders.
 
 \subsection{Three classical criteria inside one low rectangle}\label{sub:ClassicalCriteriaInsideFiniteRectangles}
 
-The \(L^3\) endpoint first entered as the escape forced by a finite last time.  Now fix
-any finite \(T>0\).  The block \(\cR_{0,1}[u_0;T]\) returns to that same norm from the
-other direction.  Its adjacent pair gives \(u\in C([0,T];H^1)\), and hence
+Return to the first rectangle on an arbitrary finite interval \([0,T]\).
+Its adjacent trace gives \(u\in C([0,T];H^1)\), so the critical velocity norm
+that would signal a last time is bounded instead:
 \[
   \sup_{0\leq t\leq T}\norm{u(t)}_3<\infty.
 \]
-Thus \(\cR_{0,1}\) supplies the hypothesis of the Escauriaza--Seregin--\v{S}ver\'ak endpoint continuation theorem \parencite{EscauriazaSereginSverak2003}.
-The norm that defined the singular threat is already bounded by the first critical rectangle.
+This is exactly the hypothesis in the endpoint theorem of Escauriaza, Seregin,
+and \v{S}ver\'ak \parencite{EscauriazaSereginSverak2003}.
 
-The upper edge of the same rectangle gives a different historical reading:
+The upper edge of that same rectangle says
 \[
   u\in L^2(0,T;H^2)
-  \hookrightarrow L^2(0,T;L^\infty).
+  \hookrightarrow L^2(0,T;L^\infty),
 \]
-This is the endpoint pair \((q,p)=(2,\infty)\) on the Ladyzhenskaya--Prodi--Serrin line \(2/q+3/p=1\) \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
-The first meets the exact \(L^3\) norm that defined the terminal threat.  The second
-places the same velocity on the classical scale-balanced integrability line.
+which is the endpoint pair \((q,p)=(2,\infty)\) on the
+Ladyzhenskaya--Prodi--Serrin line \(2/q+3/p=1\)
+\parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
 
-There is a third reading closer to the vortex itself.  From
-\(u\in L^2(0,T;H^2)\),
+Differentiating the spatial meaning of the same upper edge gives
 \[
   \nabla u\in L^2(0,T;H^1)
   \hookrightarrow L^2(0,T;L^3),
 \]
-which supplies the gradient criterion of Beir\~ao da Veiga
-\parencite{BeiraoDaVeiga1995}.  The rectangle that blocks velocity escape also
-controls the shear responsible for vortex stretching.  Together, the three criteria
-read velocity escape, scale-balanced integrability, and vortex-producing shear from the
-same low finite block.  Repeating the finite-coordinate calculation on the chosen
-\([0,T]\) gives, for finite \(r,k\in\Nzero\), \(2\leq p\leq\infty\), and
-\(1\leq q\leq\infty\),
-\[
-  \nabla^k\partial_t^ru\in L^q(0,T;L^p(\R^3)),
-\]
-after choosing a finite Sobolev height
-\(m>k+\tfrac32-\tfrac3p\).
+the gradient criterion of Beir\~ao da Veiga
+\parencite{BeiraoDaVeiga1995}.  The three historical criteria are therefore not
+three extra assumptions: velocity at the critical endpoint, scale-balanced
+velocity integrability, and the shear that stretches vorticity are three
+projections of \(\cR_{0,1}\).
 
+Higher finite coordinates repeat the same calculation without changing its
+logic.  For finite \(r,k\in\Nzero\), \(2\leq p\leq\infty\), and
+\(1\leq q\leq\infty\), choose one finite height
+\(m>k+\tfrac32-\tfrac3p\); then
+\[
+  \nabla^k\partial_t^ru\in L^q(0,T;L^p(\R^3)).
+\]
+
+\subsection{The local singularity picture closes as well}\label{sub:TheLocalSingularityPictureCloses}
+
+The classical obstruction also had a local face.  A singular point would force
+the critical \(L^3\) norm to escape globally while retaining a definite
+scale-invariant amount of velocity and pressure in arbitrarily small parabolic
+cylinders.  The rectangle bounds make both requirements fail on the same
+history.
+
+Fix a finite \(T>0\).  The assembly and normalized endpoint-jet estimates in
+\Cref{prop:CompatibleProjectiveAssembly,prop:PressureCompleteEndpointJet} give
+two finite mixed coordinates with the common bound
+\begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
+  K_T
+  :=\sup_{0\leq t\leq T}
+  \left(
+    \norm{u(t)}_{L^\infty}
+    +\norm{p(t)}_{L^\infty}
+  \right)
+  <\infty.
+\end{equation}
+Inside any parabolic cylinder
+\[
+  Q_\rho(z_0)
+  =B_\rho(x_0)\times(t_0-\rho^2,t_0)
+  \subset\R^3\times(0,T],
+\]
+the volume and time length contribute \(\rho^5\).  After the scale-invariant
+normalization by \(\rho^{-2}\), the bounded fields therefore give
+\begin{equation}\label{eq:VanishingLocalScaleInvariantContent}
+  \rho^{-2}
+  \iint_{Q_\rho(z_0)}
+  \left(|u|^3+|p|^{3/2}\right)\,dx\,dt
+  \leq
+  C\rho^3\left(K_T^3+K_T^{3/2}\right)
+  \longrightarrow0
+  \qquad(\rho\downarrow0).
+\end{equation}
+The normalized content tends to zero, whereas a Caffarelli--Kohn--Nirenberg
+singular point would require a positive amount to persist.  Simultaneously,
+\eqref{eq:EndpointCriterionFromLowRectangle} blocks the critical \(L^3\)
+escape.  For compactly supported data, the same bound also excludes the
+terminal divergence and quantitative lower-rate alternatives in Seregin's and
+Tao's results \parencite{Seregin2012,Tao2021Quantitative}.
+
+Nothing was added to the solution after the global theorem.  These are finite
+views of the rectangles that already closed the endpoint.  The conclusion is
+correspondingly finite-coordinate: it makes no uniform-in-time assertion about
+all higher Sobolev norms, no analytic-radius claim, and no all-orders estimate.
+
+\Needspace{8\baselineskip}
 \subsection{Why the Euler Tower is different}\label{sub:WhyTheEulerTowerIsDifferent}
 
-Now remove viscosity and watch exactly which part of the argument disappears.  The
-mixed derivative jet can still be written for Euler; the spatial ascent that drives
-this paper cannot.
-To keep the two histories distinct, write
+Remove viscosity while keeping the two histories separate.  Both equations can
+still be differentiated in time, so both possess a mixed jet.  Write
 \[
   V_n^{\mathrm{NS}}:=\partial_t^nu^{\mathrm{NS}},
   \qquad
   Q_n^{\mathrm{NS}}:=\partial_t^np^{\mathrm{NS}},
 \]
-and define \(V_n^{\mathrm E},Q_n^{\mathrm E}\) from a separate Euler solution.
-Their temporal recurrences are
+and define \(V_n^{\mathrm E},Q_n^{\mathrm E}\) from an Euler solution with its
+own history.  The two recurrences differ in one place:
 \begin{align}
   V_{n+1}^{\mathrm{NS}}
   &+
@@ -422,18 +554,18 @@ Their temporal recurrences are
   =0.
   \label{eq:EulerTemporalRecurrenceComparison}
 \end{align}
-Both equations retain the differentiated transport and the nonlocal pressure response.
-Only Navier--Stokes keeps the term \(\nu\Delta V_n^{\mathrm{NS}}\), the linear path
-from temporal row \(n\) to two additional spatial derivatives of that same response.
+Transport and the nonlocal pressure response remain in both equations.
+Only the Navier--Stokes row contains \(\nu\Delta V_n^{\mathrm{NS}}\), which
+connects a temporal response to two more spatial derivatives of that same
+response.
 
-For the two separate histories, set
+The energy rows expose the same difference.  Set
 \[
   E_s^{\mathrm{NS}}:=\frac12\norm{\Lambda^su^{\mathrm{NS}}}_2^2,
   \qquad
   E_s^{\mathrm E}:=\frac12\norm{\Lambda^su^{\mathrm E}}_2^2,
 \]
-with corresponding transfer terms \(\mathcal P_s^{\mathrm{NS}}\) and \(\mathcal P_s^{\mathrm E}\).
-Then
+with the corresponding nonlinear transfer terms.  Then
 \begin{equation}\label{eq:NSEulerEnergyComparison}
   (E_s^{\mathrm{NS}})'
   =\mathcal P_s^{\mathrm{NS}}-2\nu E_{s+1}^{\mathrm{NS}},
@@ -441,14 +573,23 @@ Then
   (E_s^{\mathrm E})'
   =\mathcal P_s^{\mathrm E}.
 \end{equation}
-For Navier--Stokes, repeated differentiation and division by \((-2\nu)^n\) isolate \(E_{n+1/2}^{\mathrm{NS}}\) in \eqref{eq:BodyCompletedCriticalRow}.
-Euler retains the nonlinear mixing of time and space, but it has no signed coercive rung that isolates the next Sobolev height in this way.
+Repeated time differentiation of the Navier--Stokes row, followed by division
+by \((-2\nu)^n\), isolates \(E_{n+1/2}^{\mathrm{NS}}\) in
+\eqref{eq:BodyCompletedCriticalRow}.  The Euler row still mixes time and space
+nonlinearly, but no signed coercive term singles out the next spatial height.
 
-An Euler history lying in an all-orders compatible intersection would satisfy every
-fixed Sobolev bound and, in particular, the Beale--Kato--Majda condition
+If an Euler history were independently known to lie in the analogous
+all-orders intersection, then every fixed Sobolev norm would be controlled and
+in particular it would satisfy the Beale--Kato--Majda condition
 \(\int_0^T\|\omega^{\mathrm E}(t)\|_\infty\,dt<\infty\)
-\parencite{BealeKatoMajda1984}.
-The fixed-viscosity theorem used here does not supply that Euler intersection, and its constants are not claimed to remain bounded as \(\nu\downarrow0\).
-This is the exact boundary of the method.  Euler keeps the mixed jet and all of its
-nonlinear coupling.  What it loses is the signed viscous rung that lets the completed
-row isolate the next Sobolev height.
+\parencite{BealeKatoMajda1984}.  The present theorem supplies no such Euler
+intersection, and none of its constants is asserted to remain bounded as
+\(\nu\downarrow0\).
+
+That is where the argument ends.  Euler keeps the jet, transport, pressure, and
+their nonlinear coupling; it loses the viscous rung that converts temporal
+response into a separately controllable spatial ascent.  At every fixed
+\(\nu>0\), that ascent exposes the finite rectangles whose terminal bounds rule
+out a last time.  The resulting Navier--Stokes history has every finite mixed
+coordinate on each finite interval, while its kinetic energy remains uniformly
+bounded for all time.

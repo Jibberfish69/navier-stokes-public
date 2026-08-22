@@ -455,6 +455,48 @@
       \verb 10.1007/BF02547354
       \endverb
     \endentry
+    \entry{LiebLoss2001}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=298133a6b79dcce8ef5f6cb15b60f119}{%
+           family={Lieb},
+           familyi={L\bibinitperiod},
+           given={Elliott\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed22b6f1b01bd47c59181f3e6dd7ecde}{%
+           family={Loss},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Providence, RI}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{fullhash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{fullhashraw}{cf191bc6f3985da6543afbc10481223d}
+      \strng{bibnamehash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{authorbibnamehash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{authornamehash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{authorfullhash}{cf191bc6f3985da6543afbc10481223d}
+      \strng{authorfullhashraw}{cf191bc6f3985da6543afbc10481223d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{isbn}{978-0-8218-2783-3}
+      \field{series}{Graduate Studies in Mathematics}
+      \field{title}{Analysis}
+      \field{volume}{14}
+      \field{year}{2001}
+    \endentry
     \entry{Prodi1959}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2e14bd4cfb690017c835b6acd5119bdf}{%
