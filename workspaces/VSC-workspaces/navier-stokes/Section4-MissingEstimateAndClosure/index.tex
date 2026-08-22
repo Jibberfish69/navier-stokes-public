@@ -129,61 +129,11 @@ But the endpoint theorem of Escauriaza, Seregin, and \v{S}ver\'ak says that a fi
 The rectangle bounds the same velocity in the same norm on the same terminal interval.
 The two conclusions cannot coexist, so this first coordinate already contradicts a finite \(T_*\).
 
-The same calculation can be made at any finite coordinate of the completed
-intersection.  Fix
-\(r,m\in\Nzero\), choose \(N\geq r\), and take middle height \(M=m\).  Then
-\[
-  V_r\in L^2(I_*;H^{m+1}),
-  \qquad
-  V_{r+1}=\partial_tV_r\in L^2(I_*;H^{m-1}).
-\]
-\Cref{lem:AdjacentHilbertScaleTrace} gives
-\begin{equation}\label{eq:BodyUniformMixedSobolevCoordinate}
-  \sup_{0\leq t\leq T_*}
-  \norm{\partial_t^ru(t)}_{H^m}
-  <\infty.
-\end{equation}
-The choice of temporal response \(r\) imposes no ceiling on the spatial height
-\(m\).
-
-Given \(k\in\Nzero\) and \(2\leq p\leq\infty\), choose \(m\) above the embedding threshold
-\begin{equation}\label{eq:SobolevProjectionThreshold}
-  m>k+\frac32-\frac3p.
-\end{equation}
-The spatial Sobolev embedding \parencite[Theorem~7.28]{Cerda2010} gives
-\begin{equation}\label{eq:MasterSpatialProjection}
-  \norm{\nabla^k\partial_t^ru(t)}_{L^p}
-  \leq C_{k,m,p}\norm{\partial_t^ru(t)}_{H^m}.
-\end{equation}
-Combining this with \eqref{eq:BodyUniformMixedSobolevCoordinate} yields
-\begin{equation}\label{eq:MasterUniformMixedEstimate}
-  \nabla^k\partial_t^ru
-  \in L^\infty(I_*;L^p(\R^3)).
-\end{equation}
-On the finite interval \(I_*\), this also gives
-\begin{equation}\label{eq:MasterFiniteTimeMixedEstimate}
-  \nabla^k\partial_t^ru
-  \in L^q(I_*;L^p(\R^3))
-  \qquad(1\leq q\leq\infty).
-\end{equation}
-Pressure is not appended afterwards.  At order \(r\),
-\eqref{eq:BodyTemporalPressureRecurrence} is a finite sum of products of
-\(V_0,\ldots,V_r\); the endpoint-jet argument in
-\Cref{prop:PressureCompleteEndpointJet} uses the same traces, Sobolev
-multiplication, and Riesz bounds to give
-\begin{equation}\label{eq:MasterPressureSobolevCoordinate}
-  \partial_t^rp=Q_r
-  \in C([0,T_*];H^m(\R^3)).
-\end{equation}
-Choosing \(m>k+\tfrac32-\tfrac3p\) in the pressure coordinate furnished by
-\Cref{prop:PressureCompleteEndpointJet} and using the same embedding gives
-\begin{equation}\label{eq:MasterFiniteTimePressureEstimate}
-  \nabla^k\partial_t^rp
-  \in L^q(I_*;L^p(\R^3)).
-\end{equation}
-Each norm uses one finite rectangle.  No all-orders constant or infinite sum
-enters.  The next two rectangles are enough to return to the critical height
-and the vortex geometry.
+The full intersection keeps every higher response available, but the physical
+return does not need an inventory of them.  The first rectangle has already
+reached the critical velocity norm.  The next one reaches the motion of the
+critical height and the gradient that stretches the vortex.  Those are the two
+coordinates we now follow.
 
 \subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
 
