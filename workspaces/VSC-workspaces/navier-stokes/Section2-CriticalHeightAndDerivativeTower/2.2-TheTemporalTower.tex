@@ -1,0 +1,140 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{What finite time demands of the next response}\label{sub:BodyFiniteTimeResponseEscalation}
+
+If velocity escapes in a fixed spatial norm \(X\) before a finite time, its local acceleration cannot remain bounded in that norm.
+Otherwise
+\[
+  \norm{u(t)}_X
+  \leq
+  \norm{u(0)}_X
+  +
+  \int_0^t\norm{\partial_su(s)}_X\,ds
+  \leq
+  \norm{u(0)}_X
+  +
+  T_*\sup_{0\leq s<T_*}\norm{\partial_su(s)}_X,
+\]
+would keep the velocity finite all the way to \(T_*\).
+Apply the same argument to acceleration: if its next time derivative were bounded, acceleration could not escape either.
+The implication repeats at every order,
+\[
+  u,
+  \qquad
+  \partial_tu,
+  \qquad
+  \partial_t^2u,
+  \qquad
+  \partial_t^3u,
+  \qquad
+  \ldots,
+\]
+with each row the time derivative of the row above it at the same spatial coordinate.
+This repeated finite-time necessity is the temporal Tower of the one evolving velocity field.
+Write its velocity and pressure rows as
+\begin{equation}\label{eq:TemporalTowerDefinitionBody}
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np,
+  \qquad
+  n\in\Nzero.
+\end{equation}
+We differentiate only finitely many times and only on strict intervals where the solution is classical.
+
+The equation determines how the rows are joined.
+The first derivative is built from the spatial structure of \(u\); differentiating that identity produces the next rows:
+\[
+\begin{aligned}
+  V_0
+  &:=u,
+  \\
+  V_1
+  &=\nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0,
+  \\
+  V_2
+  &=\nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1,
+  \\
+  V_3
+  &=\nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2.
+\end{aligned}
+\]
+
+The visible pattern is the product rule, and at order \(n\) it becomes
+\begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
+  V_{n+1}
+  +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =\nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\end{equation}
+
+Pressure stays inside every response, but it is fixed by the same velocity rows.
+Taking the divergence of the original equation and using the decaying whole-space normalization gives
+\begin{equation}\label{eq:PressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j),
+  \qquad
+  p=R_iR_j(u_i u_j),
+\end{equation}
+where \(R_j:=\partial_j(-\Delta)^{-1/2}\); the decay condition removes the otherwise arbitrary function of time.
+After \(n\) derivatives,
+\begin{equation}\label{eq:BodyTemporalPressureRecurrence}
+  Q_n
+  =R_iR_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+Thus the velocity rows determine \(Q_n\), and \(\nabla Q_n\) returns to the equation for \(V_{n+1}\).
+The Tower cannot remain purely temporal: viscosity contributes \(\Delta V_n\), transport differentiates velocity products, and pressure is recovered by spatial singular integrals of those same products.
+Record the resulting mixed coordinates as
+\begin{equation}\label{eq:BodyMixedJetDefinition}
+  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p,
+  \qquad
+  \alpha\in\Nzero^3.
+\end{equation}
+Already one spatial derivative divides across the two transport factors:
+\[
+  \partial_\ell\bigl((V_a\cdot\nabla)V_{n-a}\bigr)
+  =((\partial_\ell V_a)\cdot\nabla)V_{n-a}
+  +(V_a\cdot\nabla)\partial_\ell V_{n-a}.
+\]
+For a general multi-index \(\alpha\), the temporal and spatial product rules give
+\begin{align}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha}
+  \notag\\
+  &=
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+  \label{eq:BodyMixedJetRecurrence}
+\end{align}
+The matching pressure coordinate satisfies
+\begin{equation}\label{eq:BodyMixedPressureRecurrence}
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_x^\alpha\partial_i\partial_j
+  \sum_{a=0}^{n}\binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\end{equation}
+
+The recurrence that generates each response also contains
+\(\nu\Delta V_n\).  Finite time has exposed the temporal rows; viscosity now
+asks how much spatial height is carried inside each one, with pressure still
+attached.

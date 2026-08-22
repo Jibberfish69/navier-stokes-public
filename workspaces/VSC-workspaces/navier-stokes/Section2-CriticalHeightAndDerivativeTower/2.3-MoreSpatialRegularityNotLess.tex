@@ -1,0 +1,203 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The spatial height inside each response}\label{sub:ThePressureCompleteMixedDerivativeTower}
+
+At critical height, a time derivative and one additional Sobolev level carry the
+same scaling weight.  The equation decides whether that correspondence is only
+dimensional or is an exact relation.  Work first on a strict classical interval;
+the calculation below is an identity, not yet a bound.
+
+For
+\[
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
+  \qquad
+  E_{s,\lambda}(t):=\frac12\norm{\Lambda^su_\lambda(t)}_2^2,
+\]
+\Cref{prop:CriticalSobolevScaling} gives
+\begin{equation}\label{eq:BodySpatialEnergyScaling}
+  E_{s,\lambda}(t)
+  =\lambda^{2s-1}E_s(\lambda^2t).
+\end{equation}
+At \(s=1/2\), this is the critical height:
+\[
+  H_\lambda(t)=H(\lambda^2t).
+\]
+Differentiating \(n\) times in time adds the factor \(\lambda^{2n}\):
+\begin{equation}\label{eq:BodyCriticalHeightTemporalScaling}
+  H_\lambda^{(n)}(t)
+  =\lambda^{2n}H^{(n)}(\lambda^2t).
+\end{equation}
+The spatial energy at height \(n+\tfrac12\) has that same scale weight:
+\begin{equation}\label{eq:BodySpatialHeightScalingDiagonal}
+  E_{n+1/2,\lambda}(t)
+  =\lambda^{2n}E_{n+1/2}(\lambda^2t).
+\end{equation}
+This agreement does not make the two quantities equal.
+It says which spatial height belongs beside the \(n\)-th critical response.
+
+The equation supplies their exact relation.
+After applying \(\Lambda^s\) and pairing with \(\Lambda^su\), viscosity contributes
+\[
+  \nu\pair{\Lambda^su}{\Lambda^s\Delta u}_{L^2}
+  =-\nu\norm{\Lambda^{s+1}u}_2^2
+  =-2\nu E_{s+1}.
+\]
+Keep the remaining transport--pressure response together as
+\[
+  \mathcal P_s
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes globally only after incompressibility is used; retaining it in \(\mathcal P_s\) keeps the row attached to the pressure-complete equation.
+Thus
+\begin{equation}\label{eq:BodyCriticalEnergyBalance}
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\end{equation}
+
+At the first critical response,
+\[
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+Differentiate and substitute the same balance at the next height,
+\[
+\begin{aligned}
+  H''
+  &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
+  \\
+  &=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2},
+\end{aligned}
+\]
+and one more derivative gives
+\[
+  H'''
+  =\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\]
+Every previous transfer remains in the row while viscosity exposes one higher energy.
+For \(n\geq1\), induction gives
+\begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
+  H^{(n)}
+  =(-2\nu)^nE_{n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\end{equation}
+Because \(\nu>0\), the highest exposed energy can be solved for:
+\begin{equation}\label{eq:BodyCompletedCriticalRow}
+  E_{n+1/2}
+  =(-2\nu)^{-n}
+  \left(
+    H^{(n)}
+    -\sum_{j=0}^{n-1}
+      (-2\nu)^j
+      \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  \right).
+\end{equation}
+This is exactly what the ascent gains and exactly where it stops.
+\Cref{prop:CriticalHeightSpatialAscent} isolates the higher Sobolev energy, but the entire right-hand side must still be controlled before that energy is bounded.
+
+The critical response is itself a contraction of the temporal rows.
+Since
+\[
+  H(t)
+  =\frac12
+  \pair{\Lambda^{1/2}V_0(t)}
+       {\Lambda^{1/2}V_0(t)}_{L^2},
+\]
+Leibniz's rule gives
+\begin{equation}\label{eq:BodyHeightDerivativeTemporalContraction}
+  H^{(n)}(t)
+  =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
+  \pair{\Lambda^{1/2}V_a(t)}
+       {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
+\end{equation}
+One rung therefore has three related but distinct readings: the field response \(V_n\), the scalar contraction \(H^{(n)}\), and the spatial energy \(E_{n+1/2}\) exposed by viscosity.
+
+\Needspace{10\baselineskip}
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The first time--space rungs of the critical-height calculation.}
+\label{tab:BodyTemporalSpatialDiscovery}
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{}c c c c@{}}
+\toprule
+order & Eulerian response & critical response & spatial height \\
+\midrule
+\(0\) & \(V_0=u\) & \(H=E_{1/2}\) & \(E_{1/2}\) \\
+\(1\) & \(V_1=u_t\) & \(H'\) & \(E_{3/2}\) \\
+\(2\) & \(V_2=u_{tt}\) & \(H''\) & \(E_{5/2}\) \\
+\(3\) & \(V_3=u_{ttt}\) & \(H'''\) & \(E_{7/2}\) \\
+\(n\) & \(V_n=\partial_t^nu\) & \(H^{(n)}\) & \(E_{n+1/2}\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The temporal column follows the successive responses forced by a finite-time escape.
+The spatial column records the energies exposed beside them,
+\(E_{1/2},E_{3/2},E_{5/2},E_{7/2},\ldots\).
+
+The ladder still is not an estimate: its transfer terms may carry the size of the highest rung, and so far it has been displayed only inside \(V_0=u\).
+
+The same spatial ascent occurs inside every temporal response.
+For \(r\in\Nzero\), let \(E_{r,s}:=\tfrac12\norm{\Lambda^sV_r}_2^2\), and define the complete transport--pressure transfer in the \(r\)-th recurrence by
+\[
+  \mathcal P_{r,s}
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left[
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right]}_{L^2}.
+\]
+Pairing the \(r\)-th temporal equation with \(\Lambda^{2s}V_r\) gives
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+After any finite ascent depth \(k\geq1\),
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^kE_{r,1/2}
+  =(-2\nu)^kE_{r,k+1/2}
+  +\sum_{j=0}^{k-1}
+  (-2\nu)^j
+  \partial_t^{\,k-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+The index \(r\) chooses a temporal response; \(k\) chooses a spatial height inside it.
+Neither choice determines the other.
+
+Applying the ascent in \Cref{prop:CriticalHeightSpatialAscent} inside each
+temporal response gives the grid
+{\small
+\[
+\begin{array}{c|ccccc}
+ & H^0_x & H^1_x & H^2_x & H^3_x & \cdots\\
+\hline
+V_0=u      & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_1=u_t    & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_2=u_{tt} & \bullet & \bullet & \bullet & \bullet & \cdots\\
+V_3=u_{ttt}& \bullet & \bullet & \bullet & \bullet & \cdots\\
+\vdots     & \vdots  & \vdots  & \vdots  & \vdots  & \ddots
+\end{array}
+\]
+}
+Every bullet is a derivative of the same velocity field, not an estimate already won.
+Moving down changes temporal response; moving across changes spatial height.
+On a strict interval \(I=(0,T)\) with \(T<T_*\), control of all coordinates would mean
+\begin{equation}\label{eq:BodyDesiredMixedIntersection}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I;H^m(\R^3)).
+\end{equation}
+
+The grid is still only a family of identities on strict intervals.  At a finite
+endpoint, a useful coordinate must possess a time trace.  That requirement will
+choose the neighbouring rows, and hence the finite block, that must be controlled
+together.
