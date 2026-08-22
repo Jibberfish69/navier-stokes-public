@@ -1,5 +1,5 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{Every finite rectangle remains bounded}\label{sub:BodyCompatibleIntersection}
+\subsection{The estimate that must survive the endpoint}\label{sub:BodyCompatibleIntersection}
 
 \begin{theorem}[Datum-generated whole-terminal rectangles]\label{thm:BodyWholeTerminalRectangleTheorem}
 Let \(u_0\in\Ssigma\), let \(\nu>0\), and let \((u,p)\) be the maximal classical
@@ -18,10 +18,22 @@ The bound may depend on \((N,M)\); no constant uniform over all derivative order
 Every rectangle belongs to the same history, and larger rectangles return the identical derivatives on their overlaps.
 \end{remark}
 
-The mixed jet has already identified \(\cR_{N,M}[u_0;T]\) at every strict cutoff.
-The terminal realization proved in
-\Cref{thm:WholeTerminalCompatibleRectangleEstimate} supplies what the approach
-to \(T_*\) could otherwise destroy: a bound independent of that cutoff.
+Everything before this theorem identifies the rectangle on each strict
+subinterval.  That is not yet the estimate in
+\eqref{eq:BodyWholeTerminalRectangleEstimate}.  Classical smoothness allows the
+norm to grow each time the cutoff moves closer to \(T_*\).  The producer proof
+has to begin with \((u_0,\nu)\), keep \((N,M)\) fixed, and derive one bound that
+does not move with the cutoff.
+
+That derivation is the load-bearing payment of the paper.  The proof source
+currently attached to this manuscript states the datum-generated theorem but
+does not display the calculation that produces even its first rectangle.  The
+terminal argument in \Cref{thm:WholeTerminalCompatibleRectangleEstimate}
+starts from \eqref{eq:BodyWholeTerminalRectangleEstimate}; it realizes the
+assumed rows on \(I_*\) and cannot serve as their producer.  Until the missing
+datum-to-rectangle calculation is inserted here, every conclusion below that
+uses \Cref{thm:BodyWholeTerminalRectangleTheorem} remains conditional on this
+one theorem.
 
 Fix \(N\) and \(M\).
 Every term in \eqref{eq:BodyRectangleNorm} is an integral of a nonnegative squared norm.
