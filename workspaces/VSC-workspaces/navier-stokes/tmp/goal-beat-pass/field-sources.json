@@ -1,0 +1,10 @@
+{
+  "writing_form": "source_derived",
+  "writing_job": "user_supplied",
+  "domain": "source_derived",
+  "audience": "user_supplied",
+  "purpose": "user_supplied",
+  "reader_start": "source_derived",
+  "reader_end": "user_supplied",
+  "live_pressure": "user_supplied"
+}

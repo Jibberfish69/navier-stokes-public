@@ -1,0 +1,187 @@
+{
+  "field_resolutions": [],
+  "reader_start": "the reader knows the equation, datum, maximal classical history, and finite-endpoint regularity question, but has no physical picture of the dangerous motion",
+  "live_pressure": "the vortex must be the actual mechanism; scaling measures concentration and must remain a rescaled-family comparison rather than a claim about actual evolution",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-vortex-to-critical-height",
+      "move": {
+        "selection": "earn the stretching vortex as the actual concentration mechanism; vortex supplies concentration; scaling measures it; scaling defines the unique invariant height one half; energy shrinks inside the rescaled family while critical height does not; the heat clock becomes necessary next",
+        "connection": "The vortex makes smaller transverse widths physically relevant; the full Navier--Stokes symmetry then measures a normalized profile at those widths and singles out the critical height.",
+        "development": "Develop the material-tube and viscous-core distinction, the exact vorticity balance, the energy mismatch, the full rescaling, the unique critical exponent, and the critical-height balance far enough that the heat clock is the next necessary thought.",
+        "expression": "Use declarative, reader-facing prose with the physical object before each formula, no written interrogatives, no equation inventory, and no private proof labels."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader moves from a formal finite-endpoint problem to one physically coherent concentration mechanism and understands why critical height is the measurement that survives its rescaling.",
+      "next_possibility": "The shortened time coordinate in the same scaling can now be developed as the heat clock.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "vortex-onset",
+          "thought": "A rotating region becomes dangerous when strain extends it and concentration survives while viscosity is already diffusing vorticity.",
+          "connection": "This identifies the physical route to smaller transverse widths.",
+          "reader_start": "the reader knows the equation, datum, maximal classical history, and finite-endpoint regularity question, but has no physical picture of the dangerous motion",
+          "reader_end": "the reader can picture the one coupled motion that could sharpen the field",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "vorticity-law",
+          "thought": "The vorticity equation and its magnitude identity separate strain amplification from the exact local viscous contribution without splitting them into different fluids.",
+          "connection": "The picture is now an equation-level mechanism.",
+          "reader_start": "the reader can picture the one coupled motion that could sharpen the field",
+          "reader_end": "the reader sees the exact equation-level mechanism and its viscous qualification",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "energy-gap",
+          "thought": "The energy law controls the total field while leaving concentration across shrinking widths open.",
+          "connection": "A scale-sensitive measurement is now needed.",
+          "reader_start": "the reader sees the exact equation-level mechanism and its viscous qualification",
+          "reader_end": "the reader sees why finite total energy does not measure the shrinking width",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "full-scaling",
+          "thought": "The full space-time-amplitude rescaling compares normalized solutions and does not claim that the fixed history performs that rescaling.",
+          "connection": "This makes scale weights honest.",
+          "reader_start": "the reader sees why finite total energy does not measure the shrinking width",
+          "reader_end": "the reader understands the full rescaling as a comparison family rather than actual evolution",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "critical-height",
+          "thought": "The homogeneous Sobolev scaling has one invariant exponent, one half, which defines critical height.",
+          "connection": "The reader now owns the name through its derivation.",
+          "reader_start": "the reader understands the full rescaling as a comparison family rather than actual evolution",
+          "reader_end": "the reader understands why one half is the unique scale-invariant Sobolev height",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "mismatch-and-clock",
+          "thought": "Inside the rescaled family, energy decreases, derivative energy increases, critical height stays fixed, and the time coordinate shortens quadratically.",
+          "connection": "The spatial concentration beat creates the heat-clock beat.",
+          "reader_start": "the reader understands why one half is the unique scale-invariant Sobolev height",
+          "reader_end": "the reader understands why stretching-driven concentration calls for a scale-invariant height and why the same scaling opens the heat-clock beat",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "The vortex and its sharpening are the live obstacle; the formal label should arrive after the reader sees that motion."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The section must unfold stretching, concentration, scaling, and critical height instead of listing them."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Critical height should be named only after scaling has forced the exponent."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The discovery can remain question-driven internally while the manuscript stays declarative."
+        },
+        {
+          "record_id": "observation-section2-scaling-diagonal-movement-20260817",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "This is the same Section 2 decision pressure connecting scaling to the time-space diagonal."
+        },
+        {
+          "record_id": "decision-cold-open-developed-beats-gap-filling-20260817",
+          "source_move_id": "author-from-cold-reader-and-fill-gaps",
+          "relation": "supports",
+          "applicability_reason": "The current opening needs a cold-reader entrance and full causal development."
+        }
+      ],
+      "risks": [
+        "Conflating a material tube with a viscous vorticity core.",
+        "Turning a rescaling symmetry into a claim about actual evolution.",
+        "Calling the pointwise viscous vorticity term sign-definite.",
+        "Compressing the recovered movement into a polished synopsis."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-vortex-to-critical-height",
+  "choice_reason": "Thomas fixed the movement. The section should realize that movement directly instead of comparing rival routes.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id":"decision-live-obstacle-before-label-001","status":"used","reason":"The physical vortex must precede the formal measurement."},
+    {"record_id":"decision-carry-established-thought-forward-001","status":"not_applicable","reason":"The user-fixed movement already supplies the local continuation boundary for this run."},
+    {"record_id":"decision-unfold-causal-relations-001","status":"used","reason":"The beat sequence is causal, not topical."},
+    {"record_id":"decision-name-operational-objects-001","status":"not_applicable","reason":"Direct-object custody is enforced by the live task rather than this record."},
+    {"record_id":"decision-earn-technical-language-001","status":"used","reason":"The formal name follows the scaling calculation."},
+    {"record_id":"decision-preserve-discovery-order-001","status":"not_applicable","reason":"The exact order is already fixed directly by the user-owned move."},
+    {"record_id":"decision-generate-expression-from-thought-001","status":"not_applicable","reason":"No additional expression authority is needed for the selected move."},
+    {"record_id":"decision-use-reader-shared-language-001","status":"not_applicable","reason":"The live manuscript contract already excludes private drafting vocabulary."},
+    {"record_id":"decision-develop-to-reader-change-001","status":"not_applicable","reason":"Development depth is fixed by the direct task and reader-end contract."},
+    {"record_id":"decision-keep-example-inside-idea-001","status":"not_applicable","reason":"No separate example is being introduced."},
+    {"record_id":"decision-repair-exact-referent-001","status":"not_applicable","reason":"The direct user-owned move already fixes the live referent."},
+    {"record_id":"decision-generalize-to-writing-faculty-001","status":"not_applicable","reason":"This run edits the manuscript and does not alter the faculty."},
+    {"record_id":"observation-reader-led-concept-before-formal-name-001","status":"not_applicable","reason":"The same decision is already carried by the directly relevant cold-open and scaling records."},
+    {"record_id":"decision-preserve-local-movement-role-001","status":"not_applicable","reason":"The mechanism role is fixed in the user-owned move."},
+    {"record_id":"decision-separate-internal-inquiry-from-written-interrogative-001","status":"used","reason":"The prose must stay declarative."},
+    {"record_id":"decision-sentence-possesses-complete-thought-001","status":"not_applicable","reason":"This run does not need a separate sentence-form decision record."},
+    {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","status":"not_applicable","reason":"The proof-object boundary comes from the live manuscript and theorem contract."},
+    {"record_id":"decision-abstract-learning-is-cross-document-not-local-edit-20260815","status":"not_applicable","reason":"No abstract learning update is being claimed."},
+    {"record_id":"observation-direct-reader-train-of-thought-20260816","status":"not_applicable","reason":"The selected evidence already supports the needed reader movement."},
+    {"record_id":"decision-section-opening-reader-orientation-20260816","status":"not_applicable","reason":"The opening job is fixed by the direct user movement and cold-open record."},
+    {"record_id":"decision-learning-updates-generation-not-artifact-20260816","status":"not_applicable","reason":"This run is an authorized artifact edit."},
+    {"record_id":"observation-section2-scaling-diagonal-movement-20260817","status":"used","reason":"The scaling-to-critical-height movement is directly relevant."},
+    {"record_id":"decision-cold-open-developed-beats-gap-filling-20260817","status":"used","reason":"The current opening needs the cold-reader causal development this record identifies."}
+  ],
+  "uncertainties": [
+    "Exact sentence texture remains a generative choice; Thomas has fixed the movement and the negative boundaries, not exact prose."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete Section 2.1 that makes the stretching vortex generate the need for scaling and critical height.",
+    "strongest_move_reason": "It keeps the physical object alive and lets every formal object arrive as the name of a thought the reader has already performed.",
+    "intellectual_gain": "The section distinguishes actual dynamics from the rescaled comparison while preserving the physical force of concentration.",
+    "reader_gain": "The reader understands what critical height measures and why the heat clock comes next.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader knows the formal regularity problem but has no physical vortex picture.",
+      "section_job": "Earn vortex stretching as the concentration mechanism and let scaling define critical height.",
+      "outgoing_reader_need": "Understand the time compression attached to the same scale change.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "End on the shortened time coordinate so the heat-clock subsection can develop it.",
+      "new_section_job": "",
+      "enrichment_reason": "Only distinctions required for mathematical safety and the next reader step are retained.",
+      "enrichments": [
+        {
+          "detail": "Separate material-tube contraction from viscous-core concentration.",
+          "reader_value": "Prevents the physical picture from claiming that vorticity is frozen into a viscous material tube.",
+          "placement": "Immediately after the stretching picture and before the vorticity law.",
+          "restraint": "Keep the distinction to the one consequence needed for the mechanism."
+        },
+        {
+          "detail": "State that full Navier--Stokes scaling compares rescaled solutions.",
+          "reader_value": "Prevents the scale calculation from being mistaken for the actual trajectory of the fixed solution.",
+          "placement": "At the entrance to the scaling calculation.",
+          "restraint": "Do not open a separate symmetry discussion."
+        }
+      ]
+    }
+  }
+}
