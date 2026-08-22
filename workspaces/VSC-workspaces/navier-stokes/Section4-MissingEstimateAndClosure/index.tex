@@ -279,7 +279,9 @@ If a drawn core collapses to one point, it cannot still contain exactly the
 material core with which it began.
 
 Even perfect centring cannot rescue a nonzero circulation from this fixed-label
-picture.  The finite coordinate \((r,m)=(0,3)\) gives
+picture.  The adjacent trace of \(\cR_{0,3}\) gives
+\(u\in C([0,T_*];H^3)\); since \(H^3(\R^3)\hookrightarrow
+W^{1,\infty}(\R^3)\),
 \begin{equation}\label{eq:BodyUniformLipschitzBound}
   L_*:=\sup_{0\leq t\leq T_*}\norm{\nabla u(t)}_\infty<\infty.
 \end{equation}
@@ -302,9 +304,9 @@ and the circuit has length \(O(r)\).  Their product is \(O(r^2)\), so this
 centred material core cannot carry a nonzero limiting circulation.
 
 Now let membership change.  Particle separation no longer tracks the visible
-core, but repeated recruitment would have to keep transferring critical content
-to ever smaller wavelengths.  That claim belongs to the high-frequency tail of
-the whole velocity field.
+core.  One precise spectral version of repeated recruitment says that a fixed
+amount of critical content survives at smaller and smaller wavelengths.  That
+version can be tested in the high-frequency tail of the whole velocity field.
 For \(s>1/2\) and \(K\geq1\), define
 \[
   H_{>K}(t)
@@ -325,11 +327,14 @@ and force
   \lim_{K\to\infty}
   \sup_{0\leq t\leq T_*}H_{>K}(t)=0.
 \end{equation}
-Recruitment may move activity between scales, but it cannot leave a fixed amount
-of critical height beyond every cutoff.
-The two readings fail for different reasons: fixed labels cannot collapse and
-their centred circulation vanishes; changing labels cannot sustain the required
-ultraviolet critical tail.
+Activity may move between scales, but it cannot leave a fixed amount of critical
+height beyond every cutoff.  This rules out the spectral version just stated.
+It does not prove that every geometrically narrowing core with changing
+membership must create such a tail; that geometric-to-Fourier implication would
+require a separate localization argument.  What the two calculations establish
+is narrower: fixed labels cannot collapse and their centred circulation
+vanishes, while a changing-membership model cannot preserve a fixed critical
+tail arbitrarily far into the ultraviolet.
 
 \subsection{The singularity conditions fail at both scales}\label{sub:TheLocalSingularityPictureCloses}
 
@@ -342,9 +347,10 @@ maximal time forces the critical \(L^3\) norm to escape
 satisfy both statements.
 
 The local signature disappears from the same intersection.  Fix a finite
-\(T>0\).  The mixed velocity bounds and the normalized pressure recurrence in
-\Cref{prop:PressureCompleteEndpointJet} give two finite coordinates with the
-common ceiling
+\(T>0\).  Sobolev persistence on \([0,T]\) gives
+\(u\in C([0,T];H^m)\) at every finite height.  Choosing \(m>3/2\), using that
+\(H^m(\R^3)\) is an algebra, and applying the normalized pressure formula
+\(p=R_iR_j(u_i u_j)\), gives the common ceiling
 \begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
   K_T
   :=\sup_{0\leq t\leq T}
