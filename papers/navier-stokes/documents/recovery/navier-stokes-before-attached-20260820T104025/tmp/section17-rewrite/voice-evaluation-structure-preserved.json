@@ -1,0 +1,88 @@
+{
+  "task_id": "task-872821b5b8aab186",
+  "task_sha256": "bfcaafd390449597cb55e3fbc2a45f2e37c5c194e38bf738db45fb97efbc2552",
+  "prediction_sha256": "a7c5dd3ebf19388a36445456db13941209b51616f6857a6d268333c79af483a9",
+  "candidate_sha256": "c249106ba38ef6aed0907e5e82f8fc24401dd540374cb6b750c84769fcd4bb0c",
+  "selected_move_id": "follow-one-parcel-to-the-tower",
+  "producer_id": "codex-root-section17-structure-preserved-rewrite",
+  "evaluator_id": "section17-math-and-reader-audits",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate rewrites the failed Section 1.7 body while retaining the approved heading, label, both dividers, V1 through V4, the binomial recurrence, pressure rows, spatial rows, mixed tower, zero-rung caveat, and endpoint handoff."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The candidate realizes the requested parcel-to-acceleration-to-jerk movement through the complete settled formal sequence rather than returning another audit."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The opening spends Section 1.6's hidden-higher-failure pressure, both dividers inherit the same causal thread, and the close supplies the tower directly to Section 1.8."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The kinematic profile creates the need for the actual momentum equation; material jerk creates the Eulerian decomposition; the temporal recurrence forces pressure and spatial operators to remain attached."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "The only new example is explicitly kinematic and confined to showing that finite velocity and acceleration do not control jerk."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The section explains why the settled Pascal, pressure, spatial, and mixed rows are consequences of one field equation rather than a notation inventory."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The complete candidate is written inside the approved organization; independent mathematical and cold-reader audits found no formal or movement defect, and the compiled pages have no visible layout defect."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected movement follows one parcel while preserving every settled formal component and its existing order."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each preserved display answers a pressure created by the preceding physical or mathematical consequence."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Velocity, material acceleration, jerk, fixed-coordinate time rows, pressure, spatial rows, and the mixed tower are developed in one causal sequence."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose uses concrete physical subjects and causal statements around the approved dividers and formal displays."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The candidate distinguishes a kinematic profile from a realized Navier--Stokes singularity, material from Eulerian derivatives, pressure up to normalization, lawful zero rungs, and a diagnostic rung failure from a complete continuation criterion."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The displayed equations were independently checked, including the material jerk expansion, V1 through V4, Pascal recurrence, pressure Poisson rows, and first two spatial rows."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The candidate realizes the user-owned thought movement while preserving the settled supplied structure; Thomas's judgment of voice is not pre-empted."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The reader follows one finite-velocity parcel into the full joined tower and arrives at the need for Dead, Jump, or Blown endpoint distinctions."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The section connects carried physical responses to the complete Eulerian mixed jet without moving or demoting the settled material."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate is generated from the live manuscript, adjacent reader state, settled formal object, and user-owned movement rather than copied sample language."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Mathematics, cold-reader movement, compilation, and rendered pages 15 through 18 were checked; final voice fidelity remains Thomas's judgment."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The same material parcel and velocity field remain the subject throughout; X, U, D_t, V_n, Q_n, and the mixed tower retain their distinct roles."
+    }
+  },
+  "verdict": "pass"
+}
