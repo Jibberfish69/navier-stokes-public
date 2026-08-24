@@ -19,6 +19,133 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{BahouriCheminDanchin2011}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d485a397d34822695de9ac0b1e8f6ddc}{%
+           family={Bahouri},
+           familyi={B\bibinitperiod},
+           given={Hajer},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=573a558104a9950310e206ea767cc03f}{%
+           family={Chemin},
+           familyi={C\bibinitperiod},
+           given={Jean-Yves},
+           giveni={J\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95068d384e7c32c43d07fbba5dcababa}{%
+           family={Danchin},
+           familyi={D\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{2}{%
+        {Berlin}%
+        {Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{fullhash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{fullhashraw}{6c23475f970746ec6b9a67698c80f653}
+      \strng{bibnamehash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{authorbibnamehash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{authornamehash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{authorfullhash}{6c23475f970746ec6b9a67698c80f653}
+      \strng{authorfullhashraw}{6c23475f970746ec6b9a67698c80f653}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Grundlehren der mathematischen Wissenschaften}
+      \field{title}{Fourier Analysis and Nonlinear Partial Differential Equations}
+      \field{volume}{343}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1007/978-3-642-16830-7
+      \endverb
+    \endentry
+    \entry{BealeKatoMajda1984}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a8f6bb51c67bb3ba50d00ec6832feb9}{%
+           family={Beale},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi Thomas},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de2df565ad24725681a931fe6bd95efd}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Tosio},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b04b72d54d9970038738e4ee39443568}{%
+           family={Majda},
+           familyi={M\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{fullhash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{fullhashraw}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{bibnamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorbibnamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authornamehash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorfullhash}{9993b4794218d494b2e5ab6cd079260d}
+      \strng{authorfullhashraw}{9993b4794218d494b2e5ab6cd079260d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{number}{1}
+      \field{title}{Remarks on the Breakdown of Smooth Solutions for the {3-D Euler} Equations}
+      \field{volume}{94}
+      \field{year}{1984}
+      \field{pages}{61\bibrangedash 66}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/BF01212349
+      \endverb
+    \endentry
+    \entry{BeiraoDaVeiga1995}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7816116cb4ef523ebc89e67767801217}{%
+           family={Beirão\bibnamedelimb da\bibnamedelima Veiga},
+           familyi={B\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7816116cb4ef523ebc89e67767801217}
+      \strng{fullhash}{7816116cb4ef523ebc89e67767801217}
+      \strng{fullhashraw}{7816116cb4ef523ebc89e67767801217}
+      \strng{bibnamehash}{7816116cb4ef523ebc89e67767801217}
+      \strng{authorbibnamehash}{7816116cb4ef523ebc89e67767801217}
+      \strng{authornamehash}{7816116cb4ef523ebc89e67767801217}
+      \strng{authorfullhash}{7816116cb4ef523ebc89e67767801217}
+      \strng{authorfullhashraw}{7816116cb4ef523ebc89e67767801217}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chinese Annals of Mathematics, Series B}
+      \field{number}{4}
+      \field{title}{A New Regularity Class for the {Navier--Stokes} Equations in {$\mathbb{R}^n$}}
+      \field{volume}{16}
+      \field{year}{1995}
+      \field{pages}{407\bibrangedash 412}
+      \range{pages}{6}
+    \endentry
     \entry{CaffarelliKohnNirenberg1982}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3991522afc177c36148555b3758df0e0}{%
@@ -108,12 +235,12 @@
            given={L.},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=27518f6bf3bfcd85ac3d8ca82bbdc22f}{%
+        {{un=1,uniquepart=given,hash=27518f6bf3bfcd85ac3d8ca82bbdc22f}{%
            family={Seregin},
            familyi={S\bibinitperiod},
            given={G.\bibnamedelimi A.},
            giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=03758206dafd21ca9b98c1a50dc2a233}{%
            family={Šverák},
            familyi={Š\bibinitperiod},
@@ -183,6 +310,327 @@
       \endverb
       \verb{url}
       \verb https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf
+      \endverb
+    \endentry
+    \entry{FujitaKato1964}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d16f9fafe7f63289c10cc78b70a52066}{%
+           family={Fujita},
+           familyi={F\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de2df565ad24725681a931fe6bd95efd}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Tosio},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{fullhash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{fullhashraw}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{bibnamehash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{authorbibnamehash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{authornamehash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{authorfullhash}{b5f06b1788e6823437161b9064e75f2d}
+      \strng{authorfullhashraw}{b5f06b1788e6823437161b9064e75f2d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archive for Rational Mechanics and Analysis}
+      \field{number}{4}
+      \field{title}{On the {Navier--Stokes} Initial Value Problem. I}
+      \field{volume}{16}
+      \field{year}{1964}
+      \field{pages}{269\bibrangedash 315}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1007/BF00276188
+      \endverb
+    \endentry
+    \entry{Kato1984}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de2df565ad24725681a931fe6bd95efd}{%
+           family={Kato},
+           familyi={K\bibinitperiod},
+           given={Tosio},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{fullhash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{fullhashraw}{de2df565ad24725681a931fe6bd95efd}
+      \strng{bibnamehash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{authorbibnamehash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{authornamehash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{authorfullhash}{de2df565ad24725681a931fe6bd95efd}
+      \strng{authorfullhashraw}{de2df565ad24725681a931fe6bd95efd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematische Zeitschrift}
+      \field{number}{4}
+      \field{title}{Strong {$L^p$}-solutions of the {Navier--Stokes} equation in {$\mathbb{R}^m$}, with applications to weak solutions}
+      \field{volume}{187}
+      \field{year}{1984}
+      \field{pages}{471\bibrangedash 480}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/BF01174182
+      \endverb
+    \endentry
+    \entry{Ladyzhenskaya1967}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1de6bcf988f2af273c053c77e23cf5d1}{%
+           family={Ladyzhenskaya},
+           familyi={L\bibinitperiod},
+           given={O.\bibnamedelimi A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{fullhash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{fullhashraw}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{bibnamehash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{authorbibnamehash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{authornamehash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{authorfullhash}{1de6bcf988f2af273c053c77e23cf5d1}
+      \strng{authorfullhashraw}{1de6bcf988f2af273c053c77e23cf5d1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zapiski Nauchnykh Seminarov LOMI}
+      \field{title}{On the uniqueness and on the smoothness of weak solutions of the {Navier--Stokes} equations}
+      \field{volume}{5}
+      \field{year}{1967}
+      \field{pages}{169\bibrangedash 185}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://www.mathnet.ru/eng/znsl2228
+      \endverb
+      \verb{url}
+      \verb https://www.mathnet.ru/eng/znsl2228
+      \endverb
+    \endentry
+    \entry{Leray1934}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d1c85ad391835096e0ab05bb90e4a799}{%
+           family={Leray},
+           familyi={L\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{fullhash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{fullhashraw}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{bibnamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorbibnamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authornamehash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorfullhash}{d1c85ad391835096e0ab05bb90e4a799}
+      \strng{authorfullhashraw}{d1c85ad391835096e0ab05bb90e4a799}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Mathematica}
+      \field{title}{Sur le mouvement d'un liquide visqueux emplissant l'espace}
+      \field{volume}{63}
+      \field{year}{1934}
+      \field{pages}{193\bibrangedash 248}
+      \range{pages}{56}
+      \verb{doi}
+      \verb 10.1007/BF02547354
+      \endverb
+    \endentry
+    \entry{Prodi1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2e14bd4cfb690017c835b6acd5119bdf}{%
+           family={Prodi},
+           familyi={P\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{fullhash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{fullhashraw}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{bibnamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorbibnamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authornamehash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorfullhash}{2e14bd4cfb690017c835b6acd5119bdf}
+      \strng{authorfullhashraw}{2e14bd4cfb690017c835b6acd5119bdf}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annali di Matematica Pura ed Applicata}
+      \field{number}{1}
+      \field{title}{Un teorema di unicità per le equazioni di {Navier--Stokes}}
+      \field{volume}{48}
+      \field{year}{1959}
+      \field{pages}{173\bibrangedash 182}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/BF02410664
+      \endverb
+    \endentry
+    \entry{Seregin2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=59ce517bc2180299d6680066039b1c91}{%
+           family={Seregin},
+           familyi={S\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{59ce517bc2180299d6680066039b1c91}
+      \strng{fullhash}{59ce517bc2180299d6680066039b1c91}
+      \strng{fullhashraw}{59ce517bc2180299d6680066039b1c91}
+      \strng{bibnamehash}{59ce517bc2180299d6680066039b1c91}
+      \strng{authorbibnamehash}{59ce517bc2180299d6680066039b1c91}
+      \strng{authornamehash}{59ce517bc2180299d6680066039b1c91}
+      \strng{authorfullhash}{59ce517bc2180299d6680066039b1c91}
+      \strng{authorfullhashraw}{59ce517bc2180299d6680066039b1c91}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematical Physics}
+      \field{number}{3}
+      \field{title}{A Certain Necessary Condition of Potential Blow Up for {Navier--Stokes} Equations}
+      \field{volume}{312}
+      \field{year}{2012}
+      \field{pages}{833\bibrangedash 845}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s00220-011-1391-x
+      \endverb
+    \endentry
+    \entry{Serrin1962}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=013dc640736ae541ed53321cf37faf1e}{%
+           family={Serrin},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \strng{bibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorbibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authornamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archive for Rational Mechanics and Analysis}
+      \field{title}{On the interior regularity of weak solutions of the {Navier--Stokes} equations}
+      \field{volume}{9}
+      \field{year}{1962}
+      \field{pages}{187\bibrangedash 195}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/BF00253344
+      \endverb
+    \endentry
+    \entry{Serrin1963}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=013dc640736ae541ed53321cf37faf1e}{%
+           family={Serrin},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Madison, WI}%
+      }
+      \list{publisher}{1}{%
+        {University of Wisconsin Press}%
+      }
+      \strng{namehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{fullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \strng{bibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorbibnamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authornamehash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhash}{013dc640736ae541ed53321cf37faf1e}
+      \strng{authorfullhashraw}{013dc640736ae541ed53321cf37faf1e}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nonlinear Problems}
+      \field{title}{The Initial Value Problem for the {Navier--Stokes} Equations}
+      \field{year}{1963}
+      \field{pages}{69\bibrangedash 98}
+      \range{pages}{30}
+    \endentry
+    \entry{Tao2021Quantitative}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4cea0d7ce90ed017dfa21b4cee6c72e9}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Terence},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Providence, RI}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{fullhash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{fullhashraw}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{bibnamehash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{authorbibnamehash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{authornamehash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{authorfullhash}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \strng{authorfullhashraw}{4cea0d7ce90ed017dfa21b4cee6c72e9}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nine Mathematical Challenges---An Elucidation}
+      \field{series}{Proceedings of Symposia in Pure Mathematics}
+      \field{title}{Quantitative Bounds for Critically Bounded Solutions to the {Navier--Stokes} Equations}
+      \field{volume}{104}
+      \field{year}{2021}
+      \field{pages}{149\bibrangedash 193}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1090/pspum/104/01874
       \endverb
     \endentry
   \enddatalist
