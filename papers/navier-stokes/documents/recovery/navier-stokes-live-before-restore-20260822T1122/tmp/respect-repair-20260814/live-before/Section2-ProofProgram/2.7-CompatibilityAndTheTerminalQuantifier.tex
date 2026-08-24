@@ -1,0 +1,154 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.7 Compatibility and the Terminal Quantifier
+% ============================================================
+
+\subsection{Compatibility and the Terminal Quantifier}\label{sub:CompatibilityAndTheTerminalQuantifier}
+
+Take the concrete rectangle \(\cR_{2,3}[u_0;T]\).
+Its upper velocity row contains
+\[
+  V_0,V_1,V_2
+  \in
+  L^2(0,T;H^4),
+\]
+and its lower derivative row contains
+\[
+  V_1,V_2,V_3
+  \in
+  L^2(0,T;H^2).
+\]
+It also contains \(Q_0,Q_1,Q_2\) with their three differentiated momentum, divergence, and pressure equations.
+
+Now retain temporal orders through \(n=1\) and lower the middle spatial height from \(H^3\) to \(H^2\).
+The embeddings
+\[
+  H^4\hookrightarrow H^3,
+  \qquad
+  H^2\hookrightarrow H^1
+\]
+give
+\[
+  V_0,V_1
+  \in
+  L^2(0,T;H^3)
+\]
+and
+\[
+  V_1,V_2
+  \in
+  L^2(0,T;H^1).
+\]
+Retaining \(Q_0,Q_1\) and the corresponding equations gives exactly \(\cR_{1,2}[u_0;T]\).
+Every surviving entry is the same derivative it was in the larger rectangle.
+The operation changes the finite depth at which the history is viewed and preserves the history itself.
+
+The general restriction has three independent cutoffs.
+Let
+\[
+  N'\leq N,
+  \qquad
+  M'\leq M,
+  \qquad
+  0<T'\leq T<T_*.
+\]
+Define
+\[
+  \rho_{N',M';T'}^{N,M;T}:
+  \cR_{N,M}[u_0;T]
+  \longrightarrow
+  \cR_{N',M'}[u_0;T']
+\]
+by retaining \(V_0,\ldots,V_{N'+1}\), retaining \(Q_0,\ldots,Q_{N'}\), using the continuous embeddings from the \(M\)-spaces to the \(M'\)-spaces, and restricting every retained function to \((0,T')\).
+For every shared temporal and spatial index,
+\[
+  J_{n,\alpha}
+  =
+  \partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}
+  =
+  \partial_t^n\partial_x^\alpha p
+\]
+remain the same distributional derivatives.
+The retained rows continue to satisfy the same pressure-complete mixed recurrence.
+
+Restriction in stages agrees with direct restriction.
+If
+\[
+  N''\leq N'\leq N,
+  \qquad
+  M''\leq M'\leq M,
+  \qquad
+  0<T''\leq T'\leq T<T_*,
+\]
+then
+\[
+  \rho_{N'',M'';T''}^{N',M';T'}
+  \circ
+  \rho_{N',M';T'}^{N,M;T}
+  =
+  \rho_{N'',M'';T''}^{N,M;T}.
+\]
+This is compatibility.
+The same lower derivative is obtained from every larger rectangle that contains it, regardless of the intermediate cutoffs.
+The coordinatewise intersections from the previous subsection refer to one velocity--pressure history.
+
+Agreement among the rectangles is only half of what is needed at \(T_*\).
+Fix \(T<T_*\).
+Classical smoothness on the compact interval \([0,T]\) gives, for every finite \(n\) and \(q\),
+\[
+  \sup_{0\leq t\leq T}
+  \norm{\partial_t^n u(t)}_{H^q}
+  <
+  \infty.
+\]
+Consequently,
+\[
+  \norm{\partial_t^n u}_{L^2(0,T;H^q)}^2
+  \leq
+  T
+  \sup_{0\leq t\leq T}
+  \norm{\partial_t^n u(t)}_{H^q}^2
+  <
+  \infty.
+\]
+Every finite rectangle is finite after its strict right endpoint has been fixed.
+In quantifiers, this says
+\[
+  \forall\,0<T<T_*
+  \ \forall\,N,M\in\Nzero
+  \ \exists\,C_{T,N,M}<\infty:
+  \qquad
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{T,N,M}.
+\]
+The constant may grow as \(T\uparrow T_*\).
+
+Whole-terminal control fixes the finite coordinate first and supplies one constant for every strict cutoff:
+\[
+  \forall\,N,M\in\Nzero
+  \ \exists\,C_{N,M}(u_0,\nu,T_*)<\infty
+  \ \forall\,0<T<T_*:
+  \qquad
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{N,M}(u_0,\nu,T_*).
+\]
+Equivalently,
+\[
+  \sup_{0<T<T_*}
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{N,M}(u_0,\nu,T_*)
+  <
+  \infty
+  \qquad
+  \text{for every finite }(N,M).
+\]
+Each finite pair may have its own constant.
+The uniformity concerns the approach of that fixed rectangle to \(T_*\).
+
+The datum-generated theorem stated in \cref{thm:WholeTerminalCompatibleRectangleProducer} supplies this bound for every finite pressure-complete rectangle of the same history.
+Section~3 takes their compatible family to a common endpoint.
