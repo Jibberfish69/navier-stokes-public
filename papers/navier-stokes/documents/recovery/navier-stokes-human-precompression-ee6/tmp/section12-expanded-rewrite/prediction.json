@@ -1,0 +1,148 @@
+{
+  "field_resolutions": [
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "mathematically literate reader who does not yet know this proof architecture",
+      "reason": "The manuscript must explain each mathematical object at first use without assuming familiarity with this proof's ontology."
+    }
+  ],
+  "reader_start": "reader knows the formal Clay question but not why the proof methods, class boundary, failure pictures, or tower arise",
+  "live_pressure": "the current manuscript is a poorly shaped shell; every supplied subject, distinction, bridge, and mathematical consequence must be developed without compression",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-expanded-score",
+      "move": {
+        "selection": "Preserve the supplied Section 1 subject order and make Section 2 follow the historical tower-to-intersection discovery, while freely joining or splitting subsections and fully developing every idea.",
+        "connection": "Make each subject create the need for the next: problem to public frontier to Gold to Silver to class membership to participation to Euler slip to the tower to failure types and restart to one-fluid VPI, then critical height to mixed jets to Sobolev intersections and compatible finite views.",
+        "development": "Give every beat its physical motivation, exact mathematical object, worked implication, boundary case, and outgoing question; keep formal terminal realization in Section 3 and preserve the supplied datum-generated compatible-intersection theorem.",
+        "expression": "Use direct causal prose, concrete examples, and only the equations that pay a reader burden; preserve Thomas's Silver cadence while removing placeholders, arbitrary proxy variables, and process-report language."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader moves from knowing the official question to seeing one coherent fluid ontology and then independently feeling why the proof needs the full pressure-complete mixed tower, its Sobolev readouts, and compatible finite intersections.",
+      "next_possibility": "Section 3 can begin directly with the established datum-generated whole-terminal producer and pay the formal endpoint closure without reteaching the conceptual route.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "s1-problem-frontier",
+          "thought": "State the exact regularity problem, define smoothness and continuation, and show how the important historical results progressively narrow the public frontier.",
+          "connection": "The formal question naturally invites a direct continuation-grade estimate.",
+          "reader_start": "reader knows the formal Clay question but not why the proof methods, class boundary, failure pictures, or tower arise",
+          "reader_end": "reader knows precisely what can fail and where the classical literature leaves the burden",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s1-gold-silver-boundary",
+          "thought": "Present Gold as the concise direct proof contract, let its missing estimate generate Silver, then express both as the two sides of the same class boundary.",
+          "connection": "The contrapositive changes the question from how to control smoothness to what a nonsmooth endpoint would have to stop being.",
+          "reader_start": "reader knows precisely what can fail and where the classical literature leaves the burden",
+          "reader_end": "reader sees Member and Exit as positive and negative descriptions of one boundary",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s1-physical-ontology",
+          "thought": "Turn membership into participation, use the Euler slip sheet to show what losing viscous participation looks like, then expose the derivative tower and the overlapping Dead, Jump, and Blown failure lenses.",
+          "connection": "A finite velocity can conceal a failed derivative or failed neighbour response, so the full coupled tower is the relevant object.",
+          "reader_start": "reader sees Member and Exit as positive and negative descriptions of one boundary",
+          "reader_end": "reader can picture and test concrete ways a candidate endpoint could stop belonging to the fluid",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s1-vpi-synthesis",
+          "thought": "Derive the common transported tower law and the exact neighbour-difference law, retaining transport, pressure, viscosity, incompressibility, and nonlinear rung coupling.",
+          "connection": "The failure pictures converge on one physical meaning: part of the fluid ceases to respond coherently to the same field.",
+          "reader_start": "reader can picture and test concrete ways a candidate endpoint could stop belonging to the fluid",
+          "reader_end": "reader has a complete one-fluid VPI ontology",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s2-critical-height",
+          "thought": "Begin from a finite critical-height threat and show why finite-time escape forces response through higher temporal and spatial levels.",
+          "connection": "Critical scaling identifies the height at which the endpoint threat cannot be dismissed by subcritical energy alone.",
+          "reader_start": "reader has a complete one-fluid VPI ontology",
+          "reader_end": "reader sees why time response and spatial height must be tracked together",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s2-mixed-jet-intersection",
+          "thought": "Derive the pressure-complete mixed jet, the critical-height rows, the all-orders Sobolev intersection, finite adjacent rectangles, and compatibility on overlap.",
+          "connection": "Every temporal row opens a spatial column, while Sobolev embedding turns simultaneous control at every finite height into smoothness.",
+          "reader_start": "reader sees why time response and spatial height must be tracked together",
+          "reader_end": "reader understands why the proof object is a compatible coordinatewise intersection rather than an infinite sum",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "s2-terminal-handoff",
+          "thought": "Separate strict-subinterval existence from the whole-terminal quantifier and hand the exact latter burden to the already settled producer used in Section 3.",
+          "connection": "Compatibility explains the object; the datum-generated uniform terminal bound realizes it.",
+          "reader_start": "reader understands why the proof object is a compatible coordinatewise intersection rather than an infinite sum",
+          "reader_end": "reader understands the one-fluid VPI ontology and has rediscovered why the pressure-complete mixed tower must be read through compatible finite Sobolev intersections",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [],
+      "risks": [
+        "Letting Section 1 tower exposition steal Section 2's historical discovery job.",
+        "Turning Dead into ordinary stagnation or treating Dead, Jump, and Blown as disjoint exhaustive cases.",
+        "Letting a local graph picture erase the nonlocal pressure coupling.",
+        "Recasting the settled whole-terminal producer as an open or missing estimate."
+      ],
+      "confidence": "unknown"
+    }
+  ],
+  "chosen_move_id": "user-fixed-expanded-score",
+  "choice_reason": "Thomas supplied the governing movement and explicitly authorized restructuring; the strongest authorship move is to realize that score fully while exercising judgment only over subsection boundaries, mathematical formulation, and exposition depth.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [],
+  "uncertainties": [
+    "Subsection boundaries may change during drafting when two supplied beats prove to be one continuous mathematical movement.",
+    "The VPI graph metaphor will be retained only as a secondary visualization because pressure coupling is nonlocal."
+  ],
+  "authorial_commitment": {
+    "work_target": "Live human-submission Navier--Stokes manuscript, Sections 1 and 2.",
+    "strongest_move_reason": "The supplied subject order already carries the paper's causal logic; full development makes that logic legible without inventing a competing architecture.",
+    "intellectual_gain": "Gold and Silver become one class-boundary argument, whose physical content forces the one-fluid tower and whose analytic content forces the compatible Sobolev intersection.",
+    "reader_gain": "Every new object arrives because the preceding one has exposed a precise inadequacy, so the reader can reconstruct the proof architecture instead of memorizing terminology.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "approved_change",
+      "inherited_reader_state": "The existing draft states many ingredients but does not yet make their causal sequence or distinct jobs legible.",
+      "section_job": "Section 1 establishes the problem, routes, class boundary, failure pictures, and one-fluid ontology; Section 2 reconstructs the tower-to-intersection discovery.",
+      "outgoing_reader_need": "The reader must arrive at Section 3 knowing exactly what whole-terminal compatible object the formal closure realizes and why it is the right object.",
+      "gap_decision": "merge_or_split",
+      "gap_payment": "Join only continuous movements, split distinct reader changes, and add the missing physical and mathematical consequences inside each supplied beat.",
+      "new_section_job": "",
+      "enrichment_reason": "Thomas explicitly required further development rather than compression, and the mathematical transitions need concrete examples and derivations to become intuitive.",
+      "enrichments": [
+        {
+          "detail": "A distributional Euler slip-sheet calculation and its fixed-viscosity failure.",
+          "reader_value": "Makes class exit visible before the abstract tower.",
+          "placement": "After class membership and participation.",
+          "restraint": "Present it as one comparison witness, not a classification of every singularity."
+        },
+        {
+          "detail": "Material acceleration, Eulerian temporal rows, mixed jets, and first explicit recurrences.",
+          "reader_value": "Shows why velocity alone is not the smoothness object.",
+          "placement": "Section 1 introduces the ontology; Section 2 performs the analytic discovery.",
+          "restraint": "Do not identify material jerk with the second Eulerian time derivative."
+        },
+        {
+          "detail": "Critical-height rows, Sobolev embedding, finite rectangles, and restriction compatibility.",
+          "reader_value": "Makes the intersection arise from the equation rather than appear as imposed notation.",
+          "placement": "Section 2 in historical discovery order.",
+          "restraint": "Do not replace the coordinatewise intersection by an infinite summed norm."
+        }
+      ]
+    }
+  }
+}
