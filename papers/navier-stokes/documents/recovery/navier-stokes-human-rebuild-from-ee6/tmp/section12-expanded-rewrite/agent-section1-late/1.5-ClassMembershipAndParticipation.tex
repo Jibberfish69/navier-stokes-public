@@ -1,0 +1,84 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.5 Class Membership and Participation
+% ============================================================
+\subsection{Class Membership and Participation}\label{sub:ClassMembershipAndParticipation}
+
+The Silver Standard ends by asking for one principle that can test many different losses of smoothness against the same boundary.
+That boundary is class membership.
+
+Fix the smooth divergence-free initial datum \(u_0\), the domain prescribed by the problem, and one constant viscosity \(\nu>0\).
+For a candidate evolution \(Q=(u,p)\), write \(\operatorname{Member}(Q)\) when \(Q\) is still an evolution of that original datum under the same incompressible fixed-viscosity law,
+\[
+  \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0,
+  \qquad
+  u(0)=u_0,
+\]
+with pressure remaining the pressure forced by that velocity field and with every term interpreted at the regularity being claimed for \(Q\).
+The definition fixes the object before its smoothness is decided.
+Smoothness is absent from the definition of membership.
+
+Define class exit by the Boolean complement
+\[
+  \operatorname{Exit}(Q):=\neg\operatorname{Member}(Q).
+\]
+Gold seeks the forward implication
+\[
+  \operatorname{Member}(Q)
+  \Longrightarrow
+  \operatorname{Smooth}(Q).
+\]
+Silver seeks its contrapositive
+\[
+  \neg\operatorname{Smooth}(Q)
+  \Longrightarrow
+  \operatorname{Exit}(Q).
+\]
+These statements are logically equivalent because \(\operatorname{Exit}(Q)\) means \(\neg\operatorname{Member}(Q)\).
+The equivalence changes the direction of the proof without completing it.
+The definition of \(\operatorname{Exit}\) is automatic; the claim that every nonsmooth \(Q\) must exit is the mathematical burden.
+
+Gold and Silver now meet at one boundary.
+Gold approaches it from inside the class and asks what prevents an admitted evolution from reaching nonsmoothness.
+Silver begins with a proposed nonsmooth outcome and asks which requirement of the original fluid has become impossible there.
+Together they turn the vague phrase \emph{not Navier--Stokes} into a concrete membership test.
+
+\divider{What Participation Means}
+
+The original requirements are experienced by the fluid as one motion.
+Along a particle path \(X(t)\) satisfying \(\dot X(t)=u(t,X(t))\), the particle velocity changes according to
+\[
+  \frac{d}{dt}u(t,X(t))
+  =
+  \partial_tu+(u\cdot\nabla)u
+  =
+  -\nabla p+\nu\Delta u.
+\]
+The left-hand side is the material acceleration of the same fluid whose spatial configuration determines both terms on the right.
+Viscosity responds to local velocity curvature, pressure responds to the global constraint of incompressibility, and transport carries the resulting velocity through the field.
+The divergence condition prevents those responses from producing an independent compression or expansion of the fluid volume.
+
+This joined response is what we call \emph{participation}.
+A point participates when its velocity and derivatives remain the local values of the same field, respond to that field through the same equation, and agree with the values obtained by approaching it through its neighbourhood.
+A packet participates when the same statement holds throughout the packet and on its interface with the surrounding fluid.
+Participation concerns the relation between a portion of the fluid and the complete field around it.
+Participation is compatible with a particle being instantaneously motionless, with a derivative vanishing, or with a steady flow.
+
+Couette flow gives the viscous part of this response a simple physical form.
+Place fluid between parallel plates and let one plate move tangentially relative to the other.
+The steady profile in the interior is
+\[
+  u(x)=(\gamma x_2,0,0),
+  \qquad
+  p=\text{constant},
+\]
+where \(\gamma\) is the shear rate.
+The interior profile has \((u\cdot\nabla)u=0\) and \(\Delta u=0\), yet the viscous shear stress \(\nu\partial_{x_2}u_1=\nu\gamma\) transmits the boundary momentum continuously through the layers.
+The example isolates viscous communication in a transparent setting.
+In a general flow, that communication remains joined to transport, incompressibility, and the nonlocal pressure response.
+
+Class membership can now be read physically.
+An admitted fluid is one in which every local part continues to participate in the same fixed-viscosity incompressible response.
+A class exit occurs when a proposed outcome can no longer be assembled as that one response, even if some equations or properties survive separately.
