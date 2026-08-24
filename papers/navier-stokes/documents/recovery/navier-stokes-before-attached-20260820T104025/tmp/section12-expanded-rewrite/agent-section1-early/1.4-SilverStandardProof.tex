@@ -1,0 +1,44 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.4 Silver Standard Proof
+% ============================================================
+\subsection{Silver Standard Proof}\label{sub:SilverStandardProof}
+
+Looking for estimates strong enough to satisfy the Gold-standard burden is genuinely difficult.
+The public theory surveyed above did not close that direct route, and once you dig your teeth into the problem, it becomes tempting to look for any other way of proving smoothness.
+
+Assume, for a moment, that the problem has already been solved by the Gold-standard method.
+
+That would mean smoothness follows from the Navier--Stokes equations and the properties built into them.
+It would have to come from the velocity, pressure, viscosity, incompressibility, and nonlinear transport all acting in unison to keep the fluid smooth.
+Any hypothetical blow-up scenario, or any other case that breaks smoothness, would then be unreachable while all of those requirements remain in force.
+The imagined nonsmooth object would have to stop describing the same fluid from the original problem statement.
+If every possible loss of smoothness stops satisfying that original problem, then none of those scenarios is a valid Navier--Stokes counterexample.
+If there are no valid counterexamples, the fluid must be smooth.
+
+In short, the idea becomes this.
+
+If
+\[
+  \text{Navier--Stokes}
+  \Longrightarrow
+  \text{smooth},
+\]
+then
+\[
+  \text{not smooth}
+  \Longrightarrow
+  \text{not Navier--Stokes}.
+\]
+
+The first implication was assumed only to reveal the logical shape of the second.
+A Silver proof has to establish the second implication directly by showing that every alleged nonsmooth outcome loses at least one requirement of the original fluid.
+The Silver Standard is a proof by contrapositive.
+
+The beauty of the Silver method is that it no longer asks \emph{how is the fluid smooth?}
+It asks only \emph{is this nonsmooth object still Navier--Stokes?}
+Gold demands a mechanism strong enough to produce the continuation estimate, which is why it earns the higher podium title.
+Silver shifts the burden away from constructing that estimate and onto excluding every genuinely nonsmooth outcome from the original class.
+Its upside is the simpler logical target.
+Its downside is the apparent need to handle every possible way smoothness could fail.
+A single principle that reaches all of those cases would simplify that burden.
