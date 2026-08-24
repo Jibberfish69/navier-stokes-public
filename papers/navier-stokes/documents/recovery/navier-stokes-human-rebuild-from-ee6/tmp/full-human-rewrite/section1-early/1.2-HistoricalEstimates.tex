@@ -1,0 +1,270 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 1.2 Earlier Attempts and the Present Frontier
+% ============================================================
+\subsection{Earlier Attempts and the Present Frontier}\label{sub:HistoricalEstimates}
+
+Local theory gives the smooth solution a beginning.
+The first estimate that reaches beyond that local interval is the energy identity.
+
+\divider{Energy and the First Uncontrolled Derivative}
+
+For a smooth solution, multiply the momentum equation by \(u\) and integrate over space.
+Incompressibility gives
+\[
+  \int_\Omega (u\cdot\nabla)u\cdot u\,dx
+  =
+  \frac12\int_\Omega u\cdot\nabla |u|^2\,dx
+  =
+  0
+\]
+and
+\[
+  \int_\Omega \nabla p\cdot u\,dx
+  =
+  -\int_\Omega p\,\nabla\cdot u\,dx
+  =
+  0.
+\]
+Integration by parts turns the viscous term into
+\[
+  \nu\int_\Omega \Delta u\cdot u\,dx
+  =
+  -\nu\lVert\nabla u\rVert_{L^2}^{2}.
+\]
+The three calculations leave
+\[
+  \lVert u(t)\rVert_{L^2}^{2}
+  +
+  2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^{2}\,ds
+  =
+  \lVert u_0\rVert_{L^2}^{2}.
+\]
+The kinetic energy is bounded at every time, and the squared velocity gradient has a finite integral over every finite time interval.
+
+Leray carried the corresponding inequality through a regularization and compactness argument to construct global weak solutions \parencite{Leray1934}.
+On every finite interval they satisfy
+\[
+  u\in
+  L^\infty(0,T;L^2(\Omega))
+  \cap
+  L^2(0,T;H^1(\Omega)).
+\]
+This gives global existence in the energy class.
+Smoothness and uniqueness for arbitrary three-dimensional data remain outside that estimate.
+
+The distinction between the two time controls is already enough to see the opening in Leray's result.
+The \(L^2\) norm of \(u\) has a ceiling at every instant.
+The \(L^2\) norm of \(\nabla u\) is controlled after integration in time, so high values over short intervals can still have a finite total integral.
+The energy identity therefore leaves room for derivative concentration near a finite time.
+
+Vorticity makes the three-dimensional source of that concentration visible.
+For
+\[
+  \omega:=\nabla\times u,
+\]
+the identity
+\[
+  \lVert\nabla u\rVert_{L^2}^{2}
+  =
+  \lVert\omega\rVert_{L^2}^{2}
+\]
+holds for divergence-free fields with the decay or periodicity assumed here.
+The squared \(L^2\) norm of \(\omega\) is the enstrophy, and its evolution follows from
+\[
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =
+  (\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+Taking the \(L^2\) inner product with \(\omega\) gives
+\[
+  \frac12\frac{d}{dt}\lVert\omega\rVert_{L^2}^{2}
+  +
+  \nu\lVert\nabla\omega\rVert_{L^2}^{2}
+  =
+  \int_\Omega(\omega\cdot\nabla)u\cdot\omega\,dx.
+\]
+The integral on the right is the vortex-stretching contribution.
+It has no fixed sign, and Leray's estimate gives no pointwise-in-time inequality forcing the diffusive term to dominate it.
+Any direct regularity argument has to reach beyond the energy level and control derivatives strongly enough to continue the classical solution.
+
+\divider{What Is Strong Enough to Continue the Solution}
+
+A Sobolev norm measures several spatial derivative orders at once.
+For an integer \(m\geq0\),
+\[
+  \lVert u\rVert_{H^m}^{2}
+  :=
+  \sum_{|\alpha|\leq m}
+  \lVert\partial^\alpha u\rVert_{L^2}^{2},
+\]
+with the usual Fourier definition for fractional \(m\).
+In three dimensions, Sobolev embedding gives \parencite[Theorem~7.28]{Cerda2010}
+\[
+  H^s(\Omega)\hookrightarrow C^k(\Omega)
+  \qquad
+  \text{whenever}
+  \qquad
+  s>k+\frac32.
+\]
+The embedding is the step that turns integral control of spatial derivatives into ordinary bounded continuous derivatives.
+In particular,
+\[
+  s>\frac52
+  \qquad\Longrightarrow\qquad
+  H^s(\Omega)\hookrightarrow W^{1,\infty}(\Omega),
+\]
+so an \(H^s\) bound above that threshold controls both \(u\) and \(\nabla u\) pointwise.
+
+Suppose a smooth solution on \([0,T)\) satisfies
+\[
+  \sup_{0\leq t<T}\lVert u(t)\rVert_{H^s}
+  \leq M
+  \qquad
+  \text{for some }s>\frac52.
+\]
+For every fixed finite \(m\geq s\), differentiating the equation through order \(m\) gives the standard estimate
+\[
+  \frac12\frac{d}{dt}\lVert u\rVert_{H^m}^{2}
+  +
+  \nu\lVert\nabla u\rVert_{H^m}^{2}
+  \leq
+  C_m\lVert\nabla u\rVert_{L^\infty}
+  \lVert u\rVert_{H^m}^{2}.
+\]
+The smooth datum starts with a finite \(H^m\) norm for every finite \(m\).
+The assumed \(H^s\) bound controls \(\lVert\nabla u\rVert_{L^\infty}\), and Gronwall's inequality then keeps each chosen \(H^m\) norm finite up to \(T\).
+The constant is allowed to depend on \(m\).
+Applying Sobolev embedding at each higher finite order recovers every continuous spatial derivative of \(u\).
+
+Pressure comes from the same velocity through
+\[
+  -\Delta p
+  =
+  \sum_{i,j=1}^{3}
+  \partial_i\partial_j(u_i u_j),
+\]
+with the usual decay normalization on \(\mathbb R^3\) or zero-mean normalization on \(\mathbb T^3\).
+Once the spatial derivatives of \(u\) and \(p\) are controlled, the momentum equation gives
+\[
+  \partial_tu
+  =
+  \nu\Delta u-(u\cdot\nabla)u-\nabla p.
+\]
+Repeated differentiation of these two equations recovers every finite mixed spatial and temporal derivative of the velocity--pressure pair.
+This is how one sufficiently strong Sobolev estimate reaches the \(C^\infty\) smoothness required by the problem.
+
+The same bound also crosses the alleged endpoint.
+Local well-posedness in \(H^s\) gives a positive lifespan determined by \(s\), \(\nu\), and the size of the initial \(H^s\) norm \parencite{FujitaKato1964,Kato1984}.
+Choose a time \(t_0<T\) close to \(T\) and use \(u(t_0)\) as new initial data.
+The uniform bound by \(M\) gives a common lower bound for the restarted lifespan, so a sufficiently late \(t_0\) carries the restarted solution past \(T\).
+Uniqueness identifies it with the original solution wherever their intervals overlap.
+Consequently, a finite maximal time \(T_*\) forces
+\[
+  \limsup_{t\uparrow T_*}
+  \lVert u(t)\rVert_{H^s}
+  =
+  \infty
+  \qquad
+  \text{for every }s>\frac52.
+\]
+The energy identity supplies \(L^\infty_tL^2_x\) and time-integrated \(H^1_x\) control.
+Continuation requires a pointwise-in-time bound at a much higher derivative level.
+
+\divider{Critical Scale and Singular Concentration}
+
+The Navier--Stokes scaling
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t)
+\]
+preserves the form of the equations.
+A norm whose size is unchanged by this transformation measures concentration at the same strength at every scale.
+The Ladyzhenskaya--Prodi--Serrin criteria show how spatial intensity and temporal persistence combine at that critical balance \parencite{Prodi1959,Serrin1962,Serrin1963,Ladyzhenskaya1967}.
+They give regularity through \(T\) when
+\[
+  u\in L^p(0,T;L^q(\Omega)),
+  \qquad
+  \frac{2}{p}+\frac{3}{q}\leq1,
+  \qquad
+  q>3.
+\]
+The exponent \(q\) measures how concentrated the velocity may become in space, and \(p\) measures how long that concentration may persist.
+Equality in the exponent relation is invariant under the scaling above.
+
+At the spatial endpoint,
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3}.
+\]
+Escauriaza, Seregin, and \v{S}ver{\'a}k proved on \(\mathbb R^3\) that
+\[
+  u\in L^\infty(0,T;L^3(\mathbb R^3))
+\]
+still gives regularity through \(T\) \parencite{EscauriazaSereginSverak2003}.
+Their argument assumes a first singular time, rescales around a concentration, extracts an ancient limiting solution, and uses backward uniqueness to force the limit to vanish.
+The endpoint theorem rules out every finite singularity whose critical \(L^3\) norm remains bounded.
+
+Partial regularity gives a local version of the same concentration picture.
+For a spacetime point \(z_0=(x_0,t_0)\), let
+\[
+  Q_r(z_0)
+  :=
+  B_r(x_0)\times(t_0-r^2,t_0).
+\]
+Caffarelli, Kohn, and Nirenberg proved an epsilon-regularity statement for suitable weak solutions: sufficiently small scale-invariant velocity and pressure quantities on \(Q_r(z_0)\) force regularity on a smaller cylinder \parencite{CaffarelliKohnNirenberg1982}.
+At a singular point, every sufficiently small cylinder must therefore retain a definite amount of scale-invariant concentration.
+Their covering argument confines the possible singular set to zero one-dimensional parabolic Hausdorff measure.
+Even one point in that set would end global smoothness.
+
+The endpoint \(L^3\) result was later sharpened into a full necessary divergence statement.
+For the smooth compactly supported whole-space data in Seregin's theorem, a finite maximal time satisfies \parencite{Seregin2012}
+\[
+  \lim_{t\uparrow T_*}
+  \lVert u(t)\rVert_{L^3(\mathbb R^3)}
+  =
+  \infty.
+\]
+The norm eventually exceeds every fixed level and stays above it as \(t\) approaches \(T_*\).
+Tao's quantitative version shows that, along infinitely many times approaching a finite endpoint, this norm must grow at least like a positive power of a triple logarithm of the inverse time remaining \parencite{Tao2021Quantitative}.
+That lower rate is far slower than any power law, so the known critical estimates still leave a great deal of freedom in how rapidly the concentration can advance.
+
+\divider{Where the Problem Sits Today}
+
+The established results give a concrete description of any finite maximal time.
+The kinetic energy stays bounded.
+Every continuation-grade Sobolev norm diverges, the whole-space critical \(L^3\) norm diverges, and each singular point retains scale-invariant concentration through every sufficiently small parabolic neighbourhood.
+
+Scaling explains how these statements can coexist.
+At corresponding times,
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3},
+  \qquad
+  \lVert u_\lambda(t)\rVert_{L^2}^{2}
+  =
+  \lambda^{-1}
+  \lVert u(\lambda^2t)\rVert_{L^2}^{2}.
+\]
+Concentration to a shorter length scale preserves the critical \(L^3\) size while reducing the \(L^2\) energy associated with that rescaled structure.
+The global energy ceiling therefore gives no scale-independent ceiling on the critical norm.
+
+The parabolic time scale shrinks with the square of the spatial scale.
+If a heuristic cascade halves its active length at each stage, the corresponding durations are proportional to
+\[
+  1,\ \frac14,\ \frac1{16},\ \ldots,
+\]
+whose sum is finite.
+This is the Zeno-cascade picture: known estimates permit a sequence of smaller and faster concentrations to fit below one finite time.
+It is a picture of the timing left open by the estimates, and it is not a construction of a Navier--Stokes singularity.
+
+The present theory has located the possible failure with remarkable precision.
+It says what must diverge, where concentration must persist, and which continuation bounds would exclude it.
+What remains unavailable is an estimate derived from arbitrary smooth data, fixed viscosity, and the equations that keeps one continuation-grade norm finite through every candidate endpoint.
