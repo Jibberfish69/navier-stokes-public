@@ -1,0 +1,18 @@
+{
+  "text": "For every smooth, rapidly decaying, divergence-free initial velocity on \\(\\R^3\\) and every viscosity \\(\\nu>0\\), we prove that the datum-generated whole-terminal compatible-rectangle theorem forces the corresponding pressure-normalized classical Navier--Stokes history to exist smoothly for all time.\nThe argument follows this one maximal history, with velocity and normalized pressure kept as one coupled object.\nIts starting input is the whole-terminal compatible-rectangle theorem, stated here as \\Cref{thm:WholeTerminalCompatibleRectangleProducer}.\nFor each finite temporal depth \\(N\\) and spatial depth \\(M\\), it gives one bound uniform over all cutoffs \\(T<T_*\\), with constants allowed to depend on \\(N\\) and \\(M\\), and makes the finite records agree under restriction.\nTheir projective intersection places the same velocity in every finite mixed Sobolev row.\nThe complete spatial row and the momentum equation give \\(u_t\\in L^1(I_*;H^m)\\) for every finite \\(m\\), and hence one common endpoint \\(u_*\\in\\bigcap_{m=0}^{\\infty}H^m(\\R^3)\\).\nThe normalized pressure and velocity recurrences identify the complete endpoint jet.\nLocal well-posedness from \\(u_*\\), together with uniqueness, extends the same history past any alleged finite \\(T_*\\).\nConsequently, the cited producer theorem together with the closure proved here makes finite maximality impossible: \\(T_*=\\infty\\), and the normalized velocity and pressure are smooth on every finite time interval.\n",
+  "sha256": "bca593b3d1c1c86e4a02766100a2d4db55b0b0fc27d1cb026b78c7bb9fed0a8e",
+  "selected_move_id": "honest-producer-to-global-implication",
+  "prediction_sha256": "f1f683c0d52fb9ad648d41f04630a16302cd084b43ba6a2cdd71009a1a9cabd7",
+  "producer_id": "root-abstract-author-v2",
+  "content_provenance": [
+    {
+      "start": 0,
+      "end": 1461,
+      "candidate_text": "For every smooth, rapidly decaying, divergence-free initial velocity on \\(\\R^3\\) and every viscosity \\(\\nu>0\\), we prove that the datum-generated whole-terminal compatible-rectangle theorem forces the corresponding pressure-normalized classical Navier--Stokes history to exist smoothly for all time.\nThe argument follows this one maximal history, with velocity and normalized pressure kept as one coupled object.\nIts starting input is the whole-terminal compatible-rectangle theorem, stated here as \\Cref{thm:WholeTerminalCompatibleRectangleProducer}.\nFor each finite temporal depth \\(N\\) and spatial depth \\(M\\), it gives one bound uniform over all cutoffs \\(T<T_*\\), with constants allowed to depend on \\(N\\) and \\(M\\), and makes the finite records agree under restriction.\nTheir projective intersection places the same velocity in every finite mixed Sobolev row.\nThe complete spatial row and the momentum equation give \\(u_t\\in L^1(I_*;H^m)\\) for every finite \\(m\\), and hence one common endpoint \\(u_*\\in\\bigcap_{m=0}^{\\infty}H^m(\\R^3)\\).\nThe normalized pressure and velocity recurrences identify the complete endpoint jet.\nLocal well-posedness from \\(u_*\\), together with uniqueness, extends the same history past any alleged finite \\(T_*\\).\nConsequently, the cited producer theorem together with the closure proved here makes finite maximality impossible: \\(T_*=\\infty\\), and the normalized velocity and pressure are smooth on every finite time interval.\n",
+      "content_ids": [
+        "live-input"
+      ],
+      "kind": "content"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "mathematical research paper abstract",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "state the exact producer-to-global-continuation implication without suggesting that this manuscript rederives the cited producer",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional incompressible Navier--Stokes global regularity",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "expert PDE referees and mathematical readers meeting this proof route for the first time",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "give the reader the result, the upstream whole-terminal rectangle theorem, and the projective-intersection endpoint restart closure in the correct causal order",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "knows the classical whole-space regularity problem but not this proof route or its source division",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "knows the exact data class, one-history object, whole-terminal compatible-rectangle input, projective intersection, momentum-driven common endpoint, normalized endpoint jet, restart, and global conclusion",
+      "reason": "The live manuscript, governing proof order, and referee task fix this interpretation."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "the abstract is blank and the paper currently makes a cited upstream theorem look as though its short coordinate translation were a proof",
+      "reason": "The blank abstract and misleading proof presentation are verified in the live source and independent referee reads."
+    }
+  ],
+  "reader_start": "knows the classical whole-space regularity problem but not this proof route or its source division",
+  "live_pressure": "the abstract is blank and the paper currently makes a cited upstream theorem look as though its short coordinate translation were a proof",
+  "candidate_moves": [
+    {
+      "move_id": "honest-producer-to-global-implication",
+      "move": {
+        "selection": "global implication -> one fixed datum and viscosity -> upstream datum-generated whole-terminal compatible rectangles -> projective intersection -> complete spatial row plus momentum equation -> common H-infinity endpoint -> normalized pressure-and-velocity endpoint jet -> same-history restart and uniqueness -> T_*=infinity; critical-height rows remain downstream readouts",
+        "connection": "State the global implication, identify the cited theorem as the starting input, then let compatibility, the complete spatial row, the momentum equation, the common endpoint, the normalized jet, and uniqueness force continuation of the same history.",
+        "development": "State the data class and one-history object, name the upstream theorem without claiming to reprove it, carry its finite records through the inverse limit and W11 endpoint mechanism, and close with the normalized restart contradiction.",
+        "expression": "Use compact public mathematical prose, complete declarative sentences, and the theorem number for orientation; exclude repository labels and any claim of an all-orders uniform constant."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader knows the exact global implication, the upstream theorem on which it depends, and the closure proved in this manuscript.",
+      "next_possibility": "The body can teach the route and visibly distinguish the cited producer from the on-page closure.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [],
+      "evidence_uses": [
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Each closure step must spend the consequence established by the step before it."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The abstract must expose the causal relation among producer, intersection, endpoint, and restart rather than list labels."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The one maximal history, finite rectangles, endpoint trace, pressure jet, and restart are the objects a referee must be able to test."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The compatible intersection must precede its critical readouts and endpoint consequences."
+        },
+        {
+          "record_id": "decision-generate-expression-from-thought-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The prose should be generated from the exact proof movement rather than copied stylistic habits."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "A public abstract cannot depend on repository labels or private proof shorthand."
+        },
+        {
+          "record_id": "decision-repair-exact-referent-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The repair must identify the actual first theorem and the actual closure, not a nearby claim about finite-coordinate realization."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Every compressed sentence must still identify what acts and what mathematical consequence follows."
+        }
+      ],
+      "risks": [
+        "The abstract could imply that the upstream theorem is proved in this manuscript.",
+        "Compression could omit the momentum-equation step that creates the common endpoint.",
+        "The pressure recurrence could be named without the velocity recurrence.",
+        "The intersection and critical-readout order could be reversed."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "honest-producer-to-global-implication",
+  "choice_reason": "The movement preserves the settled proof order while stating the manuscript's actual contribution and dependency with referee-level honesty.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "not_applicable",
+      "reason": "The abstract is a theorem synopsis, not the introduction of an alternative under a live obstacle."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "used",
+      "reason": "The proof spine is a chain in which each established consequence enables the next."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "used",
+      "reason": "The abstract must expose the relation among its mathematical objects rather than inventory them."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "used",
+      "reason": "The public claim depends on concrete, testable analytic objects."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "The specialist abstract may use standard technical terms directly once their referents are named."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "used",
+      "reason": "The settled producer-to-intersection-to-endpoint order cannot be reversed in compression."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "used",
+      "reason": "Expression is generated from the proof's causal movement rather than an imitated surface."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "used",
+      "reason": "The abstract must avoid private repository vocabulary."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "not_applicable",
+      "reason": "The bounded abstract must compress rather than fully teach each derivation."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "not_applicable",
+      "reason": "No illustrative example belongs in this abstract."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "used",
+      "reason": "The live defect is precisely a nearby restatement standing in for the governing first theorem."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This is direct manuscript authorship rather than extracting a reusable writing rule."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "not_applicable",
+      "reason": "The abstract states a completed result and does not stage a conceptual discovery exercise."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "The movement of the whole abstract is explicitly fixed rather than inferred from one local passage."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "not_applicable",
+      "reason": "The planned abstract contains no written interrogative."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "Compressed abstract sentences still need explicit owners and consequences."
+    },
+    {
+      "record_id": "decision-hold-object-transfer-only-behaviour-20260814",
+      "status": "not_applicable",
+      "reason": "No analogy or competing physical frame is used in the abstract."
+    }
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "the missing public abstract of the human Navier--Stokes manuscript",
+    "strongest_move_reason": "It states the strongest exact claim the manuscript visibly supports: the cited producer forces global continuation through the on-page closure.",
+    "intellectual_gain": "The reader sees the momentum-driven common endpoint and normalized jet as the bridge from compatibility to continuation.",
+    "reader_gain": "A referee can distinguish the upstream theorem from the closure and identify every load-bearing step before entering the paper.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader arrives with the classical regularity problem but no knowledge of this route or its division of proof sources.",
+      "section_job": "Compress the exact producer-to-global-continuation implication into one public abstract.",
+      "outgoing_reader_need": "The body must derive the mixed-jet and rectangle coordinates, cite the upstream theorem honestly, and prove the inverse-limit endpoint and restart closure.",
+      "gap_decision": "none",
+      "gap_payment": "Fill the existing abstract without changing the manuscript structure.",
+      "new_section_job": "",
+      "enrichment_reason": "Only details that distinguish the proof's actual producer, intersection, endpoint, and restart are admitted.",
+      "enrichments": [
+        {
+          "detail": "State that finite-order constants may depend on N and M.",
+          "reader_value": "Prevents an unnecessary all-orders uniform estimate from being inferred.",
+          "placement": "With the whole-terminal rectangle input.",
+          "restraint": "Do not reproduce the rectangle norm."
+        },
+        {
+          "detail": "Name the complete spatial row plus momentum equation as the endpoint mechanism.",
+          "reader_value": "Prevents the abstract from making adjacent traces alone create the common endpoint.",
+          "placement": "Between the projective intersection and endpoint statement.",
+          "restraint": "Do not reproduce the nonlinear estimate."
+        },
+        {
+          "detail": "Name both normalized pressure and velocity recurrences.",
+          "reader_value": "Accurately identifies how the complete endpoint jet is generated.",
+          "placement": "Immediately before restart.",
+          "restraint": "Do not list the recurrence formulas."
+        }
+      ]
+    }
+  }
+}
