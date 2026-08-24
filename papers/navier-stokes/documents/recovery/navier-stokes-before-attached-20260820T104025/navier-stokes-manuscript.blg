@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is '.latexmk-out/navier-stokes-manuscript.blg'
+[78] biber-darwin:342> INFO - === Wed Aug 19, 2026, 11:03:43
+[100] Biber.pm:421> INFO - Reading '.latexmk-out/navier-stokes-manuscript.bcf'
+[166] Biber.pm:1002> INFO - Found 16 citekeys in bib section 0
+[176] Biber.pm:4487> INFO - Processing section 0
+[183] Biber.pm:4678> INFO - Looking for bibtex file 'refs.bib' for section 0
+[185] bibtex.pm:1713> INFO - LaTeX decoding ...
+[197] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[293] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[293] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[293] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[308] bbl.pm:676> INFO - Writing '.latexmk-out/navier-stokes-manuscript.bbl' with encoding 'UTF-8'
+[313] bbl.pm:779> INFO - Output to .latexmk-out/navier-stokes-manuscript.bbl
