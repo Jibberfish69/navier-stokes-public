@@ -1,0 +1,85 @@
+{
+  "field_resolutions": [
+    {"field":"writing_form","status":"accepted_for_run","value":"mathematical research paper subsection","reason":"The live artifact is the opening subsection of the proof paper."},
+    {"field":"writing_job","status":"accepted_for_run","value":"state the official whole-space problem, fix the maximal classical history, and isolate T_* = infinity as the target","reason":"Thomas fixed this as the complete job of 1.1."},
+    {"field":"domain","status":"accepted_for_run","value":"three-dimensional Navier--Stokes regularity","reason":"This is the exact live theorem domain."},
+    {"field":"audience","status":"accepted_for_run","value":"Clay-level PDE readers and mathematically mature general readers","reason":"The paper must be rigorous while keeping the opening intelligible."},
+    {"field":"purpose","status":"accepted_for_run","value":"give the reader the exact problem before the physical singularity scene","reason":"Section 2 can only motivate critical height after the target is fixed."},
+    {"field":"reader_start","status":"accepted_for_run","value":"the reader has only the title and abstract","reason":"No prior body definitions are available."},
+    {"field":"reader_end","status":"accepted_for_run","value":"the reader knows the datum, equation, solution history, and the one contrary event T_* < infinity","reason":"That state hands directly to 1.2."},
+    {"field":"live_pressure","status":"accepted_for_run","value":"remove citation-card framing, repetition, early pressure machinery, and energy material that belongs in the next subsection","reason":"These are the first proven divergences in the live text."}
+  ],
+  "reader_start": "the reader has only the title and abstract",
+  "live_pressure": "remove citation-card framing, repetition, early pressure machinery, and energy material that belongs in the next subsection",
+  "candidate_moves": [
+    {
+      "move_id": "direct-whole-space-opening",
+      "move": {
+        "selection": "Fefferman whole-space conditions -> governing equation -> maximal solution -> T_* = infinity; no artificial assertion label",
+        "connection": "Local existence turns the all-time problem into the single alternative T_* finite or infinite.",
+        "development": "Give only the conditions needed to identify the problem and the maximal solution; leave the energy gap and vortex to the next movement.",
+        "expression": "Use direct declarative prose, one citation after the source-grounded formulation, and no label for Fefferman's lettered option."
+      },
+      "layer_status": {"selection":"present","connection":"present","development":"present","expression":"present"},
+      "reader_change": "The reader knows exactly which solution the paper follows and exactly what has to be proved.",
+      "next_possibility": "Section 1.2 can assume a finite T_* and show what energy does and does not prevent.",
+      "content_basis": ["live-input"],
+      "sequence": [
+        {"step_id":"conditions","thought":"Fix viscosity, zero force, and the allowed initial velocity.","connection":"These conditions identify the whole-space problem before any commentary begins.","reader_start":"the reader has only the title and abstract","reader_end":"the reader knows the Fefferman whole-space conditions","content_basis":["live-input"]},
+        {"step_id":"system","thought":"Display the Navier--Stokes system and its all-time smooth finite-energy conclusion.","connection":"The requested conclusion belongs to the same displayed problem.","reader_start":"the reader knows the Fefferman whole-space conditions","reader_end":"the reader knows the governing equation and global conclusion","content_basis":["live-input"]},
+        {"step_id":"maximal-time","thought":"Use local theory to define the maximal solution and reduce the target to T_* = infinity.","connection":"The known local result isolates the only possible failure event.","reader_start":"the reader knows the governing equation and global conclusion","reader_end":"the reader knows the datum, equation, solution history, and the one contrary event T_* < infinity","content_basis":["live-input"]}
+      ],
+      "evidence_uses": [
+        {"record_id":"decision-live-obstacle-before-label-001","source_move_id":"move-from-live-obstacle","relation":"supports","applicability_reason":"The live object should appear before any academic label or recap."},
+        {"record_id":"decision-earn-technical-language-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"Only notation needed by the opening is admitted."},
+        {"record_id":"decision-sentence-possesses-complete-thought-001","source_move_id":"make-the-payload-carry-the-thought","relation":"supports","applicability_reason":"Each sentence must carry its own mathematical relation without procedural lead-ins."}
+      ],
+      "risks": ["Repeating the global claim after it is already displayed", "Dragging pressure or energy estimates back into 1.1", "Turning the official source's letter into manuscript terminology"],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "direct-whole-space-opening",
+  "choice_reason": "Thomas fixed the movement as: Fefferman whole-space conditions -> governing equation -> maximal solution -> T_* = infinity; no artificial assertion label.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id":"decision-live-obstacle-before-label-001","status":"used","reason":"It directly vetoes the label-first opening that caused the failure."},
+    {"record_id":"decision-carry-established-thought-forward-001","status":"not_applicable","reason":"The section states the starting problem rather than extending a developed method."},
+    {"record_id":"decision-unfold-causal-relations-001","status":"not_applicable","reason":"The physical causal chain belongs to the next movement."},
+    {"record_id":"decision-name-operational-objects-001","status":"not_applicable","reason":"No new operational object beyond the equation and maximal time is needed."},
+    {"record_id":"decision-earn-technical-language-001","status":"used","reason":"It supports withholding pressure and derivative machinery until the reader needs it."},
+    {"record_id":"decision-preserve-discovery-order-001","status":"not_applicable","reason":"The exact order is already fixed by Thomas for this section."},
+    {"record_id":"decision-generate-expression-from-thought-001","status":"not_applicable","reason":"The more precise complete-thought record governs expression here."},
+    {"record_id":"decision-use-reader-shared-language-001","status":"not_applicable","reason":"No domain translation beyond standard equation language is needed."},
+    {"record_id":"decision-develop-to-reader-change-001","status":"not_applicable","reason":"The fixed section job already supplies the reader change."},
+    {"record_id":"decision-keep-example-inside-idea-001","status":"not_applicable","reason":"The vortex example begins later."},
+    {"record_id":"decision-repair-exact-referent-001","status":"not_applicable","reason":"The exact referent is already fixed as the whole-space problem."},
+    {"record_id":"decision-generalize-to-writing-faculty-001","status":"not_applicable","reason":"This is artifact editing, not a learning generalization task."},
+    {"record_id":"observation-reader-led-concept-before-formal-name-001","status":"not_applicable","reason":"No new formal concept is introduced beyond standard maximal time."},
+    {"record_id":"decision-preserve-local-movement-role-001","status":"not_applicable","reason":"The section is the global opening rather than a local bridge."},
+    {"record_id":"decision-separate-internal-inquiry-from-written-interrogative-001","status":"not_applicable","reason":"The candidate uses declarative prose throughout."},
+    {"record_id":"decision-sentence-possesses-complete-thought-001","status":"used","reason":"It governs the sentence-level repair of the overbuilt prose."},
+    {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","status":"not_applicable","reason":"The physical two-reading vortex argument begins in Section 2."}
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "A lean 1.1 that states the problem once and lands on finite maximal time.",
+    "strongest_move_reason": "It preserves Thomas's fixed reader order and removes every object that belongs later.",
+    "intellectual_gain": "The global existence question becomes one exact finite-time alternative without commentary obscuring it.",
+    "reader_gain": "The reader reaches 1.2 holding the equation, datum, maximal solution, and target.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "approved_change",
+      "inherited_reader_state": "The reader has only the title and abstract.",
+      "section_job": "State the exact whole-space problem and maximal-time target.",
+      "outgoing_reader_need": "Understand what a finite T_* would have to look like despite the energy law.",
+      "gap_decision": "develop_next_section",
+      "gap_payment": "Move the energy identity and concentration gap into 1.2; move pressure reconstruction into the mixed-tower section.",
+      "new_section_job": "",
+      "enrichment_reason": "No enrichment is needed in 1.1 beyond the exact official conditions and local-to-maximal reduction.",
+      "enrichments": []
+    }
+  }
+}
