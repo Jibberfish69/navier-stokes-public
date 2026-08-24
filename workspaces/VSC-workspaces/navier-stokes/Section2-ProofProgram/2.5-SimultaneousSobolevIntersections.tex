@@ -5,78 +5,76 @@
 
 \subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
 
-The ascent has no final spatial height, although each concrete derivative request
-uses only finitely many rungs.  To make all \(\partial_x^\alpha u\) with
-\(\lvert\alpha\rvert\le k\) continuous, use the three-dimensional embedding
+The critical-height calculation reaches spatial energies of arbitrarily high order, but any one derivative request stops at a finite order.
+Suppose, for example, that one wants \(\partial_x^\alpha u\) to be continuous for every \(\lvert\alpha\rvert\le k\).
+In three dimensions, the Sobolev embedding
 \[
   H^m(\R^3)
   \hookrightarrow
   C^k(\R^3)
 \]
-whenever
+holds whenever
 \[
   m>k+\frac32.
 \]
-Thus each requested order \(k\) chooses one finite height above its threshold.
-There is no largest \(m\) as \(k\) ranges over all finite orders, but no single
-infinite-order norm is needed.  The proper object is the coordinatewise
-intersection
+One requested spatial order \(k\) comes from one finite height \(m\) above its embedding threshold.
+As \(k\) ranges through all finite orders, no last \(m\) can be chosen, but no infinite-order norm is required either.
+The exact spatial object is the coordinatewise intersection
 \[
   \bigcap_{m=0}^{\infty}H^m(\R^3),
 \]
-whose coordinates are all measured on the same field.  For each fixed \(k\),
-one coordinate supplies \(C^k\), hence
+whose membership means that every finite Sobolev norm is finite on the same field.
+For each fixed \(k\), one of those finite memberships yields the desired \(C^k\) control, so
 \[
   \bigcap_{m=0}^{\infty}H^m(\R^3)
   \hookrightarrow
   C^\infty(\R^3).
 \]
 
-Time behaves the same way.  Let \(I=(0,T)\), \(T<T_*\), and let \(X\) be a
-Hilbert space.
-\Needspace{9\baselineskip}
+Finite-time response asks for the same construction in the temporal direction.
+Let \(I=(0,T)\) with \(T<T_*\), and let \(X\) be a Hilbert space.
 The vector-valued embedding
 \[
   H^r(I;X)
   \hookrightarrow
   C^q(\overline I;X)
 \]
-holds for
+holds whenever
 \[
   r>q+\frac12.
 \]
-Each requested time derivative \(q\) chooses one finite \(r\), and all finite
-requests give
+One requested time derivative of order \(q\) comes from one finite temporal height \(r\).
+Allowing every finite request gives
 \[
   \bigcap_{r=0}^{\infty}H^r(I;X)
   \hookrightarrow
   C^\infty(\overline I;X).
 \]
-No common bound across all \(r\) is asserted.
+The time intersection is again coordinatewise: each \(q\) chooses its own finite \(r\).
 
-The mixed jet makes the temporal and spatial choices simultaneously.  For
-example, request
+The mixed jet requires these choices at the same time.
+Ask for one concrete coordinate,
 \[
   \partial_t^2\partial_x^\alpha u,
   \qquad
   \lvert\alpha\rvert\le4.
 \]
-The one membership
+The single finite membership
 \[
   u\in H^3\bigl(I;H^6(\R^3)\bigr)
 \]
-places this entire finite request in
+places that coordinate in
 \[
   C^2\bigl(\overline I;C^4(\R^3)\bigr),
 \]
-since
+because
 \[
   3>2+\frac12,
   \qquad
   6>4+\frac32.
 \]
-The pair \((2,4)\) is only an example.  For arbitrary finite \(q,k\), choose
-finite indices with
+Nothing special happened at the pair \((2,4)\).
+For arbitrary finite temporal and spatial orders \(q\) and \(k\), choose finite indices satisfying
 \[
   r>q+\frac12,
   \qquad
@@ -89,7 +87,7 @@ Then
   C^q\bigl(\overline I;C^k(\R^3)\bigr).
 \]
 
-Collect every finite time--space request on the same velocity by defining
+To satisfy every finite time--space request on the same velocity, take the intersection of these finite Sobolev memberships:
 \[
   \mathscr V_\infty(I)
   :=
@@ -97,7 +95,7 @@ Collect every finite time--space request on the same velocity by defining
   \bigcap_{m=0}^{\infty}
   H^r\bigl(I;H^m(\R^3)\bigr).
 \]
-Explicitly,
+Membership means
 \[
   u\in\mathscr V_\infty(I)
   \quad\Longleftrightarrow\quad
@@ -107,40 +105,38 @@ Explicitly,
   \quad
   \text{for every finite pair }(r,m).
 \]
-The norms remain separate coordinates; the intersection does not sum them or
-replace \(u\) by a family of fields.  The finite embeddings imply
+Each membership is a coordinate of the same \(u\), and the intersection keeps their norms separate.
+The embeddings above then give
 \[
   \mathscr V_\infty(I)
   \hookrightarrow
   C^\infty\bigl(\overline I\times\R^3\bigr).
 \]
 
-Choosing one temporal height above the trace threshold and one spatial height
-above \(3/2\) places both critical levels on the closed interval:
+Choose temporal and spatial indices large enough to give a continuous trace above the critical levels.
+That trace contains both
 \[
   u(t)\in H^{1/2}(\R^3)
   \qquad\text{and}\qquad
   u(t)\in H^{3/2}(\R^3)
 \]
-Their scalar quantities are consequently defined there by
+at each time in the closed interval.
+The critical quantities are then defined on the closed interval by
 \[
   H(t)=\frac12\norm{\Lambda^{1/2}u(t)}_2^2,
   \qquad
   E_{3/2}(t)=\frac12\norm{\Lambda^{3/2}u(t)}_2^2
 \]
-Scaling and the first dissipative ascent selected these two heights; the
-intersection is what carries them to the terminal face.
+The calculation of critical height led to these spatial levels; the intersection is what controls them at the endpoint.
 
-Pressure is recovered alongside this velocity space, not inserted into it.  At
-finite temporal depth write
+Pressure is not an element of the velocity intersection.
+Write
 \[
   Q_n=\partial_t^np,
 \]
-The Poisson equation recovers \(Q_n\) from the velocity rows, while the
-differentiated momentum equation keeps \(\nabla Q_n\) beside response,
-viscosity, and transport.  This produces a pressure-complete jet without
-misidentifying pressure as a velocity coordinate.
+at every finite depth.
+The pressure Poisson equation recovers each \(Q_n\) from the velocity rows, while the differentiated momentum equation keeps \(\nabla Q_n\) coupled to \(V_{n+1}\), viscosity, and transport.
+Thus the pressure jet is recovered from \(u\) without treating pressure as an element of the velocity space.
 
-An actual estimate will control only a finite block.  The two adjacent Sobolev
-levels required for a common time trace determine that block’s upper and lower
-edges.
+Each estimate controls one finite block of this intersection.
+The two Sobolev levels needed to produce a common time trace determine the upper and lower edges of that block.

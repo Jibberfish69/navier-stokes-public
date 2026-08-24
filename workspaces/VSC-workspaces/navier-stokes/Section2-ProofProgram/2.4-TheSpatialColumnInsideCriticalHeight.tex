@@ -5,21 +5,21 @@
 
 \subsection{The Spatial Column Inside Critical Height}\label{sub:TheSpatialColumnInsideCriticalHeight}
 
-To follow the viscous link from a temporal response into space, take the scalar
-energy at an arbitrary spatial height \(s\ge0\):
+To see exactly how one time derivative reaches into space, take a scalar energy from one spatial level of the mixed jet.
+For \(s\ge0\), set
 \[
   E_s(t)
   :=
   \frac12\norm{\Lambda^su(t)}_2^2,
 \]
-In particular,
+so that
 \[
   H(t)=E_{1/2}(t).
 \]
-Keeping \(s\) free lets the same calculation be reused after the critical row.
+Keeping \(s\) free before returning to \(1/2\) exposes the mechanism that repeats at every height.
 
-Apply \(\Lambda^s\) to the full momentum equation and pair with
-\(\Lambda^su\).  The temporal contribution is
+Apply \(\Lambda^s\) to the pressure-complete momentum equation and pair it in \(L^2\) with \(\Lambda^su\).
+The temporal term gives
 \[
   \pair{\Lambda^su}{\Lambda^s\partial_tu}
   =
@@ -27,7 +27,7 @@ Apply \(\Lambda^s\) to the full momentum equation and pair with
   =
   E_s'.
 \]
-Viscosity commutes with \(\Lambda^s\), and spatial decay gives
+Rapid decay and commutation with spatial derivatives give
 \[
   \nu\pair{\Lambda^su}{\Lambda^s\Delta u}
   =
@@ -35,8 +35,7 @@ Viscosity commutes with \(\Lambda^s\), and spatial decay gives
   =
   -2\nu E_{s+1}.
 \]
-Pressure cancels in this global scalar balance only after integration by parts
-uses incompressibility:
+The pressure pairing vanishes only after incompressibility and integration by parts have done their work:
 \[
   \pair{\Lambda^su}{\Lambda^s\nabla p}
   =
@@ -44,40 +43,39 @@ uses incompressibility:
   =
   0.
 \]
-It remains present in the local equation and in every mixed coordinate.
-Accordingly, keep the signed transfer in its pressure-complete form:
+This global cancellation does not remove pressure from the local equation or from the mixed jet that generated the balance.
+Keep the signed nonlinear transfer in its pressure-complete form,
 \[
   \mathcal P_s(t)
   :=
   -\pair{\Lambda^su}
   {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}.
 \]
-The resulting identity is
+The exact balance is
 \[
   E_s'
   =
   \mathcal P_s-2\nu E_{s+1}.
 \]
-One derivative in time has reached one full Sobolev level higher in space, but
-only together with the signed transfer at the original height.
+Thus one time derivative of \(E_s\) introduces the next spatial energy \(E_{s+1}\) together with the complete signed transfer at height \(s\).
 
-At \(s=1/2\), this becomes
+At critical height, the first row reads
 \[
   H'
   =
   \mathcal P_{1/2}-2\nu E_{3/2}.
 \]
-The scale-invariant height now touches \(E_{3/2}\).  Its mere appearance is not
-a bound: transfer and dissipation can cancel inside \(H'\).  Differentiate the
-whole row, not the isolated dissipative term.
+This is already the first spatial ascent, from the scale-invariant \(E_{1/2}\) to \(E_{3/2}\).
+It is not a bound for \(E_{3/2}\), because the transfer and dissipative terms can cancel inside the complete value of \(H'\).
+The whole row has to be differentiated before its next spatial consequence can be seen.
 
-The next energy row is
+The balance one step higher is
 \[
   E_{3/2}'
   =
-  \mathcal P_{3/2}-2\nu E_{5/2},
+  \mathcal P_{3/2}-2\nu E_{5/2}.
 \]
-and substitution into the derivative of the critical row yields
+Substituting it into the derivative of the first critical row gives
 \begin{align*}
   H''
   &=
@@ -88,14 +86,14 @@ and substitution into the derivative of the critical row yields
   -2\nu\mathcal P_{3/2}
   +(2\nu)^2E_{5/2}.
 \end{align*}
-The response \(H''\) reaches \(E_{5/2}\), while retaining the transfer from
-each preceding height.  One more derivative uses
+The second derivative now contains \(E_{5/2}\) and the transfers from both heights \(1/2\) and \(3/2\).
+Differentiating once more uses
 \[
   E_{5/2}'
   =
   \mathcal P_{5/2}-2\nu E_{7/2}
 \]
-and gives
+and yields
 \[
   H'''
   =
@@ -104,7 +102,7 @@ and gives
   +(2\nu)^2\mathcal P_{5/2}
   -(2\nu)^3E_{7/2}.
 \]
-The fourth response continues the same recurrence:
+One more response gives
 \[
   H^{(4)}
   =
@@ -114,10 +112,9 @@ The fourth response continues the same recurrence:
   -(2\nu)^3\mathcal P_{7/2}
   +(2\nu)^4E_{9/2}.
 \]
-At each step, the highest spatial energy rises once and the entire lower
-transfer history remains in the row.
+After each time differentiation, the highest spatial energy is one step higher and every earlier transfer is still present.
 
-This produces a triangular identity.
+The pattern is triangular rather than diagonal.
 \begin{proposition}[Critical-height spatial ascent]\label[proposition]{prop:CriticalHeightSpatialAscent}
 For every integer \(n\ge1\),
 \[
@@ -131,21 +128,21 @@ For every integer \(n\ge1\),
 \]
 \end{proposition}
 \begin{proof}
-The critical balance is the case \(n=1\).  If the formula holds at order
-\(n\), differentiate it and use
+The critical balance gives the case \(n=1\).
+Assume the identity at order \(n\), differentiate it, and substitute
 \[
   E_{n+1/2}'
   =
   \mathcal P_{n+1/2}-2\nu E_{n+3/2}.
 \]
-The new transfer extends the sum by one term, while the dissipative part becomes
-\((-2\nu)^{n+1}E_{n+3/2}\).  This is the formula at order \(n+1\).
+The substitution produces the next transfer and \(E_{n+3/2}\) with the required coefficient, which proves the identity by induction.
 \end{proof}
-The proposition is an identity, not an estimate.  Knowing \(H^{(n)}\) cannot
-isolate \(E_{n+1/2}\) until the complete signed transfer sum is controlled.
+The identity still supplies no estimate by itself.
+Even if \(H^{(n)}\) is known, \(E_{n+1/2}\) cannot be isolated without controlling the entire signed transfer sum.
+Its appearance in the formula does not bound it.
 
-Critical scaling was homogeneous; continuation uses inhomogeneous Sobolev
-spaces.  For \(s>0\), the two are joined by
+The homogeneous scale made the critical dilation exact, while continuation is usually read in the inhomogeneous scale.
+For \(s>0\),
 \[
   \norm{u(t)}_{H^s}^2
   \simeq
@@ -153,7 +150,7 @@ spaces.  For \(s>0\), the two are joined by
   =
   \norm{u(t)}_2^2+2E_s(t).
 \]
-The kinetic-energy identity pays the low-frequency term:
+The unforced energy identity supplies the missing low-frequency part:
 \[
   \frac12\norm{u(t)}_2^2
   +
@@ -161,15 +158,10 @@ The kinetic-energy identity pays the low-frequency term:
   =
   \frac12\norm{u_0}_2^2.
 \]
-Hence a bound for \(E_s(t)\) completes an \(H^s\) bound, while time-integrability
-of \(E_s\) completes the high-frequency part of \(L^2_tH^s_x\) on a finite
-interval.
+Thus control of \(E_s(t)\) supplies the high-frequency part of an \(H^s\) bound, and an \(L^1\)-in-time bound for \(E_s\) supplies the high-frequency part of an \(L^2_tH^s_x\) bound on each finite interval.
 
-The ascent begins at \(1/2\) because scaling selected it, and the first response
-reaches \(3/2\).  At the terminal face the logic reverses: whole-terminal
-Sobolev rows first bound these two heights, from which \(H\) and its first
-dissipative level follow.
+The calculation begins at \(1/2\) because that height is fixed by scaling, and its first derivative reaches \(3/2\).
+At the endpoint, the relation runs in the other direction: the whole-terminal Sobolev rows first control the \(1/2\) and \(3/2\) levels, and those levels then control \(H\) and its first dissipative height.
 
-Each finite number of responses reaches only a finite spatial height.  To keep
-every finite coordinate of the derivative family, the same velocity must
-occupy every finite temporal and spatial Sobolev row.
+Any finite number of time derivatives reaches only a finite spatial height.
+To retain every finite height required by the full derivative family, the same velocity must belong to every finite temporal and spatial Sobolev row.
