@@ -1,0 +1,60 @@
+{
+  "task_id": "task-ca6c56265a8c10d7",
+  "task_sha256": "5e00e86268880f9cc3e1aeb67fd9dfb206e0fb7fd14df93609dce36c20bb4609",
+  "prediction_sha256": "1e7950625a425b5d0e976fa452cb0335ee2dd2c06385211d65fe0b0b73371991",
+  "candidate_sha256": "12b477c65888a62c4666cb068e944d12cd6eea237a2475339776ab356bb94b9b",
+  "selected_move_id": "user-fixed-gold-discovery",
+  "producer_id": "section13-producer-v5",
+  "evaluator_id": "section13-author-scholar-reader-audit-v5",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate rewrites the complete live subsection, retains the required Sobolev argument and mathematical calculation, and does not alter adjacent sections."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "Continuation creates the need for a strong bound, Sobolev states its payoff, and the energy-to-gradient calculation tests one natural first climb toward it."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each move is caused by the previous limitation: local lifespan creates continuation pressure, finite Sobolev control creates the all-orders target, accumulated gradient control creates the differentiated test, and the cubic gap returns directly to the continuation threshold."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The subsection develops the Sobolev destination before the calculation, interprets each estimate, and completes the high-order, pressure, and time recovery after the obstruction."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose uses direct causal sentences, ordinary control-and-payment language, and exact displays without managerial navigation or a detached scalar appendix."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The candidate preserves one finite Sobolev order versus all finite orders, estimate failure versus actual fluid blow-up, one base continuation bound versus separate global bounds at every order, and the velocity-only versus velocity-pressure spacetime distinction."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The calculation is explicitly identified as a stalled first rung below the continuation-grade Sobolev target, and the later bootstrap explains exactly what a secured base bound unlocks."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The candidate follows the approved anchor's causal development and delayed formal naming without copying its Silver-specific hypothetical, phrase sequence, or human-difficulty opening; Thomas's own judgment remains the authority on the realized voice."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "A reader can move continuously from Section 1.2's continuation definition through the Sobolev target, the two estimates, the exact mismatch, and the missing Gold bound."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The subsection connects the local blow-up alternative to Sobolev embedding, the first gradient obstruction to the continuation threshold, and one base bound to full spacetime smoothness."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "No Silver-specific premise, ingredient list, contrapositive movement, or exact anchor phrase has been transplanted into the Gold subsection."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The movement is supported at hypothesis-level confidence, the mathematical and prose checks are bounded, and no internal check is treated as Thomas's approval."
+    }
+  },
+  "verdict": "pass"
+}
