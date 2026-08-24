@@ -1,0 +1,88 @@
+{
+  "task_id": "task-7f7f916eab093df0",
+  "task_sha256": "76b7c1275788f4e3acea0b527c3e02b7aac7c22697f138efc6e81bcba40384ff",
+  "prediction_sha256": "67b5895eb670bee370ad855cc3b042c87648fc7f67f6c224d4c286850545d924",
+  "candidate_sha256": "d4c88917eae89a97422994b28fcf5e5a3407e295662938a5363af4a68f2afabf",
+  "selected_move_id": "exact-one-fluid-closure-spine",
+  "producer_id": "root-abstract-author",
+  "evaluator_id": "root-referee-evaluator",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "States the exact all-time result for the manuscript's smooth rapidly decaying divergence-free data and fixed positive viscosity."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "Fills the empty abstract with the theorem and its load-bearing closure rather than a document roadmap."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Matches the existing one-fluid route and does not alter section order or assign the critical rows a producer role."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "Moves causally from the cited producer to compatibility, intersection, endpoint jet, and restart."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Includes only the finite-order constant distinction and normalized pressure facts needed to prevent overreading."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "Exposes why one common endpoint and its generated jet defeat finite maximality."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "Ends at the global conclusion and leaves no placeholder or process narration."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "Preserves the user-fixed producer-to-intersection-to-restart movement exactly."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "Every estimate, trace, and jet remains a coordinate of the same datum-generated pressure-normalized history."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each sentence spends the consequence established by the previous sentence."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The compressed chain retains every load-bearing implication without reversing its order."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "Uses public mathematical language and complete declarative sentences."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "States that constants may depend on N and M and avoids an all-orders uniform estimate."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "Distinguishes the cited first theorem from the closure proved after it."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The prose is generated from the live proof movement rather than copied sample phrasing."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "A specialist enters with the classical problem and exits knowing the exact theorem route."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "Connects projective compatibility to one endpoint and then to same-history uniqueness."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "No quarantined sample language or unrelated topic content appears."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Low predictive confidence is appropriate because the movement is source-grounded while voice approval remains unrecorded."
+    }
+  },
+  "verdict": "pass"
+}
