@@ -1,0 +1,262 @@
+## Target Block
+- file: workspaces/VSC-workspaces/navier-stokes/tmp/section12-expanded-rewrite/agent-section2/
+- span: complete staged Section 2 index and subsection set
+- mode: Authorial Draft
+- block_kind: exposition
+- user_intent: Rebuild Section 2 as a fully developed reader-facing reconstruction of the historical discovery from critical-height pressure through the compatible finite-rectangle object.
+- fixed_constraints: Preserve the settled datum-generated compatible-intersection object; keep terminal proof, endpoint trace, restart, uniqueness, and global closure in Section 3; use no one-history language; preserve the supplied discovery order; do not flatten; use Canadian English and one sentence per source line; write only to the staging directory.
+
+## Section Job
+- job_statement: Let the reader rediscover why a possible finite-time singularity forces simultaneous temporal and spatial response coordinates, why those coordinates form a pressure-complete mixed jet, why all-order Sobolev intersections encode smoothness, and why finite compatible rectangles are the checkable form of that insight.
+- why_here: Section 1 has made the one-fluid VPI ontology, the singularity threat, and the velocity--acceleration--jerk tower concrete, so the reader can now follow the analytic discovery without another physical reset.
+- formal_boundary: Derive the scale law, FTOC escalation, mixed recurrence, critical-height rows, embeddings, finite rectangles, and restriction compatibility; state the exact terminal quantifier supplied by the settled producer without invoking or reproducing its proof or its downstream endpoint consequences.
+- intent_state_seed: claim_id=S2Discovery; required_next_move=critical scaling -> finite-time response escalation -> pressure-complete mixed jet -> critical-height spatial rows -> simultaneous intersections -> finite rectangles -> compatibility -> exact terminal quantifier; forbidden_detours=one-history bookkeeping, Section 3 proof, endpoint trace, restart, uniqueness, global conclusion, arbitrary infinite summed tower norm.
+
+## Claim Ladder
+- claim: The Navier--Stokes scaling preserves the homogeneous \(\dot H^{1/2}\) size, so the critical height can survive a move to finer scales that the kinetic-energy norm sees as smaller.
+- warrant: Direct change of variables in the Fourier definition gives the exact exponent \(s-1/2\).
+- handoff: A finite-time concentration threat therefore has to be read through response, not through velocity magnitude or kinetic energy alone.
+- claim: Repeated FTOC forces any unbounded finite-time response rung to lose boundedness at every higher time-response rung.
+- warrant: A bounded derivative makes its predecessor Lipschitz on a finite interval.
+- handoff: Applying the same reasoning to each spatial derivative creates independent time and space coordinates.
+- claim: Directly differentiating the original pressure-complete equation generates the mixed jet and its binomial recurrence.
+- warrant: Leibniz's rule distributes time and spatial derivatives across both velocity factors, while incompressibility determines every pressure row elliptically.
+- handoff: The equation itself shows why temporal depth and spatial depth cannot be collapsed into one index.
+- claim: The critical-height balance exposes one higher spatial Sobolev energy at each temporal differentiation, together with every lower pressure-complete production derivative generated along the way.
+- warrant: Repeatedly differentiate \(E_s'=-2\nu E_{s+1}+\mathcal P_s\) and substitute the same balance at the next spatial height.
+- handoff: Temporal and spatial towers are coupled readouts whose all-order intersections can be considered separately and simultaneously.
+- claim: Every complete spatial, temporal, or mixed Sobolev intersection has its own embedding into the corresponding smooth class.
+- warrant: For each requested derivative order, choose one finite Sobolev index beyond the embedding threshold.
+- handoff: The proof object needs finite control at every coordinate, without a single infinite sum over coordinates.
+- claim: An adjacent-row rectangle packages a finite temporal cutoff and a finite spatial cutoff in exactly the form that yields a middle Sobolev trace.
+- warrant: The Hilbert triple \(H^{M+1}\hookrightarrow H^M\hookrightarrow H^{M-1}\) pairs a row with its time derivative.
+- handoff: A concrete \(\mathfrak R_{1,2}\) example reveals the general \(\mathfrak R_{N,M}\) form and why the overlap row matters.
+- claim: Restriction from larger rectangles preserves every shared derivative and satisfies composition, so the finite views are compatible.
+- warrant: Restriction only forgets higher temporal rows, lowers Sobolev order through continuous embeddings, and shortens the interval.
+- handoff: The terminal issue becomes the quantifier on the bound for each fixed rectangle.
+- claim: Strict classicality gives a finite rectangle after a strict cutoff is fixed, while the settled datum-generated producer fixes the rectangle first and controls it uniformly as the cutoff approaches \(T_*\).
+- warrant: The two statements have different quantifier order, displayed explicitly.
+- handoff: The whole-terminal family required for formal compatible assembly is therefore handed to Section 3 without repeating its proof.
+
+## Paragraph Movement Map
+- role: orient
+- reader_in: The reader already knows the singularity threat and the physical response tower from Section 1.
+- pressure: Kinetic energy and pointwise velocity do not explain why finer-scale concentration remains dangerous.
+- core_move: Begin inside the alleged finite endpoint and identify the scale-invariant height that stays visible while the flow is compressed.
+- hinge_question: n/a
+- reader_out: The reader understands why \(\dot H^{1/2}\) is the relevant first height.
+- next_need: Show what finite-time escape demands from higher responses.
+- must_keep: exact Navier--Stokes scaling; Fourier scaling calculation; contrast with \(L^2\) scaling; critical height definition.
+- avoid: repeating the historical survey; claiming that a Zeno cascade is realised; saying velocity itself must diverge.
+- role: mechanism
+- reader_in: A scale-critical readout can remain significant at arbitrarily fine scales.
+- pressure: The reader needs a rigorous reason that a finite-time escape cannot stop at one response level.
+- core_move: Derive the Banach-valued FTOC estimate and take its contrapositive.
+- hinge_question: n/a
+- reader_out: An unbounded rung forces loss of boundedness in the next rung, and iteration removes every finite response ceiling.
+- next_need: Attach this escalation to every spatial derivative rather than only to velocity along one particle.
+- must_keep: conditional status; no monotonicity claim; no claim that rungs can never vanish.
+- avoid: saying every derivative is always nonzero or increasing.
+- role: bridge
+- reader_in: Material response supplies physical meaning and FTOC supplies temporal escalation.
+- pressure: Field estimates compare derivatives at fixed spatial coordinates.
+- core_move: Apply the escalation to \(\partial_x^\alpha u\) and recognize the two independent indices \(m\) and \(\alpha\).
+- hinge_question: n/a
+- reader_out: The reader is ready for the mixed jet as the equation-generated coordinate system.
+- next_need: Derive that system from Navier--Stokes itself.
+- must_keep: material-to-Eulerian distinction; independent temporal and spatial depths.
+- avoid: presenting the jet as invented bookkeeping.
+- role: setup
+- reader_in: Two independent derivative directions are required.
+- pressure: Their relations and pressure content remain unknown.
+- core_move: Define \(J_{m,\alpha}\) and \(\Pi_{m,\alpha}\) immediately before differentiating the original equation.
+- hinge_question: n/a
+- reader_out: Each coordinate has a precise velocity or pressure meaning.
+- next_need: Make the recurrence visible at low orders before compressing it.
+- must_keep: original pressure-complete equation and divergence-free condition.
+- avoid: notation legend without action.
+- role: mechanism
+- reader_in: The mixed coordinates have been named.
+- pressure: A general binomial display would remain opaque without seeing how it grows.
+- core_move: Derive the first temporal row and the first spatial row, explaining the two Leibniz products in each.
+- hinge_question: n/a
+- reader_out: The reader sees transport split across the carrying and carried factors.
+- next_need: State the general recurrence that contains every such split.
+- must_keep: pressure derivative; viscous Laplacian; divergence-free row.
+- avoid: detached component inventory.
+- role: consequence
+- reader_in: Low-order rows show the pattern.
+- pressure: The full relation across all finite orders must be exact.
+- core_move: Apply the double Leibniz rule to derive the pressure-complete mixed recurrence and the differentiated Poisson equation.
+- hinge_question: n/a
+- reader_out: The mixed jet is seen as one coupled relation graph generated by the PDE.
+- next_need: Find a scalar readout that makes the temporal-to-spatial opening visible.
+- must_keep: binomial coefficients; pressure nonlocality; two independent indices.
+- avoid: deleting pressure through Leray projection; calling the recurrence a proof of boundedness.
+- role: setup
+- reader_in: The mixed recurrence couples time, space, pressure, viscosity, and transport.
+- pressure: Its spatial escalation is still hard to see in the tensorial formula.
+- core_move: Define \(E_s\), derive its balance, and choose \(H=E_{1/2}\) because scaling already identified that height.
+- hinge_question: n/a
+- reader_out: The reader has a scalar critical readout that retains the complete production term.
+- next_need: Differentiate it enough times to reveal the triangular pattern.
+- must_keep: pressure-complete definition of \(\mathcal P_s\); global pressure cancellation explanation; viscosity coefficient.
+- avoid: treating \(\mathcal P_s\) as arbitrary forcing.
+- role: mechanism
+- reader_in: The first critical-height row is exact.
+- pressure: One row does not yet reveal the spatial column.
+- core_move: Derive \(H'\), \(H''\), and \(H'''\) by repeated substitution.
+- hinge_question: n/a
+- reader_out: Each time derivative visibly opens one higher spatial energy and retains lower production derivatives.
+- next_need: Compress the observed rows into the general triangular identity.
+- must_keep: exact signs and powers of \(2\nu\); plain gloss after the display.
+- avoid: floating equations or unexplained current notation.
+- role: consequence
+- reader_in: The first three rows expose the pattern.
+- pressure: The reader needs the all-order form and its exact limitation.
+- core_move: State the triangular identity and explain that it is a readout of the mixed jet, not an identification of temporal and spatial depth.
+- hinge_question: n/a
+- reader_out: The reader sees the nested spatial column inside the temporal critical-height response.
+- next_need: Turn all finite heights into smoothness without inventing an infinite total norm.
+- must_keep: all lower \(\mathcal P\) derivatives; independent coordinates; no boundedness claim.
+- avoid: calling one height row smooth or complete by itself.
+- role: mechanism
+- reader_in: Every finite derivative coordinate is coupled, and critical height exposes the spatial climb.
+- pressure: The relation between all finite heights and \(C^\infty\) must be made explicit.
+- core_move: Walk through spatial, temporal, and mixed Sobolev embeddings one requested derivative order at a time.
+- hinge_question: n/a
+- reader_out: Each all-order intersection has its own smoothness consequence.
+- next_need: Clarify that these views occur simultaneously and require coordinatewise control rather than summation.
+- must_keep: exact embedding thresholds; vector-valued temporal embedding; intersection rather than sum.
+- avoid: treating the columns as successive fluid states.
+- role: realization
+- reader_in: The all-order intersections each imply the corresponding smoothness.
+- pressure: An infinite intersection is still too large to estimate in one move.
+- core_move: Recognize that every proof step only asks for a finite temporal depth and finite spatial height, while compatibility lets those finite answers coexist.
+- hinge_question: What is the smallest finite object that preserves both directions and their shared middle row?
+- reader_out: The finite adjacent rectangle is needed as a coordinate window on the mixed jet.
+- next_need: Build one concrete rectangle before giving the general form.
+- must_keep: no infinite sum; separate constant per finite coordinate.
+- avoid: announcing the rectangle before its need is visible.
+- role: setup
+- reader_in: A finite two-directional coordinate window is needed.
+- pressure: Its adjacent-row form has not yet been earned.
+- core_move: Use \(H^{M+1}\hookrightarrow H^M\hookrightarrow H^{M-1}\) and the row/time-derivative pairing to derive the rectangle shape.
+- hinge_question: n/a
+- reader_out: The middle \(H^M\) trace explains the one-time/two-space offset.
+- next_need: Make the abstract pattern tangible with \(N=1,M=2\).
+- must_keep: Hilbert triple; trace payment; parabolic offset.
+- avoid: calling the rectangle a physical box.
+- role: mechanism
+- reader_in: The adjacent-row architecture is motivated.
+- pressure: The repeated row and four norms can otherwise look arbitrary.
+- core_move: Write \(\mathfrak R_{1,2}\), identify its four entries, and show why \(u_t\) belongs to both adjacent blocks.
+- hinge_question: n/a
+- reader_out: The overlap is understood as the join that makes the finite record coherent.
+- next_need: Generalize both cutoffs independently.
+- must_keep: exact four terms; same \(u_t\) overlap; no arbitrary \(Y\).
+- avoid: compressing the example into a definition.
+- role: consequence
+- reader_in: One rectangle has been understood concretely.
+- pressure: The all-order intersection needs a finite object at arbitrary depths.
+- core_move: Define \(\mathfrak R_{N,M}\) and the pressure-complete record \(\cR_{N,M}(u,p;T)\).
+- hinge_question: n/a
+- reader_out: Every finite portion of the mixed jet has a checkable adjacent-row record.
+- next_need: Show that different finite records agree where they overlap.
+- must_keep: \(M=0\) negative row convention; pressure rows and recurrence remain attached.
+- avoid: claiming a rectangle proves \(C^\infty\).
+- role: mechanism
+- reader_in: Rectangles exist at arbitrary finite coordinate depths.
+- pressure: Separate finite views could still contradict each other on shared coordinates.
+- core_move: Restrict \(\cR_{2,3}\) to \(\cR_{1,2}\) and then state the general restriction map and composition law.
+- hinge_question: n/a
+- reader_out: Compatibility is visible as exact agreement on every shared derivative.
+- next_need: Separate interior finiteness from whole-terminal control.
+- must_keep: worked restriction example; general map; unchanged shared coordinates.
+- avoid: endpoint identity or uniqueness bookkeeping.
+- role: landing
+- reader_in: The mixed jet has compatible finite views at every strict time.
+- pressure: A finite maximal endpoint can still be approached through bounds that depend on the cutoff.
+- core_move: Display the strict-subinterval and whole-terminal quantifiers side by side, explain the difference, and name the latter as the exact statement supplied by the settled datum-generated producer.
+- hinge_question: n/a
+- reader_out: The reader knows precisely what object Section 3 receives and why the terminal quantifier matters.
+- next_need: The settled formal construction may assemble the whole-terminal compatible family without any conceptual object remaining unexplained.
+- must_keep: \(\sup_{0<T<T_*}\); fixed \((N,M)\) before the supremum; coordinate-dependent constant; no proof of producer.
+- avoid: calling the producer missing, conditional, or open; invoking endpoint trace, restart, uniqueness, or \(T_*=\infty\).
+
+## Concept Introduction Ledger
+- concept: critical height \(H=\frac12\|u\|_{\dot H^{1/2}}^2\)
+- earned_by: Navier--Stokes scaling preserves the \(\dot H^{1/2}\) norm while kinetic energy shrinks under concentration.
+- introduced_at: first subsection after the scaling computation.
+- immediate_job: gives the first scale-sensitive readout of the singularity threat.
+- concept: FTOC response escalation
+- earned_by: a finite-time blow-up cannot occur when the next derivative stays bounded.
+- introduced_at: second subsection.
+- immediate_job: forces attention beyond any fixed response rung.
+- concept: mixed jet \(J_{m,\alpha}\) and pressure jet \(\Pi_{m,\alpha}\)
+- earned_by: FTOC escalation applied to every spatial derivative creates independent temporal and spatial coordinates.
+- introduced_at: third subsection immediately before differentiating Navier--Stokes.
+- immediate_job: records the complete equation-generated derivative family.
+- concept: critical-height triangular rows
+- earned_by: the tensorial mixed recurrence hides how viscosity opens higher spatial height.
+- introduced_at: fourth subsection.
+- immediate_job: makes the temporal-to-spatial nesting explicit.
+- concept: simultaneous Sobolev intersections
+- earned_by: smoothness requires every finite derivative order while each embedding asks for only one sufficiently high finite row.
+- introduced_at: fifth subsection.
+- immediate_job: identifies coordinatewise all-order control as the smoothness object.
+- concept: adjacent-row rectangle
+- earned_by: the all-orders intersection must be reached through finite estimates that preserve both temporal and spatial coordinates.
+- introduced_at: sixth subsection after the Hilbert triple.
+- immediate_job: packages a finite checkable view and its middle trace.
+- concept: restriction compatibility
+- earned_by: separately estimated finite views must agree on every overlapping derivative.
+- introduced_at: seventh subsection after the concrete large-to-small example.
+- immediate_job: makes the coordinatewise intersection coherent without an infinite summed norm.
+- concept: whole-terminal quantifier
+- earned_by: strict-subinterval finiteness permits cutoff-dependent growth near an alleged endpoint.
+- introduced_at: closing subsection.
+- immediate_job: states exactly what the settled producer supplies to the formal terminal construction.
+
+## Lexicon Lock
+- must_use: critical height; response; pressure-complete mixed jet; temporal depth; spatial height; intersection; finite rectangle; adjacent rows; compatibility; terminal face; datum-generated producer.
+- must_not_substitute: one-history; category theory; defect ledger; infinite tower norm; arbitrary \(Y\); physical rectangle.
+- deferred_terms: projective terminal assembly, endpoint trace, endpoint jet, restart, uniqueness, and \(T_*=\infty\) remain deferred to Section 3.
+- tone_keys: candid; causal; reader beside the derivation; plain before technical; fully developed; mathematically exact.
+
+## Cadence Target
+- anchor_choice: Anchor1SectionOneFourSilverStandardProof
+- match_reason: The approved Silver passage lets the reader perform a conceptual argument in ordinary language before the formal compression arrives, which matches the discovery job of this section.
+- sentence_motion: Use short hinge sentences around longer derivations, keep every consequence visibly dependent on the preceding equation, and compress only after the reader has lived through the concrete case.
+
+## Formal Handoff
+- formal_entry_point: Every display enters immediately after prose has named the concrete question it answers.
+- required_formal_elements: Exact scaling calculation; Banach-valued FTOC bound; low-order and general pressure-complete mixed recurrence; pressure Poisson recurrence; critical-height energy balance, first three rows, and general triangular identity; Sobolev embeddings; concrete and general rectangle formulas; restriction map and composition; strict and whole-terminal quantifiers.
+- crossref_plan: No equation, theorem, subsection, or section cross-references are required inside this staged Section 2; all displays remain unnumbered because each is consumed locally, and the final whole-terminal statement is named in prose rather than invoked by a Section 3 label.
+
+## Reader-Value Gate
+- duh_factor_check: The section earns the finite rectangle from the singularity and response problem, so the reader can understand why the settled formal proof uses that object instead of accepting it as arbitrary notation.
+- strawman_risk: no -- the finite-time concentration branch is treated as a hypothetical unresolved threat, and no realised singular trajectory is asserted.
+- effort_to_yield: high reader effort for high conceptual payoff, with every dense formula preceded and followed by a plain explanation.
+- nonstarter_filter: The target remains live because the exact mixed coordinates and finite compatible views are the conceptual bridge between the one-fluid ontology and the settled terminal proof object.
+
+## Risks and Countermoves
+- risk: The draft repeats Section 1's velocity--acceleration--jerk introduction.
+- countermove: Begin at critical scaling and use the earlier tower only as inherited reader state before deriving new analytic coordinates.
+- risk: FTOC prose falsely claims monotonic or everywhere nonzero derivatives.
+- countermove: State the implication only for an unbounded finite-time rung and explicitly preserve zeros, oscillation, and steady solutions.
+- risk: The pressure-complete recurrence turns into a notation dump.
+- countermove: Derive low rows first and gloss the transporting factor, carried factor, pressure row, and viscous spatial shift in place.
+- risk: The critical-height identity is mistaken for a boundedness theorem.
+- countermove: State that it exposes coordinates and leaves their estimates to the rectangle producer.
+- risk: Intersection is mistaken for an infinite summability demand.
+- countermove: Contrast coordinatewise membership with a forbidden sum and allow a different finite constant at every coordinate.
+- risk: Rectangle notation appears arbitrary.
+- countermove: Derive the adjacent rows from the Hilbert triple, work \(\mathfrak R_{1,2}\) completely, and only then generalize.
+- risk: The closing passage reopens or reproves Section 3.
+- countermove: State the exact settled uniform quantifier once and stop before projective terminal assembly, endpoint, restart, uniqueness, or global conclusion.
+
+## Draft Acceptance Test
+- pass_if: The prose follows the user-fixed historical order; every displayed equation has an adjacent reason, derivation, and plain explanation; critical scaling and FTOC are mathematically qualified; pressure remains explicit and nonlocal; the first three critical-height rows have correct signs; the intersection is coordinatewise rather than summed; \(\mathfrak R_{1,2}\) is fully explained before \(\mathfrak R_{N,M}\); restriction compatibility is demonstrated; the closing quantifiers distinguish strict cutoff from whole-terminal control; the settled producer is preserved as supplied; no first-use notation floats; one sentence appears per source line; the landing names the whole-terminal compatible family as the formal payload.
+- fail_if: The draft restarts the physical tower; claims every derivative is nonzero or monotone; drops pressure; identifies time and space indices; treats a single row or rectangle as \(C^\infty\); uses an infinite summed tower norm; calls the settled producer missing or conditional; invokes terminal endpoint, restart, uniqueness, or global closure; uses one-history language; or narrates document procedure in place of the argument.
+- closing_deletion_test: pass -- deleting the final handoff would still leave the scaling, mixed jet, critical rows, intersections, rectangle construction, and compatibility individually motivated, while the close performs the distinct job of fixing the terminal quantifier that the formal producer supplies.
