@@ -1,0 +1,138 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 2.4 The Spatial Column Inside Critical Height
+% ============================================================
+
+\subsection{The Spatial Column Inside Critical Height}\label{sub:TheSpatialColumnInsideCriticalHeight}
+
+For every real \(s\geq0\), define the spatial Sobolev energy
+\[
+  E_s(t)
+  :=
+  \frac12\norm{\Lambda^su(t)}_2^2.
+\]
+The critical height from the scaling calculation is the particular row \(H=E_{1/2}\).
+The value of introducing all \(E_s\) at once is that viscosity moves them by one complete Sobolev step.
+
+Pair the momentum equation with \(\Lambda^{2s}u\).
+Equivalently, apply \(\Lambda^s\) and take the \(L^2\) inner product with \(\Lambda^su\).
+The time derivative gives \(E_s'\), and integration by parts gives
+\[
+  \nu\pair{\Lambda^su}{\Lambda^s\Delta u}
+  =
+  -\nu\norm{\Lambda^{s+1}u}_2^2
+  =
+  -2\nu E_{s+1}.
+\]
+Keep the transport and pressure response together in the signed production term
+\[
+  \mathcal P_s(t)
+  :=
+  -\pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}.
+\]
+For a smooth decaying divergence-free field, the global pressure pairing vanishes because
+\[
+  \pair{\Lambda^su}{\Lambda^s\nabla p}
+  =
+  -\pair{\nabla\cdot\Lambda^su}{\Lambda^sp}
+  =0.
+\]
+We retain pressure in the definition because the balance was derived from the pressure-complete equation and every local differentiated row still contains its pressure coordinate.
+The exact Sobolev balance is
+\[
+  E_s'
+  =
+  \mathcal P_s-2\nu E_{s+1}.
+\]
+The production term records the signed nonlinear transfer into height \(s\), while viscosity exposes the next spatial height \(s+1\).
+
+At the critical row, the first time derivative is
+\[
+  H'
+  =
+  \mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+One temporal change in critical height has already opened a spatial energy one full Sobolev step higher.
+The row also retains the signed production needed to distinguish transfer into that height from viscous removal at the next height.
+
+Differentiate once more.
+Before compressing the result, use the same energy balance at \(s=3/2\):
+\[
+  E_{3/2}'
+  =
+  \mathcal P_{3/2}-2\nu E_{5/2}.
+\]
+Substitution gives
+\begin{align*}
+  H''
+  &={}
+  \mathcal P_{1/2}'-2\nu E_{3/2}'
+  \\
+  &={}
+  \mathcal P_{1/2}'
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2}.
+\end{align*}
+The second temporal derivative exposes \(E_{5/2}\), while the lower spatial heights survive through the differentiated production terms.
+
+A third differentiation uses
+\[
+  E_{5/2}'
+  =
+  \mathcal P_{5/2}-2\nu E_{7/2}.
+\]
+The first three critical-height rows are
+\begin{align*}
+  H'
+  &={}
+  \mathcal P_{1/2}-2\nu E_{3/2},
+  \\
+  H''
+  &={}
+  \mathcal P_{1/2}'
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2},
+  \\
+  H'''
+  &={}
+  \mathcal P_{1/2}''
+  -2\nu\mathcal P_{3/2}'
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\end{align*}
+The alternating powers of \(2\nu\) come from repeatedly substituting the viscous part of the next spatial energy balance.
+Each substitution also leaves behind the production term at the height it passes.
+
+The pattern can now be stated without hiding any lower row.
+For every integer \(n\geq1\), repeated differentiation and substitution give
+\[
+  H^{(n)}
+  =
+  (-2\nu)^nE_{n+1/2}
+  +
+  \sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+The formula follows by induction: differentiating the \(n\)-th row differentiates every existing production term, and replacing \(E_{n+1/2}'\) with \(\mathcal P_{n+1/2}-2\nu E_{n+3/2}\) creates exactly the new final summand and the next highest energy.
+No production derivative is discarded in the passage to higher order.
+
+This triangular identity is the scalar shadow of the pressure-complete mixed jet.
+It shows that temporal response at the critical height is nested with the spatial Sobolev column
+\[
+  E_{3/2},
+  \quad
+  E_{5/2},
+  \quad
+  E_{7/2},
+  \quad\ldots
+\]
+through all of the signed lower production responses that the equation generates.
+Temporal order and spatial height remain different coordinates.
+The identity relates them; it does not collapse them into a single derivative count.
+
+The identity also carries no boundedness conclusion by itself.
+Large production and large viscous height can cancel in one row, and their derivatives can interact differently in the next.
+Its payment is structural: a critical-height failure cannot be analysed honestly while ignoring the spatial energies and lower production derivatives nested inside it.
+Once every finite row is retained, Sobolev embedding tells us exactly what their simultaneous all-orders control would mean.
