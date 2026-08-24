@@ -1,0 +1,96 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.1 The Regularity Problem
+% ============================================================
+\subsection{The Regularity Problem}\label{sub:TheRegularityProblem}
+
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth fluid can lose its smoothness after a finite amount of time.
+Classical local theory already constructs the motion for a short time.
+The unresolved question is whether any finite time can be its last smooth time.
+
+Let \(\Omega\) be either \(\mathbb R^3\) or the periodic domain \(\mathbb T^3=\mathbb R^3/\mathbb Z^3\).
+Fix a viscosity \(\nu>0\), set the external force to zero, and choose a smooth divergence-free initial velocity \(u_0\).
+On \(\mathbb R^3\), require \(u_0\) and all of its spatial derivatives to decay rapidly at infinity; on \(\mathbb T^3\), require periodicity instead.
+The velocity \(u(x,t)\in\mathbb R^3\) and pressure \(p(x,t)\in\mathbb R\) must satisfy
+\[
+  \partial_tu+(u\cdot\nabla)u+\nabla p
+  =
+  \nu\Delta u,
+  \qquad
+  \nabla\cdot u=0,
+  \qquad
+  u(x,0)=u_0(x).
+\]
+The local theory produces a unique smooth solution on a short interval, and \(T_*\in(0,\infty]\) denotes the largest time to which that smooth solution can be continued.
+The positive existence-and-smoothness problem studied in this paper is exactly whether
+\[
+  T_*=\infty
+\]
+for every admissible \(u_0\) \parencite{Fefferman2000}.
+
+Each term in the equation belongs to the same fluid motion.
+The derivative \(\partial_tu\) records the change of velocity at a fixed spatial point, while \((u\cdot\nabla)u\) records the change caused by carrying velocity through a nonuniform field.
+The pressure gradient transmits the constraint imposed by incompressibility, and \(\nu\Delta u\) transfers momentum across spatial variation.
+The condition \(\nabla\cdot u=0\) says that the flow preserves volume.
+The problem asks whether these coupled effects can evolve the initial fluid forever without producing a loss of smoothness.
+
+\divider{Smoothness}
+
+\begin{definition}[Smoothness]\label{def:Smoothness}
+A velocity--pressure pair \((u,p)\) is smooth through a finite time \(T>0\) when
+\[
+  u\in C^\infty\!\left(\Omega\times[0,T];\mathbb R^3\right),
+  \qquad
+  p\in C^\infty\!\left(\Omega\times[0,T]\right).
+\]
+Equivalently, every mixed spatial and temporal derivative of every finite order exists and is continuous through \(t=T\).
+The pair is smooth for all time when it is smooth through every finite \(T>0\).
+\end{definition}
+
+The word smooth has a precise all-orders meaning.
+It does not require one numerical constant to bound every derivative order simultaneously.
+It requires each finite derivative order to remain well defined and continuous whenever that order is examined.
+
+\divider{Regularity}
+
+\begin{definition}[Regularity]\label{def:Regularity}
+Regularity describes the type and degree of control available for a solution.
+In the classical scale, \(C^0\) means continuity, \(C^1\) adds continuous first derivatives, and \(C^k\) requires all mixed derivatives through total order \(k\).
+Smoothness is the all-orders case \(C^\infty\).
+Sobolev and mixed space--time bounds are other forms of regularity, expressed through norms that measure integral control of the field and its derivatives.
+\end{definition}
+
+A regularity statement must name its level.
+Continuity of the velocity does not by itself control its gradient, and control of finitely many derivatives does not by itself give \(C^\infty\).
+The historical continuation criteria below matter because they identify levels of regularity strong enough to recover all remaining finite orders from the equations.
+
+\divider{Continuation and Maximal Time}
+
+\begin{definition}[Continuation]\label{def:Continuation}
+Suppose \((u,p)\) solves the Navier--Stokes equations on \(\Omega\times[0,T)\).
+A continuation past \(T\) is a velocity--pressure pair \((\widetilde u,\widetilde p)\) solving the same equations with the same viscosity on \(\Omega\times[0,T+\varepsilon)\) for some \(\varepsilon>0\), agreeing with \((u,p)\) before \(T\), and belonging to the required regularity class on the larger interval.
+\end{definition}
+
+For the Clay problem, the required class is \(C^\infty\).
+The adjective maximal means that the smooth solution has no such continuation beyond \(T_*\).
+Thus \(T_*<\infty\) can occur only if the solution loses enough regularity near \(T_*\) to defeat every applicable local restart.
+
+\divider{Finite Energy}
+
+On the whole space, the required solution also has bounded kinetic energy:
+\[
+  \sup_{t\geq0}
+  \int_{\mathbb R^3}|u(x,t)|^2\,dx
+  <
+  \infty.
+\]
+This condition keeps the total motion physically finite, yet it is much weaker than smoothness because it controls the velocity in \(L^2\) without directly controlling its pointwise values or higher derivatives.
+The distinction between finite energy and smoothness is where the historical estimates begin.
+
+\divider{What a Loss of Smoothness Means}
+
+At a finite endpoint \(T\), \(C^k\) regularity is lost when at least one required mixed derivative through order \(k\) fails to extend continuously to \(\Omega\times\{T\}\).
+That derivative may become unbounded, or it may remain bounded while approaching incompatible limiting values.
+A failure at any finite order prevents continuation in \(C^\infty\).
+The formal problem is whether the maximal smooth time can ever be finite.
+
