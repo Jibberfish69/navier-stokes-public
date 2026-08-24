@@ -1,0 +1,207 @@
+% ============================================================
+% 1.2 Historical Background
+% ============================================================
+\subsection{Historical Background}\label{sub:HistoricalEstimates}
+
+We already know how to solve the equations smoothly on a local time interval.
+The open problem begins when we try to keep restarting that solution forever.
+To restart it, we need some quantity the equations can stop from escaping.
+The first quantity they control for every finite time is kinetic energy.
+
+\divider{Leray's Energy Estimate}
+
+Take the inner product of the momentum equation with \(u\) and integrate over space.
+Nonlinear transport can move kinetic energy from one part of the flow to another, but the divergence-free condition makes its total contribution vanish.
+Pressure can redirect the motion, but it cannot change the total energy either.
+Viscosity is the term left over, and it removes energy through spatial variation.
+For a smooth solution this calculation is an equality, so in particular
+\begin{equation}\label{eq:LerayEnergyInequality}
+  \lVert u(t)\rVert_{L^2}^{2}
+  +2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^{2}\,ds
+  \leq
+  \lVert u_0\rVert_{L^2}^{2}.
+\end{equation}
+The first term keeps the kinetic energy bounded at each time.
+The second pays for the total spatial variation dissipated by viscosity over the whole interval.
+
+Leray then carried this inequality through a sequence of smooth approximations that only converge weakly.
+Weak lower semicontinuity keeps the left side from being lost in the limit, which is enough to construct a finite-energy weak solution on \(\mathbb R^3\) for all time \parencite{Leray1934}.
+On every finite interval this gives
+\[
+  u\in L^\infty(0,T;L^2),
+  \qquad
+  \nabla u\in L^2(0,T;L^2).
+\]
+Leray reached every finite time, but only in the energy class.
+The estimate does not keep the solution classically differentiable, and it does not give uniqueness in three dimensions.
+Its dissipation already points at the first derivative that can still escape.
+
+\divider{The Enstrophy Problem}
+
+For a divergence-free decaying field,
+\[
+  \lVert\nabla u\rVert_{L^2}^{2}
+  =
+  \lVert\omega\rVert_{L^2}^{2},
+  \qquad
+  \omega:=\nabla\times u.
+\]
+The squared \(L^2\) size of the vorticity is the enstrophy.
+Leray's estimate controls the area under its time graph.
+It does not control the height of that graph at each time, so very large enstrophy on very short intervals is still compatible with the energy inequality.
+
+Taking the curl of the momentum equation shows where that growth can come from:
+\begin{equation}\label{eq:HistoricalVorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =
+  (\omega\cdot\nabla)u+\nu\Delta\omega.
+\end{equation}
+Transport carries the vorticity along the flow, while viscosity diffuses it.
+The extra three-dimensional term stretches it.
+In two dimensions this stretching term is absent, and the enstrophy estimate closes.
+In three dimensions a surrounding gradient of \(u\) can elongate a vortex line and increase its intensity while viscosity is trying to smooth it.
+At the level of total enstrophy,
+\[
+  \frac12\frac{d}{dt}\lVert\omega\rVert_{L^2}^{2}
+  +\nu\lVert\nabla\omega\rVert_{L^2}^{2}
+  =
+  \int_{\mathbb R^3}(\omega\cdot\nabla)u\cdot\omega\,dx.
+\]
+Viscosity contributes a definite loss, while vortex stretching can either raise or lower the enstrophy.
+The global energy bound does not compare the two strongly enough to keep the enstrophy bounded at every time.
+
+\divider{Higher Sobolev Continuation}
+
+Local theory tells us what would rule out this escape.
+Suppose a smooth solution exists on \([0,T)\) and, for some \(s>5/2\),
+\begin{equation}\label{eq:HistoricalSobolevContinuation}
+  \sup_{0\leq t<T}\lVert u(t)\rVert_{H^s}<\infty.
+\end{equation}
+Sobolev embedding then controls \(\nabla u\), the differentiated energy estimates stay finite, and the local existence theorem can be run again at time \(T\).
+Classical continuation theory gives the same restart under the accumulated condition \parencite{FujitaKato1964,Kato1984}
+\[
+  \int_0^T\lVert\nabla u(t)\rVert_{L^\infty}\,dt<\infty.
+\]
+
+If either bound stays finite, then \(T\) is not the end of the smooth solution.
+So if \(T_*\) is finite and maximal, neither restart quantity can remain finite as \(t\uparrow T_*\).
+What is still missing is a way to derive either bound from arbitrary smooth initial data for all time.
+
+\divider{Caffarelli\textendash Kohn\textendash Nirenberg Partial Regularity}
+
+Without a global restart bound, Caffarelli, Kohn, and Nirenberg moved the energy argument into a shrinking neighbourhood of a spacetime point.
+For \(z_0=(x_0,t_0)\), write
+\[
+  Q_r(z_0)
+  :=
+  B_r(x_0)\times(t_0-r^2,t_0).
+\]
+Suitable weak solutions satisfy a local energy inequality on these parabolic cylinders.
+Their epsilon-regularity argument says that if the scale-invariant quantities built from \(u\) and \(p\) are small enough on \(Q_r(z_0)\), then the solution is regular on a smaller cylinder.
+
+Now read the same statement from a singular point.
+Every sufficiently small cylinder around that point must retain a definite amount of scale-invariant concentration; if even one cylinder fell below the threshold, the point would be regular.
+A covering argument then confines the possible singular set to a set of zero one-dimensional parabolic Hausdorff measure \parencite{CaffarelliKohnNirenberg1982}.
+The singular set can be this sparse and still contain one point.
+That one point is enough to break global smoothness, and it would have to sustain concentration through every smaller scale.
+Ruling out that last point requires a bound that controls its spatial intensity and temporal persistence together.
+
+\divider{Ladyzhenskaya\textendash Prodi\textendash Serrin Criteria}
+
+The Ladyzhenskaya\textendash Prodi\textendash Serrin estimates measure those two demands together.
+For \(q>3\), H\"older's inequality and interpolation bound the nonlinear term by
+\[
+  C\lVert u\rVert_{L^q}
+  \lVert\nabla u\rVert_{L^2}^{1-3/q}
+  \lVert\Delta u\rVert_{L^2}^{1+3/q}.
+\]
+Because \(1+3/q<2\), Young's inequality absorbs the highest derivative into the viscous term and leaves
+\[
+  \frac{d}{dt}\lVert\nabla u\rVert_{L^2}^{2}
+  +\nu\lVert\Delta u\rVert_{L^2}^{2}
+  \leq
+  C_{\nu,q}\lVert u\rVert_{L^q}^{\frac{2q}{q-3}}
+  \lVert\nabla u\rVert_{L^2}^{2}.
+\]
+The exponent \(2q/(q-3)\) tells us how much time-integrability of \(\lVert u\rVert_{L^q}\) is needed: the coefficient is integrable when
+\begin{equation}\label{eq:HistoricalLPSCriterion}
+  u\in L^p(0,T;L^q(\mathbb R^3)),
+  \qquad
+  \frac{2}{p}+\frac{3}{q}\leq1,
+  \qquad
+  q>3.
+\end{equation}
+Gr\"onwall's inequality then keeps the enstrophy finite, and the continuation theory carries the solution through \(T\).
+This gives the Ladyzhenskaya\textendash Prodi\textendash Serrin regularity criterion for Leray\textendash Hopf weak solutions \parencite{Prodi1959,Serrin1963,Ladyzhenskaya1967}.
+
+The exponent \(q\) measures how sharply \(u\) can concentrate in space, while \(p\) measures how long that concentration can persist.
+At equality, their mixed norm is unchanged by the Navier\textendash Stokes scaling.
+Any finite singular endpoint must make every admissible Serrin mixed norm infinite.
+But \(2q/(q-3)\) blows up at \(q=3\), so the estimate fails exactly where the critical spatial norm begins.
+
+\divider{The Escauriaza\textendash Seregin\textendash \v{S}ver{\'a}k Endpoint}
+
+Under the Navier\textendash Stokes rescaling
+\begin{equation}\label{eq:HistoricalNavierStokesScaling}
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+\end{equation}
+the spatial \(L^3\) norm does not change:
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3}.
+\]
+A concentration can be magnified back to unit scale without making this norm any smaller.
+
+Now assume that \(T\) is a first singular time while the \(L^3\) norm stays bounded up to \(T\).
+Magnify the solution around the suspected concentration.
+The critical bound survives every magnification, so compactness produces an ancient limiting solution with the same bound.
+The concentration used to choose the scales makes that limit nonzero.
+The limiting field vanishes at its final time, so its vorticity does too.
+Backward uniqueness carries that vanishing backward outside a large ball, and unique continuation forces the vorticity to vanish everywhere.
+The limiting field is then zero.
+The limit cannot be both nonzero and zero.
+Escauriaza, Seregin, and \v{S}ver{\'a}k used this contradiction to prove the critical endpoint criterion \parencite{EscauriazaSereginSverak2003}: a Leray\textendash Hopf weak solution on \(\mathbb R^3\) remains regular through \(T\) whenever
+\[
+  u\in L^\infty(0,T;L^3(\mathbb R^3)).
+\]
+
+The endpoint result says the critical norm must become unbounded near any finite maximal time.
+That still leaves open the possibility that it rises along isolated times and repeatedly falls back below some fixed level.
+Seregin ruled out that behaviour for smooth finite-energy solutions on \(\mathbb R^3\) \parencite{Seregin2012}: if \(T_*\) is finite and maximal, then
+\begin{equation}\label{eq:SereginLThreeDivergence}
+  \lim_{t\uparrow T_*}\lVert u(t)\rVert_{L^3(\mathbb R^3)}
+  =\infty.
+\end{equation}
+So the critical concentration has to leave every finite level and stay above it as the endpoint approaches.
+
+Seregin's result gives no rate for this divergence.
+Tao proved that for infinitely many times approaching any finite maximal time, the \(L^3\) norm has to exceed a positive power of a triple logarithm of the inverse time remaining \parencite{Tao2021Quantitative}.
+
+\divider{Where the Problem Sits Today}
+
+Now compare the critical norm with the global quantity Leray controls.
+At corresponding times,
+\[
+  \lVert u_\lambda(t)\rVert_{L^3}
+  =
+  \lVert u(\lambda^2t)\rVert_{L^3},
+  \qquad
+  \lVert u_\lambda(t)\rVert_{L^2}^{2}
+  =
+  \lambda^{-1}\lVert u(\lambda^2t)\rVert_{L^2}^{2}.
+\]
+Magnifying a smaller scale preserves the critical concentration while the rescaled kinetic energy becomes smaller.
+Thus the global \(L^2\) bound alone cannot put a scale-independent ceiling on the critical \(L^3\) concentration.
+
+Smaller structures have larger gradients and stronger viscous dissipation, but nonlinear transport can keep transferring activity into those scales.
+The unresolved question is whether viscous dissipation controls that transfer before a restart quantity diverges.
+
+A frequency-doubling picture makes the timing visible, though it is only a heuristic.
+If the active frequency doubles at each stage, its spatial scale halves and its natural parabolic time scale quarters.
+The model times then form a convergent geometric series, so time alone does not rule out an unlimited sequence of scale changes.
+That finite accumulation is the Zeno cascade picture.
+
+The open problem is to use the original datum, viscosity, and equations to obtain a restart bound that stays finite through this possible scale accumulation.
