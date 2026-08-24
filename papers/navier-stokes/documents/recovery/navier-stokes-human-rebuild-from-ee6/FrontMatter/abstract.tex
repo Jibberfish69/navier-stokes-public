@@ -1,0 +1,33 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+
+A first singular time would have to end a velocity field that is smooth on
+every earlier cutoff while leaving no terminal state from which the same
+Navier--Stokes history can restart.  For the maximal classical solution on
+\([0,T_*)\), we locate the first possible failure in the adjacent trace pair
+\(u\in L^2(0,T_*;H^2)\),
+\(u_t\in L^2(0,T_*;L^2)\).  Its cutoff-uniform bound is equivalent to
+\[
+  D_*:=\int_0^{T_*}\|\Lambda^{3/2}u(t)\|_2^2\,dt<\infty,
+\]
+and the critical-height balance makes the same condition equivalent to an
+upper bound on the signed critical-production prefix.  Once \(D_*\) is finite,
+the enstrophy equation supplies a uniform \(H^1\) trace; the
+Escauriaza--Seregin--\v{S}ver\'ak endpoint criterion then excludes a finite
+\(T_*\).  If the corresponding adjacent estimate is available at every finite
+temporal and spatial order, the rectangles contain identical derivatives on
+their overlaps.  Their compatible intersection reaches one
+\(u_*\in\bigcap_{m<\infty}H^m(\R^3)\), recovers the normalized pressure-complete
+jet there, and restarts the same history.  This proves global smoothness
+conditional on the whole-terminal rectangle condition.
+
+The argument also identifies the boundary of that condition.  Viscosity pays
+one higher spatial row on every fixed interval \(T<T_*\); small critical data
+absorb the nonlinear production; and any hypothetical finite maximal time
+obeys the datum-dependent capture horizon
+\(T_*\leq C^4\|u_0\|_2^4/(2\nu^5)\).  Kinetic energy pays the contribution of
+every fixed frequency range, so any failure of \(D_*\) is ultraviolet.  For an
+arbitrary large Schwartz datum, however, the classical energy and enstrophy
+balances do not provide the required upper bound on \(D_*\).  The manuscript
+thus gives an exact endpoint reduction and its conditional same-history
+closure, not an unconditional solution of the three-dimensional regularity
+problem.
