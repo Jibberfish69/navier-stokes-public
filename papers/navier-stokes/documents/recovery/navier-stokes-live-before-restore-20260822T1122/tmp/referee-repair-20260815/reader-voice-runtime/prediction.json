@@ -1,0 +1,218 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "reader-facing mathematical research manuscript",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "make the existing sections carry one causal route by adding missing footing and removing repeated or orphan scaffolding",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional incompressible Navier--Stokes global regularity",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "expert referees and mathematically serious readers new to this proof route",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "let each existing section spend the reader state inherited from the previous one and expose only the new mathematical payment",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "has the governing regularity question but the current manuscript repeatedly restarts its explanation and leaves key section seams implicit",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "can follow one fluid from the continuation gap through Gold and Silver, VPI, critical height, finite-time escalation, mixed jet, compatible rectangles, endpoint, and restart without repeated derivations or orphan machinery",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "missing section overviews, an undefined Silver universe, a broken restart-to-VPI handoff, repeated tower and Zeno derivations, and an unused finite-volume graph obscure the strongest 2.4-to-3.5 proof run",
+      "reason": "The live source, project format, and independent reader audit fix this interpretation."
+    }
+  ],
+  "reader_start": "has the governing regularity question but the current manuscript repeatedly restarts its explanation and leaves key section seams implicit",
+  "live_pressure": "missing section overviews, an undefined Silver universe, a broken restart-to-VPI handoff, repeated tower and Zeno derivations, and an unused finite-volume graph obscure the strongest 2.4-to-3.5 proof run",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-reader-seam-repair",
+      "move": {
+        "selection": "add causal Section 1 and 2 footing; bound the Silver picture; carry restart into a first-use VPI definition; remove the unused material graph; keep the Zeno picture once and recall it later; replace repeated material and temporal tower derivations with exact callbacks; preserve the fixed-Banach escalation and full spatial mixed recurrence as the new payments; keep the existing headings, order, and one-fluid proof custody",
+        "connection": "Spend the exact reader state already earned at each seam, so restart creates VPI, critical scaling creates the finite-time response question, and the established temporal tower creates the need for the new fixed-space and spatial-product results.",
+        "development": "Add only the missing section footing and scope sentences, remove repeated derivations and unused apparatus, and retain every new calculation, caveat, and handoff in the existing order.",
+        "expression": "Use Thomas's concrete one-fluid vocabulary and causal sentence movement; let callbacks name the exact prior result and let new equations arrive only where they change what the reader can infer."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "can follow one fluid from the continuation gap through Gold and Silver, VPI, critical height, finite-time escalation, mixed jet, compatible rectangles, endpoint, and restart without repeated derivations or orphan machinery",
+      "next_possibility": "The reader reaches the uninterrupted critical-column-to-rectangle-to-endpoint proof run without having to rebuild the object.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [],
+      "evidence_uses": [],
+      "risks": [
+        "Compression could delete a new mathematical payment together with repetition.",
+        "A callback could become vague document-navigation prose.",
+        "The Silver scope sentence could accidentally demote the later fixed-history closure.",
+        "Removing the material graph could erase the moving-neighbour intuition it was meant to illustrate."
+      ],
+      "confidence": "unknown"
+    }
+  ],
+  "chosen_move_id": "user-fixed-reader-seam-repair",
+  "choice_reason": "The exact repairs are fixed by the live reader failures and preserve the current structure while removing only repetition, ambiguity, and unused apparatus.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    },
+    {
+      "record_id": "decision-hold-object-transfer-only-behaviour-20260814",
+      "status": "not_applicable",
+      "reason": "The live source packet and user-fixed repair movement directly determine this bounded editorial pass."
+    }
+  ],
+  "uncertainties": [
+    "Voice fidelity remains for Thomas to judge after the full reader-facing artifact exists."
+  ],
+  "authorial_commitment": {
+    "work_target": "The existing human-manuscript section seams and repeated explanatory blocks named in the referee audit.",
+    "strongest_move_reason": "The repair spends already-earned reader understanding and protects the new mathematical payment in each section.",
+    "intellectual_gain": "The fixed-Banach escalation and full spatial mixed recurrence become visible as advances instead of being buried under repeated tower construction.",
+    "reader_gain": "The reader can move through one fluid and one proof route without resets, undefined scope, or orphan machinery.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader already has the governing problem and much of the one-fluid object, but the current seams repeatedly make that understanding start over.",
+      "section_job": "Repair the existing section openings, scope boundaries, and handoffs while compressing only material already paid elsewhere.",
+      "outgoing_reader_need": "The reader needs the formal compatible-intersection closure to consume the exact finite records developed in Section 2.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Supply the missing causal footing and callbacks, then remove duplicate Zeno, tower, and graph material without changing structure.",
+      "new_section_job": "",
+      "enrichment_reason": "Only details required to preserve the one-fluid mechanism and the exact new mathematical payment survive the compression.",
+      "enrichments": [
+        {
+          "detail": "Exact callbacks to the material and Eulerian tower already built in Section 1.7",
+          "reader_value": "Prevents repetition while keeping the operator identities available.",
+          "placement": "At the starts and close of Sections 2.2 and 2.3.",
+          "restraint": "Do not restate V1 through V3 or the pressure recurrence."
+        },
+        {
+          "detail": "First-use VPI definition generated by the restart burden",
+          "reader_value": "Makes the acronym and physical relation available before the detailed derivation.",
+          "placement": "Opening paragraph of Section 1.9.",
+          "restraint": "Keep the existing flow-map and packet mathematics."
+        },
+        {
+          "detail": "One retained scale picture at each distinct job",
+          "reader_value": "Separates the public-estimates gap, Blown derivative example, and exact critical-height calculation.",
+          "placement": "Sections 1.2, 1.8, and 2.1 respectively.",
+          "restraint": "Do not repeat the geometric parabolic schedule."
+        }
+      ]
+    }
+  }
+}
