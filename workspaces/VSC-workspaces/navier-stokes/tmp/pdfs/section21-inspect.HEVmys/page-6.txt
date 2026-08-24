@@ -1,0 +1,57 @@
+Nonlinear Production versus Viscous Dissipation
+At critical height, the nonlinear term contributes the signed production
+                                            D                                             E
+                     P1/2 [u](t) := − Re Λ1/2 u(t), Λ1/2 (u(t) · ∇)u(t)                              .
+                                                                                                L2
+
+                                                                                                                 2
+The pressure pairing vanishes because ∇ · u = 0, and the Laplacian contributes −ν Λ3/2 u .
+                                                                                         2
+The critical height obeys
+                                                              2
+                                H ′ (t) + ν Λ3/2 u(t)             = P1/2 [u](t).
+                                                              2
+
+The critical height rises precisely when nonlinear production exceeds viscous dissipation.
+Under the same rescaling,
+                                                                              2                          2
+            P1/2 [uλ ](t) = λ2 P1/2 [u](λ2 t),        ν Λ3/2 uλ (t)                = λ2 ν Λ3/2 u(λ2 t)       .
+                                                                              2                          2
+
+Nonlinear production and viscous dissipation remain scale-matched. Their common λ2 factor
+is the inverse of the time contraction t 7→ λ−2 t.
+
+
+The Heat Clock
+The heat equation vt = ν∆v gives the comparison clock for the viscous term:
+                                                                  2
+                                    vb(ξ, t + δt) = e−ν|ξ| δt vb(ξ, t).
+
+A scale-localized structure of width r occupies frequencies |ξ| ≃ r−1 . Its viscous change
+becomes order one when
+                                       ν|ξ|2 δt ≃ 1,
+so the comparison time is
+                                               r2
+                                                 τν (r) :=
+                                                  .
+                                                ν
+Halving the width quarters this clock. More generally,
+
+                                          τν (λ−1 r) = λ−2 τν (r).
+
+This is the same time contraction carried by the full Navier–Stokes rescaling.
+
+
+The Zeno Cascade
+Repeat the halving. For
+                                                                           rn2
+                                       rn := 2−n r0 ,             τn :=        ,
+                                                                           ν
+the heat clocks satisfy
+                                                        ∞
+                                       r02 −n           X                 4r02
+                                τn =      4 ,                 τn =             < ∞.
+                                       ν                n=0               3ν
+
+                                                        4
+

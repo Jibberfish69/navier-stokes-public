@@ -1,0 +1,50 @@
+For these clocks to describe a candidate singularity, one Navier–Stokes solution would have
+to pass through widths
+                                  r0 > r1 > r2 > · · · −→ 0
+at times
+                      t0 < t1 < t2 < · · · ↑ T∗ < ∞,               tn+1 − tn ≍ τn ,
+with comparison constants independent of n. The remaining time then satisfies
+                                                    ∞
+                                                    X            4rn2
+                                        T∗ − tn ≍         τk =        .
+                                                    k=n          3ν
+
+At the n-th width, both the next transition and the total time left are of order rn2 /ν. Along
+such a history, the spatial cascade becomes a temporal demand on u: each change of scale
+occurs on an interval of order rn2 /ν, and those intervals tend to zero as t ↑ T∗ .
+
+2.2    The temporal Tower
+The velocity may be growing or sharpening, and the rate at which it changes has a rate of
+change of its own. The same reading continues through every later response. At a fixed
+spatial coordinate, the sequence is
+
+                               u,       ∂t u,   ∂t2 u,       ∂t3 u,       ....
+
+Each row is the Eulerian time derivative of the one before it. They are successive responses
+of the same field, not separate singularity scenarios. Together they form the temporal Tower.
+Write
+                            Vn := ∂tn u,    Qn := ∂tn p,    n ∈ N0 .                   (2.2.1)
+Every finite differentiation below is taken on a strict interval where the solution remains
+classical.
+Navier–Stokes tells us exactly what those rows contain. For V0 = u,
+
+                                    V1 = ν∆V0 − (V0 · ∇)V0 − ∇Q0 .
+
+One time derivative can land on either copy of velocity in the transport term:
+
+                         V2 = ν∆V1 − (V1 · ∇)V0 − (V0 · ∇)V1 − ∇Q1 .
+
+One more derivative produces the middle placement twice:
+
+                 V3 = ν∆V2 − (V2 · ∇)V0 − 2(V1 · ∇)V1 − (V0 · ∇)V2 − ∇Q2 .
+
+At order n, the binomial coefficients count every way the time derivatives can divide between
+the transporting velocity and the velocity being transported:
+                         n
+                                    !
+                         X     n
+                Vn+1 +           (Va · ∇)Vn−a + ∇Qn = ν∆Vn ,                     ∇ · Vn = 0.   (2.2.2)
+                         a=0   a
+
+                                                    5
+
