@@ -1,0 +1,53 @@
+2     Critical Height and the Derivative Tower
+The momentum equation has four pieces:
+
+                          ∂ut            +       (u · ∇)u           = −∇p +            ν∆u
+                                                                                       | {z }         .
+                          |{z}                   |   {z    }           | {z }
+                    local acceleration       nonlinear transport       pressure   viscous diffusion
+
+
+The central regularity problem lies in the competition between nonlinear transport and
+viscosity. The hope is simple: viscosity smooths the fluid faster than nonlinear transport can
+sharpen it. If that remains true at every scale, the velocity stays smooth.
+
+2.1    Vortex Stretching
+Take a small material fluid element carrying vorticity along one axis. Suppose the strain is
+locally uniform across the element and extends it in that direction. If e is this axis and L(t)
+is the length of the element, write
+
+              1                                                                       L̇(t)
+       S :=      ∇u + (∇u)T ,                Se = σ(t)e,              σ(t) > 0,               = e · Se = σ(t).
+              2                                                                         L(t)
+
+The element cannot lengthen without becoming narrower. Incompressibility keeps its material
+volume V fixed, so q define its effective transverse area by A(t) := V/L(t) and its effective
+radius by reff (t) := A(t)/π. Then
+
+                                   d                               Ȧ                  ṙeff    σ(t)
+                ∇ · u = 0,            (AL) = 0,                       = −σ(t),               =−      .
+                                   dt                              A                   reff      2
+
+With ω := ∇ × u, the vorticity carried along the same axis satisfies
+                             Dω                                     D
+                                = Sω + ν∆ω,                            := ∂t + u · ∇,
+                             Dt                                     Dt
+and under the alignment ω = |ω|e,
+
+                                                     1 D|ω|2
+                        Sω = σ(t)ω,                          = σ(t)|ω|2 + ν ω · ∆ω.
+                                                     2 Dt
+
+On any interval where the right-hand side stays positive, the rotation strengthens as the
+radius contracts. The energy identity proved in Proposition A.2.1 and the antisymmetric
+part of ∇u give
+
+                                                          1                 |ω|
+                ∥u(t)∥2 ≤ ∥u0 ∥2 < ∞,                        ∇u − (∇u)T     = √ ≤ |∇u|F .
+                                                          2               F     2
+The energy remains finite while the rotational part of the gradient rises.
+
+
+
+                                                               2
+

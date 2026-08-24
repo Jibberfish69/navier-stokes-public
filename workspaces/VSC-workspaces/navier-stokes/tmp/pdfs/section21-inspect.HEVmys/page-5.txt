@@ -1,0 +1,49 @@
+Navier–Stokes Scaling
+At a time t0 < T∗ , call the effective radius ℓ := reff (t0 ). For λ > 1, the exact Navier–Stokes
+comparison at the finer width λ−1 ℓ is
+
+                     uλ (x, t) := λu(λx, λ2 t),               pλ (x, t) := λ2 p(λx, λ2 t).
+
+At time λ−2 t0 , the corresponding segment in uλ has effective radius λ−1 ℓ. This is another
+solution at another scale, not yet a later state of the original segment. Each momentum term
+transforms with it:
+                                 ∂t uλ (x, t) = λ3 (∂t u)(λx, λ2 t),
+                                                                     
+                           (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (λx, λ2 t),
+                                  ∇pλ (x, t) = λ3 (∇p)(λx, λ2 t),
+                                 ν∆uλ (x, t) = λ3 ν(∆u)(λx, λ2 t).
+The finer scale strengthens viscosity and nonlinear transport by the same λ3 factor. Pressure
+and local acceleration scale with them. Scale alone does not make viscosity dominate.
+
+
+Critical Height
+The equation keeps the same balance at the finer width, but its Sobolev norms change by
+different powers. Let Λ := (−∆)1/2 . Since
+
+                                         ucλ (ξ, t) = λ−2 ub(λ−1 ξ, λ2 t),
+
+a change of variables gives
+                                                                          2
+                                     ∥uλ (t)∥2Ḣ s = λ2s−1 u(λ2 t)               .
+                                                                          Ḣ s
+
+At s = 0, kinetic energy loses one power of λ; at s = 1, the first derivatives gain one. The
+exponent vanishes between them at s = 21 . Set
+
+                                            1                 1 1/2   2
+                              H(t) :=         ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .
+                                            2                 2       2
+
+Writing Hλ for the same quantity evaluated on uλ ,
+                                 2                                                                    2
+      ∥uλ (t)∥22 = λ−1 u(λ2 t)       ,        Hλ (t) = H(λ2 t),            ∥∇uλ (t)∥22 = λ ∇u(λ2 t)       .
+                                 2                                                                    2
+
+The rescaled vortex carries less kinetic energy and a larger first-derivative norm, while H
+does not change with the scale. That unchanged middle level is the critical height.
+
+
+
+
+                                                        3
+
