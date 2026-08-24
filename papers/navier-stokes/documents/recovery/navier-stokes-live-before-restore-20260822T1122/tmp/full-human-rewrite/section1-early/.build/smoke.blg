@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is '.build/smoke.blg'
+[45] biber-darwin:342> INFO - === Fri Aug 14, 2026, 08:19:24
+[56] Biber.pm:421> INFO - Reading '.build/smoke.bcf'
+[122] Biber.pm:1002> INFO - Found 13 citekeys in bib section 0
+[133] Biber.pm:4487> INFO - Processing section 0
+[139] Biber.pm:4678> INFO - Looking for bibtex file '../../../refs.bib' for section 0
+[140] bibtex.pm:1713> INFO - LaTeX decoding ...
+[149] bibtex.pm:1519> INFO - Found BibTeX data source '../../../refs.bib'
+[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[227] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[227] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[239] bbl.pm:676> INFO - Writing '.build/smoke.bbl' with encoding 'UTF-8'
+[243] bbl.pm:779> INFO - Output to .build/smoke.bbl
