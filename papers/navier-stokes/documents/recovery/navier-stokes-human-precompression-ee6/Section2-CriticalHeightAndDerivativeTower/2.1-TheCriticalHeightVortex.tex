@@ -1,0 +1,222 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The critical-height problem inside a stretching vortex}\label{sub:ThePerfectlyStretchingVortex}
+
+Take a region of fluid carrying coherent rotation and place it in an
+extensional strain.  Write
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+The curl of the momentum equation gives
+\begin{equation}\label{eq:BodyVorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The term \(S\omega\) is the exact action of strain on vorticity.  When
+\(\omega\) points along an extensional direction of \(S\),
+\[
+  \omega\cdot S\omega>0,
+\]
+and the rotation intensifies.
+
+The vortex does not receive that amplification without changing its shape.
+Incompressibility says
+\[
+  \operatorname{tr}S=\nabla\cdot u=0.
+\]
+Extension along the vortex axis must be accompanied by contraction in the
+transverse directions.  The structure becomes longer, its cross-section
+becomes narrower, and the velocity variation carried across that
+cross-section is pressed into less space.  If \(\Delta U\) is the variation
+across a width \(\ell\), then
+\[
+  |\nabla u|\sim\frac{\Delta U}{\ell}.
+\]
+The regularity problem is already visible in this ratio.  The amount of
+velocity may stay finite while the distance over which it changes collapses.
+
+Kinetic energy is allowed to miss that event.  Its exact balance is
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+The first term measures velocity over volume.  It does not retain the width
+across which that velocity changes.  A narrowing region can carry less and
+less kinetic energy while its gradients become steeper.
+
+Viscosity cannot be discussed apart from that narrowing.  Pair
+\eqref{eq:BodyVorticityEquation} with \(\omega\).  The pointwise form is
+\[
+  \frac12(\partial_t+u\cdot\nabla)|\omega|^2
+  =\omega\cdot S\omega
+  +\frac\nu2\Delta|\omega|^2
+  -\nu|\nabla\omega|^2.
+\]
+After integration over \(\R^3\), transport and the Laplacian flux disappear,
+and the competition becomes
+\begin{equation}\label{eq:BodyEnstrophyBalance}
+  \frac12\frac d{dt}\norm{\omega(t)}_2^2
+  +\nu\norm{\nabla\omega(t)}_2^2
+  =\int_{\R^3}\omega\cdot S\omega\,dx.
+\end{equation}
+Stretching and diffusion are acting on the same rotating structure.  As its
+width falls, both terms strengthen.  The balance has shown us the mechanism,
+but it has not told us whether viscosity gains on the stretching.
+
+\divider{Shrink the entire equation}
+
+Now shrink the picture without changing the law that governs it.  For
+\(\lambda>0\), define
+\begin{equation}\label{eq:BodyNavierStokesScaling}
+  u_\lambda(x,t):=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t):=\lambda^2p(\lambda x,\lambda^2t).
+\end{equation}
+Every term in the momentum equation receives the factor \(\lambda^3\):
+\[
+\begin{aligned}
+  \partial_tu_\lambda
+  &=\lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  &
+  (u_\lambda\cdot\nabla)u_\lambda
+  &=\lambda^3((u\cdot\nabla)u)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda
+  &=\lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  &
+  \Delta u_\lambda
+  &=\lambda^3(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Nothing in the smaller copy has handed viscosity an extra power of scale.
+Transport, pressure, and diffusion remain locked in the original proportion.
+The scale change has instead shortened the clock by \(\lambda^{-2}\).
+
+To see what the shrinking leaves unchanged, let
+\(\Lambda=(-\Delta)^{1/2}\).  A change of variables gives
+\begin{equation}\label{eq:BodyHomogeneousSobolevScaling}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =\lambda^{2s-1}\norm{u(\lambda^2t)}_{\dot H^s}^2.
+\end{equation}
+The exponent vanishes at one height:
+\[
+  2s-1=0,
+  \qquad
+  s=\frac12.
+\]
+We call
+\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+  H(t):=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2
+\end{equation}
+the critical height.  It is the spatial reading that a lawful concentration
+cannot make smaller by shrinking itself.  Energy sits below it and loses one
+power of \(\lambda\); the first derivative sits above it and gains one:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =\lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =\lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+This is why finite energy can remain calm while a derivative sharpens.  The
+critical height occupies the point between those two readings where the
+concentration is still fully visible.
+
+One rescaled profile makes the separation concrete.  For a nonzero
+divergence-free \(\phi\in\Ssigma\), set
+\[
+  u_\ell(x):=\ell^{-1}\phi(x/\ell).
+\]
+Then
+\[
+\begin{aligned}
+  \norm{u_\ell}_\infty&\sim\ell^{-1},
+  &\norm{\nabla u_\ell}_\infty&\sim\ell^{-2},
+  \\
+  \norm{u_\ell}_2^2&\sim\ell,
+  &\norm{u_\ell}_{\dot H^{1/2}}^2
+  &=\norm{\phi}_{\dot H^{1/2}}^2.
+\end{aligned}
+\]
+The amplitude and gradient rise, the energy falls, and the critical height
+does not move.  This family is not a Navier--Stokes trajectory.  It shows the
+shape of the loophole left open by energy and respected by scaling.
+
+\divider{What the equation does at critical height}
+
+Scaling has selected the right height.  The equation now tells us how that
+height moves.  For
+\[
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2,
+\]
+keep transport and pressure together in the signed response
+\[
+  \mathcal P_s(t)
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+The pressure part vanishes in this global pairing after incompressibility is
+used.  We keep it visible because the scalar balance came from the complete
+momentum equation, not from transport alone.  Pairing at height \(s\) gives
+\begin{equation}\label{eq:BodySpatialEnergyBalanceIntro}
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\end{equation}
+At the critical height,
+\begin{equation}\label{eq:BodyCriticalHeightBalanceIntro}
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\end{equation}
+Positive production raises \(H\) only after paying the viscous loss beside
+it.  The equation has placed the unresolved stretching--diffusion contest at
+the scale-invariant height where neither side can escape by rescaling.
+
+\divider{Give the shrinking scale a clock}
+
+The linear heat flow assigns an exact time scale to a width.  If
+\(v_t=\nu\Delta v\), then
+\[
+  \widehat v(\xi,t+\delta t)
+  =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure of width \(r\) lives near \(|\xi|\simeq r^{-1}\).  Diffusion
+changes its amplitude by order one on the time
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \tau_\nu(r)\asymp\frac{r^2}{\nu}.
+\end{equation}
+This is not yet an estimate on the nonlinear fluid.  It is the amount of time
+viscosity assigns to a scale once the evolution has actually formed that
+scale.
+
+Take geometrically shrinking widths
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu}.
+\]
+Their heat clocks satisfy
+\begin{equation}\label{eq:BodyZenoHeatClock}
+  \tau_n=\frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =\frac{4r_0^2}{3\nu}<\infty.
+\end{equation}
+This is the Zeno opening: the clocks attached to infinitely many smaller
+scales fit inside a finite amount of elapsed time.
+
+The arithmetic does not create a singularity.  The fluid would have to form
+\(r_0\), then \(r_1\), then \(r_2\), continuing without losing the
+stretching alignment while viscosity is already acting on every scale that
+has appeared.  Each new event would begin from the velocity produced by the
+previous one.  The widths shrink, the clocks shorten, and the critical
+stretching--diffusion balance has to be reproduced again.
+
+That is what turns the spatial picture into a question about response.  If the
+velocity is to cross sharper states during shorter intervals, what must its
+acceleration do?  If the acceleration is forced upward, what must lead it?
+The singularity has brought us to the temporal derivative Tower.
