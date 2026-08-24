@@ -1,0 +1,366 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The local construction behind the maximal history}
+\label{app:LocalConstruction}
+
+One local theorem must do two jobs without changing its clock.  It constructs
+the initial history and later restarts it from the terminal datum.  The clock is
+set by \(\nu\) and the datum’s \(H^3\) size; any higher regularity already carried
+by that datum survives on the same interval.
+
+For real \(s\), let
+\[
+  H^s_\sigma(\R^3)
+  :=\{v\in H^s(\R^3;\R^3):\nabla\cdot v=0\}.
+\]
+
+\begin{proposition}[Local construction and continuation alternative]\label[proposition]{prop:LocalMaximalHistory}
+Fix \(t_0\geq0\), \(\nu>0\), and \(a\in H^3_\sigma(\R^3)\).  A time
+\(\delta=\delta(\nu,\norm{a}_{H^3})>0\) exists for which there is a unique
+normalized-pressure pair \((w,q)\) satisfying
+\[
+  w\in C([t_0,t_0+\delta];H^3_\sigma)
+  \cap L^2(t_0,t_0+\delta;H^4),
+  \qquad
+  w_t\in L^2(t_0,t_0+\delta;H^2).
+\]
+If the datum also lies in \(H^m_\sigma\) for an integer \(m>3\), this same
+interval carries
+\[
+  w\in C([t_0,t_0+\delta];H^m_\sigma)
+  \cap L^2(t_0,t_0+\delta;H^{m+1}),
+  \qquad
+  w_t\in L^2(t_0,t_0+\delta;H^{m-1}).
+\]
+These local pairs agree on overlaps and form one maximal history.  If its
+maximal time is finite, its \(H^3\) norm is unbounded along times approaching
+that endpoint.
+\end{proposition}
+
+\begin{proof}[Proof of Proposition~\ref{prop:LocalMaximalHistory}]
+Keep \(t_0,\nu,a\) fixed as above and measure all real Sobolev orders with
+\[
+  \norm{f}_{H^s}^2
+  :=\int_{\R^3}\langle\xi\rangle^{2s}
+       |\widehat f(\xi)|^2\,d\xi,
+  \qquad
+  \langle\xi\rangle=(1+|\xi|^2)^{1/2}.
+\]
+Write \(\Leray\) for the Leray projection and \(R_j\) for the Riesz transform
+with symbol \(i\xi_j/|\xi|\).  Each acts boundedly on every \(H^s\).
+
+\divider{The three rows forced by the nonlinearity and the heat equation}
+
+The construction must first absorb one derivative of \(w\otimes w\).  In three
+dimensions,
+\[
+  H^3(\R^3)\hookrightarrow W^{1,\infty}(\R^3),
+  \qquad
+  \norm{fg}_{H^3}\leq C\norm{f}_{H^3}\norm{g}_{H^3},
+\]
+so an \(H^3\) velocity is Lipschitz and products stay in \(H^3\).  After the
+divergence and Leray projection this gives
+\begin{equation}
+  \norm{\Leray\nabla\!\cdot(f\otimes g)}_{H^2}
+  \leq C\norm{f}_{H^3}\norm{g}_{H^3}.
+  \label{eq:LocalProductEstimate}
+\end{equation}
+Leibniz’ rule proves the estimate for integer derivatives, using
+\(H^2\hookrightarrow L^\infty\) and \(H^1\hookrightarrow L^6\); density then
+removes the smoothness assumption.
+
+Once the force lies in \(H^2\), the heat equation places one parabolic derivative
+above the base state and the time derivative one below it.  Thus
+\(z\in L^2_tH^4_x\) and \(z_t\in L^2_tH^2_x\), with \(H^3\) exactly between
+them.  For any such \(v\),
+\[
+  v\in L^2(J;H^4),
+  \qquad
+  v_t\in L^2(J;H^2),
+\]
+frequency truncation followed by the fundamental theorem of calculus and
+Cauchy--Schwarz yields
+\begin{equation}
+  \left|
+    \norm{v(t)}_{H^3}^2-\norm{v(r)}_{H^3}^2
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(r,t;H^2)}
+   \norm{v}_{L^2(r,t;H^4)}.
+  \label{eq:LocalAdjacentTrace}
+\end{equation}
+The right-hand side vanishes with the length of the time interval.  Removing the
+frequency cutoff therefore gives a unique representative in \(C(J;H^3)\), so
+the three rows of the strong class are
+\[
+  C_tH^3_x\cap L^2_tH^4_x,
+  \qquad
+  \partial_t v\in L^2_tH^2_x.
+\]
+The continuous middle trace is what lets the equation remember its initial
+value while the heat operator gains one square-integrable derivative.
+
+\divider{A linear estimate aligned with those rows}
+
+On \(J_\delta=[t_0,t_0+\delta]\), \(0<\delta\leq1\), consider
+\[
+  z_t-\nu\Delta z=F,
+  \qquad
+  z(t_0)=a,
+  \qquad
+  F\in L^2(J_\delta;H^2).
+\]
+At the \(H^3\) level the force and solution occupy the adjacent spaces
+\(H^2\) and \(H^4\).  Their Fourier pairing is
+\[
+  \langle F,z\rangle_{H^2,H^4;H^3}
+  :=\int_{\R^3}\langle\xi\rangle^6
+       \widehat F(\xi)\cdot\overline{\widehat z(\xi)}\,d\xi.
+\]
+The weight factors as
+\(
+  \langle\xi\rangle^6
+  =\langle\xi\rangle^2\langle\xi\rangle^4
+\)
+and Cauchy--Schwarz therefore gives
+\begin{equation}
+  \left|\langle F,z\rangle_{H^2,H^4;H^3}\right|
+  \leq\norm{F}_{H^2}\norm{z}_{H^4}.
+  \label{eq:LocalShiftedPairing}
+\end{equation}
+For a smooth solution the corresponding energy row is
+\[
+  \frac12\frac d{dt}\norm{z}_{H^3}^2
+  +\nu\norm{\nabla z}_{H^3}^2
+  =\operatorname{Re}\langle F,z\rangle_{H^2,H^4;H^3}.
+\]
+The inhomogeneous norm separates the dissipative part exactly:
+\[
+  \norm{z}_{H^4}^2
+  =\norm{z}_{H^3}^2+\norm{\nabla z}_{H^3}^2.
+\]
+Insert \eqref{eq:LocalShiftedPairing}, absorb by Young’s inequality, and apply
+Gronwall to obtain
+\[
+  \norm{z}_{C(J_\delta;H^3)}
+  +\norm{z}_{L^2(J_\delta;H^4)}
+  \leq
+  C_\nu\left(
+    \norm{a}_{H^3}+\norm{F}_{L^2(J_\delta;H^2)}
+  \right).
+\]
+The equation then controls the missing time row as well:
+\begin{equation}
+  \norm{z}_{C(J_\delta;H^3)}
+  +\norm{z}_{L^2(J_\delta;H^4)}
+  +\norm{z_t}_{L^2(J_\delta;H^2)}
+  \leq
+  C_\nu\left(
+    \norm{a}_{H^3}+\norm{F}_{L^2(J_\delta;H^2)}
+  \right).
+  \label{eq:LocalLinearEstimate}
+\end{equation}
+No constant here deteriorates as \(\delta\) shrinks within \((0,1]\).
+Frequency-truncate \(a\) and \(F\), solve the smooth equations, and apply
+\eqref{eq:LocalLinearEstimate} to differences.  The Cauchy limit solves the
+untruncated problem, while \eqref{eq:LocalAdjacentTrace} recovers its prescribed
+strong \(H^3\) value at \(t_0\).  Applying the estimate to the difference of two
+solutions proves uniqueness.
+
+\divider{Closing the nonlinear map}
+
+Set
+\[
+  X_\delta
+  :=C(J_\delta;H^3_\sigma)\cap L^2(J_\delta;H^4),
+  \qquad
+  \norm{w}_{X_\delta}
+  :=\norm{w}_{C H^3}+\norm{w}_{L^2H^4}.
+\]
+The projected equation defines the map
+\begin{equation}
+  \Phi(w)(t)
+  :=e^{\nu(t-t_0)\Delta}a
+  -\int_{t_0}^{t}e^{\nu(t-s)\Delta}
+    \Leray\nabla\!\cdot(w\otimes w)(s)\,ds.
+  \label{eq:LocalMildMap}
+\end{equation}
+All abbreviated time norms below refer to \(J_\delta\).  The product estimate
+and the factor \(\delta^{1/2}\) from the interval give
+\begin{align}
+  \norm{\Leray\nabla\!\cdot(w\otimes w)}_{L^2H^2}
+  &\leq C\delta^{1/2}\norm{w}_{C H^3}^2,
+  \label{eq:LocalQuadraticCount}
+  \\
+  \norm{\Leray\nabla\!\cdot(w\otimes w-v\otimes v)}_{L^2H^2}
+  &\leq C\delta^{1/2}
+  \bigl(\norm{w}_{C H^3}+\norm{v}_{C H^3}\bigr)
+  \norm{w-v}_{C H^3}.
+  \label{eq:LocalDifferenceCount}
+\end{align}
+The linear estimate turns these force bounds into
+\[
+  \norm{\Phi(w)}_{X_\delta}
+  \leq C_\nu\norm{a}_{H^3}
+  +C_\nu C\delta^{1/2}\norm{w}_{X_\delta}^2
+\]
+and
+\[
+  \norm{\Phi(w)-\Phi(v)}_{X_\delta}
+  \leq C_\nu C\delta^{1/2}
+  \bigl(\norm{w}_{X_\delta}+\norm{v}_{X_\delta}\bigr)
+  \norm{w-v}_{X_\delta}.
+\]
+When \(a\neq0\), set \(R=2C_\nu\norm{a}_{H^3}\) and choose
+\(\delta\leq1\) with \(4C_\nu C\delta^{1/2}R\leq1\).  Then \(\Phi\) maps the
+closed radius-\(R\) ball into itself and contracts it by at least a factor of
+two.  For \(a=0\), the fixed point is identically zero.  Banach’s theorem gives
+\(w\in X_\delta\), with a choice satisfying
+\begin{equation}
+  \delta
+  \geq
+  \min\left\{1,c_\nu(1+\norm{a}_{H^3})^{-2}\right\}.
+  \label{eq:LocalLifespan}
+\end{equation}
+The constant \(c_\nu>0\) depends only on the fixed viscosity and the chosen
+Sobolev normalization.
+
+Uniqueness is not confined to that ball.  If \(w,v\in X_\delta\) share the
+datum, apply the linear and difference estimates to \(w-v\) on an initial
+subinterval short enough to absorb the coefficient.  The solutions agree
+there.  Their common endpoint starts the same argument on the next subinterval,
+and a finite partition covers \(J_\delta\).  The heat semigroup and \(\Leray\)
+preserve divergence-free fields; the projected equation also supplies
+\begin{equation}
+  w_t\in L^2(J_\delta;H^2).
+  \label{eq:LocalTimeRow}
+\end{equation}
+
+\divider{Restoring the pressure to the same solution}
+
+For the constructed velocity, set
+\begin{equation}
+  q:=R_iR_j(w_iw_j).
+  \label{eq:LocalPressureFormula}
+\end{equation}
+The algebra property and Riesz bounds imply
+\[
+  q\in C(J_\delta;H^3).
+\]
+For \(F=\nabla\!\cdot(w\otimes w)\), the Fourier symbols identify
+\(\Leray F=F+\nabla q\).  Hence the projected fixed point is the
+pressure-complete solution
+\[
+  w_t+(w\cdot\nabla)w+\nabla q=\nu\Delta w,
+  \qquad
+  \nabla\cdot w=0,
+  \qquad
+  w(t_0)=a.
+\]
+Membership of \(q(t)\) in \(H^3(\R^3)\) removes the whole-space additive
+constant.  Two normalized pressures for the same velocity differ by an
+\(L^2\) function with zero gradient and therefore coincide.  The uniqueness
+already proved is consequently uniqueness of the pair \((w,q)\).
+
+\divider{Higher regularity without a shorter clock}
+
+Fix an integer \(m\geq3\) and temporarily take \(a\) smooth.  Differentiate the
+projected equation by every \(\partial^\alpha\), \(|\alpha|\leq m\), pair with
+the same derivative of \(w\), and sum.  Divergence-free transport cancels at the
+top order:
+\[
+  \bigl((w\cdot\nabla)\partial^\alpha w,\partial^\alpha w\bigr)_2=0.
+\]
+Every remaining Leibniz term differentiates the transporting factor at least
+once.  The embeddings \(H^2\hookrightarrow L^\infty\) and
+\(H^1\hookrightarrow L^6\) then give
+\[
+  \left(
+  \sum_{|\alpha|\leq m}
+  \norm{[\partial^\alpha,w\cdot\nabla]w}_2^2
+  \right)^{1/2}
+  \leq C_m\norm{\nabla w}_\infty\norm{w}_{H^m}.
+\]
+Thus the differentiated energy obeys
+\begin{equation}
+  \frac12\frac d{dt}\norm{w}_{H^m}^2
+  +\nu\norm{\nabla w}_{H^m}^2
+  \leq C_m\norm{\nabla w}_\infty\norm{w}_{H^m}^2.
+  \label{eq:LocalPersistenceEnergy}
+\end{equation}
+The already constructed \(C_tH^3_x\) solution has integrable Lipschitz norm on
+this same interval.  Gronwall therefore yields
+\begin{equation}
+  \norm{w(t)}_{H^m}^2
+  \leq
+  \norm{a}_{H^m}^2
+  \exp\left(
+    2C_m\int_{t_0}^{t}\norm{\nabla w(s)}_\infty\,ds
+  \right).
+  \label{eq:LocalPersistenceBound}
+\end{equation}
+Retaining the dissipative term gives \(w\in L^2(J_\delta;H^{m+1})\).  At order
+\(m-1\), the nonlinear term lies in \(L^2(J_\delta;H^{m-1})\), so the equation
+also gives
+\[
+  w_t\in L^2(J_\delta;H^{m-1}).
+\]
+The adjacent trace at height \(m\) completes the three rows:
+\begin{equation}
+  w\in C(J_\delta;H^m)
+  \cap L^2(J_\delta;H^{m+1}),
+  \qquad
+  w_t\in L^2(J_\delta;H^{m-1}).
+  \label{eq:LocalHigherPersistence}
+\end{equation}
+The pressure formula and the \(H^m\) algebra property put
+\(q\) in \(C(J_\delta;H^m)\) as well.
+
+For general \(a\in H^m_\sigma\), approximate it by divergence-free frequency
+cutoffs \(a_k\).  Their \(H^3\) norms share a bound controlled by
+\(\norm{a}_{H^3}\); hence \eqref{eq:LocalLifespan} puts every smooth
+approximation on one common interval.  The fixed-point estimate identifies the
+\(H^3\) limit with \(w\), while the persistence inequalities bound all three
+higher rows uniformly.  Weak compactness then identifies their limits with the
+same \(w\).  The adjacent trace gives continuity in \(H^m\); the energy
+inequality at \(t_0\), together with weak convergence to \(a\), upgrades the
+initial convergence to strong convergence in \(H^m\).
+
+The interval never depends on \(m\); it was chosen once from \(\nu\) and
+\(\norm{a}_{H^3}\).  If \(a\in H^\infty_\sigma\), repeat the argument at each
+finite height.  Uniqueness in \(H^3\) keeps every height on the same pair, and
+the pressure formula and momentum equation then recover every finite time
+derivative.  Spatial embedding makes \((w,q)\) smooth throughout the local
+space--time slab.
+
+\divider{Joining the local pieces and locating the only obstruction}
+
+Begin at \(t_0\) and extend through every interval allowed by the construction.
+Strong uniqueness makes the velocity and normalized pressure identical on
+overlaps, producing one pressure-complete history on a maximal interval
+\([t_0,T_{\max})\).
+
+Suppose \(T_{\max}<\infty\) and
+\[
+  \sup_{t_0\leq t<T_{\max}}\norm{w(t)}_{H^3}\leq M.
+\]
+If its displayed \(H^3\) bound were finite, the lifespan estimate would supply
+the same positive amount of future time
+\[
+  \delta_M
+  :=\min\left\{1,c_\nu(1+M)^{-2}\right\}
+\]
+from every later datum \(w(t)\).  Choose
+\(t>T_{\max}-\delta_M/2\).  Restarting at \(w(t)\) then crosses
+\(T_{\max}\), and uniqueness glues that restart to the supposed maximal
+history.  The contradiction proves
+\begin{equation}
+  T_{\max}<\infty
+  \quad\Longrightarrow\quad
+  \limsup_{t\uparrow T_{\max}}\norm{w(t)}_{H^3}=\infty.
+  \label{eq:LocalContinuationAlternative}
+\end{equation}
+Every higher order already present in the datum persists along each piece,
+because every piece uses this same \(H^3\)-controlled clock.  In particular,
+\(a\in\Ssigma\subset H^\infty_\sigma\) generates the smooth normalized maximal
+history claimed above.
+\end{proof}
