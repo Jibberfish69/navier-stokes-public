@@ -1,0 +1,13 @@
+{
+  "required": [
+    "Preserve the integrated vorticity balance.",
+    "Preserve the exact Navier--Stokes scaling definitions.",
+    "Establish declaratively that the unresolved issue is whether moving to smaller scale gives viscosity an advantage over stretching.",
+    "Explain that width, amplitude, pressure, and time are coupled and must be rescaled together."
+  ],
+  "forbidden": [
+    "Rhetorical or direct questions in manuscript prose.",
+    "New mathematics.",
+    "Generic textbook recap."
+  ]
+}
