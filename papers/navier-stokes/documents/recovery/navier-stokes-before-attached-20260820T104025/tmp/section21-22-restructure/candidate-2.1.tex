@@ -1,0 +1,157 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+The momentum equation puts four pieces into one evolution:
+\[
+  \underbrace{\partial_tu}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+For the regularity problem, the central competition is between nonlinear transport and viscosity.
+The hope is that viscosity supplies all the smoothing needed to keep the velocity smooth: it must smooth the fluid at least as quickly as nonlinear transport sharpens it.
+
+In three dimensions, the difficulty comes from vortex stretching.
+When a region of concentrated rotation is stretched along its axis, incompressibility reduces its transverse cross-sectional area.
+If a nontrivial transverse velocity difference persists while that distance shrinks, the corresponding spatial gradient can grow.
+Finite kinetic energy does not exclude that growth because it controls total squared velocity, not the distance across which the velocity changes.
+A finite-time singularity would require the sharpening to continue until some spatial derivative becomes unbounded.
+
+The stretching mechanism appears when the momentum equation is curled.
+Define
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of Navier--Stokes gives
+\begin{equation}\label{eq:VorticityEquation}
+  \partial_t\omega+(u\cdot\nabla)\omega
+  =(\omega\cdot\nabla)u+\nu\Delta\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The left side follows the vorticity carried by the moving fluid.
+The term \(S\omega\) is vortex stretching.
+When the vorticity is aligned with an extensional direction of the strain, \(S\omega\) amplifies it.
+Taking the scalar product with \(\omega\) gives
+\[
+  \frac12(\partial_t+u\cdot\nabla)|\omega|^2
+  =\omega\cdot S\omega
+  +\nu\,\omega\cdot\Delta\omega.
+\]
+The first term can increase the strength of the vorticity.
+The second is the viscous response to its spatial variation.
+The original competition has reappeared in the quantity that measures concentrated rotation.
+
+To see what happens as the distance across the vortex shrinks, rescale the full equation.
+For \(\lambda>1\), set
+\[
+  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Every piece of the momentum equation acquires the same factor:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=\lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  &
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=\lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=\lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  &
+  \Delta u_\lambda(x,t)
+  &=\lambda^3(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+The transformation preserves Navier--Stokes and produces a solution with rescaled initial data.
+It compares solutions rather than asserting that \(u_\lambda\) is a later state of the original history.
+The factor \(\lambda>1\) displays the velocity at spatial scale \(\lambda^{-1}\), time scale \(\lambda^{-2}\), and velocity scale \(\lambda\).
+
+Write \(U\) for the velocity amplitude and \(\ell\) for the active spatial width.
+In the critical-scaling spike picture, \(\lambda\simeq\ell^{-1}\), so
+\[
+  U\sim\ell^{-1},
+  \qquad
+  |\nabla u|\sim\ell^{-2},
+  \qquad
+  \tau\sim\ell^2.
+\]
+If the spike occupies a region of volume comparable to \(\ell^3\), the kinetic energy carried by that packet scales as
+\[
+  E_\ell\sim U^2\ell^3\sim\ell\longrightarrow0.
+\]
+Its velocity amplitude and gradients can diverge even as the energy of the shrinking packet tends to zero.
+This is the critical spike picture supplied by the scaling, not a conclusion about every concentrating velocity history.
+
+This scaling identifies the natural level at which concentration should be measured.
+For a homogeneous Sobolev norm,
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =\lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+The exponent vanishes when
+\[
+  2s-1=0,
+  \qquad
+  s=\frac12.
+\]
+With \(\Lambda:=(-\Delta)^{1/2}\), define
+\begin{equation}\label{eq:BodyCriticalHeightDefinition}
+  H(t)
+  :=\frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =\frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\end{equation}
+We call \(H(t)\) the critical height.
+
+Meanwhile, the basic energy identity remains
+\begin{equation}\label{eq:BodyEnergyIdentity}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+Under the same rescaling,
+\[
+  \norm{u_\lambda(t)}_2^2
+  =\lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =\lambda\norm{\nabla u(\lambda^2t)}_2^2,
+\]
+while
+\[
+  H_\lambda(t)=H(\lambda^2t).
+\]
+A smaller-scale profile can carry less kinetic energy, a larger first-derivative norm, and the same critical height.
+This is why finite kinetic energy does not exclude the sharpening that vortex stretching can produce.
+
+The critical spike picture and the general critical-height route must be kept separate.
+The critical-height route tracks growth of \(H\), but that growth alone does not imply \(\norm{u}_{L^\infty}\to\infty\).
+A velocity field can develop increasingly steep spatial structure while its pointwise amplitude remains bounded.
+Velocity-amplitude blow-up follows from the critical spike law \(U\sim\ell^{-1}\); outside that model it requires additional information.
+
+The competition can also be read at the critical height itself.
+Set
+\[
+  \mathcal P_{1/2}(t)
+  :=-
+  \operatorname{Re}
+  \left\langle
+    \Lambda^{1/2}\bigl((u\cdot\nabla)u+\nabla p\bigr),
+    \Lambda^{1/2}u
+  \right\rangle_{L^2}.
+\]
+Applying \(\Lambda^{1/2}\) to Navier--Stokes and pairing with \(\Lambda^{1/2}u\) gives
+\begin{equation}\label{eq:BodyCriticalHeightBalance}
+  H'(t)
+  +\nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =\mathcal P_{1/2}(t).
+\end{equation}
+The production term can raise the critical height, while viscosity dissipates it through one additional spatial derivative.
+The same scaling that identifies this height also fixes the time on which viscosity responds to each shrinking spatial scale.

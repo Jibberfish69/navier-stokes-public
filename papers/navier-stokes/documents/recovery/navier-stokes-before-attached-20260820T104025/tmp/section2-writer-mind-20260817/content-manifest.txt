@@ -1,0 +1,21 @@
+Target: workspaces/VSC-workspaces/navier-stokes/Section2-CriticalHeightAndDerivativeTower/index.tex
+Scope: complete active Section 2 and new active subsection inputs only
+Prior reader state: Section 1 has established finite critical concentration and a Zeno-compatible timing schedule left open by classical estimates
+Required reader end state: the reader has physically followed the perfectly stretching vortex through critical height and Zeno, derived the temporal and mixed Towers, seen temporal loss oppose spatial regularity, and understands why finite rectangles are the route to the intersection theorem
+Proof authority: problems/navier-stokes/target-operating-contract.yaml
+Proof spine: problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+Preserved downstream labels:
+- eq:FiniteTimeLThreeEscape
+- eq:BodyEnergyIdentity
+- eq:BodyTemporalVelocityRecurrence
+- eq:BodyTemporalPressureRecurrence
+- eq:BodyMixedPressureRecurrence
+- eq:BodyInitialPressureCompleteMixedJet
+Excluded from Section 2:
+- completed critical-height recurrence and isolation
+- row-by-row whole-terminal estimates
+- rectangle norm and trace identity
+- whole-terminal compatible-intersection theorem
+- endpoint jet, restart, and finite-maximality contradiction
+Writing anchor: ProjectInstructions/WritingAnchors.md Anchor 1, Section 1.4 Silver Standard Proof
+Novelist craft transfer: visible cue to inference to consequence; pressure escalation; continuity of the reader's mental model; substantive handoff only
