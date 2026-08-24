@@ -4,18 +4,18 @@
 % ============================================================
 \subsection{The Critical Height at the Terminal Face}\label{sub:TheCriticalHeightAtTheTerminalFace}
 
-The terminal rectangles provide adjacent spatial rows.  Their first task is to
-turn two time-integrated norms into one strong value at the terminal face.
+The whole-terminal rectangles contain adjacent spatial rows on \(I_*\).
+Before using them at critical height, we prove that one such pair gives a strong value at \(T_*\).
 
 \begin{lemma}[Adjacent Hilbert-scale trace]\label{lem:AdjacentHilbertScaleTrace}
-Let \(s\in\R\) and suppose
+Let \(s\in\R\), and let \(v\) satisfy
 \[
   v\in L^2(I_*;H^{s+1}),
   \qquad
   v_t\in L^2(I_*;H^{s-1}).
 \]
-Then \(v\) has one representative in \(C([0,T_*];H^s)\), and for
-\(0\leq a\leq b\leq T_*\),
+Then \(v\) has a unique representative in \(C([0,T_*];H^s)\).
+For \(0\leq a\leq b\leq T_*\), this representative satisfies
 \begin{equation}\label{eq:AdjacentHilbertScaleEstimate}
   \left|
   \norm{v(b)}_{H^s}^{2}
@@ -28,8 +28,8 @@ Then \(v\) has one representative in \(C([0,T_*];H^s)\), and for
 \end{lemma}
 
 \begin{proof}
-Let \(A=(1-\Delta)^{1/2}\).  Time mollification and frequency truncation make
-the following identity legitimate for smooth approximants:
+Put \(A=(1-\Delta)^{1/2}\).
+Time mollification and Fourier truncation first give, for smooth approximants,
 \begin{equation}\label{eq:AdjacentHilbertScaleIdentity}
   \norm{v(b)}_{H^s}^{2}
   -\norm{v(a)}_{H^s}^{2}
@@ -38,29 +38,31 @@ the following identity legitimate for smooth approximants:
   \pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}
   \,dt.
 \end{equation}
-Cauchy--Schwarz gives \eqref{eq:AdjacentHilbertScaleEstimate}.  The two assumed
-\(L^2\) rows pass the right-hand side to the limit.  The limit identity makes
-the \(H^s\) norm continuous, while the approximation also gives weak
-\(H^s\) continuity; together they imply strong continuity.  Any two continuous
-representatives agree everywhere because they agree almost everywhere.
+Cauchy's inequality gives \eqref{eq:AdjacentHilbertScaleEstimate} for the approximants.
+The two assumed \(L^2\) norms let the approximants converge in the right side of \eqref{eq:AdjacentHilbertScaleIdentity}.
+The resulting identity makes the \(H^s\) norm continuous, while the same approximation gives weak \(H^s\) continuity.
+Weak continuity together with norm continuity gives strong \(H^s\) continuity.
+Two continuous representatives that agree almost everywhere agree everywhere, which proves uniqueness.
 \end{proof}
 
-The critical readout needs only \(\cR_{0,2}[u_0]\).  Its integer rows embed into
-the fractional adjacent pair
+The critical readout uses only the rectangle \(\cR_{0,2}[u_0]\).
+That rectangle supplies \(u\in L^2(I_*;H^3)\) and \(u_t\in L^2(I_*;H^1)\), hence
 \begin{equation}\label{eq:SectionThreeCriticalAdjacentPair}
   u\in L^2(I_*;H^{5/2}),
   \qquad
   u_t\in L^2(I_*;H^{1/2}).
 \end{equation}
-No fractional rectangle has been assumed; these are continuous embeddings of
-the integer record.  The trace lemma at \(s=3/2\) now gives
+The fractional pair follows from the continuous inhomogeneous Sobolev embeddings, so no fractional-index rectangle is being assumed.
+Applying the adjacent trace lemma with \(s=3/2\) gives
 \begin{equation}\label{eq:SectionThreeCriticalVelocityTrace}
   u\in C([0,T_*];H^{3/2}).
 \end{equation}
 
-Let \(H=E_{1/2}\).  To read the homogeneous critical energies from the
-inhomogeneous trace, mollify in time and truncate frequencies to
-\(\varepsilon\leq|\xi|\leq R\).  Differentiation and Plancherel then give
+Let \(H(t)=E_{1/2}(t)\), with \(E_s\) defined in \eqref{eq:SectionThreeSpatialEnergy}.
+The homogeneous identity needed here follows directly on the critical pair.
+Apply time mollification together with Fourier multipliers that truncate to
+\(\varepsilon\leq|\xi|\leq R\).
+For the resulting smooth, frequency-localized functions, differentiation and Plancherel's theorem give
 \[
   \frac{1}{2}\norm{\Lambda^{3/2}u(b)}_{L^2}^{2}
   -\frac{1}{2}\norm{\Lambda^{3/2}u(a)}_{L^2}^{2}
@@ -69,9 +71,9 @@ inhomogeneous trace, mollify in time and truncate frequencies to
   \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
   \,dt.
 \]
-Cauchy--Schwarz passes the integral to the limit through the two critical rows;
-the continuous \(H^{3/2}\) trace passes the endpoint terms.  Removing all
-cutoffs yields, for \(0\leq a\leq b\leq T_*\),
+The two memberships in \eqref{eq:SectionThreeCriticalAdjacentPair} give convergence of the integral by Cauchy's inequality.
+The continuity in \eqref{eq:SectionThreeCriticalVelocityTrace} gives convergence of the endpoint terms as \(\varepsilon\downarrow0\), \(R\uparrow\infty\), and the time mollifier is removed.
+Consequently, for \(0\leq a\leq b\leq T_*\),
 \[
   E_{3/2}(b)-E_{3/2}(a)
   =
@@ -79,20 +81,21 @@ cutoffs yields, for \(0\leq a\leq b\leq T_*\),
   \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
   \,dt.
 \]
-The adjacent pair makes the derivative integrable, and the complete spatial row
-makes \(E_{3/2}\) itself integrable.  Hence
+The pair in \eqref{eq:SectionThreeCriticalAdjacentPair} places the integrand in \(L^1(I_*)\).
+Equation \eqref{eq:SectionThreeAllSpatialEnergies} supplies \(E_{3/2}\in L^1(I_*)\).
+Thus
 \begin{equation}\label{eq:SectionThreeCriticalEnergyRegularity}
   E_{3/2}\in W^{1,1}(I_*)\cap L^1(I_*)
   \subset L^\infty(I_*).
 \end{equation}
 
-The integer rows also put the derivative of the critical height in \(L^1\):
+The stronger integer rows \(u,u_t\in L^2(I_*;H^1)\) give
 \begin{equation}\label{eq:SectionThreeCriticalHeightDerivative}
   H'(t)
   =\pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2}
   \in L^1(I_*).
 \end{equation}
-Keep the pressure-explicit production current as
+The pressure-explicit critical production current is
 \[
   \mathcal P_{1/2}
   :=
@@ -100,11 +103,11 @@ Keep the pressure-explicit production current as
   \pair{\Lambda^{1/2}u}
   {\Lambda^{1/2}\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
 \]
-Pairing the full equation with \(\Lambda u\) gives
+Pairing the original equation with \(\Lambda u\) yields the exact balance
 \[
   H'=-2\nu E_{3/2}+\mathcal P_{1/2}.
 \]
-The two integrable rows consequently imply
+Equations \eqref{eq:SectionThreeCriticalEnergyRegularity} and \eqref{eq:SectionThreeCriticalHeightDerivative} now give
 \[
   H\in W^{1,1}(I_*),
   \qquad
@@ -112,7 +115,7 @@ The two integrable rows consequently imply
   \qquad
   \mathcal P_{1/2}\in L^1(I_*).
 \]
-The height and \(E_{3/2}\) therefore reach the terminal face continuously; the
-production current is only integrable, and no endpoint value is claimed for it.
-This entire critical trace comes from \(\cR_{0,2}[u_0]\).  Higher rectangles
-will repeat the endpoint argument at every finite Sobolev height.
+Thus the critical height and \(E_{3/2}\) have continuous representatives up to \(T_*\), while the pressure-explicit production current is integrable in time.
+No endpoint value is assigned to that current.
+The rectangle \(\cR_{0,2}[u_0]\) gives this critical trace.
+The higher rectangles place the same \(u\) in every spatial Sobolev row, which is the input needed to obtain one terminal value in every \(H^m\).

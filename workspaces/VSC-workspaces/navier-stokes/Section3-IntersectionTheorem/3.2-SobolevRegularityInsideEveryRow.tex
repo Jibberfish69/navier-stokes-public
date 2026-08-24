@@ -1,27 +1,38 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{The full grid and its intersection}\label{sub:SobolevRegularityInsideEveryCompletedRow}
+\subsection{The same spatial ladder inside every response}\label{sub:SobolevRegularityInsideEveryCompletedRow}
 
-Fix \(r\in\Nzero\).  The scalar energy of the response \(V_r\) at spatial
-height \(s\) is
+Fix one temporal response \(V_r\).  Its differentiated equation couples
+\(V_0,\ldots,V_r\) with the pressure row \(Q_r\), while the Laplacian acts linearly
+on that same \(V_r\).  For \(r=1\), the equation reads
 \[
-  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2.
+  V_2
+  +(V_1\cdot\nabla)V_0
+  +(V_0\cdot\nabla)V_1
+  +\nabla Q_1
+  =\nu\Delta V_1.
 \]
-The transfer paired with that response is
-\[
+The transport has split into two terms, the pressure has differentiated with it, and
+the same Laplacian still acts linearly on \(V_1\).  Pairing this equation at spatial
+height \(s\) gives the same balance we found for \(u\).
+
+At arbitrary temporal order, set
+\begin{align*}
+  E_{r,s}
+  &:=\frac12\norm{\Lambda^sV_r}_2^2,
+  \\
   \mathcal P_{r,s}
-  :=-
-  \operatorname{Re}
+  &:=-\operatorname{Re}
   \pair{\Lambda^sV_r}
-  {\Lambda^s\!\left[
+  {\Lambda^s\!\left(
     \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
     +\nabla Q_r
-  \right]}_{L^2}.
-\]
-Pairing the \(r\)-th differentiated momentum equation at this height produces
+  \right)}_{L^2}.
+\end{align*}
+The recurrence \eqref{eq:BodyTemporalVelocityRecurrence} gives
 \begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
   E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
 \end{equation}
-Beginning at \(s=\tfrac12\) and repeating the same induction gives the completed row
+Starting from \(s=\tfrac12\) and repeating the critical-height calculation yields
 \begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
   \partial_t^nE_{r,1/2}
   =(-2\nu)^nE_{r,n+1/2}
@@ -29,43 +40,51 @@ Beginning at \(s=\tfrac12\) and repeating the same induction gives the completed
   (-2\nu)^j
   \partial_t^{\,n-1-j}\mathcal P_{r,j+1/2}.
 \end{equation}
-The same pattern now repeats inside every response.  Moving down changes the
-temporal response; moving across exposes a higher spatial energy; and the
-nonlinear transfer remains beside it.  On a fixed strict interval
-\(I=(0,T)\), \(T<T_*\), classical smoothness makes every finite entry in this
-grid finite by \Cref{prop:LocalMaximalHistory}.  Nothing in
-\eqref{eq:BodyEveryTemporalRowCompletedHeight} makes those bounds uniform as
-\(T\uparrow T_*\).
+So there is not one spatial ladder attached only to \(u\).  There is a separate ladder
+inside \(u_t\), another inside \(u_{tt}\), and another inside every fixed \(V_r\).
+Temporal order selects the response; spatial order asks how finely that response is
+resolved.  The equation keeps those directions distinct while viscosity connects each
+row to its own next spatial height.
 
-What would control of the grid buy?  Ask for \(q\) time derivatives and \(k\)
-spatial derivatives, both finite.  Choose
-finite indices
+Lay the two independent directions out before placing bounds on them:
+
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The mixed grid the estimate has to fill.  Each entry is the time-dependent coordinate \(\norm{V_r(t)}_{H^m}\); temporal order runs downward and spatial height runs across, and the rectangle estimate will make each selected finite coordinate uniform through the terminal time.}
+\label{tab:MixedDerivativeGrid}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{@{}c c c c c c@{}}
+\toprule
+& \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
+\midrule
+\(V_0=u\) & \(\norm{V_0(t)}_{H^0}\) & \(\norm{V_0(t)}_{H^1}\) & \(\norm{V_0(t)}_{H^2}\) & \(\norm{V_0(t)}_{H^3}\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\norm{V_1(t)}_{H^0}\) & \(\norm{V_1(t)}_{H^1}\) & \(\norm{V_1(t)}_{H^2}\) & \(\norm{V_1(t)}_{H^3}\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\norm{V_2(t)}_{H^0}\) & \(\norm{V_2(t)}_{H^1}\) & \(\norm{V_2(t)}_{H^2}\) & \(\norm{V_2(t)}_{H^3}\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\norm{V_3(t)}_{H^0}\) & \(\norm{V_3(t)}_{H^1}\) & \(\norm{V_3(t)}_{H^2}\) & \(\norm{V_3(t)}_{H^3}\) & \(\cdots\) \\
+\(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Now fix one row \(V_r\) and return to the singularity.  Repeated integration in time
+showed that a finite terminal time would force
 \[
-  r>q+\frac12,
+  \sup_{0<t<T_*}\norm{V_r(t)}_3=\infty.
+\]
+To stop that escape, it is enough to place the same row in
+\(C([0,T_*];H^1)\), because \(H^1(\R^3)\hookrightarrow L^3(\R^3)\).  But a terminal
+trace cannot be read from one space-time norm alone.  For \(V_r\) to arrive
+continuously in \(H^1\), the natural pair is
+\[
+  V_r\in L^2(I_*;H^2),
   \qquad
-  m>k+\frac32.
+  V_{r+1}=\partial_tV_r\in L^2(I_*;L^2).
 \]
-The vector-valued time embedding followed by the three-dimensional spatial
-embedding \parencite[Theorem~7.28]{Cerda2010} reads
+More generally, an \(H^m\) trace asks for
 \[
-  H^r\bigl(I;H^m(\R^3)\bigr)
-  \hookrightarrow
-  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+  V_r\in L^2(I_*;H^{m+1}),
+  \qquad
+  V_{r+1}\in L^2(I_*;H^{m-1}).
 \]
-Every finite request can be met by choosing finite indices above its two
-thresholds.  On the fixed strict interval this gives
-\begin{equation}\label{eq:BodyFormalMixedIntersection}
-  \mathscr V_\infty(I)
-  :=\bigcap_{r=0}^{\infty}\bigcap_{m=0}^{\infty}
-  H^r\bigl(I;H^m(\R^3)\bigr)
-  \hookrightarrow C^\infty(\overline I\times\R^3).
-\end{equation}
-The constants may depend on the selected \((r,m)\).  Smoothness asks for each
-finite derivative in turn; it does not ask for one constant uniform over the
-entire grid.
-
-The remaining issue is time.  A dot in the grid can be finite on every strict
-subinterval and still diverge as the endpoint is approached.  To carry a
-spatial derivative to one time slice, we have to place it beside the temporal
-response directly below it.  Those adjacent pairs determine the finite
-rectangles.
+The two rows meet at the missing middle height.  That adjacent pair is the first finite
+piece of the grid with enough information to survive the terminal time.

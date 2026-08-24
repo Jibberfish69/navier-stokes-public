@@ -1,13 +1,17 @@
 % !TeX root = ../navier-stokes-manuscript.tex
-\subsection{A spatial column inside every temporal response}\label{sub:TheViscosityDrivenSpatialAscent}
+\subsection{The other direction inside critical height}\label{sub:TheViscosityDrivenSpatialAscent}
 
-The table has placed temporal response against spatial height.  Start with the
-base response \(V_0=u\), where the two directions first became visible at
-critical height.  For \(s\geq0\), set
+Now differentiate the critical height itself.  This is where the temporal Tower turns.
+The singularity argument used successive time derivatives to ask how rapidly the same
+velocity history would have to respond.  Viscosity makes that same count expose a
+second direction: every differentiation of the height reaches one full Sobolev step
+higher in space.
+
+For \(s\geq0\), write
 \[
   E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2
 \]
-and retain the complete transport--pressure pairing
+and keep the entire nonlinear and pressure transfer in
 \[
   \mathcal P_s(t)
   :=-
@@ -15,80 +19,116 @@ and retain the complete transport--pressure pairing
   \pair{\Lambda^su}
   {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
 \]
-The spatial energy row is
+The global pressure pairing vanishes because \(\Lambda^su\) is divergence-free, but
+we retain it here so that the scalar row still records the full equation from which it
+came.  Pairing Navier--Stokes with \(\Lambda^{2s}u\) gives
 \begin{equation}\label{eq:BodyFullSpatialEnergyBalance}
   E_s'=\mathcal P_s-2\nu E_{s+1}.
 \end{equation}
-At \(s=\tfrac12\),
+
+At \(s=\tfrac12\), this says
 \begin{equation}\label{eq:BodyFirstCriticalRow}
   H'=\mathcal P_{1/2}-2\nu E_{3/2}.
 \end{equation}
-The next two rows make the triangular structure explicit:
-\begin{align}
+Across one Zeno first-passage interval,
+\begin{equation}\label{eq:EachZenoPassageCost}
+  \int_{t_k}^{t_{k+1}}\mathcal P_{1/2}(t)\,dt
+  =L_k+2\nu\int_{t_k}^{t_{k+1}}E_{3/2}(t)\,dt.
+\end{equation}
+The identity records two simultaneous contributions on every first-passage interval.
+The net rise is \(L_k\), while viscosity removes an additional
+\(2\nu\int_{t_k}^{t_{k+1}}E_{3/2}(t)\,dt\).  Shortening the crossing interval changes
+neither term; it concentrates the required transfer into less time.
+
+Differentiate once more and use \eqref{eq:BodyFullSpatialEnergyBalance} at height
+\(s=\tfrac32\):
+\begin{equation}\label{eq:BodySecondCriticalRow}
   H''
-  &=\partial_t\mathcal P_{1/2}
+  =\partial_t\mathcal P_{1/2}
   -2\nu\mathcal P_{3/2}
-  +(2\nu)^2E_{5/2},
-  \label{eq:BodySecondCriticalRow}\\
+  +(2\nu)^2E_{5/2}.
+\end{equation}
+The next derivative gives
+\begin{equation}\label{eq:BodyThirdCriticalRow}
   H'''
-  &=\partial_t^2\mathcal P_{1/2}
+  =\partial_t^2\mathcal P_{1/2}
   -2\nu\partial_t\mathcal P_{3/2}
   +(2\nu)^2\mathcal P_{5/2}
   -(2\nu)^3E_{7/2}.
-  \label{eq:BodyThirdCriticalRow}
-\end{align}
-Every lower transfer survives while one higher spatial energy appears.
-
-The complete identity is the triangular row that keeps every lower transfer
-while exposing one new spatial height.
-\begin{proposition}[Critical-height spatial ascent]\label[proposition]{prop:CriticalHeightSpatialAscent}
-For every integer \(n\geq1\),
+\end{equation}
+Nothing below the new top term disappears.  Each derivative keeps every earlier
+transfer and adds one higher viscous energy.  Induction gives, for \(n\geq1\),
 \begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
   H^{(n)}
   =(-2\nu)^nE_{n+1/2}
   +\sum_{j=0}^{n-1}
   (-2\nu)^j
-  \partial_t^{\,n-1-j}\mathcal P_{j+1/2},
-  \qquad n\geq1.
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
 \end{equation}
-\end{proposition}
-\begin{proof}
-The critical balance \eqref{eq:BodyFirstCriticalRow} is the case \(n=1\).
-Assume the identity at order \(n\), differentiate it, and apply
-\eqref{eq:BodyFullSpatialEnergyBalance} at height \(n+\tfrac12\).  The new
-transfer extends the sum by one term, while the viscous contribution becomes
-\((-2\nu)^{n+1}E_{n+3/2}\).  This is the row at order \(n+1\).
-\end{proof}
-Solving the triangular row for its highest energy gives
+Because \(\nu>0\) is fixed, the highest spatial energy can be isolated:
 \begin{equation}\label{eq:BodyCompletedCriticalRow}
   E_{n+1/2}
-  =\frac{
-    H^{(n)}-
-    \displaystyle\sum_{j=0}^{n-1}
-    (-2\nu)^j\partial_t^{\,n-1-j}\mathcal P_{j+1/2}
-  }{(-2\nu)^n}.
+  =
+  \frac{
+    H^{(n)}
+    -\displaystyle\sum_{j=0}^{n-1}
+      (-2\nu)^j
+      \partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  }{(-2\nu)^n}
+  \qquad(n\geq1).
 \end{equation}
-The division is lawful because \(\nu>0\).  It does not erase the transfer
-sum.  The completed row names the exact collection that has to be controlled
-before the exposed spatial energy is controlled.
+Since \(\nu>0\), the coefficient \((-2\nu)^n\) is nonzero, and the row can be
+solved for its top spatial energy.  The numerator still contains the derivative of
+\(H\) and the complete chain of transfer terms.
+Equation \eqref{eq:BodyCompletedCriticalRow} isolates the higher Sobolev height; it
+does not bound it for free.
 
-The height derivative remains a contraction of the velocity responses:
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The same order \(n\) viewed from the two sides of the argument.  The temporal response \(V_n\) and the scalar derivative \(H^{(n)}\) are different objects; the table places the singularity demand beside the spatial energy exposed by viscosity.}
+\label{tab:CompletedCriticalHeightRows}
+\small
+\renewcommand{\arraystretch}{1.45}
+\begin{tabularx}{\textwidth}{@{}c c >{\raggedright\arraybackslash}X c@{}}
+\toprule
+order & temporal response & completed critical-height row & spatial height \\
+\midrule
+\(0\) & \(V_0=u\) & \(H=E_{1/2}\) & \(E_{1/2}\) \\
+\(1\) & \(V_1=u_t\) & \(H'=\mathcal P_{1/2}-2\nu E_{3/2}\) & \(E_{3/2}\) \\
+\(2\) & \(V_2=u_{tt}\) & \eqref{eq:BodySecondCriticalRow} & \(E_{5/2}\) \\
+\(3\) & \(V_3=u_{ttt}\) & \eqref{eq:BodyThirdCriticalRow} & \(E_{7/2}\) \\
+\(n\) & \(V_n=\partial_t^nu\) & \eqref{eq:BodyCriticalHeightSpatialAscent} & \(E_{n+1/2}\) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The two middle columns cannot be identified.  Their exact connection is the quadratic
+contraction
 \begin{equation}\label{eq:BodyHeightDerivativeVelocityContraction}
   H^{(n)}
   =\frac12\sum_{a=0}^{n}\binom{n}{a}
   \operatorname{Re}
-  \pair{\Lambda^{1/2}V_a}
-       {\Lambda^{1/2}V_{n-a}}_{L^2}.
+  \pair{\Lambda^{1/2}V_a}{\Lambda^{1/2}V_{n-a}}_{L^2}.
 \end{equation}
-The three readings at order \(n\) are distinct.  \(V_n\) is the Eulerian
-response, \(H^{(n)}\) is its quadratic critical contraction, and
-\(E_{n+1/2}\) is the highest spatial energy exposed after the full transfer
-chain has been retained.  The identity reveals that energy; it does not bound
-the transfer chain on its right.  This is the exact point at which the hoped-for
-reversal becomes conditional.  Viscosity has exposed a higher spatial energy;
-writing the row has not controlled that energy.
+But now the reversal is visible.  A finite singular time asks every fixed response
+\(V_n\) to lose \(L^3\) control.  The \(n\)-th completed scalar row points at the same
+time toward \(E_{n+1/2}\), hence toward \(n+\tfrac12\) spatial derivatives of the
+velocity.  If those heights can be controlled, then for any prescribed \(k\), choosing
+\(n>k+1\) first gives
+\[
+  \norm{u(t)}_{H^{n+1/2}}
+  \lesssim
+  \norm{u(t)}_2+\norm{\Lambda^{n+1/2}u(t)}_2.
+\]
+The energy identity controls the low-frequency term, while \(E_{n+1/2}\) controls the
+homogeneous term.  We may then use
+\[
+  H^{n+1/2}(\R^3)\hookrightarrow C_b^k(\R^3).
+\]
+The singularity is asking the history to become rougher while the viscous calculation
+is opening stronger spatial regularity.
 
-Does the same obstruction remain after the base response changes?  Shift the
-calculation from \(u\) to a fixed \(V_r\).  The Laplacian still acts linearly on
-that response, while every split of the transport derivative remains in the
-binomial sum.  The next row answers the question for all finite \(r\).
+That is the shape of the contradiction, not yet the contradiction itself.  The
+transfer terms still have to be controlled, and the same spatial ascent has to be
+recovered inside every temporal response \(V_r\), not only inside \(u=V_0\).  We turn
+to that row-by-row calculation now.
