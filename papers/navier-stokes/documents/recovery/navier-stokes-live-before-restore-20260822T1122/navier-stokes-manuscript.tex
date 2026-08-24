@@ -1,0 +1,41 @@
+\documentclass[12pt,oneside,letterpaper]{article}
+
+% Bibliography switch.
+\newif\ifworkspacebibliography
+\workspacebibliographytrue
+
+% ===== Preamble =====
+\input{preamble/packages.tex}
+\input{preamble/macros.tex}
+\input{preamble/theoremstyle.tex}
+\input{preamble/metadata.tex}
+
+% ===== Bibliography resource =====
+\ifworkspacebibliography
+\addbibresource{refs.bib}
+\fi
+
+\begin{document}
+
+\input{FrontMatter/index.tex}
+
+% ===== Manuscript structure =====
+\input{Section1-RegularityProblem/index.tex}
+\input{Section2-CriticalHeightAndDerivativeTower/index.tex}
+\input{Section3-IntersectionTheorem/index.tex}
+\input{Section4-MissingEstimateAndClosure/index.tex}
+
+\clearpage
+\appendix
+\input{Appendices/index.tex}
+
+\ifworkspacebibliography
+\defbibheading{bibliography}{%
+  \phantomsection
+  \section*{Bibliography}%
+  \addcontentsline{toc}{section}{Bibliography}%
+}
+\printbibliography
+\fi
+
+\end{document}
