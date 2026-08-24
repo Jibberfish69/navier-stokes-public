@@ -1,0 +1,59 @@
+and
+                                                                   Z t
+                                    ∥Vn (t) − Vn (s)∥B ≤                 ∥Vn+1 (τ )∥B dτ.
+                                                                    s
+
+If
+
+                                                   sup ∥Vn (t)∥B = ∞,
+                                               0<t<T∗
+
+
+then the finiteness of ∥Vn (0)∥B forces
+                                           Z T∗
+                                                   ∥Vn+1 (τ )∥B dτ = ∞.
+                                               0
+
+Because T∗ < ∞, this in turn forces
+
+                                               sup ∥Vn+1 (t)∥B = ∞.
+                                            0<t<T∗
+
+
+This iteration is valid only while the same fixed space B, absolute continuity, and the Bochner-
+derivative identity hold at every successive row. That is the precise statement of finite-time
+response escalation for the temporal rows used in the paper.
+
+B.3     The Pressure-Complete Mixed Jet
+    At temporal order n, the recurrences (2.2.2) and (2.2.4) contain Vn+1 , ν∆Vn , every
+binomial split of the transport term, and the normalized pressure row Qn . To see the spatial
+derivatives already present in that equation, begin with one derivative of a transport factor.
+Differentiate one transport factor in the coordinate direction xℓ :
+                                           
+                     ∂ℓ (Va · ∇)Vn−a = ((∂ℓ Va ) · ∇)Vn−a + (Va · ∇)∂ℓ Vn−a .
+
+At higher spatial order, every derivative divides between the two factors. For α ∈ N30 , write
+the corresponding velocity and pressure derivatives as
+
+                                     Jn,α := ∂tn ∂xα u,             Πn,α := ∂tn ∂xα p,
+
+and for β ≤ α, set
+                                                          3
+                                                      !                    !
+                                                    α    Y   αk
+                                                      :=        .
+                                                    β    k=1 βk
+
+The simultaneous temporal and spatial product rules give
+                                                    n X
+                                                                   !       !
+                                                             n          α
+                     ∂tn ∂xα
+                                                    X
+                                   (u · ∇)u =                               (Ja,β · ∇)Jn−a,α−β .
+                                                    a=0 β≤α    a          β
+
+
+
+                                                              42
+
