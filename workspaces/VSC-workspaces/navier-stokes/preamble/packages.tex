@@ -22,16 +22,34 @@
 \usepackage{xcolor}
 \usepackage{enumitem}
 \usepackage{etoolbox}
-\usepackage{indentfirst}
-\newcommand{\UseManuscriptParagraphSpacing}{%
-  \setlength{\parskip}{0.5\baselineskip}%
-}
-\UseManuscriptParagraphSpacing
 \usepackage{titlesec}
 \usepackage{needspace}
 \usepackage{csquotes}
 \usepackage{xparse}
 \usepackage{tocloft}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\raggedright}
+  {\thesection}
+  {1em}
+  {}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\raggedright}
+  {\thesubsection}
+  {1em}
+  {}
+
+% ===== Paragraph rhythm =====
+\usepackage[
+  skip=0.30\baselineskip plus 1pt minus 0.5pt,
+  indent=0pt,
+  tocskip=0pt
+]{parskip}
+\newlength{\ManuscriptParagraphSkip}
+\setlength{\ManuscriptParagraphSkip}{\parskip}
+\apptocmd{\abstract}{%
+  \setlength{\parskip}{\ManuscriptParagraphSkip}%
+  \setlength{\parindent}{0pt}%
+}{}{}
 
 % ===== Links and references: load in this order =====
 \usepackage[hidelinks]{hyperref}
@@ -46,7 +64,7 @@
   sorting=nyt,
   maxnames=10
 ]{biblatex}
-\AtBeginBibliography{\footnotesize\setlength{\bibitemsep}{0pt}}
+\AtBeginBibliography{\footnotesize\raggedright\setlength{\bibitemsep}{0pt}}
 \fi
 
 % ===== Page and contents layout =====

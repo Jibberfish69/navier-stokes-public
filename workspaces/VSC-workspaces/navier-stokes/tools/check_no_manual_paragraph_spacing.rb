@@ -3,7 +3,7 @@
 
 # Input: an optional manuscript-workspace root, defaulting to the current directory.
 # Output: no output on success; source locations and a nonzero exit on failure.
-# Authority: enforces the prose-and-display rhythm rules owned by ProjectInstructions/Format.txt.
+# Authority: enforces the paragraph-rhythm rule owned by ProjectInstructions/Format.txt.
 # Writes: none.
 
 require "find"
@@ -22,9 +22,7 @@ EXCLUDED_DIRECTORIES = %w[
 ].freeze
 FORBIDDEN_PATTERNS = {
   "manual vertical spacing" => /\\(?:vspace\*?|smallskip|medskip|bigskip|addvspace|vskip)\b/,
-  "explicit paragraph break" => /\\par\b/,
-  "local display-spacing override" => /\\(?:abovedisplayskip|abovedisplayshortskip|belowdisplayskip|belowdisplayshortskip|jot)\b/,
-  "manual display-row spacing" => /\\\\\s*\[[^\]]+\]/
+  "explicit paragraph break" => /\\par\b/
 }.freeze
 
 def strip_tex_comment(line)
@@ -66,6 +64,6 @@ end
 
 exit 0 if violations.empty?
 
-$stderr.puts "Manuscript prose-and-display spacing check failed:"
+$stderr.puts "Manuscript paragraph-spacing check failed:"
 violations.each { |violation| $stderr.puts "- #{violation}" }
 exit 1

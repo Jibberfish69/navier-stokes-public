@@ -7,77 +7,20 @@
 \numberwithin{figure}{subsection}
 \numberwithin{table}{subsection}
 
-% Formal-environment spacing, copied from monograph-V6.
-\newlength\EnvPreSkipBase
-\setlength{\EnvPreSkipBase}{1\baselineskip}
-\newlength\EnvPostSkipBase
-\setlength{\EnvPostSkipBase}{1\baselineskip}
-\newlength\EnvNestDelta
-\setlength{\EnvNestDelta}{1\baselineskip}
-\newlength\EnvPreSkipList
-\setlength{\EnvPreSkipList}{\dimexpr\EnvPreSkipBase-\EnvNestDelta\relax}
-\newlength\EnvPostSkipList
-\setlength{\EnvPostSkipList}{\dimexpr\EnvPostSkipBase-\EnvNestDelta\relax}
-
-\makeatletter
-\newcommand{\EnvAddPreVspace}{%
-  \ifnum\@listdepth>0 \addvspace{\EnvPreSkipList}\else \addvspace{\EnvPreSkipBase}\fi}
-\newcommand{\EnvAddPostVspace}{%
-  \ifnum\@listdepth>0 \addvspace{\EnvPostSkipList}\else \addvspace{\EnvPostSkipBase}\fi}
-\newcommand{\EnvFirstParaNoIndent}{%
-  \@afterindentfalse\@afterheading}
-\makeatother
-
-\newcommand{\ApplyEnvSpacing}[1]{%
-  \forcsvlist{\DeclareOneEnvSpacing}{#1}}
-\newcommand{\DeclareOneEnvSpacing}[1]{%
-  \AtBeginEnvironment{#1}{\par\EnvAddPreVspace\EnvFirstParaNoIndent}%
-  \AfterEndEnvironment{#1}{\par\EnvAddPostVspace}}
-
-\newtheoremstyle{manuscriptplain}
-  {0pt}
-  {0pt}
-  {\itshape}
-  {0pt}
-  {\bfseries}
-  {.}
-  {.5em}
-  {}
-\newtheoremstyle{manuscriptdefinition}
-  {0pt}
-  {0pt}
-  {\normalfont}
-  {0pt}
-  {\bfseries}
-  {.}
-  {.5em}
-  {}
-\newtheoremstyle{manuscriptremark}
-  {0pt}
-  {0pt}
-  {\normalfont}
-  {0pt}
-  {\itshape}
-  {.}
-  {.5em}
-  {}
-
-\theoremstyle{manuscriptplain}
+\theoremstyle{plain}
 \newtheorem{theorem}{Theorem}[subsection]
 \newtheorem{proposition}[theorem]{Proposition}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{corollary}[theorem]{Corollary}
 \newtheorem{claim}[theorem]{Claim}
 
-\theoremstyle{manuscriptdefinition}
+\theoremstyle{definition}
 \newtheorem{definition}[theorem]{Definition}
 \newtheorem{assumption}[theorem]{Assumption}
 \newtheorem{example}[theorem]{Example}
 
-\theoremstyle{manuscriptremark}
+\theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}
-
-\ApplyEnvSpacing{theorem,proposition,lemma,corollary,claim,definition,assumption,example,remark,proof}
 
 \crefname{theorem}{theorem}{theorems}
 \Crefname{theorem}{Theorem}{Theorems}

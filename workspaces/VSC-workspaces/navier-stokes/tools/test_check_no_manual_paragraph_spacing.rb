@@ -47,37 +47,11 @@ class CheckNoManualParagraphSpacingTest < Minitest::Test
     assert_includes stderr, "prohibited explicit paragraph break"
   end
 
-  def test_rejects_local_display_spacing_assignments
-    commands = %w[
-      abovedisplayskip
-      abovedisplayshortskip
-      belowdisplayskip
-      belowdisplayshortskip
-      jot
-    ]
-
-    commands.each do |command|
-      source = "Lead-in.\n\\setlength{\\#{command}}{4pt}\n\\[x=y\\]\n"
-      _stdout, stderr, status = run_checker("Section2/example.tex" => source)
-
-      refute status.success?, "expected \\#{command} to fail"
-      assert_includes stderr, "prohibited local display-spacing override"
-    end
-  end
-
-  def test_rejects_manual_display_row_spacing
-    source = "\\[\n\\begin{aligned}\na&=b,\\\\[0.25em]\nc&=d.\n\\end{aligned}\n\\]\n"
-    _stdout, stderr, status = run_checker("Section2/example.tex" => source)
-
-    refute status.success?
-    assert_includes stderr, "prohibited manual display-row spacing"
-  end
-
   def test_ignores_comments_archives_and_preamble_macros
     files = {
       "Section2/example.tex" => "% \\vspace{4pt}\nPlain prose.\n",
       "Archive/old.tex" => "\\medskip\n",
-      "preamble/macros.tex" => "\\newcommand{\\divider}{\\par\\vspace{1em}}\n\\setlength{\\jot}{4pt}\n"
+      "preamble/macros.tex" => "\\newcommand{\\divider}{\\par\\vspace{1em}}\n"
     }
     _stdout, stderr, status = run_checker(files)
 
