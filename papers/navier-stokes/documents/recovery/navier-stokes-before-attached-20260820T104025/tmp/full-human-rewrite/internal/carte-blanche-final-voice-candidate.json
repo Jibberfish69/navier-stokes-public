@@ -1,0 +1,18 @@
+{
+  "text": "\\documentclass[12pt,oneside,letterpaper]{article}\n\n% Keep the bibliography disabled only while the manuscript has no citations.\n\\newif\\ifworkspacebibliography\n\\workspacebibliographytrue\n\n% ===== Preamble =====\n\\input{preamble/packages.tex}\n\\input{preamble/macros.tex}\n\\input{preamble/theoremstyle.tex}\n\\input{preamble/metadata.tex}\n\n% ===== Bibliography resource =====\n\\ifworkspacebibliography\n\\addbibresource{refs.bib}\n\\fi\n\n\\begin{document}\n\n\\input{FrontMatter/index.tex}\n\n% ===== Manuscript structure =====\n\\input{Section1-RegularityProblem/index.tex}\n\\input{Section2-CriticalHeightAndDerivativeTower/index.tex}\n\\input{Section3-IntersectionTheorem/index.tex}\n\\input{Section4-MissingEstimateAndClosure/index.tex}\n\\input{Section5-ConsequencesAndBoundary/index.tex}\n\n\\clearpage\n\\appendix\n\\input{Appendices/index.tex}\n\n\\ifworkspacebibliography\n\\defbibheading{bibliography}{%\n  \\phantomsection\n  \\section*{Bibliography}%\n  \\addcontentsline{toc}{section}{Bibliography}%\n}\n\\printbibliography\n\\fi\n\n\\end{document}\n",
+  "sha256": "0a356fe337ab26e99bf9aa0c660231226fb7f39f5d555ee9412a5c71992d06ff",
+  "selected_move_id": "realize-user-fixed-whole-manuscript",
+  "prediction_sha256": "df8a3f204953786106c1393811cc37bbe1207b0e9eaf67f09e40f33b6810c081",
+  "producer_id": "codex-root-carte-blanche-rewrite",
+  "content_provenance": [
+    {
+      "start": 0,
+      "end": 1007,
+      "candidate_text": "\\documentclass[12pt,oneside,letterpaper]{article}\n\n% Keep the bibliography disabled only while the manuscript has no citations.\n\\newif\\ifworkspacebibliography\n\\workspacebibliographytrue\n\n% ===== Preamble =====\n\\input{preamble/packages.tex}\n\\input{preamble/macros.tex}\n\\input{preamble/theoremstyle.tex}\n\\input{preamble/metadata.tex}\n\n% ===== Bibliography resource =====\n\\ifworkspacebibliography\n\\addbibresource{refs.bib}\n\\fi\n\n\\begin{document}\n\n\\input{FrontMatter/index.tex}\n\n% ===== Manuscript structure =====\n\\input{Section1-RegularityProblem/index.tex}\n\\input{Section2-CriticalHeightAndDerivativeTower/index.tex}\n\\input{Section3-IntersectionTheorem/index.tex}\n\\input{Section4-MissingEstimateAndClosure/index.tex}\n\\input{Section5-ConsequencesAndBoundary/index.tex}\n\n\\clearpage\n\\appendix\n\\input{Appendices/index.tex}\n\n\\ifworkspacebibliography\n\\defbibheading{bibliography}{%\n  \\phantomsection\n  \\section*{Bibliography}%\n  \\addcontentsline{toc}{section}{Bibliography}%\n}\n\\printbibliography\n\\fi\n\n\\end{document}\n",
+      "content_ids": [
+        "live-input"
+      ],
+      "kind": "content"
+    }
+  ]
+}

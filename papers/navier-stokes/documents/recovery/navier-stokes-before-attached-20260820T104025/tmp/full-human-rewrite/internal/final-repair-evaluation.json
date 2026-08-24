@@ -1,0 +1,84 @@
+{
+  "task_id": "task-381b7c5834d659fb",
+  "task_sha256": "b6265c63ad57a676a5758c582bf496753aafa8aea330dfb24e77c3db5e6fe196",
+  "prediction_sha256": "96605bad05ddb64241516e0cf560eafa2ed0edbed896870ef9c4802db9c8ef61",
+  "candidate_sha256": "9524c89b3ab95c5a42206c2f5b640ed8b2358cfa20ea78384592192007a46949",
+  "selected_move_id": "rewrite-user-fixed-sequence",
+  "producer_id": "codex-root-full-repair",
+  "evaluator_id": "independent-live-section-audits",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate repairs the live Section 1 and 2 manuscript only, retains the requested title and supplied beat order, and leaves Section 3 outside the edit."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The pass removes surviving process narration and NBB residue, corrects fixed-ball packet terminology and a physical overstatement, removes a repeated handoff, and closes an omitted time range."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Each revised transition begins from the immediately preceding calculation and hands the earned object to the next subsection without a roadmap paragraph."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The tower-to-spatial-row and response-to-mixed-jet transitions now pay only the relation needed by the following derivation."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "No new side branch or proof object was added; the edits tighten existing physical and analytic distinctions."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The repairs preserve the distinction between material packets and fixed Eulerian balls and between a changed field and a necessarily changed readout."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "All current-live findings were applied and independently reread across the complete Section 1 and Section 2 sequences."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected material follows Thomas supplied sequence and targets only the remaining local defects."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "The revised prose states causal relations directly instead of announcing the role of the paragraph or repeating the prior distinction."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Existing derivations remain fully developed; the cleanup deletes only redundant announcements and leaves mathematical payments intact."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The repaired sentences use direct subjects and ordinary mathematical terms and remove process phrases and avoidable negative-positive constructions."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The candidate retains the distributional versus pointwise Dead distinction, the nonexhaustive taxonomy, the Euler sheet caveat, and the Section 2 versus Section 3 boundary."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The edits correctly distinguish a material packet from a fixed ball, local viscosity from global pressure determination, and temporal from spatial recurrence."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The choices respond to the live reader state and Thomas explicit corrections rather than importing a generic section template."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The reader moves from each established result into the next needed calculation without an index roadmap or repeated conceptual reset."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The existing causal connections are carried through far enough for the next beat; no unsupported deeper claim is manufactured."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate consists of the live manuscript under review and introduces no prose copied from unrelated voice samples."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The mathematical and structural repairs are source checked; final voice judgment remains Thomas own without weakening the completed edit."
+    }
+  },
+  "verdict": "pass"
+}
