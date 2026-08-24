@@ -1,0 +1,208 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.3 Gold Standard Proof
+% ============================================================
+\subsection{Gold Standard Proof}\label{sub:GoldStandardProof}
+
+For smooth initial data, the standard whole-space local theory gives a smooth solution for a short time \parencite{Kato1984}, and the periodic problem has the corresponding local theory.
+Let \([0,T_*)\) be the longest interval on which that solution remains smooth.
+If \(T_*<\infty\), the local blow-up alternative forces every Sobolev norm above the continuation threshold to become unbounded as \(t\uparrow T_*\).
+Keeping any one of those norms finite would continue the same solution past \(T_*\).
+The Clay requirement asks the same solution to remain smooth through every finite time.
+So the direct burden is to get a bound from \(u_0\), \(\nu\), and the equations that keeps the continuation norm finite on every finite interval.
+A bound obtained this way is called an \emph{a priori estimate}.
+Every estimate has to come from the same initial fluid and the same equations, without putting the needed bound in as an assumption.
+
+To see what these estimates have to buy, start with a spatial Sobolev norm.
+It measures the \(L^2\) size of the velocity together with a finite number of its spatial derivatives.
+In three dimensions, Sobolev embedding gives \parencite[Theorem~7.28 for \(\mathbb R^3\)]{Cerda2010}
+\[
+  H^s(\Omega)\hookrightarrow C^k(\Omega)
+  \qquad\text{whenever}\qquad
+  s>k+\frac32,
+  \qquad
+  \Omega\in\{\mathbb R^3,\mathbb T^3\},
+\]
+where the periodic statement is the corresponding Fourier-series embedding.
+One \(H^s\) bound buys only finitely many continuous spatial derivatives.
+Fix \(s_0>5/2\).
+An \(H^{s_0}\) bound gives \(C^1\) control, including a bounded gradient, but it still does not give \(C^\infty\).
+The complete spatial target is control at every finite Sobolev order:
+\[
+  H^\infty(\Omega)
+  :=
+  \bigcap_{m=0}^{\infty}H^m(\Omega)
+  \subset
+  C^\infty(\Omega).
+\]
+The pressure and time derivatives still have to be recovered from the equations once that spatial control has been secured.
+A natural first calculation starts with kinetic energy and asks whether its \(L^2\) control can be raised to one spatial derivative.
+Work first on \(\mathbb T^3\), where no boundary terms appear; the same identity holds on \(\mathbb R^3\) by the usual cutoff-and-density argument for finite-energy smooth solutions.
+Pair the momentum equation with \(u\) and integrate over the domain.
+Incompressibility makes transport and pressure vanish from this particular total balance, while viscosity removes energy through spatial variation:
+\[
+  \begin{aligned}
+  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot u\,dx
+  &=
+  \frac12\int_{\mathbb T^3}u\cdot\nabla|u|^2\,dx
+  =0,
+  \\
+  \int_{\mathbb T^3}\nabla p\cdot u\,dx
+  &=
+  -\int_{\mathbb T^3}p\,\nabla\cdot u\,dx
+  =0,
+  \\
+  \nu\int_{\mathbb T^3}\Delta u\cdot u\,dx
+  &=
+  -\nu\lVert\nabla u\rVert_{L^2}^2.
+  \end{aligned}
+\]
+The result is the exact energy identity
+\[
+  \frac12\frac{d}{dt}\lVert u(t)\rVert_{L^2}^2
+  +
+  \nu\lVert\nabla u(t)\rVert_{L^2}^2
+  =0.
+\]
+After integration from \(0\) to \(t\), it becomes
+\[
+  \lVert u(t)\rVert_{L^2}^2
+  +
+  2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^2\,ds
+  =
+  \lVert u_0\rVert_{L^2}^2.
+\]
+
+The \(L^2\) size of the velocity stays bounded at every time, and viscosity pays for the total gradient cost accumulated over the interval.
+Let
+\[
+  Y(t):=\lVert\nabla u(t)\rVert_{L^2}^2.
+\]
+The energy identity gives
+\[
+  2\nu\int_0^tY(s)\,ds
+  \leq
+  \lVert u_0\rVert_{L^2}^2.
+\]
+It does not give a bound on \(Y(t)\) at each individual time.
+To control the gradient itself, the calculation has to be raised by one spatial derivative.
+
+Pair the momentum equation with \(-\Delta u\).
+The pressure term vanishes again because \(-\Delta u\) is divergence-free, while transport now survives:
+\[
+  \frac12Y'(t)
+  +
+  \nu\lVert\Delta u\rVert_{L^2}^2
+  =
+  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx.
+\]
+After integration by parts, the transport term is a product of three first derivatives:
+\[
+  \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx
+  =
+  -\sum_{i,j,k=1}^3
+  \int_{\mathbb T^3}
+  \partial_k u_j\,\partial_j u_i\,\partial_k u_i\,dx.
+\]
+Hölder's inequality, interpolation between \(L^2\) and \(L^6\), the Sobolev control of the \(L^6\) factor, and Young's inequality give
+\[
+  \begin{aligned}
+  \left|
+    \int_{\mathbb T^3}(u\cdot\nabla)u\cdot\Delta u\,dx
+  \right|
+  &\leq C\lVert\nabla u\rVert_{L^3}^3
+  \\
+  &\leq C\lVert\nabla u\rVert_{L^2}^{3/2}
+           \lVert\Delta u\rVert_{L^2}^{3/2}
+  \\
+  &\leq \frac{\nu}{2}\lVert\Delta u\rVert_{L^2}^2
+           +C\nu^{-3}Y(t)^3.
+  \end{aligned}
+\]
+Young's inequality has split the transport cost into one part viscosity can absorb and one part that is cubic in \(Y\).
+After that absorption, the estimate becomes
+\[
+  Y'(t)
+  +
+  \nu\lVert\Delta u\rVert_{L^2}^2
+  \leq
+  C\nu^{-3}Y(t)^3.
+\]
+Integrating in time gives
+\[
+  Y(t)
+  +
+  \nu\int_0^t\lVert\Delta u(s)\rVert_{L^2}^2\,ds
+  \leq
+  Y(0)
+  +
+  C\nu^{-3}\int_0^tY(s)^3\,ds.
+\]
+
+The first estimate paid for \(\int_0^tY(s)\,ds\).
+The next one asks for \(\int_0^tY(s)^3\,ds\).
+A nonnegative function can have finite total area even when the area under its cube is infinite; tall, narrow spikes are enough to do it.
+This does not show that a Navier\textendash Stokes solution forms those spikes.
+It shows that the basic energy estimate carries no information that rules them out.
+This calculation has stalled at the first derivative; it has not yet reached a continuation-grade \(H^{s_0}\) bound.
+
+The full Sobolev ladder does not require a new global estimate at every order.
+Assume for contradiction that \(T_*<\infty\) and suppose this one norm stays bounded all the way to the candidate endpoint:
+\[
+  \sup_{0\leq t<T_*}\lVert u(t)\rVert_{H^{s_0}}<\infty.
+\]
+Sobolev embedding then keeps \(\lVert\nabla u\rVert_{L^\infty}\) bounded, and hence integrable, on \([0,T_*)\).
+For every finite \(m\geq s_0\), the standard higher-order estimate has the form
+\[
+  \frac12\frac{d}{dt}\lVert u\rVert_{H^m}^2
+  +
+  \nu\lVert\nabla u\rVert_{H^m}^2
+  \leq
+  C_m\lVert\nabla u\rVert_{L^\infty}\lVert u\rVert_{H^m}^2.
+\]
+The smooth initial datum already belongs to every \(H^m\), so Grönwall's inequality propagates each fixed finite order on the same interval.
+The constants may depend on \(m\); no single constant has to control every derivative order at once.
+Sobolev embedding then gives every continuous spatial derivative of \(u\).
+This repeated climb from one secured strong bound through every higher order is the Sobolev bootstrap.
+The local blow-up alternative would then continue the same solution past \(T_*\), contradicting its maximality.
+A Gold estimate that supplies this bound at every candidate finite endpoint would force \(T_*=\infty\).
+
+Once that global continuation has been secured, pressure is recovered from the same velocity, not added as a separate regularity assumption.
+Taking the divergence of the momentum equation gives
+\[
+  -\Delta p
+  =
+  \sum_{i,j=1}^3\partial_i\partial_j(u_i u_j).
+\]
+On \(\mathbb T^3\), this relation fixes \(p\) by requiring zero spatial mean.
+On \(\mathbb R^3\), the corresponding normalization is
+\[
+  p=R_iR_j(u_i u_j),
+\]
+where \(R_i\) is the \(i\)-th Riesz transform.
+Elliptic estimates recover \(p\) at every spatial Sobolev order already available for \(u\).
+On every closed interval inside the continued solution, the propagated Sobolev regularity remains continuous in time, so the momentum equation gives the first time derivative,
+\[
+  \partial_tu
+  =
+  \nu\Delta u
+  -(u\cdot\nabla)u
+  -\nabla p.
+\]
+Differentiating the pressure relation and the momentum equation repeatedly recovers every higher time derivative of both fields.
+In exact Sobolev terms, this induction gives
+\[
+  \partial_t^r u,\ \partial_t^r p
+  \in
+  C\bigl([0,T];H^m(\Omega)\bigr)
+  \qquad
+  \text{for every }r,m\in\mathbb N_0
+  \text{ and every finite }T>0.
+\]
+This is how the Sobolev estimates reach the spacetime \(C^\infty\) velocity\textendash pressure pair required above.
+
+A Gold proof has to derive one continuation-grade bound from the original datum and the original equations that stays finite through every finite time.
+The Sobolev bootstrap, the pressure relation, and the momentum equation then carry that bound into full smoothness.
+For viscosity to \emph{pay the whole bill}, its dissipation has to control enough nonlinear transport to supply the missing bound.
+In the calculation above, the energy identity pays for \(\int_0^tY(s)\,ds\), while the first differentiated estimate asks for \(\int_0^tY(s)^3\,ds\).
+Finding a direct estimate that closes this gap, or reaches the continuation bound another way, without assuming the strong quantity it needs is the missing Gold step.
