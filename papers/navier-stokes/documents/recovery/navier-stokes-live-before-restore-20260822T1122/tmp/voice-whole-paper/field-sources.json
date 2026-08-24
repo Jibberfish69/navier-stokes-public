@@ -1,0 +1,10 @@
+{
+  "writing_form": "user_supplied",
+  "writing_job": "user_supplied",
+  "domain": "source_derived",
+  "audience": "assistant_inferred",
+  "purpose": "user_supplied",
+  "reader_start": "assistant_inferred",
+  "reader_end": "user_supplied",
+  "live_pressure": "user_supplied"
+}
