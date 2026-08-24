@@ -1,0 +1,136 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Where viscosity pays on a strict interval}\label{sub:SobolevRegularityInsideEveryCompletedRow}
+
+Fix one response \(V_r\) and one spatial height \(s\).  Its scalar energy and
+complete transfer are
+\[
+  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2
+\]
+and
+\[
+  \mathcal P_{r,s}
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left[
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right]}_{L^2}.
+\]
+Pairing the \(r\)-th response equation at this height gives
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+Beginning at \(s=\tfrac12\) and repeating the induction in
+\Cref{prop:CriticalHeightSpatialAscent} produces
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^nE_{r,1/2}
+  =(-2\nu)^nE_{r,n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+The pattern repeats inside every response, together with the same obstruction:
+the higher spatial energy appears, and the nonlinear transfer remains beside
+it.
+
+To see an actual spatial gain, stop first at one strict cutoff
+\(T<T_*\) and write \(I=(0,T)\).  Apply the Leray projection to the
+differentiated momentum equation.  It removes the pressure gradient from this
+estimate while leaving the pressure-complete recurrence intact:
+\[
+  \partial_tV_r-\nu\Delta V_r=-F_r,
+  \qquad
+  F_r:=\Leray\sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}.
+\]
+For an integer \(m\geq2\), the finite-order product bound proved in
+\Cref{prop:LocalMaximalHistory} gives
+\begin{equation}\label{eq:BodyTemporalResponseForcingEstimate}
+  \norm{F_r}_{H^{m-1}}
+  \leq
+  C_{m,r}\sum_{a=0}^{r}
+  \norm{V_a}_{H^m}\norm{V_{r-a}}_{H^m}.
+\end{equation}
+The same local construction preserves every
+finite derivative already present in the smooth datum on this chosen interval.
+For the finite indices now in use,
+\begin{equation}\label{eq:BodyStrictIntervalResponseBound}
+  \max_{0\leq a\leq r}
+  \norm{V_a}_{L^\infty(0,T;H^m)}<\infty.
+\end{equation}
+Hence the forcing in
+\eqref{eq:BodyTemporalResponseForcingEstimate} is square-integrable in time.
+
+Pair the projected equation one spatial step above its forcing.  The heat term
+now makes the payment that the triangular identity only exposed:
+\begin{equation}\label{eq:BodyTemporalResponseParabolicGain}
+  \frac d{dt}\norm{V_r}_{H^m}^2
+  +\nu\norm{V_r}_{H^{m+1}}^2
+  \leq
+  C_{\nu,m}\left(
+    \norm{V_r}_{H^m}^2+\norm{F_r}_{H^{m-1}}^2
+  \right).
+\end{equation}
+After time integration, \(V_r\) gains one spatial degree.  Returning to the
+equation puts its next time response one degree below:
+\begin{equation}\label{eq:BodyStrictIntervalAdjacentResponsePair}
+  V_r\in L^2(I;H^{m+1}),
+  \qquad
+  V_{r+1}=\partial_tV_r\in L^2(I;H^{m-1}).
+\end{equation}
+This is the first place where the spatial movement has been estimated rather
+than read from an identity.
+
+The finite estimates may be placed beside one another as a two-dimensional
+grid.  Moving down changes the temporal response; moving across changes the
+spatial resolution of that response.
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The mixed derivative grid.  Each dot names a coordinate of the same velocity; no dot is a cutoff-uniform endpoint estimate.}
+\label{tab:MixedDerivativeGrid}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}c c c c c c@{}}
+\toprule
+& \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
+\midrule
+\(V_0=u\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Now ask for a finite observation of the solution: \(q\) time derivatives and
+\(k\) spatial derivatives.  Choose finite heights
+\[
+  R>q+\frac12,
+  \qquad
+  M>k+\frac32.
+\]
+The vector-valued time embedding and the three-dimensional spatial embedding
+\parencite[Theorem~7.28]{Cerda2010} give
+\[
+  H^R\bigl(I;H^M(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+Repeating the finite payment high enough in each direction fills every finite
+request on this fixed \(I\).  Collecting those requests on the same history
+gives
+\begin{equation}\label{eq:BodyFormalMixedIntersection}
+  \mathscr V_\infty(I)
+  :=\bigcap_{r=0}^{\infty}\bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow C^\infty(\overline I\times\R^3).
+\end{equation}
+The constants may depend on the chosen finite coordinate.  Smoothness asks for
+each such coordinate in turn, not for one constant uniform over the whole
+grid.
+
+The cutoff is the unpaid part.  Every dot is finite after \(T<T_*\) has been
+fixed, but none of the estimates above prevents its constant from diverging as
+\(T\uparrow T_*\).  To carry one spatial coordinate to that time slice, it
+must be paired with the temporal response directly below it.  Those adjacent
+rows form the finite rectangles.

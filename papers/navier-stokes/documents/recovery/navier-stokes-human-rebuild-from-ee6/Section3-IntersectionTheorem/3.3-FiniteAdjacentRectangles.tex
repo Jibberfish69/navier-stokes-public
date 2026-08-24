@@ -1,0 +1,100 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The finite piece that reaches a time slice}\label{sub:BodyFiniteAdjacentRectangles}
+
+Let \(I_*=(0,T_*)\) be the interval of the proposed finite maximal history, and
+stop first at a strict cutoff \(T<T_*\).  Control of a response one spatial
+step above \(H^M\) does not by itself place that response continuously at
+\(t=T\).  Its time derivative must approach the same trace from one spatial
+step below.
+
+Let \(A=(1-\Delta)^{1/2}\).  For a smooth Hilbert-valued function \(v\),
+\begin{equation}\label{eq:BodyAdjacentTraceIdentity}
+  \norm{v(b)}_{H^M}^2-
+  \norm{v(a)}_{H^M}^2
+  =2\operatorname{Re}\int_a^b
+  \pair{A^{M-1}v_t(t)}{A^{M+1}v(t)}_{L^2}\,dt.
+\end{equation}
+Cauchy--Schwarz now places the middle trace between two adjacent controls:
+\begin{equation}\label{eq:BodyAdjacentTracePair}
+  v\in L^2(0,T;H^{M+1}),
+  \qquad
+  v_t\in L^2(0,T;H^{M-1}),
+\end{equation}
+and the conclusion is
+\begin{equation}\label{eq:BodyAdjacentTraceConclusion}
+  v\in C([0,T];H^M);
+\end{equation}
+the approximation argument and strong representative are proved in
+\Cref{lem:AdjacentHilbertScaleTrace}.
+
+At \(M=2\), the first concrete pair reads
+\begin{equation}\label{eq:FirstConcreteAdjacentPair}
+  u\in L^2(0,T;H^3),
+  \qquad
+  u_t\in L^2(0,T;H^1)
+  \quad\Longrightarrow\quad
+  u\in C([0,T];H^2).
+\end{equation}
+The velocity lies above the desired trace, its next temporal response lies
+below it, and the integral in \eqref{eq:BodyAdjacentTraceIdentity} brings the
+two readings to the same time slice.
+
+Apply the same trace to \(V_n\), whose derivative is \(V_{n+1}\).  To carry all
+responses through a finite temporal order \(N\) to the common height \(M\),
+collect exactly the rows used by those pairings:
+\begin{equation}\label{eq:BodyRectangleNorm}
+\begin{aligned}
+  \mathfrak R_{N,M}(u;T)
+  :={}&
+  \sum_{n=0}^{N}
+  \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+  \\
+  &+
+  \sum_{n=0}^{N}
+  \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+\end{aligned}
+\end{equation}
+When \(M=0\), the lower edge is read in \(H^{-1}\).  The temporal depth
+\(N\) and spatial height \(M\) remain independent.  The number
+\(\mathfrak R_{N,M}(u;T)\) measures the size of this finite view of the
+history.
+
+The first nontrivial example, \((N,M)=(1,2)\), contains two adjacent traces
+that share \(V_1\):
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The \((1,2)\) rectangle.  The shared response closes the first trace and begins the second.}
+\label{tab:FirstAdjacentRectangle}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}c c c@{}}
+\toprule
+response & upper row & lower row \\
+\midrule
+\(V_0=u\) & \(V_0\in L^2H^3\) & \(V_1\in L^2H^1\) \\
+\(V_1=u_t\) & \(V_1\in L^2H^3\) & \(V_2\in L^2H^1\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The scalar norm does not remember which field produced its entries.  Write
+\(\cR_{N,M}[u_0;T]\) for this velocity block together with the pressure rows
+reconstructed by \eqref{eq:BodyTemporalPressureRecurrence}.  Every entry is a
+derivative of the same velocity or of the normalized pressure forced by that
+velocity.  The rectangle is a finite view of one fluid history, not a second
+object laid over it.
+
+Classical smoothness on a strict subinterval makes each chosen rectangle
+finite:
+\begin{equation}\label{eq:StrictSubintervalRectangleBound}
+  \mathfrak R_{N,M}(u;T)<\infty
+  \qquad(T<T_*,\;N,M<\infty).
+\end{equation}
+The terminal face changes the order of the quantifiers:
+\[
+  \forall\,T<T_*:\quad \mathfrak R_{N,M}(u;T)<\infty
+  \quad\not\Longrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\]
+Fixing \((N,M)\) first leaves one demand: the same bound must survive every
+cutoff approaching \(T_*\).  At the lowest rectangle, that demand can be
+reduced to one exact critical integral.
