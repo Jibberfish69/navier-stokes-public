@@ -1,0 +1,159 @@
+{
+  "field_resolutions": [],
+  "reader_start": "the reader understands that full Navier--Stokes scaling reduces spatial width by lambda inverse, leaves critical height fixed, and shortens the time coordinate by lambda squared",
+  "live_pressure": "the heat calculation may compare scales but must not claim that Navier--Stokes generates the scale sequence, assigns actual transition durations, or creates the derivative Tower",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-heat-clock-to-singularity",
+      "move": {
+        "selection": "the same scaling shortens the heat clock by lambda squared; this is a full beat; repeated shorter comparison clocks give the conditional Zeno geometry; the normalized rescaled profile raises gradients by lambda squared and shows the singularity direction; actual dynamics must generate every scale and transition; the Tower begins only when the singularity itself is examined through successive field derivatives",
+        "connection": "The heat equation turns the shortened time coordinate into a viscous comparison clock; geometric widths make those clocks summable, while the fixed-profile scaling calculation shows the direction in which velocity and gradients would become singular.",
+        "development": "Derive the heat clock, protect the comparison-versus-dynamics distinction, develop the Zeno sum, calculate the normalized profile's amplitude, energy, critical height, and gradient scale, then hand the reader to the actual terminal behaviour of the velocity field.",
+        "expression": "Keep the prose declarative and causal, stay with one width at a time, and make every limitation part of the thought instead of an audit aside."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader sees why small widths carry short viscous clocks, why summability alone is only a Zeno geometry, and why the candidate singularity must be interrogated in the actual velocity history.",
+      "next_possibility": "The temporal Tower can begin from the field's successive time responses rather than from a difference-quotient argument.",
+      "content_basis": ["live-input"],
+      "sequence": [
+        {
+          "step_id": "heat-clock",
+          "thought": "The heat multiplier assigns a comparison time r squared over viscosity to spatial width r.",
+          "connection": "The shortened time coordinate now has a physical and analytic meaning.",
+          "reader_start": "the reader understands that full Navier--Stokes scaling reduces spatial width by lambda inverse, leaves critical height fixed, and shortens the time coordinate by lambda squared",
+          "reader_end": "the reader understands why viscosity responds to width r on the comparison time r squared over viscosity",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "actual-duration-boundary",
+          "thought": "The comparison time neither creates the width nor fixes how long the nonlinear solution occupies it.",
+          "connection": "The heat clock can now be used without replacing the actual dynamics.",
+          "reader_start": "the reader understands why viscosity responds to width r on the comparison time r squared over viscosity",
+          "reader_end": "the reader distinguishes a viscous comparison clock from an actual transition duration",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "zeno-geometry",
+          "thought": "Geometrically shrinking widths have summable comparison clocks, which permits a finite-time schedule but does not realize it.",
+          "connection": "The reader now owns the exact conditional content of the Zeno picture.",
+          "reader_start": "the reader distinguishes a viscous comparison clock from an actual transition duration",
+          "reader_end": "the reader understands the conditional Zeno geometry and the unpaid same-history transition law",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "singularity-direction",
+          "thought": "A fixed normalized divergence-free profile under full Navier--Stokes scaling has amplitude of order ell inverse, gradient of order ell inverse squared, energy of order ell, and invariant critical height.",
+          "connection": "The scale comparison now shows how strong local singular behaviour can hide inside decreasing energy.",
+          "reader_start": "the reader understands the conditional Zeno geometry and the unpaid same-history transition law",
+          "reader_end": "the reader sees the singularity direction exposed by the normalized rescaled family without mistaking it for an actual cascade",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "tower-handoff",
+          "thought": "Once a hypothetical singularity is present, its actual behaviour through successive time derivatives creates the temporal Tower.",
+          "connection": "The heat-clock beat ends before the Tower begins.",
+          "reader_start": "the reader sees the singularity direction exposed by the normalized rescaled family without mistaking it for an actual cascade",
+          "reader_end": "the reader understands the conditional finite-time Zeno geometry, the growth of gradients in a normalized rescaled family, and why the candidate singularity itself must now be examined through successive field responses",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The clock, summability, scaling profile, and singularity handoff must be developed as one causal movement."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user fixed the heat clock before the Tower and rejected reversing that order."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The discovery movement should be realized without written questions."
+        },
+        {
+          "record_id": "observation-section2-scaling-diagonal-movement-20260817",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The Section 2 scaling relation directly governs the clock and gradient movement."
+        }
+      ],
+      "risks": [
+        "Identifying an actual cascade interval with the heat time.",
+        "Presenting the full scaling family as the trajectory of one solution.",
+        "Combining invariant critical height with a claim that the same profile has unbounded critical height.",
+        "Letting the short intervals generate the derivative Tower."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-heat-clock-to-singularity",
+  "choice_reason": "Thomas fixed both the order and the distinction that protects it: the heat clock explains the Zeno geometry, while the singularity itself generates the Tower.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id":"decision-live-obstacle-before-label-001","status":"not_applicable","reason":"The live obstacle has already been established in the preceding subsection."},
+    {"record_id":"decision-carry-established-thought-forward-001","status":"not_applicable","reason":"The direct movement fixes the continuation from critical height into the clock."},
+    {"record_id":"decision-unfold-causal-relations-001","status":"used","reason":"The heat-clock movement requires full causal development."},
+    {"record_id":"decision-name-operational-objects-001","status":"not_applicable","reason":"The live source already fixes width, time, velocity, and critical height."},
+    {"record_id":"decision-earn-technical-language-001","status":"not_applicable","reason":"The heat clock is derived directly from the multiplier."},
+    {"record_id":"decision-preserve-discovery-order-001","status":"used","reason":"The user fixed the clock before the Tower."},
+    {"record_id":"decision-generate-expression-from-thought-001","status":"not_applicable","reason":"No separate expression authority is needed."},
+    {"record_id":"decision-use-reader-shared-language-001","status":"not_applicable","reason":"The manuscript contract already excludes private drafting language."},
+    {"record_id":"decision-develop-to-reader-change-001","status":"not_applicable","reason":"The reader-end contract fixes the required development."},
+    {"record_id":"decision-keep-example-inside-idea-001","status":"not_applicable","reason":"The normalized profile is the mathematical calculation itself rather than a detached example."},
+    {"record_id":"decision-repair-exact-referent-001","status":"not_applicable","reason":"The live referent is already fixed as the same scale change."},
+    {"record_id":"decision-generalize-to-writing-faculty-001","status":"not_applicable","reason":"This run edits the manuscript only."},
+    {"record_id":"observation-reader-led-concept-before-formal-name-001","status":"not_applicable","reason":"No new formal name requires separate evidence."},
+    {"record_id":"decision-preserve-local-movement-role-001","status":"not_applicable","reason":"The heat clock's role is fixed directly by Thomas's correction."},
+    {"record_id":"decision-separate-internal-inquiry-from-written-interrogative-001","status":"used","reason":"The subsection must remain declarative."},
+    {"record_id":"decision-sentence-possesses-complete-thought-001","status":"not_applicable","reason":"No separate sentence-pattern decision is needed."},
+    {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","status":"not_applicable","reason":"The one-history boundary comes from the live content contract."},
+    {"record_id":"decision-abstract-learning-is-cross-document-not-local-edit-20260815","status":"not_applicable","reason":"No learning update is being made."},
+    {"record_id":"observation-direct-reader-train-of-thought-20260816","status":"not_applicable","reason":"The chosen records already support the required movement."},
+    {"record_id":"decision-section-opening-reader-orientation-20260816","status":"not_applicable","reason":"This is not the section entrance."},
+    {"record_id":"decision-learning-updates-generation-not-artifact-20260816","status":"not_applicable","reason":"The artifact edit is directly authorized."},
+    {"record_id":"observation-section2-scaling-diagonal-movement-20260817","status":"used","reason":"It directly supports the scale-time relation used here."},
+    {"record_id":"decision-cold-open-developed-beats-gap-filling-20260817","status":"not_applicable","reason":"The cold open belongs to the preceding subsection."}
+  ],
+  "uncertainties": [
+    "The exact cadence remains a generative decision inside the fixed movement."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete heat-clock and Zeno subsection that ends at the candidate singularity without deriving the Tower from short intervals.",
+    "strongest_move_reason": "It preserves the discovery order while keeping the heat calculation mathematically honest.",
+    "intellectual_gain": "The reader sees both what the summable clocks establish and what only the coupled evolution could establish.",
+    "reader_gain": "The singularity direction is visible before the field is examined derivative by derivative.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader knows the full scaling and the critical height.",
+      "section_job": "Develop the heat clock, conditional Zeno geometry, and singularity direction.",
+      "outgoing_reader_need": "Examine what the velocity field is doing as the hypothetical singularity is approached.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "End by locating the Tower in the singularity's successive field responses.",
+      "new_section_job": "",
+      "enrichment_reason": "Only the distinctions needed to separate comparison geometry from actual evolution are added.",
+      "enrichments": [
+        {
+          "detail": "Use a fixed normalized divergence-free profile for the amplitude and gradient calculation.",
+          "reader_value": "Makes the scaling claim exact and prevents it from being read as an arbitrary solution law.",
+          "placement": "After the Zeno sum and before the singularity handoff.",
+          "restraint": "Do not identify the profile family with the actual cascade."
+        }
+      ]
+    }
+  }
+}
