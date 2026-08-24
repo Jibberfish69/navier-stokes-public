@@ -1,0 +1,86 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The two-dimensional derivative grid}\label{sub:SobolevRegularityInsideEveryCompletedRow}
+
+Fix \(r\in\Nzero\).  The scalar energy of the response \(V_r\) at spatial
+height \(s\) is
+\[
+  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2.
+\]
+The transfer paired with that response is
+\[
+  \mathcal P_{r,s}
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^sV_r}
+  {\Lambda^s\!\left[
+    \sum_{a=0}^{r}\binom{r}{a}(V_a\cdot\nabla)V_{r-a}
+    +\nabla Q_r
+  \right]}_{L^2}.
+\]
+Pairing the \(r\)-th differentiated momentum equation at this height produces
+\begin{equation}\label{eq:BodyEveryTemporalRowSpatialEnergy}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+Beginning at \(s=\tfrac12\) and repeating the induction proved in
+\Cref{prop:CriticalHeightSpatialAscent} gives the completed row
+\begin{equation}\label{eq:BodyEveryTemporalRowCompletedHeight}
+  \partial_t^nE_{r,1/2}
+  =(-2\nu)^nE_{r,n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{r,j+1/2}.
+\end{equation}
+There is a spatial ladder inside \(u\), another inside \(u_t\), another
+inside \(u_{tt}\), and one inside every finite response.  Moving down changes
+the temporal response.  Moving across changes the spatial height.
+
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The mixed derivative grid.  Each entry is a coordinate of \(u\); no entry is yet an endpoint estimate.}
+\label{tab:MixedDerivativeGrid}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}c c c c c c@{}}
+\toprule
+& \(H^0_x\) & \(H^1_x\) & \(H^2_x\) & \(H^3_x\) & \(\cdots\) \\
+\midrule
+\(V_0=u\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_1=u_t\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_2=u_{tt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(V_3=u_{ttt}\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\bullet\) & \(\cdots\) \\
+\(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\vdots\) & \(\ddots\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The point of the grid is not to add its rows into an infinite norm.  Take one
+finite request: \(q\) time derivatives and \(k\) spatial derivatives.  Choose
+finite indices
+\[
+  r>q+\frac12,
+  \qquad
+  m>k+\frac32.
+\]
+The vector-valued time embedding followed by the three-dimensional spatial
+embedding \parencite[Theorem~7.28]{Cerda2010} reads
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+Every finite request has a finite coordinate above its thresholds.  Collecting
+all of them on the fluid gives
+\begin{equation}\label{eq:BodyFormalMixedIntersection}
+  \mathscr V_\infty(I)
+  :=\bigcap_{r=0}^{\infty}\bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow C^\infty(\overline I\times\R^3).
+\end{equation}
+The constants may depend on the selected \((r,m)\).  Smoothness asks that
+every finite coordinate exist; it does not ask for one constant uniform over
+the entire grid.
+
+The remaining issue is time.  A dot in the grid can be finite on every strict
+subinterval and still diverge as the endpoint is approached.  To carry a
+spatial coordinate to one time slice, we have to place it beside the temporal
+response directly below it.  Those adjacent pairs determine the finite
+rectangles.
