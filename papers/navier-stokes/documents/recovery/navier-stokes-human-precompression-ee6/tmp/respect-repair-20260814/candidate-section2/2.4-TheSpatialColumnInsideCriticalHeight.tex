@@ -1,0 +1,167 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.4 The Spatial Column Inside Critical Height
+% ============================================================
+
+\subsection{The Spatial Column Inside Critical Height}\label{sub:TheSpatialColumnInsideCriticalHeight}
+
+The mixed jet is too large to reveal at once how temporal escalation reaches into space.
+Critical height supplies a scalar through which one complete spatial column can be followed.
+For \(s\ge0\), set
+\[
+  E_s(t)
+  :=
+  \frac12\norm{\Lambda^su(t)}_2^2,
+\]
+so that
+\[
+  H(t)=E_{1/2}(t).
+\]
+Keeping \(s\) free before returning to \(1/2\) exposes the mechanism that repeats at every height.
+
+Apply \(\Lambda^s\) to the pressure-complete momentum equation and pair it in \(L^2\) with \(\Lambda^su\).
+The temporal term gives
+\[
+  \pair{\Lambda^su}{\Lambda^s\partial_tu}
+  =
+  \frac{d}{dt}\frac12\norm{\Lambda^su}_2^2
+  =
+  E_s'.
+\]
+Rapid decay and commutation with spatial derivatives give
+\[
+  \nu\pair{\Lambda^su}{\Lambda^s\Delta u}
+  =
+  -\nu\norm{\Lambda^{s+1}u}_2^2
+  =
+  -2\nu E_{s+1}.
+\]
+The pressure pairing vanishes only after incompressibility and integration by parts have done their work:
+\[
+  \pair{\Lambda^su}{\Lambda^s\nabla p}
+  =
+  -\pair{\nabla\cdot\Lambda^su}{\Lambda^sp}
+  =
+  0.
+\]
+This global cancellation does not remove pressure from the local equation or from the mixed jet that generated the balance.
+Keep the signed nonlinear transfer in its pressure-complete form,
+\[
+  \mathcal P_s(t)
+  :=
+  -\pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}.
+\]
+The exact balance is
+\[
+  E_s'
+  =
+  \mathcal P_s-2\nu E_{s+1}.
+\]
+One time response at spatial height \(s\) has opened the velocity energy one full Sobolev step higher.
+It has also kept the signed transfer created by the lower mixed rows.
+
+At critical height, the first row reads
+\[
+  H'
+  =
+  \mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+This is already the first spatial ascent, from the scale-invariant \(E_{1/2}\) to \(E_{3/2}\).
+It is not a bound for \(E_{3/2}\), because the transfer and dissipative terms can cancel inside the complete value of \(H'\).
+The whole row has to be differentiated before its next spatial consequence can be seen.
+
+The balance one step higher is
+\[
+  E_{3/2}'
+  =
+  \mathcal P_{3/2}-2\nu E_{5/2}.
+\]
+Substituting it into the derivative of the first critical row gives
+\begin{align*}
+  H''
+  &=
+  \mathcal P_{1/2}'-2\nu E_{3/2}'
+  \\
+  &=
+  \mathcal P_{1/2}'
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2}.
+\end{align*}
+The highest visible spatial energy has climbed again, and the transfer at \(3/2\) has joined the transfer already present at \(1/2\).
+Differentiating once more uses
+\[
+  E_{5/2}'
+  =
+  \mathcal P_{5/2}-2\nu E_{7/2}
+\]
+and yields
+\[
+  H'''
+  =
+  \mathcal P_{1/2}''
+  -2\nu\mathcal P_{3/2}'
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\]
+One more response gives
+\[
+  H^{(4)}
+  =
+  \mathcal P_{1/2}'''
+  -2\nu\mathcal P_{3/2}''
+  +(2\nu)^2\mathcal P_{5/2}'
+  -(2\nu)^3\mathcal P_{7/2}
+  +(2\nu)^4E_{9/2}.
+\]
+Each temporal derivative reaches one spatial step higher, but it carries every transfer encountered on the way.
+
+The pattern is triangular rather than diagonal.
+For every integer \(n\ge1\),
+\[
+  H^{(n)}
+  =
+  (-2\nu)^nE_{n+1/2}
+  +
+  \sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+To pass from row \(n\) to row \(n+1\), differentiate the existing transfer terms and replace
+\[
+  E_{n+1/2}'
+  =
+  \mathcal P_{n+1/2}-2\nu E_{n+3/2}.
+\]
+The replacement creates the next transfer and the next highest spatial energy with the required coefficient.
+This proves the identity by induction, but the identity still supplies no estimate by itself.
+Even if \(H^{(n)}\) is known, \(E_{n+1/2}\) cannot be isolated without controlling the entire signed transfer sum.
+The highest energy appearing in a row is a coordinate discovered inside that row, not a quantity bounded by its appearance.
+
+The homogeneous scale made the critical dilation exact, while continuation is usually read in the inhomogeneous scale.
+For \(s>0\),
+\[
+  \norm{u(t)}_{H^s}^2
+  \simeq
+  \norm{u(t)}_2^2+\norm{\Lambda^su(t)}_2^2
+  =
+  \norm{u(t)}_2^2+2E_s(t).
+\]
+The unforced energy identity supplies the missing low-frequency part:
+\[
+  \frac12\norm{u(t)}_2^2
+  +
+  \nu\int_0^t\norm{\nabla u(\tau)}_2^2\,d\tau
+  =
+  \frac12\norm{u_0}_2^2.
+\]
+Thus control of \(E_s(t)\) supplies the high-frequency part of an \(H^s\) bound, and an \(L^1\)-in-time bound for \(E_s\) supplies the high-frequency part of an \(L^2_tH^s_x\) bound on each finite interval.
+
+Critical height first exposed the column because \(1/2\) is fixed by scaling and the first derivative immediately reveals \(3/2\).
+The proof implication at the endpoint runs in the opposite logical direction.
+Once the equation-generated velocity jet is placed in every finite Sobolev row on the whole terminal interval, the complete intersection supplies the fixed \(1/2\) and \(3/2\) readouts.
+Those readouts recover \(H\) and its first dissipative height without asking a scalar identity to manufacture their bounds.
+
+Any finite number of temporal rows reaches only a finite spatial height.
+No one finite row can contain the entire climb demanded by an alleged finite-time escape.
+The object forced by this discovery is simultaneous membership in every finite temporal and spatial Sobolev row.

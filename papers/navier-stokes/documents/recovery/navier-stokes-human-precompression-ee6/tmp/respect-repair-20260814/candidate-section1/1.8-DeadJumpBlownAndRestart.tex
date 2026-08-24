@@ -1,0 +1,240 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.8 Dead, Jump, Blown, and Restart
+% ============================================================
+\subsection{Dead, Jump, Blown, and Restart}\label{sub:DeadJumpBlownAndRestart}
+
+The derivative tower turns a vague loss of smoothness into a failure we can picture inside the fluid.
+At every regular point, each response belongs to one surrounding velocity field and satisfies the equation opened at that rung.
+Near an alleged endpoint, one portion may go still while pressure and viscous curvature continue to demand change from it.
+Two neighbouring approaches may carry incompatible finite values into the same location.
+A shrinking pulse or vortex may drive one response beyond every finite size in the time remaining.
+These are the three physical scenes developed below.
+
+\divider{Dead}
+
+Imagine one point of the fluid stopping dead in its tracks.
+Its velocity may be zero.
+Its acceleration may be zero too, and so may its jerk or any other particular rung.
+None of those zeroes proves a failure by itself.
+The question is whether the fluid around that point is still demanding that something change.
+
+At the base of the tower, that demand is visible in
+\[
+  D_tu=-\nabla p+\nu\Delta u.
+\]
+The left side is the response carried by the parcel.
+The right side is what pressure and viscous curvature in the surrounding field require from it.
+For a proposed extension \(Q=(\widetilde u,\widetilde p)\), set \(\widetilde D_t:=\partial_t+\widetilde u\cdot\nabla\).
+If the proposal assigns
+\[
+  \widetilde D_t\widetilde u=0
+\]
+while
+\[
+  -\nabla\widetilde p+\nu\Delta\widetilde u\neq0
+\]
+at that point, then the point has stopped while its fluid has not stopped asking it to move.
+The same picture applies to a material packet \(A(t)\) carried by \(\widetilde u\).
+Its momentum response can go dead while the surrounding traction remains nonzero:
+\[
+  \frac{d}{dt}
+  \int_{A(t)}\widetilde u(x,t)\,dx
+  =0,
+  \qquad
+  \int_{\partial A(t)}
+  \left[
+    -\widetilde pI
+    +
+    \nu\bigl(\nabla\widetilde u+\nabla\widetilde u^{\mathsf T}\bigr)
+  \right]n\,dS
+  \neq0.
+\]
+The packet then refuses the net pressure and viscous response transmitted through its boundary.
+
+Now carry the test up the tower.
+Write
+\[
+  \widetilde V_n:=\partial_t^n\widetilde u,
+  \qquad
+  \widetilde Q_n:=\partial_t^n\widetilde p.
+\]
+The row from \cref{sub:SingularityAndTheDerivativeTower} says that the next response must be
+\[
+  \widetilde V_{n+1}
+  =
+  \nu\Delta\widetilde V_n
+  -
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (\widetilde V_k\cdot\nabla)\widetilde V_{n-k}
+  -
+  \nabla\widetilde Q_n.
+\]
+Velocity can go to zero, and every chosen rung can go to zero.
+But when the surrounding pressure, spatial curvature, and lower responses make the right side nonzero, the rung immediately above them has to remain alive.
+If the proposal instead lets the whole local tower go dead, then no response remains to carry information from the surrounding fluid into the point or packet.
+
+Zero can also be completely lawful.
+The zero solution answers its surrounding field exactly, a smooth steady solution can have every positive Eulerian time rung equal to zero, and a changing response can pass through zero at an instant.
+Those cases remain alive because the equation asks for zero too.
+Dead begins only when the responses go still while some row of the full equation continues to demand change.
+
+Define the mismatch in the proposed \(n\)-th row by
+\[
+  \mathfrak D_n[Q]
+  :=
+  \widetilde V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (\widetilde V_k\cdot\nabla)\widetilde V_{n-k}
+  +
+  \nabla\widetilde Q_n
+  -
+  \nu\Delta\widetilde V_n.
+\]
+Every classical Navier--Stokes region has \(\mathfrak D_n[Q]=0\).
+If \(Q\) is classical and \(\mathfrak D_n[Q](z_0)\neq0\), the equation already fails at \(z_0\), and continuity carries that mismatch into a spacetime neighbourhood of \(z_0\).
+If \(Q\) is not pointwise classical but has enough local regularity that every term in \(\mathfrak D_n[Q]\) defines a distribution on a neighbourhood \(\mathcal O\), the witness is
+\[
+  \mathfrak D_n[Q]
+  \neq
+  0
+  \quad
+  \text{in }\mathcal D'(\mathcal O;\mathbb R^3).
+\]
+Some vector-valued test function then detects it:
+\[
+  \left\langle
+    \mathfrak D_n[Q],\phi
+  \right\rangle
+  \neq0
+\]
+for some \(\phi\in C_c^\infty(\mathcal O;\mathbb R^3)\).
+That is the mathematical witness of the physical Dead scene: the point or packet has stopped participating, one of the fluid's required properties has failed there, and the proposed field has left the Navier--Stokes class.
+
+\divider{Jump}
+
+Now imagine the response stays finite, yet neighbouring approaches to the same spacetime point refuse to produce one value.
+For a temporal, spatial, or mixed rung
+\[
+  J_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha u,
+\]
+suppose two sequences of regular points \(z_m^+\to z_*\) and \(z_m^-\to z_*\) satisfy
+\[
+  \left|
+    J_{n,\alpha}(z_m^+)
+    -
+    J_{n,\alpha}(z_m^-)
+  \right|
+  \geq
+  \varepsilon_0>0
+\]
+along a subsequence.
+No single continuous value can join the two approaches at \(z_*\).
+The field has Jump at that rung.
+
+The planar Euler sheet is the lowest visible version.
+The same one-fluid packet approaches its internal surface from below with velocity \(U_-e_1\) and from above with velocity \(U_+e_1\).
+Its missing intermediate velocities prevent the two neighbouring sides from becoming one continuous Navier--Stokes response, and fixed viscosity detects that loss through the distributional curvature of the jump.
+
+The same slip has an overlapping Blown reading when it is approached through thinner continuous layers.
+If the velocity difference \(\Delta U=U_+-U_-\) is spread across thickness \(\varepsilon\), its shear has the scale
+\[
+  \frac{|\Delta U|}{\varepsilon}.
+\]
+The two velocities stay finite while this gradient diverges as \(\varepsilon\downarrow0\), and the zero-thickness sheet carries the limiting shear as a surface distribution.
+
+A higher Jump can leave velocity continuous.
+The two approaches may agree on \(u\) while disagreeing on \(\nabla u\), on a fixed-coordinate time rung \(V_n\), or on the combination of mixed derivatives that forms material acceleration or jerk.
+Oscillation can create the same failure of the Cauchy test without producing two simple one-sided traces.
+The decisive fact is that one part of the field can no longer be joined continuously to the values carried toward it by neighbouring parts.
+
+Jump can overlap with Dead.
+Assigning one of the competing values at the endpoint may create a finite equation mismatch, while leaving the value unassigned still blocks smooth continuation.
+The first statement concerns participation in the equation, and the second concerns arrival at one continuous field.
+
+\divider{Blown}
+
+The third scene begins when concentration drives the response upward inside a shrinking region.
+Imagine a smooth pulse or vortex structure being worked into a smaller region while its velocity difference is taken across a still shorter distance.
+The velocity can remain finite while a gradient, acceleration, jerk, or higher mixed response grows beyond every finite height near the concentrating region.
+At a point this appears as
+\[
+  \limsup_{(x,t)\to(x_*,T)}
+  |J_{n,\alpha}(x,t)|
+  =\infty,
+\]
+and on a neighbourhood it can appear as
+\[
+  \limsup_{t\uparrow T}
+  \lVert J_{n,\alpha}(\cdot,t)\rVert_{L^p(B_r(x_*))}
+  =\infty.
+\]
+This is Blown at the indicated rung.
+
+A simple scale picture shows why finite velocity does not protect the tower.
+Let velocity increments and length scales satisfy
+\[
+  a_k=2^{-k},
+  \qquad
+  \ell_k=4^{-k}.
+\]
+Then
+\[
+  \sum_{k=1}^\infty a_k<\infty,
+  \qquad
+  \frac{a_k}{\ell_k}=2^k\longrightarrow\infty.
+\]
+The total velocity change stays finite while the corresponding gradient scale diverges.
+This is a kinematic picture of how Blown can first appear above velocity.
+No Navier--Stokes solution realizing this sequence has been constructed here.
+
+The critical scaling gives the concentration a second face.
+A structure of length \(\ell\) and velocity height comparable to \(\ell^{-1}\) keeps its \(L^3\) scale unchanged while its \(L^2\) energy contribution is comparable to \(\ell\).
+Its height is critical because shrinking the structure does not shrink that \(L^3\) reading.
+At the same time, its parabolic duration is comparable to \(\ell^2\).
+For scales \(\ell_k=2^{-k}\), the durations
+\[
+  \ell_k^2=4^{-k}
+\]
+fit inside a finite total time.
+A pulse or vortex can thus be pictured passing through successively finer critical-scale structures while using less energy and less time at each stage.
+This Zeno picture is allowed by the scaling gap in the known estimates; it is not a constructed singular solution.
+
+Blown can meet the other two scenes.
+A divergent oscillation can lose finite size and a unique approach together, while a proposed truncation of that divergence can create an equation mismatch.
+The overlap matters because these are candidate general pictures of a failure inside the fluid.
+No exhaustiveness or exclusivity is claimed for the three scenes.
+
+In all three general pictures, some portion of the fluid no longer responds to information from its neighbours.
+Neighbour information includes the global pressure response, because incompressibility generates pressure from the whole velocity field and a distant change can alter the response demanded at the portion under examination.
+Dead loses the demanded equation response, Jump loses a common value across neighbouring approaches, and Blown loses finite control as the response concentrates.
+Each picture must still be connected to the actual Navier--Stokes solution before it becomes a proof of class exit or failed continuation.
+
+\divider{Restart}
+
+The same solution also contains its own fresh initial slices whenever it is regular.
+Choose a regular time \(t_0<T_*\) and set
+\[
+  v(x,s):=u(x,t_0+s),
+  \qquad
+  q(x,s):=p(x,t_0+s).
+\]
+Direct substitution gives
+\[
+  \partial_sv+(v\cdot\nabla)v+\nabla q
+  =
+  \nu\Delta v,
+  \qquad
+  \nabla\cdot v=0,
+  \qquad
+  v(\cdot,0)=u(\cdot,t_0).
+\]
+The later regular slice \(u(\cdot,t_0)\) has become new initial data for the same evolution.
+Local uniqueness joins the restarted solution to the original one wherever their time intervals overlap.
+Changing the time origin changes no velocity, pressure, viscosity, or material parcel in the fluid.
+This is the restart that a continuation-grade bound makes long enough to cross a candidate endpoint.
