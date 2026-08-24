@@ -1,0 +1,269 @@
+{
+  "field_resolutions": [
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "mathematical_reader",
+      "reason": "This interpretation matches the live paper and the user-fixed whole-work movement."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "the reader knows the Navier-Stokes equations but has not yet seen this proof or its physical motivation",
+      "reason": "This interpretation matches the live paper and the user-fixed whole-work movement."
+    }
+  ],
+  "reader_start": "the reader knows the Navier-Stokes equations but has not yet seen this proof or its physical motivation",
+  "live_pressure": "remove assistant-owned staging, institutional prose, inventory writing, overbranding, and recap loops while preserving every mathematical distinction and proof payment",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-whole-paper-movement",
+      "move": {
+        "selection": "Enter each thought directly, speak with the reader, explain the next consequence as it appears, elaborate where understanding requires it, and carry one continuous line of reasoning through the whole paper.",
+        "connection": "make each mathematical consequence generate the next object in the fixed four-section argument",
+        "development": "develop every pressure point until the reader can see why the proof moves on, while cutting institutional staging and recap loops",
+        "expression": "speak directly in plain active research prose, with the same fluid history and operative mathematical nouns kept in view"
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "the reader experiences the proof as one unfolding human argument from the finite-time threat to continuation",
+      "next_possibility": "the reader can test each later theorem against the physical and mathematical need that created it",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "movement-step-1",
+          "thought": "state the whole-space target and finite alternative without consuming later machinery",
+          "connection": "the finite alternative creates the singularity question",
+          "reader_start": "the reader knows the Navier-Stokes equations but has not yet seen this proof or its physical motivation",
+        "reader_end": "the reader knows the exact target and sees a finite last time as the only contrary case",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "movement-step-2",
+          "thought": "develop the perfectly stretching vortex into critical escape, critical height, Zeno first passages, and the temporal Tower",
+          "connection": "finite-time escape makes bounded response derivatives impossible",
+        "reader_start": "the reader knows the exact target and sees a finite last time as the only contrary case",
+        "reader_end": "the reader has followed the vortex through critical height, Zeno first passages, and the mixed derivative jet",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "movement-step-3",
+          "thought": "read viscosity and Sobolev regularity across the same temporal rows, then form rectangles and their intersection",
+          "connection": "the spatial ascent reverses the concentration picture and identifies the estimate the proof needs",
+        "reader_start": "the reader has followed the vortex through critical height, Zeno first passages, and the mixed derivative jet",
+        "reader_end": "the reader sees the temporal-spatial reversal and why finite compatible rectangles are the proof's natural units",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "movement-step-4",
+          "thought": "project the intersection back onto the critical-height and vortex threats, then continue the common endpoint",
+          "connection": "the estimates block the exact escapes that motivated the Tower",
+        "reader_start": "the reader sees the temporal-spatial reversal and why finite compatible rectangles are the proof's natural units",
+        "reader_end": "the reader has followed the rectangle estimates back to the original singularity threat and through the contradiction of finite maximality",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "movement-step-5",
+          "thought": "develop the dyadic, classical-endpoint, and Euler consequences from the specific coordinates already earned",
+          "connection": "each consequence reveals a distinct meaning of the same finite rectangles",
+        "reader_start": "the reader has followed the rectangle estimates back to the original singularity threat and through the contradiction of finite maximality",
+        "reader_end": "the reader understands the dyadic, endpoint, and Euler consequences of the same finite-coordinate theorem",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "movement-step-6",
+          "thought": "keep construction, compatibility, pressure-jet, and gluing details readable but quarantined in appendices",
+          "connection": "the appendix supplies full technical payment without interrupting the body's causal line",
+        "reader_start": "the reader understands the dyadic, endpoint, and Euler consequences of the same finite-coordinate theorem",
+        "reader_end": "the reader has followed why each object is introduced, how the intersection closes the singularity routes, and where the technical endpoint assembly lives",
+          "content_basis": [
+            "live-input"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "observation-direct-reader-train-of-thought-20260816",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The record was created from Thomas's explicit instruction for this exact whole-manuscript rewrite."
+        }
+      ],
+      "risks": [
+        "local polishing could leave assistant-owned thought movement intact",
+        "technical appendix prose could leak back into the causal body",
+        "a recap could replace the consequence that should carry the reader forward"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "chosen_move_id": "user-fixed-whole-paper-movement",
+  "choice_reason": "Thomas fixed the movement and the scope directly; the rewrite has to realize that movement across the complete manuscript.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-hold-object-transfer-only-behaviour-20260814",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "decision-abstract-learning-is-cross-document-not-local-edit-20260815",
+      "status": "not_applicable",
+      "reason": "This bounded record is not needed to govern the already fixed whole-paper movement."
+    },
+    {
+      "record_id": "observation-direct-reader-train-of-thought-20260816",
+      "status": "used",
+      "reason": "Thomas approved this exact whole-paper reader-facing movement for the live rewrite."
+    }
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "complete the full manuscript voice rewrite and deliver the rebuilt reader-facing proof artifact",
+    "strongest_move_reason": "the user-fixed movement repairs the paper at the level where prior passes failed: selection, connection, development, and expression together",
+    "intellectual_gain": "the proof machinery will arise from the singularity problem and return to close the exact physical and analytical threats that created it",
+    "reader_gain": "the reader can follow why each definition, table, rectangle, and estimate enters and what changes after it",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "the reader knows the equations but has not yet experienced this proof as one continuous argument",
+      "section_job": "realize Thomas's fixed argument through every body section and keep technical proof administration in the appendices",
+      "outgoing_reader_need": "the reader reaches global continuation with every intermediate object motivated, developed, and applied",
+      "gap_decision": "none",
+      "gap_payment": "the present section architecture already matches Thomas's fixed order; the prose and thought movement inside it require full realization",
+      "new_section_job": "",
+      "enrichment_reason": "the existing ideas need development at the points where the reader currently receives labels, summaries, or finished machinery",
+      "enrichments": [
+        {
+          "detail": "develop the vortex as one fluid undergoing stretching, narrowing, pressure response, and diffusion",
+          "reader_value": "the reader can feel the singularity threat before critical norms formalize it",
+          "placement": "Section 2.1 before the global endpoint criterion",
+          "restraint": "do not claim the sketch is an exact special solution or locate global escape at its centre"
+        },
+        {
+          "detail": "make repeated finite-time integration produce the temporal Tower step by step",
+          "reader_value": "the Tower becomes unavoidable rather than announced",
+          "placement": "Section 2.3 before the general Banach-valued lemma",
+          "restraint": "keep material acceleration distinct from fixed-coordinate time derivatives"
+        },
+        {
+          "detail": "fully develop the temporal-escape versus spatial-regularity reversal around the table",
+          "reader_value": "the reader sees why the intersection is the central object",
+          "placement": "Sections 3.1 and 3.2",
+          "restraint": "do not imply that formal appearance of a height already controls it"
+        },
+        {
+          "detail": "project the rectangle estimate back onto critical height, Zeno levels, and both vortex readings",
+          "reader_value": "the abstract theorem visibly solves the problem that opened the paper",
+          "placement": "Section 4",
+          "restraint": "keep endpoint compatibility and jet bookkeeping in the appendix"
+        },
+        {
+          "detail": "derive each further consequence from the exact low coordinate that supplies it",
+          "reader_value": "Section 5 adds mathematical understanding instead of a catalogue",
+          "placement": "Section 5",
+          "restraint": "do not restate the main theorem or introduce unrelated criteria"
+        }
+      ]
+    }
+  }
+}
