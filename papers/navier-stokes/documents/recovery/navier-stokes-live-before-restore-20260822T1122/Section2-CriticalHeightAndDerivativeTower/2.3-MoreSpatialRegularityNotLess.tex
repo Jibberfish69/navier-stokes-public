@@ -1,0 +1,156 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The Tower opens toward more spatial regularity}\label{sub:ThePressureCompleteMixedDerivativeTower}
+
+Here is the strange turn.  We followed the vortex toward smaller scales
+because that is where spatial control was supposed to fail.  The Newtonian
+question produced velocity, acceleration, jerk, and the higher temporal
+responses.  Yet the equation generating those responses keeps moving through
+the Laplacian, and the Laplacian moves upward in spatial order.
+
+The critical height lets us see the two directions on the same scale.  Under
+\eqref{eq:BodyNavierStokesScaling},
+\[
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  H_\lambda^{(n)}(t)
+  =\lambda^{2n}H^{(n)}(\lambda^2t).
+\]
+The spatial energy at height \(n+\tfrac12\) carries exactly that weight:
+\[
+  E_{n+1/2,\lambda}(t)
+  =\lambda^{2n}E_{n+1/2}(\lambda^2t).
+\]
+Scaling has placed the \(n\)-th temporal response of \(H\) beside the
+\((n+\tfrac12)\)-spatial energy.  The equation tells us why they belong
+together.
+
+Start from the exact balance already found in
+\eqref{eq:BodySpatialEnergyBalanceIntro}:
+\[
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\]
+At critical height,
+\[
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+Differentiate this identity and use the balance at the next height:
+\[
+\begin{aligned}
+  H''
+  &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
+  \\
+  &=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2}.
+\end{aligned}
+\]
+One more derivative gives
+\[
+  H'''
+  =\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\]
+Nothing below the new top term has disappeared.  Every differentiated
+transport--pressure response remains in the row, while viscosity exposes one
+higher spatial energy.  For \(n\geq1\), induction gives
+\begin{equation}\label{eq:BodyCriticalHeightDiscovery}
+  H^{(n)}
+  =(-2\nu)^nE_{n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\end{equation}
+Since \(\nu>0\), the top spatial energy can be read back from the completed
+row:
+\begin{equation}\label{eq:BodyCompletedCriticalDiscovery}
+  E_{n+1/2}
+  =\frac{
+    H^{(n)}-
+    \displaystyle\sum_{j=0}^{n-1}
+    (-2\nu)^j\partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  }{(-2\nu)^n}.
+\end{equation}
+This is an identity, not a free estimate.  The transfer terms have not been
+discarded, and each term on the right still has to be controlled.  What has
+changed is the direction of the problem: higher temporal response does not
+lead us toward lower spatial order.  It exposes
+\[
+  E_{1/2},
+  \quad E_{3/2},
+  \quad E_{5/2},
+  \quad E_{7/2},
+  \quad\ldots
+\]
+inside the completed critical-height Tower.
+
+The scalar height rows remain tied to the velocity responses.  Because
+\[
+  H(t)=\frac12
+  \pair{\Lambda^{1/2}V_0(t)}
+       {\Lambda^{1/2}V_0(t)}_{L^2},
+\]
+Leibniz's rule gives
+\begin{equation}\label{eq:BodyHeightDerivativeTemporalContraction}
+  H^{(n)}(t)
+  =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
+  \pair{\Lambda^{1/2}V_a(t)}
+       {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
+\end{equation}
+The \(n\)-th height derivative is not the velocity response \(V_n\), and it
+is not the spatial energy \(E_{n+1/2}\).  It is the quadratic contraction
+through which the temporal responses expose that energy once every
+transport--pressure term is retained.
+
+Now fix one response \(V_r\).  The same calculation begins again inside that
+row.  Set
+\[
+  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2
+\]
+and let \(\mathcal P_{r,s}\) be the complete pairing of \(V_r\) with the
+transport and pressure terms in its differentiated equation.  Then
+\begin{equation}\label{eq:BodyEveryResponseDiscovery}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+Repeated differentiation opens the spatial column
+\[
+  V_r\in H_x^0,
+  \quad V_r\in H_x^1,
+  \quad V_r\in H_x^2,
+  \quad V_r\in H_x^3,
+  \quad\ldots
+\]
+at every fixed temporal order \(r\).  Temporal order chooses the response;
+spatial order chooses how finely that response is resolved.  They are two
+independent directions inside one mixed derivative structure.
+
+This is where the intersection enters.  If one fixed response belongs to
+every finite spatial Sobolev space, then
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  =H^\infty(\R^3)
+  \hookrightarrow C^\infty(\R^3).
+\]
+If every finite temporal response carries that spatial column, the resulting
+object is
+\begin{equation}\label{eq:BodyDesiredMixedIntersection}
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I;H^m(\R^3)).
+\end{equation}
+For any prescribed temporal derivative and spatial derivative, one chooses a
+finite coordinate high enough to reach it and then applies the corresponding
+Sobolev embedding.  Smoothness is not being assigned to a chosen row.  It is
+the common content of the complete intersection.
+
+The discovery is now visible.  A singularity asks the fluid to ascend through
+faster temporal responses while losing spatial regularity.  The viscous
+recurrence opens the opposite grading: every response contains a direction
+toward higher spatial regularity, and every spatial column contains the
+smoothness intersection.
+
+Those computations identify what must be assembled; they have not yet paid
+for passage to the terminal time.  We now formalize the two-dimensional grid,
+cut it into finite adjacent rectangles, and isolate the endpoint estimate.
