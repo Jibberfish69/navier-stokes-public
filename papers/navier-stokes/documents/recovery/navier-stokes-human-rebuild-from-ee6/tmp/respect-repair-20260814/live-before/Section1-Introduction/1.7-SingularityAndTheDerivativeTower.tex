@@ -1,0 +1,230 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.7 Singularity and the Derivative Tower
+% ============================================================
+\subsection{Singularity and the Derivative Tower}\label{sub:SingularityAndTheDerivativeTower}
+
+A finite limiting velocity along one material parcel does not settle whether the velocity field extends smoothly to that time.
+Let \(X(a,t)\) be the trajectory of the parcel labelled by \(a\), and write its carried velocity as
+\[
+  \dot X(a,t)=u(t,X(a,t)),
+  \qquad
+  U(a,t):=u(t,X(a,t)).
+\]
+The curve \(U(a,\cdot)\) is the velocity that the parcel actually experiences.
+
+A simple time profile shows how much its terminal value can hide.
+Fix a unit vector \(e\) and suppose, kinematically, that near a finite time \(T\),
+\[
+  U(t)=U_*+(T-t)^{3/2}e,
+  \qquad t<T.
+\]
+Then
+\[
+  U(t)\longrightarrow U_*,
+  \qquad
+  \dot U(t)=-\frac32(T-t)^{1/2}e\longrightarrow0,
+  \qquad
+  |\ddot U(t)|=\frac34(T-t)^{-1/2}|e|\longrightarrow\infty.
+\]
+The velocity arrives, and even the acceleration tends to zero, while the jerk diverges.
+This is a kinematic profile, with no claim that a \NavierStokes{} solution realizes it.
+It isolates one possible kinematic regularity failure: the carried velocity and its acceleration can approach finite limits while the jerk does not.
+
+The \NavierStokes{} equation already contains the parcel's first response.
+Set
+\[
+  D_t:=\partial_t+u\cdot\nabla.
+\]
+The chain rule along \(X(a,t)\) and the momentum equation give
+\[
+  \dot U(a,t)
+  =
+  D_tu(t,X(a,t))
+  =
+  \bigl(-\nabla p+\nu\Delta u\bigr)(t,X(a,t)).
+\]
+The pressure force and the viscous response to spatial curvature determine how that same parcel accelerates.
+Differentiate the same equality along the same path, and its jerk is
+\[
+  \ddot U(a,t)
+  =
+  D_t^2u(t,X(a,t))
+  =
+  D_t\bigl(-\nabla p+\nu\Delta u\bigr)(t,X(a,t)).
+\]
+Another material derivative gives the rate at which the jerk changes, and the process continues at every finite order while the field remains smooth.
+Higher names the derivative order.
+The response may shrink, pass through zero, or vanish.
+Each material rung is the derivative of the one below, evaluated from the same \NavierStokes{} field.
+
+Material differentiation follows the parcel, while Eulerian differentiation watches the field at one fixed spatial coordinate.
+Write the fixed-coordinate derivatives as
+\[
+  V_n:=\partial_t^n u.
+\]
+Expanding the material jerk gives
+\[
+  D_t^2u
+  =
+  V_2
+  +2(V_0\cdot\nabla)V_1
+  +(V_1\cdot\nabla)V_0
+  +(V_0\cdot\nabla)\bigl((V_0\cdot\nabla)V_0\bigr).
+\]
+The fixed-position second time derivative \(V_2\) is one part of the jerk carried by the parcel.
+The remaining terms record the parcel moving through spatial variation while the field changes in time.
+The identity \(D_t=\partial_t+u\cdot\nabla\) keeps the two readings joined at every order.
+
+\divider{The Temporal Rungs}
+
+The parcel has led us from velocity to material acceleration and jerk.
+To expose the fixed-coordinate derivatives from which those carried responses are assembled, differentiate the same field equation in time while holding \(x\) fixed.
+Write the pressure derivatives as
+\[
+  Q_n:=\partial_t^n p.
+\]
+The original momentum equation gives the first Eulerian rung:
+\[
+  V_1
+  =
+  \nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla Q_0.
+\]
+The time change of the velocity remains tied to transport, pressure, and viscous curvature.
+Differentiate once in time.
+The derivative can land on either velocity factor in the transport term, which gives
+\[
+  V_2
+  =
+  \nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1.
+\]
+The new row contains both ways the transporting field and the transported field can change.
+Differentiate again.
+The middle allocation now occurs twice:
+\[
+  V_3
+  =
+  \nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2.
+\]
+One more time derivative gives three copies of each neighbouring split:
+\[
+  \begin{aligned}
+  V_4
+  ={}&
+  \nu\Delta V_3
+  -(V_3\cdot\nabla)V_0
+  -3(V_2\cdot\nabla)V_1\\
+  &-3(V_1\cdot\nabla)V_2
+  -(V_0\cdot\nabla)V_3
+  -\nabla Q_3.
+  \end{aligned}
+\]
+The coefficients \(1,1\), then \(1,2,1\), then \(1,3,3,1\), count every way the time derivatives can split between the two copies of velocity.
+The first four rungs have exposed the same Pascal pattern.
+At arbitrary order it reads
+\[
+  V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (V_k\cdot\nabla)V_{n-k}
+  +
+  \nabla Q_n
+  =
+  \nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\]
+Every temporal rung is a fixed-coordinate derivative of the same velocity and pressure field.
+The recurrence couples it to lower rows through transport, to spatial curvature through viscosity, and to pressure at the same time order.
+
+\divider{Pressure and the Spatial Rungs}
+
+The temporal recurrence already contains \(\nabla Q_n\), \(\nabla V_n\), and \(\Delta V_n\).
+On the classical interval, fixed-coordinate time differentiation commutes with the spatial operators, so the pressure gradient and spatial derivatives remain in every temporal row.
+Taking the divergence of the original momentum equation and using \(\nabla\cdot u=0\) gives
+\[
+  -\Delta p
+  =
+  \partial_i\partial_j(u_i u_j),
+\]
+where repeated spatial indices are summed.
+After \(n\) time derivatives,
+\[
+  -\Delta Q_n
+  =
+  \partial_i\partial_j
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  V_{k,i}V_{n-k,j}.
+\]
+The elliptic equation determines \(Q_n\) up to a spatial constant; the manuscript's decay and pressure normalization fix that constant.
+The pressure response at one location can depend on the velocity configuration far beyond an arbitrarily small neighbourhood of that location.
+
+Spatial differentiation opens the same momentum law in another direction.
+Differentiate once in the coordinate \(x_\ell\):
+\[
+  \begin{aligned}
+  \partial_t(\partial_\ell u)
+  &+
+  (u\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_\ell u)\cdot\nabla)u
+  +
+  \nabla(\partial_\ell p)\\
+  &=
+  \nu\Delta(\partial_\ell u).
+  \end{aligned}
+\]
+The new transport term records how the spatial variation of the transporting velocity acts on the original velocity gradient.
+At the next spatial rung, the product rule creates both cross terms:
+\[
+  \begin{aligned}
+  \partial_t(\partial_{\ell m}u)
+  &+
+  (u\cdot\nabla)(\partial_{\ell m}u)
+  +
+  ((\partial_\ell u)\cdot\nabla)(\partial_m u)\\
+  &+
+  ((\partial_m u)\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_{\ell m}u)\cdot\nabla)u
+  +
+  \nabla(\partial_{\ell m}p)\\
+  &=
+  \nu\Delta(\partial_{\ell m}u).
+  \end{aligned}
+\]
+Every further time or spatial derivative repeats this nesting and creates the corresponding mixed row.
+
+Using a multi-index \(\alpha\) for the spatial derivatives, collect the velocity coordinates at one spacetime point in
+\[
+  \mathcal J^\infty u(t,x)
+  :=
+  \bigl(
+    \partial_t^n\partial_x^\alpha u(t,x)
+  \bigr)_{n\geq0,\,\alpha\in\mathbb N_0^3}.
+\]
+This is the derivative tower of the velocity.
+On every classical part of the solution, the tower is already present; following the parcel and differentiating the law exposes the relations among its rungs.
+At each classical instant, its rungs are simultaneous readings of one velocity field.
+Material acceleration, jerk, and every higher carried response are combinations of these fixed-coordinate derivatives along the trajectory.
+The pressure rows stay attached through the differentiated momentum equations, the Poisson equations, and the divergence-free constraint.
+
+Individual rungs are allowed to vanish.
+The zero solution has a vanishing tower, and any smooth steady flow has \(V_n=0\) for every \(n\geq1\); these vanishing temporal rungs are compatible with smoothness.
+Neither zero nor nonzero decides lawfulness.
+A rung is lawful when its value, together with the other terms at that order, satisfies the corresponding differentiated equation.
+
+A finite terminal value of \(U\) leaves the higher tower unsettled.
+Every derivative required for a smooth endpoint must extend to \(T\) with the relevant finite and compatible control.
+Failure of a temporal, spatial, or mixed rung is one way smooth extension can break down; this diagnostic does not assert that every loss of continuation has a single pointwise first rung, or that pointwise jet limits alone suffice for continuation.
