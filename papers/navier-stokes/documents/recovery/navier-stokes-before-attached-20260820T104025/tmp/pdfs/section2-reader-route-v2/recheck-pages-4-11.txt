@@ -1,0 +1,432 @@
+2     Critical Height and the Derivative Tower
+Finite energy does not prevent the velocity from sharpening in one part of the fluid. A
+nontrivial change can be carried through less and less distance while the total L2 -size remains
+bounded. That shrinking distance is the concentration a singularity would have to exploit.
+In three dimensions, vortex stretching is the motion that can drive it.
+
+2.1    Vortex Stretching
+The surrounding strain pulls the rotating region along its axis, and the region lengthens.
+Incompressibility preserves the volume of every material tube, so if that tube remains tube-like
+while it stretches, its average transverse area has to decrease. The contraction need not be
+the same in both transverse directions.
+    The vorticity itself is not frozen inside that material tube. Viscosity continues to diffuse
+it across the moving particle labels. The dangerous motion is the coupled one in which strain
+keeps amplifying the rotation while the vorticity core remains concentrated across smaller
+transverse widths. If the velocity difference across that core does not flatten at the same rate,
+the same variation is being carried through less distance and the spatial gradient grows. This
+is the stretching vortex we need to follow.
+    Write
+                                                    1             
+                             ω := ∇ × u,       S := ∇u + (∇u)T .
+                                                    2
+Taking the curl of Navier–Stokes gives
+                                 ∂t ω + (u · ∇)ω = Sω + ν∆ω.                              (2.1.1)
+The left side is the material rate of vorticity measured along a moving particle. When ω
+points along an extensional direction of S, the term Sω can amplify it. Since tr S = ∇ · u = 0,
+extension in that direction is balanced by net transverse contraction, though not necessarily
+by equal radial thinning.
+   Taking the scalar product with ω makes the two simultaneous effects exact:
+                       1                              ν
+                         (∂t + u · ∇)|ω|2 = ω · Sω + ∆|ω|2 − ν|∇ω|2 .
+                       2                              2
+The strain term can increase the vorticity. The viscous term contains both spatial diffusion
+and the negative gradient contribution. At a local maximum of |ω|2 , its complete pointwise
+contribution is nonpositive; after integration over the whole space, it gives the usual vorticity
+dissipation. Nothing in this identity says that the favourable alignment will persist or that
+the core will keep concentrating. It identifies the motion that would have to remain active
+for the sharpening to continue.
+    The kinetic-energy law watches the same motion from much farther away:
+                            1       2
+                                          Z t
+                                                             1
+                              ∥u(t)∥2 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                    (2.1.2)
+                            2              0                 2
+It controls the total velocity and the time-integrated dissipation. It does not record the width
+across which a local velocity change occurs. The stretching vortex has supplied exactly that
+missing feature: concentration into a smaller spatial scale.
+
+                                               2
+   To measure that concentration, use the full Navier–Stokes scaling. For λ > 1, set
+
+                      uλ (x, t) = λu(λx, λ2 t),           pλ (x, t) = λ2 p(λx, λ2 t).
+
+This maps a solution with datum u0 to a rescaled solution with datum
+
+                                        uλ,0 (x) = λu0 (λx).
+
+It compares one normalized profile at different scales; it does not say that the fixed solution
+evolves by repeatedly rescaling itself. Every term in the equation acquires the same factor:
+                                                                                    
+           ∂t uλ (x, t) = λ3 (∂t u)(λx, λ2 t), (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (λx, λ2 t),
+           ∇pλ (x, t) = λ3 (∇p)(λx, λ2 t),               ∆uλ (x, t) = λ3 (∆u)(λx, λ2 t).
+
+Inside this rescaled family, a spatial width is reduced by λ−1 , the velocity amplitude is
+multiplied by λ, and the time coordinate is reduced by λ−2 :
+
+                             x 7→ λ−1 x,         u 7→ λu,           t 7→ λ−2 t.
+
+   Scaling now defines the height at which concentration should be measured. For a
+homogeneous Sobolev norm,
+                                                                      2
+                                 ∥uλ (t)∥2Ḣ s = λ2s−1 u(λ2 t)               .
+                                                                      Ḣ s
+
+Exactly one exponent is unchanged:
+                                                               1
+                                     2s − 1 = 0,             s= .
+                                                               2
+With Λ := (−∆)1/2 , define
+                                       1                 1 1/2   2
+                             H(t) :=     ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .                              (2.1.3)
+                                       2                 2       2
+
+We call H(t) the critical height because the scaling leaves it standing while the scales around
+it move.
+    Under the same transformation,
+                                             2                                           2
+                  ∥uλ (t)∥22 = λ−1 u(λ2 t)       ,       ∥∇uλ (t)∥22 = λ ∇u(λ2 t)            ,
+                                             2                                           2
+
+while
+                                           Hλ (t) = H(λ2 t).
+The rescaled profile can carry less kinetic energy and larger derivative size at the same critical
+height. This is the gap left open by the energy law: concentration can become more severe
+without announcing itself through an increase in total kinetic energy.
+   Applying Λ1/2 to Navier–Stokes and pairing with Λ1/2 u gives
+                                                            2
+                                H ′ (t) + ν Λ3/2 u(t)           = P1/2 (t),                      (2.1.4)
+                                                            2
+
+                                                     3
+where                                      D                            E
+                          P1/2 (t) := − Re Λ1/2 (u · ∇)u , Λ1/2 u              .
+                                                                          L2
+The pressure pairing vanishes here because Λ commutes with spatial derivatives and u is
+divergence-free. The critical height rises only through the signed nonlinear transfer, while
+viscosity acts through the next spatial derivative.
+    The scaling has also shortened the time coordinate by λ−2 . That number is not the
+duration of a scale transition produced by the nonlinear solution. It is the clock on which
+viscosity responds once a smaller width is present.
+
+2.2     The Heat Clock and the Zeno Cascade
+The smaller width comes with a shorter viscous clock. This is already visible in the linear
+heat equation. If vt = ν∆v and the Fourier mass of v lies near |ξ| ≃ r−1 , then
+                                                          2
+                                 vb(ξ, t + δt) = e−ν|ξ| δt vb(ξ, t).
+
+An order-one heat damping occurs when ν|ξ|2 δt is of order one. A spatial width r is accordingly
+assigned the comparison time
+                                                  r2
+                                          τν (r) ≍ .                                      (2.2.1)
+                                                   ν
+Halving the width quarters this clock.
+    That is a comparison clock. The heat calculation does not create a smaller width in the
+nonlinear solution, and it does not say how long the solution remains at a width it has formed.
+It says that once structure at width r is present, viscosity responds to that structure on the
+scale r2 /ν. The same narrowing that can make a spatial gradient larger also makes viscous
+action faster.
+    Now place geometric widths beside those clocks:
+
+                                rn ≍ 2−n r0 ,         τν,n := τν (rn ).
+
+Then                                                   ∞
+                                        r02 −n         X
+                               τν,n ≍      4 ,                τν,n < ∞.
+                                        ν              n=0
+
+The clocks attached to successively smaller widths fit inside a finite total time. That is the
+arithmetic behind the Zeno cascade.
+    The arithmetic has not yet produced a cascade. An actual cascade would require one
+velocity history to form widths
+
+                                   r0 > r1 > r2 > · · · −→ 0
+
+at times
+                                  t0 < t1 < t2 < · · · ↑ τ < ∞,
+with the transition intervals themselves following a summable schedule. Neither the widths
+nor the relation between tn+1 − tn and τν,n comes from the heat multiplier alone. Those are
+
+
+                                                 4
+claims about the coupled Navier–Stokes evolution, and every transition would have to occur
+in the same fluid while viscosity is already acting on the newly formed scale.
+    The full scaling still shows why this finite-time geometry is dangerous. Fix a nonzero
+divergence-free profile ϕ ∈ Sσ whose Fourier support lies in a fixed annulus, and for 0 < ℓ < 1
+set
+                                                       x − xℓ
+                                                              
+                                                 −1
+                                      uℓ (x) := ℓ ϕ              .
+                                                           ℓ
+This is the spatial face of one normalized profile under the Navier–Stokes rescaling. It is a
+family of comparison fields, not a sequence already realized by the fixed solution. Its scales
+are exact:
+                         ∥uℓ ∥22 = ℓ ∥ϕ∥22 ,            2
+                                                   ∥uℓ ∥Ḣ          2
+                                                           1/2 = ∥ϕ∥Ḣ 1/2 ,
+
+                       ∥uℓ ∥L∞ = ℓ−1 ∥ϕ∥L∞ , ∥∇uℓ ∥L∞ = ℓ−2 ∥∇ϕ∥L∞ .
+The energy of the profile decreases with ℓ, its critical height stays fixed, its velocity amplitude
+grows like ℓ−1 , and its gradient grows like ℓ−2 . Its viscous comparison time is ℓ2 /ν. The same
+scale change has made the local field larger, its spatial variation sharper, and the available
+clock shorter, even though the kinetic energy carried by the profile is disappearing.
+    This normalized family displays the direction of concentration. It does not prove that
+the Navier–Stokes solution travels through the family, and its fixed critical height is not
+the growth of H(t) along an actual history. It shows why the energy law cannot dismiss a
+singularity by itself. The velocity field could be sharpening where the energy sees less and
+less of it.
+    The next step belongs to the hypothetical singularity, not to another clock calculation.
+Once the velocity field is followed toward its terminal behaviour, each of its successive time
+responses becomes part of the same object.
+
+2.3    The temporal Tower
+A singularity would not appear beside the velocity field as a separate event. It would be a
+loss of smoothness taking shape inside that field as the terminal time is approached. The
+velocity may be growing or sharpening, and the rate at which it changes has a rate of change
+of its own. The same reading continues through every later response. At a fixed spatial
+coordinate, the sequence is
+
+                            u,      ∂t u,    ∂t2 u,    ∂t3 u,    ....
+
+Each row is the Eulerian time derivative of the one before it. They are successive responses
+of the same field, not separate singularity scenarios. Together they form the temporal Tower.
+Write
+                            Vn := ∂tn u,    Qn := ∂tn p,    n ∈ N0 .                   (2.3.1)
+   Navier–Stokes tells us exactly what those rows contain. For V0 = u,
+
+                                 V1 = ν∆V0 − (V0 · ∇)V0 − ∇Q0 .
+
+One time derivative can land on either copy of velocity in the transport term:
+
+                         V2 = ν∆V1 − (V1 · ∇)V0 − (V0 · ∇)V1 − ∇Q1 .
+
+                                                5
+One more derivative produces the middle placement twice:
+
+                 V3 = ν∆V2 − (V2 · ∇)V0 − 2(V1 · ∇)V1 − (V0 · ∇)V2 − ∇Q2 .
+
+At order n, the binomial coefficients count every way the time derivatives can divide between
+the transporting velocity and the velocity being transported:
+                         n
+                                  !
+                         X      n
+                Vn+1 +            (Va · ∇)Vn−a + ∇Qn = ν∆Vn ,                               ∇ · Vn = 0.   (2.3.2)
+                         a=0    a
+
+This recurrence is the exact Eulerian temporal Tower generated by Navier–Stokes.
+   Pressure appears in every row as well. Taking the divergence of the original equation and
+using decay at spatial infinity recovers it from the velocity:
+
+                               −∆p = ∂i ∂j (ui uj ),                  p = Ri Rj (ui uj ).                 (2.3.3)
+
+Here Rj := ∂j (−∆)−1/2 , and the decaying normalization removes the arbitrary spatial constant
+in pressure at each time. After n time derivatives,
+                                                      n
+                                                                  !
+                                                      X      n
+                                   Qn = Ri Rj                  (Va )i (Vn−a )j .                          (2.3.4)
+                                                      a=0    a
+
+The velocity rows determine Qn , and ∇Qn appears in the equation for Vn+1 . The temporal
+Tower is already spatial inside the equation. Viscosity contributes ∆Vn , transport contributes
+a spatial derivative, and pressure is recovered through spatial singular integrals of the same
+velocity products. The resulting mixed coordinates are
+
+                         Jn,α := ∂tn ∂xα u,           Πn,α := ∂tn ∂xα p,            α ∈ N30 .             (2.3.5)
+
+One spatial derivative splits the transport term again:
+                                       
+                   ∂ℓ (Va · ∇)Vn−a = ((∂ℓ Va ) · ∇)Vn−a + (Va · ∇)∂ℓ Vn−a .
+
+For a general multi-index α, Leibniz’s rule gives
+                                  n X
+                                                  !     !
+                                  X           n       α
+                    Jn+1,α +                            (Ja,β · ∇)Jn−a,α−β + ∇Πn,α
+                                 a=0 β≤α      a       β
+                               = ν∆Jn,α ,             ∇ · Jn,α = 0.                                       (2.3.6)
+
+The pressure coordinates satisfy
+                                                            n
+                                                                       !
+                                                                      n
+                               −∆Πn,α = ∂xα ∂i ∂j
+                                                            X
+                                                                        (Va )i (Vn−a )j .                 (2.3.7)
+                                                            a=0       a
+
+    Following the candidate singularity through successive responses led down the time
+direction, and the equation has opened spatial derivatives inside every rung. Pressure stays
+tied to the same rows throughout. The next count is the spatial height carried by each rung.
+
+                                                            6
+2.4    More spatial regularity, not less
+The temporal Tower follows the candidate singularity through one response after another.
+Inside the critical-height calculation, every differentiation in time opens another step up in
+space. Viscosity inserts a Laplacian, and the scale weight of H (n) matches the Sobolev energy
+at height n + 12 . The Tower is asking for more spatial regularity, not less. It has only exposed
+that regularity so far; it has not bounded it. All identities below are taken on an interval
+where the solution is classical, so the differentiations and pairings are justified.
+    For
+                                1                            1
+                      Es (t) := ∥Λs u(t)∥22 ,     Es,λ (t) := ∥Λs uλ (t)∥22 ,
+                                2                            2
+the calculation from critical height gives
+
+                                    Es,λ (t) = λ2s−1 Es (λ2 t).                          (2.4.1)
+
+Since H = E1/2 ,
+                                        Hλ (t) = H(λ2 t).
+After n time derivatives,
+                                      (n)
+                                    Hλ (t) = λ2n H (n) (λ2 t).                           (2.4.2)
+The spatial energy at height n + 21 carries exactly the same factor:
+
+                                 En+1/2,λ (t) = λ2n En+1/2 (λ2 t).                       (2.4.3)
+
+Equal weight does not make H (n) and En+1/2 the same quantity. It tells us which spatial
+height belongs beside the n-th temporal response.
+   Applying Λs to Navier–Stokes and pairing the result with Λs u gives the viscous contribution
+                                                            2
+                         ν ⟨Λs u, Λs ∆u⟩L2 = −ν Λs+1 u          = −2νEs+1 .
+                                                            2
+
+Keep everything outside the viscous term in the complete transport–pressure transfer
+                                       D                            E
+                            Ps := − Re Λs u, Λs (u · ∇)u + ∇p                  .
+                                                                          L2
+
+The global pressure pairing vanishes against the divergence-free velocity. It is retained inside
+Ps so that the row remains pressure-complete before that cancellation is used. The complete
+spatial-energy row is
+                                     Es′ = Ps − 2νEs+1 .                                 (2.4.4)
+   The first few derivatives let us watch the spatial ladder appear. At critical height, one
+time derivative reaches the next spatial energy:
+
+                                      H ′ = P1/2 − 2νE3/2 .
+
+Differentiate again and use the same row at s = 32 :
+
+                              H ′′ = ∂t P1/2 − 2νE3/2
+                                                  ′
+
+
+                                  = ∂t P1/2 − 2νP3/2 + (2ν)2 E5/2 .
+
+                                                7
+The third derivative reaches one height farther:
+
+                           H ′′′ = ∂t2 P1/2 − 2ν∂t P3/2 + (2ν)2 P5/2 − (2ν)3 E7/2 .
+
+Each differentiation keeps every transfer term already produced and exposes one higher
+viscous energy. For n ≥ 1, induction gives
+                                                          n−1
+                               (n)           n
+                                                                 (−2ν)j ∂tn−1−j Pj+1/2 .
+                                                          X
+                           H         = (−2ν) En+1/2 +                                            (2.4.5)
+                                                           j=0
+
+Because ν > 0, the top spatial energy can be isolated:
+                                                                                          
+                                                              n−1
+                       En+1/2 = (−2ν)−n H (n) −                    (−2ν)j ∂tn−1−j Pj+1/2  .
+                                                              X
+                                                                                                 (2.4.6)
+                                                              j=0
+
+This is the exact gain and the exact limitation. The higher Sobolev energy has been isolated,
+but it has not become finite by being named. No bound follows until H (n) and every transfer
+term beside it are controlled as well.
+   The temporal Tower enters through H (n) itself. Since
+                                                 1 D 1/2                 E
+                                      H(t) =        Λ V0 (t), Λ1/2 V0 (t) 2 ,
+                                                 2                         L
+
+Leibniz’s rule gives
+
+                                        1 n
+                                                   !
+                                          X n     D                          E
+                        H   (n)
+                                  (t) =         Re Λ1/2 Va (t), Λ1/2 Vn−a (t) 2 .                (2.4.7)
+                                        2 a=0 a                               L
+
+
+The three entries on one rung remain different objects. The field response is Vn , the scalar
+response H (n) contracts pairs of temporal rows, and the viscous calculation exposes the spatial
+energy En+1/2 .
+
+
+          Table 2.4.1: The first time–space rungs of the critical-height calculation.
+                   order          Eulerian response     critical response       spatial height
+
+                       0               V0 = u                 H = E1/2              E1/2
+                       1               V1 = ut                   H′                 E3/2
+                       2              V2 = utt                  H ′′                E5/2
+                       3              V3 = uttt                 H ′′′               E7/2
+                       n              Vn = ∂tn u                H (n)              En+1/2
+
+    The temporal column records the successive responses of the candidate singularity. The spa-
+tial column records the higher Sobolev energies exposed beside them: E1/2 , E3/2 , E5/2 , E7/2 , . . ..
+    This is one exposed ladder, not yet a regularity estimate. The transfer terms can still
+carry the size of its highest rung, and the calculation has so far opened the ladder only inside
+the original velocity response V0 = u.
+
+                                                          8
+    The same calculation can be made inside every temporal response. For r ∈ N0 , let
+Er,s := 12 ∥Λs Vr ∥22 , and define the complete transport–pressure transfer in the r-th recurrence
+by                                  *         " r    !                    #+
+                                               X r
+                                       s    s
+                       Pr,s := − Re Λ Vr , Λ          (Va · ∇)Vr−a + ∇Qr        .
+                                               a=0 a                         L2
+Pairing the r-th temporal equation with Λ2s Vr gives
+                                      ′
+                                     Er,s = Pr,s − 2νEr,s+1 .                              (2.4.8)
+After any finite ascent depth k ≥ 1,
+                                                      k−1
+                    ∂tk Er,1/2 = (−2ν)k Er,k+1/2 +          (−2ν)j ∂tk−1−j Pr,j+1/2 .
+                                                      X
+                                                                                           (2.4.9)
+                                                      j=0
+
+The index r chooses how far the singularity has been followed in time, while k chooses
+how high the spatial ladder has been followed inside that response. These are independent
+coordinates of the same mixed jet.
+   One spatial ladder inside every temporal response forms the grid
+                                           Hx0 Hx1 Hx2 Hx3           ···
+                                V0 = u      •   •   •   •            ···
+                               V1 = ut      •   •   •   •            ···
+                               V2 = utt     •   •   •   •            ···
+                               V3 = uttt    •   •   •   •            ···
+                                   ..       ..  ..  ..  ..           ..
+                                    .        .   .   .   .              .
+ The bullets mark derivatives of the same velocity field, not bounds already proved for them.
+Moving down chooses a later Eulerian response, and moving across chooses a higher Sobolev
+height inside that response. Fix T < T∗ and set I = (0, T ). Control of every coordinate on
+this strict classical interval would place the velocity in the mixed intersection
+                                       ∞ \
+                                         ∞
+                                                 H r (I; H m (R3 )).
+                                       \
+                                  u∈                                                      (2.4.10)
+                                       r=0 m=0
+
+    The grid is infinite, but every request made inside it uses only finitely many rows and
+finitely many heights. Fix N and M , keep the rows through N and the columns through
+M , and one finite rectangle remains. Every coordinate lies in one of these rectangles, and a
+larger rectangle repeats the same coordinates wherever the two overlap. Classicality makes
+each finite rectangle finite at every strict cutoff T < T∗ . That gives a bound after T is fixed,
+not one bound valid for all T < T∗ . The remaining burden is exact: for each fixed (N, M ),
+the rectangle has to remain controlled as T ↑ T∗ , and every overlap has to keep the same
+derivative of the same field. Section 3 begins from those finite rectangles.
+
+
+3     The Intersection Theorem
+3.1    Why the finite pieces are rectangles
+Section 2 ended with a finite block of the mixed grid. Let (u, p) be the maximal classical
+solution generated by the fixed pair (u0 , ν), and write its lifespan as [0, T∗ ). On the finite-
+
+                                                  9
+
