@@ -1,0 +1,101 @@
+{
+  "field_resolutions": [
+    {"field":"writing_form","status":"accepted_for_run","value":"reader-facing mathematical manuscript repair","reason":"The live TeX source and the referee request fix the form."},
+    {"field":"writing_job","status":"accepted_for_run","value":"remove repetition and restore causal footing while preserving each section's distinct mathematical payment","reason":"The named spans and reader audit fix this job."},
+    {"field":"domain","status":"accepted_for_run","value":"three-dimensional incompressible Navier--Stokes exposition","reason":"The live manuscript fixes the domain."},
+    {"field":"audience","status":"accepted_for_run","value":"expert PDE referee and informed mathematical reader","reason":"The requested referee repair fixes the audience."},
+    {"field":"purpose","status":"accepted_for_run","value":"make the human manuscript read as one developing proof from one-fluid physical pressure to compatible-intersection closure","reason":"The current section order and requested repairs fix the purpose."},
+    {"field":"reader_start","status":"accepted_for_run","value":"knows the regularity problem but has not yet acquired the manuscript's Gold Silver VPI mixed-jet and compatible-rectangle vocabulary","reason":"This is the reader state at the opening of the manuscript."},
+    {"field":"reader_end","status":"accepted_for_run","value":"can follow why Section 1 develops one fluid and Section 2 converts that same history into fixed-space escalation and compatible finite proof objects","reason":"This is the reader change required before Section 3."},
+    {"field":"live_pressure","status":"accepted_for_run","value":"repeated tower derivations obscure the new payments; VPI arrives after restart without being defined at first use; the Venn universe and section routes lack footing; Zeno appears three times; a finite-volume graph introduces apparatus used nowhere later","reason":"Each defect is visible in the named live source spans and was independently identified by the reader audit."}
+  ],
+  "reader_start": "knows the regularity problem but has not yet acquired the manuscript's Gold Silver VPI mixed-jet and compatible-rectangle vocabulary",
+  "live_pressure": "repeated tower derivations obscure the new payments; VPI arrives after restart without being defined at first use; the Venn universe and section routes lack footing; Zeno appears three times; a finite-volume graph introduces apparatus used nowhere later",
+  "candidate_moves": [
+    {
+      "move_id": "causal-compression-with-distinct-payments",
+      "move": {
+        "selection": "add causal section footing; define only the schematic Silver universe while keeping closure on the fixed history; let restart require VPI and define VPI at first use; replace repeated tower derivations with callbacks while preserving fixed-Banach escalation and the new spatial mixed-jet split; replace the graph with actual moving neighbours; keep the public Zeno gap only in 1.2, the finite-velocity derivative-scale example in 1.8, and one callback in 2.1",
+        "connection": "Let each inherited result create the next unresolved need: restart requires one compatible field, VPI names that field relation, material escalation requires a fixed-space Eulerian form, and the temporal jet requires its spatial product split.",
+        "development": "Add only short causal overviews and first-use clarifications, compress repeated derivations to exact callbacks, preserve every new formula and proof payment, and delete apparatus that has no later role.",
+        "expression": "Use source-ready declarative mathematical prose, inherited notation, one sentence per source line, and the manuscript's one-fluid vocabulary without managerial summaries."
+      },
+      "layer_status": {"selection":"present","connection":"present","development":"present","expression":"present"},
+      "reader_change": "The reader sees one argument developing across the section boundary and can distinguish prior discovery from the new proof payment at each repeated site.",
+      "next_possibility": "Section 3 can receive one compatible family without asking the reader to reconstruct why the finite records belong to the same history.",
+      "content_basis": ["live-input"],
+      "sequence": [],
+      "evidence_uses": [
+        {"record_id":"decision-live-obstacle-before-label-001","source_move_id":"move-from-live-obstacle","relation":"supports","applicability_reason":"The restart burden should make the VPI law necessary before it is named."},
+        {"record_id":"decision-carry-established-thought-forward-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"Each callback must spend the established Section 1 result on a genuinely new Section 2 payment."},
+        {"record_id":"decision-unfold-causal-relations-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The section footing and handoffs must expose what mathematical relation produces the next object."},
+        {"record_id":"decision-earn-technical-language-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"VPI and the mixed jet should be named only after the reader feels the burden they answer."},
+        {"record_id":"decision-preserve-discovery-order-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The repair must preserve the one-fluid discovery before the fixed-space formalization and the compatible intersection before critical readouts."},
+        {"record_id":"decision-generate-expression-from-thought-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The replacement language is generated from each section's distinct thought movement rather than surface imitation."},
+        {"record_id":"decision-use-reader-shared-language-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The Silver universe and VPI first use require public definitions rather than private shorthand."},
+        {"record_id":"decision-develop-to-reader-change-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"Each retained subsection must leave the reader with the new object the following subsection uses."},
+        {"record_id":"decision-keep-example-inside-idea-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The Blown scale example remains where it clarifies finite velocity with divergent derivative scale, while duplicate Zeno calculations are removed."},
+        {"record_id":"decision-repair-exact-referent-001","source_move_id":"chosen-move","relation":"supports","applicability_reason":"The closure must be identified as work on the fixed history, not the ambient candidate universe."},
+        {"record_id":"observation-reader-led-concept-before-formal-name-001","source_move_id":"observed-move","relation":"supports","applicability_reason":"The endpoint need should precede the first formal name VPI."},
+        {"record_id":"decision-preserve-local-movement-role-001","source_move_id":"preserve-local-movement-and-role","relation":"supports","applicability_reason":"The approved Silver movement remains intact while only its later ambient universe is clarified."},
+        {"record_id":"decision-sentence-possesses-complete-thought-001","source_move_id":"make-the-payload-carry-the-thought","relation":"supports","applicability_reason":"Each short callback and overview line must still name its object and consequence."},
+        {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","source_move_id":"chosen-move","relation":"supports","applicability_reason":"Replacing the graph with actual moving neighbours keeps the physical object as one continuum rather than importing graph vertices as new actors."}
+      ],
+      "risks": [
+        "A callback could remove the exact new fixed-Banach or mixed-spatial payment.",
+        "A section overview could become process narration rather than causal footing.",
+        "Defining VPI too abstractly could detach it from the transported velocity field.",
+        "Compressing Zeno could erase the distinction between an estimate-permitted schedule and a generated fluid history."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "causal-compression-with-distinct-payments",
+  "choice_reason": "The user-fixed movement removes only repetition and orphan machinery while making every section inherit the exact pressure created by the section before it.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id":"decision-live-obstacle-before-label-001","status":"used","reason":"Restart creates the need that earns the VPI name."},
+    {"record_id":"decision-carry-established-thought-forward-001","status":"used","reason":"Callbacks must carry established results into new payments."},
+    {"record_id":"decision-unfold-causal-relations-001","status":"used","reason":"Causal footing is the central repair."},
+    {"record_id":"decision-name-operational-objects-001","status":"not_applicable","reason":"The live objects and notation are already fixed by the manuscript."},
+    {"record_id":"decision-earn-technical-language-001","status":"used","reason":"VPI and mixed-jet language need to arrive after their necessity is visible."},
+    {"record_id":"decision-preserve-discovery-order-001","status":"used","reason":"The existing one-fluid to formal-object order is protected."},
+    {"record_id":"decision-generate-expression-from-thought-001","status":"used","reason":"Expression must follow each repaired thought movement."},
+    {"record_id":"decision-use-reader-shared-language-001","status":"used","reason":"First-use definitions must be public and direct."},
+    {"record_id":"decision-develop-to-reader-change-001","status":"used","reason":"Each subsection must create the next reader need."},
+    {"record_id":"decision-keep-example-inside-idea-001","status":"used","reason":"The retained Blown example has one exact explanatory job."},
+    {"record_id":"decision-repair-exact-referent-001","status":"used","reason":"The fixed history must not be confused with the Silver ambient universe."},
+    {"record_id":"decision-generalize-to-writing-faculty-001","status":"not_applicable","reason":"This task repairs manuscript prose rather than a reusable skill."},
+    {"record_id":"observation-reader-led-concept-before-formal-name-001","status":"used","reason":"The restart burden should earn the VPI definition."},
+    {"record_id":"decision-preserve-local-movement-role-001","status":"used","reason":"The approved Silver movement is preserved at its existing role."},
+    {"record_id":"decision-separate-internal-inquiry-from-written-interrogative-001","status":"not_applicable","reason":"No new written question is proposed."},
+    {"record_id":"decision-sentence-possesses-complete-thought-001","status":"used","reason":"Compressed lines must remain complete propositions."},
+    {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","status":"used","reason":"The moving-neighbour replacement must keep one continuum object."}
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "exact source-ready replacements for the reader-facing seams and repeated derivations named by the referee audit",
+    "strongest_move_reason": "The repair makes the existing argument cumulative without changing its headings, order, proof objects, or settled theorem sequence.",
+    "intellectual_gain": "Each subsection now has a distinct payment: physical escalation, fixed-space escalation, spatial opening of the mixed jet, finite compatible cuts, and whole-terminal closure.",
+    "reader_gain": "The reader no longer has to distinguish three repetitions of the tower or infer how restart creates the need for VPI.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "Section 1 has already developed the one-fluid derivative tower and the physical endpoint scenes, while Section 2 must formalize rather than repeat them.",
+      "section_job": "Repair the handoffs and compress repeated material so that each existing section performs one distinct job.",
+      "outgoing_reader_need": "The reader must reach Section 3 holding one pressure-complete compatible family cut from one fixed history.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Add causal footing and exact callbacks inside the current headings without moving or adding sections.",
+      "new_section_job": "",
+      "enrichment_reason": "Only definitions and causal links needed to distinguish the existing mathematical payments are added.",
+      "enrichments": [
+        {"detail":"Define the Silver ambient universe and its boundary from the fixed-history closure.","reader_value":"Prevents the schematic Venn argument from being mistaken for the formal proof domain.","placement":"Section 1.5 around the definitions of Q, M, and S.","restraint":"Do not expand the candidate-class taxonomy."},
+        {"detail":"Define VPI at the restart handoff.","reader_value":"Makes the one-field endpoint burden visible before the acronym is used.","placement":"End of 1.8 and opening of 1.9.","restraint":"Do not add another VPI apparatus or heading."},
+        {"detail":"Compress repeated tower and Zeno derivations to exact callbacks.","reader_value":"Makes the fixed-Banach and mixed-spatial results visibly new.","placement":"Sections 2.1 through 2.3.","restraint":"Retain every new formula and the distinction between formal schedules and generated histories."}
+      ]
+    }
+  }
+}
