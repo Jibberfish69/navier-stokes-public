@@ -1,0 +1,53 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{What finite time implies after one response escapes}\label{sub:FiniteTimeResponseEscalation}
+
+The equation supplies the temporal rows; finite time supplies the implication
+between two adjacent rows.  If one response has no finite roof while the next is
+integrable, the fundamental theorem of calculus would nevertheless give the
+first a terminal limit.  The following argument records that contradiction.  It
+propagates escape through rows already known to exist and creates none of them.
+
+Use one fixed Banach space \(B\) throughout and write the Eulerian rows as
+\[
+  V_n(t):=\partial_t^n u(\cdot,t),
+\]
+Assume \(V_n:[0,T_*)\to B\) is locally absolutely continuous and has Bochner
+derivative \(V_{n+1}\).  For \(0\le s<t<T<T_*\),
+\[
+  V_n(t)-V_n(s)
+  =
+  \int_s^t V_{n+1}(\tau)\,d\tau
+\]
+and therefore
+\[
+  \lVert V_n(t)-V_n(s)\rVert_B
+  \le
+  \int_s^t \lVert V_{n+1}(\tau)\rVert_B\,d\tau.
+\]
+Suppose
+\[
+  \sup_{0<t<T_*}\lVert V_n(t)\rVert_B
+  =
+  \infty,
+\]
+Since \(\lVert V_n(0)\rVert_B\) is finite, the integral on the right cannot
+remain finite; hence
+\[
+  \int_0^{T_*}\lVert V_{n+1}(\tau)\rVert_B\,d\tau
+  =
+  \infty.
+\]
+The interval itself is finite, so an \(L^1\) divergence forces
+\[
+  \sup_{0<t<T_*}\lVert V_{n+1}(t)\rVert_B
+  =
+  \infty.
+\]
+Iteration is licensed only when every successive pair has this same fixed
+space, local absolute continuity, and Bochner-derivative identity.  Under those
+hypotheses, finite time turns escape of one temporal response into escape of the
+next.
